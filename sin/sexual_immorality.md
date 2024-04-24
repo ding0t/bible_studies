@@ -1,0 +1,1 @@
+the bible has allot to say - it is really bad

@@ -1,11 +1,12 @@
-# bible_end_times
-studies on end times
+# Bible_end_times
 
-There are significant and well argued perspectives on the end times. Particularly regarding the rapture being the _harpazo_ a distinct event from the second comping, versus them being the same event referred to in scripture.
+Studies on end times
 
-What will differentiate the two, does it matter? With all said you can be assured that the end is the same, the core promises are the same.
+There are two well argued perspectives on the end times. Firstly, the rapture, the _harpazo_, a distinct event from the second coming of Christ.  Secondly, the _harpazo_  being the same event referred to as the second coming of Christ in scripture.
 
-So - start with the core promises and texts.
+What will differentiate the correctness of the two, does it matter? With all said you can be assured that the end is the same, the core promises are the same. 
+
+So lets start with the core promises and texts.
 
 
 # Approach
@@ -60,7 +61,7 @@ So - start with the core promises and texts.
 >
 > 14:1 “Let not your hearts be troubled. Believe in God; believe also in me. 2 In my Father’s house are many rooms. If it were not so, would I have told you that I go to prepare a place for you? 3 And if I go and prepare a place for you, I will come again and will take you to myself, that where I am you may be also. 4 And you know the way to where I am going.”
         
-        * _Missler starts with this because_
+* _Missler starts with this because_
 
 ### Imminance of the rapture
 

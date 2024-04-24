@@ -1,3 +1,30 @@
+# Deliverance ministry
+
+## Common themes
+
+* Mixed up with other contemporary therapies
+* There is 'more' to access of God than the work of Christ
+
+
+## Observation
+
+* It seems to promote a works based faith:
+
+    > This is the preparatory work to do deliverance, it is not deliverance:
+    > * all your confessions are current
+    > * reveal family secrets
+    > * Is there historical addiction opr abuse?
+    > * Is there occult activity?
+
+## Is the teaching demonic?
+
+* It is not biblical, but twists biblical principals
+* they do ackowledge Jesus died on the cross 
+
+    > Approprate the work of Jesus on the cross
+
+
+
 # A demon cannot demonise (posess) a Christian
 
 There is no support in the Word for a Christian to be under the control of a demon.
@@ -95,28 +122,6 @@ The term 'demonised' does not refer to demon oppression. The work of a demon aga
 
 The fact of outward signs demonstrated by Christians during deliverance ministry is real. 
 
-## What we know of demons
-
-*todo: add the scripture references*
-
-1. Demons are real
-1. Demons are deceivers always
-1. Demons can be commanded to leave a person in the authority of Christ
-1. Jesus drove out demons
-1. Demon dwelling in a person is real
-1. Demons can control a person physically
-1. Demons can speak through a person
-1. Demons are not to be slandered
-1. Demons and water
-1. 
-
-## What we know of people who interact with demons
-
-1. The demons drive people to evil acts
-1. The demons harm people
-1. The demons masquerade as angels of light
-1. The demons lie to them
-1. The demonic powers are displayed 
-1. Thedemons prey on the suffering
+Concerningly, it is likely that Christians can delve unwittingly in [sorcery](/deliverance_ministry/sorcery.md)
 
 
