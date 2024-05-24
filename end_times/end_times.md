@@ -1,6 +1,6 @@
 # Bible_end_times
 
-Studies on end times
+Studies on end times, or more specifically the _blessed hope_.
 
 There are two well argued perspectives on the end times. Firstly, the rapture, the _harpazo_, a distinct event from the second coming of Christ.  Secondly, the _harpazo_  being the same event referred to as the second coming of Christ in scripture.
 
@@ -18,50 +18,16 @@ So lets start with the core promises and texts.
 1. Use multiple presentation formats
 
 
-# Literature
 
-## Pre- tribulation
+# Topics
 
-* [Missler on the rapture part i](https://www.youtube.com/watch?v=-lVcN9vsCbQ)
-* [Missler on the rapture part ii](https://www.youtube.com/watch?v=wdufyUUfRmk)
-
-## Post-tribulation
-* [](https://faithconnector.s3.amazonaws.com/teachingfaith/files/The_Last_Days_Vol_2_Updated/the_last_days_vol_2_updated_6-22-23_(1).pdf)
-
-
-# End times
-
-
-## Signs
-
-### God removes his people from judgement
-
-### Psalm 83 war
-
-* Objective is the destruction of Israel
-* Who - 
-
-#### references
-
-* [](https://faithconnector.s3.amazonaws.com/teachingfaith/files/The_Last_Days_Volume_11/not_the_gog-magog_war.pdf)
-* [](https://faithconnector.s3.amazonaws.com/teachingfaith/files/The_Last_Days_Volume_11/tents_of_edom.pdf)
-
-
-### Ezekiel 38 war
-
-* Objective is the plundering of Israel
-* Who - 
-
-
-## Rapture
-
-### Certainty
+### Certainty 
 
 > [John 14:1-4](https://esv.literalword.com/?q=John+14%3A1-4)
 >
-> 14:1 “Let not your hearts be troubled. Believe in God; believe also in me. 2 In my Father’s house are many rooms. If it were not so, would I have told you that I go to prepare a place for you? 3 And if I go and prepare a place for you, I will come again and will take you to myself, that where I am you may be also. 4 And you know the way to where I am going.”
+> 14:1 “Let not your hearts be troubled. Believe in God; believe also in me. 2 In my Father’s house are many rooms. If it were not so, would I have told you that I go to prepare a place for you? 3 And if I go and prepare a place for you, **I will come again and will take you to myself, that where I am you may be also.** 4 And you know the way to where I am going.”
         
-* _Missler starts with this because_
+* _Missler starts with this in discussion of the 'blessed hope'
 
 ### Imminance of the rapture
 
@@ -155,18 +121,20 @@ So lets start with the core promises and texts.
 
 ### Prepared for good works
 
-* [Epesians 2:10](https://esv.literalword.com/?q=ephesians+2%3A10)
-
-    `10 For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them.`
+> [Epesians 2:10](https://esv.literalword.com/?q=ephesians+2%3A10)
+>
+> 10 For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them.
 
 * _These good works are not just on earth - they are for eternity_
 
 ### Comforter withdrawn at the return of Christ
 
-
+ref?
 
 
 # Other end times views
+
+[amillenialism](https://en.wikipedia.org/wiki/Amillennialism)
 
 
 

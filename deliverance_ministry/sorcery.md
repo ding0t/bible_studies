@@ -1,15 +1,41 @@
+## Reasoning
+
+Where Christians cannot be posessed, and The Christian manifestation in deliverance is either:
+
+1. true
+    1. The person is not a christian
+    1. The manifestaion is of a demon - 
+    1. The manifestation is a hypnotism - of sorcery
+1. false
+    1. The manifestation is a charlitain, a deceit
+    1. The manifestation is similar to hypnotism
+
+**If it is true manifestation of a true christian, the means is by sorcery.**
+
+Is there evidence of those in deliverance ministry of Christians involved in sorcery?
+
+Are deliverance ministers listening and taught to listen to the words of demons?
+
+# Deliverance and the edge of sorcery
+
+[SDA but some good points](https://www.ministrymagazine.org/archive/1992/08/beware-of-deliverance-ministries)
+
+[pro chrsitian hypnosis](https://hypnosishealthinfo.com/library/a-christian-understanding-of-hypnosis)
+
 # What is sorcery
 
+It is the pursuit of ungodly powers. Sorcery is explicitly forbidden by God for us.
 
-
-It is the pursuit of ungodly powers
+Why; in looking into deliverance ministry, there is actual manifestation in professing Christians, what drives this event?
 
 ## Keywords
 
 Withcraft not used in ESV.
 
 ## those who practice sorcery
-magic, divination, secret arts, magic arts, sorceries, sorcerer, magicians, counselor, enchanters, expert in charms, astrologer, Chaldean
+magic, divination, secret arts, magic arts, sorceries, sorcerer, magicians, counselor, enchanters, expert in charms, astrologer
+
+Chaldean - although a people, are associate with acts of sorcery
 
 ### those who inquire of the dead
 medium, necromancer
@@ -40,12 +66,23 @@ Those who practice sorcery have persistantly existed.
 
 # The bible explicitly forbids sorcery
 
-ref
+https://sharonbpc.wordpress.com/2012/08/19/does-the-bible-warn-against-hypnotism/
 
 ## Christians are warned against sorcery
 
 
 # Why
+
+Main reason it is either no- or really bad - Jesus said a house divided against itself cannot stand when under the claim by satan you drv eout demons.
+
+> ✝️ [Matthew 12:22-32 (ESV)](https://esv.literalword.com/?q=Matthew+12%3A22-32)
+>
+> *Blasphemy Against the Holy Spirit*
+>
+> 22 Then a demon-oppressed man who was blind and mute was brought to him, and he healed him, so that the man spoke and saw. 23 And all the people were amazed, and said, “Can this be the Son of David?” 24 But when the Pharisees heard it, they said, “It is only by Beelzebul, the prince of demons, that this man casts out demons.” 25 Knowing their thoughts, he said to them, “Every kingdom divided against itself is laid waste, and no city or house divided against itself will stand. 26 And if Satan casts out Satan, he is divided against himself. How then will his kingdom stand? 27 And if I cast out demons by Beelzebul, by whom do your sons cast them out? Therefore they will be your judges. 28 But if it is by the Spirit of God that I cast out demons, then the kingdom of God has come upon you. 29 Or how can someone enter a strong man’s house and plunder his goods, unless he first binds the strong man? Then indeed he may plunder his house. 30 Whoever is not with me is against me, and whoever does not gather with me scatters. 31 Therefore I tell you, every sin and blasphemy will be forgiven people, but the blasphemy against the Spirit will not be forgiven. 32 And whoever speaks a word against the Son of Man will be forgiven, but whoever speaks against the Holy Spirit will not be forgiven, either in this age or in the age to come.
+
+
+
 
 ## What we know of demons
 
@@ -68,4 +105,4 @@ ref
 1. The demons masquerade as angels of light
 1. The demons lie to them
 1. The demonic powers are displayed 
-1. Thedemons prey on the suffering
+1. The demons prey on the suffering
