@@ -1,0 +1,54 @@
+site_name: Bible Studies by lewy
+site_url: 'https://ding0t.github.io/bible_end_times/'
+
+repo_url: 'https://github.com/ding0t/bible_end_times'
+
+# main navigation
+nav:
+  - Home: README.md
+  - Apologetics:
+    - Be prepared: "./apologetics/be_prepared.md"
+  - End times:
+    - Rapture: "./end_times/rapture.md"
+    - Day is near: "./end_times/day_is_near.md"
+
+
+# material theme has good documentation and configuration
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: blue
+  features:
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - navigation.tracking
+    - navigation.path
+    - navigation.sections
+    - navigation.expand
+
+# pip install mkdocstrings[python]
+# https://realpython.com/python-project-documentation-with-mkdocs/
+plugins:
+  - tags
+  - search
+
+markdown_extensions:
+  - tables
+  # enable code highlighting
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  # emojis - search here https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
