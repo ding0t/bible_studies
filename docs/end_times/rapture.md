@@ -9,7 +9,7 @@ What will differentiate the correctness of the two, does it matter? With all sai
 So lets start with the core promises and texts.
 
 
-# Approach
+## Approach
 
 1. Review literature
 1. Record all bible verses
@@ -17,9 +17,7 @@ So lets start with the core promises and texts.
 1. Add any comments you found ineresting
 1. Use multiple presentation formats
 
-
-
-# Topics
+## Topics
 
 ### Certainty 
 
@@ -132,7 +130,7 @@ So lets start with the core promises and texts.
 ref?
 
 
-# Other end times views
+## Other end times views
 
 [amillenialism](https://en.wikipedia.org/wiki/Amillennialism)
 
