@@ -4,13 +4,7 @@ site_url: 'https://ding0t.github.io/bible_end_times/'
 repo_url: 'https://github.com/ding0t/bible_end_times'
 
 # main navigation
-nav:
-  - Home: README.md
-  - Apologetics:
-    - Be prepared: "./apologetics/be_prepared.md"
-  - End times:
-    - Rapture: "./end_times/rapture.md"
-    - Day is near: "./end_times/day_is_near.md"
+# in .pages files
 
 
 # material theme has good documentation and configuration
@@ -45,7 +39,11 @@ markdown_extensions:
   - pymdownx.snippets
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
   - md_in_html
   # emojis - search here https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/

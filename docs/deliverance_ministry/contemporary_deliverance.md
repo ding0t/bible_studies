@@ -39,6 +39,7 @@ https://www.toach-ministries.com/our-blog/2021/8/25/7-signs-you-need-deliverance
 Book - prayers that heal the heart 2021
 
 SEVEN POSSIBLE ROOTS TO SIN ENERGY
+
 1. Generational sins and curses
 2. Ungodly soul ties
 3. Negative expectations 
@@ -60,6 +61,7 @@ SEVEN HEALING PRAYERS
 confess any sin in your life, so you are not cut off
 from ongoing revelation (Is. 59:1,2; I Jn. 1:9).
 
+# Ellel
 
 
 # Rob Reimer

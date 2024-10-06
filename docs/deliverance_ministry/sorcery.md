@@ -33,16 +33,18 @@ Why; in looking into deliverance ministry, there is actual manifestation in prof
 Withcraft not used in ESV.
 
 ## those who practice sorcery
+
 magic, divination, secret arts, magic arts, sorceries, sorcerer, magicians, counselor, enchanters, expert in charms, astrologer
 
 Chaldean - although a people, are associate with acts of sorcery
 
 ### those who inquire of the dead
+
 medium, necromancer
 
 ## Sorcery dwells with false prophecy
 
-See [test the spirits](/deliverance_ministry/test_the_spirits.md)
+See [test the spirits](test_the_spirits.md)
 
 > ✝️ [Acts 13:4-12 (ESV)](https://esv.literalword.com/?q=Acts+13%3A4-12)
 >
@@ -69,7 +71,6 @@ Those who practice sorcery have persistantly existed.
 https://sharonbpc.wordpress.com/2012/08/19/does-the-bible-warn-against-hypnotism/
 
 ## Christians are warned against sorcery
-
 
 # Why
 

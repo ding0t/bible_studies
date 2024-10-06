@@ -6,7 +6,7 @@ That it is clear sin is still having an effect, and that effect includes the dem
 
 Wouldnt you want more of Jesus now if you could.
 
-## THere were no CHristians at the time of Jesus earthly ministry
+## There were no Christians at the time of Jesus earthly ministry
 
 why - maybe to avoid a technicality regarding the evidence of no CHristians being demon posessed during that ministry and healed by Jesus
 
@@ -18,7 +18,7 @@ do not let the sun go down on your - lest you let the sun go down on your anger
 >
 > [Eph 4:26-27 ESV] 26 Be angry and do not sin; do not let the sun go down on your anger, 27 and give no opportunity to the devil.
 
-# an extra-biblical understanding of demons?
+# An extra-biblical understanding of demons?
 
 ## legal rights
 
