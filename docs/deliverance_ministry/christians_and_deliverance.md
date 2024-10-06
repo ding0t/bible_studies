@@ -8,13 +8,14 @@
 
 ## Observation
 
-* It seems to promote a works based faith:
+* It seems to promote a works based faith. THis is a common process for deliverance:
 
     > This is the preparatory work to do deliverance, it is not deliverance:
-    > * all your confessions are current
-    > * reveal family secrets
-    > * Is there historical addiction opr abuse?
-    > * Is there occult activity?
+    >
+    > - all your confessions are current
+    > - reveal family secrets
+    > - Is there historical addiction opr abuse?
+    > - Is there occult activity?
 
 ## Is the teaching demonic?
 
@@ -122,6 +123,6 @@ The term 'demonised' does not refer to demon oppression. The work of a demon aga
 
 The fact of outward signs demonstrated by Christians during deliverance ministry is real. 
 
-Concerningly, it is likely that Christians can delve unwittingly in [sorcery](/deliverance_ministry/sorcery.md)
+Concerningly, it is likely that Christians can delve unwittingly in [sorcery](sorcery.md)
 
 
