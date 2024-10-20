@@ -4,7 +4,10 @@ site_url: 'https://ding0t.github.io/bible_end_times/'
 repo_url: 'https://github.com/ding0t/bible_end_times'
 
 # main navigation
-# in .pages files
+nav:
+- Apologetics:
+  - Be prepared: "apologetics/be_prepared.md"
+  - On teaching: "apologetics/on_teaching.md"
 
 
 # material theme has good documentation and configuration
