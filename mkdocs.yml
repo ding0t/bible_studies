@@ -4,8 +4,7 @@ repo_url: 'https://github.com/ding0t/bible_end_times'
 #docs_dir: docs
 
 # main navigation
-#nav:
-#- Apologetics:
+nav:
 #  - Be prepared: "apologetics/be_prepared.md"
 #  - On teaching: "apologetics/on_teaching.md"
 

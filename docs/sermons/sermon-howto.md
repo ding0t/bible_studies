@@ -1,4 +1,12 @@
+---
+tags:
+    - sermons
+    - prophecy
+---
+
 # Sermons
+
+How to write one
 
 ## Principals
 
@@ -7,4 +15,9 @@
 1. Point to Christ
 1. Do not be afraid to challenge contemprary lies that are against the truth - do not apologiose
 1. Be clear. Have a clear focus to the teaching
-1. 
+
+## Tech
+
+- markdown
+- [mkdocs-slides](https://pypi.org/project/mkdocs-slides/)
+- [marp?](https://marp.app/)

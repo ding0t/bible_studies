@@ -1,4 +1,11 @@
-# Bible_end_times
+---
+About: A way of approaching the reading of Psalms
+tags:
+    - studies
+    - prophecy
+---
+
+# The rapture of the Church
 
 Studies on end times, or more specifically the _blessed hope_.
 
@@ -36,10 +43,10 @@ So lets start with the core promises and texts.
 > 36 “But concerning that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father only. 37 For as were the days of Noah, so will be the coming of the Son of Man. 38 For as in those days before the flood they were eating and drinking, marrying and giving in marriage, until the day when Noah entered the ark, 39 and they were unaware until the flood came and swept them all away, so will be the coming of the Son of Man. 40 Then two men will be in the field; one will be taken and one left. 41 Two women will be grinding at the mill; one will be taken and one left. 42 Therefore, stay awake, for you do not know on what day your Lord is coming. 43 But know this, that if the master of the house had known in what part of the night the thief was coming, he would have stayed awake and would not have let his house be broken into. 44 Therefore you also must be ready, for the Son of Man is coming at an hour you do not expect.
 
 
-* Imminance of the rapture
-* The rapture will be pre-judgement
-* The ark is prophetic of the rapture - to what extent?
-*  _you must also be ready_
+- Imminence of the rapture
+- The rapture will be pre-judgement
+- The ark is prophetic of the rapture - to what extent?
+-  _you must also be ready_
 
 > [Matthew 25:1-13](https://esv.literalword.com/?q=Matthew+25%3A1-13)
 > 
@@ -59,19 +66,19 @@ So lets start with the core promises and texts.
 >
 > 15 For this we declare to you by a word from the Lord, that we who are alive, who are left until the coming of the Lord, will not precede those who have fallen asleep. 16 For the Lord himself will descend from heaven with a cry of command, with the voice of an archangel, and with the sound of the trumpet of God. And the dead in Christ will rise first. 17 Then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air, and so we will always be with the Lord. 18 Therefore encourage one another with these words.
 
-* _declare to you by a word from the Lord_
-* _encourage one another with these words_
-* the voice of an archangel
-* the trumpet of God
+- _declare to you by a word from the Lord_
+- _encourage one another with these words_
+- the voice of an archangel
+- the trumpet of God
 
 > [1 Corinthians 15:51-53](https://esv.literalword.com/?q=1+Corinthians+15%3A51-53)
 >
 > 51 Behold! I tell you a mystery. We shall not all sleep, but we shall all be changed, 52 in a moment, in the twinkling of an eye, at the last trumpet. For the trumpet will sound, and the dead will be raised imperishable, and we shall be changed. 53 For this perishable body must put on the imperishable, and this mortal body must put on immortality.
 
-* _I tell you a mystery_
-* Trumpet
-* Imperishable
-* Immortality
+- _I tell you a mystery_
+- Trumpet
+- Imperishable
+- Immortality
 
 ### 
 
@@ -82,9 +89,9 @@ So lets start with the core promises and texts.
 > 2:1 Now concerning the coming of our Lord Jesus Christ and our being gathered together to him, we ask you, brothers, 2 not to be quickly shaken in mind or alarmed, either by a spirit or a spoken word, or a letter seeming to be from us, to the effect that the day of the Lord has come. 3 Let no one deceive you in any way. For that day will not come, unless the rebellion comes first, and the man of lawlessness is revealed, the son of destruction, 4 who opposes and exalts himself against every so-called god or object of worship, so that he takes his seat in the temple of God, proclaiming himself to be God. 5 Do you not remember that when I was still with you I told you these things? 6 And you know what is restraining him now so that he may be revealed in his time. 7 For the mystery of lawlessness is already at work. Only he who now restrains it will do so until he is out of the way.
 
 
-* _Our being gatehred together_
-* _that day will not come unless the rebellion comes first_ - does this mean post tribulation? NOte that there are many _day of the Lord_ events per the refernce for Psalm83 war
-* _he who now restrains it will do so until he is out of the way_ - what is it that restrains the son of destruction?
+- _Our being gatehred together_
+- _that day will not come unless the rebellion comes first_ - does this mean post tribulation? NOte that there are many _day of the Lord_ events per the refernce for Psalm83 war
+- _he who now restrains it will do so until he is out of the way_ - what is it that restrains the son of destruction?
 
 
 ## Tribulation
@@ -107,15 +114,16 @@ So lets start with the core promises and texts.
 * [Hebrews 10:10]()
 * [Hebrews 13:12]()
 
-* The betrothal (ketubah), with agreed price, bride set apart, drink wine to celebrate the covenant
-* Bridegroom departs to fathers house to prepare a room
+- The betrothal (ketubah), with agreed price, bride set apart, drink wine to celebrate the covenant
+- Bridegroom departs to fathers house to prepare a room
         * The time away is indeterminant
         * The bride prepares...
-* Return - surprise gathering, usually at midnight
+- Return - surprise gathering, usually at midnight
 
-#### REferences
-* [A study from sholarly perspective on ancient jewish weddings](https://hearingshofar.blogspot.com/2013/12/the-parable-of-bridegrooms-shofar.html)
-* [](https://www.truevinelife.com/growthinchrist/return-of-jesus-christ-part-2-the-prophetic-pattern-of-the-ancient-jewish-wedding)
+#### References
+
+- [A study from sholarly perspective on ancient jewish weddings](https://hearingshofar.blogspot.com/2013/12/the-parable-of-bridegrooms-shofar.html)
+- [](https://www.truevinelife.com/growthinchrist/return-of-jesus-christ-part-2-the-prophetic-pattern-of-the-ancient-jewish-wedding)
 
 ### Prepared for good works
 
@@ -133,6 +141,4 @@ ref?
 ## Other end times views
 
 [amillenialism](https://en.wikipedia.org/wiki/Amillennialism)
-
-
 

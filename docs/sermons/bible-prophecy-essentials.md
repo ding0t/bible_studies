@@ -1,3 +1,9 @@
+---
+tags:
+    - sermons
+    - prophecy
+---
+
 # Bible Prophecy Essentials
 
 ## Objective

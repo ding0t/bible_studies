@@ -1,0 +1,76 @@
+name: Marp CI Workflow
+on:
+  push:
+    paths:
+      - 'slides/**'
+    branches:
+      - master 
+      - main
+  # Allow manual build
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Ensure build dir exists
+        run: mkdir -p build
+
+      - name: Copy images
+        run: cp -R slides/img build/img
+
+      - name: Marp Build (README)
+        uses: docker://marpteam/marp-cli:v1.7.0
+        with:
+          args: slides/slides.md -o build/index.html --html
+        env:
+          MARP_USER: root:root
+
+      - name: Check if docs folder exists
+        id: docs-folder-exists
+        run: bash -c "[[ -d docs ]] ; echo \"has_docs=\$?\" >> \"$GITHUB_OUTPUT\""
+  
+      - name: Marp Build (docs folder, if exists)
+        if: steps.docs-folder-exists.outputs.has_docs == '0'
+        uses: docker://marpteam/marp-cli:v3.0.2
+        with:
+          args: -I docs/ -o build/docs/
+        env:
+          MARP_USER: root:root
+
+
+  deploy-job:
+    runs-on: ubuntu-latest
+    needs: build-job
+    steps:
+
+      - name: Configure git user
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Deploy preview
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./build/
+          preview-branch: main
+          umbrella-dir: pr-preview
+
+      - name: Deploy production
+        if: ${{ github.event_name == 'push' }}
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: main
+          folder: ./build/
+          clean-exclude: pr-preview/
+
+# References
+  # - https://github.com/robalexdev/marp-to-pages/blob/main/.github/workflows/marp-to-pages.yml
+  # - https://www.hashbangcode.com/snippets/marp-github-action-build-presentation-files

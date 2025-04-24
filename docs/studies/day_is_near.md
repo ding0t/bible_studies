@@ -104,15 +104,23 @@ It is not unreasonable to interpret 2 Peter 3 as meaning a literal 6000 years of
 
 By Essene calendar:
 
-1. 32AD -  Christ's crucifiction
-1. 75AD - End of age 4000 years
-1. 2025 - 2032-7
-1. 2032? - the second coming of Christ?
-1. 2075AD - End of 6000 years
+```mermaid
+timeline
+        title The ages by the Essene calendar
+        section age1 <br> 0 - 2000
+          0: creation
+        section age2 Q2 <br> 2000-4000
+          32 AD : Crucifiction
+          75 AD : 4000 :
+        section age3 <br> 4000-6000
+          2025 AD  
+        section age4 <br> 6000-7000
+          2075 AD : Year 6000
 
-[This site](https://www.fivedoves.com/letters/mar2024/luisv310-2.htm)
+```
 
-[Josh Peck](https://www.youtube.com/watch?v=3b2XhHOA6Rc)
+- [This site](https://www.fivedoves.com/letters/mar2024/luisv310-2.htm)
+- [Josh Peck](https://www.youtube.com/watch?v=3b2XhHOA6Rc)
 
 ## Signs of the end of age
 
