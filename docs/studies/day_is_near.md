@@ -1,7 +1,16 @@
 ---
 tags:
     - end times
+    - prophecy
 ---
+
+# The day is near
+
+> ✝️ [Rev 1:3 (ESV)](https://www.blueletterbible.org/esv/Rev/1/3)
+>
+> Blessed is the one who reads aloud the words of this prophecy, and blessed are those who hear, and who keep what is written in it, for the time is near.
+
+How is one to understand the time is near?
 
 ## Be patient
 

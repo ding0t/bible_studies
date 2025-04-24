@@ -1,4 +1,5 @@
 mkdocs-material
-mkdocs-diagrams
-diagrams
+
+#mkdocs-diagrams
+#diagrams
 # winget install Microsoft.VisualStudio.2022.BuildTools
