@@ -1,3 +1,9 @@
+---
+tags:
+    - sermons
+    - prophecy
+---
+
 # Foundations for studying the Word
 
 - James Webb telescope looked to see the big bang - what it found was no big bang that undermined 

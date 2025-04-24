@@ -1,8 +1,15 @@
-# Keywords
+---
+tags:
+    - studies
+    - deliverance
+    - apologetics
+---
 
-test, 
+# Test the spirits
 
-# Contend for the faith
+We are to be very careful what teaching we accept.
+
+## Contend for the faith
 
 The book of Jude is wholly dedicated to the matter of contending for the faith. Calling out the false shephersds who deny Christ.
 

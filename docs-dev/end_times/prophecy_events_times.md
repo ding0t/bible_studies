@@ -2,7 +2,7 @@
 
 A record of historical and future biblical events times and their prophecies.
 
-## Interpriting bible prophecy
+## Interpreting bible prophecy
 
 1. Bible prophecy uses a 360 day year [ref]()
 1. Be aware when days means years. For example, Daniels 70 weeks, means a week of 7 years.
@@ -28,7 +28,7 @@ A record of historical and future biblical events times and their prophecies.
 
 [Israel and the church](https://www.hebroots.org/hebrootsarchive/9802/980225_c.html)
 
-Is your understanding of the church corect - you assume gentiles...
+Is your understanding of the church correct - you assume gentiles...
 
 ```txt
 The HOUSE OF JACOB is ALL TWELVE TRIBES. These 12 tribes are 

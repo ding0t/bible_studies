@@ -2,9 +2,6 @@
 
 Discsussions on life after death
 
-# Keywords
-
-
 
 ## Where are we on death
 

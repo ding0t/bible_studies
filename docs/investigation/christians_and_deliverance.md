@@ -1,43 +1,57 @@
+---
+tags:
+    - investigation
+    - deliverance
+---
+
 # Deliverance ministry
+
+What is it, and how should one approach this ministry. 
+With extreme caution as the teaching, although it aims to cure of demons, opens a believer up to the lies of demons.
+
+Summary of findings:
+
+- Demons are real.
+- Demons can possess or control a body of a non-believer.
+- Christians cannot be possessed or be filled by a demon, but they can be oppressed from external.
+- Christians who manifest have likely gone through a process of 'emptying' - a thing warned against in scripture.
+- The practices of deliverance have in some cases been detailed by the interaction with demons, and thus founded not in scripture.
 
 ## Common themes
 
-* Mixed up with other contemporary therapies
-* There is 'more' to access of God than the work of Christ
-
+- Mixed up with other contemporary therapies
+- There is 'more' to access of God than the work of Christ
 
 ## Observation
 
-* It seems to promote a works based faith. THis is a common process for deliverance:
+Deliverance seems to promote a works based faith. This is a common process for deliverance:
 
     > This is the preparatory work to do deliverance, it is not deliverance:
     >
     > - all your confessions are current
     > - reveal family secrets
-    > - Is there historical addiction opr abuse?
+    > - Is there historical addiction or abuse?
     > - Is there occult activity?
 
 ## Is the teaching demonic?
 
-* It is not biblical, but twists biblical principals
-* they do ackowledge Jesus died on the cross 
+- It is not biblical, but twists biblical principals
+- they do acknowledge Jesus died on the cross 
 
-    > Approprate the work of Jesus on the cross
-
-
+    > Appropriate the work of Jesus on the cross
 
 # A demon cannot demonise (posess) a Christian
 
 There is no support in the Word for a Christian to be under the control of a demon.
 
-Although delivereance ministry teaches 'demonised' versus posessed, the term is a clear control that is closer to the common sense of 'posessed'. 
+Although deliverance ministry teaches 'demonised' versus possessed, the term is a clear control that is closer to the common sense of 'posessed'.
 
 The term 'demonised' does not refer to demon oppression. The work of a demon against a Christian.
 
 ## Antithesis
 
-1. There is no case of an evil spirit being driven out of a believer
-1. The Word is clear that a Christian has the Spirit, and the posession of God. The body is a temple of the Holy Spirit.
+1. There is no case of an evil spirit being driven out of a believer.
+1. The Word is clear that a Christian has the Spirit, and the possession of God. The body is a temple of the Holy Spirit.
 1. The empty house analogy is clear that something must dwell in a person. The house either has the Holy Spirit or a demon.
 
 ## The person as a temple for a spirit
@@ -119,10 +133,13 @@ The term 'demonised' does not refer to demon oppression. The work of a demon aga
 > 
 > 11 All these are empowered by one and the same Spirit, who apportions to each one individually as he wills.
 
-# How do we account for outward signs in deliverance ministry
+## How do we account for outward signs in deliverance ministry
 
 The fact of outward signs demonstrated by Christians during deliverance ministry is real. 
 
-Concerningly, it is likely that Christians can delve unwittingly in [sorcery](sorcery.md)
+Concerningly, it is likely that Christians can delve unwittingly in [sorcery](../sin/sorcery.md)
 
 
+## References
+
+- [Why not focus on deliverance](https://lifelibertyandlove.com/item/40-why-i-don-t-do-deliverance-ministry-anymore-part-1)

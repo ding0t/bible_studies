@@ -21,3 +21,6 @@ What attitude should one have?
 - With gentleness and respect
 - having good conscience
 
+> ✝️ [Bok ch:vv (ESV)](https://www.blueletterbible.org/esv/Bok/ch/vv)
+>
+> 

@@ -1,4 +1,5 @@
 mkdocs-material
+#mkdocs-slides
 
 #mkdocs-diagrams
 #diagrams

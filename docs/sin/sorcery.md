@@ -1,3 +1,16 @@
+---
+tags:
+    - studies
+    - deliverance
+    - sin
+---
+
+# Sorcery
+
+Where should a Christian stand in relation to sorcery. Like sexual sin, as far away as possible.
+
+This study was inspired by studies into deliverance ministry and noticing overlaps with practices of sorcery.
+
 ## Reasoning
 
 Where Christians cannot be posessed, and The Christian manifestation in deliverance is either:
@@ -20,7 +33,7 @@ Are deliverance ministers listening and taught to listen to the words of demons?
 
 [SDA but some good points](https://www.ministrymagazine.org/archive/1992/08/beware-of-deliverance-ministries)
 
-[pro chrsitian hypnosis](https://hypnosishealthinfo.com/library/a-christian-understanding-of-hypnosis)
+[pro Christian hypnosis](https://hypnosishealthinfo.com/library/a-christian-understanding-of-hypnosis)
 
 # What is sorcery
 
@@ -30,9 +43,9 @@ Why; in looking into deliverance ministry, there is actual manifestation in prof
 
 ## Keywords
 
-Withcraft not used in ESV.
+The term witchcraft not used in ESV.
 
-## those who practice sorcery
+## Those who practice sorcery
 
 magic, divination, secret arts, magic arts, sorceries, sorcerer, magicians, counselor, enchanters, expert in charms, astrologer
 
@@ -44,7 +57,7 @@ medium, necromancer
 
 ## Sorcery dwells with false prophecy
 
-See [test the spirits](test_the_spirits.md)
+See [test the spirits](../apologetics/test_the_spirits.md)
 
 > ✝️ [Acts 13:4-12 (ESV)](https://esv.literalword.com/?q=Acts+13%3A4-12)
 >
