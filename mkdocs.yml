@@ -1,13 +1,13 @@
 site_name: Bible Studies by lewy
-site_url: 'https://ding0t.github.io/bible_end_times/'
-
+site_url: ''
 repo_url: 'https://github.com/ding0t/bible_end_times'
+#docs_dir: docs
 
 # main navigation
-nav:
-- Apologetics:
-  - Be prepared: "apologetics/be_prepared.md"
-  - On teaching: "apologetics/on_teaching.md"
+#nav:
+#- Apologetics:
+#  - Be prepared: "apologetics/be_prepared.md"
+#  - On teaching: "apologetics/on_teaching.md"
 
 
 # material theme has good documentation and configuration
@@ -50,6 +50,6 @@ markdown_extensions:
   - attr_list
   - md_in_html
   # emojis - search here https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  #- pymdownx.emoji:
+  #    emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #    emoji_generator: !!python/name:material.extensions.emoji.to_svg

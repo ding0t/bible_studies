@@ -13,7 +13,7 @@ A record of historical and future biblical events times and their prophecies.
 
 [good perspective](https://www.hebrew4christians.com/Holidays/Calendar/calendar.html)
 
-| Esene Time | Gregorian TIme | Event | Bible Reference | Comment | Links |
+| Esene Time | Gregorian Time | Event | Bible Reference | Comment | Links |
 |---|---|---|---|---|---|
 |||Creation||||
 |||Flood||||
@@ -26,7 +26,7 @@ A record of historical and future biblical events times and their prophecies.
 
 
 
-[Israel and the chrch](https://www.hebroots.org/hebrootsarchive/9802/980225_c.html)
+[Israel and the church](https://www.hebroots.org/hebrootsarchive/9802/980225_c.html)
 
 Is your understanding of the church corect - you assume gentiles...
 
