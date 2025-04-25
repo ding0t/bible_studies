@@ -2,21 +2,24 @@
 marp: true
 ---
 
-# My Presentation
+# Bible Prophecy Essentials
 
 ---
-
+<!-- 
+footer: "Bible Prophecy Essentials"
+ -->
 ## Slide 1
 
 - Item 1
 - Item 2
 - Item 3
 
+<!-- 
+Some notes here that might be useful.
+-->
+
 ---
-
-## Slide 2
-
-![Image](https://picsum.photos/800/600)
+![w:80%](img/larkin/c07.jpg)
 
 ---
 
