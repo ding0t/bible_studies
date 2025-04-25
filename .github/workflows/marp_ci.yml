@@ -44,6 +44,12 @@ jobs:
       #  env:
       #    MARP_USER: root:root
 
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: marp-slides
+          path: build/**
+
       - name: Configure git user
         run: |
           git config --local user.name "github-actions[bot]"
