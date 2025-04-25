@@ -7,7 +7,7 @@ env:
 on:
   push:
     paths:
-      - '${{env.JOB_SRC_DIR}}/**'
+      - 'slides-src/**'
     branches:
       - master 
       - main
