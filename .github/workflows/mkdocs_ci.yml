@@ -36,6 +36,8 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
+      
+      - name: Install python requirements
         run: pip install -r requirements.txt
     
       - name: deploy pages
