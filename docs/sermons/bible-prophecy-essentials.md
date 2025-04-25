@@ -10,6 +10,10 @@ tags:
 
 To provide a foundation for understanding the bible in context of prophecy
 
+## Slides
+
+--8<-- "../../slides/sermon-prophecy-intro.html"
+
 ## Outline
 
 > ✝️ [Luk 24:27 (ESV)](https://www.blueletterbible.org/esv/Luk/24/27)

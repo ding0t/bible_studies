@@ -2,7 +2,7 @@
 marp: true
 ---
 
-# Learning Hebrew
+# So you want to learn Biblical Hebrew
 
 ---
 
@@ -14,9 +14,9 @@ marp: true
 
 ## Full Alphabet
 
-| Hebrew Letter | Name | Pronunciation | Transliteration | Note |
+| Letter | Name | Pronunciation | Transliteration | Note |
 | --- | --- | --- | --- |  --- |
-| א | Alef | (silent) | ʾ | Guttural |
+| א | Alef | (silent) | ʾ | Guttural, silent |
 | ב | Bet | b as in boy | b | -- |
 | ג | Gimel | g as in God | g | -- |
 | ד | Dalet | d as in day | d | -- |
@@ -45,4 +45,4 @@ marp: true
 ## Resources
 
 - [Aleph with Beth Free Hebrew](https://freehebrew.online/)
-- [Playlist](https://www.youtube.com/playlist?list=PLq1vmb-z7PpQt2PDNUr7XOzBjWAOWf0Rt)
+- [Aleph with Beth Playlist](https://www.youtube.com/playlist?list=PLq1vmb-z7PpQt2PDNUr7XOzBjWAOWf0Rt)
