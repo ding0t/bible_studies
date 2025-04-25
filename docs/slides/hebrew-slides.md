@@ -1,8 +1,10 @@
 ---
 marp: true
+theme: gaia
+paginate: true
 ---
 
-# So you want to learn Biblical Hebrew
+# Learning Biblical Hebrew
 
 ---
 
