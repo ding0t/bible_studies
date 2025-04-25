@@ -25,7 +25,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: configure python
+      - name: Configure python
         uses: actions/setup-python@v5
         with:
           python-version: 3.x
@@ -44,5 +44,5 @@ jobs:
       - name: Install python requirements
         run: pip install -r requirements.txt
     
-      - name: deploy pages
+      - name: Deploy pages
         run: mkdocs gh-deploy --force
