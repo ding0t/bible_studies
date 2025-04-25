@@ -1,3 +1,6 @@
+---
+marp: false
+---
 # Slides index
 
 ## Bible prophecy

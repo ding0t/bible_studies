@@ -1,5 +1,7 @@
 ---
 marp: true
+theme: default
+paginate: true
 ---
 
 # Bible Prophecy Essentials
@@ -19,7 +21,7 @@ Some notes here that might be useful.
 -->
 
 ---
-![w:80%](img/larkin/c07.jpg)
+![w:80%](../img/larkin/c07.jpg)
 
 ---
 
