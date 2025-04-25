@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check dirs
-        echo: "Our dirs are src ${{env.JOB_SRC_DIR}} and build ${{env.JOB_BLD_DIR}}"
+        run: echo "Our dirs are src ${{env.JOB_SRC_DIR}} and build ${{env.JOB_BLD_DIR}}"
       
       - name: Ensure build dir exists
         run: mkdir -p ${{env.JOB_BLD_DIR}}
