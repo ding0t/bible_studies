@@ -18,6 +18,7 @@ permissions:
   contents: write
 
 jobs:
+  # Jobs are complete new runner instances
   build-job:
     runs-on: ubuntu-latest
 
