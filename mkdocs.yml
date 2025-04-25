@@ -32,22 +32,28 @@ plugins:
 
 markdown_extensions:
   - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
   # enable code highlighting
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
+  # allow inclusion of files outside docs
   - pymdownx.snippets
-  - admonition
   - pymdownx.details
+  # use pretty task lists
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - attr_list
-  - md_in_html
+
   # emojis - search here https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
   #- pymdownx.emoji:
   #    emoji_index: !!python/name:material.extensions.emoji.twemoji
