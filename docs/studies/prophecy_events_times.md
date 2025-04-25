@@ -1,3 +1,10 @@
+---
+tags:
+    - studies
+    - end times
+    - prophecy
+---
+
 # Events and their times
 
 A record of historical and future biblical events times and their prophecies.

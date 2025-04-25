@@ -10,25 +10,18 @@ tags:
 
 To provide a foundation for understanding the bible in context of prophecy
 
-## Slides
+## Image
 
-
-
+![image](../img/larkin/c07.jpg)
 
 ## Outline
 
-> ✝️ [Luk 24:27 (ESV)](https://www.blueletterbible.org/esv/Luk/24/27)
->
-> And beginning with Moses and all the Prophets, he interpreted to them in all the Scriptures the things concerning himself.
+
 
 - Background
     - Moses: Genesis to Deuteronomy. 
 - Why
-    - 70% of the bible is prophecy
-    - Know our future hope - encourage one another
-    - Faith builder- that you may believe that Jesus is the Christ
-    - Bereans
-    - So you may not be decieved by the lies of the workld, not be snatched away
+
 - Times
     - Prophecy fulfilled
     - Prophecy being fulfilled
@@ -52,11 +45,4 @@ To provide a foundation for understanding the bible in context of prophecy
     - Israel
     - Judgement
     - Eternal life
-- Important prophecies
-    - Genesis
-    - Daniel 70 weeks
-    - Ezekiel
-    - Jesus olivet discourse
-    - Corinthians
-    - Thessalonians
-    - Revelation
+

@@ -4,7 +4,7 @@ tags:
     - prophecy
 ---
 
-# Sermons
+# Sermon principals
 
 How to write one
 
@@ -18,6 +18,11 @@ How to write one
 
 ## Tech
 
-- markdown
-- [mkdocs-slides](https://pypi.org/project/mkdocs-slides/)
-- [marp?](https://marp.app/)
+- `markdown` for ease of transport
+- [mkdocs]() to build this site
+- [marp](https://marp.app/) to make html or pptx or pdf slide decks
+
+## Implementation
+
+- [img](../img/) contains a common store of media files for md and marp
+- [slides](../slides/) contains slide src and outputs
