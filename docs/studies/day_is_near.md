@@ -1,5 +1,6 @@
 ---
 tags:
+    - studies
     - end times
     - prophecy
 ---
@@ -107,14 +108,14 @@ By Essene calendar:
 ```mermaid
 timeline
         title The ages by the Essene calendar
-        section age1 <br> 0 - 2000
-          0: creation
-        section age2 Q2 <br> 2000-4000
+        section Day 1-2 <br> 0-2000
+          0: Creation
+        section Day 3-4 <br> 2000-4000
           32 AD : Crucifiction
-          75 AD : 4000 :
-        section age3 <br> 4000-6000
+          75 AD : 4000
+        section Day 5-6<br> 4000-6000
           2025 AD  
-        section age4 <br> 6000-7000
+        section Day 7 <br> 6000-7000
           2075 AD : Year 6000
 
 ```
