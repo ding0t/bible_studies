@@ -22,7 +22,7 @@ jobs:
       - name: Ensure build dir exists
         run: mkdir -p build
 
-      - name: Copy images
+      - name: Copy images to build
         run: cp -R slides/img build/img
 
       - name: Marp Build (README)
@@ -44,33 +44,36 @@ jobs:
       #  env:
       #    MARP_USER: root:root
 
-
-  deploy-job:
-    runs-on: ubuntu-latest
-    needs: build-job
-    steps:
-
       - name: Configure git user
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Deploy preview
-        if: ${{ github.event_name == 'pull_request' }}
-        uses: rossjrw/pr-preview-action@v1
-        with:
-          source-dir: ./build/
-          preview-branch: main
-          umbrella-dir: pr-preview
+      - name: Stage build files
+        run: git add build/**
+     
+      - name: Commit changed files
+        run: git commit -m "CI updating presentation files." 
+    
+      - name: Push build
+        run: git push origin main
 
-      - name: Deploy production
-        if: ${{ github.event_name == 'push' }}
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: main
-          folder: ./build/
-          clean-exclude: pr-preview/
+      #- name: Deploy preview
+      #  if: ${{ github.event_name == 'pull_request' }}
+      #  uses: rossjrw/pr-preview-action@v1
+      #  with:
+      #    source-dir: ./build/
+      #    preview-branch: main
+      #    umbrella-dir: pr-preview
 
-# References
+      #- name: Deploy production
+      #  if: ${{ github.event_name == 'push' }}
+      #  uses: JamesIves/github-pages-deploy-action@v4
+      #  with:
+      #    branch: main
+      #    folder: ./build/
+      #    clean-exclude: pr-preview/
+
+  # References
   # - https://github.com/robalexdev/marp-to-pages/blob/main/.github/workflows/marp-to-pages.yml
   # - https://www.hashbangcode.com/snippets/marp-github-action-build-presentation-files
