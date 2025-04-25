@@ -1,8 +1,13 @@
 name: Marp CI Workflow
+
+env:
+  JOB_SRC_DIR: 'slides-src'
+  JOB_BLD_DIR: 'slides'
+
 on:
   push:
     paths:
-      - 'slides/**'
+      - '${{env.JOB_SRC_DIR}}/**'
     branches:
       - master 
       - main
@@ -15,16 +20,10 @@ permissions:
 jobs:
   build-job:
     runs-on: ubuntu-latest
-    env:
-        JOB_SRC_DIR: 'slides-src'
-        JOB_BLD_DIR: 'slides'
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Check dirs
-        run: echo "Our dirs are src ${{env.JOB_SRC_DIR}} and build ${{env.JOB_BLD_DIR}}"
       
       - name: Ensure build dir exists
         run: mkdir -p ${{env.JOB_BLD_DIR}}
@@ -38,18 +37,6 @@ jobs:
           args: -I ${{env.JOB_SRC_DIR}}/ -o ${{env.JOB_BLD_DIR}}/ --html
         env:
           MARP_USER: root:root
-
-      #- name: Check if docs folder exists
-      #  id: docs-folder-exists
-      #  run: bash -c "[[ -d docs ]] ; echo \"has_docs=\$?\" >> \"$GITHUB_OUTPUT\""
-  
-      #- name: Marp Build (docs folder, if exists)
-      #  if: steps.docs-folder-exists.outputs.has_docs == '0'
-      #  uses: docker://marpteam/marp-cli:v3.0.2
-      #  with:
-      #    args: -I docs/ -o build/docs/
-      #  env:
-      #    MARP_USER: root:root
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
@@ -70,22 +57,6 @@ jobs:
     
       - name: Push build
         run: git push origin main
-
-      #- name: Deploy preview
-      #  if: ${{ github.event_name == 'pull_request' }}
-      #  uses: rossjrw/pr-preview-action@v1
-      #  with:
-      #    source-dir: ./build/
-      #    preview-branch: main
-      #    umbrella-dir: pr-preview
-
-      #- name: Deploy production
-      #  if: ${{ github.event_name == 'push' }}
-      #  uses: JamesIves/github-pages-deploy-action@v4
-      #  with:
-      #    branch: main
-      #    folder: ./build/
-      #    clean-exclude: pr-preview/
 
   # References
   # - https://github.com/robalexdev/marp-to-pages/blob/main/.github/workflows/marp-to-pages.yml
