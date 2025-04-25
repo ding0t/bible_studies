@@ -22,17 +22,20 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Check dirs
+        echo: "Our dirs are src ${{env.JOB_SRC_DIR}} and build ${{env.JOB_BLD_DIR}}"
       
       - name: Ensure build dir exists
-        run: mkdir -p $JOB_BLD_DIR
+        run: mkdir -p ${{env.JOB_BLD_DIR}}
 
       - name: Copy images to build
-        run: cp -R $JOB_SRC_DIR/img $JOB_BLD_DIR/img
+        run: cp -R ${{env.JOB_SRC_DIR}}/img ${{env.JOB_BLD_DIR}}/img
 
       - name: Marp Build (README)
         uses: docker://marpteam/marp-cli:v1.7.0
         with:
-          args: -I $JOB_SRC_DIR/ -o $JOB_BLD_DIR/ --html
+          args: -I ${{env.JOB_SRC_DIR}}/ -o ${{env.JOB_BLD_DIR}}/ --html
         env:
           MARP_USER: root:root
 
@@ -52,7 +55,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: marp-slides
-          path: $JOB_BLD_DIR/**
+          path: ${{env.JOB_BLD_DIR}}/**
 
       - name: Configure git user
         run: |
@@ -60,7 +63,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Stage build files
-        run: git add $JOB_BLD_DIR/**
+        run: git add ${{env.JOB_BLD_DIR}}/**
      
       - name: Commit changed files
         run: git commit -m "CI updating presentation files." 
