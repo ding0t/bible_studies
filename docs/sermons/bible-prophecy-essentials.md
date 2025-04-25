@@ -12,7 +12,8 @@ To provide a foundation for understanding the bible in context of prophecy
 
 ## Slides
 
---8<-- "../../slides/sermon-prophecy-intro.html"
+
+
 
 ## Outline
 

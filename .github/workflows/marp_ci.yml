@@ -1,13 +1,13 @@
 name: Marp CI Workflow
 
 env:
-  JOB_SRC_DIR: 'slides-src'
-  JOB_BLD_DIR: 'slides'
+  JOB_SRC_DIR: 'docs/slides'
+  JOB_BLD_DIR: 'docs/slides'
 
 on:
   push:
     paths:
-      - 'slides-src/**'
+      - 'docs/slides/**'
     branches:
       - master 
       - main
@@ -26,11 +26,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Ensure build dir exists
-        run: mkdir -p ${{env.JOB_BLD_DIR}}
-
-      - name: Copy images to build
-        run: cp -R ${{env.JOB_SRC_DIR}}/img ${{env.JOB_BLD_DIR}}/img
+      #- name: Ensure build dir exists
+      #  run: mkdir -p ${{env.JOB_BLD_DIR}}
+#
+      #- name: Copy images to build
+      #  run: cp -R ${{env.JOB_SRC_DIR}}/img ${{env.JOB_BLD_DIR}}/img
 
       - name: Marp Build (README)
         uses: docker://marpteam/marp-cli:v1.7.0
@@ -62,3 +62,4 @@ jobs:
   # References
   # - https://github.com/robalexdev/marp-to-pages/blob/main/.github/workflows/marp-to-pages.yml
   # - https://www.hashbangcode.com/snippets/marp-github-action-build-presentation-files
+  # - https://dev.to/chris_ayers/marp-create-presentations-with-markdown-5e6k?comments_sort=oldest
