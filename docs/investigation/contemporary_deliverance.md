@@ -10,9 +10,11 @@ Studies into contemporary deliverance
 
 'The bible fades into obscurity as the church promotes false and heretical teachings. Where miracles are emphasised, Jesus is denied' [quote source](https://gospelliving.blogspot.com/2012/05/re-pastor-dayna-muldoon-exposed.html)
 
-He may speak things that seem strange and unusual to you but it is the holy spirit.
+Some quotes of contemporary deliverance:
 
-You are receiving a fresher and newer annointing.
+> He may speak things that seem strange and unusual to you but it is the holy spirit.
+>
+> You are receiving a fresher and newer annointing.
 
 ## Andrea Williams
 
