@@ -11,13 +11,14 @@ Around 2006 I experienced it most convincingly:
 
 - very heavy feeling of evil crushing me
 - no way to shout
-- Jo woke and said she saw an angel over top of me
+- My wife woke and said she saw an angel over top of me
 
 ## Interpretation
 
 - The weight was evil, felt evil, felt suffocating
-- The weight was a real observable presence
+- The weight was a real and externally observable presence
 - The presence wanted to corrupt thoughts
+- The presence was able to corrupt dreams, to tempt
 
 ## Scripture
 
