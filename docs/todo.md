@@ -6,9 +6,11 @@ tags:
 
 # ToDo list
 
+- [ ] Meaning of the last trumpet in 1 Cor 15 and 1 Thess 4. 
 - [ ] [Nephilim](#nephilim)
 - [ ] [Tribulation](#tribulation-perspectives)
 - [ ] [End times](#end-times)
+    - ordered events
 - [ ] [Assurance of salvation](#assurance)
 - [ ] [Hebrew roots](#heberew-roots-of-scripture-in-application)
 
