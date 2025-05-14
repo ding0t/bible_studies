@@ -1,6 +1,7 @@
 ---
 tags:
     - studies
+    - sin
     - idolatry
 ---
 

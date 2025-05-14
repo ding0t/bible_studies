@@ -1,7 +1,6 @@
 ---
 tags:
     - studies
-    - deliverance
     - sin
 ---
 
@@ -75,17 +74,17 @@ Those who practice sorcery have persistantly existed.
 |Pharaohs magicians|Recognise God|[Exodus 8:19 (ESV)](https://esv.literalword.com/?h=11&q=Exodus+8)|
 |Judah and Jerusalems magicians|removed by God as a symbol of relying on their own strength|[Isaiah 3:1-5](https://esv.literalword.com/?q=Isaiah+3%3A1-5)|
 |Babylons magicians|Recognise limits of their power|[Daniel 4:7](https://esv.literalword.com/?q=Daniel+4%3A7)|
-|Daniel|Counted amoung hte magicians as chief|[Daniel 4:9](https://esv.literalword.com/?q=Daniel+4%3A9)|
+|Daniel |Prophet of the LORD<br>Counted amoung the magicians as chief despite not being a sorcerer<br>becasue he did miracles by Gods hand|[Daniel 4:9](https://esv.literalword.com/?q=Daniel+4%3A9)|
 |Bar-Jesus, Elymas|A magician and false prophet|[Acts 13:4-12 (ESV)](https://esv.literalword.com/?q=Acts+13%3A4-12)|
 ||||
 
-# The bible explicitly forbids sorcery
+## The bible explicitly forbids sorcery
 
 https://sharonbpc.wordpress.com/2012/08/19/does-the-bible-warn-against-hypnotism/
 
-## Christians are warned against sorcery
+### Christians are warned against sorcery
 
-# Why
+#### Why
 
 Main reason it is either no- or really bad - Jesus said a house divided against itself cannot stand when under the claim by satan you drv eout demons.
 

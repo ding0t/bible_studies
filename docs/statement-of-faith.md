@@ -3,7 +3,7 @@ tags:
     - statement-of-faith
 ---
 
-<link rel="stylesheet" href="../stylesheets/enumerate-headings.css" />
+<link rel="stylesheet" href="../assets/stylesheets/enumerate-headings.css" />
 
 # Statement of faith
 
