@@ -1,0 +1,14 @@
+{
+    "Mkdocs header": {
+    "prefix": [ "---"],
+    "body": ["---",
+            "title: ",
+            "tags: ",
+            "\t- bible",
+            "---",
+            "\n\n## About ",
+            "\n\n## "
+        ],
+    "description": "Adds mkdocs header"
+    }
+}

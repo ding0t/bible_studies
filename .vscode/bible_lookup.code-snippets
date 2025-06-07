@@ -18,13 +18,13 @@
 
 	//> [John 14:1-4](https://esv.literalword.com/?q=John+14%3A1-4)
 
-	"bible lookup": {
-		"prefix": [ "vv"],
+	"esv bible lookup": {
+		"prefix": [ "md-vv"],
 		"body": ["> ✝️ [${1:Book} ${2:ch}:${3:v}-${4:vv} (ESV)](https://esv.literalword.com/?q=$1+$2%3A$3-$4)\n>\n> "],
 		"description": "Adds a bible verse section"
 	  },
-	"blue letter": {
-		"prefix": ["bb"],
+	"blue letter bible": {
+		"prefix": ["md-bb"],
 		"body": ["> ✝️ [${1:Bok} ${2:ch}:${3:vv} (ESV)](https://www.blueletterbible.org/esv/$1/$2/$3)\n>\n> "],
 		"description": "Adds a bible verse section"
 	}
