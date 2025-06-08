@@ -1,0 +1,48 @@
+name: MkDocs CI Workflow
+on:
+  push:
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+    branches:
+      - master 
+      - main
+  # Allow manual build
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure git user
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Configure python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+    
+      - name: Add env var for cache
+        run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+        
+      - name: Setup cache
+        uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+      
+      - name: Install python requirements
+        run: pip install -r requirements.txt
+    
+      - name: Deploy pages
+        run: mkdocs gh-deploy --force
