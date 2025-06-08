@@ -22,7 +22,7 @@ use md-bba
 
 What attitudes are we taught
 
-    <div class="grid cards" markdown>
+<div class="grid cards" markdown>
 
 -   :fontawesome-solid-book-bible: __bible__
 
@@ -44,7 +44,7 @@ What attitudes are we taught
 
 ## Key Topics
 
-    <div class="grid cards" markdown>
+<div class="grid cards" markdown>
 
 -   :fontawesome-solid-book-bible: __bible__
 
@@ -68,7 +68,7 @@ What attitudes are we taught
 
 What types are seen as shadows of a truth.
 
-    <div class="grid cards" markdown>
+<div class="grid cards" markdown>
 
 -   :fontawesome-solid-book-bible: __bible__
 
@@ -90,7 +90,7 @@ What types are seen as shadows of a truth.
 
 ## Prophecies
 
-    <div class="grid cards" markdown>
+<div class="grid cards" markdown>
 
 -   :fontawesome-solid-book-bible: __bible__
 
