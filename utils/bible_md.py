@@ -9,11 +9,11 @@ def create_markdown_files(output_dir):
 
     cards = f"""\
 <div class="grid cards" markdown>\n
--   :fontawesome-solid-book-bible: __bible__\n
+- :fontawesome-solid-book-bible: __bible__\n
     ---\n
     Content\n
     [:octicons-arrow-right-24: Customization](#)\n
--   :material-scale-balance: __scales__\n
+- :material-scale-balance: __scales__\n
     ---\n
     Content\n
     [:octicons-arrow-right-24: License](#)\n
