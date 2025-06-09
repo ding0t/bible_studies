@@ -12,11 +12,9 @@ def create_markdown_files(output_dir):
 - :fontawesome-solid-book-bible: __bible__\n
     ---\n
     Content\n
-    [:octicons-arrow-right-24: Customization](#)\n
 - :material-scale-balance: __scales__\n
     ---\n
     Content\n
-    [:octicons-arrow-right-24: License](#)\n
 </div>\n"""
 
     for idx, book in enumerate(books, start=1):
