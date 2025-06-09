@@ -28,7 +28,7 @@ Favorite verses to memorise.
 Proverbs has 30 chapters. Read one chapter a day for a month.
 The following are favourite verses and insigts from daily reading
 
-### Book ONe
+### Section One - parents instruction to Solomon
 
 ??? note "Proverbs 01 - The way of the Righteous and Wicked"
 
@@ -59,7 +59,18 @@ The following are favourite verses and insigts from daily reading
 
     This verse makes clear that wisdom is dependant on knowing God and His nature.
     It shows the first step on the right path to life.
-   
+
+### Section two - Proverbs of Solomon
+
+??? danger "Proverbs 10 - Proverbs of Solomon "
+
+    ✝️ [Pro 10:16-17 (ESV)](https://www.blueletterbible.org/esv/Pro/10/16-17)
+    "16 The wage of the righteous leads to life, the gain of the wicked to sin. 
+    17 Whoever heeds instruction is on the path to life, but he who rejects reproof leads others astray."
+
+    - Listening to reproof and instruction is wise.
+    - To reject reproof is to cause not only yourself to fall, but also others
+    
 
 ## Attitudes
 
