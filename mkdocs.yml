@@ -21,8 +21,10 @@ theme:
     - toc.follow
     - navigation.tracking
     - navigation.path
-    - navigation.sections
-    - navigation.expand
+    #- navigation.sections
+    #- navigation.expand
+    - navigation.prune
+    - navigation.top
 
 # pip install mkdocstrings[python]
 # https://realpython.com/python-project-documentation-with-mkdocs/
