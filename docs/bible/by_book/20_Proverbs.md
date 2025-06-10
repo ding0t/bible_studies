@@ -70,6 +70,26 @@ The following are favourite verses and insigts from daily reading
 
     - Listening to reproof and instruction is wise.
     - To reject reproof is to cause not only yourself to fall, but also others
+
+??? example "Proverbs 11 - Contrasting the way of the wicked and godly"
+
+    ✝️ [Pro 11:22 (ESV)](https://www.blueletterbible.org/esv/Pro/11/22)
+    "Like a gold ring in a pig's snout is a beautiful woman without discretion."
+
+    - Such a contrast to the godly woman of Proverbs 30. 
+    - Do not be deceived by outward appearnaces
+
+    ✝️ [Pro 11:16 (ESV)](https://www.blueletterbible.org/esv/Pro/11/16)
+    A gracious woman gets honor,and violent men get riches."
+
+    - A sound contrast to v22. the gracious woman is honored, but godly honor would be implied
+    - Violence  may appear to bring riches, but they are worldly and rotten, esp in contrast to godly honor.
+
+    ✝️ [Pro 11:28 (ESV)](https://www.blueletterbible.org/esv/Pro/11/28)
+    "Whoever trusts in his riches will fall, but the righteous will flourish like a green leaf."
+
+    - Confirming the emptiness of worldly riches in its value toward eternal life.
+    - Righteousness is what is valued for eternal life, the attitudes of the heart to God and our neighbour.
     
 
 ## Attitudes
