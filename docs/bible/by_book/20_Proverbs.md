@@ -90,6 +90,31 @@ The following are favourite verses and insigts from daily reading
 
     - Confirming the emptiness of worldly riches in its value toward eternal life.
     - Righteousness is what is valued for eternal life, the attitudes of the heart to God and our neighbour.
+
+??? tip "The wise tongue and ear"
+
+    ✝️ [Pro 15:4 (ESV)](https://www.blueletterbible.org/esv/Pro/15/4)
+    "A gentle[healing] tongue is a tree of life,
+    but perverseness in it breaks the spirit."
+
+    ✝️ [Pro 15:28 (ESV)](https://www.blueletterbible.org/esv/Pro/15/28)
+    "The heart of the righteous ponders how to answer,
+    but the mouth of the wicked pours out evil things."
+
+    ✝️ [Pro 15:31 (ESV)](https://www.blueletterbible.org/esv/Pro/15/31)
+    "The ear that listens to life-giving reproof
+    will dwell among the wise."
+
+    A whole chapter on how the attitude of the heart of the wise
+    will bear words of good fruit, and ears that listen to instruction and 
+    reproof.
+
+    Listen with love. Ponder and respond in love.
+    
+
+
+    
+    
     
 
 ## Attitudes
