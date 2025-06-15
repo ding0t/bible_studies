@@ -110,7 +110,16 @@ The following are favourite verses and insigts from daily reading
     reproof.
 
     Listen with love. Ponder and respond in love.
+
+??? success "The most excellent way"
+
+    ✝️ [Pro 16:20 (ESV)](https://www.blueletterbible.org/esv/Pro/16/20)
+    "Whoever gives thought to the word[or matter] will discover good,
+    and blessed is he who trusts in the LORD."
     
+    - Proverbs 16 is central in position and in thought.
+    - The benefit of wisdom is established by the Lord.
+    - The wise are guided by the Lord
 
 
     

@@ -7,8 +7,26 @@
             "\t- bible",
             "---",
             "\n\n## About ",
-            "\n\n## "
-        ],
+            "\n\n## "],
     "description": "Adds mkdocs header"
+    },
+    "Mkdocs admonition quote": {
+        "prefix": ["!!!"],
+        "body": ["!!! quote \"Title\"",
+            "",
+            "\tBody\n"]
+    },
+    "Mkdocs admonition twisty": {
+        "prefix": ["???"],
+        "body": ["??? abstract \"Title\"",
+            "",
+            "\tBody\n"],
+    },
+    "Mkdocs mermaid":{
+        "prefix": ["mermaid"],
+        "body": ["```mermaid",
+            "graph",
+            "\ta->b",
+            "```"]
     }
 }
