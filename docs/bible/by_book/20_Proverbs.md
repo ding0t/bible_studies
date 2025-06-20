@@ -121,9 +121,20 @@ The following are favourite verses and insigts from daily reading
     - The benefit of wisdom is established by the Lord.
     - The wise are guided by the Lord
 
+??? question "How can I understand my way?"
 
-    
-    
+    ✝️ [Pro 20:24 (ESV)](https://www.blueletterbible.org/esv/Pro/20/24)
+    "A man’s steps are from the LORD;
+    how then can man understand his way?"
+
+    - cf ✝️ [Psa 37:23 (ESV)](https://www.blueletterbible.org/esv/Psa/37/23)
+    - cf ✝️ [Isa 55:9 (ESV)](https://www.blueletterbible.org/esv/Isa/55/9)
+    - It is a very blessed thing if the LORD directs your path, even steps.
+    - We may think our paths should go a certain way, but as we submit to the LORD, those ways become so much more assured.
+    - As we pray always; "your will be done"; we eagerly seek the LORDS will to direct our paths
+    - cf ✝️ [Deu 31:8 (ESV)](https://www.blueletterbible.org/esv/Deu/31/8)
+    - cf ✝️ [Psa 139:1-12 (ESV)](https://www.blueletterbible.org/esv/Psa/139/1-12)
+    - cf ✝️ [Rom 8:28 (ESV)](https://www.blueletterbible.org/esv/Rom/8/28)
     
 
 ## Attitudes
