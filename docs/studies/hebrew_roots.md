@@ -11,6 +11,11 @@ Christianity recognises Jesus Christ as the Messiah, fulfillment of Old Testamen
 How important is it to understand the Hebrew roots of Christianity. Our Lord and his apostles did. 
 So we should invest time in the study of key Hebrew perspectives of scripture.
 
+## Cautions
+
+1. The lost tribes of Israel. Whilst it sounds attractive, it has more issues than benefits as a theology
+    - It does recognise Israel as a current people, but somewhat tries to reconcile gentile Christians as the lost Jewish tribes. THis is counter to scripture which recognises the gospel for the nations
+
 ## Key features
 
 - Shadows and types
