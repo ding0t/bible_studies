@@ -1,39 +1,150 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.jsx';
+import { getCollection } from 'astro:content';
+
+// Get all published studies
+const allStudies = await getCollection('studies');
+const publishedStudies = allStudies.filter((post) => !post.data.draft);
+
+// Group studies by category
+const categorizedStudies = publishedStudies.reduce((acc, study) => {
+  const category = study.data.category || 'other';
+  if (!acc[category]) {
+    acc[category] = [];
+  }
+  acc[category].push({
+    slug: study.slug,
+    title: study.data.title,
+    description: study.data.description,
+    tags: study.data.tags || [],
+    category: study.data.category,
+    bible_references: study.data.bible_references || [],
+  });
+  return acc;
+}, {});
+
+const categoryLabels = {
+  'prophecy': { label: '🔮 Prophecy Fulfilled in Jesus', color: '#dc2626' },
+  'theology': { label: '📖 Theological Studies', color: '#7c3aed' },
+  'spiritual-disciplines': { label: '🙏 Spiritual Disciplines', color: '#2563eb' },
+  'sins': { label: '⚠️ Sin & Redemption', color: '#f59e0b' },
+  'feasts': { label: '🎉 Feasts & Seasons', color: '#10b981' },
+  'sermons': { label: '🎤 Sermons', color: '#06b6d4' },
+  'hebrew-studies': { label: '🕎 Hebrew Studies', color: '#8b5cf6' },
+  'dreams-visions': { label: '💭 Dreams & Visions', color: '#ec4899' },
+  'teaching-resources': { label: '📚 Teaching Resources', color: '#0ea5e9' },
+  'deliverance': { label: '⛓️ Deliverance & Freedom', color: '#64748b' },
+  'other': { label: '📝 Other Studies', color: '#6366f1' }
+};
 ---
 
 <BaseLayout title="Studies">
-  <div style="max-width: 1200px; margin: 0 auto;">
-    <h2 style="color: #1e293b; margin-bottom: 1.5rem;">Bible Studies</h2>
+  <div style="max-width: 1400px; margin: 0 auto; padding: 2rem 1rem;">
     
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem;">
-      <a href="#prophecy" style="text-decoration: none;">
-        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: all 0.2s; cursor: pointer;" onmouseover="this.style.boxShadow='0 4px 6px rgba(0,0,0,0.1)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 1px 3px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
-          <h3 style="color: #3b82f6; margin-bottom: 0.5rem;">Prophecy Essentials</h3>
-          <p style="color: #64748b; font-size: 0.875rem;">Understanding key prophecy concepts and timeline.</p>
-        </div>
-      </a>
-
-      <a href="#dreams" style="text-decoration: none;">
-        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: all 0.2s; cursor: pointer;" onmouseover="this.style.boxShadow='0 4px 6px rgba(0,0,0,0.1)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 1px 3px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
-          <h3 style="color: #3b82f6; margin-bottom: 0.5rem;">Dreams & Visions</h3>
-          <p style="color: #64748b; font-size: 0.875rem;">Exploring biblical dreams and their significance.</p>
-        </div>
-      </a>
-
-      <a href="#feasts" style="text-decoration: none;">
-        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: all 0.2s; cursor: pointer;" onmouseover="this.style.boxShadow='0 4px 6px rgba(0,0,0,0.1)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 1px 3px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
-          <h3 style="color: #3b82f6; margin-bottom: 0.5rem;">Feasts & Seasons</h3>
-          <p style="color: #64748b; font-size: 0.875rem;">Biblical feasts and their prophetic significance.</p>
-        </div>
-      </a>
+    <!-- Header Section -->
+    <div style="margin-bottom: 3rem;">
+      <h1 style="color: #1e293b; font-size: 2.5rem; margin-bottom: 0.5rem;">Biblical Studies</h1>
+      <p style="color: #64748b; font-size: 1.125rem;">Deep exploration of Scripture, prophecy, and theology</p>
+      <p style="color: #94a3b8; margin-top: 0.5rem;">{publishedStudies.length} published studies</p>
     </div>
 
-    <div style="margin-top: 2rem; padding: 1.5rem; background: #eff6ff; border-radius: 0.75rem;">
-      <p style="color: #1e40af;">
-        📝 Note: Full studies content from your docs directory will be integrated here. 
-        Configure content collections in <code>src/content/config.ts</code> to automatically load your markdown files.
-      </p>
+    <!-- Quick Stats -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 3rem;">
+      {Object.entries(categorizedStudies).map(([category, studies]) => {
+        const info = categoryLabels[category as keyof typeof categoryLabels];
+        return (
+          <div style={`background: linear-gradient(135deg, ${info.color}15, ${info.color}05); padding: 1rem; border-radius: 0.5rem; border-left: 4px solid ${info.color};`}>
+            <div style="font-size: 2rem; margin-bottom: 0.25rem;">{info.label.split(' ')[0]}</div>
+            <div style="color: #64748b; font-size: 0.875rem;">{studies.length} studies</div>
+          </div>
+        );
+      })}
     </div>
+
+    <!-- Studies by Category -->
+    {Object.entries(categorizedStudies).sort().map(([category, studies]) => {
+      const info = categoryLabels[category as keyof typeof categoryLabels];
+      return (
+        <div style="margin-bottom: 3rem;" id={category}>
+          <div style={`border-bottom: 3px solid ${info.color}; padding-bottom: 0.75rem; margin-bottom: 1.5rem;`}>
+            <h2 style={`color: ${info.color}; font-size: 1.75rem;`}>{info.label}</h2>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem;">
+            {studies.map((study) => (
+              <a href={`/studies/${study.slug}`} style="text-decoration: none;">
+                <div 
+                  style={`
+                    background: white;
+                    border: 1px solid #e2e8f0;
+                    border-radius: 0.75rem;
+                    padding: 1.5rem;
+                    transition: all 0.3s ease;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    border-left: 4px solid ${info.color};
+                  `}
+                  onmouseover={`
+                    this.style.boxShadow = '0 10px 15px rgba(0,0,0,0.1)';
+                    this.style.transform = 'translateY(-4px)';
+                    this.style.borderLeftColor = '${info.color}';
+                  `}
+                  onmouseout={`
+                    this.style.boxShadow = 'none';
+                    this.style.transform = 'translateY(0)';
+                  `}
+                >
+                  <h3 style="color: #1e293b; margin-bottom: 0.75rem; font-size: 1.125rem; line-height: 1.4;">
+                    {study.title}
+                  </h3>
+                  
+                  <p style="color: #64748b; font-size: 0.875rem; margin-bottom: 1rem; flex-grow: 1;">
+                    {study.description}
+                  </p>
+
+                  {study.bible_references && study.bible_references.length > 0 && (
+                    <div style="margin-bottom: 0.75rem;">
+                      <p style="color: #94a3b8; font-size: 0.75rem; margin-bottom: 0.25rem;">Bible References:</p>
+                      <div style="display: flex; flex-wrap: wrap; gap: 0.25rem;">
+                        {study.bible_references.slice(0, 3).map((ref) => (
+                          <span style={`background: ${info.color}15; color: ${info.color}; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.75rem;`}>
+                            {ref}
+                          </span>
+                        ))}
+                        {study.bible_references.length > 3 && (
+                          <span style="color: #94a3b8; font-size: 0.75rem; padding: 0.25rem 0.5rem;">
+                            +{study.bible_references.length - 3} more
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  )}
+
+                  {study.tags && study.tags.length > 0 && (
+                    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto;">
+                      {study.tags.slice(0, 3).map((tag) => (
+                        <span style="background: #f1f5f9; color: #475569; padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.75rem;">
+                          #{tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      );
+    })}
+
+    <!-- Empty State Fallback -->
+    {publishedStudies.length === 0 && (
+      <div style="text-align: center; padding: 3rem; background: #f8fafc; border-radius: 0.75rem;">
+        <p style="color: #64748b; font-size: 1.125rem;">No studies published yet.</p>
+        <p style="color: #94a3b8;">Check back soon for deep biblical studies and theological insights.</p>
+      </div>
+    )}
+
   </div>
 </BaseLayout>

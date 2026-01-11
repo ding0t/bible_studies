@@ -1,0 +1,238 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.jsx';
+
+export async function getStaticPaths() {
+  const studies = await getCollection('studies');
+  const published = studies.filter((post) => !post.data.draft);
+  
+  return published.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: any;
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+const categoryLabels: Record<string, { label: string; color: string }> = {
+  'prophecy': { label: '🔮 Prophecy Fulfilled in Jesus', color: '#dc2626' },
+  'theology': { label: '📖 Theological Studies', color: '#7c3aed' },
+  'spiritual-disciplines': { label: '🙏 Spiritual Disciplines', color: '#2563eb' },
+  'sins': { label: '⚠️ Sin & Redemption', color: '#f59e0b' },
+  'feasts': { label: '🎉 Feasts & Seasons', color: '#10b981' },
+  'sermons': { label: '🎤 Sermons', color: '#06b6d4' },
+  'hebrew-studies': { label: '🕎 Hebrew Studies', color: '#8b5cf6' },
+  'dreams-visions': { label: '💭 Dreams & Visions', color: '#ec4899' },
+  'teaching-resources': { label: '📚 Teaching Resources', color: '#0ea5e9' },
+  'deliverance': { label: '⛓️ Deliverance & Freedom', color: '#64748b' },
+  'other': { label: '📝 Other Studies', color: '#6366f1' }
+};
+
+const categoryInfo = categoryLabels[entry.data.category || 'other'];
+---
+
+<BaseLayout title={entry.data.title}>
+  <div style="max-width: 900px; margin: 0 auto; padding: 2rem 1rem;">
+    
+    <!-- Back Link -->
+    <a href="/studies" style="color: #3b82f6; text-decoration: none; font-size: 0.875rem; display: inline-block; margin-bottom: 1.5rem;">
+      ← Back to Studies
+    </a>
+
+    <!-- Header -->
+    <div style="margin-bottom: 2rem;">
+      <div style={`display: inline-block; background: ${categoryInfo.color}15; color: ${categoryInfo.color}; padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem; margin-bottom: 1rem;`}>
+        {categoryInfo.label}
+      </div>
+      
+      <h1 style="color: #1e293b; font-size: 2.25rem; margin-bottom: 1rem; line-height: 1.2;">
+        {entry.data.title}
+      </h1>
+      
+      {entry.data.description && (
+        <p style="color: #64748b; font-size: 1.125rem; margin-bottom: 1rem;">
+          {entry.data.description}
+        </p>
+      )}
+
+      <!-- Meta Information -->
+      <div style="display: flex; flex-wrap: wrap; gap: 2rem; color: #64748b; font-size: 0.875rem; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; padding: 1rem 0;">
+        {entry.data.bible_references && entry.data.bible_references.length > 0 && (
+          <div>
+            <strong style="color: #1e293b;">Bible References:</strong>
+            <div style="margin-top: 0.25rem;">{entry.data.bible_references.join(', ')}</div>
+          </div>
+        )}
+        {entry.data.gregorian_year && (
+          <div>
+            <strong style="color: #1e293b;">Year:</strong>
+            <div style="margin-top: 0.25rem;">{entry.data.gregorian_year} AD</div>
+          </div>
+        )}
+        {entry.data.zadok_year && (
+          <div>
+            <strong style="color: #1e293b;">Zadok Year:</strong>
+            <div style="margin-top: 0.25rem;">{entry.data.zadok_year}</div>
+          </div>
+        )}
+      </div>
+    </div>
+
+    <!-- Content -->
+    <article style="color: #404040; line-height: 1.8; font-size: 1rem;">
+      <div class="prose prose-lg">
+        <Content />
+      </div>
+    </article>
+
+    <!-- Tags -->
+    {entry.data.tags && entry.data.tags.length > 0 && (
+      <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #e2e8f0;">
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          {entry.data.tags.map((tag: string) => (
+            <span style="background: #f1f5f9; color: #475569; padding: 0.5rem 1rem; border-radius: 1rem; font-size: 0.875rem;">
+              #{tag}
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Navigation -->
+    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e2e8f0;">
+      <a href="/studies" style="display: inline-block; padding: 0.75rem 1.5rem; background: #3b82f6; color: white; text-decoration: none; border-radius: 0.375rem; font-weight: 500; transition: all 0.2s;" onmouseover="this.style.background='#2563eb'" onmouseout="this.style.background='#3b82f6'">
+        ← Back to All Studies
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Prose Styles -->
+  <style>
+    .prose {
+      --tw-prose-body: #404040;
+      --tw-prose-headings: #1e293b;
+      --tw-prose-links: #3b82f6;
+      --tw-prose-bold: #1e293b;
+      --tw-prose-code: #e11d48;
+      --tw-prose-pre-bg: #f8fafc;
+      --tw-prose-pre-code: #404040;
+      --tw-prose-hr: #e2e8f0;
+      --tw-prose-th-borders: #cbd5e1;
+      --tw-prose-td-borders: #e2e8f0;
+      --tw-prose-blockquote-borders: #cbd5e1;
+      --tw-prose-blockquote-color: #64748b;
+    }
+
+    .prose :is(h1, h2, h3, h4, h5, h6) {
+      color: var(--tw-prose-headings);
+      font-weight: 700;
+      line-height: 1.25;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .prose h1 {
+      font-size: 2em;
+    }
+
+    .prose h2 {
+      font-size: 1.5em;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 0.5em;
+    }
+
+    .prose h3 {
+      font-size: 1.25em;
+    }
+
+    .prose p {
+      margin: 1em 0;
+      color: var(--tw-prose-body);
+    }
+
+    .prose a {
+      color: var(--tw-prose-links);
+      text-decoration: underline;
+    }
+
+    .prose a:hover {
+      color: #2563eb;
+    }
+
+    .prose blockquote {
+      border-left: 4px solid var(--tw-prose-blockquote-borders);
+      padding-left: 1em;
+      margin: 1em 0;
+      color: var(--tw-prose-blockquote-color);
+      font-style: italic;
+    }
+
+    .prose code {
+      background: #f1f5f9;
+      color: var(--tw-prose-code);
+      padding: 0.2em 0.4em;
+      border-radius: 0.25em;
+      font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    }
+
+    .prose pre {
+      background: var(--tw-prose-pre-bg);
+      color: var(--tw-prose-pre-code);
+      padding: 1em;
+      border-radius: 0.5em;
+      overflow-x: auto;
+      margin: 1em 0;
+    }
+
+    .prose pre code {
+      background: none;
+      color: inherit;
+      padding: 0;
+    }
+
+    .prose ul, .prose ol {
+      margin: 1em 0;
+      padding-left: 2em;
+    }
+
+    .prose li {
+      margin: 0.5em 0;
+    }
+
+    .prose strong {
+      color: var(--tw-prose-bold);
+      font-weight: 700;
+    }
+
+    .prose table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1em 0;
+    }
+
+    .prose th {
+      border: 1px solid var(--tw-prose-th-borders);
+      padding: 0.75em;
+      text-align: left;
+      font-weight: 700;
+      background: #f8fafc;
+    }
+
+    .prose td {
+      border: 1px solid var(--tw-prose-td-borders);
+      padding: 0.75em;
+    }
+
+    .prose hr {
+      border: none;
+      border-top: 2px solid var(--tw-prose-hr);
+      margin: 2em 0;
+    }
+  </style>
+</BaseLayout>

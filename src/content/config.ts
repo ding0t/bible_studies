@@ -6,12 +6,12 @@ const studies = defineCollection({
   schema: z.object({
     title: z.string(),
     year: z.number().optional(),
-    category: z.enum(['prophecy', 'dreams', 'feasts', 'investigation', 'sermons', 'other']).optional(),
+    category: z.enum(['prophecy', 'theology', 'spiritual-disciplines', 'sins', 'feasts', 'sermons', 'hebrew-studies', 'dreams-visions', 'teaching-resources', 'deliverance', 'other']).optional(),
     description: z.string().optional(),
     tags: z.array(z.string()).optional(),
     draft: z.boolean().default(false),
     bible_references: z.array(z.string()).optional(),
-    essene_year: z.number().optional(),
+    zadok_year: z.number().optional(),
     gregorian_year: z.number().optional(),
   })
 });
