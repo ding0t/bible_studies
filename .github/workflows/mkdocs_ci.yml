@@ -1,13 +1,11 @@
-name: MkDocs CI Workflow
+name: "[DEPRECATED] MkDocs CI Workflow - Use astro_deploy.yml instead
+
+# This workflow has been deprecated in favor of the Astro static site generator.
+# The new deployment workflow is in .github/workflows/astro_deploy.yml
+# This file is kept for reference only and is no longer triggered.
+
 on:
-  push:
-    paths:
-      - 'docs/**'
-      - 'mkdocs.yml'
-    branches:
-      - master 
-      - main
-  # Allow manual build
+  # Disabled - use astro_deploy.yml instead
   workflow_dispatch:
 
 permissions:
