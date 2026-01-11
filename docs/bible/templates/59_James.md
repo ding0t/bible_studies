@@ -1,7 +1,9 @@
 ---
-title: 59 James
-tags: 
-    - bible
+title: "59 James"
+category: "other"
+description: "Study resources for the Book of James"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

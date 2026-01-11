@@ -1,7 +1,9 @@
 ---
-title: 26 Ezekiel
-tags: 
-    - bible
+title: "26 Ezekiel"
+category: "prophecy"
+description: "Study resources for the Book of Ezekiel"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

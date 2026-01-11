@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.jsx';
+---
+
+<BaseLayout title="Studies">
+  <div style="max-width: 1200px; margin: 0 auto;">
+    <h2 style="color: #1e293b; margin-bottom: 1.5rem;">Bible Studies</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem;">
+      <a href="#prophecy" style="text-decoration: none;">
+        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: all 0.2s; cursor: pointer;" onmouseover="this.style.boxShadow='0 4px 6px rgba(0,0,0,0.1)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 1px 3px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
+          <h3 style="color: #3b82f6; margin-bottom: 0.5rem;">Prophecy Essentials</h3>
+          <p style="color: #64748b; font-size: 0.875rem;">Understanding key prophecy concepts and timeline.</p>
+        </div>
+      </a>
+
+      <a href="#dreams" style="text-decoration: none;">
+        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: all 0.2s; cursor: pointer;" onmouseover="this.style.boxShadow='0 4px 6px rgba(0,0,0,0.1)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 1px 3px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
+          <h3 style="color: #3b82f6; margin-bottom: 0.5rem;">Dreams & Visions</h3>
+          <p style="color: #64748b; font-size: 0.875rem;">Exploring biblical dreams and their significance.</p>
+        </div>
+      </a>
+
+      <a href="#feasts" style="text-decoration: none;">
+        <div style="background: white; padding: 1.5rem; border-radius: 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: all 0.2s; cursor: pointer;" onmouseover="this.style.boxShadow='0 4px 6px rgba(0,0,0,0.1)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.boxShadow='0 1px 3px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
+          <h3 style="color: #3b82f6; margin-bottom: 0.5rem;">Feasts & Seasons</h3>
+          <p style="color: #64748b; font-size: 0.875rem;">Biblical feasts and their prophetic significance.</p>
+        </div>
+      </a>
+    </div>
+
+    <div style="margin-top: 2rem; padding: 1.5rem; background: #eff6ff; border-radius: 0.75rem;">
+      <p style="color: #1e40af;">
+        📝 Note: Full studies content from your docs directory will be integrated here. 
+        Configure content collections in <code>src/content/config.ts</code> to automatically load your markdown files.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,729 @@
+{
+  "era": "divided-kingdom",
+  "people": [
+    {
+      "id": "rehoboam",
+      "name": "Rehoboam",
+      "title": "King of Judah, Son of Solomon",
+      "essene_year_born": 2588,
+      "gregorian_year_born": -1416,
+      "essene_year_died": 2670,
+      "gregorian_year_died": -1334,
+      "lifespan_years": 82,
+      "parent_id": "solomon",
+      "spouse_id": null,
+      "children": [
+        "abijah"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Judean Lineage Preserver",
+      "tags": [
+        "King",
+        "Foolish Counsel"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 2588,
+          "gregorian_year": -1416,
+          "description": "Son of Solomon and Naamah the Ammonitess"
+        },
+        {
+          "event": "Coronation",
+          "essene_year": 2618,
+          "gregorian_year": -1386,
+          "description": "Became king of Judah; took foolish counsel (1 Kings 12:1-20)"
+        },
+        {
+          "event": "Kingdom Divided",
+          "essene_year": 2618,
+          "gregorian_year": -1386,
+          "description": "Northern tribes rebelled; formed Israel under Jeroboam (1 Kings 12:16-33)"
+        },
+        {
+          "event": "Reign",
+          "essene_year": 2618,
+          "gregorian_year": -1386,
+          "description": "Reigned 17 years over Judah (1 Kings 14:21)"
+        }
+      ],
+      "bible_references": [
+        "1 Kings 12-14",
+        "2 Chronicles 10-12",
+        "Matthew 1:7"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Rehoboam",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "abijah",
+      "name": "Abijah",
+      "title": "King of Judah, Son of Rehoboam",
+      "essene_year_born": 2615,
+      "gregorian_year_born": -1389,
+      "essene_year_died": 2653,
+      "gregorian_year_died": -1351,
+      "lifespan_years": 38,
+      "parent_id": "rehoboam",
+      "spouse_id": null,
+      "children": [
+        "asa"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Judean King",
+      "tags": [
+        "King"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2635,
+          "gregorian_year": -1369,
+          "description": "Became king of Judah (1 Kings 14:31, 15:1)"
+        },
+        {
+          "event": "War with Jeroboam",
+          "essene_year": 2635,
+          "gregorian_year": -1369,
+          "description": "Fought Jeroboam; God delivered Judah (2 Chronicles 13:1-20)"
+        }
+      ],
+      "bible_references": [
+        "1 Kings 14:31",
+        "1 Kings 15:1-8",
+        "2 Chronicles 13:1-22",
+        "Matthew 1:7"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Abijah",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "asa",
+      "name": "Asa",
+      "title": "King of Judah, Reformer",
+      "essene_year_born": 2640,
+      "gregorian_year_born": -1364,
+      "essene_year_died": 2705,
+      "gregorian_year_died": -1299,
+      "lifespan_years": 65,
+      "parent_id": "abijah",
+      "spouse_id": null,
+      "children": [
+        "jehoshaphat"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Reformer King",
+      "tags": [
+        "King",
+        "Reformer"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2653,
+          "gregorian_year": -1351,
+          "description": "Became king at age 20 (1 Kings 15:9-11)"
+        },
+        {
+          "event": "Religious Reforms",
+          "essene_year": 2653,
+          "gregorian_year": -1351,
+          "description": "Removed idols and high places; restored worship (2 Chronicles 14:2-5)"
+        },
+        {
+          "event": "Victory over Cushites",
+          "essene_year": 2663,
+          "gregorian_year": -1341,
+          "description": "Defeated great army; miracle from God (2 Chronicles 14:9-12)"
+        }
+      ],
+      "bible_references": [
+        "1 Kings 15:9-24",
+        "2 Chronicles 14-16",
+        "Matthew 1:7"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Asa",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "jehoshaphat",
+      "name": "Jehoshaphat",
+      "title": "King of Judah, Judge and Reformer",
+      "essene_year_born": 2673,
+      "gregorian_year_born": -1331,
+      "essene_year_died": 2732,
+      "gregorian_year_died": -1272,
+      "lifespan_years": 59,
+      "parent_id": "asa",
+      "spouse_id": null,
+      "children": [
+        "jehoram"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Judicial Reformer",
+      "tags": [
+        "King",
+        "Judge"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2705,
+          "gregorian_year": -1299,
+          "description": "Became king of Judah (1 Kings 15:24)"
+        },
+        {
+          "event": "Judicial System",
+          "essene_year": 2705,
+          "gregorian_year": -1299,
+          "description": "Sent judges throughout Judah (2 Chronicles 17:7-9)"
+        }
+      ],
+      "bible_references": [
+        "1 Kings 15:24",
+        "1 Kings 22:41-50",
+        "2 Chronicles 17-20",
+        "Matthew 1:8"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Jehoshaphat",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "jehoram",
+      "name": "Jehoram",
+      "title": "King of Judah, Son of Jehoshaphat",
+      "essene_year_born": 2698,
+      "gregorian_year_born": -1306,
+      "essene_year_died": 2739,
+      "gregorian_year_died": -1265,
+      "lifespan_years": 40,
+      "parent_id": "jehoshaphat",
+      "spouse_id": "athaliah",
+      "children": [
+        "ahaziah"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Judean King",
+      "tags": [
+        "King"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2732,
+          "gregorian_year": -1272,
+          "description": "Became king of Judah (2 Kings 8:16)"
+        }
+      ],
+      "bible_references": [
+        "2 Kings 8:16-24",
+        "2 Chronicles 21:1-20",
+        "Matthew 1:8"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Jehoram",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "ahaziah",
+      "name": "Ahaziah",
+      "title": "King of Judah, Son of Jehoram",
+      "essene_year_born": 2720,
+      "gregorian_year_born": -1284,
+      "essene_year_died": 2739,
+      "gregorian_year_died": -1265,
+      "lifespan_years": 22,
+      "parent_id": "jehoram",
+      "spouse_id": null,
+      "children": [],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Judean King",
+      "tags": [
+        "King"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2739,
+          "gregorian_year": -1265,
+          "description": "Became king at age 22 (2 Kings 8:26)"
+        },
+        {
+          "event": "Death",
+          "essene_year": 2739,
+          "gregorian_year": -1265,
+          "description": "Killed by Jehu; reigned only 1 year (2 Kings 9:24-28)"
+        }
+      ],
+      "bible_references": [
+        "2 Kings 8:24-9:29",
+        "2 Chronicles 22:1-9"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Ahaziah",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "amaziah",
+      "name": "Amaziah",
+      "title": "King of Judah, Son of Joash",
+      "essene_year_born": 2768,
+      "gregorian_year_born": -1236,
+      "essene_year_died": 2823,
+      "gregorian_year_died": -1181,
+      "lifespan_years": 54,
+      "parent_id": "joash",
+      "spouse_id": null,
+      "children": [
+        "uzziah"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Judean King",
+      "tags": [
+        "King"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2809,
+          "gregorian_year": -1195,
+          "description": "Became king of Judah (2 Kings 14:1)"
+        }
+      ],
+      "bible_references": [
+        "2 Kings 14:1-20",
+        "2 Chronicles 25:1-28"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Amaziah",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "uzziah",
+      "name": "Uzziah (Azariah)",
+      "title": "King of Judah, Powerful King",
+      "essene_year_born": 2790,
+      "gregorian_year_born": -1214,
+      "essene_year_died": 2871,
+      "gregorian_year_died": -1133,
+      "lifespan_years": 68,
+      "parent_id": "amaziah",
+      "spouse_id": null,
+      "children": [
+        "jotham"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Powerful Judean King",
+      "tags": [
+        "King"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2823,
+          "gregorian_year": -1181,
+          "description": "Became king at age 16 (2 Kings 15:1-3)"
+        },
+        {
+          "event": "Military Victories",
+          "essene_year": 2823,
+          "gregorian_year": -1181,
+          "description": "Defeated Philistines, Arabs, Meunites (2 Chronicles 26:6-8)"
+        }
+      ],
+      "bible_references": [
+        "2 Kings 15:1-7",
+        "2 Chronicles 26:1-23",
+        "Matthew 1:8-9"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Uzziah (Azariah)",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "jotham",
+      "name": "Jotham",
+      "title": "King of Judah, Righteous King",
+      "essene_year_born": 2822,
+      "gregorian_year_born": -1182,
+      "essene_year_died": 2875,
+      "gregorian_year_died": -1129,
+      "lifespan_years": 41,
+      "parent_id": "uzziah",
+      "spouse_id": null,
+      "children": [
+        "ahaz"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Righteous King",
+      "tags": [
+        "King"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2871,
+          "gregorian_year": -1133,
+          "description": "Became king of Judah (2 Kings 15:32-35)"
+        }
+      ],
+      "bible_references": [
+        "2 Kings 15:32-38",
+        "2 Chronicles 27:1-9",
+        "Matthew 1:9"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Jotham",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "ahaz",
+      "name": "Ahaz",
+      "title": "King of Judah, Unfaithful King",
+      "essene_year_born": 2850,
+      "gregorian_year_born": -1154,
+      "essene_year_died": 2900,
+      "gregorian_year_died": -1104,
+      "lifespan_years": 36,
+      "parent_id": "jotham",
+      "spouse_id": null,
+      "children": [
+        "hezekiah"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Unfaithful King",
+      "tags": [
+        "King"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2875,
+          "gregorian_year": -1129,
+          "description": "Became king of Judah (2 Kings 16:1-2)"
+        },
+        {
+          "event": "Immanuel Prophecy",
+          "essene_year": 2875,
+          "gregorian_year": -1129,
+          "description": "Isaiah prophesied of Immanuel; sign: virgin will conceive (Isaiah 7:10-14)"
+        }
+      ],
+      "bible_references": [
+        "2 Kings 16:1-20",
+        "2 Chronicles 28:1-27",
+        "Isaiah 7:1-25",
+        "Matthew 1:9"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Ahaz",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "hezekiah",
+      "name": "Hezekiah",
+      "title": "King of Judah, Reformer and Healer",
+      "essene_year_born": 2876,
+      "gregorian_year_born": -1128,
+      "essene_year_died": 2929,
+      "gregorian_year_died": -1075,
+      "lifespan_years": 54,
+      "parent_id": "ahaz",
+      "spouse_id": null,
+      "children": [
+        "manasseh"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Reformer King",
+      "tags": [
+        "King",
+        "Reformer"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2900,
+          "gregorian_year": -1104,
+          "description": "Became king of Judah at age 25 (2 Kings 18:1-2)"
+        },
+        {
+          "event": "Religious Reforms",
+          "essene_year": 2900,
+          "gregorian_year": -1104,
+          "description": "Removed idols and high places; cleansed Temple (2 Kings 18:4)"
+        },
+        {
+          "event": "Sennacherib's Siege",
+          "essene_year": 2913,
+          "gregorian_year": -1091,
+          "description": "Assyrian army defeated by angel of God (2 Kings 19:35-36, Isaiah 36-37)"
+        },
+        {
+          "event": "Healing and Extended Life",
+          "essene_year": 2915,
+          "gregorian_year": -1089,
+          "description": "Healed of terminal illness; life extended 15 years (2 Kings 20:1-11)"
+        }
+      ],
+      "bible_references": [
+        "2 Kings 18-20",
+        "2 Chronicles 29-32",
+        "Isaiah 36-39",
+        "Matthew 1:9-10"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Hezekiah",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "manasseh",
+      "name": "Manasseh",
+      "title": "King of Judah, Wicked Then Repentant",
+      "essene_year_born": 2903,
+      "gregorian_year_born": -1101,
+      "essene_year_died": 2984,
+      "gregorian_year_died": -1020,
+      "lifespan_years": 67,
+      "parent_id": "hezekiah",
+      "spouse_id": null,
+      "children": [
+        "amon"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Penitent King",
+      "tags": [
+        "King",
+        "Repentant"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2929,
+          "gregorian_year": -1075,
+          "description": "Became king at age 12 (2 Kings 21:1)"
+        },
+        {
+          "event": "Evil Reign",
+          "essene_year": 2929,
+          "gregorian_year": -1075,
+          "description": "Did evil; idolatry and wickedness (2 Kings 21:1-18)"
+        },
+        {
+          "event": "Captivity and Repentance",
+          "essene_year": 2973,
+          "gregorian_year": -1031,
+          "description": "Captured by Assyrians; repented; God restored him (2 Chronicles 33:10-13)"
+        }
+      ],
+      "bible_references": [
+        "2 Kings 21:1-18",
+        "2 Chronicles 33:1-20",
+        "Matthew 1:10"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Manasseh",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "amon",
+      "name": "Amon",
+      "title": "King of Judah, Wicked King",
+      "essene_year_born": 2945,
+      "gregorian_year_born": -1059,
+      "essene_year_died": 2971,
+      "gregorian_year_died": -1033,
+      "lifespan_years": 24,
+      "parent_id": "manasseh",
+      "spouse_id": null,
+      "children": [
+        "josiah"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom",
+      "prophetic_role": "Wicked King",
+      "tags": [
+        "King",
+        "Wicked"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2984,
+          "gregorian_year": -1020,
+          "description": "Became king at age 22 (2 Kings 21:19)"
+        },
+        {
+          "event": "Death",
+          "essene_year": 2971,
+          "gregorian_year": -1033,
+          "description": "Reigned only 2 years; murdered by servants (2 Kings 21:19-26)"
+        }
+      ],
+      "bible_references": [
+        "2 Kings 21:19-26",
+        "2 Chronicles 33:21-25",
+        "Matthew 1:10"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Amon",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "josiah",
+      "name": "Josiah",
+      "title": "King of Judah, Great Reformer",
+      "essene_year_born": 2960,
+      "gregorian_year_born": -1044,
+      "essene_year_died": 3009,
+      "gregorian_year_died": -995,
+      "lifespan_years": 39,
+      "parent_id": "amon",
+      "spouse_id": null,
+      "children": [
+        "jehoiakim",
+        "zedekiah"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Divided Kingdom/Pre-Exile",
+      "prophetic_role": "Last Great Reformer",
+      "tags": [
+        "King",
+        "Great Reformer"
+      ],
+      "major_events": [
+        {
+          "event": "Coronation",
+          "essene_year": 2971,
+          "gregorian_year": -1033,
+          "description": "Became king at age 8; did right (2 Kings 22:1)"
+        },
+        {
+          "event": "Discovery of Law Book",
+          "essene_year": 2998,
+          "gregorian_year": -1006,
+          "description": "Book of the Law discovered during Temple repairs (2 Kings 22:8)"
+        },
+        {
+          "event": "Religious Reforms",
+          "essene_year": 2998,
+          "gregorian_year": -1006,
+          "description": "Removed all idols; kept Passover (2 Kings 23:1-30)"
+        },
+        {
+          "event": "Death in Battle",
+          "essene_year": 3009,
+          "gregorian_year": -995,
+          "description": "Died fighting Egyptian Pharaoh Necho (2 Kings 23:29)"
+        }
+      ],
+      "bible_references": [
+        "2 Kings 22-23",
+        "2 Chronicles 34-35",
+        "Matthew 1:10-11"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Josiah",
+      "name_meaning": "",
+      "gender": "male"
+    }
+  ]
+}

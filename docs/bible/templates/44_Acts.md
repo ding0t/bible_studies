@@ -1,7 +1,9 @@
 ---
-title: 44 Acts
-tags: 
-    - bible
+title: "44 Acts"
+category: "other"
+description: "Study resources for the Book of Acts"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

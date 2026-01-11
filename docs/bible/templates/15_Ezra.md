@@ -1,7 +1,9 @@
 ---
-title: 15 Ezra
-tags: 
-    - bible
+title: "15 Ezra"
+category: "other"
+description: "Study resources for the Book of Ezra"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

@@ -1,7 +1,9 @@
 ---
-title: 61 2 Peter
-tags: 
-    - bible
+title: "61 2 Peter"
+category: "other"
+description: "Study resources for the Book of 2 Peter"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

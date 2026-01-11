@@ -1,7 +1,9 @@
 ---
-title: 64 3 John
-tags: 
-    - bible
+title: "64 3 John"
+category: "other"
+description: "Study resources for the Book of 3 John"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

@@ -1,7 +1,9 @@
 ---
-title: 13 1 Chronicles
-tags: 
-    - bible
+title: "13 1 Chronicles"
+category: "other"
+description: "Study resources for the Book of 1 Chronicles"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

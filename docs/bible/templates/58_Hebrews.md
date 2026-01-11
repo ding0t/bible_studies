@@ -1,7 +1,9 @@
 ---
-title: 58 Hebrews
-tags: 
-    - bible
+title: "58 Hebrews"
+category: "other"
+description: "Study resources for the Book of Hebrews"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

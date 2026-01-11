@@ -1,7 +1,9 @@
 ---
-title: 16 Nehemiah
-tags: 
-    - bible
+title: "16 Nehemiah"
+category: "other"
+description: "Study resources for the Book of Nehemiah"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

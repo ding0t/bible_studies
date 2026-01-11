@@ -1,7 +1,9 @@
 ---
-title: 47 2 Corinthians
-tags: 
-    - bible
+title: "47 2 Corinthians"
+category: "other"
+description: "Study resources for the Book of 2 Corinthians"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

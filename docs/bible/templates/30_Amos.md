@@ -1,7 +1,9 @@
 ---
-title: 30 Amos
-tags: 
-    - bible
+title: "30 Amos"
+category: "prophecy"
+description: "Study resources for the Book of Amos"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

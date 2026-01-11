@@ -1,7 +1,9 @@
 ---
-title: 23 Isaiah
-tags: 
-    - bible
+title: "23 Isaiah"
+category: "prophecy"
+description: "Study resources for the Book of Isaiah"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

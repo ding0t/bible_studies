@@ -1,7 +1,9 @@
 ---
-title: 24 Jeremiah
-tags: 
-    - bible
+title: "24 Jeremiah"
+category: "prophecy"
+description: "Study resources for the Book of Jeremiah"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

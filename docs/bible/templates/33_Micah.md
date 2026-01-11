@@ -1,7 +1,9 @@
 ---
-title: 33 Micah
-tags: 
-    - bible
+title: "33 Micah"
+category: "prophecy"
+description: "Study resources for the Book of Micah"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

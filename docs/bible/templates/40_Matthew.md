@@ -1,7 +1,9 @@
 ---
-title: 40 Matthew
-tags: 
-    - bible
+title: "40 Matthew"
+category: "other"
+description: "Study resources for the Book of Matthew"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

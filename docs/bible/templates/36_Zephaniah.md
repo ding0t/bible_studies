@@ -1,7 +1,9 @@
 ---
-title: 36 Zephaniah
-tags: 
-    - bible
+title: "36 Zephaniah"
+category: "prophecy"
+description: "Study resources for the Book of Zephaniah"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

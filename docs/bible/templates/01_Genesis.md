@@ -1,7 +1,9 @@
 ---
-title: 01 Genesis
-tags: 
-    - bible
+title: "01 Genesis"
+category: "other"
+description: "Study resources for the Book of Genesis"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

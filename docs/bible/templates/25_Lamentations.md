@@ -1,7 +1,9 @@
 ---
-title: 25 Lamentations
-tags: 
-    - bible
+title: "25 Lamentations"
+category: "prophecy"
+description: "Study resources for the Book of Lamentations"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

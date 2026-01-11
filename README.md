@@ -1,19 +1,41 @@
 # About
 
-Personal bible studies
+Personal bible studies on end times, prophecy, and biblical themes.
 
-## Developer
+**Current Version:** [0.1.0](CHANGELOG.md) ([Release Notes](CHANGELOG.md#010---2026-01-11))
 
-*remember your vscode snippets*
+## Features
 
-trigger using ctrl+space after typing bb
+- 📅 **Interactive Timeline** with dual calendar views (Gregorian & Essene)
+- 📊 **Mermaid Diagrams** for prophecy visualizations
+- 📖 **109+ Bible Studies** organized by category
+- 🔍 **Full Search Support** across all content
+- ♻️ **Static Site Generation** with Astro
 
-## Mkdocs
+## Getting Started
 
-```py
-mkdocs serve
+### Development
+
+```bash
+npm install
+npm run dev
 ```
 
-- use snippets to embed other content like html https://facelessuser.github.io/pymdown-extensions/extensions/snippets/
-- use marp to create slides from md https://dev.to/chris_ayers/marp-create-presentations-with-markdown-5e6k
-- more marp https://medium.com/@75py/creating-slides-with-marp-13dc35e36e4c
+Dev server runs at http://localhost:4321/
+
+### Building for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Contributing
+
+See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines on:
+- Adding new studies
+- Using frontmatter fields
+- Creating diagrams with Mermaid
+- Bible references and calendar years
+
+## Project Structure

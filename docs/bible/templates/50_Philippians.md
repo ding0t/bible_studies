@@ -1,7 +1,9 @@
 ---
-title: 50 Philippians
-tags: 
-    - bible
+title: "50 Philippians"
+category: "other"
+description: "Study resources for the Book of Philippians"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

@@ -1,7 +1,9 @@
 ---
-title: 49 Ephesians
-tags: 
-    - bible
+title: "49 Ephesians"
+category: "other"
+description: "Study resources for the Book of Ephesians"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

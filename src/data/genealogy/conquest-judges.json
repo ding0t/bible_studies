@@ -1,0 +1,841 @@
+{
+  "era": "conquest-judges",
+  "people": [
+    {
+      "id": "hezron",
+      "name": "Hezron",
+      "title": "Son of Perez, Founder of Judean Houses",
+      "essene_year_born": 2195,
+      "gregorian_year_born": -1809,
+      "essene_year_died": 2289,
+      "gregorian_year_died": -1715,
+      "lifespan_years": 94,
+      "parent_id": "perez",
+      "spouse_id": null,
+      "children": [
+        "ram",
+        "jerahmeel",
+        "chelubai"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Egyptian",
+      "prophetic_role": "Judean Patriarch",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 2195,
+          "gregorian_year": -1809,
+          "description": "Son of Perez, born in Egypt"
+        },
+        {
+          "event": "Egyptian Sojourn",
+          "essene_year": 2195,
+          "gregorian_year": -1809,
+          "description": "Lived during Israel's time in Egypt (Exodus 6:15)"
+        }
+      ],
+      "bible_references": [
+        "Genesis 46:12",
+        "Ruth 4:18",
+        "Matthew 1:3"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Hezron",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "ram",
+      "name": "Ram",
+      "title": "Son of Hezron, Ancestor of David",
+      "essene_year_born": 2218,
+      "gregorian_year_born": -1786,
+      "essene_year_died": 2305,
+      "gregorian_year_died": -1699,
+      "lifespan_years": 87,
+      "parent_id": "hezron",
+      "spouse_id": null,
+      "children": [
+        "amminadab"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Egyptian/Exodus",
+      "prophetic_role": "Davidic Line Preserver",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 2218,
+          "gregorian_year": -1786,
+          "description": "Son of Hezron (Ruth 4:19, Matthew 1:3)"
+        }
+      ],
+      "bible_references": [
+        "Ruth 4:19",
+        "Matthew 1:3-4"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Ram",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "amminadab",
+      "name": "Amminadab",
+      "title": "Son of Ram, Prince of Judah",
+      "essene_year_born": 2240,
+      "gregorian_year_born": -1764,
+      "essene_year_died": 2326,
+      "gregorian_year_died": -1678,
+      "lifespan_years": 86,
+      "parent_id": "ram",
+      "spouse_id": null,
+      "children": [
+        "nahshon"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "CALCULATED",
+      "significance_level": 2,
+      "era": "Exodus/Wilderness",
+      "prophetic_role": "Judean Prince",
+      "tags": [
+        "Patriarch",
+        "Prince of Judah"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 2240,
+          "gregorian_year": -1764,
+          "description": "Son of Ram"
+        },
+        {
+          "event": "Exodus",
+          "essene_year": 2328,
+          "gregorian_year": -1676,
+          "description": "Led Judah in wilderness (Numbers 1:7)"
+        }
+      ],
+      "bible_references": [
+        "Ruth 4:19",
+        "Numbers 1:7",
+        "Matthew 1:4"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Amminadab",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "nahshon",
+      "name": "Nahshon",
+      "title": "Son of Amminadab, Prince of Judah",
+      "essene_year_born": 2262,
+      "gregorian_year_born": -1742,
+      "essene_year_died": 2346,
+      "gregorian_year_died": -1658,
+      "lifespan_years": 84,
+      "parent_id": "amminadab",
+      "spouse_id": "elisheba",
+      "children": [
+        "salmon"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Exodus/Wilderness/Judges",
+      "prophetic_role": "Judean Leader",
+      "tags": [
+        "Patriarch",
+        "First into Red Sea"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 2262,
+          "gregorian_year": -1742,
+          "description": "Son of Amminadab"
+        },
+        {
+          "event": "Exodus Leadership",
+          "essene_year": 2328,
+          "gregorian_year": -1676,
+          "description": "Prince of Judah; led people in wilderness (Numbers 1:7, 7:12)"
+        },
+        {
+          "event": "Marriage to Elisheba",
+          "essene_year": 2280,
+          "gregorian_year": -1724,
+          "description": "Married Aaron's sister (Exodus 6:23)"
+        }
+      ],
+      "bible_references": [
+        "Exodus 6:23",
+        "Numbers 1:7",
+        "Ruth 4:20",
+        "Matthew 1:4"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Nahshon",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "elisheba",
+      "name": "Elisheba",
+      "title": "Wife of Nahshon, Sister of Aaron",
+      "essene_year_born": 2258,
+      "gregorian_year_born": -1746,
+      "essene_year_died": 2340,
+      "gregorian_year_died": -1664,
+      "lifespan_years": 82,
+      "parent_id": null,
+      "spouse_id": "nahshon",
+      "children": [
+        "salmon"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Exodus/Wilderness",
+      "prophetic_role": "High Priest's Sister",
+      "tags": [
+        "Matriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Marriage to Nahshon",
+          "essene_year": 2280,
+          "gregorian_year": -1724,
+          "description": "Became wife of Judah's prince (Exodus 6:23)"
+        }
+      ],
+      "bible_references": [
+        "Exodus 6:23"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Elisheba",
+      "name_meaning": "",
+      "gender": "female"
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "title": "Son of Nahshon, Father of Boaz",
+      "essene_year_born": 2284,
+      "gregorian_year_born": -1720,
+      "essene_year_died": 2368,
+      "gregorian_year_died": -1636,
+      "lifespan_years": 84,
+      "parent_id": "nahshon",
+      "spouse_id": "rahab",
+      "children": [
+        "boaz"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Conquest/Judges",
+      "prophetic_role": "Redemption Lineage",
+      "tags": [
+        "Patriarch",
+        "Conquest Generation"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 2284,
+          "gregorian_year": -1720,
+          "description": "Son of Nahshon"
+        },
+        {
+          "event": "Marriage to Rahab",
+          "essene_year": 2346,
+          "gregorian_year": -1658,
+          "description": "Married Canaanite woman redeemed through faith (Joshua 2, 6:22-25)"
+        }
+      ],
+      "bible_references": [
+        "Ruth 4:20-21",
+        "Matthew 1:4-5",
+        "Joshua 2, 6:22-25"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Salmon",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "rahab",
+      "name": "Rahab",
+      "title": "Woman of Jericho, Mother of Boaz",
+      "essene_year_born": 2310,
+      "gregorian_year_born": -1694,
+      "essene_year_died": 2390,
+      "gregorian_year_died": -1614,
+      "lifespan_years": 80,
+      "parent_id": null,
+      "spouse_id": "salmon",
+      "children": [
+        "boaz"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Conquest",
+      "prophetic_role": "Faith Ancestress of Jesus",
+      "tags": [
+        "Woman of Faith",
+        "Harlot Redeemed"
+      ],
+      "major_events": [
+        {
+          "event": "Faith in God",
+          "essene_year": 2346,
+          "gregorian_year": -1658,
+          "description": "Protected Hebrew spies; demonstrated faith in God (Joshua 2:1-21)"
+        },
+        {
+          "event": "Salvation from Jericho",
+          "essene_year": 2346,
+          "gregorian_year": -1658,
+          "description": "Saved alive from destruction; entered Israel (Joshua 6:22-25)"
+        },
+        {
+          "event": "Marriage to Salmon",
+          "essene_year": 2346,
+          "gregorian_year": -1658,
+          "description": "Married prince of Judah (Matthew 1:5)"
+        }
+      ],
+      "bible_references": [
+        "Joshua 2:1-21",
+        "Joshua 6:22-25",
+        "Matthew 1:5",
+        "Hebrews 11:31",
+        "James 2:25"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Rahab",
+      "name_meaning": "",
+      "gender": "female"
+    },
+    {
+      "id": "boaz",
+      "name": "Boaz",
+      "title": "Mighty Man of Valor, Kinsman Redeemer",
+      "essene_year_born": 2346,
+      "gregorian_year_born": -1658,
+      "essene_year_died": 2430,
+      "gregorian_year_died": -1574,
+      "lifespan_years": 84,
+      "parent_id": "salmon",
+      "spouse_id": "ruth",
+      "children": [
+        "obed"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 1,
+      "era": "Judges",
+      "prophetic_role": "Kinsman Redeemer Type, Messiah's Ancestor",
+      "tags": [
+        "Patriarch",
+        "Redeemer",
+        "Man of Valor"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 2346,
+          "gregorian_year": -1658,
+          "description": "Son of Salmon and Rahab"
+        },
+        {
+          "event": "Meeting Ruth",
+          "essene_year": 2406,
+          "gregorian_year": -1598,
+          "description": "Observed Ruth gleaning; showed kindness (Ruth 2:1-13)"
+        },
+        {
+          "event": "Redemption of Ruth",
+          "essene_year": 2406,
+          "gregorian_year": -1598,
+          "description": "Redeemed Ruth as kinsman redeemer; type of Christ (Ruth 3-4)"
+        },
+        {
+          "event": "Marriage to Ruth",
+          "essene_year": 2406,
+          "gregorian_year": -1598,
+          "description": "Married Ruth and continued Judean line (Ruth 4:10-13)"
+        }
+      ],
+      "bible_references": [
+        "Ruth 2-4",
+        "Matthew 1:5",
+        "Luke 3:32"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Boaz",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "ruth",
+      "name": "Ruth",
+      "title": "Woman of Moab, Ancestress of David and Jesus",
+      "essene_year_born": 2368,
+      "gregorian_year_born": -1636,
+      "essene_year_died": 2450,
+      "gregorian_year_died": -1554,
+      "lifespan_years": 82,
+      "parent_id": null,
+      "spouse_id": "boaz",
+      "children": [
+        "obed"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Judges",
+      "prophetic_role": "Foreigner Redeemed, Church Type",
+      "tags": [
+        "Woman of Faith",
+        "Foreigner",
+        "Moabite"
+      ],
+      "major_events": [
+        {
+          "event": "Faithfulness to Naomi",
+          "essene_year": 2388,
+          "gregorian_year": -1616,
+          "description": "Refused to leave Naomi; committed to Israel and God (Ruth 1:16-17)"
+        },
+        {
+          "event": "Gleaning in Field",
+          "essene_year": 2406,
+          "gregorian_year": -1598,
+          "description": "Worked in Boaz's field; found favor (Ruth 2:1-13)"
+        },
+        {
+          "event": "Redemption and Marriage",
+          "essene_year": 2406,
+          "gregorian_year": -1598,
+          "description": "Redeemed by Boaz; became wife and mother of David's line (Ruth 3-4)"
+        }
+      ],
+      "bible_references": [
+        "Ruth 1-4",
+        "Matthew 1:5",
+        "Luke 3:32",
+        "Hebrews 11:29"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Ruth",
+      "name_meaning": "",
+      "gender": "female"
+    },
+    {
+      "id": "obed",
+      "name": "Obed",
+      "title": "Son of Boaz and Ruth, Father of Jesse",
+      "essene_year_born": 2408,
+      "gregorian_year_born": -1596,
+      "essene_year_died": 2492,
+      "gregorian_year_died": -1512,
+      "lifespan_years": 84,
+      "parent_id": "boaz",
+      "spouse_id": null,
+      "children": [
+        "jesse"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Judges",
+      "prophetic_role": "David's Grandfather",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 2408,
+          "gregorian_year": -1596,
+          "description": "Son of Boaz and Ruth (Ruth 4:17)"
+        },
+        {
+          "event": "Called Naomi's Redeemer",
+          "essene_year": 2408,
+          "gregorian_year": -1596,
+          "description": "Fulfilled kinsman redeemer role; perpetuated David's line (Ruth 4:17)"
+        }
+      ],
+      "bible_references": [
+        "Ruth 4:17",
+        "Matthew 1:5",
+        "Luke 3:32"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Obed",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "jesse",
+      "name": "Jesse",
+      "title": "Father of David, Root of Jesse",
+      "essene_year_born": 2450,
+      "gregorian_year_born": -1554,
+      "essene_year_died": 2534,
+      "gregorian_year_died": -1470,
+      "lifespan_years": 84,
+      "parent_id": "obed",
+      "spouse_id": null,
+      "children": [
+        "eliab",
+        "abinadab",
+        "shimea",
+        "nethaneel",
+        "raddai",
+        "ozem",
+        "david"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 1,
+      "era": "Judges/United Kingdom",
+      "prophetic_role": "Root of Jesse, Messiah's Ancestor",
+      "tags": [
+        "Patriarch",
+        "David's Father"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 2450,
+          "gregorian_year": -1554,
+          "description": "Son of Obed"
+        },
+        {
+          "event": "Birth of David",
+          "essene_year": 2502,
+          "gregorian_year": -1502,
+          "description": "Fathered David, youngest son (1 Samuel 16:10-13)"
+        },
+        {
+          "event": "David's Anointing",
+          "essene_year": 2520,
+          "gregorian_year": -1484,
+          "description": "Samuel anointed David as king in Jesse's house (1 Samuel 16:1-13)"
+        }
+      ],
+      "bible_references": [
+        "Ruth 4:17-22",
+        "1 Samuel 16:1-13",
+        "Matthew 1:5-6",
+        "Isaiah 11:1"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Jesse",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "david",
+      "name": "David",
+      "title": "King of Israel, Man After God's Heart, Ancestor of Jesus",
+      "essene_year_born": 2502,
+      "gregorian_year_born": -1502,
+      "essene_year_died": 2582,
+      "gregorian_year_died": -1422,
+      "lifespan_years": 80,
+      "parent_id": "jesse",
+      "spouse_id": "bathsheba",
+      "children": [
+        "solomon",
+        "amnon",
+        "daniel",
+        "adonijah",
+        "shephatiah",
+        "ithream"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 1,
+      "era": "United Kingdom",
+      "prophetic_role": "King, Psalmist, Messiah's Prototype, Covenant Head",
+      "tags": [
+        "King",
+        "Prophet",
+        "Psalmist",
+        "Man After God's Heart"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 2502,
+          "gregorian_year": -1502,
+          "description": "Youngest son of Jesse, born in Bethlehem (1 Samuel 16:1-13)"
+        },
+        {
+          "event": "Anointing as King",
+          "essene_year": 2520,
+          "gregorian_year": -1484,
+          "description": "Samuel anointed David; Spirit came upon him (1 Samuel 16:1-13)"
+        },
+        {
+          "event": "Victory over Goliath",
+          "essene_year": 2528,
+          "gregorian_year": -1476,
+          "description": "Defeated Philistine giant with faith in God (1 Samuel 17:1-54)"
+        },
+        {
+          "event": "Friendship with Jonathan",
+          "essene_year": 2528,
+          "gregorian_year": -1476,
+          "description": "Bond with Saul's son; covenant of love (1 Samuel 18:1-4)"
+        },
+        {
+          "event": "Years of Exile",
+          "essene_year": 2530,
+          "gregorian_year": -1474,
+          "description": "Fled from Saul for approximately 10 years"
+        },
+        {
+          "event": "Coronation as King",
+          "essene_year": 2540,
+          "gregorian_year": -1464,
+          "description": "Became king of Judah at age 30; later king of all Israel (2 Samuel 2:1-7, 5:1-5)"
+        },
+        {
+          "event": "Captured Jerusalem",
+          "essene_year": 2541,
+          "gregorian_year": -1463,
+          "description": "Made Jerusalem capital; brought Ark of Covenant (2 Samuel 5:6-12, 6:1-19)"
+        },
+        {
+          "event": "Davidic Covenant",
+          "essene_year": 2548,
+          "gregorian_year": -1456,
+          "description": "Covenant: throne established forever; Messiah from his line (2 Samuel 7:1-17)"
+        },
+        {
+          "event": "Marriage to Bathsheba",
+          "essene_year": 2556,
+          "gregorian_year": -1448,
+          "description": "Took Bathsheba; born son Solomon who continued throne (2 Samuel 11-12)"
+        },
+        {
+          "event": "Psalms and Prophecy",
+          "essene_year": 2540,
+          "gregorian_year": -1464,
+          "description": "Wrote Psalms; prophesied about Messiah (e.g., Psalm 22, 110)"
+        },
+        {
+          "event": "Death",
+          "essene_year": 2582,
+          "gregorian_year": -1422,
+          "description": "Died at age 70; buried in City of David (1 Kings 2:10)"
+        }
+      ],
+      "bible_references": [
+        "1 Samuel 16-31",
+        "2 Samuel 1-24",
+        "1 Kings 1-2",
+        "Matthew 1:6",
+        "Luke 3:31",
+        "Acts 13:22",
+        "Hebrews 1:5"
+      ],
+      "name_hebrew": "דָּוִד",
+      "name_transliteration": "David",
+      "name_meaning": "Beloved; from 'dod' (beloved, uncle) or 'david' (friend)",
+      "gender": "male"
+    },
+    {
+      "id": "bathsheba",
+      "name": "Bathsheba",
+      "title": "Wife of David, Mother of Solomon",
+      "essene_year_born": 2524,
+      "gregorian_year_born": -1480,
+      "essene_year_died": 2600,
+      "gregorian_year_died": -1404,
+      "lifespan_years": 76,
+      "parent_id": null,
+      "spouse_id": "david",
+      "children": [
+        "solomon"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "United Kingdom",
+      "prophetic_role": "Mother of Solomon, Messianic Line",
+      "tags": [
+        "Queen",
+        "Redeemed",
+        "Mother of Heir"
+      ],
+      "major_events": [
+        {
+          "event": "Marriage to David",
+          "essene_year": 2556,
+          "gregorian_year": -1448,
+          "description": "Became David's wife; mother of Solomon (2 Samuel 11-12)"
+        },
+        {
+          "event": "Birth of Solomon",
+          "essene_year": 2556,
+          "gregorian_year": -1448,
+          "description": "Bore Solomon, heir to David's throne (2 Samuel 12:25)"
+        }
+      ],
+      "bible_references": [
+        "2 Samuel 11-12",
+        "1 Kings 1-2",
+        "Matthew 1:6"
+      ],
+      "name_hebrew": "בַּת־שֶׁבַע",
+      "name_transliteration": "Bat-Sheva",
+      "name_meaning": "Daughter of the oath; from 'bat' (daughter) and 'sheba' (oath)",
+      "gender": "female"
+    },
+    {
+      "id": "solomon",
+      "name": "Solomon",
+      "title": "King of Israel, Builder of Temple, Wisdom",
+      "essene_year_born": 2556,
+      "gregorian_year_born": -1448,
+      "essene_year_died": 2618,
+      "gregorian_year_died": -1386,
+      "lifespan_years": 62,
+      "parent_id": "david",
+      "spouse_id": null,
+      "children": [
+        "rehoboam"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 1,
+      "era": "United Kingdom",
+      "prophetic_role": "Wise King, Temple Builder, Messianic Type",
+      "tags": [
+        "King",
+        "Wisest Man",
+        "Temple Builder"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 2556,
+          "gregorian_year": -1448,
+          "description": "Second son of David and Bathsheba (2 Samuel 12:25)"
+        },
+        {
+          "event": "Divine Appearance",
+          "essene_year": 2556,
+          "gregorian_year": -1448,
+          "description": "God appeared to Solomon; loved by God (2 Samuel 12:25)"
+        },
+        {
+          "event": "Coronation",
+          "essene_year": 2582,
+          "gregorian_year": -1422,
+          "description": "Became king after David's death at age 20 (1 Kings 1:11-48)"
+        },
+        {
+          "event": "Request for Wisdom",
+          "essene_year": 2583,
+          "gregorian_year": -1421,
+          "description": "Asked God for wisdom; granted both wisdom and riches (1 Kings 3:4-15)"
+        },
+        {
+          "event": "Temple Construction",
+          "essene_year": 2583,
+          "gregorian_year": -1421,
+          "description": "Built magnificent Temple in Jerusalem; took 7 years (1 Kings 5-8)"
+        },
+        {
+          "event": "Dedication of Temple",
+          "essene_year": 2590,
+          "gregorian_year": -1414,
+          "description": "Dedicated Temple; God's glory filled it (1 Kings 8:1-66)"
+        },
+        {
+          "event": "Reign of Peace",
+          "essene_year": 2582,
+          "gregorian_year": -1422,
+          "description": "Kingdom at peace; wisdom renowned throughout world (1 Kings 4:29-34)"
+        },
+        {
+          "event": "Death",
+          "essene_year": 2618,
+          "gregorian_year": -1386,
+          "description": "Died; reigned 40 years (1 Kings 11:42)"
+        }
+      ],
+      "bible_references": [
+        "2 Samuel 12:25",
+        "1 Kings 1-11",
+        "Matthew 1:6",
+        "Luke 3:31"
+      ],
+      "name_hebrew": "שְׁלֹמֹה",
+      "name_transliteration": "Shlomo",
+      "name_meaning": "Peaceful; from 'shalom' (peace)",
+      "gender": "male"
+    }
+  ]
+}

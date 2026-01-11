@@ -1,7 +1,9 @@
 ---
-title: 04 Numbers
-tags: 
-    - bible
+title: "04 Numbers"
+category: "other"
+description: "Study resources for the Book of Numbers"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

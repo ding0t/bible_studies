@@ -1,7 +1,9 @@
 ---
-title: 62 1 John
-tags: 
-    - bible
+title: "62 1 John"
+category: "other"
+description: "Study resources for the Book of 1 John"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

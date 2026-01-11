@@ -1,7 +1,9 @@
 ---
-title: 02 Exodus
-tags: 
-    - bible
+title: "02 Exodus"
+category: "other"
+description: "Study resources for the Book of Exodus"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

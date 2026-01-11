@@ -1,7 +1,9 @@
 ---
-title: 53 2 Thessalonians
-tags: 
-    - bible
+title: "53 2 Thessalonians"
+category: "other"
+description: "Study resources for the Book of 2 Thessalonians"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

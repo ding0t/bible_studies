@@ -1,3 +1,11 @@
+---
+title: "About Biblical Studies"
+category: "other"
+description: "Personal Bible study notes and resources"
+tags: ["about", "overview", "faith", "end-times", "hebrew", "sermons"]
+draft: false
+---
+
 # About
 
 These are personal bible study notes to help make sure I learn, and share that learning.

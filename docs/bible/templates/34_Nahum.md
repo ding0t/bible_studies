@@ -1,7 +1,9 @@
 ---
-title: 34 Nahum
-tags: 
-    - bible
+title: "34 Nahum"
+category: "prophecy"
+description: "Study resources for the Book of Nahum"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

@@ -1,7 +1,9 @@
 ---
-title: 32 Jonah
-tags: 
-    - bible
+title: "32 Jonah"
+category: "prophecy"
+description: "Study resources for the Book of Jonah"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

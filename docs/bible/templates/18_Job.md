@@ -1,7 +1,9 @@
 ---
-title: 18 Job
-tags: 
-    - bible
+title: "18 Job"
+category: "other"
+description: "Study resources for the Book of Job"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

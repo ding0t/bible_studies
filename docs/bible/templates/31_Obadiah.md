@@ -1,7 +1,9 @@
 ---
-title: 31 Obadiah
-tags: 
-    - bible
+title: "31 Obadiah"
+category: "prophecy"
+description: "Study resources for the Book of Obadiah"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

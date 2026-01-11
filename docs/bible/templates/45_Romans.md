@@ -1,7 +1,9 @@
 ---
-title: 45 Romans
-tags: 
-    - bible
+title: "45 Romans"
+category: "other"
+description: "Study resources for the Book of Romans"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

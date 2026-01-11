@@ -1,7 +1,9 @@
 ---
-title: 11 1 Kings
-tags: 
-    - bible
+title: "11 1 Kings"
+category: "other"
+description: "Study resources for the Book of 1 Kings"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

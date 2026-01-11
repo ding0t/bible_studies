@@ -1,7 +1,9 @@
 ---
-title: 43 John
-tags: 
-    - bible
+title: "43 John"
+category: "other"
+description: "Study resources for the Book of John"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

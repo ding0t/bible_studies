@@ -1,7 +1,9 @@
 ---
-title: 09 1 Samuel
-tags: 
-    - bible
+title: "09 1 Samuel"
+category: "other"
+description: "Study resources for the Book of 1 Samuel"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

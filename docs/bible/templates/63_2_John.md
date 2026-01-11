@@ -1,7 +1,9 @@
 ---
-title: 63 2 John
-tags: 
-    - bible
+title: "63 2 John"
+category: "other"
+description: "Study resources for the Book of 2 John"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

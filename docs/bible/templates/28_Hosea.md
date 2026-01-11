@@ -1,7 +1,9 @@
 ---
-title: 28 Hosea
-tags: 
-    - bible
+title: "28 Hosea"
+category: "prophecy"
+description: "Study resources for the Book of Hosea"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

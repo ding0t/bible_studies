@@ -1,7 +1,9 @@
 ---
-title: 12 2 Kings
-tags: 
-    - bible
+title: "12 2 Kings"
+category: "other"
+description: "Study resources for the Book of 2 Kings"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

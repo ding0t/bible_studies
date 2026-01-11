@@ -1,7 +1,9 @@
 ---
-title: 46 1 Corinthians
-tags: 
-    - bible
+title: "46 1 Corinthians"
+category: "other"
+description: "Study resources for the Book of 1 Corinthians"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

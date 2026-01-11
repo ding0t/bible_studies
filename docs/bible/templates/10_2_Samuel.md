@@ -1,7 +1,9 @@
 ---
-title: 10 2 Samuel
-tags: 
-    - bible
+title: "10 2 Samuel"
+category: "other"
+description: "Study resources for the Book of 2 Samuel"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

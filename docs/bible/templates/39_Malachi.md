@@ -1,7 +1,9 @@
 ---
-title: 39 Malachi
-tags: 
-    - bible
+title: "39 Malachi"
+category: "prophecy"
+description: "Study resources for the Book of Malachi"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

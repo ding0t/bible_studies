@@ -1,7 +1,9 @@
 ---
-title: 35 Habakkuk
-tags: 
-    - bible
+title: "35 Habakkuk"
+category: "prophecy"
+description: "Study resources for the Book of Habakkuk"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

@@ -1,7 +1,9 @@
 ---
-title: 21 Ecclesiastes
-tags: 
-    - bible
+title: "21 Ecclesiastes"
+category: "other"
+description: "Study resources for the Book of Ecclesiastes"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

@@ -1,7 +1,9 @@
 ---
-title: 19 Psalms
-tags: 
-    - bible
+title: "19 Psalms"
+category: "other"
+description: "Study resources for the Book of Psalms"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

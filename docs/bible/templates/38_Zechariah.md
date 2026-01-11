@@ -1,7 +1,9 @@
 ---
-title: 38 Zechariah
-tags: 
-    - bible
+title: "38 Zechariah"
+category: "prophecy"
+description: "Study resources for the Book of Zechariah"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

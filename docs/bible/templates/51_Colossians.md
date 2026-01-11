@@ -1,7 +1,9 @@
 ---
-title: 51 Colossians
-tags: 
-    - bible
+title: "51 Colossians"
+category: "other"
+description: "Study resources for the Book of Colossians"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

@@ -1,7 +1,9 @@
 ---
-title: 54 1 Timothy
-tags: 
-    - bible
+title: "54 1 Timothy"
+category: "other"
+description: "Study resources for the Book of 1 Timothy"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

@@ -1,7 +1,9 @@
 ---
-title: 57 Philemon
-tags: 
-    - bible
+title: "57 Philemon"
+category: "other"
+description: "Study resources for the Book of Philemon"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

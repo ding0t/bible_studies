@@ -1,7 +1,9 @@
 ---
-title: 07 Judges
-tags: 
-    - bible
+title: "07 Judges"
+category: "other"
+description: "Study resources for the Book of Judges"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

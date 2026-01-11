@@ -1,7 +1,9 @@
 ---
-title: 22 Song of Solomon
-tags: 
-    - bible
+title: "22 Song of Solomon"
+category: "other"
+description: "Study resources for the Book of Song of Solomon"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

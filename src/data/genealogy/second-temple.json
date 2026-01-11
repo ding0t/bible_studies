@@ -1,0 +1,787 @@
+{
+  "era": "second-temple",
+  "people": [
+    {
+      "id": "abiud",
+      "name": "Abiud",
+      "title": "Son of Zerubbabel",
+      "essene_year_born": 3087,
+      "gregorian_year_born": -917,
+      "essene_year_died": 3157,
+      "gregorian_year_died": -847,
+      "lifespan_years": 70,
+      "parent_id": "zerubbabel",
+      "spouse_id": null,
+      "children": [
+        "eliakim_3"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "CALCULATED",
+      "significance_level": 3,
+      "era": "Return from Exile",
+      "prophetic_role": "Restoration Lineage",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 3087,
+          "gregorian_year": -917,
+          "description": "Son of Zerubbabel (Matthew 1:13)"
+        }
+      ],
+      "bible_references": [
+        "Matthew 1:13"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Abiud",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "eliakim_3",
+      "name": "Eliakim",
+      "title": "Son of Abiud",
+      "essene_year_born": 3112,
+      "gregorian_year_born": -892,
+      "essene_year_died": 3182,
+      "gregorian_year_died": -822,
+      "lifespan_years": 70,
+      "parent_id": "abiud",
+      "spouse_id": null,
+      "children": [
+        "azor"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "CALCULATED",
+      "significance_level": 3,
+      "era": "Post-Exile",
+      "prophetic_role": "Post-Exile Lineage",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 3112,
+          "gregorian_year": -892,
+          "description": "Son of Abiud (Matthew 1:13)"
+        }
+      ],
+      "bible_references": [
+        "Matthew 1:13"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Eliakim",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "azor",
+      "name": "Azor",
+      "title": "Son of Eliakim",
+      "essene_year_born": 3137,
+      "gregorian_year_born": -867,
+      "essene_year_died": 3207,
+      "gregorian_year_died": -797,
+      "lifespan_years": 70,
+      "parent_id": "eliakim_3",
+      "spouse_id": null,
+      "children": [
+        "sadoc"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "CALCULATED",
+      "significance_level": 3,
+      "era": "Post-Exile",
+      "prophetic_role": "Post-Exile Lineage",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 3137,
+          "gregorian_year": -867,
+          "description": "Son of Azor (Matthew 1:13-14)"
+        }
+      ],
+      "bible_references": [
+        "Matthew 1:13-14"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Azor",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "sadoc",
+      "name": "Sadoc",
+      "title": "Son of Azor",
+      "essene_year_born": 3162,
+      "gregorian_year_born": -842,
+      "essene_year_died": 3232,
+      "gregorian_year_died": -772,
+      "lifespan_years": 70,
+      "parent_id": "azor",
+      "spouse_id": null,
+      "children": [
+        "achim"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "CALCULATED",
+      "significance_level": 3,
+      "era": "Post-Exile",
+      "prophetic_role": "Post-Exile Lineage",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 3162,
+          "gregorian_year": -842,
+          "description": "Son of Sadoc (Matthew 1:14)"
+        }
+      ],
+      "bible_references": [
+        "Matthew 1:14"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Sadoc",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "achim",
+      "name": "Achim",
+      "title": "Son of Sadoc",
+      "essene_year_born": 3187,
+      "gregorian_year_born": -817,
+      "essene_year_died": 3257,
+      "gregorian_year_died": -747,
+      "lifespan_years": 70,
+      "parent_id": "sadoc",
+      "spouse_id": null,
+      "children": [
+        "eliud"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "CALCULATED",
+      "significance_level": 3,
+      "era": "Post-Exile",
+      "prophetic_role": "Post-Exile Lineage",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 3187,
+          "gregorian_year": -817,
+          "description": "Son of Achim (Matthew 1:14)"
+        }
+      ],
+      "bible_references": [
+        "Matthew 1:14"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Achim",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "eliud",
+      "name": "Eliud",
+      "title": "Son of Achim",
+      "essene_year_born": 3212,
+      "gregorian_year_born": -792,
+      "essene_year_died": 3282,
+      "gregorian_year_died": -722,
+      "lifespan_years": 70,
+      "parent_id": "achim",
+      "spouse_id": null,
+      "children": [
+        "eleazar_2"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "CALCULATED",
+      "significance_level": 3,
+      "era": "Post-Exile",
+      "prophetic_role": "Post-Exile Lineage",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 3212,
+          "gregorian_year": -792,
+          "description": "Son of Eliud (Matthew 1:15)"
+        }
+      ],
+      "bible_references": [
+        "Matthew 1:15"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Eliud",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "eleazar_2",
+      "name": "Eleazar",
+      "title": "Son of Eliud",
+      "essene_year_born": 3237,
+      "gregorian_year_born": -767,
+      "essene_year_died": 3307,
+      "gregorian_year_died": -697,
+      "lifespan_years": 70,
+      "parent_id": "eliud",
+      "spouse_id": null,
+      "children": [
+        "matthan"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "CALCULATED",
+      "significance_level": 3,
+      "era": "Post-Exile",
+      "prophetic_role": "Post-Exile Lineage",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 3237,
+          "gregorian_year": -767,
+          "description": "Son of Eleazar (Matthew 1:15)"
+        }
+      ],
+      "bible_references": [
+        "Matthew 1:15"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Eleazar",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "matthan",
+      "name": "Matthan",
+      "title": "Son of Eleazar, Grandfather of Joseph",
+      "essene_year_born": 3262,
+      "gregorian_year_born": -742,
+      "essene_year_died": 3332,
+      "gregorian_year_died": -672,
+      "lifespan_years": 70,
+      "parent_id": "eleazar_2",
+      "spouse_id": null,
+      "children": [
+        "jacob_2"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "CALCULATED",
+      "significance_level": 2,
+      "era": "Late Second Temple",
+      "prophetic_role": "Jesus's Grandfather",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 3262,
+          "gregorian_year": -742,
+          "description": "Son of Matthan (Matthew 1:15)"
+        }
+      ],
+      "bible_references": [
+        "Matthew 1:15"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Matthan",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "jacob_2",
+      "name": "Jacob",
+      "title": "Son of Matthan, Father of Joseph",
+      "essene_year_born": 3287,
+      "gregorian_year_born": -717,
+      "essene_year_died": 3357,
+      "gregorian_year_died": -647,
+      "lifespan_years": 70,
+      "parent_id": "matthan",
+      "spouse_id": null,
+      "children": [
+        "joseph"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Late Second Temple",
+      "prophetic_role": "Jesus's Grandfather",
+      "tags": [
+        "Patriarch"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 3287,
+          "gregorian_year": -717,
+          "description": "Son of Jacob (Matthew 1:16)"
+        }
+      ],
+      "bible_references": [
+        "Matthew 1:16"
+      ],
+      "name_hebrew": "",
+      "name_transliteration": "Jacob",
+      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "joseph",
+      "name": "Joseph",
+      "title": "Earthly Father of Jesus, Carpenter of Nazareth",
+      "essene_year_born": 3312,
+      "gregorian_year_born": -692,
+      "essene_year_died": 3389,
+      "gregorian_year_died": -615,
+      "lifespan_years": 89,
+      "parent_id": "jacob_2",
+      "spouse_id": "mary",
+      "children": [
+        "jesus"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 1,
+      "era": "Second Temple",
+      "prophetic_role": "Legal Father, Earthly Protector",
+      "tags": [
+        "Patriarch",
+        "Carpenter",
+        "Righteous Man"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 3312,
+          "gregorian_year": -692,
+          "description": "Son of Jacob; carpenter (Matthew 1:16, 13:55)"
+        },
+        {
+          "event": "Espousal to Mary",
+          "essene_year": 3338,
+          "gregorian_year": -666,
+          "description": "Betrothed to Mary of Nazareth (Matthew 1:18)"
+        },
+        {
+          "event": "Dream of Angel",
+          "essene_year": 3338,
+          "gregorian_year": -666,
+          "description": "Angel revealed Mary's pregnancy; told him Jesus's purpose (Matthew 1:20-21)"
+        },
+        {
+          "event": "Birth of Jesus",
+          "essene_year": 4005,
+          "gregorian_year": 1,
+          "description": "Witnessed birth of Jesus in Bethlehem; raised him (Matthew 1:25, Luke 2:1-7)"
+        },
+        {
+          "event": "Flight to Egypt",
+          "essene_year": 4005,
+          "gregorian_year": 1,
+          "description": "Fled with Jesus to Egypt to escape Herod (Matthew 2:13-15)"
+        },
+        {
+          "event": "Return to Nazareth",
+          "essene_year": 4007,
+          "gregorian_year": 3,
+          "description": "Settled in Nazareth; raised Jesus in carpenter's trade (Matthew 2:19-23)"
+        }
+      ],
+      "bible_references": [
+        "Matthew 1:16",
+        "Matthew 1:18-25",
+        "Matthew 2:1-23",
+        "Luke 1:27",
+        "Luke 2:1-40",
+        "John 1:45"
+      ],
+      "name_hebrew": "יוֹסֵף",
+      "name_transliteration": "Yosef",
+      "name_meaning": "He shall add; from 'yasaf' (to add, increase)",
+      "gender": "male"
+    },
+    {
+      "id": "mary",
+      "name": "Mary (Miriam)",
+      "title": "Virgin of Nazareth, Mother of Jesus",
+      "essene_year_born": 3320,
+      "gregorian_year_born": -684,
+      "essene_year_died": 3388,
+      "gregorian_year_died": -616,
+      "lifespan_years": 64,
+      "parent_id": null,
+      "spouse_id": "joseph",
+      "children": [
+        "jesus"
+      ],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 1,
+      "era": "Second Temple",
+      "prophetic_role": "Theotokos - Bearer of God",
+      "tags": [
+        "Virgin",
+        "Mother of Jesus",
+        "Blessed"
+      ],
+      "major_events": [
+        {
+          "event": "Birth",
+          "essene_year": 3320,
+          "gregorian_year": -684,
+          "description": "Born in Nazareth or Jerusalem"
+        },
+        {
+          "event": "Annunciation",
+          "essene_year": 4004,
+          "gregorian_year": 0,
+          "description": "Angel Gabriel announced she would bear the Son of God (Luke 1:26-38)"
+        },
+        {
+          "event": "Conception of Jesus",
+          "essene_year": 4004,
+          "gregorian_year": 0,
+          "description": "Jesus conceived by Holy Spirit; Mary found with child (Matthew 1:18, Luke 1:26-35)"
+        },
+        {
+          "event": "Birth of Jesus",
+          "essene_year": 4005,
+          "gregorian_year": 1,
+          "description": "Gave birth to Jesus in Bethlehem (Matthew 2:1-7, Luke 2:1-20)"
+        },
+        {
+          "event": "Presentation in Temple",
+          "essene_year": 4006,
+          "gregorian_year": 2,
+          "description": "Presented Jesus in Temple; prophecy of sword piercing soul (Luke 2:22-35)"
+        },
+        {
+          "event": "Flight to Egypt",
+          "essene_year": 4006,
+          "gregorian_year": 2,
+          "description": "Fled with Jesus and Joseph to Egypt (Matthew 2:13-15)"
+        },
+        {
+          "event": "Crucifixion",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Witnessed Jesus's crucifixion; entrusted to John (John 19:25-27)"
+        }
+      ],
+      "bible_references": [
+        "Luke 1:26-56",
+        "Matthew 1:18-25",
+        "Matthew 2:1-23",
+        "Luke 2:1-52",
+        "John 2:1-12",
+        "John 19:25-27",
+        "Acts 1:14"
+      ],
+      "name_hebrew": "מִרְיָם",
+      "name_transliteration": "Miryam",
+      "name_meaning": "Rebellion, star of the sea; possibly from 'marah' (bitter) or Latin 'mare' (sea)",
+      "gender": "female"
+    },
+    {
+      "id": "jesus",
+      "name": "Jesus",
+      "title": "The Messiah, Son of God, Son of Man, Savior of the World",
+      "essene_year_born": 4005,
+      "gregorian_year_born": 1,
+      "essene_year_died": 4034,
+      "gregorian_year_died": 30,
+      "lifespan_years": 33,
+      "parent_id": "joseph",
+      "spouse_id": null,
+      "children": [],
+      "lineages": [
+        "seth_line",
+        "jesus_line"
+      ],
+      "data_classification": "ACTUAL",
+      "significance_level": 1,
+      "era": "Second Temple",
+      "prophetic_role": "Messiah, Lamb of God, Redeemer, Savior",
+      "tags": [
+        "Messiah",
+        "Son of God",
+        "Redeemer",
+        "King"
+      ],
+      "major_events": [
+        {
+          "event": "Miraculous Conception",
+          "essene_year": 4004,
+          "gregorian_year": 0,
+          "description": "Conceived by Holy Spirit in womb of virgin Mary (Matthew 1:18-25, Luke 1:26-38, Isaiah 7:14)"
+        },
+        {
+          "event": "Birth in Bethlehem",
+          "essene_year": 4005,
+          "gregorian_year": 1,
+          "description": "Born in Bethlehem; fulfillment of Micah 5:2 (Matthew 2:1-7, Luke 2:1-20)"
+        },
+        {
+          "event": "Visit of Wise Men",
+          "essene_year": 4005,
+          "gregorian_year": 1,
+          "description": "Magi visited bearing gifts; Jesus presented as King to nations (Matthew 2:1-12)"
+        },
+        {
+          "event": "Circumcision",
+          "essene_year": 4006,
+          "gregorian_year": 2,
+          "description": "Circumcised on eighth day; named Jesus (Luke 2:21)"
+        },
+        {
+          "event": "Presentation in Temple",
+          "essene_year": 4006,
+          "gregorian_year": 2,
+          "description": "Presented as firstborn; recognized as Light of Gentiles (Luke 2:22-35)"
+        },
+        {
+          "event": "Flight to Egypt",
+          "essene_year": 4006,
+          "gregorian_year": 2,
+          "description": "Family fled to Egypt to escape Herod's massacre (Matthew 2:13-15, Hosea 11:1)"
+        },
+        {
+          "event": "Childhood in Nazareth",
+          "essene_year": 4007,
+          "gregorian_year": 3,
+          "description": "Grew up in Nazareth; trained in carpenter's trade (Matthew 2:19-23, Luke 2:39-40, 52)"
+        },
+        {
+          "event": "Visit to Temple at Age 12",
+          "essene_year": 4017,
+          "gregorian_year": 13,
+          "description": "Found in Temple discussing with teachers; demonstrated wisdom (Luke 2:41-50)"
+        },
+        {
+          "event": "Baptism by John",
+          "essene_year": 4031,
+          "gregorian_year": 27,
+          "description": "Baptized in Jordan; Spirit descended as dove; Father's voice confirmed (Matthew 3:13-17, Mark 1:9-11, Luke 3:21-22)"
+        },
+        {
+          "event": "Temptation in Wilderness",
+          "essene_year": 4031,
+          "gregorian_year": 27,
+          "description": "Tempted by Satan for 40 days; overcome through God's word (Matthew 4:1-11, Mark 1:12-13, Luke 4:1-13)"
+        },
+        {
+          "event": "Call of First Disciples",
+          "essene_year": 4031,
+          "gregorian_year": 27,
+          "description": "Called Simon Peter, Andrew, James, John as disciples (John 1:35-51)"
+        },
+        {
+          "event": "Ministry Begins",
+          "essene_year": 4031,
+          "gregorian_year": 27,
+          "description": "Began public ministry with signs and teaching; proclaimed Kingdom (John 2-4)"
+        },
+        {
+          "event": "Sermon on the Mount",
+          "essene_year": 4032,
+          "gregorian_year": 28,
+          "description": "Preached blessings and teachings of Kingdom (Matthew 5-7)"
+        },
+        {
+          "event": "Miracles and Healings",
+          "essene_year": 4032,
+          "gregorian_year": 28,
+          "description": "Cast out demons, healed sick, raised dead, calmed storms (Matthew 8-9, Mark 1-5, Luke 5-9)"
+        },
+        {
+          "event": "Choosing the Twelve",
+          "essene_year": 4032,
+          "gregorian_year": 28,
+          "description": "Selected 12 apostles as foundation of Church (Matthew 10:1-4, Mark 3:13-19, Luke 6:12-16)"
+        },
+        {
+          "event": "Transfiguration",
+          "essene_year": 4033,
+          "gregorian_year": 29,
+          "description": "Revealed glory before Peter, James, John; Law and Prophets testified (Matthew 17:1-8, Mark 9:2-8, Luke 9:28-36)"
+        },
+        {
+          "event": "Teaching on Kingdom",
+          "essene_year": 4033,
+          "gregorian_year": 29,
+          "description": "Taught in parables about Kingdom; ultimate authority revealed (Matthew 13, 18-25, Mark 4, 10-14, Luke 8, 15-18)"
+        },
+        {
+          "event": "Triumphal Entry",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Entered Jerusalem on donkey; hailed as Messiah (Matthew 21:1-11, Mark 11:1-11, Luke 19:28-40, John 12:12-15, Zechariah 9:9)"
+        },
+        {
+          "event": "Cleansing of Temple",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Overturned tables of money changers; demonstrated authority (Matthew 21:12-17, Mark 11:15-19, Luke 19:45-48)"
+        },
+        {
+          "event": "Last Supper",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Instituted covenant meal; broke bread and cup; 'This is my body, this is my blood' (Matthew 26:17-30, Mark 14:12-26, Luke 22:7-23, 1 Corinthians 11:23-26)"
+        },
+        {
+          "event": "Gethsemane Prayer",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Prayed 'Not my will but yours be done'; sweated drops of blood (Matthew 26:36-46, Mark 14:32-42, Luke 22:39-46)"
+        },
+        {
+          "event": "Betrayal and Arrest",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Betrayed by Judas; arrested by officers of Sanhedrin (Matthew 26:47-56, Mark 14:43-52, Luke 22:47-53, John 18:2-12)"
+        },
+        {
+          "event": "Trial Before Sanhedrin",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Questioned about being Messiah; condemned for blasphemy (Matthew 26:57-68, Mark 14:53-65, Luke 22:54-71, John 18:12-27)"
+        },
+        {
+          "event": "Trial Before Pilate",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Brought before Roman governor; accused of sedition; Pilate found no fault (Matthew 27:1-26, Mark 15:1-15, Luke 23:1-25, John 18:28-19:16)"
+        },
+        {
+          "event": "Scourging and Mocking",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Beaten by Roman soldiers; crowned with thorns; mocked as King (Matthew 27:26-31, Mark 15:15-20, John 19:1-5, Isaiah 50:6, 52:14)"
+        },
+        {
+          "event": "Crucifixion",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Crucified at Golgotha between two thieves; darkness over land; veil torn (Matthew 27:32-56, Mark 15:21-41, Luke 23:26-49, John 19:17-37, Psalm 22, Isaiah 53)"
+        },
+        {
+          "event": "Pierced Side",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Side pierced by soldier's spear; blood and water flowed (John 19:34, Zechariah 12:10)"
+        },
+        {
+          "event": "Burial in Joseph's Tomb",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Buried in new tomb of Joseph of Arimathea; stone sealed (Matthew 27:57-66, Mark 15:42-47, Luke 23:50-56, John 19:38-42, Isaiah 53:9)"
+        },
+        {
+          "event": "Resurrection",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Rose on the third day; death conquered; firstfruits of resurrection (Matthew 28:1-10, Mark 16:1-8, Luke 24:1-12, John 20:1-18, 1 Corinthians 15:3-8)"
+        },
+        {
+          "event": "Appearances After Resurrection",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Appeared to disciples, Mary, Peter, 500+ believers over 40 days (Matthew 28:16-20, Luke 24:36-43, John 20-21, 1 Corinthians 15:3-8)"
+        },
+        {
+          "event": "Ascension",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Ascended to heaven 40 days after resurrection; seated at Father's right hand (Matthew 28:19-20, Mark 16:19, Luke 24:50-53, Acts 1:9-11, Hebrews 10:12-13)"
+        },
+        {
+          "event": "Reign at God's Right Hand",
+          "essene_year": 4034,
+          "gregorian_year": 30,
+          "description": "Exalted; all authority given; intercedes for saints; awaits return (Philippians 2:9-11, Colossians 3:1, Hebrews 1:3, 10:12-13, Revelation 3:21)"
+        }
+      ],
+      "bible_references": [
+        "Matthew 1:1-25",
+        "Matthew 2:1-23",
+        "Matthew 3-28",
+        "Mark 1-16",
+        "Luke 1-24",
+        "John 1-21",
+        "Genesis 3:15",
+        "Isaiah 7:14",
+        "Isaiah 9:6-7",
+        "Isaiah 11:1-10",
+        "Isaiah 52:13-53:12",
+        "Micah 5:2",
+        "Zechariah 9:9",
+        "Zechariah 12:10",
+        "Psalm 22",
+        "Psalm 110",
+        "Hebrews 1-10",
+        "Revelation 1:4-8",
+        "Revelation 19:11-16",
+        "1 Corinthians 15:1-58",
+        "1 Peter 1:18-25",
+        "1 John 1:1-3",
+        "Philippians 2:5-11"
+      ],
+      "name_hebrew": "יֵשׁוּעַ",
+      "name_transliteration": "Yeshua",
+      "name_meaning": "The Lord is salvation; from 'yasha' (to save) and 'Yah' (God)",
+      "gender": "male"
+    }
+  ]
+}

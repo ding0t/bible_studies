@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "last_updated": "2026-01-11",
+    "description": "Complete biblical genealogy from Adam to Jesus with dual-calendar dating (Essene Year 0 = 4004 BC), relational data, lineage tracking, and classification system. Data organized by biblical era for improved maintainability.",
+    "calendar_offset": 4004,
+    "calendar_info": "Essene Year 0 corresponds to -4004 Gregorian (4004 BC). Add 4004 to Essene year to get Gregorian year.",
+    "total_people": 77,
+    "file_structure": {
+      "antediluvian.json": "Adam to Noah (13 people)",
+      "patriarchal.json": "Post-Flood patriarchs to Judah (19 people)",
+      "conquest-judges.json": "Hezron to Solomon (14 people)",
+      "divided-kingdom.json": "Rehoboam to Josiah (15 people)",
+      "exile-return.json": "Jehoiakim to Zerubbabel (4 people)",
+      "second-temple.json": "Abiud to Jesus (12 people)"
+    }
+  },
+  "lineages": {
+    "seth_line": {
+      "name": "Line of Seth (The Godly Line)",
+      "description": "The line through which God's covenant was preserved through the Flood to Abraham, Isaac, Jacob, and ultimately Jesus",
+      "significance": "Primary covenant lineage",
+      "color": "#2563eb"
+    },
+    "jesus_line": {
+      "name": "Jesus's Genealogy",
+      "description": "Direct line from Adam through Seth, Noah, Shem, Abraham, Isaac, Jacob, Judah, David to Jesus",
+      "significance": "Messianic line",
+      "color": "#dc2626"
+    },
+    "cain_line": {
+      "name": "Line of Cain (The Ungodly Line)",
+      "description": "Cain's descendants, representing human civilization apart from God, judged in the Flood",
+      "significance": "Antithetical lineage",
+      "color": "#6b7280"
+    },
+    "ham_line": {
+      "name": "Line of Ham (Noahic Covenant)",
+      "description": "Post-Flood lineage of Canaan, representing nations under the Noahic covenant",
+      "significance": "Post-Flood nations",
+      "color": "#f59e0b"
+    }
+  },
+  "eras": {
+    "antediluvian": {
+      "name": "Antediluvian Age",
+      "description": "From creation of Adam to the Great Flood",
+      "date_range": "Essene 0-1656 (Gregorian -4004 to -2348)",
+      "people_count": 13,
+      "file": "antediluvian.json"
+    },
+    "patriarchal": {
+      "name": "Patriarchal Age",
+      "description": "From post-Flood patriarchs through the Egyptian sojourn to the Conquest",
+      "date_range": "Essene 1656-2554 (Gregorian -2348 to -1450)",
+      "people_count": 19,
+      "file": "patriarchal.json"
+    },
+    "conquest_judges": {
+      "name": "Conquest & Judges Period",
+      "description": "From the Conquest of Canaan through the Judges to establishment of the monarchy",
+      "date_range": "Essene 2554-3050 (Gregorian -1450 to -954)",
+      "people_count": 14,
+      "file": "conquest-judges.json"
+    },
+    "divided_kingdom": {
+      "name": "Divided Kingdom",
+      "description": "From the division of Solomon's kingdom through the fall of Judah to exile",
+      "date_range": "Essene 3050-3400 (Gregorian -954 to -604)",
+      "people_count": 15,
+      "file": "divided-kingdom.json"
+    },
+    "exile_return": {
+      "name": "Exile & Return",
+      "description": "The Babylonian exile through the return and rebuilding of the temple",
+      "date_range": "Essene 3400-3520 (Gregorian -604 to -484)",
+      "people_count": 4,
+      "file": "exile-return.json"
+    },
+    "second_temple": {
+      "name": "Second Temple Period",
+      "description": "From post-exile Jerusalem through Jesus",
+      "date_range": "Essene 3520-4034 (Gregorian -484 to 30)",
+      "people_count": 12,
+      "file": "second-temple.json"
+    }
+  },
+  "queries": {
+    "jesus_lineage": {
+      "description": "Direct patrilineal descent from Adam to Jesus through Matthew's gospel",
+      "note": "Path: Adam → Seth → ... → Abraham → Isaac → Jacob → Judah → Perez → Hezron → Ram → Amminadab → Nahshon → Salmon → Boaz → Obed → Jesse → David → Solomon → Rehoboam → ... → Jesus (Matthew 1:1-17, Luke 3:23-38)"
+    },
+    "davidic_covenant": {
+      "description": "The covenant established with David that his throne would be established forever, fulfilled in Jesus",
+      "reference": "2 Samuel 7:12-16; Psalm 89:3-4; Luke 1:32-33"
+    },
+    "kinsman_redeemer_type": {
+      "description": "Boaz as a type of Christ, redeeming Ruth as Christ redeems the church",
+      "reference": "Ruth 3-4; Hebrews 7:25"
+    }
+  }
+}

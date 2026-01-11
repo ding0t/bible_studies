@@ -1,7 +1,9 @@
 ---
-title: 20 Proverbs
-tags: 
-    - bible
+title: "20 Proverbs"
+category: "other"
+description: "Study resources for the Book of Proverbs"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

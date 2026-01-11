@@ -1,7 +1,9 @@
 ---
-title: 42 Luke
-tags: 
-    - bible
+title: "42 Luke"
+category: "other"
+description: "Study resources for the Book of Luke"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

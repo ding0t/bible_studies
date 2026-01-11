@@ -1,7 +1,9 @@
 ---
-title: 56 Titus
-tags: 
-    - bible
+title: "56 Titus"
+category: "other"
+description: "Study resources for the Book of Titus"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

@@ -1,7 +1,9 @@
 ---
-title: 06 Joshua
-tags: 
-    - bible
+title: "06 Joshua"
+category: "other"
+description: "Study resources for the Book of Joshua"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

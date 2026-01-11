@@ -1,7 +1,9 @@
 ---
-title: 05 Deuteronomy
-tags: 
-    - bible
+title: "05 Deuteronomy"
+category: "other"
+description: "Study resources for the Book of Deuteronomy"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

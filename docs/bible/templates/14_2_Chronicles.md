@@ -1,7 +1,9 @@
 ---
-title: 14 2 Chronicles
-tags: 
-    - bible
+title: "14 2 Chronicles"
+category: "other"
+description: "Study resources for the Book of 2 Chronicles"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

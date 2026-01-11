@@ -1,7 +1,9 @@
 ---
-title: 65 Jude
-tags: 
-    - bible
+title: "65 Jude"
+category: "other"
+description: "Study resources for the Book of Jude"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

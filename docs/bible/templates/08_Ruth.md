@@ -1,7 +1,9 @@
 ---
-title: 08 Ruth
-tags: 
-    - bible
+title: "08 Ruth"
+category: "other"
+description: "Study resources for the Book of Ruth"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

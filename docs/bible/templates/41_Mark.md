@@ -1,7 +1,9 @@
 ---
-title: 41 Mark
-tags: 
-    - bible
+title: "41 Mark"
+category: "other"
+description: "Study resources for the Book of Mark"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

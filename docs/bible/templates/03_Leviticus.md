@@ -1,7 +1,9 @@
 ---
-title: 03 Leviticus
-tags: 
-    - bible
+title: "03 Leviticus"
+category: "other"
+description: "Study resources for the Book of Leviticus"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

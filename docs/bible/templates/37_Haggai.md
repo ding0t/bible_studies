@@ -1,7 +1,9 @@
 ---
-title: 37 Haggai
-tags: 
-    - bible
+title: "37 Haggai"
+category: "prophecy"
+description: "Study resources for the Book of Haggai"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

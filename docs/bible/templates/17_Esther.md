@@ -1,7 +1,9 @@
 ---
-title: 17 Esther
-tags: 
-    - bible
+title: "17 Esther"
+category: "other"
+description: "Study resources for the Book of Esther"
+tags: ["bible", "ot"]
+draft: false
 ---
 
 ## About

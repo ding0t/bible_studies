@@ -1,7 +1,9 @@
 ---
-title: 55 2 Timothy
-tags: 
-    - bible
+title: "55 2 Timothy"
+category: "other"
+description: "Study resources for the Book of 2 Timothy"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

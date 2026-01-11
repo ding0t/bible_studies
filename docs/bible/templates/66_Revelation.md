@@ -1,7 +1,9 @@
 ---
-title: 66 Revelation
-tags: 
-    - bible
+title: "66 Revelation"
+category: "prophecy"
+description: "Study resources for the Book of Revelation"
+tags: ["prophecy", "bible", "nt"]
+draft: false
 ---
 
 ## About

@@ -1,7 +1,9 @@
 ---
-title: 60 1 Peter
-tags: 
-    - bible
+title: "60 1 Peter"
+category: "other"
+description: "Study resources for the Book of 1 Peter"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About

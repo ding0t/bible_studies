@@ -1,7 +1,9 @@
 ---
-title: 29 Joel
-tags: 
-    - bible
+title: "29 Joel"
+category: "prophecy"
+description: "Study resources for the Book of Joel"
+tags: ["prophecy", "bible", "ot"]
+draft: false
 ---
 
 ## About

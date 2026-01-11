@@ -1,7 +1,9 @@
 ---
-title: 48 Galatians
-tags: 
-    - bible
+title: "48 Galatians"
+category: "other"
+description: "Study resources for the Book of Galatians"
+tags: ["bible", "nt"]
+draft: false
 ---
 
 ## About
