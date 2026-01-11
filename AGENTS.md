@@ -10,7 +10,10 @@ A collection of bible studies, presented on GitHub pages using a static site gen
 
 - Be accurate to scripture always
 - Provide references to claims
-- Use the following bible versions: masoretic text, septuigent, 
+- Use the following bible versions: masoretic text, septuigent, ESV, NLT, WEB, NASB
+- ALways provide translation used if making a quote
+- always provide reference to extra-biblical sources if used
+- prefer dispensational perspectives
 
 ## Tech stack
 
