@@ -16,8 +16,7 @@ The healing of the woman with the issue of blood is recorded in all three Synopt
 ## Gospel Accounts
 
 ### Matthew 9:20-22
->
-> "Just then a woman who had been subject to bleeding for twelve years came up behind him and touched the edge of his cloak. She said to herself, 'If I only touch his cloak, I will be healed.' Jesus turned and saw her. 'Take heart, daughter,' he said, 'your faith has healed you.' And the woman was healed at that moment." (Matthew 9:20-22)
+> "And behold, a woman who had suffered from a discharge of blood for twelve years came up behind him and touched the fringe of his garment, for she said to herself, 'If I only touch his garment, I will be made well.' Jesus turned, and seeing her he said, 'Take heart, daughter; your faith has made you well.' And instantly the woman was made well." (Matthew 9:20-22, ESV)
 
 ### Mark 5:25-34
 
@@ -38,23 +37,67 @@ Luke's physician's account notes:
 - Immediately her bleeding stopped
 - Jesus said: "Daughter, your faith has healed you. Go in peace" (Luke 8:48)
 
+## Cultural Context: The Tzitzit (Fringe)
+
+Understanding the significance of the fringe requires knowing its place in Jewish culture and covenant theology. The tzitzit (Hebrew: צִיצִת) was not merely a decorative edge—it was a commanded covenant symbol.
+
+### The Divine Command
+
+God explicitly commanded Jewish men to wear fringes on their garments:
+
+> "The Lord said to Moses, 'Speak to the people of Israel and tell them to make tassels on the corners of their garments throughout their generations, and to put a blue cord on the tassel of each corner. And it shall be a tassel for you to look at and remember all the commandments of the Lord, to do them, not to follow after your own heart and your own eyes, which you are inclined to go after unfaithfully. So you shall remember and do all my commandments, and be holy to your God.'" (Numbers 15:37-40, ESV)
+
+Similarly in Deuteronomy: "You shall make yourself tassels on the four corners of the garment with which you cover yourself." (Deuteronomy 22:12, ESV)
+
+### The Fringe as a Covenant Symbol
+
+The fringe represented complete obedience to God's law. When a Jewish person wore the tzitzit, they were:
+- **Publicly declaring** their commitment to the Torah
+- **Physically remembering** God's commandments (the blue cord especially symbolized this)
+- **Acknowledging** their covenant relationship with the God of Israel
+
+### Status and Display
+
+By Jesus's time, the fringe had become complicated by religious legalism. Some Pharisees were making their fringes longer to display their piety:
+
+> "They do all their deeds to be seen by others... and they love the place of honor at feasts and the best seats in the synagogues, and greetings in the marketplaces, and being called rabbi by others... [and] they make their phylacteries broad and their fringes long." (Matthew 23:5-6, ESV)
+
+Jesus criticized this because the outward symbol had become divorced from inner righteousness.
+
+### The Woman's Act of Faith
+
+When the woman touched the fringe of Jesus's garment, she was doing something profound:
+- She was touching the **covenant symbol** itself
+- She was implicitly confessing: "If you are truly the righteous one, the one who perfectly keeps all God's commandments—the one the fringe symbolizes—then you have power to heal me"
+- She was expressing faith not just in His power, but in His **covenant position** as the true Messiah
+
+### The Ceremonial Uncleanness Dimension
+
+The woman's condition made her **ceremonially unclean** according to Levitical law:
+
+> "If a woman has a discharge of blood for many days, not at the time of her menstrual impurity, or if she has a discharge beyond the time of her impurity, all the days of the discharge she shall continue in uncleanness, as in the days of her impurity." (Leviticus 15:25, ESV)
+
+Touching someone or being touched while unclean would transmit uncleanness (Leviticus 15:27). **Yet when she touched Jesus, no uncleanness was transmitted to Him—instead, healing flowed from Him to her.**
+
+This demonstrates that Jesus's righteousness (what the fringe symbolized) is not diminished by contact with the unclean. He fulfills the covenant not through external ritual purity, but through His own perfect obedience and power.
+
 ## Prophecy Fulfillment
 
 ### 1. The Garment Fringe: Malachi 4:2
 
-**Prophecy:** "But for you who revere my name, the sun of righteousness will rise with healing in its rays [or 'in its wings']. And you will go out and frolic like well-fed calves." (Malachi 4:2)
+**Prophecy:** "But for you who fear my name, the sun of righteousness shall rise with healing in its wings. And you shall go out leaping like calves from the stall." (Malachi 4:2, ESV)
 
 The Hebrew word for "wings" (*kanaf*) also refers to the fringe or edge of a garment. The woman touched the tzitzit (fringe) of Jesus's garment—the very place where the prophecy said healing would be found. This demonstrates Jesus as the "Sun of Righteousness" predicted by Malachi.
 
 ### 2. Isaiah 53:5 - Healing Through His Stripes
 
-**Prophecy:** "By his wounds we are healed" (Isaiah 53:5)
+**Prophecy:** "But he was wounded for our transgressions, he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his stripes we are healed." (Isaiah 53:5, ESV)
 
 The woman's immediate healing upon touching Jesus demonstrates that the power of the Messiah's future sacrifice (His "stripes") is already active through His person and presence. Her faith grasps what many Israelites would only understand after the resurrection: that Jesus is the Messiah whose very touch/garment carries healing power.
 
 ### 3. Authority and Power (Zechariah 8:23)
 
-**Prophecy:** "In those days ten men from all the languages and nations will take hold of one Jew by the hem of his robe and say, 'Let us go with you, because we have heard that God is with you.'" (Zechariah 8:23)
+**Prophecy:** "In those days ten men from the nations of every tongue shall take hold of the robe of a Jew, saying, 'Let us go with you, for we have heard that God is with you.'" (Zechariah 8:23, ESV)
 
 The woman's action—taking hold of the hem/edge of His garment as an act of faith—prefigures the future reality where people will seek blessing by touching the very edge of the Messiah's clothing, recognizing God's presence is with Him.
 
