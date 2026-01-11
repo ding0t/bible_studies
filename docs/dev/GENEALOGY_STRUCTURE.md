@@ -47,37 +47,37 @@ All parent-child relationships are preserved across era boundaries:
 ## Era Definitions
 
 ### Antediluvian (13 people)
-- **Date Range**: Essene 0-1656 (Gregorian -4004 to -2348)
+- **Date Range**: Zadok 0-1656 (Gregorian -4004 to -2348)
 - **Description**: From creation of Adam to the Great Flood
 - **Patriarchs**: Adam, Seth, Noah
 - **File**: antediluvian.json
 
 ### Patriarchal (19 people)
-- **Date Range**: Essene 1656-2554 (Gregorian -2348 to -1450)
+- **Date Range**: Zadok 1656-2554 (Gregorian -2348 to -1450)
 - **Description**: Post-Flood patriarchs through Egyptian sojourn and Conquest preparation
 - **Patriarchs**: Abraham, Isaac, Jacob, Judah
 - **File**: patriarchal.json
 
 ### Conquest & Judges (14 people)
-- **Date Range**: Essene 2554-3050 (Gregorian -1450 to -954)
+- **Date Range**: Zadok 2554-3050 (Gregorian -1450 to -954)
 - **Description**: From Conquest of Canaan through Judges era to monarchy establishment
 - **Key Figures**: Samson, Boaz, Ruth, David, Solomon
 - **File**: conquest-judges.json
 
 ### Divided Kingdom (15 people)
-- **Date Range**: Essene 3050-3400 (Gregorian -954 to -604)
+- **Date Range**: Zadok 3050-3400 (Gregorian -954 to -604)
 - **Description**: From division of Solomon's kingdom through fall of Judah
 - **Kings**: Rehoboam, Asa, Jehoshaphat, Josiah (15 total)
 - **File**: divided-kingdom.json
 
 ### Exile & Return (4 people)
-- **Date Range**: Essene 3400-3520 (Gregorian -604 to -484)
+- **Date Range**: Zadok 3400-3520 (Gregorian -604 to -484)
 - **Description**: Babylonian exile through return and temple rebuilding
 - **Key Figures**: Zerubbabel, Shealtiel
 - **File**: exile-return.json
 
 ### Second Temple (12 people)
-- **Date Range**: Essene 3520-4034 (Gregorian -484 to 30 AD)
+- **Date Range**: Zadok 3520-4034 (Gregorian -484 to 30 AD)
 - **Description**: Post-exile Jerusalem through Jesus Christ
 - **Key Figures**: Joseph, Mary, Jesus
 - **File**: second-temple.json
@@ -92,8 +92,8 @@ To add a new person to the genealogy:
    - `id`: Unique identifier (lowercase, underscores for multi-word)
    - `name`: Full name
    - `title`: Role/description
-   - `essene_year_born`, `gregorian_year_born`: Birth dates
-   - `essene_year_died`, `gregorian_year_died`: Death dates
+   - `zadok_year_born`, `gregorian_year_born`: Birth dates
+   - `zadok_year_died`, `gregorian_year_died`: Death dates
    - `lifespan_years`: Calculated difference
    - `parent_id`: Reference to parent (must exist in any era file)
    - `spouse_id`: Reference to spouse (optional)

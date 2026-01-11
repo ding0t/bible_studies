@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { esseneToGregorian, gregorianToEssene, getYearInBothCalendars, formatYearWithCalendar } from '../utils/calendarConvert';
+import { zadokToGregorian, gregorianToZadok, getYearInBothCalendars, formatYearWithCalendar } from '../utils/calendarConvert';
 import { BibleReference } from './BibleReference';
 import genealogyIndex from '../data/genealogy/index.json';
 import antediluvian from '../data/genealogy/antediluvian.json';
@@ -97,7 +97,7 @@ const GenealogyViewer = () => {
 
   // Find people alive in a given year
   const getPeopleAliveInYear = (year, sourceCalendar = 'gregorian') => {
-    const gregorianYear = sourceCalendar === 'gregorian' ? year : esseneToGregorian(year);
+    const gregorianYear = sourceCalendar === 'gregorian' ? year : zadokToGregorian(year);
     return filteredPeople.filter(person => {
       const born = person.gregorian_year_born;
       const died = person.gregorian_year_died;
@@ -165,7 +165,7 @@ const GenealogyViewer = () => {
               <div style={{ fontSize: '0.85em', color: '#666' }}>
                 {calendarView === 'gregorian'
                   ? `${person.gregorian_year_born} – ${person.gregorian_year_died} (${person.lifespan_years} years)`
-                  : `${person.essene_year_born} – ${person.essene_year_died} (${person.lifespan_years} years)`}
+                  : `${person.zadok_year_born} – ${person.zadok_year_died} (${person.lifespan_years} years)`}
               </div>
             </div>
           </div>
@@ -220,18 +220,18 @@ const GenealogyViewer = () => {
               Gregorian
             </button>
             <button
-              onClick={() => setCalendarView('essene')}
+              onClick={() => setCalendarView('zadok')}
               style={{
                 flex: 1,
                 padding: '8px',
-                border: calendarView === 'essene' ? '2px solid #4f46e5' : '1px solid #d1d5db',
-                backgroundColor: calendarView === 'essene' ? '#eef2ff' : 'white',
+                border: calendarView === 'zadok' ? '2px solid #4f46e5' : '1px solid #d1d5db',
+                backgroundColor: calendarView === 'zadok' ? '#eef2ff' : 'white',
                 borderRadius: '4px',
                 cursor: 'pointer',
-                fontWeight: calendarView === 'essene' ? 'bold' : 'normal',
+                fontWeight: calendarView === 'zadok' ? 'bold' : 'normal',
               }}
             >
-              Essene
+              Zadok
             </button>
           </div>
         </div>
@@ -371,14 +371,14 @@ const GenealogyViewer = () => {
                     <strong>Born:</strong>{' '}
                     {calendarView === 'gregorian'
                       ? `${selectedPerson.gregorian_year_born} AD`
-                      : `${selectedPerson.essene_year_born} (Essene)`}
+                      : `${selectedPerson.zadok_year_born} (Zadok)`}
                   </p>
                   <p>
                     <strong>Died:</strong>{' '}
                     {selectedPerson.gregorian_year_died !== null
                       ? calendarView === 'gregorian'
                         ? `${selectedPerson.gregorian_year_died} AD`
-                        : `${selectedPerson.essene_year_died} (Essene)`
+                        : `${selectedPerson.zadok_year_died} (Zadok)`
                       : 'Unknown'}
                   </p>
                   <p>
@@ -417,7 +417,7 @@ const GenealogyViewer = () => {
                             <strong>{event.event}</strong> (
                             {calendarView === 'gregorian'
                               ? `${event.gregorian_year} AD`
-                              : `${event.essene_year} E`}
+                              : `${event.zadok_year} Z`}
                             ): {event.description}
                           </li>
                         ))}
@@ -558,8 +558,8 @@ const GenealogyViewer = () => {
                     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
                       {Array.from({ length: Math.ceil(((-1800 - (-4100)) / 200) * ganttZoom) + 1 }).map((_, i) => {
                         const gregorianYear = -4100 + (i * 200 / ganttZoom);
-                        const esseneYear = gregorianToEssene(gregorianYear);
-                        const displayYear = calendarView === 'gregorian' ? gregorianYear : esseneYear;
+                        const zadokYear = gregorianToZadok(gregorianYear);
+                        const displayYear = calendarView === 'gregorian' ? gregorianYear : zadokYear;
                         const percentPos = ((gregorianYear - (-4100)) / ((-1800) - (-4100))) * 100;
                         return (
                           <div
@@ -624,7 +624,7 @@ const GenealogyViewer = () => {
                               opacity: selectedPersonId === person.id ? 1 : 0.8,
                               border: selectedPersonId === person.id ? '2px solid #1f2937' : '1px solid rgba(0,0,0,0.1)'
                             }}
-                            title={calendarView === 'gregorian' ? `${person.name}: ${startYear} to ${endYear} (${person.lifespan_years} years)` : `${person.name}: ${person.essene_year_born} to ${person.essene_year_died} E (${person.lifespan_years} years)`}
+                            title={calendarView === 'gregorian' ? `${person.name}: ${startYear} to ${endYear} (${person.lifespan_years} years)` : `${person.name}: ${person.zadok_year_born} to ${person.zadok_year_died} Z (${person.lifespan_years} years)`}
                             onMouseEnter={(e) => e.target.style.opacity = '1'}
                             onMouseLeave={(e) => e.target.style.opacity = selectedPersonId === person.id ? '1' : '0.8'}
                           >
@@ -806,7 +806,7 @@ const GenealogyViewer = () => {
                     {selectedPerson.gregorian_year_died} AD
                   </p>
                   <p>
-                    <strong>Essene:</strong> {selectedPerson.essene_year_born} to {selectedPerson.essene_year_died}
+                    <strong>Zadok:</strong> {selectedPerson.zadok_year_born} to {selectedPerson.zadok_year_died}
                   </p>
                   <p>
                     <strong>Years Lived:</strong> {selectedPerson.lifespan_years}
@@ -822,7 +822,7 @@ const GenealogyViewer = () => {
                   {selectedPerson.major_events.map((event, idx) => (
                     <div key={idx} style={{ marginBottom: '12px', borderBottom: '1px solid #e5e7eb', paddingBottom: '12px' }}>
                       <div style={{ fontWeight: 'bold', marginBottom: '4px' }}>
-                        {event.event} ({event.gregorian_year} AD / {event.essene_year} E)
+                        {event.event} ({event.gregorian_year} AD / {event.zadok_year} Z)
                       </div>
                       <div style={{ fontSize: '0.9em', color: '#666' }}>{event.description}</div>
                     </div>

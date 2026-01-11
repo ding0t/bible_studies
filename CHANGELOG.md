@@ -10,11 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - **Astro Migration**: Migrated from mkdocs to Astro 4.16.19 static site generator
 - **Interactive Timeline Component**: Built React-based timeline with zoom, pan, and event selection
-- **Calendar View Toggle**: Added ability to switch between Gregorian and Essene calendar views
+- **Calendar View Toggle**: Added ability to switch between Gregorian and Zadok calendar views
 - **Content Collections**: Implemented Astro Content Collections with TypeScript/Zod schema validation
 - **New Frontmatter Fields**:
   - `bible_references`: Array of scripture references
-  - `Essene_year`: Event year in Essene calendar (Year 0 = Adam's creation)
+  - `Zadok_year`: Event year in Zadok calendar (Year 0 = Adam's creation)
   - `Gregorian_year`: Event year in Gregorian calendar
 - **Mermaid Diagram Support**: Integrated Mermaid.js for rendering diagrams in markdown (timelines, flowcharts, concept maps)
 - **React Component Examples**: TimelineComponent and diagram integration patterns

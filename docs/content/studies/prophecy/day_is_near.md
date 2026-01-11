@@ -104,11 +104,11 @@ It is not unreasonable to interpret 2 Peter 3 as meaning a literal 6000 years of
 
 ## When is the year 6000?
 
-By Essene calendar:
+By Zadok calendar:
 
 ```mermaid
 timeline
-        title The ages by the Essene calendar
+        title The ages by the Zadok calendar
         section Day 1-2 <br> 0-2000
           0: Creation
         section Day 3-4 <br> 2000-4000

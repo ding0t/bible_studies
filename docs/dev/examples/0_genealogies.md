@@ -1,17 +1,17 @@
 ---
 title: "Biblical Genealogies Timeline"
 category: "prophecy"
-description: "Complete genealogical record from Adam through the patriarchs with birth/death years and major events in both Essene (Year 0 = Adam) and Gregorian calendars"
-tags: ["genealogy", "chronology", "timeline", "essene-calendar", "patriarchs", "biblical-history"]
+description: "Complete genealogical record from Adam through the patriarchs with birth/death years and major events in both Zadok (Year 0 = Adam) and Gregorian calendars"
+tags: ["genealogy", "chronology", "timeline", "zadok-calendar", "patriarchs", "biblical-history"]
 draft: false
 bible_references: ["Genesis 5", "Genesis 10", "Genesis 11", "Luke 3:23-38", "Matthew 1:1-17", "1 Chronicles 1-2"]
-essene_year: 0
+zadok_year: 0
 gregorian_year: -4004
 ---
 
 # Biblical Genealogies Timeline
 
-This document provides a comprehensive genealogical timeline extracted from Scripture, suitable for visualization as a Gantt chart or parallel timeline from Creation (Essene Year 0 / 4004 BC) to present day.
+This document provides a comprehensive genealogical timeline extracted from Scripture, suitable for visualization as a Gantt chart or parallel timeline from Creation (Zadok Year 0 / 4004 BC) to present day.
 
 ## Data Classification
 

@@ -2,7 +2,7 @@
   "name": "bible-end-times-astro",
   "type": "module",
   "version": "0.1.0",
-  "description": "Biblical studies with interactive timeline and dual calendar views (Gregorian & Essene)",
+  "description": "Biblical studies with interactive timeline and dual calendar views (Gregorian & Zadok)",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",

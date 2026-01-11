@@ -6,7 +6,7 @@ Personal bible studies on end times, prophecy, and biblical themes.
 
 ## Features
 
-- 📅 **Interactive Timeline** with dual calendar views (Gregorian & Essene)
+- 📅 **Interactive Timeline** with dual calendar views (Gregorian & Zadok)
 - 📊 **Mermaid Diagrams** for prophecy visualizations
 - 📖 **109+ Bible Studies** organized by category
 - 🔍 **Full Search Support** across all content

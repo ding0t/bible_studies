@@ -73,7 +73,7 @@ User clicks David's bar → Details tab opens with David's information
 - Height: 32px to accommodate year labels
 
 **Year Range**: 
-- **Minimum Year**: -4100 (Essene 0 = before the Flood)
+- **Minimum Year**: -4100 (Zadok 0 = before the Flood)
 - **Maximum Year**: -1800 (mid-Patriarchal era)
 - **Interval**: 200 years between major marks
 
