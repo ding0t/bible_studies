@@ -13,6 +13,10 @@ gregorian_year: 32
 
 The healing of the woman with the issue of blood is recorded in all three Synoptic Gospels and serves as a profound fulfillment of Old Testament prophecies regarding the Messiah's identity and authority. The woman's faith in simply touching the edge (fringe) of Jesus's garment and being instantly healed connects to multiple messianic prophecies.
 
+## Prophetic meaning
+
+As per We are unable to be healed by our own righteosness. But we are healted through Christs perfect righteoesness.
+
 ## Gospel Accounts
 
 ### Matthew 9:20-22
