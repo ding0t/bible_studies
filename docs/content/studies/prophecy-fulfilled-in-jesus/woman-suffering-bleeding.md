@@ -15,11 +15,12 @@ The healing of the woman with the issue of blood is recorded in all three Synopt
 
 ## Prophetic meaning
 
-As per We are unable to be healed by our own righteosness. But we are healted through Christs perfect righteoesness.
+As per We are unable to be healed by our own righteousness. But we are healed through Christs perfect righteousness.
 
 ## Gospel Accounts
 
 ### Matthew 9:20-22
+>
 > "And behold, a woman who had suffered from a discharge of blood for twelve years came up behind him and touched the fringe of his garment, for she said to herself, 'If I only touch his garment, I will be made well.' Jesus turned, and seeing her he said, 'Take heart, daughter; your faith has made you well.' And instantly the woman was made well." (Matthew 9:20-22, ESV)
 
 ### Mark 5:25-34
@@ -56,6 +57,7 @@ Similarly in Deuteronomy: "You shall make yourself tassels on the four corners o
 ### The Fringe as a Covenant Symbol
 
 The fringe represented complete obedience to God's law. When a Jewish person wore the tzitzit, they were:
+
 - **Publicly declaring** their commitment to the Torah
 - **Physically remembering** God's commandments (the blue cord especially symbolized this)
 - **Acknowledging** their covenant relationship with the God of Israel
@@ -71,6 +73,7 @@ Jesus criticized this because the outward symbol had become divorced from inner 
 ### The Woman's Act of Faith
 
 When the woman touched the fringe of Jesus's garment, she was doing something profound:
+
 - She was touching the **covenant symbol** itself
 - She was implicitly confessing: "If you are truly the righteous one, the one who perfectly keeps all God's commandments—the one the fringe symbolizes—then you have power to heal me"
 - She was expressing faith not just in His power, but in His **covenant position** as the true Messiah

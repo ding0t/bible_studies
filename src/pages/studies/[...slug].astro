@@ -1,15 +1,19 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.jsx';
 
 export async function getStaticPaths() {
   const studies = await getCollection('studies');
   const published = studies.filter((post) => !post.data.draft);
-  
-  return published.map((entry) => ({
-    params: { slug: entry.slug },
-    props: { entry },
-  }));
+
+  return published.map((entry) => {
+    // Get slug from id, remove .md extension and studies/ prefix
+    const slug = entry.id.replace(/\.md$/, '').replace(/^studies\//, '');
+    return {
+      params: { slug: slug },
+      props: { entry },
+    };
+  });
 }
 
 interface Props {
@@ -17,23 +21,44 @@ interface Props {
 }
 
 const { entry } = Astro.props;
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 
 const categoryLabels: Record<string, { label: string; color: string }> = {
   'prophecy': { label: '🔮 Prophecy Fulfilled in Jesus', color: '#dc2626' },
   'theology': { label: '📖 Theological Studies', color: '#7c3aed' },
   'spiritual-disciplines': { label: '🙏 Spiritual Disciplines', color: '#2563eb' },
+  'spiritual discipline': { label: '🙏 Spiritual Disciplines', color: '#2563eb' },
   'sins': { label: '⚠️ Sin & Redemption', color: '#f59e0b' },
   'feasts': { label: '🎉 Feasts & Seasons', color: '#10b981' },
   'sermons': { label: '🎤 Sermons', color: '#06b6d4' },
   'hebrew-studies': { label: '🕎 Hebrew Studies', color: '#8b5cf6' },
   'dreams-visions': { label: '💭 Dreams & Visions', color: '#ec4899' },
+  'dreams': { label: '💭 Dreams', color: '#ec4899' },
   'teaching-resources': { label: '📚 Teaching Resources', color: '#0ea5e9' },
   'deliverance': { label: '⛓️ Deliverance & Freedom', color: '#64748b' },
+  'investigation': { label: '🔍 Investigation', color: '#78716c' },
+  'archeology': { label: '🏺 Archeology', color: '#a16207' },
+  'commentaries': { label: '📖 Bible Commentaries', color: '#f59e0b' },
   'other': { label: '📝 Other Studies', color: '#6366f1' }
 };
 
-const categoryInfo = categoryLabels[entry.data.category || 'other'];
+// Helper function to get category info with fallback for unknown categories
+const getCategoryInfo = (category: string | undefined) => {
+  const cat = category || 'other';
+  if (categoryLabels[cat]) {
+    return categoryLabels[cat];
+  }
+  // Generate label from category name (capitalize and format)
+  const formatted = cat.split('-').map(word =>
+    word.charAt(0).toUpperCase() + word.slice(1)
+  ).join(' ');
+  return {
+    label: `📚 ${formatted}`,
+    color: '#6366f1' // Default color
+  };
+};
+
+const categoryInfo = getCategoryInfo(entry.data.category);
 ---
 
 <BaseLayout title={entry.data.title}>

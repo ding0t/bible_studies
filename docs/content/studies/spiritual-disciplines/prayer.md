@@ -1,12 +1,12 @@
 ---
 title: "Prayer"
-category: "other"
+category: "spiritual discipline"
 description: "Understanding prayer as communion with God and our identity as His children"
 tags: ["studies", "prayer", "devotion", "communion", "faith"]
 draft: false
 ---
 
-# Prayer
+## Prayer
 
 The attitude of prayer is that we are God's.
 

@@ -34,7 +34,7 @@ When was the tradition of the two witnesses set?
 
 ---
 
-![shofar](../../assets/img/shofar.webp)
+![shofar](../../../assets/img/shofar.webp)
 
 [source](https://elshaddaisupplies.com.au/collections/shofars/products/plain-yemenite-horn-shofar?variant=37912383750338)
 

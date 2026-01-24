@@ -1,4 +1,3 @@
-
 ---
 title: "Hebrew Alphabet"
 category: "other"

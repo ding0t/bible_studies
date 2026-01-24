@@ -4,10 +4,10 @@ export default function BaseLayout({ children, title = 'Biblical Studies' }) {
   return (
     <html lang="en">
       <head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <meta name="description" content="Interactive Bible studies and prophetic timeline" />
-        <title>{title} | Biblical Studies</title>
+        <title>{`${title} | Biblical Studies`}</title>
         {/* Mermaid for diagram rendering */}
         <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
         <script>
