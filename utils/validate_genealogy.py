@@ -2,12 +2,12 @@ import json
 
 # Load all era files
 files = [
-    'src/data/genealogy/antediluvian.json',
-    'src/data/genealogy/patriarchal.json',
-    'src/data/genealogy/conquest-judges.json',
-    'src/data/genealogy/divided-kingdom.json',
-    'src/data/genealogy/exile-return.json',
-    'src/data/genealogy/second-temple.json'
+    'docs/data/genealogy/antediluvian.json',
+    'docs/data/genealogy/patriarchal.json',
+    'docs/data/genealogy/conquest-judges.json',
+    'docs/data/genealogy/divided-kingdom.json',
+    'docs/data/genealogy/exile-return.json',
+    'docs/data/genealogy/second-temple.json'
 ]
 
 total_people = 0
@@ -18,10 +18,10 @@ print("Era File Summary:")
 print("-" * 50)
 
 for file in files:
-    with open(file, 'r') as f:
+    with open(file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     filename = file.split('/')[-1]
-    print(f'✓ {filename:30} {len(data["people"]):2} people')
+    print(f'[OK] {filename:30} {len(data["people"]):2} people')
     
     for person in data['people']:
         total_people += 1
@@ -40,10 +40,10 @@ for child_id, parent_id in parent_links:
         missing_parents.append((child_id, parent_id))
 
 if missing_parents:
-    print(f'\n⚠ Warning: {len(missing_parents)} broken parent links')
+    print(f'\n[WARN] Warning: {len(missing_parents)} broken parent links')
     for child, parent in missing_parents[:5]:
         print(f'  {child} -> {parent} (missing)')
 else:
-    print('\n✓ All parent-child links valid')
+    print('\n[OK] All parent-child links valid')
 
-print(f'\n✓ Genealogy split validation PASSED')
+print(f'\n[OK] Genealogy split validation PASSED')

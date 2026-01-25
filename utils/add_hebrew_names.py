@@ -157,7 +157,7 @@ HEBREW_NAMES = {
 
 def add_hebrew_names_to_genealogy():
     """Add Hebrew names and meanings to all genealogy files"""
-    genealogy_dir = 'src/data/genealogy'
+    genealogy_dir = 'docs/data/genealogy'
     era_files = [
         'antediluvian.json',
         'patriarchal.json',

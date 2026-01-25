@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "validate": "node scripts/validate-content.js",
-    "test": "node src/utils/calendarConvert.test.js",
+    "test": "node src/utils/calendarConvert.test.js && node src/utils/bibleReference.test.js",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,astro,json,css}\"",
