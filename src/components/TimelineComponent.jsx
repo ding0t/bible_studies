@@ -1,5 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ZoomIn, ZoomOut, ChevronLeft, ChevronRight } from 'lucide-react';
+import { colors } from '../styles/colors';
 
 export default function TimelineComponent({ events = [] }) {
   const [zoom, setZoom] = useState(1);
@@ -63,9 +64,9 @@ export default function TimelineComponent({ events = [] }) {
         }
         button {
           padding: 0.5rem 1rem;
-          border: 1px solid #3b82f6;
-          background: #dbeafe;
-          color: #1e40af;
+          border: 1px solid ${colors.blue[500]};
+          background: ${colors.blue[50]};
+          color: ${colors.blue[800]};
           border-radius: 0.5rem;
           cursor: pointer;
           display: flex;
@@ -75,19 +76,19 @@ export default function TimelineComponent({ events = [] }) {
           transition: all 0.2s;
         }
         button:hover {
-          background: #bfdbfe;
-          border-color: #1e40af;
+          background: ${colors.blue[100]};
+          border-color: ${colors.blue[800]};
         }
         .zoom-level {
           font-size: 0.875rem;
-          color: #666;
+          color: ${colors.gray[600]};
           min-width: 60px;
           text-align: center;
         }
         .timeline-wrapper {
           position: relative;
           overflow-x: auto;
-          background: #f8fafc;
+          background: ${colors.slate[50]};
           border-radius: 0.75rem;
           padding: 2rem;
           margin-bottom: 2rem;
@@ -108,7 +109,7 @@ export default function TimelineComponent({ events = [] }) {
           left: 0;
           right: 0;
           height: 2px;
-          background: #cbd5e1;
+          background: ${colors.slate[300]};
           transform: translateY(-50%);
         }
         .timeline-event {
@@ -121,8 +122,8 @@ export default function TimelineComponent({ events = [] }) {
         .timeline-dot {
           width: ${8 * zoom}px;
           height: ${8 * zoom}px;
-          background: #64748b;
-          border: 2px solid white;
+          background: ${colors.slate[500]};
+          border: 2px solid ${colors.white};
           border-radius: 50%;
           position: absolute;
           top: 50%;
@@ -134,11 +135,11 @@ export default function TimelineComponent({ events = [] }) {
         .timeline-event.active .timeline-dot {
           width: ${16 * zoom}px;
           height: ${16 * zoom}px;
-          background: #3b82f6;
+          background: ${colors.blue[500]};
           box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
         }
         .timeline-event:hover .timeline-dot {
-          background: #1e40af;
+          background: ${colors.blue[800]};
           box-shadow: 0 0 0 4px rgba(30, 64, 175, 0.2);
         }
         .timeline-label {
@@ -149,66 +150,66 @@ export default function TimelineComponent({ events = [] }) {
           margin-top: 1rem;
           font-size: ${0.75 * zoom}rem;
           font-weight: 600;
-          color: #334155;
+          color: ${colors.slate[700]};
           white-space: nowrap;
           pointer-events: none;
         }
         .timeline-event.active .timeline-label {
-          color: #3b82f6;
+          color: ${colors.blue[500]};
           font-weight: 700;
         }
         .details {
-          background: white;
-          border: 2px solid #e2e8f0;
+          background: ${colors.white};
+          border: 2px solid ${colors.slate[200]};
           border-radius: 0.75rem;
           padding: 1.5rem;
           margin-bottom: 1rem;
         }
         .details h2 {
           margin: 0 0 0.5rem 0;
-          color: #1e293b;
+          color: ${colors.slate[900]};
           font-size: 1.5rem;
         }
         .details .year {
-          color: #3b82f6;
+          color: ${colors.blue[500]};
           font-weight: 600;
           font-size: 0.875rem;
           margin-bottom: 0.5rem;
         }
         .details p {
           margin: 0;
-          color: #475569;
+          color: ${colors.slate[600]};
           line-height: 1.6;
         }
         .scroll-hints {
           display: flex;
           justify-content: space-between;
           font-size: 0.75rem;
-          color: #94a3b8;
+          color: ${colors.slate[400]};
           margin-top: 1rem;
         }
         .empty-state {
           padding: 2rem;
-          color: #666;
+          color: ${colors.gray[600]};
           text-align: center;
-          background: #f8fafc;
+          background: ${colors.slate[50]};
           border-radius: 0.75rem;
         }
       `}</style>
 
       <div className="timeline-header">
-        <h1 style={{ margin: 0, fontSize: '1.875rem', color: '#1e293b' }}>Prophetic Timeline</h1>
+        <h1 style={{ margin: 0, fontSize: '1.875rem', color: colors.slate[900] }}>Prophetic Timeline</h1>
         <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-          <div style={{ display: 'flex', gap: '0.5rem', backgroundColor: '#e2e8f0', borderRadius: '0.5rem', padding: '0.25rem' }}>
-            <button 
+          <div style={{ display: 'flex', gap: '0.5rem', backgroundColor: colors.slate[200], borderRadius: '0.5rem', padding: '0.25rem' }}>
+            <button
               onClick={() => setCalendarView('gregorian')}
               style={{
                 padding: '0.5rem 1rem',
                 border: 'none',
                 borderRadius: '0.375rem',
                 cursor: 'pointer',
-                backgroundColor: calendarView === 'gregorian' ? '#3b82f6' : 'transparent',
-                color: calendarView === 'gregorian' ? 'white' : '#475569',
+                backgroundColor: calendarView === 'gregorian' ? colors.blue[500] : colors.transparent,
+                color: calendarView === 'gregorian' ? colors.white : colors.slate[600],
                 fontWeight: calendarView === 'gregorian' ? '600' : '500',
                 fontSize: '0.875rem',
                 transition: 'all 0.2s'
@@ -216,15 +217,15 @@ export default function TimelineComponent({ events = [] }) {
             >
               Gregorian
             </button>
-            <button 
+            <button
               onClick={() => setCalendarView('essene')}
               style={{
                 padding: '0.5rem 1rem',
                 border: 'none',
                 borderRadius: '0.375rem',
                 cursor: 'pointer',
-                backgroundColor: calendarView === 'essene' ? '#3b82f6' : 'transparent',
-                color: calendarView === 'essene' ? 'white' : '#475569',
+                backgroundColor: calendarView === 'essene' ? colors.blue[500] : colors.transparent,
+                color: calendarView === 'essene' ? colors.white : colors.slate[600],
                 fontWeight: calendarView === 'essene' ? '600' : '500',
                 fontSize: '0.875rem',
                 transition: 'all 0.2s'
@@ -276,12 +277,12 @@ export default function TimelineComponent({ events = [] }) {
           <div style={{ display: 'flex', gap: '1rem', marginBottom: '0.5rem', flexWrap: 'wrap' }}>
             {selected.gregorian_year && (
               <div className="year">
-                {selected.gregorian_year} <span style={{ fontSize: '0.75rem', color: '#94a3b8' }}>Gregorian</span>
+                {selected.gregorian_year} <span style={{ fontSize: '0.75rem', color: colors.slate[400] }}>Gregorian</span>
               </div>
             )}
             {selected.essene_year && (
               <div className="year">
-                {selected.essene_year} <span style={{ fontSize: '0.75rem', color: '#94a3b8' }}>Essene</span>
+                {selected.essene_year} <span style={{ fontSize: '0.75rem', color: colors.slate[400] }}>Essene</span>
               </div>
             )}
             {!selected.gregorian_year && !selected.essene_year && selected.year && (
@@ -297,7 +298,7 @@ export default function TimelineComponent({ events = [] }) {
           )}
           {selected.category && (
             <div style={{ marginTop: '0.75rem', fontSize: '0.875rem' }}>
-              <span style={{ display: 'inline-block', padding: '0.25rem 0.75rem', background: '#e2e8f0', borderRadius: '0.25rem', color: '#334155' }}>
+              <span style={{ display: 'inline-block', padding: '0.25rem 0.75rem', background: colors.slate[200], borderRadius: '0.25rem', color: colors.slate[700] }}>
                 {selected.category}
               </span>
             </div>
@@ -305,7 +306,7 @@ export default function TimelineComponent({ events = [] }) {
         </div>
       )}
 
-      <div style={{ fontSize: '0.875rem', color: '#64748b', marginTop: '1.5rem' }}>
+      <div style={{ fontSize: '0.875rem', color: colors.slate[500], marginTop: '1.5rem' }}>
         <p>💡 <strong>Interactive Features:</strong> Click any point on the timeline to view details. Use zoom controls or scroll to navigate.</p>
       </div>
     </div>

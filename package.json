@@ -8,17 +8,31 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "validate": "node scripts/validate-content.js"
+    "validate": "node scripts/validate-content.js",
+    "test": "node src/utils/calendarConvert.test.js",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,astro,json,css}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,astro,json,css}\""
   },
   "dependencies": {
-    "astro": "^4.0.0",
     "@astrojs/react": "^3.0.0",
+    "astro": "^4.0.0",
+    "lucide-react": "^0.263.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "lucide-react": "^0.263.1"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0"
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.53.1",
+    "@typescript-eslint/parser": "^8.53.1",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-astro": "^1.5.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "prettier": "^3.8.1",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { X, Search as SearchIcon } from 'lucide-react';
+import { colors } from '../styles/colors';
 
 export default function SearchComponent() {
   const [isOpen, setIsOpen] = useState(false);
@@ -109,21 +110,21 @@ export default function SearchComponent() {
           alignItems: 'center',
           gap: '0.5rem',
           padding: '0.5rem 1rem',
-          background: 'rgba(255, 255, 255, 0.1)',
-          color: '#cbd5e1',
-          border: '1px solid rgba(255, 255, 255, 0.2)',
+          background: colors.overlay.light,
+          color: colors.slate[300],
+          border: `1px solid ${colors.overlay.lightMedium}`,
           borderRadius: '0.375rem',
           cursor: 'pointer',
           fontSize: '0.875rem',
           transition: 'all 0.2s',
         }}
         onMouseOver={(e) => {
-          e.currentTarget.style.background = 'rgba(255, 255, 255, 0.15)';
-          e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.3)';
+          e.currentTarget.style.background = colors.overlay.lightHover;
+          e.currentTarget.style.borderColor = colors.overlay.lightStrong;
         }}
         onMouseOut={(e) => {
-          e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)';
-          e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.2)';
+          e.currentTarget.style.background = colors.overlay.light;
+          e.currentTarget.style.borderColor = colors.overlay.lightMedium;
         }}
       >
         <SearchIcon size={16} />
@@ -142,7 +143,7 @@ export default function SearchComponent() {
             left: 0,
             right: 0,
             bottom: 0,
-            background: 'rgba(0, 0, 0, 0.5)',
+            background: colors.overlay.dark,
             zIndex: 1000,
             display: 'flex',
             justifyContent: 'center',
@@ -154,9 +155,9 @@ export default function SearchComponent() {
             style={{
               width: '90%',
               maxWidth: '600px',
-              background: '#1e293b',
+              background: colors.slate[900],
               borderRadius: '0.5rem',
-              boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.3)',
+              boxShadow: `0 20px 25px -5px ${colors.overlay.darkLight}`,
             }}
             onClick={(e) => e.stopPropagation()}
           >
@@ -167,10 +168,10 @@ export default function SearchComponent() {
                 alignItems: 'center',
                 gap: '0.75rem',
                 padding: '1rem',
-                borderBottom: '1px solid #334155',
+                borderBottom: `1px solid ${colors.slate[700]}`,
               }}
             >
-              <SearchIcon size={20} color="#94a3b8" />
+              <SearchIcon size={20} color={colors.slate[400]} />
               <input
                 type="text"
                 placeholder="Search studies, scriptures, topics..."
@@ -181,7 +182,7 @@ export default function SearchComponent() {
                   flex: 1,
                   background: 'transparent',
                   border: 'none',
-                  color: '#f1f5f9',
+                  color: colors.slate[100],
                   fontSize: '1rem',
                   outline: 'none',
                 }}
@@ -191,7 +192,7 @@ export default function SearchComponent() {
                 style={{
                   background: 'none',
                   border: 'none',
-                  color: '#94a3b8',
+                  color: colors.slate[400],
                   cursor: 'pointer',
                   padding: '0.25rem',
                   display: 'flex',
@@ -211,18 +212,18 @@ export default function SearchComponent() {
               }}
             >
               {isSearching ? (
-                <div style={{ padding: '2rem', textAlign: 'center', color: '#94a3b8' }}>
+                <div style={{ padding: '2rem', textAlign: 'center', color: colors.slate[400] }}>
                   Searching...
                 </div>
               ) : query.trim() === '' ? (
-                <div style={{ padding: '2rem', textAlign: 'center', color: '#94a3b8' }}>
+                <div style={{ padding: '2rem', textAlign: 'center', color: colors.slate[400] }}>
                   <p>Start typing to search</p>
                   <p style={{ fontSize: '0.875rem', marginTop: '0.5rem' }}>
                     Search through studies, scriptures, and topics
                   </p>
                 </div>
               ) : results.length === 0 ? (
-                <div style={{ padding: '2rem', textAlign: 'center', color: '#94a3b8' }}>
+                <div style={{ padding: '2rem', textAlign: 'center', color: colors.slate[400] }}>
                   No results found for "{query}"
                 </div>
               ) : (
@@ -236,24 +237,24 @@ export default function SearchComponent() {
                       padding: '1rem',
                       margin: '0.25rem',
                       borderRadius: '0.375rem',
-                      background: '#334155',
-                      color: '#f1f5f9',
+                      background: colors.slate[700],
+                      color: colors.slate[100],
                       textDecoration: 'none',
                       transition: 'all 0.2s',
                       cursor: 'pointer',
                     }}
                     onMouseOver={(e) => {
-                      e.currentTarget.style.background = '#475569';
+                      e.currentTarget.style.background = colors.slate[600];
                       e.currentTarget.style.transform = 'translateX(4px)';
                     }}
                     onMouseOut={(e) => {
-                      e.currentTarget.style.background = '#334155';
+                      e.currentTarget.style.background = colors.slate[700];
                       e.currentTarget.style.transform = 'translateX(0)';
                     }}
                   >
                     <h4
                       style={{
-                        color: '#fbbf24',
+                        color: colors.accent.yellow,
                         fontSize: '0.95rem',
                         marginBottom: '0.25rem',
                         fontWeight: '600',
@@ -263,7 +264,7 @@ export default function SearchComponent() {
                     </h4>
                     <p
                       style={{
-                        color: '#cbd5e1',
+                        color: colors.slate[300],
                         fontSize: '0.85rem',
                         lineHeight: '1.4',
                         display: '-webkit-box',
