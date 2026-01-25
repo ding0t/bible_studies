@@ -2,13 +2,13 @@ import React, { useState, useMemo } from 'react';
 import { zadokToGregorian, gregorianToZadok } from '../utils/calendarConvert';
 import { BibleReference } from './BibleReference';
 import { colors } from '../styles/colors';
-import genealogyIndex from '../data/genealogy/index.json';
-import antediluvian from '../data/genealogy/antediluvian.json';
-import patriarchal from '../data/genealogy/patriarchal.json';
-import conquestJudges from '../data/genealogy/conquest-judges.json';
-import dividedKingdom from '../data/genealogy/divided-kingdom.json';
-import exileReturn from '../data/genealogy/exile-return.json';
-import secondTemple from '../data/genealogy/second-temple.json';
+import genealogyIndex from '../../docs/data/genealogy/index.json';
+import antediluvian from '../../docs/data/genealogy/antediluvian.json';
+import patriarchal from '../../docs/data/genealogy/patriarchal.json';
+import conquestJudges from '../../docs/data/genealogy/conquest-judges.json';
+import dividedKingdom from '../../docs/data/genealogy/divided-kingdom.json';
+import exileReturn from '../../docs/data/genealogy/exile-return.json';
+import secondTemple from '../../docs/data/genealogy/second-temple.json';
 
 // Merge all era data into a single structure
 const mergeGenealogyData = () => {
