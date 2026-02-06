@@ -98,8 +98,8 @@ export function yearDifference(year1, year2) {
   
   gregorianToZadok(1) = 4005     // 1 AD in Zadok calendar
   gregorianToZadok(1948) = 5952  // 1948 AD (Israel founded)
-  gregorianToEssene(2024) = 6028  // 2024 AD (current year)
-  
-  getYearInBothCalendars(2024) = { gregorian_year: 2024, essene_year: 6028 }
-  getYearInBothCalendars(5984, 'essene') = { essene_year: 5984, gregorian_year: 1980 }
+  gregorianToZadok(2024) = 6028  // 2024 AD (current year)
+
+  getYearInBothCalendars(2024) = { gregorian_year: 2024, zadok_year: 6028 }
+  getYearInBothCalendars(5984, 'zadok') = { zadok_year: 5984, gregorian_year: 1980 }
 */

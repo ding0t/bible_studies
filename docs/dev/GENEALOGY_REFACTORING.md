@@ -65,7 +65,7 @@ Created `docs/GENEALOGY_STRUCTURE.md`:
 The genealogy viewer is live at http://localhost:4322/genealogy-viewer/ with:
 - All 5 tabs functional (Tree, Gantt, Living Year, Lineages, Details)
 - Complete genealogy from Adam to Jesus
-- Calendar toggle between Essene and Gregorian dates
+- Calendar toggle between Zadok and Gregorian dates
 - All 77 people accessible across era boundaries
 
 ## Backward Compatibility

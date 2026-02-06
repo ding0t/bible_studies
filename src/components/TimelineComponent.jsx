@@ -6,13 +6,13 @@ export default function TimelineComponent({ events = [] }) {
   const [zoom, setZoom] = useState(1);
   const [selected, setSelected] = useState(null);
   const [scroll, setScroll] = useState(0);
-  const [calendarView, setCalendarView] = useState('gregorian'); // 'gregorian' or 'essene'
+  const [calendarView, setCalendarView] = useState('gregorian'); // 'gregorian' or 'zadok'
 
   useEffect(() => {
     if (events.length > 0) {
       const sorted = [...events].sort((a, b) => {
-        const aYear = calendarView === 'essene' ? (a.essene_year || a.year) : (a.gregorian_year || a.year);
-        const bYear = calendarView === 'essene' ? (b.essene_year || b.year) : (b.gregorian_year || b.year);
+        const aYear = calendarView === 'zadok' ? (a.zadok_year || a.year) : (a.gregorian_year || a.year);
+        const bYear = calendarView === 'zadok' ? (b.zadok_year || b.year) : (b.gregorian_year || b.year);
         return aYear - bYear;
       });
       setSelected(sorted[0]);
@@ -26,8 +26,8 @@ export default function TimelineComponent({ events = [] }) {
   };
 
   const displayYears = events.map(e => {
-    if (calendarView === 'essene') {
-      return e.essene_year || e.year || 0;
+    if (calendarView === 'zadok') {
+      return e.zadok_year || e.year || 0;
     } else {
       return e.gregorian_year || e.year || 0;
     }
@@ -218,20 +218,20 @@ export default function TimelineComponent({ events = [] }) {
               Gregorian
             </button>
             <button
-              onClick={() => setCalendarView('essene')}
+              onClick={() => setCalendarView('zadok')}
               style={{
                 padding: '0.5rem 1rem',
                 border: 'none',
                 borderRadius: '0.375rem',
                 cursor: 'pointer',
-                backgroundColor: calendarView === 'essene' ? colors.blue[500] : colors.transparent,
-                color: calendarView === 'essene' ? colors.white : colors.slate[600],
-                fontWeight: calendarView === 'essene' ? '600' : '500',
+                backgroundColor: calendarView === 'zadok' ? colors.blue[500] : colors.transparent,
+                color: calendarView === 'zadok' ? colors.white : colors.slate[600],
+                fontWeight: calendarView === 'zadok' ? '600' : '500',
                 fontSize: '0.875rem',
                 transition: 'all 0.2s'
               }}
             >
-              Essene
+              Zadok
             </button>
           </div>
           <div className="controls">
@@ -248,8 +248,8 @@ export default function TimelineComponent({ events = [] }) {
         <div className="timeline-wrapper">
           <div className="timeline-track">
             {events.map(event => {
-              const displayYear = calendarView === 'essene' 
-                ? (event.essene_year || event.year) 
+              const displayYear = calendarView === 'zadok' 
+                ? (event.zadok_year || event.year) 
                 : (event.gregorian_year || event.year);
               return (
                 <div
@@ -280,12 +280,12 @@ export default function TimelineComponent({ events = [] }) {
                 {selected.gregorian_year} <span style={{ fontSize: '0.75rem', color: colors.slate[400] }}>Gregorian</span>
               </div>
             )}
-            {selected.essene_year && (
+            {selected.zadok_year && (
               <div className="year">
-                {selected.essene_year} <span style={{ fontSize: '0.75rem', color: colors.slate[400] }}>Essene</span>
+                {selected.zadok_year} <span style={{ fontSize: '0.75rem', color: colors.slate[400] }}>Zadok</span>
               </div>
             )}
-            {!selected.gregorian_year && !selected.essene_year && selected.year && (
+            {!selected.gregorian_year && !selected.zadok_year && selected.year && (
               <div className="year">{selected.year} AD</div>
             )}
           </div>

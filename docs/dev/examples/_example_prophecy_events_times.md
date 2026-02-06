@@ -6,7 +6,7 @@ description: "Understanding the timeline and sequence of end-times events accord
 tags: ["prophecy", "end-times", "timeline", "eschatology"]
 draft: false
 bible_references: ["Daniel 9:24-27", "Matthew 24:3-31", "1 Thessalonians 4:16-17", "Revelation 19:11-21"]
-essene_year: 5984
+zadok_year: 5984
 gregorian_year: 2024
 ---
 

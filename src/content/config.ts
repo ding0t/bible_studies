@@ -2,7 +2,7 @@ import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
 const studies = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './docs/content' }),
+  loader: glob({ pattern: ['**/*.md', '!home.md'], base: './docs/content' }),
   schema: z.object({
     // Title is the only truly required field, but provide a fallback
     title: z.string().catch('Untitled Study'),

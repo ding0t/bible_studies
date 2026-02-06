@@ -36,9 +36,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Adam",
   "title": "First Man",
-  "essene_year_born": 0,
+  "zadok_year_born": 0,
   "gregorian_year_born": -4004,
-  "essene_year_died": 930,
+  "zadok_year_died": 930,
   "gregorian_year_died": -3074,
   "lifespan_years": 930,
   "data_classification": "ACTUAL",
@@ -46,31 +46,31 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
   "major_events": [
     {
       "event": "Creation",
-      "essene_year": 0,
+      "zadok_year": 0,
       "gregorian_year": -4004,
       "description": "Adam created in God's image"
     },
     {
       "event": "Fall of Man",
-      "essene_year": 0,
+      "zadok_year": 0,
       "gregorian_year": -4004,
       "description": "Disobedience in Garden of Eden; sin enters humanity"
     },
     {
       "event": "Birth of Cain",
-      "essene_year": 130,
+      "zadok_year": 130,
       "gregorian_year": -3874,
       "description": "First child born outside Eden"
     },
     {
       "event": "Birth of Abel",
-      "essene_year": 131,
+      "zadok_year": 131,
       "gregorian_year": -3873,
       "description": "Second son; murdered by Cain"
     },
     {
       "event": "Birth of Seth",
-      "essene_year": 130,
+      "zadok_year": 130,
       "gregorian_year": -3874,
       "description": "Genesis 5:3 - replacement for Abel; line of Christ begins"
     }
@@ -85,9 +85,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Seth",
   "title": "Son of Adam",
-  "essene_year_born": 130,
+  "zadok_year_born": 130,
   "gregorian_year_born": -3874,
-  "essene_year_died": 1042,
+  "zadok_year_died": 1042,
   "gregorian_year_died": -2962,
   "lifespan_years": 912,
   "data_classification": "ACTUAL",
@@ -95,13 +95,13 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
   "major_events": [
     {
       "event": "Birth",
-      "essene_year": 130,
+      "zadok_year": 130,
       "gregorian_year": -3874,
       "description": "Given by God as replacement for Abel (Genesis 4:25)"
     },
     {
       "event": "Men began to call on name of Lord",
-      "essene_year": 233,
+      "zadok_year": 233,
       "gregorian_year": -3771,
       "description": "Genesis 4:26 - during Enosh's time; religious consciousness emerges"
     }
@@ -116,9 +116,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Enosh",
   "title": "Son of Seth",
-  "essene_year_born": 233,
+  "zadok_year_born": 233,
   "gregorian_year_born": -3771,
-  "essene_year_died": 1140,
+  "zadok_year_died": 1140,
   "gregorian_year_died": -2864,
   "lifespan_years": 905,
   "data_classification": "ACTUAL",
@@ -126,7 +126,7 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
   "major_events": [
     {
       "event": "Birth",
-      "essene_year": 233,
+      "zadok_year": 233,
       "gregorian_year": -3771,
       "description": "Son of Seth"
     }
@@ -141,9 +141,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Cainan",
   "title": "Son of Enosh",
-  "essene_year_born": 325,
+  "zadok_year_born": 325,
   "gregorian_year_born": -3679,
-  "essene_year_died": 1235,
+  "zadok_year_died": 1235,
   "gregorian_year_died": -2769,
   "lifespan_years": 910,
   "data_classification": "ACTUAL",
@@ -159,9 +159,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Mahalalel",
   "title": "Son of Cainan",
-  "essene_year_born": 395,
+  "zadok_year_born": 395,
   "gregorian_year_born": -3609,
-  "essene_year_died": 1290,
+  "zadok_year_died": 1290,
   "gregorian_year_died": -2714,
   "lifespan_years": 895,
   "data_classification": "ACTUAL",
@@ -177,9 +177,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Jared",
   "title": "Son of Mahalalel",
-  "essene_year_born": 460,
+  "zadok_year_born": 460,
   "gregorian_year_born": -3544,
-  "essene_year_died": 1422,
+  "zadok_year_died": 1422,
   "gregorian_year_died": -2582,
   "lifespan_years": 962,
   "data_classification": "ACTUAL",
@@ -195,9 +195,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Enoch",
   "title": "Son of Jared; 7th from Adam",
-  "essene_year_born": 622,
+  "zadok_year_born": 622,
   "gregorian_year_born": -3382,
-  "essene_year_died": 987,
+  "zadok_year_died": 987,
   "gregorian_year_died": -3017,
   "lifespan_years": 365,
   "data_classification": "ACTUAL",
@@ -205,13 +205,13 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
   "major_events": [
     {
       "event": "Walked with God",
-      "essene_year": 622,
+      "zadok_year": 622,
       "gregorian_year": -3382,
       "description": "A man of exceptional righteousness"
     },
     {
       "event": "Translation/Rapture",
-      "essene_year": 987,
+      "zadok_year": 987,
       "gregorian_year": -3017,
       "description": "Genesis 5:24 - taken by God; did not experience death. 'Enoch walked with God: and he was not; for God took him.' (KJV)"
     }
@@ -226,9 +226,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Methuselah",
   "title": "Son of Enoch; oldest man",
-  "essene_year_born": 687,
+  "zadok_year_born": 687,
   "gregorian_year_born": -3317,
-  "essene_year_died": 1656,
+  "zadok_year_died": 1656,
   "gregorian_year_died": -2348,
   "lifespan_years": 969,
   "data_classification": "ACTUAL",
@@ -236,13 +236,13 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
   "major_events": [
     {
       "event": "Birth",
-      "essene_year": 687,
+      "zadok_year": 687,
       "gregorian_year": -3317,
       "description": "Son of Enoch"
     },
     {
       "event": "Approximate year of Great Flood",
-      "essene_year": 1656,
+      "zadok_year": 1656,
       "gregorian_year": -2348,
       "description": "Methuselah dies the year of the Flood (Genesis 7:11); possibly last day before Flood"
     }
@@ -257,9 +257,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Lamech",
   "title": "Son of Methuselah; father of Noah",
-  "essene_year_born": 874,
+  "zadok_year_born": 874,
   "gregorian_year_born": -3130,
-  "essene_year_died": 1651,
+  "zadok_year_died": 1651,
   "gregorian_year_died": -2353,
   "lifespan_years": 777,
   "data_classification": "ACTUAL",
@@ -267,7 +267,7 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
   "major_events": [
     {
       "event": "Birth of Noah",
-      "essene_year": 1056,
+      "zadok_year": 1056,
       "gregorian_year": -2948,
       "description": "Genesis 5:29 - Lamech names him Noah (meaning 'rest/comfort')"
     }
@@ -282,9 +282,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Noah",
   "title": "Son of Lamech; Preacher of Righteousness; Ark Builder",
-  "essene_year_born": 1056,
+  "zadok_year_born": 1056,
   "gregorian_year_born": -2948,
-  "essene_year_died": 1956,
+  "zadok_year_died": 1956,
   "gregorian_year_died": -2048,
   "lifespan_years": 950,
   "data_classification": "ACTUAL",
@@ -292,31 +292,31 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
   "major_events": [
     {
       "event": "Birth",
-      "essene_year": 1056,
+      "zadok_year": 1056,
       "gregorian_year": -2948,
       "description": "Son of Lamech; the name means 'rest' or 'comfort'"
     },
     {
       "event": "Begins preaching righteousness",
-      "essene_year": 1056,
+      "zadok_year": 1056,
       "gregorian_year": -2948,
       "description": "2 Peter 2:5 - called 'a preacher of righteousness'"
     },
     {
       "event": "Building of the Ark begins",
-      "essene_year": 1536,
+      "zadok_year": 1536,
       "gregorian_year": -2468,
       "description": "Traditional date; construction period ~100 years (Genesis 6:3)"
     },
     {
       "event": "The Great Flood",
-      "essene_year": 1656,
+      "zadok_year": 1656,
       "gregorian_year": -2348,
       "description": "Genesis 7:11 - Noah was 600 years old when the Flood came"
     },
     {
       "event": "Ark rests on mountains of Ararat",
-      "essene_year": 1657,
+      "zadok_year": 1657,
       "gregorian_year": -2347,
       "description": "Genesis 8:4 - Flood waters recede; ark comes to rest"
     }
@@ -342,9 +342,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Shem",
   "title": "Son of Noah; ancestor of Semites",
-  "essene_year_born": 1558,
+  "zadok_year_born": 1558,
   "gregorian_year_born": -2446,
-  "essene_year_died": 2158,
+  "zadok_year_died": 2158,
   "gregorian_year_died": -1846,
   "lifespan_years": 600,
   "data_classification": "ACTUAL",
@@ -352,19 +352,19 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
   "major_events": [
     {
       "event": "Born to Noah",
-      "essene_year": 1558,
+      "zadok_year": 1558,
       "gregorian_year": -2446,
       "description": "Genesis 5:32; 10:1 - Shem, Ham, and Japheth born to Noah"
     },
     {
       "event": "Survival of Great Flood",
-      "essene_year": 1656,
+      "zadok_year": 1656,
       "gregorian_year": -2348,
       "description": "Genesis 7:13 - Shem and family preserved in Ark"
     },
     {
       "event": "Blessing and priestly role",
-      "essene_year": 1656,
+      "zadok_year": 1656,
       "gregorian_year": -2348,
       "description": "Genesis 9:26-27 - Shem receives blessing; 'Blessed be the Lord, God of Shem'"
     }
@@ -379,9 +379,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Arphaxad",
   "title": "Son of Shem",
-  "essene_year_born": 1658,
+  "zadok_year_born": 1658,
   "gregorian_year_born": -2346,
-  "essene_year_died": 2096,
+  "zadok_year_died": 2096,
   "gregorian_year_died": -1908,
   "lifespan_years": 438,
   "data_classification": "ACTUAL",
@@ -397,9 +397,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Shelah",
   "title": "Son of Arphaxad",
-  "essene_year_born": 1693,
+  "zadok_year_born": 1693,
   "gregorian_year_born": -2311,
-  "essene_year_died": 2126,
+  "zadok_year_died": 2126,
   "gregorian_year_died": -1878,
   "lifespan_years": 433,
   "data_classification": "ACTUAL",
@@ -415,9 +415,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Eber",
   "title": "Son of Shelah; father of Hebrews",
-  "essene_year_born": 1723,
+  "zadok_year_born": 1723,
   "gregorian_year_born": -2281,
-  "essene_year_died": 2187,
+  "zadok_year_died": 2187,
   "gregorian_year_died": -1817,
   "lifespan_years": 464,
   "data_classification": "ACTUAL",
@@ -433,9 +433,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Peleg",
   "title": "Son of Eber",
-  "essene_year_born": 1757,
+  "zadok_year_born": 1757,
   "gregorian_year_born": -2247,
-  "essene_year_died": 1996,
+  "zadok_year_died": 1996,
   "gregorian_year_died": -2008,
   "lifespan_years": 239,
   "data_classification": "ACTUAL",
@@ -443,7 +443,7 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
   "major_events": [
     {
       "event": "Tower of Babel / Confusion of Tongues",
-      "essene_year": 1757,
+      "zadok_year": 1757,
       "gregorian_year": -2247,
       "description": "Genesis 10:25 - 'in his days was the earth divided'; linguistic and geographical dispersion of humanity"
     }
@@ -458,9 +458,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Reu",
   "title": "Son of Peleg",
-  "essene_year_born": 1787,
+  "zadok_year_born": 1787,
   "gregorian_year_born": -2217,
-  "essene_year_died": 2026,
+  "zadok_year_died": 2026,
   "gregorian_year_died": -1978,
   "lifespan_years": 239,
   "data_classification": "ACTUAL",
@@ -476,9 +476,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Serug",
   "title": "Son of Reu",
-  "essene_year_born": 1819,
+  "zadok_year_born": 1819,
   "gregorian_year_born": -2185,
-  "essene_year_died": 2049,
+  "zadok_year_died": 2049,
   "gregorian_year_died": -1955,
   "lifespan_years": 230,
   "data_classification": "ACTUAL",
@@ -494,9 +494,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Nahor",
   "title": "Son of Serug",
-  "essene_year_born": 1849,
+  "zadok_year_born": 1849,
   "gregorian_year_born": -2155,
-  "essene_year_died": 1997,
+  "zadok_year_died": 1997,
   "gregorian_year_died": -2007,
   "lifespan_years": 148,
   "data_classification": "ACTUAL",
@@ -512,9 +512,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Terah",
   "title": "Son of Nahor; father of Abraham",
-  "essene_year_born": 1878,
+  "zadok_year_born": 1878,
   "gregorian_year_born": -2126,
-  "essene_year_died": 2083,
+  "zadok_year_died": 2083,
   "gregorian_year_died": -1921,
   "lifespan_years": 205,
   "data_classification": "ACTUAL",
@@ -522,13 +522,13 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
   "major_events": [
     {
       "event": "Birth of Abram (Abraham)",
-      "essene_year": 2008,
+      "zadok_year": 2008,
       "gregorian_year": -1996,
       "description": "Genesis 11:26 - Terah was 70 years old; later called Abraham by God"
     },
     {
       "event": "Death",
-      "essene_year": 2083,
+      "zadok_year": 2083,
       "gregorian_year": -1921,
       "description": "Genesis 11:32 - died in Haran at age 205"
     }
@@ -543,9 +543,9 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
 {
   "name": "Abraham",
   "title": "Son of Terah; Father of the Faithful; Covenant Patriarch",
-  "essene_year_born": 2008,
+  "zadok_year_born": 2008,
   "gregorian_year_born": -1996,
-  "essene_year_died": 2183,
+  "zadok_year_died": 2183,
   "gregorian_year_died": -1821,
   "lifespan_years": 175,
   "data_classification": "ACTUAL",
@@ -553,37 +553,37 @@ All ages in Genesis 5 are explicitly stated. This genealogy is the most complete
   "major_events": [
     {
       "event": "Birth",
-      "essene_year": 2008,
+      "zadok_year": 2008,
       "gregorian_year": -1996,
       "description": "Terah was 70 years old (Genesis 11:26)"
     },
     {
       "event": "Call of God and covenant promise",
-      "essene_year": 2083,
+      "zadok_year": 2083,
       "gregorian_year": -1921,
       "description": "Genesis 12:1-7; Acts 7:2 - 'Get thee out of thy country...and I will make of thee a great nation' (age ~75)"
     },
     {
       "event": "Changes name from Abram to Abraham",
-      "essene_year": 2158,
+      "zadok_year": 2158,
       "gregorian_year": -1846,
       "description": "Genesis 17:5 - 'father of many nations' (age 99)"
     },
     {
       "event": "Birth of Isaac",
-      "essene_year": 2183,
+      "zadok_year": 2183,
       "gregorian_year": -1821,
       "description": "Genesis 21:5 - son of the promise; Abraham was 100 years old"
     },
     {
       "event": "Binding of Isaac (Akedah)",
-      "essene_year": 2198,
+      "zadok_year": 2198,
       "gregorian_year": -1806,
       "description": "Genesis 22:1-19 - trial of faith; Isaac perhaps 15-20 years old; foreshadows Christ's sacrifice"
     },
     {
       "event": "Death",
-      "essene_year": 2183,
+      "zadok_year": 2183,
       "gregorian_year": -1821,
       "description": "Genesis 25:7-10 - buried in cave of Machpelah by sons Isaac and Ishmael"
     }
@@ -611,8 +611,8 @@ The following JSON structure can be used for Gantt chart or parallel timeline vi
   "genealogy_timeline": [
     {
       "person": "Adam",
-      "essene_start": 0,
-      "essene_end": 930,
+      "zadok_start": 0,
+      "zadok_end": 930,
       "gregorian_start": -4004,
       "gregorian_end": -3074,
       "color": "#FF6B6B",
@@ -620,8 +620,8 @@ The following JSON structure can be used for Gantt chart or parallel timeline vi
     },
     {
       "person": "Seth",
-      "essene_start": 130,
-      "essene_end": 1042,
+      "zadok_start": 130,
+      "zadok_end": 1042,
       "gregorian_start": -3874,
       "gregorian_end": -2962,
       "color": "#FF8C8C",
@@ -657,7 +657,7 @@ The following JSON structure can be used for Gantt chart or parallel timeline vi
 
 - **Direct Biblical Numbers**: All lifespan data from Genesis 5:1-32 and Genesis 11:10-32 are explicit and counted as ACTUAL
 - **Calculated Dates**: Derived by adding ages cumulatively; classified as CALCULATED
-- **Essene Year 0 = 4004 BC**: Based on Archbishop Ussher's chronology, long accepted in Christian tradition
+- **Zadok Year 0 = 4004 BC**: Based on Archbishop Ussher's chronology, long accepted in Christian tradition
 - **Gaps Unknown**: Without additional information, we cannot determine if genealogies contain gaps; treating sequentially as provided
 
 ---
@@ -678,9 +678,9 @@ The following JSON structure can be used for Gantt chart or parallel timeline vi
 {
   "name": "Name",
   "title": "Relationship and description",
-  "essene_year_born": 0,
+  "zadok_year_born": 0,
   "gregorian_year_born": -4004,
-  "essene_year_died": 930,
+  "zadok_year_died": 930,
   "gregorian_year_died": -3074,
   "lifespan_years": 930,
   "data_classification": "ACTUAL|CALCULATED|TRADITIONAL|EXTRAPOLATED",
@@ -688,7 +688,7 @@ The following JSON structure can be used for Gantt chart or parallel timeline vi
   "major_events": [
     {
       "event": "Event name",
-      "essene_year": 0,
+      "zadok_year": 0,
       "gregorian_year": -4004,
       "description": "Description of event"
     }

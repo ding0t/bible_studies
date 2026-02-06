@@ -5,9 +5,9 @@
       "id": "adam",
       "name": "Adam",
       "title": "First Man, Father of All",
-      "essene_year_born": 0,
+      "zadok_year_born": 0,
       "gregorian_year_born": -4004,
-      "essene_year_died": 930,
+      "zadok_year_died": 930,
       "gregorian_year_died": -3074,
       "lifespan_years": 930,
       "parent_id": null,
@@ -35,43 +35,43 @@
       "major_events": [
         {
           "event": "Creation",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Adam created in God's image (Genesis 1:27)"
         },
         {
           "event": "Garden of Eden",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Placed in Garden, given dominion (Genesis 2:15)"
         },
         {
           "event": "Fall of Man",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Ate forbidden fruit, sin entered world (Genesis 3:1-6)"
         },
         {
           "event": "Birth of Cain",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "First son born after Fall (Genesis 4:1)"
         },
         {
           "event": "Birth of Abel",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Second son, became shepherd (Genesis 4:2)"
         },
         {
           "event": "Birth of Seth",
-          "essene_year": 130,
+          "zadok_year": 130,
           "gregorian_year": -3874,
           "description": "Third son, appointed to replace Abel (Genesis 4:25)"
         },
         {
           "event": "Death",
-          "essene_year": 930,
+          "zadok_year": 930,
           "gregorian_year": -3074,
           "description": "Lived 930 years (Genesis 5:5)"
         }
@@ -94,9 +94,9 @@
       "id": "eve",
       "name": "Eve",
       "title": "First Woman, Mother of All",
-      "essene_year_born": 0,
+      "zadok_year_born": 0,
       "gregorian_year_born": -4004,
-      "essene_year_died": null,
+      "zadok_year_died": null,
       "gregorian_year_died": null,
       "lifespan_years": null,
       "parent_id": null,
@@ -123,13 +123,13 @@
       "major_events": [
         {
           "event": "Creation",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Created from Adam's rib (Genesis 2:22)"
         },
         {
           "event": "Fall",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Deceived by serpent, ate forbidden fruit (Genesis 3:1-6)"
         }
@@ -148,9 +148,9 @@
       "id": "cain",
       "name": "Cain",
       "title": "First Son, First Murderer",
-      "essene_year_born": 0,
+      "zadok_year_born": 0,
       "gregorian_year_born": -4004,
-      "essene_year_died": null,
+      "zadok_year_died": null,
       "gregorian_year_died": null,
       "lifespan_years": null,
       "parent_id": "adam",
@@ -173,19 +173,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "First-born son (Genesis 4:1)"
         },
         {
           "event": "Murder of Abel",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Killed brother in jealousy (Genesis 4:8)"
         },
         {
           "event": "Curse and Mark",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Marked by God, banished east of Eden (Genesis 4:15)"
         }
@@ -204,9 +204,9 @@
       "id": "abel",
       "name": "Abel",
       "title": "First Shepherd, First Martyr",
-      "essene_year_born": 0,
+      "zadok_year_born": 0,
       "gregorian_year_born": -4004,
-      "essene_year_died": 0,
+      "zadok_year_died": 0,
       "gregorian_year_died": -4004,
       "lifespan_years": 0,
       "parent_id": "adam",
@@ -225,19 +225,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Second son (Genesis 4:2)"
         },
         {
           "event": "Offering to God",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Brought firstlings of flock; accepted by God (Genesis 4:4)"
         },
         {
           "event": "Murder by Cain",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Killed by brother Cain (Genesis 4:8)"
         }
@@ -257,9 +257,9 @@
       "id": "seth",
       "name": "Seth",
       "title": "Third Son, Covenant Heir",
-      "essene_year_born": 130,
+      "zadok_year_born": 130,
       "gregorian_year_born": -3874,
-      "essene_year_died": 1042,
+      "zadok_year_died": 1042,
       "gregorian_year_died": -2962,
       "lifespan_years": 912,
       "parent_id": "adam",
@@ -283,13 +283,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 130,
+          "zadok_year": 130,
           "gregorian_year": -3874,
           "description": "Born to replace Abel (Genesis 4:25)"
         },
         {
           "event": "Death",
-          "essene_year": 1042,
+          "zadok_year": 1042,
           "gregorian_year": -2962,
           "description": "Lived 912 years (Genesis 5:8)"
         }
@@ -308,9 +308,9 @@
       "id": "enosh",
       "name": "Enosh",
       "title": "Son of Seth",
-      "essene_year_born": 235,
+      "zadok_year_born": 235,
       "gregorian_year_born": -3769,
-      "essene_year_died": 1140,
+      "zadok_year_died": 1140,
       "gregorian_year_died": -2864,
       "lifespan_years": 905,
       "parent_id": "seth",
@@ -333,19 +333,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 235,
+          "zadok_year": 235,
           "gregorian_year": -3769,
           "description": "Son of Seth (Genesis 5:6)"
         },
         {
           "event": "Men Called on God's Name",
-          "essene_year": 235,
+          "zadok_year": 235,
           "gregorian_year": -3769,
           "description": "In his day men began calling on name of Lord (Genesis 4:26)"
         },
         {
           "event": "Death",
-          "essene_year": 1140,
+          "zadok_year": 1140,
           "gregorian_year": -2864,
           "description": "Lived 905 years (Genesis 5:11)"
         }
@@ -363,9 +363,9 @@
       "id": "cainan",
       "name": "Cainan",
       "title": "Son of Enosh",
-      "essene_year_born": 325,
+      "zadok_year_born": 325,
       "gregorian_year_born": -3679,
-      "essene_year_died": 1235,
+      "zadok_year_died": 1235,
       "gregorian_year_died": -2769,
       "lifespan_years": 910,
       "parent_id": "enosh",
@@ -387,13 +387,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 325,
+          "zadok_year": 325,
           "gregorian_year": -3679,
           "description": "Son of Enosh (Genesis 5:9)"
         },
         {
           "event": "Death",
-          "essene_year": 1235,
+          "zadok_year": 1235,
           "gregorian_year": -2769,
           "description": "Lived 910 years (Genesis 5:14)"
         }
@@ -410,9 +410,9 @@
       "id": "mahalalel",
       "name": "Mahalalel",
       "title": "Son of Cainan",
-      "essene_year_born": 395,
+      "zadok_year_born": 395,
       "gregorian_year_born": -3609,
-      "essene_year_died": 1290,
+      "zadok_year_died": 1290,
       "gregorian_year_died": -2714,
       "lifespan_years": 895,
       "parent_id": "cainan",
@@ -434,13 +434,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 395,
+          "zadok_year": 395,
           "gregorian_year": -3609,
           "description": "Son of Cainan (Genesis 5:12)"
         },
         {
           "event": "Death",
-          "essene_year": 1290,
+          "zadok_year": 1290,
           "gregorian_year": -2714,
           "description": "Lived 895 years (Genesis 5:17)"
         }
@@ -457,9 +457,9 @@
       "id": "jared",
       "name": "Jared",
       "title": "Son of Mahalalel, Longest-Lived",
-      "essene_year_born": 460,
+      "zadok_year_born": 460,
       "gregorian_year_born": -3544,
-      "essene_year_died": 1422,
+      "zadok_year_died": 1422,
       "gregorian_year_died": -2582,
       "lifespan_years": 962,
       "parent_id": "mahalalel",
@@ -482,13 +482,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 460,
+          "zadok_year": 460,
           "gregorian_year": -3544,
           "description": "Son of Mahalalel (Genesis 5:15)"
         },
         {
           "event": "Death",
-          "essene_year": 1422,
+          "zadok_year": 1422,
           "gregorian_year": -2582,
           "description": "Lived 962 yearsâ€”longest lifespan in Genesis (Genesis 5:20)"
         }
@@ -505,9 +505,9 @@
       "id": "enoch",
       "name": "Enoch",
       "title": "Son of Jared, Walked with God",
-      "essene_year_born": 622,
+      "zadok_year_born": 622,
       "gregorian_year_born": -3382,
-      "essene_year_died": 987,
+      "zadok_year_died": 987,
       "gregorian_year_died": -3017,
       "lifespan_years": 365,
       "parent_id": "jared",
@@ -532,25 +532,25 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 622,
+          "zadok_year": 622,
           "gregorian_year": -3382,
           "description": "Son of Jared (Genesis 5:18)"
         },
         {
           "event": "Walked with God",
-          "essene_year": 622,
+          "zadok_year": 622,
           "gregorian_year": -3382,
           "description": "Lived in close fellowship with God (Genesis 5:22-24)"
         },
         {
           "event": "Prophetic Ministry",
-          "essene_year": 987,
+          "zadok_year": 987,
           "gregorian_year": -3017,
           "description": "Prophesied judgment (Jude 1:14)"
         },
         {
           "event": "Rapture/Ascension",
-          "essene_year": 987,
+          "zadok_year": 987,
           "gregorian_year": -3017,
           "description": "Taken by God without experiencing death (Genesis 5:24, Hebrews 11:5)"
         }
@@ -570,9 +570,9 @@
       "id": "methuselah",
       "name": "Methuselah",
       "title": "Son of Enoch, Oldest Person",
-      "essene_year_born": 687,
+      "zadok_year_born": 687,
       "gregorian_year_born": -3317,
-      "essene_year_died": 1656,
+      "zadok_year_died": 1656,
       "gregorian_year_died": -2348,
       "lifespan_years": 969,
       "parent_id": "enoch",
@@ -596,19 +596,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 687,
+          "zadok_year": 687,
           "gregorian_year": -3317,
           "description": "Son of Enoch (Genesis 5:21)"
         },
         {
           "event": "Death",
-          "essene_year": 1656,
+          "zadok_year": 1656,
           "gregorian_year": -2348,
           "description": "Lived 969 yearsâ€”oldest person ever (Genesis 5:27)"
         },
         {
           "event": "Died year of Flood",
-          "essene_year": 1656,
+          "zadok_year": 1656,
           "gregorian_year": -2348,
           "description": "Died the same year as the Great Flood"
         }
@@ -626,9 +626,9 @@
       "id": "lamech",
       "name": "Lamech",
       "title": "Son of Methuselah, Noah's Father",
-      "essene_year_born": 874,
+      "zadok_year_born": 874,
       "gregorian_year_born": -3130,
-      "essene_year_died": 1651,
+      "zadok_year_died": 1651,
       "gregorian_year_died": -2353,
       "lifespan_years": 777,
       "parent_id": "methuselah",
@@ -651,19 +651,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 874,
+          "zadok_year": 874,
           "gregorian_year": -3130,
           "description": "Son of Methuselah (Genesis 5:25)"
         },
         {
           "event": "Birth of Noah",
-          "essene_year": 1056,
+          "zadok_year": 1056,
           "gregorian_year": -2948,
           "description": "Fathered Noah; named him expressing hope (Genesis 5:29)"
         },
         {
           "event": "Death",
-          "essene_year": 1651,
+          "zadok_year": 1651,
           "gregorian_year": -2353,
           "description": "Lived 777 years (Genesis 5:31)"
         }
@@ -680,9 +680,9 @@
       "id": "noah",
       "name": "Noah",
       "title": "Righteous Man, Ark Builder, Flood Survivor",
-      "essene_year_born": 1056,
+      "zadok_year_born": 1056,
       "gregorian_year_born": -2948,
-      "essene_year_died": 2006,
+      "zadok_year_died": 2006,
       "gregorian_year_died": -1998,
       "lifespan_years": 950,
       "parent_id": "lamech",
@@ -709,37 +709,37 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1056,
+          "zadok_year": 1056,
           "gregorian_year": -2948,
           "description": "Son of Lamech (Genesis 5:29)"
         },
         {
           "event": "Preaching Righteousness",
-          "essene_year": 1056,
+          "zadok_year": 1056,
           "gregorian_year": -2948,
           "description": "Preached for 120 years before Flood (2 Peter 2:5)"
         },
         {
           "event": "Ark Construction",
-          "essene_year": 1536,
+          "zadok_year": 1536,
           "gregorian_year": -2468,
           "description": "Built ark for 120 years (Genesis 6:14)"
         },
         {
           "event": "The Great Flood",
-          "essene_year": 1656,
+          "zadok_year": 1656,
           "gregorian_year": -2348,
           "description": "Entered ark; all life destroyed except those in ark (Genesis 7:11-12)"
         },
         {
           "event": "Covenant Renewal",
-          "essene_year": 1657,
+          "zadok_year": 1657,
           "gregorian_year": -2347,
           "description": "Received Noahic Covenant with rainbow sign (Genesis 8:20-9:17)"
         },
         {
           "event": "Death",
-          "essene_year": 2006,
+          "zadok_year": 2006,
           "gregorian_year": -1998,
           "description": "Lived 950 years (Genesis 9:29)"
         }

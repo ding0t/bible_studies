@@ -21,7 +21,7 @@ description: "One-line summary of this study"
 tags: ["end-times", "timeline", "prophecy"]
 draft: false
 bible_references: ["Daniel 12:11", "Matthew 24:15"]
-essene_year: 3972
+zadok_year: 3972
 gregorian_year: 2024
 ---
 
@@ -47,14 +47,14 @@ More content with **bold**, *italic*, `code`, etc.
 | Field | Required | Notes |
 |-------|----------|-------|
 | `title` | ✅ Yes | Study title (appears in timeline and pages) |
-| `year` | ❌ No | Display year for timeline (can be Gregorian or Essene - clarify in content) |
+| `year` | ❌ No | Display year for timeline (can be Gregorian or Zadok - clarify in content) |
 | `category` | ❌ No | `prophecy`, `dreams`, `feasts`, `investigation`, `sermons`, or `other` |
 | `description` | ❌ No | Short summary (1-2 sentences) shown in previews |
 | `tags` | ❌ No | Array of tags for filtering (e.g., `["resurrection", "end-times"]`) |
 | `draft` | ❌ No | Set to `true` to hide from site (default: `false`) |
 | `bible_references` | ❌ No | Array of scripture references (e.g., `["John 3:16", "Romans 6:9"]`) |
 | `gregorian_year` | ❌ No | Precise year in Gregorian calendar (e.g., 1948, 2024) - used for Gregorian timeline view |
-| `essene_year` | ❌ No | Precise year in Essene calendar (Year 0 = Adam's creation) - used for Essene timeline view |
+| `zadok_year` | ❌ No | Precise year in Zadok calendar (Year 0 = Adam's creation) - used for Zadok timeline view |
 
 ## Examples
 

@@ -2,9 +2,9 @@
   "metadata": {
     "version": "1.0.0",
     "last_updated": "2026-01-11",
-    "description": "Complete biblical genealogy from Adam to Jesus with dual-calendar dating (Essene Year 0 = 4004 BC), relational data, lineage tracking, and classification system",
+    "description": "Complete biblical genealogy from Adam to Jesus with dual-calendar dating (Zadok Year 0 = 4004 BC), relational data, lineage tracking, and classification system",
     "calendar_offset": 4004,
-    "calendar_info": "Essene Year 0 corresponds to -4004 Gregorian (4004 BC). Add 4004 to Essene year to get Gregorian year."
+    "calendar_info": "Zadok Year 0 corresponds to -4004 Gregorian (4004 BC). Add 4004 to Zadok year to get Gregorian year."
   },
   "lineages": {
     "seth_line": {
@@ -37,9 +37,9 @@
       "id": "adam",
       "name": "Adam",
       "title": "First Man, Father of All",
-      "essene_year_born": 0,
+      "zadok_year_born": 0,
       "gregorian_year_born": -4004,
-      "essene_year_died": 930,
+      "zadok_year_died": 930,
       "gregorian_year_died": -3074,
       "lifespan_years": 930,
       "parent_id": null,
@@ -54,43 +54,43 @@
       "major_events": [
         {
           "event": "Creation",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Adam created in God's image (Genesis 1:27)"
         },
         {
           "event": "Garden of Eden",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Placed in Garden, given dominion (Genesis 2:15)"
         },
         {
           "event": "Fall of Man",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Ate forbidden fruit, sin entered world (Genesis 3:1-6)"
         },
         {
           "event": "Birth of Cain",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "First son born after Fall (Genesis 4:1)"
         },
         {
           "event": "Birth of Abel",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Second son, became shepherd (Genesis 4:2)"
         },
         {
           "event": "Birth of Seth",
-          "essene_year": 130,
+          "zadok_year": 130,
           "gregorian_year": -3874,
           "description": "Third son, appointed to replace Abel (Genesis 4:25)"
         },
         {
           "event": "Death",
-          "essene_year": 930,
+          "zadok_year": 930,
           "gregorian_year": -3074,
           "description": "Lived 930 years (Genesis 5:5)"
         }
@@ -101,9 +101,9 @@
       "id": "eve",
       "name": "Eve",
       "title": "First Woman, Mother of All",
-      "essene_year_born": 0,
+      "zadok_year_born": 0,
       "gregorian_year_born": -4004,
-      "essene_year_died": null,
+      "zadok_year_died": null,
       "gregorian_year_died": null,
       "lifespan_years": null,
       "parent_id": null,
@@ -118,13 +118,13 @@
       "major_events": [
         {
           "event": "Creation",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Created from Adam's rib (Genesis 2:22)"
         },
         {
           "event": "Fall",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Deceived by serpent, ate forbidden fruit (Genesis 3:1-6)"
         }
@@ -135,9 +135,9 @@
       "id": "cain",
       "name": "Cain",
       "title": "First Son, First Murderer",
-      "essene_year_born": 0,
+      "zadok_year_born": 0,
       "gregorian_year_born": -4004,
-      "essene_year_died": null,
+      "zadok_year_died": null,
       "gregorian_year_died": null,
       "lifespan_years": null,
       "parent_id": "adam",
@@ -152,19 +152,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "First-born son (Genesis 4:1)"
         },
         {
           "event": "Murder of Abel",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Killed brother in jealousy (Genesis 4:8)"
         },
         {
           "event": "Curse and Mark",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Marked by God, banished east of Eden (Genesis 4:15)"
         }
@@ -175,9 +175,9 @@
       "id": "abel",
       "name": "Abel",
       "title": "First Shepherd, First Martyr",
-      "essene_year_born": 0,
+      "zadok_year_born": 0,
       "gregorian_year_born": -4004,
-      "essene_year_died": 0,
+      "zadok_year_died": 0,
       "gregorian_year_died": -4004,
       "lifespan_years": 0,
       "parent_id": "adam",
@@ -192,19 +192,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Second son (Genesis 4:2)"
         },
         {
           "event": "Offering to God",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Brought firstlings of flock; accepted by God (Genesis 4:4)"
         },
         {
           "event": "Murder by Cain",
-          "essene_year": 0,
+          "zadok_year": 0,
           "gregorian_year": -4004,
           "description": "Killed by brother Cain (Genesis 4:8)"
         }
@@ -215,9 +215,9 @@
       "id": "seth",
       "name": "Seth",
       "title": "Third Son, Covenant Heir",
-      "essene_year_born": 130,
+      "zadok_year_born": 130,
       "gregorian_year_born": -3874,
-      "essene_year_died": 1042,
+      "zadok_year_died": 1042,
       "gregorian_year_died": -2962,
       "lifespan_years": 912,
       "parent_id": "adam",
@@ -232,13 +232,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 130,
+          "zadok_year": 130,
           "gregorian_year": -3874,
           "description": "Born to replace Abel (Genesis 4:25)"
         },
         {
           "event": "Death",
-          "essene_year": 1042,
+          "zadok_year": 1042,
           "gregorian_year": -2962,
           "description": "Lived 912 years (Genesis 5:8)"
         }
@@ -249,9 +249,9 @@
       "id": "enosh",
       "name": "Enosh",
       "title": "Son of Seth",
-      "essene_year_born": 235,
+      "zadok_year_born": 235,
       "gregorian_year_born": -3769,
-      "essene_year_died": 1140,
+      "zadok_year_died": 1140,
       "gregorian_year_died": -2864,
       "lifespan_years": 905,
       "parent_id": "seth",
@@ -266,19 +266,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 235,
+          "zadok_year": 235,
           "gregorian_year": -3769,
           "description": "Son of Seth (Genesis 5:6)"
         },
         {
           "event": "Men Called on God's Name",
-          "essene_year": 235,
+          "zadok_year": 235,
           "gregorian_year": -3769,
           "description": "In his day men began calling on name of Lord (Genesis 4:26)"
         },
         {
           "event": "Death",
-          "essene_year": 1140,
+          "zadok_year": 1140,
           "gregorian_year": -2864,
           "description": "Lived 905 years (Genesis 5:11)"
         }
@@ -289,9 +289,9 @@
       "id": "cainan",
       "name": "Cainan",
       "title": "Son of Enosh",
-      "essene_year_born": 325,
+      "zadok_year_born": 325,
       "gregorian_year_born": -3679,
-      "essene_year_died": 1235,
+      "zadok_year_died": 1235,
       "gregorian_year_died": -2769,
       "lifespan_years": 910,
       "parent_id": "enosh",
@@ -306,13 +306,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 325,
+          "zadok_year": 325,
           "gregorian_year": -3679,
           "description": "Son of Enosh (Genesis 5:9)"
         },
         {
           "event": "Death",
-          "essene_year": 1235,
+          "zadok_year": 1235,
           "gregorian_year": -2769,
           "description": "Lived 910 years (Genesis 5:14)"
         }
@@ -323,9 +323,9 @@
       "id": "mahalalel",
       "name": "Mahalalel",
       "title": "Son of Cainan",
-      "essene_year_born": 395,
+      "zadok_year_born": 395,
       "gregorian_year_born": -3609,
-      "essene_year_died": 1290,
+      "zadok_year_died": 1290,
       "gregorian_year_died": -2714,
       "lifespan_years": 895,
       "parent_id": "cainan",
@@ -340,13 +340,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 395,
+          "zadok_year": 395,
           "gregorian_year": -3609,
           "description": "Son of Cainan (Genesis 5:12)"
         },
         {
           "event": "Death",
-          "essene_year": 1290,
+          "zadok_year": 1290,
           "gregorian_year": -2714,
           "description": "Lived 895 years (Genesis 5:17)"
         }
@@ -357,9 +357,9 @@
       "id": "jared",
       "name": "Jared",
       "title": "Son of Mahalalel, Longest-Lived",
-      "essene_year_born": 460,
+      "zadok_year_born": 460,
       "gregorian_year_born": -3544,
-      "essene_year_died": 1422,
+      "zadok_year_died": 1422,
       "gregorian_year_died": -2582,
       "lifespan_years": 962,
       "parent_id": "mahalalel",
@@ -374,13 +374,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 460,
+          "zadok_year": 460,
           "gregorian_year": -3544,
           "description": "Son of Mahalalel (Genesis 5:15)"
         },
         {
           "event": "Death",
-          "essene_year": 1422,
+          "zadok_year": 1422,
           "gregorian_year": -2582,
           "description": "Lived 962 years—longest lifespan in Genesis (Genesis 5:20)"
         }
@@ -391,9 +391,9 @@
       "id": "enoch",
       "name": "Enoch",
       "title": "Son of Jared, Walked with God",
-      "essene_year_born": 622,
+      "zadok_year_born": 622,
       "gregorian_year_born": -3382,
-      "essene_year_died": 987,
+      "zadok_year_died": 987,
       "gregorian_year_died": -3017,
       "lifespan_years": 365,
       "parent_id": "jared",
@@ -408,25 +408,25 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 622,
+          "zadok_year": 622,
           "gregorian_year": -3382,
           "description": "Son of Jared (Genesis 5:18)"
         },
         {
           "event": "Walked with God",
-          "essene_year": 622,
+          "zadok_year": 622,
           "gregorian_year": -3382,
           "description": "Lived in close fellowship with God (Genesis 5:22-24)"
         },
         {
           "event": "Prophetic Ministry",
-          "essene_year": 987,
+          "zadok_year": 987,
           "gregorian_year": -3017,
           "description": "Prophesied judgment (Jude 1:14)"
         },
         {
           "event": "Rapture/Ascension",
-          "essene_year": 987,
+          "zadok_year": 987,
           "gregorian_year": -3017,
           "description": "Taken by God without experiencing death (Genesis 5:24, Hebrews 11:5)"
         }
@@ -437,9 +437,9 @@
       "id": "methuselah",
       "name": "Methuselah",
       "title": "Son of Enoch, Oldest Person",
-      "essene_year_born": 687,
+      "zadok_year_born": 687,
       "gregorian_year_born": -3317,
-      "essene_year_died": 1656,
+      "zadok_year_died": 1656,
       "gregorian_year_died": -2348,
       "lifespan_years": 969,
       "parent_id": "enoch",
@@ -454,19 +454,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 687,
+          "zadok_year": 687,
           "gregorian_year": -3317,
           "description": "Son of Enoch (Genesis 5:21)"
         },
         {
           "event": "Death",
-          "essene_year": 1656,
+          "zadok_year": 1656,
           "gregorian_year": -2348,
           "description": "Lived 969 years—oldest person ever (Genesis 5:27)"
         },
         {
           "event": "Died year of Flood",
-          "essene_year": 1656,
+          "zadok_year": 1656,
           "gregorian_year": -2348,
           "description": "Died the same year as the Great Flood"
         }
@@ -477,9 +477,9 @@
       "id": "lamech",
       "name": "Lamech",
       "title": "Son of Methuselah, Noah's Father",
-      "essene_year_born": 874,
+      "zadok_year_born": 874,
       "gregorian_year_born": -3130,
-      "essene_year_died": 1651,
+      "zadok_year_died": 1651,
       "gregorian_year_died": -2353,
       "lifespan_years": 777,
       "parent_id": "methuselah",
@@ -494,19 +494,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 874,
+          "zadok_year": 874,
           "gregorian_year": -3130,
           "description": "Son of Methuselah (Genesis 5:25)"
         },
         {
           "event": "Birth of Noah",
-          "essene_year": 1056,
+          "zadok_year": 1056,
           "gregorian_year": -2948,
           "description": "Fathered Noah; named him expressing hope (Genesis 5:29)"
         },
         {
           "event": "Death",
-          "essene_year": 1651,
+          "zadok_year": 1651,
           "gregorian_year": -2353,
           "description": "Lived 777 years (Genesis 5:31)"
         }
@@ -517,9 +517,9 @@
       "id": "noah",
       "name": "Noah",
       "title": "Righteous Man, Ark Builder, Flood Survivor",
-      "essene_year_born": 1056,
+      "zadok_year_born": 1056,
       "gregorian_year_born": -2948,
-      "essene_year_died": 2006,
+      "zadok_year_died": 2006,
       "gregorian_year_died": -1998,
       "lifespan_years": 950,
       "parent_id": "lamech",
@@ -534,37 +534,37 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1056,
+          "zadok_year": 1056,
           "gregorian_year": -2948,
           "description": "Son of Lamech (Genesis 5:29)"
         },
         {
           "event": "Preaching Righteousness",
-          "essene_year": 1056,
+          "zadok_year": 1056,
           "gregorian_year": -2948,
           "description": "Preached for 120 years before Flood (2 Peter 2:5)"
         },
         {
           "event": "Ark Construction",
-          "essene_year": 1536,
+          "zadok_year": 1536,
           "gregorian_year": -2468,
           "description": "Built ark for 120 years (Genesis 6:14)"
         },
         {
           "event": "The Great Flood",
-          "essene_year": 1656,
+          "zadok_year": 1656,
           "gregorian_year": -2348,
           "description": "Entered ark; all life destroyed except those in ark (Genesis 7:11-12)"
         },
         {
           "event": "Covenant Renewal",
-          "essene_year": 1657,
+          "zadok_year": 1657,
           "gregorian_year": -2347,
           "description": "Received Noahic Covenant with rainbow sign (Genesis 8:20-9:17)"
         },
         {
           "event": "Death",
-          "essene_year": 2006,
+          "zadok_year": 2006,
           "gregorian_year": -1998,
           "description": "Lived 950 years (Genesis 9:29)"
         }
@@ -575,9 +575,9 @@
       "id": "shem",
       "name": "Shem",
       "title": "Son of Noah, Blessed Son",
-      "essene_year_born": 1558,
+      "zadok_year_born": 1558,
       "gregorian_year_born": -2446,
-      "essene_year_died": 2158,
+      "zadok_year_died": 2158,
       "gregorian_year_died": -1846,
       "lifespan_years": 600,
       "parent_id": "noah",
@@ -592,25 +592,25 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1558,
+          "zadok_year": 1558,
           "gregorian_year": -2446,
           "description": "Son of Noah (Genesis 5:32)"
         },
         {
           "event": "Flood Survival",
-          "essene_year": 1656,
+          "zadok_year": 1656,
           "gregorian_year": -2348,
           "description": "Entered ark with family (Genesis 7:7)"
         },
         {
           "event": "Covenant Blessing",
-          "essene_year": 1657,
+          "zadok_year": 1657,
           "gregorian_year": -2347,
           "description": "Blessed by Noah; promised Canaan (Genesis 9:26-27)"
         },
         {
           "event": "Death",
-          "essene_year": 2158,
+          "zadok_year": 2158,
           "gregorian_year": -1846,
           "description": "Lived 600 years (Genesis 11:11)"
         }
@@ -621,9 +621,9 @@
       "id": "arphaxad",
       "name": "Arphaxad",
       "title": "Son of Shem",
-      "essene_year_born": 1658,
+      "zadok_year_born": 1658,
       "gregorian_year_born": -2346,
-      "essene_year_died": 2096,
+      "zadok_year_died": 2096,
       "gregorian_year_died": -1908,
       "lifespan_years": 438,
       "parent_id": "shem",
@@ -638,13 +638,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1658,
+          "zadok_year": 1658,
           "gregorian_year": -2346,
           "description": "Son of Shem, born after Flood (Genesis 11:10)"
         },
         {
           "event": "Death",
-          "essene_year": 2096,
+          "zadok_year": 2096,
           "gregorian_year": -1908,
           "description": "Lived 438 years (Genesis 11:13)"
         }
@@ -655,9 +655,9 @@
       "id": "shelah",
       "name": "Shelah",
       "title": "Son of Arphaxad",
-      "essene_year_born": 1693,
+      "zadok_year_born": 1693,
       "gregorian_year_born": -2311,
-      "essene_year_died": 2126,
+      "zadok_year_died": 2126,
       "gregorian_year_died": -1878,
       "lifespan_years": 433,
       "parent_id": "arphaxad",
@@ -672,13 +672,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1693,
+          "zadok_year": 1693,
           "gregorian_year": -2311,
           "description": "Son of Arphaxad (Genesis 11:14)"
         },
         {
           "event": "Death",
-          "essene_year": 2126,
+          "zadok_year": 2126,
           "gregorian_year": -1878,
           "description": "Lived 433 years (Genesis 11:15)"
         }
@@ -689,9 +689,9 @@
       "id": "eber",
       "name": "Eber",
       "title": "Son of Shelah, Hebrew Ancestor",
-      "essene_year_born": 1723,
+      "zadok_year_born": 1723,
       "gregorian_year_born": -2281,
-      "essene_year_died": 2187,
+      "zadok_year_died": 2187,
       "gregorian_year_died": -1817,
       "lifespan_years": 464,
       "parent_id": "shelah",
@@ -706,13 +706,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1723,
+          "zadok_year": 1723,
           "gregorian_year": -2281,
           "description": "Son of Shelah (Genesis 11:16)"
         },
         {
           "event": "Death",
-          "essene_year": 2187,
+          "zadok_year": 2187,
           "gregorian_year": -1817,
           "description": "Lived 464 years (Genesis 11:17)"
         }
@@ -723,9 +723,9 @@
       "id": "peleg",
       "name": "Peleg",
       "title": "Son of Eber, Tower of Babel Era",
-      "essene_year_born": 1757,
+      "zadok_year_born": 1757,
       "gregorian_year_born": -2247,
-      "essene_year_died": 1996,
+      "zadok_year_died": 1996,
       "gregorian_year_died": -2008,
       "lifespan_years": 239,
       "parent_id": "eber",
@@ -740,19 +740,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1757,
+          "zadok_year": 1757,
           "gregorian_year": -2247,
           "description": "Son of Eber; name means 'division' (Genesis 11:18)"
         },
         {
           "event": "Tower of Babel",
-          "essene_year": 1757,
+          "zadok_year": 1757,
           "gregorian_year": -2247,
           "description": "Lived during division of languages at Babel (Genesis 11:9)"
         },
         {
           "event": "Death",
-          "essene_year": 1996,
+          "zadok_year": 1996,
           "gregorian_year": -2008,
           "description": "Lived 239 years (Genesis 11:19)"
         }
@@ -763,9 +763,9 @@
       "id": "reu",
       "name": "Reu",
       "title": "Son of Peleg",
-      "essene_year_born": 1787,
+      "zadok_year_born": 1787,
       "gregorian_year_born": -2217,
-      "essene_year_died": 1996,
+      "zadok_year_died": 1996,
       "gregorian_year_died": -2008,
       "lifespan_years": 239,
       "parent_id": "peleg",
@@ -780,13 +780,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1787,
+          "zadok_year": 1787,
           "gregorian_year": -2217,
           "description": "Son of Peleg (Genesis 11:20)"
         },
         {
           "event": "Death",
-          "essene_year": 1996,
+          "zadok_year": 1996,
           "gregorian_year": -2008,
           "description": "Lived 239 years (Genesis 11:21)"
         }
@@ -797,9 +797,9 @@
       "id": "serug",
       "name": "Serug",
       "title": "Son of Reu",
-      "essene_year_born": 1819,
+      "zadok_year_born": 1819,
       "gregorian_year_born": -2185,
-      "essene_year_died": 2049,
+      "zadok_year_died": 2049,
       "gregorian_year_died": -1955,
       "lifespan_years": 230,
       "parent_id": "reu",
@@ -814,13 +814,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1819,
+          "zadok_year": 1819,
           "gregorian_year": -2185,
           "description": "Son of Reu (Genesis 11:22)"
         },
         {
           "event": "Death",
-          "essene_year": 2049,
+          "zadok_year": 2049,
           "gregorian_year": -1955,
           "description": "Lived 230 years (Genesis 11:23)"
         }
@@ -831,9 +831,9 @@
       "id": "nahor",
       "name": "Nahor",
       "title": "Son of Serug, Abraham's Grandfather",
-      "essene_year_born": 1849,
+      "zadok_year_born": 1849,
       "gregorian_year_born": -2155,
-      "essene_year_died": 1997,
+      "zadok_year_died": 1997,
       "gregorian_year_died": -2007,
       "lifespan_years": 148,
       "parent_id": "serug",
@@ -848,13 +848,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1849,
+          "zadok_year": 1849,
           "gregorian_year": -2155,
           "description": "Son of Serug (Genesis 11:24)"
         },
         {
           "event": "Death",
-          "essene_year": 1997,
+          "zadok_year": 1997,
           "gregorian_year": -2007,
           "description": "Lived 148 years (Genesis 11:25)"
         }
@@ -865,9 +865,9 @@
       "id": "terah",
       "name": "Terah",
       "title": "Son of Nahor, Abraham's Father",
-      "essene_year_born": 1879,
+      "zadok_year_born": 1879,
       "gregorian_year_born": -2125,
-      "essene_year_died": 2009,
+      "zadok_year_died": 2009,
       "gregorian_year_died": -1995,
       "lifespan_years": 205,
       "parent_id": "nahor",
@@ -882,25 +882,25 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1879,
+          "zadok_year": 1879,
           "gregorian_year": -2125,
           "description": "Son of Nahor (Genesis 11:26)"
         },
         {
           "event": "Birth of Abraham",
-          "essene_year": 1948,
+          "zadok_year": 1948,
           "gregorian_year": -2056,
           "description": "Fathered Abraham (Genesis 11:26)"
         },
         {
           "event": "Migration to Canaan",
-          "essene_year": 2008,
+          "zadok_year": 2008,
           "gregorian_year": -1996,
           "description": "Left Ur for Canaan but stopped in Haran (Genesis 11:31)"
         },
         {
           "event": "Death",
-          "essene_year": 2009,
+          "zadok_year": 2009,
           "gregorian_year": -1995,
           "description": "Died in Haran, lived 205 years (Genesis 11:32)"
         }
@@ -911,9 +911,9 @@
       "id": "abraham",
       "name": "Abraham",
       "title": "Father of Nations, Covenant Patriarch",
-      "essene_year_born": 1948,
+      "zadok_year_born": 1948,
       "gregorian_year_born": -2056,
-      "essene_year_died": 2123,
+      "zadok_year_died": 2123,
       "gregorian_year_died": -1881,
       "lifespan_years": 175,
       "parent_id": "terah",
@@ -928,49 +928,49 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1948,
+          "zadok_year": 1948,
           "gregorian_year": -2056,
           "description": "Son of Terah (Genesis 11:26)"
         },
         {
           "event": "Call by God",
-          "essene_year": 2023,
+          "zadok_year": 2023,
           "gregorian_year": -1981,
           "description": "God called Abram to leave homeland (Genesis 12:1)"
         },
         {
           "event": "Covenant Established",
-          "essene_year": 2024,
+          "zadok_year": 2024,
           "gregorian_year": -1980,
           "description": "Made covenant with Abram, promised offspring (Genesis 12:2-3)"
         },
         {
           "event": "Birth of Ishmael",
-          "essene_year": 2035,
+          "zadok_year": 2035,
           "gregorian_year": -1969,
           "description": "Ishmael born to Hagar (Genesis 16:16)"
         },
         {
           "event": "Name Changed to Abraham",
-          "essene_year": 2048,
+          "zadok_year": 2048,
           "gregorian_year": -1956,
           "description": "Abram's name changed to Abraham; covenant renewed (Genesis 17:5)"
         },
         {
           "event": "Birth of Isaac",
-          "essene_year": 2048,
+          "zadok_year": 2048,
           "gregorian_year": -1956,
           "description": "Isaac born to Sarah at age 100 (Genesis 21:5)"
         },
         {
           "event": "Binding of Isaac",
-          "essene_year": 2063,
+          "zadok_year": 2063,
           "gregorian_year": -1941,
           "description": "Abraham tested; offered Isaac; type of crucifixion (Genesis 22:1-19)"
         },
         {
           "event": "Death",
-          "essene_year": 2123,
+          "zadok_year": 2123,
           "gregorian_year": -1881,
           "description": "Died and was gathered to his people, lived 175 years (Genesis 25:7-8)"
         }
@@ -981,9 +981,9 @@
       "id": "sarah",
       "name": "Sarah",
       "title": "Wife of Abraham, Mother of Isaac",
-      "essene_year_born": 1957,
+      "zadok_year_born": 1957,
       "gregorian_year_born": -2047,
-      "essene_year_died": 2123,
+      "zadok_year_died": 2123,
       "gregorian_year_died": -1881,
       "lifespan_years": 127,
       "parent_id": null,
@@ -998,19 +998,19 @@
       "major_events": [
         {
           "event": "Call with Abraham",
-          "essene_year": 2024,
+          "zadok_year": 2024,
           "gregorian_year": -1980,
           "description": "Journeyed with Abraham from Ur to Canaan"
         },
         {
           "event": "Birth of Isaac",
-          "essene_year": 2048,
+          "zadok_year": 2048,
           "gregorian_year": -1956,
           "description": "Bore Isaac at age 90, fulfilling covenant (Genesis 21:2)"
         },
         {
           "event": "Death",
-          "essene_year": 2123,
+          "zadok_year": 2123,
           "gregorian_year": -1881,
           "description": "Died in Hebron, lived 127 years (Genesis 23:1)"
         }
@@ -1021,9 +1021,9 @@
       "id": "isaac",
       "name": "Isaac",
       "title": "Son of Promise, Covenant Heir",
-      "essene_year_born": 2048,
+      "zadok_year_born": 2048,
       "gregorian_year_born": -1956,
-      "essene_year_died": 2228,
+      "zadok_year_died": 2228,
       "gregorian_year_died": -1776,
       "lifespan_years": 180,
       "parent_id": "abraham",
@@ -1038,31 +1038,31 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2048,
+          "zadok_year": 2048,
           "gregorian_year": -1956,
           "description": "Born to Abraham and Sarah (Genesis 21:1-3)"
         },
         {
           "event": "Binding of Isaac",
-          "essene_year": 2063,
+          "zadok_year": 2063,
           "gregorian_year": -1941,
           "description": "Offered as sacrifice by Abraham; type of resurrection (Genesis 22:1-19)"
         },
         {
           "event": "Marriage to Rebekah",
-          "essene_year": 2088,
+          "zadok_year": 2088,
           "gregorian_year": -1916,
           "description": "Took Rebekah as bride; loved her (Genesis 24:67)"
         },
         {
           "event": "Birth of Jacob and Esau",
-          "essene_year": 2108,
+          "zadok_year": 2108,
           "gregorian_year": -1896,
           "description": "Twin sons born; Jacob received the birthright (Genesis 25:24-34)"
         },
         {
           "event": "Death",
-          "essene_year": 2228,
+          "zadok_year": 2228,
           "gregorian_year": -1776,
           "description": "Died in Mamre at age 180 (Genesis 35:28-29)"
         }
@@ -1073,9 +1073,9 @@
       "id": "rebekah",
       "name": "Rebekah",
       "title": "Wife of Isaac, Mother of Jacob",
-      "essene_year_born": 1980,
+      "zadok_year_born": 1980,
       "gregorian_year_born": -2024,
-      "essene_year_died": 2148,
+      "zadok_year_died": 2148,
       "gregorian_year_died": -1856,
       "lifespan_years": 168,
       "parent_id": null,
@@ -1090,13 +1090,13 @@
       "major_events": [
         {
           "event": "Marriage to Isaac",
-          "essene_year": 2088,
+          "zadok_year": 2088,
           "gregorian_year": -1916,
           "description": "Became Isaac's wife (Genesis 24:51-67)"
         },
         {
           "event": "Birth of Twins",
-          "essene_year": 2108,
+          "zadok_year": 2108,
           "gregorian_year": -1896,
           "description": "Bore Jacob and Esau (Genesis 25:21-26)"
         }
@@ -1107,9 +1107,9 @@
       "id": "jacob",
       "name": "Jacob (Israel)",
       "title": "Son of Isaac, Father of Twelve Tribes",
-      "essene_year_born": 2108,
+      "zadok_year_born": 2108,
       "gregorian_year_born": -1896,
-      "essene_year_died": 2288,
+      "zadok_year_died": 2288,
       "gregorian_year_died": -1716,
       "lifespan_years": 147,
       "parent_id": "isaac",
@@ -1124,37 +1124,37 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2108,
+          "zadok_year": 2108,
           "gregorian_year": -1896,
           "description": "Twin son of Isaac; obtained birthright (Genesis 25:24-34)"
         },
         {
           "event": "Dream at Bethel",
-          "essene_year": 2128,
+          "zadok_year": 2128,
           "gregorian_year": -1876,
           "description": "Saw ladder to heaven; covenant renewed (Genesis 28:10-22)"
         },
         {
           "event": "Marriage to Rachel",
-          "essene_year": 2138,
+          "zadok_year": 2138,
           "gregorian_year": -1866,
           "description": "Served Laban 7 years for Rachel (Genesis 29:18-30)"
         },
         {
           "event": "Wrestling at Peniel",
-          "essene_year": 2188,
+          "zadok_year": 2188,
           "gregorian_year": -1816,
           "description": "Wrestled with God; name changed to Israel (Genesis 32:24-32)"
         },
         {
           "event": "Reunion with Esau",
-          "essene_year": 2188,
+          "zadok_year": 2188,
           "gregorian_year": -1816,
           "description": "Reconciliation with brother Esau (Genesis 33:1-15)"
         },
         {
           "event": "Death",
-          "essene_year": 2288,
+          "zadok_year": 2288,
           "gregorian_year": -1716,
           "description": "Died in Egypt; lived 147 years (Genesis 47:28)"
         }
@@ -1165,9 +1165,9 @@
       "id": "rachel",
       "name": "Rachel",
       "title": "Wife of Jacob, Mother of Joseph and Benjamin",
-      "essene_year_born": 2118,
+      "zadok_year_born": 2118,
       "gregorian_year_born": -1886,
-      "essene_year_died": 2198,
+      "zadok_year_died": 2198,
       "gregorian_year_died": -1806,
       "lifespan_years": 97,
       "parent_id": null,
@@ -1182,19 +1182,19 @@
       "major_events": [
         {
           "event": "Marriage to Jacob",
-          "essene_year": 2138,
+          "zadok_year": 2138,
           "gregorian_year": -1866,
           "description": "Became Jacob's wife after 7 years service (Genesis 29:18-30)"
         },
         {
           "event": "Birth of Joseph",
-          "essene_year": 2148,
+          "zadok_year": 2148,
           "gregorian_year": -1856,
           "description": "Bore Joseph after years of barrenness (Genesis 30:22-24)"
         },
         {
           "event": "Birth of Benjamin",
-          "essene_year": 2198,
+          "zadok_year": 2198,
           "gregorian_year": -1806,
           "description": "Died giving birth to Benjamin (Genesis 35:16-19)"
         }
@@ -1205,9 +1205,9 @@
       "id": "judah",
       "name": "Judah",
       "title": "Son of Jacob, Father of Judean Line",
-      "essene_year_born": 2133,
+      "zadok_year_born": 2133,
       "gregorian_year_born": -1871,
-      "essene_year_died": 2261,
+      "zadok_year_died": 2261,
       "gregorian_year_died": -1743,
       "lifespan_years": 129,
       "parent_id": "jacob",
@@ -1222,19 +1222,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2133,
+          "zadok_year": 2133,
           "gregorian_year": -1871,
           "description": "Fourth son of Jacob; praise given to God (Genesis 29:35)"
         },
         {
           "event": "Encounter with Tamar",
-          "essene_year": 2153,
+          "zadok_year": 2153,
           "gregorian_year": -1851,
           "description": "Fathered Perez through Tamar (Genesis 38:1-30)"
         },
         {
           "event": "Blessing from Jacob",
-          "essene_year": 2288,
+          "zadok_year": 2288,
           "gregorian_year": -1716,
           "description": "Received scepter promise; Messiah foretold (Genesis 49:8-12)"
         }
@@ -1245,9 +1245,9 @@
       "id": "leah",
       "name": "Leah",
       "title": "Wife of Jacob, Mother of Judah",
-      "essene_year_born": 2113,
+      "zadok_year_born": 2113,
       "gregorian_year_born": -1891,
-      "essene_year_died": 2208,
+      "zadok_year_died": 2208,
       "gregorian_year_died": -1796,
       "lifespan_years": 97,
       "parent_id": null,
@@ -1262,13 +1262,13 @@
       "major_events": [
         {
           "event": "Marriage to Jacob",
-          "essene_year": 2138,
+          "zadok_year": 2138,
           "gregorian_year": -1866,
           "description": "Given to Jacob instead of Rachel (Genesis 29:16-30)"
         },
         {
           "event": "Birth of Judah",
-          "essene_year": 2133,
+          "zadok_year": 2133,
           "gregorian_year": -1871,
           "description": "Bore the son through whom Messiah came"
         }
@@ -1279,9 +1279,9 @@
       "id": "perez",
       "name": "Perez",
       "title": "Son of Judah, Ancestor of David",
-      "essene_year_born": 2153,
+      "zadok_year_born": 2153,
       "gregorian_year_born": -1851,
-      "essene_year_died": 2233,
+      "zadok_year_died": 2233,
       "gregorian_year_died": -1771,
       "lifespan_years": 80,
       "parent_id": "judah",
@@ -1296,13 +1296,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2153,
+          "zadok_year": 2153,
           "gregorian_year": -1851,
           "description": "Twin son born to Judah and Tamar (Genesis 38:27-30)"
         },
         {
           "event": "Entry to Egypt",
-          "essene_year": 2168,
+          "zadok_year": 2168,
           "gregorian_year": -1836,
           "description": "Went to Egypt with Jacob and family (Genesis 46:12)"
         }
@@ -1313,9 +1313,9 @@
       "id": "tamar",
       "name": "Tamar",
       "title": "Wife of Er and Judah, Mother of Perez",
-      "essene_year_born": 2130,
+      "zadok_year_born": 2130,
       "gregorian_year_born": -1874,
-      "essene_year_died": 2210,
+      "zadok_year_died": 2210,
       "gregorian_year_died": -1794,
       "lifespan_years": 80,
       "parent_id": null,
@@ -1330,13 +1330,13 @@
       "major_events": [
         {
           "event": "Marriage to Er",
-          "essene_year": 2150,
+          "zadok_year": 2150,
           "gregorian_year": -1854,
           "description": "Married Er, Judah's firstborn (Genesis 38:6)"
         },
         {
           "event": "Levirate Marriage",
-          "essene_year": 2153,
+          "zadok_year": 2153,
           "gregorian_year": -1851,
           "description": "Secured her right through Judah; bore Perez (Genesis 38:1-30)"
         }
@@ -1347,9 +1347,9 @@
       "id": "hezron",
       "name": "Hezron",
       "title": "Son of Perez, Founder of Judean Houses",
-      "essene_year_born": 2195,
+      "zadok_year_born": 2195,
       "gregorian_year_born": -1809,
-      "essene_year_died": 2289,
+      "zadok_year_died": 2289,
       "gregorian_year_died": -1715,
       "lifespan_years": 94,
       "parent_id": "perez",
@@ -1364,13 +1364,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2195,
+          "zadok_year": 2195,
           "gregorian_year": -1809,
           "description": "Son of Perez, born in Egypt"
         },
         {
           "event": "Egyptian Sojourn",
-          "essene_year": 2195,
+          "zadok_year": 2195,
           "gregorian_year": -1809,
           "description": "Lived during Israel's time in Egypt (Exodus 6:15)"
         }
@@ -1381,9 +1381,9 @@
       "id": "ram",
       "name": "Ram",
       "title": "Son of Hezron, Ancestor of David",
-      "essene_year_born": 2218,
+      "zadok_year_born": 2218,
       "gregorian_year_born": -1786,
-      "essene_year_died": 2305,
+      "zadok_year_died": 2305,
       "gregorian_year_died": -1699,
       "lifespan_years": 87,
       "parent_id": "hezron",
@@ -1398,7 +1398,7 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2218,
+          "zadok_year": 2218,
           "gregorian_year": -1786,
           "description": "Son of Hezron (Ruth 4:19, Matthew 1:3)"
         }
@@ -1409,9 +1409,9 @@
       "id": "amminadab",
       "name": "Amminadab",
       "title": "Son of Ram, Prince of Judah",
-      "essene_year_born": 2240,
+      "zadok_year_born": 2240,
       "gregorian_year_born": -1764,
-      "essene_year_died": 2326,
+      "zadok_year_died": 2326,
       "gregorian_year_died": -1678,
       "lifespan_years": 86,
       "parent_id": "ram",
@@ -1426,13 +1426,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2240,
+          "zadok_year": 2240,
           "gregorian_year": -1764,
           "description": "Son of Ram"
         },
         {
           "event": "Exodus",
-          "essene_year": 2328,
+          "zadok_year": 2328,
           "gregorian_year": -1676,
           "description": "Led Judah in wilderness (Numbers 1:7)"
         }
@@ -1443,9 +1443,9 @@
       "id": "nahshon",
       "name": "Nahshon",
       "title": "Son of Amminadab, Prince of Judah",
-      "essene_year_born": 2262,
+      "zadok_year_born": 2262,
       "gregorian_year_born": -1742,
-      "essene_year_died": 2346,
+      "zadok_year_died": 2346,
       "gregorian_year_died": -1658,
       "lifespan_years": 84,
       "parent_id": "amminadab",
@@ -1460,19 +1460,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2262,
+          "zadok_year": 2262,
           "gregorian_year": -1742,
           "description": "Son of Amminadab"
         },
         {
           "event": "Exodus Leadership",
-          "essene_year": 2328,
+          "zadok_year": 2328,
           "gregorian_year": -1676,
           "description": "Prince of Judah; led people in wilderness (Numbers 1:7, 7:12)"
         },
         {
           "event": "Marriage to Elisheba",
-          "essene_year": 2280,
+          "zadok_year": 2280,
           "gregorian_year": -1724,
           "description": "Married Aaron's sister (Exodus 6:23)"
         }
@@ -1483,9 +1483,9 @@
       "id": "elisheba",
       "name": "Elisheba",
       "title": "Wife of Nahshon, Sister of Aaron",
-      "essene_year_born": 2258,
+      "zadok_year_born": 2258,
       "gregorian_year_born": -1746,
-      "essene_year_died": 2340,
+      "zadok_year_died": 2340,
       "gregorian_year_died": -1664,
       "lifespan_years": 82,
       "parent_id": null,
@@ -1500,7 +1500,7 @@
       "major_events": [
         {
           "event": "Marriage to Nahshon",
-          "essene_year": 2280,
+          "zadok_year": 2280,
           "gregorian_year": -1724,
           "description": "Became wife of Judah's prince (Exodus 6:23)"
         }
@@ -1511,9 +1511,9 @@
       "id": "salmon",
       "name": "Salmon",
       "title": "Son of Nahshon, Father of Boaz",
-      "essene_year_born": 2284,
+      "zadok_year_born": 2284,
       "gregorian_year_born": -1720,
-      "essene_year_died": 2368,
+      "zadok_year_died": 2368,
       "gregorian_year_died": -1636,
       "lifespan_years": 84,
       "parent_id": "nahshon",
@@ -1528,13 +1528,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2284,
+          "zadok_year": 2284,
           "gregorian_year": -1720,
           "description": "Son of Nahshon"
         },
         {
           "event": "Marriage to Rahab",
-          "essene_year": 2346,
+          "zadok_year": 2346,
           "gregorian_year": -1658,
           "description": "Married Canaanite woman redeemed through faith (Joshua 2, 6:22-25)"
         }
@@ -1545,9 +1545,9 @@
       "id": "rahab",
       "name": "Rahab",
       "title": "Woman of Jericho, Mother of Boaz",
-      "essene_year_born": 2310,
+      "zadok_year_born": 2310,
       "gregorian_year_born": -1694,
-      "essene_year_died": 2390,
+      "zadok_year_died": 2390,
       "gregorian_year_died": -1614,
       "lifespan_years": 80,
       "parent_id": null,
@@ -1562,19 +1562,19 @@
       "major_events": [
         {
           "event": "Faith in God",
-          "essene_year": 2346,
+          "zadok_year": 2346,
           "gregorian_year": -1658,
           "description": "Protected Hebrew spies; demonstrated faith in God (Joshua 2:1-21)"
         },
         {
           "event": "Salvation from Jericho",
-          "essene_year": 2346,
+          "zadok_year": 2346,
           "gregorian_year": -1658,
           "description": "Saved alive from destruction; entered Israel (Joshua 6:22-25)"
         },
         {
           "event": "Marriage to Salmon",
-          "essene_year": 2346,
+          "zadok_year": 2346,
           "gregorian_year": -1658,
           "description": "Married prince of Judah (Matthew 1:5)"
         }
@@ -1585,9 +1585,9 @@
       "id": "boaz",
       "name": "Boaz",
       "title": "Mighty Man of Valor, Kinsman Redeemer",
-      "essene_year_born": 2346,
+      "zadok_year_born": 2346,
       "gregorian_year_born": -1658,
-      "essene_year_died": 2430,
+      "zadok_year_died": 2430,
       "gregorian_year_died": -1574,
       "lifespan_years": 84,
       "parent_id": "salmon",
@@ -1602,25 +1602,25 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2346,
+          "zadok_year": 2346,
           "gregorian_year": -1658,
           "description": "Son of Salmon and Rahab"
         },
         {
           "event": "Meeting Ruth",
-          "essene_year": 2406,
+          "zadok_year": 2406,
           "gregorian_year": -1598,
           "description": "Observed Ruth gleaning; showed kindness (Ruth 2:1-13)"
         },
         {
           "event": "Redemption of Ruth",
-          "essene_year": 2406,
+          "zadok_year": 2406,
           "gregorian_year": -1598,
           "description": "Redeemed Ruth as kinsman redeemer; type of Christ (Ruth 3-4)"
         },
         {
           "event": "Marriage to Ruth",
-          "essene_year": 2406,
+          "zadok_year": 2406,
           "gregorian_year": -1598,
           "description": "Married Ruth and continued Judean line (Ruth 4:10-13)"
         }
@@ -1631,9 +1631,9 @@
       "id": "ruth",
       "name": "Ruth",
       "title": "Woman of Moab, Ancestress of David and Jesus",
-      "essene_year_born": 2368,
+      "zadok_year_born": 2368,
       "gregorian_year_born": -1636,
-      "essene_year_died": 2450,
+      "zadok_year_died": 2450,
       "gregorian_year_died": -1554,
       "lifespan_years": 82,
       "parent_id": null,
@@ -1648,19 +1648,19 @@
       "major_events": [
         {
           "event": "Faithfulness to Naomi",
-          "essene_year": 2388,
+          "zadok_year": 2388,
           "gregorian_year": -1616,
           "description": "Refused to leave Naomi; committed to Israel and God (Ruth 1:16-17)"
         },
         {
           "event": "Gleaning in Field",
-          "essene_year": 2406,
+          "zadok_year": 2406,
           "gregorian_year": -1598,
           "description": "Worked in Boaz's field; found favor (Ruth 2:1-13)"
         },
         {
           "event": "Redemption and Marriage",
-          "essene_year": 2406,
+          "zadok_year": 2406,
           "gregorian_year": -1598,
           "description": "Redeemed by Boaz; became wife and mother of David's line (Ruth 3-4)"
         }
@@ -1671,9 +1671,9 @@
       "id": "obed",
       "name": "Obed",
       "title": "Son of Boaz and Ruth, Father of Jesse",
-      "essene_year_born": 2408,
+      "zadok_year_born": 2408,
       "gregorian_year_born": -1596,
-      "essene_year_died": 2492,
+      "zadok_year_died": 2492,
       "gregorian_year_died": -1512,
       "lifespan_years": 84,
       "parent_id": "boaz",
@@ -1688,13 +1688,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2408,
+          "zadok_year": 2408,
           "gregorian_year": -1596,
           "description": "Son of Boaz and Ruth (Ruth 4:17)"
         },
         {
           "event": "Called Naomi's Redeemer",
-          "essene_year": 2408,
+          "zadok_year": 2408,
           "gregorian_year": -1596,
           "description": "Fulfilled kinsman redeemer role; perpetuated David's line (Ruth 4:17)"
         }
@@ -1705,9 +1705,9 @@
       "id": "jesse",
       "name": "Jesse",
       "title": "Father of David, Root of Jesse",
-      "essene_year_born": 2450,
+      "zadok_year_born": 2450,
       "gregorian_year_born": -1554,
-      "essene_year_died": 2534,
+      "zadok_year_died": 2534,
       "gregorian_year_died": -1470,
       "lifespan_years": 84,
       "parent_id": "obed",
@@ -1722,19 +1722,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2450,
+          "zadok_year": 2450,
           "gregorian_year": -1554,
           "description": "Son of Obed"
         },
         {
           "event": "Birth of David",
-          "essene_year": 2502,
+          "zadok_year": 2502,
           "gregorian_year": -1502,
           "description": "Fathered David, youngest son (1 Samuel 16:10-13)"
         },
         {
           "event": "David's Anointing",
-          "essene_year": 2520,
+          "zadok_year": 2520,
           "gregorian_year": -1484,
           "description": "Samuel anointed David as king in Jesse's house (1 Samuel 16:1-13)"
         }
@@ -1745,9 +1745,9 @@
       "id": "david",
       "name": "David",
       "title": "King of Israel, Man After God's Heart, Ancestor of Jesus",
-      "essene_year_born": 2502,
+      "zadok_year_born": 2502,
       "gregorian_year_born": -1502,
-      "essene_year_died": 2582,
+      "zadok_year_died": 2582,
       "gregorian_year_died": -1422,
       "lifespan_years": 80,
       "parent_id": "jesse",
@@ -1762,67 +1762,67 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2502,
+          "zadok_year": 2502,
           "gregorian_year": -1502,
           "description": "Youngest son of Jesse, born in Bethlehem (1 Samuel 16:1-13)"
         },
         {
           "event": "Anointing as King",
-          "essene_year": 2520,
+          "zadok_year": 2520,
           "gregorian_year": -1484,
           "description": "Samuel anointed David; Spirit came upon him (1 Samuel 16:1-13)"
         },
         {
           "event": "Victory over Goliath",
-          "essene_year": 2528,
+          "zadok_year": 2528,
           "gregorian_year": -1476,
           "description": "Defeated Philistine giant with faith in God (1 Samuel 17:1-54)"
         },
         {
           "event": "Friendship with Jonathan",
-          "essene_year": 2528,
+          "zadok_year": 2528,
           "gregorian_year": -1476,
           "description": "Bond with Saul's son; covenant of love (1 Samuel 18:1-4)"
         },
         {
           "event": "Years of Exile",
-          "essene_year": 2530,
+          "zadok_year": 2530,
           "gregorian_year": -1474,
           "description": "Fled from Saul for approximately 10 years"
         },
         {
           "event": "Coronation as King",
-          "essene_year": 2540,
+          "zadok_year": 2540,
           "gregorian_year": -1464,
           "description": "Became king of Judah at age 30; later king of all Israel (2 Samuel 2:1-7, 5:1-5)"
         },
         {
           "event": "Captured Jerusalem",
-          "essene_year": 2541,
+          "zadok_year": 2541,
           "gregorian_year": -1463,
           "description": "Made Jerusalem capital; brought Ark of Covenant (2 Samuel 5:6-12, 6:1-19)"
         },
         {
           "event": "Davidic Covenant",
-          "essene_year": 2548,
+          "zadok_year": 2548,
           "gregorian_year": -1456,
           "description": "Covenant: throne established forever; Messiah from his line (2 Samuel 7:1-17)"
         },
         {
           "event": "Marriage to Bathsheba",
-          "essene_year": 2556,
+          "zadok_year": 2556,
           "gregorian_year": -1448,
           "description": "Took Bathsheba; born son Solomon who continued throne (2 Samuel 11-12)"
         },
         {
           "event": "Psalms and Prophecy",
-          "essene_year": 2540,
+          "zadok_year": 2540,
           "gregorian_year": -1464,
           "description": "Wrote Psalms; prophesied about Messiah (e.g., Psalm 22, 110)"
         },
         {
           "event": "Death",
-          "essene_year": 2582,
+          "zadok_year": 2582,
           "gregorian_year": -1422,
           "description": "Died at age 70; buried in City of David (1 Kings 2:10)"
         }
@@ -1833,9 +1833,9 @@
       "id": "bathsheba",
       "name": "Bathsheba",
       "title": "Wife of David, Mother of Solomon",
-      "essene_year_born": 2524,
+      "zadok_year_born": 2524,
       "gregorian_year_born": -1480,
-      "essene_year_died": 2600,
+      "zadok_year_died": 2600,
       "gregorian_year_died": -1404,
       "lifespan_years": 76,
       "parent_id": null,
@@ -1850,13 +1850,13 @@
       "major_events": [
         {
           "event": "Marriage to David",
-          "essene_year": 2556,
+          "zadok_year": 2556,
           "gregorian_year": -1448,
           "description": "Became David's wife; mother of Solomon (2 Samuel 11-12)"
         },
         {
           "event": "Birth of Solomon",
-          "essene_year": 2556,
+          "zadok_year": 2556,
           "gregorian_year": -1448,
           "description": "Bore Solomon, heir to David's throne (2 Samuel 12:25)"
         }
@@ -1867,9 +1867,9 @@
       "id": "solomon",
       "name": "Solomon",
       "title": "King of Israel, Builder of Temple, Wisdom",
-      "essene_year_born": 2556,
+      "zadok_year_born": 2556,
       "gregorian_year_born": -1448,
-      "essene_year_died": 2618,
+      "zadok_year_died": 2618,
       "gregorian_year_died": -1386,
       "lifespan_years": 62,
       "parent_id": "david",
@@ -1884,49 +1884,49 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2556,
+          "zadok_year": 2556,
           "gregorian_year": -1448,
           "description": "Second son of David and Bathsheba (2 Samuel 12:25)"
         },
         {
           "event": "Divine Appearance",
-          "essene_year": 2556,
+          "zadok_year": 2556,
           "gregorian_year": -1448,
           "description": "God appeared to Solomon; loved by God (2 Samuel 12:25)"
         },
         {
           "event": "Coronation",
-          "essene_year": 2582,
+          "zadok_year": 2582,
           "gregorian_year": -1422,
           "description": "Became king after David's death at age 20 (1 Kings 1:11-48)"
         },
         {
           "event": "Request for Wisdom",
-          "essene_year": 2583,
+          "zadok_year": 2583,
           "gregorian_year": -1421,
           "description": "Asked God for wisdom; granted both wisdom and riches (1 Kings 3:4-15)"
         },
         {
           "event": "Temple Construction",
-          "essene_year": 2583,
+          "zadok_year": 2583,
           "gregorian_year": -1421,
           "description": "Built magnificent Temple in Jerusalem; took 7 years (1 Kings 5-8)"
         },
         {
           "event": "Dedication of Temple",
-          "essene_year": 2590,
+          "zadok_year": 2590,
           "gregorian_year": -1414,
           "description": "Dedicated Temple; God's glory filled it (1 Kings 8:1-66)"
         },
         {
           "event": "Reign of Peace",
-          "essene_year": 2582,
+          "zadok_year": 2582,
           "gregorian_year": -1422,
           "description": "Kingdom at peace; wisdom renowned throughout world (1 Kings 4:29-34)"
         },
         {
           "event": "Death",
-          "essene_year": 2618,
+          "zadok_year": 2618,
           "gregorian_year": -1386,
           "description": "Died; reigned 40 years (1 Kings 11:42)"
         }
@@ -1937,9 +1937,9 @@
       "id": "rehoboam",
       "name": "Rehoboam",
       "title": "King of Judah, Son of Solomon",
-      "essene_year_born": 2588,
+      "zadok_year_born": 2588,
       "gregorian_year_born": -1416,
-      "essene_year_died": 2670,
+      "zadok_year_died": 2670,
       "gregorian_year_died": -1334,
       "lifespan_years": 82,
       "parent_id": "solomon",
@@ -1954,25 +1954,25 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2588,
+          "zadok_year": 2588,
           "gregorian_year": -1416,
           "description": "Son of Solomon and Naamah the Ammonitess"
         },
         {
           "event": "Coronation",
-          "essene_year": 2618,
+          "zadok_year": 2618,
           "gregorian_year": -1386,
           "description": "Became king of Judah; took foolish counsel (1 Kings 12:1-20)"
         },
         {
           "event": "Kingdom Divided",
-          "essene_year": 2618,
+          "zadok_year": 2618,
           "gregorian_year": -1386,
           "description": "Northern tribes rebelled; formed Israel under Jeroboam (1 Kings 12:16-33)"
         },
         {
           "event": "Reign",
-          "essene_year": 2618,
+          "zadok_year": 2618,
           "gregorian_year": -1386,
           "description": "Reigned 17 years over Judah (1 Kings 14:21)"
         }
@@ -1983,9 +1983,9 @@
       "id": "abijah",
       "name": "Abijah",
       "title": "King of Judah, Son of Rehoboam",
-      "essene_year_born": 2615,
+      "zadok_year_born": 2615,
       "gregorian_year_born": -1389,
-      "essene_year_died": 2653,
+      "zadok_year_died": 2653,
       "gregorian_year_died": -1351,
       "lifespan_years": 38,
       "parent_id": "rehoboam",
@@ -2000,13 +2000,13 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2635,
+          "zadok_year": 2635,
           "gregorian_year": -1369,
           "description": "Became king of Judah (1 Kings 14:31, 15:1)"
         },
         {
           "event": "War with Jeroboam",
-          "essene_year": 2635,
+          "zadok_year": 2635,
           "gregorian_year": -1369,
           "description": "Fought Jeroboam; God delivered Judah (2 Chronicles 13:1-20)"
         }
@@ -2017,9 +2017,9 @@
       "id": "asa",
       "name": "Asa",
       "title": "King of Judah, Reformer",
-      "essene_year_born": 2640,
+      "zadok_year_born": 2640,
       "gregorian_year_born": -1364,
-      "essene_year_died": 2705,
+      "zadok_year_died": 2705,
       "gregorian_year_died": -1299,
       "lifespan_years": 65,
       "parent_id": "abijah",
@@ -2034,19 +2034,19 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2653,
+          "zadok_year": 2653,
           "gregorian_year": -1351,
           "description": "Became king at age 20 (1 Kings 15:9-11)"
         },
         {
           "event": "Religious Reforms",
-          "essene_year": 2653,
+          "zadok_year": 2653,
           "gregorian_year": -1351,
           "description": "Removed idols and high places; restored worship (2 Chronicles 14:2-5)"
         },
         {
           "event": "Victory over Cushites",
-          "essene_year": 2663,
+          "zadok_year": 2663,
           "gregorian_year": -1341,
           "description": "Defeated great army; miracle from God (2 Chronicles 14:9-12)"
         }
@@ -2057,9 +2057,9 @@
       "id": "jehoshaphat",
       "name": "Jehoshaphat",
       "title": "King of Judah, Judge and Reformer",
-      "essene_year_born": 2673,
+      "zadok_year_born": 2673,
       "gregorian_year_born": -1331,
-      "essene_year_died": 2732,
+      "zadok_year_died": 2732,
       "gregorian_year_died": -1272,
       "lifespan_years": 59,
       "parent_id": "asa",
@@ -2074,13 +2074,13 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2705,
+          "zadok_year": 2705,
           "gregorian_year": -1299,
           "description": "Became king of Judah (1 Kings 15:24)"
         },
         {
           "event": "Judicial System",
-          "essene_year": 2705,
+          "zadok_year": 2705,
           "gregorian_year": -1299,
           "description": "Sent judges throughout Judah (2 Chronicles 17:7-9)"
         }
@@ -2091,9 +2091,9 @@
       "id": "jehoram",
       "name": "Jehoram",
       "title": "King of Judah, Son of Jehoshaphat",
-      "essene_year_born": 2698,
+      "zadok_year_born": 2698,
       "gregorian_year_born": -1306,
-      "essene_year_died": 2739,
+      "zadok_year_died": 2739,
       "gregorian_year_died": -1265,
       "lifespan_years": 40,
       "parent_id": "jehoshaphat",
@@ -2108,7 +2108,7 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2732,
+          "zadok_year": 2732,
           "gregorian_year": -1272,
           "description": "Became king of Judah (2 Kings 8:16)"
         }
@@ -2119,9 +2119,9 @@
       "id": "ahaziah",
       "name": "Ahaziah",
       "title": "King of Judah, Son of Jehoram",
-      "essene_year_born": 2720,
+      "zadok_year_born": 2720,
       "gregorian_year_born": -1284,
-      "essene_year_died": 2739,
+      "zadok_year_died": 2739,
       "gregorian_year_died": -1265,
       "lifespan_years": 22,
       "parent_id": "jehoram",
@@ -2136,13 +2136,13 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2739,
+          "zadok_year": 2739,
           "gregorian_year": -1265,
           "description": "Became king at age 22 (2 Kings 8:26)"
         },
         {
           "event": "Death",
-          "essene_year": 2739,
+          "zadok_year": 2739,
           "gregorian_year": -1265,
           "description": "Killed by Jehu; reigned only 1 year (2 Kings 9:24-28)"
         }
@@ -2153,9 +2153,9 @@
       "id": "joash",
       "name": "Joash",
       "title": "King of Judah, Child King",
-      "essene_year_born": 2747,
+      "zadok_year_born": 2747,
       "gregorian_year_born": -1257,
-      "essene_year_died": 2809,
+      "zadok_year_died": 2809,
       "gregorian_year_died": -1195,
       "lifespan_years": 47,
       "parent_id": "ahaziah",
@@ -2170,13 +2170,13 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2747,
+          "zadok_year": 2747,
           "gregorian_year": -1257,
           "description": "Became king at age 7; hidden from Athaliah (2 Kings 11:1-12)"
         },
         {
           "event": "Temple Repair",
-          "essene_year": 2765,
+          "zadok_year": 2765,
           "gregorian_year": -1239,
           "description": "Repaired the Temple of God (2 Kings 12:4-16)"
         }
@@ -2187,9 +2187,9 @@
       "id": "amaziah",
       "name": "Amaziah",
       "title": "King of Judah, Son of Joash",
-      "essene_year_born": 2768,
+      "zadok_year_born": 2768,
       "gregorian_year_born": -1236,
-      "essene_year_died": 2823,
+      "zadok_year_died": 2823,
       "gregorian_year_died": -1181,
       "lifespan_years": 54,
       "parent_id": "joash",
@@ -2204,7 +2204,7 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2809,
+          "zadok_year": 2809,
           "gregorian_year": -1195,
           "description": "Became king of Judah (2 Kings 14:1)"
         }
@@ -2215,9 +2215,9 @@
       "id": "uzziah",
       "name": "Uzziah (Azariah)",
       "title": "King of Judah, Powerful King",
-      "essene_year_born": 2790,
+      "zadok_year_born": 2790,
       "gregorian_year_born": -1214,
-      "essene_year_died": 2871,
+      "zadok_year_died": 2871,
       "gregorian_year_died": -1133,
       "lifespan_years": 68,
       "parent_id": "amaziah",
@@ -2232,13 +2232,13 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2823,
+          "zadok_year": 2823,
           "gregorian_year": -1181,
           "description": "Became king at age 16 (2 Kings 15:1-3)"
         },
         {
           "event": "Military Victories",
-          "essene_year": 2823,
+          "zadok_year": 2823,
           "gregorian_year": -1181,
           "description": "Defeated Philistines, Arabs, Meunites (2 Chronicles 26:6-8)"
         }
@@ -2249,9 +2249,9 @@
       "id": "jotham",
       "name": "Jotham",
       "title": "King of Judah, Righteous King",
-      "essene_year_born": 2822,
+      "zadok_year_born": 2822,
       "gregorian_year_born": -1182,
-      "essene_year_died": 2875,
+      "zadok_year_died": 2875,
       "gregorian_year_died": -1129,
       "lifespan_years": 41,
       "parent_id": "uzziah",
@@ -2266,7 +2266,7 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2871,
+          "zadok_year": 2871,
           "gregorian_year": -1133,
           "description": "Became king of Judah (2 Kings 15:32-35)"
         }
@@ -2277,9 +2277,9 @@
       "id": "ahaz",
       "name": "Ahaz",
       "title": "King of Judah, Unfaithful King",
-      "essene_year_born": 2850,
+      "zadok_year_born": 2850,
       "gregorian_year_born": -1154,
-      "essene_year_died": 2900,
+      "zadok_year_died": 2900,
       "gregorian_year_died": -1104,
       "lifespan_years": 36,
       "parent_id": "jotham",
@@ -2294,13 +2294,13 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2875,
+          "zadok_year": 2875,
           "gregorian_year": -1129,
           "description": "Became king of Judah (2 Kings 16:1-2)"
         },
         {
           "event": "Immanuel Prophecy",
-          "essene_year": 2875,
+          "zadok_year": 2875,
           "gregorian_year": -1129,
           "description": "Isaiah prophesied of Immanuel; sign: virgin will conceive (Isaiah 7:10-14)"
         }
@@ -2311,9 +2311,9 @@
       "id": "hezekiah",
       "name": "Hezekiah",
       "title": "King of Judah, Reformer and Healer",
-      "essene_year_born": 2876,
+      "zadok_year_born": 2876,
       "gregorian_year_born": -1128,
-      "essene_year_died": 2929,
+      "zadok_year_died": 2929,
       "gregorian_year_died": -1075,
       "lifespan_years": 54,
       "parent_id": "ahaz",
@@ -2328,25 +2328,25 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2900,
+          "zadok_year": 2900,
           "gregorian_year": -1104,
           "description": "Became king of Judah at age 25 (2 Kings 18:1-2)"
         },
         {
           "event": "Religious Reforms",
-          "essene_year": 2900,
+          "zadok_year": 2900,
           "gregorian_year": -1104,
           "description": "Removed idols and high places; cleansed Temple (2 Kings 18:4)"
         },
         {
           "event": "Sennacherib's Siege",
-          "essene_year": 2913,
+          "zadok_year": 2913,
           "gregorian_year": -1091,
           "description": "Assyrian army defeated by angel of God (2 Kings 19:35-36, Isaiah 36-37)"
         },
         {
           "event": "Healing and Extended Life",
-          "essene_year": 2915,
+          "zadok_year": 2915,
           "gregorian_year": -1089,
           "description": "Healed of terminal illness; life extended 15 years (2 Kings 20:1-11)"
         }
@@ -2357,9 +2357,9 @@
       "id": "manasseh",
       "name": "Manasseh",
       "title": "King of Judah, Wicked Then Repentant",
-      "essene_year_born": 2903,
+      "zadok_year_born": 2903,
       "gregorian_year_born": -1101,
-      "essene_year_died": 2984,
+      "zadok_year_died": 2984,
       "gregorian_year_died": -1020,
       "lifespan_years": 67,
       "parent_id": "hezekiah",
@@ -2374,19 +2374,19 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2929,
+          "zadok_year": 2929,
           "gregorian_year": -1075,
           "description": "Became king at age 12 (2 Kings 21:1)"
         },
         {
           "event": "Evil Reign",
-          "essene_year": 2929,
+          "zadok_year": 2929,
           "gregorian_year": -1075,
           "description": "Did evil; idolatry and wickedness (2 Kings 21:1-18)"
         },
         {
           "event": "Captivity and Repentance",
-          "essene_year": 2973,
+          "zadok_year": 2973,
           "gregorian_year": -1031,
           "description": "Captured by Assyrians; repented; God restored him (2 Chronicles 33:10-13)"
         }
@@ -2397,9 +2397,9 @@
       "id": "amon",
       "name": "Amon",
       "title": "King of Judah, Wicked King",
-      "essene_year_born": 2945,
+      "zadok_year_born": 2945,
       "gregorian_year_born": -1059,
-      "essene_year_died": 2971,
+      "zadok_year_died": 2971,
       "gregorian_year_died": -1033,
       "lifespan_years": 24,
       "parent_id": "manasseh",
@@ -2414,13 +2414,13 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2984,
+          "zadok_year": 2984,
           "gregorian_year": -1020,
           "description": "Became king at age 22 (2 Kings 21:19)"
         },
         {
           "event": "Death",
-          "essene_year": 2971,
+          "zadok_year": 2971,
           "gregorian_year": -1033,
           "description": "Reigned only 2 years; murdered by servants (2 Kings 21:19-26)"
         }
@@ -2431,9 +2431,9 @@
       "id": "josiah",
       "name": "Josiah",
       "title": "King of Judah, Great Reformer",
-      "essene_year_born": 2960,
+      "zadok_year_born": 2960,
       "gregorian_year_born": -1044,
-      "essene_year_died": 3009,
+      "zadok_year_died": 3009,
       "gregorian_year_died": -995,
       "lifespan_years": 39,
       "parent_id": "amon",
@@ -2448,25 +2448,25 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 2971,
+          "zadok_year": 2971,
           "gregorian_year": -1033,
           "description": "Became king at age 8; did right (2 Kings 22:1)"
         },
         {
           "event": "Discovery of Law Book",
-          "essene_year": 2998,
+          "zadok_year": 2998,
           "gregorian_year": -1006,
           "description": "Book of the Law discovered during Temple repairs (2 Kings 22:8)"
         },
         {
           "event": "Religious Reforms",
-          "essene_year": 2998,
+          "zadok_year": 2998,
           "gregorian_year": -1006,
           "description": "Removed all idols; kept Passover (2 Kings 23:1-30)"
         },
         {
           "event": "Death in Battle",
-          "essene_year": 3009,
+          "zadok_year": 3009,
           "gregorian_year": -995,
           "description": "Died fighting Egyptian Pharaoh Necho (2 Kings 23:29)"
         }
@@ -2477,9 +2477,9 @@
       "id": "jehoiakim",
       "name": "Jehoiakim",
       "title": "King of Judah, Evil King, Pre-Exile",
-      "essene_year_born": 2985,
+      "zadok_year_born": 2985,
       "gregorian_year_born": -1019,
-      "essene_year_died": 3025,
+      "zadok_year_died": 3025,
       "gregorian_year_died": -979,
       "lifespan_years": 36,
       "parent_id": "josiah",
@@ -2494,13 +2494,13 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 3009,
+          "zadok_year": 3009,
           "gregorian_year": -995,
           "description": "Made king by Pharaoh Necho; renamed from Eliakim (2 Kings 23:34)"
         },
         {
           "event": "Nebuchadnezzar's Siege",
-          "essene_year": 3023,
+          "zadok_year": 3023,
           "gregorian_year": -981,
           "description": "Babylon besieged Jerusalem; became vassal (2 Kings 24:1-6)"
         }
@@ -2511,9 +2511,9 @@
       "id": "jehoiachin",
       "name": "Jehoiachin (Coniah)",
       "title": "King of Judah, Exiled King",
-      "essene_year_born": 3010,
+      "zadok_year_born": 3010,
       "gregorian_year_born": -994,
-      "essene_year_died": 3089,
+      "zadok_year_died": 3089,
       "gregorian_year_died": -915,
       "lifespan_years": 55,
       "parent_id": "jehoiakim",
@@ -2528,19 +2528,19 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 3025,
+          "zadok_year": 3025,
           "gregorian_year": -979,
           "description": "Became king at age 18; reigned only 3 months (2 Kings 24:8)"
         },
         {
           "event": "Exile to Babylon",
-          "essene_year": 3025,
+          "zadok_year": 3025,
           "gregorian_year": -979,
           "description": "Captured by Nebuchadnezzar; exiled to Babylon (2 Kings 24:12-16, 2 Chronicles 36:9-10)"
         },
         {
           "event": "Release from Prison",
-          "essene_year": 3070,
+          "zadok_year": 3070,
           "gregorian_year": -934,
           "description": "Released by Evil-Merodach; given honor (2 Kings 25:27-30)"
         }
@@ -2551,9 +2551,9 @@
       "id": "shealtiel",
       "name": "Shealtiel",
       "title": "Son of Jehoiachin, Father of Zerubbabel",
-      "essene_year_born": 3035,
+      "zadok_year_born": 3035,
       "gregorian_year_born": -969,
-      "essene_year_died": 3105,
+      "zadok_year_died": 3105,
       "gregorian_year_died": -899,
       "lifespan_years": 70,
       "parent_id": "jehoiachin",
@@ -2568,7 +2568,7 @@
       "major_events": [
         {
           "event": "Birth in Exile",
-          "essene_year": 3035,
+          "zadok_year": 3035,
           "gregorian_year": -969,
           "description": "Born in Babylon during exile (1 Chronicles 3:17)"
         }
@@ -2579,9 +2579,9 @@
       "id": "zerubbabel",
       "name": "Zerubbabel",
       "title": "Governor of Judah, Temple Rebuilder",
-      "essene_year_born": 3062,
+      "zadok_year_born": 3062,
       "gregorian_year_born": -942,
-      "essene_year_died": 3132,
+      "zadok_year_died": 3132,
       "gregorian_year_died": -872,
       "lifespan_years": 70,
       "parent_id": "shealtiel",
@@ -2596,19 +2596,19 @@
       "major_events": [
         {
           "event": "Return from Exile",
-          "essene_year": 3110,
+          "zadok_year": 3110,
           "gregorian_year": -894,
           "description": "Led first group of exiles back to Judah under Cyrus's decree (Ezra 1:8, 2:2)"
         },
         {
           "event": "Foundation of Temple",
-          "essene_year": 3111,
+          "zadok_year": 3111,
           "gregorian_year": -893,
           "description": "Laid foundation of second Temple (Ezra 3:8-13)"
         },
         {
           "event": "Completion of Temple",
-          "essene_year": 3116,
+          "zadok_year": 3116,
           "gregorian_year": -888,
           "description": "Second Temple completed and dedicated (Ezra 6:14-18)"
         }
@@ -2619,9 +2619,9 @@
       "id": "abiud",
       "name": "Abiud",
       "title": "Son of Zerubbabel",
-      "essene_year_born": 3087,
+      "zadok_year_born": 3087,
       "gregorian_year_born": -917,
-      "essene_year_died": 3157,
+      "zadok_year_died": 3157,
       "gregorian_year_died": -847,
       "lifespan_years": 70,
       "parent_id": "zerubbabel",
@@ -2636,7 +2636,7 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 3087,
+          "zadok_year": 3087,
           "gregorian_year": -917,
           "description": "Son of Zerubbabel (Matthew 1:13)"
         }
@@ -2647,9 +2647,9 @@
       "id": "eliakim_3",
       "name": "Eliakim",
       "title": "Son of Abiud",
-      "essene_year_born": 3112,
+      "zadok_year_born": 3112,
       "gregorian_year_born": -892,
-      "essene_year_died": 3182,
+      "zadok_year_died": 3182,
       "gregorian_year_died": -822,
       "lifespan_years": 70,
       "parent_id": "abiud",
@@ -2664,7 +2664,7 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 3112,
+          "zadok_year": 3112,
           "gregorian_year": -892,
           "description": "Son of Abiud (Matthew 1:13)"
         }
@@ -2675,9 +2675,9 @@
       "id": "azor",
       "name": "Azor",
       "title": "Son of Eliakim",
-      "essene_year_born": 3137,
+      "zadok_year_born": 3137,
       "gregorian_year_born": -867,
-      "essene_year_died": 3207,
+      "zadok_year_died": 3207,
       "gregorian_year_died": -797,
       "lifespan_years": 70,
       "parent_id": "eliakim_3",
@@ -2692,7 +2692,7 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 3137,
+          "zadok_year": 3137,
           "gregorian_year": -867,
           "description": "Son of Azor (Matthew 1:13-14)"
         }
@@ -2703,9 +2703,9 @@
       "id": "sadoc",
       "name": "Sadoc",
       "title": "Son of Azor",
-      "essene_year_born": 3162,
+      "zadok_year_born": 3162,
       "gregorian_year_born": -842,
-      "essene_year_died": 3232,
+      "zadok_year_died": 3232,
       "gregorian_year_died": -772,
       "lifespan_years": 70,
       "parent_id": "azor",
@@ -2720,7 +2720,7 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 3162,
+          "zadok_year": 3162,
           "gregorian_year": -842,
           "description": "Son of Sadoc (Matthew 1:14)"
         }
@@ -2731,9 +2731,9 @@
       "id": "achim",
       "name": "Achim",
       "title": "Son of Sadoc",
-      "essene_year_born": 3187,
+      "zadok_year_born": 3187,
       "gregorian_year_born": -817,
-      "essene_year_died": 3257,
+      "zadok_year_died": 3257,
       "gregorian_year_died": -747,
       "lifespan_years": 70,
       "parent_id": "sadoc",
@@ -2748,7 +2748,7 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 3187,
+          "zadok_year": 3187,
           "gregorian_year": -817,
           "description": "Son of Achim (Matthew 1:14)"
         }
@@ -2759,9 +2759,9 @@
       "id": "eliud",
       "name": "Eliud",
       "title": "Son of Achim",
-      "essene_year_born": 3212,
+      "zadok_year_born": 3212,
       "gregorian_year_born": -792,
-      "essene_year_died": 3282,
+      "zadok_year_died": 3282,
       "gregorian_year_died": -722,
       "lifespan_years": 70,
       "parent_id": "achim",
@@ -2776,7 +2776,7 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 3212,
+          "zadok_year": 3212,
           "gregorian_year": -792,
           "description": "Son of Eliud (Matthew 1:15)"
         }
@@ -2787,9 +2787,9 @@
       "id": "eleazar_2",
       "name": "Eleazar",
       "title": "Son of Eliud",
-      "essene_year_born": 3237,
+      "zadok_year_born": 3237,
       "gregorian_year_born": -767,
-      "essene_year_died": 3307,
+      "zadok_year_died": 3307,
       "gregorian_year_died": -697,
       "lifespan_years": 70,
       "parent_id": "eliud",
@@ -2804,7 +2804,7 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 3237,
+          "zadok_year": 3237,
           "gregorian_year": -767,
           "description": "Son of Eleazar (Matthew 1:15)"
         }
@@ -2815,9 +2815,9 @@
       "id": "matthan",
       "name": "Matthan",
       "title": "Son of Eleazar, Grandfather of Joseph",
-      "essene_year_born": 3262,
+      "zadok_year_born": 3262,
       "gregorian_year_born": -742,
-      "essene_year_died": 3332,
+      "zadok_year_died": 3332,
       "gregorian_year_died": -672,
       "lifespan_years": 70,
       "parent_id": "eleazar_2",
@@ -2832,7 +2832,7 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 3262,
+          "zadok_year": 3262,
           "gregorian_year": -742,
           "description": "Son of Matthan (Matthew 1:15)"
         }
@@ -2843,9 +2843,9 @@
       "id": "jacob_2",
       "name": "Jacob",
       "title": "Son of Matthan, Father of Joseph",
-      "essene_year_born": 3287,
+      "zadok_year_born": 3287,
       "gregorian_year_born": -717,
-      "essene_year_died": 3357,
+      "zadok_year_died": 3357,
       "gregorian_year_died": -647,
       "lifespan_years": 70,
       "parent_id": "matthan",
@@ -2860,7 +2860,7 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 3287,
+          "zadok_year": 3287,
           "gregorian_year": -717,
           "description": "Son of Jacob (Matthew 1:16)"
         }
@@ -2871,9 +2871,9 @@
       "id": "joseph",
       "name": "Joseph",
       "title": "Earthly Father of Jesus, Carpenter of Nazareth",
-      "essene_year_born": 3312,
+      "zadok_year_born": 3312,
       "gregorian_year_born": -692,
-      "essene_year_died": 3389,
+      "zadok_year_died": 3389,
       "gregorian_year_died": -615,
       "lifespan_years": 89,
       "parent_id": "jacob_2",
@@ -2888,37 +2888,37 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 3312,
+          "zadok_year": 3312,
           "gregorian_year": -692,
           "description": "Son of Jacob; carpenter (Matthew 1:16, 13:55)"
         },
         {
           "event": "Espousal to Mary",
-          "essene_year": 3338,
+          "zadok_year": 3338,
           "gregorian_year": -666,
           "description": "Betrothed to Mary of Nazareth (Matthew 1:18)"
         },
         {
           "event": "Dream of Angel",
-          "essene_year": 3338,
+          "zadok_year": 3338,
           "gregorian_year": -666,
           "description": "Angel revealed Mary's pregnancy; told him Jesus's purpose (Matthew 1:20-21)"
         },
         {
           "event": "Birth of Jesus",
-          "essene_year": 4005,
+          "zadok_year": 4005,
           "gregorian_year": 1,
           "description": "Witnessed birth of Jesus in Bethlehem; raised him (Matthew 1:25, Luke 2:1-7)"
         },
         {
           "event": "Flight to Egypt",
-          "essene_year": 4005,
+          "zadok_year": 4005,
           "gregorian_year": 1,
           "description": "Fled with Jesus to Egypt to escape Herod (Matthew 2:13-15)"
         },
         {
           "event": "Return to Nazareth",
-          "essene_year": 4007,
+          "zadok_year": 4007,
           "gregorian_year": 3,
           "description": "Settled in Nazareth; raised Jesus in carpenter's trade (Matthew 2:19-23)"
         }
@@ -2929,9 +2929,9 @@
       "id": "mary",
       "name": "Mary (Miriam)",
       "title": "Virgin of Nazareth, Mother of Jesus",
-      "essene_year_born": 3320,
+      "zadok_year_born": 3320,
       "gregorian_year_born": -684,
-      "essene_year_died": 3388,
+      "zadok_year_died": 3388,
       "gregorian_year_died": -616,
       "lifespan_years": 64,
       "parent_id": null,
@@ -2946,43 +2946,43 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 3320,
+          "zadok_year": 3320,
           "gregorian_year": -684,
           "description": "Born in Nazareth or Jerusalem"
         },
         {
           "event": "Annunciation",
-          "essene_year": 4004,
+          "zadok_year": 4004,
           "gregorian_year": 0,
           "description": "Angel Gabriel announced she would bear the Son of God (Luke 1:26-38)"
         },
         {
           "event": "Conception of Jesus",
-          "essene_year": 4004,
+          "zadok_year": 4004,
           "gregorian_year": 0,
           "description": "Jesus conceived by Holy Spirit; Mary found with child (Matthew 1:18, Luke 1:26-35)"
         },
         {
           "event": "Birth of Jesus",
-          "essene_year": 4005,
+          "zadok_year": 4005,
           "gregorian_year": 1,
           "description": "Gave birth to Jesus in Bethlehem (Matthew 2:1-7, Luke 2:1-20)"
         },
         {
           "event": "Presentation in Temple",
-          "essene_year": 4006,
+          "zadok_year": 4006,
           "gregorian_year": 2,
           "description": "Presented Jesus in Temple; prophecy of sword piercing soul (Luke 2:22-35)"
         },
         {
           "event": "Flight to Egypt",
-          "essene_year": 4006,
+          "zadok_year": 4006,
           "gregorian_year": 2,
           "description": "Fled with Jesus and Joseph to Egypt (Matthew 2:13-15)"
         },
         {
           "event": "Crucifixion",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Witnessed Jesus's crucifixion; entrusted to John (John 19:25-27)"
         }
@@ -2993,9 +2993,9 @@
       "id": "jesus",
       "name": "Jesus",
       "title": "The Messiah, Son of God, Son of Man, Savior of the World",
-      "essene_year_born": 4005,
+      "zadok_year_born": 4005,
       "gregorian_year_born": 1,
-      "essene_year_died": 4034,
+      "zadok_year_died": 4034,
       "gregorian_year_died": 30,
       "lifespan_years": 33,
       "parent_id": "joseph",
@@ -3010,193 +3010,193 @@
       "major_events": [
         {
           "event": "Miraculous Conception",
-          "essene_year": 4004,
+          "zadok_year": 4004,
           "gregorian_year": 0,
           "description": "Conceived by Holy Spirit in womb of virgin Mary (Matthew 1:18-25, Luke 1:26-38, Isaiah 7:14)"
         },
         {
           "event": "Birth in Bethlehem",
-          "essene_year": 4005,
+          "zadok_year": 4005,
           "gregorian_year": 1,
           "description": "Born in Bethlehem; fulfillment of Micah 5:2 (Matthew 2:1-7, Luke 2:1-20)"
         },
         {
           "event": "Visit of Wise Men",
-          "essene_year": 4005,
+          "zadok_year": 4005,
           "gregorian_year": 1,
           "description": "Magi visited bearing gifts; Jesus presented as King to nations (Matthew 2:1-12)"
         },
         {
           "event": "Circumcision",
-          "essene_year": 4006,
+          "zadok_year": 4006,
           "gregorian_year": 2,
           "description": "Circumcised on eighth day; named Jesus (Luke 2:21)"
         },
         {
           "event": "Presentation in Temple",
-          "essene_year": 4006,
+          "zadok_year": 4006,
           "gregorian_year": 2,
           "description": "Presented as firstborn; recognized as Light of Gentiles (Luke 2:22-35)"
         },
         {
           "event": "Flight to Egypt",
-          "essene_year": 4006,
+          "zadok_year": 4006,
           "gregorian_year": 2,
           "description": "Family fled to Egypt to escape Herod's massacre (Matthew 2:13-15, Hosea 11:1)"
         },
         {
           "event": "Childhood in Nazareth",
-          "essene_year": 4007,
+          "zadok_year": 4007,
           "gregorian_year": 3,
           "description": "Grew up in Nazareth; trained in carpenter's trade (Matthew 2:19-23, Luke 2:39-40, 52)"
         },
         {
           "event": "Visit to Temple at Age 12",
-          "essene_year": 4017,
+          "zadok_year": 4017,
           "gregorian_year": 13,
           "description": "Found in Temple discussing with teachers; demonstrated wisdom (Luke 2:41-50)"
         },
         {
           "event": "Baptism by John",
-          "essene_year": 4031,
+          "zadok_year": 4031,
           "gregorian_year": 27,
           "description": "Baptized in Jordan; Spirit descended as dove; Father's voice confirmed (Matthew 3:13-17, Mark 1:9-11, Luke 3:21-22)"
         },
         {
           "event": "Temptation in Wilderness",
-          "essene_year": 4031,
+          "zadok_year": 4031,
           "gregorian_year": 27,
           "description": "Tempted by Satan for 40 days; overcome through God's word (Matthew 4:1-11, Mark 1:12-13, Luke 4:1-13)"
         },
         {
           "event": "Call of First Disciples",
-          "essene_year": 4031,
+          "zadok_year": 4031,
           "gregorian_year": 27,
           "description": "Called Simon Peter, Andrew, James, John as disciples (John 1:35-51)"
         },
         {
           "event": "Ministry Begins",
-          "essene_year": 4031,
+          "zadok_year": 4031,
           "gregorian_year": 27,
           "description": "Began public ministry with signs and teaching; proclaimed Kingdom (John 2-4)"
         },
         {
           "event": "Sermon on the Mount",
-          "essene_year": 4032,
+          "zadok_year": 4032,
           "gregorian_year": 28,
           "description": "Preached blessings and teachings of Kingdom (Matthew 5-7)"
         },
         {
           "event": "Miracles and Healings",
-          "essene_year": 4032,
+          "zadok_year": 4032,
           "gregorian_year": 28,
           "description": "Cast out demons, healed sick, raised dead, calmed storms (Matthew 8-9, Mark 1-5, Luke 5-9)"
         },
         {
           "event": "Choosing the Twelve",
-          "essene_year": 4032,
+          "zadok_year": 4032,
           "gregorian_year": 28,
           "description": "Selected 12 apostles as foundation of Church (Matthew 10:1-4, Mark 3:13-19, Luke 6:12-16)"
         },
         {
           "event": "Transfiguration",
-          "essene_year": 4033,
+          "zadok_year": 4033,
           "gregorian_year": 29,
           "description": "Revealed glory before Peter, James, John; Law and Prophets testified (Matthew 17:1-8, Mark 9:2-8, Luke 9:28-36)"
         },
         {
           "event": "Teaching on Kingdom",
-          "essene_year": 4033,
+          "zadok_year": 4033,
           "gregorian_year": 29,
           "description": "Taught in parables about Kingdom; ultimate authority revealed (Matthew 13, 18-25, Mark 4, 10-14, Luke 8, 15-18)"
         },
         {
           "event": "Triumphal Entry",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Entered Jerusalem on donkey; hailed as Messiah (Matthew 21:1-11, Mark 11:1-11, Luke 19:28-40, John 12:12-15, Zechariah 9:9)"
         },
         {
           "event": "Cleansing of Temple",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Overturned tables of money changers; demonstrated authority (Matthew 21:12-17, Mark 11:15-19, Luke 19:45-48)"
         },
         {
           "event": "Last Supper",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Instituted covenant meal; broke bread and cup; 'This is my body, this is my blood' (Matthew 26:17-30, Mark 14:12-26, Luke 22:7-23, 1 Corinthians 11:23-26)"
         },
         {
           "event": "Gethsemane Prayer",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Prayed 'Not my will but yours be done'; sweated drops of blood (Matthew 26:36-46, Mark 14:32-42, Luke 22:39-46)"
         },
         {
           "event": "Betrayal and Arrest",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Betrayed by Judas; arrested by officers of Sanhedrin (Matthew 26:47-56, Mark 14:43-52, Luke 22:47-53, John 18:2-12)"
         },
         {
           "event": "Trial Before Sanhedrin",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Questioned about being Messiah; condemned for blasphemy (Matthew 26:57-68, Mark 14:53-65, Luke 22:54-71, John 18:12-27)"
         },
         {
           "event": "Trial Before Pilate",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Brought before Roman governor; accused of sedition; Pilate found no fault (Matthew 27:1-26, Mark 15:1-15, Luke 23:1-25, John 18:28-19:16)"
         },
         {
           "event": "Scourging and Mocking",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Beaten by Roman soldiers; crowned with thorns; mocked as King (Matthew 27:26-31, Mark 15:15-20, John 19:1-5, Isaiah 50:6, 52:14)"
         },
         {
           "event": "Crucifixion",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Crucified at Golgotha between two thieves; darkness over land; veil torn (Matthew 27:32-56, Mark 15:21-41, Luke 23:26-49, John 19:17-37, Psalm 22, Isaiah 53)"
         },
         {
           "event": "Pierced Side",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Side pierced by soldier's spear; blood and water flowed (John 19:34, Zechariah 12:10)"
         },
         {
           "event": "Burial in Joseph's Tomb",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Buried in new tomb of Joseph of Arimathea; stone sealed (Matthew 27:57-66, Mark 15:42-47, Luke 23:50-56, John 19:38-42, Isaiah 53:9)"
         },
         {
           "event": "Resurrection",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Rose on the third day; death conquered; firstfruits of resurrection (Matthew 28:1-10, Mark 16:1-8, Luke 24:1-12, John 20:1-18, 1 Corinthians 15:3-8)"
         },
         {
           "event": "Appearances After Resurrection",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Appeared to disciples, Mary, Peter, 500+ believers over 40 days (Matthew 28:16-20, Luke 24:36-43, John 20-21, 1 Corinthians 15:3-8)"
         },
         {
           "event": "Ascension",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Ascended to heaven 40 days after resurrection; seated at Father's right hand (Matthew 28:19-20, Mark 16:19, Luke 24:50-53, Acts 1:9-11, Hebrews 10:12-13)"
         },
         {
           "event": "Reign at God's Right Hand",
-          "essene_year": 4034,
+          "zadok_year": 4034,
           "gregorian_year": 30,
           "description": "Exalted; all authority given; intercedes for saints; awaits return (Philippians 2:9-11, Colossians 3:1, Hebrews 1:3, 10:12-13, Revelation 3:21)"
         }

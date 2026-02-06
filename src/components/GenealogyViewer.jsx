@@ -41,6 +41,37 @@ const GenealogyViewer = () => {
   const [livingYearQuery, setLivingYearQuery] = useState('');
   const [ganttZoom, setGanttZoom] = useState(1);
 
+  // Compute dynamic year range from data for Gantt timeline
+  const ganttYearRange = useMemo(() => {
+    const validPeople = genealogyData.people.filter(
+      p => p.gregorian_year_born !== null && p.gregorian_year_died !== null
+    );
+    if (validPeople.length === 0) return { min: -4100, max: 100 };
+    const births = validPeople.map(p => p.gregorian_year_born);
+    const deaths = validPeople.map(p => p.gregorian_year_died);
+    const dataMin = Math.min(...births);
+    const dataMax = Math.max(...deaths);
+    // Add 2% padding on each side
+    const padding = Math.ceil((dataMax - dataMin) * 0.02);
+    return { min: dataMin - padding, max: dataMax + padding };
+  }, []);
+
+  // Era definitions for Gantt background bands (Gregorian year ranges)
+  const eraBands = [
+    { name: 'Antediluvian', start: -4004, end: -2348, color: 'rgba(99, 102, 241, 0.08)' },
+    { name: 'Patriarchal', start: -2348, end: -1450, color: 'rgba(16, 185, 129, 0.08)' },
+    { name: 'Conquest & Judges', start: -1450, end: -954, color: 'rgba(245, 158, 11, 0.08)' },
+    { name: 'Divided Kingdom', start: -954, end: -604, color: 'rgba(239, 68, 68, 0.08)' },
+    { name: 'Exile & Return', start: -604, end: -484, color: 'rgba(139, 92, 246, 0.08)' },
+    { name: 'Second Temple', start: -484, end: 30, color: 'rgba(14, 165, 233, 0.08)' },
+  ];
+
+  // Get unique eras from data for filter dropdown
+  const availableEras = useMemo(() => {
+    const eras = new Set(genealogyData.people.map(p => p.era).filter(Boolean));
+    return [...eras].sort();
+  }, []);
+
   // Get person by ID
   const getPerson = (id) => genealogyData.people.find(p => p.id === id);
 
@@ -138,7 +169,7 @@ const GenealogyViewer = () => {
             cursor: 'pointer',
             backgroundColor: selectedPersonId === person.id ? colors.indigo[100] : colors.transparent,
             marginBottom: '4px',
-            border: selectedPersonId === person.id ? `2px solid ${colors.indigo[600]}` : `1px solid ${colors.gray[200]}`,
+            border: selectedPersonId === person.id ? `2px solid ${colors.indigo[600]}` : `1px solid ${theme.border}`,
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -163,7 +194,7 @@ const GenealogyViewer = () => {
             {!hasChildren && <div style={{ width: '20px' }} />}
             <div style={{ flex: 1 }}>
               <div style={{ fontWeight: 'bold' }}>{person.name}</div>
-              <div style={{ fontSize: '0.85em', color: colors.gray[600] }}>
+              <div style={{ fontSize: '0.85em', color: theme.textMuted }}>
                 {calendarView === 'gregorian'
                   ? `${person.gregorian_year_born} – ${person.gregorian_year_died} (${person.lifespan_years} years)`
                   : `${person.zadok_year_born} – ${person.zadok_year_died} (${person.lifespan_years} years)`}
@@ -185,9 +216,23 @@ const GenealogyViewer = () => {
   // Get selected person
   const selectedPerson = getPerson(selectedPersonId);
 
+  // Theme-aware colors that respond to CSS variables set by BaseLayout
+  const theme = {
+    text: 'var(--color-text, #1e293b)',
+    textMuted: 'var(--color-text-muted, #64748b)',
+    textSubtle: 'var(--color-text-subtle, #475569)',
+    bg: 'var(--color-bg, #f8fafc)',
+    bgElevated: 'var(--color-bg-elevated, #ffffff)',
+    cardBg: 'var(--color-card-bg, #f8fafc)',
+    cardHover: 'var(--color-card-hover, #f1f5f9)',
+    border: 'var(--color-border, #e2e8f0)',
+    borderStrong: 'var(--color-border-strong, #cbd5e1)',
+    primary: 'var(--color-primary, #3b82f6)',
+  };
+
   return (
-    <div style={{ padding: '20px', maxWidth: '1400px', margin: '0 auto', fontFamily: 'system-ui, sans-serif' }}>
-      <h1 style={{ marginBottom: '20px', color: colors.slate[900] }}>Biblical Genealogy Viewer</h1>
+    <div style={{ padding: '20px', maxWidth: '1400px', margin: '0 auto', fontFamily: 'system-ui, sans-serif', color: theme.text }}>
+      <h1 style={{ marginBottom: '20px', color: theme.text }}>Biblical Genealogy Viewer</h1>
 
       {/* Controls */}
       <div
@@ -197,8 +242,9 @@ const GenealogyViewer = () => {
           gap: '16px',
           marginBottom: '20px',
           padding: '16px',
-          backgroundColor: colors.gray[50],
+          backgroundColor: theme.cardBg,
           borderRadius: '8px',
+          border: `1px solid ${theme.border}`,
         }}
       >
         <div>
@@ -211,8 +257,8 @@ const GenealogyViewer = () => {
               style={{
                 flex: 1,
                 padding: '8px',
-                border: calendarView === 'gregorian' ? `2px solid ${colors.indigo[600]}` : `1px solid ${colors.gray[300]}`,
-                backgroundColor: calendarView === 'gregorian' ? colors.indigo[50] : colors.white,
+                border: calendarView === 'gregorian' ? `2px solid ${colors.indigo[600]}` : `1px solid ${theme.borderStrong}`,
+                backgroundColor: calendarView === 'gregorian' ? colors.indigo[50] : theme.bgElevated,
                 borderRadius: '4px',
                 cursor: 'pointer',
                 fontWeight: calendarView === 'gregorian' ? 'bold' : 'normal',
@@ -225,8 +271,8 @@ const GenealogyViewer = () => {
               style={{
                 flex: 1,
                 padding: '8px',
-                border: calendarView === 'zadok' ? `2px solid ${colors.indigo[600]}` : `1px solid ${colors.gray[300]}`,
-                backgroundColor: calendarView === 'zadok' ? colors.indigo[50] : colors.white,
+                border: calendarView === 'zadok' ? `2px solid ${colors.indigo[600]}` : `1px solid ${theme.borderStrong}`,
+                backgroundColor: calendarView === 'zadok' ? colors.indigo[50] : theme.bgElevated,
                 borderRadius: '4px',
                 cursor: 'pointer',
                 fontWeight: calendarView === 'zadok' ? 'bold' : 'normal',
@@ -247,16 +293,15 @@ const GenealogyViewer = () => {
             style={{
               width: '100%',
               padding: '8px',
-              border: `1px solid ${colors.gray[300]}`,
+              border: `1px solid ${theme.borderStrong}`,
               borderRadius: '4px',
               fontSize: '0.9em',
             }}
           >
             <option value="all">All Eras</option>
-            <option value="Antediluvian">Antediluvian</option>
-            <option value="Antediluvian/Flood">Flood</option>
-            <option value="Post-Flood">Post-Flood</option>
-            <option value="Patriarchal">Patriarchal</option>
+            {availableEras.map(era => (
+              <option key={era} value={era}>{era}</option>
+            ))}
           </select>
         </div>
 
@@ -270,7 +315,7 @@ const GenealogyViewer = () => {
             style={{
               width: '100%',
               padding: '8px',
-              border: `1px solid ${colors.gray[300]}`,
+              border: `1px solid ${theme.borderStrong}`,
               borderRadius: '4px',
               fontSize: '0.9em',
             }}
@@ -293,7 +338,7 @@ const GenealogyViewer = () => {
             style={{
               width: '100%',
               padding: '8px',
-              border: `1px solid ${colors.gray[300]}`,
+              border: `1px solid ${theme.borderStrong}`,
               borderRadius: '4px',
               fontSize: '0.9em',
             }}
@@ -312,7 +357,7 @@ const GenealogyViewer = () => {
             style={{
               width: '100%',
               padding: '8px',
-              border: `1px solid ${colors.gray[300]}`,
+              border: `1px solid ${theme.borderStrong}`,
               borderRadius: '4px',
               fontSize: '0.9em',
             }}
@@ -321,7 +366,7 @@ const GenealogyViewer = () => {
       </div>
 
       {/* Tabs */}
-      <div style={{ marginBottom: '20px', borderBottom: `2px solid ${colors.gray[200]}`, display: 'flex', gap: '8px' }}>
+      <div style={{ marginBottom: '20px', borderBottom: `2px solid ${theme.border}`, display: 'flex', gap: '8px' }}>
         {['tree', 'timeline', 'living', 'lineage', 'details'].map(tab => (
           <button
             key={tab}
@@ -330,7 +375,7 @@ const GenealogyViewer = () => {
               padding: '12px 20px',
               border: 'none',
               backgroundColor: activeTab === tab ? colors.indigo[600] : colors.transparent,
-              color: activeTab === tab ? colors.white : colors.gray[600],
+              color: activeTab === tab ? colors.white : theme.textMuted,
               cursor: 'pointer',
               fontWeight: activeTab === tab ? 'bold' : 'normal',
               borderRadius: '4px 4px 0 0',
@@ -347,7 +392,7 @@ const GenealogyViewer = () => {
         {/* Tree View */}
         {activeTab === 'tree' && (
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
-            <div style={{ borderRight: `1px solid ${colors.gray[200]}`, paddingRight: '16px' }}>
+            <div style={{ borderRight: `1px solid ${theme.border}`, paddingRight: '16px' }}>
               <h2 style={{ fontSize: '1.2em', marginBottom: '16px' }}>Family Tree (Adam → Abraham)</h2>
               <div style={{ maxHeight: '600px', overflowY: 'auto' }}>
                 <TreeNode person={getPerson('adam')} />
@@ -358,7 +403,7 @@ const GenealogyViewer = () => {
                 <h2 style={{ fontSize: '1.2em', marginBottom: '16px' }}>
                   {selectedPerson.name}
                 </h2>
-                <div style={{ backgroundColor: colors.gray[100], padding: '16px', borderRadius: '8px' }}>
+                <div style={{ backgroundColor: theme.cardBg, padding: '16px', borderRadius: '8px', border: `1px solid ${theme.border}` }}>
                   <p>
                     <strong>Title:</strong> {selectedPerson.title}
                   </p>
@@ -484,20 +529,20 @@ const GenealogyViewer = () => {
                 + Zoom In
               </button>
               
-              <span style={{ fontSize: '0.9em', fontWeight: 'bold', color: colors.slate[900], minWidth: '60px' }}>
+              <span style={{ fontSize: '0.9em', fontWeight: 'bold', color: theme.text, minWidth: '60px' }}>
                 {Math.round(ganttZoom * 100)}%
               </span>
             </div>
 
-            <div style={{ display: 'flex', gap: '0', backgroundColor: colors.gray[50], borderRadius: '8px', border: `1px solid ${colors.gray[200]}`, overflow: 'hidden' }}>
+            <div style={{ display: 'flex', gap: '0', backgroundColor: theme.cardBg, borderRadius: '8px', border: `1px solid ${theme.border}`, overflow: 'hidden' }}>
               {/* Fixed Names Column */}
-              <div style={{ width: '150px', flexShrink: 0, borderRight: `2px solid ${colors.gray[300]}`, backgroundColor: colors.white, overflowY: 'auto' }}>
+              <div style={{ width: '150px', flexShrink: 0, borderRight: `2px solid ${theme.borderStrong}`, backgroundColor: theme.bgElevated, overflowY: 'auto' }}>
                 {/* Header */}
                 <div style={{
                   padding: '12px 8px',
                   fontWeight: 'bold',
-                  borderBottom: `2px solid ${colors.gray[300]}`,
-                  backgroundColor: colors.gray[100],
+                  borderBottom: `2px solid ${theme.borderStrong}`,
+                  backgroundColor: theme.cardBg,
                   position: 'sticky',
                   top: 0,
                   zIndex: 10
@@ -526,12 +571,12 @@ const GenealogyViewer = () => {
                         whiteSpace: 'nowrap',
                         overflow: 'hidden',
                         textOverflow: 'ellipsis',
-                        color: colors.blue[600],
+                        color: theme.primary,
                         cursor: 'pointer',
                         textDecoration: 'underline',
                         fontWeight: '500',
-                        borderBottom: `1px solid ${colors.gray[200]}`,
-                        backgroundColor: selectedPersonId === person.id ? colors.blue[50] : colors.white,
+                        borderBottom: `1px solid ${theme.border}`,
+                        backgroundColor: selectedPersonId === person.id ? colors.blue[50] : theme.bgElevated,
                         transition: 'backgroundColor 0.2s'
                       }}
                       title={`Click to view ${person.name}'s details`}
@@ -550,18 +595,18 @@ const GenealogyViewer = () => {
                     display: 'flex',
                     height: '50px',
                     paddingBottom: '8px',
-                    borderBottom: `2px solid ${colors.gray[300]}`,
-                    backgroundColor: colors.gray[100],
+                    borderBottom: `2px solid ${theme.borderStrong}`,
+                    backgroundColor: theme.cardBg,
                     position: 'sticky',
                     top: 0,
                     zIndex: 9
                   }}>
                     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-                      {Array.from({ length: Math.ceil(((-1800 - (-4100)) / 200) * ganttZoom) + 1 }).map((_, i) => {
-                        const gregorianYear = -4100 + (i * 200 / ganttZoom);
+                      {Array.from({ length: Math.ceil(((ganttYearRange.max - ganttYearRange.min) / 200) * ganttZoom) + 1 }).map((_, i) => {
+                        const gregorianYear = ganttYearRange.min + (i * 200 / ganttZoom);
                         const zadokYear = gregorianToZadok(gregorianYear);
                         const displayYear = calendarView === 'gregorian' ? gregorianYear : zadokYear;
-                        const percentPos = ((gregorianYear - (-4100)) / ((-1800) - (-4100))) * 100;
+                        const percentPos = ((gregorianYear - ganttYearRange.min) / (ganttYearRange.max - ganttYearRange.min)) * 100;
                         return (
                           <div
                             key={i}
@@ -577,14 +622,41 @@ const GenealogyViewer = () => {
                               paddingBottom: '4px'
                             }}
                           >
-                            <div style={{ height: '6px', width: '2px', backgroundColor: colors.gray[500], marginBottom: '2px' }} />
-                            <div style={{ fontSize: '0.7em', color: colors.gray[500], fontWeight: 'bold', whiteSpace: 'nowrap' }}>
-                              {displayYear}{calendarView === 'essene' ? 'E' : ''}
+                            <div style={{ height: '6px', width: '2px', backgroundColor: theme.textMuted, marginBottom: '2px' }} />
+                            <div style={{ fontSize: '0.7em', color: theme.textMuted, fontWeight: 'bold', whiteSpace: 'nowrap' }}>
+                              {displayYear}{calendarView === 'zadok' ? ' Z' : ''}
                             </div>
                           </div>
                         );
                       })}
                     </div>
+                  </div>
+
+                  {/* Era Background Bands */}
+                  <div style={{ position: 'relative', height: '0', overflow: 'visible', zIndex: 0 }}>
+                    {eraBands.map((era, idx) => {
+                      const totalYears = ganttYearRange.max - ganttYearRange.min;
+                      const bandStart = Math.max(0, ((era.start - ganttYearRange.min) / totalYears) * 100);
+                      const bandEnd = Math.min(100, ((era.end - ganttYearRange.min) / totalYears) * 100);
+                      const bandWidth = bandEnd - bandStart;
+                      if (bandWidth <= 0) return null;
+                      return (
+                        <div
+                          key={idx}
+                          style={{
+                            position: 'absolute',
+                            left: `${bandStart}%`,
+                            width: `${bandWidth}%`,
+                            top: 0,
+                            height: '2000px',
+                            backgroundColor: era.color,
+                            borderLeft: idx > 0 ? `1px dashed ${theme.border}` : 'none',
+                            pointerEvents: 'none',
+                          }}
+                          title={era.name}
+                        />
+                      );
+                    })}
                   </div>
 
                   {/* Person Bars */}
@@ -593,15 +665,15 @@ const GenealogyViewer = () => {
                     const endYear = person.gregorian_year_died;
                     if (startYear === null || endYear === null) return null;
 
-                    const minYear = -4100;
-                    const maxYear = -1800;
+                    const minYear = ganttYearRange.min;
+                    const maxYear = ganttYearRange.max;
                     const totalYears = maxYear - minYear;
                     const startPercent = ((startYear - minYear) / totalYears) * 100;
                     const width = ((endYear - startYear) / totalYears) * 100;
 
                     return (
-                      <div key={person.id} style={{ position: 'relative', height: '36px', display: 'flex', alignItems: 'center', borderBottom: `1px solid ${colors.gray[200]}`, backgroundColor: selectedPersonId === person.id ? colors.blue[50] : colors.white }}>
-                        <div style={{ position: 'relative', width: '100%', height: '28px', backgroundColor: colors.gray[200], marginLeft: '8px', marginRight: '8px', borderRadius: '4px', display: 'flex', alignItems: 'center' }}>
+                      <div key={person.id} style={{ position: 'relative', height: '36px', display: 'flex', alignItems: 'center', borderBottom: `1px solid ${theme.border}`, backgroundColor: selectedPersonId === person.id ? colors.blue[50] : theme.bgElevated }}>
+                        <div style={{ position: 'relative', width: '100%', height: '28px', backgroundColor: theme.border, marginLeft: '8px', marginRight: '8px', borderRadius: '4px', display: 'flex', alignItems: 'center' }}>
                           <div
                             onClick={() => {
                               setSelectedPersonId(person.id);
@@ -623,7 +695,7 @@ const GenealogyViewer = () => {
                               cursor: 'pointer',
                               transition: 'opacity 0.2s',
                               opacity: selectedPersonId === person.id ? 1 : 0.8,
-                              border: selectedPersonId === person.id ? `2px solid ${colors.slate[900]}` : `1px solid ${colors.overlay.darkSubtle}`
+                              border: selectedPersonId === person.id ? `2px solid ${theme.text}` : `1px solid ${colors.overlay.darkSubtle}`
                             }}
                             title={calendarView === 'gregorian' ? `${person.name}: ${startYear} to ${endYear} (${person.lifespan_years} years)` : `${person.name}: ${person.zadok_year_born} to ${person.zadok_year_died} Z (${person.lifespan_years} years)`}
                             onMouseEnter={(e) => e.target.style.opacity = '1'}
@@ -640,7 +712,7 @@ const GenealogyViewer = () => {
             </div>
 
             {/* Legend */}
-            <div style={{ marginTop: '16px', fontSize: '0.85em', color: colors.gray[600] }}>
+            <div style={{ marginTop: '16px', fontSize: '0.85em', color: theme.textMuted }}>
               <div>
                 <span
                   style={{
@@ -667,7 +739,22 @@ const GenealogyViewer = () => {
                 />
                 Other Patriarchs
               </div>
-              <div style={{ marginTop: '8px', fontSize: '0.8em', color: colors.gray.light, fontStyle: 'italic' }}>
+              <div style={{ marginTop: '12px', display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
+                {eraBands.map((era, idx) => (
+                  <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                    <span style={{
+                      display: 'inline-block',
+                      width: '16px',
+                      height: '16px',
+                      backgroundColor: era.color.replace('0.08', '0.3'),
+                      borderRadius: '2px',
+                      border: `1px solid ${theme.border}`,
+                    }} />
+                    <span style={{ fontSize: '0.8em' }}>{era.name}</span>
+                  </div>
+                ))}
+              </div>
+              <div style={{ marginTop: '8px', fontSize: '0.8em', color: theme.textMuted, fontStyle: 'italic' }}>
                 Click name or bar to view person details
               </div>
             </div>
@@ -679,25 +766,25 @@ const GenealogyViewer = () => {
           <div>
             <h2 style={{ marginBottom: '16px' }}>Who Lived in a Specific Year?</h2>
             {livingYearQuery && (
-              <div style={{ padding: '16px', backgroundColor: colors.gray[100], borderRadius: '8px' }}>
+              <div style={{ padding: '16px', backgroundColor: theme.cardBg, borderRadius: '8px' }}>
                 <h3 style={{ marginBottom: '12px' }}>
                   People alive in {livingYearQuery} AD:
                 </h3>
                 {getPeopleAliveInYear(parseInt(livingYearQuery)).length > 0 ? (
                   <ul style={{ listStyle: 'none', padding: 0 }}>
                     {getPeopleAliveInYear(parseInt(livingYearQuery)).map(person => (
-                      <li key={person.id} style={{ padding: '8px', borderBottom: `1px solid ${colors.gray[200]}` }}>
+                      <li key={person.id} style={{ padding: '8px', borderBottom: `1px solid ${theme.border}` }}>
                         <strong>{person.name}</strong> ({person.gregorian_year_born} – {person.gregorian_year_died})
                       </li>
                     ))}
                   </ul>
                 ) : (
-                  <p style={{ color: colors.gray[600] }}>No one in our genealogy lived in that year.</p>
+                  <p style={{ color: theme.textMuted }}>No one in our genealogy lived in that year.</p>
                 )}
               </div>
             )}
             {!livingYearQuery && (
-              <p style={{ color: colors.gray[600] }}>Enter a year above to see who was alive at that time.</p>
+              <p style={{ color: theme.textMuted }}>Enter a year above to see who was alive at that time.</p>
             )}
           </div>
         )}
@@ -714,14 +801,14 @@ const GenealogyViewer = () => {
                   style={{
                     padding: '12px',
                     marginBottom: '8px',
-                    backgroundColor: selectedLineage === key ? colors.indigo[50] : colors.gray[50],
-                    border: selectedLineage === key ? `2px solid ${colors.indigo[600]}` : `1px solid ${colors.gray[300]}`,
+                    backgroundColor: selectedLineage === key ? colors.indigo[50] : theme.cardBg,
+                    border: selectedLineage === key ? `2px solid ${colors.indigo[600]}` : `1px solid ${theme.borderStrong}`,
                     borderRadius: '4px',
                     cursor: 'pointer',
                   }}
                 >
                   <div style={{ fontWeight: 'bold', color: lineage.color }}>{lineage.name}</div>
-                  <div style={{ fontSize: '0.85em', color: colors.gray[600], marginTop: '4px' }}>
+                  <div style={{ fontSize: '0.85em', color: theme.textMuted, marginTop: '4px' }}>
                     {lineage.description}
                   </div>
                 </div>
@@ -731,7 +818,7 @@ const GenealogyViewer = () => {
               <h2 style={{ fontSize: '1.2em', marginBottom: '16px' }}>
                 {genealogyData.lineages[selectedLineage]?.name}
               </h2>
-              <div style={{ backgroundColor: colors.gray[100], padding: '16px', borderRadius: '8px' }}>
+              <div style={{ backgroundColor: theme.cardBg, padding: '16px', borderRadius: '8px', border: `1px solid ${theme.border}` }}>
                 <p style={{ marginBottom: '12px' }}>
                   {genealogyData.lineages[selectedLineage]?.description}
                 </p>
@@ -764,14 +851,14 @@ const GenealogyViewer = () => {
                 borderLeft: `4px solid ${colors.indigo[600]}`,
                 borderRadius: '4px'
               }}>
-                <div style={{ fontFamily: 'serif', fontSize: '1.4em', marginBottom: '6px', color: colors.slate[900], fontWeight: 'bold' }}>
+                <div style={{ fontFamily: 'serif', fontSize: '1.4em', marginBottom: '6px', color: theme.text, fontWeight: 'bold' }}>
                   {selectedPerson.name_hebrew}
                 </div>
                 <div style={{ fontSize: '0.95em', color: colors.indigo[600], marginBottom: '6px', fontWeight: '500' }}>
                   {selectedPerson.name_transliteration}
                 </div>
                 {selectedPerson.name_meaning && (
-                  <div style={{ fontSize: '0.9em', color: colors.gray[600], fontStyle: 'italic' }}>
+                  <div style={{ fontSize: '0.9em', color: theme.textMuted, fontStyle: 'italic' }}>
                     <strong>Meaning:</strong> {selectedPerson.name_meaning}
                   </div>
                 )}
@@ -781,7 +868,7 @@ const GenealogyViewer = () => {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
               <div>
                 <h3 style={{ marginBottom: '12px', color: colors.indigo[600] }}>Personal Information</h3>
-                <div style={{ backgroundColor: colors.gray[100], padding: '16px', borderRadius: '8px' }}>
+                <div style={{ backgroundColor: theme.cardBg, padding: '16px', borderRadius: '8px', border: `1px solid ${theme.border}` }}>
                   <p>
                     <strong>Full Title:</strong> {selectedPerson.title}
                   </p>
@@ -801,7 +888,7 @@ const GenealogyViewer = () => {
               </div>
               <div>
                 <h3 style={{ marginBottom: '12px', color: colors.indigo[600] }}>Lifespan</h3>
-                <div style={{ backgroundColor: colors.gray[100], padding: '16px', borderRadius: '8px' }}>
+                <div style={{ backgroundColor: theme.cardBg, padding: '16px', borderRadius: '8px', border: `1px solid ${theme.border}` }}>
                   <p>
                     <strong>Gregorian:</strong> {selectedPerson.gregorian_year_born} to{' '}
                     {selectedPerson.gregorian_year_died} AD
@@ -819,13 +906,13 @@ const GenealogyViewer = () => {
             {selectedPerson.major_events.length > 0 && (
               <div style={{ marginTop: '20px' }}>
                 <h3 style={{ marginBottom: '12px', color: colors.indigo[600] }}>Major Events</h3>
-                <div style={{ backgroundColor: colors.gray[100], padding: '16px', borderRadius: '8px' }}>
+                <div style={{ backgroundColor: theme.cardBg, padding: '16px', borderRadius: '8px', border: `1px solid ${theme.border}` }}>
                   {selectedPerson.major_events.map((event, idx) => (
-                    <div key={idx} style={{ marginBottom: '12px', borderBottom: `1px solid ${colors.gray[200]}`, paddingBottom: '12px' }}>
+                    <div key={idx} style={{ marginBottom: '12px', borderBottom: `1px solid ${theme.border}`, paddingBottom: '12px' }}>
                       <div style={{ fontWeight: 'bold', marginBottom: '4px' }}>
                         {event.event} ({event.gregorian_year} AD / {event.zadok_year} Z)
                       </div>
-                      <div style={{ fontSize: '0.9em', color: colors.gray[600] }}>{event.description}</div>
+                      <div style={{ fontSize: '0.9em', color: theme.textMuted }}>{event.description}</div>
                     </div>
                   ))}
                 </div>
@@ -850,7 +937,7 @@ const GenealogyViewer = () => {
             {selectedPerson.children.length > 0 && (
               <div style={{ marginTop: '20px' }}>
                 <h3 style={{ marginBottom: '12px', color: colors.indigo[600] }}>Children</h3>
-                <div style={{ backgroundColor: colors.gray[100], padding: '16px', borderRadius: '8px' }}>
+                <div style={{ backgroundColor: theme.cardBg, padding: '16px', borderRadius: '8px', border: `1px solid ${theme.border}` }}>
                   <ul style={{ listStyle: 'none', padding: 0 }}>
                     {selectedPerson.children.map(childId => {
                       const child = getPerson(childId);

@@ -5,9 +5,9 @@
       "id": "jehoiakim",
       "name": "Jehoiakim",
       "title": "King of Judah, Evil King, Pre-Exile",
-      "essene_year_born": 2985,
+      "zadok_year_born": 2985,
       "gregorian_year_born": -1019,
-      "essene_year_died": 3025,
+      "zadok_year_died": 3025,
       "gregorian_year_died": -979,
       "lifespan_years": 36,
       "parent_id": "josiah",
@@ -30,13 +30,13 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 3009,
+          "zadok_year": 3009,
           "gregorian_year": -995,
           "description": "Made king by Pharaoh Necho; renamed from Eliakim (2 Kings 23:34)"
         },
         {
           "event": "Nebuchadnezzar's Siege",
-          "essene_year": 3023,
+          "zadok_year": 3023,
           "gregorian_year": -981,
           "description": "Babylon besieged Jerusalem; became vassal (2 Kings 24:1-6)"
         }
@@ -56,9 +56,9 @@
       "id": "jehoiachin",
       "name": "Jehoiachin (Coniah)",
       "title": "King of Judah, Exiled King",
-      "essene_year_born": 3010,
+      "zadok_year_born": 3010,
       "gregorian_year_born": -994,
-      "essene_year_died": 3089,
+      "zadok_year_died": 3089,
       "gregorian_year_died": -915,
       "lifespan_years": 55,
       "parent_id": "jehoiakim",
@@ -82,19 +82,19 @@
       "major_events": [
         {
           "event": "Coronation",
-          "essene_year": 3025,
+          "zadok_year": 3025,
           "gregorian_year": -979,
           "description": "Became king at age 18; reigned only 3 months (2 Kings 24:8)"
         },
         {
           "event": "Exile to Babylon",
-          "essene_year": 3025,
+          "zadok_year": 3025,
           "gregorian_year": -979,
           "description": "Captured by Nebuchadnezzar; exiled to Babylon (2 Kings 24:12-16, 2 Chronicles 36:9-10)"
         },
         {
           "event": "Release from Prison",
-          "essene_year": 3070,
+          "zadok_year": 3070,
           "gregorian_year": -934,
           "description": "Released by Evil-Merodach; given honor (2 Kings 25:27-30)"
         }
@@ -115,9 +115,9 @@
       "id": "shealtiel",
       "name": "Shealtiel",
       "title": "Son of Jehoiachin, Father of Zerubbabel",
-      "essene_year_born": 3035,
+      "zadok_year_born": 3035,
       "gregorian_year_born": -969,
-      "essene_year_died": 3105,
+      "zadok_year_died": 3105,
       "gregorian_year_died": -899,
       "lifespan_years": 70,
       "parent_id": "jehoiachin",
@@ -139,7 +139,7 @@
       "major_events": [
         {
           "event": "Birth in Exile",
-          "essene_year": 3035,
+          "zadok_year": 3035,
           "gregorian_year": -969,
           "description": "Born in Babylon during exile (1 Chronicles 3:17)"
         }
@@ -159,9 +159,9 @@
       "id": "zerubbabel",
       "name": "Zerubbabel",
       "title": "Governor of Judah, Temple Rebuilder",
-      "essene_year_born": 3062,
+      "zadok_year_born": 3062,
       "gregorian_year_born": -942,
-      "essene_year_died": 3132,
+      "zadok_year_died": 3132,
       "gregorian_year_died": -872,
       "lifespan_years": 70,
       "parent_id": "shealtiel",
@@ -184,19 +184,19 @@
       "major_events": [
         {
           "event": "Return from Exile",
-          "essene_year": 3110,
+          "zadok_year": 3110,
           "gregorian_year": -894,
           "description": "Led first group of exiles back to Judah under Cyrus's decree (Ezra 1:8, 2:2)"
         },
         {
           "event": "Foundation of Temple",
-          "essene_year": 3111,
+          "zadok_year": 3111,
           "gregorian_year": -893,
           "description": "Laid foundation of second Temple (Ezra 3:8-13)"
         },
         {
           "event": "Completion of Temple",
-          "essene_year": 3116,
+          "zadok_year": 3116,
           "gregorian_year": -888,
           "description": "Second Temple completed and dedicated (Ezra 6:14-18)"
         }

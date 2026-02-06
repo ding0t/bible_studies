@@ -5,9 +5,9 @@
       "id": "shem",
       "name": "Shem",
       "title": "Son of Noah, Blessed Son",
-      "essene_year_born": 1558,
+      "zadok_year_born": 1558,
       "gregorian_year_born": -2446,
-      "essene_year_died": 2158,
+      "zadok_year_died": 2158,
       "gregorian_year_died": -1846,
       "lifespan_years": 600,
       "parent_id": "noah",
@@ -31,25 +31,25 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1558,
+          "zadok_year": 1558,
           "gregorian_year": -2446,
           "description": "Son of Noah (Genesis 5:32)"
         },
         {
           "event": "Flood Survival",
-          "essene_year": 1656,
+          "zadok_year": 1656,
           "gregorian_year": -2348,
           "description": "Entered ark with family (Genesis 7:7)"
         },
         {
           "event": "Covenant Blessing",
-          "essene_year": 1657,
+          "zadok_year": 1657,
           "gregorian_year": -2347,
           "description": "Blessed by Noah; promised Canaan (Genesis 9:26-27)"
         },
         {
           "event": "Death",
-          "essene_year": 2158,
+          "zadok_year": 2158,
           "gregorian_year": -1846,
           "description": "Lived 600 years (Genesis 11:11)"
         }
@@ -69,9 +69,9 @@
       "id": "arphaxad",
       "name": "Arphaxad",
       "title": "Son of Shem",
-      "essene_year_born": 1658,
+      "zadok_year_born": 1658,
       "gregorian_year_born": -2346,
-      "essene_year_died": 2096,
+      "zadok_year_died": 2096,
       "gregorian_year_died": -1908,
       "lifespan_years": 438,
       "parent_id": "shem",
@@ -93,13 +93,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1658,
+          "zadok_year": 1658,
           "gregorian_year": -2346,
           "description": "Son of Shem, born after Flood (Genesis 11:10)"
         },
         {
           "event": "Death",
-          "essene_year": 2096,
+          "zadok_year": 2096,
           "gregorian_year": -1908,
           "description": "Lived 438 years (Genesis 11:13)"
         }
@@ -118,9 +118,9 @@
       "id": "shelah",
       "name": "Shelah",
       "title": "Son of Arphaxad",
-      "essene_year_born": 1693,
+      "zadok_year_born": 1693,
       "gregorian_year_born": -2311,
-      "essene_year_died": 2126,
+      "zadok_year_died": 2126,
       "gregorian_year_died": -1878,
       "lifespan_years": 433,
       "parent_id": "arphaxad",
@@ -142,13 +142,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1693,
+          "zadok_year": 1693,
           "gregorian_year": -2311,
           "description": "Son of Arphaxad (Genesis 11:14)"
         },
         {
           "event": "Death",
-          "essene_year": 2126,
+          "zadok_year": 2126,
           "gregorian_year": -1878,
           "description": "Lived 433 years (Genesis 11:15)"
         }
@@ -166,9 +166,9 @@
       "id": "eber",
       "name": "Eber",
       "title": "Son of Shelah, Hebrew Ancestor",
-      "essene_year_born": 1723,
+      "zadok_year_born": 1723,
       "gregorian_year_born": -2281,
-      "essene_year_died": 2187,
+      "zadok_year_died": 2187,
       "gregorian_year_died": -1817,
       "lifespan_years": 464,
       "parent_id": "shelah",
@@ -191,13 +191,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1723,
+          "zadok_year": 1723,
           "gregorian_year": -2281,
           "description": "Son of Shelah (Genesis 11:16)"
         },
         {
           "event": "Death",
-          "essene_year": 2187,
+          "zadok_year": 2187,
           "gregorian_year": -1817,
           "description": "Lived 464 years (Genesis 11:17)"
         }
@@ -216,9 +216,9 @@
       "id": "peleg",
       "name": "Peleg",
       "title": "Son of Eber, Tower of Babel Era",
-      "essene_year_born": 1757,
+      "zadok_year_born": 1757,
       "gregorian_year_born": -2247,
-      "essene_year_died": 1996,
+      "zadok_year_died": 1996,
       "gregorian_year_died": -2008,
       "lifespan_years": 239,
       "parent_id": "eber",
@@ -242,19 +242,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1757,
+          "zadok_year": 1757,
           "gregorian_year": -2247,
           "description": "Son of Eber; name means 'division' (Genesis 11:18)"
         },
         {
           "event": "Tower of Babel",
-          "essene_year": 1757,
+          "zadok_year": 1757,
           "gregorian_year": -2247,
           "description": "Lived during division of languages at Babel (Genesis 11:9)"
         },
         {
           "event": "Death",
-          "essene_year": 1996,
+          "zadok_year": 1996,
           "gregorian_year": -2008,
           "description": "Lived 239 years (Genesis 11:19)"
         }
@@ -272,9 +272,9 @@
       "id": "reu",
       "name": "Reu",
       "title": "Son of Peleg",
-      "essene_year_born": 1787,
+      "zadok_year_born": 1787,
       "gregorian_year_born": -2217,
-      "essene_year_died": 1996,
+      "zadok_year_died": 1996,
       "gregorian_year_died": -2008,
       "lifespan_years": 239,
       "parent_id": "peleg",
@@ -296,13 +296,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1787,
+          "zadok_year": 1787,
           "gregorian_year": -2217,
           "description": "Son of Peleg (Genesis 11:20)"
         },
         {
           "event": "Death",
-          "essene_year": 1996,
+          "zadok_year": 1996,
           "gregorian_year": -2008,
           "description": "Lived 239 years (Genesis 11:21)"
         }
@@ -319,9 +319,9 @@
       "id": "serug",
       "name": "Serug",
       "title": "Son of Reu",
-      "essene_year_born": 1819,
+      "zadok_year_born": 1819,
       "gregorian_year_born": -2185,
-      "essene_year_died": 2049,
+      "zadok_year_died": 2049,
       "gregorian_year_died": -1955,
       "lifespan_years": 230,
       "parent_id": "reu",
@@ -343,13 +343,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1819,
+          "zadok_year": 1819,
           "gregorian_year": -2185,
           "description": "Son of Reu (Genesis 11:22)"
         },
         {
           "event": "Death",
-          "essene_year": 2049,
+          "zadok_year": 2049,
           "gregorian_year": -1955,
           "description": "Lived 230 years (Genesis 11:23)"
         }
@@ -366,9 +366,9 @@
       "id": "nahor",
       "name": "Nahor",
       "title": "Son of Serug, Abraham's Grandfather",
-      "essene_year_born": 1849,
+      "zadok_year_born": 1849,
       "gregorian_year_born": -2155,
-      "essene_year_died": 1997,
+      "zadok_year_died": 1997,
       "gregorian_year_died": -2007,
       "lifespan_years": 148,
       "parent_id": "serug",
@@ -391,13 +391,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1849,
+          "zadok_year": 1849,
           "gregorian_year": -2155,
           "description": "Son of Serug (Genesis 11:24)"
         },
         {
           "event": "Death",
-          "essene_year": 1997,
+          "zadok_year": 1997,
           "gregorian_year": -2007,
           "description": "Lived 148 years (Genesis 11:25)"
         }
@@ -415,9 +415,9 @@
       "id": "terah",
       "name": "Terah",
       "title": "Son of Nahor, Abraham's Father",
-      "essene_year_born": 1879,
+      "zadok_year_born": 1879,
       "gregorian_year_born": -2125,
-      "essene_year_died": 2009,
+      "zadok_year_died": 2009,
       "gregorian_year_died": -1995,
       "lifespan_years": 205,
       "parent_id": "nahor",
@@ -443,25 +443,25 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1879,
+          "zadok_year": 1879,
           "gregorian_year": -2125,
           "description": "Son of Nahor (Genesis 11:26)"
         },
         {
           "event": "Birth of Abraham",
-          "essene_year": 1948,
+          "zadok_year": 1948,
           "gregorian_year": -2056,
           "description": "Fathered Abraham (Genesis 11:26)"
         },
         {
           "event": "Migration to Canaan",
-          "essene_year": 2008,
+          "zadok_year": 2008,
           "gregorian_year": -1996,
           "description": "Left Ur for Canaan but stopped in Haran (Genesis 11:31)"
         },
         {
           "event": "Death",
-          "essene_year": 2009,
+          "zadok_year": 2009,
           "gregorian_year": -1995,
           "description": "Died in Haran, lived 205 years (Genesis 11:32)"
         }
@@ -480,9 +480,9 @@
       "id": "abraham",
       "name": "Abraham",
       "title": "Father of Nations, Covenant Patriarch",
-      "essene_year_born": 1948,
+      "zadok_year_born": 1948,
       "gregorian_year_born": -2056,
-      "essene_year_died": 2123,
+      "zadok_year_died": 2123,
       "gregorian_year_died": -1881,
       "lifespan_years": 175,
       "parent_id": "terah",
@@ -508,49 +508,49 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 1948,
+          "zadok_year": 1948,
           "gregorian_year": -2056,
           "description": "Son of Terah (Genesis 11:26)"
         },
         {
           "event": "Call by God",
-          "essene_year": 2023,
+          "zadok_year": 2023,
           "gregorian_year": -1981,
           "description": "God called Abram to leave homeland (Genesis 12:1)"
         },
         {
           "event": "Covenant Established",
-          "essene_year": 2024,
+          "zadok_year": 2024,
           "gregorian_year": -1980,
           "description": "Made covenant with Abram, promised offspring (Genesis 12:2-3)"
         },
         {
           "event": "Birth of Ishmael",
-          "essene_year": 2035,
+          "zadok_year": 2035,
           "gregorian_year": -1969,
           "description": "Ishmael born to Hagar (Genesis 16:16)"
         },
         {
           "event": "Name Changed to Abraham",
-          "essene_year": 2048,
+          "zadok_year": 2048,
           "gregorian_year": -1956,
           "description": "Abram's name changed to Abraham; covenant renewed (Genesis 17:5)"
         },
         {
           "event": "Birth of Isaac",
-          "essene_year": 2048,
+          "zadok_year": 2048,
           "gregorian_year": -1956,
           "description": "Isaac born to Sarah at age 100 (Genesis 21:5)"
         },
         {
           "event": "Binding of Isaac",
-          "essene_year": 2063,
+          "zadok_year": 2063,
           "gregorian_year": -1941,
           "description": "Abraham tested; offered Isaac; type of crucifixion (Genesis 22:1-19)"
         },
         {
           "event": "Death",
-          "essene_year": 2123,
+          "zadok_year": 2123,
           "gregorian_year": -1881,
           "description": "Died and was gathered to his people, lived 175 years (Genesis 25:7-8)"
         }
@@ -575,9 +575,9 @@
       "id": "sarah",
       "name": "Sarah",
       "title": "Wife of Abraham, Mother of Isaac",
-      "essene_year_born": 1957,
+      "zadok_year_born": 1957,
       "gregorian_year_born": -2047,
-      "essene_year_died": 2123,
+      "zadok_year_died": 2123,
       "gregorian_year_died": -1881,
       "lifespan_years": 127,
       "parent_id": null,
@@ -601,19 +601,19 @@
       "major_events": [
         {
           "event": "Call with Abraham",
-          "essene_year": 2024,
+          "zadok_year": 2024,
           "gregorian_year": -1980,
           "description": "Journeyed with Abraham from Ur to Canaan"
         },
         {
           "event": "Birth of Isaac",
-          "essene_year": 2048,
+          "zadok_year": 2048,
           "gregorian_year": -1956,
           "description": "Bore Isaac at age 90, fulfilling covenant (Genesis 21:2)"
         },
         {
           "event": "Death",
-          "essene_year": 2123,
+          "zadok_year": 2123,
           "gregorian_year": -1881,
           "description": "Died in Hebron, lived 127 years (Genesis 23:1)"
         }
@@ -634,9 +634,9 @@
       "id": "isaac",
       "name": "Isaac",
       "title": "Son of Promise, Covenant Heir",
-      "essene_year_born": 2048,
+      "zadok_year_born": 2048,
       "gregorian_year_born": -1956,
-      "essene_year_died": 2228,
+      "zadok_year_died": 2228,
       "gregorian_year_died": -1776,
       "lifespan_years": 180,
       "parent_id": "abraham",
@@ -662,31 +662,31 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2048,
+          "zadok_year": 2048,
           "gregorian_year": -1956,
           "description": "Born to Abraham and Sarah (Genesis 21:1-3)"
         },
         {
           "event": "Binding of Isaac",
-          "essene_year": 2063,
+          "zadok_year": 2063,
           "gregorian_year": -1941,
           "description": "Offered as sacrifice by Abraham; type of resurrection (Genesis 22:1-19)"
         },
         {
           "event": "Marriage to Rebekah",
-          "essene_year": 2088,
+          "zadok_year": 2088,
           "gregorian_year": -1916,
           "description": "Took Rebekah as bride; loved her (Genesis 24:67)"
         },
         {
           "event": "Birth of Jacob and Esau",
-          "essene_year": 2108,
+          "zadok_year": 2108,
           "gregorian_year": -1896,
           "description": "Twin sons born; Jacob received the birthright (Genesis 25:24-34)"
         },
         {
           "event": "Death",
-          "essene_year": 2228,
+          "zadok_year": 2228,
           "gregorian_year": -1776,
           "description": "Died in Mamre at age 180 (Genesis 35:28-29)"
         }
@@ -708,9 +708,9 @@
       "id": "rebekah",
       "name": "Rebekah",
       "title": "Wife of Isaac, Mother of Jacob",
-      "essene_year_born": 1980,
+      "zadok_year_born": 1980,
       "gregorian_year_born": -2024,
-      "essene_year_died": 2148,
+      "zadok_year_died": 2148,
       "gregorian_year_died": -1856,
       "lifespan_years": 168,
       "parent_id": null,
@@ -734,13 +734,13 @@
       "major_events": [
         {
           "event": "Marriage to Isaac",
-          "essene_year": 2088,
+          "zadok_year": 2088,
           "gregorian_year": -1916,
           "description": "Became Isaac's wife (Genesis 24:51-67)"
         },
         {
           "event": "Birth of Twins",
-          "essene_year": 2108,
+          "zadok_year": 2108,
           "gregorian_year": -1896,
           "description": "Bore Jacob and Esau (Genesis 25:21-26)"
         }
@@ -758,9 +758,9 @@
       "id": "jacob",
       "name": "Jacob (Israel)",
       "title": "Son of Isaac, Father of Twelve Tribes",
-      "essene_year_born": 2108,
+      "zadok_year_born": 2108,
       "gregorian_year_born": -1896,
-      "essene_year_died": 2288,
+      "zadok_year_died": 2288,
       "gregorian_year_died": -1716,
       "lifespan_years": 147,
       "parent_id": "isaac",
@@ -796,37 +796,37 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2108,
+          "zadok_year": 2108,
           "gregorian_year": -1896,
           "description": "Twin son of Isaac; obtained birthright (Genesis 25:24-34)"
         },
         {
           "event": "Dream at Bethel",
-          "essene_year": 2128,
+          "zadok_year": 2128,
           "gregorian_year": -1876,
           "description": "Saw ladder to heaven; covenant renewed (Genesis 28:10-22)"
         },
         {
           "event": "Marriage to Rachel",
-          "essene_year": 2138,
+          "zadok_year": 2138,
           "gregorian_year": -1866,
           "description": "Served Laban 7 years for Rachel (Genesis 29:18-30)"
         },
         {
           "event": "Wrestling at Peniel",
-          "essene_year": 2188,
+          "zadok_year": 2188,
           "gregorian_year": -1816,
           "description": "Wrestled with God; name changed to Israel (Genesis 32:24-32)"
         },
         {
           "event": "Reunion with Esau",
-          "essene_year": 2188,
+          "zadok_year": 2188,
           "gregorian_year": -1816,
           "description": "Reconciliation with brother Esau (Genesis 33:1-15)"
         },
         {
           "event": "Death",
-          "essene_year": 2288,
+          "zadok_year": 2288,
           "gregorian_year": -1716,
           "description": "Died in Egypt; lived 147 years (Genesis 47:28)"
         }
@@ -848,9 +848,9 @@
       "id": "rachel",
       "name": "Rachel",
       "title": "Wife of Jacob, Mother of Joseph and Benjamin",
-      "essene_year_born": 2118,
+      "zadok_year_born": 2118,
       "gregorian_year_born": -1886,
-      "essene_year_died": 2198,
+      "zadok_year_died": 2198,
       "gregorian_year_died": -1806,
       "lifespan_years": 97,
       "parent_id": null,
@@ -874,19 +874,19 @@
       "major_events": [
         {
           "event": "Marriage to Jacob",
-          "essene_year": 2138,
+          "zadok_year": 2138,
           "gregorian_year": -1866,
           "description": "Became Jacob's wife after 7 years service (Genesis 29:18-30)"
         },
         {
           "event": "Birth of Joseph",
-          "essene_year": 2148,
+          "zadok_year": 2148,
           "gregorian_year": -1856,
           "description": "Bore Joseph after years of barrenness (Genesis 30:22-24)"
         },
         {
           "event": "Birth of Benjamin",
-          "essene_year": 2198,
+          "zadok_year": 2198,
           "gregorian_year": -1806,
           "description": "Died giving birth to Benjamin (Genesis 35:16-19)"
         }
@@ -905,9 +905,9 @@
       "id": "judah",
       "name": "Judah",
       "title": "Son of Jacob, Father of Judean Line",
-      "essene_year_born": 2133,
+      "zadok_year_born": 2133,
       "gregorian_year_born": -1871,
-      "essene_year_died": 2261,
+      "zadok_year_died": 2261,
       "gregorian_year_died": -1743,
       "lifespan_years": 129,
       "parent_id": "jacob",
@@ -932,19 +932,19 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2133,
+          "zadok_year": 2133,
           "gregorian_year": -1871,
           "description": "Fourth son of Jacob; praise given to God (Genesis 29:35)"
         },
         {
           "event": "Encounter with Tamar",
-          "essene_year": 2153,
+          "zadok_year": 2153,
           "gregorian_year": -1851,
           "description": "Fathered Perez through Tamar (Genesis 38:1-30)"
         },
         {
           "event": "Blessing from Jacob",
-          "essene_year": 2288,
+          "zadok_year": 2288,
           "gregorian_year": -1716,
           "description": "Received scepter promise; Messiah foretold (Genesis 49:8-12)"
         }
@@ -964,9 +964,9 @@
       "id": "leah",
       "name": "Leah",
       "title": "Wife of Jacob, Mother of Judah",
-      "essene_year_born": 2113,
+      "zadok_year_born": 2113,
       "gregorian_year_born": -1891,
-      "essene_year_died": 2208,
+      "zadok_year_died": 2208,
       "gregorian_year_died": -1796,
       "lifespan_years": 97,
       "parent_id": null,
@@ -991,13 +991,13 @@
       "major_events": [
         {
           "event": "Marriage to Jacob",
-          "essene_year": 2138,
+          "zadok_year": 2138,
           "gregorian_year": -1866,
           "description": "Given to Jacob instead of Rachel (Genesis 29:16-30)"
         },
         {
           "event": "Birth of Judah",
-          "essene_year": 2133,
+          "zadok_year": 2133,
           "gregorian_year": -1871,
           "description": "Bore the son through whom Messiah came"
         }
@@ -1014,9 +1014,9 @@
       "id": "perez",
       "name": "Perez",
       "title": "Son of Judah, Ancestor of David",
-      "essene_year_born": 2153,
+      "zadok_year_born": 2153,
       "gregorian_year_born": -1851,
-      "essene_year_died": 2233,
+      "zadok_year_died": 2233,
       "gregorian_year_died": -1771,
       "lifespan_years": 80,
       "parent_id": "judah",
@@ -1040,13 +1040,13 @@
       "major_events": [
         {
           "event": "Birth",
-          "essene_year": 2153,
+          "zadok_year": 2153,
           "gregorian_year": -1851,
           "description": "Twin son born to Judah and Tamar (Genesis 38:27-30)"
         },
         {
           "event": "Entry to Egypt",
-          "essene_year": 2168,
+          "zadok_year": 2168,
           "gregorian_year": -1836,
           "description": "Went to Egypt with Jacob and family (Genesis 46:12)"
         }
@@ -1066,9 +1066,9 @@
       "id": "tamar",
       "name": "Tamar",
       "title": "Wife of Er and Judah, Mother of Perez",
-      "essene_year_born": 2130,
+      "zadok_year_born": 2130,
       "gregorian_year_born": -1874,
-      "essene_year_died": 2210,
+      "zadok_year_died": 2210,
       "gregorian_year_died": -1794,
       "lifespan_years": 80,
       "parent_id": null,
@@ -1091,13 +1091,13 @@
       "major_events": [
         {
           "event": "Marriage to Er",
-          "essene_year": 2150,
+          "zadok_year": 2150,
           "gregorian_year": -1854,
           "description": "Married Er, Judah's firstborn (Genesis 38:6)"
         },
         {
           "event": "Levirate Marriage",
-          "essene_year": 2153,
+          "zadok_year": 2153,
           "gregorian_year": -1851,
           "description": "Secured her right through Judah; bore Perez (Genesis 38:1-30)"
         }
