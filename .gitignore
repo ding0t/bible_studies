@@ -2,6 +2,7 @@
 node_modules/
 dist/
 .astro/
+site/
 .env
 .env.local
 # Byte-compiled / optimized / DLL files
