@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.jsx';
 import { getCollection } from 'astro:content';
+import { getCategoryInfo } from '../utils/categoryLabels.js';
 
 // Get all published studies with error handling
 let allStudies = [];
@@ -34,60 +35,27 @@ const categorizedStudies = publishedStudies.reduce((acc, study) => {
   });
   return acc;
 }, {});
-
-const categoryLabels = {
-  'prophecy': { label: '🔮 Prophecy Fulfilled in Jesus', color: '#dc2626' },
-  'theology': { label: '📖 Theological Studies', color: '#7c3aed' },
-  'spiritual-disciplines': { label: '🙏 Spiritual Disciplines', color: '#2563eb' },
-  'sins': { label: '⚠️ Sin & Redemption', color: '#f59e0b' },
-  'feasts': { label: '🎉 Feasts & Seasons', color: '#10b981' },
-  'sermons': { label: '🎤 Sermons', color: '#06b6d4' },
-  'hebrew-studies': { label: '🕎 Hebrew Studies', color: '#8b5cf6' },
-  'dreams-visions': { label: '💭 Dreams & Visions', color: '#ec4899' },
-  'dreams': { label: '💭 Dreams', color: '#ec4899' },
-  'teaching-resources': { label: '📚 Teaching Resources', color: '#0ea5e9' },
-  'deliverance': { label: '⛓️ Deliverance & Freedom', color: '#64748b' },
-  'investigation': { label: '🔍 Investigation', color: '#78716c' },
-  'archeology': { label: '🏺 Archeology', color: '#a16207' },
-  'commentaries': { label: '📖 Bible Commentaries', color: '#f59e0b' },
-  'other': { label: '📝 Other Studies', color: '#6366f1' }
-};
-
-// Helper function to get category info with fallback for unknown categories
-const getCategoryInfo = (category) => {
-  if (categoryLabels[category]) {
-    return categoryLabels[category];
-  }
-  // Generate label from category name (capitalize and format)
-  const formatted = category.split('-').map(word =>
-    word.charAt(0).toUpperCase() + word.slice(1)
-  ).join(' ');
-  return {
-    label: `📚 ${formatted}`,
-    color: '#6366f1' // Default color
-  };
-};
 ---
 
 <BaseLayout title="Studies">
-  <div style="max-width: 1400px; margin: 0 auto; padding: 2rem 1rem;">
-    
+  <div class="studies-page">
+
     <!-- Header Section -->
-    <div style="margin-bottom: 3rem;">
-      <h1 style="color: #1e293b; font-size: 2.5rem; margin-bottom: 0.5rem;">Biblical Studies</h1>
-      <p style="color: #64748b; font-size: 1.125rem;">Deep exploration of Scripture, prophecy, and theology</p>
-      <p style="color: #94a3b8; margin-top: 0.5rem;">{publishedStudies.length} published studies</p>
+    <div class="studies-header">
+      <h1>Biblical Studies</h1>
+      <p class="subtitle">Deep exploration of Scripture, prophecy, and theology</p>
+      <p class="count">{publishedStudies.length} published studies</p>
     </div>
 
     <!-- Quick Stats -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 3rem;">
+    <div class="category-stats">
       {Object.entries(categorizedStudies).map(([category, studies]) => {
         const info = getCategoryInfo(category);
         return (
-          <div style={`background: linear-gradient(135deg, ${info.color}15, ${info.color}05); padding: 1rem; border-radius: 0.5rem; border-left: 4px solid ${info.color};`}>
-            <div style="font-size: 2rem; margin-bottom: 0.25rem;">{info.label.split(' ')[0]}</div>
-            <div style="color: #64748b; font-size: 0.875rem;">{studies.length} studies</div>
-          </div>
+          <a href={`#${category}`} class="stat-card" style={`--cat-color: ${info.color};`}>
+            <div class="stat-icon">{info.label.split(' ')[0]}</div>
+            <div class="stat-count">{studies.length} studies</div>
+          </a>
         );
       })}
     </div>
@@ -96,72 +64,39 @@ const getCategoryInfo = (category) => {
     {Object.entries(categorizedStudies).sort().map(([category, studies]) => {
       const info = getCategoryInfo(category);
       return (
-        <div style="margin-bottom: 3rem;" id={category}>
-          <div style={`border-bottom: 3px solid ${info.color}; padding-bottom: 0.75rem; margin-bottom: 1.5rem;`}>
-            <h2 style={`color: ${info.color}; font-size: 1.75rem;`}>{info.label}</h2>
+        <div class="category-section" id={category}>
+          <div class="category-header" style={`--cat-color: ${info.color};`}>
+            <h2>{info.label}</h2>
           </div>
 
-          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem;">
+          <div class="study-grid">
             {studies.map((study) => (
-              <a href={`/studies/${study.slug}`} style="text-decoration: none;">
-                <div 
-                  style={`
-                    background: white;
-                    border: 1px solid #e2e8f0;
-                    border-radius: 0.75rem;
-                    padding: 1.5rem;
-                    transition: all 0.3s ease;
-                    height: 100%;
-                    display: flex;
-                    flex-direction: column;
-                    border-left: 4px solid ${info.color};
-                  `}
-                  onmouseover={`
-                    this.style.boxShadow = '0 10px 15px rgba(0,0,0,0.1)';
-                    this.style.transform = 'translateY(-4px)';
-                    this.style.borderLeftColor = '${info.color}';
-                  `}
-                  onmouseout={`
-                    this.style.boxShadow = 'none';
-                    this.style.transform = 'translateY(0)';
-                  `}
-                >
-                  <h3 style="color: #1e293b; margin-bottom: 0.75rem; font-size: 1.125rem; line-height: 1.4;">
-                    {study.title}
-                  </h3>
-                  
-                  <p style="color: #64748b; font-size: 0.875rem; margin-bottom: 1rem; flex-grow: 1;">
-                    {study.description}
-                  </p>
+              <a href={`/studies/${study.slug}`} class="study-card" style={`--cat-color: ${info.color};`}>
+                <h3 class="card-title">{study.title}</h3>
 
-                  {study.bible_references && study.bible_references.length > 0 && (
-                    <div style="margin-bottom: 0.75rem;">
-                      <p style="color: #94a3b8; font-size: 0.75rem; margin-bottom: 0.25rem;">Bible References:</p>
-                      <div style="display: flex; flex-wrap: wrap; gap: 0.25rem;">
-                        {study.bible_references.slice(0, 3).map((ref) => (
-                          <span style={`background: ${info.color}15; color: ${info.color}; padding: 0.25rem 0.5rem; border-radius: 0.25rem; font-size: 0.75rem;`}>
-                            {ref}
-                          </span>
-                        ))}
-                        {study.bible_references.length > 3 && (
-                          <span style="color: #94a3b8; font-size: 0.75rem; padding: 0.25rem 0.5rem;">
-                            +{study.bible_references.length - 3} more
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                  )}
+                <p class="card-description">{study.description}</p>
 
-                  {study.tags && study.tags.length > 0 && (
-                    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto;">
-                      {study.tags.slice(0, 3).map((tag) => (
-                        <span style="background: #f1f5f9; color: #475569; padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.75rem;">
-                          #{tag}
-                        </span>
+                {study.bible_references && study.bible_references.length > 0 && (
+                  <div class="card-refs">
+                    <span class="refs-label">Bible References:</span>
+                    <div class="refs-list">
+                      {study.bible_references.slice(0, 3).map((ref) => (
+                        <span class="ref-badge">{ref}</span>
                       ))}
+                      {study.bible_references.length > 3 && (
+                        <span class="refs-more">+{study.bible_references.length - 3} more</span>
+                      )}
                     </div>
-                  )}
-                </div>
+                  </div>
+                )}
+
+                {study.tags && study.tags.length > 0 && (
+                  <div class="card-tags">
+                    {study.tags.slice(0, 3).map((tag) => (
+                      <span class="tag">#{tag}</span>
+                    ))}
+                  </div>
+                )}
               </a>
             ))}
           </div>
@@ -171,11 +106,192 @@ const getCategoryInfo = (category) => {
 
     <!-- Empty State Fallback -->
     {publishedStudies.length === 0 && (
-      <div style="text-align: center; padding: 3rem; background: #f8fafc; border-radius: 0.75rem;">
-        <p style="color: #64748b; font-size: 1.125rem;">No studies published yet.</p>
-        <p style="color: #94a3b8;">Check back soon for deep biblical studies and theological insights.</p>
+      <div class="empty-state">
+        <p>No studies published yet.</p>
+        <p class="empty-hint">Check back soon for deep biblical studies and theological insights.</p>
       </div>
     )}
 
   </div>
+
+  <style>
+    .studies-page {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    .studies-header {
+      margin-bottom: 3rem;
+    }
+
+    .studies-header h1 {
+      color: var(--color-text, #1e293b);
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    .studies-header .subtitle {
+      color: var(--color-text-muted, #64748b);
+      font-size: 1.125rem;
+    }
+
+    .studies-header .count {
+      color: var(--color-text-subtle, #94a3b8);
+      margin-top: 0.5rem;
+    }
+
+    /* Category stats grid */
+    .category-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-bottom: 3rem;
+    }
+
+    .stat-card {
+      background: linear-gradient(135deg, color-mix(in srgb, var(--cat-color) 15%, transparent), color-mix(in srgb, var(--cat-color) 5%, transparent));
+      padding: 1rem;
+      border-radius: 0.5rem;
+      border-left: 4px solid var(--cat-color);
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .stat-icon {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .stat-count {
+      color: var(--color-text-muted, #64748b);
+      font-size: 0.875rem;
+    }
+
+    /* Category sections */
+    .category-section {
+      margin-bottom: 3rem;
+    }
+
+    .category-header {
+      border-bottom: 3px solid var(--cat-color);
+      padding-bottom: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .category-header h2 {
+      color: var(--cat-color);
+      font-size: 1.75rem;
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    /* Study grid */
+    .study-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .study-card {
+      background: var(--color-bg-elevated, white);
+      border: 1px solid var(--color-border, #e2e8f0);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      border-left: 4px solid var(--cat-color);
+      text-decoration: none;
+    }
+
+    .study-card:hover {
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      transform: translateY(-4px);
+    }
+
+    .card-title {
+      color: var(--color-text, #1e293b);
+      margin-bottom: 0.75rem;
+      font-size: 1.125rem;
+      line-height: 1.4;
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    .card-description {
+      color: var(--color-text-muted, #64748b);
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+      flex-grow: 1;
+    }
+
+    .card-refs {
+      margin-bottom: 0.75rem;
+    }
+
+    .refs-label {
+      color: var(--color-text-subtle, #94a3b8);
+      font-size: 0.75rem;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .refs-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+    }
+
+    .ref-badge {
+      background: color-mix(in srgb, var(--cat-color) 15%, transparent);
+      color: var(--cat-color);
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.25rem;
+      font-size: 0.75rem;
+    }
+
+    .refs-more {
+      color: var(--color-text-subtle, #94a3b8);
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: auto;
+    }
+
+    .tag {
+      background: var(--color-card-bg, #f1f5f9);
+      color: var(--color-text-subtle, #475569);
+      padding: 0.25rem 0.75rem;
+      border-radius: 1rem;
+      font-size: 0.75rem;
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 3rem;
+      background: var(--color-card-bg, #f8fafc);
+      border-radius: 0.75rem;
+    }
+
+    .empty-state p {
+      color: var(--color-text-muted, #64748b);
+      font-size: 1.125rem;
+    }
+
+    .empty-hint {
+      color: var(--color-text-subtle, #94a3b8);
+    }
+  </style>
 </BaseLayout>

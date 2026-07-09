@@ -12,3 +12,7 @@ __pycache__/
 .DS_Store
 *.log
 npm-debug.log*
+# Claude
+.claude/settings.local.json
+# Superpowers scratch
+.superpowers/

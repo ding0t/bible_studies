@@ -1,6 +1,6 @@
 ---
 title: "Be Prepared"
-category: "spiritual discipline"
+category: "spiritual-disciplines"
 description: "Apologetics: preparing believers to defend their faith with gentleness and respect"
 tags: ["apologetics", "defense-of-faith", "1peter", "preparation"]
 draft: false

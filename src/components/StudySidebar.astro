@@ -1,0 +1,249 @@
+---
+import { getCollection } from 'astro:content';
+import {
+  buildContentTree,
+  getSortedSections,
+  getSortedSubsections,
+  getEntryUrl,
+} from '../utils/contentTree.js';
+
+interface Props {
+  currentSlug?: string;
+}
+
+const { currentSlug } = Astro.props;
+
+const all = await getCollection('studies');
+const published = all
+  .filter((e) => e?.data && !e.data.draft)
+  .filter((e) => e.data.title && e.data.title !== 'Untitled Study');
+
+const tree = buildContentTree(published);
+const sortedSections = getSortedSections(tree);
+
+// Determine active section and subsection from currentSlug
+const slugParts = currentSlug ? currentSlug.split('/') : [];
+const activeSection = slugParts[0] ?? null;
+const activeSubsection = slugParts.length >= 3 ? slugParts[1] : null;
+---
+
+<aside class="study-sidebar-nav">
+  <div class="sidebar-header">
+    <a href="/" class="sidebar-title">📖 Biblical Studies</a>
+  </div>
+
+  <nav class="sidebar-sections">
+    {sortedSections.map(([sectionKey, sectionNode]) => {
+      const isSectionActive = sectionKey === activeSection;
+      const totalCount = sectionNode.files.length +
+        Object.values(sectionNode.subsections).reduce((n, s) => n + s.files.length, 0);
+
+      return (
+        <details class="section-group" open={isSectionActive}>
+          <summary class="section-header" style={`--cat-color: ${sectionNode.meta.color};`}>
+            <span class="section-name">{sectionNode.meta.label}</span>
+            <span class="section-count">{totalCount}</span>
+          </summary>
+
+          {/* Level-2 subsections */}
+          {getSortedSubsections(sectionNode).map(([subKey, subNode]) => {
+            const isSubActive = isSectionActive && subKey === activeSubsection;
+            return (
+              <details class="subsection-group" open={isSubActive}>
+                <summary class="subsection-header" style={`--cat-color: ${subNode.meta.color};`}>
+                  <span class="subsection-name">{subNode.meta.label}</span>
+                  <span class="subsection-count">{subNode.files.length}</span>
+                </summary>
+                <ul class="study-list">
+                  {subNode.files.map((entry) => {
+                    const url = getEntryUrl(entry);
+                    const isActive = currentSlug && url === `/${currentSlug}`;
+                    return (
+                      <li>
+                        <a href={url} class:list={['study-link', { active: isActive }]}>
+                          {entry.data.title}
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </details>
+            );
+          })}
+
+          {/* Files directly in section (no subsection) */}
+          {sectionNode.files.length > 0 && (
+            <ul class="study-list">
+              {sectionNode.files.map((entry) => {
+                const url = getEntryUrl(entry);
+                const isActive = currentSlug && url === `/${currentSlug}`;
+                return (
+                  <li>
+                    <a href={url} class:list={['study-link', { active: isActive }]}>
+                      {entry.data.title}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          )}
+        </details>
+      );
+    })}
+  </nav>
+</aside>
+
+<style>
+  .study-sidebar-nav {
+    background: var(--color-bg-elevated, white);
+    border-radius: 0.75rem;
+    border: 1px solid var(--color-border, #e2e8f0);
+    overflow: hidden;
+  }
+
+  .sidebar-header {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--color-border, #e2e8f0);
+    background: var(--color-card-bg, #f8fafc);
+  }
+
+  .sidebar-title {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-text, #1e293b);
+    text-decoration: none;
+    display: block;
+  }
+  .sidebar-title:hover { color: var(--color-primary, #3b82f6); }
+
+  .sidebar-sections {
+    padding: 0.5rem 0;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+  }
+
+  /* Level 1: Section */
+  .section-group {
+    border-bottom: 1px solid var(--color-border, #e2e8f0);
+  }
+  .section-group:last-child { border-bottom: none; }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    user-select: none;
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--color-text, #1e293b);
+    transition: background 0.2s;
+    list-style: none;
+  }
+  .section-header::-webkit-details-marker { display: none; }
+  .section-header::before {
+    content: '▶';
+    font-size: 0.625rem;
+    transition: transform 0.2s;
+    color: var(--color-text-muted, #64748b);
+  }
+  details[open] > .section-header::before { transform: rotate(90deg); }
+  .section-header:hover { background: var(--color-card-hover, #f1f5f9); }
+
+  .section-name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  .section-count {
+    background: var(--cat-color, #6366f1);
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.125rem 0.45rem;
+    border-radius: 1rem;
+    font-weight: 600;
+  }
+
+  /* Level 2: Subsection */
+  .subsection-group {
+    border-top: 1px solid var(--color-border, #e2e8f0);
+  }
+  .subsection-group:first-of-type { border-top: none; }
+
+  .subsection-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.25rem 0.5rem 2rem;
+    cursor: pointer;
+    user-select: none;
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    color: var(--color-text-muted, #64748b);
+    transition: background 0.2s;
+    list-style: none;
+  }
+  .subsection-header::-webkit-details-marker { display: none; }
+  .subsection-header::before {
+    content: '▶';
+    font-size: 0.55rem;
+    transition: transform 0.2s;
+    color: var(--color-text-subtle, #94a3b8);
+  }
+  details[open] > .subsection-header::before { transform: rotate(90deg); }
+  .subsection-header:hover { background: var(--color-card-hover, #f1f5f9); }
+
+  .subsection-name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  .subsection-count {
+    background: color-mix(in srgb, var(--cat-color, #6366f1) 70%, transparent);
+    color: white;
+    font-size: 0.65rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 1rem;
+    font-weight: 600;
+  }
+
+  /* Study links */
+  .study-list { list-style: none; padding: 0; margin: 0; padding-bottom: 0.5rem; }
+  .study-list li { margin: 0; padding: 0; }
+
+  /* Links in sections (no subsection) indent at level 1 */
+  .section-group > .study-list .study-link {
+    padding-left: 2.5rem;
+  }
+
+  /* Links in subsections indent at level 2 */
+  .subsection-group .study-link {
+    padding-left: 3.25rem;
+  }
+
+  .study-link {
+    display: block;
+    padding-top: 0.35rem;
+    padding-right: 1.25rem;
+    padding-bottom: 0.35rem;
+    font-size: 0.8125rem;
+    color: var(--color-text-muted, #64748b);
+    text-decoration: none;
+    transition: all 0.2s;
+    border-left: 2px solid transparent;
+  }
+  .study-link:hover {
+    background: var(--color-card-hover, #f1f5f9);
+    color: var(--color-primary, #3b82f6);
+    border-left-color: var(--color-primary, #3b82f6);
+  }
+  .study-link.active {
+    background: linear-gradient(90deg, rgba(59,130,246,0.1) 0%, transparent 100%);
+    color: var(--color-primary, #3b82f6);
+    font-weight: 600;
+    border-left-color: var(--color-primary, #3b82f6);
+  }
+
+  @media (max-width: 1199px) {
+    .study-sidebar-nav { margin-bottom: 1.5rem; }
+    .sidebar-sections { max-height: none; }
+  }
+</style>

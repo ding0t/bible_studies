@@ -16,8 +16,8 @@
     "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,astro,json,css}\""
   },
   "dependencies": {
-    "@astrojs/react": "^3.0.0",
-    "astro": "^4.0.0",
+    "@astrojs/react": "^4.4.2",
+    "astro": "^5.16.15",
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

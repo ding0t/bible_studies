@@ -9,7 +9,7 @@ const studies = defineCollection({
 
     // Make all other fields optional with sensible defaults
     year: z.number().catch(undefined),
-    category: z.string().default('other'),
+    // category removed — directory path is now the source of truth
     description: z.string().default(''),
     tags: z.array(z.string()).catch([]),
     draft: z.boolean().catch(false),

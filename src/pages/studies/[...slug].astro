@@ -1,6 +1,9 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.jsx';
+import { getCategoryInfo } from '../../utils/categoryLabels.js';
+import TableOfContents from '../../components/TableOfContents.astro';
+import StudySidebar from '../../components/StudySidebar.astro';
 
 export async function getStaticPaths() {
   const studies = await getCollection('studies');
@@ -11,150 +14,322 @@ export async function getStaticPaths() {
     const slug = entry.id.replace(/\.md$/, '').replace(/^studies\//, '');
     return {
       params: { slug: slug },
-      props: { entry },
+      props: { entry, slug },
     };
   });
 }
 
 interface Props {
   entry: any;
+  slug: string;
 }
 
-const { entry } = Astro.props;
-const { Content } = await render(entry);
-
-const categoryLabels: Record<string, { label: string; color: string }> = {
-  'prophecy': { label: '🔮 Prophecy Fulfilled in Jesus', color: '#dc2626' },
-  'theology': { label: '📖 Theological Studies', color: '#7c3aed' },
-  'spiritual-disciplines': { label: '🙏 Spiritual Disciplines', color: '#2563eb' },
-  'spiritual discipline': { label: '🙏 Spiritual Disciplines', color: '#2563eb' },
-  'sins': { label: '⚠️ Sin & Redemption', color: '#f59e0b' },
-  'feasts': { label: '🎉 Feasts & Seasons', color: '#10b981' },
-  'sermons': { label: '🎤 Sermons', color: '#06b6d4' },
-  'hebrew-studies': { label: '🕎 Hebrew Studies', color: '#8b5cf6' },
-  'dreams-visions': { label: '💭 Dreams & Visions', color: '#ec4899' },
-  'dreams': { label: '💭 Dreams', color: '#ec4899' },
-  'teaching-resources': { label: '📚 Teaching Resources', color: '#0ea5e9' },
-  'deliverance': { label: '⛓️ Deliverance & Freedom', color: '#64748b' },
-  'investigation': { label: '🔍 Investigation', color: '#78716c' },
-  'archeology': { label: '🏺 Archeology', color: '#a16207' },
-  'commentaries': { label: '📖 Bible Commentaries', color: '#f59e0b' },
-  'other': { label: '📝 Other Studies', color: '#6366f1' }
-};
-
-// Helper function to get category info with fallback for unknown categories
-const getCategoryInfo = (category: string | undefined) => {
-  const cat = category || 'other';
-  if (categoryLabels[cat]) {
-    return categoryLabels[cat];
-  }
-  // Generate label from category name (capitalize and format)
-  const formatted = cat.split('-').map(word =>
-    word.charAt(0).toUpperCase() + word.slice(1)
-  ).join(' ');
-  return {
-    label: `📚 ${formatted}`,
-    color: '#6366f1' // Default color
-  };
-};
-
+const { entry, slug } = Astro.props;
+const { Content, headings } = await render(entry);
 const categoryInfo = getCategoryInfo(entry.data.category);
 ---
 
 <BaseLayout title={entry.data.title}>
-  <div style="max-width: 900px; margin: 0 auto; padding: 2rem 1rem;">
-    
-    <!-- Back Link -->
-    <a href="/studies" style="color: #3b82f6; text-decoration: none; font-size: 0.875rem; display: inline-block; margin-bottom: 1.5rem;">
-      ← Back to Studies
-    </a>
-
-    <!-- Header -->
-    <div style="margin-bottom: 2rem;">
-      <div style={`display: inline-block; background: ${categoryInfo.color}15; color: ${categoryInfo.color}; padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem; margin-bottom: 1rem;`}>
-        {categoryInfo.label}
+  <div class="study-page-layout" id="study-layout">
+    <!-- Left Sidebar: Navigation -->
+    <aside class="nav-sidebar" id="nav-sidebar">
+      <div class="nav-sidebar-sticky">
+        <StudySidebar currentSlug={slug} />
       </div>
-      
-      <h1 style="color: #1e293b; font-size: 2.25rem; margin-bottom: 1rem; line-height: 1.2;">
-        {entry.data.title}
-      </h1>
-      
-      {entry.data.description && (
-        <p style="color: #64748b; font-size: 1.125rem; margin-bottom: 1rem;">
-          {entry.data.description}
-        </p>
-      )}
+    </aside>
 
-      <!-- Meta Information -->
-      <div style="display: flex; flex-wrap: wrap; gap: 2rem; color: #64748b; font-size: 0.875rem; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0; padding: 1rem 0;">
-        {entry.data.bible_references && entry.data.bible_references.length > 0 && (
-          <div>
-            <strong style="color: #1e293b;">Bible References:</strong>
-            <div style="margin-top: 0.25rem;">{entry.data.bible_references.join(', ')}</div>
-          </div>
-        )}
-        {entry.data.gregorian_year && (
-          <div>
-            <strong style="color: #1e293b;">Year:</strong>
-            <div style="margin-top: 0.25rem;">{entry.data.gregorian_year} AD</div>
-          </div>
-        )}
-        {entry.data.zadok_year && (
-          <div>
-            <strong style="color: #1e293b;">Zadok Year:</strong>
-            <div style="margin-top: 0.25rem;">{entry.data.zadok_year}</div>
-          </div>
-        )}
+    <!-- Main Content Area -->
+    <div class="study-main">
+      <!-- Controls bar -->
+      <div class="content-controls">
+        <a href="/studies" class="back-link mobile-only">
+          ← Back to Studies
+        </a>
+        <button class="toggle-sidebar-btn" id="toggle-sidebars" title="Toggle sidebars (F)">
+          <span class="expand-icon">⬚</span>
+          <span class="collapse-icon">◫</span>
+          <span class="btn-text">Focus</span>
+        </button>
       </div>
-    </div>
 
-    <!-- Content -->
-    <article style="color: #404040; line-height: 1.8; font-size: 1rem;">
-      <div class="prose prose-lg">
-        <Content />
-      </div>
-    </article>
+      <!-- Header -->
+      <div class="study-header">
+        <div class="category-badge" style={`--cat-color: ${categoryInfo.color};`}>
+          {categoryInfo.label}
+        </div>
 
-    <!-- Tags -->
-    {entry.data.tags && entry.data.tags.length > 0 && (
-      <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #e2e8f0;">
-        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-          {entry.data.tags.map((tag: string) => (
-            <span style="background: #f1f5f9; color: #475569; padding: 0.5rem 1rem; border-radius: 1rem; font-size: 0.875rem;">
-              #{tag}
-            </span>
-          ))}
+        <h1 class="study-title">
+          {entry.data.title}
+        </h1>
+
+        {entry.data.description && (
+          <p class="study-description">
+            {entry.data.description}
+          </p>
+        )}
+
+        <!-- Meta Information -->
+        <div class="study-meta">
+          {entry.data.bible_references && entry.data.bible_references.length > 0 && (
+            <div class="meta-item">
+              <strong>Bible References:</strong>
+              <div>{entry.data.bible_references.join(', ')}</div>
+            </div>
+          )}
+          {entry.data.gregorian_year && (
+            <div class="meta-item">
+              <strong>Year:</strong>
+              <div>{entry.data.gregorian_year} AD</div>
+            </div>
+          )}
+          {entry.data.zadok_year && (
+            <div class="meta-item">
+              <strong>Zadok Year:</strong>
+              <div>{entry.data.zadok_year}</div>
+            </div>
+          )}
         </div>
       </div>
-    )}
 
-    <!-- Navigation -->
-    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e2e8f0;">
-      <a href="/studies" style="display: inline-block; padding: 0.75rem 1.5rem; background: #3b82f6; color: white; text-decoration: none; border-radius: 0.375rem; font-weight: 500; transition: all 0.2s;" onmouseover="this.style.background='#2563eb'" onmouseout="this.style.background='#3b82f6'">
-        ← Back to All Studies
-      </a>
+      <!-- Content -->
+      <article class="study-content">
+        <div class="prose prose-lg">
+          <Content />
+        </div>
+      </article>
+
+      <!-- Tags -->
+      {entry.data.tags && entry.data.tags.length > 0 && (
+        <div class="study-tags">
+          <div class="tags-list">
+            {entry.data.tags.map((tag: string) => (
+              <span class="tag">#{tag}</span>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
 
+    <!-- Right Sidebar: TOC (desktop only) -->
+    {headings.length > 0 && (
+      <aside class="toc-sidebar">
+        <div class="toc-sticky">
+          <TableOfContents headings={headings} />
+        </div>
+      </aside>
+    )}
   </div>
 
-  <!-- Prose Styles -->
+  <!-- Layout and Prose Styles -->
   <style>
-    .prose {
-      --tw-prose-body: #404040;
-      --tw-prose-headings: #1e293b;
-      --tw-prose-links: #3b82f6;
-      --tw-prose-bold: #1e293b;
-      --tw-prose-code: #e11d48;
-      --tw-prose-pre-bg: #f8fafc;
-      --tw-prose-pre-code: #404040;
-      --tw-prose-hr: #e2e8f0;
-      --tw-prose-th-borders: #cbd5e1;
-      --tw-prose-td-borders: #e2e8f0;
-      --tw-prose-blockquote-borders: #cbd5e1;
-      --tw-prose-blockquote-color: #64748b;
+    /* Override BaseLayout main constraint for full-width study layout */
+    :global(main) {
+      max-width: none !important;
+      padding: 0 !important;
     }
 
-    .prose :is(h1, h2, h3, h4, h5, h6) {
+    /* Three-column layout: nav | content | toc */
+    .study-page-layout {
+      width: 100%;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      box-sizing: border-box;
+    }
+
+    .nav-sidebar {
+      display: none;
+    }
+
+    .nav-sidebar-sticky {
+      position: sticky;
+      top: 2rem;
+      max-height: calc(100vh - 4rem);
+      overflow-y: auto;
+    }
+
+    .study-main {
+      min-width: 0; /* Allow shrinking in grid */
+      overflow: hidden; /* Contain images and other content */
+      background: var(--color-bg-elevated, white);
+      border-radius: 0.75rem;
+      padding: 2rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .toc-sidebar {
+      display: none;
+    }
+
+    .toc-sticky {
+      position: sticky;
+      top: 2rem;
+      max-height: calc(100vh - 4rem);
+      overflow-y: auto;
+    }
+
+    /* Mobile back link */
+    .back-link {
+      color: var(--color-primary, #3b82f6);
+      text-decoration: none;
+      font-size: 0.875rem;
+      display: inline-block;
+      margin-bottom: 1.5rem;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    .mobile-only {
+      display: block;
+    }
+
+    /* Study header */
+    .study-header {
+      margin-bottom: 2rem;
+    }
+
+    .category-badge {
+      display: inline-block;
+      background: color-mix(in srgb, var(--cat-color) 15%, transparent);
+      color: var(--cat-color);
+      padding: 0.5rem 1rem;
+      border-radius: 0.375rem;
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+    }
+
+    .study-title {
+      color: var(--color-text, #1e293b);
+      font-size: 2.25rem;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    .study-description {
+      color: var(--color-text-muted, #64748b);
+      font-size: 1.125rem;
+      margin-bottom: 1rem;
+    }
+
+    .study-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      color: var(--color-text-muted, #64748b);
+      font-size: 0.875rem;
+      border-top: 1px solid var(--color-border, #e2e8f0);
+      border-bottom: 1px solid var(--color-border, #e2e8f0);
+      padding: 1rem 0;
+    }
+
+    .meta-item strong {
+      color: var(--color-text, #1e293b);
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    /* Study content */
+    .study-content {
+      color: var(--color-text, #404040);
+      line-height: 1.8;
+      font-size: 1rem;
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    /* Tags */
+    .study-tags {
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--color-border, #e2e8f0);
+    }
+
+    .tags-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      background: var(--color-card-bg, #f1f5f9);
+      color: var(--color-text-subtle, #475569);
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+      font-size: 0.875rem;
+    }
+
+    /* Tablet: show TOC sidebar */
+    @media (min-width: 1024px) {
+      .study-page-layout {
+        grid-template-columns: 1fr 240px;
+      }
+
+      .toc-sidebar {
+        display: block;
+      }
+
+      .study-main {
+        max-width: none;
+      }
+    }
+
+    /* Desktop: show nav sidebar */
+    @media (min-width: 1400px) {
+      .study-page-layout {
+        grid-template-columns: 260px 1fr 220px;
+      }
+
+      .nav-sidebar {
+        display: block;
+      }
+
+      .mobile-only {
+        display: none;
+      }
+    }
+
+    /* Extra-wide screens: grow sidebars proportionally */
+    @media (min-width: 1800px) {
+      .study-page-layout {
+        grid-template-columns: 300px 1fr 260px;
+      }
+    }
+
+    /* Very wide screens: cap content width for readability */
+    @media (min-width: 2200px) {
+      .study-page-layout {
+        grid-template-columns: 320px minmax(800px, 1000px) 300px;
+        justify-content: center;
+      }
+    }
+
+    /* Global prose styles for rendered markdown content */
+    :global(.prose) {
+      font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+      width: 100%;
+      max-width: 100%;
+      overflow-wrap: break-word;
+      --tw-prose-body: var(--color-text, #404040);
+      --tw-prose-headings: var(--color-text, #1e293b);
+      --tw-prose-links: var(--color-primary, #3b82f6);
+      --tw-prose-bold: var(--color-text, #1e293b);
+      --tw-prose-code: var(--color-code-text, #e11d48);
+      --tw-prose-pre-bg: var(--color-card-bg, #f8fafc);
+      --tw-prose-pre-code: var(--color-text, #404040);
+      --tw-prose-hr: var(--color-border, #e2e8f0);
+      --tw-prose-th-borders: var(--color-border-strong, #cbd5e1);
+      --tw-prose-td-borders: var(--color-border, #e2e8f0);
+      --tw-prose-blockquote-borders: var(--color-border-strong, #cbd5e1);
+      --tw-prose-blockquote-color: var(--color-blockquote, #64748b);
+    }
+
+    :global(.prose) :is(h1, h2, h3, h4, h5, h6) {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       color: var(--tw-prose-headings);
       font-weight: 700;
       line-height: 1.25;
@@ -162,35 +337,35 @@ const categoryInfo = getCategoryInfo(entry.data.category);
       margin-bottom: 0.5em;
     }
 
-    .prose h1 {
+    :global(.prose) h1 {
       font-size: 2em;
     }
 
-    .prose h2 {
+    :global(.prose) h2 {
       font-size: 1.5em;
-      border-bottom: 2px solid #e2e8f0;
+      border-bottom: 2px solid var(--color-border, #e2e8f0);
       padding-bottom: 0.5em;
     }
 
-    .prose h3 {
+    :global(.prose) h3 {
       font-size: 1.25em;
     }
 
-    .prose p {
+    :global(.prose) p {
       margin: 1em 0;
       color: var(--tw-prose-body);
     }
 
-    .prose a {
+    :global(.prose) a {
       color: var(--tw-prose-links);
       text-decoration: underline;
     }
 
-    .prose a:hover {
-      color: #2563eb;
+    :global(.prose) a:hover {
+      color: var(--color-primary-hover, #2563eb);
     }
 
-    .prose blockquote {
+    :global(.prose) blockquote {
       border-left: 4px solid var(--tw-prose-blockquote-borders);
       padding-left: 1em;
       margin: 1em 0;
@@ -198,66 +373,194 @@ const categoryInfo = getCategoryInfo(entry.data.category);
       font-style: italic;
     }
 
-    .prose code {
-      background: #f1f5f9;
+    :global(.prose) code {
+      background: var(--color-code-bg, #f1f5f9);
       color: var(--tw-prose-code);
       padding: 0.2em 0.4em;
       border-radius: 0.25em;
       font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
     }
 
-    .prose pre {
+    :global(.prose) pre {
       background: var(--tw-prose-pre-bg);
       color: var(--tw-prose-pre-code);
       padding: 1em;
       border-radius: 0.5em;
       overflow-x: auto;
       margin: 1em 0;
+      border: 1px solid var(--color-border, #e2e8f0);
     }
 
-    .prose pre code {
+    :global(.prose) pre code {
       background: none;
       color: inherit;
       padding: 0;
     }
 
-    .prose ul, .prose ol {
+    :global(.prose) ul, :global(.prose) ol {
       margin: 1em 0;
       padding-left: 2em;
     }
 
-    .prose li {
+    :global(.prose) li {
       margin: 0.5em 0;
     }
 
-    .prose strong {
+    :global(.prose) strong {
       color: var(--tw-prose-bold);
       font-weight: 700;
     }
 
-    .prose table {
+    :global(.prose) table {
       border-collapse: collapse;
       width: 100%;
       margin: 1em 0;
     }
 
-    .prose th {
+    :global(.prose) th {
       border: 1px solid var(--tw-prose-th-borders);
       padding: 0.75em;
       text-align: left;
       font-weight: 700;
-      background: #f8fafc;
+      background: var(--color-card-bg, #f8fafc);
     }
 
-    .prose td {
+    :global(.prose) td {
       border: 1px solid var(--tw-prose-td-borders);
       padding: 0.75em;
     }
 
-    .prose hr {
+    :global(.prose) hr {
       border: none;
       border-top: 2px solid var(--tw-prose-hr);
       margin: 2em 0;
     }
+
+    :global(.prose) img {
+      display: block;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      border-radius: 0.5rem;
+      margin: 1em 0;
+    }
+
+    /* Details/summary (collapsible sections) */
+    :global(.prose) details {
+      background: var(--color-card-bg, #f8fafc);
+      border: 1px solid var(--color-border, #e2e8f0);
+      border-radius: 0.5rem;
+      padding: 1rem;
+      margin: 1em 0;
+    }
+
+    :global(.prose) details summary {
+      font-weight: 600;
+      cursor: pointer;
+      color: var(--color-text, #1e293b);
+    }
+
+    :global(.prose) details[open] summary {
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--color-border, #e2e8f0);
+    }
+
+    /* Focus mode: hide sidebars */
+    .study-page-layout.focus-mode .nav-sidebar,
+    .study-page-layout.focus-mode .toc-sidebar {
+      display: none;
+    }
+
+    .study-page-layout.focus-mode {
+      grid-template-columns: 1fr !important;
+      max-width: 900px;
+    }
+
+    .study-page-layout.focus-mode .study-main {
+      max-width: 100%;
+    }
+
+    /* Content controls bar */
+    .content-controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .toggle-sidebar-btn {
+      display: none;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 0.75rem;
+      background: var(--color-card-bg, #f1f5f9);
+      border: 1px solid var(--color-border, #e2e8f0);
+      border-radius: 0.375rem;
+      color: var(--color-text-muted, #64748b);
+      font-size: 0.875rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .toggle-sidebar-btn:hover {
+      background: var(--color-card-hover, #e2e8f0);
+      color: var(--color-text, #1e293b);
+    }
+
+    .toggle-sidebar-btn .collapse-icon {
+      display: none;
+    }
+
+    .study-page-layout.focus-mode ~ .toggle-sidebar-btn .expand-icon,
+    .focus-mode .toggle-sidebar-btn .expand-icon {
+      display: none;
+    }
+
+    .study-page-layout.focus-mode ~ .toggle-sidebar-btn .collapse-icon,
+    .focus-mode .toggle-sidebar-btn .collapse-icon {
+      display: inline;
+    }
+
+    /* Show toggle button on tablet+ */
+    @media (min-width: 1024px) {
+      .toggle-sidebar-btn {
+        display: flex;
+      }
+    }
   </style>
+
+  <script>
+    // Toggle focus mode (hide sidebars)
+    const toggleBtn = document.getElementById('toggle-sidebars');
+    const layout = document.getElementById('study-layout');
+
+    if (toggleBtn && layout) {
+      // Check for saved preference
+      const savedFocus = localStorage.getItem('study-focus-mode');
+      if (savedFocus === 'true') {
+        layout.classList.add('focus-mode');
+      }
+
+      toggleBtn.addEventListener('click', () => {
+        layout.classList.toggle('focus-mode');
+        const isFocused = layout.classList.contains('focus-mode');
+        localStorage.setItem('study-focus-mode', isFocused.toString());
+      });
+
+      // Keyboard shortcut: F key
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'f' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+          const activeElement = document.activeElement;
+          const isInput = activeElement?.tagName === 'INPUT' ||
+                         activeElement?.tagName === 'TEXTAREA' ||
+                         activeElement?.isContentEditable;
+          if (!isInput) {
+            e.preventDefault();
+            toggleBtn.click();
+          }
+        }
+      });
+    }
+  </script>
 </BaseLayout>
