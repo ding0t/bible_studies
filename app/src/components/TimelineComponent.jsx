@@ -253,8 +253,8 @@ export default function TimelineComponent({ events = [] }) {
                 : (event.gregorian_year || event.year);
               return (
                 <div
-                  key={event.id}
-                  className={`timeline-event ${selected?.id === event.id ? 'active' : ''}`}
+                  key={event.slug}
+                  className={`timeline-event ${selected?.slug === event.slug ? 'active' : ''}`}
                   onClick={() => setSelected(event)}
                   title={event.title}
                 >
