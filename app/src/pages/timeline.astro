@@ -1,22 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import TimelineComponent from '../components/TimelineComponent.jsx';
-import { getCollection } from 'astro:content';
+import events from '../../../docs/data/events.json';
 
-// Load all studies and filter for timeline events (those with a year)
-const allStudies = await getCollection('studies');
-const timelineEvents = allStudies
-  .filter(study => study.data.year && !study.data.draft)
-  .map(study => ({
-    id: study.id,
-    slug: study.slug,
-    year: study.data.year,
-    title: study.data.title,
-    description: study.data.description || '',
-    category: study.data.category || 'other',
-    tags: study.data.tags || []
-  }))
-  .sort((a, b) => a.year - b.year);
+const timelineEvents = [...events].sort(
+  (a, b) => (a.gregorian_year ?? 0) - (b.gregorian_year ?? 0)
+);
 ---
 
 <BaseLayout title="Timeline">
@@ -51,7 +40,7 @@ const timelineEvents = allStudies
         lifespans across both Gregorian and Zadok calendars, discover Hebrew etymology, and trace 
         the lineage of Jesus through biblical history.
       </p>
-      <a href="/genealogy-viewer/" style="display: inline-block; padding: 0.75rem 1.5rem; background: #10b981; color: white; text-decoration: none; border-radius: 0.5rem; font-weight: 500; transition: background 0.3s;">
+      <a href={`${import.meta.env.BASE_URL}genealogy/`} style="display: inline-block; padding: 0.75rem 1.5rem; background: #10b981; color: white; text-decoration: none; border-radius: 0.5rem; font-weight: 500; transition: background 0.3s;">
         View Genealogy Viewer →
       </a>
     </section>

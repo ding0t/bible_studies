@@ -1,24 +1,9 @@
 ---
-import { getCollection } from 'astro:content';
-import { buildContentTree, getSortedSections } from '../utils/contentTree.js';
-
 interface Props {
   title?: string;
 }
-
 const { title = 'Biblical Studies' } = Astro.props;
-
-// Build top nav dynamically from content directory structure
-const all = await getCollection('studies');
-const published = all.filter((e) => !e.data.draft);
-const tree = buildContentTree(published);
-const navSections = getSortedSections(tree);
-
-// Fixed nav items appended after content-derived sections
-const PINNED_LAST = [
-  { href: '/timeline', label: 'Timeline' },
-  { href: '/genealogy-viewer', label: 'Genealogy' },
-];
+const base = import.meta.env.BASE_URL;
 ---
 
 <html lang="en">
@@ -206,13 +191,10 @@ const PINNED_LAST = [
 
     <nav>
       <ul>
-        <li><a href="/">Home</a></li>
-        {navSections.map(([key, node]) => (
-          <li><a href={`/${key}`}>{node.meta.label}</a></li>
-        ))}
-        {PINNED_LAST.map((item) => (
-          <li><a href={item.href}>{item.label}</a></li>
-        ))}
+        <li><a href={base}>Home</a></li>
+        <li><a href={`${base}studies/`}>Studies</a></li>
+        <li><a href={`${base}timeline/`}>Timeline</a></li>
+        <li><a href={`${base}genealogy/`}>Genealogy</a></li>
       </ul>
     </nav>
 
