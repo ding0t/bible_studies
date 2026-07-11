@@ -1,6 +1,6 @@
 ---
 title: "01 Genesis"
-category: "other"
+category: "commentaries"
 description: "Study resources for the Book of Genesis"
 tags: ["bible", "ot"]
 draft: false

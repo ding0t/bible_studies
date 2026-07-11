@@ -23,6 +23,7 @@ Write your markdown content...
 ## Required Fields
 
 ### title (Required)
+
 - Must be present and non-empty
 - Should be a descriptive title for the study
 - Use quotes for multi-word titles
@@ -34,6 +35,7 @@ title: "The Feasts of the Lord"
 ## Recommended Fields
 
 ### category (Recommended)
+
 - Groups studies together on the studies page
 - If omitted, defaults to "other"
 - Common categories: `prophecy`, `theology`, `spiritual-disciplines`, `sins`, `feasts`, `sermons`, etc.
@@ -43,6 +45,7 @@ category: "prophecy"
 ```
 
 ### description (Recommended)
+
 - Brief summary of the content
 - Used for SEO and study cards
 - Keep it under 200 characters
@@ -52,6 +55,7 @@ description: "Understanding the biblical feasts and their prophetic significance
 ```
 
 ### tags (Recommended)
+
 - Array of strings for categorization
 - Use quotes around each tag
 - Helps with searching and filtering
@@ -61,6 +65,7 @@ tags: ["feasts", "prophecy", "leviticus", "appointed-times"]
 ```
 
 ### draft (Recommended)
+
 - Controls whether the study appears on the site
 - `false` = published (default if omitted)
 - `true` = hidden from public view
@@ -72,6 +77,7 @@ draft: false
 ## Optional Fields
 
 ### bible_references
+
 - Array of scripture references
 - Displayed on study cards
 
@@ -80,6 +86,7 @@ bible_references: ["Leviticus 23", "Colossians 2:16-17", "Hebrews 10:1"]
 ```
 
 ### year, zadok_year, gregorian_year
+
 - Numeric fields for timeline integration
 
 ```yaml
@@ -93,6 +100,7 @@ gregorian_year: 2024
 ### ❌ Blank line before frontmatter
 
 **WRONG:**
+
 ```markdown
 
 ---
@@ -101,6 +109,7 @@ title: "My Study"
 ```
 
 **CORRECT:**
+
 ```markdown
 ---
 title: "My Study"
@@ -112,6 +121,7 @@ The `---` must be on line 1 with no blank lines before it!
 ### ❌ Missing closing frontmatter delimiter
 
 **WRONG:**
+
 ```markdown
 ---
 title: "My Study"
@@ -120,6 +130,7 @@ title: "My Study"
 ```
 
 **CORRECT:**
+
 ```markdown
 ---
 title: "My Study"
@@ -131,11 +142,13 @@ title: "My Study"
 ### ❌ Unquoted strings with special characters
 
 **WRONG:**
+
 ```yaml
 title: My Study: Part 1
 ```
 
 **CORRECT:**
+
 ```yaml
 title: "My Study: Part 1"
 ```
@@ -143,11 +156,13 @@ title: "My Study: Part 1"
 ### ❌ Unquoted array values
 
 **WRONG:**
+
 ```yaml
 tags: [prophecy, feasts, jesus]
 ```
 
 **CORRECT:**
+
 ```yaml
 tags: ["prophecy", "feasts", "jesus"]
 ```
@@ -161,11 +176,13 @@ When referencing images in your markdown files, use the correct relative paths:
 The path depends on how deep your file is in the directory structure. Count the levels from your file to `docs/`, then add `assets/img/`:
 
 **From `docs/content/sermons/file.md` (2 levels deep):**
+
 ```markdown
 ![Description](../../assets/img/image-name.jpg)
 ```
 
 **From `docs/content/studies/prophecy/file.md` (3 levels deep):**
+
 ```markdown
 ![Description](../../../assets/img/image-name.jpg)
 ```
@@ -214,6 +231,7 @@ npm run validate
 ```
 
 This will:
+
 - Check for proper frontmatter structure
 - Verify required fields are present
 - Warn about missing recommended fields
@@ -243,6 +261,7 @@ category: "my-new-category"
 The site will auto-generate a formatted label ("My New Category") and display it properly.
 
 Common existing categories:
+
 - `prophecy` - Prophecy fulfilled in Jesus
 - `theology` - Theological studies
 - `spiritual-disciplines` - Prayer, fasting, etc.
@@ -261,6 +280,7 @@ Common existing categories:
 ## Examples
 
 ### Minimal Valid File
+
 ```markdown
 ---
 title: "My Simple Study"
@@ -270,6 +290,7 @@ Content goes here.
 ```
 
 ### Complete Example
+
 ```markdown
 ---
 title: "The Day of Atonement: Yom Kippur"

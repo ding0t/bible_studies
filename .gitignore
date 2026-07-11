@@ -2,6 +2,7 @@
 node_modules/
 dist/
 .astro/
+site/
 .env
 .env.local
 # Byte-compiled / optimized / DLL files
@@ -12,3 +13,7 @@ __pycache__/
 .DS_Store
 *.log
 npm-debug.log*
+# Claude
+.claude/settings.local.json
+# Superpowers scratch
+.superpowers/

@@ -1,6 +1,6 @@
 ---
 title: "27 Daniel"
-category: "prophecy"
+category: "commentaries"
 description: "Study resources for the Book of Daniel"
 tags: ["prophecy", "bible", "ot"]
 draft: false

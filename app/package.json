@@ -1,0 +1,40 @@
+{
+  "name": "bible-end-times-astro",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Biblical studies with interactive timeline and dual calendar views (Gregorian & Zadok)",
+  "scripts": {
+    "dev": "astro dev",
+    "prebuild": "node scripts/build-events.js",
+    "build": "astro build",
+    "build:events": "node scripts/build-events.js",
+    "preview": "astro preview",
+    "astro": "astro",
+    "test": "node --test scripts/build-events.test.js && node src/utils/calendarConvert.test.js && node src/utils/bibleReference.test.js",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,astro,json,css}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,astro,json,css}\""
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.2",
+    "astro": "^5.16.15",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.53.1",
+    "@typescript-eslint/parser": "^8.53.1",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-astro": "^1.5.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "prettier": "^3.8.1",
+    "prettier-plugin-astro": "^0.14.1"
+  }
+}

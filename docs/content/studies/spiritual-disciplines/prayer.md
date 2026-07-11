@@ -1,6 +1,6 @@
 ---
 title: "Prayer"
-category: "spiritual discipline"
+category: "spiritual-disciplines"
 description: "Understanding prayer as communion with God and our identity as His children"
 tags: ["studies", "prayer", "devotion", "communion", "faith"]
 draft: false

@@ -11,29 +11,18 @@ draft: false
  __Author__ David
  __Author Date__ date
 
+ The Psalms were originally written by King David and similar authors. Psalms are known to speak of David's circumstance,
+but are primarily prophetical in the context of Christ.
+
+Reading all Psalms in the context of Christ is fruitful for the reader.
+
 ## Memory verses
 
 
 
 ## Attitudes
 
-What attitudes are we taught
 
-<div class="grid cards" markdown>
-
-- :fontawesome-solid-book-bible: __bible__
-
-    ---
-
-    Content
-
-- :material-scale-balance: __scales__
-
-    ---
-
-    Content
-
-</div>
 
 ## Key Topics
 

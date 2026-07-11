@@ -1,0 +1,208 @@
+---
+interface Props {
+  title?: string;
+}
+const { title = 'Biblical Studies' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Interactive Bible studies and prophetic timeline" />
+    <title>{`${title} | Biblical Studies`}</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <!-- Mermaid diagrams -->
+    <script is:inline src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <!-- Theme init: is:inline prevents Astro deferring this, avoiding flash -->
+    <script is:inline>
+      (function() {
+        var stored = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var theme = stored || (prefersDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+      window.toggleTheme = function() {
+        var current = document.documentElement.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      };
+    </script>
+    <script is:inline>
+      if (typeof mermaid !== 'undefined') {
+        var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        mermaid.initialize({ startOnLoad: true, theme: isDark ? 'dark' : 'default' });
+        mermaid.contentLoaded();
+      }
+    </script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+
+      :root {
+        --font-ui: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        --font-reading: 'Merriweather', Georgia, 'Times New Roman', serif;
+
+        --color-bg: #f8fafc;
+        --color-bg-elevated: #ffffff;
+        --color-text: #1e293b;
+        --color-text-muted: #64748b;
+        --color-text-subtle: #475569;
+        --color-border: #e2e8f0;
+        --color-border-strong: #cbd5e1;
+        --color-primary: #3b82f6;
+        --color-primary-hover: #2563eb;
+        --color-primary-bg: #1e40af;
+        --color-header-gradient: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+        --color-footer-bg: #1e293b;
+        --color-card-bg: #f8fafc;
+        --color-card-hover: #f1f5f9;
+        --color-code-bg: #f1f5f9;
+        --color-code-text: #e11d48;
+        --color-blockquote: #64748b;
+      }
+
+      [data-theme="dark"] {
+        --color-bg: #0f172a;
+        --color-bg-elevated: #1e293b;
+        --color-text: #f1f5f9;
+        --color-text-muted: #94a3b8;
+        --color-text-subtle: #cbd5e1;
+        --color-border: #334155;
+        --color-border-strong: #475569;
+        --color-primary: #7dd3fc;
+        --color-primary-hover: #a5f3fc;
+        --color-primary-bg: #1e3a5f;
+        --color-header-gradient: linear-gradient(135deg, #1e3a5f 0%, #1e40af 100%);
+        --color-footer-bg: #020617;
+        --color-card-bg: #1e293b;
+        --color-card-hover: #334155;
+        --color-code-bg: #334155;
+        --color-code-text: #fb7185;
+        --color-blockquote: #94a3b8;
+      }
+
+      body {
+        font-family: var(--font-ui);
+        background: var(--color-bg);
+        color: var(--color-text);
+        line-height: 1.6;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      header {
+        background: var(--color-header-gradient);
+        color: white;
+        padding: 1.5rem 2rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header-content h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+      .header-content p { opacity: 0.9; font-size: 0.875rem; }
+
+      .theme-toggle {
+        background: rgba(255,255,255,0.15);
+        border: 1px solid rgba(255,255,255,0.25);
+        color: white;
+        padding: 0.5rem 0.75rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        font-size: 1.25rem;
+        transition: background 0.2s;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .theme-toggle:hover { background: rgba(255,255,255,0.25); }
+      .theme-toggle .icon-sun, .theme-toggle .icon-moon { display: none; }
+      :root .theme-toggle .icon-moon { display: inline; }
+      [data-theme="dark"] .theme-toggle .icon-sun { display: inline; }
+      [data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
+      nav {
+        background: var(--color-bg-elevated);
+        border-bottom: 1px solid var(--color-border);
+        padding: 1rem 2rem;
+        overflow-x: auto;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        white-space: nowrap;
+      }
+      nav a {
+        text-decoration: none;
+        color: var(--color-text-subtle);
+        font-weight: 500;
+        transition: color 0.2s;
+      }
+      nav a:hover { color: var(--color-primary); }
+
+      main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      footer {
+        background: var(--color-footer-bg);
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        margin-top: 4rem;
+        font-size: 0.875rem;
+      }
+
+      .mermaid {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+        background: var(--color-card-bg);
+        padding: 1.5rem;
+        border-radius: 0.75rem;
+        border: 1px solid var(--color-border);
+        overflow-x: auto;
+      }
+      .mermaid svg { max-width: 100%; height: auto; }
+      [data-theme="dark"] .mermaid { filter: invert(0.9) hue-rotate(180deg); }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>📖 Biblical Studies</h1>
+        <p>Interactive exploration of Scripture and prophecy</p>
+      </div>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="toggleTheme()">
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+      </button>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href={base}>Home</a></li>
+        <li><a href={`${base}timeline/`}>Timeline</a></li>
+        <li><a href={`${base}genealogy/`}>Genealogy</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Biblical Studies by ding0t. Built with Astro.</p>
+    </footer>
+  </body>
+</html>

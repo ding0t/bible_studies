@@ -21,9 +21,10 @@ A collection of bible studies, presented on GitHub pages using a static site gen
 
 ## Tech stack
 
-- We are developing in powershell
-- Claude Haiku 4.5 preferred
-- markdown
-- currently using mkdocs, but considering moving to astro
+- environment: We are developing on Windows 11
+- markup language: markdown
+- static site generator: currently using astro 
 
-##
+## Standards
+
+- Use UTF-8 encoding in scripts
