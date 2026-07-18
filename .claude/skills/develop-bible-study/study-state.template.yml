@@ -1,0 +1,52 @@
+# Copy to references/study-state/<slug>.yml when starting a new study.
+# slug should match the eventual docs/content/... filename (without extension).
+
+slug: ""
+title: ""
+status: scoping # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "" # e.g. docs/content/studies/prophecy/<slug>.md
+
+primary_passage: ""
+supporting_passages: []
+genre: [] # one or more of: epistle, ot-narrative, acts, gospel, parable, law, prophets, psalm, wisdom, apocalyptic, topical
+
+stages:
+  scoping:
+    done: false
+    notes: ""
+  exegesis:
+    historical_context:
+      done: false
+      notes: ""
+    literary_context:
+      done: false
+      notes: ""
+    content_word_studies:
+      done: false
+      notes: ""
+      terms: [] # [{word: "", language: hebrew|aramaic|greek, transliteration: "", strongs_id: "", gloss: "", range_of_meanings: [], notes: ""}] # range_of_meanings/notes are for the fuller diachronic/synchronic method — see word-study-method.md; leave empty for routine terms
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: false
+      notes: ""
+    theological_principle:
+      done: false
+      notes: ""
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: false
+    cross_refs: [] # [{ref: "", relation: ""}]
+    translations_compared: [] # e.g. ["ESV", "NASB", "NIV"]
+    divergences_noted: ""
+  drafting:
+    done: false
+    file: ""
+  review:
+    done: false
+    validated: false # npm run validate passed
+
+open_questions: []
+resources_consulted: [] # [{type: dictionary|lexicon|commentary|other, title: "", author: "", note: ""}]
+last_updated: "" # ISO date, set by the agent/user at each update
