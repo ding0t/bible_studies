@@ -18,6 +18,7 @@ A collection of bible studies, presented on GitHub pages using a static site gen
 - Identify other cultural context that may be inferreed in the text; such as understanding a particular feast or festival.
 - always provide reference to extra-biblical sources if used
 - prefer dispensational perspectives
+- See [references/README.md](references/README.md) for the full catalog of sources available for this — open-license data (safe to cite/use freely), restricted-license data (usable now, commercial-use caveats), and local-only copyrighted references (cite briefly with attribution, never reproduce at length) — and how to query each.
 
 ## Tech stack
 

@@ -90,6 +90,6 @@ Update the relevant `stages.*` block and bump `last_updated` as each phase above
 
 ## Essential references
 
-See [references/README.md](../../../references/README.md) for the Strong's/lexicon, cross-reference, and original-language tools this process leans on, plus how the (copyrighted, not-committed) Fee reference text fits in.
+See [references/README.md](../../../references/README.md) for the full source catalog this process leans on — open-license data (safe to cite freely), restricted-license data (usable now, non-commercial caveats), and local-only copyrighted references (Fee, Stevens, the Cultural Backgrounds Study Bible — cite briefly, never reproduce at length) — plus how to actually query most of it through `references/build/bible-text.db` instead of grepping raw source files.
 
 For the fuller word-study procedure referenced in Phase 4, see [word-study-method.md](word-study-method.md).

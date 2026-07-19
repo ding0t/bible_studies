@@ -1,0 +1,124 @@
+slug: last-supper-four-cups
+title: "\"I Will Not Drink Again\": The Last Supper and the Cups of Passover"
+status: drafting
+target_path: docs/content/studies/feasts/last-supper-four-cups.md
+
+primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
+supporting_passages: ["1 Corinthians 11:23-26", "Exodus 6:6-7", "Psalm 116:13", "John 19:28-30", "Isaiah 25:6", "Matthew 8:11", "Revelation 19:9"]
+genre: [gospel, epistle]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      User asked specifically to investigate whether there were multiple ("two") culturally-significant
+      moments of wine-drinking at Passover and which one Jesus's "I will not drink again" statement
+      refers to. Research (below) found the standard answer is FOUR cups (Mishnah Pesachim 10), not two --
+      corrected that premise rather than assuming it. Placed in feasts/ category alongside feasts.md,
+      which only lists "Passover" without detail -- no duplication risk.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Verified (not assumed from memory) via web search against multiple independent sources (Chabad.org,
+        TorahResource, Jewish Awareness Ministries, Sefaria/Mishnah Pesachim 10 translations): the Seder
+        involves four cups, tied to Exodus 6:6-7's four "I will" redemption statements (bring out / deliver
+        / redeem / take as my people), positioned at Kiddush (1st), after the Maggid/plague-recitation (2nd),
+        after Birkat Hamazon/grace-after-meal (3rd, "cup of blessing"/"cup of redemption" -- naming varies
+        by source), and with the Hallel (4th). Mishnah explicitly: "between the third and fourth cups, one
+        may not drink" -- a real structural pause at exactly the point in the meal Jesus's statement would
+        fall if tied to the third cup. Caveat carried into the draft: Mishnah Pesachim was redacted ~200 AD;
+        applying its four-cup structure to a ~30 AD meal assumes earlier Second Temple practice already had
+        this shape, which is the mainstream but not textually certain assumption (no Second Temple-era
+        primary source enumerates "four cups" explicitly that I found/checked).
+    literary_context:
+      done: true
+      notes: >
+        Queried our own bible-text.db (macula-greek-sblgnt) directly for all four accounts. Key finding:
+        Matthew and Mark each narrate ONE cup, positioned after the bread, with "I will not drink again"
+        attached directly to that same cup-saying. Luke uniquely narrates TWO cups (22:17 before the bread,
+        22:20 after it, "meta to deipnesai"/after supper, matching Paul's 1 Cor 11:25 timing exactly) --
+        and Luke's "I will not drink again" (22:18) is attached to the FIRST cup (v17), not explicitly to
+        the covenant-cup (v20). This means the tidy "he declined the fourth cup" reading requires
+        harmonizing across accounts and importing the (later-attested) four-cup Seder framework -- none of
+        the four NT accounts state a cup-number explicitly. Presented as a reasonable, widely-held inference
+        in the draft, not as a plain textual claim -- consistent with the skill's Gospel-genre instruction
+        to read each account on its own terms before harmonizing.
+        Also verified: Luke 22:19b-20 has a real textual-critical history -- Codex Bezae (D) + some Old
+        Latin mss have a shorter reading omitting 19b-20 (a "Western non-interpolation" per Westcott-Hort),
+        but the majority/earlier-and-better-attested manuscript tradition (P75 etc.) supports the longer
+        reading with both cups, which is what modern critical editions and all major translations follow.
+        Matthew 26:30/Mark 14:26 both note "having sung a hymn" (hymnesantes) immediately before leaving for
+        the Mount of Olives -- plausibly the second portion of the Hallel (Ps 115-118), which traditionally
+        accompanies the fourth cup, but the Gospels never narrate a specific fourth-cup-drinking act. Argument
+        from silence, flagged as such.
+    content_word_studies:
+      done: true
+      notes: "Queried bible-text.db directly rather than print lookup -- see terms below."
+      terms:
+        - {word: "ποτήριον", language: greek, transliteration: "potērion", strongs_id: "G4221", gloss: "cup, drinking vessel"}
+        - {word: "γένημα τῆς ἀμπέλου", language: greek, transliteration: "gennēma tēs ampelou", strongs_id: "G1081/G288", gloss: "fruit of the vine", notes: "Standard rabbinic term for wine in the Kiddush blessing (borei pri hagafen, 'creator of the fruit of the vine') -- Jesus's own phrasing echoes the liturgical formula rather than saying 'wine' plainly."}
+        - {word: "εὐχαριστήσας", language: greek, transliteration: "eucharistēsas", strongs_id: "G2168", gloss: "having given thanks", notes: "Used for the cup in all four accounts (Matt/Mark/Luke/1 Cor); root of 'Eucharist.' Distinct from eulogeo used elsewhere for blessing bread in some accounts, though the terms overlap in NT usage -- not a firm technical distinction, checked but not overstated."}
+        - {word: "διαθήκη", language: greek, transliteration: "diathēkē", strongs_id: "G1242", gloss: "covenant", notes: "'New covenant in my blood' (Luke 22:20/1 Cor 11:25) directly echoes Jeremiah 31:31 LXX kainē diathēkē -- explicit OT citation, not just thematic echo, worth a cross-reference."}
+        - {word: "καινός", language: greek, transliteration: "kainos", strongs_id: "G2537", gloss: "new (in kind/quality, not merely new in time)", notes: "Modifies both 'covenant' (Luke/1 Cor) and how he will drink it 'anew' (kainon, Mark 14:25) in the kingdom -- same root tying the cup's future fulfillment to the new-covenant language."}
+
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Culturally bound: the specific Seder cup-count and liturgical sequence is Jewish festal custom, not
+        a NT ordinance in itself. Transcultural: Jesus's own vow of abstention pointing to a future
+        completion/reunion at table (the messianic banquet motif, Isa 25:6, Matt 8:11, Rev 19:9) is a
+        recurring, explicitly-taught NT theme, not an isolated inference from this one vow.
+    theological_principle:
+      done: true
+      notes: >
+        Jesus frames the meal's climax as unfinished, deliberately deferred, pointing forward to a future
+        shared table in the fully-realized kingdom -- the Supper points beyond itself. Cross-checked against
+        the messianic banquet theme taught elsewhere (Isaiah 25:6-8, Matthew 8:11, Luke 14:15-24, Revelation
+        19:6-9), not built on this vow alone.
+    application_draft:
+      done: true
+      notes: "Kept distinct from exegesis in the draft."
+
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Exodus 6:6-7", relation: "The four 'I will' redemption statements the four cups traditionally correspond to"}
+      - {ref: "Psalm 116:13", relation: "'I will lift up the cup of salvation' -- part of the Hallel sung at the Seder, explicit cup-language in Scripture itself"}
+      - {ref: "Jeremiah 31:31-34", relation: "Source text for 'new covenant,' directly cited in the cup-word (Luke 22:20/1 Cor 11:25)"}
+      - {ref: "Isaiah 25:6-8", relation: "Messianic banquet motif -- what the deferred drinking points toward"}
+      - {ref: "Matthew 8:11 / Luke 14:15-24", relation: "Same banquet-with-the-patriarchs/kingdom-feast theme elsewhere in the Gospels"}
+      - {ref: "Revelation 19:6-9", relation: "The marriage supper of the Lamb -- eschatological fulfillment"}
+      - {ref: "John 19:28-30", relation: "Sour wine offered at the cross -- a popular (not scholarly-certain) devotional connection to a 'completed fourth cup,' flagged in the draft as suggestion, not established reading"}
+    translations_compared: ["ESV", "WEB"]
+    divergences_noted: >
+      No major translation divergence on the key terms -- differences are stylistic (WEB "I will not drink
+      of the fruit of the vine" vs ESV wording nearly identical). Flagged instead the real textual-critical
+      variant at Luke 22:19b-20 (see literary_context notes) since that's the more consequential difference,
+      affecting whether two cups or an ambiguous one appear in Luke depending on manuscript tradition.
+
+  drafting:
+    done: true
+    file: docs/content/studies/feasts/last-supper-four-cups.md
+  review:
+    done: false
+    validated: false
+    validation_notes: "npm run validate still broken post mkdocs/astro split (see prior study's state file) -- frontmatter checked manually."
+
+open_questions:
+  - "Whether Second Temple-period Passover practice (c. 30 AD) already had the fully fixed four-cup structure
+     the Mishnah records (c. 200 AD) is assumed, following mainstream scholarship, but not independently
+     verified against a Second Temple-era primary source in this session -- flagged as an assumption, not
+     hidden."
+  - "The 'fourth cup completed at the cross via the sour wine (John 19:29-30)' connection is presented in the
+     draft as a devotional/homiletical observation worth noting, explicitly NOT as an established exegetical
+     conclusion -- I did not find primary scholarly consensus for this specific connection, only popular/
+     preaching-level sources, during this session's research."
+resources_consulted:
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan, ed. John H. Walton & Craig S. Keener", note: "Notes at Matthew 26:27-30 and Mark 14:22-26. Independently confirmed the 'probably the third cup' inference (own reasoning, not copied from theirs); surfaced the Exodus 24:8 'blood of the covenant' echo and the Jewish vow-of-abstinence cultural category, both added to the draft. Not committed to this repo -- see references/README.md. Extracted this specific passage's notes only, from the unzipped epub on the media volume; not a bulk extraction."}
+  - {type: other, title: "Mishnah Pesachim 10 (via Sefaria, Wikisource, and secondary summaries)", author: "traditional/rabbinic", note: "Four-cups structure and the 'no drinking between 3rd and 4th cup' rule"}
+  - {type: other, title: "Various (Chabad.org, TorahResource, Jewish Awareness Ministries)", author: "multiple", note: "Cross-checked the four-cups-to-Exodus-6:6-7 correspondence across independent Jewish and Messianic sources for convergence"}
+  - {type: other, title: "Web search on Luke 22:19b-20 textual criticism (Western non-interpolation)", author: "multiple academic sources", note: "Confirmed Codex Bezae/Old Latin shorter reading vs majority longer reading"}
+  - {type: lexicon, title: "bible-text.db (macula-greek-sblgnt)", author: "this repo's build pipeline", note: "Primary Greek word-by-word source for all four accounts"}
+last_updated: "2026-07-19"
