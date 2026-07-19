@@ -74,8 +74,20 @@ Listed so nothing gets silently dropped; pull one of these in when a study actua
 - **Robinson's Greek Texts** — Byzantine/Majority text
 - **unfoldingWord Greek NT (UGNT), Literal Text (ULT), Simplified Text (UST)** — likely CC BY-SA 4.0 like `hbo_uhb` above, not individually confirmed yet
 - **Open Bibles** (Bible Innovations) — aggregator of PD/CC translations, worth checking as a second source alongside scrollmapper
-- **World English Bible (WEB)** — public domain by design; AGENTS.md already lists WEB as a preferred version, worth sourcing directly rather than only via scrollmapper
 - **Abbott-Smith Manual Lexicon**, **Dodson Greek-English Lexicon**, **Liddell-Scott-Jones (LSJ)** — Greek lexicons, likely public domain (pre-1929 sources) but not confirmed per-repo
+
+## eBible.org (not GitHub — fetched at build time, not forked)
+
+[eBible.org](https://ebible.org/find/) is a plain file host, not a git repo, so the fork-under-`ding0t`-and-submodule mechanics below don't apply. Rather than vendoring raw USFM into this repo (one file dump per translation would sprawl, and there's no git history to pin against for reproducibility the way a submodule commit gives us), `references/build/build.py`'s `ingest_ebible()` downloads each translation's USFM zip on demand into a gitignored `references/build/cache/`, strips a couple of markup quirks the installed BibleOrgSys doesn't handle cleanly (see the function's own comments), and ingests straight into `bible-text.db`. Nothing here is pinned to a specific upstream revision — re-running the build re-fetches current content. Each source's license is checked individually (`ebible.org/find/show.php?id=<id>`) before adding; not everything listed there is public domain.
+
+| eBible.org id | What it is | License | Notes |
+|---|---|---|---|
+| `eng-web` | World English Bible (WEB) — full Bible | Public Domain (confirmed on-page) | AGENTS.md's preferred WEB translation, previously not actually present (scrollmapper's bundle only has the unrelated older "Webster"/"RWebster" PD translations, despite a stray empty `WEB.db` stub suggesting otherwise). |
+| `grcbrent` | Brenton Septuagint — actual Greek LXX text (verified by downloading and reading it directly, not just the license text — "Brenton" commonly implies his *English* translation, so this was worth checking) | Public Domain (confirmed on-page) | Fills a real gap: `GreekResources` above deliberately excludes LXX text because the CCAT source is restricted. `grclxx` (Orthodox Media Network) is a near-identical edition of the same text — skipped as redundant rather than forking both. |
+| `grc-tisch` | Tischendorf 8th ed. Greek New Testament — a third distinct NT critical-text lineage alongside SBLGNT (CC BY 4.0, above) and Byzantine/TR (via scrollmapper, restricted-nc) | Public Domain (confirmed on-page) | |
+| `heb` | Delitzsch Hebrew Bible — OT+NT translated into Hebrew | Public Domain (confirmed on-page) | Our first Hebrew New Testament text. Likely the same underlying translation as `scrollmapper-HebModern` (currently flagged `unknown` license in that fork) but independently confirmed PD here — worth reconciling later rather than assuming they match. |
+
+**Known data-quality caveats** (see `ingest_ebible()`'s own notes for full detail): some NT editions double-tag words (`\w` + non-standard `\ww`) or use USFM 3.0 `\w word|attr\w*` syntax the installed BibleOrgSys doesn't strip cleanly — handled with a regex pass before loading, verified against Rev 13:10 and John 3:16. LXX/deuterocanonical chapter-verse numbering can diverge from Masoretic/English versification (Psalms, Daniel, Esther especially) — don't assume `(book, chapter, verse)` lines up across works without checking.
 
 ## Fork mechanics
 

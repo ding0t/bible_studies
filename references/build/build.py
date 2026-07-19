@@ -6,9 +6,12 @@ metadata per work; tier filtering happens at export time (see export.py),
 not here.
 """
 import csv
+import re
 import sqlite3
 import subprocess
 import sys
+import urllib.request
+import zipfile
 from datetime import date, timezone
 from pathlib import Path
 from xml.etree import ElementTree
@@ -22,6 +25,7 @@ OPEN_DATA = REPO_ROOT / "references" / "open-data"
 BUILD_DIR = Path(__file__).resolve().parent
 OUT_DIR = BUILD_DIR / "out"
 DB_PATH = OUT_DIR / "bible-text.db"
+CACHE_DIR = BUILD_DIR / "cache"
 TODAY = date.today().isoformat()
 
 with open(BUILD_DIR / "license_map.yml") as f:
@@ -339,7 +343,13 @@ def ingest_macula_hebrew(conn: sqlite3.Connection) -> None:
          "Dictionary of Biblical Hebrew (SDBH). The raw TSV also carries `coredomain` and a separate "
          "`sdbh` sense-ID column, neither loaded here. Hebrew words are frequently split into multiple "
          "morpheme rows sharing one surface word (e.g. a prefixed preposition gets its own row before "
-         "the noun it attaches to) -- word_position counts rows, not surface words."),
+         "the noun it attaches to) -- word_position counts rows, not surface words. Spot-checked (Ps "
+         "23:1): on some pronominal-suffix splits the `gloss` column is misassigned across the two "
+         "morpheme rows even though `lemma`/`strong` are correct on each (verified against our own "
+         "Strong's dictionary) -- e.g. the row for רֹעִי glossed 'shepherd' correctly carries strong "
+         "H7473, but the gloss text itself sits on the wrong row of the pair. Not observed on simple "
+         "article/preposition splits (spot-checked Gen 1:5) -- looks isolated to certain suffix "
+         "constructions, not systemic, but don't trust `gloss` blindly on split rows without a check."),
     )
 
     morph_rows = []
@@ -404,6 +414,101 @@ def ingest_hebrew_literary_units(conn: sqlite3.Connection) -> None:
     print(f"hebrew-vocab-tools: {len(unit_rows)} pericope units")
 
 
+def ingest_ebible(
+    conn: sqlite3.Connection, ebible_id: str, translation_code: str, title: str, language: str,
+    license_str: str = "Public Domain", license_tier: str = "open",
+) -> None:
+    """Fetches a USFM translation from eBible.org into a gitignored build cache and ingests it.
+
+    eBible.org is a plain file host, not a git repo -- there's nothing to fork/submodule the way
+    every other source in this file works. Rather than vendoring raw USFM into this repo (one
+    translation per source would sprawl fast -- WEB today, several Greek/Hebrew texts are candidates
+    next), the zip is fetched on demand into CACHE_DIR and re-ingested on every build. Re-run this
+    function (or just build.py) to pick up any upstream edition update; nothing here is pinned.
+    """
+    from BibleOrgSys import BibleOrgSysGlobals
+    from BibleOrgSys.Formats.USFMBible import USFMBible
+    from BibleOrgSys.Reference.VerseReferences import SimpleVerseKey
+
+    BibleOrgSysGlobals.preloadCommonData()
+
+    usfm_dir = CACHE_DIR / ebible_id
+    if not any(usfm_dir.glob("*.usfm")):
+        usfm_dir.mkdir(parents=True, exist_ok=True)
+        zip_path = usfm_dir / f"{ebible_id}_usfm.zip"
+        request = urllib.request.Request(
+            f"https://eBible.org/Scriptures/{ebible_id}_usfm.zip",
+            headers={"User-Agent": "Mozilla/5.0 (compatible; bible_studies build script)"},
+        )
+        with urllib.request.urlopen(request) as response, open(zip_path, "wb") as f:
+            f.write(response.read())
+        with zipfile.ZipFile(zip_path) as zf:
+            zf.extractall(usfm_dir)
+        # This edition tags words with USFM 3.0 word-level attributes (\w word|strong="G1234"\w*),
+        # and NT books additionally double-tag some words with a non-standard \ww run carrying
+        # the same attribute. The installed BibleOrgSys doesn't strip either correctly here (it
+        # handles OT \w|attr fine but not NT), leaking "word|strong=\"G1234\"" into verse text.
+        # We already get precise Strong's tagging from macula-greek/macula-hebrew/sblgnt, so this
+        # is pure redundancy -- strip the \ww run entirely, then strip any surviving |attribute.
+        for usfm_file in usfm_dir.glob("*.usfm"):
+            text = usfm_file.read_text(encoding="utf-8")
+            cleaned = re.sub(r"\\ww\s.*?\\ww\*", "", text, flags=re.DOTALL)
+            cleaned = re.sub(r"\|[^\\]*", "", cleaned)
+            if cleaned != text:
+                usfm_file.write_text(cleaned, encoding="utf-8")
+
+    edition_date = None
+    id_lines = (usfm_dir.glob("*GEN*.usfm") if ebible_id.startswith("eng") else usfm_dir.glob("*.usfm"))
+    for usfm_file in id_lines:
+        match = re.search(r"^\\id\s+\S+.*?(\d{4}-\d{2}-\d{2})", usfm_file.read_text(encoding="utf-8"), re.MULTILINE)
+        if match:
+            edition_date = match.group(1)
+        break
+
+    work_id = f"ebible-{ebible_id}"
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution, notes) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+        (work_id, translation_code, title, language, "ebible.org",
+         f"https://ebible.org/find/show.php?id={ebible_id}", edition_date, TODAY,
+         license_str, license_tier, "eBible.org",
+         f"Not a submodule -- fetched from https://eBible.org/Scriptures/{ebible_id}_usfm.zip into "
+         "references/build/cache/ (gitignored) and re-ingested on every build, not pinned to a "
+         "specific upstream git revision (eBible.org isn't git-hosted). source_commit above holds the "
+         "USFM edition date self-reported in the \\id line, the closest thing to a version marker this "
+         "source has. Confirm license per-id before adding another eBible.org source -- not all listed "
+         "translations are public domain. LXX/deuterocanonical editions may use different "
+         "chapter/verse numbering than the Masoretic/English versification in some books (Psalms, "
+         "Daniel, Esther) -- don't assume (book,chapter,verse) lines up 1:1 against other works "
+         "without checking for that specific book."),
+    )
+
+    bible = USFMBible(str(usfm_dir))
+    bible.load()
+
+    verse_rows = []
+    for bos_code in bible.getBookList():
+        osis_book = MACULA_USFM_TO_OSIS.get(bos_code)
+        if osis_book is None:
+            continue  # front matter, glossary, deuterocanonical -- out of scope
+        book_obj = bible.books[bos_code]
+        for c in range(1, book_obj.getNumChapters() + 1):
+            for v in range(1, book_obj.getNumVerses(c) + 1):
+                try:
+                    verse_text = bible.getVerseText(SimpleVerseKey(bos_code, c, v))
+                except KeyError:
+                    continue  # versification gaps -- expected for LXX/deuterocanonical editions
+                if verse_text:
+                    verse_rows.append((work_id, osis_book, c, v, verse_text))
+
+    conn.executemany(
+        "INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", verse_rows,
+    )
+    conn.commit()
+    print(f"ebible-{ebible_id}: {len(verse_rows)} verses")
+
+
 def main() -> None:
     conn = init_db()
     ingest_scrollmapper(conn)
@@ -413,6 +518,10 @@ def main() -> None:
     ingest_macula_greek(conn)
     ingest_macula_hebrew(conn)
     ingest_hebrew_literary_units(conn)
+    ingest_ebible(conn, "eng-web", "WEB", "World English Bible", "eng")
+    ingest_ebible(conn, "grcbrent", "Brenton-LXX", "Brenton Septuagint (Greek)", "grc")
+    ingest_ebible(conn, "grc-tisch", "Tischendorf", "Tischendorf 8th ed. Greek New Testament", "grc")
+    ingest_ebible(conn, "heb", "Delitzsch", "Delitzsch Hebrew Bible (OT+NT)", "heb")
     conn.close()
     print(f"\nBuild complete: {DB_PATH}")
 

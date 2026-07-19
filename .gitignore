@@ -15,5 +15,10 @@ __pycache__/
 npm-debug.log*
 # Claude
 .claude/settings.local.json
+
+# Reference data build artifacts (regenerable from references/open-data/ submodules)
+references/build/out/
+references/build/.venv/
+references/build/cache/
 # Superpowers scratch
 .superpowers/
