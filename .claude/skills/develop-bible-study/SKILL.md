@@ -72,9 +72,10 @@ Only now, cross to application:
 ## Phase 7 — Draft
 
 - Write the file per [docs/CONTENT_GUIDE.md](../../../docs/CONTENT_GUIDE.md) frontmatter schema (`title`, `category`, `description`, `tags`, `draft: true`, `bible_references`).
-- Structure: historical/literary context → walk-through with original-language notes → theological principle → application/discussion questions.
+- Structure: historical/literary context → walk-through with original-language notes → theological principle → application/discussion questions → **References & Recommended Reading**.
 - Always give the translation used for any quotation (AGENTS.md).
-- **Copyright guardrail:** synthesize in your own words. Short quotations (a sentence, with attribution) from a commentary or reference work are fine; do not reproduce paragraphs of copyrighted text (e.g. from the locally-extracted Fee reference) into a file that will be committed to this public repo.
+- **Every study ends with a References & Recommended Reading section.** This is the reader-facing bibliography — distinct from the state file's `resources_consulted`, which is the working research trail. List every lexicon, commentary, dictionary, or background source actually drawn on, restricted/copyrighted ones included by name (e.g. TWOT, Cultural Backgrounds Study Bible, Fee & Stuart) — a citable work referenced with attribution and a reasonably-scoped quotation is a normal, fine thing to do in a public document; it isn't something to work around or leave unstated. What copyright actually constrains is quoting *too much* of one source (a full paragraph or note, not a sentence) or failing to attribute — not whether a restricted source can be named or cited at all. See [references/README.md](../../../references/README.md) for the tier-by-tier detail on what's safe to quote how.
+- **Copyright guardrail:** synthesize in your own words; keep any direct quotation from a commentary or reference work short (a sentence or two) and always attributed. Don't reproduce a full paragraph or note verbatim from a copyrighted source (e.g. the locally-extracted Fee reference, or a Cultural Backgrounds Study Bible note) into a file that gets committed here — the constraint is quotation *length*, not whether the source can be cited.
 
 ## Phase 8 — Validate & review
 

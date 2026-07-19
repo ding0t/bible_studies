@@ -121,6 +121,7 @@ open_questions:
      possibility, not asserted as textually certain."
 resources_consulted:
   - {type: lexicon, title: "bible-text.db (macula-greek-sblgnt, macula-hebrew-wlc)", author: "this repo's build pipeline", note: "Primary word-study/concordance source -- Strong's, lemma, gloss, Louw-Nida domain codes, queried directly rather than via print lookup"}
+  - {type: lexicon, title: "TWOT (Theological Wordbook of the Old Testament)", author: "Harris, Archer & Waltke, eds.", note: "Root entries #1293 (naga/H5060, touch) and #809 (tame/H2930, unclean), looked up via the committed references/build/twot/twot_strongs_map.json reverse-index (bare id/lemma/gloss only, not TWOT's own discussion prose). Cited in the study's References section."}
   - {type: other, title: "WEB, ASV translations", author: "ebible.org / scrollmapper-bible-databases", note: "Translation comparison, Phase 6"}
   - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan, ed. John H. Walton & Craig S. Keener", note: "Notes at Mark 5:25-27. Independently confirmed the uncleanness-reversal reading already drafted; added marriage/divorce and ancient-medicine (bloodletting) detail not previously in the draft. Not committed to this repo -- see references/README.md."}
 last_updated: "2026-07-19"

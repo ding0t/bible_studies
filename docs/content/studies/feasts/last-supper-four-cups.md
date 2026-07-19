@@ -81,3 +81,11 @@ One popular devotional connection is worth mentioning by name, precisely because
 2. The Mishnah's four-cup structure is a real, checkable historical source — but it's from ~200 AD, describing a meal from ~30 AD. How much weight should later-attested Jewish liturgical practice carry when reading an earlier Gospel scene, and how would you decide?
 3. Where do you see the Lord's Supper's forward-looking ("until he comes," "until the kingdom of God comes") dimension reflected — or not reflected — in how communion is practiced and talked about today?
 4. Read Isaiah 25:6-8, Matthew 8:11, and Revelation 19:6-9 together. What do these three passages, spread across both Testaments, share with what Jesus vows at the table?
+
+## References & Recommended Reading
+
+- **Mishnah, *Pesachim* 10** — the primary source for the Seder's four-cup structure (Kiddush, Maggid, Birkat Hamazon/"cup of blessing," Hallel) and the rule against drinking between the third and fourth cups. Redacted c. 200 AD; applying its structure to a c. 30 AD meal is the mainstream scholarly assumption, not something the Mishnah itself claims about that earlier period.
+- Cross-checked the Exodus 6:6-7 four-promises correspondence against several independent Jewish and Messianic background sources (Chabad.org, TorahResource, Jewish Awareness Ministries) for convergence rather than relying on one.
+- *NIV Cultural Backgrounds Study Bible* (Zondervan, ed. John H. Walton & Craig S. Keener), notes at Matthew 26:27-30 and Mark 14:22-26 — independently reaches the "probably the third cup" reading argued for above, and is the source for the Exodus 24:8 "blood of the covenant" echo and the Jewish vow-of-abstinence detail in this study. Recommended for the fuller verse-by-verse background discussion.
+- The Greek word-study data (ποτήριον, γένημα τῆς ἀμπέλου, εὐχαριστήσας, διαθήκη, καινός) is drawn from this project's own `bible-text.db`, built from the MACULA Greek dataset (`open-data/macula-greek`) and SBLGNT.
+- On the Luke 22:19b-20 textual variant: standard NT textual-criticism treatments of the "Western non-interpolations" (a term originating with Westcott & Hort) cover this passage specifically; consult a critical apparatus (e.g. UBS5/NA28) directly for the manuscript evidence rather than taking this study's summary as exhaustive.
