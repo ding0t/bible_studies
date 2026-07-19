@@ -20,13 +20,5 @@ The biblical feasts, their Old Testament instruction, and New Testament fulfillm
 
     [:octicons-arrow-right-24: Read](feasts.md)
 
--   __Feast of Trumpets - Yom Teruah__
-
-    ---
-
-    Exploring the Feast of Trumpets (Yom Teruah/Rosh Hashanah) and its prophetic implications
-
-    [:octicons-arrow-right-24: Read](trumpets.md)
-
 </div>
 <!-- section-index:auto-end -->

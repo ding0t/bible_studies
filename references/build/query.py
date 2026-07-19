@@ -49,8 +49,8 @@ def cmd_word(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
         print("No matches.")
         return
     for r in rows:
-        print(f"{r['work_id']:22} {r['book']} {r['chapter']}:{r['verse']:<4} {r['surface_form']:12} "
-              f"lemma={r['lemma']:14} strongs={r['strongs_id'] or '-':8} domain={r['domain_code'] or '-':10} {r['gloss']}")
+        print(f"{r['work_id']:22} {r['book']} {r['chapter']}:{r['verse']:<4} {r['surface_form'] or '-':12} "
+              f"lemma={r['lemma'] or '-':14} strongs={r['strongs_id'] or '-':8} domain={r['domain_code'] or '-':10} {r['gloss'] or ''}")
 
 
 def cmd_concordance(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
@@ -77,7 +77,7 @@ def cmd_concordance(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
         if r["book"] != last_book:
             print(f"\n-- {r['book']} ({r['work_id']}) --")
             last_book = r["book"]
-        print(f"  {r['chapter']}:{r['verse']:<4} {r['gloss']}")
+        print(f"  {r['chapter']}:{r['verse']:<4} {r['gloss'] or ''}")
     print(f"\n{len(rows)} occurrence(s).")
 
 
@@ -94,7 +94,7 @@ def cmd_domain(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
         print("No matches.")
         return
     for r in rows:
-        print(f"{r['work_id']:22} {r['lemma']:16} strongs={r['strongs_id'] or '-':8} {r['gloss']}")
+        print(f"{r['work_id']:22} {r['lemma'] or '-':16} strongs={r['strongs_id'] or '-':8} {r['gloss'] or ''}")
 
 
 def cmd_verse(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
@@ -120,8 +120,8 @@ def cmd_verse(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
         if r["work_id"] != last_work:
             print(f"\n  -- {r['work_id']} --")
             last_work = r["work_id"]
-        print(f"    {r['word_position']:2} {r['surface_form']:12} lemma={r['lemma']:14} "
-              f"strongs={r['strongs_id'] or '-':8} domain={r['domain_code'] or '-':10} {r['gloss']}")
+        print(f"    {r['word_position']:2} {r['surface_form'] or '-':12} lemma={r['lemma'] or '-':14} "
+              f"strongs={r['strongs_id'] or '-':8} domain={r['domain_code'] or '-':10} {r['gloss'] or ''}")
 
     notes = conn.execute(
         "SELECT work_id, text FROM notes WHERE book=? AND chapter=? AND verse=?",

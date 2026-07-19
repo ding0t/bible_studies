@@ -1,0 +1,121 @@
+slug: trumpets
+title: "Feast of Trumpets: Yom Teruah"
+status: review
+target_path: docs/content/studies/feasts/trumpets.md
+
+primary_passage: "Leviticus 23:23-25"
+supporting_passages: ["Numbers 29:1-6", "Numbers 10:1-10", "1 Corinthians 15:51-53", "Matthew 24:30-31,36", "1 Thessalonians 4:16-17"]
+genre: [law, apocalyptic]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Rework of a pre-existing published (draft:false) study reviewed and found to skip
+      historical/literary/word-study phases entirely: no Hebrew word study on teruah despite
+      the feast being named for it, no historical context distinguishing the Torah's own name
+      (Yom Teruah) from later tradition names (Rosh Hashanah, Feast of Trumpets), no literary
+      context within Leviticus 23's feast list, a "two witnesses / Revelation?" question raised
+      and left unresearched, References section citing only informal blogs, and the user's own
+      owned reference (Seven Festivals of the Messiah) never used despite being the obvious
+      primary source. Taking to draft:true while reworking; original stays live at its current
+      URL until this replaces it (same filename, so no link breakage either way).
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Leviticus 23:23-25 (part of the Mosaic legislation, addressee: Israel via Moses, no
+        specific historical occasion beyond the calendar itself) instructs "a memorial of
+        teruah" on Tishrei 1 -- the text itself names it Yom Teruah, not "Rosh Hashanah" or
+        "Feast of Trumpets" (both later traditional names; Rosh Hashanah as new-year framing is
+        rabbinic, tied to Tishrei being the civil-calendar new year vs. Nisan as the religious-
+        calendar new year, Exod 12:2). New-moon-by-witness-testimony system verified directly
+        against Mishnah Rosh Hashanah 4:4 (procedural detail: witnesses accepted until Minchah,
+        adjusted after 70 AD) via references/build/sefaria.py -- this grounds the "day/hour
+        uncertain" feature in an actual primary source instead of a blog paraphrase.
+    literary_context:
+      done: true
+      notes: >
+        Leviticus 23 lists Israel's appointed feasts as one continuous unit (Passover/Unleavened
+        Bread/Firstfruits in month 1, Weeks 50 days later, then Trumpets/Atonement/Tabernacles
+        clustered in month 7). Trumpets is the first of the three fall feasts, sitting between
+        the spring-harvest cluster and Atonement -- literarily it opens the fall sequence rather
+        than standing alone. Governing point of Lev 23 as a whole: a fixed liturgical calendar
+        structuring Israel's whole year around what God has done/will do, not a miscellany of
+        unrelated holidays.
+    content_word_studies:
+      done: true
+      notes: >
+        Queried bible-text.db directly (query.py) rather than secondary paraphrase. Key finding:
+        teruah's TWOT gloss (root ruaʿ, #2135) is "raise a shout"/"shout of war" -- concordancing
+        H8643 across the OT (1 Sam 4:5-6, 2 Sam 6:15, 2 Chr 13:12, Amos 1:14/2:2, Ezek 21:27, Ezra
+        3:11-13) confirms the word's actual range is shout/alarm/war-cry/shout-of-joy, NOT
+        "trumpet" specifically -- shofar is the common means of producing it, not what the word
+        itself denotes. Numbers 10:1-10 confirms teruah is a specific short/staccato SIGNAL
+        PATTERN (break camp) distinct from tekiah (long blast, gather assembly) -- both blown on
+        the same silver trumpets; this is the root of the later three-part tekiah-teruah-tekiah
+        shofar sequence, verified directly against Mishnah Rosh Hashanah 4:9 (via sefaria.py).
+      terms:
+        - {word: "תְּרוּעָה", language: hebrew, transliteration: "teruah", strongs_id: "H8643", gloss: "shout, alarm, battle-cry, joyful shout -- not specifically 'trumpet blast'", range_of_meanings: ["war-cry/alarm (Amos 1:14, 2:2; Ezek 21:27)", "shout at God's presence/ark (1 Sam 4:5-6; 2 Sam 6:15)", "shout of joy (Ezra 3:11-13, temple foundation)", "specific short signal-pattern for breaking camp, Num 10:5-6, contrasted with tekiah's long gather-the-assembly blast"], notes: "TWOT #2135b, from root ruaʿ (TWOT #2135, 'raise a shout'). Root-fallacy guardrail: don't gloss this as simply 'trumpet' -- the word is about the sound/cry itself; shofar is the usual instrument but a distinct word."}
+        - {word: "זִכָּרוֹן", language: hebrew, transliteration: "zikkaron", strongs_id: "H2146", gloss: "memorial, remembrance", notes: "Paired with teruah in the verse itself ('a memorial of teruah,' Lev 23:24) -- directly grounds the traditional name Yom HaZikkaron (Day of Remembrance)."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Culturally/dispensationally bound: the specific new-moon witness-testimony procedure and
+        rabbinic liturgical order (Mishnah Rosh Hashanah 4) are Israel's own calendar-keeping
+        practice, not binding on the church. Transcends it: teruah as a summons to wake/alert
+        God's people recurs as a real biblical pattern (Joel 2:1, Isa 58:1, both call-to-
+        attention uses of related shofar/alarm language) independent of any NT-typology argument.
+    theological_principle:
+      done: true
+      notes: >
+        The feast is fundamentally a summons to attention/readiness before God, marked by sound
+        rather than by rest or feasting (contrast the other feasts) -- the one appointed time
+        whose starting moment Israel itself did not fully control, built on watching and
+        testimony rather than a fixed calendar calculation.
+    application_draft:
+      done: true
+      notes: "Kept distinct from exegesis in the draft, per skill instructions."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Numbers 29:1-6", relation: "Parallel/fuller instruction for the same day, adds the specific sacrifice list"}
+      - {ref: "Numbers 10:1-10", relation: "Establishes the tekiah/teruah signal-pattern distinction the later 3-part shofar sequence is built on"}
+      - {ref: "1 Corinthians 15:51-53", relation: "'Last trumpet' -- the NT-typology argument some connect to Rosh Hashanah's shofar; Paul does not name the feast explicitly, flagged as inference not stated fact"}
+      - {ref: "Matthew 24:30-31,36", relation: "'Great trumpet'/Yom Kippur typology argument (Seven Festivals' framework) plus the 'day and hour no one knows' saying the original draft built its whole 'two witnesses' question around"}
+      - {ref: "Joel 2:1", relation: "Teruah-family alarm language used as a call to attention independent of any NT-typology argument"}
+    translations_compared: ["KJV", "ASV", "WEB", "ESV"]
+    divergences_noted: >
+      No translation renders teruah as anything but "trumpets"/"blowing of trumpets" -- this is
+      the actual finding worth reporting: every major English translation obscures that the
+      Hebrew word is fundamentally about the shout/alarm sound, not the instrument. Worth stating
+      plainly in the study as something the word study specifically surfaces, not something any
+      translation gets "wrong" (a defensible translation choice given the near-universal
+      trumpet/shofar means of producing it), but a real gap between English-reader intuition and
+      the text's own vocabulary.
+  drafting:
+    done: true
+    file: docs/content/studies/feasts/trumpets.md
+  review:
+    done: false
+    validated: false
+    validation_notes: "npm run validate still broken post mkdocs/astro split -- frontmatter checked manually."
+
+open_questions:
+  - "User's draft asked whether the new-moon 'two witnesses' custom relates to Revelation 11's
+     two witnesses. Seven Festivals of the Messiah does not draw this connection anywhere found
+     in the trumpets/Rosh Hashanah chapters -- treat as the user's own unverified hunch, not an
+     established reading, unless further research turns up a real source for it. Kept as an open
+     discussion question in the draft rather than asserted or silently dropped."
+  - "The three-trumpets typology (first=Sinai/Shavuot, last=Rosh Hashanah/1 Cor 15:52,
+     great=Yom Kippur/Matt 24:30-31) is Seven Festivals' own synthesis, not something either NT
+     text states by naming the feast -- presented in the draft as a traced argument with its
+     inference points named, not as settled exegesis. Worth someone independently checking
+     whether this specific three-trumpets framework appears in more mainstream dispensational
+     sources or is distinctive to this book."
+resources_consulted:
+  - {type: other, title: "The Seven Festivals of the Messiah", author: "Eddie Chumney (confirmed via PDF title page, not guessed)", note: "Owned PDF, /Volumes/media/bible/resources/The-Seven-Festivals-of-the-Messiah.pdf. Not committed to this repo. Source for the three-trumpets typology, Yom HaDin/wedding-of-the-Messiah traditional names, and the 12-step betrothal-custom background. Quoted briefly with attribution per the copyright guardrail, not reproduced at length."}
+  - {type: other, title: "Mishnah Rosh Hashanah 4", author: "traditional/rabbinic, trans. Sefaria Community Translation (CC0)", note: "Verified directly via references/build/sefaria.py rather than secondary summary -- new-moon witness procedure (4:4) and the tekiah-teruah-tekiah shofar sequence (4:9)."}
+  - {type: lexicon, title: "bible-text.db (macula-hebrew-wlc) + twot_strongs_map.json", author: "this repo's build pipeline", note: "Primary word-study source for teruah/H8643 and its root ruaʿ/TWOT #2135 -- queried directly via query.py rather than by hand."}
+last_updated: "2026-07-19"
