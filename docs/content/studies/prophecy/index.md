@@ -28,6 +28,14 @@ End-times and biblical prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](prophecy-events-times.md)
 
+-   __The Rapture of the Church__
+
+    ---
+
+    The blessed hope of the Church: a word study on harpazo, the sequence of end-times events, and the case for a pretribulational rapture
+
+    [:octicons-arrow-right-24: Read](rapture.md)
+
 -   __The Trumpet Call of God__
 
     ---

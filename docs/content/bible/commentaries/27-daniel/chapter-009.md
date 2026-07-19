@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 9:27
 - [The Zadok Calendar](../../../studies/prophecy/zadok-calendar.md) — 9:24-27
 <!-- commentary-index:auto-end -->

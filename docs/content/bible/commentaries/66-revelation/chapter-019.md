@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../../studies/feasts/last-supper-four-cups.md) — 19:6-9
+- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 19:11-16
 <!-- commentary-index:auto-end -->

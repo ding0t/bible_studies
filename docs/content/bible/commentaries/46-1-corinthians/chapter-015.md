@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 15:51-53
+- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 15:51-53
 <!-- commentary-index:auto-end -->
