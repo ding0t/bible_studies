@@ -3,7 +3,7 @@ title: "How This Site Is Built"
 category: "resources"
 description: "The tech behind this site: mkdocs + Astro, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys"
 tags: ["resources", "architecture", "mkdocs", "astro", "mermaid", "tech-stack"]
-draft: true
+draft: false
 ---
 
 # How This Site Is Built

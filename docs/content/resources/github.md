@@ -3,7 +3,7 @@ title: "Open Bible Data on GitHub"
 category: "resources"
 description: "Master list of open-license Bible text, manuscript, lexicon, and cross-reference repositories we fork for use in this project, and why."
 tags: ["resources", "github", "hebrew", "greek", "lexicon", "strongs", "manuscripts", "licensing"]
-draft: true
+draft: false
 ---
 
 # Open Bible Data on GitHub
