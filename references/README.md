@@ -11,6 +11,8 @@ A third script, `references/build/commentary_index.py`, is different in kind fro
 
 A fourth, `references/build/sefaria.py`, fetches Jewish literature (Mishnah, Talmud, etc.) from [Sefaria](https://www.sefaria.org)'s public [Sefaria-Export](https://github.com/Sefaria/Sefaria-Export) data — used to verify/quote the Mishnah Pesachim citations in the Last Supper study directly against primary text instead of secondary summaries. See [docs/content/resources/jewish-sources.md](../docs/content/resources/jewish-sources.md) for licensing detail (varies by translation — check before quoting) and usage. Fetch-and-cache only, like `ingest_ebible()`; deliberately not a `bible-text.db` table since Mishnah/Talmud addressing doesn't fit that schema's Bible book/chapter/verse columns.
 
+A fifth, `references/build/section_index.py`, fixes a real site bug rather than adding a source: `mkdocs-awesome-pages-plugin` falls through to the first alphabetical leaf page whenever a nav section has no `index.md` (e.g. clicking "Studies" landed on whatever the first archaeology study happened to be). It scans every `docs/content/` directory and generates a card-grid landing page for any directory that's missing one — a category's live studies, or a section's subsections — filtering `draft: true` automatically since the site is public. Same delimited auto-section pattern (`<!-- section-index:auto-start -->`/`...auto-end -->`) as `commentary_index.py`; safe to add hand-written intro prose around the generated grid. Run it after adding a new study or a new top-level content section (`uv run python section_index.py`).
+
 ## Quick guide: which source, and is it safe to use freely?
 
 | Need | Source | License tier | Use in a study how |
