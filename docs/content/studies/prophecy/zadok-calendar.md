@@ -9,7 +9,7 @@ bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticu
 
 # The Zadok calendar
 
-Every study on this site that carries a `zadok_year` alongside its `gregorian_year` is using a specific, non-default calendar — this page explains what that calendar actually is, where it comes from, and why I use it instead of the standard rabbinic (lunisolar) Hebrew calendar most people are familiar with. Primary source for the structure below: [dsscalendar.org](https://dsscalendar.org).
+Every study on this site that carries a `zadok_year` alongside its `gregorian_year` is using a specific, non-default calendar — this page explains what that calendar actually is, where it comes from, and why I use it instead of the standard rabbinic (lunisolar) Hebrew calendar most people are familiar with. Primary source for the structure below: [dsscalendar.org](https://dsscalendar.org), the work of Dr. Ken Johnson, Th.D. (BibleFacts Ministries).
 
 ## What it is
 
@@ -49,8 +49,8 @@ I'll say plainly: this is not the calendar most of modern Judaism or most Christ
 
 ## Resources
 
-- [dsscalendar.org](https://dsscalendar.org) — the primary source for the calendar structure described above, including the [Enoch calendar overview](https://dsscalendar.org/e/) and the [outer-ring structural explanation](https://dsscalendar.org/o/outer/).
-- [BibleFacts.org](https://biblefacts.org) — related ministry resources on Dead Sea Scrolls and ancient documents.
+- Dr. Ken Johnson, Th.D., [dsscalendar.org](https://dsscalendar.org) — the primary source for the calendar structure described above, including the [Enoch calendar overview](https://dsscalendar.org/e/) and the [outer-ring structural explanation](https://dsscalendar.org/o/outer/).
+- Dr. Ken Johnson, Th.D., [BibleFacts.org](https://biblefacts.org) — related ministry resources on Dead Sea Scrolls and ancient documents.
 - 1 Enoch 72-82 ("Book of the Luminaries") and 91-93 ("Apocalypse of Weeks").
 - The book of Jubilees, chapter 6.
 - [Ancient Texts and Manuscripts](../archeology/ancient-texts-manuscripts.md) — for the Dead Sea Scrolls' broader significance.
