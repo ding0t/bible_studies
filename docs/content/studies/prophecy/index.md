@@ -28,14 +28,6 @@ End-times and biblical prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](prophecy-events-times.md)
 
--   __The Rapture of the Church__
-
-    ---
-
-    Studies on the blessed hope and the rapture of the Church in end times prophecy
-
-    [:octicons-arrow-right-24: Read](rapture.md)
-
 -   __The Trumpet Call of God__
 
     ---

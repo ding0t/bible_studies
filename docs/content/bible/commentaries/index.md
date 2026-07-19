@@ -36,6 +36,18 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](04-numbers/)
 
+-   __2 Samuel__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](10-2-samuel/)
+
+-   __1 Kings__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](11-1-kings/)
+
 -   __Psalms__
 
     ---
@@ -59,6 +71,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](24-jeremiah/)
+
+-   __Ezekiel__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](26-ezekiel/)
 
 -   __Daniel__
 
