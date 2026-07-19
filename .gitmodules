@@ -1,0 +1,9 @@
+[submodule "references/open-data/hebrew-vocab-tools"]
+	path = references/open-data/hebrew-vocab-tools
+	url = https://github.com/ding0t/hebrew-vocab-tools.git
+[submodule "references/open-data/macula-greek"]
+	path = references/open-data/macula-greek
+	url = https://github.com/ding0t/macula-greek.git
+[submodule "references/open-data/macula-hebrew"]
+	path = references/open-data/macula-hebrew
+	url = https://github.com/ding0t/macula-hebrew.git

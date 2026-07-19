@@ -20,7 +20,7 @@ For the Hebrew/Aramaic/Greek word studies AGENTS.md requires (original text + gl
 - **[Blue Letter Bible](https://www.blueletterbible.org/)** — interlinear + Strong's-tagged lookup, Hebrew and Greek, free.
 - **[STEP Bible](https://www.stepbible.org/)** (Tyndale House) — interlinear, lexicons, and original-language search, free.
 - **[Bible Hub interlinear](https://biblehub.com/interlinear/)** — quick interlinear + Strong's cross-links.
-- **Louw & Nida, *Greek-English Lexicon of the New Testament Based on Semantic Domains*** — groups Greek words by usage relationship rather than lexical root; the cross-check step in the fuller word-study method (see the [develop-bible-study word-study-method.md](../.claude/skills/develop-bible-study/word-study-method.md)) leans on this. Not held locally as data; consult in print or via a library/seminary access point.
+- **Louw & Nida, *Greek-English Lexicon of the New Testament Based on Semantic Domains*** (Greek) and **SDBH, *Semantic Dictionary of Biblical Hebrew*** (Hebrew) — group words by usage relationship rather than lexical root; the cross-check step in the fuller word-study method (see the [develop-bible-study word-study-method.md](../.claude/skills/develop-bible-study/word-study-method.md)) leans on these. Available as local data via `open-data/macula-greek` (`@ln`/`@domain`) and `open-data/macula-hebrew` (`@sdbh`/`@lexdomain`) — see [docs/content/resources/github.md](../docs/content/resources/github.md) for the license caveat on the Greek domain field specifically.
 
 For Hebrew *language learning* (as opposed to word-study lookup), see the existing [hebrew-studies/resources.md](../docs/content/hebrew-studies/resources.md).
 
