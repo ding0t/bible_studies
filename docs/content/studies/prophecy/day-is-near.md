@@ -104,7 +104,7 @@ It is not unreasonable to interpret 2 Peter 3 as meaning a literal 6000 years of
 
 ## When is the year 6000?
 
-By Zadok calendar:
+By [Zadok calendar](zadok-calendar.md):
 
 ```mermaid
 timeline

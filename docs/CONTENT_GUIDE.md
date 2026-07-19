@@ -100,6 +100,7 @@ primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
 ### year, zadok_year, gregorian_year
 
 - Numeric fields for timeline integration
+- `zadok_year` follows the [Zadok calendar](content/studies/prophecy/zadok-calendar.md)'s year-from-creation numbering
 
 ```yaml
 year: 2024
