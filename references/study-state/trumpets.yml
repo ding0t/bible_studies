@@ -1,6 +1,6 @@
 slug: trumpets
 title: "Feast of Trumpets: Yom Teruah"
-status: review
+status: published
 target_path: docs/content/studies/feasts/trumpets.md
 
 primary_passage: "Leviticus 23:23-25"
@@ -98,9 +98,9 @@ stages:
     done: true
     file: docs/content/studies/feasts/trumpets.md
   review:
-    done: false
-    validated: false
-    validation_notes: "npm run validate still broken post mkdocs/astro split -- frontmatter checked manually."
+    done: true
+    validated: true
+    validation_notes: "npm run validate still broken post mkdocs/astro split -- frontmatter checked manually, mkdocs build clean. User reviewed and approved 2026-07-19; published (draft:false)."
 
 open_questions:
   - "User's draft asked whether the new-moon 'two witnesses' custom relates to Revelation 11's

@@ -3,7 +3,7 @@ title: "Feast of Trumpets: Yom Teruah"
 category: "feasts"
 description: "A word-study-grounded look at Leviticus 23:23-25's Yom Teruah: what teruah actually means, how the day was kept, and the case for and against its New Testament typology"
 tags: ["feasts", "leviticus", "prophecy", "hebrew", "word-study", "rosh-hashanah"]
-draft: true
+draft: false
 primary_passage: "Leviticus 23:23-25"
 bible_references: ["Leviticus 23:23-25", "Numbers 29:1-6", "Numbers 10:1-10", "1 Corinthians 15:51-53", "Matthew 24:30-31", "Matthew 24:36", "1 Thessalonians 4:16-17", "Joel 2:1"]
 zadok_year: 4037
