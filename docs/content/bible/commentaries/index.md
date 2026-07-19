@@ -120,17 +120,53 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](42-luke/)
 
+-   __John__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](43-john/)
+
+-   __Acts__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](44-acts/)
+
 -   __1 Corinthians__
 
     ---
 
     [:octicons-arrow-right-24: Browse](46-1-corinthians/)
 
+-   __2 Corinthians__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](47-2-corinthians/)
+
+-   __Ephesians__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](49-ephesians/)
+
 -   __1 Thessalonians__
 
     ---
 
     [:octicons-arrow-right-24: Browse](52-1-thessalonians/)
+
+-   __2 Thessalonians__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](53-2-thessalonians/)
+
+-   __Hebrews__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](58-hebrews/)
 
 -   __Revelation__
 

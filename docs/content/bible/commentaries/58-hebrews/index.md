@@ -10,8 +10,5 @@ draft: false
 
 
 <!-- commentary-index:auto-start -->
-## Chapters with linked studies
-
-- [Chapter 10](chapter-010.md) — 1 study(ies)
-- [Chapter 13](chapter-013.md) — 1 study(ies)
+*No studies currently reference this book.*
 <!-- commentary-index:auto-end -->

@@ -135,11 +135,56 @@ def upsert_auto_section(path: Path, auto_section: str, stub_frontmatter: str) ->
         path.write_text(stub_frontmatter + "\n" + auto_section + "\n", encoding="utf-8")
 
 
+def cleanup_orphaned(
+    by_chapter: dict[tuple[int, int], list[dict]], books_touched: dict[int, list[int]]
+) -> tuple[list[str], list[str]]:
+    """Remove chapter files (always fully auto-generated) and empty out book indexes for
+    books/chapters that no longer have any referencing study -- e.g. a study went back to
+    draft, or a reference was removed. Chapter files are safe to delete outright since this
+    script never leaves hand-written content in them; book index.md files can carry real
+    hand-written prose (see 27-daniel/index.md), so those are only ever emptied, never deleted."""
+    removed_chapters, emptied_books = [], []
+    if not COMMENTARIES_DIR.exists():
+        return removed_chapters, emptied_books
+
+    for book_dir in sorted(COMMENTARIES_DIR.iterdir()):
+        if not book_dir.is_dir():
+            continue
+        try:
+            book_num = int(book_dir.name.split("-", 1)[0])
+        except ValueError:
+            continue
+
+        for chapter_path in sorted(book_dir.glob("chapter-*.md")):
+            try:
+                chapter = int(chapter_path.stem.split("-", 1)[1])
+            except (IndexError, ValueError):
+                continue
+            if (book_num, chapter) not in by_chapter:
+                chapter_path.unlink()
+                removed_chapters.append(str(chapter_path.relative_to(REPO_ROOT)))
+
+        index_path = book_dir / "index.md"
+        if book_num not in books_touched and index_path.exists():
+            content = index_path.read_text(encoding="utf-8")
+            if AUTO_START in content and AUTO_END in content:
+                empty_auto = f"{AUTO_START}\n*No studies currently reference this book.*\n{AUTO_END}"
+                pre, post = content.split(AUTO_START)[0], content.split(AUTO_END)[1]
+                new_content = pre + empty_auto + post
+                if new_content != content:
+                    index_path.write_text(new_content, encoding="utf-8")
+                    emptied_books.append(str(index_path.relative_to(REPO_ROOT)))
+
+    return removed_chapters, emptied_books
+
+
 def main() -> None:
     by_chapter = collect_references()
     books_touched: dict[int, list[int]] = {}
     for (book_num, chapter) in by_chapter:
         books_touched.setdefault(book_num, []).append(chapter)
+
+    removed_chapters, emptied_books = cleanup_orphaned(by_chapter, books_touched)
 
     for book_num, chapters in sorted(books_touched.items()):
         slug = NUM_TO_SLUG[book_num]
@@ -174,6 +219,14 @@ def main() -> None:
         upsert_auto_section(index_path, index_auto, index_stub)
 
     print(f"\n{len(books_touched)} book(s), {len(by_chapter)} chapter(s) with linked studies.")
+    if removed_chapters:
+        print(f"Removed {len(removed_chapters)} orphaned chapter file(s):")
+        for r in removed_chapters:
+            print(f"  removed: {r}")
+    if emptied_books:
+        print(f"Emptied {len(emptied_books)} book index(es) with no remaining chapters:")
+        for e in emptied_books:
+            print(f"  emptied: {e}")
     print(f"Regenerated: {TODAY}")
 
 

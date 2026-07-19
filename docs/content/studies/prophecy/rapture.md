@@ -3,9 +3,9 @@ title: "The Rapture of the Church"
 category: "prophecy"
 description: "The blessed hope of the Church: a word study on harpazo, the sequence of end-times events, and the case for a pretribulational rapture"
 tags: ["studies", "prophecy", "rapture", "end-times", "eschatology", "word-study"]
-draft: false
+draft: true
 primary_passage: "1 Thessalonians 4:15-18"
-bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "1 Corinthians 11:25", "1 Corinthians 6:19-20", "Ephesians 5:25-27", "1 Corinthians 1:2", "1 Corinthians 6:11", "Hebrews 10:10", "Hebrews 13:12", "Ephesians 2:10"]
+bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "1 Corinthians 11:25", "1 Corinthians 6:19-20", "Ephesians 5:25-27", "1 Corinthians 1:2", "1 Corinthians 6:11", "Hebrews 10:10", "Hebrews 13:12", "Ephesians 2:10", "Genesis 5:21-24", "Hebrews 11:5", "Jude 1:14-15", "2 Kings 2:11", "Genesis 7:1", "Genesis 7:16"]
 ---
 
 # The rapture of the Church
@@ -70,6 +70,18 @@ timeline
     section Eternity
         Forever : New heaven and new earth (Rev 21:1-4)
 ```
+
+## Types in the Old Testament: Enoch and Elijah
+
+Before the New Testament ever describes the rapture directly, two Old Testament lives already trace its shape — worth noting as typology, not as proof: narrative illustrates a pattern rather than establishing one on its own, so what follows is suggestive, not a substitute for the direct teaching texts above.
+
+**Enoch — taken before judgment fell.** "Enoch walked with God, and he was not, for God took him" ([Genesis 5:21-24 (ESV)](https://www.blueletterbible.org/esv/Gen/5/21-24)). Hebrews makes the point explicit: "By faith Enoch was taken up so that he should not see death... he was commended as having pleased God" ([Hebrews 11:5 (ESV)](https://www.blueletterbible.org/esv/Heb/11/5)). Enoch is the seventh from Adam ([Jude 1:14-15 (ESV)](https://www.blueletterbible.org/esv/Jud/1/14-15)) — and the flood, the judgment that sweeps away everyone left on earth, falls only three generations later, in the days of his own great-grandson. Enoch is removed *before* that judgment ever comes; he simply isn't there for it, taken quietly, without spectacle, sometime before the water rises.
+
+**Noah — preserved through judgment, not removed from it.** Noah is a different pattern entirely: he and his family go *into* the flood, sealed in the ark, and come out the other side of God's judgment rather than being taken away before it starts ([Genesis 7:1 (ESV)](https://www.blueletterbible.org/esv/Gen/7/1); [Genesis 7:16 (ESV)](https://www.blueletterbible.org/esv/Gen/7/16)). Both men are righteous; both are spared; but only one is removed before the judgment falls, and the other is carried through it. Since the flood is already treated as a type of the tribulation above (see [The imminence of the rapture](#the-imminence-of-the-rapture); Matthew 24:37-39), Enoch and Noah between them model the two competing views of the rapture's timing side by side, in the very same chapters of Genesis.
+
+**Elijah — taken up bodily, in full view.** Where Enoch's departure is quiet, Elijah's is dramatic: "as they still went on and talked, behold, chariots of fire and horses of fire separated the two of them. And Elijah went up by a whirlwind into heaven" ([2 Kings 2:11 (ESV)](https://www.blueletterbible.org/esv/2Ki/2/11)), in full view of Elisha. Elijah is taken up alive, without dying — the same basic shape 1 Corinthians 15:51-52 describes for believers still alive at the rapture ("we shall not all sleep... in a moment, in the twinkling of an eye").
+
+Taken together: two men removed bodily from the earth without dying, one of them explicitly before a global judgment falls, standing beside a third man preserved through that same judgment rather than taken from it. That's not a proof text — it's a pattern, and Scripture had already written it once before it happened to describe it in words.
 
 ## Certainty
 
@@ -183,6 +195,22 @@ flowchart LR
 
 These good works aren't confined to this present life — the reward evaluated at the Bema seat (above) suggests they carry forward into eternity, not merely into the record of a life now finished.
 
+## Early church testimony
+
+How far back does this expectation actually go? The post-apostolic church was broadly premillennial — Justin Martyr, Papias, Irenaeus, and Tertullian all held that Christ returns to reign on earth for a literal thousand years, the same basic framework as [the millennial reign](#the-millennial-reign) above. That much isn't seriously disputed among historians of the early church.
+
+Whether any of them taught a *pretribulational* rapture specifically — the Church removed years before the tribulation even starts, as a distinct event from the second coming — is far more contested, and it's worth saying plainly rather than overclaiming a clean pedigree back to the apostles.
+
+The single most-cited text is a sermon traditionally attributed to Ephraem the Syrian (4th century), *[On the Last Times, the Antichrist, and the End of the World](https://www.according2prophecy.org/lastimes.html)* — though the attribution is doubtful. Most scholars regard it as the work of a later, unknown author (plausibly as late as the 6th or 7th century), and refer to it as Pseudo-Ephraem rather than treat it as genuine. It contains this line:
+
+> "For all the saints and elect of God are gathered, prior to the tribulation that is to come, and are taken to the Lord, lest they see the confusion that is to overwhelm the world because of our sins."
+
+Advocates for a pretribulational rapture point to this as an early witness to the doctrine. Critics respond that the line reads most naturally as describing saints *already dead* being gathered to the Lord — a statement about the blessed dead escaping a future confusion they won't live to see, not a doctrine about the living Church being removed. That same ambiguity runs through most of the patristic evidence usually cited on this question.
+
+Irenaeus, a genuine 2nd-century figure and disciple of Polycarp, writes in [*Against Heresies* 5.29](https://www.newadvent.org/fathers/0103529.htm) that "when in the end the Church shall be suddenly caught up from this [the present world], it is said, 'There shall be tribulation such as has not been since the beginning.'" Some read this as the Church being removed *before* tribulation begins. Others point out that Irenaeus immediately calls this "the last contest of the righteous" — language suggesting the Church is caught up *into* the trial as its culmination, not away from it before it starts.
+
+The honest historical conclusion: an any-moment, escape-oriented hope has real roots earlier than critics of dispensationalism often allow, but a fully worked-out doctrine that clearly separates the rapture from the second coming as two distinct events, years apart, doesn't appear in a developed, unambiguous form until much later — most identifiably with 19th-century teachers like John Nelson Darby and the Brethren movement. That doesn't settle whether the doctrine is *true* — plenty of doctrines took centuries of the church thinking carefully to state precisely, the Trinity itself not receiving its classic creedal formulation until Nicaea and Constantinople — but it does mean a claim that "the early church all clearly believed this" overclaims what the actual texts support.
+
 ## Other end-times views
 
 The view argued above is pretribulational and dispensational — but it isn't the only view held by serious, Bible-believing Christians, and it's worth naming the alternatives fairly rather than only their weakest forms:
@@ -204,3 +232,5 @@ The word Scripture actually uses for the rapture, ἁρπάζω, describes a rea
 - [The prophetic pattern of the ancient Jewish wedding](https://www.truevinelife.com/growthinchrist/return-of-jesus-christ-part-2-the-prophetic-pattern-of-the-ancient-jewish-wedding)
 - [The Trumpet Call of God](trumpet.md) — the trumpet imagery shared between 1 Thessalonians 4:16 and 1 Corinthians 15:52.
 - [The Zadok Calendar](zadok-calendar.md) — the chronological framework behind the seven-year tribulation reckoning above.
+- Pseudo-Ephraem, *[On the Last Times, the Antichrist, and the End of the World](https://www.according2prophecy.org/lastimes.html)* — the most-cited patristic text in the pretrib debate; see [Early church testimony](#early-church-testimony) for the authorship caveat.
+- Irenaeus of Lyon, *[Against Heresies, Book V, Chapter 29](https://www.newadvent.org/fathers/0103529.htm)* — the "caught up" passage discussed above.

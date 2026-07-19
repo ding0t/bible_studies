@@ -12,6 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 4:15-18 (primary passage)
 - [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 4:16-17
 <!-- commentary-index:auto-end -->
