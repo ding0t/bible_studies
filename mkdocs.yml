@@ -1,13 +1,24 @@
 site_name: Biblical Studies by ding0t
-site_url: 'https://gh-ding0t.github.io/bible_end_times/'
-repo_url: 'https://github.com/ding0t/bible_end_times'
+site_url: 'https://ding0t.github.io/bible_studies/'
+repo_url: 'https://github.com/ding0t/bible_studies'
 docs_dir: docs/content
 
 theme:
   name: material
   palette:
-    scheme: default
-    primary: blue
+    # Defaults to the visitor's OS-level preference, then remembers their explicit choice.
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
   features:
     - search.suggest
     - search.highlight
