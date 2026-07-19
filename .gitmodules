@@ -1,3 +1,33 @@
+[submodule "references/open-data/hebrew-lexicon"]
+	path = references/open-data/hebrew-lexicon
+	url = https://github.com/ding0t/HebrewLexicon.git
+[submodule "references/open-data/morphhb"]
+	path = references/open-data/morphhb
+	url = https://github.com/ding0t/morphhb.git
+[submodule "references/open-data/scrollmapper-bible-databases-deuterocanonical"]
+	path = references/open-data/scrollmapper-bible-databases-deuterocanonical
+	url = https://github.com/ding0t/bible_databases_deuterocanonical.git
+[submodule "references/open-data/stepbible-data"]
+	path = references/open-data/stepbible-data
+	url = https://github.com/ding0t/STEPBible-Data.git
+[submodule "references/open-data/greek-resources"]
+	path = references/open-data/greek-resources
+	url = https://github.com/ding0t/GreekResources.git
+[submodule "references/open-data/scrollmapper-bible-databases"]
+	path = references/open-data/scrollmapper-bible-databases
+	url = https://github.com/ding0t/bible_databases.git
+[submodule "references/open-data/strongs"]
+	path = references/open-data/strongs
+	url = https://github.com/ding0t/strongs.git
+[submodule "references/open-data/sblgnt"]
+	path = references/open-data/sblgnt
+	url = https://github.com/ding0t/SBLGNT.git
+[submodule "references/restricted-data/mounce-dictionary"]
+	path = references/restricted-data/mounce-dictionary
+	url = https://github.com/ding0t/dictionary.git
+[submodule "references/restricted-data/bhsa"]
+	path = references/restricted-data/bhsa
+	url = https://github.com/ding0t/bhsa.git
 [submodule "references/open-data/hebrew-vocab-tools"]
 	path = references/open-data/hebrew-vocab-tools
 	url = https://github.com/ding0t/hebrew-vocab-tools.git
