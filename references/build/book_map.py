@@ -74,6 +74,37 @@ NUM_TO_OSIS = {
     61: "2Pet", 62: "1John", 63: "2John", 64: "3John", 65: "Jude", 66: "Rev",
 }
 
+# Full, lowercase-hyphenated book names for commentary directory naming (docs/content/bible/
+# commentaries/<NN>-<slug>/), matching the convention already established by the four existing
+# books (01-genesis, 19-psalms, 20-proverbs, 27-daniel). Same 1-66 numbering as NUM_TO_OSIS.
+NUM_TO_SLUG = {
+    1: "genesis", 2: "exodus", 3: "leviticus", 4: "numbers", 5: "deuteronomy",
+    6: "joshua", 7: "judges", 8: "ruth", 9: "1-samuel", 10: "2-samuel",
+    11: "1-kings", 12: "2-kings", 13: "1-chronicles", 14: "2-chronicles", 15: "ezra",
+    16: "nehemiah", 17: "esther", 18: "job", 19: "psalms", 20: "proverbs",
+    21: "ecclesiastes", 22: "song-of-solomon", 23: "isaiah", 24: "jeremiah", 25: "lamentations",
+    26: "ezekiel", 27: "daniel", 28: "hosea", 29: "joel", 30: "amos",
+    31: "obadiah", 32: "jonah", 33: "micah", 34: "nahum", 35: "habakkuk",
+    36: "zephaniah", 37: "haggai", 38: "zechariah", 39: "malachi",
+    40: "matthew", 41: "mark", 42: "luke", 43: "john", 44: "acts", 45: "romans",
+    46: "1-corinthians", 47: "2-corinthians", 48: "galatians", 49: "ephesians", 50: "philippians",
+    51: "colossians", 52: "1-thessalonians", 53: "2-thessalonians", 54: "1-timothy", 55: "2-timothy",
+    56: "titus", 57: "philemon", 58: "hebrews", 59: "james", 60: "1-peter",
+    61: "2-peter", 62: "1-john", 63: "2-john", 64: "3-john", 65: "jude", 66: "revelation",
+}
+
+# bible_references-style full names (as authors actually type them in frontmatter) -> book number.
+# Deliberately permissive about singular/plural and "of John"-type suffixes that trip up
+# SCROLLMAPPER_NAME_TO_OSIS (built for a different source's naming, not free-text frontmatter).
+REFERENCE_NAME_TO_NUM = {name.replace("-", " ").title(): num for num, name in NUM_TO_SLUG.items()}
+REFERENCE_NAME_TO_NUM.update({
+    "Psalm": 19, "Psalms": 19, "Song of Songs": 22, "Revelation of John": 66,
+    "1 Corinthians": 46, "2 Corinthians": 47, "1 Thessalonians": 52, "2 Thessalonians": 53,
+    "1 Timothy": 54, "2 Timothy": 55, "1 Peter": 60, "2 Peter": 61,
+    "1 John": 62, "2 John": 63, "3 John": 64, "1 Samuel": 9, "2 Samuel": 10,
+    "1 Kings": 11, "2 Kings": 12, "1 Chronicles": 13, "2 Chronicles": 14,
+})
+
 # Standard 66-book canonical order, used by the study-Bible EPUBs' "BBCCCVVV"
 # numeric ids (e.g. id="v01001001" -> book 01 -> Genesis, chapter 1, verse 1).
 _CANONICAL_ORDER = [

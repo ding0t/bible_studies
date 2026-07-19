@@ -80,9 +80,21 @@ draft: false
 
 - Array of scripture references
 - Displayed on study cards
+- Feeds `references/build/commentary_index.py`'s auto-generated cross-reference index under `docs/content/bible/commentaries/` — see `references/README.md`
 
 ```yaml
 bible_references: ["Leviticus 23", "Colossians 2:16-17", "Hebrews 10:1"]
+```
+
+### primary_passage
+
+- The passage(s) this study is centrally *about*, as distinct from `bible_references`' broader supporting list — a single reference, or several separated by `; ` for a multi-account passage (e.g. a Gospel parallel)
+- Not required, but strongly recommended — without it, `commentary_index.py` can only mark this study as a general reference, not the primary treatment, wherever it links from a commentary chapter
+
+```yaml
+primary_passage: "Mark 5:25-34"
+# or, for a passage covered by several parallel accounts:
+primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
 ```
 
 ### year, zadok_year, gregorian_year
