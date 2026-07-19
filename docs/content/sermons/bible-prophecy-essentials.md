@@ -14,7 +14,7 @@ To provide a foundation for understanding the bible in context of prophecy
 
 ## Image
 
-![image](../../assets/img/larkin/c07.jpg)
+![image](../assets/img/larkin/c07.jpg)
 
 ## Outline
 

@@ -36,13 +36,13 @@ Are these references to the same trumpet call or are they different?
 
 ## Shofar
 
-![shofar](../../../assets/img/shofar.webp)
+![shofar](../../assets/img/shofar.webp)
 
 ---
 
 ## Silver trumpet
 
-![two silver trumpets](../../../assets/img/two-trumpets.jpg)
+![two silver trumpets](../../assets/img/two-trumpets.jpg)
 
 ---
 
