@@ -70,6 +70,9 @@ def collect_references() -> dict[tuple[int, int], list[dict]]:
         except yaml.YAMLError:
             continue
 
+        if fm.get("draft") is True:
+            continue
+
         title = fm.get("title", md_file.stem)
         rel_path = md_file.relative_to(STUDIES_DIR)  # e.g. feasts/last-supper-four-cups.md
 

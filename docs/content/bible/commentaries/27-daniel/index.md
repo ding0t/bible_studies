@@ -112,3 +112,9 @@ What types are seen as shadows of a truth.
 ## References
 
 - [search icons](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
+
+<!-- commentary-index:auto-start -->
+## Chapters with linked studies
+
+- [Chapter 9](chapter-009.md) — 1 study(ies)
+<!-- commentary-index:auto-end -->

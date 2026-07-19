@@ -3,7 +3,7 @@ title: "Christians and Deliverance Ministry"
 category: "investigation"
 description: "Examining the biblical basis and practical approach to deliverance ministry"
 tags: ["investigation", "deliverance", "demons", "spiritual-warfare", "ministry", "word-study"]
-draft: true
+draft: false
 bible_references: ["Matthew 12:43-44", "Matthew 12:28", "Ephesians 1:14", "1 Peter 2:9", "1 Corinthians 3:23", "1 John 4:4", "2 Corinthians 5:17-18", "Colossians 1:12-13", "1 Corinthians 6:19-20", "1 Corinthians 6:17", "Mark 5:12", "1 Corinthians 12:1-11", "John 10:20-21", "2 Corinthians 12:7", "James 4:7"]
 ---
 

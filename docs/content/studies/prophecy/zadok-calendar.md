@@ -3,7 +3,7 @@ title: "The Zadok Calendar"
 category: "prophecy"
 description: "The 364-day priestly calendar behind this site's zadok_year dating, its roots in the Zadokite priesthood and the Dead Sea Scrolls, and why I use it"
 tags: ["zadok", "calendar", "dead-sea-scrolls", "enoch", "jubilees", "chronology", "prophecy"]
-draft: true
+draft: false
 bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticus 25:8-13", "2 Samuel 8:17", "1 Kings 2:35", "Ezekiel 44:15", "Daniel 9:24-27"]
 ---
 

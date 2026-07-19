@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 23:23-25 (primary passage)
+- [The Zadok Calendar](../../../studies/prophecy/zadok-calendar.md) — 23:4
 <!-- commentary-index:auto-end -->

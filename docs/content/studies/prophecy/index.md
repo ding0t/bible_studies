@@ -44,5 +44,13 @@ End-times and biblical prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](trumpet.md)
 
+-   __The Zadok Calendar__
+
+    ---
+
+    The 364-day priestly calendar behind this site's zadok_year dating, its roots in the Zadokite priesthood and the Dead Sea Scrolls, and why I use it
+
+    [:octicons-arrow-right-24: Read](zadok-calendar.md)
+
 </div>
 <!-- section-index:auto-end -->
