@@ -6,7 +6,6 @@ metadata per work; tier filtering happens at export time (see export.py),
 not here.
 """
 import csv
-import html
 import re
 import sqlite3
 import subprocess
@@ -19,7 +18,7 @@ from xml.etree import ElementTree
 
 import yaml
 
-from book_map import MACULA_USFM_TO_OSIS, NUM_TO_OSIS, SCROLLMAPPER_NAME_TO_OSIS
+from book_map import MACULA_USFM_TO_OSIS, SCROLLMAPPER_NAME_TO_OSIS
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 OPEN_DATA = REPO_ROOT / "references" / "open-data"
@@ -510,68 +509,6 @@ def ingest_ebible(
     print(f"ebible-{ebible_id}: {len(verse_rows)} verses")
 
 
-def ingest_cultural_backgrounds(conn: sqlite3.Connection, edition: str = "niv") -> None:
-    """Ingests the NIV/NKJV Cultural Backgrounds Study Bible's verse-by-verse notes.
-
-    Personal-use, machine-local source only -- never distributed, never committed to this
-    repo (see references/README.md). The epub isn't git-hosted or fetchable, so unlike
-    ingest_ebible() there's no download step: this just parses whatever's already unzipped
-    at MEDIA_ROOT below. Skips silently (prints a note, doesn't fail the build) if that path
-    isn't present -- this source only exists on the one machine that owns the epub, and the
-    rest of the build must stay runnable without it.
-
-    license_tier is 'quotation-only', per schema.sql's own documented (if previously unused)
-    tier -- this data must never appear in any export/build step that isn't explicitly
-    scoped to stay local. There is currently no export.py in this pipeline to enforce that
-    automatically; until one exists, tier-filtering here is a manual discipline, not a
-    guarantee.
-    """
-    media_root = Path("/Volumes/media/bible/local-only-build/unzipped") / f"{edition}-cultural-backgrounds-study-bible" / "OEBPS"
-    if not media_root.is_dir():
-        print(f"cultural-backgrounds-{edition}: source not found at {media_root}, skipping (expected on machines without the media volume)")
-        return
-
-    commit = None  # not git-hosted; nothing to pin
-    work_id = f"cultural-backgrounds-{edition}"
-    conn.execute(
-        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
-        "source_commit, ingested_at, license, license_tier, attribution, notes) "
-        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
-        (work_id, edition.upper(), f"{edition.upper()} Cultural Backgrounds Study Bible", "eng",
-         "cultural-backgrounds-study-bible", None, commit, TODAY,
-         "Copyrighted, all rights reserved (Zondervan)", "quotation-only",
-         "Zondervan, ed. John H. Walton & Craig S. Keener",
-         f"Personal-use extraction from a purchased epub at {media_root} -- not git-hosted, not "
-         "redistributable. Never export/output this work_id's notes into anything that leaves this "
-         "machine. Quote briefly with attribution in a study file; never reproduce a note in full."),
-    )
-
-    note_pattern = re.compile(r'<p class="com" id="(com\d+)">(.*?)</p>', re.DOTALL)
-    tag_pattern = re.compile(r"<[^>]+>")
-    note_rows = []
-    seen_ids = set()
-    for xhtml_file in sorted(media_root.glob("*.xhtml")):
-        text = xhtml_file.read_text(encoding="utf-8")
-        for anchor_id, raw_note in note_pattern.findall(text):
-            if anchor_id in seen_ids:
-                continue
-            seen_ids.add(anchor_id)
-            digits = anchor_id.removeprefix("com")
-            book_num, chapter, verse = int(digits[:2]), int(digits[2:5]), int(digits[5:8])
-            osis_book = NUM_TO_OSIS.get(book_num)
-            if osis_book is None:
-                continue
-            clean_text = html.unescape(tag_pattern.sub("", raw_note)).strip()
-            note_rows.append((work_id, osis_book, chapter, verse, "cultural-background", clean_text))
-
-    conn.executemany(
-        "INSERT INTO notes (work_id, book, chapter, verse, note_type, text) VALUES (?,?,?,?,?,?)",
-        note_rows,
-    )
-    conn.commit()
-    print(f"cultural-backgrounds-{edition}: {len(note_rows)} notes")
-
-
 def main() -> None:
     conn = init_db()
     ingest_scrollmapper(conn)
@@ -585,7 +522,6 @@ def main() -> None:
     ingest_ebible(conn, "grcbrent", "Brenton-LXX", "Brenton Septuagint (Greek)", "grc")
     ingest_ebible(conn, "grc-tisch", "Tischendorf", "Tischendorf 8th ed. Greek New Testament", "grc")
     ingest_ebible(conn, "heb", "Delitzsch", "Delitzsch Hebrew Bible (OT+NT)", "heb")
-    ingest_cultural_backgrounds(conn)
     conn.close()
     print(f"\nBuild complete: {DB_PATH}")
 
