@@ -105,7 +105,7 @@ def build_index(dir_path: Path) -> str | None:
             cards.append(render_page_card(fm, child.name))
 
     if not cards:
-        return None
+        return f"{SECTION_START}\n*No published content in this section yet.*\n{SECTION_END}"
     return f"{SECTION_START}\n<div class=\"grid cards\" markdown>\n\n" + "\n\n".join(cards) + "\n\n</div>\n{SECTION_END}".replace("{SECTION_END}", SECTION_END)
 
 

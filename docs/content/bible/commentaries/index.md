@@ -66,12 +66,6 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](27-daniel/)
 
--   __Joel__
-
-    ---
-
-    [:octicons-arrow-right-24: Browse](29-joel/)
-
 -   __Zechariah__
 
     ---
@@ -107,12 +101,6 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](46-1-corinthians/)
-
--   __1 Thessalonians__
-
-    ---
-
-    [:octicons-arrow-right-24: Browse](52-1-thessalonians/)
 
 -   __Revelation__
 
