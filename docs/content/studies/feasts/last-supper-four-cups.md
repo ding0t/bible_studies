@@ -18,14 +18,14 @@ The short answer, checked against primary and secondary sources rather than assu
 
 ## Historical context: the four cups of Passover
 
-The Mishnah (the earliest written codification of Jewish oral law, redacted around 200 AD but understood to preserve considerably earlier practice) devotes a chapter, *Pesachim* 10, to the Passover Seder, and states plainly that everyone — "even the poorest in Israel" — is obligated to drink **four cups of wine** during the meal, positioned at four specific points:
+The Mishnah (the earliest written codification of Jewish oral law, redacted around 200 AD but understood to preserve considerably earlier practice) devotes a chapter, [*Pesachim* 10](https://www.sefaria.org/Mishnah_Pesachim.10.1?lang=bi), to the Passover Seder, opening: *"Even the poorest person in Israel may not eat [on the eve of Pesach] until he reclines [at the night's Seder]. And [the communal officers] must give him no fewer than four cups of wine"* (10:1, Sefaria Community Translation, CC0). Everyone is obligated to drink **four cups of wine** during the meal, positioned at four specific points:
 
 1. **First cup** — with the opening Kiddush (sanctification of the day)
 2. **Second cup** — after the *Maggid*, the telling of the Exodus story
 3. **Third cup** — after *Birkat Hamazon*, the grace recited after the meal itself — commonly called the "cup of blessing" or "cup of redemption"
 4. **Fourth cup** — with the *Hallel* (Psalms 113-118, sung in two halves, one before the meal and one after)
 
-The Mishnah adds a detail worth noting for its own sake: *"between the third and the fourth cups, one may not drink."* There is a real, ruled-on pause built into the structure at exactly the point in the meal a statement like Jesus's would land if tied to the third cup.
+The Mishnah adds a detail worth noting for its own sake — quoting directly rather than paraphrasing, from [Mishnah Pesachim 10:7](https://www.sefaria.org/Mishnah_Pesachim.10.7?lang=bi) (Sefaria Community Translation, CC0): *"A third cup would be mixed for [the Seder leader]... Between these [first three] cups, if he wants to drink, he may drink. Between the third and the fourth [cups], he may not drink."* There is a real, ruled-on pause built into the structure at exactly the point in the meal a statement like Jesus's would land if tied to the third cup.
 
 The traditional association is with **Exodus 6:6-7**, where God gives four distinct promises of redemption: "I will bring you out... I will deliver you... I will redeem you... and I will take you to be my people." Each cup was understood to correspond to one promise. Scripture itself uses cup-language for redemption in terms the Seder's Hallel actually sings: *"I will lift up the cup of salvation and call on the name of the LORD"* (Psalm 116:13, ESV) — part of the Hallel recited at the Seder.
 
@@ -84,7 +84,7 @@ One popular devotional connection is worth mentioning by name, precisely because
 
 ## References & Recommended Reading
 
-- **Mishnah, *Pesachim* 10** — the primary source for the Seder's four-cup structure (Kiddush, Maggid, Birkat Hamazon/"cup of blessing," Hallel) and the rule against drinking between the third and fourth cups. Redacted c. 200 AD; applying its structure to a c. 30 AD meal is the mainstream scholarly assumption, not something the Mishnah itself claims about that earlier period.
+- **Mishnah, *Pesachim* 10** — the primary source for the Seder's four-cup structure (Kiddush, Maggid, Birkat Hamazon/"cup of blessing," Hallel) and the rule against drinking between the third and fourth cups. Quoted directly above from the **Sefaria Community Translation (CC0)**, via [sefaria.org](https://www.sefaria.org/Mishnah_Pesachim.10.1?lang=bi) / the [Sefaria-Export](https://github.com/Sefaria/Sefaria-Export) data (fetched with `references/build/sefaria.py`) — the Hebrew text itself (Torat Emet edition) is Public Domain; several English translations are open (this one CC0, Kulp's *Mishnah Yomit* CC-BY), though Sefaria's own default English display (William Davidson Edition) is CC-BY-NC. Redacted c. 200 AD; applying its structure to a c. 30 AD meal is the mainstream scholarly assumption, not something the Mishnah itself claims about that earlier period.
 - Cross-checked the Exodus 6:6-7 four-promises correspondence against several independent Jewish and Messianic background sources (Chabad.org, TorahResource, Jewish Awareness Ministries) for convergence rather than relying on one.
 - *NIV Cultural Backgrounds Study Bible* (Zondervan, ed. John H. Walton & Craig S. Keener), notes at Matthew 26:27-30 and Mark 14:22-26 — independently reaches the "probably the third cup" reading argued for above, and is the source for the Exodus 24:8 "blood of the covenant" echo and the Jewish vow-of-abstinence detail in this study. Recommended for the fuller verse-by-verse background discussion.
 - The Greek word-study data (ποτήριον, γένημα τῆς ἀμπέλου, εὐχαριστήσας, διαθήκη, καινός) is drawn from this project's own `bible-text.db`, built from the MACULA Greek dataset (`open-data/macula-greek`) and SBLGNT.
