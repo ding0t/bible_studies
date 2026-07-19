@@ -58,7 +58,7 @@ medium, necromancer
 
 ## Sorcery dwells with false prophecy
 
-See [test the spirits](../apologetics/test_the_spirits.md)
+See [test the spirits](../spiritual-disciplines/test-the-spirits.md)
 
 > ✝️ [Acts 13:4-12 (ESV)](https://esv.literalword.com/?q=Acts+13%3A4-12)
 >
