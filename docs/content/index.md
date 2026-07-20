@@ -49,3 +49,4 @@ Browse the studies in the navigation, covering prophecy, feasts, theology, spiri
 - [Got Questions](https://www.gotquestions.org/)
 - [Blue Letter Bible](https://www.blueletterbible.org/)
 - [Bible Facts](https://biblefacts.org/)
+- [eBible.org](https://ebible.org/) — free Bibles in many languages and formats; also the source behind several translations this site's own tools query directly.
