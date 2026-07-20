@@ -3,7 +3,7 @@ title: "The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jes
 category: "theology"
 description: "A narrative exegesis of Mark 5:25-34: Levitical background, the Markan sandwich structure, and what the touch, power, and healing vocabulary reveal about faith crossing social boundaries"
 tags: ["gospels", "mark", "faith", "healing", "uncleanness", "word-study", "synoptics"]
-draft: true
+draft: false
 primary_passage: "Mark 5:25-34"
 bible_references: ["Mark 5:21-43", "Matthew 9:18-26", "Luke 8:40-56", "Leviticus 15:19-30", "Leviticus 12:1-8", "Numbers 19:11-13", "Mark 1:40-42", "Mark 10:46-52"]
 zadok_year: 4036

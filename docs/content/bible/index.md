@@ -20,5 +20,13 @@ Commentary and reference material on the biblical text itself.
 
     [:octicons-arrow-right-24: Browse](commentaries/)
 
+-   __How to Read the Bible__
+
+    ---
+
+    A practical method for reading Scripture well: what it meant before what it means, in that order
+
+    [:octicons-arrow-right-24: Read](how-to-read-the-bible.md)
+
 </div>
 <!-- section-index:auto-end -->

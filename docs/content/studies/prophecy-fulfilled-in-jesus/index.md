@@ -20,6 +20,14 @@ Old Testament prophecies and how the Gospels record their fulfillment in Jesus.
 
     [:octicons-arrow-right-24: Read](woman-at-well.md)
 
+-   __The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus__
+
+    ---
+
+    A narrative exegesis of Mark 5:25-34: Levitical background, the Markan sandwich structure, and what the touch, power, and healing vocabulary reveal about faith crossing social boundaries
+
+    [:octicons-arrow-right-24: Read](woman-issue-of-blood-faith-and-access.md)
+
 -   __Woman with the Issue of Blood__
 
     ---
