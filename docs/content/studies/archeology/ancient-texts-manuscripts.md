@@ -402,6 +402,10 @@ This study examines ancient texts, manuscripts, inscriptions, and extra-biblical
 
 ---
 
+P52, P46, and P66 above are three of the 83 known New Testament manuscripts dated to AD 300 or earlier. For English translations of all 83 — read what each papyrus actually says, rather than a summary of it — see [Early New Testament Manuscripts](../../resources/early-new-testament-manuscripts.md).
+
+---
+
 #### 16. Codex Sinaiticus (c. AD 330-360)
 **Location:** St. Catherine's Monastery, Sinai
 **Discovery Date:** 1844-1859 (Constantin von Tischendorf)

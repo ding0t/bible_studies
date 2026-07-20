@@ -12,6 +12,14 @@ External sources, tools, and datasets this project draws on.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __Early New Testament Manuscripts__
+
+    ---
+
+    earlynewtestament.com — English translations of the 83 earliest known New Testament papyri, all dated to AD 300 or earlier
+
+    [:octicons-arrow-right-24: Read](early-new-testament-manuscripts.md)
+
 -   __Open Bible Data on GitHub__
 
     ---
