@@ -1,0 +1,242 @@
+slug: lords-prayer
+title: "The Lord's Prayer: What Jesus Taught Us About How to Pray"
+status: published
+target_path: docs/content/studies/prayer/lords-prayer.md
+
+primary_passage: "Matthew 6:9-13; Luke 11:2-4"
+supporting_passages:
+  - "Matthew 6:5-8"
+  - "Matthew 6:14-15"
+  - "Luke 11:1"
+  - "Luke 11:5-13"
+  - "Isaiah 63:16"
+  - "Isaiah 64:8"
+  - "Ezekiel 36:23"
+  - "Exodus 16:4"
+  - "Proverbs 30:8-9"
+  - "Deuteronomy 15:1-2"
+  - "James 1:13-14"
+  - "Daniel 2:44"
+  - "1 Chronicles 29:11"
+  - "Matthew 12:28"
+  - "Luke 11:20"
+  - "Luke 17:21"
+  - "Matthew 25:34"
+  - "Acts 1:6-7"
+  - "Matthew 19:23-24"
+genre: [gospel]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      First study in a brand-new top-level category docs/content/studies/prayer/ (user explicitly
+      asked to "start a section under studies on prayer", distinct from the existing informal
+      docs/content/studies/spiritual-disciplines/prayer.md notes page, which is left as-is per
+      user's choice among AskUserQuestion options -- new top-level category, no migration of the
+      old notes). This is the first study in the new section. Scope: full exegesis of both Synoptic
+      accounts of the Lord's Prayer (Matthew 6:9-13, within the Sermon on the Mount; Luke 11:2-4,
+      within the travel narrative), addressing directly whether these represent one teaching
+      occasion remembered differently or two separate occasions, plus OT/cultural background,
+      word studies, and derived lessons on prayer.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Matthew: traditionally the apostle/tax-collector, writing a topically-arranged Gospel (five
+        discourses) for a largely Jewish-Christian audience, heavy on OT fulfillment -- consistent
+        with the Sermon on the Mount itself likely being a topical anthology of Jesus's teaching
+        rather than a single verbatim occasion. Luke: physician-companion of Paul, writing an
+        "orderly account" (Luke 1:1-4) for Theophilus, drawing on eyewitness sources, placing events
+        within his own travel-narrative structure (9:51-19:27).
+
+        Occasion question (Matthew vs. Luke) -- resolved in favor of two distinct teaching
+        occasions, not one event told two ways: (1) Luke gives an explicit, concrete narrative
+        trigger absent from Matthew -- a specific disciple's request after watching Jesus pray,
+        "Lord, teach us to pray, just as John also taught his disciples" (Luke 11:1, confirmed
+        against macula-greek-sblgnt: Κύριε δίδαξον ἡμᾶς προσεύχεσθαι καθὼς καὶ Ἰωάννης ἐδίδαξεν τοὺς
+        μαθητὰς αὐτοῦ) -- the comparison to John the Baptist's disciples reflects a known Second
+        Temple pattern of a rabbi giving his own disciples a distinctive prayer as a mark of
+        belonging to his school (cf. also Luke 5:33, disciples of John noted for fasting/prayer
+        practices). Matthew's version carries no such setup; it's introduced as part of a continuous
+        block of teaching. (2) The two accounts differ enough in wording and length (Luke's is
+        markedly shorter even before accounting for later scribal harmonization -- see
+        cross_reference notes below) that they read as independent deliveries rather than variant
+        memories of one utterance. (3) Each Gospel places the prayer inside a different teaching
+        unit serving a different point (see literary_context) -- consistent with an itinerant rabbi
+        repeating core teaching to different audiences at different points in his ministry, which
+        was normal rabbinic practice, not with a single event awkwardly duplicated.
+        Acknowledged alternative: source-critical scholarship working from a Q hypothesis often
+        treats this as one traditional saying preserved in two redactional forms; noted for
+        completeness but the historical/narrative-occasion reading above is preferred, consistent
+        with AGENTS.md's "be accurate to scripture" / treat the Gospels' own narrative claims as
+        historical rather than defaulting to source-critical skepticism.
+
+        Cultural background on prayer practice: Matt 6:5's "hypocrites" praying standing in
+        synagogues and street corners reflects the fixed daily prayer times of Second Temple Judaism
+        (the Shema and Amidah/Shemoneh Esreh recited at set hours) which made it easy to time one's
+        location for maximum public visibility. Matt 6:7's "vain repetition ... as the Gentiles do"
+        (battalogeo, a rare word possibly onomatopoeic for babbling) contrasts pagan prayer practice
+        of heaping up many names/formulas to compel capricious gods to listen (cf. the frantic,
+        repetitive crying out of the prophets of Baal in 1 Kings 18:26-29, which Elijah mocks in
+        exactly these terms) -- Jesus's model prayer is deliberately brief by contrast.
+        Scholarly-attested Jewish liturgical parallel (not independently verified against a primary
+        Sefaria text in this session -- see open_questions): the opening petitions of the Lord's
+        Prayer track closely with the Kaddish, a synagogue prayer in Aramaic ("Magnified and
+        sanctified be his great name ... may he establish his kingdom in your lifetime and in your
+        days") -- widely noted in NT scholarship (classically Joachim Jeremias) as the closest
+        liturgical relative to "hallowed be your name, your kingdom come." Also attempted to check
+        the b. Berakhot 60b morning-prayer parallel to "lead us not into temptation" ("bring me not
+        into the power of sin... nor into the power of temptation") via references/build/sefaria.py
+        but the Talmud daf/amud addressing (60b) didn't map onto the script's chapter/section
+        arguments in this session -- cited from general scholarly knowledge, not fetched/verified
+        directly; flagged as an open question.
+    literary_context:
+      done: true
+      notes: >
+        Matthew 6:9-13 sits inside 6:1-18, a triad on private "acts of righteousness" (almsgiving,
+        prayer, fasting) each structured the same way: warning against doing it to be seen by men,
+        then the correct practice done "in secret." The model prayer is the mid-triad "correct
+        practice" example, framed on both sides by warnings against ostentatious prayer (6:5-6) and
+        pagan verbosity (6:7-8) -- the governing point of Matthew's placement is prayer's posture
+        (secret, brief, sincere) more than its content per se. Matthew immediately follows the
+        prayer with a coda (6:14-15) singling out the forgiveness petition alone for further
+        comment ("For if you forgive others their trespasses...") -- textual evidence Matthew (or
+        Jesus) treated that clause as the one most needing reinforcement.
+
+        Luke 11:2-4 sits inside Luke's central travel narrative (9:51-19:27), immediately after the
+        Mary-and-Martha episode (10:38-42, contrasting anxious activity with attentive devotion) and
+        opening with Jesus's own practice of praying "in a certain place" (11:1) -- the disciples'
+        request is prompted by watching Jesus, not by a general teaching setting. Luke continues
+        directly from the prayer into the Friend at Midnight parable (11:5-8) and the "ask, seek,
+        knock" teaching (11:9-13), climaxing in "how much more will the heavenly Father give the
+        Holy Spirit to those who ask him" -- Luke's governing point for this unit is persistent,
+        confident asking, not (as in Matthew) contrast with hypocritical prayer styles. Same core
+        content, two different governing points -- each Gospel writer shaped placement to serve his
+        own argument, which is itself evidence for treating each account on its own terms before
+        harmonizing (per the Gospel genre lens in the develop-bible-study skill).
+    content_word_studies:
+      done: true
+      notes: >
+        Queried macula-greek-sblgnt directly (references/build/query.py) for full morphology/gloss
+        on both accounts plus concordance checks, and macula-hebrew-wlc/morphhb-wlc plus the
+        committed TWOT root-map for OT background terms. Notable finding: epiousios (G1967,
+        "daily") is one of the rarest words in the entire NT -- concordanced across the whole
+        corpus, it occurs in exactly two verses total (Matt 6:11, Luke 11:3) and nowhere else in
+        surviving Greek literature prior to the Gospels (a small number of disputed later papyri
+        citations exist) -- origin/derivation genuinely disputed among ancient and modern
+        interpreters alike (see terms below), not a case of picking one gloss and moving on.
+      terms:
+        - {word: "Πάτερ", language: greek, transliteration: "Pater", strongs_id: "G3962", gloss: "Father", range_of_meanings: ["intimate/familial address to God (this prayer)", "generic father/ancestor elsewhere in Greek usage"], notes: "LN domain 12.12 (kinship/supernatural beings). Luke's shorter text (per SBLGNT/ASV, see cross_reference) has simply Pater with no 'our' or 'in heaven' -- Matthew's fuller 'our Father who is in heaven' matches OT address in Isa 63:16/64:8 (corporate, covenantal) more explicitly; Luke's bare Pater is closer to Jesus's own distinctive address elsewhere (Mark 14:36 Abba ho pater). OT background: Israel already addressed God as Father corporately (Isa 63:16, 64:8; Deut 32:6; Mal 2:10) -- Jesus is not coining the address from nothing, but he does intensify and personalize it as the prayer's very first word, ahead of any petition."}
+        - {word: "ἁγιασθήτω", language: greek, transliteration: "hagiasthētō", strongs_id: "G37", gloss: "let it be sanctified / hallowed", notes: "Aorist passive imperative, third person -- a petition that God himself act, not a description of something we do to God's name. LN domain 88.27. OT root concept: qadash/H6942 (TWOT root 1990, 'be set apart, sacred'), especially Ezek 36:23 where God himself vindicates/sanctifies his own profaned name before the nations -- the same passive-God-acts logic as this petition, not a request that we merely speak more reverently."}
+        - {word: "βασιλεία", language: greek, transliteration: "basileia", strongs_id: "G932", gloss: "kingdom, reign, sovereignty", range_of_meanings: ["abstract reign/sovereign rule (primary sense, Classical Greek and LXX for malkuth/malku)", "realm/territory (secondary, derived sense)", "already inaugurated in Christ's ministry (Matt 12:28 par. Luke 11:20, ephthasen 'has arrived'; Luke 17:21 'in the midst of you')", "not-yet consummated future kingdom (Matt 25:34; Acts 1:6-7)"], notes: "Given the fuller diachronic/synchronic/conclusion treatment per word-study-method.md rather than a bare gloss, since it's genuinely load-bearing (already/not-yet tension) and directly touches AGENTS.md's dispensational-preference instruction. Diachronic: Classical Greek = abstract kingship/reign; LXX renders Hebrew malkuth/Aramaic malku (root mlk, 'to reign') the same way. Daniel 2:44 (Aramaic malku, H4437, verified against WLC) supplies the OT future-eternal-kingdom background; 1 Chron 29:11 (Hebrew mamlakah, H4467, verified against WLC) -- 'yours is the kingdom, O LORD' -- is very likely the actual OT liturgical source the later-added Matt 6:13 doxology was echoing, not an invention from nothing. Synchronic: concordanced 164 total NT occurrences (query.py concordance G932); Matthew accounts for over a third, mostly his own distinctive 'kingdom of heaven' (32x, unique to Matthew) -- confirmed directly against the Greek text that Matthew treats 'kingdom of heaven' and 'kingdom of God' as fully interchangeable (Matt 19:23 vs 19:24, same saying, adjacent verses), i.e. 'heaven' is reverential circumlocution for the divine name, not a theologically distinct kingdom. Wider NT holds real already/not-yet tension: 'has come upon you' (ephthasen, aorist) in Matt 12:28 par. Luke 11:20 (verified both), Luke 17:21 'in the midst of you' vs. still-future 'inherit the kingdom prepared... from the foundation of the world' (Matt 25:34) and Acts 1:6's unrebuked question about restoring the kingdom to Israel. Conclusion: 'your kingdom come' (aorist imperative) is synonymous parallelism with 'your will be done, on earth as it is in heaven' -- one request stated two ways -- prayed from within the inaugurated 'already' toward the consummated 'not yet,' read here with a dispensational preference for a future, literal, visible establishment of God's kingdom rather than a fully-realized present-only reading. Grammar point added on user follow-up ('do we need to consider kingdom come vs just kingdom'): checked morph_code directly in bible-text.db for all three v9-10 Thou-petitions -- hagiasthethto=V-APM-3S (aorist passive imperative, 'divine passive' avoiding naming God as agent), genethetho=V-AOM-3S (aorist deponent/passive-toned imperative, same divine-passive pattern), but elthetho=V-2AAM-3S (2nd aorist ACTIVE imperative) -- breaks the passive pattern, kingdom itself is grammatical subject that comes rather than something brought about by an unnamed agent. Also noted elthetho he basileia sou is one of only two clauses (with hagiasthetho...) surviving word-for-word in Luke's shorter earliest text -- genethetho/'your will be done' is Matthew-only in the earliest manuscripts -- so 'your kingdom come' is the more securely double-attested of the two Thou-petitions about God's future action."}
+        - {word: "ἐπιούσιος", language: greek, transliteration: "epiousios", strongs_id: "G1967", gloss: "daily / for subsistence / for the coming day", range_of_meanings: ["'daily' (traditional English gloss, WEB/ASV/most translations)", "'for today, for the current day' (from epi + ousa, 'the present day')", "'for the coming day' (from epi + housan, i.e. tomorrow's bread asked for today)", "'necessary for existence' (from epi + ousia, 'substance, being')"], notes: "The single rarest-attested word in the entire NT (see content_word_studies note above) -- occurring only Matt 6:11 par. Luke 11:3, essentially nowhere else in contemporary Greek, which is why the gloss is disputed rather than settled. Origen (3rd c.) already remarks the word appears coined by the Gospel writers. Root fallacy guardrail: don't overclaim a single settled etymology as certain fact -- present the live options, note that all readings converge on the same practical force (asking God for today's/tomorrow's provision, not stockpiled abundance), which is the point that matters for the theological principle regardless of which etymology wins. Conceptual OT parallel: manna could not be hoarded beyond its day except before Sabbath (Exod 16:4, 19-20) -- a day-by-day dependence pattern; also Prov 30:8's request to be fed 'bread of my allotment/portion' (lechem chuqqi, TWOT root 728a, H2706) -- a wisdom prayer for sufficiency rather than excess, conceptually adjacent even though not lexically identical to epiousios."}
+        - {word: "ὀφειλήματα", language: greek, transliteration: "opheilēmata", strongs_id: "G3783", gloss: "debts", notes: "Matthew's term for what's forgiven (6:12); Luke's parallel petition (11:4) instead uses hamartias/G266 ('sins') for what's forgiven but keeps the same debt-root word (opheilonti, G3784) for what we in turn forgive others -- Luke glosses Matthew's financial metaphor into its plain theological sense while keeping the debt-language for the human side of the comparison. OT/cultural background: Israel's actual sabbatical-year debt release (shemittah, H8059, TWOT-adjacent, Deut 15:1-2) supplies the literal financial practice standing behind the metaphor of sin-as-debt -- a real, periodic, covenant-mandated cancellation of what could not otherwise be repaid, not an abstract image invented for this prayer."}
+        - {word: "πειρασμόν", language: greek, transliteration: "peirasmon", strongs_id: "G3986", gloss: "temptation / testing / trial", notes: "LN domain 88.308 in this occurrence (temptation/enticement-to-sin sense, per the macula-greek tagging), which creates a real interpretive tension against James 1:13-14 ('God cannot be tempted with evil, and he himself tempts no one') -- cross-checked per the skill's hermeneutics step rather than left unaddressed. Two harmonizing readings are current in scholarship: (a) peirasmos here carries its other well-attested sense of 'trial/testing' (LN 27.31 elsewhere in the NT) rather than 'enticement to sin' -- a request to be spared severe testing (possibly even the eschatological 'hour of trial,' cf. Rev 3:10) rather than a claim that God tempts to sin; (b) 'lead us not into' is a Semitic idiom for 'do not let us fall into/succumb to' rather than a claim of divine causation, matching the same permissive-language pattern elsewhere in Scripture (e.g., God 'hardening' Pharaoh's heart language, which likewise doesn't mean God authored the sin). Either resolves the apparent tension with James without forcing a contradiction; noted as unresolved between the two rather than picking one as definitively correct."}
+        - {word: "τοῦ πονηροῦ", language: greek, transliteration: "tou ponērou", strongs_id: "G4190", gloss: "of the evil / of the evil one", notes: "Added on user follow-up flagging this entry was missing transliteration entirely in both the draft and this state file. Genitive form of ponēros -- grammatically ambiguous between neuter ('evil,' the abstract quality) and masculine ('the evil one,' i.e. Satan), since the two genitive forms are identical in Greek. The identical phrase ho ponēros clearly denotes Satan elsewhere in the NT (Matt 13:19, 13:38; John 17:15; 1 John 2:13-14, 3:12, 5:18-19), which inclines many interpreters toward the personal 'deliver us from the evil one' reading, though this wasn't independently reconcordanced against bible-text.db in this session (relying on well-established general NT usage) -- both English renderings remain grammatically defensible."}
+
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Culturally specific and not directly binding in the same form: the precise Aramaic/Greek
+        wording, the synagogue-prayer conventions (fixed hours, standing posture) Jesus is
+        contrasting against, and the debt-cancellation economy behind the "debts" metaphor are all
+        first-century Jewish covenant particulars. Transcultural: the prayer's structure and
+        priorities -- God's name/kingdom/will placed before any personal request; asking for daily
+        (not stockpiled) provision; forgiveness sought and extended as a single linked transaction;
+        deliverance from evil/testing sought in humility rather than presumption -- function as a
+        template for the shape and priority-order of Christian prayer in any culture, not a fixed
+        liturgical formula that must be recited verbatim to "count" (contrast Matt 6:7's own warning
+        against treating prayer as a magic formula of many words).
+    theological_principle:
+      done: true
+      notes: >
+        Jesus teaches that prayer is the address of a child to a Father whose name, kingdom, and
+        will take priority over the child's own needs -- and that once that priority is fixed,
+        asking for ordinary daily provision, mutual forgiveness, and protection from testing is not
+        presumption but the expected, uncomplicated pattern of a trusting relationship, requiring
+        neither public display (6:5-6) nor verbal accumulation (6:7-8) to be heard. Cross-checked
+        against the same priorities taught elsewhere: seek first the kingdom (Matt 6:33, same
+        sermon), forgive as you have been forgiven (Eph 4:32, Col 3:13), cast anxiety about
+        provision on God (1 Pet 5:7, Phil 4:6) -- not built on this passage in isolation.
+    application_draft:
+      done: true
+      notes: "Drafted in the file's own Key Lessons section, kept visibly distinct from the exegesis above."
+
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Isaiah 63:16; 64:8", relation: "OT corporate address of God as Father, background to Matthew's 'our Father'"}
+      - {ref: "Ezekiel 36:23", relation: "God himself sanctifying/vindicating his own name -- same passive-God-acts logic as 'hallowed be your name'"}
+      - {ref: "Exodus 16:4, 19-20", relation: "Manna could not be hoarded beyond its day (except before Sabbath) -- day-by-day dependence pattern behind 'daily bread'"}
+      - {ref: "Proverbs 30:8-9", relation: "Wisdom prayer for sufficiency ('bread of my portion') rather than excess -- conceptually adjacent to epiousios"}
+      - {ref: "Deuteronomy 15:1-2", relation: "The literal sabbatical debt-release (shemittah) standing behind the sin-as-debt metaphor"}
+      - {ref: "James 1:13-14", relation: "Cross-check against 'lead us not into temptation' -- God does not tempt to sin, resolved via peirasmos's testing/trial sense or Semitic permissive idiom"}
+      - {ref: "Matthew 6:33", relation: "Same sermon's 'seek first the kingdom' as the positive statement of the prayer's own priority order"}
+      - {ref: "Daniel 2:44", relation: "OT background for a future, God-established, indestructible kingdom -- basileia word study"}
+      - {ref: "1 Chronicles 29:11", relation: "David's temple-dedication prayer 'yours is the kingdom, O LORD' -- likely OT source for the later-added Matt 6:13 doxology"}
+      - {ref: "Matthew 12:28; Luke 11:20", relation: "Kingdom 'has come upon you' (ephthasen) -- the already-inaugurated pole of the already/not-yet tension"}
+      - {ref: "Luke 17:21", relation: "'Kingdom of God is in the midst of you' -- present-kingdom statement"}
+      - {ref: "Matthew 25:34; Acts 1:6", relation: "Future/consummated pole of the kingdom's already/not-yet tension"}
+      - {ref: "Matthew 19:23-24", relation: "Matthew's own interchangeable use of 'kingdom of heaven' and 'kingdom of God' for the identical saying"}
+      - {ref: "Luke 5:33", relation: "John the Baptist's disciples already known for distinctive prayer practice -- background to Luke 11:1's comparison"}
+      - {ref: "1 Kings 18:26-29", relation: "Pagan repetitive/frantic prayer (prophets of Baal) as the concrete referent behind Matt 6:7's warning against Gentile 'vain repetition'"}
+    translations_compared: ["WEB", "ASV", "YLT"]
+    divergences_noted: >
+      Significant textual-critical divergence, verified directly against macula-greek-sblgnt (a
+      modern critical/Alexandrian-leaning text) plus WEB, ASV, and YLT: (1) Matt 6:13's doxology
+      ("For thine is the kingdom and the power and the glory, forever, Amen") is present in WEB's
+      translation text but has NO corresponding words in the SBLGNT morphology for that verse (stops
+      at 'evil') and is likewise absent from ASV -- confirming the doxology is a later liturgical
+      addition (attested from the Didache onward) absent from the earliest manuscripts, not part of
+      the original text Matthew wrote; most modern translations (including ESV, our default) print
+      it as a footnote rather than in the main text. (2) Luke 11:2's Greek (SBLGNT) is markedly
+      shorter than Matthew's parallel -- just "Pater, hagiastheto to onoma sou, eltheto he basileia
+      sou" with no "our... in heaven" and no "your will be done on earth as in heaven" clause -- and
+      ASV (following the same Alexandrian-leaning critical tradition) translates that shorter form
+      exactly. WEB and YLT both print the longer, Matthew-harmonized form in Luke 11:2 instead
+      (YLT because it follows the Byzantine/Textus Receptus tradition; WEB apparently following a
+      similar majority-adjacent reading at this specific verse) -- a clear case of later scribes
+      harmonizing Luke's shorter, distinct wording toward Matthew's fuller version, confirmed
+      directly by comparing the SBLGNT tagging against each translation rather than asserted from
+      memory. ESV (this repo's default translation, not in bible-text.db so quoted from the
+      well-established published text rather than queried) follows the same shorter reading in Luke
+      and footnotes rather than includes the Matthean doxology -- both draft-relevant choices are
+      documented in the file itself.
+
+  drafting:
+    done: true
+    file: docs/content/studies/prayer/lords-prayer.md
+  review:
+    done: true
+    validated: false
+    validation_notes: >
+      npm run validate no longer exists as a script in app/package.json (the astro-migration
+      branch's package.json has dev/build/lint/format/test but no validate entry, even though
+      app/scripts/validate-content.js still exists on disk) -- pre-existing repo state, not
+      something to fix as part of this study. Verified frontmatter manually instead: parses with
+      pyyaml, starts at line 1, title/category/description/tags/draft/primary_passage/
+      bible_references all present, description 165 chars. Also ran
+      references/build/section_index.py (regenerated docs/content/studies/prayer/index.md and
+      docs/content/studies/index.md -- shows "No published content in this section yet" since this
+      study is still draft:true) and references/build/commentary_index.py (picked up the new
+      primary_passage/bible_references into the auto-generated cross-reference index, 25 chapters
+      across 17 books linked afterward).
+
+open_questions:
+  - "Kaddish/Amidah wording parallel to the prayer's opening petitions is cited from general NT
+     scholarship (classically Joachim Jeremias) rather than independently verified against a
+     primary Sefaria liturgy text in this session -- references/build/sefaria.py's category/title
+     lookup didn't resolve a 'Liturgy'/'Kaddish' text on the first attempt and wasn't pursued
+     further given this is supporting cultural background, not the exegetical core."
+  - "b. Berakhot 60b's morning-prayer parallel to 'lead us not into temptation' cited from general
+     scholarly knowledge, not fetched via sefaria.py in this session -- the script's chapter/section
+     arguments didn't map cleanly onto Talmudic daf/amud (60b) addressing; worth revisiting if a
+     future study needs verified primary-text Talmud citations."
+resources_consulted:
+  - {type: lexicon, title: "bible-text.db (macula-greek-sblgnt, macula-hebrew-wlc, morphhb-wlc)", author: "this repo's build pipeline", note: "Primary word-study/concordance/morphology source for both Gospel accounts and OT background verses, queried directly via query.py"}
+  - {type: lexicon, title: "TWOT (Theological Wordbook of the Old Testament) root map", author: "Harris, Archer & Waltke, eds.", note: "Root entries 4a (ab/H1, father), 1990 (qadash/H6942, be set apart), 1105a (lechem/H3899, bread), 728a (choq/H2706, something prescribed), looked up via references/build/twot/twot_strongs_map.json (bare id/lemma/gloss, not TWOT's discussion prose). Cited in the study's References section."}
+  - {type: other, title: "WEB, ASV, YLT translations", author: "ebible.org / scrollmapper-bible-databases", note: "Translation and textual-variant comparison, Phase 6 -- confirmed the Matt 6:13 doxology and Luke 11:2 shorter-text findings directly against primary translation text rather than from memory."}
+  - {type: other, title: "ESV (Matthew 6:9-13, Luke 11:2-4)", note: "Repo default translation per AGENTS.md; not in bible-text.db (not an open-licensed source), quoted from the well-established published ESV text in the drafted study rather than queried from this repo's tooling."}
+last_updated: "2026-07-22"

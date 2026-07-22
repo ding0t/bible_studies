@@ -12,14 +12,6 @@ Sermon notes and presentation material.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
--   __As the Snake Was Lifted__
-
-    ---
-
-    Slide presentation on the typology of the brazen serpent and Jesus
-
-    [:octicons-arrow-right-24: Read](as-the-snake-was-lifted.md)
-
 -   __Bible Prophecy Essentials__
 
     ---

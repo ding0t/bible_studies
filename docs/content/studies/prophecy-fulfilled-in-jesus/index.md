@@ -12,6 +12,14 @@ Old Testament prophecies and how the Gospels record their fulfillment in Jesus.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man__
+
+    ---
+
+    An exegetical study of Numbers 21:4-9 and John 3:14-15: how Jesus applies the bronze serpent to his own crucifixion, with word studies tracing 'lifted up' back to Isaiah's Suffering Servant.
+
+    [:octicons-arrow-right-24: Read](as-the-snake-was-lifted.md)
+
 -   __The woman at the well__
 
     ---

@@ -1,0 +1,203 @@
+slug: bronze-serpent-lifted-up
+title: "As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man"
+status: published
+target_path: docs/content/studies/prophecy-fulfilled-in-jesus/as-the-snake-was-lifted.md
+
+primary_passage: "Numbers 21:4-9; John 3:14-15"
+supporting_passages:
+  - "John 3:1-21"
+  - "John 3:16"
+  - "John 12:32-34"
+  - "2 Kings 18:1-4"
+  - "Isaiah 11:10"
+  - "Isaiah 52:13"
+  - "Genesis 3:1-15"
+  - "2 Corinthians 5:21"
+  - "Romans 8:3"
+  - "Hebrews 4:15"
+  - "Numbers 20:22-29"
+  - "Numbers 21:21-35"
+  - "Revelation 12:9"
+  - "Isaiah 6:2"
+genre: [ot-narrative, gospel, topical]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Source material: docs/content/sermons/as-the-snake-was-lifted.md -- an essentially-empty Marp
+      slide deck (title slide + one bullet: "The snake was a prophecy of healing from sin to all who
+      believed") with category "sermons". User asked to flesh this out into a full study and
+      relocate it, since the content (bronze serpent typology fulfilled in Christ) properly belongs
+      in docs/content/studies/prophecy-fulfilled-in-jesus/, not sermons. Checked existing files in
+      that folder for category-field convention: woman-suffering-bleeding.md and woman-at-well.md
+      both use category "prophecy" (the typology/fulfillment angle); woman-issue-of-blood-faith-
+      and-access.md uses "theology" as an explicit different-angle companion piece. This new study
+      is squarely a type/fulfillment study, so category "prophecy" matches. Primary passages:
+      Numbers 21:4-9 (the bronze/fiery serpent institution) and John 3:14-15 (Jesus's own
+      typological application to himself).
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Numbers: traditionally Mosaic authorship, addressed originally to the wilderness generation
+        but functionally read by the following generation preparing to enter Canaan (Numbers'
+        overall shape moves from the failed first generation to the hopeful second). Numbers 21:4-9
+        sits late in the wilderness period, shortly after Aaron's death (Num 20:22-29) and Israel's
+        detour around Edom after being refused passage (21:4) -- likely near the end of the 40 years,
+        just before the conquests of Sihon and Og that open the path to Canaan (21:21-35).
+
+        The complaint itself (21:4-5, "there is no bread, there is no water, and our soul loathes
+        this worthless food") is the last of the great wilderness murmuring cycles that run through
+        Exodus and Numbers (Exod 16, Num 11, Num 14, Num 16) -- and structurally, the last one before
+        the narrative pivots decisively toward conquest. God's judgment (venomous "fiery serpents,"
+        Hebrew nachashim ha-serafim, confirmed against WLC at Num 21:6, H5175 nachash + H8314 saraph)
+        is proportionate covenant enforcement for treaty-breach-style rebellion, not arbitrary
+        cruelty -- the pattern (complaint, judgment, confession, intercession, God-provided remedy)
+        matches the covenant-enforcement shape of earlier wilderness narratives.
+
+        Cultural/ANE background: serpent imagery was religiously loaded across the ancient Near East
+        (e.g. Egypt's uraeus/cobra iconography on Pharaoh's crown, associated with protection and
+        royal authority) -- which makes God's specific instruction to fashion an image of the very
+        creature killing the people, and look at it in simple obedient faith rather than treat it as
+        an amulet with its own innate power, a pointed inversion of surrounding religious assumptions
+        about serpent-symbols. The text's own later history proves the point was obedience, not
+        magic: 2 Kings 18:4 (confirmed against WLC) records that centuries later, this same object
+        (by then named Nehushtan, נְחֻשְׁתָּן, H5180) had become an idol Israel burned incense to, and
+        King Hezekiah destroyed it among his religious reforms, alongside the high places, sacred
+        pillars, and the Asherah pole -- explicit textual proof the artifact itself carried no
+        inherent power and that venerating the object instead of trusting the God who commanded its
+        use was condemned as idolatry, not commended as piety.
+    literary_context:
+      done: true
+      notes: >
+        Numbers 21:4-9's placement is a hinge point: it's the final "murmuring and judgment" episode
+        of the wilderness wandering, positioned right where the narrative turns from wandering toward
+        conquest (the itinerary notices of 21:10-20 and the victories over Sihon and Og at 21:21-35
+        immediately follow). The governing point of the unit itself: even the *last* rebellion of the
+        generation about to inherit the promise is met with both real judgment and a God-provided,
+        simply-appropriated remedy -- setting up the pattern (judgment for sin, provided remedy
+        appropriated by looking/trusting) that John draws on directly.
+
+        John 3:14-15 sits inside Jesus's night conversation with Nicodemus (John 3:1-21), directly
+        after Jesus rebukes Nicodemus -- "the teacher of Israel" -- for not understanding the new-birth
+        teaching from Scripture he should already know (3:10). Jesus then pivots to the bronze
+        serpent as the OT text that should have prepared Nicodemus for what's coming: "as Moses lifted
+        up the serpent in the wilderness, so must the Son of Man be lifted up" (3:14). Critically,
+        3:14-15 is not a self-contained saying followed by a separate famous verse -- checked directly
+        against the Greek, 3:16 ("Οὕτως γὰρ..." "For God so loved...") begins with a causal/explanatory
+        connective continuing the same thought: the Son of Man's being "lifted up" (the serpent
+        typology just given) IS the historical mechanism by which "whoever believes... shall not
+        perish but have eternal life" (repeated verbatim in both 3:15 and 3:16, confirmed against
+        SBLGNT). John 3:16 is commentary on the serpent typology, not a free-standing verse.
+
+        The same "lifted up" language (ὑψόω, hypsoō, G5312) recurs at John 12:32-34, where Jesus says
+        "I, when I am lifted up from the earth, will draw all people to myself" -- and John explicitly
+        glosses this for the reader: "he said this to show by what kind of death he was going to die"
+        (12:33, confirmed against SBLGNT) -- removing any doubt that "lifted up" means the crucifixion
+        specifically, not a vague exaltation. Genre lens (Gospel): John's distinct pattern of
+        Nicodemus-style misunderstanding-then-clarification dialogues, and John's own habit of
+        pointing forward to the cross well before it narratively occurs (this is chapter 3 of 21) --
+        an early, veiled cross-prediction using OT typology rather than direct prophecy language.
+    content_word_studies:
+      done: true
+      notes: >
+        All terms below verified directly against macula-hebrew-wlc, morphhb-wlc, and
+        macula-greek-sblgnt via query.py, plus one LXX (ebible-grcbrent) lookup via raw SQL for the
+        Isaiah 52:13/hypsoo connection, since that's exactly the kind of intertextual link this
+        repo's tooling can verify rather than merely assert.
+      terms:
+        - {word: "נָחָשׁ / נְחֹשֶׁת", language: hebrew, transliteration: "nachash / nechoshet", strongs_id: "H5175 / H5178", gloss: "serpent / bronze, copper", notes: "Numbers 21:9 (verified against WLC): Moses made a 'nechash nechoshet' -- literally 'a serpent of bronze' -- a deliberate paronomasia (sound-play) in the Hebrew text itself between the word for the creature and the word for the material, not an accident of translation. The wordplay underlines that what's being made is precisely an image of the killing thing, not a different, safer symbol."}
+        - {word: "שָׂרָף", language: hebrew, transliteration: "saraph", strongs_id: "H8314", gloss: "fiery/burning one", notes: "Used for the venomous serpents themselves (Num 21:6, 8, 'nachashim seraphim,' verified against WLC) and, separately, for the six-winged celestial beings attending God's throne in Isaiah's temple vision (Isaiah 6:2, 6, also verified against WLC, same lexeme saraph/H8314) -- the two share a root sense of 'burning' (likely the sensation of the venomous bite for the serpents) but this is a shared root, not evidence the wilderness serpents and Isaiah's throne-attendants are the same class of being; noted as a shared-lexeme observation, not an identity claim (root-fallacy guardrail)."}
+        - {word: "נֵס", language: hebrew, transliteration: "nes", strongs_id: "H5251", gloss: "standard, banner, pole, signal", notes: "The pole the bronze serpent was set on (Num 21:8-9, verified against WLC) uses the same word Isaiah later uses for the messianic 'banner/ensign' the nations will seek: 'the root of Jesse... who stands as a banner (nes) of the peoples' (Isaiah 11:10, verified against WLC, same lexeme). A real verbal link between the object lifted up for Israel's healing and later messianic banner-imagery -- worth noting as intertextual resonance the biblical writers may be drawing on, without overclaiming Isaiah 11:10 is a direct, conscious citation of Numbers 21."}
+        - {word: "ὑψόω", language: greek, transliteration: "hypsoō", strongs_id: "G5312", gloss: "to lift up, raise up, exalt", range_of_meanings: ["literal physical elevation (lifting an object up on a pole)", "crucifixion specifically, per John's own gloss (John 12:33)", "exaltation/glorification (LXX Isaiah 52:13 of the Suffering Servant)"], notes: "This is the load-bearing term of the whole study and gets the fuller diachronic/synchronic treatment. Same verb used at John 3:14 (twice -- Moses lifted up the serpent // the Son of Man must be lifted up) and John 12:32 (verified against SBLGNT both places), where John himself immediately explains the term refers to the specific manner of Jesus's death (12:33) -- removing ambiguity about whether 'lifted up' is merely figurative. Diachronic/LXX link (verified via raw SQL against ebible-grcbrent, since query.py's verse lookup for Isa 52:13 in this work_id needed a direct schema query): Isaiah 52:13 LXX reads 'ho pais mou... hypsothesetai kai doxasthesetai sphodra' ('my servant... will be lifted up [hypsoo] and glorified exceedingly') -- the identical verb the LXX translators chose to render the Suffering Servant's exaltation (Hebrew nasa/rum/gabah triad, all verified against WLC). John's repeated choice of hypsoo for Jesus's crucifixion, rather than a more neutral term, deliberately carries this same double sense already present in the LXX Servant Song: the very act of being 'lifted up' (in context, judicial death) is simultaneously the exaltation/glorification. This is not reading a pun into John that isn't there -- John's own narrative irony (the cross as simultaneously humiliation and glory) is a widely-recognized Johannine theme independently of this specific word study, and the lexical choice of hypsoo (rather than, say, stauroo, 'crucify,' used elsewhere) is itself evidence of the double meaning being deliberate."}
+        - {word: "ὄφις", language: greek, transliteration: "ophis", strongs_id: "G3789", gloss: "serpent, snake", notes: "The word John uses for the bronze serpent (3:14, 'ton ophin') is the identical Greek lexeme Revelation later uses for Satan: 'the great dragon... the ancient serpent (ho ophis ho archaios), who is called the devil and Satan' (Rev 12:9, verified against SBLGNT). This ties a four-point chain together: Genesis 3's serpent under a curse (Gen 3:14-15, the nachash cursed and the seed-of-the-woman promise of a future head-crushing), Numbers 21's bronze image of that same kind of creature lifted up as the means of healing, John 3:14's direct application of that image to Christ, and Revelation 12:9's naming of the ultimate serpent/deceiver as Satan himself -- Christ is lifted up bearing the very form associated with the curse and the deceiver, in order to break the curse and defeat the deceiver, which is the same shape of argument Paul makes explicitly elsewhere (2 Cor 5:21, Rom 8:3, see hermeneutics below)."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Culturally specific: the literal historical episode (a specific bronze object, on a specific
+        pole, for a specific generation bitten by specific venomous snakes in a specific wilderness
+        location) and the later idolatrous corruption/destruction of that literal object (2 Kings
+        18:4) are one-time historical particulars, not a repeatable ritual. Transcultural (and
+        explicitly so, since Jesus himself draws the parallel forward rather than this study
+        inventing an allegory): the pattern of a God-provided remedy, resembling the very thing
+        bringing judgment, offered to be appropriated by nothing more than looking/trusting rather
+        than any further work, transcends the original event and is the pattern Jesus applies
+        directly to his own crucifixion.
+    theological_principle:
+      done: true
+      notes: >
+        God's remedy for sin and death takes the form of the very thing under judgment (a bronze
+        serpent shaped like the serpents killing Israel; Christ "made... to be sin" and sent "in the
+        likeness of sinful flesh," 2 Cor 5:21, Rom 8:3) without itself sharing the fault (the bronze
+        serpent had no venom; Christ "in every respect has been tempted as we are, yet without sin,"
+        Heb 4:15) -- and is appropriated by simple, direct trust (looking; believing) rather than any
+        further ritual or merit. Cross-checked against explicit NT teaching rather than built on the
+        Numbers narrative or the John typology alone: 2 Cor 5:21 and Rom 8:3 state the
+        likeness-without-the-fault principle directly in Paul's own theological vocabulary,
+        independent of the serpent image itself.
+    application_draft:
+      done: true
+      notes: "Drafted in the file's own Key Lessons / discussion section, kept distinguishable from the exegesis above."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Genesis 3:14-15", relation: "The serpent's curse and the seed-of-the-woman/head-crushing promise -- background for why a serpent-image specifically becomes the vehicle of the remedy"}
+      - {ref: "2 Kings 18:1-4", relation: "Later idolatrous corruption (Nehushtan) and Hezekiah's destruction of the object -- proof the object itself had no power"}
+      - {ref: "Isaiah 11:10", relation: "Shared word (nes, banner/standard) linking the pole in Numbers to messianic banner imagery"}
+      - {ref: "Isaiah 52:13", relation: "LXX hypsoo, same verb John uses for Jesus's lifting-up, applied to the Suffering Servant's exaltation"}
+      - {ref: "John 12:32-34", relation: "Second Johannine 'lifted up' saying, explicitly glossed by John as referring to the manner of Jesus's death"}
+      - {ref: "Revelation 12:9", relation: "Same Greek word (ophis) for the bronze serpent and for Satan, 'the ancient serpent'"}
+      - {ref: "2 Corinthians 5:21; Romans 8:3; Hebrews 4:15", relation: "Explicit NT statement of the likeness-without-the-fault theological principle, independent of the serpent typology itself"}
+    translations_compared: ["WEB", "ASV"]
+    divergences_noted: >
+      No major textual-critical divergence found comparable to the Lord's Prayer study's doxology/
+      shorter-Luke findings -- Numbers 21:4-9 and John 3:14-16 are textually stable across
+      translations checked. One minor translation-choice note: WEB/ASV render Numbers 21:6, 8 saraph
+      as "venomous/fiery serpent," while some other traditions (not checked in bible-text.db, noted
+      from general knowledge) render more literally as "burning serpent" -- a translation emphasis
+      difference, not a textual variant.
+  drafting:
+    done: true
+    file: docs/content/studies/prophecy-fulfilled-in-jesus/as-the-snake-was-lifted.md
+  review:
+    done: true
+    validated: false
+    validation_notes: >
+      npm run validate does not exist in app/package.json (pre-existing repo gap, same finding as
+      the lords-prayer study -- not fixed here, out of scope). Verified frontmatter manually
+      instead: parses with pyyaml, starts at line 1, title/category/description/tags/draft/
+      primary_passage/bible_references all present, description 190 chars. Ran
+      references/build/section_index.py (regenerated docs/content/bible/commentaries/index.md and
+      docs/content/sermons/index.md -- the old sermon stub is gone from the sermons grid, and
+      prophecy-fulfilled-in-jesus/index.md correctly did not need updating yet since this study is
+      still draft:true and filtered out) and references/build/commentary_index.py (unchanged at
+      22 books/43 chapters, as expected while draft:true).
+
+      Also removed docs/content/sermons/as-the-snake-was-lifted.md (the near-empty Marp source
+      this study supersedes) per the user's explicit request to move/flesh out that content --
+      checked git history/diff first, confirmed the only uncommitted change on that file was a
+      line-ending normalization matching the rest of this repo's pending diff, not meaningful
+      content, so safe to delete outright rather than needing to preserve/merge anything.
+
+      Fixed on user follow-up ("paragraphs under word studies start with a period"): three
+      word-study bold headers (nachash/nechoshet, saraph, nes) led directly with raw Hebrew (RTL)
+      script at the very start of the bold span, unlike every other entry in both this study and
+      lords-prayer.yml's companion study, which lead with the Latin transliteration and place the
+      original script parenthetically inside the paragraph. RTL script opening an LTR bold
+      paragraph is exactly the kind of mixed-direction text that makes a browser's bidi algorithm
+      misplace trailing punctuation, which is almost certainly what looked like a leading period
+      when rendered. Reordered all three to transliteration-first / script-in-parens, matching the
+      established site convention (also used for the qadash/Ezek 36:23 note in lords-prayer.md).
+
+open_questions:
+  - "The precise identification of the wilderness 'fiery serpents' with a known modern species
+     (e.g. saw-scaled viper, proposed by some naturalist-commentators) was not investigated --
+     treated as a background curiosity, not load-bearing for the study's exegetical or
+     typological point."
+resources_consulted:
+  - {type: lexicon, title: "bible-text.db (macula-greek-sblgnt, macula-hebrew-wlc, morphhb-wlc, ebible-grcbrent)", author: "this repo's build pipeline", note: "Primary word-study/morphology/LXX source, queried directly via query.py and one raw SQL lookup for the Isaiah 52:13 LXX hypsoo verification"}
+  - {type: other, title: "WEB, ASV translations", note: "Translation comparison, Phase 6 -- no significant textual variant found for this passage pair, unlike the Lord's Prayer study"}
+  - {type: other, title: "ESV", note: "Repo default translation per AGENTS.md; quoted from the well-established published ESV text rather than queried from this repo's tooling (not in bible-text.db)"}
+last_updated: "2026-07-22"

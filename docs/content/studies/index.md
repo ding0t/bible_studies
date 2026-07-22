@@ -28,6 +28,12 @@ In-depth studies developed through the exegesis-then-hermeneutics process.
 
     [:octicons-arrow-right-24: Browse](feasts/)
 
+-   __Prayer__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](prayer/)
+
 -   __Prophecy__
 
     ---

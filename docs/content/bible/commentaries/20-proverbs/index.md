@@ -197,3 +197,9 @@ What types are seen as shadows of a truth.
 
 - Chuck Missler on Proverbs
 - [BibleRef](https://www.bibleref.com/Proverbs/index.html)
+
+<!-- commentary-index:auto-start -->
+## Chapters with linked studies
+
+- [Chapter 30](chapter-030.md) — 1 study(ies)
+<!-- commentary-index:auto-end -->

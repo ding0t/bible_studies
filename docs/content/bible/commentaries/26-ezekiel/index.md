@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
+- [Chapter 36](chapter-036.md) — 1 study(ies)
 - [Chapter 44](chapter-044.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

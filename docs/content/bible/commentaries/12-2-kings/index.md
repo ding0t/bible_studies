@@ -1,16 +1,16 @@
 ---
-title: "Hebrews"
+title: "2 Kings"
 category: "bible"
-description: "Commentary on Hebrews"
-tags: ["hebrews", "commentary"]
+description: "Commentary on 2 Kings"
+tags: ["2-kings", "commentary"]
 draft: false
 ---
 
-# Hebrews
+# 2 Kings
 
 
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
-- [Chapter 4](chapter-004.md) — 1 study(ies)
+- [Chapter 18](chapter-018.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

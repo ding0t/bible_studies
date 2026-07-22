@@ -1,16 +1,16 @@
 ---
-title: "Hebrews"
+title: "James"
 category: "bible"
-description: "Commentary on Hebrews"
-tags: ["hebrews", "commentary"]
+description: "Commentary on James"
+tags: ["james", "commentary"]
 draft: false
 ---
 
-# Hebrews
+# James
 
 
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
-- [Chapter 4](chapter-004.md) — 1 study(ies)
+- [Chapter 1](chapter-001.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

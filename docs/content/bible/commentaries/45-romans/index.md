@@ -1,16 +1,16 @@
 ---
-title: "Hebrews"
+title: "Romans"
 category: "bible"
-description: "Commentary on Hebrews"
-tags: ["hebrews", "commentary"]
+description: "Commentary on Romans"
+tags: ["romans", "commentary"]
 draft: false
 ---
 
-# Hebrews
+# Romans
 
 
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
-- [Chapter 4](chapter-004.md) — 1 study(ies)
+- [Chapter 8](chapter-008.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

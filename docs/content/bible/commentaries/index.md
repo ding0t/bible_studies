@@ -36,6 +36,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](04-numbers/)
 
+-   __Deuteronomy__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](05-deuteronomy/)
+
 -   __2 Samuel__
 
     ---
@@ -47,6 +53,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](11-1-kings/)
+
+-   __1 Chronicles__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](13-1-chronicles/)
 
 -   __Psalms__
 
@@ -167,6 +179,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](58-hebrews/)
+
+-   __James__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](59-james/)
 
 -   __Revelation__
 
