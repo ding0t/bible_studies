@@ -1,5 +1,7 @@
 # Astro Migration Proof of Concept
 
+> **Historical — superseded.** This describes migrating the whole site from mkdocs to Astro. The site later moved the *opposite* direction: mkdocs now serves all content, and Astro was reduced to two interactive tools (timeline, genealogy). See `docs/superpowers/specs/2026-07-09-mkdocs-astro-split-design.md` for the current architecture. Kept for history, not as a guide to the current setup.
+
 ## Overview
 
 This proof of concept demonstrates how to migrate your Bible studies project from MkDocs to Astro with an interactive timeline feature.

@@ -34,8 +34,8 @@ To provide a foundation for understanding the bible in context of prophecy
 - Context
     - Jesus is the primary context
     - Read the Psalms in the context of Christ
-    - 300 prophecies can be directly fulfilled by Jesus
-    - Hebrew background - we miss some things
+    - 300 prophecies are directly fulfilled by Jesus
+    - Hebrew background - we miss some/many things
 - Hebrew background
     - 6000 years before second coming of Messiah is expected
         - The literal 6 days of creation are a type
@@ -47,4 +47,3 @@ To provide a foundation for understanding the bible in context of prophecy
     - Israel
     - Judgement
     - Eternal life
-

@@ -1,0 +1,39 @@
+# Maps scrollmapper's self-reported `translations.license` string (verbatim)
+# to our license_tier. Update this file as translations get individually
+# verified -- e.g. move an 'unknown' entry to 'open' once you've confirmed it
+# elsewhere, and it'll be reclassified on the next build.
+#
+# Tiers: open | restricted-nc | unknown
+# (quotation-only is never assigned here -- that's the separate ESV/NASB/NIV
+# local-only master, seeded from PDFs, not from scrollmapper.)
+#
+# Fail-closed default: any license string NOT listed here falls back to
+# 'unknown' (see build.py) rather than being silently treated as open.
+
+"Public Domain": open
+"Creative Commons: CC0": open
+"Creative Commons CC0": open
+"Creative Commons: BY 4.0": open
+"Creative Commons: BY-SA 4.0": open
+"Creative Commons: by-sa": open
+"Creative Commons Attribution 3.0 Brazil": open
+
+"Creative Commons: BY-NC-SA 4.0": restricted-nc
+"Creative Commons: BY-NC-ND 4.0": restricted-nc
+"Copyrighted; Free non-commercial distribution": restricted-nc
+"Copyrighted; Non-commercial distribution": restricted-nc
+
+# ND-but-not-NC: commercial use is allowed, but reformatting into SQL is an
+# open question under CC-ND ("no derivatives") -- holding as unknown rather
+# than guessing at the legal reading. Revisit if this specific point matters.
+"Creative Commons: by-nd 3.0": unknown
+
+# GPL-tagged ones are SWORD-style compilations (base text is usually PD, but
+# the specific Strong's/morphology-tagged bundle carries its own GPL claim
+# from whoever compiled it) -- treating the bundle's own claim as authoritative
+# until checked further.
+"GPL": unknown
+
+"Copyrighted; Free distribution": unknown
+"Unknown": unknown
+"Null": unknown
