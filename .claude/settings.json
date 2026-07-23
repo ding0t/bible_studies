@@ -1,0 +1,43 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "failIfUnavailable": true,
+    "network": {
+      "allowedDomains": [
+        "github.com",
+        "raw.githubusercontent.com",
+        "eBible.org",
+        "www.blueletterbible.org",
+        "www.stepbible.org",
+        "biblehub.com",
+        "api.esv.org",
+        "www.biblegateway.com",
+        "www.earlynewtestament.com",
+        "storage.googleapis.com",
+        "cdn.jsdelivr.net"
+      ]
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(uv run *)",
+      "Bash(uv sync)",
+      "Bash(uv sync *)",
+      "Bash(uvx mkdocs *)",
+      "Bash(uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin mkdocs *)",
+      "Bash(sqlite3 *)",
+      "Bash(git submodule *)",
+      "Bash(npx --yes @mermaid-js/mermaid-cli *)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:eBible.org)",
+      "WebFetch(domain:www.blueletterbible.org)",
+      "WebFetch(domain:www.stepbible.org)",
+      "WebFetch(domain:biblehub.com)",
+      "WebFetch(domain:api.esv.org)",
+      "WebFetch(domain:www.biblegateway.com)",
+      "WebFetch(domain:www.earlynewtestament.com)",
+      "WebFetch(domain:storage.googleapis.com)"
+    ]
+  }
+}
