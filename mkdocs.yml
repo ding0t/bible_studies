@@ -27,10 +27,14 @@ theme:
     - navigation.path
     - navigation.prune
     - navigation.top
+    - navigation.indexes
 
 plugins:
   - search
   - awesome-pages
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
 
 markdown_extensions:
   - tables

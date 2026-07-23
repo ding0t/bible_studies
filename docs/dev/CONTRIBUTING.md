@@ -40,7 +40,7 @@ Studies go under `docs/content/studies/<category-subfolder>/`. If you're using t
 **For content changes** (anything in `docs/content/`):
 
 ```bash
-uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin mkdocs serve
+uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin mkdocs serve
 ```
 
 Serves with hot reload, typically at `http://localhost:8000/`.

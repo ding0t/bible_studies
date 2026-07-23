@@ -24,7 +24,7 @@ Two separate tools, stitched into one deployed site:
 ### Content (studies, commentaries)
 
 ```bash
-uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin mkdocs serve
+uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin mkdocs serve
 ```
 
 Dev server (hot reload) at http://localhost:8000/.
