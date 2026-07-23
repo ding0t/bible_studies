@@ -28,14 +28,6 @@ Prayer, fasting, and other practices of the Christian life.
 
     [:octicons-arrow-right-24: Read](fasting.md)
 
--   __Prayer__
-
-    ---
-
-    Understanding prayer as communion with God and our identity as His children
-
-    [:octicons-arrow-right-24: Read](prayer.md)
-
 -   __Test the Spirits__
 
     ---

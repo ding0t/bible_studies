@@ -12,6 +12,14 @@ Studies on prayer in Scripture: how Jesus and the biblical writers teach us to p
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __Prayer__
+
+    ---
+
+    Understanding prayer as communion with God and our identity as His children
+
+    [:octicons-arrow-right-24: Read](prayer-as-communion.md)
+
 -   __The Lord's Prayer: What Jesus Taught Us About How to Pray__
 
     ---
