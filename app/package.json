@@ -3,6 +3,9 @@
   "type": "module",
   "version": "0.1.0",
   "description": "Biblical studies with interactive timeline and dual calendar views (Gregorian & Zadok)",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "prebuild": "node scripts/build-events.js",
