@@ -92,6 +92,6 @@ Update the relevant `stages.*` block and bump `last_updated` as each phase above
 
 ## Essential references
 
-See [references/README.md](../../../references/README.md) for the full source catalog this process leans on — open-license data (safe to cite freely), restricted-license data (usable now, non-commercial caveats), and local-only copyrighted references (Fee, Stevens, the Cultural Backgrounds Study Bible — cite briefly, never reproduce at length) — plus how to actually query most of it through `references/build/bible-text.db` instead of grepping raw source files.
+See [references/README.md](../../../references/README.md) for the full source catalog this process leans on — open-license data (safe to cite freely), restricted-license data (usable now, non-commercial caveats), and local-only copyrighted references (Fee, Stevens, the Cultural Backgrounds Study Bible — cite briefly, never reproduce at length) — plus how to actually query most of it through `references/build/bible-text.db` instead of grepping raw source files. If the `bible-references` MCP server is connected (see the README's MCP section), prefer its tools (`bible_word`, `bible_verse`, `bible_passage`, `twot_root`, etc.) over shelling out to `query.py`/`twot_lookup.py` directly — same data, no bash-construct/text-parse round trip. The CLI scripts remain the fallback when it isn't configured.
 
 For the fuller word-study procedure referenced in Phase 4, see [word-study-method.md](word-study-method.md).

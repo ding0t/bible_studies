@@ -43,7 +43,7 @@ Gitignored, fully regenerable (`references/build/out/`, `references/build/cache/
 sqlite3 references/build/out/bible-text.db "SELECT work_id, license_tier FROM works;"
 ```
 
-For convenient lookups instead of hand-writing SQL each time, see `references/build/query.py` (word lookup, concordance, cross-references, notes) — run `uv run python query.py --help`.
+For convenient lookups instead of hand-writing SQL each time, see `references/build/query.py` (word lookup, concordance, verse-range passages, cross-references, notes) — run `uv run python query.py --help`. `references/build/twot_lookup.py` is the equivalent for `twot_strongs_map.json` (root/Strong's/lemma reverse lookup) — run `uv run python twot_lookup.py --help`.
 
 Example (raw SQL, if you need something the query script doesn't cover): a Greek word's lemma, Strong's number, and Louw-Nida domain for a specific verse —
 
@@ -51,6 +51,10 @@ Example (raw SQL, if you need something the query script doesn't cover): a Greek
 SELECT surface_form, lemma, strongs_id, gloss, domain_code
 FROM morphology WHERE work_id='macula-greek-sblgnt' AND book='Mark' AND chapter=5 AND verse=27;
 ```
+
+### MCP server (for agent sessions)
+
+`references/build/mcp_server.py` exposes the same lookups as MCP tools (`bible_word`, `bible_concordance`, `bible_domain`, `bible_verse`, `bible_passage`, `bible_crossref`, `bible_works`, `twot_root`, `twot_strongs`, `twot_lemma`), registered project-wide via `.mcp.json` at the repo root. It is a thin wrapper, not a second implementation: every tool calls a `lookup_*` function imported straight from `query.py` or `twot_lookup.py`, so the CLI and the MCP server can never return different answers to the same question, and both scripts keep working from the terminal (or from an agent's Bash tool as a fallback) whether or not the MCP server is configured. Adding a new lookup means adding one function to `query.py`/`twot_lookup.py` plus one `@mcp.tool()` wrapper — no query logic belongs in `mcp_server.py` itself. `study-notes.db` has no query library yet, so it isn't wired into the MCP server either; see the note in `mcp_server.py`'s own docstring before adding one, since that data's `quotation-only` tier needs tighter discipline (snippet-sized returns) than a straight passthrough would give it.
 
 **There is currently no `export.py`** in this pipeline (referenced in `build.py`'s own docstring but not yet built) — tier-filtering to keep `restricted-nc` rows out of anything meant to go fully public (vs. "public but non-commercial," which is fine) is a manual discipline right now, not an enforced guarantee. Check `license_tier` yourself before copying a query result into a committed file.
 

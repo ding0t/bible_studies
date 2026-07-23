@@ -5,6 +5,7 @@ requires-python = ">=3.14"
 dependencies = [
     "bibleorgsys>=0.0.20",
     "lxml>=6.1.1",
+    "mcp>=1.28.1",
     "numpy>=2.5.1",
     "pymupdf>=1.28.0",
     "pyyaml>=6.0.3",

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bible-references": {
+      "command": "uv",
+      "args": ["run", "--directory", "references/build", "python", "mcp_server.py"]
+    }
+  }
+}
