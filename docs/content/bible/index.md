@@ -28,5 +28,13 @@ Commentary and reference material on the biblical text itself.
 
     [:octicons-arrow-right-24: Read](how-to-read-the-bible.md)
 
+-   __Bible Translations & Source Texts__
+
+    ---
+
+    The English translations, Hebrew Masoretic witnesses, and Greek New Testament/Septuagint texts this project relies on — strengths, cautions, publication history, and which ones are actually queryable in this repo's own database versus cited from general knowledge.
+
+    [:octicons-arrow-right-24: Read](translations.md)
+
 </div>
 <!-- section-index:auto-end -->

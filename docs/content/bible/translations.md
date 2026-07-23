@@ -1,9 +1,68 @@
 ---
-title: "Bible Translations"
+title: "Bible Translations & Source Texts"
 category: "bible"
-description: "Overview of major English Bible translations and their characteristics"
-tags: ["bible", "translations", "versions", "language"]
-draft: true
+description: "The English translations, Hebrew Masoretic witnesses, and Greek New Testament/Septuagint texts this project relies on — strengths, cautions, publication history, and which ones are actually queryable in this repo's own database versus cited from general knowledge."
+tags: ["bible", "translations", "versions", "hebrew", "greek", "septuagint", "masoretic", "textual-criticism"]
+draft: false
 ---
 
-About translations
+# Bible Translations & Source Texts
+
+Every quotation in a study rests on two choices most readers never see: which *translation* rendered the verse into English, and which underlying Hebrew or Greek *edition* that translation was made from. Neither choice is neutral — a formally literal translation of an eclectic critical Greek text argues differently than a thought-for-thought translation of the Byzantine tradition, even quoting the "same" verse. This page catalogs what we actually lean on, the tradeoffs of each, and — since this repo also functions as a small research tool — which of these are wired into our own queryable database (`references/build/bible-text.db`) versus cited from general knowledge because the license doesn't allow us to store the text locally.
+
+!!! note "Tracking key"
+    - ✅ **Queryable now** — full text loaded in `bible-text.db`, openly licensed, quote at length
+    - 🟡 **Queryable, restricted** — loaded, but non-commercial-only licensing (fine for this site; would need re-review if it ever monetized)
+    - ❌ **Not tracked** — commercially copyrighted; cited from general knowledge with attribution, never bulk-quoted
+
+    See [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) and [Open Bible Data on GitHub](../resources/github.md) for the full engineering-level catalog this table summarizes.
+
+## Translation philosophy
+
+Our default is the **ESV** for prose quotation, cross-checked against **NASB**, **NIV**, and **NLT** for how differently-weighted translation philosophies render a disputed or ambiguous verse, and against **WEB**, **ASV**, and **YLT** when we need a text we can actually store, search, and quote in full without a permissions ceiling. The Masoretic Text and Septuagint anchor original-language word studies; the Greek New Testament entries below anchor NT word studies and textual-criticism notes. See [AGENTS.md](https://github.com/ding0t/bible_studies/blob/main/AGENTS.md) for the standing rule this page expands on.
+
+## English translations
+
+| Translation | First published | Approach | Strengths | Cautions | Tracked here |
+|---|---|---|---|---|---|
+| **ESV** — English Standard Version (Crossway) | 2001, revised 2007/2011, fixed as a "Permanent Text" in 2016 | Essentially literal (formal equivalence), descended from the RSV | Our default citation text — literal enough for close reading, extensive textual footnotes, wide adoption across the study-Bible literature we cite in References sections; the 2016 text freeze means citations won't drift out from under us | RSV lineage carried forward a handful of textual choices scholars still debate (e.g. Isaiah 7:14's footnote); some gender-language renderings read inconsistently across books | ❌ Cited from general knowledge, Crossway's quotation policy respected |
+| **NASB** — New American Standard Bible (Lockman Foundation) | NT 1963, full Bible 1971, revised 1995, updated 2020 | Maximally literal formal equivalence | The translation to reach for when word order or grammatical structure in the original matters to the argument; 2020 update modernized archaic pronouns while keeping the literalism | Literalness produces wooden prose in places; supplied-word italics clutter reading aloud; less used in general congregational settings than ESV/NIV | ❌ Cited from general knowledge |
+| **NIV** — New International Version (Biblica/Zondervan) | NT 1973, full Bible 1978, revised 1984, major revision 2011 | Dynamic ("optimal") equivalence balancing accuracy and readability | The most widely read English Bible for decades — useful for gauging how a mainstream reader will have already encountered a verse; strong for preaching and general reading | The 2011 gender-language choices remain contested in some circles; idiomatic smoothing occasionally erases an ambiguity a literal translation preserves; the 1984 and 2011 editions differ enough that older citations may not match current printings | ❌ Cited from general knowledge |
+| **NLT** — New Living Translation (Tyndale House) | 1996, revised 2004, 2007, 2015 | Thought-for-thought, translated (not paraphrased) by committee | Excellent narrative flow, especially in Wisdom/poetic books; strong for teaching newer believers | Greater interpretive distance from the original wording than ESV/NASB; not suited to precise word-study argumentation; can smooth over a textual tension a study should actually sit with | ❌ Cited from general knowledge |
+| **WEB** — World English Bible | Begun 1994, released 2000, ongoing light revision | Modernized, public-domain descendant of the ASV | No permissions ceiling at all — freely quotable and redistributable in full, which is why this is our default fully-queryable text when we need one; actively revised for readability while keeping an ASV-like literal backbone | Far less recognized in broader church life than ESV/NIV/NASB; no study-Bible ecosystem built around it; ongoing volunteer revision means small wording drift over time rather than a fixed edition | ✅ `ebible-eng-web` |
+| **ASV** — American Standard Version | 1901 | Formal equivalence | Historically significant — the root of NASB, WEB, and (indirectly) RSV/ESV; public domain; useful for seeing exactly where later translations diverged and why | Dated, archaic English; renders the divine name as "Jehovah" throughout, which reads oddly today; superseded by its own descendants for regular study use | ✅ `scrollmapper-ASV` |
+| **YLT** — Young's Literal Translation | 1862, revised 1887 and 1898 | Extremely literal, word-order-preserving | Useful for seeing Hebrew/Greek grammar and tense underneath the English that smoother translations normalize away; public domain | Famously unnatural English prose — a cross-check tool, never a primary study or reading text | ✅ `scrollmapper-YLT` |
+
+!!! note "Also on hand for comparison"
+    `bible-text.db` also carries **JPS** (Jewish Publication Society OT, useful for a Jewish-tradition reading alongside the Christian translations above), **BSB** (Berean Standard Bible, CC0, modern and readable), **Darby**, **Douay-Rheims**, and about two dozen other public-domain English editions via the Scrollmapper fork. None of these carry the weight ESV/NASB/NIV/NLT/WEB/ASV/YLT do in our actual studies, but they're there — see [Open Bible Data on GitHub](../resources/github.md) for the full list.
+
+## Hebrew Old Testament
+
+| Text | Date | What it is | Strengths | Cautions | Tracked here |
+|---|---|---|---|---|---|
+| **Masoretic Text** — Westminster Leningrad Codex (WLC) | Manuscript dated 1008 CE by its own colophon | The standard Hebrew Bible text underlying virtually every printed Hebrew Bible (BHS/BHQ) and every English OT translation above | Oldest *complete* Masoretic manuscript in existence, full vocalization/cantillation/Masoretic notes intact; our copy carries both morphological tagging (`morphhb`) and SDBH semantic-domain codes (`macula-hebrew`) — the two together are what make Hebrew word studies here queryable rather than hand-searched | A single-manuscript edition, not an eclectic reconstruction — it inherits that one codex's scribal idiosyncrasies; copied roughly 1,400 years after the events it records and centuries after the Dead Sea Scrolls, so cross-checking against those earlier witnesses still matters on disputed readings | ✅ `morphhb-wlc`, `macula-hebrew-wlc`, `scrollmapper-WLC` |
+| **Samaritan Pentateuch** | Extant manuscripts from the medieval period; tradition claims earlier origins | An independent Torah-only text tradition preserved by the Samaritan community | Valuable second witness for text-critical comparison against the Masoretic Text on genuinely disputed Torah readings | Reflects Samaritan theological commitments (Mount Gerizim vs. Jerusalem, among others) rather than the mainstream Jewish transmission line — a comparison tool, not a primary text | 🟡 `scrollmapper-SP` |
+| **Delitzsch Hebrew Bible** | First published 1877, revised through the early 20th century | A modern scholarly Hebrew *translation* of the New Testament, paired here with the Hebrew OT | Useful for tracing how NT vocabulary and OT allusions map back into Hebrew — genuinely helpful for spotting an OT echo a Greek-only reading might miss | Not an ancient witness — a 19th-century translation project (Franz Delitzsch), so it reflects translator choices, not manuscript history; never cite it as if it were the OT's own Hebrew | ✅ `ebible-heb` |
+
+## Greek New Testament
+
+| Text | Date | What it is | Strengths | Cautions | Tracked here |
+|---|---|---|---|---|---|
+| **SBLGNT** — SBL Greek New Testament | 2010, ed. Michael Holmes | The modern eclectic critical text this project queries by default | Openly licensed (CC BY 4.0), so it's the one we can actually store and quote in full; assembled by comparing several prior critical editions' agreements and disagreements; carries per-word morphology, lemma, and Louw-Nida semantic-domain tagging in our copy (`macula-greek`) | A documented *synthesis* of existing eclectic editions rather than a fresh manuscript collation — where its source editions already agreed on a disputed reading, SBLGNT doesn't add independent new evidence | ✅ `sblgnt`, `macula-greek-sblgnt` |
+| **NA28** — Nestle-Aland, 28th edition | 2012 | The critical text nearly all modern scholarship and translations (ESV, NIV, NASB, etc.) actually cite | The field standard; the most recent edition incorporated fresh collation of the Catholic Epistles against the full manuscript tradition (the ECM project) | Commercial license — not in our own database at all; reachable only indirectly through the NA28-ESV parallel inside the external, quotation-only `study-notes.db`, never quoted at length | ❌ Not tracked; quotation-only via `study-notes.db` |
+| **Tischendorf, 8th edition** | 1869–1872 | Constantin von Tischendorf's critical text, built heavily on Codex Sinaiticus — which Tischendorf himself discovered at St. Catherine's Monastery | An independent line of 19th-century critical-text reasoning, distinct from the SBLGNT/NA28 editorial lineage; public domain | Over 150 years old — predates the papyri discoveries and collation work that inform NA28/SBLGNT | ✅ `ebible-grc-tisch` |
+| **Byzantine/Majority Text** (Robinson-Pierpont) | 2005, revised 2013 | The Byzantine manuscript tradition underlying the KJV/Textus Receptus lineage — the majority reading by raw manuscript count | Valuable for seeing exactly where the eclectic critical texts diverge from the Majority Text, and why | "Majority by count" is a different argument than "earliest or best attested" — worth being explicit about that distinction whenever citing it | 🟡 `scrollmapper-Byz` |
+| **Textus Receptus** (Stephanus 1550 / Scrivener 1894) | 1550, standardized 1894 | The specific printed Greek text underlying the King James Version | Essential for explaining *why* the KJV reads differently from modern translations at a given verse (e.g. the Comma Johanneum at 1 John 5:7-8) | Based on a small number of late medieval manuscripts available to Erasmus in the 1500s, long since superseded by far older manuscript evidence | 🟡 `scrollmapper-TR` |
+
+## Septuagint (Greek Old Testament)
+
+| Text | Date | What it is | Strengths | Cautions | Tracked here |
+|---|---|---|---|---|---|
+| **Brenton Septuagint** | Greek text and English translation published 1844/1851 (Sir Lancelot C. L. Brenton) | The standard public-domain LXX edition, Greek text based on Codex Vaticanus | Essential for tracing how New Testament authors quote the Old Testament — many NT quotations follow the LXX's wording rather than the Masoretic Text's; openly licensed and fully queryable here | Vaticanus-based text is one witness among several LXX manuscript traditions (Alexandrinus and Sinaiticus each diverge in places); the accompanying English prose is 19th-century and reads as dated | ✅ `ebible-grcbrent` |
+
+!!! note "Why isn't the Septuagint's *text* alongside its lemma tooling?"
+    `GreekResources` (our lemma/lookup fork for LXX word studies) deliberately ships without the LXX text itself — its own maintainers exclude it because the standard CATSS source is restrictively licensed, and we followed that same discipline rather than bundling in a text we couldn't verify the rights to. Brenton's edition above fills that gap with a text we've independently confirmed is public domain.
+
+## Why the "main" translations aren't the queryable ones
+
+It's not an oversight that ESV, NASB, NIV, and NLT — the four translations we actually quote most in prose — are the four marked ❌ above. They're commercially copyrighted, and Crossway/Lockman/Biblica/Tyndale's permissions policies allow generous quotation (a study citing a verse or a short passage with attribution is exactly the intended use) but not bulk redistribution into a database anyone could dump wholesale. WEB, ASV, and YLT exist in our own database specifically so we always have *something* fully open to fall back on — for concordance searches, cross-reference generation, or any use that would otherwise require copying a commercial text at scale. Reach for the ❌ translations when writing for a reader; reach for the ✅ ones when writing a query.

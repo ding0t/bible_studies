@@ -54,6 +54,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](11-1-kings/)
 
+-   __2 Kings__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](12-2-kings/)
+
 -   __1 Chronicles__
 
     ---
@@ -143,6 +149,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](44-acts/)
+
+-   __Romans__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](45-romans/)
 
 -   __1 Corinthians__
 
