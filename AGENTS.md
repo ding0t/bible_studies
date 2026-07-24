@@ -46,6 +46,82 @@ every content file needs.
   tools — the prophetic timeline and the genealogy viewer — mounted at `/timeline/` and
   `/genealogy/` on the same GitHub Pages site. Don't assume Astro renders study content; it doesn't.
 
+## Commands
+
+**Content site** (`docs/content/` — mkdocs-material, where nearly all writing happens):
+
+```bash
+uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin mkdocs serve
+```
+
+Hot-reload dev server at http://localhost:8000/. `docs_dir` is `docs/content` (see `mkdocs.yml`).
+
+**Astro app** (`app/` — timeline + genealogy viewer only, separate npm project):
+
+```bash
+cd app
+npm install
+npm run dev          # dev server at http://localhost:4321/
+npm test             # node --test: build-events, calendarConvert, bibleReference
+npm run lint         # eslint src/
+npm run build        # prebuild regenerates docs/data/events.json from content frontmatter, then astro build
+```
+
+`npm run validate` (`app/scripts/validate-content.js`) is referenced in `docs/CONTENT_GUIDE.md` but
+is currently broken — it hardcodes a path relative to `app/` that predates the mkdocs split and
+can't find `docs/content` anymore (see `docs/dev/CONTRIBUTING.md`). Validate new content by hand
+against the CONTENT_GUIDE.md checklist instead of trusting that command.
+
+**Bible-text database** (`references/build/` — `uv`-managed Python, ≥3.14):
+
+```bash
+cd references/build
+uv sync
+uv run python build.py             # builds out/bible-text.db (gitignored, regenerable)
+uv run python query.py --help      # word / concordance / verse / passage / cross-ref lookups
+uv run python twot_lookup.py --help
+uv run python commentary_index.py  # regenerate auto cross-ref pages — run after editing a study's bible_references/primary_passage
+uv run python section_index.py     # regenerate category landing pages — run after adding a study or new content section
+uv run python build_study_notes.py # commercial study-Bible db, writes outside this repo — see references/README.md
+```
+
+`references/build/mcp_server.py` (registered via `.mcp.json`) exposes the same `query.py`/
+`twot_lookup.py` lookups as MCP tools — it's a thin wrapper, not a second implementation.
+
+**Genealogy data** (`utils/` — stdlib-only, run from repo root):
+
+```bash
+python3 utils/validate_genealogy.py   # run after hand-editing docs/data/genealogy/*.json
+```
+
+**Deploy**: `.github/workflows/deploy.yml` runs `mkdocs build --site-dir site`, then `npm test` +
+`npm run build` in `app/`, then copies Astro's `dist/` on top of the mkdocs `site/` output and
+publishes to GitHub Pages on push to `main`.
+
+## Architecture
+
+- **Two independent projects stitched into one deployed site.** mkdocs (`docs/content/`) and Astro
+  (`app/`) have separate dev servers, dependency trees, and test suites; only the deploy workflow
+  combines their build output. Don't assume a change in one is visible from the other's dev server.
+- **Content frontmatter is the integration point.** `app/scripts/build-events.js` reads
+  `docs/content/**/*.md` frontmatter at Astro build time to generate `docs/data/events.json` for
+  the timeline. `references/build/commentary_index.py` and `section_index.py` also read it to
+  regenerate auto-sections of *other* committed markdown files, bounded by
+  `<!-- *-index:auto-start/end -->` markers — hand-written prose outside those markers is preserved,
+  so it's safe to re-run them after editing content.
+- **Two SQLite pipelines under `references/`, deliberately isolated by trust tier**:
+  `bible-text.db` (open/restricted-nc sources; gitignored but built *inside* the repo tree) vs.
+  `study-notes.db` (commercial study-Bible commentary, `quotation-only`; built entirely *outside*
+  the repo tree, on an external volume). Both are queried through the same `lookup_*` function
+  pattern that `mcp_server.py` re-exposes — see [references/README.md](references/README.md) before
+  adding a new source or query.
+- **`references/open-data/` vs `references/restricted-data/` submodules partition by license
+  tier** — the directory a source lives in *is* the license audit boundary; never move a source
+  between them.
+- New content should go through the **develop-bible-study** skill
+  (`.claude/skills/develop-bible-study/SKILL.md`), which tracks resumable per-study progress in
+  `references/study-state/<slug>.yml`.
+
 ## Standards
 
 - Use UTF-8 encoding in scripts
