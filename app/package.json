@@ -13,6 +13,7 @@
     "build:events": "node scripts/build-events.js",
     "preview": "astro preview",
     "astro": "astro",
+    "validate": "node scripts/validate-content.js",
     "test": "node --test scripts/build-events.test.js && node src/utils/calendarConvert.test.js && node src/utils/bibleReference.test.js",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
