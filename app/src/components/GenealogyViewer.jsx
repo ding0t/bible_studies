@@ -1,33 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { zadokToGregorian, gregorianToZadok } from '../utils/calendarConvert';
+import { loadGenealogyPeople, mergePeopleWithVariant, GENEALOGY_INDEX } from '../utils/chronology';
 import { BibleReference } from './BibleReference';
 import { colors } from '../styles/colors';
-import genealogyIndex from '../../../docs/data/genealogy/index.json';
-import antediluvian from '../../../docs/data/genealogy/antediluvian.json';
-import patriarchal from '../../../docs/data/genealogy/patriarchal.json';
-import conquestJudges from '../../../docs/data/genealogy/conquest-judges.json';
-import dividedKingdom from '../../../docs/data/genealogy/divided-kingdom.json';
-import exileReturn from '../../../docs/data/genealogy/exile-return.json';
-import secondTemple from '../../../docs/data/genealogy/second-temple.json';
-
-// Merge all era data into a single structure
-const mergeGenealogyData = () => {
-  const people = [
-    ...antediluvian.people,
-    ...patriarchal.people,
-    ...conquestJudges.people,
-    ...dividedKingdom.people,
-    ...exileReturn.people,
-    ...secondTemple.people
-  ];
-  return {
-    metadata: genealogyIndex.metadata,
-    lineages: genealogyIndex.lineages,
-    people: people
-  };
-};
-
-const genealogyData = mergeGenealogyData();
 
 const GenealogyViewer = () => {
   const [activeTab, setActiveTab] = useState('tree');
@@ -40,6 +15,18 @@ const GenealogyViewer = () => {
   const [filterName, setFilterName] = useState('');
   const [livingYearQuery, setLivingYearQuery] = useState('');
   const [ganttZoom, setGanttZoom] = useState(1);
+  const [selectedVariant, setSelectedVariant] = useState('mt');
+
+  // Adam-Terah dates come from the selected chronology variant (MT/LXX/SP/synthesis);
+  // Abraham onward is unaffected -- Genesis gives no age-at-heir-birth data past Terah.
+  const genealogyData = useMemo(() => {
+    const people = mergePeopleWithVariant(loadGenealogyPeople(), selectedVariant);
+    return {
+      metadata: GENEALOGY_INDEX.metadata,
+      lineages: GENEALOGY_INDEX.lineages,
+      people,
+    };
+  }, [selectedVariant]);
 
   // Compute dynamic year range from data for Gantt timeline
   const ganttYearRange = useMemo(() => {
@@ -54,7 +41,7 @@ const GenealogyViewer = () => {
     // Add 2% padding on each side
     const padding = Math.ceil((dataMax - dataMin) * 0.02);
     return { min: dataMin - padding, max: dataMax + padding };
-  }, []);
+  }, [genealogyData]);
 
   // Era definitions for Gantt background bands (Gregorian year ranges)
   const eraBands = [
@@ -70,7 +57,7 @@ const GenealogyViewer = () => {
   const availableEras = useMemo(() => {
     const eras = new Set(genealogyData.people.map(p => p.era).filter(Boolean));
     return [...eras].sort();
-  }, []);
+  }, [genealogyData]);
 
   // Get person by ID
   const getPerson = (id) => genealogyData.people.find(p => p.id === id);
@@ -125,7 +112,7 @@ const GenealogyViewer = () => {
     }
     
     return filtered;
-  }, [filterEra, filterGender, filterName]);
+  }, [filterEra, filterGender, filterName, genealogyData]);
 
   // Find people alive in a given year
   const getPeopleAliveInYear = (year, sourceCalendar = 'gregorian') => {
@@ -247,6 +234,30 @@ const GenealogyViewer = () => {
           border: `1px solid ${theme.border}`,
         }}
       >
+        <div>
+          <label style={{ display: 'block', marginBottom: '4px', fontWeight: 'bold', fontSize: '0.9em' }}>
+            Chronology Path (Adam–Terah):
+          </label>
+          <select
+            value={selectedVariant}
+            onChange={(e) => setSelectedVariant(e.target.value)}
+            style={{
+              width: '100%',
+              padding: '8px',
+              border: `1px solid ${theme.borderStrong}`,
+              borderRadius: '4px',
+              fontSize: '0.9em',
+            }}
+            title={GENEALOGY_INDEX.timeline_variants[selectedVariant]?.description}
+          >
+            {Object.entries(GENEALOGY_INDEX.timeline_variants).map(([id, variant]) => (
+              <option key={id} value={id}>
+                {variant.name} ({variant.confidence_label})
+              </option>
+            ))}
+          </select>
+        </div>
+
         <div>
           <label style={{ display: 'block', marginBottom: '4px', fontWeight: 'bold', fontSize: '0.9em' }}>
             Calendar View:
