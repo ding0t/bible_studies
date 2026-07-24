@@ -20,6 +20,14 @@ End-times and biblical prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](day-is-near.md)
 
+-   __Bible Prophecy Essentials__
+
+    ---
+
+    Foundational principles for approaching biblical prophecy -- why it matters, how to read it, and the essential prophecies every believer should know
+
+    [:octicons-arrow-right-24: Read](prophecy-essentials.md)
+
 -   __Prophecy Events and Times__
 
     ---
