@@ -1,93 +1,46 @@
 {
   "era": "antediluvian",
+  "note": "Chronological fields (zadok_year_born/died, gregorian_year_born/died, lifespan_years) are GENERATED, not hand-edited here -- see references/build/genealogy_chronology.py and docs/data/genealogy/generated/. This file holds only the raw per-tradition textual facts (traditions) and their citations; the generator walks the chain from Adam (year 0) forward per timeline_variant defined in index.json.",
   "people": [
     {
       "id": "adam",
       "name": "Adam",
       "title": "First Man, Father of All",
-      "zadok_year_born": 0,
-      "gregorian_year_born": -4004,
-      "zadok_year_died": 930,
-      "gregorian_year_died": -3074,
-      "lifespan_years": 930,
       "parent_id": null,
       "spouse_id": "eve",
-      "children": [
-        "cain",
-        "abel",
-        "seth"
-      ],
-      "lineages": [
-        "seth_line",
-        "jesus_line"
-      ],
+      "children": ["cain", "abel", "seth"],
+      "lineages": ["seth_line", "jesus_line"],
       "data_classification": "ACTUAL",
       "significance_level": 1,
       "era": "Antediluvian",
       "prophetic_role": "Covenant Head",
-      "tags": [
-        "Patriarch",
-        "First Man",
-        "Image of God",
-        "Fall",
-        "Covenant"
-      ],
-      "major_events": [
+      "tags": ["Patriarch", "First Man", "Image of God", "Fall", "Covenant"],
+      "name_study": {
+        "hebrew": "אָדָם", "transliteration": "Adam", "gloss": "man, mankind; from the ground",
+        "root": {"lemma": "אֲדָמָה", "meaning": "ground, red earth"},
+        "certainty": "solid",
+        "textual_basis": "Genesis 2:7 makes the connection explicit: formed 'of dust from the ground' (adamah)."
+      },
+      "traditions": {
+        "mt":  {"heir_id": "seth", "age_at_heir_birth": 130, "years_after": 800, "lifespan_total": 930,
+                 "verses": ["Genesis 5:3", "Genesis 5:4", "Genesis 5:5"], "source_work_id": "morphhb-wlc"},
+        "lxx": {"heir_id": "seth", "age_at_heir_birth": 230, "years_after": 700, "lifespan_total": 930,
+                 "verses": ["Genesis 5:3 LXX", "Genesis 5:4 LXX", "Genesis 5:5 LXX"], "source_work_id": "ebible-grcbrent"},
+        "sp":  {"heir_id": "seth", "age_at_heir_birth": 130, "years_after": 800, "lifespan_total": 930,
+                 "verses": ["Genesis 5:3 SP", "Genesis 5:4 SP", "Genesis 5:5 SP"], "source_work_id": "scrollmapper-SP"}
+      },
+      "discrepancies": [
         {
-          "event": "Creation",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "Adam created in God's image (Genesis 1:27)"
-        },
-        {
-          "event": "Garden of Eden",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "Placed in Garden, given dominion (Genesis 2:15)"
-        },
-        {
-          "event": "Fall of Man",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "Ate forbidden fruit, sin entered world (Genesis 3:1-6)"
-        },
-        {
-          "event": "Birth of Cain",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "First son born after Fall (Genesis 4:1)"
-        },
-        {
-          "event": "Birth of Abel",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "Second son, became shepherd (Genesis 4:2)"
-        },
-        {
-          "event": "Birth of Seth",
-          "zadok_year": 130,
-          "gregorian_year": -3874,
-          "description": "Third son, appointed to replace Abel (Genesis 4:25)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 930,
-          "gregorian_year": -3074,
-          "description": "Lived 930 years (Genesis 5:5)"
+          "id": "adam-age-shift",
+          "traditions_involved": ["mt", "sp", "lxx"],
+          "type": "systematic_shift",
+          "magnitude_years": 100,
+          "confidence": "high",
+          "description": "LXX adds 100 years to age-at-Seth's-birth versus MT/SP (which agree at 130), subtracting the same from years-after -- total lifespan (930) is identical in all three traditions.",
+          "theological_significance": null
         }
       ],
-      "bible_references": [
-        "Genesis 1:27",
-        "Genesis 2:7",
-        "Genesis 3:1-6",
-        "Genesis 4:1",
-        "Genesis 5:5",
-        "Romans 5:12",
-        "1 Corinthians 15:22"
-      ],
-      "name_hebrew": "אָדָם",
-      "name_transliteration": "Adam",
-      "name_meaning": "Man, mankind; from 'adamah' (earth/ground)",
+      "bible_references": ["Genesis 1:27", "Genesis 2:7", "Genesis 2:15", "Genesis 3:1-6", "Genesis 4:25", "Genesis 5:1-5"],
       "gender": "male"
     },
     {
@@ -101,44 +54,19 @@
       "lifespan_years": null,
       "parent_id": null,
       "spouse_id": "adam",
-      "children": [
-        "cain",
-        "abel",
-        "seth"
-      ],
-      "lineages": [
-        "seth_line",
-        "jesus_line"
-      ],
+      "children": ["cain", "abel", "seth"],
+      "lineages": ["seth_line", "jesus_line"],
       "data_classification": "ACTUAL",
       "significance_level": 2,
       "era": "Antediluvian",
       "prophetic_role": "Covenant Co-Head",
-      "tags": [
-        "Woman",
-        "Mother of All",
-        "First Woman",
-        "Fall"
-      ],
+      "tags": ["Woman", "Mother of All", "First Woman", "Fall"],
+      "note": "Not part of the Genesis 5 age-tracked chronology chain -- no traditions data (Genesis gives no lifespan formula for Eve); zadok_year_born is a fixed pin at Creation, not generated.",
       "major_events": [
-        {
-          "event": "Creation",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "Created from Adam's rib (Genesis 2:22)"
-        },
-        {
-          "event": "Fall",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "Deceived by serpent, ate forbidden fruit (Genesis 3:1-6)"
-        }
+        {"event": "Creation", "zadok_year": 0, "gregorian_year": -4004, "description": "Created from Adam's rib (Genesis 2:22)"},
+        {"event": "Fall", "zadok_year": 0, "gregorian_year": -4004, "description": "Deceived by serpent, ate forbidden fruit (Genesis 3:1-6)"}
       ],
-      "bible_references": [
-        "Genesis 2:22",
-        "Genesis 3:1-6",
-        "1 Timothy 2:13-14"
-      ],
+      "bible_references": ["Genesis 2:22", "Genesis 3:1-6", "1 Timothy 2:13-14"],
       "name_hebrew": "חַוָּה",
       "name_transliteration": "Chavah",
       "name_meaning": "Life; she gives life (mother of all living)",
@@ -155,46 +83,20 @@
       "lifespan_years": null,
       "parent_id": "adam",
       "spouse_id": null,
-      "children": [
-        "enoch_cain"
-      ],
-      "lineages": [
-        "cain_line"
-      ],
+      "children": ["enoch_cain"],
+      "lineages": ["cain_line"],
       "data_classification": "ACTUAL",
       "significance_level": 3,
       "era": "Antediluvian",
       "prophetic_role": "Godless Line Founder",
-      "tags": [
-        "First Murder",
-        "Ungodly Line",
-        "Banishment"
-      ],
+      "tags": ["First Murder", "Ungodly Line", "Banishment"],
+      "note": "Not part of the Genesis 5 age-tracked chronology chain -- no traditions data; zadok_year_born is a fixed pin, not generated. Child 'enoch_cain' (Genesis 4:17) is not yet a record in this dataset.",
       "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "First-born son (Genesis 4:1)"
-        },
-        {
-          "event": "Murder of Abel",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "Killed brother in jealousy (Genesis 4:8)"
-        },
-        {
-          "event": "Curse and Mark",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "Marked by God, banished east of Eden (Genesis 4:15)"
-        }
+        {"event": "Birth", "zadok_year": 0, "gregorian_year": -4004, "description": "First-born son (Genesis 4:1)"},
+        {"event": "Murder of Abel", "zadok_year": 0, "gregorian_year": -4004, "description": "Killed brother in jealousy (Genesis 4:8)"},
+        {"event": "Curse and Mark", "zadok_year": 0, "gregorian_year": -4004, "description": "Marked by God, banished east of Eden (Genesis 4:15)"}
       ],
-      "bible_references": [
-        "Genesis 4:1-15",
-        "1 John 3:12",
-        "Hebrews 11:4"
-      ],
+      "bible_references": ["Genesis 4:1-15", "1 John 3:12", "Hebrews 11:4"],
       "name_hebrew": "קַיִן",
       "name_transliteration": "Qayin",
       "name_meaning": "Acquisition, possession; related to 'kanah' (to obtain)",
@@ -217,37 +119,14 @@
       "significance_level": 3,
       "era": "Antediluvian",
       "prophetic_role": "First Righteous Martyr",
-      "tags": [
-        "First Murder Victim",
-        "Shepherd",
-        "Righteous"
-      ],
+      "tags": ["First Murder Victim", "Shepherd", "Righteous"],
+      "note": "Not part of the Genesis 5 age-tracked chronology chain -- no traditions data; zadok_year_born/died are fixed pins, not generated. Died young/childless, no lifespan data given in the text.",
       "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "Second son (Genesis 4:2)"
-        },
-        {
-          "event": "Offering to God",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "Brought firstlings of flock; accepted by God (Genesis 4:4)"
-        },
-        {
-          "event": "Murder by Cain",
-          "zadok_year": 0,
-          "gregorian_year": -4004,
-          "description": "Killed by brother Cain (Genesis 4:8)"
-        }
+        {"event": "Birth", "zadok_year": 0, "gregorian_year": -4004, "description": "Second son (Genesis 4:2)"},
+        {"event": "Offering to God", "zadok_year": 0, "gregorian_year": -4004, "description": "Brought firstlings of flock; accepted by God (Genesis 4:4)"},
+        {"event": "Murder by Cain", "zadok_year": 0, "gregorian_year": -4004, "description": "Killed by brother Cain (Genesis 4:8)"}
       ],
-      "bible_references": [
-        "Genesis 4:2-8",
-        "Hebrews 11:4",
-        "1 John 3:12",
-        "Matthew 23:35"
-      ],
+      "bible_references": ["Genesis 4:2-8", "Hebrews 11:4", "1 John 3:12", "Matthew 23:35"],
       "name_hebrew": "הָבֶל",
       "name_transliteration": "Hevel",
       "name_meaning": "Breath, vapor, emptiness; transience of life",
@@ -256,504 +135,364 @@
     {
       "id": "seth",
       "name": "Seth",
-      "title": "Third Son, Covenant Heir",
-      "zadok_year_born": 130,
-      "gregorian_year_born": -3874,
-      "zadok_year_died": 1042,
-      "gregorian_year_died": -2962,
-      "lifespan_years": 912,
+      "title": "Third Son, Appointed Heir",
       "parent_id": "adam",
       "spouse_id": null,
-      "children": [
-        "enosh"
-      ],
-      "lineages": [
-        "seth_line",
-        "jesus_line"
-      ],
+      "children": ["enosh"],
+      "lineages": ["seth_line", "jesus_line"],
       "data_classification": "ACTUAL",
-      "significance_level": 2,
+      "significance_level": 1,
       "era": "Antediluvian",
       "prophetic_role": "Covenant Heir",
-      "tags": [
-        "Patriarch",
-        "Covenant",
-        "Appointed"
-      ],
-      "major_events": [
+      "tags": ["Patriarch", "Appointed"],
+      "name_study": {
+        "hebrew": "שֵׁת", "transliteration": "Shet", "gloss": "appointed, set",
+        "root": {"lemma": "שִׁית", "strongs": "H7896", "meaning": "to put, set, appoint"},
+        "certainty": "solid",
+        "textual_basis": "Genesis 4:25 gives the wordplay explicitly: 'God has appointed (shat) for me another offspring instead of Abel.' Not a reconstructed etymology -- the narrator states it."
+      },
+      "traditions": {
+        "mt":  {"heir_id": "enosh", "age_at_heir_birth": 105, "years_after": 807, "lifespan_total": 912,
+                 "verses": ["Genesis 5:6", "Genesis 5:7", "Genesis 5:8"], "source_work_id": "morphhb-wlc"},
+        "lxx": {"heir_id": "enosh", "age_at_heir_birth": 205, "years_after": 707, "lifespan_total": 912,
+                 "verses": ["Genesis 5:6 LXX", "Genesis 5:7 LXX", "Genesis 5:8 LXX"], "source_work_id": "ebible-grcbrent"},
+        "sp":  {"heir_id": "enosh", "age_at_heir_birth": 105, "years_after": 807, "lifespan_total": 912,
+                 "verses": ["Genesis 5:6 SP", "Genesis 5:7 SP", "Genesis 5:8 SP"], "source_work_id": "scrollmapper-SP"}
+      },
+      "discrepancies": [
         {
-          "event": "Birth",
-          "zadok_year": 130,
-          "gregorian_year": -3874,
-          "description": "Born to replace Abel (Genesis 4:25)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 1042,
-          "gregorian_year": -2962,
-          "description": "Lived 912 years (Genesis 5:8)"
+          "id": "seth-age-shift", "traditions_involved": ["mt", "sp", "lxx"], "type": "systematic_shift",
+          "magnitude_years": 100, "confidence": "high",
+          "description": "Same +100/-100 pattern as Adam; total lifespan (912) identical across all three.",
+          "theological_significance": null
         }
       ],
-      "bible_references": [
-        "Genesis 4:25",
-        "Genesis 5:3-8",
-        "Luke 3:23-38"
-      ],
-      "name_hebrew": "שֵׁת",
-      "name_transliteration": "Shet",
-      "name_meaning": "Appointed, placed; from 'shith' (to put, place)",
+      "bible_references": ["Genesis 4:25-26", "Genesis 5:3-8", "Luke 3:38"],
       "gender": "male"
     },
     {
       "id": "enosh",
       "name": "Enosh",
       "title": "Son of Seth",
-      "zadok_year_born": 235,
-      "gregorian_year_born": -3769,
-      "zadok_year_died": 1140,
-      "gregorian_year_died": -2864,
-      "lifespan_years": 905,
       "parent_id": "seth",
       "spouse_id": null,
-      "children": [
-        "cainan"
-      ],
-      "lineages": [
-        "seth_line",
-        "jesus_line"
-      ],
+      "children": ["cainan"],
+      "lineages": ["seth_line", "jesus_line"],
       "data_classification": "ACTUAL",
-      "significance_level": 3,
+      "significance_level": 2,
       "era": "Antediluvian",
       "prophetic_role": "Covenant Preserver",
-      "tags": [
-        "Patriarch",
-        "When men began calling on Lord"
-      ],
-      "major_events": [
+      "tags": ["Patriarch"],
+      "name_study": {
+        "hebrew": "אֱנוֹשׁ", "transliteration": "Enosh", "gloss": "mortal man, frail man",
+        "root": {"lemma": "אֱנוֹשׁ", "strongs": "H582", "twot_root": "136a", "meaning": "man, emphasizing frailty/mortality"},
+        "certainty": "solid",
+        "textual_basis": "Common-noun meaning is well attested (distinct from adam/generic-mankind and ish/individual-man); used for human frailty against God's greatness, e.g. Psalm 8:4, 103:15. No in-text narrator wordplay the way Seth/Noah get -- inferred from usage elsewhere in the OT, not an explicit gloss."
+      },
+      "traditions": {
+        "mt":  {"heir_id": "cainan", "age_at_heir_birth": 90, "years_after": 815, "lifespan_total": 905,
+                 "verses": ["Genesis 5:9", "Genesis 5:10", "Genesis 5:11"], "source_work_id": "morphhb-wlc"},
+        "lxx": {"heir_id": "cainan", "age_at_heir_birth": 190, "years_after": 715, "lifespan_total": 905,
+                 "verses": ["Genesis 5:9 LXX", "Genesis 5:10 LXX", "Genesis 5:11 LXX"], "source_work_id": "ebible-grcbrent"},
+        "sp":  {"heir_id": "cainan", "age_at_heir_birth": 90, "years_after": 815, "lifespan_total": 905,
+                 "verses": ["Genesis 5:9 SP", "Genesis 5:10 SP", "Genesis 5:11 SP"], "source_work_id": "scrollmapper-SP"}
+      },
+      "discrepancies": [
         {
-          "event": "Birth",
-          "zadok_year": 235,
-          "gregorian_year": -3769,
-          "description": "Son of Seth (Genesis 5:6)"
-        },
-        {
-          "event": "Men Called on God's Name",
-          "zadok_year": 235,
-          "gregorian_year": -3769,
-          "description": "In his day men began calling on name of Lord (Genesis 4:26)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 1140,
-          "gregorian_year": -2864,
-          "description": "Lived 905 years (Genesis 5:11)"
+          "id": "enosh-age-shift", "traditions_involved": ["mt", "sp", "lxx"], "type": "systematic_shift",
+          "magnitude_years": 100, "confidence": "high",
+          "description": "Same +100/-100 pattern; total lifespan (905) identical across all three.",
+          "theological_significance": null
         }
       ],
-      "bible_references": [
-        "Genesis 4:26",
-        "Genesis 5:6-11"
-      ],
-      "name_hebrew": "אֱנוֹשׁ",
-      "name_transliteration": "Enosh",
-      "name_meaning": "Man, mortal man; from 'anash' (to be weak, mortal)",
+      "bible_references": ["Genesis 5:6-11", "Luke 3:38"],
       "gender": "male"
     },
     {
       "id": "cainan",
       "name": "Cainan",
       "title": "Son of Enosh",
-      "zadok_year_born": 325,
-      "gregorian_year_born": -3679,
-      "zadok_year_died": 1235,
-      "gregorian_year_died": -2769,
-      "lifespan_years": 910,
       "parent_id": "enosh",
       "spouse_id": null,
-      "children": [
-        "mahalalel"
-      ],
-      "lineages": [
-        "seth_line",
-        "jesus_line"
-      ],
+      "children": ["mahalalel"],
+      "lineages": ["seth_line", "jesus_line"],
       "data_classification": "ACTUAL",
       "significance_level": 3,
       "era": "Antediluvian",
       "prophetic_role": "Covenant Preserver",
-      "tags": [
-        "Patriarch"
-      ],
-      "major_events": [
+      "tags": ["Patriarch"],
+      "name_study": {
+        "hebrew": "קֵינָן", "transliteration": "Kenan", "gloss": "uncertain -- no TWOT root for the name itself",
+        "root": {"lemma": null, "meaning": "possibly related to קִינָה (H7015, 'lament, elegy') via the shared ק-י-נ core, but Kenan's own final consonant differs (ן vs ה) -- not a confirmed derivation"},
+        "certainty": "speculative",
+        "textual_basis": "Popular chains gloss this 'sorrow', but that rests on an unconfirmed root link, not an attested one. Do not assert it as settled."
+      },
+      "traditions": {
+        "mt":  {"heir_id": "mahalalel", "age_at_heir_birth": 70, "years_after": 840, "lifespan_total": 910,
+                 "verses": ["Genesis 5:12", "Genesis 5:13", "Genesis 5:14"], "source_work_id": "morphhb-wlc"},
+        "lxx": {"heir_id": "mahalalel", "age_at_heir_birth": 170, "years_after": 740, "lifespan_total": 910,
+                 "verses": ["Genesis 5:12 LXX", "Genesis 5:13 LXX", "Genesis 5:14 LXX"], "source_work_id": "ebible-grcbrent"},
+        "sp":  {"heir_id": "mahalalel", "age_at_heir_birth": 70, "years_after": 840, "lifespan_total": 910,
+                 "verses": ["Genesis 5:12 SP", "Genesis 5:13 SP", "Genesis 5:14 SP"], "source_work_id": "scrollmapper-SP"}
+      },
+      "discrepancies": [
         {
-          "event": "Birth",
-          "zadok_year": 325,
-          "gregorian_year": -3679,
-          "description": "Son of Enosh (Genesis 5:9)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 1235,
-          "gregorian_year": -2769,
-          "description": "Lived 910 years (Genesis 5:14)"
+          "id": "cainan-age-shift", "traditions_involved": ["mt", "sp", "lxx"], "type": "systematic_shift",
+          "magnitude_years": 100, "confidence": "high",
+          "description": "Same +100/-100 pattern; total lifespan (910) identical across all three.",
+          "theological_significance": null
         }
       ],
-      "bible_references": [
-        "Genesis 5:9-14"
-      ],
-      "name_hebrew": "קֵינָן",
-      "name_transliteration": "Qenan",
-      "name_meaning": "Possessor; variant of Cain",
+      "bible_references": ["Genesis 5:9-14", "Luke 3:37"],
       "gender": "male"
     },
     {
       "id": "mahalalel",
       "name": "Mahalalel",
-      "title": "Son of Cainan",
-      "zadok_year_born": 395,
-      "gregorian_year_born": -3609,
-      "zadok_year_died": 1290,
-      "gregorian_year_died": -2714,
-      "lifespan_years": 895,
+      "title": "Son of Enosh -- distinct from the LXX-only Cainan of Genesis 11, see cainan_gen11",
       "parent_id": "cainan",
       "spouse_id": null,
-      "children": [
-        "jared"
-      ],
-      "lineages": [
-        "seth_line",
-        "jesus_line"
-      ],
+      "children": ["jared"],
+      "lineages": ["seth_line", "jesus_line"],
       "data_classification": "ACTUAL",
       "significance_level": 3,
       "era": "Antediluvian",
       "prophetic_role": "Covenant Preserver",
-      "tags": [
-        "Patriarch"
-      ],
-      "major_events": [
+      "tags": ["Patriarch"],
+      "name_study": {
+        "hebrew": "מַהֲלַלְאֵל", "transliteration": "Mahalalel", "gloss": "praise of God",
+        "root": {"lemma": "הָלַל", "strongs": "H1984", "twot_root": "499/500/501", "meaning": "to praise, shine, boast"},
+        "certainty": "solid",
+        "textual_basis": "Transparent theophoric compound: mahalal ('praise', from halal) + el ('God') -- same name-formation pattern as Daniel, Immanuel. Not in dispute."
+      },
+      "traditions": {
+        "mt":  {"heir_id": "jared", "age_at_heir_birth": 65, "years_after": 830, "lifespan_total": 895,
+                 "verses": ["Genesis 5:15", "Genesis 5:16", "Genesis 5:17"], "source_work_id": "morphhb-wlc"},
+        "lxx": {"heir_id": "jared", "age_at_heir_birth": 165, "years_after": 730, "lifespan_total": 895,
+                 "verses": ["Genesis 5:15 LXX", "Genesis 5:16 LXX", "Genesis 5:17 LXX"], "source_work_id": "ebible-grcbrent"},
+        "sp":  {"heir_id": "jared", "age_at_heir_birth": 65, "years_after": 830, "lifespan_total": 895,
+                 "verses": ["Genesis 5:15 SP", "Genesis 5:16 SP", "Genesis 5:17 SP"], "source_work_id": "scrollmapper-SP"}
+      },
+      "discrepancies": [
         {
-          "event": "Birth",
-          "zadok_year": 395,
-          "gregorian_year": -3609,
-          "description": "Son of Cainan (Genesis 5:12)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 1290,
-          "gregorian_year": -2714,
-          "description": "Lived 895 years (Genesis 5:17)"
+          "id": "mahalalel-age-shift", "traditions_involved": ["mt", "sp", "lxx"], "type": "systematic_shift",
+          "magnitude_years": 100, "confidence": "high",
+          "description": "Same +100/-100 pattern; total lifespan (895) identical across all three.",
+          "theological_significance": null
         }
       ],
-      "bible_references": [
-        "Genesis 5:12-17"
-      ],
-      "name_hebrew": "מַהֲלַלְאֵל",
-      "name_transliteration": "Mahalalel",
-      "name_meaning": "Praise of God; from 'hallal' (praise) and 'El' (God)",
+      "bible_references": ["Genesis 5:12-17", "Luke 3:37"],
       "gender": "male"
     },
     {
       "id": "jared",
       "name": "Jared",
-      "title": "Son of Mahalalel, Longest-Lived",
-      "zadok_year_born": 460,
-      "gregorian_year_born": -3544,
-      "zadok_year_died": 1422,
-      "gregorian_year_died": -2582,
-      "lifespan_years": 962,
+      "title": "Son of Mahalalel",
       "parent_id": "mahalalel",
       "spouse_id": null,
-      "children": [
-        "enoch"
-      ],
-      "lineages": [
-        "seth_line",
-        "jesus_line"
-      ],
+      "children": ["enoch"],
+      "lineages": ["seth_line", "jesus_line"],
       "data_classification": "ACTUAL",
       "significance_level": 2,
       "era": "Antediluvian",
-      "prophetic_role": "Long-Lived Patriarch",
-      "tags": [
-        "Patriarch",
-        "Longest-Lived"
-      ],
-      "major_events": [
+      "prophetic_role": "Covenant Preserver",
+      "tags": ["Patriarch"],
+      "name_study": {
+        "hebrew": "יֶרֶד", "transliteration": "Yered", "gloss": "descent, shall come down",
+        "root": {"lemma": "יָרַד", "strongs": "H3381", "twot_root": "909", "meaning": "to come down, descend"},
+        "certainty": "solid",
+        "textual_basis": "Direct nominal form of the verb 'to descend'. Popular chains' 'shall come down' gloss is accurate to the root."
+      },
+      "traditions": {
+        "mt":  {"heir_id": "enoch", "age_at_heir_birth": 162, "years_after": 800, "lifespan_total": 962,
+                 "verses": ["Genesis 5:18", "Genesis 5:19", "Genesis 5:20"], "source_work_id": "morphhb-wlc"},
+        "lxx": {"heir_id": "enoch", "age_at_heir_birth": 162, "years_after": 800, "lifespan_total": 962,
+                 "verses": ["Genesis 5:18 LXX", "Genesis 5:19 LXX", "Genesis 5:20 LXX"], "source_work_id": "ebible-grcbrent"},
+        "sp":  {"heir_id": "enoch", "age_at_heir_birth": 62, "years_after": 785, "lifespan_total": 847,
+                 "verses": ["Genesis 5:18 SP", "Genesis 5:19 SP", "Genesis 5:20 SP"], "source_work_id": "scrollmapper-SP"}
+      },
+      "discrepancies": [
         {
-          "event": "Birth",
-          "zadok_year": 460,
-          "gregorian_year": -3544,
-          "description": "Son of Mahalalel (Genesis 5:15)"
+          "id": "jared-mt-lxx-agree", "traditions_involved": ["mt", "lxx"], "type": "uncertain",
+          "confidence": "high",
+          "description": "MT and LXX agree exactly here (162/800/962) -- Jared is the one antediluvian patriarch where LXX does NOT apply its usual +100 shift.",
+          "theological_significance": null
         },
         {
-          "event": "Death",
-          "zadok_year": 1422,
-          "gregorian_year": -2582,
-          "description": "Lived 962 yearsâ€”longest lifespan in Genesis (Genesis 5:20)"
+          "id": "jared-sp-shortened", "traditions_involved": ["sp"], "type": "theological_shaping",
+          "magnitude_years": 115, "confidence": "medium",
+          "description": "SP shortens both the age-at-heir-birth (62 vs 162) and the total lifespan (847 vs 962) -- not merely a redistribution, a genuinely shorter total. Matches published SP comparison tables (this is not a digitization artifact in this repo's source text).",
+          "theological_significance": "Part of a broader SP pattern (see Methuselah, Lamech below) of shortening the antediluvian era relative to MT/LXX -- worth asking whether this is a deliberate SP compression or whether MT/LXX independently lengthened. Not resolved here."
         }
       ],
-      "bible_references": [
-        "Genesis 5:15-20"
-      ],
-      "name_hebrew": "יָרֶד",
-      "name_transliteration": "Yared",
-      "name_meaning": "Descend; from 'yarad' (to descend)",
+      "bible_references": ["Genesis 5:15-20", "Luke 3:37"],
       "gender": "male"
     },
     {
       "id": "enoch",
       "name": "Enoch",
       "title": "Son of Jared, Walked with God",
-      "zadok_year_born": 622,
-      "gregorian_year_born": -3382,
-      "zadok_year_died": 987,
-      "gregorian_year_died": -3017,
-      "lifespan_years": 365,
       "parent_id": "jared",
       "spouse_id": null,
-      "children": [
-        "methuselah"
-      ],
-      "lineages": [
-        "seth_line",
-        "jesus_line"
-      ],
+      "children": ["methuselah"],
+      "lineages": ["seth_line", "jesus_line"],
       "data_classification": "ACTUAL",
       "significance_level": 1,
       "era": "Antediluvian",
-      "prophetic_role": "Rapture Type, Prophet",
-      "tags": [
-        "Patriarch",
-        "Walked with God",
-        "Raptured",
-        "Prophet"
-      ],
-      "major_events": [
+      "prophetic_role": "Translated, Did Not See Death",
+      "tags": ["Patriarch", "Walked with God", "Translated"],
+      "name_study": {
+        "hebrew": "חֲנוֹךְ", "transliteration": "Chanokh", "gloss": "dedicated, initiated, trained up",
+        "root": {"lemma": "חָנַךְ", "strongs": "H2596", "twot_root": "693", "meaning": "to train up, dedicate"},
+        "certainty": "solid",
+        "textual_basis": "Same root as Proverbs 22:6's 'train up a child'. Popular chains gloss this 'teaching', which is a loose paraphrase -- 'dedicated/initiated' is closer to the actual root."
+      },
+      "traditions": {
+        "mt":  {"heir_id": "methuselah", "age_at_heir_birth": 65, "years_after": 300, "lifespan_total": 365, "no_death_recorded": true,
+                 "verses": ["Genesis 5:21", "Genesis 5:22", "Genesis 5:23", "Genesis 5:24"], "source_work_id": "morphhb-wlc"},
+        "lxx": {"heir_id": "methuselah", "age_at_heir_birth": 165, "years_after": 200, "lifespan_total": 365, "no_death_recorded": true,
+                 "verses": ["Genesis 5:21 LXX", "Genesis 5:22 LXX", "Genesis 5:23 LXX", "Genesis 5:24 LXX"], "source_work_id": "ebible-grcbrent"},
+        "sp":  {"heir_id": "methuselah", "age_at_heir_birth": 65, "years_after": 300, "lifespan_total": 365, "no_death_recorded": true,
+                 "verses": ["Genesis 5:21 SP", "Genesis 5:22 SP", "Genesis 5:23 SP", "Genesis 5:24 SP"], "source_work_id": "scrollmapper-SP"}
+      },
+      "discrepancies": [
         {
-          "event": "Birth",
-          "zadok_year": 622,
-          "gregorian_year": -3382,
-          "description": "Son of Jared (Genesis 5:18)"
-        },
-        {
-          "event": "Walked with God",
-          "zadok_year": 622,
-          "gregorian_year": -3382,
-          "description": "Lived in close fellowship with God (Genesis 5:22-24)"
-        },
-        {
-          "event": "Prophetic Ministry",
-          "zadok_year": 987,
-          "gregorian_year": -3017,
-          "description": "Prophesied judgment (Jude 1:14)"
-        },
-        {
-          "event": "Rapture/Ascension",
-          "zadok_year": 987,
-          "gregorian_year": -3017,
-          "description": "Taken by God without experiencing death (Genesis 5:24, Hebrews 11:5)"
+          "id": "enoch-age-shift", "traditions_involved": ["mt", "sp", "lxx"], "type": "systematic_shift",
+          "magnitude_years": 100, "confidence": "high",
+          "description": "Same +100/-100 pattern; total (365) identical across all three -- notably matching the days in a solar year, a coincidence often remarked on but not textually explained.",
+          "theological_significance": "Enoch is 'not found, because God took him' (Gen 5:24) -- the only antediluvian patriarch with no death notice, read since antiquity (and in Hebrews 11:5) as a type/foretaste of bodily translation without death."
         }
       ],
-      "bible_references": [
-        "Genesis 5:18-24",
-        "Hebrews 11:5",
-        "Jude 1:14",
-        "Isaiah 62:11"
-      ],
-      "name_hebrew": "חֲנוֹךְ",
-      "name_transliteration": "Chanoch",
-      "name_meaning": "Initiated, dedicated; from 'chanach' (to train, dedicate)",
+      "bible_references": ["Genesis 5:18-24", "Hebrews 11:5", "Jude 1:14-15", "Luke 3:37"],
       "gender": "male"
     },
     {
       "id": "methuselah",
       "name": "Methuselah",
-      "title": "Son of Enoch, Oldest Person",
-      "zadok_year_born": 687,
-      "gregorian_year_born": -3317,
-      "zadok_year_died": 1656,
-      "gregorian_year_died": -2348,
-      "lifespan_years": 969,
+      "title": "Son of Enoch, Longest-Lived Man",
       "parent_id": "enoch",
       "spouse_id": null,
-      "children": [
-        "lamech"
-      ],
-      "lineages": [
-        "seth_line",
-        "jesus_line"
-      ],
-      "data_classification": "ACTUAL",
-      "significance_level": 1,
-      "era": "Antediluvian",
-      "prophetic_role": "Pre-Flood Witness",
-      "tags": [
-        "Patriarch",
-        "Oldest Person",
-        "Pre-Flood Witness"
-      ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 687,
-          "gregorian_year": -3317,
-          "description": "Son of Enoch (Genesis 5:21)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 1656,
-          "gregorian_year": -2348,
-          "description": "Lived 969 yearsâ€”oldest person ever (Genesis 5:27)"
-        },
-        {
-          "event": "Died year of Flood",
-          "zadok_year": 1656,
-          "gregorian_year": -2348,
-          "description": "Died the same year as the Great Flood"
-        }
-      ],
-      "bible_references": [
-        "Genesis 5:21-27",
-        "Luke 3:37"
-      ],
-      "name_hebrew": "מְתוּשֶׁלַח",
-      "name_transliteration": "Metushelach",
-      "name_meaning": "Man of the javelin; or 'when he dies, it shall be sent' (prophetic of flood)",
-      "gender": "male"
-    },
-    {
-      "id": "lamech",
-      "name": "Lamech",
-      "title": "Son of Methuselah, Noah's Father",
-      "zadok_year_born": 874,
-      "gregorian_year_born": -3130,
-      "zadok_year_died": 1651,
-      "gregorian_year_died": -2353,
-      "lifespan_years": 777,
-      "parent_id": "methuselah",
-      "spouse_id": null,
-      "children": [
-        "noah"
-      ],
-      "lineages": [
-        "seth_line",
-        "jesus_line"
-      ],
+      "children": ["lamech"],
+      "lineages": ["seth_line", "jesus_line"],
       "data_classification": "ACTUAL",
       "significance_level": 2,
       "era": "Antediluvian",
-      "prophetic_role": "Pre-Flood Patriarch",
-      "tags": [
-        "Patriarch",
-        "Named Noah"
-      ],
-      "major_events": [
+      "prophetic_role": "Covenant Preserver",
+      "tags": ["Patriarch", "Longevity"],
+      "name_study": {
+        "hebrew": "מְתוּשֶׁלַח", "transliteration": "Metushelach", "gloss": "compound, genuinely disputed -- NOT settled",
+        "root": {
+          "component_1": {"lemma": "מוּת", "strongs": "H4191", "twot_root": "1169", "meaning": "to die", "alt": "מְתֵי (construct of H4962, 'men of')"},
+          "component_2": {"lemma": "שָׁלַח", "strongs": "H7971", "twot_root": "2394", "meaning": "to send (verb)", "alt": "שֶׁלַח (H7973, twot 2394a, 'missile, dart, javelin', same root family)"}
+        },
+        "certainty": "plausible, ambiguous",
+        "textual_basis": "Two real readings, not one solid and one invented: (1) plain/onomastic -- 'man of the javelin' (mtei + shelah-as-weapon), a warrior name with no eschatological content; (2) homiletical -- 'his death shall bring/send [it]' (mut + shalach-as-verb), read as a sentence-name. Reading (2) gains real force from the numbers: under BOTH MT's and LXX's own total-lifespan figures (969 in both), his death year lines up with the Flood year -- see discrepancy note below. This needs the fuller diachronic/synchronic word-study-method.md treatment before the study draft leans on either reading with confidence."
+      },
+      "traditions": {
+        "mt":  {"heir_id": "lamech_antediluvian", "age_at_heir_birth": 187, "years_after": 782, "lifespan_total": 969,
+                 "verses": ["Genesis 5:25", "Genesis 5:26", "Genesis 5:27"], "source_work_id": "morphhb-wlc"},
+        "lxx": {"heir_id": "lamech_antediluvian", "age_at_heir_birth": 167, "years_after": 802, "lifespan_total": 969,
+                 "verses": ["Genesis 5:25 LXX", "Genesis 5:26 LXX", "Genesis 5:27 LXX"], "source_work_id": "ebible-grcbrent"},
+        "sp":  {"heir_id": "lamech_antediluvian", "age_at_heir_birth": 67, "years_after": 653, "lifespan_total": 720,
+                 "verses": ["Genesis 5:25 SP", "Genesis 5:26 SP", "Genesis 5:27 SP"], "source_work_id": "scrollmapper-SP"}
+      },
+      "discrepancies": [
         {
-          "event": "Birth",
-          "zadok_year": 874,
-          "gregorian_year": -3130,
-          "description": "Son of Methuselah (Genesis 5:25)"
+          "id": "methuselah-mt-lxx-same-total", "traditions_involved": ["mt", "lxx"], "type": "redistribution",
+          "confidence": "high",
+          "description": "MT (187+782) and LXX (167+802) both total 969 -- the longest human lifespan recorded in any tradition -- via different splits.",
+          "theological_significance": null
         },
         {
-          "event": "Birth of Noah",
-          "zadok_year": 1056,
-          "gregorian_year": -2948,
-          "description": "Fathered Noah; named him expressing hope (Genesis 5:29)"
+          "id": "methuselah-flood-survival-problem", "traditions_involved": ["lxx"], "type": "uncertain",
+          "confidence": "high",
+          "description": "On a strict reading of LXX's own numbers for Methuselah, Lamech, and Noah, Methuselah would still be alive more than a decade after the Flood begins -- a long-noted internal problem with the LXX figures as transmitted, not a claim this study is making up.",
+          "theological_significance": "If the name really does mean 'his death shall bring [judgment]', a post-Flood survival directly undercuts the name's own force -- one reason some see this as evidence of scribal corruption specifically in LXX's Methuselah/Lamech numbers, distinct from the systematic (and internally consistent) +100 pattern seen elsewhere in LXX Genesis 5."
         },
         {
-          "event": "Death",
-          "zadok_year": 1651,
-          "gregorian_year": -2353,
-          "description": "Lived 777 years (Genesis 5:31)"
+          "id": "methuselah-sp-dies-in-flood-year", "traditions_involved": ["sp"], "type": "theological_shaping",
+          "magnitude_years": 249, "confidence": "medium",
+          "description": "SP shortens Methuselah's total from 969 to 720 (67+653) -- a genuinely different total, not a redistribution. This is widely read as a deliberate correction so Methuselah dies in the very year of the Flood, avoiding the LXX post-Flood-survival problem above.",
+          "theological_significance": "If Methuselah's name does carry the 'his death shall send [the Flood]' sense, SP's number is the one tradition where the name and the math actually agree without needing any further harmonization."
         }
       ],
-      "bible_references": [
-        "Genesis 5:25-31"
+      "bible_references": ["Genesis 5:21-27", "Luke 3:37"],
+      "gender": "male"
+    },
+    {
+      "id": "lamech_antediluvian",
+      "name": "Lamech",
+      "title": "Son of Methuselah, Father of Noah",
+      "parent_id": "methuselah",
+      "spouse_id": null,
+      "children": ["noah"],
+      "lineages": ["seth_line", "jesus_line"],
+      "data_classification": "ACTUAL",
+      "significance_level": 2,
+      "era": "Antediluvian",
+      "prophetic_role": "Covenant Preserver",
+      "tags": ["Patriarch"],
+      "name_study": {
+        "hebrew": "לֶמֶךְ", "transliteration": "Lemekh", "gloss": "unknown -- no TWOT root exists for this name",
+        "root": {"lemma": null, "meaning": null},
+        "certainty": "unknown",
+        "textual_basis": "Popular chains gloss this 'despairing' or 'powerful man' -- neither is lexically demonstrated from Hebrew. Standard lexicons mark the derivation genuinely uncertain (possibly a non-Hebrew Semitic loanword). Do not force a gloss in the study draft."
+      },
+      "traditions": {
+        "mt":  {"heir_id": "noah", "age_at_heir_birth": 182, "years_after": 595, "lifespan_total": 777,
+                 "verses": ["Genesis 5:28", "Genesis 5:30", "Genesis 5:31"], "source_work_id": "morphhb-wlc"},
+        "lxx": {"heir_id": "noah", "age_at_heir_birth": 188, "years_after": 565, "lifespan_total": 753,
+                 "verses": ["Genesis 5:28 LXX", "Genesis 5:30 LXX", "Genesis 5:31 LXX"], "source_work_id": "ebible-grcbrent"},
+        "sp":  {"heir_id": "noah", "age_at_heir_birth": 53, "years_after": 600, "lifespan_total": 653,
+                 "verses": ["Genesis 5:28 SP", "Genesis 5:30 SP", "Genesis 5:31 SP"], "source_work_id": "scrollmapper-SP"}
+      },
+      "discrepancies": [
+        {
+          "id": "lamech-three-way-different-total", "traditions_involved": ["mt", "lxx", "sp"], "type": "uncertain",
+          "confidence": "high",
+          "description": "Unlike most Gen 5 patriarchs, all three traditions give genuinely different totals: MT 777, LXX 753, SP 653 -- not a clean redistribution pattern.",
+          "theological_significance": "MT's 777 is often noted as a deliberate numerological contrast with the 'human number' 666 elsewhere in Scripture (Revelation 13:18) and with the murderous Lamech of Genesis 4:23-24's '77-fold' vengeance boast -- worth treating as a real feature of MT specifically, not assumed present in LXX/SP's different numbers."
+        }
       ],
-      "name_hebrew": "לֶמֶךְ",
-      "name_transliteration": "Lemech",
-      "name_meaning": "Powerful, strong; possibly related to 'lamak' (to be weak) - ironic",
+      "bible_references": ["Genesis 4:18-24", "Genesis 5:25-31", "Luke 3:36"],
       "gender": "male"
     },
     {
       "id": "noah",
       "name": "Noah",
-      "title": "Righteous Man, Ark Builder, Flood Survivor",
-      "zadok_year_born": 1056,
-      "gregorian_year_born": -2948,
-      "zadok_year_died": 2006,
-      "gregorian_year_died": -1998,
-      "lifespan_years": 950,
-      "parent_id": "lamech",
+      "title": "Son of Lamech, Ark Builder",
+      "parent_id": "lamech_antediluvian",
       "spouse_id": null,
-      "children": [
-        "shem",
-        "ham",
-        "japheth"
-      ],
-      "lineages": [
-        "seth_line",
-        "jesus_line"
-      ],
+      "children": ["shem", "ham", "japheth"],
+      "lineages": ["seth_line", "jesus_line"],
       "data_classification": "ACTUAL",
       "significance_level": 1,
-      "era": "Antediluvian/Flood",
-      "prophetic_role": "Covenant Head, Ark Builder",
-      "tags": [
-        "Patriarch",
-        "Righteous",
-        "Ark Builder",
-        "Covenant"
-      ],
-      "major_events": [
+      "era": "Antediluvian",
+      "prophetic_role": "Covenant Preserver Through Judgment",
+      "tags": ["Patriarch", "Flood", "Ark", "Righteous"],
+      "name_study": {
+        "hebrew": "נֹחַ", "transliteration": "Noach", "gloss": "Noah",
+        "root": {"lemma": "נָחַם", "strongs": "H5162", "twot_root": "1344", "meaning": "to be sorry, comfort, relent"},
+        "certainty": "solid, but needs precision",
+        "textual_basis": "Genesis 5:29 explicitly glosses the name via paronomasia (sound-play) on nacham ('this one shall comfort us'), NOT a strict derivation from nuach ('rest', H5117, twot 1323) despite Noah's name sounding closer to the latter. Popular chains that flatten this to simply 'rest' are collapsing a real, deliberate double wordplay into one word."
+      },
+      "traditions": {
+        "mt":  {"heir_id": "shem", "age_at_heir_birth": 500, "years_after": 450, "lifespan_total": 950,
+                 "verses": ["Genesis 5:32", "Genesis 9:28-29"], "source_work_id": "morphhb-wlc", "flood_age": 600, "flood_verse": "Genesis 7:11"},
+        "lxx": {"heir_id": "shem", "age_at_heir_birth": 500, "years_after": 450, "lifespan_total": 950,
+                 "verses": ["Genesis 5:32 LXX", "Genesis 9:28-29 LXX"], "source_work_id": "ebible-grcbrent", "flood_age": 600, "flood_verse": "Genesis 7:11 LXX"},
+        "sp":  {"heir_id": "shem", "age_at_heir_birth": 500, "years_after": 450, "lifespan_total": 950,
+                 "verses": ["Genesis 5:32 SP", "Genesis 9:28-29 SP"], "source_work_id": "scrollmapper-SP", "flood_age": 600, "flood_verse": "Genesis 7:11 SP"}
+      },
+      "discrepancies": [
         {
-          "event": "Birth",
-          "zadok_year": 1056,
-          "gregorian_year": -2948,
-          "description": "Son of Lamech (Genesis 5:29)"
-        },
-        {
-          "event": "Preaching Righteousness",
-          "zadok_year": 1056,
-          "gregorian_year": -2948,
-          "description": "Preached for 120 years before Flood (2 Peter 2:5)"
-        },
-        {
-          "event": "Ark Construction",
-          "zadok_year": 1536,
-          "gregorian_year": -2468,
-          "description": "Built ark for 120 years (Genesis 6:14)"
-        },
-        {
-          "event": "The Great Flood",
-          "zadok_year": 1656,
-          "gregorian_year": -2348,
-          "description": "Entered ark; all life destroyed except those in ark (Genesis 7:11-12)"
-        },
-        {
-          "event": "Covenant Renewal",
-          "zadok_year": 1657,
-          "gregorian_year": -2347,
-          "description": "Received Noahic Covenant with rainbow sign (Genesis 8:20-9:17)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 2006,
-          "gregorian_year": -1998,
-          "description": "Lived 950 years (Genesis 9:29)"
+          "id": "noah-shem-birth-year-wrinkle", "traditions_involved": ["mt", "lxx", "sp"], "type": "uncertain",
+          "confidence": "medium",
+          "description": "Genesis 5:32 gives Noah's age at fathering Shem/Ham/Japheth as a flat 500 (used here for age_at_heir_birth); Genesis 7:11 puts the Flood at Noah's 600th year; Genesis 11:10 says Shem was 100 'two years after the Flood', which implies Shem was born nearer Noah's 502nd year, not exactly his 500th. This ~2-year wrinkle (likely because the three sons weren't triplets and Shem wasn't necessarily born the moment Noah turned 500) is a known minor internal tension, not a textual-tradition variant -- flagged rather than silently smoothed over by adjusting the number.",
+          "theological_significance": null
         }
       ],
-      "bible_references": [
-        "Genesis 5:29",
-        "Genesis 6-9",
-        "2 Peter 2:5",
-        "Hebrews 11:7",
-        "Matthew 24:37"
-      ],
-      "name_hebrew": "נֹחַ",
-      "name_transliteration": "Noah",
-      "name_meaning": "Rest, comfort; from 'nacham' (to comfort, rest)",
+      "bible_references": ["Genesis 5:28-32", "Genesis 6-9", "Genesis 7:11", "Genesis 11:10", "2 Peter 2:5", "Luke 3:36"],
       "gender": "male"
     }
   ]

@@ -1,15 +1,11 @@
 {
   "era": "patriarchal",
+  "note": "Shem through Terah carry the same GENERATED-chronology note as antediluvian.json -- see references/build/genealogy_chronology.py. Abraham onward keeps the older flat-field shape unchanged; Genesis stops giving age-at-heir-birth data after Terah, so there's no textual-tradition variance left to track from here on.",
   "people": [
     {
       "id": "shem",
       "name": "Shem",
       "title": "Son of Noah, Blessed Son",
-      "zadok_year_born": 1558,
-      "gregorian_year_born": -2446,
-      "zadok_year_died": 2158,
-      "gregorian_year_died": -1846,
-      "lifespan_years": 600,
       "parent_id": "noah",
       "spouse_id": null,
       "children": [
@@ -28,52 +24,63 @@
         "Blessed",
         "Semitic Line"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 1558,
-          "gregorian_year": -2446,
-          "description": "Son of Noah (Genesis 5:32)"
+      "name_study": {
+        "hebrew": "שֵׁם",
+        "transliteration": "Shem",
+        "gloss": "name, renown",
+        "certainty": "solid",
+        "textual_basis": "Ordinary Hebrew noun 'name/renown' -- straightforward, not in dispute."
+      },
+      "traditions": {
+        "mt": {
+          "heir_id": "arphaxad",
+          "age_at_heir_birth": 100,
+          "years_after": 500,
+          "lifespan_total": 600,
+          "verses": [
+            "Genesis 11:10",
+            "Genesis 11:11"
+          ],
+          "source_work_id": "morphhb-wlc",
+          "note": "MT gives age+after but never restates the 600 total explicitly in ch.11 -- derived by addition, not a separately-cited figure."
         },
-        {
-          "event": "Flood Survival",
-          "zadok_year": 1656,
-          "gregorian_year": -2348,
-          "description": "Entered ark with family (Genesis 7:7)"
+        "lxx": {
+          "heir_id": "arphaxad",
+          "age_at_heir_birth": 100,
+          "years_after": 500,
+          "lifespan_total": 600,
+          "verses": [
+            "Genesis 11:10 LXX",
+            "Genesis 11:11 LXX"
+          ],
+          "source_work_id": "ebible-grcbrent"
         },
-        {
-          "event": "Covenant Blessing",
-          "zadok_year": 1657,
-          "gregorian_year": -2347,
-          "description": "Blessed by Noah; promised Canaan (Genesis 9:26-27)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 2158,
-          "gregorian_year": -1846,
-          "description": "Lived 600 years (Genesis 11:11)"
+        "sp": {
+          "heir_id": "arphaxad",
+          "age_at_heir_birth": 100,
+          "years_after": 500,
+          "lifespan_total": 600,
+          "verses": [
+            "Genesis 11:10 SP",
+            "Genesis 11:11 SP"
+          ],
+          "source_work_id": "scrollmapper-SP",
+          "note": "SP explicitly states the 600 total in-line, unlike MT/LXX which leave it as an implied sum."
         }
-      ],
+      },
+      "discrepancies": [],
       "bible_references": [
         "Genesis 5:32",
         "Genesis 7:13",
         "Genesis 9:26-27",
         "Genesis 11:10-11"
       ],
-      "name_hebrew": "שֵׁם",
-      "name_transliteration": "Shem",
-      "name_meaning": "Name, renown; from 'shem' (name, fame)",
       "gender": "male"
     },
     {
       "id": "arphaxad",
       "name": "Arphaxad",
       "title": "Son of Shem",
-      "zadok_year_born": 1658,
-      "gregorian_year_born": -2346,
-      "zadok_year_died": 2096,
-      "gregorian_year_died": -1908,
-      "lifespan_years": 438,
       "parent_id": "shem",
       "spouse_id": null,
       "children": [
@@ -90,18 +97,73 @@
       "tags": [
         "Patriarch"
       ],
-      "major_events": [
+      "name_study": {
+        "hebrew": "אַרְפַּכְשַׁד",
+        "transliteration": "Arpachshad",
+        "gloss": "uncertain",
+        "certainty": "unknown",
+        "textual_basis": "No attested Hebrew root; possibly a place-name (compare Arrapkha, a region east of the Tigris)."
+      },
+      "traditions": {
+        "mt": {
+          "heir_id": "shelah",
+          "age_at_heir_birth": 35,
+          "years_after": 403,
+          "lifespan_total": 438,
+          "verses": [
+            "Genesis 11:12",
+            "Genesis 11:13"
+          ],
+          "source_work_id": "morphhb-wlc"
+        },
+        "lxx": {
+          "heir_id": "cainan_gen11",
+          "age_at_heir_birth": 135,
+          "years_after": 400,
+          "lifespan_total": 535,
+          "verses": [
+            "Genesis 11:12 LXX",
+            "Genesis 11:13 LXX"
+          ],
+          "source_work_id": "ebible-grcbrent"
+        },
+        "sp": {
+          "heir_id": "shelah",
+          "age_at_heir_birth": 135,
+          "years_after": 303,
+          "lifespan_total": 438,
+          "verses": [
+            "Genesis 11:12 SP",
+            "Genesis 11:13 SP"
+          ],
+          "source_work_id": "scrollmapper-SP"
+        }
+      },
+      "discrepancies": [
         {
-          "event": "Birth",
-          "zadok_year": 1658,
-          "gregorian_year": -2346,
-          "description": "Son of Shem, born after Flood (Genesis 11:10)"
+          "id": "arphaxad-age-shift",
+          "traditions_involved": [
+            "mt",
+            "lxx",
+            "sp"
+          ],
+          "type": "systematic_shift",
+          "magnitude_years": 100,
+          "confidence": "high",
+          "description": "LXX and SP both give 135 at the heir's birth against MT's 35 -- SP agrees with LXX's number while still going straight to Shelah (see next discrepancy), so this age-shift is independent of the Cainan question.",
+          "theological_significance": null
         },
         {
-          "event": "Death",
-          "zadok_year": 2096,
-          "gregorian_year": -1908,
-          "description": "Lived 438 years (Genesis 11:13)"
+          "id": "cainan-gen11-presence",
+          "traditions_involved": [
+            "mt",
+            "lxx",
+            "sp"
+          ],
+          "type": "inserted_generation",
+          "confidence": "high",
+          "description": "LXX inserts an entire extra generation (Cainan, son of Arphaxad, father of Shelah -- Genesis 11:12-13 LXX) that MT and SP do not have; both of the latter go directly Arphaxad -> Shelah. Luke 3:36 follows LXX here.",
+          "theological_significance": "Determines whether Luke's genealogy preserves a generation MT/SP dropped, or LXX/Luke share a later textual tradition MT never had -- directly affects any creation-to-Christ total by one full generation (~460 years on LXX's own figures for Cainan, see that record)."
         }
       ],
       "bible_references": [
@@ -109,20 +171,75 @@
         "Genesis 11:10-13",
         "Luke 3:36"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Arphaxad",
-      "name_meaning": "",
+      "gender": "male"
+    },
+    {
+      "id": "cainan_gen11",
+      "name": "Cainan (son of Arphaxad)",
+      "title": "LXX-only generation between Arphaxad and Shelah -- distinct from Genesis 5's Cainan (antediluvian.json, son of Enosh)",
+      "parent_id": "arphaxad",
+      "spouse_id": null,
+      "children": [
+        "shelah"
+      ],
+      "lineages": [
+        "jesus_line"
+      ],
+      "data_classification": "TEXTUAL_VARIANT",
+      "significance_level": 3,
+      "era": "Post-Flood",
+      "prophetic_role": "Disputed link in the Lukan genealogy",
+      "tags": [
+        "Patriarch",
+        "LXX only",
+        "Textual variant"
+      ],
+      "name_study": {
+        "hebrew": "קֵינָן",
+        "transliteration": "Kainan",
+        "gloss": "same name as Genesis 5's Cainan",
+        "certainty": "n/a",
+        "textual_basis": "Same Hebrew/Greek form as the Genesis 5 Cainan (son of Enosh) -- Luke's genealogy (3:36-38) actually contains both, one generation apart, which is itself a notable feature worth not confusing."
+      },
+      "traditions": {
+        "lxx": {
+          "heir_id": "shelah",
+          "age_at_heir_birth": 130,
+          "years_after": 330,
+          "lifespan_total": 460,
+          "verses": [
+            "Genesis 11:13 LXX"
+          ],
+          "source_work_id": "ebible-grcbrent"
+        }
+      },
+      "traditions_present": [
+        "lxx"
+      ],
+      "discrepancies": [
+        {
+          "id": "cainan-gen11-presence-see-arphaxad",
+          "traditions_involved": [
+            "mt",
+            "lxx",
+            "sp"
+          ],
+          "type": "inserted_generation",
+          "confidence": "high",
+          "description": "See the 'cainan-gen11-presence' discrepancy on the Arphaxad record for the full account -- present only in LXX, absent from MT and SP.",
+          "theological_significance": null
+        }
+      ],
+      "bible_references": [
+        "Genesis 11:13 LXX",
+        "Luke 3:36"
+      ],
       "gender": "male"
     },
     {
       "id": "shelah",
       "name": "Shelah",
-      "title": "Son of Arphaxad",
-      "zadok_year_born": 1693,
-      "gregorian_year_born": -2311,
-      "zadok_year_died": 2126,
-      "gregorian_year_died": -1878,
-      "lifespan_years": 433,
+      "title": "Son of Arphaxad (MT/SP) or of Cainan (LXX)",
       "parent_id": "arphaxad",
       "spouse_id": null,
       "children": [
@@ -139,38 +256,79 @@
       "tags": [
         "Patriarch"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 1693,
-          "gregorian_year": -2311,
-          "description": "Son of Arphaxad (Genesis 11:14)"
+      "name_study": {
+        "hebrew": "שֶׁלַח",
+        "transliteration": "Shelah",
+        "gloss": "sending, javelin (same root as one Methuselah reading)",
+        "root": {
+          "lemma": "שָׁלַח",
+          "strongs": "H7971",
+          "twot_root": "2394",
+          "meaning": "to send"
         },
+        "certainty": "plausible",
+        "textual_basis": "Same root family as the 'javelin/sent' component of Methuselah's name (see antediluvian.json) -- worth noting the recurrence, not claiming special significance from it alone."
+      },
+      "traditions": {
+        "mt": {
+          "heir_id": "eber",
+          "age_at_heir_birth": 30,
+          "years_after": 403,
+          "lifespan_total": 433,
+          "verses": [
+            "Genesis 11:14",
+            "Genesis 11:15"
+          ],
+          "source_work_id": "morphhb-wlc"
+        },
+        "lxx": {
+          "heir_id": "eber",
+          "age_at_heir_birth": 130,
+          "years_after": 330,
+          "lifespan_total": 460,
+          "verses": [
+            "Genesis 11:14 LXX",
+            "Genesis 11:15 LXX"
+          ],
+          "source_work_id": "ebible-grcbrent"
+        },
+        "sp": {
+          "heir_id": "eber",
+          "age_at_heir_birth": 130,
+          "years_after": 303,
+          "lifespan_total": 433,
+          "verses": [
+            "Genesis 11:14 SP",
+            "Genesis 11:15 SP"
+          ],
+          "source_work_id": "scrollmapper-SP"
+        }
+      },
+      "discrepancies": [
         {
-          "event": "Death",
-          "zadok_year": 2126,
-          "gregorian_year": -1878,
-          "description": "Lived 433 years (Genesis 11:15)"
+          "id": "shelah-partial-agreement",
+          "traditions_involved": [
+            "mt",
+            "lxx",
+            "sp"
+          ],
+          "type": "redistribution",
+          "confidence": "high",
+          "description": "SP takes LXX's age-at-heir-birth (130, against MT's 30) but keeps MT's total (433, against LXX's 460) by shortening years-after to 303 instead of LXX's 330 -- a genuine three-way split, not a simple two-tradition-vs-one pattern.",
+          "theological_significance": null
         }
       ],
       "bible_references": [
         "Genesis 10:24",
-        "Genesis 11:14-15"
+        "Genesis 11:14-15",
+        "Luke 3:35"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Shelah",
-      "name_meaning": "",
       "gender": "male"
     },
     {
       "id": "eber",
       "name": "Eber",
       "title": "Son of Shelah, Hebrew Ancestor",
-      "zadok_year_born": 1723,
-      "gregorian_year_born": -2281,
-      "zadok_year_died": 2187,
-      "gregorian_year_died": -1817,
-      "lifespan_years": 464,
       "parent_id": "shelah",
       "spouse_id": null,
       "children": [
@@ -188,18 +346,60 @@
         "Patriarch",
         "Hebrew Ancestor"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 1723,
-          "gregorian_year": -2281,
-          "description": "Son of Shelah (Genesis 11:16)"
+      "name_study": {
+        "hebrew": "עֵבֶר",
+        "transliteration": "Ever",
+        "gloss": "the region beyond, the other side",
+        "certainty": "solid",
+        "textual_basis": "Standard derivation of 'Hebrew' (ivri) is 'one from the other side [of the river/Euphrates]', tied to this name."
+      },
+      "traditions": {
+        "mt": {
+          "heir_id": "peleg",
+          "age_at_heir_birth": 34,
+          "years_after": 430,
+          "lifespan_total": 464,
+          "verses": [
+            "Genesis 11:16",
+            "Genesis 11:17"
+          ],
+          "source_work_id": "morphhb-wlc"
         },
+        "lxx": {
+          "heir_id": "peleg",
+          "age_at_heir_birth": 134,
+          "years_after": 270,
+          "lifespan_total": 404,
+          "verses": [
+            "Genesis 11:16 LXX",
+            "Genesis 11:17 LXX"
+          ],
+          "source_work_id": "ebible-grcbrent"
+        },
+        "sp": {
+          "heir_id": "peleg",
+          "age_at_heir_birth": 134,
+          "years_after": 270,
+          "lifespan_total": 404,
+          "verses": [
+            "Genesis 11:16 SP",
+            "Genesis 11:17 SP"
+          ],
+          "source_work_id": "scrollmapper-SP"
+        }
+      },
+      "discrepancies": [
         {
-          "event": "Death",
-          "zadok_year": 2187,
-          "gregorian_year": -1817,
-          "description": "Lived 464 years (Genesis 11:17)"
+          "id": "eber-lxx-sp-full-agreement",
+          "traditions_involved": [
+            "lxx",
+            "sp"
+          ],
+          "type": "systematic_shift",
+          "magnitude_years": 100,
+          "confidence": "high",
+          "description": "LXX and SP agree exactly here (134/270/404), both differing from MT (34/430/464) -- unlike Shelah just above, SP doesn't split the difference this time, it simply matches LXX outright.",
+          "theological_significance": null
         }
       ],
       "bible_references": [
@@ -207,20 +407,12 @@
         "Genesis 11:16-17",
         "Luke 3:35"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Eber",
-      "name_meaning": "",
       "gender": "male"
     },
     {
       "id": "peleg",
       "name": "Peleg",
       "title": "Son of Eber, Tower of Babel Era",
-      "zadok_year_born": 1757,
-      "gregorian_year_born": -2247,
-      "zadok_year_died": 1996,
-      "gregorian_year_died": -2008,
-      "lifespan_years": 239,
       "parent_id": "eber",
       "spouse_id": null,
       "children": [
@@ -239,44 +431,73 @@
         "Division of earth",
         "Babel era"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 1757,
-          "gregorian_year": -2247,
-          "description": "Son of Eber; name means 'division' (Genesis 11:18)"
+      "name_study": {
+        "hebrew": "פֶּלֶג",
+        "transliteration": "Peleg",
+        "gloss": "division",
+        "certainty": "solid",
+        "textual_basis": "Genesis 10:25 states the wordplay directly: 'in his days the earth was divided' -- read traditionally as the Babel dispersal/language division (Genesis 11:1-9), though the text doesn't explicitly synchronize the two events beyond naming him for it."
+      },
+      "traditions": {
+        "mt": {
+          "heir_id": "reu",
+          "age_at_heir_birth": 30,
+          "years_after": 209,
+          "lifespan_total": 239,
+          "verses": [
+            "Genesis 11:18",
+            "Genesis 11:19"
+          ],
+          "source_work_id": "morphhb-wlc"
         },
-        {
-          "event": "Tower of Babel",
-          "zadok_year": 1757,
-          "gregorian_year": -2247,
-          "description": "Lived during division of languages at Babel (Genesis 11:9)"
+        "lxx": {
+          "heir_id": "reu",
+          "age_at_heir_birth": 130,
+          "years_after": 209,
+          "lifespan_total": 339,
+          "verses": [
+            "Genesis 11:18 LXX",
+            "Genesis 11:19 LXX"
+          ],
+          "source_work_id": "ebible-grcbrent"
         },
+        "sp": {
+          "heir_id": "reu",
+          "age_at_heir_birth": 130,
+          "years_after": 109,
+          "lifespan_total": 239,
+          "verses": [
+            "Genesis 11:18 SP",
+            "Genesis 11:19 SP"
+          ],
+          "source_work_id": "scrollmapper-SP"
+        }
+      },
+      "discrepancies": [
         {
-          "event": "Death",
-          "zadok_year": 1996,
-          "gregorian_year": -2008,
-          "description": "Lived 239 years (Genesis 11:19)"
+          "id": "peleg-three-way-split",
+          "traditions_involved": [
+            "mt",
+            "lxx",
+            "sp"
+          ],
+          "type": "redistribution",
+          "confidence": "high",
+          "description": "SP takes LXX's age-at-heir-birth (130) but keeps MT's total (239) by shortening years-after to 109 (vs LXX's 209) -- the same pattern seen at Shelah, and again at Reu and Serug below.",
+          "theological_significance": null
         }
       ],
       "bible_references": [
         "Genesis 10:25",
-        "Genesis 11:16-19"
+        "Genesis 11:16-19",
+        "Luke 3:35"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Peleg",
-      "name_meaning": "",
       "gender": "male"
     },
     {
       "id": "reu",
       "name": "Reu",
       "title": "Son of Peleg",
-      "zadok_year_born": 1787,
-      "gregorian_year_born": -2217,
-      "zadok_year_died": 1996,
-      "gregorian_year_died": -2008,
-      "lifespan_years": 239,
       "parent_id": "peleg",
       "spouse_id": null,
       "children": [
@@ -293,37 +514,71 @@
       "tags": [
         "Patriarch"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 1787,
-          "gregorian_year": -2217,
-          "description": "Son of Peleg (Genesis 11:20)"
+      "name_study": {
+        "hebrew": "רְעוּ",
+        "transliteration": "Reu",
+        "gloss": "friend, companion",
+        "certainty": "plausible"
+      },
+      "traditions": {
+        "mt": {
+          "heir_id": "serug",
+          "age_at_heir_birth": 32,
+          "years_after": 207,
+          "lifespan_total": 239,
+          "verses": [
+            "Genesis 11:20",
+            "Genesis 11:21"
+          ],
+          "source_work_id": "morphhb-wlc"
         },
+        "lxx": {
+          "heir_id": "serug",
+          "age_at_heir_birth": 132,
+          "years_after": 207,
+          "lifespan_total": 339,
+          "verses": [
+            "Genesis 11:20 LXX",
+            "Genesis 11:21 LXX"
+          ],
+          "source_work_id": "ebible-grcbrent"
+        },
+        "sp": {
+          "heir_id": "serug",
+          "age_at_heir_birth": 132,
+          "years_after": 107,
+          "lifespan_total": 239,
+          "verses": [
+            "Genesis 11:20 SP",
+            "Genesis 11:21 SP"
+          ],
+          "source_work_id": "scrollmapper-SP"
+        }
+      },
+      "discrepancies": [
         {
-          "event": "Death",
-          "zadok_year": 1996,
-          "gregorian_year": -2008,
-          "description": "Lived 239 years (Genesis 11:21)"
+          "id": "reu-three-way-split",
+          "traditions_involved": [
+            "mt",
+            "lxx",
+            "sp"
+          ],
+          "type": "redistribution",
+          "confidence": "high",
+          "description": "Same pattern as Peleg: SP takes LXX's age (132) but MT's total (239) via a shortened years-after (107).",
+          "theological_significance": null
         }
       ],
       "bible_references": [
-        "Genesis 11:20-21"
+        "Genesis 11:20-21",
+        "Luke 3:35"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Reu",
-      "name_meaning": "",
       "gender": "male"
     },
     {
       "id": "serug",
       "name": "Serug",
       "title": "Son of Reu",
-      "zadok_year_born": 1819,
-      "gregorian_year_born": -2185,
-      "zadok_year_died": 2049,
-      "gregorian_year_died": -1955,
-      "lifespan_years": 230,
       "parent_id": "reu",
       "spouse_id": null,
       "children": [
@@ -340,37 +595,71 @@
       "tags": [
         "Patriarch"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 1819,
-          "gregorian_year": -2185,
-          "description": "Son of Reu (Genesis 11:22)"
+      "name_study": {
+        "hebrew": "שְׂרוּג",
+        "transliteration": "Serug",
+        "gloss": "tendril, branch",
+        "certainty": "plausible"
+      },
+      "traditions": {
+        "mt": {
+          "heir_id": "nahor",
+          "age_at_heir_birth": 30,
+          "years_after": 200,
+          "lifespan_total": 230,
+          "verses": [
+            "Genesis 11:22",
+            "Genesis 11:23"
+          ],
+          "source_work_id": "morphhb-wlc"
         },
+        "lxx": {
+          "heir_id": "nahor",
+          "age_at_heir_birth": 130,
+          "years_after": 200,
+          "lifespan_total": 330,
+          "verses": [
+            "Genesis 11:22 LXX",
+            "Genesis 11:23 LXX"
+          ],
+          "source_work_id": "ebible-grcbrent"
+        },
+        "sp": {
+          "heir_id": "nahor",
+          "age_at_heir_birth": 130,
+          "years_after": 100,
+          "lifespan_total": 230,
+          "verses": [
+            "Genesis 11:22 SP",
+            "Genesis 11:23 SP"
+          ],
+          "source_work_id": "scrollmapper-SP"
+        }
+      },
+      "discrepancies": [
         {
-          "event": "Death",
-          "zadok_year": 2049,
-          "gregorian_year": -1955,
-          "description": "Lived 230 years (Genesis 11:23)"
+          "id": "serug-three-way-split",
+          "traditions_involved": [
+            "mt",
+            "lxx",
+            "sp"
+          ],
+          "type": "redistribution",
+          "confidence": "high",
+          "description": "Same pattern again: SP takes LXX's age (130) but MT's total (230) via a shortened years-after (100). Four consecutive patriarchs (Shelah, Peleg, Reu, Serug) all show this exact SP behavior -- consistent enough to call a real pattern, not coincidence.",
+          "theological_significance": null
         }
       ],
       "bible_references": [
-        "Genesis 11:22-23"
+        "Genesis 11:22-23",
+        "Luke 3:35"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Serug",
-      "name_meaning": "",
       "gender": "male"
     },
     {
       "id": "nahor",
       "name": "Nahor",
       "title": "Son of Serug, Abraham's Grandfather",
-      "zadok_year_born": 1849,
-      "gregorian_year_born": -2155,
-      "zadok_year_died": 1997,
-      "gregorian_year_died": -2007,
-      "lifespan_years": 148,
       "parent_id": "serug",
       "spouse_id": null,
       "children": [
@@ -388,38 +677,72 @@
         "Patriarch",
         "Abraham's Grandfather"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 1849,
-          "gregorian_year": -2155,
-          "description": "Son of Serug (Genesis 11:24)"
+      "name_study": {
+        "hebrew": "נָחוֹר",
+        "transliteration": "Nachor",
+        "gloss": "snorting (of an animal), uncertain",
+        "certainty": "speculative"
+      },
+      "traditions": {
+        "mt": {
+          "heir_id": "terah",
+          "age_at_heir_birth": 29,
+          "years_after": 119,
+          "lifespan_total": 148,
+          "verses": [
+            "Genesis 11:24",
+            "Genesis 11:25"
+          ],
+          "source_work_id": "morphhb-wlc"
         },
+        "lxx": {
+          "heir_id": "terah",
+          "age_at_heir_birth": 179,
+          "years_after": 125,
+          "lifespan_total": 304,
+          "verses": [
+            "Genesis 11:24 LXX",
+            "Genesis 11:25 LXX"
+          ],
+          "source_work_id": "ebible-grcbrent"
+        },
+        "sp": {
+          "heir_id": "terah",
+          "age_at_heir_birth": 79,
+          "years_after": 69,
+          "lifespan_total": 148,
+          "verses": [
+            "Genesis 11:24 SP",
+            "Genesis 11:25 SP"
+          ],
+          "source_work_id": "scrollmapper-SP"
+        }
+      },
+      "discrepancies": [
         {
-          "event": "Death",
-          "zadok_year": 1997,
-          "gregorian_year": -2007,
-          "description": "Lived 148 years (Genesis 11:25)"
+          "id": "nahor-three-genuinely-different-ages",
+          "traditions_involved": [
+            "mt",
+            "lxx",
+            "sp"
+          ],
+          "type": "uncertain",
+          "confidence": "high",
+          "description": "Three distinct ages-at-heir-birth (MT 29, SP 79, LXX 179) rather than a clean two-tradition-agree pattern -- SP's 79 isn't simply MT+100 or LXX-100 done cleanly, though it sits exactly between. SP's TOTAL (148) does still match MT's total exactly, continuing the pattern from Shelah through Serug of SP preserving MT's total via a shorter years-after (69 vs MT's 119).",
+          "theological_significance": null
         }
       ],
       "bible_references": [
         "Genesis 11:24-25",
-        "Joshua 24:2"
+        "Joshua 24:2",
+        "Luke 3:34"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Nahor",
-      "name_meaning": "",
       "gender": "male"
     },
     {
       "id": "terah",
       "name": "Terah",
       "title": "Son of Nahor, Abraham's Father",
-      "zadok_year_born": 1879,
-      "gregorian_year_born": -2125,
-      "zadok_year_died": 2009,
-      "gregorian_year_died": -1995,
-      "lifespan_years": 205,
       "parent_id": "nahor",
       "spouse_id": null,
       "children": [
@@ -440,40 +763,70 @@
         "Idolater",
         "Abraham's Father"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 1879,
-          "gregorian_year": -2125,
-          "description": "Son of Nahor (Genesis 11:26)"
+      "name_study": {
+        "hebrew": "תֶּרַח",
+        "transliteration": "Terach",
+        "gloss": "uncertain, possibly related to a moon-deity name (Sin/Terach)",
+        "certainty": "speculative"
+      },
+      "traditions": {
+        "mt": {
+          "heir_id": "abraham",
+          "age_at_heir_birth": 70,
+          "years_after": 135,
+          "lifespan_total": 205,
+          "verses": [
+            "Genesis 11:26",
+            "Genesis 11:32"
+          ],
+          "source_work_id": "morphhb-wlc",
+          "note": "years_after (135) is derived (205 total - 70), not separately stated -- Genesis 11:32 gives only the total, breaking the chapter's usual age+after pattern."
         },
-        {
-          "event": "Birth of Abraham",
-          "zadok_year": 1948,
-          "gregorian_year": -2056,
-          "description": "Fathered Abraham (Genesis 11:26)"
+        "lxx": {
+          "heir_id": "abraham",
+          "age_at_heir_birth": 70,
+          "years_after": 135,
+          "lifespan_total": 205,
+          "verses": [
+            "Genesis 11:26 LXX",
+            "Genesis 11:32 LXX"
+          ],
+          "source_work_id": "ebible-grcbrent",
+          "note": "Matches MT exactly (205 total) -- Terah is the other patriarch, besides Jared in Genesis 5, where LXX does not shift the age figure."
         },
+        "sp": {
+          "heir_id": "abraham",
+          "age_at_heir_birth": 70,
+          "years_after": 75,
+          "lifespan_total": 145,
+          "verses": [
+            "Genesis 11:26 SP",
+            "Genesis 11:32 SP"
+          ],
+          "source_work_id": "scrollmapper-SP",
+          "note": "years_after (75) is derived (145 total - 70)."
+        }
+      },
+      "discrepancies": [
         {
-          "event": "Migration to Canaan",
-          "zadok_year": 2008,
-          "gregorian_year": -1996,
-          "description": "Left Ur for Canaan but stopped in Haran (Genesis 11:31)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 2009,
-          "gregorian_year": -1995,
-          "description": "Died in Haran, lived 205 years (Genesis 11:32)"
+          "id": "terah-abram-age-puzzle",
+          "traditions_involved": [
+            "mt",
+            "lxx",
+            "sp"
+          ],
+          "type": "uncertain",
+          "confidence": "high",
+          "description": "Genesis 11:26 says Terah was 70 when he fathered Abram, Nahor, and Haran (listed together, birth order not stated). But Terah died at 205 (11:32, MT/LXX), and Acts 7:4 says Abram left Haran only AFTER his father's death, at age 75 (Genesis 12:4) -- which requires Terah to have been 130, not 70, specifically when ABRAM was born. Standard resolution: Abram is listed first by covenant significance, not birth order, and was actually the youngest of the three, born when Terah was 130.",
+          "theological_significance": "SP's total for Terah is 145, not 205 -- and 70 (age when Terah began fathering) + 75 (Abram's age at departure, Gen 12:4) = 145 exactly. If SP's total is correct, Terah's death coincides exactly with Abram's departure without needing the '130 at Abram's specific birth' reinterpretation at all -- SP resolves the puzzle a completely different way than the standard MT-based harmonization does. This is the single most consequential textual variant found in this whole survey for reconstructing Abram's actual birth-year and the true length of the post-Flood genealogy."
         }
       ],
       "bible_references": [
         "Genesis 11:26-32",
+        "Genesis 12:4",
         "Joshua 24:2",
         "Acts 7:4"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Terah",
-      "name_meaning": "",
       "gender": "male"
     },
     {

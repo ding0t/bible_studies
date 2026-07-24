@@ -1,0 +1,291 @@
+slug: genealogy-times
+title: "Genealogy and Times: From Creation to Christ"
+status: published
+target_path: docs/content/studies/prophecy/genealogy-times.md
+
+primary_passage: "Genesis 5; Genesis 11:10-32"
+supporting_passages:
+  - "Luke 3:23-38" # Cainan (Arphaxad's son) appears here, matching LXX Gen 11 not MT
+  - "Matthew 1:1-17"
+  - "1 Chronicles 1:1-27"
+  - "Genesis 11:26; 11:32; 12:4" # Terah/Abram age puzzle
+  - "Acts 7:4" # Stephen's speech, "after his father died" -- the Terah/Abram cross-check
+  - "Judges 3-16" # sequential judges/oppression figures, sum to ~410y, overshoots 1 Kings 6:1's 480
+  - "Judges 10:7-9" # explicit simultaneous Philistine/Ammon double-oppression -- textual basis for regional overlap
+  - "1 Samuel 13:1" # Saul's reign-length lacuna in MT
+  - "1 Kings 6:1" # 480 years, Exodus to Solomon's 4th year
+  - "1 Chronicles 6:35-38; Ezra 7:1-5" # Aaron-to-Zadok priestly line, 10 generations, cross-checked identical in both places
+  - "Ruth 4:18-22; Numbers 1:7" # Nahshon(Exodus-era)-to-David, only 5 generational gaps -- in tension with a 400+ year span
+genre: [topical, ot-narrative]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Split off from prophecy-events-times.md at the user's direction: too complex to track
+      inline there. This study will (1) hold the reasoning behind docs/data/genealogy/*.json's
+      structured data, (2) map the different possible creation-to-Christ timelines implied by
+      MT vs LXX vs Samaritan Pentateuch genealogies, word-studying patriarch names for
+      theological/typological meaning where the lexicon actually supports it (not forcing a
+      gloss where one isn't attested), and (3) separately, later, link back up to
+      prophecy-events-times.md's external anchors. Two deliverables the user named explicitly:
+      (a) a reasoned account of the most likely creation-to-Christ timeline, and (b) what the
+      genealogies' internal meaning/message is about prophecy and Christ, not just the raw
+      chronology.
+      docs/data/genealogy/*.json currently encodes ONLY the Masoretic reading (77 people,
+      zadok_year 0 = 4004 BC, unlabeled as MT-specific) -- confirmed by reading
+      antediluvian.json and patriarchal.json directly. A new JSON schema is needed to carry
+      per-tradition (MT/LXX/SP) age-at-first-son and lifespan figures plus verse citations and a
+      discrepancy-notes field. Schema not yet designed -- next step.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Genesis 5 and 11:10-26 are the only two places in the OT with this "age at first son /
+        years after / total lifespan" formula repeated systematically -- this is what makes
+        three-way MT/LXX/SP comparison possible at all; later genealogies (Abraham onward)
+        mostly don't give this data in the same systematic form, with a few standalone
+        exceptions (Abraham 100 at Isaac, Gen 21:5; Isaac 60 at Jacob, Gen 25:26).
+    literary_context:
+      done: false
+      notes: ""
+    content_word_studies:
+      done: false
+      notes: >
+        First pass done on the Genesis 5 "preaching in the names" chain (Seth through Noah) via
+        direct TWOT root / query.py lookups against this repo's own bible-text.db and
+        twot_strongs_map.json -- not secondary apologetics tables. Findings graded by how solid
+        the lexical support actually is (see terms below). Still to do: same treatment for the
+        Genesis 11 (post-Flood) names, and for "Methuselah" specifically, a fuller
+        diachronic/synchronic writeup per word-study-method.md given it's the single most
+        load-bearing name for the chronology argument (ties directly to the Flood-timing
+        question across all three traditions).
+      terms:
+        - word: "שֵׁת"
+          language: hebrew
+          transliteration: "Shet (Seth)"
+          strongs_id: "H8352"
+          gloss: "Seth"
+          range_of_meanings: ["from שִׁית (H7896) 'to put, set, appoint'"]
+          notes: "SOLID -- Genesis 4:25 itself gives the wordplay explicitly: 'God has appointed (shat) for me another offspring.' Not a reconstructed etymology; the text states it."
+        - word: "אֱנוֹשׁ"
+          language: hebrew
+          transliteration: "Enosh"
+          strongs_id: "H582/H583"
+          gloss: "man, mortal man"
+          range_of_meanings: ["TWOT root 136a -- distinct from אָדָם (generic man/mankind) and אִישׁ (man as individual); אֱנוֹשׁ specifically connotes frailty/mortality, e.g. Psalm 8:4, 103:15"]
+          notes: "SOLID as a common noun meaning, but no in-text wordplay comment the way Seth/Noah get -- inference from usage elsewhere, not an explicit narrator's gloss."
+        - word: "קֵינָן"
+          language: hebrew
+          transliteration: "Kenan"
+          strongs_id: "H7018"
+          gloss: "Kenan (proper name, no TWOT root entry)"
+          range_of_meanings: ["popularly glossed 'sorrow' or linked to קִינָה (H7015, TWOT 2018a, 'lament/elegy') -- shares the ק-י-נ core but not the same root pattern (qinah ends ה, Kenan ends ן)"]
+          notes: "SPECULATIVE, not confirmed. No TWOT entry for the name itself. The 'sorrow' gloss circulating in popular chains is plausible-sounding but not lexically demonstrated -- flag as uncertain, don't assert it."
+        - word: "מַהֲלַלְאֵל"
+          language: hebrew
+          transliteration: "Mahalalel"
+          strongs_id: "H4111"
+          gloss: "praise of God"
+          range_of_meanings: ["transparent compound: מַהֲלָל (from הָלַל, TWOT 499/500/501, 'praise/shine/boast') + אֵל ('God')"]
+          notes: "SOLID -- a transparent theophoric compound, same pattern as Daniel, Immanuel. Not in dispute."
+        - word: "יֶרֶד"
+          language: hebrew
+          transliteration: "Yered (Jared)"
+          strongs_id: "H3382"
+          gloss: "descent"
+          range_of_meanings: ["from יָרַד (H3381, TWOT 909) 'to come down, descend'"]
+          notes: "SOLID lexically. The popular chain's 'shall come down' gloss is accurate to the root."
+        - word: "חֲנוֹךְ"
+          language: hebrew
+          transliteration: "Chanokh (Enoch)"
+          strongs_id: "H2585"
+          gloss: "dedicated, initiated, trained up"
+          range_of_meanings: ["from חָנַךְ (H2596, TWOT 693) 'to train up, dedicate' -- same root as Proverbs 22:6's 'train up a child'"]
+          notes: "SOLID root, but popular chains gloss this 'teaching', which is a loose paraphrase -- 'dedicated/initiated' is the more accurate rendering of the actual root."
+        - word: "מְתוּשֶׁלַח"
+          language: hebrew
+          transliteration: "Metushelach (Methuselah)"
+          strongs_id: "H4968"
+          gloss: "compound, disputed"
+          range_of_meanings: ["Component 1: מוּת (H4191, TWOT 1169) 'to die', or מְתֵי ('men of', construct of H4962). Component 2: שָׁלַח (H7971, TWOT 2394) 'to send' as a verb, or שֶׁלַח (H7973, TWOT 2394a, same root family) 'missile, dart, javelin' as a noun."]
+          notes: >
+            AMBIGUOUS BUT BOTH READINGS ARE REAL ROOTS, not invented. Plain/onomastic reading:
+            'man of the javelin' (mtei + shelach), a warrior-name with no eschatological content.
+            Popular homiletical reading: 'his death shall bring/send [it]' (mut + shalach), read
+            as a sentence-name predicting the Flood -- gains real force from the fact that under
+            BOTH MT's and LXX's own total-lifespan numbers (969 both traditions, different
+            splits), Methuselah's death year lines up with the Flood year. This needs the full
+            word-study-method.md treatment before the draft asserts either reading with
+            confidence -- not done yet.
+        - word: "לֶמֶךְ"
+          language: hebrew
+          transliteration: "Lemekh (Lamech)"
+          strongs_id: "H3929"
+          gloss: "uncertain -- no TWOT root"
+          range_of_meanings: []
+          notes: >
+            NOT SOLID. No TWOT entry for this name at all. Popular chains gloss it 'despairing' or
+            'powerful man' -- neither is lexically demonstrated from Hebrew; standard lexicons
+            mark the name's derivation as genuinely uncertain (possibly a non-Hebrew Semitic
+            loanword). Do not force a gloss here in the draft -- say plainly that it's unknown.
+        - word: "נֹחַ"
+          language: hebrew
+          transliteration: "Noach (Noah)"
+          strongs_id: "H5146"
+          gloss: "Noah"
+          range_of_meanings: ["Text's own wordplay (Gen 5:29) uses נָחַם (H5162, TWOT 1344, 'be sorry, comfort, relent'), NOT נוּחַ (H5117, TWOT 1323, 'rest') -- despite Noah's name sounding closer to the latter."]
+          notes: >
+            SOLID but needs precision: Genesis 5:29 explicitly glosses the name via a
+            paronomasia (sound-play) on נחם ('this one shall comfort us'), not a strict
+            derivation from נוח. Popular chains that render this simply as 'rest' are
+            flattening a real, deliberate double-wordplay in the Hebrew into a single word.
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: false
+      notes: ""
+    theological_principle:
+      done: false
+      notes: >
+        Working hypothesis, not yet drafted: the "preaching in the names" reading (Seth=appointed,
+        Enosh=mortal man, Kenan=?, Mahalalel=praise of God, Jared=shall come down,
+        Enoch=dedicated/initiated, Methuselah=?, Lamech=?, Noah=comfort) is real in its solid
+        entries and genuinely suggestive, but two names (Kenan, Lamech) currently have no lexical
+        support and must not be forced into the chain just to complete a tidy sentence -- the
+        theological payload has to rest on what's actually attested, not manufactured
+        completeness. This itself may be a teaching point: the temptation to over-read pattern
+        into genealogy is worth naming, not just avoiding silently.
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: false
+    cross_refs:
+      - {ref: "Luke 3:36", relation: "includes Cainan (Arphaxad's son) matching LXX Gen 11:12-13, absent from MT -- the central textual-tradition fork this study has to reason through"}
+      - {ref: "Acts 7:4", relation: "Stephen's speech implies Terah was ~130, not 70, when Abram specifically was born -- internal tension within Genesis 11:26/32 and 12:4, not a translation issue"}
+    translations_compared: ["MT (morphhb-wlc)", "LXX (ebible-grcbrent, Brenton)", "Samaritan Pentateuch (scrollmapper-SP)"]
+    divergences_noted: >
+      Raw figures already pulled directly from this repo's own bible-text.db for all of Genesis 5
+      and Genesis 11:10-32 in all three traditions (see resources_consulted and the prior
+      conversation turn for the full verse-by-verse breakdown) -- not yet organized into the new
+      JSON schema. Headline patterns: (1) LXX systematically adds ~100 years to "age at first son"
+      across most Gen 5 patriarchs while subtracting the same from "years after", preserving the
+      same total lifespan as MT in most cases (930, 912, 905, 910, 895) -- Jared unchanged (162),
+      Methuselah same total via different split (969 both), Lamech genuinely different total (753
+      LXX vs 777 MT). (2) SP shortens Methuselah dramatically (67+653=720, not 969) so he dies in
+      the Flood year rather than surviving past it -- a known, long-discussed problem with LXX's
+      own numbers. (3) SP also shortens Jared (62+785=847 vs MT/LXX's 162+800=962). (4) LXX inserts
+      Cainan as an extra generation between Arphaxad and Shelah (Gen 11:12-13), with SP agreeing
+      with LXX's 135-year figure for Arphaxad but NOT inserting Cainan as a person.
+
+  drafting:
+    done: true
+    file: docs/content/studies/prophecy/genealogy-times.md
+  review:
+    done: true
+    validated: true # npm run validate, frontmatter YAML, and a strict mkdocs build all pass
+      # clean. User reviewed and approved publishing (draft: false) on 2026-07-24.
+
+schema_and_data_status:
+  done: true
+  notes: >
+    Schema built and populated (2026-07-24). antediluvian.json (13 people) and patriarchal.json's
+    first 10 records (Shem-Terah, plus new cainan_gen11) now carry raw per-tradition (mt/lxx/sp)
+    textual facts -- age_at_heir_birth, years_after, lifespan_total, verse citations -- instead of
+    hand-set cumulative years. eve/cain/abel restored to their original content after an initial
+    over-simplification mistake (caught by diffing against git HEAD before finalizing, per the
+    user's suggestion to validate against the old version before overwriting).
+    New script: references/build/genealogy_chronology.py -- validates the age+after=total
+    invariant across all 33 people (zero errors), then walks the heir_id chain from Adam (zadok 0)
+    per named timeline_variant (now in index.json: mt, lxx, sp, harmonized_v1) and writes
+    docs/data/genealogy/generated/<variant>.json. Nobody hand-edits a cumulative year anymore.
+    Caught two real bugs in the process: (1) heir_id referenced "lamech" but the actual antediluvian
+    record's id is "lamech_antediluvian" (renamed to disambiguate from Genesis 4's Lamech) --
+    fixed. (2) The OLD hand-maintained terah record was internally inconsistent: zadok_year_born
+    1879 + lifespan_years 205 should give 2084, but the old data had zadok_year_died 2009 --
+    apparently a copy-paste of the Acts-7:4 130-year figure into the wrong field. The new
+    generated value (2081 zadok, i.e. -1923 gregorian, using Terah's own stated 205-year total)
+    is the corrected one.
+    Headline computed results per variant (zadok year of the Flood): MT 1656, LXX 2242, SP 1307,
+    harmonized_v1 1536. These match independently-published comparison figures for MT/LXX/SP,
+    which is a good sign the manual Hebrew/Greek/Samaritan number-reading held up under the
+    arithmetic self-check.
+  known_deferred_items:
+    - "Noah's age at Shem's birth (500, Gen 5:32) vs. Genesis 11:10's implied ~502 ('two years
+       after the Flood') -- flagged as a discrepancy note on Noah's record, not silently
+       corrected, since no single verse states 502 outright."
+    - "GenealogyViewer.jsx (Astro component) still expects flat zadok_year_born/died fields on
+       every person and will break for the 20 restructured antediluvian/early-patriarchal people
+       (their per-tradition data now lives in traditions{} + docs/data/genealogy/generated/*.json
+       instead). User explicitly said this is fine to fix later, not now."
+    - "Word studies for the Genesis 11 post-Flood names (Arphaxad, Shelah, Eber, Peleg, Reu, Serug,
+       Nahor, Terah) done only lightly (name_study blocks added, but not the fuller
+       diachronic/synchronic treatment given to the Genesis 5 chain) -- Peleg's 'in his days the
+       earth was divided' (Genesis 10:25) is probably worth more attention given its Babel-era
+       significance."
+
+open_questions:
+  - "JSON schema for docs/data/genealogy/*.json not yet designed -- needs per-tradition
+     (mt/lxx/sp) age_at_first_son, years_after, lifespan_total fields, verse citations per
+     figure, and a discrepancy_notes field. Current schema is MT-only and doesn't label it as
+     such."
+  - "Full word-study-method.md treatment (diachronic/synchronic/conclusion) still owed for
+     Methuselah specifically, and a first pass still owed for the Genesis 11 post-Flood names
+     (Arphaxad, Shelah, Eber, Peleg, Reu, Serug, Nahor, Terah) -- some of these (Peleg
+     especially, 'in his days the earth was divided', Gen 10:25) may carry their own
+     typological weight worth checking."
+  - "How SP's few transcription artifacts (stray '.' characters in this DB's text, e.g. Jared
+     v18-19, Methuselah v25/27, Lamech v28/30, Noah v32) should be handled -- treated as
+     manuscript/layout markers so far since the arithmetic checks out consistently across
+     age-at-son + years-after = stated total wherever a total is given in-line, but worth a
+     sanity check against a second SP source before publishing a number that rests on one of
+     these lines."
+  - "Not yet decided: does this study present ONE 'most likely' timeline as a conclusion, or
+     present the three tradition-based timelines side by side without picking? User asked for
+     'a reasoning of the most likely timeline' -- implies a conclusion is wanted, not just a
+     comparison table. Revisit once the full data and word studies are in."
+  - "Link-up with prophecy-events-times.md's external anchors is explicitly deferred to AFTER
+     this study's own genealogy-based reasoning is done -- don't pull anchor-based dates in
+     early and let them bias the genealogical reasoning."
+
+exodus_judges_gap_status:
+  done: true
+  notes: >
+    Added as a new section in genealogy-times.md (2026-07-24), per user request to close this
+    gap using genealogy as an anchor where possible. All Judges-cycle figures, 1 Sam 13:1's
+    Saul lacuna, 1 Kings 6:1, the priestly line (1 Chr 6:35-38 cross-checked against Ezra 7:1-5,
+    word-for-word identical), and the Davidic line (Ruth 4:18-22 + Numbers 1:7 for Nahshon)
+    pulled directly from morphhb-wlc via sqlite3, not from memory or secondary tables.
+    Findings: (1) summing every Judges figure sequentially gives 410 years for Judges proper,
+    and comfortably over 480 total once wilderness/conquest/Eli/Saul/David/Solomon are added --
+    a real, long-recognized problem ("the Judges chronology problem"), not a new discovery.
+    (2) Judges 10:7-9 explicitly states the Philistine and Ammonite oppressions were
+    simultaneous, not sequential -- direct textual warrant for regional/overlapping judgeships,
+    not an invented harmonization. (3) The priestly genealogy (Aaron to Zadok, 10 generations)
+    is broadly compatible with a ~400-480 year span (~40-48 yr/generation, high but plausible for
+    a priestly succession). (4) The Davidic genealogy via Ruth (Nahshon, an Exodus-era figure
+    per Numbers 1:7, to David) is only 5 generational gaps -- 80-96 yr/generation over the same
+    span, not biologically plausible, strongly suggesting Ruth's list telescopes (skips names),
+    the same phenomenon already documented for Matthew 1:17's genealogy elsewhere in this study.
+    Conclusion drawn: 1 Kings 6:1's 480 years is plausible via judges-overlap (textually
+    supported), while Ruth's genealogy almost certainly omits generations -- deliberately did
+    NOT construct a single precise year-by-year overlap allocation, since that level of
+    precision isn't recoverable from the text and would overclaim.
+  known_deferred_items:
+    - "No explicit verse gives Samuel's own number of years judging Israel before Saul's
+       accession -- left as an unspecified gap in the reconstruction, not estimated."
+    - "Acts 13:19-21's 'about 450 years' is genuinely ambiguous in the Greek as to whether it
+       describes the pre-conquest period (Egypt+wilderness+conquest) or the Judges period's own
+       duration -- not resolved here; only Acts 13:21's '40 years' for Saul was used (filling
+       the 1 Sam 13:1 MT lacuna), the 450-year figure was deliberately not leaned on given the
+       ambiguity."
+    - "Exact synchronization of which judges overlap which, and by how many years, is not
+       attempted -- only the existence and textual basis of overlap (Judges 10:7-9) is
+       established, not a specific allocation that sums to exactly 480."
+
+resources_consulted:
+  - {type: other, title: "morphhb-wlc (Westminster Leningrad Codex)", author: "queried via references/build/query.py", note: "primary MT source for Genesis 5, 11 verse text"}
+  - {type: other, title: "ebible-grcbrent (Brenton Septuagint)", author: "queried via references/build/query.py", note: "primary LXX source for Genesis 5, 11 verse text"}
+  - {type: other, title: "scrollmapper-SP (Samaritan Pentateuch)", author: "queried via references/build/query.py", note: "primary SP source for Genesis 5, 11 verse text; restricted-nc license tier"}
+  - {type: lexicon, title: "twot_strongs_map.json", author: "TWOT (Theological Wordbook of the Old Testament), root/Strong's/gloss only", note: "used via references/build/twot_lookup.py for every root cited in the word-study table above"}
+last_updated: "2026-07-24"

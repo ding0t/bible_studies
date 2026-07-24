@@ -1,11 +1,13 @@
 {
   "metadata": {
-    "version": "2.0.0",
-    "last_updated": "2026-01-11",
+    "version": "3.0.0",
+    "last_updated": "2026-07-24",
     "description": "Complete biblical genealogy from Adam to Jesus with dual-calendar dating (Zadok Year 0 = 4004 BC), relational data, lineage tracking, and classification system. Data organized by biblical era for improved maintainability.",
     "calendar_offset": 4004,
     "calendar_info": "Zadok Year 0 corresponds to -4004 Gregorian (4004 BC). Add 4004 to Zadok year to get Gregorian year.",
-    "total_people": 77,
+    "chronology_note": "Adam through Terah (antediluvian.json fully, patriarchal.json's first 10 records) now carry raw per-tradition (mt/lxx/sp) textual data instead of hand-set zadok_year_born/died -- see timeline_variants below and references/build/genealogy_chronology.py, which generates docs/data/genealogy/generated/<variant>.json. Abraham onward is unaffected; Genesis gives no age-at-heir-birth data past Terah.",
+    "computed_by": "references/build/genealogy_chronology.py",
+    "total_people": 78,
     "file_structure": {
       "antediluvian.json": "Adam to Noah (13 people)",
       "patriarchal.json": "Post-Flood patriarchs to Judah (19 people)",
@@ -13,6 +15,41 @@
       "divided-kingdom.json": "Rehoboam to Josiah (15 people)",
       "exile-return.json": "Jehoiakim to Zerubbabel (4 people)",
       "second-temple.json": "Abiud to Jesus (12 people)"
+    }
+  },
+  "timeline_variants": {
+    "mt": {
+      "name": "Masoretic Text",
+      "description": "The default/primary timeline -- also the one docs/data/events.json and this site's zadok_year dating already assume.",
+      "confidence_label": "default",
+      "based_on": ["mt"],
+      "overrides": []
+    },
+    "lxx": {
+      "name": "Septuagint (Brenton)",
+      "description": "Includes the extra Cainan generation between Arphaxad and Shelah (Genesis 11:12-13 LXX), matching Luke 3:36.",
+      "confidence_label": "alternate",
+      "based_on": ["lxx"],
+      "overrides": []
+    },
+    "sp": {
+      "name": "Samaritan Pentateuch",
+      "description": "Notably shortens Methuselah (720 vs 969), Jared (847 vs 962), and Terah (145 vs 205) relative to MT/LXX.",
+      "confidence_label": "alternate",
+      "based_on": ["sp"],
+      "overrides": []
+    },
+    "harmonized_v1": {
+      "name": "Proposed synthesis (working)",
+      "description": "MT as the base, with two targeted SP substitutions where SP resolves an internal problem MT/LXX leave open.",
+      "confidence_label": "most probable (working -- not yet argued in the study)",
+      "based_on": ["mt"],
+      "overrides": [
+        {"person_id": "methuselah", "adopts_tradition": "sp",
+         "reason": "Avoids Methuselah surviving the Flood by 14+ years, a long-noted problem with MT/LXX's own 969-year total."},
+        {"person_id": "terah", "adopts_tradition": "sp",
+         "reason": "SP's 145-year total lines up exactly with Terah dying the same year Abram (specifically) departs Haran at 75 (Genesis 12:4, Acts 7:4), without needing the '130 at Abram's birth' reinterpretation MT/LXX require."}
+      ]
     }
   },
   "lineages": {
