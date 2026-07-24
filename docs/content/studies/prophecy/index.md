@@ -20,6 +20,14 @@ End-times and biblical prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](day-is-near.md)
 
+-   __Genealogy and Times: From Creation to Christ__
+
+    ---
+
+    Tracing the covenant line from Adam to Christ through Genesis 5 and 11's genealogies, comparing the Masoretic Text, Septuagint, and Samaritan Pentateuch, closing the Exodus-to-Solomon gap with the priestly and Davidic genealogies, and asking what the names themselves are saying
+
+    [:octicons-arrow-right-24: Read](genealogy-times.md)
+
 -   __Bible Prophecy Essentials__
 
     ---
@@ -32,7 +40,7 @@ End-times and biblical prophecy, read dispensationally.
 
     ---
 
-    How prophetic time is measured -- the 360-day prophetic year and the day-year principle -- and how the ancient Hebrew calendar and Ussher's chronology line up major biblical events
+    Anchoring Bible chronology to independently-dated history, pivoting forward and back from those anchors, and calculating Daniel's 70 weeks to the Triumphal Entry
 
     [:octicons-arrow-right-24: Read](prophecy-events-times.md)
 

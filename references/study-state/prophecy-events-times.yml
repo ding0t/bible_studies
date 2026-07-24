@@ -1,0 +1,180 @@
+slug: prophecy-events-times
+title: "Prophecy Events and Times"
+status: published
+target_path: docs/content/studies/prophecy/prophecy-events-times.md
+
+primary_passage: "Daniel 9:24-27"
+supporting_passages:
+  - "1 Kings 16:29" # Ahab, pivot for Qarqar anchor
+  - "2 Kings 18-19" # Sennacherib/Hezekiah anchor
+  - "2 Kings 24:10-17" # Jehoiachin's first deportation, 597 BC anchor
+  - "2 Kings 25:27-30" # Jehoiachin's release, 561 BC anchor
+  - "Ezra 1:1-4" # Cyrus decree anchor
+  - "Nehemiah 2:1-8" # Artaxerxes decree, start point of Daniel's 69 weeks
+  - "Matthew 21:1-11" # Triumphant Entry, end point of the calculation
+genre: [topical, prophets, apocalyptic]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      User wants the study reframed around chronological anchor points: Bible events whose date
+      is independently fixed by archaeology/extra-biblical records, stating WHY each is an anchor;
+      verses linked to the corroborating evidence; then pivoting forward/back from anchors using
+      biblical genealogies/reign-lengths. Flagship worked example: Daniel's 70 weeks (Dan 9:24-27)
+      calculated to the exact date of the Triumphant Entry (the Anderson/"Coming Prince" argument).
+      First-pass anchor set chosen for strength of corroboration and chronological spread, not
+      exhaustive -- more can be added in a later session:
+        1. Battle of Qarqar, 853 BC (Ahab, Kurkh Monolith + Assyrian Eponym Canon, itself anchored
+           by the 763 BC Bur-Sagale eclipse)
+        2. Sennacherib's invasion of Judah, 701 BC (Hezekiah, Sennacherib Prism + Lachish reliefs)
+        3. Fall of Jerusalem / Jehoiachin's first deportation, 597 BC (Babylonian Chronicle ABC 5,
+           dated to the day)
+        4. Jehoiachin's release, 561 BC (Jehoiachin ration tablets, Evil-Merodach's accession year)
+        5. Cyrus's decree, 539/538 BC (Cyrus Cylinder + Nabonidus Chronicle)
+        6. Artaxerxes I's decree to Nehemiah, 445 BC (Elephantine papyri fix his regnal years)
+      This supersedes the Ussher-chronology-only table drafted in the previous session -- that
+      approach is being replaced, not supplemented, for the monarchy period, since it had no
+      independent anchor and conflicted with docs/data/events.json's own epoch. Ussher-style
+      genealogical extrapolation may still be the only way to reach further back than the anchors
+      (Creation, Flood) -- flag clearly as unanchored where used, don't blend silently with anchored
+      dates.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Verified via WebSearch (2026-07-24) rather than relying on memory, given these are cited
+        as historical facts on a public site: Kurkh Monolith (Ahab at Qarqar, 853 BC) and the
+        Assyrian Eponym Canon's Bur-Sagale eclipse anchor (763 BC, astronomically fixed); Sennacherib
+        Prism "caged bird" text (701 BC, Hezekiah); Babylonian Chronicle ABC 5's day-dated capture
+        of Jerusalem (2 Adar, Nebuchadnezzar's 7th year = ~597 BC) and the 7th-vs-8th-year
+        reconciliation with 2 Kings 24:12 via accession-year/non-accession-year reckoning (Thiele);
+        Jehoiachin's Ration Tablets (Weidner, naming "Ya'u-kinu king of Yahudu" -- corroborates
+        2 Kings 25:27-30 by name); Cyrus Cylinder + Nabonidus Chronicle (Belshazzar's historicity,
+        once doubted before this find, now confirmed as Nabonidus's co-regent son); Elephantine
+        papyri (fix Artaxerxes I's regnal years and Sanballat's tenure, supporting 445 BC for
+        Neh 2:1). Both Anderson's ("The Coming Prince", 1894: 173,880 days = 69 x 7 x 360, 1 Nisan
+        445 BC -> 10 Nisan/6 Apr AD 32) and Hoehner's ("Chronological Aspects of the Life of
+        Christ": 1 Nisan 444 BC -> 10 Nisan/30 Mar AD 33) versions of the 70-weeks calculation
+        checked, including real technical critiques of each (Anderson's AD 32 crucifixion falls on
+        the wrong weekday; critics dispute Hoehner's Nisan-1 new-moon dating by about a month).
+        Genealogical/Ussher-style dates for Creation, Flood, and Exodus are NOT independently
+        anchored -- flagged as extrapolation, not fact, in the draft.
+    literary_context:
+      done: true
+      notes: >
+        Daniel 9:24-27 sits inside Daniel's own prayer of confession (9:3-19) and Gabriel's answer
+        (9:20-23) -- the 70-weeks number answers Daniel's specific question (prompted by reading
+        Jeremiah's 70-year exile prophecy, 9:2) about when Jerusalem's desolations end, not a
+        free-floating prediction. Apocalyptic/prophetic genre: read the vision's own stated
+        referents (a decree, an anointed prince, the city and sanctuary, a final "week") before
+        assigning modern referents.
+    content_word_studies:
+      done: true
+      notes: >
+        Key terms in Daniel 9:24-27, glossed at the level this study needs (full diachronic/
+        synchronic treatment not attempted -- would belong in a dedicated Daniel 9 exegesis study).
+      terms:
+        - word: "שָׁבֻעִים"
+          language: hebrew
+          transliteration: "shavu'im"
+          strongs_id: "H7620"
+          gloss: "sevens / weeks"
+          range_of_meanings: ["a period of seven (days or years)", "used elsewhere (Gen 29:27-28) for a seven-year period, supporting the weeks-of-years reading here"]
+          notes: "Not the ordinary word for a 7-day week alone -- context (and Jeremiah's 70-year exile just cited in 9:2) drives the weeks-of-years reading, not the word itself in isolation."
+        - word: "מָשִׁיחַ נָגִיד"
+          language: hebrew
+          transliteration: "mashiach nagid"
+          strongs_id: "H4899 / H5057"
+          gloss: "an anointed one, a prince / ruler"
+          range_of_meanings: ["anointed = consecrated to an office (king, priest); nagid = one appointed to lead"]
+          notes: "9:25's 'anointed one, a prince' (at 7+62 weeks) is the interpretive crux -- traditionally read messianically (dispensational reading, per this site's stated preference)."
+        - word: "דָּבָר"
+          language: hebrew
+          transliteration: "dabar"
+          strongs_id: "H1697"
+          gloss: "word / decree / matter"
+          range_of_meanings: ["a spoken word", "a matter or thing", "here: the specific decree/command to restore and rebuild Jerusalem, 9:25"]
+          notes: "Identifying which historical decree this dabar refers to is the whole crux of the calculation -- see the decree comparison in the draft."
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        The specific mechanics (360-day prophetic year, Nisan reckoning, which Persian decree)
+        are historically particular tools for reading THIS prophecy -- not a claim that every
+        future prophecy in Scripture yields a decodable date through day-counting arithmetic.
+        The transcultural principle is narrower and stronger: God's word about the future is
+        precise enough to be checked against real, dateable history, not vague symbolism floating
+        free of it.
+    theological_principle:
+      done: true
+      notes: >
+        Prophecy is falsifiable-in-principle, not evasively vague -- Daniel 9 names a specific
+        starting decree and a specific class of event (an anointed prince's appearing) close
+        enough in time to real Persian-era, independently-dated history that the calculation can
+        be attempted and checked at all. That precision is itself an apologetic point distinct
+        from whichever exact day Anderson or Hoehner lands on.
+    application_draft:
+      done: true
+      notes: >
+        Luke 19:41-44 -- Jesus weeps over Jerusalem specifically "because you did not know the
+        time of your visitation," on the same Triumphal-Entry occasion this calculation points to.
+        That's the payload: Daniel's math wasn't decoration, it was a date the religious leaders
+        of Jesus's own day were expected to have worked out and hadn't. Used as the study's closing
+        tie-in rather than a separate "application" section, matching the file's existing
+        reference-heavy register rather than a devotional one.
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Luke 19:41-44", relation: "Jesus's rebuke for Jerusalem not knowing 'the time of your visitation' -- the payoff of the 70-weeks calculation, same Triumphal Entry occasion"}
+      - {ref: "Jeremiah 25:11-12; 29:10", relation: "the 70-year exile prophecy Daniel is reading (Dan 9:2) when he receives the 70-weeks answer"}
+      - {ref: "Genesis 29:27-28", relation: "supports reading shavu'im as a period of years elsewhere in the Hebrew Bible, not only a 7-day week"}
+    translations_compared: ["ESV"]
+    divergences_noted: >
+      Not a translation-divergence issue so much as a source-divergence one: Ussher's chronology
+      (no external anchor) vs. Thiele's reconstruction (anchored to Qarqar/Assyrian absolute dates)
+      diverge on Solomon's 4th year by several decades (1012 BC vs ~966 BC) -- documented plainly
+      in the draft rather than picking one silently.
+  drafting:
+    done: true
+    file: docs/content/studies/prophecy/prophecy-events-times.md
+  review:
+    done: true
+    validated: true # app/scripts/validate-content.js was broken (stale docs/content path from
+      # before the mkdocs docs_dir restructure) -- fixed in this same session. npm run validate,
+      # frontmatter YAML, and a strict mkdocs build all pass clean. User reviewed and approved
+      # publishing (draft: false) on 2026-07-24.
+
+open_questions:
+  - "Which decree starts Daniel's 69 weeks? Anderson uses Artaxerxes->Nehemiah (445 BC, Neh 2:1);
+     other views use Artaxerxes->Ezra (458 BC) or Cyrus (538 BC)/Darius (519 BC). Need to present
+     the decree options honestly, not just assert Anderson's choice as settled."
+  - "Crucifixion/Triumphant-Entry year: AD 30 vs AD 33 debate affects whether the 483-year count
+     lands exactly or needs adjustment. Anderson's own calculation used a 360-day prophetic year
+     and a specific AD 32 terminus -- need to verify his actual arithmetic rather than repeat a
+     secondhand version of it."
+  - "Should pre-anchor chronology (Creation, Flood, Exodus) keep any date at all, or be presented
+     as a range/genealogical estimate only, given no independent anchor exists that far back?"
+  - "zadok-calendar.md (a sibling, already-published page) doesn't address the 'was this used by
+     the prophets' question at all, and this study's research (the 364-day calendar's earliest
+     attestation is 3rd-2nd c. BC, centuries after the classical prophets) complicates its implicit
+     framing. Not edited as part of this task -- flagged for the user to decide whether it needs a
+     similar caveat added."
+resources_consulted:
+  - {type: other, title: "Annals of Shalmaneser III (Kurkh Monolith)", author: "Shalmaneser III / Associates for Biblical Research summary", note: "Ahab at Qarqar, 853 BC"}
+  - {type: other, title: "Assyrian Eponym Canon / Bur-Sagale eclipse", author: "n/a (primary Assyrian administrative record)", note: "763 BC eclipse anchors Assyrian absolute chronology from 911 BC"}
+  - {type: other, title: "Sennacherib's Prism (Taylor Prism)", author: "Sennacherib", note: "'shut up like a caged bird', 701 BC, British Museum"}
+  - {type: other, title: "Babylonian Chronicle ABC 5 (Jerusalem Chronicle)", author: "n/a", note: "597 BC capture of Jerusalem dated to 2 Adar, Nebuchadnezzar's 7th year; BM 21946"}
+  - {type: other, title: "Jehoiachin's Ration Tablets", author: "trans. Ernst Weidner", note: "names 'Ya'u-kinu king of Yahudu'; excavated by Koldewey"}
+  - {type: other, title: "Cyrus Cylinder; Nabonidus Chronicle", author: "n/a", note: "539/538 BC; confirms Belshazzar's historicity as Nabonidus's co-regent"}
+  - {type: other, title: "Elephantine papyri", author: "n/a", note: "dual-dated Egyptian/Jewish-calendar documents fixing Artaxerxes I's regnal years"}
+  - {type: other, title: "The Coming Prince", author: "Sir Robert Anderson (1894)", note: "173,880-day / 69-week calculation, 445 BC -> 6 Apr AD 32"}
+  - {type: other, title: "Chronological Aspects of the Life of Christ", author: "Harold W. Hoehner", note: "refines Anderson: 444 BC -> 30 Mar AD 33"}
+  - {type: other, title: "The Mysterious Numbers of the Hebrew Kings", author: "Edwin R. Thiele", note: "reconciles co-regencies/accession-year reckoning for the divided monarchy; source of the ~966 BC Solomon's-4th-year figure vs Ussher's 1012 BC"}
+  - {type: other, title: "Calendar and Community", author: "Sacha Stern", note: "Hillel II's AD 358-359 fixed calendar; the earlier observation-based Sanhedrin system it replaced"}
+  - {type: other, title: "Calendars in the Dead Sea Scrolls: Measuring Time", author: "James C. VanderKam", note: "1 Enoch Astronomical Book (~3rd c. BC) and Jubilees (~mid-2nd c. BC) as the 364-day calendar's earliest attestation; Jubilees' restorationist polemic against lunar reckoning"}
+  - {type: other, title: "Dating the Crucifixion (Nature 306, 1983)", author: "Colin J. Humphreys and W. G. Waddington", note: "3 April AD 33 lunar eclipse at moonrise, Jerusalem; only Passover eclipse found visible AD 26-36; tied to Acts 2:20"}
+  - {type: other, title: "Lunar Visibility and the Crucifixion (QJRAS 31, 1990)", author: "Bradley E. Schaefer", note: "peer-reviewed rebuttal: eclipsed portion would have been barely perceptible against twilight/horizon brightness, not a vivid 'blood moon'"}
+  - {type: other, title: "Solar eclipse of 1207 BC helps to date pharaohs (Astronomy & Geophysics 58, 2017)", author: "Colin J. Humphreys and W. G. Waddington", note: "reinterprets Joshua 10's 'sun stood still' as an annular eclipse at Gibeon; in tension with the text's own stated effect (a LENGTHENED day, not a darkened one)"}
+  - {type: other, title: "The Star of Bethlehem: The Legacy of the Magi", author: "Michael R. Molnar", note: "6 BC Jupiter-occultation theory; noted only briefly, not pursued -- no scholarly consensus and tension with Herod's 4 BC death for the rival 3-2 BC conjunction theory"}
+last_updated: "2026-07-24"
