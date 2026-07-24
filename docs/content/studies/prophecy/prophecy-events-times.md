@@ -1,138 +1,102 @@
 ---
 title: "Prophecy Events and Times"
 category: "prophecy"
-description: "A record of historical and future biblical events and their prophetic significance"
-tags: ["studies", "end-times", "prophecy", "timeline", "eschatology"]
+description: "How prophetic time is measured -- the 360-day prophetic year and the day-year principle -- and how the ancient Hebrew calendar and Ussher's chronology line up major biblical events"
+tags: ["studies", "end-times", "prophecy", "timeline", "calendar", "chronology", "eschatology"]
 draft: false
+bible_references: ["Genesis 7:11", "Genesis 8:3-4", "Daniel 9:24-27", "Ezekiel 4:6", "Revelation 11:2-3", "Revelation 12:6", "Revelation 13:5"]
 ---
 
-# Events and their times
+# Prophecy, calendar, and the times of fulfilled events
 
-A record of historical and future biblical events times and their prophecies.
+[The Day is Near](day-is-near.md) makes the theological case that "a day is as a thousand years"
+([2 Peter 3:8](https://www.blueletterbible.org/esv/2Pe/3/8)) and lands on roughly 6000 years of
+ordinary history before a seventh, sabbath-rest millennium. This study is the working-out of that
+construct: what calendar the Bible's own prophecies actually run on, how that calendar compares to
+the ancient Hebrew calendar in wider use, and where major biblical events fall once you try to date
+them against it.
 
-## Interpreting bible prophecy
+## Interpreting Bible prophecy
 
-1. Bible prophecy uses a 360 day year [ref]()
-1. Be aware when days means years. For example, Daniels 70 weeks, means a week of 7 years.
+1. **Bible prophecy uses a 360-day year.** The Flood lasted "five months"
+   ([Genesis 7:11](https://www.blueletterbible.org/esv/Gen/7/11);
+   [Genesis 8:3-4](https://www.blueletterbible.org/esv/Gen/8/3-4)) and
+   that same span is elsewhere counted as 150 days — five 30-day months. Revelation counts the same
+   period three different ways and gets the same number every time: 42 months
+   ([Revelation 11:2](https://www.blueletterbible.org/esv/Rev/11/2)), "time, and times, and half a
+   time" i.e. 3.5 years ([Revelation 12:14](https://www.blueletterbible.org/esv/Rev/12/14)), and
+   1,260 days ([Revelation 11:3](https://www.blueletterbible.org/esv/Rev/11/3);
+   [Revelation 12:6](https://www.blueletterbible.org/esv/Rev/12/6)) — which only reconciles if a
+   prophetic year is a fixed 360 days (12 x 30), not the 365.25-day solar year.
+2. **Watch for a day standing in for a year.** Daniel's seventy weeks (
+   [Daniel 9:24-27](https://www.blueletterbible.org/esv/Dan/9/24-27)) are weeks of years, not
+   days — the same day-for-a-year principle God states explicitly to Ezekiel
+   ([Ezekiel 4:6](https://www.blueletterbible.org/esv/Eze/4/6)).
 
 ## On calendars
 
-[differnt calendars](https://www.becomingonestickinhishand.com/calendars.html)
+Two calendars are worth comparing when dating biblical events:
 
-[good perspective](https://www.hebrew4christians.com/Holidays/Calendar/calendar.html)
+- **The Zadok/Essene calendar** — a 364-day solar calendar (12 x 30 days plus 4 Tekufah days),
+  already covered in depth in [The Zadok Calendar](zadok-calendar.md). This is the calendar behind
+  this site's own `zadok_year` dating.
+- **The standard rabbinic (lunisolar) calendar** — the one most Jewish and Christian sources mean by
+  "the Hebrew calendar" today. Per [Hebrew4Christians' calendar
+  overview](https://www.hebrew4christians.com/Holidays/Calendar/calendar.html): it runs on two
+  year-starts at once — a **religious year beginning in Nisan** (spring, tied to the Exodus) and a
+  **civil year beginning in Tishri** (fall) — with months measured by the ~29.5-day lunar cycle.
+  A new month (**Rosh Chodesh**, "head of the month") is marked liturgically at each new moon; see
+  that site's own [Rosh Chodesh](https://www.hebrew4christians.com/Holidays/Rosh_Chodesh/rosh_chodesh.html)
+  and [Rosh Chodashim](https://www.hebrew4christians.com/Holidays/Spring_Holidays/Rosh_Chodashim/rosh_chodashim.html)
+  pages for more on the new-moon reckoning and the Nisan-1 "biblical new year" question specifically.
+  To resync the 354-day lunar year with the 365-day solar year, a leap month (**Adar II**) is
+  inserted seven times in every 19-year cycle. The individual feast pages linked from that same
+  overview (Passover, Shavu'ot, Sukkot, and so on) duplicate what's already covered in
+  [Feasts](../feasts/feasts.md), so aren't re-linked here.
 
-| Esene Time | Gregorian Time | Event | Bible Reference | Comment | Links |
-|---|---|---|---|---|---|
-|||Creation||||
-|||Flood||||
-|||Exodus||||
-|||Birth of Jesus||||
-|||Creation||||
-|||Creation||||
-|||Creation||||
-|| 1948-05-14 |Restoration of Israel|| [calculate](https://www.hebroots.org/hebrootsarchive/9808/9808_m.html#:~:text=On%20May%2014%2C%201948%2C%20the%20Jewish%20people%20proclaimed,as%20a%20sovereign%2C%20independent%20state%20among%20the%20nations.) |
+The lunisolar calendar's drifting month lengths are exactly why the Zadok calendar's defenders
+prefer it for prophetic arithmetic (see zadok-calendar.md's "Why I use it") — a fixed 360/364-day
+scheme gives clean, repeatable math; a lunisolar one needs a leap-month correction folded in first.
 
+## Aligning major events to a timeline
 
+The dates below follow **James Ussher's 17th-century chronology** ([*Annals of the World*,
+1650s](https://en.wikipedia.org/wiki/Ussher_chronology)) — the same one already anchoring
+`docs/data/events.json` behind this site's [Prophetic Timeline](../../../timeline/) tool, which
+places Creation at 4004 BC (`zadok_year` 0). Using that same zero-point (`zadok_year` =
+`gregorian_year` + 4004), Ussher's other anchor dates line up as follows:
 
-[Israel and the church](https://www.hebroots.org/hebrootsarchive/9802/980225_c.html)
+| Event | Gregorian Date | Zadok Year | Bible Reference | Basis |
+| --- | --- | --- | --- | --- |
+| Creation | 4004 BC | 0 | [Genesis 1](https://www.blueletterbible.org/esv/Gen/1/1) | Ussher's chronology; this site's `events.json` zero-point |
+| The Flood | 2349 BC | 1655 | [Genesis 7:11](https://www.blueletterbible.org/esv/Gen/7/11) (Noah's 600th year) | Ussher's chronology |
+| The Exodus | 1491 BC | 2513 | [Exodus 12:40-41](https://www.blueletterbible.org/esv/Exo/12/40-41) | Ussher's chronology |
+| Solomon's Temple founded | 1012 BC | 2992 | [1 Kings 6:1, 37](https://www.blueletterbible.org/esv/1Ki/6/1) (4th year of Solomon, 480 years after the Exodus) | Ussher's chronology |
+| Birth of Jesus | c. 5 BC | c. 3999 | [Matthew 2:1](https://www.blueletterbible.org/esv/Mat/2/1); [Luke 2](https://www.blueletterbible.org/esv/Luk/2/1) | Ussher's chronology (he placed the nativity before Herod's death, which Josephus dates to 4 BC) |
+| Crucifixion | AD 32 | 4036 | See [The Day is Near](day-is-near.md) | This site's own dating; matches `events.json`'s entries for c. AD 32-33 |
+| Restoration of Israel | 14 May 1948 | c. 5952 | — | Israel's Declaration of Independence |
 
-Is your understanding of the church correct - you assume gentiles...
+**Caution on the "Zadok Year" column:** these are Ussher's Gregorian/BC-AD dates run through a
+simple `+4004` conversion for illustration, not an independently sourced Zadok-calendar date for
+each event — nothing in this repo currently derives a Zadok-calendar date for the Flood, Exodus, or
+Nativity from first principles. Ussher's own chronology is also one reconstruction among several;
+it isn't the scholarly consensus (the more common "early date" Exodus in evangelical scholarship, for
+example, is usually placed nearer 1446 BC using Thiele's chronology for the divided monarchy rather
+than Ussher's own 1012 BC anchor for Solomon's 4th year — a real, unresolved disagreement between
+two internally-consistent systems, not a rounding error).
 
-```txt
-The HOUSE OF JACOB is ALL TWELVE TRIBES. These 12 tribes are 
-called a Mishpachah (family). They are also called a HOLY 
-(6818) NATION (1471 ... goyim ... a term for Gentiles) in Exodus 
-19:5. The HOUSE OF JACOB (ISRAEL) (Exodus 19:3) became a 
-HOLY NATION (Exodus 19:6) at Mount Sinai when they were married to 
-God (Jeremiah 2:2-3) in the DAY of the ASSEMBLY (Kahal / Kehilat / 
-Ekklesia). So, the Bride of God was the nation of Israel. The nation 
-of Israel were a church / Kahal / Ekklesia at Mount Sinai. 
+**Open item:** [The Day is Near](day-is-near.md#when-is-the-year-6000)'s own timeline chart implies
+a *different* creation epoch (roughly 3925 BC, for its "AD 75 = year 4000" and "AD 2075 = year
+6000" markers to work) than the 4004 BC used here and in `events.json`. That ~79-year gap between
+the two hasn't been reconciled yet — worth resolving before leaning further weight on either page's
+numbers.
 
-So, Biblically, the terms "church" and "Israel" are synonymous terms. 
+## Israel and the Church
 
-At Mount Sinai, God BETROTHED (espoused) Himself to the nation of 
-Israel / church / kahal / kehilat / Ekklesia and in doing so entered 
-into the 1st of the 2 stages in the Biblical / Jewish wedding. So, 
-the Bride of God is the church. The Bride of God is the nation of 
-Israel. The church is the nation of Israel and the nation of Israel 
-is the church. 
+The identity of Israel and the Church is a related but separate theological question from anything
+above — see [Israel and the Church](../theology/israel-and-the-church.md) for that discussion.
 
-The nation of Israel / church / kahal / kehilat / Ekklesia became 
-divided after the reign of Solomon into Northern Kingdom and Southern 
-Kingdom. God was still called the God of Israel but his family / 
-church / kahal / kehilat was divided. 
+## References
 
-In a more stricter definition of the word JEW, only the tribe of JUDAH is 
-Jewish. The other tribes are not Jewish but they are ISRAELITES. When 
-the Northern Kingdom and Southern Kingdom were divided, the Northern 
-Kingdom was called the HOUSE OF ISRAEL and the Southern Kingdom 
-was called the HOUSE OF JUDAH. In a more liberal definition of the 
-word Jew, all those who were part of the Southern Kingdom (house of 
-Judah) were called Jewish. This would include the tribes of Judah, 
-Benjamin and Levi.
-
-God cut off the Northern Kingdom from their inheritance as members of 
-the family / church / kahal / kehilat of God (Hosea 1). But through 
-the Messiah, those who were aliened from the commonwealth of Israel 
-as it is written in Ephesians 2:11-12:
-
-"Wherefore remember that ye being in time past Gentiles in the flesh, 
-who are called Uncircumcision by that which is called the 
-Circumcision in the flesh made by hands: that at that time ye were 
-without Messiah, being aliens from the commonwealth of ISRAEL, and 
-strangers to the covenants of promise, having no hope and without God 
-in the world"
-
-were able by acceping Messiah to be GRAFTED BACK into the ROOT of the 
-Olive tree of God (Romans 11). This promise is for BOTH the natural 
-born branches (natural born Jews) and the wild olive branches 
-(natural born non-Jews) (Romans 11:17-24). 
-
-So, ISRAEL is a term given to Jacob. Jacob was the father of 12 
-tribes. Only the tribe of Judah is Jewish. In a broader sense, the 
-entire Southern Kingdom was called Jewish. 
-
-God's family / church / ekklesiah is now divided into two kingdoms. 
-We call these two kingdoms today, Judaism and Christianity. Both have 
-preserved certain truths of God' s Word and certain truths of His 
-Kingdom. Both have erred in their ways. But, God promised that one 
-day His Kingdom / family / church / kahal / kehilat / Ekklesia would 
-no longer be divided but that the two kingdoms would become one 
-kingdom (Ezekiel 37:15-27). In order for the two kingdoms to become 
-one, Christianity needs to embrace the Torah and repent to God for 
-breaking it and teaching other believers in Messiah to break it. 
-Judaism needs to repent and acknowledge that Yeshua/Jesus is 
-Messiah. 
-
-So who is the church? It is Israel. Who is Israel? It is the church. 
-Who is God's Bride? It is the church / Israel which God first entered 
-into a marriage contract and bethrothed Himself to her at Mount 
-Sinai. Does God still have a covenant with a physical people called 
-the Jews who do not accept Yeshua/Jesus as Messiah? Yes because
-the covenant that God made with Abraham was physical AND spiritual. 
-
-Because the Messianic Jewish community is confused over the terms 
-CHURCH and ISRAEL also, some of them teach that only Jews are the 
-Bride and the "church" (implied to mean non-Jewish believers in 
-Yeshua/Jesus as Messiah) are something less than Jewish believers in 
-the Kingdom of God.
-
-Yet, Biblically, the church is Israel and Israel is the church and the 
-church/Israel became a NATION of people unto God and became a 
-church / Kahal / Kehilat / Ekklesia assembly of people unto God at 
-Mount Sinai when they entered into a marriage contract with God at 
-Mount Sinai (the first step of the two stage in the marriage process) 
-and the marriage document (Ketubah) ratifying the marriage was the 
-Torah. This nation of people called Israel / church / Kahal / Kehilat 
-/ Ekklesia were a MIXED MULTITUDE of people (both Jew and non-Jew) 
-who came out of Egypt (Exodus 12:38) and entered into a bethothal 
-contract with God at Mount Sinai (Jeremiah 2:2-3)
-
-Therefore, the Bride of God consists of BOTH Jew and non-Jew.
-
-For more detailed information regarding the spiritual characteristics of 
-the Bride of Messiah, I would encourage all newsgroup members to get 
-my book, "Who is the Bride of Christ?".  You will be blessed greatly 
-by reading this book and it will clear up even more confusion in this 
-area.
-```
+- Ussher chronology overview: [Wikipedia](https://en.wikipedia.org/wiki/Ussher_chronology)
+- [Hebrew4Christians: The Hebrew Calendar](https://www.hebrew4christians.com/Holidays/Calendar/calendar.html)

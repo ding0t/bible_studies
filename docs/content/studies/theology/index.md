@@ -20,6 +20,14 @@ Broader theological topics not tied to a single feast, prophecy, or discipline.
 
     [:octicons-arrow-right-24: Read](hebrew-roots.md)
 
+-   __Israel and the Church__
+
+    ---
+
+    Examining the Hebrew Roots argument that Israel and the Church are the same body, and where that sits against a dispensational reading
+
+    [:octicons-arrow-right-24: Read](israel-and-the-church.md)
+
 -   __Biblical Numerology__
 
     ---

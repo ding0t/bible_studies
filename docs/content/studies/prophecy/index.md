@@ -32,7 +32,7 @@ End-times and biblical prophecy, read dispensationally.
 
     ---
 
-    A record of historical and future biblical events and their prophetic significance
+    How prophetic time is measured -- the 360-day prophetic year and the day-year principle -- and how the ancient Hebrew calendar and Ussher's chronology line up major biblical events
 
     [:octicons-arrow-right-24: Read](prophecy-events-times.md)
 
