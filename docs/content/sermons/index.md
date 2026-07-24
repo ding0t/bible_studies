@@ -28,14 +28,6 @@ Sermon notes and presentation material.
 
     [:octicons-arrow-right-24: Read](dispensational.md)
 
--   __Learning Biblical Hebrew__
-
-    ---
-
-    Slide presentation introducing Biblical Hebrew language and alphabet
-
-    [:octicons-arrow-right-24: Read](hebrew-slides.md)
-
 -   __Bible Prophecy Essentials__
 
     ---
