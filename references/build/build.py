@@ -18,7 +18,7 @@ from xml.etree import ElementTree
 
 import yaml
 
-from book_map import MACULA_USFM_TO_OSIS, SCROLLMAPPER_NAME_TO_OSIS
+from book_map import BOS_CODE_TO_USFM, MACULA_USFM_TO_OSIS, SCROLLMAPPER_NAME_TO_OSIS
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 OPEN_DATA = REPO_ROOT / "references" / "open-data"
@@ -489,7 +489,7 @@ def ingest_ebible(
 
     verse_rows = []
     for bos_code in bible.getBookList():
-        osis_book = MACULA_USFM_TO_OSIS.get(bos_code)
+        osis_book = MACULA_USFM_TO_OSIS.get(BOS_CODE_TO_USFM.get(bos_code, bos_code))
         if osis_book is None:
             continue  # front matter, glossary, deuterocanonical -- out of scope
         book_obj = bible.books[bos_code]

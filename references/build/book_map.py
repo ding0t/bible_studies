@@ -58,6 +58,18 @@ MACULA_USFM_TO_OSIS = {
     "JUD": "Jude", "REV": "Rev",
 }
 
+# BibleOrgSys.getBookList() doesn't return the raw USFM marker codes above -- it normalizes to
+# its own internal BBB codes, which flip numbered-book prefixes (1SA -> SA1) and rename five
+# others outright (EZK -> EZE, JAS -> JAM, JON -> JNA, JUD -> JDE, NAM -> NAH). Route through this
+# before a MACULA_USFM_TO_OSIS lookup on anything sourced via BibleOrgSys (see ingest_ebible in
+# build.py); every other consumer of MACULA_USFM_TO_OSIS reads real USFM codes and doesn't need it.
+BOS_CODE_TO_USFM = {
+    "SA1": "1SA", "SA2": "2SA", "KI1": "1KI", "KI2": "2KI", "CH1": "1CH", "CH2": "2CH",
+    "CO1": "1CO", "CO2": "2CO", "TH1": "1TH", "TH2": "2TH", "TI1": "1TI", "TI2": "2TI",
+    "PE1": "1PE", "PE2": "2PE", "JN1": "1JN", "JN2": "2JN", "JN3": "3JN",
+    "EZE": "EZK", "JAM": "JAS", "JNA": "JON", "JDE": "JUD", "NAH": "NAM",
+}
+
 # NIV/NKJV Cultural Backgrounds Study Bible epub verse-anchor IDs (e.g. "com41005025")
 # use a 2-digit canonical book number (Gen=1 ... Mal=39, Matt=40 ... Rev=66) -- same
 # numbering macula-greek's own xml:id scheme uses (John's ids start "n43...").

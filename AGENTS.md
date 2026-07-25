@@ -78,6 +78,7 @@ against the CONTENT_GUIDE.md checklist instead of trusting that command.
 cd references/build
 uv sync
 uv run python build.py             # builds out/bible-text.db (gitignored, regenerable)
+uv run pytest                      # book-coverage completeness checks against out/bible-text.db
 uv run python query.py --help      # word / concordance / verse / passage / cross-ref lookups
 uv run python twot_lookup.py --help
 uv run python commentary_index.py  # regenerate auto cross-ref pages — run after editing a study's bible_references/primary_passage

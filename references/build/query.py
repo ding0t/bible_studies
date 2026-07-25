@@ -24,8 +24,11 @@ import argparse
 import sqlite3
 from pathlib import Path
 
+from book_map import NUM_TO_OSIS
+
 DB_PATH = Path(__file__).resolve().parent / "out" / "bible-text.db"
 DEFAULT_TRANSLATION_WORK_ID = "ebible-eng-web"  # WEB: public domain, full Bible, no permission caveats
+_ALL_OSIS_BOOKS = set(NUM_TO_OSIS.values())
 
 
 def connect() -> sqlite3.Connection:
@@ -50,6 +53,22 @@ def _resolve_work_id(translation: str | None) -> str:
 # ---------------------------------------------------------------------------
 # Lookup functions -- shared by the CLI below and mcp_server.py.
 # ---------------------------------------------------------------------------
+
+def _empty_result_reason(conn: sqlite3.Connection, work_id: str, book: str) -> str:
+    """A found-nothing verse/passage lookup looks identical whether the caller typo'd the book
+    code or the translation genuinely doesn't cover that book (e.g. an NT-only Greek text, or --
+    what this was written for -- ingest_ebible silently dropping 22 books from WEB/Delitzsch/
+    Tischendorf/Brenton before the BOS_CODE_TO_USFM fix). Give the caller enough to tell those
+    apart instead of a bare empty list that reads the same either way."""
+    if book not in _ALL_OSIS_BOOKS:
+        return f"'{book}' isn't a recognized OSIS book code (expected e.g. Gen, 1Kgs, Matt, 1Cor, Rev)."
+    has_any = conn.execute(
+        "SELECT 1 FROM verses WHERE work_id=? AND book=? LIMIT 1", (work_id, book),
+    ).fetchone()
+    if not has_any:
+        return (f"{work_id} has no verses for {book} at all -- this translation may not cover "
+                f"that book (check bible_works), or try a different translation.")
+    return f"{book} exists in {work_id}, but not at the chapter/verse given -- check the reference."
 
 def lookup_word(conn: sqlite3.Connection, strongs: str | None = None, lemma: str | None = None,
                  book: str | None = None) -> list[dict]:
@@ -123,12 +142,15 @@ def lookup_verse(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
         "SELECT work_id, text FROM notes WHERE book=? AND chapter=? AND verse=?",
         (book, chapter, verse),
     ).fetchall()
-    return {
+    result = {
         "book": book, "chapter": chapter, "verse": verse, "work_id": work_id,
         "text": verse_row["text"] if verse_row else None,
         "morphology": [dict(r) for r in morph_rows],
         "notes": [dict(r) for r in notes],
     }
+    if verse_row is None:
+        result["warning"] = _empty_result_reason(conn, work_id, book)
+    return result
 
 
 def lookup_passage(conn: sqlite3.Connection, book: str, chapter: int, verse_start: int, verse_end: int,
@@ -150,6 +172,8 @@ def lookup_passage(conn: sqlite3.Connection, book: str, chapter: int, verse_star
         "end_chapter": end_chapter, "end_verse": verse_end, "work_id": work_id,
         "verses": [dict(r) for r in rows],
     }
+    if not rows:
+        result["warning"] = _empty_result_reason(conn, work_id, book)
     if include_notes:
         notes = conn.execute(
             "SELECT work_id, chapter, verse, text FROM notes WHERE book=? AND "
@@ -227,6 +251,8 @@ def cmd_verse(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
     result = lookup_verse(conn, args.book, args.chapter, args.verse, translation=args.translation)
     print(f"{result['book']} {result['chapter']}:{result['verse']} ({result['work_id']})")
     print(f"  {result['text'] or '(not found for this work_id)'}")
+    if result.get("warning"):
+        print(f"  WARNING: {result['warning']}")
 
     last_work = None
     for r in result["morphology"]:
@@ -254,6 +280,7 @@ def cmd_passage(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
     end_chapter = result["end_chapter"]
     if not result["verses"]:
         print(f"No verses found for {args.book} {args.chapter}:{args.verse_start}-{end_chapter}:{args.verse_end} ({result['work_id']}).")
+        print(f"  WARNING: {result['warning']}")
         return
     print(f"{args.book} {args.chapter}:{args.verse_start}-{end_chapter}:{args.verse_end} ({result['work_id']})")
     last_chapter = None
