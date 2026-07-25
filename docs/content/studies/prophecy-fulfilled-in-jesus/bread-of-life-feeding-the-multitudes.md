@@ -14,9 +14,6 @@ Two hillside meals, four Gospel accounts, and one question Jesus asks afterwards
 cannot answer: *"Do you not yet understand?"* (Mark 8:21, ESV). This study works through what there was
 to understand.
 
-One note on the count, since it's easy to misremember: the second feeding is of **four** thousand, not
-seven. The seven belongs to the loaves and the baskets.
-
 ## The two feedings, side by side
 
 | | **The 5,000** | **The 4,000** |
