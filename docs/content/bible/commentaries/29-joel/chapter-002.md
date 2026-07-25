@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 2:1
+- [Prophecy Events and Times](../../../studies/prophecy/prophecy-events-times.md) — 2:31
 <!-- commentary-index:auto-end -->

@@ -12,5 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
+- [Chapter 8](chapter-008.md) — 1 study(ies)
 - [Chapter 15](chapter-015.md) — 1 study(ies)
+- [Chapter 18](chapter-018.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

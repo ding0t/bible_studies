@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Bread of Life: The Feeding of the 5,000 and the 4,000](../../../studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md) — 30:8-9
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../../studies/prayer/lords-prayer.md) — 30:8-9
 <!-- commentary-index:auto-end -->

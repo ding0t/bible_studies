@@ -1,0 +1,16 @@
+---
+title: "Acts 7"
+category: "bible"
+description: "Commentary and cross-referenced studies for Acts chapter 7"
+tags: ["acts", "commentary"]
+draft: false
+---
+
+# Acts 7
+
+
+<!-- commentary-index:auto-start -->
+## Studies referencing this chapter
+
+- [Genealogy and Times: From Creation to Christ](../../../studies/prophecy/genealogy-times.md) — 7:4
+<!-- commentary-index:auto-end -->

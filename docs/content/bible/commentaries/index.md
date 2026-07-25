@@ -42,6 +42,24 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](05-deuteronomy/)
 
+-   __Joshua__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](06-joshua/)
+
+-   __Ruth__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](08-ruth/)
+
+-   __1 Samuel__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](09-1-samuel/)
+
 -   __2 Samuel__
 
     ---
@@ -65,6 +83,18 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](13-1-chronicles/)
+
+-   __Ezra__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](15-ezra/)
+
+-   __Nehemiah__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](16-nehemiah/)
 
 -   __Psalms__
 
@@ -102,11 +132,23 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](27-daniel/)
 
+-   __Hosea__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](28-hosea/)
+
 -   __Joel__
 
     ---
 
     [:octicons-arrow-right-24: Browse](29-joel/)
+
+-   __Amos__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](30-amos/)
 
 -   __Zechariah__
 
@@ -185,6 +227,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](53-2-thessalonians/)
+
+-   __1 Timothy__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](54-1-timothy/)
 
 -   __Hebrews__
 

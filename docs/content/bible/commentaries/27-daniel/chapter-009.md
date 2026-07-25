@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Prophecy Events and Times](../../../studies/prophecy/prophecy-events-times.md) — 9:24-27 (primary passage)
 - [The Zadok Calendar](../../../studies/prophecy/zadok-calendar.md) — 9:24-27
 <!-- commentary-index:auto-end -->

@@ -20,6 +20,14 @@ Old Testament prophecies and how the Gospels record their fulfillment in Jesus.
 
     [:octicons-arrow-right-24: Read](as-the-snake-was-lifted.md)
 
+-   __Bread of Life: The Feeding of the 5,000 and the 4,000__
+
+    ---
+
+    An exegetical study of the two feeding miracles across the Gospels -- the manna background, the basket vocabulary marking two distinct events, and why Jesus refused the crowd more bread.
+
+    [:octicons-arrow-right-24: Read](bread-of-life-feeding-the-multitudes.md)
+
 -   __The woman at the well__
 
     ---

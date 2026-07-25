@@ -40,5 +40,8 @@ What types are seen as shadows of a truth.
 ## References
 
 <!-- commentary-index:auto-start -->
-*No studies currently reference this book.*
+## Chapters with linked studies
+
+- [Chapter 23](chapter-023.md) — 1 study(ies)
+- [Chapter 78](chapter-078.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->
