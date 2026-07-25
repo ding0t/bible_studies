@@ -40,6 +40,18 @@ I don't hold this faith blindly, and I don't think you have to either.
 - **[Genealogy Viewer](genealogy/)** — trace the lineage from Adam through Jesus.
 - **[Statement of Faith](about/statement-of-faith.md)** — what I believe, and why, built out one doctrine at a time with Scripture behind each.
 
+## Recently updated
+
+<!-- recent-updates-teaser:auto-start -->
+- **[Israel and the Church](studies/theology/israel-and-the-church.md)** — :material-new-box: New 2026-07-24
+- **[Genealogy and Times: From Creation to Christ](studies/prophecy/genealogy-times.md)** — :material-new-box: New 2026-07-24
+- **[Prophecy Events and Times](studies/prophecy/prophecy-events-times.md)** — :material-update: Updated 2026-07-24
+- **[Bible Prophecy Essentials](studies/prophecy/prophecy-essentials.md)** — :material-new-box: New 2026-07-24
+- **[Bible Translations & Source Texts](bible/translations.md)** — :material-update: Updated 2026-07-23
+<!-- recent-updates-teaser:auto-end -->
+
+See the full [Recently Updated](about/recent-updates.md) list for more.
+
 ## Studies
 
 Browse the studies in the navigation, covering prophecy, feasts, theology, spiritual disciplines, and more.

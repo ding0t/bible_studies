@@ -91,12 +91,13 @@ uv run python build_study_notes.py # commercial study-Bible db, writes outside t
 **Genealogy data** (`utils/` — stdlib-only, run from repo root):
 
 ```bash
-python3 utils/validate_genealogy.py   # run after hand-editing docs/data/genealogy/*.json
+python3 utils/validate_genealogy.py       # run after hand-editing docs/data/genealogy/*.json
+python3 utils/generate_recent_updates.py  # regenerate the Recently Updated page/teaser from git log; runs automatically in CI, so a manual run is only needed to preview locally
 ```
 
-**Deploy**: `.github/workflows/deploy.yml` runs `mkdocs build --site-dir site`, then `npm test` +
-`npm run build` in `app/`, then copies Astro's `dist/` on top of the mkdocs `site/` output and
-publishes to GitHub Pages on push to `main`.
+**Deploy**: `.github/workflows/deploy.yml` runs `utils/generate_recent_updates.py`, then
+`mkdocs build --site-dir site`, then `npm test` + `npm run build` in `app/`, then copies Astro's
+`dist/` on top of the mkdocs `site/` output and publishes to GitHub Pages on push to `main`.
 
 ## Architecture
 
@@ -121,6 +122,12 @@ publishes to GitHub Pages on push to `main`.
 - New content should go through the **develop-bible-study** skill
   (`.claude/skills/develop-bible-study/SKILL.md`), which tracks resumable per-study progress in
   `references/study-state/<slug>.yml`.
+- **`utils/generate_recent_updates.py` derives "recently updated" purely from git log** (no
+  hand-maintained date frontmatter field) and writes into two marker pairs: the full list on
+  `docs/content/about/recent-updates.md` and a 5-item teaser on the homepage
+  (`docs/content/index.md`). It runs automatically in CI right before `mkdocs build`, so the page
+  is fresh on every deploy without anyone needing to remember to regenerate it — unlike
+  `commentary_index.py`/`section_index.py`, which are manual, this one isn't.
 
 ## Standards
 

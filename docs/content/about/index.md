@@ -12,6 +12,14 @@ About this project and its statement of faith.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __Recently Updated__
+
+    ---
+
+    A running list of the studies and pages on this site that have been newly published or most recently revised.
+
+    [:octicons-arrow-right-24: Read](recent-updates.md)
+
 -   __Statement of Faith__
 
     ---
