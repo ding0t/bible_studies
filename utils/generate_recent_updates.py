@@ -78,11 +78,24 @@ def git_dates(md_path: Path) -> tuple[date, date] | None:
     return first, last
 
 
+def is_auto_generated_stub(md_path: Path) -> bool:
+    """commentary_index.py's chapter-*.md files are fully machine-written every run -- title,
+    description, and the whole body are template-filled, never hand-authored prose (see the
+    cleanup_orphaned docstring in references/build/commentary_index.py, which deletes them
+    outright on that basis). They carry real frontmatter so collect_pages() would otherwise
+    treat them as new/updated content -- a study that touches one chapter cross-ref regenerates
+    dozens of these, and they'd bury the actual studies that made those links in the process."""
+    rel_parts = md_path.relative_to(CONTENT_DIR).parts
+    return rel_parts[:2] == ("bible", "commentaries") and md_path.stem.startswith("chapter-")
+
+
 def collect_pages() -> list[dict]:
     pages = []
     for md_path in CONTENT_DIR.rglob("*.md"):
         if md_path.name == "index.md" or md_path == FULL_PAGE:
             continue  # section landing pages and this list itself aren't "content"
+        if is_auto_generated_stub(md_path):
+            continue
         fm = parse_frontmatter(md_path)
         if not fm or fm.get("draft") == "true":
             continue

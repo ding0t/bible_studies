@@ -15,6 +15,22 @@ way.
 <!-- recent-updates:auto-start -->
 <div class="grid cards" markdown>
 
+-   __Why I Use AI in These Studies__
+
+    ---
+
+    An honest account of how AI is used to research and draft the studies on this site — the advantages, the real risks, and the guardrails and human review that sit between the tool and anything published here.
+
+    :material-new-box: New 2026-07-25 · [:octicons-arrow-right-24: Read](why-ai-assisted-study.md)
+
+-   __Bread of Life: The Feeding of the 5,000 and the 4,000__
+
+    ---
+
+    An exegetical study of the two feeding miracles across the Gospels -- the manna background, the basket vocabulary marking two distinct events, and why Jesus refused the crowd more bread.
+
+    :material-new-box: New 2026-07-25 · [:octicons-arrow-right-24: Read](../studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md)
+
 -   __Israel and the Church__
 
     ---
@@ -158,22 +174,6 @@ way.
     Understanding fasting
 
     :material-update: Updated 2026-07-22 · [:octicons-arrow-right-24: Read](../studies/spiritual-disciplines/fasting.md)
-
--   __The Lord's Prayer: What Jesus Taught Us About How to Pray__
-
-    ---
-
-    An exegetical study of Matthew 6:9-13 and Luke 11:2-4 -- cultural background, Old Testament roots, word studies, and the pattern Jesus gave his disciples for prayer.
-
-    :material-new-box: New 2026-07-22 · [:octicons-arrow-right-24: Read](../studies/prayer/lords-prayer.md)
-
--   __Sermon Principals__
-
-    ---
-
-    Principles and guidelines for writing and delivering biblical sermons
-
-    :material-update: Updated 2026-07-22 · [:octicons-arrow-right-24: Read](../studies/teaching-resources/sermon-howto.md)
 
 </div>
 <!-- recent-updates:auto-end -->

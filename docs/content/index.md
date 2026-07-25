@@ -45,11 +45,11 @@ I don't hold this faith blindly, and I don't think you have to either.
 ## Recently updated
 
 <!-- recent-updates-teaser:auto-start -->
+- **[Why I Use AI in These Studies](about/why-ai-assisted-study.md)** — :material-new-box: New 2026-07-25
+- **[Bread of Life: The Feeding of the 5,000 and the 4,000](studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md)** — :material-new-box: New 2026-07-25
 - **[Israel and the Church](studies/theology/israel-and-the-church.md)** — :material-new-box: New 2026-07-24
 - **[Genealogy and Times: From Creation to Christ](studies/prophecy/genealogy-times.md)** — :material-new-box: New 2026-07-24
 - **[Prophecy Events and Times](studies/prophecy/prophecy-events-times.md)** — :material-update: Updated 2026-07-24
-- **[Bible Prophecy Essentials](studies/prophecy/prophecy-essentials.md)** — :material-new-box: New 2026-07-24
-- **[Bible Translations & Source Texts](bible/translations.md)** — :material-update: Updated 2026-07-23
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) list for more.
