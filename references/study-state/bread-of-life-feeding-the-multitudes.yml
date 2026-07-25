@@ -1,0 +1,280 @@
+slug: bread-of-life-feeding-the-multitudes
+title: "Bread of Life: The Feeding of the 5,000 and the 4,000"
+status: published
+target_path: docs/content/studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md
+
+primary_passage: "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15; Matthew 15:32-39; Mark 8:1-10"
+supporting_passages:
+  - "John 6:22-71"
+  - "Mark 8:14-21"
+  - "Exodus 16:1-36"
+  - "Numbers 11:4-34"
+  - "Deuteronomy 8:2-3"
+  - "Deuteronomy 18:15-18"
+  - "2 Kings 4:42-44"
+  - "Psalm 78:17-31"
+  - "Isaiah 25:6-9"
+  - "Isaiah 55:1-3"
+  - "Ezekiel 34:1-16"
+  - "Numbers 27:15-17"
+  - "Matthew 4:1-4"
+  - "Matthew 6:11"
+  - "Luke 11:3"
+  - "Proverbs 30:8-9"
+  - "Revelation 2:17"
+genre: [gospel]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      User request: develop a study on the feeding of the 5,000 and the "7,000" -- corrected at the
+      outset to the feeding of the 4,000 (Matt 15:32-39; Mark 8:1-10); the "7" in the user's memory is
+      the seven loaves and seven baskets of that second account. Study must (a) account for the
+      differences across all four Gospels, (b) surface Jesus's key teaching in the episode, (c) trace
+      cultural, linguistic, and prophetic links back to the OT. User supplied two guiding instincts to
+      test exegetically rather than assume: (1) Jesus as the bread of life -- when the crowd returned
+      for more bread, he redirected them from perishable food to himself (John 6:26-27); (2) Jesus as
+      our manna, tying to the "daily bread" petition already studied in
+      docs/content/studies/prayer/lords-prayer.md -- trust God's day-by-day care rather than craving
+      unnecessary abundance. Both instincts held up; instinct (2) gained a strong OT anchor the user
+      did not name: Numbers 11's craving-for-meat episode at Kibroth-hattaavah ("graves of craving").
+      No existing study in this repo covers the feedings or John 6 (grep of docs/content/ found only
+      passing mentions in archeology/ancient-texts-manuscripts.md and prophecy/prophecy-chart.md).
+      Placed in prophecy-fulfilled-in-jesus/ alongside as-the-snake-was-lifted.md, which is the same
+      shape of study: an OT type (manna / bronze serpent) that Jesus himself applies to himself in
+      John's Gospel.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Geography is the load-bearing background detail and it is what separates the two feedings.
+        The 5,000 happens in Jewish Galilee -- Luke 9:10 names Bethsaida, John 6:1 the Sea of
+        Tiberias, John 6:59 puts the follow-up discourse in the Capernaum synagogue. The 4,000
+        follows immediately on Jesus's circuit through Tyre/Sidon and the Decapolis (Mark 7:24, 7:31),
+        i.e. Gentile territory, and Matthew's parallel notes the crowd "glorified the God of Israel"
+        (Matt 15:31) -- an odd thing to say of Jewish worshippers, natural for Gentiles. Mark 8:3's
+        "some of them have come a long way" and the three-day duration fit a sparse Gentile region
+        with no nearby Jewish villages to buy from, contrasting Mark 6:36's assumption that villages
+        were close at hand. Passover timing: John 6:4 dates the 5,000 to just before Passover -- which
+        is barley-harvest season, matching John's detail that the loaves were barley (6:9), the cheap
+        grain of the poor. Economic background: 200 denarii (Mark 6:37; John 6:7) is roughly 200 days'
+        wages at the standard denarius-a-day rate (Matt 20:2), i.e. eight months' labour -- the
+        disciples' objection is a real costing, not rhetoric. Table custom: Mark 6:41's "blessed"
+        (eulogeo) reflects the Jewish berakhah over bread, in which the blessing is spoken to God, not
+        over the food.
+    literary_context:
+      done: true
+      notes: >
+        Two feedings, four accounts, and one authorial commentary. The 5,000 is the only miracle
+        recorded in all four Gospels (Matt 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15); the
+        4,000 appears only in Matthew and Mark (Matt 15:32-39; Mark 8:1-10). Mark 8:14-21 is the
+        decisive literary datum: Jesus himself recalls both events, with both sets of numbers and both
+        distinct basket words, and rebukes the disciples for not understanding -- Scripture's own
+        commentary on the pair, and the strongest internal evidence they are two events rather than one
+        story doubled. Each Gospel frames it differently: Mark sets it after the apostles' return from
+        mission and Herod's murder of John (6:14-29), so the shepherd-less-sheep note (6:34) lands
+        against a backdrop of failed leadership; Luke places it right before Peter's confession and
+        the Transfiguration; John alone follows the sign with the Bread of Life discourse (6:22-71),
+        making the miracle a sign to be interpreted rather than a wonder to be admired -- and John
+        alone records the crowd's attempt to make Jesus king by force (6:15) and the mass defection
+        that ends the chapter (6:66). The crowd's return in John 6:22-25 is the hinge the user's first
+        instinct rests on, and it holds: they come back for bread and get a christological claim
+        instead.
+    content_word_studies:
+      done: true
+      notes: >
+        Four findings verified directly against this repo's bible-text.db rather than taken on trust.
+        (1) BASKETS -- decisive. Concordanced G2894 (kophinos) and G4711 (spyris) across the whole NT:
+        kophinos occurs at Matt 14:20, 16:9; Mark 6:43, 8:19; Luke 9:17; John 6:13 -- every single
+        occurrence belongs to the 5,000 or Jesus's recollection of it. spyris occurs at Matt 15:37,
+        16:10; Mark 8:8, 8:20 -- every occurrence belongs to the 4,000 or its recollection -- plus
+        Acts 9:25, where Paul is lowered over a wall in one, proving it is a large man-sized hamper
+        rather than a lunch basket. Not one crossover in either direction across four Gospels and both
+        of Jesus's own recollections. This is the hardest available evidence for two distinct events.
+        (2) LXX DEPENDENCE at John 6:31. LXX Ps 77:24 (=MT 78:24) reads "kai ebrexen autois manna
+        phagein, kai arton ouranou edoken autois"; John 6:31 quotes "Arton ek tou ouranou edoken
+        autois phagein" -- the same lexemes recombined from the two halves of the LXX verse, so the
+        crowd is quoting the Greek Psalter, not Exodus 16 directly (Neh 9:15's "bread from heaven" is
+        the other candidate wording). Jesus's reply turns on tense: not Moses "gave" (aorist) but the
+        Father "gives" (didosin, present). (3) THE FOUR-VERB SEQUENCE. Mark 6:41 = labon /
+        eulogesen / kateklasen / edidou; Mark 14:22 (Last Supper) = labon / eulogesas / eklasen /
+        edoken. Same four lemmas in the same order, verified word-by-word -- the feeding is narrated in
+        what became eucharistic vocabulary. Note also the eulogeo (Mark 6:41, Jewish feeding) vs
+        eucharisteo (Mark 8:6, Gentile feeding; also John 6:11) split. (4) TROGO. Concordanced G5176
+        across the NT: only 6 occurrences -- John 6:54, 56, 57, 58, John 13:18, Matt 24:38. John
+        deliberately switches from esthio/phago (6:49-53) to trogo, a coarser "chew/gnaw" verb, in
+        present-tense participles, exactly at the point the crowd starts objecting. Also confirmed:
+        Mark 6:39-42's chortos ("grass") / echortasthesan ("were satisfied") pairing, and Mark 6:39-40's
+        doubled distributives sumposia sumposia / prasiai prasiai (LN 11.5, 11.6) -- Semitic
+        reduplication for "group by group," prasia literally a garden bed or plot.
+      terms:
+        - {word: "κόφινος", language: greek, transliteration: "kophinos", strongs_id: "G2894", gloss: "a wicker hand-basket", notes: "All 6 NT occurrences belong to the 5,000 (Matt 14:20, 16:9; Mark 6:43, 8:19; Luke 9:17; John 6:13). Commonly identified as the small personal provision basket a Jewish traveller carried; the identification is traditional lexical background, not something the text itself states."}
+        - {word: "σπυρίς", language: greek, transliteration: "spyris", strongs_id: "G4711", gloss: "a large basket, hamper", notes: "All 4 feeding occurrences belong to the 4,000 (Matt 15:37, 16:10; Mark 8:8, 8:20). Acts 9:25 uses the same word for the basket Paul is let down a wall in -- so, man-sized. The 7 spyrides may well hold more than the 12 kophinoi."}
+        - {word: "ἄρτος", language: greek, transliteration: "artos", strongs_id: "G740", gloss: "bread, loaf", notes: "LN 5.1/5.8. The word that ties the whole complex together: 5 artous, 7 artous, 'I am the artos of life' (John 6:35), and the artos of the Last Supper (Mark 14:22). Renders Hebrew lechem (H3899, TWOT root 1105a) in the LXX."}
+        - {word: "τρώγω", language: greek, transliteration: "trōgō", strongs_id: "G5176", gloss: "to gnaw, chew, munch", range_of_meanings: ["audibly chew/gnaw (classical usage, often of animals)", "eat (Koine, largely displacing esthio in later Greek)"], notes: "LN 23.3. Only 6 NT occurrences; 4 of them are John 6:54-58. Root-fallacy guardrail: by the first century trogo had largely become an ordinary word for 'eat,' so 'gnaw' should not be pressed as if John chose a bestial verb -- but the switch mid-discourse from esthio to trogo, sustained across four verses in the present tense, is still a deliberate authorial move toward the concrete and continuous, and the crowd's escalating offence (6:52, 6:60, 6:66) shows they heard it that way."}
+        - {word: "χορτάζω", language: greek, transliteration: "chortazō", strongs_id: "G5526", gloss: "to satisfy, fill, feed to the full", notes: "LN 23.15. Mark 6:42 echortasthesan, three words after 6:39's chloro chorto ('green grass', chortos G5528) -- the verb originally meant to feed with chortos, i.e. to pasture. Sheep without a shepherd (6:34) are made to lie down on green grass and are pastured to the full: Psalm 23:1-2 enacted. Same verb in the fourth beatitude, Matt 5:6."}
+        - {word: "σπλαγχνίζομαι", language: greek, transliteration: "splanchnizomai", strongs_id: "G4697", gloss: "to be moved with compassion (from splanchna, the inward parts)", notes: "LN 25.49. The stated motive at both feedings -- Mark 6:34 / Matt 14:14 and Mark 8:2 / Matt 15:32. In the second, Jesus voices it himself in the first person: 'I have compassion on the crowd.'"}
+        - {word: "מָן", language: hebrew, transliteration: "mān", strongs_id: "H4478", gloss: "manna; also 'what?'", notes: "TWOT lists two separate roots for the same consonants -- 1209 (manna) and 1210 ('what'), corroborating Exodus 16:15's own wordplay: they said man hu, 'what is it?', and the name stuck. The bread from heaven was named with a question."}
+        - {word: "לֶחֶם", language: hebrew, transliteration: "leḥem", strongs_id: "H3899", gloss: "bread, food", notes: "TWOT root 1105a. Behind Isaiah 55:2's 'that which is not bread' (lo lechem) and 2 Kings 4:42's 'bread of firstfruits' (lechem bikkurim), both verified against the Hebrew text."}
+        - {word: "יְגִיעַ", language: hebrew, transliteration: "yəgîaʿ", strongs_id: "H3018", gloss: "toil, labour, product of labour", notes: "Isaiah 55:2, verified against the Hebrew: 'your toil for what is not to satiety (lo lesovah, H7654).' The conceptual antecedent of John 6:27's ergazesthe me ('do not labour for the perishing food')."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Culturally bound: the specific first-century mechanics -- barley as poor-man's grain, the
+        denarius wage, the kophinos as a Jewish traveller's basket, reclining in ranks on the ground,
+        the berakhah form. Also bound to its moment is the crowd's particular political hope, a
+        bread-providing king who would repeat Moses (John 6:14-15) under Roman occupation.
+        Transcultural: (a) the identity claim -- Jesus is himself the bread God gives, and this is
+        stated by Jesus directly, not inferred from the miracle; (b) the ordering of desires it
+        demands, taught explicitly elsewhere (Matt 6:33; Isa 55:2; Deut 8:3), so it does not rest on
+        this narrative alone; (c) day-by-day dependence rather than hoarding, which is legislated into
+        the manna itself (Exod 16:19-20) and prayed in Matt 6:11. Guardrail applied in the draft: the
+        wilderness generation's craving is judged by the narrator and by Psalm 78:29-31, so treating
+        Numbers 11 as a negative example is the text's own evaluation, not the reader's imposition.
+    theological_principle:
+      done: true
+      notes: >
+        God's provision in Christ is genuinely abundant -- but it is given to reveal the Giver, not to
+        remove the need for him. So the sign is misread in two opposite directions, and Scripture
+        corrects both: the crowd wants the bread without the Bread (John 6:26-27), and the wilderness
+        generation wanted more than the daily portion and got a plague with it (Num 11:31-34; Ps
+        78:29-31). Between grasping for surplus and despising sufficiency, the taught pattern is to
+        receive today's portion from the Father's hand and let it point past itself to the Son.
+        Cross-checked as taught explicitly elsewhere and not built on the narrative alone: Isa 55:1-3;
+        Deut 8:3; Matt 6:11, 6:33; Prov 30:8-9; 1 Tim 6:6-8; Phil 4:11-13.
+    application_draft:
+      done: true
+      notes: "Kept in its own clearly-marked sections below the exegesis, per the skill's instruction."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Exodus 16:4-21", relation: "The manna: bread from heaven, gathered a day at a time, spoiling if hoarded, and explicitly called a test (16:4)"}
+      - {ref: "Numbers 11:4-9, 31-34", relation: "The counter-example the user's second instinct needs: craving beyond the daily portion, ending at Kibroth-hattaavah, 'graves of craving'"}
+      - {ref: "Psalm 78:17-31", relation: "The inspired commentary on both -- v24 is the verse the crowd quotes at John 6:31, vv29-31 the judgment on craving"}
+      - {ref: "Deuteronomy 8:2-3", relation: "The stated purpose of the manna: humbling, testing, and teaching that man does not live by bread alone -- the verse Jesus quotes back at Satan when refused bread (Matt 4:4)"}
+      - {ref: "2 Kings 4:42-44", relation: "Closest OT structural parallel: barley loaves of firstfruits, servant's objection at the inadequate supply, command to distribute anyway, all eat, and there is food left over"}
+      - {ref: "Numbers 27:15-17", relation: "'Sheep which have no shepherd' -- Moses asking for a successor; LXX shares probata/poimen with Mark 6:34, though not verbatim"}
+      - {ref: "Ezekiel 34:5, 13-16", relation: "God's answer to the shepherd-less flock: 'I myself will be the shepherd of my sheep... I will feed them with good pasture'"}
+      - {ref: "Deuteronomy 18:15-18", relation: "The prophet like Moses -- what the crowd concludes Jesus is (John 6:14), correctly, before drawing the wrong political inference (6:15)"}
+      - {ref: "Isaiah 55:1-3", relation: "Buy without money, and 'why do you spend your toil for what does not satisfy' -- the prophetic form of John 6:26-27"}
+      - {ref: "Isaiah 25:6-9", relation: "The messianic banquet for all peoples on the mountain, with death swallowed up -- the horizon the two hillside meals gesture toward"}
+      - {ref: "Mark 14:22 / Luke 22:19", relation: "Same four-verb sequence as Mark 6:41 (took/blessed/broke/gave), verified word-by-word"}
+      - {ref: "Matthew 6:11 / Luke 11:3", relation: "'Give us this day our daily bread' -- epiousios, already word-studied in this repo's lords-prayer.md"}
+      - {ref: "Revelation 2:17", relation: "'Hidden manna' promised to the overcomer at Pergamum -- the manna motif carried to its eschatological end"}
+      - {ref: "Proverbs 30:8-9", relation: "The wisdom prayer for sufficiency rather than riches or poverty, with the reason: surplus tempts to forget God"}
+    translations_compared: ["ESV", "WEB", "ASV", "BSB", "LEB", "YLT", "LXX (Brenton)", "SBLGNT", "WLC"]
+    esv_verification: >
+      RESOLVED. The ESV is not in this repo's bible-text.db (commercial/restricted; AGENTS.md says to
+      quote it from general knowledge), so the draft's ESV quotations initially rested on the agent's
+      recall. The user then pointed out that the restricted sources on /Volumes/media/bible ARE
+      queryable -- study-notes.db there carries full ESV verse text (work_id='esv-study-bible',
+      31,086 verses, license_tier 'quotation-only') alongside CSB, NIV x2, NKJV and the NA28 Greek.
+      Every ESV quotation in the study has now been checked verse-by-verse against that text. Note for
+      future sessions: sqlite3 against that volume fails under the default sandbox with "access
+      permission denied (3)" even though raw file reads succeed -- it needs
+      dangerouslyDisableSandbox, or a /sandbox rule.
+      Three real errors were found and fixed by that check, none of them trivial:
+      (1) TROGO, the significant one. The draft claimed English "almost entirely hides" the
+      esthio -> trogo shift and that only 6:57 retains a trace. False for the ESV, which renders
+      "feeds on" at ALL FOUR trogo verses (6:54, 56, 57, 58) against "eat" for esthio at 6:49-53 --
+      i.e. the study's own primary translation marks the shift completely and consistently. Verified
+      against the ESV text directly, and against WEB/BSB (plain "eats" at 54, 56, 58; "feeds on" only
+      at 57) and ASV ("eateth" throughout). Paragraph rewritten to credit the ESV.
+      (2) John 6:34 reads "SIR, give us this bread always" in the ESV, not "Lord" as drafted --
+      kyrie read as polite address rather than confession. Fixed, and turned into a point, since it
+      supports the reading that the crowd is not yet believing.
+      (3) John 6:56 quoted as "whoever eats my flesh" when the ESV has "whoever feeds on my flesh";
+      and John 6:35 had a period where the ESV has a semicolon. Both fixed.
+      All other ESV quotations verified verbatim: Deut 8:3, Isa 55:1-2, Exod 16:4/18/20, Num 11:4-6/
+      33-34, Mark 6:34/38/39/42, Mark 8:19-21, Matt 15:31, Matt 6:33, John 6:12/14/15/26/27/32/60/66,
+      Prov 30:8-9, 1 Tim 6:8.
+    divergences_noted: >
+      No significant textual divergence in the feeding narratives themselves; the accounts differ by
+      authorial selection, not by manuscript variation. Translation notes worth flagging: (a) English
+      versions almost all flatten kophinos and spyris to the same word "basket," so the distinction
+      Jesus himself makes at Mark 8:19-20 is invisible in English -- this is a case where the English
+      reader simply cannot see the argument without the Greek; (b) likewise trogo and esthio both come
+      through as "eat" in John 6:49-58, erasing the mid-discourse shift; (c) Mark 6:40's prasiai
+      prasiai is rendered "in ranks" (WEB/ASV), "in groups" (ESV), losing the garden-bed image;
+      (c2) ADDED after a user question about how the WEB compares to the ESV: meno (G3306) is a
+      genuine missed thread, now written into the draft. John 6:27's "food that endures/remains" and
+      6:56's "abides in me" are the same verb, and no major modern version keeps the link -- ESV has
+      endures/abides, WEB has remains/lives, BSB has endures/remains; only the ASV (1901) renders both
+      "abideth". Verified across all four. The pleasing result, once the trogo error above was
+      corrected, is that the two threads are preserved by two different translations and neither by
+      both: the ESV marks trogo and loses meno; the ASV marks meno and loses trogo. That is now the
+      point the section makes, and it generalizes into useful reading advice.
+      Also noted for the reader: the WEB NT leans Majority
+      Text and the ESV follows a critical text, visible at Matt 15:39 -- "Magdala" (WEB, YLT) vs
+      "Magadan" (ESV, ASV, BSB, LEB); this variant does not touch any claim in the study.
+      (d) the WEB is quoted for all OT background texts. 2 Kings 4:42-44 and Ezekiel 34:15-16 were
+      initially quoted from the ASV to work around the ebible-eng-web data gap recorded below; once
+      that gap was fixed and the database rebuilt (2026-07-25, 66/66 books verified), both were
+      re-pulled and re-quoted from the WEB for consistency with the rest of the study.
+
+  drafting:
+    done: true
+    file: docs/content/studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md
+  review:
+    done: true
+    validated: true
+    validation_notes: >
+      npm run validate remains broken post mkdocs/astro split (app/scripts/validate-content.js
+      hardcodes a path relative to app/ that predates the split) -- as AGENTS.md already documents.
+      Validated by hand instead with a script over the file: frontmatter starts line 1 and parses
+      with pyyaml; title/category/description/tags/draft/primary_passage/bible_references all
+      present; description 186 chars (guide says under 200); 10 tags; 25 bible_references; all 6
+      relative links resolve on disk (including the #numbers-as-symbols anchor's target heading in
+      hebrew-studies/hebrew-alphabet.md); ~4,700 words.
+      commentary_index.py / section_index.py were run, then REVERTED deliberately: with draft:true
+      this study is excluded from the commentary cross-reference index anyway, so regeneration added
+      nothing for it, while sweeping in a large backlog of pending regeneration from *other* studies
+      (60+ new/modified files under docs/content/bible/commentaries/). Both scripts need a dedicated
+      run once this study flips to draft:false -- that run will also land the unrelated backlog, so
+      it deserves its own commit.
+
+open_questions:
+  - "The kophinos = 'small Jewish personal provision basket' identification is standard lexical
+     background but is not stated by the Gospel writers; the contrast with spyris is textually solid
+     (see word studies), the ethnic-marker reading of it is an inference. Drafted as an inference,
+     not as a fact."
+  - "The Jewish-vs-Gentile audience reading of the two feedings rests on geography (Mark 7:31 ->
+     8:1), Matt 15:31's 'glorified the God of Israel', the basket vocabulary, and the eulogeo/
+     eucharisteo split. Each strand is real; the cumulative reading is still an inference and is
+     presented that way. Did not chase whether the Decapolis crowd could have included diaspora Jews,
+     which it certainly could."
+  - "Number symbolism (12 = Israel, 7 = completeness) follows the pattern table in this repo's own
+     hebrew-studies/hebrew-alphabet.md, whose stated source is Bullinger's Number in Scripture. Mark
+     8:19-21 shows Jesus treating the numbers as significant, but neither he nor the narrator says
+     what they signify -- so the section is explicitly tiered by confidence and the speculative
+     readings (5 loaves = Torah/grace, 5+2=7) are labelled as traditional, not exegetical."
+  - "Did not independently verify against a manuscript apparatus whether any tradition harmonizes
+     the two basket words; the concordance of the ingested SBLGNT shows none, but that is one Greek
+     text, not a survey of variants."
+resources_consulted:
+  - {type: lexicon, title: "bible-text.db (macula-greek-sblgnt, macula-hebrew-wlc, ebible-eng-web, scrollmapper-ASV, ebible-grcbrent)", author: "this repo's build pipeline", note: "All Greek/Hebrew morphology, Strong's numbers, Louw-Nida domains, concordances, and the LXX comparison at Ps 77:24 / Num 27:17. Queried via the bible-references MCP server."}
+  - {type: lexicon, title: "TWOT (Theological Wordbook of the Old Testament)", author: "Harris, Archer & Waltke, eds.", note: "Roots 1105a (lechem), 1209/1210 (man -- two roots for the same consonants, corroborating Exod 16:15's wordplay), via the committed twot_strongs_map.json reverse index; bare id/lemma/gloss only."}
+  - {type: other, title: "E. W. Bullinger, Number in Scripture (1894)", author: "E. W. Bullinger", note: "Cited indirectly -- it is the stated source behind the number-symbolism table in this repo's docs/content/hebrew-studies/hebrew-alphabet.md, which the numbers section defers to rather than inventing its own scheme. Public domain."}
+  - {type: other, title: "ESV (verse text)", author: "Crossway", note: "Queried from study-notes.db on /Volumes/media/bible (work_id='esv-study-bible', license_tier 'quotation-only'). Used to verify every ESV quotation in the draft -- see esv_verification above for the three errors this caught. Requires dangerouslyDisableSandbox for sqlite3 access."}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway (2016)", note: "Consulted LAST, per the skill's commentaries-after-exegesis rule, as a check on conclusions already reached. Confirmed independently: Num 27:17/Ezek 34 shepherd background, Ps 23:2 echo, 200 denarii = 200 days' wages, Elisha 2 Kgs 4:42-44 parallel with leftovers. Contributed one thing the exegesis had missed -- the Exod 18:21,25 'hundreds and fifties' Mosaic-administration link at Mark 6:40, verified against the Hebrew/WEB text before adding. Cited in the study's References section; synthesized, not quoted at length."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan (2016), ed. John H. Walton & Craig S. Keener", note: "Also consulted last. Contributed the Herod's-banquet-vs-Jesus's-banquet literary contrast (Mark 6:21 feast for nobles ending in John's execution, immediately preceding the feeding) and confirmed green grass = springtime, corroborating John 6:4's Passover dating. Both added to the draft with attribution."}
+last_updated: "2026-07-25"
+
+repo_findings:
+  - "DATA GAP -- FOUND DURING THIS STUDY, NOW FIXED (2026-07-25). The ebible-eng-web work in
+     references/build/out/bible-text.db contained only 44 of 66 books: every numbered book
+     (1-2 Samuel, 1-2 Kings, 1-2 Chronicles, 1-2 Corinthians, 1-2 Thessalonians, 1-2 Timothy,
+     1-2 Peter, 1-3 John, etc.) plus Ezekiel, Jonah, Nahum, James, Jude were absent. Found by
+     SELECT book, COUNT(*) FROM verses WHERE work_id='ebible-eng-web' GROUP BY book, after a
+     bible_passage lookup of 2 Kings 4:42-44 silently returned zero verses -- note the failure mode
+     is an empty result, not an error, so it is easy to mistake for a bad reference. The
+     scrollmapper-* translations all had the full 66, which localized the fault to the eBible ingest
+     step of build.py. Cause: BibleOrgSys's getBookList() returns its own normalized BBB codes rather
+     than raw USFM markers, flipping numbered-book prefixes (1SA -> SA1) and renaming five books
+     (EZK -> EZE, JAS -> JAM, JON -> JNA, JUD -> JDE, NAM -> NAH), so MACULA_USFM_TO_OSIS.get()
+     missed them and ingest_ebible skipped them as out-of-scope front matter. Fixed by a
+     BOS_CODE_TO_USFM translation map in book_map.py, routed through in ingest_ebible (this fix was
+     not made by the agent writing this study). Verified after rebuild: 66 distinct books, 1,992
+     verses across 2Kgs + Ezek. The study's ASV quotations were reverted to WEB accordingly."
