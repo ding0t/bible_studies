@@ -67,11 +67,34 @@ uv run python build_study_notes.py
 
 Writes to `/Volumes/media/bible/local-only-build/study-notes.db` — never anywhere under `bible_studies/`. See `references/build/study_notes/schema.sql` for tables (`works`, `verses`, `introductions`, `notes`, `topical_articles`, `images`). Sources are registered declaratively in `references/build/study_notes/sources.py` — currently ESV Study Bible, NIV Cultural Backgrounds Study Bible, NKJV Cultural Backgrounds Study Bible, NIV Biblical Theology Study Bible, CSB Ancient Faith Study Bible, and the NA28 Greek NT (from the NA28-ESV parallel). **Adding a 6th source that fits an existing extractor family is a config entry in `sources.py`, not new code** — check `extractors/__init__.py` before writing a new parser.
 
-Query it the same way as `bible-text.db`, just pointed at the external path:
+Query it the same way as `bible-text.db`, but pointed at the external path **and opened with
+`immutable=1`**:
 
 ```sql
-sqlite3 /Volumes/media/bible/local-only-build/study-notes.db \
+sqlite3 "file:/Volumes/media/bible/local-only-build/study-notes.db?immutable=1" \
   "SELECT text FROM notes WHERE work_id='niv-cultural-backgrounds-study-bible' AND book='Mark' AND chapter=5 AND verse_start<=27 AND verse_end>=27;"
+```
+
+`immutable=1` is not optional cosmetics — **without it this fails under the agent sandbox** with
+`Error: in prepare, access permission denied (3)`, which looks like a missing-file or bad-schema error
+and is neither. The volume is readable, but SQLite's locking layer wants POSIX advisory locks (and the
+freedom to create `-wal`/`-shm`/`-journal` siblings) that the sandbox declines to grant out there.
+`immutable=1` promises SQLite the file won't change underneath it, so it skips locking and journalling
+altogether and just reads. `?mode=ro` is **not** sufficient — read-only still takes a shared lock.
+(`nolock=1` also works, but `immutable=1` states the intent better for a read-only reference DB.)
+
+So there is nothing to fix in the sandbox configuration and no reason to disable it for these
+lookups — use this URI form and it works as an ordinary sandboxed read. The same applies to
+`lexicon-restricted.db` beside it. In Python: `sqlite3.connect(f"file:{path}?immutable=1", uri=True)`.
+
+**Verse text, not just notes.** It's easy to read this section as covering study-Bible *commentary*
+only. The `verses` table also holds each edition's full Bible text — including the **ESV**
+(`work_id='esv-study-bible'`), NIV, NKJV and CSB, none of which are in `bible-text.db`. This is the
+place to verify an ESV quotation instead of trusting recall:
+
+```sql
+sqlite3 "file:/Volumes/media/bible/local-only-build/study-notes.db?immutable=1" \
+  "SELECT book||' '||chapter||':'||verse, text FROM verses WHERE work_id='esv-study-bible' AND book='John' AND chapter=6 AND verse BETWEEN 26 AND 27;"
 ```
 
 `quotation-only` means: fine — expected, even — to quote a sentence or two with attribution in a study's own References section (see the skill's Phase 7). Not fine: bulk-exporting this database's contents, or reproducing a full note/article verbatim into a committed file.

@@ -67,6 +67,8 @@ Only now, cross to application:
 - Gather cross-references (Treasury of Scripture Knowledge, parallel-passage tools — see references doc) for the key claims.
 - Compare across the translations AGENTS.md specifies (Masoretic/LXX, ESV default, plus NLT/WEB/NASB/NIV as useful) and note where they diverge meaningfully.
 - **Consult commentaries last**, not first — use them to check your reading, not to form it. Cite any extra-biblical source used, per AGENTS.md.
+  - You have real commentaries to consult, so do consult them: `study-notes.db` on the external media volume holds the ESV Study Bible, both Cultural Backgrounds Study Bibles, the NIV Biblical Theology Study Bible and the CSB Ancient Faith Study Bible — notes, book introductions, and topical articles, plus each edition's own **verse text** (so it is also where you verify an ESV/NIV/NKJV/CSB quotation rather than quoting from memory). Access pattern and the mandatory `immutable=1` URI form: [references/README.md](../../../references/README.md#study-notesdb-commercial-study-bible-commentary-external-not-in-this-repo-at-all). Query it with a `verse_start<=N AND verse_end>=N` window rather than an exact-verse match, since notes are attached to ranges.
+  - Expect this step to *change* something. If commentaries confirm every single thing you already wrote and add nothing, you have probably skimmed them for agreement rather than read them for correction. Note explicitly in `resources_consulted` what each one confirmed versus contributed.
 - Record every source touched in `resources_consulted` on the state file, with enough detail (author, work, translation) to reconstruct the citation later.
 
 ## Phase 7 — Draft
