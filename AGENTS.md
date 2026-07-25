@@ -22,12 +22,20 @@ every content file needs.
 - Be accurate to scripture always
 - Provide references to claims
 - Use the following Bible versions: Masoretic Text, Septuagint, ESV, NLT, WEB, NASB, NIV. Default to ESV.
-  - Of these, only the Masoretic Text and Septuagint (original-language) and WEB (English) are
-    actually queryable in this repo's own `references/build/bible-text.db` (open-licensed
-    sources). ESV, NASB, and NIV are all commercial/restricted and aren't in that database — quote
-    them from general knowledge rather than expecting to look them up here. ASV and YLT are also
+  - Of these, only the Masoretic Text and Septuagint (original-language) and WEB (English) are in
+    this repo's own `references/build/bible-text.db` (open-licensed sources). ASV and YLT are also
     in `bible-text.db` and useful for textual/translation comparison even though not in the
     original list above.
+  - **ESV, NIV, NKJV and CSB verse text is nevertheless queryable — just not from `bible-text.db`.**
+    It lives in `study-notes.db` on the external media volume (`verses` table, `work_id` values like
+    `esv-study-bible`), along with those Bibles' study notes and the NA28 Greek NT. See
+    [references/README.md](references/README.md#study-notesdb-commercial-study-bible-commentary-external-not-in-this-repo-at-all)
+    for the access pattern. **Verify ESV quotations against it rather than quoting from memory** —
+    recall is unreliable at the level of exactness a Bible quotation needs. (A real example: a study
+    drafted from memory had John 6:34 as "Lord, give us this bread" where the ESV reads "Sir", and
+    claimed the ESV obscures John's *esthiō*→*trōgō* shift when in fact it renders every occurrence
+    "feeds on".) The `quotation-only` licence tier governs how much you may *reproduce* in a
+    committed file — a sentence or two with attribution — not whether you may look it up.
 - Always provide translation used if making a quote
 - Always review context of a verse when doing a study, do not bend context to suit the scholar
 - Conduct original language word studies to understand meaning
