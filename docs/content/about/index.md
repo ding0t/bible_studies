@@ -28,5 +28,13 @@ About this project and its statement of faith.
 
     [:octicons-arrow-right-24: Read](statement-of-faith.md)
 
+-   __Why I Use AI in These Studies__
+
+    ---
+
+    An honest account of how AI is used to research and draft the studies on this site — the advantages, the real risks, and the guardrails and human review that sit between the tool and anything published here.
+
+    [:octicons-arrow-right-24: Read](why-ai-assisted-study.md)
+
 </div>
 <!-- section-index:auto-end -->
