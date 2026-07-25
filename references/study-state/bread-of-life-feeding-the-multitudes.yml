@@ -83,6 +83,36 @@ stages:
         instead.
     content_word_studies:
       done: true
+      syntax_pass_notes: >
+        SECOND PASS (2026-07-25, after clause syntax/coreference was loaded into bible-text.db --
+        see that commit). Re-ran the study's key verses through `query.py syntax`. Four additions
+        earned a place in the draft; most verses returned only confirmation of what was already
+        written, which is the expected and honest result.
+        (1) Mark 6:37 -- BEST FIND. "Dote autois hymeis phagein": hymeis ("you") is tagged an
+        explicit subject on an imperative. Greek imperatives carry their subject in the verb ending,
+        so a separate subject pronoun is emphatic -- "YOU give them something to eat" is marked in
+        the grammar, not just a translator's stress. Supports the study's existing point that Jesus
+        works with what the disciples have and makes them distribute it.
+        (2) Mark 6:37 again -- the identical word autois appears twice, four words apart, for two
+        DIFFERENT groups: the first ("he said to them") resolves to the disciples @ 6:35, the second
+        ("give them something to eat") to the crowd @ 6:34, and the infinitive phagein takes the crowd
+        as its subject. English cannot keep these apart, so this is a genuine reader-facing gain, not
+        just a technical note.
+        (3) Mark 6:41 -- the four verbs (labon/anablepsas/eulogesen/edidou) have no stated subject;
+        it resolves to Jesus @ Mark 6:30, eleven verses earlier. The entire feeding is narrated on the
+        strength of one distant mention.
+        (4) 2 Kings 4:42 -- lechem is tagged state=construct with bikkurim absolute, confirming
+        leḥem bikkurim as a real construct chain ("bread of firstfruits"), which the draft had
+        asserted without morphosyntactic support.
+        Checked and deliberately NOT added: John 6:12 (confirms Jesus addresses the gather-command to
+        the disciples, and that "they were filled" refers to those reclining -- confirmation only);
+        John 6:27 (apollymenen and menousan are twin participles both taking brosin as subject, which
+        reinforces the meno section already written but adds nothing new); John 6:35 (eimi tagged
+        copula, Ego subject -- confirms the predicate-nominative reading); John 6:54 (mou resolves to
+        Jesus -- trivial). Numbers 11:34 is a useful negative result: MACULA tags Kibroth and
+        Hattaavah as PROPER NOUNS, not as a live construct chain, since in context it functions as a
+        place name -- the draft's "graves of craving" gloss is the etymology the verse itself supplies,
+        which is fine, but don't claim the annotation supports a construct reading there.
       notes: >
         Four findings verified directly against this repo's bible-text.db rather than taken on trust.
         (1) BASKETS -- decisive. Concordanced G2894 (kophinos) and G4711 (spyris) across the whole NT:

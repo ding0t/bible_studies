@@ -207,12 +207,13 @@ manna but a small miracle in 2 Kings:
 
 Every beat of the Gospel accounts is here: an inadequate supply, a servant's incredulous objection at
 the ratio, a command to distribute anyway, everyone eating, and food left over. The loaves are barley,
-as in John, and they are firstfruits (**לֶחֶם בִּכּוּרִים**, *leḥem bikkurim*) — harvest offering
+as in John, and they are firstfruits (**לֶחֶם בִּכּוּרִים**, *leḥem bikkurim* — a construct chain,
+with *leḥem* in the construct state, so literally "bread of firstfruits") — harvest offering
 grain. Jesus is doing what Elisha did, at forty times the scale, and Elisha was already doing it "according
 to the word of the LORD." Only now the one giving the word and the one distributing the bread are the
 same person.
 
-### Two details in how Mark stages it
+### Three details in how Mark stages it
 
 **They are seated the way Moses organised Israel.** Mark notes the crowd sat down "by hundreds and by
 fifties" (6:40) — the same administrative units Moses used when he appointed leaders on Jethro's advice:
@@ -220,6 +221,26 @@ fifties" (6:40) — the same administrative units Moses used when he appointed l
 The *ESV Study Bible*'s note on Mark 6:39-40 draws the same connection. A wilderness, a crowd needing
 bread, and a man ordering Israel into Mosaic ranks: the new-Moses framing is in the staging before a
 single loaf is broken.
+
+**"*You* give them something to eat" is emphatic in the Greek, and the two "them"s are different
+people.** Mark 6:37 reads, in the Greek word order, *Δότε αὐτοῖς ὑμεῖς φαγεῖν* — and the **ὑμεῖς**
+("you") is the point. A Greek imperative already carries its subject in the verb ending, so adding a
+separate subject pronoun is not required and is therefore emphatic: not "give them something to eat"
+but "***you*** give them something to eat." The contrast Jesus is drawing — you, not the villages you
+just proposed sending them to — is marked in the grammar, not merely available to a translator's
+inflection.
+
+The same verse then uses the identical word *αὐτοῖς* ("to them") twice, four words apart, for two
+different groups. The syntactic annotation resolves them: the first (*he said to them*) is the
+**disciples**, the second (*give them something to eat*) is the **crowd** — and the infinitive
+"to eat" takes the crowd as its subject too. English cannot easily keep those apart, so a reader
+following "he said to them… give them something to eat" has no way to see that the sentence pivots
+between two referents. Unpacked: *you disciples give the crowd something for the crowd to eat.*
+
+Related, and the reason the walk-through above can speak of Jesus doing the taking and blessing
+without the text repeating his name: the four verbs of verse 41 have no stated subject at all. The
+annotation carries it from **Mark 6:30**, eleven verses earlier — Greek simply doesn't need to say
+"Jesus" again, and the whole feeding is narrated on the strength of that one distant mention.
 
 **And Mark has just shown us the other kind of banquet.** Immediately before this, Herod throws a
 birthday "supper for his nobles, the high officers, and the chief men of Galilee" (6:21) — a private
@@ -474,7 +495,10 @@ the discipline is to receive it as provision rather than as security.
 - **MACULA Greek Linguistic Datasets (SBLGNT)** and **MACULA Hebrew Linguistic Datasets (WLC)**,
   queried via this repo's `references/build/bible-text.db` — the source of every Strong's number,
   Louw-Nida domain code, morphological note, and concordance count above, including the
-  *kophinos*/*spyris* distribution and the *trōgō* count.
+  *kophinos*/*spyris* distribution and the *trōgō* count. Its clause-level syntax and coreference
+  annotation supplied the emphatic *ὑμεῖς* in Mark 6:37, the disambiguation of that verse's two
+  *αὐτοῖς*, the implicit subject of Mark 6:41's four verbs, and the construct state of *leḥem
+  bikkurim* in 2 Kings 4:42.
 - **Brenton's Septuagint** (public domain), same database — used to verify that John 6:31 quotes
   LXX Psalm 77:24, and to compare Numbers 27:17's shepherd language with Mark 6:34.
 - ***Theological Wordbook of the Old Testament*** (TWOT), ed. R. Laird Harris, Gleason L. Archer Jr.,
