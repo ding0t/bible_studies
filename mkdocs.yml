@@ -2,6 +2,12 @@ site_name: Biblical Studies by ding0t
 site_url: 'https://ding0t.github.io/bible_studies/'
 repo_url: 'https://github.com/ding0t/bible_studies'
 docs_dir: docs/content
+# Rendered in the site footer. ESV/NIV/NKJV/CSB/NASB each require a copyright notice wherever their
+# text is quoted, so the footer links to the page carrying them -- see docs/content/about/copyright.md.
+# This value is raw HTML and is NOT run through mkdocs' markdown link resolution, so it needs a
+# site-absolute built URL ('/bible_studies/about/copyright/'), not a relative '.md' path -- a '.md'
+# path here ships to the browser verbatim and 404s. Keep the prefix in sync with site_url above.
+copyright: 'Scripture quotations are used by permission — see <a href="/bible_studies/about/copyright/">Copyright &amp; Scripture Permissions</a>'
 
 theme:
   name: material

@@ -148,6 +148,44 @@ sqlite3 "file:/Volumes/media/bible/local-only-build/study-notes.db?immutable=1" 
 
 `quotation-only` means: fine — expected, even — to quote a sentence or two with attribution in a study's own References section (see the skill's Phase 7). Not fine: bulk-exporting this database's contents, or reproducing a full note/article verbatim into a committed file.
 
+### Two different permissions, don't conflate them
+
+These editions contain two legally distinct things, and the rules are not the same for both:
+
+1. **The Bible text** — governed by the publisher's own permission notice, which grants a generous,
+   explicit allowance with no need to ask.
+2. **The study notes, introductions, articles, charts and maps** — separately copyrighted, with **no
+   blanket allowance at all**. The ESV Study Bible's notice is explicit: "Crossway reserves all
+   rights for all of the content of the ESV Study Bible." For these, a short attributed quotation
+   under fair use is the whole of what's available — which is where "a sentence or two" belongs.
+
+Verified against the permission notices in the epubs themselves (`/Volumes/media/bible/bibles/`), not
+from memory — the numbers are easy to misremember and one of these is commonly misquoted:
+
+| Translation | Verses without asking | Must not exceed | Also |
+|---|---|---|---|
+| **ESV** (Crossway) | **1,000** (250 for audio) | 50% of your work; never a complete book | Copyright notice required on the title/copyright page |
+| **CSB** (Holman) | **1,000** | 50% of your work; never a complete book | Credit line required |
+| **NKJV** (Thomas Nelson) | **1,000** (printed) | 50% of a complete book *and* 50% of your work | Quotations must conform exactly to the NKJV text |
+| **NIV** (Zondervan/Biblica) | **500** | 25% of your work; never a complete book | Copyright notice required; separate easier terms for church bulletins |
+| **NASB** (Lockman) | **none stated in this edition** | — | The epub's notice says quotation/reprint requests "must be directed to and approved in writing by The Lockman Foundation." Don't assume a threshold; check lockman.org |
+| **NA28 Greek** (Deutsche Bibelgesellschaft) | none stated | — | "Used by permission" to Crossway for that parallel edition; that grant isn't ours to inherit |
+
+**For this repo the binding constraint is the percentage, not the verse count.** No single study is
+going to approach 500 verses, so the verse ceilings are practically irrelevant. The 25%/50% test is
+not: a short page that is mostly block-quoted Scripture can breach it at a couple of dozen verses.
+If a study is mostly quotation with a little commentary, that's the rule it trips — and it's a sign
+the study is thin anyway. Note also the ESV's 50% is measured against *the work in which they are
+quoted*; whether that means one page or the whole site is not something this README can settle, so
+keep individual studies comfortably clear of it rather than relying on a favourable reading.
+
+**Attribution is an obligation, not a courtesy.** ESV, CSB, NKJV and NIV all require a copyright
+notice where their text is quoted. Naming the translation inline — "(ESV)" after a quote, as
+AGENTS.md already requires — satisfies scholarly convention but is *not* the notice these licences
+ask for. The site carries the required notices on
+[docs/content/about/copyright.md](../docs/content/about/copyright.md); add to it if a study
+introduces a translation not already listed there.
+
 ## open-data/ and restricted-data/
 
 Git submodules of forked open-data repos (Bible texts, lexicons, morphology, cross-references) — see [docs/content/resources/github.md](../docs/content/resources/github.md) for the full master list, license findings, and why each one's there. Also see that doc's **eBible.org section** for translations fetched at build time rather than forked (not git-hosted, so the submodule pattern doesn't apply).

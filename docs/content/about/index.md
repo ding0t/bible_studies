@@ -12,6 +12,14 @@ About this project and its statement of faith.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __Copyright & Scripture Permissions__
+
+    ---
+
+    Copyright notices for the Bible translations and reference works quoted on this site, and the terms under which they are used.
+
+    [:octicons-arrow-right-24: Read](copyright.md)
+
 -   __Recently Updated__
 
     ---
