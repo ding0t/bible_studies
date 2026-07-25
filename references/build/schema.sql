@@ -49,12 +49,43 @@ CREATE TABLE morphology (           -- word-by-word tags on original-language ve
     cantillation_level TEXT,
     lemma TEXT,                     -- dictionary form, only populated by macula-* work_ids so far
     gloss TEXT,                     -- short English gloss, only populated by macula-* work_ids so far
-    domain_code TEXT                -- semantic domain code: Louw-Nida 'NN.NN' (Greek) or SDBH
+    domain_code TEXT,               -- semantic domain code: Louw-Nida 'NN.NN' (Greek) or SDBH
                                      -- lexdomain/contextualdomain (Hebrew); only macula-* work_ids so far
+
+    -- Syntax / coreference, from the MACULA TSVs' own columns. macula-* work_ids only; every other
+    -- source leaves these NULL. Coverage is genuinely partial (MACULA annotates what it annotates):
+    -- word_class ~100%, sub_type 33% (Greek) / 73% (Hebrew), syntactic_role 33% (Greek only),
+    -- state 28% (Hebrew only), frame 14-18%, subject_ref 9-12%, referent 10%. A NULL means
+    -- "not annotated", NOT "no such role" -- don't infer absence from it.
+    node_id TEXT,                   -- MACULA's own xml:id for this word, NORMALIZED TO DIGITS ONLY.
+                                     -- The source ids carry a corpus prefix ('n' for the Greek NT,
+                                     -- 'o' for the Hebrew OT) but the subjref/referent pointers below
+                                     -- are inconsistent about it: Greek pointers keep the 'n'
+                                     -- ('n40001018011'), Hebrew pointers drop the 'o' ('010010050021')
+                                     -- while the Hebrew xml:id keeps it ('o010010050061'). Storing
+                                     -- everything digits-only is what makes a pointer join work at all;
+                                     -- joined raw, Hebrew coreference silently returns zero rows.
+    word_class TEXT,                -- MACULA 'class': noun, verb, det, conj, pron, prep, adj, adv...
+    syntactic_role TEXT,            -- MACULA 'role', Greek only: s=subject, v=verb, o=object,
+                                     -- io=indirect object, adv=adverbial, p=predicate, vc=copula
+    sub_type TEXT,                  -- MACULA 'type'. Greek: common/proper/personal/demonstrative/...
+                                     -- Hebrew: doubles as verb conjugation (qatal, wayyiqtol, yiqtol,
+                                     -- participle active, ...) -- useful, and not obvious from the name
+    state TEXT,                     -- Hebrew only: absolute / construct / determined (construct chains)
+    frame TEXT,                     -- verbal argument frame, e.g. 'A0:n40001018011' (A0 = agent, and
+                                     -- the value points at a node_id). Pointers here are NOT normalized
+                                     -- -- the field is a compound string, parse before joining
+    subject_ref TEXT,               -- node_id of this verb's subject; the payoff is implicit subjects,
+                                     -- where Greek/Hebrew inflection carries the subject with no
+                                     -- separate word to point at in the verse itself
+    referent TEXT                   -- node_id this word refers back to: Greek 'referent', Hebrew
+                                     -- 'participantref' (different column names, same idea, merged here)
 );
 CREATE INDEX idx_morph_ref ON morphology(book, chapter, verse);
 CREATE INDEX idx_morph_strongs ON morphology(strongs_id);
 CREATE INDEX idx_morph_domain ON morphology(domain_code);
+CREATE INDEX idx_morph_node ON morphology(work_id, node_id);   -- pointer resolution for subject_ref/referent
+CREATE INDEX idx_morph_role ON morphology(syntactic_role);
 
 CREATE TABLE literary_units (       -- paragraph/pericope boundaries, keyed to the Masoretic text's
                                      -- own markers (samekh/pe), not modern chapter divisions

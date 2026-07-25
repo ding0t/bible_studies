@@ -20,5 +20,6 @@ npm-debug.log*
 references/build/out/
 references/build/.venv/
 references/build/cache/
+references/build/BibleOrgSysData/
 # Superpowers scratch
 .superpowers/

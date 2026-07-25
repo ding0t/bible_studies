@@ -21,7 +21,8 @@ A fifth, `references/build/section_index.py`, fixes a real site bug rather than 
 | Semantic domains (Louw-Nida / SDBH) | `open-data/macula-greek`, `open-data/macula-hebrew` | open (one field caveat — see [docs/content/resources/github.md](../docs/content/resources/github.md)) | Cite freely |
 | English translations (KJV, ASV, WEB, BSB, etc.) | `open-data/scrollmapper-bible-databases`, eBible.org sources (`ebible-eng-web`, `ebible-grcbrent`, `ebible-heb`, `ebible-grc-tisch`) | open | Quote freely, name the translation |
 | Cross-references | `open-data/scrollmapper-bible-databases` (OpenBible.info data), `open-data/stepbible-data` | open | Cite freely |
-| Byzantine/TR Greek, BHSA syntax trees, Mounce dictionary | `restricted-data/*` | restricted-nc | Fine to use and cite now (site is non-commercial); flag if that ever changes |
+| Clause syntax, coreference, Hebrew construct state / verb conjugation | `bible-text.db` `morphology` table (MACULA columns) — `query.py syntax` / `bible_syntax` | open | Cite freely; see the syntax section below for what the annotation does and doesn't cover |
+| Byzantine/TR Greek, BHSA syntax trees, Mounce dictionary | `restricted-data/*` | restricted-nc | Fine to use and cite now (site is non-commercial); flag if that ever changes. **BHSA is not ingested** — see the syntax section below for why MACULA is the better first stop |
 | Jewish literature (Mishnah, Talmud) for cultural/historical background | `references/build/sefaria.py` (Sefaria-Export) | varies per translation — check before quoting | Prefer a CC0/CC-BY/public-domain version; cite the specific version quoted |
 | Fee & Stuart methodology, Stevens word-study method | Locally-synthesized into the skill files themselves | n/a | Already rewritten in our own words — cite the skill, not the source, for the *method*; don't reproduce the original PDFs' text |
 | TWOT word-study entries | `references/build/twot/twot_strongs_map.json` (committed) for id/lemma/gloss; full discussion prose is local-only, uncommitted OCR work | ids/glosses: open-ish (bare facts); prose: quotation-only | Cite the TWOT root number and gloss freely; quote a sentence of discussion with attribution, don't reproduce a whole entry |
@@ -43,7 +44,7 @@ Gitignored, fully regenerable (`references/build/out/`, `references/build/cache/
 sqlite3 references/build/out/bible-text.db "SELECT work_id, license_tier FROM works;"
 ```
 
-For convenient lookups instead of hand-writing SQL each time, see `references/build/query.py` (word lookup, concordance, verse-range passages, cross-references, notes) — run `uv run python query.py --help`. `references/build/twot_lookup.py` is the equivalent for `twot_strongs_map.json` (root/Strong's/lemma reverse lookup) — run `uv run python twot_lookup.py --help`.
+For convenient lookups instead of hand-writing SQL each time, see `references/build/query.py` (word lookup, concordance, verse-range passages, cross-references, notes, clause syntax) — run `uv run python query.py --help`. `references/build/twot_lookup.py` is the equivalent for `twot_strongs_map.json` (root/Strong's/lemma reverse lookup) — run `uv run python twot_lookup.py --help`.
 
 Example (raw SQL, if you need something the query script doesn't cover): a Greek word's lemma, Strong's number, and Louw-Nida domain for a specific verse —
 
@@ -52,9 +53,57 @@ SELECT surface_form, lemma, strongs_id, gloss, domain_code
 FROM morphology WHERE work_id='macula-greek-sblgnt' AND book='Mark' AND chapter=5 AND verse=27;
 ```
 
+### Clause syntax and coreference (MACULA)
+
+Morphology answers "what is this word." Syntax answers "who is doing what to whom," which is where a
+lot of exegetical arguments actually live. That data was sitting unused in the MACULA TSVs for a long
+time — `build.py` loaded the word-level columns and dropped the rest. It now loads them into
+`morphology` too, so no new table or source is involved:
+
+| Column | Source | What it gives you |
+|---|---|---|
+| `word_class` | `class` | Part of speech. ~100% coverage both corpora |
+| `syntactic_role` | `role` | **Greek only**: `s` subject, `v` verb, `o` object, `io` indirect object, `adv` adverbial, `p` predicate, `vc` copula. 33% |
+| `sub_type` | `type` | Greek: common/proper/personal/demonstrative. **Hebrew: doubles as verb conjugation** — `qatal`, `wayyiqtol`, `yiqtol`, `participle active`. 33% / 73% |
+| `state` | `state` | **Hebrew only**: `absolute` / `construct` / `determined` — i.e. construct chains. 28% |
+| `subject_ref` | `subjref` | The node this verb's subject is. Pays off on **implicit subjects**, where the inflection carries the subject and no noun appears nearby |
+| `referent` | `referent` (Gk) / `participantref` (Heb) | What a pronoun or participant points back at |
+| `frame` | `frame` | Verbal argument frame, e.g. `A0:n40001018011`. Compound string — parse before joining |
+| `node_id` | `xml:id` | MACULA's word id, **normalized to digits** — the key the two pointer columns join against |
+
+```bash
+uv run python query.py syntax Mark 6 41 --work-id macula-greek-sblgnt
+```
+
+Pointers are resolved to the words they name, across verse boundaries. Mark 6:41's four participles
+(`λαβών`/`ἀναβλέψας`/`εὐλόγησεν`/`ἐδίδου`) all resolve their subject to **Jesus at Mark 6:30** — eleven
+verses earlier, with no repeated noun in between. There is no way to get that from morphology.
+
+Two traps, both of which fail *silently* and are covered by `tests/test_syntax.py`:
+
+- **Pointer keys don't match the ids as shipped.** Every `xml:id` carries a corpus prefix (`n` Greek,
+  `o` Hebrew), but only Greek *pointers* keep it — Hebrew `subjref` drops it (`o010010050061` vs
+  `010010050021`). Joined raw, Hebrew coreference returns zero rows, which reads as missing data
+  rather than a bad key. Hence digits-only normalization on both sides.
+- **Pointers are multi-valued.** A plural subject or a pronoun with several antecedents holds a
+  *space-separated list*. Treating the field as one id silently discarded ~18k rows — precisely the
+  plural subjects most worth asking about. Split on whitespace; `lookup_syntax` always returns a
+  list, even for one target.
+
+A `NULL` here means **not annotated, not "no such role"** — coverage is partial by design, so never
+argue from absence. And note the `frame`/pointer node ids are MACULA's own, not Strong's numbers.
+
+**Why not BHSA?** `restricted-data/bhsa` (ETCBC) is the deeper OT syntax resource — full clause and
+phrase hierarchy where MACULA gives a flatter word-level annotation. It is deliberately **not
+ingested**: it's 1.6 GB of Text-Fabric `.tf` files needing the `text-fabric` package to read, and it
+is `restricted-nc` where the MACULA columns are plain CC BY. Since MACULA already covers subject,
+role, construct state, conjugation and coreference for both testaments at zero new dependency and a
+freer licence, it is the right first stop. Reach for BHSA when an argument genuinely needs clause
+*hierarchy* — subordination, embedding, clause typing — and record it as `restricted-nc` when you do.
+
 ### MCP server (for agent sessions)
 
-`references/build/mcp_server.py` exposes the same lookups as MCP tools (`bible_word`, `bible_concordance`, `bible_domain`, `bible_verse`, `bible_passage`, `bible_crossref`, `bible_works`, `twot_root`, `twot_strongs`, `twot_lemma`), registered project-wide via `.mcp.json` at the repo root. It is a thin wrapper, not a second implementation: every tool calls a `lookup_*` function imported straight from `query.py` or `twot_lookup.py`, so the CLI and the MCP server can never return different answers to the same question, and both scripts keep working from the terminal (or from an agent's Bash tool as a fallback) whether or not the MCP server is configured. Adding a new lookup means adding one function to `query.py`/`twot_lookup.py` plus one `@mcp.tool()` wrapper — no query logic belongs in `mcp_server.py` itself. `study-notes.db` has no query library yet, so it isn't wired into the MCP server either; see the note in `mcp_server.py`'s own docstring before adding one, since that data's `quotation-only` tier needs tighter discipline (snippet-sized returns) than a straight passthrough would give it.
+`references/build/mcp_server.py` exposes the same lookups as MCP tools (`bible_word`, `bible_concordance`, `bible_domain`, `bible_verse`, `bible_syntax`, `bible_passage`, `bible_crossref`, `bible_works`, `twot_root`, `twot_strongs`, `twot_lemma`), registered project-wide via `.mcp.json` at the repo root. It is a thin wrapper, not a second implementation: every tool calls a `lookup_*` function imported straight from `query.py` or `twot_lookup.py`, so the CLI and the MCP server can never return different answers to the same question, and both scripts keep working from the terminal (or from an agent's Bash tool as a fallback) whether or not the MCP server is configured. Adding a new lookup means adding one function to `query.py`/`twot_lookup.py` plus one `@mcp.tool()` wrapper — no query logic belongs in `mcp_server.py` itself. `study-notes.db` has no query library yet, so it isn't wired into the MCP server either; see the note in `mcp_server.py`'s own docstring before adding one, since that data's `quotation-only` tier needs tighter discipline (snippet-sized returns) than a straight passthrough would give it.
 
 **There is currently no `export.py`** in this pipeline (referenced in `build.py`'s own docstring but not yet built) — tier-filtering to keep `restricted-nc` rows out of anything meant to go fully public (vs. "public but non-commercial," which is fine) is a manual discipline right now, not an enforced guarantee. Check `license_tier` yourself before copying a query result into a committed file.
 

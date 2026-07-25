@@ -124,6 +124,66 @@ def lookup_domain(conn: sqlite3.Connection, code: str) -> list[dict]:
     return [dict(r) for r in rows]
 
 
+def lookup_syntax(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
+                   work_id: str | None = None) -> dict[str, object]:
+    """Clause-level syntax and coreference for one verse, from the MACULA annotation.
+
+    Answers the questions morphology alone can't: which word is the subject, which the object, what
+    an implicit subject actually refers to, what a pronoun points back at, and (Hebrew) whether a
+    noun is in construct and which conjugation a verb is.
+
+    Each word's subject_ref/referent pointer is resolved to the word it names -- including across
+    verses, which is the common case for a pronoun or an implicit subject whose antecedent sits in an
+    earlier verse. An unresolved pointer means the target is outside this corpus's annotation, not
+    that the reference is broken.
+    """
+    rows = conn.execute(
+        "SELECT work_id, word_position, surface_form, lemma, gloss, node_id, word_class, "
+        "syntactic_role, sub_type, state, frame, subject_ref, referent FROM morphology "
+        "WHERE book=? AND chapter=? AND verse=? AND node_id IS NOT NULL "
+        + ("AND work_id=? " if work_id else "")
+        + "ORDER BY work_id, word_position",
+        (book, chapter, verse, work_id) if work_id else (book, chapter, verse),
+    ).fetchall()
+
+    words = [dict(r) for r in rows]
+    # Pointers are space-separated and may name several nodes (a plural subject, a pronoun with more
+    # than one antecedent), so every pointer resolves to a *list*, even when it holds one id.
+    wanted = {
+        (w["work_id"], node)
+        for w in words for p in ("subject_ref", "referent") if w[p] for node in w[p].split()
+    }
+    targets: dict[tuple[str, str], dict] = {}
+    for wid, node in wanted:
+        hit = conn.execute(
+            "SELECT book, chapter, verse, surface_form, gloss FROM morphology "
+            "WHERE work_id=? AND node_id=? LIMIT 1", (wid, node),
+        ).fetchone()
+        if hit:
+            targets[(wid, node)] = dict(hit)
+
+    for w in words:
+        for pointer, label in (("subject_ref", "subject"), ("referent", "refers_to")):
+            if not w[pointer]:
+                continue
+            nodes = w[pointer].split()
+            found = [targets[(w["work_id"], n)] for n in nodes if (w["work_id"], n) in targets]
+            w[label] = found
+            if len(found) < len(nodes):
+                w[f"{label}_unresolved"] = len(nodes) - len(found)
+
+    result: dict[str, object] = {
+        "book": book, "chapter": chapter, "verse": verse, "words": words,
+    }
+    if not words:
+        result["warning"] = (
+            "No MACULA syntax rows for this verse. MACULA covers the Hebrew OT (macula-hebrew-wlc) "
+            "and Greek NT (macula-greek-sblgnt) only -- there is no syntax annotation for English "
+            "translations. If the reference is inside that range, the verse may simply be unannotated."
+        )
+    return result
+
+
 def lookup_verse(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
                   translation: str | None = None) -> dict[str, object]:
     """Translation text plus every morphology row and note for one verse -- the single most
@@ -272,6 +332,40 @@ def cmd_verse(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
     )
 
 
+ROLE_LABELS = {
+    "s": "subject", "v": "verb", "o": "object", "io": "indirect-obj",
+    "adv": "adverbial", "p": "predicate", "vc": "copula",
+}
+
+
+def cmd_syntax(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    result = lookup_syntax(conn, args.book, args.chapter, args.verse, work_id=args.work_id)
+    print(f"{result['book']} {result['chapter']}:{result['verse']} -- syntax")
+    if result.get("warning"):
+        print(f"  WARNING: {result['warning']}")
+        return
+
+    last_work = None
+    for w in result["words"]:
+        if w["work_id"] != last_work:
+            print(f"\n  -- {w['work_id']} --")
+            last_work = w["work_id"]
+        role = ROLE_LABELS.get(w["syntactic_role"], w["syntactic_role"]) or "-"
+        bits = f"class={w['word_class'] or '-':7} role={role:12}"
+        if w["sub_type"]:
+            bits += f" type={w['sub_type']:18}"
+        if w["state"]:
+            bits += f" state={w['state']}"
+        print(f"    {w['word_position']:2} {w['surface_form'] or '-':14} {bits}  {w['gloss'] or ''}")
+        for label in ("subject", "refers_to"):
+            for t in w.get(label) or []:
+                print(f"       -> {label}: {t['surface_form'] or '-'} ({t['gloss'] or '-'}) "
+                      f"@ {t['book']} {t['chapter']}:{t['verse']}")
+            if w.get(f"{label}_unresolved"):
+                print(f"       -> {label}: {w[f'{label}_unresolved']} pointer(s) outside "
+                      "the annotated corpus")
+
+
 def cmd_passage(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
     result = lookup_passage(
         conn, args.book, args.chapter, args.verse_start, args.verse_end,
@@ -338,6 +432,15 @@ def main() -> None:
     p_verse.add_argument("verse", type=int)
     p_verse.add_argument("--translation", help="e.g. KJV, ASV, ebible-heb (default: WEB)")
     p_verse.set_defaults(func=cmd_verse)
+
+    p_syntax = sub.add_parser(
+        "syntax", help="Clause-level syntax + coreference for one verse (MACULA Hebrew/Greek only)")
+    p_syntax.add_argument("book", help="OSIS book code, e.g. Mark")
+    p_syntax.add_argument("chapter", type=int)
+    p_syntax.add_argument("verse", type=int)
+    p_syntax.add_argument("--work-id", dest="work_id",
+                          help="restrict to one corpus, e.g. macula-greek-sblgnt")
+    p_syntax.set_defaults(func=cmd_syntax)
 
     p_passage = sub.add_parser("passage", help="Translation text for a verse range")
     p_passage.add_argument("book", help="OSIS book code, e.g. Mark")

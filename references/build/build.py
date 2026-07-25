@@ -285,6 +285,43 @@ def ingest_sblgnt(conn: sqlite3.Connection) -> None:
     print(f"sblgnt: {len(verse_rows)} verses")
 
 
+def macula_node_id(raw: str | None) -> str | None:
+    """Normalize one MACULA xml:id to digits only.
+
+    The corpus prefix ('n' for the Greek NT, 'o' for the Hebrew OT) is present on every xml:id but
+    only on *Greek* pointers -- Hebrew subjref/participantref drop it. Stripping it on both sides is
+    what lets a pointer join find anything; joined raw, every Hebrew coreference lookup returns zero
+    rows and looks like missing data rather than a key mismatch.
+    """
+    if not raw:
+        return None
+    match = re.fullmatch(r"[a-z]?(\d+)", raw.strip())
+    return match.group(1) if match else None
+
+
+def macula_node_refs(raw: str | None) -> str | None:
+    """Normalize a coreference pointer, which may name SEVERAL nodes, to a space-separated list.
+
+    subjref/referent/participantref are multi-valued whenever the reference is compound -- a plural
+    subject ('Paul and Timothy'), or a pronoun gathering up more than one antecedent. About 3.5k
+    Greek and 15k Hebrew rows are like this, so treating the field as a single id silently discards
+    every compound reference in the corpus and leaves exactly the plural subjects an exegete is most
+    likely to be asking about.
+    """
+    if not raw:
+        return None
+    ids = [node for node in (macula_node_id(tok) for tok in raw.split()) if node]
+    return " ".join(ids) or None
+
+
+MORPH_COLUMNS = (
+    "work_id, book, chapter, verse, word_position, surface_form, strongs_id, morph_code, "
+    "cantillation_level, lemma, gloss, domain_code, node_id, word_class, syntactic_role, "
+    "sub_type, state, frame, subject_ref, referent"
+)
+MORPH_PLACEHOLDERS = ",".join("?" * 20)
+
+
 def ingest_macula_greek(conn: sqlite3.Connection) -> None:
     tsv_path = OPEN_DATA / "macula-greek" / "SBLGNT" / "tsv" / "macula-greek-SBLGNT.tsv"
     commit = submodule_commit("macula-greek")
@@ -317,12 +354,13 @@ def ingest_macula_greek(conn: sqlite3.Connection) -> None:
                 work_id, book, int(chapter), int(verse), word_pos,
                 row["text"] or None, row["strong"] or None, row["morph"] or None, None,
                 row["lemma"] or None, row["gloss"] or None, row["ln"] or row["domain"] or None,
+                macula_node_id(row["xml:id"]), row["class"] or None, row["role"] or None,
+                row["type"] or None, None, row["frame"] or None,
+                macula_node_refs(row["subjref"]), macula_node_refs(row["referent"]),
             ))
 
     conn.executemany(
-        "INSERT INTO morphology (work_id, book, chapter, verse, word_position, surface_form, "
-        "strongs_id, morph_code, cantillation_level, lemma, gloss, domain_code) "
-        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", morph_rows,
+        f"INSERT INTO morphology ({MORPH_COLUMNS}) VALUES ({MORPH_PLACEHOLDERS})", morph_rows,
     )
     conn.commit()
     print(f"macula-greek: {len(morph_rows)} morphology rows")
@@ -367,12 +405,13 @@ def ingest_macula_hebrew(conn: sqlite3.Connection) -> None:
                 work_id, book, int(chapter), int(verse), word_pos,
                 row["text"] or None, row["strongnumberx"] or None, row["morph"] or None, None,
                 row["lemma"] or None, row["gloss"] or None, row["lexdomain"] or row["contextualdomain"] or None,
+                macula_node_id(row["xml:id"]), row["class"] or None, None,
+                row["type"] or None, row["state"] or None, row["frame"] or None,
+                macula_node_refs(row["subjref"]), macula_node_refs(row["participantref"]),
             ))
 
     conn.executemany(
-        "INSERT INTO morphology (work_id, book, chapter, verse, word_position, surface_form, "
-        "strongs_id, morph_code, cantillation_level, lemma, gloss, domain_code) "
-        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", morph_rows,
+        f"INSERT INTO morphology ({MORPH_COLUMNS}) VALUES ({MORPH_PLACEHOLDERS})", morph_rows,
     )
     conn.commit()
     print(f"macula-hebrew: {len(morph_rows)} morphology rows")

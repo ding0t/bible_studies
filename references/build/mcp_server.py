@@ -89,6 +89,24 @@ def bible_verse(book: str, chapter: int, verse: int, translation: str | None = N
 
 
 @mcp.tool()
+def bible_syntax(book: str, chapter: int, verse: int, work_id: str | None = None) -> dict[str, object]:
+    """Clause-level syntax and coreference for one verse, from the MACULA annotation -- what
+    morphology alone can't tell you: which word is subject vs object vs indirect object, what an
+    implicit subject refers to, what a pronoun points back at, and for Hebrew whether a noun is in
+    construct and which conjugation a verb is (qatal/wayyiqtol/yiqtol, in the sub_type field).
+
+    Pointers are resolved to the word they name, across verse boundaries where the antecedent sits
+    earlier. Hebrew OT and Greek NT only; a null field means 'not annotated', not 'no such role',
+    so don't read absence off it. Use this after bible_verse when the argument turns on who is
+    doing what to whom rather than on a single word's meaning."""
+    conn = query.connect()
+    try:
+        return query.lookup_syntax(conn, book, chapter, verse, work_id=work_id)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
 def bible_passage(book: str, chapter: int, verse_start: int, verse_end: int,
                    end_chapter: int | None = None, translation: str | None = None,
                    include_notes: bool = False) -> dict[str, object]:
