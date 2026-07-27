@@ -6,7 +6,32 @@ tags: ["todo", "planning", "research", "development"]
 draft: false
 ---
 
-# ToDo list
+# ToDo 
+
+## Precept austin
+
+https://www.preceptaustin.org/daily-devotionals
+Reccomended by Isrel
+
+## Prophecy and jesus
+
+nature
+Birth and lineage
+Childhood
+Ministey
+Passion
+Work - redemption
+Prophet priest king
+Future
+
+
+## Prist of order of Melchizadek
+
+## Study on jesus attitudes to women
+
+
+
+## list
 
 - [ ] Meaning of the last trumpet in 1 Cor 15 and 1 Thess 4. 
 - [ ] [Nephilim](#nephilim)
