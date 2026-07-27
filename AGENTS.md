@@ -21,11 +21,21 @@ every content file needs.
 
 - Be accurate to scripture always
 - Provide references to claims
-- Use the following Bible versions: Masoretic Text, Septuagint, ESV, NLT, WEB, NASB, NIV. Default to ESV.
+- Use the following Bible versions: Masoretic Text, Septuagint, ESV, WEB, NASB, NIV. Default to ESV.
   - Of these, only the Masoretic Text and Septuagint (original-language) and WEB (English) are in
     this repo's own `references/build/bible-text.db` (open-licensed sources). ASV and YLT are also
     in `bible-text.db` and useful for textual/translation comparison even though not in the
     original list above.
+  - **YLT and NKJV are comparison/verification tools, never quotation sources — Fee & Stuart (the
+    methodology behind the develop-bible-study skill) name both as ones to avoid for study.** They
+    single out Young's Literal Translation by name as their example of formal equivalence taken too
+    far, quoting its 1 Corinthians 5:1 rendering as "impossible English" and concluding "this is not
+    a valid translation at all"; NKJV they say kept the KJV's underlying (late, error-accumulated)
+    Greek text while only modernizing the language, so "you should use almost any modern translation
+    other than the KJV or the NKJV" for study. Use YLT only the way this repo already does — a
+    wooden-literal cross-check for what a smoother translation flattens — and NKJV only to consult
+    its study-Bible notes or verify a quotation against `study-notes.db`. Neither gets quoted as a
+    verse's meaning in a study's prose.
   - **ESV, NIV, NKJV and CSB verse text is nevertheless queryable — just not from `bible-text.db`.**
     It lives in `study-notes.db` on the external media volume (`verses` table, `work_id` values like
     `esv-study-bible`), along with those Bibles' study notes and the NA28 Greek NT. See
