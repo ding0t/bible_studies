@@ -24,7 +24,7 @@ Old Testament prophecies and how the Gospels record their fulfillment in Jesus.
 
     ---
 
-    An exegetical study of the two feeding miracles across the Gospels -- the manna background, the basket vocabulary marking two distinct events, and why Jesus refused the crowd more bread.
+    The two feeding miracles read the way Jesus reads them at Mark 8:19-21 -- what he makes explicit about the sign in John 6, and what the narrative leaves implicit about Jew, Gentile, shepherd, and the wrong way to want bread.
 
     [:octicons-arrow-right-24: Read](bread-of-life-feeding-the-multitudes.md)
 

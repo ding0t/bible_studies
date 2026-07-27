@@ -16,7 +16,7 @@ About this project and its statement of faith.
 
     ---
 
-    What Bible text, lexical, and commentary data actually backs this site, organized by license tier, and what each tier is and isn't used for.
+    What Bible text, lexical, and commentary data backs this site, organized by license tier, and what each tier is and isn't used for.
 
     [:octicons-arrow-right-24: Read](about-our-datasets.md)
 

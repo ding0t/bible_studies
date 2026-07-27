@@ -315,7 +315,28 @@ revision_2026_07_26:
     on the site; the many auto-generated commentary_index.py cross-references and docs/content/index.md
     both still point at it. Whether to replace it with bread-of-life.md (same slug, to preserve those
     links) or keep both is an open decision for the user, not made in this revision.
-last_updated: "2026-07-26"
+
+replaced_2026_07_27:
+  action: >
+    User reviewed the bread-of-life.md draft (after some further hand-editing of its own -- notably a
+    reworked opening sentence) and said to replace the old study with it. Content moved into the
+    canonical bread-of-life-feeding-the-multitudes.md path/slug (not renamed) specifically so the
+    ~28 files that already link to it -- auto-generated commentary_index.py cross-references,
+    docs/content/index.md, other studies' "Related studies" sections -- stay valid with zero edits.
+    bread-of-life.md deleted; frontmatter flipped to draft:false; bible_references gained Romans 1:16
+    (present in the rewrite, absent from the original's list).
+  editorial_call_made_without_separate_confirmation: >
+    The user's own latest hand-edit to the opening had drifted: added "It is a critical one to
+    understand. Jesus himself explains what he wanted us to understand." (circular -- explains what he
+    wanted us to understand) before the existing "Asked later..." sentence, a "disples" typo, and
+    restated "only miracle in all four Gospels" a second time later at the end of the table section
+    (already-redundant once moved into the opening). Fixed the typo (uncontroversial) and folded the
+    "only miracle in all four Gospels" fact into the opening sentence once, cleanly, removing both the
+    later restatement and the circular sentence, rather than leaving the redundancy and just flagging
+    it as first stated. Told the user this was done and why in the same turn -- reversible if they
+    preferred their own fuller wording.
+  status: published
+last_updated: "2026-07-27"
 
 repo_findings:
   - "DATA GAP -- FOUND DURING THIS STUDY, NOW FIXED (2026-07-25). The ebible-eng-web work in
