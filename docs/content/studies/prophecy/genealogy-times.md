@@ -81,7 +81,7 @@ doesn't reproduce a constant offset nine times running with a matching total.
 Jared, Methuselah, and Lamech break that pattern, each differently. Jared is untouched by the
 LXX shift (MT and LXX agree exactly) but SP shortens both his age and his total. Methuselah gets
 the standard MT/LXX same-total treatment (969 both) but SP shortens the *total*, not just the
-split. Lamech is the strangest: all three traditions give a genuinely different total (777 / 753
+split. Lamech is the strangest: all three traditions give a different total (777 / 753
 / 653) — no clean two-agree-one-differs pattern at all.
 
 ### Genesis 11:10-26: Shem to Terah
@@ -103,7 +103,7 @@ A different, equally consistent pattern shows up from Shelah through Serug: SP t
 higher age-at-heir-birth figure but keeps *MT's total*, by shortening years-after to compensate.
 Four consecutive patriarchs do this identically — that's a real editorial signature, not
 coincidence. Eber breaks it (SP just matches LXX outright, total included). Nahor breaks it a
-third way (three genuinely different ages, though SP's total still matches MT's). And Terah —
+third way (three different ages, though SP's total still matches MT's). And Terah —
 the last one, and the most consequential — breaks it in the direction that matters most for
 everything downstream.
 
@@ -124,7 +124,7 @@ option is resolved by more counting — it's a text-critical question, not a mat
 
 ### Methuselah: the name, the number, and the Flood
 
-Methuselah's name (מְתוּשֶׁלַח) is genuinely ambiguous at the lexical level — not "one attested
+Methuselah's name (מְתוּשֶׁלַח) is ambiguous at the lexical level — not "one attested
 reading and one folk etymology," but two real readings built from real roots. Read as *m'tei*
 ("men of") + *shelach* ("javelin," H7973), it's a plain warrior name with no theological
 freight. Read as *mut* ("die," H4191) + *shalach* ("send," H7971), it becomes a sentence-name:
@@ -187,7 +187,7 @@ than trusting the chain as a whole:
 | Jared | **Solid** | "Descent" — direct nominal form of "to come down" |
 | Enoch | **Solid**, imprecise popularly | "Dedicated/initiated" (same root as Proverbs 22:6) — "teaching" is a loose paraphrase |
 | Methuselah | **Ambiguous, both real** | See above — not one solid reading and one invented one |
-| Lamech | **Unknown** | No TWOT root exists; standard lexicons mark the derivation genuinely uncertain |
+| Lamech | **Unknown** | No TWOT root exists; standard lexicons mark the derivation uncertain |
 | Noah | **Solid**, needs precision | Genesis 5:29's own wordplay uses *nacham* ("comfort"), not *nuach* ("rest") — a real double sound-play, not a simple derivation |
 
 So: six of nine names hold up on their own lexical merits, one (Methuselah) is a real, motivated

@@ -13,7 +13,7 @@ The single most useful idea I know for reading Scripture well comes from Gordon 
 1. **Exegesis** — what did this mean to the people who first read or heard it?
 2. **Hermeneutics** — what does it mean for us, now?
 
-Almost every bad reading of the Bible I've come across skipped straight to question 2. The fix isn't complicated, just disciplined: don't answer "what does this mean for me" until you've genuinely answered "what did this mean to them." A verse ripped straight out of its own moment and applied directly to yours will usually mean something the author never intended — sometimes harmlessly, sometimes not.
+Almost every bad reading of the Bible I've come across skipped straight to question 2. The fix isn't complicated, just disciplined: don't answer "what does this mean for me" until you've answered "what did this mean to them." A verse ripped straight out of its own moment and applied directly to yours will usually mean something the author never intended — sometimes harmlessly, sometimes not.
 
 ## Ask these questions, in order
 

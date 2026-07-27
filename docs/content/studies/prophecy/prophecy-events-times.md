@@ -113,7 +113,7 @@ earlier manuscripts or independently attested earlier practice.
 
 What *does* hold up is narrower: Genesis's Flood chronology counts 150 days as "five months"
 ([Genesis 7:11](https://www.blueletterbible.org/esv/Gen/7/11);
-[8:3-4](https://www.blueletterbible.org/esv/Gen/8/3-4)) — a genuinely ancient, schematic 30-day-month
+[8:3-4](https://www.blueletterbible.org/esv/Gen/8/3-4)) — an ancient, schematic 30-day-month
 convention — and that same 360-day scheme resurfaces consistently whenever Scripture does
 *symbolic* prophetic time-arithmetic (Daniel, Revelation, both below). That's real and old. It
 supports treating a stylized 360-day prophetic year as an authentic, ancient counting convention
@@ -284,7 +284,7 @@ to a year where the crucifixion actually lands on a Friday.
 **Neither result is uncontested in its details.** Critics of Hoehner's date have argued the actual
 new moon puts 1 Nisan 444 BC a month later than he used, which would push his terminus later too;
 Hoehner's own work also contains an acknowledged computational error regarding whether Friday, 7
-April AD 30 is astronomically possible as a crucifixion date. The precise day is genuinely disputed
+April AD 30 is astronomically possible as a crucifixion date. The precise day is disputed
 among people doing careful, technical work on the same data — that's worth saying plainly rather
 than picking whichever number sounds most impressive.
 
@@ -321,7 +321,7 @@ BC, the same one anchoring Anchor 1, since Amos prophesied under Jeroboam II of 
 overlaps that date. The fit is suggestive, not established: Amos doesn't name an eclipse, and the
 verse's poetic register (paired with mourning, sackcloth, and famine two verses later) reads at
 least as naturally as a stock prophetic image of judgment as it does a report of an observed
-event. Scholarship is genuinely divided over whether Amos had this specific eclipse in mind, an
+event. Scholarship is divided over whether Amos had this specific eclipse in mind, an
 earlier one, or no specific eclipse at all — worth citing as a live possibility, not a fixed point.
 
 ### Joshua's long day at Gibeon, reinterpreted as an eclipse (contested)

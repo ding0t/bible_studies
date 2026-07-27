@@ -26,14 +26,13 @@ know exactly what that does and doesn't mean — so here it is in one page.
 **The original languages come within reach.** I am not formally trained in Biblical Hebrew, Aramaic,
 or Greek — I'm at the start of that road, not the end of it. Working through a passage's morphology,
 lemmas, Strong's numbers, and semantic domains by hand would take me days per chapter, if I could do
-it reliably at all. Querying a structured dataset makes it minutes, and — this is the important part
-— the result is *checkable*. When a study tells you that a word is <span dir="rtl">חֶסֶד</span>
+it reliably at all. Querying a structured dataset makes it minutes, and the result is *checkable*. When a study tells you that a word is <span dir="rtl">חֶסֶד</span>
 (*chesed*) and points at its range of meaning, that came out of a lexical database, not out of a
 guess dressed up in confident prose.
 
 **Many translations at once.** A single English translation is one committee's set of decisions.
 Comparing the Masoretic Text and Septuagint against several English renderings surfaces the places
-where translators genuinely disagree — which is exactly where a study should slow down and say so
+where translators disagree — which is exactly where a study should slow down and say so
 rather than quietly pick the reading that suits the argument.
 
 **Thoughts get structured fast.** A half-formed idea becomes an outline, a set of questions, and a
@@ -47,7 +46,7 @@ that agrees with me pleasantly.
 
 **Depth I could not have reached alone.** Feast cycles, calendars, Ancient Near Eastern custom,
 Second Temple background — tackling complex topics with real cultural and linguistic depth behind
-them has been, honestly, the best part of this. Connections I would simply never have found on my
+them has been the best part of this. Connections I would simply never have found on my
 own are now traceable, cited, and out in the open where you can check them.
 
 ---
