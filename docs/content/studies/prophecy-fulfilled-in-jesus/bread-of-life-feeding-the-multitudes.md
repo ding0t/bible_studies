@@ -365,7 +365,7 @@ hundred denarii is a wage calculation. Not everything numbered is a symbol.
 
 ## Theological principle
 
-God's provision in Christ is genuinely abundant — twelve baskets and seven hampers more than the
+God's provision in Christ is abundant — twelve baskets and seven hampers more than the
 crowds could eat — but it is given to reveal the Giver, not to remove the need for him. So the sign
 gets misread in two opposite directions, and Scripture corrects both: the crowd in John 6 wants the
 bread without the Bread, and the generation in Numbers 11 wants more than the daily portion. One is

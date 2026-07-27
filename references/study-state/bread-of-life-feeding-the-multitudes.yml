@@ -290,7 +290,32 @@ resources_consulted:
   - {type: other, title: "ESV (verse text)", author: "Crossway", note: "Queried from study-notes.db on /Volumes/media/bible (work_id='esv-study-bible', license_tier 'quotation-only'). Used to verify every ESV quotation in the draft -- see esv_verification above for the three errors this caught. Requires dangerouslyDisableSandbox for sqlite3 access."}
   - {type: commentary, title: "ESV Study Bible", author: "Crossway (2016)", note: "Consulted LAST, per the skill's commentaries-after-exegesis rule, as a check on conclusions already reached. Confirmed independently: Num 27:17/Ezek 34 shepherd background, Ps 23:2 echo, 200 denarii = 200 days' wages, Elisha 2 Kgs 4:42-44 parallel with leftovers. Contributed one thing the exegesis had missed -- the Exod 18:21,25 'hundreds and fifties' Mosaic-administration link at Mark 6:40, verified against the Hebrew/WEB text before adding. Cited in the study's References section; synthesized, not quoted at length."}
   - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan (2016), ed. John H. Walton & Craig S. Keener", note: "Also consulted last. Contributed the Herod's-banquet-vs-Jesus's-banquet literary contrast (Mark 6:21 feast for nobles ending in John's execution, immediately preceding the feeding) and confirmed green grass = springtime, corroborating John 6:4's Passover dating. Both added to the draft with attribution."}
-last_updated: "2026-07-25"
+revision_2026_07_26:
+  requested_by_user: >
+    Original draft judged too verbose and AI-sounding. User asked for a restructure around Jesus's
+    own Mark 8:19-21 framing: explicit teaching (cf. John 6 -- bread of life, manna link, "anything
+    else you see") first, then implicit (Jew/Gentile via the two miracles, shepherd wordplay,
+    inappropriate craving-attitude paralleling Numbers 11 as the existing draft already argued), then
+    a final revisit of the numbers. Told to draft as a new file rather than overwrite, and to keep the
+    word studies, which were called excellent.
+  new_file: docs/content/studies/prophecy-fulfilled-in-jesus/bread-of-life.md
+  status: draft (draft:true in frontmatter, ~3,800 words vs original ~5,300)
+  approach: >
+    No new exegesis -- reused only claims already verified in this file's stages above (all ESV
+    quotes copied verbatim from the already-verified original draft, not re-derived). Restructured
+    into: two-feedings table -> two-events proof (baskets + Mark 8:19-21) -> EXPLICIT (John 6: "I am
+    the bread of life" incl. LXX Ps 77:24 dependence and the Mark 6:41/14:22 four-verb link folded in
+    via John 6:51; the trogo/esthio and meno threads; Deut 8:3/epiousios tie-in) -> IMPLICIT (Israel-
+    then-nations, with the Elisha 2 Kings 4:42-44 parallel reframed as "one feeding has an OT
+    rehearsal, the other doesn't"; shepherd wordplay incl. the Herod's-banquet contrast; the wrong-
+    response/Numbers 11 parallel, now also carrying the "prophet like Moses, correctly identified,
+    wrongly acted on" point that was previously in its own section) -> numbers revisited -> theological
+    principle -> trimmed key lessons/discussion questions -> references.
+    Original file (bread-of-life-feeding-the-multitudes.md, draft:false) left untouched and still live
+    on the site; the many auto-generated commentary_index.py cross-references and docs/content/index.md
+    both still point at it. Whether to replace it with bread-of-life.md (same slug, to preserve those
+    links) or keep both is an open decision for the user, not made in this revision.
+last_updated: "2026-07-26"
 
 repo_findings:
   - "DATA GAP -- FOUND DURING THIS STUDY, NOW FIXED (2026-07-25). The ebible-eng-web work in
