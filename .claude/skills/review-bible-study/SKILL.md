@@ -60,6 +60,13 @@ Every quoted verse gets re-queried from source, not read for plausibility.
   [references/README.md](../../../references/README.md#two-different-permissions-dont-conflate-them)
   (NIV 25%, ESV/CSB/NKJV 50%, of the quoting work), and confirm commentary quotations stay at a sentence
   or two rather than a full note.
+- **Hebrew/Aramaic wrapped in markdown bold.** Run `npm run validate` (from `app/`) and treat any
+  `Hebrew/Aramaic text is wrapped in markdown bold` error as a Critical finding, not a style nit —
+  see [style-guide.md's "Hebrew/RTL text and markdown bold"](../develop-bible-study/style-guide.md#hebrewrtl-text-and-markdown-bold)
+  for why this actually breaks rendering (synthetic bold misplaces Hebrew vowel points) rather than
+  just reading oddly. The source markdown looks completely ordinary — re-reading the file, even
+  carefully, will not catch this; only the automated check (or viewing the built page) will. This
+  bug has shipped to `draft: false` studies before.
 
 ## Phase 3 — Word studies, critically
 
@@ -132,8 +139,8 @@ from SKILL.md Phase 7 (short hook → **Key lessons** → detail → … → Ref
 Findings, most severe first:
 
 - **Critical** — wrong scripture text, a citation that doesn't say what's claimed, a broken translation
-  label, or a commentary that contradicts a central claim. These block `draft: false` (or, for an
-  already-live file, warrant fixing promptly).
+  label, a commentary that contradicts a central claim, or Hebrew/Aramaic text broken by markdown bold
+  (see Phase 2). These block `draft: false` (or, for an already-live file, warrant fixing promptly).
 - **Moderate** — a Phase 5 context gap (e.g., cultural-vs-transcultural never made explicit), a stale
   word-count claim that's directionally still true but numerically off, a cross-reference that's weaker
   than stated.

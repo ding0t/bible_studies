@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prophecy Events and Times](../../../studies/prophecy/prophecy-events-times.md) — 21:1-11
+- [The Way](../../../studies/theology/the-way.md) — 21:32
 <!-- commentary-index:auto-end -->

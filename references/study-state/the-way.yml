@@ -1,0 +1,242 @@
+slug: "the-way"
+title: "The Way"
+status: drafting
+target_path: "docs/content/studies/theology/the-way.md"
+
+primary_passage: "John 14:6; Acts 9:2"
+supporting_passages:
+  - "Acts 19:9"
+  - "Acts 19:23"
+  - "Acts 22:4"
+  - "Acts 24:14"
+  - "Acts 24:22"
+  - "Acts 18:24-26"
+  - "Isaiah 40:3"
+  - "Isaiah 35:8-10"
+genre: [topical, gospel, acts]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Topical/concordance study on Greek hodos ("way/road") across the NT, anchored by two
+      facets: (1) Jesus's self-identification as "the Way" in John 14:6 and what that claim's
+      immediate context (14:1-14, Thomas's question, the Father's house) implies; (2) hē hodos
+      as the earliest self-designation of the Jesus movement in Acts, predating and distinct
+      from "Christian" (a term applied by outsiders at Antioch, Acts 11:26, and used of
+      believers by others at 26:28, 1 Pet 4:16). Also chasing OT background for "way"
+      language (derek in the Hebrew Bible / hodos in the LXX) that likely informs both uses --
+      e.g. Isaiah 40:3 "prepare the way of the LORD," the Two Ways contrast in Ps 1 and
+      Deuteronomy, "walking in the way(s) of the LORD" as a covenant-obedience idiom, Isaiah
+      35:8 "the Way of Holiness."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        John 14: Upper Room Discourse, night of the arrest, immediately after Judas's departure
+        (13:30) and the prediction of Peter's denial (13:38) -- 14:1's "let not your hearts be
+        troubled" responds to that trouble directly, and Thomas's question at 14:5 is what draws
+        out the "I am the way" claim at 14:6. Acts: hē hodos spans nearly the whole book (9:2
+        persecutor-era through 24:14/22 Paul's own defense before Felix), used consistently by
+        Luke as the movement's own name, contrasted with the hostile-outsider term hairesis
+        ("sect," 24:5, 24:14, 28:22). "Christian" (Christianos) is a different, later, and
+        outsider-applied label -- first at Antioch (11:26, passive "were first called"), read by
+        ESV Study Bible and NIV/NKJV Cultural Backgrounds Study Bible as coined by the
+        unbelieving public, on the pattern of a political-party nickname (cf. "Pompeiians").
+        Confirmed by its only two other NT occurrences: Agrippa's dismissive use at 26:28, and 1
+        Pet 4:16 addressing believers already bearing the label as a social/legal liability.
+    literary_context:
+      done: true
+      notes: >
+        John 14:1-14 sits inside the farewell-discourse genre (chs. 13-17), on the night before
+        the crucifixion -- not free-standing teaching, answering a specific frightened question
+        from Thomas. Acts's six hē hodos occurrences (9:2, 19:9, 19:23, 22:4, 24:14, 24:22) trace
+        Paul's own arc from persecutor to prisoner, using the identical term at both ends: Luke
+        never introduces or explains the name, using it as vocabulary the reader is assumed to
+        already recognize.
+    content_word_studies:
+      done: true
+      notes: >
+        Full NT concordance for G3598 pulled via mcp__bible-references__bible_concordance --
+        approx. 100+ occurrences. Roughly two-thirds are plain literal "road/journey" narrative
+        markers (sower's path, road to Jericho/Emmaus, Philip and the eunuch, etc.), not
+        theologically loaded and correctly excluded from the study's exegetical focus per the
+        skill's genre-lens guidance (don't force theology onto every occurrence). The
+        remaining figurative/titular third clusters into: (a) the OT-inherited moral "way of
+        life" idiom continued across the epistles (Rom 3:16-17, 11:33; 1 Cor 4:17, 12:31; Jas
+        1:8, 5:20; 2 Pet 2:2,15,21; Jude 11; Heb 3:10); (b) John 14:6 and Heb 9:8/10:20's
+        access-to-God usage; (c) Acts's technical hē hodos self-designation. LXX regularly
+        renders Hebrew derek with hodos, confirmed via TWOT root 453a and Isaiah 35:8/40:3
+        Hebrew morphology pulled directly.
+      terms:
+        - word: "ὁδός"
+          language: greek
+          transliteration: "hodos"
+          strongs_id: "G3598"
+          gloss: "way, road, journey; figuratively a course of life or conduct"
+          range_of_meanings: []
+          notes: "Full concordance pulled; ~100+ NT occurrences, see content_word_studies.notes."
+        - word: "דֶּרֶךְ"
+          language: hebrew
+          transliteration: "derek"
+          strongs_id: "H1870"
+          gloss: "way, road, journey; figuratively manner of life, conduct"
+          range_of_meanings: []
+          notes: "TWOT root 453a. OT background term underlying LXX hodos usage and the NT idiom of 'walking in the way(s) of the LORD' (Deut 10:12, Ps 1:6, Jer 6:16)."
+        - word: "αἵρεσις"
+          language: greek
+          transliteration: "hairesis"
+          strongs_id: "G139"
+          gloss: "sect, faction, heresy"
+          range_of_meanings: []
+          notes: "The hostile-outsider counter-term to hē hodos -- Acts 24:5, 24:14, 28:22, always in an accuser's mouth, never the movement's own word for itself."
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Transcultural: the exclusivity claim itself (John 14:6, Acts 4:12) -- stated flatly, never
+        walked back elsewhere in the canon. Culturally/historically bound: the specific term "the
+        Way" as the movement's working name, which faded from use within the NT period itself,
+        replaced by "Christian" and other terms -- reviving the vocabulary isn't the point of
+        studying it.
+    theological_principle:
+      done: true
+      notes: >
+        A "way" is walked, not merely affirmed -- both the OT derek idiom and Acts's choice of hē
+        hodos as the church's own name assume this; the theological principle is that following
+        Jesus is a road under a believer's feet, not only propositions held in the head. 1 Cor
+        12:31's "still more excellent way" (love) is the concrete NT test case for this.
+    application_draft:
+      done: true
+      notes: "Drafted into Key Takeaways' Be Transformed block and the closing 'Then and now' section of the published draft."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Isaiah 40:3", relation: "prophecy fulfilled by John the Baptist as forerunner, quoted independently by all four Gospels (Matt 3:3, Mark 1:2-3, Luke 3:4-6, John 1:23)"}
+      - {ref: "Isaiah 35:8-10", relation: "the Way of Holiness -- exclusive access highway motif, background to John 14:6's exclusivity claim"}
+      - {ref: "Psalm 1:6", relation: "Two Ways motif -- way of the righteous vs. way of the wicked, restated at Matt 7:13-14"}
+      - {ref: "Jeremiah 6:16", relation: "the good way already known and refused -- background to the epistles' 'way of truth blasphemed/forsaken' language"}
+      - {ref: "Deuteronomy 10:12-13", relation: "'walk in all his ways' -- foundational OT covenant-obedience idiom behind derek's figurative range"}
+      - {ref: "Hebrews 10:19-20", relation: "the new and living way through the torn curtain -- NT fulfillment statement paired with John 14:6's exclusivity"}
+      - {ref: "Acts 4:12", relation: "parallel exclusivity claim about Jesus's name, paired with John 14:6"}
+      - {ref: "Acts 11:26; 26:28; 1 Peter 4:16", relation: "the three NT occurrences of Christianos, all outsider-applied, contrasted with the Way's six insider occurrences"}
+    translations_compared: ["ESV", "WEB"]
+    divergences_noted: >
+      Both ESV and WEB capitalize "the Way of Holiness" / "the Way" at Isaiah 35:8, treating the
+      phrase as a quasi-proper-name -- the underlying Hebrew (derek haqqodesh) is an ordinary
+      construct phrase with no stronger claim to being a title than "the way of peace" at Isaiah
+      59:8. Flagged in the draft as a translator's judgment call (likely reading Acts's later
+      usage back into Isaiah) rather than a feature the Hebrew itself demands -- real thematic
+      resonance, not a linguistic fact.
+  drafting:
+    done: true
+    file: "docs/content/studies/theology/the-way.md"
+  review:
+    done: true
+    validated: true
+
+review_2026-08-02:
+  reviewer: "review-bible-study skill, same session"
+  scope: "Full adversarial re-check -- Phases 1-6 of review-bible-study.md."
+  phase1_scripture: >
+    Re-queried all ~35 quoted verses independently against study-notes.db's esv-study-bible
+    verses table (immutable=1). 34 of 35 match verbatim including punctuation, reference, and
+    translation label. One mismatch found: James 5:20 -- see findings below.
+  phase2_citations: >
+    TWOT root 453a (derek) and G139 (hairesis) re-verified via twot_strongs/bible_word directly
+    -- both correct. All six Acts hodos-as-proper-name occurrences (9:2, 19:9, 19:23, 22:4,
+    24:14, 24:22) re-checked at the morphology level and confirmed to carry the Greek definite
+    article (tēs hodou / tēn hodon) as the draft claims. Isaiah 59:8's "derek shalom" comparison
+    re-verified as the same bare construct-chain grammar as Isaiah 35:8's "derek haqqodesh."
+    Internal links (key-takeaways.md, melchizedek-priesthood.md) both resolve on disk. Five
+    frontmatter bible_references entries (Romans 3:16-17, 1 Cor 4:17, James 2:25, Matthew 21:32,
+    Hebrews 9:8) turned out to be listed but never actually discussed in the body -- see findings.
+    Copyright/quotation-length: well under any translation's cap, no concern.
+  phase3_word_studies: >
+    Re-ran the full G3598 concordance fresh -- confirmed exactly 101 NT occurrences, matching
+    the draft's "just over a hundred times" claim precisely. No root-fallacy claims found (all
+    figurative-sense claims argued from synchronic usage/LXX pattern, not bare etymology).
+  phase4_commentary_crosscheck: >
+    Queried a source the draft hadn't already leaned on for the same claim: NIV Biblical Theology
+    Study Bible's note on Acts 19:23 -- "the Way. One of Luke's favorite designations for the
+    early Christian movement (see note on 9:2; cf. v. 9; 18:25-26; 22:4; 24:14, 22)." This
+    independently CONFIRMS the study's central claim that hē hodos is Luke's consistent term
+    across exactly the same reference set the draft treats. CSB Ancient Faith Study Bible has no
+    notes at all on John 14:6, Acts 9:2, 11:26, or 24:14 (SILENT -- sparser coverage, not a
+    contradiction). No commentary consulted contradicted any central claim.
+  phase5_context_coverage: >
+    All six how-to-read-the-bible.md questions rated covered: genre named and lens applied
+    (Upper Room farewell-discourse framing for John 14; Acts-precedent caution explicitly stated
+    in the "Then and now" section -- "reviving first-century terminology isn't the point"),
+    historical occasion given for both anchor passages and for Isaiah 40:3's exilic setting,
+    literary context traced (13:30/13:38 into 14:5-6; the Acts reference table), original-language
+    checks present wherever load-bearing, cultural-vs-transcultural line drawn explicitly in
+    "Then and now," and the theological principle cross-supported by Deut 10:12/Ps 1/Jer 6:16/
+    1 Cor 12:31 rather than resting on one incidental detail.
+  phase6_style: >
+    Grep for banned intensifiers found only legitimate contrastive uses. Em-dash density (79
+    across ~3600 words of prose) is in the same range as this site's other published studies, not
+    flagged. Only one sentence-initial "Not X" contrast in the whole file -- not overused.
+  findings_summary: "2 findings reported via ReportFindings -- 1 Critical (James 5:20 mislabeled ESV, actually ASV wording), 1 Moderate (5 unused bible_references entries). Both fixed same session -- see fixes_2026-08-02 below."
+
+fixes_2026-08-02:
+  james_5_20: >
+    Fixed. Now quotes the genuine ESV ("brings back a sinner from his wandering") and explicitly
+    notes the Greek (ek planēs hodou autou) still has hodos even though the ESV's English drops
+    the word "way" -- with the ASV's more literal "the error of his way" cited alongside as the
+    version that keeps it visible. User's framing (same underlying word, different translation
+    choices) is exactly how it's now stated in the file.
+  unused_bible_references: >
+    Checked each of the 5 flagged entries for whether it adds real value rather than trimming on
+    sight. 4 of 5 earned a place and are now discussed in the body: Romans 3:16-17 (Paul quoting
+    Isaiah 59:7-8's "way of peace" almost verbatim -- ties directly to the derek shalom
+    comparison already in the Isaiah 35:8 translation note), 1 Corinthians 4:17 ("my ways in
+    Christ" -- Paul's own conduct as apostolic pattern, added to the character-not-direction
+    bullet), Matthew 21:32 (shares the exact Greek phrase hodos dikaiosynēs, "way of
+    righteousness," with the already-quoted 2 Peter 2:21 -- Jesus's own verdict on John the
+    Baptist's ministry, now linked to Peter's warning about apostates abandoning that same way),
+    and Hebrews 9:8 (states the access problem in the same word Hebrews 10:20 later resolves --
+    added immediately before the 10:19-20 blockquote so the letter's own before/after in hodos is
+    visible). James 2:25 (Rahab sending the spies out "by another way") was dropped from
+    bible_references -- it's a literal route/escape-route use, no different in kind from the many
+    other literal hodos occurrences the study's scoping section already excludes by name, and
+    forcing it in would have been padding rather than a real connection.
+
+fix_2026-08-02_hebrew_bold_rendering:
+  what: >
+    User caught, by eye, that line 119 (and one other, ~line 379) wrapped Hebrew text directly in
+    markdown bold ("**דֶּרֶךְ (*derek*, H1870...)**") -- same defect class as a prior Melchizedek
+    study issue. Root cause: browsers synthesize ("fake") a bold weight for scripts the font stack
+    has no real bold glyphs for, which is true of Hebrew niqqud in most web font stacks, and
+    synthetic bold reliably breaks combining-mark (vowel point) positioning. Confirmed via
+    python-markdown + the site's exact markdown_extensions list that the *parsing* is clean (no
+    leaked asterisks, correct strong/em nesting) -- this is a rendering bug, not a syntax bug, so
+    re-reading the raw markdown will never catch it.
+  fix_this_file: >
+    Both occurrences changed to <span dir="rtl">HEBREW</span> (unbolded), matching the one
+    already-working example on the site (docs/content/about/why-ai-assisted-study.md's
+    <span dir="rtl">חֶסֶד</span>). Re-rendered through python-markdown with the site's actual
+    extension list to confirm clean output.
+  wider_finding: >
+    Grepping all of docs/content/ for the same pattern turned up FIVE more already-published
+    (draft: false) files with the identical defect, none of them touched this session: bread-of-
+    life-feeding-the-multitudes.md (3 instances), as-the-snake-was-lifted.md (3), woman-issue-of-
+    blood-faith-and-access.md (1), fasting.md (1), trumpets.md (2). These are currently live on the
+    deployed site with broken Hebrew rendering. Left unfixed deliberately -- fixing five unrelated
+    published studies wasn't requested and is a separate, larger-blast-radius task; flagged to the
+    user instead.
+  prevention_wired_in:
+    - "app/scripts/validate-content.js Check 9 (new): flags any Hebrew/Aramaic (U+0590-U+05FF) text inside a markdown bold span as an ERROR. Confirmed it catches all 5 pre-existing files by exact line number and does not false-positive on the-way.md or melchizedek-priesthood.md. Not wired into CI (deploy.yml only runs npm test + npm run build, not npm run validate) -- so this doesn't block deploys, only surfaces on a manual/Phase-8 run."
+    - ".claude/skills/develop-bible-study/style-guide.md: new \"Hebrew/RTL text and markdown bold\" section explaining the mechanism and the working fix pattern, cross-linking the why-ai-assisted-study.md and melchizedek-priesthood.md examples."
+    - ".claude/skills/review-bible-study/SKILL.md: Phase 2 now explicitly instructs running npm run validate and treating this error as Critical; the Reporting section's Critical-severity definition now names it by name."
+
+open_questions:
+  - "User has not yet reviewed the fixed draft. Flip draft: false only after their sign-off, per skill Phase 8."
+  - "Five other published studies have the same Hebrew-bold rendering bug (see fix_2026-08-02_hebrew_bold_rendering.wider_finding) -- not fixed, not part of this study. Worth a separate pass if the user wants it."
+resources_consulted:
+  - {type: lexicon, title: "MACULA Greek Linguistic Datasets (SBLGNT) / MACULA Hebrew Linguistic Datasets (WLC)", author: "", note: "Queried via bible-references MCP server (bible_concordance, bible_word, bible_verse) -- full NT hodos concordance, Isaiah 35:8/40:3 Hebrew morphology, Acts 24:14 hairesis tagging."}
+  - {type: dictionary, title: "Theological Wordbook of the Old Testament (TWOT)", author: "Harris, Archer, Waltke", note: "Root 453a for derek (H1870), via twot_strongs MCP tool."}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway, 2016", note: "Notes on John 14:6, Acts 9:1-2, Acts 11:19-26/26, Matthew 3:1-17/3:3 -- consulted last, per skill Phase 6, as a check on conclusions already reached from the text. Confirmed the tabernacle-curtain background to John 14:6 and the outsider-origin reading of 'Christian.'"}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible / NKJV Cultural Backgrounds Study Bible", author: "Zondervan, ed. Walton and Keener", note: "Notes on Acts 9:2, Acts 11:26, John 14:6, Matthew 3:3 -- source of the Qumran 'the Way' self-designation parallel and the political-nickname reading of Christianos. This is the source that changed the draft materially (per skill Phase 6's expectation that commentary consultation should contribute, not just confirm)."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan, 2018, gen. ed. D. A. Carson", note: "Notes on Acts 9:2, 11:26, John 14:6 -- independently confirmed the outsider-origin reading of 'Christian' and Luke's own preference for 'the Way' throughout Acts."}
+last_updated: "2026-08-02"

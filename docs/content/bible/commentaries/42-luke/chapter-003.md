@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Genealogy and Times: From Creation to Christ](../../../studies/prophecy/genealogy-times.md) — 3:23-38
+- [The Way](../../../studies/theology/the-way.md) — 3:4-6
 <!-- commentary-index:auto-end -->

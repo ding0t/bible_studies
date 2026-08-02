@@ -44,5 +44,13 @@ Broader theological topics not tied to a single feast, prophecy, or discipline.
 
     [:octicons-arrow-right-24: Read](numerology.md)
 
+-   __The Way__
+
+    ---
+
+    A New Testament concordance study of 'the way' (hodos): its Old Testament roots, Jesus's claim in John 14:6, and how believers called themselves the Way before outsiders coined 'Christian.'
+
+    [:octicons-arrow-right-24: Read](the-way.md)
+
 </div>
 <!-- section-index:auto-end -->

@@ -148,6 +148,29 @@ function validateFile(filePath) {
     }
   });
   checkQuoteBlock(quoteBlock, quoteBlockStartLine); // trailing block at end of file
+
+  // Check 9: Hebrew/Aramaic text must never be wrapped in markdown bold ("**...**").
+  // Synthetic/faux bold (applied when a font has no real bold weight for a script --
+  // true of Hebrew niqqud/vowel points in most web font stacks) breaks combining-mark
+  // positioning, and the site's one known-good example of inline Hebrew
+  // (docs/content/about/why-ai-assisted-study.md) instead wraps the Hebrew itself in
+  // <span dir="rtl">...</span>, left unbolded -- see the develop-bible-study skill's
+  // style-guide.md for the fuller writeup and worked example. This regex tolerates one
+  // level of nested *italic* (e.g. a transliteration) inside the bold span.
+  const hebrewCharClass = '\\u0590-\\u05FF';
+  const boldSpanPattern = new RegExp(`\\*\\*((?:[^*\\n]|\\*[^*\\n]*\\*)*)\\*\\*`, 'g');
+  const hebrewTest = new RegExp(`[${hebrewCharClass}]`);
+  let boldMatch;
+  while ((boldMatch = boldSpanPattern.exec(bodyContent)) !== null) {
+    if (hebrewTest.test(boldMatch[1])) {
+      const lineNum = bodyContent.slice(0, boldMatch.index).split(/\r?\n/).length + frontmatterEnd + 1;
+      log(
+        'error',
+        filePath,
+        `Line ${lineNum}: Hebrew/Aramaic text is wrapped in markdown bold ("**...**") -- this breaks rendering (see style-guide.md's "Hebrew/RTL text and markdown bold" section). Wrap the Hebrew itself in <span dir="rtl">...</span> instead, and put any bold on the English lead-in text, not the Hebrew glyphs.`
+      );
+    }
+  }
 }
 
 function walkDirectory(dir) {

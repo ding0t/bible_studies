@@ -85,6 +85,32 @@ if there's a fourth that actually adds something, keep it — don't trim a real 
 after making the point. Trust the reader to have read the paragraph; end the section on the last real
 point, not a recap of it.
 
+## Hebrew/RTL text and markdown bold
+
+Never wrap Hebrew or Aramaic text in markdown bold (`**...**`) — not even with a transliteration
+nested inside as italics. It renders broken: browsers fake ("synthetic") a bold weight for scripts
+the font stack has no real bold glyphs for, which is true of Hebrew niqqud (vowel points) in most
+web font stacks, and synthetic bold reliably misplaces or drops combining marks. This has hit
+published studies more than once — `**דֶּרֶךְ (*derek*, H1870...)**`-style spans are the recurring
+shape of the mistake, and by the time it's caught the file is already `draft: false`.
+
+The fix, already established elsewhere on this site
+([why-ai-assisted-study.md](../../../docs/content/about/why-ai-assisted-study.md)'s
+`<span dir="rtl">חֶסֶד</span>` example): wrap the Hebrew glyphs themselves in
+`<span dir="rtl">...</span>`, left unbolded, and keep any bold on the surrounding English lead-in
+text instead — `**Name and city.** Melchizedek — Hebrew מַלְכִּי־צֶדֶק (*malkî-ṣedeq*)...` (from
+[melchizedek-priesthood.md](../../../docs/content/studies/theology/melchizedek-priesthood.md)) is
+the working pattern: bold the English label, leave the Hebrew itself plain (a `dir="rtl"` span adds
+correct directional isolation on top of that, worth adding whenever the Hebrew sits inline next to
+Latin punctuation like a following parenthesis). Greek doesn't have this problem — bold-wrapping
+Greek (`**ὁδός**`) is safe and common throughout this site's studies; this rule is specific to
+Hebrew/Aramaic's RTL script and its combining vowel points.
+
+`npm run validate` catches this automatically (Check 9 in `app/scripts/validate-content.js`, an
+**error**-level finding) — run it before flipping `draft: false` rather than relying on a visual
+re-read, since the broken markdown/HTML source looks completely unremarkable and the breakage only
+shows up in the rendered page.
+
 ## A pre-publish check
 
 Before a draft goes to `draft: false`, grep it for: `genuinely, truly, actually, really, certainly,

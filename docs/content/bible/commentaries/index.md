@@ -252,6 +252,24 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](59-james/)
 
+-   __1 Peter__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](60-1-peter/)
+
+-   __2 Peter__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](61-2-peter/)
+
+-   __Jude__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](65-jude/)
+
 -   __Revelation__
 
     ---
