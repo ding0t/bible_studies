@@ -160,7 +160,7 @@ describe that return as a new exodus, God leading his people through the wildern
 once led their ancestors out of Egypt (compare Isaiah 11:16; Hosea 2:14-15).[^nkjvcbsb-matt3] All
 four Gospels quote this verse and apply it, without exception, to John the Baptist:
 
-| Gospel | Reference |
+| Gospel | Reference (ESV) |
 |---|---|
 | Matthew | 3:3 — "Prepare the way of the Lord; make his paths straight" |
 | Mark | 1:2-3 — same quotation, prefaced by Malachi 3:1's messenger oracle |
@@ -307,14 +307,14 @@ figuratively, not introducing a new sense from nowhere.
 Six times, always with the definite article — **ἡ ὁδός**, *the* Way — Acts uses this as a name for
 the movement, not a description of it:
 
-| Reference | Context |
+| Reference (ESV) | Context |
 |---|---|
-| 9:2 | Saul asks the high priest for authority to arrest "any belonging to the Way" in Damascus |
-| 19:9 | Some in Ephesus's synagogue speak "evil of the Way," so Paul withdraws to teach separately |
-| 19:23 | The silversmiths' riot over Artemis idols: "no little disturbance concerning the Way" |
-| 22:4 | Paul's own testimony: "I persecuted this Way to the death, binding and delivering to prison both men and women" |
-| 24:14 | Before Felix: "according to the Way, which they call a sect, I worship the God of our fathers" |
-| 24:22 | Felix, "having a rather accurate knowledge of the Way," defers Paul's case |
+| Acts 9:2 | Saul asks the high priest for authority to arrest "any belonging to the Way" in Damascus |
+| Acts 19:9 | Some in Ephesus's synagogue speak "evil of the Way," so Paul withdraws to teach separately |
+| Acts 19:23 | The silversmiths' riot over Artemis idols: "no little disturbance concerning the Way" |
+| Acts 22:4 | Paul's own testimony: "I persecuted this Way to the death, binding and delivering to prison both men and women" |
+| Acts 24:14 | Before Felix: "according to the Way, which they call a sect, I worship the God of our fathers" |
+| Acts 24:22 | Felix, "having a rather accurate knowledge of the Way," defers Paul's case |
 
 The name spans Paul's entire career inside the narrative — from persecutor before his conversion
 (9:2; his own later confession at 22:4) to prisoner defending himself in the same words at the end
