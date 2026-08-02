@@ -81,8 +81,8 @@ letter's argument (5:6; 7:17, 21) to press the point that God said this would ha
 
 - **Think:** stop treating your standing before God as something that has to be re-earned. It
   rests on an oath and an indestructible life — his, not your record of performance.
-- **Attitude:** let "draw near with confidence" (4:16) replace whatever anxious, provisional
-  posture you bring to prayer — that confidence is the text's own word for it, not optimism you're
+- **Attitude:** let "with confidence draw near to the throne of grace" (4:16, ESV) replace whatever
+  anxious, provisional posture you bring to prayer — that confidence is the text's own word for it, not optimism you're
   supposed to manufacture on your own.
 - **Do:** name one place you're still relating to God on a repeat-performance basis — trying to
   re-earn what a single, finished sacrifice already secured — and bring that specific thing to him
@@ -109,7 +109,9 @@ before it reaches either Melchizedek or Aaron.
 לְעָבְדָהּ וּלְשָׁמְרָהּ, from עָבַד (*avad*, "work, serve") and שָׁמַר (*shamar*, "keep,
 guard"). The same two verbs recur together for the priests' and Levites' work at the tabernacle:
 "they shall keep [שָׁמַר] his charge... to do the service [עָבַד] of the tabernacle" (Numbers
-3:7-8), and again at 18:7. The ESV Study Bible's note on this verse draws the conclusion directly:
+3:7-8, ASV — its "charge" keeps the construct-noun sense מִשְׁמֶרֶת carries more visibly than
+ESV's "keep guard over him"), and again at 18:7. The ESV Study Bible's note on this verse draws
+the conclusion directly:
 Adam's role "is to be not only a gardener but also a guardian... as a priest, he is to maintain the
 sanctity of the garden as part of a temple complex" — and its heading for the whole section names
 Eden itself "the Sanctuary of Eden."[^esvsb-eden] The NIV Biblical Theology Study Bible makes the
@@ -120,22 +122,23 @@ when the first man forfeits it; it is reassigned.
 
 **Noah and the patriarchs.** No separate priestly class exists yet in Genesis. The household head
 acts as his family's priest directly: Noah "built an altar to Yahweh... and offered burnt
-offerings" with his own hands after the flood (Genesis 8:20), and Abraham and Isaac do the same at
+offerings" with his own hands after the flood (Genesis 8:20, WEB), and Abraham and Isaac do the same at
 their own altars (Genesis 12:7-8; 26:25). Priesthood in this period is a function of headship, not
 a distinct office someone is set apart into.
 
 **The firstborn, then the Levites.** That changes at Sinai, in two steps. First, after the tenth
 plague spared Israel's own firstborn, God claims them: "Sanctify to me all the firstborn... it is
-mine" (Exodus 13:2) — the implication, confirmed by the ESV Study Bible's note on the parallel text
-in Numbers, being that Israel's firstborn sons were meant to serve God in the sanctuary in place of
-their Egyptian counterparts who died.[^esvsb-num3] That plan does not survive the golden calf. When
-Moses called "whoever is on Yahweh's side" after Israel's idolatry, only "the sons of Levi gathered
-themselves together to him," carried out the resulting judgment, and were told, "Consecrate
-yourselves today to Yahweh... that he may give you a blessing today" (Exodus 32:26-29). Numbers
-then narrates the formal transfer this loyalty earned: "I have taken the Levites from among the
-children of Israel instead of all the firstborn who open the womb... and the Levites shall be
-mine" (Numbers 3:12), restated at 8:16 — "instead of all who open the womb, even the firstborn of
-all the children of Israel, I have taken them to me." The priestly office that began as every
+mine" (Exodus 13:2, WEB) — the implication, confirmed by the ESV Study Bible's note on the parallel
+text in Numbers, being that Israel's firstborn sons were meant to serve God in the sanctuary in
+place of their Egyptian counterparts who died.[^esvsb-num3] That plan does not survive the golden
+calf. When Moses called "whoever is on Yahweh's side" after Israel's idolatry, only "the sons of
+Levi gathered themselves together to him," carried out the resulting judgment, and were told,
+"Consecrate yourselves today to Yahweh... that he may give you a blessing today" (Exodus 32:26-29,
+WEB). Numbers then narrates the formal transfer this loyalty earned: "I have taken the Levites from
+among the children of Israel instead of all the firstborn who open the womb... and the Levites
+shall be mine" (Numbers 3:12, WEB), restated at 8:16 (WEB) — "instead of all who open the womb,
+even the firstborn of all the children of Israel, I have taken them to me." The priestly office
+that began as every
 Israelite firstborn son's birthright becomes, specifically because of Israel's failure and Levi's
 faithfulness at that failure, the possession of one tribe. Aaron's own line within that tribe is
 appointed later still (Exodus 28:1), and only then does the office narrow to a single family.
@@ -207,10 +210,10 @@ standard move for a Greek-speaking audience who would not have parsed the Hebrew
 generic high gods elsewhere in Canaanite religion — so on a strictly comparative-religion reading,
 nothing in Genesis 14 by itself proves Melchizedek worshiped the God of Abram specifically.[^cbsb-gen14]
 The narrative itself, though, closes that gap: three verses after receiving Melchizedek's
-blessing, Abram swears his own oath "to Yahweh, El Elyon, possessor of heaven and earth" (Genesis
-14:22), fusing the covenant name with Melchizedek's title in a single breath. The text's own
-author intends the reader to recognize them as the same God, whatever the title's wider currency
-in the surrounding culture.
+blessing, Abram swears his own oath "to Yahweh, God Most High, possessor of heaven and earth"
+(Genesis 14:22, WEB) — the same El Elyon title from verse 20, now fused with the covenant name in
+a single breath. The text's own author intends the reader to recognize them as the same God,
+whatever the title's wider currency in the surrounding culture.
 
 **No genealogy.** Genesis is structured around *toledot* — the recurring "these are the
 generations of" formula that tracks every major figure's line. Melchizedek alone gets none. He
@@ -343,8 +346,10 @@ never reaches for it.
 7; it is prepared for three separate times earlier in the letter. Hebrews 2:17-18 first introduces
 Jesus as a "merciful and faithful high priest" who can help those who are tempted because he was
 tempted himself. Hebrews 4:14-16 returns to that title to ground a call to hold fast: "since we
-have a great high priest who has passed through the heavens, Jesus, the Son of God... let us draw
-near with confidence." Then 5:1-10 states the two qualifications any legitimate high priest must
+have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold
+fast our confession" (4:14, ESV) — then turns that same confidence outward into approach: "with
+confidence draw near to the throne of grace, that we may receive mercy and find grace to help in
+time of need" (4:16, ESV). Then 5:1-10 states the two qualifications any legitimate high priest must
 meet — he must be taken from among men, and he must be called by God rather than self-appointed,
 "just as Aaron was" (5:4). Christ meets both: appointed by the Father's own declaration, which
 Hebrews quotes as two psalms laid side by side —
@@ -420,12 +425,12 @@ grounds the claim directly in the tabernacle's own founding instructions: God to
 "see that you make everything according to the pattern (τύπος) that was shown you on the mountain"
 (Exodus 25:40, quoted at 8:5). The earthly sanctuary was designed, from its first blueprint, to
 copy something else. Hebrews repeats the claim at 9:23-24: the tabernacle's furnishings are
-"copies (ὑποδείγματα) of the things in the heavens," needing only earthly rites to purify them,
-while "the heavenly things themselves" required "better sacrifices" — because Christ "has not
-entered holy places made with hands, which are copies (ἀντίτυπα) of the true things, but into
-heaven itself." Chapter 10 restates the same point once more, in temporal rather than spatial
-terms: the law has only "a shadow (σκιά) of the good things to come, not the true form (εἰκών)
-of those realities" (10:1).
+"copies (ὑποδείγματα) of the heavenly things," needing only earthly rites to purify them, while
+"the heavenly things themselves" required "better sacrifices" — because Christ "has entered, not
+into holy places made with hands, which are copies (ἀντίτυπα) of the true things, but into heaven
+itself" (9:23-24, ESV). Chapter 10 restates the same point once more, in temporal rather than
+spatial terms: the law has "but a shadow (σκιά) of the good things to come instead of the true
+form (εἰκών) of these realities" (10:1, ESV).
 
 Calling chapters 5-10 "one argument" describes how the letter is *built*, then — chapter 8 states
 the conclusion chapter 7 was arguing toward. It doesn't mean the letter uses one typology
@@ -546,6 +551,15 @@ promise independently, Jeremiah 31:31-34 (quoted at Hebrews 8:8-12) supplies the
 priesthood secures, and the "once for all" pattern recurs elsewhere in the New Testament for the
 same event (Romans 6:10; 1 Peter 3:18).
 
+What's historically particular here and what transcends it are two different things. The
+Chedorlaomer campaign, the mechanics of Levitical tithing, and the Second Temple speculation this
+study surveys are all time-bound — details of when and how the argument arose, not the argument
+itself. What transcends that setting is the letter's own stated claim: a priesthood secured by
+oath and indestructible life, exercised in the true sanctuary through a single sufficient
+sacrifice, holds now on the same terms Hebrews describes. That claim doesn't depend on the
+campaign, the tithe, or the scrolls being true — only on the priesthood and the sacrifice being
+what Hebrews says they are.
+
 On a dispensational reading, Melchizedek's priesthood in
 Genesis 14 predates Sinai by centuries and belongs to a Gentile king outside Abraham's own line
 entirely. Priestly mediation, in other words, did not begin as a Mosaic institution limited to
@@ -558,7 +572,7 @@ belongs to a different economy altogether, not an upgraded version of the same o
 
 What follows for a reader today is stated directly by the text, not merely implied by it. Because
 access to God no longer depends on a human priesthood that must repeat its work, believers are told
-to "draw near with confidence" (4:16) rather than uncertainty about whether they have been
+to "with confidence draw near to the throne of grace" (4:16, ESV) rather than uncertainty about whether they have been
 accepted. And because Christ's priesthood cannot be transferred or interrupted by death, "he is
 able to save to the uttermost those who draw near to God through him, since he always lives to
 make intercession for them" (7:25) — a present-tense, ongoing intercession, not a past transaction

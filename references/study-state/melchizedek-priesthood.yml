@@ -509,3 +509,148 @@ publication_2026-08-02:
     commentaries index grid. Spot-checked one generated file (Psalms 110) for correctness before
     committing. Final validate-content.js run: 0 errors, only pre-existing unrelated warnings.
   status: published, committed locally -- user will push.
+
+review_2026-08-02:
+  method: >
+    Full run of the review-bible-study skill (adversarial, independent re-derivation, not a re-read)
+    against the live (draft: false) file. Companion state file (this file) exists and was extended,
+    not replaced.
+  critical_findings:
+    - id: translation-label-mismatch
+      summary: >
+        The "Priesthood before Sinai: Adam, the firstborn, and the Levites" section (~lines 108-141)
+        quotes a mix of WEB and ASV verbatim -- word for word confirmed via fresh bible-references
+        MCP queries -- while the study's References section states ESV is "the primary translation
+        quoted throughout" and no other translation is named for any quote in this section. Specific
+        confirmed instances: Gen 8:20 "built an altar to Yahweh" = WEB (ESV: "to the LORD"); Exod
+        13:2 "Sanctify to me... it is mine" = WEB (ESV: "Consecrate to me"); Exod 32:26,29 "whoever
+        is on Yahweh's side," "gathered themselves together to him," "Consecrate yourselves today to
+        Yahweh... that he may give you a blessing today" = WEB verbatim (ESV materially different:
+        "Today you have been ordained for the service of the LORD..."); Num 3:12 "children of
+        Israel... shall be mine" = WEB (ESV: "people of Israel"); Num 8:16 = WEB verbatim (ESV
+        differs); Num 3:7-8 "keep [his] charge... to do the service" = ASV specifically, not WEB, not
+        ESV (WEB: "keep his requirements"; ESV: "keep guard over him... minister"). Gen 14:22's "to
+        Yahweh, El Elyon, possessor of heaven and earth" matches NONE of ESV/WEB/ASV verbatim --
+        WEB has "Yahweh, God Most High" (not transliterated "El Elyon"); this appears to be the
+        study's own hybrid rendering, presented in quotation marks with a bare citation and no
+        translation named at all. None of the underlying quotes are fabricated or theologically
+        wrong -- they're accurate to real translations -- but the labeling violates AGENTS.md's
+        "always provide translation used if making a quote" across a whole section of a live,
+        published file.
+  moderate_findings:
+    - id: quote-fidelity-ch4-10
+      summary: >
+        Several fragments inside quotation marks in the "Hebrews' argument, traced" section
+        (implying verbatim ESV, the study's stated default) don't match ESV's actual wording:
+        "draw near with confidence" (lines 84, 561) reverses ESV 4:16's actual order ("with
+        confidence draw near"); the 4:14-16 composite quote (lines 345-347) splices 4:14's opening
+        with 4:16's ending via ellipsis, but 4:14's own actual continuation is "let us hold fast our
+        confession" -- which is what the surrounding prose's own framing ("returns to that title to
+        ground a call to hold fast") describes, yet the quote given omits "hold fast" entirely; 9:23
+        "copies... of the things in the heavens" vs ESV's actual "copies of the heavenly things";
+        9:24 "has not entered holy places made with hands" vs ESV's actual word order "has entered,
+        not into holy places made with hands"; 10:1 "not the true form... of those realities" vs
+        ESV's actual "instead of the true form... of these realities." No theological distortion in
+        any case, and the embedded Greek-lemma citations (kephalaion, eikon, hypodeigma, antitypos,
+        skia) are all independently re-verified correct -- this is a quotation-exactness problem,
+        the same failure mode AGENTS.md's own John 6:34 "Sir"/"Lord" cautionary example warns
+        against, not a fabrication or citation-target problem.
+    - id: context-coverage-gap-cultural-vs-transcultural
+      summary: >
+        how-to-read-the-bible.md question 5 (cultural-vs-transcultural line drawn explicitly) is
+        "partial." The distinction was researched and recorded in this state file's
+        hermeneutics.cultural_vs_transcultural notes during drafting, but the published Theological
+        Principle section moves from exegesis straight to dispensational application without an
+        explicit reader-facing sentence marking what's historically particular (the Chedorlaomer
+        campaign, Levitical tithe specifics, Second Temple speculation) versus what transcends it
+        (the letter's own stated theological claim). Fixable with one added sentence; not currently
+        present in the text itself.
+  minor_findings:
+    - id: kreitton-count-strongs-split
+      summary: >
+        The kreittōn "twelve times... more than any other NT book" claim re-verified as accurate,
+        but only resolves cleanly once two related Strong's numbers are combined: G2909 (kreittōn)
+        returns 11 Hebrews occurrences on its own; the 12th (6:9) is tagged under the sibling
+        spelling-variant G2908 (kreissōn, same lexeme, Attic/Koine spelling split). A naive
+        single-Strong's-number concordance check appears to undercount by one until this is known.
+        Not a study error -- noted so a future reviewer doesn't re-flag it as one.
+    - id: style-links-clean
+      summary: >
+        Style-guide grep, internal link targets (key-takeaways.md, zadok-calendar.md,
+        israel-and-the-church.md), footnote ref/definition matching, section order (per SKILL.md
+        Phase 7), and copyright/quotation-length (five short blockquotes plus scattered fragments,
+        nowhere near any translation's percentage cap) all checked clean, no findings.
+    - id: phase4-independent-commentary-check
+      summary: >
+        Queried NKJV Cultural Backgrounds Study Bible and NIV Biblical Theology Study Bible on
+        Hebrews 7 -- neither cited in this study's own References, satisfying Phase 4's
+        independence requirement. Result: confirms across every central claim checked (engyos as
+        legal-surety term; the 7:23-25 mortality contrast; the explicitly typological, not literal,
+        reading of "Levi in Abraham's loins" at 7:9-10; Melchizedek as resemblance-type rather than
+        literal appearance). One non-contradicting enrichment surfaced and not currently in the
+        study: NKJV CBSB's note on 7:23 adds that first-century Rome deposed high priests at will,
+        a second reason (beyond death) the Levitical line saw so many priests -- optional addition,
+        not a gap.
+    - id: philo-josephus-not-reverified
+      summary: >
+        Philo (Legum Allegoriae 3.79-82) and Josephus (Antiquities 1.10.2) citations were not
+        independently re-verified against primary text in this pass -- this repo's tools don't
+        provide direct primary-source access to either; original sourcing (documented earlier in
+        this file) relied on WebSearch against published translations. Noting as a limitation
+        rather than treating it as re-verified.
+  not_yet_actioned: >
+    Per the skill's discipline, nothing above was fixed during this review pass. Findings presented
+    to the user; awaiting direction on which to act on before any edits are made.
+
+review_2026-08-02_fixes:
+  user_direction: >
+    Approved fixing critical + moderate findings, with one explicit correction to my framing: the
+    user is fine with quoting WEB/ASV instead of ESV where it genuinely serves the argument (e.g.
+    preserves a construct-noun sense ESV's smoother rendering loses) -- the problem was the silent,
+    unlabeled drift, not the translation choice itself. Asked that this be codified in the skill.
+  fixes_applied:
+    - target: translation-label-mismatch (critical)
+      action: >
+        Did not rewrite the "Priesthood before Sinai" section's wording to ESV. Instead added
+        explicit inline labels at each quote, matching the site's existing "(reference, TRANSLATION)"
+        convention already used elsewhere in this file: Numbers 3:7-8 -> ", ASV" (with a one-clause
+        note on why ASV's "charge" was kept over ESV's "keep guard over him" -- it preserves the
+        construct-noun sense more visibly); Genesis 8:20, Exodus 13:2, Exodus 32:26-29, Numbers
+        3:12, Numbers 8:16 -> ", WEB" (all re-confirmed verbatim WEB matches before labeling, not
+        assumed). Genesis 14:22's hybrid "El Elyon" rendering (matching no translation verbatim) was
+        corrected to WEB's actual wording ("God Most High"), with the El-Elyon thematic point moved
+        outside the quotation marks as commentary rather than presented as if it were translated
+        text.
+    - target: quote-fidelity-ch4-10 (moderate)
+      action: >
+        Fixed to match ESV exactly rather than relabeling to a different translation, since these
+        were unintentional drift with no thematic reason to prefer another translation: "draw near
+        with confidence" (both occurrences) corrected to ESV's actual word order "with confidence
+        draw near to the throne of grace"; the 4:14-16 composite quote rewritten as two separate,
+        fully accurate citations (4:14 now actually quotes "let us hold fast our confession,"
+        matching what the surrounding prose's own framing claims, instead of silently substituting
+        4:16's different exhortation) rather than one misleading ellipsis-spliced sentence; 9:23-24
+        and 10:1 wording corrected to ESV's exact phrasing ("copies of the heavenly things," "has
+        entered, not into holy places," "but a shadow... instead of the true form... of these
+        realities").
+    - target: context-coverage-gap-cultural-vs-transcultural (moderate)
+      action: >
+        Added an explicit paragraph to the Theological Principle section separating what's
+        historically particular (the Chedorlaomer campaign, Levitical tithe mechanics, Second Temple
+        speculation) from what transcends it (the letter's own priesthood/sacrifice claim, true
+        regardless of those particulars) -- previously only present in this state file's research
+        trail, not in the reader-facing text.
+    - target: skill update (user-requested)
+      action: >
+        Added a paragraph to .claude/skills/develop-bible-study/SKILL.md's Phase 7 translation-label
+        bullet: quoting WEB/ASV/another named translation instead of ESV is legitimate when it
+        genuinely serves the argument (same spirit as Phase 6's existing translation-comparison
+        step) -- the failure mode is doing so silently, not the choice itself. Instructs checking
+        which work_id a lookup actually returned before treating it as ESV by default, and labeling
+        every non-ESV quote inline, not only in the References summary.
+  verification: >
+    Style-guide grep clean (also caught and fixed one new "worth separating explicitly" narrated-
+    argument phrase introduced while drafting the cultural-vs-transcultural paragraph). Frontmatter
+    valid. validate-content.js: 0 errors, only the same two pre-existing unrelated warnings as
+    before these fixes (proverbs commentary page, homepage frontmatter) -- nothing new introduced.
+  status: fixes applied, not yet committed -- awaiting user instruction on committing this round.
