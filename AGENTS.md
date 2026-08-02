@@ -85,10 +85,12 @@ npm run lint         # eslint src/
 npm run build        # prebuild regenerates docs/data/events.json from content frontmatter, then astro build
 ```
 
-`npm run validate` (`app/scripts/validate-content.js`) is referenced in `docs/CONTENT_GUIDE.md` but
-is currently broken — it hardcodes a path relative to `app/` that predates the mkdocs split and
-can't find `docs/content` anymore (see `docs/dev/CONTRIBUTING.md`). Validate new content by hand
-against the CONTENT_GUIDE.md checklist instead of trusting that command.
+`npm run validate` (`app/scripts/validate-content.js`, run from `app/`) checks frontmatter
+(required fields, tag quoting, draft status), image paths, and — as of the develop-bible-study
+skill's scripture quote block format — that any blockquote citing Bible text opens with
+`> ✝️ Reference (TRANSLATION)` as its first line rather than putting the reference at the end.
+Despite an older note here calling it broken, it correctly resolves `docs/content` and runs clean;
+that note was stale, not the script.
 
 **Bible-text database** (`references/build/` — `uv`-managed Python, ≥3.14):
 

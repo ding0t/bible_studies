@@ -84,6 +84,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](13-1-chronicles/)
 
+-   __2 Chronicles__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](14-2-chronicles/)
+
 -   __Ezra__
 
     ---

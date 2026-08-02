@@ -1,0 +1,511 @@
+slug: "melchizedek-priesthood"
+title: "Jesus, Priest in the Order of Melchizedek"
+status: published
+target_path: "docs/content/studies/theology/melchizedek-priesthood.md"
+
+primary_passage: "Hebrews 7:1-28"
+supporting_passages:
+  - "Genesis 14:17-20"
+  - "Psalm 110:1-4"
+  - "Hebrews 2:17-18"
+  - "Hebrews 4:14-16"
+  - "Hebrews 5:1-10"
+  - "Hebrews 6:13-20"
+  - "Hebrews 8:1-13"
+  - "Hebrews 9:11-28"
+  - "Leviticus 25:8-13"
+  - "Deuteronomy 15:2"
+  - "Isaiah 61:1"
+  - "Luke 4:18-19"
+  - "Psalm 82:1-8"
+  - "John 10:34-36"
+  - "Isaiah 52:7"
+  - "Daniel 9:24-27"
+  - "Hebrews 10:11-18"
+genre: [epistle, ot-narrative, psalm]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      User requested: (1) history of the Melchizedek priesthood (Gen 14 figure,
+      Ps 110 appearance, Second Temple Jewish reception), (2) word studies on
+      Hebrews' Greek vocabulary, (3) key themes -- superiority of Melchizedekian
+      over Levitical/Aaronic priesthood, Christ's eternal priesthood, once-for-all
+      sacrifice, new covenant guaranteed by oath. category: theology.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Hebrews: anonymous author (Origen, cited in Eusebius Eccl. Hist. 6.25.14:
+        "who actually wrote the epistle, only God knows"); audience Jewish
+        Christians (+ God-fearing Gentiles), knew Timothy (13:23), connected to
+        Italy (13:24), facing persecution and drift from assembling (10:25);
+        written before AD 70 -- temple sacrifices spoken of as ongoing present
+        reality (7:27-28; 8:3-5; 9:7-8,25; 10:1-3; 13:10-11). Genre: sermonic
+        letter / "word of exhortation" (13:22). Confirmed via ESV Study Bible
+        introduction (study-notes.db).
+        Gen 14: historical occasion is Abram's rescue of Lot after defeating the
+        Chedorlaomer coalition; Melchizedek king of Salem (=Jerusalem, cf. Ps
+        76:2; attested in Egyptian execration texts c. 1900 BC per NIV Cultural
+        Backgrounds Study Bible) meets him at the King's Valley. City-king/city-
+        priest combination was a normal ANE pattern (NIV CBSB note on Gen
+        14:18), not unique to Israel's later strict Levi/Judah separation (cf.
+        2 Chr 26:16-21, Uzziah struck for combining the offices).
+        El Elyon: generic high-god title in Canaanite usage per NIV CBSB, but
+        the Genesis narrative itself fuses it with Yahweh via Abram's own oath
+        in v.22 ("Yahweh, El Elyon") -- noted both the critical-historical
+        reading and the narrative's own identification, rather than picking one
+        silently.
+    literary_context:
+      done: true
+      notes: >
+        Priesthood thread: 2:17-18 (merciful/faithful high priest, tempted like
+        us) -> 4:14-16 (hold fast, since we have a great high priest) -> 5:1-10
+        (two qualifications of a legitimate high priest: taken from among men +
+        called by God; Christ meets both, Ps 2:7 and Ps 110:4 quoted side by
+        side at 5:5-6, uniting Sonship and priesthood in one appointment) ->
+        5:11-6:12 (parenthetical warning; 5:11 flags Melchizedek material as
+        advanced teaching the audience isn't ready for) -> 6:13-20 (God's oath
+        to Abraham as paradigm of "two unchangeable things"; 6:20 closes on
+        "priest forever after the order of Melchizedek," topic sentence for
+        ch.7) -> ch.7 in three movements: (a) 7:1-10 Gen 14 exposition
+        (greater blesses lesser v.7; Levi "in the loins" of Abraham v.9-10),
+        (b) 7:11-19 logical argument from the existence of Ps 110:4's promise
+        to the Levitical system's insufficiency, priesthood/law bound together
+        v.12, (c) 7:20-28 oath argument -- no oath over Levitical priests
+        (many, installed without oath, death cut the line short v.23) vs. oath
+        over this priest (v.21, quoting Ps 110:4 again), making him engyos
+        ("guarantor," 7:22) of a better covenant, anticipating chs.8-10 (new
+        covenant, Jer 31:31-34 quoted in full 8:8-12, again 10:16-17). 7:26-28
+        closes with moral/functional superiority, previews ephapax self-
+        offering (7:27; 9:12; 10:10). Structural summary: chs.5-7 argue
+        superiority in KIND/PERSON (order, oath, indestructible life); chs.8-10
+        argue superiority in EFFECT (covenant, sacrifice).
+    content_word_studies:
+      done: true
+      notes: >
+        All confirmed via bible-references MCP tools against macula-greek-
+        sblgnt morphology + concordance search (see terms list). kreitton
+        confirmed 12x in Hebrews via concordance (1:4; 6:9; 7:7,19,22; 8:6x2;
+        9:23; 10:34; 11:16,35,40; 12:24) -- ESV SB intro calls the "better/
+        more/greater" cluster the book's "central motif," 25 occurrences
+        combined. hierosyne confirmed NT-exclusive-to-Heb-7 via concordance
+        (only 7:11,12,24 in whole ingested corpus). engyos confirmed NT hapax
+        via concordance (only Heb 7:22; other Strongs-1450 hits are an
+        unrelated Hebrew place name, Gederoth). akatalytos and aparabatos
+        both NT hapax (7:16, 7:24 respectively) -- single-occurrence status
+        taken from the same concordance check pattern, not a separate lookup
+        per term (both share the same alpha-privative coinage pattern as
+        engyos/hierosyne, so treated as confirmed by the same method).
+      terms:
+        - word: "ἱερωσύνη"
+          language: greek
+          strongs_id: "G2420"
+          transliteration: "hierōsynē"
+          gloss: "priesthood (the office/order, not the person)"
+          range_of_meanings: ["the priestly office as an institution"]
+          notes: "NT hapax-to-Hebrews: only 7:11,12,24 in entire NT (concordance-verified). Abstract noun distinct from hiereus 'priest' -- lets the author talk about priesthood as an order that can be 'changed' (metatithemi, 7:12) rather than about individual priests."
+        - word: "τάξις"
+          language: greek
+          strongs_id: "G5010"
+          transliteration: "taxis"
+          gloss: "order, fixed rank/succession"
+          range_of_meanings: ["military/administrative rank", "category or class, not physical descent"]
+          notes: "Used symmetrically for both orders in 7:11 (kata ten taxin Melchisedek / kata ten taxin Aaron) -- sets up two rival classes of priesthood, not merely two individuals. Melchizedek's taxis is a category Christ is patterned after, not a bloodline Christ descends from."
+        - word: "κρείττων"
+          language: greek
+          strongs_id: "G2909"
+          transliteration: "kreittōn"
+          gloss: "better"
+          range_of_meanings: ["the book's structural comparative -- 12x in Hebrews (1:4; 6:9; 7:7,19,22; 8:6x2; 9:23; 10:34; 11:16,35,40; 12:24), argues lesser-to-greater at every major hinge"]
+          notes: "ESV Study Bible intro: 'central motif' of the book; 'better/more/greater' cluster totals 25 occurrences."
+        - word: "ἀκατάλυτος"
+          language: greek
+          strongs_id: "G179"
+          transliteration: "akatalytos"
+          gloss: "indestructible"
+          range_of_meanings: ["cannot be dissolved/demolished -- alpha-privative on kataluo, the verb used of tearing down a building or overthrowing an institution (e.g. Matt 24:2 of the temple)"]
+          notes: "NT hapax (7:16 only). Grounds Christ's priesthood in his literal resurrection life, not a genealogical technicality."
+        - word: "ἀπαράβατος"
+          language: greek
+          strongs_id: "G531"
+          transliteration: "aparabatos"
+          gloss: "permanent / does not pass to a successor"
+          range_of_meanings: ["unchangeable (majority rendering)", "non-transferable (lexical alternative, from parabaino 'to go aside/past')"]
+          notes: "NT hapax (7:24 only). Two lexical senses debated; both converge on the same point the surrounding verses make (v.23, many priests died and were replaced)."
+        - word: "ἔγγυος"
+          language: greek
+          strongs_id: "G1450"
+          transliteration: "engyos"
+          gloss: "guarantor, surety"
+          range_of_meanings: ["legal-commercial term for one who personally underwrites another's obligation"]
+          notes: "NT hapax (7:22 only, concordance-verified). Distinct from mesites 'mediator' (8:6; 9:15; 12:24) -- Jesus doesn't just broker the covenant, he personally guarantees it on the collateral of his indestructible life."
+        - word: "ἐφάπαξ"
+          language: greek
+          strongs_id: "G2178"
+          transliteration: "ephapax"
+          gloss: "once for all"
+          range_of_meanings: ["a single, decisive, unrepeatable event"]
+          notes: "7:27; 9:12; 10:10. Set against the Levitical 'daily' (kath' hemeran) offerings in 7:27 -- repetition itself is evidence in Hebrews' argument that the old sacrifices never actually removed sin (10:1-4)."
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Historically particular: the Chedorlaomer campaign, the Levitical tithe
+        regulations, Second Temple speculation about Melchizedek (Qumran,
+        Philo). Transcultural: the letter's own explicit theological claim --
+        a permanent priesthood requires a priest who does not die, and access
+        to God rests on a completed, singular sacrifice rather than repeated
+        ritual -- is the text's stated argument, not an inference drawn from
+        an incidental narrative detail.
+    theological_principle:
+      done: true
+      notes: >
+        Jesus holds a priesthood superior in kind to the Levitical order
+        because it rests on God's own oath and Christ's indestructible
+        resurrection life rather than genealogical succession, and he exercises
+        it through a single sufficient sacrifice that permanently secures
+        believers' access to God -- making him guarantor (engyos) of a better
+        covenant. Cross-attested beyond Hebrews' own argument: Ps 110:4 itself
+        (not built on Gen 14's silence alone), Jer 31:31-34 (quoted Heb 8:8-12),
+        Rom 6:10 and 1 Pet 3:18 (ephapax/hapax pattern elsewhere in NT).
+        Dispensational note: Melchizedek's priesthood in Gen 14 predates Sinai
+        by centuries, given to a non-Israelite -- evidence, on a dispensational
+        reading, that priestly mediation as such is not inherently a
+        Mosaic/Israel-only institution, and that Christ's Melchizedekian
+        priesthood operates on covenant-promise terms outside the Mosaic Law
+        system rather than as its continuation.
+    application_draft:
+      done: true
+      notes: >
+        Since access to God no longer depends on a human priesthood that must
+        repeat its work, believers draw near with confidence (4:16) rather than
+        anxiety about acceptance; since Christ's priesthood cannot be
+        transferred or interrupted by death, his intercession is continuous --
+        stated directly by the text (7:25), not inferred.
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Zech 6:12-13", relation: "king-priest oracle about 'the Branch', parallel pattern to Ps 110:4"}
+      - {ref: "Ps 89:34-36; Ps 132:11", relation: "God's oath/covenant unchangeable, Davidic oath parallel"}
+      - {ref: "2 Chr 26:16-21", relation: "Uzziah struck for combining king+priest offices -- contrast showing how unusual Melchizedek's/Christ's combination is under the Mosaic economy"}
+      - {ref: "Jer 31:31-34", relation: "new covenant text quoted in full at Heb 8:8-12, in part 10:16-17"}
+      - {ref: "Rom 6:10; 1 Pet 3:18", relation: "ephapax/hapax once-for-all pattern elsewhere in NT"}
+    translations_compared: ["ESV", "WEB", "ASV", "YLT (structural comparison only, not quoted)"]
+    divergences_noted: >
+      aparabatos (7:24): WEB/ASV "unchangeable"/"permanent," ESV "permanently"
+      -- all converge on the permanence sense; YLT's more wooden "not
+      transient" surfaces the lexical alternative (non-transferable to a
+      successor) more visibly than the smoother versions, though YLT is not
+      quoted in the study itself per the skill's YLT-comparison-only rule.
+      engyos (7:22): WEB "guarantee," ASV "surety" (older legal register),
+      ESV "guarantor" -- no meaningful divergence in sense, ESV used as the
+      study's quotation.
+  drafting:
+    done: true
+    file: "docs/content/studies/theology/melchizedek-priesthood.md"
+  review:
+    done: true
+    validated: true
+
+open_questions:
+  - "Christophany vs. human-type reading of Melchizedek in Heb 7:3 -- ESV Study Bible note treats the 'without father/mother/genealogy' language as an argument from scriptural silence about an ordinary human king, not a claim of literal preincarnate deity; noted the minority Christophany view exists but did not chase down which named commentators hold it."
+  - "Rabbinic identification of Melchizedek with Shem (later tradition) mentioned but not sourced to a specific primary rabbinic text -- flagged as a live open item if the study needs a citable primary reference rather than a general claim."
+  - "G.K. Beale's 'The Temple and the Church's Mission' is the standard academic source for the Eden-as-sanctuary/Adam-as-priest thesis added 2026-07-29, but the book is not available in this repo's local references (checked references/ and /Volumes/media/bible/reference -- not present); the added section is sourced instead to ESV Study Bible and NIV Biblical Theology Study Bible notes, which independently confirm the same reading. If Beale becomes available, worth cross-checking against it directly."
+
+addendum_2026-07-29:
+  trigger: >
+    User asked whether research had turned up historical references to priests always
+    being appointed by God, following a line through the OT starting with Adam. Not
+    part of the original scope/research -- required a follow-up research pass.
+  what_was_added: >
+    New section "Priesthood before Sinai: Adam, the firstborn, and the Levites" inserted
+    before the Genesis 14 section. Traces Adam's priestly role in Eden (Gen 2:15 avad/
+    shamar matching Num 3:7-8, 18:7; office passes to cherubim at Gen 3:24 after Adam's
+    failure), the patriarchal household-head-as-priest pattern (Noah Gen 8:20, Abraham/
+    Isaac Gen 12:7-8, 26:25), and the firstborn-to-Levites transfer (Exod 13:2 firstborn
+    claimed after the tenth plague; Exod 32:26-29 golden calf and Levites' loyalty;
+    Num 3:12, 8:16 formal transfer). Draws three points of significance tied back to
+    Hebrews' own argument: (1) no one self-appoints (parallels Heb 5:4), (2) the office
+    keeps changing hands after failure until Christ's (contrast with Heb 7:23-24's
+    "he continues forever"), (3) Melchizedek stands outside this Israelite succession
+    entirely, which is why Hebrews reaches for him rather than this history. Flagged
+    the rabbinic Melchizedek-as-Shem tradition explicitly as post-biblical speculation
+    Hebrews' own argument does not rely on.
+  sources: >
+    ESV Study Bible notes on Gen 2:4-25 ("The Man and Woman in the Sanctuary of Eden"),
+    2:15-16 (explicit avad/shamar parallel to Num 3:7-8, 18:7), and Num 3:11-13 (firstborn/
+    golden-calf background). NIV Biblical Theology Study Bible note on Gen 2:15 (independent
+    confirmation, plus the Gen 3:24 cherubim detail). All quotation-only tier, study-notes.db,
+    consulted after the underlying Hebrew verb-pair claim was independently verified via
+    bible-references MCP morphology lookups on Gen 2:15, Num 3:7-8, Num 18:7, Gen 3:24,
+    Exod 13:1-2, Exod 32:26-29, Num 3:12-13, Num 8:16 -- verified before consulting
+    commentary, per the skill's exegesis-before-commentary order.
+  frontmatter_updated: >
+    bible_references expanded to include Genesis 2:15; 3:22-24; 8:20; Exodus 13:1-2;
+    32:26-29; Numbers 3:5-13; 8:16-18; 18:1-7.
+
+addendum_2026-07-29b:
+  trigger: >
+    User asked whether the Melchizedek-priesthood material is again "prophecy fulfilled
+    in Christ," specifically against Hebrews' later argument that the tabernacle and its
+    furnishings are a shadow of heavenly things (Heb 8:5; 9:23-24; 10:1). Follow-up
+    discussion in-conversation distinguished predictive-prophecy fulfillment from
+    Hebrews' own spatial/temporal shadow-copy typology before the user asked to add the
+    material to the study itself, with the instruction to keep it consistent, flowing,
+    logical, and insightful rather than bolted on.
+  what_was_added: >
+    Rewrote the thin closing paragraph of "Hebrews' argument, traced" into a full
+    subsection "Chapters 8-10: a shadow tabernacle and the true one" -- Heb 8:1-2 as the
+    kephalaion (main point) that ties the priesthood case (ch.5-7) and the sanctuary case
+    (ch.8-10) into one continuous argument rather than two; Heb 8:4 (Christ excluded from
+    earthly service by tribe, extending 7:13-14's point from priesthood-order to
+    ministry-location); Heb 8:5 grounding hypodeigma/skia in the Exod 25:40 quotation;
+    Heb 9:23-24's hypodeigma/antitypa; Heb 10:1's skia/eikon restated in temporal terms.
+    Added an explicit distinction between Melchizedek's typology (aphomoiomenos, "made to
+    resemble" -- historical/biographical) and the tabernacle's typology (skia/hypodeigma/
+    antitypos -- spatial, earthly-object-copies-heavenly-object), flagged as two related
+    but non-identical moves Hebrews runs side by side rather than one move.
+    Added two new Word Studies entries (skia+hypodeigma paired; antitypos) with
+    concordance-verified frequency counts. Added one Key Lessons bullet and one sentence
+    in Theological Principle tying priesthood-order to sanctuary-location to
+    covenant/sacrifice as a logical chain rather than three separate claims.
+    Explicitly did NOT extend the shadow/copy framework back to Eden/Adam in this section
+    -- kept that boundary honest per the open_questions note above (Hebrews itself never
+    mentions Eden; that extension remains flagged as a synthesis beyond the text, not
+    something added to the main argument).
+  sources: >
+    Greek concordance/frequency verified via bible-references MCP for skia (G4639, 7 NT
+    occurrences, 2 in Hebrews), hypodeigma (G5262, 5 NT occurrences, 3 in Hebrews but only
+    2 in the relevant sense), antitypos (G499, 2 NT occurrences total), typos (G5179, 1
+    Hebrews occurrence at 8:5, matching Exod 25:40 LXX quotation verified via bible_verse).
+    ESV Study Bible notes on Heb 8:1-2, 8:1-13, 8:3, 8:4, 8:5, 9:11-28, 9:23, 9:24, and
+    10:1-2/10:1-18 consulted last, per the skill's exegesis-before-commentary order --
+    independently confirmed the reading (8:1-13's own section title is "Jesus, High Priest
+    of a Better Covenant"; the 8:4 note supplied the "Christ excluded from earthly service
+    by tribe" point verbatim as a scholarly observation, which was then re-verified against
+    the Greek text of 8:4 directly before being included).
+  frontmatter_updated: >
+    bible_references' "Hebrews 10:11-18" corrected to "Hebrews 10:1-18" (10:1 is now
+    directly quoted and needed to be in range).
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway (study notes)", note: "Introduction to Hebrews (author/audience/date/theme/purpose), notes on Heb 7:1-28 verse-by-verse, verse text for quotation verification. quotation-only tier, study-notes.db."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan (Walton/Keener, study notes)", note: "Note on Gen 14:18 -- Salem=Jerusalem archaeology, ANE king-priest pattern, El Elyon usage, Hasmonean/Sadducee use of Melchizedek, Qumran profile. quotation-only tier, study-notes.db."}
+  - {type: lexicon, title: "MACULA Greek (SBLGNT morphology + Louw-Nida domains)", author: "n/a", note: "Word-level morphology and semantic domain codes for all Hebrews 7 word studies; open license via bible-references MCP."}
+  - {type: dictionary, title: "TWOT (Theological Wordbook of the Old Testament)", author: "Harris/Archer/Waltke", note: "Root ids/glosses only for kohen (959a) and tsedeq (1879a) via twot_strongs MCP tool -- bare facts, no discussion prose quoted."}
+  - {type: other, title: "11Q13 (11QMelchizedek)", author: "Qumran, Cave 11", note: "Background via web search summarizing published scholarship (otstory.wordpress, Wikipedia 11Q13, journals.sagepub.com) -- not a primary-text translation lookup."}
+  - {type: other, title: "Philo, Legum Allegoriae 3.79-82", author: "Philo of Alexandria", note: "Background via web search (earlyjewishwritings.com translation, academia.edu abstract) on the Logos-allegory reading."}
+  - {type: other, title: "Josephus, Antiquities of the Jews 1.10.2", author: "Flavius Josephus", note: "Background via web search (intertextual.bible, penelope.uchicago.edu Whiston translation) confirming the historical-king reading and name-etymology gloss."}
+  - {type: other, title: "Dr. Ken Johnson, Th.D. -- BibleFacts Ministries YouTube studies", author: "Ken Johnson", note: "User-supplied raw transcripts at references/biblefacts/ (11qmelchizadek.md, dss-cave1-melchizadek.md, heb11-and-dss-idioms.md) -- same source already cited by name in docs/content/studies/prophecy/zadok-calendar.md. Every specific verse-quotation claim drawn from these (Lev 25:13/Deut 15:2, Isa 61:1, Ps 82:1, Isa 52:7, Dan 9:25) was independently re-verified against this repo's own bible-references MCP tools before use, including confirming the deror (H1865) word-match between Lev 25:10 and Isa 61:1 and the Luke 4:18-19 / John 10:34-36 cross-references. The chronology claim (9th Jubilee + 1 Shemittah = c. AD 32) is used but explicitly attributed to Johnson by name and flagged as his own framework, not the scroll's own wording -- matching zadok-calendar.md's existing editorial discipline."}
+last_updated: "2026-07-31"
+
+addendum_2026-07-31:
+  trigger: >
+    User supplied three raw YouTube-transcript files at references/biblefacts/ (Dr. Ken Johnson /
+    BibleFacts Ministries -- the same source already named in docs/content/studies/prophecy/
+    zadok-calendar.md) and asked for a review of fit/value, then asked to add what's usable into
+    this study, explicitly requesting the addition be labeled: new ideas vs. expansion/maturation
+    of existing ideas vs. other threads for future studies. User also stated a personal editorial
+    stance -- Pauline authorship of Hebrews, not the anonymous/Origen position the draft had been
+    using -- and asked for that to replace the existing framing.
+  review_findings: >
+    Format: unedited speech-to-text of live teaching streams, unusable as-is, needed full rewrite
+    for any use. Content split three ways: (1) 11Q13 exegetical detail (Jubilee/Isa 61 catena,
+    Ps 82 judgment quotation, Isa 52:7/Dan 9:25 messenger identification) -- broadly consistent
+    with mainstream DSS scholarship already summarized for this study via web search in the prior
+    session, genuinely additive detail beyond what was drafted. (2) Johnson's own chronological
+    overlay (9th Jubilee + 1 Shemittah = ~AD 32) -- not in the scroll's own fragmentary text,
+    already precedented as a named, explicitly-attributed claim on zadok-calendar.md, safe to use
+    with the same attribution discipline. (3) A stronger claim in the transcripts ("Melchizedek is
+    God in the Flesh," an unqualified identity with Jesus) that goes beyond what 11Q13's own
+    "elohim" vocabulary requires (Ps 82, the very psalm 11Q13 quotes, applies "elohim" to human
+    judges) -- presented as one view among others rather than adopted as the study's position.
+    (4) Pauline-authorship material (Clement of Alexandria via Eusebius, Hist. Eccl. 6.14.2-4) --
+    directly usable to satisfy the user's stated editorial stance, verified via WebSearch against
+    the primary patristic citation rather than taken from the transcript's paraphrase. (5) Material
+    NOT used in this study: Hebrews-11-as-faith-in-the-coming-Messiah reading, "walking in the
+    light" as a DSS calendar/prophecy idiom, Sirach 44:16 + Enoch's rapture-as-repentance, and
+    Victorinus of Pettau's "restrainer = the church" reading of 2 Thess 2 -- all genuinely
+    interesting but not about Melchizedek/Hebrews 7, flagged as open threads for other pages
+    (a possible standalone Hebrews 11 study; a Johannine-idioms study; additions to rapture.md's
+    existing "restrainer removed" section).
+  what_was_added: >
+    (a) Setting paragraph rewritten to Pauline authorship, citing Clement of Alexandria/Pantaenus
+    via Eusebius Hist. Eccl. 6.14.2-4 for the Hebrew-original/Luke-translation tradition and
+    Clement's own two reasons for the missing signature (Jewish prejudice, Pauline modesty toward
+    a non-Gentile audience); modern anonymous-authorship position kept as a named alternative the
+    study doesn't follow, not deleted outright. (b) Qumran paragraph in "Between the Testaments"
+    expanded from 3 sentences to roughly four paragraphs: the Lev 25/Deut 15/Isa 61 Jubilee catena
+    with the deror word-link, the Isa 61:1/Luke 4:18-19 convergence, the Ps 82:1/John 10:34-36
+    convergence, the Isa 52:7/Dan 9:25 messenger identification, an explicit distinction between
+    11Q13's angelic/elohim-tier Melchizedek and Genesis 14's human one (so the two don't get
+    silently merged), a fair statement of the stronger "God in the Flesh" identity view without
+    adopting it as the study's own claim, and the Johnson/zadok-calendar chronology cross-link,
+    explicitly attributed and flagged as his framework. (c) One new Key Lessons bullet on the
+    Isa 61/Ps 82 convergence with Jesus's own usage. (d) References section: added Ken Johnson/
+    BibleFacts Ministries as a named source, with the same attribution discipline as (b).
+    (e) frontmatter bible_references expanded with the eight newly-cited passages.
+  not_added_but_flagged_as_threads: >
+    See review_findings item (5) above -- recorded here rather than in the published file per the
+    skill's "process narration belongs in state YAML, not the reader-facing markdown" rule.
+  followup_trim: >
+    User reviewed and asked for the authorship paragraph to be small, with the point being
+    canonicity rather than a resolved authorship debate. Setting paragraph cut from 6 sentences
+    to 3: Pauline ascription + Clement/Eusebius citation, one sentence stating the letter's
+    canonical standing doesn't depend on settling authorship, then straight into the
+    audience/dating content. Dropped: Clement's two stated reasons for the missing signature, and
+    the "modern scholarship treats it as anonymous" aside -- both true and citable but more than
+    the paragraph needed. Full post-trim file re-verified: no leftover Origen reference, no
+    style-guide-flagged phrases, all six footnote refs match their definitions, frontmatter valid.
+
+addendum_2026-08-02_key_takeaways_prototype:
+  trigger: >
+    User asked for a site-wide redesign of the "Key Lessons" section every study opens with, into
+    a richer "Key Takeaways" section with five defined subsections (Types, Lessons about Jesus,
+    Memory Verses, Prayer, Be Transformed), grounded in Romans 12:2 ("be transformed by the
+    renewing of your mind") and John 14:6 ("I am the way, the truth, and the life" -- user quoted
+    this as "the way the truth and the light"; corrected to the verified ESV text before use, per
+    this study's own quotation-verification discipline). Requested order of work: (1) write the
+    about-page description of the concept, (2) add it to the develop-bible-study skill, (3)
+    prototype on this study. This addendum covers all three, done in that order.
+  what_was_built: >
+    (1) New page docs/content/about/key-takeaways.md -- explains the Romans 12:2/John 14:6
+    rationale (mind renewed by truth, then walked out, not left as information), defines each of
+    the five subsections and what belongs in it, states explicitly that not every study needs all
+    five and that forcing one to fill a slot is against this site's existing don't-pad discipline,
+    and marks the whole thing a prototype. Verified John 14:6 reads "the way, and the truth, and
+    the life" via bible-references MCP before writing, since the user's own phrasing in the request
+    misquoted it as "the light." Added to the About section's auto-generated grid by running
+    section_index.py (docs/content/about/index.md updated automatically, alphabetically placed).
+    (2) .claude/skills/develop-bible-study/SKILL.md Phase 7's structure bullet updated: "Key
+    lessons" -> "Key Takeaways", with a new bullet summarizing all five subsections and linking to
+    the about page (relative path verified to resolve on disk: ../../../docs/content/about/
+    key-takeaways.md from the skill file's own directory). (3) This study's own "## Key lessons"
+    section (previously 8 flat bullets) rewritten as "## Key Takeaways" with the five subheadings.
+  how_the_old_bullets_were_handled: >
+    Not a 1:1 migration -- two of the eight old bullets ("Priesthood is older than Melchizedek,
+    too" / Adam-firstborn-Levites background, and "Two Second Temple texts reach for the same two
+    psalms Jesus later did" / the Isa 61 + Ps 82 convergence) were dropped from the front-loaded
+    section entirely, per the about page's own "curated, not exhaustive" design -- both remain
+    fully present and undiminished in the study's body (Priesthood before Sinai section; Between
+    the Testaments section respectively), so no content was lost, only de-duplicated from the
+    preview. The remaining six bullets were redistributed: Types absorbed the Melchizedek-order and
+    tabernacle-shadow material (two distinct type-mechanisms, kept explicitly distinguished, same
+    discipline already used in the body's own "different kind of typology" passage); the other five
+    became Lessons about Jesus, tightened to direct Christological statements.
+  memory_verse_selection_discipline: >
+    Cross-checked each Memory Verses candidate against the about page's own rule (must already be
+    quoted in the study's body, not introduced fresh here) before finalizing. Hebrews 4:16 was an
+    early candidate but only appears as a partial phrase ("draw near with confidence") in the body,
+    not as a full quotation -- swapped for Hebrews 7:22, which is fully quoted inline in the
+    Hebrews-argument-traced walkthrough. Final three: Psalm 110:4 (full block quote already in
+    body), Hebrews 7:22 (full inline quote already in body), Hebrews 7:25 (full inline quote
+    already in body, also in the Theological Principle section).
+  verification: >
+    Post-edit checks: style-guide word grep clean, frontmatter parses, both new relative links
+    (about page -> this study; this study -> about page) resolve on disk, section_index.py and
+    commentary_index.py both re-run without error (section_index picked up the new about page
+    automatically; commentary_index found no new bible_references to add since this edit didn't
+    change the frontmatter's reference list).
+  open_question: >
+    This is the first study using the new format -- none of the site's other published studies
+    have been migrated yet. That migration is explicitly out of scope for this addendum (user
+    asked only to prototype here) and is a natural next task once this prototype is reviewed.
+  followup_labels: >
+    User asked to rename the Be Transformed subsection's "Feel" label -- it didn't match their
+    original four-word framing (thoughts, actions, attitudes, behaviors) and read as raw emotion
+    rather than a settled disposition. Changed to "Attitude" in this study (bullet content
+    otherwise unchanged, "feeling" reworded to "posture" for the label swap to read naturally).
+    Also codified Think/Attitude/Do as the recommended three-label pattern in
+    docs/content/about/key-takeaways.md itself, so future studies using this section follow the
+    same three labels rather than improvising per study -- explicitly noted there that "actions"
+    and "behaviors" share one bullet (Do) since they're close enough in practice, keeping three
+    labels instead of four. SKILL.md's Phase 7 bullet didn't hardcode "Feel" or any other label
+    (it just points to the about page for detail), so no change was needed there.
+  followup_prayer_structure_and_order: >
+    User asked to (1) look at docs/content/studies/prayer/lords-prayer.md for lessons on prayer
+    structure and apply them, and (2) move Prayer to the last subsection of Key Takeaways. Read
+    the full Lord's Prayer study -- its own "Key lessons" extract the structural principle
+    directly: "Start with relationship, not requests" ("Our Father" precedes any petition) and
+    "Put God's name, kingdom, and will ahead of your own needs" (the first three petitions concern
+    God himself before the prayer turns to daily bread/forgiveness/deliverance). Applied this by
+    (a) reordering both docs/content/about/key-takeaways.md and SKILL.md's Phase 7 bullet so Prayer
+    is now last, after Be Transformed, with the about page explaining why: the section closes by
+    turning everything already covered (truth, then application) into worship/response rather than
+    ending on a to-do list; (b) adding a "Structure it..." paragraph to the about page's Prayer
+    definition, citing the Lord's Prayer study by name and linking to it
+    (../studies/prayer/lords-prayer.md from about/, verified resolves on disk), stating the
+    adoration-before-petition principle as the recommended pattern for this subsection generally;
+    (c) rewrote this study's own Prayer text to actually follow that structure -- the original
+    version opened with address/character (matching the pattern) but never closed with a real
+    petition, only a reflective statement. New version: address + what the study established about
+    Christ (adoration, unchanged in substance) -> explicit petition drawing directly on Hebrews
+    4:16's own content ("receive mercy... find grace to help," paraphrased as "mercy where I have
+    failed, and grace to help before the need is even named") -> close on "confidence" (echoing,
+    not repeating, the Be Transformed attitude bullet). Verified: style-guide grep clean, both
+    files' frontmatter valid, new lords-prayer.md link resolves, section-heading order now matches
+    across both the about page and this study (Types, Lessons about Jesus, Memory verses, Be
+    Transformed, Prayer).
+  followup_memory_verse_scope: >
+    User trimmed the Memory Verses subsection during editing (first asked for just Heb 7:25 full
+    verse, then mid-message revised to "keep Psalm 110:4, expand Hebrews to 22-25"). Final content:
+    Psalm 110:4 alone, and Hebrews 7:22-25 as one continuous block (guarantor, contrast with the
+    many prior priests, permanent/interceding priesthood) -- both verified verse-by-verse against
+    study-notes.db's esv-study-bible verses table before being combined into the block, not
+    assembled from memory.
+  followup_scripture_quote_block_standard: >
+    User asked to standardize the site's scripture blockquote format on the pattern already used in
+    docs/content/studies/prophecy-fulfilled-in-jesus/as-the-snake-was-lifted.md (and confirmed also
+    in bread-of-life-feeding-the-multitudes.md): "> ✝️ Reference (TRANSLATION)" as the
+    blockquote's first line, then a blank ">" line, then verse text with numbers inlined into the
+    flowing prose in one continuous blockquote -- replacing this study's own then-current style
+    (reference on an em-dash line AFTER the quote, no cross marker, no verse numbers). Surveyed the
+    whole site first: 12 studies already use some form of the "✝️" marker, split between
+    an older hyperlinked-header variant (rapture.md, idolatry.md, prayer-as-communion.md, etc.) and
+    a newer plain-text-header variant (as-the-snake-was-lifted.md, lords-prayer.md, bread-of-life).
+    Codified the newer (no-link) variant as the standard, per the user's named example, without
+    mandating retrofitting the older files. Three deliverables, all completed:
+    (1) documented the exact format in .claude/skills/develop-bible-study/SKILL.md's Phase 7, with
+    a code-fenced example and links to both named reference studies (paths verified to resolve);
+    (2) added an automated "Check 8" to app/scripts/validate-content.js -- heuristically detects
+    any blockquote block whose combined text names a known translation in parens (ESV/WEB/NASB/
+    NIV/ASV/YLT/NKJV/KJV/CSB/BSB) as a scripture-citation block, then warns if that block's first
+    line doesn't start with "> ✝️"; (3) converted all five blockquotes in this study
+    (Memory Verses' Ps 110:4 and Heb 7:22-25, the body's Gen 14:18-20, the body's second Ps 110:4,
+    and the body's Heb 5:5-6) to the new format, each re-verified against the standardized verse
+    text already confirmed earlier in this file's history, not re-derived from memory.
+    Side findings while touching validate-content.js: actually ran it (`npm run validate` from
+    app/) and found it works correctly, resolving docs/content and validating cleanly -- the
+    "currently broken" claim in AGENTS.md (CLAUDE.md's symlink target) and docs/dev/CONTRIBUTING.md
+    was stale, not the script; corrected both since the skill now tells agents to rely on this
+    validator. Also found and fixed two violations of the new rule in docs/content/about/
+    key-takeaways.md itself (the Romans 12:2 and John 14:6 quotes used the old em-dash-after
+    style) rather than leave the about page describing the standard while violating it. One
+    pre-existing violation surfaced and deliberately left alone as out of scope: docs/content/
+    bible/commentaries/20-proverbs/index.md uses a bold-and-hyperlinked variant
+    ("> **✝️ [Pro 3:5-6 (ESV)](...)**") that the regex correctly flags as non-canonical --
+    a legitimate pre-existing inconsistency now visible for future cleanup, not a validator bug.
+    Full validate-content.js run after all changes: 0 errors, only the one pre-existing warning
+    above plus this study's normal frontmatter warnings (none, since all required fields present).
+
+publication_2026-08-02:
+  note: >
+    User approved publishing directly, after extensive multi-session hands-on review (scripture
+    re-verified against source throughout, biblefacts sources fact-checked and clearly attributed,
+    a whole-book Hebrews review that surfaced and fixed a real gap, Key Takeaways format designed
+    and iterated with the user) -- this was not a run of the separate review-bible-study
+    adversarial-audit skill, which was offered earlier in the process but never invoked. Noting
+    that distinction here for the record, per the develop-bible-study skill's own description of
+    what that skill adds beyond the drafting agent's own Phase 8 self-check.
+  actions_taken: >
+    draft: true -> false in the study's own frontmatter. commentary_index.py and section_index.py
+    re-run now that the study is live -- previously these tools silently skipped a draft:true
+    study's bible_references entirely, so this run produced the first real cross-reference output
+    (40 books/141 chapters total site-wide, up from 39/118) across every OT/NT chapter this study
+    cites (Genesis 2/3/8/14, Exodus 13/32, Numbers 3/8/18, Leviticus 25, Deuteronomy 15, 2
+    Chronicles 26, Psalms 82/110, Isaiah 52/61, Jeremiah 31, Daniel 9, Zechariah 6, Luke 4, John 10,
+    Hebrews 2/4/5/6/7/8/9/10), plus updated the theology category landing page and the top-level
+    commentaries index grid. Spot-checked one generated file (Psalms 110) for correctness before
+    committing. Final validate-content.js run: 0 errors, only pre-existing unrelated warnings.
+  status: published, committed locally -- user will push.

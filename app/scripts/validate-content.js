@@ -113,6 +113,41 @@ function validateFile(filePath) {
       }
     }
   }
+
+  // Check 8: Scripture quote block format. A blockquote that quotes Bible text should
+  // open with "> ✝️ Reference (TRANSLATION)" as its first line -- see the develop-bible-study
+  // skill's Phase 7 quote-block format (e.g. docs/content/studies/prophecy-fulfilled-in-jesus/
+  // as-the-snake-was-lifted.md). Detected heuristically: any contiguous run of "> " lines whose
+  // combined text names a known translation in parens is treated as a scripture quote block.
+  const bodyLines = lines.slice(frontmatterEnd + 1);
+  const translationTag = /\((ESV|WEB|NASB|NIV|ASV|YLT|NKJV|KJV|CSB|BSB)\)/;
+  let quoteBlock = [];
+  let quoteBlockStartLine = 0;
+
+  const checkQuoteBlock = (block, startLine) => {
+    if (block.length === 0) return;
+    const fullText = block.join(' ');
+    if (!translationTag.test(fullText)) return; // not a scripture citation block
+    const firstLine = block[0].trim();
+    if (!firstLine.startsWith('> ✝️')) {
+      log(
+        'warning',
+        filePath,
+        `Line ${startLine + 1}: scripture quote block doesn't open with "> ✝️ Reference (TRANSLATION)" as its first line -- see the develop-bible-study skill's quote-block format`
+      );
+    }
+  };
+
+  bodyLines.forEach((line, i) => {
+    if (line.trim().startsWith('>')) {
+      if (quoteBlock.length === 0) quoteBlockStartLine = i;
+      quoteBlock.push(line);
+    } else {
+      checkQuoteBlock(quoteBlock, quoteBlockStartLine);
+      quoteBlock = [];
+    }
+  });
+  checkQuoteBlock(quoteBlock, quoteBlockStartLine); // trailing block at end of file
 }
 
 function walkDirectory(dir) {

@@ -16,9 +16,10 @@ draft: false
 - [Chapter 6](chapter-006.md) — 1 study(ies)
 - [Chapter 11](chapter-011.md) — 1 study(ies)
 - [Chapter 25](chapter-025.md) — 1 study(ies)
-- [Chapter 52](chapter-052.md) — 1 study(ies)
+- [Chapter 52](chapter-052.md) — 2 study(ies)
 - [Chapter 53](chapter-053.md) — 1 study(ies)
 - [Chapter 55](chapter-055.md) — 1 study(ies)
+- [Chapter 61](chapter-061.md) — 1 study(ies)
 - [Chapter 63](chapter-063.md) — 1 study(ies)
 - [Chapter 64](chapter-064.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

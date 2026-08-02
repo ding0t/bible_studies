@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Jesus, Priest in the Order of Melchizedek](../../../studies/theology/melchizedek-priesthood.md) — 15:2
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../../studies/prayer/lords-prayer.md) — 15:1-2
 <!-- commentary-index:auto-end -->

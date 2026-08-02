@@ -28,6 +28,14 @@ Broader theological topics not tied to a single feast, prophecy, or discipline.
 
     [:octicons-arrow-right-24: Read](israel-and-the-church.md)
 
+-   __Jesus, Priest in the Order of Melchizedek__
+
+    ---
+
+    A history of the Melchizedek priesthood from Genesis 14 through Second Temple Judaism, and a word-by-word walk through Hebrews' argument that Jesus fulfills it.
+
+    [:octicons-arrow-right-24: Read](melchizedek-priesthood.md)
+
 -   __Biblical Numerology__
 
     ---

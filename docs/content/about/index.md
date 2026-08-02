@@ -28,6 +28,14 @@ About this project and its statement of faith.
 
     [:octicons-arrow-right-24: Read](copyright.md)
 
+-   __Key Takeaways__
+
+    ---
+
+    What the Key Takeaways section at the top of every study is for, the five things it draws out, and the two verses it's built on.
+
+    [:octicons-arrow-right-24: Read](key-takeaways.md)
+
 -   __Recently Updated__
 
     ---

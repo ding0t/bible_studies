@@ -76,11 +76,16 @@ Standard markdown, plus mkdocs-material extras already configured in `mkdocs.yml
 
 ## Validation
 
-`npm run validate` (referenced in older docs) **no longer works** — `app/scripts/validate-content.js` hardcodes a path relative to `app/` that predates the mkdocs split and can't find `docs/content` anymore. Until that's fixed or replaced with an mkdocs-side check, validate a new study manually:
+Run `npm run validate` from `app/` before publishing a study. It checks (in addition to what's
+listed below): frontmatter starts on line 1, no blank line before the opening `---`; `title` is
+present; arrays (`tags`, `bible_references`) use quoted strings; `draft` status; image paths
+resolve; and any scripture blockquote opens with `> ✝️ Reference (TRANSLATION)` as its first line
+rather than putting the reference at the end (the develop-bible-study skill's quote-block format).
+An older note here called this script broken — it wasn't, it resolves `docs/content` correctly.
 
-- Frontmatter starts on line 1, no blank line before the opening `---`.
-- `title` is present and quoted if it contains a colon.
-- Arrays (`tags`, `bible_references`) use quoted strings: `["tag1", "tag2"]`.
+Worth checking by hand regardless, since the script doesn't cover everything:
+
+- `title` is quoted if it contains a colon.
 - `description` stays under ~200 characters.
 - `draft: true` until reviewed.
 

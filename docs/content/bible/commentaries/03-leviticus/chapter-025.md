@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Jesus, Priest in the Order of Melchizedek](../../../studies/theology/melchizedek-priesthood.md) — 25:8-13
 - [The Zadok Calendar](../../../studies/prophecy/zadok-calendar.md) — 25:8-13
 <!-- commentary-index:auto-end -->
