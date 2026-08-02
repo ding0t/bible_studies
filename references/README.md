@@ -114,7 +114,7 @@ cd references/build
 uv run python build_study_notes.py
 ```
 
-Writes to `/Volumes/media/bible/local-only-build/study-notes.db` — never anywhere under `bible_studies/`. See `references/build/study_notes/schema.sql` for tables (`works`, `verses`, `introductions`, `notes`, `topical_articles`, `images`). Sources are registered declaratively in `references/build/study_notes/sources.py` — currently ESV Study Bible, NIV Cultural Backgrounds Study Bible, NKJV Cultural Backgrounds Study Bible, NIV Biblical Theology Study Bible, CSB Ancient Faith Study Bible, and the NA28 Greek NT (from the NA28-ESV parallel). **Adding a 6th source that fits an existing extractor family is a config entry in `sources.py`, not new code** — check `extractors/__init__.py` before writing a new parser.
+Writes to `/Volumes/media/bible/local-only-build/study-notes.db` — never anywhere under `bible_studies/`. See `references/build/study_notes/schema.sql` for tables (`works`, `verses`, `introductions`, `notes`, `topical_articles`, `images`). Sources are registered declaratively in `references/build/study_notes/sources.py` — currently ESV Study Bible, NIV Cultural Backgrounds Study Bible, NKJV Cultural Backgrounds Study Bible, NIV Biblical Theology Study Bible, CSB Ancient Faith Study Bible, the NA28 Greek NT (from the NA28-ESV parallel), NLT Life Application Study Bible, NLT Christian Basics Bible, and NASB 1995/2020. **Adding another source that fits an existing extractor family is a config entry in `sources.py`, not new code** — check `extractors/__init__.py` before writing a new parser. Four families exist: `numeric_id` (shared `BBCCCVVV` verse ids — ESV/NIV/NKJV/NA28), `anchor_walker` (`start-BookName.C.V` anchors — CSB), `dotted_id` (`vs-BookAbbrev.C.V` anchors plus self-contained note/cref/textnote wrapper divs — the two NLT epubs), and `positional_verse` (no ids at all, verse boundaries recovered from chapter headers and inline verse-number markup — NASB, a plain calibre-converted reflow with none of the other three epubs' semantic markup).
 
 Query it the same way as `bible-text.db`, but pointed at the external path **and opened with
 `immutable=1`**:
@@ -138,8 +138,9 @@ lookups — use this URI form and it works as an ordinary sandboxed read. The sa
 
 **Verse text, not just notes.** It's easy to read this section as covering study-Bible *commentary*
 only. The `verses` table also holds each edition's full Bible text — including the **ESV**
-(`work_id='esv-study-bible'`), NIV, NKJV and CSB, none of which are in `bible-text.db`. This is the
-place to verify an ESV quotation instead of trusting recall:
+(`work_id='esv-study-bible'`), NIV, NKJV, CSB, NLT (`nlt-life-application-study-bible` /
+`nlt-christian-basics-bible`), and NASB (`nasb-1995` / `nasb-2020`), none of which are in
+`bible-text.db`. This is the place to verify an ESV quotation instead of trusting recall:
 
 ```sql
 sqlite3 "file:/Volumes/media/bible/local-only-build/study-notes.db?immutable=1" \
@@ -168,6 +169,7 @@ from memory — the numbers are easy to misremember and one of these is commonly
 | **CSB** (Holman) | **1,000** | 50% of your work; never a complete book | Credit line required |
 | **NKJV** (Thomas Nelson) | **1,000** (printed) | 50% of a complete book *and* 50% of your work | Quotations must conform exactly to the NKJV text |
 | **NIV** (Zondervan/Biblica) | **500** | 25% of your work; never a complete book | Copyright notice required; separate easier terms for church bulletins |
+| **NLT** (Tyndale House) | **500** | 25% of your work; never a complete book | Copyright notice required on the copyright/title page; "NLT" initials alone suffice in nonsalable media (bulletins, newsletters) |
 | **NASB** (Lockman) | **none stated in this edition** | — | The epub's notice says quotation/reprint requests "must be directed to and approved in writing by The Lockman Foundation." Don't assume a threshold; check lockman.org |
 | **NA28 Greek** (Deutsche Bibelgesellschaft) | none stated | — | "Used by permission" to Crossway for that parallel edition; that grant isn't ours to inherit |
 
@@ -178,8 +180,12 @@ If a study is mostly quotation with a little commentary, that's the rule it trip
 the study is thin anyway. Note also the ESV's 50% is measured against *the work in which they are
 quoted*; whether that means one page or the whole site is not something this README can settle, so
 keep individual studies comfortably clear of it rather than relying on a favourable reading.
+**NASB is not covered by this reasoning at all** — there's no percentage or verse ceiling to stay
+clear of because there's no stated allowance in the first place; treat `nasb-1995`/`nasb-2020` as
+verify-only (checking a quotation you already have some other reason to trust) rather than a source
+to quote from directly the way ESV/CSB/NKJV/NIV/NLT can be.
 
-**Attribution is an obligation, not a courtesy.** ESV, CSB, NKJV and NIV all require a copyright
+**Attribution is an obligation, not a courtesy.** ESV, CSB, NKJV, NIV and NLT all require a copyright
 notice where their text is quoted. Naming the translation inline — "(ESV)" after a quote, as
 AGENTS.md already requires — satisfies scholarly convention but is *not* the notice these licences
 ask for. The site carries the required notices on
@@ -225,5 +231,6 @@ That doesn't mean these sources can't be *cited*. **They should be** — citing 
 
 - *How to Read the Bible for All Its Worth* (Fee & Stuart, 4th ed.) — the methodology behind the develop-bible-study skill. Source PDF + a full local markdown extraction live next to each other on the media volume, for personal reference only. The site's own public write-up of these principles, for readers rather than for the skill tooling, is [docs/content/bible/how-to-read-the-bible.md](../docs/content/bible/how-to-read-the-bible.md) — currently a draft stub, not yet fleshed out.
 - Gerald L. Stevens, "Word Study Guide — New Testament" (seminary course handout) — the methodology behind [word-study-method.md](../.claude/skills/develop-bible-study/word-study-method.md). Source PDF at `/Volumes/media/bible/resources/NTWordStudyGuide.pdf`; the skill file is an original synthesis of the method, not a reproduction.
-- *ESV Study Bible* (Crossway, 2016), *NIV Cultural Backgrounds Study Bible* and *NKJV Cultural Backgrounds Study Bible* (Zondervan, ed. John H. Walton & Craig S. Keener), *NIV Biblical Theology Study Bible* (Zondervan), *CSB Ancient Faith Study Bible* (Holman) — all queryable via `study-notes.db` above.
+- *ESV Study Bible* (Crossway, 2016), *NIV Cultural Backgrounds Study Bible* and *NKJV Cultural Backgrounds Study Bible* (Zondervan, ed. John H. Walton & Craig S. Keener), *NIV Biblical Theology Study Bible* (Zondervan), *CSB Ancient Faith Study Bible* (Holman), *NLT Life Application Study Bible, Third Edition* (Tyndale House, 2019) and *NLT Christian Basics Bible* (Tyndale House, ed. Mike Beaumont & Martin Manser, 2017) — all queryable via `study-notes.db` above.
+- *NASB 1995 Update* and *NASB 2020 Text Edition* (The Lockman Foundation) — verse text only, no notes; queryable via `study-notes.db` for verification, but see the permissions table above before quoting directly (no stated threshold, unlike the study Bibles listed here).
 - Any other commentary consulted for a study should be recorded per-study in that study's `resources_consulted` field *and* named in the study's own References section — not duplicated here.

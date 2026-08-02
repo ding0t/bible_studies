@@ -29,6 +29,10 @@ by permission. All rights reserved.
 Copyright © 2017 by Holman Bible Publishers. Used by permission. Christian Standard Bible® and CSB®
 are federally registered trademarks of Holman Bible Publishers.
 
+**NLT** — Scripture quotations marked "NLT" are taken from the Holy Bible, New Living Translation,
+copyright © 1996, 2004, 2015 by Tyndale House Foundation. Used by permission of Tyndale House
+Publishers, Inc., Carol Stream, Illinois 60188. All rights reserved.
+
 **NASB** — Scripture quotations marked "NASB" are taken from the New American Standard Bible®,
 copyright © 1960, 1962, 1963, 1968, 1971, 1972, 1973, 1975, 1977, 1995 by The Lockman Foundation.
 Used by permission. All rights reserved. www.lockman.org
@@ -55,7 +59,8 @@ and Logos Bible Software. Used under its stated licence.
 
 Where a study draws on a copyrighted commentary, study Bible, lexicon or dictionary — the *ESV Study
 Bible*, the *NIV* and *NKJV Cultural Backgrounds Study Bible*, the *NIV Biblical Theology Study
-Bible*, the *CSB Ancient Faith Study Bible*, the *Theological Wordbook of the Old Testament*, or a
+Bible*, the *CSB Ancient Faith Study Bible*, the *NLT Life Application Study Bible*, the *NLT
+Christian Basics Bible*, the *Theological Wordbook of the Old Testament*, or a
 named monograph — the work is credited in that study's own **References & Recommended Reading**
 section. Such material is used only in brief, attributed quotation or synthesized into original
 prose. The notes, articles, charts and introductions in those editions are separately copyrighted

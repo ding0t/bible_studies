@@ -154,3 +154,54 @@ CSB_NAME_TO_OSIS = {
     "James": "Jas", "1_Peter": "1Pet", "2_Peter": "2Pet", "1_John": "1John",
     "2_John": "2John", "3_John": "3John", "Jude": "Jude", "Revelation": "Rev",
 }
+
+# Tyndale's NLT Life Application Study Bible / Christian Basics Bible epubs use a FOURTH
+# convention in their "vs-BookAbbrev.C.V" verse anchors and "BookAbbrev.C.V(-range).letter_*"
+# note ids: dotted, no separator before numbered-book digits ("1Sam", not "1_Samuel" or "I
+# Samuel"), and its own idiosyncratic short forms for a few books (Pr for Proverbs, Hagg for
+# Haggai, 1Thes/2Thes for Thessalonians, 1Jn/2Jn/3Jn for John's epistles, Jon for Jonah --
+# confirmed against the actual ids in both epubs, all 66 present, not assumed).
+TYNDALE_ABBREV_TO_OSIS = {
+    "Gen": "Gen", "Exod": "Exod", "Lev": "Lev", "Num": "Num", "Deut": "Deut",
+    "Josh": "Josh", "Judg": "Judg", "Ruth": "Ruth", "1Sam": "1Sam", "2Sam": "2Sam",
+    "1Kgs": "1Kgs", "2Kgs": "2Kgs", "1Chr": "1Chr", "2Chr": "2Chr", "Ezra": "Ezra",
+    "Neh": "Neh", "Esth": "Esth", "Job": "Job", "Ps": "Ps", "Pr": "Prov",
+    "Eccl": "Eccl", "Song": "Song", "Isa": "Isa", "Jer": "Jer", "Lam": "Lam",
+    "Ezek": "Ezek", "Dan": "Dan", "Hos": "Hos", "Joel": "Joel", "Amos": "Amos",
+    "Obad": "Obad", "Jon": "Jonah", "Mic": "Mic", "Nah": "Nah", "Hab": "Hab",
+    "Zeph": "Zeph", "Hagg": "Hag", "Zech": "Zech", "Mal": "Mal",
+    "Matt": "Matt", "Mark": "Mark", "Luke": "Luke", "John": "John", "Acts": "Acts",
+    "Rom": "Rom", "1Cor": "1Cor", "2Cor": "2Cor", "Gal": "Gal", "Eph": "Eph",
+    "Phil": "Phil", "Col": "Col", "1Thes": "1Thess", "2Thes": "2Thess", "1Tim": "1Tim",
+    "2Tim": "2Tim", "Titus": "Titus", "Phlm": "Phlm", "Heb": "Heb", "Jas": "Jas",
+    "1Pet": "1Pet", "2Pet": "2Pet", "1Jn": "1John", "2Jn": "2John", "3Jn": "3John",
+    "Jude": "Jude", "Rev": "Rev",
+}
+
+# The Lockman Foundation's NASB 1995/2020 epubs are a FIFTH convention, and a different kind:
+# a plain calibre-converted reflow with no per-verse ids at all. Chapter boundaries are marked
+# only by an ALL-CAPS "<p class="head">BOOK NAME</p>" heading -- confirmed against both epubs
+# (1995 and 2020 share this layout). Full names, Arabic numeral prefix with a space ("1
+# SAMUEL"), "SONG OF SOLOMON" spelled out rather than abbreviated. One exception confirmed
+# in the actual headings, not assumed from the pattern: Psalms alone renders "Psalm N" --
+# singular, title case, no "S" -- while every other book is ALL CAPS plural/full-name. The
+# extractor upper-cases before lookup, so both "PSALMS" and "PSALM" keys are needed here.
+NASB_HEADER_TO_OSIS = {
+    "GENESIS": "Gen", "EXODUS": "Exod", "LEVITICUS": "Lev", "NUMBERS": "Num",
+    "DEUTERONOMY": "Deut", "JOSHUA": "Josh", "JUDGES": "Judg", "RUTH": "Ruth",
+    "1 SAMUEL": "1Sam", "2 SAMUEL": "2Sam", "1 KINGS": "1Kgs", "2 KINGS": "2Kgs",
+    "1 CHRONICLES": "1Chr", "2 CHRONICLES": "2Chr", "EZRA": "Ezra", "NEHEMIAH": "Neh",
+    "ESTHER": "Esth", "JOB": "Job", "PSALMS": "Ps", "PSALM": "Ps", "PROVERBS": "Prov",
+    "ECCLESIASTES": "Eccl", "SONG OF SOLOMON": "Song", "ISAIAH": "Isa", "JEREMIAH": "Jer",
+    "LAMENTATIONS": "Lam", "EZEKIEL": "Ezek", "DANIEL": "Dan", "HOSEA": "Hos",
+    "JOEL": "Joel", "AMOS": "Amos", "OBADIAH": "Obad", "JONAH": "Jonah",
+    "MICAH": "Mic", "NAHUM": "Nah", "HABAKKUK": "Hab", "ZEPHANIAH": "Zeph",
+    "HAGGAI": "Hag", "ZECHARIAH": "Zech", "MALACHI": "Mal",
+    "MATTHEW": "Matt", "MARK": "Mark", "LUKE": "Luke", "JOHN": "John", "ACTS": "Acts",
+    "ROMANS": "Rom", "1 CORINTHIANS": "1Cor", "2 CORINTHIANS": "2Cor", "GALATIANS": "Gal",
+    "EPHESIANS": "Eph", "PHILIPPIANS": "Phil", "COLOSSIANS": "Col",
+    "1 THESSALONIANS": "1Thess", "2 THESSALONIANS": "2Thess", "1 TIMOTHY": "1Tim",
+    "2 TIMOTHY": "2Tim", "TITUS": "Titus", "PHILEMON": "Phlm", "HEBREWS": "Heb",
+    "JAMES": "Jas", "1 PETER": "1Pet", "2 PETER": "2Pet", "1 JOHN": "1John",
+    "2 JOHN": "2John", "3 JOHN": "3John", "JUDE": "Jude", "REVELATION": "Rev",
+}
