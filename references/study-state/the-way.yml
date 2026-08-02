@@ -1,6 +1,6 @@
 slug: "the-way"
 title: "The Way"
-status: drafting
+status: published
 target_path: "docs/content/studies/theology/the-way.md"
 
 primary_passage: "John 14:6; Acts 9:2"
@@ -230,8 +230,23 @@ fix_2026-08-02_hebrew_bold_rendering:
     - ".claude/skills/develop-bible-study/style-guide.md: new \"Hebrew/RTL text and markdown bold\" section explaining the mechanism and the working fix pattern, cross-linking the why-ai-assisted-study.md and melchizedek-priesthood.md examples."
     - ".claude/skills/review-bible-study/SKILL.md: Phase 2 now explicitly instructs running npm run validate and treating this error as Critical; the Reporting section's Critical-severity definition now names it by name."
 
+published_2026-08-02:
+  what: >
+    User confirmed <span dir="rtl"> over the plain-Hebrew alternative (verified correct against a
+    real mkdocs build first -- the Zed markdown-preview literal-text display was a previewer
+    limitation, not a file bug). User then caught a second, unrelated defect before publish: the
+    Isaiah 40:3 forerunner table's John row had wrapped across two physical lines during editing,
+    which breaks markdown table syntax (a table row must be one line) -- the second line would
+    have rendered as stray paragraph text below a 3-row table instead of a 4-row table. Fixed by
+    rejoining onto one line; confirmed via a real mkdocs build that all rows now render inside
+    proper <table>/<tr>/<td> markup. draft flipped to false, commentary_index.py and
+    section_index.py re-run to pick up the new study's bible_references (created commentary
+    cross-reference pages for 1 Peter, 2 Peter, and Jude, which didn't have any studies linking to
+    them before this one). Committed as 7fa1a8c, staged narrowly -- left unrelated pre-existing
+    uncommitted changes (references/build/book_map.py, study_notes/extractors/*, sources.py) alone
+    since they predate this session's work.
+
 open_questions:
-  - "User has not yet reviewed the fixed draft. Flip draft: false only after their sign-off, per skill Phase 8."
   - "Five other published studies have the same Hebrew-bold rendering bug (see fix_2026-08-02_hebrew_bold_rendering.wider_finding) -- not fixed, not part of this study. Worth a separate pass if the user wants it."
 resources_consulted:
   - {type: lexicon, title: "MACULA Greek Linguistic Datasets (SBLGNT) / MACULA Hebrew Linguistic Datasets (WLC)", author: "", note: "Queried via bible-references MCP server (bible_concordance, bible_word, bible_verse) -- full NT hodos concordance, Isaiah 35:8/40:3 Hebrew morphology, Acts 24:14 hairesis tagging."}
