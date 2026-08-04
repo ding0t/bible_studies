@@ -83,8 +83,8 @@ doesn't feed them again.
 He doesn't deny they're hungry — he corrects what they're hungry for. They saw a **sign** (σημεῖον)
 and mistook it for a meal. His verb, **ἐργάζεσθε** (*ergazesthe*, "labor," G2038), echoes Isaiah's
 identical complaint: *"Why do you spend your money for that which is not bread, and your labor for
-that which does not satisfy?"* (Isaiah 55:2, ESV) — the Hebrew is **יְגִיעַ** (*yəgîaʿ*, H3018, "toil")
-spent **לְלוֹא לְשָׂבְעָה** (*lelo' lesov'ah*), "for not-to-satisfaction." Same complaint, six centuries
+that which does not satisfy?"* (Isaiah 55:2, ESV) — the Hebrew is <span dir="rtl">יְגִיעַ</span> (*yəgîaʿ*, H3018, "toil")
+spent <span dir="rtl">לְלוֹא לְשָׂבְעָה</span> (*lelo' lesov'ah*), "for not-to-satisfaction." Same complaint, six centuries
 apart: hard work for food that can't fill you, when what fills is free.
 
 The crowd answers by quoting Scripture back — *Moses gave our fathers manna, what will you do?*
@@ -230,7 +230,7 @@ they crave, in obscene quantity — quail heaped three feet deep for a day's jou
 > Therefore the name of that place was called Kibroth-hattaavah, because there they buried the people
 > who had the craving.
 
-**קִבְרוֹת הַתַּאֲוָה** — *Qivrot ha-Ta'avah*, "the graves of craving." Psalm 78 gives the verdict on
+<span dir="rtl">קִבְרוֹת הַתַּאֲוָה</span> — *Qivrot ha-Ta'avah*, "the graves of craving." Psalm 78 gives the verdict on
 both wilderness stories in one breath: God "rained down on them manna to eat" (78:24) and also "gave
 them what they craved" (78:29) — and the craving killed them (78:29-31). Not punished for being hungry;
 punished for despising sufficiency and demanding surplus.

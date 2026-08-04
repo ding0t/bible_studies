@@ -14,7 +14,7 @@ Fasting is fundamentally an attitude of humble dependence upon God, expressed th
 
 ### Hebrew Understanding: צוּם (tsūm)
 
-The Hebrew word **צוּם** (*tsūm*) means "to abstain from food" or "to cover the mouth." This root conveys both the physical act of not eating and the spiritual posture of humility. The word appears over 50 times in the Old Testament, reflecting its importance in Jewish spiritual life.
+The Hebrew word <span dir="rtl">צוּם</span> (*tsūm*) means "to abstain from food" or "to cover the mouth." This root conveys both the physical act of not eating and the spiritual posture of humility. The word appears over 50 times in the Old Testament, reflecting its importance in Jewish spiritual life.
 
 ### Greek Understanding: νηστεύω (nēsteuō)
 
