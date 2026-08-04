@@ -10,7 +10,7 @@
     "category": "prophecy-fulfilled-in-jesus",
     "zadok_year": 0,
     "gregorian_year": -4004,
-    "url": "/bible_end_times/studies/prophecy-fulfilled-in-jesus/woman-at-well/"
+    "url": "/bible_studies/studies/prophecy-fulfilled-in-jesus/woman-at-well/"
   },
   {
     "slug": "studies/prophecy-fulfilled-in-jesus/woman-issue-of-blood-faith-and-access",
@@ -28,7 +28,7 @@
     "category": "prophecy-fulfilled-in-jesus",
     "zadok_year": 4036,
     "gregorian_year": 32,
-    "url": "/bible_end_times/studies/prophecy-fulfilled-in-jesus/woman-issue-of-blood-faith-and-access/"
+    "url": "/bible_studies/studies/prophecy-fulfilled-in-jesus/woman-issue-of-blood-faith-and-access/"
   },
   {
     "slug": "studies/prophecy-fulfilled-in-jesus/woman-suffering-bleeding",
@@ -44,7 +44,7 @@
     "category": "prophecy-fulfilled-in-jesus",
     "zadok_year": 3988,
     "gregorian_year": 32,
-    "url": "/bible_end_times/studies/prophecy-fulfilled-in-jesus/woman-suffering-bleeding/"
+    "url": "/bible_studies/studies/prophecy-fulfilled-in-jesus/woman-suffering-bleeding/"
   },
   {
     "slug": "studies/feasts/last-supper-four-cups",
@@ -61,7 +61,7 @@
     "category": "feasts",
     "zadok_year": 4037,
     "gregorian_year": 33,
-    "url": "/bible_end_times/studies/feasts/last-supper-four-cups/"
+    "url": "/bible_studies/studies/feasts/last-supper-four-cups/"
   },
   {
     "slug": "studies/feasts/trumpets",
@@ -78,6 +78,6 @@
     "category": "feasts",
     "zadok_year": 4037,
     "gregorian_year": 33,
-    "url": "/bible_end_times/studies/feasts/trumpets/"
+    "url": "/bible_studies/studies/feasts/trumpets/"
   }
 ]

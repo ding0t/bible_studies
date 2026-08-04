@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
+import astroConfig from '../astro.config.mjs';
 
 function walk(dir) {
   const out = [];
@@ -42,7 +43,7 @@ if (isMain) {
   const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
   const contentDir = path.join(repoRoot, 'docs/content');
   const outFile = path.join(repoRoot, 'docs/data/events.json');
-  const events = generateEvents(contentDir, '/bible_end_times');
+  const events = generateEvents(contentDir, astroConfig.base);
   fs.mkdirSync(path.dirname(outFile), { recursive: true });
   fs.writeFileSync(outFile, JSON.stringify(events, null, 2) + '\n');
   console.log(`Wrote ${events.length} events to ${outFile}`);
