@@ -13,4 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 24:30-31
+- [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 24:3-14
+- [The Trumpet Call of God](../../../studies/prophecy/trumpet.md) — 24:29-31
 <!-- commentary-index:auto-end -->

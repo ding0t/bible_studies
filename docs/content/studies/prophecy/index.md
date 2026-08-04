@@ -12,11 +12,11 @@ End-times and biblical prophecy, read dispensationally.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
--   __The Day is Near__
+-   __The Day Is Near__
 
     ---
 
-    Examining scriptural indicators that we are in the last days and the imminent return of Christ
+    Why the timing of Christ's return is deliberately hidden, and the six-then-seventh pattern -- creation week, Sabbath, Hebrews' rest, the millennium -- this site reads through 2 Peter 3's 'a day is as a thousand years.'
 
     [:octicons-arrow-right-24: Read](day-is-near.md)
 
@@ -48,7 +48,7 @@ End-times and biblical prophecy, read dispensationally.
 
     ---
 
-    Understanding the significance and types of trumpet calls throughout Scripture
+    What shofar and chatsotsrah meant in ancient Israel, the pattern of divine action a trumpet blast consistently signals across the Old Testament, and how Revelation's seven trumpets escalate that pattern toward the kingdom's arrival.
 
     [:octicons-arrow-right-24: Read](trumpet.md)
 

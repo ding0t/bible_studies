@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 1:9-11
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../../studies/prayer/lords-prayer.md) — 1:6
 <!-- commentary-index:auto-end -->

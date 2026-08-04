@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 1:14-19
 - [The Zadok Calendar](../../../studies/prophecy/zadok-calendar.md) — 1:14-19
 - [The woman at the well](../../../studies/prophecy-fulfilled-in-jesus/woman-at-well.md) — 1:1
 <!-- commentary-index:auto-end -->

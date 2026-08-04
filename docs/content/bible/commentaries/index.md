@@ -48,6 +48,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](06-joshua/)
 
+-   __Judges__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](07-judges/)
+
 -   __Ruth__
 
     ---
@@ -156,6 +162,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](30-amos/)
 
+-   __Zephaniah__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](36-zephaniah/)
+
 -   __Zechariah__
 
     ---
@@ -221,6 +233,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](49-ephesians/)
+
+-   __Colossians__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](51-colossians/)
 
 -   __1 Thessalonians__
 

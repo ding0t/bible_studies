@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 4:16-17
+- [The Trumpet Call of God](../../../studies/prophecy/trumpet.md) — 4:16-17
 <!-- commentary-index:auto-end -->

@@ -1,16 +1,16 @@
 ---
-title: "Joel"
+title: "Judges"
 category: "bible"
-description: "Commentary on Joel"
-tags: ["joel", "commentary"]
+description: "Commentary on Judges"
+tags: ["judges", "commentary"]
 draft: false
 ---
 
-# Joel
+# Judges
 
 
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
-- [Chapter 2](chapter-002.md) — 3 study(ies)
+- [Chapter 7](chapter-007.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

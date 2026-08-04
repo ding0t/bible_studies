@@ -1,0 +1,209 @@
+slug: "trumpet"
+title: "The Trumpet Call of God"
+status: drafting
+target_path: "docs/content/studies/prophecy/trumpet.md"
+
+primary_passage: "Revelation 8:6-9:21; 11:15-19"
+supporting_passages:
+  - "Numbers 10:1-10"
+  - "Numbers 31:6"
+  - "Exodus 19:16-19"
+  - "Leviticus 23:23-25"
+  - "Leviticus 25:8-12"
+  - "Joshua 6:4-5"
+  - "Judges 7:16-22"
+  - "1 Kings 1:34-39"
+  - "Amos 3:6"
+  - "Joel 2:1-11"
+  - "Zephaniah 1:14-16"
+  - "Isaiah 18:3"
+  - "Isaiah 27:12-13"
+  - "Matthew 24:29-31"
+  - "1 Corinthians 14:8"
+  - "1 Corinthians 15:51-53"
+  - "1 Thessalonians 4:16-17"
+  - "Revelation 4:1"
+  - "Revelation 10:7"
+genre: [apocalyptic, law, prophets, epistle, topical]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Rewrite of a pre-existing published (draft:false) skeleton -- headers only, no exegesis:
+      an empty "Feast of Trumpets" header duplicating a separate already-good study
+      (feasts/trumpets.md, tracked at study-state/trumpets.yml -- not re-covered here, cross-
+      linked instead), a Seven Trumpets of Revelation table with 6 of 7 rows blank and one
+      broken markdown link, an ungrounded bullet list asserting what trumpets are "for" with
+      zero scripture cited per point, and a References section of low-quality external links.
+      User confirmed via AskUserQuestion they wanted the whole page done, not just the Seven
+      Trumpets table they originally linked to. Mid-research, user refined the brief further:
+      emphasize what trumpets are a *type* for, plus linguistic and cultural significance,
+      specifically building toward prophecy/end-times rather than a flat catalog of literal
+      uses -- this reshaped the final structure around a single throughline (gathering -> war
+      alarm -> theophany -> coronation -> Day-of-the-LORD warning, escalating in Revelation)
+      rather than a section-per-topic layout matching the old skeleton's headers literally.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Two distinct instruments in ancient Israel, not one: shofar (ram's horn, natural,
+        unrepeatable/dramatic occasions -- Sinai, Jericho, Jubilee, Day of Atonement) vs.
+        chatsotsrah (hammered silver, priestly, Israel's operating rhythm -- assembling,
+        marching, war, feast days). Cultural Backgrounds Study Bible grounds the silver
+        trumpets' construction in Late Bronze Age Egyptian parallels (Tutankhamun's tomb finds);
+        Josephus (Jewish Antiquities 3.291) gives physical dimensions; captured temple trumpets
+        are pictured on the Arch of Titus. Revelation's Greek uses one word (salpigx) for
+        everything, so the Hebrew instrument-level distinction doesn't carry into the NT
+        vocabulary -- context, not word choice, has to establish which pattern a given NT use
+        draws on.
+    literary_context:
+      done: true
+      notes: >
+        Revelation's seven trumpets are the third of four sevenfold judgment cycles (letters,
+        seals, trumpets, bowls) -- ESV Study Bible confirms this structure and that the first
+        four trumpets deliberately escalate the first four seals' "a fourth" to "a third."
+        NKJV/NIV Cultural Backgrounds Study Bible's own comparison chart (bowls/trumpets/Exodus
+        plagues) confirmed the plague parallels claimed for the table rather than asserting them
+        from memory. The fifth trumpet's locust description was checked and found to come from
+        Joel 2:4-11's war-horse imagery, not Exodus's own (locust-only) eighth plague -- a real,
+        source-confirmed distinction, not an assumed one.
+    content_word_studies:
+      done: true
+      notes: >
+        shofar (H7782, TWOT 2449c, "horn"), chatsotsrah (H2689, TWOT 726a, "clarion"), yobel
+        (H3104, TWOT 835e, "ram" -- confirmed as the actual root "jubilee" derives from), and
+        salpigx (G4536) all confirmed via twot_strongs/bible_word directly rather than recalled.
+        Full NT concordance for salpigx pulled to confirm which texts use it (1 Cor 14:8, 15:52;
+        1 Thess 4:16; Heb 12:19; Matt 24:31; Rev 1:10, 4:1, 8:2, 8:6, 8:13, 9:14) -- this is what
+        surfaced Revelation 4:1's "voice like a trumpet" and Hebrews 12:19's Sinai retrospective
+        as texts worth at least being aware of, even though only 4:1 made it into the final
+        draft as a passing footnote-worthy detail and 12:19 grounds the Sinai-theophany section.
+      terms:
+        - {word: "שׁוֹפָר", language: hebrew, transliteration: "shofar", strongs_id: "H7782", gloss: "ram's horn", range_of_meanings: [], notes: "TWOT root 2449c."}
+        - {word: "חֲצֹצְרָה", language: hebrew, transliteration: "chatsotsrah", strongs_id: "H2689", gloss: "(metal) trumpet, clarion", range_of_meanings: [], notes: "TWOT root 726a. Distinct instrument/word from shofar -- see historical_context."}
+        - {word: "יוֹבֵל", language: hebrew, transliteration: "yobel", strongs_id: "H3104", gloss: "ram, ram's horn", range_of_meanings: [], notes: "TWOT root 835e. Source of 'jubilee.'"}
+        - {word: "σάλπιγξ", language: greek, transliteration: "salpigx", strongs_id: "G4536", gloss: "trumpet", range_of_meanings: [], notes: "Single Greek word covering both Revelation's judgment trumpets and 1 Cor 15:52/1 Thess 4:16's 'last trumpet' -- the word itself carries no disambiguating information, addressed directly in the 'three texts, not one event' section rather than left implicit."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Transcultural: a trumpet in Scripture always marks real divine action and calls for a
+        real response -- never ornamental. Culturally/textually specific: which instrument,
+        which occasion, which audience -- explicitly the point of the "three texts, not one
+        event" section, which argues 1 Cor 15:51-53/1 Thess 4:16-17 (the church), Matthew
+        24:29-31 (Israel's post-tribulation regathering, per Isa 27:12-13's own background), and
+        Revelation 11:15 (the seventh judgment trumpet) are three distinct referents despite
+        shared salpigx vocabulary -- argued from audience/timing/content differences actually
+        stated in each text, not merely asserted as separate because a dispensational scheme
+        requires it.
+    theological_principle:
+      done: true
+      notes: "A trumpet in Scripture is never incidental -- it marks the specific moment God has decided to act, and demands a specific response (worship, obedience, resistance, celebration, repentance) rather than curiosity about the sound itself."
+    application_draft:
+      done: true
+      notes: "Drafted into Key Takeaways' Be Transformed block and the closing 'Then and now' section."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Isaiah 27:12-13", relation: "direct prophecy behind Matthew 24:31's 'gather his elect' trumpet language -- confirmed it names Israel specifically (exiles from Assyria/Egypt), not a general audience"}
+      - {ref: "Joel 2:1-11", relation: "source of Revelation 9's fifth-trumpet locust imagery (war-horse shape, unbroken ranks, sun-darkening) -- confirmed via direct comparison, not asserted"}
+      - {ref: "1 Kings 1:34-39", relation: "coronation-trumpet pattern that Revelation 11:15's seventh trumpet reuses at cosmic scale"}
+      - {ref: "Revelation 10:7", relation: "the seventh trumpet's own 'mystery of God... fulfilled' language echoes Paul's 'mystery' at 1 Cor 15:51 -- flagged honestly as a real point of contact rather than ignored, while still arguing the two mysteries differ in content"}
+    translations_compared: ["ESV", "WEB"]
+    divergences_noted: "No significant translation divergence surfaced worth its own section -- ESV used throughout for all quoted verses, checked against study-notes.db directly rather than recalled."
+  drafting:
+    done: true
+    file: "docs/content/studies/prophecy/trumpet.md"
+  review:
+    done: true
+    validated: true
+
+review_2026-08-04:
+  reviewer: "review-bible-study skill, same session"
+  scope: "Full adversarial re-check -- Phases 1-6 of review-bible-study.md."
+  phase1_scripture: >
+    Re-queried every quoted verse independently against study-notes.db's esv-study-bible verses
+    table AND the corresponding WEB text (bible_verse MCP tool), because the mismatches found
+    turned out to have a specific, checkable cause: eight inline quotes labeled "(ESV)" are
+    actually WEB wording (or a blend/paraphrase matching neither exactly), left over from initial
+    research pulls that used the MCP tool's WEB default before the ESV text was fetched
+    separately for the same verses later in drafting. Block quotes (Numbers 10:2-3, Exodus 19:16,
+    the two Memory verses) were copy-pasted carefully at drafting time and are all verbatim-
+    accurate; the damage is confined to short inline quotes woven into prose. Full list of
+    confirmed mismatches in the findings below.
+  phase2_citations: >
+    TWOT roots re-verified fresh via twot_strongs (2449c shofar, 726a chatsotsrah, 835e yobel --
+    all correct). Internal links (key-takeaways.md, feasts/trumpets.md) and both images
+    (shofar.webp, two-trumpets.jpg) confirmed to resolve on disk. npm run validate passes clean,
+    including Check 9 (Hebrew/Aramaic-in-bold) -- no rendering-breaking Hebrew formatting issues
+    this time. One cross-reference (Zechariah 14:5, "Lessons about Jesus" bullet) checked and
+    found not to say what's claimed -- see findings. Copyright/quotation-length: well within
+    bounds, no concern.
+  phase3_word_studies: >
+    No root-fallacy claims found. The Joel-not-Exodus source for Revelation 9's locust imagery
+    was independently re-compared verse-by-verse (Joel 2:4-11 vs. Revelation 9:7-11) rather than
+    trusted from the draft's own citation, and holds up -- the war-horse/crown/human-face/hair
+    details are absent from Exodus's plague account and present in Joel's.
+  phase4_commentary_crosscheck: >
+    Queried two sources the draft hadn't already leaned on: CSB Ancient Faith Study Bible (Rev
+    8-9, 1 Cor 15:51-52, Numbers 10) -- SILENT, sparse coverage, mostly textual-variant notes, no
+    substantive commentary either way. NLT Life Application Study Bible on Revelation 11:15 --
+    CONFIRMS the study's central reading of the seventh trumpet as the judgment sequence's
+    culmination ("no longer partial but complete"), and independently cross-references Revelation
+    10:7 for the same moment, the same connection the draft draws. No contradictions found against
+    any central claim.
+  phase5_context_coverage: >
+    Five of six how-to-read-the-bible.md questions covered (genre lens applied -- OT imagery
+    grounded before end-times reading, exactly per the skill's Revelation lens instruction --
+    literary context, original-language checks, cultural-vs-transcultural line drawn explicitly in
+    "Then and now," theological principle cross-supported rather than resting on one detail). One
+    gap: Revelation's own historical occasion -- author, date, the letter's original audience of
+    seven real churches under pressure -- is never addressed. The skill's own genre-lens table
+    flags this by name ("the original pastoral purpose to seven real churches sits alongside the
+    future-oriented vision") and this draft skips straight past it into the trumpets' content.
+  phase6_style: >
+    Grep for banned intensifiers found only legitimate contrastive uses of "actually." Structure
+    matches SKILL.md Phase 7 (hook -> Key Takeaways -> detail -> discussion questions ->
+    References). No em-dash or rule-of-three overuse found.
+  findings_summary: "10 findings reported via ReportFindings -- 8 Critical (quote/translation mismatches, one mislabeled cross-reference folded in as a 9th), 1 Moderate (Revelation's historical occasion never addressed), 1 Minor (a stray comma in a quote). Presented to user; not yet fixed pending their direction."
+
+fixes_2026-08-04:
+  scripture_accuracy: >
+    All 8 Critical quote-mismatch findings fixed: Revelation 11:15 (Lessons about Jesus bullet,
+    "kingdom" de-capitalized to match ESV and the file's own correct Memory Verses instance),
+    Numbers 10:9 and 10:10 (restored full ESV wording -- "that you may be remembered... you shall
+    be saved", "At your appointed feasts"), 1 Kings 1:34 (removed a comma ESV doesn't have), Amos
+    3:6 ("Is a trumpet blown" replacing the blended paraphrase), Revelation 9:7 ("like horses
+    prepared for battle" replacing WEB's "for war"), Revelation 10:7 (restored "would be
+    fulfilled"), 1 Corinthians 15:51 ("shall" replacing WEB's "will"), Isaiah 27:13 ("lost in the
+    land of Assyria" replacing WEB's "ready to perish"), Revelation 11:18 ("for destroying the
+    destroyers of the earth" replacing the paraphrase). Root cause confirmed and noted: early
+    research pulls used the MCP tool's WEB default; several short inline quotes kept that wording
+    into the draft under an ESV label. Block quotes were unaffected.
+  citation_accuracy: >
+    Zechariah 14:5 cross-reference (Lessons about Jesus, second bullet) rewritten. It claimed
+    Zechariah 14:5 "assigns authority" over angel-sending to the LORD alone -- the verse says no
+    such thing. Replaced with an accurate paraphrase of what the cited NKJV Cultural Backgrounds
+    Study Bible note actually argues: the Son of Man sending "his angels" (rather than merely an
+    angel being sent) is itself a claim to deity in Jewish thought -- same footnote source, now
+    correctly represented.
+  context_gap: >
+    Added a paragraph at the start of "The seven trumpets of Revelation" grounding Revelation's
+    own historical occasion before its content: John's exile on Patmos (Revelation 1:9, sourced to
+    ESV Study Bible, new footnote esvsb-rev1), his own framing of that exile as shared
+    "tribulation" with his readers, and the seven named, real congregations the letters-then-
+    trumpets vision addresses. Kept deliberately modest -- no date or authorship claim beyond what
+    the queried commentary note actually stated, rather than asserting a specific date (e.g. "AD
+    95, Domitian") that wasn't independently verified this session.
+  verification: "npm run validate re-run clean after all fixes (including Check 9, Hebrew-bold). Style-guide grep re-run, no new hits beyond legitimate contrastive 'actually' uses."
+
+open_questions:
+  - "User has not yet reviewed the fixed draft. Flip draft: false only after their sign-off."
+resources_consulted:
+  - {type: lexicon, title: "MACULA Greek Linguistic Datasets (SBLGNT) / MACULA Hebrew Linguistic Datasets (WLC)", author: "", note: "Full NT salpigx concordance, OT shofar/chatsotsrah concordance, all Strong's/TWOT cross-checks."}
+  - {type: dictionary, title: "Theological Wordbook of the Old Testament (TWOT)", author: "Harris, Archer, Waltke", note: "Roots 2449c (shofar), 726a (chatsotsrah), 835e (yobel)."}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway, 2016", note: "Numbers 10, Exodus 19, Leviticus 25, Revelation 8-11 structure, 1 Thessalonians 4:16-17's harpazo note -- consulted last, confirmed the four-cycle Revelation structure and the Numbers 10 alarm/blow distinction."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible / NKJV Cultural Backgrounds Study Bible", author: "Zondervan, ed. Walton and Keener", note: "Source of the Egyptian-trumpet archaeological parallel, the Exodus-plague/trumpet/bowl comparison chart, the Joel-locust background to Revelation 9, and the Isaiah 27:12-13 background to Matthew 24:31. Materially shaped the Seven Trumpets table and the last-trumpet distinction section, not just confirmed them."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan, 2018, gen. ed. D. A. Carson", note: "1 Corinthians 15:52 cross-reference note -- engaged directly rather than just cited, since it reads the trumpet texts as one thematic family without the timing distinction this study argues for; noted that disagreement explicitly in the draft rather than silently picking the source that agreed."}
+last_updated: "2026-08-04"

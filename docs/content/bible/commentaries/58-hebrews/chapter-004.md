@@ -14,4 +14,5 @@ draft: false
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../../studies/prophecy-fulfilled-in-jesus/as-the-snake-was-lifted.md) — 4:15
 - [Jesus, Priest in the Order of Melchizedek](../../../studies/theology/melchizedek-priesthood.md) — 4:14-16
+- [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 4:1-13
 <!-- commentary-index:auto-end -->

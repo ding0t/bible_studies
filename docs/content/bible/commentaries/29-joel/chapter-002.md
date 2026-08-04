@@ -14,4 +14,5 @@ draft: false
 
 - [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 2:1
 - [Prophecy Events and Times](../../../studies/prophecy/prophecy-events-times.md) — 2:31
+- [The Trumpet Call of God](../../../studies/prophecy/trumpet.md) — 2:1-11
 <!-- commentary-index:auto-end -->
