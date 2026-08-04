@@ -1,0 +1,33 @@
+.hero-verses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.hero-verses blockquote {
+  flex: 1 1 260px;
+  margin: 0;
+  padding: 1.1rem 1.4rem;
+  border: none;
+  border-left: 4px solid var(--md-primary-fg-color);
+  background: var(--md-code-bg-color);
+  border-radius: 0.25rem;
+}
+
+.hero-verses blockquote p:first-child {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--md-primary-fg-color);
+  font-style: normal;
+}
+
+.hero-verses blockquote p:last-child {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-style: italic;
+}

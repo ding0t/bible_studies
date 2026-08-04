@@ -2,7 +2,7 @@
 interface Props {
   title?: string;
 }
-const { title = 'Biblical Studies' } = Astro.props;
+const { title = 'The Way' } = Astro.props;
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -11,7 +11,7 @@ const base = import.meta.env.BASE_URL;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content="Interactive Bible studies and prophetic timeline" />
-    <title>{`${title} | Biblical Studies`}</title>
+    <title>{`${title} | The Way`}</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
@@ -180,7 +180,7 @@ const base = import.meta.env.BASE_URL;
   <body>
     <header>
       <div class="header-content">
-        <h1>📖 Biblical Studies</h1>
+        <h1>✝️ The Way</h1>
         <p>Interactive exploration of Scripture and prophecy</p>
       </div>
       <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="toggleTheme()">
@@ -202,7 +202,7 @@ const base = import.meta.env.BASE_URL;
     </main>
 
     <footer>
-      <p>&copy; 2026 Biblical Studies by ding0t. Built with Astro.</p>
+      <p>&copy; 2026 The Way. Built with Astro.</p>
     </footer>
   </body>
 </html>

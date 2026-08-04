@@ -1,8 +1,32 @@
 ---
-title: Biblical Studies
+title: Home
 ---
 
-# Biblical Studies by ding0t
+<link rel="stylesheet" href="assets/stylesheets/hero-verses.css" />
+
+# The Way
+
+<div class="hero-verses" markdown="1">
+
+> ✝️ Isaiah 30:21 (ESV)
+>
+> And your ears shall hear a word behind you, saying, "This is the way, walk in it."
+
+<!-- -->
+
+> ✝️ John 14:6 (ESV)
+>
+> I am the way, and the truth, and the life. No one comes to the Father except through me.
+
+</div>
+
+Long before Jesus spoke those words, the road was already there — Isaiah told Israel to walk in it
+seven centuries before Bethlehem. When Jesus claimed to *be* that way, he wasn't coining a new
+metaphor; he was closing a very old one. His earliest followers heard it that way too: before
+anyone called them Christians, they called themselves the Way — Greek **ὁδός** (*hodos*), the
+ordinary word for a road (Acts 9:2). That's this site's name, and its subject. See the
+[full word study](studies/theology/the-way.md) for how it traces from Isaiah's "way of the LORD"
+through John 14:6 and into the book of Acts.
 
 These are personal bible study notes to help make sure I learn, and share that learning.
 We have the Bible, an integrated message to us of God's work with humanity.
@@ -38,6 +62,7 @@ I don't hold this faith blindly, and I don't think you have to either.
 
 ## Explore
 
+- **[The Way](studies/theology/the-way.md)** — the word study behind this site's name: *hodos* from its Old Testament roots to Jesus's claim in John 14:6 and the name believers wore in Acts.
 - **[Prophetic Timeline](timeline/)** — key events across biblical history in both Gregorian and Zadok calendars.
 - **[Genealogy Viewer](genealogy/)** — trace the lineage from Adam through Jesus.
 - **[Statement of Faith](about/statement-of-faith.md)** — what I believe, and why, built out one doctrine at a time with Scripture behind each.

@@ -1,4 +1,4 @@
-site_name: Biblical Studies by ding0t
+site_name: The Way
 site_url: 'https://ding0t.github.io/bible_studies/'
 repo_url: 'https://github.com/ding0t/bible_studies'
 docs_dir: docs/content
@@ -11,6 +11,7 @@ copyright: 'Scripture quotations are used by permission — see <a href="/bible_
 
 theme:
   name: material
+  favicon: assets/img/favicon.svg
   palette:
     # Defaults to the visitor's OS-level preference, then remembers their explicit choice.
     - media: "(prefers-color-scheme: light)"
