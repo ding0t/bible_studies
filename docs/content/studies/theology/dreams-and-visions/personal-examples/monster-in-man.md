@@ -8,6 +8,12 @@ draft: false
 
 # The monster in the man
 
+!!! note "Personal experience, not Scripture"
+    This is the author's own dream account, kept as personal testimony -- not a claim of new
+    revelation carrying Scripture's authority. See [Dreams and Visions: Godly and
+    Otherwise](../index.md) for what the Bible itself says about dreams, and for the discernment
+    framework this account is offered alongside, not above.
+
 03 April 2008
 
 There was a man tied up, who looked as if he was or had died because of the amount of wounds to his head.

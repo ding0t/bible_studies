@@ -8,6 +8,12 @@ draft: false
 
 # The Deceiver
 
+!!! note "Personal experience, not Scripture"
+    This is the author's own dream account, kept as personal testimony -- not a claim of new
+    revelation carrying Scripture's authority. See [Dreams and Visions: Godly and
+    Otherwise](../index.md) for what the Bible itself says about dreams, and for the discernment
+    framework this account is offered alongside, not above.
+
 10 June 2023
 
 There was a thing so evil its only job was to deceive.

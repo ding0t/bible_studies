@@ -8,6 +8,12 @@ draft: false
 
 # Sleep Paralysis Dreams
 
+!!! note "Personal experience, not Scripture"
+    This is the author's own dream account, kept as personal testimony -- not a claim of new
+    revelation carrying Scripture's authority. See [Dreams and Visions: Godly and
+    Otherwise](../index.md) for what the Bible itself says about dreams, and for the discernment
+    framework this account is offered alongside, not above.
+
 Experienced by many
 
 Around 2006 I experienced it most convincingly:

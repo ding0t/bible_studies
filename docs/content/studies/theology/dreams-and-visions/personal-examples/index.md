@@ -1,13 +1,17 @@
 ---
-title: "Dreams Visions"
-category: "other"
-description: "Dreams, visions, and spiritual warfare from a biblical perspective."
+title: "Personal Dream Accounts"
+category: "dreams"
+description: "The author's own personal dream accounts, kept as testimony rather than Scripture."
 draft: false
 ---
 
-# Dreams Visions
+# Personal Dream Accounts
 
-Dreams, visions, and spiritual warfare from a biblical perspective.
+!!! note "Personal experience, not Scripture"
+    The entries below are the author's own dream accounts -- kept here as personal testimony, not
+    as new revelation carrying Scripture's authority. See [Dreams and Visions: Godly and
+    Otherwise](../index.md) for what the Bible itself says about dreams, and for the discernment
+    framework (content, authority, and fruit) these accounts are offered alongside, not above.
 
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>

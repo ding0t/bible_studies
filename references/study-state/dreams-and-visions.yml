@@ -1,0 +1,145 @@
+slug: "dreams-and-visions"
+title: "Dreams and Visions: Godly and Otherwise"
+status: review
+target_path: "docs/content/studies/theology/dreams-and-visions/index.md"
+
+primary_passage: "Genesis 37:5-11; Genesis 40-41; Daniel 2; Deuteronomy 13:1-5; Jeremiah 23:25-32"
+supporting_passages:
+  - "1 Kings 3:5-15"
+  - "Daniel 4"
+  - "Daniel 7-8"
+  - "Matthew 1:20-21"
+  - "Matthew 2:12-13, 19-22"
+  - "Matthew 27:19"
+  - "Acts 10:9-16"
+  - "Acts 16:9-10"
+  - "Joel 2:28 / Acts 2:17"
+  - "Ecclesiastes 5:7"
+  - "Jude 1:8"
+  - "Numbers 12:6-8"
+genre: [topical, ot-narrative, prophets, gospel, acts, apocalyptic, wisdom]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      User request: the site's existing "dreams-visions" section (3 personal dream-journal entries
+      by the user, top-level nav directory docs/content/dreams-visions/) is disproportionately
+      prominent relative to its actual content -- user wants a proper Scripture-grounded study on
+      dreams (both God-given and false/deceptive), and to demote the personal entries to sit as
+      clearly-labeled, non-authoritative "personal examples" nested under the new study rather than
+      as their own top-level nav section. User explicitly chose (via AskUserQuestion): nest the
+      personal entries in a subfolder of the new study's own directory, removing the top-level nav
+      item entirely. File-layout decision: since mkdocs-awesome-pages nav is generated from directory
+      structure and this site's convention for a single study is a flat file (e.g.
+      studies/theology/melchizedek-priesthood.md), literal nesting requires converting this study
+      into a directory: docs/content/studies/theology/dreams-and-visions/index.md (the study itself)
+      + docs/content/studies/theology/dreams-and-visions/personal-examples/ (the 3 relocated entries
+      + an index.md disclaimer page, following the same auto-generated-grid pattern
+      section_index.py already uses for docs/content/studies/spiritual-disciplines/index.md etc).
+      The file-move/restructure of the existing personal entries is a separate, mostly-mechanical
+      follow-up task after this study's content is drafted and reviewed -- not exegesis, tracked
+      separately, not blocking this state file's own phases.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        ANE dream culture (per ESV Study Bible note on Daniel 2:1): dreams, especially a king's, were
+        widely believed to omen the future; Nebuchadnezzar demanding the dream's content itself (not
+        just interpretation) from his wise men is a test of whether they're genuinely in contact with
+        the divine. Egypt (Pharaoh, Genesis 41) shares the same court-magician-fails/captive-Hebrew-
+        succeeds narrative shape as Daniel 2. ESV Study Bible note on Gen 37:4-5 supplied the fuller
+        Genesis dream-pattern cross-ref list (20:3, 28:12, 31:10-11, 40:5-8, 41:1) predating Joseph's
+        own dreams -- used to establish dreams-as-revelation is already an established Genesis pattern
+        before ch. 37, not a novelty introduced with Joseph.
+    literary_context:
+      done: true
+      notes: >
+        Topical study spanning multiple books/genres rather than one literary unit -- literary context
+        handled per-anchor-passage instead of once: Gen 37 sits inside the Joseph narrative's opening
+        (dreams provoke the brothers' hatred that drives the whole plot); Gen 40-41 is Joseph's rise
+        via dream-interpretation immediately before Pharaoh's promotion of him; Daniel 2 opens the
+        Aramaic section (2:4b-7) and sets the book's pattern of pagan-court-power-vs-God-who-reveals;
+        Deut 13:1-18 is the middle of three "if" case-law scenarios (vv.1-5, 6-11, 12-18) all testing
+        loyalty via different routes to the same idolatry temptation; Jer 23:9-40 is Jeremiah's sustained
+        confrontation of false prophets, of which the dream-prophets (23:25-32) are one sub-unit.
+    content_word_studies:
+      done: true
+      notes: "See terms[] below; Hebrew/Aramaic verified via bible_syntax against macula-hebrew-wlc, Greek via macula-greek-sblgnt."
+      terms:
+        - {word: "חֲלוֹם / חָלַם", language: hebrew, transliteration: "chalom / chalam", strongs_id: "H2472 / H2492", gloss: "dream / to dream", notes: "TWOT root 663a. Same root for both godly (Joseph, Pharaoh, cupbearer/baker) and false (Deut 13's 'dreamer of dreams') dream texts -- Hebrew vocabulary doesn't pre-sort true from false; the text has to."}
+        - {word: "פָּתַר / פִּתְרוֹן", language: hebrew, transliteration: "patar / pitron", strongs_id: "H6622 / H6623", gloss: "to interpret / interpretation", notes: "TWOT root 1860. Concentrated in Gen 40-41; Joseph's own line 'do not interpretations belong to God?' (40:8) states the chapter's theology."}
+        - {word: "חֵלֶם / חֱזוּ", language: aramaic, transliteration: "chelem / chezu", strongs_id: "H2493 / H2376", gloss: "dream / vision", notes: "Daniel 2:28 pairs both as near-synonyms. Aramaic section runs 2:4b-7:28."}
+        - {word: "רָז", language: aramaic, transliteration: "raz", strongs_id: "", gloss: "mystery/secret", notes: "Persian loanword, Daniel 2:28. ESV 'mystery,' WEB 'secret' -- real theological weight of the verse; Daniel's answer credits a disclosed raz to God, not his own skill."}
+        - {word: "ὄναρ", language: greek, transliteration: "onar", strongs_id: "G3677", gloss: "dream", notes: "All 6 NT occurrences in Matthew only (1:20, 2:12, 2:13, 2:19, 2:22, 27:19) -- distinctly Matthean vocabulary signature."}
+        - {word: "ὅραμα / ὅρασις", language: greek, transliteration: "horama / horasis", strongs_id: "G3705 / G3706", gloss: "vision", notes: "From horaō, 'to see.' Luke's term (horama) for Peter/Paul's waking visions in Acts; horasis in Acts 2:17's Joel quotation."}
+        - {word: "ἐνύπνιον / ἐνυπνιάζομαι", language: greek, transliteration: "enypnion / enypniazomai", strongs_id: "G1798 / G1797", gloss: "dream / to dream", notes: "LXX/Acts 2:17's word for Joel's fulfilled prophecy AND Jude 1:8's word for false teachers' 'dreaming' -- same root serves both, another true/false vocabulary-overlap instance."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Transcultural: the three-part discernment framework (content test/Deut 13, authority test/
+        Jer 23 + Num 12, fruit test/Jude 1:8 vs. Joseph-Daniel-Peter) is stated as a general principle
+        applicable to any claimed revelatory dream, not tied to Israel's specific covenant setting.
+        Cultural/occasional: Deut 13's specific test scenario (a sign/wonder calling Israel to worship
+        named pagan gods) is the Mosaic covenant's own historical form of the temptation; the
+        underlying test (does this call toward greater faithfulness or away from it) transcends that
+        specific form and doesn't need a modern idol-worship equivalent forced onto it.
+    theological_principle:
+      done: true
+      notes: >
+        Scripture treats dreams and visions as a real, repeated means of divine revelation (Numbers
+        12:6 names it as God's ordinary way of speaking to a prophet) but never as self-authenticating
+        or equal in authority to God's spoken/written word (Jer 23:28's straw/wheat contrast; Num
+        12:6-8's own hierarchy subordinating dream/vision to Moses's direct 'mouth to mouth' access).
+        A dream's factual accuracy (Deut 13:2's sign coming true) is explicitly NOT the test Scripture
+        gives; content-fidelity-to-existing-revelation, claimed authority, and resulting fruit are.
+        This directly determines how the personal-testimony entries being nested under this study
+        must be framed: recountable as testimony, never treated as Scripture's equal.
+    application_draft:
+      done: true
+      notes: "See Be Transformed / Key Takeaways and 'The line this study exists to draw' section in drafted file -- explicit bridge to the personal-examples subpage being added in the follow-up restructuring task."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Genesis 20:3; 28:12; 31:10-11; 41:1", relation: "ESV Study Bible-sourced list showing dreams-as-revelation already established in Genesis before Joseph's own dreams (ch. 37)."}
+      - {ref: "1 Kings 3:5-15", relation: "A dream used for direct, non-symbolic divine conversation (Solomon's request for wisdom) rather than a coded prediction needing an interpreter."}
+      - {ref: "Daniel 4; 7-8", relation: "Nebuchadnezzar's second dream (same God-reveals pattern as ch. 2) and Daniel's own visions, where Daniel is recipient rather than interpreter and still needs Gabriel's explanation (8:15-16)."}
+      - {ref: "Matthew 1:20-21; 2:12-13, 19-22; 27:19", relation: "Matthew's onar dream-cluster protecting Jesus's early life, plus Pilate's wife's dream as a warning an unbeliever received and Pilate disregarded."}
+      - {ref: "Acts 2:17 / Joel 2:28-29", relation: "Direct fulfilled prophecy -- Peter names Joel by name as what Pentecost is (Acts 2:16) -- democratizing dream/vision revelation beyond prophets alone."}
+      - {ref: "Acts 10:9-16; 16:9-10", relation: "Peter's and Paul's horama visions -- directive/plain-meaning pattern matching Matthew's onar dreams rather than Joseph/Daniel's symbol-needing-interpretation pattern."}
+      - {ref: "1 Thessalonians 5:19-21; 1 John 4:1", relation: "NT general instruction to test any claimed spiritual experience -- the New Testament's own version of the discernment framework this study builds from the OT texts."}
+    translations_compared: ["ESV", "WEB"]
+    divergences_noted: >
+      Daniel 2:28's Aramaic raz: ESV renders "mystery," WEB renders "secret" -- both defensible, no
+      wrong answer, but worth flagging to a reader since "mystery" carries forward a NT theological
+      echo (mysterion, e.g. Ephesians 3, Colossians 1:26-27) that "secret" doesn't visibly preserve,
+      even though the underlying Aramaic word is the same either way. Not pursued further/into its own
+      section since it's a single-word case, not a structural pattern across the study's texts --
+      correctly scoped as a parenthetical rather than inflated into a dedicated translation-comparison
+      section per the skill's own "only where it earned one" guidance.
+  drafting:
+    done: true
+    file: "docs/content/studies/theology/dreams-and-visions/index.md"
+  review:
+    done: false
+    validated: true
+
+open_questions:
+  - "Scope is unusually wide for one study (OT narrative, apocalyptic, prophets, Gospel, Acts, wisdom
+     all touched). Plan: full word-study + verse-by-verse treatment on the load-bearing anchor texts
+     only (Genesis 37/40-41 Joseph; Daniel 2 Nebuchadnezzar; Deuteronomy 13:1-5 and Jeremiah 23:25-32
+     for the discernment/false-dream side); the remaining supporting passages (1 Kings 3, Daniel 4/7-8,
+     Matthew 1-2 and 27:19, Acts 10 and 16, Joel 2:28, Ecclesiastes 5:7, Jude 1:8) get a lighter
+     cross-reference-table treatment rather than full independent exegesis each, per the skill's own
+     'not every word needs this / don't pad' proportionality guidance."
+  - "Discernment/testing framework (how to tell a God-given dream from a false or merely psychological
+     one) needs to be built FROM the texts (Deut 13, Jer 23, 1 John 4:1) rather than imported from
+     outside -- this is exactly the kind of application that must wait for Phase 5, not get drafted
+     alongside the word studies."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway, 2016", note: "Notes on Genesis 37:2-36, 37:4-5, Daniel 2:1, 2:1-13, Deuteronomy 13:1, 13:1-18, Jeremiah 23:9-40, 23:23-25 -- queried via study-notes.db. Supplied ANE dream-culture background and the Genesis dream cross-reference list."}
+  - {type: lexicon, title: "MACULA Hebrew (WLC, incl. Aramaic portions) and Greek (SBLGNT) Linguistic Datasets", author: "Biblica/Clear Bible, CC BY 4.0", note: "Word studies + syntax for all Hebrew/Aramaic/Greek terms via bible_syntax and bible_verse MCP tools."}
+  - {type: lexicon, title: "TWOT (Theological Wordbook of the Old Testament)", author: "Archer, Harris & Waltke", note: "Root/gloss for chalom (H2472, root 663a) and patar (H6622, root 1860) via twot_strongs."}
+  - {type: other, title: "OpenBible.info cross-references", note: "Not heavily used this study -- word-study and ESV Study Bible cross-refs did most of the connective work; noted for completeness."}
+last_updated: "2026-08-04"

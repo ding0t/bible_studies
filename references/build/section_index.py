@@ -38,7 +38,7 @@ SECTION_BLURBS = {
     "bible": "Commentary and reference material on the biblical text itself.",
     "bible/commentaries": "Verse-by-verse commentary, organized by book, with auto-linked studies (see commentary_index.py).",
     "sermons": "Sermon notes and presentation material.",
-    "dreams-visions": "Dreams, visions, and spiritual warfare from a biblical perspective.",
+    "studies/theology/dreams-and-visions/personal-examples": "The author's own personal dream accounts, kept as testimony rather than Scripture.",
     "hebrew-studies": "Learning biblical Hebrew -- alphabet, resources, and study aids.",
     "investigation": "Investigative studies into specific practices and questions.",
     "investigation/deliverance": "The biblical basis for and practice of deliverance ministry.",

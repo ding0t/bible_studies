@@ -12,6 +12,12 @@ Broader theological topics not tied to a single feast, prophecy, or discipline.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __Dreams And Visions__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](dreams-and-visions/)
+
 -   __Hebrew Roots of Christianity__
 
     ---
