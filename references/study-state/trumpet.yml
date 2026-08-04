@@ -1,6 +1,6 @@
 slug: "trumpet"
 title: "The Trumpet Call of God"
-status: drafting
+status: published
 target_path: "docs/content/studies/prophecy/trumpet.md"
 
 primary_passage: "Revelation 8:6-9:21; 11:15-19"
@@ -198,8 +198,19 @@ fixes_2026-08-04:
     95, Domitian") that wasn't independently verified this session.
   verification: "npm run validate re-run clean after all fixes (including Check 9, Hebrew-bold). Style-guide grep re-run, no new hits beyond legitimate contrastive 'actually' uses."
 
-open_questions:
-  - "User has not yet reviewed the fixed draft. Flip draft: false only after their sign-off."
+published_2026-08-04:
+  what: >
+    User said "Publish" -- draft flipped to false, commentary_index.py and section_index.py
+    re-run, npm run validate clean, committed as 456093c. The regeneration also picked up
+    cross-references for a separate, already-published study (day-is-near.md) that was mid-edit
+    and uncommitted in the working tree at the time -- staged and committed the shared derived
+    index files (they're regenerated artifacts, not hand-authored, and represent the current true
+    state of the site's own tooling), but deliberately left day-is-near.md's own source file and
+    its study-state.yml untouched and unstaged, since that content isn't this session's to commit.
+    Also left docs/dev/todo.md (unrelated pending edit) alone, same discipline as the-way's
+    publish commit.
+
+open_questions: []
 resources_consulted:
   - {type: lexicon, title: "MACULA Greek Linguistic Datasets (SBLGNT) / MACULA Hebrew Linguistic Datasets (WLC)", author: "", note: "Full NT salpigx concordance, OT shofar/chatsotsrah concordance, all Strong's/TWOT cross-checks."}
   - {type: dictionary, title: "Theological Wordbook of the Old Testament (TWOT)", author: "Harris, Archer, Waltke", note: "Roots 2449c (shofar), 726a (chatsotsrah), 835e (yobel)."}
