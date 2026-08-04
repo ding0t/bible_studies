@@ -1,0 +1,106 @@
+slug: "day-is-near"
+title: "The Day Is Near"
+status: published
+target_path: "docs/content/studies/prophecy/day-is-near.md"
+
+primary_passage: "2 Peter 3:3-13"
+supporting_passages:
+  - "Revelation 1:3"
+  - "James 5:7-8"
+  - "Mark 13:32-37"
+  - "Matthew 24:3-14"
+  - "Exodus 20:11"
+  - "Hebrews 4:1-13"
+  - "Revelation 20:1-7"
+  - "Acts 1:9-11"
+genre: [epistle, apocalyptic, topical]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Existing draft.md was informal notes-style: unfinished "Signs of the end of age" heading
+      (empty), typos (Crucifiction, THe, sabsadows), no word studies, sourced to fivedoves.com
+      and a YouTube video for the year-6000 date. User asked to deepen each existing concept,
+      fill the empty section, and add a Key Takeaways block -- not change the thesis.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        2 Peter 3 written against realized-eschatology scoffers denying the parousia given
+        elapsed time since "the fathers fell asleep" (3:4). James 5:7-8 addressed to a
+        persecuted, economically exploited audience (5:1-6) -- patience is endurance under
+        real pressure, not a platitude. Mark 13 / Matt 24 = Olivet Discourse, private teaching
+        on the Mount of Olives in response to a two-part question (when? what sign?). Acts 1:11
+        spoken at the ascension itself, answering the disciples' "will you restore the kingdom"
+        question indirectly.
+    literary_context:
+      done: true
+      notes: >
+        Heb 4:1-13 continues the author's exposition of Ps 95 (quoted Heb 3:7-11, 4:3, 4:7) --
+        "rest" argued from Ps 95's own "today," not read cold into the passage. 2 Peter 3:8-9
+        sits between the scoffers' objection (3:3-4) and the day-of-the-Lord description
+        (3:10) -- v.8's "one day as a thousand years" functions in Peter's own argument as an
+        answer about God's patience/perspective on delay, not as a chronological cipher; the
+        6000-year framework is this site's own typological extension built on top of that verse,
+        not what 2 Peter 3 itself asserts -- kept honest about that distinction in the draft.
+    content_word_studies:
+      done: true
+      notes: >
+        All terms cross-checked against macula-greek-sblgnt / macula-hebrew-wlc via the
+        bible-references MCP tools, ESV Study Bible notes consulted for each anchor passage.
+      terms:
+        - {word: "καιρός / ἐγγύς", language: greek, transliteration: "kairos / engys", strongs_id: "G2540 / G1451", gloss: "appointed time / near", notes: "Rev 1:3 -- kairos is a fitting appointed moment, not clock-time (chronos); reinforces the study's own point that 'near' is about certainty/appointedness, not a short countdown."}
+        - {word: "μακροθυμέω", language: greek, transliteration: "makrothymeo", strongs_id: "G3114", gloss: "be long-tempered, patient", notes: "Jas 5:7 imperative (makrothymesate) and 2 Pet 3:9 (makrothymei, of God) are the same verb -- the patience James commands is explicitly the same patience Peter says God himself is exercising. Genuine intertextual link, not forced."}
+        - {word: "σαββατισμός vs κατάπαυσις", language: greek, transliteration: "sabbatismos vs katapausis", strongs_id: "G4520 / G2663", gloss: "Sabbath-observance vs rest/cessation", notes: "Heb 4 uses katapausis throughout (4:1,3,5,10,11) but switches to the rarer sabbatismos exactly once, at 4:9, tying the chapter's 'rest' explicitly back to Sabbath-keeping. Load-bearing for the six-days/seventh-day argument. ESV Study Bible reads Heb 4's rest as gospel-rest already-inaugurated/not-yet-consummated for believers now, NOT explicitly the millennium -- the millennial link is this site's own typological extension, flagged as such rather than presented as Hebrews' own claim."}
+        - {word: "שָׁבַת / שַׁבָּת", language: hebrew, transliteration: "shabat / shabbat", strongs_id: "H7673 / H7676", gloss: "cease, rest / Sabbath", notes: "TWOT root 2323, 'cease.' Exod 20:11 actually uses two different Hebrew roots for God's rest in one verse -- nuach (H5117, וַיָּנַח, 'he rested') and shabbat itself -- worth noting as a minor but real textual detail."}
+        - {word: "ὃν τρόπον", language: greek, transliteration: "hon tropon", strongs_id: "G3739 / G5158", gloss: "in that manner/way", notes: "Acts 1:11. tropos = manner/fashion, not a timing word. ESV Study Bible note on 1:11 confirms: 'Jesus' return, like his ascension, will be bodily and visible' -- a claim about HOW he returns, not WHEN. The original draft's leap from 'same way' to 'same timing... 2032' overreads the Greek; corrected in the redraft to state what the grammar actually supports and label the date as speculation, not exegesis."}
+        - {word: "σημεῖον / συντέλεια τοῦ αἰῶνος", language: greek, transliteration: "semeion / synteleia tou aionos", strongs_id: "G4592 / G4930 + G165", gloss: "sign / consummation of the age", notes: "Matt 24:3, the disciples' own two-part question, used to structure the new Signs of the end of the age section (24:4-14: false messiahs, wars, famines/earthquakes as 'birth pains' -- ESV Study Bible ties odinon to OT prophetic suffering-before-deliverance imagery -- persecution, apostasy, and finally global gospel proclamation as the stated terminus of v.14)."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Transcultural: patient endurance grounded in God's own patience: the timing being the
+        Father's alone to know; the pattern of six-then-seventh as a real, repeated biblical
+        shape (creation week, sabbatical/jubilee cycles, Heb 4). Culturally/speculatively bound:
+        any specific calendar-year calculation (2075 AD, 2032) -- kept, per the user's request
+        to preserve this concept, but explicitly labeled as speculative extrapolation rather
+        than a settled exegetical conclusion, consistent with how zadok-calendar.md and
+        genealogy-times.md already flag their own open chronological uncertainty.
+    theological_principle:
+      done: true
+      notes: >
+        The timing of Christ's return is deliberately withheld (Mark 13:32) so that the proper
+        response is patient, watchful obedience (Jas 5:7-8, Mark 13:33-37) rather than date-
+        setting; Scripture's six-then-seventh pattern (creation week, Sabbath, Heb 4's rest,
+        Rev 20's millennium) gives good typological grounds to expect history itself to run on
+        a similar shape, without that typology licensing a confident calendar date.
+    application_draft:
+      done: true
+      notes: "Folded into Key Takeaways > Be Transformed rather than a separate prose section, per current site convention (see melchizedek-priesthood.md)."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "2 Peter 3:9 makrothymei / James 5:7 makrothymesate", relation: "same Greek verb, human patience modeled on God's own"}
+      - {ref: "1 Enoch 91-93 Apocalypse of Weeks / Zadok Calendar", relation: "same six-plus-one-thousand-year-days shape this study's 'when is the year 6000' section already used; zadok-calendar.md links back to this study's section by anchor, so the heading id (when-is-the-year-6000) must be preserved"}
+      - {ref: "genealogy-times.md creation-epoch discrepancy note", relation: "genealogy-times.md and prophecy-events-times.md both already flag that this study's timeline implies a ~3925 BC creation epoch different from the site's other harmonized/MT/LXX/SP variants (4004 BC etc) -- redraft adds a matching flag here instead of leaving the discrepancy one-sided"}
+    translations_compared: ["ESV", "WEB"]
+    divergences_noted: >
+      No meaningful translation divergence found on any of the eight anchor passages -- all
+      original ESV block quotes verified word-for-word against study-notes.db's esv-study-bible
+      verses table, no corrections needed to the inherited quotations themselves.
+  drafting:
+    done: true
+    file: "docs/content/studies/prophecy/day-is-near.md"
+  review:
+    done: true
+    validated: true
+
+open_questions:
+  - "Creation-epoch discrepancy (~3925 BC implied here vs ~4004 BC elsewhere) remains unreconciled, same as genealogy-times.md already flags -- future work, not resolved in this pass."
+  - "2032 and 2075 AD remain speculative, not derived from the exegeted texts themselves -- flagged in-line rather than removed, per user instruction to keep existing key concepts."
+resources_consulted:
+  - {type: lexicon, title: "MACULA Greek Linguistic Datasets (SBLGNT) / MACULA Hebrew Linguistic Datasets (WLC)", author: "n/a", note: "all Greek/Hebrew morphology and Strong's numbers cited, via bible-references MCP tools"}
+  - {type: dictionary, title: "TWOT (Theological Wordbook of the Old Testament)", author: "Archer, Harris & Waltke", note: "root 2323 (shabat, 'cease') via twot_strongs MCP tool"}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway, 2016", note: "notes on Heb 4:1-13, 4:8-10; 2 Pet 3:1-13, 3:8-10; Acts 1:6-11, 1:11; Matt 24:1-14, 24:5-8 -- consulted last, after independent word-study draft; confirmed Heb 4 reads as gospel-rest not explicitly millennial, and Acts 1:11 as manner-not-timing, both of which changed how the redraft frames those two sections rather than just confirming what was already written"}
+last_updated: "2026-08-04"
