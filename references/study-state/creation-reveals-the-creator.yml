@@ -118,6 +118,70 @@ stages:
   review:
     done: true
     validated: true
+  review_2026-08-06:
+    scope: >
+      Adversarial re-review of the Behemoth/Leviathan section only (review-bible-study skill),
+      prompted by user challenge that the hippo/crocodile identifications were contemporary
+      overlays rather than readings of the text. Rest of the file not re-audited this pass.
+    findings:
+      - severity: critical
+        phase: "2 (citation accuracy)"
+        finding: >
+          Study stated the ESV Study Bible identifies Leviathan as "most likely a crocodile."
+          The actual note on 41:1 reads "may be the crocodile" and adds that the focus is on
+          "whatever powerful creature is being referred to." Study overstated the source's
+          confidence. Fixed -- now cites the note as "may be" and marks where this study departs
+          from it.
+      - severity: moderate
+        phase: "3 (word study)"
+        finding: >
+          Section ran a word study on behemot/livyatan but never queried tannin (H8577) or
+          nachash (H5175), the words Scripture itself applies to Leviathan in Isa 27:1 -- so the
+          canon's own category for the creature was absent from a section arguing about its
+          identity. Verified via bible_word/twot_strongs: tannin = TWOT 2528b "serpent," 14 MACULA
+          occurrences, incl. Gen 1:21 (created day five) and Job 7:12 (same book). Added.
+      - severity: moderate
+        phase: "3 (word study)"
+        finding: >
+          Job 41:18-21 fire was dismissed as "hyperbolic royal-court poetry" without checking the
+          Hebrew. Six clauses in vv. 18-21 are unmarked indicatives; only two carry the comparative
+          particle ke- ("eyes like the eyelids of the dawn," smoke "as from a boiling pot"), and both
+          compare appearance rather than existence. The poet marks similes elsewhere in the same span
+          (41:24, heart "hard as a millstone"). Reading corrected: fire now reported as written.
+      - severity: moderate
+        phase: "1/5 (scripture + context)"
+        finding: >
+          Section quoted Job 40:15-19 but omitted 40:21-23, the habitat verses that carry the
+          strongest evidence about Behemoth. Also never addressed the two translation traditions of
+          40:23 (KJV "he drinketh up a river" vs. majority "though Jordan rushes against his mouth").
+          Both added; LXX (Brenton) checked as the older independent witness for the majority reading.
+      - severity: moderate
+        phase: "4 (independent cross-check)"
+        finding: >
+          Crocodile identification fails on three features the section never weighed: total weapon
+          immunity (41:26-29), open-deep range (metsulah 41:31, tehom 41:32 -- crocodilians are
+          river/estuary), and 41:33 "on earth there is not his like." Identification dropped.
+    resolved_open_question: >
+      The prior open_question treating Behemoth/Leviathan as an unresolved hippo-croc vs.
+      sauropod-marine-reptile standoff is superseded. Leviathan is now identified by Scripture's own
+      term (tannin/nachash, Isa 27:1) rather than by either modern candidate; Behemoth stays
+      unidentified, with the habitat evidence (40:21-23) stated and the cedar-tail problem noted
+      against the hippo reading rather than resolved for it.
+    deliberately_excluded: >
+      Worldwide dragon legends as evidence for historical existence. Two disqualifiers, both stated
+      in the study body rather than silently omitted: (1) Watkins, How to Kill a Dragon (OUP 1995) --
+      Greek/Vedic/Hittite/Celtic/Germanic/Iranian dragon myths descend from one reconstructed
+      Proto-Indo-European formula, so they are one witness, not many; (2) fire-breathing does not
+      travel with the motif -- Chinese long, the Rainbow Serpent and the feathered serpent are the
+      genuinely independent traditions and none are fiery. Mayor, The First Fossil Hunters, supplies a
+      documented legend-from-bones mechanism. Ugaritic Lotan (KTU 1.5, bthn brh / bthn 'qltn, sharing
+      both roots with Isa 27:1) IS cited, as cultural background rather than as evidence.
+    honest_complication_retained: >
+      Ps 18:8 describes God with the same smoke/nostril/fire/mouth/coals vocabulary as Job 41:19-21.
+      Kept in the study body rather than buried, with the distinction stated (one compressed clause
+      in a storm theophany vs. six unmarked clauses in an anatomical inventory). Study reports the
+      fire as written without asserting a mechanism, and lets the reader weigh Ps 18:8.
+    validated: true
 
 open_questions:
   - "Ancient-art 'dinosaurs in art' evidence (Ica stones, Acambaro figurines) is included only as a
