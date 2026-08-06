@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel and the Church](../../../studies/theology/israel-and-the-church.md) — 2:11-12
+- [What Creation Declares: General Revelation in Romans 1:19-23](../../../studies/theology/creation-reveals-the-creator.md) — 2:10
 <!-- commentary-index:auto-end -->

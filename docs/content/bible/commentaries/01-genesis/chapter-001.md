@@ -15,4 +15,5 @@ draft: false
 - [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 1:14-19
 - [The Zadok Calendar](../../../studies/prophecy/zadok-calendar.md) — 1:14-19
 - [The woman at the well](../../../studies/prophecy-fulfilled-in-jesus/woman-at-well.md) — 1:1
+- [What Creation Declares: General Revelation in Romans 1:19-23](../../../studies/theology/creation-reveals-the-creator.md) — 1:21
 <!-- commentary-index:auto-end -->

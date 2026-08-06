@@ -1,0 +1,17 @@
+---
+title: "Job 38"
+category: "bible"
+description: "Commentary and cross-referenced studies for Job chapter 38"
+tags: ["job", "commentary"]
+draft: false
+---
+
+# Job 38
+
+
+<!-- commentary-index:auto-start -->
+## Studies referencing this chapter
+
+- [The Nephilim: Sons of God and the Giants of Genesis](../../../studies/prophecy/nephilim.md) — 38:7
+- [What Creation Declares: General Revelation in Romans 1:19-23](../../../studies/theology/creation-reveals-the-creator.md) — 38:4-7
+<!-- commentary-index:auto-end -->

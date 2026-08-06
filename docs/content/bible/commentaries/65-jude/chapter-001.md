@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Nephilim: Sons of God and the Giants of Genesis](../../../studies/prophecy/nephilim.md) — 1:6-7
 - [The Way](../../../studies/theology/the-way.md) — 1:11
 <!-- commentary-index:auto-end -->

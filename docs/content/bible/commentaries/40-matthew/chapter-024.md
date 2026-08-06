@@ -14,5 +14,6 @@ draft: false
 
 - [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 24:30-31
 - [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 24:3-14
+- [The Nephilim: Sons of God and the Giants of Genesis](../../../studies/prophecy/nephilim.md) — 24:37-39
 - [The Trumpet Call of God](../../../studies/prophecy/trumpet.md) — 24:29-31
 <!-- commentary-index:auto-end -->
