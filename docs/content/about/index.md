@@ -36,6 +36,14 @@ About this project and its statement of faith.
 
     [:octicons-arrow-right-24: Read](key-takeaways.md)
 
+-   __Our Taxonomy__
+
+    ---
+
+    How studies on this site are organised: the systematic-theology loci it's based on, the plain-English name used for each section, and the academic term behind it.
+
+    [:octicons-arrow-right-24: Read](our-taxonomy.md)
+
 -   __Recently Updated__
 
     ---

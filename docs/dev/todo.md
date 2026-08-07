@@ -8,10 +8,16 @@ draft: false
 
 # ToDo 
 
-## Precept austin
 
-https://www.preceptaustin.org/daily-devotionals
-Reccomended by Isrel
+
+## Twelve disciples
+
+- name and meaning
+- calling order
+- background
+- significance
+- key verse
+- takeaway/lesson
 
 ## Extra biblical texts -- good idea
 

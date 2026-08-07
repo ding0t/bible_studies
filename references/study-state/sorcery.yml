@@ -1,0 +1,242 @@
+slug: "sorcery"
+title: "Sin and Sorcery"
+status: review
+target_path: "docs/content/studies/sins/sorcery.md"
+
+primary_passage: "Deuteronomy 18:9-22"
+supporting_passages:
+  - "Exodus 7:8-13; 22:18"
+  - "Leviticus 19:31; 20:6, 27"
+  - "Numbers 23:23"
+  - "1 Samuel 28:3-25"
+  - "1 Chronicles 10:13-14"
+  - "2 Kings 21:6; 23:24"
+  - "Isaiah 8:19-20; 44:24-26; 47:9-15"
+  - "Daniel 2:27-28"
+  - "Micah 5:12"
+  - "Nahum 3:4"
+  - "Malachi 3:5"
+  - "Matthew 2:1-12"
+  - "Acts 8:9-24; 13:4-12; 16:16-18; 19:11-20"
+  - "Galatians 5:19-21"
+  - "Revelation 9:21; 18:23; 21:8; 22:15"
+genre: [law, ot-narrative, prophets, acts, gospel, epistle, apocalyptic, topical]
+
+stages:
+  scoping:
+    done: true
+    notes: |
+      Rewriting an existing rough-notes file, not starting from scratch. The prior file was a
+      bullet-stub draft with a `todo:` marker, no word studies, no exegesis, and a syllogism about
+      deliverance ministry ("If it is true manifestation of a true christian, the means is by
+      sorcery") that does not follow — it forces a false dichotomy and skips over ordinary
+      psychological/suggestive explanation and over oppression-short-of-possession. Recast as a set
+      of scriptural discernment tests rather than an accusation. Prior external links
+      (ministrymagazine.org, hypnosishealthinfo.com, sharonbpc.wordpress.com) are unvetted
+      blog/denominational advocacy pieces; deliberately NOT carried into the rewrite, since the
+      argument now rests on cited primary texts instead.
+
+      Chose Deuteronomy 18:9-22 as primary passage rather than a diffuse topical sweep, because
+      it holds the fullest list of occult practices in Scripture AND supplies the reason for the
+      prohibition in its own immediate context (vv. 15-22). That makes the study exegetical rather
+      than a concordance dump.
+  exegesis:
+    historical_context:
+      done: true
+      notes: |
+        Moses' address to the generation about to enter Canaan; the practices listed are named as
+        those of "these nations, which you are about to dispossess" (18:14), and 18:12 gives them
+        as the ground of the Canaanites' dispossession. Divination in the ANE was a normal,
+        respectable state-sponsored technical craft (extispicy, astrology, necromancy), not a
+        fringe activity — NIV/NKJV Cultural Backgrounds note that "magic" and "religion" cannot be
+        cleanly separated in the ancient world. Child sacrifice (18:10) is included in the list
+        because it too was in some cults a means of *seeking guidance/help* (cf. 2 Kings 3:26-27,
+        per ESV SB) — which is why an apparently unrelated horror sits at the head of a divination
+        list. Curses/oaths as such were NOT forbidden in Israel (Joshua 6:26; Numbers 5:16-28);
+        NIVCBSB notes Mesopotamia likewise distinguished legitimate from illegitimate practitioners.
+    literary_context:
+      done: true
+      notes: |
+        Deuteronomy 16:18-18:22 is a block on Israel's public offices: judges (16:18-17:13), king
+        (17:14-20), priests/Levites (18:1-8), prophet (18:9-22). Sorcery appears *inside the
+        section on the prophetic office* — confirmed by NIV Biblical Theology SB ("The fourth
+        category of leader is the prophet... In order to emphasize the distinctive prophetic role,
+        Moses forbids a virtually exhaustive list"). ESV SB independently: "Deliberately juxtaposed
+        with this section are instructions about God's prophets (18:15-19), the avenue for true
+        revelation... Nations listen (18:14) to magicians, etc.; Israel is to listen to God's
+        prophet (vv. 15, 19)."
+
+        This is the spine of the whole study: vv. 14/15 turn on the same verb of *listening*. The
+        prohibition is not free-standing — it is one half of a contrast whose other half is the
+        promise of the Prophet, which the NT applies to Christ (Acts 3:22-26; 7:37; John 1:21,
+        45; 6:14).
+    content_word_studies:
+      done: true
+      notes: |
+        Deut 18:10-11 carries nine terms. Two are figura etymologica (cognate accusative):
+        qōsēm qəsāmîm ("divines divinations") and ḥōbēr ḥāber ("binds a binding") — intensive
+        constructions, so ESV's flat "practices divination" / "charmer" loses the doubling.
+
+        MAIN FINDING 1 — kāšap distribution. Verb H3784 (6x) + noun H3785 (6x) = 12 total.
+        Outside the two law texts (Exod 22:18; Deut 18:10) EVERY occurrence is a foreign power or
+        an Israelite who imported foreign religion: Egypt (Exod 7:11), Jezebel (2 Kgs 9:22),
+        Manasseh (2 Kgs 21:6 // 2 Chr 33:6), Babylon (Isa 47:9, 12; Dan 2:2), Nineveh (Nah 3:4 x2),
+        plus Mic 5:12 (cut off FROM Israel) and Mal 3:5 (eschatological judgment). Sorcery is
+        lexically marked in the OT as the practice of the nations.
+
+        MAIN FINDING 2 — the "inquiry" thread, dāraš (H1875) / šāʾal (H7592). Deut 18:11 has both
+        participles: šōʾēl ʾôb ("one who ASKS of a medium") and dōrēš ʾel-hammētîm ("one who
+        INQUIRES of the dead"). 1 Chr 10:13-14 indicts Saul using BOTH the same verbs —
+        lišʾôl bāʾôb lidrôš ("to ask of a medium, to inquire") and wəlōʾ-dāraš baYHWH ("and he did
+        not inquire of Yahweh"). Isa 8:19 uses dāraš 3x and closes with Deut 18:11's exact phrase
+        ʾel-hammētîm. So Chronicler and Isaiah both prosecute using the law's own vocabulary, and
+        the sin they name is a *redirected inquiry*, not merely a forbidden technique. Verified
+        word-by-word in MACULA WLC morphology, not inferred from English.
+
+        MAIN FINDING 3 — Isa 8:19 describes the mediums as məṣapṣəpîm (H6850, chirp — used of
+        birds) and mahgîm (H1897, mutter/moan). Set against Deut 18:18, "I will put my words in his
+        mouth." Bird-noise vs. intelligible speech. NIVBTSB reached the same contrast independently
+        ("The divine will is not to be found by searching desperately in the depths of animals'
+        organs or in the grave... but it is found in intelligible speech").
+
+        MAIN FINDING 4 — magos (G3097) has 6 NT occurrences: Acts 13:6, 8 (Elymas, condemned) and
+        Matt 2:1, 7, 16 (x2) (the Magi, not condemned). The label is not the sin. Coheres with
+        Daniel being made chief of Babylon's magicians (Dan 2:48) while explicitly disclaiming
+        their methods (Dan 2:27-28). Resolves the puzzle the old draft raised but left open.
+
+        MAIN FINDING 5 — pharmakeia is NOT "pharmaceuticals." Louw-Nida assigns φαρμακεία/φάρμακον
+        to domain 53.100, inside Domain 53 (Religious Activities), sub-domain Magic — adjacent to
+        περίεργος "magic arts" at 53.99 (Acts 19:19) — not to a medical/physiological domain.
+        Checked directly in the MACULA SBLGNT domain data. This is the root-fallacy guardrail from
+        word-study-method.md applied to a widely-taught popular claim.
+      terms:
+        - {word: "כָּשַׁף", language: hebrew, transliteration: "kāšap", strongs_id: "H3784", gloss: "practise sorcery", range_of_meanings: ["practise sorcery", "use witchcraft"], notes: "TWOT root 1051. Verb 6x, noun kešep H3785 6x. Distribution is the finding — see MAIN FINDING 1. Exod 22:18 is feminine (mekaššēpâ); do NOT over-read the gender, masculine forms appear throughout."}
+        - {word: "קָסַם", language: hebrew, transliteration: "qāsam", strongs_id: "H7080", gloss: "practise divination", notes: "TWOT root 2044. Deut 18:10 is cognate accusative qōsēm qəsāmîm. Same root in Balaam's hand, Num 22:7."}
+        - {word: "עָנַן", language: hebrew, transliteration: "ʿānan", strongs_id: "H6049", gloss: "soothsayer / tell fortunes", notes: "Deut 18:10 məʿônēn. Etymology disputed (cloud-reading? humming?) — do not build on it; usage is what carries."}
+        - {word: "נָחַשׁ", language: hebrew, transliteration: "nāḥaš", strongs_id: "H5172", gloss: "practice divination, read omens", notes: "TWOT root 1348. Homonym-adjacent to nāḥāš 'serpent' H5175 — resist the pun; different root, and the site's bronze-serpent study already handles nāḥāš."}
+        - {word: "אוֹב", language: hebrew, transliteration: "ʾôb", strongs_id: "H178", gloss: "medium / necromancer", range_of_meanings: ["medium/ghost", "skin-bottle (Job 32:19)"], notes: "TWOT 37a glosses 'skin-bottle'. 16x, clustered in 1 Sam 28 (5x), the Levitical bans, the apostate kings, and Isaiah. The wineskin sense is a lexical curiosity, NOT a proven etymology of the medium sense — flagged and deliberately not leaned on. NIVCBSB: 1 Sam 28:7's baʿălat-ʾôb is lit. 'ghostwife/ghostmistress'."}
+        - {word: "יִדְּעֹנִי", language: hebrew, transliteration: "yiddəʿōnî", strongs_id: "H3049", gloss: "necromancer / familiar spirit", notes: "Always paired with ʾôb. Formed on yādaʿ 'know' — 'the knowing one'; noted as suggestive, not pressed as proof (root-fallacy guardrail)."}
+        - {word: "חָבַר", language: hebrew, transliteration: "ḥābar", strongs_id: "H2266", gloss: "bind, join → cast a spell", notes: "Deut 18:11 ḥōbēr ḥāber, cognate accusative, 'binder of a binding'."}
+        - {word: "דָּרַשׁ", language: hebrew, transliteration: "dāraš", strongs_id: "H1875", gloss: "seek, inquire, consult", notes: "The load-bearing term of the study — see MAIN FINDING 2. Neutral in itself; what it takes as object is the whole issue."}
+        - {word: "φαρμακεία", language: greek, transliteration: "pharmakeia", strongs_id: "G5331", gloss: "sorcery", range_of_meanings: ["sorcery", "magic"], notes: "Gal 5:20; Rev 9:21; 18:23. Louw-Nida 53.100 = Religious Activities/Magic. See MAIN FINDING 5. φάρμακος G5332 Rev 21:8; G5333 Rev 22:15."}
+        - {word: "μάγος", language: greek, transliteration: "magos", strongs_id: "G3097", gloss: "magician, magus", notes: "6x — 2 condemned (Acts 13), 4 not (Matt 2). See MAIN FINDING 4."}
+        - {word: "περίεργος", language: greek, transliteration: "perierga", strongs_id: "G4021", gloss: "magic arts", notes: "Acts 19:19, LN 53.99. Lit. 'things around work' → meddlesome/curious arts."}
+        - {word: "πύθων", language: greek, transliteration: "pythōn", strongs_id: "G4436", gloss: "python (spirit)", notes: "Acts 16:16, LN 12.48. Delphic-oracle reference — confirmed by both Cultural Backgrounds Study Bibles."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: |
+        Culturally bound: the specific techniques (extispicy, astrology, teraphim), and the civil
+        death penalties of Exod 22:18 / Lev 20:27, which belong to Israel's theocratic civil law
+        and are not carried into the church — the NT response to sorcery is renunciation and
+        book-burning by the practitioners themselves (Acts 19:19), and exclusion from the kingdom
+        (Gal 5:21; Rev 21:8), never execution by the church.
+
+        Transcultural: the prohibition itself, restated with no theocratic machinery in Gal 5:20
+        and Rev 21:8/22:15 — so it plainly survives the change of dispensation.
+    theological_principle:
+      done: true
+      notes: |
+        Sorcery is condemned not chiefly as fake, nor chiefly as powerful, but as a RIVAL ROUTE:
+        an attempt to obtain knowledge or power from a source other than the one God appointed.
+        Deut 18 states this in its own structure — the nations listen to fortune-tellers (v. 14);
+        Israel is to listen to the Prophet God raises up (v. 15). The alternative to divination is
+        not ignorance; it is Christ, the Prophet like Moses (Acts 3:22-26).
+
+        ESV SB on Gal 5:20 sharpened this — it named idolatry and sorcery together as "a desire to
+        be in touch with the spiritual realm through humanly invented means: they supposedly have
+        God as their ultimate object, but they reject the revealed way in which he should be
+        worshiped." That added the *rejection of the revealed way* to my thesis, which I had framed
+        only as *wrong source*. Carried into the draft.
+    application_draft:
+      done: true
+      notes: |
+        The deliverance question (the user's original motivation) is answered from four texts
+        rather than from the old draft's syllogism:
+        - Jesus silenced demons who spoke truth (Mark 1:34; Luke 4:41)
+        - Paul silenced the python spirit though her words were accurate, after ignoring her for
+          days, in one command (Acts 16:17-18)
+        - The sons of Sceva show Jesus' name used as technique failing badly (Acts 19:13-16)
+        - The test of a spirit is confession of Christ, not manifestation (1 John 4:1-3); the test
+          of a sign is where it leads you (Deut 13:1-5)
+        Boundary drawn: commanding in Christ's name is apostolic; *interviewing* demons for
+        information is the divination Deut 18 forbids, because it makes an unclean spirit the
+        source of knowledge. Stated as a test a reader can apply, not an accusation against named
+        ministries.
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Deuteronomy 13:1-5", relation: "companion test — a sign that comes true is still no warrant if it leads elsewhere"}
+      - {ref: "1 Chronicles 10:13-14", relation: "inspired narrator's verdict on 1 Sam 28, using Deut 18:11's own verbs"}
+      - {ref: "Isaiah 8:19-20", relation: "prophetic restatement of Deut 18:11, quoting ʾel-hammētîm"}
+      - {ref: "Isaiah 44:24-26", relation: "diviners frustrated / the servant's word confirmed — Deut 18 contrast restated"}
+      - {ref: "Numbers 23:23", relation: "Balaam, a hired diviner, forced to confess divination has no purchase on Israel"}
+      - {ref: "Daniel 2:27-28", relation: "Daniel disclaims the diviners' methods while holding their office"}
+      - {ref: "Acts 3:22-26", relation: "Peter identifies Deut 18:15's Prophet as Jesus"}
+      - {ref: "Revelation 18:23", relation: "pharmakeia as global deception; NIVCBSB — Isa 47:9 supplies the concept, Nah 3:4 the language"}
+    translations_compared: ["ESV", "WEB", "ASV", "NIV", "CSB", "NASB", "YLT"]
+    divergences_noted: |
+      Mixed result, as expected. ESV's nine-term list in 18:10-11 is the most granular of the
+      modern versions and keeps the practitioners as distinct roles; NIV compresses several into
+      smoother English ("practices divination or sorcery, interprets omens, engages in witchcraft"),
+      which reads better but blurs how many separate crafts are named. No English version preserves
+      either cognate accusative (qōsēm qəsāmîm / ḥōbēr ḥāber); ASV and YLT come closest on the
+      second with "charmer"/"charming charms"-type wooden renderings but neither is worth quoting
+      in prose. Reader-facing advice: the count of practices, not the wording, is what to notice.
+
+      Versification note carried into the draft's citations: ESV Exod 22:18 = MT 22:17;
+      ESV Micah 5:12 = MT 5:11. Cited by ESV numbering throughout since ESV is the quoted text.
+  drafting:
+    done: true
+    file: "docs/content/studies/sins/sorcery.md"
+    notes: |
+      Full rewrite, draft: true pending user review. Added primary_passage and a 33-entry
+      bible_references list (the old file had neither, so it was invisible to commentary_index.py).
+      Category left as "prophecy" to match its siblings idolatry.md and sexual-immorality.md, which
+      all carry the same evidently copy-pasted value despite living under studies/sins/ — worth a
+      separate cleanup across all three rather than making this one the odd file out.
+
+      Style pass run: grep for the style-guide word list returns two hits, both legitimate —
+      "indeed" inside a direct ESV quotation of John 6:14, and "actually used rather than by root"
+      in the real-contrast sense the guide explicitly permits. 54 em-dashes over 591 lines; the
+      four lines carrying two are all single parenthetical pairs. All Hebrew is in
+      <span dir="rtl"> and unbolded per the rendering rule.
+  review:
+    done: false
+    validated: true
+    notes: |
+      `npm run validate` passes clean on this file (4 warnings remain repo-wide, all pre-existing
+      in other files: proverbs commentary index quote block, and index.md missing three optional
+      frontmatter fields).
+
+      SELF-CAUGHT ERROR during verification, worth recording: the draft first quoted Nahum 3:4 as
+      "the mistress of sorceries, who betrays nations with her whorings" and labelled it ESV. That
+      is the NIV wording, picked up second-hand from the NIVCBSB note on Rev 18:23 rather than from
+      the ESV text. Corrected against study-notes.db. The check turned up a finding worth keeping:
+      ESV renders kešep "charms" in Nah 3:4 but "sorceries" in Isa 47:9 — same Hebrew noun — which
+      obscures the verbal thread Rev 18:23 is drawing on. Added to the Revelation section.
+
+      NOT YET RUN, deliberately: commentary_index.py skips draft: true files (line 73), so it must
+      be run AFTER the draft flag is flipped, or the new bible_references produce no cross-links.
+      section_index.py likewise. Neither could be run in this session anyway — uv failed under the
+      agent sandbox ("failed to open /Users/dave/.cache/uv/sdists-v9/.git: Operation not
+      permitted"); the MCP bible-references server was used for all lookups instead.
+
+      An independent review-bible-study pass has NOT been run. Recommended before draft: false,
+      since this study makes contested claims (the pharmakeia correction, the deliverance-practice
+      boundary) that would benefit from an adversarial check by an agent that did not draft them.
+
+open_questions:
+  - "1 Samuel 28 — whether Samuel genuinely appeared is deliberately left open in the draft. ESV SB's own note says the passage 'suggests that in some circumstances a medium may be able to contact the dead' while stressing the wrongness of the practice; the text itself does not settle the mechanism and the study does not need it settled, since the Chronicler's verdict (1 Chr 10:13-14) condemns the inquiry either way."
+  - "Whether ʾôb 'medium' and ʾôb 'skin-bottle' (Job 32:19) are one root or homonyms is unresolved in the lexica. Flagged in the draft as a curiosity, not used as evidence."
+  - "Did not chase the Ugaritic/Akkadian comparative material on necromancy beyond what the Cultural Backgrounds notes summarise; no primary ANE text consulted first-hand."
+resources_consulted:
+  - {type: other, title: "MACULA Hebrew Linguistic Datasets (WLC)", author: "Clear Bible", note: "Word-by-word morphology, Strong's ids and SDBH domains for Deut 18:10-11, 1 Chr 10:13-14, Isa 8:19. Source of every Hebrew form quoted."}
+  - {type: other, title: "MACULA Greek Linguistic Datasets (SBLGNT)", author: "Clear Bible", note: "Morphology and Louw-Nida domain codes; source of the 53.100 assignment for pharmakeia and the 6-occurrence magos count."}
+  - {type: lexicon, title: "Theological Wordbook of the Old Testament (TWOT)", author: "ed. R. Laird Harris, Gleason L. Archer Jr., Bruce K. Waltke", note: "Root ids/glosses for kāšap (1051), qāsam (2044), nāḥaš (1348), ʾôb (37a). Contributed the 'skin-bottle' gloss for ʾôb that prompted the homonym caution."}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway, 2016", note: "CONFIRMED the literary juxtaposition of 18:9-14 with 18:15-19 and the listen/listen contrast. CONTRIBUTED (a) that child sacrifice belongs in a divination list because it was itself a means of seeking divine help (2 Kgs 3:26-27); (b) the Gal 5:20 framing of idolatry+sorcery as rejecting 'the revealed way' — which sharpened the study's thesis; (c) the caution that 1 Sam 28 must not be used to license séances."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan, gen. ed. D. A. Carson", note: "CONFIRMED Deut 18 sits in the four-offices block and that the list is the most complete in Scripture. CONTRIBUTED the intelligible-speech contrast for 18:14-22, the 'lawmaker and lawbreaker' framing of Saul at Endor, and the Exod 22:18 definition of sorcery as manipulation of power belonging exclusively to the Lord."}
+  - {type: commentary, title: "NIV / NKJV Cultural Backgrounds Study Bible", author: "Zondervan, ed. John H. Walton & Craig S. Keener", note: "CONTRIBUTED (a) that magic and religion were not separable categories in the ANE and the precise nature of several Deut 18 crafts is uncertain; (b) that curses as such were not forbidden in Israel, with the Mesopotamian legitimate/illegitimate distinction; (c) baʿălat-ʾôb = 'ghostwife'; (d) the Delphi/Apollo background to pneuma pythōna; (e) that Rev 18:23 draws its CONCEPT from Isa 47:9 but its LANGUAGE from Nah 3:4 — an observation I did not have and which reshaped the Revelation section."}
+  - {type: commentary, title: "NLT Life Application Study Bible, Third Edition", author: "Tyndale House, 2019", note: "Consulted on Deut 18:10-13; confirmed the desire-to-control-the-future motive. Application framing noted but not followed — it asserts 'Satan is behind the occult' more flatly than Deut 18 itself argues."}
+  - {type: other, title: "How to Read the Bible for All Its Worth", author: "Gordon D. Fee & Douglas Stuart", note: "Methodology only (genre lenses for law, OT narrative, prophets, Acts, apocalyptic), via the develop-bible-study skill."}
+last_updated: "2026-08-07"
