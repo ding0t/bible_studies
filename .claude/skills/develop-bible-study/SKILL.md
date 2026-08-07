@@ -42,14 +42,28 @@ Full definition: [our-taxonomy.md](../../../docs/content/about/our-taxonomy.md).
 
 **Some things are not subjects at all.** *Apologetics*, *typology*, *word study* and *archaeology* are approaches, not topics — a study using them is filed by what it is about and carries the approach as a tag. An apologetics study defending Scripture's reliability is `scripture/`; one arguing from creation is `god/`; one on the resurrection is `jesus/`.
 
-**Tags carry every axis the directory can't.** Four facets use a `/` prefix and render as a real hierarchy (`tags_hierarchy: true` in `mkdocs.yml`):
+**Tags carry every axis the directory can't.** Five facets use a `/` prefix and render as a real hierarchy (`tags_hierarchy: true` in `mkdocs.yml`):
 
 - `method/word-study`, `method/typology`, `method/archaeology`, `method/textual-criticism`
 - `lang/hebrew`, `lang/greek`
 - `status/investigation` — open inquiry, conclusions not settled
 - `audience/teaching`
+- `person/<name>` — a named individual the study is *about* (`person/peter`, `person/melchizedek`)
 
-Everything else is a plain topic tag: a book, a person, a feast, a concept. Rules that matter:
+**Why `person/` exists, and when to use it.** Most Bible people share a name with a book, and a flat
+`matthew` tag cannot tell a reader whether the page is about the tax collector or the Gospel. The
+site had exactly that collision the moment `biblical-figures/` was created. So: **a book always gets
+the bare tag (`matthew`, `john`, `james`), and a person always gets `person/`.** A page can carry
+both — `biblical-figures/matthew.md` is about the man *and* cites his Gospel, so it tags
+`person/matthew` and `matthew`.
+
+Use `person/` when the individual is a subject of the study, not merely mentioned. Where two people
+share a name, disambiguate the way Scripture does, by patronymic:
+`person/james-son-of-zebedee` and `person/james-son-of-alphaeus`, never a bare `person/james`.
+Where one person has two names, tag both if the study argues the identification
+(`person/bartholomew` and `person/nathanael`).
+
+Everything else is a plain topic tag: a book, a feast, a concept. Rules that matter:
 
 - **Never tag what the section already says.** No `studies`, no `prophecy` on a `last-things/` page, no `sin` on a `sin/` page. It adds nothing and inflates the tag index.
 - **No colons in tag values** — the facet separator is `/`, and a colon reads as a competing convention (`malachi-4:2` had to be renamed `malachi-4-2`).

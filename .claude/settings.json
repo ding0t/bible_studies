@@ -14,7 +14,9 @@
         "www.biblegateway.com",
         "www.earlynewtestament.com",
         "storage.googleapis.com",
-        "cdn.jsdelivr.net"
+        "cdn.jsdelivr.net",
+        "ccel.org",
+        "www.ccel.org"
       ]
     }
   },
@@ -37,7 +39,9 @@
       "WebFetch(domain:api.esv.org)",
       "WebFetch(domain:www.biblegateway.com)",
       "WebFetch(domain:www.earlynewtestament.com)",
-      "WebFetch(domain:storage.googleapis.com)"
+      "WebFetch(domain:storage.googleapis.com)",
+      "WebFetch(domain:ccel.org)",
+      "WebFetch(domain:www.ccel.org)"
     ]
   }
 }

@@ -154,9 +154,15 @@ that is a finding worth raising, not a reason to leave it misfiled.
 - Tags that restate the section (`studies`; `prophecy` on a `last-things/` page; `sin` on a `sin/`
   page). Redundant, and they inflate the index.
 - Facets written flat instead of prefixed — `word-study` rather than `method/word-study`,
-  `hebrew` rather than `lang/hebrew`.
+  `hebrew` rather than `lang/hebrew`, `peter` rather than `person/peter`.
 - A colon in a tag value: `/` is the facet separator and a colon competes with it.
 - Uppercase, spaces, or a near-synonym of an existing tag (`messianic` beside `messianic-prophecy`).
+- **A person tagged with a bare name that is also a book** — `matthew`, `john`, `james`, `daniel`,
+  `ruth` and friends. The bare tag belongs to the *book*; a person takes `person/`. This one is easy
+  to miss because both tags are individually legitimate: check which the *page* is about. A page
+  genuinely covering both (a profile of Matthew that also cites his Gospel) correctly carries
+  `person/matthew` **and** `matthew`. Also flag a bare `person/james`-style tag where two Bible
+  figures share the name — it should be disambiguated by patronymic.
 
 These are **Minor** findings unless a missing `primary_passage` or a false timeline year is involved,
 which are **Major** — both corrupt a generated page elsewhere on the site.

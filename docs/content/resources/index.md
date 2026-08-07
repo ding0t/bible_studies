@@ -44,6 +44,14 @@ External sources, tools, and datasets this project draws on.
 
     [:octicons-arrow-right-24: Read](jewish-sources.md)
 
+-   __Patristic Sources__
+
+    ---
+
+    The early church fathers this site draws on for post-apostolic tradition: what each source is, how reliable it is, and why the traditions about the apostles need grading rather than repeating.
+
+    [:octicons-arrow-right-24: Read](patristic-sources.md)
+
 -   __How This Site Is Built__
 
     ---

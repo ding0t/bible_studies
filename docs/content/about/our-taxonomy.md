@@ -189,6 +189,7 @@ Everything else is a tag:
 | `lang/` | `hebrew`, `greek` |
 | `status/` | `investigation` — open inquiry, conclusions not settled |
 | `audience/` | `teaching` |
+| `person/` | a named individual the study is *about* — `peter`, `melchizedek`, `judas-iscariot` |
 
 The slash isn't decoration: mkdocs-material's tags plugin is configured with
 `tags_hierarchy: true`, so `method/word-study` renders as a real parent-and-child grouping on the
@@ -198,6 +199,13 @@ hierarchy builds itself.
 `status: investigation` is worth singling out. Some material here is honest inquiry rather than
 settled conclusion, and that distinction matters more to a reader than which folder it sits in. It is
 a property of a study, not a place to put one.
+
+`person/` exists to solve a collision that appeared as soon as [Biblical figures](../biblical-figures/index.md)
+did. Most Bible people share a name with a book, so a flat `matthew` cannot tell you whether a page
+is about the tax collector or the Gospel. The rule is simple: **the bare tag belongs to the book, the
+`person/` tag to the human being.** A page about Matthew that also quotes Matthew carries both. Where
+two figures share a name they are separated the way Scripture separates them, by father —
+`person/james-son-of-zebedee` and `person/james-son-of-alphaeus`.
 
 Tags do **not** repeat what the directory already says. A study in **Last things** is not tagged
 `prophecy`; a study under `studies/` is not tagged `studies`.

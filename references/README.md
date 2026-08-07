@@ -24,6 +24,7 @@ A fifth, `references/build/section_index.py`, fixes a real site bug rather than 
 | Clause syntax, coreference, Hebrew construct state / verb conjugation | `bible-text.db` `morphology` table (MACULA columns) — `query.py syntax` / `bible_syntax` | open | Cite freely; see the syntax section below for what the annotation does and doesn't cover |
 | Byzantine/TR Greek, BHSA syntax trees, Mounce dictionary | `restricted-data/*` | restricted-nc | Fine to use and cite now (site is non-commercial); flag if that ever changes. **BHSA is not ingested** — see the syntax section below for why MACULA is the better first stop |
 | Jewish literature (Mishnah, Talmud) for cultural/historical background | `references/build/sefaria.py` (Sefaria-Export) | varies per translation — check before quoting | Prefer a CC0/CC-BY/public-domain version; cite the specific version quoted |
+| Early church fathers — post-apostolic tradition, what became of the apostles | `/Volumes/media/bible/reference/patristics/` (external, see below) | mixed: NPNF **open**, Apostolic Fathers Greek **unknown/restricted** | Quote NPNF freely with attribution; quote the Greek corpus briefly, never redistribute |
 | Fee & Stuart methodology, Stevens word-study method | Locally-synthesized into the skill files themselves | n/a | Already rewritten in our own words — cite the skill, not the source, for the *method*; don't reproduce the original PDFs' text |
 | TWOT word-study entries | `references/build/twot/twot_strongs_map.json` (committed) for id/lemma/gloss; full discussion prose is local-only, uncommitted OCR work | ids/glosses: open-ish (bare facts); prose: quotation-only | Cite the TWOT root number and gloss freely; quote a sentence of discussion with attribution, don't reproduce a whole entry |
 | Commercial study-Bible commentary (ESV Study Bible, Cultural Backgrounds Study Bible, NIV Biblical Theology Study Bible, CSB Ancient Faith Study Bible, NA28 Greek NT) | `study-notes.db` (external, see above) | **quotation-only** | Quote a sentence or two with attribution in a study's References section; never reproduce a full note |
@@ -202,6 +203,37 @@ Git submodules of forked open-data repos (Bible texts, lexicons, morphology, cro
 ## study-state/
 
 One structured-data file per study in progress, tracking exegesis/hermeneutics progress so work can resume across sessions. See [study-state.template.yml](../.claude/skills/develop-bible-study/study-state.template.yml) for the schema. Safe to commit — it's metadata (passages, stages, sources consulted), not copyrighted source text. **Always fill in `resources_consulted`** as you go — that's what makes a study's reasoning traceable later, for any source tier.
+
+## Patristic texts (external, not in this repo)
+
+Held at `/Volumes/media/bible/reference/patristics/`, with a `PROVENANCE.md` recording source, date
+retrieved, and licence tier per item. Added 2026-08-08 while reviewing the Twelve Apostles study set,
+which had been written with patristic claims recalled from memory rather than checked — exactly the
+failure mode the review skill exists to catch. Reader-facing companion page, with the reliability
+grading rather than the file paths: [docs/content/resources/patristic-sources.md](../docs/content/resources/patristic-sources.md).
+
+- **`eusebius-npnf2-01-church-history.txt`** — *Nicene and Post-Nicene Fathers* Series 2 Vol. 1
+  (Schaff & Wace, eds.; trans./annotated by A. C. McGiffert, 1890), from
+  [CCEL](https://ccel.org/ccel/schaff/npnf201). **Licence tier: open** (published 1890, public domain
+  by age) — quote at length and cite freely. This is the go-to for Hist. eccl. 3.1 (Origen on the
+  apostles' mission fields), 1.13 (Abgar/Thaddaeus), and 3.39 (Papias). **McGiffert's footnotes are
+  the most valuable part**: they date and grade each tradition instead of repeating it, and they
+  caught a real overstatement in this repo's own Thomas study (India is a *late* tradition; Parthia
+  is the early one).
+- **`apostolic-fathers-greek/`** (15 files) — 1-2 Clement, the Ignatian epistles, Polycarp, Didache,
+  Barnabas, Shepherd of Hermas, Martyrdom of Polycarp, Diognetus, in Greek, from
+  [jtauber/apostolic-fathers](https://github.com/jtauber/apostolic-fathers) (corrected Kirsopp Lake
+  text). **Licence tier: unknown — treat as restricted.** The underlying Lake text is public domain
+  by age, but the repository states no licence covering its corrections, so these files are *not*
+  committed here and must not be redistributed. Brief quotation with attribution is fine. Beyond the
+  apostles, the Didache and Ignatius are directly relevant to early-church-practice and Hebrew-roots
+  studies.
+
+**Not obtained:** Irenaeus (*Against Heresies*) and the apocryphal *Acts* sit in the **Ante**-Nicene
+Fathers set, not NPNF2-01. Any claim resting on those is still unverified. ANF is on CCEL at
+`https://ccel.org/ccel/schaff/anf01` and fetches the same way — the plain-text export lives at
+`/ccel/s/schaff/<id>/cache/<id>.txt`, not at the `/ccel/schaff/<id>.txt` landing page, which returns
+HTML. `ccel.org` is in the sandbox network allowlist in `.claude/settings.json`.
 
 ## Word study & original-language tools
 
