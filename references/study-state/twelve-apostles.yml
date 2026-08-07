@@ -173,6 +173,40 @@ review_2026-08-08:
     - "MINOR: profiles head their bibliography '## References' while the hub uses '## References and
        recommended reading'. Proportionate to length; left."
 
+ante_nicene_fetch_2026-08-08:
+  what: >
+    Fetched the full Ante-Nicene Fathers set (anf01-anf10, ~35 MB) from CCEL to
+    /Volumes/media/bible/reference/patristics/ante-nicene-fathers/. This CLOSES the last two
+    unverified patristic claims. No claim on the site now rests on recall.
+  verified_against_primary_text:
+    - "Irenaeus, Against Heresies 3.1.1 -- 'Matthew also issued a written Gospel among the Hebrews in
+       their own dialect, while Peter and Paul were preaching at Rome' and 'John... did himself
+       publish a Gospel during his residence at Ephesus in Asia'. Confirms both matthew.md and
+       john.md."
+    - "Irenaeus 3.3.4 -- Polycarp 'not only instructed by apostles... whom I also saw in my early
+       youth'. Confirms the Irenaeus->Polycarp->John chain john.md claimed. IMPORTANT NUANCE now
+       reflected on the page: Irenaeus saw Polycarp himself, but reports the John/Cerinthus anecdote
+       at one remove ('there are also those who heard from him'). The page says so rather than
+       flattening the chain."
+    - "Acts of Thomas 1 (ANF vol 8) -- 'By lot, then, India fell to Judas Thomas, also called
+       Didymus.' Plus the ANF editors' assessment: a book 'held in great estimation by the heretics
+       of the first and second centuries', teaching baptism with oil not water, condemned in the
+       Decree of Gelasius. thomas.md sharpened with this; it supports the correction already made
+       rather than undoing it."
+  unexpected_find: >
+    The Acts of Thomas opens with an apostle list arranged in PAIRS, following Matthew's order down
+    to 'Matthew the tax-gatherer' -- Matthew's own self-designation. It is dependent on Matthew, so
+    NOT independent testimony, and the hub says so explicitly. Its value is different and better: it
+    shows an ancient reader parsing Matthew's Greek as paired, which is evidence the pairing is in
+    the text rather than an artefact of modern editorial punctuation. This is the second independent
+    line of support the patristic material has given the hub's structural argument (the first being
+    Lipsius's three mission-groups in McGiffert's notes).
+  gotcha_worth_remembering: >
+    CCEL plain text lives at /ccel/s/schaff/<id>/cache/<id>.txt. The /ccel/schaff/<id>.txt landing
+    page returns HTML with HTTP 200 -- it looks like a successful download until you read it. Cost
+    one wasted fetch. Recorded in references/README.md. Also: anf10 is legitimately 28 KB (index
+    volume, image-only on CCEL), not a truncated download.
+
 tag_convention_change_2026-08-08:
   what: >
     Introduced a fifth tag facet, person/, resolving the person-vs-book collision the review flagged.

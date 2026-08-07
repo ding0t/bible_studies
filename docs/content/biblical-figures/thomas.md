@@ -112,10 +112,18 @@ community's own name for itself, that "the name cannot be traced beyond the eigh
 derived, probably, from a Nestorian missionary."
 
 So the honest ordering is: Parthia early and comparatively well attested, Edessa next, India later.
-The third-century *Acts of Thomas* is an apocryphal romance rather than history, and attests that a
-tradition existed rather than establishing where he went. Schaff's broader warning covers the whole
-field: "The efforts to derive from the varying traditions any trustworthy particulars as to the
-apostles themselves is almost wholly vain."
+
+The *Acts of Thomas* is where the India story is told at length. It opens with the apostles dividing
+up the world by lot: "By lot, then, India fell to Judas Thomas, also called Didymus. And he did not
+wish to go... how can I, being an Hebrew man, go among the Indians to proclaim the truth?" It is a
+good story, and it is not history. The ANF editors describe it as a book "held in great estimation by
+the heretics of the first and second centuries," whose distinctive teaching was that Thomas baptized
+with oil rather than water — condemned in the Decree of Gelasius and grouped with the disputed books
+in the Synopsis ascribed to Athanasius. It attests that a tradition existed early; it does not
+establish where Thomas went.
+
+Schaff's broader warning covers the whole field: "The efforts to derive from the varying traditions
+any trustworthy particulars as to the apostles themselves is almost wholly vain."
 
 A separate caution: several later works carry his name, including the *Gospel of Thomas*. These are
 not by the apostle and are not part of Scripture.

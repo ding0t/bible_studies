@@ -103,12 +103,21 @@ Traditions about Matthew's later ministry are unusually scattered — Ethiopia, 
 elsewhere appear in different sources, with correspondingly varied accounts of his death. There is
 no early consensus, and little that can be relied on.
 
-An early and better-attested tradition is literary rather than geographic: **Papias**, bishop of
+An early and better-attested tradition is literary rather than geographic. **Papias**, bishop of
 Hierapolis in the early second century, is quoted by Eusebius (*Church History* 3.39) as saying
 Matthew compiled the sayings "in the Hebrew dialect." Papias's own writings are lost, so he survives
-only in quotation — but this is the earliest surviving statement linking Matthew to a written record,
-and Irenaeus repeats it independently or otherwise. What exactly "the Hebrew dialect" refers to has
-been argued over ever since. See [Patristic Sources](../resources/patristic-sources.md).
+only in quotation — but this is the earliest surviving statement linking Matthew to a written record.
+
+**Irenaeus** says the same thing later that century, and adds a date:
+
+> Matthew also issued a written Gospel among the Hebrews in their own dialect, while Peter and Paul
+> were preaching at Rome, and laying the foundations of the Church.
+>
+> — Irenaeus, *Against Heresies* 3.1.1
+
+Whether Irenaeus knew this independently or was drawing on Papias cannot be settled. What exactly
+"their own dialect" refers to — Hebrew, Aramaic, or a Semitic *style* of Greek — has been argued over
+ever since, and the question is not closed. See [Patristic Sources](../resources/patristic-sources.md).
 
 ## Takeaway
 

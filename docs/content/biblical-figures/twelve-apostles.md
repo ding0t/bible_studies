@@ -175,6 +175,22 @@ together, and this study will not guess. What can be said is narrower and still 
 Matthew, alone among the four, arranges the Twelve in pairs at precisely the point where they are
 about to be sent out in pairs.
 
+**An early reader saw the same thing.** The apocryphal *Acts of Thomas* — a third-century romance,
+not history — opens by listing the apostles as they divide up the world, and it lists them in pairs:
+
+> Simon called Peter, and Andrew his brother; James the son of Zebedee, and John his brother; Philip
+> and Bartholomew; Thomas, and Matthew the tax-gatherer; James of Alphæus and Simon the Cananæan;
+> and Judas of James.
+>
+> — *Acts of the Holy Apostle Thomas* 1 (*Ante-Nicene Fathers*, Vol. 8)
+
+The first four pairs are Matthew's, in Matthew's order, down to "Matthew the tax-gatherer" — the
+self-designation only Matthew's Gospel uses. The last four are re-paired because Judas Iscariot is
+gone and Thaddaeus appears under his other name. So this is **not independent testimony**: it is a
+text depending on Matthew. But that is precisely what makes it useful. It shows a reader in
+antiquity, working from Matthew's Greek, taking the list to be paired — which is evidence that the
+pairing is really in the text rather than an artefact of modern punctuation.
+
 ## From disciple to apostle
 
 The two words are not synonyms, and Luke marks the exact moment one becomes the other.

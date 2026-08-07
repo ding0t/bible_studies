@@ -78,13 +78,39 @@ linking Matthew to a written record, later echoed by Irenaeus.
 **Reliability: early and valuable, but fragmentary** — we have Papias only in quotation, and what
 the "Hebrew dialect" statement actually means has been argued over ever since.
 
+### Irenaeus, *Against Heresies* (late 2nd century)
+
+Bishop of Lyons, and the most valuable single witness after Eusebius because of who he knew. Irenaeus
+had seen **Polycarp** of Smyrna in his own youth, and Polycarp "was not only instructed by apostles,
+and conversed with many who had seen Christ, but was also, by apostles in Asia, appointed bishop of
+the Church in Smyrna" (3.3.4). That is a short chain from the apostles to a surviving text.
+
+He supplies the standard account of how the four Gospels came to be written (3.1.1) — Matthew "among
+the Hebrews in their own dialect, while Peter and Paul were preaching at Rome," and John publishing
+"during his residence at Ephesus in Asia."
+
+**Reliability: high, with one caution.** Irenaeus is careful about what he saw himself versus what he
+was told. His famous story of John fleeing a bath-house at Ephesus is introduced as "there are also
+those who heard from him [Polycarp] that..." — a report at one remove, and he says so. Read the
+attributions, not just the anecdotes.
+
 ### The apocryphal Acts (2nd-4th century)
 
-*Acts of Thomas*, *Acts of Andrew*, *Acts of John* and others. These are religious romances, not
-histories — often with a doctrinal agenda (several are Gnostic in origin). They are evidence that a
-tradition existed early, not evidence that its content is true.
+*Acts of Thomas*, *Acts of Andrew*, *Acts of John* and others, collected in Volume 8 of the
+*Ante-Nicene Fathers*. These are religious romances, not histories, and several carry a doctrinal
+agenda. The ANF editors' description of the *Acts of Thomas* is representative: a book "held in great
+estimation by the heretics of the first and second centuries," whose distinctive teaching was that
+Thomas baptized with oil rather than water, condemned in the Decree of Gelasius and grouped with the
+disputed books in the Synopsis ascribed to Athanasius.
+
+They are evidence that a tradition existed early, not evidence that its content is true.
 
 **Reliability: low as history, useful as dating** — they tell you when a story was circulating.
+
+One genuinely useful thing they preserve: the *Acts of Thomas* opens by listing the Twelve in
+**pairs**, following Matthew's order down to "Matthew the tax-gatherer." It is dependent on Matthew
+rather than independent of him — which is exactly why it is worth having. It shows how an ancient
+reader parsed Matthew's Greek. See [The Twelve](../biblical-figures/twelve-apostles.md#matthews-list-is-six-pairs-and-english-hides-it).
 
 ### Later and medieval traditions
 
@@ -122,15 +148,20 @@ provenance file recording source, date retrieved, and licence tier for each:
 - **Eusebius, *Church History*** — the Schaff/McGiffert *Nicene and Post-Nicene Fathers* Series 2
   Vol. 1 (1890), from the [Christian Classics Ethereal Library](https://ccel.org/ccel/schaff/npnf201).
   Public domain by age; quotable freely with attribution.
+- **The *Ante-Nicene Fathers*, Vols. 1-10** — Roberts and Donaldson, eds., in A. Cleveland Coxe's
+  American edition, from [CCEL](https://ccel.org/ccel/s/schaff/anf01). Public domain by age. This is
+  where Irenaeus (Vol. 1) and the New Testament apocrypha (Vol. 8) live, along with Justin Martyr,
+  Clement of Alexandria, Tertullian, Hippolytus, Cyprian and Lactantius.
 - **The Apostolic Fathers in Greek** — 1-2 Clement, Ignatius, Polycarp, Didache, Barnabas, Shepherd
   of Hermas, Martyrdom of Polycarp, Diognetus, from
   [jtauber/apostolic-fathers](https://github.com/jtauber/apostolic-fathers) (Kirsopp Lake's
   public-domain Greek text, corrected). **The repository states no licence**, so it is treated as
   restricted: quoted briefly with attribution, never redistributed.
 
-**Not yet obtained:** Irenaeus, *Against Heresies*, and the apocryphal *Acts* are in the
-*Ante*-Nicene Fathers set rather than NPNF2-01. Claims on this site resting on those two are flagged
-as unverified until they are.
+Every patristic claim currently made on this site has been checked against the primary text in one of
+those three. Where a chain of report has a weak link — Irenaeus hearing the John anecdote secondhand,
+Eusebius passing on the Abgar story with "they say" — the page saying so is the page you should
+trust more, not less.
 
 ## References
 

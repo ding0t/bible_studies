@@ -85,15 +85,33 @@ Revelation.
 ## What tradition says
 
 The consistent early tradition is that John lived to old age at Ephesus, dying a natural death near
-the end of the first century — making him, on this account, the only apostle not martyred. Eusebius
-preserves the Ephesus connection in the same passage of Origen that assigns the other apostles their
-fields: "Asia to John, who, after he had lived some time there, died at Ephesus" (*Church History*
-3.1). Irenaeus, writing in the late second century, is the other early witness, and he is often cited
-because of his claimed link back through Polycarp, who knew John personally.
+the end of the first century — making him, on this account, the only apostle not martyred. Two
+independent early witnesses carry it.
 
-That Irenaeus link is worth flagging as unchecked here: *Against Heresies* sits in the Ante-Nicene
-Fathers, which this project has not yet obtained — see [Patristic Sources](../resources/patristic-sources.md).
-The Ephesus tradition itself does not depend on it.
+**Irenaeus**, writing in the late second century, states it flatly while listing how the four
+Gospels came to be written:
+
+> Afterwards, John, the disciple of the Lord, who also had leaned upon His breast, did himself
+> publish a Gospel during his residence at Ephesus in Asia.
+>
+> — Irenaeus, *Against Heresies* 3.1.1
+
+What gives Irenaeus unusual weight here is the chain behind him. He knew **Polycarp** personally, and
+Polycarp knew the apostles:
+
+> But Polycarp also was not only instructed by apostles, and conversed with many who had seen Christ,
+> but was also, by apostles in Asia, appointed bishop of the Church in Smyrna, whom I also saw in my
+> early youth... There are also those who heard from him that John, the disciple of the Lord, going to
+> bathe at Ephesus, and perceiving Cerinthus within, rushed out of the bath-house without bathing.
+>
+> — Irenaeus, *Against Heresies* 3.3.4
+
+Note the honest shape of that: Irenaeus saw Polycarp himself, but the John anecdote he reports at one
+remove — "there are also those who heard from him." Even a good chain has links worth counting.
+
+**Eusebius** preserves the same tradition independently, in the passage of Origen that assigns each
+apostle a field: "Asia to John, who, after he had lived some time there, died at Ephesus" (*Church
+History* 3.1). See [Patristic Sources](../resources/patristic-sources.md).
 
 Note that the authorship of the five "Johannine" books is debated in scholarship, sometimes
 distinguishing the apostle from an "elder John" at Ephesus. This study takes the traditional

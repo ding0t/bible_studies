@@ -229,11 +229,24 @@ grading rather than the file paths: [docs/content/resources/patristic-sources.md
   apostles, the Didache and Ignatius are directly relevant to early-church-practice and Hebrew-roots
   studies.
 
-**Not obtained:** Irenaeus (*Against Heresies*) and the apocryphal *Acts* sit in the **Ante**-Nicene
-Fathers set, not NPNF2-01. Any claim resting on those is still unverified. ANF is on CCEL at
-`https://ccel.org/ccel/schaff/anf01` and fetches the same way — the plain-text export lives at
-`/ccel/s/schaff/<id>/cache/<id>.txt`, not at the `/ccel/schaff/<id>.txt` landing page, which returns
-HTML. `ccel.org` is in the sandbox network allowlist in `.claude/settings.json`.
+- **`ante-nicene-fathers/`** (`anf01.txt` … `anf10.txt`, ~35 MB) — *Ante-Nicene Fathers* Vols. 1-10
+  (Roberts & Donaldson, eds.; Coxe's American edition), from
+  [CCEL](https://ccel.org/ccel/s/schaff/anf01). **Licence tier: open** — public domain by age, marked
+  as such by CCEL. The two volumes that earn their place immediately: **anf01** has **Irenaeus**
+  (*Against Heresies* 3.1.1 on Matthew writing among the Hebrews and John publishing at Ephesus;
+  3.3.4 on Irenaeus having seen Polycarp), and **anf08** has the **New Testament apocrypha** including
+  the *Acts of Thomas*. Also inside: Justin Martyr (anf01), Clement of Alexandria (anf02), Tertullian
+  (anf03-04), Hippolytus and Cyprian (anf05), Lactantius (anf07), and the Diatessaron and Gospel of
+  Peter (anf09). `anf10` is the index volume and is legitimately tiny (28 KB, image-only on CCEL) —
+  not a failed download.
+
+**Fetching more from CCEL.** The plain text lives at `/ccel/s/schaff/<id>/cache/<id>.txt`. The
+`/ccel/schaff/<id>.txt` landing page **returns HTML with a 200**, so a naive fetch looks like it
+worked until you read the file — check for `<!DOCTYPE` before trusting it. `ccel.org` and
+`www.ccel.org` are in the sandbox network allowlist in `.claude/settings.json`.
+
+**Nothing is currently outstanding.** Every patristic claim on the site has been verified against
+primary text.
 
 ## Word study & original-language tools
 
