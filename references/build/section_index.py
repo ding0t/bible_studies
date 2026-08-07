@@ -25,25 +25,28 @@ SECTION_END = "<!-- section-index:auto-end -->"
 
 # Short blurbs for known sections, keyed by path relative to docs/content/. Edit freely --
 # this is the one hand-maintained piece; everything else below is derived from frontmatter.
+# Keyed by path relative to docs/content/. Subject sections follow the taxonomy in
+# docs/content/about/our-taxonomy.md -- plain-English names over the systematic-theology
+# loci. Add a line when a new section is created.
 SECTION_BLURBS = {
-    "studies": "In-depth studies developed through the exegesis-then-hermeneutics process.",
-    "studies/archeology": "Archaeological findings and ancient manuscript evidence bearing on Scripture.",
-    "studies/feasts": "The biblical feasts, their Old Testament instruction, and New Testament fulfillment.",
-    "studies/prophecy": "End-times and biblical prophecy, read dispensationally.",
-    "studies/prophecy-fulfilled-in-jesus": "Old Testament prophecies and how the Gospels record their fulfillment in Jesus.",
-    "studies/sins": "Sin, temptation, and the pattern of redemption in Scripture.",
-    "studies/spiritual-disciplines": "Prayer, fasting, and other practices of the Christian life.",
-    "studies/teaching-resources": "Notes and tools for teaching and preparing to teach.",
-    "studies/theology": "Broader theological topics not tied to a single feast, prophecy, or discipline.",
-    "bible": "Commentary and reference material on the biblical text itself.",
-    "bible/commentaries": "Verse-by-verse commentary, organized by book, with auto-linked studies (see commentary_index.py).",
-    "sermons": "Sermon notes and presentation material.",
-    "studies/theology/dreams-and-visions/personal-examples": "The author's own personal dream accounts, kept as testimony rather than Scripture.",
-    "hebrew-studies": "Learning biblical Hebrew -- alphabet, resources, and study aids.",
-    "investigation": "Investigative studies into specific practices and questions.",
-    "investigation/deliverance": "The biblical basis for and practice of deliverance ministry.",
+    "scripture": "The Bible about itself -- canon, manuscripts, translation, and the archaeology behind the text.",
+    "god": "God's nature and character, creation, and the ways he makes himself known.",
+    "jesus": "Who Christ is and what he did, including Old Testament prophecy fulfilled in him.",
+    "sin": "Sin, temptation, and the pattern of redemption in Scripture.",
+    "salvation": "Grace, redemption, assurance, and what happens at death.",
+    "spiritual-beings": "Angels, demons, and the discernment of spirits.",
+    "spiritual-beings/deliverance": "The biblical basis for and practice of deliverance ministry.",
+    "israel-and-church": "The covenants, the distinction between Israel and the Church, and the Hebrew roots of the faith.",
+    "last-things": "End-times prophecy, read dispensationally.",
+    "feasts": "The biblical feasts and calendars, their Old Testament instruction, and their fulfillment.",
+    "christian-life": "Prayer, fasting, and the disciplines of walking with Christ.",
+    "biblical-figures": "Studies of particular people in Scripture.",
+    "god/dreams-and-visions": "How God has spoken through dreams and visions, and how to tell those from the counterfeits.",
+    "god/dreams-and-visions/personal-examples": "The author's own personal dream accounts, kept as testimony rather than Scripture.",
+    "commentaries": "Verse-by-verse commentary, organized by book, with auto-linked studies (see commentary_index.py).",
+    "sermons": "Sermon notes, teaching material, and guidance on preparing to teach.",
     "resources": "External sources, tools, and datasets this project draws on.",
-    "about": "About this project and its statement of faith.",
+    "about": "About this project, its taxonomy, and its statement of faith.",
 }
 
 

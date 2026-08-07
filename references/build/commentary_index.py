@@ -20,8 +20,27 @@ from pathlib import Path
 from book_map import NUM_TO_SLUG, REFERENCE_NAME_TO_NUM
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-STUDIES_DIR = REPO_ROOT / "docs" / "content" / "studies"
-COMMENTARIES_DIR = REPO_ROOT / "docs" / "content" / "bible" / "commentaries"
+CONTENT_DIR = REPO_ROOT / "docs" / "content"
+COMMENTARIES_DIR = CONTENT_DIR / "commentaries"
+
+# Subject sections scanned for primary_passage/bible_references, per
+# docs/content/about/our-taxonomy.md. This is an explicit allow-list rather than
+# "every directory under content/" on purpose: scanning the whole tree would pull
+# in about/, commentaries/, resources/ and sermons/ and start cross-referencing
+# the site's own meta pages. Add a line here when a new subject section is created.
+SUBJECT_DIRS = [
+    "scripture",
+    "god",
+    "jesus",
+    "sin",
+    "salvation",
+    "spiritual-beings",
+    "israel-and-church",
+    "last-things",
+    "feasts",
+    "christian-life",
+    "biblical-figures",
+]
 TODAY = date.today().isoformat()
 
 AUTO_START = "<!-- commentary-index:auto-start -->"
@@ -58,7 +77,13 @@ def collect_references() -> dict[tuple[int, int], list[dict]]:
     by_chapter: dict[tuple[int, int], list[dict]] = {}
     unparsed: list[str] = []
 
-    for md_file in sorted(STUDIES_DIR.rglob("*.md")):
+    subject_files = [
+        md
+        for section in SUBJECT_DIRS
+        for md in (CONTENT_DIR / section).rglob("*.md")
+        if (CONTENT_DIR / section).is_dir()
+    ]
+    for md_file in sorted(subject_files):
         content = md_file.read_text(encoding="utf-8")
         if not content.startswith("---"):
             continue
@@ -74,7 +99,7 @@ def collect_references() -> dict[tuple[int, int], list[dict]]:
             continue
 
         title = fm.get("title", md_file.stem)
-        rel_path = md_file.relative_to(STUDIES_DIR)  # e.g. feasts/last-supper-four-cups.md
+        rel_path = md_file.relative_to(CONTENT_DIR)  # e.g. feasts/last-supper-four-cups.md
 
         entries = [(r, True) for r in split_compound(fm.get("primary_passage") or "")]
         entries += [(r, False) for r in (fm.get("bible_references") or [])]
@@ -115,7 +140,7 @@ def render_auto_section(entries: list[dict], depth_prefix: str) -> str:
     lines = [AUTO_START, "## Studies referencing this chapter", ""]
     for e in entries:
         marker = " (primary passage)" if e["is_primary"] else ""
-        lines.append(f"- [{e['title']}]({depth_prefix}studies/{e['rel_path']}) — {e['ref_display']}{marker}")
+        lines.append(f"- [{e['title']}]({depth_prefix}{e['rel_path']}) — {e['ref_display']}{marker}")
     lines.append(AUTO_END)
     return "\n".join(lines)
 
@@ -195,7 +220,9 @@ def main() -> None:
         for chapter in sorted(chapters):
             entries = by_chapter[(book_num, chapter)]
             chapter_path = book_dir / f"chapter-{chapter:03d}.md"
-            auto_section = render_auto_section(entries, "../../../")
+            # commentaries/<book>/chapter-nnn.md -> up two levels reaches docs/content/.
+            # Was ../../../ while commentaries lived under bible/.
+            auto_section = render_auto_section(entries, "../../")
             stub = (
                 f"---\ntitle: \"{book_title} {chapter}\"\ncategory: \"bible\"\n"
                 f"description: \"Commentary and cross-referenced studies for {book_title} chapter {chapter}\"\n"
