@@ -1,0 +1,20 @@
+# Without this, awesome-pages sorts alphabetically: the hub study ("The Twelve")
+# would land last, after the twelve profiles that depend on it, and the apostles
+# would appear in alphabetical rather than scriptural order.
+# The twelve are listed in the order of Matthew 10:2-4 -- the same three groups
+# of four the hub study works through.
+nav:
+  - index.md
+  - twelve-apostles.md
+  - peter.md
+  - andrew.md
+  - james-son-of-zebedee.md
+  - john.md
+  - philip.md
+  - bartholomew.md
+  - thomas.md
+  - matthew.md
+  - james-son-of-alphaeus.md
+  - thaddaeus.md
+  - simon-the-zealot.md
+  - judas-iscariot.md

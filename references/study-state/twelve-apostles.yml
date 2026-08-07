@@ -1,0 +1,252 @@
+slug: "twelve-apostles"
+title: "The Twelve: Disciples and Apostles"
+status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/biblical-figures/twelve-apostles.md"
+
+primary_passage: "Matthew 10:1-4; Mark 3:13-19; Luke 6:12-16; Acts 1:13"
+supporting_passages:
+  - "John 1:35-51" # first encounters — stage 1 of the calling
+  - "Matthew 4:18-22" # the Galilean call to follow — stage 2
+  - "Luke 5:1-11" # parallel call of the fishermen
+  - "Mark 6:7-13" # sent out two by two
+  - "Matthew 19:28" # twelve thrones judging twelve tribes
+  - "Revelation 21:12-14" # twelve gates (tribes) / twelve foundations (apostles)
+  - "Ephesians 2:20" # foundation of apostles and prophets
+  - "Acts 1:15-26" # replacement of Judas; apostolic qualification
+  - "Matthew 10:5-6" # sent to the lost sheep of the house of Israel
+genre: [gospel, acts, topical]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Todo entry (docs/dev/todo.md "Twelve disciples") asked for: name and meaning, calling order,
+      background, significance, key verse, takeaway. Placement decided by our-taxonomy.md, which
+      names "the twelve disciples" as its own example of the Biblical figures section. That section
+      is defined but NOT yet created — this study is its trigger. Creating it requires: the
+      directory, a SUBJECT_DIRS line in references/build/commentary_index.py, a SECTION_BLURBS
+      entry in section_index.py, and an entry in docs/content/.pages.
+  exegesis:
+    historical_context:
+      done: false
+      notes: ""
+    literary_context:
+      done: true
+      notes: >
+        FOUR LISTS, not one: Matt 10:2-4, Mark 3:16-19, Luke 6:14-16, Acts 1:13. Each sits at a
+        different hinge. Mark's is the appointment itself (3:13-15). Luke's follows a night of
+        prayer (6:12) and is the moment the name "apostles" is given (6:13). Matthew's is placed
+        immediately before the sending discourse (10:5), i.e. as a commissioning roster. Acts'
+        is the surviving eleven in the upper room, awaiting Pentecost.
+
+        VERIFIED STRUCTURAL FINDING — three fixed groups of four with fixed anchors. Checked
+        position-by-position against all four lists:
+          Group 1 (pos 1-4): Peter, Andrew, James, John        — Peter is #1 in ALL FOUR
+          Group 2 (pos 5-8): Philip, Bartholomew, Thomas, Matthew — Philip is #5 in ALL FOUR
+          Group 3 (pos 9-12): James s/o Alphaeus, Thaddaeus/Judas s/o James, Simon the Zealot,
+                              Judas Iscariot — James s/o Alphaeus is #9 in ALL FOUR
+        Membership of each group of four NEVER changes; order WITHIN a group varies freely.
+        Judas Iscariot is last in all three lists that contain him; absent in Acts.
+    content_word_studies:
+      done: false
+      notes: >
+        GREEK SYNTAX FINDING (from sblgnt, verified): Matthew's list is built as SIX PAIRS —
+        kai joins the two names within a pair, asyndeton (no conjunction) between pairs.
+        Mark by contrast uses a uniform kai between every single name, a flat chain. This is
+        textual, not editorial punctuation. Matthew's pairing sits immediately before the
+        sending discourse; Mark 6:7 sends them out "duo duo" (two by two). Correlation worth
+        drawing, but state it as Matthew's arrangement, not as a claim about who actually
+        travelled with whom — Scripture never names the pairs.
+      terms:
+        - word: "ἀπόστολος"
+          language: greek
+          transliteration: "apostolos (ah-POS-toh-los)"
+          strongs_id: "G652"
+          gloss: "one sent, envoy, delegate"
+          notes: "Luke 6:13 is the naming moment: hous kai apostolous ONOMASEN, 'whom he also NAMED apostles'."
+        - word: "μαθητής"
+          language: greek
+          transliteration: "mathētēs (math-ay-TACE)"
+          strongs_id: "G3101"
+          gloss: "learner, pupil, disciple"
+          notes: "The wider group; the Twelve are chosen FROM among these (Luke 6:13, ap' auton)."
+        - word: "ποιέω"
+          language: greek
+          transliteration: "poieō (poy-EH-oh)"
+          strongs_id: "G4160"
+          gloss: "make, do"
+          notes: >
+            Mark 3:14 epoiēsen dōdeka — literally 'he MADE twelve', not 'appointed'. Most English
+            versions render 'appointed'. Check whether the constructive/creative sense is being
+            over-read before building on it.
+        - word: "Καναναῖος"
+          language: aramaic
+          transliteration: "Kananaios (kah-nah-NAH-yos)"
+          strongs_id: "G2581"
+          gloss: "the zealous one"
+          notes: >
+            NOT 'Canaanite' and NOT 'from Cana' — from Aramaic qan'an, zealous. Luke translates
+            it for Greek readers as Zēlōtēs (Luke 6:15, Acts 1:13). KJV's 'Simon the Canaanite'
+            is the misreading to correct.
+        - word: "παλιγγενεσία"
+          language: greek
+          transliteration: "palingenesia (pal-ing-gen-es-EE-ah)"
+          strongs_id: "G3824"
+          gloss: "regeneration, renewal"
+          notes: "Matt 19:28 — the setting of the twelve thrones. Load-bearing for the dispensational reading."
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: false
+      notes: ""
+    theological_principle:
+      done: false
+      notes: ""
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: false
+    cross_refs:
+      - ref: "Matthew 19:28 / Revelation 21:12-14"
+        relation: "Twelve apostles set against twelve tribes — the number is the argument"
+      - ref: "Acts 1:21-22"
+        relation: "Apostolic qualification: accompanied from John's baptism to the ascension, witness of the resurrection"
+    translations_compared: []
+    divergences_noted: ""
+  drafting:
+    done: true
+    file: >
+      Hub: docs/content/biblical-figures/twelve-apostles.md
+      Profiles (12): peter, andrew, james-son-of-zebedee, john, philip, bartholomew, thomas,
+      matthew, james-son-of-alphaeus, thaddaeus, simon-the-zealot, judas-iscariot (all .md under
+      docs/content/biblical-figures/).
+      Section created: docs/content/biblical-figures/index.md, plus a nav entry in
+      docs/content/.pages. SUBJECT_DIRS and SECTION_BLURBS already listed biblical-figures, so
+      no change was needed in commentary_index.py or section_index.py.
+      ALL 13 FILES ARE draft: true PENDING USER REVIEW.
+  review:
+    done: true
+    validated: true # npm run validate passes; mkdocs build --strict passes (no new warnings)
+
+review_2026-08-08:
+  skill: review-bible-study
+  scope: "twelve-apostles.md + all 12 profiles + index.md (all draft:false at time of review)"
+  checked:
+    - "All 34 scripture block quotes re-queried against study-notes.db esv-study-bible verses table
+       and compared programmatically. 33/34 verbatim. The 1 difference is a trailing closing quote
+       mark added in philip.md John 14:9, where the ESV speech continues into v10 -- editorially
+       defensible for a standalone excerpt, left as is."
+    - "All 33 Strong's ids re-derived from open-data/strongs. All correct. Confirmed again that the
+       G3156 derivation field in that fork is corrupt (points to G3164 machomai); matthew.md already
+       documents this."
+    - "Central structural claim (3 fixed groups of 4; Peter #1, Philip #5, James-Alphaeus #9 in all
+       four lists) re-derived position-by-position from ESV text, independently of the drafting
+       notes. HOLDS EXACTLY."
+    - "Concordance claims re-run against macula-greek-sblgnt: apostolos = 79 NT occurrences, exactly
+       1 in Matthew (10:2) -- confirms ESV Study Bible. palingenesia = exactly 2 (Matt 19:28,
+       Titus 3:5). Both as stated."
+    - "0 broken internal links. Copyright well inside limits: ~50 ESV verses total vs 1000 allowance;
+       highest single-file quotation density 13.9% vs the 50% ESV cap."
+    - "npm run validate clean (only 3 pre-existing warnings on docs/content/index.md, not ours).
+       mkdocs build --strict clean. No Hebrew-in-markdown-bold errors -- RTL text uses span dir=rtl
+       throughout, per the standing rule."
+  findings_fixed:
+    - "CRITICAL (thomas.md): claimed the India tradition was 'unusually strong' and that the Kerala
+       Thomas Christians had claimed him 'continuously for many centuries'. Eusebius H.E. 3.1 (citing
+       Origen) assigns Thomas to PARTHIA, not India; McGiffert's NPNF note states the India extension
+       is later and that the Kerala self-designation 'cannot be traced beyond the eighth century'.
+       Section rewritten with the sources in date order, and the correction acknowledged on the page."
+    - "MODERATE: Mark 3:14 textual variant ('whom he also named apostles' omitted in some mss, per
+       CSB and NLT notes) was unmentioned while the verse was block-quoted and built on. Now covered
+       in the hub -- and it strengthens the Luke 6:13 argument rather than weakening it."
+    - "MODERATE: the three-groups claim silently depended on Thaddaeus = Judas son of James. The
+       dependency is now stated where the claim is made, not only in the later discussion."
+    - "MODERATE (Phase 5 gap): historical occasion -- author, audience, purpose of each Gospel -- was
+       missing. Added to the hub before the comparison table, with an explicit note that the table is
+       a comparison rather than a claim that any evangelist was harmonising."
+    - "MINOR: dropped gospel-of-john and gospel-of-matthew tags (near-synonyms of the established
+       book tags john/matthew). User decision."
+    - "NAV: added docs/content/biblical-figures/.pages -- alphabetical sort had put the hub study
+       LAST, after the twelve profiles that depend on it. Now hub first, then the Twelve in
+       Matthew 10:2-4 order. Verified against the built HTML."
+  findings_accepted_not_fixed:
+    - "MINOR: profiles head their bibliography '## References' while the hub uses '## References and
+       recommended reading'. Proportionate to length; left."
+
+tag_convention_change_2026-08-08:
+  what: >
+    Introduced a fifth tag facet, person/, resolving the person-vs-book collision the review flagged.
+    Initially deferred, then adopted on the user's decision.
+  rule: >
+    The bare tag belongs to the BOOK (matthew, john, james, daniel, ruth); a human being takes
+    person/. A page about both carries both -- biblical-figures/matthew.md tags person/matthew AND
+    matthew, because it is about the man and quotes his Gospel. Two figures sharing a name are
+    separated by patronymic (person/james-son-of-zebedee, person/james-son-of-alphaeus), never a bare
+    person/james. One person with two names gets both where the study argues the identification
+    (person/bartholomew + person/nathanael).
+  migrated:
+    - "All 12 apostle profiles in docs/content/biblical-figures/."
+    - "docs/content/jesus/melchizedek-priesthood.md -- a pre-existing person tag, migrated for
+       consistency so the facet is not a biblical-figures-only exception."
+  deliberately_not_migrated:
+    - "'enoch' on feasts/zadok-calendar.md refers to the BOOK (1 Enoch 72-82, 91-93), not the man.
+       Checked the page before assuming."
+    - "daniel, ezekiel, hosea, isaiah, jeremiah, malachi, ruth, zechariah, james, john, matthew
+       elsewhere on the site are all book tags already and stay bare."
+  documented_in:
+    - ".claude/skills/develop-bible-study/SKILL.md (facet list + why the facet exists + naming rules)"
+    - ".claude/skills/review-bible-study/SKILL.md (Phase 6 now flags a person tagged with a bare
+       book-name, noting both tags are individually legitimate so the check is 'what is the PAGE
+       about')"
+    - "docs/content/about/our-taxonomy.md (reader-facing facet table + rationale)"
+  verified: "14 person/ values render as a hierarchy on the built tags page; tags_hierarchy: true was already set in mkdocs.yml. validate + mkdocs build --strict both clean."
+  patristic_resolution: >
+    The largest open question from drafting is now CLOSED for 4 of 6 claims. ccel.org was added to
+    the sandbox network allowlist (.claude/settings.json) and Eusebius NPNF2-01 was fetched and
+    verified directly. Confirmed from primary text: Andrew/Scythia and Peter crucified head-downwards
+    at Rome (H.E. 3.1, citing Origen); John died at Ephesus (same passage); Papias on Matthew
+    compiling in 'the Hebrew dialect' (H.E. 3.39, via McGiffert's note); the Abgar/Edessa Thaddaeus
+    being called one of the SEVENTY, with McGiffert calling that Eusebius's own error -- which
+    independently confirms the caution thaddaeus.md already carried. 1 Clement 5.3-4 verified in
+    Greek from the apostolic-fathers corpus. STILL UNVERIFIED: Irenaeus (Against Heresies) and the
+    Acts of Thomas, both in the ANTE-Nicene set, which has not been obtained. john.md now says so on
+    the page. Texts stored at /Volumes/media/bible/reference/patristics/ with PROVENANCE.md;
+    catalogued in references/README.md and docs/content/resources/patristic-sources.md.
+  bonus: >
+    Eusebius also yielded an unexpected corroboration: Lipsius, summarised in McGiffert's notes to
+    H.E. 3.1, reports the oldest mission traditions dividing the Twelve into THREE GROUPS. The
+    groupings differ from the list-order groups, so it is not confirmation of the pattern -- but it
+    is an independent witness that the Twelve were remembered as organised in threes. Added to the
+    hub, carefully labelled as suggestive rather than confirming.
+
+open_questions:
+  - "PATRISTIC CITATIONS NOT VERIFIED AGAINST SOURCE. The profiles reference 1 Clement (Peter's
+     martyrdom), Eusebius citing Origen (Andrew in Scythia), Irenaeus via Polycarp (John at
+     Ephesus), Papias (Matthew compiling sayings in the Hebrew dialect), the Acts of Thomas, and
+     the Abgar/Edessa Thaddaeus tradition. This repo has NO patristic corpus, so these were written
+     from recall and hedged accordingly. They are the highest-risk claims in the whole set and
+     should be checked against primary text before draft:false. Consider ingesting a public-domain
+     Ante-Nicene Fathers set if this kind of study recurs."
+  - "RESOLVED (Mark 3:14 'epoiesen'): not built on. ESV, and the commentaries consulted, read it as
+     'appointed'; the constructive/creation echo was left out of the draft rather than asserted."
+  - "Matthew 27:9 attributes the potter's-field quotation to JEREMIAH while the wording matches
+     Zechariah 11:12-13. Handled openly in judas-iscariot.md rather than silently substituted --
+     an early draft of that paragraph had made exactly that substitution and was corrected."
+  - "Strong's fork data error found: greek/strongs-greek-dictionary.js gives G3156 (Matthaios) a
+     derivation pointing at G3164 machomai, 'to quarrel'. Wrong -- the entry's own gloss and G3161
+     Mattathias both point to H4993 Mattityah, 'gift of Jah'. Noted in matthew.md's References.
+     Worth reporting upstream to the strongs fork if that repo takes issues."
+  - "lang/aramaic was considered as a tag (Kananaios, bar-Talmai, te'oma, Kepha are all genuine
+     Aramaic word work) but NOT used -- the develop-bible-study skill defines only lang/hebrew and
+     lang/greek as language facet values. Extending the facet vocabulary is a decision for the site
+     owner, not something to do silently mid-study."
+  - "Bartholomew = Nathanael, and Thaddaeus = Judas son of James: both are traditional harmonizations, not stated by Scripture. Must be presented as inference with the reasoning shown, not as fact."
+  - "Iscariot — 'man of Kerioth' (Judean, hence the only non-Galilean) vs a link to the sicarii. Etymology is genuinely disputed; do not pick a side without a source."
+  - "Martyrdom traditions for the Twelve are extra-biblical (Eusebius, later acts and legends) and vary in reliability. If included at all, label clearly as tradition, not Scripture."
+  - "Scope not yet confirmed with the user: single hub study vs hub plus per-man profiles."
+
+resources_consulted:
+  - type: other
+    title: "bible-text.db — SBLGNT (CC BY 4.0), World English Bible (public domain)"
+    note: "Four apostle lists pulled in Greek and English; group-position pattern and Matthew's pairing verified position-by-position from source rather than from memory."
+last_updated: "2026-08-07"
