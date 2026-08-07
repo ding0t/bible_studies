@@ -14,4 +14,5 @@ draft: false
 
 - [Sin and Sorcery](../../sin/sorcery.md) — 21:8
 - [The Rapture of the Church](../../last-things/rapture.md) — 21:1-4
+- [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 21:12-14
 <!-- commentary-index:auto-end -->

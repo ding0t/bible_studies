@@ -282,6 +282,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](54-1-timothy/)
 
+-   __Titus__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](56-titus/)
+
 -   __Hebrews__
 
     ---

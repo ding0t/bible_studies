@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 1:1
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 1:6-7
 - [The Rapture of the Church](../../last-things/rapture.md) — 1:14-15
 - [The Way](../../jesus/the-way.md) — 1:11

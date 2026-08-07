@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [John son of Zebedee](../../biblical-figures/john.md) — 1:9
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:3
 <!-- commentary-index:auto-end -->

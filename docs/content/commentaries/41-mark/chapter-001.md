@@ -12,6 +12,9 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Andrew](../../biblical-figures/andrew.md) — 1:16-18
+- [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 1:19-20
+- [John son of Zebedee](../../biblical-figures/john.md) — 1:19-20
 - [Sin and Sorcery](../../sin/sorcery.md) — 1:32-34
 - [The Way](../../jesus/the-way.md) — 1:2-3
 - [The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](../../jesus/woman-issue-of-blood-faith-and-access.md) — 1:40-42

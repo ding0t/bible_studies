@@ -13,4 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 9:10-17 (primary passage)
+- [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 9:51-56
+- [John son of Zebedee](../../biblical-figures/john.md) — 9:54
 <!-- commentary-index:auto-end -->

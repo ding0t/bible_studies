@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 6:30-44 (primary passage)
+- [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 6:7-13
 <!-- commentary-index:auto-end -->

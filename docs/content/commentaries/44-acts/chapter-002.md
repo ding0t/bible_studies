@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:20
+- [Simon Peter](../../biblical-figures/peter.md) — 2:14-41
 <!-- commentary-index:auto-end -->

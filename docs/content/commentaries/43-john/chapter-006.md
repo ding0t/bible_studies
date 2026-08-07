@@ -13,4 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 6:1-15 (primary passage)
+- [Philip](../../biblical-figures/philip.md) — 6:5-7 (primary passage)
+- [Andrew](../../biblical-figures/andrew.md) — 6:8-9
+- [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 6:70-71
 <!-- commentary-index:auto-end -->
