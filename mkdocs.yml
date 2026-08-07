@@ -42,6 +42,18 @@ plugins:
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
+  # Preserves the pre-2026-08 URLs from before the subject-taxonomy migration.
+  # See docs/content/about/our-taxonomy.md and docs/dev/taxonomy-migration.md.
+  - redirects:
+      redirect_maps: {}
+
+# There was no extra_css key at all before 2026-08, so hero-verses.css was never
+# loaded despite docs/content/index.md using its .hero-verses class.
+# assets/stylesheets/enumerate-headings.css is deliberately NOT loaded: its rules
+# are unscoped (body counter-reset + h2:before), so it would auto-number every
+# heading on every page site-wide, not just where numbering is wanted.
+extra_css:
+  - assets/stylesheets/hero-verses.css
 
 markdown_extensions:
   - tables

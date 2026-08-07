@@ -29,7 +29,7 @@ jobs:
         run: python3 utils/generate_recent_updates.py
 
       - name: Build mkdocs content site
-        run: uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin mkdocs build --site-dir site
+        run: uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects mkdocs build --site-dir site
 
       - name: Setup Node
         uses: actions/setup-node@v7

@@ -69,7 +69,7 @@ every content file needs.
 **Content site** (`docs/content/` — mkdocs-material, where nearly all writing happens):
 
 ```bash
-uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin mkdocs serve
+uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects mkdocs serve
 ```
 
 Hot-reload dev server at http://localhost:8000/. `docs_dir` is `docs/content` (see `mkdocs.yml`).
