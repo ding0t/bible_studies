@@ -1,7 +1,7 @@
 slug: last-supper-four-cups
 title: "\"I Will Not Drink Again\": The Last Supper and the Cups of Passover"
 status: drafting
-target_path: docs/content/studies/feasts/last-supper-four-cups.md
+target_path: docs/content/feasts/last-supper-four-cups.md
 
 primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
 supporting_passages: ["1 Corinthians 11:23-26", "Exodus 6:6-7", "Psalm 116:13", "John 19:28-30", "Isaiah 25:6", "Matthew 8:11", "Revelation 19:9"]
@@ -100,7 +100,7 @@ stages:
 
   drafting:
     done: true
-    file: docs/content/studies/feasts/last-supper-four-cups.md
+    file: docs/content/feasts/last-supper-four-cups.md
   review:
     done: false
     validated: false

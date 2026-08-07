@@ -18,7 +18,7 @@ assumed, and a plain statement of what Scripture says is still to come.
 
 ## Key Takeaways
 
-*(This section follows the [Key Takeaways](../../about/key-takeaways.md) format this site is
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is
 prototyping -- see that page for what each part is for and why.)*
 
 ### Types & Prophecy
@@ -322,7 +322,7 @@ seventieth week that didn't follow immediately:
 **Week** translates <span dir="rtl">שָׁבוּעַ</span> (*shavu'a*, H7620, "seven") -- the same word Daniel's angel used for
 the first 69, already shown by that page's own case to run on literal years, not days. Nearly two
 thousand years now separate week 69 from week 70 -- a gap the text itself doesn't name a duration
-for, but which this site (following [The Zadok Calendar](zadok-calendar.md) and [The Day Is
+for, but which this site (following [The Zadok Calendar](../feasts/zadok-calendar.md) and [The Day Is
 Near](day-is-near.md)) reads as the still-continuing church age, unforeseen by the Old Testament
 prophets themselves (Ephesians 3:4-6's "mystery"). This seventieth week -- a coming leader confirming
 a covenant, sacrifice halted at its midpoint, "the abomination of desolation" Jesus names directly in
@@ -408,4 +408,4 @@ into any single piece of it above.
 - [The Rapture of the Church](rapture.md) -- the pretribulational rapture case in full.
 - [The Day Is Near](day-is-near.md) -- the millennium, the Olivet Discourse's "day and hour," and the
   six-then-seventh chronological pattern.
-- [The Zadok Calendar](zadok-calendar.md) -- this site's chronological framework.
+- [The Zadok Calendar](../feasts/zadok-calendar.md) -- this site's chronological framework.

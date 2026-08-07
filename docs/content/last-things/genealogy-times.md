@@ -44,7 +44,7 @@ manuscripts) simply doesn't apply past Terah, because Genesis stops giving one.
 
 - **The Masoretic Text (MT)** — the standard Hebrew text underlying most English translations,
   and the one this site's own `zadok_year` numbering already assumes (see
-  [The Zadok Calendar](zadok-calendar.md) for the calendar side of that convention).
+  [The Zadok Calendar](../feasts/zadok-calendar.md) for the calendar side of that convention).
 - **The Septuagint (LXX)**, in the Brenton edition — the pre-Christian Greek translation, whose
   Genesis 5 and 11 numbers diverge from MT's in a strikingly patterned way (below).
 - **The Samaritan Pentateuch (SP)** — preserved independently by the Samaritan community, and
@@ -418,7 +418,7 @@ work in this study's state file rather than done here.
   `references/build/twot_lookup.py`, for every word study above
 - James C. VanderKam, *Calendars in the Dead Sea Scrolls: Measuring Time* — on the broader
   Second Temple textual environment these traditions come from
-- [The Zadok Calendar](zadok-calendar.md), [The Day is Near](day-is-near.md), and
+- [The Zadok Calendar](../feasts/zadok-calendar.md), [The Day is Near](day-is-near.md), and
   [Prophecy Events and Times](prophecy-events-times.md) — this site's other chronology studies,
   including the still-open creation-epoch discrepancy noted above
 - `docs/data/genealogy/index.json`, `antediluvian.json`, `patriarchal.json` — the structured

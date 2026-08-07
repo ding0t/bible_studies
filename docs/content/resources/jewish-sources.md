@@ -8,7 +8,7 @@ draft: false
 
 # Jewish Literature & Primary Sources
 
-Companion to [github.md](github.md) (open Bible data) — this page tracks sources for **Jewish literature outside the Bible itself**: the Mishnah, Talmud, and related rabbinic material that supplies historical/cultural background for a study (see the develop-bible-study skill's Phase 2), the way [the Last Supper study](../studies/feasts/last-supper-four-cups.md) leans on the Mishnah's Passover Seder structure.
+Companion to [github.md](github.md) (open Bible data) — this page tracks sources for **Jewish literature outside the Bible itself**: the Mishnah, Talmud, and related rabbinic material that supplies historical/cultural background for a study (see the develop-bible-study skill's Phase 2), the way [the Last Supper study](../feasts/last-supper-four-cups.md) leans on the Mishnah's Passover Seder structure.
 
 ## Sefaria
 

@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Nephilim: Sons of God and the Giants of Genesis](../../../studies/prophecy/nephilim.md) — 13:25-33
+- [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 13:25-33
 <!-- commentary-index:auto-end -->

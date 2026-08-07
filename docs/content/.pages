@@ -1,0 +1,20 @@
+# Navigation order for the subject taxonomy -- see about/our-taxonomy.md.
+# Without this, awesome-pages sorts alphabetically and opens the site on
+# christian-life, scattering the doctrinal teaching order.
+# salvation and biblical-figures are defined in the taxonomy but have no content
+# yet; add them here when their directories are created.
+nav:
+  - index.md
+  - scripture
+  - god
+  - jesus
+  - spiritual-beings
+  - sin
+  - israel-and-church
+  - last-things
+  - feasts
+  - christian-life
+  - commentaries
+  - sermons
+  - resources
+  - about

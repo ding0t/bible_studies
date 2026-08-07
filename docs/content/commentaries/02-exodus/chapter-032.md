@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Jesus, Priest in the Order of Melchizedek](../../../studies/theology/melchizedek-priesthood.md) — 32:26-29
+- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 32:26-29
 <!-- commentary-index:auto-end -->

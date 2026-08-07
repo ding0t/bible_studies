@@ -50,7 +50,7 @@ the same article.
 ## Cautions
 
 This site holds a dispensational view of prophecy (see [Statement of
-Faith](../../about/statement-of-faith.md#end-times)), which classically treats Israel and the
+Faith](../about/statement-of-faith.md#end-times)), which classically treats Israel and the
 Church as distinct programs with distinct promises rather than one interchangeable body — reading
 the Romans 11 olive tree, for instance, as a single root supporting two distinguishable kinds of
 branches rather than one undifferentiated tree, and reserving Israel's specific, unconditional land
@@ -68,5 +68,5 @@ have to be read together, not selectively — rather than resolved by picking a 
 - Eddie Chumney, *Who is the Bride of Christ?*
 - [Hebrew Roots of Christianity](hebrew-roots.md) — this site's broader notes on Chumney's
   teaching, with its own cautions
-- [Statement of Faith](../../about/statement-of-faith.md#end-times) — this site's dispensational
+- [Statement of Faith](../about/statement-of-faith.md#end-times) — this site's dispensational
   framework

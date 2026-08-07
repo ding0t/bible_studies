@@ -20,5 +20,21 @@ Sermon notes and presentation material.
 
     [:octicons-arrow-right-24: Read](dispensational.md)
 
+-   __On Teaching__
+
+    ---
+
+    Biblical principles for laypersons teaching in the church
+
+    [:octicons-arrow-right-24: Read](on-teaching.md)
+
+-   __Sermon Principals__
+
+    ---
+
+    Principles and guidelines for writing and delivering biblical sermons
+
+    [:octicons-arrow-right-24: Read](sermon-howto.md)
+
 </div>
 <!-- section-index:auto-end -->

@@ -1,7 +1,7 @@
 slug: "rapture"
 title: "The Rapture of the Church"
 status: published
-target_path: "docs/content/studies/prophecy/rapture.md"
+target_path: "docs/content/last-things/rapture.md"
 
 primary_passage: "1 Thessalonians 4:15-18"
 supporting_passages:
@@ -41,7 +41,7 @@ stages:
       - {ref: "trumpet.md", relation: "verified link resolves; also newly cited as this site's own model for apocalyptic-genre imagery-tracing, applied to the millennial-reign section during review"}
     translations_compared: ["ESV", "SBLGNT (Greek, queried directly)"]
     divergences_noted: "None found in the ESV quotations themselves (all 28 verified verbatim against study-notes.db); the substantive finding was mis-description of Greek etymology (bema) and an unengaged counter-reading (apantesis), not translation divergence."
-  drafting: {done: true, file: "docs/content/studies/prophecy/rapture.md"}
+  drafting: {done: true, file: "docs/content/last-things/rapture.md"}
   review:
     done: true
     validated: true

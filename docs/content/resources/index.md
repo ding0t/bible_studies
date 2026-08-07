@@ -12,14 +12,6 @@ External sources, tools, and datasets this project draws on.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
--   __Early New Testament Manuscripts__
-
-    ---
-
-    earlynewtestament.com — English translations of the 83 earliest known New Testament papyri, all dated to AD 300 or earlier
-
-    [:octicons-arrow-right-24: Read](early-new-testament-manuscripts.md)
-
 -   __Open Bible Data on GitHub__
 
     ---
@@ -27,6 +19,22 @@ External sources, tools, and datasets this project draws on.
     Master list of open-license Bible text, manuscript, lexicon, and cross-reference repositories we fork for use in this project, and why.
 
     [:octicons-arrow-right-24: Read](github.md)
+
+-   __Hebrew Alphabet__
+
+    ---
+
+    Introduction to Hebrew letters, pronunciations, and transliterations
+
+    [:octicons-arrow-right-24: Read](hebrew-alphabet.md)
+
+-   __Hebrew Learning Resources__
+
+    ---
+
+    Recommended courses and materials for learning Biblical Hebrew
+
+    [:octicons-arrow-right-24: Read](hebrew-learning-resources.md)
 
 -   __Jewish Literature & Primary Sources__
 

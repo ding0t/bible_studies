@@ -1,0 +1,64 @@
+---
+title: "Scripture"
+category: "other"
+description: "The Bible about itself -- canon, manuscripts, translation, and the archaeology behind the text."
+draft: false
+---
+
+# Scripture
+
+The Bible about itself -- canon, manuscripts, translation, and the archaeology behind the text.
+
+<!-- section-index:auto-start -->
+<div class="grid cards" markdown>
+
+-   __Ancient Texts and Manuscripts__
+
+    ---
+
+    Ancient texts, manuscripts, and inscriptions that validate Scripture
+
+    [:octicons-arrow-right-24: Read](ancient-texts-manuscripts.md)
+
+-   __Archaeological Sites__
+
+    ---
+
+    Archaeological sites that validate Scripture
+
+    [:octicons-arrow-right-24: Read](archaeological-sites.md)
+
+-   __Early New Testament Manuscripts__
+
+    ---
+
+    earlynewtestament.com — English translations of the 83 earliest known New Testament papyri, all dated to AD 300 or earlier
+
+    [:octicons-arrow-right-24: Read](early-new-testament-manuscripts.md)
+
+-   __How to Read the Bible__
+
+    ---
+
+    A practical method for reading Scripture well: what it meant before what it means, in that order
+
+    [:octicons-arrow-right-24: Read](how-to-read-the-bible.md)
+
+-   __Biblical Numerology__
+
+    ---
+
+    Exploring the deliberate numerical patterns and meanings in Scripture
+
+    [:octicons-arrow-right-24: Read](numerology.md)
+
+-   __Bible Translations & Source Texts__
+
+    ---
+
+    The English translations, Hebrew Masoretic witnesses, and Greek New Testament/Septuagint texts this project relies on — strengths, cautions, publication history, and which ones are actually queryable in this repo's own database versus cited from general knowledge.
+
+    [:octicons-arrow-right-24: Read](translations.md)
+
+</div>
+<!-- section-index:auto-end -->

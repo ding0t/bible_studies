@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Genealogy and Times: From Creation to Christ](../../../studies/prophecy/genealogy-times.md) — 11:10-32 (primary passage)
+- [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 11:10-32 (primary passage)
 <!-- commentary-index:auto-end -->

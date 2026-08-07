@@ -19,7 +19,7 @@ deliberate: a priesthood built to outlast Levi's before Levi existed.
 
 ## Key Takeaways
 
-*(This section follows the [Key Takeaways](../../about/key-takeaways.md) format this site is
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is
 prototyping — see that page for what each part is for and why.)*
 
 ### Types & Prophecy
@@ -293,7 +293,7 @@ direct, unqualified identification of Jesus as God in the flesh; that's a real p
 stronger claim than the scroll's own vocabulary requires, since "elohim" is exactly the word Psalm
 82 — the psalm 11Q13 itself just quoted — applies to human judges a few verses on. Separately, this
 site's own reckoning of the Dead Sea Scrolls' 364-day calendar (see
-[The Zadok Calendar](../prophecy/zadok-calendar.md)) follows Dr. Ken Johnson, Th.D. (BibleFacts
+[The Zadok Calendar](../feasts/zadok-calendar.md)) follows Dr. Ken Johnson, Th.D. (BibleFacts
 Ministries), who reads 11Q13's placement of these events as falling one Shemittah after a ninth
 Jubilee in that calendar's own reckoning — a specific chronological claim (landing, on that
 scheme, around AD 32) that is Johnson's own application of the site's chronology to this scroll,
@@ -637,14 +637,14 @@ whose benefits might run out.
   25:13/Deuteronomy 15:2, Isaiah 61:1, Psalm 82:1, Isaiah 52:7, Daniel 9:25) worked through above,
   independently cross-checked verse by verse against this repo's own text database before use; his
   reading of the scroll's chronology (one Shemittah after a ninth Jubilee) is the same claim
-  already cited on this site's [Zadok Calendar](../prophecy/zadok-calendar.md) page and is
+  already cited on this site's [Zadok Calendar](../feasts/zadok-calendar.md) page and is
   attributed to him by name here for the same reason — it is his own chronological framework
   applied to the scroll, not the fragmentary Hebrew text's own explicit wording.
 - **Philo of Alexandria**, *Legum Allegoriae* 3.79-82 — the Logos-allegory reading of Melchizedek,
   consulted via published English translation and secondary discussion.
 - **Flavius Josephus**, *Antiquities of the Jews* 1.10.2 — the historical-king reading and the
   "righteous king" name-gloss, consulted via the Whiston translation.
-- Related study on this site: [Israel and the Church](israel-and-the-church.md) — the dispensational
+- Related study on this site: [Israel and the Church](../israel-and-church/israel-and-the-church.md) — the dispensational
   framework this study's covenant note draws on, applied there to the Israel/Church question rather
   than to priesthood.
 

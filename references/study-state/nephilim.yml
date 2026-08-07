@@ -1,7 +1,7 @@
 slug: "nephilim"
 title: "The Nephilim: Sons of God and the Giants of Genesis"
 status: published
-target_path: "docs/content/studies/prophecy/nephilim.md"
+target_path: "docs/content/spiritual-beings/nephilim.md"
 
 primary_passage: "Genesis 6:1-4"
 supporting_passages: ["Numbers 13:31-33", "Deuteronomy 2:10-11", "Deuteronomy 2:20-21", "Deuteronomy 3:11", "Deuteronomy 9:2", "Joshua 11:21-22", "Joshua 15:13-14", "1 Samuel 17:4", "2 Samuel 21:15-22", "Job 1:6", "Job 38:7", "2 Peter 2:4-5", "Jude 1:6-7", "Jude 1:14-15", "Matthew 24:37-39", "1 Peter 3:18-20"]
@@ -54,7 +54,7 @@ stages:
     divergences_noted: "LXX translates Nephilim as gigantes ('giants') in both its occurrences, and bene-ha-elohim as angeloi in Job but literally huioi tou theou in Genesis -- translator variance across the same Hebrew phrase, reported as an observation about the LXX's own translation choices, not treated as proof of either interpretive camp. WEB and ESV track closely on all cited verses; no meaningful divergence in the Genesis/Numbers text itself."
   drafting:
     done: true
-    file: "docs/content/studies/prophecy/nephilim.md"
+    file: "docs/content/spiritual-beings/nephilim.md"
   review:
     done: true
     validated: true

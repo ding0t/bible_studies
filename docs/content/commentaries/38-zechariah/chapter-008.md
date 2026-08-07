@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Woman with the Issue of Blood](../../../studies/prophecy-fulfilled-in-jesus/woman-suffering-bleeding.md) — 8:23
+- [Woman with the Issue of Blood](../../jesus/woman-suffering-bleeding.md) — 8:23
 <!-- commentary-index:auto-end -->

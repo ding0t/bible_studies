@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 3:3-13 (primary passage)
+- [The Day Is Near](../../last-things/day-is-near.md) — 3:3-13 (primary passage)
 <!-- commentary-index:auto-end -->

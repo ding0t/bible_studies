@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Bible Prophecy Essentials](../../../studies/prophecy/prophecy-essentials.md) — 27:57-60
-- [Prophecy Events and Times](../../../studies/prophecy/prophecy-events-times.md) — 27:45
+- [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 27:57-60
+- [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 27:45
 <!-- commentary-index:auto-end -->

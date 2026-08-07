@@ -1,7 +1,7 @@
 slug: lords-prayer
 title: "The Lord's Prayer: What Jesus Taught Us About How to Pray"
 status: published
-target_path: docs/content/studies/prayer/lords-prayer.md
+target_path: docs/content/christian-life/lords-prayer.md
 
 primary_passage: "Matthew 6:9-13; Luke 11:2-4"
 supporting_passages:
@@ -35,7 +35,7 @@ stages:
       docs/content/studies/spiritual-disciplines/prayer.md notes page, which is left as-is per
       user's choice among AskUserQuestion options -- new top-level category, no migration of the
       old notes). Update 2026-07-23: the old notes page was later moved into this category too, as
-      docs/content/studies/prayer/prayer-as-communion.md -- the two pages now live side by side.
+      docs/content/christian-life/prayer-as-communion.md -- the two pages now live side by side.
       This is the first study in the new section. Scope: full exegesis of both Synoptic
       accounts of the Lord's Prayer (Matthew 6:9-13, within the Sermon on the Mount; Luke 11:2-4,
       within the travel narrative), addressing directly whether these represent one teaching
@@ -209,7 +209,7 @@ stages:
 
   drafting:
     done: true
-    file: docs/content/studies/prayer/lords-prayer.md
+    file: docs/content/christian-life/lords-prayer.md
   review:
     done: true
     validated: false

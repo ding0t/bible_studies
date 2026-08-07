@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Nephilim: Sons of God and the Giants of Genesis](../../../studies/prophecy/nephilim.md) — 6:1-4 (primary passage)
+- [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 6:1-4 (primary passage)
 <!-- commentary-index:auto-end -->

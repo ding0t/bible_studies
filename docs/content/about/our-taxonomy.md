@@ -17,11 +17,9 @@ anyone coming from a formal theology background can see the mapping immediately.
 
 !!! note "Status"
 
-    This is the target structure, not yet the live one. Studies are currently still under
-    `studies/<older-section>/`, and commentaries under `bible/commentaries/`. The section list
-    below is the definition; where a page's current location disagrees, the page is what's out of
-    date, not this page. Links on this page point at where things live *today*, so they resolve —
-    they get rewritten with everything else when the migration runs.
+    This is the live structure as of August 2026. Everything previously under `studies/` and
+    `bible/` was moved here, and the old URLs still resolve — every pre-migration address
+    redirects to its new home, so old links and bookmarks keep working.
 
 ---
 
@@ -206,7 +204,7 @@ Tags do **not** repeat what the directory already says. A study in **Last things
 Subject is not the only way in. Every study declares the passage it is about
 (`primary_passage`) and the passages it cites (`bible_references`), and
 `references/build/commentary_index.py` uses those to generate cross-links from every affected
-chapter under [Commentaries](../bible/commentaries/index.md). A reader who arrives at Deuteronomy 18
+chapter under [Commentaries](../commentaries/index.md). A reader who arrives at Deuteronomy 18
 will find the studies treating it, regardless of which subject folder they were filed in.
 
 This is the most reliable part of the system, and the reason is worth stating: it is *derived* rather

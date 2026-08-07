@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Jesus, Priest in the Order of Melchizedek](../../../studies/theology/melchizedek-priesthood.md) — 10:34-36
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 10:20-21
+- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 10:34-36
 <!-- commentary-index:auto-end -->

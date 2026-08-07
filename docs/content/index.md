@@ -25,7 +25,7 @@ seven centuries before Bethlehem. When Jesus claimed to *be* that way, he wasn't
 metaphor; he was closing a very old one. His earliest followers heard it that way too: before
 anyone called them Christians, they called themselves the Way — Greek **ὁδός** (*hodos*), the
 ordinary word for a road (Acts 9:2). That's this site's name, and its subject. See the
-[full word study](studies/theology/the-way.md) for how it traces from Isaiah's "way of the LORD"
+[full word study](jesus/the-way.md) for how it traces from Isaiah's "way of the LORD"
 through John 14:6 and into the book of Acts.
 
 These are personal bible study notes to help make sure I learn, and share that learning.
@@ -50,11 +50,11 @@ I don't hold this faith blindly, and I don't think you have to either.
 
 **Creation testifies.** The order, fine-tuning, and sheer existence of the universe point to a Creator, not an accident — "the heavens declare the glory of God" ([Psalm 19:1 (ESV)](https://www.blueletterbible.org/esv/Psa/19/1)), and what can be known of God is plain from what He made ([Romans 1:20 (ESV)](https://www.blueletterbible.org/esv/Rom/1/20)). See how I understand the [creation account itself](about/statement-of-faith.md#creation).
 
-**Archaeology testifies.** Discoveries in the ground keep confirming, not undermining, the biblical record — see [Ancient Texts, Manuscripts, and Inscriptions Validating Scripture](studies/archeology/ancient-texts-manuscripts.md) for specific examples, the Dead Sea Scrolls among them.
+**Archaeology testifies.** Discoveries in the ground keep confirming, not undermining, the biblical record — see [Ancient Texts, Manuscripts, and Inscriptions Validating Scripture](scripture/ancient-texts-manuscripts.md) for specific examples, the Dead Sea Scrolls among them.
 
-**The documents themselves testify.** The Bible is, by a wide margin, the best-attested document to survive from the ancient world — more manuscripts, closer to the original writing, than any other ancient text we treat as reliable history. That case is laid out in the same [manuscript evidence study](studies/archeology/ancient-texts-manuscripts.md).
+**The documents themselves testify.** The Bible is, by a wide margin, the best-attested document to survive from the ancient world — more manuscripts, closer to the original writing, than any other ancient text we treat as reliable history. That case is laid out in the same [manuscript evidence study](scripture/ancient-texts-manuscripts.md).
 
-**Prophecy testifies.** Scripture named the Messiah's birthplace ([Micah 5:2 (ESV)](https://www.blueletterbible.org/esv/Mic/5/2)), described his execution in the language of crucifixion before crucifixion existed as a method of execution ([Psalm 22:16-18 (ESV)](https://www.blueletterbible.org/esv/Psa/22/16-18)), and said he would suffer and die in the place of others ([Isaiah 53:5 (ESV)](https://www.blueletterbible.org/esv/Isa/53/5)) — all written centuries before Jesus was born, in documents datable well before his lifetime. Daniel even pins down the era itself, counting out the years to the Messiah's coming and being "cut off" ([Daniel 9:25-26 (ESV)](https://www.blueletterbible.org/esv/Dan/9/25-26)); see [Prophecy Events and Times](studies/prophecy/prophecy-events-times.md) for how that count lands on Christ's own ministry. Around 300 such prophecies converge on one person, centuries ahead of the fact — that's not the kind of thing chance, coincidence, or deliberate deception can produce, and it validates Scripture's testimony about Christ from entirely outside his own lifetime. See [Bible Prophecy Essentials](studies/prophecy/prophecy-essentials.md) for the fuller picture.
+**Prophecy testifies.** Scripture named the Messiah's birthplace ([Micah 5:2 (ESV)](https://www.blueletterbible.org/esv/Mic/5/2)), described his execution in the language of crucifixion before crucifixion existed as a method of execution ([Psalm 22:16-18 (ESV)](https://www.blueletterbible.org/esv/Psa/22/16-18)), and said he would suffer and die in the place of others ([Isaiah 53:5 (ESV)](https://www.blueletterbible.org/esv/Isa/53/5)) — all written centuries before Jesus was born, in documents datable well before his lifetime. Daniel even pins down the era itself, counting out the years to the Messiah's coming and being "cut off" ([Daniel 9:25-26 (ESV)](https://www.blueletterbible.org/esv/Dan/9/25-26)); see [Prophecy Events and Times](last-things/prophecy-events-times.md) for how that count lands on Christ's own ministry. Around 300 such prophecies converge on one person, centuries ahead of the fact — that's not the kind of thing chance, coincidence, or deliberate deception can produce, and it validates Scripture's testimony about Christ from entirely outside his own lifetime. See [Bible Prophecy Essentials](last-things/prophecy-essentials.md) for the fuller picture.
 
 **Christianity does not rest on my good works.** I am not saved because I was good enough — no one is. I am saved by the grace of God in Christ, full stop ([Ephesians 2:8-9 (ESV)](https://www.blueletterbible.org/esv/Eph/2/8-9)) — see [Salvation](about/statement-of-faith.md#salvation) for the fuller statement.
 
@@ -62,7 +62,7 @@ I don't hold this faith blindly, and I don't think you have to either.
 
 ## Explore
 
-- **[The Way](studies/theology/the-way.md)** — the word study behind this site's name: *hodos* from its Old Testament roots to Jesus's claim in John 14:6 and the name believers wore in Acts.
+- **[The Way](jesus/the-way.md)** — the word study behind this site's name: *hodos* from its Old Testament roots to Jesus's claim in John 14:6 and the name believers wore in Acts.
 - **[Prophetic Timeline](timeline/)** — key events across biblical history in both Gregorian and Zadok calendars.
 - **[Genealogy Viewer](genealogy/)** — trace the lineage from Adam through Jesus.
 - **[Statement of Faith](about/statement-of-faith.md)** — what I believe, and why, built out one doctrine at a time with Scripture behind each.
@@ -70,11 +70,11 @@ I don't hold this faith blindly, and I don't think you have to either.
 ## Recently updated
 
 <!-- recent-updates-teaser:auto-start -->
-- **[Charting End Times](studies/prophecy/prophecy-chart.md)** — :material-update: Updated 2026-08-07
-- **[Bible Prophecy Essentials](studies/prophecy/prophecy-essentials.md)** — :material-new-box: New 2026-08-07
-- **[The Rapture of the Church](studies/prophecy/rapture.md)** — :material-update: Updated 2026-08-07
-- **[What Creation Declares: General Revelation in Romans 1:19-23](studies/theology/creation-reveals-the-creator.md)** — :material-new-box: New 2026-08-06
-- **[The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](studies/prophecy-fulfilled-in-jesus/woman-issue-of-blood-faith-and-access.md)** — :material-update: Updated 2026-08-04
+- **[Prayer](christian-life/prayer-as-communion.md)** — :material-update: Updated 2026-08-07
+- **[The Lord's Prayer: What Jesus Taught Us About How to Pray](christian-life/lords-prayer.md)** — :material-update: Updated 2026-08-07
+- **[Be Prepared](christian-life/be-prepared.md)** — :material-update: Updated 2026-08-07
+- **[Fasting](christian-life/fasting.md)** — :material-update: Updated 2026-08-07
+- **[Sermon Principals](sermons/sermon-howto.md)** — :material-update: Updated 2026-08-07
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) list for more.

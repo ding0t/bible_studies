@@ -1,7 +1,7 @@
 slug: "dreams-and-visions"
 title: "Dreams and Visions: Godly and Otherwise"
 status: review
-target_path: "docs/content/studies/theology/dreams-and-visions/index.md"
+target_path: "docs/content/god/dreams-and-visions/index.md"
 
 primary_passage: "Genesis 37:5-11; Genesis 40-41; Daniel 2; Deuteronomy 13:1-5; Jeremiah 23:25-32"
 supporting_passages:
@@ -33,7 +33,7 @@ stages:
       item entirely. File-layout decision: since mkdocs-awesome-pages nav is generated from directory
       structure and this site's convention for a single study is a flat file (e.g.
       studies/theology/melchizedek-priesthood.md), literal nesting requires converting this study
-      into a directory: docs/content/studies/theology/dreams-and-visions/index.md (the study itself)
+      into a directory: docs/content/god/dreams-and-visions/index.md (the study itself)
       + docs/content/studies/theology/dreams-and-visions/personal-examples/ (the 3 relocated entries
       + an index.md disclaimer page, following the same auto-generated-grid pattern
       section_index.py already uses for docs/content/studies/spiritual-disciplines/index.md etc).
@@ -120,7 +120,7 @@ stages:
       section per the skill's own "only where it earned one" guidance.
   drafting:
     done: true
-    file: "docs/content/studies/theology/dreams-and-visions/index.md"
+    file: "docs/content/god/dreams-and-visions/index.md"
   review:
     done: false
     validated: true

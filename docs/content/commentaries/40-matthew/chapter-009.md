@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](../../../studies/prophecy-fulfilled-in-jesus/woman-issue-of-blood-faith-and-access.md) — 9:18-26
-- [Woman with the Issue of Blood](../../../studies/prophecy-fulfilled-in-jesus/woman-suffering-bleeding.md) — 9:20-22
+- [The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](../../jesus/woman-issue-of-blood-faith-and-access.md) — 9:18-26
+- [Woman with the Issue of Blood](../../jesus/woman-suffering-bleeding.md) — 9:20-22
 <!-- commentary-index:auto-end -->

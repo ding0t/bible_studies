@@ -1,7 +1,7 @@
 slug: "prophecy-essentials"
 title: "Bible Prophecy Essentials"
 status: published
-target_path: "docs/content/studies/prophecy/prophecy-essentials.md"
+target_path: "docs/content/last-things/prophecy-essentials.md"
 
 primary_passage: "Luke 24:27"
 supporting_passages:
@@ -20,7 +20,7 @@ stages:
     done: true
     notes: >
       Framework/teaching overview, not a single-passage exegesis. Existing file
-      (docs/content/studies/prophecy/prophecy-essentials.md) was already draft:false but a thin
+      (docs/content/last-things/prophecy-essentials.md) was already draft:false but a thin
       bullet outline predating this skill. Rewriting in full. Deliberately a hub that links out to
       this site's existing deep-dive studies (rapture.md, day-is-near.md, prophecy-events-times.md,
       prophecy-chart.md) rather than re-deriving their content, per user's "short study" framing.
@@ -118,7 +118,7 @@ stages:
       was verified to follow the LXX/pierced reading rather than the bare MT consonants.
   drafting:
     done: true
-    file: "docs/content/studies/prophecy/prophecy-essentials.md"
+    file: "docs/content/last-things/prophecy-essentials.md"
   review:
     done: false
     validated: false

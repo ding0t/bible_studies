@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Way](../../../studies/theology/the-way.md) — 12:31
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 12:1-11
+- [The Way](../../jesus/the-way.md) — 12:31
 <!-- commentary-index:auto-end -->

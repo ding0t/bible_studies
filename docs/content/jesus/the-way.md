@@ -24,7 +24,7 @@ followers wore before anyone called them anything else.
 
 ## Key Takeaways
 
-*(This section follows the [Key Takeaways](../../about/key-takeaways.md) format this site is
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is
 prototyping — see that page for what each part is for and why.)*
 
 ### Types & Prophecy

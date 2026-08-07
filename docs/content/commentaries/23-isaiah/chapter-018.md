@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Trumpet Call of God](../../../studies/prophecy/trumpet.md) — 18:3
+- [The Trumpet Call of God](../../last-things/trumpet.md) — 18:3
 <!-- commentary-index:auto-end -->

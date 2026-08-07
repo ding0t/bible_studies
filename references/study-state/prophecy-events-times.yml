@@ -1,7 +1,7 @@
 slug: prophecy-events-times
 title: "Prophecy Events and Times"
 status: published
-target_path: docs/content/studies/prophecy/prophecy-events-times.md
+target_path: docs/content/last-things/prophecy-events-times.md
 
 primary_passage: "Daniel 9:24-27"
 supporting_passages:
@@ -137,7 +137,7 @@ stages:
       in the draft rather than picking one silently.
   drafting:
     done: true
-    file: docs/content/studies/prophecy/prophecy-events-times.md
+    file: docs/content/last-things/prophecy-events-times.md
   review:
     done: true
     validated: true # app/scripts/validate-content.js was broken (stale docs/content path from

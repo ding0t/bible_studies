@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Bible Prophecy Essentials](../../../studies/prophecy/prophecy-essentials.md) — 5:9
-- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 5:9
+- [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 5:9
+- [The Rapture of the Church](../../last-things/rapture.md) — 5:9
 <!-- commentary-index:auto-end -->

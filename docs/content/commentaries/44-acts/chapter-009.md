@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Way](../../../studies/theology/the-way.md) — 9:2 (primary passage)
+- [The Way](../../jesus/the-way.md) — 9:2 (primary passage)
 <!-- commentary-index:auto-end -->

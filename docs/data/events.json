@@ -1,19 +1,19 @@
 [
   {
-    "slug": "studies/prophecy-fulfilled-in-jesus/woman-at-well",
+    "slug": "jesus/woman-at-well",
     "title": "The woman at the well",
     "description": "Brief description of the page content",
     "tags": [
       "tag1",
       "tag2"
     ],
-    "category": "prophecy-fulfilled-in-jesus",
+    "category": "jesus",
     "zadok_year": 0,
     "gregorian_year": -4004,
-    "url": "/bible_studies/studies/prophecy-fulfilled-in-jesus/woman-at-well/"
+    "url": "/bible_studies/jesus/woman-at-well/"
   },
   {
-    "slug": "studies/prophecy-fulfilled-in-jesus/woman-issue-of-blood-faith-and-access",
+    "slug": "jesus/woman-issue-of-blood-faith-and-access",
     "title": "The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus",
     "description": "A narrative exegesis of Mark 5:25-34: Levitical background, the Markan sandwich structure, and what the touch, power, and healing vocabulary reveal about faith crossing social boundaries",
     "tags": [
@@ -25,13 +25,13 @@
       "word-study",
       "synoptics"
     ],
-    "category": "prophecy-fulfilled-in-jesus",
+    "category": "jesus",
     "zadok_year": 4036,
     "gregorian_year": 32,
-    "url": "/bible_studies/studies/prophecy-fulfilled-in-jesus/woman-issue-of-blood-faith-and-access/"
+    "url": "/bible_studies/jesus/woman-issue-of-blood-faith-and-access/"
   },
   {
-    "slug": "studies/prophecy-fulfilled-in-jesus/woman-suffering-bleeding",
+    "slug": "jesus/woman-suffering-bleeding",
     "title": "Woman with the Issue of Blood",
     "description": "How the healing of the woman with the bleeding issue demonstrates Jesus as the Messiah through the garment fringe motif and Isaiah's prophecies of healing",
     "tags": [
@@ -41,13 +41,13 @@
       "garment-fringe",
       "malachi-4:2"
     ],
-    "category": "prophecy-fulfilled-in-jesus",
+    "category": "jesus",
     "zadok_year": 3988,
     "gregorian_year": 32,
-    "url": "/bible_studies/studies/prophecy-fulfilled-in-jesus/woman-suffering-bleeding/"
+    "url": "/bible_studies/jesus/woman-suffering-bleeding/"
   },
   {
-    "slug": "studies/feasts/last-supper-four-cups",
+    "slug": "feasts/last-supper-four-cups",
     "title": "\"I Will Not Drink Again\": The Last Supper and the Cups of Passover",
     "description": "What the Passover Seder's cup structure reveals about Jesus's vow at the Last Supper not to drink of the fruit of the vine again until the kingdom comes",
     "tags": [
@@ -61,10 +61,10 @@
     "category": "feasts",
     "zadok_year": 4037,
     "gregorian_year": 33,
-    "url": "/bible_studies/studies/feasts/last-supper-four-cups/"
+    "url": "/bible_studies/feasts/last-supper-four-cups/"
   },
   {
-    "slug": "studies/feasts/trumpets",
+    "slug": "feasts/trumpets",
     "title": "Feast of Trumpets: Yom Teruah",
     "description": "A word-study-grounded look at Leviticus 23:23-25's Yom Teruah: what teruah actually means, how the day was kept, and the case for and against its New Testament typology",
     "tags": [
@@ -78,6 +78,6 @@
     "category": "feasts",
     "zadok_year": 4037,
     "gregorian_year": 33,
-    "url": "/bible_studies/studies/feasts/trumpets/"
+    "url": "/bible_studies/feasts/trumpets/"
   }
 ]

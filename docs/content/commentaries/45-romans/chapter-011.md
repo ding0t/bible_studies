@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Israel and the Church](../../../studies/theology/israel-and-the-church.md) — 11:17-24
-- [The Way](../../../studies/theology/the-way.md) — 11:33
+- [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 11:17-24
+- [The Way](../../jesus/the-way.md) — 11:33
 <!-- commentary-index:auto-end -->

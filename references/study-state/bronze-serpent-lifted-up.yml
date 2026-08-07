@@ -1,7 +1,7 @@
 slug: bronze-serpent-lifted-up
 title: "As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man"
 status: published
-target_path: docs/content/studies/prophecy-fulfilled-in-jesus/as-the-snake-was-lifted.md
+target_path: docs/content/jesus/as-the-snake-was-lifted.md
 
 primary_passage: "Numbers 21:4-9; John 3:14-15"
 supporting_passages:
@@ -160,7 +160,7 @@ stages:
       difference, not a textual variant.
   drafting:
     done: true
-    file: docs/content/studies/prophecy-fulfilled-in-jesus/as-the-snake-was-lifted.md
+    file: docs/content/jesus/as-the-snake-was-lifted.md
   review:
     done: true
     validated: false
@@ -169,7 +169,7 @@ stages:
       the lords-prayer study -- not fixed here, out of scope). Verified frontmatter manually
       instead: parses with pyyaml, starts at line 1, title/category/description/tags/draft/
       primary_passage/bible_references all present, description 190 chars. Ran
-      references/build/section_index.py (regenerated docs/content/bible/commentaries/index.md and
+      references/build/section_index.py (regenerated docs/content/commentaries/index.md and
       docs/content/sermons/index.md -- the old sermon stub is gone from the sermons grid, and
       prophecy-fulfilled-in-jesus/index.md correctly did not need updating yet since this study is
       still draft:true and filtered out) and references/build/commentary_index.py (unchanged at

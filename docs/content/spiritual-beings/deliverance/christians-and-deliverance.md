@@ -44,7 +44,7 @@ Deliverance ministry, as commonly practiced, risks promoting a works-based appro
 
 The whole case for a Christian being able to come under demonic control turns on one word: **δαιμονίζομαι** (*daimonizomai*, pronounced dye-mo-NID-zoh-my, Strong's G1139). Deliverance teaching typically distinguishes "possessed" (which it concedes can't happen to a believer) from "demonized" (which it claims can) — treating these as two different conditions. That distinction isn't in the Greek text. It's a choice of English gloss, not a different Greek word for a lesser condition.
 
-**Where the word comes from.** δαίμων in classical Greek was a fairly neutral term — a divine or semi-divine spirit, not necessarily malevolent. By the time of the Septuagint, the word family had already taken on a sharply negative sense: the "gods" of the pagan nations are called δαιμόνια (Deuteronomy 32:17; Psalm 96:5 LXX), and Second Temple Jewish literature (1 Enoch, Jubilees — see [The Zadok Calendar](../../studies/prophecy/zadok-calendar.md) for more on this literature) develops a fuller demonology behind that usage. The specific verb form δαιμονίζομαι, though, has little independent history outside the New Testament — its meaning has to be established from how the New Testament itself uses it, not from etymology alone.
+**Where the word comes from.** δαίμων in classical Greek was a fairly neutral term — a divine or semi-divine spirit, not necessarily malevolent. By the time of the Septuagint, the word family had already taken on a sharply negative sense: the "gods" of the pagan nations are called δαιμόνια (Deuteronomy 32:17; Psalm 96:5 LXX), and Second Temple Jewish literature (1 Enoch, Jubilees — see [The Zadok Calendar](../../feasts/zadok-calendar.md) for more on this literature) develops a fuller demonology behind that usage. The specific verb form δαιμονίζομαι, though, has little independent history outside the New Testament — its meaning has to be established from how the New Testament itself uses it, not from etymology alone.
 
 **How the New Testament actually uses it.** The word occurs exactly 13 times in the New Testament — 7 in Matthew, 4 in Mark, 1 in Luke, 1 in John — and nowhere else. Every single occurrence:
 
@@ -148,7 +148,7 @@ Deliverance, biblically, already happened once for all at conversion. It isn't a
 
 The outward signs (shaking, coughing, crying out) that Christians display during deliverance sessions are a real, observed phenomenon — the question is what's producing them, not whether they happen. Given the passivity, suggestion, and expectation built into the process described above, it's worth asking whether these are demonic, or a predictable response to the session's own methods.
 
-Concerningly, it's plausible that Christians can unwittingly wander into practices closer to [sorcery](../../studies/sins/sorcery.md) than to biblical prayer and confession — divination-adjacent diagnostic techniques (naming specific "spirits" by discernment, tracing generational curses) sit uncomfortably close to practices Scripture condemns outright, even when done with sincere Christian intent.
+Concerningly, it's plausible that Christians can unwittingly wander into practices closer to [sorcery](../../sin/sorcery.md) than to biblical prayer and confession — divination-adjacent diagnostic techniques (naming specific "spirits" by discernment, tracing generational curses) sit uncomfortably close to practices Scripture condemns outright, even when done with sincere Christian intent.
 
 ## Conclusion
 

@@ -1,7 +1,7 @@
 slug: "day-is-near"
 title: "The Day Is Near"
 status: published
-target_path: "docs/content/studies/prophecy/day-is-near.md"
+target_path: "docs/content/last-things/day-is-near.md"
 
 primary_passage: "2 Peter 3:3-13"
 supporting_passages:
@@ -91,7 +91,7 @@ stages:
       verses table, no corrections needed to the inherited quotations themselves.
   drafting:
     done: true
-    file: "docs/content/studies/prophecy/day-is-near.md"
+    file: "docs/content/last-things/day-is-near.md"
   review:
     done: true
     validated: true

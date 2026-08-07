@@ -21,7 +21,7 @@ this site's pages can link into directly, section by section.
 
 ## The seven thousand years of human history
 
-![Larkin: The Seven Thousand Years of Human History](../../assets/img/larkin/c07.jpg)
+![Larkin: The Seven Thousand Years of Human History](../assets/img/larkin/c07.jpg)
 
 Larkin maps the creation week itself (Genesis 1:1-2:3) onto human history: six "days," each a
 thousand years, followed by a seventh -- the same "day as a thousand years" reading (2 Peter 3:8)
@@ -58,13 +58,13 @@ six ordinary ages followed by a Sabbath-like millennium -- is argued at length a
 confidence in [The Day Is Near](day-is-near.md). The specific *calendar dates* Larkin's chart prints
 (Eden at 4000 BC, Solomon at 1000 BC, and so on) are not this site's own settled chronology --
 [The Day Is Near](day-is-near.md#when-is-the-year-6000) flags its own creation-epoch arithmetic as an
-open discrepancy against [The Zadok Calendar](zadok-calendar.md) and
+open discrepancy against [The Zadok Calendar](../feasts/zadok-calendar.md) and
 [Bible Chronology & Genealogical Time](genealogy-times.md), and this page doesn't resolve that by
 quietly adopting Larkin's numbers instead.
 
 ## The relation of Jew, Gentile, and Church
 
-![Larkin: The Relation of Jew, Gentile and Church to Each Other](../../assets/img/larkin/c09.jpg)
+![Larkin: The Relation of Jew, Gentile and Church to Each Other](../assets/img/larkin/c09.jpg)
 
 Larkin's second chart answers a different question: how do Israel, the nations, and the Church
 relate to each other across the same timeline, rather than just what order the ages come in. It
@@ -105,6 +105,6 @@ of any one claim on it.
   argued in full.
 - [The Day Is Near](day-is-near.md) -- the six-then-seventh chronological pattern behind the "seven
   thousand years" chart, including this site's own flagged chronology discrepancy.
-- [The Zadok Calendar](zadok-calendar.md) and [Bible Chronology & Genealogical
+- [The Zadok Calendar](../feasts/zadok-calendar.md) and [Bible Chronology & Genealogical
   Time](genealogy-times.md) -- this site's chronology studies, checked against Larkin's printed
   dates above rather than assumed to agree with them.

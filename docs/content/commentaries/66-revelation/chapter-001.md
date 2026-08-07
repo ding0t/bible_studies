@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 1:3
+- [The Day Is Near](../../last-things/day-is-near.md) — 1:3
 <!-- commentary-index:auto-end -->

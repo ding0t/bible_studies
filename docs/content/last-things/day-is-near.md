@@ -18,7 +18,7 @@ John opens Revelation by pronouncing a blessing on the reader before a single se
 
 ## Key Takeaways
 
-*(This section follows the [Key Takeaways](../../about/key-takeaways.md) format this site is prototyping -- see that page for what each part is for and why.)*
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is prototyping -- see that page for what each part is for and why.)*
 
 ### Types & Prophecy
 
@@ -113,7 +113,7 @@ The pattern assembled so far:
 5. Revelation numbers a specific future reign of Christ at exactly a thousand years (Revelation 20:2-7).
 6. With the Lord, "one day is as a thousand years" (2 Peter 3:8) -- a verse about God's patience in Peter's own argument (see [A day like a thousand years](#a-day-like-a-thousand-years) above), extended here as a ratio.
 
-Taking all six together as one shape: six days of ordinary history, each a "thousand years" by 2 Peter 3:8's ratio, followed by a seventh, Sabbath-like millennium matching Revelation 20's numbered reign. On that reading, a literal 6,000 years of human history precede the millennium. This is the same shape [The Zadok Calendar](zadok-calendar.md) traces further back, in 1 Enoch's "Apocalypse of Weeks" (1 Enoch 91-93) dividing all of history into ten 700-year "weeks" toward a 7,000-year total -- an older, independent witness to the same six-then-seventh arithmetic.
+Taking all six together as one shape: six days of ordinary history, each a "thousand years" by 2 Peter 3:8's ratio, followed by a seventh, Sabbath-like millennium matching Revelation 20's numbered reign. On that reading, a literal 6,000 years of human history precede the millennium. This is the same shape [The Zadok Calendar](../feasts/zadok-calendar.md) traces further back, in 1 Enoch's "Apocalypse of Weeks" (1 Enoch 91-93) dividing all of history into ten 700-year "weeks" toward a 7,000-year total -- an older, independent witness to the same six-then-seventh arithmetic.
 
 ```mermaid
 timeline
@@ -130,7 +130,7 @@ timeline
 
 ```
 
-**A flagged inconsistency, not smoothed over.** This timeline's own arithmetic (year 6000 = 2075 AD) implies a creation epoch of roughly 3925 BC -- a different number from the 4004 BC epoch [The Zadok Calendar](zadok-calendar.md) and `references/build/genealogy_chronology.py` use elsewhere on this site, and different again from the Masoretic, Septuagint, and Samaritan Pentateuch genealogical totals compared in [Bible Chronology & Genealogical Time](genealogy-times.md). That page and [Prophecy: Events and Times](prophecy-events-times.md) already flag this specific study's date as the outlier; this section is the matching flag from this study's own side, not a resolution -- reconciling it is tracked as open, unfinished work, not settled by picking whichever number reads best here.
+**A flagged inconsistency, not smoothed over.** This timeline's own arithmetic (year 6000 = 2075 AD) implies a creation epoch of roughly 3925 BC -- a different number from the 4004 BC epoch [The Zadok Calendar](../feasts/zadok-calendar.md) and `references/build/genealogy_chronology.py` use elsewhere on this site, and different again from the Masoretic, Septuagint, and Samaritan Pentateuch genealogical totals compared in [Bible Chronology & Genealogical Time](genealogy-times.md). That page and [Prophecy: Events and Times](prophecy-events-times.md) already flag this specific study's date as the outlier; this section is the matching flag from this study's own side, not a resolution -- reconciling it is tracked as open, unfinished work, not settled by picking whichever number reads best here.
 
 ## Signs of the end of the age
 
@@ -176,6 +176,6 @@ That said, this site's own working chronology ([Charting End Times](prophecy-cha
 - MACULA Greek Linguistic Datasets (SBLGNT) and MACULA Hebrew Linguistic Datasets (WLC), queried via this repo's `references/build/bible-text.db` -- source of all Greek/Hebrew morphology and Strong's numbers cited above.
 - *Theological Wordbook of the Old Testament* (Archer, Harris & Waltke, Moody Publishers) -- TWOT root 2323 for <span dir="rtl">שָׁבַת</span> (*shabat*, "cease").
 - *ESV Study Bible* (Crossway, 2016) -- notes on Hebrews 4:1-13 and 4:8-10, 2 Peter 3:1-13 and 3:8-10, Acts 1:6-11 and 1:11, and Matthew 24:1-14, consulted to check this study's own reading of "rest" and "in the same way" against a standard evangelical commentary.
-- Dr. Ken Johnson, Th.D., [dsscalendar.org](https://dsscalendar.org) -- primary source for 1 Enoch's "Apocalypse of Weeks" six-then-seventh chronology referenced above; see [The Zadok Calendar](zadok-calendar.md) for the fuller treatment.
-- [The Zadok Calendar](zadok-calendar.md), [Bible Chronology & Genealogical Time](genealogy-times.md), and [Prophecy: Events and Times](prophecy-events-times.md) -- this site's related chronology studies; see especially the creation-epoch discrepancy both flag against this study's own timeline.
+- Dr. Ken Johnson, Th.D., [dsscalendar.org](https://dsscalendar.org) -- primary source for 1 Enoch's "Apocalypse of Weeks" six-then-seventh chronology referenced above; see [The Zadok Calendar](../feasts/zadok-calendar.md) for the fuller treatment.
+- [The Zadok Calendar](../feasts/zadok-calendar.md), [Bible Chronology & Genealogical Time](genealogy-times.md), and [Prophecy: Events and Times](prophecy-events-times.md) -- this site's related chronology studies; see especially the creation-epoch discrepancy both flag against this study's own timeline.
 - [Charting End Times](prophecy-chart.md) -- this site's still-under-construction working timeline, source of the 2032 date referenced above.

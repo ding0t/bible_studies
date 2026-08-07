@@ -402,7 +402,7 @@ This study examines ancient texts, manuscripts, inscriptions, and extra-biblical
 
 ---
 
-P52, P46, and P66 above are three of the 83 known New Testament manuscripts dated to AD 300 or earlier. For English translations of all 83 — read what each papyrus actually says, rather than a summary of it — see [Early New Testament Manuscripts](../../resources/early-new-testament-manuscripts.md).
+P52, P46, and P66 above are three of the 83 known New Testament manuscripts dated to AD 300 or earlier. For English translations of all 83 — read what each papyrus actually says, rather than a summary of it — see [Early New Testament Manuscripts](early-new-testament-manuscripts.md).
 
 ---
 

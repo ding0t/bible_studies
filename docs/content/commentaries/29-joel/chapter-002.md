@@ -12,7 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 2:1
-- [Prophecy Events and Times](../../../studies/prophecy/prophecy-events-times.md) — 2:31
-- [The Trumpet Call of God](../../../studies/prophecy/trumpet.md) — 2:1-11
+- [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 2:1
+- [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:31
+- [The Trumpet Call of God](../../last-things/trumpet.md) — 2:1-11
 <!-- commentary-index:auto-end -->

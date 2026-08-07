@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 21:1-4
+- [The Rapture of the Church](../../last-things/rapture.md) — 21:1-4
 <!-- commentary-index:auto-end -->

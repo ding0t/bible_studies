@@ -1,7 +1,7 @@
 slug: bread-of-life-feeding-the-multitudes
 title: "Bread of Life: The Feeding of the 5,000 and the 4,000"
 status: published
-target_path: docs/content/studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md
+target_path: docs/content/jesus/bread-of-life-feeding-the-multitudes.md
 
 primary_passage: "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15; Matthew 15:32-39; Mark 8:1-10"
 supporting_passages:
@@ -36,7 +36,7 @@ stages:
       test exegetically rather than assume: (1) Jesus as the bread of life -- when the crowd returned
       for more bread, he redirected them from perishable food to himself (John 6:26-27); (2) Jesus as
       our manna, tying to the "daily bread" petition already studied in
-      docs/content/studies/prayer/lords-prayer.md -- trust God's day-by-day care rather than craving
+      docs/content/christian-life/lords-prayer.md -- trust God's day-by-day care rather than craving
       unnecessary abundance. Both instincts held up; instinct (2) gained a strong OT anchor the user
       did not name: Numbers 11's craving-for-meat episode at Kibroth-hattaavah ("graves of craving").
       No existing study in this repo covers the feedings or John 6 (grep of docs/content/ found only
@@ -246,7 +246,7 @@ stages:
 
   drafting:
     done: true
-    file: docs/content/studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md
+    file: docs/content/jesus/bread-of-life-feeding-the-multitudes.md
   review:
     done: true
     validated: true
@@ -286,7 +286,7 @@ open_questions:
 resources_consulted:
   - {type: lexicon, title: "bible-text.db (macula-greek-sblgnt, macula-hebrew-wlc, ebible-eng-web, scrollmapper-ASV, ebible-grcbrent)", author: "this repo's build pipeline", note: "All Greek/Hebrew morphology, Strong's numbers, Louw-Nida domains, concordances, and the LXX comparison at Ps 77:24 / Num 27:17. Queried via the bible-references MCP server."}
   - {type: lexicon, title: "TWOT (Theological Wordbook of the Old Testament)", author: "Harris, Archer & Waltke, eds.", note: "Roots 1105a (lechem), 1209/1210 (man -- two roots for the same consonants, corroborating Exod 16:15's wordplay), via the committed twot_strongs_map.json reverse index; bare id/lemma/gloss only."}
-  - {type: other, title: "E. W. Bullinger, Number in Scripture (1894)", author: "E. W. Bullinger", note: "Cited indirectly -- it is the stated source behind the number-symbolism table in this repo's docs/content/hebrew-studies/hebrew-alphabet.md, which the numbers section defers to rather than inventing its own scheme. Public domain."}
+  - {type: other, title: "E. W. Bullinger, Number in Scripture (1894)", author: "E. W. Bullinger", note: "Cited indirectly -- it is the stated source behind the number-symbolism table in this repo's docs/content/resources/hebrew-alphabet.md, which the numbers section defers to rather than inventing its own scheme. Public domain."}
   - {type: other, title: "ESV (verse text)", author: "Crossway", note: "Queried from study-notes.db on /Volumes/media/bible (work_id='esv-study-bible', license_tier 'quotation-only'). Used to verify every ESV quotation in the draft -- see esv_verification above for the three errors this caught. Requires dangerouslyDisableSandbox for sqlite3 access."}
   - {type: commentary, title: "ESV Study Bible", author: "Crossway (2016)", note: "Consulted LAST, per the skill's commentaries-after-exegesis rule, as a check on conclusions already reached. Confirmed independently: Num 27:17/Ezek 34 shepherd background, Ps 23:2 echo, 200 denarii = 200 days' wages, Elisha 2 Kgs 4:42-44 parallel with leftovers. Contributed one thing the exegesis had missed -- the Exod 18:21,25 'hundreds and fifties' Mosaic-administration link at Mark 6:40, verified against the Hebrew/WEB text before adding. Cited in the study's References section; synthesized, not quoted at length."}
   - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan (2016), ed. John H. Walton & Craig S. Keener", note: "Also consulted last. Contributed the Herod's-banquet-vs-Jesus's-banquet literary contrast (Mark 6:21 feast for nobles ending in John's execution, immediately preceding the feeding) and confirmed green grass = springtime, corroborating John 6:4's Passover dating. Both added to the draft with attribution."}

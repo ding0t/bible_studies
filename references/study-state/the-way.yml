@@ -1,7 +1,7 @@
 slug: "the-way"
 title: "The Way"
 status: published
-target_path: "docs/content/studies/theology/the-way.md"
+target_path: "docs/content/jesus/the-way.md"
 
 primary_passage: "John 14:6; Acts 9:2"
 supporting_passages:
@@ -130,7 +130,7 @@ stages:
       resonance, not a linguistic fact.
   drafting:
     done: true
-    file: "docs/content/studies/theology/the-way.md"
+    file: "docs/content/jesus/the-way.md"
   review:
     done: true
     validated: true

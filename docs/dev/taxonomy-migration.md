@@ -4,7 +4,25 @@ Moving `docs/content/` to the structure defined in
 [Our Taxonomy](../content/about/our-taxonomy.md): subject sections at the top level, named from the
 systematic-theology loci, with `studies/` and `bible/` dissolved.
 
-**Not started.** This is the plan, not a record of work done.
+**Done, 2026-08-07.** Kept as the record of what was changed and why. Phase 4 (tag re-faceting) is
+the one part deliberately not executed — see [Phase 4](#phase-4--tags).
+
+What actually happened, against the plan:
+
+- All 346 files moved as mapped. `salvation/` and `biblical-figures/` were **not** created — no
+  content belongs to them yet, per the taxonomy's own rule.
+- The 12 container `index.md` files were all pure boilerplate, so all were deleted and regenerated.
+- **The link-rewrite needed two passes.** The first resolved each link against the file's *new*
+  directory; links are written against the *old* one, so files that had moved were silently
+  skipped. The second pass resolves against each file's pre-migration location (recovered from
+  git's rename detection), maps, then re-emits relative to the new location. `mkdocs build
+  --strict` caught the miss.
+- Four image links and four links to now-deleted container indexes needed hand-fixing; neither
+  category was in the plan. Image links were missed because the rewrite only handled `.md` targets.
+- `assets/stylesheets/enumerate-headings.css` was found to be unscoped and is deliberately still
+  not loaded — see the note in `mkdocs.yml`.
+- 346 redirects generated and verified to emit.
+- 19 `references/study-state/*.yml` pointers updated to the new paths.
 
 ---
 

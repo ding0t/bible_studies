@@ -117,7 +117,7 @@ but one that only makes sense *because* of this study's specific content. If the
 established that Christ "always lives to make intercession," the prayer responds to *that*, not to
 a general request for blessing.
 
-Structure it the way [The Lord's Prayer](../studies/prayer/lords-prayer.md) study draws out from
+Structure it the way [The Lord's Prayer](../christian-life/lords-prayer.md) study draws out from
 Jesus's own model: **relationship and God's character first, request second.** "Our Father" comes
 before a single petition is made, and the first three petitions in that prayer concern God himself
 — his name, his kingdom, his will — before the prayer ever turns to daily bread, forgiveness, or
@@ -142,6 +142,6 @@ through afterward.
 ## Status
 
 This is a prototype, first built out on [Jesus, Priest in the Order of
-Melchizedek](../studies/theology/melchizedek-priesthood.md). Expect the shape of this page and the
+Melchizedek](../jesus/melchizedek-priesthood.md). Expect the shape of this page and the
 studies using it to keep changing as it gets tried against more studies — this page will be updated
 as that happens, not left to drift out of sync with what studies actually do.

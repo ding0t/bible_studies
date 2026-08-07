@@ -84,7 +84,7 @@ text itself, morphology, lemmas, Strong's numbers, Louw-Nida/SDBH semantic domai
 and coreference, cross-references, and four complete public-domain English translations — is open. This
 is also the only tier committed into the repo (as `references/open-data/` submodules), so it's the tier
 a reader could go pull and check themselves without asking anyone's permission. [Bible Translations &
-Source Texts](../bible/translations.md) is the deep dive on this slice specifically — translation
+Source Texts](../scripture/translations.md) is the deep dive on this slice specifically — translation
 philosophy, textual-criticism tradeoffs, and a per-edition tracking table for every English translation,
 Hebrew witness, and Greek New Testament text this site draws on, English translations included.
 
@@ -118,7 +118,7 @@ tools to go check it yourself are documented on
 
 ## See also
 
-- [Bible Translations & Source Texts](../bible/translations.md) — the per-edition deep dive on every
+- [Bible Translations & Source Texts](../scripture/translations.md) — the per-edition deep dive on every
   English translation, Hebrew witness, and Greek New Testament text, including which are queryable and
   which are cited from general knowledge
 - [Copyright & Scripture Permissions](copyright.md) — the publishers' own required notices

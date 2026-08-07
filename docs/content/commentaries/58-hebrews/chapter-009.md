@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Jesus, Priest in the Order of Melchizedek](../../../studies/theology/melchizedek-priesthood.md) — 9:11-28
-- [The Way](../../../studies/theology/the-way.md) — 9:8
+- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 9:11-28
+- [The Way](../../jesus/the-way.md) — 9:8
 <!-- commentary-index:auto-end -->

@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Way](../../../studies/theology/the-way.md) — 3:16-17
-- [What Creation Declares: General Revelation in Romans 1:19-23](../../../studies/theology/creation-reveals-the-creator.md) — 3:11
+- [The Way](../../jesus/the-way.md) — 3:16-17
+- [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 3:11
 <!-- commentary-index:auto-end -->

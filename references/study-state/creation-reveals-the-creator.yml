@@ -1,7 +1,7 @@
 slug: "creation-reveals-the-creator"
 title: "What Creation Declares: General Revelation in Romans 1:19-23"
 status: published
-target_path: "docs/content/studies/theology/creation-reveals-the-creator.md"
+target_path: "docs/content/god/creation-reveals-the-creator.md"
 
 primary_passage: "Romans 1:19-23"
 supporting_passages:
@@ -114,7 +114,7 @@ stages:
       the text's claim is stable across every major English version.
   drafting:
     done: true
-    file: "docs/content/studies/theology/creation-reveals-the-creator.md"
+    file: "docs/content/god/creation-reveals-the-creator.md"
   review:
     done: true
     validated: true

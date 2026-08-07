@@ -12,8 +12,8 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Bible Prophecy Essentials](../../../studies/prophecy/prophecy-essentials.md) — 20:1-6
-- [Charting End Times](../../../studies/prophecy/prophecy-chart.md) — 20:1-6
-- [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 20:1-7
-- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 20:1-6
+- [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 20:1-6
+- [Charting End Times](../../last-things/prophecy-chart.md) — 20:1-6
+- [The Day Is Near](../../last-things/day-is-near.md) — 20:1-7
+- [The Rapture of the Church](../../last-things/rapture.md) — 20:1-6
 <!-- commentary-index:auto-end -->

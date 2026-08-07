@@ -294,6 +294,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](61-2-peter/)
 
+-   __1 John__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](62-1-john/)
+
 -   __Jude__
 
     ---

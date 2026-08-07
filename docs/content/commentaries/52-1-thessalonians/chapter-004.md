@@ -12,9 +12,9 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 4:15-18 (primary passage)
-- [Bible Prophecy Essentials](../../../studies/prophecy/prophecy-essentials.md) — 4:16-17
-- [Charting End Times](../../../studies/prophecy/prophecy-chart.md) — 4:16-17
-- [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 4:16-17
-- [The Trumpet Call of God](../../../studies/prophecy/trumpet.md) — 4:16-17
+- [The Rapture of the Church](../../last-things/rapture.md) — 4:15-18 (primary passage)
+- [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 4:16-17
+- [Charting End Times](../../last-things/prophecy-chart.md) — 4:16-17
+- [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 4:16-17
+- [The Trumpet Call of God](../../last-things/trumpet.md) — 4:16-17
 <!-- commentary-index:auto-end -->

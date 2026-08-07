@@ -1,7 +1,7 @@
 slug: "sorcery"
 title: "Sin and Sorcery"
 status: review
-target_path: "docs/content/studies/sins/sorcery.md"
+target_path: "docs/content/sin/sorcery.md"
 
 primary_passage: "Deuteronomy 18:9-22"
 supporting_passages:
@@ -188,7 +188,7 @@ stages:
       ESV Micah 5:12 = MT 5:11. Cited by ESV numbering throughout since ESV is the quoted text.
   drafting:
     done: true
-    file: "docs/content/studies/sins/sorcery.md"
+    file: "docs/content/sin/sorcery.md"
     notes: |
       Full rewrite, draft: true pending user review. Added primary_passage and a 33-entry
       bible_references list (the old file had neither, so it was invisible to commentary_index.py).

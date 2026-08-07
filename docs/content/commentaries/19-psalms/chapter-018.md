@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [What Creation Declares: General Revelation in Romans 1:19-23](../../../studies/theology/creation-reveals-the-creator.md) — 18:8
+- [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 18:8
 <!-- commentary-index:auto-end -->

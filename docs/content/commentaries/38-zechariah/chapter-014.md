@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Charting End Times](../../../studies/prophecy/prophecy-chart.md) — 14:4-5
+- [Charting End Times](../../last-things/prophecy-chart.md) — 14:4-5
 <!-- commentary-index:auto-end -->

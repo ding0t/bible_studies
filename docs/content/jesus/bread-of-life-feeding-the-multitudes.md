@@ -141,7 +141,7 @@ by every word that comes from the mouth of the LORD"* (Matt 4:4). Offered a hung
 without being asked. And "give us this day our daily bread" (Matt 6:11; Luke 11:3) turns on
 **ἐπιούσιος** (*epiousios*), the rarest word in the New Testament, whose every proposed derivation
 converges on the same sense — today's sufficiency, not a stockpile (worked through fully in
-[The Lord's Prayer](../prayer/lords-prayer.md)). Its model is the manna, which by design could not be
+[The Lord's Prayer](../christian-life/lords-prayer.md)). Its model is the manna, which by design could not be
 hoarded (Exodus 16:19-20) — and which this chapter has Jesus identify as pointing at himself. After
 John 6, "daily bread" can't be read as only a request for groceries.
 
@@ -320,9 +320,9 @@ does not satisfy?" (Isaiah 55:2); "give me neither poverty nor riches… lest I 
   — likewise consulted last. Source of the Herod's-banquet contrast above, and of the observation that
   green grass places the scene in springtime, corroborating John 6:4's Passover dating.
 - **E. W. Bullinger**, *Number in Scripture* (1894) — the classical source behind the number-symbolism
-  framework this site summarises on its [Hebrew alphabet](../../hebrew-studies/hebrew-alphabet.md)
+  framework this site summarises on its [Hebrew alphabet](../resources/hebrew-alphabet.md)
   page, deferred to rather than duplicated in the numbers section above. Public domain.
-- Related studies on this site: [The Lord's Prayer](../prayer/lords-prayer.md) (the *epiousios* word
+- Related studies on this site: [The Lord's Prayer](../christian-life/lords-prayer.md) (the *epiousios* word
   study), [The Last Supper and the Four Cups](../feasts/last-supper-four-cups.md), and
   [As the Snake Was Lifted Up](as-the-snake-was-lifted.md) (the same shape of argument — an Old
   Testament type that Jesus applies to himself in John's Gospel).

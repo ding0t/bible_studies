@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../../studies/prayer/lords-prayer.md) — 19:23-24
+- [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 19:23-24
 <!-- commentary-index:auto-end -->

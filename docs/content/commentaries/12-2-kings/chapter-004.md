@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Bread of Life: The Feeding of the 5,000 and the 4,000](../../../studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md) — 4:42-44
-- [Prophecy Events and Times](../../../studies/prophecy/prophecy-events-times.md) — 4:23
+- [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 4:42-44
+- [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 4:23
 <!-- commentary-index:auto-end -->

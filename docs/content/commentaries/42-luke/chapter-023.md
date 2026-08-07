@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Prophecy Events and Times](../../../studies/prophecy/prophecy-events-times.md) — 23:44-45
+- [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 23:44-45
 <!-- commentary-index:auto-end -->

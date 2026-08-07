@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 29:1-6
+- [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 29:1-6
 <!-- commentary-index:auto-end -->

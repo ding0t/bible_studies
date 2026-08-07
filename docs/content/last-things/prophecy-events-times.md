@@ -51,7 +51,7 @@ Two conventions matter for everything that follows:
 Two calendars are worth knowing when dating biblical events:
 
 - **The Zadok/Essene calendar** — a 364-day solar calendar (12 x 30 days plus 4 Tekufah days),
-  already covered in depth in [The Zadok Calendar](zadok-calendar.md). This is the calendar behind
+  already covered in depth in [The Zadok Calendar](../feasts/zadok-calendar.md). This is the calendar behind
   this site's own `zadok_year` dating.
 - **The standard rabbinic (lunisolar) calendar** — the one most Jewish and Christian sources mean by
   "the Hebrew calendar" today. Per [Hebrew4Christians' calendar
@@ -423,7 +423,7 @@ back you go.
 ## Israel and the Church
 
 The identity of Israel and the Church is a related but separate theological question from anything
-above — see [Israel and the Church](../theology/israel-and-the-church.md) for that discussion.
+above — see [Israel and the Church](../israel-and-church/israel-and-the-church.md) for that discussion.
 
 ## References & Recommended Reading
 
@@ -441,7 +441,7 @@ above — see [Israel and the Church](../theology/israel-and-the-church.md) for 
 - Edwin R. Thiele, *The Mysterious Numbers of the Hebrew Kings* — the standard modern reconciliation
   of the divided monarchy's regnal data against the Assyrian anchors
 - [Hebrew4Christians: The Hebrew Calendar](https://www.hebrew4christians.com/Holidays/Calendar/calendar.html)
-- [The Zadok Calendar](zadok-calendar.md) and [The Day is Near](day-is-near.md) — this site's other
+- [The Zadok Calendar](../feasts/zadok-calendar.md) and [The Day is Near](day-is-near.md) — this site's other
   chronology studies, with the open discrepancy between them noted above
 - Sacha Stern, *Calendar and Community: A History of the Jewish Calendar, 2nd Century BCE - 10th
   Century CE* — on Hillel II's AD 358-359 fixed calendar and the earlier observation-based system

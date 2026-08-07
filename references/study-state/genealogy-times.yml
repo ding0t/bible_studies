@@ -1,7 +1,7 @@
 slug: genealogy-times
 title: "Genealogy and Times: From Creation to Christ"
 status: published
-target_path: docs/content/studies/prophecy/genealogy-times.md
+target_path: docs/content/last-things/genealogy-times.md
 
 primary_passage: "Genesis 5; Genesis 11:10-32"
 supporting_passages:
@@ -180,7 +180,7 @@ stages:
 
   drafting:
     done: true
-    file: docs/content/studies/prophecy/genealogy-times.md
+    file: docs/content/last-things/genealogy-times.md
   review:
     done: true
     validated: true # npm run validate, frontmatter YAML, and a strict mkdocs build all pass

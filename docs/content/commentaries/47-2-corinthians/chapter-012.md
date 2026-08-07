@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 12:2-4
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 12:7
+- [The Rapture of the Church](../../last-things/rapture.md) — 12:2-4
 <!-- commentary-index:auto-end -->

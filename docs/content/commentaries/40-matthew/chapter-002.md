@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Bible Prophecy Essentials](../../../studies/prophecy/prophecy-essentials.md) — 2:1-6
+- [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 2:1-6
 <!-- commentary-index:auto-end -->

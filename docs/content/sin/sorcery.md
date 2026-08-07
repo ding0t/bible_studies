@@ -17,7 +17,7 @@ whose second half is the promise of Christ.
 
 ## Key Takeaways
 
-*(This section follows the [Key Takeaways](../../about/key-takeaways.md) format this site is
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is
 prototyping — see that page for what each part is for and why.)*
 
 ### Types & Prophecy
@@ -477,7 +477,7 @@ spirits to see whether they are from God… every spirit that confesses that Jes
 the flesh is from God" (1 John 4:1-2). The criterion is doctrinal content. Nothing in the New
 Testament makes an impressive phenomenon evidence of anything, and Deuteronomy 13:1-5 had already
 ruled that a sign coming true settles nothing about its source. See also
-[test the spirits](../spiritual-disciplines/test-the-spirits.md).
+[test the spirits](../spiritual-beings/test-the-spirits.md).
 
 **Power is not the measure.** "Do not rejoice in this, that the spirits are subject to you, but
 rejoice that your names are written in heaven" (Luke 10:20). Jesus said this to disciples who had
@@ -549,7 +549,7 @@ passage points.
 
 - **ESV Bible** (Crossway) — the translation quoted throughout, per this site's conventions. All
   quotations were verified against the ESV text rather than reproduced from memory. See
-  [Copyright](../../about/copyright.md) for the full notice.
+  [Copyright](../about/copyright.md) for the full notice.
 - **MACULA Hebrew Linguistic Datasets (Westminster Leningrad Codex)** and **MACULA Greek Linguistic
   Datasets (SBLGNT)**, Clear Bible — queried through this repo's `references/build/bible-text.db`.
   Source of every Hebrew and Greek form, Strong's number, and occurrence count above, including the
@@ -588,4 +588,4 @@ passage points.
   law, Old Testament narrative, the prophets, Acts, and apocalyptic.
 
 Related studies on this site: [Sin and Idolatry](idolatry.md) ·
-[Test the Spirits](../spiritual-disciplines/test-the-spirits.md)
+[Test the Spirits](../spiritual-beings/test-the-spirits.md)

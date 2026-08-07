@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Way](../../../studies/theology/the-way.md) — 1:76-79
+- [The Way](../../jesus/the-way.md) — 1:76-79
 <!-- commentary-index:auto-end -->

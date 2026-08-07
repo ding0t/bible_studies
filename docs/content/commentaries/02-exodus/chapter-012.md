@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Zadok Calendar](../../../studies/prophecy/zadok-calendar.md) — 12:2
+- [The Zadok Calendar](../../feasts/zadok-calendar.md) — 12:2
 <!-- commentary-index:auto-end -->

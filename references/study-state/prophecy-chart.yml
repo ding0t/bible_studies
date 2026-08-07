@@ -1,7 +1,7 @@
 slug: "prophecy-chart"
 title: "Charting End Times"
 status: published
-target_path: "docs/content/studies/prophecy/prophecy-chart.md"
+target_path: "docs/content/last-things/prophecy-chart.md"
 
 primary_passage: ""
 supporting_passages: ["Genesis 1:1-2:3", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 20:1-6"]
@@ -32,7 +32,7 @@ stages:
       - {ref: "prophecy-essentials.md", relation: "the framework hub this chart page now feeds back into"}
     translations_compared: []
     divergences_noted: "N/A -- no scripture quoted at length on this page; verse references only."
-  drafting: {done: true, file: "docs/content/studies/prophecy/prophecy-chart.md"}
+  drafting: {done: true, file: "docs/content/last-things/prophecy-chart.md"}
   review: {done: false, validated: false}
 
 open_questions:

@@ -15,61 +15,29 @@ way.
 <!-- recent-updates:auto-start -->
 <div class="grid cards" markdown>
 
--   __Charting End Times__
+-   __Prayer__
 
     ---
 
-    Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- plus a mermaid diagram of the same framework.
+    Understanding prayer as communion with God and our identity as His children
 
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../studies/prophecy/prophecy-chart.md)
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../christian-life/prayer-as-communion.md)
 
--   __Bible Prophecy Essentials__
-
-    ---
-
-    A framework for reading biblical prophecy: why it matters, genuine fulfilled prophecies verified against source rather than assumed, and the road still ahead -- Daniel's seventieth week, the rapture, and the millennial reign.
-
-    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](../studies/prophecy/prophecy-essentials.md)
-
--   __The Rapture of the Church__
+-   __The Lord's Prayer: What Jesus Taught Us About How to Pray__
 
     ---
 
-    The blessed hope of the Church: a word study on harpazo, the sequence of end-times events, and the case for a pretribulational rapture
+    An exegetical study of Matthew 6:9-13 and Luke 11:2-4 -- cultural background, Old Testament roots, word studies, and the pattern Jesus gave his disciples for prayer.
 
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../studies/prophecy/rapture.md)
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../christian-life/lords-prayer.md)
 
--   __What Creation Declares: General Revelation in Romans 1:19-23__
-
-    ---
-
-    An exegetical study of Romans 1:19-23 on what creation alone reveals about God, with a look at young-earth arguments from design, the fossil record, and the early universe.
-
-    :material-new-box: New 2026-08-06 · [:octicons-arrow-right-24: Read](../studies/theology/creation-reveals-the-creator.md)
-
--   __The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus__
+-   __Be Prepared__
 
     ---
 
-    A narrative exegesis of Mark 5:25-34: Levitical background, the Markan sandwich structure, and what the touch, power, and healing vocabulary reveal about faith crossing social boundaries
+    Apologetics: preparing believers to defend their faith with gentleness and respect
 
-    :material-update: Updated 2026-08-04 · [:octicons-arrow-right-24: Read](../studies/prophecy-fulfilled-in-jesus/woman-issue-of-blood-faith-and-access.md)
-
--   __Bread of Life: The Feeding of the 5,000 and the 4,000__
-
-    ---
-
-    The two feeding miracles read the way Jesus reads them at Mark 8:19-21 -- what he makes explicit about the sign in John 6, and what the narrative leaves implicit about Jew, Gentile, shepherd, and the wrong way to want bread.
-
-    :material-new-box: New 2026-08-04 · [:octicons-arrow-right-24: Read](../studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md)
-
--   __As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man__
-
-    ---
-
-    An exegetical study of Numbers 21:4-9 and John 3:14-15: how Jesus applies the bronze serpent to his own crucifixion, with word studies tracing 'lifted up' back to Isaiah's Suffering Servant.
-
-    :material-new-box: New 2026-08-04 · [:octicons-arrow-right-24: Read](../studies/prophecy-fulfilled-in-jesus/as-the-snake-was-lifted.md)
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../christian-life/be-prepared.md)
 
 -   __Fasting__
 
@@ -77,87 +45,55 @@ way.
 
     Understanding fasting
 
-    :material-update: Updated 2026-08-04 · [:octicons-arrow-right-24: Read](../studies/spiritual-disciplines/fasting.md)
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../christian-life/fasting.md)
 
--   __The Day Is Near__
-
-    ---
-
-    Why the timing of Christ's return is deliberately hidden, and the six-then-seventh pattern -- creation week, Sabbath, Hebrews' rest, the millennium -- this site reads through 2 Peter 3's 'a day is as a thousand years.'
-
-    :material-update: Updated 2026-08-04 · [:octicons-arrow-right-24: Read](../studies/prophecy/day-is-near.md)
-
--   __The Nephilim: Sons of God and the Giants of Genesis__
+-   __Sermon Principals__
 
     ---
 
-    An exegetical study of Genesis 6:1-4 and Numbers 13:33: who were the Nephilim, what 'sons of God' means, and whether the giant clans of Canaan survived the flood or persist today.
+    Principles and guidelines for writing and delivering biblical sermons
 
-    :material-new-box: New 2026-08-04 · [:octicons-arrow-right-24: Read](../studies/prophecy/nephilim.md)
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sermons/sermon-howto.md)
 
--   __The Trumpet Call of God__
-
-    ---
-
-    What shofar and chatsotsrah meant in ancient Israel, the pattern of divine action a trumpet blast consistently signals across the Old Testament, and how Revelation's seven trumpets escalate that pattern toward the kingdom's arrival.
-
-    :material-update: Updated 2026-08-04 · [:octicons-arrow-right-24: Read](../studies/prophecy/trumpet.md)
-
--   __Feast of Trumpets: Yom Teruah__
+-   __On Teaching__
 
     ---
 
-    A word-study-grounded look at Leviticus 23:23-25's Yom Teruah: what teruah actually means, how the day was kept, and the case for and against its New Testament typology
+    Biblical principles for laypersons teaching in the church
 
-    :material-update: Updated 2026-08-04 · [:octicons-arrow-right-24: Read](../studies/feasts/trumpets.md)
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sermons/on-teaching.md)
 
--   __The Deceiver__
-
-    ---
-
-    A dream about a deceptive evil entity and spiritual discernment
-
-    :material-update: Updated 2026-08-04 · [:octicons-arrow-right-24: Read](../studies/theology/dreams-and-visions/personal-examples/the-deceiver.md)
-
--   __Sleep Paralysis Dreams__
+-   __Hebrew Learning Resources__
 
     ---
 
-    Personal experience with sleep paralysis and spiritual significance
+    Recommended courses and materials for learning Biblical Hebrew
 
-    :material-update: Updated 2026-08-04 · [:octicons-arrow-right-24: Read](../studies/theology/dreams-and-visions/personal-examples/sleep-paralysis.md)
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/hebrew-learning-resources.md)
 
--   __The Monster in the Man__
-
-    ---
-
-    A dream about internal struggle and the human condition
-
-    :material-update: Updated 2026-08-04 · [:octicons-arrow-right-24: Read](../studies/theology/dreams-and-visions/personal-examples/monster-in-man.md)
-
--   __Bible Translations & Source Texts__
+-   __Hebrew Alphabet__
 
     ---
 
-    The English translations, Hebrew Masoretic witnesses, and Greek New Testament/Septuagint texts this project relies on — strengths, cautions, publication history, and which ones are actually queryable in this repo's own database versus cited from general knowledge.
+    Introduction to Hebrew letters, pronunciations, and transliterations
 
-    :material-update: Updated 2026-08-02 · [:octicons-arrow-right-24: Read](../bible/translations.md)
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/hebrew-alphabet.md)
 
--   __Key Takeaways__
-
-    ---
-
-    What the Key Takeaways section at the top of every study is for, the five things it draws out, and the two verses it's built on.
-
-    :material-new-box: New 2026-08-02 · [:octicons-arrow-right-24: Read](key-takeaways.md)
-
--   __Copyright & Scripture Permissions__
+-   __Sin and Idolatry__
 
     ---
 
-    Copyright notices for the Bible translations and reference works quoted on this site, and the terms under which they are used.
+    Understanding idolatry as a primary sin against God
 
-    :material-new-box: New 2026-08-02 · [:octicons-arrow-right-24: Read](copyright.md)
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sin/idolatry.md)
+
+-   __Sin and Sexual Immorality__
+
+    ---
+
+    Biblical perspective on sexual immorality and purity
+
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sin/sexual-immorality.md)
 
 -   __Jesus, Priest in the Order of Melchizedek__
 
@@ -165,7 +101,47 @@ way.
 
     A history of the Melchizedek priesthood from Genesis 14 through Second Temple Judaism, and a word-by-word walk through Hebrews' argument that Jesus fulfills it.
 
-    :material-new-box: New 2026-08-02 · [:octicons-arrow-right-24: Read](../studies/theology/melchizedek-priesthood.md)
+    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/melchizedek-priesthood.md)
+
+-   __The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus__
+
+    ---
+
+    A narrative exegesis of Mark 5:25-34: Levitical background, the Markan sandwich structure, and what the touch, power, and healing vocabulary reveal about faith crossing social boundaries
+
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/woman-issue-of-blood-faith-and-access.md)
+
+-   __The woman at the well__
+
+    ---
+
+    Brief description of the page content
+
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/woman-at-well.md)
+
+-   __Bread of Life: The Feeding of the 5,000 and the 4,000__
+
+    ---
+
+    The two feeding miracles read the way Jesus reads them at Mark 8:19-21 -- what he makes explicit about the sign in John 6, and what the narrative leaves implicit about Jew, Gentile, shepherd, and the wrong way to want bread.
+
+    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/bread-of-life-feeding-the-multitudes.md)
+
+-   __As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man__
+
+    ---
+
+    An exegetical study of Numbers 21:4-9 and John 3:14-15: how Jesus applies the bronze serpent to his own crucifixion, with word studies tracing 'lifted up' back to Isaiah's Suffering Servant.
+
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/as-the-snake-was-lifted.md)
+
+-   __Woman with the Issue of Blood__
+
+    ---
+
+    How the healing of the woman with the bleeding issue demonstrates Jesus as the Messiah through the garment fringe motif and Isaiah's prophecies of healing
+
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/woman-suffering-bleeding.md)
 
 -   __The Way__
 
@@ -173,7 +149,31 @@ way.
 
     A New Testament concordance study of 'the way' (hodos): its Old Testament roots, Jesus's claim in John 14:6, and how believers called themselves the Way before outsiders coined 'Christian.'
 
-    :material-new-box: New 2026-08-02 · [:octicons-arrow-right-24: Read](../studies/theology/the-way.md)
+    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/the-way.md)
+
+-   __Our Taxonomy__
+
+    ---
+
+    How studies on this site are organised: the systematic-theology loci it's based on, the plain-English name used for each section, and the academic term behind it.
+
+    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](our-taxonomy.md)
+
+-   __Israel and the Church__
+
+    ---
+
+    Examining the Hebrew Roots argument that Israel and the Church are the same body, and where that sits against a dispensational reading
+
+    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](../israel-and-church/israel-and-the-church.md)
+
+-   __Hebrew Roots of Christianity__
+
+    ---
+
+    Understanding Christianity's foundation in Old Testament prophecy and Jewish roots
+
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../israel-and-church/hebrew-roots.md)
 
 </div>
 <!-- recent-updates:auto-end -->

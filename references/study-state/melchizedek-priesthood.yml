@@ -1,7 +1,7 @@
 slug: "melchizedek-priesthood"
 title: "Jesus, Priest in the Order of Melchizedek"
 status: published
-target_path: "docs/content/studies/theology/melchizedek-priesthood.md"
+target_path: "docs/content/jesus/melchizedek-priesthood.md"
 
 primary_passage: "Hebrews 7:1-28"
 supporting_passages:
@@ -204,7 +204,7 @@ stages:
       study's quotation.
   drafting:
     done: true
-    file: "docs/content/studies/theology/melchizedek-priesthood.md"
+    file: "docs/content/jesus/melchizedek-priesthood.md"
   review:
     done: true
     validated: true
@@ -297,7 +297,7 @@ resources_consulted:
   - {type: other, title: "11Q13 (11QMelchizedek)", author: "Qumran, Cave 11", note: "Background via web search summarizing published scholarship (otstory.wordpress, Wikipedia 11Q13, journals.sagepub.com) -- not a primary-text translation lookup."}
   - {type: other, title: "Philo, Legum Allegoriae 3.79-82", author: "Philo of Alexandria", note: "Background via web search (earlyjewishwritings.com translation, academia.edu abstract) on the Logos-allegory reading."}
   - {type: other, title: "Josephus, Antiquities of the Jews 1.10.2", author: "Flavius Josephus", note: "Background via web search (intertextual.bible, penelope.uchicago.edu Whiston translation) confirming the historical-king reading and name-etymology gloss."}
-  - {type: other, title: "Dr. Ken Johnson, Th.D. -- BibleFacts Ministries YouTube studies", author: "Ken Johnson", note: "User-supplied raw transcripts at references/biblefacts/ (11qmelchizadek.md, dss-cave1-melchizadek.md, heb11-and-dss-idioms.md) -- same source already cited by name in docs/content/studies/prophecy/zadok-calendar.md. Every specific verse-quotation claim drawn from these (Lev 25:13/Deut 15:2, Isa 61:1, Ps 82:1, Isa 52:7, Dan 9:25) was independently re-verified against this repo's own bible-references MCP tools before use, including confirming the deror (H1865) word-match between Lev 25:10 and Isa 61:1 and the Luke 4:18-19 / John 10:34-36 cross-references. The chronology claim (9th Jubilee + 1 Shemittah = c. AD 32) is used but explicitly attributed to Johnson by name and flagged as his own framework, not the scroll's own wording -- matching zadok-calendar.md's existing editorial discipline."}
+  - {type: other, title: "Dr. Ken Johnson, Th.D. -- BibleFacts Ministries YouTube studies", author: "Ken Johnson", note: "User-supplied raw transcripts at references/biblefacts/ (11qmelchizadek.md, dss-cave1-melchizadek.md, heb11-and-dss-idioms.md) -- same source already cited by name in docs/content/feasts/zadok-calendar.md. Every specific verse-quotation claim drawn from these (Lev 25:13/Deut 15:2, Isa 61:1, Ps 82:1, Isa 52:7, Dan 9:25) was independently re-verified against this repo's own bible-references MCP tools before use, including confirming the deror (H1865) word-match between Lev 25:10 and Isa 61:1 and the Luke 4:18-19 / John 10:34-36 cross-references. The chronology claim (9th Jubilee + 1 Shemittah = c. AD 32) is used but explicitly attributed to Johnson by name and flagged as his own framework, not the scroll's own wording -- matching zadok-calendar.md's existing editorial discipline."}
 last_updated: "2026-07-31"
 
 addendum_2026-07-31:
@@ -424,7 +424,7 @@ addendum_2026-08-02_key_takeaways_prototype:
     labels instead of four. SKILL.md's Phase 7 bullet didn't hardcode "Feel" or any other label
     (it just points to the about page for detail), so no change was needed there.
   followup_prayer_structure_and_order: >
-    User asked to (1) look at docs/content/studies/prayer/lords-prayer.md for lessons on prayer
+    User asked to (1) look at docs/content/christian-life/lords-prayer.md for lessons on prayer
     structure and apply them, and (2) move Prayer to the last subsection of Key Takeaways. Read
     the full Lord's Prayer study -- its own "Key lessons" extract the structural principle
     directly: "Start with relationship, not requests" ("Our Father" precedes any petition) and
@@ -456,7 +456,7 @@ addendum_2026-08-02_key_takeaways_prototype:
     assembled from memory.
   followup_scripture_quote_block_standard: >
     User asked to standardize the site's scripture blockquote format on the pattern already used in
-    docs/content/studies/prophecy-fulfilled-in-jesus/as-the-snake-was-lifted.md (and confirmed also
+    docs/content/jesus/as-the-snake-was-lifted.md (and confirmed also
     in bread-of-life-feeding-the-multitudes.md): "> ✝️ Reference (TRANSLATION)" as the
     blockquote's first line, then a blank ">" line, then verse text with numbers inlined into the
     flowing prose in one continuous blockquote -- replacing this study's own then-current style

@@ -12,8 +12,8 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 15:51-53
-- [Genealogy and Times: From Creation to Christ](../../../studies/prophecy/genealogy-times.md) — 15:22
-- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 15:51-53
-- [The Trumpet Call of God](../../../studies/prophecy/trumpet.md) — 15:51-53
+- [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 15:51-53
+- [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 15:22
+- [The Rapture of the Church](../../last-things/rapture.md) — 15:51-53
+- [The Trumpet Call of God](../../last-things/trumpet.md) — 15:51-53
 <!-- commentary-index:auto-end -->

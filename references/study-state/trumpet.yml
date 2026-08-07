@@ -1,7 +1,7 @@
 slug: "trumpet"
 title: "The Trumpet Call of God"
 status: published
-target_path: "docs/content/studies/prophecy/trumpet.md"
+target_path: "docs/content/last-things/trumpet.md"
 
 primary_passage: "Revelation 8:6-9:21; 11:15-19"
 supporting_passages:
@@ -114,7 +114,7 @@ stages:
     divergences_noted: "No significant translation divergence surfaced worth its own section -- ESV used throughout for all quoted verses, checked against study-notes.db directly rather than recalled."
   drafting:
     done: true
-    file: "docs/content/studies/prophecy/trumpet.md"
+    file: "docs/content/last-things/trumpet.md"
   review:
     done: true
     validated: true
