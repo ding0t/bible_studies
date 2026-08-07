@@ -1,6 +1,6 @@
 ---
 name: review-bible-study
-description: Critically audits an existing study, commentary, or sermon file in docs/content/ -- scripture-quote accuracy, citation accuracy, word studies re-verified against source, claims cross-checked against a commentary, exegesis-context coverage per how-to-read-the-bible.md, and a style-guide pass. Use when the user asks to review, audit, fact-check, critique, double-check, or verify an already-drafted or already-published study -- as opposed to develop-bible-study, which builds a new one.
+description: Critically audits an existing study, commentary, or sermon file in docs/content/ -- scripture-quote accuracy, citation accuracy, word studies re-verified against source, claims cross-checked against a commentary, exegesis-context coverage per how-to-read-the-bible.md, taxonomy placement, frontmatter and tag correctness, and a style-guide pass. Use when the user asks to review, audit, fact-check, critique, double-check, or verify an already-drafted or already-published study -- as opposed to develop-bible-study, which builds a new one.
 ---
 
 # Review a Bible Study
@@ -108,7 +108,7 @@ earlier session) already wrote.
 ## Phase 5 — Context coverage
 
 Run the file against the six questions on
-[how-to-read-the-bible.md](../../../docs/content/bible/how-to-read-the-bible.md), one at a time, marking
+[how-to-read-the-bible.md](../../../docs/content/scripture/how-to-read-the-bible.md), one at a time, marking
 each **covered**, **partial**, or **missing**:
 
 1. Genre identified, and the genre-appropriate lens actually applied (not just named in passing)?
@@ -122,16 +122,52 @@ each **covered**, **partial**, or **missing**:
 
 A study can pass every check in Phases 1–4 — every quote and citation accurate — and still fail this
 phase by skipping straight to application. That is precisely the failure mode
-[how-to-read-the-bible.md](../../../docs/content/bible/how-to-read-the-bible.md) and SKILL.md's "one
+[how-to-read-the-bible.md](../../../docs/content/scripture/how-to-read-the-bible.md) and SKILL.md's "one
 rule that governs everything" exist to catch, so don't skip this phase because the sourcing already
 checked out clean.
 
-## Phase 6 — Style guide pass
+## Phase 6 — Placement, frontmatter & tags
+
+Cheap to check, and the failures are invisible from the page itself — they show up as a study missing
+from an index, or a wrong entry on someone else's page. Definition:
+[our-taxonomy.md](../../../docs/content/about/our-taxonomy.md).
+
+**Placement.** Is the file in the section its subject actually belongs to? Sections are top level —
+`docs/content/<section>/`, no `studies/` wrapper. Check especially for a study parked in a section
+because that is where a *related* study lives rather than because the subject fits. If it genuinely
+belongs in `salvation/` or `biblical-figures/` — the two sections defined but not yet created —
+that is a finding worth raising, not a reason to leave it misfiled.
+
+**Frontmatter.** Flag any of these:
+
+- `primary_passage` or `bible_references` missing — the study is then invisible to
+  `commentary_index.py` and silently under-reports in the cross-reference index.
+- Surviving template placeholders: `tag1`/`tag2`, `"Brief description of the page content"`,
+  `bible_references: ["Genesis 1:1"]`, `zadok_year: 0`, `gregorian_year: -4004`. All five shipped
+  intact on a real published file once. Treat a bogus `gregorian_year` as **Major**: it plants a
+  false entry on the prophetic timeline, and `build-events.js` does not filter drafts, so
+  `draft: true` will not contain it.
+- `draft: false` on a file with no body, or with a `todo:` marker still in it.
+
+**Tags.** Against [docs/content/tags.md](../../../docs/content/tags.md), the live vocabulary:
+
+- Tags that restate the section (`studies`; `prophecy` on a `last-things/` page; `sin` on a `sin/`
+  page). Redundant, and they inflate the index.
+- Facets written flat instead of prefixed — `word-study` rather than `method/word-study`,
+  `hebrew` rather than `lang/hebrew`.
+- A colon in a tag value: `/` is the facet separator and a colon competes with it.
+- Uppercase, spaces, or a near-synonym of an existing tag (`messianic` beside `messianic-prophecy`).
+
+These are **Minor** findings unless a missing `primary_passage` or a false timeline year is involved,
+which are **Major** — both corrupt a generated page elsewhere on the site.
+
+## Phase 7 — Style guide pass
 
 Run [style-guide.md](../develop-bible-study/style-guide.md) against the file: bare intensifiers, grader
 adjectives, narrated-argument phrases, overused contrast rhythm, em-dash density, rule-of-three padding,
 and — the brevity check — sentences that don't survive being deleted. Also confirm the section order
-from SKILL.md Phase 7 (short hook → **Key lessons** → detail → … → References). This phase produces
+from develop-bible-study's Phase 7 (short hook → **Key Takeaways** → detail → … → References & Recommended
+Reading). This phase produces
 **Minor** findings only; a style issue is never as severe as a wrong Bible quote.
 
 ## Reporting

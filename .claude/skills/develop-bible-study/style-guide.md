@@ -99,7 +99,7 @@ The fix, already established elsewhere on this site
 `<span dir="rtl">חֶסֶד</span>` example): wrap the Hebrew glyphs themselves in
 `<span dir="rtl">...</span>`, left unbolded, and keep any bold on the surrounding English lead-in
 text instead — `**Name and city.** Melchizedek — Hebrew מַלְכִּי־צֶדֶק (*malkî-ṣedeq*)...` (from
-[melchizedek-priesthood.md](../../../docs/content/studies/theology/melchizedek-priesthood.md)) is
+[melchizedek-priesthood.md](../../../docs/content/jesus/melchizedek-priesthood.md)) is
 the working pattern: bold the English label, leave the Hebrew itself plain (a `dir="rtl"` span adds
 correct directional isolation on top of that, worth adding whenever the Hebrew sits inline next to
 Latin punctuation like a following parenthesis). Greek doesn't have this problem — bold-wrapping

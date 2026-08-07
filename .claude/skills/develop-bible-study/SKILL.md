@@ -11,9 +11,50 @@ This skill operationalizes the two-task method from Fee & Stuart, *How to Read t
 
 ## Before starting
 
-Ask the user (if not already given): the primary passage or topic, and where it should land in `docs/content/` (check `category` conventions in [docs/CONTENT_GUIDE.md](../../../docs/CONTENT_GUIDE.md)).
+Ask the user (if not already given): the primary passage or topic, and where it should land in `docs/content/` — see **Placement** below, and [docs/content/about/our-taxonomy.md](../../../docs/content/about/our-taxonomy.md) for the full definition.
 
 Create the state file for this study — see **State tracking** below — before doing any research. Update it as you complete each phase; this is what lets the study be picked back up in a later session without re-deriving where you left off.
+
+## Placement — which section, and what to tag
+
+Full definition: [our-taxonomy.md](../../../docs/content/about/our-taxonomy.md). The short version, because getting this wrong is cheap to prevent and annoying to fix once the URL is published.
+
+**Sections are top level.** There is no `studies/` wrapper and no `bible/` — a study goes at `docs/content/<section>/<slug>.md`. Named from the systematic-theology loci in plain English:
+
+| Section | Locus | Takes |
+|---|---|---|
+| `scripture/` | Bibliology | Canon, manuscripts, textual criticism, translation, how to read it, biblical archaeology, extra-biblical texts |
+| `god/` | Theology Proper | God's nature, Trinity, Holy Spirit, creation, revelation (incl. dreams and visions) |
+| `jesus/` | Christology | Who Christ is and what he did; OT prophecy fulfilled in him |
+| `sin/` | Hamartiology | The nature of sin and its particular forms |
+| `spiritual-beings/` | Angelology & Demonology | Angels, demons, Satan, Nephilim, deliverance, discernment of spirits |
+| `israel-and-church/` | Ecclesiology + the dispensational distinction | Covenants, Israel/Church, Hebrew roots |
+| `last-things/` | Eschatology | Rapture, tribulation, millennium, judgment, ordering of events |
+| `feasts/` | *Appointed times* | The feasts and calendars |
+| `christian-life/` | Practical theology | Prayer, fasting, the disciplines |
+| `commentaries/<nn>-<book>/` | — | Book studies and chapter notes, filed by book |
+| `sermons/` | Homiletics | Sermon and teaching material |
+| `resources/` | — | Guides to external material |
+
+**Two sections are defined but not created**: `salvation/` (Soteriology — grace, redemption, assurance, death) and `biblical-figures/` (biography). A section exists when it has content. **If a study genuinely belongs to one of these, say so and create it** — that is the trigger the taxonomy is waiting for, not a reason to file the study somewhere it doesn't fit. Creating one means adding the directory, a line in `SUBJECT_DIRS` in `references/build/commentary_index.py`, a blurb in `SECTION_BLURBS` in `section_index.py`, and an entry in `docs/content/.pages`.
+
+**When a study could sit in two sections**, file it by what it is *most about* and tag the other axis. Dewey's 200s are the tiebreaker — it has already adjudicated most of these (angels and demons are 235, their own subject; apocrypha is 229; calendars and appointed times are 263). Don't invent a new section to resolve a single awkward case.
+
+**Some things are not subjects at all.** *Apologetics*, *typology*, *word study* and *archaeology* are approaches, not topics — a study using them is filed by what it is about and carries the approach as a tag. An apologetics study defending Scripture's reliability is `scripture/`; one arguing from creation is `god/`; one on the resurrection is `jesus/`.
+
+**Tags carry every axis the directory can't.** Four facets use a `/` prefix and render as a real hierarchy (`tags_hierarchy: true` in `mkdocs.yml`):
+
+- `method/word-study`, `method/typology`, `method/archaeology`, `method/textual-criticism`
+- `lang/hebrew`, `lang/greek`
+- `status/investigation` — open inquiry, conclusions not settled
+- `audience/teaching`
+
+Everything else is a plain topic tag: a book, a person, a feast, a concept. Rules that matter:
+
+- **Never tag what the section already says.** No `studies`, no `prophecy` on a `last-things/` page, no `sin` on a `sin/` page. It adds nothing and inflates the tag index.
+- **No colons in tag values** — the facet separator is `/`, and a colon reads as a competing convention (`malachi-4:2` had to be renamed `malachi-4-2`).
+- Lowercase, hyphenated, no spaces. `dead-sea-scrolls`, not `dead sea scrolls` or `Dead Sea Scrolls`.
+- Prefer an existing tag to a near-synonym. Check [docs/content/tags.md](../../../docs/content/tags.md) — the rendered index is the live vocabulary.
 
 ## Phase 1 — Scope & classify
 
@@ -80,8 +121,9 @@ Only now, cross to application:
 
 ## Phase 7 — Draft
 
-- Write the file per [docs/CONTENT_GUIDE.md](../../../docs/CONTENT_GUIDE.md) frontmatter schema (`title`, `category`, `description`, `tags`, `draft: true`, `bible_references`).
-- **Always populate `primary_passage` and `bible_references`.** `references/build/commentary_index.py` reads these to auto-generate the "studies referencing this chapter" cross-links inside `docs/content/bible/commentaries/<book>/`, keyed off exactly the passage(s) this study is centrally about (`primary_passage`, singular or `;`-separated for a multi-account passage like a Gospel parallel) versus what it merely cites in passing (`bible_references`). A study missing both is invisible to that index, not an error, but it means the cross-reference system silently under-reports — don't skip this field the way many of the pre-existing studies did.
+- Write the file per [docs/CONTENT_GUIDE.md](../../../docs/CONTENT_GUIDE.md) frontmatter schema (`title`, `category`, `description`, `tags`, `draft: true`, `bible_references`), into the section chosen under **Placement** above.
+- **Fill every placeholder.** The CONTENT_GUIDE template's example values are `tag1`/`tag2`, `"Brief description of the page content"`, `bible_references: ["Genesis 1:1"]`, `zadok_year: 0`, `gregorian_year: -4004`. A real file on this site shipped with all of those intact and `draft: false` — the effect was an empty published page cross-linked into Genesis 1's commentary and sitting at 4004 BC as the first entry on the prophetic timeline. `zadok_year`/`gregorian_year` are read by `app/scripts/build-events.js`, **which does not filter drafts**, so a bogus year reaches the timeline even on a draft. Omit those two fields entirely unless the study is genuinely dated.
+- **Always populate `primary_passage` and `bible_references`.** `references/build/commentary_index.py` reads these to auto-generate the "studies referencing this chapter" cross-links inside `docs/content/commentaries/<book>/`, keyed off exactly the passage(s) this study is centrally about (`primary_passage`, singular or `;`-separated for a multi-account passage like a Gospel parallel) versus what it merely cites in passing (`bible_references`). A study missing both is invisible to that index, not an error, but it means the cross-reference system silently under-reports — don't skip this field the way many of the pre-existing studies did.
 - Structure: short hook → **Key Takeaways** → historical/literary context → walk-through with original-language notes → theological principle → discussion questions → **References & Recommended Reading**.
 - **Key Takeaways** (prototype, see [docs/content/about/key-takeaways.md](../../../docs/content/about/key-takeaways.md) for the full rationale) replaces the old flat "Key lessons" bullet list with up to five subheadings, in this order, each included only where the study actually earns it — don't force one to fill a slot: **Types & Prophecy** (two related but distinct things, kept apart rather than blended — a **type**, an OT person/object/ritual that patterns Christ or the gospel by *resemblance*, τύπος, e.g. Melchizedek; and a **prophecy**, a direct verbal prediction the passage makes or fulfills, e.g. Psalm 110:4's sworn oracle — a study may have one, both, or neither); **Lessons about Jesus** (the direct Christological conclusions the exegesis established); **Memory verses** (1-3 verses already quoted and cited in the study's own body, pointed back to — not new quotations introduced here); **Be Transformed** (Romans 12:2 made concrete — specific thoughts, attitudes, actions the study calls the reader to examine or change, kept as distinguishable from the exegesis as Phase 5's application already requires); **Prayer**, deliberately last (a short response specific to this study's actual content, structured the way the Lord's Prayer study shows Jesus's own model prayer working — relationship and God's character first, request second — not a generic devotional line). This section still comes up front, before supporting detail — a reader should get the point even if they read no further.
 - Always give the translation used for any quotation (AGENTS.md). This applies per-quote, not just
@@ -97,7 +139,7 @@ Only now, cross to application:
   References section's summary. A review-bible-study pass caught exactly this drift, uncaught
   across a whole section, in an earlier study on this site — see that skill's own findings format
   for what an unlabeled translation switch looks like once someone goes checking.
-- **Scripture quote block format** (standardized across the site — see e.g. [as-the-snake-was-lifted.md](../../../docs/content/studies/prophecy-fulfilled-in-jesus/as-the-snake-was-lifted.md) or [bread-of-life-feeding-the-multitudes.md](../../../docs/content/studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md) as the reference examples). Any block quote of Bible text — not a short inline citation woven into a sentence — follows this exact shape:
+- **Scripture quote block format** (standardized across the site — see e.g. [as-the-snake-was-lifted.md](../../../docs/content/jesus/as-the-snake-was-lifted.md) or [bread-of-life-feeding-the-multitudes.md](../../../docs/content/jesus/bread-of-life-feeding-the-multitudes.md) as the reference examples). Any block quote of Bible text — not a short inline citation woven into a sentence — follows this exact shape:
   ```
   > ✝️ Book Chapter:Verse-Verse (TRANSLATION)
   >
@@ -119,6 +161,22 @@ Only now, cross to application:
 ## Phase 8 — Validate & review
 
 - Run `npm run validate` (see [docs/CONTENT_GUIDE.md](../../../docs/CONTENT_GUIDE.md)) against the new file.
+- Run `mkdocs build --strict` — it is the only check that resolves every internal link, and it fails
+  the build on a broken one. `npm run validate` does not check links.
+
+  ```bash
+  uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin \
+      --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects \
+      mkdocs build --strict --site-dir /tmp/mkcheck
+  ```
+
+  Two things `--strict` cannot see, so check them by eye: links to `/timeline/` or `/genealogy/`
+  (they point outside `docs_dir` to the Astro-served tools, so a wrong `../` depth fails silently),
+  and image paths, which move with the file the same way links do.
+- Re-run the index generators, from `references/build/`:
+  `uv run python commentary_index.py` (picks up the new `primary_passage`/`bible_references`) and
+  `uv run python section_index.py` (adds the study's card to its section landing page). Both skip
+  `draft: true` files, so run them **after** flipping the draft flag, not before.
 - This phase is a light self-check by the same agent who drafted the file — good for catching structural
   and frontmatter mistakes, not a substitute for an independent check. For a critical, adversarial audit
   (scripture re-verified against source, citations spot-checked, word studies re-derived, claims checked
