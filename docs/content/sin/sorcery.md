@@ -5,7 +5,7 @@ description: "Why Scripture forbids sorcery: an exegetical study of Deuteronomy 
 tags: ["sorcery", "witchcraft", "divination", "spiritual-warfare", "method/word-study", "deuteronomy"]
 draft: false
 primary_passage: "Deuteronomy 18:9-22"
-bible_references: ["Exodus 7:8-13", "Exodus 22:18", "Leviticus 19:31", "Leviticus 20:6", "Leviticus 20:27", "Numbers 23:23", "Deuteronomy 13:1-5", "1 Samuel 28:3-25", "1 Chronicles 10:13-14", "2 Kings 21:6", "2 Kings 23:24", "Isaiah 8:19-20", "Isaiah 44:24-26", "Isaiah 47:9-15", "Daniel 2:27-28", "Micah 5:12", "Nahum 3:4", "Malachi 3:5", "Matthew 2:1-12", "Matthew 12:22-32", "Mark 1:32-34", "Luke 10:17-20", "Acts 3:22-23", "Acts 8:9-24", "Acts 13:4-12", "Acts 16:16-18", "Acts 19:11-20", "Galatians 5:19-21", "1 John 4:1-3", "Revelation 9:21", "Revelation 18:23", "Revelation 21:8", "Revelation 22:15"]
+bible_references: ["Genesis 15:16", "Exodus 7:8-13", "Exodus 22:18", "Leviticus 19:31", "Leviticus 20:6", "Leviticus 20:27", "Numbers 23:23", "Deuteronomy 13:1-5", "1 Samuel 28:3-25", "1 Chronicles 10:13-14", "2 Kings 21:6", "2 Kings 23:24", "Isaiah 8:19-20", "Isaiah 44:24-26", "Isaiah 47:9-15", "Daniel 2:27-28", "Micah 5:12", "Nahum 3:4", "Malachi 3:5", "Matthew 2:1-12", "Matthew 12:22-32", "Mark 1:32-34", "Luke 10:17-20", "Acts 3:22-23", "Acts 8:9-24", "Acts 13:4-12", "Acts 16:16-18", "Acts 19:11-20", "Galatians 5:19-21", "1 John 4:1-3", "Revelation 9:21", "Revelation 18:23", "Revelation 21:8", "Revelation 22:15"]
 ---
 
 # Sin and Sorcery
@@ -130,9 +130,11 @@ length precisely to mark off the prophetic role from everything resembling it.
 
 Moses is addressing the generation about to cross into Canaan, and he identifies the practices as
 those of "these nations, which you are about to dispossess" (18:14). Verse 12 makes the same
-practices the stated ground of that dispossession, which is why Genesis 15:16 can speak of the
-Amorites' iniquity reaching its full measure — this is judgment on a specific catalogue of sin, not
-an arbitrary land transfer.
+practices the stated ground of that dispossession. Centuries earlier God had told Abraham his
+descendants would not return for four generations, "for the iniquity of the Amorites is not yet
+complete" (Genesis 15:16) — the dispossession waits on a measure being filled, and Deuteronomy 18:12
+names what was filling it. This is judgment on a specific catalogue of sin, not an arbitrary land
+transfer.
 
 Divination in the ancient Near East was respectable state business, not a fringe pursuit. Kings
 retained diviners the way modern governments retain analysts. Both Cultural Backgrounds Study Bibles
@@ -215,10 +217,17 @@ the finding.
 
 Two are the legal texts themselves (Exodus 22:18; Deuteronomy 18:10). Of the remaining ten, every
 one attaches to a foreign power or to an Israelite importing foreign religion: Egypt's court
-magicians (Exodus 7:11), Jezebel of Sidon (2 Kings 9:22), Manasseh (2 Kings 21:6; 2 Chronicles
-33:6), Babylon (Isaiah 47:9, 12; Daniel 2:2), and Nineveh, twice in one verse (Nahum 3:4). The last
-two are Micah 5:12, where God promises to cut sorceries *out of* Israel, and Malachi 3:5, where he
-comes as a swift witness against sorcerers in judgment.
+magicians (Exodus 7:11), Jezebel of Sidon (2 Kings 9:22), Manasseh (2 Chronicles 33:6), Babylon
+(Isaiah 47:9, 12; Daniel 2:2), and Nineveh, twice in one verse (Nahum 3:4). The last two are Micah
+5:12, where God promises to cut sorceries *out of* Israel, and Malachi 3:5, where he comes as a
+swift witness against sorcerers in judgment.
+
+Manasseh is worth a footnote of his own, because the two accounts of his reign do not use the same
+vocabulary. Kings says he "used fortune-telling and omens and dealt with mediums and with
+necromancers" (2 Kings 21:6) — *ʿānan*, *nāḥaš*, *ʾôb*, *yiddəʿōnî*, four of Deuteronomy 18's nine
+terms, but not this one. Only the Chronicler adds *kāšap* to the list (2 Chronicles 33:6). The
+practices overlap; the words are not interchangeable, and a concordance built on the English
+"sorcery" would merge two verses the Hebrew keeps distinct.
 
 There is no neutral or approved use of this word anywhere in the Old Testament. It is
 lexically marked as something the nations do, and when Israel does it the text presents it as
@@ -306,7 +315,7 @@ cannot recover a dream, and Daniel says so before interpreting it:
 >
 > 27 Daniel answered the king and said, "No wise men, enchanters, magicians, or astrologers can show
 > to the king the mystery that the king has asked, 28 but there is a God in heaven who reveals
-> mysteries, and he has made known to King Nebuchadnezzar what will be in the latter days.
+> mysteries, and he has made known to King Nebuchadnezzar what will be in the latter days. …
 
 Isaiah generalises it into a statement about God's character: he is the one "who frustrates the signs
 of liars and makes fools of diviners… who confirms the word of his servant and fulfills the counsel
@@ -517,6 +526,30 @@ The claims below are the ones the New Testament states directly, each with the t
 The last of these is often built into more than it says. Matthew 12:43 is a single clause inside a
 parable about a generation that reforms without being filled, and the point of the passage is the
 empty house, not a doctrine of demons and water.
+
+## What binds then, and what binds now
+
+Two things in this material are tied to Israel's own moment, and one is not.
+
+**The techniques are dated.** Extispicy, teraphim, reading the stars for a king's campaign — the
+specific crafts Deuteronomy names belonged to an ancient Near Eastern world with its own apparatus.
+Their modern descendants look different. The prohibition was never about the equipment.
+
+**The civil penalties do not carry over.** "You shall not permit a sorceress to live" (Exodus 22:18)
+and "shall surely be put to death" (Leviticus 20:27) are the criminal law of a theocracy — a nation
+whose civil government and covenant worship were the same institution. The church is not that
+nation and has never been given that jurisdiction. The New Testament's own response to sorcery is
+visible and consistent: the practitioners themselves renounce it and burn what they own (Acts
+19:19), and the unrepentant are excluded from the kingdom (Galatians 5:21; Revelation 21:8). Not
+once is the church told to execute anyone. Reading Exodus 22:18 as a standing warrant — which is
+exactly what the witch trials did — takes a statute out of the legal system that gave it force and
+hands it to people who were never given it.
+
+**The prohibition itself carries over completely.** This is the part that does not need argument
+from continuity: Paul and John restate it with none of the theocratic machinery attached. Sorcery
+sits in the works of the flesh (Galatians 5:20) and among those outside the city (Revelation 21:8;
+22:15), addressed to churches scattered across the empire under Roman law. The command survives the
+change of covenant; the penalty was never the church's to carry.
 
 ## Theological principle
 

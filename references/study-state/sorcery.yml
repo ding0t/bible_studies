@@ -240,3 +240,65 @@ resources_consulted:
   - {type: commentary, title: "NLT Life Application Study Bible, Third Edition", author: "Tyndale House, 2019", note: "Consulted on Deut 18:10-13; confirmed the desire-to-control-the-future motive. Application framing noted but not followed — it asserts 'Satan is behind the occult' more flatly than Deut 18 itself argues."}
   - {type: other, title: "How to Read the Bible for All Its Worth", author: "Gordon D. Fee & Douglas Stuart", note: "Methodology only (genre lenses for law, OT narrative, prophets, Acts, apocalyptic), via the develop-bible-study skill."}
 last_updated: "2026-08-07"
+
+review_2026-08-07:
+  reviewer: "agent (SELF-review — same agent that drafted the study; not the independent pass the skill assumes)"
+  file_state_at_review: "draft: false, live"
+  checked:
+    - "Phase 1 — all 7 block quotes and 2 inline quotes re-queried from study-notes.db ESV: all verbatim. 10 cited-but-unquoted claims spot-checked: all support the claim."
+    - "Phase 2 — TWOT roots (1051, 2044, 1348, 37a), Strong's ids, Louw-Nida 53.100/53.99/12.48 all re-verified. 4 internal links resolve. npm run validate clean, no Hebrew-bold error. Copyright: ~19 verses block-quoted across 591 lines, far inside ESV's 1,000-verse/50% caps."
+    - "Phase 3 — concordances re-run, not re-read: kāšap 12 (6 verb + 6 noun), magos 6, ʾôb 16. All confirmed."
+    - "Phase 4 — CSB Ancient Faith has NO note on Deut 18, so no independent commentary exists for the primary passage; reported rather than faked. Cross-checked the most contested claim instead: NLT Life Application (uncited by the study) glosses Gal 5:20 'sorcery' as 'demonic activities' — independent support for the pharmakeia-is-magic reading. No contradictions found anywhere."
+    - "Phase 5 — 5 of 6 context questions covered; Q5 missing (see findings)."
+    - "Phase 6 — placement (sin/, Hamartiology) correct; tags correct and faceted."
+    - "Phase 7 — 2 style-guide hits, both legitimate (ESV quote 'indeed'; 'actually used' as real contrast)."
+  findings:
+    - severity: critical
+      issue: |
+        2 Kings 21:6 was cited as a kāšap occurrence in the distribution paragraph. It is not one.
+        MACULA WLC shows 2 Kgs 21:6 carries ʿānan (H6049), nāḥaš (H5172), ʾôb (H178) and yiddəʿōnî
+        (H3049) — but no kāšap/kešep. The Manasseh kāšap parallel exists only in 2 Chr 33:6.
+        Second-order effect: the paragraph said "the remaining ten" while listing eleven items.
+      cause: |
+        NOT a fabricated verse — a cross-contamination between two concordance result sets run in
+        the same batch. 2 Chronicles 33:6 is the one verse appearing in BOTH the kāšap and the ʾôb
+        lists. 2 Kings 21:6 was in the ʾôb list only. When compressing the kāšap distribution into
+        prose, the conventional Kings//Chronicles synoptic pair for Manasseh was reached for instead
+        of the verified single reference — the wrong citation looked right because 2 Kgs 21:6 // 2
+        Chr 33:6 genuinely ARE parallel accounts of the same king, just not of the same word.
+        The error entered at the synthesis step, not the query step: every individual query was
+        correct. It was then written into THIS state file's MAIN FINDING 1 before reaching the
+        draft, so the research trail confirmed the error rather than catching it. Only re-running
+        the concordance caught it — which is exactly what review Phase 3 mandates.
+      fix: |
+        Removed 2 Kings 21:6 from the kāšap list (count of ten is correct without it) and added a
+        short paragraph making the Kings/Chronicles vocabulary difference the point: the practices
+        overlap, the words do not, and an English-driven concordance on "sorcery" would merge two
+        verses the Hebrew keeps distinct. 2 Kgs 21:6 stays in bible_references — legitimately, since
+        the study now discusses it accurately.
+    - severity: moderate
+      issue: |
+        The cultural-vs-transcultural analysis was done during research (recorded in
+        stages.hermeneutics.cultural_vs_transcultural above) but never reached the published prose.
+        Acute because the study quotes Exodus 22:18's death penalty and addresses only the gender
+        misuse, never saying the civil penalty belongs to Israel's theocratic law and does not pass
+        to the church.
+      fix: |
+        New section "What binds then, and what binds now" before the theological principle: dated
+        techniques, civil penalties that do not carry over (with the witch-trial misuse named
+        explicitly), and the prohibition itself restated in Gal 5:20 / Rev 21:8 with no theocratic
+        machinery attached.
+    - severity: minor
+      issue: "Genesis 15:16 phrasing inverted the verse's polarity ('reaching its full measure' where ESV reads 'is not yet complete')."
+      fix: "Rewritten to quote the verse accurately and make the waiting-on-a-measure point explicitly. Genesis 15:16 added to bible_references."
+    - severity: minor
+      issue: "Daniel 2:28 block quote truncated mid-verse with no ellipsis."
+      fix: "Ellipsis added."
+    - severity: minor
+      issue: "ESV em-dash spacing normalised inside verbatim quotes (brothers—it is → brothers — it is)."
+      fix: "NOT fixed — deliberate. Matches the site-wide em-dash convention; changing it would make this study inconsistent with every other page."
+    - severity: minor
+      issue: "'as the clearest biblical instance' overstates what the ESV Study Bible claims about 2 Kings 3:26-27 — the note cites it without ranking it."
+      fix: "NOT fixed this pass — flagged for a later edit; low impact and the substance is correct."
+  open_questions_added:
+    - "An independent (different-agent) review has still not been run. This pass found one Critical the author's own Phase 8 did not, which is evidence for the skill's own claim that self-review is weaker, not evidence that it is sufficient."
