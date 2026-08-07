@@ -2,7 +2,7 @@
 title: "Zechariah 6"
 category: "bible"
 description: "Commentary and cross-referenced studies for Zechariah chapter 6"
-tags: ["zechariah", "commentary"]
+tags: ["zechariah"]
 draft: false
 ---
 

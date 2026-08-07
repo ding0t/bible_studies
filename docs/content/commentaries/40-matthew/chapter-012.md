@@ -2,7 +2,7 @@
 title: "Matthew 12"
 category: "bible"
 description: "Commentary and cross-referenced studies for Matthew chapter 12"
-tags: ["matthew", "commentary"]
+tags: ["matthew"]
 draft: false
 ---
 

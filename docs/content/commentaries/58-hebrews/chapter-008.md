@@ -2,7 +2,7 @@
 title: "Hebrews 8"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 8"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

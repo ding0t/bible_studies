@@ -2,7 +2,7 @@
 title: "Malachi"
 category: "bible"
 description: "Commentary on Malachi"
-tags: ["malachi", "commentary"]
+tags: ["malachi"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Hebrews 5"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 5"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

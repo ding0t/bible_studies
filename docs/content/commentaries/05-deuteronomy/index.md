@@ -2,7 +2,7 @@
 title: "Deuteronomy"
 category: "bible"
 description: "Commentary on Deuteronomy"
-tags: ["deuteronomy", "commentary"]
+tags: ["deuteronomy"]
 draft: false
 ---
 

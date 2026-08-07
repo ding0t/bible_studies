@@ -2,7 +2,7 @@
 title: "Deuteronomy 8"
 category: "bible"
 description: "Commentary and cross-referenced studies for Deuteronomy chapter 8"
-tags: ["deuteronomy", "commentary"]
+tags: ["deuteronomy"]
 draft: false
 ---
 

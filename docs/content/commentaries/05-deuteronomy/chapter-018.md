@@ -2,7 +2,7 @@
 title: "Deuteronomy 18"
 category: "bible"
 description: "Commentary and cross-referenced studies for Deuteronomy chapter 18"
-tags: ["deuteronomy", "commentary"]
+tags: ["deuteronomy"]
 draft: false
 ---
 

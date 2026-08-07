@@ -2,7 +2,7 @@
 title: "Psalms 19"
 category: "bible"
 description: "Commentary and cross-referenced studies for Psalms chapter 19"
-tags: ["psalms", "commentary"]
+tags: ["psalms"]
 draft: false
 ---
 

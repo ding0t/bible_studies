@@ -2,7 +2,7 @@
 title: "Hebrews"
 category: "bible"
 description: "Commentary on Hebrews"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

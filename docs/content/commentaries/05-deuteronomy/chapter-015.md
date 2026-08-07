@@ -2,7 +2,7 @@
 title: "Deuteronomy 15"
 category: "bible"
 description: "Commentary and cross-referenced studies for Deuteronomy chapter 15"
-tags: ["deuteronomy", "commentary"]
+tags: ["deuteronomy"]
 draft: false
 ---
 

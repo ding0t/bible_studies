@@ -2,7 +2,7 @@
 title: "Ezra 7"
 category: "bible"
 description: "Commentary and cross-referenced studies for Ezra chapter 7"
-tags: ["ezra", "commentary"]
+tags: ["ezra"]
 draft: false
 ---
 

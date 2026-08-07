@@ -2,7 +2,7 @@
 title: "Acts"
 category: "bible"
 description: "Commentary on Acts"
-tags: ["acts", "commentary"]
+tags: ["acts"]
 draft: false
 ---
 

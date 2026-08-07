@@ -2,7 +2,7 @@
 title: "1 Samuel 17"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Samuel chapter 17"
-tags: ["1-samuel", "commentary"]
+tags: ["1-samuel"]
 draft: false
 ---
 

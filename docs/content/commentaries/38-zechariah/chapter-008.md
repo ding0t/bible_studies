@@ -2,7 +2,7 @@
 title: "Zechariah 8"
 category: "bible"
 description: "Commentary and cross-referenced studies for Zechariah chapter 8"
-tags: ["zechariah", "commentary"]
+tags: ["zechariah"]
 draft: false
 ---
 

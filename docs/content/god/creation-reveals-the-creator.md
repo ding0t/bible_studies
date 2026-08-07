@@ -2,7 +2,7 @@
 title: "What Creation Declares: General Revelation in Romans 1:19-23"
 category: "theology"
 description: "An exegetical study of Romans 1:19-23 on what creation alone reveals about God, with a look at young-earth arguments from design, the fossil record, and the early universe."
-tags: ["general-revelation", "romans", "creation", "apologetics", "intelligent-design", "young-earth", "natural-theology", "word-study"]
+tags: ["general-revelation", "romans", "creation", "apologetics", "intelligent-design", "young-earth", "natural-theology", "method/word-study"]
 draft: false
 primary_passage: "Romans 1:19-23"
 bible_references: ["Psalm 19:1-4", "Acts 14:15-17", "Acts 17:24-28", "Job 38:4-7", "Job 40:15-24", "Job 41:1-34", "Isaiah 27:1", "Genesis 1:21", "Psalm 18:8", "Ephesians 2:10", "Colossians 1:15-17", "Hebrews 1:1-3", "Romans 10:14-17", "Romans 3:11"]

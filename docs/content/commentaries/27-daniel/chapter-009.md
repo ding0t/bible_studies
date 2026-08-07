@@ -2,7 +2,7 @@
 title: "Daniel 9"
 category: "bible"
 description: "Commentary and cross-referenced studies for Daniel chapter 9"
-tags: ["daniel", "commentary"]
+tags: ["daniel"]
 draft: false
 ---
 

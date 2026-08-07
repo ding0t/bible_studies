@@ -2,7 +2,7 @@
 title: "Hebrews 10"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 10"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Jeremiah 6"
 category: "bible"
 description: "Commentary and cross-referenced studies for Jeremiah chapter 6"
-tags: ["jeremiah", "commentary"]
+tags: ["jeremiah"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Zephaniah"
 category: "bible"
 description: "Commentary on Zephaniah"
-tags: ["zephaniah", "commentary"]
+tags: ["zephaniah"]
 draft: false
 ---
 

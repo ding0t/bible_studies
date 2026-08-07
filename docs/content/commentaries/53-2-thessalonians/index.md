@@ -2,7 +2,7 @@
 title: "2 Thessalonians"
 category: "bible"
 description: "Commentary on 2 Thessalonians"
-tags: ["2-thessalonians", "commentary"]
+tags: ["2-thessalonians"]
 draft: false
 ---
 

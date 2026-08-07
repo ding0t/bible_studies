@@ -2,7 +2,7 @@
 title: "Acts 24"
 category: "bible"
 description: "Commentary and cross-referenced studies for Acts chapter 24"
-tags: ["acts", "commentary"]
+tags: ["acts"]
 draft: false
 ---
 

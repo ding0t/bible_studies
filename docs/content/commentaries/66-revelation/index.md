@@ -2,7 +2,7 @@
 title: "Revelation"
 category: "bible"
 description: "Commentary on Revelation"
-tags: ["revelation", "commentary"]
+tags: ["revelation"]
 draft: false
 ---
 

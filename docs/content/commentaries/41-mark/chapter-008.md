@@ -2,7 +2,7 @@
 title: "Mark 8"
 category: "bible"
 description: "Commentary and cross-referenced studies for Mark chapter 8"
-tags: ["mark", "commentary"]
+tags: ["mark"]
 draft: false
 ---
 

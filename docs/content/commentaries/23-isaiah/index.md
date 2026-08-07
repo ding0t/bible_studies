@@ -2,7 +2,7 @@
 title: "Isaiah"
 category: "bible"
 description: "Commentary on Isaiah"
-tags: ["isaiah", "commentary"]
+tags: ["isaiah"]
 draft: false
 ---
 

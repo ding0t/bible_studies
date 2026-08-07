@@ -2,7 +2,7 @@
 title: "Ezekiel 36"
 category: "bible"
 description: "Commentary and cross-referenced studies for Ezekiel chapter 36"
-tags: ["ezekiel", "commentary"]
+tags: ["ezekiel"]
 draft: false
 ---
 

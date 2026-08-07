@@ -2,7 +2,7 @@
 title: "Ephesians 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Ephesians chapter 1"
-tags: ["ephesians", "commentary"]
+tags: ["ephesians"]
 draft: false
 ---
 

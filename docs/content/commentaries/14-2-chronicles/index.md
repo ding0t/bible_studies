@@ -2,7 +2,7 @@
 title: "2 Chronicles"
 category: "bible"
 description: "Commentary on 2 Chronicles"
-tags: ["2-chronicles", "commentary"]
+tags: ["2-chronicles"]
 draft: false
 ---
 

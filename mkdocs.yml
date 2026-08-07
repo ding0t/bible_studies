@@ -39,6 +39,12 @@ theme:
 plugins:
   - search
   - awesome-pages
+  # Faceted tags -- see docs/content/about/our-taxonomy.md. Directory carries subject;
+  # tags carry the other axes (method/, lang/, status/, audience/).
+  # tags_hierarchy renders those prefixes as a real hierarchy rather than flat strings.
+  # The index page is docs/content/tags.md, marked with the material/tags directive.
+  - tags:
+      tags_hierarchy: true
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true

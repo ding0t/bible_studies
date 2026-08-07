@@ -2,7 +2,7 @@
 title: "Genesis 10"
 category: "bible"
 description: "Commentary and cross-referenced studies for Genesis chapter 10"
-tags: ["genesis", "commentary"]
+tags: ["genesis"]
 draft: false
 ---
 

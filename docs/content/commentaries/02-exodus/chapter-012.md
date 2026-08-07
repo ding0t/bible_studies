@@ -2,7 +2,7 @@
 title: "Exodus 12"
 category: "bible"
 description: "Commentary and cross-referenced studies for Exodus chapter 12"
-tags: ["exodus", "commentary"]
+tags: ["exodus"]
 draft: false
 ---
 

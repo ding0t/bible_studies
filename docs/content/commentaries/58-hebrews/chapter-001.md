@@ -2,7 +2,7 @@
 title: "Hebrews 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 1"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

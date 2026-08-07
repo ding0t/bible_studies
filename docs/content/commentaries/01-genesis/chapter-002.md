@@ -2,7 +2,7 @@
 title: "Genesis 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Genesis chapter 2"
-tags: ["genesis", "commentary"]
+tags: ["genesis"]
 draft: false
 ---
 

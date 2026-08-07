@@ -2,7 +2,7 @@
 title: "Luke 23"
 category: "bible"
 description: "Commentary and cross-referenced studies for Luke chapter 23"
-tags: ["luke", "commentary"]
+tags: ["luke"]
 draft: false
 ---
 

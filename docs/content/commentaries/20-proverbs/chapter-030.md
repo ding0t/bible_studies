@@ -2,7 +2,7 @@
 title: "Proverbs 30"
 category: "bible"
 description: "Commentary and cross-referenced studies for Proverbs chapter 30"
-tags: ["proverbs", "commentary"]
+tags: ["proverbs"]
 draft: false
 ---
 

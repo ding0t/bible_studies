@@ -2,7 +2,7 @@
 title: "Revelation 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Revelation chapter 2"
-tags: ["revelation", "commentary"]
+tags: ["revelation"]
 draft: false
 ---
 

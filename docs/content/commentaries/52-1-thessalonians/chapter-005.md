@@ -2,7 +2,7 @@
 title: "1 Thessalonians 5"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Thessalonians chapter 5"
-tags: ["1-thessalonians", "commentary"]
+tags: ["1-thessalonians"]
 draft: false
 ---
 

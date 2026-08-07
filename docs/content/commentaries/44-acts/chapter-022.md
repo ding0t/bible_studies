@@ -2,7 +2,7 @@
 title: "Acts 22"
 category: "bible"
 description: "Commentary and cross-referenced studies for Acts chapter 22"
-tags: ["acts", "commentary"]
+tags: ["acts"]
 draft: false
 ---
 

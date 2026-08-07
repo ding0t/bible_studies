@@ -2,7 +2,7 @@
 title: "Micah 5"
 category: "bible"
 description: "Commentary and cross-referenced studies for Micah chapter 5"
-tags: ["micah", "commentary"]
+tags: ["micah"]
 draft: false
 ---
 

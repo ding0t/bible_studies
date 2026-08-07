@@ -2,7 +2,7 @@
 title: "James"
 category: "bible"
 description: "Commentary on James"
-tags: ["james", "commentary"]
+tags: ["james"]
 draft: false
 ---
 

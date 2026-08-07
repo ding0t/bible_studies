@@ -2,7 +2,7 @@
 title: "Jeremiah"
 category: "bible"
 description: "Commentary on Jeremiah"
-tags: ["jeremiah", "commentary"]
+tags: ["jeremiah"]
 draft: false
 ---
 

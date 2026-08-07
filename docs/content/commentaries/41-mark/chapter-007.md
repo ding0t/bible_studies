@@ -2,7 +2,7 @@
 title: "Mark 7"
 category: "bible"
 description: "Commentary and cross-referenced studies for Mark chapter 7"
-tags: ["mark", "commentary"]
+tags: ["mark"]
 draft: false
 ---
 

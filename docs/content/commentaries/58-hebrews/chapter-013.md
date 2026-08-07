@@ -2,7 +2,7 @@
 title: "Hebrews 13"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 13"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

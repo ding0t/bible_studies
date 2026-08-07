@@ -2,7 +2,7 @@
 title: "Psalms 23"
 category: "bible"
 description: "Commentary and cross-referenced studies for Psalms chapter 23"
-tags: ["psalms", "commentary"]
+tags: ["psalms"]
 draft: false
 ---
 

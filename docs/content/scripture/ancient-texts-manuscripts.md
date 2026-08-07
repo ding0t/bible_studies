@@ -2,7 +2,7 @@
 title: "Ancient Texts and Manuscripts"
 category: "archaeology"
 description: "Ancient texts, manuscripts, and inscriptions that validate Scripture"
-tags: ["archaeology", "manuscripts", "inscriptions", "dead sea scrolls", "apologetics"]
+tags: ["method/archaeology", "manuscripts", "inscriptions", "dead-sea-scrolls", "apologetics"]
 draft: false
 ---
 

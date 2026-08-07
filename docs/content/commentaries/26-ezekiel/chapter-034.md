@@ -2,7 +2,7 @@
 title: "Ezekiel 34"
 category: "bible"
 description: "Commentary and cross-referenced studies for Ezekiel chapter 34"
-tags: ["ezekiel", "commentary"]
+tags: ["ezekiel"]
 draft: false
 ---
 

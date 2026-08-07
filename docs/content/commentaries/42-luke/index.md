@@ -2,7 +2,7 @@
 title: "Luke"
 category: "bible"
 description: "Commentary on Luke"
-tags: ["luke", "commentary"]
+tags: ["luke"]
 draft: false
 ---
 

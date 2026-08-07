@@ -2,7 +2,7 @@
 title: "Leviticus 15"
 category: "bible"
 description: "Commentary and cross-referenced studies for Leviticus chapter 15"
-tags: ["leviticus", "commentary"]
+tags: ["leviticus"]
 draft: false
 ---
 

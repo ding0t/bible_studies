@@ -2,7 +2,7 @@
 title: "Ruth"
 category: "bible"
 description: "Commentary on Ruth"
-tags: ["ruth", "commentary"]
+tags: ["ruth"]
 draft: false
 ---
 

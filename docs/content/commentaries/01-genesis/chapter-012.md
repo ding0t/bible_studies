@@ -2,7 +2,7 @@
 title: "Genesis 12"
 category: "bible"
 description: "Commentary and cross-referenced studies for Genesis chapter 12"
-tags: ["genesis", "commentary"]
+tags: ["genesis"]
 draft: false
 ---
 

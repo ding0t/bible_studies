@@ -2,7 +2,7 @@
 title: "Woman with the Issue of Blood"
 category: "prophecy"
 description: "How the healing of the woman with the bleeding issue demonstrates Jesus as the Messiah through the garment fringe motif and Isaiah's prophecies of healing"
-tags: ["messianic-prophecy", "healing", "isaiah-53", "garment-fringe", "malachi-4:2"]
+tags: ["messianic-prophecy", "healing", "isaiah-53", "garment-fringe", "malachi-4-2"]
 draft: false
 bible_references: ["Isaiah 53:5", "Malachi 4:2", "Zechariah 8:23", "Matthew 9:20-22", "Mark 5:25-34", "Luke 8:43-48"]
 zadok_year: 3988

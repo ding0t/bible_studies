@@ -2,7 +2,7 @@
 title: "Mark 15"
 category: "bible"
 description: "Commentary and cross-referenced studies for Mark chapter 15"
-tags: ["mark", "commentary"]
+tags: ["mark"]
 draft: false
 ---
 

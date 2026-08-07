@@ -2,7 +2,7 @@
 title: "Job 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Job chapter 2"
-tags: ["job", "commentary"]
+tags: ["job"]
 draft: false
 ---
 

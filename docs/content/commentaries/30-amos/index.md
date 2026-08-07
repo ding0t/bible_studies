@@ -2,7 +2,7 @@
 title: "Amos"
 category: "bible"
 description: "Commentary on Amos"
-tags: ["amos", "commentary"]
+tags: ["amos"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Romans 3"
 category: "bible"
 description: "Commentary and cross-referenced studies for Romans chapter 3"
-tags: ["romans", "commentary"]
+tags: ["romans"]
 draft: false
 ---
 

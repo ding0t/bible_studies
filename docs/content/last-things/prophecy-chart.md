@@ -2,7 +2,7 @@
 title: "Charting End Times"
 category: "prophecy"
 description: "Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- plus a mermaid diagram of the same framework."
-tags: ["studies", "end-times", "prophecy", "chart", "timeline", "eschatology", "dispensations", "larkin"]
+tags: ["chart", "timeline", "dispensationalism", "larkin"]
 draft: false
 bible_references: ["Genesis 1:1-2:3", "Exodus 20:11", "Colossians 2:16-17", "Hebrews 4:9", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 19:7-9", "Revelation 20:1-6", "Zechariah 14:4-5"]
 ---

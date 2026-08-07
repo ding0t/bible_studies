@@ -2,7 +2,7 @@
 title: "Bread of Life: The Feeding of the 5,000 and the 4,000"
 category: "prophecy"
 description: "The two feeding miracles read the way Jesus reads them at Mark 8:19-21 -- what he makes explicit about the sign in John 6, and what the narrative leaves implicit about Jew, Gentile, shepherd, and the wrong way to want bread."
-tags: ["typology", "john", "mark", "matthew", "luke", "manna", "word-study", "old-testament", "prophecy-fulfilled", "bread-of-life"]
+tags: ["method/typology", "john", "mark", "matthew", "luke", "manna", "method/word-study", "old-testament", "prophecy-fulfilled", "bread-of-life"]
 draft: false
 primary_passage: "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15; Matthew 15:32-39; Mark 8:1-10"
 bible_references: ["John 6:22-71", "Mark 8:14-21", "Matthew 16:5-12", "Exodus 16:4-21", "Numbers 11:4-9", "Numbers 11:31-34", "Deuteronomy 8:2-3", "Deuteronomy 18:15-18", "2 Kings 4:42-44", "Psalm 78:17-31", "Psalm 23:1-2", "Isaiah 25:6-9", "Isaiah 55:1-3", "Ezekiel 34:5", "Ezekiel 34:13-16", "Numbers 27:15-17", "Matthew 4:1-4", "Matthew 6:11", "Luke 11:3", "Proverbs 30:8-9", "Revelation 2:17", "Mark 14:22", "Mark 7:24-31", "Matthew 15:29-31", "1 Timothy 6:6-8", "Romans 1:16"]

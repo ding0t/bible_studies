@@ -2,7 +2,7 @@
 title: "Jewish Feasts and Prophecy"
 category: "feasts"
 description: "Study into the Jewish feasts and their prophetic significance in Scripture"
-tags: ["bible", "feasts", "prophecy", "jewish", "ot-fulfillment"]
+tags: ["prophecy", "jewish", "prophecy-fulfilled"]
 draft: false
 ---
 

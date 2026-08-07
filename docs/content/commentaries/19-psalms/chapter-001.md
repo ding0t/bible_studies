@@ -2,7 +2,7 @@
 title: "Psalms 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Psalms chapter 1"
-tags: ["psalms", "commentary"]
+tags: ["psalms"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Numbers"
 category: "bible"
 description: "Commentary on Numbers"
-tags: ["numbers", "commentary"]
+tags: ["numbers"]
 draft: false
 ---
 

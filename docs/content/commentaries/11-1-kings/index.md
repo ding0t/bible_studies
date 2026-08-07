@@ -2,7 +2,7 @@
 title: "1 Kings"
 category: "bible"
 description: "Commentary on 1 Kings"
-tags: ["1-kings", "commentary"]
+tags: ["1-kings"]
 draft: false
 ---
 

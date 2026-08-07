@@ -2,7 +2,7 @@
 title: "2 Samuel"
 category: "bible"
 description: "Commentary on 2 Samuel"
-tags: ["2-samuel", "commentary"]
+tags: ["2-samuel"]
 draft: false
 ---
 

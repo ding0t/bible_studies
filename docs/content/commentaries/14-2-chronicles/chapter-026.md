@@ -2,7 +2,7 @@
 title: "2 Chronicles 26"
 category: "bible"
 description: "Commentary and cross-referenced studies for 2 Chronicles chapter 26"
-tags: ["2-chronicles", "commentary"]
+tags: ["2-chronicles"]
 draft: false
 ---
 

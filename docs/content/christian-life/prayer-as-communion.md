@@ -2,7 +2,7 @@
 title: "Prayer"
 category: "prayer"
 description: "Understanding prayer as communion with God and our identity as His children"
-tags: ["studies", "prayer", "devotion", "communion", "faith"]
+tags: ["devotion", "communion", "faith"]
 draft: false
 ---
 

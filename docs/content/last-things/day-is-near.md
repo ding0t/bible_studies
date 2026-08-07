@@ -2,7 +2,7 @@
 title: "The Day Is Near"
 category: "prophecy"
 description: "Why the timing of Christ's return is deliberately hidden, and the six-then-seventh pattern -- creation week, Sabbath, Hebrews' rest, the millennium -- this site reads through 2 Peter 3's 'a day is as a thousand years.'"
-tags: ["studies", "end-times", "prophecy", "revelation", "last-days", "sabbath", "word-study"]
+tags: ["revelation", "last-days", "sabbath", "method/word-study"]
 draft: false
 primary_passage: "2 Peter 3:3-13"
 bible_references: ["Revelation 1:3", "James 5:7-8", "Mark 13:32-37", "Matthew 24:3-14", "Exodus 20:11", "Hebrews 4:1-13", "Revelation 20:1-7", "Acts 1:9-11", "Genesis 1:14-19", "Colossians 2:16-17"]

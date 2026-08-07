@@ -2,7 +2,7 @@
 title: "Amos 8"
 category: "bible"
 description: "Commentary and cross-referenced studies for Amos chapter 8"
-tags: ["amos", "commentary"]
+tags: ["amos"]
 draft: false
 ---
 

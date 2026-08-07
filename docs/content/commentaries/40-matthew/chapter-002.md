@@ -2,7 +2,7 @@
 title: "Matthew 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Matthew chapter 2"
-tags: ["matthew", "commentary"]
+tags: ["matthew"]
 draft: false
 ---
 

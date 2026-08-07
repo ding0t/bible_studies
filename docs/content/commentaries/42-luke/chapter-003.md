@@ -2,7 +2,7 @@
 title: "Luke 3"
 category: "bible"
 description: "Commentary and cross-referenced studies for Luke chapter 3"
-tags: ["luke", "commentary"]
+tags: ["luke"]
 draft: false
 ---
 

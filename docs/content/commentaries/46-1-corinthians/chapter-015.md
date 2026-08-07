@@ -2,7 +2,7 @@
 title: "1 Corinthians 15"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Corinthians chapter 15"
-tags: ["1-corinthians", "commentary"]
+tags: ["1-corinthians"]
 draft: false
 ---
 

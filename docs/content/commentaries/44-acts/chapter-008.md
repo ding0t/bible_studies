@@ -2,7 +2,7 @@
 title: "Acts 8"
 category: "bible"
 description: "Commentary and cross-referenced studies for Acts chapter 8"
-tags: ["acts", "commentary"]
+tags: ["acts"]
 draft: false
 ---
 

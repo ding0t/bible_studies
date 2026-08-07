@@ -2,7 +2,7 @@
 title: "Genesis 5"
 category: "bible"
 description: "Commentary and cross-referenced studies for Genesis chapter 5"
-tags: ["genesis", "commentary"]
+tags: ["genesis"]
 draft: false
 ---
 

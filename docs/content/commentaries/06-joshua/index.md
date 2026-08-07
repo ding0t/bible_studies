@@ -2,7 +2,7 @@
 title: "Joshua"
 category: "bible"
 description: "Commentary on Joshua"
-tags: ["joshua", "commentary"]
+tags: ["joshua"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Our Data Sources"
 category: "other"
 description: "What Bible text, lexical, and commentary data backs this site, organized by license tier, and what each tier is and isn't used for."
-tags: ["about", "data", "sources", "licensing", "transparency", "mermaid"]
+tags: ["data", "sources", "licensing", "transparency", "mermaid"]
 draft: false
 ---
 

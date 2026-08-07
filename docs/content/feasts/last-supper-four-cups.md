@@ -2,7 +2,7 @@
 title: "\"I Will Not Drink Again\": The Last Supper and the Cups of Passover"
 category: "feasts"
 description: "What the Passover Seder's cup structure reveals about Jesus's vow at the Last Supper not to drink of the fruit of the vine again until the kingdom comes"
-tags: ["passover", "last-supper", "communion", "word-study", "gospels", "feasts"]
+tags: ["passover", "last-supper", "communion", "method/word-study", "gospels"]
 draft: true
 primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
 bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "Exodus 6:6-7", "Exodus 24:8", "Psalm 116:13", "Jeremiah 31:31-34", "Isaiah 25:6-8", "Revelation 19:6-9"]

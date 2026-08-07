@@ -2,7 +2,7 @@
 title: "Hebrews 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 2"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

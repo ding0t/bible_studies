@@ -2,7 +2,7 @@
 title: "Hebrews 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 4"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

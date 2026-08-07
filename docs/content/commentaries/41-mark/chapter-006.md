@@ -2,7 +2,7 @@
 title: "Mark 6"
 category: "bible"
 description: "Commentary and cross-referenced studies for Mark chapter 6"
-tags: ["mark", "commentary"]
+tags: ["mark"]
 draft: false
 ---
 

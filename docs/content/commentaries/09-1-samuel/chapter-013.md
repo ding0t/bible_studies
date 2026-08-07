@@ -2,7 +2,7 @@
 title: "1 Samuel 13"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Samuel chapter 13"
-tags: ["1-samuel", "commentary"]
+tags: ["1-samuel"]
 draft: false
 ---
 

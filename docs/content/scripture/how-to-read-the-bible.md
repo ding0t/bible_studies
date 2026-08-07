@@ -2,7 +2,7 @@
 title: "How to Read the Bible"
 category: "bible"
 description: "A practical method for reading Scripture well: what it meant before what it means, in that order"
-tags: ["bible", "study", "principles", "methodology", "learning"]
+tags: ["study-method", "principles", "learning"]
 draft: false
 ---
 

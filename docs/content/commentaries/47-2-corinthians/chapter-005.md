@@ -2,7 +2,7 @@
 title: "2 Corinthians 5"
 category: "bible"
 description: "Commentary and cross-referenced studies for 2 Corinthians chapter 5"
-tags: ["2-corinthians", "commentary"]
+tags: ["2-corinthians"]
 draft: false
 ---
 

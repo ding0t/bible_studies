@@ -2,7 +2,7 @@
 title: "Malachi 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for Malachi chapter 4"
-tags: ["malachi", "commentary"]
+tags: ["malachi"]
 draft: false
 ---
 

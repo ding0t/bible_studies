@@ -2,7 +2,7 @@
 title: "Why I Use AI in These Studies"
 category: "other"
 description: "An honest account of how AI is used to research and draft the studies on this site — the advantages, the real risks, and the guardrails and human review that sit between the tool and anything published here."
-tags: ["ai", "methodology", "transparency", "study-method", "about"]
+tags: ["ai", "study-method", "transparency"]
 draft: false
 ---
 

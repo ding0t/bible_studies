@@ -2,7 +2,7 @@
 title: "Hebrews 9"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 9"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

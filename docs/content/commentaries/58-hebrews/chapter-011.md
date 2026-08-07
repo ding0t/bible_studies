@@ -2,7 +2,7 @@
 title: "Hebrews 11"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 11"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

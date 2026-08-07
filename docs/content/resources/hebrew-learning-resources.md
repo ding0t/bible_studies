@@ -2,7 +2,7 @@
 title: "Hebrew Learning Resources"
 category: "other"
 description: "Recommended courses and materials for learning Biblical Hebrew"
-tags: ["hebrew", "resources", "learning", "language", "courses"]
+tags: ["lang/hebrew", "learning", "courses"]
 draft: false
 ---
 

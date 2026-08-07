@@ -2,7 +2,7 @@
 title: "1 Peter 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Peter chapter 4"
-tags: ["1-peter", "commentary"]
+tags: ["1-peter"]
 draft: false
 ---
 

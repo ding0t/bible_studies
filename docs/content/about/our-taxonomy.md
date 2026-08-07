@@ -2,7 +2,7 @@
 title: "Our Taxonomy"
 category: "other"
 description: "How studies on this site are organised: the systematic-theology loci it's based on, the plain-English name used for each section, and the academic term behind it."
-tags: ["about", "taxonomy", "site-structure", "study-method"]
+tags: ["taxonomy", "site-structure", "study-method"]
 draft: false
 ---
 
@@ -185,10 +185,15 @@ Everything else is a tag:
 
 | Facet | Values |
 |---|---|
-| `method:` | `word-study`, `typology`, `narrative-exegesis`, `archaeology`, `textual-criticism` |
-| `lang:` | `hebrew`, `greek`, `aramaic` |
-| `status:` | `investigation` (open inquiry, conclusions not settled), `settled` |
-| `audience:` | `sermon`, `teaching`, `personal` |
+| `method/` | `word-study`, `typology`, `archaeology`, `textual-criticism` |
+| `lang/` | `hebrew`, `greek` |
+| `status/` | `investigation` — open inquiry, conclusions not settled |
+| `audience/` | `teaching` |
+
+The slash isn't decoration: mkdocs-material's tags plugin is configured with
+`tags_hierarchy: true`, so `method/word-study` renders as a real parent-and-child grouping on the
+[Tags](../tags.md) page rather than as a flat string. Add a value to a facet by using it; the
+hierarchy builds itself.
 
 `status: investigation` is worth singling out. Some material here is honest inquiry rather than
 settled conclusion, and that distinction matters more to a reader than which folder it sits in. It is

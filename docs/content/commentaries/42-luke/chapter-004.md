@@ -2,7 +2,7 @@
 title: "Luke 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for Luke chapter 4"
-tags: ["luke", "commentary"]
+tags: ["luke"]
 draft: false
 ---
 

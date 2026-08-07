@@ -2,7 +2,7 @@
 title: "Psalms 78"
 category: "bible"
 description: "Commentary and cross-referenced studies for Psalms chapter 78"
-tags: ["psalms", "commentary"]
+tags: ["psalms"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Acts 16"
 category: "bible"
 description: "Commentary and cross-referenced studies for Acts chapter 16"
-tags: ["acts", "commentary"]
+tags: ["acts"]
 draft: false
 ---
 

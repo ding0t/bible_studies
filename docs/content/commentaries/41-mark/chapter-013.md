@@ -2,7 +2,7 @@
 title: "Mark 13"
 category: "bible"
 description: "Commentary and cross-referenced studies for Mark chapter 13"
-tags: ["mark", "commentary"]
+tags: ["mark"]
 draft: false
 ---
 

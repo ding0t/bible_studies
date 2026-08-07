@@ -2,7 +2,7 @@
 title: "Psalms 22"
 category: "bible"
 description: "Commentary and cross-referenced studies for Psalms chapter 22"
-tags: ["psalms", "commentary"]
+tags: ["psalms"]
 draft: false
 ---
 

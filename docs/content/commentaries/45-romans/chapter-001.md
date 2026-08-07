@@ -2,7 +2,7 @@
 title: "Romans 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Romans chapter 1"
-tags: ["romans", "commentary"]
+tags: ["romans"]
 draft: false
 ---
 

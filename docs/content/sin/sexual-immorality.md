@@ -2,7 +2,7 @@
 title: "Sin and Sexual Immorality"
 category: "prophecy"
 description: "Biblical perspective on sexual immorality and purity"
-tags: ["studies", "sin", "sexual-immorality", "purity", "doctrine"]
+tags: ["sexual-immorality", "purity", "doctrine"]
 draft: false
 ---
 

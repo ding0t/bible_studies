@@ -2,7 +2,7 @@
 title: "Ezra"
 category: "bible"
 description: "Commentary on Ezra"
-tags: ["ezra", "commentary"]
+tags: ["ezra"]
 draft: false
 ---
 

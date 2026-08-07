@@ -2,7 +2,7 @@
 title: "Nehemiah 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Nehemiah chapter 2"
-tags: ["nehemiah", "commentary"]
+tags: ["nehemiah"]
 draft: false
 ---
 

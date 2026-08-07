@@ -2,7 +2,7 @@
 title: "1 Samuel 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Samuel chapter 4"
-tags: ["1-samuel", "commentary"]
+tags: ["1-samuel"]
 draft: false
 ---
 

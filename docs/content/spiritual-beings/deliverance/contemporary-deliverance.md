@@ -2,7 +2,7 @@
 title: "Contemporary Deliverance in Christianity"
 category: "investigation"
 description: "A survey of contemporary deliverance ministries and how they teach that a believer can be 'demonized'"
-tags: ["investigation", "deliverance", "ministry", "contemporary", "spiritual-warfare"]
+tags: ["status/investigation", "ministry", "contemporary", "spiritual-warfare"]
 draft: false
 ---
 

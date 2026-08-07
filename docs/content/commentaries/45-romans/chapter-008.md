@@ -2,7 +2,7 @@
 title: "Romans 8"
 category: "bible"
 description: "Commentary and cross-referenced studies for Romans chapter 8"
-tags: ["romans", "commentary"]
+tags: ["romans"]
 draft: false
 ---
 

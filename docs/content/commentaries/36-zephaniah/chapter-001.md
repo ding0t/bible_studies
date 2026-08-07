@@ -2,7 +2,7 @@
 title: "Zephaniah 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Zephaniah chapter 1"
-tags: ["zephaniah", "commentary"]
+tags: ["zephaniah"]
 draft: false
 ---
 

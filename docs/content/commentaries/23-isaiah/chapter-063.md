@@ -2,7 +2,7 @@
 title: "Isaiah 63"
 category: "bible"
 description: "Commentary and cross-referenced studies for Isaiah chapter 63"
-tags: ["isaiah", "commentary"]
+tags: ["isaiah"]
 draft: false
 ---
 

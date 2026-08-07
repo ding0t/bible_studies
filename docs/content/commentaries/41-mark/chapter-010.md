@@ -2,7 +2,7 @@
 title: "Mark 10"
 category: "bible"
 description: "Commentary and cross-referenced studies for Mark chapter 10"
-tags: ["mark", "commentary"]
+tags: ["mark"]
 draft: false
 ---
 

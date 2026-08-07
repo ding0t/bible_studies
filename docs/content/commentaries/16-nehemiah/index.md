@@ -2,7 +2,7 @@
 title: "Nehemiah"
 category: "bible"
 description: "Commentary on Nehemiah"
-tags: ["nehemiah", "commentary"]
+tags: ["nehemiah"]
 draft: false
 ---
 

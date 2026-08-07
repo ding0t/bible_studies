@@ -2,7 +2,7 @@
 title: "Numbers 29"
 category: "bible"
 description: "Commentary and cross-referenced studies for Numbers chapter 29"
-tags: ["numbers", "commentary"]
+tags: ["numbers"]
 draft: false
 ---
 

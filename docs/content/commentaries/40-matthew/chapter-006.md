@@ -2,7 +2,7 @@
 title: "Matthew 6"
 category: "bible"
 description: "Commentary and cross-referenced studies for Matthew chapter 6"
-tags: ["matthew", "commentary"]
+tags: ["matthew"]
 draft: false
 ---
 

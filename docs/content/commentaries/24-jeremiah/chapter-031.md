@@ -2,7 +2,7 @@
 title: "Jeremiah 31"
 category: "bible"
 description: "Commentary and cross-referenced studies for Jeremiah chapter 31"
-tags: ["jeremiah", "commentary"]
+tags: ["jeremiah"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Numbers 10"
 category: "bible"
 description: "Commentary and cross-referenced studies for Numbers chapter 10"
-tags: ["numbers", "commentary"]
+tags: ["numbers"]
 draft: false
 ---
 

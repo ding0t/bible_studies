@@ -2,7 +2,7 @@
 title: "Joshua 14"
 category: "bible"
 description: "Commentary and cross-referenced studies for Joshua chapter 14"
-tags: ["joshua", "commentary"]
+tags: ["joshua"]
 draft: false
 ---
 

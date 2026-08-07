@@ -2,7 +2,7 @@
 title: "John 12"
 category: "bible"
 description: "Commentary and cross-referenced studies for John chapter 12"
-tags: ["john", "commentary"]
+tags: ["john"]
 draft: false
 ---
 

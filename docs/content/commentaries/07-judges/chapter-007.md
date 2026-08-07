@@ -2,7 +2,7 @@
 title: "Judges 7"
 category: "bible"
 description: "Commentary and cross-referenced studies for Judges chapter 7"
-tags: ["judges", "commentary"]
+tags: ["judges"]
 draft: false
 ---
 

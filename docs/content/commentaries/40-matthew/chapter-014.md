@@ -2,7 +2,7 @@
 title: "Matthew 14"
 category: "bible"
 description: "Commentary and cross-referenced studies for Matthew chapter 14"
-tags: ["matthew", "commentary"]
+tags: ["matthew"]
 draft: false
 ---
 

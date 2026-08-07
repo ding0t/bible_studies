@@ -2,7 +2,7 @@
 title: "Genesis 8"
 category: "bible"
 description: "Commentary and cross-referenced studies for Genesis chapter 8"
-tags: ["genesis", "commentary"]
+tags: ["genesis"]
 draft: false
 ---
 

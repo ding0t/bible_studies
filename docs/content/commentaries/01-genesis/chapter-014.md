@@ -2,7 +2,7 @@
 title: "Genesis 14"
 category: "bible"
 description: "Commentary and cross-referenced studies for Genesis chapter 14"
-tags: ["genesis", "commentary"]
+tags: ["genesis"]
 draft: false
 ---
 

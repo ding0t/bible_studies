@@ -2,7 +2,7 @@
 title: "Colossians 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Colossians chapter 2"
-tags: ["colossians", "commentary"]
+tags: ["colossians"]
 draft: false
 ---
 

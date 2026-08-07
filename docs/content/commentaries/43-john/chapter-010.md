@@ -2,7 +2,7 @@
 title: "John 10"
 category: "bible"
 description: "Commentary and cross-referenced studies for John chapter 10"
-tags: ["john", "commentary"]
+tags: ["john"]
 draft: false
 ---
 

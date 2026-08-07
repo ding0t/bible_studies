@@ -2,7 +2,7 @@
 title: "Mark 14"
 category: "bible"
 description: "Commentary and cross-referenced studies for Mark chapter 14"
-tags: ["mark", "commentary"]
+tags: ["mark"]
 draft: false
 ---
 

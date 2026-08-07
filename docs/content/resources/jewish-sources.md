@@ -2,7 +2,7 @@
 title: "Jewish Literature & Primary Sources"
 category: "resources"
 description: "Sefaria and other sources for Jewish literature (Mishnah, Talmud) relevant to understanding a passage's Second Temple / rabbinic background"
-tags: ["resources", "jewish-literature", "mishnah", "talmud", "sefaria", "licensing"]
+tags: ["jewish-literature", "mishnah", "talmud", "sefaria", "licensing"]
 draft: false
 ---
 

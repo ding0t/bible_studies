@@ -2,7 +2,7 @@
 title: "Numbers 13"
 category: "bible"
 description: "Commentary and cross-referenced studies for Numbers chapter 13"
-tags: ["numbers", "commentary"]
+tags: ["numbers"]
 draft: false
 ---
 

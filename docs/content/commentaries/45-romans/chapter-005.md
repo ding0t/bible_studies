@@ -2,7 +2,7 @@
 title: "Romans 5"
 category: "bible"
 description: "Commentary and cross-referenced studies for Romans chapter 5"
-tags: ["romans", "commentary"]
+tags: ["romans"]
 draft: false
 ---
 

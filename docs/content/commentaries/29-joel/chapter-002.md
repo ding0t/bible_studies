@@ -2,7 +2,7 @@
 title: "Joel 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Joel chapter 2"
-tags: ["joel", "commentary"]
+tags: ["joel"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Luke 9"
 category: "bible"
 description: "Commentary and cross-referenced studies for Luke chapter 9"
-tags: ["luke", "commentary"]
+tags: ["luke"]
 draft: false
 ---
 

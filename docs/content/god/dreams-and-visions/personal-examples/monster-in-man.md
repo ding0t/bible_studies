@@ -2,7 +2,7 @@
 title: "The Monster in the Man"
 category: "dreams"
 description: "A dream about internal struggle and the human condition"
-tags: ["dreams", "spiritual", "human-nature", "struggle", "april-2008"]
+tags: ["dreams", "human-nature", "struggle", "april-2008"]
 draft: false
 ---
 

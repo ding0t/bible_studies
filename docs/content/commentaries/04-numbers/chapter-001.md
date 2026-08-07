@@ -2,7 +2,7 @@
 title: "Numbers 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Numbers chapter 1"
-tags: ["numbers", "commentary"]
+tags: ["numbers"]
 draft: false
 ---
 

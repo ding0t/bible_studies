@@ -2,7 +2,7 @@
 title: "1 Corinthians 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Corinthians chapter 1"
-tags: ["1-corinthians", "commentary"]
+tags: ["1-corinthians"]
 draft: false
 ---
 

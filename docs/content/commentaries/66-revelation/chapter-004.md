@@ -2,7 +2,7 @@
 title: "Revelation 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for Revelation chapter 4"
-tags: ["revelation", "commentary"]
+tags: ["revelation"]
 draft: false
 ---
 

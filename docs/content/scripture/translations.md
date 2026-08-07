@@ -2,7 +2,7 @@
 title: "Bible Translations & Source Texts"
 category: "bible"
 description: "The English translations, Hebrew Masoretic witnesses, and Greek New Testament/Septuagint texts this project relies on — strengths, cautions, publication history, and which ones are actually queryable in this repo's own database versus cited from general knowledge."
-tags: ["bible", "translations", "versions", "hebrew", "greek", "septuagint", "masoretic", "textual-criticism"]
+tags: ["translations", "versions", "lang/hebrew", "lang/greek", "septuagint", "masoretic", "method/textual-criticism"]
 draft: false
 ---
 

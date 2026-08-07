@@ -2,7 +2,7 @@
 title: "Joel"
 category: "bible"
 description: "Commentary on Joel"
-tags: ["joel", "commentary"]
+tags: ["joel"]
 draft: false
 ---
 

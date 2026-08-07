@@ -2,7 +2,7 @@
 title: "Matthew 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for Matthew chapter 4"
-tags: ["matthew", "commentary"]
+tags: ["matthew"]
 draft: false
 ---
 

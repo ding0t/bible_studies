@@ -2,7 +2,7 @@
 title: "Mark"
 category: "bible"
 description: "Commentary on Mark"
-tags: ["mark", "commentary"]
+tags: ["mark"]
 draft: false
 ---
 

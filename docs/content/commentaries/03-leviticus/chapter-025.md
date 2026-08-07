@@ -2,7 +2,7 @@
 title: "Leviticus 25"
 category: "bible"
 description: "Commentary and cross-referenced studies for Leviticus chapter 25"
-tags: ["leviticus", "commentary"]
+tags: ["leviticus"]
 draft: false
 ---
 

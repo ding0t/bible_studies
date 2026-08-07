@@ -2,7 +2,7 @@
 title: "Foundations for Studying the Word"
 category: "sermons"
 description: "Foundational principles for approaching biblical study with a prophetic perspective"
-tags: ["sermons", "prophecy", "doctrine", "teaching", "foundations"]
+tags: ["prophecy", "doctrine", "audience/teaching", "foundations"]
 draft: false
 ---
 

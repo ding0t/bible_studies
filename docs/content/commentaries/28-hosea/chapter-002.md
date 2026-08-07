@@ -2,7 +2,7 @@
 title: "Hosea 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hosea chapter 2"
-tags: ["hosea", "commentary"]
+tags: ["hosea"]
 draft: false
 ---
 

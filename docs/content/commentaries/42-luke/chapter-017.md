@@ -2,7 +2,7 @@
 title: "Luke 17"
 category: "bible"
 description: "Commentary and cross-referenced studies for Luke chapter 17"
-tags: ["luke", "commentary"]
+tags: ["luke"]
 draft: false
 ---
 

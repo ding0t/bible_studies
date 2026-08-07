@@ -2,7 +2,7 @@
 title: "Acts 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Acts chapter 1"
-tags: ["acts", "commentary"]
+tags: ["acts"]
 draft: false
 ---
 

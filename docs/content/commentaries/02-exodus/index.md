@@ -2,7 +2,7 @@
 title: "Exodus"
 category: "bible"
 description: "Commentary on Exodus"
-tags: ["exodus", "commentary"]
+tags: ["exodus"]
 draft: false
 ---
 

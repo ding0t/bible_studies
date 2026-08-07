@@ -2,7 +2,7 @@
 title: "Matthew 21"
 category: "bible"
 description: "Commentary and cross-referenced studies for Matthew chapter 21"
-tags: ["matthew", "commentary"]
+tags: ["matthew"]
 draft: false
 ---
 

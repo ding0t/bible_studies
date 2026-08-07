@@ -2,7 +2,7 @@
 title: "1 Chronicles"
 category: "bible"
 description: "Commentary on 1 Chronicles"
-tags: ["1-chronicles", "commentary"]
+tags: ["1-chronicles"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Amos 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Amos chapter 2"
-tags: ["amos", "commentary"]
+tags: ["amos"]
 draft: false
 ---
 

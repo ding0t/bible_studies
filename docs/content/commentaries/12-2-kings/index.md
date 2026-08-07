@@ -2,7 +2,7 @@
 title: "2 Kings"
 category: "bible"
 description: "Commentary on 2 Kings"
-tags: ["2-kings", "commentary"]
+tags: ["2-kings"]
 draft: false
 ---
 

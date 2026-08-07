@@ -2,7 +2,7 @@
 title: "Matthew"
 category: "bible"
 description: "Commentary on Matthew"
-tags: ["matthew", "commentary"]
+tags: ["matthew"]
 draft: false
 ---
 

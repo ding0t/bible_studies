@@ -2,7 +2,7 @@
 title: "John 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for John chapter 1"
-tags: ["john", "commentary"]
+tags: ["john"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "On Teaching"
 category: "other"
 description: "Biblical principles for laypersons teaching in the church"
-tags: ["studies", "teaching", "church", "doctrine"]
+tags: ["audience/teaching", "church", "doctrine"]
 draft: false
 ---
 

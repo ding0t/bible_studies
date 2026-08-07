@@ -2,7 +2,7 @@
 title: "Jude"
 category: "bible"
 description: "Commentary on Jude"
-tags: ["jude", "commentary"]
+tags: ["jude"]
 draft: false
 ---
 

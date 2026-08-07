@@ -2,7 +2,7 @@
 title: "Fasting"
 category: "spiritual-disciplines"
 description: "Understanding fasting"
-tags: ["studies", "fasting", "devotion", "communion", "faith"]
+tags: ["fasting", "devotion", "communion", "faith"]
 draft: false
 ---
 

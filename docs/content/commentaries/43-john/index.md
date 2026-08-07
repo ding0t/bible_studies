@@ -2,7 +2,7 @@
 title: "John"
 category: "bible"
 description: "Commentary on John"
-tags: ["john", "commentary"]
+tags: ["john"]
 draft: false
 ---
 

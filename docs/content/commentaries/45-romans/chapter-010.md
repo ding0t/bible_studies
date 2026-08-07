@@ -2,7 +2,7 @@
 title: "Romans 10"
 category: "bible"
 description: "Commentary and cross-referenced studies for Romans chapter 10"
-tags: ["romans", "commentary"]
+tags: ["romans"]
 draft: false
 ---
 

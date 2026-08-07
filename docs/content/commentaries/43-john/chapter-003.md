@@ -2,7 +2,7 @@
 title: "John 3"
 category: "bible"
 description: "Commentary and cross-referenced studies for John chapter 3"
-tags: ["john", "commentary"]
+tags: ["john"]
 draft: false
 ---
 

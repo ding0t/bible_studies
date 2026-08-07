@@ -2,7 +2,7 @@
 title: "Jeremiah 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Jeremiah chapter 2"
-tags: ["jeremiah", "commentary"]
+tags: ["jeremiah"]
 draft: false
 ---
 

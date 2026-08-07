@@ -2,7 +2,7 @@
 title: "1 Chronicles 29"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Chronicles chapter 29"
-tags: ["1-chronicles", "commentary"]
+tags: ["1-chronicles"]
 draft: false
 ---
 

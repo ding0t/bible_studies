@@ -2,7 +2,7 @@
 title: "Isaiah 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Isaiah chapter 1"
-tags: ["isaiah", "commentary"]
+tags: ["isaiah"]
 draft: false
 ---
 

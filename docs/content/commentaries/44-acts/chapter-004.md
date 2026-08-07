@@ -2,7 +2,7 @@
 title: "Acts 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for Acts chapter 4"
-tags: ["acts", "commentary"]
+tags: ["acts"]
 draft: false
 ---
 

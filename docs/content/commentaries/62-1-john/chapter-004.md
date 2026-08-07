@@ -2,7 +2,7 @@
 title: "1 John 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 John chapter 4"
-tags: ["1-john", "commentary"]
+tags: ["1-john"]
 draft: false
 ---
 

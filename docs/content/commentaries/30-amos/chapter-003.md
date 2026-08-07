@@ -2,7 +2,7 @@
 title: "Amos 3"
 category: "bible"
 description: "Commentary and cross-referenced studies for Amos chapter 3"
-tags: ["amos", "commentary"]
+tags: ["amos"]
 draft: false
 ---
 

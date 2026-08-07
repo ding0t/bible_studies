@@ -2,7 +2,7 @@
 title: "Zechariah 14"
 category: "bible"
 description: "Commentary and cross-referenced studies for Zechariah chapter 14"
-tags: ["zechariah", "commentary"]
+tags: ["zechariah"]
 draft: false
 ---
 

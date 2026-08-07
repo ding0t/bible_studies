@@ -2,7 +2,7 @@
 title: "Numbers 27"
 category: "bible"
 description: "Commentary and cross-referenced studies for Numbers chapter 27"
-tags: ["numbers", "commentary"]
+tags: ["numbers"]
 draft: false
 ---
 

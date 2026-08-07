@@ -2,7 +2,7 @@
 title: "Job"
 category: "bible"
 description: "Commentary on Job"
-tags: ["job", "commentary"]
+tags: ["job"]
 draft: false
 ---
 

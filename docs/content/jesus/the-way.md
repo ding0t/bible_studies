@@ -2,7 +2,7 @@
 title: "The Way"
 category: "theology"
 description: "A New Testament concordance study of 'the way' (hodos): its Old Testament roots, Jesus's claim in John 14:6, and how believers called themselves the Way before outsiders coined 'Christian.'"
-tags: ["word-study", "christology", "acts", "john", "old-testament", "greek", "hebrew", "topical"]
+tags: ["method/word-study", "christology", "acts", "john", "old-testament", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "John 14:6; Acts 9:2"
 bible_references: ["Isaiah 40:3", "Isaiah 35:8-10", "Psalm 1:1-6", "Jeremiah 6:16", "Deuteronomy 10:12-13", "Matthew 3:3", "Mark 1:2-3", "Luke 3:4-6", "John 1:23", "Matthew 7:13-14", "Matthew 21:32", "Luke 1:76-79", "John 13:36-14:14", "Hebrews 3:10", "Hebrews 9:8", "Hebrews 10:19-20", "Acts 4:12", "Acts 9:1-2", "Acts 11:19-26", "Acts 16:17", "Acts 18:24-26", "Acts 19:9", "Acts 19:23", "Acts 22:4", "Acts 24:5", "Acts 24:14", "Acts 24:22", "Acts 26:28", "Acts 28:22", "1 Peter 4:16", "Romans 3:16-17", "Romans 11:33", "1 Corinthians 4:17", "1 Corinthians 12:31", "2 Peter 2:2", "2 Peter 2:15", "2 Peter 2:21", "Jude 1:11", "James 1:8", "James 5:20"]

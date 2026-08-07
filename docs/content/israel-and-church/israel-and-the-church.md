@@ -2,7 +2,7 @@
 title: "Israel and the Church"
 category: "prophecy"
 description: "Examining the Hebrew Roots argument that Israel and the Church are the same body, and where that sits against a dispensational reading"
-tags: ["theology", "israel", "church", "ecclesiology", "hebrew-roots", "one-new-man"]
+tags: ["israel", "church", "ecclesiology", "hebrew-roots", "one-new-man"]
 draft: false
 bible_references: ["Exodus 19:5-6", "Jeremiah 2:2-3", "Ephesians 2:11-12", "Romans 11:17-24", "Hosea 1", "Ezekiel 37:15-27"]
 ---

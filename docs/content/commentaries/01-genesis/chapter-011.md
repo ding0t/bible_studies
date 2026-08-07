@@ -2,7 +2,7 @@
 title: "Genesis 11"
 category: "bible"
 description: "Commentary and cross-referenced studies for Genesis chapter 11"
-tags: ["genesis", "commentary"]
+tags: ["genesis"]
 draft: false
 ---
 

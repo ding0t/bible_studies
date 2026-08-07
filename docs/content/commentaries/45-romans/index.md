@@ -2,7 +2,7 @@
 title: "Romans"
 category: "bible"
 description: "Commentary on Romans"
-tags: ["romans", "commentary"]
+tags: ["romans"]
 draft: false
 ---
 

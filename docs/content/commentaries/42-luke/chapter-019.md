@@ -2,7 +2,7 @@
 title: "Luke 19"
 category: "bible"
 description: "Commentary and cross-referenced studies for Luke chapter 19"
-tags: ["luke", "commentary"]
+tags: ["luke"]
 draft: false
 ---
 

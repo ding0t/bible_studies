@@ -2,7 +2,7 @@
 title: "Revelation 21"
 category: "bible"
 description: "Commentary and cross-referenced studies for Revelation chapter 21"
-tags: ["revelation", "commentary"]
+tags: ["revelation"]
 draft: false
 ---
 

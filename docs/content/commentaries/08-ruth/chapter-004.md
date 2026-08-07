@@ -2,7 +2,7 @@
 title: "Ruth 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for Ruth chapter 4"
-tags: ["ruth", "commentary"]
+tags: ["ruth"]
 draft: false
 ---
 

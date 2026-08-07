@@ -2,7 +2,7 @@
 title: "20 Proverbs"
 category: "commentaries"
 description: "Study resources for the Book of Proverbs"
-tags: ["bible", "ot"]
+tags: ["proverbs", "ot"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Test the Spirits"
 category: "spiritual-disciplines"
 description: "Discerning truth from false teaching and testing spiritual claims against Scripture"
-tags: ["studies", "deliverance", "apologetics", "discernment", "doctrine"]
+tags: ["deliverance", "apologetics", "discernment", "doctrine"]
 draft: false
 ---
 

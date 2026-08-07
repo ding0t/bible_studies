@@ -2,7 +2,7 @@
 title: "Acts 19"
 category: "bible"
 description: "Commentary and cross-referenced studies for Acts chapter 19"
-tags: ["acts", "commentary"]
+tags: ["acts"]
 draft: false
 ---
 

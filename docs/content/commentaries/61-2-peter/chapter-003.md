@@ -2,7 +2,7 @@
 title: "2 Peter 3"
 category: "bible"
 description: "Commentary and cross-referenced studies for 2 Peter chapter 3"
-tags: ["2-peter", "commentary"]
+tags: ["2-peter"]
 draft: false
 ---
 

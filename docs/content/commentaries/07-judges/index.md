@@ -2,7 +2,7 @@
 title: "Judges"
 category: "bible"
 description: "Commentary on Judges"
-tags: ["judges", "commentary"]
+tags: ["judges"]
 draft: false
 ---
 

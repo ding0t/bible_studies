@@ -2,7 +2,7 @@
 title: "Deuteronomy 3"
 category: "bible"
 description: "Commentary and cross-referenced studies for Deuteronomy chapter 3"
-tags: ["deuteronomy", "commentary"]
+tags: ["deuteronomy"]
 draft: false
 ---
 

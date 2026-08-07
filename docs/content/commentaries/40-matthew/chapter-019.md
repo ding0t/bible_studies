@@ -2,7 +2,7 @@
 title: "Matthew 19"
 category: "bible"
 description: "Commentary and cross-referenced studies for Matthew chapter 19"
-tags: ["matthew", "commentary"]
+tags: ["matthew"]
 draft: false
 ---
 

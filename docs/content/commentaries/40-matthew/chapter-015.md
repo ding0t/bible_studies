@@ -2,7 +2,7 @@
 title: "Matthew 15"
 category: "bible"
 description: "Commentary and cross-referenced studies for Matthew chapter 15"
-tags: ["matthew", "commentary"]
+tags: ["matthew"]
 draft: false
 ---
 

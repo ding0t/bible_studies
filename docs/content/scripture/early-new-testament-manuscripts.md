@@ -2,7 +2,7 @@
 title: "Early New Testament Manuscripts"
 category: "resources"
 description: "earlynewtestament.com — English translations of the 83 earliest known New Testament papyri, all dated to AD 300 or earlier"
-tags: ["resources", "manuscripts", "papyri", "new-testament", "textual-criticism"]
+tags: ["manuscripts", "papyri", "new-testament", "method/textual-criticism"]
 draft: false
 ---
 

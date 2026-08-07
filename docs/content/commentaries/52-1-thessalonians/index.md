@@ -2,7 +2,7 @@
 title: "1 Thessalonians"
 category: "bible"
 description: "Commentary on 1 Thessalonians"
-tags: ["1-thessalonians", "commentary"]
+tags: ["1-thessalonians"]
 draft: false
 ---
 

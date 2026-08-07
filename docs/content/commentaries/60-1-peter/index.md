@@ -2,7 +2,7 @@
 title: "1 Peter"
 category: "bible"
 description: "Commentary on 1 Peter"
-tags: ["1-peter", "commentary"]
+tags: ["1-peter"]
 draft: false
 ---
 

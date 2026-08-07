@@ -2,7 +2,7 @@
 title: "Hebrew Alphabet"
 category: "other"
 description: "Introduction to Hebrew letters, pronunciations, and transliterations"
-tags: ["hebrew", "alphabet", "language", "learning"]
+tags: ["lang/hebrew", "alphabet", "learning"]
 draft: false
 ---
 

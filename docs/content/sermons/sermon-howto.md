@@ -2,7 +2,7 @@
 title: "Sermon Principals"
 category: "sermons"
 description: "Principles and guidelines for writing and delivering biblical sermons"
-tags: ["sermons", "prophecy", "teaching", "exposition", "homiletics"]
+tags: ["prophecy", "audience/teaching", "exposition", "homiletics"]
 draft: false
 ---
 

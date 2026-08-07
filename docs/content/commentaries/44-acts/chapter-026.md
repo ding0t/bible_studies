@@ -2,7 +2,7 @@
 title: "Acts 26"
 category: "bible"
 description: "Commentary and cross-referenced studies for Acts chapter 26"
-tags: ["acts", "commentary"]
+tags: ["acts"]
 draft: false
 ---
 

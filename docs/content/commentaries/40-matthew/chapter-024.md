@@ -2,7 +2,7 @@
 title: "Matthew 24"
 category: "bible"
 description: "Commentary and cross-referenced studies for Matthew chapter 24"
-tags: ["matthew", "commentary"]
+tags: ["matthew"]
 draft: false
 ---
 

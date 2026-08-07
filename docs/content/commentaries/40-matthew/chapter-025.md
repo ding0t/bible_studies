@@ -2,7 +2,7 @@
 title: "Matthew 25"
 category: "bible"
 description: "Commentary and cross-referenced studies for Matthew chapter 25"
-tags: ["matthew", "commentary"]
+tags: ["matthew"]
 draft: false
 ---
 

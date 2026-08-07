@@ -2,7 +2,7 @@
 title: "Deuteronomy 10"
 category: "bible"
 description: "Commentary and cross-referenced studies for Deuteronomy chapter 10"
-tags: ["deuteronomy", "commentary"]
+tags: ["deuteronomy"]
 draft: false
 ---
 

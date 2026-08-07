@@ -2,7 +2,7 @@
 title: "Micah"
 category: "bible"
 description: "Commentary on Micah"
-tags: ["micah", "commentary"]
+tags: ["micah"]
 draft: false
 ---
 

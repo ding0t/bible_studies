@@ -2,7 +2,7 @@
 title: "Hosea"
 category: "bible"
 description: "Commentary on Hosea"
-tags: ["hosea", "commentary"]
+tags: ["hosea"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Archaeological Sites"
 category: "archaeology"
 description: "Archaeological sites that validate Scripture"
-tags: ["archaeology", "biblical sites", "Jerusalem", "excavations", "apologetics"]
+tags: ["method/archaeology", "biblical-sites", "jerusalem", "excavations", "apologetics"]
 draft: false
 ---
 

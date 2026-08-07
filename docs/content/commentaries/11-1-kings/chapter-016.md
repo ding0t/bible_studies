@@ -2,7 +2,7 @@
 title: "1 Kings 16"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Kings chapter 16"
-tags: ["1-kings", "commentary"]
+tags: ["1-kings"]
 draft: false
 ---
 

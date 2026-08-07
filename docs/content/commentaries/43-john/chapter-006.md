@@ -2,7 +2,7 @@
 title: "John 6"
 category: "bible"
 description: "Commentary and cross-referenced studies for John chapter 6"
-tags: ["john", "commentary"]
+tags: ["john"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "1 Timothy 6"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Timothy chapter 6"
-tags: ["1-timothy", "commentary"]
+tags: ["1-timothy"]
 draft: false
 ---
 

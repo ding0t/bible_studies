@@ -2,7 +2,7 @@
 title: "Hebrews 3"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 3"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

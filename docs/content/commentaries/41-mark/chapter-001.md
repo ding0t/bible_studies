@@ -2,7 +2,7 @@
 title: "Mark 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Mark chapter 1"
-tags: ["mark", "commentary"]
+tags: ["mark"]
 draft: false
 ---
 

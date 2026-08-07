@@ -2,7 +2,7 @@
 title: "Acts 18"
 category: "bible"
 description: "Commentary and cross-referenced studies for Acts chapter 18"
-tags: ["acts", "commentary"]
+tags: ["acts"]
 draft: false
 ---
 

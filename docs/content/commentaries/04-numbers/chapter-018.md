@@ -2,7 +2,7 @@
 title: "Numbers 18"
 category: "bible"
 description: "Commentary and cross-referenced studies for Numbers chapter 18"
-tags: ["numbers", "commentary"]
+tags: ["numbers"]
 draft: false
 ---
 

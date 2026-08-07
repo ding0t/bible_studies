@@ -2,7 +2,7 @@
 title: "Ezekiel"
 category: "bible"
 description: "Commentary on Ezekiel"
-tags: ["ezekiel", "commentary"]
+tags: ["ezekiel"]
 draft: false
 ---
 

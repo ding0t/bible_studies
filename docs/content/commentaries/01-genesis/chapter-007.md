@@ -2,7 +2,7 @@
 title: "Genesis 7"
 category: "bible"
 description: "Commentary and cross-referenced studies for Genesis chapter 7"
-tags: ["genesis", "commentary"]
+tags: ["genesis"]
 draft: false
 ---
 

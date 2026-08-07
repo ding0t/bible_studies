@@ -2,7 +2,7 @@
 title: "Key Takeaways"
 category: "other"
 description: "What the Key Takeaways section at the top of every study is for, the five things it draws out, and the two verses it's built on."
-tags: ["about", "study-method", "key-takeaways", "transformation"]
+tags: ["study-method", "key-takeaways", "transformation"]
 draft: false
 ---
 

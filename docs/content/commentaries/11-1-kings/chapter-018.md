@@ -2,7 +2,7 @@
 title: "1 Kings 18"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Kings chapter 18"
-tags: ["1-kings", "commentary"]
+tags: ["1-kings"]
 draft: false
 ---
 

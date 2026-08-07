@@ -2,7 +2,7 @@
 title: "2 Thessalonians 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for 2 Thessalonians chapter 2"
-tags: ["2-thessalonians", "commentary"]
+tags: ["2-thessalonians"]
 draft: false
 ---
 

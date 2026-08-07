@@ -2,7 +2,7 @@
 title: "Genesis 6"
 category: "bible"
 description: "Commentary and cross-referenced studies for Genesis chapter 6"
-tags: ["genesis", "commentary"]
+tags: ["genesis"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Colossians"
 category: "bible"
 description: "Commentary on Colossians"
-tags: ["colossians", "commentary"]
+tags: ["colossians"]
 draft: false
 ---
 

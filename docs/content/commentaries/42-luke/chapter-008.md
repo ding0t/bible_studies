@@ -2,7 +2,7 @@
 title: "Luke 8"
 category: "bible"
 description: "Commentary and cross-referenced studies for Luke chapter 8"
-tags: ["luke", "commentary"]
+tags: ["luke"]
 draft: false
 ---
 

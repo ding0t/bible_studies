@@ -2,7 +2,7 @@
 title: "1 Thessalonians 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for 1 Thessalonians chapter 4"
-tags: ["1-thessalonians", "commentary"]
+tags: ["1-thessalonians"]
 draft: false
 ---
 

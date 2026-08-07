@@ -2,7 +2,7 @@
 title: "1 Timothy"
 category: "bible"
 description: "Commentary on 1 Timothy"
-tags: ["1-timothy", "commentary"]
+tags: ["1-timothy"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Joshua 15"
 category: "bible"
 description: "Commentary and cross-referenced studies for Joshua chapter 15"
-tags: ["joshua", "commentary"]
+tags: ["joshua"]
 draft: false
 ---
 

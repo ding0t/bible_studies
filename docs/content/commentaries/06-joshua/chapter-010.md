@@ -2,7 +2,7 @@
 title: "Joshua 10"
 category: "bible"
 description: "Commentary and cross-referenced studies for Joshua chapter 10"
-tags: ["joshua", "commentary"]
+tags: ["joshua"]
 draft: false
 ---
 

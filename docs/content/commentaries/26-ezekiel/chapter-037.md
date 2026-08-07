@@ -2,7 +2,7 @@
 title: "Ezekiel 37"
 category: "bible"
 description: "Commentary and cross-referenced studies for Ezekiel chapter 37"
-tags: ["ezekiel", "commentary"]
+tags: ["ezekiel"]
 draft: false
 ---
 

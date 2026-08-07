@@ -2,7 +2,7 @@
 title: "Hebrews 6"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 6"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 

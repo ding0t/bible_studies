@@ -2,7 +2,7 @@
 title: "Numbers 21"
 category: "bible"
 description: "Commentary and cross-referenced studies for Numbers chapter 21"
-tags: ["numbers", "commentary"]
+tags: ["numbers"]
 draft: false
 ---
 

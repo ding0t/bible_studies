@@ -2,7 +2,7 @@
 title: "As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man"
 category: "prophecy"
 description: "An exegetical study of Numbers 21:4-9 and John 3:14-15: how Jesus applies the bronze serpent to his own crucifixion, with word studies tracing 'lifted up' back to Isaiah's Suffering Servant."
-tags: ["typology", "numbers", "john", "crucifixion", "word-study", "old-testament", "prophecy-fulfilled"]
+tags: ["method/typology", "numbers", "john", "crucifixion", "method/word-study", "old-testament", "prophecy-fulfilled"]
 draft: false
 primary_passage: "Numbers 21:4-9; John 3:14-15"
 bible_references: ["John 3:1-21", "John 3:16", "John 12:32-34", "2 Kings 18:1-4", "Isaiah 11:10", "Isaiah 52:13", "Genesis 3:1-15", "2 Corinthians 5:21", "Romans 8:3", "Hebrews 4:15", "Numbers 20:22-29", "Numbers 21:21-35", "Revelation 12:9", "Isaiah 6:2"]

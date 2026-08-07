@@ -2,7 +2,7 @@
 title: "Ezra 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Ezra chapter 1"
-tags: ["ezra", "commentary"]
+tags: ["ezra"]
 draft: false
 ---
 

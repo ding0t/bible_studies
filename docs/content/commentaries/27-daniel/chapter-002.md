@@ -2,7 +2,7 @@
 title: "Daniel 2"
 category: "bible"
 description: "Commentary and cross-referenced studies for Daniel chapter 2"
-tags: ["daniel", "commentary"]
+tags: ["daniel"]
 draft: false
 ---
 

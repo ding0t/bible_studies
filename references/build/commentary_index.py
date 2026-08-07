@@ -226,7 +226,7 @@ def main() -> None:
             stub = (
                 f"---\ntitle: \"{book_title} {chapter}\"\ncategory: \"bible\"\n"
                 f"description: \"Commentary and cross-referenced studies for {book_title} chapter {chapter}\"\n"
-                f"tags: [\"{slug}\", \"commentary\"]\ndraft: false\n---\n\n"
+                f"tags: [\"{slug}\"]\ndraft: false\n---\n\n"
                 f"# {book_title} {chapter}\n\n"
             )
             upsert_auto_section(chapter_path, auto_section, stub)
@@ -240,7 +240,7 @@ def main() -> None:
         index_auto = f"{AUTO_START}\n## Chapters with linked studies\n\n{chapter_links}\n{AUTO_END}"
         index_stub = (
             f"---\ntitle: \"{book_title}\"\ncategory: \"bible\"\n"
-            f"description: \"Commentary on {book_title}\"\ntags: [\"{slug}\", \"commentary\"]\ndraft: false\n---\n\n"
+            f"description: \"Commentary on {book_title}\"\ntags: [\"{slug}\"]\ndraft: false\n---\n\n"
             f"# {book_title}\n\n"
         )
         upsert_auto_section(index_path, index_auto, index_stub)

@@ -2,7 +2,7 @@
 title: "John 14"
 category: "bible"
 description: "Commentary and cross-referenced studies for John chapter 14"
-tags: ["john", "commentary"]
+tags: ["john"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "2 Kings 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for 2 Kings chapter 4"
-tags: ["2-kings", "commentary"]
+tags: ["2-kings"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Ephesians"
 category: "bible"
 description: "Commentary on Ephesians"
-tags: ["ephesians", "commentary"]
+tags: ["ephesians"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "2 Samuel 21"
 category: "bible"
 description: "Commentary and cross-referenced studies for 2 Samuel chapter 21"
-tags: ["2-samuel", "commentary"]
+tags: ["2-samuel"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Psalms 110"
 category: "bible"
 description: "Commentary and cross-referenced studies for Psalms chapter 110"
-tags: ["psalms", "commentary"]
+tags: ["psalms"]
 draft: false
 ---
 

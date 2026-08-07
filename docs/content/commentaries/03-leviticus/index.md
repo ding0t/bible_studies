@@ -2,7 +2,7 @@
 title: "Leviticus"
 category: "bible"
 description: "Commentary on Leviticus"
-tags: ["leviticus", "commentary"]
+tags: ["leviticus"]
 draft: false
 ---
 

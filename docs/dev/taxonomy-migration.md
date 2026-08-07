@@ -4,8 +4,7 @@ Moving `docs/content/` to the structure defined in
 [Our Taxonomy](../content/about/our-taxonomy.md): subject sections at the top level, named from the
 systematic-theology loci, with `studies/` and `bible/` dissolved.
 
-**Done, 2026-08-07.** Kept as the record of what was changed and why. Phase 4 (tag re-faceting) is
-the one part deliberately not executed — see [Phase 4](#phase-4--tags).
+**Done, 2026-08-07 — all four phases.** Kept as the record of what was changed and why.
 
 What actually happened, against the plan:
 

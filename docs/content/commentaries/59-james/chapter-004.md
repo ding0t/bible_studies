@@ -2,7 +2,7 @@
 title: "James 4"
 category: "bible"
 description: "Commentary and cross-referenced studies for James chapter 4"
-tags: ["james", "commentary"]
+tags: ["james"]
 draft: false
 ---
 

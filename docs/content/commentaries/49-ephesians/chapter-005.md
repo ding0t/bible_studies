@@ -2,7 +2,7 @@
 title: "Ephesians 5"
 category: "bible"
 description: "Commentary and cross-referenced studies for Ephesians chapter 5"
-tags: ["ephesians", "commentary"]
+tags: ["ephesians"]
 draft: false
 ---
 

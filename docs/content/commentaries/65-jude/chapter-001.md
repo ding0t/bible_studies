@@ -2,7 +2,7 @@
 title: "Jude 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Jude chapter 1"
-tags: ["jude", "commentary"]
+tags: ["jude"]
 draft: false
 ---
 

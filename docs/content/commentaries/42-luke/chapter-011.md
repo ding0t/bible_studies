@@ -2,7 +2,7 @@
 title: "Luke 11"
 category: "bible"
 description: "Commentary and cross-referenced studies for Luke chapter 11"
-tags: ["luke", "commentary"]
+tags: ["luke"]
 draft: false
 ---
 

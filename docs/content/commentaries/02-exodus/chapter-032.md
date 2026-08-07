@@ -2,7 +2,7 @@
 title: "Exodus 32"
 category: "bible"
 description: "Commentary and cross-referenced studies for Exodus chapter 32"
-tags: ["exodus", "commentary"]
+tags: ["exodus"]
 draft: false
 ---
 

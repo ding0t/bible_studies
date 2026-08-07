@@ -2,7 +2,7 @@
 title: "Revelation 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Revelation chapter 1"
-tags: ["revelation", "commentary"]
+tags: ["revelation"]
 draft: false
 ---
 

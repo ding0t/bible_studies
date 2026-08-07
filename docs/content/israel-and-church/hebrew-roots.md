@@ -2,7 +2,7 @@
 title: "Hebrew Roots of Christianity"
 category: "prophecy"
 description: "Understanding Christianity's foundation in Old Testament prophecy and Jewish roots"
-tags: ["studies", "hebrew", "messianic", "ot-fulfillment", "christianity"]
+tags: ["lang/hebrew", "messianic-prophecy", "prophecy-fulfilled", "christianity"]
 draft: false
 ---
 

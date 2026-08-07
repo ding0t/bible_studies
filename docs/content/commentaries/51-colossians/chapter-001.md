@@ -2,7 +2,7 @@
 title: "Colossians 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Colossians chapter 1"
-tags: ["colossians", "commentary"]
+tags: ["colossians"]
 draft: false
 ---
 

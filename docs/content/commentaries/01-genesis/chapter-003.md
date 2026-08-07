@@ -2,7 +2,7 @@
 title: "Genesis 3"
 category: "bible"
 description: "Commentary and cross-referenced studies for Genesis chapter 3"
-tags: ["genesis", "commentary"]
+tags: ["genesis"]
 draft: false
 ---
 

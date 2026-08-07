@@ -2,7 +2,7 @@
 title: "Job 1"
 category: "bible"
 description: "Commentary and cross-referenced studies for Job chapter 1"
-tags: ["job", "commentary"]
+tags: ["job"]
 draft: false
 ---
 

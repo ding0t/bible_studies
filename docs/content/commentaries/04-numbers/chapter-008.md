@@ -2,7 +2,7 @@
 title: "Numbers 8"
 category: "bible"
 description: "Commentary and cross-referenced studies for Numbers chapter 8"
-tags: ["numbers", "commentary"]
+tags: ["numbers"]
 draft: false
 ---
 

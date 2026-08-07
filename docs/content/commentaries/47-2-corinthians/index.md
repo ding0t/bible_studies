@@ -2,7 +2,7 @@
 title: "2 Corinthians"
 category: "bible"
 description: "Commentary on 2 Corinthians"
-tags: ["2-corinthians", "commentary"]
+tags: ["2-corinthians"]
 draft: false
 ---
 

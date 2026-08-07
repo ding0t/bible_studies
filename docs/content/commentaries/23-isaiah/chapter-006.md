@@ -2,7 +2,7 @@
 title: "Isaiah 6"
 category: "bible"
 description: "Commentary and cross-referenced studies for Isaiah chapter 6"
-tags: ["isaiah", "commentary"]
+tags: ["isaiah"]
 draft: false
 ---
 

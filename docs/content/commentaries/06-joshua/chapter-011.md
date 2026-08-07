@@ -2,7 +2,7 @@
 title: "Joshua 11"
 category: "bible"
 description: "Commentary and cross-referenced studies for Joshua chapter 11"
-tags: ["joshua", "commentary"]
+tags: ["joshua"]
 draft: false
 ---
 

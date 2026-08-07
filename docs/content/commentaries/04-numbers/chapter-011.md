@@ -2,7 +2,7 @@
 title: "Numbers 11"
 category: "bible"
 description: "Commentary and cross-referenced studies for Numbers chapter 11"
-tags: ["numbers", "commentary"]
+tags: ["numbers"]
 draft: false
 ---
 

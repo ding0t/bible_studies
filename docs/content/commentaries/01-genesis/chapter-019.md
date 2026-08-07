@@ -2,7 +2,7 @@
 title: "Genesis 19"
 category: "bible"
 description: "Commentary and cross-referenced studies for Genesis chapter 19"
-tags: ["genesis", "commentary"]
+tags: ["genesis"]
 draft: false
 ---
 

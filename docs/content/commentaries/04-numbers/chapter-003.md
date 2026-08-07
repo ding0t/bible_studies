@@ -2,7 +2,7 @@
 title: "Numbers 3"
 category: "bible"
 description: "Commentary and cross-referenced studies for Numbers chapter 3"
-tags: ["numbers", "commentary"]
+tags: ["numbers"]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "1 John"
 category: "bible"
 description: "Commentary on 1 John"
-tags: ["1-john", "commentary"]
+tags: ["1-john"]
 draft: false
 ---
 

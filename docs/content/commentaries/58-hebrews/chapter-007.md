@@ -2,7 +2,7 @@
 title: "Hebrews 7"
 category: "bible"
 description: "Commentary and cross-referenced studies for Hebrews chapter 7"
-tags: ["hebrews", "commentary"]
+tags: ["hebrews"]
 draft: false
 ---
 
