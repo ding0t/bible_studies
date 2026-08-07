@@ -32,6 +32,20 @@ This carries the most weight in the study, and itself narrows in three passes:
 
 Sort occurrences into meaning-subcategories as they emerge (don't force every instance into a category decided in advance — an occurrence that doesn't fit is itself a finding). Cross-check the concordance work against a semantic-domain lexicon — Louw & Nida for Greek, SDBH (Semantic Dictionary of Biblical Hebrew) for Hebrew — which groups words by usage relationship rather than lexical root and often surfaces a contextual nuance a straight concordance search misses. Both are now available as local data, not just print: `references/open-data/macula-greek/SBLGNT/tsv/macula-greek-SBLGNT.tsv` and `references/open-data/macula-hebrew/WLC/tsv/macula-hebrew.tsv` carry a per-word `domain`/`ln` (Greek) or SDBH (Hebrew) column alongside lemma, Strong's number, morphology, and gloss — see [references/README.md](../../../references/README.md#word-study--original-language-tools). For Hebrew concordance/chunking specifically, `references/open-data/hebrew-vocab-tools/` adds paragraph- and pericope-level grouping keyed to the Masoretic text's own markers.
 
+**Citation discipline when several words are concorded in one study.** Concording by lexical number
+(above) protects the *query*. This protects the *write-up*, which is a separate failure point: when
+several concordance outputs get compressed into prose, a reference can migrate from one word's list
+into another's. The rule is mechanical, so use it as a check rather than as a caution — **every
+reference cited for a word must appear in that word's own concordance output. If it is not in the
+output, it does not go in the sentence.**
+
+The trap that makes this hard to see is a *parallel account where only one member carries the word*.
+Kings//Chronicles and the Gospel synoptics are full of these. A published study on this site cited
+2 Kings 21:6 alongside 2 Chronicles 33:6 as occurrences of *kāšap* — the two genuinely are parallel
+accounts of Manasseh, but only Chronicles uses that verb; Kings uses four different terms. The
+citation was true about the king and false about the word, which is exactly why re-reading did not
+catch it. Where two accounts describe one event, confirm the word separately for each.
+
 **2B. Across this author's other writings.** Narrow to the passage's own author (or corpus, if the author wrote more than one book). Note where this author's usage tracks the wider NT pattern from 2A and where it doesn't — an author-specific nuance here is often exegetically significant.
 
 **2C. In this passage.** Heaviest weight of all three passes. Grammar, syntax, sentence flow, genre, and where this sits in the author's argument up to this point govern which sense from the established range is actually in play here.
