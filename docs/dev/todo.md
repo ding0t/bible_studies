@@ -13,6 +13,16 @@ draft: false
 https://www.preceptaustin.org/daily-devotionals
 Reccomended by Isrel
 
+## Extra biblical texts -- good idea
+
+- which ones rom when and why of interest
+- which ones are refrenced in the bible
+- which ones are deuterocanonical - what is that
+- other known texts from jewish heratige (from alll the patiruacs)
+- gad the seer etc
+- dss
+- early church fatehrs
+
 ## Prophecy and jesus
 
 nature
