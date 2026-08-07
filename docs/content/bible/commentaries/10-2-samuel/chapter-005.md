@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Bible Prophecy Essentials](../../../studies/prophecy/prophecy-essentials.md) — 5:2
 - [Genealogy and Times: From Creation to Christ](../../../studies/prophecy/genealogy-times.md) — 5:4-5
 <!-- commentary-index:auto-end -->

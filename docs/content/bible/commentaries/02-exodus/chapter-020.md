@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Charting End Times](../../../studies/prophecy/prophecy-chart.md) — 20:11
 - [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 20:11
 <!-- commentary-index:auto-end -->

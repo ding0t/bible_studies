@@ -14,5 +14,6 @@ draft: false
 
 - [Feast of Trumpets: Yom Teruah](../../../studies/feasts/trumpets.md) — 15:51-53
 - [Genealogy and Times: From Creation to Christ](../../../studies/prophecy/genealogy-times.md) — 15:22
+- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 15:51-53
 - [The Trumpet Call of God](../../../studies/prophecy/trumpet.md) — 15:51-53
 <!-- commentary-index:auto-end -->

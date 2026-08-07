@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Way](../../../studies/theology/the-way.md) — 14:6 (primary passage)
+- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 14:1-4
 <!-- commentary-index:auto-end -->

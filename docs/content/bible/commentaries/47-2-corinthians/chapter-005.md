@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../../studies/prophecy-fulfilled-in-jesus/as-the-snake-was-lifted.md) — 5:21
+- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 5:10
 <!-- commentary-index:auto-end -->

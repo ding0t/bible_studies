@@ -12,5 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Bible Prophecy Essentials](../../../studies/prophecy/prophecy-essentials.md) — 2:16-17
+- [Charting End Times](../../../studies/prophecy/prophecy-chart.md) — 2:16-17
 - [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 2:16-17
 <!-- commentary-index:auto-end -->

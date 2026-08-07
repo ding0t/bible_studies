@@ -70,11 +70,11 @@ I don't hold this faith blindly, and I don't think you have to either.
 ## Recently updated
 
 <!-- recent-updates-teaser:auto-start -->
-- **[Why I Use AI in These Studies](about/why-ai-assisted-study.md)** — :material-new-box: New 2026-07-25
-- **[Bread of Life: The Feeding of the 5,000 and the 4,000](studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md)** — :material-new-box: New 2026-07-25
-- **[Israel and the Church](studies/theology/israel-and-the-church.md)** — :material-new-box: New 2026-07-24
-- **[Genealogy and Times: From Creation to Christ](studies/prophecy/genealogy-times.md)** — :material-new-box: New 2026-07-24
-- **[Prophecy Events and Times](studies/prophecy/prophecy-events-times.md)** — :material-update: Updated 2026-07-24
+- **[Charting End Times](studies/prophecy/prophecy-chart.md)** — :material-update: Updated 2026-08-07
+- **[Bible Prophecy Essentials](studies/prophecy/prophecy-essentials.md)** — :material-new-box: New 2026-08-07
+- **[The Rapture of the Church](studies/prophecy/rapture.md)** — :material-update: Updated 2026-08-07
+- **[What Creation Declares: General Revelation in Romans 1:19-23](studies/theology/creation-reveals-the-creator.md)** — :material-new-box: New 2026-08-06
+- **[The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](studies/prophecy-fulfilled-in-jesus/woman-issue-of-blood-faith-and-access.md)** — :material-update: Updated 2026-08-04
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) list for more.

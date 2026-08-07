@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../../studies/prayer/lords-prayer.md) — 25:34
+- [The Rapture of the Church](../../../studies/prophecy/rapture.md) — 25:1-13
 <!-- commentary-index:auto-end -->

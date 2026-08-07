@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Bible Prophecy Essentials](../../../studies/prophecy/prophecy-essentials.md) — 13:1-8
 - [The Day Is Near](../../../studies/prophecy/day-is-near.md) — 13:32-37
 <!-- commentary-index:auto-end -->

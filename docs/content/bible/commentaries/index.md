@@ -108,6 +108,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](16-nehemiah/)
 
+-   __Job__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](18-job/)
+
 -   __Psalms__
 
     ---
@@ -161,6 +167,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](30-amos/)
+
+-   __Micah__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](33-micah/)
 
 -   __Zephaniah__
 

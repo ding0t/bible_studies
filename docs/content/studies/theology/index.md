@@ -12,6 +12,14 @@ Broader theological topics not tied to a single feast, prophecy, or discipline.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __What Creation Declares: General Revelation in Romans 1:19-23__
+
+    ---
+
+    An exegetical study of Romans 1:19-23 on what creation alone reveals about God, with a look at young-earth arguments from design, the fossil record, and the early universe.
+
+    [:octicons-arrow-right-24: Read](creation-reveals-the-creator.md)
+
 -   __Dreams And Visions__
 
     ---
