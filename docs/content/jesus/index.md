@@ -44,14 +44,6 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
 
     [:octicons-arrow-right-24: Read](the-way.md)
 
--   __The woman at the well__
-
-    ---
-
-    Brief description of the page content
-
-    [:octicons-arrow-right-24: Read](woman-at-well.md)
-
 -   __The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus__
 
     ---

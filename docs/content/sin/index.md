@@ -28,5 +28,13 @@ Sin, temptation, and the pattern of redemption in Scripture.
 
     [:octicons-arrow-right-24: Read](sexual-immorality.md)
 
+-   __Sin and Sorcery__
+
+    ---
+
+    Why Scripture forbids sorcery: an exegetical study of Deuteronomy 18:9-22, where the fullest list of occult practices in the Bible sits immediately before the promise of the Prophet God would raise up.
+
+    [:octicons-arrow-right-24: Read](sorcery.md)
+
 </div>
 <!-- section-index:auto-end -->

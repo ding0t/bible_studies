@@ -1,16 +1,16 @@
 ---
-title: "1 John"
+title: "Nahum"
 category: "bible"
-description: "Commentary on 1 John"
-tags: ["1-john"]
+description: "Commentary on Nahum"
+tags: ["nahum"]
 draft: false
 ---
 
-# 1 John
+# Nahum
 
 
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
-- [Chapter 4](chapter-004.md) — 2 study(ies)
+- [Chapter 3](chapter-003.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

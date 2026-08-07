@@ -174,6 +174,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](33-micah/)
 
+-   __Nahum__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](34-nahum/)
+
 -   __Zephaniah__
 
     ---
@@ -239,6 +245,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](47-2-corinthians/)
+
+-   __Galatians__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](48-galatians/)
 
 -   __Ephesians__
 

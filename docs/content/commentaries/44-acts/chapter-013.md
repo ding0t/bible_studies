@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 13:19-21
+- [Sin and Sorcery](../../sin/sorcery.md) — 13:4-12
 <!-- commentary-index:auto-end -->

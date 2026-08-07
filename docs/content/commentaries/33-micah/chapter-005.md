@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 5:2
+- [Sin and Sorcery](../../sin/sorcery.md) — 5:12
 <!-- commentary-index:auto-end -->

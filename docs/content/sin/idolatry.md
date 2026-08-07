@@ -1,6 +1,6 @@
 ---
 title: "Sin and Idolatry"
-category: "prophecy"
+category: "sin"
 description: "Understanding idolatry as a primary sin against God"
 tags: ["idolatry", "doctrine", "repentance"]
 draft: false

@@ -15,6 +15,14 @@ way.
 <!-- recent-updates:auto-start -->
 <div class="grid cards" markdown>
 
+-   __Tags__
+
+    ---
+
+    Browse every study on this site by tag — method, original language, subject, and status.
+
+    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](../tags.md)
+
 -   __Prayer__
 
     ---
@@ -63,6 +71,14 @@ way.
 
     :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sermons/on-teaching.md)
 
+-   __Foundations for Studying the Word__
+
+    ---
+
+    Foundational principles for approaching biblical study with a prophetic perspective
+
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sermons/dispensational.md)
+
 -   __Hebrew Learning Resources__
 
     ---
@@ -71,6 +87,30 @@ way.
 
     :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/hebrew-learning-resources.md)
 
+-   __How This Site Is Built__
+
+    ---
+
+    The tech behind this site: mkdocs + Astro, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys
+
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/site-architecture.md)
+
+-   __Open Bible Data on GitHub__
+
+    ---
+
+    Master list of open-license Bible text, manuscript, lexicon, and cross-reference repositories we fork for use in this project, and why.
+
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/github.md)
+
+-   __Jewish Literature & Primary Sources__
+
+    ---
+
+    Sefaria and other sources for Jewish literature (Mishnah, Talmud) relevant to understanding a passage's Second Temple / rabbinic background
+
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/jewish-sources.md)
+
 -   __Hebrew Alphabet__
 
     ---
@@ -78,6 +118,14 @@ way.
     Introduction to Hebrew letters, pronunciations, and transliterations
 
     :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/hebrew-alphabet.md)
+
+-   __Sin and Sorcery__
+
+    ---
+
+    Why Scripture forbids sorcery: an exegetical study of Deuteronomy 18:9-22, where the fullest list of occult practices in the Bible sits immediately before the promise of the Prophet God would raise up.
+
+    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sin/sorcery.md)
 
 -   __Sin and Idolatry__
 
@@ -111,14 +159,6 @@ way.
 
     :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/woman-issue-of-blood-faith-and-access.md)
 
--   __The woman at the well__
-
-    ---
-
-    Brief description of the page content
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/woman-at-well.md)
-
 -   __Bread of Life: The Feeding of the 5,000 and the 4,000__
 
     ---
@@ -134,46 +174,6 @@ way.
     An exegetical study of Numbers 21:4-9 and John 3:14-15: how Jesus applies the bronze serpent to his own crucifixion, with word studies tracing 'lifted up' back to Isaiah's Suffering Servant.
 
     :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/as-the-snake-was-lifted.md)
-
--   __Woman with the Issue of Blood__
-
-    ---
-
-    How the healing of the woman with the bleeding issue demonstrates Jesus as the Messiah through the garment fringe motif and Isaiah's prophecies of healing
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/woman-suffering-bleeding.md)
-
--   __The Way__
-
-    ---
-
-    A New Testament concordance study of 'the way' (hodos): its Old Testament roots, Jesus's claim in John 14:6, and how believers called themselves the Way before outsiders coined 'Christian.'
-
-    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/the-way.md)
-
--   __Our Taxonomy__
-
-    ---
-
-    How studies on this site are organised: the systematic-theology loci it's based on, the plain-English name used for each section, and the academic term behind it.
-
-    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](our-taxonomy.md)
-
--   __Israel and the Church__
-
-    ---
-
-    Examining the Hebrew Roots argument that Israel and the Church are the same body, and where that sits against a dispensational reading
-
-    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](../israel-and-church/israel-and-the-church.md)
-
--   __Hebrew Roots of Christianity__
-
-    ---
-
-    Understanding Christianity's foundation in Old Testament prophecy and Jewish roots
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../israel-and-church/hebrew-roots.md)
 
 </div>
 <!-- recent-updates:auto-end -->

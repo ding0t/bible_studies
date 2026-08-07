@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Sin and Sorcery](../../sin/sorcery.md) — 21:8
 - [The Rapture of the Church](../../last-things/rapture.md) — 21:1-4
 <!-- commentary-index:auto-end -->

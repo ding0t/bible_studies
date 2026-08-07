@@ -70,11 +70,11 @@ I don't hold this faith blindly, and I don't think you have to either.
 ## Recently updated
 
 <!-- recent-updates-teaser:auto-start -->
+- **[Tags](tags.md)** — :material-new-box: New 2026-08-07
 - **[Prayer](christian-life/prayer-as-communion.md)** — :material-update: Updated 2026-08-07
 - **[The Lord's Prayer: What Jesus Taught Us About How to Pray](christian-life/lords-prayer.md)** — :material-update: Updated 2026-08-07
 - **[Be Prepared](christian-life/be-prepared.md)** — :material-update: Updated 2026-08-07
 - **[Fasting](christian-life/fasting.md)** — :material-update: Updated 2026-08-07
-- **[Sermon Principals](sermons/sermon-howto.md)** — :material-update: Updated 2026-08-07
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) list for more.

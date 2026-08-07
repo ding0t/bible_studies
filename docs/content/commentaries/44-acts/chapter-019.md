@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Sin and Sorcery](../../sin/sorcery.md) — 19:11-20
 - [The Way](../../jesus/the-way.md) — 19:9
 <!-- commentary-index:auto-end -->

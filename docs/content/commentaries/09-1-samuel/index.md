@@ -15,4 +15,5 @@ draft: false
 - [Chapter 4](chapter-004.md) — 1 study(ies)
 - [Chapter 13](chapter-013.md) — 1 study(ies)
 - [Chapter 17](chapter-017.md) — 1 study(ies)
+- [Chapter 28](chapter-028.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->
