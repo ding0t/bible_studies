@@ -1,0 +1,134 @@
+slug: "prophecy-essentials"
+title: "Bible Prophecy Essentials"
+status: published
+target_path: "docs/content/studies/prophecy/prophecy-essentials.md"
+
+primary_passage: "Luke 24:27"
+supporting_passages:
+  - "Micah 5:2"
+  - "Matthew 2:1-6"
+  - "Isaiah 53:5-9"
+  - "Psalm 22:16-18"
+  - "Daniel 9:24-27"
+  - "Luke 19:41-44"
+  - "Matthew 24"
+  - "Mark 13"
+genre: [topical, prophets, apocalyptic, gospel]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Framework/teaching overview, not a single-passage exegesis. Existing file
+      (docs/content/studies/prophecy/prophecy-essentials.md) was already draft:false but a thin
+      bullet outline predating this skill. Rewriting in full. Deliberately a hub that links out to
+      this site's existing deep-dive studies (rapture.md, day-is-near.md, prophecy-events-times.md,
+      prophecy-chart.md) rather than re-deriving their content, per user's "short study" framing.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Historical-fulfillment section grounded in independently-datable events: Micah c. 8th c. BC
+        naming Bethlehem ~700 years before the Nativity; Isaiah 53/Psalm 22 written centuries before
+        crucifixion existed as a punishment applied to Jews (Roman-era); Daniel 9 decree-to-Triumphal-
+        Entry math already anchored in prophecy-events-times.md's external Persian-era records;
+        Jesus's Jerusalem prediction (Luke 19:41-44, Matt 24:1-2, Mark 13:1-2) fulfilled within the
+        generation of its hearers, AD 70.
+    literary_context:
+      done: true
+      notes: >
+        Each fulfilled-prophecy citation checked in its own unit of thought (Mic 5:1-3 messianic
+        oracle block; Isa 52:13-53:12 Servant Song; Ps 22 as a whole lament, not an isolated verse);
+        Olivet Discourse read as one continuous unit across Matt 24 / Mark 13 rather than verse-mined.
+    content_word_studies:
+      done: true
+      notes: >
+        Full diachronic/synchronic treatment on the load-bearing, contested terms; routine terms left
+        at gloss+Strong's.
+      terms:
+        - word: "מוֹשֵׁל (moshel)"
+          language: hebrew
+          transliteration: "moshel"
+          strongs_id: "H4910"
+          gloss: "ruler"
+          range_of_meanings: []
+          notes: "Mic 5:1(Eng 5:2). Matthew 2:6 doesn't quote this word -- it conflates Mic 5:2 with 2 Sam 5:2's 'shepherd my people Israel,' a deliberate Jewish exegetical conflation (gezerah shavah), not a misquote. Flagged plainly rather than smoothed over."
+        - word: "עוֹלָם (olam) / מִקֶּדֶם (miqqedem)"
+          language: hebrew
+          transliteration: "olam / miqqedem"
+          strongs_id: "H5769 / H6924"
+          gloss: "long duration / antiquity"
+          range_of_meanings: ["long/indefinite duration", "antiquity, ancient time", "(context-dependent) eternity"]
+          notes: >
+            TWOT root 1631a glosses olam conservatively as 'long duration,' not 'eternity' --
+            deliberately did not overclaim pre-existence/deity from this word alone. 'From of old,
+            from ancient days' (Mic 5:2b) is suggestive of the ruler's extraordinary origin but the
+            lexical claim stops at 'ancient,' full stop; the deity claim rests elsewhere in Scripture,
+            not on this word.
+        - word: "מְחֹלָל (mecholal)"
+          language: hebrew
+          transliteration: "mecholal"
+          strongs_id: "H2490"
+          gloss: "pierced"
+          range_of_meanings: ["pierce, bore through, wound fatally (TWOT root 660)", "distinguished from homonym root 661, 'pollute/profane'"]
+          notes: "Isa 53:5. Confirmed via twot_strongs the root split (660 'bore' vs 661 'pollute') -- root 660 is the one in play here, not the more frequent 'profane' root sharing the same Strong's number."
+        - word: "כָּ֝אֲרִ֗י (ka'ari) vs. 'pierced'"
+          language: hebrew
+          transliteration: "ka'ari"
+          strongs_id: "H738"
+          gloss: "like a lion"
+          range_of_meanings: []
+          notes: >
+            Ps 22:17 MT (=Eng v16). Queried WLC directly: the Masoretic consonants read כארי, 'like a
+            lion,' with no verb -- syntactically incomplete on its own ('like a lion, my hands and my
+            feet'). Cross-checked LXX (Brenton) at the parallel verse (Ps 21:17 LXX): ὤρυξαν χεῖράς
+            μου καὶ πόδας, 'they have dug/pierced my hands and feet' -- a full, sensible clause, and a
+            translation made centuries before crucifixion of a Jewish victim was a live possibility,
+            ruling out retrospective Christian editing of the Greek. ESV (queried against
+            study-notes.db) follows this reading: 'they have pierced my hands and feet.' Presented the
+            MT's own syntactic oddity plainly rather than hiding it -- this is the honest 'not
+            squinting' case, not a manufactured one.
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        The evidentiary/apologetic material (fulfilled prophecy) is presented as historical fact,
+        transculturally binding; the framework material (rapture timing, millennium) is explicitly
+        labeled as this site's own dispensational, pretribulational reading, with a fair note that
+        other Bible-believing views exist (already modeled in rapture.md's "Other end-times views").
+    theological_principle:
+      done: true
+      notes: >
+        Prophecy fulfilled with precision the human authors could not have engineered is offered as
+        evidence Scripture's claims about the future (tribulation, rapture, millennium) rest on the
+        same God who kept his word before -- not a leap of faith unsupported by the historical record.
+    application_draft:
+      done: true
+      notes: "Be Transformed: watchfulness/readiness (Matt 24-25), not date-setting; sharing the fulfilled-prophecy case rather than keeping it private."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "rapture.md", relation: "full pretrib rapture case and tribulation detail -- linked rather than re-derived"}
+      - {ref: "day-is-near.md", relation: "millennium and 'day as a thousand years' -- linked rather than re-derived"}
+      - {ref: "prophecy-events-times.md", relation: "Daniel's 69 weeks to the Triumphal Entry, with external Persian-era anchors -- linked; this study adds the still-future 70th week that page stops short of"}
+      - {ref: "prophecy-chart.md", relation: "Larkin dispensational chart, rebuilt as a real mermaid diagram -- linked"}
+    translations_compared: ["ESV", "ASV", "WLC (MT)", "LXX (Brenton)"]
+    divergences_noted: >
+      Ps 22:16/17 MT-vs-LXX (see word study above) is the one substantive divergence; ESV's rendering
+      was verified to follow the LXX/pierced reading rather than the bare MT consonants.
+  drafting:
+    done: true
+    file: "docs/content/studies/prophecy/prophecy-essentials.md"
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "Matthew 24:34/'this generation' -- noted the preterist-vs-futurist tension honestly but did not resolve it at essentials-study depth; deferred to a possible future dedicated study."
+  - "Exact scholarly citation for DSS-manuscript attestation of Ps 22's 'pierced' reading (beyond LXX, which was independently verified) not pinned down -- left the claim resting on the LXX evidence actually queried, not on an unverified manuscript siglum."
+resources_consulted:
+  - {type: lexicon, title: "TWOT (Theological Wordbook of the Old Testament)", author: "Archer, Harris & Waltke", note: "roots 660/661 for chalal (pierce vs profane homonyms); root 1631a for olam"}
+  - {type: other, title: "bible-text.db / MACULA Hebrew (WLC) and Greek (SBLGNT), Brenton LXX", author: "this repo's references/build pipeline", note: "primary verification of all Hebrew/Greek text and morphology cited"}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "verified all ESV quotations against study-notes.db; note on Ps 22 read as a check -- it favors reading the psalm as innocent-sufferer lament fulfilled typologically in the Gospels' own use of it, rather than 'straight prediction'; this study presents both framings rather than picking the stronger-sounding one uncritically"}
+  - {type: other, title: "J. Barton Payne, Encyclopedia of Biblical Prophecy (1973)", note: "source for the ~27%-of-verses predictive-material figure, used in place of the previous draft's uncited '70%' claim"}
+last_updated: "2026-08-04"

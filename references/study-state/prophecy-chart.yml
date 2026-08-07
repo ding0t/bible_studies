@@ -1,0 +1,42 @@
+slug: "prophecy-chart"
+title: "Charting End Times"
+status: published
+target_path: "docs/content/studies/prophecy/prophecy-chart.md"
+
+primary_passage: ""
+supporting_passages: ["Genesis 1:1-2:3", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 20:1-6"]
+genre: [topical, apocalyptic]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Not a passage exegesis -- a visual-summary page hosting Clarence Larkin's two dispensational
+      charts already sitting in docs/content/assets/img/larkin/ (c07.jpg "The Seven Thousand Years
+      of Human History", c09.jpg "The Relation of Jew, Gentile and Church to Each Other"), replacing
+      the previous placeholder file's garbage mermaid experiments (gitGraph with fake commits, a
+      timeline with literal "hello" content, an unlabeled flowchart, a gantt chart with typos).
+  exegesis:
+    historical_context: {done: true, notes: "Larkin, 1850-1924; charts published in Dispensational Truth, 1918/1920. Public domain in the US."}
+    literary_context: {done: true, notes: "N/A -- chart-summary page, not a passage walk-through."}
+    content_word_studies: {done: true, notes: "No new word studies; page summarizes claims already word-studied in rapture.md/day-is-near.md."}
+  hermeneutics:
+    cultural_vs_transcultural: {done: true, notes: "Explicitly separated Larkin's printed calendar dates (his own era's chronology guess, not this site's) from the dispensational shape this site does hold to -- see the flag under 'The seven thousand years' section."}
+    theological_principle: {done: true, notes: "A chart is a summary aid, not independent proof -- stated directly in the closing paragraph rather than left implicit."}
+    application_draft: {done: true, notes: "Positioned as an orientation map pointing back into rapture.md/day-is-near.md/prophecy-essentials.md, not a standalone argument."}
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "day-is-near.md", relation: "six-then-seventh pattern behind the seven-thousand-years chart; also the source of the creation-epoch discrepancy this page flags against Larkin's printed dates"}
+      - {ref: "rapture.md", relation: "tribulation/millennium detail the second chart summarizes"}
+      - {ref: "prophecy-essentials.md", relation: "the framework hub this chart page now feeds back into"}
+    translations_compared: []
+    divergences_noted: "N/A -- no scripture quoted at length on this page; verse references only."
+  drafting: {done: true, file: "docs/content/studies/prophecy/prophecy-chart.md"}
+  review: {done: false, validated: false}
+
+open_questions:
+  - "Larkin's own printed dates (Eden 4000 BC, Solomon 1000 BC) were deliberately NOT adopted as this site's chronology -- flagged as his own era's estimate, distinct from the Zadok/genealogy-times.md figures. Not a contradiction to resolve, just a distinction to keep visible."
+resources_consulted:
+  - {type: other, title: "Clarence Larkin, Dispensational Truth (1918/1920)", note: "source of both chart images already committed to docs/content/assets/img/larkin/"}
+last_updated: "2026-08-04"

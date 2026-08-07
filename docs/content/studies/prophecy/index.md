@@ -28,11 +28,27 @@ End-times and biblical prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](genealogy-times.md)
 
+-   __The Nephilim: Sons of God and the Giants of Genesis__
+
+    ---
+
+    An exegetical study of Genesis 6:1-4 and Numbers 13:33: who were the Nephilim, what 'sons of God' means, and whether the giant clans of Canaan survived the flood or persist today.
+
+    [:octicons-arrow-right-24: Read](nephilim.md)
+
+-   __Charting End Times__
+
+    ---
+
+    Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- plus a mermaid diagram of the same framework.
+
+    [:octicons-arrow-right-24: Read](prophecy-chart.md)
+
 -   __Bible Prophecy Essentials__
 
     ---
 
-    Foundational principles for approaching biblical prophecy -- why it matters, how to read it, and the essential prophecies every believer should know
+    A framework for reading biblical prophecy: why it matters, genuine fulfilled prophecies verified against source rather than assumed, and the road still ahead -- Daniel's seventieth week, the rapture, and the millennial reign.
 
     [:octicons-arrow-right-24: Read](prophecy-essentials.md)
 
@@ -43,6 +59,14 @@ End-times and biblical prophecy, read dispensationally.
     Anchoring Bible chronology to independently-dated history, pivoting forward and back from those anchors, and calculating Daniel's 70 weeks to the Triumphal Entry
 
     [:octicons-arrow-right-24: Read](prophecy-events-times.md)
+
+-   __The Rapture of the Church__
+
+    ---
+
+    The blessed hope of the Church: a word study on harpazo, the sequence of end-times events, and the case for a pretribulational rapture
+
+    [:octicons-arrow-right-24: Read](rapture.md)
 
 -   __The Trumpet Call of God__
 

@@ -1,0 +1,82 @@
+slug: "rapture"
+title: "The Rapture of the Church"
+status: published
+target_path: "docs/content/studies/prophecy/rapture.md"
+
+primary_passage: "1 Thessalonians 4:15-18"
+supporting_passages:
+  - "John 14:1-4"
+  - "Matthew 24:36-44"
+  - "Matthew 25:1-13"
+  - "1 Corinthians 15:51-53"
+  - "2 Thessalonians 2:1-7"
+  - "Revelation 3:10"
+  - "Genesis 5:21-24"
+  - "Genesis 19:15-16, 24"
+  - "2 Kings 2:11"
+genre: [epistle, gospel, apocalyptic, ot-narrative, topical]
+
+stages:
+  scoping: {done: true, notes: "Predates both skills -- no original state file existed. This entry backfills from the point of the 2026-08-04/07 review onward, not before."}
+  exegesis:
+    historical_context: {done: true, notes: "Added historical occasion for 1 Thess 4:13-18 (Thessalonian grief over believers already dead) during review, per how-to-read-the-bible.md coverage gap found."}
+    literary_context: {done: true, notes: "N/A change from review; existing cross-passage sequencing (Approach section) already sound."}
+    content_word_studies:
+      done: true
+      notes: "Re-verified during review; two new terms added."
+      terms:
+        - {word: "ἁρπάζω", language: greek, transliteration: "harpazo", strongs_id: "G726", gloss: "seize, snatch, catch away by force", range_of_meanings: [], notes: "14 NT occurrences confirmed via bible_concordance; original draft's own enumeration only named 12 -- Matt 11:12 and John 6:15 added to close the gap."}
+        - {word: "ἀπάντησις", language: greek, transliteration: "apantesis", strongs_id: "G529", gloss: "a going out to meet (civic-welcome sense)", range_of_meanings: ["technical term for a delegation going out to greet a dignitary and escort him back into the city"], notes: "Confirmed via bible_word: exactly 3 NT occurrences (1 Thess 4:17, Matt 25:6, Acts 28:15), all civic-welcome sense. Added as an honestly-engaged counter-argument to the multi-year-gap reading, not resolved away."}
+        - {word: "βῆμα", language: greek, transliteration: "bema", strongs_id: "G968", gloss: "judgment seat / tribunal bench (Roman judicial)", range_of_meanings: [], notes: "CORRECTED during review -- original draft called it 'a Greek athletic term for the judge's platform at a games.' All 12 NT occurrences checked via bible_word are judicial/civic (Pilate, Herod, Gallio, Festus, Rom 14:10, 2 Cor 5:10); ESV Study Bible's note on 2 Cor 5:10 confirms Roman courtroom tribunal. Athletic-games gloss removed entirely."}
+        - {word: "τὸ κατέχον / ὁ κατέχων", language: greek, transliteration: "to katechon / ho katechon", strongs_id: "G2722", gloss: "that which restrains (neuter, v.6) / the one restraining (masculine, v.7)", range_of_meanings: [], notes: "Confirmed directly against SBLGNT (macula-greek-sblgnt) via bible_verse: 2 Thess 2:6 has the neuter participle, 2:7 the masculine -- a real, independently-verifiable grammatical shift cited (via Robert Thomas, through Thomas Ice's article) as evidence for a personal restrainer consistent with the Spirit reading."}
+  hermeneutics:
+    cultural_vs_transcultural: {done: true, notes: "Jewish-wedding-pattern section now explicitly separates biblical betrothal/wedding *language* (firm) from the reconstructed custom-by-custom sequence (popular-teaching sourced, not primary-text attested) -- added during review."}
+    theological_principle: {done: true, notes: "Unchanged by review -- pretribulational, dispensational reading remains this site's stated conclusion."}
+    application_draft: {done: true, notes: "Key Takeaways section added during review (previously flat 'Summary of findings' bullets), converting to this site's current Be Transformed / Prayer format."}
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "zadok-calendar.md", relation: "verified link resolves and matches claim -- Daniel's-70-weeks chronology"}
+      - {ref: "day-is-near.md", relation: "verified link resolves; also newly added for Matthew 25 readiness cross-link"}
+      - {ref: "trumpet.md", relation: "verified link resolves; also newly cited as this site's own model for apocalyptic-genre imagery-tracing, applied to the millennial-reign section during review"}
+    translations_compared: ["ESV", "SBLGNT (Greek, queried directly)"]
+    divergences_noted: "None found in the ESV quotations themselves (all 28 verified verbatim against study-notes.db); the substantive finding was mis-description of Greek etymology (bema) and an unengaged counter-reading (apantesis), not translation divergence."
+  drafting: {done: true, file: "docs/content/studies/prophecy/rapture.md"}
+  review:
+    done: true
+    validated: true
+
+open_questions:
+  - "Whether 'this generation' language elsewhere on this site (Matt 24:34, discussed in prophecy-essentials.md) is fully reconciled with this study's own tribulation timeline -- not re-litigated here."
+  - "Ken Johnson's claimed ancient Hebrew Thessalonians manuscript (restrainer named explicitly as the Holy Spirit) could not be independently verified -- no catalog/provenance/named-church-father detail found in publicly available promotional material. Named directly in the study with that limit stated, per user instruction to include it honestly rather than omit or overclaim it."
+  - "Pseudo-Ephraem and Irenaeus patristic quotations not independently re-verified against a critical edition (no primary text in this repo's tooling) -- limit already flagged in the study's own text."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway, 2016", note: "Notes on Rev 3:10, 1 Thess 4:17, 2 Thess 2:6-7, 2 Cor 5:10 -- independent check not already cited in the study's own References before this review. Confirmed the Bema athletic-etymology error and the genuine ambiguity on Rev 3:10 and the restrainer's identity."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan, 2018", note: "Notes on 1 Thess 4:17 (apantesis) and 2 Thess 2:6-7 (seven restrainer proposals) -- independent second check."}
+  - {type: other, title: "Thomas Ice, 'The Holy Spirit and the Pretribulational Rapture' (according2prophecy.org), citing Robert L. Thomas", note: "Source of the to katechon / ho katechon gender-shift argument, independently confirmed against SBLGNT."}
+  - {type: other, title: "Ken Johnson, Th.D., Paul's Ancient Hebrew Thessalonian Epistles", note: "User-requested addition. Web-researched (WebSearch + WebFetch against prophecywatchers.com and according2prophecy.org product/article pages) rather than assumed -- found the specific manuscript claim is not identifiable from public material. Named in the study with that verification limit stated plainly."}
+  - {type: lexicon, title: "bible-text.db (SBLGNT via macula-greek-sblgnt, bible_word/bible_concordance)", note: "Direct verification of harpazo (14x), apantesis (3x), bema (12x, all judicial), and the katechon/katechon gender shift."}
+
+last_updated: "2026-08-07"
+review_2026-08-07:
+  reviewer: "review-bible-study skill (subagent) + user-directed follow-up"
+  scope: "Full adversarial pass -- Phases 1-6 of review-bible-study, plus a user-requested second pass adding OT typology (Lot) and researching a specific claimed source (Ken Johnson) for the restrainer argument."
+  critical_found: 3
+  critical_fixed: 3
+  moderate_found: 5
+  moderate_fixed: 5
+  minor_found: 4
+  minor_fixed: 4
+  summary: >
+    Fixed: Rev 3:10 and apantesis arguments hedged to acknowledge real scholarly ambiguity while
+    keeping this site's pretrib conclusion; Bema athletic-etymology corrected to Roman judicial
+    tribunal; restrainer-identity claim de-ranked from "most natural reading" to one of several
+    live proposals, strengthened instead with an independently-verified Greek grammatical argument
+    (to katechon/ho katechon gender shift) and a fairly-caveated citation of Ken Johnson's disputed
+    Hebrew-manuscript claim; dead "Psalm 83" citation replaced with real Joel/Amos day-of-the-Lord
+    cross-references; Rev 7/11 mis-citation corrected to Rev 7:9-14; Jewish-wedding-pattern section
+    given an explicit sourcing caveat; genre and historical-occasion coverage gaps closed; Lot added
+    as a third rapture-pattern type (Genesis 19, 2 Peter 2:5-9, Luke 17:28-30) alongside Enoch and
+    Elijah; structure converted to this site's current Key Takeaways / Discussion Questions format.
+    Flipped draft: false after this pass.
