@@ -1,14 +1,156 @@
 ---
 title: "Ancient Texts and Manuscripts"
 category: "archaeology"
-description: "Ancient texts, manuscripts, and inscriptions that validate Scripture"
-tags: ["method/archaeology", "manuscripts", "inscriptions", "dead-sea-scrolls", "apologetics"]
+description: "How Scripture compares to other ancient works on manuscript evidence, what textual criticism actually shows, and the record of a text that survived deliberate campaigns to destroy it -- with 24 corroborating artifacts."
+tags: ["method/archaeology", "method/textual-criticism", "manuscripts", "inscriptions", "dead-sea-scrolls", "apologetics"]
 draft: false
 ---
 
 # Ancient Texts, Manuscripts, and Inscriptions Validating Scripture
 
-This study examines ancient texts, manuscripts, inscriptions, and extra-biblical sources that corroborate biblical accounts. Each entry includes relevant Scripture references and historical dating.
+Sun Tzu wrote *The Art of War* around the fifth century BC. Until 1972, the earliest copy anyone had
+was a Song dynasty compilation from about AD 1080 — a gap of roughly sixteen centuries between the
+writing and the oldest surviving witness to it. Nobody treats that as a reason to doubt the book.
+
+The New Testament was written between roughly AD 50 and AD 95. A fragment of John's Gospel survives
+that was copied within about a generation of the ink drying on the original, and around 5,800 Greek
+manuscripts of the New Testament survive in total. No other work from the ancient world is attested
+anything like this well — and none of them was actively hunted.
+
+That is the double claim this study is about: Scripture is preserved far better than the classical
+texts we accept without argument, *and* it was preserved through centuries of deliberate attempts to
+destroy it.
+
+## What the evidence shows
+
+The catalogue below runs to twenty-four artifacts. Six things come out of it:
+
+1. **Textual reliability.** Manuscripts show the biblical text transmitted accurately across centuries.
+2. **Historical accuracy.** Extra-biblical sources corroborate biblical accounts — including hostile and neutral witnesses with no interest in helping.
+3. **Early dating.** Early papyri (P52, P46, P66) place the New Testament in the first and second centuries, not a later legendary period.
+4. **Widespread knowledge.** Multiple independent sources mention Christ, showing he registered on people who were not his followers.
+5. **Prophetic fulfilment.** The Dead Sea Scrolls put messianic prophecies in writing demonstrably before Christ.
+6. **Historical figures.** Inscriptions confirm biblical kings, priests and officials — David, Hezekiah, Pilate, Caiaphas.
+
+The pattern holds across categories: the Dead Sea Scrolls validate Old Testament textual accuracy,
+early papyri establish New Testament dating, inscriptions confirm named individuals, and hostile
+sources such as Tacitus and the Talmud concede Jesus's existence while disputing everything else
+about him.
+
+## How the Bible compares to other ancient works
+
+Two objective measures apply to any ancient text: how many copies survive, and how long the gap is
+between composition and the earliest surviving copy. On both, Scripture is an outlier.
+
+| Work | Written | Earliest surviving copy | Gap | Surviving manuscripts |
+|---|---|---|---|---|
+| **New Testament** | c. AD 50-95 | P52, c. AD 125-150 | **~40-60 years** | **~5,800 Greek**, plus thousands more in Latin, Syriac, Coptic and other versions |
+| Sun Tzu, *The Art of War* | c. 5th c. BC | Yinqueshan bamboo slips, c. 140-118 BC (found 1972) | ~350 years | A handful of early witnesses; before 1972 the oldest complete text was c. AD 1080 |
+| Homer, *Iliad* | c. 8th c. BC | c. 3rd c. BC fragments | ~500 years | ~1,900 |
+| Tacitus, *Annals* | c. AD 116 | 9th c. AD | ~750 years | **Books 1-6 survive in a single manuscript**; books 11-16 in one other; books 7-10 and 17-18 are lost entirely |
+| Shakespeare | 1590s-1613 | First Folio, 1623 | ~10-30 years | Printed, not copied by hand |
+
+Two honest caveats, because this comparison is often pushed further than it will go.
+
+**The playing field isn't level, and that cuts both ways.** The New Testament was copied by a
+religious community with enormous motive and reach; Tacitus was copied by a handful of monks who
+found him useful. More copies is a real advantage for reconstructing a text, but it is partly a fact
+about Christianity's spread, not only about the text's quality.
+
+**Shakespeare is the interesting case, not the easy one.** He is four centuries old and was
+*printed* rather than hand-copied, and editors still argue over genuine textual cruxes — the quarto
+and folio texts of *Hamlet* and *King Lear* differ substantially, and famous lines rest on editorial
+emendation. If a printed English text from 1623 needs this kind of reconstruction, the discipline
+applied to Scripture is not special pleading. It is the ordinary work of establishing any old text,
+carried out on the best-attested one we have.
+
+## Textual criticism: how we actually know
+
+Textual criticism is the discipline of comparing surviving manuscripts to recover what the original
+said. It is not a threat to Scripture's reliability; it is the method by which that reliability is
+demonstrated. Understanding how it works comes before trusting or dismissing its results.
+
+**The problem is an embarrassment of riches, not a shortage.** Because so many manuscripts survive,
+scholars catalogue several hundred thousand points of variation between them. That number sounds
+alarming until you see what it consists of. The overwhelming majority are spelling differences and
+word-order changes that make no difference in translation — Greek word order is flexible, so
+"Jesus loves Paul" and "Paul, Jesus loves" are the same sentence and count as a variant. A very
+small fraction are both meaningful and genuinely viable as the original reading.
+
+Even Bart Ehrman, the best-known popular sceptic on this subject, concedes the point in the appendix
+to *Misquoting Jesus*: "essential Christian beliefs are not affected by textual variants in the
+manuscript tradition of the New Testament."
+
+**Fewer manuscripts would mean fewer known variants and less certainty, not more.** Tacitus has
+almost no variants recorded for *Annals* 1-6 — because there is only one manuscript to disagree
+with. Silence there is ignorance, not accuracy.
+
+### This site works these cases rather than asserting them
+
+Several textual questions are worked through elsewhere on this site, with the manuscript evidence
+laid out rather than summarised:
+
+- **Psalm 145's missing line.** The psalm is an alphabetic acrostic, and the *nun* verse is absent
+  from the Masoretic Text — the structure itself reveals the gap. The line survives in the
+  Septuagint and the Dead Sea Scrolls. See [Biblical Numerology](numerology.md#when-the-acrostic-catches-a-missing-line),
+  which also shows how nine English versions handle it differently.
+- **Psalm 22:16 — "pierced" or "like a lion"?** A messianic proof text that turns on a single
+  Hebrew word, where the Masoretic Text and the Septuagint diverge. Worked through in
+  [Bible Prophecy Essentials](../last-things/prophecy-essentials.md).
+- **Luke 22:19b-20.** One important early witness, Codex Bezae, omits material the majority text
+  includes — one of the "Western non-interpolations." See
+  [The Last Supper and the Cups of Passover](../feasts/last-supper-four-cups.md).
+- **Revelation 13:18 — 666 or 616?** A genuine variant, and the earliest commentator on the verse
+  already knew about it. See [Biblical Numerology](numerology.md#the-one-number-scripture-asks-us-to-calculate).
+
+Each of these is a real difficulty, none is hidden, and none of them changes a doctrine. That is
+what the manuscript situation actually looks like up close.
+
+## Persecuted and preserved
+
+What makes the survival remarkable is not merely age. It is that the text was repeatedly and
+deliberately targeted for destruction — and Scripture records the first attempt itself.
+
+**Jehoiakim burns Jeremiah's scroll (c. 604 BC).** The king of Judah has the prophet's scroll read
+aloud to him, and destroys it as it is read:
+
+> ✝️ Jeremiah 36:23 (ESV)
+>
+> 23 As Jehudi read three or four columns, the king would cut them off with a knife and throw them
+> into the fire in the fire pot, until the entire scroll was consumed in the fire that was in the
+> fire pot.
+
+The response is the pattern in miniature:
+
+> ✝️ Jeremiah 36:32 (ESV)
+>
+> 32 Then Jeremiah took another scroll and gave it to Baruch the scribe, the son of Neriah, who
+> wrote on it at the dictation of Jeremiah all the words of the scroll that Jehoiakim king of Judah
+> had burned in the fire. And many similar words were added to them.
+
+The burned scroll came back longer.
+
+**Antiochus IV Epiphanes (c. 167 BC).** In the Seleucid persecution that provoked the Maccabean
+revolt, copies of the Torah were torn up and burned, and possession of a scroll was made a capital
+offence. The Dead Sea Scrolls — hidden in caves by a community under pressure — are part of how the
+text came through that era, and they are the single most important witness to the accuracy of Old
+Testament transmission.
+
+**Diocletian's edict (AD 303).** The Great Persecution ordered Christian scriptures surrendered and
+burned across the empire. It was systematic, imperial, and specifically aimed at the books.
+Within a generation, Constantine was commissioning fifty copies of the scriptures for the churches
+of Constantinople — the codices Sinaiticus and Vaticanus in the catalogue below date from roughly
+this period.
+
+**The translators (14th-16th centuries).** John Wycliffe's bones were exhumed and burned in 1428,
+decades after his death, for the offence of putting Scripture into English. William Tyndale was
+strangled and burned in 1536 for the same work. Within four years of Tyndale's execution, an English
+Bible drawing heavily on his translation was licensed by the same crown that killed him.
+
+The pattern repeats: the text is attacked, and comes out the other side more widely copied than
+before. That is the claim the artifacts below are evidence for.
+
+## The catalogue
 
 ## Old Testament Texts and Inscriptions
 
@@ -624,29 +766,22 @@ References John's baptism and execution by Herod Antipas
 
 ---
 
-## Summary: The Witness of Ancient Texts
+## Conclusion
 
-### What These Sources Confirm
+The evidence set out at the top of this page is what these twenty-four artifacts amount to: a text
+attested earlier, more often, and across more independent lines of transmission than any comparable
+work from the ancient world, and one that survived deliberate campaigns to erase it.
 
-1. **Textual Reliability** - Manuscripts demonstrate biblical text transmitted accurately across centuries
-2. **Historical Accuracy** - Extra-biblical sources corroborate biblical accounts from hostile and neutral witnesses
-3. **Early Dating** - Early manuscripts (P52, P46, P66) prove NT written in 1st-2nd centuries
-4. **Widespread Knowledge** - Multiple independent sources mention Christ, showing He was historically significant
-5. **Prophetic Fulfillment** - Dead Sea Scrolls prove messianic prophecies written before Christ
-6. **Historical Figures** - Inscriptions validate biblical kings, priests, and officials
+Archaeology cannot produce faith, and none of this is offered as a substitute for it. What it does
+is remove a particular excuse. Whatever else is in question about Scripture, whether we have
+substantially what its authors wrote is not.
 
-### The Pattern of Validation
+## Further reading on this site
 
-Ancient texts consistently support Scripture:
-- Dead Sea Scrolls validate OT textual accuracy
-- Early papyri prove NT early dating and reliability
-- Inscriptions confirm biblical figures (David, Hezekiah, Pilate, Caiaphas)
-- Hostile sources (Tacitus, Talmud) acknowledge Jesus' existence
-- Neutral sources (Josephus, Pliny) corroborate biblical accounts
-
-### Conclusion
-
-The manuscript and textual evidence provides overwhelming support for the historical reliability of Scripture. From the Dead Sea Scrolls to early Christian papyri, from ancient inscriptions to hostile witnesses, the textual record consistently validates the biblical narrative. While faith transcends archaeological proof, believers can have confidence that Scripture rests on a solid historical foundation.
+- [Early New Testament Manuscripts](early-new-testament-manuscripts.md) — English translations of the 83 earliest known New Testament papyri, all dated AD 300 or earlier
+- [Bible Translations and Source Texts](translations.md) — which manuscript traditions stand behind the English versions
+- [Archaeological Sites](archaeological-sites.md) — the sites, as distinct from the texts
+- [How to Read the Bible](how-to-read-the-bible.md) — the method this site applies to the text once its reliability is granted
 
 ---
 
