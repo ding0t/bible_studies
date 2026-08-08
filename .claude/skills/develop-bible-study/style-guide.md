@@ -25,10 +25,218 @@ for the one place in the study that actually earns it by comparison to everythin
 
 ## The tell: narrating the argument instead of making it
 
-Phrases like *"Credit where due,"* *"Against overreading,"* *"Worth noting,"* *"It's worth asking
-whether,"* *"One further point worth making"* announce that a point is coming instead of just making it.
-Cut the announcement; the point stands on its own. Same family: *"Notice that…,"* *"What's happening
-here is…,"* *"This is precisely…"* — say the observation, don't narrate that an observation is arriving.
+Phrases like *"Credit where due,"* *"Against overreading,"* *"Notice that…,"* *"What's happening
+here is…,"* *"This is precisely…"* announce that a point is coming instead of just making it. Cut the
+announcement; the point stands on its own — say the observation, don't narrate that an observation is
+arriving.
+
+### `worth ___` is a template, not a phrase
+
+This one gets its own heading because it is the single tell that keeps getting through, and the
+reason is worth understanding: **it is not a fixed phrase, it is a template with an open slot.**
+
+> it is/it's **worth** ⟨being clear / noting / stating / saying / asking / flagging / remembering /
+> pointing out / bearing in mind / a mention⟩ **that**…
+
+Every other tell on this page is a near-fixed string, so knowing the string is enough to avoid it.
+This one generates endlessly. An audit of `docs/content/` found the other eight families at 0-3
+instances each and this one at **48** (`npm run validate` reports the live count) — not because the
+rule was missing, but because the guide used to list three specimens ("Worth noting," "It's worth
+asking whether," "One further point worth making") and a writer avoiding those three will still
+happily produce *"it is worth being clear that."* Learn the shape, not the examples.
+
+The cost is exactly what it looks like: the slot-filler verb is doing no work. *"Matthew's word for
+Judas' response is worth noting. He 'changed his mind'…"* → *"Matthew's word for Judas' response:
+he 'changed his mind'…"*
+
+**Check for a doubled claim underneath it.** This construction attracts the *restated conclusion*
+tell from the section below, because announcing a point and then making it invites saying it twice.
+From a published study:
+
+> Scripture never explains this, and it is worth being clear that no verse comments on it.
+
+"Scripture never explains this" and "no verse comments on it" are one claim wearing two coats.
+Fourteen words doing four words of work: *"Scripture never explains this."* When you cut a `worth
+___`, re-read what's left on both sides of it — the redundancy is usually still sitting there.
+
+**Where it earns its place.** Not every instance is filler, which is why the validator flags this at
+warning level rather than as an error. *"Each proposal is worth stating and declining"*
+(`biblical-figures/james-son-of-alphaeus.md`) tells the reader the shape of the next four paragraphs
+— state each theory, then reject each — and deleting it loses that. The test is the same as
+everywhere else on this page: **delete it and re-read.** If the paragraph still says everything it
+said, it was filler. Roughly a third of the corpus instances survive that test; two thirds don't.
+
+## The tell: narrating your own editorial virtue
+
+The root of the section above, stated generally, because it generates more than one surface form:
+**do the honest thing; don't also tell the reader you're doing it.** Disclosing a dependency, naming
+a weakness in your own argument, admitting a text is difficult — all good. Commenting on the fact
+that you disclosed it is the writer awarding himself marks. The disclosure already *is* the
+disclosure.
+
+Three shapes, all from published studies on this site:
+
+**The virtue contrast** — the commonest, and the easiest to spot once named:
+
+> ⟨did the honest thing⟩ **rather than** ⟨smoothing it over / letting it stand / hiding one /
+> burying it / discovering it⟩
+
+*"That's worth saying plainly rather than smoothing over."* / *"This site's own position, stated
+plainly rather than smoothed into Larkin's chart."* / *"a textual difficulty rather than hiding
+one."* The trailing clause names an alternative nobody proposed and the writer was never going to
+take, so an ordinary act of reporting gets dressed up as courage. Cut the contrast, keep the fact:
+*"That's worth saying plainly"* → *"Say it: …"*, then say it.
+
+**The disclosure announcement** — a heading or lead-in advertising candour before delivering it:
+*"One dependency to state plainly."* / *"I'll say plainly:"* / *"One honest complication belongs
+here."* Name the thing, not your posture toward it. *"One dependency to state plainly."* → *"One
+dependency."*
+
+**The reader-benefit tail** — explaining what the reader gains from your having been forthcoming:
+
+> The structural claim rests on it, **and a reader should know that rather than discover it.**
+
+Fourteen words asserting that the preceding sentence was useful. Delete it; the sentence was already
+useful. (This one stacks all three shapes at once — an announcement opening the paragraph, a virtue
+contrast closing it, and a reader-benefit clause carrying the contrast. That is the usual way these
+arrive: not singly, but reinforcing each other around a fact that needed none of them.)
+
+**The test, and the real exception.** Instructions *to the reader* are not this tell. Rapture.md's
+*"Note anything that doesn't fit cleanly, rather than smoothing it over"* tells the reader what to do
+with their own study — the contrast is doing real work, because smoothing over is exactly the thing
+they might otherwise do. The tell is when the subject of the virtue is **you, the writer**. Ask: *am
+I telling the reader what to do, or telling them how well I did?*
+
+`npm run validate` flags the virtue contrast at warning level (Check 11); the other two shapes are
+too varied to detect mechanically, so they are on you.
+
+## The tell: hedging as a reflex
+
+The most damaging version of everything above, because it hides inside a real virtue. A study that
+names its own weaknesses is doing exactly what this site asks. But once the habit sets in, every
+caveat starts arriving pre-wrapped in an announcement that a caveat is coming, and the page becomes
+a performance of honesty rather than a piece of honest work.
+
+**The rule that matters: keep the caveat, cut the frame.** These are two separable things and only
+one of them is the problem:
+
+| | |
+|---|---|
+| **Caveat** — keep | "standard commentary treats ἐκ τῆς ὥρας as genuinely ambiguous between 'keep you from undergoing' and 'keep you through'" |
+| **Frame** — cut | "but it's worth being direct about how contested the underlying Greek actually is" |
+
+Do not fix this by deleting the honesty. The specific, checkable admission is the valuable part of
+the sentence; the sentence announcing that an admission is imminent is pure overhead. Cutting the
+wrong one makes the study worse.
+
+Four shapes, all from `last-things/rapture.md`, which at review time carried **29** instances of
+"rather than" and 16 disclosure frames in 283 lines:
+
+**The disclosure wrapper.** *"Worth being direct about the sourcing here…"* / *"A counter-argument
+worth engaging, not skipping past."* / *"A claim worth naming, and being direct about what can and
+can't be checked."* Delete the sentence; start at the caveat.
+
+**The trailing maxim** — an abstract general principle bolted onto a concrete choice to justify it:
+
+> …naming real, live counter-arguments rather than hiding them, **because a conclusion that can't
+> survive its own best objections isn't as strong as one that's been tested against them.**
+
+The clause is unfalsifiable, true of all arguments everywhere, and tells the reader nothing about
+the rapture. Related to the *vague hedge-tail* below, but worse: that one commits to nothing, this
+one commits to a platitude.
+
+**The repeated caveat.** Say a limitation once, where it applies. Rapture.md states "this is
+typology, not proof" four separate times (lines 25, 100, 110, 128). Repetition doesn't make a
+qualification more honest; after the second time it reads as anxiety, and a reader starts skimming
+for where the actual claim resumes.
+
+**The caveat cross-reference** — a caveat that cites another caveat elsewhere in the document to
+establish a track record of caveating: *"the same way this study flags its patristic evidence below
+rather than overclaiming it"* / *"per the caveat given there"* / *"Same verification limit as the
+Pseudo-Ephraem citation above."* State the limit; don't build a citation network out of your own
+modesty.
+
+## Structural readability
+
+Three failures that aren't about word choice at all, and that no grep will find.
+
+**Bullets that are essays.** A bullet is a promise of brevity — breaking it is worse than never
+having used one. Rapture.md has a single bullet of **344 words** (2 Thessalonians 2:6-7, the
+restrainer) and another of 257. Anything past roughly 60 words wants to be a paragraph, a
+sub-heading, or three bullets. If the content genuinely needs 300 words, it needs a heading.
+
+**The study talking about itself.** *"This study argues…," "This site reads…," "this study flags…,"
+"what this study can verify."* Rapture.md does this **19 times**. Occasional use is fine and
+sometimes necessary — distinguishing this site's position from a source's is real work. As a habit
+it turns a study about Scripture into a study about the study. Prefer stating the conclusion: *"This
+site reads that as a promise to be kept from the hour itself"* → *"That reads best as a promise to be
+kept from the hour itself."*
+
+**The section recap.** The sentence-level *restated conclusion* below has a section-level twin: a
+closing paragraph that re-lists what the preceding paragraphs just established. Rapture.md's "Taken
+together: three men removed bodily…" recaps four paragraphs the reader has just finished. End on the
+last real point.
+
+**A note on discussion questions.** They are for the reader to think about *the subject*, never about
+the study's own method. Two of rapture.md's four ask the reader to evaluate the page's handling of
+itself — *"Did seeing those objections named change how persuasive the conclusion felt to you?"* /
+*"Did that distinction change how you weighed that section…?"* — which solicits credit for the
+caveats rather than provoking thought about Scripture. Ask about Enoch and Noah, not about your
+own even-handedness.
+
+## The tell: the apologia posture
+
+Every other rule on this page works at the sentence. This one works at the whole document, which is
+why it survives a careful line-by-line pass — `about/why-ai-assisted-study.md` triggered **zero**
+validator warnings while being, from top to bottom, a defence against an accusation nobody had made.
+
+**The governing principle: defending against an implied deception implies there is one.** A page that
+works to reassure the reader that it is honest reads less trustworthy than one that simply states its
+method, because the reassurance is evidence the author expected to be doubted. Disclosure already
+made does not need to be re-earned in every paragraph.
+
+**The reader-reassurance address** is the surface form, and it is unmistakable once named:
+
+> I use AI to help research and draft the studies on this site. **You deserve to know that**, and to
+> know exactly what that does and doesn't mean — so here it is in one page.
+
+*"You deserve to know," "rest assured," "you can trust that," "I want to be clear with you," "let me
+be clear."* All of them tell the reader how to feel about the disclosure instead of making it. Cut
+the clause; the disclosure was the first sentence and it was already complete.
+
+**The oath register.** Watch for promises escalated past the weight of the fact: *"one
+non-negotiable,"* *"That gate does not move,"* *"Volume is not the goal and never has been,"*
+*"Errors here are mine. Not the tool's."* Emphasis substituting for information. "A human reads every
+line against the text before it is published" states the same policy and asks for no credit.
+
+**Sections built out of denials.** A heading like *"What this is not,"* followed by four paragraphs
+each beginning "It is not…," is the posture made structural. Denial concedes the accusation's frame.
+Retitle to what the section actually establishes — *"Where it stops"* — and the same four paragraphs
+become a statement of scope.
+
+**The fix is a change of genre, not of wording: apologia → specification.** Ask what a methods
+section in a paper would say. It would state what was done, what the known failure modes are, and
+what controls were applied — with no sentence anywhere about the author's sincerity. Every fact on
+the page survives that translation; only the posture doesn't.
+
+**This is not an argument against disclosure or against caveats.** Say the true and awkward thing.
+The rule is that saying it is sufficient — it does not also need defending, justifying, or
+emotionally framed for the reader.
+
+## The reading test that catches all of this
+
+When reviewing a draft, notice what you **skim**. If your eye slides past a sentence to get to the
+content, that sentence was overhead — and the reflex to skip it is better evidence than any rule on
+this page, because it is the same thing the reader will do. Anything you find yourself discarding as
+irrelevant while reading is a readability defect, not a neutral observation about your attention.
+
+On rapture.md, an honest pass discarded: the whole five-step *Approach* section (process narration
+that belongs in the study-state YAML — see the genre exception below, and note that it tells the
+reader nothing about the rapture), the "Taken together" recap, *"and for good reason,"* every
+disclosure wrapper, and two of the four discussion questions. That is the review, and it took one
+read-through with attention paid to skipping.
+
+### The genre exception
 
 This is a genre distinction, not a blanket rule: the study-state YAML files under
 `references/study-state/` are exactly the right place for process narration ("checked and deliberately
@@ -115,9 +323,13 @@ shows up in the rendered page.
 
 Before a draft goes to `draft: false`, grep it for: `genuinely, truly, actually, really, certainly,
 indeed, crucial, profound, compelling, delve, tapestry, boundless, unwavering, testament to, underscores,
-highlights, notably, importantly`. None of these are banned outright — the test for each hit is "does
-this word add information, or just add volume?" Delete the ones that fail that test; leave the ones
-that pass it.
+highlights, notably, importantly, that said`. None of these are banned outright — the test for each hit
+is "does this word add information, or just add volume?" Delete the ones that fail that test; leave the
+ones that pass it.
+
+Grep separately for `worth` — as a template with an open slot it can't be caught by a word list, and
+it is the tell most likely to still be in the draft. `npm run validate` also flags it (warning level,
+Check 10), so a clean validate run is the faster way to find every instance.
 
 ## Why this is worth a pass of its own
 
