@@ -126,15 +126,14 @@ Three things hold across all four lists without exception:
 Membership never crosses a group boundary. Andrew moves between positions 2 and 4, never to 5.
 Thomas and Matthew swap places freely, never out of the second four.
 
-Scripture never explains this, and it is worth being clear that no verse comments on it. But four
-independent lists agreeing on group membership and group leaders while disagreeing on internal
-order is not what carelessly-remembered lists look like. It looks like a remembered organisational
-structure — three sub-groups, each with a fixed head.
+Scripture never explains this. But four independent lists agreeing on group membership and group
+leaders while disagreeing on internal order is not what carelessly-remembered lists look like. It
+looks like a remembered organisational structure — three sub-groups, each with a fixed head.
 
-**One dependency to state plainly.** Group three's membership is only constant if Thaddaeus (Matthew,
-Mark) and Judas son of James (Luke, Acts) are the same man. If they were two different people, the
-pattern in that group breaks. The identification is the straightforward reading and is discussed
-below, but the structural claim rests on it, and a reader should know that rather than discover it.
+**One dependency.** Group three's membership is only constant if Thaddaeus (Matthew, Mark) and Judas
+son of James (Luke, Acts) are the same man. If they were two different people, the pattern in that
+group breaks. The identification is the straightforward reading and is discussed below, but the
+structural claim rests on it.
 
 **An independent trace of three groups.** The early church also remembered the apostles in threes,
 though along different lines. Summarising the oldest form of the mission traditions, Richard Lipsius
@@ -171,8 +170,7 @@ The Greek is <span lang="grc">δύο δύο</span> (*duo duo*), literally "two t
 saying "in twos," the same doubling Hebrew uses for distribution.
 
 Be careful about what this does and does not establish. Scripture never names which two travelled
-together, and this study will not guess. What can be said is narrower and still worth saying:
-Matthew, alone among the four, arranges the Twelve in pairs at precisely the point where they are
+together, and this study will not guess. What can be said is narrower: Matthew, alone among the four, arranges the Twelve in pairs at precisely the point where they are
 about to be sent out in pairs.
 
 **An early reader saw the same thing.** The apocryphal *Acts of Thomas* — a third-century romance,
@@ -359,8 +357,7 @@ are themselves the sign of that restoration.
 
 There is a quiet counterpoint. When Greeks later come looking for Jesus, they approach **Philip**,
 who fetches **Andrew** (John 12:20-22) — the only two of the Twelve carrying purely Greek names,
-both from Bethsaida in Galilee. Nothing in the text says this is why they were approached. It is
-worth noticing anyway.
+both from Bethsaida in Galilee. Nothing in the text says this is why they were approached.
 
 ## They all fled
 

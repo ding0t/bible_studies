@@ -8,7 +8,7 @@ draft: false
 
 # Our Data Sources
 
-[Why I Use AI in These Studies](why-ai-assisted-study.md) says every language claim on this site has
+[AI in These Studies](why-ai-assisted-study.md) says every language claim on this site has
 to "resolve to a real entry in a real dataset." This page is the receipt: what those datasets are,
 where each one comes from, and what it's licensed to let a study do with it.
 
