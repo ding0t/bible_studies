@@ -53,7 +53,7 @@ timeline
         New Earth : eternal state
 ```
 
-This site's own position, stated plainly rather than smoothed into Larkin's chart: the *shape* --
+This site's own position, as against Larkin's chart: the *shape* --
 six ordinary ages followed by a Sabbath-like millennium -- is argued at length and held with real
 confidence in [The Day Is Near](day-is-near.md). The specific *calendar dates* Larkin's chart prints
 (Eden at 4000 BC, Solomon at 1000 BC, and so on) are not this site's own settled chronology --

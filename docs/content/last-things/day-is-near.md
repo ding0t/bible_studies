@@ -160,7 +160,7 @@ The escalation moves from the world's suffering (vv. 4-8) to the disciples' own 
 
 **In the same way** translates **ὃν τρόπον** (*hon tropon*) -- **τρόπος** (*tropos*, G5158) means manner, fashion, way of doing something, not a span of time. Grammatically, the angels' promise is a claim about *how* Christ returns (visibly, bodily, matching how he departed) rather than *when* -- exactly what the parallel Mark 13:32 passage above says stays hidden. Reading "same way" as implying "same timing" reaches past what the Greek word itself claims; **τρόπος** is not a time-word, and treating it as one bends the text to answer a question it doesn't address.
 
-That said, this site's own working chronology ([Charting End Times](prophecy-chart.md), still under construction) has floated 2032 as a possible near-term milestone, built from the six-then-seventh framework above rather than from Acts 1:11 itself. It's worth naming plainly, in keeping with how the rest of this study has flagged its own speculative extensions: 2032 is not a conclusion this passage supports, or even a settled conclusion elsewhere on this site yet -- it's a number worth watching, held with real uncertainty, not a date to set a calendar by.
+That said, this site's own working chronology ([Charting End Times](prophecy-chart.md), still under construction) has floated 2032 as a possible near-term milestone, built from the six-then-seventh framework above rather than from Acts 1:11 itself. 2032 is not a conclusion this passage supports, or a settled conclusion elsewhere on this site -- a number to watch, held with real uncertainty, not a date to set a calendar by.
 
 ## Discussion questions
 

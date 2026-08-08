@@ -192,8 +192,7 @@ than trusting the chain as a whole:
 
 So: six of nine names hold up on their own lexical merits, one (Methuselah) is a real, motivated
 ambiguity rather than a coin-flip, and two (Kenan, Lamech) have no lexical footing for the
-reading the popular chain wants from them. That's worth saying plainly rather than smoothing
-over. It doesn't wreck the pattern — six solid, theologically resonant names in a row
+reading the popular chain wants from them. That doesn't wreck the pattern — six solid, theologically resonant names in a row
 (appointed, [frail] man, praise of God, shall come down, dedicated, comfort) is still a real
 feature of the text, not manufactured. But claiming a complete nine-word sentence requires
 filling two genuine gaps with unattested glosses, and the temptation to do that — to round
