@@ -173,7 +173,7 @@ Given that, this study runs two different tools for two different jobs, and keep
   itself — the specific city named in [2 Kings 18:14](https://www.blueletterbible.org/esv/2Ki/18/14).
 - **Why it's an anchor:** Sennacherib's regnal years synchronize into the same Assyrian absolute
   chronology as Qarqar.
-- **Worth noting:** the prism boasts of trapping Hezekiah, but — tellingly — never claims to have
+- **The silence that matters:** the prism boasts of trapping Hezekiah, but never claims to have
   taken Jerusalem itself. That silence is consistent with, not just adjacent to, the biblical claim
   that the siege was broken by disaster in the Assyrian camp rather than a Judean surrender
   ([2 Kings 19:35-36](https://www.blueletterbible.org/esv/2Ki/19/35)) — an Assyrian king had every
@@ -284,17 +284,16 @@ to a year where the crucifixion actually lands on a Friday.
 **Neither result is uncontested in its details.** Critics of Hoehner's date have argued the actual
 new moon puts 1 Nisan 444 BC a month later than he used, which would push his terminus later too;
 Hoehner's own work also contains an acknowledged computational error regarding whether Friday, 7
-April AD 30 is astronomically possible as a crucifixion date. The precise day is disputed
-among people doing careful, technical work on the same data — that's worth saying plainly rather
-than picking whichever number sounds most impressive.
+April AD 30 is astronomically possible as a crucifixion date. The precise day is disputed among people doing careful,
+technical work on the same data.
 
 **What isn't in serious dispute** is the shape of the result: a decree dated by independent
 Persian-era records, run through a straightforward 483-year prophetic count, lands within days of
 Passion Week nearly two thousand years later — not in some other century, not off by a generation,
 but inside the same week Jesus rode into Jerusalem. The **specific day** ("10 Nisan," tied to the
-Passover lamb's selection four days before slaughter, Exodus 12:3) is itself an inference from
-typology, not a date Matthew states outright — worth flagging as an assumption layered onto the
-calculation, not a separate fact it independently proves.
+Passover lamb's selection four days before slaughter, Exodus 12:3) is an inference from typology,
+not a date Matthew states outright — an assumption layered onto the calculation rather than a fact
+it independently proves.
 
 ### The payoff
 
@@ -343,9 +342,8 @@ knowing the theory exists, but it doesn't obviously fit the very verse it's buil
 
 The darkness at the crucifixion ([Matthew 27:45](https://www.blueletterbible.org/esv/Mat/27/45);
 [Mark 15:33](https://www.blueletterbible.org/esv/Mar/15/33);
-[Luke 23:44-45](https://www.blueletterbible.org/esv/Luk/23/44)) is popularly called an eclipse, but
-this is astronomically impossible, and worth stating plainly rather than letting it stand
-uncorrected: a solar eclipse requires the moon to sit between the earth and sun, which only happens
+[Luke 23:44-45](https://www.blueletterbible.org/esv/Luk/23/44)) is popularly called an eclipse. That is
+astronomically impossible: a solar eclipse requires the moon to sit between the earth and sun, which only happens
 at new moon — and the crucifixion took place at Passover, which by definition falls at **full**
 moon (14 Nisan, the middle of the lunar month). Whatever caused three hours of midday darkness that
 Friday, the moon could not have been the cause. The Gospels themselves don't call it an eclipse —
@@ -399,8 +397,7 @@ above). Flagged here as a known research area, not developed further in this stu
 ## Pivoting backward from the anchors
 
 The earliest firm anchor above (Qarqar, 853 BC) doesn't reach back to the Exodus or Creation — those
-have to be extrapolated, and it's worth being honest about how much weaker that gets the further
-back you go.
+have to be extrapolated, and the further back the extrapolation runs the weaker it gets.
 
 - **Solomon's temple foundation** (his 4th year) is dated in the text itself as 480 years after the
   Exodus ([1 Kings 6:1](https://www.blueletterbible.org/esv/1Ki/6/1)). Using Thiele's Qarqar-anchored
