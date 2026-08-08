@@ -289,10 +289,12 @@ technical work on the same data.
 
 **The day counts don't quite close, either**, which a reader checking the sums will notice. Counted
 directly as proleptic Julian day numbers, 14 March 445 BC to 6 April AD 32 is **173,882** days —
-two more than the 173,880 the prophecy requires. Anderson reaches the target by reckoning 476 years
-as 173,740 days plus **116** leap days plus 24; the Julian four-year rule actually puts **119** leap
-days in that span. Hoehner's interval, 5 March 444 BC to 30 March AD 33, runs **173,884** days, four
-long. Neither gap is large enough to move the result out of Passion Week, which is the claim below
+two more than the 173,880 the prophecy requires. The ordinary decomposition reproduces that figure
+exactly: 476 x 365 = 173,740, plus the 119 leap days the Julian four-year rule puts inside that span,
+plus the 23 days from 14 March to 6 April. Where Anderson's own working absorbs the two-day
+difference is not something this study can check -- *The Coming Prince* is not among the sources
+available here, and the gap is reported without a diagnosis of its cause. Hoehner's interval,
+5 March 444 BC to 30 March AD 33, runs **173,884** days, four long. Neither gap is large enough to move the result out of Passion Week, which is the claim below
 that actually carries weight — but the arithmetic is tighter in the retelling than in the sources,
 and a two-to-four-day slack is the honest state of it.
 
