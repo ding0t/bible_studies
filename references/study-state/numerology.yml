@@ -1,0 +1,267 @@
+slug: "numerology"
+title: "Biblical Numerology"
+status: drafting
+target_path: "docs/content/scripture/numerology.md"
+
+primary_passage: "Psalm 119; Revelation 13:18"
+supporting_passages:
+  - "Proverbs 25:2"
+  - "Deuteronomy 29:29"
+  - "Genesis 1:1"
+  - "Psalm 145:13"
+  - "Lamentations 1-5"
+  - "Proverbs 31:10-31"
+  - "Daniel 5:25-28"
+  - "Matthew 1:17"
+  - "2 Timothy 3:16-17"
+genre: [topical, psalm, apocalyptic, wisdom]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Pre-existing file was a stub published at draft:false — empty "acrostic example" section,
+      a truncated Hebrew primer ending in a bare "1.", three blank/placeholder reference links,
+      and a mangled Romans 1:20 block that spliced v19 into v20 and carried a stray "Tools" line
+      (a Blue Letter Bible copy-paste artifact). Category was "prophecy"; siblings in scripture/
+      use "bible". User decisions this session: (1) move the "Numbers as symbols" material out of
+      resources/hebrew-alphabet.md into this study, leaving the letter-VALUE table on the alphabet
+      page where it belongs, with a pointer; (2) cover and critique ELS "Bible codes" rather than
+      just warning against them.
+
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Both Hebrew and Greek used their alphabets as their numeral systems — there were no separate
+        digit glyphs. This is the plain background fact the whole topic rests on, and it makes
+        letter/number correspondence unavoidable rather than mystical. Tischendorf prints Rev 13:18's
+        number as the Greek numeral-letters χξϛ (600+60+6), which demonstrates the system in the text
+        itself. Acrostic composition is attested across the ANE and functions for memorability and
+        for a rhetoric of completeness ("A to Z").
+    literary_context:
+      done: true
+      notes: >
+        Psalm 119 sits among the Torah-psalms (cf. Ps 1, 19); its acrostic is not decoration but a
+        formal claim of exhaustiveness about God's word. Lamentations 1-4 are acrostic and ch.5 is
+        deliberately NOT (still 22 verses) — the form breaks where the grief runs out of alphabet.
+        Rev 13:18 sits at the close of the two-beasts vision (13:11-18), i.e. the number is given
+        pastorally to a persecuted readership, not as a puzzle for its own sake.
+    content_word_studies:
+      done: true
+      notes: >
+        Central Greek term is psēphizō. Central Aramaic material is the Daniel 5 weight-name pun,
+        where Scripture supplies its own interpretation — the hermeneutical key of the whole study.
+      terms:
+        - word: "ψηφίζω"
+          language: greek
+          transliteration: "psēphizō"
+          strongs_id: "G5585"
+          gloss: "to count, calculate, reckon up"
+          notes: >
+            VERIFIED by concordance: exactly two NT occurrences — Luke 14:28 (the tower-builder who
+            "counts the cost") and Rev 13:18. Both are about deliberate, sober reckoning before
+            acting. Derives from psēphos, the small pebble used for counting and for casting a vote.
+            NB: bible_concordance on "G5585" also returns Hebrew H5585 hits (Isa 17:6; 27:10; 57:5;
+            Judg 15:11 — "branches") because the tool matches the bare numeric Strong's id across
+            both testaments. Filter by work_id (macula-greek-sblgnt) — do not report those as Greek.
+        - word: "מְנֵא מְנֵא תְּקֵל וּפַרְסִין"
+          language: aramaic
+          transliteration: "mene mene teqel u-pharsin"
+          strongs_id: "H4484/H8625a/H6537a"
+          gloss: "mina, mina, shekel, and half-minas (weights/currency)"
+          notes: >
+            VERIFIED against WLC + MACULA morphology, Dan 5:25-28. The words on the wall are WEIGHT
+            names; Daniel reinterprets each as a passive verb from the same root — menah "he has
+            numbered" (H4483), teqal "you have been weighed" (H8625), peras "it has been broken in
+            two" (H6537) — then puns peres against Paras, "Persia" (H6540, v28). This is the clearest
+            biblical case of God using a numerical/verbal code, and the decisive point is that the
+            text supplies the interpretation itself rather than leaving it to be decoded.
+
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Transcultural: God composes with order and intends the form of Scripture to be noticed.
+        Culture-bound: the specific mechanism (letters as numerals) belongs to Hebrew/Greek and does
+        not transfer to English, which is why English gematria on English words is category error.
+    theological_principle:
+      done: true
+      notes: >
+        Scripture's numerical patterns are features of its literary craft and are meant to be read,
+        not decoded. Where God intends a number to carry a specific message, Scripture says so and
+        supplies the interpretation (Daniel 5; Matt 1:17). Numbers reinforce meaning already stated
+        plainly; they never deliver doctrine unavailable to a reader of a good translation
+        (2 Tim 3:16-17 — the Scripture that is God-breathed and sufficient is the text as read).
+    application_draft:
+      done: true
+      notes: >
+        Read for the pattern the author built; refuse the pattern you had to build yourself. Test:
+        would this reading survive if you had not already wanted it to?
+
+  cross_reference:
+    done: true
+    cross_refs:
+      - ref: "Psalm 119"
+        relation: "VERIFIED from WLC: perfect 22-stanza acrostic, 8 verses per letter, 176 = 22x8"
+      - ref: "Lamentations 1"
+        relation: "VERIFIED: clean alephbet order"
+      - ref: "Lamentations 2, 3, 4"
+        relation: "VERIFIED: all three invert ayin/pe (pe precedes ayin). Lam 1 does not."
+      - ref: "Lamentations 3"
+        relation: "VERIFIED: 66 verses = 22x3, triple acrostic (3 consecutive verses per letter)"
+      - ref: "Lamentations 5"
+        relation: "VERIFIED by control test: 22 verses but NOT acrostic — deliberate formal collapse"
+      - ref: "Proverbs 31:10-31"
+        relation: "VERIFIED: perfect 22-verse acrostic"
+      - ref: "Psalms 111, 112"
+        relation: >
+          22-line acrostics working at the half-line, not the verse (10 verses each; vv.9-10 carry
+          three lines). My atnach-splitter recovered 19 of 22 lines in correct order, missing alef
+          and the two third-lines — consistent with the structure, not a refutation of it. Reported
+          in the study without the per-line arithmetic, since my own split was too crude to publish.
+      - ref: "Psalms 25, 34"
+        relation: >
+          VERIFIED as irregular acrostics: superscription outside the sequence, no waw verse, and an
+          extra pe verse appended at the end of each. Both share the same three irregularities.
+      - ref: "Psalms 9-10"
+        relation: >
+          VERIFIED as a broken/partial acrostic spanning both psalms — an argument for their original
+          unity (LXX/Vulgate count them as one psalm). Too irregular to tabulate; described, not listed.
+      - ref: "Nahum 1:2-8"
+        relation: >
+          CHECKED AND REJECTED as a clean example. Per-verse and per-half-line tests both fail badly.
+          The proposed acrostic requires conjectural emendation. Cited in the study as the honest
+          negative case, NOT in the verified table.
+      - ref: "Psalm 145:13"
+        relation: >
+          THE STRONGEST FIND. Acrostic runs mem (v13) -> samek (v14): the nun line is absent from MT.
+          LXX (Brenton, Ps 144:13) HAS it. Verified directly in bible-text.db, both texts.
+      - ref: "Genesis 1:1"
+        relation: >
+          VERIFIED: 7 orthographic words, 28 consonants (7x4) in WLC. BUT MACULA segments the same
+          verse as 11 morphemes. Both counts are defensible — this is the study's own demonstration
+          that heptadic claims depend on a counting convention.
+      - ref: "Revelation 13:18"
+        relation: "666; Tischendorf prints the numeral-letters χξϛ"
+      - ref: "Luke 14:28"
+        relation: "only other NT use of psēphizō — 'count the cost'"
+      - ref: "Matthew 1:17"
+        relation: "3x14 generations, structure stated explicitly by the author"
+      - ref: "Daniel 5:25-28"
+        relation: "divine numerical riddle WITH divinely-supplied interpretation"
+    translations_compared: ["WLC (MT)", "LXX (Brenton)", "ESV", "NIV", "CSB", "NASB 1995", "NASB 2020", "WEB", "ASV"]
+    divergences_noted: >
+      Psalm 145:13 nun-line, verified verse-text-by-verse-text rather than from memory:
+        ABSENT  — MT (WLC), ASV, NASB 1995
+        PRESENT, bracketed to flag it — ESV ("[The LORD is faithful in all his words...]")
+        PRESENT, unmarked — NIV, CSB, WEB, NASB 2020
+      The NASB 1995 -> NASB 2020 change is a translation reversing itself between editions.
+      This is the practical payoff: the acrostic is a structural checksum that detects a lost line,
+      and a reader can SEE the editorial decision in the brackets. Genuinely mixed result, as the
+      skill's Phase 6 predicts — no version is simply "right"; ESV is the most transparent because
+      it shows the seam.
+
+      Also verified by direct computation (final-form letters take the same value as medial):
+        David  דוד = 4+6+4 = 14
+        Neron Qesar  נרון קסר = 666
+        Nero Qesar  נרו קסר (Latin spelling, no final nun) = 616
+        thērion transliterated  תריון = 666
+      The 616 correspondence matters because 616 is an actual textual variant at Rev 13:18, and
+      Irenaeus (AH 5.30.1) describes it as "deducting the amount of fifty" — exactly the dropped
+      final nun. FIRST ATTEMPT AT THIS ARITHMETIC WAS WRONG (got 616 for Neron Qesar) because the
+      value table lacked final forms; caught and recomputed. Do not re-use the first figure.
+
+  drafting:
+    done: true
+    file: "docs/content/scripture/numerology.md"
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - >
+      11QPsa (the Qumran Psalms scroll) attests the missing Psalm 145 nun line. I did NOT read the
+      scroll or a critical apparatus directly — the attestation is taken from the CSB and NLT
+      translators' own footnotes in study-notes.db ("One Hb ms, DSS, LXX, Syr"; "As in Dead Sea
+      Scrolls and Greek and Syriac versions"). The LXX half I verified myself. The study is worded
+      to reflect exactly that: LXX stated as checked, DSS attributed to the translators' notes.
+  - >
+      The Genesis consonant-count comparison across Hebrew editions (to show ELS depends on a letter
+      sequence no two editions share) was ABANDONED as a published claim. First attempt was
+      contaminated: the WLC's inline pe/samek paragraph markers counted as consonants, and the MapM
+      ingest duplicates verses (1670 vs 1533). The underlying point is sound and well-documented
+      (Tov; ketiv/qere; plene vs defective spelling) but my own numbers were not clean enough to
+      print, so the study argues it from ketiv/qere and DSS orthography instead of from a diff.
+  - >
+      Ivan Panin's heptadic-structure claims are described from general knowledge of the critique
+      (self-selected text form, unconstrained choice of what to count). I did not obtain Panin's
+      own tables to audit a specific example. Stated at that level of confidence in the draft.
+
+resources_consulted:
+  - type: other
+    title: "Westminster Leningrad Codex (morphhb-wlc) + MACULA Hebrew"
+    note: >
+      CONTRIBUTED, not merely confirmed: every acrostic claim in the study was derived here by
+      scripting the first consonant of each verse, including the Lam 2-4 ayin/pe inversion and the
+      Lam 5 control. Also the Gen 1:1 7-word/28-letter count and the Dan 5 morphology.
+  - type: other
+    title: "Brenton Septuagint (ebible-grcbrent)"
+    note: "CONTRIBUTED: confirmed the Psalm 145 nun-line survives in Greek at LXX Ps 144:13."
+  - type: commentary
+    title: "ESV Study Bible (Crossway, 2008/2016)"
+    author: "Wayne Grudem, gen. ed."
+    note: >
+      CONFIRMED Ps 119's 22x8 structure. CONTRIBUTED on Rev 13:18: frames 666 as creaturely
+      deficiency against sevenfold divine completeness, notes both "beast" and "Nero Caesar" in
+      Hebrew letters total 666, and — the part that shaped the study's dispensational framing —
+      that many interpreters still expect a future, greater fulfilment. Also CONTRIBUTED the
+      Matt 1:17 David-gematria note.
+  - type: commentary
+    title: "NIV Biblical Theology Study Bible (Zondervan)"
+    note: "CONFIRMED the Ps 119 acrostic and the Rev 13:18 sevens-vs-666 contrast independently."
+  - type: commentary
+    title: "NIV / NKJV Cultural Backgrounds Study Bible (Zondervan; Walton & Keener)"
+    note: >
+      CONTRIBUTED the corrective that kept the study honest: on Matt 1:17 it reports that some
+      scholars attribute the David=14 gematria to coincidence, and that Matthew's three sets do not
+      in fact contain equal numbers of names. This is why the study presents 14x3 as author-stated
+      structure but the David explanation as inference rather than fact.
+  - type: commentary
+    title: "CSB Ancient Faith Study Bible (Holman) and NLT Life Application Study Bible (Tyndale)"
+    note: >
+      CONTRIBUTED the manuscript attestation for the Psalm 145 nun line ("One Hb ms, DSS, LXX, Syr" /
+      "As in Dead Sea Scrolls and Greek and Syriac versions; the Masoretic Text lacks the final two
+      lines of this verse").
+  - type: other
+    title: "Irenaeus, Against Heresies 5.30.1-3"
+    author: "Irenaeus of Lyons, c. AD 180"
+    note: >
+      CONTRIBUTED the study's patristic spine, read directly in ANF vol. 1 (public domain) at
+      /Volumes/media/bible/reference/patristics/ante-nicene-fathers/anf01.txt. Irenaeus (a) attests
+      666 in "all the most approved and ancient copies" on the testimony of men who saw John
+      face to face, (b) knows and rejects the 616 variant as a copyist's error "deducting the amount
+      of fifty," (c) proposes Lateinos and Teitan while refusing to commit, and (d) warns it is
+      "more certain, and less hazardous, to await the fulfilment of the prophecy, than to be making
+      surmises... inasmuch as many names can be found possessing the number mentioned." The earliest
+      commentator on the only number Scripture asks us to calculate both used gematria and warned
+      against overconfidence in it — which is the study's thesis in miniature.
+  - type: other
+    title: "E. W. Bullinger, Number in Scripture (1894)"
+    note: >
+      Named as the source of the popular symbolism lists and as the entry point to the tradition;
+      treated with the caution the study argues for rather than followed. Public domain.
+  - type: other
+    title: "Witztum, Rips & Rosenberg, 'Equidistant Letter Sequences in the Book of Genesis', Statistical Science 9:3 (1994)"
+    note: "The ELS paper under critique; cited for what it claimed."
+  - type: other
+    title: "McKay, Bar-Natan, Bar-Hillel & Kalai, 'Solving the Bible Code Puzzle', Statistical Science 14:2 (1999), 150-173"
+    note: >
+      The refutation, published in the same journal that ran the original. Cited for the finding that
+      the result depended on choices in the appellation list and that the same method produces
+      comparable 'codes' in a Hebrew War and Peace.
+  - type: other
+    title: "Fee & Stuart, How to Read the Bible for All Its Worth"
+    note: "The exegesis-before-hermeneutics frame behind the study's closing method section."
+
+last_updated: "2026-08-08"

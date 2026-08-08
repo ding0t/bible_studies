@@ -15,6 +15,7 @@ draft: false
 - [Simon the Zealot](../../biblical-figures/simon-the-zealot.md) — 10:4 (primary passage)
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 10:1-4 (primary passage)
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 10:3
+- [Biblical Numerology](../../scripture/numerology.md) — 10:2-4
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 10:3
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 10:4
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 10:3

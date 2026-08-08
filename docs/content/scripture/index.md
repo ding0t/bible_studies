@@ -48,7 +48,7 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
 
     ---
 
-    Exploring the deliberate numerical patterns and meanings in Scripture
+    What Scripture actually does with numbers — verified acrostics, the one number the Bible asks us to calculate, and why the 'Bible code' industry fails on its own terms.
 
     [:octicons-arrow-right-24: Read](numerology.md)
 

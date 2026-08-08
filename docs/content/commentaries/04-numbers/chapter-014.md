@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Biblical Numerology](../../scripture/numerology.md) — 14:33-34
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 14:36-37
 <!-- commentary-index:auto-end -->

@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Biblical Numerology](../../scripture/numerology.md) — 1:17
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 1:1-17
 <!-- commentary-index:auto-end -->

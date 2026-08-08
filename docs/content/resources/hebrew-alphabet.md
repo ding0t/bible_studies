@@ -92,26 +92,11 @@ Hebrew does not have a separate set of characters to represent numbers (like the
 
 So: א–ט give 1–9, י–צ give 10–90 in multiples of ten, and ק–ת give 100–400 (שׂ and שׁ share the value 300 — the dot that distinguishes them is a much later addition to the text).
 
-## Numbers as symbols
+Note that this table has 22 letters, while the consonant table above lists 23 rows: the numbering treats שׂ and שׁ as one letter, which is why Hebrew acrostic poems run to 22 lines rather than 23.
 
-Gematria is about the alphabet; this is a different, and I think more interesting, observation — that Scripture itself uses certain *numbers* with recurring meaning, independent of which letters happen to add up to them. This isn't a hidden code to decrypt; it's a pattern you can see simply by reading, the same way a reader notices that "forty" keeps showing up at moments of testing. A few of the load-bearing ones:
-
-| Number | Common significance | Example |
-| --- | --- | --- |
-| 1 | Unity — God's own oneness | "The LORD our God, the LORD is one" — [Deuteronomy 6:4 (ESV)](https://www.blueletterbible.org/esv/Deu/6/4) |
-| 2 | Testimony, witness | A matter established by two or three witnesses — [Deuteronomy 19:15 (ESV)](https://www.blueletterbible.org/esv/Deu/19/15) |
-| 3 | Divine completeness, resurrection | Jonah three days in the fish, a pattern Jesus points to His own resurrection with — [Jonah 1:17 (ESV)](https://www.blueletterbible.org/esv/Jon/1/17); [1 Corinthians 15:4 (ESV)](https://www.blueletterbible.org/esv/1Co/15/4) |
-| 4 | Creation, the earth | Four rivers out of Eden — [Genesis 2:10 (ESV)](https://www.blueletterbible.org/esv/Gen/2/10); four living creatures around the throne — [Revelation 4:6-8 (ESV)](https://www.blueletterbible.org/esv/Rev/4/6-8) |
-| 6 | Man, falling short | Man formed on the sixth day — [Genesis 1:26-31 (ESV)](https://www.blueletterbible.org/esv/Gen/1/26-31); the beast's number, "a human number," 666 — [Revelation 13:18 (ESV)](https://www.blueletterbible.org/esv/Rev/13/18) |
-| 7 | Completion, perfection, rest | God rests on the seventh day — [Genesis 2:2-3 (ESV)](https://www.blueletterbible.org/esv/Gen/2/2-3); Israel's seven appointed feasts — [Leviticus 23 (ESV)](https://www.blueletterbible.org/esv/Lev/23/1); the sevens structuring Revelation (churches, seals, trumpets, bowls) |
-| 8 | New beginning | Circumcision on the eighth day — [Genesis 17:12 (ESV)](https://www.blueletterbible.org/esv/Gen/17/12); eight people brought safely through the flood into a new world — [1 Peter 3:20 (ESV)](https://www.blueletterbible.org/esv/1Pe/3/20) |
-| 10 | Order, a complete testimony | The Ten Commandments — [Exodus 20 (ESV)](https://www.blueletterbible.org/esv/Exo/20/1) |
-| 12 | Governmental completeness | The twelve tribes — [Genesis 49 (ESV)](https://www.blueletterbible.org/esv/Gen/49/1); the twelve apostles — [Matthew 10:2-4 (ESV)](https://www.blueletterbible.org/esv/Mat/10/2-4); the New Jerusalem's twelve gates and foundations — [Revelation 21:12-14 (ESV)](https://www.blueletterbible.org/esv/Rev/21/12-14) |
-| 40 | Testing, trial | Forty days of flood — [Genesis 7:12 (ESV)](https://www.blueletterbible.org/esv/Gen/7/12); forty years in the wilderness — [Numbers 14:33-34 (ESV)](https://www.blueletterbible.org/esv/Num/14/33-34); Jesus fasting and tempted forty days — [Matthew 4:2 (ESV)](https://www.blueletterbible.org/esv/Mat/4/2) |
-
-A caution worth stating plainly: this is a pattern to notice, not a code to crack. Scripture doesn't hand us a cipher for generating new doctrine out of number-counting — it's the plain sense of the text, read straight, that carries the weight. Where a number's significance is worth pointing out, I've tried to do that in the studies themselves (see [End Times](../about/statement-of-faith.md#end-times) and the [prophecy studies](../last-things/index.md), where sevens and forties come up often) rather than treating this table as a decoder ring.
+What Scripture actually *does* with these values — the acrostic poems, the one number Revelation asks the reader to calculate, and why the modern "Bible code" systems fail — is the subject of [Biblical Numerology](../scripture/numerology.md), which also carries the table of recurring symbolic numbers that used to sit on this page.
 
 ## Resources
 
 - [Zondervan](https://zondervanacademic.com/blog/introduction-hebrew-alphabet)
-- E.W. Bullinger, *Number in Scripture: Its Supernatural Design and Spiritual Significance* (1894) — the classical source for most of the numeric-symbolism observations above; public domain, widely reprinted.
+- [Biblical Numerology](../scripture/numerology.md) — how these letter values are used, and misused.

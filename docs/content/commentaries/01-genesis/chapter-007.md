@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Biblical Numerology](../../scripture/numerology.md) — 7:12
 - [The Rapture of the Church](../../last-things/rapture.md) — 7:1
 <!-- commentary-index:auto-end -->

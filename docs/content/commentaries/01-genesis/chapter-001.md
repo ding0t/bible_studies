@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Biblical Numerology](../../scripture/numerology.md) — 1:1
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:14-19
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 1:14-19
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 1:21

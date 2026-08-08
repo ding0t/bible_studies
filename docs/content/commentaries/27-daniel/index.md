@@ -117,5 +117,6 @@ What types are seen as shadows of a truth.
 ## Chapters with linked studies
 
 - [Chapter 2](chapter-002.md) — 2 study(ies)
+- [Chapter 5](chapter-005.md) — 1 study(ies)
 - [Chapter 9](chapter-009.md) — 6 study(ies)
 <!-- commentary-index:auto-end -->

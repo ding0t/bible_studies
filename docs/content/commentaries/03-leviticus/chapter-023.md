@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 23:23-25 (primary passage)
+- [Biblical Numerology](../../scripture/numerology.md) — 23:1-44
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 23:23-25
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 23:4
 <!-- commentary-index:auto-end -->

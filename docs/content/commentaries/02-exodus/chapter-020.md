@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Biblical Numerology](../../scripture/numerology.md) — 20:1-17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 20:11
 - [The Day Is Near](../../last-things/day-is-near.md) — 20:11
 <!-- commentary-index:auto-end -->

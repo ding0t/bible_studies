@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Biblical Numerology](../../scripture/numerology.md) — 4:6-8
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 4:1
 <!-- commentary-index:auto-end -->
