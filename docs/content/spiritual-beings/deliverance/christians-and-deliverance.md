@@ -146,7 +146,7 @@ Deliverance, biblically, already happened once for all at conversion. It isn't a
 
 ## How do we account for outward signs in deliverance ministry?
 
-The outward signs (shaking, coughing, crying out) that Christians display during deliverance sessions are a real, observed phenomenon — the question is what's producing them, not whether they happen. Given the passivity, suggestion, and expectation built into the process described above, it's worth asking whether these are demonic, or a predictable response to the session's own methods.
+The outward signs (shaking, coughing, crying out) that Christians display during deliverance sessions are a real, observed phenomenon — the question is what's producing them, not whether they happen. Given the passivity, suggestion, and expectation built into the process described above, the question is whether these are demonic, or a predictable response to the session's own methods.
 
 Concerningly, it's plausible that Christians can unwittingly wander into practices closer to [sorcery](../../sin/sorcery.md) than to biblical prayer and confession — divination-adjacent diagnostic techniques (naming specific "spirits" by discernment, tracing generational curses) sit uncomfortably close to practices Scripture condemns outright, even when done with sincere Christian intent.
 

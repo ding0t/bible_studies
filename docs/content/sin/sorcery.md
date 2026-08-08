@@ -187,7 +187,7 @@ divines divinations," and *ḥōbēr ḥāber*, "one who binds a binding." The v
 a *binder*. No English version reproduces either doubling, and none reasonably could without
 sounding absurd. What is lost is a shade of intensity, not a distinct meaning.
 
-Two of the terms invite etymological over-reading, so it is worth marking the limit. The *TWOT*
+Two of the terms invite etymological over-reading, so the limit needs marking. The *TWOT*
 entry for <span dir="rtl">אוֹב</span> (*ʾôb*, item 7) glosses the root "skin-bottle," which is how
 the same consonants are used in Job 32:19. Whether the medium-sense and the wineskin-sense are one
 root or two homonyms is unsettled in the lexica, and popular explanations built on it — that the
@@ -351,7 +351,7 @@ with its related nouns φάρμακος and φάρμακοι. It appears in Paul
 "idolatry, sorcery" standing side by side (Galatians 5:20) — and three times in Revelation (9:21;
 18:23; 21:8; with 22:15).
 
-**A correction worth making.** *Pharmakeia* is often taught as though it meant pharmaceuticals, and
+**A correction.** *Pharmakeia* is often taught as though it meant pharmaceuticals, and
 Revelation read as predicting the drug industry. The word family does cover drugs and potions in
 wider Greek, and ancient magic did use them. But the question for exegesis is which sense is in play
 here, and that is answerable from the data rather than from etymology. Louw and Nida's
@@ -470,7 +470,7 @@ thing Deuteronomy 18:11 names and 1 Chronicles 10:13-14 condemns. The objection 
 information would be useless. It is that Isaiah's question applies: should a people inquire there?
 
 The one apparent counter-example is Jesus asking the Gerasene demoniac's spirit its name (Mark
-5:9), and it is worth stating rather than stepping around. Two things are true of it: it is a single
+5:9), and it should be stated rather than stepped around. Two things are true of it: it is a single
 occurrence in a narrative, and narrative reports without necessarily prescribing; and the answer,
 "Legion, for we are many," yields no hidden knowledge and changes nothing Jesus then does. Building a
 standard practice of interrogation on it, against the explicit refusals in Mark 1:34 and Luke 4:41,
