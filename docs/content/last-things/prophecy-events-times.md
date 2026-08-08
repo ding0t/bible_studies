@@ -287,6 +287,15 @@ Hoehner's own work also contains an acknowledged computational error regarding w
 April AD 30 is astronomically possible as a crucifixion date. The precise day is disputed among people doing careful,
 technical work on the same data.
 
+**The day counts don't quite close, either**, which a reader checking the sums will notice. Counted
+directly as proleptic Julian day numbers, 14 March 445 BC to 6 April AD 32 is **173,882** days —
+two more than the 173,880 the prophecy requires. Anderson reaches the target by reckoning 476 years
+as 173,740 days plus **116** leap days plus 24; the Julian four-year rule actually puts **119** leap
+days in that span. Hoehner's interval, 5 March 444 BC to 30 March AD 33, runs **173,884** days, four
+long. Neither gap is large enough to move the result out of Passion Week, which is the claim below
+that actually carries weight — but the arithmetic is tighter in the retelling than in the sources,
+and a two-to-four-day slack is the honest state of it.
+
 **What isn't in serious dispute** is the shape of the result: a decree dated by independent
 Persian-era records, run through a straightforward 483-year prophetic count, lands within days of
 Passion Week nearly two thousand years later — not in some other century, not off by a generation,
