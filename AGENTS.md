@@ -80,17 +80,30 @@ Hot-reload dev server at http://localhost:8000/. `docs_dir` is `docs/content` (s
 cd app
 npm install
 npm run dev          # dev server at http://localhost:4321/
-npm test             # node --test: build-events, calendarConvert, bibleReference
-npm run lint         # eslint src/
+npm test             # build-events, calendarConvert, bibleReference, chronology
+npm run lint         # eslint src/  (npm run format for prettier)
 npm run build        # prebuild regenerates docs/data/events.json from content frontmatter, then astro build
 ```
 
-`npm run validate` (`app/scripts/validate-content.js`, run from `app/`) checks frontmatter
-(required fields, tag quoting, draft status), image paths, and — as of the develop-bible-study
-skill's scripture quote block format — that any blockquote citing Bible text opens with
-`> ✝️ Reference (TRANSLATION)` as its first line rather than putting the reference at the end.
-Despite an older note here calling it broken, it correctly resolves `docs/content` and runs clean;
-that note was stale, not the script.
+The suites are plain `node:test` files, so a single one runs directly — `node --test
+scripts/build-events.test.js`, or `node src/utils/chronology.test.js` for the `src/utils/` ones
+(each is executable on its own; that's why `npm test` mixes both invocation styles).
+
+`npm run validate` (`app/scripts/validate-content.js`, run from `app/`) is the content linter, and
+**it is not wired into CI** — the deploy workflow runs `npm test` only, so validate has to be run
+by hand after editing content. It applies 13 checks in two groups:
+
+- **Checks 1–9, structural**: frontmatter (required fields, tag quoting, draft status), image paths,
+  scripture quote blocks opening with `> ✝️ Reference (TRANSLATION)` as their first line (the
+  develop-bible-study skill's Phase 7 format), and Hebrew/Aramaic text never wrapped in markdown
+  bold (synthetic bold misplaces niqqud — use `<span dir="rtl">`).
+- **Checks 10–13, style-guide enforcement**: the `worth ___` narrating template, "virtue contrast"
+  (`rather than` + a straw alternative), bullets over 100 words, and reader-reassurance address.
+  These are deliberately **warnings, not errors** — each has a legitimate use the regex can't
+  distinguish, and the thresholds were tuned against a corpus audit to keep false positives near
+  zero. Read the comments above each check before tightening one; the rationale is recorded there.
+  See `.claude/skills/develop-bible-study/style-guide.md` for the prose rules these partially
+  mechanize.
 
 **Bible-text database** (`references/build/` — `uv`-managed Python, ≥3.14):
 
@@ -98,7 +111,8 @@ that note was stale, not the script.
 cd references/build
 uv sync
 uv run python build.py             # builds out/bible-text.db (gitignored, regenerable)
-uv run pytest                      # book-coverage completeness checks against out/bible-text.db
+uv run pytest                      # completeness / query-diagnostics / syntax checks against out/bible-text.db
+uv run pytest tests/test_syntax.py # single suite (pythonpath is set in pyproject.toml — run from references/build)
 uv run python query.py --help      # word / concordance / verse / passage / cross-ref lookups
 uv run python twot_lookup.py --help
 uv run python commentary_index.py  # regenerate auto cross-ref pages — run after editing a study's bible_references/primary_passage
@@ -119,6 +133,11 @@ python3 utils/generate_recent_updates.py  # regenerate the Recently Updated page
 **Deploy**: `.github/workflows/deploy.yml` runs `utils/generate_recent_updates.py`, then
 `mkdocs build --site-dir site`, then `npm test` + `npm run build` in `app/`, then copies Astro's
 `dist/` on top of the mkdocs `site/` output and publishes to GitHub Pages on push to `main`.
+It is **path-filtered to `docs/**`, `app/**`, `mkdocs.yml`, and the workflow file** — a commit
+touching only `references/` or `utils/` deploys nothing. If such a change needs to reach the live
+site (e.g. re-running `commentary_index.py` wrote into `docs/content/`, or you want a fresh
+recent-updates page), either include the `docs/` edit in the same commit or trigger the workflow
+manually (`workflow_dispatch`).
 
 ## Architecture
 
@@ -140,9 +159,16 @@ python3 utils/generate_recent_updates.py  # regenerate the Recently Updated page
 - **`references/open-data/` vs `references/restricted-data/` submodules partition by license
   tier** — the directory a source lives in *is* the license audit boundary; never move a source
   between them.
-- New content should go through the **develop-bible-study** skill
+- **Two content skills, mirrored:** new content goes through **develop-bible-study**
   (`.claude/skills/develop-bible-study/SKILL.md`), which tracks resumable per-study progress in
-  `references/study-state/<slug>.yml`.
+  `references/study-state/<slug>.yml`; an already-drafted or already-published file goes through
+  **review-bible-study** (`.claude/skills/review-bible-study/SKILL.md`), which re-verifies quotes,
+  citations, and word studies against source. Reach for review, not develop, when the ask is
+  "audit / fact-check / critique" rather than "write".
+- **`references/biblefacts/` is raw, unvetted input** — transcripts and notes captured from
+  third-party teaching (currently Dead Sea Scrolls material). It is not part of either SQLite
+  pipeline and is not covered by `references/README.md`'s license tiers. Treat it as a lead to
+  chase down in a primary source, never as a citable reference in a study.
 - **`utils/generate_recent_updates.py` derives "recently updated" purely from git log** (no
   hand-maintained date frontmatter field) and writes into two marker pairs: the full list on
   `docs/content/about/recent-updates.md` and a 5-item teaser on the homepage
