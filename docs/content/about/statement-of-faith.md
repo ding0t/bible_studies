@@ -57,7 +57,13 @@ The Father is the one from whom and through whom all things exist: [1 Corinthian
 
 - [x] Jesus Christ is fully God and fully man, virgin-born, sinless, crucified for sin, bodily risen, ascended, and coming again.
 
-The Son is God become flesh, not a created being: [John 1:1,14 (ESV)](https://www.blueletterbible.org/esv/Joh/1/1) — "In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh and dwelt among us." He emptied Himself to take on humanity while remaining fully God: [Philippians 2:6-8 (ESV)](https://www.blueletterbible.org/esv/Php/2/6-8). His death and bodily resurrection are not one option among many but the substance of the gospel itself: [1 Corinthians 15:3-4 (ESV)](https://www.blueletterbible.org/esv/1Co/15/3-4) — "Christ died for our sins in accordance with the Scriptures... he was raised on the third day in accordance with the Scriptures." He ascended visibly and will return the same way He left: [Acts 1:11 (ESV)](https://www.blueletterbible.org/esv/Act/1/11).
+The Son is God become flesh, not a created being: [John 1:1,14 (ESV)](https://www.blueletterbible.org/esv/Joh/1/1) — "In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh and dwelt among us." 
+
+He emptied Himself to take on humanity while remaining fully God: [Philippians 2:6-8 (ESV)](https://www.blueletterbible.org/esv/Php/2/6-8). 
+
+His death and bodily resurrection are not one option among many but the substance of the gospel itself: [1 Corinthians 15:3-4 (ESV)](https://www.blueletterbible.org/esv/1Co/15/3-4) — "Christ died for our sins in accordance with the Scriptures... he was raised on the third day in accordance with the Scriptures." 
+
+He ascended visibly and will return the same way He left: [Acts 1:11 (ESV)](https://www.blueletterbible.org/esv/Act/1/11).
 
 ### God the Holy Spirit
 
@@ -117,7 +123,11 @@ We are called by God to seek wisdom.
 
 - [x] I am saved by the grace of God alone, through faith alone, in Christ alone — not by anything I have done or could do.
 
-This is the center of everything above. Because of sin, I owed a debt I could not pay myself, and God paid it: [Romans 5:8 (ESV)](https://www.blueletterbible.org/esv/Rom/5/8) — "God shows his love for us in that while we were still sinners, Christ died for us." Salvation is not earned; it's received: [Ephesians 2:8-9 (ESV)](https://www.blueletterbible.org/esv/Eph/2/8-9) — "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." [Titus 3:5 (ESV)](https://www.blueletterbible.org/esv/Tit/3/5) says the same thing from the other direction — "not because of works done by us in righteousness, but according to his own mercy." Belief, confession, and new life go together: [Romans 10:9-10 (ESV)](https://www.blueletterbible.org/esv/Rom/10/9-10). And I hold this exclusively, not as one path among several: [John 14:6 (ESV)](https://www.blueletterbible.org/esv/Joh/14/6) — "I am the way, and the truth, and the life. No one comes to the Father except through me."
+This is the center of everything above. Because of sin, I owed a debt I could not pay myself, and God paid it: [Romans 5:8 (ESV)](https://www.blueletterbible.org/esv/Rom/5/8) — "God shows his love for us in that while we were still sinners, Christ died for us." 
+
+Salvation is not earned; it's received: [Ephesians 2:8-9 (ESV)](https://www.blueletterbible.org/esv/Eph/2/8-9) — "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." [Titus 3:5 (ESV)](https://www.blueletterbible.org/esv/Tit/3/5) says the same thing from the other direction — "not because of works done by us in righteousness, but according to his own mercy." 
+
+Belief, confession, and new life go together: [Romans 10:9-10 (ESV)](https://www.blueletterbible.org/esv/Rom/10/9-10). And I hold this exclusively, not as one path among several: [John 14:6 (ESV)](https://www.blueletterbible.org/esv/Joh/14/6) — "I am the way, and the truth, and the life. No one comes to the Father except through me."
 
 ---
 
@@ -125,7 +135,13 @@ This is the center of everything above. Because of sin, I owed a debt I could no
 
 - [x] There is a prophesied literal seven year tribulation period.
 
-I hold a dispensational, pretribulational view of end-times prophecy. The church will be caught up to meet Christ before the tribulation begins — a real, physical event, not a metaphor for death: [1 Thessalonians 4:16-17 (ESV)](https://www.blueletterbible.org/esv/1Th/4/16-17) — "the dead in Christ will rise first. Then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air." What follows is a literal seven-year tribulation, the "one week" of [Daniel 9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27), a time of judgment on a world that has rejected God. It ends with Christ's visible, physical return to earth — not a spiritual metaphor but a King coming to reign: [Revelation 19:11-16 (ESV)](https://www.blueletterbible.org/esv/Rev/19/11-16). He then reigns for a literal thousand years ([Revelation 20:1-6 (ESV)](https://www.blueletterbible.org/esv/Rev/20/1-6)), after which comes final judgment for all who rejected Him ([Revelation 20:11-15 (ESV)](https://www.blueletterbible.org/esv/Rev/20/11-15)) and the eternal state — a new heaven and a new earth where God dwells with His people forever: [Revelation 21:1-4 (ESV)](https://www.blueletterbible.org/esv/Rev/21/1-4). See the [prophecy studies](../last-things/index.md) for the fuller working-out of this.
+I hold a dispensational, pretribulational view of end-times prophecy. The church will be caught up to meet Christ before the tribulation begins — a real, physical event, not a metaphor for death: [1 Thessalonians 4:16-17 (ESV)](https://www.blueletterbible.org/esv/1Th/4/16-17) — "the dead in Christ will rise first. Then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air." 
+
+What follows is a literal seven-year tribulation, the "one week" of [Daniel 9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27), a time of judgment on a world that has rejected God. 
+
+It ends with Christ's visible, physical return to earth — not a spiritual metaphor but a King coming to reign: [Revelation 19:11-16 (ESV)](https://www.blueletterbible.org/esv/Rev/19/11-16). 
+
+He then reigns for a literal thousand years ([Revelation 20:1-6 (ESV)](https://www.blueletterbible.org/esv/Rev/20/1-6)), after which comes final judgment for all who rejected Him ([Revelation 20:11-15 (ESV)](https://www.blueletterbible.org/esv/Rev/20/11-15)) and the eternal state — a new heaven and a new earth where God dwells with His people forever: [Revelation 21:1-4 (ESV)](https://www.blueletterbible.org/esv/Rev/21/1-4). See the [prophecy studies](../last-things/index.md) for the fuller working-out of this.
 
 ---
 
