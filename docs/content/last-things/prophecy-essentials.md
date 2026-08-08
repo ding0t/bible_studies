@@ -135,8 +135,7 @@ event. **Ruler** translates <span dir="rtl">מוֹשֵׁל</span> (*moshel*, H49
 rule"); Bethlehem's insignificance is stated plainly -- **too little**
 (<span dir="rtl">צָעִיר</span>, *tsa'ir*, H6810) among Judah's clans, the small town passed over
 for Jerusalem in every ordinary political calculation. **From of old, from ancient days**
-(<span dir="rtl">מִקֶּדֶם מִימֵי עוֹלָם</span>) is worth being precise about rather than
-overclaiming: TWOT glosses <span dir="rtl">עוֹלָם</span> (*olam*, H5769, root 1631a)
+(<span dir="rtl">מִקֶּדֶם מִימֵי עוֹלָם</span>) needs precision here. TWOT glosses <span dir="rtl">עוֹלָם</span> (*olam*, H5769, root 1631a)
 conservatively as "long duration,"
 not "eternity" outright -- the phrase marks this ruler's origin as extraordinarily ancient, which is
 suggestive alongside everything else Scripture says about the Messiah's deity, but the deity claim
@@ -148,8 +147,7 @@ itself rests on other texts, not on this word alone.
 > O Bethlehem, in the land of Judah, are by no means least among the rulers of Judah; for from you
 > shall come a ruler who will shepherd my people Israel.'"
 
-Worth stating plainly rather than smoothing over: Matthew's quotation isn't a word-for-word
-reproduction of Micah 5:2. "Who will shepherd my people Israel" comes from a different verse
+Matthew's quotation isn't a word-for-word reproduction of Micah 5:2. "Who will shepherd my people Israel" comes from a different verse
 entirely -- Nathan's word to David, "you shall be shepherd of my people Israel, and you shall be
 prince over Israel" (2 Samuel 5:2, ESV). The chief priests and scribes (Matthew 2:4-6) are shown
 deliberately reading Micah's birthplace prophecy together with David's own shepherd-king language --
@@ -193,8 +191,8 @@ were merely describing generic suffering.
 > feet — 17 I can count all my bones — they stare and gloat over me; 18 they divide my garments
 > among them, and for my clothing they cast lots.
 
-This is the single most instructive case for a skeptical reader, because it's honest about a real
-textual difficulty rather than hiding one. Queried directly against the Masoretic Text (WLC):
+This is the single most instructive case for a skeptical reader, because a real textual difficulty
+sits at its centre. Queried directly against the Masoretic Text (WLC):
 the Hebrew consonants at verse 17 (Hebrew numbering; = English v. 16) read
 <span dir="rtl">כָּ֝אֲרִ֗י</span> (*ka'ari*), "like a lion" -- which leaves the clause without a verb ("like a lion, my hands and my
 feet"), an awkward, incomplete sentence on its own terms. Checked against the Greek Septuagint
@@ -371,15 +369,15 @@ into any single piece of it above.
 
 ## Discussion questions
 
-1. The Psalm 22 case above was presented with its genuine textual difficulty (the Masoretic "like a
-   lion" versus the Septuagint's "pierced") left visible rather than smoothed over. Did seeing that
-   honesty make the case feel stronger or weaker to you than a version that hid it would have?
+1. Psalm 22:16 turns on a textual decision: the Masoretic Text reads "like a lion," the Septuagint
+   "they pierced." How much weight can a fulfilled-prophecy argument carry when its key word depends
+   on which manuscript tradition you follow -- and what would settle it?
 2. Matthew 2:6 conflates Micah 5:2 with 2 Samuel 5:2 rather than quoting Micah word-for-word. Does
    understanding *why* (a recognized Jewish exegetical practice, not an error) change how you read
    other New Testament Old Testament citations that don't look like exact quotations?
-3. This study distinguishes what's checkable against history (the fulfilled cases) from what's this
-   site's own reading of what's still ahead (the rapture's timing, the millennium's arithmetic). Did
-   that distinction change how persuasive any one section felt?
+3. Prophecies already fulfilled can be checked against history; those still ahead cannot. What kind
+   of confidence is appropriate to each, and does fulfilment in the first category earn any credit
+   for readings in the second?
 4. If someone you know doesn't believe yet, which single case above would you actually show them
    first -- and why that one rather than another?
 
