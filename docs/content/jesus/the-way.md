@@ -380,7 +380,7 @@ underlying Hebrew doesn't demand that: <span dir="rtl">דֶרֶךְ הַקֹּד
 is an ordinary construct phrase, "a way of holiness," grammatically no more a title than "the way of peace" at
 Isaiah 59:8. The capitalization is a translator's judgment call, almost certainly made with Acts's
 later usage in mind rather than anything the Hebrew text itself forces. It's a small thing, but
-worth flagging so the connection between Isaiah 35:8 and Acts's "the Way" gets stated as what it
+flagged here so the connection between Isaiah 35:8 and Acts's "the Way" is stated as what it
 is — a real thematic resonance an English capital letter makes visually obvious — rather than
 mistaken for a linguistic fact the Hebrew itself asserts.
 

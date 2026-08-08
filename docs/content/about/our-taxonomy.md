@@ -220,7 +220,7 @@ Subject is not the only way in. Every study declares the passage it is about
 chapter under [Commentaries](../commentaries/index.md). A reader who arrives at Deuteronomy 18
 will find the studies treating it, regardless of which subject folder they were filed in.
 
-This is the most reliable part of the system, and the reason is worth stating: it is *derived* rather
+This is the most reliable part of the system, because it is *derived* rather
 than hand-maintained. Metadata that nothing renders drifts, quietly, until it is wrong everywhere.
 Metadata that generates something visible stays correct because breaking it is immediately obvious.
 

@@ -69,7 +69,7 @@ more accurate, and a teacher working from an older version should correct it out
 
 ## Background: what a Zealot was
 
-There is a real historical question about how precisely to read the label, and it is worth stating
+There is a real historical question about how precisely to read the label, and it needs stating
 rather than papering over.
 
 The **Zealots** as an organised revolutionary party are firmly attested at the time of the Jewish

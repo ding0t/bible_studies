@@ -122,7 +122,7 @@ reasonable readings, and neither is stated in the text; they are harmonisations.
 to say the accounts emphasise different things and are not obviously irreconcilable, than to present
 a reconstruction as though Scripture supplied it.
 
-Matthew's word for Judas' response is worth noting. He "changed his mind" —
+Matthew's word for Judas' response: he "changed his mind" —
 <span lang="grc">μεταμέλομαι</span> (*metamelomai*), regret or remorse — rather than
 <span lang="grc">μετανοέω</span> (*metanoeō*), the ordinary New Testament word for repentance. He
 felt the weight of it, said the true thing ("I have sinned by betraying innocent blood"), said it to

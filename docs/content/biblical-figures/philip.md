@@ -66,7 +66,7 @@ see" (John 1:46).
 ## What Scripture records
 
 - **The catering test.** Facing five thousand people, Jesus turns to Philip: "Where are we to buy bread, so that these people may eat?" (John 6:5). John immediately tells the reader this was a test. Philip's answer is a budget: "Two hundred denarii worth of bread would not be enough for each of them to get a little" (John 6:7) — roughly two-thirds of a year's wages for a labourer, and by his reckoning still insufficient.
-- **The Greeks.** At the feast, Gentile worshippers approach *Philip* with their request to see Jesus; Philip goes to Andrew, and the two go together (John 12:20-22). The two apostles with Greek names are the ones the Greek-speakers approach. The text does not say this is why — it is worth noticing without being made to carry more weight than it can.
+- **The Greeks.** At the feast, Gentile worshippers approach *Philip* with their request to see Jesus; Philip goes to Andrew, and the two go together (John 12:20-22). The two apostles with Greek names are the ones the Greek-speakers approach. The text does not say this is why, and the detail can't carry more weight than that.
 - **"Show us the Father."** In the upper room, Philip asks for one thing that would settle everything: "Lord, show us the Father, and it is enough for us" (John 14:8). The reply is one of the sharpest things Jesus says to any of the Twelve — not because the request was impious, but because the answer had been standing in front of him for three years.
 
 ## What tradition says

@@ -27,7 +27,7 @@ The historical occasion — author, audience, date, and the actual circumstance 
 Don't exegete a verse in isolation from its paragraph. Ask what the author's own train of thought is — what's the point of this unit, in the author's own argument, not a point you already had in mind before you opened the book.
 
 **4. What do the words actually say?**
-Most of the time the words are plain enough in translation. When a specific word is doing real theological work, or two good translations render it noticeably differently, it's worth checking the underlying Hebrew or Greek rather than guessing — see [Hebrew Alphabet](../resources/hebrew-alphabet.md) for a start on the original languages this site leans on.
+Most of the time the words are plain enough in translation. When a specific word is doing real theological work, or two good translations render it noticeably differently, check the underlying Hebrew or Greek instead of guessing — see [Hebrew Alphabet](../resources/hebrew-alphabet.md) for a start on the original languages this site leans on.
 
 **5. What's tied to that moment, and what carries over?**
 Some things in a passage are bound to its original cultural setting; some things transcend it. This is the actual hinge between exegesis and hermeneutics — get honest about which is which before you draw a principle out of the text.
@@ -54,12 +54,12 @@ Different kinds of biblical writing were written to work differently, and readin
 
 ## A few habits worth keeping
 
-- **Compare translations.** Where two solid translations render a verse noticeably differently, that's worth noticing, not smoothing over.
+- **Compare translations.** Where two solid translations render a verse noticeably differently, slow down there.
 - **Use commentaries last, not first.** Read the text yourself before you read what someone else concluded about it — a commentary should check your reading, not form it for you.
 - **Name your sources.** If a conclusion came from a commentary, a lexicon, or someone else's teaching, say so. It's not a weakness to cite where an idea came from; it's how a reader can go verify it themselves.
 
 ## Further reading
 
 - Gordon D. Fee & Douglas Stuart, *How to Read the Bible for All Its Worth* (4th ed.) — the source of the exegesis/hermeneutics framework this whole page is built on. Worth reading in full; this page is a summary, not a substitute.
-- [Hebrew Alphabet](../resources/hebrew-alphabet.md) — for step 4 above, when a word is worth checking in its original language.
+- [Hebrew Alphabet](../resources/hebrew-alphabet.md) — for step 4 above, when a word needs checking in its original language.
 - [eBible.org](https://ebible.org/) — for comparing translations, step 5 under [A few habits worth keeping](#a-few-habits-worth-keeping).

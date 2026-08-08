@@ -16,7 +16,7 @@ draft: false
 
 ## Biblical Hebrew vs. Modern Hebrew
 
-The letters, values, and pronunciations on this page are for **Biblical Hebrew** — the language of the Tanakh, written roughly 1200–400 BC. That's the Hebrew this site's word studies always mean when they cite an original-language term, and it's worth knowing it's a different thing from the Hebrew spoken in Israel today.
+The letters, values, and pronunciations on this page are for **Biblical Hebrew** — the language of the Tanakh, written roughly 1200–400 BC. That's the Hebrew this site's word studies always mean when they cite an original-language term, and it is a different thing from the Hebrew spoken in Israel today.
 
 Hebrew was the everyday spoken language of Israel through the First Temple period, but by the time of the Babylonian exile it was already giving way to Aramaic as the language people actually used day to day — by the New Testament era Aramaic (and Greek) were the vernaculars, and Hebrew survived mainly as the language of Scripture, prayer, and rabbinic study (the Mishnah's Hebrew, from around AD 200, is already a distinct later stage from Biblical Hebrew). For roughly the next 1,700 years Hebrew was read and written but not spoken as anyone's native tongue.
 

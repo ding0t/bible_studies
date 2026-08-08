@@ -109,7 +109,7 @@ They are evidence that a tradition existed early, not evidence that its content 
 
 One genuinely useful thing they preserve: the *Acts of Thomas* opens by listing the Twelve in
 **pairs**, following Matthew's order down to "Matthew the tax-gatherer." It is dependent on Matthew
-rather than independent of him — which is exactly why it is worth having. It shows how an ancient
+rather than independent of him — which is exactly its value. It shows how an ancient
 reader parsed Matthew's Greek. See [The Twelve](../biblical-figures/twelve-apostles.md#matthews-list-is-six-pairs-and-english-hides-it).
 
 ### Later and medieval traditions

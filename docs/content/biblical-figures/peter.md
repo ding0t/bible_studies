@@ -68,7 +68,7 @@ and John (Luke 5:10). Originally from Bethsaida (John 1:44), later based at Cape
 mother-in-law's house appears in the narrative (Mark 1:29-31) — Peter was married, and was still
 travelling with his wife decades later (1 Corinthians 9:5).
 
-He was brought to Jesus by Andrew, which is worth remembering whenever Peter is treated as the
+He was brought to Jesus by Andrew — a fact easily lost whenever Peter is treated as the
 natural leader: he arrived as somebody's younger-brother introduction.
 
 ## What Scripture records

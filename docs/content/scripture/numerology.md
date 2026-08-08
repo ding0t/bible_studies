@@ -187,8 +187,8 @@ on the page. Each of these was checked verse-by-verse rather than recalled:
 | NASB 2020 | Present, unmarked — a reversal of NASB 1995 |
 
 No version is simply right here; they are making different, defensible calls about a real textual
-problem. The ESV is the most useful to a student because its brackets show the seam rather than
-smoothing it over — the reader can tell something is being decided. The NASB's change between its
+problem. The ESV is the most useful to a student because its brackets show the seam:
+the reader can tell something is being decided. The NASB's change between its
 1995 and 2020 editions is a translation committee visibly changing its mind.
 
 The wider point: the acrostic functions as a structural checksum. The poet's numerical design is

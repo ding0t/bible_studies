@@ -61,7 +61,7 @@ none of it separately.
 ## Three identifications, and why to resist them
 
 Because the silence is uncomfortable, this James has attracted more speculative identification than
-almost any other apostle. Each proposal is worth stating and declining.
+almost any other apostle. Each proposal is stated and declined below.
 
 **Is he "James the younger"?** Mark 15:40 names, among the women at the crucifixion, "Mary the
 mother of James the younger and of Joses." The Greek is <span lang="grc">Ἰάκωβος ὁ μικρός</span>
