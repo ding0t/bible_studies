@@ -1,18 +1,5 @@
 [
   {
-    "slug": "jesus/woman-at-well",
-    "title": "The woman at the well",
-    "description": "Brief description of the page content",
-    "tags": [
-      "tag1",
-      "tag2"
-    ],
-    "category": "jesus",
-    "zadok_year": 0,
-    "gregorian_year": -4004,
-    "url": "/bible_studies/jesus/woman-at-well/"
-  },
-  {
     "slug": "jesus/woman-issue-of-blood-faith-and-access",
     "title": "The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus",
     "description": "A narrative exegesis of Mark 5:25-34: Levitical background, the Markan sandwich structure, and what the touch, power, and healing vocabulary reveal about faith crossing social boundaries",
@@ -22,7 +9,7 @@
       "faith",
       "healing",
       "uncleanness",
-      "word-study",
+      "method/word-study",
       "synoptics"
     ],
     "category": "jesus",
@@ -39,7 +26,7 @@
       "healing",
       "isaiah-53",
       "garment-fringe",
-      "malachi-4:2"
+      "malachi-4-2"
     ],
     "category": "jesus",
     "zadok_year": 3988,
@@ -54,9 +41,8 @@
       "passover",
       "last-supper",
       "communion",
-      "word-study",
-      "gospels",
-      "feasts"
+      "method/word-study",
+      "gospels"
     ],
     "category": "feasts",
     "zadok_year": 4037,
@@ -68,11 +54,10 @@
     "title": "Feast of Trumpets: Yom Teruah",
     "description": "A word-study-grounded look at Leviticus 23:23-25's Yom Teruah: what teruah actually means, how the day was kept, and the case for and against its New Testament typology",
     "tags": [
-      "feasts",
       "leviticus",
       "prophecy",
-      "hebrew",
-      "word-study",
+      "lang/hebrew",
+      "method/word-study",
       "rosh-hashanah"
     ],
     "category": "feasts",
