@@ -11,64 +11,11 @@ This skill operationalizes the two-task method from Fee & Stuart, *How to Read t
 
 ## Before starting
 
-Ask the user (if not already given): the primary passage or topic, and where it should land in `docs/content/` — see **Placement** below, and [docs/content/about/our-taxonomy.md](../../../docs/content/about/our-taxonomy.md) for the full definition.
+Ask the user (if not already given): the primary passage or topic, and where it should land in `docs/content/`.
+
+**Read [placement-and-tags.md](placement-and-tags.md) now, before drafting.** Sections are top level (`docs/content/<section>/<slug>.md` — no `studies/` wrapper, no `bible/`), named from the systematic-theology loci; tags carry the facets the directory can't (`method/`, `lang/`, `status/`, `audience/`, `person/`). That file has the section table, the two sections defined but not yet created, and the tag rules. Getting placement wrong is cheap to prevent and annoying to fix once the URL is published.
 
 Create the state file for this study — see **State tracking** below — before doing any research. Update it as you complete each phase; this is what lets the study be picked back up in a later session without re-deriving where you left off.
-
-## Placement — which section, and what to tag
-
-Full definition: [our-taxonomy.md](../../../docs/content/about/our-taxonomy.md). The short version, because getting this wrong is cheap to prevent and annoying to fix once the URL is published.
-
-**Sections are top level.** There is no `studies/` wrapper and no `bible/` — a study goes at `docs/content/<section>/<slug>.md`. Named from the systematic-theology loci in plain English:
-
-| Section | Locus | Takes |
-|---|---|---|
-| `scripture/` | Bibliology | Canon, manuscripts, textual criticism, translation, how to read it, biblical archaeology, extra-biblical texts |
-| `god/` | Theology Proper | God's nature, Trinity, Holy Spirit, creation, revelation (incl. dreams and visions) |
-| `jesus/` | Christology | Who Christ is and what he did; OT prophecy fulfilled in him |
-| `sin/` | Hamartiology | The nature of sin and its particular forms |
-| `spiritual-beings/` | Angelology & Demonology | Angels, demons, Satan, Nephilim, deliverance, discernment of spirits |
-| `israel-and-church/` | Ecclesiology + the dispensational distinction | Covenants, Israel/Church, Hebrew roots |
-| `last-things/` | Eschatology | Rapture, tribulation, millennium, judgment, ordering of events |
-| `feasts/` | *Appointed times* | The feasts and calendars |
-| `christian-life/` | Practical theology | Prayer, fasting, the disciplines |
-| `commentaries/<nn>-<book>/` | — | Book studies and chapter notes, filed by book |
-| `sermons/` | Homiletics | Sermon and teaching material |
-| `resources/` | — | Guides to external material |
-
-**Two sections are defined but not created**: `salvation/` (Soteriology — grace, redemption, assurance, death) and `biblical-figures/` (biography). A section exists when it has content. **If a study genuinely belongs to one of these, say so and create it** — that is the trigger the taxonomy is waiting for, not a reason to file the study somewhere it doesn't fit. Creating one means adding the directory, a line in `SUBJECT_DIRS` in `references/build/commentary_index.py`, a blurb in `SECTION_BLURBS` in `section_index.py`, and an entry in `docs/content/.pages`.
-
-**When a study could sit in two sections**, file it by what it is *most about* and tag the other axis. Dewey's 200s are the tiebreaker — it has already adjudicated most of these (angels and demons are 235, their own subject; apocrypha is 229; calendars and appointed times are 263). Don't invent a new section to resolve a single awkward case.
-
-**Some things are not subjects at all.** *Apologetics*, *typology*, *word study* and *archaeology* are approaches, not topics — a study using them is filed by what it is about and carries the approach as a tag. An apologetics study defending Scripture's reliability is `scripture/`; one arguing from creation is `god/`; one on the resurrection is `jesus/`.
-
-**Tags carry every axis the directory can't.** Five facets use a `/` prefix and render as a real hierarchy (`tags_hierarchy: true` in `mkdocs.yml`):
-
-- `method/word-study`, `method/typology`, `method/archaeology`, `method/textual-criticism`
-- `lang/hebrew`, `lang/greek`
-- `status/investigation` — open inquiry, conclusions not settled
-- `audience/teaching`
-- `person/<name>` — a named individual the study is *about* (`person/peter`, `person/melchizedek`)
-
-**Why `person/` exists, and when to use it.** Most Bible people share a name with a book, and a flat
-`matthew` tag cannot tell a reader whether the page is about the tax collector or the Gospel. The
-site had exactly that collision the moment `biblical-figures/` was created. So: **a book always gets
-the bare tag (`matthew`, `john`, `james`), and a person always gets `person/`.** A page can carry
-both — `biblical-figures/matthew.md` is about the man *and* cites his Gospel, so it tags
-`person/matthew` and `matthew`.
-
-Use `person/` when the individual is a subject of the study, not merely mentioned. Where two people
-share a name, disambiguate the way Scripture does, by patronymic:
-`person/james-son-of-zebedee` and `person/james-son-of-alphaeus`, never a bare `person/james`.
-Where one person has two names, tag both if the study argues the identification
-(`person/bartholomew` and `person/nathanael`).
-
-Everything else is a plain topic tag: a book, a feast, a concept. Rules that matter:
-
-- **Never tag what the section already says.** No `studies`, no `prophecy` on a `last-things/` page, no `sin` on a `sin/` page. It adds nothing and inflates the tag index.
-- **No colons in tag values** — the facet separator is `/`, and a colon reads as a competing convention (`malachi-4:2` had to be renamed `malachi-4-2`).
-- Lowercase, hyphenated, no spaces. `dead-sea-scrolls`, not `dead sea scrolls` or `Dead Sea Scrolls`.
-- Prefer an existing tag to a near-synonym. Check [docs/content/tags.md](../../../docs/content/tags.md) — the rendered index is the live vocabulary.
 
 ## Phase 1 — Scope & classify
 
@@ -127,19 +74,27 @@ Only now, cross to application:
   - Corollary: **comparison never silently changes the study's base translation.** ESV remains the default for quotation per AGENTS.md even where another version renders a particular word better; if a different one is quoted for a specific purpose, say which and why, right there (AGENTS.md already requires naming the translation of every quote).
   - Expect the honest result to be mixed rather than a winner. A single version rarely preserves everything: in the Bread of Life study, the ESV keeps John's *esthiō*→*trōgō* shift at all four verses while losing the *menō* thread linking 6:27 to 6:56, and the ASV does exactly the reverse — which is a more useful thing to tell a reader ("read a second, more literal version alongside; expect each to be strong in different places") than crowning one translation.
   - Worth checking whenever a word is doing structural work: a deliberate mid-passage switch, a repetition that ties distant verses together, a rare or contested term, or a distinction the original marks and English tends to collapse (as English does with *kophinos*/*spyris*, both "basket"). Wooden-literal versions (ASV, YLT) are the likeliest to preserve such things and the least pleasant to read — which is the trade being made. All of ASV, YLT, WEB and BSB are queryable in `bible-text.db`; ESV/NIV/NKJV/CSB are in `study-notes.db` (see the commentary bullet below).
-  - **YLT stays a comparison tool only.** Fee & Stuart — the methodology this whole skill operationalizes — hold up Young's Literal Translation by name as their own worst-case example of formal equivalence taken too far ("not a valid translation at all," of its 1 Cor 5:1 rendering). That critique is about YLT as a *reading* Bible; the structural-comparison use above is different and stays legitimate — but never quote YLT as a verse's meaning in a study's prose, only to show what a maximally literal rendering preserves. Same boundary on NKJV, which Fee & Stuart also name as worth avoiding for study (inherited the KJV's underlying Greek text): fine for verifying a quotation or reading its study-Bible notes in `study-notes.db`, never as a primary translation.
+  - **YLT and NKJV stay comparison tools only** — AGENTS.md's "Biblical scholar principles" gives the full Fee & Stuart rationale. The structural-comparison use above is the legitimate one; neither gets quoted as a verse's meaning in a study's prose.
 - **Consult commentaries last**, not first — use them to check your reading, not to form it. Cite any extra-biblical source used, per AGENTS.md.
-  - You have real commentaries to consult, so do consult them: `study-notes.db` on the external media volume holds the ESV Study Bible, both Cultural Backgrounds Study Bibles, the NIV Biblical Theology Study Bible and the CSB Ancient Faith Study Bible — notes, book introductions, and topical articles, plus each edition's own **verse text** (so it is also where you verify an ESV/NIV/NKJV/CSB quotation rather than quoting from memory). Access pattern and the mandatory `immutable=1` URI form: [references/README.md](../../../references/README.md#study-notesdb-commercial-study-bible-commentary-external-not-in-this-repo-at-all). Query it with a `verse_start<=N AND verse_end>=N` window rather than an exact-verse match, since notes are attached to ranges.
+  - You have real commentaries to consult, so do consult them: `study-notes.db` holds the ESV Study Bible, both Cultural Backgrounds Study Bibles, the NIV Biblical Theology Study Bible and the CSB Ancient Faith Study Bible — notes, book introductions, topical articles, and each edition's own verse text. Access pattern and the mandatory `immutable=1` URI form: [references/README.md](../../../references/README.md#study-notesdb-commercial-study-bible-commentary-external-not-in-this-repo-at-all). Query it with a `verse_start<=N AND verse_end>=N` window rather than an exact-verse match, since notes are attached to ranges.
   - Expect this step to *change* something. If commentaries confirm every single thing you already wrote and add nothing, you have probably skimmed them for agreement rather than read them for correction. Note explicitly in `resources_consulted` what each one confirmed versus contributed.
 - Record every source touched in `resources_consulted` on the state file, with enough detail (author, work, translation) to reconstruct the citation later.
 
 ## Phase 7 — Draft
 
-- Write the file per [docs/CONTENT_GUIDE.md](../../../docs/CONTENT_GUIDE.md) frontmatter schema (`title`, `category`, `description`, `tags`, `draft: true`, `bible_references`), into the section chosen under **Placement** above.
-- **Fill every placeholder.** The CONTENT_GUIDE template's example values are `tag1`/`tag2`, `"Brief description of the page content"`, `bible_references: ["Genesis 1:1"]`, `zadok_year: 0`, `gregorian_year: -4004`. A real file on this site shipped with all of those intact and `draft: false` — the effect was an empty published page cross-linked into Genesis 1's commentary and sitting at 4004 BC as the first entry on the prophetic timeline. `zadok_year`/`gregorian_year` are read by `app/scripts/build-events.js`, **which does not filter drafts**, so a bogus year reaches the timeline even on a draft. Omit those two fields entirely unless the study is genuinely dated.
+- Write the file per [docs/CONTENT_GUIDE.md](../../../docs/CONTENT_GUIDE.md) frontmatter schema (`title`, `category`, `description`, `tags`, `draft: true`, `bible_references`), into the section chosen from [placement-and-tags.md](placement-and-tags.md).
+- **Fill every placeholder** — that file's "Frontmatter failures worth checking" lists the five template values that once shipped intact on a published page, and why `zadok_year`/`gregorian_year` reach the timeline even on a draft.
 - **Always populate `primary_passage` and `bible_references`.** `references/build/commentary_index.py` reads these to auto-generate the "studies referencing this chapter" cross-links inside `docs/content/commentaries/<book>/`, keyed off exactly the passage(s) this study is centrally about (`primary_passage`, singular or `;`-separated for a multi-account passage like a Gospel parallel) versus what it merely cites in passing (`bible_references`). A study missing both is invisible to that index, not an error, but it means the cross-reference system silently under-reports — don't skip this field the way many of the pre-existing studies did.
 - Structure: short hook → **Key Takeaways** → historical/literary context → walk-through with original-language notes → theological principle → discussion questions → **References & Recommended Reading**.
-- **Key Takeaways** (prototype, see [docs/content/about/key-takeaways.md](../../../docs/content/about/key-takeaways.md) for the full rationale) replaces the old flat "Key lessons" bullet list with up to five subheadings, in this order, each included only where the study actually earns it — don't force one to fill a slot: **Types & Prophecy** (two related but distinct things, kept apart rather than blended — a **type**, an OT person/object/ritual that patterns Christ or the gospel by *resemblance*, τύπος, e.g. Melchizedek; and a **prophecy**, a direct verbal prediction the passage makes or fulfills, e.g. Psalm 110:4's sworn oracle — a study may have one, both, or neither); **Lessons about Jesus** (the direct Christological conclusions the exegesis established); **Memory verses** (1-3 verses already quoted and cited in the study's own body, pointed back to — not new quotations introduced here); **Be Transformed** (Romans 12:2 made concrete — specific thoughts, attitudes, actions the study calls the reader to examine or change, kept as distinguishable from the exegesis as Phase 5's application already requires); **Prayer**, deliberately last (a short response specific to this study's actual content, structured the way the Lord's Prayer study shows Jesus's own model prayer working — relationship and God's character first, request second — not a generic devotional line). This section still comes up front, before supporting detail — a reader should get the point even if they read no further.
+- **Key Takeaways** replaces the old flat "Key lessons" list with up to five subheadings **in this order**, each included only where the study earns it — don't force one to fill a slot. Rationale: [key-takeaways.md](../../../docs/content/about/key-takeaways.md). The section comes up front, before supporting detail — a reader should get the point even if they read no further.
+
+  | Subheading | What goes in it |
+  |---|---|
+  | **Types & Prophecy** | Two distinct things, kept apart rather than blended. A **type** is an OT person/object/ritual patterning Christ or the gospel by *resemblance* (τύπος, e.g. Melchizedek); a **prophecy** is a direct verbal prediction the passage makes or fulfills (e.g. Psalm 110:4's sworn oracle). A study may have one, both, or neither. |
+  | **Lessons about Jesus** | The direct Christological conclusions the exegesis established. |
+  | **Memory verses** | 1–3 verses *already quoted and cited in the study's own body*, pointed back to — not new quotations introduced here. |
+  | **Be Transformed** | Romans 12:2 made concrete: specific thoughts, attitudes, actions the study calls the reader to examine or change. Keep it as distinguishable from the exegesis as Phase 5 already requires. |
+  | **Prayer** (last, deliberately) | A short response specific to this study's content, structured the way the Lord's Prayer study shows Jesus's model working — relationship and God's character first, request second. Not a generic devotional line. |
 - Always give the translation used for any quotation (AGENTS.md). This applies per-quote, not just
   once for the study as a whole: when a lookup tool returns text, check which `work_id`/translation
   it actually came from before dropping it into prose, rather than assuming it's ESV because ESV is
@@ -166,10 +121,10 @@ Only now, cross to application:
 - If Phase 6's translation comparison turned up something a reader could act on, give it a short section of its own rather than burying it in a word study — but only where it earned one. "No English version preserves X, here's what you'd miss" is worth a reader's time; a table of trivial wording differences is padding.
 - **Every study ends with a References & Recommended Reading section.** This is the reader-facing bibliography — distinct from the state file's `resources_consulted`, which is the working research trail. List every lexicon, commentary, dictionary, or background source actually drawn on, restricted/copyrighted ones included by name (e.g. TWOT, Cultural Backgrounds Study Bible, Fee & Stuart) — a citable work referenced with attribution and a reasonably-scoped quotation is a normal, fine thing to do in a public document; it isn't something to work around or leave unstated. What copyright actually constrains is quoting *too much* of one source (a full paragraph or note, not a sentence) or failing to attribute — not whether a restricted source can be named or cited at all. See [references/README.md](../../../references/README.md) for the tier-by-tier detail on what's safe to quote how.
 - **Copyright guardrail.** There are *two* different permissions in play and they are not the same, so don't apply one rule to both:
-  - **Bible text** is covered by each publisher's own stated allowance, and it is generous: ESV, CSB and NKJV each permit **1,000 verses** without asking, NIV **500**. No study will come near those. **The limit that actually binds here is the percentage, not the verse count** — NIV caps quotation at 25% of the work it appears in, ESV/CSB/NKJV at 50%, and none of them permit a complete book. A short study that is mostly block-quoted Scripture with a little commentary around it can breach that at a couple of dozen verses. If a study is tripping this rule, it is usually too thin on its own contribution as well; fix that, not the quota. NASB is the exception — the Lockman Foundation's notice states no blanket allowance, so don't assume one.
-  - **Commentary, study notes, introductions, articles, charts, maps** are separately copyrighted with **no blanket allowance at all** — the ESV Study Bible's own notice reserves all rights to its content. Here the "a sentence or two, always attributed" rule is the whole of what's available, and it applies to the locally-extracted Fee reference and the study-Bible notes in `study-notes.db` alike. Synthesize in your own words; never paste a full note or paragraph into a committed file.
+  - **Bible text** is covered by each publisher's own stated allowance, which is generous enough that no study will approach the verse count. **The limit that actually binds is the percentage, not the verse count** — a short study that is mostly block-quoted Scripture with a little commentary around it can breach it at a couple of dozen verses. If a study is tripping this, it is usually too thin on its own contribution as well; fix that, not the quota. NASB is the exception with no blanket allowance at all — don't assume one.
+  - **Commentary, study notes, introductions, articles, charts, maps** are separately copyrighted with **no blanket allowance** — the ESV Study Bible's own notice reserves all rights. Here "a sentence or two, always attributed" is the whole of what's available, and it applies to the locally-extracted Fee reference and the study-Bible notes in `study-notes.db` alike. Synthesize in your own words; never paste a full note or paragraph into a committed file.
   - **Attribution is a licence condition, not a courtesy.** Naming the translation inline satisfies scholarly convention but is *not* the copyright notice ESV/NIV/NKJV/CSB require. Those live on [docs/content/about/copyright.md](../../../docs/content/about/copyright.md) — if a study introduces a translation or major source not already listed there, add it in the same commit.
-  - Exact thresholds, per translation, verified against the publishers' own notices: [references/README.md](../../../references/README.md#two-different-permissions-dont-conflate-them). Check there rather than recalling numbers — they differ per publisher and are easy to misremember.
+  - **Look the thresholds up, don't recall them** — they differ per publisher and are easy to misremember: [references/README.md](../../../references/README.md#two-different-permissions-dont-conflate-them).
   - None of this is a reason to avoid citing a source. A restricted work named with attribution and quoted at reasonable length is normal scholarship; what copyright constrains is *how much*, not *whether*.
 
 ## Phase 8 — Validate & review
@@ -208,8 +163,11 @@ Update the relevant `stages.*` block and bump `last_updated` as each phase above
 
 **The state file is a record, not a verification.** It holds what you concluded, not proof the conclusion was right — and a wrong conclusion gets written into it with exactly the same confidence as a right one, usually *before* it reaches the draft. That makes checking a claim against your own notes worse than useless: the trail confirms the error instead of catching it, and does so in your own handwriting. This is not hypothetical — a `MAIN FINDING` block in one study's state file carried a bad citation into the published prose, and the error survived a self-check that consisted of re-reading. Anything load-bearing gets **re-queried from source**, never re-read from here. That is also why review-bible-study's Phase 3 says *re-derive, don't re-read*: it is the same rule pointed at a file someone has already finished.
 
-## Essential references
+## Companion files
 
-See [references/README.md](../../../references/README.md) for the full source catalog this process leans on — open-license data (safe to cite freely), restricted-license data (usable now, non-commercial caveats), and local-only copyrighted references (Fee, Stevens, the Cultural Backgrounds Study Bible — cite briefly, never reproduce at length) — plus how to actually query most of it through `references/build/bible-text.db` instead of grepping raw source files. If the `bible-references` MCP server is connected (see the README's MCP section), prefer its tools (`bible_word`, `bible_verse`, `bible_passage`, `twot_root`, etc.) over shelling out to `query.py`/`twot_lookup.py` directly — same data, no bash-construct/text-parse round trip. The CLI scripts remain the fallback when it isn't configured.
+- [placement-and-tags.md](placement-and-tags.md) — section taxonomy, tag facets, frontmatter traps (read before drafting)
+- [word-study-method.md](word-study-method.md) — the fuller diachronic → synchronic → conclusion procedure (Phase 4)
+- [style-guide.md](style-guide.md) — the prose pass (Phase 7)
+- [study-state.template.yml](study-state.template.yml) — state file schema
 
-For the fuller word-study procedure referenced in Phase 4, see [word-study-method.md](word-study-method.md). For the prose pass referenced in Phase 7, see [style-guide.md](style-guide.md).
+Source catalog and licence tiers: [references/README.md](../../../references/README.md), as AGENTS.md directs. Prefer the `bible-references` MCP tools (`bible_word`, `bible_verse`, `bible_passage`, `twot_root`, …) over shelling out to `query.py`/`twot_lookup.py` — same data, no text-parse round trip; the CLI is the fallback when the server isn't connected.

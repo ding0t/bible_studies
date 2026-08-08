@@ -129,43 +129,26 @@ checked out clean.
 ## Phase 6 — Placement, frontmatter & tags
 
 Cheap to check, and the failures are invisible from the page itself — they show up as a study missing
-from an index, or a wrong entry on someone else's page. Definition:
-[our-taxonomy.md](../../../docs/content/about/our-taxonomy.md).
+from an index, or a wrong entry on someone else's page.
 
-**Placement.** Is the file in the section its subject actually belongs to? Sections are top level —
-`docs/content/<section>/`, no `studies/` wrapper. Check especially for a study parked in a section
-because that is where a *related* study lives rather than because the subject fits. If it genuinely
-belongs in `salvation/` or `biblical-figures/` — the two sections defined but not yet created —
-that is a finding worth raising, not a reason to leave it misfiled.
+Audit the file against
+[placement-and-tags.md](../develop-bible-study/placement-and-tags.md) — the same rules develop-bible-study
+drafts to, applied backwards. Work through its three parts:
 
-**Frontmatter.** Flag any of these:
+- **Placement.** Is the file in the section its subject actually belongs to, or parked where a
+  *related* study lives? If it genuinely belongs in `salvation/` or `biblical-figures/` — defined but
+  not yet created — raise that as a finding rather than leaving it misfiled.
+- **Tags**, against [docs/content/tags.md](../../../docs/content/tags.md), the live vocabulary. The
+  hits to look for: tags restating the section, facets written flat (`word-study` for
+  `method/word-study`), colons, uppercase/spaces, near-synonyms, and a person carrying the bare name
+  of a book.
+- **Frontmatter**, per that file's "Frontmatter failures worth checking."
 
-- `primary_passage` or `bible_references` missing — the study is then invisible to
-  `commentary_index.py` and silently under-reports in the cross-reference index.
-- Surviving template placeholders: `tag1`/`tag2`, `"Brief description of the page content"`,
-  `bible_references: ["Genesis 1:1"]`, `zadok_year: 0`, `gregorian_year: -4004`. All five shipped
-  intact on a real published file once. Treat a bogus `gregorian_year` as **Major**: it plants a
-  false entry on the prophetic timeline, and `build-events.js` does not filter drafts, so
-  `draft: true` will not contain it.
-- `draft: false` on a file with no body, or with a `todo:` marker still in it.
-
-**Tags.** Against [docs/content/tags.md](../../../docs/content/tags.md), the live vocabulary:
-
-- Tags that restate the section (`studies`; `prophecy` on a `last-things/` page; `sin` on a `sin/`
-  page). Redundant, and they inflate the index.
-- Facets written flat instead of prefixed — `word-study` rather than `method/word-study`,
-  `hebrew` rather than `lang/hebrew`, `peter` rather than `person/peter`.
-- A colon in a tag value: `/` is the facet separator and a colon competes with it.
-- Uppercase, spaces, or a near-synonym of an existing tag (`messianic` beside `messianic-prophecy`).
-- **A person tagged with a bare name that is also a book** — `matthew`, `john`, `james`, `daniel`,
-  `ruth` and friends. The bare tag belongs to the *book*; a person takes `person/`. This one is easy
-  to miss because both tags are individually legitimate: check which the *page* is about. A page
-  genuinely covering both (a profile of Matthew that also cites his Gospel) correctly carries
-  `person/matthew` **and** `matthew`. Also flag a bare `person/james`-style tag where two Bible
-  figures share the name — it should be disambiguated by patronymic.
-
-These are **Minor** findings unless a missing `primary_passage` or a false timeline year is involved,
-which are **Major** — both corrupt a generated page elsewhere on the site.
+**Severity.** These are **Minor** by default, with two exceptions that are **Major** because they
+corrupt a generated page elsewhere on the site: a missing `primary_passage`/`bible_references` (the
+study goes silently under-reported in `commentary_index.py`'s cross-references), and a surviving
+`gregorian_year: -4004` placeholder (plants a false entry on the prophetic timeline — and
+`build-events.js` does not filter drafts, so `draft: true` will not contain it).
 
 ## Phase 7 — Style guide pass
 
