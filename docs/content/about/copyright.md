@@ -55,6 +55,25 @@ and Logos Bible Software. Used under its stated licence.
 
 **Cross-references** — from OpenBible.info, licensed CC BY.
 
+## Rabbinic and Second Temple texts
+
+**The William Davidson Talmud** — the English translation of the Babylonian Talmud by Rabbi Adin
+Even-Israel Steinsaltz, © Koren Publishers Jerusalem Ltd., made available by
+[Sefaria](https://www.sefaria.org) under
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Quoted here in brief, with
+attribution, on a non-commercial site. Tractates cited by daf (e.g. b. *Sanhedrin* 97a).
+
+**The Book of Jubilees, 1 Enoch and 2 Enoch** — quoted from R. H. Charles's 1913 translation, public
+domain by age, via the open-licensed
+[scrollmapper](https://github.com/scrollmapper/bible_databases_deuterocanonical) corpus.
+
+**The Ante-Nicene Fathers** (Roberts & Donaldson, eds.; Coxe's American edition) and the *Nicene and
+Post-Nicene Fathers* (Schaff, ed.) — public domain by age, from [CCEL](https://ccel.org). Patristic
+quotations are cited by work and section.
+
+These texts are quoted as historical evidence of what their authors believed. They are not Scripture
+and carry no authority here; see any study that cites them for the caution stated in full.
+
 ## Commentaries and reference works
 
 Where a study draws on a copyrighted commentary, study Bible, lexicon or dictionary — the *ESV Study

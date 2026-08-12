@@ -16,7 +16,7 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
 
     ---
 
-    Ancient texts, manuscripts, and inscriptions that validate Scripture
+    How Scripture compares to other ancient works on manuscript evidence, what textual criticism actually shows, and the record of a text that survived deliberate campaigns to destroy it -- with 24 corroborating artifacts.
 
     [:octicons-arrow-right-24: Read](ancient-texts-manuscripts.md)
 

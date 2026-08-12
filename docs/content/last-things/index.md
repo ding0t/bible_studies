@@ -12,6 +12,14 @@ End-times prophecy, read dispensationally.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __A Day Is a Thousand Years__
+
+    ---
+
+    The creation week as the shape of history: what 2 Peter 3:8 says, what Second Temple Judaism and the early church already did with it, how each thousand-year day has run, and why 'the last days' means the last days of that week.
+
+    [:octicons-arrow-right-24: Read](day-is-a-thousand-years.md)
+
 -   __The Day Is Near__
 
     ---

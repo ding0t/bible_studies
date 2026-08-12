@@ -126,6 +126,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](20-proverbs/)
 
+-   __Ecclesiastes__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](21-ecclesiastes/)
+
 -   __Isaiah__
 
     ---
@@ -137,6 +143,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](24-jeremiah/)
+
+-   __Lamentations__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](25-lamentations/)
 
 -   __Ezekiel__
 
@@ -167,6 +179,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](30-amos/)
+
+-   __Jonah__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](32-jonah/)
 
 -   __Micah__
 
@@ -281,6 +299,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](54-1-timothy/)
+
+-   __2 Timothy__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](55-2-timothy/)
 
 -   __Titus__
 

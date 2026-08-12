@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 5 (primary passage)
+- [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 5:27
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:21-24
 <!-- commentary-index:auto-end -->

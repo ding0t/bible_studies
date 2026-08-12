@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 1:1-31
 - [Biblical Numerology](../../scripture/numerology.md) — 1:1
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:14-19
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 1:14-19

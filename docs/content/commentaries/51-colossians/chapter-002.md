@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 2:16
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 2:16-17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 2:16-17
 - [The Day Is Near](../../last-things/day-is-near.md) — 2:16-17

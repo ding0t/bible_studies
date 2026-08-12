@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 13:18 (primary passage)
+- [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 13:14-18
 <!-- commentary-index:auto-end -->

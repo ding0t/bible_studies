@@ -13,8 +13,8 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](../../jesus/woman-issue-of-blood-faith-and-access.md) — 5:25-34 (primary passage)
+- [Woman with the Issue of Blood](../../jesus/woman-suffering-bleeding.md) — 5:25-34 (primary passage)
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:12
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 5:37
 - [John son of Zebedee](../../biblical-figures/john.md) — 5:37
-- [Woman with the Issue of Blood](../../jesus/woman-suffering-bleeding.md) — 5:25-34
 <!-- commentary-index:auto-end -->

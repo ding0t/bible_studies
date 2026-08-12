@@ -1,0 +1,564 @@
+slug: "day-is-a-thousand-years"
+title: "A Day Is a Thousand Years"
+status: published
+target_path: "docs/content/last-things/day-is-a-thousand-years.md"
+
+primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
+supporting_passages:
+  - "Psalm 90:1-4"
+  - "Genesis 1:1-31"
+  - "Genesis 2:17"
+  - "Exodus 20:8-11"
+  - "Hosea 6:1-3"
+  - "Hebrews 1:1-2"
+  - "Hebrews 4:1-11"
+  - "Revelation 13:14-18"
+  - "Revelation 20:1-7"
+genre: [epistle, ot-narrative, apocalyptic, topical]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Extracted and greatly expanded from material previously buried in
+      last-things/day-is-near.md (sections "A day like a thousand years", "The pattern of six
+      days and a seventh", "The millennial reign", "When is the year 6000?"). Requested brief:
+      standalone, dispensational, non-hedging, with (a) primary passages, (b) Second Temple /
+      rabbinic reception of day=1000 years mapped onto the creation week, (c) how each
+      thousand-year "day" has played out, (d) "the last days" as the last days of the creation
+      week. day-is-near.md keeps the "when is it / stay awake" material; this file takes the
+      chronology-typology. Cross-links, no duplication of prose.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        2 Peter written to churches facing scoffers who argue from apparent delay to
+        disbelief (3:3-4). Peter's audience is inside a Jewish apocalyptic milieu that already
+        read Ps 90:4 as a 1000-year "day" applied to the Genesis week — attested pre-Christian
+        (Jubilees 4:29-30, 2nd c. BC), in rabbinic baraitot (b. Sanhedrin 97a; b. Avodah Zarah
+        9a), in the Temple's own weekly psalm cycle (b. Rosh Hashanah 31a), and in 2 Enoch 33:1.
+        NIV Cultural Backgrounds SB independently confirms this milieu at 2 Pet 3:8.
+        Psalm 90 titled "A Prayer of Moses" — same author as Genesis 1, a real point.
+    literary_context:
+      done: true
+      notes: >
+        MAIN STRUCTURAL FINDING (re-derived from SBLGNT, not recalled): Peter brackets his
+        argument with the same verb. 3:5 λανθάνει γὰρ αὐτοὺς τοῦτο θέλοντας ("this escapes them,
+        willingly"); 3:8 Ἓν δὲ τοῦτο μὴ λανθανέτω ὑμᾶς ("let this one thing not escape you").
+        Same λανθάνω (G2990), same τοῦτο, opposite polarity — the day/thousand-years fact is
+        deliberately set against the scoffers' willful blindness as a matched pair. Also: 3:8 is
+        a chiasm (μία ἡμέρα... χίλια ἔτη / χίλια ἔτη... ἡμέρα μία) and Peter states the ratio
+        BOTH directions, where Ps 90:4 (LXX 89:4) states only one and adds "and a watch in the
+        night" (φυλακὴ ἐν νυκτί), which Peter drops. Peter sharpens the psalm into a symmetrical
+        equation. Genesis 2:1-3 sits as the coda to the week, not the start of ch. 2's narrative.
+    content_word_studies:
+      done: true
+      notes: >
+        Genesis 1 day formula checked verse by verse against WLC (scrollmapper-WLC): the
+        definite article appears on the ordinal ONLY at days six and seven. Day one is יוֹם אֶחָד
+        (cardinal, anarthrous); days 2-5 anarthrous ordinals; 1:31 יוֹם הַשִּׁשִּׁי; 2:2-3 הַיּוֹם
+        הַשְּׁבִיעִי. Also verified: 2:1-3 has no "evening and morning" formula — the seventh day
+        is the week's only unbounded day. Day two (1:8) lacks כִּי־טוֹב entirely; day three has
+        it twice (1:10, 1:12).
+      terms:
+        - word: "ἡμέρα / χίλια ἔτη"
+          language: greek
+          transliteration: "hēmera / chilia etē"
+          strongs_id: "G2250 / G5507+G2094"
+          gloss: "day / a thousand years"
+          notes: >
+            χίλια ἔτη is the exact LXX phrase at Ps 89:4 (MT 90:4), Peter's phrase at 2 Pet 3:8,
+            and Revelation's phrase in Rev 20 — where χίλια occurs six times across vv. 2-7
+            (verified by morphology query; other χιλι- forms in Rev 11:3, 12:6, 14:20 are
+            unrelated numbers).
+        - word: "λανθάνω"
+          language: greek
+          transliteration: "lanthanō"
+          strongs_id: "G2990"
+          gloss: "to escape notice, be hidden from"
+          notes: "The 3:5 / 3:8 bracket above. Louw-Nida domain 29.13."
+        - word: "יוֹם"
+          language: hebrew
+          transliteration: "yom"
+          strongs_id: "H3117"
+          gloss: "day"
+          notes: >
+            Same word carries the creation days, Gen 2:17's "in the day you eat," Ps 90:4's
+            "yesterday," Hosea 6:2's dual מִיֹּמָיִם ("after two days"), and אַחֲרִית הַיָּמִים.
+        - word: "אַחֲרִית הַיָּמִים"
+          language: hebrew
+          transliteration: "acharit hayamim"
+          strongs_id: "H0319 + H3117"
+          gloss: "the after-part of the days / the last days"
+          notes: >
+            Gen 49:1 is the first occurrence. LXX renders it ἐπʼ ἐσχάτων τῶν ἡμερῶν — verbatim
+            the phrase at 2 Pet 3:3, and all but the demonstrative at Heb 1:2 (ἐπʼ ἐσχάτου τῶν
+            ἡμερῶν τούτων). Verified against Brenton LXX in bible-text.db.
+        - word: "שָׁבַת / שַׁבָּת / σαββατισμός"
+          language: hebrew
+          transliteration: "shavat / shabbat / sabbatismos"
+          strongs_id: "H7673 / H7676 / G4520"
+          gloss: "to cease / Sabbath / Sabbath-keeping"
+          notes: >
+            Heb 4 uses κατάπαυσις throughout (4:1,3,5,10,11) and switches once, at 4:9, to
+            σαββατισμός. Already established in day-is-near.md; not re-derived here, cited across.
+        - word: "יַבָּשָׁה"
+          language: hebrew
+          transliteration: "yabbashah"
+          strongs_id: "H3004"
+          gloss: "dry land"
+          notes: "Gen 1:9,10 (day three) and Exod 14:16,22,29; 15:19 (Red Sea). Verified."
+        - word: "זֶרַע"
+          language: hebrew
+          transliteration: "zera"
+          strongs_id: "H2233"
+          gloss: "seed, offspring"
+          notes: "Gen 1:11,12,29 (day three) and Gen 12:7; 22:17,18 (the promise). Verified."
+        - word: "מוֹעֲדִים"
+          language: hebrew
+          transliteration: "mo'adim"
+          strongs_id: "H4150"
+          gloss: "appointed times"
+          notes: "Gen 1:14 (day four) and Lev 23:2,4,37,44 (the feasts). Verified."
+        - word: "εἰκών"
+          language: greek
+          transliteration: "eikōn"
+          strongs_id: "G1504"
+          gloss: "image"
+          notes: >
+            Gen 1:26-27 LXX κατʼ εἰκόνα / Rev 13:14-15 εἰκών of the beast. Shared word, verified.
+            The BREATH words do NOT match — Gen 2:7 LXX πνοὴν ζωῆς vs Rev 13:15 πνεῦμα. Stated
+            precisely in the draft; do not let a later edit inflate this into a lexical parallel.
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Transcultural: the six-then-seventh shape, God's rest as the goal of history, the
+        Sabbath as type. Culture-bound: the specific arithmetic (which depends on a manuscript
+        tradition and a creation epoch, neither settled). Kept structurally separate in the draft
+        — typology section commits, arithmetic section states the problem.
+    theological_principle:
+      done: true
+      notes: >
+        History is not open-ended; it is shaped like the week God made, and it ends in his rest.
+        The Sabbath is the pattern God built into time so that the end would be recognizable
+        when it came, not so that it could be calculated in advance.
+    application_draft:
+      done: true
+      notes: >
+        Sabbath-keeping as rehearsal rather than restriction; patience under apparent delay
+        (Peter's own application at 3:9,11-14); the refusal to date-set held together with
+        genuine expectancy.
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Psalm 90:4", relation: "source Peter alludes to; LXX 89:4 supplies χίλια ἔτη"}
+      - {ref: "Genesis 2:17", relation: "the 'day' Adam died in — Jubilees 4:30's proof text"}
+      - {ref: "Psalm 92:1", relation: "the Sabbath psalm; Sanhedrin 97a's 'day that is entirely Shabbat'"}
+      - {ref: "Hosea 6:2", relation: "two days then the third; Abaye's proof text at Sanhedrin 97a"}
+      - {ref: "Revelation 17:10", relation: "'five have fallen, one is' — Hippolytus reads as the sixth millennium"}
+      - {ref: "Revelation 13:14-18", relation: "image and number of a man, on the day man was made"}
+      - {ref: "Mark 13:32; Acts 1:7", relation: "the limit on knowing the day"}
+    translations_compared: ["ESV", "WEB", "ASV", "NASB 2020", "BSB", "Rotherham", "YLT", "WLC", "LXX (Brenton)"]
+    divergences_noted: >
+      REAL, READER-ACTIONABLE FINDING at Genesis 1: no English version preserves both marked
+      features of the Hebrew day formula, and the site's default translation preserves neither.
+      ESV and BSB read "the first day... the fifth day... the sixth day", flattening both the
+      cardinal at v.5 and the article at v.31. WEB reads "the first day... a fifth day...
+      a sixth day" — it loses the day-six article too. ASV, NASB 2020 and Rotherham preserve
+      both features: "one day... a fifth day... the sixth day." YLT is the most wooden of all
+      ("day one... day fifth... day the sixth") — comparison tool only, per AGENTS.md, never
+      quoted as meaning.
+      Also: MT Gen 2:2 reads "on the SEVENTH day God finished"; LXX (Brenton) reads ἐν τῇ ἡμέρᾳ
+      τῇ ἕκτῃ, "on the sixth day." Barnabas 15 quotes the Hebrew reading; ANF's editor footnotes
+      the difference. Worth a sentence, not a section.
+  drafting:
+    done: true
+    file: "docs/content/last-things/day-is-a-thousand-years.md"
+  review:
+    done: false
+    validated: true
+    notes: >
+      npm run validate: clean (0 findings on this file; the 2 remaining warnings in the run are
+      pre-existing, in how-to-read-the-bible.md and numerology.md). mkdocs build --strict: passes,
+      no broken links. One style-guide pass applied after the first draft — removed a "worth
+      stating", a "worth laying out", a self-congratulatory "Say the striking thing and say what
+      it rests on", a "rather than quoted from memory" virtue contrast, and two "this
+      site"/"this study" self-references.
+      TWO QUOTATION ERRORS CAUGHT BY RE-VERIFYING AGAINST esv-study-bible verse text after the
+      draft was written, both from paraphrase drifting into quotation marks:
+      (1) Psalm 89:37 was rendered "shall be established forever as the moon, and the witness in
+      the skies is faithful" — the ESV reads "Like the moon it shall be established forever, a
+      faithful witness in the skies." Replaced with the exact text of 89:36-37.
+      (2) Hebrews 1:2 was quoted as "in these last days has spoken to us by his Son" with "God"
+      pulled outside the quotation marks; ESV reads "he has spoken." Reworded so the quoted
+      string is verbatim.
+      Still outstanding: an independent adversarial pass via review-bible-study before
+      draft: false, and the two index generators (commentary_index.py, section_index.py), which
+      skip drafts and so must run after the flag flips.
+
+open_questions:
+  - >
+    The epoch problem is unresolved and is treated as content rather than smoothed over. On the
+    site's own 4004 BC convention (genealogy-times.md, genealogy_chronology.py) year 6000 = AD
+    1997, already past. day-is-near.md uses ~3925 BC (AD 2075); Seder Olam's 3761 BC gives AD
+    2240; Hippolytus, on an LXX epoch, put the incarnation at AM 5500 and year 6000 at AD 500.
+    The draft makes the pattern of failure the point rather than picking a winner. The
+    reconciliation itself remains tracked in genealogy-times.yml, not here.
+  - >
+    The AM 4000 ≈ Nativity fit is real on Ussher's epoch but partly an artifact of that epoch
+    (Ussher anchored on Herod's death in 4 BC). Stated as such. Do not let a later edit promote
+    it to independent evidence.
+  - >
+    The day-by-day mapping of creation days onto millennia is this site's construction. Its
+    anchors are attested (b. Rosh Hashanah 31a supplies a day-by-day scheme; the lexical links
+    yabbashah/zera/mo'adim/eikon are verified); the mapping onto specific millennia is not
+    attested in any source consulted. Labelled once, plainly, in the draft's own words.
+  - >
+    Did not chase down Genesis Rabbah on day two's missing "it was good" (division/dispute).
+    The textual observation is verified from WLC directly; only the midrashic comment is
+    unverified, so the draft states the observation and omits the midrash.
+
+resources_consulted:
+  - {type: other, title: "bible-text.db (MACULA Greek SBLGNT, MACULA Hebrew WLC, morphhb, Brenton LXX, WEB/ASV/BSB/Rotherham/YLT)", author: "this repo", note: "All Greek/Hebrew morphology, Strong's ids, LXX readings and English comparisons above re-derived here, not recalled."}
+  - {type: other, title: "study-notes.db verses table (ESV, NASB 2020)", author: "Crossway / Lockman", note: "Every ESV quotation in the draft verified against esv-study-bible verse text rather than memory."}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway, 2016", note: "CONFIRMED Heb 4:1-13 as inaugurated-but-not-consummated rest and 2 Pet 3:8-9 as patience-not-chronology. CONTRIBUTED a correction on Hosea 6:2 — Hosea is speaking of Israel, not directly of Messiah; the NT third-day use runs through Christ representing Israel. That reframed Abaye's Sanhedrin 97a use of Hos 6:2 in the draft from exegesis to rabbinic reception."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan, ed. Walton & Keener", note: "CONTRIBUTED the key independent confirmation: at 2 Pet 3:8 it states that Jewish writers of Peter's day appealed to Ps 90:4 and 'sometimes took the day as a thousand years literally and applied it to the days of creation.' This is a standard commentary confirming the study's central cultural claim."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "CONTRIBUTED the pseudepigrapha bibliography at Heb 4:9 (1 Enoch 72:1; Jubilees 1:29; 4:26; T. Levi 18:9; 4 Ezra 7:75; Barnabas 15) and the point that σαββατισμός uses Sabbath-celebration imagery, not merely cessation. Established that the eschatological-Sabbath link is mainstream scholarship, not this site's invention."}
+  - {type: other, title: "Book of Jubilees 4:29-30, 1:28-29, 4:26", author: "trans. R. H. Charles (1913), public domain", note: "references/open-data/scrollmapper-bible-databases-deuterocanonical. The earliest explicit witness: Adam 'lacked seventy years of one thousand years; for one thousand years are as one day in the testimony of the heavens,' applied directly to Gen 2:17."}
+  - {type: other, title: "2 Enoch 32:4-33:1", author: "scrollmapper deuterocanonical corpus", note: "'the first seven revolve in the form of the seventh thousand... at the beginning of the eighth thousand there should be a time of not-counting, endless.'"}
+  - {type: other, title: "Babylonian Talmud, Sanhedrin 97a-b; Avodah Zarah 9a; Rosh Hashanah 31a; Tamid 33b (Mishnah Tamid 7:4)", author: "William Davidson Edition, Koren/Sefaria, CC-BY-NC", note: "Downloaded from the public Sefaria GCS export (storage.googleapis.com/sefaria-export). Sanhedrin 97a:12-14 = Rav Ketina, the shemittah baraita deriving the ratio from Ps 90:4 via Ps 92:1, and the school of Eliyahu's 2000/2000/2000. Rosh Hashanah 31a:2-6 = the Temple's daily psalm cycle mapped to the creation days, seventh = 'the future world will be a day that is all Shabbat', with R. Nehemiah's dissent recorded. Sanhedrin 97b:9 = the curse on those who calculate the end. Daf numbers recomputed from the export's index offset (text[2] = 2a), not assumed."}
+  - {type: other, title: "Epistle of Barnabas 15", author: "ANF vol. 1 (Roberts & Donaldson), public domain", note: "/Volumes/media/bible/reference/patristics/ante-nicene-fathers/anf01.txt line ~13040. Quotes Gen 2:2 + 'a day is with Him a thousand years'; 'in six days, that is, in six thousand years, all things will be finished'; then the eighth day as 'a beginning of another world.' ANF footnote 1657 flags that Barnabas follows the Hebrew 'seventh' against the LXX's 'sixth'."}
+  - {type: other, title: "Justin Martyr, Dialogue with Trypho 81", author: "ANF vol. 1", note: "anf01.txt ~21854. Isaiah 65 + Adam not completing a thousand years + 'the day of the Lord is as a thousand years' + John's thousand years in Jerusalem, in one argument."}
+  - {type: other, title: "Irenaeus, Against Heresies 5.28.2-3 and 5.23.2", author: "ANF vol. 1", note: "anf01.txt ~53494 and ~52938. 5.28.3: 'For in as many days as this world was made, in so many thousand years shall it be concluded... they will come to an end at the sixth thousand year.' 5.28.2 reads 666 as summing up 'the whole of that apostasy which has taken place during six thousand years.' 5.23.2 records the Adam-died-within-the-thousand-years view as held by 'some'."}
+  - {type: other, title: "Hippolytus, Commentary on Daniel (fragment on Dan 2), 4-6", author: "ANF vol. 5", note: "anf05.txt ~18011. Nativity at AM 5500, 6000 total, Rev 17:10's 'five are fallen, one is' as the sixth millennium, and the ark-measurement derivation (2.5+1.5+1.5 = 5.5 cubits) — included in the draft as an example of the method's unreliability, not as support."}
+  - {type: other, title: "Cyprian, Exhortation to Martyrdom, preface 2", author: "ANF vol. 5", note: "anf05.txt ~49444. 'Six thousand years are now nearly completed since the devil first attacked man' — cited in passing as common knowledge, which is the evidentiary value."}
+  - {type: other, title: "Lactantius, Divine Institutes 7.14 (and Epitome 70)", author: "ANF vol. 7", note: "anf07.txt ~20507 and ~24680. The fullest patristic statement: six ages of a thousand years each, Ps 90:4 cited as 'the prophet', righteousness reigning a thousand years after."}
+  - {type: other, title: "Methodius (attrib.), fragment against Origen on the resurrection", author: "ANF vol. 6", note: "anf06.txt ~36169. Reports the six-thousand-year scheme as what 'they say' — a hostile-to-neutral witness that the view was widespread, which is stronger evidence of its currency than another advocate would be."}
+  - {type: other, title: "Theological Wordbook of the Old Testament", author: "Archer, Harris & Waltke, Moody", note: "Root 2323 for שָׁבַת, via the committed twot_strongs_map.json. Cited across to day-is-near.md rather than re-derived."}
+  - {type: other, title: "docs/content/feasts/zadok-calendar.md, last-things/genealogy-times.md, last-things/prophecy-chart.md, last-things/day-is-near.md", author: "this site", note: "1 Enoch 91-93 Apocalypse of Weeks is treated in zadok-calendar.md and cross-linked, not restated. Larkin's chart is in prophecy-chart.md. Chronology variants and the 4004 BC convention are in genealogy-times.md."}
+
+last_updated: "2026-08-09"
+
+review_2026-08-09:
+  reviewer_note: >
+    Adversarial pass via review-bible-study, same session as authorship — so every claim was
+    re-derived from source rather than re-read from the notes above. Nothing in this block was
+    taken from the drafting trail.
+  phase_1_scripture:
+    method: >
+      Mechanical exact-string comparison, not visual inspection. 28 block-quoted verses across 10
+      passages and 32 inline fragments matched programmatically against the esv-study-bible
+      verses table after Unicode/whitespace normalisation.
+    result: "0 mismatches. One unmarked truncation found (Gen 1:22) — see findings."
+  phase_2_citations:
+    patristics: >
+      14 quoted fragments matched verbatim against anf01/05/06/07 after stripping ANF footnote
+      markers and editorial brackets. 0 mismatches. Work/section attributions confirmed by
+      reading the surrounding chapter headings: Lactantius Div. Inst. book 7 chap. XIV "Of the
+      First and Last Times of the World"; Epitome chap. LXX; Cyprian "Exhortation to Martyrdom,
+      Addressed to Fortunatus. Preface."; Hippolytus headed in ANF as the interpretation of the
+      visions of Daniel AND Nebuchadnezzar taken in conjunction (see findings).
+    rabbinics: >
+      16 fragments from Sanhedrin 97a-b, Avodah Zarah 9a and Rosh HaShanah 31a matched verbatim
+      against the William Davidson JSON. Jubilees 4:29-30 and 2 Enoch 33:1 matched verbatim. 0
+      substantive mismatches; one punctuation drift (see findings).
+    links: "All 9 internal links resolve; both day-is-near.md anchors exist. mkdocs build --strict passes."
+    copyright: "ESV block quotes = 800 words of 7,830 body words (10.2%), ~28 verses. Far inside the 50%/1,000-verse ESV allowance. Commentary quotations are single sentences."
+    hebrew_bold: "npm run validate clean — no Check 9 error."
+  phase_3_word_studies:
+    re_derived: >
+      σαββατισμός G4520 confirmed a NT hapax (Heb 4:9 only). κατάπαυσις G2663 confirmed at Heb
+      4:1,3(x2),5,10,11 as stated. χίλια confirmed 6x in Rev 20:2-7. qadash H6942 confirmed first
+      occurring at Gen 2:3, with qodesh H6944 first at Exod 3:5 — so the draft's "a day, not a
+      place" claim holds on the chronology. barak H1288 confirmed first at Gen 1:22, so "the
+      first day God blesses anything" holds. ashmurah H821 occurs 7x; Judg 7:19 "middle watch",
+      Exod 14:24 "morning watch" and Lam 2:19 "the night watches" support the three-watch system
+      behind "roughly four hours" (an inference from the occurrences, not a lexical gloss).
+      Genesis 5 arithmetic recomputed from the WEB text: 130+105+90+70+65+162 = 622, +365 = AM
+      987 for Enoch; Adam 930. Both confirmed. Strong's ids H3615/H6942/H7673/H3004/H2233/H4150
+      and G2990/G1504/G2663/G4520/G5507/G2094 all confirmed against MACULA. TWOT root 2323 →
+      H7673 שָׁבַת "cease" confirmed via twot_strongs.
+    found_wrong: "mo'adim in Leviticus 23 — draft says four times, actual is six across four verses."
+  phase_4_commentary:
+    checked_against: "NKJV Cultural Backgrounds SB, NLT Life Application SB, CSB Ancient Faith SB — none cited in the study's References."
+    result: >
+      No contradiction of any central claim. NLT LASB on Rev 20:4 is SILENT (presents all three
+      millennial views neutrally). NLT LASB on Gen 2:2 CONFIRMS the "ceased" gloss for shavat.
+      NKJV CBSB on 2 Pet 3:8 carries the note verbatim identical to the NIV CBSB one — same
+      editors, so it is not a second witness (see findings). NKJV CBSB on Gen 4:26 COMPLICATES a
+      claim in the draft's day-one section (see findings).
+  phase_5_context:
+    q1_genre: partial
+    q2_historical_occasion: partial
+    q3_literary_context: partial
+    q4_original_language: covered
+    q5_cultural_vs_transcultural: partial
+    q6_holds_up_elsewhere: covered
+  phase_6_placement: "Section correct (last-things/ = eschatology). Frontmatter complete, no placeholders, zadok_year/gregorian_year correctly omitted. Tags valid but three arguably missing — see findings."
+  phase_7_style: "Clean. validate reports 0 findings on this file. No em-dash pile-ups, one 'not X — Y' (permitted first use), only residual tell is 'truly' inside the Barnabas quotation."
+  findings_raised: 14   # 0 critical, 7 moderate, 7 minor — presented to the user, not yet actioned
+
+  fixes_applied_2026-08-09: >
+    All 7 moderate findings plus finding 8 actioned. (1) Leviticus 23 mo'adim corrected from
+    "four times" to "six times across four verses". (2) The Malachi 4:2 claim "the last words of
+    the Old Testament" replaced — Mal 4:5-6 follow it, and Malachi is not last in the Hebrew
+    ordering; now "the closing chapter of Malachi, the last book of the Christian Old Testament".
+    (3) Section heading "What no English translation shows you" retitled "What most English
+    translations don't show you", which its own table already contradicted. (4) The "last days"
+    section no longer claims the Hebrew article corroborates a days-five-and-six reading; it now
+    states that the article marks days six and seven, that the two schemes begin at different
+    seams and end at the same one. (5) Genesis 4:26 no longer reads as restricting the calling on
+    the LORD's name to Seth's line, per the NKJV Cultural Backgrounds SB note, which is now cited
+    in the References. (6) A historical-occasion paragraph added ahead of the 2 Peter 3 block
+    quote — genre, self-attribution at 1:1, the imminent-death note at 1:14, the second-letter
+    note at 3:1, and the ESV Study Bible's AD 64-67 / Rome / Asia Minor placement with its own
+    stated uncertainty. (7) Every parenthetical patristic year dropped to century-level, since
+    none was verifiable from any source in this repo and the Hippolytus one was attached to a
+    work usually dated well before his death. (8) Genesis 1:22 truncation now marked with an
+    ellipsis.
+    ONE ERROR INTRODUCED BY THE FIX ITSELF AND CAUGHT BEFORE COMMIT: the new Genesis 4:26
+    sentence first read "Seth's grandson", where Genesis 4:26 makes Enosh Seth's son. Corrected.
+    Re-verification after fixing: all inline and block ESV quotations re-matched by exact string
+    comparison including the newly added 2 Peter 1:1; npm run validate clean on this file;
+    mkdocs build --strict passes.
+  minor_fixes_applied_2026-08-09: >
+    Findings 9-14 also actioned, closing the review. (9) "i.e." corrected to "i.e.," inside the
+    Sanhedrin 97a quotation. (10) The Hippolytus citation widened to match ANF's own heading —
+    now "On Daniel, fragment II", the interpretation of the visions of Daniel AND Nebuchadnezzar
+    taken in conjunction, rather than "Commentary on Daniel, fragment on Daniel 2"; changed in all
+    three places it appears. (11) Closed by the previous round: the References now state that the
+    NIV and NKJV Cultural Backgrounds notes on 2 Peter 3:8 are the same text under two imprints,
+    one witness rather than two. (12) Tags method/word-study, jubilees and enoch added. (13) Seven
+    prose paragraphs and five patristic bullets rewrapped; the four badly-overlong lines left by
+    the earlier sed edits (140-187 chars) are gone. Lines still over 100 raw characters are all
+    ones carrying Greek text or RTL span markup, where raw length overstates visual width — that
+    was true of the original draft too. (14) Genre now named and its lens applied in all three
+    places it matters: Genesis 1-2 as patterned narrative where the broken patterns are the
+    author's pointers; 2 Peter as a letter read as one side of an argument (added in the previous
+    round); Revelation as apocalyptic, with the OT imagery identified before the modern referent
+    (Daniel 7:9 behind the thrones, Genesis 3 behind "that ancient serpent") and Revelation 20's
+    immediate literary context supplied — chapter 19's return and the beast and false prophet in
+    the lake of fire before it, the dragon joining them at 20:10 and the great white throne at
+    20:11-15 after. And a new section, "What is bound to Israel, and what isn't", draws the
+    cultural-vs-transcultural line explicitly: the Sabbath as a covenant sign given to a named
+    party (Exodus 31:13, 17; Ezekiel 20:12) and released from judgment for Gentile believers
+    (Colossians 2:16; Romans 14:5), against the creation pattern that predates Sinai (Genesis
+    2:1-3; Exodus 20:11) and the rest that is still open (Hebrews 4:9) — then the same line
+    applied to the study itself, shape transcultural and arithmetic not.
+  final_verification_2026-08-09: >
+    Re-run after all edits, with the checker itself corrected once mid-pass (its first version
+    failed to strip blockquote "> " prefixes and so split quotations across line breaks,
+    producing 61 spurious failures — worth recording, because the artifact looked exactly like
+    real quotation drift). Corrected run: 28 block-quoted verses, 32 inline ESV fragments, 10
+    patristic fragments and 5 rabbinic fragments all verbatim against source and all present in
+    the file. Four residual flags were confirmed as over-specified needles, not defects: the
+    Genesis 1:22 needle used a single quote where the ESV has a double; Revelation 19:11 is cited
+    rather than quoted; Methodius is paraphrased around a two-word quotation; and the Sanhedrin
+    needle included a leading word the file's quotation does not open with. npm run validate:
+    0 findings on this file. mkdocs build --strict: passes.
+  review_status: "closed — all 14 findings actioned; no critical findings were raised at any point."
+
+  revision_2026-08-12: >
+    Two author-requested changes after the review closed. (1) Memory verses converted from partial
+    bullets to full verses in the standard "> ✝️ Reference (TRANSLATION)" quote-block format, which
+    is the newer house convention (trumpet.md, sorcery.md, melchizedek-priesthood.md,
+    the-way.md, numerology.md, twelve-apostles.md all use it; day-is-near.md, rapture.md,
+    prophecy-essentials.md, creation-reveals-the-creator.md and dreams-and-visions/index.md are
+    still on the older bullet form and are candidates for the same conversion). Reordered to
+    Genesis 2:3 → 2 Peter 3:8 → Hebrews 4:9 so the three verses run in the order of the argument.
+    Hebrews 4:9 is left ending on the ESV's comma rather than tidied to a full stop, since the
+    sentence runs into v. 10 and repunctuating would make the quotation inaccurate.
+    (2) The "Think" item under Be Transformed rewritten. Its previous form ("every calculated date
+    has failed; hold the shape and drop the calendar") was the third statement of that same
+    caution on the page — the dedicated "Why nobody has got the date right" section makes it at
+    length and the Prayer makes it again — which is the style guide's "repeated caveat". It now
+    does what the subsection is for: the summons to attention and readiness that Scripture
+    attaches to the nearness of the day (Romans 13:12; Hebrews 10:25; Matthew 24:44), all three
+    verified verbatim against esv-study-bible. Trimmed from an initial 125-word draft to 89 to
+    stay near its sibling bullets. Frontmatter bible_references updated to register Matthew 24:44,
+    Romans 13:12, Hebrews 10:25, Exodus 31:13 and Colossians 2:16, all now cited in the body.
+    npm run validate clean; mkdocs build --strict passes.
+  revision_2026-08-12b: >
+    Attitude and Do rewritten alongside Think, at the author's direction, so the whole Be
+    Transformed section turns on readiness. The underlying problem was repetition, not just
+    emphasis: Attitude was making the anti-date-setting point a FOURTH time on the page (after
+    the dedicated "Why nobody has got the date right" section, the old Think bullet, and the
+    Prayer). Attitude now names the actual spiritual hazard of a long wait — that delay erodes
+    expectation — anchored in Ezekiel 12:22-23, where Israel had a standing proverb about
+    prophetic delay ("The days grow long, and every vision comes to nothing") that God answers by
+    promising to abolish it ("The days are near"). That is the Old Testament counterpart to
+    2 Peter 3:4's scoffers and to the wicked servant's "My master is delayed" (Matthew 24:48), and
+    it is the objection a six-thousand-year framework invites more than any other. Do was reframed
+    from a defensive Sabbath note ("not as law — Colossians 2:16 forbids…") to readiness as
+    occupation: found at your post (Matthew 24:46; 2 Peter 3:14), with Sabbath-keeping as the
+    weekly rehearsal. The Colossians 2:16 guardrail was not lost — it now sits in the "What is
+    bound to Israel, and what isn't" section, where it belongs, so dropping it from the bullet
+    removed another duplication. All six new quotations verified verbatim against
+    esv-study-bible. Bullets are 89/90/80 words, deliberately matched. Frontmatter
+    bible_references extended with Ezekiel 12:22, Matthew 24:46 and 2 Peter 3:14. npm run
+    validate clean; mkdocs build --strict passes.
+  revision_2026-08-12c: >
+    Author flagged "Note what this is. It is not a mystical flourish; it is an exegetical
+    solution" as AI-register prose. Treated as a class rather than a one-off and swept the whole
+    file; nine instances found and cut. The pattern behind all of them: announcing a point instead
+    of making it, then propping it up against a straw alternative nobody had proposed. Cut —
+    "Note what this is" plus "not a mystical flourish" (Jubilees section, now shows the mechanism:
+    Jubilees has a problem in Genesis 2:17 and solves it); "that symmetry is the thing to notice"
+    (now "The clause runs both directions. Peter's source does not."); "That matters for what the
+    verse can bear" (deleted outright, nothing lost); "The clearest evidence that this was
+    ordinary Jewish thinking rather than a scholar's speculation is that the Temple ran on it"
+    (now opens "The Temple ran on it."); "None of this is a fringe reconstruction" (the apologia
+    posture — now "Standard commentary says the same"); "This is not a resemblance a reader
+    noticed afterwards" in the Prophecy takeaway (redundant, since the Type paragraph directly
+    above already defines resemblance); "a position held against a known alternative, not an
+    assumption nobody had examined"; and "Readiness in Scripture is never idleness" in the Do
+    bullet, written only hours earlier — evidence that this register creeps back in on every
+    drafting pass, not just the first.
+    ONE OF THE NINE WAS NOT A STYLE PROBLEM. "Day three's two events, in order, are the third
+    millennium's two events, in order" was FALSE. Genesis day three runs land (1:9-10) then seed
+    (1:11-12); the third millennium runs the promise of seed and land together at Genesis 12:7 and
+    only reaches dry ground at the Exodus, centuries later. The ordering does not match and the
+    sentence claimed twice over that it did. Deleted — the paragraph's two lexical links
+    (yabbashah, zera) stand without it. Worth noting for future passes: the sentence read as
+    rhetorical flourish, which is how it survived the full adversarial review; chasing the
+    flourish is what exposed the error underneath it.
+    Retained deliberately: roughly a dozen "not X" constructions that correct a real alternative
+    a reader would otherwise hold (mo'adim is not weather; a sign between two named parties is not
+    a general ordinance; Hosea's subject is Israel, not directly the Messiah; day one is a
+    cardinal, not an ordinal). The tell is the straw alternative, not the negation.
+    All 28 block-quoted verses and every patristic, rabbinic and Jubilees fragment re-verified
+    verbatim after the rewrites. npm run validate clean; mkdocs build --strict passes.
+  revision_2026-08-12d: >
+    Author-requested caution box added at the head of the study, immediately after the hook and
+    above Key Takeaways: a mkdocs-material "!!! warning" admonition titled "Extra-biblical
+    sources: useful, and not Scripture". Three short paragraphs. (a) Names what the study actually
+    quotes — Jubilees, 1 and 2 Enoch, the Babylonian Talmud, and the fathers from Barnabas to
+    Lactantius — and states that none of it is Scripture, with 2 Timothy 3:16 quoted for the
+    canon-only claim, extended explicitly to the apocryphal/pseudepigraphal books, the rabbinic
+    material and the fathers "however early or however many of them agree". (b) States what the
+    sources DO establish: what people believed and when. Jubilees reading Genesis 2:17 through a
+    thousand-year day two centuries before Peter is a fact about second-century-BC Judaism and
+    bears on how a first-century reader heard 2 Peter 3:8; it is not evidence the reading is true.
+    That distinction is the one the whole study depends on, so it belongs at the top rather than
+    only in the References. (c) The governing rule: treat them as human commentary — useful,
+    capable of being wrong, answerable to Scripture and not the reverse; where they agree they
+    corroborate, where they conflict the text governs and they are mistaken.
+    Wording note: the natural phrasings here ("worth knowing", "worth consulting") would trip
+    validate Check 10, so they were avoided in drafting rather than fixed afterwards.
+    Precedent for the form: docs/content/god/dreams-and-visions/personal-examples/*.md already
+    carry a "!!! note 'Personal experience, not Scripture'" box for the same purpose.
+    Verified: 2 Timothy 3:16 verbatim against esv-study-bible and added to bible_references;
+    admonition body indented four spaces throughout; built HTML confirmed to render as
+    <div class="admonition warning"> with the title and three paragraphs intact. Also reflowed the
+    Do bullet, left ragged by the previous revision. npm run validate clean; mkdocs build
+    --strict passes.
+  revision_2026-08-12e: >
+    Author's objection: the "Where Peter got it" section conceded Psalm 90:4 to a
+    timelessness-only reading, which sits badly under a study premised on the day-to-millennium
+    mapping; and the psalms material deserved fuller exposition. Reviewed objectively rather than
+    rewritten to taste, and the objection is half right in a way that makes the section stronger
+    when fixed properly.
+    WHAT THE SOURCES ACTUALLY SUPPORT. Commentary does read Psalm 90:4 as a statement of scale:
+    the NIV Biblical Theology SB takes it as highlighting "the difference between the Lord's and
+    humankind's existence in time." That is not suppressible and the section now states it
+    outright, with attribution. The psalm's own second comparison ("a watch in the night", roughly
+    a third of a night) is smaller than its first, so the verse cannot be a conversion table on
+    its own terms. Both facts kept.
+    WHAT THE OLD VERSION CONCEDED WITHOUT NEEDING TO. Three checkable points were missing, all
+    verified here: (1) A thousand is not an arbitrary large number — it is the ceiling of a human
+    life in Hebrew reckoning, and the man the psalm is titled to is the one who recorded that
+    nobody reached it (Genesis 5: Adam 930, Seth 912, Jared 962, Methuselah 969, all confirmed
+    against esv-study-bible). Ecclesiastes 6:6 uses the figure the same way. Psalm 90:10 names the
+    other end of the scale at seventy or eighty. (2) Moses picks a *day* when Scripture has other
+    idioms available for the same point — Isaiah 40:17's "as nothing… less than nothing and
+    emptiness" — and the unit he picks is the one the creation week is counted in. (3) Every later
+    builder cited THIS verse: Sanhedrin 97a, Lactantius, Peter. The psalm supplies the units; the
+    reception is the study's subject. Stating that where the verse is introduced, instead of sixty
+    lines later, removes the hedge without overclaiming the psalm.
+    NEW STRUCTURAL FINDING, and it is not this site's invention. Psalm 90 opens Book IV directly
+    after Book III closes on Psalm 89's "How long, O LORD?" (89:46), "where is your steadfast love
+    of old, which by your faithfulness you swore to David?" (89:49) and enemies who "mock the
+    footsteps of your anointed" (89:51). The NIV Biblical Theology SB calls that placement
+    "significant, especially in the light of the downbeat ending of Book III" and lists "an
+    eternal hope grounded in an eternal God (90:1-2, 4)" among Book IV's themes. So the canonical
+    sequence is mockery-at-a-delayed-promise answered by the eternal God and the thousand-year
+    day — which is 2 Peter 3:4 answered by 3:8, the same move. Peter is not only quoting the
+    psalm, he is repeating its shape.
+    NEW SECTION, "The psalm for the seventh day", on Psalm 92. The only psalm in the Psalter
+    assigned to a day of the week (NIV Cultural Backgrounds SB); Hebrew title מִזְמוֹר שִׁיר
+    לְיוֹם הַשַׁבָּת, carrying the same definite construction as Genesis 2:2-3's seventh day. Its
+    content is the point: a psalm for the day of rest that is about the destruction of the wicked
+    (92:7, 9), the permanence of the righteous (92:12, 14) and God exalted forever at its centre
+    (92:8). The NIV Biblical Theology SB reads the title the same way — the Sabbath rest
+    "signified a spiritual and final rest that was to come." This matters for the study's honesty:
+    the Temple's seventh-day psalm (b. Rosh HaShanah 31a) and the rabbis' "a day that is entirely
+    Shabbat" (b. Sanhedrin 97a) are not importing an eschatology into Psalm 92; the psalm supplies
+    one. Previously this sat only inside a block-quoted baraita and was never expounded.
+    All thirteen new quotations verified verbatim against esv-study-bible; Genesis 5 ages
+    re-checked individually. bible_references extended with Psalm 89:49, Psalm 92:1-9,
+    Ecclesiastes 6:6, Isaiah 40:17, Genesis 5:27. Study now ~9,900 words. npm run validate clean;
+    mkdocs build --strict passes.
+  revision_2026-08-12f: >
+    Author pushed back that the NIV Biblical Theology SB's reading is a data point and not
+    necessarily a good one — a modern Western frame the study should not defer to, when the aim is
+    the precepts held in common by Scripture, Jewish thought and early Christian thought. Checked
+    before reweighting, and two things came out of it.
+    FIRST, I HAD OVER-READ THE COMMENTARY. Its actual words are that verse 4 marks "the difference
+    between the Lord's and humankind's existence IN time" and that God "does not account for time
+    in the same way that humans do." Neither is an atemporality claim; both are about reckoning.
+    The previous revision glossed it as supporting a timelessness reading and then conceded to
+    that gloss. The concession was to my own paraphrase, not to the source.
+    SECOND, THE PSALM'S OWN VOCABULARY CUTS AGAINST ATEMPORALITY, and this is checkable rather
+    than a matter of preference. Psalm 90:2's word for God's eternity is עוֹלָם, used twice —
+    מֵעוֹלָם עַד־עוֹלָם. MACULA glosses the two occurrences "antiquity" and "perpetuity"
+    (verified by direct query); TWOT root 1631a defines the lemma as "long duration" (verified via
+    twot_strongs). That is a word for the extent of time, not the absence of it. And the psalm
+    keeps addressing God inside time after v. 4: "Return, O LORD! How long?" (90:13) and "for as
+    many days as you have afflicted us, and for as many years as we have seen evil" (90:15) —
+    both verified against esv-study-bible. A timeless being cannot be asked how long.
+    So the section now names the atemporality reading as a later category the psalm does not
+    supply, quotes the commentary accurately as a claim about reckoning, and sets it as one
+    witness among several rather than the default the older reading must defend itself against.
+    The convergence is stated as the weightier evidence: the psalm's own vocabulary, the Judaism
+    that carried it, and the church that inherited it all take the units at face value.
+    Deliberately NOT asserted: any history-of-ideas claim about where the atemporality category
+    came from (Greek philosophy, Boethius, and so on). That is a real argument but nothing in this
+    repo sources it, and the narrower textual case — olam is a duration word, and the psalm asks
+    God "how long?" — is provable from the text already in hand and does the same work.
+    TWOT root 1631a added to the References alongside 2323. npm run validate clean; mkdocs build
+    --strict passes.
+  revision_2026-08-12g: >
+    Mermaid diagram added to "Where Peter got it", showing the Book III / Book IV seam alongside
+    2 Peter 3 and the week. Three aligned rows, two columns, no subgraphs.
+    STRUCTURAL FACT IT RESTS ON, verified: the Psalter's five-book division is marked in the text
+    by closing doxologies at Psalms 41:13, 72:19, 89:52 and 106:48, so the Book III / Book IV seam
+    is not imposed. First draft claimed all four sign off "Amen and Amen" — FALSE, 106:48 reads
+    "Amen! Praise the LORD!" — corrected to "a doxology ending in Amen" before it went anywhere.
+    That was a Phase 4 synthetic-claim error committed while adding a diagram, hours after writing
+    the phase that catches them.
+    LAYOUT, arrived at over four renders, each inspected as an image rather than assumed: three
+    row-subgraphs read as three coloured panels and were confusing; converting to two
+    column-subgraphs failed outright because mermaid IGNORES `direction TB` inside a subgraph when
+    edges cross between subgraphs, producing a sprawling horizontal layout. Removing subgraphs
+    entirely and using three bare pairs (A-->B, C-->D, E-->F) under `flowchart LR` gives dagre's
+    natural two-rank layout: aligned columns, one row per witness, and no background fills at all.
+    COLOUR: deliberately none. No diagram anywhere in docs/content uses classDef, style or fill,
+    and the site runs light/dark palette switching — Material themes mermaid to the active palette,
+    so hard-coded fills would survive into dark mode and break it. The colours the author saw were
+    Zed's editor preview, not site output.
+    BOLD: `<b>` removed from every label. `<br/>` is proven on this site (prophecy-chart.md,
+    published), but `<b>` appears nowhere and only renders when mermaid's htmlLabels is enabled;
+    Material does not disable it, but nothing in this repo demonstrates it, and the failure mode is
+    a literal "<b>" printed on a published page. Row identity is carried instead by each node's
+    lead-in ("Psalm 89 · Book III closes").
+    EDGE LABELS: "same move" renamed. The lower two arrows read "the same pattern"; the top arrow
+    reads "doxology, Ps 89:52" because it is a different KIND of link — an actual textual seam, not
+    a resemblance. Chose "pattern" over the author's suggested "type" deliberately: the site's Key
+    Takeaways format defines a type as an OT person/object/ritual patterning Christ or the gospel
+    by resemblance, and only the third row is typological in that sense; labelling all three
+    "type" would assert typology for the Psalter-to-2-Peter relation, which is a shared rhetorical
+    and theological move rather than type and antitype. Flagged to the author rather than assumed.
+    All ten quotations inside the diagram verified verbatim against esv-study-bible, including
+    Psalm 93:1 "The LORD reigns". bible_references extended with Psalm 89:46-52 and Psalm 93:1.
+    npm run validate clean; mkdocs build --strict passes.
