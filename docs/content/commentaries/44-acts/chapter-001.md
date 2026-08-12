@@ -16,6 +16,7 @@ draft: false
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 1:13 (primary passage)
 - [Andrew](../../biblical-figures/andrew.md) — 1:13
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 1:13
+- [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 1:6-7
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 1:15-20
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 1:13
 - [Philip](../../biblical-figures/philip.md) — 1:13

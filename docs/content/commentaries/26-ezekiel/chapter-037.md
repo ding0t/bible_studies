@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 37:15-27
+- [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 37:15-22
 <!-- commentary-index:auto-end -->

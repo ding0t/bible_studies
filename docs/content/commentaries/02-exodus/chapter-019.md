@@ -12,6 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 19:5-6
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 19:16-19
 <!-- commentary-index:auto-end -->

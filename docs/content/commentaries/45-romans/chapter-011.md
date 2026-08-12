@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 11:17-24
+- [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 11:1-29 (primary passage)
 - [The Way](../../jesus/the-way.md) — 11:33
 <!-- commentary-index:auto-end -->

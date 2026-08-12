@@ -12,19 +12,11 @@ The covenants, the distinction between Israel and the Church, and the Hebrew roo
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
--   __Hebrew Roots of Christianity__
-
-    ---
-
-    Understanding Christianity's foundation in Old Testament prophecy and Jewish roots
-
-    [:octicons-arrow-right-24: Read](hebrew-roots.md)
-
 -   __Israel and the Church__
 
     ---
 
-    Examining the Hebrew Roots argument that Israel and the Church are the same body, and where that sits against a dispensational reading
+    Paul spends three chapters of Romans on whether God is finished with Israel, and answers no. What the Church is, what Israel still is, and why Scripture keeps them distinct without making them rivals.
 
     [:octicons-arrow-right-24: Read](israel-and-the-church.md)
 

@@ -152,7 +152,7 @@ Verse 8 is a chiasm in Greek: **μία ἡμέρα παρὰ κυρίῳ ὡς �
 hēmera para kyriō hōs chilia etē kai chilia etē hōs hēmera mia*) — one day … a thousand years / a
 thousand years … one day. The clause runs both directions. Peter's source does not.
 
-can we 
+## Where Peter got it
 
 > ✝️ Psalm 90:4 (ESV)
 >

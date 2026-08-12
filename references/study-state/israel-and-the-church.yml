@@ -1,0 +1,250 @@
+slug: "israel-and-the-church"
+title: "Israel and the Church"
+status: published
+target_path: "docs/content/israel-and-church/israel-and-the-church.md"
+
+primary_passage: "Romans 11:1-29; Ephesians 2:11-22"
+supporting_passages:
+  - "Romans 9:1-6"
+  - "1 Corinthians 10:18, 32"
+  - "Ephesians 3:4-6"
+  - "Acts 15:13-18"
+  - "Revelation 7:1-9"
+  - "Ezekiel 36:22-28"
+  - "Jeremiah 30:7"
+  - "Zechariah 12:10; 13:8-9"
+  - "Galatians 6:16"
+genre: [epistle, prophets, acts, apocalyptic, topical]
+
+rebuild_note: >
+  This is a FULL REBUILD of a live page, not a revision. The previous version (72 lines,
+  draft: false) summarised Eddie Chumney's Hebrew Roots argument that "church" and "Israel" are
+  synonymous, then added one paragraph of "Cautions" noting tension with the site's own
+  dispensationalism and declining to resolve it. The author does not hold that position. At his
+  direction Chumney is dropped entirely and the study is rebuilt from Scripture. The prior
+  review (see review_2026-08-12 below) is retained as the record of why.
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Position to argue: one Church of Messianic Jews and Gentiles, and a still-distinct Israel not
+      replaced by it — recognised by Paul in Romans 9-11 and John in Revelation 7, restored to the
+      land per the prophets, with a Jewish remnant saved through the tribulation. Counter-texts
+      (Gal 6:16, Rom 2:28-29, Gal 3:29, 1 Pet 2:9) to be engaged, not routed around.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Romans has a concrete occasion and it is exactly this question. Claudius expelled Jews from
+        Rome c. AD 49 (Suetonius' "Chrestus" riots; corroborated by Acts 18:2), so the Roman
+        congregations developed for years as Gentile bodies before Jewish believers filtered back.
+        The ESV Study Bible's introduction lists among the letter's driving questions: "What does
+        the salvation of Gentiles indicate about the future of Israel as God's people (9:1-11:36)?"
+        Romans 9-11 is therefore not an excursus — it is one of the five issues the letter exists
+        to settle, addressed to a mainly Gentile readership (1:5-6, 13; 11:13; 15:15-16) at risk of
+        concluding that they had displaced the Jews. That is the same conclusion the study is
+        arguing against, which makes 11:18's "do not be arrogant toward the branches" the letter's
+        own application of its own argument.
+    literary_context:
+      done: true
+      notes: >
+        Romans 9-11 is a single unit with a stated question at each hinge: 9:6 "it is not as though
+        the word of God has failed"; 11:1 "has God rejected his people?"; 11:11 "did they stumble in
+        order that they might fall?" Each is answered μὴ γένοιτο / "By no means". The olive tree
+        (11:17-24) sits inside that argument as illustration, not as a definition of the church.
+        Ephesians 2:11-22 is likewise one unit (ESV SB divides 11-15 / 16-18 / 19-22), moving from
+        what Gentiles WERE (2:11-12) to what Christ MADE (2:14-18) to what they now ARE (2:19-22) —
+        and the terminus at 2:19 is "fellow citizens with the saints", not "Israel".
+    content_word_studies:
+      done: true
+      notes: >
+        MAIN COUNT, re-derived not recalled: Ἰσραήλ (G2474) occurs 68 times in the SBLGNT —
+        Acts 15, Matt 12, Luke 12, Rom 11, John 4, Rev 3, Heb 3, Mark 2, 2Cor 2, and one each in
+        1Cor, Gal, Eph, Phil. Every occurrence carries an ethnic or national referent except the
+        contested Galatians 6:16. Rom 9:6's inner "Israel" is a subset OF ethnic Israel (the
+        argument runs on to Isaac/Ishmael and Jacob/Esau, all inside Abraham's physical line), not
+        a category including Gentiles.
+        CHECKABLE ABSENCE: Paul writes Ἰσραὴλ κατὰ σάρκα (1 Cor 10:18) and never once supplies the
+        counterpart "Israel according to the Spirit" — verified by querying every verse containing
+        both Ἰσραήλ and πνεῦμα (only Luke 1:80 and 2:25, neither the phrase).
+      terms:
+        - word: "Ἰσραήλ"
+          language: greek
+          transliteration: "Israēl"
+          strongs_id: "G2474"
+          gloss: "Israel"
+          notes: "68 NT occurrences, distribution above. Gal 6:16 the sole contested case."
+        - word: "κτίζω / καινός"
+          language: greek
+          transliteration: "ktizō / kainos"
+          strongs_id: "G2936 / G2537"
+          gloss: "to create / new in kind"
+          notes: >
+            Eph 2:15 ἵνα τοὺς δύο κτίσῃ… εἰς ἕνα καινὸν ἄνθρωπον. Creation language, and kainos
+            (new in kind) rather than neos (new in time). If the church were Israel continuing
+            under another name there would be nothing to create.
+        - word: "συγκληρονόμος / σύσσωμος / συμμέτοχος"
+          language: greek
+          transliteration: "synklēronomos / syssōmos / symmetochos"
+          strongs_id: "G4789 / G4954 / G4830"
+          gloss: "joint-heirs / joint-body / joint-partakers"
+          notes: >
+            Eph 3:6, three σύν- compounds in one clause. Occurrence counts verified: G4789 four
+            times (Rom 8:17; Eph 3:6; Heb 11:9; 1 Pet 3:7), G4954 ONLY here — a New Testament
+            hapax — and G4830 only here and Eph 5:7. "Joint" language presupposes two parties that
+            remain distinguishable; it is not the vocabulary of absorption.
+        - word: "ἀμεταμέλητος"
+          language: greek
+          transliteration: "ametamelētos"
+          strongs_id: "G278"
+          gloss: "not to be repented of, irrevocable"
+          notes: "Rom 11:29, of the gifts and calling of God toward Israel."
+        - word: "οὕτως"
+          language: greek
+          transliteration: "houtōs"
+          strongs_id: "G3779"
+          gloss: "in this manner, so"
+          notes: >
+            Rom 11:26 καὶ οὕτως πᾶς Ἰσραὴλ σωθήσεται — a manner adverb, not a temporal one. "And
+            in this way", not "and then". Do not let a later edit turn this into a sequence claim.
+        - word: "εἰμί (present indicative)"
+          language: greek
+          transliteration: "eisin"
+          strongs_id: "G1526"
+          gloss: "they are"
+          notes: >
+            Rom 9:4 οἵτινές εἰσιν Ἰσραηλῖται, ὧν… — present tense, written c. AD 57 of unbelieving
+            kinsmen: the adoption, glory, covenants, law, worship and promises still BELONG to them.
+        - word: "קָהָל / ἐκκλησία"
+          language: hebrew
+          transliteration: "qahal / ekklēsia"
+          strongs_id: "H6951 / G1577"
+          gloss: "assembly"
+          notes: >
+            Checked because the previous version rested on it. qahal does NOT occur in Exodus
+            19-20; the Sinai assembly is called "the day of the qahal" retrospectively in
+            Deuteronomy (5:22; 9:10; 10:4; 18:16), and LXX Deut 9:10 and 18:16 do render it
+            ἐκκλησία. Acts 7:38 calls Israel in the wilderness ἡ ἐκκλησία ἐν τῇ ἐρήμῳ. The
+            vocabulary overlap is real and the study concedes it plainly rather than disputing it —
+            the argument turns on what Paul builds, not on denying that ekklesia can render qahal.
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Culture-bound: the specific first-century tension the letter addresses (returning Jewish
+        believers, Gentile congregations formed in their absence). Transcultural: the warning
+        against Gentile arrogance (11:18-21), which Paul grounds in the permanence of God's calling
+        rather than in first-century manners. The identification of any modern state with prophetic
+        fulfilment is a further step again, and is marked as such.
+    theological_principle:
+      done: true
+      notes: >
+        God's election is irrevocable, so the calling of Israel survives Israel's unbelief; the
+        Church is a new thing created in Christ from believing Jews and Gentiles, not Israel
+        renamed nor Israel replaced. Both stand at once because both rest on the same
+        unconditioned promise.
+    application_draft:
+      done: true
+      notes: >
+        Paul's own application is the one the study takes: "do not be arrogant toward the
+        branches" (11:18). Anti-supersessionism as humility rather than as a party position.
+  cross_reference:
+    done: true
+    translations_compared: ["ESV", "WEB", "ASV", "BSB", "YLT", "CSB", "NIV(BTSB)"]
+    divergences_noted: >
+      READER-ACTIONABLE FINDING at 1 Corinthians 10:18. Paul writes τὸν Ἰσραὴλ κατὰ σάρκα. ESV,
+      CSB, BSB and the NIV all render it "the people of Israel" and drop κατὰ σάρκα entirely; WEB
+      ("Israel according to the flesh"), ASV ("Israel after the flesh") and YLT preserve it. The
+      phrase is load-bearing for BOTH sides of this debate — supersessionists read it as implying
+      a spiritual Israel, and the distinction reads it as Paul marking ethnic Israel as such — so
+      an English reader of the site's default translation cannot see the word the argument is
+      conducted over. Verified by direct query, not assumed.
+  drafting:
+    done: true
+    file: "docs/content/israel-and-church/israel-and-the-church.md"
+  review:
+    done: false
+    validated: true
+    notes: >
+      Self-check only; an independent review-bible-study pass is still outstanding before
+      draft: false. 36 block-quoted verses and 24 inline fragments matched against
+      esv-study-bible by exact string comparison — 1 failure found and fixed (Romans 11:2 was
+      truncated mid-verse inside a block quote; the block was extended to 11:1-5, which also
+      supplies the remnant verse the surrounding prose asserts but had not quoted).
+      npm run validate found a CRITICAL error I had introduced: Hebrew קָהָל wrapped in markdown
+      bold, which breaks niqqud rendering. Fixed by unbolding and wrapping in a dir="rtl" span.
+      That is the exact defect Check 9 exists for and it is invisible on re-reading the source.
+      Precision fixes after verification: Romans 11:26's citation of Isaiah 59:20 now notes that
+      Paul's form reads "from Zion" where the ESV's Isaiah reads "to Zion" (Rom 11:26 has ἥξει ἐκ
+      Σιὼν; LXX Isa 59:20 has ἕνεκεν Σιὼν; MT/ESV "to Zion" — Paul matches neither exactly, and
+      the second clause ἀποστρέψει ἀσεβείας ἀπὸ Ἰακώβ matches the LXX verbatim). Genesis 17:5
+      reworded to the ESV's "father of a multitude of nations".
+      ESV block quotation is 982 of 4,678 body words (21.0%) across 16 blocks — inside the 50%
+      ceiling. mkdocs build --strict passes.
+
+open_questions:
+  - >
+    1948 is deliberately NOT claimed as dated fulfilment. What the texts require is a regathering
+    to the land preceding national repentance — Ezekiel 36:24-26 puts gathering (v. 24) before
+    cleansing and the new heart (vv. 25-26), which is what makes a return in unbelief coherent
+    rather than embarrassing. Scripture names no year. The draft states 1948 as a candidate stage
+    held with less confidence than the exegesis, and must not be edited into a fulfilment claim.
+  - >
+    Galatians 6:16 is genuinely contested and the ESV Study Bible is against this study's reading:
+    it glosses "the Israel of God" as the believing children of Abraham and says those in the new
+    creation "comprise the true Israel". The καί before τὸν Ἰσραὴλ is the crux and can be read
+    ascensively ("even"). The draft concedes the verse cannot carry the argument either way and
+    rests nothing on it.
+  - >
+    Revelation 7's 144,000: the ESV SB heads the section "The Sealing of God's International
+    Israel" and its note on 7:4-8 leans symbolic (Dan omitted, Levi included, Joseph for Ephraim,
+    12x12x1000). That is a real argument and is stated in the draft rather than suppressed; the
+    reply rests on 7:9's "after this" introducing an explicitly different and uncountable group
+    "from every nation", which a symbolic reading has to account for.
+
+resources_consulted:
+  - {type: other, title: "bible-text.db — MACULA Greek SBLGNT, MACULA Hebrew WLC, Brenton LXX, WEB/ASV/BSB/YLT", author: "this repo", note: "All occurrence counts, Strong's ids, Greek morphology and English comparisons re-derived here."}
+  - {type: other, title: "study-notes.db verses table (ESV)", author: "Crossway", note: "Every ESV quotation in the draft matched by exact string comparison, not recalled."}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway, 2016", note: "SPLIT, and reported as such. STRONGLY CONFIRMS at Rom 11:26 — rules out 'Israel = the church' because 'throughout chs. 9-11 Israel and Gentiles are distinct ethnic entities' and concludes the future salvation of ethnic Israel is most likely. CONTRADICTS at Gal 6:16 and leans against at Rev 7:4-8. Its Romans introduction supplied the Claudius/AD 49 occasion."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "CONTRIBUTED the strongest independent confirmation of the study's central move: at Eph 2:15 it states that the new humanity 'is distinct from Jews and Gentiles' and cites 1 Cor 10:32 for it — the three-category reading, from a non-dispensational study Bible. Neutral at Rom 11:26 (lists three views); leans symbolic at Rev 7:4."}
+  - {type: other, title: "Suetonius, Divus Claudius 25.4, via the ESV Study Bible's Romans introduction", author: "—", note: "The Chrestus expulsion of AD 49; corroborated in Scripture at Acts 18:2. Not quoted from Suetonius directly — cited as the study Bible reports it."}
+  - {type: other, title: "hebroots.org article 980225_c.html", author: "Eddie Chumney", note: "Fetched and verified during the review that preceded this rebuild (HTTP 200, clean TLS, 21,021 bytes — the previous version's claim of a certificate failure was stale). Quotation was verbatim. Dropped from the rebuild at the author's direction; recorded here so the removal is traceable rather than silent."}
+
+review_2026-08-12:
+  scope: "Adversarial review of the PREVIOUS version, which triggered this rebuild."
+  critical:
+    - "Page stated its source failed over HTTPS with a certificate mismatch. Verified false: HTTP 200, ssl_verify_result=0, on both the article URL and the domain root. A live page told readers a source was unverifiable when it verified clean."
+    - "Page platformed a position the author does not hold (~35 lines) against one paragraph of cautions that explicitly declined to resolve the tension — on a page in the section whose stated locus is 'Ecclesiology + the dispensational distinction'."
+  moderate:
+    - "Summary omitted the position's best evidence: Chumney's own article grounds the argument on Acts 7:37-38 and Strong's H6951/G1577 via Thayer's. Omitting it made the rebuttal look easier than it is."
+    - "qahal attached to Exodus 19:5-6, where the word does not occur; it is Deuteronomy's retrospect."
+    - "Hosea 1 cited for the north being cut off (1:9) while omitting 1:10-11's immediate reversal, which Paul quotes at Rom 9:25-26."
+    - "Pre-standard format: no scripture quote blocks, no Key Takeaways, no word studies, no primary_passage — invisible to commentary_index.py."
+  minor:
+    - "Tag 'ecclesiology' restates the section; no method/ facet despite a lexical argument."
+  separate:
+    - "hebrew-roots.md (also live) still carries an unedited template mermaid radar chart of Alice/Bob scoring Math/Science/English, and a sentence ending mid-word: 'The festivals alone are t'. Not in scope for this rebuild; raised to the author."
+
+last_updated: "2026-08-12"
+
+  publish_2026-08-12: >
+    Flipped to draft: false and indexes regenerated. Two defects surfaced by the generators and
+    fixed before publishing. (1) commentary_index.py DELETED two auto-generated chapter pages —
+    Jeremiah 2 and Ezekiel 37 — because the rebuild had dropped both from bible_references, and
+    mkdocs --strict then failed on two legacy bible/ -> commentaries/ redirects pointing at them.
+    Ezekiel 37 was a genuine content loss, not just a build break: 37:21-22's "one nation in the
+    land… one king over them all" is the national-restoration promise this study argues for, and
+    the two sticks heal an intra-Israel division between Ephraim and Judah rather than the
+    Jew-Gentile one. Added as a full section. Jeremiah 2:2-3 belonged only to the discarded
+    Sinai-betrothal argument, so the stale redirect was removed from mkdocs.yml instead of forcing
+    a citation back in for the wrong reason. (2) Hosea 1:9-11 was in bible_references but never
+    discussed in the body — the exact one-sidedness the review had flagged in the OLD page,
+    carried into the new frontmatter and then not written. Now written: Lo-Ammi at 1:9 reversed at
+    1:10, which Paul quotes at Romans 9:25-26. Romans 9:25-26 and Ezekiel 37:15-22 added to
+    bible_references.
+    Verification note: the Hosea 1:10 quotation failed two successive string checks that were both
+    checker artifacts — nested single vs double quote marks, then ESV's sentence-final period
+    sitting inside the closing quote. Resolved with a punctuation-independent word-sequence
+    comparison, which is the check that actually answers the question. npm run validate clean,
+    npm test passes, mkdocs build --strict clean.

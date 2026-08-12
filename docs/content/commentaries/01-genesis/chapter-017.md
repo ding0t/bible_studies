@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 17:12
+- [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 17:5
 <!-- commentary-index:auto-end -->

@@ -3,10 +3,12 @@ title: "Hebrew Roots of Christianity"
 category: "prophecy"
 description: "Understanding Christianity's foundation in Old Testament prophecy and Jewish roots"
 tags: ["lang/hebrew", "messianic-prophecy", "prophecy-fulfilled", "christianity"]
-draft: false
+draft: true
 ---
 
 # Hebrew roots of Christianity
+
+<!-- todo: unpublished 2026-08-12 — needs writing properly. Outstanding: the Diagram section still holds an unedited template mermaid radar chart (Alice/Bob, Math/Science/English); the Festivals section ends mid-word ("The festivals alone are t"); no scripture quote blocks, no Key Takeaways, no primary_passage. -->
 
 Christianity recognises Jesus Christ as the Messiah, fulfillment of Old Testament prophecy, Lord and saviour. This same Old Testament is the foundation of Judaism, and was treated by Jesus as scripture when he walked on earth as a man.
 

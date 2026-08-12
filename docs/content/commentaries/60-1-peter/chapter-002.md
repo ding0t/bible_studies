@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 2:9
+- [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:9
 <!-- commentary-index:auto-end -->
