@@ -3,7 +3,7 @@
 Which section a study goes in, and what it gets tagged. Shared by both skills:
 [develop-bible-study](SKILL.md) uses it before drafting (getting this wrong is cheap to prevent and
 annoying to fix once the URL is published), [review-bible-study](../review-bible-study/SKILL.md)
-Phase 6 uses it as a checklist against a file that already exists.
+Phase 7 uses it as a checklist against a file that already exists.
 
 Full definition: [our-taxonomy.md](../../../docs/content/about/our-taxonomy.md). This is the working
 short version.

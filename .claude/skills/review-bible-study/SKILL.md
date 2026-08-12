@@ -1,6 +1,6 @@
 ---
 name: review-bible-study
-description: Critically audits an existing study, commentary, or sermon file in docs/content/ -- scripture-quote accuracy, citation accuracy, word studies re-verified against source, claims cross-checked against a commentary, exegesis-context coverage per how-to-read-the-bible.md, taxonomy placement, frontmatter and tag correctness, and a style-guide pass. Use when the user asks to review, audit, fact-check, critique, double-check, or verify an already-drafted or already-published study -- as opposed to develop-bible-study, which builds a new one.
+description: Critically audits an existing study, commentary, or sermon file in docs/content/ -- scripture-quote accuracy, citation accuracy, word studies re-verified against source, the study's own synthetic claims (correspondences, orderings, counts, arithmetic) verified independently, claims cross-checked against a commentary, exegesis-context coverage per how-to-read-the-bible.md, taxonomy placement, frontmatter and tag correctness, and a style-guide pass. Use when the user asks to review, audit, fact-check, critique, double-check, or verify an already-drafted or already-published study -- as opposed to develop-bible-study, which builds a new one.
 ---
 
 # Review a Bible Study
@@ -94,7 +94,48 @@ earlier session) already wrote.
   claim as unsupported just because a fresh query returns nothing; confirm whether the verse is covered
   at all before treating silence as contradiction.
 
-## Phase 4 — Commentary cross-check
+## Phase 4 — The study's own claims
+
+Phases 1–3 all check a claim against a **source**. This phase checks the claims that have no source:
+the ones the study constructs itself, on top of correctly-quoted verses and correctly-derived word
+studies. For any study whose distinctive contribution is a typological mapping, a chronology, or a
+pattern argument, this is most of what the reader came for, and nothing above covers it.
+
+**Extract them into a list, away from the prose, before checking any of them.** Two things make this
+phase hard, and both defeat reading. A synthetic claim is usually the most rhetorically polished
+sentence in its paragraph — it is where the writer landed the point — and polish reads as confidence.
+And where the reviewer is also the author, re-reading supplies the relation that was *intended*
+rather than the one that was *written*.
+
+What to enumerate:
+
+- **Correspondence claims** — "X answers to Y," "the same word appears in both," "these two events
+  are those two events." Check the correspondence, not the things being corresponded. Both halves can
+  be individually accurate and the relation between them still false.
+- **Ordering and sequence claims** — "in order," "in the same order," "first … then." These fail
+  silently, because a reader assumes anyone who wrote "in order" counted. Lay the two sequences out
+  side by side and compare positions.
+- **Quantity and frequency claims** — "six times in six verses," "four times," "the only place in
+  Scripture," "never elsewhere." Re-run the count. Phase 3 covers this for original-language terms;
+  the identical claim made about English words, books, events or people is not covered there.
+- **Arithmetic** — dates, spans, totals, era conversions. Recompute; a wrong sum looks exactly like a
+  right one.
+- **Uniqueness and exhaustiveness** — "the only," "no other," "every," "always." Cheapest to write,
+  most expensive to verify, and therefore usually written unverified.
+
+**A false synthetic claim is Critical**, level with a misquoted verse. The study asserts it in its own
+voice, so there is no source to carry the blame and nothing external for a reader to check it against.
+
+**This is not hypothetical.** `last-things/day-is-a-thousand-years.md` asserted "Day three's two
+events, in order, are the third millennium's two events, in order." Both lexical links underneath it
+(*yabbashah*, *zera*) were verified in Phase 1 and re-derived in Phase 3, and both were correct. The
+ordering was not: Genesis day three runs land (1:9-10) then seed (1:11-12), while the millennium it
+was matched to has the promise of both together at Genesis 12:7 and reaches dry ground only at the
+Exodus, centuries later. The sentence survived a complete review because every phase checked its
+parts and no phase checked its claim. It was eventually caught while cutting the sentence for
+*style* — which is luck, not method, and is why this phase exists.
+
+## Phase 5 — Commentary cross-check
 
 - From the study's `primary_passage`, query `study-notes.db` for a commentary the study's own
   **References & Recommended Reading** section does *not* already cite for that passage, if one covering
@@ -105,7 +146,7 @@ earlier session) already wrote.
   claim checked: **confirms**, **silent** (neither supports nor contradicts), or **complicates/contradicts**.
 - A contradiction against a central claim is a **Critical** finding, not a footnote.
 
-## Phase 5 — Context coverage
+## Phase 6 — Context coverage
 
 Run the file against the six questions on
 [how-to-read-the-bible.md](../../../docs/content/scripture/how-to-read-the-bible.md), one at a time, marking
@@ -120,13 +161,13 @@ each **covered**, **partial**, or **missing**:
 6. Is the theological principle stated or taught elsewhere in Scripture, rather than resting on one
    narrative detail or incidental remark alone?
 
-A study can pass every check in Phases 1–4 — every quote and citation accurate — and still fail this
+A study can pass every check in Phases 1–5 — every quote and citation accurate — and still fail this
 phase by skipping straight to application. That is precisely the failure mode
 [how-to-read-the-bible.md](../../../docs/content/scripture/how-to-read-the-bible.md) and SKILL.md's "one
 rule that governs everything" exist to catch, so don't skip this phase because the sourcing already
 checked out clean.
 
-## Phase 6 — Placement, frontmatter & tags
+## Phase 7 — Placement, frontmatter & tags
 
 Cheap to check, and the failures are invisible from the page itself — they show up as a study missing
 from an index, or a wrong entry on someone else's page.
@@ -150,25 +191,49 @@ study goes silently under-reported in `commentary_index.py`'s cross-references),
 `gregorian_year: -4004` placeholder (plants a false entry on the prophetic timeline — and
 `build-events.js` does not filter drafts, so `draft: true` will not contain it).
 
-## Phase 7 — Style guide pass
+## Phase 8 — Style guide pass
 
 Run [style-guide.md](../develop-bible-study/style-guide.md) against the file: bare intensifiers, grader
 adjectives, narrated-argument phrases, overused contrast rhythm, em-dash density, rule-of-three padding,
 and — the brevity check — sentences that don't survive being deleted. Also confirm the section order
 from develop-bible-study's Phase 7 (short hook → **Key Takeaways** → detail → … → References & Recommended
-Reading). This phase produces
-**Minor** findings only; a style issue is never as severe as a wrong Bible quote.
+Reading).
+
+**Do the reading test, and do it before any grep.** style-guide.md's own instruction — notice what you
+**skim** — is the check that catches this entire category, and it cannot be run from a terminal. Read
+the prose start to finish and mark every sentence your eye slides past to get to the content. That
+reflex *is* the finding; it is the same thing the reader will do.
+
+**A clean `npm run validate` does not mean the file passed this phase.** Its style checks are four
+narrow regexes — Check 10 `worth ___`, Check 11 the "rather than" virtue contrast, Check 12 bullet
+length, Check 13 reader-reassurance address. The narrated-argument family, the apologia posture, the
+restated conclusion and the straw-alternative contrast match none of them, and style-guide.md says so
+outright: the shapes it cannot detect mechanically "are on you." Treating a green validate run as
+coverage is exactly how *"Note what this is. It is not a mystical flourish; it is an exegetical
+solution"* — an announcement stacked on a straw alternative, two tells in one sentence — passed a
+full review of the file it was sitting in.
+
+**Learn the shape, not the examples.** style-guide.md makes this point about `worth ___` and it
+generalises to every tell on that page: a reviewer grepping the guide's literal specimens will miss
+every variant of them. *"Notice that…"* is listed there; *"Note what this is"* is not, and they are
+the same sentence.
+
+Findings here are **Minor** one at a time; a style issue is never as severe as a wrong Bible quote.
+Raise it as **Moderate** when the register is *pervasive* rather than local — style-guide.md exists
+because prose that reads as machine-generated "undercuts the reader's trust in the research
+underneath," and that damage scales with density, not with any single hit.
 
 ## Reporting
 
 Findings, most severe first:
 
 - **Critical** — wrong scripture text, a citation that doesn't say what's claimed, a broken translation
-  label, a commentary that contradicts a central claim, or Hebrew/Aramaic text broken by markdown bold
-  (see Phase 2). These block `draft: false` (or, for an already-live file, warrant fixing promptly).
-- **Moderate** — a Phase 5 context gap (e.g., cultural-vs-transcultural never made explicit), a stale
+  label, a false synthetic claim the study makes in its own voice (Phase 4), a commentary that
+  contradicts a central claim, or Hebrew/Aramaic text broken by markdown bold (see Phase 2). These
+  block `draft: false` (or, for an already-live file, warrant fixing promptly).
+- **Moderate** — a Phase 6 context gap (e.g., cultural-vs-transcultural never made explicit), a stale
   word-count claim that's directionally still true but numerically off, a cross-reference that's weaker
-  than stated.
+  than stated, or a pervasive style-register problem (Phase 8).
 - **Minor** — style-guide hits, padding, structural nits.
 
 Present the list to the user before fixing anything. Once they've seen it and said which to act on,

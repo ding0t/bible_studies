@@ -3,8 +3,42 @@
 Phase 7 of [SKILL.md](SKILL.md) links here. This isn't about content — the exegesis-before-hermeneutics
 method, the word studies, the citation discipline all stay exactly as demanding as the rest of this
 skill requires. It's about the surface of the prose: the tics that make a well-researched study *read*
-like an LLM wrote it, which undercuts the reader's trust in the research underneath. Run this pass after
-a draft is otherwise done, not while first getting ideas down.
+like an LLM wrote it, which undercuts the reader's trust in the research underneath.
+
+## Write toward this
+
+**Four rules, and they are the whole guide.** Everything after this section is diagnostic — the
+specific shapes prose takes when it drifts off these four, with corpus evidence behind each. Write
+toward the four and the drift mostly doesn't happen; check against the tells and you only catch
+instances, one at a time, forever. Use these from the first sentence of the first draft, not as a
+pass at the end.
+
+**1. Every sentence adds a fact, a citation, or a step in the argument.** This single rule subsumes
+most of the page. An announcement adds none of the three. A restated conclusion adds none. A straw
+contrast adds a fact about nobody. A grader adjective adds emphasis where evidence should go. If a
+sentence carries only rhythm, it is already the defect — you never have to work out *which* tell it
+is.
+
+**2. Name the actor and show the mechanism.** *"Jubilees is doing exegesis here. It has a problem in
+Genesis 2:17 — a sentence saying Adam will die in a day, and a narrative in which he lives 930 years
+— and it solves the problem by taking the thousand-year day as the text's plain sense."* Not *"this
+is an exegetical solution, not a mystical flourish."* Mechanisms are what you supply; categories are
+what the reader concludes. When you find yourself asserting what kind of thing something is, show
+how it works instead and delete the assertion.
+
+**3. Lead with the fact.** Put the load-bearing thing in the first clause of the first sentence.
+*"The Temple ran on it."* Whatever would have introduced it — how clear the evidence is, how
+significant, what it demonstrates, that it is about to be demonstrated — is either unnecessary or
+belongs after the fact rather than in front of it.
+
+**4. Let the citation carry the emphasis.** A verse reference, a daf number, an occurrence count, a
+manuscript variant and a date are each stronger than any adjective available to you. Reaching for
+*decisive*, *striking* or *remarkable* is usually a sign of being short on evidence rather than short
+on vocabulary — go and get the reference instead.
+
+**Two tests, both cheap.** *Deletion*: cut the sentence, re-read the paragraph, and see whether any
+fact, citation or step went with it. *Skim*: read the draft and notice what your eye slides past to
+get to the content — that reflex **is** the finding, and it is exactly what the reader will do.
 
 ## The tell: words that assert confidence instead of earning it
 
@@ -25,10 +59,39 @@ for the one place in the study that actually earns it by comparison to everythin
 
 ## The tell: narrating the argument instead of making it
 
-Phrases like *"Credit where due,"* *"Against overreading,"* *"Notice that…,"* *"What's happening
-here is…,"* *"This is precisely…"* announce that a point is coming instead of just making it. Cut the
-announcement; the point stands on its own — say the observation, don't narrate that an observation is
-arriving.
+**This is a template with an open slot, exactly like `worth ___` below, and it has to be learned the
+same way — by shape, not by specimen.**
+
+> ⟨announcement that a point is arriving⟩ + ⟨the point⟩
+
+The announcing half fills endlessly: *"Note what this is,"* *"Notice that…,"* *"What's happening
+here is…,"* *"What it contains is…,"* *"What comes bundled with it is…,"* *"The thing to notice
+is…,"* *"That matters, because…,"* *"This is precisely…,"* *"Credit where due,"* *"Against
+overreading."* Cut the announcement and keep the point; it stands on its own. Say the observation,
+don't narrate that an observation is arriving.
+
+**It travels with a straw alternative.** Announcing a point opens a slot for a contrast, and the
+contrast is generally against something nobody proposed:
+
+> ⟨announcement⟩. It is not ⟨straw⟩; it is ⟨the real thing⟩.
+
+*"Note what this is. It is not a mystical flourish; it is an exegetical solution."* Both halves are
+overhead — no reader had suggested a mystical flourish, and the sentences that follow were going to
+demonstrate the exegesis anyway. Replace the construction with the demonstration: show the mechanism
+and the category takes care of itself. (*"Jubilees is doing exegesis here. It has a problem in
+Genesis 2:17 — a sentence saying Adam will die in a day, and a narrative in which he lives 930
+years — and it solves the problem by…"*)
+
+**Where this is actually produced is revision, not first drafting.** The rule near the bottom of this
+page — that throat-clearing gets added while tightening the transition around a sentence, "which is
+exactly backwards" — bites hardest here. On `last-things/day-is-a-thousand-years.md`, four instances
+were cut in one pass and **three more appeared in the next two revisions of the same paragraphs**,
+each written within an hour of the cut, by a writer who had just finished removing them. Re-run this
+section after every substantive rewrite, not only before `draft: false`.
+
+**`npm run validate` will not catch any of it.** Its four style checks are `worth ___`, the "rather
+than" virtue contrast, bullet length, and reader-reassurance address. Every announcement listed above
+passes them clean, which is why a green validate run is not evidence this section was done.
 
 ### `worth ___` is a template, not a phrase
 
@@ -330,6 +393,14 @@ ones that pass it.
 Grep separately for `worth` — as a template with an open slot it can't be caught by a word list, and
 it is the tell most likely to still be in the draft. `npm run validate` also flags it (warning level,
 Check 10), so a clean validate run is the faster way to find every instance.
+
+## If you only remember one thing
+
+Not the tell list — the four rules in [Write toward this](#write-toward-this). Every diagnostic on
+this page exists because prose drifted off one of them, and the list will always lag the drift: each
+new variant needs a new entry, which is why `worth ___` reached 48 instances in a corpus where the
+rule was already written down. Writing toward "every sentence adds a fact, a citation, or a step"
+makes the variants stop being generated in the first place.
 
 ## Why this is worth a pass of its own
 
