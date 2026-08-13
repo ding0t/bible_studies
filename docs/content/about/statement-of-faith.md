@@ -2,7 +2,7 @@
 title: "Statement of Faith"
 category: "other"
 description: "Personal statement of faith and biblical doctrine"
-tags: ["statement-of-faith", "doctrine", "faith"]
+tags: ["statement-of-faith", "doctrine", "faith", "sanctification"]
 draft: false
 ---
 
@@ -128,6 +128,54 @@ This is the center of everything above. Because of sin, I owed a debt I could no
 Salvation is not earned; it's received: [Ephesians 2:8-9 (ESV)](https://www.blueletterbible.org/esv/Eph/2/8-9) — "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." [Titus 3:5 (ESV)](https://www.blueletterbible.org/esv/Tit/3/5) says the same thing from the other direction — "not because of works done by us in righteousness, but according to his own mercy." 
 
 Belief, confession, and new life go together: [Romans 10:9-10 (ESV)](https://www.blueletterbible.org/esv/Rom/10/9-10). And I hold this exclusively, not as one path among several: [John 14:6 (ESV)](https://www.blueletterbible.org/esv/Joh/14/6) — "I am the way, and the truth, and the life. No one comes to the Father except through me."
+
+---
+
+## Sanctification
+
+Salvation settles where I stand with God. Sanctification is what He then does with the life that follows, and it is the part I am living in now.
+
+### Set apart, and being set apart
+
+- [x] At the cross God declared me holy once for all; by His Spirit He is now making me holy in practice.
+
+[Hebrews 10:14 (ESV)](https://www.blueletterbible.org/esv/Heb/10/14) holds both halves in a single sentence — "by a single offering he has perfected for all time those who are being sanctified." Perfected: finished, God's verdict over me. Being sanctified: unfinished, God's work in me. Neither cancels the other.
+
+This is God's stated will for me, not an advanced track for the serious: [1 Thessalonians 4:3 (ESV)](https://www.blueletterbible.org/esv/1Th/4/3) — "this is the will of God, your sanctification." And it is His work to complete, not mine to sustain: [1 Thessalonians 5:23-24 (ESV)](https://www.blueletterbible.org/esv/1Th/5/23-24) — "may the God of peace himself sanctify you completely... He who calls you is faithful; he will surely do it." [Philippians 1:6 (ESV)](https://www.blueletterbible.org/esv/Php/1/6) says the same: "he who began a good work in you will bring it to completion at the day of Jesus Christ."
+
+### Sanctified now, glorified then
+
+- [x] Sanctification is this life's work; glorification is Christ finishing it when I see Him.
+
+[Romans 8:29-30 (ESV)](https://www.blueletterbible.org/esv/Rom/8/29-30) runs the whole chain — foreknown, predestined, called, justified, glorified — and names the destination: "conformed to the image of his Son." Glorification is that conforming completed, and it happens at sight of Him: [1 John 3:2 (ESV)](https://www.blueletterbible.org/esv/1Jo/3/2) — "when he appears we shall be like him, because we shall see him as he is."
+
+The next verse turns that hope into present work: "everyone who thus hopes in him purifies himself as he is pure" ([1 John 3:3](https://www.blueletterbible.org/esv/1Jo/3/3)). Sanctification does not earn glorification; the certainty of glorification is what drives sanctification.
+
+### Walking in the Way
+
+- [x] I grow by fixing on Christ Himself — knowing the Way is how I recognise stepping off it.
+
+Jesus did not say He points out the way; He said He is it ([John 14:6](https://www.blueletterbible.org/esv/Joh/14/6)). So the walk is a person, not a technique, and the instruction for it is a direction of gaze: [Hebrews 12:1-2 (ESV)](https://www.blueletterbible.org/esv/Heb/12/1-2) — "lay aside every weight, and sin which clings so closely... looking to Jesus, the founder and perfecter of our faith." Stop looking and the pressure runs the other way: [Romans 12:2 (ESV)](https://www.blueletterbible.org/esv/Rom/12/2) — "Do not be conformed to this world, but be transformed by the renewal of your mind."
+
+Much Christian energy goes into cataloguing error. I hold the emphasis the other way round: know Christ well enough and error announces itself. A man who knows the road knows when the ground under his feet has changed, and he knows it without having memorised every wrong turning. Discernment grows out of familiarity with Christ, not out of a separate study of counterfeits.
+
+The resolve for that walk was His before it was ever asked of me. The Servant of [Isaiah 50:7 (ESV)](https://www.blueletterbible.org/esv/Isa/50/7) says, "I have set my face like a flint, and I know that I shall not be put to shame" — and Luke reports it of Jesus in the event itself: "he set his face to go to Jerusalem" ([Luke 9:51 (ESV)](https://www.blueletterbible.org/esv/Luk/9/51)).
+
+### The house God is building
+
+- [x] God lays the bricks; I can keep His work or pull it down, and the maturing of it depends on which.
+
+The building is His, and any of it I attempt alone comes to nothing: [Psalm 127:1 (ESV)](https://www.blueletterbible.org/esv/Psa/127/1) — "Unless the LORD builds the house, those who build it labor in vain." The foundation is fixed and not mine to choose: [1 Corinthians 3:11 (ESV)](https://www.blueletterbible.org/esv/1Co/3/11) — "no one can lay a foundation other than that which is laid, which is Jesus Christ."
+
+I picture the walk as a house going up on that foundation. God lays each brick: a conviction taken to heart, a habit put to death, a lie about Him replaced with the truth. What [James 1:23-25 (ESV)](https://www.blueletterbible.org/esv/Jas/1/23-25) describes is a brick coming straight back down — the man sees his own face in the mirror of the Word "and at once forgets what he was like." Nothing was built, because nothing was kept. Do that often enough and the house never reaches any height. The foundation is never at risk; the house standing on it is what I can waste.
+
+### Reward for the believer
+
+- [x] A believer's works are examined for reward at the judgment seat of Christ — a separate event, with a separate outcome, from the final judgment of all.
+
+The same passage that names the foundation goes on to test what was built on it: [1 Corinthians 3:12-15 (ESV)](https://www.blueletterbible.org/esv/1Co/3/12-15) — gold, silver and precious stones against wood, hay and straw, with fire to "test what sort of work each one has done." Work that survives earns reward; work burned up is loss, "though he himself will be saved, but only as through fire." [2 Corinthians 5:10 (ESV)](https://www.blueletterbible.org/esv/2Co/5/10) names the setting: "we must all appear before the judgment seat of Christ." This is a son's work being assessed, not a trial to determine whether he is a son.
+
+That is not the great white throne of [Revelation 20:11-15 (ESV)](https://www.blueletterbible.org/esv/Rev/20/11-15), where those who rejected Christ are judged — see End times below. My sin was judged at the cross and will not be raised again; what remains under review is the house.
 
 ---
 
