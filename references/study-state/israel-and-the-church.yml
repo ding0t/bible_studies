@@ -248,3 +248,66 @@ last_updated: "2026-08-12"
     sitting inside the closing quote. Resolved with a punctuation-independent word-sequence
     comparison, which is the check that actually answers the question. npm run validate clean,
     npm test passes, mkdocs build --strict clean.
+
+review_2026-08-13:
+  scope: "Independent adversarial pass on the LIVE page, run after publication at the author's request. Self-authored, so every claim re-derived from source rather than re-read from this file."
+  critical: "none — no misquoted scripture, no commentary contradicting a central claim, no Hebrew-bold defect. All 41 block-quoted verses and every inline fragment re-matched against esv-study-bible."
+  moderate_found_and_fixed:
+    - >
+      ISAIAH 59:20. The Key Takeaways bullet claimed Romans 11:26 quotes "Isaiah 59:20 in a form
+      reading 'from Zion'". No such Isaiah witness exists. Verified: Rom 11:26 has ἥξει ἐκ Σιὼν;
+      LXX Isa 59:20 has ἥξει ἕνεκεν Σιὼν; MT/ESV Isaiah reads "to Zion". LXX Psalm 13:7 (MT 14:7)
+      has ἐκ Σιὼν verbatim and also names Jacob and Israel. The NKJV Cultural Backgrounds Study
+      Bible — a commentary the study had NOT cited — identifies Ps 14:7 as the source of "from
+      Zion" and describes Paul as blending. The study had invented an Isaiah variant to explain
+      what conflation explains better. Bullet simplified to "drawing on Isaiah 59:20"; a sourced
+      paragraph on the conflation added to the mystery section, with all three Greek forms quoted.
+    - >
+      EXHAUSTIVENESS OVERSTATED. "Every one of them carries an ethnic or national referent, with a
+      single contested exception" was asserted over all 68 occurrences when only the 20 Pauline
+      ones had been examined at drafting. Romans 9:6b is a second case — a subset defined by
+      promise, not descent, which the study itself conceded three sentences later — and Hebrews
+      8:8/8:10 quote Jeremiah's "house of Israel" inside an argument pressed on Christian readers.
+      Rewritten as a three-item list naming Rom 9:6, Heb 8:8-10 and Gal 6:16 explicitly, with the
+      claim narrowed to what the evidence supports: no occurrence unambiguously names a body of
+      Jews and Gentiles together. "The sixty-seven unambiguous occurrences" corrected likewise.
+      The count (68) and the full per-book distribution were re-derived and are exact.
+    - >
+      HEADING CONTRADICTED ITS OWN TABLE — "What no English translation shows you" above a table
+      showing WEB and ASV do show it. This is the IDENTICAL finding raised and fixed on
+      last-things/day-is-a-thousand-years.md earlier in the same session and reproduced here
+      within hours. Retitled "What most English translations drop"; "most-read" softened to
+      "widely-used" since BSB is not among the most-read.
+    - >
+      PERVASIVE VIRTUE NARRATION. Ten disclosure frames, found by the reading test and invisible
+      to every grep and to npm run validate: "they deserve better than a dismissal", "this study
+      does not pretend otherwise", "an honest concession", "has never rested on denying that",
+      "it should be heard", "the honest way to hold it is loosely", "Here is the line the texts
+      will bear", "which is more useful than a consensus would be", "A reader is entitled to
+      know", "That matters for how the passage gets used". All concentrated in the even-handed
+      sections, i.e. on top of substance that already demonstrated the honesty. All ten cut, every
+      caveat kept. Self-references reduced 9 -> 7.
+  minor_not_actioned:
+    - "Revelation 7 tribe-list anomaly omits that Manasseh is listed alongside Joseph, which is the sharper oddity than 'Joseph instead of Ephraim'."
+    - "'Grafting is the one horticultural image that requires the graft to remain distinguishable' — an unverifiable claim about horticulture in general."
+    - "'Paul had a settled way of dividing the human race… and it had three parts' generalises from a single verse (1 Cor 10:32)."
+    - "Tag 'covenants' is new and near-synonymous with the existing 'new-covenant'."
+    - "Phase 6: Revelation 7's literary context (an interlude between the sixth and seventh seals) is absent, though the 'after this' argument leans on the vision's structure; cultural-vs-transcultural line never drawn explicitly."
+  verified_clean: >
+    Ἰσραήλ = 68 occurrences with the stated per-book distribution, exact. σύσσωμος (G4954) confirmed
+    a NT hapax; συμμέτοχος (G4830) confirmed Eph 3:6 and 5:7 only. "Israel according to the Spirit"
+    confirmed absent by a STRONGER method than the study describes — a positional query for Ἰσραήλ
+    within six words of πνεῦμα in any order, returning only Luke 2:25, which is not the phrase.
+    Ἰσραήλ κατὰ σάρκα confirmed unique to 1 Cor 10:18. Romans dated AD 57 and the five occasioning
+    questions confirmed from the ESV SB introduction. Ezekiel 37:16, 19 confirm Ephraim and Judah
+    as the named parties. 1 Peter 2:9 confirmed a near-verbatim LXX echo of Exodus 19:6 (Ὑμεῖς δὲ …
+    βασίλειον ἱεράτευμα … ἔθνος ἅγιον) — stronger than the study's "applies". Rom 11:20 and 11:25
+    confirmed to support the arrogance reading. All internal links resolve.
+  commentary_cross_check: >
+    Consulted three not cited by the study. NKJV Cultural Backgrounds SB CONTRIBUTED the Psalm 14:7
+    correction above, and separately CONTRIBUTES a point in the study's favour at Gal 6:16 that it
+    does not yet use: Jewish benedictions regularly prayed "Peace… to Israel", which supports
+    reading the phrase as a distinct group. NLT Life Application SB is SILENT at Rom 11:26 (lists
+    three views) though it states "God chose the nation of Israel, and he has never rejected it".
+    CSB Ancient Faith SB silent.
+  post_fix_state: "npm run validate clean on this file; mkdocs build --strict clean; ESV quotation 20.9% of 5,073 body words; all 41 block-quoted verses re-verified after the edits."

@@ -5,7 +5,7 @@ description: "Paul spends three chapters of Romans on whether God is finished wi
 tags: ["dispensationalism", "one-new-man", "covenants", "romans", "ephesians", "revelation", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "Romans 11:1-29; Ephesians 2:11-22"
-bible_references: ["Romans 9:1-6", "Romans 11:1-5", "Romans 11:17-24", "Romans 10:1", "Isaiah 59:20", "Isaiah 11:11", "Jeremiah 9:25-26", "Genesis 17:5", "Acts 18:2", "1 Corinthians 10:18", "1 Corinthians 10:32", "Ephesians 3:4-6", "Acts 15:13-18", "Acts 1:6-7", "Revelation 7:1-9", "Ezekiel 36:22-28", "Ezekiel 37:15-22", "Jeremiah 30:7", "Zechariah 12:10", "Zechariah 13:8-9", "Galatians 6:16", "Galatians 3:29", "Romans 2:28-29", "1 Peter 2:9", "Amos 9:14-15", "Hosea 1:9-11", "Romans 9:25-26"]
+bible_references: ["Romans 9:1-6", "Romans 11:1-5", "Romans 11:17-24", "Romans 10:1", "Isaiah 59:20", "Psalm 14:7", "Hebrews 8:8-10", "Isaiah 11:11", "Jeremiah 9:25-26", "Genesis 17:5", "Acts 18:2", "1 Corinthians 10:18", "1 Corinthians 10:32", "Ephesians 3:4-6", "Acts 15:13-18", "Acts 1:6-7", "Revelation 7:1-9", "Ezekiel 36:22-28", "Ezekiel 37:15-22", "Jeremiah 30:7", "Zechariah 12:10", "Zechariah 13:8-9", "Galatians 6:16", "Galatians 3:29", "Romans 2:28-29", "1 Peter 2:9", "Amos 9:14-15", "Hosea 1:9-11", "Romans 9:25-26"]
 ---
 
 # Israel and the Church
@@ -41,8 +41,7 @@ branches grafted back "into their own olive tree" (11:24).
 - He is Israel's own, by descent and by right: "from their race, according to the flesh, is the
   Christ, who is God over all, blessed forever" (Romans 9:5).
 - He is the Deliverer Israel is still waiting to recognise — "The Deliverer will come from Zion, he
-  will banish ungodliness from Jacob" (Romans 11:26, quoting Isaiah 59:20 in a form reading "from
-  Zion"; the ESV's Isaiah reads "to Zion").
+  will banish ungodliness from Jacob" (Romans 11:26, drawing on Isaiah 59:20).
 
 ### Memory verses
 
@@ -96,8 +95,8 @@ salvation of Gentiles indicate about the future of Israel as God's people?" — 
 for, written to a mainly Gentile readership (1:5-6, 13; 11:13) at risk of concluding that they had
 replaced the people whose seats they were sitting in.
 
-That matters for how the passage gets used. The conclusion this study argues against is the
-conclusion Paul's first readers were already tempted by, and 11:18 is his own application of his own
+The conclusion argued against here — that the Gentiles had displaced the Jews — is the one Paul's
+first readers were already tempted by, which is why 11:18 is his own application of his own
 argument.
 
 ## Paul's question, and his answer
@@ -178,6 +177,14 @@ gospel, beloved as regards election.
 **Irrevocable** translates **ἀμεταμέλητα** (*ametamelēta*, G278) — literally not-to-be-repented-of.
 The gifts and the calling are not withdrawn, because God does not change his mind about them.
 
+A note on the quotation in verse 26, since a reader who looks it up will find a discrepancy. Paul
+writes ἥξει **ἐκ Σιὼν** ὁ ῥυόμενος, "the Deliverer will come **from** Zion." Isaiah 59:20 reads
+"**to** Zion" in the Hebrew, and ἥξει **ἕνεκεν Σιὼν**, "for the sake of Zion," in the Septuagint —
+neither gives Paul his preposition. The Septuagint of Psalm 14:7 does — numbered 13:7 there — Τίς δώσει **ἐκ Σιὼν** τὸ
+σωτήριον τοῦ Ἰσραήλ, a verse that also names Jacob and Israel. The *NKJV Cultural Backgrounds Study
+Bible* reads Paul as blending the two, which is what the wording suggests: the rest of his line
+matches Isaiah's Greek word for word.
+
 ## Three categories, not two
 
 Paul had a settled way of dividing the human race after Pentecost, and it had three parts.
@@ -234,14 +241,24 @@ Fellow citizens with the saints. Members of the household of God. The word he ha
 just used, he does not use.
 
 That turns out to hold across the New Testament. **Ἰσραήλ** (G2474) occurs **68 times** in the Greek
-New Testament — Acts 15, Matthew 12, Luke 12, Romans 11, John 4, Revelation 3, Hebrews 3, Mark 2,
-2 Corinthians 2, and once each in 1 Corinthians, Galatians, Ephesians and Philippians. Every one of
-them carries an ethnic or national referent, with a single contested exception discussed below.
-Romans 9:6's inner Israel — "not all who are descended from Israel belong to Israel" — is a subset
-*of* ethnic Israel, since the argument runs straight on to Isaac and Ishmael, Jacob and Esau, all
-inside Abraham's physical line. It is the remnant, not the Church.
+New Testament — Acts 15, Matthew 12, Luke 12, Romans 11, John 4, Revelation 3, Hebrews 3, Mark 2, 2
+Corinthians 2, and once each in 1 Corinthians, Galatians, Ephesians and Philippians. Not one of them
+unambiguously names a body of Jews and Gentiles together. Three need more than a bare count:
 
-## What no English translation shows you
+- **Romans 9:6** uses the word twice — "not all who are descended from Israel belong to Israel." The
+  first is ethnic; the second is a subset *of* that same ethnic group, since the argument runs
+  straight on to Isaac and Ishmael, Jacob and Esau, all inside Abraham's physical line. It is the
+  believing remnant, not the Church.
+- **Hebrews 8:8 and 8:10** quote Jeremiah's "house of Israel and… house of Judah" inside an argument
+  the letter presses on Christian readers. The referent *in the quotation* is Jeremiah's; how far
+  Hebrews transfers it is a separate and contested question.
+- **Galatians 6:16** is the one occurrence seriously argued as meaning the Church, and it is
+  discussed below.
+
+That is the honest shape of the count: not sixty-seven knock-down cases and one awkward one, but a
+word Scripture uses of a nation and its remnant, never once plainly of the two peoples joined.
+
+## What most English translations drop
 
 Paul once qualifies the word, at 1 Corinthians 10:18, where he writes **τὸν Ἰσραὴλ κατὰ σάρκα** —
 Israel *according to the flesh*. Checked against the Greek first, then across the versions:
@@ -256,9 +273,9 @@ Israel *according to the flesh*. Checked against the Greek first, then across th
 | WEB | "Consider Israel **according to the flesh**" |
 | ASV | "Behold Israel **after the flesh**" |
 
-Four of the most-read English versions drop the qualifier entirely. It is load-bearing for both sides
-of this argument — read one way it implies a spiritual Israel standing behind the fleshly one, read
-the other it is Paul marking off ethnic Israel precisely as ethnic. An English reader of the site's
+Four widely-used English versions drop the qualifier entirely. It is load-bearing for both sides of
+this argument — read one way it implies a spiritual Israel standing behind the fleshly one, read the
+other it is Paul marking off ethnic Israel precisely as ethnic. An English reader of the site's
 default translation cannot see the phrase the debate is conducted over, which is a reason to keep a
 more literal version open at this verse.
 
@@ -269,16 +286,14 @@ the other half of the antithesis unwritten.
 
 ## The case on the other side, stated properly
 
-Four texts carry the weight for reading the Church as Israel, and they deserve better than a
-dismissal.
+Four texts carry the weight for reading the Church as Israel.
 
 **Galatians 6:16** — "peace and mercy be upon them, and upon the Israel of God." The crux is the
 **καί** before "the Israel of God," which can be conjunctive ("and") or ascensive ("even"). Read
 ascensively, Paul equates the two. The *ESV Study Bible* takes it that way, glossing "Israel of God"
 as the believing children of Abraham and stating that those in the new creation "comprise the true
-Israel." That reading is available and this study does not pretend otherwise. What it cannot do is
-settle the question, because a single ambiguous conjunction is the thinnest possible foundation for
-overturning the sixty-seven unambiguous occurrences around it.
+Israel." That reading is available. What it cannot do is settle the question, because a single ambiguous conjunction is the thinnest possible foundation for
+overturning every other occurrence around it.
 
 **Romans 2:28-29** — "no one is a Jew who is merely one outwardly… a Jew is one inwardly." Paul is
 distinguishing real from nominal covenant membership *within* Israel, which is the same move the
@@ -290,17 +305,17 @@ promise." Abraham is deliberately wider than Israel; he is "the father of a mult
 father of Jacob (Genesis 17:5). Being Abraham's offspring by promise is what Ephesians 3:6 called being
 fellow heirs, and Paul says it without saying "Israel."
 
-**1 Peter 2:9** — "a chosen race, a royal priesthood, a holy nation, a people for his own possession."
-Peter applies Exodus 19:5-6 to the church. Israel's vocation language is genuinely extended to
+**1 Peter 2:9** — "a chosen race, a royal priesthood, a holy nation, a people for his own
+possession." Peter applies Exodus 19:5-6 to the church. Israel's vocation language is extended to
 Gentile believers — which the distinction has no need to deny. Sharing a calling is not the same as
 being the same body, and Peter never says the nation has forfeited its own.
 
-Alongside these sits an honest concession about vocabulary. The Greek **ἐκκλησία** does render the
-Hebrew <span dir="rtl">קָהָל</span> (*qahal*, H6951) in the Septuagint — Deuteronomy 9:10 and 18:16 both do it, of "the
-day of the assembly" at Horeb — and Acts 7:38 calls Israel in the wilderness **ἡ ἐκκλησία ἐν τῇ
-ἐρήμῳ**, the assembly in the wilderness. The word overlaps. The argument here has never rested on
-denying that; it rests on what Paul says was *created* at the cross, and on what he calls a mystery
-"not made known to the sons of men in other generations."
+The vocabulary does overlap, and on one point it favours the other side. The Greek **ἐκκλησία**
+renders the Hebrew <span dir="rtl">קָהָל</span> (*qahal*, H6951) in the Septuagint — Deuteronomy 9:10 and 18:16 both do it,
+of "the day of the assembly" at Horeb — and Acts 7:38 calls Israel in the wilderness **ἡ ἐκκλησία ἐν
+τῇ ἐρήμῳ**, the assembly in the wilderness. None of that is in dispute. The weight falls instead on
+what Paul says was *created* at the cross, and on what he calls a mystery "not made known to the
+sons of men in other generations."
 
 ## John's witness
 
@@ -322,12 +337,12 @@ Twelve tribes follow, named one by one, twelve thousand each. Then:
 from the tribes of Israel against from every nation. Two companies, both redeemed, both in the same
 chapter, distinguished by John himself.
 
-The symbolic reading has a real argument here and it should be heard. As the *ESV Study Bible* points
-out, the tribe list is irregular — Dan is missing, Levi is included, Joseph appears instead of
-Ephraim, Judah leads instead of Reuben — and 144,000 is 12 × 12 × 1,000, which looks designed. That
-is a fair case for reading the number as significant rather than statistical. It is a weaker case for
-reading "from every tribe of the sons of Israel" as meaning "from every nation," when John writes both
-phrases five verses apart and separates them with "after this."
+The symbolic reading has a real argument here. As the *ESV Study Bible* points out, the tribe list
+is irregular — Dan is missing, Levi is included, Joseph appears instead of Ephraim, Judah leads
+instead of Reuben — and 144,000 is 12 × 12 × 1,000, which looks designed. That is a fair case for
+reading the number as significant rather than statistical. It is a weaker case for reading "from
+every tribe of the sons of Israel" as meaning "from every nation," when John writes both phrases
+five verses apart and separates them with "after this."
 
 ## The prophets, and the order they give
 
@@ -407,8 +422,7 @@ Deliverer coming from Zion, and Jacob's ungodliness banished.
 
 ## About 1948
 
-The modern State of Israel sits in this framework as a candidate, and the honest way to hold it is
-loosely. Here is the line the texts will bear and the line they will not.
+The modern State of Israel sits in this framework as a candidate, and should be held loosely.
 
 **What the prophets require:** a regathering of Jewish people to the land of the fathers, preceding
 national repentance rather than following it (Ezekiel 36:24-27), and a return distinct from the one
@@ -428,7 +442,7 @@ calendar has had to be walked back — see [The Day Is Near](../last-things/day-
 
 ## Where the commentaries actually land
 
-They divide by passage rather than by camp, which is more useful than a consensus would be.
+They divide by passage rather than by camp.
 
 - **Romans 11:26** — the *ESV Study Bible* rules out the reading that "Israel" here means the church,
   on the ground that "throughout chs. 9-11 Israel and Gentiles are distinct ethnic entities," and
@@ -441,9 +455,9 @@ They divide by passage rather than by camp, which is more useful than a consensu
 - **Revelation 7:4-8** — both the *ESV Study Bible* and the *NIV Biblical Theology Study Bible* lean
   symbolic.
 
-A reader is entitled to know that the support is strongest exactly where the argument is heaviest —
-Romans 9-11 and Ephesians 2 — and weakest in Revelation and Galatians, where this study leans on
-literary structure and a contested conjunction respectively.
+The support is strongest exactly where the argument is heaviest — Romans 9-11 and Ephesians 2 — and
+weakest in Revelation and Galatians, which lean on literary structure and a contested conjunction
+respectively.
 
 ## Discussion questions
 
