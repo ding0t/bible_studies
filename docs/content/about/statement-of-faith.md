@@ -2,7 +2,7 @@
 title: "Statement of Faith"
 category: "other"
 description: "Personal statement of faith and biblical doctrine"
-tags: ["statement-of-faith", "doctrine", "faith", "sanctification"]
+tags: ["statement-of-faith", "doctrine", "faith", "justification", "sanctification", "glorification"]
 draft: false
 ---
 
@@ -131,9 +131,37 @@ Belief, confession, and new life go together: [Romans 10:9-10 (ESV)](https://www
 
 ---
 
+## Justification
+
+The section above says how I am saved. Justification names what God actually declares in saving me.
+
+### Declared righteous in Christ
+
+- [x] Justification is a verdict, not a process — God declares me righteous the moment I trust Christ, and that verdict neither improves nor erodes with my performance.
+
+[Romans 5:1 (ESV)](https://www.blueletterbible.org/esv/Rom/5/1) — "since we have been justified by faith, we have peace with God through our Lord Jesus Christ." The verb is Δικαιωθέντες (*dikaiōthentes*), from δικαιόω (*dikaioō*, [G1344](https://www.blueletterbible.org/lexicon/g1344/esv/)), which sits in the same word group as δικαιοσύνη (*dikaiosunē*), "righteousness". It concerns a standing being put right, not a character being gradually improved.
+
+Paul sets it in a courtroom and then empties the dock: [Romans 8:33-34 (ESV)](https://www.blueletterbible.org/esv/Rom/8/33-34) — "Who shall bring any charge against God's elect? It is God who justifies. Who is to condemn?" The charge fails because the Judge has already ruled. Hence [Romans 8:1 (ESV)](https://www.blueletterbible.org/esv/Rom/8/1) — "There is therefore now no condemnation for those who are in Christ Jesus."
+
+### Righteousness credited, not achieved
+
+- [x] The righteousness I stand in is Christ's, credited to me. None of it is mine or produced by me.
+
+[Romans 4:3-5 (ESV)](https://www.blueletterbible.org/esv/Rom/4/3-5) uses an accounting word — Abraham "believed God, and it was *counted* to him as righteousness" — and says who receives it: God "justifies the ungodly." Credited to an account that had nothing in it. [Philippians 3:9 (ESV)](https://www.blueletterbible.org/esv/Php/3/9) says the same from the inside: "not having a righteousness of my own that comes from the law, but that which comes through faith in Christ." [2 Corinthians 5:21 (ESV)](https://www.blueletterbible.org/esv/2Co/5/21) states the exchange itself — "he made him to be sin who knew no sin, so that in him we might become the righteousness of God."
+
+Which is why effort cannot manufacture it: [Galatians 2:16 (ESV)](https://www.blueletterbible.org/esv/Gal/2/16) — "by works of the law no one will be justified."
+
+### God is just in justifying
+
+- [x] God did not waive my sin in order to declare me righteous; He punished it in Christ.
+
+An acquittal with no payment behind it would make the Judge corrupt. [Romans 3:23-26 (ESV)](https://www.blueletterbible.org/esv/Rom/3/23-26) answers that directly: all have sinned, and are "justified by his grace as a gift, through the redemption that is in Christ Jesus, whom God put forward as a propitiation by his blood... so that he might be just and the justifier of the one who has faith in Jesus." The cross is what makes the verdict both merciful and lawful. My debt was not ignored — it was paid.
+
+---
+
 ## Sanctification
 
-Salvation settles where I stand with God. Sanctification is what He then does with the life that follows, and it is the part I am living in now.
+Justification settles where I stand with God. Sanctification is what He then does with the life that follows, and it is the part I am living in now.
 
 ### Set apart, and being set apart
 
@@ -149,7 +177,7 @@ This is God's stated will for me, not an advanced track for the serious: [1 Thes
 
 [Romans 8:29-30 (ESV)](https://www.blueletterbible.org/esv/Rom/8/29-30) runs the whole chain — foreknown, predestined, called, justified, glorified — and names the destination: "conformed to the image of his Son." Glorification is that conforming completed, and it happens at sight of Him: [1 John 3:2 (ESV)](https://www.blueletterbible.org/esv/1Jo/3/2) — "when he appears we shall be like him, because we shall see him as he is."
 
-The next verse turns that hope into present work: "everyone who thus hopes in him purifies himself as he is pure" ([1 John 3:3](https://www.blueletterbible.org/esv/1Jo/3/3)). Sanctification does not earn glorification; the certainty of glorification is what drives sanctification.
+The next verse turns that hope into present work: "everyone who thus hopes in him purifies himself as he is pure" ([1 John 3:3](https://www.blueletterbible.org/esv/1Jo/3/3)). Sanctification does not earn glorification; the certainty of glorification is what drives sanctification. What glorification actually is, I take up below.
 
 ### Walking in the Way
 
@@ -176,6 +204,36 @@ I picture the walk as a house going up on that foundation. God lays each brick: 
 The same passage that names the foundation goes on to test what was built on it: [1 Corinthians 3:12-15 (ESV)](https://www.blueletterbible.org/esv/1Co/3/12-15) — gold, silver and precious stones against wood, hay and straw, with fire to "test what sort of work each one has done." Work that survives earns reward; work burned up is loss, "though he himself will be saved, but only as through fire." [2 Corinthians 5:10 (ESV)](https://www.blueletterbible.org/esv/2Co/5/10) names the setting: "we must all appear before the judgment seat of Christ." This is a son's work being assessed, not a trial to determine whether he is a son.
 
 That is not the great white throne of [Revelation 20:11-15 (ESV)](https://www.blueletterbible.org/esv/Rev/20/11-15), where those who rejected Christ are judged — see End times below. My sin was judged at the cross and will not be raised again; what remains under review is the house.
+
+---
+
+## Glorification
+
+Justified is what God has already declared. Sanctified is what He is doing. Glorified is the one part of the sequence I have seen none of yet.
+
+### Already spoken over me
+
+- [x] Glorification is as certain as my justification, because God speaks of both as settled.
+
+[Romans 8:30 (ESV)](https://www.blueletterbible.org/esv/Rom/8/30) — "those whom he justified he also glorified." The verb is ἐδόξασεν (*edoxasen*), from δοξάζω (*doxazō*, [G1392](https://www.blueletterbible.org/lexicon/g1392/esv/)) — and it is aorist, the same past tense Paul has just used for *called* and *justified* in the same sentence. Nothing about me has been glorified yet. He writes it as finished because God's purpose is not in question, and I take the certainty at the strength Paul gives it. [Titus 3:7 (ESV)](https://www.blueletterbible.org/esv/Tit/3/7) makes the same link from the other end — "being justified by his grace we might become heirs according to the hope of eternal life."
+
+Against that, present suffering is real but not the final measure: [Romans 8:18 (ESV)](https://www.blueletterbible.org/esv/Rom/8/18) — "the sufferings of this present time are not worth comparing with the glory that is to be revealed to us."
+
+### A body like His
+
+- [x] Glorification includes my body — raised imperishable and made like Christ's own risen body.
+
+[1 Corinthians 15:42-44 (ESV)](https://www.blueletterbible.org/esv/1Co/15/42-44) sets it out in four contrasts: sown perishable, raised imperishable; sown in dishonour, raised in glory; sown in weakness, raised in power; sown a natural body, raised a spiritual body. The pattern is a specific one: "we shall also bear the image of the man of heaven" ([1 Corinthians 15:49](https://www.blueletterbible.org/esv/1Co/15/49)), and [Philippians 3:20-21 (ESV)](https://www.blueletterbible.org/esv/Php/3/20-21) names Him — Christ "will transform our lowly body to be like his glorious body."
+
+So what I am waiting for is not release from the body but the redemption of it: [Romans 8:23 (ESV)](https://www.blueletterbible.org/esv/Rom/8/23) — we "groan inwardly as we wait eagerly for adoption as sons, the redemption of our bodies." The timing is instant, not gradual: [1 Corinthians 15:51-53 (ESV)](https://www.blueletterbible.org/esv/1Co/15/51-53) — "we shall all be changed, in a moment, in the twinkling of an eye, at the last trumpet." See End times below for where that falls.
+
+### The finishing of the work
+
+- [x] At glorification God completes what He began in me, and sin is gone from me entirely.
+
+[2 Corinthians 3:18 (ESV)](https://www.blueletterbible.org/esv/2Co/3/18) describes the present stretch — "we all, with unveiled face, beholding the glory of the Lord, are being transformed into the same image from one degree of glory to another." Degree by degree now; glorification is the last degree. [Colossians 3:4 (ESV)](https://www.blueletterbible.org/esv/Col/3/4) fixes when: "When Christ who is your life appears, then you also will appear with him in glory."
+
+The house is finished on that day, and the builder was never me ([Psalm 127:1](https://www.blueletterbible.org/esv/Psa/127/1)).
 
 ---
 
