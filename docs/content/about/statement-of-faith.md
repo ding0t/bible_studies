@@ -19,7 +19,7 @@ draft: false
 
 ## Scripture
 
-Ones position on the authority of Scripture is a clear differentiator of doctrine. It is an essential truth.
+Where a person stands on the authority of Scripture divides doctrine more sharply than anything else, and it is an essential truth.
 
 ### What is scripture
 
@@ -43,7 +43,7 @@ Tradition, experience, and reason all have a place, but none of them sit in judg
 
 ## One God in Three
 
-The nature of God as revealed in Scripture is a second clear differentiator and essential truth.
+The nature of God as Scripture reveals Him is the second such dividing line, and likewise essential.
 
 I believe in one God, eternally existing in three distinct persons — Father, Son, and Holy Spirit — each fully God, co-equal and co-eternal, yet one in essence, not three gods. [Deuteronomy 6:4 (ESV)](https://www.blueletterbible.org/esv/Deu/6/4) states the oneness plainly — "The LORD our God, the LORD is one" — while the baptismal command names three persons under a single name: [Matthew 28:19 (ESV)](https://www.blueletterbible.org/esv/Mat/28/19) — "baptizing them in the name of the Father and of the Son and of the Holy Spirit." This is a mystery Scripture states rather than fully explains, and I hold it as Scripture gives it, not as I might simplify it.
 
@@ -51,17 +51,17 @@ I believe in one God, eternally existing in three distinct persons — Father, S
 
 - [x] The Father is the first person of the Trinity, Creator and sovereign over all, and Father to those who believe in His Son.
 
-The Father is the one from whom and through whom all things exist: [1 Corinthians 8:6 (ESV)](https://www.blueletterbible.org/esv/1Co/8/6) — "for us there is one God, the Father, from whom are all things and for whom we exist." He is not a distant deity but One who seals and keeps His own: [John 6:27 (ESV)](https://www.blueletterbible.org/esv/Joh/6/27).
+All things come from the Father and exist for Him, and Paul marks off His role from the Son's in the same breath: [1 Corinthians 8:6 (ESV)](https://www.blueletterbible.org/esv/1Co/8/6) — "for us there is one God, the Father, from whom are all things and for whom we exist, and one Lord, Jesus Christ, through whom are all things and through whom we exist." He is no distant deity, but a Father who holds on to those who are His: [John 10:29 (ESV)](https://www.blueletterbible.org/esv/Joh/10/29) — "no one is able to snatch them out of the Father's hand."
 
 ### God the Son
 
 - [x] Jesus Christ is fully God and fully man, virgin-born, sinless, crucified for sin, bodily risen, ascended, and coming again.
 
-The Son is God become flesh, not a created being: [John 1:1,14 (ESV)](https://www.blueletterbible.org/esv/Joh/1/1) — "In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh and dwelt among us." 
+The Son is God become flesh, not a created being: [John 1:1,14 (ESV)](https://www.blueletterbible.org/esv/Joh/1/1) — "In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh and dwelt among us."
 
-He emptied Himself to take on humanity while remaining fully God: [Philippians 2:6-8 (ESV)](https://www.blueletterbible.org/esv/Php/2/6-8). 
+He emptied Himself to take on humanity while remaining fully God: [Philippians 2:6-8 (ESV)](https://www.blueletterbible.org/esv/Php/2/6-8).
 
-His death and bodily resurrection are not one option among many but the substance of the gospel itself: [1 Corinthians 15:3-4 (ESV)](https://www.blueletterbible.org/esv/1Co/15/3-4) — "Christ died for our sins in accordance with the Scriptures... he was raised on the third day in accordance with the Scriptures." 
+His death and bodily resurrection are not one option among many but the substance of the gospel itself: [1 Corinthians 15:3-4 (ESV)](https://www.blueletterbible.org/esv/1Co/15/3-4) — "Christ died for our sins in accordance with the Scriptures... he was raised on the third day in accordance with the Scriptures."
 
 He ascended visibly and will return the same way He left: [Acts 1:11 (ESV)](https://www.blueletterbible.org/esv/Act/1/11).
 
@@ -69,7 +69,7 @@ He ascended visibly and will return the same way He left: [Acts 1:11 (ESV)](http
 
 - [x] The Holy Spirit is a person, not a force — He indwells, seals, convicts, and empowers every believer.
 
-The Spirit is the promised Helper who teaches and reminds believers of Christ's own words: [John 14:26 (ESV)](https://www.blueletterbible.org/esv/Joh/14/26). Every believer is sealed by Him as a guarantee of what's to come: [Ephesians 1:13-14 (ESV)](https://www.blueletterbible.org/esv/Eph/1/13-14). He convicts the world concerning sin, righteousness, and judgment ([John 16:8](https://www.blueletterbible.org/esv/Joh/16/8)), and empowers believers to be Christ's witnesses ([Acts 1:8 (ESV)](https://www.blueletterbible.org/esv/Act/1/8)) — which is exactly the transformation I have watched Him work in real, specific lives, my own included.
+The Spirit is the promised Helper who teaches and reminds believers of Christ's own words: [John 14:26 (ESV)](https://www.blueletterbible.org/esv/Joh/14/26). Every believer is sealed by Him as a guarantee of what's to come: [Ephesians 1:13-14 (ESV)](https://www.blueletterbible.org/esv/Eph/1/13-14). He convicts the world concerning sin, righteousness, and judgment ([John 16:8](https://www.blueletterbible.org/esv/Joh/16/8)), and empowers believers to be Christ's witnesses ([Acts 1:8 (ESV)](https://www.blueletterbible.org/esv/Act/1/8)) — a transformation I have watched Him work in named, particular lives, my own among them.
 
 ---
 
@@ -77,11 +77,11 @@ The Spirit is the promised Helper who teaches and reminds believers of Christ's 
 
 Understanding the nature of creation is a foundational belief for a wise worldview.
 
-### Creation is literal and deliberate act of God
+### Creation is a literal and deliberate act of God
 
 - [x] God created all things out of nothing, by His word, with purpose — not by unguided natural process.
 
-"In the beginning, God created the heavens and the earth" ([Genesis 1:1 (ESV)](https://www.blueletterbible.org/esv/Gen/1/1)) is a historical claim, not a poem to be explained away. Creation was made by faith-accessible divine command, not from pre-existing material: [Hebrews 11:3 (ESV)](https://www.blueletterbible.org/esv/Heb/11/3) — "the universe was created by the word of God, so that what is seen was not made out of things that are visible." All things, visible and invisible, were created through Christ and for Him: [Colossians 1:16 (ESV)](https://www.blueletterbible.org/esv/Col/1/16).
+"In the beginning, God created the heavens and the earth" ([Genesis 1:1 (ESV)](https://www.blueletterbible.org/esv/Gen/1/1)) is a historical claim, not a poem to be explained away. God spoke, and what He spoke was not assembled from material already lying to hand: [Hebrews 11:3 (ESV)](https://www.blueletterbible.org/esv/Heb/11/3) — "By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible." Faith is how that is apprehended; it is not how it was done. All things, visible and invisible, were created through Christ and for Him: [Colossians 1:16 (ESV)](https://www.blueletterbible.org/esv/Col/1/16).
 
 ### Creation is 6 days
 
@@ -101,7 +101,7 @@ What began as one man's disobedience in the garden ([Genesis 3](https://www.blue
 
 ## Love
 
-Understanding love as revealed by our creator is unique to mans own understanding. Indeed we would not know love without God, and we are called to walk in love.
+Love as our Creator reveals it is not what man arrives at on his own. We would not know love without God, and we are called to walk in it.
 
 - [x] God is love
 
@@ -115,7 +115,7 @@ We are called by God to seek wisdom.
 
 - [x] True wisdom begins with reverence for God, not human cleverness, and He gives it freely to those who ask.
 
-"The fear of the LORD is the beginning of wisdom" ([Proverbs 9:10 (ESV)](https://www.blueletterbible.org/esv/Pro/9/10)) — wisdom starts with who God is, not with how clever I can be. It's also freely offered, not hoarded for the naturally gifted: [James 1:5 (ESV)](https://www.blueletterbible.org/esv/Jas/1/5) — "If any of you lacks wisdom, let him ask God, who gives generously to all without reproach." What the world calls foolish — a crucified Messiah — is where God's own wisdom is actually found: [1 Corinthians 1:18-25 (ESV)](https://www.blueletterbible.org/esv/1Co/1/18-25).
+"The fear of the LORD is the beginning of wisdom" ([Proverbs 9:10 (ESV)](https://www.blueletterbible.org/esv/Pro/9/10)) — wisdom starts with who God is, not with how clever I can be. It's also freely offered, not hoarded for the naturally gifted: [James 1:5 (ESV)](https://www.blueletterbible.org/esv/Jas/1/5) — "If any of you lacks wisdom, let him ask God, who gives generously to all without reproach." What the world calls foolish — a crucified Messiah — is where God's own wisdom is found: [1 Corinthians 1:18-25 (ESV)](https://www.blueletterbible.org/esv/1Co/1/18-25).
 
 ---
 
@@ -123,9 +123,9 @@ We are called by God to seek wisdom.
 
 - [x] I am saved by the grace of God alone, through faith alone, in Christ alone — not by anything I have done or could do.
 
-This is the center of everything above. Because of sin, I owed a debt I could not pay myself, and God paid it: [Romans 5:8 (ESV)](https://www.blueletterbible.org/esv/Rom/5/8) — "God shows his love for us in that while we were still sinners, Christ died for us." 
+This is the center of everything above. Because of sin, I owed a debt I could not pay myself, and God paid it: [Romans 5:8 (ESV)](https://www.blueletterbible.org/esv/Rom/5/8) — "God shows his love for us in that while we were still sinners, Christ died for us."
 
-Salvation is not earned; it's received: [Ephesians 2:8-9 (ESV)](https://www.blueletterbible.org/esv/Eph/2/8-9) — "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." [Titus 3:5 (ESV)](https://www.blueletterbible.org/esv/Tit/3/5) says the same thing from the other direction — "not because of works done by us in righteousness, but according to his own mercy." 
+Salvation is not earned; it's received: [Ephesians 2:8-9 (ESV)](https://www.blueletterbible.org/esv/Eph/2/8-9) — "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." [Titus 3:5 (ESV)](https://www.blueletterbible.org/esv/Tit/3/5) says the same thing from the other direction — "not because of works done by us in righteousness, but according to his own mercy."
 
 Belief, confession, and new life go together: [Romans 10:9-10 (ESV)](https://www.blueletterbible.org/esv/Rom/10/9-10). And I hold this exclusively, not as one path among several: [John 14:6 (ESV)](https://www.blueletterbible.org/esv/Joh/14/6) — "I am the way, and the truth, and the life. No one comes to the Father except through me."
 
@@ -133,19 +133,19 @@ Belief, confession, and new life go together: [Romans 10:9-10 (ESV)](https://www
 
 ## Justification
 
-The section above says how I am saved. Justification names what God actually declares in saving me.
+The section above says how I am saved. Justification names what God declares in saving me.
 
 ### Declared righteous in Christ
 
 - [x] Justification is a verdict, not a process — God declares me righteous the moment I trust Christ, and that verdict neither improves nor erodes with my performance.
 
-[Romans 5:1 (ESV)](https://www.blueletterbible.org/esv/Rom/5/1) — "since we have been justified by faith, we have peace with God through our Lord Jesus Christ." The verb is Δικαιωθέντες (*dikaiōthentes*), from δικαιόω (*dikaioō*, [G1344](https://www.blueletterbible.org/lexicon/g1344/esv/)), which sits in the same word group as δικαιοσύνη (*dikaiosunē*), "righteousness". It concerns a standing being put right, not a character being gradually improved.
+[Romans 5:1 (ESV)](https://www.blueletterbible.org/esv/Rom/5/1) — "since we have been justified by faith, we have peace with God through our Lord Jesus Christ." The verb is Δικαιωθέντες (*dikaiōthentes*), from δικαιόω (*dikaioō*, [G1344](https://www.blueletterbible.org/lexicon/g1344/esv/)), which sits in the same word group as δικαιοσύνη (*dikaiosunē*), "righteousness". The whole group concerns standing — where a person is placed in relation to God.
 
 Paul sets it in a courtroom and then empties the dock: [Romans 8:33-34 (ESV)](https://www.blueletterbible.org/esv/Rom/8/33-34) — "Who shall bring any charge against God's elect? It is God who justifies. Who is to condemn?" The charge fails because the Judge has already ruled. Hence [Romans 8:1 (ESV)](https://www.blueletterbible.org/esv/Rom/8/1) — "There is therefore now no condemnation for those who are in Christ Jesus."
 
 ### Righteousness credited, not achieved
 
-- [x] The righteousness I stand in is Christ's, credited to me. None of it is mine or produced by me.
+- [x] The righteousness I stand in is Christ's, credited to me.
 
 [Romans 4:3-5 (ESV)](https://www.blueletterbible.org/esv/Rom/4/3-5) uses an accounting word — Abraham "believed God, and it was *counted* to him as righteousness" — and says who receives it: God "justifies the ungodly." Credited to an account that had nothing in it. [Philippians 3:9 (ESV)](https://www.blueletterbible.org/esv/Php/3/9) says the same from the inside: "not having a righteousness of my own that comes from the law, but that which comes through faith in Christ." [2 Corinthians 5:21 (ESV)](https://www.blueletterbible.org/esv/2Co/5/21) states the exchange itself — "he made him to be sin who knew no sin, so that in him we might become the righteousness of God."
 
@@ -155,7 +155,7 @@ Which is why effort cannot manufacture it: [Galatians 2:16 (ESV)](https://www.bl
 
 - [x] God did not waive my sin in order to declare me righteous; He punished it in Christ.
 
-An acquittal with no payment behind it would make the Judge corrupt. [Romans 3:23-26 (ESV)](https://www.blueletterbible.org/esv/Rom/3/23-26) answers that directly: all have sinned, and are "justified by his grace as a gift, through the redemption that is in Christ Jesus, whom God put forward as a propitiation by his blood... so that he might be just and the justifier of the one who has faith in Jesus." The cross is what makes the verdict both merciful and lawful. My debt was not ignored — it was paid.
+An acquittal with no payment behind it would make the Judge corrupt. [Romans 3:23-26 (ESV)](https://www.blueletterbible.org/esv/Rom/3/23-26) answers that directly: all have sinned, and are "justified by his grace as a gift, through the redemption that is in Christ Jesus, whom God put forward as a propitiation by his blood... so that he might be just and the justifier of the one who has faith in Jesus." The cross is what makes the verdict both merciful and lawful.
 
 ---
 
@@ -169,7 +169,7 @@ Justification settles where I stand with God. Sanctification is what He then doe
 
 [Hebrews 10:14 (ESV)](https://www.blueletterbible.org/esv/Heb/10/14) holds both halves in a single sentence — "by a single offering he has perfected for all time those who are being sanctified." Perfected: finished, God's verdict over me. Being sanctified: unfinished, God's work in me. Neither cancels the other.
 
-This is God's stated will for me, not an advanced track for the serious: [1 Thessalonians 4:3 (ESV)](https://www.blueletterbible.org/esv/1Th/4/3) — "this is the will of God, your sanctification." And it is His work to complete, not mine to sustain: [1 Thessalonians 5:23-24 (ESV)](https://www.blueletterbible.org/esv/1Th/5/23-24) — "may the God of peace himself sanctify you completely... He who calls you is faithful; he will surely do it." [Philippians 1:6 (ESV)](https://www.blueletterbible.org/esv/Php/1/6) says the same: "he who began a good work in you will bring it to completion at the day of Jesus Christ."
+Scripture puts it among the things God has plainly willed for me: [1 Thessalonians 4:3 (ESV)](https://www.blueletterbible.org/esv/1Th/4/3) — "this is the will of God, your sanctification." And it is His work to complete, not mine to sustain: [1 Thessalonians 5:23-24 (ESV)](https://www.blueletterbible.org/esv/1Th/5/23-24) — "may the God of peace himself sanctify you completely... He who calls you is faithful; he will surely do it." [Philippians 1:6 (ESV)](https://www.blueletterbible.org/esv/Php/1/6) says the same: "he who began a good work in you will bring it to completion at the day of Jesus Christ."
 
 ### Sanctified now, glorified then
 
@@ -183,7 +183,7 @@ The next verse turns that hope into present work: "everyone who thus hopes in hi
 
 - [x] I grow by fixing on Christ Himself — knowing the Way is how I recognise stepping off it.
 
-Jesus did not say He points out the way; He said He is it ([John 14:6](https://www.blueletterbible.org/esv/Joh/14/6)). So the walk is a person, not a technique, and the instruction for it is a direction of gaze: [Hebrews 12:1-2 (ESV)](https://www.blueletterbible.org/esv/Heb/12/1-2) — "lay aside every weight, and sin which clings so closely... looking to Jesus, the founder and perfecter of our faith." Stop looking and the pressure runs the other way: [Romans 12:2 (ESV)](https://www.blueletterbible.org/esv/Rom/12/2) — "Do not be conformed to this world, but be transformed by the renewal of your mind."
+Jesus did not say He points out the way; He said He is it ([John 14:6](https://www.blueletterbible.org/esv/Joh/14/6)). So the walk is a person, and the instruction for it is a direction of gaze: [Hebrews 12:1-2 (ESV)](https://www.blueletterbible.org/esv/Heb/12/1-2) — "lay aside every weight, and sin which clings so closely... looking to Jesus, the founder and perfecter of our faith." Stop looking and the pressure runs the other way: [Romans 12:2 (ESV)](https://www.blueletterbible.org/esv/Rom/12/2) — "Do not be conformed to this world, but be transformed by the renewal of your mind."
 
 Much Christian energy goes into cataloguing error. I hold the emphasis the other way round: know Christ well enough and error announces itself. A man who knows the road knows when the ground under his feet has changed, and he knows it without having memorised every wrong turning. Discernment grows out of familiarity with Christ, not out of a separate study of counterfeits.
 
@@ -215,7 +215,7 @@ Justified is what God has already declared. Sanctified is what He is doing. Glor
 
 - [x] Glorification is as certain as my justification, because God speaks of both as settled.
 
-[Romans 8:30 (ESV)](https://www.blueletterbible.org/esv/Rom/8/30) — "those whom he justified he also glorified." The verb is ἐδόξασεν (*edoxasen*), from δοξάζω (*doxazō*, [G1392](https://www.blueletterbible.org/lexicon/g1392/esv/)) — and it is aorist, the same past tense Paul has just used for *called* and *justified* in the same sentence. Nothing about me has been glorified yet. He writes it as finished because God's purpose is not in question, and I take the certainty at the strength Paul gives it. [Titus 3:7 (ESV)](https://www.blueletterbible.org/esv/Tit/3/7) makes the same link from the other end — "being justified by his grace we might become heirs according to the hope of eternal life."
+[Romans 8:30 (ESV)](https://www.blueletterbible.org/esv/Rom/8/30) — "those whom he justified he also glorified." The verb is ἐδόξασεν (*edoxasen*), from δοξάζω (*doxazō*, [G1392](https://www.blueletterbible.org/lexicon/g1392/esv/)) — and it is aorist, the same past tense Paul has just used for *called* and *justified* in the same sentence. The finished thing he describes is still ahead of me. He writes it as done because God's purpose is not in question, and I take the certainty at the strength he gives it. [Titus 3:7 (ESV)](https://www.blueletterbible.org/esv/Tit/3/7) makes the same link from the other end — "being justified by his grace we might become heirs according to the hope of eternal life."
 
 Against that, present suffering is real but not the final measure: [Romans 8:18 (ESV)](https://www.blueletterbible.org/esv/Rom/8/18) — "the sufferings of this present time are not worth comparing with the glory that is to be revealed to us."
 
@@ -225,13 +225,15 @@ Against that, present suffering is real but not the final measure: [Romans 8:18 
 
 [1 Corinthians 15:42-44 (ESV)](https://www.blueletterbible.org/esv/1Co/15/42-44) sets it out in four contrasts: sown perishable, raised imperishable; sown in dishonour, raised in glory; sown in weakness, raised in power; sown a natural body, raised a spiritual body. The pattern is a specific one: "we shall also bear the image of the man of heaven" ([1 Corinthians 15:49](https://www.blueletterbible.org/esv/1Co/15/49)), and [Philippians 3:20-21 (ESV)](https://www.blueletterbible.org/esv/Php/3/20-21) names Him — Christ "will transform our lowly body to be like his glorious body."
 
-So what I am waiting for is not release from the body but the redemption of it: [Romans 8:23 (ESV)](https://www.blueletterbible.org/esv/Rom/8/23) — we "groan inwardly as we wait eagerly for adoption as sons, the redemption of our bodies." The timing is instant, not gradual: [1 Corinthians 15:51-53 (ESV)](https://www.blueletterbible.org/esv/1Co/15/51-53) — "we shall all be changed, in a moment, in the twinkling of an eye, at the last trumpet." See End times below for where that falls.
+So what I am waiting for is not release from the body but the redemption of it: [Romans 8:23 (ESV)](https://www.blueletterbible.org/esv/Rom/8/23) — we "groan inwardly as we wait eagerly for adoption as sons, the redemption of our bodies." The change itself is instantaneous: [1 Corinthians 15:51-53 (ESV)](https://www.blueletterbible.org/esv/1Co/15/51-53) — "we shall all be changed, in a moment, in the twinkling of an eye, at the last trumpet." See End times below for where that falls.
 
 ### The finishing of the work
 
 - [x] At glorification God completes what He began in me, and sin is gone from me entirely.
 
 [2 Corinthians 3:18 (ESV)](https://www.blueletterbible.org/esv/2Co/3/18) describes the present stretch — "we all, with unveiled face, beholding the glory of the Lord, are being transformed into the same image from one degree of glory to another." Degree by degree now; glorification is the last degree. [Colossians 3:4 (ESV)](https://www.blueletterbible.org/esv/Col/3/4) fixes when: "When Christ who is your life appears, then you also will appear with him in glory."
+
+What arrives that day is a people with nothing left in them to forgive: [Ephesians 5:27 (ESV)](https://www.blueletterbible.org/esv/Eph/5/27) — Christ presents the church to Himself "without spot or wrinkle or any such thing, that she might be holy and without blemish."
 
 The house is finished on that day, and the builder was never me ([Psalm 127:1](https://www.blueletterbible.org/esv/Psa/127/1)).
 
@@ -241,11 +243,11 @@ The house is finished on that day, and the builder was never me ([Psalm 127:1](h
 
 - [x] There is a prophesied literal seven year tribulation period.
 
-I hold a dispensational, pretribulational view of end-times prophecy. The church will be caught up to meet Christ before the tribulation begins — a real, physical event, not a metaphor for death: [1 Thessalonians 4:16-17 (ESV)](https://www.blueletterbible.org/esv/1Th/4/16-17) — "the dead in Christ will rise first. Then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air." 
+I hold a dispensational, pretribulational view of end-times prophecy. The church will be caught up to meet Christ before the tribulation begins — a real, physical event, not a metaphor for death: [1 Thessalonians 4:16-17 (ESV)](https://www.blueletterbible.org/esv/1Th/4/16-17) — "the dead in Christ will rise first. Then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air."
 
-What follows is a literal seven-year tribulation, the "one week" of [Daniel 9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27), a time of judgment on a world that has rejected God. 
+What follows is a literal seven-year tribulation, the "one week" of [Daniel 9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27), a time of judgment on a world that has rejected God.
 
-It ends with Christ's visible, physical return to earth — not a spiritual metaphor but a King coming to reign: [Revelation 19:11-16 (ESV)](https://www.blueletterbible.org/esv/Rev/19/11-16). 
+It ends with Christ's visible, physical return to earth — not a spiritual metaphor but a King coming to reign: [Revelation 19:11-16 (ESV)](https://www.blueletterbible.org/esv/Rev/19/11-16).
 
 He then reigns for a literal thousand years ([Revelation 20:1-6 (ESV)](https://www.blueletterbible.org/esv/Rev/20/1-6)), after which comes final judgment for all who rejected Him ([Revelation 20:11-15 (ESV)](https://www.blueletterbible.org/esv/Rev/20/11-15)) and the eternal state — a new heaven and a new earth where God dwells with His people forever: [Revelation 21:1-4 (ESV)](https://www.blueletterbible.org/esv/Rev/21/1-4). See the [prophecy studies](../last-things/index.md) for the fuller working-out of this.
 

@@ -1,0 +1,50 @@
+slug: "statement-of-faith"
+title: "Statement of Faith"
+status: published
+target_path: "docs/content/about/statement-of-faith.md"
+
+note: >
+  No state file existed before 2026-08-13. This page predates both the develop-bible-study and
+  review-bible-study skills, so there is no research trail for how the original sections were
+  built. This file starts at the first recorded review and does not reconstruct earlier phases.
+  The page is category "other" and sits under about/, which commentary_index.py excludes from its
+  SUBJECT_DIRS allow-list by design -- so the absence of primary_passage/bible_references in the
+  frontmatter is correct here, not an omission.
+
+review_2026-08-13:
+  scope: >
+    Full review of the whole file for flow, accuracy and AI tells, run after adding the
+    Justification, Sanctification and Glorification sections (commits e2b0524, b3909b3).
+  checked:
+    - "Every quoted verse re-queried against study-notes.db verses table (work_id='esv-study-bible'). 30+ quotes across all sections; all verbatim, all correctly referenced and labelled ESV."
+    - "Cited-but-unquoted verses spot-checked: Phil 2:6-8, Acts 1:8/1:11, John 14:26, John 16:8, Eph 1:13-14, Col 1:16, Rom 6:23, Rev 19-21."
+    - "Greek: dikaioo (G1344) confirmed sharing Louw-Nida domain 34.46 with dikaiosune/dikaiosis. Rom 8:30 ekalesen/edikaiosen/edoxasen all confirmed morph_code V-AAI-3S (aorist active indicative) in bible-text.db, so the 'same past tense as called and justified' claim is machine-verified, not inferred from the surface form alone."
+    - "Synthetic claims: '1 Cor 15:42-44 sets it out in four contrasts' (4, correct); 'Genesis 1 marks each day' (6 occurrences, Gen 1:5,8,13,19,23,31, correct)."
+    - "Internal links resolve (../last-things/index.md, ../assets/stylesheets/enumerate-headings.css). No inbound links to this page's heading anchors, so heading renames are safe."
+    - "ESV quotation volume far inside licence cap. npm run validate clean."
+  findings_fixed:
+    - "CRITICAL 1 Cor 8:6: lead-in gave the Father both 'from whom' and 'through whom'; Paul assigns 'through whom' to Jesus Christ, and the quotation had been truncated before that clause. Quotation extended to the full verse and lead-in rewritten."
+    - "CRITICAL John 6:27: cited for the Father sealing believers, but the verse has the Father setting His seal on the Son. Replaced with John 10:29 ('no one is able to snatch them out of the Father's hand'), which supports the claim actually being made."
+    - "Heb 11:3: 'Creation was made by faith-accessible divine command' misplaced faith as a property of the command. Rewritten; quotation now includes 'By faith we understand', with an explicit line that faith is how creation is apprehended, not how it was done."
+    - "Love section thesis sentence was ungrammatical and inverted its own meaning ('unique to mans own understanding'). Rewritten."
+    - "Glorification contradicted itself: 'Nothing about me has been glorified yet' against 2 Cor 3:18's 'from one degree of glory to another' three subsections later. Changed to 'The finished thing he describes is still ahead of me.'"
+    - "The affirmation 'sin is gone from me entirely' had no support in the two verses under it (2 Cor 3:18, Col 3:4). Added Eph 5:27 ('without spot or wrinkle... holy and without blemish')."
+    - "Minor: 'Ones' -> possessive rewrite; repeated 'clear differentiator' template at lines 22/46 varied; missing article in 'Creation is literal and deliberate act of God'; intensifier stacks at 'exactly...real, specific' and 'actually found'; redundant sentences cut ('My debt was not ignored', 'None of it is mine or produced by me'); trailing whitespace stripped throughout."
+    - "Contrast-rhythm density reduced where it stacked more than once per paragraph in the three new sections."
+  findings_revised_during_fix:
+    - >
+      Two findings from the initial report were overstated and were corrected rather than acted on.
+      (1) Heading-convention divergence: the file ALREADY mixed declarative headings ('Scripture is
+      the infallible word of God') with noun-phrase ones ('God the Father', 'What is scripture')
+      before the new sections were added, so there was no old-vs-new seam to fix. Only the
+      ungrammatical heading was touched.
+      (2) Contrast rhythm was reported as concentrated in the new sections; a line-by-line count
+      showed it distributed across the whole document and pre-existing (lines 15, 34, 48, 60, 64,
+      70, 84, 90, 108, 116, 118, 128, 130, 246). It is the author's established voice, so only
+      within-paragraph stacking was reduced. Post-fix count 32 -> 27, one per paragraph.
+  not_actioned:
+    - >
+      Section-intro rhythm is inconsistent (eight sections open with a framing sentence; The fall
+      and Sin, Salvation and End times go straight to the affirmation). Adding intros purely for
+      symmetry would manufacture exactly the no-value-add sentences style-guide.md bans, so this
+      was left alone deliberately.
