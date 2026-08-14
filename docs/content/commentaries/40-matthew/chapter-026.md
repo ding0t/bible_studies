@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 26:26-29 (primary passage)
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 26:14-16 (primary passage)
 <!-- commentary-index:auto-end -->

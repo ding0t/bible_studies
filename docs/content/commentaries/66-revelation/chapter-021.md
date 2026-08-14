@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 21:3
 - [Biblical Numerology](../../scripture/numerology.md) — 21:12-14
 - [Sin and Sorcery](../../sin/sorcery.md) — 21:8
 - [The Rapture of the Church](../../last-things/rapture.md) — 21:1-4

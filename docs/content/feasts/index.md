@@ -20,6 +20,14 @@ The biblical feasts, their Old Testament instruction, and New Testament fulfillm
 
     [:octicons-arrow-right-24: Read](feasts.md)
 
+-   __"I Will Not Drink Again": The Last Supper and the Cups of Passover__
+
+    ---
+
+    What the Passover Seder's four cups reveal about Jesus's vow at the Last Supper, and why the fourth cup — 'I will take you to be my people' — is the one still waiting to be drunk
+
+    [:octicons-arrow-right-24: Read](last-supper-four-cups.md)
+
 -   __Feast of Trumpets: Yom Teruah__
 
     ---

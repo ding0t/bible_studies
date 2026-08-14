@@ -3,9 +3,9 @@ title: "\"I Will Not Drink Again\": The Last Supper and the Cups of Passover"
 category: "feasts"
 description: "What the Passover Seder's four cups reveal about Jesus's vow at the Last Supper, and why the fourth cup — 'I will take you to be my people' — is the one still waiting to be drunk"
 tags: ["passover", "last-supper", "communion", "method/word-study", "lang/greek", "matthew", "mark", "luke"]
-draft: true
+draft: false
 primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
-bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "Exodus 6:6-7", "Exodus 24:8", "Psalm 116:13", "Jeremiah 31:31-34", "John 14:1-3", "Isaiah 25:6-8", "Matthew 8:11", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3"]
+bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "Exodus 6:6-7", "Exodus 24:8", "Psalm 116:13", "Hosea 2:19-23", "Jeremiah 31:31-34", "John 14:1-3", "Isaiah 25:6-8", "Matthew 8:11", "Matthew 22:1-14", "Matthew 25:1-13", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3"]
 zadok_year: 4037
 gregorian_year: 33
 ---
@@ -21,16 +21,17 @@ On the night he was betrayed, partway through that liturgy, Jesus said he would 
 fruit of the vine again until the kingdom of God comes. Matthew, Mark and Luke all record it. None
 of them says which cup he was holding.
 
-> ✝️ Mark 14:24-25 (ESV)
+> ✝️ Mark 14:24-25 (ASV)
 >
-> 24 This is my blood of the covenant, which is poured out for many. 25 Truly, I say to you, I will
-> not drink again of the fruit of the vine until that day when I drink it new in the kingdom of God.
+> 24 And he said unto them, This is my blood of the covenant, which is poured out for many.
+> 25 Verily I say unto you, I shall no more drink of the fruit of the vine, until that day when I
+> drink it new in the kingdom of God.
 
-> ✝️ Luke 22:17-18 (ESV)
+> ✝️ Luke 22:17-18 (WEB)
 >
-> 17 And he took a cup, and when he had given thanks he said, "Take this, and divide it among
-> yourselves. 18 For I tell you that from now on I will not drink of the fruit of the vine until the
-> kingdom of God comes."
+> 17 He received a cup, and when he had given thanks, he said, "Take this and share it among
+> yourselves, 18 for I tell you, I will not drink at all again from the fruit of the vine, until
+> God's Kingdom comes."
 
 **The argument of this study:** the cup Jesus defers is the fourth, and the promise it carries — "I
 will take you to be my people" — is the one still outstanding. That conclusion is an inference from
@@ -45,20 +46,26 @@ prototyping — see that page for what each part is for and why.)*
 
 ### Types & Prophecy
 
-**Type.** Moses ratified the Sinai covenant by throwing sacrificial blood over the people: "Behold
-the blood of the covenant that the LORD has made with you" (Exodus 24:8, ESV). Jesus takes that
+**Type.** Moses ratified the Sinai covenant by sprinkling sacrificial blood over the people: "this
+is the blood of the covenant, which Yahweh has made with you" (Exodus 24:8, WEB). Jesus takes that
 sentence, applies it to a cup, and hands the cup to the twelve. At Sinai the blood went onto the
 people from outside; here it is given to them to drink.
 
-**Prophecy.** Jeremiah promises a covenant God has not yet made: *"Behold, the days are coming,
-declares the LORD, when I will make a new covenant with the house of Israel..."* (Jeremiah 31:31,
-ESV) — the verse names both houses, Israel and Judah. Naming the cup "the new covenant in my blood"
-(Luke 22:20; 1 Corinthians 11:25) claims that promise is being enacted at that table.
+**Prophecy.** Jeremiah promises a covenant God has not yet made: *"Behold, the days come," says
+Yahweh, "that I will make a new covenant with the house of Israel, and with the house of Judah"*
+(Jeremiah 31:31, WEB) — both houses, named. Calling the cup "the new covenant in my blood" (Luke
+22:20; 1 Corinthians 11:25) claims that promise is being enacted at that table.
 
-**Still outstanding.** The vow itself defers a drink to "that day" in the kingdom. Scripture names
-the meal it waits for (Isaiah 25:6-8; Revelation 19:6-9) and the promise it completes — Exodus 6:7's
-fourth, "I will take you to me for a people," whose formula recurs at Jeremiah 31:33 and lands at
-Revelation 21:3.
+**Still outstanding: the wedding.** The vow defers a drink to "that day" in the kingdom, and the
+promise it holds back is Exodus 6:7's fourth — "I will take you to myself for a people." Scripture
+turns that formula marital. Hosea uses the same words as betrothal: *"I will betroth you to me
+forever... I will tell those who were not my people, 'You are my people'"* (Hosea 2:19, 23, WEB).
+Jesus teaches the kingdom as a wedding feast twice in the chapters just before this meal — a king
+"who made a wedding feast for his son" (Matthew 22:2, WEB), and the ready who "went in with him to
+the wedding feast" while the door shut behind them (Matthew 25:10, WEB). Revelation names the meal
+that ends the wait, "the wedding supper of the Lamb" (19:9), and closes the formula the fourth
+promise opened: "they will be his people, and God himself will be with them as their God" (21:3,
+WEB). The banquet also swallows death (Isaiah 25:6-8).
 
 ### Lessons about Jesus
 
@@ -68,17 +75,17 @@ Revelation 21:3.
   was a recognized formal act in first-century Judaism.
 - He leaves the meal unfinished on purpose — the Supper he institutes has a missing last course.
 - He expects to drink it again, with named company and in a named place: "with you in my Father's
-  kingdom" (Matthew 26:29, ESV). The vow promises a reunion.
+  Kingdom" (Matthew 26:29, WEB). The vow promises a reunion.
 
 ### Memory verses
 
-> ✝️ Mark 14:25 (ESV)
+> ✝️ Mark 14:25 (ASV)
 >
-> 25 Truly, I say to you, I will not drink again of the fruit of the vine until that day when I
+> 25 Verily I say unto you, I shall no more drink of the fruit of the vine, until that day when I
 > drink it new in the kingdom of God.
 
-**1 Corinthians 11:26 (ESV)** — "as often as you eat this bread and drink the cup, you proclaim the
-Lord's death **until he comes**."
+**1 Corinthians 11:26 (WEB)** — "For as often as you eat this bread and drink this cup, you proclaim
+the Lord's death **until he comes**."
 
 ### Be Transformed
 
@@ -90,7 +97,7 @@ Lord's death **until he comes**."
 
 ### Prayer
 
-Father, you ratified a covenant at Sinai with blood thrown over your people, and you kept it. At the
+Father, you ratified a covenant at Sinai with blood sprinkled over your people, and you kept it. At the
 table your Son named a better one in his own blood, and left a cup undrunk until you bring him back
 to it. You do not leave promises half-kept. Teach us to eat and drink as people waiting for someone,
 and keep us at the table until the day he drinks it new with us. Amen.
@@ -120,8 +127,8 @@ to drink, he may drink. Between the third and the fourth [cups], he may not drin
 Translation, CC0)
 
 One cup per promise, in the order Exodus gives them. Scripture itself uses cup-language for
-redemption in words the Seder sings: *"I will lift up the cup of salvation and call on the name of
-the LORD"* (Psalm 116:13, ESV), part of the Hallel.
+redemption in words the Seder sings: *"I will take the cup of salvation, and call on Yahweh's
+name"* (Psalm 116:13, WEB), part of the Hallel.
 
 **The caveat that governs everything built on this.** The Mishnah records the four-cup structure
 about 170 years after the meal in question. No surviving Second Temple-period source enumerates the
@@ -149,15 +156,15 @@ company and a named place.
 **Luke (22:14-20)** narrates **two**. The first (22:17-18, quoted above) comes before the bread, and
 carries the vow. The second comes after:
 
-> ✝️ Luke 22:20 (ESV)
+> ✝️ Luke 22:20 (WEB)
 >
-> 20 And likewise the cup after they had eaten, saying, "This cup that is poured out for you is the
-> new covenant in my blood."
+> 20 Likewise, he took the cup after supper, saying, "This cup is the new covenant in my blood,
+> which is poured out for you."
 
 So Luke's vow attaches to the *first* cup, not to the covenant-cup after supper.
 
 **Paul** (1 Corinthians 11:23-26) confirms Luke's timing for the covenant-cup independently: "in the
-same way also he took the cup, after supper" (1 Cor 11:25, ESV). The Greek is identical in both:
+same way he also took the cup after supper" (1 Cor 11:25, WEB). The Greek is identical in both:
 **μετὰ τὸ δειπνῆσαι** (*meta to deipnēsai*). That is precisely where the Seder's third cup falls,
 after the grace following the meal.
 
@@ -205,7 +212,7 @@ Jewish kind, with "until the kingdom of God comes" as its stated condition.
 
 **Jeremiah** supplies the promise (31:31, quoted above). **Sinai supplies the words.** "Blood of the
 covenant" (Matthew 26:28; Mark 14:24) is Moses's phrase at the ratification: *"Behold the blood of
-the covenant that the LORD has made with you"* (Exodus 24:8, ESV). The echo depends on the shorter
+the covenant, which Yahweh has made with you"* (Exodus 24:8, WEB). The echo depends on the shorter
 reading — SBLGNT has both Matthew 26:28 and Mark 14:24 as τὸ αἷμά μου τῆς διαθήκης, "my blood of the
 covenant," where the later manuscript tradition behind the KJV and WEB inserts "new" and blurs the
 link back to Moses.
@@ -259,6 +266,20 @@ generally, or of the believer's reception at death. The verse does not settle be
 study does not need it to: on any of those readings, "I will take you to myself" is still future,
 still unfulfilled, and still the fourth promise's own language.
 
+**The move from covenant formula to marriage is Scripture's own.** Hosea takes the fourth promise's
+wording and makes it betrothal, then closes with the formula itself:
+
+> ✝️ Hosea 2:19-20 (WEB)
+>
+> 19 I will betroth you to me forever. Yes, I will betroth you to me in righteousness, in justice,
+> in loving kindness, and in compassion. 20 I will even betroth you to me in faithfulness; and you
+> shall know Yahweh.
+
+Four verses later: *"I will tell those who were not my people, 'You are my people;' and they will
+say, 'You are My God!'"* (Hosea 2:23, WEB). The same acquisition Exodus 6:7 promises, said as a
+marriage. Jesus then teaches the kingdom as a wedding feast twice in the chapters immediately
+preceding this meal (Matthew 22:2; 25:10), so the image is his own before it is Revelation's.
+
 Scripture's last picture of that taking is a wedding:
 
 > ✝️ Revelation 19:9 (WEB)
@@ -279,9 +300,10 @@ to a future shared table, and the promise it holds in reserve is God's last one:
 himself.
 
 That table is taught across both Testaments, not inferred from this vow alone. God prepares "a feast
-of rich food... for all peoples" on his mountain (Isaiah 25:6, ESV); "many will come from east and
-west and recline at table with Abraham, Isaac, and Jacob in the kingdom of heaven" (Matthew 8:11,
-ESV); Revelation calls it "the marriage supper of the Lamb" (Revelation 19:9, ESV).
+of choice meat... of well refined choice wines" for all peoples on his mountain (Isaiah 25:6, WEB);
+"many will come from the east and the west, and will sit down with Abraham, Isaac, and Jacob in the
+Kingdom of Heaven" (Matthew 8:11, WEB); Revelation calls it "the wedding supper of the Lamb"
+(Revelation 19:9, WEB).
 
 A popular devotional reading has the vow completed when Jesus receives sour wine on the cross (John
 19:28-30) just before "It is finished." It rests on devotional rather than scholarly sources, and
@@ -296,7 +318,7 @@ cross does not meet.
   already/not-yet shape runs through the New Testament's whole picture of the kingdom and is taught
   directly elsewhere (Isaiah 25, Matthew 8:11, Luke 14:15-24, Revelation 19).
 - Every observance since carries the same forward tilt: "as often as you eat this bread and drink
-  the cup, you proclaim the Lord's death **until he comes**" (1 Corinthians 11:26, ESV, emphasis
+  this cup, you proclaim the Lord's death **until he comes**" (1 Corinthians 11:26, WEB, emphasis
   added).
 
 ## Discussion questions
@@ -340,3 +362,9 @@ cross does not meet.
 - On the Luke 22:19b-20 variant: consult a critical apparatus (UBS5/NA28) directly for the
   manuscript evidence; the standard treatments of the "Western non-interpolations" cover this
   passage specifically.
+- **Translations used.** Scripture is quoted from the **WEB** (World English Bible, public domain)
+  throughout, with one exception: **Mark 14:24-25 is quoted from the ASV**. WEB follows the later
+  manuscript tradition at Mark 14:24 and reads "my blood of the *new* covenant," which obscures the
+  Exodus 24:8 echo the word study above depends on; ASV follows the shorter reading that SBLGNT
+  carries. Every quotation on this page was checked verbatim against this project's own
+  `bible-text.db` rather than quoted from memory.

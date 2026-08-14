@@ -1,6 +1,6 @@
 slug: last-supper-four-cups
 title: "\"I Will Not Drink Again\": The Last Supper and the Cups of Passover"
-status: drafting
+status: published
 target_path: docs/content/feasts/last-supper-four-cups.md
 
 primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
@@ -102,8 +102,8 @@ stages:
     done: true
     file: docs/content/feasts/last-supper-four-cups.md
   review:
-    done: false
-    validated: false
+    done: true
+    validated: true
     validation_notes: "npm run validate still broken post mkdocs/astro split (see prior study's state file) -- frontmatter checked manually."
 
 open_questions:
@@ -163,12 +163,56 @@ review_2026-08-14:
        echo the word-study section rests on. This was not in the draft; added as one sentence, since
        the echo is load-bearing and translation-dependent."
   gaps:
-    - "PHASE 1 NOT RUN. /Volumes/media/bible/ was not mounted, so study-notes.db was unreachable and
-       none of the ESV quotations could be verified against source. Every ESV quote in the study is
-       pre-existing text, relocated and reformatted but not re-verified -- no new scripture text was
-       introduced in this pass, specifically to avoid quoting ESV from memory (see AGENTS.md's John
-       6:34 'Sir'/'Lord' incident). Re-run Phase 1 before draft: false."
-    - "Phases 3-5 not run beyond the three Greek spot-checks listed above."
+    - "RESOLVED at publish -- see publish_2026-08-14 below. Was: Phase 1 not runnable because
+       /Volumes/media/bible/ was unmounted, leaving all ESV quotations unverified."
+    - "STILL OPEN: Phase 5 (commentary cross-check against a study-notes.db commentary the study does
+       not already cite) was never run -- same unmounted volume. The study went draft: false without it.
+       Worth running when the volume is next available; a contradiction against a central claim would be
+       a Critical finding even post-publish."
+
+publish_2026-08-14:
+  decision: >
+    User chose to resolve the unverifiable-ESV problem by converting the study off ESV entirely rather
+    than waiting for the NAS to be mounted. All 8 ESV quotations replaced with translations held in this
+    repo's own bible-text.db, so every quotation on the page is now verifiable from inside the repo.
+  translations:
+    default: "WEB (ebible-eng-web, public domain)"
+    exception: >
+      Mark 14:24-25 is quoted from the ASV (scrollmapper-ASV, public domain). WEB follows the later
+      manuscript tradition at Mark 14:24 and reads 'my blood of the NEW covenant'; the study's word-study
+      section argues the Exodus 24:8 echo specifically depends on the shorter reading (SBLGNT: τὸ αἷμά μου
+      τῆς διαθήκης, no καινῆς). Quoting WEB there would have put the study's own lead quotation in direct
+      contradiction with its argument. ASV carries the shorter reading. Documented on the page itself
+      under References & Recommended Reading.
+    note: >
+      One ESV mention remains on the page and is NOT a quotation -- the note that English translations
+      split on παραλαμβάνω at John 14:3 (ESV 'take you to myself', WEB/ASV/KJV 'receive'), which is why
+      the Exodus 6:7 LXX echo is easier to see in Greek than in English.
+  verification: >
+    All 20 quotations (7 crux blocks + 13 inline) checked verbatim against bible-text.db by script, not
+    by eye. Two apparent mismatches were both normalizer artifacts, not text errors: a curly vs straight
+    opening single quote at Revelation 19:9, and WEB's inline poetry markers (₁/₂) sitting flush against
+    words at Jeremiah 31:33. Both confirmed identical after normalization.
+  content_added: >
+    User asked whether Types & Prophecy was reaching the wedding feast at all. It was not -- Revelation
+    19:6-9 appeared only as a bare cross-reference. Added the link that closes the chain, which is
+    Scripture's own move rather than an imported image: Hosea 2:19-23 takes Exodus 6:7's fourth-promise
+    formula and makes it BETROTHAL ('I will betroth you to me forever ... I will tell those who were not
+    my people, You are my people'). Also added Jesus's two wedding-feast parables, which in Matthew stand
+    immediately before this meal (Matthew 22:2, a king who made a wedding feast for his son; Matthew
+    25:10, the ready who went in to the wedding feast and the door shut). So the chain now runs:
+    Exodus 6:7 -> Hosea 2 (betrothal) -> Matthew 22/25 (Jesus's own teaching) -> Revelation 19:9 wedding
+    supper -> Revelation 21:3 formula consummated. All five verified against bible-text.db.
+    Considered and NOT added: the kiddush / kiddushin shared root (קדש, 'set apart'), which would tie the
+    Seder's first cup to betrothal terminology. It is very likely correct but is a rabbinic-terminology
+    claim with no source inside this repo to check it against, so it stays out until it can be sourced.
+  post_publish_steps_run:
+    - "commentary_index.py -- regenerated; the changed bible_references added Hosea 2, Matthew 22/25,
+       John 14, Revelation 21 etc. This also cleared a backlog from earlier studies that had never had
+       their pages generated (e.g. Psalms 14 from israel-and-the-church.md), since it is a manual step."
+    - "section_index.py -- regenerated docs/content/feasts/index.md, which now lists this study as
+       published rather than draft."
+    - "npm run validate -- passes clean (the only 2 warnings are pre-existing, in other files)."
   full_review_findings_and_outcomes:
     - "CRITICAL / FIXED: the kainos word study was contradicted by this repo's own semantic-domain
        data at the two verses it cited. Draft claimed 'Mark 14:25 has him drinking it kainon: new in
