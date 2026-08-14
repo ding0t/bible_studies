@@ -57,7 +57,7 @@ stages:
       notes: "Queried bible-text.db directly rather than print lookup -- see terms below."
       terms:
         - {word: "ποτήριον", language: greek, transliteration: "potērion", strongs_id: "G4221", gloss: "cup, drinking vessel"}
-        - {word: "γένημα τῆς ἀμπέλου", language: greek, transliteration: "gennēma tēs ampelou", strongs_id: "G1081/G288", gloss: "fruit of the vine", notes: "Standard rabbinic term for wine in the Kiddush blessing (borei pri hagafen, 'creator of the fruit of the vine') -- Jesus's own phrasing echoes the liturgical formula rather than saying 'wine' plainly."}
+        - {word: "γένημα τῆς ἀμπέλου", language: greek, transliteration: "genēma tēs ampelou", strongs_id: "G1081/G288", gloss: "fruit of the vine", notes: "Standard rabbinic term for wine in the Kiddush blessing (borei pri hagafen, 'creator of the fruit of the vine') -- Jesus's own phrasing echoes the liturgical formula rather than saying 'wine' plainly."}
         - {word: "εὐχαριστήσας", language: greek, transliteration: "eucharistēsas", strongs_id: "G2168", gloss: "having given thanks", notes: "Used for the cup in all four accounts (Matt/Mark/Luke/1 Cor); root of 'Eucharist.' Distinct from eulogeo used elsewhere for blessing bread in some accounts, though the terms overlap in NT usage -- not a firm technical distinction, checked but not overstated."}
         - {word: "διαθήκη", language: greek, transliteration: "diathēkē", strongs_id: "G1242", gloss: "covenant", notes: "'New covenant in my blood' (Luke 22:20/1 Cor 11:25) directly echoes Jeremiah 31:31 LXX kainē diathēkē -- explicit OT citation, not just thematic echo, worth a cross-reference."}
         - {word: "καινός", language: greek, transliteration: "kainos", strongs_id: "G2537", gloss: "new (in kind/quality, not merely new in time)", notes: "Modifies both 'covenant' (Luke/1 Cor) and how he will drink it 'anew' (kainon, Mark 14:25) in the kingdom -- same root tying the cup's future fulfillment to the new-covenant language."}
@@ -121,4 +121,133 @@ resources_consulted:
   - {type: other, title: "Various (Chabad.org, TorahResource, Jewish Awareness Ministries)", author: "multiple", note: "Cross-checked the four-cups-to-Exodus-6:6-7 correspondence across independent Jewish and Messianic sources for convergence"}
   - {type: other, title: "Web search on Luke 22:19b-20 textual criticism (Western non-interpolation)", author: "multiple academic sources", note: "Confirmed Codex Bezae/Old Latin shorter reading vs majority longer reading"}
   - {type: lexicon, title: "bible-text.db (macula-greek-sblgnt)", author: "this repo's build pipeline", note: "Primary Greek word-by-word source for all four accounts"}
-last_updated: "2026-07-19"
+review_2026-08-14:
+  scope: >
+    Two passes on the same day. FIRST: a focused Phase 7/8 pass (structure + style) at the user's
+    request, which produced the `findings` list below and the restructure (H1, Key Takeaways, scripture
+    quote blocks in ✝️ format). SECOND: the full review-bible-study skill, which produced
+    `full_review_findings_and_outcomes`. Phases 2, 3, 4, 6, 7, 8 run in full. Phase 1 run only as
+    content/reference spot-checks against ASV -- ESV wording still unverified. Phase 5 NOT run.
+    See gaps.
+  findings:
+    - "MODERATE: no `## Key Takeaways` section. The file was committed 2026-08-07, five days after
+       docs/content/about/key-takeaways.md landed (2026-08-02), with 26 other studies already using
+       the section -- so this was skipped, not grandfathered. FIXED: added, with all five subheadings
+       (Types & Prophecy, Lessons about Jesus, Memory verses, Be Transformed, Prayer). The Types and
+       Prophecy content was already in the body (Exodus 24:8 ratification echo; Jeremiah 31:31);
+       Memory verses, Be Transformed and Prayer were newly written."
+    - "MODERATE: scripture never led. Zero quote blocks used the site's `> ✝️ Reference (TRANSLATION)`
+       format (45 other content files do), and the primary passage was never quoted at all -- the
+       Overview opened with a bracketed paraphrase of the vow. FIXED: 4 blocks now in ✝️ format with
+       verse numbers inlined, and the Mark 14:24-25 / Luke 22:17-18 blocks moved up under the H1 so
+       the reader meets the vow before the argument about it."
+    - "MODERATE: pervasive style register. ~12 distinct hits: narrated-argument openers ('The question
+       to settle before drawing any conclusion', 'This is where care matters most', 'repays close
+       reading'), grader framing ('The tightest, least speculative answer'), straw contrasts
+       ('is not simply wine' + 'not just describing the drink generically'), and the study defending
+       its own method inside the theological payoff (that reasoning already lives in this file, under
+       hermeneutics.theological_principle -- style-guide.md's genre exception). Biggest single issue:
+       the Mishnah-dating caveat was stated FOUR times (draft lines 32, 54, 87, 95). FIXED: cut to one
+       statement, at the end of the historical-context section. Body prose 2214 -> 1675 words (-24%)."
+    - "MINOR: no H1 (459 of 470 content files have one). FIXED."
+    - "MINOR: frontmatter bible_references omitted Matthew 8:11 and Luke 14:15-24, both cited in the
+       body -- under-reports the study in commentary_index.py. FIXED."
+    - "MINOR: this file's own transliteration of γένημα read 'gennēma' (double nu, i.e. γέννημα).
+       The study markdown had it right. FIXED here."
+  verified_this_pass:
+    - "μετὰ τὸ δειπνῆσαι confirmed present in Luke 22:20 (macula-greek-sblgnt), supporting the
+       'after supper' timing argument shared with 1 Cor 11:25."
+    - "Mark 14:25 confirmed: γενήματος τῆς ἀμπέλου (G1081/G288, single nu) and καινόν (G2537)."
+    - "Mark 14:24 confirmed as τὸ αἷμά μου τῆς διαθήκης in SBLGNT -- NO καινῆς. The later manuscript
+       tradition behind KJV/WEB inserts 'new', which weakens the Exodus 24:8 'blood of the covenant'
+       echo the word-study section rests on. This was not in the draft; added as one sentence, since
+       the echo is load-bearing and translation-dependent."
+  gaps:
+    - "PHASE 1 NOT RUN. /Volumes/media/bible/ was not mounted, so study-notes.db was unreachable and
+       none of the ESV quotations could be verified against source. Every ESV quote in the study is
+       pre-existing text, relocated and reformatted but not re-verified -- no new scripture text was
+       introduced in this pass, specifically to avoid quoting ESV from memory (see AGENTS.md's John
+       6:34 'Sir'/'Lord' incident). Re-run Phase 1 before draft: false."
+    - "Phases 3-5 not run beyond the three Greek spot-checks listed above."
+  full_review_findings_and_outcomes:
+    - "CRITICAL / FIXED: the kainos word study was contradicted by this repo's own semantic-domain
+       data at the two verses it cited. Draft claimed 'Mark 14:25 has him drinking it kainon: new in
+       kind, not next in sequence.' MACULA Louw-Nida tags Mark 14:25 and Luke 22:20 at 67.115 (domain
+       67 = TIME), and tags Matthew 26:29 and 1 Cor 11:25 at 58.71 (domain 58 = class/character, the
+       'new in kind' sense). The bullet argued the kind-sense from the two verses annotated as the
+       time-sense. Also a root-fallacy flag: the kainos/neos split is softer than stated -- neos
+       appears in 58.71, kainos appears 5x in 67.115, and Mark 2:22 carries BOTH codes. Rewritten to
+       state the annotation honestly and keep the point that survives it (the same adjective ties the
+       deferred cup to the covenant in all four accounts)."
+    - "CRITICAL / FIXED: Jeremiah 31:31 was truncated without ellipsis, twice -- quote closed at 'with
+       the house of Israel', omitting 'and the house of Judah'. On a dispensationally-inclined site the
+       two-house scope is the contested point, so this was not a neutral trim. Now marked with an
+       ellipsis and the both-houses scope stated in prose (avoiding a further unverified ESV quotation)."
+    - "MODERATE / FIXED: 'Matthew (26:29) ... adding two words that matter later'. Against SBLGNT,
+       Matthew differs from Mark twice, and only one is an addition: he adds μεθ᾽ ὑμῶν (2 words), and
+       SUBSTITUTES 'my Father's kingdom' for Mark's 'the kingdom of God'. Rewritten as two differences,
+       one addition and one substitution."
+    - "MODERATE / FIXED: 'Jesus set his cup down mid-liturgy' was narrated as fact in Be Transformed and
+       again in the Prayer. No account narrates this; it is an inference dramatized as an event, in a
+       study that elsewhere carefully labels the fourth-cup case an argument from silence. Both removed."
+    - "MODERATE / FIXED: the four-cups framework was asserted in the hook ~100 lines before its caveat
+       (an artifact of the 2026-08-14 restructure, which moved the framework up but left the caveat in
+       the historical section). Both cautions now stated in the opening thesis paragraph as well."
+    - "MODERATE / FIXED: Phase 6 gaps 1 and 2. Genre was never named (Gospel-narrative discipline was
+       applied but not stated) and the Gospels were never dated, although the study argues Paul is
+       earlier than any of them. Both added to the opening of Literary context."
+    - "MODERATE / FIXED: cross-section duplication -- the vow-of-abstinence sentence was verbatim
+       identical in Key Takeaways and Literary context; 'Paul makes the ... explicit' + 1 Cor 11:26
+       appeared in both Be Transformed and Application. Deduplicated."
+    - "MINOR / FIXED: 'A second prophecy is still outstanding' called the vow a prophecy inside the very
+       section that exists to keep type and prophecy apart -- retitled 'Still outstanding'. Also cut
+       'dated verbal prediction' (Jeremiah 31 carries no date formula), the grader adjective 'striking',
+       a two-paragraph recap in the word study, and two disclosure frames ('Two cautions belong here
+       rather than in a footnote', 'Stated precisely:')."
+    - "MINOR / FIXED (Phase 7 tags): added lang/greek (12 studies use it; this one runs a sustained Greek
+       word study and had no lang/ facet, where trumpets.md correctly carries lang/hebrew). Replaced the
+       off-vocabulary 'gospels' tag (2 uses corpus-wide) with matthew/mark/luke (27/19/19 uses), matching
+       the live per-book convention."
+    - "MINOR / FIXED: frontmatter gregorian_year 33 conflicted with prose saying 'c. 30 AD' twice.
+       build-events.js does not filter drafts, so the AD 33 entry was already live in docs/data/events.json.
+       Prose moved to c. 33 AD to match the site's chronology (cf. woman-issue-of-blood at 4036/32)."
+    - "MINOR / FIXED: the Hallel two-halves split was stated as settled; Pesachim 10:6 -- the same chapter
+       the study cites -- preserves a Shammai/Hillel dispute over where the first half ends. Now noted."
+    - "SELF-INFLICTED, CAUGHT BY VALIDATE: the new Exodus 6:7 word study initially bold-wrapped the Hebrew
+       (**לָקַח**), a Check 9 ERROR. Rewrapped as <span dir=\"rtl\">. Also caught: a 'worth stating' in the
+       rewritten kainos bullet (Check 10). Both fixed; validate now passes clean."
+  verified_clean_full_review:
+    - "Exodus 6:6-7 gives the four promises in the order the study claims (bring out / deliver / redeem /
+       take as a people) -- the 'one cup per promise, in the order Exodus gives them' ordering claim holds."
+    - "μετὰ τὸ δειπνῆσαι is verbatim identical in Luke 22:20 and 1 Cor 11:25 (SBLGNT)."
+    - "Matthew 26:28 AND Mark 14:24 both read τὸ αἷμά μου τῆς διαθήκης with no καινῆς -- the shorter-reading
+       claim and the Exodus 24:8 echo both stand."
+    - "Strong's/gloss confirmed: γένημα G1081, ἄμπελος G288, διαθήκη G1242, καινός G2537, ποτήριον G4221,
+       εὐχαριστήσας (Mark 14:23), לָקַח H3947, παραλαμβάνω G3880."
+    - "Content spot-checks against ASV (NOT ESV wording): Exodus 24:8, Psalm 116:13, Isaiah 25:6, Matthew
+       8:11, Revelation 19:9, 1 Cor 11:26, Luke 22:17-18, Luke 22:20 -- all say what the study claims,
+       under the correct references."
+    - "ESV is ~10% of body text, far under the 50% cap in references/README.md. Commentary quotations are
+       single clauses. Internal link ../about/key-takeaways.md resolves."
+  new_material_added_this_pass: >
+    At the user's direction, the fourth cup was promoted from a buried inference to the study's stated
+    thesis, and grounded in the fourth PROMISE rather than the argument from silence. New section, "The
+    fourth promise", traces: Exodus 6:7 (לקח + לי, 'take to myself') -> LXX λήψομαι ἐμαυτῷ ὑμᾶς ->
+    John 14:3 παραλήμψομαι ὑμᾶς πρὸς ἐμαυτόν, spoken the same night in the same room -> the covenant
+    formula recurring at Jeremiah 31:33 -> Revelation 19:9 wedding supper and 21:3. The Exodus/John link
+    is LEXICAL, not merely thematic (future of λαμβάνω + ὑμᾶς + reflexive ἐμαυτ- in both), verified
+    against ebible-grcbrent and macula-greek-sblgnt. Stated as an echo, not a quotation: παραλαμβάνω is
+    a compound of λαμβάνω, and John gives no citation formula. The rapture reading of John 14:3 is
+    presented as the dispensational option this site generally takes, with the second-coming and
+    reception-at-death alternatives named, and the argument built so it does not depend on choosing.
+    All THREE new block quotes were written first in ESV, then swapped to WEB before saving, because
+    study-notes.db was unreachable and ESV could not be verified -- see gaps. WEB's Exodus 6:7 ('I will
+    take you to myself for a people') is in fact closer to the Hebrew לי than ESV's rendering.
+  repo_finding: >
+    validate-content.js Check 8 could not see this file's malformed quote blocks. Its translation
+    regex is /\((ESV|WEB|...)\)/, which only matches a translation in its own parentheses; the old
+    trailing-reference shape this draft used -- "(Mark 14:24-25, ESV)" -- does not match, so all
+    three blocks were skipped and the file passed validate clean. The check is blind to exactly the
+    malformed shape it exists to catch. Not fixed here; raised with the user.
+
+last_updated: "2026-08-14"

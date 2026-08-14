@@ -1,101 +1,342 @@
 ---
 title: "\"I Will Not Drink Again\": The Last Supper and the Cups of Passover"
 category: "feasts"
-description: "What the Passover Seder's cup structure reveals about Jesus's vow at the Last Supper not to drink of the fruit of the vine again until the kingdom comes"
-tags: ["passover", "last-supper", "communion", "method/word-study", "gospels"]
+description: "What the Passover Seder's four cups reveal about Jesus's vow at the Last Supper, and why the fourth cup — 'I will take you to be my people' — is the one still waiting to be drunk"
+tags: ["passover", "last-supper", "communion", "method/word-study", "lang/greek", "matthew", "mark", "luke"]
 draft: true
 primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
-bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "Exodus 6:6-7", "Exodus 24:8", "Psalm 116:13", "Jeremiah 31:31-34", "Isaiah 25:6-8", "Revelation 19:6-9"]
+bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "Exodus 6:6-7", "Exodus 24:8", "Psalm 116:13", "Jeremiah 31:31-34", "John 14:1-3", "Isaiah 25:6-8", "Matthew 8:11", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3"]
 zadok_year: 4037
 gregorian_year: 33
 ---
 
-## Overview
+# "I Will Not Drink Again": The Last Supper and the Cups of Passover
 
-At the Last Supper, Jesus says some version of "I will not drink again of the fruit of the vine until [the kingdom of God comes / I drink it new with you in my Father's kingdom]" (Matthew 26:29; Mark 14:25; Luke 22:18). The question to settle before drawing any conclusion: **is there something specific about the structure of the Passover meal that this statement is keyed to?**
+The Passover Seder runs on four cups of wine, each drunk at a fixed point in the liturgy, each
+answering to one of the four promises God makes in Exodus 6:6-7: I will bring you out, I will
+deliver you, I will redeem you, and — the fourth — *I will take you to be my people.* To drink a cup
+is to take a promise.
 
-The Passover Seder is traditionally structured around **four** cups of wine, not two — and which cup Jesus's statement refers to is a real question the Gospels never answer explicitly.
+On the night he was betrayed, partway through that liturgy, Jesus said he would not drink of the
+fruit of the vine again until the kingdom of God comes. Matthew, Mark and Luke all record it. None
+of them says which cup he was holding.
+
+> ✝️ Mark 14:24-25 (ESV)
+>
+> 24 This is my blood of the covenant, which is poured out for many. 25 Truly, I say to you, I will
+> not drink again of the fruit of the vine until that day when I drink it new in the kingdom of God.
+
+> ✝️ Luke 22:17-18 (ESV)
+>
+> 17 And he took a cup, and when he had given thanks he said, "Take this, and divide it among
+> yourselves. 18 For I tell you that from now on I will not drink of the fruit of the vine until the
+> kingdom of God comes."
+
+**The argument of this study:** the cup Jesus defers is the fourth, and the promise it carries — "I
+will take you to be my people" — is the one still outstanding. That conclusion is an inference from
+the shape of the liturgy, not a statement any Gospel makes, and the two sections below lay out
+exactly how much weight the evidence bears. Two cautions, up front: the four-cup structure is
+recorded about 170 years after this meal, and no Gospel numbers the cups at all.
+
+## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is
+prototyping — see that page for what each part is for and why.)*
+
+### Types & Prophecy
+
+**Type.** Moses ratified the Sinai covenant by throwing sacrificial blood over the people: "Behold
+the blood of the covenant that the LORD has made with you" (Exodus 24:8, ESV). Jesus takes that
+sentence, applies it to a cup, and hands the cup to the twelve. At Sinai the blood went onto the
+people from outside; here it is given to them to drink.
+
+**Prophecy.** Jeremiah promises a covenant God has not yet made: *"Behold, the days are coming,
+declares the LORD, when I will make a new covenant with the house of Israel..."* (Jeremiah 31:31,
+ESV) — the verse names both houses, Israel and Judah. Naming the cup "the new covenant in my blood"
+(Luke 22:20; 1 Corinthians 11:25) claims that promise is being enacted at that table.
+
+**Still outstanding.** The vow itself defers a drink to "that day" in the kingdom. Scripture names
+the meal it waits for (Isaiah 25:6-8; Revelation 19:6-9) and the promise it completes — Exodus 6:7's
+fourth, "I will take you to me for a people," whose formula recurs at Jeremiah 31:33 and lands at
+Revelation 21:3.
+
+### Lessons about Jesus
+
+- He institutes the new covenant in Moses's own ratification words, which puts this meal at Sinai's
+  scale rather than a memorial's.
+- He binds himself by a vow. Abstaining from a named food or drink until a stated condition was met
+  was a recognized formal act in first-century Judaism.
+- He leaves the meal unfinished on purpose — the Supper he institutes has a missing last course.
+- He expects to drink it again, with named company and in a named place: "with you in my Father's
+  kingdom" (Matthew 26:29, ESV). The vow promises a reunion.
+
+### Memory verses
+
+> ✝️ Mark 14:25 (ESV)
+>
+> 25 Truly, I say to you, I will not drink again of the fruit of the vine until that day when I
+> drink it new in the kingdom of God.
+
+**1 Corinthians 11:26 (ESV)** — "as often as you eat this bread and drink the cup, you proclaim the
+Lord's death **until he comes**."
+
+### Be Transformed
+
+- **Think.** Communion is not only a memorial. The bread and cup proclaim a death *until he comes*,
+  which makes every observance a standing announcement that he will.
+- **Attitude.** Expectancy at the table. The meal Jesus instituted is one course short by his own
+  choice, and he named the company he intends to finish it with.
+- **Do.** At the next communion, name what you are waiting for, not only what you are remembering.
+
+### Prayer
+
+Father, you ratified a covenant at Sinai with blood thrown over your people, and you kept it. At the
+table your Son named a better one in his own blood, and left a cup undrunk until you bring him back
+to it. You do not leave promises half-kept. Teach us to eat and drink as people waiting for someone,
+and keep us at the table until the day he drinks it new with us. Amen.
 
 ## Historical context: the four cups of Passover
 
-The Mishnah (the earliest written codification of Jewish oral law, redacted around 200 AD but understood to preserve considerably earlier practice) devotes a chapter, [*Pesachim* 10](https://www.sefaria.org/Mishnah_Pesachim.10.1?lang=bi), to the Passover Seder, opening: *"Even the poorest person in Israel may not eat [on the eve of Pesach] until he reclines [at the night's Seder]. And [the communal officers] must give him no fewer than four cups of wine"* (10:1, Sefaria Community Translation, CC0). Everyone is obligated to drink **four cups of wine** during the meal, positioned at four specific points:
+The Mishnah — the earliest written codification of Jewish oral law, redacted around 200 AD but
+preserving considerably earlier practice — devotes a chapter,
+[*Pesachim* 10](https://www.sefaria.org/Mishnah_Pesachim.10.1?lang=bi), to the Seder. It opens:
+*"Even the poorest person in Israel may not eat [on the eve of Pesach] until he reclines [at the
+night's Seder]. And [the communal officers] must give him no fewer than four cups of wine"* (10:1,
+Sefaria Community Translation, CC0). Four cups, at four fixed points:
 
 1. **First cup** — with the opening Kiddush (sanctification of the day)
 2. **Second cup** — after the *Maggid*, the telling of the Exodus story
-3. **Third cup** — after *Birkat Hamazon*, the grace recited after the meal itself — commonly called the "cup of blessing" or "cup of redemption"
-4. **Fourth cup** — with the *Hallel* (Psalms 113-118, sung in two halves, one before the meal and one after)
+3. **Third cup** — after *Birkat Hamazon*, the grace recited after the meal — commonly called the
+   "cup of blessing" or "cup of redemption"
+4. **Fourth cup** — with the *Hallel* (Psalms 113-118, sung in two halves, one before the meal and
+   one after; *Pesachim* 10:6 preserves a Shammai/Hillel dispute over where the first half ends)
 
-The Mishnah adds a detail that matters here, quoted directly from [Mishnah Pesachim 10:7](https://www.sefaria.org/Mishnah_Pesachim.10.7?lang=bi) (Sefaria Community Translation, CC0): *"A third cup would be mixed for [the Seder leader]... Between these [first three] cups, if he wants to drink, he may drink. Between the third and the fourth [cups], he may not drink."* There is a real, ruled-on pause built into the structure at exactly the point in the meal a statement like Jesus's would land if tied to the third cup.
+The structure has a ruled-on pause built into it, at exactly the point where a vow like Jesus's
+would land if tied to the third cup:
 
-The traditional association is with **Exodus 6:6-7**, where God gives four distinct promises of redemption: "I will bring you out... I will deliver you... I will redeem you... and I will take you to be my people." Each cup was understood to correspond to one promise. Scripture itself uses cup-language for redemption in terms the Seder's Hallel actually sings: *"I will lift up the cup of salvation and call on the name of the LORD"* (Psalm 116:13, ESV) — part of the Hallel recited at the Seder.
+*"A third cup would be mixed for [the Seder leader]... Between these [first three] cups, if he wants
+to drink, he may drink. Between the third and the fourth [cups], he may not drink."*
+([Mishnah Pesachim 10:7](https://www.sefaria.org/Mishnah_Pesachim.10.7?lang=bi), Sefaria Community
+Translation, CC0)
 
-**A necessary caveat:** the Mishnah's four-cup structure is written down about 170 years after this meal. Applying it to a Passover in Jesus's own lifetime assumes the practice was already established in Second Temple Judaism — the common and reasonable scholarly assumption, but not something a Second Temple-period source states in so many words. The four-cup framework is strong, illuminating background here, not a hard fact the text itself asserts.
+One cup per promise, in the order Exodus gives them. Scripture itself uses cup-language for
+redemption in words the Seder sings: *"I will lift up the cup of salvation and call on the name of
+the LORD"* (Psalm 116:13, ESV), part of the Hallel.
+
+**The caveat that governs everything built on this.** The Mishnah records the four-cup structure
+about 170 years after the meal in question. No surviving Second Temple-period source enumerates the
+four cups, so applying the structure to a c. 33 AD Passover rests on the mainstream scholarly
+assumption that the practice was already fixed by then.
 
 ## Literary context: what each Gospel actually narrates
 
-This is where care matters most, because the four Gospel/epistle accounts don't all narrate the same number of cups, and harmonizing them too quickly can create a cleaner story than the text supports.
+Three of the four accounts are Gospel narrative and one (Paul's) is an epistle, which sets the
+reading order: each account gets read on its own terms before any of them are harmonized, because a
+detail present in one and absent from another is evidence about that writer's account, not a gap to
+be filled from a neighbour. The dating runs the other way from the usual assumption. Paul writes in
+the mid-50s AD, in a tradition he says he "received from the Lord"; the Gospels reach final form
+later, Mark commonly placed in the 60s and Matthew and Luke anywhere from the 60s to the 80s
+depending on the scholar. The earliest written witness to this meal is the epistle.
 
-**Matthew (26:26-29) and Mark (14:22-26)** each narrate **one** cup, given *after* the bread. Jesus's "I will not drink again" statement is directly attached to that same cup — the one he has just identified with his blood and the covenant:
+The four accounts do not narrate the same number of cups.
 
-> "This is my blood of the covenant, which is poured out for many. Truly, I say to you, I will not drink again of the fruit of the vine until that day when I drink it new in the kingdom of God." (Mark 14:24-25, ESV)
+**Matthew (26:26-29) and Mark (14:22-26)** each narrate **one** cup, given after the bread, and
+attach the vow to that same cup — the one Jesus has just identified with his blood. Matthew differs
+from Mark twice over: he adds **μεθ' ὑμῶν** (*meth' hymōn*, "with you"), and where Mark has "the
+kingdom of God" Matthew has "my Father's kingdom." Both differences point the vow at a named
+company and a named place.
 
-**Luke (22:14-20)** is different, and repays close reading. Luke narrates **two** cups:
+**Luke (22:14-20)** narrates **two**. The first (22:17-18, quoted above) comes before the bread, and
+carries the vow. The second comes after:
 
-> "And he took a cup, and when he had given thanks he said, 'Take this, and divide it among yourselves. For I tell you that from now on I will not drink of the fruit of the vine until the kingdom of God comes.'" (Luke 22:17-18, ESV)
+> ✝️ Luke 22:20 (ESV)
+>
+> 20 And likewise the cup after they had eaten, saying, "This cup that is poured out for you is the
+> new covenant in my blood."
 
-— this is *before* the bread. Then, after the bread (22:19), Luke has a second cup:
+So Luke's vow attaches to the *first* cup, not to the covenant-cup after supper.
 
-> "And likewise the cup after they had eaten, saying, 'This cup that is poured out for you is the new covenant in my blood.'" (Luke 22:20, ESV)
+**Paul** (1 Corinthians 11:23-26) confirms Luke's timing for the covenant-cup independently: "in the
+same way also he took the cup, after supper" (1 Cor 11:25, ESV). The Greek is identical in both:
+**μετὰ τὸ δειπνῆσαι** (*meta to deipnēsai*). That is precisely where the Seder's third cup falls,
+after the grace following the meal.
 
-So in Luke, the "I will not drink again" statement is attached to the **first** cup mentioned, not explicitly to the covenant-cup that comes after supper. **Paul's account** (1 Corinthians 11:23-26), written earlier than any of the Gospels in final form (the mid-50s AD, and Paul says explicitly he "received from the Lord" this tradition), independently confirms Luke's timing for the covenant-cup: "in the same way also he took the cup, after supper" (1 Cor 11:25, ESV). The Greek is identical in both: **μετὰ τὸ δειπνῆσαι** (*meta to deipnēsai*). "After supper" is precisely where the Seder's third cup falls, after the grace following the meal.
+**A textual note.** Luke 22:19b-20 is missing from Codex Bezae and a handful of Old Latin
+manuscripts — one of the readings Westcott and Hort called the "Western non-interpolations." The
+earlier and more broadly attested manuscripts carry the fuller text with both cups, which is what
+modern translations follow. Luke's two-cup structure was already unsettled enough in the earliest
+copying tradition for a whole clause to drop out of one line of transmission.
 
-**A textual note.** Luke 22:19b-20 (the second half of verse 19 through verse 20) has a real history in the manuscript tradition. One important early witness, Codex Bezae, along with a handful of Old Latin manuscripts, has a *shorter* text that omits this material entirely — one of what textual critics (following Westcott and Hort) call the "Western non-interpolations." The majority of manuscripts, including earlier and more broadly attested ones, support the fuller text with both cups, which is what virtually all modern translations follow. It's mentioned here because it shows the two-cup structure in Luke isn't a settled, uncontested detail — it was apparently unsettled enough in the earliest copying tradition that a whole clause of text is missing in at least one important line of transmission.
+**So which cup is Jesus declining?** In Matthew and Mark the vow attaches directly to the
+covenant-cup, and on timing alone — "after supper" in Luke and Paul — that cup corresponds to the
+Seder's third, the cup of blessing. If the third cup is the one in his hand, the next cup in the
+liturgy is the fourth, and the fourth is the one that goes undrunk.
 
-**So: which cup is Jesus declining to drink again?** The tightest, least speculative answer: in Matthew and Mark, the vow is attached directly to the covenant-cup itself, which — on timing alone ("after supper" in Luke/Paul) — corresponds structurally to the Seder's third cup, the cup of blessing/redemption. The common popular teaching that Jesus specifically *skipped the fourth cup* is a further inference, built by noting that Matthew and Mark both record "having sung a hymn" (probably the second half of the Hallel, which traditionally accompanies the fourth cup) immediately before leaving for the Mount of Olives (Matthew 26:30; Mark 14:26) — without ever narrating a specific fourth cup being poured or drunk. That is an **argument from silence** — real, but not something any Gospel states outright. None of the four accounts number the cups themselves; that comes from reading them against the Mishnah's later-recorded structure.
+The popular further step — that Jesus *skipped* the fourth cup — is built from a silence. Matthew
+and Mark both record "having sung a hymn" (probably the Hallel's second half, which accompanies the
+fourth cup) immediately before leaving for the Mount of Olives (Matthew 26:30; Mark 14:26), without
+narrating a fourth cup being poured or drunk. None of the four accounts numbers the cups at all; the
+numbering comes from reading them against the Mishnah. The argument below does not rest on that
+silence — it rests on which *promise* the fourth cup carries, which is stated in Exodus and traced
+through the rest of Scripture.
 
-This inference isn't only a modern reconstruction, either — it shows up independently in standard background-commentary work on the Gospels (e.g. the *NIV Cultural Backgrounds Study Bible*, Zondervan, ed. Walton & Keener, at Matthew 26:29): reasoning from the same detail (the closing hymn falling in the next verse, v. 30), it likewise concludes "the present cup is probably the third one." That treatment doesn't address Luke's two-cup complication above, though: the inference works cleanly for Matthew and Mark's single-cup structure, but Luke's account (where the vow attaches to the *first* cup) isn't so easily folded into the same reading.
-
-The same background commentary adds a further historical detail. Vows of abstinence — promising not to eat or drink some particular thing until a specified condition was met — were a recognized practice in first-century Jewish culture. Jesus's statement isn't an improvised aside; it takes the shape of a known kind of vow, which strengthens the sense that "until the kingdom of God comes" is a deliberate, formal deferral, not a passing remark.
+The third-cup reading has independent support. The *NIV Cultural Backgrounds Study Bible*
+(Zondervan, ed. Walton & Keener), reasoning from the closing hymn in the next verse (Matthew 26:30),
+concludes "the present cup is probably the third one." It works cleanly for Matthew and Mark's
+single cup. Luke, where the vow sits on the first cup, does not fold into it. The same commentary
+supplies the cultural category for the vow: a vow of abstinence, of the recognized first-century
+Jewish kind, with "until the kingdom of God comes" as its stated condition.
 
 ## Word study: "fruit of the vine," "new," and "covenant"
 
-- **"Fruit of the vine"** (Greek *genēma tēs ampelou*, γένημα τῆς ἀμπέλου) is not simply "wine" — it echoes the wording of the Kiddush blessing itself (*borei pri hagafen*, "who creates the fruit of the vine"). Jesus's vow is phrased in the meal's own liturgical vocabulary, not just describing the drink generically.
-- **"New"** — Mark 14:25 has Jesus saying he will drink it *kainon* (καινόν, G2537) in the kingdom — "new" in kind, not merely next-in-sequence. The same root appears in "new covenant" (*kainē diathēkē*, καινὴ διαθήκη) in Luke 22:20 and 1 Corinthians 11:25. The cup he defers and the covenant he institutes are tied together by the same word.
-- **"Covenant"** (διαθήκη, *diathēkē*, G1242) echoes two Old Testament texts at once.
+- **"Fruit of the vine"** (γένημα τῆς ἀμπέλου, *genēma tēs ampelou*, G1081/G288) echoes the Kiddush
+  blessing itself — *borei pri hagafen*, "who creates the fruit of the vine." Jesus phrases the vow
+  in the meal's own liturgical vocabulary.
+- **"New"** (καινός, *kainos*, G2537). The claim usually made here is that καινός means new *in
+  kind* while νέος means new *in time*. The corpus does not support the split that cleanly. MACULA's Louw-Nida tagging in this project's `bible-text.db` puts Matthew
+  26:29 and 1 Corinthians 11:25 in domain **58.71** (class and character — "new in kind"), but
+  Mark 14:25 and Luke 22:20 in domain **67.115**, a *time* domain. Across the corpus the two words
+  overlap in both directions: νέος appears in the 58.71 "kind" domain, καινός appears five times in
+  the 67.115 "time" domain, and Mark 2:22 carries both codes at once. What the word does carry
+  consistently is the tie between the cup and the covenant — the same adjective gives "new covenant"
+  (*kainē diathēkē*, καινὴ διαθήκη, Luke 22:20; 1 Corinthians 11:25) and the "new" drinking in the
+  kingdom (Matthew 26:29; Mark 14:25). The cup he defers and the covenant he institutes share a word.
+- **"Covenant"** (διαθήκη, *diathēkē*, G1242) reaches back to two Old Testament texts at once.
 
-**Jeremiah's promise** is the first: *"Behold, the days are coming, declares the LORD, when I will make a new covenant with the house of Israel"* (Jeremiah 31:31, ESV).
+**Jeremiah** supplies the promise (31:31, quoted above). **Sinai supplies the words.** "Blood of the
+covenant" (Matthew 26:28; Mark 14:24) is Moses's phrase at the ratification: *"Behold the blood of
+the covenant that the LORD has made with you"* (Exodus 24:8, ESV). The echo depends on the shorter
+reading — SBLGNT has both Matthew 26:28 and Mark 14:24 as τὸ αἷμά μου τῆς διαθήκης, "my blood of the
+covenant," where the later manuscript tradition behind the KJV and WEB inserts "new" and blurs the
+link back to Moses.
 
-**Sinai is the second.** The specific phrase "blood of the covenant" (Matthew 26:28; Mark 14:24) echoes Moses: *"Behold the blood of the covenant that the LORD has made with you"* (Exodus 24:8, ESV), spoken as he threw sacrificial blood on the people to ratify the first covenant.
+## The fourth promise: "I will take you to me for a people"
 
-Jesus is not only claiming Jeremiah's promised new covenant is now being enacted. He is using Moses's own covenant-ratification words to do it, which positions this meal as a Sinai-scale covenant-inaugurating event rather than a memorial.
+The four cups answer to four promises, and the fourth is the one the vow leaves hanging:
+
+> ✝️ Exodus 6:7 (WEB)
+>
+> 7 I will take you to myself for a people. I will be your God; and you shall know that I am Yahweh
+> your God, who brings you out from under the burdens of the Egyptians.
+
+**The verb is one of acquisition.** Hebrew <span dir="rtl">לָקַח</span> (*lāqaḥ*, H3947), "take,"
+with <span dir="rtl">לִי</span> (*lî*) — "to *myself*." Not
+merely rescue from Egypt, which the first three promises already cover, but acquisition: God takes
+Israel to himself as his own.
+
+**That promise's formula is the one Jeremiah reuses** for the new covenant Jesus names at the cup:
+"I will be their God, and they shall be my people" (Jeremiah 31:33, WEB). The covenant instituted at
+the third cup is described in the language of the fourth.
+
+**And Jesus says the fourth promise back, in that room, that night.** A few verses into the same
+evening's discourse:
+
+> ✝️ John 14:3 (WEB)
+>
+> 3 If I go and prepare a place for you, I will come again and will receive you to myself; that
+> where I am, you may be there also.
+
+The Greek is **παραλήμψομαι ὑμᾶς πρὸς ἐμαυτόν** (*paralēmpsomai hymas pros emauton*). The Septuagint
+renders Exodus 6:7's fourth promise **λήψομαι ἐμαυτῷ ὑμᾶς λαὸν ἐμοὶ** — "I will take you to myself
+for a people." Both are a future of λαμβάνω, both take ὑμᾶς as object, and both carry the reflexive
+ἐμαυτ-, "to myself."
+
+The echo is easier to see in Greek than in English, because translations split on παραλαμβάνω: ESV
+has "take you to myself," while WEB, ASV and KJV have "receive." The verb covers both, and it is the
+same verb whichever English word a translator picks.
+
+παραλαμβάνω is a compound of λαμβάνω rather than the identical verb, and John gives no citation
+formula, so this is an echo rather than a quotation. But the shared reflexive
+makes it more than a generic overlap — of all the ways to say "I will come back for you," Jesus uses
+the construction the fourth promise uses, on the night of the meal built around it.
+
+**Where that leads depends on how you read John 14:3.** On the dispensational reading this site
+generally takes, John 14:3 is the promise of the rapture: Christ returns for his own and takes them
+to himself, before the events that follow. On that reading the fourth cup answers directly to it —
+the promise drunk last in the Seder is the promise kept last in redemption's order, and the meal
+Jesus interrupted resumes when he comes for his people. Others read John 14:3 of the second coming
+generally, or of the believer's reception at death. The verse does not settle between them, and this
+study does not need it to: on any of those readings, "I will take you to myself" is still future,
+still unfulfilled, and still the fourth promise's own language.
+
+Scripture's last picture of that taking is a wedding:
+
+> ✝️ Revelation 19:9 (WEB)
+>
+> 9 He said to me, "Write, 'Blessed are those who are invited to the wedding supper of the Lamb.'"
+> He said to me, "These are true words of God."
+
+A wedding supper is a meal, and it completes the covenant formula the fourth promise began — "they
+will be his people, and God himself will be with them as their God" (Revelation 21:3, WEB). The cup
+Jesus declined is a cup of acquisition, and the day he named for drinking it is the day he collects
+what the cup promised.
 
 ## Theological principle
 
-Jesus deliberately leaves the meal's final movement unfinished. Rather than drinking the cup through to whatever its normal conclusion would be, he vows to abstain until a future, greater fulfillment — "until the kingdom of God comes" (Luke), "until that day when I drink it new" (Mark/Matthew). The Supper points beyond itself, to a future shared table. This isn't built on the "declined fourth cup" inference alone — it stands on the vow itself, which is explicit in every account, and it connects to a theme taught elsewhere in Scripture without needing this passage to carry the whole weight: the messianic banquet. God prepares "a feast of rich food... for all peoples" on his mountain (Isaiah 25:6, ESV); "many will come from east and west and recline at table with Abraham, Isaac, and Jacob in the kingdom of heaven" (Matthew 8:11, ESV); and Revelation pictures "the marriage supper of the Lamb" (Revelation 19:9, ESV) as the meal's true completion.
+Jesus leaves the meal's final movement unfinished, vowing to abstain until "the kingdom of God
+comes" (Luke) — "until that day when I drink it new" (Mark, Matthew). The Supper points past itself
+to a future shared table, and the promise it holds in reserve is God's last one: a people taken to
+himself.
 
-A popular devotional reading holds that Jesus's vow is finally "completed" when he receives sour wine on the cross (John 19:28-30) just before saying "It is finished." It is a striking suggestion, and not unreasonable. It rests on popular and devotional sources rather than established scholarship, and the text itself draws no such conclusion.
+That table is taught across both Testaments, not inferred from this vow alone. God prepares "a feast
+of rich food... for all peoples" on his mountain (Isaiah 25:6, ESV); "many will come from east and
+west and recline at table with Abraham, Isaac, and Jacob in the kingdom of heaven" (Matthew 8:11,
+ESV); Revelation calls it "the marriage supper of the Lamb" (Revelation 19:9, ESV).
+
+A popular devotional reading has the vow completed when Jesus receives sour wine on the cross (John
+19:28-30) just before "It is finished." It rests on devotional rather than scholarly sources, and
+the text draws no such conclusion — the vow's stated condition is the kingdom's arrival, which the
+cross does not meet.
 
 ## Application
 
-- What's specific to the original setting: the exact number and liturgical placement of the Seder's cups is Jewish festal custom, not something the New Testament itself legislates for believers observing the Lord's Supper.
-- What transcends it: Jesus's own meal points forward, deliberately, to something not yet arrived — a pattern of "already/not yet" that runs through the whole New Testament's picture of the kingdom, and one explicitly taught elsewhere (Isaiah 25, Matthew 8:11, Luke 14:15-24, Revelation 19), not invented from this detail alone.
-- Every subsequent observance of the Lord's Supper carries this same forward-looking shape: "as often as you eat this bread and drink the cup, you proclaim the Lord's death **until he comes**" (1 Corinthians 11:26, ESV, emphasis added). The meal was never only a memorial of what's past — Paul makes the future orientation explicit.
+- **Culturally bound:** the number and liturgical placement of the Seder's cups is Jewish festal
+  custom. The New Testament legislates none of it for believers observing the Lord's Supper.
+- **Transcultural:** Jesus's meal points forward, deliberately, to something not yet arrived. That
+  already/not-yet shape runs through the New Testament's whole picture of the kingdom and is taught
+  directly elsewhere (Isaiah 25, Matthew 8:11, Luke 14:15-24, Revelation 19).
+- Every observance since carries the same forward tilt: "as often as you eat this bread and drink
+  the cup, you proclaim the Lord's death **until he comes**" (1 Corinthians 11:26, ESV, emphasis
+  added).
 
 ## Discussion questions
 
-1. Matthew and Mark attach "I will not drink again" directly to the covenant-cup; Luke attaches it to an earlier cup. What changes about how you read the statement depending on which Gospel you're in, and what stays the same across all of them?
-2. The Mishnah's four-cup structure is a real, checkable historical source — but it's from ~200 AD, describing a meal from ~30 AD. How much weight should later-attested Jewish liturgical practice carry when reading an earlier Gospel scene, and how would you decide?
-3. Where do you see the Lord's Supper's forward-looking ("until he comes," "until the kingdom of God comes") dimension reflected — or not reflected — in how communion is practiced and talked about today?
-4. Read Isaiah 25:6-8, Matthew 8:11, and Revelation 19:6-9 together. What do these three passages, spread across both Testaments, share with what Jesus vows at the table?
+1. Matthew and Mark attach "I will not drink again" to the covenant-cup; Luke attaches it to an
+   earlier cup. What changes about the statement depending on which Gospel you are in, and what
+   holds across all of them?
+2. The Mishnah's four-cup structure is a checkable source from about 200 AD, describing a meal from
+   about 33 AD. How much weight should later-attested liturgical practice carry when reading an
+   earlier scene, and how would you decide?
+3. Read Exodus 6:6-7, Jeremiah 31:33, and Revelation 21:3 in sequence. What does the recurring
+   formula — "my people," "their God" — trace across the whole of Scripture, and where does the
+   Last Supper sit on that line?
+4. Jesus says "I will take you to myself" (John 14:3) on the night of a meal whose fourth cup
+   carries "I will take you to me for a people." How much weight will that echo bear, and what
+   would change your mind about it?
+5. Where do you see the Supper's forward-looking dimension — "until he comes" — reflected, or
+   missing, in how communion is practiced and talked about today?
 
 ## References & Recommended Reading
 
-- **Mishnah, *Pesachim* 10** — the primary source for the Seder's four-cup structure (Kiddush, Maggid, Birkat Hamazon/"cup of blessing," Hallel) and the rule against drinking between the third and fourth cups. Quoted above from the **Sefaria Community Translation (CC0)**, via [sefaria.org](https://www.sefaria.org/Mishnah_Pesachim.10.1?lang=bi) / the [Sefaria-Export](https://github.com/Sefaria/Sefaria-Export) data.
+- **Mishnah, *Pesachim* 10** — the primary source for the Seder's four-cup structure and the rule
+  against drinking between the third and fourth cups. Quoted above from the **Sefaria Community
+  Translation (CC0)**, via [sefaria.org](https://www.sefaria.org/Mishnah_Pesachim.10.1?lang=bi) /
+  the [Sefaria-Export](https://github.com/Sefaria/Sefaria-Export) data.
 
-    Redacted c. 200 AD; applying its structure to a c. 30 AD meal is the mainstream scholarly assumption, not something the Mishnah claims about that earlier period.
-
-    On licensing: the Hebrew (Torat Emet edition) is Public Domain, and several English translations are open — this one CC0, Kulp's *Mishnah Yomit* CC-BY — though Sefaria's default English display (William Davidson Edition) is CC-BY-NC.
-- Cross-checked the Exodus 6:6-7 four-promises correspondence against several independent Jewish and Messianic background sources (Chabad.org, TorahResource, Jewish Awareness Ministries) for convergence rather than relying on one.
-- *NIV Cultural Backgrounds Study Bible* (Zondervan, ed. John H. Walton & Craig S. Keener), notes at Matthew 26:27-30 and Mark 14:22-26 — independently reaches the "probably the third cup" reading argued for above, and is the source for the Exodus 24:8 "blood of the covenant" echo and the Jewish vow-of-abstinence detail in this study. Recommended for the fuller verse-by-verse background discussion.
-- The Greek word-study data (ποτήριον, γένημα τῆς ἀμπέλου, εὐχαριστήσας, διαθήκη, καινός) is drawn from this project's own `bible-text.db`, built from the MACULA Greek dataset (`open-data/macula-greek`) and SBLGNT.
-- On the Luke 22:19b-20 textual variant: standard NT textual-criticism treatments of the "Western non-interpolations" (a term originating with Westcott & Hort) cover this passage specifically; consult a critical apparatus (e.g. UBS5/NA28) directly for the manuscript evidence rather than taking this study's summary as exhaustive.
+    On licensing: the Hebrew (Torat Emet edition) is Public Domain, and several English translations
+    are open — this one CC0, Kulp's *Mishnah Yomit* CC-BY — though Sefaria's default English display
+    (William Davidson Edition) is CC-BY-NC.
+- The Exodus 6:6-7 four-promises correspondence was cross-checked against several independent Jewish
+  and Messianic background sources (Chabad.org, TorahResource, Jewish Awareness Ministries) for
+  convergence.
+- *NIV Cultural Backgrounds Study Bible* (Zondervan, ed. John H. Walton & Craig S. Keener), notes at
+  Matthew 26:27-30 and Mark 14:22-26 — reaches the "probably the third cup" reading independently,
+  and is the source for the Exodus 24:8 echo and the vow-of-abstinence category used above.
+  Recommended for the fuller verse-by-verse background.
+- Original-language data (γένημα τῆς ἀμπέλου, καινός, διαθήκη, ποτήριον, εὐχαριστήσας, παραλαμβάνω,
+  לָקַח) and the Louw-Nida domain codes cited in the word study come from this project's own
+  `bible-text.db` — MACULA Greek (SBLGNT) and MACULA Hebrew (WLC). The Exodus 6:7 Septuagint text is
+  Brenton's edition (`ebible-grcbrent`), public domain.
+- On the Luke 22:19b-20 variant: consult a critical apparatus (UBS5/NA28) directly for the
+  manuscript evidence; the standard treatments of the "Western non-interpolations" cover this
+  passage specifically.
