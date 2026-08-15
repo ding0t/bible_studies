@@ -176,6 +176,13 @@ same way he also took the cup after supper" (1 Cor 11:25, WEB). The Greek is ide
 **μετὰ τὸ δειπνῆσαι** (*meta to deipnēsai*). That is precisely where the Seder's third cup falls,
 after the grace following the meal.
 
+```mermaid
+flowchart LR
+    MM["Matthew 26:26-29<br/>Mark 14:22-26"] --> MM1["Bread"] --> MM2["One cup, after the bread<br/>'my blood of the covenant'<br/>THE VOW attaches here"]
+    LK["Luke 22:14-20"] --> LK1["First cup, before the bread<br/>THE VOW attaches here"] --> LK2["Bread"] --> LK3["Second cup, after supper<br/>'the new covenant in my blood'"]
+    PL["1 Corinthians 11:23-26"] --> PL1["Bread"] --> PL2["Cup, after supper<br/>'the new covenant in my blood'<br/>(no vow narrated)"]
+```
+
 **A textual note.** Luke 22:19b-20 is missing from Codex Bezae and a handful of Old Latin
 manuscripts — one of the readings Westcott and Hort called the "Western non-interpolations." The
 earlier and more broadly attested manuscripts carry the fuller text with both cups, which is what
@@ -273,6 +280,14 @@ secures:
    those he also glorified" (Romans 8:30, WEB), and the same letters have believers still "waiting
    for adoption, the redemption of our body" (Romans 8:23, WEB), glory arriving when "Christ, our
    life, is revealed" (Colossians 3:4, WEB).
+
+```mermaid
+flowchart LR
+    C1["Cup 1<br/>Kiddush"] --> P1["'I will bring you out'<br/>(Exodus 6:6)"] --> N1["Delivered out of the power<br/>of darkness (Colossians 1:13)"]
+    C2["Cup 2<br/>after the Maggid"] --> P2["'I will rid you out<br/>of their bondage'"] --> N2["Made free from sin<br/>(Romans 6:18)"]
+    C3["Cup 3, after the meal<br/>the cup of blessing<br/>THE CUP HE HANDS THEM"] --> P3["'I will redeem you with<br/>an outstretched arm'"] --> N3["Redemption through his blood<br/>(Ephesians 1:7; 1 Peter 1:18-19)"]
+    C4["Cup 4<br/>with the Hallel<br/>THE CUP HE DEFERS"] --> P4["'I will take you to<br/>myself for a people'"] --> N4["No New Testament writer<br/>reports it kept<br/>(Romans 8:23; Revelation 21:3)"]
+```
 
 The cup he hands over and the cup he defers divide the promises the same way. Three are secured by
 the blood he names at the table; the fourth waits, and so does the cup that carries it.
