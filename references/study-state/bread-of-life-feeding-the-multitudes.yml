@@ -336,7 +336,121 @@ replaced_2026_07_27:
     it as first stated. Told the user this was done and why in the same turn -- reversible if they
     preferred their own fuller wording.
   status: published
-last_updated: "2026-07-27"
+
+review_2026_08_14:
+  skill: review-bible-study
+  requested_by_user: "Review for missed/understated insights, AI verbosity, and add a Key Takeaways section."
+  scope_limitation: >
+    /Volumes/media was NOT MOUNTED this session, so study-notes.db was unreachable and no ESV
+    quotation could be re-verified. ESV wording therefore still rests on the 2026-07-25 verse-by-verse
+    check recorded in esv_verification above, which was thorough. Everything else -- Greek/Hebrew
+    morphology, concordances, LXX, WEB -- was re-derived from bible-text.db this session via the
+    bible-references MCP server. NOTE: `uv run` inside references/build fails under the current
+    sandbox ("failed to open file /Users/dave/.cache/uv/sdists-v9/.git: Operation not permitted"),
+    so query.py was unusable directly; the MCP tools are the working path.
+  critical_findings_fixed:
+    - id: four-verb-sequence
+      severity: critical
+      finding: >
+        FALSE SYNTHETIC CLAIM, published since 2026-07-27, and this state file asserted it as
+        "verified word-by-word" (see content_word_studies note 3) when it was not. The draft read:
+        "Mark 6:41's took, blessed, broke, gave (labon, eulogesen, kateklasen, edidou) are the same
+        four lemmas, same order, as the Last Supper's took, blessed, broke, gave (Mark 14:22)."
+        The third lemma differs. Mark 6:41 = KATAKLAO (G2622, intensive compound); Mark 14:22 =
+        KLAO (G2806, simplex). Three of four lemmas match, not four. Re-verified word-by-word via
+        bible_verse on Mark 6:41, Mark 8:6, Mark 14:22, 1 Cor 11:23-24 and bible_concordance on
+        G2622.
+      resolution: >
+        Rewritten as a STRONGER point rather than merely softened, because the corrected data is
+        more interesting than the error. G2622 occurs exactly twice in the NT -- Mark 6:41 and
+        Luke 9:16, both the 5,000. Meanwhile Mark 8:6 (the 4,000) reads eucharistesas ... eklasen,
+        which is 1 Cor 11:24's eucharistic formula exactly. So the GENTILE feeding, not the Jewish
+        one, matches the words Paul "received from the Lord and delivered to you" -- which
+        corroborates the study's own Israel-then-nations thesis instead of undercutting it. Added a
+        four-row comparison table (5,000 / 4,000 / Mark 14:22 / 1 Cor 11:23-24) plus a "Breaking
+        verb" row in the study's main side-by-side table. Note 1 Cor 11:23 has elaben (aorist
+        indicative), not the participle labon -- the table says so.
+    - id: isaiah-55-2-hebrew
+      severity: critical
+      finding: >
+        Wrong Hebrew preposition printed. Draft had le-lo' lesov'ah (lamed); WLC reads
+        BE-lo' lesov'ah (bet), matching the parallel be-lo'-lechem earlier in the same verse.
+        Transliteration was wrong to match. Sense the study drew from it was unaffected.
+      resolution: >
+        Corrected to bet, and turned into a small gain -- the study now notes the repeated
+        preposition across Isaiah's two parallel clauses.
+  insights_added:
+    - id: apollymi-thread-john-6
+      finding: >
+        APOLLYMI (G622) occurs three times in John 6 and the study had quoted one of them (6:27's
+        "food that perishes") without noticing the other two: 6:12 "that nothing be lost"
+        (apoletai, the gather-the-fragments command) and 6:39 "that I should lose nothing" of all
+        the Father has given the Son (apoleso). Verified via bible_word G622 restricted to John.
+      why_it_matters: >
+        Reframes the twelve baskets -- they are not incidental leftovers, they exist because Jesus
+        commanded that nothing perish -- and links that care to the people he will not lose. Serves
+        the study's own thesis directly.
+    - id: numbers-27-18-joshua
+      finding: >
+        The study quoted Moses's "sheep which have no shepherd" prayer at Num 27:17 and stopped one
+        verse short of God's answer. Num 27:18 names Joshua, Hebrew Yehoshua (H3091), which Brenton
+        renders IESOUN -- "take to yourself Iesoun son of Naue." Verified against ebible-grcbrent.
+      why_it_matters: >
+        Mark 6:34 puts probata and poimen in the sentence; the third word is the name of the man
+        standing there. Strongest available payoff for a shepherd section the study had already built.
+    - id: john-6-6-peirazo
+      finding: >
+        John 6:6's "he said this to test him" is PEIRAZON (G3985); LXX Exodus 16:4's stated purpose
+        for the manna is hopos PEIRASO autous -- same verb, rendering Hebrew nasah (H5254). Verified
+        via bible_word G3985 in John and bible_verse on Exod 16:4 (ebible-grcbrent). John 6:6 is
+        also the only undisputed occurrence of peirazo in John (8:4, 6 sit in the pericope adulterae).
+      why_it_matters: >
+        The manna was given AS A TEST by design (Exod 16:4; Deut 8:2-3, both already in this study's
+        cross-refs); John says the bread question was one too. One-word link, previously missing.
+    - id: mark-8-4-hook-payoff
+      finding: >
+        The study opened on Mark 8:21's "Do you not yet understand?" as its organizing frame and never
+        showed the reader Mark 8:4, where the disciples -- with the 5,000 behind them -- ask the same
+        question again ("From where could one satisfy these people with bread here in a deserted
+        place?"). Quoted WEB, since ESV could not be verified this session.
+      why_it_matters: >
+        That repetition IS the force of the rebuke. The hook promised it and the body never paid it off.
+  minor_findings_fixed:
+    - "'the only miracle recorded in all four Gospels' -> 'the only miracle OF JESUS'S MINISTRY recorded in all four Gospels'; the resurrection is in all four too."
+    - "Side-by-side table attributed 'about 4,000' to Matt 15:38, which has bare tetrakischilioi with no hedge; the hedge (hos) is Mark 8:9's. Table now cites both correctly. The 'Firm' tier lower down had it right already."
+    - "Ezekiel 34:16 block quote ellipsed away '...but I will destroy the fat and the strong. I will feed them in justice' -- the clause nearest the study's own subject. Restored in full."
+    - "ARITHMETIC, pre-existing and previously unflagged: the Elisha parallel was described as happening 'at forty times the scale'. 2 Kings 4:43 has a hundred men; Matt 14:21 has about five thousand. 5000/100 = 50, not 40. Corrected to 'fifty times' in the body and 'a fiftieth' in the new Key Takeaways type paragraph. Exactly the Phase 4 quantity-claim failure mode -- it read as checked because it was specific."
+    - "Cut three sentences that did not survive deletion: the explicit/implicit roadmap in the hook (the section headings already say it), 'That's an inference riding on a textual fact, not the fact itself' (the paragraph had already opened with 'held more loosely'), and 'Same complaint, six centuries apart...' (restated the quote immediately above it)."
+  structural_change:
+    - >
+      "Key lessons" (the deprecated flat bullet list) replaced with the canonical five-subheading
+      KEY TAKEAWAYS per docs/content/about/key-takeaways.md and develop-bible-study SKILL.md Phase 7:
+      Types & Prophecy / Lessons about Jesus / Memory verses / Be Transformed / Prayer. All five slots
+      were earned rather than padded -- type = the manna (which Jesus himself applies to himself) with
+      2 Kings 4:42-44 as a secondary type; prophecy = Deut 18:15-18, which the crowd itself invokes at
+      John 6:14. Memory verses reuse John 6:35 and 6:26-27, both already block-quoted in the body, per
+      that page's rule against introducing new quotations there.
+  frontmatter_changes: >
+    Numbers 27:15-17 -> 27:15-18; added 1 Corinthians 11:23-26 and Luke 9:16 to bible_references.
+  verified_clean:
+    - "kophinos G2894: 6 occurrences, all the 5,000 (Matt 14:20, 16:9; Mark 6:43, 8:19; Luke 9:17; John 6:13). Unchanged."
+    - "spyris G4711: 4 feeding occurrences, all the 4,000 (Matt 15:37, 16:10; Mark 8:8, 8:20), plus Acts 9:25. Unchanged. 'Ten occurrences, zero crossover' still correct."
+    - "trogo G5176: 6 NT occurrences, 4 in John 6 (54, 56, 57, 58) plus John 13:18, Matt 24:38. Unchanged."
+    - "meno G3306 at John 6:27 (menousan) confirmed."
+    - "LXX Ps 77:24 wording confirmed against ebible-grcbrent; John 6:31's recombination claim holds."
+    - "Num 27:17 LXX shares probata/poimen with Mark 6:34, non-verbatim, as stated."
+    - "Matt 14:21 hosei / Mark 8:9 hos hedges confirmed; the 'Firm' tier's claim about the thousands holds."
+    - "Matt 15:31 'glorified the God of Israel' confirmed."
+    - "2 Kings 4:42-44 and Ezekiel 34:15-16 WEB quotations verbatim against ebible-eng-web."
+    - "All six relative markdown links resolve on disk. npm run validate passes with zero findings on this file (the 2 warnings are pre-existing hits in how-to-read-the-bible.md and numerology.md)."
+  not_done: >
+    Phase 5 commentary cross-check could not be run -- study-notes.db unreachable (volume unmounted).
+    The ESV Study Bible and NIV Cultural Backgrounds checks recorded in resources_consulted stand from
+    the original development pass; no NEW independent commentary was consulted this session. Worth
+    running once the volume is back, specifically against the new kataklao/klao argument, which is this
+    review's own synthetic claim and has not yet been checked against any commentary.
+
+last_updated: "2026-08-14"
 
 repo_findings:
   - "DATA GAP -- FOUND DURING THIS STUDY, NOW FIXED (2026-07-25). The ebible-eng-web work in
