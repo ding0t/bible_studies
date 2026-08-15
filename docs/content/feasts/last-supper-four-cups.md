@@ -5,21 +5,32 @@ description: "What the Passover Seder's four cups reveal about Jesus's vow at th
 tags: ["passover", "last-supper", "communion", "method/word-study", "lang/greek", "matthew", "mark", "luke"]
 draft: false
 primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
-bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "1 Corinthians 10:16", "Exodus 6:6-7", "Exodus 12:14", "Exodus 24:8", "Leviticus 17:10-12", "Psalm 116:13", "Hosea 2:19-23", "Jeremiah 31:31-34", "John 6:53-58", "John 14:1-3", "Romans 6:18", "Romans 8:23", "Romans 8:30", "Ephesians 1:7", "Colossians 1:13", "Colossians 3:4", "Hebrews 9:15", "1 Peter 1:18-19", "Isaiah 25:6-8", "Matthew 8:11", "Matthew 22:1-14", "Matthew 25:1-13", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3"]
+bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "1 Corinthians 10:16", "1 Corinthians 5:7", "Exodus 6:6-7", "Exodus 12:13", "Exodus 12:14", "Exodus 24:8", "Colossians 2:16-17", "Leviticus 17:10-12", "Psalm 116:13", "Hosea 2:19-23", "Jeremiah 31:31-34", "John 6:53-58", "John 14:1-3", "Romans 6:18", "Romans 8:23", "Romans 8:30", "Ephesians 1:7", "Colossians 1:13", "Colossians 3:4", "Hebrews 9:15", "1 Peter 1:18-19", "Isaiah 25:6-8", "Matthew 8:11", "Matthew 22:1-14", "Matthew 25:1-13", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3"]
 zadok_year: 4037
 gregorian_year: 33
 ---
 
 # "I Will Not Drink Again": The Last Supper and the Cups of Passover
 
-The Passover Seder runs on four cups of wine, each drunk at a fixed point in the liturgy, each
-answering to one of the four promises God makes in Exodus 6:6-7: I will bring you out, I will
-deliver you, I will redeem you, and — the fourth — *I will take you to be my people.* To drink a cup
-is to take a promise.
+Jesus's last meal was a Passover supper, but it was not only a Passover supper. Passover was the
+pattern — the type — a meal God gave Israel to keep every year until the thing it pictured arrived,
+and at that table it arrived. Jesus took the meal's own bread and wine, named them his body and his
+blood, and called the cup "the new covenant in my blood" (Luke 22:20, WEB). Paul says it flatly:
+*"For indeed Christ, our Passover, has been sacrificed in our place"* (1 Corinthians 5:7, WEB).
 
-On the night he was betrayed, partway through that liturgy, Jesus said he would not drink of the
-fruit of the vine again until the kingdom of God comes. Matthew, Mark and Luke all record it. None
-of them says which cup he was holding.
+Passover also ran to a script: four cups of wine, drunk in a fixed order, each one standing for one
+of the four promises God made when he brought Israel out of Egypt — I will bring you out, I will
+free you, I will redeem you, and *I will take you to myself for a people* (Exodus 6:6-7). On the
+night he was betrayed, partway through that meal, Jesus stopped drinking. Not just for that night —
+until the kingdom of God comes.
+
+**The cup he is waiting to drink again, new, with us in the kingdom is the fourth cup, and the
+fourth cup carries God's last promise: he will take us to himself as his own people.** Three of
+those four promises his blood secured that night — brought out, freed, redeemed. The fourth is the
+one still waiting, and so is the cup that carries it. The meal he left unfinished finishes at the
+wedding supper of the Lamb, and every communion since has proclaimed his death "until he comes."
+
+Here is the vow, in Mark and in Luke:
 
 > ✝️ Mark 14:24-25 (ASV)
 >
@@ -33,11 +44,9 @@ of them says which cup he was holding.
 > yourselves, 18 for I tell you, I will not drink at all again from the fruit of the vine, until
 > God's Kingdom comes."
 
-**The argument of this study:** the cup Jesus defers is the fourth, and the promise it carries — "I
-will take you to be my people" — is the one still outstanding. That conclusion is an inference from
-the shape of the liturgy, not a statement any Gospel makes, and the two sections below lay out
-exactly how much weight the evidence bears. Two cautions, up front: the four-cup structure is
-recorded about 170 years after this meal, and no Gospel numbers the cups at all.
+Matthew, Mark and Luke all record the vow. None of them says which cup he was holding — the
+numbering comes from the Passover order of service, and the two sections below weigh exactly how
+much that can bear.
 
 ## Key Takeaways
 
@@ -46,7 +55,14 @@ prototyping — see that page for what each part is for and why.)*
 
 ### Types & Prophecy
 
-**Type.** Moses ratified the Sinai covenant by sprinkling sacrificial blood over the people: "this
+**Type — the feast.** Passover was never only a memorial of Egypt. Paul calls the festivals "a
+shadow of the things to come; but the body is Christ's" (Colossians 2:17, WEB), and names the
+substance that cast the shadow: "Christ, our Passover, has been sacrificed in our place"
+(1 Corinthians 5:7, WEB). The lamb killed so that death would pass over Israel's houses (Exodus
+12:13) is the picture; the one killed at that same feast is what it pictured. Jesus keeps the meal's
+shape and puts himself where the lamb had been.
+
+**Type — the covenant.** Moses ratified the Sinai covenant by sprinkling sacrificial blood over the people: "this
 is the blood of the covenant, which Yahweh has made with you" (Exodus 24:8, WEB). Jesus takes that
 sentence, applies it to a cup, and hands the cup to the twelve. Sinai's blood went onto the people
 from outside and its terms were cut into stone; the covenant Jeremiah promised is put inside
@@ -73,9 +89,10 @@ WEB). The banquet also swallows death (Isaiah 25:6-8).
 
 ### Lessons about Jesus
 
-- He ties the covenant to a cup of the Passover. The Seder's cups carry Exodus's promises in order —
-  brought out, freed, redeemed, taken (Exodus 6:6-7) — and the cup he calls "the new covenant in my
-  blood" (Luke 22:20, WEB) falls at the third, redemption. The fourth is the one he holds back.
+- He ties the covenant to a cup of the Passover. The cups of the *Seder* (Hebrew for "order" — the
+  name for the way the Passover meal is run) carry Exodus's promises in sequence: brought out,
+  freed, redeemed, taken (Exodus 6:6-7). The cup he calls "the new covenant in my blood" (Luke
+  22:20, WEB) falls at the third, redemption. The fourth is the one he holds back.
 - Passover remembered a deliverance God had already worked. He gives the same meal a new object —
   "Do this in memory of me" (Luke 22:19, WEB) — and his blood is what the memorial now names:
   brought out of darkness, freed from sin, redeemed, and not yet taken.
@@ -194,7 +211,7 @@ covenant-cup, and on timing alone — "after supper" in Luke and Paul — that c
 Seder's third, the cup of blessing. Paul keeps that cup's name: what the Corinthians share is
 **τὸ ποτήριον τῆς εὐλογίας** (*to potērion tēs eulogias*), "the cup of blessing which we bless"
 (1 Corinthians 10:16, WEB), which is the name the Seder's third cup carries in the list above. If
-the third cup is the one in his hand, the next cup in the liturgy is the fourth, and the fourth is
+the third cup is the one in his hand, the next cup in the order of service is the fourth, and it is
 the one that goes undrunk.
 
 The popular further step — that Jesus *skipped* the fourth cup — is built from a silence. Matthew
