@@ -5,7 +5,7 @@ description: "What the Passover Seder's four cups reveal about Jesus's vow at th
 tags: ["passover", "last-supper", "communion", "method/word-study", "lang/greek", "matthew", "mark", "luke"]
 draft: false
 primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
-bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "1 Corinthians 10:16", "Exodus 6:6-7", "Exodus 12:14", "Exodus 24:8", "Psalm 116:13", "Hosea 2:19-23", "Jeremiah 31:31-34", "John 14:1-3", "Romans 6:18", "Romans 8:23", "Romans 8:30", "Ephesians 1:7", "Colossians 1:13", "Colossians 3:4", "Hebrews 9:15", "1 Peter 1:18-19", "Isaiah 25:6-8", "Matthew 8:11", "Matthew 22:1-14", "Matthew 25:1-13", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3"]
+bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "1 Corinthians 10:16", "Exodus 6:6-7", "Exodus 12:14", "Exodus 24:8", "Leviticus 17:10-12", "Psalm 116:13", "Hosea 2:19-23", "Jeremiah 31:31-34", "John 6:53-58", "John 14:1-3", "Romans 6:18", "Romans 8:23", "Romans 8:30", "Ephesians 1:7", "Colossians 1:13", "Colossians 3:4", "Hebrews 9:15", "1 Peter 1:18-19", "Isaiah 25:6-8", "Matthew 8:11", "Matthew 22:1-14", "Matthew 25:1-13", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3"]
 zadok_year: 4037
 gregorian_year: 33
 ---
@@ -48,8 +48,12 @@ prototyping — see that page for what each part is for and why.)*
 
 **Type.** Moses ratified the Sinai covenant by sprinkling sacrificial blood over the people: "this
 is the blood of the covenant, which Yahweh has made with you" (Exodus 24:8, WEB). Jesus takes that
-sentence, applies it to a cup, and hands the cup to the twelve. At Sinai the blood went onto the
-people from outside; here it is given to them to drink.
+sentence, applies it to a cup, and hands the cup to the twelve. Sinai's blood went onto the people
+from outside and its terms were cut into stone; the covenant Jeremiah promised is put inside
+— "I will put my law in their inward parts, and I will write it in their heart" (31:33, WEB) — and
+its blood is handed over to be drunk. Blood was the one thing Israel could not consume, and Leviticus
+gives the reason: "the life of the flesh is in the blood" (17:11, WEB). The cup offers what the
+prohibition guarded — his life, taken in.
 
 **Prophecy.** Jeremiah promises a covenant God has not yet made: *"Behold, the days come," says
 Yahweh, "that I will make a new covenant with the house of Israel, and with the house of Judah"*
@@ -233,9 +237,27 @@ what was accomplished, in the order Exodus gives it — brought out, freed, rede
 body which is given for you. Do this in memory of me"* (Luke 22:19, WEB), and over the cup, *"This
 cup is the new covenant in my blood, which is poured out for you"* (Luke 22:20, WEB).
 
-That claim runs in two directions at once. Backward, the phrase is Moses's at Sinai (Exodus 24:8),
-so the cup is a ratification and not only a remembrance — blood put on the covenant, this time his
-own. Forward, the promises the Seder's cups carry are the promises the New Testament says that blood
+**The blood changes hands as the covenant changes location.** Moses threw the blood at the people —
+the verb at Exodus 24:8 is <span dir="rtl">זָרַק</span> (*zāraq*, H2236), "toss, throw," which WEB
+renders "sprinkled." Jesus puts the blood in their hands and tells them to drink. Blood is the one
+substance Israel was barred from consuming, and the ban carries its own reason: *"For the life of the
+flesh is in the blood. I have given it to you on the altar to make atonement for your souls; for it
+is the blood that makes atonement by reason of the life"* (Leviticus 17:11, WEB), with being "cut off
+from among his people" as the penalty for eating it (17:10, WEB). So a cup identified as covenant
+blood and handed over to be drunk offers the life that atones, on the inside. Paul's word for what
+happens at that cup is **κοινωνία** (*koinōnia*) — the cup of blessing is "a sharing of the blood of
+Christ" (1 Corinthians 10:16, WEB). The mode matches the covenant's own terms: Sinai's law was cut
+in stone, and Jeremiah's is written "in their inward parts" (31:33, WEB).
+
+Jesus had said as much at the Passover season before this one, in the Capernaum synagogue (John 6:4,
+59): *"He who eats my flesh and drinks my blood lives in me, and I in him"* (John 6:56, WEB) — a saying
+his own disciples called hard (6:60). From 6:54 the verb is **τρώγω** (*trōgō*), "chew, gnaw," held
+to the end of the discourse; [Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md) works
+through that shift. John never narrates the Supper, and many readers take John 6 of faith in Christ
+rather than of the sacrament. Either reading describes the same thing: a life received by taking
+Christ in, where Sinai's blood stayed on the outside.
+
+The promises the Seder's cups carry are then the promises the New Testament says that blood
 secures:
 
 1. **"I will bring you out from under the burdens of the Egyptians"** — "who delivered us out of the
@@ -402,7 +424,7 @@ cross does not meet.
   and is the source for the Exodus 24:8 echo and the vow-of-abstinence category used above.
   Recommended for the fuller verse-by-verse background.
 - Original-language data (γένημα τῆς ἀμπέλου, καινός, διαθήκη, ποτήριον, εὐχαριστήσας, παραλαμβάνω,
-  לָקַח) and the Louw-Nida domain codes cited in the word study come from this project's own
+  κοινωνία, τρώγω, לָקַח, זָרַק) and the Louw-Nida domain codes cited in the word study come from this project's own
   `bible-text.db` — MACULA Greek (SBLGNT) and MACULA Hebrew (WLC). The Exodus 6:7 Septuagint text is
   Brenton's edition (`ebible-grcbrent`), public domain.
 - On the Luke 22:19b-20 variant: consult a critical apparatus (UBS5/NA28) directly for the
