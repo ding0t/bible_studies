@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 1:18-19
 - [Simon Peter](../../biblical-figures/peter.md) — 1:1
 <!-- commentary-index:auto-end -->

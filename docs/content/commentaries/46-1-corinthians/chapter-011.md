@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 11:23-26
+- [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 11:23-26
 - [The Rapture of the Church](../../last-things/rapture.md) — 11:25
 <!-- commentary-index:auto-end -->

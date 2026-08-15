@@ -5,7 +5,7 @@ description: "What the Passover Seder's four cups reveal about Jesus's vow at th
 tags: ["passover", "last-supper", "communion", "method/word-study", "lang/greek", "matthew", "mark", "luke"]
 draft: false
 primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
-bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "Exodus 6:6-7", "Exodus 24:8", "Psalm 116:13", "Hosea 2:19-23", "Jeremiah 31:31-34", "John 14:1-3", "Isaiah 25:6-8", "Matthew 8:11", "Matthew 22:1-14", "Matthew 25:1-13", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3"]
+bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "1 Corinthians 10:16", "Exodus 6:6-7", "Exodus 12:14", "Exodus 24:8", "Psalm 116:13", "Hosea 2:19-23", "Jeremiah 31:31-34", "John 14:1-3", "Romans 6:18", "Romans 8:23", "Romans 8:30", "Ephesians 1:7", "Colossians 1:13", "Colossians 3:4", "Hebrews 9:15", "1 Peter 1:18-19", "Isaiah 25:6-8", "Matthew 8:11", "Matthew 22:1-14", "Matthew 25:1-13", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3"]
 zadok_year: 4037
 gregorian_year: 33
 ---
@@ -69,8 +69,12 @@ WEB). The banquet also swallows death (Isaiah 25:6-8).
 
 ### Lessons about Jesus
 
-- He institutes the new covenant in Moses's own ratification words, which puts this meal at Sinai's
-  scale rather than a memorial's.
+- He ties the covenant to a cup of the Passover. The Seder's cups carry Exodus's promises in order —
+  brought out, freed, redeemed, taken (Exodus 6:6-7) — and the cup he calls "the new covenant in my
+  blood" (Luke 22:20, WEB) falls at the third, redemption. The fourth is the one he holds back.
+- Passover remembered a deliverance God had already worked. He gives the same meal a new object —
+  "Do this in memory of me" (Luke 22:19, WEB) — and his blood is what the memorial now names:
+  brought out of darkness, freed from sin, redeemed, and not yet taken.
 - He binds himself by a vow. Abstaining from a named food or drink until a stated condition was met
   was a recognized formal act in first-century Judaism.
 - He leaves the meal unfinished on purpose — the Supper he institutes has a missing last course.
@@ -176,8 +180,11 @@ copying tradition for a whole clause to drop out of one line of transmission.
 
 **So which cup is Jesus declining?** In Matthew and Mark the vow attaches directly to the
 covenant-cup, and on timing alone — "after supper" in Luke and Paul — that cup corresponds to the
-Seder's third, the cup of blessing. If the third cup is the one in his hand, the next cup in the
-liturgy is the fourth, and the fourth is the one that goes undrunk.
+Seder's third, the cup of blessing. Paul keeps that cup's name: what the Corinthians share is
+**τὸ ποτήριον τῆς εὐλογίας** (*to potērion tēs eulogias*), "the cup of blessing which we bless"
+(1 Corinthians 10:16, WEB), which is the name the Seder's third cup carries in the list above. If
+the third cup is the one in his hand, the next cup in the liturgy is the fourth, and the fourth is
+the one that goes undrunk.
 
 The popular further step — that Jesus *skipped* the fourth cup — is built from a silence. Matthew
 and Mark both record "having sung a hymn" (probably the Hallel's second half, which accompanies the
@@ -211,11 +218,50 @@ Jewish kind, with "until the kingdom of God comes" as its stated condition.
 - **"Covenant"** (διαθήκη, *diathēkē*, G1242) reaches back to two Old Testament texts at once.
 
 **Jeremiah** supplies the promise (31:31, quoted above). **Sinai supplies the words.** "Blood of the
-covenant" (Matthew 26:28; Mark 14:24) is Moses's phrase at the ratification: *"Behold the blood of
-the covenant, which Yahweh has made with you"* (Exodus 24:8, WEB). The echo depends on the shorter
-reading — SBLGNT has both Matthew 26:28 and Mark 14:24 as τὸ αἷμά μου τῆς διαθήκης, "my blood of the
+covenant" (Matthew 26:28; Mark 14:24) is Moses's phrase at the ratification: *"Look, this is the
+blood of the covenant, which Yahweh has made with you concerning all these words"* (Exodus 24:8,
+WEB). The echo depends on the shorter reading — SBLGNT has both Matthew 26:28 and Mark 14:24 as τὸ αἷμά μου τῆς διαθήκης, "my blood of the
 covenant," where the later manuscript tradition behind the KJV and WEB inserts "new" and blurs the
 link back to Moses.
+
+## The cup he hands them: the blood of the new covenant
+
+Passover remembers a rescue already accomplished: *"This day shall be a memorial for you. You shall
+keep it as a feast to Yahweh"* (Exodus 12:14, WEB). The four cups walk the congregation back through
+what was accomplished, in the order Exodus gives it — brought out, freed, redeemed, taken
+(Exodus 6:6-7). Jesus keeps the memorial form and changes what is being remembered: *"This is my
+body which is given for you. Do this in memory of me"* (Luke 22:19, WEB), and over the cup, *"This
+cup is the new covenant in my blood, which is poured out for you"* (Luke 22:20, WEB).
+
+That claim runs in two directions at once. Backward, the phrase is Moses's at Sinai (Exodus 24:8),
+so the cup is a ratification and not only a remembrance — blood put on the covenant, this time his
+own. Forward, the promises the Seder's cups carry are the promises the New Testament says that blood
+secures:
+
+1. **"I will bring you out from under the burdens of the Egyptians"** — "who delivered us out of the
+   power of darkness, and translated us into the Kingdom of the Son of his love" (Colossians 1:13,
+   WEB).
+2. **"I will rid you out of their bondage"** — "Being made free from sin, you became bondservants of
+   righteousness" (Romans 6:18, WEB).
+3. **"I will redeem you with an outstretched arm"** — "In him we have our redemption through his
+   blood" (Ephesians 1:7, WEB); "you were redeemed... with precious blood, as of a lamb without
+   blemish or spot, the blood of Christ" (1 Peter 1:18-19, WEB). This is the cup he hands them.
+4. **"I will take you to myself for a people"** — the promise no New Testament writer reports as
+   kept. Its counterpart in Paul's chain of what God has done is the last verb, "whom he justified,
+   those he also glorified" (Romans 8:30, WEB), and the same letters have believers still "waiting
+   for adoption, the redemption of our body" (Romans 8:23, WEB), glory arriving when "Christ, our
+   life, is revealed" (Colossians 3:4, WEB).
+
+The cup he hands over and the cup he defers divide the promises the same way. Three are secured by
+the blood he names at the table; the fourth waits, and so does the cup that carries it.
+
+**Two limits on that alignment.** The four-cup-to-four-promise correspondence is Jewish tradition
+(see the sources listed at the end), and setting Colossians, Romans, Ephesians and 1 Peter beside
+those promises is a step this study takes — no New Testament writer lines them up. And Jeremiah's
+new covenant is made "with the house of Israel, and with the house of Judah" (31:31, WEB); its
+national terms are not exhausted by the church's communion cup, though Hebrews already calls Christ
+"the mediator of a new covenant" whose death redeems "the transgressions that were under the first
+covenant" (Hebrews 9:15, WEB).
 
 ## The fourth promise: "I will take you to me for a people"
 
@@ -295,9 +341,9 @@ what the cup promised.
 ## Theological principle
 
 Jesus leaves the meal's final movement unfinished, vowing to abstain until "the kingdom of God
-comes" (Luke) — "until that day when I drink it new" (Mark, Matthew). The Supper points past itself
-to a future shared table, and the promise it holds in reserve is God's last one: a people taken to
-himself.
+comes" (Luke) — "until that day when I drink it new" (Mark, Matthew). The Supper looks both ways:
+back to a covenant ratified and a redemption paid in his blood, and past itself to a future shared
+table, where the promise it holds in reserve is God's last one — a people taken to himself.
 
 That table is taught across both Testaments, not inferred from this vow alone. God prepares "a feast
 of choice meat... of well refined choice wines" for all peoples on his mountain (Isaiah 25:6, WEB);
