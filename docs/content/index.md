@@ -25,10 +25,13 @@ draft: false
 
 Long before Jesus spoke those words, the road was already there — Isaiah told Israel to walk in it
 seven centuries before Bethlehem. When Jesus claimed to *be* that way, he wasn't coining a new
-metaphor; he was closing a very old one. His earliest followers heard it that way too: before
-anyone called them Christians, they called themselves the Way — Greek **ὁδός** (*hodos*), the
-ordinary word for a road (Acts 9:2). That's this site's name, and its subject. See the
-[full word study](jesus/the-way.md) for how it traces from Isaiah's "way of the LORD"
+metaphor; he was fulfilling one already given.
+
+Jesus' earliest followers heard it that way too: before anyone called them Christians,
+they called themselves the Way — Greek **ὁδός** (*hodos*), the
+ordinary word for a road (Acts 9:2). That's this site's name, and its subject.
+
+See the [full word study](jesus/the-way.md) for how it traces from Isaiah's "way of the LORD"
 through John 14:6 and into the book of Acts.
 
 These are personal Bible study notes — written to make sure I learn, and shared in case they help
@@ -39,13 +42,13 @@ The notes focus on:
 
 - Understanding faith in God as described in the Old and New testaments of the Bible, in order to be prepared to explain the truth in love.
 - Bible end times — Scripture says we are in the last days, and it matters to know where we stand with God before hard days arrive.
-- Questions that come up often, worked through properly instead of answered from memory.
+- Questions that come up often, worked through original languages and various English translations to improve accuracy of reading and context.
 - Starting the journey of learning biblical Hebrew.
 - Getting some sermon/teaching ideas together as they come.
 
 ## The gospel
 
-If you take nothing else from this site, take this.
+All of these studies point to the one core truth of Jesus and the way.
 
 You are made by God, and He loves you. But every one of us has sinned and fallen short of who He made
 us to be ([Romans 3:23 (ESV)](https://www.blueletterbible.org/esv/Rom/3/23)), and that sin separates
