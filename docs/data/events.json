@@ -13,23 +13,49 @@
       "synoptics"
     ],
     "category": "jesus",
-    "zadok_year": 4036,
+    "zadok_year": 4035,
     "gregorian_year": 32,
     "url": "/bible_studies/jesus/woman-issue-of-blood-faith-and-access/"
   },
   {
+    "slug": "jesus/woman-with-the-issue-of-blood",
+    "title": "The Woman Who Touched the Fringe: Uncleanness Running Backwards",
+    "description": "Twelve years unclean, she touched Jesus in a crowd and the flow of defilement reversed — plus what Matthew and Luke saw that Mark did not: she grabbed the tassel God commanded Israel to wear",
+    "tags": [
+      "gospels",
+      "mark",
+      "matthew",
+      "luke",
+      "faith",
+      "healing",
+      "uncleanness",
+      "messianic-prophecy",
+      "method/word-study",
+      "lang/greek",
+      "lang/hebrew",
+      "synoptics"
+    ],
+    "category": "jesus",
+    "zadok_year": 4035,
+    "gregorian_year": 32,
+    "url": "/bible_studies/jesus/woman-with-the-issue-of-blood/"
+  },
+  {
     "slug": "feasts/last-supper-four-cups",
     "title": "\"I Will Not Drink Again\": The Last Supper and the Cups of Passover",
-    "description": "What the Passover Seder's cup structure reveals about Jesus's vow at the Last Supper not to drink of the fruit of the vine again until the kingdom comes",
+    "description": "What the Passover Seder's four cups reveal about Jesus's vow at the Last Supper, and why the fourth cup — 'I will take you to be my people' — is the one still waiting to be drunk",
     "tags": [
       "passover",
       "last-supper",
       "communion",
       "method/word-study",
-      "gospels"
+      "lang/greek",
+      "matthew",
+      "mark",
+      "luke"
     ],
     "category": "feasts",
-    "zadok_year": 4037,
+    "zadok_year": 4036,
     "gregorian_year": 33,
     "url": "/bible_studies/feasts/last-supper-four-cups/"
   }

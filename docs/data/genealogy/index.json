@@ -22,34 +22,50 @@
       "name": "Masoretic Text",
       "description": "The default/primary timeline -- also the one docs/data/events.json and this site's zadok_year dating already assume.",
       "confidence_label": "default",
-      "based_on": ["mt"],
+      "based_on": [
+        "mt"
+      ],
       "overrides": []
     },
     "lxx": {
       "name": "Septuagint (Brenton)",
-      "description": "Includes the extra Cainan generation between Arphaxad and Shelah (Genesis 11:12-13 LXX), matching Luke 3:36.",
+      "description": "Includes the extra Cainan generation between Arphaxad and Shelah (Genesis 11:12-13 LXX). Luke 3:36 has the same name, but it is absent from P75 and Codex Bezae and from every witness before the 4th century, and LXX gives Cainan the same two numbers it gives Shelah — see the Cainan question in genealogy-times.md. Retained here as the LXX-as-printed variant, not as an endorsement of the reading.",
       "confidence_label": "alternate",
-      "based_on": ["lxx"],
+      "based_on": [
+        "lxx"
+      ],
       "overrides": []
     },
     "sp": {
       "name": "Samaritan Pentateuch",
       "description": "Notably shortens Methuselah (720 vs 969), Jared (847 vs 962), and Terah (145 vs 205) relative to MT/LXX.",
       "confidence_label": "alternate",
-      "based_on": ["sp"],
+      "based_on": [
+        "sp"
+      ],
       "overrides": []
     },
     "harmonized_v1": {
       "name": "Proposed synthesis (working)",
       "description": "MT as the base, with two targeted SP substitutions where SP resolves an internal problem MT/LXX leave open.",
       "confidence_label": "most probable (working -- not yet argued in the study)",
-      "based_on": ["mt"],
+      "based_on": [
+        "mt"
+      ],
       "overrides": [
-        {"person_id": "methuselah", "adopts_tradition": "sp",
-         "reason": "Avoids Methuselah surviving the Flood by 14+ years, a long-noted problem with MT/LXX's own 969-year total."},
-        {"person_id": "terah", "adopts_tradition": "sp",
-         "reason": "SP's 145-year total lines up exactly with Terah dying the same year Abram (specifically) departs Haran at 75 (Genesis 12:4, Acts 7:4), without needing the '130 at Abram's birth' reinterpretation MT/LXX require."}
-      ]
+        {
+          "person_id": "methuselah",
+          "adopts_tradition": "sp",
+          "reason": "Avoids Methuselah surviving the Flood by 14+ years, a long-noted problem with MT/LXX's own 969-year total."
+        },
+        {
+          "person_id": "terah",
+          "adopts_tradition": "sp",
+          "reason": "SP's 145-year total lines up exactly with Terah dying the same year Abram (specifically) departs Haran at 75 (Genesis 12:4, Acts 7:4), without needing the '130 at Abram's birth' reinterpretation MT/LXX require."
+        }
+      ],
+      "terah_to_abram": 70,
+      "terah_to_abram_reason": "SP's 145-year total plus Genesis 11:26's plain 70 puts Terah's death in Abram's 75th year, satisfying Acts 7:4 and Genesis 12:4 with no reinterpretation of 11:26."
     }
   },
   "lineages": {
@@ -134,6 +150,115 @@
     "kinsman_redeemer_type": {
       "description": "Boaz as a type of Christ, redeeming Ruth as Christ redeems the church",
       "reference": "Ruth 3-4; Hebrews 7:25"
+    }
+  },
+  "chronology_scenarios": {
+    "_comment": [
+      "TWO ORTHOGONAL AXES. timeline_variants above are MANUSCRIPT traditions (MT / LXX / SP /",
+      "harmonized). The scenarios here are ANCHORING decisions -- where the derived chain is pinned",
+      "to a Gregorian year, and which reading of Nahor's age is taken. A creation date is the product",
+      "of one variant and one scenario, never of a variant alone.",
+      "",
+      "'active' drives the generated files. The others are computed and printed by",
+      "genealogy_chronology.py for comparison but do not affect output. Switching the active scenario",
+      "changes every published zadok_year, so it is a deliberate act, not a tuning knob.",
+      "",
+      "Full reasoning, options and flexibility for each parameter: the decision register in",
+      "references/study-state/genealogy-calendar-review.yml."
+    ],
+    "active": "ussher_published",
+    "shared": {
+      "terah_to_abram": 130,
+      "terah_to_abram_basis": "Acts 7:4 with Genesis 11:32 and Genesis 12:4 -- Abram left Haran after Terah died, so Terah's 205 years less Abram's 75 puts Abram's birth at Terah 130. Genesis 11:26's 70 names the first son born, not Abram. A variant may override this; harmonized_v1 does.",
+      "abram_birth_to_exodus": 505,
+      "abram_birth_to_exodus_basis": "Abram 75 at the call (Genesis 12:4) plus 430 years to the Exodus (Galatians 3:17; Exodus 12:40 in LXX and the Samaritan Pentateuch, 'in Egypt and in Canaan').",
+      "shem_birth_basis": "gen_11_10",
+      "shem_birth_basis_options": {
+        "gen_11_10": "Genesis 11:10 -- Shem was 100 when he fathered Arpachshad, 'two years after the flood'. Shem's birth is therefore (flood + 2 - 100). This is the more specific datum and is what Ussher used.",
+        "gen_5_32": "Genesis 5:32 -- 'After Noah was 500 years old, Noah fathered Shem, Ham, and Japheth.' A summary about three sons rather than a precise age for Shem; chaining from it makes Noah 500 at Shem's birth."
+      },
+      "shem_birth_basis_note": "The two readings differ by 2 years (Noah was 502 at Shem's birth if both are read plainly), and that slack propagates to every date below Shem. Before 2026-08-22 the generator chained from Genesis 5:32 while the hardcoded -4004 offset assumed the Genesis 11:10 chain, so the two disagreed silently. Made explicit here."
+    },
+    "scenarios": {
+      "ussher_published": {
+        "name": "Ussher, as currently published",
+        "status": "ACTIVE",
+        "anchor_exodus_bc": 1491,
+        "nahor_age_at_terah_birth": 29,
+        "nahor_source": "Masoretic Text",
+        "derived_creation_bc_mt": 4004,
+        "am_of_ad_2026": 6029,
+        "year_6000_falls": "AD 1997",
+        "for": [
+          "Reproduces every zadok_year already published, docs/data/events.json and the prophetic timeline. Zero republishing.",
+          "Zadok 4000 lands at 4 BC, inside the 6-4 BC Nativity bracket, so the 'four thousand years to Christ' correspondence holds."
+        ],
+        "against": [
+          "1491 BC is Ussher's Exodus, reached before the Assyrian synchronism was available. The site itself uses 1446 BC in prophecy-events-times.md and ancient-texts-manuscripts.md, so the repo is internally inconsistent on this number.",
+          "Keeps Nahor at 29, which is the Masoretic reading standing alone against three witnesses.",
+          "Year 6000 has already passed, which falsifies the six-days-of-history framework in day-is-a-thousand-years.md and day-is-near.md."
+        ]
+      },
+      "a_prime": {
+        "name": "A' -- Masoretic chain on the standard Exodus",
+        "status": "tracked alternate",
+        "anchor_exodus_bc": 1446,
+        "nahor_age_at_terah_birth": 29,
+        "nahor_source": "Masoretic Text",
+        "derived_creation_bc_mt": 3959,
+        "am_of_ad_2026": 5984,
+        "year_6000_falls": "AD 2042",
+        "for": [
+          "1446 BC follows from 1 Kings 6:1's 480 years counted back from Solomon's 4th year, itself fixed by the Assyrian synchronism resting on the astronomically dated eclipse of 763 BC. No adjustment made to reach a target.",
+          "Reproduces Ussher's own arithmetic exactly -- his Exodus sits at AM 2513 and so does this one; he published 4004 BC only because he anchored at 1491.",
+          "Year 6000 remains future (AD 2042), so the six-days framework survives.",
+          "Narrows the standing day-is-near.md discrepancy from 79 years to 34."
+        ],
+        "against": [
+          "Keeps Nahor at 29 against SP, Codex Alexandrinus and Theophilus.",
+          "Moves every published zadok_year by 45 years.",
+          "Zadok 4000 falls at AD 42, outside the Nativity bracket, losing that correspondence."
+        ]
+      },
+      "a_double_prime": {
+        "name": "A'' -- better-attested Nahor on the standard Exodus",
+        "status": "tracked alternate",
+        "anchor_exodus_bc": 1446,
+        "nahor_age_at_terah_birth": 79,
+        "nahor_source": "Samaritan Pentateuch and LXX Codex Alexandrinus (Theophilus of Antioch gives 75). Masoretic 29 stands alone; Brenton/Vaticanus 179 looks like the familiar +100.",
+        "derived_creation_bc_mt": 4009,
+        "am_of_ad_2026": 6034,
+        "year_6000_falls": "AD 1992",
+        "for": [
+          "Takes the better-attested reading at the one place where the Masoretic Text is the lone witness -- the same principle harmonized_v1 already applies elsewhere.",
+          "Uses the standard 1446 BC Exodus with no adjustment.",
+          "Lands within 5 years of the published 4004 BC epoch, so the correction to existing zadok_years is small."
+        ],
+        "against": [
+          "Year 6000 has already passed (AD 1992), so the six-days framework does not survive.",
+          "Zadok 4000 falls at 9 BC, outside the Nativity bracket.",
+          "Still requires every published zadok_year to be recomputed."
+        ]
+      },
+      "a_double_prime_exact": {
+        "name": "A''-exact -- A'' nudged to land on 4004 BC",
+        "status": "tracked, NOT RECOMMENDED",
+        "anchor_exodus_bc": 1441,
+        "nahor_age_at_terah_birth": 79,
+        "nahor_source": "as a_double_prime",
+        "derived_creation_bc_mt": 4004,
+        "am_of_ad_2026": 6029,
+        "year_6000_falls": "AD 1997",
+        "for": [
+          "Reaches the published epoch exactly while also taking the better Nahor reading.",
+          "Preserves the Zadok 4000 = 4 BC Nativity correspondence."
+        ],
+        "against": [
+          "Requires Solomon's 4th year at 961 rather than 966 BC. That is inside the spread of Israelite regnal chronology, but it is a 5-year adjustment made to hit a number chosen in advance -- the same error as reasoning backward from Ussher's total.",
+          "Its two attractive correspondences are artifacts of that adjustment, so they cannot be cited as evidence for it.",
+          "Recorded so the option is visible and its cost is on the record, not as a recommendation."
+        ]
+      }
     }
   }
 }

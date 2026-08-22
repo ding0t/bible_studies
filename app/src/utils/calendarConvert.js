@@ -1,36 +1,53 @@
 /**
  * Calendar conversion utilities
- * 
- * Zadok calendar: Year 0 = Adam's creation (4004 BC in Gregorian calendar)
- * Based on traditional biblical chronology (Ussher's calculation)
+ *
+ * Zadok year = ELAPSED YEARS SINCE CREATION. Adam's creation is Zadok year 0, and the
+ * creation year itself is 4004 BC on this site's working epoch (see
+ * docs/content/feasts/zadok-calendar.md, "Where year 0 sits", for the epoch and the two
+ * live alternatives).
+ *
+ * Gregorian years are signed with NO YEAR ZERO, matching how historians write BC/AD:
+ *   negative => that many BC   (-4004 is 4004 BC)
+ *   positive => that many AD   (1 is AD 1)
+ *   zero     => invalid, and rejected
+ *
+ * The absence of a year zero is why this is not a plain subtraction. Before 2026-08-22 it
+ * was, which put every AD conversion one year out: Zadok 4004 rendered as year 0 rather
+ * than AD 1, and AD 2026 rendered as Zadok 6030 rather than 6029. The genealogy data
+ * (docs/data/genealogy/generated/, Adam at zadok_year_born 0) and
+ * docs/content/last-things/chronology-anchors.md both already used the corrected
+ * convention, so this brings the converter into line with them rather than the reverse.
  */
 
-// Offset between Zadok Year 0 and Gregorian Year 1 AD
-// Adam created in 4004 BC = Year -4003 in astronomical numbering = Zadok Year 0
+// Zadok year of AD 1. Creation (Zadok 0) is 4004 BC, and from the start of 4004 BC to the
+// start of AD 1 is 4004 elapsed years -- 4003 BC years plus the crossing into AD.
 export const ZADOK_TO_GREGORIAN_OFFSET = 4004;
 
 /**
- * Convert Zadok year to Gregorian year
- * @param {number} zadokYear - Year in Zadok calendar
- * @returns {number} Year in Gregorian calendar
+ * Convert Zadok year to Gregorian year.
+ * @param {number} zadokYear - Years elapsed since creation
+ * @returns {number|null} Gregorian year, negative for BC, with no year zero
  */
 export function zadokToGregorian(zadokYear) {
   if (typeof zadokYear !== 'number' || isNaN(zadokYear)) {
     return null;
   }
-  return zadokYear - ZADOK_TO_GREGORIAN_OFFSET;
+  const raw = zadokYear - ZADOK_TO_GREGORIAN_OFFSET;
+  return raw < 0 ? raw : raw + 1;
 }
 
 /**
- * Convert Gregorian year to Zadok year
- * @param {number} gregorianYear - Year in Gregorian calendar
- * @returns {number} Year in Zadok calendar
+ * Convert Gregorian year to Zadok year.
+ * @param {number} gregorianYear - Negative for BC, positive for AD; zero is invalid
+ * @returns {number|null} Years elapsed since creation
  */
 export function gregorianToZadok(gregorianYear) {
-  if (typeof gregorianYear !== 'number' || isNaN(gregorianYear)) {
+  if (typeof gregorianYear !== 'number' || isNaN(gregorianYear) || gregorianYear === 0) {
     return null;
   }
-  return gregorianYear + ZADOK_TO_GREGORIAN_OFFSET;
+  return gregorianYear < 0
+    ? gregorianYear + ZADOK_TO_GREGORIAN_OFFSET
+    : gregorianYear - 1 + ZADOK_TO_GREGORIAN_OFFSET;
 }
 
 /**
@@ -90,16 +107,19 @@ export function yearDifference(year1, year2) {
   return Math.abs(year2 - year1);
 }
 
-// Example conversions for documentation:
+// Example conversions:
 /*
-  zadokToGregorian(4004) = 0     // Adam's birth year in Gregorian terms
-  zadokToGregorian(5984) = 1980  // Year 1980 AD
-  zadokToGregorian(6024) = 2020  // Year 2020 AD
-  
-  gregorianToZadok(1) = 4005     // 1 AD in Zadok calendar
-  gregorianToZadok(1948) = 5952  // 1948 AD (Israel founded)
-  gregorianToZadok(2024) = 6028  // 2024 AD (current year)
+  zadokToGregorian(0)    = -4004  // creation, 4004 BC
+  zadokToGregorian(1656) = -2348  // the Flood, 2348 BC
+  zadokToGregorian(4003) = -1     // 1 BC
+  zadokToGregorian(4004) = 1      // AD 1 -- there is no year zero to pass through
+  zadokToGregorian(4036) = 33     // AD 33, the crucifixion
+  zadokToGregorian(6029) = 2026   // AD 2026
 
-  getYearInBothCalendars(2024) = { gregorian_year: 2024, zadok_year: 6028 }
-  getYearInBothCalendars(5984, 'zadok') = { zadok_year: 5984, gregorian_year: 1980 }
+  gregorianToZadok(-4004) = 0
+  gregorianToZadok(-1)    = 4003
+  gregorianToZadok(1)     = 4004
+  gregorianToZadok(1948)  = 5951  // Israel founded
+  gregorianToZadok(2026)  = 6029
+  gregorianToZadok(0)     = null  // no year zero exists
 */

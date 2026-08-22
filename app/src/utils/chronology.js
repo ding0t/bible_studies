@@ -46,16 +46,27 @@ export function getEpoch(epochId) {
   return chronology.epochs.find((e) => e.id === epochId) ?? null;
 }
 
+/**
+ * AM to Gregorian, skipping the non-existent year zero.
+ *
+ * Gregorian years are signed with no year zero: negative is BC, positive is AD. So an AM
+ * year that lands at or past the era boundary gains one. Same correction as
+ * calendarConvert.js -- both were plain additions until 2026-08-22, which put every AD
+ * result a year early.
+ */
 export function amToGregorian(amYear, epochId) {
   const epoch = getEpoch(epochId);
   if (!epoch || typeof amYear !== 'number' || isNaN(amYear)) return null;
-  return amYear + epoch.am0_gregorian;
+  const raw = amYear + epoch.am0_gregorian;
+  return raw < 0 ? raw : raw + 1;
 }
 
 export function gregorianToAm(gregorianYear, epochId) {
   const epoch = getEpoch(epochId);
   if (!epoch || typeof gregorianYear !== 'number' || isNaN(gregorianYear)) return null;
-  return gregorianYear - epoch.am0_gregorian;
+  if (gregorianYear === 0) return null; // no year zero exists
+  const adjusted = gregorianYear < 0 ? gregorianYear : gregorianYear - 1;
+  return adjusted - epoch.am0_gregorian;
 }
 
 /**

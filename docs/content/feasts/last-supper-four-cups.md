@@ -6,7 +6,7 @@ tags: ["passover", "last-supper", "communion", "method/word-study", "lang/greek"
 draft: false
 primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
 bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "1 Corinthians 10:16", "1 Corinthians 5:7", "Exodus 6:6-7", "Exodus 12:13", "Exodus 12:14", "Exodus 24:8", "Colossians 2:16-17", "Leviticus 17:10-12", "Psalm 116:13", "Hosea 2:19-23", "Jeremiah 31:31-34", "John 6:53-58", "John 14:1-3", "Romans 6:18", "Romans 8:23", "Romans 8:30", "Ephesians 1:7", "Colossians 1:13", "Colossians 3:4", "Hebrews 9:15", "1 Peter 1:18-19", "Isaiah 25:6-8", "Matthew 8:11", "Matthew 22:1-14", "Matthew 25:1-13", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3"]
-zadok_year: 4037
+zadok_year: 4036
 gregorian_year: 33
 ---
 

@@ -8,27 +8,70 @@
     ]
   },
   "millennial_days": [
-    { "day": 1, "am_start": 0, "am_end": 1000, "section": "Day 1-2", "is_millennial_reign": false },
-    { "day": 2, "am_start": 1000, "am_end": 2000, "section": "Day 1-2", "is_millennial_reign": false },
-    { "day": 3, "am_start": 2000, "am_end": 3000, "section": "Day 3-4", "is_millennial_reign": false },
-    { "day": 4, "am_start": 3000, "am_end": 4000, "section": "Day 3-4", "is_millennial_reign": false },
-    { "day": 5, "am_start": 4000, "am_end": 5000, "section": "Day 5-6", "is_millennial_reign": false },
-    { "day": 6, "am_start": 5000, "am_end": 6000, "section": "Day 5-6", "is_millennial_reign": false },
-    { "day": 7, "am_start": 6000, "am_end": 7000, "section": "Day 7", "is_millennial_reign": true, "label": "The millennial reign (Rev 20:2-7)" }
+    {
+      "day": 1,
+      "am_start": 0,
+      "am_end": 1000,
+      "section": "Day 1-2",
+      "is_millennial_reign": false
+    },
+    {
+      "day": 2,
+      "am_start": 1000,
+      "am_end": 2000,
+      "section": "Day 1-2",
+      "is_millennial_reign": false
+    },
+    {
+      "day": 3,
+      "am_start": 2000,
+      "am_end": 3000,
+      "section": "Day 3-4",
+      "is_millennial_reign": false
+    },
+    {
+      "day": 4,
+      "am_start": 3000,
+      "am_end": 4000,
+      "section": "Day 3-4",
+      "is_millennial_reign": false
+    },
+    {
+      "day": 5,
+      "am_start": 4000,
+      "am_end": 5000,
+      "section": "Day 5-6",
+      "is_millennial_reign": false
+    },
+    {
+      "day": 6,
+      "am_start": 5000,
+      "am_end": 6000,
+      "section": "Day 5-6",
+      "is_millennial_reign": false
+    },
+    {
+      "day": 7,
+      "am_start": 6000,
+      "am_end": 7000,
+      "section": "Day 7",
+      "is_millennial_reign": true,
+      "label": "The millennial reign (Rev 20:2-7)"
+    }
   ],
   "epochs": [
     {
       "id": "genealogy",
       "name": "Genealogical epoch (Ussher/MT convention)",
       "am0_gregorian": -4004,
-      "note": "Zadok year 0 = 4004 BC. Shared by all four genealogy chronology variants in docs/data/genealogy/index.json's timeline_variants -- they differ in AM-distance to the Flood and to Terah, not in this creation-year anchor itself.",
+      "note": "Zadok year 0 = 4004 BC, counted as elapsed years since creation, so AM 4004 is AD 1 (there is no year zero). This is the epoch every published zadok_year uses. Since 2026-08-22 the four genealogy variants in docs/data/genealogy/index.json each derive their OWN creation year from a shared Exodus anchor -- see each generated file's creation_bc -- so this value is the Masoretic variant's epoch, not a shared one.",
       "study_ref": "studies/prophecy/genealogy-times"
     },
     {
       "id": "millennial_2075",
       "name": "Millennial-week epoch (day-is-near.md)",
-      "am0_gregorian": -3925,
-      "note": "Backed out from day-is-near.md's claim that AM 6000 = 2075 AD. Implies creation at roughly 3925 BC, about 79 years later than the genealogical epoch above -- an unreconciled discrepancy this site's own studies flag rather than paper over (see day-is-near.md and prophecy-events-times.md's 'Pivoting backward from the anchors').",
+      "am0_gregorian": -3926,
+      "note": "Backed out from day-is-near.md's claim that AM 6000 = AD 2075, which is also dsscalendar.org's figure. dsscalendar.org counts the creation year as AM 1 rather than AM 0, so AM 0 here is 3926 BC and the creation year is 3925 BC. Was -3925 until 2026-08-22, when the year-zero gap was added to amToGregorian; without the shift the corrected arithmetic would have rendered AM 6000 as AD 2076 and broken the claim this epoch exists to encode. About 79 years later than the genealogical epoch above -- an unreconciled discrepancy this site's studies flag rather than paper over.",
       "study_ref": "studies/prophecy/day-is-near"
     }
   ],

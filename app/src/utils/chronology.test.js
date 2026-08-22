@@ -26,7 +26,10 @@ console.log('\n📅 Chronology Tests\n');
 
 console.log('1. AM <-> Gregorian per epoch:');
 assert(amToGregorian(0, 'genealogy') === -4004, 'genealogy epoch: AM 0 = 4004 BC');
-assert(amToGregorian(6000, 'genealogy') === 1996, 'genealogy epoch: AM 6000 = 1996 AD');
+assert(amToGregorian(6000, 'genealogy') === 1997, 'genealogy epoch: AM 6000 = AD 1997');
+assert(amToGregorian(4004, 'genealogy') === 1, 'genealogy epoch: AM 4004 = AD 1, not year 0');
+assert(amToGregorian(4003, 'genealogy') === -1, 'genealogy epoch: AM 4003 = 1 BC');
+assert(gregorianToAm(0, 'genealogy') === null, 'year zero does not exist');
 assert(amToGregorian(6000, 'millennial_2075') === 2075, 'millennial_2075 epoch: AM 6000 = 2075 AD');
 assert(gregorianToAm(2075, 'millennial_2075') === 6000, 'millennial_2075 epoch round-trips AM 6000');
 assert(amToGregorian(0, 'not_a_real_epoch') === null, 'unknown epoch returns null');
