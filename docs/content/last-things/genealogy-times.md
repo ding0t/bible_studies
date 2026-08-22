@@ -10,18 +10,24 @@ bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesi
 
 # Genealogy and Times: From Creation to Christ
 
-Jesus's genealogy is recorded twice (Matthew 1, Luke 3), and Luke's runs all the way back to
-Adam. That claim is only as strong as the data behind it, so this study does the work directly:
-it reads Genesis 5 and 11:10-26 — the only two places in the Old Testament that give a
-father's age at his heir's birth, not just a name — in all three surviving textual witnesses
-(the Masoretic Text, the Septuagint, and the Samaritan Pentateuch), pulled straight from this
-site's own primary-source database rather than from secondary comparison tables. The raw data
-and the reasoning documented here feed
+**The three surviving manuscript traditions put creation as much as 1,466 years apart, and the
+gap is patterned rather than random — a hundred years per patriarch, repeated down the list, which
+somebody introduced deliberately.** Which somebody, and in which direction, is the question this page works
+through.
+
+Jesus's genealogy is recorded twice (Matthew 1, Luke 3), and Luke's runs all the way back to Adam.
+That claim is only as strong as the data behind it, so the work here is done directly from source:
+Genesis 5 and 11:10-26, the only two places in the Old Testament that give a father's age at his
+heir's birth rather than just a name, read in all three witnesses. Those are the Masoretic Text,
+the Hebrew that underlies most English Bibles; the Septuagint, the Greek translation made by
+Jewish scholars around the third century BC and the version the New Testament writers most often
+quote; and the Samaritan Pentateuch, preserved independently of both. All three are pulled
+straight from this site's own primary-source database. The raw data and the reasoning here feed
 [docs/data/genealogy](https://github.com/ding0t/bible_studies/tree/main/docs/data/genealogy)'s
 structured files; this page is where the *why* behind those numbers lives.
 
-Two things are true at once, and this study tries to hold both without collapsing either into
-the other: the genealogy is a real chronological record, precise enough to argue over and
+Two things are true at once, and neither collapses into the other. The genealogy is a real
+chronological record, precise enough to argue over and
 capable of being wrong in transmission — and it is also a theologically shaped document,
 tracking a single promised line (Genesis 3:15's "seed of the woman") through named individuals
 whose names themselves carry meaning. Getting the math right and hearing what the names say are
@@ -114,13 +120,44 @@ everything downstream.
 [Luke 3:36 (ESV)](https://www.blueletterbible.org/esv/Luk/3/36) names a Cainan between Arphaxad
 and Shelah. MT and SP don't have him; LXX does, with his own full entry (130 years to Shelah's
 birth, 330 more after, 460 total — [Genesis 11:13 LXX](https://www.blueletterbible.org/esv/Gen/11/13)).
-Luke is following LXX here, not MT. That's not a contradiction to explain away — it's evidence
-Luke's genealogy is textually dependent on the Greek tradition at this specific point, which
-matters for anyone using Luke's list to reconstruct an exact year count: if Cainan is a real
-generation MT and SP dropped, any MT-based total from Adam to Christ is short by roughly this
-generation's span; if he's a later Greek-tradition addition, LXX's own total (already the
-longest of the three by a wide margin) inherits an extra generation MT/SP never had. Neither
-option is resolved by more counting — it's a text-critical question, not a math one.
+This looks at first like Luke following the Greek tradition against the Hebrew, and this study
+previously read it that way. The manuscript evidence points the other direction.
+
+**Luke's own text is contested.** The two earliest witnesses to this verse omit Cainan:
+𝔓⁷⁵, the oldest extant manuscript of Luke, from the early third century, and the fifth-century
+Codex Bezae. Every witness that has him is fourth-century or later, beginning with Codex
+Vaticanus. Andrew Steinmann's survey (*JETS* 60/4, 2017) lists the sources with no knowledge of
+Cainan in chronological order: the Samaritan Pentateuch (c. 100 BC), Josephus, Targum Onkelos,
+Theophilus of Antioch, Julius Africanus, *Seder 'Olam Rabbah*, 𝔓⁷⁵, Targum Neofiti, Targum
+Pseudo-Jonathan, and Codex Bezae.
+
+**The Samaritan silence is the loudest.** SP sides with LXX against MT in all six disputed
+fathering ages in Genesis 11, so its whole tendency in this passage is toward the Greek numbers,
+and it still has no Cainan.
+
+**The Septuagint contradicts itself.** [1 Chronicles 1:24](https://www.blueletterbible.org/esv/1Ch/1/24)
+runs Arphaxad straight to Shelah with no Cainan, in the Masoretic Text *and* in Brenton's
+Septuagint. A generation present in one Greek book and absent from the Greek parallel is a
+generation with a transmission problem.
+
+**The numbers give it away.** LXX Genesis 11:12-13 gives Cainan 130 years before Shelah's birth
+and 330 after. Those are exactly the figures LXX gives Shelah before and after fathering Eber
+in the next two verses. Nowhere else in Genesis 5 or 11 — in MT, LXX, SP or any other ancient
+source — does a father share both numbers with his son. The entry reads as a duplicated block
+with the name swapped.
+
+**And the insertion has an obvious trigger.** Luke 3:37 names the antediluvian Cainan one line
+below. A copyist's eye skipping from *Shelah* to a line ending in *Cainan* inserts the name at
+3:36 without effort. No comparable mechanism explains an accidental deletion from 𝔓⁷⁵ and Bezae.
+
+Against all that: NA28 and UBS still print Cainan at Luke 3:36 unbracketed, Helen Jacobus (*JSP*
+18, 2009) has argued he was original to the Hebrew, and one recent paper questions the
+identification of the 𝔓⁷⁵ fragment itself. The question is contested rather than closed.
+
+The working position here is that Cainan entered Luke by copying error in the third or fourth
+century and was then harmonized into the Greek Genesis. For the arithmetic that means the LXX
+chronology carries 130 years it should not, and the `lxx` variant in
+`docs/data/genealogy/` inherits them.
 
 ### Methuselah: the name, the number, and the Flood
 
@@ -136,7 +173,7 @@ exactly where the textual traditions disagree most sharply. MT and LXX both tota
 life at 969 years (the longest in the record), but via different splits. Run that 969 forward on
 either tradition's own numbers for Lamech and Noah, and Methuselah is still alive more than a
 decade *after* the Flood begins — a long-noted, real problem, not an invented one. If the name
-really does mean "his death shall send [judgment]," a man who outlives the judgment his own name
+means "his death shall send [judgment]," a man who outlives the judgment his own name
 predicted is an awkward result. SP alone avoids it: its total for Methuselah is 720, not 969 —
 short enough that his death lands in the very year of the Flood. If the eschatological reading
 of the name is right, SP is the one tradition where the name and the math actually agree without
@@ -160,11 +197,16 @@ of the three sons, born when Terah was 130 (1876+130=2006; +75=2081 — now it l
 with Terah's actual death year).
 
 SP's total for Terah is 145, not 205. Run the *same plain 70-year reading* Genesis 11:26 states
-outright — no reinterpretation, no assumption about birth order — and 70 + 75 = 145 exactly.
+outright, with no reinterpretation and no assumption about birth order, and 70 + 75 = 145 exactly.
 Terah's death and Abram's departure land on the same year without any harmonizing move at all.
 Both resolutions work internally. MT/LXX's requires reading past the plain sense of one verse to
 save the numbers; SP's numbers already match the plain sense of that same verse. That asymmetry
-is worth sitting with rather than picking whichever number is more familiar.
+deserves sitting with, not resolving by picking whichever number is more familiar.
+
+A translator's note reaches the same place independently. The *NLT Life Application Study Bible*
+carries a textual note at Genesis 11:32 reading "Some ancient versions read 145 years; compare
+11:26 and 12:4" — pointing the reader at exactly the two verses this puzzle turns on, and treating
+the 145-year total as the reading that reconciles them.
 
 ## Word studies: what the names actually say
 
@@ -172,8 +214,7 @@ Popular teaching sometimes strings the Genesis 5 names into a sentence — Seth 
 Enosh (mortal man), Kenan (sorrow), Mahalalel (the Blessed God), Jared (shall come down), Enoch
 (teaching), Methuselah (his death shall bring), Lamech (the despairing), Noah (rest/comfort) —
 read together as something like: *Man is appointed mortal sorrow, but the Blessed God shall come
-down, teaching that his death shall bring the despairing rest.* It's a striking claim, and worth
-checking against the lexicon rather than repeating on the strength of how well it reads.
+down, teaching that his death shall bring the despairing rest.* That reads well. Whether it holds is a question for the lexicon, name by name.
 
 Querying this repo's own TWOT root data (`references/build/twot_lookup.py`) name by name, rather
 than trusting the chain as a whole:
@@ -195,9 +236,8 @@ ambiguity rather than a coin-flip, and two (Kenan, Lamech) have no lexical footi
 reading the popular chain wants from them. That doesn't wreck the pattern — six solid, theologically resonant names in a row
 (appointed, [frail] man, praise of God, shall come down, dedicated, comfort) is still a real
 feature of the text, not manufactured. But claiming a complete nine-word sentence requires
-filling two genuine gaps with unattested glosses, and the temptation to do that — to round
-"suggestive" up to "complete" — is itself worth naming as a temptation, not just quietly
-resisting it.
+filling two genuine gaps with unattested glosses. Rounding "suggestive" up to "complete" is the
+temptation, and it is a real one.
 
 ## Toward a most probable timeline
 
@@ -221,21 +261,45 @@ way Methuselah and Terah's do. Adopting a reading only where it earns its keep, 
 rest alone, is the whole point of naming this a *proposed synthesis* rather than just crowning
 one manuscript the winner.
 
-Computed results (`references/build/genealogy_chronology.py`, zadok year 0 = 4004 BC = Adam's
-creation in every variant):
+**How the Gregorian dates are derived, corrected 2026-08-22.** Zadok year 0 is Adam's creation
+and is absolute, so a variant with a longer chain from Adam to Terah puts creation *earlier* in
+Gregorian terms. It does not push the Flood later. Until this correction the generator applied a
+single fixed offset of 4004 years to every variant, which held creation still and slid everything
+downstream — publishing the Septuagint Flood at 1762 BC, several centuries *after* the Masoretic
+one, when its longer genealogies require the opposite. All four variants are now anchored on one
+downstream point, the Exodus, and each creation date falls out of its own chain length.
 
-| Variant | Flood (zadok / Gregorian) | Terah's death (zadok / Gregorian) |
-| --- | --- | --- |
-| MT | 1656 / 2348 BC | 2081 / 1923 BC |
-| LXX | 2242 / 1762 BC | 3547 / 457 BC |
-| SP | 1307 / 2697 BC | 2322 / 1682 BC |
-| **harmonized_v1** | **1536 / 2468 BC** | **1901 / 2103 BC** |
+Computed results (`references/build/genealogy_chronology.py`, anchored on the Exodus at 1491 BC,
+Terah to Abram per Acts 7:4, Abram's call to the Exodus per Galatians 3:17):
 
-The gap between MT's and LXX's Flood dates alone is 586 years — a reminder that "the biblical
-timeline" is not a single settled number even before archaeology enters the picture. This is
-presented as the working answer, not the final one — the state file behind this study
+| Variant | Creation | Flood (zadok / Gregorian) | Terah's death (zadok / Gregorian) |
+| --- | --- | --- | --- |
+| MT | 4004 BC | 1656 / 2348 BC | 2083 / 1921 BC |
+| LXX | 5470 BC | 2242 / 3228 BC | 3549 / 1921 BC |
+| SP | 4305 BC | 1307 / 2998 BC | 2324 / 1981 BC |
+| **harmonized_v1** | **3824 BC** | **1536 / 2288 BC** | **1903 / 1921 BC** |
+
+The gap between MT's and LXX's Flood dates is now 880 years, and it runs the other way: the
+Septuagint puts the Flood *before* Egypt's First Dynasty rather than a millennium after it.
+"The biblical timeline" is not a single settled number even before archaeology enters the
+picture. Three of the four variants agree on Terah's death because they share the anchor and the
+chain from Terah forward is identical; they diverge only above him, which is the whole point.
+
+Two figures behind these numbers are choices rather than manuscript readings, and both are now
+stated in `docs/data/genealogy/index.json` with their scriptural basis rather than buried in
+code. Shem's birth is taken from Genesis 11:10 ("two years after the flood," Shem then 100)
+rather than from Genesis 5:32's summary that Noah fathered three sons after his 500th year; the
+two differ by 2 years and that slack propagates to every date below Shem. And `harmonized_v1`
+alone reads Terah's 70 in Genesis 11:26 plainly, because the Samaritan 145-year total it adopts
+already puts Terah's death in Abram's 75th year — which is the reason that substitution was made
+in the first place.
+
+This is presented as the working answer, not the final one — the state file behind this study
 (`references/study-state/genealogy-times.yml`) tracks it as `harmonized_v1`, open to revision if
-a better-justified case for a different substitution turns up.
+a better-justified case for a different substitution turns up. The Exodus anchor itself is open:
+1491 BC is Ussher's, and reproduces the 4004 BC epoch this site already publishes, but the site
+uses 1446 BC elsewhere, which would move Masoretic creation to 3959 BC. That decision is tracked
+in `references/study-state/genealogy-calendar-review.yml`.
 
 **One outstanding item, deliberately not smoothed over yet:** [The Day is
 Near](day-is-near.md#when-is-the-year-6000) uses a different creation epoch again (~3925 BC)
@@ -249,7 +313,7 @@ character entirely: instead of a systematic formula, Scripture gives one summary
 ([1 Kings 6:1](https://www.blueletterbible.org/esv/1Ki/6/1): 480 years from the Exodus to
 Solomon's 4th year) and a long list of individual judges' and oppressors' reign-lengths in
 between. Those two kinds of evidence don't agree with each other on a naive reading, and two
-different genealogies — one priestly, one royal — turn out to pull in opposite directions on
+different genealogies, one priestly and one royal, turn out to pull in opposite directions on
 how to resolve it.
 
 ### The problem: the numbers don't add up to 480
@@ -349,8 +413,7 @@ biblical pattern, not a special plea invented to save this one case.
 
 ### Where this leaves the reconstruction
 
-Two genealogical checks, pointing in different directions, is the honest state of the evidence
-— not a failure of the method. The priestly line is compatible with something close to 1 Kings
+Two genealogical checks point in different directions. The priestly line is compatible with something close to 1 Kings
 6:1's 480 years; the royal line, taken at face value, is not, and all but requires accepting that
 Ruth's list omits names. Put together with the judges-overlap evidence above, the most defensible
 reading is: **1 Kings 6:1's 480 years is plausible as a real total**, achieved by real regional
@@ -366,7 +429,7 @@ same way summing the numbers naively does.
 
 None of the above is only an arithmetic exercise. Two genealogies of Jesus survive
 (Matthew 1:1-17, Luke 3:23-38), and they're doing visibly different jobs. Matthew's is
-explicitly structured — "fourteen generations" three times over (Matthew 1:17) — and to hit that
+explicitly structured, "fourteen generations" three times over (Matthew 1:17), and to hit that
 count it compresses the king-list of Judah, skipping three known kings between Joram and
 Uzziah (compare Matthew 1:8 with 1 Chronicles 3:11-12). That's not sloppiness; ancient
 genealogies routinely telescoped names for a structuring purpose without being understood as
@@ -379,7 +442,7 @@ what the first Adam did in disobedience (Romans 5:12-21; 1 Corinthians 15:22, 45
 exists, in Luke's hands, to make a theological claim stick to a real, traceable human line — not
 in spite of it being real, but because it is.
 
-That's the frame this study's chronological work sits inside. The line from Adam to Christ isn't
+That is the frame the chronological work sits inside. The line from Adam to Christ isn't
 being tracked because a date is owed; it's being tracked because Genesis 3:15's promise — that
 the woman's seed would come, and would matter — runs through actual named people whose own names
 turn out, more often than not, to be saying something true about what's coming. Seth,
@@ -398,15 +461,15 @@ of the claim: a single traceable line, named generation by generation, carrying 
 Eden to an empty tomb. The math was always in service of that; it was never the point on its
 own.
 
-## Israel and the Church, and the anchors this study deliberately deferred
+## Israel and the Church, and the anchors deferred until last
 
-This study intentionally did not pull in `prophecy-events-times.md`'s external archaeological
-anchors (Qarqar, Sennacherib, the Babylonian and Persian records) while working out the
-genealogical reasoning above, so that anchor-based dating wouldn't quietly bias which manuscript
-readings looked more "probable." Now that the genealogical case stands on its own, linking the
+The genealogical reasoning above was worked out without `prophecy-events-times.md`'s external
+archaeological anchors (Qarqar, Sennacherib, the Babylonian and Persian records), so that
+anchor-based dating could not bias which manuscript readings looked more probable. Now that the
+genealogical case stands on its own, linking the
 two — checking where `harmonized_v1`'s numbers land relative to Thiele's Qarqar-anchored
-chronology for the divided monarchy, for instance — is the natural next step, tracked as open
-work in this study's state file rather than done here.
+chronology for the divided monarchy, for instance — is the natural next step, and is tracked as open
+work in the state file.
 
 ## References & Recommended Reading
 
@@ -415,6 +478,8 @@ work in this study's state file rather than done here.
   `ebible-grcbrent` (Brenton Septuagint, LXX), `scrollmapper-SP` (Samaritan Pentateuch)
 - TWOT root/Strong's/gloss data (`twot_strongs_map.json`), queried via
   `references/build/twot_lookup.py`, for every word study above
+- ***NLT Life Application Study Bible*** (Tyndale) — the textual note at Genesis 11:32 recording
+  the 145-year reading for Terah and cross-referencing 11:26 and 12:4
 - James C. VanderKam, *Calendars in the Dead Sea Scrolls: Measuring Time* — on the broader
   Second Temple textual environment these traditions come from
 - [The Zadok Calendar](../feasts/zadok-calendar.md), [The Day is Near](day-is-near.md), and

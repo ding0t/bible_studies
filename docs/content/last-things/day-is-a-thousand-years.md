@@ -769,7 +769,8 @@ and every one of those years has passed.
 |---|---|---|
 | Hippolytus (early third century) | Nativity at AM 5500, on a Septuagint chronology | c. AD 500 |
 | Ussher / this site's convention | Creation at 4004 BC | AD 1997 |
-| [The Day Is Near](day-is-near.md#when-is-the-year-6000) | Creation at ~3925 BC | AD 2075 |
+| [The Day Is Near](day-is-near.md#when-is-the-year-6000), following dsscalendar.org | Creation at ~3925 BC | AD 2075 |
+| The Masoretic chain re-anchored on a 1446 BC Exodus | Creation at 3959 BC | AD 2042 |
 | Seder Olam / the Hebrew calendar | Creation at 3761 BC | AD 2240 |
 
 Hippolytus's derivation shows how the method fails. Asked how he knows the Saviour was born in
