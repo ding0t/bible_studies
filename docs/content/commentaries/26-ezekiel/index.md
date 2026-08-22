@@ -16,5 +16,7 @@ draft: false
 - [Chapter 34](chapter-034.md) — 1 study(ies)
 - [Chapter 36](chapter-036.md) — 2 study(ies)
 - [Chapter 37](chapter-037.md) — 1 study(ies)
+- [Chapter 40](chapter-040.md) — 1 study(ies)
 - [Chapter 44](chapter-044.md) — 1 study(ies)
+- [Chapter 47](chapter-047.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

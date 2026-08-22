@@ -204,6 +204,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](36-zephaniah/)
 
+-   __Haggai__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](37-haggai/)
+
 -   __Zechariah__
 
     ---

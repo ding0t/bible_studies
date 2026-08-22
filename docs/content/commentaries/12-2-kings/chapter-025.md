@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 25:8-9
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 25:27-30
 <!-- commentary-index:auto-end -->

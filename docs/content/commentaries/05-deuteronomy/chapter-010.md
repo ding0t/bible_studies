@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Way](../../jesus/the-way.md) — 10:12-13
+- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 10:22
 <!-- commentary-index:auto-end -->

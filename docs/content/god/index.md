@@ -28,5 +28,13 @@ God's nature and character, creation, and the ways he makes himself known.
 
     [:octicons-arrow-right-24: Browse](dreams-and-visions/)
 
+-   __What World Population Declares: Biblical Chronology and the Arithmetic of Growth__
+
+    ---
+
+    God's first command to humanity was to multiply. This study traces that command from Genesis 1:28 through Noah and Israel in Egypt, then runs the Bible's own population figures against exponential growth models — how many people are alive, how many have ever been born, and what 6,000 years of history requires demographically.
+
+    [:octicons-arrow-right-24: Read](world-population-declares-gods-creation-and-biblical-truth.md)
+
 </div>
 <!-- section-index:auto-end -->

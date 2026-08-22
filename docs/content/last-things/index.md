@@ -12,6 +12,22 @@ End-times prophecy, read dispensationally.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __Chronology Anchors: What Can Actually Be Dated, and How Tightly__
+
+    ---
+
+    Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its year in both candidate Zadok epochs. The fixed rail the rest of the biblical timeline hangs from.
+
+    [:octicons-arrow-right-24: Read](chronology-anchors.md)
+
+-   __The Combined Timeline: One Line, Two Zones__
+
+    ---
+
+    Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,646 years at creation and converge on Abraham to the year.
+
+    [:octicons-arrow-right-24: Read](combined-timeline.md)
+
 -   __A Day Is a Thousand Years__
 
     ---

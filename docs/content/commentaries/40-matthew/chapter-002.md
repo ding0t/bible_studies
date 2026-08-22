@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 2:1-6
+- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 2:1
 - [Sin and Sorcery](../../sin/sorcery.md) — 2:1-12
 <!-- commentary-index:auto-end -->

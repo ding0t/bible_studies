@@ -1,0 +1,125 @@
+slug: "chronology-anchors"
+title: "Chronology Anchors: What Can Actually Be Dated, and How Tightly"
+status: published
+target_path: "docs/content/last-things/chronology-anchors.md"
+
+primary_passage: "1 Kings 6:1"
+genre: [topical, ot-narrative, prophets]
+
+parent_review: "references/study-state/genealogy-calendar-review.yml"
+relationship: >
+  This page is the FIXED RAIL half of the chronology work. The elastic pre-Abrahamic half lives in
+  genealogy-times.md. The decision register that governs both — units, epochs, rejected frameworks,
+  and every choice with its options and flexibility — is in the parent review file, not duplicated
+  here. Read that first.
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Arose from the genealogy/calendar review. The insight driving it: all textual-variant
+      disagreement is BEFORE Abraham; from Abraham forward every candidate timeline agrees within a
+      few years because they are all anchored on the Exodus. So the timeline splits into a rigid
+      zone and an elastic zone, and the rigid zone deserves its own page with its own evidence.
+  exegesis:
+    historical_context: {done: true, notes: "Each entry carries its own dating method inline rather than a single shared setting."}
+    literary_context: {done: true, notes: "Daniel 8:20-25 supplies its own angelic interpretation (Media/Persia, Greece, the first king, four kingdoms) — Scripture interpreting itself, which is why the Greek-period entries lean on it."}
+    content_word_studies:
+      done: true
+      terms:
+        - {word: "οἰκοδομήθη", language: greek, transliteration: "oikodomethe", strongs_id: "G3618", gloss: "was built", notes: "John 2:20. AORIST, and the noun is ναός (sanctuary) not ἱερόν (precinct). Decides that the verse is compatible with BOTH candidate crucifixion years, not that it selects one."}
+        - {word: "ναός", language: greek, transliteration: "naos", strongs_id: "G3485", gloss: "sanctuary, temple proper", notes: "Josephus: built in 18 months, done c. 18/17 BC. The ἱερόν precinct ran to the AD 60s."}
+  hermeneutics:
+    cultural_vs_transcultural: {done: true, notes: "Accession-year vs non-accession regnal reckoning explained once at entry 11 (2 Kgs 24:12 vs BM 21946) and reused; it is a scribal convention difference, not an error in either source."}
+    theological_principle: {done: true, notes: "God keeps appointments in datable time. The rail exists to be checkable, not to be impressive."}
+  cross_reference: {done: true, translations_compared: ["ESV"], divergences_noted: "none bearing on dates"}
+  drafting: {done: true, file: "docs/content/last-things/chronology-anchors.md"}
+  review: {done: true, validated: true}
+
+settled_questions:
+  crucifixion_year:
+    verdict: "Friday 3 April AD 33"
+    settled: "2026-08-22"
+    full_reasoning: "parent review file, decision register D-07"
+    summary: >
+      Only two Fridays in Pilate's prefecture carry Nisan 14: 7 Apr AD 30 and 3 Apr AD 33. Both are
+      Nisan 14, so the Synoptic/John question does not discriminate. Decided on Luke 3:1 read with
+      accession reckoning (PRIMARY), with Sejanus, Daniel 9 and Pauline chronology supporting.
+      John 2:20 shown NEUTRAL. The lunar-eclipse argument deliberately NOT used despite favouring
+      the chosen year — contested astronomy (Schaefer vs Humphreys) plus a strained reading of
+      Acts 2:20, which quotes Joel about the future rather than reporting Friday's sky.
+
+open_questions:
+  - "Entry 20's 444 BC decree follows FROM the AD 33 choice rather than supporting it. Stated on the page so the two cannot be mistaken for independent confirmation. If the crucifixion year ever moves, this must move with it."
+  - "Solomon's 4th year carries +/-5 yrs and everything above it inherits that. Small beside the genealogy uncertainties, but it does propagate to creation."
+  - "The Zadok columns show two of the tracked epoch scenarios -- `active` (ussher_published, creation 4004 BC) and `a_prime` (creation 3959 BC) -- because the epoch question is still open. Columns were labelled A'/A'' until publication; renamed to the scenario ids in docs/data/genealogy/index.json so the page and the data agree, since `a_double_prime` is 4009 BC and was NOT what the 4004 column held. Collapse to one column only after the epoch is decided."
+  - "1 Maccabees is NOT in this repo's bible-text.db (the apocrypha-bearing works carry 66 books only). Maccabean entries cite it by reference without local verification — flagged rather than hidden."
+  - "Sabbatical-cycle anchoring carries the Wacholder/Zuckermann one-year dispute. The three attested years used here are internally consistent; the absolute placement is +/-1."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", note: "Luke 3:1 ('probably A.D. 29 plus or minus a year'), John 2:20 (the naos/hieron distinction and the 'built 46 years ago' alternative), John 19:14."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "Luke 3:1 at AD 28-29; John 19:31 on the special Sabbath."}
+  - {type: commentary, title: "NIV/NKJV Cultural Backgrounds Study Bible", note: "Luke 3:1 noting the co-regency reckoning that would permit AD 30 — the strongest counter-case, recorded rather than omitted."}
+  - {type: other, title: "Humphreys & Waddington, 'Dating the Crucifixion', Nature 306 (1983) 743-746", note: "Source of the two-candidate result. Their eclipse argument is cited and DECLINED."}
+  - {type: other, title: "Bradley Schaefer's critique of the eclipse visibility", note: "Why the eclipse argument is not used."}
+  - {type: other, title: "Edwin R. Thiele, The Mysterious Numbers of the Hebrew Kings", note: "Regnal reconstruction behind entries 1-9 and the accession-year convention."}
+  - {type: other, title: "Babylonian Chronicle BM 21946; Nabonidus Chronicle; Assyrian Eponym List (Bur-Sagale); Kurkh Monolith; Black Obelisk; Taylor Prism; Bubastite Portal", note: "The contemporary documents behind every Fixed entry."}
+
+last_updated: "2026-08-22"
+
+published:
+  date: "2026-08-22"
+  draft_flag: "flipped to false"
+  index_generators_run: "commentary_index.py (58 books, 362 chapters) and section_index.py (god/, last-things/, commentaries/ index pages updated)"
+  verification: "npm run validate 0 findings on this file; npm test 21/21; mkdocs build --strict clean; utils/validate_genealogy.py PASSED"
+
+review_2026_08_22:
+  reviewer: "review-bible-study skill, full 8-phase adversarial pass"
+  scope: "combined-timeline.md (newly published, never reviewed) plus the substantial edits made the same day to chronology-anchors.md and genealogy-times.md. All three live (draft: false), which raised the priority of every finding."
+  phase_1_scripture: "No block quotes on combined-timeline. Inline citations (Gen 12:4, Gal 3:17, Acts 7:4, 1 Kgs 6:1, Gen 11:26) all spot-checked against study-notes.db and confirmed to say what is claimed."
+  phase_2_citations: "All 9 internal links resolve, including the #where-year-0-sits anchor on zadok-calendar.md. Bur-Sagale verified at 15 June 763 BC proleptic Julian; identification undisputed since Rawlinson 1867. No Hebrew in these files, so no bold-wrap risk."
+  phase_3_word_studies: "None on combined-timeline, deliberately. The two Greek terms on chronology-anchors (oikodomethe, naos) were derived during drafting and not re-opened."
+  phase_4_synthetic_claims: >
+    THE PHASE THAT MATTERED -- these are chronology pages, so nearly everything is a synthetic claim.
+    TWO CRITICAL ERRORS FOUND AND FIXED, both stated in the study's own voice:
+    (1) "The Septuagint's chain is nearly twice the Samaritan's" -- actual ratio 1.505x. The
+        near-double relation holds against harmonized_v1 (1.900x), not the Samaritan. The sentence
+        named the wrong comparator and sat directly under the bar chart that disproves it.
+        Now: "half as long again as the Samaritan's, and nearly twice harmonized_v1's."
+    (2) "twenty consecutive generations" with age-at-heir-birth data -- actual count 19 (ten Adam
+        to Noah, nine Shem to Terah). Re-derived from source data, not recounted from prose.
+    ONE MODERATE: "twenty-seven of them are datable to within a year" conflated the FIXED TIER
+    count with the ERROR BAR. Of the 27 Fixed, two carry +/-2 and +/-3; and 31 entries overall are
+    within a year once the six Anchored +/-1 entries are included. Appeared as the opening bold
+    claim of chronology-anchors.md and again on combined-timeline.md. Both now say thirty-one, and
+    chronology-anchors gained a sentence stating that tier and precision are different axes.
+    VERIFIED CLEAN: the 1,646-year creation spread; all four variants at Abraham 1996 BC; bar-chart
+    values 1828/2008/2309/3474; three-of-four Terah convergence at 2126 BC; the 45-year shift
+    uniform across all eight rigid-zone rows; 41 rows with tiers 27/10/4; sabbatical intervals 28
+    and 98, both exact multiples of seven; Samaritan chapter split re-derived at 6-0 and 0-6.
+  phase_5_commentary: >
+    NLT Life Application Study Bible checked on Genesis 11:10-32 (not cited by any of the three
+    pages). CONFIRMS: its textual note at Genesis 11:32 reads "Some ancient versions read 145
+    years; compare 11:26 and 12:4" -- pointing at exactly the two verses the Terah puzzle turns on
+    and treating 145 as the reconciling reading. Independent support for harmonized_v1's Terah
+    substitution that the site had not been using. Now cited in genealogy-times.md's Terah section
+    and its references.
+  phase_6_context: >
+    combined-timeline is a synthesis page carrying no evidence of its own, so genre, historical
+    occasion, original-language and cultural-vs-transcultural are all absent by design and the
+    state file records that. Literary context IS covered -- the Genesis 5/11 formula stopping dead
+    at Terah is what gives the timeline a hinge rather than a gradient. Not raised as findings.
+  phase_7_placement: >
+    last-things/ correct, alongside the other two chronology pages. Tags clean. MINOR FIXED: five
+    of eleven bible_references were never cited in the body. Genesis 21:5, 25:26 and 47:9 belong to
+    the 430-in-Egypt chain, which this page does not use, and were removed; Genesis 7:11 and
+    Exodus 12:40-41 are genuinely load-bearing and are now cited in the prose instead.
+  phase_8_style: >
+    Both new pages clean -- 0.13 and 0.21 em-dashes per sentence, zero instances of the
+    negative-definition rhythm, no `worth ___`, no reader-reassurance. MINOR FIXED: "and it is what
+    this page exists to show" cut from the opening (study narrating itself). A dangling em-dash
+    aside introduced by the finding-2 fix was caught and repaired before completion.
+    NOT FIXED, pre-existing and outside this work's edits: genealogy-times.md runs 0.49 em-dashes
+    per sentence and carried 9 `worth ___` instances (now 8 -- one was removed incidentally while
+    adding the NLT note, since it was also a virtue contrast). Flagged for a separate style pass.
+  outcome: "All Critical and Moderate findings fixed and re-verified by fresh computation. npm run validate 10 warnings (unchanged, none on these files); npm test 21/21; mkdocs build --strict clean."

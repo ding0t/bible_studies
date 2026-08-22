@@ -1,0 +1,551 @@
+slug: "genealogy-calendar-review"
+title: "Chronology review: genealogy-times, zadok-calendar, day-is-a-thousand-years"
+status: review
+target_path:
+  - "docs/content/last-things/genealogy-times.md"
+  - "docs/content/feasts/zadok-calendar.md"
+  - "docs/content/last-things/day-is-a-thousand-years.md"
+  - "references/build/genealogy_chronology.py"
+  - "app/src/utils/calendarConvert.js"
+
+opened: "2026-08-22"
+trigger: >
+  Raised out of the world-population study's weakness section. User asked for a Scripture-first
+  review of the genealogy and calendar studies, weighing how NT authors treat dates, tracking two
+  Scripture-based timelines, and recommending which is most logically based. Zadok year is taken as
+  ABSOLUTE years since creation, so each timeline variant must carry its own Gregorian offset.
+
+# ---------------------------------------------------------------- anchors
+anchor_chain:
+  note: >
+    One extra-biblical peg only. Everything else is Scripture's own arithmetic.
+  pegs:
+    - {ref: "1 Kings 6:1", datum: "480 years from the Exodus to Solomon's 4th year"}
+    - {ref: "Solomon yr 4 = 966 BC", datum: "Assyrian synchronism (Ahab at Qarqar 853 BC), itself anchored by the astronomically fixed Bur-Sagale solar eclipse of 763 BC. THE ONLY NON-BIBLICAL ANCHOR IN THE CHAIN."}
+    - {ref: "-> Exodus 1446 BC", datum: "the 'early date'; the site already uses it in prophecy-events-times.md and ancient-texts-manuscripts.md"}
+    - {ref: "Genesis 12:4", datum: "Abram 75 at the call"}
+    - {ref: "Genesis 21:5 / 25:26 / 47:9", datum: "Abraham 100 at Isaac; Isaac 60 at Jacob; Jacob 130 at the descent into Egypt"}
+    - {ref: "Genesis 7:11 / 11:10", datum: "Flood in Noah's 600th year; Arphaxad born 2 years after it"}
+  all_verified: "2026-08-22, against study-notes.db esv-study-bible. Zero mismatches."
+
+# ---------------------------------------------------------------- NT weight
+nt_treatment_of_dates:
+  luke_3_36_cainan:
+    verdict: "PROBABLY NOT AUTHENTIC — corrects an earlier claim made in this session."
+    detail: >
+      I had told the user Luke 3:36's Cainan was the strongest NT datum for the LXX. Andrew
+      Steinmann, "Challenging the Authenticity of Cainan, Son of Arpachshad," JETS 60/4 (2017)
+      697-711, makes a strong contrary case, and the primary evidence checks out.
+      AGAINST Cainan: P75 (early 3rd c., the oldest extant Luke) omits it; Codex Bezae omits it;
+      Josephus, Julius Africanus, Theophilus of Antioch, Seder 'Olam Rabbah, all three Targums and
+      the Samaritan Pentateuch have no knowledge of him. Every source that has him is 4th century
+      or later (Codex Vaticanus onward). Mechanism for insertion is easy — Luke 3:37 has Kainam one
+      line down, so a scribe's eye-skip inserts it at 3:36; there is no comparable trigger for
+      accidental omission.
+      KILLER INTERNAL ARGUMENT: LXX Gen 11:12-13 gives Cainan 130 years before Shelah's birth and
+      330 after — exactly the numbers LXX gives Shelah before and after fathering Eber (11:14-15).
+      No other father/son pair in Genesis 5 or 11 shares BOTH numbers in any tradition. The Cainan
+      entry looks like a mechanical duplication of the Shelah entry with the name swapped.
+      CONFIRMED INDEPENDENTLY FROM REPO DATA: 1 Chr 1:24 has no Cainan in MT (WEB) or in the
+      Brenton LXX. The Septuagint contradicts itself — Cainan in Gen 11, absent in 1 Chr 1.
+      COUNTERWEIGHT, recorded fairly: NA28/UBS still print Cainan unbracketed; Helen Jacobus
+      (JSP 18, 2009) argues he was original to the MT; and a 2020 paper questions the P75 fragment
+      identification. Contested, but the weight is against authenticity.
+    effect: "Removes 130 years from any LXX-based chronology."
+  acts_7_4:
+    datum: "Abraham left Haran AFTER Terah died. With Terah's 205 (Gen 11:32) and Abram's 75 (Gen 12:4), Terah was 130 at Abram's birth, not the 70 of Gen 11:26."
+    note: "Gen 11:26 lists Abram first by covenant priority, not birth order — same convention as Shem/Ham/Japheth, where Gen 10:21 makes Japheth the elder. SP's 145-year Terah total satisfies Acts 7:4 with a plain 70 instead, which is why harmonized_v1 already adopts it."
+  gal_3_17:
+    datum: "The law came 430 years after the promise."
+    note: >
+      MOST NATURAL on the LXX/SP reading of Exod 12:40 (430 years in Egypt AND Canaan, i.e. from
+      Abram's call). On MT's 430-in-Egypt the span from the call to the Exodus is 645 years, and
+      Paul's 430 has to be measured from God's word to Jacob at Beersheba (Gen 46:2-4) instead.
+      That defence works but is less natural. VERIFIED: under the 215-year reading the chain closes
+      exactly — call at Abram 75, Isaac at 100, Jacob at Isaac 60, descent at Jacob 130, 215 years
+      in Egypt = 430 from call to Exodus.
+  acts_7_14:
+    datum: "75 souls to Egypt (LXX Gen 46:27 / Exod 1:5), where MT reads 70. Genuine NT use of an LXX number."
+  jude_14:
+    datum: "'Enoch, the seventh from Adam' — Adam(1) Seth(2) Enosh(3) Kenan(4) Mahalalel(5) Jared(6) Enoch(7)."
+    note: "Holds identically in MT, LXX and SP, so it does not discriminate between them. It DOES witness that Genesis 5 is a closed chain with no telescoping in its first seven links — which is what the arithmetic requires."
+  matthew_1:
+    datum: "Demonstrably selective — omits Ahaziah, Joash and Amaziah between Joram and Uzziah to make 14/14/14."
+    note: "Proves biblical genealogies CAN telescope. Does not reach Genesis 5/11, which give age-at-begetting rather than bare names; a skipped name there would break the arithmetic, not just the list."
+
+# ---------------------------------------------------------------- textual evidence
+manuscript_evidence:
+  MAIN_FINDING: >
+    The Samaritan Pentateuch is the swing witness, and it swings DIFFERENTLY IN EACH CHAPTER.
+    Derived directly from docs/data/genealogy/*.json, counting only places where MT and LXX differ:
+      Genesis 5  — SP sides with MT 6 times, with LXX 0 times.
+      Genesis 11 — SP sides with LXX 6 times, with MT 0 times.
+    SP is an independent HEBREW recension (c. 100 BC) transmitted outside both rabbinic and
+    Christian channels, so this is not Greek-vs-Hebrew. It is evidence that Genesis 5 and Genesis 11
+    have different textual histories and should not be decided as one block.
+  supporting_witnesses_for_long_genesis_11:
+    - "Josephus (late 1st c., Jewish, pre-Christian-recension): agrees with LXX against MT in 4 of 8 Gen 11 fathering ages, and gives numbers 100 higher than MT in 2 more."
+    - "Julius Africanus (late 2nd/early 3rd c.): agrees with LXX against MT in all 4 Gen 11 ages he reports."
+    - "Theophilus of Antioch (c. AD 169-184): agrees with LXX against MT in 6 of 9."
+    - "Samaritan Pentateuch: 6 of 6."
+  nahor_variant:
+    detail: "MT 29 / LXX-Brenton(Vaticanus) 179 / SP 79 / Codex Alexandrinus 79 / Theophilus 75. The 179 is a Vaticanus-only reading that looks like the familiar +100. The repo's LXX data uses Brenton and therefore inherits 179, inflating every LXX-based total by 100 years."
+    action: "Treat 79 as the better-attested long reading."
+
+# ---------------------------------------------------------------- the timelines
+timelines_computed:
+  method: "Zadok year = absolute years since creation. Gregorian epoch DERIVED per variant by anchoring the Exodus at 1446 BC and walking Scripture's chain backward."
+  results:
+    - {id: "A",  desc: "MT throughout, 430-in-Egypt",                         creation_bc: 4174, flood_bc: 2518, abram_bc: 2166, year_6000: "AD 1827", today_zadok: 6199}
+    - {id: "A'", desc: "MT throughout, 430-from-the-promise (= Ussher's own chain)", creation_bc: 3959, flood_bc: 2303, abram_bc: 1951, year_6000: "AD 2042", today_zadok: 5984}
+    - {id: "B",  desc: "LXX throughout + Cainan + Nahor 179 (maximal long)",  creation_bc: 5425, flood_bc: 3183, abram_bc: 1951, year_6000: "AD 576",  today_zadok: 7450}
+    - {id: "B'", desc: "LXX throughout, Cainan removed, Nahor 179",           creation_bc: 5295, flood_bc: 3053, abram_bc: 1951, year_6000: "AD 706",  today_zadok: 7320}
+    - {id: "C",  desc: "MT Gen 5 + long Gen 11, no Cainan, Nahor 79",         creation_bc: 4609, flood_bc: 2953, abram_bc: 1951, year_6000: "AD 1392", today_zadok: 6634}
+    - {id: "C'", desc: "as C but Terah 70 with SP's 145 total",               creation_bc: 4549, flood_bc: 2893, abram_bc: 1951, year_6000: "AD 1452", today_zadok: 6574}
+    - {id: "A''", desc: "A' with Nahor 79 (SP/Alexandrinus), Exodus 1446 BC",  creation_bc: 4009, flood_bc: 2353, abram_bc: 1951, year_6000: "AD 1992", today_zadok: 6034}
+    - {id: "A''*", desc: "A'' with Exodus 1441 BC — REPRODUCES THE SITE'S PUBLISHED EPOCH EXACTLY", creation_bc: 4004, flood_bc: 2348, abram_bc: 1946, year_6000: "AD 1997", today_zadok: 6029}
+  a_double_prime:
+    question: "User asked whether a variant exists that lands on the site's published 4004 BC."
+    answer: >
+      YES. Exhaustive search over Gen5 tradition x Gen11 tradition x Cainan x Nahor variant x Terah
+      x sojourn found exactly one chain reaching 4004 BC on a defensible Exodus date: MT throughout,
+      no Cainan, Terah 130 (Acts 7:4), 430-from-the-promise, and NAHOR AT 79 instead of MT's 29.
+      Chain length creation->Exodus = AM 2563; with Exodus 1441 BC that is creation 4004 BC and
+      Flood 2348 BC — identical to every number the site already publishes, including AM 4000 = 4 BC
+      (the traditional Nativity date day-is-a-thousand-years.md already notes).
+    nahor_attestation:
+      MT: 29
+      Samaritan_Pentateuch: 79
+      LXX_Codex_Alexandrinus: 79
+      Theophilus_of_Antioch: 75
+      LXX_Codex_Vaticanus_Brenton: 179
+      assessment: >
+        79 carries an independent Hebrew recension (SP) plus a major LXX uncial (A), with Theophilus
+        at 75 nearby. MT's 29 stands alone and looks like loss of an initial digit; Vaticanus's 179
+        looks like the familiar +100. On the repo's own harmonized_v1 principle — adopt a reading
+        only where it earns its keep — Nahor 79 earns it. NOTE this also dissolves one of the two
+        "SP sides with neither" cases in the Genesis 11 table: SP and LXX-A agree at 79, and the
+        disagreement was an artifact of the repo's LXX data following Brenton/Vaticanus.
+    honest_caveats:
+      - "Landing EXACTLY on 4004 needs the Exodus at 1441 BC (Solomon's 4th year 961 rather than 966). That is inside the spread of Israelite regnal chronology, but it is a 5-year adjustment made to hit a predetermined number. At the standard 1446 BC the chain gives 4009 BC."
+      - "The convergence with Ussher is arithmetic coincidence, not confirmation. Ussher reached 4004 BC with Nahor 29 and an Exodus of 1491 BC. A'' reaches it with Nahor 79 and an Exodus of 1441. The +50 from Nahor and the -50 from the anchor cancel. Two different routes, same destination — do not present this as independent corroboration."
+      - "DECISIVE COST: creation at 4004/4009 BC puts Zadok 6000 at AD 1997/1992 — already past. The six-days-of-history framework in day-is-a-thousand-years.md and day-is-near.md cannot survive it."
+  six_millennia_constraint:
+    derivation: "Zadok 6000 falls in AD (6000 - creation_BC + 1). For that to still be future from AD 2026, creation must be no earlier than 3975 BC."
+    consequence: >
+      A' (3959 BC) satisfies it with 16 years in hand, giving year 6000 = AD 2042.
+      A'' (4004/4009 BC) fails it. The site's published epoch and its published six-days framework
+      are mutually exclusive; this is the same contradiction day-is-a-thousand-years.md already
+      flags at its "Why nobody has got the date right" table, now quantified.
+  ussher_cross_check:
+    finding: >
+      A' reproduces Ussher exactly. Ussher's Exodus sits at AM 2513 and so does A'. Ussher published
+      creation 4004 BC because he anchored the Exodus at 1491 BC; 4004 - 1491 = 3959 - 1446 = 2513.
+      So the site's 4004 BC IS Ussher's chain, carrying Ussher's 1491 BC Exodus date — which the
+      site has already abandoned elsewhere in favour of 1446 BC.
+      CONSEQUENCE: on the site's own stated Exodus date, its own MT chain gives creation 3959 BC,
+      not 4004 BC, and year 6000 at AD 2042 rather than AD 1997.
+
+# ---------------------------------------------------------------- the trilemma
+central_tension:
+  statement: >
+    Three goals cannot be satisfied at once, and the site currently holds all three implicitly.
+  legs:
+    - goal: "Year 6000 still future (the six-days-of-history framework in day-is-a-thousand-years.md and day-is-near.md)"
+      requires: "A short, MT-type chronology. Only A' (AD 2042) keeps it future at all."
+      cost: "Maximal conflict with Egyptian and Mesopotamian archaeology."
+    - goal: "Archaeological fit (Flood before Egypt's Dynasty 1, c. 3100 BC)"
+      requires: "The maximal long chronology B (Flood 3183 BC)."
+      cost: "Depends on the two WEAKEST-attested readings — Cainan (spurious per Steinmann) and Nahor 179 (Vaticanus only). And it puts year 6000 at AD 576, destroying the framework."
+    - goal: "Follow the manuscript evidence chapter by chapter"
+      requires: "C — MT Genesis 5, long Genesis 11 without Cainan, Nahor 79."
+      cost: "Flood 2953 BC still postdates Dynasty 1 by ~150 years, so it does NOT rescue the archaeology; and year 6000 fell in AD 1392."
+  honest_conclusion: >
+    The reconstruction that best fits the manuscripts does not fix the archaeology, and the one that
+    fixes the archaeology has the weakest textual support. This CORRECTS the impression given
+    earlier in the session that the LXX cleanly dissolves the Egyptian problem — it does so only in
+    its maximal form, which the evidence does not support.
+
+# ---------------------------------------------------------------- defects found
+defects:
+  - id: "GEN-1"
+    severity: "Major"
+    status: "RESOLVED 2026-08-22"
+    resolution: >
+      genealogy_chronology.py no longer stamps a Gregorian year during the walk. It now derives
+      each variant's creation epoch from ONE shared downstream anchor (the Exodus) via
+      creation_epoch_bc(), then applies it in apply_epoch(). All anchor parameters live in
+      index.json's new chronology_anchor block with their scriptural basis, so moving the epoch
+      is a one-number change. LXX Flood corrected from 1762 BC to 3228 BC -- now EARLIER than
+      MT's, as its longer genealogies require. MT output unchanged (creation 4004 BC, Flood
+      2348 BC), so nothing already published moved.
+      TWO SUB-DEFECTS SURFACED AND FIXED WHILE DOING THIS:
+      (a) The walk chained Shem's birth from Genesis 5:32 (Noah 500) while the hardcoded -4004
+          offset assumed the Genesis 11:10 chain (Arpachshad 2 years after the Flood). The two
+          disagree by 2 years and the mismatch was silent. Now an explicit shem_birth_basis
+          setting, defaulting to gen_11_10 with both readings documented.
+      (b) harmonized_v1 was incoherent under a global terah_to_abram of 130: it adopts the
+          Samaritan 145-year Terah precisely so Genesis 11:26's plain 70 satisfies Acts 7:4.
+          Variants may now override terah_to_abram; harmonized_v1 sets 70 with its reason.
+    verified: "utils/validate_genealogy.py PASSED; npm test all green (four timeline variants indexed); mkdocs --strict clean; no new validate warnings."
+    where: "references/build/genealogy_chronology.py lines 92, 94"
+    finding: "gregorian_year is computed as `zadok_year - 4004` for EVERY timeline variant. That pins creation at one Gregorian date and lets the Flood slide later under longer genealogies, inverting their actual effect. Zadok 0 is creation (absolute); its Gregorian equivalent is DERIVED and must differ per variant."
+    effect: "Publishes LXX Flood at 1762 BC — later than MT's 2348 BC — when the LXX's longer chain should place it EARLIER, near 3050-3180 BC. Feeds genealogy-times.md's four-variant table and the world-population study's sensitivity table."
+    fix: "Give each variant its own epoch, derived by anchoring a fixed historical point (Exodus 1446 BC) and walking the chain back."
+  - id: "GEN-2"
+    severity: "Moderate"
+    status: "RESOLVED 2026-08-22"
+    resolution: >
+      Root cause was a missing year zero. Gregorian years run 1 BC -> AD 1 with no year 0, so an
+      elapsed-year count crossing that boundary gains one; both converters subtracted straight
+      through it. Standardised on the convention the genealogy data already used (Zadok/AM year =
+      ELAPSED years since creation, Adam at 0, creation year 4004 BC), because that is the larger
+      body of data (33 people x 4 variants), it is what chronology-anchors.md already used, and it
+      matches the user's own framing that Zadok is absolute since creation.
+      FIXED: app/src/utils/calendarConvert.js (zadokToGregorian/gregorianToZadok now skip the gap;
+      year 0 input rejected) and app/src/utils/chronology.js (amToGregorian/gregorianToAm likewise
+      -- a SECOND converter with the identical defect, found while fixing the first).
+      DATA CORRECTED: three studies carried a zadok_year one too high --
+      feasts/last-supper-four-cups.md 4037 -> 4036, jesus/woman-issue-of-blood-faith-and-access.md
+      and jesus/woman-with-the-issue-of-blood.md 4036 -> 4035. docs/data/events.json regenerated.
+      docs/data/chronology.json's millennial_2075 epoch moved from am0_gregorian -3925 to -3926,
+      because dsscalendar.org counts the creation year as AM 1 rather than AM 0; without that shift
+      the corrected arithmetic would have rendered AM 6000 as AD 2076 and broken the AD 2075 claim
+      that epoch exists to encode. Its genealogy epoch note was also stale after GEN-1 and now says
+      each variant derives its own creation_bc.
+      NOTE: the file's own header had said "Year 0 = Adam's creation (4004 BC)" while its test
+      asserted gregorianToZadok(-4003) === 1, i.e. AM 1 = 4004 BC. The two conventions had been
+      live in one file.
+    verified: "npm test 21/21 green including new boundary assertions (AM 4003 = 1 BC, AM 4004 = AD 1, year zero rejected); mkdocs --strict clean."
+    where: "app/src/utils/calendarConvert.js"
+    finding: "Off-by-one between the file's comments and its arithmetic. The header says 'Adam created in 4004 BC = Year -4003 in astronomical numbering = Zadok Year 0', but zadokToGregorian(0) returns -4004, which is 4005 BC. A worked example also labels zadokToGregorian(4004)=0 as 'Adam's birth year'."
+    effect: "One-year drift in every published zadok_year/gregorian_year pair and on the prophetic timeline."
+  - id: "GEN-3"
+    severity: "Moderate"
+    status: "RESOLVED 2026-08-22 -- zadok-calendar.md gains a 'Where year 0 sits' section stating that Zadok year 0 is Adam's creation and absolute, tabulating the three live epochs (4004 / 3959 / 3925 BC) with what each makes of the present and of year 6000, showing that all three differ ONLY in where they anchor the Exodus (1491 / 1446 / 1412 BC), and naming the unreconciled fact that the page follows dsscalendar.org on structure but Ussher on epoch."
+    where: "docs/content/feasts/zadok-calendar.md"
+    finding: "The page never states or argues where year 0 sits. The 4004 BC epoch exists only as a hardcoded constant in two code files, sourced to Ussher implicitly and never defended from Scripture anywhere on the site."
+  - id: "GEN-4"
+    severity: "Moderate"
+    where: "docs/data/genealogy/*.json (lxx tradition), Nahor"
+    finding: "LXX Nahor 179 follows Brenton/Vaticanus. SP, Codex Alexandrinus and Theophilus all give 79. Inflates LXX totals by 100 years."
+  - id: "GEN-5"
+    severity: "Minor"
+    status: "RESOLVED 2026-08-22 -- index.json's lxx description now records that Luke's Cainan is absent from P75 and Codex Bezae and from every witness before the 4th century, and that LXX gives Cainan the same two numbers it gives Shelah. Retained as the LXX-as-printed variant, explicitly not as an endorsement."
+    where: "docs/data/genealogy/index.json, lxx variant description"
+    finding: "Describes the extra Cainan as 'matching Luke 3:36' without noting that Luke's Cainan is itself contested and absent from P75 and Codex Bezae."
+  - id: "GEN-6"
+    severity: "Resolved-by-analysis"
+    where: "day-is-near.md (~3925 BC) vs the site convention (4004 BC)"
+    finding: "The 79-year gap the repo already flags as unresolved shrinks to 34 years once the MT chain is re-anchored to the site's own 1446 BC Exodus (A', creation 3959 BC, year 6000 = AD 2042)."
+
+scenarios_now_tracked_in_code:
+  where: "docs/data/genealogy/index.json -> chronology_scenarios"
+  added: "2026-08-22"
+  design: >
+    Two orthogonal axes, previously conflated. timeline_variants are MANUSCRIPT traditions
+    (MT / LXX / SP / harmonized_v1). chronology_scenarios are ANCHORING decisions -- the Exodus
+    anchor and the Nahor reading. A creation date is the product of one variant and one scenario,
+    never of a variant alone. 'active' drives the generated files; the other scenarios are computed
+    and printed by genealogy_chronology.py on every run so the alternates stay visible.
+  scoping_bug_caught_while_building_it: >
+    A scenario-level Nahor reading initially applied to EVERY variant, which overwrote the
+    Septuagint's own 179 and the Samaritan's 79 and made both useless as independent witnesses
+    (LXX creation moved 5470 -> 5320 BC). Now restricted to MT-based variants, which is the only
+    chain the scenarios are defined against. Published LXX/SP figures verified unchanged after
+    the fix.
+  each_scenario_carries: "anchor_exodus_bc, nahor_age_at_terah_birth with its source, derived_creation_bc_mt, am_of_ad_2026, year_6000_falls, and explicit 'for' and 'against' lists."
+  active: "ussher_published -- unchanged, so nothing already published moved."
+
+recommendation:
+  primary: >
+    Keep the Masoretic chain as the site default, but re-anchor it. Adopt A': creation 3959 BC,
+    year 6000 = AD 2042. This is Ussher's own arithmetic carried on the Exodus date the site already
+    uses elsewhere, it takes the Gal 3:17-friendly reading of Exodus 12:40, and it very nearly closes
+    the standing day-is-near.md discrepancy.
+  second_timeline_to_track: >
+    C — MT Genesis 5 + long Genesis 11 without Cainan, Nahor 79 — creation 4609 BC. Best-attested
+    long option, following the Samaritan swing witness chapter by chapter rather than adopting a
+    tradition wholesale. Track it as the alternate rather than the default, and state plainly that
+    it moves year 6000 into the past.
+  do_not: >
+    Do not adopt the maximal LXX (B). It buys archaeological fit with the two readings the evidence
+    least supports, and it forfeits the six-days framework entirely.
+
+next_actions:
+  - "Decide the epoch question with the user before touching any published number."
+  - "Fix GEN-1 (per-variant Gregorian offsets) and regenerate docs/data/genealogy/generated/*.json."
+  - "Fix GEN-2 off-by-one; re-check every zadok_year in content frontmatter and docs/data/events.json."
+  - "DONE 2026-08-22: GEN-3 closed."
+  - "DONE 2026-08-22: world-population study's Flood table corrected (LXX 1762 -> 3228 BC; SP 2697 -> 2998; harmonized_v1 2468 -> 2288; spread 935 -> 880 yrs; rates recomputed) and its 'one flag' paragraph rewritten now the generator bug is fixed."
+  - "DONE 2026-08-22: the Cainan question section in genealogy-times.md rewritten. It had said 'Luke is following LXX here, not MT' and weighted the two options evenly; it now lays out the witness list, the Samaritan silence, the 1 Chr 1:24 self-contradiction, the duplicated-numbers argument and the eye-skip mechanism, records the counterweight (NA28 unbracketed, Jacobus, the P75 fragment question), and states the working position that Cainan entered Luke by copying error."
+
+resources_consulted:
+  - {type: other, title: "Andrew E. Steinmann, 'Challenging the Authenticity of Cainan, Son of Arpachshad'", author: "JETS 60/4 (2017) 697-711", note: "Read in full. Primary source for the Cainan verdict, the witness table, the duplicated-numbers argument, and the Josephus/Africanus/Theophilus data on the long Genesis 11."}
+  - {type: other, title: "MACULA Greek (SBLGNT) and NA28 via study-notes.db", note: "Luke 3:35-37 re-queried; Kainam present unbracketed in both."}
+  - {type: other, title: "Brenton Septuagint and WEB via bible-text.db", note: "Gen 11:12-14 LXX (Cainan present with full data); 1 Chr 1:24 LXX and MT (Cainan absent in both) — the internal LXX inconsistency, derived here rather than taken from Steinmann."}
+  - {type: commentary, title: "ESV Study Bible", note: "All anchor verses verified; note on Luke 3:23-38 for the genealogy's purpose."}
+  - {type: other, title: "docs/data/genealogy/*.json", note: "Source of the SP chapter-split finding (Gen 5: SP-with-MT 6-0; Gen 11: SP-with-LXX 6-0)."}
+
+dsscalendar_epoch_2026_08_22:
+  source: "https://dsscalendar.org/o/ and /e/ (Ken Johnson, BibleFacts)"
+  creation_bc: 3925
+  note_plus_minus: "stated as 'give or take one year'"
+  convention: "AM 1 = the creation year (NOT AM 0 as this repo's genealogy data uses)"
+  current_year: "AD 2026 = AM 5951 on their reckoning"
+  year_6000: "AD 2075, Nisan 1; year 6001 (the 'First Kingdom year') begins AD 2076"
+  scheme: "14 Onahs of 500 yrs = 7,000; Enoch wheel also divides it as 10 weeks of 700, 70 centuries of 100, and 140 jubilees of 50"
+  verified_mapping: "Their published week boundaries are internally exact: wk1 1-700 AM = 3925-3226 BC; wk6 3501-4200 AM = 425 BC-AD 275; wk10 6301-7000 AM = AD 2376-3075. All consistent with AM 1 = 3925 BC."
+  SIGNIFICANCE: >
+    This is the epoch day-is-near.md follows, and the source zadok-calendar.md cites for the
+    calendar's structure -- while the site's own zadok_year uses Ussher's 4004 BC. That is the
+    origin of the 79-year discrepancy the repo already flagged as unresolved.
+    KEY TEST APPLIED: our Masoretic chain puts the Exodus at AM 2513, so each epoch implies an
+    Exodus date -- 4004 BC implies 1491 (Ussher's own), 3959 BC implies 1446 (the standard date,
+    from 1 Kgs 6:1 + the Assyrian synchronism on the 763 BC eclipse), and 3925 BC implies 1412,
+    which corresponds to no reckoning I could trace. On that test A' is the only one of the three
+    whose implied Exodus is independently defensible. Strengthens the A' recommendation.
+last_updated: "2026-08-22"  # A'' analysis, dsscalendar epoch, and GEN-1/3/5 fixes
+
+# ================================================================
+# DECISION REGISTER  (truth table)
+# Added 2026-08-22 at user request: record every choice, its options,
+# why it was made, and how much give it has.
+# Sorted by LEVERAGE (years of movement), not by order of appearance.
+# ================================================================
+
+units:
+  note: >
+    THREE different year lengths are in play and conflating them is the biggest silent-error risk
+    in the whole model. Every interval must carry its unit.
+  solar:     {days: 365.2422, use: "Ages, lifespans, regnal years, all historical intervals."}
+  julian:    {days: 365.25,   use: "Calendar arithmetic before AD 1582."}
+  zadok:     {days: 364, intercalated: 365.25, use: "This site's absolute year-count from creation."}
+  prophetic: {days: 360, use: "Prophetic spans only — Dan 7:25, 9:24-27, 12:7; Rev 11:2-3, 12:6,14."}
+  KEY_FINDING_zadok_is_solar: >
+    The Zadok year is 364 days (12x30 + 4 tekufah = exactly 52 weeks), but dsscalendar.org's
+    intercalary week every ~5.6 years brings the mean to 364 + 7/5.6 = 365.25 days — the Julian
+    year exactly. WITH intercalation, Zadok year counts ARE solar-equivalent and comparable to
+    BC/AD directly. WITHOUT it, 6000 Zadok years = 5,979 solar years, a 21-year error.
+    So the intercalation is not a detail; it is what makes "Zadok is absolute since creation" true.
+    ACTION: state this explicitly in zadok-calendar.md. It is currently unstated.
+  KEY_FINDING_prophetic_is_not: >
+    1 prophetic year = 360/365.2422 = 0.98565 solar years. 490 prophetic years = 483.0 solar years.
+    Prophetic years are a counting unit for prophecy, never a calendar for history. Do not use them
+    for genealogy or regnal intervals.
+
+rejected_frameworks:
+  rabbinic_anno_mundi:
+    epoch: "3761 BC (AD 2026 = AM 5786)"
+    rejected_because: >
+      Rests on Seder 'Olam Rabbah, which allots the Persian period about 52 years where Babylonian
+      and Greek records give about 207 — the documented 'missing 165 years'. The compression is not
+      a matter of taste; it is contradicted by dated contemporary records.
+  catholic_jubilee:
+    rejected_because: >
+      Instituted AD 1300 by Boniface VIII; cycle went 100 -> 50 -> 33 -> 25 years, fixed at 25 since
+      1470. Ecclesiastical invention with no claimed continuity to Leviticus 25's count.
+  note: "Both are recorded here so the choice reads as deliberate rather than accidental."
+
+decision_register:
+
+  # ---- HIGH LEVERAGE: hundreds of years -------------------------
+  - id: D-01
+    decision: "Genesis 5 textual tradition"
+    leverage_years: 586
+    options:
+      - {value: "MT", support: "SP concurs 6-0 in disputed places; Qumran precursors; targums; Seder Olam"}
+      - {value: "LXX (+100 pattern)", support: "Josephus, Theophilus, Africanus all follow it"}
+      - {value: "SP", support: "shortens Jared/Methuselah/Lamech drastically; resolves Methuselah/Flood"}
+    chosen: "MT"
+    reason: "The Samaritan Pentateuch is an independent HEBREW recension and it sides with MT 6-0 here. That is the strongest available non-aligned witness."
+    flexibility: {give: "high", note: "Reopen if a Qumran Genesis 5 fragment with begetting ages is ever cited."}
+
+  - id: D-02
+    decision: "Genesis 11 textual tradition"
+    leverage_years: 650
+    options:
+      - {value: "MT (short)", support: "received Hebrew; targums; Seder Olam"}
+      - {value: "long (LXX/SP +100)", support: "SP concurs 6-0; Josephus 4-of-8; Africanus 4-of-4; Theophilus 6-of-9"}
+    chosen: "MT — PROVISIONAL, and the weakest choice in the register"
+    reason: >
+      Chosen to preserve the site's published corpus, NOT because the evidence favours it. The
+      evidence here runs the other way: SP swings to the long reading 6-0, exactly opposite to its
+      Genesis 5 behaviour, and three early independent witnesses agree. This is the decision most
+      likely to need revisiting.
+    flexibility: {give: "HIGH — flagged", note: "Switching to the long reading moves creation back ~650 yrs and moves year 6000 into the past."}
+
+  - id: D-03
+    decision: "Exodus 12:40 — what the 430 years measure"
+    leverage_years: 215
+    options:
+      - {value: "430 in Egypt (MT)", support: "plain MT reading", cost: "makes Gal 3:17's promise-to-law span 645 yrs, requiring Paul to be dating from Jacob at Beersheba"}
+      - {value: "430 from the promise (LXX/SP 'and in Canaan')", support: "Gal 3:17 natural; CSB and NLT carry the variant; chain closes exactly at 215+215"}
+    chosen: "430 from the promise"
+    reason: "NT authority weighted per user instruction. Paul's 430 reads most naturally from the Abrahamic promise, and the internal chain then closes exactly."
+    flexibility: {give: "moderate", note: "The MT defence is workable, not absurd. 215 yrs is the single largest lever after the traditions."}
+
+  - id: D-04
+    decision: "Cainan between Arphaxad and Shelah"
+    leverage_years: 130
+    options:
+      - {value: "omit", support: "SP, Josephus, Africanus, Theophilus, Seder Olam, all 3 targums, P75, Codex Bezae; LXX's own numbers for him duplicate Shelah's exactly; absent from 1 Chr 1:24 in BOTH MT and LXX"}
+      - {value: "include", support: "NA28 prints it unbracketed at Luke 3:36; Codex Vaticanus; Augustine; Jubilees 8:1-5"}
+    chosen: "omit"
+    reason: "Steinmann, JETS 60/4 (2017) 697-711. Every witness that has Cainan is 4th century or later. The duplicated-numbers argument is decisive."
+    flexibility: {give: "low", note: "Only bites if the long Genesis 11 is adopted; irrelevant under MT."}
+
+  # ---- MID LEVERAGE: tens of years ------------------------------
+  - id: D-05
+    decision: "Terah's age at Abram's birth"
+    leverage_years: 60
+    options:
+      - {value: 70, support: "Gen 11:26 plain", cost: "contradicts Acts 7:4 unless SP's 145-yr Terah total is also taken"}
+      - {value: 130, support: "Acts 7:4 + Gen 11:32 + Gen 12:4; Abram listed first by covenant priority, as Shem is over the elder Japheth (Gen 10:21)"}
+      - {value: "70 with SP's 145 total", support: "satisfies Gen 11:26 AND Acts 7:4 with no reinterpretation; already adopted by harmonized_v1"}
+    chosen: 130
+    reason: "NT authority. Acts 7:4 places Abram's departure after Terah's death; with a 205-yr Terah that forces 130."
+    flexibility: {give: "moderate", note: "The SP route is arguably more elegant and reaches the same place by a different door."}
+
+  - id: D-06
+    decision: "Nahor's age at Terah's birth"
+    leverage_years: 50
+    options:
+      - {value: 29, support: "MT alone"}
+      - {value: 79, support: "Samaritan Pentateuch AND LXX Codex Alexandrinus; Theophilus at 75"}
+      - {value: 179, support: "LXX Codex Vaticanus / Brenton only — looks like the familiar +100"}
+    chosen: "79 — for variant A''; 29 retained in A'"
+    reason: >
+      MT's 29 stands alone against an independent Hebrew recension plus a major LXX uncial. On the
+      repo's own harmonized_v1 principle (adopt a reading only where it earns its keep) 79 earns it.
+      This single number is what lets A'' reach the published 4004 BC epoch.
+    flexibility: {give: "low", note: "Well attested. Also dissolves one of the two 'SP sides with neither' cases, which was an artifact of the repo following Brenton."}
+
+  # ---- LOW LEVERAGE: single years, but they set the anchors ------
+  - id: D-07
+    decision: "Crucifixion year"
+    leverage_years: 3
+    options:
+      - {value: "AD 33 (Fri 3 April)", support: "user preference; most common; Dan 9 from a 444 BC decree lands AD 33.1; Luke 3:1 + a ~3.5-yr ministry"}
+      - {value: "AD 30 (Fri 7 April)", support: "also an astronomically valid Nisan Passover; favoured on a 445 BC decree with a shorter ministry"}
+    chosen: "AD 33 — Friday 3 April. SETTLED 2026-08-22 after a dedicated pass."
+    candidate_set: >
+      Hard constraint: crucifixion on a Friday (Mark 15:42; Luke 23:54; John 19:31) at Passover
+      under Pilate (prefect AD 26-36). Reconstructing the calendar from first crescent visibility,
+      Nisan 14 fell on a Friday exactly twice in that window: 7 April AD 30 and 3 April AD 33.
+      BOTH are Nisan 14, so the Synoptic-vs-John question of Nisan 14 or 15 does NOT discriminate.
+    evidence_for_AD33:
+      - {weight: PRIMARY, item: "Luke 3:1. Tiberius acceded 19 Aug AD 14, so his 15th year is Aug 28 - Aug 29. ESVSB: 'probably A.D. 29 (plus or minus a year)'; NIVBTSB: 'AD 28-29'. John starts there, Jesus after, and John's Passovers (2:13; 6:4; 11:55, maybe 5:1) carry ~3 years to AD 33. Reaching AD 30 needs the co-regency reckoning from AD 11-13, which sits awkwardly beside Luke's precision with five named officials."}
+      - {weight: SUPPORTING, item: "Sejanus. John 19:12's 'not Caesar's friend' (amicus Caesaris) bites on Pilate only after his patron Sejanus fell in Oct AD 31. Favours a date after AD 31, excluding AD 30."}
+      - {weight: SUPPORTING, item: "Daniel 9:25 EXCLUDES AD 30 outright on this site's reckoning. 69 x 7 x 360 = 173,880 d = 476.07 solar yr. From 445 BC -> AD 32; from 444 BC -> AD 33. Neither route reaches AD 30."}
+      - {weight: WEAK, item: "Paul. Gallio proconsul of Achaia AD 51/52 (Acts 18:12); Gal 1:18 + 2:1 give 3 then 14 years back to a conversion c. AD 34-35. Sits better after AD 33 than AD 30. Weak because the two spans may overlap."}
+    evidence_neutral:
+      - >
+        JOHN 2:20 IS NEUTRAL — this CORRECTS an earlier claim in this session that it favoured AD 30,
+        and a subsequent overcorrection that the Greek settled it for AD 33. The text is
+        'Tesserakonta kai hex etesin oikodomethe ho naos houtos' — aorist oikodomethe, and NAOS
+        (sanctuary) not HIERON (precinct). Josephus has the naos built in 18 months from Herod's
+        18th year, done c. 18/17 BC; the precinct was unfinished until the AD 60s. The dative etesin
+        supports two senses and each pairs with one candidate to give a ~3-year ministry:
+          'has taken 46 years to build' , from Herod's start 20/19 BC -> first Passover AD 27 -> AD 30
+          'was built 46 years ago'      , from the naos done 18/17 BC -> first Passover AD 29/30 -> AD 33
+        Compatible with both; selects neither.
+    evidence_rejected:
+      - >
+        THE LUNAR ECLIPSE ARGUMENT IS NOT USED. Humphreys & Waddington (Nature 306, 1983) proposed
+        the partial eclipse rising over Jerusalem on 3 April AD 33 as the referent of Acts 2:20's
+        'the moon to blood'. It fails twice. (a) Bradley Schaefer argues the eclipsed portion was
+        not detectable to the naked eye at moonrise; Humphreys' reply has not settled it.
+        (b) Peter is quoting Joel 2:31 about what WILL happen before the day of the LORD, so reading
+        it as a report of the previous Friday's sky asks the sermon for something it is not doing.
+        An argument needing both a contested observation and a strained citation cannot be
+        load-bearing. Removed from the case even though it points the way we chose.
+    verdict: >
+      Friday 3 April AD 33. The DATE is astronomically exact once the year is fixed; the YEAR is a
+      strong judgement, not a certainty. AD 30 remains defensible for anyone taking Tiberius's 15th
+      year from the co-regency, and the page records that rather than dismissing it.
+    flexibility: {give: "low", note: "Settled on Luke 3:1 read naturally + Sejanus + Daniel 9 + Paul. Would reopen only if the co-regency reckoning of Tiberius were independently established."}
+
+  - id: D-08
+    decision: "Artaxerxes' 20th year (Neh 2:1) — the Daniel 9 decree"
+    leverage_years: 1
+    options:
+      - {value: "445 BC", support: "accession-year reckoning; Anderson's classic, lands Triumphal Entry 6 Apr AD 32"}
+      - {value: "444 BC", support: "non-accession / Tishri reckoning; lands AD 33"}
+    chosen: "444 BC"
+    reason: "Follows from D-07. Recorded as a consequence, not an independent finding."
+    flexibility: {give: "high", note: "One year. Chosen for consistency with the crucifixion date rather than on its own evidence."}
+
+  - id: D-09
+    decision: "Solomon's 4th year (the chain's only non-biblical anchor)"
+    leverage_years: 5
+    options:
+      - {value: "966 BC", support: "Thiele; standard; via Ahab at Qarqar 853 BC, anchored by the Bur-Sagale eclipse of 763 BC"}
+      - {value: "961 BC", support: "within the accession/non-accession and co-regency spread; required for A'' to land exactly on 4004 BC"}
+    chosen: "966 BC for A'; 961 BC for A''-exact"
+    reason: "966 is the defensible default. 961 is only used to demonstrate that the published epoch IS reachable, and is marked as a nudge."
+    flexibility: {give: "moderate", note: "HONESTY FLAG: adjusting this to hit a predetermined creation date is reasoning backwards. Keep 1446 BC unless there is independent regnal evidence."}
+
+  - id: D-10
+    decision: "Exodus date"
+    leverage_years: 186
+    options:
+      - {value: "1446 BC (early)", support: "1 Kgs 6:1's 480 taken literally + Solomon 966"}
+      - {value: "1441 BC", support: "as above with Solomon 961"}
+      - {value: "c.1260 BC (late)", support: "Ramesses II archaeology", cost: "requires reading the 480 as 12 generations x 40, i.e. symbolic"}
+    chosen: "1446 BC"
+    reason: "Site already uses it in prophecy-events-times.md and ancient-texts-manuscripts.md. Takes 1 Kgs 6:1 at face value."
+    flexibility: {give: "low", note: "The late date would push creation ~186 yrs later and is inconsistent with the site's existing pages."}
+
+  # ---- FRAMEWORK DECISIONS, not date decisions ------------------
+  - id: D-11
+    decision: "Jubilee cycle length"
+    leverage_years: "~120 over 6000 yrs"
+    options:
+      - {value: 49, support: "Lev 25:8's 'seven times seven years... forty-nine years'; year 50 doubles as year 1 of the next cycle"}
+      - {value: 50, support: "Lev 25:10's 'consecrate the fiftieth year' as a standalone year"}
+    chosen: "UNRESOLVED — deliberately"
+    reason: >
+      Leviticus 25:8-10 is genuinely ambiguous and the text does not settle it. Over ~120 cycles the
+      two readings diverge by ~120 years, so jubilee counting CANNOT bridge from creation.
+    flexibility: {give: "n/a", note: "RULE ADOPTED: jubilees may be used as a resolution bucket for the historical era, counted BACKWARD from an attested sabbatical year. Never counted forward from creation."}
+    external_datum_2026_08_22: >
+      dsscalendar.org's Enoch wheel divides 7,000 years into 10 weeks of 700, 70 centuries of 100,
+      and 140 JUBILEES OF 50 YEARS. So Ken Johnson's scheme resolves the Lev 25:8-10 ambiguity as
+      50, not 49 -- 140 x 50 = 7,000 exactly, where 49-year cycles do not divide the total.
+      Recorded as that scheme's answer, not adopted here: our own rule still forbids counting
+      jubilees forward from creation, and the three attested sabbatical years anchor the historical
+      cycle independently of which length is used.
+
+  - id: D-12
+    decision: "Jubilee 'magnetism' — how events attach to cycles"
+    options:
+      - {value: "ATTRACTED", support: "Scripture itself dates the event by a sabbatical/jubilee marker"}
+      - {value: "SNAPPED", support: "we round an undated event to the nearest cycle"}
+    chosen: "ATTRACTED only; SNAPPED forbidden"
+    reason: >
+      Snapping manufactures precision. Attracted cases are real and verified this session:
+      Ezekiel 40:1 (25th year of exile, 10th day of the 7th month = Day of Atonement, which
+      Lev 25:9 names as the jubilee trumpet day); 2 Chr 36:21 (70 years as the land's missed
+      sabbaths, implying 490 years of breach); Daniel 9:24 (seventy weeks = 490).
+    flexibility: {give: "none", note: "If an event must be snapped, mark it visibly as an editorial placement, not a date."}
+
+  - id: D-13
+    decision: "Retain or retire the year-6000 expectation"
+    options:
+      - {value: "retain", requires: "creation no earlier than 3975 BC — only A' (3959) qualifies, giving year 6000 = AD 2042"}
+      - {value: "retire", requires: "accepting that any epoch at or before 3975 BC puts year 6000 in the past"}
+    chosen: "OPEN — user decision"
+    reason: >
+      Derived constraint: Zadok 6000 falls in AD (6000 - creation_BC + 1). Future from AD 2026
+      requires creation <= 3975 BC. The site's published 4004 BC gives AD 1997, already past.
+      This is arithmetic, not interpretation.
+    flexibility: {give: "n/a", note: "The framework is an inference from 2 Pet 3:8 + Rev 20. The manuscript readings are evidence. Weigh accordingly."}
+
+leverage_summary: >
+  Ordered by how many years each decision moves the answer:
+    Gen 11 tradition 650 | Gen 5 tradition 586 | sojourn reading 215 | Exodus date 186 |
+    Cainan 130 | Terah 60 | Nahor 50 | Solomon's 4th yr 5 | crucifixion 3 | decree 1
+  CONSEQUENCE WORTH STATING ON THE PAGE: the anchors are the precise part. All the argument about
+  +/-5 years at Solomon is dwarfed by one decision about what Exodus 12:40's 430 years measure.
+  Spend the reader's attention accordingly.
