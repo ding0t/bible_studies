@@ -70,6 +70,9 @@ console.log('\n6. Format Year with Calendar:');
 assert(formatYearWithCalendar(2024, 'gregorian') === '2024 AD', 'Format Gregorian positive year');
 assert(formatYearWithCalendar(-4003, 'gregorian') === '4003 BC', 'Format Gregorian negative year');
 assert(formatYearWithCalendar(6028, 'zadok') === '6028 (Zadok)', 'Format Zadok year');
+assert(formatYearWithCalendar(-1, 'gregorian') === '1 BC', 'Format 1 BC');
+assert(formatYearWithCalendar(1, 'gregorian') === '1 AD', 'Format AD 1');
+assert(formatYearWithCalendar(0, 'gregorian') === 'Unknown', 'Year zero has no BC/AD form');
 
 // Test 7: Year difference
 console.log('\n7. Year Difference:');

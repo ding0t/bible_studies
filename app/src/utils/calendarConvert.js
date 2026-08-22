@@ -19,8 +19,12 @@
  * convention, so this brings the converter into line with them rather than the reverse.
  */
 
-// Zadok year of AD 1. Creation (Zadok 0) is 4004 BC, and from the start of 4004 BC to the
-// start of AD 1 is 4004 elapsed years -- 4003 BC years plus the crossing into AD.
+// Zadok year of AD 1. Creation (Zadok 0) is 4004 BC, and the years 4004 BC through 1 BC are
+// 4004 distinct years, so 4004 years elapse before AD 1 begins.
+//
+// Note the encoding is NEGATED-BC, not astronomical: -4004 here means 4004 BC. Astronomical
+// (ISO 8601) numbering would make -4004 mean 4005 BC, because it has a year 0 equal to 1 BC.
+// Do not feed these values to a date library that assumes ISO.
 export const ZADOK_TO_GREGORIAN_OFFSET = 4004;
 
 /**
@@ -87,7 +91,9 @@ export function formatYearWithCalendar(year, calendar = 'gregorian') {
 
   if (calendar === 'zadok') {
     return `${year} (Zadok)`;
-  } else if (year < 1) {
+  } else if (year === 0) {
+    return 'Unknown'; // there is no year zero in BC/AD reckoning
+  } else if (year < 0) {
     return `${Math.abs(year)} BC`;
   } else {
     return `${year} AD`;
