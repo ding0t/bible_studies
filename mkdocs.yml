@@ -406,6 +406,19 @@ plugins:
 extra_css:
   - assets/stylesheets/hero-verses.css
 
+# Link checking. mkdocs --strict already fails on a bad FILE path, but said nothing about a
+# bad #anchor -- a link to a heading that has been renamed or never existed would build clean
+# and silently drop the reader at the top of the page. anchors: warn closes that gap, and the
+# site currently has zero of them, so --strict stays green.
+#
+# unrecognized_links and absolute_links are deliberately left at their defaults (info). Raising
+# them to warn flags 66 links that all actually work: the directory-style links section_index.py
+# generates into commentaries/index.md ('45-romans/' resolves to 45-romans/index.html), and the
+# deliberate links out to the Astro-served tools at /timeline/ and /genealogy/, which sit outside
+# docs_dir by design. Under --strict those would become errors and drown the anchor signal.
+validation:
+  anchors: warn
+
 markdown_extensions:
   - tables
   - admonition
