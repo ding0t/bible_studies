@@ -5,6 +5,11 @@ description: "Jesus and the Samaritan woman in John 4 — placeholder, not yet w
 tags: ["john", "samaritan-woman", "living-water"]
 draft: true
 primary_passage: "John 4:1-42"
+date_created: 2025-04-25
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # The woman at the well

@@ -4,6 +4,11 @@ category: "sermons"
 description: "Principles and guidelines for writing and delivering biblical sermons"
 tags: ["prophecy", "audience/teaching", "exposition", "homiletics"]
 draft: false
+date_created: 2025-04-24
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Sermon principles

@@ -6,6 +6,10 @@ tags: ["apostles", "person/judas-iscariot", "betrayal", "matthew", "john", "acts
 draft: false
 primary_passage: "John 12:1-8; Matthew 26:14-16"
 bible_references: ["Matthew 10:4", "Mark 3:19", "Luke 6:16", "John 6:70-71", "John 13:21-30", "Matthew 27:3-10", "Acts 1:15-20", "Zechariah 11:12-13", "Psalm 41:9"]
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Judas Iscariot

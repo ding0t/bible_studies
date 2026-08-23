@@ -3,6 +3,11 @@ title: Home
 category: "other"
 description: "Personal Bible study notes: the Old and New Testaments read in context, with word studies in the original languages and every claim traceable to a source."
 draft: false
+date_created: 2026-07-10
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 <link rel="stylesheet" href="assets/stylesheets/hero-verses.css" />
@@ -36,7 +41,7 @@ through John 14:6 and into the book of Acts.
 
 These are personal Bible study notes — written to make sure I learn, and shared in case they help
 someone else. The Bible is one integrated message about God's dealings with humanity, and it repays
-close study.
+close study, hoping to move the author from milk to solid food .
 
 The notes focus on:
 

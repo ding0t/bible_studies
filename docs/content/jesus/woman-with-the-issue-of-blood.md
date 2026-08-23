@@ -8,6 +8,10 @@ primary_passage: "Mark 5:25-34; Matthew 9:20-22; Luke 8:43-48"
 bible_references: ["Mark 5:21-43", "Matthew 9:18-26", "Luke 8:40-56", "Leviticus 15:19-30", "Leviticus 15:25-27", "Numbers 15:37-41", "Numbers 19:11-13", "Deuteronomy 22:12", "Malachi 4:2", "Zechariah 8:23", "Isaiah 53:4", "Matthew 8:17", "Matthew 23:5", "Mark 1:40-42", "Mark 6:56", "Mark 10:46-52", "Luke 1:78-79", "Haggai 2:11-13"]
 zadok_year: 4035
 gregorian_year: 32
+date_created: 2026-08-23
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # The Woman Who Touched the Fringe: Uncleanness Running Backwards

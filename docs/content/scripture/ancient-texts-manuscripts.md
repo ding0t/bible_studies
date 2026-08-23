@@ -4,6 +4,12 @@ category: "archaeology"
 description: "How Scripture compares to other ancient works on manuscript evidence, what textual criticism actually shows, and the record of a text that survived deliberate campaigns to destroy it -- with 24 corroborating artifacts."
 tags: ["method/archaeology", "method/textual-criticism", "manuscripts", "inscriptions", "dead-sea-scrolls", "apologetics"]
 draft: false
+date_created: 2026-01-24
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-4.5
+  - anthropic/claude-sonnet-5
 ---
 
 # Ancient Texts, Manuscripts, and Inscriptions Validating Scripture

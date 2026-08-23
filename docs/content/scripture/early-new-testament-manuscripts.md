@@ -4,6 +4,11 @@ category: "resources"
 description: "earlynewtestament.com — English translations of the 83 earliest known New Testament papyri, all dated to AD 300 or earlier"
 tags: ["manuscripts", "papyri", "new-testament", "method/textual-criticism"]
 draft: false
+date_created: 2026-07-20
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Early New Testament Manuscripts

@@ -4,6 +4,12 @@ category: "other"
 description: "Personal statement of faith and biblical doctrine"
 tags: ["statement-of-faith", "doctrine", "faith", "justification", "sanctification", "glorification"]
 draft: false
+date_created: 2025-04-28
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-4.8
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 <link rel="stylesheet" href="../assets/stylesheets/enumerate-headings.css" />

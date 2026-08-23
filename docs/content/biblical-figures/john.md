@@ -6,6 +6,10 @@ tags: ["apostles", "person/john", "discipleship", "john", "revelation", "mark"]
 draft: false
 primary_passage: "John 19:25-27; John 21:20-24"
 bible_references: ["Mark 1:19-20", "Mark 3:17", "Mark 5:37", "Mark 9:2-8", "Mark 14:33", "Luke 9:54", "John 13:23", "Acts 3:1-11", "Acts 4:13", "Acts 8:14", "Galatians 2:9", "Revelation 1:9"]
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # John son of Zebedee

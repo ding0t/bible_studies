@@ -3,6 +3,11 @@ title: "Personal Dream Accounts"
 category: "dreams"
 description: "The author's own personal dream accounts, kept as testimony rather than Scripture."
 draft: false
+date_created: 2026-07-19
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Personal Dream Accounts

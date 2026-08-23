@@ -4,6 +4,12 @@ category: "prayer"
 description: "Understanding prayer as communion with God and our identity as His children"
 tags: ["devotion", "communion", "faith"]
 draft: false
+date_created: 2024-10-06
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-4.5
+  - anthropic/claude-sonnet-5
 ---
 
 ## Prayer

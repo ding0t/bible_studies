@@ -6,6 +6,10 @@ tags: ["apostles", "discipleship", "method/word-study", "lang/greek", "matthew",
 draft: false
 primary_passage: "Matthew 10:1-4; Mark 3:13-19; Luke 6:12-16; Acts 1:13"
 bible_references: ["John 1:35-51", "Matthew 4:18-22", "Luke 5:1-11", "Mark 6:7-13", "Matthew 19:28", "Revelation 21:12-14", "Ephesians 2:20", "Acts 1:15-26", "Matthew 10:5-6", "Mark 14:50", "Luke 22:24", "John 15:16", "John 12:20-22", "Titus 3:5"]
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # The Twelve: Disciples and Apostles

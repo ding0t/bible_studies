@@ -6,6 +6,10 @@ tags: ["apostles", "person/peter", "discipleship", "lang/greek", "matthew", "joh
 draft: false
 primary_passage: "Matthew 16:13-20; John 21:15-19"
 bible_references: ["John 1:40-42", "Matthew 4:18-20", "Luke 5:1-11", "Matthew 14:28-31", "Luke 22:31-34", "Mark 14:66-72", "Acts 2:14-41", "Acts 10:1-48", "Galatians 2:11-14", "1 Peter 1:1"]
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Simon Peter

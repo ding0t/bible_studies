@@ -4,6 +4,11 @@ category: "resources"
 description: "The tech behind this site: mkdocs + Astro, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys"
 tags: ["architecture", "mkdocs", "astro", "mermaid", "tech-stack"]
 draft: false
+date_created: 2026-07-19
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # How This Site Is Built

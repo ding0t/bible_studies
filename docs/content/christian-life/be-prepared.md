@@ -4,6 +4,12 @@ category: "spiritual-disciplines"
 description: "Apologetics: preparing believers to defend their faith with gentleness and respect"
 tags: ["apologetics", "1-peter", "preparation"]
 draft: false
+date_created: 2024-05-24
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-4.5
+  - anthropic/claude-sonnet-5
 ---
 
 # Be prepared

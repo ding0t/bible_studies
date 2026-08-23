@@ -4,6 +4,11 @@ category: "prophecy"
 description: "Understanding Christianity's foundation in Old Testament prophecy and Jewish roots"
 tags: ["lang/hebrew", "messianic-prophecy", "prophecy-fulfilled", "christianity"]
 draft: true
+date_created: 2025-05-21
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Hebrew roots of Christianity

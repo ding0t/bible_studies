@@ -6,6 +6,10 @@ tags: ["apostles", "person/james-son-of-alphaeus", "discipleship", "status/inves
 draft: false
 primary_passage: "Mark 3:18; Acts 1:13"
 bible_references: ["Matthew 10:3", "Luke 6:15", "Mark 2:14", "Mark 15:40", "John 19:25", "Galatians 1:19"]
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # James son of Alphaeus

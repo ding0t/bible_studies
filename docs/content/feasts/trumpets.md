@@ -6,6 +6,12 @@ tags: ["leviticus", "prophecy", "lang/hebrew", "method/word-study", "rosh-hashan
 draft: false
 primary_passage: "Leviticus 23:23-25"
 bible_references: ["Leviticus 23:23-25", "Numbers 29:1-6", "Numbers 10:1-10", "1 Corinthians 15:51-53", "Matthew 24:30-31", "Matthew 24:36", "1 Thessalonians 4:16-17", "Joel 2:1"]
+date_created: 2025-08-10
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-4.5
+  - anthropic/claude-sonnet-5
 ---
 
 ## Overview

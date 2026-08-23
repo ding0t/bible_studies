@@ -4,6 +4,11 @@ category: "dreams"
 description: "A dream about internal struggle and the human condition"
 tags: ["dreams", "human-nature", "struggle", "april-2008"]
 draft: false
+date_created: 2024-10-06
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # The monster in the man

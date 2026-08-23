@@ -6,6 +6,11 @@ tags: ["dreams", "visions", "discernment", "method/word-study", "old-testament",
 draft: true
 primary_passage: "Genesis 37:5-11; Genesis 40:5-41:36; Daniel 2; Deuteronomy 13:1-5; Jeremiah 23:25-32"
 bible_references: ["Genesis 20:3", "Genesis 28:12", "Genesis 31:10-11", "1 Kings 3:5-15", "Daniel 4:4-27", "Daniel 7:1", "Numbers 12:6-8", "Ecclesiastes 5:7", "Matthew 1:20-21", "Matthew 2:12-13", "Matthew 2:19-22", "Matthew 27:19", "Acts 2:17", "Acts 10:9-16", "Acts 16:9-10", "Joel 2:28-29", "Jude 1:8", "1 Thessalonians 5:19-21", "1 John 4:1"]
+date_created: 2026-08-04
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Dreams and Visions: Godly and Otherwise

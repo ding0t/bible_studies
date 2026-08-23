@@ -4,6 +4,11 @@ category: "other"
 description: "Copyright notices for the Bible translations and reference works quoted on this site, and the terms under which they are used."
 tags: ["copyright", "permissions", "attribution", "translations"]
 draft: false
+date_created: 2026-07-25
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Copyright & Scripture Permissions

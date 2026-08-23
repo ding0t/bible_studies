@@ -4,6 +4,11 @@ category: "sermons"
 description: "Foundational principles for approaching biblical study with a prophetic perspective"
 tags: ["prophecy", "doctrine", "audience/teaching", "foundations"]
 draft: false
+date_created: 2025-04-24
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Foundations for studying the Word

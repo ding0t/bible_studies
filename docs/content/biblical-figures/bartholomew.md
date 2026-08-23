@@ -6,6 +6,10 @@ tags: ["apostles", "person/bartholomew", "person/nathanael", "john", "status/inv
 draft: false
 primary_passage: "John 1:45-51"
 bible_references: ["Matthew 10:3", "Mark 3:18", "Luke 6:14", "Acts 1:13", "John 21:2"]
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Bartholomew (Nathanael)

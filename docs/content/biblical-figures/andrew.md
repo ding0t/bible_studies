@@ -6,6 +6,10 @@ tags: ["apostles", "person/andrew", "discipleship", "lang/greek", "john", "mark"
 draft: false
 primary_passage: "John 1:35-42"
 bible_references: ["Matthew 4:18-20", "Mark 1:16-18", "Mark 13:3", "John 6:8-9", "John 12:20-22", "Acts 1:13"]
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Andrew

@@ -4,6 +4,11 @@ category: "bible"
 description: "A practical method for reading Scripture well: what it meant before what it means, in that order"
 tags: ["study-method", "principles", "learning"]
 draft: false
+date_created: 2026-01-11
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # How to read the Bible

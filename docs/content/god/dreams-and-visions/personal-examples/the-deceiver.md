@@ -4,6 +4,11 @@ category: "dreams"
 description: "A dream about a deceptive evil entity and spiritual discernment"
 tags: ["dreams", "deception", "spiritual-warfare", "discernment", "june-2023"]
 draft: false
+date_created: 2024-10-06
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # The Deceiver

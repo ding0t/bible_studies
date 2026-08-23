@@ -4,6 +4,12 @@ category: "investigation"
 description: "A survey of contemporary deliverance ministries and how they teach that a believer can be 'demonized'"
 tags: ["status/investigation", "ministry", "contemporary", "spiritual-warfare"]
 draft: false
+date_created: 2024-04-24
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-4.8
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Contemporary deliverance in Christianity

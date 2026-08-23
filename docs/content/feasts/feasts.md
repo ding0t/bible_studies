@@ -4,6 +4,12 @@ category: "feasts"
 description: "Study into the Jewish feasts and their prophetic significance in Scripture"
 tags: ["prophecy", "jewish", "prophecy-fulfilled"]
 draft: false
+date_created: 2025-08-10
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-4.5
+  - anthropic/claude-sonnet-5
 ---
 
 

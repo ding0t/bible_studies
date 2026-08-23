@@ -6,6 +6,10 @@ tags: ["apostles", "person/matthew", "discipleship", "repentance", "matthew"]
 draft: false
 primary_passage: "Matthew 9:9-13"
 bible_references: ["Mark 2:13-17", "Luke 5:27-32", "Matthew 10:3", "Mark 3:18", "Luke 6:15", "Acts 1:13", "Hosea 6:6"]
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Matthew (Levi)

@@ -4,6 +4,11 @@ category: "resources"
 description: "Master list of open-license Bible text, manuscript, lexicon, and cross-reference repositories we fork for use in this project, and why."
 tags: ["github", "lang/hebrew", "lang/greek", "lexicon", "strongs", "manuscripts", "licensing"]
 draft: false
+date_created: 2026-07-19
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Open Bible Data on GitHub

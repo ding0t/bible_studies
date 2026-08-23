@@ -5,6 +5,11 @@ description: "The 364-day priestly calendar behind this site's zadok_year dating
 tags: ["zadok", "calendar", "dead-sea-scrolls", "enoch", "jubilees", "chronology", "prophecy"]
 draft: false
 bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticus 25:8-13", "2 Samuel 8:17", "1 Kings 2:35", "Ezekiel 44:15", "Daniel 9:24-27"]
+date_created: 2026-07-19
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # The Zadok calendar

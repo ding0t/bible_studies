@@ -6,6 +6,10 @@ tags: ["sabbath", "creation", "last-days", "chronology", "dispensationalism", "t
 draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
 bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hosea 6:2", "Hebrews 1:2", "Hebrews 4:9", "Revelation 13:14-18", "Revelation 20:1-7", "Revelation 17:10", "Genesis 49:1", "Malachi 4:2", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:46", "2 Timothy 3:16", "Psalm 89:46-52", "Psalm 92:1-9", "Psalm 93:1", "Ecclesiastes 6:6", "Isaiah 40:17", "Genesis 5:27", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
+date_created: 2026-08-12
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # A day is a thousand years

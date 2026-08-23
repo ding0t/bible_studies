@@ -6,6 +6,11 @@ tags: ["nephilim", "genesis", "numbers", "giants", "sons-of-god", "old-testament
 draft: false
 primary_passage: "Genesis 6:1-4"
 bible_references: ["Genesis 6:1-8", "Genesis 10:15-19", "Numbers 13:25-33", "Numbers 14:36-37", "Deuteronomy 2:10-11", "Deuteronomy 2:20-21", "Deuteronomy 3:11", "Deuteronomy 9:2", "Joshua 11:21-22", "Joshua 15:13-14", "1 Samuel 17:4", "2 Samuel 21:15-22", "Job 1:6", "Job 2:1", "Job 38:7", "2 Peter 2:4-5", "Jude 1:6-7", "Jude 1:14-15", "Matthew 24:37-39", "1 Peter 3:18-20", "Amos 2:9"]
+date_created: 2026-08-04
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # The Nephilim: Sons of God and the Giants of Genesis

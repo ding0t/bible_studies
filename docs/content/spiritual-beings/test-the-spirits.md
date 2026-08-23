@@ -4,6 +4,11 @@ category: "spiritual-disciplines"
 description: "Discerning truth from false teaching and testing spiritual claims against Scripture"
 tags: ["deliverance", "apologetics", "discernment", "doctrine"]
 draft: false
+date_created: 2024-04-24
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Test the spirits

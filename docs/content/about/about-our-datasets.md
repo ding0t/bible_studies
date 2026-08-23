@@ -4,6 +4,10 @@ category: "other"
 description: "What Bible text, lexical, and commentary data backs this site, organized by license tier, and what each tier is and isn't used for."
 tags: ["data", "sources", "licensing", "transparency", "mermaid"]
 draft: false
+date_created: 2026-07-27
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Our Data Sources

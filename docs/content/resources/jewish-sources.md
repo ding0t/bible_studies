@@ -4,6 +4,11 @@ category: "resources"
 description: "Sefaria and other sources for Jewish literature (Mishnah, Talmud) relevant to understanding a passage's Second Temple / rabbinic background"
 tags: ["jewish-literature", "mishnah", "talmud", "sefaria", "licensing"]
 draft: false
+date_created: 2026-07-19
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Jewish Literature & Primary Sources

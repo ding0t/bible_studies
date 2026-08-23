@@ -4,6 +4,11 @@ category: "commentaries"
 description: "Favourite verses and insights from reading one chapter of Proverbs a day for a month."
 tags: ["bible", "ot", "proverbs", "devotional", "wisdom"]
 draft: false
+date_created: 2025-06-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Daily verse reflections

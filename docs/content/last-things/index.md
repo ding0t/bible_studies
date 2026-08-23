@@ -3,6 +3,10 @@ title: "Last Things"
 category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
+date_created: 2026-08-07
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Last Things

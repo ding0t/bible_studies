@@ -3,6 +3,10 @@ title: "God"
 category: "other"
 description: "God's nature and character, creation, and the ways he makes himself known."
 draft: false
+date_created: 2026-08-07
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # God

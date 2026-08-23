@@ -6,6 +6,10 @@ tags: ["apostles", "person/thaddaeus", "discipleship", "john", "status/investiga
 draft: false
 primary_passage: "John 14:22-24"
 bible_references: ["Matthew 10:3", "Mark 3:18", "Luke 6:16", "Acts 1:13", "Jude 1:1"]
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Thaddaeus (Judas son of James)

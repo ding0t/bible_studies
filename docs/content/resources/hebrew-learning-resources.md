@@ -4,6 +4,11 @@ category: "other"
 description: "Recommended courses and materials for learning Biblical Hebrew"
 tags: ["lang/hebrew", "learning", "courses"]
 draft: false
+date_created: 2025-04-24
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Learn Hebrew

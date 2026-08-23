@@ -4,6 +4,10 @@ category: "other"
 description: "How AI is used to research and draft the studies on this site: what it does, the failure modes it introduces, the guardrails against them, and where its usefulness ends."
 tags: ["ai", "study-method", "transparency"]
 draft: false
+date_created: 2026-07-25
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # AI in these studies

@@ -6,6 +6,11 @@ tags: ["general-revelation", "romans", "creation", "apologetics", "intelligent-d
 draft: false
 primary_passage: "Romans 1:19-23"
 bible_references: ["Psalm 19:1-4", "Acts 14:15-17", "Acts 17:24-28", "Job 38:4-7", "Ephesians 2:10", "Colossians 1:15-17", "Hebrews 1:1-3", "Romans 10:14-17", "Romans 3:11"]
+date_created: 2026-08-04
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # What Creation Declares: General Revelation in Romans 1:19-23

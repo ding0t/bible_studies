@@ -6,6 +6,11 @@ tags: ["hebrews", "person/melchizedek", "priesthood", "method/word-study", "old-
 draft: false
 primary_passage: "Hebrews 7:1-28"
 bible_references: ["Genesis 2:15", "Genesis 3:22-24", "Genesis 8:20", "Genesis 14:17-20", "Exodus 13:1-2", "Exodus 32:26-29", "Numbers 3:5-13", "Numbers 8:16-18", "Numbers 18:1-7", "Psalm 110:1-4", "Hebrews 2:17-18", "Hebrews 4:14-16", "Hebrews 5:1-10", "Hebrews 6:13-20", "Hebrews 8:1-13", "Hebrews 9:11-28", "Hebrews 10:1-18", "Zechariah 6:12-13", "2 Chronicles 26:16-21", "Jeremiah 31:31-34", "Leviticus 25:8-13", "Deuteronomy 15:2", "Isaiah 61:1", "Luke 4:18-19", "Psalm 82:1-8", "John 10:34-36", "Isaiah 52:7", "Daniel 9:24-27"]
+date_created: 2026-08-02
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Jesus, Priest in the Order of Melchizedek

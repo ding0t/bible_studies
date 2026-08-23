@@ -3,6 +3,10 @@ title: "Tags"
 category: "other"
 description: "Browse every study on this site by tag — method, original language, subject, and status."
 draft: false
+date_created: 2026-08-07
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Tags

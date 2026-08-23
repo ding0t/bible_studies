@@ -3,6 +3,10 @@ title: "Biblical Figures"
 category: "other"
 description: "Studies of particular people in Scripture."
 draft: false
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Biblical Figures

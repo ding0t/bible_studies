@@ -6,6 +6,10 @@ tags: ["apostles", "person/simon-the-zealot", "discipleship", "method/word-study
 draft: false
 primary_passage: "Luke 6:15; Matthew 10:4"
 bible_references: ["Mark 3:18", "Acts 1:13", "Matthew 9:9", "Matthew 22:15-22"]
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Simon the Zealot

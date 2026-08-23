@@ -5,6 +5,10 @@ description: "The early church fathers this site draws on for post-apostolic tra
 tags: ["church-fathers", "early-church", "sources", "method/textual-criticism", "status/investigation"]
 draft: false
 bible_references: ["Acts 1:21-22"]
+date_created: 2026-08-08
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Patristic sources
