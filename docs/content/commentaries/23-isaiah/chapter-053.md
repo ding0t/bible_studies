@@ -13,5 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 53:5
-- [Woman with the Issue of Blood](../../jesus/woman-suffering-bleeding.md) — 53:5
+- [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 53:4
 <!-- commentary-index:auto-end -->

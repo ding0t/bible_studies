@@ -1,0 +1,133 @@
+slug: "woman-with-the-issue-of-blood"
+title: "The Woman Who Touched the Fringe: Uncleanness Running Backwards"
+status: review
+target_path: "docs/content/jesus/woman-with-the-issue-of-blood.md"
+
+primary_passage: "Mark 5:25-34; Matthew 9:20-22; Luke 8:43-48"
+supporting_passages:
+  - "Leviticus 15:19-30"
+  - "Numbers 15:37-41"
+  - "Malachi 4:2"
+  - "Zechariah 8:23"
+  - "Isaiah 53:4 via Matthew 8:17"
+  - "Haggai 2:11-13"
+genre: [gospel]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Consolidation of two published studies that split this one healing and cross-linked each other
+      as "companion pieces":
+        - jesus/woman-issue-of-blood-faith-and-access.md (2266w) -- the strong one. Levitical
+          mechanism, Markan sandwich, hapto/dynamis/sozo/thygater. Most survives into the merge.
+        - jesus/woman-suffering-bleeding.md (1343w) -- the weak one. Held the tzitzit/kanaph and
+          Malachi/Zechariah material the other lacked, but unfinished: "## Prophetic meaning"
+          contained only the fragment "As per We are unable to be healed by our own righteousness.";
+          zero compliant scripture blocks; draft: false, so live.
+      Surfaced by validate-content.js Check 14 (429 words to first bold lead) during the opening
+      audit that followed reader feedback on last-supper-four-cups.md.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Leviticus 15:25-27 -- chronic non-menstrual discharge, continuing uncleanness, contact
+        transmits outward (naga -> tame). Haggai 2:11-13 supplies the formal asymmetry: holiness is
+        not contagious by contact, uncleanness is. That asymmetry is what the scene overturns, and
+        it is stronger evidence than asserting the reversal from the narrative alone.
+        Cost: twelve years, bankrupted by physicians (Mark 5:26); CBSB adds likely divorce/never
+        married, isolation, destitution, and inadvertent contamination of the crowd she pushed
+        through.
+    literary_context:
+      done: true
+      notes: >
+        Mark 5:21-43 intercalation -- Jairus opened (21-24), woman interrupts (25-34), Jairus closed
+        (35-43). Twelve years of illness against a twelve-year-old girl; Leviticus 15 discharge
+        against Numbers 19 corpse contact; a named official who can petition publicly against an
+        unnamed woman who cannot ask at all. Compare Mark 11:12-25 for the same technique.
+    content_word_studies:
+      done: true
+      notes: >
+        MAIN FINDING, re-derived from MACULA Greek, NOT taken from either existing study:
+        Mark 5:27 reads hepsato tou himatiou autou -- "touched his garment", with NO kraspedon.
+        Matthew 9:20 and Luke 8:44 both read tou kraspedou tou himatiou. So the fringe is Matthew's
+        and Luke's detail only. The retired study's claim "All three Gospels emphasise she touched
+        the edge/hem/fringe (kraspedon in Greek)" is FALSE, and false about Mark, which was that
+        study's own primary_passage.
+        SECOND FINDING: LXX (Brenton) Numbers 15:38 renders tsitsit with kraspeda and kanaph with
+        pterygia ("little wings"). So Matthew's and Luke's word IS the Septuagint's word for the
+        commanded tassel, and the Greek preserves the wing/corner double sense. This is the hard,
+        checkable version of a link the retired study only asserted.
+      terms:
+        - {word: "κράσπεδον", language: greek, transliteration: "kraspedon", strongs_id: "G2899", gloss: "tassel, fringe", notes: "LN 6.180. Matt 9:20, Luke 8:44 only -- not Mark. LXX Num 15:38 for tsitsit."}
+        - {word: "צִיצִת", language: hebrew, transliteration: "tsitsit", strongs_id: "H6734", gloss: "tassel"}
+        - {word: "כָּנָף", language: hebrew, transliteration: "kanaph", strongs_id: "H3671", gloss: "wing; corner/edge of a garment", notes: "Num 15:38 (garment corner), Mal 3:20[4:2] (sun's wings), Zech 8:23 (garment corner). The double sense is real; the fulfilment claim built on it is not."}
+        - {word: "ἅπτω", language: greek, transliteration: "hapto", strongs_id: "G680", gloss: "touch", notes: "Only place in Mark where someone touches Jesus first; elsewhere 1:41, 3:10, 6:56, 7:33, 8:22, 10:13 he initiates."}
+        - {word: "δύναμις", language: greek, transliteration: "dynamis", strongs_id: "G1411", gloss: "power"}
+        - {word: "σῴζω", language: greek, transliteration: "sozo", strongs_id: "G4982", gloss: "save, heal, make whole", notes: "LN 23.136 (physical healing) at both 5:28 and 5:34 -- same domain as iaomai at 5:29. Guards against reading 'saved' here. Phrase repeats verbatim at 10:52."}
+        - {word: "θυγάτηρ", language: greek, transliteration: "thygater", strongs_id: "G2364", gloss: "daughter", notes: "Mark 5:34 is the only Gospel instance of Jesus addressing a woman this way."}
+        - {word: "נָגַע", language: hebrew, transliteration: "naga", strongs_id: "H5060", gloss: "touch"}
+        - {word: "טָמֵא", language: hebrew, transliteration: "tame", strongs_id: "H2930", gloss: "be unclean"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Culturally bound: the purity machinery itself, and the tassel command (Num 15:38), given to
+        Israel and never laid on the church. Transcultural: disqualification does not block access to
+        Christ, and contact with the unclean does not diminish him -- taught across the Gospels, not
+        resting on this scene alone.
+    theological_principle:
+      done: true
+      notes: >
+        Uncleanness was contagious under the law and holiness was not; at contact with Christ the
+        direction of travel reverses. The law's diagnosis is never denied -- what changes is which
+        party is stronger at the point of contact. Same pattern at Mark 1:40-42 (the leper).
+    application_draft:
+      done: true
+      notes: >
+        Third bullet deliberately turns the retired study's error into the reading lesson: a true
+        observation about a word is not yet an argument about a text.
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Numbers 15:38-39", relation: "the tassel command; LXX kraspeda/pterygia -- the bridge to Matt/Luke"}
+      - {ref: "Deuteronomy 22:12", relation: "second tassel command, cited by CBSB alongside Num 15"}
+      - {ref: "Matthew 8:17 / Isaiah 53:4", relation: "Matthew's OWN fulfilment formula for the healing ministry, one chapter before 9:20 -- replaces the retired study's unsupported Isaiah 53:5 assertion"}
+      - {ref: "Zechariah 8:23", relation: "Gentiles grip the kanaph of a Jew because God is with him -- nearest OT picture of the act, though not cited by any evangelist"}
+      - {ref: "Haggai 2:11-13", relation: "the holiness/uncleanness contagion asymmetry, stated formally"}
+      - {ref: "Mark 10:52", relation: "he pistis sou sesoken se verbatim to Bartimaeus"}
+      - {ref: "Matthew 23:5", relation: "Jesus criticises lengthened tassels -- so he wore them"}
+      - {ref: "Luke 1:78-79", relation: "the NT's own use of the sunrise image, which is where Mal 4:2 actually lands"}
+    translations_compared: ["WEB", "ESV", "Brenton LXX", "SBLGNT", "WLC"]
+    divergences_noted: >
+      All block quotes are WEB (public domain, no reproduction limit); ESV verified verbatim from
+      study-notes.db and named inline where it differs usefully. Malachi 4:2 English = Malachi 3:20
+      in Hebrew versification -- bible_verse returns no morphology for Mal 4:2, query 3:20.
+  drafting:
+    done: true
+    file: "docs/content/jesus/woman-with-the-issue-of-blood.md"
+  review:
+    done: false
+    validated: true # npm run validate clean on this file; mkdocs build --strict passes; anchor + mermaid verified in built HTML
+
+open_questions:
+  - "AWAITING USER REVIEW -- draft: true. Do not flip to false or run commentary_index.py /
+     section_index.py until reviewed (both generators skip drafts anyway)."
+  - "Disposition of the two retired files. Options: mkdocs-redirects entries pointing both old URLs
+     at the new one (plugin already configured in mkdocs.yml), or delete. Both are currently
+     draft: false and live, and both are still linked from jesus/index.md and from each other.
+     Whichever is chosen, jesus/index.md and the References section of the new study need updating
+     in the same commit. USER'S CALL -- not done."
+  - "Not chased: whether any patristic writer makes the kanaph/tzitzit-to-Malachi link. If an early
+     source does make it, the Malachi section's 'no one makes this connection' framing would need
+     softening to 'no biblical writer, and no modern commentary consulted'. references/patristic-sources.md
+     may have a lead."
+resources_consulted:
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "ed. Walton & Keener (Zondervan)", note: "CONTRIBUTED: identifies kraspedon as the Jewish tassel citing LXX Num 15:38-39 + Deut 22:12, with the hedge 'may refer' -- which is why the draft hedges too. CONFIRMED: crowd-contamination and marriage/destitution background."}
+  - {type: commentary, title: "NKJV Cultural Backgrounds Study Bible", author: "ed. Walton & Keener (Zondervan)", note: "CONTRIBUTED: Mal 4:2 'winged sun disk' ANE iconography reading -- direct evidence against the retired study's fringe/Malachi claim."}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "CONFIRMED uncleanness reading at Mark 5:25-27. CONTRIBUTED Mal 4:2 as sunrise-dispelling-gloom, pointing to Luke 1:78-79."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "CONTRIBUTED: Mal 4:2 'sun of righteousness' as solar epithet for Yahweh (Ps 84:11; Isa 60:19-20). Third independent witness against the fringe/Malachi link."}
+  - {type: lexicon, title: "MACULA Greek (SBLGNT) / MACULA Hebrew (WLC)", author: "Clear Bible", note: "All morphology and Louw-Nida domains; the Mark-vs-Matt/Luke kraspedon finding came from here."}
+  - {type: other, title: "Brenton Septuagint", author: "public domain", note: "Num 15:38 kraspeda/pterygia -- the load-bearing bridge."}
+  - {type: dictionary, title: "TWOT", author: "Harris, Archer & Waltke (Moody)", note: "naga #1293, tame #809."}
+last_updated: "2026-08-17"

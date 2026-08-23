@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Woman with the Issue of Blood](../../jesus/woman-suffering-bleeding.md) — 8:23
+- [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 8:23
 <!-- commentary-index:auto-end -->

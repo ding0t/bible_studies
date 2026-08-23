@@ -72,7 +72,10 @@ plugins:
         'bible/commentaries/02-exodus/chapter-020.md': 'commentaries/02-exodus/chapter-020.md'
         'bible/commentaries/02-exodus/chapter-032.md': 'commentaries/02-exodus/chapter-032.md'
         'bible/commentaries/02-exodus/index.md': 'commentaries/02-exodus/index.md'
-        'bible/commentaries/03-leviticus/chapter-012.md': 'commentaries/03-leviticus/chapter-012.md'
+        # chapter-012 was an auto-generated cross-ref page whose only inbound study was one of
+        # the two retired woman-with-the-issue-of-blood studies, so commentary_index.py removed
+        # it as orphaned. The old URL now lands on the Leviticus book index.
+        'bible/commentaries/03-leviticus/chapter-012.md': 'commentaries/03-leviticus/index.md'
         'bible/commentaries/03-leviticus/chapter-015.md': 'commentaries/03-leviticus/chapter-015.md'
         'bible/commentaries/03-leviticus/chapter-023.md': 'commentaries/03-leviticus/chapter-023.md'
         'bible/commentaries/03-leviticus/chapter-025.md': 'commentaries/03-leviticus/chapter-025.md'
@@ -362,8 +365,14 @@ plugins:
         'studies/prophecy-fulfilled-in-jesus/bread-of-life-feeding-the-multitudes.md': 'jesus/bread-of-life-feeding-the-multitudes.md'
         'studies/prophecy-fulfilled-in-jesus/index.md': 'jesus/index.md'
         'studies/prophecy-fulfilled-in-jesus/woman-at-well.md': 'jesus/woman-at-well.md'
-        'studies/prophecy-fulfilled-in-jesus/woman-issue-of-blood-faith-and-access.md': 'jesus/woman-issue-of-blood-faith-and-access.md'
-        'studies/prophecy-fulfilled-in-jesus/woman-suffering-bleeding.md': 'jesus/woman-suffering-bleeding.md'
+        # The two woman-with-the-issue-of-blood studies were retired 2026-08-23 and replaced by
+        # jesus/woman-with-the-issue-of-blood.md, which corrects the 'all three Gospels mention
+        # the fringe' claim the second of them was built on. Both their post-migration URLs and
+        # their pre-migration ones redirect to the replacement.
+        'studies/prophecy-fulfilled-in-jesus/woman-issue-of-blood-faith-and-access.md': 'jesus/woman-with-the-issue-of-blood.md'
+        'studies/prophecy-fulfilled-in-jesus/woman-suffering-bleeding.md': 'jesus/woman-with-the-issue-of-blood.md'
+        'jesus/woman-issue-of-blood-faith-and-access.md': 'jesus/woman-with-the-issue-of-blood.md'
+        'jesus/woman-suffering-bleeding.md': 'jesus/woman-with-the-issue-of-blood.md'
         'studies/prophecy/day-is-near.md': 'last-things/day-is-near.md'
         'studies/prophecy/genealogy-times.md': 'last-things/genealogy-times.md'
         'studies/prophecy/index.md': 'last-things/index.md'

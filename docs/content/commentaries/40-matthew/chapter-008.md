@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 8:11
+- [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 8:17
 <!-- commentary-index:auto-end -->

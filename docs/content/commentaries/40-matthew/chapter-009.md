@@ -13,7 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 9:9-13 (primary passage)
-- [Woman with the Issue of Blood](../../jesus/woman-suffering-bleeding.md) — 9:20-22 (primary passage)
+- [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 9:20-22 (primary passage)
 - [Simon the Zealot](../../biblical-figures/simon-the-zealot.md) — 9:9
-- [The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](../../jesus/woman-issue-of-blood-faith-and-access.md) — 9:18-26
 <!-- commentary-index:auto-end -->

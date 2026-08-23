@@ -12,8 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](../../jesus/woman-issue-of-blood-faith-and-access.md) — 5:25-34 (primary passage)
-- [Woman with the Issue of Blood](../../jesus/woman-suffering-bleeding.md) — 5:25-34 (primary passage)
+- [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 5:25-34 (primary passage)
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:12
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 5:37
 - [John son of Zebedee](../../biblical-figures/john.md) — 5:37

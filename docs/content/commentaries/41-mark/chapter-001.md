@@ -17,5 +17,5 @@ draft: false
 - [John son of Zebedee](../../biblical-figures/john.md) — 1:19-20
 - [Sin and Sorcery](../../sin/sorcery.md) — 1:32-34
 - [The Way](../../jesus/the-way.md) — 1:2-3
-- [The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](../../jesus/woman-issue-of-blood-faith-and-access.md) — 1:40-42
+- [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 1:40-42
 <!-- commentary-index:auto-end -->

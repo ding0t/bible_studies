@@ -15,165 +15,165 @@ way.
 <!-- recent-updates:auto-start -->
 <div class="grid cards" markdown>
 
--   __Tags__
+-   __What Creation Declares: General Revelation in Romans 1:19-23__
 
     ---
 
-    Browse every study on this site by tag — method, original language, subject, and status.
+    An exegetical study of Romans 1:19-23 on what creation alone reveals about God, with a look at young-earth arguments from design, the fossil record, and the early universe.
 
-    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](../tags.md)
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../god/creation-reveals-the-creator.md)
 
--   __Prayer__
-
-    ---
-
-    Understanding prayer as communion with God and our identity as His children
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../christian-life/prayer-as-communion.md)
-
--   __The Lord's Prayer: What Jesus Taught Us About How to Pray__
+-   __Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41__
 
     ---
 
-    An exegetical study of Matthew 6:9-13 and Luke 11:2-4 -- cultural background, Old Testament roots, word studies, and the pattern Jesus gave his disciples for prayer.
+    An exegetical study of Job 40:15-41:34 — two real, mighty animals God parades before Job, neither of which matches anything alive today. What the Hebrew says about their habitat and their fire, why the hippopotamus and crocodile identifications fail, and where the creatures may be attested outside Scripture.
 
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../christian-life/lords-prayer.md)
+    :material-new-box: New 2026-08-23 · [:octicons-arrow-right-24: Read](../god/behemoth-and-leviathan.md)
 
--   __Be Prepared__
-
-    ---
-
-    Apologetics: preparing believers to defend their faith with gentleness and respect
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../christian-life/be-prepared.md)
-
--   __Fasting__
+-   __The Day Is Near__
 
     ---
 
-    Understanding fasting
+    Why the timing of Christ's return is deliberately hidden, and the six-then-seventh pattern -- creation week, Sabbath, Hebrews' rest, the millennium -- this site reads through 2 Peter 3's 'a day is as a thousand years.'
 
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../christian-life/fasting.md)
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../last-things/day-is-near.md)
 
--   __Sermon Principals__
-
-    ---
-
-    Principles and guidelines for writing and delivering biblical sermons
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sermons/sermon-howto.md)
-
--   __On Teaching__
+-   __Romans 1__
 
     ---
 
-    Biblical principles for laypersons teaching in the church
+    Commentary and cross-referenced studies for Romans chapter 1
 
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sermons/on-teaching.md)
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/45-romans/chapter-001.md)
 
--   __Foundations for Studying the Word__
-
-    ---
-
-    Foundational principles for approaching biblical study with a prophetic perspective
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sermons/dispensational.md)
-
--   __Hebrew Learning Resources__
+-   __Romans 11__
 
     ---
 
-    Recommended courses and materials for learning Biblical Hebrew
+    Commentary and cross-referenced studies for Romans chapter 11
 
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/hebrew-learning-resources.md)
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/45-romans/chapter-011.md)
 
--   __How This Site Is Built__
-
-    ---
-
-    The tech behind this site: mkdocs + Astro, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/site-architecture.md)
-
--   __Open Bible Data on GitHub__
+-   __Ezekiel 29__
 
     ---
 
-    Master list of open-license Bible text, manuscript, lexicon, and cross-reference repositories we fork for use in this project, and why.
+    Commentary and cross-referenced studies for Ezekiel chapter 29
 
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/github.md)
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/26-ezekiel/chapter-029.md)
 
--   __Jewish Literature & Primary Sources__
-
-    ---
-
-    Sefaria and other sources for Jewish literature (Mishnah, Talmud) relevant to understanding a passage's Second Temple / rabbinic background
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/jewish-sources.md)
-
--   __Hebrew Alphabet__
+-   __Job 9__
 
     ---
 
-    Introduction to Hebrew letters, pronunciations, and transliterations
+    Commentary and cross-referenced studies for Job chapter 9
 
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../resources/hebrew-alphabet.md)
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-009.md)
 
--   __Sin and Sorcery__
-
-    ---
-
-    Why Scripture forbids sorcery: an exegetical study of Deuteronomy 18:9-22, where the fullest list of occult practices in the Bible sits immediately before the promise of the Prophet God would raise up.
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sin/sorcery.md)
-
--   __Sin and Idolatry__
+-   __Job 38__
 
     ---
 
-    Understanding idolatry as a primary sin against God
+    Commentary and cross-referenced studies for Job chapter 38
 
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sin/idolatry.md)
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-038.md)
 
--   __Sin and Sexual Immorality__
-
-    ---
-
-    Biblical perspective on sexual immorality and purity
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../sin/sexual-immorality.md)
-
--   __Jesus, Priest in the Order of Melchizedek__
+-   __Job 7__
 
     ---
 
-    A history of the Melchizedek priesthood from Genesis 14 through Second Temple Judaism, and a word-by-word walk through Hebrews' argument that Jesus fulfills it.
+    Commentary and cross-referenced studies for Job chapter 7
 
-    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/melchizedek-priesthood.md)
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-007.md)
 
--   __The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus__
-
-    ---
-
-    A narrative exegesis of Mark 5:25-34: Levitical background, the Markan sandwich structure, and what the touch, power, and healing vocabulary reveal about faith crossing social boundaries
-
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/woman-issue-of-blood-faith-and-access.md)
-
--   __Bread of Life: The Feeding of the 5,000 and the 4,000__
+-   __Job 3__
 
     ---
 
-    The two feeding miracles read the way Jesus reads them at Mark 8:19-21 -- what he makes explicit about the sign in John 6, and what the narrative leaves implicit about Jew, Gentile, shepherd, and the wrong way to want bread.
+    Commentary and cross-referenced studies for Job chapter 3
 
-    :material-new-box: New 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/bread-of-life-feeding-the-multitudes.md)
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-003.md)
 
--   __As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man__
+-   __Job 42__
 
     ---
 
-    An exegetical study of Numbers 21:4-9 and John 3:14-15: how Jesus applies the bronze serpent to his own crucifixion, with word studies tracing 'lifted up' back to Isaiah's Suffering Servant.
+    Commentary and cross-referenced studies for Job chapter 42
 
-    :material-update: Updated 2026-08-07 · [:octicons-arrow-right-24: Read](../jesus/as-the-snake-was-lifted.md)
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-042.md)
+
+-   __Job 40__
+
+    ---
+
+    Commentary and cross-referenced studies for Job chapter 40
+
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-040.md)
+
+-   __Job 41__
+
+    ---
+
+    Commentary and cross-referenced studies for Job chapter 41
+
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-041.md)
+
+-   __Psalms 18__
+
+    ---
+
+    Commentary and cross-referenced studies for Psalms chapter 18
+
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/19-psalms/chapter-018.md)
+
+-   __Psalms 74__
+
+    ---
+
+    Commentary and cross-referenced studies for Psalms chapter 74
+
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/19-psalms/chapter-074.md)
+
+-   __Psalms 104__
+
+    ---
+
+    Commentary and cross-referenced studies for Psalms chapter 104
+
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/19-psalms/chapter-104.md)
+
+-   __1 Timothy 2__
+
+    ---
+
+    Commentary and cross-referenced studies for 1 Timothy chapter 2
+
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/54-1-timothy/chapter-002.md)
+
+-   __Genesis 2__
+
+    ---
+
+    Commentary and cross-referenced studies for Genesis chapter 2
+
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/01-genesis/chapter-002.md)
+
+-   __Genesis 1__
+
+    ---
+
+    Commentary and cross-referenced studies for Genesis chapter 1
+
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/01-genesis/chapter-001.md)
+
+-   __Isaiah 27__
+
+    ---
+
+    Commentary and cross-referenced studies for Isaiah chapter 27
+
+    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/23-isaiah/chapter-027.md)
 
 </div>
 <!-- recent-updates:auto-end -->

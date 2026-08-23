@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](../../jesus/woman-issue-of-blood-faith-and-access.md) — 19:11-13
+- [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 19:11-13
 <!-- commentary-index:auto-end -->

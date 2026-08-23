@@ -12,6 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Woman with the Issue of Blood](../../jesus/woman-suffering-bleeding.md) — 8:43-48 (primary passage)
-- [The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](../../jesus/woman-issue-of-blood-faith-and-access.md) — 8:40-56
+- [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 8:43-48 (primary passage)
 <!-- commentary-index:auto-end -->

@@ -13,5 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 10:35-45 (primary passage)
-- [The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus](../../jesus/woman-issue-of-blood-faith-and-access.md) — 10:46-52
+- [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 10:46-52
 <!-- commentary-index:auto-end -->

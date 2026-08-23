@@ -44,21 +44,13 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
 
     [:octicons-arrow-right-24: Read](the-way.md)
 
--   __The Woman with the Issue of Blood: Faith, Uncleanness, and Access to Jesus__
+-   __The Woman Who Touched the Fringe: Uncleanness Running Backwards__
 
     ---
 
-    A narrative exegesis of Mark 5:25-34: Levitical background, the Markan sandwich structure, and what the touch, power, and healing vocabulary reveal about faith crossing social boundaries
+    Twelve years unclean, she touched Jesus in a crowd and the flow of defilement reversed — plus what Matthew and Luke saw that Mark did not: she grabbed the tassel God commanded Israel to wear
 
-    [:octicons-arrow-right-24: Read](woman-issue-of-blood-faith-and-access.md)
-
--   __Woman with the Issue of Blood__
-
-    ---
-
-    How the healing of the woman with the bleeding issue demonstrates Jesus as the Messiah through the garment fringe motif and Isaiah's prophecies of healing
-
-    [:octicons-arrow-right-24: Read](woman-suffering-bleeding.md)
+    [:octicons-arrow-right-24: Read](woman-with-the-issue-of-blood.md)
 
 </div>
 <!-- section-index:auto-end -->
