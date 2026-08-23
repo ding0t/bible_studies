@@ -36,7 +36,7 @@ through John 14:6 and into the book of Acts.
 
 These are personal Bible study notes — written to make sure I learn, and shared in case they help
 someone else. The Bible is one integrated message about God's dealings with humanity, and it repays
-close reading.
+close study.
 
 The notes focus on:
 
@@ -98,21 +98,80 @@ which is not what coincidence produces.
 
 **I have seen it myself.** Beyond the evidence, I know the work of Christ and the Holy Spirit because I have seen lives — including my own — actually transformed by it. Anyone who is in Christ is a new creation; the old has gone, the new has come ([2 Corinthians 5:17 (ESV)](https://www.blueletterbible.org/esv/2Co/5/17)). That's not theory to me.
 
+## Interactive tools
+
+Two of these studies are charts you can drive rather than pages you read.
+
+<div class="grid cards" markdown>
+
+-   :material-chart-timeline-variant:{ .lg .middle } __Prophetic Timeline__
+
+    ---
+
+    The millennial week, charted: creation to the millennial reign across seven thousand-year
+    "days", on an Anno Mundi axis. Toggle the Masoretic, Septuagint, Samaritan and synthesis
+    genealogy paths against dated archaeology and watch them diverge and converge.
+
+    [:octicons-arrow-right-24: Open the timeline](timeline/)
+
+-   :material-family-tree:{ .lg .middle } __Genealogy Viewer__
+
+    ---
+
+    Adam to Jesus, per person — family tree, lifespans in both Gregorian and Zadok calendars,
+    Hebrew name studies, lineage paths, and who was alive at the same time as whom.
+
+    [:octicons-arrow-right-24: Open the viewer](genealogy/)
+
+</div>
+
 ## Explore
 
-- **[The Way](jesus/the-way.md)** — the word study behind this site's name: *hodos* from its Old Testament roots to Jesus's claim in John 14:6 and the name believers wore in Acts.
-- **[Prophetic Timeline](timeline/)** — key events across biblical history in both Gregorian and Zadok calendars.
-- **[Genealogy Viewer](genealogy/)** — trace the lineage from Adam through Jesus.
-- **[Statement of Faith](about/statement-of-faith.md)** — what I believe, and why, built out one doctrine at a time with Scripture behind each.
+<div class="grid cards" markdown>
+
+-   :material-map-marker-path:{ .lg .middle } __The Way__
+
+    ---
+
+    The word study behind this site's name: *hodos* from its Old Testament roots to Jesus's claim
+    in John 14:6 and the name believers wore in Acts.
+
+    [:octicons-arrow-right-24: Read](jesus/the-way.md)
+
+-   :material-book-open-page-variant:{ .lg .middle } __How to Read the Bible__
+
+    ---
+
+    The method behind every study here — genre, context, and original audience before application.
+
+    [:octicons-arrow-right-24: Read](scripture/how-to-read-the-bible.md)
+
+-   :material-book-cross:{ .lg .middle } __Statement of Faith__
+
+    ---
+
+    What I believe, and why, built out one doctrine at a time with Scripture behind each.
+
+    [:octicons-arrow-right-24: Read](about/statement-of-faith.md)
+
+-   :material-bookshelf:{ .lg .middle } __Commentaries__
+
+    ---
+
+    Chapter-by-chapter notes, book by book, from Genesis through Revelation.
+
+    [:octicons-arrow-right-24: Browse](commentaries/index.md)
+
+</div>
 
 ## Recently updated
 
 <!-- recent-updates-teaser:auto-start -->
-- **[Tags](tags.md)** — :material-new-box: New 2026-08-07
-- **[Prayer](christian-life/prayer-as-communion.md)** — :material-update: Updated 2026-08-07
-- **[The Lord's Prayer: What Jesus Taught Us About How to Pray](christian-life/lords-prayer.md)** — :material-update: Updated 2026-08-07
-- **[Be Prepared](christian-life/be-prepared.md)** — :material-update: Updated 2026-08-07
-- **[Fasting](christian-life/fasting.md)** — :material-update: Updated 2026-08-07
+- **[What Creation Declares: General Revelation in Romans 1:19-23](god/creation-reveals-the-creator.md)** — :material-update: Updated 2026-08-23
+- **[Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](god/behemoth-and-leviathan.md)** — :material-new-box: New 2026-08-23
+- **[The Day Is Near](last-things/day-is-near.md)** — :material-update: Updated 2026-08-23
+- **[Romans 1](commentaries/45-romans/chapter-001.md)** — :material-update: Updated 2026-08-23
+- **[Romans 11](commentaries/45-romans/chapter-011.md)** — :material-update: Updated 2026-08-23
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) list for more.
