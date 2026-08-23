@@ -28,7 +28,7 @@ Sermon notes and presentation material.
 
     [:octicons-arrow-right-24: Read](on-teaching.md)
 
--   __Sermon Principals__
+-   __Sermon Principles__
 
     ---
 
