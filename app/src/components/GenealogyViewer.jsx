@@ -65,7 +65,11 @@ const GenealogyViewer = () => {
   // Get children of a person
   const getChildren = (personId) => {
     const person = getPerson(personId);
-    return person?.children.map(childId => getPerson(childId)) || [];
+    // filter(Boolean) because a children list may name someone the dataset doesn't carry --
+    // Noah names Ham and Japheth, Abraham names Ishmael, and only the covenant line has a
+    // record. Without it, an unresolved id becomes an undefined element and the TreeNode map
+    // below throws on child.id, taking the whole viewer down rather than the one branch.
+    return person?.children?.map(childId => getPerson(childId)).filter(Boolean) ?? [];
   };
 
   // Get ancestors of a person (parents, grandparents, etc.)
