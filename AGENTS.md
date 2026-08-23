@@ -15,7 +15,9 @@ study, commentary, or sermon file, use the **develop-bible-study** skill
 enforces exegesis-before-hermeneutics and keeps a resumable state file per study under
 `references/study-state/`. See [docs/CONTENT_GUIDE.md](docs/CONTENT_GUIDE.md) for the frontmatter
 schema (`title`, `category`, `description`, `tags`, `draft`, `primary_passage`, `bible_references`)
-every content file needs.
+every content file needs, plus the three provenance fields (`date_created`, `date_modified`,
+`ai_provider_models`) that `utils/refresh_frontmatter_provenance.py` derives from git — never
+hand-write those three.
 
 ## Biblical scholar principles
 
@@ -128,6 +130,7 @@ uv run python build_study_notes.py # commercial study-Bible db, writes outside t
 ```bash
 python3 utils/validate_genealogy.py       # run after hand-editing docs/data/genealogy/*.json
 python3 utils/generate_recent_updates.py  # regenerate the Recently Updated page/teaser from git log; runs automatically in CI, so a manual run is only needed to preview locally
+python3 utils/refresh_frontmatter_provenance.py  # fill date_created/date_modified/ai_provider_models on hand-written pages from git history -- run BEFORE committing a new or revised page and stage its edit with yours (--check reports drift without writing)
 ```
 
 **Deploy**: `.github/workflows/deploy.yml` runs `utils/generate_recent_updates.py`, then
@@ -175,6 +178,16 @@ manually (`workflow_dispatch`).
   (`docs/content/index.md`). It runs automatically in CI right before `mkdocs build`, so the page
   is fresh on every deploy without anyone needing to remember to regenerate it — unlike
   `commentary_index.py`/`section_index.py`, which are manual, this one isn't.
+- **`utils/refresh_frontmatter_provenance.py` is the other git-derived writer**, and unlike
+  `generate_recent_updates.py` it is *manual* — it writes into the frontmatter of the ~93
+  hand-written pages (`date_created`, `date_modified`, `ai_provider_models`), so running it in CI
+  would mean CI rewriting committed source. `validate-content.js` check 17 closes the gap instead,
+  warning when a page's `date_modified` has fallen behind its last commit. Scope is defined by the
+  absence of `commentary-index:auto-start`: the 432 generated cross-reference pages are exempt,
+  since a provenance record on a file a script writes on demand records the script run, not
+  authorship. **It runs before a commit, not after** — a dirty file gets today's date, so staging
+  its edit with the content edit makes the two agree; run after committing and it can never
+  converge, because writing the dates is itself a change to every page.
 
 ## Standards
 

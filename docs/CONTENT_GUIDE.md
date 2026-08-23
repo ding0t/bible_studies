@@ -108,6 +108,56 @@ zadok_year: 5999
 gregorian_year: 2024
 ```
 
+## Provenance Fields (Generated — do not hand-write)
+
+Every hand-written page carries three provenance fields at the end of its frontmatter:
+
+```yaml
+date_created: 2026-08-02
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
+```
+
+| Field | Meaning | Source |
+|---|---|---|
+| `date_created` | Date of the file's first commit | `git log --follow`, so a rename doesn't reset it |
+| `date_modified` | Date of its most recent commit | `git log` |
+| `ai_provider_models` | Every model that has touched the file | `Co-Authored-By` trailers on the commits that touched it |
+
+**Fill them in with the script, not by hand:**
+
+```bash
+python3 utils/refresh_frontmatter_provenance.py          # writes the fields
+python3 utils/refresh_frontmatter_provenance.py --check  # reports drift, exits 1, writes nothing
+```
+
+Re-running is safe — `ai_provider_models` is unioned with what's already in the file rather than
+overwritten, so an entry added by hand survives.
+
+!!! warning "Run it before you commit"
+    A file with uncommitted changes gets today's date, because today is when the commit you're
+    about to make will land. Stage the provenance edit together with the content edit and the two
+    agree by construction. Running the script *after* committing can't converge: stamping the
+    dates is itself a change to every page, so the commit that records them moves each file's
+    last-commit date one commit further on, and check 17 flags the lot.
+
+Entries are **provider-qualified**: `anthropic/claude-opus-5`, not `Claude Opus 5` or a bare
+`claude-opus-5`. `validate-content.js` check 17 warns on an unqualified entry, on any of the three
+fields missing, and on a `date_modified` that has fallen behind the file's last commit.
+
+The generated commentary cross-reference pages are exempt — they carry
+`<!-- commentary-index:auto-start -->` and are rewritten on demand by `commentary_index.py`, so a
+provenance record on them would describe a script run rather than authorship. The refresh script
+and the validator both skip them on that marker.
+
+!!! note "Why derived rather than typed"
+    A date typed into frontmatter goes stale the moment someone edits the file and forgets, and a
+    stale provenance record is worse than none. This is the same reasoning behind
+    `utils/generate_recent_updates.py` deriving the "Recently Updated" page from git log rather
+    than from a hand-maintained date field.
+
 ## Common Mistakes to Avoid
 
 ### ❌ Blank line before frontmatter
@@ -312,6 +362,10 @@ description: "An in-depth study of the Day of Atonement and its fulfillment in C
 tags: ["feasts", "atonement", "leviticus", "jesus", "redemption"]
 draft: false
 bible_references: ["Leviticus 16", "Leviticus 23:27-32", "Hebrews 9:11-14"]
+date_created: 2026-08-02
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # The Day of Atonement

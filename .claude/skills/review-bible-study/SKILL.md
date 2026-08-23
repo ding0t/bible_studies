@@ -183,7 +183,11 @@ drafts to, applied backwards. Work through its three parts:
   hits to look for: tags restating the section, facets written flat (`word-study` for
   `method/word-study`), colons, uppercase/spaces, near-synonyms, and a person carrying the bare name
   of a book.
-- **Frontmatter**, per that file's "Frontmatter failures worth checking."
+- **Frontmatter**, per that file's "Frontmatter failures worth checking" and "The provenance
+  fields." The provenance trio is derived, never typed — if `date_created`, `date_modified` or
+  `ai_provider_models` is missing or stale, the finding is "run
+  `python3 utils/refresh_frontmatter_provenance.py`", not a hand-edit. Don't invent a date or a
+  model to fill a gap; git is the only source for those values.
 
 **Severity.** These are **Minor** by default, with two exceptions that are **Major** because they
 corrupt a generated page elsewhere on the site: a missing `primary_passage`/`bible_references` (the

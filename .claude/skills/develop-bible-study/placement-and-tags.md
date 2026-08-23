@@ -81,8 +81,47 @@ Everything else is a plain topic tag: a book, a feast, a concept. Rules that mat
 - Prefer an existing tag to a near-synonym (`messianic` beside `messianic-prophecy`). Check
   [docs/content/tags.md](../../../docs/content/tags.md) — the rendered index is the live vocabulary.
 
+## The provenance fields
+
+Every hand-written page under `docs/content/` carries three provenance fields, at the end of the
+frontmatter block:
+
+```yaml
+date_created: 2026-08-02
+date_modified: 2026-08-23
+ai_provider_models:
+  - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
+```
+
+**Don't type these by hand — derive them.** Run `python3 utils/refresh_frontmatter_provenance.py`
+from the repo root and it fills all three in from git history: first-commit date, last-commit
+date, and every model named in a `Co-Authored-By` trailer on the commits that touched the file. It
+follows renames, so the 2026-08 taxonomy migration doesn't reset an older study's `date_created`
+to the day it was moved. Re-running is safe: it unions `ai_provider_models` with whatever is
+already there rather than overwriting, so a model recorded by hand survives.
+
+Two rules that follow from where the values come from:
+
+- **Run it before you commit, and stage its edit with the content edit.** A file with uncommitted
+  changes gets today's date, because today is when the commit you are about to make will land.
+  Running it *after* committing cannot converge: stamping the dates is itself a change to every
+  page, so the commit recording them moves each file's last-commit date one commit further on, and
+  check 17 then flags the lot.
+- **`ai_provider_models` entries are provider-qualified** — `anthropic/claude-opus-5`, not
+  `Claude Opus 5` and not a bare `claude-opus-5`. `validate-content.js` check 17 warns on entries
+  without the `provider/` prefix, on any of the three fields missing, and on a `date_modified`
+  that has fallen behind the file's last commit.
+
+The generated commentary cross-reference pages are deliberately exempt: they carry
+`commentary-index:auto-start` and are rewritten on demand by `commentary_index.py`, so a
+provenance record on them would describe a script run rather than authorship. The refresh script
+and the validator both skip them on exactly that marker.
+
 ## Frontmatter failures worth checking
 
+- The three provenance fields missing, or `date_modified` older than the file's last commit. The
+  fix is always the same one command above; `npm run validate` from `app/` will tell you.
 - `primary_passage` or `bible_references` missing — the study is then invisible to
   `commentary_index.py` and silently under-reports in the cross-reference index.
 - Surviving template placeholders: `tag1`/`tag2`, `"Brief description of the page content"`,

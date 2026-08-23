@@ -5,6 +5,7 @@
  * Run with: node scripts/validate-content.js
  */
 
+import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -12,10 +13,44 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const CONTENT_DIR = path.join(__dirname, '../../docs/content');
+const REPO_ROOT = path.join(__dirname, '../..');
+const CONTENT_DIR = path.join(REPO_ROOT, 'docs/content');
 
 let hasErrors = false;
 let warningCount = 0;
+
+// Last commit date per content path, for check 17. One `git log` pass over the whole tree rather
+// than one per file -- 500-odd git spawns would dominate the runtime of an otherwise instant
+// linter. Paths are as-committed, so a file renamed and not yet re-committed simply won't appear
+// here and the check skips it, which is the right call: there is nothing to be out of date with.
+// Returns an empty map outside a git checkout (a tarball download, say) so the linter still runs.
+function lastCommitDates() {
+  const dates = new Map();
+  let out;
+  try {
+    out = execFileSync('git', ['log', '--date=short', '--format=%ad', '--name-only', '--', 'docs/content'], {
+      cwd: REPO_ROOT,
+      encoding: 'utf-8',
+      maxBuffer: 64 * 1024 * 1024,
+    });
+  } catch {
+    return dates;
+  }
+  let currentDate = null;
+  for (const line of out.split('\n')) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    if (/^\d{4}-\d{2}-\d{2}$/.test(trimmed)) {
+      currentDate = trimmed;
+    } else if (currentDate && !dates.has(trimmed)) {
+      // git log is newest-first, so the first sighting of a path is its latest commit.
+      dates.set(trimmed, currentDate);
+    }
+  }
+  return dates;
+}
+
+const LAST_COMMIT_DATES = lastCommitDates();
 
 function log(type, file, message) {
   const relativePath = path.relative(process.cwd(), file);
@@ -366,6 +401,53 @@ function validateFile(filePath) {
           filePath,
           `"${hit[0]}" appears in the first 150 words with no gloss. A reader who does not own the word stops reading there. Explain it in the sentence that uses it, or move it past the opening.`
         );
+      }
+    }
+  }
+
+  // Check 17: the provenance fields -- date_created, date_modified, ai_provider_models -- on the
+  // hand-written pages. They are written by utils/refresh_frontmatter_provenance.py from git
+  // history; this check exists because a date typed into frontmatter goes stale the moment
+  // someone edits the file and forgets, and a stale provenance record is worse than none.
+  //
+  // Scoped to hand-written pages: the commentary cross-reference pages are generated on demand by
+  // commentary_index.py and carry its marker, and a provenance record on those would describe a
+  // script run rather than authorship. Warnings, not errors, in the spirit of checks 10-16 --
+  // the fix is always the same one command, and a stale date should never block a build.
+  if (!content.includes('<!-- commentary-index:auto-start -->')) {
+    for (const field of ['date_created', 'date_modified', 'ai_provider_models']) {
+      if (!frontmatter.match(new RegExp(`^${field}:`, 'm'))) {
+        log(
+          'warning',
+          filePath,
+          `Missing "${field}" in frontmatter. Run \`python3 utils/refresh_frontmatter_provenance.py\` to fill the provenance fields in from git history.`
+        );
+      }
+    }
+
+    const modifiedMatch = frontmatter.match(/^date_modified:\s*(\d{4}-\d{2}-\d{2})\s*$/m);
+    const lastCommit = LAST_COMMIT_DATES.get(path.relative(REPO_ROOT, filePath));
+    if (modifiedMatch && lastCommit && modifiedMatch[1] < lastCommit) {
+      log(
+        'warning',
+        filePath,
+        `date_modified is ${modifiedMatch[1]} but the file was last committed ${lastCommit}. Run \`python3 utils/refresh_frontmatter_provenance.py\` to bring the provenance fields back in line with git.`
+      );
+    }
+
+    // A model that isn't provider-qualified ("Claude Opus 5" rather than
+    // "anthropic/claude-opus-5") reads fine to a human and sorts and greps badly.
+    const modelsBlock = frontmatter.match(/^ai_provider_models:(.*(?:\n {2}-.*)*)/m);
+    if (modelsBlock) {
+      for (const entry of modelsBlock[1].matchAll(/(?:^|[[,\n])\s*-?\s*["']?([^,\]\n"']+)/g)) {
+        const value = entry[1].trim();
+        if (value && value !== '[]' && !value.includes('/')) {
+          log(
+            'warning',
+            filePath,
+            `ai_provider_models entry "${value}" is not provider-qualified. Use the "provider/model" form, e.g. anthropic/claude-opus-5.`
+          );
+        }
       }
     }
   }
