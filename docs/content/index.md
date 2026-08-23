@@ -41,15 +41,29 @@ through John 14:6 and into the book of Acts.
 
 These are personal Bible study notes — written to make sure I learn, and shared in case they help
 someone else. The Bible is one integrated message about God's dealings with humanity, and it repays
-close study, hoping to move the author from milk to solid food .
+close study — study I hope will move the author from milk to solid food
+([Hebrews 5:12-14 (ESV)](https://www.blueletterbible.org/esv/Heb/5/12-14)).
 
-The notes focus on:
+As personal study notes, they are of course not authoritative. The reader is encouraged to question
+and validate, as the Bereans did
+([Acts 17:11 (ESV)](https://www.blueletterbible.org/esv/Act/17/11)).
+
+One of the tools I use in the development of these studies is AI. That may well put you off — how
+can AI be of use when it is trained on all the wisdom of man? True. But the models question some of
+the positions I take, and that forces me to be prepared to give an account
+([1 Peter 3:14-16 (ESV)](https://www.blueletterbible.org/esv/1Pe/3/14-16)). And in giving account, I
+learn, and train my mind and heart to defend the truth of Christ. Some AI terminology does slip
+through, and it annoys me too. By publishing, I am accountable to review these studies, remember
+what I learned, fix errors I did not pick up earlier, and refine a position left with an itch.
+
+The studies have a focus on:
 
 - Understanding faith in God as described in the Old and New testaments of the Bible, in order to be prepared to explain the truth in love.
 - Bible end times — Scripture says we are in the last days, and it matters to know where we stand with God before hard days arrive.
 - Questions that come up often, worked through original languages and various English translations to improve accuracy of reading and context.
 - Starting the journey of learning biblical Hebrew.
-- Getting some sermon/teaching ideas together as they come.
+- Answering little [side quests](god/world-population-declares-gods-creation-and-biblical-truth.md) that come up.
+- Getting some teaching ideas together as they come.
 
 ## The gospel
 
