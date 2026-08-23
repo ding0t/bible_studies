@@ -268,6 +268,107 @@ function validateFile(filePath) {
       );
     }
   });
+
+  // Checks 14-16: how long the opening makes a reader wait for the point, and what it
+  // makes them wade through on the way. These exist because reader feedback on
+  // feasts/last-supper-four-cups.md was "too much reading to get to the main point" while
+  // every standard readability formula rated that study fine -- Flesch 60.0, grade 10.5,
+  // mid-pack against its peers. Flesch counts syllables per word and words per sentence;
+  // it cannot see time-to-payoff, and it actively rewards a short unfamiliar word ("Seder",
+  // two syllables) over the plain phrase that explains it. Rewriting that intro moved its
+  // Flesch score DOWN (70.5 -> 66.2) while making it materially easier to read, so a
+  // readability gate would have passed the version readers complained about and flagged the
+  // fix as a regression. Hence: measure the structural facts, never score the prose.
+  //
+  // All three are scoped to studies -- frontmatter carries primary_passage, body over 400
+  // words -- which excludes the ~390 generated commentary pages, index/tag pages, and the
+  // short narrative pieces under god/dreams-and-visions/. All three are WARNINGS, in the
+  // spirit of Checks 10-13: each has a legitimate exception the regex cannot see.
+  const isStudy =
+    /^primary_passage:/m.test(frontmatter) &&
+    bodyContent.split(/\s+/).filter((w) => /[A-Za-z]/.test(w)).length >= 400;
+
+  if (isStudy) {
+    // A bold run is how this site states an opening thesis, so it doubles as a machine-
+    // readable marker for "the point starts here". Bold spans hard-wrapped lines constantly
+    // in this corpus, so the pattern must cross a single newline but stop at a blank line --
+    // a naive [^*\n]+ under-reports badly (it read last-supper's thesis as 416 words in
+    // rather than 180). Prose before the first bold run is the reader's toll.
+    //
+    // Tuning: all 34 studies have a bold lead; median 206 words, p75 250. A 250 threshold
+    // fires on 8, several of which are fine (a study earning its thesis with a scene first
+    // is a legitimate shape). 300 fires on 4, each indefensible by inspection -- the worst
+    // is jesus/woman-suffering-bleeding.md at 429. Raise this only with a fresh audit.
+    const THESIS_WORD_LIMIT = 300;
+    const boldLead = /\*\*(?:[^*\n]|\n(?!\s*\n))+?\*\*/.exec(bodyContent.replace(/^#.*$/gm, ''));
+    const wordsToThesis = boldLead
+      ? bodyContent
+          .replace(/^#.*$/gm, '')
+          .slice(0, boldLead.index)
+          .split(/\s+/)
+          .filter((w) => /[A-Za-z]/.test(w)).length
+      : Infinity;
+    if (wordsToThesis > THESIS_WORD_LIMIT) {
+      log(
+        'warning',
+        filePath,
+        `Opening runs ${wordsToThesis === Infinity ? 'the whole study' : wordsToThesis + ' words'} before it states a point in bold. A reader should not have to take the argument on faith that long -- say what the study concludes, then spend the rest earning it.`
+      );
+    }
+
+    // Check 15: an opening that is mostly other people's words. Scripture up front is fine;
+    // 250 words of it before the study says anything is the reader reading the Bible, not
+    // the study. Threshold 40% of the first 250 words fires on 2 of 34.
+    let openingWords = 0;
+    let quotedWords = 0;
+    for (const line of bodyLines) {
+      if (openingWords >= 250) break;
+      const lw = line.split(/\s+/).filter((w) => /[A-Za-z]/.test(w)).length;
+      if (line.trim().startsWith('>')) quotedWords += Math.min(lw, 250 - openingWords);
+      openingWords += lw;
+    }
+    const quotedShare = Math.round((quotedWords / Math.min(openingWords, 250)) * 100);
+    if (quotedShare > 40) {
+      log(
+        'warning',
+        filePath,
+        `${quotedShare}% of the opening 250 words are block quote. Give the reader your reason for quoting before the quote, or the passage is just text they have to hold until you tell them why.`
+      );
+    }
+
+    // Check 16: a term the reader may not own, in the first 150 words, unglossed. This is
+    // the defect Flesch is blindest to -- "Seder" scores BETTER than "the Passover meal's
+    // order of service". The list is deliberately short and specific to this site's habits;
+    // add to it when a study introduces a new term of art. A gloss counts if it follows
+    // within 120 characters, in any of the shapes this corpus already uses: a parenthetical,
+    // an em-dash or comma appositive, or an explicit "Hebrew/Greek for". Fires on 2 of 34.
+    const JARGON = [
+      'seder', 'liturgy', 'exegesis', 'exegetical', 'hermeneutic', 'hermeneutics',
+      'eschatology', 'eschatological', 'pericope', 'masoretic', 'septuagint', 'typology',
+      'antitype', 'soteriology', 'dispensational', 'dispensationalism', 'apocalyptic',
+      'midrash', 'halakha', 'koinonia', 'propitiation', 'eisegesis', 'chiasm', 'chiastic',
+      'inclusio', 'protoevangelium'
+    ];
+    const openingProse = bodyContent
+      .replace(/^#.*$/gm, '')
+      .split(/\s+/)
+      .filter((w) => /[A-Za-z]/.test(w))
+      .slice(0, 150)
+      .join(' ');
+    for (const term of JARGON) {
+      const hit = new RegExp(`\\b${term}\\b`, 'i').exec(openingProse);
+      if (!hit) continue;
+      const after = openingProse.slice(hit.index, hit.index + 120);
+      const glossed = /\(|\s--\s|\s—\s|,\s(?:the|a|an)\s|\b(?:Hebrew|Greek|Aramaic|Latin)\s+for\b|\bmeans\b/i.test(after);
+      if (!glossed) {
+        log(
+          'warning',
+          filePath,
+          `"${hit[0]}" appears in the first 150 words with no gloss. A reader who does not own the word stops reading there. Explain it in the sentence that uses it, or move it past the opening.`
+        );
+      }
+    }
+  }
 }
 
 function walkDirectory(dir) {
