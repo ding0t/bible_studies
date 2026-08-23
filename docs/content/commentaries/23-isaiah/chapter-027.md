@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 27:1
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 27:12-13
-- [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 27:1
 <!-- commentary-index:auto-end -->

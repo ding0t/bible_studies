@@ -12,6 +12,14 @@ God's nature and character, creation, and the ways he makes himself known.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41__
+
+    ---
+
+    An exegetical study of Job 40:15-41:34 — two real, mighty animals God parades before Job, neither of which matches anything alive today. What the Hebrew says about their habitat and their fire, why the hippopotamus and crocodile identifications fail, and where the creatures may be attested outside Scripture.
+
+    [:octicons-arrow-right-24: Read](behemoth-and-leviathan.md)
+
 -   __What Creation Declares: General Revelation in Romans 1:19-23__
 
     ---

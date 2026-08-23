@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 40:15-24
+- [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 40:15-24 (primary passage)
 <!-- commentary-index:auto-end -->

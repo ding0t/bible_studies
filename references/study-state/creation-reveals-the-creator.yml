@@ -183,6 +183,22 @@ stages:
       fire as written without asserting a mechanism, and lets the reader weigh Ps 18:8.
     validated: true
 
+  extraction_2026-08-23:
+    scope: >
+      The Behemoth/Leviathan section was pulled out into a study of its own at
+      docs/content/god/behemoth-and-leviathan.md (state file:
+      references/study-state/behemoth-and-leviathan.yml). What stays here is the Job 38:4-7 quote,
+      a three-paragraph summary of the two creatures, and a link. The Job entries in this file's
+      bible_references, References list and word-study terms were trimmed to match; Job 38:4-7
+      remains because the whirlwind speech still carries the Romans 1:20 parallel in this study.
+      The extracted study adds four things this one had no room for — the five-text Leviathan
+      survey (Job 3:8, Ps 74:14, Ps 104:26, Isa 27:1), the yatsar/plassō point at Ps 104:26, the
+      LXX drakōn readings at Job 40:25 and Isa 27:1, and the Job 41:11 → Romans 11:35 quotation.
+      One inaccuracy in this file was caught during the extraction and fixed there: Job 41:24 was
+      quoted as a heart "hard as a millstone" where the ESV reads "hard as a stone, hard as the
+      lower millstone."
+    validated: true
+
 open_questions:
   - "Ancient-art 'dinosaurs in art' evidence (Ica stones, Acambaro figurines) is included only as a
      cautionary note, not affirmed -- both are demonstrated 20th-century forgeries/hoaxes, and even
@@ -210,4 +226,4 @@ resources_consulted:
   - {type: other, title: "Space.com -- JWST/Big Bang mainstream science reporting", note: "Mainstream astronomical response paired against AiG/ICR's JWST claim."}
   - {type: other, title: "creation.com (Creation Ministries International) -- 'Ica stones, bad arguments'", note: "A creationist source itself cautioning against the Ica-stones/Acambaro dinosaur-art evidence -- used to justify excluding rather than affirming that specific claim."}
   - {type: other, title: "OpenBible.info cross-references", note: "Cross-ref candidates for Rom 1:19-20 via bible_crossref MCP tool."}
-last_updated: "2026-08-04"
+last_updated: "2026-08-23"
