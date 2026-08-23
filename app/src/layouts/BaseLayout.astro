@@ -3,7 +3,6 @@ interface Props {
   title?: string;
 }
 const { title = 'The Way' } = Astro.props;
-const base = import.meta.env.BASE_URL;
 ---
 
 <html lang="en">
@@ -191,9 +190,13 @@ const base = import.meta.env.BASE_URL;
 
     <nav>
       <ul>
-        <li><a href={`${base}/`}>Home</a></li>
-        <li><a href={`${base}/timeline/`}>Timeline</a></li>
-        <li><a href={`${base}/genealogy/`}>Genealogy</a></li>
+        <!-- Plain root-absolute paths, not `${import.meta.env.BASE_URL}/...`. With no `base`
+             configured BASE_URL is "/", so that template produced "//timeline/" -- a
+             protocol-relative URL the browser resolves against the wrong host. "Home" is the
+             mkdocs site, which shares this domain. -->
+        <li><a href="/">Home</a></li>
+        <li><a href="/timeline/">Timeline</a></li>
+        <li><a href="/genealogy/">Genealogy</a></li>
       </ul>
     </nav>
 

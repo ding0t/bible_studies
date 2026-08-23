@@ -14,7 +14,10 @@ function walk(dir) {
   return out;
 }
 
-export function generateEvents(contentDir, base) {
+// `base` defaults to '' because astro.config no longer sets one -- the site is served from the
+// root of its custom domain. Without the default, astroConfig.base is undefined at the call site
+// below and every url is written as "undefined/jesus/...".
+export function generateEvents(contentDir, base = '') {
   return walk(contentDir)
     .map((file) => {
       const { data } = matter(fs.readFileSync(file, 'utf8'));
@@ -43,7 +46,7 @@ if (isMain) {
   const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
   const contentDir = path.join(repoRoot, 'docs/content');
   const outFile = path.join(repoRoot, 'docs/data/events.json');
-  const events = generateEvents(contentDir, astroConfig.base);
+  const events = generateEvents(contentDir, astroConfig.base ?? '');
   fs.mkdirSync(path.dirname(outFile), { recursive: true });
   fs.writeFileSync(outFile, JSON.stringify(events, null, 2) + '\n');
   console.log(`Wrote ${events.length} events to ${outFile}`);

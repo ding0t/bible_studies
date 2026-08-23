@@ -1,13 +1,16 @@
 site_name: The Way
-site_url: 'https://ding0t.github.io/bible_studies/'
+# Served from the custom domain at its root -- GitHub Pages carries cname the-way.lewy.au, and
+# github.io/bible_studies 301s there. This was still the github.io sub-path URL until 2026-08-23,
+# which made every site-absolute '/bible_studies/...' link on the site a 404 on the live domain.
+site_url: 'https://the-way.lewy.au/'
 repo_url: 'https://github.com/ding0t/bible_studies'
 docs_dir: docs/content
 # Rendered in the site footer. ESV/NIV/NKJV/CSB/NASB each require a copyright notice wherever their
 # text is quoted, so the footer links to the page carrying them -- see docs/content/about/copyright.md.
 # This value is raw HTML and is NOT run through mkdocs' markdown link resolution, so it needs a
-# site-absolute built URL ('/bible_studies/about/copyright/'), not a relative '.md' path -- a '.md'
-# path here ships to the browser verbatim and 404s. Keep the prefix in sync with site_url above.
-copyright: 'Scripture quotations are used by permission — see <a href="/bible_studies/about/copyright/">Copyright &amp; Scripture Permissions</a>'
+# site-absolute built URL ('/about/copyright/'), not a relative '.md' path -- a '.md' path here
+# ships to the browser verbatim and 404s. Site-absolute is from the domain root: no repo prefix.
+copyright: 'Scripture quotations are used by permission — see <a href="/about/copyright/">Copyright &amp; Scripture Permissions</a>'
 
 theme:
   name: material
