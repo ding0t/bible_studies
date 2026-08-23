@@ -417,6 +417,9 @@ plugins:
 # heading on every page site-wide, not just where numbering is wanted.
 extra_css:
   - assets/stylesheets/hero-verses.css
+  # Maps the ten --color-* variables the React tools style themselves from onto
+  # mkdocs-material's own, so they follow the site palette and its dark-mode toggle.
+  - assets/stylesheets/tools.css
 
 # Link checking. mkdocs --strict already fails on a bad FILE path, but said nothing about a
 # bad #anchor -- a link to a heading that has been renamed or never existed would build clean

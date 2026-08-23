@@ -1,0 +1,48 @@
+/* Theme bridge for the interactive tools (genealogy viewer, and the timeline once it migrates).
+ *
+ * The React components style themselves inline from ten CSS custom properties, each written as
+ * var(--color-x, <light-mode fallback>) -- see the `theme` object in GenealogyViewer.jsx and
+ * MillennialWeek.jsx. Those ten used to be defined by Astro's BaseLayout, which carried its own
+ * palette and its own dark-mode toggle. Now mkdocs-material owns the page, so they are defined
+ * here in terms of material's own variables instead.
+ *
+ * There is deliberately no [data-md-color-scheme="slate"] block: material redefines --md-* per
+ * scheme, so mapping onto them makes the tools follow the site's palette toggle for free. Adding
+ * a dark override here would fight that, not help it.
+ */
+:root {
+  --color-text: var(--md-default-fg-color);
+  --color-text-muted: var(--md-default-fg-color--light);
+  --color-text-subtle: var(--md-default-fg-color--light);
+  --color-bg: var(--md-default-bg-color);
+  --color-bg-elevated: var(--md-default-bg-color);
+  --color-card-bg: var(--md-code-bg-color);
+  --color-card-hover: var(--md-accent-fg-color--transparent);
+  --color-border: var(--md-default-fg-color--lightest);
+  --color-border-strong: var(--md-default-fg-color--lighter);
+  --color-primary: var(--md-primary-fg-color);
+
+  /* Selected-row and callout surfaces. The components used fixed indigo/blue-50 and amber tints
+   * for these, which are near-white: fine on Astro's always-light page, unreadable once the
+   * palette toggle can put white text on top of them. Both are alpha/scheme-aware here. */
+  --color-selected-bg: var(--md-accent-fg-color--transparent);
+  --color-callout-bg: var(--md-code-bg-color);
+}
+
+/* Material's content column is 61rem, but the viewer wants up to 1400px and holds wide tables and
+ * a gantt chart. Widen the grid only on pages that actually mount a tool -- keyed off the mount
+ * div, so no prose page is affected and nothing has to be remembered when adding a page. The
+ * component keeps its own max-width and centring, so this raises the ceiling rather than forcing
+ * full width.
+ */
+.md-main:has(#genealogy-root) .md-grid,
+.md-main:has(#timeline-root) .md-grid {
+  max-width: 100%;
+}
+
+/* The tools render their own controls and headings; they don't need the article's top padding
+ * fighting the card layout underneath. */
+#genealogy-root,
+#timeline-root {
+  margin-top: 1rem;
+}

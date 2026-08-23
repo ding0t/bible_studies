@@ -158,7 +158,7 @@ const GenealogyViewer = () => {
             padding: '8px',
             borderRadius: '4px',
             cursor: 'pointer',
-            backgroundColor: selectedPersonId === person.id ? colors.indigo[100] : colors.transparent,
+            backgroundColor: selectedPersonId === person.id ? theme.selectedBg : colors.transparent,
             marginBottom: '4px',
             border: selectedPersonId === person.id ? `2px solid ${colors.indigo[600]}` : `1px solid ${theme.border}`,
           }}
@@ -219,6 +219,11 @@ const GenealogyViewer = () => {
     border: 'var(--color-border, #e2e8f0)',
     borderStrong: 'var(--color-border-strong, #cbd5e1)',
     primary: 'var(--color-primary, #3b82f6)',
+    // Selected-row and callout tints. These were fixed indigo/blue 50-100 hexes until the tool
+    // moved onto a page with a working dark-mode toggle, where a near-white block behind
+    // theme.text (white in dark mode) is unreadable. tools.css maps both onto material's palette.
+    selectedBg: 'var(--color-selected-bg, #eef2ff)',
+    calloutBg: 'var(--color-callout-bg, #f0f9ff)',
   };
 
   return (
@@ -273,7 +278,7 @@ const GenealogyViewer = () => {
                 flex: 1,
                 padding: '8px',
                 border: calendarView === 'gregorian' ? `2px solid ${colors.indigo[600]}` : `1px solid ${theme.borderStrong}`,
-                backgroundColor: calendarView === 'gregorian' ? colors.indigo[50] : theme.bgElevated,
+                backgroundColor: calendarView === 'gregorian' ? theme.selectedBg : theme.bgElevated,
                 borderRadius: '4px',
                 cursor: 'pointer',
                 fontWeight: calendarView === 'gregorian' ? 'bold' : 'normal',
@@ -287,7 +292,7 @@ const GenealogyViewer = () => {
                 flex: 1,
                 padding: '8px',
                 border: calendarView === 'zadok' ? `2px solid ${colors.indigo[600]}` : `1px solid ${theme.borderStrong}`,
-                backgroundColor: calendarView === 'zadok' ? colors.indigo[50] : theme.bgElevated,
+                backgroundColor: calendarView === 'zadok' ? theme.selectedBg : theme.bgElevated,
                 borderRadius: '4px',
                 cursor: 'pointer',
                 fontWeight: calendarView === 'zadok' ? 'bold' : 'normal',
@@ -456,8 +461,8 @@ const GenealogyViewer = () => {
                           <span
                             key={tag}
                             style={{
-                              backgroundColor: colors.blue[50],
-                              color: colors.blue[800],
+                              backgroundColor: theme.selectedBg,
+                              color: theme.primary,
                               padding: '4px 8px',
                               borderRadius: '4px',
                               fontSize: '0.85em',
@@ -497,7 +502,7 @@ const GenealogyViewer = () => {
             <h2 style={{ marginBottom: '16px' }}>Timeline (Patriarch Lifespans)</h2>
             
             {/* Zoom Controls */}
-            <div style={{ marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '12px', padding: '12px', backgroundColor: colors.blue.light, borderRadius: '8px', border: `1px solid ${colors.blue[100]}` }}>
+            <div style={{ marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '12px', padding: '12px', backgroundColor: theme.calloutBg, borderRadius: '8px', border: `1px solid ${theme.border}` }}>
               <button
                 onClick={() => setGanttZoom(Math.max(0.5, ganttZoom - 0.1))}
                 style={{
@@ -591,7 +596,7 @@ const GenealogyViewer = () => {
                         textDecoration: 'underline',
                         fontWeight: '500',
                         borderBottom: `1px solid ${theme.border}`,
-                        backgroundColor: selectedPersonId === person.id ? colors.blue[50] : theme.bgElevated,
+                        backgroundColor: selectedPersonId === person.id ? theme.selectedBg : theme.bgElevated,
                         transition: 'backgroundColor 0.2s'
                       }}
                       title={`Click to view ${person.name}'s details`}
@@ -687,7 +692,7 @@ const GenealogyViewer = () => {
                     const width = ((endYear - startYear) / totalYears) * 100;
 
                     return (
-                      <div key={person.id} style={{ position: 'relative', height: '36px', display: 'flex', alignItems: 'center', borderBottom: `1px solid ${theme.border}`, backgroundColor: selectedPersonId === person.id ? colors.blue[50] : theme.bgElevated }}>
+                      <div key={person.id} style={{ position: 'relative', height: '36px', display: 'flex', alignItems: 'center', borderBottom: `1px solid ${theme.border}`, backgroundColor: selectedPersonId === person.id ? theme.selectedBg : theme.bgElevated }}>
                         <div style={{ position: 'relative', width: '100%', height: '28px', backgroundColor: theme.border, marginLeft: '8px', marginRight: '8px', borderRadius: '4px', display: 'flex', alignItems: 'center' }}>
                           <div
                             onClick={() => {
@@ -710,7 +715,7 @@ const GenealogyViewer = () => {
                               cursor: 'pointer',
                               transition: 'opacity 0.2s',
                               opacity: selectedPersonId === person.id ? 1 : 0.8,
-                              border: selectedPersonId === person.id ? `2px solid ${theme.text}` : `1px solid ${colors.overlay.darkSubtle}`
+                              border: selectedPersonId === person.id ? `2px solid ${theme.text}` : `1px solid ${theme.border}`
                             }}
                             title={calendarView === 'gregorian' ? `${person.name}: ${startYear} to ${endYear} (${person.lifespan_years} years)` : `${person.name}: ${person.zadok_year_born} to ${person.zadok_year_died} Z (${person.lifespan_years} years)`}
                             onMouseEnter={(e) => e.target.style.opacity = '1'}
@@ -816,7 +821,7 @@ const GenealogyViewer = () => {
                   style={{
                     padding: '12px',
                     marginBottom: '8px',
-                    backgroundColor: selectedLineage === key ? colors.indigo[50] : theme.cardBg,
+                    backgroundColor: selectedLineage === key ? theme.selectedBg : theme.cardBg,
                     border: selectedLineage === key ? `2px solid ${colors.indigo[600]}` : `1px solid ${theme.borderStrong}`,
                     borderRadius: '4px',
                     cursor: 'pointer',
@@ -937,7 +942,7 @@ const GenealogyViewer = () => {
             {selectedPerson.bible_references.length > 0 && (
               <div style={{ marginTop: '20px' }}>
                 <h3 style={{ marginBottom: '12px', color: colors.indigo[600] }}>Bible References</h3>
-                <div style={{ backgroundColor: colors.accent.amber, padding: '16px', borderRadius: '8px' }}>
+                <div style={{ backgroundColor: theme.calloutBg, padding: '16px', borderRadius: '8px' }}>
                   <ul style={{ listStyle: 'none', padding: 0 }}>
                     {selectedPerson.bible_references.map((ref, idx) => (
                       <li key={idx} style={{ marginBottom: '8px', fontSize: '0.9em' }}>

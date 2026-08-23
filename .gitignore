@@ -23,3 +23,5 @@ references/build/cache/
 references/build/BibleOrgSysData/
 # Superpowers scratch
 .superpowers/
+# Built by `npm run build:tools` in app/ before the mkdocs build; never committed.
+docs/content/assets/js/

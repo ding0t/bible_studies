@@ -62,9 +62,14 @@ hand-write those three.
 - Environment: primary dev platform is macOS (previously Windows 11 + WSL2 — may still see references to that in older notes).
 - Markup language: markdown
 - Site generator: **mkdocs-material** serves all prose content (`docs/content/`, `docs_dir` in
-  `mkdocs.yml`) and the site home page. **Astro** (`app/`) is reduced to exactly two interactive
-  tools — the prophetic timeline and the genealogy viewer — mounted at `/timeline/` and
-  `/genealogy/` on the same GitHub Pages site. Don't assume Astro renders study content; it doesn't.
+  `mkdocs.yml`), the site home page, and — since 2026-08-24 — the **genealogy viewer**, which is a
+  normal mkdocs page (`docs/content/genealogy.md`) with a React bundle mounted into it, so it
+  inherits the site's sidebar, search and palette toggle. **Astro** (`app/`) is down to exactly one
+  page, the prophetic timeline at `/timeline/`, stitched in at deploy time; it migrates the same way
+  in phase 2, after which Astro goes. Don't assume Astro renders study content; it doesn't.
+- **The site is served from `the-way.lewy.au` at its root**, not from `github.io/bible_studies`
+  (which 301s there). Site-absolute URLs therefore carry no repo prefix. Getting this wrong is not
+  cosmetic: it 404s the tools' JS bundles and kills them silently.
 
 ## Commands
 
@@ -76,16 +81,23 @@ uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-
 
 Hot-reload dev server at http://localhost:8000/. `docs_dir` is `docs/content` (see `mkdocs.yml`).
 
-**Astro app** (`app/` — timeline + genealogy viewer only, separate npm project):
+**Interactive tools** (`app/` — React components for the two tools, separate npm project):
 
 ```bash
 cd app
 npm install
-npm run dev          # dev server at http://localhost:4321/
+npm run build:tools  # esbuild -> docs/content/assets/js/genealogy.js (gitignored). Run this before
+                     # `mkdocs serve` or the genealogy page renders an empty div.
+npm run dev          # Astro dev server at http://localhost:4321/ -- timeline only now
 npm test             # build-events, calendarConvert, bibleReference, chronology
 npm run lint         # eslint src/  (npm run format for prettier)
 npm run build        # prebuild regenerates docs/data/events.json from content frontmatter, then astro build
 ```
+
+The tools style themselves from ten `--color-*` CSS variables with light-mode fallbacks (the
+`theme` object in each component). `docs/content/assets/stylesheets/tools.css` maps those onto
+mkdocs-material's own variables, which is what makes the genealogy viewer follow the site's
+dark-mode toggle without any component change. Add a colour there, not as a hex in a component.
 
 The suites are plain `node:test` files, so a single one runs directly — `node --test
 scripts/build-events.test.js`, or `node src/utils/chronology.test.js` for the `src/utils/` ones
@@ -93,7 +105,7 @@ scripts/build-events.test.js`, or `node src/utils/chronology.test.js` for the `s
 
 `npm run validate` (`app/scripts/validate-content.js`, run from `app/`) is the content linter, and
 **it is not wired into CI** — the deploy workflow runs `npm test` only, so validate has to be run
-by hand after editing content. It applies 13 checks in two groups:
+by hand after editing content. It applies 17 checks in three groups:
 
 - **Checks 1–9, structural**: frontmatter (required fields, tag quoting, draft status), image paths,
   scripture quote blocks opening with `> ✝️ Reference (TRANSLATION)` as their first line (the
@@ -106,6 +118,10 @@ by hand after editing content. It applies 13 checks in two groups:
   zero. Read the comments above each check before tightening one; the rationale is recorded there.
   See `.claude/skills/develop-bible-study/style-guide.md` for the prose rules these partially
   mechanize.
+- **Checks 14–17**: how long a study's opening makes a reader wait for its point (words to the
+  first bold thesis, block-quote share of the opening, unglossed terms of art), and the provenance
+  frontmatter — missing fields, a `date_modified` behind the file's last commit, or an
+  `ai_provider_models` entry that isn't provider-qualified. Also warnings.
 
 **Bible-text database** (`references/build/` — `uv`-managed Python, ≥3.14):
 
@@ -133,9 +149,12 @@ python3 utils/generate_recent_updates.py  # regenerate the Recently Updated page
 python3 utils/refresh_frontmatter_provenance.py  # fill date_created/date_modified/ai_provider_models on hand-written pages from git history -- run BEFORE committing a new or revised page and stage its edit with yours (--check reports drift without writing)
 ```
 
-**Deploy**: `.github/workflows/deploy.yml` runs `utils/generate_recent_updates.py`, then
-`mkdocs build --site-dir site`, then `npm test` + `npm run build` in `app/`, then copies Astro's
-`dist/` on top of the mkdocs `site/` output and publishes to GitHub Pages on push to `main`.
+**Deploy**: `.github/workflows/deploy.yml` runs `utils/generate_recent_updates.py`, then `npm ci`
++ `npm test` + `npm run build:tools` in `app/` (**before** the mkdocs build — `build:tools` writes
+the React bundle into `docs/content/assets/js/`, which mkdocs then copies like any other asset),
+then `mkdocs build --site-dir site`, then `npm run build` for the Astro timeline, then copies
+Astro's `dist/` on top of the mkdocs `site/` output and publishes to GitHub Pages on push to
+`main`.
 It is **path-filtered to `docs/**`, `app/**`, `mkdocs.yml`, and the workflow file** — a commit
 touching only `references/` or `utils/` deploys nothing. If such a change needs to reach the live
 site (e.g. re-running `commentary_index.py` wrote into `docs/content/`, or you want a fresh
@@ -144,9 +163,11 @@ manually (`workflow_dispatch`).
 
 ## Architecture
 
-- **Two independent projects stitched into one deployed site.** mkdocs (`docs/content/`) and Astro
-  (`app/`) have separate dev servers, dependency trees, and test suites; only the deploy workflow
-  combines their build output. Don't assume a change in one is visible from the other's dev server.
+- **One site build, plus a shrinking Astro remnant.** The genealogy viewer is a mkdocs page whose
+  React bundle esbuild writes into `docs/content/` before the mkdocs build, so mkdocs sees it as an
+  ordinary asset and one build produces the whole page. Only the timeline is still a separate Astro
+  build stitched in afterwards. That split is what let the two halves disagree about the site root
+  and 404 every tool asset in 2026-08; phase 2 removes the remnant.
 - **Content frontmatter is the integration point.** `app/scripts/build-events.js` reads
   `docs/content/**/*.md` frontmatter at Astro build time to generate `docs/data/events.json` for
   the timeline. `references/build/commentary_index.py` and `section_index.py` also read it to
