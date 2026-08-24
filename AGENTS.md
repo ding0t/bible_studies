@@ -146,7 +146,12 @@ uv run python build_study_notes.py # commercial study-Bible db, writes outside t
 **Genealogy data** (`utils/` — stdlib-only, run from repo root):
 
 ```bash
-python3 utils/validate_genealogy.py       # run after hand-editing docs/data/genealogy/*.json
+python3 utils/validate_genealogy.py       # run after hand-editing docs/data/genealogy/*.json. Exits
+                                          # non-zero only on a missing REQUIRED field; dangling
+                                          # child ids, optional-field gaps and per-variant year
+                                          # coverage are reported as warnings, because that
+                                          # non-uniformity is legitimate content the components
+                                          # must guard against rather than a data error.
 python3 utils/generate_recent_updates.py  # regenerate the Recently Updated page/teaser from git log; runs automatically in CI, so a manual run is only needed to preview locally
 python3 utils/refresh_frontmatter_provenance.py  # fill date_created/date_modified/ai_provider_models on hand-written pages from git history -- run BEFORE committing a new or revised page and stage its edit with yours (--check reports drift without writing)
 ```
