@@ -72,6 +72,17 @@ const GenealogyViewer = () => {
     return person?.children?.map(childId => getPerson(childId)).filter(Boolean) ?? [];
   };
 
+  // Lifespan as text. Returns null when the selected tradition has no years for this person --
+  // Cainan son of Arphaxad appears only in the LXX genealogy, so under MT or SP there is nothing
+  // to print, and the raw template rendered the string "undefined" three times over.
+  const lifespanText = (person) => {
+    const born = calendarView === 'gregorian' ? person.gregorian_year_born : person.zadok_year_born;
+    const died = calendarView === 'gregorian' ? person.gregorian_year_died : person.zadok_year_died;
+    if (born == null || died == null) return null;
+    const span = person.lifespan_years == null ? '' : ` (${person.lifespan_years} years)`;
+    return `${born} – ${died}${span}`;
+  };
+
   // Get ancestors of a person (parents, grandparents, etc.)
   const getAncestors = (personId, ancestors = []) => {
     const person = getPerson(personId);
@@ -186,9 +197,7 @@ const GenealogyViewer = () => {
             <div style={{ flex: 1 }}>
               <div style={{ fontWeight: 'bold' }}>{person.name}</div>
               <div style={{ fontSize: '0.85em', color: theme.textMuted }}>
-                {calendarView === 'gregorian'
-                  ? `${person.gregorian_year_born} – ${person.gregorian_year_died} (${person.lifespan_years} years)`
-                  : `${person.zadok_year_born} – ${person.zadok_year_died} (${person.lifespan_years} years)`}
+                {lifespanText(person) ?? 'not in this tradition'}
               </div>
             </div>
           </div>
@@ -453,7 +462,7 @@ const GenealogyViewer = () => {
                   <p>
                     <strong>Role:</strong> {selectedPerson.prophetic_role}
                   </p>
-                  {selectedPerson.tags.length > 0 && (
+                  {selectedPerson.tags?.length > 0 && (
                     <div>
                       <strong>Tags:</strong>
                       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '8px' }}>
@@ -474,7 +483,7 @@ const GenealogyViewer = () => {
                       </div>
                     </div>
                   )}
-                  {selectedPerson.major_events.length > 0 && (
+                  {selectedPerson.major_events?.length > 0 && (
                     <div style={{ marginTop: '16px' }}>
                       <strong>Major Events:</strong>
                       <ul style={{ marginTop: '8px', paddingLeft: '20px' }}>
@@ -848,7 +857,7 @@ const GenealogyViewer = () => {
                     .filter(p => p.lineages.includes(selectedLineage))
                     .map(person => (
                       <li key={person.id} style={{ padding: '4px 0', fontSize: '0.9em' }}>
-                        {person.name} ({person.lifespan_years} years)
+                        {person.name}{person.lifespan_years == null ? '' : ` (${person.lifespan_years} years)`}
                       </li>
                     ))}
                 </ul>
@@ -923,7 +932,7 @@ const GenealogyViewer = () => {
               </div>
             </div>
 
-            {selectedPerson.major_events.length > 0 && (
+            {selectedPerson.major_events?.length > 0 && (
               <div style={{ marginTop: '20px' }}>
                 <h3 style={{ marginBottom: '12px', color: colors.indigo[600] }}>Major Events</h3>
                 <div style={{ backgroundColor: theme.cardBg, padding: '16px', borderRadius: '8px', border: `1px solid ${theme.border}` }}>
@@ -939,7 +948,7 @@ const GenealogyViewer = () => {
               </div>
             )}
 
-            {selectedPerson.bible_references.length > 0 && (
+            {selectedPerson.bible_references?.length > 0 && (
               <div style={{ marginTop: '20px' }}>
                 <h3 style={{ marginBottom: '12px', color: colors.indigo[600] }}>Bible References</h3>
                 <div style={{ backgroundColor: theme.calloutBg, padding: '16px', borderRadius: '8px' }}>
@@ -963,7 +972,7 @@ const GenealogyViewer = () => {
                       const child = getPerson(childId);
                       return (
                         <li key={childId} style={{ marginBottom: '8px' }}>
-                          <strong>{child.name}</strong> ({child.lifespan_years} years)
+                          <strong>{child.name}</strong>{child.lifespan_years == null ? '' : ` (${child.lifespan_years} years)`}
                         </li>
                       );
                     })}

@@ -54,3 +54,39 @@
     overflow-x: auto;
   }
 }
+
+/* Form controls do not inherit colour or font from their parent -- the browser's own stylesheet
+ * gives them `color: buttontext` and a `Field` background, which stay light no matter what the
+ * page around them does. That is why the tree's expand/collapse twisty looked identical in both
+ * themes, and why the filter selects and search boxes rendered as white blocks on a dark page.
+ *
+ * Done here rather than as inline styles on each control because there are 23 of them across the
+ * two tools, and the next one added would have the same bug. Inline styles win over these rules,
+ * so the controls that DO set a colour deliberately -- white text on a saturated chip, say --
+ * keep it; this only fills the gaps.
+ */
+#genealogy-root button,
+#genealogy-root select,
+#genealogy-root input,
+#timeline-root button,
+#timeline-root select,
+#timeline-root input {
+  color: inherit;
+  font-family: inherit;
+}
+
+#genealogy-root select,
+#genealogy-root input,
+#genealogy-root option,
+#timeline-root select,
+#timeline-root input,
+#timeline-root option {
+  background-color: var(--color-bg-elevated);
+}
+
+/* Placeholder text needs the muted token explicitly; it does not follow `color: inherit`. */
+#genealogy-root input::placeholder,
+#timeline-root input::placeholder {
+  color: var(--color-text-muted);
+  opacity: 1;
+}
