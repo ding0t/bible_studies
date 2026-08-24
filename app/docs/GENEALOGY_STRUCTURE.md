@@ -59,26 +59,29 @@ All parent-child relationships are preserved across era boundaries:
 - **File**: patriarchal.json
 
 ### Conquest & Judges (14 people)
-- **Date Range**: Zadok 2554-3050 (Gregorian -1450 to -954)
+- **Date Range**: Zadok 2554-3073 (Gregorian -1450 to -931)
 - **Description**: From Conquest of Canaan through Judges era to monarchy establishment
 - **Key Figures**: Samson, Boaz, Ruth, David, Solomon
 - **File**: conquest-judges.json
 
 ### Divided Kingdom (15 people)
-- **Date Range**: Zadok 3050-3400 (Gregorian -954 to -604)
+- **Date Range**: Zadok 3073-3395 (Gregorian -931 to -609)
 - **Description**: From division of Solomon's kingdom through fall of Judah
-- **Kings**: Rehoboam, Asa, Jehoshaphat, Josiah (15 total)
+- **Kings**: Rehoboam, Asa, Jehoshaphat, Josiah (15 total, including Joash)
 - **File**: divided-kingdom.json
 
 ### Exile & Return (4 people)
-- **Date Range**: Zadok 3400-3520 (Gregorian -604 to -484)
+- **Date Range**: Zadok 3395-3489 (Gregorian -609 to -515)
 - **Description**: Babylonian exile through return and temple rebuilding
 - **Key Figures**: Zerubbabel, Shealtiel
 - **File**: exile-return.json
 
 ### Second Temple (12 people)
-- **Date Range**: Zadok 3520-4034 (Gregorian -484 to 30 AD)
-- **Description**: Post-exile Jerusalem through Jesus Christ
+- **Date Range**: Zadok 3489-4036 (Gregorian -515 to 33 AD)
+- **Description**: Post-exile Jerusalem through Jesus Christ. Dates from David onward (see
+  conquest-judges.json's Solomon record through here) are anchored to real history per
+  `docs/content/last-things/chronology-anchors.md`, not the ~25-year-per-generation placeholder
+  spacing used further up the file set.
 - **Key Figures**: Joseph, Mary, Jesus
 - **File**: second-temple.json
 

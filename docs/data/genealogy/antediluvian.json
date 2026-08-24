@@ -41,6 +41,9 @@
         }
       ],
       "bible_references": ["Genesis 1:27", "Genesis 2:7", "Genesis 2:15", "Genesis 3:1-6", "Genesis 4:25", "Genesis 5:1-5"],
+      "name_hebrew": "אָדָם",
+      "name_transliteration": "Adam",
+      "name_meaning": "Man, mankind; from 'adamah' (ground) -- Genesis 2:7 makes the connection explicit (formed from the dust of the ground)",
       "gender": "male"
     },
     {
@@ -168,6 +171,9 @@
         }
       ],
       "bible_references": ["Genesis 4:25-26", "Genesis 5:3-8", "Luke 3:38"],
+      "name_hebrew": "שֵׁת",
+      "name_transliteration": "Shet",
+      "name_meaning": "Appointed, set; from 'shith' (to put, appoint) -- Genesis 4:25 states the wordplay itself ('God has appointed me another offspring')",
       "gender": "male"
     },
     {
@@ -206,6 +212,9 @@
         }
       ],
       "bible_references": ["Genesis 5:6-11", "Luke 3:38"],
+      "name_hebrew": "אֱנוֹשׁ",
+      "name_transliteration": "Enosh",
+      "name_meaning": "Mortal man, frail man; a term for humanity distinct from 'adam'/'ish', emphasizing frailty against God's greatness (e.g. Psalm 8:4) -- inferred from usage elsewhere, not an in-text gloss",
       "gender": "male"
     },
     {
@@ -244,6 +253,9 @@
         }
       ],
       "bible_references": ["Genesis 5:9-14", "Luke 3:37"],
+      "name_hebrew": "קֵינָן",
+      "name_transliteration": "Kenan",
+      "name_meaning": "Meaning uncertain -- no TWOT root exists for the name itself; the popular gloss 'sorrow' rests on an unconfirmed link to a different root and should not be treated as settled",
       "gender": "male"
     },
     {
@@ -282,6 +294,9 @@
         }
       ],
       "bible_references": ["Genesis 5:12-17", "Luke 3:37"],
+      "name_hebrew": "מַהֲלַלְאֵל",
+      "name_transliteration": "Mahalalel",
+      "name_meaning": "Praise of God; theophoric compound of 'halal' (to praise) and 'El' (God)",
       "gender": "male"
     },
     {
@@ -326,6 +341,9 @@
         }
       ],
       "bible_references": ["Genesis 5:15-20", "Luke 3:37"],
+      "name_hebrew": "יֶרֶד",
+      "name_transliteration": "Yered",
+      "name_meaning": "Descent; direct nominal form of 'yarad' (to come down, descend)",
       "gender": "male"
     },
     {
@@ -364,6 +382,9 @@
         }
       ],
       "bible_references": ["Genesis 5:18-24", "Hebrews 11:5", "Jude 1:14-15", "Luke 3:37"],
+      "name_hebrew": "חֲנוֹךְ",
+      "name_transliteration": "Chanokh",
+      "name_meaning": "Dedicated, initiated; from 'chanak' (to train up, dedicate) -- same root as Proverbs 22:6; the popular gloss 'teaching' is a loose paraphrase",
       "gender": "male"
     },
     {
@@ -417,6 +438,9 @@
         }
       ],
       "bible_references": ["Genesis 5:21-27", "Luke 3:37"],
+      "name_hebrew": "מְתוּשֶׁלַח",
+      "name_transliteration": "Metushelach",
+      "name_meaning": "Genuinely ambiguous between two real readings -- 'man of the javelin' (m'tei + shelach) or 'his death shall send [it]' (mut + shalach) -- both parse correctly and nothing in the lexicon settles which was intended",
       "gender": "male"
     },
     {
@@ -455,6 +479,9 @@
         }
       ],
       "bible_references": ["Genesis 4:18-24", "Genesis 5:25-31", "Luke 3:36"],
+      "name_hebrew": "לֶמֶךְ",
+      "name_transliteration": "Lemekh",
+      "name_meaning": "Meaning unknown; no TWOT root exists and standard lexicons mark the derivation genuinely uncertain",
       "gender": "male"
     },
     {
@@ -493,6 +520,9 @@
         }
       ],
       "bible_references": ["Genesis 5:28-32", "Genesis 6-9", "Genesis 7:11", "Genesis 11:10", "2 Peter 2:5", "Luke 3:36"],
+      "name_hebrew": "נֹחַ",
+      "name_transliteration": "Noach",
+      "name_meaning": "Genesis 5:29's own wordplay is with 'nacham' (to comfort), not 'nuach' (rest), despite the similar sound -- a real double sound-play, not a simple derivation",
       "gender": "male"
     }
   ]

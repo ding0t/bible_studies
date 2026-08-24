@@ -4,6 +4,43 @@ import { loadGenealogyPeople, mergePeopleWithVariant, GENEALOGY_INDEX } from '..
 import { BibleReference } from './BibleReference';
 import { colors } from '../styles/colors';
 
+// Site-absolute paths -- this site is served from the-way.lewy.au's root (see AGENTS.md), so a
+// repo-relative link would 404. Case-study anchors point at a specific section of the two studies
+// this viewer's own chronology and word studies come from; everything else falls back to whichever
+// study covers that person's era.
+const GENEALOGY_TIMES_URL = '/last-things/genealogy-times/';
+const CHRONOLOGY_ANCHORS_URL = '/last-things/chronology-anchors/';
+
+const STUDY_LINKS = {
+  methuselah: { url: `${GENEALOGY_TIMES_URL}#methuselah-the-name-the-number-and-the-flood`, label: 'Methuselah: the name, the number, and the Flood' },
+  terah: { url: `${GENEALOGY_TIMES_URL}#terah-and-abram-a-puzzle-two-different-ways`, label: 'Terah and Abram: a puzzle two different ways' },
+  cainan_gen11: { url: `${GENEALOGY_TIMES_URL}#the-cainan-question`, label: 'The Cainan question' },
+  jesus: { url: `${CHRONOLOGY_ANCHORS_URL}#settling-the-crucifixion-year`, label: 'Settling the crucifixion year (Chronology Anchors)' },
+};
+
+const ELASTIC_ERAS = new Set(['Antediluvian', 'Patriarchal']);
+const ANCHORED_ERAS = new Set([
+  'United Kingdom', 'Divided Kingdom', 'Divided Kingdom/Pre-Exile', 'Pre-Exile', 'Exile',
+  'Return from Exile', 'Second Temple',
+]);
+
+// Which published study backs this person's dates, and where -- so a viewer who doubts a date can
+// go read the reasoning instead of just trusting the number. Antediluvian/Patriarchal (Adam-Terah)
+// come from the MT/LXX/SP manuscript comparison in Genealogy and Times; David onward is anchored to
+// real history in Chronology Anchors (see that page's "How the tiers work" for what "Anchored" vs
+// "Elastic" means).
+const getStudyLink = (person) => {
+  if (!person) return null;
+  if (STUDY_LINKS[person.id]) return STUDY_LINKS[person.id];
+  if (ELASTIC_ERAS.has(person.era)) {
+    return { url: GENEALOGY_TIMES_URL, label: 'Genealogy and Times: the manuscript comparison behind this era’s dates' };
+  }
+  if (ANCHORED_ERAS.has(person.era) || person.id === 'david' || person.id === 'solomon') {
+    return { url: CHRONOLOGY_ANCHORS_URL, label: 'Chronology Anchors: what dates this era and how tightly' };
+  }
+  return null;
+};
+
 const GenealogyViewer = () => {
   const [activeTab, setActiveTab] = useState('tree');
   const [selectedPersonId, setSelectedPersonId] = useState('abraham');
@@ -47,13 +84,16 @@ const GenealogyViewer = () => {
   }, [genealogyData]);
 
   // Era definitions for Gantt background bands (Gregorian year ranges)
+  // Era boundaries match docs/data/genealogy/index.json's "eras" block -- keep them in sync.
+  // Solomon's death (931 BC) onward is anchored to docs/content/last-things/chronology-anchors.md;
+  // conquest-judges.json above that point is still the site's unresolved "elastic" pre-Solomon zone.
   const eraBands = [
     { name: 'Antediluvian', start: -4004, end: -2348, color: 'rgba(99, 102, 241, 0.08)' },
     { name: 'Patriarchal', start: -2348, end: -1450, color: 'rgba(16, 185, 129, 0.08)' },
-    { name: 'Conquest & Judges', start: -1450, end: -954, color: 'rgba(245, 158, 11, 0.08)' },
-    { name: 'Divided Kingdom', start: -954, end: -604, color: 'rgba(239, 68, 68, 0.08)' },
-    { name: 'Exile & Return', start: -604, end: -484, color: 'rgba(139, 92, 246, 0.08)' },
-    { name: 'Second Temple', start: -484, end: 30, color: 'rgba(14, 165, 233, 0.08)' },
+    { name: 'Conquest & Judges', start: -1450, end: -931, color: 'rgba(245, 158, 11, 0.08)' },
+    { name: 'Divided Kingdom', start: -931, end: -609, color: 'rgba(239, 68, 68, 0.08)' },
+    { name: 'Exile & Return', start: -609, end: -515, color: 'rgba(139, 92, 246, 0.08)' },
+    { name: 'Second Temple', start: -515, end: 33, color: 'rgba(14, 165, 233, 0.08)' },
   ];
 
   // Get unique eras from data for filter dropdown
@@ -432,9 +472,19 @@ const GenealogyViewer = () => {
             </div>
             {selectedPerson && (
               <div style={{ paddingLeft: '16px' }}>
-                <h2 style={{ fontSize: '1.2em', marginBottom: '16px' }}>
+                <h2 style={{ fontSize: '1.2em', marginBottom: '4px' }}>
                   {selectedPerson.name}
                 </h2>
+                {getStudyLink(selectedPerson) && (
+                  <div style={{ marginBottom: '12px', fontSize: '0.85em' }}>
+                    <a
+                      href={getStudyLink(selectedPerson).url}
+                      style={{ color: theme.primary, textDecoration: 'underline' }}
+                    >
+                      📖 {getStudyLink(selectedPerson).label}
+                    </a>
+                  </div>
+                )}
                 <div style={{ backgroundColor: theme.cardBg, padding: '16px', borderRadius: '8px', border: `1px solid ${theme.border}` }}>
                   <p>
                     <strong>Title:</strong> {selectedPerson.title}
@@ -873,7 +923,18 @@ const GenealogyViewer = () => {
         {activeTab === 'details' && selectedPerson && (
           <div style={{ maxWidth: '900px' }}>
             <h2 style={{ marginBottom: '6px' }}>{selectedPerson.name}</h2>
-            
+
+            {getStudyLink(selectedPerson) && (
+              <div style={{ marginBottom: '16px', fontSize: '0.9em' }}>
+                <a
+                  href={getStudyLink(selectedPerson).url}
+                  style={{ color: theme.primary, textDecoration: 'underline' }}
+                >
+                  📖 {getStudyLink(selectedPerson).label}
+                </a>
+              </div>
+            )}
+
             {/* Hebrew Name Section */}
             {selectedPerson.name_hebrew && (
               <div style={{ 

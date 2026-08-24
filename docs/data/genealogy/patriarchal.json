@@ -75,6 +75,9 @@
         "Genesis 9:26-27",
         "Genesis 11:10-11"
       ],
+      "name_hebrew": "שֵׁם",
+      "name_transliteration": "Shem",
+      "name_meaning": "Name, renown; ordinary Hebrew noun, not in dispute",
       "gender": "male"
     },
     {
@@ -171,6 +174,9 @@
         "Genesis 11:10-13",
         "Luke 3:36"
       ],
+      "name_hebrew": "אַרְפַּכְשַׁד",
+      "name_transliteration": "Arpachshad",
+      "name_meaning": "Meaning uncertain; no attested Hebrew root, possibly a place-name (compare Arrapkha, a region east of the Tigris)",
       "gender": "male"
     },
     {
@@ -234,6 +240,9 @@
         "Genesis 11:13 LXX",
         "Luke 3:36"
       ],
+      "name_hebrew": "קֵינָן",
+      "name_transliteration": "Kainan",
+      "name_meaning": "Same Hebrew form as the Genesis 5 Cainan (son of Enosh); this is the LXX-only figure at Luke 3:36 whose place in the line is textually disputed rather than a distinct name with its own etymology",
       "gender": "male"
     },
     {
@@ -323,6 +332,9 @@
         "Genesis 11:14-15",
         "Luke 3:35"
       ],
+      "name_hebrew": "שֶׁלַח",
+      "name_transliteration": "Shelah",
+      "name_meaning": "Sending forth, javelin; from 'shalach' (to send) -- the same root family as one reading of Methuselah's name",
       "gender": "male"
     },
     {
@@ -407,6 +419,9 @@
         "Genesis 11:16-17",
         "Luke 3:35"
       ],
+      "name_hebrew": "עֵבֶר",
+      "name_transliteration": "Ever",
+      "name_meaning": "The region beyond, the other side; standard derivation of 'Hebrew' (ivri), 'one from the other side [of the river]', ties to this name",
       "gender": "male"
     },
     {
@@ -492,6 +507,9 @@
         "Genesis 11:16-19",
         "Luke 3:35"
       ],
+      "name_hebrew": "פֶּלֶג",
+      "name_transliteration": "Peleg",
+      "name_meaning": "Division; Genesis 10:25 states the wordplay directly ('in his days the earth was divided'), traditionally read as the Babel dispersal though the text doesn't explicitly synchronize the two",
       "gender": "male"
     },
     {
@@ -573,6 +591,9 @@
         "Genesis 11:20-21",
         "Luke 3:35"
       ],
+      "name_hebrew": "רְעוּ",
+      "name_transliteration": "Reu",
+      "name_meaning": "Friend, companion; plausible but not certain derivation",
       "gender": "male"
     },
     {
@@ -654,6 +675,9 @@
         "Genesis 11:22-23",
         "Luke 3:35"
       ],
+      "name_hebrew": "שְׂרוּג",
+      "name_transliteration": "Serug",
+      "name_meaning": "Tendril, branch; plausible but not certain derivation",
       "gender": "male"
     },
     {
@@ -737,6 +761,9 @@
         "Joshua 24:2",
         "Luke 3:34"
       ],
+      "name_hebrew": "נָחוֹר",
+      "name_transliteration": "Nachor",
+      "name_meaning": "Snorting (of an animal); uncertain derivation",
       "gender": "male"
     },
     {
@@ -827,6 +854,9 @@
         "Joshua 24:2",
         "Acts 7:4"
       ],
+      "name_hebrew": "תֶּרַח",
+      "name_transliteration": "Terach",
+      "name_meaning": "Meaning uncertain; possibly related to a moon-deity name (compare Sin/Terach) or to a Semitic word for ibex/wild goat -- no settled Hebrew root",
       "gender": "male"
     },
     {

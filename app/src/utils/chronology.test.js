@@ -81,7 +81,7 @@ assert(CHRONOLOGY.anchors.length > 0, 'at least one archaeological anchor is def
 
 console.log('\n5. Genealogy loader:');
 const genealogy = loadGenealogyPeople();
-assert(genealogy.length === 77, 'loadGenealogyPeople merges all six era files (77 people)');
+assert(genealogy.length === 78, 'loadGenealogyPeople merges all six era files (78 people)');
 assert(genealogy.some((p) => p.id === 'adam'), 'Adam is present');
 assert(genealogy.some((p) => p.id === 'jesus' || p.id === 'jesus_christ'), 'Jesus is present');
 assert(Object.keys(GENEALOGY_INDEX.timeline_variants).length === 4, 'four timeline variants are indexed');

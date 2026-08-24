@@ -47,9 +47,9 @@
         "Ruth 4:18",
         "Matthew 1:3"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Hezron",
-      "name_meaning": "",
+      "name_hebrew": "חֶצְרוֹן",
+      "name_transliteration": "Chetsron",
+      "name_meaning": "Enclosure, settled abode; from 'chatzer' (court, enclosure)",
       "gender": "male"
     },
     {
@@ -89,9 +89,9 @@
         "Ruth 4:19",
         "Matthew 1:3-4"
       ],
-      "name_hebrew": "",
+      "name_hebrew": "רָם",
       "name_transliteration": "Ram",
-      "name_meaning": "",
+      "name_meaning": "High, exalted; from 'rum' (to be high, exalted)",
       "gender": "male"
     },
     {
@@ -139,9 +139,9 @@
         "Numbers 1:7",
         "Matthew 1:4"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Amminadab",
-      "name_meaning": "",
+      "name_hebrew": "עַמִּינָדָב",
+      "name_transliteration": "Amminadav",
+      "name_meaning": "My kinsman is noble, my people is willing; from 'am' (kinsman, people) and 'nadab' (to be willing, noble)",
       "gender": "male"
     },
     {
@@ -196,9 +196,9 @@
         "Ruth 4:20",
         "Matthew 1:4"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Nahshon",
-      "name_meaning": "",
+      "name_hebrew": "נַחְשׁוֹן",
+      "name_transliteration": "Nachshon",
+      "name_meaning": "Probably from 'nachash' (serpent); the exact nuance is debated and sometimes glossed 'enchanter/diviner'",
       "gender": "male"
     },
     {
@@ -237,9 +237,9 @@
       "bible_references": [
         "Exodus 6:23"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Elisheba",
-      "name_meaning": "",
+      "name_hebrew": "אֱלִישֶׁבַע",
+      "name_transliteration": "Elisheva",
+      "name_meaning": "My God is an oath, my God is seven; from 'El' (God) and 'shava' (to swear) -- the same name as Elizabeth",
       "gender": "female"
     },
     {
@@ -287,9 +287,9 @@
         "Matthew 1:4-5",
         "Joshua 2, 6:22-25"
       ],
-      "name_hebrew": "",
+      "name_hebrew": "שַׂלְמוֹן",
       "name_transliteration": "Salmon",
-      "name_meaning": "",
+      "name_meaning": "Garment, clothing; from 'salmah' (garment) -- also spelled Salma (שַׂלְמָה)",
       "gender": "male"
     },
     {
@@ -345,9 +345,9 @@
         "Hebrews 11:31",
         "James 2:25"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Rahab",
-      "name_meaning": "",
+      "name_hebrew": "רָחָב",
+      "name_transliteration": "Rachav",
+      "name_meaning": "Broad, wide; from 'rachab' (to be wide) -- Rahab was Canaanite by birth, so this is the attested meaning of her name in Hebrew rather than a Hebrew ethnic origin",
       "gender": "female"
     },
     {
@@ -408,9 +408,9 @@
         "Matthew 1:5",
         "Luke 3:32"
       ],
-      "name_hebrew": "",
+      "name_hebrew": "בֹּעַז",
       "name_transliteration": "Boaz",
-      "name_meaning": "",
+      "name_meaning": "Meaning uncertain; often parsed as 'in him is strength' (be + oz, from 'azaz', to be strong), but Strong's marks the underlying root itself as unused and uncertain",
       "gender": "male"
     },
     {
@@ -466,9 +466,9 @@
         "Luke 3:32",
         "Hebrews 11:29"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Ruth",
-      "name_meaning": "",
+      "name_hebrew": "רוּת",
+      "name_transliteration": "Rut",
+      "name_meaning": "Meaning debated; usually derived from 're'ut' (female friend, companion), though as a Moabite name its ultimate origin may not be Hebrew at all -- 'friend' is the likely but not certain sense",
       "gender": "female"
     },
     {
@@ -515,9 +515,9 @@
         "Matthew 1:5",
         "Luke 3:32"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Obed",
-      "name_meaning": "",
+      "name_hebrew": "עוֹבֵד",
+      "name_transliteration": "Oved",
+      "name_meaning": "Serving, worshiping; from 'avad' (to serve, work)",
       "gender": "male"
     },
     {
@@ -578,20 +578,20 @@
         "Matthew 1:5-6",
         "Isaiah 11:1"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Jesse",
-      "name_meaning": "",
+      "name_hebrew": "יִשַׁי",
+      "name_transliteration": "Yishai",
+      "name_meaning": "Meaning uncertain; commonly glossed 'man' or 'gift', but no settled derivation",
       "gender": "male"
     },
     {
       "id": "david",
       "name": "David",
       "title": "King of Israel, Man After God's Heart, Ancestor of Jesus",
-      "zadok_year_born": 2502,
-      "gregorian_year_born": -1502,
-      "zadok_year_died": 2582,
-      "gregorian_year_died": -1422,
-      "lifespan_years": 80,
+      "zadok_year_born": 2963,
+      "gregorian_year_born": -1041,
+      "zadok_year_died": 3033,
+      "gregorian_year_died": -971,
+      "lifespan_years": 70,
       "parent_id": "jesse",
       "spouse_id": "bathsheba",
       "children": [
@@ -619,68 +619,68 @@
       "major_events": [
         {
           "event": "Birth",
-          "zadok_year": 2502,
-          "gregorian_year": -1502,
+          "zadok_year": 2963,
+          "gregorian_year": -1041,
           "description": "Youngest son of Jesse, born in Bethlehem (1 Samuel 16:1-13)"
         },
         {
           "event": "Anointing as King",
-          "zadok_year": 2520,
-          "gregorian_year": -1484,
+          "zadok_year": 2979,
+          "gregorian_year": -1025,
           "description": "Samuel anointed David; Spirit came upon him (1 Samuel 16:1-13)"
         },
         {
           "event": "Victory over Goliath",
-          "zadok_year": 2528,
-          "gregorian_year": -1476,
+          "zadok_year": 2986,
+          "gregorian_year": -1018,
           "description": "Defeated Philistine giant with faith in God (1 Samuel 17:1-54)"
         },
         {
           "event": "Friendship with Jonathan",
-          "zadok_year": 2528,
-          "gregorian_year": -1476,
+          "zadok_year": 2986,
+          "gregorian_year": -1018,
           "description": "Bond with Saul's son; covenant of love (1 Samuel 18:1-4)"
         },
         {
           "event": "Years of Exile",
-          "zadok_year": 2530,
-          "gregorian_year": -1474,
+          "zadok_year": 2988,
+          "gregorian_year": -1016,
           "description": "Fled from Saul for approximately 10 years"
         },
         {
           "event": "Coronation as King",
-          "zadok_year": 2540,
-          "gregorian_year": -1464,
+          "zadok_year": 2993,
+          "gregorian_year": -1011,
           "description": "Became king of Judah at age 30; later king of all Israel (2 Samuel 2:1-7, 5:1-5)"
         },
         {
           "event": "Captured Jerusalem",
-          "zadok_year": 2541,
-          "gregorian_year": -1463,
+          "zadok_year": 2997,
+          "gregorian_year": -1007,
           "description": "Made Jerusalem capital; brought Ark of Covenant (2 Samuel 5:6-12, 6:1-19)"
         },
         {
           "event": "Davidic Covenant",
-          "zadok_year": 2548,
-          "gregorian_year": -1456,
+          "zadok_year": 3003,
+          "gregorian_year": -1001,
           "description": "Covenant: throne established forever; Messiah from his line (2 Samuel 7:1-17)"
         },
         {
           "event": "Marriage to Bathsheba",
-          "zadok_year": 2556,
-          "gregorian_year": -1448,
+          "zadok_year": 3010,
+          "gregorian_year": -994,
           "description": "Took Bathsheba; born son Solomon who continued throne (2 Samuel 11-12)"
         },
         {
           "event": "Psalms and Prophecy",
-          "zadok_year": 2540,
-          "gregorian_year": -1464,
+          "zadok_year": 2996,
+          "gregorian_year": -1008,
           "description": "Wrote Psalms; prophesied about Messiah (e.g., Psalm 22, 110)"
         },
         {
           "event": "Death",
-          "zadok_year": 2582,
-          "gregorian_year": -1422,
+          "zadok_year": 3033,
+          "gregorian_year": -971,
           "description": "Died at age 70; buried in City of David (1 Kings 2:10)"
         }
       ],
@@ -753,11 +753,11 @@
       "id": "solomon",
       "name": "Solomon",
       "title": "King of Israel, Builder of Temple, Wisdom",
-      "zadok_year_born": 2556,
-      "gregorian_year_born": -1448,
-      "zadok_year_died": 2618,
-      "gregorian_year_died": -1386,
-      "lifespan_years": 62,
+      "zadok_year_born": 3013,
+      "gregorian_year_born": -991,
+      "zadok_year_died": 3073,
+      "gregorian_year_died": -931,
+      "lifespan_years": 60,
       "parent_id": "david",
       "spouse_id": null,
       "children": [
@@ -779,51 +779,51 @@
       "major_events": [
         {
           "event": "Birth",
-          "zadok_year": 2556,
-          "gregorian_year": -1448,
+          "zadok_year": 3013,
+          "gregorian_year": -991,
           "description": "Second son of David and Bathsheba (2 Samuel 12:25)"
         },
         {
           "event": "Divine Appearance",
-          "zadok_year": 2556,
-          "gregorian_year": -1448,
+          "zadok_year": 3013,
+          "gregorian_year": -991,
           "description": "God appeared to Solomon; loved by God (2 Samuel 12:25)"
         },
         {
           "event": "Coronation",
-          "zadok_year": 2582,
-          "gregorian_year": -1422,
+          "zadok_year": 3033,
+          "gregorian_year": -971,
           "description": "Became king after David's death at age 20 (1 Kings 1:11-48)"
         },
         {
           "event": "Request for Wisdom",
-          "zadok_year": 2583,
-          "gregorian_year": -1421,
+          "zadok_year": 3039,
+          "gregorian_year": -965,
           "description": "Asked God for wisdom; granted both wisdom and riches (1 Kings 3:4-15)"
         },
         {
           "event": "Temple Construction",
-          "zadok_year": 2583,
-          "gregorian_year": -1421,
+          "zadok_year": 3039,
+          "gregorian_year": -965,
           "description": "Built magnificent Temple in Jerusalem; took 7 years (1 Kings 5-8)"
         },
         {
           "event": "Dedication of Temple",
-          "zadok_year": 2590,
-          "gregorian_year": -1414,
+          "zadok_year": 3046,
+          "gregorian_year": -958,
           "description": "Dedicated Temple; God's glory filled it (1 Kings 8:1-66)"
         },
         {
           "event": "Reign of Peace",
-          "zadok_year": 2582,
-          "gregorian_year": -1422,
+          "zadok_year": 3038,
+          "gregorian_year": -966,
           "description": "Kingdom at peace; wisdom renowned throughout world (1 Kings 4:29-34)"
         },
         {
           "event": "Death",
-          "zadok_year": 2618,
-          "gregorian_year": -1386,
-          "description": "Died; reigned 40 years (1 Kings 11:42)"
+          "zadok_year": 3073,
+          "gregorian_year": -931,
+          "description": "Died; kingdom divided at his death (1 Kings 11:42-43)"
         }
       ],
       "bible_references": [

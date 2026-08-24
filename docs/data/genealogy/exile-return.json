@@ -5,10 +5,10 @@
       "id": "jehoiakim",
       "name": "Jehoiakim",
       "title": "King of Judah, Evil King, Pre-Exile",
-      "zadok_year_born": 2985,
-      "gregorian_year_born": -1019,
-      "zadok_year_died": 3025,
-      "gregorian_year_died": -979,
+      "zadok_year_born": 3370,
+      "gregorian_year_born": -634,
+      "zadok_year_died": 3406,
+      "gregorian_year_died": -598,
       "lifespan_years": 36,
       "parent_id": "josiah",
       "spouse_id": null,
@@ -30,15 +30,21 @@
       "major_events": [
         {
           "event": "Coronation",
-          "zadok_year": 3009,
-          "gregorian_year": -995,
-          "description": "Made king by Pharaoh Necho; renamed from Eliakim (2 Kings 23:34)"
+          "zadok_year": 3395,
+          "gregorian_year": -609,
+          "description": "Made king by Pharaoh Necho after Jehoahaz's brief reign; renamed from Eliakim (2 Kings 23:34-36)"
         },
         {
           "event": "Nebuchadnezzar's Siege",
-          "zadok_year": 3023,
-          "gregorian_year": -981,
-          "description": "Babylon besieged Jerusalem; became vassal (2 Kings 24:1-6)"
+          "zadok_year": 3399,
+          "gregorian_year": -605,
+          "description": "Babylon besieged Jerusalem after Carchemish; became vassal (2 Kings 24:1, Daniel 1:1)"
+        },
+        {
+          "event": "Death",
+          "zadok_year": 3406,
+          "gregorian_year": -598,
+          "description": "Died as Nebuchadnezzar's forces approached; succeeded by his son Jehoiachin (2 Kings 24:6)"
         }
       ],
       "bible_references": [
@@ -47,20 +53,20 @@
         "Jeremiah 26, 36",
         "Matthew 1:11"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Jehoiakim",
-      "name_meaning": "",
+      "name_hebrew": "יְהוֹיָקִים",
+      "name_transliteration": "Yehoyaqim",
+      "name_meaning": "The LORD raises up, the LORD establishes; from 'Yeho' (the LORD) and 'qum' (to arise, establish)",
       "gender": "male"
     },
     {
       "id": "jehoiachin",
       "name": "Jehoiachin (Coniah)",
       "title": "King of Judah, Exiled King",
-      "zadok_year_born": 3010,
-      "gregorian_year_born": -994,
-      "zadok_year_died": 3089,
-      "gregorian_year_died": -915,
-      "lifespan_years": 55,
+      "zadok_year_born": 3388,
+      "gregorian_year_born": -616,
+      "zadok_year_died": 3448,
+      "gregorian_year_died": -556,
+      "lifespan_years": 60,
       "parent_id": "jehoiakim",
       "spouse_id": null,
       "children": [
@@ -70,7 +76,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "ACTUAL",
+      "data_classification": "CALCULATED",
       "significance_level": 2,
       "era": "Exile",
       "prophetic_role": "Last Davidic King in Jerusalem, Exiled",
@@ -82,21 +88,21 @@
       "major_events": [
         {
           "event": "Coronation",
-          "zadok_year": 3025,
-          "gregorian_year": -979,
+          "zadok_year": 3406,
+          "gregorian_year": -598,
           "description": "Became king at age 18; reigned only 3 months (2 Kings 24:8)"
         },
         {
           "event": "Exile to Babylon",
-          "zadok_year": 3025,
-          "gregorian_year": -979,
-          "description": "Captured by Nebuchadnezzar; exiled to Babylon (2 Kings 24:12-16, 2 Chronicles 36:9-10)"
+          "zadok_year": 3407,
+          "gregorian_year": -597,
+          "description": "Captured by Nebuchadnezzar and deported to Babylon (2 Kings 24:12-16, 2 Chronicles 36:9-10); Babylonian Chronicle BM 21946 dates the capture to 16 March 597 BC"
         },
         {
           "event": "Release from Prison",
-          "zadok_year": 3070,
-          "gregorian_year": -934,
-          "description": "Released by Evil-Merodach; given honor (2 Kings 25:27-30)"
+          "zadok_year": 3443,
+          "gregorian_year": -561,
+          "description": "Released by Evil-Merodach in the 37th year of his exile; given a seat above the other exiled kings (2 Kings 25:27-30). Scripture does not record the year of his death."
         }
       ],
       "bible_references": [
@@ -106,20 +112,20 @@
         "Jeremiah 22:24-30",
         "Matthew 1:11-12"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Jehoiachin (Coniah)",
-      "name_meaning": "",
+      "name_hebrew": "יְהוֹיָכִין",
+      "name_transliteration": "Yehoyachin",
+      "name_meaning": "The LORD establishes, the LORD will confirm; from 'Yeho' (the LORD) and 'kun' (to be firm, established) -- also called Jeconiah/Coniah",
       "gender": "male"
     },
     {
       "id": "shealtiel",
       "name": "Shealtiel",
       "title": "Son of Jehoiachin, Father of Zerubbabel",
-      "zadok_year_born": 3035,
-      "gregorian_year_born": -969,
-      "zadok_year_died": 3105,
-      "gregorian_year_died": -899,
-      "lifespan_years": 70,
+      "zadok_year_born": 3414,
+      "gregorian_year_born": -590,
+      "zadok_year_died": 3479,
+      "gregorian_year_died": -525,
+      "lifespan_years": 65,
       "parent_id": "jehoiachin",
       "spouse_id": null,
       "children": [
@@ -129,7 +135,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "ACTUAL",
+      "data_classification": "EXTRAPOLATED",
       "significance_level": 2,
       "era": "Exile",
       "prophetic_role": "Exile Preserver, Zerubbabel's Father",
@@ -139,9 +145,9 @@
       "major_events": [
         {
           "event": "Birth in Exile",
-          "zadok_year": 3035,
-          "gregorian_year": -969,
-          "description": "Born in Babylon during exile (1 Chronicles 3:17)"
+          "zadok_year": 3414,
+          "gregorian_year": -590,
+          "description": "Born in Babylon during the exile (1 Chronicles 3:17); exact year not given in Scripture -- estimated here"
         }
       ],
       "bible_references": [
@@ -150,20 +156,20 @@
         "Haggai 1:1",
         "Matthew 1:12"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Shealtiel",
-      "name_meaning": "",
+      "name_hebrew": "שְׁאַלְתִּיאֵל",
+      "name_transliteration": "She'altiel",
+      "name_meaning": "I have asked of God; from 'sha'al' (to ask) and 'El' (God)",
       "gender": "male"
     },
     {
       "id": "zerubbabel",
       "name": "Zerubbabel",
       "title": "Governor of Judah, Temple Rebuilder",
-      "zadok_year_born": 3062,
-      "gregorian_year_born": -942,
-      "zadok_year_died": 3132,
-      "gregorian_year_died": -872,
-      "lifespan_years": 70,
+      "zadok_year_born": 3441,
+      "gregorian_year_born": -563,
+      "zadok_year_died": 3499,
+      "gregorian_year_died": -505,
+      "lifespan_years": 58,
       "parent_id": "shealtiel",
       "spouse_id": null,
       "children": [
@@ -173,7 +179,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "ACTUAL",
+      "data_classification": "CALCULATED",
       "significance_level": 1,
       "era": "Return from Exile",
       "prophetic_role": "Restoration Leader, Temple Rebuilder",
@@ -184,20 +190,20 @@
       "major_events": [
         {
           "event": "Return from Exile",
-          "zadok_year": 3110,
-          "gregorian_year": -894,
+          "zadok_year": 3466,
+          "gregorian_year": -538,
           "description": "Led first group of exiles back to Judah under Cyrus's decree (Ezra 1:8, 2:2)"
         },
         {
           "event": "Foundation of Temple",
-          "zadok_year": 3111,
-          "gregorian_year": -893,
+          "zadok_year": 3468,
+          "gregorian_year": -536,
           "description": "Laid foundation of second Temple (Ezra 3:8-13)"
         },
         {
           "event": "Completion of Temple",
-          "zadok_year": 3116,
-          "gregorian_year": -888,
+          "zadok_year": 3489,
+          "gregorian_year": -515,
           "description": "Second Temple completed and dedicated (Ezra 6:14-18)"
         }
       ],
@@ -209,9 +215,9 @@
         "Zechariah 4:6-10",
         "Matthew 1:12"
       ],
-      "name_hebrew": "",
-      "name_transliteration": "Zerubbabel",
-      "name_meaning": "",
+      "name_hebrew": "זְרֻבָּבֶל",
+      "name_transliteration": "Zerubbavel",
+      "name_meaning": "Usually read as Akkadian rather than Hebrew -- 'Zeru-Babili', 'seed/offspring of Babylon' -- a name reflecting birth in exile rather than a native Hebrew etymology",
       "gender": "male"
     }
   ]
