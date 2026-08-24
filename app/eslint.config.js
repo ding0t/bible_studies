@@ -3,14 +3,13 @@ import tseslint from '@typescript-eslint/eslint-plugin';
 import tsparser from '@typescript-eslint/parser';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
-import astro from 'eslint-plugin-astro';
 import prettier from 'eslint-config-prettier';
 
 export default [
   js.configs.recommended,
   prettier,
   {
-    ignores: ['node_modules/', 'dist/', '.astro/', 'public/', 'docs/'],
+    ignores: ['node_modules/', 'public/', 'docs/'],
   },
   {
     files: ['**/*.{js,jsx,ts,tsx}'],
@@ -51,5 +50,4 @@ export default [
       'no-unused-vars': 'off',
     },
   },
-  ...astro.configs.recommended,
 ];

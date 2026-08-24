@@ -1,8 +1,11 @@
 .venv/
 node_modules/
+site/
+# Stale build output at the repo root from the pre-2026-08 Astro-only site layout (paths like
+# dist/studies/prophecy-fulfilled-in-jesus/). Nothing writes here any more -- both kept ignored
+# so the dead artifacts can't be committed by accident. Safe to delete the directories outright.
 dist/
 .astro/
-site/
 .env
 .env.local
 # Byte-compiled / optimized / DLL files

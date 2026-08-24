@@ -62,11 +62,12 @@ hand-write those three.
 - Environment: primary dev platform is macOS (previously Windows 11 + WSL2 — may still see references to that in older notes).
 - Markup language: markdown
 - Site generator: **mkdocs-material** serves all prose content (`docs/content/`, `docs_dir` in
-  `mkdocs.yml`), the site home page, and — since 2026-08-24 — the **genealogy viewer**, which is a
-  normal mkdocs page (`docs/content/genealogy.md`) with a React bundle mounted into it, so it
-  inherits the site's sidebar, search and palette toggle. **Astro** (`app/`) is down to exactly one
-  page, the prophetic timeline at `/timeline/`, stitched in at deploy time; it migrates the same way
-  in phase 2, after which Astro goes. Don't assume Astro renders study content; it doesn't.
+  `mkdocs.yml`), the site home page, and **both interactive tools**. As of 2026-08-24 the prophetic
+  timeline (`docs/content/timeline.md`) and the genealogy viewer (`docs/content/genealogy.md`) are
+  ordinary mkdocs pages with a React bundle mounted into a `<div>`, so they inherit the site's
+  sidebar, search, breadcrumbs and palette toggle. **Astro is gone** — there is one site build.
+  `app/` is now just the React components, their utils, the build scripts and the tests; esbuild
+  bundles the two entry points in `app/src/entries/` into `docs/content/assets/js/`.
 - **The site is served from `the-way.lewy.au` at its root**, not from `github.io/bible_studies`
   (which 301s there). Site-absolute URLs therefore carry no repo prefix. Getting this wrong is not
   cosmetic: it 404s the tools' JS bundles and kills them silently.
@@ -81,17 +82,18 @@ uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-
 
 Hot-reload dev server at http://localhost:8000/. `docs_dir` is `docs/content` (see `mkdocs.yml`).
 
-**Interactive tools** (`app/` — React components for the two tools, separate npm project):
+**Interactive tools** (`app/` — React components bundled into the mkdocs site, separate npm project):
 
 ```bash
 cd app
 npm install
-npm run build:tools  # esbuild -> docs/content/assets/js/genealogy.js (gitignored). Run this before
-                     # `mkdocs serve` or the genealogy page renders an empty div.
-npm run dev          # Astro dev server at http://localhost:4321/ -- timeline only now
+npm run build:tools  # events.json + esbuild -> docs/content/assets/js/{genealogy,timeline}.js
+                     # (gitignored). Run before `mkdocs serve`, or both tool pages render an
+                     # empty div.
+npm run dev:tools    # same, unminified, with esbuild --watch. Pair with `mkdocs serve`: the
+                     # bundles land inside docs_dir, so a rebuild triggers a page reload.
 npm test             # build-events, calendarConvert, bibleReference, chronology
 npm run lint         # eslint src/  (npm run format for prettier)
-npm run build        # prebuild regenerates docs/data/events.json from content frontmatter, then astro build
 ```
 
 The tools style themselves from ten `--color-*` CSS variables with light-mode fallbacks (the
@@ -152,9 +154,8 @@ python3 utils/refresh_frontmatter_provenance.py  # fill date_created/date_modifi
 **Deploy**: `.github/workflows/deploy.yml` runs `utils/generate_recent_updates.py`, then `npm ci`
 + `npm test` + `npm run build:tools` in `app/` (**before** the mkdocs build — `build:tools` writes
 the React bundle into `docs/content/assets/js/`, which mkdocs then copies like any other asset),
-then `mkdocs build --site-dir site`, then `npm run build` for the Astro timeline, then copies
-Astro's `dist/` on top of the mkdocs `site/` output and publishes to GitHub Pages on push to
-`main`.
+then `mkdocs build --site-dir site`, and publishes to GitHub Pages on push to `main`. One build
+produces the whole site; there is no stitch step.
 It is **path-filtered to `docs/**`, `app/**`, `mkdocs.yml`, and the workflow file** — a commit
 touching only `references/` or `utils/` deploys nothing. If such a change needs to reach the live
 site (e.g. re-running `commentary_index.py` wrote into `docs/content/`, or you want a fresh
@@ -163,14 +164,14 @@ manually (`workflow_dispatch`).
 
 ## Architecture
 
-- **One site build, plus a shrinking Astro remnant.** The genealogy viewer is a mkdocs page whose
-  React bundle esbuild writes into `docs/content/` before the mkdocs build, so mkdocs sees it as an
-  ordinary asset and one build produces the whole page. Only the timeline is still a separate Astro
-  build stitched in afterwards. That split is what let the two halves disagree about the site root
-  and 404 every tool asset in 2026-08; phase 2 removes the remnant.
+- **One site build.** esbuild writes both tool bundles into `docs/content/assets/js/` before the
+  mkdocs build, so mkdocs treats them as ordinary assets and a single pass produces every page.
+  This replaced a two-project split (mkdocs + Astro, stitched at deploy time) that let the halves
+  disagree about the site root and silently 404 every tool asset in 2026-08. Keep it that way: a
+  second build system is how that class of bug comes back.
 - **Content frontmatter is the integration point.** `app/scripts/build-events.js` reads
-  `docs/content/**/*.md` frontmatter at Astro build time to generate `docs/data/events.json` for
-  the timeline. `references/build/commentary_index.py` and `section_index.py` also read it to
+  `docs/content/**/*.md` frontmatter (as the first half of `build:tools`) to generate
+  `docs/data/events.json`, which the timeline bundle imports at build time. `references/build/commentary_index.py` and `section_index.py` also read it to
   regenerate auto-sections of *other* committed markdown files, bounded by
   `<!-- *-index:auto-start/end -->` markers — hand-written prose outside those markers is preserved,
   so it's safe to re-run them after editing content.

@@ -1,8 +1,8 @@
 ---
 title: "How This Site Is Built"
 category: "resources"
-description: "The tech behind this site: mkdocs + Astro, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys"
-tags: ["architecture", "mkdocs", "astro", "mermaid", "tech-stack"]
+description: "The tech behind this site: mkdocs with React tools bundled in, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys"
+tags: ["architecture", "mkdocs", "mermaid", "tech-stack"]
 draft: false
 date_created: 2026-07-19
 date_modified: 2026-08-24
@@ -17,29 +17,25 @@ This site is two independent tools stitched into one deploy, plus a content-auth
 
 ## Build & deploy
 
-**[mkdocs-material](https://squidfunk.github.io/mkdocs-material/)** serves every study, commentary, and resource page — everything under `docs/content/` — and, since August 2026, the genealogy viewer too. That tool is now an ordinary mkdocs page with a React bundle mounted into it, so it sits inside the site's own sidebar, search and dark-mode toggle rather than in a separate shell of its own. **[Astro](https://astro.build/)** is down to a single page, the prophetic timeline, which will migrate the same way. Until it does, one GitHub Actions workflow builds both and stitches Astro's output into mkdocs' site directory before deploying:
+**[mkdocs-material](https://squidfunk.github.io/mkdocs-material/)** serves every page on this site — every study, commentary and resource under `docs/content/`, and both interactive tools. The prophetic timeline and the genealogy viewer are ordinary mkdocs pages with a [React](https://react.dev/) bundle mounted into them, so they sit inside the site's own sidebar, search and dark-mode toggle rather than in a shell of their own.
+
+It was not always one system. Until August 2026 the two tools were a separate [Astro](https://astro.build/) project whose output was stitched into mkdocs' site directory at deploy time. Two builds meant two ideas of where the site root was, and when the site moved to a custom domain the mismatch made every tool asset 404 — silently, because the pages still rendered, just without their JavaScript. One build cannot disagree with itself:
 
 ```mermaid
 flowchart LR
     content["Study markdown<br/>title, category,<br/>zadok_year, gregorian_year"]
 
-    content -->|mkdocs build| site["site<br/>studies, commentaries, resources"]
     content -->|build-events.js scans frontmatter| events["events.json"]
+    genjson["genealogy JSON files"] --> bundles
+    events --> bundles["esbuild bundles<br/>genealogy.js, timeline.js"]
+    bundles -->|written into docs/content/assets/js| assets["tool bundles<br/>as ordinary site assets"]
 
-    genjson["genealogy JSON files"] --> genbundle["esbuild<br/>genealogy.js"]
-    genbundle -->|written into docs/content| content
-    events --> timeline["timeline.astro"]
-
-    timeline --> dist["app/dist<br/>timeline only"]
-
-    site -->|stitch| stitched["stitched site"]
-    dist -->|stitch| stitched
-    stitched --> pages["GitHub Pages"]
+    content -->|mkdocs build| site["site<br/>every page, tools included"]
+    assets -->|mkdocs build| site
+    site --> pages["GitHub Pages"]
 ```
 
-`docs/data/events.json` is the seam between the two: a small Node script (`app/scripts/build-events.js`) reads every study's `zadok_year`/`gregorian_year` frontmatter and writes a flat JSON file the timeline imports at build time. Neither side reaches into the other's internals, which is what let the site go from a single Astro app to this split, and now back again, without rewriting the studies themselves.
-
-The split is being wound down deliberately. Two builds meant two ideas of where the site root was, and when the site moved to a custom domain the mismatch made every tool asset 404 — silently, because the pages still rendered, just without their JavaScript. One build cannot disagree with itself. (Design history: `docs/superpowers/specs/2026-07-09-mkdocs-astro-split-design.md`.)
+`docs/data/events.json` is the seam between the prose and the tools: a small Node script (`app/scripts/build-events.js`) reads every study's `zadok_year`/`gregorian_year` frontmatter and writes a flat JSON file the timeline imports at build time. Studies stay plain markdown and know nothing about the timeline — which is what let the site go from a single Astro app, to a split, and back to one build, without rewriting them. (Design history: `docs/superpowers/specs/2026-07-09-mkdocs-astro-split-design.md`.)
 
 mkdocs-material extras actually in use here: **awesome-pages** (nav builds itself from the directory tree — no manual nav config), **admonitions** (the `!!! note` boxes), **Mermaid diagrams** (this one, via `pymdownx.superfences`), and the light/dark toggle in the header.
 
@@ -88,7 +84,7 @@ There's also an in-progress, not-yet-integrated piece: `references/build/twot/`,
 | Tool | What it does | Docs |
 |---|---|---|
 | `mkdocs.yml` | Builds `docs/content/` into the main site | [CONTENT_GUIDE.md](https://github.com/ding0t/bible_studies/blob/main/docs/CONTENT_GUIDE.md) |
-| `app/` | React components for both tools, bundled by esbuild; Astro shell for the timeline only | `app/docs/` |
+| `app/` | React components for both tools, bundled into the site by esbuild | `app/docs/` |
 | `.claude/skills/develop-bible-study/` | The exegesis-then-hermeneutics writing process | [SKILL.md](https://github.com/ding0t/bible_studies/blob/main/.claude/skills/develop-bible-study/SKILL.md) |
 | `references/build/build.py` | Builds `bible-text.db` from open Bible-text/lexicon sources | [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) |
 | `references/build/query.py` | CLI for word/concordance/domain/verse lookups against `bible-text.db` | same |
@@ -96,7 +92,7 @@ There's also an in-progress, not-yet-integrated piece: `references/build/twot/`,
 | `references/build/build_study_notes.py` | Builds `study-notes.db` from commercial study Bibles (external storage) | [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) |
 | `references/build/commentary_index.py` | Auto-links Bible commentary chapters to the studies that treat them | same |
 | `references/build/section_index.py` | Generates nav landing pages for every content section | same |
-| `.github/workflows/deploy.yml` | Bundles the tools, builds mkdocs, builds the Astro timeline, stitches, deploys to GitHub Pages | — |
+| `.github/workflows/deploy.yml` | Bundles the tools, builds mkdocs, deploys to GitHub Pages | — |
 
 ## Source
 

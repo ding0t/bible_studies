@@ -43,24 +43,16 @@ jobs:
         run: npm test
         working-directory: app
 
-      # Must precede the mkdocs build: this writes the React bundle into docs/content/assets/js/,
-      # which mkdocs then copies into the site like any other asset. The output is gitignored, so
-      # it exists only here and in a local dev tree.
+      # Must precede the mkdocs build: this regenerates docs/data/events.json from study
+      # frontmatter and writes both React bundles into docs/content/assets/js/, which mkdocs then
+      # copies into the site like any other asset. The output is gitignored, so it exists only
+      # here and in a local dev tree.
       - name: Build tool bundles
         run: npm run build:tools
         working-directory: app
 
       - name: Build mkdocs content site
         run: uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects mkdocs build --site-dir site
-
-      # Astro now builds only /timeline/; the genealogy viewer is a mkdocs page. Both this step
-      # and the one above it go away when the timeline migrates too.
-      - name: Build Astro timeline (runs events prebuild)
-        run: npm run build
-        working-directory: app
-
-      - name: Stitch Astro output into the mkdocs site
-        run: cp -r app/dist/* site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5

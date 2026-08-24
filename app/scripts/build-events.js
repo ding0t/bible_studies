@@ -2,7 +2,6 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
-import astroConfig from '../astro.config.mjs';
 
 function walk(dir) {
   const out = [];
@@ -14,9 +13,8 @@ function walk(dir) {
   return out;
 }
 
-// `base` defaults to '' because astro.config no longer sets one -- the site is served from the
-// root of its custom domain. Without the default, astroConfig.base is undefined at the call site
-// below and every url is written as "undefined/jesus/...".
+// `base` is '' because the site is served from the root of its custom domain, with no path
+// prefix. It stays a parameter rather than a constant so the tests can pin the prefixed shape.
 export function generateEvents(contentDir, base = '') {
   return walk(contentDir)
     .map((file) => {
@@ -46,7 +44,7 @@ if (isMain) {
   const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
   const contentDir = path.join(repoRoot, 'docs/content');
   const outFile = path.join(repoRoot, 'docs/data/events.json');
-  const events = generateEvents(contentDir, astroConfig.base ?? '');
+  const events = generateEvents(contentDir);
   fs.mkdirSync(path.dirname(outFile), { recursive: true });
   fs.writeFileSync(outFile, JSON.stringify(events, null, 2) + '\n');
   console.log(`Wrote ${events.length} events to ${outFile}`);

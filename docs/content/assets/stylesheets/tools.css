@@ -46,3 +46,11 @@
 #timeline-root {
   margin-top: 1rem;
 }
+
+/* The millennial-week chart has a fixed minimum width; below tablet it has to scroll rather than
+ * squash. This was .timeline-container in the Astro page's own <style> block. */
+@media (max-width: 1024px) {
+  #timeline-root {
+    overflow-x: auto;
+  }
+}
