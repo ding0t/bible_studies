@@ -1,13 +1,13 @@
 ---
 title: "Israel and the Church"
-category: "prophecy"
-description: "Paul spends three chapters of Romans on whether God is finished with Israel, and answers no. What the Church is, what Israel still is, and why Scripture keeps them distinct without making them rivals."
-tags: ["dispensationalism", "one-new-man", "covenants", "romans", "ephesians", "revelation", "method/word-study", "lang/greek"]
+category: "theology"
+description: "Paul spends three chapters of Romans on whether God is finished with Israel, and answers no. What the Church is, what Israel still is, and how the two stand together in God's plan today."
+tags: ["dispensationalism", "one-new-man", "mystery", "romans", "ephesians", "revelation", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "Romans 11:1-29; Ephesians 2:11-22"
-bible_references: ["Romans 9:1-6", "Romans 11:1-5", "Romans 11:17-24", "Romans 10:1", "Isaiah 59:20", "Psalm 14:7", "Hebrews 8:8-10", "Isaiah 11:11", "Jeremiah 9:25-26", "Genesis 17:5", "Acts 18:2", "1 Corinthians 10:18", "1 Corinthians 10:32", "Ephesians 3:4-6", "Acts 15:13-18", "Acts 1:6-7", "Revelation 7:1-9", "Ezekiel 36:22-28", "Ezekiel 37:15-22", "Jeremiah 30:7", "Zechariah 12:10", "Zechariah 13:8-9", "Galatians 6:16", "Galatians 3:29", "Romans 2:28-29", "1 Peter 2:9", "Amos 9:14-15", "Hosea 1:9-11", "Romans 9:25-26"]
+bible_references: ["Romans 9:1-6", "Romans 11:1-5", "Romans 11:17-24", "Romans 10:1", "Isaiah 59:20", "Psalm 14:7", "Hebrews 8:8-10", "Isaiah 11:11", "Jeremiah 9:25-26", "Genesis 17:5", "Acts 18:2", "1 Corinthians 10:18", "1 Corinthians 10:32", "Ephesians 3:1-9", "Colossians 1:25-27", "Daniel 2:27-30", "Acts 15:13-18", "Acts 1:6-7", "Revelation 7:1-9", "Ezekiel 36:22-28", "Ezekiel 37:15-22", "Ezekiel 20:34-38", "Jeremiah 30:7", "Zechariah 12:10", "Zechariah 13:8-9", "Galatians 6:16", "Galatians 3:29", "Romans 2:28-29", "1 Peter 2:9", "Amos 9:11-15", "Hosea 1:9-11", "Hosea 5:15", "Romans 9:25-26", "Romans 15:8-12", "Deuteronomy 4:30-31", "Daniel 12:1", "Isaiah 49:6", "Genesis 12:3"]
 date_created: 2026-07-24
-date_modified: 2026-08-23
+date_modified: 2026-08-24
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -17,9 +17,13 @@ ai_provider_models:
 
 Paul gives three chapters of his longest letter to one question: now that Gentiles are streaming
 into the people of God, is God finished with the Jews? He asks it in as many words — "has God
-rejected his people?" (Romans 11:1) — and answers **μὴ γένοιτο**, by no means. Everything below is
-an attempt to take that answer as seriously as Paul meant it, without taking anything away from what
-Christ made when he made the Church.
+rejected his people?" (Romans 11:1) — and answers μὴ γένοιτο, by no means.
+
+**Scripture keeps Israel and the Church as two, and it keeps promises to both.** The Church is
+something God created at the cross out of believing Jews and Gentiles, on terms no prophet had been
+told about. Israel is the nation God chose, still under his irrevocable calling, currently hardened
+in part, and destined to meet her Messiah at the end of the age. Neither has taken the other's
+place, and a Christian today stands inside the first while praying for the second.
 
 ## Key Takeaways
 
@@ -28,11 +32,13 @@ prototyping — see that page for what each part is for and why.)*
 
 ### Types & Prophecy
 
-**Prophecy.** Paul calls Israel's future salvation a **mystery** — something previously undisclosed
-that he is now disclosing: "a partial hardening has come upon Israel, until the fullness of the
-Gentiles has come in. And in this way all Israel will be saved" (Romans 11:25-26). Zechariah gives
-the same event from the other side, as a day when Jerusalem "shall look on me, on him whom they have
-pierced" and mourn (Zechariah 12:10). These are stated predictions, not resemblances.
+**Prophecy.** Paul calls two things a **mystery** — his word for something God kept undisclosed
+until he disclosed it. One is already in force: Gentiles as "fellow heirs, members of the same body,
+and partakers of the promise" (Ephesians 3:6). The other is still ahead: "a partial hardening has
+come upon Israel, until the fullness of the Gentiles has come in. And in this way all Israel will be
+saved" (Romans 11:25-26). Zechariah gives that second day from Israel's side — a spirit of grace
+poured out, and "when they look on me, on him whom they have pierced, they shall mourn for him"
+(Zechariah 12:10). These are stated predictions, not resemblances.
 
 **Type.** The olive tree of Romans 11:17-24 is an illustration rather than a type in the strict
 sense — Paul builds it himself to make one point about arrogance, and he keeps the branches
@@ -136,7 +142,7 @@ nation was finished and was also wrong. The shape of the answer is a remnant: "s
 time there is a remnant, chosen by grace" (11:5). Israel has not been swapped for the Church; a
 believing remnant inside Israel proves the root is alive, and Paul is exhibit one.
 
-## The olive tree, read slowly
+## The olive tree of Romans 11
 
 > ✝️ Romans 11:17-21 (ESV)
 >
@@ -150,14 +156,15 @@ believing remnant inside Israel proves the root is alive, and Paul is exhibit on
 
 Paul never lets the two kinds of branch merge. Natural branches are broken off; a wild shoot is
 grafted in "among the others"; and at 11:24 the natural branches are grafted back "into **their own**
-olive tree." Grafting is the one horticultural image that requires the graft to remain distinguishable
-from the stock — that is what makes it a graft rather than a seed.
+olive tree." A graft joins two living things without dissolving either into the other, and Paul
+tracks which is which for eight verses.
 
-The purpose clause is stated outright at verse 18, and it is pastoral: **do not be arrogant toward
-the branches**. The olive tree exists in Romans to stop Gentile believers drawing exactly the
-conclusion that the tree is now theirs.
+Paul states the point of the image outright, and it is pastoral rather than technical. Verse 18 is a
+command — μὴ κατακαυχῶ, a present imperative with a negative, **stop boasting over the branches** —
+not a definition of what the Church is. The olive tree is in Romans to stop Gentile believers drawing
+exactly the conclusion that the tree is now theirs.
 
-## The mystery Paul says he is disclosing
+## What Romans 11 says is still ahead for Israel
 
 > ✝️ Romans 11:25-29 (ESV)
 >
@@ -185,14 +192,14 @@ The gifts and the calling are not withdrawn, because God does not change his min
 A note on the quotation in verse 26, since a reader who looks it up will find a discrepancy. Paul
 writes ἥξει **ἐκ Σιὼν** ὁ ῥυόμενος, "the Deliverer will come **from** Zion." Isaiah 59:20 reads
 "**to** Zion" in the Hebrew, and ἥξει **ἕνεκεν Σιὼν**, "for the sake of Zion," in the Septuagint —
-neither gives Paul his preposition. The Septuagint of Psalm 14:7 does — numbered 13:7 there — Τίς δώσει **ἐκ Σιὼν** τὸ
-σωτήριον τοῦ Ἰσραήλ, a verse that also names Jacob and Israel. The *NKJV Cultural Backgrounds Study
-Bible* reads Paul as blending the two, which is what the wording suggests: the rest of his line
-matches Isaiah's Greek word for word.
+neither gives Paul his preposition. The Septuagint of Psalm 14:7 does, numbered 13:7 there: Τίς
+δώσει **ἐκ Σιὼν** τὸ σωτήριον τοῦ Ἰσραήλ, a verse that also names Jacob and Israel. Both the *NKJV*
+and the *NIV Cultural Backgrounds Study Bible* read Paul as blending the two, which is what the
+wording suggests: the rest of his line matches Isaiah's Greek word for word.
 
-## Three categories, not two
+## Jews, Greeks, and the church of God
 
-Paul had a settled way of dividing the human race after Pentecost, and it had three parts.
+Once, in passing and without arguing for it, Paul names three groups where two would have done.
 
 > ✝️ 1 Corinthians 10:32 (ESV)
 >
@@ -200,7 +207,8 @@ Paul had a settled way of dividing the human race after Pentecost, and it had th
 
 Jews, Greeks, and the church of God — written to a congregation containing both Jews and Greeks. If
 the Church simply *were* Israel, the first and third terms would collapse into each other and the
-sentence would not work.
+sentence would not work. One verse cannot carry a doctrine on its own; what it can do is show what
+Paul assumed while thinking about something else, which is Corinthian table manners.
 
 Ephesians says where the third category came from.
 
@@ -216,7 +224,7 @@ G2537), new in kind, the word Greek uses for a new sort of thing rather than ν�
 Something is brought into being at the cross that was not there before. Israel continuing under a
 new name would require no creating.
 
-Paul then reaches for vocabulary he has to build:
+Paul then says what the new thing consists of, and has to stretch the language to do it:
 
 > ✝️ Ephesians 3:4-6 (ESV)
 >
@@ -227,15 +235,94 @@ Paul then reaches for vocabulary he has to build:
 
 Three compounds in one clause, all prefixed **σύν-**, "joint": **συγκληρονόμα** (*synklēronoma*,
 G4789, joint-heirs), **σύσσωμα** (*syssōma*, G4954, joint-body), **συμμέτοχα** (*symmetocha*, G4830,
-joint-partakers). The middle one occurs nowhere else in the New Testament, and the third only here and
-at Ephesians 5:7. Joint-anything presupposes two parties who remain two; it is the language of
-partnership, not of absorption.
+joint-partakers). The middle one occurs nowhere else in the New Testament and looks like Paul's own
+coinage; the third appears only here and at Ephesians 5:7. Joint-anything presupposes two parties who
+remain two; it is the language of partnership, not of absorption.
+
+## What Scripture means by a mystery
+
+Paul uses that word of both halves of this subject — of the Church at Ephesians 3, and of Israel's
+future at Romans 11 — and it carries a specific sense. **μυστήριον** (*mystērion*, G3466) occurs
+twenty-six times in the Greek New Testament,
+nineteen of them in Paul. It is not a puzzle, and it is not the initiation-secret of the Greek
+mystery cults. The sense Scripture gives it comes from Daniel.
+
+Daniel 2 turns on the Aramaic <span dir="rtl">רָז</span> (*raz*, H7328), a secret held in heaven. The
+word occurs nine times in that book and nowhere else in the Old Testament, and every place the ESV
+prints "mystery" in Daniel it is translating this word. Nebuchadnezzar's wise men cannot produce the
+king's dream, because the thing is not the sort of thing men find out:
+
+> ✝️ Daniel 2:27-28 (ESV)
+>
+> 27 Daniel answered the king and said, "No wise men, enchanters, magicians, or astrologers can show
+> to the king the mystery that the king has asked, 28 but there is a God in heaven who reveals
+> mysteries, and he has made known to King Nebuchadnezzar what will be in the latter days. Your dream
+> and the visions of your head as you lay in bed are these:
+
+A mystery is therefore something God alone knows, which stays unknown until he says it, and which is
+then plain. That is exactly how Paul uses it, and he says so twice in the same breath as the word:
+
+- **Colossians 1:26** — τὸ μυστήριον τὸ **ἀποκεκρυμμένον** ἀπὸ τῶν αἰώνων … **νῦν δὲ ἐφανερώθη**,
+  "the mystery hidden for ages and generations but now revealed to his saints."
+- **Ephesians 3:5** — "which was **not made known** to the sons of men in other generations as it has
+  **now been revealed** to his holy apostles and prophets by the Spirit."
+
+Hidden, then disclosed. Not hinted at and finally understood — withheld, and then said out loud.
+
+### The Gentiles were prophesied; this was not
+
+**That Gentiles would be blessed was never a secret.** It is in the promise to Abraham — "in you all
+the families of the earth shall be blessed" (Genesis 12:3) — and in the Servant who is given "as a light
+for the nations, that my salvation may reach to the end of the earth" (Isaiah 49:6), and in the
+fallen tent of David rebuilt so that "all the nations who are called by my name" may be possessed
+(Amos 9:11-12). Paul knows this and proves it from the Old Testament at length, stacking four texts
+in four verses at Romans 15:9-12. Note the sentence he introduces them with:
+
+> ✝️ Romans 15:8-9 (ESV)
+>
+> 8 For I tell you that Christ became a servant to the circumcised to show God's truthfulness, in
+> order to confirm the promises given to the patriarchs, 9 and in order that the Gentiles might
+> glorify God for his mercy. As it is written, "Therefore I will praise you among the Gentiles, and
+> sing to your name."
+
+Promises to the patriarchs *confirmed*, and Gentiles brought in — in one sentence, as two purposes of
+one ministry, neither cancelling the other.
+
+So the mystery is not that Gentiles get in. Ephesians 3:6 states what it is, and the content is the
+three σύν- words: Gentiles as **joint-heirs, joint-body, joint-partakers**. Not blessed *through*
+Israel, at Israel's table, on Israel's terms, as the prophets had said — but made one body with
+believing Jews, immediately, on equal footing, in an age the prophets did not see coming. A Gentile
+proselyte in Isaiah's day could be blessed. They could not be σύσσωμος.
+
+Paul has a word for the arrangement under which this now runs. Ephesians 3:9 calls it **ἡ οἰκονομία
+τοῦ μυστηρίου** (*oikonomia*, G3622) — "the plan of the mystery," the household-management of it, the
+administration. The word appears nine times in the New Testament; three are in Ephesians and all
+three belong to this argument (1:10; 3:2, 9), with a fourth at Colossians 1:25. It is the word from
+which *dispensation* comes, and it is where the framework this site works within gets its name: an
+age with its own terms, opened at the cross, disclosed to the apostles, and not identical to the age
+before it or the one after.
+
+### Two mysteries, and neither cancels the other
+
+Set the two side by side:
+
+| | Ephesians 3:3-9 | Romans 11:25-27 |
+|---|---|---|
+| **The mystery** | Gentiles made one body with believing Jews | Israel's partial hardening, then her salvation |
+| **Status** | disclosed, and in force now | disclosed, not yet carried out |
+| **Runs until** | "the fullness of the Gentiles has come in" | "and in this way all Israel will be saved" |
+
+Both are μυστήριον. Both were undisclosed and are now announced. One describes what God is doing in
+this age, and the other describes what he will do at the end of it — which is why holding to the
+Church as a genuinely new thing does not require saying Israel is finished. Paul held both, and gave
+them the same name.
 
 ## What Paul declines to say
 
-Ephesians 2 has been building toward a name for what Gentiles have become. Paul had already used
-"Israel" seven verses earlier, of what they were excluded from — "alienated from the commonwealth of
-Israel and strangers to the covenants of promise" (2:12). Here is where he lands:
+Return to Ephesians 2, which has been building toward a name for what Gentiles have
+become. Paul had already used "Israel" seven verses earlier, of what they were excluded from —
+"alienated from the commonwealth of Israel and strangers to the covenants of promise" (2:12). Here
+is where he lands:
 
 > ✝️ Ephesians 2:19 (ESV)
 >
@@ -246,22 +333,24 @@ Fellow citizens with the saints. Members of the household of God. The word he ha
 just used, he does not use.
 
 That turns out to hold across the New Testament. **Ἰσραήλ** (G2474) occurs **68 times** in the Greek
-New Testament — Acts 15, Matthew 12, Luke 12, Romans 11, John 4, Revelation 3, Hebrews 3, Mark 2, 2
-Corinthians 2, and once each in 1 Corinthians, Galatians, Ephesians and Philippians. Not one of them
-unambiguously names a body of Jews and Gentiles together. Three need more than a bare count:
+New Testament — Acts (15), Matthew (12), Luke (12), Romans (11), John (4), Revelation (3), Hebrews
+(3), Mark (2), 2 Corinthians (2), and once each in 1 Corinthians, Galatians, Ephesians and
+Philippians. Not one of them unambiguously names a body of Jews and Gentiles together. Three need
+more than a bare count:
 
 - **Romans 9:6** uses the word twice — "not all who are descended from Israel belong to Israel." The
   first is ethnic; the second is a subset *of* that same ethnic group, since the argument runs
   straight on to Isaac and Ishmael, Jacob and Esau, all inside Abraham's physical line. It is the
   believing remnant, not the Church.
-- **Hebrews 8:8 and 8:10** quote Jeremiah's "house of Israel and… house of Judah" inside an argument
-  the letter presses on Christian readers. The referent *in the quotation* is Jeremiah's; how far
-  Hebrews transfers it is a separate and contested question.
+- **Hebrews 8:8 and 8:10** quote Jeremiah's new-covenant promise inside an argument the letter
+  presses on Christian readers — 8:8 naming "the house of Israel and… the house of Judah," 8:10 "the
+  house of Israel" alone. The referent *in the quotation* is Jeremiah's; how far Hebrews transfers it
+  is a separate and contested question.
 - **Galatians 6:16** is the one occurrence seriously argued as meaning the Church, and it is
   discussed below.
 
-That is the honest shape of the count: not sixty-seven knock-down cases and one awkward one, but a
-word Scripture uses of a nation and its remnant, never once plainly of the two peoples joined.
+So the count is not sixty-seven knock-down cases and one awkward one. It is a word Scripture uses of
+a nation and its remnant, never once plainly of the two peoples joined.
 
 ## What most English translations drop
 
@@ -289,16 +378,23 @@ counterpart. "Israel according to the Spirit" appears nowhere in the New Testame
 querying every verse containing both Ἰσραήλ and πνεῦμα. He marks Israel as *kata sarka* and leaves
 the other half of the antithesis unwritten.
 
-## The case on the other side, stated properly
+## The case for reading the Church as Israel
 
-Four texts carry the weight for reading the Church as Israel.
+Four texts carry the weight on the other side.
 
 **Galatians 6:16** — "peace and mercy be upon them, and upon the Israel of God." The crux is the
 **καί** before "the Israel of God," which can be conjunctive ("and") or ascensive ("even"). Read
-ascensively, Paul equates the two. The *ESV Study Bible* takes it that way, glossing "Israel of God"
-as the believing children of Abraham and stating that those in the new creation "comprise the true
-Israel." That reading is available. What it cannot do is settle the question, because a single ambiguous conjunction is the thinnest possible foundation for
-overturning every other occurrence around it.
+ascensively, Paul equates the two. The *ESV Study Bible* sets out both senses and then declines to
+choose between them — "which sense is best here must be decided with reference to the larger context
+of Paul's thought" — but its own gloss on the phrase leans the other way from this study, taking
+"the true people of God" to be "the believing children of Abraham," and its note on the closing
+section says those who belong to the new creation "comprise the true Israel." That reading is
+available on the Greek. What it cannot do is settle the question, since a single ambiguous
+conjunction is thin ground for overturning every other occurrence around it.
+
+The *NIV Cultural Backgrounds Study Bible* adds a piece of evidence that cuts the other way: Jewish
+benedictions regularly prayed "Peace … to Israel." That is a reason to hear the phrase as naming a
+distinct group blessed alongside, not a new name for the group just addressed.
 
 **Romans 2:28-29** — "no one is a Jew who is merely one outwardly… a Jew is one inwardly." Paul is
 distinguishing real from nominal covenant membership *within* Israel, which is the same move the
@@ -306,9 +402,9 @@ prophets made (Jeremiah 9:25-26). It denies that descent alone saves. It does no
 Jews.
 
 **Galatians 3:29** — "if you are Christ's, then you are Abraham's offspring, heirs according to
-promise." Abraham is deliberately wider than Israel; he is "the father of a multitude of nations" before he is
-father of Jacob (Genesis 17:5). Being Abraham's offspring by promise is what Ephesians 3:6 called being
-fellow heirs, and Paul says it without saying "Israel."
+promise." Abraham is deliberately wider than Israel; he is "the father of a multitude of nations"
+before he is father of Jacob (Genesis 17:5). Being Abraham's offspring by promise is what Ephesians
+3:6 called being fellow heirs, and Paul says it without saying "Israel."
 
 **1 Peter 2:9** — "a chosen race, a royal priesthood, a holy nation, a people for his own
 possession." Peter applies Exodus 19:5-6 to the church. Israel's vocation language is extended to
@@ -316,15 +412,21 @@ Gentile believers — which the distinction has no need to deny. Sharing a calli
 being the same body, and Peter never says the nation has forfeited its own.
 
 The vocabulary does overlap, and on one point it favours the other side. The Greek **ἐκκλησία**
-renders the Hebrew <span dir="rtl">קָהָל</span> (*qahal*, H6951) in the Septuagint — Deuteronomy 9:10 and 18:16 both do it,
-of "the day of the assembly" at Horeb — and Acts 7:38 calls Israel in the wilderness **ἡ ἐκκλησία ἐν
-τῇ ἐρήμῳ**, the assembly in the wilderness. None of that is in dispute. The weight falls instead on
-what Paul says was *created* at the cross, and on what he calls a mystery "not made known to the
-sons of men in other generations."
+renders the Hebrew <span dir="rtl">קָהָל</span> (*qahal*, H6951) in the Septuagint — Deuteronomy
+9:10 and 18:16 both do it, of "the day of the assembly" at Horeb — and Acts 7:38 places Moses **ἐν
+τῇ ἐκκλησίᾳ ἐν τῇ ἐρήμῳ**, in the assembly in the wilderness, which is Israel at Sinai. None of that
+is in dispute. The weight falls instead on what Paul says was *created* at the cross, and on what he
+calls a mystery "not made known to the sons of men in other generations."
 
-## John's witness
+## Two companies in Revelation 7
 
-Revelation puts the two side by side inside a single vision, and marks the seam.
+Revelation is apocalyptic, and its images are meant to be read as images. That makes this the
+weakest section of the case argued here, and it is set out plainly for that reason.
+
+Chapter 7 is an interlude. The sixth seal has been opened, the earth has asked "who can stand?"
+(6:17), and before the seventh seal is broken the narrative stops to show who belongs to God — both
+the *ESV Study Bible* and the *NLT Life Application Study Bible* label the section that way. The
+structure of the vision is doing work here, which is why the seam inside it matters.
 
 > ✝️ Revelation 7:4 (ESV)
 >
@@ -343,11 +445,15 @@ from the tribes of Israel against from every nation. Two companies, both redeeme
 chapter, distinguished by John himself.
 
 The symbolic reading has a real argument here. As the *ESV Study Bible* points out, the tribe list
-is irregular — Dan is missing, Levi is included, Joseph appears instead of Ephraim, Judah leads
-instead of Reuben — and 144,000 is 12 × 12 × 1,000, which looks designed. That is a fair case for
-reading the number as significant rather than statistical. It is a weaker case for reading "from
-every tribe of the sons of Israel" as meaning "from every nation," when John writes both phrases
-five verses apart and separates them with "after this."
+is irregular at four points — Dan is missing, Manasseh is included alongside Joseph rather than
+Ephraim, Levi the priestly tribe is counted, and Judah leads instead of Reuben the firstborn — and
+144,000 is 12 × 12 × 1,000, which looks designed rather than counted. The *NIV Cultural Backgrounds
+Study Bible* adds that the form of the list resembles a military census (Numbers 1). Granted: the
+number is significant rather than statistical.
+
+It is a weaker case for reading "from every tribe of the sons of Israel" as meaning "from every
+nation," when John writes both phrases five verses apart and separates them with "after this." A
+symbolic number of Israelites is still a number of Israelites.
 
 ## The prophets, and the order they give
 
@@ -404,11 +510,26 @@ James read the sequence the same way at the Jerusalem council:
 Gentiles gathered first for God's name; **after this**, the fallen tent of David rebuilt. The council
 that settled Gentile inclusion did so without concluding that David's house was finished.
 
-## A remnant saved through the tribulation
+## The tribulation, and what it is for
+
+Scripture is consistent about what the coming distress is for, as far as Israel is concerned. It is
+not God finally losing patience with the nation. It is how he brings the nation to her Messiah.
+
+Moses said so before the nation had entered the land: "When you are in tribulation, and all these
+things come upon you in the latter days, you will return to the LORD your God and obey his voice.
+For the LORD your God is a merciful God. He will not leave you or destroy you or forget the covenant
+with your fathers" (Deuteronomy 4:30-31). Hosea gives God's side of the same arrangement — "I will
+return again to my place, until they acknowledge their guilt and seek my face, and in their distress
+earnestly seek me" (Hosea 5:15). Distress is the instrument; seeking his face is the object.
 
 Jeremiah names the period from Israel's side: "Alas! That day is so great there is none like it; it
 is a time of distress for Jacob; yet he shall be saved out of it" (Jeremiah 30:7). Distress *for
-Jacob*, and salvation *out of* it — not instead of it.
+Jacob*, and salvation *out of* it — not instead of it. Daniel says the same twice over: "a time of
+trouble, such as never has been since there was a nation till that time. But at that time your
+people shall be delivered" (Daniel 12:1). Ezekiel supplies the mechanism, and the imagery is a
+second Exodus: God gathers the nation, brings it "into the wilderness of the peoples," enters into
+judgment "face to face," makes them "pass under the rod," and brings them "into the bond of the
+covenant" (Ezekiel 20:34-37).
 
 Zechariah gives the proportions and the outcome.
 
@@ -419,11 +540,15 @@ Zechariah gives the proportions and the outcome.
 > and test them as gold is tested. They will call upon my name, and I will answer them. I will say,
 > 'They are my people'; and they will say, 'The LORD is my God.'
 
-The covenant formula closes it — *they are my people*, *the LORD is my God* — spoken over a refined
-remnant, not over a replacement. And Zechariah 12:10 supplies what turns them: a spirit of grace
-poured out on the house of David and the inhabitants of Jerusalem, "so that, when they look on me, on
-him whom they have pierced, they shall mourn for him." That is Romans 11:26 from the inside — the
-Deliverer coming from Zion, and Jacob's ungodliness banished.
+Refining is what a silversmith does to metal he intends to keep. The covenant formula closes it —
+*they are my people*, *the LORD is my God* — spoken over a refined remnant, not over a replacement.
+And Zechariah 12:10 supplies what finally turns them: a spirit of grace poured out on the house of
+David and the inhabitants of Jerusalem, "so that, when they look on me, on him whom they have
+pierced, they shall mourn for him."
+
+That is Romans 11:26 from the inside — the Deliverer coming from Zion, Jacob's ungodliness banished,
+and a nation recognising the one it did not recognise the first time. The tribulation is not the
+end of God's dealings with Israel. It is how he finishes them.
 
 ## About 1948
 
@@ -445,7 +570,7 @@ claims more than the text gives, and every previous attempt on this site to pin 
 calendar has had to be walked back — see [The Day Is Near](../last-things/day-is-near.md) and
 [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) for that pattern in full.
 
-## Where the commentaries actually land
+## What the commentaries say
 
 They divide by passage rather than by camp.
 
@@ -454,15 +579,53 @@ They divide by passage rather than by camp.
   concludes that the future salvation of ethnic Israel at the end of history is the likeliest reading.
   That is this study's position, from a source with no dispensational commitment to defend.
 - **Ephesians 2:15** — the *NIV Biblical Theology Study Bible* states that the new humanity created in
-  Christ "is distinct from Jews and Gentiles," citing 1 Corinthians 10:32 for it. The three-category
-  reading, arrived at independently.
-- **Galatians 6:16** — the *ESV Study Bible* goes the other way, as set out above.
-- **Revelation 7:4-8** — both the *ESV Study Bible* and the *NIV Biblical Theology Study Bible* lean
-  symbolic.
+  Christ "is distinct from Jews and Gentiles," citing 1 Corinthians 10:32 for it. That is the
+  three-group reading of 1 Corinthians 10:32 above, from a commentary with none of the commitments
+  argued for here.
+- **Romans 11:11-36** — the *NLT Life Application Study Bible* goes squarely the other way, saying
+  God "is still working to unite all believers so they become a new Israel, a new Jerusalem," and
+  citing Ephesians 2:11-22 for it. That is the supersessionist reading of both primary passages,
+  stated plainly by a widely-used commentary. Its note two verses later, though, says "God chose the
+  nation of Israel, and he has never rejected it" — so even the commentary most opposed to the
+  distinction will not say the nation is finished.
+- **Galatians 6:16** — the *ESV Study Bible* leans the other way, as set out above.
+- **Revelation 7:4-8** — the *ESV Study Bible*, the *NIV Biblical Theology Study Bible* and the *NIV
+  Cultural Backgrounds Study Bible* all lean symbolic. Three of three, against the reading taken here.
 
 The support is strongest exactly where the argument is heaviest — Romans 9-11 and Ephesians 2 — and
 weakest in Revelation and Galatians, which lean on literary structure and a contested conjunction
-respectively.
+respectively. The distinction does not need Revelation 7; Revelation 7 is where it is least secure.
+
+## How Israel and the Church relate today
+
+Some of what Romans 9-11 addresses belongs to the first century and does not transfer. The specific
+situation — Jewish believers returning to congregations that had spent five years without them, and
+the friction that caused over food, days and seating — is Rome in the 50s. Nobody today is working
+out how to seat a returning exile from the Claudian edict.
+
+What does transfer is what Paul grounds his warning in, and he grounds it in something that cannot
+date: God does not take back what he gives. "The gifts and the calling of God are irrevocable" is not
+advice about first-century manners. It is a statement about God's character, and it is the reason the
+warning against arrogance still lands.
+
+So, plainly:
+
+- **The Church is not Israel, and Israel is not the Church.** One is a nation God chose and still
+  owns; the other is a body God created at the cross out of believing Jews and Gentiles, on terms no
+  prophet was told.
+- **Israel today is hardened in part, not rejected.** There has always been a believing Jewish
+  remnant, there is one now, and Paul was in it. Jewish people who trust Christ are not leaving their
+  people; they are the proof God has not left them.
+- **The Church's era runs until "the fullness of the Gentiles has come in."** That is our work and
+  our window, and it has a stated end.
+- **Israel's national turning is still ahead**, and the distress that precedes it is designed to
+  produce it, not to punish without purpose.
+- **The right response to all of this is humility and prayer**, because Paul says so in as many
+  words: do not be arrogant toward the branches, and pray that they may be saved.
+
+A Christian who holds this rightly ends up neither despising Israel nor envying her — but grateful,
+because the same faithfulness that will not let go of a nation that has spent centuries saying no is
+the faithfulness holding on to him.
 
 ## Discussion questions
 
@@ -488,21 +651,30 @@ respectively.
   never as a source of meaning.
 - MACULA Greek (SBLGNT) and MACULA Hebrew (WLC) Linguistic Datasets, and Brenton's Septuagint, via
   this repo's `references/build/bible-text.db` — every Strong's number, occurrence count and Greek
-  form above.
+  form above. The occurrence counts for Ἰσραήλ (68), μυστήριον (26) and οἰκονομία (9) are counts in
+  the SBLGNT text as that dataset carries it, which ends Romans at 16:24; editions printing the
+  doxology at 16:25 add one more μυστήριον.
 
 **Commentaries consulted**
 
 - *ESV Study Bible* (Crossway, 2016) — the Romans introduction for the Claudius expulsion and the
   letter's occasion; notes on Romans 11:26, Ephesians 2:11-22, Galatians 6:16 and Revelation 7:1-17.
-  It supports this study's reading of Romans 11 and opposes it on Galatians 6:16; both are reported
-  above.
-- *NIV Biblical Theology Study Bible* (Zondervan) — notes on Ephesians 2:15, Romans 11:26 and
+  It supports this study's reading of Romans 11 and leans against it on Galatians 6:16 and
+  Revelation 7; all are reported above.
+- *NIV Biblical Theology Study Bible* (Zondervan, 2018) — notes on Ephesians 2:15, Romans 11:26 and
   Revelation 7:4.
+- *NIV Cultural Backgrounds Study Bible* (Zondervan, 2016) — notes on Romans 11:26 (the Psalm 14:7
+  blending), Galatians 6:16 (the Jewish benediction formula) and Revelation 7:4-8.
+- *NKJV Cultural Backgrounds Study Bible* (Zondervan, 2017) — Romans 11:26 on the same conflation.
+- *NLT Life Application Study Bible*, third edition (Tyndale, 2019) — notes on Romans 11, cited above
+  as the clearest published statement against this study's conclusion.
 
 **Historical background**
 
-- Suetonius, *Divus Claudius* 25.4, on the expulsion of AD 49 — cited here as the *ESV Study Bible*
-  reports it, not consulted directly. Scripture corroborates the expulsion at Acts 18:2.
+- Suetonius, *Divus Claudius* 25.4, on the expulsion of AD 49. The *ESV Study Bible*'s Romans
+  introduction is the source used here for the episode and its date; the chapter-and-section number
+  is the standard reference for the passage and is supplied for a reader who wants to look it up.
+  Suetonius was not consulted directly. Scripture corroborates the expulsion at Acts 18:2.
 
 **Related studies on this site**
 

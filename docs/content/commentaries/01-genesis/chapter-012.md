@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 12:4
+- [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 12:3
 - [The Combined Timeline: One Line, Two Zones](../../last-things/combined-timeline.md) — 12:4
 <!-- commentary-index:auto-end -->

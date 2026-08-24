@@ -226,7 +226,7 @@ review_2026-08-12:
   separate:
     - "hebrew-roots.md (also live) still carries an unedited template mermaid radar chart of Alice/Bob scoring Math/Science/English, and a sentence ending mid-word: 'The festivals alone are t'. Not in scope for this rebuild; raised to the author."
 
-last_updated: "2026-08-12"
+superseded_last_updated_2026_08_12: "2026-08-12"
 
   publish_2026-08-12: >
     Flipped to draft: false and indexes regenerated. Two defects surfaced by the generators and
@@ -311,3 +311,136 @@ review_2026-08-13:
     three views) though it states "God chose the nation of Israel, and he has never rejected it".
     CSB Ancient Faith SB silent.
   post_fix_state: "npm run validate clean on this file; mkdocs build --strict clean; ESV quotation 20.9% of 5,073 body words; all 41 block-quoted verses re-verified after the edits."
+
+review_2026-08-24:
+  scope: >
+    Second independent adversarial pass on the LIVE page, at the author's request. All findings
+    were fixed in the same session, plus an author-directed expansion of the mystery material and
+    a full read-through for flow.
+  critical_found_and_fixed:
+    - >
+      ZECHARIAH 12:10 MISQUOTED in the Key Takeaways. The page had Jerusalem "shall look on me, on
+      him whom they have pierced"; ESV reads "when they look on me". A two-word splice, "shall"
+      borrowed from "they shall mourn" later in the verse, inside quotation marks, on a live page.
+      The same verse was quoted correctly further down, which is how it survived two prior reviews.
+  moderate_found_and_fixed:
+    - >
+      ESV STUDY BIBLE MISREPRESENTED AT GALATIANS 6:16. The page made the ascensive kai the crux
+      and then said the ESV SB "takes it that way". Its note on 6:16 does the opposite -- it names
+      both senses and explicitly refuses to settle: "Which sense is best here must be decided with
+      reference to the larger context of Paul's thought." The "comprise the true Israel" line the
+      page attributed to the verse note is from the SECTION note on 6:11-18. Substance survives
+      (the ESV SB does gloss "Israel of God" as the believing children of Abraham) but the page
+      claimed a decision the source declines to make, on the one point it calls the crux. Rewritten
+      to report the refusal and the gloss separately.
+    - >
+      GRAMMAR MISLABEL AT ROMANS 11:18. "The purpose clause is stated outright at verse 18" -- but
+      11:18 is me + katakaucho, V-PNM-2S, a present middle imperative with a negative particle, and
+      there is no hina/hopos anywhere in the verse. Re-derived from MACULA morphology. In a study
+      that makes precise grammatical claims elsewhere ("present indicative", "adverb of manner")
+      this read as one. Rewritten as a prohibition.
+    - >
+      UNVERIFIABLE HORTICULTURAL UNIVERSAL. "Grafting is the one horticultural image that requires
+      the graft to remain distinguishable from the stock." Flagged Minor on 2026-08-13 and not
+      actioned. Replaced with a claim about what Paul actually does with the image.
+    - >
+      A FOURTH COMMENTARY CONTRADICTS A CENTRAL CLAIM AND WAS NOT REPORTED. NLT Life Application SB
+      on Rom 11:11-36 -- this study's own primary passage -- says God "is still working to unite all
+      believers so they become a new Israel, a new Jerusalem", citing Eph 2:11-22. The 2026-08-13
+      review recorded NLT LASB as "silent at Rom 11:26", true of the verse note but not of the
+      section note. Now reported in the commentaries section, together with its own countervailing
+      line ("God chose the nation of Israel, and he has never rejected it").
+    - >
+      PHASE 6 GAPS, all three previously flagged and unactioned. (1) Cultural-vs-transcultural line
+      never drawn on the page -- now an explicit section. (2) Revelation 7's literary context (an
+      interlude between the sixth and seventh seals) absent while the "after this" argument leans on
+      the vision's structure -- now stated, with both the ESV SB and NLT LASB cited for the label.
+      (3) Apocalyptic genre never named -- now named at the head of the Revelation section.
+  minor_found_and_fixed:
+    - "'Paul had a settled way of dividing the human race... and it had three parts' generalised from 1 Cor 10:32 alone. Rewritten to claim only what one verse can show."
+    - "Rev 7 tribe-list summary dropped 'Manasseh included', which the ESV SB sentence it summarises names. Now four points, not three."
+    - "'Hebrews 8:8 and 8:10 quote... house of Israel and house of Judah' -- 8:10 has only 'house of Israel'. Split."
+    - "'Paul reaches for vocabulary he has to build' overstated: only syssomos is a coinage; synkleronomos is at Rom 8:17, Heb 11:9, 1 Pet 3:7. Narrowed."
+    - "Acts 7:38 cited as the nominative he ekklesia en te eremo; the text is dative, en te ekklesia en te eremo. Corrected."
+    - "Suetonius cited as Divus Claudius 25.4 while stating the ESV SB as source, which gives no section number. Provenance now stated exactly."
+    - "Four residual virtue-narration frames after the 2026-08-13 pass cut ten: 'the honest shape of the count', the heading 'stated properly', 'arrived at independently', 'where the commentaries actually land'. All cut."
+    - "Lines at 141 and 156 chars breaking the file's ~100-col wrap. Rewrapped."
+    - "Tag 'covenants' restated the section (the taxonomy defines Israel-and-Church as covering 'the covenants'). Dropped; replaced with 'mystery' for the new material."
+  author_directed_changes:
+    - >
+      HEADING "Three categories, not two" identified by the author as an AI-shaped heading. Retitled
+      "Jews, Greeks, and the church of God" -- states the content. Same treatment applied to "The
+      olive tree, read slowly" -> "The olive tree of Romans 11", "The mystery Paul says he is
+      disclosing" -> "What Romans 11 says is still ahead for Israel", "The case on the other side,
+      stated properly" -> "The case for reading the Church as Israel", "Where the commentaries
+      actually land" -> "What the commentaries say", "John's witness" -> "Two companies in
+      Revelation 7", "A remnant saved through the tribulation" -> "The tribulation, and what it is
+      for".
+    - >
+      MYSTERY MATERIAL EXPANDED into its own section at the author's direction, on the thesis that
+      the Church as one body of Jew and Gentile IS the mystery hidden and now revealed. New,
+      re-derived research: mysterion G3466 occurs 26x in the SBLGNT as this repo carries it (19 in
+      Paul); the OT background is Aramaic raz H7328, 9 occurrences, all in Daniel, matching exactly
+      the 9 places the ESV prints "mystery" in Daniel (note the ch.4 offset: raz at Dan 4:6 = ESV
+      4:9); Col 1:26 apokekrymmenon ... nyn de ephanerothe and Eph 3:5 ouk egnoristhe ... hos nyn
+      apekalyphthe give the hidden/revealed structure in Paul's own words. THE LOAD-BEARING
+      DISTINCTION, and the one that keeps this honest: Gentile blessing WAS prophesied (Gen 12:3,
+      Isa 49:6, Amos 9:11-12, and Paul's own four-text stack at Rom 15:9-12), so the mystery is not
+      that Gentiles get in -- Eph 3:6 says what it is, and it is the three syn- compounds. A
+      proselyte could be blessed; he could not be syssomos. Rom 15:8-9 added as the hinge verse:
+      promises to the patriarchs confirmed AND Gentiles brought in, two purposes of one ministry.
+      Eph 3:9 he oikonomia tou mysteriou added (oikonomia G3622, 9x NT, three in Ephesians) as where
+      "dispensation" comes from. Closes with a table setting the Ephesians 3 mystery against the
+      Romans 11 mystery -- one in force now, one not yet carried out.
+    - >
+      TRIBULATION SECTION rewritten around its purpose toward Israel, per the author's stated
+      takeaway. Added Deut 4:30-31 (Moses: tribulation in the latter days -> you will return),
+      Hos 5:15 (God withdraws until "in their distress earnestly seek me"), Dan 12:1, and Ezek
+      20:34-37's second-Exodus imagery (wilderness of the peoples, face to face, under the rod, into
+      the bond of the covenant). Closes: "The tribulation is not the end of God's dealings with
+      Israel. It is how he finishes them."
+    - >
+      NEW CLOSING SECTION "How Israel and the Church relate today" -- draws the cultural /
+      transcultural line explicitly (the Claudian seating dispute does not transfer; "the gifts and
+      the calling of God are irrevocable" does), then states the present relation in five plain
+      bullets. Opening hook also now states the thesis in bold in the second paragraph rather than
+      making the reader wait.
+  verified_clean: >
+    All 19 block quotes (up from 17) re-matched against esv-study-bible by exact normalised string
+    comparison -- 0 failures. Every inline fragment, old and new, re-verified the same way.
+    Israel G2474 = 68 with the exact per-book distribution, re-enumerated reference by reference.
+    syssomos G4954 NT hapax; symmetochos G4830 Eph 3:6 + 5:7 only; synkleronomos G4789 4x; G278,
+    G2936, G2537, G3779, G3466 (26), G3622 (9), H7328 (9), H6951 all confirmed. Rom 11:25 apo
+    merous / achri hou, 11:26 kai houtos + Hexei ek Sion, 9:4 hoitines eisin Israelitai, 1Cor 10:18
+    ton Israel kata sarka, Eph 2:15 ktise/kainon, Eph 3:6 three syn- compounds, Rev 7:9 Meta tauta
+    all confirmed from MACULA. Zion conflation re-confirmed: LXX Isa 59:20 heneken Sion, MT
+    le-Tsiyon, LXX Ps 13:7 ek Sion naming Jacob and Israel. "Israel according to the Spirit" absent
+    (only Luke 1:80, 2:25 carry both Israel and pneuma). 1 Cor 10:18 table correct in every row.
+    Rev 7:5-8 tribe list; 144,000 = 12x12x1000; Eph 2:12->2:19 seven verses; Ezek 36 gathers before
+    it cleanses; Rom 1:5-6, 1:13, 11:13 support the Gentile-readership claim. All four commentary
+    quotations verified verbatim in study-notes.db, including the ESV SB Romans introduction's five
+    questions and the Suetonius/Chrestus passage; ESV SB edition year 2016 matches the citation.
+    All internal links and the #end-times anchor resolve.
+  commentary_cross_check: >
+    NIV Cultural Backgrounds SB consulted (cited by neither the study nor the 2026-08-13 review).
+    CONFIRMS the Psalm 14:7 blending at Rom 11:26 independently of the NKJV CBSB the study already
+    cited -- "in the next verse Paul might blend Isa 59:20-21 with Ps 14:7 ('from Zion')" -- now a
+    second witness in the text. CONTRIBUTES the Gal 6:16 Jewish-benediction point ("Peace ... to
+    Israel"), flagged unused on 2026-08-13 and now written in. COMPLICATES at Rev 7:4-8, leaning
+    symbolic and adding a military-census reading; reported. NLT Life Application SB CONTRADICTS at
+    Rom 11:11-36, now reported (see above).
+  post_fix_state: >
+    npm run validate clean on this file (the 8 remaining warnings are all on other pages).
+    npm test passes. mkdocs build --strict clean. commentary_index.py re-run: 6 new chapter pages
+    (Deut 4, Isa 49, Ezek 20, Dan 12, Hos 5, Rom 15) and 13 updated, all staged with the content
+    edit. refresh_frontmatter_provenance.py run before commit, date_modified now 2026-08-24.
+    ESV block quotation 1,186 of 7,229 body words (16.4%), down from 20.9% as a share because the
+    study grew; well inside the 50% ceiling. Self-references 10 (was 7 before the additions, 16 at
+    peak mid-edit, trimmed back). Em-dash density 1.2 per 100 words.
+  still_open:
+    - >
+      category: "prophecy" on a study whose section is ecclesiology. Left as-is because both other
+      files in israel-and-church/ use it and changing one would make the directory inconsistent;
+      raised to the author as a directory-wide decision rather than a per-file fix.
+
+last_updated: "2026-08-24"
