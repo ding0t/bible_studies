@@ -63,7 +63,10 @@ export default function MillennialWeek({ events = [] }) {
       activeVariants.map((variantId) => ({
         variantId,
         people: mergePeopleWithVariant(genealogyPeople, variantId).filter(
-          (p) => p.gregorian_year_born !== null && p.gregorian_year_died !== null
+          // == null, not !== null: a person absent from this variant's tradition has undefined
+          // year fields rather than null, and undefined slipping through draws a lane bar at
+          // NaN coordinates. Cainan son of Arphaxad is LXX-only, so MT/SP/synthesis hit this.
+          (p) => p.gregorian_year_born != null && p.gregorian_year_died != null
         ),
       })),
     [activeVariants, genealogyPeople]
@@ -270,7 +273,7 @@ export default function MillennialWeek({ events = [] }) {
             {showAnchors &&
               placedAnchors.map(
                 (a) =>
-                  a.am !== null && (
+                  a.am != null && (
                     <button
                       key={a.id}
                       onClick={() => setSelected({ kind: 'anchor', ...a })}
@@ -293,7 +296,7 @@ export default function MillennialWeek({ events = [] }) {
             {showMilestones &&
               placedMilestones.map(
                 (m) =>
-                  m.am !== null && (
+                  m.am != null && (
                     <button
                       key={m.id}
                       onClick={() => setSelected({ kind: 'milestone', ...m })}

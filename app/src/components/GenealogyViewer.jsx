@@ -31,13 +31,16 @@ const GenealogyViewer = () => {
   // Compute dynamic year range from data for Gantt timeline
   const ganttYearRange = useMemo(() => {
     const validPeople = genealogyData.people.filter(
-      p => p.gregorian_year_born !== null && p.gregorian_year_died !== null
+      p => p.gregorian_year_born != null && p.gregorian_year_died != null
     );
     if (validPeople.length === 0) return { min: -4100, max: 100 };
     const births = validPeople.map(p => p.gregorian_year_born);
     const deaths = validPeople.map(p => p.gregorian_year_died);
     const dataMin = Math.min(...births);
     const dataMax = Math.max(...deaths);
+    // Belt and braces: a NaN bound turns every bar's position into "NaN%", which renders as an
+    // empty chart rather than an error, so it fails silently and looks like the tab is broken.
+    if (!Number.isFinite(dataMin) || !Number.isFinite(dataMax)) return { min: -4100, max: 100 };
     // Add 2% padding on each side
     const padding = Math.ceil((dataMax - dataMin) * 0.02);
     return { min: dataMin - padding, max: dataMax + padding };
@@ -135,7 +138,7 @@ const GenealogyViewer = () => {
     return filteredPeople.filter(person => {
       const born = person.gregorian_year_born;
       const died = person.gregorian_year_died;
-      if (born === null || died === null) return false;
+      if (born == null || died == null) return false;
       return born <= gregorianYear && gregorianYear <= died;
     });
   };
@@ -450,7 +453,7 @@ const GenealogyViewer = () => {
                   </p>
                   <p>
                     <strong>Died:</strong>{' '}
-                    {selectedPerson.gregorian_year_died !== null
+                    {selectedPerson.gregorian_year_died != null
                       ? calendarView === 'gregorian'
                         ? `${selectedPerson.gregorian_year_died} AD`
                         : `${selectedPerson.zadok_year_died} (Zadok)`
@@ -582,7 +585,7 @@ const GenealogyViewer = () => {
                 {filteredPeople.map(person => {
                   const startYear = person.gregorian_year_born;
                   const endYear = person.gregorian_year_died;
-                  if (startYear === null || endYear === null) return null;
+                  if (startYear == null || endYear == null) return null;
 
                   return (
                     <div
@@ -692,7 +695,7 @@ const GenealogyViewer = () => {
                   {filteredPeople.map(person => {
                     const startYear = person.gregorian_year_born;
                     const endYear = person.gregorian_year_died;
-                    if (startYear === null || endYear === null) return null;
+                    if (startYear == null || endYear == null) return null;
 
                     const minYear = ganttYearRange.min;
                     const maxYear = ganttYearRange.max;
