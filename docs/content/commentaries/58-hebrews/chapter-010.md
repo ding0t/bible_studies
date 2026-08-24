@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 10:25
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 10:1
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 10:1-18
 - [The Rapture of the Church](../../last-things/rapture.md) — 10:10
 - [The Way](../../jesus/the-way.md) — 10:19-20

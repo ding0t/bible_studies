@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 119 (primary passage)
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 119:105
 <!-- commentary-index:auto-end -->

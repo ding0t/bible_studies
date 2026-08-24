@@ -60,6 +60,6 @@ What types are seen as shadows of a truth.
 - [Chapter 105](chapter-105.md) — 1 study(ies)
 - [Chapter 110](chapter-110.md) — 1 study(ies)
 - [Chapter 116](chapter-116.md) — 1 study(ies)
-- [Chapter 119](chapter-119.md) — 1 study(ies)
+- [Chapter 119](chapter-119.md) — 2 study(ies)
 - [Chapter 145](chapter-145.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

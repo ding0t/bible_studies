@@ -14,4 +14,5 @@ draft: false
 
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 3:16
 - [Biblical Numerology](../../scripture/numerology.md) — 3:16-17
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 3:16-17
 <!-- commentary-index:auto-end -->

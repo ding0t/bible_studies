@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 15:10-11
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 15:13-18
 <!-- commentary-index:auto-end -->

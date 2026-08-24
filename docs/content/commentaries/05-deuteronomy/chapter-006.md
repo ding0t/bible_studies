@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 6:4
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 6:4-7
 <!-- commentary-index:auto-end -->

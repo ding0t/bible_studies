@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 24:27 (primary passage)
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 24:25-27
 <!-- commentary-index:auto-end -->

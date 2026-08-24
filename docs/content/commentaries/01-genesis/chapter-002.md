@@ -15,5 +15,6 @@ draft: false
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 2:1-3 (primary passage)
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 2:7
 - [Biblical Numerology](../../scripture/numerology.md) — 2:10
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:2-3
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:15
 <!-- commentary-index:auto-end -->

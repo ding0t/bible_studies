@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 5:7
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:7-8
 <!-- commentary-index:auto-end -->
