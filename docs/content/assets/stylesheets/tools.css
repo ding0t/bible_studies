@@ -6,11 +6,23 @@
  * palette and its own dark-mode toggle. Now mkdocs-material owns the page, so they are defined
  * here in terms of material's own variables instead.
  *
- * There is deliberately no [data-md-color-scheme="slate"] block: material redefines --md-* per
- * scheme, so mapping onto them makes the tools follow the site's palette toggle for free. Adding
- * a dark override here would fight that, not help it.
+ * These MUST be declared on the element carrying data-md-color-scheme, which material puts on
+ * <body> -- NOT on :root, which is where this file had them until it was caught by eye.
+ *
+ * Material declares the light values on `:root,[data-md-color-scheme=default]` and the dark ones
+ * on `[data-md-color-scheme=slate]`. Only the second selector matches <body>; :root is <html>,
+ * which always holds the light set. A custom property is substituted at computed-value time on
+ * the element that DECLARES it, so `--color-text: var(--md-default-fg-color)` declared at :root
+ * resolved against <html> and froze to the light value, then inherited that everywhere. The
+ * toggle changed material's own colours and nothing in the tools moved.
+ *
+ * Declared on <body> it resolves correctly in both directions: in the default scheme body matches
+ * [data-md-color-scheme=default] and gets the light set, in slate it gets the dark one.
+ *
+ * Given the correct scope, no [data-md-color-scheme="slate"] block is needed: material redefines
+ * the --md-* values per scheme, so the tools follow the palette toggle for free.
  */
-:root {
+[data-md-color-scheme] {
   --color-text: var(--md-default-fg-color);
   --color-text-muted: var(--md-default-fg-color--light);
   --color-text-subtle: var(--md-default-fg-color--light);
