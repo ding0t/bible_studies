@@ -1,21 +1,19 @@
 .venv/
 node_modules/
 site/
-# Stale build output at the repo root from the pre-2026-08 Astro-only site layout (paths like
-# dist/studies/prophecy-fulfilled-in-jesus/). Nothing writes here any more -- both kept ignored
-# so the dead artifacts can't be committed by accident. Safe to delete the directories outright.
-dist/
-.astro/
 .env
 .env.local
-# Byte-compiled / optimized / DLL files
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-# Astro
+
+# OS / editors / logs
 .DS_Store
 *.log
 npm-debug.log*
+
 # Claude
 .claude/settings.local.json
 
@@ -24,7 +22,9 @@ references/build/out/
 references/build/.venv/
 references/build/cache/
 references/build/BibleOrgSysData/
+
 # Superpowers scratch
 .superpowers/
+
 # Built by `npm run build:tools` in app/ before the mkdocs build; never committed.
 docs/content/assets/js/
