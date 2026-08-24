@@ -287,6 +287,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](49-ephesians/)
 
+-   __Philippians__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](50-philippians/)
+
 -   __Colossians__
 
     ---

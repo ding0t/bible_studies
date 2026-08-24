@@ -1,0 +1,257 @@
+slug: "assurance-of-salvation"
+title: "Assurance of Salvation"
+status: review
+target_path: "docs/content/salvation/assurance-of-salvation.md"
+
+primary_passage: "1 John 5:11-13"
+supporting_passages:
+  - "Acts 4:12"
+  - "Ephesians 2:8-9"
+  - "John 3:16-18"
+  - "John 5:24"
+  - "John 10:27-29"
+  - "Romans 8:1"
+  - "Romans 8:15-17"
+  - "Romans 8:31-39"
+  - "Romans 10:9-13"
+  - "Ephesians 1:13-14"
+  - "Titus 3:4-7"
+  - "2 Corinthians 5:17"
+  - "Hebrews 7:25"
+  - "2 Timothy 1:12"
+  - "1 Peter 1:3-5"
+  - "John 6:37-40"
+genre: [epistle, gospel, acts, topical]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Backlog item 4.1 (Salvation section). Scope per backlog.md: the question and assurance of
+      salvation -- no other name by which we may be saved (Acts 4:12), not by works (Eph 2:8-9).
+      Salvation section is defined in the taxonomy (our-taxonomy.md, commentary_index.py
+      SUBJECT_DIRS, section_index.py SECTION_BLURBS) but has no content directory yet -- this
+      study creates it. Primary passage chosen as 1 John 5:11-13 because it is the one passage
+      that states assurance as its own explicit subject ("these things I have written ... that
+      you may know that you have eternal life"), with Acts 4:12 and Ephesians 2:8-9 as the
+      backlog's own named grounding texts, plus the wider NT witness (John, Romans, Ephesians,
+      Titus, Hebrews, 2 Timothy, 1 Peter).
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        1 John: author is John son of Zebedee (traditional, ESV Study Bible follows), writing from
+        Ephesus c. late 1st c. Occasion is definite in one respect only: the church had "witnessed
+        an exodus from their ranks" (2:19) -- a group left. ESV SB deliberately declines to assert
+        proto-Gnosticism as certain background (that movement's heyday is 2nd-5th c.), so this study
+        should likewise not overclaim "Gnostic opponents" as established fact -- state it as the
+        traditional but unprovable reading, and lean on what 2:19 itself states. Structure is not
+        linear ("think paragraphs") -- built around recurring tests of whether one is "in Christ":
+        doctrinal (belief about who Jesus is), moral (obedience/righteousness), social (love).
+        5:13 is the letter's own purpose statement, deliberately answering the departure of 2:19 by
+        telling those who stayed and believed that they may *know* they have life -- contrast with
+        John 20:31 (Gospel's purpose: so that you may *believe*) as evangelistic vs. epistle's
+        pastoral/assurance purpose.
+        Acts 4:12: spoken by Peter before the Sanhedrin (Acts 4:1-22), the day after healing the
+        lame man at the temple gate (Acts 3). Same verb sozo used for the man's healing (4:9,
+        sesostai) and for the salvation Peter then declares (4:12, sothenai) -- the miracle
+        functions as an enacted parable of the sermon's claim.
+        Ephesians: no specific crisis occasioned it (unlike most epistles) -- general/circular
+        instruction, probably read across several Asian churches. Ephesus's occult reputation (Acts
+        19:19) explains the letter's emphasis on Christ's supremacy over every power -- relevant
+        backdrop for 2:8-9's claim that salvation itself, not just protection from spiritual forces,
+        is entirely God's doing.
+    literary_context:
+      done: true
+      notes: >
+        1 John 5:6-13 sits in the letter's climactic section on "Faith in the Son as the Way to
+        Life" -- of the letter's 10 uses of "believe," 7 fall in ch. 5. vv.6-10 establish a legal
+        threefold testimony (Spirit, water, blood -- echoing Deut 17:6/19:15's two-or-three-witness
+        rule) to Jesus as the Son of God; v.11-12 states the content of that testimony (life is in
+        the Son, full stop); v.13 is the writer stepping back to state why he wrote all of it. Don't
+        isolate v.13 as a freestanding assurance proof-text without this run-up -- assurance in 1
+        John is assurance *that the testimony about Jesus is true*, not a separate, freestanding
+        psychological confidence.
+        Eph 2:8-9 sits inside one long Greek sentence (2:1-10, following two more long sentences at
+        1:3-14 and 1:15-23) -- v.8 "by grace you have been saved" restates 2:5 for emphasis; v.10
+        ("created ... for good works") is the necessary next verse -- Paul pairs "not as a result of
+        works" (v.9) immediately with "created for good works" (v.10) so the study should hold both,
+        not quote 2:8-9 and stop.
+        Acts 4:12 is Peter's own concluding line of a short speech (4:8-12) answering the Sanhedrin's
+        question "by what power/name" (4:7) -- the "name" theme is the whole speech's frame, not an
+        isolated slogan.
+    content_word_studies:
+      done: true
+      notes: >
+        See terms[] below. Two cautions recorded here rather than per-term: (1) oida/ginosko in 1
+        John -- both map to the same Louw-Nida "know" domain (28.1) throughout the letter and are
+        used near-interchangeably (24 ginosko, 15 oida occurrences) -- resisted the temptation to
+        draw a sharp "settled vs. experiential knowledge" lexical distinction between them, since
+        that specific distinction is a well-known overdrawn-synonym example in exegetical-fallacy
+        literature (Carson, Exegetical Fallacies). Only claim: 5:13 uses oida (aorist subj. eidete),
+        consistent with the letter's dominant "know" vocabulary, not a special word chosen for this
+        verse alone. (2) sozo/soteria wordplay in Acts 4:9-12 verified directly from SBLGNT
+        morphology, not secondary claim -- 4:9 sesostai and 4:12 sothenai are the same lemma sozo.
+      terms:
+        - word: "σῴζω / σωτηρία"
+          language: greek
+          transliteration: "sōzō / sōtēria"
+          strongs_id: "G4982 / G4991"
+          gloss: "save, heal, rescue / salvation, deliverance"
+          range_of_meanings: ["physical healing/rescue from danger", "spiritual salvation from sin and judgment"]
+          notes: >
+            Same verb for both senses -- Acts 4:9 (healing, perfect sesostai) and 4:12 (salvation,
+            aorist inf. sothenai) are the identical lemma, confirmed against SBLGNT morphology. The
+            noun sotēria in 4:12 has no article-driven "a/the" ambiguity in the Greek that changes
+            meaning; ESV "there is salvation in no one else" is a fair rendering. Jesus' own name
+            (Iesous < Hebrew Yehoshua/Yeshua, built on the verb yasha, TWOT root 929, "deliver") is
+            an enacted pun on this word -- Matt 1:21 makes it explicit: "you shall call his name
+            Jesus, for he will save (sōsei) his people from their sins."
+        - word: "χάρις / τοῦτο (demonstrative)"
+          language: greek
+          transliteration: "charis / touto"
+          strongs_id: "G5485 / G5124"
+          gloss: "grace / this"
+          range_of_meanings: []
+          notes: >
+            Eph 2:8's touto ("this") is neuter; charis (grace) and pistis (faith) are both feminine
+            nouns, so touto cannot grammatically point back to either word alone by gender-agreement
+            -- confirmed against the MACULA syntax annotation, which resolves touto's referent to
+            the whole clause "you have been saved" (sesōsmenoi), not to "faith" as an isolated noun.
+            The neuter pronoun is taking in the whole preceding idea (a normal Greek usage), which
+            is why "not of yourselves, it is the gift of God" covers the entire salvation-by-
+            grace-through-faith transaction, faith included, not grace alone.
+        - word: "σεσῳσμένοι"
+          language: greek
+          transliteration: "sesōsmenoi"
+          strongs_id: "G4982"
+          gloss: "having been saved (perfect passive participle)"
+          range_of_meanings: []
+          notes: >
+            Perfect tense: a completed past action with a continuing present result. Grammatically
+            encodes the doctrine before any doctrine is argued -- "you are in a saved state" as an
+            existing fact, not "you are being saved" as an ongoing, uncertain process.
+        - word: "ἀρραβών"
+          language: greek
+          transliteration: "arrabōn"
+          strongs_id: "G728"
+          gloss: "down payment, pledge, guarantee"
+          range_of_meanings: []
+          notes: >
+            Eph 1:14 -- commercial/legal term for a first installment that legally guarantees the
+            rest of a payment is coming. The Spirit himself is described as this installment on the
+            "inheritance," not merely a sign pointing to it.
+        - word: "ἁρπάζω"
+          language: greek
+          transliteration: "harpazō"
+          strongs_id: "G726"
+          gloss: "to snatch, seize by force"
+          range_of_meanings: []
+          notes: >
+            John 10:28-29 -- denotes forcible seizure (per ESV SB note on v.1), set against the
+            "hired hand" of 10:12-13 who abandons the flock. Security is stated twice, from the
+            Son's hand and then the Father's, described as "greater than all."
+        - word: "אַבָּא"
+          language: aramaic
+          transliteration: "abba"
+          strongs_id: "G5"
+          gloss: "father (intimate/family address)"
+          range_of_meanings: []
+          notes: >
+            Rom 8:15 -- Aramaic, not Greek; retained untranslated in the Greek text itself,
+            reflecting Jesus' own address to God in Gethsemane (Mark 14:36). Paul has Gentile
+            believers in Rome using Jesus' own family word for God.
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Nothing in the core claim (salvation is God's gift, received by faith, grounded in Christ
+        alone) is culturally local -- Acts 4:12, Eph 2:8-9, 1 John 5:11-13 all state the principle
+        directly rather than illustrating it through a custom that needs translating forward. The
+        one culturally-specific *form* worth flagging for readers is Acts 4:12's "name" idiom --
+        in the Semitic world a name carries a person's whole identity/authority, not merely a label
+        (hence "call upon the name of the Lord," Rom 10:13 quoting Joel 2:32) -- the transcultural
+        content is "salvation is found in the person of Jesus alone," and "name" is the period's own
+        vocabulary for saying it.
+    theological_principle:
+      done: true
+      notes: >
+        Assurance of salvation rests on an objective ground (what Christ did, received by grace
+        through faith, Eph 2:8-9; there is no other name, Acts 4:12) that Scripture then invites
+        believers to *know* they possess (1 John 5:13), confirmed subjectively by the Spirit's own
+        witness (Rom 8:15-16) and by a life of growing obedience and love (2 Pet 1:5-11; this is 1
+        John's own three "tests" running through the whole letter). Assurance is not self-generated
+        confidence, and the fruit that confirms it is evidence, never the ground -- 2 Pet 1:10
+        explicit on this point ("good works are evidence of and give assurance of salvation, though
+        they are never the basis for it").
+    application_draft:
+      done: true
+      notes: >
+        Draft written directly into Be Transformed section of the study rather than restated here.
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "John 3:16-18", relation: "belief in the Son as the ground of not being condemned"}
+      - {ref: "John 5:24", relation: "has passed from death to life -- present possession, not future hope only"}
+      - {ref: "John 6:37-40", relation: "the Father's will that none given to the Son be lost"}
+      - {ref: "John 10:27-29", relation: "double security -- Son's hand and Father's hand"}
+      - {ref: "Romans 8:1", relation: "no condemnation for those in Christ"}
+      - {ref: "Romans 8:15-17", relation: "Spirit of adoption, Spirit's own witness with our spirit"}
+      - {ref: "Romans 8:31-39", relation: "nothing can separate from the love of God in Christ"}
+      - {ref: "Romans 10:9-13", relation: "confession and faith unite Jew and Greek, same Lord over all"}
+      - {ref: "Ephesians 1:13-14", relation: "sealed with the Spirit as guarantee of the inheritance"}
+      - {ref: "2 Corinthians 5:17", relation: "new creation as evidence, not ground"}
+      - {ref: "Titus 3:4-7", relation: "saved not by works done, by his mercy, made heirs"}
+      - {ref: "Hebrews 7:25", relation: "able to save to the uttermost, always lives to intercede"}
+      - {ref: "2 Timothy 1:12", relation: "convinced he is able to guard what has been entrusted"}
+      - {ref: "1 Peter 1:3-5", relation: "inheritance kept in heaven, guarded through faith"}
+      - {ref: "2 Peter 1:5-11", relation: "confirm your calling and election -- fruit as evidence not ground"}
+    translations_compared: ["ESV", "WEB", "ASV"]
+    divergences_noted: >
+      1 John 5:13: WEB/Byzantine-family text adds a final clause not in the earlier text ESV
+      follows ("and that you may continue to believe in the name of the Son of God") -- confirmed
+      against SBLGNT (critical text), which ends the verse at "the Son of God" with no second hina
+      clause, matching ESV. Worth a brief aside since a reader cross-checking WEB against ESV here
+      would otherwise wonder about the discrepancy; doesn't change the verse's assurance claim
+      either way (WEB's addition qualifies why he wrote, ESV's shorter form still carries the same
+      "so that you may know" purpose).
+  drafting:
+    done: true
+    file: "docs/content/salvation/assurance-of-salvation.md"
+  review:
+    done: true
+    validated: true
+
+open_questions:
+  - "Whether to explicitly invoke a dispensational frame here -- decided not to force it; assurance/
+     eternal security isn't where this site's Israel/Church distinctive actually bears, unlike
+     eschatology. Left as standard grounding from the cited texts."
+  - "1 John's traditional anti-Gnostic occasion is stated in the draft as traditional-but-unprovable,
+     following ESV Study Bible's own caution, rather than as settled fact -- flag on review if this
+     reads as too hedged or not hedged enough."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway / various contributors", note: "Introductions to 1 John, Ephesians; study notes on 1 John 5:1-13, Acts 4:1-22, Ephesians 1:13-14 and 2:1-10, Romans 8:1-17, John 10:26-29, 2 Peter 1:5-11, Philippians 1:6. Queried from study-notes.db."}
+  - {type: lexicon, title: "TWOT (Theological Wordbook of the Old Testament)", author: "Harris, Archer, Waltke (eds.)", note: "Root 929, yasha (deliver) -- id/gloss only, via twot_strongs_map.json."}
+  - {type: other, title: "MACULA Greek Linguistic Datasets / SBLGNT morphology and syntax", author: "MACULA project", note: "Verified the sozo wordplay in Acts 4:9-12, the touto referent in Eph 2:8 (syntax annotation resolves it to the clause, not to pistis), and oida/ginosko distribution counts in 1 John."}
+review_2026-08-24:
+  scope: "review-bible-study skill, full pass (Phases 1-8) against docs/content/salvation/assurance-of-salvation.md"
+  findings_critical:
+    - "1 John 5:8 quoted as ESV ('the Spirit, the water, and the blood; and the three agree as one') -- actual ESV reads 'the Spirit and the water and the blood; and these three agree.' Quoted text is WEB's wording under an ESV label."
+    - "'the ESV Study Bible's introduction advises reading it \"paragraph by paragraph\"' -- the source's actual phrase is 'think paragraphs,' not quoted verbatim."
+  findings_moderate:
+    - "'seven of the letter's ten uses of [believe] fall here' reproduces ESV SB's count without re-derivation; live SBLGNT lemma query for pisteuo in 1 John returns 9 occurrences total (6 in ch.5) or 7 distinct verses (4 in ch.5) -- neither reconciles with 10/7."
+    - "'ginosko ... 24 occurrences against 15 for oida' -- live query returns 25 ginosko occurrences, not 24."
+    - "'Paul applies [Joel 2:32] to Jesus three verses earlier' (Rom 10:9 vs 10:13) -- actual gap is four verses."
+    - "Phase 6: cultural-vs-transcultural line (the 'name' idiom as period vocabulary for a transcultural claim) is worked out in this state file's hermeneutics section but never stated explicitly in the published body text."
+  findings_minor:
+    - "Eph 2:1 quote elides the word 'the' via ellipsis ('dead in ... trespasses and sins') instead of quoting exactly."
+    - "2 Peter 1:5-10 cited as the range for two phrases that both come from v.10 alone."
+    - "Tags: John's Gospel used substantively across 5 passages (3:16-18, 5:24, 6:37-40, 10:27-29, 20:31) with no 'john' tag; 2 Peter 1:5-11 carries a full quote + discussion question with no '2-peter' tag."
+    - "'notably does not include' -- mild grader-adverb."
+    - "'some seven weeks earlier, at the preceding Passover' -- precise week count isn't determinable from Acts 3:1's silence on elapsed time since Pentecost."
+  findings_confirmed_no_issue:
+    - "Eph 2:8 touto/perfect-tense grammar claims cross-checked against NIV Biblical Theology Study Bible (independent commentary, not already cited) -- confirms, no contradiction."
+    - "1 John 5:13 assurance-purpose reading cross-checked against same independent commentary -- confirms."
+    - "Deut 17:6/19:15 two-or-three-witness cross-reference verified directly -- supports the claim as stated."
+  status: "all 11 findings fixed 2026-08-24; re-validated (npm run validate clean) and rebuilt (mkdocs build --strict clean)"
+last_updated: "2026-08-24"

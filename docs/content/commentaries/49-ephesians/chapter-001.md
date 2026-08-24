@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 1:7
+- [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:13-14
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 1:14
 <!-- commentary-index:auto-end -->

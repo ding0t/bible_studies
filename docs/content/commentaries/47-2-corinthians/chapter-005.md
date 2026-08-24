@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 5:21
+- [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 5:17
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:17-18
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:10
 <!-- commentary-index:auto-end -->

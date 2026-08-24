@@ -1,16 +1,16 @@
 ---
-title: "Titus"
+title: "Philippians"
 category: "bible"
-description: "Commentary on Titus"
-tags: ["titus"]
+description: "Commentary on Philippians"
+tags: ["philippians"]
 draft: false
 ---
 
-# Titus
+# Philippians
 
 
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
-- [Chapter 3](chapter-003.md) — 2 study(ies)
+- [Chapter 1](chapter-001.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

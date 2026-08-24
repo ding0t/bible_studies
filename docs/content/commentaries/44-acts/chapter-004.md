@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 4:9-12
 - [John son of Zebedee](../../biblical-figures/john.md) — 4:13
 - [The Way](../../jesus/the-way.md) — 4:12
 <!-- commentary-index:auto-end -->

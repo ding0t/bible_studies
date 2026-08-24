@@ -16,5 +16,6 @@ draft: false
 - [Philip](../../biblical-figures/philip.md) — 6:5-7 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 6:53-58
 - [Andrew](../../biblical-figures/andrew.md) — 6:8-9
+- [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 6:37-40
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 6:70-71
 <!-- commentary-index:auto-end -->
