@@ -4,7 +4,7 @@ category: "other"
 description: "About this project and its statement of faith."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-08-23
+date_modified: 2026-08-24
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -24,6 +24,14 @@ About this project and its statement of faith.
     What Bible text, lexical, and commentary data backs this site, organized by license tier, and what each tier is and isn't used for.
 
     [:octicons-arrow-right-24: Read](about-our-datasets.md)
+
+-   __Backlog__
+
+    ---
+
+    A public working list of study topics and research items still to be developed, organized by the site's own subject sections.
+
+    [:octicons-arrow-right-24: Read](backlog.md)
 
 -   __Copyright & Scripture Permissions__
 
