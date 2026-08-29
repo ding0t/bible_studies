@@ -4,7 +4,7 @@ category: "other"
 description: "Verse-by-verse commentary, organized by book, with auto-linked studies (see commentary_index.py)."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-08-23
+date_modified: 2026-08-29
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5

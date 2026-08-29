@@ -4,8 +4,8 @@ category: "other"
 description: "A public working list of study topics and research items still to be developed, organized by the site's own subject sections."
 tags: ["backlog", "planning", "research", "development"]
 draft: false
-date_created: 2026-08-24
-date_modified: 2026-08-24
+date_created: 2026-08-25
+date_modified: 2026-08-29
 ai_provider_models:
   - anthropic/claude-sonnet-5
 ---

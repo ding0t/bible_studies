@@ -8,7 +8,8 @@ primary_passage: "Matthew 24; Mark 13; Luke 21"
 bible_references: ["Matthew 23:36-39", "Matthew 24:1-44", "Mark 13:1-37", "Luke 21:5-36", "Luke 17:22-37", "Luke 19:41-44", "Daniel 9:24-27", "Daniel 11:31", "Daniel 12:1-11", "Zechariah 14:1-5", "Isaiah 13:9-10", "Joel 2:30-31", "Daniel 7:13-14", "Daniel 2:44", "Revelation 7:14", "2 Thessalonians 2:3-4", "John 14:3", "Acts 1:9-12", "Matthew 26:36", "John 18:1", "Matthew 21:18-22", "Mark 11:12-25", "Jeremiah 8:13", "Hosea 9:10", "Hosea 9:16", "Joel 1:7"]
 date_created: 2026-08-29
 date_modified: 2026-08-29
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-sonnet-5
 ---
 
 # The Olivet Discourse

@@ -4,7 +4,7 @@ category: "other"
 description: "External sources, tools, and datasets this project draws on."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-08-23
+date_modified: 2026-08-29
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -61,7 +61,7 @@ External sources, tools, and datasets this project draws on.
 
     ---
 
-    The tech behind this site: mkdocs + Astro, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys
+    The tech behind this site: mkdocs with React tools bundled in, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys
 
     [:octicons-arrow-right-24: Read](site-architecture.md)
 

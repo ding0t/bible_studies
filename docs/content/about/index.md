@@ -4,7 +4,7 @@ category: "other"
 description: "About this project and its statement of faith."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-08-24
+date_modified: 2026-08-29
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
