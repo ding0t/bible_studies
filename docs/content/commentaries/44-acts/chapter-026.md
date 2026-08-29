@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 26:12-18
 - [The Way](../../jesus/the-way.md) — 26:28
 <!-- commentary-index:auto-end -->

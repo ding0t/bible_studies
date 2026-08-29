@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [John son of Zebedee](../../biblical-figures/john.md) — 2:9
+- [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 2:7-9
 - [Simon Peter](../../biblical-figures/peter.md) — 2:11-14
 <!-- commentary-index:auto-end -->

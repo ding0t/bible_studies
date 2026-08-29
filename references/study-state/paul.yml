@@ -1,0 +1,136 @@
+slug: "paul"
+title: "Paul: Apostle to the Gentiles"
+status: review
+target_path: "docs/content/biblical-figures/paul.md"
+
+primary_passage: "Acts 9:1-19; Romans 11:11-24"
+supporting_passages:
+  - "Acts 26:12-18"
+  - "Galatians 1:11-24"
+  - "Galatians 2:7-9"
+  - "Philippians 3:4-11"
+  - "1 Timothy 1:12-16"
+  - "1 Corinthians 15:8-10"
+  - "Ephesians 3:1-8"
+  - "Romans 9:22-24"
+genre: [acts, epistle]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      User wants a biblical-figures study on Paul framed around: (1) his own conversion as a
+      persecutor/enemy shown grace, (2) his specific calling as apostle to the Gentiles, and
+      (3) whether his conversion is presented as a type/pattern for how Gentiles collectively
+      are grafted into God's people (Romans 11). Must cross-link israel-and-church/israel-and-the-church.md
+      (grafting theology, already published, must stay consistent with) and twelve-apostles.md
+      (Paul is apostle but not one of the Twelve).
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Saul of Tarsus: Roman citizen, tribe of Benjamin, Pharisee trained under Gamaliel
+        (Phil 3:5-6, Acts 22:3, Gal 1:14). Present at Stephen's stoning, active persecutor of
+        the Way (Acts 7:58-8:1, 9:1-2). Converted on Damascus road c. AD 33-34 (ESV Study Bible
+        chronology). Called specifically to bear Christ's name before Gentiles, kings, and
+        Israel (Acts 9:15) -- order is notable but not overread. Confirmed by the Jerusalem
+        "pillars" (James, Cephas, John) as having a distinct commission to the Gentiles
+        parallel to Peter's to the circumcised (Gal 2:7-9) -- division of labor, not rival
+        gospels.
+    literary_context:
+      done: true
+      notes: >
+        Romans 11:11-24 sits inside Paul's answer to "has God rejected his people?" (11:1),
+        addressed directly to Gentile readers (11:13) and aimed at forestalling Gentile
+        arrogance toward broken-off natural branches -- already the reading israel-and-the-church.md
+        takes, and this study must not contradict it. 1 Tim 1:12-17 is explicitly headed (per
+        ESV Study Bible) "Paul: An Example of the Effect of the True Gospel" -- a universal
+        statement about gospel transformation, not Gentile-specific. Acts 9's conversion
+        narrative is retold twice more by Paul himself (22:3-11, 26:12-18), each shaped to its
+        audience.
+    content_word_studies:
+      done: true
+      notes: >
+        Fuller diachronic/synchronic treatment given to hypotyposis and ektroma (both rare,
+        load-bearing, and central to the user's typology question); routine gloss only for
+        apostolos (already covered in twelve-apostles.md) and enkentrizo (already covered
+        structurally in israel-and-the-church.md).
+      terms:
+        - word: "ὑποτύπωσις"
+          language: greek
+          transliteration: "hypotyposis (hoo-po-TIP-oh-sis)"
+          strongs_id: "G5296"
+          gloss: "pattern, example, prototype/sketch"
+          range_of_meanings: ["an outline or sketch used as a model", "a moral/behavioral pattern to be imitated (1 Tim 1:16, 2 Tim 1:13 -- its only 2 NT occurrences)"]
+          notes: >
+            Distinct word from typos (tupos, the term for a formal OT type, e.g. Rom 5:14 of
+            Adam). Hypotyposis is "under-sketch" -- a rough model, used in 1 Tim 1:16 of Paul
+            himself as the pattern of how grace reaches "the foremost of sinners." ESV Study
+            Bible section heading confirms this is about the gospel's transforming effect in
+            general, not Gentile inclusion specifically. This is the key finding against
+            over-claiming a formal "type": Scripture calls Paul a hypotyposis of saved sinners,
+            not a typos of grafted Gentiles.
+        - word: "ἔκτρωμα"
+          language: greek
+          transliteration: "ektroma (ek-TRO-mah)"
+          strongs_id: "G1626"
+          gloss: "one untimely born, a miscarriage"
+          range_of_meanings: ["stillbirth/miscarriage (LXX Num 12:12, Job 3:16, Eccl 6:3)", "Paul's self-description at 1 Cor 15:8, sole NT occurrence"]
+          notes: >
+            Harsh, self-deprecating word Paul applies to his own apostolic birth -- last of the
+            resurrection witnesses, appearing "as to one untimely born." Reinforces the pattern
+            of unearned, out-of-sequence inclusion that recurs in his Gentile theology (grafted
+            in "contrary to nature," Rom 11:24) without the text itself linking the two images.
+      cross_refs_checked: ["sigma_keuos (skeuos) Acts 9:15 vessel of election/choice vs Rom 9:22-23 vessels of wrath/mercy -- same noun skeuos, different qualifying genitive (ekloges vs eleous/orges); real verbal echo, not identical phrase", "enkentrizo (graft in) occurs only in Rom 11:17,19,23,23,24,24 -- nowhere else in NT, Paul's own coinage-in-context for this argument"]
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Transcultural: grace reaching someone with no natural claim (Paul as persecutor; Gentiles
+        as those "separated from Christ, alienated from the commonwealth of Israel," Eph 2:12).
+        Culturally specific: first-century apostolic commissioning, the Jerusalem pillars'
+        division-of-labor arrangement (Gal 2:7-9) -- a first-generation church-planting
+        settlement, not a repeatable procedure.
+    theological_principle:
+      done: true
+      notes: >
+        Two distinct, textually-supported truths held together without collapsing one into the
+        other: (1) Paul is explicitly named a hypotyposis -- pattern -- of how grace saves the
+        least likely candidate (1 Tim 1:16), and (2) Paul is explicitly named THE apostle to the
+        Gentiles (Rom 11:13, Gal 1:16, Gal 2:7-9, Eph 3:8, Acts 9:15, 26:17). The two callings
+        are biographically inseparable in Paul's own life and share one grammar of grace --
+        unearned, "contrary to nature" (Rom 11:24) -- but Scripture never explicitly welds them
+        into a single formal type the way it does with, say, Adam/Christ (Rom 5:14). This study
+        draws the connection as a real thematic parallel while naming the distinction, matching
+        the caution israel-and-the-church.md already models on the olive tree ("illustration
+        rather than a type in the strict sense").
+    application_draft:
+      done: true
+      notes: "Be Transformed section drafted around: no one is too disqualified to be reached by grace; Christian's confidence should rest in being chosen, not in prior credentials."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Romans 9:22-24", relation: "same noun skeuos as Acts 9:15's 'chosen vessel', applied there to 'vessels of mercy...not from the Jews only but also from the Gentiles'"}
+      - {ref: "Ephesians 2:12-13", relation: "Gentiles' prior status as 'separated from Christ, alienated' mirrors Paul's own prior status as persecutor/enemy"}
+      - {ref: "israel-and-church/israel-and-the-church.md", relation: "must stay consistent with its 'olive tree is illustration not strict type' position and its Chumney/church=Israel rejection"}
+      - {ref: "biblical-figures/twelve-apostles.md", relation: "Paul is apostle but never one of the Twelve -- called separately, post-ascension, 1 Cor 15:8"}
+    translations_compared: ["ESV", "WEB"]
+    divergences_noted: "None load-bearing; ESV quotes verified directly against study-notes.db esv-study-bible verses table rather than recalled."
+  drafting:
+    done: true
+    file: "docs/content/biblical-figures/paul.md"
+  review:
+    done: false
+    validated: true # npm run validate: no errors/warnings on paul.md; mkdocs build --strict: no broken links
+
+open_questions:
+  - "Acts 9:15's order (Gentiles, kings, then children of Israel) noted but deliberately not overread as a theological sequence -- Acts itself shows Paul going to the synagogue first in every city."
+  - "Whether to add a dedicated commentaries/45-romans or commentaries/44-acts cross-link once those book sections exist -- deferred, out of scope for this study."
+
+resources_consulted:
+  - {type: lexicon, title: "Strong's Greek Dictionary", author: "James Strong", note: "G5296 hypotyposis, G1626 ektroma, G4632 skeuos, G1461 enkentrizo, G652 apostolos -- public domain, via bible-text.db/MACULA"}
+  - {type: other, title: "MACULA Greek Linguistic Dataset (SBLGNT)", author: "n/a", note: "confirmed occurrence counts: hypotyposis 2x NT (1 Tim 1:16, 2 Tim 1:13), ektroma 1x NT (1 Cor 15:8), enkentrizo 6x NT (all in Rom 11), skeuos at Acts 9:15 and Rom 9:21-23"}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway, 2016", note: "confirmed 1 Tim 1:12-17 section heading ('Paul: An Example of the Effect of the True Gospel'), Acts 9 conversion chronology and threefold retelling, Gal 2:7-9 division-of-labor reading, Rom 11:22-24 lesser-to-greater argument, 1 Cor 15:8 note on Paul as last apostle"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan, 2018", note: "explicit parallel offered between God's unmerited choice of Israel (Deut 9:4-5) and unmerited mercy to Paul at 1 Tim 1:16 -- 'if Paul could be saved, anyone could' -- the closest a consulted commentary comes to the user's proposed connection, used as the source for that specific move rather than asserting it independently"}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan, 2016", note: "background on ancient olive-grafting practice and 'contrary to nature' at Rom 11:17-24; confirmed as background only, contributed nothing about Paul's own conversion"}
+last_updated: "2026-08-25"

@@ -15,6 +15,7 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 15:4
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 15:51-53
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 15:22
+- [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 15:8-10
 - [The Rapture of the Church](../../last-things/rapture.md) — 15:51-53
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 15:51-53
 <!-- commentary-index:auto-end -->

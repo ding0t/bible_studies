@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 9:1-19 (primary passage)
 - [The Way](../../jesus/the-way.md) — 9:2 (primary passage)
 <!-- commentary-index:auto-end -->

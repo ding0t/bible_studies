@@ -78,6 +78,14 @@ the subject, not the illustration.
 
     [:octicons-arrow-right-24: Read](matthew.md)
 
+-   __Paul: Apostle to the Gentiles__
+
+    ---
+
+    The man who persecuted the church became the one Jesus sent specifically to the Gentiles -- what Scripture actually claims about the connection between his conversion and theirs, and where it stops short of calling him a type.
+
+    [:octicons-arrow-right-24: Read](paul.md)
+
 -   __Simon Peter__
 
     ---
