@@ -4,9 +4,10 @@ category: "other"
 description: "Studies of particular people in Scripture."
 draft: false
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-08-29
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Biblical Figures

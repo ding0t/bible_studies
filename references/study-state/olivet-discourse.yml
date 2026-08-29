@@ -1,0 +1,192 @@
+slug: "olivet-discourse"
+title: "The Olivet Discourse"
+status: drafting
+target_path: "docs/content/last-things/olivet-discourse.md"
+# Two-file study, agreed with user 2026-08-29:
+#   File A (this state file's target_path): occasion, synoptic comparison (same event vs
+#     divergent emphasis), narrative context of each account, temple destruction prophecy +
+#     AD 70 fulfillment, time-periods in view, one-taken/one-left word+cultural study (folded
+#     in here since it's bound to the Noah illustration in the same pericope, not a standalone
+#     parable), OT background (Daniel's abomination of desolation etc.), still-future prophecies.
+#   File B: docs/content/last-things/olivet-discourse-parables.md -- the parables proper
+#     (faithful/wicked servant, ten virgins, talents, sheep and goats), genre-lens "what's the
+#     point" per parable, cultural background for each.
+#   Both cross-link. File A links out to rapture.md for the full pretrib argument rather than
+#   re-arguing it; File A's own word study on 24:36-44 follows the exegesis wherever it leads
+#   per user instruction, and any tension with rapture.md's existing reading gets flagged
+#   explicitly rather than silently harmonized.
+
+primary_passage: "Matthew 24-25; Mark 13; Luke 21"
+supporting_passages:
+  - "Luke 17:22-37" # parallel "one taken, one left" / days of Noah material, different narrative setting
+  - "Daniel 9:24-27"
+  - "Daniel 11:31"
+  - "Daniel 12:11"
+  - "Zechariah 14"
+  - "Isaiah 13:9-10"
+  - "Joel 2:30-31"
+genre: [gospel, apocalyptic, parable]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      User wants: (1) same-account-or-different analysis across Matt 24-25/Mark 13/Luke 21,
+      (2) each account's own context, (3) key content + all parables, (4) word + cultural study
+      on "one taken, one left" specifically, (5) time period(s) covered, (6) temple destruction
+      prophecy + AD 70 fulfillment (Josephus), (7) still-future prophecies, (8) OT prophetic
+      links Jesus draws on. Dispensational lens per AGENTS.md. Split into two files (see notes
+      above). Existing site content already touches pieces: rapture.md (24:36-44, pretrib
+      argument via Noah/Lot typology), day-is-near.md (Mark 13:32-37), prophecy-essentials.md
+      (framework citing 24:1-2/14-15/21/34, Mark 13:1-8/14-27/32), trumpet.md (24:29-31),
+      day-is-a-thousand-years.md (24:44). New study cross-links these rather than duplicating.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Tuesday of Passion Week, days before crucifixion. Matt's preceding context: woes +
+        lament over Jerusalem (23:37-39, "your house is left desolate"). Mark/Luke's preceding
+        context: the widow's mite (Mark 12:41-44, Luke 21:1-4), itself right after "devour
+        widows' houses" (Luke 20:47) -- temple economy irony. Setting: Mount of Olives opposite
+        the temple, after leaving it. Audience: Mark alone names Peter/James/John/Andrew (13:3);
+        Matt/Luke say only "the disciples"/unspecified.
+    literary_context:
+      done: true
+      notes: >
+        Matthew's dual question (timing + "sign of your coming and of the end of the age",
+        24:3) vs Mark/Luke's single question (timing + sign only) -- drives Matthew's uniquely
+        fuller answer through ch25's parables. parousia (G3952) appears only in Matthew's
+        account (24:3,27,37,39), never in Mark/Luke's version -- becomes the NT epistles'
+        standard term. Luke's plain-language "Jerusalem surrounded by armies" (21:20) vs
+        Matt/Mark's coded Danielic "abomination of desolation" (24:15/13:14) -- read as Luke
+        writing for readers unfamiliar with Daniel. Luke alone has "times of the Gentiles"
+        (21:24) and omits "no one knows...nor the Son" (Matt 24:36/Mark 13:32) and the
+        Noah/taken-left material entirely.
+    content_word_studies:
+      done: true
+      notes: >
+        Full diachronic/synchronic method applied to genea and paralambanō/aphiēmi (load-bearing,
+        contested). Routine glosses only for the rest (bdelygma erēmōseōs, thlipsis, parousia,
+        kairoi ethnōn) -- see terms below and the published study's own word-study sections.
+      terms:
+        - word: "γενεά"
+          language: greek
+          transliteration: "genea"
+          strongs_id: "G1074"
+          gloss: "generation"
+          range_of_meanings: ["a kinship/descent group (Matt 1:17 x4)", "a cohort of people living at the same time, esp. Jesus's own contemporaries (Matt 11:16, 12:39, 12:41-42, 12:45, 16:4, 17:17, 23:36, 24:34)"]
+          notes: >
+            Louw-Nida codes Matt 24:34's instance under BOTH group domains (10.4/11.4) and time
+            domain (67.144) -- the ambiguity is real at the lexicon level. Matthew's own usage
+            settles it: 8-for-8 elsewhere = his contemporaries, never "the Jewish race." 23:36
+            ("all these things will come upon this generation") sits one paragraph before this
+            discourse and uses the identical phrase. Conclusion: "this generation will not pass
+            away" (24:34) fixes the NEAR horizon (vv.4-28) to c. AD 30-70; does not by the same
+            grammar claim the FAR horizon (v.29+, "immediately after" the near tribulation ends)
+            falls in that window too -- near/far telescoping, paralleled at Luke 4:18-21's
+            mid-verse stop in quoting Isaiah 61:1-2.
+        - word: "παραλαμβάνω / ἀφίημι"
+          language: greek
+          transliteration: "paralambanō / aphiēmi"
+          strongs_id: "G3880 / G863"
+          gloss: "is taken / is left (Matt 24:40-41); same pair at Luke 17:34-35"
+          range_of_meanings: ["paralambanō: neutral 'take/take along' -- can be positive (John 14:3, 'I will... take you to myself') or removal-in-judgment depending on context; Louw-Nida codes both verbs under domain 15 (physical movement), not a punishment/rescue domain"]
+          notes: >
+            RESOLVED 2026-08-29 (see open_questions below and user turn): word study alone is
+            ambiguous; the Noah illustration's own logic (flood "swept away" [airo, different
+            verb] the wicked; Noah himself was LEFT, preserved) maps taken=judgment,
+            left=preserved -- opposite of the popular "taken=raptured" reading. Luke 17:37's
+            "where the corpse, there the vultures" as the disciples' own answer to "where,
+            Lord?" reinforces taken=judgment (carrion imagery, not rescue). Grammatically,
+            Matt 24:40-41 sits under the POST-tribulation coming just introduced at 24:29-31,
+            not a separately-timed pretrib event. User confirmed (2026-08-29): this does NOT
+            affect rapture.md's case, which rests on other texts and does not use this saying --
+            "experienced dispensational theologians do not rely upon it." Published straight,
+            flagged as commonly misused, explicitly does not argue for/against the rapture from
+            this text, and rapture.md left untouched.
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Historically/culturally bound: the near-horizon signs and AD 70 fulfillment specifics
+        (siege mechanics, Josephus's dated eyewitness account) -- these are past, verified
+        history. Transcends the moment: the far-horizon pattern (still-future tribulation,
+        visible parousia, final judgment/ingathering) and the readiness ethic the parables teach
+        (File B) -- not tied to first-century circumstance.
+    theological_principle:
+      done: true
+      notes: >
+        Dispensational near/far (already-fulfilled AD 70 / still-future Tribulation-parousia)
+        reading of Matt 24:4-28 vs 24:29+, anchored by the genea word study. Daniel's
+        abomination-of-desolation image (11:31 historical/Antiochus, 9:27 future-ruler,
+        12:11 exact-duration) has a near AD-70-adjacent partial fulfillment and awaits a
+        complete future one (2 Thess 2:4, Rev 13) -- Jesus's own unspecified citation of the
+        term is read as the discourse's own signal of that double horizon.
+    application_draft:
+      done: true
+      notes: >
+        Readiness without date-setting (File A "Be Transformed"); proportionate, ongoing
+        faithfulness with whatever is actually entrusted, and concrete action toward "the
+        least of these my brothers" (File B "Be Transformed").
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Daniel 9:24-27; 11:31; 12:1-11", relation: "source of 'abomination of desolation' -- three settings, three referents (historical/future-ruler/exact-duration)"}
+      - {ref: "Luke 19:41-44", relation: "Luke's own earlier, more mechanically explicit prophecy of the siege, before the Olivet conversation"}
+      - {ref: "Luke 17:22-37", relation: "parallel 'one taken, one left' saying, different narrative setting; supplies the 'where, Lord?' / vultures answer Matthew doesn't repeat"}
+      - {ref: "Zechariah 14:1-5", relation: "Mount of Olives named as the site of the LORD's future return -- geographic resonance with the discourse's own setting, not a citation Jesus makes"}
+      - {ref: "Isaiah 13:9-10; Joel 2:30-31; Daniel 7:13-14", relation: "OT source vocabulary for the far horizon's cosmic-sign/Son-of-Man-on-clouds language"}
+      - {ref: "Revelation 7:14", relation: "'the great tribulation' with definite article -- same Greek noun+modifier as Matt 24:21, same referent"}
+      - {ref: "Josephus, Wars of the Jews 6.4.5 and 7.1.1; Eusebius, Ecclesiastical History 3.5.3", relation: "extra-biblical fulfillment record for the temple's burning, the city's razing, and the Pella flight"}
+    translations_compared: ["ESV (default, block quotes)", "WEB (bible-text.db, used for a few quotes with attribution)"]
+    divergences_noted: >
+      No load-bearing translation divergence found -- WEB/ESV track closely on the passages used.
+      Quoted WEB where pulled first and no reason to prefer ESV's wording; ESV used for all
+      primary block quotes per AGENTS.md default. All non-ESV quotes labeled inline per skill
+      Phase 7.
+  drafting:
+    done: true
+    file: >
+      docs/content/last-things/olivet-discourse.md (main: synoptic comparison, temple
+      destruction/fulfillment, still-future prophecy) and
+      docs/content/last-things/olivet-discourse-parables.md (the four parables). Both
+      draft: true, npm run validate clean except the expected pre-commit
+      ai_provider_models placeholder, mkdocs build --strict clean.
+  review:
+    done: false
+    validated: true
+
+open_questions:
+  - "RESOLVED 2026-08-29: taken/left word study (paralambanō/aphiēmi, Matt 24:40-41) points
+     taken=removed-in-judgment, left=preserved, via the Noah illustration's own logic (flood
+     'took away' the wicked, Noah was left/preserved) and Luke 17:37's vulture answer to 'where,
+     Lord?' -- opposite of the popular taken=raptured reading. User confirmed: this does NOT
+     affect rapture.md, whose pretrib case rests on other texts (1 Thess 4, John 14, the
+     restrainer argument, etc.), not on this saying -- 'experienced dispensational theologians do
+     not rely upon it.' Write the new study's word study straight (follow the exegesis), note
+     the popular-but-not-scholarly misuse, and explicitly do NOT lean on this passage to argue
+     for or against the rapture. Leave rapture.md itself untouched unless separately asked."
+  - "Same discourse or different occasions across the three synoptics? Check Mark 13:3/Matt 24:3
+     audience (private, four/the Twelve on the Mount of Olives) against Luke 21:5-7's setting and
+     against Luke 17:22-37's thematically similar but narratively distinct earlier teaching --
+     don't conflate Luke 17 into 'the same discourse' just because the content overlaps."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "verse text (ESV, primary quotation translation) and notes on Matt 18:24 (talent value) and 25:31-46, via study-notes.db"}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible / NKJV Cultural Backgrounds Study Bible", author: "Zondervan", note: "wedding customs (25:1-13) and shepherding customs (25:32), via study-notes.db"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "note on 25:32 (nations/individuals distinction), via study-notes.db"}
+  - {type: other, title: "The Wars of the Jews, Book 6.4.5 and 7.1.1", author: "Flavius Josephus, trans. Whiston", note: "temple burning date (10 Lous/Ab) and the city's razing to bedrock -- fetched via WebFetch (perseus.tufts.edu, ccel.org)"}
+  - {type: other, title: "Ecclesiastical History 3.5.3", author: "Eusebius of Caesarea, NPNF2 trans.", note: "Pella flight tradition -- fetched via WebFetch (ccel.org)"}
+  - {type: lexicon, title: "MACULA Greek/Hebrew morphology + Louw-Nida semantic domains", author: "bible-references MCP", note: "word-level data for genea, paralambanō, aphiēmi, bdelygma, erēmōsis, and the parables' key terms"}
+last_updated: "2026-08-29"
+# 2026-08-29 revision, user-requested: fig tree (24:32-33) had no treatment at all -- added under
+# Time Periods in View as its own subsection (H3s added throughout that section and Still to Come).
+# Genre-lens conclusion: the parable's own comparison is about method of inference (leaves->summer,
+# signs->nearness), not an allegory naming Israel; corrected the popular "fig tree = Israel,
+# budding = 1948/1967" reading against the text's own grammar, redirected that connection instead to
+# "the times of the Gentiles" (Luke 21:24) where it's textually apt (a passage actually about Gentile
+# political dominion over Jerusalem). Better-grounded fig-tree connection: the barren fig tree cursed
+# three days earlier (Matt 21:18-22/Mark 11:12-25, ESV Study Bible's fig-tree/temple/fig-tree sandwich
+# note), same week, same temple theme, opposite valence (judgment vs. growth) -- not the same symbol
+# reused, flagged as such. Also fleshed out "Still to Come" (previously one thin paragraph) into
+# Daniel's Seventieth Week (the gap argument from Dan 9:26-27's own sequence) and Times of the
+# Gentiles (Dan 2:44 frame, 1948/1967 as watched-not-decisive markers) as full subsections.
