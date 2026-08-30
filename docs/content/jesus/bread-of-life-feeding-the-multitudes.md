@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15; Matthew 15:32-39; Mark 8:1-10"
 bible_references: ["John 6:22-71", "Mark 8:14-21", "Matthew 16:5-12", "Exodus 16:4-21", "Numbers 11:4-9", "Numbers 11:31-34", "Deuteronomy 8:2-3", "Deuteronomy 18:15-18", "2 Kings 4:42-44", "Psalm 78:17-31", "Psalm 23:1-2", "Isaiah 25:6-9", "Isaiah 55:1-3", "Ezekiel 34:5", "Ezekiel 34:13-16", "Numbers 27:15-18", "Matthew 4:1-4", "Matthew 6:11", "Luke 11:3", "Proverbs 30:8-9", "Revelation 2:17", "Mark 14:22", "Mark 7:24-31", "Matthew 15:29-31", "1 Timothy 6:6-8", "Romans 1:16", "1 Corinthians 11:23-26", "Luke 9:16"]
 date_created: 2026-07-25
-date_modified: 2026-08-29
+date_modified: 2026-08-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -52,8 +52,8 @@ is right. What follows shows that a correct fulfillment can still be put to a wr
 - He is not a supplier of bread but the bread itself. Asked for a permanent supply, he answers with a
   predicate nominative: **Ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς** (6:35). The request could only be granted by
   being refused in those terms.
-- He will not be made useful on terms other than his own. He withdraws from a crown offered by a
-  crowd that had just correctly identified him (6:14-15).
+- He will not accept a crown on the crowd's terms, even from people who have just named him
+  correctly. When they move to take him by force and make him king, he withdraws (6:14-15).
 - He works from what is already in someone's hands. "How many loaves do you have? Go and see"
   (Mark 6:38, ESV) — then the disciples, not he, do the distributing.
 - He is the shepherd Israel was promised. Mark stages Ezekiel 34:15 and Psalm 23:1-2 rather than
