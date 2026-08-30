@@ -5,9 +5,9 @@ description: "A synoptic reading of Matthew 24, Mark 13, and Luke 21: one discou
 tags: ["matthew", "mark", "luke", "daniel", "jerusalem", "temple", "tribulation", "dispensationalism", "chart", "larkin", "method/word-study", "method/textual-criticism", "lang/greek", "lang/hebrew"]
 draft: true
 primary_passage: "Matthew 24; Mark 13; Luke 21"
-bible_references: ["Matthew 23:36-39", "Matthew 24:1-44", "Mark 13:1-37", "Luke 21:5-36", "Luke 17:22-37", "Luke 19:41-44", "Daniel 9:24-27", "Daniel 11:31", "Daniel 12:1-11", "Zechariah 14:1-5", "Isaiah 13:9-10", "Joel 2:30-31", "Daniel 7:13-14", "Daniel 2:44", "Revelation 7:14", "2 Thessalonians 2:3-4", "John 14:3", "Acts 1:9-12", "Matthew 26:36", "John 18:1", "Matthew 21:18-22", "Mark 11:12-25", "Jeremiah 8:13", "Hosea 9:10", "Hosea 9:16", "Joel 1:7"]
+bible_references: ["Matthew 23:36-39", "Matthew 24:1-44", "Mark 13:1-37", "Luke 21:5-36", "Luke 17:22-37", "Luke 19:41-44", "Daniel 9:24-27", "Daniel 11:31", "Daniel 12:1-11", "Zechariah 14:1-5", "Isaiah 13:9-10", "Joel 2:30-31", "Daniel 7:13-14", "Daniel 2:44", "Revelation 7:14", "Revelation 1:7", "Revelation 19:11-16", "Revelation 20:1-6", "2 Thessalonians 2:3-4", "John 14:3", "Acts 1:9-12", "Matthew 26:36", "John 18:1", "Matthew 21:18-22", "Mark 11:12-25", "Jeremiah 8:13", "Hosea 9:10", "Hosea 9:16", "Joel 1:7"]
 date_created: 2026-08-29
-date_modified: 2026-08-29
+date_modified: 2026-08-30
 ai_provider_models:
   - anthropic/claude-sonnet-5
 ---
@@ -289,6 +289,13 @@ image.
 
 ## Word Study: One Taken, One Left
 
+In Matthew 24, Jesus is talking with four disciples. In Luke 17, Jesus is talking to the pharisees.
+In both they have asked Jesus when the kingdom of heaven will come. Both looking for the reign of the promised messiah.
+
+Jesus answers both with a vision of one being left and another taken. Both accounts in the context of 
+judgement and salvation runniing parrallel. In the time of Noah spared from the flood, and Lot and his family saved from the
+destruction, by fire, of the cities of the plain (Sodom and Gommorah).
+
 Matthew's Noah illustration continues into the discourse's single most contested sentence: "then two
 men will be in the field; one will be taken and one left. Two women will be grinding at the mill; one
 will be taken and one left" (24:40-41, ESV). The verbs are παραλαμβάνεται (*paralambanetai*, "is
@@ -423,6 +430,21 @@ later names the period this discourse calls "great tribulation" (Matthew 24:21) 
 Greek phrase with the definite article — "these are the ones coming out of the great tribulation [τῆς
 θλίψεως τῆς μεγάλης]" (Revelation 7:14) — the same noun, the same modifier, the same specific referent
 the two texts are describing as one thing.
+
+Revelation gives this same event its own full scene, not just a shared vocabulary word. John sees
+"heaven opened, and behold, a white horse, and he who sat on it is called Faithful and True... the
+armies which are in heaven... followed him," with "KING OF KINGS AND LORD OF LORDS" written on his
+robe and thigh (Revelation 19:11-16) — a public, military, visible return, not a private or spiritual
+one, positioned in Revelation's own sequence at the close of the seal, trumpet, and bowl judgments
+(chapters 6-18) and immediately before the millennial reign (20:1-6). Revelation's own opening line
+about this coming is closer to a quotation of Matthew's than an echo: "he is coming with the clouds,
+and every eye will see him... all the tribes of the earth will mourn over him" (Revelation 1:7, ESV)
+against Matthew's "they will see the Son of Man coming on the clouds of heaven... and all the tribes
+of the earth will mourn" (Matthew 24:30) — clouds, universal visibility, and mourning tribes, in the
+same order, naming what the discourse's account leaves more general: not a coming *some* will
+perceive, but one no one alive at the time will be able to miss. Positioned where it is in Revelation,
+this return closes the seven-year week worked out next, not some open interval after the near
+horizon's own distress — Daniel's own count gives that week its shape.
 
 ### Daniel's Seventieth Week
 

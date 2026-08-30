@@ -7,7 +7,7 @@ draft: true
 primary_passage: "Matthew 24:45-25:46"
 bible_references: ["Matthew 24:45-51", "Matthew 25:1-46", "Matthew 10:40-42", "Matthew 12:48-50", "Matthew 18:23-35", "Matthew 20:1-16", "Ezekiel 34:17-24", "Luke 12:35-48", "John 3:29"]
 date_created: 2026-08-29
-date_modified: 2026-08-29
+date_modified: 2026-08-30
 ai_provider_models:
   - anthropic/claude-sonnet-5
 ---
@@ -65,8 +65,7 @@ them. Amen.
 
 ## The Faithful and Wicked Servant (24:45-51)
 
-Christ will return, do not mistake the time waiting as a licence for evil. Be faithful and you 
-will be rewarded. And that faithfulness is to care for that which He has given us in this time.
+Christ will return, and the parable's whole point is not to mistake the wait for license to do evil.
 
 The parable that opens this run is the discourse's own hinge from prophecy to parable: "who then is
 the faithful and wise servant, whom his master has set over his household, to give them their food at
@@ -89,9 +88,8 @@ judgment, not incidental language.
 
 ## The Ten Virgins (25:1-13)
 
-Five ready for the bridegroom (Christ), return. Five not ready. When the bridegroom retuned
-the readiness could not simple be transferred. It was preparedness prior to the return that mattered.
-A preperadness to keep the faith waiting for His return.
+Five of the ten were ready for the bridegroom's return and five weren't, and when he came,
+readiness could not be borrowed — only prepared beforehand.
 
 The wedding custom behind this parable is a Judean betrothal wedding: the groom's party would come to
 the bride's house after dark, at an hour the bridesmaids couldn't know precisely in advance, "given
@@ -119,8 +117,9 @@ be possessed, both responses are the parable making its point as sharply as it c
 
 ## The Talents (25:14-30)
 
-The Master entrusted significant value to each servant for them to be faithful with. 
-Faithful nurturing of what God has entrusted us with is our calling and will be rewarded.
+The master entrusted real value to each servant, and what mattered wasn't how much they were
+given but what they did with it — the servant condemned is the one who buried his out of fear,
+not the one who earned least.
 
 A talent (τάλαντον, *talanton*) is not a coin but the largest unit of currency reckoning in the
 Greco-Roman world — "about 6,000 drachmas, the equivalent of about 20 years' wages for a laborer"
@@ -145,6 +144,9 @@ not a reason to bury it. The servant's fear didn't protect the talent from loss;
 same judgment formula that closed the first parable of this set.
 
 ## The Sheep and the Goats (25:31-46)
+
+This judgment turns on what people actually did — who they fed, welcomed, and visited — done to
+people the King calls his own.
 
 The closing scene draws on an ordinary Judean shepherding practice: sheep and goats "often looked
 similar from a distance and often grazed together," but were separated at night, "because the goats
