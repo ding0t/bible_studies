@@ -289,12 +289,14 @@ image.
 
 ## Word Study: One Taken, One Left
 
-In Matthew 24, Jesus is talking with four disciples. In Luke 17, Jesus is talking to the pharisees.
-In both they have asked Jesus when the kingdom of heaven will come. Both looking for the reign of the promised messiah.
+In Matthew 24, Jesus is talking privately with his disciples. In Luke 17, the Pharisees ask when the
+kingdom of God will come, and Jesus turns to answer his disciples instead — both scenes about the
+same thing: when the Messiah's reign arrives.
 
-Jesus answers both with a vision of one being left and another taken. Both accounts in the context of 
-judgement and salvation runniing parrallel. In the time of Noah spared from the flood, and Lot and his family saved from the
-destruction, by fire, of the cities of the plain (Sodom and Gommorah).
+Jesus answers both with the same picture: one taken, one left. Luke's version pairs it with two Old
+Testament judgments, Noah's flood and the destruction of Sodom and Gomorrah in Lot's day; Matthew's
+uses only Noah. In both, some are removed and some remain — which one is judgment and which is
+rescue is what the rest of this section works out.
 
 Matthew's Noah illustration continues into the discourse's single most contested sentence: "then two
 men will be in the field; one will be taken and one left. Two women will be grinding at the mill; one
