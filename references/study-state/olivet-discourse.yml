@@ -153,8 +153,12 @@ stages:
       draft: true, npm run validate clean except the expected pre-commit
       ai_provider_models placeholder, mkdocs build --strict clean.
   review:
-    done: false
+    done: true
     validated: true
+    notes: >
+      review_2026-08-30 (review-bible-study skill, user-requested "something is missing / feels very
+      AI / we don't study what Jesus is actually teaching"). Full restructure followed. See the
+      review block at the end of this file.
 
 open_questions:
   - "RESOLVED 2026-08-29: taken/left word study (paralambanō/aphiēmi, Matt 24:40-41) points
@@ -190,3 +194,223 @@ last_updated: "2026-08-29"
 # reused, flagged as such. Also fleshed out "Still to Come" (previously one thin paragraph) into
 # Daniel's Seventieth Week (the gap argument from Dan 9:26-27's own sequence) and Times of the
 # Gentiles (Dan 2:44 frame, 1948/1967 as watched-not-decisive markers) as full subsections.
+
+# ---------------------------------------------------------------------------
+review_2026-08-30:
+  skill: review-bible-study
+  trigger: >
+    User: "there is something I feel is missing... this feels very ai, saying a lot without saying
+    much of decent value... I feel like we dont study what Jesus is actually teaching insightfully."
+    Asked for a clearer, more insightful dispensational study with cross-reference, linguistic and
+    cultural depth, a Larkin chart, and mermaid diagrams.
+  phases_1_3_5_7:
+    scripture_accuracy: >
+      CLEAN. Every ESV quotation re-queried from study-notes.db verses table before drafting (Matt 24
+      in full, Mark 13, Mark 14:32-72, Matt 23:37-39, Luke 17:37/19:43-44/21:20-28, Dan 9:24-27,
+      Dan 12:1, 2 Pet 3:3-13, 1 Thess 5:2-6, 2 Thess 2:1-4, Zech 14:3-5, Rev 1:7/3:3/16:15/21:1,
+      Exod 22:26-27, Isa 27:13, Joel 2:31, Acts 1:11-12, 1 Cor 15:51). One error caught and fixed
+      pre-commit: Daniel 9:24 had been drafted as KJV wording ("upon thy people and upon thy holy
+      city", picked up off Larkin's chart) under an ESV label -- corrected to "decreed about your
+      people and your holy city".
+    validate_and_build: "npm run validate clean for this file; mkdocs build --strict clean."
+    commentary_crosscheck: >
+      Phase 5 CONFIRMS twice, from commentaries the previous draft did not cite. (1) ESV Study Bible
+      on Mark 13:33-37 independently states the discourse's purpose is the blepete imperatives at
+      13:5/9/23 -- "instead of speculating about the specific timing of end-time events, all
+      disciples are to be vigilant", which is the restructure's thesis. (2) NIV Cultural Backgrounds
+      on Matt 24:41 independently reads taken=judgment ("one is taken (to judgment, v. 39) but the
+      other is spared"), confirming the existing word study's conclusion from cultural setting
+      rather than from the verbs.
+  findings:
+    - severity: critical
+      finding: >
+        The discourse's dominant imperative was absent. planao (G4105) occurs 8x in Matthew; 4 are in
+        this discourse (24:4, 5, 11, 24) and those 4 are the ONLY Matthean uses in the deception
+        sense (LN 31.8; the other 4 are the lost-sheep wandering sense, 15.24). Mark structures his
+        whole account on blepete (G991) at 13:5, 9, 23, 33 -- all four LN 27.58 "beware" -- set up by
+        the ordinary "do you SEE these buildings" (blepeis) at 13:2. Neither was mentioned.
+      resolution: "New section 'See That No One Leads You Astray' + mermaid of Mark's four-warning spine."
+    - severity: critical
+      finding: >
+        The discourse's ending was missing, and with it the strongest available insight. gregoreo
+        (G1127) occurs 6x in Mark: 3 are the discourse's close (13:34, 35, 37), the other 3 are
+        Gethsemane (14:34, 37, 38). Mark 13:36 "lest he find you asleep" is answered by 14:37 "found
+        them sleeping"; same verb, same mountain, three of the four questioners of 13:3 (Peter,
+        James, John per 14:33), hours later. Previous draft reached Gethsemane and used it only for
+        the "oil press" etymology.
+      resolution: "New closing section built on it, with a four-watches mermaid."
+    - severity: critical
+      finding: >
+        Mark 13:35's four Roman night watches (NIV Biblical Theology SB, note on 13:35) are walked
+        through in order by Mark's own passion narrative. Lexically: opse 13:35 -> opsias 14:17 (last
+        supper); alektorophonia 13:35 -> alektor 14:72 (Peter's denial); proi 13:35 -> proi 15:1
+        (handed to Pilate, identical lemma AND identical LN 67.187). The midnight watch is
+        POSITIONAL ONLY -- mesonyktion occurs once in Mark, at 13:35 -- and the study says so rather
+        than smoothing it.
+      resolution: "Documented with the caveat stated explicitly in the prose."
+    - severity: critical
+      finding: >
+        The requested arc stopped three steps early: millennium was one bare mermaid node, and
+        destruction by fire and the new heavens/new earth were absent entirely. The bridge was
+        already inside the file, unused -- the old draft listed "2 Peter 3:4" as one of five epistle
+        parousia occurrences and concluded Matthew is "the discourse's actual point of contact with
+        how the epistles later talk about this event", then never followed through.
+      resolution: >
+        New section '"Heaven and Earth Will Pass Away"'. parerchomai (G3928) occurs exactly ONCE in
+        2 Peter -- 3:10, of the heavens passing away -- same verb and same LN sense (13.93) as Matt
+        24:35. 2 Pet 3 also reuses Noah (3:5-6), the thief (3:10 / Matt 24:43), parousia (3:4) and
+        the readiness ethic (3:11). Tabulated. NOTE: parerchomai does NOT occur in Revelation
+        (checked) -- Rev 21:1 is the thematic destination, not a verbal link, and the study does not
+        claim otherwise.
+    - severity: major
+      finding: >
+        Matthew 24:34 and 24:35 are one breath sharing one verb in two senses -- parerchomai at 67.85
+        (time elapsing) for the generation, then 13.93 (ceasing to exist) twice for heaven/earth and
+        his words. Old draft spent 261 words on 24:34 in isolation and quoted 24:35 only as a memory
+        verse.
+      resolution: "Joined; now the on-ramp into 2 Peter 3."
+    - severity: major
+      finding: >
+        episynago (G1996) at Matt 24:31 (elect gathered) is the same verb Jesus used twice one
+        chapter earlier over Jerusalem -- "how often would I have gathered your children together as
+        a hen gathers her brood" (23:37), refused. The old draft quoted 23:37 and missed the verb.
+        Luke 17:37's vultures are also episynachthesontai -- one coming, two gatherings. Cognate
+        episynagoge (G1997) at 2 Thess 2:1 is the rapture passage.
+      resolution: "New subsection 'The gathering Jerusalem refused'; vulture link added to taken/left."
+    - severity: major
+      finding: >
+        Verse-coverage gap. Of Matthew 24's 51 verses the old draft gave real depth to ~12, chosen
+        for controversy value (fig tree, this generation, taken/left, AD 70). 24:9-13 (persecution,
+        apostasy, love grown cold, endurance) absent entirely; 24:22 absent; 24:23-27 (false christs
+        performing signs, wilderness/inner rooms, lightning) absent entirely.
+      resolution: "All now treated; 24:23-27 carries the 'one sign' argument."
+    - severity: major
+      finding: >
+        Cultural material almost entirely missing from the flight instructions, though the repo's
+        Cultural Backgrounds volumes cover every line. Added: fleeing to mountains is
+        counter-instinctive (people crowded INTO walled cities); flat roofs with external stairs;
+        the field cloak is the one possession Exod 22:26-27 protects from a creditor overnight, and
+        Jesus says leave it; Judean winter floods the wadis and the Jordan (Josephus Wars 4.433, AD
+        68 fugitives killed at the flooded Jordan); Sabbath gates shut; the shared-courtyard mill.
+    - severity: moderate
+      finding: >
+        Structural. ~1,386 words -- a fifth of the body, and the FIRST fifth -- were synoptic
+        source-comparison (Setting the Scene 650 / Same Discourse Three Witnesses 415 / What Each
+        Account Keeps 321), so the reader met redaction criticism before any teaching. This is what
+        the user experienced as "saying a lot without saying much of value".
+      resolution: >
+        Compressed to a single 9-row comparison table inside the opening section. The widow's mite
+        paragraph, the duplicate prose restating the table, and the standalone "A Precedent for
+        Reading It This Way" section were cut; the Luke 4:18-21 telescoping precedent survives as a
+        paragraph under The Hinge.
+    - severity: minor
+      finding: "Body opened mid-sentence off the title, 'eend' typo, and an '(insert their questions here)' placeholder."
+      resolution: "New opening; the questions now have their own section and mermaid."
+  additions:
+    larkin_chart: >
+      Downloaded Larkin's "Daniel's Seventy Weeks" (1919, public domain) from clarencelarkincharts.com
+      to docs/content/assets/img/larkin/daniels-seventy-weeks.gif per user instruction. It carries the
+      69/70th-week gap, "the present dispensation of 'the Church' was not revealed to Daniel",
+      Daniel 2's image as "the times of the Gentiles" (Luke 21:24), and Zech 14:4 at the terminus --
+      i.e. it visually ties together four things this study already argued in prose.
+    mermaid_diagrams: 6
+    diagram_list:
+      - "Matt 24:3's three questions -> where each is answered"
+      - "Mark's blepete spine, 13:2 -> 13:5/9/23/33 -> 13:37"
+      - "near/far horizons (revised from the previous draft)"
+      - "full dispensational sequence: cross -> AD 70 -> times of the Gentiles -> 70th week -> return -> millennium -> fire -> new heavens/new earth"
+      - "Mark 13:35's four watches -> Mark 14-15's passion narrative"
+      - "kleptes radiating from Matt 24:43 into 1 Thess 5, 2 Pet 3, Rev 3:3, Rev 16:15"
+  word_count: "~6,712 before -> ~8,343 after (additions largely paid for by the cut meta-sections)"
+  still_open:
+    - "draft: true retained -- user has not yet reviewed the restructure."
+    - >
+      Provenance frontmatter NOT refreshed: utils/refresh_frontmatter_provenance.py must be run
+      before the commit and staged with it (running it after can never converge). ai_provider_models
+      was hand-extended with anthropic/claude-opus-5 for this pass and the script should be allowed
+      to normalise it.
+    - >
+      prophecy-essentials.md has overlapping sections ("The two Gospel accounts of the end of the
+      age", "Jesus's own prophecy, fulfilled within his hearers' own generation") that now duplicate
+      this study less well than it does. Worth a follow-up pass to cross-link rather than restate.
+    - >
+      day-is-near.md already covers Mark 13:32-37; this study now also treats it, from the
+      watchfulness/Gethsemane angle rather than the day-length angle. Check the two read as
+      complementary, not competing.
+
+# ---------------------------------------------------------------------------
+correction_2026-09-01:
+  raised_by: user
+  issue: >
+    The "Lessons about Jesus" takeaway framed Mark 13:32 as Jesus lacking knowledge -- "he declines
+    to know what he could, by his own account, have claimed", "the limit he accepted on his own
+    knowledge of it", and later "he knew what would happen and declined to know when". That is
+    Christologically careless (declining to know is incoherent, and it reads as a bare denial of the
+    Son's omniscience) and it misplaces the verse's own emphasis. User also asked whether the saying
+    belongs to the Jewish wedding custom, where the father alone announces the time.
+  resolution: >
+    Rewrote the takeaway and added a new H2 section, "The Day No One Knows", placed between "This
+    Generation"/the far-horizon material and "One Taken, One Left" so it follows Matthew's own order
+    (24:36 -> 24:37). Restored the method/textual-criticism tag.
+  findings:
+    - >
+      TEXTUAL: some mss omit "nor the Son" at Matt 24:36 (footnoted by CSB Ancient Faith and NLT).
+      Verified directly: SBLGNT and Tischendorf both print oude ho huios, and Mark 13:32 is
+      undisputed. Harder reading retained; a scribe softening a hard saying is likelier than one
+      inventing it.
+    - >
+      CHRISTOLOGY: two things, and the second carries the emphasis. (1) The incarnation is real --
+      ESV Study Bible on Matt 24:36 takes the two-natures line (Luke 2:52, Heb 5:8 vs John 2:25,
+      16:30, 21:17; "apparently speaking in terms of his human nature"), with Chalcedon AD 451 and
+      Phil 2:7. (2) The date is the Father's -- NLT Life Application on Mark 13:32: "the emphasis of
+      this verse is not on Jesus' lack of knowledge but rather on the fact that no one but God has
+      this knowledge."
+    - >
+      DECISIVE INTERNAL EVIDENCE: Acts 1:7. Same question asked again AFTER the resurrection, when
+      incarnational limitation is not in view, and Jesus answers the same way while naming the
+      reason -- "times or seasons that the Father has fixed by his own authority" (exousia).
+      Authority, not information. Zech 14:7 ("a unique day, which is known to the LORD") is cited at
+      this point by NIV Cultural Backgrounds on Matt 24:36.
+    - >
+      CULTURAL SETTING (supports the study's existing thesis): NIV Cultural Backgrounds on Matt
+      24:36 -- "Jewish teachers disagreed among themselves as to whether God had immutably fixed the
+      day of redemption... Some tried to calculate dates; others regarded such calculations as
+      impossible." Jesus lands hard on the second side, the same move as the birth-pangs checklist.
+  jewish_wedding_claim:
+    verdict: >
+      Conclusion right, evidence too thin to carry it. Included in the study as a weighed claim, NOT
+      as the argument's basis -- Acts 1:7 carries it instead. Same discipline rapture.md already
+      applies to the wedding pattern generally.
+    reasons:
+      - >
+        Sourcing is devotional, not documentary: the father-approval gate on the groom's departure
+        circulates through Messianic/dispensational teaching materials citing each other; no
+        Mishnah, Talmud or Josephus passage produced. One source making the case concedes the idiom
+        is "not categorically proven."
+      - >
+        The scholarly cultural commentary explains the same delay differently: NIV Cultural
+        Backgrounds on Matt 25:1 attributes the ten virgins' unpredictable timing to "the many
+        preparations (and the bride's relatives haggling over the value of the gifts given them)",
+        with the ceremony at the groom's parents' home (25:10). No father-approval gate appears.
+      - >
+        The "idiom" as usually quoted ("I don't know, the angels don't know, only my father knows")
+        reproduces Matt 24:36's own three-part structure -- no one / nor the angels / nor the Son /
+        but the Father. A saying tracking the verse that closely was more likely shaped BY the verse
+        than the verse by it.
+    rosh_hashanah_variant: >
+      Fares slightly better, still short. The underlying procedure IS primary-source attested and
+      was verified for this correction: m. Rosh Hashanah 2:7, via Sefaria -- "after the witnesses
+      have been examined and their testimony accepted, the head of the court says: It is sanctified."
+      What is NOT attested is the step the argument needs: that "no one knows the day or hour" was a
+      recognised idiom MEANING Rosh Hashanah. Jesus also says day *or hour*, where the new-moon
+      uncertainty concerns only the day.
+  verification: >
+    All new ESV quotations re-queried from study-notes.db (Matt 24:36, Acts 1:7, John 2:24-25,
+    21:17, Phil 2:7, Zech 14:7, Luke 2:52, Heb 5:8). Greek checked against SBLGNT and Tischendorf
+    via query.py. npm run validate clean. mkdocs build --strict run with draft flipped to false to
+    exercise the page (the hook otherwise excludes it) -- confirmed the new #the-day-no-one-knows
+    anchor and its three subsections render, then reverted to draft: true.
+  note_for_publication: >
+    The strict build surfaced a real coupling: olivet-discourse.md links olivet-discourse-parables.md,
+    so publishing one while the other is still draft: true fails mkdocs build --strict. The two must
+    be flipped to draft: false together, or the cross-link removed first.

@@ -1,0 +1,199 @@
+slug: "bride-of-christ"
+title: "The Bride of Christ"
+status: drafting
+target_path: "docs/content/israel-and-church/bride-of-christ.md"
+# Created 2026-09-01. Grew out of the olivet-discourse review: the user asked whether "no one knows
+# the day or hour" belongs to the Jewish wedding custom (correction_2026-09-01 in
+# olivet-discourse.yml). Chasing that down turned up a large body of *attested* betrothal material
+# that the site was not using, alongside the popular material that has no source. This study exists
+# to separate those and to give rapture.md's "Jewish wedding pattern" section -- which currently
+# flags its own sourcing as popular-teaching-derived -- a documented backbone to lean on.
+#
+# PLACEMENT: israel-and-church/ (Ecclesiology + the dispensational distinction) per
+# placement-and-tags.md. NOT salvation/, which is Soteriology (grace, redemption, assurance, death);
+# the bride is a claim about what the church IS, not about how one is saved.
+
+primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
+supporting_passages:
+  - "2 Corinthians 11:2"
+  - "John 3:29"
+  - "John 14:23" # the second and only other NT use of mone
+  - "Matthew 1:18-25" # betrothal binding, and paralambano of taking a wife
+  - "Hosea 2:19-20; Isaiah 54:5; 62:5; Jeremiah 2:2; Ezekiel 16"
+  - "Song of Songs 2:10-13; 8:6-7"
+genre: [epistle, apocalyptic, gospel, wisdom-poetry]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      User request: capture the bride typology as its own study, including Song of Songs. Method
+      agreed implicitly across the preceding turns: sort every claim into tiers by evidence quality
+      and SAY which tier each is in, because the popular version of this doctrine mixes stated
+      Scripture, documented custom and invented detail without distinction. Existing site content to
+      cross-link rather than duplicate: rapture.md (the wedding-pattern sequence + pretrib case),
+      olivet-discourse.md (the Father's authority over the date; taken/left), israel-and-the-church.md
+      (who the bride is vs Israel).
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        First-century Jewish betrothal, verified from primary sources rather than from teaching
+        materials. m. Kiddushin 1:1 -- betrothed by money, document or intercourse; dissolved only
+        by a bill of divorce or death. m. Ketubot 5:2 -- a betrothed virgin gets twelve months from
+        the time the husband claimed her "to prepare herself for marriage", and the man is given the
+        same period to prepare himself; a widow thirty days. Both fetched via references/build/
+        sefaria.py in Kulp's CC-BY translation (see the licensing correction in open_questions).
+        Corroborated from the NT side by Matt 1:19 (Joseph "resolved to divorce
+        her" while only betrothed) and by NIV Cultural Backgrounds on Matt 1:19 ("could be ended only
+        by divorce or by the death of one of the partners"). Wedding held at the groom's parents'
+        home, couple resident there initially (CBSB Matt 25:10); groom's arrival genuinely
+        unpredictable but for prosaic reasons -- preparations and relatives haggling over gift value
+        (CBSB Matt 25:1). Seven-day feast is biblical and pre-rabbinic (Gen 29:27; Judg 14:12).
+    literary_context:
+      done: true
+      notes: >
+        The study's spine is the set of places where a biblical author states the identification
+        rather than leaving a reader to infer it: Eph 5:31-32 ("refers to Christ and the church"),
+        2 Cor 11:2 ("I betrothed you to one husband"), John 3:29 (bridegroom/shoshbin), Rev 19:7-9
+        and 21:2, 9. OT spine (Hos 2:19-20; Isa 54:5; 62:5; Jer 2:2; 31:32; Ezek 16) is the set CBSB
+        itself lists as Paul's background at 2 Cor 11:2. Messianic banquet as a wedding figure was
+        already current pre-NT (CBSB Rev 19:7, citing Isa 25:6-8), so Revelation is picking up an
+        existing figure rather than coining one.
+    content_word_studies:
+      done: true
+      terms:
+        - word: "παραλαμβάνω"
+          language: greek
+          transliteration: "paralambano"
+          strongs_id: "G3880"
+          gloss: "take, receive"
+          notes: >
+            THE load-bearing find, and it settles a question left open in olivet-discourse.md. The
+            lemma carries two Louw-Nida domains and the annotation separates the passages:
+            John 14:3 (paralempsomai, "take you to myself") = 34.53, domain 34 ASSOCIATION, the
+            receive/welcome-into-company sense shared with dechomai, prosdechomai, proslambanomai
+            (verified via bible_domain 34.53). Matt 1:20 (paralabein, "to take Mary as your wife")
+            and Matt 1:24 (parelaben, "took his wife") = 34.53, the SAME domain. Matt 24:40-41
+            (paralambanetai, "is taken") = 15.168, PHYSICAL MOVEMENT. So John 14:3 shares its domain
+            with a man receiving his bride; Matt 24:40-41 does not. Fed back into
+            olivet-discourse.md's taken/left section, which previously said only that the word "can
+            carry either sense; only its immediate setting decides."
+        - word: "μονή"
+          language: greek
+          transliteration: "mone"
+          strongs_id: "G3438"
+          gloss: "dwelling place, room"
+          notes: >
+            Exactly two NT occurrences, both in this discourse: John 14:2 ("many rooms") and John
+            14:23 ("we will come to him and make our home with him"), both domain 85.76. A CAUTION
+            against reading 14:2 as a bridal chamber under construction -- John's own second use is
+            of God dwelling in the believer. ESV SB reads "my Father's house" as heaven (note on
+            14:2-3). Treated in the study as a deliberate Johannine pairing (the place prepared for
+            us / the home made in us) rather than as a refutation of the betrothal shape.
+        - word: "חֻפָּה"
+          language: hebrew
+          transliteration: "chuppah"
+          strongs_id: "H2646"
+          gloss: "canopy, chamber"
+          notes: >
+            Three OT occurrences: Ps 19:5 (bridegroom leaving his chamber), Joel 2:16 (bride's
+            chamber), Isa 4:5 (over restored Zion "there will be a canopy"). The third is the payoff
+            -- the wedding-canopy word applied to God's covering of Zion in an eschatological oracle,
+            inside a three-occurrence corpus.
+        - word: "שַׁלְהֶבֶתְיָה"
+          language: hebrew
+          transliteration: "shalhevetyah"
+          strongs_id: "H7957 + H3050"
+          gloss: "flame of Yah / a mighty flame"
+          notes: >
+            Song 8:6. Verified against morphhb-wlc: the tokens are shalhevet (H7957, flame) + Yah
+            (H3050, short form of the divine name). The Song otherwise never names God, so if the
+            name is present this is its single occurrence -- and it identifies the fire in human love
+            as God's own. Translation genuinely divides: ESV "the very flame of the LORD" takes it as
+            the name; others read -yah as an intensifier ("a mighty flame"). Study states both and
+            does not force it. This is the warrant for reading the Song theologically WITHOUT
+            allegorising its individual images.
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Culturally bound: the specific mechanics (twelve months, the ketubah, the groom's parents'
+        house, the seven-day feast, the shoshbin's speech). Transcultural: the covenant relation
+        those mechanics picture, which Scripture itself asserts (Eph 5:32) rather than leaving to
+        inference -- which is exactly why the doctrine survives the collapse of the invented details.
+    theological_principle:
+      done: true
+      notes: >
+        The church is Christ's betrothed bride, bound to him now by a covenant already legally
+        complete, preparing during a defined interval for a consummation she does not schedule. Held
+        in a dispensational frame: the bride is the church, distinct from Israel (cross-links
+        israel-and-the-church.md), and the marriage supper sits at Rev 19 after the tribulation.
+    application_draft:
+      done: true
+      notes: >
+        Rev 19:7-8's two halves held together -- the Bride "has made herself ready" AND her clothing
+        "was granted her." Rules out passivity and self-congratulation at once.
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "m. Kiddushin 1:1", relation: "betrothal effected by money/document/intercourse; dissolved only by get or death -- verified via Sefaria"}
+      - {ref: "m. Ketubot 5:2", relation: "twelve-month preparation interval for a virgin, thirty days for a widow -- verified via Sefaria"}
+      - {ref: "m. Yadayim 3:5", relation: "Rabbi Akiva, Song of Songs as 'the holy of holies' -- verified via Sefaria"}
+      - {ref: "Song 2:13 -> Matt 24:32", relation: "registered in the OpenBible cross-reference dataset (votes=2); winter-past/fig-budding/'arise' shares an INFERENCE STRUCTURE with the Olivet fig tree. Presented as resonance, explicitly NOT as citation -- suke is the ordinary word for fig tree and Matthew does not quote the Song."}
+      - {ref: "Exod 23:20; Deut 1:33; Exod 15:17; Jer 2:2", relation: "'prepare a place' has an exodus background; Jer 2:2 frames the exodus itself as bridal, so the two readings are not rivals. THEMATIC only -- could not retrieve LXX Greek of Exod 23:20 to test whether it shares John's hetoimazo, so no lexical claim is made."}
+    translations_compared: ["ESV (default, all block quotes)", "SBLGNT / Tischendorf (Greek)", "morphhb-wlc / MACULA (Hebrew)"]
+  drafting:
+    done: true
+    file: >
+      docs/content/israel-and-church/bride-of-christ.md, draft: true. Two mermaid diagrams (the OT->NT
+      betrothal thread; the three evidence tiers). npm run validate clean. mkdocs build --strict
+      clean, run with olivet-discourse.md, olivet-discourse-parables.md and this file temporarily
+      flipped to draft: false to exercise them (the draft hook otherwise excludes all three);
+      confirmed both #one-taken-one-left and #the-day-no-one-knows anchors resolve and the reciprocal
+      olivet -> bride link builds. All three reverted to draft: true afterwards.
+
+open_questions:
+  - >
+    RESOLVED 2026-09-01: Tobit IS in the repo. User was right to push back. It lives in
+    references/open-data/scrollmapper-bible-databases-deuterocanonical (a fork under the user's own
+    account, registered in .gitmodules, open tier), as raw sources/en/book-of-tobit/*.{json,md} --
+    build.py deliberately skips deuterocanonical books ("out of scope this pass"), so it is NOT in
+    bible-text.db and not reachable from query.py or the MCP tools, and references/README.md never
+    cataloged it. That is why the first pass missed it. Tobit 7:13-16 and 8:19-20 now cited in the
+    study; a row for the source set was added to references/README.md's quick guide.
+  - >
+    LICENSING CORRECTION 2026-09-01: the Mishnah citations were first taken from the Sefaria web API,
+    whose default English for the Mishnah is the CC-BY-NC William Davidson Edition -- which
+    references/README.md and sefaria.py both say to avoid. Re-fetched all of them through
+    references/build/sefaria.py using "Mishnah Yomit by Dr. Joshua Kulp" (CC-BY); the CC0 Sefaria
+    Community Translation was preferred first but does not cover Kiddushin 1:1, Ketubot 5:2 or
+    Rosh Hashanah 2:7, and has no Yadayim at all. This caught a real quoting error as well as a
+    licence one: the study had "to prepare herself with clothes and jewelry" at m. Ketubot 5:2, which
+    is Davidson's wording and is NOT in Kulp ("to prepare herself for marriage"). Kulp also supplies a
+    detail the popular version omits -- the man is given the same twelve months to prepare as the
+    woman. The same correction was applied to olivet-discourse.md's m. Rosh Hashanah citation, where
+    the quoted "after the witnesses have been examined" clause was likewise Davidson's; the witness
+    examination is actually m. Rosh Hashanah 2:6, the declaration 2:7, and the study now cites 2:6-7.
+  - >
+    rapture.md's "The Jewish wedding pattern" section currently discloses that its custom-by-custom
+    detail "comes from popular teaching sources rather than from a single primary first-century
+    text." That disclosure is honest but the section can now be REBUILT on m. Kiddushin 1:1,
+    m. Ketubot 5:2 and the CBSB notes gathered here. Not done -- would change a published page, needs
+    the user's go-ahead.
+  - >
+    The study asserts the Song's allegorical reading is ancient (Akiva, Origen, Bernard). Akiva is
+    verified from m. Yadayim 3:5; Origen and Bernard are named from general knowledge and were NOT
+    checked against their texts. Either verify or drop the two names before draft: false.
+  - >
+    PUBLICATION COUPLING: bride-of-christ.md links olivet-discourse.md (two anchors), which links
+    olivet-discourse-parables.md. All three are draft: true and must be flipped together, or
+    mkdocs build --strict fails on the broken link. See the draft_pages hook note in AGENTS.md.
+
+resources_consulted:
+  - {type: other, title: "Mishnah Kiddushin 1:1, Ketubot 5:2, Yadayim 3:5", author: "via Sefaria", note: "primary rabbinic sources, fetched and read for this study"}
+  - {type: commentary, title: "NIV / NKJV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Matt 1:19, 25:1, 25:10; John 3:29; 2 Cor 11:2; Rev 19:7-8; Song 1:2, 2:15 -- via study-notes.db"}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "verse text (ESV) and notes on John 14:2-3, Song 1:1, Song 1:2-2:17 -- via study-notes.db"}
+  - {type: lexicon, title: "MACULA Greek/Hebrew morphology + Louw-Nida semantic domains", author: "bible-references MCP", note: "paralambano domain split, mone, chuppah, shalhevetyah"}
+  - {type: other, title: "OpenBible.info cross-reference dataset", author: "CC-BY", note: "Song 2:13 -> Matt 24:32"}
+last_updated: "2026-09-01"

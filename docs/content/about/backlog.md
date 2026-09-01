@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-08-29
+date_modified: 2026-09-01
 ai_provider_models:
   - anthropic/claude-sonnet-5
 ---
@@ -50,6 +50,16 @@ Refer to an item by its number, e.g. "work on 4.1."
 - Gad the Seer, etc.
 - Dead Sea Scrolls
 - Early church fathers
+
+### 1.2 Cross reference graph.db
+
+Produce a database that links scripture cross references in order to value add to the realisation of the integrated message of Scripture
+
+- Generate or reuse scriptural cross references in a graph db to visualise themes across scripture
+- Grade weight of links — direct correlation through to loosely similar
+- Theme links
+- Use to correlate during study
+- Visualise
 
 ## 2. Jesus
 
