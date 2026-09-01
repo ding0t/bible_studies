@@ -77,6 +77,7 @@ Only now, cross to application:
   - **YLT and NKJV stay comparison tools only** — AGENTS.md's "Biblical scholar principles" gives the full Fee & Stuart rationale. The structural-comparison use above is the legitimate one; neither gets quoted as a verse's meaning in a study's prose.
 - **Consult commentaries last**, not first — use them to check your reading, not to form it. Cite any extra-biblical source used, per AGENTS.md.
   - You have real commentaries to consult, so do consult them: `study-notes.db` holds the ESV Study Bible, both Cultural Backgrounds Study Bibles, the NIV Biblical Theology Study Bible and the CSB Ancient Faith Study Bible — notes, book introductions, topical articles, and each edition's own verse text. Access pattern and the mandatory `immutable=1` URI form: [references/README.md](../../../references/README.md#study-notesdb-commercial-study-bible-commentary-external-not-in-this-repo-at-all). Query it with a `verse_start<=N AND verse_end>=N` window rather than an exact-verse match, since notes are attached to ranges.
+  - **`note_type` splits that table into two different kinds of evidence, and the second is the underused one.** A `study_note` is the editors' commentary — a scholar's argued view, weighable against other scholars. A `footnote` is the translation committee's own record of a decision: *"Or X"*, *"Lit Y"*, *"Some mss omit Z"*. That is much closer to primary evidence — the translators telling you where the text is genuinely ambiguous, that they made a judgement call, and what the alternative was. **Pull `note_type='footnote'` for the passage as a matter of course, alongside the study notes — not only when something already looks contested.** They are worth reading wherever they exist: alternate renderings, wooden-literal glosses, manuscript variants, measurement and currency conversions, and notes on where a NT quotation departs from the OT it cites. Much of that is invisible in the running text and will not announce itself as a problem to go looking for; you find out the text was ambiguous *because* the footnote says so. The payoff is largest when a word is doing theological work, two translations diverge, or a variant is in play — there the footnote often names the divergence outright and saves reconstructing it from a lexicon and six parallel versions — but the habit is to read them, not to reach for them only after a difficulty surfaces. Song of Songs 8:6 is the standing example: the fork over whether <span dir="rtl">שַׁלְהֶבֶתְיָה</span> ends in the divine name or a superlative was worked out the long way, while the LSB's own footnotes at that verse state both options — "Or *A vehement flame*" and "The shortened form of Yahweh, found in poetry and praise (e.g. Hallelu*jah*)". The footnote corpus is now ~22,000 entries and the LSB supplies two-thirds of them.
   - Expect this step to *change* something. If commentaries confirm every single thing you already wrote and add nothing, you have probably skimmed them for agreement rather than read them for correction. Note explicitly in `resources_consulted` what each one confirmed versus contributed.
 - Record every source touched in `resources_consulted` on the state file, with enough detail (author, work, translation) to reconstruct the citation later.
 
@@ -171,4 +172,19 @@ Update the relevant `stages.*` block and bump `last_updated` as each phase above
 - [style-guide.md](style-guide.md) — the prose pass (Phase 7)
 - [study-state.template.yml](study-state.template.yml) — state file schema
 
-Source catalog and licence tiers: [references/README.md](../../../references/README.md), as AGENTS.md directs. Prefer the `bible-references` MCP tools (`bible_word`, `bible_verse`, `bible_passage`, `twot_root`, …) over shelling out to `query.py`/`twot_lookup.py` — same data, no text-parse round trip; the CLI is the fallback when the server isn't connected.
+Source catalog and licence tiers: [references/README.md](../../../references/README.md), as AGENTS.md directs.
+
+**Before concluding a text is unavailable, check the disk, not just the catalog.** The catalog can
+lag what is actually checked out, and when it does, "not in this repo" is a confident wrong answer:
+a study went to press asserting Tobit was unavailable while Tobit sat in
+`references/open-data/scrollmapper-bible-databases-deuterocanonical/sources/en/book-of-tobit/`. Two
+habits prevent it. Run `python3 references/check_sources.py` (from the repo root) — its **raw-only**
+list is exactly the set of sources present on disk that `query.py` and the MCP tools *cannot* see,
+so a `bible_verse` miss proves nothing about them. And remember `build.py` ingests six of the
+open-data submodules and skips the rest; deuterocanonical and apocryphal books are skipped by
+design, so they must be read as raw `sources/<lang>/<book>/` files.
+
+**External material resolves through `$BIBLE_MEDIA_ROOT`**, not a hardcoded path — `study-notes.db`,
+the patristics corpus and the TWOT scans all live there. Use `references/build/media_root.py` rather
+than writing a `/Volumes/...` path into anything, and expect the volume to be unmounted sometimes;
+say so plainly in the state file when it is, rather than quietly skipping verification. Prefer the `bible-references` MCP tools (`bible_word`, `bible_verse`, `bible_passage`, `twot_root`, …) over shelling out to `query.py`/`twot_lookup.py` — same data, no text-parse round trip; the CLI is the fallback when the server isn't connected.

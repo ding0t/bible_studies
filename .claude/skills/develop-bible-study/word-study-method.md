@@ -12,6 +12,16 @@ Trace the word's usage *through time*, in order: Classical Greek, then the Septu
 
 **Lexicon-bias guardrail:** a lexicon entry is itself a piece of scholarship, not a neutral fact — a lexicon writer's own theological or interpretive leanings shape which sense gets listed first, or at all. Don't settle a load-bearing gloss on a single lexicon; cross-check it against at least one other (Louw-Nida/SDBH's domain-based grouping and TWOT are usually enough) and note if they disagree rather than quietly picking the one that supports the reading already in mind.
 
+**Read the translators' footnotes on the passage before concluding anything.** `study-notes.db`'s
+`notes` table with `note_type='footnote'` (~22,000 entries; see
+[references/README.md](../../../references/README.md)) is the translation committees' own record of
+where they judged a word ambiguous — "Or X", "Lit Y", "Some mss omit Z". It is the cheapest check
+available and it runs in the opposite direction from the rest of this method: instead of you deciding
+a word deserves study, the footnote tells you the people who translated it professionally already
+found it hard. Two of this site's own word studies reconstructed a fork from lexicon and parallel
+versions that a footnote at the same verse stated outright. Treat a footnoted alternative as a live
+reading to weigh, not a curiosity — and if your conclusion contradicts it, say so and give the reason.
+
 **Synonym check, where relevant:** the method above studies one word in isolation. Where the exegetical point actually turns on *why this word and not a close alternative* — the kind of finding this site's own *kophinos*/*spyris* basket-word distinction in the Bread of Life study is an example of — the right tool is a synonym comparison, not a deeper single-word study: Trench's *Synonyms of the New Testament* (Greek) or Girdlestone's *Synonyms of the Old Testament* (Hebrew), both public domain, both cited in [references/README.md](../../../references/README.md#word-study--original-language-tools).
 
 ## Step 2 — Synchronic: how the word was actually used

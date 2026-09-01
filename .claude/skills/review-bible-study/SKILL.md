@@ -60,6 +60,26 @@ Every quoted verse gets re-queried from source, not read for plausibility.
   [references/README.md](../../../references/README.md#two-different-permissions-dont-conflate-them)
   (NIV 25%, ESV/CSB/NKJV 50%, of the quoting work), and confirm commentary quotations stay at a sentence
   or two rather than a full note.
+- **Named version, for anything whose translations differ in licence.** A citation to "the Mishnah" or
+  "Sefaria" is not checkable and may not be quotable. Sefaria's default English for the Mishnah is the
+  **CC-BY-NC William Davidson Edition**, which `references/build/sefaria.py` and
+  [references/README.md](../../../references/README.md) both say to avoid in favour of a CC0/CC-BY
+  version — so a study that fetched from the web API instead of the script has probably quoted the
+  wrong one. Re-fetch through the script with an explicitly named version and compare. This is not a
+  licensing nicety: doing it on `bride-of-christ.md` found the study quoting *m. Ketubot* 5:2 as "to
+  prepare herself with clothes and jewelry," which is Davidson's wording and absent from Kulp's
+  ("to prepare herself for marriage"). **Wrong version and wrong words travel together.**
+- **A source that "isn't available" may just be unqueryable.** Before accepting a study's claim that
+  some text could not be checked, run `python3 references/check_sources.py` from the repo root. Its
+  **raw-only** list names sources that are on disk but that `build.py` does not ingest, so `query.py`
+  and the MCP tools cannot see them and a lookup miss proves nothing — deuterocanonical and
+  apocryphal books (Tobit, Maccabees, Sirach, 1 Enoch) are the standing example, skipped by design and
+  readable only as raw `sources/<lang>/<book>/` files. An **UNDOCUMENTED** result is a finding in its
+  own right: the catalog has drifted, and the fix is a row in references/README.md, not a note in the
+  study.
+- **External material resolves through `$BIBLE_MEDIA_ROOT`** (see `references/build/media_root.py`).
+  If a study records that verification was skipped because the volume was offline, that limitation
+  stands in the report — but check whether it is still true now before repeating it as fact.
 - **Hebrew/Aramaic wrapped in markdown bold.** Run `npm run validate` (from `app/`) and treat any
   `Hebrew/Aramaic text is wrapped in markdown bold` error as a Critical finding, not a style nit —
   see [style-guide.md's "Hebrew/RTL text and markdown bold"](../develop-bible-study/style-guide.md#hebrewrtl-text-and-markdown-bold)
@@ -79,6 +99,17 @@ earlier session) already wrote.
   study states are what the corpus actually returns right now. A miscounted or stale "only N
   occurrences" claim undermines exactly the kind of argument (*trōgō*, *kophinos*/*spyris*) this site's
   strongest studies are built on.
+- **Did the translators footnote something the study never mentions?** Pull `note_type='footnote'` for
+  the study's `primary_passage` as a standing step — separately from `study_note`, which is editorial
+  commentary rather than the committee's own record of its decision. Read them all, not only the ones
+  attached to words the study already treats as contested: a footnote can supply a literal gloss, a
+  manuscript variant or a measurement conversion that bears on an argument the study made without
+  realising the question was live. A footnote reading *"Or X"*, *"Lit Y"* or *"Some mss omit Z"* is the translators saying
+  the text is genuinely ambiguous there. **A study that argues from one reading while the translation it
+  quotes offers another in a note has a hole in it** — not necessarily a wrong conclusion, but an
+  undisclosed fork the reader deserves. Raise it as Moderate when the study's argument turns on the
+  rendering, Minor when it is incidental. The corpus is ~22,000 footnotes and nothing in either skill
+  pointed at it before 2026-09, so older studies are the likeliest to have missed one.
 - **Root-fallacy check.** Flag any claim resting on "the word literally/originally means X" to establish
   present-tense usage in the passage, instead of on synchronic (contemporary) usage.
 - Check the gloss, Strong's number, and semantic-domain code against `bible_word`/`bible_domain`
