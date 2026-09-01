@@ -39,6 +39,13 @@ theme:
     - navigation.top
     - navigation.indexes
 
+# `draft: true` frontmatter keeps a page out of `mkdocs build` (and so out of the deployed site,
+# its sidebar nav and the search index) while leaving it visible under `mkdocs serve`. MkDocs has
+# no native draft support for ordinary pages, so without this hook the flag was honoured only by
+# this repo's own index scripts and drafts published silently. See hooks/draft_pages.py.
+hooks:
+  - hooks/draft_pages.py
+
 plugins:
   - search
   - awesome-pages

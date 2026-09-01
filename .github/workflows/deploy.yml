@@ -7,6 +7,9 @@ on:
       - 'docs/**'
       - 'app/**'
       - 'mkdocs.yml'
+      # hooks/draft_pages.py decides which pages reach the build at all, so a change to it
+      # changes the published site even when no content file moves.
+      - 'hooks/**'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 

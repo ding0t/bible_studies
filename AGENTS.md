@@ -140,6 +140,19 @@ uv run python section_index.py     # regenerate category landing pages — run a
 uv run python build_study_notes.py # commercial study-Bible db, writes outside this repo — see references/README.md
 ```
 
+**Source catalog drift check** (run from the repo root, stdlib only):
+
+```bash
+python3 references/check_sources.py   # every source on disk documented in references/README.md?
+```
+
+Exits non-zero on an undocumented source. Its **raw-only** list is the one to know before saying a
+text is unavailable: those sources are present but not ingested by `build.py`, so `query.py` and the
+MCP tools cannot see them (this is why a study once asserted Tobit wasn't in the repo while it sat in
+`references/open-data/`). External material — `study-notes.db`, patristics, TWOT scans — resolves
+through **`$BIBLE_MEDIA_ROOT`** via `references/build/media_root.py`, never a hardcoded path, because
+this repo is public.
+
 `references/build/mcp_server.py` (registered via `.mcp.json`) exposes the same `query.py`/
 `twot_lookup.py` lookups as MCP tools — it's a thin wrapper, not a second implementation.
 
@@ -180,6 +193,19 @@ manually (`workflow_dispatch`).
   regenerate auto-sections of *other* committed markdown files, bounded by
   `<!-- *-index:auto-start/end -->` markers — hand-written prose outside those markers is preserved,
   so it's safe to re-run them after editing content.
+- **`draft: true` is enforced by `hooks/draft_pages.py`, not by mkdocs.** MkDocs has no native
+  draft support for ordinary pages (mkdocs-material's is blog-plugin only, and this site has no
+  blog), so for a long time the flag was honoured *only* by this repo's own scripts —
+  `section_index.py`, `commentary_index.py` and `generate_recent_updates.py` all hid drafts from
+  their generated lists, while mkdocs went on building, publishing, nav-linking and search-indexing
+  the page itself. Drafts therefore looked unpublished while being fully reachable; three were live
+  on `the-way.lewy.au` that way before it was spotted (2026-09-01). The hook drops draft pages at
+  `on_files` during `mkdocs build`/`gh-deploy` and keeps them under `mkdocs serve`, so local preview
+  still works. Two consequences: a published page that links to a draft now **fails
+  `mkdocs build --strict`** (correctly — a public page shouldn't link to something the public can't
+  read), and a draft `index.md` takes its directory's landing page down with it, so finish a
+  section index rather than drafting it. `build-events.js` still does **not** filter drafts, so a
+  `draft: true` study with `gregorian_year` frontmatter can still plant a timeline entry.
 - **Two SQLite pipelines under `references/`, deliberately isolated by trust tier**:
   `bible-text.db` (open/restricted-nc sources; gitignored but built *inside* the repo tree) vs.
   `study-notes.db` (commercial study-Bible commentary, `quotation-only`; built entirely *outside*
