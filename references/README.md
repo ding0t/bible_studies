@@ -5,7 +5,7 @@ Supporting material for developing studies in this repo — see the [develop-bib
 **Two separate databases, two separate safety postures — don't confuse them:**
 
 - **`references/build/bible-text.db`** — Bible text, morphology, cross-references. Sources are open or restricted-nc. Gitignored build artifact, lives *inside* this repo's directory tree at `references/build/out/`.
-- **`references/build/study_notes/` → `study-notes.db`** — commercial study-Bible commentary (ESV Study Bible, Cultural Backgrounds Study Bible, etc.). Every source here is `quotation-only`. Built and stored **entirely outside this repo's directory tree**, on the personal media volume (`/Volumes/media/bible/local-only-build/study-notes.db`) — not just gitignored, actually not present anywhere under `bible_studies/`. This is deliberate: `quotation-only` data gets the stronger isolation, not just a `.gitignore` line. If you're ever tempted to add a new commercial-study-Bible extraction, **use this system, not a new one** — see the section below before writing new extraction code.
+- **`references/build/study_notes/` → `study-notes.db`** — commercial study-Bible commentary (ESV Study Bible, Cultural Backgrounds Study Bible, etc.). Every source here is `quotation-only`. Built and stored **entirely outside this repo's directory tree**, on the external reference volume (`$BIBLE_MEDIA_ROOT/local-only-build/study-notes.db`, see **External material and `BIBLE_MEDIA_ROOT`** below) — not just gitignored, actually not present anywhere under `bible_studies/`. This is deliberate: `quotation-only` data gets the stronger isolation, not just a `.gitignore` line. If you're ever tempted to add a new commercial-study-Bible extraction, **use this system, not a new one** — see the section below before writing new extraction code.
 
 A third script, `references/build/commentary_index.py`, is different in kind from the two databases above — it doesn't ingest any external source. It scans this repo's own `docs/content/studies/**/*.md` frontmatter (`primary_passage`, `bible_references`) and maintains an auto-generated cross-reference section inside `docs/content/bible/commentaries/<NN>-<book>/` (a chapter file and a book `index.md` per referenced book/chapter), so a reader looking at a commentary page can see which studies actually treat that passage. It writes directly into committed content — run it after adding or editing a study's reference frontmatter (`uv run python commentary_index.py`). It's idempotent and only ever touches the content between `<!-- commentary-index:auto-start -->` / `...auto-end -->` markers, so hand-written commentary prose around that section is never overwritten. See the develop-bible-study skill's Phase 7 for why every study should populate `primary_passage`/`bible_references` — a study missing both is simply invisible to this index, not an error.
 
@@ -22,14 +22,61 @@ A fifth, `references/build/section_index.py`, fixes a real site bug rather than 
 | English translations (KJV, ASV, WEB, BSB, etc.) | `open-data/scrollmapper-bible-databases`, eBible.org sources (`ebible-eng-web`, `ebible-grcbrent`, `ebible-heb`, `ebible-grc-tisch`) | open | Quote freely, name the translation |
 | Cross-references | `open-data/scrollmapper-bible-databases` (OpenBible.info data), `open-data/stepbible-data` | open | Cite freely |
 | Clause syntax, coreference, Hebrew construct state / verb conjugation | `bible-text.db` `morphology` table (MACULA columns) — `query.py syntax` / `bible_syntax` | open | Cite freely; see the syntax section below for what the annotation does and doesn't cover |
+| Hebrew paragraph/pericope divisions (samekh/pe markers) for concordance chunking | `open-data/hebrew-vocab-tools` — ingested as work `hebrew-vocab-tools-pericopes` | open (CC BY 4.0) | Cite freely with attribution; used by [word-study-method.md](../.claude/skills/develop-bible-study/word-study-method.md) for Hebrew concordance grouping |
 | Byzantine/TR Greek, BHSA syntax trees, Mounce dictionary | `restricted-data/*` | restricted-nc | Fine to use and cite now (site is non-commercial); flag if that ever changes. **BHSA is not ingested** — see the syntax section below for why MACULA is the better first stop |
 | Jewish literature (Mishnah, Talmud) for cultural/historical background | `references/build/sefaria.py` (Sefaria-Export) | varies per translation — check before quoting | Prefer a CC0/CC-BY/public-domain version; cite the specific version quoted |
-| Early church fathers — post-apostolic tradition, what became of the apostles | `/Volumes/media/bible/reference/patristics/` (external, see below) | mixed: NPNF **open**, Apostolic Fathers Greek **unknown/restricted** | Quote NPNF freely with attribution; quote the Greek corpus briefly, never redistribute |
+| Deuterocanonical / extra-biblical books (Tobit, 1-2 Maccabees, Sirach, 1 Enoch, Jubilees…) | `open-data/scrollmapper-bible-databases-deuterocanonical` — **raw files only**, `sources/<lang>/<book>/<book>.{json,md}`. `build.py` deliberately skips these books, so they are **not** in `bible-text.db` and not reachable from `query.py` or the MCP tools | text: public domain by age (the English is the KJV Apocrypha rendering); the dataset itself carries no license file | Quote the text with attribution, naming it as the KJV Apocrypha. Cite as an **extra-biblical historical witness**, never as Scripture — and note the upstream README's framing of these books as "perfectly valid scripture" is not this site's position |
+| Early church fathers — post-apostolic tradition, what became of the apostles | `$BIBLE_MEDIA_ROOT/reference/patristics/` (external, see below) | mixed: NPNF **open**, Apostolic Fathers Greek **unknown/restricted** | Quote NPNF freely with attribution; quote the Greek corpus briefly, never redistribute |
 | Fee & Stuart methodology, Stevens word-study method | Locally-synthesized into the skill files themselves | n/a | Already rewritten in our own words — cite the skill, not the source, for the *method*; don't reproduce the original PDFs' text |
 | TWOT word-study entries | `references/build/twot/twot_strongs_map.json` (committed) for id/lemma/gloss; full discussion prose is local-only, uncommitted OCR work | ids/glosses: open-ish (bare facts); prose: quotation-only | Cite the TWOT root number and gloss freely; quote a sentence of discussion with attribution, don't reproduce a whole entry |
-| Commercial study-Bible commentary (ESV Study Bible, Cultural Backgrounds Study Bible, NIV Biblical Theology Study Bible, CSB Ancient Faith Study Bible, NA28 Greek NT) | `study-notes.db` (external, see above) | **quotation-only** | Quote a sentence or two with attribution in a study's References section; never reproduce a full note |
+| Commercial study Bibles and translations (ESV Study Bible, both Cultural Backgrounds Study Bibles, NIV Biblical Theology, CSB Ancient Faith, NLT Life Application, NLT Christian Basics, NASB 1995/2020, **LSB 2021**, NA28 Greek NT) | `study-notes.db` (external, see above) | **quotation-only** | Quote a sentence or two with attribution in a study's References section; never reproduce a full note. Per-work caps differ and are recorded in the db's `works.license` column — **read that column, don't recall the number**. The LSB's is the strictest: 1,000 verses / 50% of the quoting work, no complete book |
 
 Everything except "open" and "restricted-nc" in that table is **not committed to this repo**.
+
+### Keeping this table honest: `check_sources.py`
+
+This table is what the develop- and review-bible-study skills consult before concluding a source is
+unavailable, so when it falls behind what is actually on disk it produces confident wrong answers.
+That has happened twice: `scrollmapper-bible-databases-deuterocanonical` was added as a submodule
+and never documented, so a study asserted Tobit was unavailable while Tobit sat in
+`references/open-data/`; and `hebrew-vocab-tools` was ingested into `bible-text.db` and cited by the
+word-study skill while appearing nowhere here.
+
+```bash
+python3 references/check_sources.py          # from the repo root
+python3 references/check_sources.py --quiet  # only problems
+```
+
+It reports two things. **Undocumented** (exit 1) is a directory under `open-data/` or
+`restricted-data/` that this file never mentions — add a row. **raw-only** is a source that *is*
+documented but that `build.py` does not ingest, so `query.py` and the MCP tools cannot see it and it
+must be read as raw files; that list is currently `greek-resources`, `hebrew-lexicon`,
+`scrollmapper-bible-databases-deuterocanonical`, `stepbible-data`, `strongs`, `bhsa` and
+`mounce-dictionary`. Which ingests exist is read out of `build.py` itself, so adding one updates the
+check for free.
+
+### External material and `BIBLE_MEDIA_ROOT`
+
+**This repository is public.** Committed files should say what a source is and how much of it may be
+quoted; they should not publish the layout of anyone's disks. The commercial study-Bible EPUBs, the
+TWOT scans, the patristics corpus and the databases built from them live on an external volume whose
+location is a property of one machine, so every script resolves it through an environment variable
+rather than a hardcoded path:
+
+```bash
+export BIBLE_MEDIA_ROOT=/Volumes/media/bible   # the default if unset; .env is gitignored
+```
+
+`references/build/media_root.py` is the single place that resolves it, and supplies
+`local_only_build()`, `reference_dir()`, `bibles_dir()`, `resources_dir()`, `study_notes_db()` and
+`lexicon_restricted_db()`. Anything that will fail without the volume should call
+`require_media_root()` or `require_study_notes_db()` — the drive being unmounted is routine, and
+several study-state files record whole research sessions spent unaware it was silently absent.
+
+Paths in this file are written as `$BIBLE_MEDIA_ROOT/...` for that reason. Historical records —
+`references/study-state/*.yml` and `references/build/twot/PLAN_derivative_structure.md` — keep the
+absolute paths they were written with, because they are an audit trail of what happened, not
+configuration.
 
 ## bible-text.db — text, morphology, cross-references
 
@@ -115,14 +162,29 @@ cd references/build
 uv run python build_study_notes.py
 ```
 
-Writes to `/Volumes/media/bible/local-only-build/study-notes.db` — never anywhere under `bible_studies/`. See `references/build/study_notes/schema.sql` for tables (`works`, `verses`, `introductions`, `notes`, `topical_articles`, `images`). Sources are registered declaratively in `references/build/study_notes/sources.py` — currently ESV Study Bible, NIV Cultural Backgrounds Study Bible, NKJV Cultural Backgrounds Study Bible, NIV Biblical Theology Study Bible, CSB Ancient Faith Study Bible, the NA28 Greek NT (from the NA28-ESV parallel), NLT Life Application Study Bible, NLT Christian Basics Bible, and NASB 1995/2020. **Adding another source that fits an existing extractor family is a config entry in `sources.py`, not new code** — check `extractors/__init__.py` before writing a new parser. Four families exist: `numeric_id` (shared `BBCCCVVV` verse ids — ESV/NIV/NKJV/NA28), `anchor_walker` (`start-BookName.C.V` anchors — CSB), `dotted_id` (`vs-BookAbbrev.C.V` anchors plus self-contained note/cref/textnote wrapper divs — the two NLT epubs), and `positional_verse` (no ids at all, verse boundaries recovered from chapter headers and inline verse-number markup — NASB, a plain calibre-converted reflow with none of the other three epubs' semantic markup).
+Writes to `$BIBLE_MEDIA_ROOT/local-only-build/study-notes.db` — never anywhere under `bible_studies/`. See `references/build/study_notes/schema.sql` for tables (`works`, `verses`, `introductions`, `notes`, `topical_articles`, `images`). Sources are registered declaratively in `references/build/study_notes/sources.py` — currently ESV Study Bible, NIV Cultural Backgrounds Study Bible, NKJV Cultural Backgrounds Study Bible, NIV Biblical Theology Study Bible, CSB Ancient Faith Study Bible, the NA28 Greek NT (from the NA28-ESV parallel), NLT Life Application Study Bible, NLT Christian Basics Bible, NASB 1995/2020, and the Legacy Standard Bible (2021). **Adding another source that fits an existing extractor family is a config entry in `sources.py`, not new code** — check `extractors/__init__.py` before writing a new parser. Five families exist: `numeric_id` (shared `BBCCCVVV` verse ids — ESV/NIV/NKJV/NA28), `anchor_walker` (`start-BookName.C.V` anchors — CSB), `dotted_id` (`vs-BookAbbrev.C.V` anchors plus self-contained note/cref/textnote wrapper divs — the two NLT epubs), `positional_verse` (no ids at all, verse boundaries recovered from chapter headers and inline verse-number markup — NASB, a plain calibre-converted reflow with none of the other three epubs' semantic markup), and `jet_bible` (**not an EPUB at all** — a Microsoft Access/Jet database with flat `Bible` and `Footnotes` tables, as BibleShow-style `.bib` modules use; read via `mdb-export` from mdbtools, `brew install mdbtools`). A source whose extractor sets `needs_unzip = False` is handed its own file path instead of an unzipped tree.
 
 Query it the same way as `bible-text.db`, but pointed at the external path **and opened with
 `immutable=1`**:
 
 ```sql
-sqlite3 "file:/Volumes/media/bible/local-only-build/study-notes.db?immutable=1" \
+sqlite3 "file:$BIBLE_MEDIA_ROOT/local-only-build/study-notes.db?immutable=1" \
   "SELECT text FROM notes WHERE work_id='niv-cultural-backgrounds-study-bible' AND book='Mark' AND chapter=5 AND verse_start<=27 AND verse_end>=27;"
+```
+
+**`note_type` holds two different kinds of evidence — don't query them as one.** A `study_note`
+(~54,000) is the editors' commentary: a scholar's argued view, to be weighed against other scholars
+and quoted with attribution. A `footnote` (~22,000, two-thirds of them the LSB's) is the *translation
+committee's own record of a decision* — "Or X", "Lit Y", "Some mss omit Z", a measurement conversion,
+a note that a NT quotation departs from the OT it cites. That is much closer to primary evidence, and
+it is the half that had no method behind it until 2026-09: neither skill mentioned footnotes and no
+study had ever cited one. Both skills now say to pull them for a passage as a matter of course.
+
+```sql
+-- the translators' own notes at one verse, across every work that has them
+sqlite3 "file:$BIBLE_MEDIA_ROOT/local-only-build/study-notes.db?immutable=1" \
+  "SELECT work_id, text FROM notes WHERE note_type='footnote'
+     AND book='Song' AND chapter=8 AND verse_start<=6 AND verse_end>=6;"
 ```
 
 `immutable=1` is not optional cosmetics — **without it this fails under the agent sandbox** with
@@ -144,7 +206,7 @@ only. The `verses` table also holds each edition's full Bible text — including
 `bible-text.db`. This is the place to verify an ESV quotation instead of trusting recall:
 
 ```sql
-sqlite3 "file:/Volumes/media/bible/local-only-build/study-notes.db?immutable=1" \
+sqlite3 "file:$BIBLE_MEDIA_ROOT/local-only-build/study-notes.db?immutable=1" \
   "SELECT book||' '||chapter||':'||verse, text FROM verses WHERE work_id='esv-study-bible' AND book='John' AND chapter=6 AND verse BETWEEN 26 AND 27;"
 ```
 
@@ -161,7 +223,7 @@ These editions contain two legally distinct things, and the rules are not the sa
    rights for all of the content of the ESV Study Bible." For these, a short attributed quotation
    under fair use is the whole of what's available — which is where "a sentence or two" belongs.
 
-Verified against the permission notices in the epubs themselves (`/Volumes/media/bible/bibles/`), not
+Verified against the permission notices in the epubs themselves (`$BIBLE_MEDIA_ROOT/bibles/`), not
 from memory — the numbers are easy to misremember and one of these is commonly misquoted:
 
 | Translation | Verses without asking | Must not exceed | Also |
@@ -206,7 +268,7 @@ One structured-data file per study in progress, tracking exegesis/hermeneutics p
 
 ## Patristic texts (external, not in this repo)
 
-Held at `/Volumes/media/bible/reference/patristics/`, with a `PROVENANCE.md` recording source, date
+Held at `$BIBLE_MEDIA_ROOT/reference/patristics/`, with a `PROVENANCE.md` recording source, date
 retrieved, and licence tier per item. Added 2026-08-08 while reviewing the Twelve Apostles study set,
 which had been written with patristic claims recalled from memory rather than checked — exactly the
 failure mode the review skill exists to catch. Reader-facing companion page, with the reliability
@@ -275,7 +337,7 @@ These are commercially-sold or otherwise copyrighted works. The **source files t
 That doesn't mean these sources can't be *cited*. **They should be** — citing a restricted or copyrighted source by name, with attribution and a reasonably short quotation, is a normal and expected thing to do in a public study, not something to avoid. What copyright actually constrains: quoting *too much* of one source (a full paragraph or note, not a sentence or two) into a committed file, or citing without attribution. Every study should end with a **References & Recommended Reading** section (see the skill's Phase 7) naming every source actually drawn on — restricted/copyrighted ones by name included — so a reader can go find the fuller discussion themselves.
 
 - *How to Read the Bible for All Its Worth* (Fee & Stuart, 4th ed.) — the methodology behind the develop-bible-study skill. Source PDF + a full local markdown extraction live next to each other on the media volume, for personal reference only. The site's own public write-up of these principles, for readers rather than for the skill tooling, is [docs/content/bible/how-to-read-the-bible.md](../docs/content/bible/how-to-read-the-bible.md) — currently a draft stub, not yet fleshed out.
-- Gerald L. Stevens, "Word Study Guide — New Testament" (seminary course handout) — the methodology behind [word-study-method.md](../.claude/skills/develop-bible-study/word-study-method.md). Source PDF at `/Volumes/media/bible/resources/NTWordStudyGuide.pdf`; the skill file is an original synthesis of the method, not a reproduction.
+- Gerald L. Stevens, "Word Study Guide — New Testament" (seminary course handout) — the methodology behind [word-study-method.md](../.claude/skills/develop-bible-study/word-study-method.md). Source PDF at `$BIBLE_MEDIA_ROOT/resources/NTWordStudyGuide.pdf`; the skill file is an original synthesis of the method, not a reproduction.
 - *ESV Study Bible* (Crossway, 2016), *NIV Cultural Backgrounds Study Bible* and *NKJV Cultural Backgrounds Study Bible* (Zondervan, ed. John H. Walton & Craig S. Keener), *NIV Biblical Theology Study Bible* (Zondervan), *CSB Ancient Faith Study Bible* (Holman), *NLT Life Application Study Bible, Third Edition* (Tyndale House, 2019) and *NLT Christian Basics Bible* (Tyndale House, ed. Mike Beaumont & Martin Manser, 2017) — all queryable via `study-notes.db` above.
 - *NASB 1995 Update* and *NASB 2020 Text Edition* (The Lockman Foundation) — verse text only, no notes; queryable via `study-notes.db` for verification, but see the permissions table above before quoting directly (no stated threshold, unlike the study Bibles listed here).
 - Any other commentary consulted for a study should be recorded per-study in that study's `resources_consulted` field *and* named in the study's own References section — not duplicated here.

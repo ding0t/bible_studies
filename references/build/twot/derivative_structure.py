@@ -33,7 +33,9 @@ from twot.segmenter import (
     make_page_start_offsets, near_page_start, normalize,
 )
 
-PDF_PATH = Path("/Volumes/media/bible/reference/Theological Wordbook of the Old Testament.pdf")
+import media_root
+
+PDF_PATH = media_root.reference_dir() / "Theological Wordbook of the Old Testament.pdf"
 
 # Confirmed empirically across a book-wide page sample (front, mid, back of
 # the dictionary body): left-column line x0 clusters in ~40-130, right-column

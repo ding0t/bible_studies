@@ -12,11 +12,13 @@ from pathlib import Path
 
 import pymupdf
 
-SRC_PDF = Path("/Volumes/media/bible/reference/Theological Wordbook of the Old Testament.pdf")
+import media_root
+
+SRC_PDF = media_root.reference_dir() / "Theological Wordbook of the Old Testament.pdf"
 # 400 DPI confirmed to genuinely improve header-line recognition over 300 DPI
 # (verified on known-suspect pages); 600 DPI tested too but sometimes
 # regressed on the same pages, so 400 is the sweet spot, not "higher is better".
-OUT_DIR = Path("/Volumes/media/bible/local-only-build/twot-ocr-pages-400dpi")
+OUT_DIR = media_root.local_only_build() / "twot-ocr-pages-400dpi"
 DPI = 400
 WORKERS = 8
 

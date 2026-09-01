@@ -5,9 +5,11 @@ duplicating ~1GB of page text unnecessarily.
 """
 from pathlib import Path
 
-BASE_DIR = Path("/Volumes/media/bible/local-only-build/twot-ocr-pages-400dpi")
-OVERRIDE_DIR = Path("/Volumes/media/bible/local-only-build/twot-ocr-pages-600dpi-targeted")
-MERGED_DIR = Path("/Volumes/media/bible/local-only-build/twot-ocr-pages-merged")
+import media_root
+
+BASE_DIR = media_root.local_only_build() / "twot-ocr-pages-400dpi"
+OVERRIDE_DIR = media_root.local_only_build() / "twot-ocr-pages-600dpi-targeted"
+MERGED_DIR = media_root.local_only_build() / "twot-ocr-pages-merged"
 
 
 def main() -> None:

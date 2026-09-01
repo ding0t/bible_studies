@@ -11,9 +11,11 @@ from pathlib import Path
 
 import pymupdf
 
-SRC_PDF = Path("/Volumes/media/bible/reference/Theological Wordbook of the Old Testament.pdf")
-DB_PATH = Path("/Volumes/media/bible/local-only-build/lexicon-restricted.db")
-OUT_DIR = Path("/Volumes/media/bible/local-only-build/twot-ocr-pages-600dpi-targeted")
+import media_root
+
+SRC_PDF = media_root.reference_dir() / "Theological Wordbook of the Old Testament.pdf"
+DB_PATH = media_root.lexicon_restricted_db()
+OUT_DIR = media_root.local_only_build() / "twot-ocr-pages-600dpi-targeted"
 DPI = 600
 WORKERS = 8
 

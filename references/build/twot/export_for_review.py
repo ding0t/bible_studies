@@ -33,11 +33,13 @@ from twot.segmenter import (
     find_confirmed_initials,
 )
 
+import media_root
+
 BUILD_DIR = Path(__file__).resolve().parent
-DB_PATH = Path("/Volumes/media/bible/local-only-build/lexicon-restricted.db")
-GAP_TEXT_DIR = Path("/Volumes/media/bible/local-only-build/twot-ocr-pages-colsplit")
+DB_PATH = media_root.lexicon_restricted_db()
+GAP_TEXT_DIR = media_root.local_only_build() / "twot-ocr-pages-colsplit"
 TWOT_MAP_PATH = BUILD_DIR / "twot_strongs_map.json"
-OUT_PATH = Path("/Volumes/media/bible/reference/Theological Wordbook of the Old Testament -- extracted text (for review).md")
+OUT_PATH = media_root.reference_dir() / "Theological Wordbook of the Old Testament -- extracted text (for review).md"
 SRC_PDF_NAME = "Theological Wordbook of the Old Testament.pdf"
 
 CONFIDENCE_LABEL = {

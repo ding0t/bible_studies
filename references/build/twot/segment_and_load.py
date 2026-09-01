@@ -45,12 +45,14 @@ from datetime import date
 from difflib import SequenceMatcher
 from pathlib import Path
 
+import media_root
+
 BUILD_DIR = Path(__file__).resolve().parent
-OCR_DIR = Path("/Volumes/media/bible/local-only-build/twot-ocr-pages-400dpi")
-DB_PATH = Path("/Volumes/media/bible/local-only-build/lexicon-restricted.db")
+OCR_DIR = media_root.local_only_build() / "twot-ocr-pages-400dpi"
+DB_PATH = media_root.lexicon_restricted_db()
 TWOT_MAP_PATH = BUILD_DIR / "twot_strongs_map.json"
 SCHEMA_PATH = BUILD_DIR / "schema.sql"
-SRC_PDF_PATH = "/Volumes/media/bible/reference/Theological Wordbook of the Old Testament.pdf"
+SRC_PDF_PATH = str(media_root.reference_dir() / "Theological Wordbook of the Old Testament.pdf")
 
 CANDIDATE_RE = re.compile(r"(?:^|\s)(\d{1,4})\s*\S{0,20}?\s*\(([^)]{1,20})\)", re.MULTILINE)
 INITIALS_CANDIDATE_RE = re.compile(r"\b([A-Z]\.\s?[A-Z]\.\s?[A-Z]?\.?)\b")

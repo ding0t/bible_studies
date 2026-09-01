@@ -19,7 +19,9 @@ from study_notes.extractors import REGISTRY
 from study_notes.sources import SOURCES
 from study_notes.writer import write_work
 
-LOCAL_ONLY_ROOT = Path("/Volumes/media/bible/local-only-build")
+import media_root
+
+LOCAL_ONLY_ROOT = media_root.local_only_build()
 UNZIP_CACHE = LOCAL_ONLY_ROOT / "unzipped"
 IMAGES_ROOT = LOCAL_ONLY_ROOT / "images"
 DB_PATH = LOCAL_ONLY_ROOT / "study-notes.db"
@@ -47,9 +49,12 @@ def main() -> None:
             continue
 
         print(f"=== {config.work_id} ===")
-        unzipped = unzip_epub(config.epub_path, UNZIP_CACHE / config.work_id)
         extractor_cls = REGISTRY[config.extractor]
-        extractor = extractor_cls(config, unzipped, IMAGES_ROOT / config.work_id)
+        # Most sources are EPUBs that must be unzipped first; a single-file source (a Jet/Access
+        # module, say) declares needs_unzip = False and is handed its own path instead.
+        source_root = (unzip_epub(config.epub_path, UNZIP_CACHE / config.work_id)
+                       if extractor_cls.needs_unzip else config.epub_path)
+        extractor = extractor_cls(config, source_root, IMAGES_ROOT / config.work_id)
         result = extractor.extract()
 
         print(f"  verses={len(result.verses)} notes={len(result.notes)} "

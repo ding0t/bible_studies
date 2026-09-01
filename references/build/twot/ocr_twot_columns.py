@@ -17,8 +17,10 @@ import pymupdf
 
 from twot.column_detect import detect_column_split
 
-SRC_PDF = Path("/Volumes/media/bible/reference/Theological Wordbook of the Old Testament.pdf")
-OUT_DIR = Path("/Volumes/media/bible/local-only-build/twot-ocr-pages-colsplit")
+import media_root
+
+SRC_PDF = media_root.reference_dir() / "Theological Wordbook of the Old Testament.pdf"
+OUT_DIR = media_root.local_only_build() / "twot-ocr-pages-colsplit"
 DPI = 400
 WORKERS = 8
 

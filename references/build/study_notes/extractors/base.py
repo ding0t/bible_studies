@@ -30,6 +30,10 @@ class SourceConfig:
 
 
 class BaseExtractor(ABC):
+    # False for a source that is a single file rather than an EPUB tree (see jet_bible).
+    # build_study_notes.py checks this before trying to unzip.
+    needs_unzip = True
+
     def __init__(self, config: SourceConfig, unzipped_root: Path, image_dir: Path):
         self.config = config
         self.root = unzipped_root

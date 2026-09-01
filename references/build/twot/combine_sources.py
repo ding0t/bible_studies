@@ -22,8 +22,10 @@ from twot.segmenter import (
     segment_blockwalk, segment_derivative_anchored, split_entry_text, truncate_at_first_signoff,
 )
 
+import media_root
+
 BUILD_DIR = Path(__file__).resolve().parent
-LOCAL_ONLY = Path("/Volumes/media/bible/local-only-build")
+LOCAL_ONLY = media_root.local_only_build()
 SOURCES = {
     "colsplit": LOCAL_ONLY / "twot-ocr-pages-colsplit",   # column-aware, fixes the reading-order bug -- best single source
     "400dpi": LOCAL_ONLY / "twot-ocr-pages-400dpi",
@@ -32,7 +34,7 @@ SOURCES = {
 DB_PATH = LOCAL_ONLY / "lexicon-restricted.db"
 TWOT_MAP_PATH = BUILD_DIR / "twot_strongs_map.json"
 SCHEMA_PATH = BUILD_DIR / "schema.sql"
-SRC_PDF_PATH = "/Volumes/media/bible/reference/Theological Wordbook of the Old Testament.pdf"
+SRC_PDF_PATH = str(media_root.reference_dir() / "Theological Wordbook of the Old Testament.pdf")
 
 # preference order among equally-ranked results. "pdftext-derivatives" goes
 # first: same derivative-list-anchored approach as "colsplit-derivatives",

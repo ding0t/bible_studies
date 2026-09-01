@@ -9,7 +9,9 @@ from pathlib import Path
 from book_map import CSB_NAME_TO_OSIS, NASB_HEADER_TO_OSIS, SCROLLMAPPER_NAME_TO_OSIS, TYNDALE_ABBREV_TO_OSIS
 from study_notes.extractors.base import SourceConfig
 
-BIBLES_DIR = Path("/Volumes/media/bible/bibles")
+import media_root
+
+BIBLES_DIR = media_root.bibles_dir()
 
 SOURCES = [
     SourceConfig(
@@ -166,6 +168,31 @@ SOURCES = [
             "header_to_osis": NASB_HEADER_TO_OSIS,
             "license": "Same no-stated-threshold caveat as nasb-1995 above -- see that entry.",
             "attribution": "New American Standard Bible, 2020 Text Edition, The Lockman Foundation",
+        },
+    ),
+    SourceConfig(
+        work_id="lsb-2021",
+        epub_path=BIBLES_DIR / "LSB2021.bib",   # Jet/Access module, not an EPUB -- see jet_bible.py
+        title="Legacy Standard Bible",
+        publisher="The Lockman Foundation / Three Sixteen Publishing", year=2021,
+        license_tier="quotation-only",
+        extractor="jet_bible",
+        extra={
+            "license": (
+                "Copyrighted, The Lockman Foundation. Quoting guidelines (verified at "
+                "lsbible.org/permission-to-quote-the-lsb/, 2026-09-01): up to 1,000 verses in a "
+                "single work, not exceeding 50% of that work's total text, and no complete book of "
+                "the Bible. NOTE the storage clause -- 'nor may more than 1,000 verses be stored in "
+                "an electronic retrieval system' -- which is stricter than the other works here and "
+                "which this full-text ingest exceeds; retained as a local-only verification copy, "
+                "never redistributed, and never committed to the public repo."
+            ),
+            "attribution": (
+                "Scripture quotations taken from the (LSB\u00ae) Legacy Standard Bible\u00ae, "
+                "Copyright \u00a9 2021 by The Lockman Foundation. Used by permission. All rights "
+                "reserved. Managed in partnership with Three Sixteen Publishing Inc. LSBible.org "
+                "and 316publishing.com."
+            ),
         },
     ),
 ]
