@@ -5,7 +5,7 @@ description: "Master list of open-license Bible text, manuscript, lexicon, and c
 tags: ["github", "lang/hebrew", "lang/greek", "lexicon", "strongs", "manuscripts", "licensing"]
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-08-23
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -90,7 +90,8 @@ Listed so nothing gets silently dropped; pull one of these in when a study actua
 | `eng-web` | World English Bible (WEB) — full Bible | Public Domain (confirmed on-page) | AGENTS.md's preferred WEB translation, previously not actually present (scrollmapper's bundle only has the unrelated older "Webster"/"RWebster" PD translations, despite a stray empty `WEB.db` stub suggesting otherwise). |
 | `grcbrent` | Brenton Septuagint — actual Greek LXX text (verified by downloading and reading it directly, not just the license text — "Brenton" commonly implies his *English* translation, so this was worth checking) | Public Domain (confirmed on-page) | Fills a real gap: `GreekResources` above deliberately excludes LXX text because the CCAT source is restricted. `grclxx` (Orthodox Media Network) is a near-identical edition of the same text — skipped as redundant rather than forking both. |
 | `grc-tisch` | Tischendorf 8th ed. Greek New Testament — a third distinct NT critical-text lineage alongside SBLGNT (CC BY 4.0, above) and Byzantine/TR (via scrollmapper, restricted-nc) | Public Domain (confirmed on-page) | |
-| `heb` | Delitzsch Hebrew Bible — OT+NT translated into Hebrew | Public Domain (confirmed on-page) | Our first Hebrew New Testament text. Likely the same underlying translation as `scrollmapper-HebModern` (currently flagged `unknown` license in that fork) but independently confirmed PD here — worth reconciling later rather than assuming they match. |
+| `heb` | Delitzsch Hebrew Bible — OT+NT translated into Hebrew | Public Domain (confirmed on-page) | Our only Hebrew New Testament text. **Confirmed 2026-09-03 to be the same translation as `scrollmapper-HebModern`** — 31,101 of 31,102 verses are byte-identical — so the two work_ids are one text ingested twice, and this one is the copy with a confirmed public-domain licence. Delitzsch (1877) is a 19th-century translation *from the Greek*, not an ancient witness; see [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) before citing it as evidence of a Hebrew original. |
+| `hebsg` | Salkinson-Ginsburg Hebrew New Testament (1885, revised by Ginsburg 1886) | Public Domain (confirmed in eBible's catalog) | A **second, independent** Hebrew rendering of the Greek NT. Salkinson confined himself to vocabulary attested in the Tanakh and pointed his text; Delitzsch wrote unpointed in a more Mishnaic register, so the two differ in every verse. Like Delitzsch it is a 19th-century translation *from the Greek* — not a witness to a Hebrew original. |
 
 **Known data-quality caveats** (see `ingest_ebible()`'s own notes for full detail): some NT editions double-tag words (`\w` + non-standard `\ww`) or use USFM 3.0 `\w word|attr\w*` syntax the installed BibleOrgSys doesn't strip cleanly — handled with a regex pass before loading, verified against Rev 13:10 and John 3:16. LXX/deuterocanonical chapter-verse numbering can diverge from Masoretic/English versification (Psalms, Daniel, Esther especially) — don't assume `(book, chapter, verse)` lines up across works without checking.
 

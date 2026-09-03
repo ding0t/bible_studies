@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-09-01
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -25,6 +25,7 @@ Refer to an item by its number, e.g. "work on 4.1."
 | Ref | Topic | Section |
 |---|---|---|
 | [1.1](#11-extra-biblical-texts) | Extra-biblical texts | Scripture |
+| [1.2](#12-typed-scripture-links) | Typed scripture links | Scripture |
 | [2.1](#21-prophecy-and-jesus) | Prophecy and Jesus | Jesus |
 | [2.2](#22-priest-of-the-order-of-melchizedek) | Priest of the order of Melchizedek | Jesus |
 | [2.3](#23-jesus-attitude-toward-women) | Jesus' attitude toward women | Jesus |
@@ -52,15 +53,169 @@ Refer to an item by its number, e.g. "work on 4.1."
 - Dead Sea Scrolls
 - Early church fathers
 
-### 1.2 Cross reference graph.db
+### 1.2 Typed scripture links
 
-Produce a database that links scripture cross references in order to value add to the realisation of the integrated message of Scripture
+Scripture links to Scripture, and this site should be able to show that without borrowing anyone
+else's theology to do it. The goal is **not** a graph database of other people's cross-references —
+that data is already ingested and largely commoditised. The goal is to **type** the links by how
+they can be established, keep the objective classes separate from the opinion-based ones, and join
+them to the studies we've actually written, which is the one thing no other site can compute.
 
-- Generate or reuse scriptural cross references in a graph db to visualise themes across scripture
-- Grade weight of links — direct correlation through to loosely similar
-- Theme links
-- Use to correlate during study
-- Visualise
+**Already done — don't re-acquire.** The OpenBible.info set is in `bible-text.db` as
+`openbible-crossrefs` (via the `scrollmapper-bible-databases` submodule, `build.py`'s
+`ingest_scrollmapper_crossrefs`): 415,433 distinct directed edges, votes from −31 to 1,268, 28,956
+distinct source verses. It's agent-only today — `query.py crossref` and the MCP `bible_crossref`
+tool, at Phase 6 of develop-bible-study. No reader ever sees it. The only reader-facing scripture
+linking is `commentary_index.py`, which maps chapters to the studies citing them.
+
+#### Edge classes, ordered by how objectively each can be established
+
+The ordering is the point. An edge's class travels with it, and classes are **never summed into a
+single "strength" score** — that is exactly how one tradition's reading gets laundered as data.
+
+1. **Quotation** — the New Testament quoting the Old, verbatim or near enough. The most objective
+   class, and the one to build first: it is a *textual* judgement, not a theological one. Computable
+   as Greek n-gram overlap between `sblgnt` and the Brenton LXX (`ebible-grcbrent`), both already
+   ingested and both `open` tier. Worked example: Luke 4:18 reads
+   `Πνεῦμα κυρίου ἐπʼ ἐμέ, οὗ εἵνεκεν ἔχρισέν με εὐαγγελίσασθαι πτωχοῖς` against LXX Isaiah 61:1
+   `Πνεῦμα Κυρίου ἐπʼ ἐμὲ, οὗ εἵνεκε ἔχρισέν με, εὐαγγελίσασθαι πτωχοῖς` — near-verbatim.
+    - **The distinctive value-add is recording which text the quotation follows.** We hold the
+      Masoretic (`morphhb-wlc`, `macula-hebrew-wlc`) *and* the LXX *and* the Greek NT, so a
+      quotation edge can carry its Vorlage. That Luke follows the LXX rather than the Hebrew is a
+      real exegetical fact a study can use, and it isn't in any cross-reference list.
+    - **LXX coverage: resolved, and we already had the text.** The Brenton edition looked as
+      though it lacked Daniel, Esther and Nehemiah. It doesn't — the Greek canon just puts two of
+      them somewhere a USFM book code doesn't reveal, and the ingest was dropping them as
+      "deuterocanonical". Daniel ships as *Greek* Daniel (`DNG`, and it's **Theodotion** — the form
+      the NT generally quotes, confirmed at 1:3's Ἀσφανὲζ against the Old Greek's Ἀβιεσδρί), and
+      Nehemiah is the back half of 2 Esdras inside `EZR` chapters 11–23. Both are now ingested.
+    - **Daniel 9:24–27 aligns verse-for-verse with the WLC**, as do Daniel 1–2 and 5–12. Only
+      chapters 3 and 4 diverge, and they are one problem seen twice: Theodotion inserts the Song of
+      the Three after 3:23, and the chapter break then lands three verses late, so Greek Daniel
+      4:1–3 *is* WLC Daniel 3:31–33. Never compare those two chapters verse-for-verse.
+    - **Greek Esther is in too.** Its six additions ride on *lettered* sub-verses (1:1b–1s,
+      3:13a–g, 4:17a–x, 5:1a–2b, 8:12a–u, 10:3a–k) exactly so the numeric verses keep the Hebrew
+      numbering, so ingesting the numeric verses aligns eight of ten chapters with the WLC. The
+      additions themselves aren't in the database — `verses.verse` is `INTEGER` — and Esther 1
+      starts at verse 2, because Addition A's opening carries a plain numeric `1` that would
+      otherwise put Mordecai's dream at an address reading "in the days of Ahasuerus" everywhere
+      else. The LXX now holds all 39 protocanonical OT books.
+2. **Rare-lemma allusion** — two passages sharing a lemma that occurs only a handful of times in
+   the canon. Objectively gradeable by corpus frequency, and it surfaces allusions crowd-voting
+   misses. We have the lemmas already: `macula-hebrew-wlc` (475,911 words), `morphhb-wlc` (376,712),
+   `macula-greek-sblgnt` (137,741).
+    - **Works within a testament; blocked across one.** Hebrew and Greek lemmas don't join, and
+      Strong's H/G numbering doesn't bridge them. The pivot would be a lemmatised LXX, which we
+      don't have — Brenton is text-only. STEPBible's TAHOT/TAGNT files (`open-data/stepbible-data`,
+      CC-BY, currently raw-only) are the first place to look for that bridge. Until then,
+      cross-testament allusion is out of scope — and it's the case that matters most for a
+      promise-to-fulfilment reading, so it's the open question to resolve first.
+3. **Semantic-domain proximity** — Louw-Nida and SDBH domains, already sitting in
+   `morphology.domain_code`. This is how to get "theme links" without inventing a theme taxonomy.
+4. **Curated typological / dispensational links** — hand-authored in our own frontmatter. The
+   smallest class and the only one that is our own scholarship rather than someone else's data.
+   Always attributed as a reading, never presented as a computed fact.
+5. **Crowd cross-reference (OpenBible votes)** — kept, but ranked last and always labelled. Its
+   votes are consensus from a largely covenantal user base and will confidently weight
+   Israel-equals-church links this site doesn't hold; it's also KJV-versified, so expect drift at
+   the Psalm superscriptions, Joel 2/3 and Malachi 3/4. Useful as a lead to chase, not as evidence.
+
+#### Source data — state of play
+
+Cleared, in the order they were found — each one blocked something in the edge classes above:
+
+- **SBLGNT word separators.** All 7,939 verses were stored run-together (`Ἐνἀρχῇἦνὁλόγος`), because
+  the XML encodes the separator implicitly. Without it the Greek NT cannot be tokenised at all, so
+  the quotation class was dead on arrival. The reconstruction now reproduces the publisher's own
+  text edition exactly.
+- **The LXX's "missing" books.** Daniel, Esther and Nehemiah were on disk all along — Daniel as
+  Greek Daniel (Theodotion), Nehemiah inside 2 Esdras, Esther with its additions on lettered
+  sub-verses — and were being dropped as deuterocanonical. All 39 protocanonical OT books now.
+- **Duplicate verse rows.** 28,674 references carried two or three rows across 38 works, because
+  upstream ships each verse many times with differing whitespace. Now deduplicated at ingest and
+  enforced by a unique index.
+- **Versification.** `(book, chapter, verse)` means different things in different works. Joel,
+  Malachi, Daniel, Psalms, Proverbs and Jeremiah all disagree across schemes; `works.versification`
+  and `versification.py` now carry it, and the lookups align automatically.
+- **Style markers and translation-code resolution.** BibleOrgSys markers reached 47% of WEB verses;
+  and `WEB` resolved to a work that does not exist, so the default English lookup returned nothing.
+
+- **The LXX's own versification**, now derived rather than deferred. Jeremiah is reordered with an
+  identical chapter count, so it hides from any count-based check; it was found by a quotation
+  landing on the wrong chapter and then mapped chapter by chapter from the text itself — each
+  relocated chapter names the nation it is against, and proper nouns survive translation. Only
+  Jeremiah 30 resists, its sub-oracles being reordered *within* the chapter. The same pass turned
+  up two more chapter breaks nobody had noticed: Daniel 5/6 (where the LXX sides with the Hebrew,
+  having sided with the English at 3/4) and LXX Jeremiah 51's tail, which English prints as its
+  own chapter 45.
+
+Still open, both needing a source rather than a fix:
+
+- **A lemmatised LXX.** Deriving one from the annotated Greek NT covers **55.3%** of LXX tokens —
+  useful for confirming a specific lemma, but not enough for the rare-lemma allusion class, which
+  rests on corpus frequency and would be computing rarity against a broken denominator. Cross-
+  testament allusion stays out of scope until a real lemmatised LXX lands.
+Proverbs turned out to be mappable after all, once it was clear that Brenton preserves the Hebrew
+verse numbering and merely omits what the LXX lacks — a short chapter is an omission, not a
+renumbering. Six New Testament quotations confirm it, the Greek match and openbible's
+english-scheme cross-references independently naming the same reference for each.
+
+Quotation hits that cannot be expressed as English references are down to **2 of 968 (0.2%)** —
+both weak two-gram hits in Jeremiah 30, the one chapter whose sub-oracles the LXX reorders
+internally.
+
+#### One constraint on the generator
+
+**Threshold, never top-N, and sort deterministically.** The prototype capped candidates per verse
+at the best four, which looked harmless and was not: a score tie straddled that cut for 58 of 541
+verses, so which candidates survived depended on set iteration order and changed between runs, and
+the cap discarded 27% of qualifying pairs outright — including 32 quotations strong enough to carry
+an eight-token verbatim run. Keeping everything above the threshold and letting the grading rank it
+gives byte-identical output across runs and more real signal. This matters because the generator
+writes into committed content: a re-run that produces a different set makes every diff unreviewable
+and lets a cited edge vanish under someone's feet.
+
+#### Deliverables, in order — each one gated on the last proving out
+
+1. **Gap detector.** For a study, take `primary_passage` + `bible_references`, pull typed edges,
+   subtract what the study already cites, and report what the tradition connects that we never
+   mention. A `query.py` subcommand plus an MCP wrapper, consumed by review-bible-study. No
+   database, no visualisation, plain text output.
+2. **Test it on real studies** before building anything else. If it doesn't change a study, the
+   rest of this item isn't worth building.
+3. **Scripture-derived related studies.** Two studies are related when their passage sets are
+   densely linked — *even when they share no tag and never cite each other*. Emit a "Related by
+   passage" block through the same `<!-- ...auto-start/end -->` mechanism `commentary_index.py`
+   already uses. This is the integrated-message claim made concrete.
+4. **A reader-facing reference lookup** — see below.
+
+#### Surfacing it
+
+If this proves out it shouldn't stay buried in an agent tool. But the right surface is **not a
+second search box**: mkdocs-material's search already indexes prose and a competing one is a UX
+problem. What's genuinely missing is a **reference resolver** — enter or click *Isaiah 61:1* and get
+(a) which studies treat it, (b) its typed links, each labelled by class. Site search can't do that,
+because it indexes words rather than references.
+
+- Build it the way the timeline and genealogy already work: a static JSON index emitted at build
+  time (the `build-events.js` pattern), mounted as a React page from `app/src/entries/`. No server.
+- **Scope the shipped index to our own passages and their immediate neighbourhood**, not 415k edges.
+- **Licence constraint:** any verse text rendered in the browser must be WEB or another `open` work.
+  ESV/NIV/NKJV/CSB live in `study-notes.db` under `quotation-only` and never ship to the client.
+
+#### Prerequisite
+
+Only 46 of 102 content pages carry `primary_passage` and 49 carry `bible_references`. Every step
+above is bounded by that coverage, so filling it in is the cheapest first move — and it improves the
+existing commentary index immediately.
+
+#### Explicitly not doing
+
+- A force-directed whole-canon graph. 415k edges renders as a hairball, and OpenBible already
+  publishes the arc diagram.
+- A graph database. At this scale SQLite with an `edge_type` column is sufficient; a graph store
+  would have to earn its place later.
+- A hand-built theme taxonomy, when semantic domains and the existing tag facets already exist.
 
 ## 2. Jesus
 

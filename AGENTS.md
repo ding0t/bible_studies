@@ -133,7 +133,8 @@ uv sync
 uv run python build.py             # builds out/bible-text.db (gitignored, regenerable)
 uv run pytest                      # completeness / query-diagnostics / syntax checks against out/bible-text.db
 uv run pytest tests/test_syntax.py # single suite (pythonpath is set in pyproject.toml — run from references/build)
-uv run python query.py --help      # word / concordance / verse / passage / cross-ref lookups
+uv run python query.py --help      # word / concordance / verse / passage / cross-ref / align / parallel / scripture-link lookups
+uv run python study_gaps.py docs/content/<study>.md   # what links to a study's passages that it never cites
 uv run python twot_lookup.py --help
 uv run python commentary_index.py  # regenerate auto cross-ref pages — run after editing a study's bible_references/primary_passage
 uv run python section_index.py     # regenerate category landing pages — run after adding a study or new content section
