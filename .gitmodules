@@ -37,3 +37,6 @@
 [submodule "references/open-data/macula-hebrew"]
 	path = references/open-data/macula-hebrew
 	url = https://github.com/ding0t/macula-hebrew.git
+[submodule "references/restricted-data/dss"]
+	path = references/restricted-data/dss
+	url = https://github.com/ding0t/dss.git

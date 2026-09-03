@@ -24,6 +24,8 @@ import argparse
 import sqlite3
 from pathlib import Path
 
+import quotations
+import versification
 from book_map import NUM_TO_OSIS
 
 DB_PATH = Path(__file__).resolve().parent / "out" / "bible-text.db"
@@ -42,12 +44,28 @@ def connect() -> sqlite3.Connection:
     return conn
 
 
-def _resolve_work_id(translation: str | None) -> str:
+def _resolve_work_id(conn: sqlite3.Connection, translation: str | None) -> str:
+    """A translation code or work_id -> the work_id actually in the database.
+
+    Resolved against `works` rather than by string convention. Guessing "scrollmapper-{code}"
+    silently returned nothing for the five codes that live under a different prefix -- WEB among
+    them, which is this repo's default English text: every lookup_verse(..., 'WEB') came back
+    empty while the text sat in ebible-eng-web.
+    """
     if not translation:
         return DEFAULT_TRANSLATION_WORK_ID
-    if translation.startswith(("scrollmapper-", "ebible-")):
+    if conn.execute("SELECT 1 FROM works WHERE work_id=?", (translation,)).fetchone():
         return translation
-    return f"scrollmapper-{translation}"
+    # by translation_code, preferring a work that actually carries verses, then an open licence
+    rows = conn.execute(
+        "SELECT w.work_id FROM works w LEFT JOIN verses v ON v.work_id = w.work_id "
+        "WHERE w.translation_code = ? COLLATE NOCASE "
+        "GROUP BY w.work_id ORDER BY COUNT(v.rowid) = 0, w.license_tier != 'open', w.work_id",
+        (translation,),
+    ).fetchall()
+    if rows:
+        return rows[0]["work_id"]
+    return f"scrollmapper-{translation}"  # unknown: let _empty_result_reason explain it
 
 
 # ---------------------------------------------------------------------------
@@ -70,15 +88,35 @@ def _empty_result_reason(conn: sqlite3.Connection, work_id: str, book: str) -> s
                 f"that book (check bible_works), or try a different translation.")
     return f"{book} exists in {work_id}, but not at the chapter/verse given -- check the reference."
 
+# Strong's numbers are stored bare (schema.sql explains why), so G1242 and H1242 are the same
+# string in the table -- diatheke and boqer, "covenant" and "morning". A prefixed query therefore
+# has to filter by the work's language or it silently mixes the testaments' numbering. The
+# collision was always there; adding 566k Strong's-tagged Septuagint rows made it loud.
+_STRONGS_LANGUAGES = {"G": ("grc",), "H": ("heb", "hbo")}
+
+
+def _strongs_filter(strongs: str) -> tuple[str, list]:
+    """(extra SQL, params) restricting a Strong's lookup to the language its prefix names."""
+    languages = _STRONGS_LANGUAGES.get(strongs[:1].upper()) if strongs[:1].isalpha() else None
+    if not languages:
+        return "", []
+    placeholders = ",".join("?" * len(languages))
+    return (f" AND work_id IN (SELECT work_id FROM works WHERE language IN ({placeholders}))",
+            list(languages))
+
+
 def lookup_word(conn: sqlite3.Connection, strongs: str | None = None, lemma: str | None = None,
                  book: str | None = None) -> list[dict]:
     """Every occurrence of a Strong's number or lemma, across the Greek/Hebrew morphology sources."""
     if not strongs and not lemma:
         raise ValueError("word lookup needs strongs or lemma")
     where, params = [], []
+    language_sql = ""
     if strongs:
         where.append("strongs_id = ?")
         params.append(strongs.lstrip("GH"))
+        language_sql, language_params = _strongs_filter(strongs)
+        params.extend(language_params)
     if lemma:
         where.append("lemma = ?")
         params.append(lemma)
@@ -87,7 +125,8 @@ def lookup_word(conn: sqlite3.Connection, strongs: str | None = None, lemma: str
         params.append(book)
     rows = conn.execute(
         f"SELECT work_id, book, chapter, verse, surface_form, lemma, strongs_id, gloss, domain_code "
-        f"FROM morphology WHERE {' AND '.join(where)} ORDER BY work_id, book, chapter, verse",
+        f"FROM morphology WHERE {' AND '.join(where)}{language_sql} "
+        f"ORDER BY work_id, book, chapter, verse",
         params,
     ).fetchall()
     return [dict(r) for r in rows]
@@ -98,6 +137,8 @@ def lookup_concordance(conn: sqlite3.Connection, strongs: str, book: str | None 
     """Every occurrence of one Strong's number -- the word-study-method.md 'concord across
     the corpus' step, without hand-writing the GROUP BY each time."""
     where, params = ["strongs_id = ?"], [strongs.lstrip("GH")]
+    language_sql, language_params = _strongs_filter(strongs)
+    params.extend(language_params)
     if book:
         where.append("book = ?")
         params.append(book)
@@ -105,8 +146,8 @@ def lookup_concordance(conn: sqlite3.Connection, strongs: str, book: str | None 
         where.append("work_id = ?")
         params.append(work_id)
     rows = conn.execute(
-        f"SELECT work_id, book, chapter, verse, gloss FROM morphology WHERE {' AND '.join(where)} "
-        f"ORDER BY work_id, book, chapter, verse",
+        f"SELECT work_id, book, chapter, verse, gloss FROM morphology "
+        f"WHERE {' AND '.join(where)}{language_sql} ORDER BY work_id, book, chapter, verse",
         params,
     ).fetchall()
     return [dict(r) for r in rows]
@@ -184,30 +225,69 @@ def lookup_syntax(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
     return result
 
 
+def _work_scheme(conn: sqlite3.Connection, work_id: str) -> str:
+    row = conn.execute("SELECT versification FROM works WHERE work_id=?", (work_id,)).fetchone()
+    return row["versification"] if row else "english"
+
+
+def _aligned_refs(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
+                   from_scheme: str) -> dict[str, tuple[str, int, int]]:
+    """This reference expressed in every versification scheme present in the database. A scheme is
+    absent from the result when it has no counterpart for the verse (LXX Psalm 151, say)."""
+    schemes = [r[0] for r in conn.execute("SELECT DISTINCT versification FROM works")]
+    resolved = {}
+    for scheme in schemes:
+        ref = versification.align(book, chapter, verse, from_scheme, scheme)
+        if ref is not None:
+            resolved[scheme] = ref
+    return resolved
+
+
 def lookup_verse(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
                   translation: str | None = None) -> dict[str, object]:
     """Translation text plus every morphology row and note for one verse -- the single most
     common per-verse lookup when drafting a study."""
-    work_id = _resolve_work_id(translation)
+    work_id = _resolve_work_id(conn, translation)
+    scheme = _work_scheme(conn, work_id)
     verse_row = conn.execute(
         "SELECT text FROM verses WHERE work_id=? AND book=? AND chapter=? AND verse=?",
         (work_id, book, chapter, verse),
     ).fetchone()
-    morph_rows = conn.execute(
-        "SELECT work_id, word_position, surface_form, lemma, strongs_id, gloss, domain_code FROM morphology "
-        "WHERE book=? AND chapter=? AND verse=? ORDER BY work_id, word_position",
-        (book, chapter, verse),
-    ).fetchall()
-    notes = conn.execute(
-        "SELECT work_id, text FROM notes WHERE book=? AND chapter=? AND verse=?",
-        (book, chapter, verse),
-    ).fetchall()
+
+    # The reference is read in the requested work's own scheme, so morphology and notes have to be
+    # fetched at whatever that verse is called in THEIR scheme. Querying them at the caller's
+    # numbers silently pairs an English verse with a different Hebrew one: ask for Joel 3:1 in an
+    # English work and the unaligned query returns the morphology of Hebrew Joel 3:1, which is
+    # English Joel 2:28 -- the Acts 2 verse, not the one asked for.
+    aligned = _aligned_refs(conn, book, chapter, verse, scheme)
+    morph_rows, notes = [], []
+    for other_scheme, (a_book, a_chapter, a_verse) in aligned.items():
+        morph_rows += conn.execute(
+            "SELECT m.work_id, m.word_position, m.surface_form, m.lemma, m.strongs_id, m.gloss, "
+            "m.domain_code FROM morphology m JOIN works w ON w.work_id = m.work_id "
+            "WHERE w.versification=? AND m.book=? AND m.chapter=? AND m.verse=? "
+            "ORDER BY m.work_id, m.word_position",
+            (other_scheme, a_book, a_chapter, a_verse),
+        ).fetchall()
+        notes += conn.execute(
+            "SELECT n.work_id, n.text FROM notes n JOIN works w ON w.work_id = n.work_id "
+            "WHERE w.versification=? AND n.book=? AND n.chapter=? AND n.verse=?",
+            (other_scheme, a_book, a_chapter, a_verse),
+        ).fetchall()
+
     result = {
         "book": book, "chapter": chapter, "verse": verse, "work_id": work_id,
+        "versification": scheme,
         "text": verse_row["text"] if verse_row else None,
         "morphology": [dict(r) for r in morph_rows],
         "notes": [dict(r) for r in notes],
     }
+    # only worth reporting when the reference actually moves
+    realigned = {s: r for s, r in aligned.items() if s != scheme and r != (book, chapter, verse)}
+    if realigned:
+        result["aligned_references"] = {
+            s: f"{b} {c}:{v}" for s, (b, c, v) in realigned.items()
+        }
     if verse_row is None:
         result["warning"] = _empty_result_reason(conn, work_id, book)
     return result
@@ -219,7 +299,7 @@ def lookup_passage(conn: sqlite3.Connection, book: str, chapter: int, verse_star
     """Translation text for a verse range -- for studying a pericope without N separate
     verse lookups. Text only unless include_notes is set, to keep the common case cheap."""
     end_chapter = end_chapter or chapter
-    work_id = _resolve_work_id(translation)
+    work_id = _resolve_work_id(conn, translation)
     rows = conn.execute(
         "SELECT chapter, verse, text FROM verses WHERE work_id=? AND book=? AND "
         "(chapter > ? OR (chapter = ? AND verse >= ?)) AND "
@@ -247,9 +327,18 @@ def lookup_passage(conn: sqlite3.Connection, book: str, chapter: int, verse_star
 
 
 def lookup_crossref(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
-                     min_votes: int = 0, limit: int = 20) -> list[dict]:
+                     min_votes: int = 0, limit: int = 20, from_scheme: str = "english") -> list[dict]:
     """Cross-references for one verse (OpenBible.info / TSK-style data), highest-voted
-    first -- the Phase 6 'gather cross-references' step without hand SQL."""
+    first -- the Phase 6 'gather cross-references' step without hand SQL.
+
+    The cross-reference data is numbered in the english scheme, so a reference read off a Hebrew
+    or Septuagint text has to be aligned first: pass from_scheme='masoretic' for Joel 3:1 out of
+    the WLC and you get the links for english Joel 2:28, which is the verse it actually is.
+    """
+    aligned = versification.align(book, chapter, verse, from_scheme, "english")
+    if aligned is None:
+        return []
+    book, chapter, verse = aligned
     rows = conn.execute(
         "SELECT DISTINCT to_book, to_chapter, to_verse_start, to_verse_end, votes, work_id "
         "FROM cross_references WHERE from_book=? AND from_chapter=? AND from_verse=? AND votes >= ? "
@@ -257,6 +346,150 @@ def lookup_crossref(conn: sqlite3.Connection, book: str, chapter: int, verse: in
         (book, chapter, verse, min_votes, limit),
     ).fetchall()
     return [dict(r) for r in rows]
+
+
+def _chapter_verse_count(conn: sqlite3.Connection, work_id: str, book: str, chapter: int) -> int | None:
+    row = conn.execute(
+        "SELECT COUNT(*) n FROM verses WHERE work_id=? AND book=? AND chapter=?", (work_id, book, chapter)
+    ).fetchone()
+    return row["n"] or None
+
+
+def lookup_parallel(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
+                     source: str | None = None, target: str | None = None) -> dict[str, object]:
+    """The same verse in another work, aligned in both directions a reference can move.
+
+    versification.align() handles the chapter, which is a property of the scheme. The verse needs
+    a second step it cannot do: Hebrew and Greek count a psalm's superscription as verse 1 and most
+    English editions don't, and whether a given edition does is a per-digitisation choice rather
+    than a scheme rule -- scrollmapper-KJV counts them, ebible-eng-web doesn't. So the offset is
+    MEASURED between the two works actually named, from the verse counts already in the database.
+
+    Validated against 60 New Testament quotations of the Psalms, anchored independently on both the
+    Greek (NT against the LXX) and the English (NT against an English psalter): the measured offset
+    reproduces the true verse in every one. Without it, Hebrews 10:5's source resolved to LXX Psalm
+    39:6 when the verse it quotes is 39:7.
+    """
+    src = _resolve_work_id(conn, source)
+    tgt = _resolve_work_id(conn, target)
+    aligned = versification.align(book, chapter, verse,
+                                  _work_scheme(conn, src), _work_scheme(conn, tgt))
+    result: dict[str, object] = {
+        "source": f"{book} {chapter}:{verse}", "source_work": src, "target_work": tgt,
+    }
+    if aligned is None:
+        result["warning"] = f"{tgt} has no counterpart for {book} {chapter}:{verse}"
+        return result
+    a_book, a_chapter, a_verse = aligned
+
+    src_n = _chapter_verse_count(conn, src, book, chapter)
+    tgt_n = _chapter_verse_count(conn, tgt, a_book, a_chapter)
+    offset = versification.superscription_offset(src_n, tgt_n)
+    if offset:
+        result["verse_offset"] = offset
+    a_verse -= offset
+
+    row = conn.execute(
+        "SELECT text FROM verses WHERE work_id=? AND book=? AND chapter=? AND verse=?",
+        (tgt, a_book, a_chapter, a_verse),
+    ).fetchone()
+    result["target"] = f"{a_book} {a_chapter}:{a_verse}"
+    result["text"] = row["text"] if row else None
+    if row is None:
+        result["warning"] = _empty_result_reason(conn, tgt, a_book)
+    return result
+
+
+# Which scheme each class's to_* references are numbered in, so a query reference can be aligned
+# into it before lookup. Callers give a reference as an English Bible numbers it.
+LINK_TARGET_SCHEME = {
+    "quotation-greek": "lxx",
+    "inner-biblical": "masoretic",
+    "quotation-hebrew": "masoretic",
+    "allusion-lemma": "lxx",
+}
+
+
+def lookup_links(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
+                  link_type: str | None = None, min_run: int = 0,
+                  from_scheme: str = "english") -> dict[str, object]:
+    """Every derived link at one reference, in both directions, grouped by class.
+
+    The classes are not equivalent evidence and are never merged:
+
+      quotation-greek   the New Testament quoting the Septuagint. A textual fact -- author and
+                        translator were writing the same language.
+      inner-biblical    the Hebrew Old Testament quoting itself. Equally textual, and with no
+                        translation standing between the two sides.
+      quotation-hebrew  a Hebrew New Testament matching the Hebrew Old Testament. CANDIDATES: those
+                        are 19th-century translations, so a match means a Hebraist judged this to be
+                        a quotation. It catches quotations the Greek misses, where the New Testament
+                        follows the Hebrew rather than the Septuagint -- verify in Greek before
+                        relying on one.
+      allusion-lemma    shared RARE vocabulary between the Septuagint and the Greek New Testament,
+                        with no shared phrasing required. Scored on `idf_overlap` (summed rarity),
+                        not on alignment, which is 0 for this class by construction. It reaches
+                        what quotation matching cannot -- Revelation 21:20's jewels against Ezekiel
+                        28:13 -- and because the lemma files cover the deuterocanon it surfaces
+                        allusions to Wisdom and Sirach that no cross-reference list carries.
+
+    Grade by `longest_run`, the longest contiguous shared token run; 8 or more reads as quotation.
+    `corroborated` means openbible's cross-references independently name the same passage, and a
+    strong run WITHOUT it is a link the tradition missed rather than a weak result.
+    """
+    wanted = [link_type] if link_type else list(LINK_TARGET_SCHEME)
+    out: dict[str, list] = {}
+    into: dict[str, list] = {}
+    aligned_as: dict[str, str] = {}
+
+    for kind in wanted:
+        out[kind] = [dict(r) for r in conn.execute(
+            "SELECT to_book, to_chapter, to_verse, to_english_chapter, to_english_verse, "
+            "shared_ngrams, containment, longest_run, alignment, idf_overlap, corroborated "
+            "FROM scripture_links "
+            "WHERE link_type=? AND from_book=? AND from_chapter=? AND from_verse=? AND longest_run>=? "
+            "ORDER BY alignment DESC, idf_overlap DESC, to_book, to_chapter, to_verse",
+            (kind, book, chapter, verse, min_run))]
+
+        target = versification.align(book, chapter, verse, from_scheme, LINK_TARGET_SCHEME[kind])
+        if target is None:
+            into[kind] = []
+            continue
+        aligned_as[kind] = f"{target[0]} {target[1]}:{target[2]}"
+        into[kind] = [dict(r) for r in conn.execute(
+            "SELECT from_book, from_chapter, from_verse, shared_ngrams, containment, longest_run, "
+            "alignment, idf_overlap, corroborated FROM scripture_links "
+            "WHERE link_type=? AND to_book=? AND to_chapter=? AND to_verse=? AND longest_run>=? "
+            "ORDER BY alignment DESC, idf_overlap DESC, from_book, from_chapter, from_verse",
+            (kind, *target, min_run))]
+
+    return {
+        "reference": f"{book} {chapter}:{verse}",
+        "aligned_as": aligned_as,
+        "quotation_run_threshold": quotations.QUOTATION_RUN,
+        "links_from": {k: v for k, v in out.items() if v},
+        "links_to": {k: v for k, v in into.items() if v},
+    }
+
+
+def lookup_alignment(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
+                      from_scheme: str = "english") -> dict[str, object]:
+    """One reference expressed in every versification scheme in the database, with the works that
+    use each. The check to run before comparing a Hebrew or Greek verse against an English one."""
+    refs = _aligned_refs(conn, book, chapter, verse, from_scheme)
+    schemes = {}
+    for scheme in versification.SCHEMES:
+        works = [r["work_id"] for r in conn.execute(
+            "SELECT work_id FROM works WHERE versification=? ORDER BY work_id", (scheme,))]
+        if not works:
+            continue
+        ref = refs.get(scheme)
+        schemes[scheme] = {
+            "reference": f"{ref[0]} {ref[1]}:{ref[2]}" if ref else None,
+            "work_count": len(works),
+            "example_works": works[:4],
+        }
+    return {"query": f"{book} {chapter}:{verse}", "from_scheme": from_scheme, "schemes": schemes}
 
 
 def list_works(conn: sqlite3.Connection) -> list[dict]:
@@ -388,8 +621,56 @@ def cmd_passage(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
         print(f"\n  -- note {n['chapter']}:{n['verse']} ({n['work_id']}) --\n  {n['text']}")
 
 
+def cmd_quotations(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    r = lookup_links(conn, args.book, args.chapter, args.verse,
+                     link_type=args.type, min_run=args.min_run)
+    print(f"{r['reference']}\n")
+    labels = {"quotation-greek": "quotes (Greek, New Testament -> Septuagint)",
+              "inner-biblical": "quotes (Hebrew, within the Old Testament)",
+              "quotation-hebrew": "matches a Hebrew New Testament -- CANDIDATES, verify in Greek",
+              "allusion-lemma": "shares rare vocabulary with (allusion, not quotation)"}
+    for kind, rows in r["links_from"].items():
+        print(f"  {labels[kind]}:")
+        for q in rows:
+            eng = (f" = {q['to_book']} {q['to_english_chapter']}:{q['to_english_verse']}"
+                   if q["to_english_chapter"] else "")
+            strength = (f"rarity={q['idf_overlap']:5.1f}" if kind == "allusion-lemma"
+                        else f"align={q['alignment']:3d} run={q['longest_run']:2d}")
+            print(f"   {'*' if q['corroborated'] else ' '} {q['to_book']} {q['to_chapter']}:"
+                  f"{q['to_verse']}{eng}   {strength} containment={q['containment']:.2f}")
+    for kind, rows in r["links_to"].items():
+        print(f"  quoted by ({kind}):")
+        for q in rows:
+            print(f"   {'*' if q['corroborated'] else ' '} {q['from_book']} {q['from_chapter']}:"
+                  f"{q['from_verse']}   align={q['alignment']:3d} run={q['longest_run']:2d}"
+                  f" containment={q['containment']:.2f}")
+    if not r["links_from"] and not r["links_to"]:
+        print("  no link found")
+    else:
+        print("\n  * corroborated by openbible cross-references")
+
+
+def cmd_parallel(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    r = lookup_parallel(conn, args.book, args.chapter, args.verse, args.source, args.target)
+    shift = f"  (verse offset {r['verse_offset']:+d})" if "verse_offset" in r else ""
+    print(f"{r['source']} ({r['source_work']})  ->  {r.get('target', '--')} ({r['target_work']}){shift}\n")
+    if r.get("text"):
+        print(f"  {r['text']}")
+    if r.get("warning"):
+        print(f"  warning: {r['warning']}")
+
+
+def cmd_align(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    result = lookup_alignment(conn, args.book, args.chapter, args.verse, args.from_scheme)
+    print(f"{result['query']} (given as {result['from_scheme']})\n")
+    for scheme, info in result["schemes"].items():
+        ref = info["reference"] or "-- no counterpart --"
+        print(f"  {scheme:<10} {ref:<16} {info['work_count']} works, e.g. {', '.join(info['example_works'])}")
+
+
 def cmd_crossref(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
-    rows = lookup_crossref(conn, args.book, args.chapter, args.verse, min_votes=args.min_votes, limit=args.limit)
+    rows = lookup_crossref(conn, args.book, args.chapter, args.verse, min_votes=args.min_votes,
+                           limit=args.limit, from_scheme=args.from_scheme)
     if not rows:
         print("No cross-references found.")
         return
@@ -458,7 +739,35 @@ def main() -> None:
     p_xref.add_argument("verse", type=int)
     p_xref.add_argument("--min-votes", type=int, default=0, help="filter out low-confidence links")
     p_xref.add_argument("--limit", type=int, default=20)
+    p_xref.add_argument("--from-scheme", default="english", choices=versification.SCHEMES,
+                        help="scheme the reference is given in (default: english)")
     p_xref.set_defaults(func=cmd_crossref)
+
+    p_quot = sub.add_parser("quotations", help="What this verse quotes, and who quotes it")
+    p_quot.add_argument("book", help="OSIS book code, e.g. Heb")
+    p_quot.add_argument("chapter", type=int)
+    p_quot.add_argument("verse", type=int)
+    p_quot.add_argument("--min-run", type=int, default=0,
+                        help="drop pairs below this verbatim token run (8 = quotation)")
+    p_quot.add_argument("--type", choices=sorted(LINK_TARGET_SCHEME),
+                        help="restrict to one link class (default: all three)")
+    p_quot.set_defaults(func=cmd_quotations)
+
+    p_par = sub.add_parser("parallel", help="The same verse in another work, chapter- and verse-aligned")
+    p_par.add_argument("book", help="OSIS book code, e.g. Ps")
+    p_par.add_argument("chapter", type=int)
+    p_par.add_argument("verse", type=int)
+    p_par.add_argument("--source", help="translation the reference is given in (default: WEB)")
+    p_par.add_argument("--target", required=True, help="translation to find it in")
+    p_par.set_defaults(func=cmd_parallel)
+
+    p_align = sub.add_parser("align", help="One reference as each versification scheme numbers it")
+    p_align.add_argument("book", help="OSIS book code, e.g. Joel")
+    p_align.add_argument("chapter", type=int)
+    p_align.add_argument("verse", type=int)
+    p_align.add_argument("--from-scheme", default="english", choices=versification.SCHEMES,
+                         help="scheme the reference is given in (default: english)")
+    p_align.set_defaults(func=cmd_align)
 
     p_works = sub.add_parser("works", help="List every ingested source and its license tier")
     p_works.set_defaults(func=cmd_works)

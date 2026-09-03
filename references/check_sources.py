@@ -63,10 +63,15 @@ def ingested_dirs() -> set[str]:
     `scrollmapper-ASV`, `scrollmapper-YLT` and forty more), so name-matching produced ten false
     positives out of twelve. Parsing the one place that states the relationship means adding an
     ingest to build.py updates this check for free.
+
+    Both source trees count. The check originally looked only for OPEN_DATA, which was true when
+    it was written and stopped being true the moment a restricted-nc source was ingested -- the
+    Dead Sea Scrolls then reported as raw-only while being fully queryable.
     """
     if not BUILD_PY.is_file():
         return set()
-    return set(re.findall(r'OPEN_DATA / "([a-z0-9-]+)"', BUILD_PY.read_text(encoding="utf-8")))
+    source = BUILD_PY.read_text(encoding="utf-8")
+    return set(re.findall(r'(?:OPEN_DATA|RESTRICTED_DATA) / "([a-z0-9-]+)"', source))
 
 
 def main() -> int:

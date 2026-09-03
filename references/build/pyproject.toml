@@ -9,6 +9,7 @@ dependencies = [
     "numpy>=2.5.1",
     "pymupdf>=1.28.0",
     "pyyaml>=6.0.3",
+    "text-fabric>=13.1.0",
 ]
 
 [dependency-groups]

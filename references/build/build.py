@@ -5,7 +5,10 @@ Contains ALL license tiers (open / restricted-nc / unknown) with heritage
 metadata per work; tier filtering happens at export time (see export.py),
 not here.
 """
+import collections
 import csv
+import json
+import math
 import re
 import sqlite3
 import subprocess
@@ -18,10 +21,14 @@ from xml.etree import ElementTree
 
 import yaml
 
-from book_map import BOS_CODE_TO_USFM, MACULA_USFM_TO_OSIS, SCROLLMAPPER_NAME_TO_OSIS
+from book_map import BOS_CODE_TO_USFM, MACULA_USFM_TO_OSIS, NUM_TO_OSIS, SCROLLMAPPER_NAME_TO_OSIS
+import quotations
+import versification
+from versification import scheme_for_work
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 OPEN_DATA = REPO_ROOT / "references" / "open-data"
+RESTRICTED_DATA = REPO_ROOT / "references" / "restricted-data"
 BUILD_DIR = Path(__file__).resolve().parent
 OUT_DIR = BUILD_DIR / "out"
 DB_PATH = OUT_DIR / "bible-text.db"
@@ -32,12 +39,18 @@ with open(BUILD_DIR / "license_map.yml") as f:
     LICENSE_MAP = yaml.safe_load(f)
 
 
-def submodule_commit(name: str) -> str:
+def submodule_commit_at(rel_path: str) -> str:
+    """Pinned commit of a submodule, by its path from the repo root. Sources live under two trees
+    -- open-data/ and restricted-data/ -- and the tree a source sits in is the license boundary."""
     result = subprocess.run(
-        ["git", "-C", str(REPO_ROOT), "submodule", "status", f"references/open-data/{name}"],
+        ["git", "-C", str(REPO_ROOT), "submodule", "status", rel_path],
         capture_output=True, text=True, check=True,
     )
     return result.stdout.strip().lstrip("-+U ").split()[0]
+
+
+def submodule_commit(name: str) -> str:
+    return submodule_commit_at(f"references/open-data/{name}")
 
 
 def classify_license(license_str: str | None) -> str:
@@ -117,14 +130,26 @@ def ingest_scrollmapper(conn: sqlite3.Connection) -> None:
                 f"FROM {code}_verses v JOIN {code}_books b ON v.book_id = b.id "
                 f"WHERE TRIM(v.text) != ''"
             ).fetchall()
-            verse_rows = []
+            # Upstream stores each verse many times over (ASV: 217714 rows for 31102 references)
+            # and the copies differ in whitespace, so DISTINCT on the raw text collapses only the
+            # byte-identical ones. Normalize the whitespace, then where copies still disagree keep
+            # the one with the most words: the disagreements are lost word separators
+            # ("andperfect" for "and perfect"), so the wordiest copy is the intact one. Verified
+            # across the 763 ASV references where normalizing alone wasn't enough.
+            best: dict[tuple[str, int, int], str] = {}
             unmapped_books = set()
             for name, chapter, verse, text in rows:
                 osis = SCROLLMAPPER_NAME_TO_OSIS.get(name)
                 if osis is None:
                     unmapped_books.add(name)
                     continue
-                verse_rows.append((work_id, osis, chapter, verse, text))
+                normalized = re.sub(r"\s+", " ", text).strip()
+                key = (osis, chapter, verse)
+                current = best.get(key)
+                if current is None or (len(normalized.split()), len(normalized)) > (len(current.split()), len(current)):
+                    best[key] = normalized
+            verse_rows = [(work_id, osis, chapter, verse, text)
+                          for (osis, chapter, verse), text in best.items()]
             conn.executemany(
                 "INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)",
                 verse_rows,
@@ -261,22 +286,37 @@ def ingest_sblgnt(conn: sqlite3.Connection) -> None:
             continue
         book_code = xml_file.stem
         tree = ElementTree.parse(xml_file)
-        current_ref, words = None, []
+        current_ref, parts, after_prefix = None, [], False
+
+        def flush():
+            if current_ref and parts:
+                verse_rows.append((*current_ref, "".join(parts).strip()))
+
+        # SBLGNT's XML carries no explicit word separator: <suffix> holds trailing punctuation
+        # and is empty between plain words, while an apparatus siglum sits in a <prefix> bound to
+        # the word after it. So the space goes before each word (or its prefix) whenever the
+        # preceding suffix didn't already supply one. Reconstructing it any other way runs the
+        # words together -- this reproduces data/sblgnt/text/*.txt exactly for all 7939 verses.
         for elem in tree.getroot().iter():
             if elem.tag == "verse-number":
-                if current_ref and words:
-                    verse_rows.append((*current_ref, "".join(words).strip()))
+                flush()
                 ref = elem.get("id")  # e.g. "John 1:1"
                 _, cv = ref.rsplit(" ", 1)
                 c, v = cv.split(":")
                 current_ref = (work_id, book_code, int(c), int(v))
-                words = []
-            elif elem.tag == "w" and current_ref:
-                words.append(elem.text or "")
-            elif elem.tag == "suffix" and current_ref:
-                words.append(elem.text or "")
-        if current_ref and words:
-            verse_rows.append((*current_ref, "".join(words).strip()))
+                parts, after_prefix = [], False
+            elif current_ref is None:
+                continue
+            elif elem.tag in ("w", "prefix"):
+                if not after_prefix and parts and not parts[-1][-1:].isspace():
+                    parts.append(" ")
+                parts.append((elem.text or "").lstrip() if elem.tag == "prefix" else (elem.text or ""))
+                after_prefix = elem.tag == "prefix"
+            elif elem.tag == "suffix":
+                if elem.text:
+                    parts.append(elem.text)
+                after_prefix = False
+        flush()
 
     conn.executemany(
         "INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", verse_rows,
@@ -453,6 +493,19 @@ def ingest_hebrew_literary_units(conn: sqlite3.Connection) -> None:
     print(f"hebrew-vocab-tools: {len(unit_rows)} pericope units")
 
 
+# BibleOrgSys's getVerseText documents that it "uses uncommon Unicode symbols to represent
+# various formatted styles", and there is no flag to suppress them: cleanText already drops the
+# notes but keeps these. Left in, they reached 47% of WEB verses and 24% of the Brenton LXX --
+# "|A Psalm by David.|(1)Yahweh is my shepherd" -- polluting anything that quotes or tokenizes the
+# text. Replaced with a space rather than deleted, since they sit between words.
+# Deliberately NOT stripped: middle dot (Greek ano teleia, real punctuation) and Hebrew sof pasuq.
+_BOS_STYLE_MARKERS = re.compile(r"[\u00b6\u00a6\u00a7\u2080-\u2089]+")
+
+
+def _strip_bos_style_markers(text: str) -> str:
+    return re.sub(r"\s+", " ", _BOS_STYLE_MARKERS.sub(" ", text)).strip()
+
+
 def ingest_ebible(
     conn: sqlite3.Connection, ebible_id: str, translation_code: str, title: str, language: str,
     license_str: str = "Public Domain", license_tier: str = "open",
@@ -526,9 +579,35 @@ def ingest_ebible(
     bible = USFMBible(str(usfm_dir))
     bible.load()
 
+    # The Brenton LXX follows the Greek canon's own shape, which hides three protocanonical books
+    # from a plain USFM-code lookup. Daniel ships as Greek Daniel (BibleOrgSys code DNG) rather
+    # than DAN -- that's Theodotion, the form the New Testament generally quotes -- Esther ships as
+    # Greek Esther (ESG), and Nehemiah has no file of its own at all, being the back half of
+    # 2 Esdras inside EZR at chapters 11-23. All three were being dropped as "deuterocanonical",
+    # which is what made this edition look as though it lacked them.
+    #
+    # Greek Esther costs nothing to align, because its six additions are carried on *lettered*
+    # sub-verses (1:1b-1s, 3:13a-g, 4:17a-x, 5:1a-2b, 8:12a-u, 10:3a-k) exactly so the numeric
+    # verses keep the Masoretic numbering. The verse loop below is integer-only, so the additions
+    # are skipped and what lands is the shared narrative -- eight of its ten chapters then match
+    # the WLC verse-for-verse. Storing the additions would need a schema change (verses.verse is
+    # INTEGER); see references/README.md before making one.
+    #
+    # The one place that costs something is Esther 1:1. Addition A's opening carries a plain
+    # numeric 1 (the rest of it is 1b-1r), so it would land on Esth 1:1 and collide there with
+    # every other work, where that address is "in the days of Ahasuerus". The Greek of the
+    # Masoretic 1:1 is on the lettered 1:1s, which the integer loop can't reach. Dropping the
+    # collision just finishes the exclusion of Addition A that skipping the lettered verses
+    # already starts: LXX Esther then begins at 1:2, and nothing is filed under a reference that
+    # means something else.
+    lxx_aliases = {"DNG": "Dan", "ESG": "Esth"} if ebible_id == "grcbrent" else {}
+    skip_esther_addition_a = ebible_id == "grcbrent"
+    split_2_esdras = ebible_id == "grcbrent"
+
     verse_rows = []
     for bos_code in bible.getBookList():
-        osis_book = MACULA_USFM_TO_OSIS.get(BOS_CODE_TO_USFM.get(bos_code, bos_code))
+        usfm_code = BOS_CODE_TO_USFM.get(bos_code, bos_code)
+        osis_book = MACULA_USFM_TO_OSIS.get(usfm_code) or lxx_aliases.get(usfm_code)
         if osis_book is None:
             continue  # front matter, glossary, deuterocanonical -- out of scope
         book_obj = bible.books[bos_code]
@@ -538,14 +617,361 @@ def ingest_ebible(
                     verse_text = bible.getVerseText(SimpleVerseKey(bos_code, c, v))
                 except KeyError:
                     continue  # versification gaps -- expected for LXX/deuterocanonical editions
-                if verse_text:
-                    verse_rows.append((work_id, osis_book, c, v, verse_text))
+                if not verse_text:
+                    continue
+                verse_text = _strip_bos_style_markers(verse_text)
+                if not verse_text:
+                    continue
+                book, chapter = osis_book, c
+                if split_2_esdras and osis_book == "Ezra" and c > 10:
+                    book, chapter = "Neh", c - 10
+                if skip_esther_addition_a and book == "Esth" and (chapter, v) == (1, 1):
+                    continue
+                verse_rows.append((work_id, book, chapter, v, verse_text))
 
     conn.executemany(
         "INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", verse_rows,
     )
     conn.commit()
     print(f"ebible-{ebible_id}: {len(verse_rows)} verses")
+
+
+def set_versification(conn: sqlite3.Connection) -> None:
+    """Stamp each work with the scheme its (book, chapter, verse) references belong to.
+
+    Done as one pass at the end rather than threaded through eight separate works INSERTs, so the
+    classification lives in one readable place -- versification.scheme_for_work -- instead of
+    being scattered across every ingest function.
+    """
+    rows = conn.execute("SELECT work_id FROM works").fetchall()
+    conn.executemany(
+        "UPDATE works SET versification=? WHERE work_id=?",
+        [(scheme_for_work(work_id), work_id) for (work_id,) in rows],
+    )
+    conn.commit()
+    counts = dict(conn.execute("SELECT versification, COUNT(*) FROM works GROUP BY versification"))
+    print(f"versification: {counts}")
+
+
+
+# Abegg's book codes are OSIS apart from these two, which between them carry a third of the
+# biblical words in the corpus. Anything else that isn't already an OSIS code is a scroll
+# designation used where the editors could not assign a canonical book -- unidentified fragments,
+# skipped rather than guessed at.
+DSS_BOOK_ALIASES = {"Is": "Isa", "Ex": "Exod"}
+
+
+def ingest_dss(conn: sqlite3.Connection) -> None:
+    """Biblical Dead Sea Scrolls from ETCBC's Text-Fabric edition of Martin Abegg's data.
+
+    One work per scroll, because a scroll IS a witness: Isaiah 53:5 is attested by both 1Qisaa and
+    1Q8 and they do not read alike (1Qisaa's fuller orthography has WHW>H where 1Q8 has WHW>), so
+    collapsing them would destroy the only thing this corpus is for. 265 scrolls carry biblical
+    references, giving ~13.4k scroll/book/chapter/verse rows.
+
+    verses.text keeps the `full` transcription, brackets and all, because 31.8% of the biblical
+    words carry an editorial mark -- [ ] for reconstruction, # and ? for damaged or uncertain
+    letters. A scroll reading that differs from the Masoretic while sitting inside brackets is an
+    editor's reconstruction, not manuscript evidence, and stripping that distinction would make
+    the corpus quietly misleading for exactly the textual-critical work it exists to support.
+    morphology.surface_form carries the clean `glyph` form for tokenizing and lemma queries.
+
+    Licensed CC BY-NC 4.0 (stated in the data's own feature metadata, not just the repo README),
+    so every row lands in the restricted-nc tier -- cite it, don't reproduce it wholesale.
+    """
+    from tf.fabric import Fabric
+
+    tf_dir = RESTRICTED_DATA / "dss" / "tf" / "2.0"
+    if not tf_dir.is_dir():
+        print("dss: submodule not checked out, skipping")
+        return
+    commit = submodule_commit_at("references/restricted-data/dss")
+    api = Fabric(locations=str(tf_dir), silent="deep").loadAll(silent="deep")
+    F, L = api.F, api.L
+
+    osis_codes = set(NUM_TO_OSIS.values())
+    grouped: dict[tuple[str, str, int, int], list[int]] = {}
+    for w in F.otype.s("word"):
+        book, chapter, verse = F.book.v(w), F.chapter.v(w), F.verse.v(w)
+        if not (book and chapter and verse):
+            continue
+        book = DSS_BOOK_ALIASES.get(book, book)
+        if book not in osis_codes:
+            continue  # a scroll designation, not a canonical book
+        scroll_nodes = L.u(w, otype="scroll")
+        if not scroll_nodes:
+            continue
+        try:
+            key = (F.scroll.v(scroll_nodes[0]), book, int(chapter), int(verse))
+        except ValueError:
+            continue  # a non-numeric chapter/verse label
+        grouped.setdefault(key, []).append(w)
+
+    scrolls = sorted({k[0] for k in grouped})
+    conn.executemany(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution, notes) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+        [(f"dss-{s}", s, f"Dead Sea Scrolls: {s}", "hbo", "dss",
+          "https://github.com/ding0t/dss", commit, TODAY,
+          "Creative Commons: BY-NC 4.0", "restricted-nc",
+          "Martin G. Abegg Jr., James E. Bowley and Edward M. Cook; Text-Fabric conversion by "
+          "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+          "One work per scroll -- each is a separate manuscript witness and they disagree. Verse "
+          "text is the `full` transcription including editorial marks: [ ] reconstruction, # and ? "
+          "damaged or uncertain. Check those before resting an argument on a variant reading.")
+         for s in scrolls],
+    )
+
+    verse_rows, morph_rows = [], []
+    for (scroll, book, chapter, verse), words in grouped.items():
+        work_id = f"dss-{scroll}"
+        text = "".join((F.full.v(w) or "") + (F.after.v(w) or "") for w in words).strip()
+        if text:
+            verse_rows.append((work_id, book, chapter, verse, text))
+        for position, w in enumerate(words, start=1):
+            morph_rows.append((work_id, book, chapter, verse, position,
+                               F.glyph.v(w), F.lex.v(w), F.sp.v(w)))
+
+    conn.executemany(
+        "INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", verse_rows)
+    conn.executemany(
+        "INSERT INTO morphology (work_id, book, chapter, verse, word_position, surface_form, "
+        "lemma, word_class) VALUES (?,?,?,?,?,?,?,?)", morph_rows)
+    conn.commit()
+    print(f"dss: {len(scrolls)} scrolls, {len(verse_rows)} verses, {len(morph_rows)} words")
+
+
+
+def chapter_lengths(conn: sqlite3.Connection, work_id: str, book: str, chapter: int) -> int:
+    return conn.execute("SELECT COUNT(*) FROM verses WHERE work_id=? AND book=? AND chapter=?",
+                        (work_id, book, chapter)).fetchone()[0]
+
+
+
+# The Open Scriptures lemma files use their own book codes; only this one needs mapping, and the
+# choice matters: Theodotion's Daniel is the form the church received and the one Brenton carries.
+LXX_LEMMA_BOOKS = {"DanTh": "Dan"}
+
+
+def ingest_lxx_lemmas(conn: sqlite3.Connection) -> None:
+    """Lemmatise the Septuagint from the Open Scriptures Septuagint Project's lemma files.
+
+    The gap this closes: we had the Septuagint's text but not its lemmas, which blocked every
+    lemma-level question about the Old Testament in the language the New Testament authors read it
+    in. CCAT's morphological database is restrictively licensed and is why our own GreekResources
+    fork ships without it -- but these lemma files are a separate work, CC BY 4.0, carrying only a
+    key and a lemma per word and none of CCAT's text. They were sitting in open-data/ unused.
+
+    Stored as morphology rather than verses: there is no surface form here, and the word ORDER is
+    CCAT/Rahlfs's, not Brenton's. Those two editions agree on word count in only 73% of verses and
+    on position in 47%, so word_position indexes this source's own sequence and must not be joined
+    positionally to `ebible-grcbrent`. Verse-level lemma SETS are what this is for.
+    """
+    lemma_dir = OPEN_DATA / "greek-resources" / "LxxLemmas"
+    if not lemma_dir.is_dir():
+        print("lxx-lemmas: greek-resources submodule not checked out, skipping")
+        return
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution, notes) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+        ("lxx-lemmas", None, "Septuagint lemmas (Open Scriptures Septuagint Project)", "grc",
+         "greek-resources", "https://github.com/ding0t/GreekResources",
+         submodule_commit("greek-resources"), TODAY,
+         "Creative Commons: BY 4.0", "open", "Open Scriptures Septuagint Project",
+         "Lemmas only -- no surface form, no morphology code, none of CCAT's restricted text. Word "
+         "order follows CCAT/Rahlfs, NOT Brenton: do not join positionally to ebible-grcbrent. "
+         "Covers the deuterocanon too, so allusions to Wisdom and Sirach are visible here."),
+    )
+    # The same fork carries a Greek Word List indexing New Testament AND Septuagint vocabulary,
+    # which covers 100% of the lemmas here and carries a Strong's number for 93% of the tokens.
+    # Worth taking: the Septuagint had no Strong's tagging at all, so a concordance could not follow
+    # a Greek word across the testaments -- and the Septuagint is the Old Testament as the New
+    # Testament's authors read it.
+    word_list = {}
+    gwl_path = OPEN_DATA / "greek-resources" / "GreekWordList.js"
+    if gwl_path.is_file():
+        match = re.search(r"\{.*\}", gwl_path.read_text(encoding="utf-8-sig"), re.DOTALL)
+        if match:
+            for key, entry in json.loads(match.group(0)).items():
+                normalised = quotations.normalise_greek(key)
+                if normalised:
+                    word_list[normalised[0]] = entry
+
+    rows = []
+    for path in sorted(lemma_dir.glob("*.js")):
+        book = LXX_LEMMA_BOOKS.get(path.stem, path.stem)
+        for ref, words in json.loads(path.read_text(encoding="utf-8")).items():
+            parts = ref.split(".")
+            if len(parts) != 3:
+                continue
+            try:
+                chapter, verse = int(parts[1]), int(parts[2])
+            except ValueError:
+                continue
+            for position, word in enumerate(words, start=1):
+                normalised = quotations.normalise_greek(word.get("key") or "")
+                if normalised:
+                    entry = word_list.get(normalised[0], {})
+                    strongs = entry.get("strong")
+                    rows.append(("lxx-lemmas", book, chapter, verse, position, normalised[0],
+                                 word.get("lemma"),
+                                 str(strongs).lstrip("GH") if strongs else None,
+                                 entry.get("pos")))
+    conn.executemany(
+        "INSERT INTO morphology (work_id, book, chapter, verse, word_position, lemma, gloss, "
+        "strongs_id, word_class) VALUES (?,?,?,?,?,?,?,?,?)", rows)
+    conn.commit()
+    books = len({r[1] for r in rows})
+    tagged = sum(1 for r in rows if r[7])
+    print(f"lxx-lemmas: {books} books, {len(rows)} lemmatised words, "
+          f"{tagged} with a Strong's number ({100*tagged//len(rows)}%)")
+
+
+def derive_scripture_links(conn: sqlite3.Connection) -> None:
+    """Compute the three typed link classes. Runs last -- it reads `verses` for four works and
+    `cross_references` for corroboration.
+
+    Corroboration is a second opinion from a source with no connection to the method: openbible's
+    cross-references are crowd-assembled and English-scheme, so where they name the same passage,
+    two unrelated lines of evidence agree. Recorded per row rather than used as a filter -- a strong
+    verbatim run that openbible does NOT carry is a link a cross-reference list missed, which is the
+    point of deriving these at all.
+    """
+    fetch = "SELECT book, chapter, verse, text FROM verses WHERE work_id=? ORDER BY book, chapter, verse"
+    nt_books = {r[0] for r in conn.execute(
+        "SELECT DISTINCT book FROM verses WHERE work_id='sblgnt'")}
+    rows: list[tuple] = []
+
+    def english_ref(book, chapter, verse, scheme, source_work):
+        aligned = versification.align(book, chapter, verse, scheme, "english")
+        if aligned is None:
+            return None
+        # the chapter comes from the scheme, the verse has to be measured -- otherwise Hebrews
+        # 10:5's source records as English Psalm 40:7 when the verse it quotes is 40:6
+        offset = versification.superscription_offset(
+            chapter_lengths(conn, source_work, book, chapter),
+            chapter_lengths(conn, "ebible-eng-web", aligned[0], aligned[1]))
+        return (aligned[0], aligned[1], aligned[2] - offset)
+
+    def record(link_type, from_work, to_work, pair, to_scheme):
+        fb, fc, fv = pair["from"]
+        tb, tc, tv = pair["to"]
+        english = english_ref(tb, tc, tv, to_scheme, to_work)
+        corroborated = 0
+        if english is not None:
+            corroborated = 1 if conn.execute(
+                "SELECT 1 FROM cross_references WHERE from_book=? AND from_chapter=? AND from_verse=? "
+                "AND to_book=? AND to_chapter=? AND ABS(to_verse_start - ?) <= 2 LIMIT 1",
+                (fb, fc, fv, english[0], english[1], english[2])).fetchone() else 0
+        rows.append((link_type, from_work, fb, fc, fv, to_work, tb, tc, tv, pair["shared_ngrams"],
+                     pair["containment"], pair["longest_run"], pair["alignment"],
+                     pair["idf_overlap"], corroborated,
+                     english[1] if english else None, english[2] if english else None))
+
+    # 1. the Greek class -- the New Testament quoting the Septuagint, in one language
+    lxx_tokens, lxx_index = quotations.build_index(conn.execute(fetch, ("ebible-grcbrent",)).fetchall())
+    for pair in quotations.find_quotations(conn.execute(fetch, ("sblgnt",)).fetchall(),
+                                            lxx_tokens, lxx_index):
+        record("quotation-greek", "sblgnt", "ebible-grcbrent", pair, "lxx")
+
+    # 2. inner-biblical -- the Hebrew Old Testament quoting itself. Trigrams, because Hebrew packs
+    # more into a word than Greek does; a higher shared-gram floor to compensate.
+    wlc = [r for r in conn.execute(fetch, ("morphhb-wlc",)).fetchall() if r[0] not in nt_books]
+    heb_tokens, heb_index = quotations.build_index(wlc, quotations.normalise_hebrew, n=3)
+
+    def same_context(source, target):
+        """A verse resembling its own neighbours is continuous prose, not a citation."""
+        return source[0] == target[0] and abs(source[1] - target[1]) <= 1
+
+    seen: set[tuple] = set()
+    for pair in quotations.find_quotations(wlc, heb_tokens, heb_index, quotations.normalise_hebrew,
+                                            n=3, min_shared=4, exclude=same_context):
+        if pair["alignment"] < quotations.QUOTATION_ALIGNMENT:
+            continue
+        key = tuple(sorted([pair["from"], pair["to"]]))   # the relation is symmetric; store it once
+        if key in seen:
+            continue
+        seen.add(key)
+        record("inner-biblical", "morphhb-wlc", "morphhb-wlc", pair, "masoretic")
+
+    # 3. the Hebrew New Testament -- candidates only, see the schema comment
+    hebrew_nt = [r for r in conn.execute(fetch, ("ebible-heb",)).fetchall() if r[0] in nt_books]
+    for pair in quotations.find_quotations(hebrew_nt, heb_tokens, heb_index,
+                                            quotations.normalise_hebrew, n=3, min_shared=3):
+        if pair["alignment"] >= quotations.QUOTATION_ALIGNMENT:
+            record("quotation-hebrew", "ebible-heb", "morphhb-wlc", pair, "masoretic")
+
+    # 4. rare-lemma allusion -- the Septuagint against the Greek New Testament, both lemmatised.
+    # Same language and a shared lemma inventory (96% of NT tokens have a lemma the LXX also uses),
+    # so this needs no bridge: where two passages share several lemmas that are rare across the
+    # whole corpus, that is evidence even with no shared phrasing. It reaches what quotation
+    # matching cannot -- Revelation 21:20's jewels against Ezekiel 28:13, and, because the lemma
+    # files cover the deuterocanon, Paul at the Areopagus against Wisdom 13:10.
+    lemma_verses: dict[tuple, set[str]] = {}
+    for work, table_rows in (("lxx-lemmas", conn.execute(
+            "SELECT book, chapter, verse, lemma FROM morphology WHERE work_id='lxx-lemmas'")),
+            ("macula-greek-sblgnt", conn.execute(
+            "SELECT book, chapter, verse, lemma FROM morphology WHERE work_id='macula-greek-sblgnt' "
+            "AND lemma IS NOT NULL AND lemma != ''"))):
+        for book, chapter, verse, lemma in table_rows:
+            normalised = quotations.normalise_greek(lemma or "")
+            if normalised:
+                lemma_verses.setdefault((work, book, chapter, verse), set()).add(normalised[0])
+
+    frequency: collections.Counter = collections.Counter()
+    for lemmas in lemma_verses.values():
+        frequency.update(lemmas)
+    vocabulary = len(frequency)
+    rare_index: dict[str, list] = {}
+    for (work, book, chapter, verse), lemmas in lemma_verses.items():
+        if work != "lxx-lemmas":
+            continue
+        for lemma in lemmas:
+            if frequency[lemma] <= quotations.RARE_LEMMA_VERSES:
+                rare_index.setdefault(lemma, []).append((book, chapter, verse))
+
+    for (work, book, chapter, verse), lemmas in sorted(lemma_verses.items()):
+        if work != "macula-greek-sblgnt":
+            continue
+        rare = {l for l in lemmas if frequency[l] <= quotations.RARE_LEMMA_VERSES}
+        if len(rare) < 2:
+            continue
+        hits: collections.Counter = collections.Counter()
+        for lemma in rare:
+            for target in rare_index.get(lemma, ()):
+                hits[target] += 1
+        for target, count in sorted(hits.items()):
+            if count < 2:
+                continue
+            shared = rare & lemma_verses[("lxx-lemmas", *target)]
+            weight = sum(math.log(vocabulary / frequency[l]) for l in shared)
+            if weight < quotations.ALLUSION_WEIGHT:
+                continue
+            record("allusion-lemma", "macula-greek-sblgnt", "lxx-lemmas",
+                   {"from": (book, chapter, verse), "to": target, "shared_ngrams": len(shared),
+                    "containment": round(len(shared) / len(rare), 4), "longest_run": 0,
+                    "alignment": 0, "idf_overlap": round(weight, 3)}, "lxx")
+
+    conn.executemany(
+        "INSERT INTO scripture_links (link_type, from_work, from_book, from_chapter, from_verse, "
+        "to_work, to_book, to_chapter, to_verse, shared_ngrams, containment, longest_run, "
+        "alignment, idf_overlap, corroborated, to_english_chapter, to_english_verse) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        rows)
+    conn.commit()
+    for link_type, in conn.execute("SELECT DISTINCT link_type FROM scripture_links"):
+        # allusion is scored on rarity, not alignment -- reporting it against the wrong measure
+        # would say "0 strong" about a class where every stored row already cleared its threshold
+        column, floor = (("idf_overlap", quotations.ALLUSION_WEIGHT)
+                         if link_type == "allusion-lemma"
+                         else ("alignment", quotations.QUOTATION_ALIGNMENT))
+        total, strong, agreed = conn.execute(
+            f"SELECT COUNT(*), SUM({column} >= ?), SUM({column} >= ? AND corroborated) "
+            "FROM scripture_links WHERE link_type=?", (floor, floor, link_type)).fetchone()
+        print(f"links {link_type:18} {total:6} pairs, {strong or 0:5} at {column}>={floor} "
+              f"({agreed or 0} corroborated)")
 
 
 def main() -> None:
@@ -561,6 +987,16 @@ def main() -> None:
     ingest_ebible(conn, "grcbrent", "Brenton-LXX", "Brenton Septuagint (Greek)", "grc")
     ingest_ebible(conn, "grc-tisch", "Tischendorf", "Tischendorf 8th ed. Greek New Testament", "grc")
     ingest_ebible(conn, "heb", "Delitzsch", "Delitzsch Hebrew Bible (OT+NT)", "heb")
+    # A second, independent Hebrew rendering of the Greek NT. Salkinson (1885) and Ginsburg's
+    # revision (1886) confined themselves to vocabulary attested in the Tanakh, where Delitzsch
+    # wrote a more Mishnaic register -- so the pair shows two different answers to the same
+    # question, which is the whole reason for holding both. Like Delitzsch it is a 19th-century
+    # translation FROM the Greek, not a witness to any Hebrew original.
+    ingest_ebible(conn, "hebsg", "Salkinson", "Salkinson-Ginsburg Hebrew New Testament", "heb")
+    ingest_dss(conn)
+    ingest_lxx_lemmas(conn)
+    set_versification(conn)
+    derive_scripture_links(conn)
     conn.close()
     print(f"\nBuild complete: {DB_PATH}")
 

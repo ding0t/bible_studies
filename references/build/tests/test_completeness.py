@@ -32,6 +32,7 @@ PARTIAL_COVERAGE = {
     # Greek NT texts -- no OT by design
     "sblgnt": NT_BOOKS,
     "ebible-grc-tisch": NT_BOOKS,
+    "ebible-hebsg": NT_BOOKS,   # Salkinson-Ginsburg is a New Testament only
     "scrollmapper-Anderson": NT_BOOKS,
     "scrollmapper-Byz": NT_BOOKS,
     "scrollmapper-Haweis": NT_BOOKS,
@@ -61,7 +62,7 @@ PARTIAL_COVERAGE = {
     # 1-4 Maccabees, Greek Esther/Daniel additions) use book codes MACULA_USFM_TO_OSIS
     # deliberately doesn't map (see ingest_ebible in build.py) -- Nehemiah is folded into 2 Esdras
     # under LXX numbering rather than standing alone, so it's absent here too.
-    "ebible-grcbrent": OT_BOOKS - {"Neh", "Esth", "Dan"},
+    "ebible-grcbrent": OT_BOOKS,
 }
 
 
@@ -78,6 +79,8 @@ def test_full_bible_sources_have_all_66_books(conn):
     rows = conn.execute("SELECT work_id, GROUP_CONCAT(DISTINCT book) FROM verses GROUP BY work_id").fetchall()
     failures = []
     for work_id, books_csv in rows:
+        if work_id.startswith("dss-"):
+            continue  # a scroll covers whatever survived; see test_dss.py for what IS asserted
         books = set(books_csv.split(","))
         expected = PARTIAL_COVERAGE.get(work_id, ALL_BOOKS)
         missing = expected - books

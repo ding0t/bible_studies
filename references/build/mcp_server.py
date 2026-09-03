@@ -125,12 +125,116 @@ def bible_passage(book: str, chapter: int, verse_start: int, verse_end: int,
 
 
 @mcp.tool()
-def bible_crossref(book: str, chapter: int, verse: int, min_votes: int = 0, limit: int = 20) -> list[dict]:
+def bible_crossref(book: str, chapter: int, verse: int, min_votes: int = 0, limit: int = 20,
+                   from_scheme: str = "english") -> list[dict]:
     """Cross-references for one verse (OpenBible.info/TSK-style data), highest-voted first.
-    Raise min_votes to drop low-confidence links."""
+    Raise min_votes to drop low-confidence links. The data is numbered in the english scheme,
+    so pass from_scheme='masoretic' or 'lxx' when your reference came off a Hebrew or
+    Septuagint text -- otherwise Joel 3:1 returns the links for the wrong verse."""
     conn = query.connect()
     try:
-        return query.lookup_crossref(conn, book, chapter, verse, min_votes=min_votes, limit=limit)
+        return query.lookup_crossref(conn, book, chapter, verse, min_votes=min_votes, limit=limit,
+                                     from_scheme=from_scheme)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
+def bible_parallel(book: str, chapter: int, verse: int, target: str, source: str | None = None) -> dict:
+    """The same verse in another work, aligned by chapter AND verse.
+
+    Use this rather than assuming a reference carries across, especially in the Psalms. The chapter
+    shift is a scheme property (English Psalm 40 is LXX Psalm 39); the verse shift is not -- Hebrew
+    and Greek count a psalm's superscription as verse 1 and most English editions don't, and which
+    a given edition does varies by edition, so it is measured between the two works you name.
+    English Psalm 40:6 is LXX Psalm 39:7, the verse Hebrews 10:5 quotes; without the verse step it
+    resolves to 39:6 and returns the wrong text. `source` defaults to the WEB.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_parallel(conn, book, chapter, verse, source, target)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
+def bible_links(book: str, chapter: int, verse: int, link_type: str | None = None,
+                min_run: int = 0) -> dict:
+    """Derived scripture links at one reference, both directions, grouped by class.
+
+    Computed from the texts themselves rather than taken from a cross-reference list, so these find
+    links such lists miss. The three classes are NOT equivalent evidence and must never be merged:
+
+      quotation-greek   New Testament quoting the Septuagint. A textual fact -- both sides are the
+                        same language, so the quotation is literally the same words.
+      inner-biblical    the Hebrew Old Testament quoting itself (Kings//Chronicles, Kings//Isaiah,
+                        the Decalogue). Equally textual, no translation in between.
+      quotation-hebrew  a Hebrew New Testament matching the Hebrew Old Testament. CANDIDATES ONLY --
+                        those are 19th-century translations, so a match means a Hebraist judged this
+                        a quotation, which is informed opinion rather than evidence. Valuable
+                        because it catches quotations the Greek misses, where the New Testament
+                        follows the Hebrew rather than the Septuagint. Verify in Greek before using.
+
+    Grade by `longest_run`: 8 or more reads as quotation, 4-5 is usually a shared formula.
+    `corroborated` means openbible independently names the same passage; a strong run without it is
+    a link the tradition missed, not a weak one. Give references as an English Bible numbers them.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_links(conn, book, chapter, verse, link_type=link_type, min_run=min_run)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
+def study_gaps(study_path: str, limit: int = 10) -> dict:
+    """What links to a study's passages that the study never mentions.
+
+    Reads the study's own primary_passage and bible_references frontmatter, gathers quotation links
+    (derived from the Greek) and openbible cross-references against those passages, subtracts every
+    chapter the study already cites, and ranks what is left with quotations first. Use it during a
+    review pass; a study with neither frontmatter field is invisible to it and reports so.
+
+    The two kinds are not equivalent and are kept apart: a quotation at a strong run is a textual
+    fact, a cross-reference is a lead worth chasing. `study_path` is repo-relative, e.g.
+    docs/content/last-things/rapture.md
+    """
+    import sqlite3
+    import study_gaps as gaps
+
+    path = (gaps.REPO_ROOT / study_path).resolve()
+    if not path.is_file():
+        return {"error": f"no such study: {study_path}"}
+    conn = sqlite3.connect(f"file:{gaps.DB_PATH}?mode=ro", uri=True)
+    conn.row_factory = sqlite3.Row
+    try:
+        title, chapters, raw = gaps.study_references(path)
+        if not chapters:
+            return {"study": study_path, "title": title,
+                    "warning": "no primary_passage or bible_references -- invisible to this check"}
+        ranked = gaps.gaps_for(conn, chapters)
+        for entry in ranked:
+            entry["from"] = sorted(entry["from"])
+        return {"study": study_path, "title": title, "cites_chapters": len(chapters),
+                "cited_references": raw, "gap_count": len(ranked), "gaps": ranked[:limit]}
+    finally:
+        conn.close()
+
+
+@mcp.tool()
+def bible_align(book: str, chapter: int, verse: int, from_scheme: str = "english") -> dict:
+    """One reference as each versification scheme numbers it, with the works using each scheme.
+
+    Run this before comparing a Hebrew or Greek verse against an English one. (book, chapter,
+    verse) is not a universal address: Hebrew and LXX Joel 3:1 is English Joel 2:28 (the verse
+    Acts 2 quotes), Hebrew Malachi 3:19 is English Malachi 4:1, and the LXX renumbers nearly the
+    whole psalter, so English Psalm 23 is LXX Psalm 22. A null reference for a scheme means that
+    scheme has no counterpart for the verse at all. from_scheme is the scheme YOUR reference is
+    in -- 'english' unless you are reading a number off a Hebrew or Septuagint text.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_alignment(conn, book, chapter, verse, from_scheme)
     finally:
         conn.close()
 

@@ -22,6 +22,12 @@ CREATE TABLE works (
     license TEXT,                   -- verbatim string, e.g. 'Creative Commons: BY-NC-SA 4.0'
     license_tier TEXT NOT NULL,     -- 'open' | 'restricted-nc' | 'unknown' | 'quotation-only'
     attribution TEXT,
+
+    -- what (book, chapter, verse) MEANS for this work: 'masoretic' | 'lxx' | 'english'.
+    -- Two works with different schemes disagree about whole chapters -- MT Joel 3:1 is EN Joel
+    -- 2:28, LXX Ps 22 is EN Ps 23 -- and comparing them without aligning returns the wrong verse
+    -- with no error. Set by set_versification() in build.py; align with versification.align().
+    versification TEXT NOT NULL DEFAULT 'english',
     notes TEXT                      -- e.g. caveats like the strongs/TWOT one, or classification rationale
 );
 
@@ -34,6 +40,13 @@ CREATE TABLE verses (
 );
 CREATE INDEX idx_verses_ref ON verses(book, chapter, verse);
 CREATE INDEX idx_verses_work ON verses(work_id);
+-- One row per reference per work, enforced rather than assumed. It was assumed for a long time
+-- and it was not true: upstream scrollmapper ships each verse several times over with differing
+-- whitespace, which left 28674 references carrying two or three rows across 38 works, and
+-- lookup_verse's fetchone() silently returned whichever one SQLite reached first.
+-- NOTE this makes the tuple unique WITHIN a work only. It is still not an identity ACROSS works
+-- -- see works.versification above.
+CREATE UNIQUE INDEX idx_verses_unique ON verses(work_id, book, chapter, verse);
 
 CREATE TABLE morphology (           -- word-by-word tags on original-language verses
     work_id TEXT NOT NULL REFERENCES works(work_id),
@@ -106,6 +119,45 @@ CREATE TABLE notes (                -- edition-bundled translator/study notes
     text TEXT NOT NULL
 );
 CREATE INDEX idx_notes_ref ON notes(book, chapter, verse);
+
+CREATE TABLE scripture_links (      -- derived here rather than ingested: see quotations.py for
+                                    -- the method and the audits that set each threshold.
+    -- The classes are NOT equivalent evidence and must never be merged into one score:
+    --   'quotation-greek'   NT Greek quoting LXX Greek. A textual fact -- author and translator
+    --                       were writing the same language, so the quotation is the same words.
+    --   'inner-biblical'    Hebrew OT quoting Hebrew OT. Equally a textual fact, and no translation
+    --                       stands between the two sides.
+    --   'quotation-hebrew'  a Hebrew NT matching the Hebrew OT. CANDIDATES ONLY. Delitzsch is a
+    --                       19th-century translation, so a match says that a Hebraist judged this
+    --                       to be a quotation and rendered it accordingly -- informed opinion, not
+    --                       evidence. Useful because it catches quotations the Greek misses, where
+    --                       the NT follows the Hebrew rather than the LXX. Verify in Greek before
+    --                       any of it carries weight in a study.
+    link_type TEXT NOT NULL,
+    from_work TEXT NOT NULL REFERENCES works(work_id),
+    from_book TEXT NOT NULL, from_chapter INTEGER NOT NULL, from_verse INTEGER NOT NULL,
+    to_work TEXT NOT NULL REFERENCES works(work_id),
+    to_book TEXT NOT NULL, to_chapter INTEGER NOT NULL, to_verse INTEGER NOT NULL,
+    -- graded four ways, and deliberately not combined into one number
+    shared_ngrams INTEGER NOT NULL,  -- n-grams the two verses share
+    containment REAL NOT NULL,       -- share of the quoting verse's n-grams that are shared
+    longest_run INTEGER NOT NULL,    -- longest contiguous shared token run. Interpretable -- a
+                                     -- reader can go and count it -- but it breaks at the first
+                                     -- inserted or omitted word, and adapted quotation is normal
+    alignment INTEGER NOT NULL,      -- Smith-Waterman local alignment, which tolerates those edits.
+                                     -- The primary strength measure: Luke 4:18 omits a clause from
+                                     -- Isaiah 61:1 and runs only 6, under the run threshold, while
+                                     -- aligning at 25 -- above verbatim Hebrews 10:5
+    idf_overlap REAL NOT NULL,       -- shared n-grams weighted by rarity in the source corpus, so
+                                     -- a shared "and it came to pass" stops counting like a shared
+                                     -- rare phrase
+    corroborated INTEGER NOT NULL,   -- 1 when openbible's cross-references independently agree
+    -- the english-scheme reference for to_*, so a caller need not re-align. NULL where the passage
+    -- has no English counterpart (LXX Jeremiah 30, the Proverbs 24 tail).
+    to_english_chapter INTEGER, to_english_verse INTEGER
+);
+CREATE INDEX idx_link_from ON scripture_links(link_type, from_book, from_chapter, from_verse);
+CREATE INDEX idx_link_to ON scripture_links(link_type, to_book, to_chapter, to_verse);
 
 CREATE TABLE cross_references (     -- verse-to-verse, translation-independent
     work_id TEXT NOT NULL REFERENCES works(work_id),
