@@ -197,3 +197,83 @@ resources_consulted:
   - {type: lexicon, title: "MACULA Greek/Hebrew morphology + Louw-Nida semantic domains", author: "bible-references MCP", note: "paralambano domain split, mone, chuppah, shalhevetyah"}
   - {type: other, title: "OpenBible.info cross-reference dataset", author: "CC-BY", note: "Song 2:13 -> Matt 24:32"}
 last_updated: "2026-09-01"
+
+# ---------------------------------------------------------------------------
+review_2026-09-01:
+  skill: review-bible-study
+  trigger: user-requested full adversarial review of the draft (file still uncommitted at review time).
+  method: >
+    Every Phase 1 quote re-queried from study-notes.db verses (esv-study-bible work_id) and
+    bible-text.db; all three Mishnah quotes re-fetched from the cached Kulp CC-BY text; all Tobit
+    quotes re-checked against the scrollmapper deuterocanonical JSON; all nine CBSB note quotes and
+    both ESV Study Bible note quotes re-fetched from study-notes.db notes; all four word studies
+    re-derived from bible-text.db morphology (macula-greek-sblgnt / macula-hebrew-wlc /
+    morphhb-wlc); OpenBible cross-ref re-queried; internal links and anchors checked on disk;
+    npm run validate run from app/ (clean for this file, 8 warnings all in other files); Phase 5
+    cross-check used the NIV Biblical Theology Study Bible (NOT cited by the study) on Eph 5 and
+    John 14 / Rev 19.
+  findings:
+    critical:
+      - >
+        Key Takeaways: "Scripture's last two chapters close on a wedding (Revelation 21:2, 9)".
+        The last two chapters are 21 and 22; BOTH cited verses are in ch. 21 and ch. 22 contains no
+        wedding imagery (it ends 22:20). The underlying point -- Scripture ends on the wedding
+        image, last mention Rev 21:9 -- is true; the sentence as written is false (Phase 4
+        quantity/exhaustiveness claim, internally contradicted by its own parenthetical). One-word
+        fix.
+      - >
+        "Where Scripture Says It Itself": the CBSB note on 2 Cor 11:2 does NOT "list exactly that
+        set" (Hos 2:19-20; Isa 54:5, 62:5; Jer 2:2 and 31:32; Ezek 16). The note actually lists
+        "Isa 54:5; 62:4-5; Jer 2:32; 3:1-2; 31:32; Eze 16:32; Hos 2:19-20" -- no Jer 2:2, plus
+        Jer 2:32/3:1-2 which the study omits. The uncited NIV Biblical Theology note on Eph 5:32
+        independently lists Isa 54:5; 62:5; Jer 31:32 (also no Jer 2:2). Jer 2:2 is a legitimate
+        spine member in its own right; the "exactly that set" attribution to the note is not.
+    moderate:
+      - >
+        Word study cites "Psalm 19:5" for chuppah. The ESV quote sits in 19:5 (ESV), but in the MT
+        (WLC -- bible-text.db macula-hebrew-wlc AND morphhb-wlc both place it there; WLC text
+        checked) the me-chupato phrase is Psalm 19:6. A Hebrew word-study reference should carry
+        the MT number. The three-occurrence count itself is correct (Ps 19:6 MT, Joel 2:16,
+        Isa 4:5). Same numbering in the mermaid diagram and in bible_references.
+      - >
+        Phase 6 Q2 partial: historical occasion is well handled for the wedding customs (the
+        study's distinctive material) and the Last Supper evening (John 14 / Matt 26), but nothing
+        on the occasion of Ephesians or Revelation themselves (author, audience, date) -- two of
+        the three primary_passage texts.
+      - >
+        "Christian tradition, from Origen onward, of Christ and the church" is uncited and
+        unverifiable from this repo's local sources. This is the surviving half of the open
+        question above ("Either verify or drop the two names before draft: false") -- Bernard was
+        dropped from the prose, Origen was not.
+    minor:
+      - "Tobit is set among the exiles in Media" -- the Nephthalim exiles are in Nineveh (Assyria, Tobit 1:2, 7:3); Ecbatana (Media) is Raguel/Sara's home, not an exile community.
+      - "The image travels from the marriage bed to the day of the LORD" -- the study's own glosses (and the MACULA glosses) say chamber, not bed, for Ps 19 and Joel.
+      - bible_references carries four entries absent from the prose (1 Thess 4:16-17, 2 Thess 2:1, Song of Songs 4:9-12, Matthew 22:1-14) -- phantom entries on those chapters' commentary-index pages; and Exodus 15:17, quoted in the prose, is missing from the list.
+      - "One source arguing for it concedes the idiom is not proven." -- unnamed source; unfollowable citation.
+      - ESV SB attribution overstated: the note says "best to understand my Father's house as referring to heaven"; "rather than as a building under renovation" is the study's own straw, not the note's contrast.
+      - File is uncommitted: the provenance dates (2026-09-01) are what refresh_frontmatter_provenance.py stamps on a never-committed file; re-run it with the first commit so git and frontmatter agree. Not a hand-edit.
+      - Style: "One more detail from the same evening." is a pure signpost (the style guide names this exact shape); "something startling" in the hook is a grader adjective; "Note the last one:" is a borderline narrating announcement.
+      - References section lists the ESV SB note on Song 1:1, which the prose never uses (only the 1:2-2:17 note is cited).
+  verified_clean: >
+    All ~30 ESV quotes verbatim (including the three block quotes, ellipsis in Song 2:12 proper).
+    All three Kulp Mishnah quotes verbatim (Kidd 1:1, Ketub 5:2, Yad 3:5; the Akiva
+    "no man in Israel disputed" characterization is his own claim, accurately attributed). All
+    Tobit 7:13-16 / 8:19-20 quotes verbatim against the dataset; "no per-book translation label"
+    claim checked against the JSON. Nine CBSB note quotes verbatim or accurate paraphrase. The
+    shoshbin term itself is uncited (the role's reality IS in the note). paralambano: John 14:3 /
+    Matt 1:20 / 1:24 = 34.53, Matt 24:40-41 = 15.168, all confirmed; 34.53 shared with dechomai /
+    prosdechomai / proslambanomai confirmed. mone: exactly two NT occurrences (14:2, 14:23),
+    "twenty-one verses later" arithmetic confirmed. Shalhevetyah: morphhb-wlc tags the tokens
+    H7957 + H3050 as the study states (MACULA reads it as one word, gloss "powerful.flame" -- the
+    intensifier reading, which the study fairly presents as one side). Translation split on Song
+    8:6 confirmed: ESV/NASB/ASV/YLT/WEB name-reading vs NIV "like a mighty flame" / KJV "most
+    vehement flame" / BSB / CSB / NLT intensifier. "Song never mentions God" confirmed: H3050 once
+    in the whole book, no H3068/H430/H4403. OpenBible Song 2:13 -> Matt 24:32 exists (votes=2).
+    All internal links + both Olivet anchors resolve. npm run validate: zero findings for this
+    file (no Hebrew-in-bold). Phase 5: NIV Biblical Theology (uncited) CONFIRMS the central claims
+    -- stated typology at Eph 5:32 drawing on OT Israel-as-bride, Rev 19/21 consummation, and
+    Rev 19:8 "was given" as God's sovereign gifting matching the study's rules-out-both-halves
+    reading; no contradiction found. Placement (israel-and-church) and all 13 tags check out
+    against the live tag vocabulary; section order matches the skill's Phase 7.
+  status: findings presented to user; fixes pending selection. File was draft: true and
+    uncommitted at review time.

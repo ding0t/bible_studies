@@ -5,9 +5,9 @@ description: "Scripture calls the church a betrothed bride and says so in its ow
 tags: ["ephesians", "revelation", "john", "song-of-songs", "hosea", "isaiah", "matthew", "dispensationalism", "marriage", "covenant", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: true
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
-bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Revelation 21:1-9", "Hosea 2:19-20", "Isaiah 54:5", "Isaiah 61:10", "Isaiah 62:5", "Isaiah 25:6-8", "Isaiah 4:5", "Jeremiah 2:2", "Jeremiah 31:32", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 22:1-14", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Tobit 8:19-20", "Song of Songs 2:10-13", "Song of Songs 4:9-12", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "1 Thessalonians 4:16-17", "2 Thessalonians 2:1"]
+bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20"]
 date_created: 2026-09-01
-date_modified: 2026-09-01
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -15,7 +15,7 @@ ai_provider_models:
 # The Bride of Christ
 
 Paul quotes Genesis on a man leaving his father and mother to hold fast to his wife, and then says
-something startling about what he has just quoted: "This mystery is profound, and I am saying that it
+something about what he has just quoted that is easy to read past: "This mystery is profound, and I am saying that it
 refers to Christ and the church" (Ephesians 5:32, ESV). He is not reaching for an illustration. He is
 telling his readers that marriage was carrying this meaning all along.
 
@@ -33,7 +33,10 @@ strongest form of the doctrine does not need the weakest evidence for it.
 God took marriage as the picture of his covenant long before Paul: "I will betroth you to me forever"
 (Hosea 2:19), "your Maker is your husband" (Isaiah 54:5), "as the bridegroom rejoices over the bride,
 so shall your God rejoice over you" (Isaiah 62:5). The New Testament does not invent the image; it
-identifies the bridegroom. Scripture's last two chapters close on a wedding (Revelation 21:2, 9).
+identifies the bridegroom. The bride stands in both of Scripture's closing chapters — the new
+Jerusalem "prepared as a bride adorned for her husband" (21:2), "the Bride, the wife of the Lamb"
+(21:9) — and the Bible's final invitation is hers to give: "The Spirit and the Bride say, 'Come'"
+(22:17, ESV).
 
 ### Lessons about Jesus
 
@@ -64,6 +67,15 @@ come, and bring us to the table you have not yet finished. Amen.
 
 ## Where Scripture Says It Itself
 
+Two of this study's primary passages are worth placing before they are quoted. **Ephesians** is
+written by a prisoner — "I, Paul, a prisoner of Christ Jesus on behalf of you Gentiles" (3:1), "an
+ambassador in chains" (6:20) — and the marriage passage sits inside a long section on Spirit-filled
+conduct that begins "be filled with the Spirit" (5:18), so the husband-and-wife material arrives as
+an application of that, not as a standalone treatise on marriage. **Revelation** is written to seven
+named congregations in Asia (1:4) by a man in exile on Patmos "on account of the word of God and the
+testimony of Jesus" (1:9). Its wedding is announced to churches under pressure, which is why the
+Bride's readiness is described as something granted rather than achieved.
+
 The firmest ground is the places where a biblical author states the identification rather than
 leaving a reader to notice a resemblance. There are more of them than is often realised.
 
@@ -87,8 +99,10 @@ Jerusalem "prepared as a bride adorned for her husband" (21:2); "Come, I will sh
 wife of the Lamb" (21:9).
 
 **The Old Testament spine underneath.** God as husband to his people runs through the prophets —
-Hosea 2:19-20, Isaiah 54:5, 62:5, Jeremiah 2:2 and 31:32, Ezekiel 16 — and the *Cultural Backgrounds*
-note on 2 Corinthians 11:2 lists exactly that set as the background Paul is drawing on. The imagery
+Hosea 2:19-20, Isaiah 54:5, 62:5, Jeremiah 2:2 and 31:32, Ezekiel 16. The *Cultural Backgrounds* note
+on 2 Corinthians 11:2 gathers much of the same material as the background Paul is drawing on, citing
+Isaiah 54:5 and 62:4-5, Jeremiah 2:32 and 3:1-2 and 31:32, Ezekiel 16:32 and Hosea 2:19-20. Jeremiah
+2:2 is this study's own addition to that list, on the strength of the verse itself. The imagery
 also runs the other way: Israel's unfaithfulness is adultery, which is why the prophets can be so
 harsh with it.
 
@@ -155,12 +169,13 @@ this one" (Genesis 29:27), and Samson's feast runs "the seven days of the feast"
 The canopy has its own small word study. Hebrew <span dir="rtl">חֻפָּה</span> (*chuppah*, Strong's
 H2646) occurs three times in the Old Testament, and the third is the interesting one:
 
-- Psalm 19:5 — the sun "comes out like a bridegroom leaving his chamber"
+- Psalm 19:6 in the Hebrew (19:5 in English versions) — the sun "comes out like a bridegroom leaving
+  his chamber"
 - Joel 2:16 — "let the bridegroom leave his room, and the bride her chamber"
 - **Isaiah 4:5** — over restored Zion, "over all the glory there will be a canopy"
 
 The wedding-canopy word, applied to God's own covering over Zion in an eschatological oracle. The
-image travels from the marriage bed to the day of the LORD inside the Hebrew Bible's own vocabulary,
+image travels from the bridal chamber to the day of the LORD inside the Hebrew Bible's own vocabulary,
 across only three occurrences.
 
 ### A wedding narrative from the period
@@ -188,12 +203,14 @@ Raguel gives his daughter Sara to Tobias, and four details land on points alread
 - **An extended feast** — "he kept the wedding feast fourteen days," and Raguel binds Tobias by oath
   not to leave "till the fourteen days of the marriage were expired" (8:19-20).
 
-Note the last one: Tobit gives **fourteen** days, double the seven of Genesis 29:27 and Judges 14:12.
+Tobit gives **fourteen** days, double the seven of Genesis 29:27 and Judges 14:12.
 The multi-day feast is the constant; its length is not.
 Tobit also has the couple pray together before consummation (8:4-8), which no legal source would
 record.
 
-Two limits on the evidence. Tobit is set among the exiles in Media and was composed some centuries
+Two limits on the evidence. Tobit's exiles are in Nineveh, deported from Naphtali "in the time of
+Enemessar king of the Assyrians" (1:2); Ecbatana in Media, where the wedding happens, is Raguel's
+home (3:7). The book was composed some centuries
 before Christ, so it witnesses to Diaspora practice of its own period rather than to first-century
 Judea. And the scrollmapper dataset this repo carries it in supplies no per-book translation label;
 the wording is the KJV Apocrypha, which is public domain by age regardless of how the dataset itself
@@ -246,7 +263,7 @@ my Father will love him, and we will come to him and make our **home** with him"
 Same word, same discourse. John is doing something deliberate with the pair: the place Christ
 prepares for us, and the home the Father and Son make in us, are named identically. That is richer
 than a construction project, and it is why the *ESV Study Bible* reads "my Father's house" as heaven
-rather than as a building under renovation (note on John 14:2-3).
+(note on John 14:2-3), which is a claim about where the place is, not about what it is built of.
 
 **There is an exodus current here too.** "Prepare a place" has Old Testament precedent that is not
 nuptial at all: God sends an angel "to bring you to the place that I have prepared" (Exodus 23:20),
@@ -258,7 +275,7 @@ Those two readings are not rivals, because the prophets read the exodus itself a
 in a land not sown" (Jeremiah 2:2, ESV). A God who goes ahead to prepare a place for the people he
 brought out is already, in Jeremiah's telling, a bridegroom.
 
-One more detail from the same evening. Having given the cup, Jesus says: "I will not drink again of
+From the same evening, having given the cup, Jesus says: "I will not drink again of
 this fruit of the vine until that day when I drink it new with you in my Father's kingdom" (Matthew
 26:29, ESV). A covenant meal deliberately left unfinished, with the promise to finish it.
 
@@ -272,8 +289,10 @@ usually gets.
 Rabbi Akiva's defence of the book is famous and it is preserved in the Mishnah: "the whole world is
 not as worthy as the day on which the Song of Songs was given to Israel; for all the writings are
 holy but the Song of Songs is the holy of holies" (*m. Yadayim* 3:5). He was arguing that no one had
-ever seriously disputed its canonicity. Jewish tradition read it of God and Israel; Christian
-tradition, from Origen onward, of Christ and the church.
+ever seriously disputed its canonicity. Jewish tradition read the book of God and Israel; Christian
+tradition read it of Christ and the church, and did so early — Eusebius records that Origen "commenced
+his Commentaries on the Song of Songs" while in Athens and "completed these also, ten books in number"
+after returning to Caesarea (*Ecclesiastical History* 6.32).
 
 ### Modern reading, and why it is a check rather than a loss
 
@@ -337,7 +356,7 @@ Three claims circulate widely and are usually presented as documented custom. Th
 - **"Only my father knows the day."** The claimed stock answer of a groom asked when the wedding will
   be — usually quoted as *"I don't know, the angels don't know, only my father knows."* That
   reproduces the structure of Matthew 24:36 itself, which suggests the saying was shaped by the verse
-  rather than the verse by the saying. One source arguing for it concedes the idiom is not proven.
+  rather than the verse by the saying.
 - **A bridal chamber behind John 14:2.** Addressed above: John's own second use of *monē* is of God
   making his home in the believer.
 
@@ -395,7 +414,7 @@ flowchart TD
 - NIV Cultural Backgrounds Study Bible / NKJV Cultural Backgrounds Study Bible (Zondervan) — notes on
   Matthew 1:19, Matthew 25:1 and 25:10, John 3:29, 2 Corinthians 11:2, Revelation 19:7-8, and Song of
   Songs 1:2 and 2:15, quoted briefly with attribution.
-- ESV Study Bible (Crossway) — verse text (ESV) and notes on John 14:2-3 and Song of Songs 1:1 and
+- ESV Study Bible (Crossway) — verse text (ESV) and notes on John 14:2-3 and Song of Songs
   1:2-2:17, quoted briefly with attribution.
 - MACULA Greek/Hebrew morphology and Louw-Nida semantic domains (open license) — domain and
   occurrence data for παραλαμβάνω, μονή, and <span dir="rtl">חֻפָּה</span>.
