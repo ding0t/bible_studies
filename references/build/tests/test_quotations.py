@@ -159,12 +159,12 @@ def test_gap_detector_finds_a_real_omission(conn):
     path = study_gaps.REPO_ROOT / "docs/content/jesus/the-way.md"
     if not path.is_file():
         pytest.skip("study not present")
-    _, chapters, _ = study_gaps.study_references(path)
-    assert ("Heb", 3) in chapters and ("Ps", 95) not in chapters
-    ranked = study_gaps.gaps_for(conn, chapters)
+    _, cited, _ = study_gaps.study_references(path)
+    assert ("Heb", 3) in cited and ("Ps", 95) not in cited
+    ranked = study_gaps.gaps_for(conn, cited)
     top = ranked[0]
     assert (top["book"], top["chapter"]) == ("Ps", 95)
-    assert top["quotation"] >= 3
+    assert top["quotation"] >= 1
 
 
 def test_gap_detector_never_reports_a_chapter_the_study_already_cites(conn):
@@ -173,9 +173,9 @@ def test_gap_detector_never_reports_a_chapter_the_study_already_cites(conn):
     path = study_gaps.REPO_ROOT / "docs/content/last-things/rapture.md"
     if not path.is_file():
         pytest.skip("study not present")
-    _, chapters, _ = study_gaps.study_references(path)
-    reported = {(e["book"], e["chapter"]) for e in study_gaps.gaps_for(conn, chapters)}
-    assert not (reported & chapters)
+    _, cited, _ = study_gaps.study_references(path)
+    reported = {(e["book"], e["chapter"]) for e in study_gaps.gaps_for(conn, cited)}
+    assert not (reported & set(cited))
 
 
 def test_gap_detector_ranks_quotations_above_bare_cross_references(conn):
@@ -185,8 +185,8 @@ def test_gap_detector_ranks_quotations_above_bare_cross_references(conn):
     path = study_gaps.REPO_ROOT / "docs/content/last-things/rapture.md"
     if not path.is_file():
         pytest.skip("study not present")
-    _, chapters, _ = study_gaps.study_references(path)
-    ranked = study_gaps.gaps_for(conn, chapters)
+    _, cited, _ = study_gaps.study_references(path)
+    ranked = study_gaps.gaps_for(conn, cited)
     first_without = next(i for i, e in enumerate(ranked) if not e["quotation"])
     assert all(e["quotation"] for e in ranked[:first_without])
 
@@ -360,3 +360,33 @@ def test_trace_keeps_crowd_cross_references_out_of_the_evidence(conn):
     assert r["leads"], "expected some cross-reference leads"
     assert all("method" not in lead for lead in r["leads"])
     assert all(c["method"] for c in r["connections"])
+
+
+def test_gap_detector_selects_sources_by_verse_not_by_chapter(conn):
+    """A study citing Matthew 21:18-22 has not taken responsibility for Matthew 21:5 or 21:42, and
+    reporting what THOSE verses quote as its omissions is a phantom. Selecting by chapter made every
+    quotation-tier hit on olivet-discourse.md a false positive: it flagged Zechariah 9 (quoted at
+    Matthew 21:5) and Psalm 118 (at 21:42) against a study about the fig tree at 21:18-22.
+
+    Suppression stays chapter-level on purpose -- a study treating 21:18-22 does discuss Matthew 21,
+    so a link landing anywhere in that chapter is not an omission.
+    """
+    import study_gaps
+
+    path = study_gaps.REPO_ROOT / "docs/content/last-things/olivet-discourse.md"
+    if not path.is_file():
+        pytest.skip("study not present")
+    _, cited, _ = study_gaps.study_references(path)
+    assert cited[("Matt", 21)] == {18, 19, 20, 21, 22}, "a verse range must not widen to the chapter"
+    assert cited[("Matt", 24)] is None, "a bare chapter citation still means the whole chapter"
+    reported = {(e["book"], e["chapter"]) for e in study_gaps.gaps_for(conn, cited)}
+    assert ("Zech", 9) not in reported, "Matthew 21:5 is not this study's passage"
+    assert ("Ps", 118) not in reported, "Matthew 21:42 is not this study's passage"
+
+
+def test_cited_verses_parses_the_reference_forms_in_use():
+    import study_gaps
+
+    assert study_gaps.cited_verses("5:25-34") == set(range(25, 35))
+    assert study_gaps.cited_verses("3:10") == {10}
+    assert study_gaps.cited_verses("23") is None      # a whole chapter

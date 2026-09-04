@@ -96,12 +96,18 @@ _STRONGS_LANGUAGES = {"G": ("grc",), "H": ("heb", "hbo")}
 
 
 def _strongs_filter(strongs: str) -> tuple[str, list]:
-    """(extra SQL, params) restricting a Strong's lookup to the language its prefix names."""
+    """(WHERE clause, params) restricting a Strong's lookup to the language its prefix names.
+
+    Returned as a bare clause for the caller's `where` list rather than as SQL to append, because
+    appending it after the other clauses while inserting its parameters before them binds every
+    placeholder to the wrong value -- 'Matt' went to the language subquery and 'grc' to `book = ?`,
+    and the lookup silently returned nothing. Clause and params have to move together.
+    """
     languages = _STRONGS_LANGUAGES.get(strongs[:1].upper()) if strongs[:1].isalpha() else None
     if not languages:
         return "", []
     placeholders = ",".join("?" * len(languages))
-    return (f" AND work_id IN (SELECT work_id FROM works WHERE language IN ({placeholders}))",
+    return (f"work_id IN (SELECT work_id FROM works WHERE language IN ({placeholders}))",
             list(languages))
 
 
@@ -111,12 +117,13 @@ def lookup_word(conn: sqlite3.Connection, strongs: str | None = None, lemma: str
     if not strongs and not lemma:
         raise ValueError("word lookup needs strongs or lemma")
     where, params = [], []
-    language_sql = ""
     if strongs:
         where.append("strongs_id = ?")
         params.append(strongs.lstrip("GH"))
-        language_sql, language_params = _strongs_filter(strongs)
-        params.extend(language_params)
+        language_clause, language_params = _strongs_filter(strongs)
+        if language_clause:
+            where.append(language_clause)
+            params.extend(language_params)
     if lemma:
         where.append("lemma = ?")
         params.append(lemma)
@@ -125,8 +132,7 @@ def lookup_word(conn: sqlite3.Connection, strongs: str | None = None, lemma: str
         params.append(book)
     rows = conn.execute(
         f"SELECT work_id, book, chapter, verse, surface_form, lemma, strongs_id, gloss, domain_code "
-        f"FROM morphology WHERE {' AND '.join(where)}{language_sql} "
-        f"ORDER BY work_id, book, chapter, verse",
+        f"FROM morphology WHERE {' AND '.join(where)} ORDER BY work_id, book, chapter, verse",
         params,
     ).fetchall()
     return [dict(r) for r in rows]
@@ -137,8 +143,10 @@ def lookup_concordance(conn: sqlite3.Connection, strongs: str, book: str | None 
     """Every occurrence of one Strong's number -- the word-study-method.md 'concord across
     the corpus' step, without hand-writing the GROUP BY each time."""
     where, params = ["strongs_id = ?"], [strongs.lstrip("GH")]
-    language_sql, language_params = _strongs_filter(strongs)
-    params.extend(language_params)
+    language_clause, language_params = _strongs_filter(strongs)
+    if language_clause:
+        where.append(language_clause)
+        params.extend(language_params)
     if book:
         where.append("book = ?")
         params.append(book)
@@ -147,7 +155,7 @@ def lookup_concordance(conn: sqlite3.Connection, strongs: str, book: str | None 
         params.append(work_id)
     rows = conn.execute(
         f"SELECT work_id, book, chapter, verse, gloss FROM morphology "
-        f"WHERE {' AND '.join(where)}{language_sql} ORDER BY work_id, book, chapter, verse",
+        f"WHERE {' AND '.join(where)} ORDER BY work_id, book, chapter, verse",
         params,
     ).fetchall()
     return [dict(r) for r in rows]

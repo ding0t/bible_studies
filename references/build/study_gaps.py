@@ -37,26 +37,67 @@ STRONG_ALIGNMENT = 18   # see quotations.py for the audit that set it
 MIN_VOTES = 12          # openbible's long tail is noise; this keeps the well-attested links
 
 
-def study_references(md_file: Path) -> tuple[str, set[tuple[str, int]], list[str]]:
-    """(title, {(osis_book, chapter)}, raw reference strings) from a study's frontmatter."""
+def cited_verses(display: str) -> set[int] | None:
+    """Verses named by a reference's display form, or None for a whole chapter.
+
+    'Mark 5:25-34' -> {25..34}; 'Leviticus 23' -> None. The distinction matters: a study citing a
+    verse range has NOT taken responsibility for the rest of the chapter, and treating it as though
+    it had makes every other verse there a source of phantom gaps.
+    """
+    if ":" not in display:
+        return None
+    span = display.split(":", 1)[1]
+    if "-" in span:
+        first, last = span.split("-", 1)
+        try:
+            return set(range(int(first), int(last) + 1))
+        except ValueError:
+            return None
+    try:
+        return {int(span)}
+    except ValueError:
+        return None
+
+
+def study_references(md_file: Path) -> tuple[str, dict[tuple[str, int], set[int] | None], list[str]]:
+    """(title, {(osis_book, chapter): verses or None}, raw reference strings) from frontmatter.
+
+    A value of None means the whole chapter was cited; a set means only those verses were.
+    """
     content = md_file.read_text(encoding="utf-8")
     if not content.startswith("---"):
-        return md_file.stem, set(), []
+        return md_file.stem, {}, []
     parts = content.split("---", 2)
     frontmatter = yaml.safe_load(parts[1]) or {}
     raw = split_compound(frontmatter.get("primary_passage") or "")
     raw += list(frontmatter.get("bible_references") or [])
-    chapters = set()
+    cited: dict[tuple[str, int], set[int] | None] = {}
     for ref in raw:
         parsed = parse_reference(ref)
-        if parsed:
-            book_num, chapter, _ = parsed
-            chapters.add((NUM_TO_OSIS[book_num], chapter))
-    return frontmatter.get("title", md_file.stem), chapters, raw
+        if not parsed:
+            continue
+        book_num, chapter, display = parsed
+        key = (NUM_TO_OSIS[book_num], chapter)
+        verses = cited_verses(display)
+        if key not in cited:
+            cited[key] = verses
+        elif cited[key] is not None:
+            cited[key] = None if verses is None else cited[key] | verses
+    return frontmatter.get("title", md_file.stem), cited, raw
 
 
-def gaps_for(conn: sqlite3.Connection, chapters: set[tuple[str, int]]) -> list[dict]:
-    """Links out of the study's passages that land on a chapter the study never cites."""
+def gaps_for(conn: sqlite3.Connection,
+              cited: dict[tuple[str, int], set[int] | None]) -> list[dict]:
+    """Links out of the study's passages that land on a chapter the study never cites.
+
+    The two directions take different granularity on purpose. SUPPRESSION is by chapter: a study
+    treating Matthew 21:18-22 does discuss Matthew 21, so a link landing anywhere in that chapter
+    is not an omission. SELECTION is by verse: links out of Matthew 21:5 and 21:42 belong to
+    passages this study never touches, and reporting them as its gaps is a phantom. Selecting by
+    chapter made every one of this tool's quotation-tier hits on olivet-discourse.md a false
+    positive.
+    """
+    chapters = set(cited)
     found: dict[tuple[str, int], dict] = {}
 
     def note(book, chapter, verse, kind, detail, source_ref):
@@ -71,16 +112,25 @@ def gaps_for(conn: sqlite3.Connection, chapters: set[tuple[str, int]]) -> list[d
             entry["detail"].append(detail)
 
     for book, chapter in sorted(chapters):
-        source = f"{book} {chapter}"
+        verses = cited[(book, chapter)]
+        span = "" if verses is None else (f":{min(verses)}" if len(verses) == 1
+                                          else f":{min(verses)}-{max(verses)}")
+        source = f"{book} {chapter}{span}"
+
+        def in_range(verse: int) -> bool:
+            return verses is None or verse in verses
+
         # links out of this chapter, in every class
         for r in conn.execute(
             "SELECT link_type, from_verse, to_book, to_english_chapter, to_english_verse, "
             "alignment, corroborated FROM scripture_links WHERE from_book=? AND from_chapter=? "
             "AND alignment>=? AND to_english_chapter IS NOT NULL", (book, chapter, STRONG_ALIGNMENT)):
+            if not in_range(r["from_verse"]):
+                continue
             mark = "*" if r["corroborated"] else " "
             kind = "candidate" if r["link_type"] == "quotation-hebrew" else "quotation"
             note(r["to_book"], r["to_english_chapter"], r["to_english_verse"], kind,
-                 f"{source}:{r['from_verse']} quotes {r['to_book']} "
+                 f"{book} {chapter}:{r['from_verse']} quotes {r['to_book']} "
                  f"{r['to_english_chapter']}:{r['to_english_verse']} (align {r['alignment']}){mark}",
                  source)
 
@@ -91,9 +141,11 @@ def gaps_for(conn: sqlite3.Connection, chapters: set[tuple[str, int]]) -> list[d
             if target is None:
                 continue
             for r in conn.execute(
-                "SELECT from_book, from_chapter, from_verse, alignment, corroborated "
+                "SELECT from_book, from_chapter, from_verse, to_verse, alignment, corroborated "
                 "FROM scripture_links WHERE link_type=? AND to_book=? AND to_chapter=? AND alignment>=?",
                 (link_type, target[0], target[1], STRONG_ALIGNMENT)):
+                if not in_range(r["to_verse"]):
+                    continue
                 mark = "*" if r["corroborated"] else " "
                 kind = "candidate" if link_type == "quotation-hebrew" else "quotation"
                 note(r["from_book"], r["from_chapter"], r["from_verse"], kind,
@@ -101,9 +153,11 @@ def gaps_for(conn: sqlite3.Connection, chapters: set[tuple[str, int]]) -> list[d
                      f"(align {r['alignment']}){mark}", source)
 
         for r in conn.execute(
-            "SELECT DISTINCT to_book, to_chapter, to_verse_start, votes FROM cross_references "
+            "SELECT DISTINCT from_verse, to_book, to_chapter, to_verse_start, votes FROM cross_references "
             "WHERE from_book=? AND from_chapter=? AND votes>=? ORDER BY votes DESC LIMIT 60",
             (book, chapter, MIN_VOTES)):
+            if not in_range(r["from_verse"]):
+                continue
             note(r["to_book"], r["to_chapter"], r["to_verse_start"], "crossref", None, source)
 
     ranked = sorted(found.values(),
@@ -113,14 +167,14 @@ def gaps_for(conn: sqlite3.Connection, chapters: set[tuple[str, int]]) -> list[d
 
 
 def report(conn, md_file: Path, limit: int) -> int:
-    title, chapters, raw = study_references(md_file)
+    title, cited, raw = study_references(md_file)
     rel = md_file.relative_to(REPO_ROOT)
-    if not chapters:
+    if not cited:
         print(f"\n{title}  ({rel})\n  no primary_passage or bible_references -- invisible to this check")
         return 0
-    ranked = gaps_for(conn, chapters)
+    ranked = gaps_for(conn, cited)
     print(f"\n{title}  ({rel})")
-    print(f"  cites {len(chapters)} chapters; {len(ranked)} chapters link in that it never mentions")
+    print(f"  cites {len(cited)} chapters; {len(ranked)} chapters link in that it never mentions")
     for entry in ranked[:limit]:
         kinds = []
         if entry["quotation"]:
