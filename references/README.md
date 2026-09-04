@@ -594,8 +594,25 @@ grading rather than the file paths: [docs/content/resources/patristic-sources.md
 
 ### These are translations, and that bounds what they can settle
 
-**Everything here except `apostolic-fathers-greek/` and `victorinus-csel49-latin.txt` is a
-19th-century English translation.** ANF and the Eusebius volume are Roberts-Donaldson and McGiffert
+**The corpus is now mixed, and which half a file belongs to decides what it can settle.** ANF and
+the Eusebius NPNF volume are 19th-century English translations. Alongside them sit six
+original-language texts, added 2026-09-04 and each fetched for a specific claim this repo already
+makes or checks:
+
+| Original | Covers | The claim it exists to settle |
+|---|---|---|
+| `victorinus-csel49-latin.txt` | Victorinus, both recensions (CSEL 49) | 2 Thess 2:7, *de medio* — the restrainer |
+| `eusebius-he-gcs-greek-bk1-5.txt` | Eusebius HE 1–5, Greek (GCS/Schwartz) | Melito's canon list, HE 4.26 |
+| `eusebius-he-gcs-greek-bk6-10.txt` | Eusebius HE 6–10, Greek | Origen's canon, HE 6.25 |
+| `cyprian-csel3-1-latin.txt` | Cyprian's treatises (CSEL 3.1, Hartel) | 1 John 5:7-8, the Comma Johanneum — *De unitate* 6 |
+| `irenaeus-harvey-vol2-latin-greek.txt` | Irenaeus, Latin + Greek fragments (Harvey) | Revelation 13:18, the 616 variant — *Adv. Haer.* 5.30.1 |
+| `augustine-migne-pl40-latin.txt` | Augustine, PL 40 | John 7:53–8:11 — *De coniugiis adulterinis* 2.7 |
+| `apostolic-fathers-greek/` | 15 Apostolic Fathers, Greek (Lake) | 1 Clement 5.4 on Peter, Ignatius, Didache |
+
+All are uncorrected OCR of public-domain print. Good for locating a passage and quoting a phrase;
+check a long quotation against page images. Greek OCR is much worse than Latin — search word stems,
+not accented phrases. Full detail, including what was verified present in each, is in the volume's
+own `PROVENANCE.md`. ANF and the Eusebius volume are Roberts-Donaldson and McGiffert
 Englishing their originals; the only original-language texts on the volume are the fifteen Apostolic
 Fathers in Greek. So Victorinus, Tertullian, Cyprian, Lactantius and Jerome are readable here only
 through a translator, and Melito survives inside Eusebius's Greek, of which we hold the English.
