@@ -54,6 +54,15 @@ def test_every_work_declares_a_scheme(conn):
     ("Joel", 3, 1, "masoretic", "lxx", ("Joel", 3, 1)),
     ("Mal", 3, 19, "masoretic", "english", ("Mal", 4, 1)),
     ("Mal", 3, 19, "lxx", "english", ("Mal", 4, 1)),
+    # Hosea is the same shape, and hid behind superscription_offset()'s two-verse window until a
+    # derived link resolved Romans 9:26's source to English Hosea 2:-1
+    ("Hos", 2, 1, "masoretic", "english", ("Hos", 1, 10)),   # the verse Rom 9:26 quotes
+    ("Hos", 2, 1, "lxx", "english", ("Hos", 1, 10)),
+    ("Hos", 2, 2, "masoretic", "english", ("Hos", 1, 11)),
+    ("Hos", 2, 3, "masoretic", "english", ("Hos", 2, 1)),
+    ("Hos", 2, 25, "masoretic", "english", ("Hos", 2, 23)),
+    ("Hos", 1, 9, "masoretic", "english", ("Hos", 1, 9)),    # before the split, unchanged
+    ("Hos", 2, 1, "masoretic", "lxx", ("Hos", 2, 1)),        # both keep the Hebrew division
     # Daniel: here it is the Masoretic that is the outlier; english and lxx agree
     ("Dan", 3, 31, "masoretic", "english", ("Dan", 4, 1)),
     ("Dan", 4, 1, "masoretic", "english", ("Dan", 4, 4)),

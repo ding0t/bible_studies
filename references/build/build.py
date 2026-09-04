@@ -914,7 +914,14 @@ def derive_scripture_links(conn: sqlite3.Connection) -> None:
         offset = versification.superscription_offset(
             chapter_lengths(conn, source_work, book, chapter),
             chapter_lengths(conn, "ebible-eng-web", aligned[0], aligned[1]))
-        return (aligned[0], aligned[1], aligned[2] - offset)
+        shifted = aligned[2] - offset
+        # A title shift that lands below verse 1 was never a title: the two chapters differ for
+        # some other reason, and shifting the front is the wrong correction. Hosea is now mapped
+        # explicitly above, but the guard stays -- it is what turned that bug into a visible
+        # impossible reference (English Hosea 2:-1) rather than a plausible wrong one.
+        if shifted < 1:
+            return (aligned[0], aligned[1], aligned[2])
+        return (aligned[0], aligned[1], shifted)
 
     def record(link_type, from_work, to_work, pair, to_scheme):
         fb, fc, fv = pair["from"]

@@ -45,10 +45,20 @@ def scheme_for_work(work_id: str) -> str:
 # (book, chapter, verse_start, verse_end) -> (english_chapter, verse_delta), where a None target
 # means "this passage has no counterpart in the english scheme at all". English is the hub: a
 # masoretic->lxx lookup goes through it. Anything not listed here maps to itself.
-# Joel and Malachi are where the English tradition, not the Hebrew, is the outlier: the LXX keeps
-# the Masoretic chapter division in both (Brenton's Joel has four chapters, his Malachi three), so
-# these rules belong to both schemes rather than to the Hebrew alone.
+# Hosea, Joel and Malachi are where the English tradition, not the Hebrew, is the outlier: the LXX
+# keeps the Masoretic chapter division in all three (Brenton's Joel has four chapters, his Malachi
+# three, and his Hosea 1 ends at verse 9 exactly as the WLC does), so these rules belong to both
+# schemes rather than to the Hebrew alone.
+#
+# Hosea hid for longer than the other two, and the reason is worth recording: its gap is exactly
+# two verses, which is the width of the superscription_offset() window below. The count-based scan
+# that found Joel and Malachi looks for chapters whose verse counts diverge, and Hosea's do -- but
+# any reference that landed wrong was then silently "corrected" by the title-shift heuristic, which
+# cannot tell a two-verse chapter division from a two-line psalm heading. It surfaced as Romans
+# 9:26 quoting Hosea 2:1 and resolving to English Hosea 2:-1, a verse number that cannot exist.
 _HEBREW_CHAPTER_DIVISION = [
+    ("Hos", 2, 1, 2, 1, 9),            # Hos 2:1-2      = EN Hos 1:10-11 (Rom 9:26 quotes 2:1)
+    ("Hos", 2, 3, 25, 2, -2),          # Hos 2:3-25     = EN Hos 2:1-23
     ("Joel", 3, 1, 5, 2, 27),          # Joel 3:1-5     = EN Joel 2:28-32 (the verse Acts 2 quotes)
     ("Joel", 4, 1, 21, 3, 0),          # Joel 4         = EN Joel 3
     ("Mal", 3, 19, 24, 4, -18),        # Mal 3:19-24    = EN Mal 4:1-6
