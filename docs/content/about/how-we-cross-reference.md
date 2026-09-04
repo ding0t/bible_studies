@@ -35,8 +35,8 @@ different, and it cannot find the next case like it. For that you have to look a
 ## Four kinds of evidence, deliberately kept apart
 
 The method produces four classes of link. They are stored separately and **never combined into a
-single relevance score**, because they are not the same kind of evidence and a reader deserves to
-know which one they are looking at.
+single relevance score**, because they are not the same kind of evidence, and which one a link
+rests on changes what it can be used for.
 
 ```mermaid
 flowchart LR
@@ -75,7 +75,7 @@ Testament into Hebrew. Where their rendering of a quotation reaches for the Old 
 Hebrew wording, that is a strong hint — but it is a Victorian Hebraist's judgement about what the
 text is doing, not evidence from the text itself. Those are labelled as candidates throughout.
 
-## How the correlation actually works
+## How the correlation works
 
 The technique comes from text-reuse detection — the field that also produces plagiarism checkers —
 adapted for the fact that Scripture quotes itself openly and adapts as it goes.
@@ -97,8 +97,7 @@ flowchart TD
     prep --> match --> check
 ```
 
-Three choices in that pipeline are worth explaining, because each was made for a reason and each is
-checkable.
+Three choices in that pipeline decide what it finds, and each is checkable.
 
 **Normalising first.** Brenton's 1851 Septuagint and the modern SBL Greek New Testament place accents
 differently. Compared as printed, identical words fail to match. Stripping accents before comparing
@@ -116,6 +115,28 @@ cross-reference dataset with no connection to the method. Where both agree, two 
 evidence point the same way. Where a strong textual match is *absent* from the reference list, that
 is the interesting case — a connection the tradition did not record.
 
+### The measurements, by name
+
+Retrieval is an inverted index over every four-word sequence, and a verse pair has to share at least
+two of them before it is scored at all. That step exists for a practical reason: 7,939 Greek New
+Testament verses against 22,948 Septuagint verses is 182 million possible pairs, and aligning them
+all is not a computation anyone runs. The index does cheap recall; the expensive scoring runs only
+on what survives it.
+
+What survives is measured four ways, and the four are stored side by side rather than summed:
+
+| measure | what it says |
+|---|---|
+| `alignment` | **Smith-Waterman local alignment** — the primary measure. Borrowed from sequence biology, where the same problem appears: find the best-matching stretch *inside* two longer sequences, tolerating insertions and deletions |
+| `longest_run` | the longest run of identical consecutive words. Kept because a reader can check it by hand — go and count the nine words — though it breaks at the first edit |
+| `containment` | the share of the quoting verse's four-word sequences that are shared, which is how much of the verse *is* quotation |
+| `idf_overlap` | shared sequences weighted by how rare they are, so a shared *"and it came to pass"* stops counting like a shared rare phrase |
+
+Rare-vocabulary allusion is scored differently again, because it has no shared phrasing to measure:
+a lemma appearing in at most 30 verses across the whole Greek corpus counts as distinctive, and two
+passages are linked when the summed rarity of the distinctive vocabulary they share passes a
+calibrated weight.
+
 ## Where the thresholds come from
 
 The independent reference data answers "how often is a link at this strength corroborated?", and the
@@ -131,13 +152,56 @@ The threshold sits at the cliff. For allusions the same test gives an even stark
 paired verses are corroborated **0.3%** of the time, and pairs above the rarity threshold **52%** —
 a 173-fold enrichment.
 
-None of that makes any individual link certain. It means the *grading* is honest, and a link
-presented as strong has earned it.
+None of that makes any individual link certain. It means a link presented as strong is one that
+survived the same test as every other.
+
+## What comes out, and where it comes from
+
+Every link lives in one table, `scripture_links`, in the site's reference database, and is rebuilt
+from scratch on each build — nothing is hand-curated, and a re-run produces the same rows. The four
+classes, the texts on each side of them, and what each currently holds:
+
+| class | from | to | links |
+|---|---|---|---|
+| `inner-biblical` | Westminster Leningrad Codex | itself | 822 |
+| `quotation-greek` | SBL Greek New Testament | Brenton's 1851 Septuagint | 140 |
+| `allusion-lemma` | MACULA Greek lemmas | Septuagint lemmas | 103 |
+| `quotation-hebrew` | Delitzsch Hebrew New Testament | Westminster Leningrad Codex | 49 |
+
+Those source texts are open-licensed, which is what makes the whole thing reproducible; the
+[source catalogue](about-our-datasets.md) gives each one's licence and provenance. The
+`inner-biblical` count is the largest because the Hebrew Bible quotes itself constantly, and the
+method rediscovers the canonical parallels without being told they exist — 2 Kings 19 ↔ Isaiah 37,
+Deuteronomy 5 ↔ Exodus 20, 2 Samuel 22 ↔ Psalm 18, Psalm 14 ↔ Psalm 53.
+
+Asking for a verse returns the evidence rather than a list of references:
+
+```bash
+uv run python query.py trace Heb 10 5
+```
+
+That prints each connection with how it was established, how strongly, the linked verse in its
+original language, an English rendering, and the words the two verses actually share. The same
+lookups are exposed to the site's authoring tools directly, and a companion script runs the data
+backwards — given a study, it reports what connects to that study's passages that the study never
+cites.
 
 ## What this gives you in a study
 
-**It finds what the lists missed.** Roughly one in five strong quotations carries no entry in the
-crowd-assembled reference data. Those are not weak results — they are the point.
+**It finds what the lists missed.** Twelve of the 140 strong Greek quotations — about one in twelve
+— are carried by no reference list at all. That figure is deliberately conservative: 27 of the 140
+are absent from the reference data *at that exact verse*, but 15 of those are cases where the list
+records the same quotation anchored a verse or two earlier, which is a difference in bookkeeping
+rather than a discovery. Only the remaining twelve are unrecorded.
+
+**Matthew 11:10** is the clearest of them. *"Behold, I send my messenger before your face"* is
+normally referenced to Malachi 3:1, and it is — but the first nine Greek words are also, verbatim,
+Exodus 23:20: *Ἰδοὺ ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου*. Matthew has conflated two
+passages. The crowd-assembled list carries the Malachi half and not the Exodus half; so does the
+World English Bible's own footnote apparatus, which is an independent set of editorial
+cross-references. Two inherited lists, the same blind spot, and a nine-word verbatim match sitting
+in plain sight. Luke 1:31 is the same shape — every list points it to Isaiah 7:14, and none to
+Genesis 16:11, where the angel gives Hagar the identical formula for naming Ishmael.
 
 **It reaches the deuterocanon.** Because our Septuagint lemma data covers Wisdom, Sirach and the
 Maccabees, the method surfaces connections no Protestant reference list carries: Paul at the
@@ -154,11 +218,40 @@ Psalm 95 — which Hebrews 3 quotes three times, at its three strongest points.
 21:5 follows the Hebrew more closely. That is not a curiosity. It bears on how the New Testament's
 authors read their Scriptures, and the links carry it.
 
+## Set against an inherited list
+
+The *Treasury of Scripture Knowledge* (1836) is the reference point here — public domain, still the
+most complete chain-reference set in English, and the thing this method is most often asked to
+justify itself against. It is not in this database; the corroboration check above runs against a
+modern crowd-voted set instead, with the World English Bible's own footnotes as a second, much
+smaller witness.
+
+Four differences are worth knowing, and they cut in both directions.
+
+**An inherited list is better at meaning.** TSK's compilers linked passages that speak to the same
+theme in different words — a mercy in Exodus to a mercy in Luke, with nothing textual in common.
+No text-reuse method can find those, this one included. It matches words, and a passage that shares
+an idea while sharing no vocabulary is invisible to it. For thematic work, the inherited list is the
+better tool and this one is no substitute.
+
+**A derived link is graded; a list entry is present or absent.** TSK gives no way to ask which of a
+verse's forty references is the quotation and which is a distant echo. Here, `alignment 40` and
+`alignment 18` are different claims, and the threshold between them was set by measurement.
+
+**A list is keyed to an English Bible, so it cannot see which text an author was reading.** This is
+the Hebrews 10:5 case at the top of this page. A chain reference points from Hebrews 10:5 to Psalm
+40:6 and stops. It cannot tell you that the two sentences differ because the author was quoting the
+Greek, because the list has no Greek in it. That distinction is the whole substance of the link.
+
+**A list cannot be run backwards, or extended.** TSK covers the Protestant canon and was finished in
+1836. It cannot reach Wisdom or Sirach, cannot be asked *what did this study fail to cite*, and
+cannot be recomputed when a better text becomes available. All three fall out of deriving the links
+instead of inheriting them.
+
 ## Tracing one verse
 
-All of it comes together at a single question: *where does this verse come from, and how do we
-know?* Ask that of Hebrews 10:5 and the answer is not a list of references but the evidence itself —
-the Greek of both verses, the words they share, and what an English Old Testament makes of the same
+Ask *where does this verse come from* of Hebrews 10:5 and the answer is the evidence itself — the
+Greek of both verses, the words they share, and what an English Old Testament makes of the same
 place:
 
 > **Hebrews 10:5** — "…but you prepared a body for me."
@@ -166,9 +259,8 @@ place:
 > *Θυσίαν καὶ προσφορὰν οὐκ ἠθέλησας, σῶμα δὲ κατηρτίσω μοι*
 > **English Psalm 40:6** — "Sacrifice and offering you didn't desire. You have opened my ears."
 
-Two texts, the same Greek words, and an English Old Testament saying something else entirely —
-because it renders the Hebrew. That is the whole argument of this page in four lines, and a reader
-can check every part of it.
+Two texts, the same Greek words, and an English Old Testament saying something else entirely,
+because it renders the Hebrew.
 
 Two things follow from grouping connections by method rather than ranking them together. A verse
 drawing on **two** sources shows both: Matthew 21:5 quotes Isaiah 62:11 and echoes Zechariah 9:9,
@@ -206,8 +298,7 @@ had: they tell you where to look.
 
 And it is bounded by what we can verify. Where the Septuagint's chapter numbering cannot be reliably
 mapped to an English Bible's — parts of Jeremiah, most of Proverbs — the link is recorded as having
-no English counterpart rather than given a reference that would be wrong. Silence is better than a
-confident mistake.
+no English counterpart rather than given a reference that would be wrong.
 
 ## Where the data lives
 
