@@ -43,24 +43,27 @@ scrolls, which they are doing anyway. Trade width for height every time.
 
 ## Fold a long chain into stages
 
-Group the steps into at most three stages, and stack the steps *inside* each stage:
+Group the steps into at most three stages, stack the steps *inside* each stage, and **stack the
+stages too** — `flowchart TD` with `direction TB` clusters is the narrowest form that still carries
+the grouping:
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph prep["Prepare the texts"]
       direction TB
-      A["Both texts,<br/>same language"]
-      B["Normalise —<br/>accents and case<br/>removed"]
-      A --> B
+      A["Both texts, same language"] --> B["Normalise — accents and case removed"]
     end
     subgraph match["Find candidates"]
       direction TB
-      D["Pairs sharing<br/>those sequences"]
-      E["Score by local<br/>alignment, rarity<br/>and overlap"]
-      D --> E
+      D["Pairs sharing those sequences"] --> E["Score by local alignment, rarity and overlap"]
     end
     prep --> match
 ```
+
+**Use `TD` for the outer direction unless you specifically want the stages side by side.** Same
+seven steps, same three stages, on `how-we-cross-reference.md`: `LR` outer puts the stages in three
+columns and costs 870px (65%); `TD` outer stacks them into one column at 346px, which renders at
+full size. The labels stop needing `<br/>` at that width, too.
 
 Two details make this work:
 
@@ -76,11 +79,10 @@ Two details make this work:
   choices the prose then explains, which is why the grouping reads as structure rather than as
   packing.
 
-Rejected alternative worth knowing: a plain `flowchart TD` chain fits at 100% (276px wide) but ran
-799px tall for seven steps and abandons the grouping. Reach for it when the steps genuinely have no
-stages — which is most of the time. Converting the linear chronologies on `olivet-discourse.md`,
-`rapture.md`, `prophecy-chart.md` and `bride-of-christ.md` from `LR` to `TD` took all four from
-under 40% to 100%, changing nothing but the first line.
+When the steps have no stages worth naming — which is most of the time — drop the subgraphs and use
+a plain `TD` chain. Converting the linear chronologies on `olivet-discourse.md`, `rapture.md`,
+`prophecy-chart.md` and `bride-of-christ.md` from `LR` to `TD` took all four from under 40% to
+100%, changing nothing but the first line.
 
 ## Three more rules the corpus pass produced
 

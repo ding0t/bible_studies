@@ -14,7 +14,7 @@ ai_provider_models:
 
 Most cross-reference lists are inherited. A publisher's chain-reference column, the *Treasury of
 Scripture Knowledge*, a crowd-voted dataset — each is a record of what previous readers found
-connected. That is genuinely useful, and this site uses one. But it has two limits: it reflects the
+connected. That is useful, and this site uses one. But it has two limits: it reflects the
 theological interests of whoever compiled it, and it cannot show you anything nobody thought to
 write down.
 
@@ -39,15 +39,19 @@ single relevance score**, because they are not the same kind of evidence and a r
 know which one they are looking at.
 
 ```mermaid
-flowchart TD
+flowchart LR
     subgraph textual["Textual fact — the same language on both sides"]
+        direction TB
         QG["quotation-greek<br/>Greek New Testament quoting<br/>the Greek Old Testament"]
         IB["inner-biblical<br/>the Hebrew Old Testament<br/>quoting itself"]
         AL["allusion-lemma<br/>shared rare vocabulary,<br/>no shared phrasing needed"]
+        QG ~~~ IB ~~~ AL
     end
     subgraph judged["Someone's judgement — useful, but not the same thing"]
+        direction TB
         QH["quotation-hebrew<br/>a 19th-century Hebrew New Testament<br/>matching the Hebrew Old Testament"]
         XR["cross-references<br/>crowd-assembled, inherited"]
+        QH ~~~ XR
     end
     textual --> USE(["What a study may lean on"])
     judged --> LEAD(["Leads worth chasing"])
@@ -77,25 +81,18 @@ The technique comes from text-reuse detection — the field that also produces p
 adapted for the fact that Scripture quotes itself openly and adapts as it goes.
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph prep["Prepare the texts"]
       direction TB
-      A["Both texts,<br/>same language"]
-      B["Normalise —<br/>accents and case<br/>removed"]
-      C["Index every<br/>4-word sequence"]
-      A --> B --> C
+      A["Both texts, same language"] --> B["Normalise — accents and case removed"] --> C["Index every 4-word sequence"]
     end
     subgraph match["Find candidates"]
       direction TB
-      D["Pairs sharing<br/>those sequences"]
-      E["Score by local<br/>alignment, rarity<br/>and overlap"]
-      D --> E
+      D["Pairs sharing those sequences"] --> E["Score by local alignment, rarity and overlap"]
     end
     subgraph check["Corroborate"]
       direction TB
-      F["Check against an<br/>unrelated<br/>reference list"]
-      G(["Graded,<br/>typed link"])
-      F --> G
+      F["Check against an unrelated reference list"] --> G(["Graded, typed link"])
     end
     prep --> match --> check
 ```
@@ -119,10 +116,10 @@ cross-reference dataset with no connection to the method. Where both agree, two 
 evidence point the same way. Where a strong textual match is *absent* from the reference list, that
 is the interesting case — a connection the tradition did not record.
 
-## Why you can trust the thresholds
+## Where the thresholds come from
 
-Every cut-off here was set by measurement, not by taste. The independent reference data gives a way
-to ask "how often is a link at this strength corroborated?", and the answer separates sharply:
+The independent reference data answers "how often is a link at this strength corroborated?", and the
+answer separates sharply:
 
 | Alignment strength | Corroborated independently |
 |---|---|
