@@ -280,6 +280,16 @@ generalises to every tell on that page: a reviewer grepping the guide's literal 
 every variant of them. *"Notice that…"* is listed there; *"Note what this is"* is not, and they are
 the same sentence.
 
+**Measure any mermaid diagram in the file** against
+[diagrams.md](../develop-bible-study/diagrams.md). A diagram wider than ~560px is scaled down whole
+by the browser, labels with it, and the defect is invisible in the markdown — the source of a 3725px
+diagram reads exactly like the source of a 400px one, so this is a finding no amount of careful
+reading produces. Render it (`npx mmdc -i d.mmd -o d.svg` and read the `viewBox`) rather than
+estimating from node count. The corpus was measured and cleared on 2026-09-04, so a diagram under
+50% now is a regression rather than inherited debt.
+Report as **Minor**, or **Moderate** under ~35%, where the labels are no longer legible at all and
+the diagram is decoration.
+
 Findings here are **Minor** one at a time; a style issue is never as severe as a wrong Bible quote.
 Raise it as **Moderate** when the register is *pervasive* rather than local — style-guide.md exists
 because prose that reads as machine-generated "undercuts the reader's trust in the research
