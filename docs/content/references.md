@@ -6,7 +6,8 @@ tags: ["cross-references", "septuagint", "method/textual-criticism", "tools"]
 draft: false
 date_created: 2026-09-04
 date_modified: 2026-09-04
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # Scripture Links
@@ -30,8 +31,9 @@ you what the claim rests on.
     quoting the **Septuagint**, and the Septuagint reads *"a body you have prepared for me"* where
     the Hebrew reads *"ears"*. Both verses are shown in Greek, sharing those words exactly.
 
-    Then try **Revelation 21:20** for an allusion no reference list carries, and **Matthew 21:5**
-    for a verse that draws on two passages at once.
+    Then try **Revelation 21:20** for an allusion no reference list carries, **Matthew 21:5** for a
+    verse drawing on two passages at once, and **Matthew 26:64** for one the texts cannot settle but
+    the tradition never lost.
 
 ## Reading the results
 
@@ -51,17 +53,29 @@ Where a quoted Old Testament verse is one the Dead Sea Scrolls also preserve, an
 Masoretic text lacks is shown with it, along with how much of that verse survives. A legible word in
 a torn line is worth less than one in an intact verse, and the display says which you have.
 
-## What it will not show you
+## Two kinds of knowing
 
-It finds quotation and vocabulary-level allusion. It does not find **paraphrase**. Matthew 26:64 —
-*"the Son of Man seated at the right hand of Power, and coming on the clouds of heaven"* — draws on
-Psalm 110:1 and Daniel 7:13, and this tool returns nothing for it, because Matthew changes the verb
-form, the object and the preposition until only three or four words survive intact. Lowering the
-threshold far enough to catch it would fill the results with coincidence: measured against
-independent data, a setting loose enough to reach Matthew 26:64 is wrong about two-thirds of what it
-returns, where the quotation results are right four times in five.
+Some connections can be established from the texts. Others have simply been known.
 
-Silence here means the method found nothing, not that there is nothing. It is a concordance, not a
-commentary.
+**Matthew 26:64** is the clearest case. Jesus tells the Sanhedrin they will see the Son of Man
+*"seated at the right hand of Power, and coming on the clouds of heaven"* — and the high priest tears
+his robes. He recognised it instantly: Psalm 110:1 and Daniel 7:13, the throne and the Son of Man,
+claimed together.
+
+This tool derives **nothing** there. Matthew paraphrases rather than quotes — the verb form changes,
+"of me" becomes "of Power", "with the clouds" becomes "on the clouds" — until barely three words
+survive intact from either passage. No amount of text comparison will find it, and lowering the
+threshold far enough to try would fill the results with coincidence.
+
+But the connection was never lost. It is in the reaction of the man who heard it, and it has been in
+cross-reference lists ever since. So the tool shows that too, in its own tier, plainly labelled:
+**Daniel 7:13, cited by 25 reference works. Psalm 110:1, cited by 15.**
+
+That is the honest shape of the thing. Where the texts can settle a link, you get the shared Greek
+and can judge it yourself. Where they cannot, you get what readers have long seen, marked as
+inherited rather than derived — a lead to follow, not evidence from the text. Where both speak, they
+corroborate each other. And where neither does, the tool says nothing rather than guessing.
+
+Silence here means nothing was found. It is a concordance, not a commentary.
 
 [How this works in detail](about/how-we-cross-reference.md){ .md-button }

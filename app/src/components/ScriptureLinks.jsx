@@ -137,6 +137,7 @@ export default function ScriptureLinks({ data }) {
     : [];
   const [selected, setSelected] = useState(null);
   const entries = selected ? byRef.get(selected) || [] : [];
+  const leads = (selected && data.leads[selected]) || [];
   const grouped = data.methodOrder
     .map((m) => [m, entries.filter((e) => e.link.m === m)])
     .filter(([, rows]) => rows.length > 0);
@@ -179,7 +180,11 @@ export default function ScriptureLinks({ data }) {
           <h2 style={{ margin: '0 0 0.3rem' }}>{selected}</h2>
           {texts_of(data, selected)}
           {grouped.length === 0 && (
-            <p style={{ color: theme.muted }}>No derived connection at this verse.</p>
+            <p style={{ color: theme.muted, margin: '0.8rem 0' }}>
+              {leads.length > 0
+                ? 'No connection could be derived from the texts here — the wording diverges too far. What the tradition has long recorded is below.'
+                : 'No connection at this verse.'}
+            </p>
           )}
           {grouped.map(([method, rows]) => (
             <section key={method} style={{ marginTop: '1.5rem' }}>
@@ -197,6 +202,37 @@ export default function ScriptureLinks({ data }) {
               ))}
             </section>
           ))}
+          {leads.length > 0 && (
+            <section style={{ marginTop: '1.75rem', paddingTop: '0.5rem',
+                              borderTop: `2px solid ${theme.line}` }}>
+              <h3 style={{ margin: '0 0 0.2rem' }}>
+                Traditionally cross-referenced{' '}
+                <span style={{ fontWeight: 400, color: theme.muted, fontSize: '0.75em' }}>
+                  — what readers have long seen here
+                </span>
+              </h3>
+              <p style={{ margin: '0 0 0.6rem', color: theme.muted, fontSize: '0.9em' }}>
+                Inherited rather than derived, so treat these as leads to follow rather than as
+                evidence from the text. They reach what a textual method cannot — a passage
+                paraphrased rather than quoted still leaves no words to match, but its first hearers
+                may have recognised it instantly.
+              </p>
+              {leads.map((lead) => (
+                <article key={lead.r} style={{ borderTop: `1px solid ${theme.line}`,
+                                               padding: '0.7rem 0' }}>
+                  <strong>{lead.r}</strong>{' '}
+                  <span style={{ color: theme.muted, fontSize: '0.85em' }}>
+                    cited by {lead.v} reference works
+                  </span>
+                  {data.texts[lead.r]?.e && (
+                    <p style={{ margin: '0.3rem 0 0', color: theme.muted }}>
+                      {data.texts[lead.r].e}
+                    </p>
+                  )}
+                </article>
+              ))}
+            </section>
+          )}
         </section>
       )}
     </div>
