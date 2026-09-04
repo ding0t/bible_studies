@@ -81,6 +81,22 @@ Listed so nothing gets silently dropped; pull one of these in when a study actua
 - **Open Bibles** (Bible Innovations) — aggregator of PD/CC translations, worth checking as a second source alongside scrollmapper
 - **Abbott-Smith Manual Lexicon**, **Dodson Greek-English Lexicon**, **Liddell-Scott-Jones (LSJ)** — Greek lexicons, likely public domain (pre-1929 sources) but not confirmed per-repo
 
+## Patristic originals (not GitHub — Internet Archive, stored outside this repo)
+
+The church fathers are not on GitHub in any usable original-language form, so they come from the
+Internet Archive instead: public-domain critical editions (CSEL, GCS, Migne) fetched as OCR text and
+held on the media volume with the rest of the external reference material, never committed here.
+
+The rule that governs them is the same one that governs translations of the Bible, and it was
+learned the hard way: **an English translation can establish that a father discusses a passage and
+what he argues, and can never establish what words he used.** A claim about a father's wording read
+off ANF was published on this site and had to be retracted once the Latin was fetched. Seven
+originals are now held — Victorinus, Eusebius (Greek, both halves of the *Church History*), Cyprian,
+Irenaeus, Augustine and Tertullian — each pulled for a specific passage rather than collected. See
+[references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) for
+the table of which claim each one answers, and the volume's own `PROVENANCE.md` for what was
+verified present in each.
+
 ## eBible.org (not GitHub — fetched at build time, not forked)
 
 [eBible.org](https://ebible.org/find/) is a plain file host, not a git repo, so the fork-under-`ding0t`-and-submodule mechanics below don't apply. Rather than vendoring raw USFM into this repo (one file dump per translation would sprawl, and there's no git history to pin against for reproducibility the way a submodule commit gives us), `references/build/build.py`'s `ingest_ebible()` downloads each translation's USFM zip on demand into a gitignored `references/build/cache/`, strips a couple of markup quirks the installed BibleOrgSys doesn't handle cleanly (see the function's own comments), and ingests straight into `bible-text.db`. Nothing here is pinned to a specific upstream revision — re-running the build re-fetches current content. Each source's license is checked individually (`ebible.org/find/show.php?id=<id>`) before adding; not everything listed there is public domain.

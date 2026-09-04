@@ -607,7 +607,16 @@ makes or checks:
 | `cyprian-csel3-1-latin.txt` | Cyprian's treatises (CSEL 3.1, Hartel) | 1 John 5:7-8, the Comma Johanneum — *De unitate* 6 |
 | `irenaeus-harvey-vol2-latin-greek.txt` | Irenaeus, Latin + Greek fragments (Harvey) | Revelation 13:18, the 616 variant — *Adv. Haer.* 5.30.1 |
 | `augustine-migne-pl40-latin.txt` | Augustine, PL 40 | John 7:53–8:11 — *De coniugiis adulterinis* 2.7 |
+| `tertullian-csel47-latin.txt` | Tertullian (CSEL 47, Kroymann) | 1 John 5:7-8 — *Adv. Praxean* 25, *"qui tres unum sunt, non unus"* |
 | `apostolic-fathers-greek/` | 15 Apostolic Fathers, Greek (Lake) | 1 Clement 5.4 on Peter, Ignatius, Didache |
+
+**Jerome's Prologue to the Canonical Epistles is deliberately absent.** It was wanted for the claim
+that Jerome defended the Comma there. Migne PL 29 and PL 30 were both fetched and checked and carry
+no such prologue — PL 29 is the Old Testament half of the *Divina Bibliotheca* only. The one
+downloadable text that would carry it is Wordsworth & White's Vulgate, **1937**, too recent for
+public-domain-by-age, so it was not taken. Fetchable is not the same as holdable. And it would not
+have settled the question anyway: the dispute is over *who wrote* the prologue, which no manuscript
+decides.
 
 All are uncorrected OCR of public-domain print. Good for locating a passage and quoting a phrase;
 check a long quotation against page images. Greek OCR is much worse than Latin — search word stems,
