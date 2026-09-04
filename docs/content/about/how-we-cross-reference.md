@@ -14,13 +14,17 @@ ai_provider_models:
 
 Most cross-reference lists are inherited. A publisher's chain-reference column, the *Treasury of
 Scripture Knowledge*, a crowd-voted dataset — each is a record of what previous readers found
-connected. That is useful, and this site uses one. But it has two limits: it reflects the
-theological interests of whoever compiled it, and it cannot show you anything nobody thought to
+connected. That is useful, and this site uses two of them. But they share two limits: each reflects
+the theological interests of whoever compiled it, and none can show you anything nobody thought to
 write down.
 
 So the links here are also **derived** — computed from the biblical texts themselves, in their
 original languages, by a method anyone can check. This page explains what that method is, what it
 can and cannot establish, and why the distinction matters when you are studying a passage.
+
+If you would rather see the output than the method, the links are searchable a verse at a time:
+
+[Look up a verse in Scripture Links](../references.md){ .md-button }
 
 ## The problem a reference list cannot solve
 
