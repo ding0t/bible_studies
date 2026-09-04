@@ -78,12 +78,26 @@ adapted for the fact that Scripture quotes itself openly and adapts as it goes.
 
 ```mermaid
 flowchart LR
-    A["Both texts,<br/>same language"] --> B["Normalise<br/>accents and case removed"]
-    B --> C["Index every<br/>4-word sequence"]
-    C --> D["Candidate pairs<br/>sharing sequences"]
-    D --> E["Score by local alignment,<br/>rarity and overlap"]
-    E --> F["Check against an<br/>unrelated reference list"]
-    F --> G["Graded, typed link"]
+    subgraph prep["Prepare the texts"]
+      direction TB
+      A["Both texts,<br/>same language"]
+      B["Normalise —<br/>accents and case<br/>removed"]
+      C["Index every<br/>4-word sequence"]
+      A --> B --> C
+    end
+    subgraph match["Find candidates"]
+      direction TB
+      D["Pairs sharing<br/>those sequences"]
+      E["Score by local<br/>alignment, rarity<br/>and overlap"]
+      D --> E
+    end
+    subgraph check["Corroborate"]
+      direction TB
+      F["Check against an<br/>unrelated<br/>reference list"]
+      G(["Graded,<br/>typed link"])
+      F --> G
+    end
+    prep --> match --> check
 ```
 
 Three choices in that pipeline are worth explaining, because each was made for a reason and each is

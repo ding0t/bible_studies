@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Thessalonians 4:15-18"
 bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "1 Corinthians 11:25", "1 Corinthians 6:19-20", "Ephesians 5:25-27", "1 Corinthians 1:2", "1 Corinthians 6:11", "Hebrews 10:10", "Hebrews 13:12", "Ephesians 2:10", "Genesis 5:21-24", "Hebrews 11:5", "Jude 1:14-15", "2 Kings 2:11", "Genesis 7:1", "Genesis 7:16", "Genesis 19:15-16", "Genesis 19:24", "2 Peter 2:5-9", "Luke 17:28-30", "Revelation 7:9-14"]
 date_created: 2024-04-23
-date_modified: 2026-08-23
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -242,7 +242,7 @@ At the millennium's close, Satan is judged once for all, the unsaved face the Gr
 The sequence above maps closely onto the structure of a first-century Jewish betrothal and wedding — likely not a coincidence, given that Jesus and Paul were both speaking to audiences who would have recognized the pattern immediately.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Betrothal, ketubah<br/>agreed price, bride set apart,<br/>covenant cup shared"] --> B["Bridegroom departs<br/>to prepare a place<br/>(John 14:2-3)"]
     B --> C["Undetermined wait<br/>bride watches, stays ready<br/>(Matt 25:1-13)"]
     C --> D["Sudden return<br/>often announced at midnight<br/>(Matt 25:6)"]

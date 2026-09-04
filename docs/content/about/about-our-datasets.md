@@ -5,7 +5,7 @@ description: "What Bible text, lexical, and commentary data backs this site, org
 tags: ["data", "sources", "licensing", "transparency", "mermaid"]
 draft: false
 date_created: 2026-07-27
-date_modified: 2026-08-23
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -34,51 +34,50 @@ convenience, not how useful the source would be to quote at length:
   short, attributed quotation; never reproduced or bulk-stored at length.
 
 ```mermaid
-flowchart TD
+flowchart LR
     subgraph open["Open — cite and quote freely"]
-        macula["MACULA Greek & Hebrew<br/>morphology, lemmas, Strong's,<br/>semantic domains, syntax, coreference"]
+        direction TB
+        macula["MACULA Greek & Hebrew<br/>morphology, lemmas, Strong's,<br/>semantic domains,<br/>syntax, coreference"]
         sblgnt["SBLGNT<br/>Greek New Testament"]
         wlc["Westminster Leningrad Codex<br/>+ morphhb tagging"]
         eng["WEB / ASV / YLT / KJV<br/>public-domain English"]
         lxx["Brenton Septuagint"]
         xref["OpenBible.info<br/>cross-references"]
+        macula ~~~ sblgnt ~~~ wlc ~~~ eng ~~~ lxx ~~~ xref
     end
 
     subgraph restricted["Restricted, non-commercial — usable now, flagged"]
+        direction TB
         bhsa["BHSA syntax trees<br/>cataloged, not yet queried"]
         byz["Byzantine / TR Greek text"]
-    end
-
-    subgraph quotation["Quotation-only — external, never bulk-stored"]
-        esv["ESV Study Bible"]
-        cbsb["Cultural Backgrounds<br/>Study Bibles"]
-        biblt["NIV Biblical Theology /<br/>CSB Ancient Faith<br/>Study Bibles"]
-        na28["NA28 Greek New Testament"]
+        bhsa ~~~ byz
     end
 
     twot["TWOT Strong's map<br/>ids & glosses: open<br/>full discussion: quotation-only"]
 
-    btdb[("bible-text.db<br/>built inside this repo")]
-    sndb[("study-notes.db<br/>built outside this repo,<br/>never committed")]
-    output["Word studies, concordances,<br/>and cross-references in<br/>every published study"]
+    subgraph quotation["Quotation-only — external, never bulk-stored"]
+        direction TB
+        esv["ESV Study Bible"]
+        cbsb["Cultural Backgrounds<br/>Study Bibles"]
+        biblt["NIV Biblical Theology /<br/>CSB Ancient Faith<br/>Study Bibles"]
+        na28["NA28 Greek New Testament"]
+        esv ~~~ cbsb ~~~ biblt ~~~ na28
+    end
 
-    macula --> btdb
-    sblgnt --> btdb
-    wlc --> btdb
-    eng --> btdb
-    lxx --> btdb
-    xref --> btdb
-    bhsa -.->|cataloged, not queried| btdb
-    byz --> btdb
-    twot -->|ids & glosses only| btdb
+    subgraph inrepo["Inside this repo"]
+        btdb[("bible-text.db")]
+    end
+    subgraph outrepo["Outside this repo, never committed"]
+        sndb[("study-notes.db")]
+    end
 
-    esv --> sndb
-    cbsb --> sndb
-    biblt --> sndb
-    na28 --> sndb
+    open --> inrepo
+    restricted --> inrepo
+    twot -->|"ids & glosses<br/>only"| inrepo
+    quotation --> outrepo
 
-    btdb --> output
-    sndb -->|short, attributed quotes| output
+    inrepo --> output["Word studies,<br/>concordances, and<br/>cross-references in<br/>every published study"]
+    outrepo -->|"short, attributed<br/>quotes"| output
 ```
 
 ## What each tier is for

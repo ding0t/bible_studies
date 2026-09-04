@@ -6,7 +6,7 @@ tags: ["chart", "timeline", "dispensationalism", "larkin"]
 draft: false
 bible_references: ["Genesis 1:1-2:3", "Exodus 20:11", "Colossians 2:16-17", "Hebrews 4:9", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 19:7-9", "Revelation 20:1-6", "Zechariah 14:4-5"]
 date_created: 2024-05-29
-date_modified: 2026-08-23
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -81,7 +81,7 @@ AD 70 are gathered back, the two threads converging through **the Tribulation** 
 resettled in the land, the Gentile nations "in blessing" alongside them.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Noah's three sons<br/>Japheth, Shem, Ham<br/>(Gen 7:1-24)"] --> B["Abraham's line<br/>the Jews"]
     B --> C["Jesus, then Pentecost<br/>Jew and Gentile<br/>gathered into the Church"]
     C --> D["The Church<br/>caught out<br/>(1 Thess 4:16-17)"]

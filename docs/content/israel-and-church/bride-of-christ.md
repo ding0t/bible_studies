@@ -107,7 +107,7 @@ also runs the other way: Israel's unfaithfulness is adultery, which is why the p
 harsh with it.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["God betroths Israel<br/>Hos 2:19-20; Isa 54:5; 62:5<br/>Jer 2:2; Ezek 16"] --> B["Bridegroom identified<br/>John 3:29"]
     B --> C["Church betrothed to Christ<br/>2 Cor 11:2; Eph 5:31-32"]
     C --> D["Prepared, presented<br/>Eph 5:27; Rev 19:8"]
@@ -369,9 +369,9 @@ documented. The type stands on the attested material and on Scripture's own stat
 details add colour and cost credibility.
 
 ```mermaid
-flowchart TD
+flowchart LR
     subgraph T1["TIER 1 — stated by Scripture itself"]
-      A1["Eph 5:31-32 · 2 Cor 11:2<br/>John 3:29 · Rev 19:7-9; 21:2, 9<br/>Hos 2:19-20 · Isa 54:5; 62:5"]
+      A1["Eph 5:31-32 · 2 Cor 11:2 · John 3:29<br/>Rev 19:7-9; 21:2, 9<br/>Hos 2:19-20 · Isa 54:5; 62:5"]
     end
     subgraph T2["TIER 2 — documented custom"]
       A2["Betrothal binding — m. Kiddushin 1:1<br/>Twelve-month interval — m. Ketubot 5:2<br/>Father's house — CBSB Matt 25:10<br/>Seven-day feast — Gen 29:27; Judg 14:12<br/>chuppah — Ps 19:5; Joel 2:16; Isa 4:5"]
@@ -379,9 +379,9 @@ flowchart TD
     subgraph T3["TIER 3 — no ancient source"]
       A3["Father inspects the chuppah<br/>'Only my father knows' as an idiom<br/>John 14:2 as a bridal chamber"]
     end
-    T1 --> C["The church as Christ's betrothed bride"]
+    T1 --> C["The church<br/>as Christ's<br/>betrothed bride"]
     T2 --> C
-    T3 -.->|"carries no weight;<br/>the doctrine does not rest on it"| C
+    T3 -.->|"carries no weight;<br/>the doctrine<br/>does not rest on it"| C
 ```
 
 ## Discussion Questions

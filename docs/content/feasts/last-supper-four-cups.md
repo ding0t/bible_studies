@@ -9,7 +9,7 @@ bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Cori
 zadok_year: 4036
 gregorian_year: 33
 date_created: 2026-07-19
-date_modified: 2026-08-23
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -200,9 +200,18 @@ after the grace following the meal.
 
 ```mermaid
 flowchart LR
-    MM["Matthew 26:26-29<br/>Mark 14:22-26"] --> MM1["Bread"] --> MM2["One cup, after the bread<br/>'my blood of the covenant'<br/>THE VOW attaches here"]
-    LK["Luke 22:14-20"] --> LK1["First cup, before the bread<br/>THE VOW attaches here"] --> LK2["Bread"] --> LK3["Second cup, after supper<br/>'the new covenant in my blood'"]
-    PL["1 Corinthians 11:23-26"] --> PL1["Bread"] --> PL2["Cup, after supper<br/>'the new covenant in my blood'<br/>(no vow narrated)"]
+    subgraph MMg["Matthew 26:26-29 · Mark 14:22-26"]
+      direction LR
+      MM1["Bread"] --> MM2["One cup, after the bread<br/>'my blood of the covenant'<br/>THE VOW attaches here"]
+    end
+    subgraph LKg["Luke 22:14-20"]
+      direction LR
+      LK1["First cup, before the bread<br/>THE VOW attaches here"] --> LK2["Bread"] --> LK3["Second cup, after supper<br/>'the new covenant in my blood'"]
+    end
+    subgraph PLg["1 Corinthians 11:23-26"]
+      direction LR
+      PL1["Bread"] --> PL2["Cup, after supper<br/>'the new covenant in my blood'<br/>(no vow narrated)"]
+    end
 ```
 
 **A textual note.** Luke 22:19b-20 is missing from Codex Bezae and a handful of Old Latin

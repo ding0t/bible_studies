@@ -109,15 +109,15 @@ altogether: one sign, unmissable, unschedulable. And the end of the age turns ou
 side of a stretch of time the disciples did not know was there.
 
 ```mermaid
-flowchart TD
-    Q["Matthew 24:3 — three questions,<br/>asked as though they were one"]
-    Q --> Q1["1. When will these things be?<br/>(the temple)"]
+flowchart LR
+    Q["Matthew 24:3 —<br/>three questions,<br/>asked as though<br/>they were one"]
+    Q --> Q1["1. When will<br/>these things be?<br/>(the temple)"]
+    Q1 --> A1["Already answered<br/>at 24:1-2, before<br/>they asked.<br/>Fulfilled AD 70 —<br/>Luke 21:20-24;<br/>Josephus"]
     Q --> Q2["2. What is the sign<br/>of your coming?"]
-    Q --> Q3["3. And of the end of the age?"]
-    Q1 --> A1["Already answered at 24:1-2,<br/>before they asked. Fulfilled AD 70 —<br/>Luke 21:20-24; Josephus"]
-    Q2 --> A2["24:27, 30 — ONE sign:<br/>the coming itself, needing no herald"]
-    Q3 --> A3["24:15-31 — the distress,<br/>then immediately the coming.<br/>Daniel's 70th week (Dan 9:27)"]
-    Q2 -.->|"and, four times over,<br/>a warning about anyone<br/>offering a different sign"| D["24:4-5, 11, 23-26"]
+    Q2 --> A2["24:27, 30 — ONE sign:<br/>the coming itself,<br/>needing no herald"]
+    Q --> Q3["3. And of the<br/>end of the age?"]
+    Q3 --> A3["24:15-31 — the<br/>distress, then<br/>immediately the<br/>coming. Daniel's<br/>70th week (Dan 9:27)"]
+    Q2 -.->|"and, four times over,<br/>a warning about anyone<br/>offering a different sign"| D["24:4-5, 11,<br/>23-26"]
 ```
 
 The asymmetry between the accounts is not a disagreement. Mark and Luke's readers asked a narrower
@@ -268,7 +268,7 @@ discourse opens with Jesus asking "Do you *see* (βλέπεις) these great bui
 buildings. Now watch out.
 
 ```mermaid
-flowchart LR
+flowchart TD
     S["13:2 — 'Do you SEE (blepeis)<br/>these great buildings?'"]
     S --> B1["13:5 BLEPETE<br/>'that no one leads you astray'"]
     B1 --> B2["13:9 BLEPETE<br/>'they will deliver you over'"]
@@ -427,9 +427,9 @@ prophecies" — a vantage the prophets themselves did not have.
 ![Larkin: The "Mountain Peaks" of Prophecy](../assets/img/larkin/mountain-peaks-of-prophecy.gif)
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["24:4-14 — the age itself<br/>deception, war, famine,<br/>persecution, endure, gospel<br/>to all nations"]
-    A -.->|"the gap: Daniel's 69th to 70th week.<br/>AD 70 falls here — the temple prophecy<br/>of 24:1-2 kept (Luke 21:20-24; Josephus)"| B
+    A -.->|"the gap: Daniel's 69th to 70th week.<br/>AD 70 falls here — the temple prophecy<br/>of 24:1-2 kept (Luke 21:20-24; Josephus)"| TRIB
     subgraph TRIB["24:15-28 — 'the tribulation of those days'"]
       direction TB
       B["Abomination of desolation<br/>(24:15; Dan 9:27)"] --> C["Flee — and flee fast<br/>(24:16-20)"]
@@ -772,7 +772,7 @@ dates — this is a passage about Gentile political control of Jerusalem, which 
 concern — but the text names the *kingdom's* arrival as the closing condition, not a state's founding.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["The cross<br/>'anointed one cut off'<br/>Dan 9:26"] --> B["AD 70<br/>city and sanctuary destroyed<br/>Dan 9:26b; Luke 21:20-24"]
     B --> C["The times of the Gentiles<br/>Luke 21:24; Dan 2<br/><i>the church age — outside<br/>Daniel's count</i>"]
     C -.->|"the church removed<br/>1 Thess 4:16-17<br/>2 Thess 2:1"| D["Daniel's 70th week<br/>a covenant with many<br/>Dan 9:27 — seven years"]

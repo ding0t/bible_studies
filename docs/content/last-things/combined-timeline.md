@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 11:10-32"
 bible_references: ["Genesis 5:1-32", "Genesis 7:11", "Genesis 11:10-32", "Genesis 12:4", "Exodus 12:40-41", "1 Kings 6:1", "Acts 7:4", "Galatians 3:17"]
 date_created: 2026-08-22
-date_modified: 2026-08-23
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -37,13 +37,15 @@ Above Terah the method changes completely. Genesis 5 and 11 give a father's age 
 ```mermaid
 flowchart LR
     subgraph E["ELASTIC — the count varies by manuscript"]
+        direction TB
         A["Creation<br/>3824-5470 BC<br/>depending on the tradition"] --> B["The Flood"] --> C["Babel"]
     end
     subgraph R["RIGID — the dates are fixed by anchors"]
+        direction TB
         D["Abraham<br/>1996 BC<br/>all traditions agree"] --> F["Exodus"] --> G["Solomon's temple"] --> H["Exile and return"] --> I["Christ"]
     end
-    C --> D
-    J["763 BC eclipse<br/>Assyrian eponym list"] -.->|"anchors everything<br/>by working backward"| D
+    E --> R
+    J["763 BC eclipse<br/>Assyrian eponym list"] -.->|"anchors everything<br/>by working backward"| R
 ```
 
 ## The spine

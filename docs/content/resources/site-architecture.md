@@ -5,7 +5,7 @@ description: "The tech behind this site: mkdocs with React tools bundled in, the
 tags: ["architecture", "mkdocs", "mermaid", "tech-stack"]
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-08-24
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -22,13 +22,13 @@ This site is two independent tools stitched into one deploy, plus a content-auth
 It was not always one system. Until August 2026 the two tools were a separate [Astro](https://astro.build/) project whose output was stitched into mkdocs' site directory at deploy time. Two builds meant two ideas of where the site root was, and when the site moved to a custom domain the mismatch made every tool asset 404 — silently, because the pages still rendered, just without their JavaScript. One build cannot disagree with itself:
 
 ```mermaid
-flowchart LR
+flowchart TD
     content["Study markdown<br/>title, category,<br/>zadok_year, gregorian_year"]
 
     content -->|build-events.js scans frontmatter| events["events.json"]
     genjson["genealogy JSON files"] --> bundles
     events --> bundles["esbuild bundles<br/>genealogy.js, timeline.js"]
-    bundles -->|written into docs/content/assets/js| assets["tool bundles<br/>as ordinary site assets"]
+    bundles -->|written into<br/>docs/content/assets/js| assets["tool bundles<br/>as ordinary site assets"]
 
     content -->|mkdocs build| site["site<br/>every page, tools included"]
     assets -->|mkdocs build| site
@@ -50,27 +50,28 @@ Progress on an in-flight study is tracked in a structured YAML file (`references
 None of this is part of the deployed site — it's local tooling under `references/build/` that *produces* content (Hebrew/Greek word data, cross-reference links) which then gets committed as ordinary markdown/JSON:
 
 ```mermaid
-flowchart TD
-    subgraph sources["Sources"]
+flowchart LR
+    subgraph text["Text pipeline"]
+        direction TB
         od["open-data submodules<br/>MACULA Greek/Hebrew, morphhb,<br/>SBLGNT, Strongs, STEPBible"]
         eb["eBible.org<br/>WEB, Brenton LXX, Tischendorf"]
-        sf["Sefaria-Export<br/>Mishnah, Talmud"]
-        sn["Commercial study Bibles<br/>ESV Study Bible, Cultural<br/>Backgrounds Study Bible"]
+        btdb[("bible-text.db<br/>open plus restricted-nc")]
+        query["query.py<br/>word, concordance,<br/>domain, verse lookup"]
+        od --> btdb
+        eb --> btdb
+        btdb --> query
     end
-
-    od --> btdb[("bible-text.db<br/>open plus restricted-nc")]
-    eb --> btdb
-    btdb --> query["query.py<br/>word, concordance, domain, verse lookup"]
-
-    sf --> sefcache["sefaria.py cache<br/>fetch-and-cache, no database"]
-
-    sn --> sndb[("study-notes.db<br/>quotation-only,<br/>stored outside this repo")]
-
-    studies["Study markdown<br/>primary_passage, bible_references"]
-    studies --> ci["commentary_index.py"]
-    ci --> commentaries["Bible commentaries<br/>auto cross-referenced"]
-    studies --> si["section_index.py"]
-    si --> navpages["Nav landing pages"]
+    subgraph ext["External / cached"]
+        direction TB
+        sf["Sefaria-Export<br/>Mishnah, Talmud"] --> sefcache["sefaria.py cache<br/>fetch-and-cache, no database"]
+        sn["Commercial study Bibles<br/>ESV Study Bible, Cultural<br/>Backgrounds Study Bible"] --> sndb[("study-notes.db<br/>quotation-only,<br/>stored outside this repo")]
+    end
+    subgraph gen["Generated pages"]
+        direction TB
+        studies["Study markdown<br/>primary_passage, bible_references"]
+        studies --> ci["commentary_index.py"] --> commentaries["Bible commentaries<br/>auto cross-referenced"]
+        studies --> si["section_index.py"] --> navpages["Nav landing pages"]
+    end
 ```
 
 Two databases, two different safety postures, on purpose: `bible-text.db` holds open and restricted-non-commercial data and lives inside this repo's directory tree (gitignored, regenerable). `study-notes.db` holds commercial study-Bible commentary — every source in it is quotation-only — and is built **entirely outside** this repo, on the machine's own storage, never even gitignored-but-present. `sefaria.py` doesn't use either database: Mishnah/Talmud addressing (chapter + mishnah/daf) doesn't fit a Bible book/chapter/verse schema, so it's a standalone fetch-and-cache instead.
