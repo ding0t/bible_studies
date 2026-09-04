@@ -414,3 +414,45 @@ correction_2026-09-01:
     The strict build surfaced a real coupling: olivet-discourse.md links olivet-discourse-parables.md,
     so publishing one while the other is still draft: true fails mkdocs build --strict. The two must
     be flipped to draft: false together, or the cross-link removed first.
+
+review_2026-09-04:
+  skill: review-bible-study
+  reviewer: anthropic/claude-opus-5
+  scope: >-
+    Phases 1-4 and 6-7 run. Phase 5 (independent commentary cross-check) and a full Phase 8
+    reading pass were NOT run -- the review was cut short deliberately, so those remain open.
+  checked:
+    - All 10 scripture blocks are ESV; 8 sampled and verified verbatim against study-notes.db.
+    - "planao (G4105) in Matthew: 8 occurrences confirmed, and 24:4/5/11/24 confirmed as the only
+       uses at Louw-Nida 31.8."
+    - "blepete in Mark 13 (13:5, 9, 23, 33) confirmed, correctly distinguished from the singular
+       blepeis at 13:2."
+    - "episynago (G1996) confirmed twice in Matthew 23:37, with the 24:31 recurrence the argument
+       leans on."
+    - Every internal markdown link resolves; npm run validate clean; provenance current.
+  findings:
+    - severity: moderate
+      status: fixed
+      detail: >-
+        The planao paragraph claimed "the other four are the wandering sheep of chapter 18
+        (domain 15.24)". Three are; the fourth is Matthew 22:29, domain 31.67 -- Jesus telling
+        the Sadducees they are mistaken, which is being deceived rather than deceiving anyone.
+        The load-bearing claim (24:4/5/11/24 are the only Matthean uses at 31.8) held, so the
+        conclusion stands; the supporting sentence now names 22:29 and its distinct sense.
+  not_verified:
+    - >-
+      The claim at the three-Gospel comparison table that the accounts give "the same illustrations
+      in the same order" is an ordering claim of exactly the shape Phase 4 warns about, and was not
+      checked. It needs the three sequences laid side by side.
+    - Phase 5 commentary cross-check.
+    - Phase 8 full reading pass for style register.
+  tooling_defects_found:
+    - >-
+      query.py lookup_concordance/lookup_word returned nothing whenever `book` was passed -- the
+      Strong's language filter bound its parameters out of order. This review would have reported
+      three TRUE claims as unsupported. Fixed, with the failing case now a test.
+    - >-
+      study_gaps.py selected source links by chapter, so a study citing Matthew 21:18-22 was
+      credited with all of Matthew 21 and flagged what 21:5 and 21:42 quote as its omissions. All
+      four quotation-tier hits on this study were false positives. Selection is now by verse;
+      suppression stays by chapter.

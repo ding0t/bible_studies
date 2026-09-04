@@ -232,9 +232,11 @@ the warning is the discourse's most repeated note.
 
 πλανάω (*planaō*, "lead astray, deceive," G4105) occurs eight times in Matthew's Gospel. Four of the
 eight are in this discourse — 24:4, 24:5, 24:11 and 24:24 — and those four are the only Matthean uses
-carrying the sense of deceiving somebody (Louw-Nida domain 31.8). The other four are the wandering
-sheep of chapter 18, which is a different sense entirely (domain 15.24). Every time Matthew's Jesus
-warns about deception, he is on the Mount of Olives.
+carrying the sense of misleading somebody (Louw-Nida domain 31.8). Three of the remaining four are
+the wandering sheep of chapter 18 — a different sense entirely (domain 15.24) — and the fourth is
+Jesus telling the Sadducees "you are wrong, because you know neither the Scriptures nor the power of
+God" (22:29), where the word means *being* mistaken rather than misleading anyone (domain 31.67).
+Every time Matthew's Jesus warns about someone deceiving others, he is on the Mount of Olives.
 
 The four warnings escalate. First a general caution: "See that no one leads you astray" (24:4). Then
 the mechanism: "many will come in my name, saying, 'I am the Christ,' and they will lead many astray"
