@@ -150,6 +150,15 @@ one."* The trailing clause names an alternative nobody proposed and the writer w
 take, so an ordinary act of reporting gets dressed up as courage. Cut the contrast, keep the fact:
 *"That's worth saying plainly"* → *"Say it: …"*, then say it.
 
+**The connective varies, and `rather than` is only the commonest one.** `not by`, `not from`,
+`instead of` and a bare `not X — Y` build the same shape, and Check 11's regex sees none of them.
+*"Every cut-off here was set by measurement, not by taste"* stood in `how-we-cross-reference.md`
+through a full review and a green validate run: *not by taste* charges an alternative nobody
+proposed, and the sentence carried no fact the corroboration table directly beneath it did not
+already show. It was deleted rather than rewritten — usually the right move, because the contrast
+tends to be the whole sentence. This is the `worth ___` lesson again: learn the shape, not the
+specimens.
+
 **The disclosure announcement** — a heading or lead-in advertising candour before delivering it:
 *"One dependency to state plainly."* / *"I'll say plainly:"* / *"One honest complication belongs
 here."* Name the thing, not your posture toward it. *"One dependency to state plainly."* → *"One
