@@ -6,7 +6,8 @@ tags: ["data", "method/textual-criticism", "cross-references", "septuagint", "tr
 draft: false
 date_created: 2026-09-04
 date_modified: 2026-09-04
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # How We Cross-Reference Scripture
@@ -141,6 +142,25 @@ Psalm 95 — which Hebrews 3 quotes three times, at its three strongest points.
 **It tells you which testament's text you are standing on.** Hebrews 10:5 follows the Greek; Matthew
 21:5 follows the Hebrew more closely. That is not a curiosity. It bears on how the New Testament's
 authors read their Scriptures, and the links carry it.
+
+## Reading against the scrolls
+
+The same database carries the biblical Dead Sea Scrolls, and can say where a scroll reads something
+the Masoretic Hebrew does not. Deuteronomy 32:8 is the standard case: 4Q37 reads *"sons of God"*
+where the Masoretic has *"sons of Israel"*, and both the Septuagint and the New Testament follow the
+scroll.
+
+Two cautions are built into how that is reported, because the scrolls are fragmentary and it is easy
+to overclaim. **Forty-six per cent of the letters in this corpus are a modern editor's
+reconstruction** — only a third of words survive with every letter intact — so a reading only counts
+when the differing word itself is whole. And every reading is reported with how much of its verse
+survives, because that is the difference between a well-preserved variant and a legible word in a
+torn line. Deuteronomy 32:8's reading is clear, but only two words of that verse remain, and a study
+citing it should say so.
+
+The comparison also runs one way only. A word the scroll has and the Masoretic lacks is a reading; a
+word the Masoretic has and the scroll lacks is almost always damage, and counting it would invent
+omissions out of holes.
 
 ## What it does not do
 

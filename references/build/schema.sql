@@ -85,6 +85,11 @@ CREATE TABLE morphology (           -- word-by-word tags on original-language ve
                                      -- Hebrew: doubles as verb conjugation (qatal, wayyiqtol, yiqtol,
                                      -- participle active, ...) -- useful, and not obvious from the name
     state TEXT,                     -- Hebrew only: absolute / construct / determined (construct chains)
+    extant INTEGER,                 -- dss-* only: 1 when NO sign in the word is reconstructed or
+                                     -- uncertain. Only 33% of biblical scroll words qualify -- 46%
+                                     -- of signs are a modern editor's reconstruction -- so a scroll
+                                     -- reading that differs from the Masoretic is only evidence
+                                     -- when this is set. Everything else is a tear.
     frame TEXT,                     -- verbal argument frame, e.g. 'A0:n40001018011' (A0 = agent, and
                                      -- the value points at a node_id). Pointers here are NOT normalized
                                      -- -- the field is a compound string, parse before joining
@@ -119,6 +124,29 @@ CREATE TABLE notes (                -- edition-bundled translator/study notes
     text TEXT NOT NULL
 );
 CREATE INDEX idx_notes_ref ON notes(book, chapter, verse);
+
+CREATE TABLE dss_variants (         -- where a Dead Sea Scroll reads something the Masoretic does
+                                    -- not, derived at build time. Compared at LEMMA level: the
+                                    -- scrolls' fuller spelling and their habit of splitting
+                                    -- prefixes into separate words swamp a surface comparison
+                                    -- (99% of verses "differ"), and both vanish at lemma level
+                                    -- (28%).
+    work_id TEXT NOT NULL REFERENCES works(work_id),   -- the scroll
+    book TEXT NOT NULL, chapter INTEGER NOT NULL, verse INTEGER NOT NULL,
+    lemma TEXT NOT NULL,             -- an extant scroll lemma the Masoretic verse does not carry
+    extant_words INTEGER NOT NULL,   -- how much of the VERSE survives. Weigh a reading by it, but
+                                     -- do not filter on it: what matters is that the differing word
+                                     -- itself is extant, and the surrounding context being torn
+                                     -- does not make a legible word less legible. Requiring five
+                                     -- surviving words discarded Deuteronomy 32:8 in 4Q37 -- the
+                                     -- best-known variant in the corpus -- where only four survive
+                                     -- but 'sons of God' is among them, whole.
+    -- ONE DIRECTION ONLY, deliberately. A lemma the scroll has and the Masoretic lacks is a
+    -- reading. A lemma the Masoretic has and the scroll lacks is almost always damage, and
+    -- recording it would manufacture omissions out of holes in the leather.
+    CHECK (extant_words >= 2)
+);
+CREATE INDEX idx_dssvar_ref ON dss_variants(book, chapter, verse);
 
 CREATE TABLE scripture_links (      -- derived here rather than ingested: see quotations.py for
                                     -- the method and the audits that set each threshold.

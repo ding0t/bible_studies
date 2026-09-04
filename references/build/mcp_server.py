@@ -222,6 +222,31 @@ def study_gaps(study_path: str, limit: int = 10) -> dict:
 
 
 @mcp.tool()
+def bible_variants(book: str, chapter: int, verse: int | None = None) -> dict:
+    """Where the Dead Sea Scrolls read something the Masoretic text does not.
+
+    Use it when a study rests on an Old Testament reading, especially one a New Testament writer
+    quotes. Deuteronomy 32:8 is the standard case: 4Q37 reads "sons of God" where the Masoretic has
+    "sons of Israel", and the Septuagint and New Testament follow the scroll.
+
+    Compared at LEMMA level -- the scrolls' fuller spelling and their habit of writing a prefix as
+    a separate word make 99% of verses "differ" on surface forms, which tells you nothing -- and
+    only fully-extant scroll words count, since 46% of signs in this corpus are a modern editor's
+    reconstruction. Reported one way only: a lemma the scroll has and the Masoretic lacks is a
+    reading, while the reverse is nearly always damage.
+
+    ALWAYS check `extant_words` before leaning on a row. It says how much of that verse survives:
+    Deuteronomy 32:8's reading is legible but sits in a verse where only two words do, and a study
+    should say so rather than cite it flat. Omit `verse` for a whole chapter.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_variants(conn, book, chapter, verse)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
 def bible_align(book: str, chapter: int, verse: int, from_scheme: str = "english") -> dict:
     """One reference as each versification scheme numbers it, with the works using each scheme.
 

@@ -10,6 +10,8 @@ from pathlib import Path
 
 import pytest
 
+import query
+
 from book_map import NUM_TO_OSIS
 
 DB_PATH = Path(__file__).parent.parent / "out" / "bible-text.db"
@@ -106,3 +108,52 @@ def test_psalm_22_reads_karu_not_kaari(conn):
         "SELECT text FROM verses WHERE work_id='morphhb-wlc' AND book='Ps' AND chapter=22 AND verse=17"
     ).fetchone()
     assert "כארי" in consonants(mt["text"])
+
+
+# --- variant readings against the Masoretic ---------------------------------------------------
+
+def test_variants_are_compared_at_lemma_level(conn):
+    """The choice that separates signal from noise. On surface forms 99% of comparable verses
+    "differ", because 1QIsaa spells more fully than the Masoretic and the scrolls write a prefix as
+    its own word. Both vanish at lemma level."""
+    total = conn.execute("SELECT COUNT(*) n FROM dss_variants").fetchone()["n"]
+    assert 500 < total < 5000, f"{total} readings -- surface-level noise or an over-tight filter"
+
+
+def test_only_fully_extant_words_become_variants(conn):
+    """46% of signs here are a modern editor's reconstruction. A differing word that is not extant
+    is a hole in the leather, and calling it a variant would invent readings."""
+    leaked = conn.execute(
+        "SELECT COUNT(*) n FROM dss_variants v JOIN morphology m "
+        "ON m.work_id=v.work_id AND m.book=v.book AND m.chapter=v.chapter AND m.verse=v.verse "
+        "WHERE m.extant = 0 AND m.lemma IS NOT NULL "
+        "AND NOT EXISTS (SELECT 1 FROM morphology m2 WHERE m2.work_id=v.work_id "
+        "  AND m2.book=v.book AND m2.chapter=v.chapter AND m2.verse=v.verse AND m2.extant=1)"
+    ).fetchone()["n"]
+    assert leaked == 0
+
+
+def test_deuteronomy_32_8_is_reported(conn):
+    """The best-known variant in the corpus, and the one an earlier filter discarded: requiring
+    five surviving words threw it out, though only four survive and 'sons of God' is among them,
+    whole. What matters is that the differing word is extant, not how much context is."""
+    rows = query.lookup_variants(conn, "Deut", 32, 8)["readings"]
+    assert any("אלהים" in r["lemma"] for r in rows), "the sons-of-God reading is missing"
+    assert all(r["extant_words"] >= 2 for r in rows)
+
+
+def test_isaiah_2_20_moles_is_reported(conn):
+    """1QIsaa has one word where the Masoretic has two -- a genuine crux, and a well-preserved
+    verse, so it carries more weight than Deuteronomy 32:8's."""
+    rows = query.lookup_variants(conn, "Isa", 2, 20)["readings"]
+    assert any("חפרפרה" in r["lemma"] and r["extant_words"] > 10 for r in rows)
+
+
+def test_variants_are_reported_one_direction_only(conn):
+    """A lemma the Masoretic has and a scroll lacks is nearly always damage. Recording it would
+    manufacture omissions out of gaps in the leather."""
+    for row in conn.execute("SELECT work_id, book, chapter, verse, lemma FROM dss_variants LIMIT 200"):
+        present = conn.execute(
+            "SELECT COUNT(*) n FROM morphology WHERE work_id=? AND book=? AND chapter=? AND verse=? "
+            "AND extant=1", (row["work_id"], row["book"], row["chapter"], row["verse"])).fetchone()["n"]
+        assert present > 0, "a variant was recorded from a verse with nothing extant"

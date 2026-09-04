@@ -730,16 +730,21 @@ def ingest_dss(conn: sqlite3.Connection) -> None:
         if text:
             verse_rows.append((work_id, book, chapter, verse, text))
         for position, w in enumerate(words, start=1):
+            # rec/unc sit on SIGN nodes, one level below the word -- a word is only evidence when
+            # none of its letters is a modern editor's reconstruction or a doubtful reading
+            extant = 0 if any(F.rec.v(s) or F.unc.v(s) for s in L.d(w, otype="sign")) else 1
             morph_rows.append((work_id, book, chapter, verse, position,
-                               F.glyph.v(w), F.lex.v(w), F.sp.v(w)))
+                               F.glyph.v(w), F.lex.v(w), F.sp.v(w), extant))
 
     conn.executemany(
         "INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", verse_rows)
     conn.executemany(
         "INSERT INTO morphology (work_id, book, chapter, verse, word_position, surface_form, "
-        "lemma, word_class) VALUES (?,?,?,?,?,?,?,?)", morph_rows)
+        "lemma, word_class, extant) VALUES (?,?,?,?,?,?,?,?,?)", morph_rows)
     conn.commit()
-    print(f"dss: {len(scrolls)} scrolls, {len(verse_rows)} verses, {len(morph_rows)} words")
+    whole = sum(1 for r in morph_rows if r[8])
+    print(f"dss: {len(scrolls)} scrolls, {len(verse_rows)} verses, {len(morph_rows)} words, "
+          f"{whole} fully extant ({100*whole//len(morph_rows)}%)")
 
 
 
@@ -827,6 +832,62 @@ def ingest_lxx_lemmas(conn: sqlite3.Connection) -> None:
     tagged = sum(1 for r in rows if r[7])
     print(f"lxx-lemmas: {books} books, {len(rows)} lemmatised words, "
           f"{tagged} with a Strong's number ({100*tagged//len(rows)}%)")
+
+
+
+def derive_dss_variants(conn: sqlite3.Connection) -> None:
+    """Where a scroll reads something the Masoretic does not.
+
+    Compared at LEMMA level, and that choice is the whole difference between signal and noise. On
+    surface forms 99% of comparable verses "differ" -- 1QIsaa's fuller spelling and the scrolls'
+    habit of writing a prefix as its own word swamp everything. At lemma level both vanish and the
+    figure falls to 28%, leaving readings: Isaiah 2:20's moles, where the scroll has one word where
+    the Masoretic has two.
+
+    Only fully-extant scroll words count. 46% of signs in this corpus are a modern editor's
+    reconstruction, so a differing word that isn't extant is a hole in the leather, not a variant.
+    But how much of the SURROUNDING verse survives is recorded rather than filtered on: an earlier
+    cut at five surviving words discarded Deuteronomy 32:8 in 4Q37, the best-known variant here,
+    where only four survive and "sons of God" is among them, whole.
+
+    One direction only: a lemma the scroll has and the Masoretic lacks is a reading; a lemma the
+    Masoretic has and the scroll lacks is almost always damage, and recording it would manufacture
+    omissions out of gaps.
+    """
+    masoretic: dict[tuple, set[str]] = {}
+    for book, chapter, verse, lemma in conn.execute(
+            "SELECT book, chapter, verse, lemma FROM morphology WHERE work_id='macula-hebrew-wlc' "
+            "AND lemma IS NOT NULL AND lemma != ''"):
+        key = quotations.normalise_hebrew(lemma)
+        if key:
+            masoretic.setdefault((book, chapter, verse), set()).add(key[0])
+
+    scrolls: dict[tuple, list[str]] = {}
+    for work_id, book, chapter, verse, lemma in conn.execute(
+            "SELECT work_id, book, chapter, verse, lemma FROM morphology "
+            "WHERE work_id LIKE 'dss-%' AND extant = 1 AND lemma IS NOT NULL AND lemma != ''"):
+        key = quotations.normalise_hebrew(lemma)
+        # single-letter lemmas are the article, the conjunction and the prepositions -- artefacts of
+        # how each source tokenizes a prefix, never a variant reading
+        if key and len(key[0]) > 1:
+            scrolls.setdefault((work_id, book, chapter, verse), []).append(key[0])
+
+    rows = []
+    for (work_id, book, chapter, verse), lemmas in sorted(scrolls.items()):
+        if len(lemmas) < 2:
+            continue        # nothing to compare against; see the schema note on why this is 2
+        against = masoretic.get((book, chapter, verse))
+        if not against:
+            continue
+        for lemma in sorted(set(lemmas) - against):
+            rows.append((work_id, book, chapter, verse, lemma, len(lemmas)))
+    conn.executemany(
+        "INSERT INTO dss_variants (work_id, book, chapter, verse, lemma, extant_words) "
+        "VALUES (?,?,?,?,?,?)", rows)
+    conn.commit()
+    verses = len({(r[1], r[2], r[3]) for r in rows})
+    print(f"dss variants: {len(rows)} readings across {verses} verses, "
+          f"{len({r[0] for r in rows})} scrolls")
 
 
 def derive_scripture_links(conn: sqlite3.Connection) -> None:
@@ -997,6 +1058,7 @@ def main() -> None:
     ingest_lxx_lemmas(conn)
     set_versification(conn)
     derive_scripture_links(conn)
+    derive_dss_variants(conn)
     conn.close()
     print(f"\nBuild complete: {DB_PATH}")
 

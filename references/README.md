@@ -255,7 +255,21 @@ ETCBC's Text-Fabric edition of **Martin Abegg's** transcriptions (with James E. 
 - **References follow the Masoretic division**, since that is what Abegg's editors aligned to. So Psalm 22:17 here is English Psalm 22:16 — use `query.py parallel` rather than assuming.
 - Where the editors could not assign a canonical book they put a scroll designation in the book field. Those are unidentified fragments and are **not** ingested.
 
-**Read the brackets before resting an argument on a reading.** `verses.text` keeps the `full` transcription including editorial marks — `[ ]` reconstruction, `#` and `?` damaged or uncertain letters — because **31.8% of the biblical words carry one**. A scroll reading that differs from the Masoretic while sitting inside brackets is an editor's reconstruction, not manuscript evidence, and a corpus that hid that distinction would be actively misleading for the textual criticism it exists to serve. `morphology.surface_form` carries the clean `glyph` form for tokenizing and lemma queries.
+**Read the brackets before resting an argument on a reading.** `verses.text` keeps the `full` transcription including editorial marks — `[ ]` reconstruction, `#` and `?` damaged or uncertain letters. The bracket notation marks 31.8% of biblical words, but the per-sign annotation underneath tells a far starker story: **46% of signs in this corpus are a modern editor's reconstruction, and only 33% of biblical words are free of any reconstructed or uncertain letter.** `morphology.extant` carries that per word — two-thirds of the biblical Dead Sea Scrolls is, letter by letter, editorial. A scroll reading that differs from the Masoretic while sitting inside brackets is an editor's reconstruction, not manuscript evidence, and a corpus that hid that distinction would be actively misleading for the textual criticism it exists to serve. `morphology.surface_form` carries the clean `glyph` form for tokenizing and lemma queries.
+
+**Variant readings.** `dss_variants` records where a scroll reads a lemma the Masoretic verse does not — 1,874 readings across 1,202 verses from 135 scrolls, derived at build time.
+
+Comparing at **lemma** level rather than surface level is the whole difference between signal and noise. 1QIsaa spells more fully than the Masoretic and the scrolls habitually write a prefix as its own word, so on surface forms **99%** of comparable verses "differ" and the output is worthless. At lemma level both disappear and the figure falls to 28%, leaving readings.
+
+Two disciplines are built in. Only **fully-extant** scroll words count, since a differing word that is partly reconstructed is a hole in the leather. And the comparison runs **one way only**: a lemma the scroll has and the Masoretic lacks is a reading, while the reverse is nearly always damage, and recording it would manufacture omissions out of gaps.
+
+`extant_words` says how much of the verse survives, and it is there to be *weighed*, not filtered on. An earlier cut requiring five surviving words silently discarded **Deuteronomy 32:8 in 4Q37** — the best-known variant in the corpus — because only four survive there, though <span dir="rtl">בני אלוהים</span> is among them, whole. What matters is whether the differing word is legible, not whether its neighbours are.
+
+```bash
+uv run python query.py variants Deut 32 8    # -> 4Q37 reads אלהים (2 words survive)
+uv run python query.py variants Isa 2 20     # -> 1Qisaa reads חפרפרה (13 survive)
+uv run python query.py variants Isa 53       # a whole chapter
+```
 
 Two readings this makes checkable in-repo for the first time:
 

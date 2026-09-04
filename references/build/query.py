@@ -472,6 +472,44 @@ def lookup_links(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
     }
 
 
+def lookup_variants(conn: sqlite3.Connection, book: str, chapter: int, verse: int | None = None,
+                     from_scheme: str = "english") -> dict[str, object]:
+    """Where the Dead Sea Scrolls read something the Masoretic text does not.
+
+    Compared at lemma level, because the scrolls' fuller spelling and their habit of writing a
+    prefix as a separate word make 99% of verses "differ" on surface forms and tell you nothing.
+    Only fully-extant scroll words count: 46% of signs in this corpus are a modern editor's
+    reconstruction, so a differing word that is not extant is damage rather than a reading.
+
+    Reported one way only. A lemma the scroll has and the Masoretic lacks is a reading; a lemma the
+    Masoretic has and the scroll lacks is nearly always a hole in the leather, and reporting it
+    would invent omissions. Pass a whole chapter by leaving `verse` unset.
+
+    This is what makes the claim that the scrolls side with the New Testament against the Masoretic
+    checkable rather than something taken on report -- but check `extant_words` before leaning on
+    any single row. A reading from a verse where six words survive carries less than one from
+    twenty.
+    """
+    reference = versification.align(book, chapter, verse or 1, from_scheme, "masoretic")
+    if reference is None:
+        return {"reference": f"{book} {chapter}", "readings": [],
+                "warning": "no Masoretic counterpart for this reference"}
+    sql = ("SELECT work_id, book, chapter, verse, lemma, extant_words FROM dss_variants "
+           "WHERE book=? AND chapter=?")
+    params: list = [reference[0], reference[1]]
+    if verse is not None:
+        sql += " AND verse=?"
+        params.append(reference[2])
+    sql += " ORDER BY verse, extant_words DESC, work_id, lemma"
+    rows = [dict(r) for r in conn.execute(sql, params)]
+    return {
+        "reference": f"{reference[0]} {reference[1]}" + (f":{reference[2]}" if verse else ""),
+        "scheme": "masoretic",
+        "readings": rows,
+        "scrolls": sorted({r["work_id"] for r in rows}),
+    }
+
+
 def lookup_alignment(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
                       from_scheme: str = "english") -> dict[str, object]:
     """One reference expressed in every versification scheme in the database, with the works that
@@ -621,6 +659,25 @@ def cmd_passage(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
         print(f"\n  -- note {n['chapter']}:{n['verse']} ({n['work_id']}) --\n  {n['text']}")
 
 
+def cmd_variants(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    r = lookup_variants(conn, args.book, args.chapter, args.verse)
+    print(f"{r['reference']} (masoretic numbering)\n")
+    if not r["readings"]:
+        print("  no scroll reading here that the Masoretic lacks")
+        if r.get("warning"):
+            print(f"  {r['warning']}")
+        return
+    current = None
+    for row in r["readings"]:
+        ref = f"{row['book']} {row['chapter']}:{row['verse']}"
+        if ref != current:
+            current = ref
+            print(f"  {ref}")
+        print(f"     {row['work_id']:14} reads {row['lemma']:14} "
+              f"({row['extant_words']} words of the verse survive)")
+    print("\n  lemma-level, fully-extant scroll words only; weigh by how much of the verse survives")
+
+
 def cmd_quotations(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
     r = lookup_links(conn, args.book, args.chapter, args.verse,
                      link_type=args.type, min_run=args.min_run)
@@ -742,6 +799,12 @@ def main() -> None:
     p_xref.add_argument("--from-scheme", default="english", choices=versification.SCHEMES,
                         help="scheme the reference is given in (default: english)")
     p_xref.set_defaults(func=cmd_crossref)
+
+    p_var = sub.add_parser("variants", help="Scroll readings the Masoretic text does not carry")
+    p_var.add_argument("book", help="OSIS book code, e.g. Isa")
+    p_var.add_argument("chapter", type=int)
+    p_var.add_argument("verse", type=int, nargs="?", help="omit for the whole chapter")
+    p_var.set_defaults(func=cmd_variants)
 
     p_quot = sub.add_parser("quotations", help="What this verse quotes, and who quotes it")
     p_quot.add_argument("book", help="OSIS book code, e.g. Heb")
