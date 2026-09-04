@@ -139,7 +139,7 @@ claims considerably more than the lesson does.
 | Most medieval Hebrew NT MSS are back-translations from Greek | **Accurate, and mainstream** — he agrees with the consensus here |
 | Anti-Catholic readings can't be explained as anti-Inquisition inventions | **Sound in form.** A genuine falsification of the standard explanation for those specific readings, and the strongest part of his case |
 | Patristic citation predates surviving manuscripts, so the reading is older | **Sound in form** — ordinary textual criticism |
-| …therefore the father was quoting *the Hebrew* | **Weak link.** Victorinus wrote in Latin; "when the church shall have gone out of the midst" tracks the Greek ἐκ μέσου γένηται closely enough to need no Hebrew source. A shared reading dates the reading, not the language |
+| …therefore the father was quoting *the Hebrew* | **Falsified, not merely weak.** Victorinus has now been located (*Commentary on the Apocalypse* 11.7, ANF 7): his 2 Thess 2:7 reads "until he be taken out of the way", and he identifies the restrainer as Roman imperial power. The wording attributed to him is not in the text, and his reading runs opposite. See section 5 |
 | Victorinus quoted c. AD 240 | **Off by ~60 years** — Victorinus of Pettau died c. 304 |
 | Lucian compiled the NT canon in the second century | **Conflated.** Lucian of Antioch died in 312. The "Lucianic recension" is a real concept tied to the Byzantine text-type, its attribution is itself debated, and it concerns text-type rather than canon |
 | Slide dates: Lucian ~150 BC, abridged ~100–200 BC, Hebrew ~200 BC | **A typo on the slide, not his position — it should read AD throughout.** He is explicit in the lesson: the New Testament was "written between 45 and 96 AD", Lucian assembled it "in the second century", and the Hebrew and Aramaic manuscripts are "medieval, 500 to 1500 AD". Those numbers are internally coherent; only the slide is wrong. Read the graph above with AD in all three boxes |
@@ -148,7 +148,7 @@ claims considerably more than the lesson does.
 | A king ordered John 8 removed to protect his kingdom | **Right idea, wrong source.** **Augustine** (*De Adulterinis Coniugiis* 2.7) says some removed the passage fearing it licensed sin. That is a stronger citation than the anecdote |
 | The Septuagint was a perfect translation by ~70 scholars | The **Letter of Aristeas** legend, generally read as apologetic rather than historical |
 | The critical text is the Received Text with material cut out | **The contested question, stated as premise.** The mainstream reading is the reverse — that the Byzantine text is later and fuller. Neither side can be assumed |
-| The scrolls always side with the NT against the MT | **Overstated** — Qumran is textually plural; that plurality is the finding |
+| The scrolls always side with the NT against the MT | **Overstated, and now quantified.** Of 140 strong NT quotations, 18 land on a verse with a scroll variant and **one** (Isaiah 61:1) is a case where a scroll sides with the NT against the MT — where the scrolls also split against each other. Isaiah 53:1 and 7:14 run the other way. Enumeration in section 5 |
 | The Shapira scrolls may be genuine after all | **Live, minority.** Dershowitz revived the case in 2021; still rejected by most, but no longer dismissible on the grounds used in the 1880s |
 
 ---
@@ -170,13 +170,66 @@ settling before it is cited.
 
 ---
 
-## 5. Leads worth chasing
+## 5. Leads, chased
 
 - **The Cochin manuscripts.** Traced: Ezekiel Raḥabi's Rabbinical-Hebrew Matthew, acquired by
   Claudius Buchanan in 1806 and given to Cambridge in 1809, digitised and publicly viewable.
   Eighteenth century, and Cambridge's own catalogue describes it as made for polemical purposes.
 - **The specific Thessalonians readings**, when his study publishes them — a one-line check now.
-- **Victorinus and Melito.** Both quotations need locating in their actual works before either is
-  used. The Melito date is right; the Victorinus one is not.
-- **His "~7 places" where the scrolls back a NT quotation against the MT.** Now testable against
-  `dss-*`. Worth enumerating them properly rather than accepting the count.
+  Still open; it depends on him.
+
+### The "~7 places" where the scrolls back a NT quotation against the MT — enumerated
+
+Done properly rather than accepted. Method: take the 140 `quotation-greek` links at alignment ≥ 18,
+move each source reference into the masoretic scheme with `versification.align`, and intersect with
+`dss_variants`. **Eighteen** of the 140 land on a verse where a scroll also differs from the
+Masoretic. Read one at a time, almost none of those differences is the reading the New Testament
+actually follows:
+
+| Verse | NT | What the scroll does |
+|---|---|---|
+| Isaiah 61:1 | Luke 4:18 | **The one clear hit.** 1QIsaa reads <span dir="rtl">רוח יהוה</span>, the single divine name the LXX and Luke carry, against the MT's double <span dir="rtl">אדני יהוה</span>. But 4Q56 and 4Q66 keep the MT's double name — the scrolls disagree with each other |
+| Isaiah 53:1 | John 12:38 | **Against him.** The NT's distinctive is the vocative *Κύριε*, a Septuagint plus the MT lacks. 1QIsaa, 1Q8 and 4Q57 all lack it too. Their actual variant is <span dir="rtl">אל</span> for <span dir="rtl">על</span>, irrelevant to the quotation |
+| Isaiah 7:14 | Matthew 1:23 | **Against him, and interestingly.** Four readings: MT <span dir="rtl">וקראת</span> "she shall call", 1QIsaa <span dir="rtl">וקרא</span> "he shall call", Brenton *καλέσεις* "you shall call", Matthew *καλέσουσιν* "they shall call". The scroll differs from the MT, but not in Matthew's direction — Matthew matches none of them |
+| Isaiah 29:13 | Mark 7:6 | The NT's distinctive is *μάτην*, "in vain". The scroll has <span dir="rtl">כמצות</span>, a prefixed *kaph*. Not the same reading |
+| Isaiah 49:6 | Acts 13:47 | 1QIsaa swaps Jacob and Israel — in the half of the verse Acts does not quote |
+
+The remaining thirteen are particles, pronouns and orthography (<span dir="rtl">את</span>,
+<span dir="rtl">הם</span>, <span dir="rtl">היא</span>, <span dir="rtl">הנה</span>), or verses where
+only two words survive.
+
+**So the claim does not hold in the form stated.** One case out of 140 quotations, and the scrolls
+split against each other even there. Note also that Deuteronomy 32:8 — the strongest scroll variant
+in the corpus, and the one this repo cites — is *not* among the eighteen, because no New Testament
+author quotes it at this strength. It matters via Second Temple theology, not via a quotation.
+
+**A caution about our own data.** `dss_variants` compares at lemma level, and Isaiah 29:13 shows the
+cost: it flags <span dir="rtl">ירא</span> and <span dir="rtl">רחוק</span>, which are morphological
+differences from <span dir="rtl">יראתם</span> and <span dir="rtl">רחק</span> rather than variant
+readings. The table finds candidates; it does not adjudicate them.
+
+### Victorinus — located, and it does not say what it is cited for
+
+*Commentary on the Apocalypse* 11.7 (Ante-Nicene Fathers vol. 7). His text of 2 Thessalonians 2:7
+reads **"Let him who now restraineth restrain, until he be taken out of the way"** — the ordinary
+rendering, with no "church" and no "midst" in it. And his own interpretation runs the other way from
+the use it is put to: the restrainer is Roman imperial power — *"he was in the kingdom of the
+Romans, and that he was among the Cæsars"*, *"he should come who then was the prince."*
+
+Two caveats kept: this is an English translation of one recension, and Victorinus survives in both
+his own text and Jerome's revision. But the burden sits with the claim, and the wording attributed
+to him is not in the text we have.
+
+**This matters beyond this file.** `references/study-state/melchizedek-priesthood.yml` flags
+"Victorinus of Pettau's 'restrainer = the church' reading of 2 Thess 2" as an open thread for
+possible addition to `rapture.md`. That thread should be closed, not added.
+
+### Melito — located
+
+The canon list, *Melito to his brother Onesimus*, preserved in Eusebius (*Hist. Eccl.* 4.26) and
+printed in ANF vol. 8. He says he "proceeded to the East, and went to the very spot where the things
+in question were preached", which is the point usually made from it. The date holds.
+
+One detail worth keeping: **his list has no Esther.** The Dead Sea Scrolls corpus in this repo has
+no Esther either, as the translations page already records. Two independent second-century-and-
+earlier witnesses, the same gap.

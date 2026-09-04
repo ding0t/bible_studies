@@ -251,6 +251,17 @@ rests on a single fragmentary line. "Uncorrupted" needs the same caution the Dea
 above records: 31.8% of words in this corpus carry an editorial mark, and a bracketed reading is a
 modern editor's reconstruction.
 
+The "agrees with Paul" axis has also now been enumerated rather than estimated. Of the 140 strong
+New Testament quotations of the Old that this repo derives, **eighteen land on a verse where a
+scroll also differs from the Masoretic — and read one at a time, one of them is a case where the
+scroll supplies the reading the New Testament follows.** That one is Isaiah 61:1, where 1QIsaa
+carries the single divine name Luke 4:18 and the Septuagint have, against the Masoretic's double —
+and even there 4Q56 and 4Q66 keep the Masoretic reading. Two of the most quoted verses run the other
+way outright: at Isaiah 53:1 the *"Lord"* that John 12:38 opens with is a Septuagint plus that all
+three scrolls lack, and at Isaiah 7:14 the scroll reads *he shall call* where the Masoretic has *she
+shall call* and Matthew has *they shall call* — the scroll differs from the Masoretic, but not in
+Matthew's direction.
+
 The deeper issue is that the two axes do not partition together. At Deuteronomy 32:8 the scroll
 reads *sons of God* against the Masoretic *sons of Israel*, siding with the New Testament; at
 Genesis 5:13 the same corpus sides with the Masoretic on a number. Qumran is textually plural —
