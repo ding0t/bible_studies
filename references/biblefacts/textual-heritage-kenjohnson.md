@@ -139,7 +139,7 @@ claims considerably more than the lesson does.
 | Most medieval Hebrew NT MSS are back-translations from Greek | **Accurate, and mainstream** — he agrees with the consensus here |
 | Anti-Catholic readings can't be explained as anti-Inquisition inventions | **Sound in form.** A genuine falsification of the standard explanation for those specific readings, and the strongest part of his case |
 | Patristic citation predates surviving manuscripts, so the reading is older | **Sound in form** — ordinary textual criticism |
-| …therefore the father was quoting *the Hebrew* | **Falsified, not merely weak.** Victorinus has now been located (*Commentary on the Apocalypse* 11.7, ANF 7): his 2 Thess 2:7 reads "until he be taken out of the way", and he identifies the restrainer as Roman imperial power. The wording attributed to him is not in the text, and his reading runs opposite. See section 5 |
+| …therefore the father was quoting *the Hebrew* | **His gloss runs the other way; the wording is untested.** Victorinus has been located (*Commentary on the Apocalypse* 11.7, ANF 7) and reads the restrainer as Roman imperial power, not the Church. But the wording claim cannot be settled from ANF: he wrote Latin, and *de medio* is literally "out of the midst", so the two English renderings may be one Latin phrase. Needs the Latin. See section 5 |
 | Victorinus quoted c. AD 240 | **Off by ~60 years** — Victorinus of Pettau died c. 304 |
 | Lucian compiled the NT canon in the second century | **Conflated.** Lucian of Antioch died in 312. The "Lucianic recension" is a real concept tied to the Byzantine text-type, its attribution is itself debated, and it concerns text-type rather than canon |
 | Slide dates: Lucian ~150 BC, abridged ~100–200 BC, Hebrew ~200 BC | **A typo on the slide, not his position — it should read AD throughout.** He is explicit in the lesson: the New Testament was "written between 45 and 96 AD", Lucian assembled it "in the second century", and the Hebrew and Aramaic manuscripts are "medieval, 500 to 1500 AD". Those numbers are internally coherent; only the slide is wrong. Read the graph above with AD in all three boxes |
@@ -208,17 +208,60 @@ cost: it flags <span dir="rtl">ירא</span> and <span dir="rtl">רחוק</span>
 differences from <span dir="rtl">יראתם</span> and <span dir="rtl">רחק</span> rather than variant
 readings. The table finds candidates; it does not adjudicate them.
 
-### Victorinus — located, and it does not say what it is cited for
+### Victorinus — located, and his gloss runs against the use he is put to
 
-*Commentary on the Apocalypse* 11.7 (Ante-Nicene Fathers vol. 7). His text of 2 Thessalonians 2:7
-reads **"Let him who now restraineth restrain, until he be taken out of the way"** — the ordinary
-rendering, with no "church" and no "midst" in it. And his own interpretation runs the other way from
-the use it is put to: the restrainer is Roman imperial power — *"he was in the kingdom of the
-Romans, and that he was among the Cæsars"*, *"he should come who then was the prince."*
+*Commentary on the Apocalypse* 11.7 (Ante-Nicene Fathers vol. 7). He quotes 2 Thessalonians 2:7 and
+then glosses it, and the gloss is the finding: his restrainer is **Roman imperial power** — *"he was
+in the kingdom of the Romans, and that he was among the Cæsars"*, *"he should come who then was the
+prince."* Whatever his text of the verse read, he did not take the restrainer to be the Church.
 
-Two caveats kept: this is an English translation of one recension, and Victorinus survives in both
-his own text and Jerome's revision. But the burden sits with the claim, and the wording attributed
-to him is not in the text we have.
+**The wording — settled from the Latin, and this file had it wrong.** An earlier version claimed
+the phrase attributed to him, "when the church shall have gone out of the midst", "is not in the
+text", on the strength of ANF's *"until he be taken out of the way."* **That was an error produced
+by reading a translation.** Haussleiter's critical edition (CSEL 49, 1916) prints both recensions,
+and both carry *de medio* — literally "out of the midst":
+
+| Recension | 2 Thessalonians 2:7, as Victorinus cites it |
+|---|---|
+| *Editio Victorini*, p. 102 | *si modo tenet, qui uidetur, **donec de medio tollatur*** |
+| *Recensio Hieronymi*, p. 103 | *qui nunc tenet, teneat, **donec de medio fiat*** |
+
+So "out of the midst" is genuinely his Latin, in both recensions, and ANF's "out of the way" is an
+idiomatic Englishing of the same three words. The retracted claim was an artifact of the
+translation, exactly as the caution below predicts.
+
+**What the Latin does show.** The verb is impersonal in both — *tollatur*, *fiat*, "until he/it be
+out of the midst" — and **there is no *ecclesia* in either clause.** The rendering "when *the
+church* shall have gone out of the midst" supplies a subject the Latin does not have. That is now a
+verifiable observation rather than an inference from an English text.
+
+And his gloss is the same in both recensions, in Latin: *fuisse autem eum in regno regnorum et
+fuisse **inter Caesares*** (Editio), *in regno Romanorum et fuisse inter Caesares* (Hieronymi),
+*qui tunc erat **princeps***. Whatever the clause's subject, Victorinus reads the restraining
+situation as Roman imperial power.
+
+The date problem is independent of all of this and stands: Victorinus died c. 304 and cannot be a
+witness "by around AD 180."
+
+### Reading fathers in translation — a standing caution
+
+This repo already refuses to settle a Bible question from an English version when the original is
+available; the same rule has to apply to the fathers, and it did not here. The patristics corpus on
+the media volume is **almost entirely English**: ANF and the Eusebius volume are 19th-century
+translations, and the only original-language texts are the fifteen Apostolic Fathers in Greek
+(Lake's text). There is **no Latin at all**, so Victorinus, Tertullian, Cyprian and Jerome can
+currently be read here only through a translator.
+
+What that permits and forbids:
+
+- **Permitted.** Locating a passage, establishing that a father discusses a text at all, and reading
+  his *argument* — a gloss like "in the kingdom of the Romans" survives translation.
+- **Forbidden.** Any claim that turns on his exact words: that a phrase is absent, that he used one
+  term rather than another, or that his wording matches or fails to match a quotation. That is a
+  claim about the Latin or Greek, and it cannot be made from ANF.
+
+Melito's canon list has the same limitation: it survives inside Eusebius's Greek, and the copy here
+is NPNF's English.
 
 **This matters beyond this file.** `references/study-state/melchizedek-priesthood.yml` flags
 "Victorinus of Pettau's 'restrainer = the church' reading of 2 Thess 2" as an open thread for

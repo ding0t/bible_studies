@@ -592,6 +592,44 @@ grading rather than the file paths: [docs/content/resources/patristic-sources.md
   Peter (anf09). `anf10` is the index volume and is legitimately tiny (28 KB, image-only on CCEL) —
   not a failed download.
 
+### These are translations, and that bounds what they can settle
+
+**Everything here except `apostolic-fathers-greek/` and `victorinus-csel49-latin.txt` is a
+19th-century English translation.** ANF and the Eusebius volume are Roberts-Donaldson and McGiffert
+Englishing their originals; the only original-language texts on the volume are the fifteen Apostolic
+Fathers in Greek. So Victorinus, Tertullian, Cyprian, Lactantius and Jerome are readable here only
+through a translator, and Melito survives inside Eusebius's Greek, of which we hold the English.
+
+The repo already refuses to settle a Bible question from an English version when the original is
+available — [the ESV note in AGENTS.md](../AGENTS.md) is exactly that rule — and the fathers get the
+same treatment:
+
+| Question | ANF/NPNF can answer it? |
+|---|---|
+| Does this father discuss the passage at all, and where? | **Yes** — locating and citing is what the corpus is for |
+| What is he arguing? | **Yes.** A gloss like Victorinus's "in the kingdom of the Romans... among the Cæsars" survives translation |
+| Did he use *this exact word*? Is a phrase absent from his text? Does his wording match a quotation? | **No.** That is a claim about Latin or Greek, and a translation cannot support it |
+
+**The case that produced this rule, and how it ended.** Victorinus's *Commentary on the Apocalypse*
+11.7 was read here as evidence that a phrase attributed to him — "when the church shall have gone
+out of the midst" — "is not in the text", because ANF renders 2 Thessalonians 2:7 as *"until he be
+taken out of the way."* **The Latin was then fetched, and the claim was wrong.** Haussleiter's
+critical edition (CSEL 49, 1916, now on the volume as `victorinus-csel49-latin.txt`) prints both
+recensions and both carry *de medio*: *donec de medio tollatur* (Editio Victorini, p. 102) and
+*donec de medio fiat* (Recensio Hieronymi, p. 103). ANF's "out of the way" is an idiomatic Englishing
+of the same three words, and reading it as evidence against the phrase was exactly the error this
+section forbids.
+
+What the Latin *does* show is subtler and could not have been got from the translation either: both
+verbs are impersonal, and **no *ecclesia* stands in either clause** — so a rendering that supplies
+"the church" as the subject is adding the disputed term. The lesson runs both ways: the translation
+neither refutes the wording nor establishes it.
+
+**For other wording questions**, the sources are Migne's *Patrologia Latina*, CSEL, or the Greek of
+Eusebius. The Internet Archive carries public-domain CSEL and PL volumes and is reachable from the
+sandbox — CSEL 49 came from identifier `victoriniepiscop49victuoft`. Adding one is a licence-tier
+decision like any other source; a pre-1929 critical edition is public domain by age.
+
 **Fetching more from CCEL.** The plain text lives at `/ccel/s/schaff/<id>/cache/<id>.txt`. The
 `/ccel/schaff/<id>.txt` landing page **returns HTML with a 200**, so a naive fetch looks like it
 worked until you read the file — check for `<!DOCTYPE` before trusting it. `ccel.org` and
