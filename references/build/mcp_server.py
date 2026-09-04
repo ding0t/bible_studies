@@ -247,6 +247,34 @@ def bible_variants(book: str, chapter: int, verse: int | None = None) -> dict:
 
 
 @mcp.tool()
+def bible_trace(book: str, chapter: int, verse: int, translation: str | None = None) -> dict:
+    """Everything the corpus knows about one verse, with the evidence for each connection shown.
+
+    The tool to reach for when a study turns on where a verse comes from. Unlike a cross-reference
+    list, every connection carries HOW it was established, how strongly, the linked verse in its
+    original language, an English rendering, and the words the two verses actually share -- so a
+    reader can judge the link rather than take it on trust.
+
+    Connections are grouped by method and never merged into one score. quotation-greek and
+    inner-biblical are textual facts, both sides being the same language. allusion-lemma is shared
+    rare vocabulary with no shared phrasing. quotation-hebrew is a 19th-century translator's
+    judgement and must be verified in Greek. `leads` holds crowd-assembled cross-references, which
+    are worth chasing and are not evidence.
+
+    Where a link lands on an Old Testament verse the Dead Sea Scrolls attest, any scroll reading
+    the Masoretic lacks is attached, with how much of that verse survives.
+
+    Matthew 21:5 is a good demonstration: it returns the Isaiah 62:11 quotation, the Zechariah 9:9
+    echo, and a scroll variant -- which together show it to be a conflation of two passages.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_trace(conn, book, chapter, verse, translation)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
 def bible_align(book: str, chapter: int, verse: int, from_scheme: str = "english") -> dict:
     """One reference as each versification scheme numbers it, with the works using each scheme.
 

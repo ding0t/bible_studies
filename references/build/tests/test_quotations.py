@@ -314,3 +314,49 @@ def test_allusion_is_far_above_the_random_baseline(conn):
         "SELECT AVG(corroborated) r FROM scripture_links WHERE link_type='allusion-lemma'"
     ).fetchone()["r"]
     assert rate > 0.3
+
+
+# --- the composite trace lookup ----------------------------------------------------------------
+
+def test_trace_shows_the_words_two_verses_share(conn):
+    """The part no cross-reference list carries. A list asserts that two verses are connected;
+    this shows the words the claim rests on, so a reader can judge it."""
+    r = query.lookup_trace(conn, "Heb", 10, 5)
+    quotation = next(c for c in r["connections"] if c["method"] == "quotation-greek")
+    assert "σῶμα" in quotation["shared"], "the shared span should carry the quoted words"
+    assert quotation["shared"] in quotation["original"], "the span must come from the real text"
+
+
+def test_trace_resolves_the_english_verse_correctly(conn):
+    """Hebrews 10:5 quotes LXX Psalm 39:7, which is English Psalm 40:6 -- not 40:7. Re-aligning
+    from scratch loses the measured verse offset, so the stored reference is used instead."""
+    r = query.lookup_trace(conn, "Heb", 10, 5)
+    quotation = next(c for c in r["connections"] if c["method"] == "quotation-greek")
+    assert quotation["english_reference"] == "Ps 40:6"
+    assert "opened my ears" in quotation["english"], "should show what the ENGLISH OT says"
+    assert "σῶμα" in quotation["original"], "and what the GREEK OT says"
+
+
+def test_trace_surfaces_a_conflation(conn):
+    """Matthew 21:5 quotes Isaiah 62:11 and echoes Zechariah 9:9 -- one verse drawing on two
+    passages. Grouping by method shows both halves rather than picking a single best match."""
+    r = query.lookup_trace(conn, "Matt", 21, 5)
+    reached = {(c["method"], c["reference"].split(":")[0]) for c in r["connections"]}
+    assert ("quotation-greek", "Isa 62") in reached
+    assert ("allusion-lemma", "Zech 9") in reached
+
+
+def test_trace_attaches_scroll_readings_to_the_quoted_verse(conn):
+    """So a study can see at once whether the verse a New Testament writer quoted is textually
+    disputed, rather than having to think to ask."""
+    r = query.lookup_trace(conn, "Matt", 21, 5)
+    assert any(c.get("scroll_readings") for c in r["connections"])
+
+
+def test_trace_keeps_crowd_cross_references_out_of_the_evidence(conn):
+    """They are leads. Merging them with derived links would put crowd consensus and a textual
+    fact in one list, which is the thing this whole design refuses to do."""
+    r = query.lookup_trace(conn, "Heb", 10, 5)
+    assert r["leads"], "expected some cross-reference leads"
+    assert all("method" not in lead for lead in r["leads"])
+    assert all(c["method"] for c in r["connections"])

@@ -164,6 +164,33 @@ That is the case for local alignment in one table: adapted quotation is the norm
 
 Every candidate above two shared 4-grams is stored; there is deliberately **no per-verse cap**. Capping at the best few discarded 27% of qualifying pairs and, because ties broke on set iteration order, returned a different set on each run.
 
+**`query.py trace` — one verse, every connection, with the evidence shown.** The composite entry point, and the reason the classes were kept apart rather than merged. For a reference it returns each connection with *how* it was established, how strongly, the linked verse in its **original language**, an English rendering, and the words the two verses actually share.
+
+```
+$ uv run python query.py trace Heb 10 5
+
+Heb 10:5
+    διὸ εἰσερχόμενος εἰς τὸν κόσμον λέγει· Θυσίαν καὶ προσφορὰν οὐκ ἠθέλησας, σῶμα δὲ κατηρτίσω μοι·
+    ... but you prepared a body for me.
+
+  ── QUOTATION  (Greek on both sides -- a textual fact)
+
+    quotes Ps 39:7 = Ps 40:6   strength 18  [corroborated]
+        shared: Θυσίαν καὶ προσφορὰν οὐκ ἠθέλησας, σῶμα δὲ κατηρτίσω μοι·
+        Sacrifice and offering you didn't desire. You have opened my ears.
+```
+
+The whole thesis is visible in one output: the Greek New Testament and the Greek Old Testament share those words exactly, while the English Old Testament reads *"you have opened my ears"* — because it translates the Hebrew.
+
+The `shared` span is the part no cross-reference list carries. A list asserts a connection; this shows the words the claim rests on, sliced from the original text rather than the normalised form, so it can be quoted.
+
+Two further behaviours worth knowing:
+
+- **Conflations surface whole.** `trace Matt 21:5` returns the Isaiah 62:11 quotation *and* the Zechariah 9:9 echo, because grouping by method shows every half rather than picking one best match. Matthew is drawing on two passages and the output says so.
+- **Scroll readings attach to the quoted verse.** Where a link lands on an Old Testament verse the Dead Sea Scrolls attest, any reading the Masoretic lacks is shown with it — so a study sees whether the verse a New Testament writer quoted is textually disputed without having to think to ask.
+
+Crowd-assembled cross-references are returned under `leads`, never mixed into `connections`. Merging consensus with a textual fact is precisely what the design refuses to do.
+
 **Rare-lemma allusion, and the source that unblocked it.** The Septuagint's *text* was here from the start but not its lemmas, which blocked every lemma-level question about the Old Testament in the language the New Testament authors read it in. CCAT's morphological database is restrictively licensed — which is why our own `greek-resources` fork ships without it — but the Open Scriptures Septuagint Project's **lemma files are a separate work, CC BY 4.0**, carrying only a key and a lemma and none of CCAT's text. They had been sitting in `open-data/greek-resources/LxxLemmas/` unused: 59 books, **616,548 lemmatised words**, the deuterocanon included.
 
 That makes the cross-language bridge unnecessary rather than merely difficult. The Septuagint and the Greek New Testament **share a lemma inventory covering 96% of New Testament tokens**, so a lemma is a lemma and both sides are simply Greek. Where two passages share several lemmas that are rare across the whole corpus, that is evidence even with no shared phrasing:

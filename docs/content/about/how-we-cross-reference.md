@@ -143,6 +143,28 @@ Psalm 95 — which Hebrews 3 quotes three times, at its three strongest points.
 21:5 follows the Hebrew more closely. That is not a curiosity. It bears on how the New Testament's
 authors read their Scriptures, and the links carry it.
 
+## Tracing one verse
+
+All of it comes together at a single question: *where does this verse come from, and how do we
+know?* Ask that of Hebrews 10:5 and the answer is not a list of references but the evidence itself —
+the Greek of both verses, the words they share, and what an English Old Testament makes of the same
+place:
+
+> **Hebrews 10:5** — "…but you prepared a body for me."
+> **quotes Septuagint Psalm 39:7 = Psalm 40:6**, sharing
+> *Θυσίαν καὶ προσφορὰν οὐκ ἠθέλησας, σῶμα δὲ κατηρτίσω μοι*
+> **English Psalm 40:6** — "Sacrifice and offering you didn't desire. You have opened my ears."
+
+Two texts, the same Greek words, and an English Old Testament saying something else entirely —
+because it renders the Hebrew. That is the whole argument of this page in four lines, and a reader
+can check every part of it.
+
+Two things follow from grouping connections by method rather than ranking them together. A verse
+drawing on **two** sources shows both: Matthew 21:5 quotes Isaiah 62:11 and echoes Zechariah 9:9,
+and the trace returns each half rather than picking a winner. And where a quoted Old Testament verse
+is one the Dead Sea Scrolls also attest, any scroll reading the Masoretic lacks is attached to it —
+so the question of whether the quoted verse is textually disputed answers itself.
+
 ## Reading against the scrolls
 
 The same database carries the biblical Dead Sea Scrolls, and can say where a scroll reads something

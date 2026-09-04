@@ -510,6 +510,138 @@ def lookup_variants(conn: sqlite3.Connection, book: str, chapter: int, verse: in
     }
 
 
+# The witness to quote for each scheme when showing a link's original-language text.
+ORIGINAL_WORK = {"lxx": "ebible-grcbrent", "masoretic": "morphhb-wlc", "english": "sblgnt"}
+ENGLISH_WORK = "ebible-eng-web"
+
+
+def _verse_text(conn: sqlite3.Connection, work_id: str, book: str, chapter: int,
+                 verse: int) -> str | None:
+    row = conn.execute(
+        "SELECT text FROM verses WHERE work_id=? AND book=? AND chapter=? AND verse=?",
+        (work_id, book, chapter, verse)).fetchone()
+    return row["text"] if row else None
+
+
+def _shared_span(left: str | None, right: str | None, greek: bool) -> str | None:
+    """The longest run of words the two verses actually share, in their ORIGINAL spelling.
+
+    The point of the whole exercise. A cross-reference list asserts that two verses are connected;
+    this shows the reader the words on which the claim rests, so they can judge it rather than
+    trust it. Matching runs on the normalised forms -- accents and pointing removed -- but the span
+    returned is sliced out of the original text, because that is what a study quotes.
+    """
+    if not left or not right:
+        return None
+    normalise = quotations.normalise_greek if greek else quotations.normalise_hebrew
+    left_words, right_words = left.split(), right.split()
+    left_keys = [(normalise(w) or [""])[0] for w in left_words]
+    right_keys = {(normalise(w) or [""])[0] for w in right_words}
+
+    best_start = best_length = 0
+    start = length = 0
+    for index, key in enumerate(left_keys):
+        if key and key in right_keys:
+            if length == 0:
+                start = index
+            length += 1
+            if length > best_length:
+                best_start, best_length = start, length
+        else:
+            length = 0
+    if best_length < 2:
+        return None
+    return " ".join(left_words[best_start:best_start + best_length])
+
+
+def lookup_trace(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
+                  translation: str | None = None) -> dict[str, object]:
+    """Everything the corpus knows about one verse, with the evidence for each connection shown.
+
+    A cross-reference list gives you a list of references. This gives you, for each connection: how
+    it was established, how strongly, the linked verse in its ORIGINAL language, an English
+    rendering, and -- the part no reference list carries -- the words the two verses actually share.
+    A reader can then judge the link instead of taking it on trust.
+
+    Connections are grouped by how they were established and ordered by what that is worth, never
+    merged into one relevance score:
+
+      quotation-greek / inner-biblical   textual fact -- same language on both sides
+      allusion-lemma                     shared rare vocabulary, no shared phrasing
+      quotation-hebrew                   a 19th-century translator's judgement; verify in Greek
+      cross-references                   crowd-assembled and inherited; leads, not evidence
+
+    Where a link lands on an Old Testament verse the Dead Sea Scrolls also attest, any scroll
+    reading the Masoretic lacks is attached to it -- so a study can see at once whether the verse a
+    New Testament writer quoted is textually disputed.
+    """
+    scheme = _work_scheme(conn, _resolve_work_id(conn, translation))
+    english_ref = versification.align(book, chapter, verse, scheme, "english") or (book, chapter, verse)
+    result: dict[str, object] = {
+        "reference": f"{book} {chapter}:{verse}",
+        "english": _verse_text(conn, ENGLISH_WORK, *english_ref),
+        "connections": [],
+        "leads": [],
+    }
+    for work in ("sblgnt", "morphhb-wlc"):
+        original = _verse_text(conn, work, book, chapter, verse)
+        if original:
+            result["original"] = original
+            result["original_work"] = work
+            break
+
+    links = lookup_links(conn, book, chapter, verse, from_scheme=scheme)
+    order = ["quotation-greek", "inner-biblical", "allusion-lemma", "quotation-hebrew"]
+    for kind in order:
+        for direction, rows in (("quotes", links["links_from"].get(kind, [])),
+                                 ("quoted by", links["links_to"].get(kind, []))):
+            for row in rows:
+                if direction == "quotes":
+                    target = (row["to_book"], row["to_chapter"], row["to_verse"])
+                    target_scheme = LINK_TARGET_SCHEME[kind]
+                    # use the stored english reference rather than re-aligning: it already carries
+                    # the measured verse offset, and align() alone puts Hebrews 10:5's source at
+                    # Psalm 40:7 when the verse it quotes is 40:6
+                    stored_english = ((row["to_book"], row["to_english_chapter"],
+                                       row["to_english_verse"])
+                                      if row["to_english_chapter"] else None)
+                else:
+                    target = (row["from_book"], row["from_chapter"], row["from_verse"])
+                    target_scheme = "english" if kind in ("quotation-greek", "allusion-lemma") else "masoretic"
+                    stored_english = None
+                greek = target_scheme in ("lxx", "english")
+                original = _verse_text(conn, ORIGINAL_WORK[target_scheme], *target)
+                to_english = stored_english or versification.align(*target, target_scheme, "english")
+                entry = {
+                    "method": kind,
+                    "direction": direction,
+                    "reference": f"{target[0]} {target[1]}:{target[2]}",
+                    "scheme": target_scheme,
+                    "english_reference": f"{to_english[0]} {to_english[1]}:{to_english[2]}" if to_english else None,
+                    "original": original,
+                    "english": _verse_text(conn, ENGLISH_WORK, *to_english) if to_english else None,
+                    "shared": _shared_span(result.get("original"), original, greek),
+                    "strength": (row["idf_overlap"] if kind == "allusion-lemma" else row["alignment"]),
+                    "corroborated": bool(row["corroborated"]),
+                }
+                if to_english and target_scheme in ("lxx", "masoretic"):
+                    masoretic = versification.align(*to_english, "english", "masoretic")
+                    if masoretic:
+                        entry["scroll_readings"] = [dict(r) for r in conn.execute(
+                            "SELECT work_id, lemma, extant_words FROM dss_variants "
+                            "WHERE book=? AND chapter=? AND verse=?", masoretic)]
+                result["connections"].append(entry)
+
+    for row in lookup_crossref(conn, *english_ref, min_votes=8, limit=12):
+        result["leads"].append({
+            "reference": f"{row['to_book']} {row['to_chapter']}:{row['to_verse_start']}",
+            "votes": row["votes"],
+            "english": _verse_text(conn, ENGLISH_WORK, row["to_book"], row["to_chapter"],
+                                   row["to_verse_start"]),
+        })
+    return result
+
+
 def lookup_alignment(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
                       from_scheme: str = "english") -> dict[str, object]:
     """One reference expressed in every versification scheme in the database, with the works that
@@ -659,6 +791,59 @@ def cmd_passage(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
         print(f"\n  -- note {n['chapter']}:{n['verse']} ({n['work_id']}) --\n  {n['text']}")
 
 
+METHOD_LABEL = {
+    "quotation-greek": ("quotation", "Greek on both sides -- a textual fact"),
+    "inner-biblical": ("quotation", "Hebrew on both sides -- a textual fact"),
+    "allusion-lemma": ("allusion", "shared rare vocabulary, no shared phrasing"),
+    "quotation-hebrew": ("candidate", "a 19th-century Hebrew NT's judgement -- verify in Greek"),
+}
+
+
+def _wrap(text: str, width: int = 92, indent: str = "        ") -> str:
+    import textwrap
+    return "\n".join(textwrap.wrap(text, width, initial_indent=indent, subsequent_indent=indent))
+
+
+def cmd_trace(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    r = lookup_trace(conn, args.book, args.chapter, args.verse, args.translation)
+    print(f"\n{r['reference']}")
+    if r.get("original"):
+        print(_wrap(r["original"], indent="    "))
+    if r.get("english"):
+        print(_wrap(r["english"], indent="    "))
+
+    if not r["connections"]:
+        print("\n  no derived connection at this verse")
+    seen_method = None
+    for c in r["connections"]:
+        kind, why = METHOD_LABEL[c["method"]]
+        if c["method"] != seen_method:
+            seen_method = c["method"]
+            print(f"\n  ── {kind.upper()}  ({why})")
+        verb = {"quotation-greek": ("quotes", "quoted by"),
+                "inner-biblical": ("quotes", "quoted by"),
+                "allusion-lemma": ("echoes", "echoed by"),
+                "quotation-hebrew": ("may quote", "may be quoted by")}[c["method"]]
+        direction = verb[0] if c["direction"] == "quotes" else verb[1]
+        eng = f" = {c['english_reference']}" if c["english_reference"] != c["reference"] else ""
+        mark = "corroborated" if c["corroborated"] else "not in any reference list"
+        print(f"\n    {direction} {c['reference']}{eng}   strength {c['strength']}  [{mark}]")
+        if c["shared"]:
+            print(f"        shared: {c['shared']}")
+        if c["original"]:
+            print(_wrap(c["original"]))
+        if c["english"]:
+            print(_wrap(c["english"]))
+        for v in c.get("scroll_readings") or []:
+            print(f"        scroll variant: {v['work_id']} reads {v['lemma']} "
+                  f"({v['extant_words']} words of that verse survive)")
+
+    if args.leads and r["leads"]:
+        print("\n  ── LEADS  (crowd-assembled cross-references -- worth chasing, not evidence)")
+        for lead in r["leads"]:
+            print(f"    {lead['reference']:14} {lead['votes']:4} votes")
+
+
 def cmd_variants(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
     r = lookup_variants(conn, args.book, args.chapter, args.verse)
     print(f"{r['reference']} (masoretic numbering)\n")
@@ -799,6 +984,15 @@ def main() -> None:
     p_xref.add_argument("--from-scheme", default="english", choices=versification.SCHEMES,
                         help="scheme the reference is given in (default: english)")
     p_xref.set_defaults(func=cmd_crossref)
+
+    p_trace = sub.add_parser("trace", help="Everything linking to a verse, with the evidence shown")
+    p_trace.add_argument("book", help="OSIS book code, e.g. Heb")
+    p_trace.add_argument("chapter", type=int)
+    p_trace.add_argument("verse", type=int)
+    p_trace.add_argument("--translation", help="scheme the reference is given in (default: English)")
+    p_trace.add_argument("--leads", action="store_true",
+                         help="also show crowd-assembled cross-references")
+    p_trace.set_defaults(func=cmd_trace)
 
     p_var = sub.add_parser("variants", help="Scroll readings the Masoretic text does not carry")
     p_var.add_argument("book", help="OSIS book code, e.g. Isa")
