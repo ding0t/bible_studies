@@ -98,6 +98,11 @@ flowchart LR
     DISP["Disputed passages he treats<br/>1 John 5:7-8 · John 8"]
 ```
 
+**Published.** This three-line framing is now reproduced on
+[Bible Translations & Source Texts](../../docs/content/scripture/translations.md), attributed to him
+by name and with the two contested points below stated alongside it. That page is the vetted form;
+this file remains the working notes.
+
 **His argument.** Three lines descend from the original. The Received Text is the fullest; the
 critical text is that text with material cut out by cults editing to fit their doctrine; and a third
 line runs through Hebrew and Aramaic manuscripts. Most of that third line is medieval

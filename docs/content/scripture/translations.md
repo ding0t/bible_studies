@@ -134,6 +134,61 @@ is the whole argument for checking a verse rather than trusting a label.
 | **Byzantine/Majority Text** (Robinson-Pierpont) | 2005, revised 2013 | The Byzantine manuscript tradition underlying the KJV/Textus Receptus lineage — the majority reading by raw manuscript count | Valuable for seeing exactly where the eclectic critical texts diverge from the Majority Text, and why | "Majority by count" is a different argument than "earliest or best attested" — worth being explicit about that distinction whenever citing it | 🟡 `scrollmapper-Byz` |
 | **Textus Receptus** (Stephanus 1550 / Scrivener 1894) | 1550, standardized 1894 | The specific printed Greek text underlying the King James Version | Essential for explaining *why* the KJV reads differently from modern translations at a given verse (e.g. the Comma Johanneum at 1 John 5:7-8) | Based on a small number of late medieval manuscripts available to Erasmus in the 1500s, long since superseded by far older manuscript evidence | 🟡 `scrollmapper-TR` |
 
+### Three lines of transmission, as Ken Johnson frames them
+
+The table above is a catalogue: it says what each text is, but not how they relate to one another.
+Ken Johnson (Bible Facts) maps that relation as three lines descending from the original, in a study
+introducing his verse-by-verse work on the Hebrew Thessalonians
+([video](https://www.youtube.com/live/AN8EWx822pM)). It is redrawn here with his own spoken dates,
+because the shape is a useful map of the disagreement even where his argument is contested — and
+because a reader meeting "Textus Receptus" and "critical text" in the table deserves to know they
+are the endpoints of a live dispute rather than two neutral options.
+
+```mermaid
+flowchart LR
+    NT["New Testament<br/>c. AD 45-96"]
+    NT ==> L1
+    NT --> L2
+    NT --> L3
+    subgraph L1["Byzantine line — the one he argues for"]
+      direction TB
+      A1["Greek, Lucianic<br/>c. AD 150"] --> A2["Received Text<br/>printed AD 1400s"] --> A3["'Fullest text'<br/>KJV, AD 1611"]
+    end
+    subgraph L2["Alexandrian line"]
+      direction TB
+      B1["Greek, 'abridged'<br/>c. AD 100-200"] --> B2["Critical Text<br/>printed AD 1880s"] --> B3["'Smallest text'"]
+    end
+    subgraph L3["Hebrew / Aramaic line"]
+      direction TB
+      C1["Text c. AD 200<br/>manuscripts AD 500-1500"] --> C2["Copied from Greek<br/>in the Middle Ages"] --> C3["'Received Text plus'"]
+    end
+```
+
+**His argument.** The Received Text is the fullest, and the critical text is that text with material
+removed. The third line runs through Hebrew and Aramaic manuscripts: most of it is medieval
+back-translation from Greek, which he concedes freely, but a subset carries readings that
+back-translation does not explain — some of them *anti*-Catholic, which would have made an
+inquisition worse rather than deflected one, appearing at the same places across independent
+manuscript families, and quoted by church fathers who predate every surviving manuscript. Hence
+"Received Text **plus**" rather than a fourth text-type. That last argument is the strongest part of
+his case: it is a genuine falsification of the usual explanation for those particular readings,
+rather than an appeal to preference.
+
+**Where it is contested, and this site does not follow him.** *"The critical text is the Received
+Text with material cut out"* is the disputed question stated as a premise. The mainstream reading
+runs the other way — that the Byzantine text is the later and fuller one — and neither direction can
+be assumed from the diagram. His attribution of the first line to Lucian also conflates two things:
+Lucian of Antioch died in 312, not the mid-second century, and the "Lucianic recension" is a
+proposal about text-type whose attribution is itself debated, not an account of who assembled the
+canon.
+
+**What he explicitly does not claim.** Not Hebrew primacy — *"we don't want to argue that the Greek
+or the Hebrew or the Aramaic is the original."* He suggests Matthew and Paul may have written in
+more than one language, and warns against the fallacy in both directions: a shorter text is not
+automatically earlier, and a longer one is not either. The third line above bears on
+[the two Hebrew New Testaments](#hebrew-old-testament) this repo actually holds, where the same
+caution applies.
+
 ## Septuagint (Greek Old Testament)
 
 | Text | Date | What it is | Strengths | Cautions | Tracked here |
