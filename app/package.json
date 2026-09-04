@@ -14,8 +14,8 @@
     "lint:fix": "eslint src/ --fix",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css}\"",
     "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json,css}\"",
-    "build:tools": "npm run build:events && esbuild src/entries/genealogy.jsx src/entries/timeline.jsx --bundle --format=esm --jsx=automatic --outdir=../docs/content/assets/js --minify",
-    "dev:tools": "npm run build:events && esbuild src/entries/genealogy.jsx src/entries/timeline.jsx --bundle --format=esm --jsx=automatic --outdir=../docs/content/assets/js --watch"
+    "build:tools": "npm run build:events && esbuild src/entries/genealogy.jsx src/entries/timeline.jsx src/entries/references.jsx --bundle --format=esm --jsx=automatic --outdir=../docs/content/assets/js --minify",
+    "dev:tools": "npm run build:events && esbuild src/entries/genealogy.jsx src/entries/timeline.jsx src/entries/references.jsx --bundle --format=esm --jsx=automatic --outdir=../docs/content/assets/js --watch"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

@@ -17,13 +17,15 @@ nav:
   - commentaries
   - sermons
   - resources
-  # Both interactive tools are ordinary mkdocs pages: a React bundle built by esbuild into
+  # All three interactive tools are ordinary mkdocs pages: a React bundle built by esbuild into
   # docs/content/assets/js/ is mounted into each. Astro is gone, so there is no second build and
   # no stitch step, and `mkdocs serve` renders them like any other page -- run `npm run build:tools`
   # in app/ first, or the mount div comes up empty.
   # Deliberately flat rather than nested under a "Tools" section: the theme's navigation.prune
   # feature renders a section that is never on the active path as one link to its first child,
-  # which would have hidden the second tool entirely.
+  # which would have hidden the others entirely.
+  # references.md leads: it is the one a reader reaches for while actually studying a passage.
+  - references.md
   - timeline.md
   - genealogy.md
   - about

@@ -4,7 +4,7 @@ category: "other"
 description: "Personal Bible study notes: the Old and New Testaments read in context, with word studies in the original languages and every claim traceable to a source."
 draft: false
 date_created: 2026-07-10
-date_modified: 2026-08-23
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -122,6 +122,16 @@ which is not what coincidence produces.
 Two of these studies are charts you can drive rather than pages you read.
 
 <div class="grid cards" markdown>
+
+-   :material-link-variant:{ .lg .middle } __Scripture Links__
+
+    ---
+
+    Look up a verse and see what it quotes, what quotes it, and what it echoes — with the shared
+    wording highlighted in the original Greek or Hebrew. Every link is derived from the texts
+    themselves rather than copied from a reference list, so you can see why it was made.
+
+    [:octicons-arrow-right-24: Look up a verse](references/)
 
 -   :material-chart-timeline-variant:{ .lg .middle } __Prophetic Timeline__
 
