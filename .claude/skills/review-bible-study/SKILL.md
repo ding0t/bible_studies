@@ -35,6 +35,12 @@ Every quoted verse gets re-queried from source, not read for plausibility.
   for the access pattern; the `immutable=1` URI form is mandatory, not optional, under the sandbox.
 - **WEB/ASV/YLT/LXX/MT and other `bible-text.db` translations**: `query.py verse` or the `bible_verse`
   MCP tool.
+- **A reference is not a universal address, and getting it wrong is silent.** Hebrew Joel 3:1 is
+  English Joel 2:28; LXX Psalm 22 is English Psalm 23; the Masoretic and English traditions divide
+  Daniel, Joel and Malachi differently. Verifying a quotation against "the same verse" in another
+  work can therefore compare two unrelated verses and report a mismatch that isn't one. Use
+  `bible_parallel` to move a reference between two named works, or `bible_align` to see it in each
+  scheme, before concluding a study has misquoted anything.
 - Check three things per quote, not just the wording: (1) the text matches verbatim, punctuation
   included; (2) the cited reference is the verse actually quoted — a right quote under a wrong
   reference is as bad as a wrong quote; (3) the translation labeled is the translation actually queried.
@@ -191,6 +197,27 @@ each **covered**, **partial**, or **missing**:
 5. Cultural-vs-transcultural line drawn *explicitly*, not just assumed?
 6. Is the theological principle stated or taught elsewhere in Scripture, rather than resting on one
    narrative detail or incidental remark alone?
+
+Then run the mechanical half, which finds omissions that reading cannot:
+
+```bash
+cd references/build && uv run python study_gaps.py <path to the study>
+```
+
+It reads the study's own `primary_passage`/`bible_references`, gathers derived scripture links and
+cross-references against those passages, subtracts every chapter the study already cites, and ranks
+what is left. The MCP equivalent is `study_gaps`.
+
+Weigh the kinds differently, and do not let the tool decide for you. A **quotation** is a textual
+fact: if the study treats a passage and never mentions what it quotes, that is a real gap — *The
+Way* cites Hebrews 3 without ever naming Psalm 95, which Hebrews 3 quotes three times. A
+**hebrew-candidate** is a 19th-century translator's judgement and needs checking in Greek. A
+**crossref** is a lead and nothing more.
+
+A long gap list is normal and is not a defect in the study; most entries are cross-reference noise.
+Report only what genuinely bears on the argument, and say why. A study with neither frontmatter
+field is invisible to this check and reports so — flag that as its own finding, since it also means
+the study is missing from the generated commentary index.
 
 A study can pass every check in Phases 1–5 — every quote and citation accurate — and still fail this
 phase by skipping straight to application. That is precisely the failure mode

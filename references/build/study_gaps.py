@@ -155,7 +155,14 @@ def main() -> int:
                        if (CONTENT_DIR / section).is_dir()
                        for md in (CONTENT_DIR / section).rglob("*.md"))
     elif args.study:
-        files = [Path(args.study).resolve()]
+        # accept a repo-relative path as well as one relative to the cwd -- this script lives in
+        # references/build but the natural thing to type is docs/content/<section>/<study>.md
+        given = Path(args.study)
+        candidates = [given, REPO_ROOT / given]
+        found = next((c for c in candidates if c.is_file()), None)
+        if found is None:
+            parser.error(f"no such study: {args.study}")
+        files = [found.resolve()]
     else:
         parser.error("give a study path or --all")
 
