@@ -621,7 +621,16 @@ decides.
 All are uncorrected OCR of public-domain print. Good for locating a passage and quoting a phrase;
 check a long quotation against page images. Greek OCR is much worse than Latin — search word stems,
 not accented phrases. Full detail, including what was verified present in each, is in the volume's
-own `PROVENANCE.md`. ANF and the Eusebius volume are Roberts-Donaldson and McGiffert
+own `PROVENANCE.md`.
+
+**Three documents describe this corpus, and `references/check_sources.py` now checks they agree.**
+This file is what an agent reads for what may be quoted; the volume's `PROVENANCE.md` records where
+each text came from and what was verified inside it; and
+[docs/content/resources/patristic-sources.md](../docs/content/resources/patristic-sources.md) tells a
+reader which sources back the site's claims. They serve different readers, which is why they drift —
+the reader-facing one went stale first, still promising that every patristic claim had been checked
+against one of three sources after seven more had been added. A text missing from any of the three is
+invisible to somebody, so the check errors on it. It skips when the volume is unmounted. ANF and the Eusebius volume are Roberts-Donaldson and McGiffert
 Englishing their originals; the only original-language texts on the volume are the fifteen Apostolic
 Fathers in Greek. So Victorinus, Tertullian, Cyprian, Lactantius and Jerome are readable here only
 through a translator, and Melito survives inside Eusebius's Greek, of which we hold the English.

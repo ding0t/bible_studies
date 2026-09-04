@@ -144,7 +144,8 @@ uv run python build_study_notes.py # commercial study-Bible db, writes outside t
 **Source catalog drift check** (run from the repo root, stdlib only):
 
 ```bash
-python3 references/check_sources.py   # every source on disk documented in references/README.md?
+python3 references/check_sources.py   # every source on disk documented, and the three docs
+                                      # describing the patristics corpus still in agreement?
 ```
 
 Exits non-zero on an undocumented source. Its **raw-only** list is the one to know before saying a
