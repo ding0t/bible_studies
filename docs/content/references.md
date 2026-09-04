@@ -22,7 +22,7 @@ you what the claim rests on.
 
 <div id="references-root"></div>
 
-<script type="module" src="assets/js/references.js"></script>
+<script type="module" src="/assets/js/references.js"></script>
 
 !!! tip "Try Hebrews 10:5"
 
