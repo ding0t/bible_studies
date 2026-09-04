@@ -204,6 +204,62 @@ caution applies.
 !!! note "Why isn't the Septuagint's *text* alongside its lemma tooling?"
     `GreekResources` (our lemma/lookup fork for LXX word studies) deliberately ships without the LXX text itself — its own maintainers exclude it because the standard CATSS source is restrictively licensed, and we followed that same discipline rather than bundling in a text we couldn't verify the rights to. Brenton's edition above fills that gap with a text we've independently confirmed is public domain.
 
+### Three Old Testament lines, as Ken Johnson frames them
+
+The companion to [the New Testament diagram above](#three-lines-of-transmission-as-ken-johnson-frames-them),
+from the same study. Three witnesses descend from the Hebrew, and he grades each on two axes: whether
+it agrees with the New Testament's quotations, and whether its genealogical numbers are sound.
+
+```mermaid
+flowchart LR
+    HB["Hebrew Old Testament<br/>c. 1500-400 BC"]
+    HB --> S1
+    HB --> S2
+    HB ==> S3
+    subgraph S1["Septuagint line"]
+      direction TB
+      A1["Greek (LXX)<br/>c. 200 BC"] --> A2["Agrees with Paul<br/>Dates corrupted"] --> A3["Corrupted AD 350s<br/>published AD 1800s"]
+    end
+    subgraph S2["Masoretic line"]
+      direction TB
+      B1["Masoretic Text<br/>c. AD 700"] --> B2["Disagrees with Paul<br/>Dates correct"] --> B3["Corrupted AD 700s<br/>published AD 1800s"]
+    end
+    subgraph S3["Scrolls — his preferred"]
+      direction TB
+      C1["Dead Sea Scrolls<br/>c. 200 BC"] --> C2["Agrees with Paul<br/>Dates correct"] --> C3["Uncorrupted but<br/>fragmentary<br/>published AD 1990s"]
+    end
+```
+
+**His argument.** The Masoretic Text is a thousand years younger than the scrolls and was copied by
+scribes with a motive to smooth over messianic readings, so where a New Testament writer quotes the
+Old and the Masoretic disagrees, the scrolls side with the New Testament writer. The Septuagint
+agrees with the New Testament but carries inflated genealogical numbers. The scrolls alone score on
+both axes. (His slide dates the Masoretic line "~700 BC"; his spoken date is AD 700, which is the
+one to read.)
+
+**What checks out here.** The genealogical divergence is real and queryable in this repo: at Genesis
+5:3 Brenton's Septuagint reads *τριάκοντα καὶ διακόσια* — 230 years to Seth's birth — where the
+Hebrew reads 130. [Genealogy and the Age of the Earth](../last-things/genealogy-times.md) tables all
+three traditions generation by generation. And on the one verse of Genesis 5 the scrolls actually
+preserve, his dates column holds: 4Q2 at Genesis 5:13 reads *eight hundred and forty*, siding with
+the Masoretic against the Septuagint's 740.
+
+**Where the diagram is tidier than the evidence.** That last check is also the problem with it. The
+biblical scrolls preserve **one verse of Genesis 5 and none of Genesis 11** — so whatever recommends
+their chronology, it is not their coverage of the genealogies, and a verdict of "dates correct"
+rests on a single fragmentary line. "Uncorrupted" needs the same caution the Dead Sea Scrolls row
+above records: 31.8% of words in this corpus carry an editorial mark, and a bracketed reading is a
+modern editor's reconstruction.
+
+The deeper issue is that the two axes do not partition together. At Deuteronomy 32:8 the scroll
+reads *sons of God* against the Masoretic *sons of Israel*, siding with the New Testament; at
+Genesis 5:13 the same corpus sides with the Masoretic on a number. Qumran is textually plural —
+some scrolls are proto-Masoretic, some stand behind the Septuagint, some are independent — and that
+plurality is the discovery rather than a fault in one column. Two further details resist the tidy
+split: AD 700 is when the Masoretes added vowel points, not when their consonantal text began, since
+that text is attested at Qumran centuries earlier; and his own headline case, Hebrews 10:5, is
+explained by the Septuagint alone with no scroll required.
+
 ## Why the "main" translations aren't in `bible-text.db`
 
 It's not an oversight that ESV, NASB, NIV, and NLT — the four translations we quote most in prose — are missing from `bible-text.db`, the ✅ database. They're commercially copyrighted, and Crossway/Lockman/Biblica/Tyndale's permissions policies allow generous quotation (a study citing a verse or a short passage with attribution is exactly the intended use) but not bulk redistribution into a database anyone could dump wholesale. WEB, ASV, and YLT exist in our own database specifically so we always have *something* fully open to fall back on — for concordance searches, cross-reference generation, or any use that would otherwise require copying a commercial text at scale.

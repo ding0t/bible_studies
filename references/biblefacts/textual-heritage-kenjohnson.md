@@ -33,6 +33,13 @@ flowchart LR
     MTNOW -.-> BEST
 ```
 
+**Published.** This framing is now reproduced on
+[Bible Translations & Source Texts](../../docs/content/scripture/translations.md) alongside the New
+Testament one, attributed by name, with the checks below stated with it. Two results were derived
+while writing it: the scrolls preserve **one verse of Genesis 5 (4Q2 at 5:13) and none of Genesis
+11**, so a "dates correct" verdict rests on a single fragmentary line; and that line reads 840 with
+the Masoretic against the Septuagint's 740, so on the one testable point his dates column holds.
+
 **His argument.** The Masoretic Text is a thousand years younger than the scrolls and was copied by
 scribes with a motive to smooth over messianic readings. Where a New Testament writer quotes the Old
 Testament and the Masoretic disagrees, the Dead Sea Scrolls — two to three centuries BC — side with
