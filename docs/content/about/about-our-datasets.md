@@ -111,6 +111,22 @@ plain JSON map and use freely. Its actual discussion prose, the paragraphs of ar
 is quotation-only like any other copyrighted reference work: citable by root number and gloss, quotable
 a sentence at a time with attribution, never reproduced as a full entry.
 
+## What sits outside both databases
+
+Two kinds of source are used here but belong to neither pipeline above, and a catalogue that did not
+say so would read as more complete than it is.
+
+**The early church fathers.** Held as plain text on the same external volume, not in either database,
+because they are read rather than queried. Nine works: two 19th-century English translation sets for
+finding a passage, and seven original-language critical editions — Greek and Latin — for anything
+that turns on a father's actual words. Which of the two a citation rests on decides what it can
+support, and [Patristic Sources](../resources/patristic-sources.md) sets out the difference along
+with the case where this site got it wrong and had to retract.
+
+**Raw teaching notes.** `references/biblefacts/` holds transcripts and worked summaries of
+third-party teaching. It is deliberately outside every tier above: unvetted input, a lead to chase
+down in a primary source, never a citable reference in a study.
+
 ## The line that doesn't move
 
 Whatever the tier, the same rule governs every study: a language or textual claim has to resolve to an

@@ -25,14 +25,6 @@ About this project and its statement of faith.
 
     [:octicons-arrow-right-24: Read](about-our-datasets.md)
 
--   __How We Cross-Reference Scripture__
-
-    ---
-
-    Scripture links here are derived from the biblical texts themselves rather than copied from a cross-reference list — how that works, the four kinds of evidence it produces, and why they are never merged into one score.
-
-    [:octicons-arrow-right-24: Read](how-we-cross-reference.md)
-
 -   __Backlog__
 
     ---
@@ -48,6 +40,14 @@ About this project and its statement of faith.
     Copyright notices for the Bible translations and reference works quoted on this site, and the terms under which they are used.
 
     [:octicons-arrow-right-24: Read](copyright.md)
+
+-   __How We Cross-Reference Scripture__
+
+    ---
+
+    Scripture links on this site are derived from the biblical texts themselves rather than copied from a cross-reference list — how that works, the four kinds of evidence it produces, and why they are never merged into a single score.
+
+    [:octicons-arrow-right-24: Read](how-we-cross-reference.md)
 
 -   __Key Takeaways__
 

@@ -1,12 +1,12 @@
 ---
 title: "Patristic Sources"
 category: "other"
-description: "The early church fathers this site draws on for post-apostolic tradition: what each source is, how reliable it is, and why the traditions about the apostles need grading rather than repeating."
+description: "The early church fathers this site draws on: what each source is, how reliable it is, why traditions about the apostles need grading rather than repeating, and why a claim about a father's wording has to be read in his own language rather than a translation."
 tags: ["church-fathers", "early-church", "sources", "method/textual-criticism", "status/investigation"]
 draft: false
 bible_references: ["Acts 1:21-22"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -144,31 +144,75 @@ Parthia is early and comparatively well attested. India is late. The [study on T
 sets it out in that order — and did not, in its first published version, which is why this page
 exists.
 
-## Where the texts live
+## Where the texts live, and what each kind can settle
 
-The full texts consulted are held outside this repository, on the project's own media volume, with a
-provenance file recording source, date retrieved, and licence tier for each:
+The full texts are held outside this repository, on the project's own media volume, with a
+provenance file recording source, date retrieved, and licence tier for each. They fall into two
+groups, and **the difference decides what a citation from them can support.**
 
-- **Eusebius, *Church History*** — the Schaff/McGiffert *Nicene and Post-Nicene Fathers* Series 2
-  Vol. 1 (1890), from the [Christian Classics Ethereal Library](https://ccel.org/ccel/schaff/npnf201).
-  Public domain by age; quotable freely with attribution.
-- **The *Ante-Nicene Fathers*, Vols. 1-10** — Roberts and Donaldson, eds., in A. Cleveland Coxe's
-  American edition, from [CCEL](https://ccel.org/ccel/s/schaff/anf01). Public domain by age. This is
-  where Irenaeus (Vol. 1) and the New Testament apocrypha (Vol. 8) live, along with Justin Martyr,
-  Clement of Alexandria, Tertullian, Hippolytus, Cyprian and Lactantius.
-- **The Apostolic Fathers in Greek** — 1-2 Clement, Ignatius, Polycarp, Didache, Barnabas, Shepherd
-  of Hermas, Martyrdom of Polycarp, Diognetus, from
-  [jtauber/apostolic-fathers](https://github.com/jtauber/apostolic-fathers) (Kirsopp Lake's
-  public-domain Greek text, corrected). **The repository states no licence**, so it is treated as
-  restricted: quoted briefly with attribution, never redistributed.
+### Translations — for finding a passage and reading an argument
 
-Every patristic claim currently made on this site has been checked against the primary text in one of
-those three. Where a chain of report has a weak link — Irenaeus hearing the John anecdote secondhand,
-Eusebius passing on the Abgar story with "they say" — the page saying so is the page you should
-trust more, not less.
+- **Eusebius, *Church History*** — Schaff/McGiffert, *Nicene and Post-Nicene Fathers* Series 2 Vol. 1
+  (1890), from [CCEL](https://ccel.org/ccel/schaff/npnf201). Public domain; quotable freely.
+- **The *Ante-Nicene Fathers*, Vols. 1-10** — Roberts and Donaldson, in Coxe's American edition, from
+  [CCEL](https://ccel.org/ccel/s/schaff/anf01). Public domain. Justin Martyr, Clement of Alexandria,
+  Tertullian, Hippolytus, Cyprian, Lactantius, the apocryphal Acts, and Irenaeus.
+
+### Originals — for anything that turns on the actual words
+
+Each was fetched for a specific question rather than collected, and each was checked to contain the
+passage before being kept:
+
+| Text | Edition | Fetched for |
+|---|---|---|
+| Apostolic Fathers, Greek | Kirsopp Lake, corrected | 1 Clement 5.4 on Peter; Ignatius; the Didache |
+| Eusebius, *Church History*, Greek | GCS, ed. Schwartz | Melito's canon list (4.26); Origen's canon (6.25) |
+| Irenaeus, Latin with Greek fragments | ed. Harvey, 1857 | The 616 variant at Revelation 13:18 (*Adv. Haer.* 5.30.1) |
+| Tertullian, Latin | CSEL 47, ed. Kroymann | 1 John 5:7-8 — *Adv. Praxean* 25 |
+| Cyprian, Latin | CSEL 3.1, ed. Hartel | 1 John 5:7-8 — *De unitate* 6 |
+| Victorinus of Pettau, Latin | CSEL 49, ed. Haussleiter | 2 Thessalonians 2:7, the restrainer |
+| Augustine, Latin | *Patrologia Latina* 40 | John 7:53-8:11 — *De coniugiis adulterinis* |
+
+All are uncorrected OCR of public-domain print: reliable for locating a passage and quoting a
+phrase, not for a long quotation without checking the page images. Greek OCR of century-old print is
+markedly worse than Latin, so search word stems rather than exact accented phrases.
+
+### The rule, and the mistake that produced it
+
+**A translation can establish that a father discusses a passage, and what he argues. It can never
+establish which words he used.**
+
+That is not a precaution in the abstract. This site published a claim that a phrase attributed to
+Victorinus — "when the church shall have gone out of the midst" — was *not in his text*, on the
+strength of the *Ante-Nicene Fathers* rendering "until he be taken out of the way." When Haussleiter's
+Latin was fetched, both surviving recensions read *de medio* — literally "out of the midst." The two
+Englishings were the same three Latin words, and the claim was withdrawn.
+
+The Latin then showed something the translation could not have: both verbs are impersonal, and no
+*ecclesia* stands in either clause, so a rendering supplying "the church" as the subject adds the
+disputed term. Reading the original did not simply confirm or deny the claim — it changed what the
+question was.
+
+### What is deliberately absent
+
+**Jerome's Prologue to the Canonical Epistles**, wanted for the claim that Jerome defended the Comma
+Johanneum there. Migne's *Patrologia Latina* 29 and 30 were both fetched and checked and neither
+carries it. The one downloadable text that would is Wordsworth and White's Vulgate of **1937** — too
+recent to be public domain by age, so it was not taken. A text being fetchable is not permission to
+hold it. It would not have settled the point in any case: the dispute is over *who wrote* the
+prologue, which no manuscript decides.
+
+Every patristic claim currently made on this site has been checked against a primary text. Where a
+chain of report has a weak link — Irenaeus hearing the John anecdote secondhand, Eusebius passing on
+the Abgar story with "they say" — the page saying so is the page you should trust more, not less.
 
 ## References
 
 - Philip Schaff and Henry Wace, eds., *Nicene and Post-Nicene Fathers*, Series 2, Vol. 1: *Eusebius Pamphilius: Church History, Life of Constantine, Oration in Praise of Constantine*, trans. and annotated by Arthur Cushman McGiffert (1890). Public domain.
 - Kirsopp Lake, ed. and trans., *The Apostolic Fathers*, Loeb Classical Library (1912-13). Greek text public domain.
+- Johannes Haussleiter, ed., *Victorini episcopi Petavionensis Opera*, CSEL 49 (1916). Public domain.
+- Eduard Schwartz, ed., *Eusebius Werke* II: *Die Kirchengeschichte*, GCS (1903-9). Public domain.
+- Wilhelm Hartel, ed., *S. Thasci Caecili Cypriani Opera omnia*, CSEL 3 (1868). Public domain.
+- Emil Kroymann, ed., *Quinti Septimi Florentis Tertulliani Opera*, CSEL 47 (1906). Public domain.
+- W. Wigan Harvey, ed., *Sancti Irenaei libros quinque adversus haereses* (1857). Public domain.
 - On the apostolic office and why its qualifications close with the eyewitness generation, see [The Twelve: Disciples and Apostles](../biblical-figures/twelve-apostles.md).

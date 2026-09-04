@@ -4,7 +4,7 @@ category: "other"
 description: "External sources, tools, and datasets this project draws on."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-08-29
+date_modified: 2026-09-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -53,7 +53,7 @@ External sources, tools, and datasets this project draws on.
 
     ---
 
-    The early church fathers this site draws on for post-apostolic tradition: what each source is, how reliable it is, and why the traditions about the apostles need grading rather than repeating.
+    The early church fathers this site draws on: what each source is, how reliable it is, why traditions about the apostles need grading rather than repeating, and why a claim about a father's wording has to be read in his own language rather than a translation.
 
     [:octicons-arrow-right-24: Read](patristic-sources.md)
 
