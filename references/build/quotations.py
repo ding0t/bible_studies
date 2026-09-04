@@ -14,14 +14,15 @@ Four graded measures, kept separate and never summed into one number:
   alignment     Smith-Waterman, which tolerates those edits. THE PRIMARY MEASURE.
   idf_overlap   shared n-grams weighted by rarity in the source corpus.
 
-Both thresholds were set by auditing every pair against openbible's cross-references -- independent
-provenance, English scheme, no connection to the method. Alignment separates far more sharply:
+Both thresholds were set by auditing every pair against two cross-reference lists of independent
+provenance -- openbible's crowd-voted set and the WEB translators' own footnotes, both in the
+English scheme, neither with any connection to the method. Alignment separates far more sharply:
 
-    alignment 20-29   83% corroborated        run 12+    82%
-    alignment 15-19   54% corroborated        run 8-11   78%
-    alignment 10-14   14% corroborated        run 4-5    14%
+    alignment 20-29   86% corroborated        run 12+    85%
+    alignment 15-19   55% corroborated        run 8-11   79%
+    alignment 10-14   14% corroborated        run 4-5    11%
 
-QUOTATION_ALIGNMENT marks 18: 140 pairs at 81%, against run>=8's 138 at 78%. Similar volume,
+QUOTATION_ALIGNMENT marks 18: 140 pairs at 84%, against run>=8's 138 at 80%. Similar volume,
 better precision, and it recovers quotations the run measure missed outright -- Matthew 1:23
 quoting Isaiah 7:14 (run 5, alignment 24), Luke 4:18 quoting Isaiah 61:1 (run 6, alignment 25),
 Acts 13:41 quoting Habakkuk 1:5 (run 7, alignment 33). Every one of those is corroborated.

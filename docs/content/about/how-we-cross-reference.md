@@ -110,10 +110,13 @@ quoting Isaiah 7:14**, one of the most consequential quotations in the New Testa
 Matthew's longest verbatim stretch there is five words. Local alignment tolerates insertions and
 omissions, and finds it.
 
-**Checking against something unrelated.** Every derived link is compared against a crowd-assembled
-cross-reference dataset with no connection to the method. Where both agree, two independent lines of
-evidence point the same way. Where a strong textual match is *absent* from the reference list, that
-is the interesting case — a connection the tradition did not record.
+**Checking against something unrelated.** Every derived link is compared against two cross-reference
+lists with no connection to the method or to each other: a modern crowd-voted set, and the World
+English Bible translators' own footnotes. Where they agree, independent lines of evidence point the
+same way. Where a strong textual match is *absent* from both, that is the interesting case — a
+connection the tradition did not record. The second list is small, a few hundred notes against
+830,000, but it is concentrated on New Testament quotations of the Old, which is exactly where these
+links are scored: it caught three quotations the larger list had missed.
 
 ### The measurements, by name
 
@@ -144,8 +147,8 @@ answer separates sharply:
 
 | Alignment strength | Corroborated independently |
 |---|---|
-| Strong (20+) | **83%** |
-| Borderline (15–19) | 54% |
+| Strong (20+) | **86%** |
+| Borderline (15–19) | 55% |
 | Weak (10–14) | 14% |
 
 The threshold sits at the cliff. For allusions the same test gives an even starker picture: randomly
@@ -188,20 +191,19 @@ cites.
 
 ## What this gives you in a study
 
-**It finds what the lists missed.** Twelve of the 140 strong Greek quotations — about one in twelve
-— are carried by no reference list at all. That figure is deliberately conservative: 27 of the 140
-are absent from the reference data *at that exact verse*, but 15 of those are cases where the list
-records the same quotation anchored a verse or two earlier, which is a difference in bookkeeping
-rather than a discovery. Only the remaining twelve are unrecorded.
+**It finds what the lists missed.** Ten of the 140 strong Greek quotations — about one in fourteen —
+are carried by neither list. That figure is deliberately conservative: 23 of the 140 are absent
+*at that exact verse*, but 13 of those are cases where a list records the same quotation anchored a
+verse or two earlier, which is bookkeeping rather than a discovery. Only the remaining ten are
+unrecorded.
 
 **Matthew 11:10** is the clearest of them. *"Behold, I send my messenger before your face"* is
 normally referenced to Malachi 3:1, and it is — but the first nine Greek words are also, verbatim,
 Exodus 23:20: *Ἰδοὺ ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου*. Matthew has conflated two
-passages. The crowd-assembled list carries the Malachi half and not the Exodus half; so does the
-World English Bible's own footnote apparatus, which is an independent set of editorial
-cross-references. Two inherited lists, the same blind spot, and a nine-word verbatim match sitting
-in plain sight. Luke 1:31 is the same shape — every list points it to Isaiah 7:14, and none to
-Genesis 16:11, where the angel gives Hagar the identical formula for naming Ishmael.
+passages, and both lists carry the Malachi half while neither carries the Exodus half. Two
+independently compiled sets of cross-references, the same blind spot, and a nine-word verbatim
+match sitting in plain sight. Luke 1:31 is the same shape — every list points it to Isaiah 7:14,
+and none to Genesis 16:11, where the angel gives Hagar the identical formula for naming Ishmael.
 
 **It reaches the deuterocanon.** Because our Septuagint lemma data covers Wisdom, Sirach and the
 Maccabees, the method surfaces connections no Protestant reference list carries: Paul at the

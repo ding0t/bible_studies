@@ -208,6 +208,93 @@ def ingest_scrollmapper_crossrefs(conn: sqlite3.Connection) -> None:
     print(f"cross_references: loaded {total} rows")
 
 
+# The WEB's own footnote cross-references, as its translators marked them in the USFM. Tiny beside
+# openbible -- a few hundred against 830,000 -- and not a general-purpose chain reference: they sit
+# almost entirely on New Testament quotations of the Old, which is exactly where the derived links
+# are measured. That makes them worth having despite the size. They are a genuinely independent
+# witness, which openbible-via-scrollmapper is not: that file's own header reads
+# "#www.openbible.info CC-BY", so checking the derived links against it twice would be checking
+# them against one list twice.
+#
+# BibleOrgSys drops notes during ingest_ebible (cleanText), so these have to be read from the raw
+# USFM rather than recovered from the verses table.
+_WEB_XREF = re.compile(r"\\x\s.*?\\xo\s*(\d+):(\d+).*?\\xt\s*(.+?)\\x\*", re.S)
+_WEB_TARGET = re.compile(r"^(?:((?:[1-4]\s)?[A-Za-z][A-Za-z ]*?)\s+)?(\d+):([\d,\s\u2013-]+)$")
+
+
+def _parse_web_targets(raw: str) -> list[tuple[str, int, int, int]]:
+    """One \\xt payload -> (book, chapter, verse_start, verse_end) rows.
+
+    Handles the four shapes the WEB actually uses: a plain reference, a verse range, a comma list
+    of verses in one chapter, and several references separated by ';' where a later one may omit
+    the book and continue the previous. A cross-chapter range ("2 Kings 6:31-7:20", em-dash in the
+    source) keeps its opening verse -- the schema addresses one chapter, and the anchor is the
+    reference a reader follows.
+    """
+    out: list[tuple[str, int, int, int]] = []
+    last_book: str | None = None
+    for part in raw.split(";"):
+        part = " ".join(part.split())
+        part = re.sub(r"^(?:See|see|cf\.?)\s+", "", part)
+        part = re.sub(r"\s*\(?LXX\)?$", "", part)
+        part = part.split("\u2014")[0].strip()
+        if not part:
+            continue
+        match = _WEB_TARGET.match(part)
+        if not match:
+            continue
+        book = match.group(1) or last_book
+        if book is None:
+            continue
+        last_book = book
+        chapter = int(match.group(2))
+        for chunk in match.group(3).split(","):
+            chunk = chunk.strip()
+            if re.fullmatch(r"\d+", chunk):
+                out.append((book, chapter, int(chunk), int(chunk)))
+            elif re.fullmatch(r"\d+\s*[-\u2013]\s*\d+", chunk):
+                start, end = re.split(r"[-\u2013]", chunk)
+                out.append((book, chapter, int(start), int(end)))
+    return out
+
+
+def ingest_web_crossrefs(conn: sqlite3.Connection) -> None:
+    work_id = "web-crossrefs"
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+        (work_id, None, "World English Bible Cross References", "eng", "ebible-eng-web",
+         "https://ebible.org/find/details.php?id=eng-web", None, TODAY, "Public Domain", "open",
+         "World English Bible, ebible.org"),
+    )
+    rows, skipped = [], collections.Counter()
+    for path in sorted((CACHE_DIR / "eng-web").glob("*.usfm")):
+        text = path.read_text(encoding="utf-8", errors="replace")
+        id_match = re.search(r"\\id\s+(\S+)", text)
+        if id_match is None:
+            continue
+        from_book = MACULA_USFM_TO_OSIS.get(id_match.group(1))
+        if from_book is None:            # front matter, and the deuterocanonical books
+            skipped[id_match.group(1)] += 1
+            continue
+        for chapter, verse, payload in _WEB_XREF.findall(text):
+            for book, to_chapter, start, end in _parse_web_targets(payload):
+                osis = SCROLLMAPPER_NAME_TO_OSIS.get(book)
+                if osis is None:            # deuterocanonical targets (Wisdom), out of scope here
+                    skipped[book] += 1
+                    continue
+                rows.append((work_id, from_book, int(chapter), int(verse),
+                             osis, to_chapter, start, end, None))
+    conn.executemany(
+        "INSERT INTO cross_references (work_id, from_book, from_chapter, from_verse, "
+        "to_book, to_chapter, to_verse_start, to_verse_end, votes) VALUES (?,?,?,?,?,?,?,?,?)",
+        rows,
+    )
+    conn.commit()
+    print(f"web cross_references: loaded {len(rows)} rows"
+          + (f" (skipped: {dict(skipped)})" if skipped else ""))
+
+
 def ingest_morphhb(conn: sqlite3.Connection) -> None:
     from BibleOrgSys import BibleOrgSysGlobals
     from BibleOrgSys.OriginalLanguages.HebrewWLCBible import OSISHebrewWLCBible
@@ -1052,6 +1139,7 @@ def main() -> None:
     ingest_macula_hebrew(conn)
     ingest_hebrew_literary_units(conn)
     ingest_ebible(conn, "eng-web", "WEB", "World English Bible", "eng")
+    ingest_web_crossrefs(conn)   # after ingest_ebible: reads the USFM that call caches
     ingest_ebible(conn, "grcbrent", "Brenton-LXX", "Brenton Septuagint (Greek)", "grc")
     ingest_ebible(conn, "grc-tisch", "Tischendorf", "Tischendorf 8th ed. Greek New Testament", "grc")
     ingest_ebible(conn, "heb", "Delitzsch", "Delitzsch Hebrew Bible (OT+NT)", "heb")

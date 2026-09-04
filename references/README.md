@@ -142,17 +142,17 @@ The Hebrew class earns its place by being *complementary*: it recovers 81% of th
 | `longest_run` | longest contiguous shared token run. Kept because it is checkable — a reader can go and count nine verbatim words — but it breaks at the first edit |
 | `containment` | share of the quoting verse's 4-grams that are shared |
 | `idf_overlap` | shared n-grams weighted by rarity, so a shared "and it came to pass" stops counting like a shared rare phrase |
-| `corroborated` | openbible's cross-references independently name the same passage |
+| `corroborated` | a cross-reference list independently names the same passage — openbible's, or the WEB's own translator footnotes |
 
-**Both thresholds are measured, not asserted.** Auditing every pair against openbible (unrelated provenance, English scheme) locates the cliff, and alignment separates far more sharply than a contiguous run:
+**Both thresholds are measured, not asserted.** Auditing every pair against the two lists (unrelated provenance, English scheme) locates the cliff, and alignment separates far more sharply than a contiguous run:
 
 | alignment | corroborated | | verbatim run | corroborated |
 |---|---|---|---|---|
-| 20–29 | **83%** | | 12+ | 82% |
-| 15–19 | 54% | | 8–11 | 78% |
-| 10–14 | 14% | | 4–5 | 14% |
+| 20–29 | **86%** | | 12+ | 85% |
+| 15–19 | 55% | | 8–11 | 79% |
+| 10–14 | 14% | | 4–5 | 11% |
 
-So the threshold is **alignment ≥ 18**: 140 pairs at 81%, against the old run ≥ 8's 138 at 78%. Similar volume, better precision — and it recovers quotations a contiguous run missed **outright**, every one of them independently corroborated:
+So the threshold is **alignment ≥ 18**: 140 pairs at 84%, against the old run ≥ 8's 138 at 80%. Similar volume, better precision — and it recovers quotations a contiguous run missed **outright**, every one of them independently corroborated:
 
 | | run | alignment |
 |---|---|---|
@@ -160,7 +160,11 @@ So the threshold is **alignment ≥ 18**: 140 pairs at 81%, against the old run 
 | **Luke 4:18 → Isaiah 61:1** (Luke omits a clause) | 6 | 25 |
 | **Acts 13:41 → Habakkuk 1:5** | 7 | 33 |
 
-That is the case for local alignment in one table: adapted quotation is the normal case, and a run of contiguous words breaks at the first edit. **A strong alignment that openbible does *not* carry is a quotation the cross-reference tradition missed, not a weak result** — the point of deriving this at all, and a test asserts those keep existing.
+That is the case for local alignment in one table: adapted quotation is the normal case, and a run of contiguous words breaks at the first edit. **A strong alignment that no list carries is a quotation the cross-reference tradition missed, not a weak result** — the point of deriving this at all, and a test asserts those keep existing.
+
+**Two witnesses, and only two.** `corroborated` checks both `openbible-crossrefs` (830,866 rows, crowd-voted, CC-BY) and `web-crossrefs` (424 rows, the WEB translators' own footnotes, public domain, parsed from the raw USFM because BibleOrgSys drops notes at ingest). The second is tiny but independent, and sits almost entirely on New Testament quotations of the Old — exactly where these links are scored. **Scrollmapper's `cross_references.txt` is not a third witness:** its header reads `#www.openbible.info CC-BY`, so it and `openbible-crossrefs` are one source counted twice. Checking a link against a list that shares provenance with the list already checked corroborates nothing.
+
+Matthew 11:10 is the case that shows why a second witness is worth having: both lists carry the Malachi 3:1 half of its conflated quotation, neither carries the Exodus 23:20 half, and the derived link finds it on nine verbatim Greek words. `tests/test_crossrefs.py` asserts that stays true.
 
 Every candidate above two shared 4-grams is stored; there is deliberately **no per-verse cap**. Capping at the best few discarded 27% of qualifying pairs and, because ties broke on set iteration order, returned a different set on each run.
 

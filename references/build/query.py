@@ -442,7 +442,8 @@ def lookup_links(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
                         allusions to Wisdom and Sirach that no cross-reference list carries.
 
     Grade by `longest_run`, the longest contiguous shared token run; 8 or more reads as quotation.
-    `corroborated` means openbible's cross-references independently name the same passage, and a
+    `corroborated` means a cross-reference list -- openbible's, or the WEB translators' own
+    footnotes -- independently names the same passage, and a
     strong run WITHOUT it is a link the tradition missed rather than a weak result.
     """
     wanted = [link_type] if link_type else list(LINK_TARGET_SCHEME)
@@ -897,7 +898,7 @@ def cmd_quotations(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
     if not r["links_from"] and not r["links_to"]:
         print("  no link found")
     else:
-        print("\n  * corroborated by openbible cross-references")
+        print("\n  * corroborated by an independent cross-reference list")
 
 
 def cmd_parallel(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
