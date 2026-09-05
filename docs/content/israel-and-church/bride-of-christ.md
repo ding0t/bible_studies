@@ -433,5 +433,6 @@ flowchart LR
   and the "one taken, one left" saying this study's word data bears on.
 - [The Rapture of the Church](../last-things/rapture.md) — the wedding-pattern sequence, and the
   pretribulational argument.
-- [Israel and the Church](israel-and-the-church.md) — who the bride is, and how the church stands in
-  relation to Israel.
+- [Israel and the Church](israel-and-the-church.md) — how the church stands in relation to Israel:
+  Romans 11's olive tree, what remains ahead for Israel, and the two companies of Revelation 7. It
+  does not treat the bridal imagery; that is this study's own subject.
