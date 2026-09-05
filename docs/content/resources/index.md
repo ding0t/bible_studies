@@ -4,7 +4,7 @@ category: "other"
 description: "External sources, tools, and datasets this project draws on."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -16,14 +16,6 @@ External sources, tools, and datasets this project draws on.
 
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
-
--   __Open Bible Data on GitHub__
-
-    ---
-
-    Master list of open-license Bible text, manuscript, lexicon, and cross-reference repositories we fork for use in this project, and why.
-
-    [:octicons-arrow-right-24: Read](github.md)
 
 -   __Hebrew Alphabet__
 
@@ -56,6 +48,14 @@ External sources, tools, and datasets this project draws on.
     The early church fathers this site draws on: what each source is, how reliable it is, why traditions about the apostles need grading rather than repeating, and why a claim about a father's wording has to be read in his own language rather than a translation.
 
     [:octicons-arrow-right-24: Read](patristic-sources.md)
+
+-   __Public Data Sources__
+
+    ---
+
+    A survey of the open Bible data that exists in this space — texts, manuscripts, lexicons, cross-references, alignment — what each source is, why it matters, how it is licensed, and which ones this site actually uses.
+
+    [:octicons-arrow-right-24: Read](public-data-sources.md)
 
 -   __How This Site Is Built__
 

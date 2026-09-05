@@ -5,7 +5,7 @@ description: "earlynewtestament.com — English translations of the 83 earliest 
 tags: ["manuscripts", "papyri", "new-testament", "method/textual-criticism"]
 draft: false
 date_created: 2026-07-20
-date_modified: 2026-08-23
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -17,7 +17,7 @@ ai_provider_models:
 
 ## Why it's useful here
 
-This site's own [bible-text.db](../resources/github.md) pipeline holds Bible *text* (WEB, LXX, Tischendorf) and *lexical/morphological* tagging, but not manuscript-level detail — it doesn't tell you which papyrus a given reading actually survives on, or let you read what a specific 2nd-century fragment says in English. earlynewtestament.com fills exactly that gap, and complements the manuscript entries already cataloged in [Ancient Texts and Manuscripts](ancient-texts-manuscripts.md) (P52, P46, P66 there are three of the 83 covered here).
+This site's own [bible-text.db](../resources/public-data-sources.md) pipeline holds Bible *text* (WEB, LXX, Tischendorf) and *lexical/morphological* tagging, but not manuscript-level detail — it doesn't tell you which papyrus a given reading actually survives on, or let you read what a specific 2nd-century fragment says in English. earlynewtestament.com fills exactly that gap, and complements the manuscript entries already cataloged in [Ancient Texts and Manuscripts](ancient-texts-manuscripts.md) (P52, P46, P66 there are three of the 83 covered here).
 
 - **Dating**: mostly follows Philip Comfort and David Barrett, *The Complete Text of the Earliest New Testament Manuscripts* — the site is upfront that manuscript dating (paleography — dating by handwriting style) is an expert judgment call, not an exact science, and that some dates (P52 in particular) are disputed.
 - **Nomina sacra**: the site explains the early scribal convention of abbreviating sacred names (Jesus, Christ, God, Lord, Spirit, and others) with a line drawn over the abbreviation — worth knowing about if a manuscript image looks unfamiliar.

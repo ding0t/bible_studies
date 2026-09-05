@@ -5,7 +5,7 @@ description: "Sefaria and other sources for Jewish literature (Mishnah, Talmud) 
 tags: ["jewish-literature", "mishnah", "talmud", "sefaria", "licensing"]
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-08-23
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -13,7 +13,7 @@ ai_provider_models:
 
 # Jewish Literature & Primary Sources
 
-Companion to [github.md](github.md) (open Bible data) — this page tracks sources for **Jewish literature outside the Bible itself**: the Mishnah, Talmud, and related rabbinic material that supplies historical/cultural background for a study (see the develop-bible-study skill's Phase 2), the way [the Last Supper study](../feasts/last-supper-four-cups.md) leans on the Mishnah's Passover Seder structure.
+Companion to [github.md](public-data-sources.md) (open Bible data) — this page tracks sources for **Jewish literature outside the Bible itself**: the Mishnah, Talmud, and related rabbinic material that supplies historical/cultural background for a study (see the develop-bible-study skill's Phase 2), the way [the Last Supper study](../feasts/last-supper-four-cups.md) leans on the Mishnah's Passover Seder structure.
 
 ## Sefaria
 

@@ -1,0 +1,72 @@
+slug: data-pages-restructure
+title: "One authority page for the data we use; the resources page becomes a public-data survey"
+status: complete
+started: 2026-09-05
+
+problem: >
+  about/about-our-datasets.md and resources/github.md still overlap after two attempts to separate
+  them. The boundary note added 2026-09-04 described who owns which question, but both pages still
+  list the same sources, so a fact can still be written in either and go stale in one. Stating a
+  boundary did not hold; the pages need different jobs.
+
+decision:
+  authority_page: docs/content/about/about-our-datasets.md
+  authority_job: >
+    THE single answer to "what data does this site rely on, and how". What we use, why, how it is
+    used, which scripts built and cleaned it, what the databases contain, what the MCP tools expose.
+    Operational detail belongs here -- local paths, build scripts, table names -- because that is
+    what "how it is used" means.
+  survey_page: docs/content/resources/public-data-sources.md   # renamed from github.md
+  survey_job: >
+    For a curious reader: the public data that exists in this space, by category, what each source
+    is and why it is interesting, its licence, and -- where we actually use it -- a cross-reference
+    into the authority page rather than a restatement. It is a survey of the landscape, including
+    things looked at and declined, not a record of our plumbing.
+
+rename:
+  from: docs/content/resources/github.md
+  to: docs/content/resources/public-data-sources.md
+  redirect: needed in mkdocs.yml redirect_maps, since the old URL is published
+  inbound_links: 7 content files plus 4 references in references/README.md
+
+stages:
+  authority_rewrite:
+    done: true
+    notes: >
+      about-our-datasets.md now opens by claiming the role, and gained the three things it was
+      missing: a table of the nine bible-text.db tables with row counts, a table of the scripts that
+      build and clean it (including what cleaning actually means -- duplicate verses, formatting
+      markers polluting 47% of WEB verses, the Hebrew morpheme join that moved a match rate from 12%
+      to 81%), and the 18 MCP tools an agent reaches it through. Also absorbed the Door43 permanence
+      gap and the ShareAlike caveat, since both are facts about data we rely on.
+  survey_rewrite:
+    done: true
+    notes: >
+      Reframed as a survey of what exists rather than a fork ledger. Status column changed from
+      "Forked?" to "Used here?", the acquisition column (fork URLs, submodule paths, disk sizes)
+      stripped, and "Fork mechanics" moved to references/README.md as "Taking on a new source" --
+      developer procedure, not reader survey.
+  rename_redirect:
+    done: true
+    notes: "git mv to public-data-sources.md; redirect_maps entry added, verified in the build output."
+  inbound_links:
+    done: true
+    notes: "7 files repointed, including the 4 references in references/README.md. No stale links remain."
+  verification:
+    done: true
+    notes: >
+      229 tests, validate-content and mkdocs --strict all clean; check_sources unchanged at 12
+      queryable / 0 undocumented; section_index.py re-run for the renamed page. The validator caught
+      two `worth ___` announcements in prose I had just written for these pages -- fixed before
+      commit.
+
+open_questions:
+  - >
+    The four-page boundary table from 2026-09-04 is gone, replaced by each page stating its own job
+    in its opening. Nothing enforces the split: check_sources.py catches a SOURCE missing from a
+    doc, not a FACT restated across two. This is the third attempt at separating these pages, and
+    the first that gave them genuinely different jobs rather than a stated boundary.
+  - >
+    The eBible.org section still sits on the survey page with per-id licences. Arguably survey
+    (what that host offers) but it names our work_ids, which is authority-page territory. Left as
+    is rather than split mid-restructure.

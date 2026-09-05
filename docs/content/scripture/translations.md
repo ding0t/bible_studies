@@ -21,7 +21,7 @@ Every quotation in a study rests on two choices most readers never see: which *t
     - 🔒 **Queryable for verification, not bulk use** — verse text loaded in the external, quotation-only `study-notes.db` (not `bible-text.db`), as a byproduct of a commercial study Bible built from that same commercially copyrighted translation. Good for checking a quotation against source instead of trusting memory; not a licence to bulk-cite or concordance-search it the way a ✅ text can be.
     - ❌ **Not tracked anywhere** — commercially copyrighted, and not present in either database; cited from general knowledge with attribution, never bulk-quoted
 
-    See [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) and [Open Bible Data on GitHub](../resources/github.md) for the full engineering-level catalog this table summarizes, and [Our Data Sources](../about/about-our-datasets.md) for the plain-language, all-sources overview this page's translation-and-source-text slice fits into.
+    See [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) and [Public Data Sources](../resources/public-data-sources.md) for the full engineering-level catalog this table summarizes, and [Our Data Sources](../about/about-our-datasets.md) for the plain-language, all-sources overview this page's translation-and-source-text slice fits into.
 
 ## Translation philosophy
 
@@ -41,7 +41,7 @@ Our default is the **ESV** for prose quotation, cross-checked against **NASB**, 
 | **YLT** — Young's Literal Translation | 1862, revised 1887 and 1898 | Extremely literal, word-order-preserving | Useful for seeing Hebrew/Greek grammar and tense underneath the English that smoother translations normalize away; public domain | Famously unnatural English prose — a cross-check tool, never a primary study or reading text | ✅ `scrollmapper-YLT` |
 
 !!! note "Also on hand for comparison"
-    `bible-text.db` also carries **JPS** (Jewish Publication Society OT, useful for a Jewish-tradition reading alongside the Christian translations above), **BSB** (Berean Standard Bible, CC0, modern and readable), **Darby**, **Douay-Rheims**, and about two dozen other public-domain English editions via the Scrollmapper fork. None of these carry the weight ESV/NASB/NIV/NLT/WEB/ASV/YLT do in our actual studies, but they're there — see [Open Bible Data on GitHub](../resources/github.md) for the full list.
+    `bible-text.db` also carries **JPS** (Jewish Publication Society OT, useful for a Jewish-tradition reading alongside the Christian translations above), **BSB** (Berean Standard Bible, CC0, modern and readable), **Darby**, **Douay-Rheims**, and about two dozen other public-domain English editions via the Scrollmapper fork. None of these carry the weight ESV/NASB/NIV/NLT/WEB/ASV/YLT do in our actual studies, but they're there — see [Public Data Sources](../resources/public-data-sources.md) for the full list.
 
 ## What the philosophies actually do: two worked examples
 

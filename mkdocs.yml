@@ -62,6 +62,7 @@ plugins:
   # See docs/content/about/our-taxonomy.md and docs/dev/taxonomy-migration.md.
   - redirects:
       redirect_maps:
+        'resources/github.md': 'resources/public-data-sources.md'
         'bible/commentaries/01-genesis/chapter-001.md': 'commentaries/01-genesis/chapter-001.md'
         'bible/commentaries/01-genesis/chapter-002.md': 'commentaries/01-genesis/chapter-002.md'
         'bible/commentaries/01-genesis/chapter-003.md': 'commentaries/01-genesis/chapter-003.md'

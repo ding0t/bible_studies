@@ -371,7 +371,7 @@ Per repo — `hbo_uhb`, `el-x-koine_ugnt`, `en_ult`, `en_uhg`:
 
 Then repoint the four URLs in `.gitmodules`, run `git submodule sync`, and correct the three places
 that currently say these are not mirrored: the permanence note on
-[Open Bible Data on GitHub](../resources/github.md), the unfoldingWord section of
+[Public Data Sources](../resources/public-data-sources.md), the unfoldingWord section of
 `references/README.md`, and `references/study-state/unfoldingword-wireup.yml`.
 
 Roughly 140MB in total; `en_ult` is nearly all of it and `en_uhg` is 3.6MB.
