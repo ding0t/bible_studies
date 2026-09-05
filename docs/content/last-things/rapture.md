@@ -2,7 +2,7 @@
 title: "The Rapture of the Church"
 category: "prophecy"
 description: "The blessed hope of the Church: a word study on harpazo, the sequence of end-times events, and the case for a pretribulational rapture"
-tags: ["rapture", "method/word-study"]
+tags: ["rapture", "1-thessalonians", "2-thessalonians", "matthew", "revelation", "tribulation", "dispensationalism", "holy-spirit", "method/word-study", "method/typology", "method/textual-criticism", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "1 Thessalonians 4:15-18"
 bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "1 Corinthians 11:25", "1 Corinthians 6:19-20", "Ephesians 5:25-27", "1 Corinthians 1:2", "1 Corinthians 6:11", "Hebrews 10:10", "Hebrews 13:12", "Ephesians 2:10", "Genesis 5:21-24", "Hebrews 11:5", "Jude 1:14-15", "2 Kings 2:11", "Genesis 7:1", "Genesis 7:16", "Genesis 19:15-16", "Genesis 19:24", "2 Peter 2:5-9", "Luke 17:28-30", "Revelation 7:9-14"]

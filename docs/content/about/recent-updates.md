@@ -20,6 +20,22 @@ way.
 <!-- recent-updates:auto-start -->
 <div class="grid cards" markdown>
 
+-   __The Parables of the Olivet Discourse__
+
+    ---
+
+    Matthew's four parables of watchfulness -- the faithful and wicked servant, the ten virgins, the talents, and the sheep and the goats -- read against their wedding, household, and shepherding customs.
+
+    :material-new-box: New 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/olivet-discourse-parables.md)
+
+-   __The Rapture of the Church__
+
+    ---
+
+    The blessed hope of the Church: a word study on harpazo, the sequence of end-times events, and the case for a pretribulational rapture
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/rapture.md)
+
 -   __Glossary__
 
     ---
@@ -60,6 +76,14 @@ way.
 
     :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../resources/jewish-sources.md)
 
+-   __The Day No One Knows__
+
+    ---
+
+    \"Nor the Son\" — what Mark 13:32 and Matthew 24:36 do and do not say about Christ's knowledge. The textual variant, the two natures, the Father's prerogative, and whether Jesus was quoting a Jewish wedding idiom.
+
+    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../jesus/the-day-no-one-knows.md)
+
 -   __Copyright & Scripture Permissions__
 
     ---
@@ -83,6 +107,14 @@ way.
     A public working list of study topics and research items still to be developed, organized by the site's own subject sections.
 
     :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](backlog.md)
+
+-   __The Bride of Christ__
+
+    ---
+
+    Scripture calls the church a betrothed bride and says so in its own voice. What the primary rabbinic and cultural sources actually document about Jewish betrothal, what the New Testament builds on it, how much weight the Song of Songs can carry — and which popular details have no source at all.
+
+    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../israel-and-church/bride-of-christ.md)
 
 -   __Reading the Original-Language Data__
 
@@ -108,77 +140,45 @@ way.
 
     :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../scripture/translations.md)
 
--   __The Rapture of the Church__
-
-    ---
-
-    The blessed hope of the Church: a word study on harpazo, the sequence of end-times events, and the case for a pretribulational rapture
-
-    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../last-things/rapture.md)
-
--   __Scripture Links__
-
-    ---
-
-    Look up a verse and see what it quotes, what quotes it, and what it echoes — with the shared wording shown, so you can judge each link rather than take it on trust.
-
-    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](../references.md)
-
--   __How This Site Is Built__
-
-    ---
-
-    The tech behind this site: mkdocs with React tools bundled in, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys
-
-    :material-update: Updated 2026-09-04 · [:octicons-arrow-right-24: Read](../resources/site-architecture.md)
-
--   __The Day No One Knows__
-
-    ---
-
-    \"Nor the Son\" — what Mark 13:32 and Matthew 24:36 do and do not say about Christ's knowledge. The textual variant, the two natures, the Father's prerogative, and whether Jesus was quoting a Jewish wedding idiom.
-
-    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](../jesus/the-day-no-one-knows.md)
-
--   __How We Cross-Reference Scripture__
-
-    ---
-
-    Scripture links on this site are derived from the biblical texts themselves rather than copied from a cross-reference list — how that works, the four kinds of evidence it produces, and why they are never merged into a single score.
-
-    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](how-we-cross-reference.md)
-
--   __The Bride of Christ__
-
-    ---
-
-    Scripture calls the church a betrothed bride and says so in its own voice. What the primary rabbinic and cultural sources actually document about Jewish betrothal, what the New Testament builds on it, how much weight the Song of Songs can carry — and which popular details have no source at all.
-
-    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](../israel-and-church/bride-of-christ.md)
-
--   __Charting End Times__
-
-    ---
-
-    Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- plus a mermaid diagram of the same framework.
-
-    :material-update: Updated 2026-09-04 · [:octicons-arrow-right-24: Read](../last-things/prophecy-chart.md)
-
--   __The Combined Timeline: One Line, Two Zones__
-
-    ---
-
-    Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,646 years at creation and converge on Abraham to the year.
-
-    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](../last-things/combined-timeline.md)
-
 -   __The Olivet Discourse__
 
     ---
 
     Four men asked Jesus for a sign. He refused to give them a checklist, warned them four times about anyone who offered one, and named a single sign — his own return. A dispensational reading of Matthew 24, Mark 13 and Luke 21, from the disciples' question through to the new heavens and new earth.
 
-    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](../last-things/olivet-discourse.md)
+    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../last-things/olivet-discourse.md)
+
+-   __Joel 2__
+
+    ---
+
+    Commentary and cross-referenced studies for Joel chapter 2
+
+    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../commentaries/29-joel/chapter-002.md)
+
+-   __Joel 1__
+
+    ---
+
+    Commentary and cross-referenced studies for Joel chapter 1
+
+    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../commentaries/29-joel/chapter-001.md)
+
+-   __Hosea 9__
+
+    ---
+
+    Commentary and cross-referenced studies for Hosea chapter 9
+
+    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../commentaries/28-hosea/chapter-009.md)
+
+-   __Hosea 2__
+
+    ---
+
+    Commentary and cross-referenced studies for Hosea chapter 2
+
+    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../commentaries/28-hosea/chapter-002.md)
 
 </div>
 <!-- recent-updates:auto-end -->

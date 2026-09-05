@@ -4,7 +4,7 @@ category: "other"
 description: "Verse-by-verse commentary, organized by book, with auto-linked studies (see commentary_index.py)."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-08-29
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -136,6 +136,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](21-ecclesiastes/)
+
+-   __Song Of Solomon__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](22-song-of-solomon/)
 
 -   __Isaiah__
 

@@ -4,7 +4,7 @@ category: "other"
 description: "Personal Bible study notes: the Old and New Testaments read in context, with word studies in the original languages and every claim traceable to a source."
 draft: false
 date_created: 2026-07-10
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -214,11 +214,11 @@ Two of these studies are charts you can drive rather than pages you read.
 ## Recently updated
 
 <!-- recent-updates-teaser:auto-start -->
+- **[The Parables of the Olivet Discourse](last-things/olivet-discourse-parables.md)** — :material-new-box: New 2026-09-06
+- **[The Rapture of the Church](last-things/rapture.md)** — :material-update: Updated 2026-09-06
 - **[Glossary](glossary.md)** — :material-new-box: New 2026-09-05
 - **[FAQ](faq.md)** — :material-new-box: New 2026-09-05
 - **[Patristic Sources](resources/patristic-sources.md)** — :material-update: Updated 2026-09-05
-- **[Public Data Sources](resources/public-data-sources.md)** — :material-new-box: New 2026-09-05
-- **[Jewish Literature & Primary Sources](resources/jewish-sources.md)** — :material-update: Updated 2026-09-05
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) list for more.
