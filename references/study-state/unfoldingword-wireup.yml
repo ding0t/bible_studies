@@ -88,8 +88,11 @@ stages:
 
 open_questions:
   - >
-    Not mirrored to ding0t/*. gh auth failed on the keyring, so if Door43 disappears the pinned
-    commits are unreachable. Worth doing when auth works.
+    Not mirrored to ding0t/*. gh auth failed on the keyring when these were added; the user fixed
+    it on 2026-09-05, and `gh repo create` is then gated by the permission classifier, which is
+    correct -- it creates public repos on their account. Tracked as backlog item 8.1 with the exact
+    commands and the follow-on doc edits. Not a licence problem: CC BY-SA permits a verbatim
+    mirror.
   - >
     UST was not taken -- its licence was never individually confirmed. Four sources, not five.
   - >

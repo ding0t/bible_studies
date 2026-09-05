@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -38,6 +38,7 @@ Refer to an item by its number, e.g. "work on 4.1."
 | [6.1](#61-appointed-times-overarching) | Appointed times (overarching) | Feasts |
 | [6.2](#62-individual-feast-studies) | Individual feast studies | Feasts |
 | [7.1](#71-twelve-disciples) | Twelve disciples | Biblical figures |
+| [8.1](#81-mirror-the-unfoldingword-sources) | Mirror the unfoldingWord sources | Sources & tooling |
 
 ---
 
@@ -341,3 +342,36 @@ Meaning of the last trumpet in 1 Corinthians 15 and 1 Thessalonians 4.
 - Significance
 - Key verse
 - Takeaway / lesson
+
+## 8. Sources & tooling
+
+Not study topics — work on the material the studies rest on.
+
+### 8.1 Mirror the unfoldingWord sources
+
+The four unfoldingWord submodules (`uw-uhb`, `uw-ugnt`, `uw-ult`, `uw-uhg`) point at
+[Door43](https://git.door43.org/unfoldingWord) directly. Every other source in
+`references/open-data/` is forked to `ding0t/*` first, so the project survives an upstream
+disappearing; these four are the exception, because GitHub auth was not working on the machine that
+added them on 2026-09-05.
+
+Auth has since been fixed, so the only thing left is the doing. Pinned submodule commits already
+protect against upstream *changing* — the gap is Door43 going away entirely.
+
+**Licensing is not a blocker.** All four are CC BY-SA 4.0, which permits redistributing the
+unmodified work provided unfoldingWord's trademark and licence file stay intact. A verbatim mirror
+does exactly that.
+
+Per repo — `hbo_uhb`, `el-x-koine_ugnt`, `en_ult`, `en_uhg`:
+
+1. `git clone --mirror https://git.door43.org/unfoldingWord/<name>.git` — a full clone, since the
+   submodules here are `--depth 1` and cannot push complete history
+2. `gh repo create ding0t/<name> --public` — matching the visibility of the existing forks
+3. `git push --mirror https://github.com/ding0t/<name>.git`
+
+Then repoint the four URLs in `.gitmodules`, run `git submodule sync`, and correct the three places
+that currently say these are not mirrored: the permanence note on
+[Open Bible Data on GitHub](../resources/github.md), the unfoldingWord section of
+`references/README.md`, and `references/study-state/unfoldingword-wireup.yml`.
+
+Roughly 140MB in total; `en_ult` is nearly all of it and `en_uhg` is 3.6MB.
