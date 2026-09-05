@@ -122,7 +122,7 @@ Three men removed bodily before judgment reached them, in three different keys; 
 >
 > 1 "Let not your hearts be troubled. Believe in God; believe also in me. 2 In my Father's house are many rooms. If it were not so, would I have told you that I go to prepare a place for you? 3 And if I go and prepare a place for you, **I will come again and will take you to myself, that where I am you may be also.** 4 And you know the way to where I am going."
 
-This is where Chuck Missler begins his own discussion of the "blessed hope": before any sequence of events is worked out, the promise itself is stated plainly. Christ is coming back *for His own*, personally, to take them to be with Him.
+Christ is coming back *for His own*, personally, to take them where he is — stated as a promise before any sequence of events is worked out. Chuck Missler begins his own treatment of the "blessed hope" here for that reason.
 
 ## The imminence of the rapture
 
@@ -188,6 +188,70 @@ The two still read best as distinct, resting on the imminence argument above, th
 - "In a moment, in the twinkling of an eye" — about as fast as language can describe, reinforcing the sudden, ἁρπάζω-consistent nature of the event.
 - The trumpet appears again, tying this passage to 1 Thessalonians 4 and to [The Trumpet Call of God](trumpet.md).
 - Imperishable, immortal — the goal isn't escape from the body, but its transformation.
+
+## Two comings, sorted by their own language
+
+The pretribulational case needs the rapture and the visible second coming to be two events. The
+usual way that gets argued is from vocabulary — different words, therefore different events. Laid
+out against the corpus, that argument mostly fails, and a different one takes its place.
+
+### The vocabulary does not sort
+
+Every row below was checked against the Greek text rather than assumed.
+
+| Greek term | In the rapture passages | In the visible-coming passages | Separates them? |
+|---|---|---|---|
+| **παρουσία** (*parousia*, "arrival, presence") | 1 Thess 4:15; 1 Cor 15:23; 2 Thess 2:1 | Matt 24:27, 37, 39; 2 Thess 2:8 | No |
+| **ἀποκάλυψις** (*apokalypsis*, "unveiling") | 1 Cor 1:7; 1 Pet 1:7, 13 | 2 Thess 1:7 | No |
+| **ἐπιφάνεια** (*epiphaneia*, "appearing") | Titus 2:13 | 2 Thess 2:8 | No |
+| **ἐπισυνάγω / ἐπισυναγωγή** ("gather together") | 2 Thess 2:1 | Matt 24:31; Mark 13:27 | No |
+| **σάλπιγξ** (*salpinx*, "trumpet") | 1 Thess 4:16; 1 Cor 15:52 | Matt 24:31 | No |
+| **ἄγγελος** ("angel") | 1 Thess 4:16 — an archangel's *voice* | Matt 24:31; 2 Thess 1:7 — angels *sent*, and accompanying | Partly |
+| **ἁρπάζω** (*harpazō*, "snatch away") | 1 Thess 4:17 | — | **Yes** |
+| **ἀπάντησις** (*apantēsis*, "meeting") | 1 Thess 4:17 | — | **Yes** |
+
+Five of the eight terms appear on both sides. The two that are genuinely one-sided both sit in the
+same verse, 1 Thessalonians 4:17 — so the vocabulary argument reduces to a single sentence of Paul's
+rather than a pattern across the corpus. The trumpet is the clearest casualty: this study notes above
+that it ties 1 Thessalonians 4 to 1 Corinthians 15, and it does, but Matthew 24:31 has one too.
+
+### The features do sort
+
+| | Rapture passages<br/>1 Thess 4:15-17 · 1 Cor 15:51-53 · John 14:1-3 | Visible-coming passages<br/>Matt 24:29-31 · 2 Thess 1:7-10 · Rev 1:7 · Rev 19:11-16 |
+|---|---|---|
+| **Which way the saints move** | up — "caught up… to meet the Lord **in the air**" (1 Thess 4:17) | not stated of them; angels gather the elect as he descends (Matt 24:31) |
+| **Who comes with him** | the dead in Christ, raised first (1 Thess 4:16) | the armies of heaven on white horses (Rev 19:14); "his mighty angels" (2 Thess 1:7) |
+| **Who sees it** | not stated | "every eye" (Rev 1:7); "all the tribes of the earth… will see" (Matt 24:30) |
+| **How the nations react** | not stated | they mourn — **κόψονται**, the same verb and the same phrase "all the tribes of the earth" in both Matt 24:30 and Rev 1:7 |
+| **Signs beforehand** | none; "like a thief" (1 Thess 5:2), "in the twinkling of an eye" (1 Cor 15:52) | sun, moon and stars, "immediately **after the tribulation** of those days" (Matt 24:29) |
+| **Judgment on the wicked** | absent | flaming fire, vengeance, eternal destruction (2 Thess 1:8-9); the sword and the winepress (Rev 19:15) |
+| **Resurrection and transformation** | central — the dead raised, the living changed, mortality putting on immortality (1 Cor 15:52-53) | absent |
+| **Stated purpose in context** | comfort for the grieving (1 Thess 4:18); "the blessed hope" (Titus 2:13) | "to judge and make war" (Rev 19:11); recompense (2 Thess 1:8) |
+
+Eight features, and every one of them lands in one column or the other. That is the argument the
+vocabulary was being asked to carry and could not: two events described with overlapping words but
+with almost nothing in common in direction, visibility, company, consequence or purpose.
+
+### What the sequence markers do and do not say
+
+One asymmetry cuts against the tidy reading, and it belongs here rather than buried. **Only the
+visible-coming passages carry an explicit time-stamp.** Matthew 24:29 opens *εὐθέως δὲ μετὰ τὴν
+θλῖψιν τῶν ἡμερῶν ἐκείνων* — "immediately after the tribulation of those days" — placing that coming
+after the tribulation in so many words. No rapture passage carries a comparable marker. 1 Thessalonians
+4 gives an order *within* the event (the dead rise, then the living are caught up) and none for the
+event itself.
+
+So the second coming's position is stated; the rapture's is inferred. The inference is drawn from the
+features table above and from 1 Thessalonians 5:9 — a gathering with no signs, no visibility, no
+judgment and a stated purpose of comfort does not fit after the tribulation it never mentions. That
+is an argument from silence about timing rather than a timing statement, which is why careful
+interpreters land in different places on it.
+
+One sequence marker does run the other way, and it is the strongest of them. Revelation 19 reports
+the marriage of the Lamb as already come and the bride as already made ready (19:7-8) **two verses
+before** heaven opens and the rider goes out (19:11) — so on Revelation's own ordering the Church is
+gathered, assessed and clothed while the King is still in heaven. [Where the supper sits](#where-the-supper-sits-and-what-the-bride-is-wearing)
+works that through.
 
 ## The restrainer and his going
 
@@ -310,7 +374,10 @@ flowchart TD
     A["Betrothal, ketubah<br/>agreed price, bride set apart,<br/>covenant cup shared"] --> B["Bridegroom departs<br/>to prepare a place<br/>(John 14:2-3)"]
     B --> C["Undetermined wait<br/>bride watches, stays ready<br/>(Matt 25:1-13)"]
     C --> D["Sudden return<br/>often announced at midnight<br/>(Matt 25:6)"]
-    D --> E["Caught away together<br/>to the marriage feast<br/>(1 Thess 4:17)"]
+    D --> E["Caught away together<br/>(1 Thess 4:17)"]
+    E --> F["Bride assessed and clothed<br/>Bema seat, in heaven<br/>(2 Cor 5:10; Rev 19:8)"]
+    F --> G["The marriage, and the supper<br/>(Rev 19:7-9)"]
+    G --> H["The King rides out<br/>(Rev 19:11-16)"]
 ```
 
 The specific sequence of customs here — the ketubah's agreed price, a shared covenant cup, the bridegroom's indeterminate absence, a midnight announcement — comes from popular teaching sources (cited in the References below) rather than from a single primary first-century text laying the custom out end to end. Reconstructing first-century Jewish wedding practice in this much procedural detail is a live question among historians of the period, not settled ethnography.
@@ -321,6 +388,41 @@ On firmer ground is the biblical text's own use of betrothal and wedding *langua
 - **The bridegroom departs to prepare a place**, at his father's house — the wait is indeterminate; the bride doesn't set the date. This is exactly the language of John 14:2-3.
 - **The bride prepares** during the wait — see [Ephesians 5:25-27 (ESV)](https://www.blueletterbible.org/esv/Eph/5/25-27), Christ sanctifying and cleansing the church so as to present her "without spot or wrinkle."
 - **The return** comes as a surprise, traditionally announced at midnight with a shout — matching both the parable of the ten virgins and the "cry of command" of 1 Thessalonians 4:16.
+
+### Where the supper sits, and what the bride is wearing
+
+The wedding type has one stage past the rapture, and Revelation puts it at a specific point.
+
+> ✝️ [Revelation 19:7-9 (ESV)](https://www.blueletterbible.org/esv/Rev/19/7-9)
+>
+> 7 Let us rejoice and exult and give him the glory, for the marriage of the Lamb has come, and his
+> Bride has made herself ready; 8 it was granted her to clothe herself with fine linen, bright and
+> pure"— for the fine linen is the righteous deeds of the saints. 9 And the angel said to me,
+> "Write this: Blessed are those who are invited to the marriage supper of the Lamb." And he said to
+> me, "These are the true words of God."
+
+Two verses later heaven opens and the rider on the white horse goes out (19:11). So in Revelation's
+own order the marriage **has come** — ἦλθεν, aorist — and the bride **has made herself ready** —
+ἡτοίμασεν, aorist — before the visible return, not after it. Both verbs report completed action. The
+supper is announced while the King is still in heaven.
+
+That places a requirement on the sequence, and it is the join this study has been making in pieces.
+The bride's garment "is the righteous deeds of the saints": **δικαιώματα** (*dikaiōmata*), which
+Louw-Nida puts at 88.14, "righteous acts", the same sense as Revelation 15:4 — not the "ordinances"
+sense the word carries in its six other New Testament uses (Luke 1:6; Romans 1:32; 2:26; 8:4;
+Hebrews 9:1, 9:10). Those deeds are exactly what [the Bema seat](#the-judgments) assesses, and this
+study already places the Bema in heaven during the tribulation years. The bride is therefore dressed
+in the outcome of a judgment that has already happened — which cannot be true if the Church is still
+on earth when the rider appears.
+
+One guard against reading that as merit. The linen is not sewn but **ἐδόθη αὐτῇ**, "it was granted
+her" (19:8), a divine passive: given, and *consisting of* deeds, at the same time. That is the Bema's
+own logic — reward for what was built on a foundation already laid, never the foundation itself
+(1 Corinthians 3:11-15).
+
+The bride imagery runs much wider than this study's use of it, from Hosea and Isaiah through Paul to
+the new Jerusalem. [The Bride of Christ](../israel-and-church/bride-of-christ.md) works through the
+whole thread, including where the identification is argued rather than assumed.
 
 ### Prepared for good works
 

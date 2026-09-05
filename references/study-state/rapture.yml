@@ -172,3 +172,49 @@ review_2026-09-06:
       paid down since. "rather than" 29 -> 7, worth-template 0, the 344-word bullet gone, and none
       of the four discussion questions is self-referential any more.
   last_updated: "2026-09-06"
+
+revision_2026-09-06b:
+  what: "User-requested comparative section on the two comings, plus the marriage supper's place in the wedding type."
+  added:
+    - >
+      New section "Two comings, sorted by their own language" with two tables. The finding is that
+      the usual argument -- different vocabulary, therefore different events -- mostly FAILS, and a
+      better one replaces it. Checked against the corpus, not assumed: parousia, apokalypsis,
+      epiphaneia, the episynago root and even salpinx (trumpet) all appear on BOTH sides. Only
+      harpazo and apantesis are one-sided, and both sit in the same verse, 1 Thess 4:17. So the
+      vocabulary argument reduces to one sentence of Paul's. The study's own earlier claim that the
+      trumpet "ties this passage to 1 Corinthians 15" is now qualified, since Matt 24:31 has one too.
+    - >
+      Second table: eight FEATURES, every one of which lands in one column only -- direction the
+      saints move, who accompanies him, who sees it, how the nations react, signs beforehand,
+      judgment on the wicked, resurrection/transformation, and stated purpose in context. That is
+      the argument the vocabulary could not carry.
+    - >
+      Third subsection on sequence markers, kept deliberately two-sided. Only the visible-coming
+      texts carry an explicit time-stamp (Matt 24:29, "immediately after the tribulation"), so the
+      rapture's position is inferred rather than stated -- an argument from silence, said plainly.
+      Balanced by the one marker running the other way: Rev 19:7-8 has the marriage come and the
+      bride ready TWO VERSES before the rider goes out at 19:11.
+    - >
+      New subsection "Where the supper sits, and what the bride is wearing", which makes a join
+      neither this study nor bride-of-christ.md had made. Rev 19:8's fine linen "is the righteous
+      deeds of the saints" -- dikaiomata, Louw-Nida 88.14 "righteous acts" (as at Rev 15:4), NOT
+      the 33.334 "ordinances" sense the word carries in its six other NT uses (Luke 1:6; Rom 1:32,
+      2:26, 8:4; Heb 9:1, 9:10). Those deeds are what the Bema assesses, and this study already
+      places the Bema in heaven during the tribulation. So the bride wears the outcome of a
+      judgment already completed, which the aorists of 19:7 (elthen, hetoimasen) confirm. Guarded
+      against a merit reading by edothe aute, "it was granted her" -- a divine passive: given, and
+      consisting of deeds, at once.
+    - "The wedding-pattern diagram extended past the rapture to the Bema, the supper and the return. Re-measured at 276px, unchanged from before despite three more nodes."
+  cut: "The 'Certainty' section's framing sentence about where Chuck Missler begins his own treatment -- reworded so the fact about Scripture leads and the citation follows, rather than the reverse."
+  verification: >
+    Every vocabulary row queried from macula-greek-sblgnt rather than recalled. Every feature-table
+    citation pulled from study-notes.db (Titus 2:13, 1 Thess 4:18, 1 Cor 15:23, 1 Cor 1:7, 1 Pet
+    1:13, 1 Thess 5:2, Rev 19:11). Rev 19:7-9 checked verbatim, and two of my own departures from
+    the ESV corrected: an opening quotation mark added at v7 that the ESV does not carry there, and
+    a space inserted before the em-dash at v8. bible_trace on Rev 1:7 returned only the stock LXX
+    "all the tribes of the earth" blessing formula (Gen 12:3, 28:14, Ps 72:17), all uncorroborated,
+    so it was NOT used -- but the direct Matt 24:30 / Rev 1:7 overlap (kopsontai plus that phrase)
+    was observed in the Greek and is stated. mkdocs --strict clean, all four new anchors resolve,
+    validate at the 8 pre-existing warnings.
+  last_updated: "2026-09-06"
