@@ -124,6 +124,13 @@ is the whole argument for checking a verse rather than trusting a label.
 
     A live question sits alongside that. Some readings in these Hebrew editions have no counterpart in the Greek, and there is an argument that the earliest printings of Salkinson-Ginsburg carried readings later editions removed. Second Thessalonians 2:7 is the case that matters most here, since the identity of the restrainer bears on [the rapture study](../last-things/rapture.md). What our copy actually reads at that verse is recorded in `references/README.md`, dated, so the claim can be tested against a specific text instead of a recollection.
 
+!!! tip "New to lemmas, parsing and semantic domains?"
+
+    This page is about which *text* to trust. [Reading the Original-Language
+    Data](original-language-data.md) is about the annotation attached to those texts — what MACULA
+    is, and what a lemma, a Strong's number, a morphology code and a semantic domain each mean, with
+    Genesis 1:1 shown at every layer.
+
 !!! note "Which English word renders which Hebrew or Greek word"
 
     One translation here carries something the others do not. unfoldingWord's **ULT** (`uw-ult`) is

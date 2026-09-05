@@ -25,9 +25,11 @@ job: a survey of the open Bible data that exists in this space — including sou
 turned down — for a reader who wants the landscape rather than our plumbing. Anything there that we
 actually use points back here.
 
-Two other pages own questions this one deliberately does not: what a given text is *worth as a
-witness* belongs to [Bible Translations & Source Texts](../scripture/translations.md), and the
-church fathers to [Patristic Sources](../resources/patristic-sources.md).
+Three other pages own questions this one deliberately does not: what a given text is *worth as a
+witness* belongs to [Bible Translations & Source Texts](../scripture/translations.md); what the
+data's own vocabulary means — lemma, parsing, semantic domain, and what MACULA actually is — to
+[Reading the Original-Language Data](../scripture/original-language-data.md); and the church fathers
+to [Patristic Sources](../resources/patristic-sources.md).
 
 ## Three tiers, one rule
 

@@ -4,7 +4,7 @@ category: "other"
 description: "The Bible about itself -- canon, manuscripts, translation, and the archaeology behind the text."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-08-23
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -55,6 +55,14 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
     What Scripture actually does with numbers — verified acrostics, the one number the Bible asks us to calculate, and why the 'Bible code' industry fails on its own terms.
 
     [:octicons-arrow-right-24: Read](numerology.md)
+
+-   __Reading the Original-Language Data__
+
+    ---
+
+    What the Hebrew and Greek sources behind this site actually are, what an annotation layer like MACULA adds on top of a text, and what the vocabulary means — lemma, morphology, Strong's number, semantic domain, alignment — with one verse shown at every layer.
+
+    [:octicons-arrow-right-24: Read](original-language-data.md)
 
 -   __Bible Translations & Source Texts__
 
