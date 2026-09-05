@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
 bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20"]
 date_created: 2026-09-01
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -165,6 +165,15 @@ the groom normally coming after dark (note on Matthew 25:1). Families negotiatin
 
 A wedding feast running seven days is biblical and pre-rabbinic: Jacob is told "complete the week of
 this one" (Genesis 29:27), and Samson's feast runs "the seven days of the feast" (Judges 14:12).
+
+The word Genesis uses there is <span dir="rtl">שָׁבוּעַ</span> (*shabua*, H7620) — the same noun
+Daniel uses for the seventieth week (Daniel 9:27), and one whose twenty Old Testament occurrences
+are mostly the Feast of Weeks formula, leaving the bare "bounded seven-period" sense concentrated in
+Genesis 29 and Daniel 9-10. The unit differs, days against years, so this is a resemblance in the
+vocabulary rather than a stated correspondence — but it is a resemblance in the text rather than in
+a reconstructed custom, which is more than the three claims below can offer. [The Rapture of the
+Church](../last-things/rapture.md#the-jewish-wedding-pattern) takes it up where the seven-year
+tribulation is in view.
 
 The canopy has its own small word study. Hebrew <span dir="rtl">חֻפָּה</span> (*chuppah*, Strong's
 H2646) occurs three times in the Old Testament, and the third is the interesting one:

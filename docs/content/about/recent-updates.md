@@ -36,6 +36,14 @@ way.
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/rapture.md)
 
+-   __The Trumpet Call of God__
+
+    ---
+
+    What shofar and chatsotsrah meant in ancient Israel, the pattern of divine action a trumpet blast consistently signals across the Old Testament, and how Revelation's seven trumpets escalate that pattern toward the kingdom's arrival.
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/trumpet.md)
+
 -   __Glossary__
 
     ---
@@ -171,14 +179,6 @@ way.
     Commentary and cross-referenced studies for Hosea chapter 9
 
     :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../commentaries/28-hosea/chapter-009.md)
-
--   __Hosea 2__
-
-    ---
-
-    Commentary and cross-referenced studies for Hosea chapter 2
-
-    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../commentaries/28-hosea/chapter-002.md)
 
 </div>
 <!-- recent-updates:auto-end -->

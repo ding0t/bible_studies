@@ -216,9 +216,9 @@ Two of these studies are charts you can drive rather than pages you read.
 <!-- recent-updates-teaser:auto-start -->
 - **[The Parables of the Olivet Discourse](last-things/olivet-discourse-parables.md)** — :material-new-box: New 2026-09-06
 - **[The Rapture of the Church](last-things/rapture.md)** — :material-update: Updated 2026-09-06
+- **[The Trumpet Call of God](last-things/trumpet.md)** — :material-update: Updated 2026-09-06
 - **[Glossary](glossary.md)** — :material-new-box: New 2026-09-05
 - **[FAQ](faq.md)** — :material-new-box: New 2026-09-05
-- **[Patristic Sources](resources/patristic-sources.md)** — :material-update: Updated 2026-09-05
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) list for more.

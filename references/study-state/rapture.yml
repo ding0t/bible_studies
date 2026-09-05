@@ -305,3 +305,39 @@ revision_2026-09-06d:
     old anchors (#certainty, #the-sequence-of-end-time-events) confirmed gone from the built page.
   verification: "Body word count identical. mkdocs --strict clean. validate at the 8 pre-existing warnings. Both diagrams re-measured after the move: 276px and 552.8px, each rendering at 100%. All nine changed section junctions read for dangling transitions; none found."
   last_updated: "2026-09-06"
+
+revision_2026-09-06e:
+  what: >
+    User asked whether rapture.md and bride-of-christ.md align on the seven-day wedding feast
+    against the seven-year tribulation. They aligned only by omission -- neither drew the link --
+    so a short observation was added to both, at the user's direction to state genuine linkage
+    without overclaiming.
+  finding: >
+    The two durations are the SAME Hebrew noun: shabua (H7620). Gen 29:27's seven-day wedding feast
+    and Dan 9:27's week of years share lemma and Strong's number, verified from macula-hebrew-wlc
+    rather than assumed. The distribution is narrow and supports the link: 20 OT occurrences, of
+    which 8 are the Feast of Weeks formula (Exod 34:22; Deut 16:9 x2, 16:10, 16:16; Num 28:26;
+    2 Chr 8:13; Ezek 45:21). With those set aside, 10 of the remaining 12 sit in Genesis 29 (2) and
+    Daniel 9-10 (8), leaving only Lev 12:5 and Jer 5:24 -- so the bare "bounded seven-period" sense
+    is concentrated in exactly the two passages in question.
+  limits_stated_in_both: >
+    No text states the correspondence; it is inferred from two independently true durations. And
+    the unit differs -- Genesis counts days, Daniel counts years -- which is the question rather
+    than its answer. Scripture does use day-for-a-year (Num 14:34; Ezek 4:6) but for judgment
+    reckonings, not feast typology, so that bridge was NOT invoked. Both studies now call it a
+    resemblance in the vocabulary rather than a stated design.
+  why_it_clears_the_bar: >
+    bride-of-christ.md already declines three popular wedding-custom claims as undocumented,
+    closing that "the invented details add colour and cost credibility". This one is different in
+    kind: it is a resemblance in the biblical text rather than in a reconstructed custom, which is
+    said explicitly in the note added there. Two things that study had already found now read as
+    supporting context rather than isolated data -- Joel 2:16 placing bridegroom and bride leaving
+    their chambers inside a day-of-the-LORD summons, and Isaiah 4:5 putting the chuppah word over
+    Zion in an eschatological oracle.
+  placement: >
+    rapture.md: a single paragraph after the wedding-custom bullets, before "Where the supper sits",
+    which is where the feast's LENGTH belongs and leads into the supper. bride-of-christ.md: two
+    sentences appended to "The feast, and the canopy", the section that already documents the
+    seven-day feast. Cross-linked both ways.
+  verification: "All seven verses re-checked against study-notes.db (Gen 29:27; Judg 14:12; Dan 9:27; Num 14:34; Ezek 4:6; Joel 2:16; Isa 4:5). shabua occurrence list and count queried, not recalled. mkdocs --strict clean, both cross-links resolve in the built pages, Hebrew renders inside a dir=rtl span with no bold (validate Check 9 clean)."
+  last_updated: "2026-09-06"

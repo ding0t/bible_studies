@@ -377,6 +377,16 @@ On firmer ground is the biblical text's own use of betrothal and wedding *langua
 - **The bride prepares** during the wait — see [Ephesians 5:25-27 (ESV)](https://www.blueletterbible.org/esv/Eph/5/25-27), Christ sanctifying and cleansing the church so as to present her "without spot or wrinkle."
 - **The return** comes as a surprise, traditionally announced at midnight with a shout — matching both the parable of the ten virgins and the "cry of command" of 1 Thessalonians 4:16.
 
+**The feast's length and the tribulation's share a word.** A wedding feast ran seven days
+(Genesis 29:27; Judges 14:12), and the tribulation is one week of years (Daniel 9:27). Both are the
+same Hebrew noun, <span dir="rtl">שָׁבוּעַ</span> (*shabua*, H7620), and its distribution is narrow:
+twenty occurrences in the Old Testament, eight of them the Feast of Weeks formula, and with those
+set aside the bare "bounded seven-period" sense sits almost entirely in Genesis 29 and Daniel 9-10.
+What the shared word does not settle is the unit — Genesis counts days and Daniel counts years,
+which is the question rather than its answer, and no text states a correspondence between them. A
+resemblance in the vocabulary, then, not a stated design. [The Bride of
+Christ](../israel-and-church/bride-of-christ.md) documents the seven-day feast itself.
+
 ### Where the supper sits, and what the bride is wearing
 
 The wedding type has one stage past the rapture, and Revelation puts it at a specific point.
