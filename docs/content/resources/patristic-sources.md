@@ -6,7 +6,7 @@ tags: ["church-fathers", "early-church", "sources", "method/textual-criticism", 
 draft: false
 bible_references: ["Acts 1:21-22"]
 date_created: 2026-08-08
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -146,9 +146,9 @@ exists.
 
 ## Where the texts live, and what each kind can settle
 
-The full texts are held outside this repository, on the project's own media volume, with a
-provenance file recording source, date retrieved, and licence tier for each. They fall into two
-groups, and **the difference decides what a citation from them can support.**
+The full texts are held on this project's own storage, each recorded with where it came from, when,
+and under what licence. They fall into two groups, and **the difference decides what a citation from
+them can support.**
 
 ### Translations — for finding a passage and reading an argument
 

@@ -102,7 +102,7 @@ What grammatical form this particular occurrence is in, written as a code.
 This is what a grammar teacher means by **parsing** a word. It matters when an argument turns on the
 form rather than the word — whether something is a command or a description, singular or plural, who
 is acting on whom. For what a form *does*, as against what a word means, this project holds a Hebrew
-reference grammar; the studies reach it with `bible_grammar`.
+reference grammar, and the studies look a form up rather than recalling what it does.
 
 ### Gloss
 
@@ -170,7 +170,7 @@ open community project. Its own documentation notes that morphology was added pr
 than arriving complete.
 
 **Strengths.** The most direct route to the WLC as a *text* with tagging attached, in a simple
-format, and the source AGENTS.md points at for Hebrew word studies. Every word carries a stable id
+format, and the source this site's own word studies are required to work from. Every word carries a stable id
 so other datasets can attach to it.
 
 **Weaknesses.** Text and tagging only — no syntax, no semantic domains. For anything beyond the word
@@ -197,8 +197,8 @@ text-fabric format, from a university research centre built around exactly this 
 **Strengths.** Deeper syntactic analysis than any other source this site holds — full clause
 hierarchy, not just clause role.
 
-**Weaknesses.** **CC BY-NC**: non-commercial only, so it sits in `references/restricted-data/` and
-would be off the table if this site ever monetised. Catalogued and licence-checked but not wired
+**Weaknesses.** Non-commercial licensing only, so it is kept apart from the freely reusable sources
+and would be off the table if this site ever monetised. Catalogued and licence-checked but not wired
 into any query tool, because MACULA already covers subject, role, construct state and coreference.
 It is reserved for an argument that specifically needs what MACULA cannot give.
 
