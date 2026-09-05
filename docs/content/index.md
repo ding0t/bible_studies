@@ -4,7 +4,7 @@ category: "other"
 description: "Personal Bible study notes: the Old and New Testaments read in context, with word studies in the original languages and every claim traceable to a source."
 draft: false
 date_created: 2026-07-10
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -190,6 +190,24 @@ Two of these studies are charts you can drive rather than pages you read.
     Chapter-by-chapter notes, book by book, from Genesis through Revelation.
 
     [:octicons-arrow-right-24: Browse](commentaries/index.md)
+
+-   :material-frequently-asked-questions:{ .lg .middle } __FAQ__
+
+    ---
+
+    Who writes this, how AI is used, what I believe, which translation and why — and how to check
+    any claim here for yourself.
+
+    [:octicons-arrow-right-24: Read](faq.md)
+
+-   :material-book-alphabet:{ .lg .middle } __Glossary__
+
+    ---
+
+    Lemma, MACULA, pericope, Septuagint — short definitions of the terms these studies use, each
+    linked to the page that explains it properly.
+
+    [:octicons-arrow-right-24: Look up a term](glossary.md)
 
 </div>
 
