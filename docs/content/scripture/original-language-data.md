@@ -31,17 +31,25 @@ a study depends on is usually the layer, not the text, which is why the layer de
 
 ## The texts
 
-Short descriptions here; what each one is *worth as a witness* — its strengths, its cautions, where
-it stands in the manuscript tradition — belongs to
-[Bible Translations & Source Texts](translations.md).
+The full account of what each is *worth as a witness* — its strengths, its cautions, where it stands
+in the manuscript tradition — belongs to [Bible Translations & Source
+Texts](translations.md), which treats them one by one. What the third column adds here is narrower
+and specific to this page: **every limitation of a text is inherited by the annotation built on it.**
+A lemma attached to a single manuscript is a lemma for that manuscript's reading.
 
-| Text | What it is |
-|---|---|
-| **WLC** — Westminster Leningrad Codex | The Hebrew Old Testament, in a digital edition of the Leningrad Codex, a complete manuscript written about AD 1008. This is the Hebrew behind almost every English Old Testament |
-| **SBLGNT** — SBL Greek New Testament | A modern critical Greek New Testament, published 2010, openly licensed. The default Greek here |
-| **Brenton Septuagint** | The Greek Old Testament: a pre-Christian translation of the Hebrew, and often the version New Testament authors quote |
-| **UHB / UGNT** | unfoldingWord's Hebrew Bible and Greek New Testament — the texts their English translation is aligned to, word by word |
-| **Dead Sea Scrolls** | Hebrew manuscripts a thousand years older than the Leningrad Codex, and fragmentary |
+| Text | What it is | The limit the annotation inherits |
+|---|---|---|
+| **WLC** — Westminster Leningrad Codex | The Hebrew Old Testament, in a digital edition of the Leningrad Codex, a complete manuscript written about AD 1008. The Hebrew behind almost every English Old Testament | **One manuscript, not a reconstruction.** Where that scribe was idiosyncratic, so is every lemma and parse built on him. Its vowel points are Masoretic and medieval — centuries younger than the consonants they interpret — so a parsing that depends on vocalisation is resting on a later reading, not on the oldest layer of the text |
+| **SBLGNT** — SBL Greek New Testament | A modern critical Greek New Testament, published 2010, openly licensed. The default Greek here | **Eclectic: no single manuscript reads exactly this.** It is a reasoned synthesis of earlier critical editions, so the annotation describes an edition rather than any surviving copy |
+| **Brenton Septuagint** | The Greek Old Testament: a pre-Christian translation of the Hebrew, and often the version New Testament authors quote | **A translation, so it witnesses its Hebrew source at one remove** — and translators interpret. Brenton follows Vaticanus, one Septuagint tradition among several that diverge |
+| **UHB / UGNT** | unfoldingWord's Hebrew Bible and Greek New Testament — the texts their English alignment resolves against | **UGNT is a heuristic text**, not a committee edition, and differs from SBLGNT in roughly one verse in six. Alignment data resolves against *it*, so check which Greek a wording came from |
+| **Dead Sea Scrolls** | Hebrew manuscripts a thousand years older than the Leningrad Codex, and fragmentary | **Neither complete nor uniform.** 31.8% of words carry an editorial mark, so a bracketed reading is a modern reconstruction; and the scrolls are textually plural — some proto-Masoretic, some behind the Septuagint, some independent. "The scrolls read X" is usually "one scroll reads X" |
+
+The pattern across that column is worth naming, because it is the honest limit of everything on this
+page: **annotation is only ever as good as the text it sits on, and none of these texts is neutral.**
+A single medieval manuscript, a modern reconstruction, an ancient translation and a heap of fragments
+each carry a different kind of uncertainty, and a study that leans hard on a word should say which
+one it is standing on.
 
 ## The layers, and what MACULA is
 
