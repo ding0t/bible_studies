@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 8:6-9:21; 11:15-19"
 bible_references: ["Numbers 10:1-10", "Numbers 31:6", "Exodus 19:16-19", "Leviticus 23:23-25", "Leviticus 25:8-12", "Joshua 6:4-5", "Judges 7:16-22", "1 Kings 1:34-39", "Amos 3:6", "Joel 2:1-11", "Zephaniah 1:14-16", "Isaiah 18:3", "Isaiah 27:12-13", "Matthew 24:29-31", "1 Corinthians 14:8", "1 Corinthians 15:51-53", "1 Thessalonians 4:16-17", "Revelation 4:1", "Revelation 10:7", "Revelation 19:11-16"]
 date_created: 2025-05-21
-date_modified: 2026-08-23
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-4.5
@@ -70,7 +70,7 @@ Ancient Israel used two distinct instruments for the "trumpet" English translati
 
 <span dir="rtl">שׁוֹפָר</span> (*shofar*, H7782) is a ram's horn — a natural instrument, no two exactly alike, blown by anyone who could produce a sound from it. It announced the Day of Atonement and the start of Jubilee throughout the land (Leviticus 25:9), and it led Israel's march around Jericho (Joshua 6:4-5). Its Hebrew root sense is simply "horn," and the related noun <span dir="rtl">יוֹבֵל</span> (*yobel*, H3104, TWOT root 835e) — "ram" or "ram's horn" — is where "jubilee" gets its name: the Year of Jubilee is, at the level of its own vocabulary, "the ram's-horn year."[^esvsb-lev25]
 
-![A shofar, a ram's horn trumpet](../assets/img/shofar.webp)
+![A shofar, a ram's horn trumpet](../assets/img/shofar.webp){ width="320" }
 
 <span dir="rtl">חֲצֹצְרָה</span> (*chatsotsrah*, H2689, TWOT root 726a), glossed "clarion," is a different instrument entirely — straight, metal, made of hammered silver, roughly two feet long with a flared end.[^esvsb-num10] Numbers 10:1-10 specifies exactly two of them, commissioned for a specific job:
 
@@ -79,8 +79,6 @@ Ancient Israel used two distinct instruments for the "trumpet" English translati
 > 2 "Make two silver trumpets. Of hammered work you shall make them, and you shall use them for
 > summoning the congregation and for breaking camp. 3 And when both are blown, all the
 > congregation shall gather themselves to you at the entrance of the tent of meeting."
-
-![Two silver trumpets](../assets/img/two-trumpets.jpg)
 
 The Cultural Backgrounds Study Bible notes these were likely styled after Egyptian instruments of the same period — narrow-tubed, sharp-pitched trumpets known from Late Bronze Age Egypt, examples of which were found in Tutankhamun's own tomb, used there in both cultic and military settings.[^cbsb-num10] Josephus describes Israel's own pair as just over a foot long and flared, and pictures of captured temple trumpets survive on the Arch of Titus in Rome, carried among the plunder of Jerusalem's fall in AD 70.[^cbsb-num10] Silver trumpets were blown by Aaron's priestly line specifically (Numbers 10:8) and reappear in Phinehas's hand at the battle against Midian (Numbers 31:6) — a war context, not a worship one, showing the same instrument served both. The shofar and the silver trumpet were never interchangeable in function: the ram's horn belonged to Israel generally and to unrepeatable, dramatic moments (Sinai, Jericho, Jubilee); the silver trumpets belonged to the priesthood and to Israel's ordinary operating rhythm — assembling, marching, going to war, marking a feast day.
 
