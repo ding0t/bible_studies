@@ -41,8 +41,11 @@ the priesthood of Christ is the antitype. See [typology](#typology).
 
 **Dispensationalism**{ #dispensationalism } — Reading Scripture as God dealing with humanity through
 successive administrations, and holding that the promises made to Israel are not transferred to the
-Church. It is this site's default framework, and it is a framework rather than a verse.
-→ [Israel and the Church](israel-and-church/israel-and-the-church.md)
+Church. It is this site's default framework. The name comes from Paul's own word for the present
+arrangement, **οἰκονομία** (*oikonomia*, G3622) — the household-management of a thing, its
+administration — which Ephesians 3:9 applies to "the plan of the mystery": an age with its own
+terms, opened at the cross and not identical to the age before it or the one after.
+→ [Israel and the Church](israel-and-church/israel-and-the-church.md#what-scripture-means-by-a-mystery)
 
 **Eisegesis**{ #eisegesis } — Reading a meaning *into* a text that is not in it. Usually the result
 of arriving with the conclusion already settled. The opposite failure to [exegesis](#exegesis).
@@ -282,3 +285,4 @@ that no other source supplies.
   of this vocabulary is useful
 - [Bible Translations & Source Texts](scripture/translations.md) — which text to trust, and why the
   editions differ
+- [FAQ](faq.md) — the questions readers arrive with, as against the words they get stuck on

@@ -3,7 +3,7 @@ title: "FAQ"
 category: "other"
 description: "Short answers to the questions readers arrive with — who writes this, how AI is used, what I believe, which translation and why, and how to check any claim on the site for yourself."
 tags: ["faq", "reference"]
-draft: true
+draft: false
 date_created: 2026-09-05
 date_modified: 2026-09-05
 ai_provider_models:
@@ -11,17 +11,6 @@ ai_provider_models:
 ---
 
 # Frequently asked questions
-
-<!-- SCAFFOLD — review before publishing.
-     1. Every answer below is a compression of something already written elsewhere on this site;
-        nothing here states a position that isn't already on statement-of-faith.md,
-        hebrew-roots.md, why-ai-assisted-study.md or translations.md. Read them in your own
-        voice anyway — the first-person answers speak for you.
-     2. Two answers are marked TODO and cannot be written without a decision from you.
-     3. While draft: true, hooks/draft_pages.py keeps this out of `mkdocs build`, so it is not
-        on the live site and nothing published may link to it yet. To publish: set draft: false,
-        add `- faq.md` to docs/content/.pages, and add the cross-links listed at the bottom.
--->
 
 Short answers, each pointing at the page that works the question out properly. If what you came for
 is a word — *lemma*, *MACULA*, *pericope* — the [Glossary](glossary.md) is the faster stop.
@@ -115,8 +104,10 @@ heaven and new earth. → [End times](about/statement-of-faith.md#end-times) and
 
 ### What does "dispensational" mean here, in practice?
 
-One commitment above all: that the Bible is the authoritative Word of God, over tradition and over
-human leaders. It is to be read first as written and in context — not as symbolic poetry, and not as
+The word itself is Paul's — **οἰκονομία** (*oikonomia*), the administration of a household, used at
+Ephesians 3:9 of the arrangement now in force; see [dispensationalism](glossary.md#dispensationalism)
+for that. In practice, though, it rests on one commitment above all: that the Bible is the
+authoritative Word of God, over tradition and over human leaders. It is to be read first as written and in context — not as symbolic poetry, and not as
 verses cherry-picked to suit a belief already held.
 
 The distinctive outcomes follow from that:
@@ -212,10 +203,13 @@ misses some they carry. → [How we cross-reference](about/how-we-cross-referenc
 
 ### Where should I start?
 
-TODO — pick the two or three entry points you actually want a newcomer sent to. Candidates:
-[How to read the Bible](scripture/how-to-read-the-bible.md) for method,
-[Key takeaways](about/key-takeaways.md) for what every study is trying to give you, a named study as
-a worked example, and the section index a first-time reader should land on.
+Three doors, depending on what you came for.
+[How to read the Bible](scripture/how-to-read-the-bible.md) is the method everything else here
+follows — the questions to ask of a passage, in order. [Key takeaways](about/key-takeaways.md)
+explains what every study is trying to hand you, so the studies read faster. And if you would rather
+start with the thing itself, [The Way](jesus/the-way.md) is a word study that traces one Greek word,
+ὁδός (*hodos*), from Isaiah through John 14:6 into the book of Acts, and shows what this site does
+with a passage.
 
 ### How is the site organised, and how do I find a passage?
 
@@ -226,8 +220,12 @@ Directories carry the subject and tags carry everything else — method, languag
 
 ### What are the timeline and genealogy pages?
 
-TODO — one sentence each, once you have decided how prominently to sell them.
-[Timeline](timeline.md) and [Genealogy](genealogy.md).
+Two interactive charts rather than pages of prose. The
+[Timeline](timeline.md) sets creation through to the millennial reign against the millennial-week
+framework, showing the Masoretic, Septuagint and Samaritan chronologies side by side so you can see
+where they disagree. The [Genealogy](genealogy.md) is a family tree from Adam to Jesus — lifespans,
+Hebrew name meanings, and who was alive at the same time as whom, which is more surprising than it
+sounds.
 
 ### Can I quote or reuse this?
 
@@ -241,9 +239,3 @@ checked, and "errors here are mine" only stays true if an altered version says i
 
 Quoted Scripture and reference works are a different matter and are not mine to license — each
 carries its own terms. → [Copyright and Scripture permissions](about/copyright.md)
-
-<!-- Cross-links to add when this goes live:
-     - docs/content/index.md — a line in the homepage intro pointing here
-     - docs/content/about/index.md — regenerate with section_index.py if faq.md moves into about/
-     - docs/content/glossary.md — a "See also" entry, mirroring this page's link to the glossary
--->
