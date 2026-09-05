@@ -95,8 +95,8 @@ flowchart LR
 **Open data does the heavy lifting.** Nearly everything a word study depends on — the Hebrew and Greek
 text itself, morphology, lemmas, Strong's numbers, Louw-Nida/SDBH semantic domains, clause-level syntax
 and coreference, cross-references, and four complete public-domain English translations — is open. This
-is also the only tier committed into the repo (as `references/open-data/` submodules), so it's the tier
-a reader could go pull and check themselves without asking anyone's permission. [Bible Translations &
+is also the only tier published alongside this project, so it is the tier a reader can go and check
+without asking anyone's permission. [Bible Translations &
 Source Texts](../scripture/translations.md) is the deep dive on this slice specifically — translation
 philosophy, textual-criticism tradeoffs, and a per-edition tracking table for every English translation,
 Hebrew witness, and Greek New Testament text this site draws on, English translations included.
@@ -107,11 +107,11 @@ usable now under its non-commercial terms. BHSA — a deeper Hebrew syntax resou
 role, construct state, and coreference for both testaments, so BHSA is reserved for an argument that
 specifically needs full clause hierarchy MACULA doesn't give.
 
-**Quotation-only data checks the work; it doesn't write it.** The develop-bible-study skill's own rule
-is commentaries last, not first — used to check a reading already reached from the text, not to form
-it. Because that tier carries no blanket redistribution right, its database (`study-notes.db`) is built
-and stored entirely outside this repo's directory tree, on a separate volume, and never committed —
-stronger isolation than a `.gitignore` line, on purpose.
+**Quotation-only data checks the work; it doesn't write it.** The rule these studies follow is
+commentaries last, not first — used to test a reading already reached from the text, never to form
+one. And because that tier carries no right to redistribute, it is kept on separate storage, outside
+this project's public repository entirely, rather than relying on a rule that says not to publish
+it.
 
 ## TWOT: one source, split across two tiers
 
@@ -137,26 +137,28 @@ with the case where this site got it wrong and had to retract.
 third-party teaching. It is deliberately outside every tier above: unvetted input, a lead to chase
 down in a primary source, never a citable reference in a study.
 
-## One gap in how our sources are held
+## Keeping our own copies
 
-Every source in `references/open-data/` is forked to `ding0t/*` before being submoduled, so the
-project survives an upstream disappearing. The four unfoldingWord sources are the exception: they
-live on Door43, which is Gitea rather than GitHub, and GitHub auth was not working on the machine
-that added them. Their submodules point upstream directly.
+A claim stays checkable only while the source under it is still reachable. So this project keeps its
+own copy of each open source it uses, pinned to an exact version, rather than pointing at whatever a
+publisher happens to be serving today. If a dataset changes upstream, the studies do not silently
+change with it.
 
-Pinned commits already protect against upstream *changing*. The exposure is Door43 going away
-entirely, and closing it is tracked as [backlog 8.1](backlog.md#81-mirror-the-unfoldingword-sources).
+Four sources are so far an exception — unfoldingWord's Hebrew Bible, Greek New Testament, Literal
+Text and Hebrew Grammar. Those are pinned to an exact version, but the copy is still the publisher's
+own, so a study resting on them depends on that publisher staying online. Taking our own copies is
+on the list.
 
-**Those four are also the only CC BY-SA sources here**, where everything else open is CC BY, CC0 or
-public domain. That is fine for quoting and for a local gitignored database, and it
-would need thinking about again before publishing any dataset derived from them.
+Those four also carry a **share-alike** licence, where everything else open on this page is CC BY,
+CC0 or public domain. That places no limit on quoting them. It would matter if this site ever
+published a dataset built from them.
 
 ## The two databases, and what is in them
 
 Nothing here is hand-curated. `bible-text.db` is rebuilt from scratch by
 [`references/build/build.py`](https://github.com/ding0t/bible_studies/blob/main/references/build/build.py),
-which reads the submodules in `references/open-data/` and `references/restricted-data/`, so a re-run
-produces the same rows and any claim resting on it can be re-derived rather than trusted.
+which reads the source collections described above. A re-run produces the same rows, so any claim
+resting on it can be re-derived rather than trusted.
 
 | Table | Rows | What it holds |
 |---|---|---|
@@ -170,15 +172,15 @@ produces the same rows and any claim resting on it can be re-derived rather than
 | `literary_units` | 1,181 | paragraph and pericope boundaries from the Masoretic markers, not modern chapter breaks |
 | `grammar_articles` | 88 | what a Hebrew *form* does, as against what a word means |
 
-`study-notes.db` is the second pipeline, built by `build_study_notes.py` from commercial study-Bible
-EPUBs. It is quotation-only, so it is built and stored **entirely outside this repository**, on a
-separate volume, and never committed — stronger isolation than a `.gitignore` line, on purpose.
+`study-notes.db` is the second collection, built by `build_study_notes.py` from commercial
+study-Bible ebooks. Because that material is quotation-only, it is built and kept **entirely outside
+this project's public repository**, on separate storage, so it cannot be redistributed by accident.
 
 ### The scripts that clean and derive
 
 | Script | What it does |
 |---|---|
-| `build.py` | Builds `bible-text.db` from the submodules. Also where the cleaning lives: collapsing upstream's duplicate verses, stripping formatting markers that polluted 47% of WEB verses, joining Hebrew morpheme separators that made a match rate 12% instead of 81% |
+| `build.py` | Builds `bible-text.db` from the sources. Also where the cleaning lives: collapsing upstream's duplicate verses, stripping formatting markers that polluted 47% of WEB verses, joining Hebrew morpheme separators that made a match rate 12% instead of 81% |
 | `quotations.py` | Derives `scripture_links` — an n-gram index for recall, then Smith-Waterman local alignment for scoring. Every threshold here was set by measurement against the cross-reference lists, not chosen |
 | `versification.py` | Moves a reference between the Masoretic, Septuagint and English schemes. Hebrew Joel 3:1 is English Joel 2:28, and getting that wrong is silent |
 | `query.py` | The query layer over the finished database, and the CLI |
@@ -186,18 +188,17 @@ separate volume, and never committed — stronger isolation than a `.gitignore` 
 | `study_gaps.py` | Reads a finished study and reports what connects to its passages that it never cites |
 | `commentary_index.py`, `section_index.py` | Regenerate the auto-sections of committed pages from content frontmatter |
 
-### How an agent reaches it
+### How a study reaches it
 
-`mcp_server.py` exposes the same lookups as **18 MCP tools**, so an agent writing a study queries the
-database rather than recalling: `bible_verse`, `bible_word`, `bible_concordance`, `bible_domain`,
-`bible_syntax`, `bible_passage`, `bible_crossref`, `bible_parallel`, `bible_links`,
-`bible_interlinear`, `bible_grammar`, `bible_variants`, `bible_trace`, `bible_align`, `bible_works`,
-and `twot_root` / `twot_strongs` / `twot_lemma`. It is a thin wrapper over `query.py`, not a second
-implementation, so the CLI and the agent see the same answers.
+Studies here are written against these tables rather than from memory, through the same queries
+anyone else can run: ask for a verse and get its text, its per-word parsing and its
+cross-references; ask for a word and get every occurrence of it; ask what an English word is
+translating and get the original behind it.
 
-The one worth knowing by name is `bible_trace`: give it a verse and it returns everything the corpus
-knows about it — what it quotes, what quotes it, the shared wording, and how each link was
-established.
+The most useful is the trace. Give it a verse and it returns everything the collection knows about
+that verse — what it quotes, what quotes it, the words the two share, and how each connection was
+established. That last part is the point: a connection arrives with its evidence attached, so it can
+be judged rather than believed.
 
 ## The line that doesn't move
 
