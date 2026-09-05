@@ -66,6 +66,18 @@ catch it. Where two accounts describe one event, confirm the word separately for
 - Note continuity/discontinuity between that range and this specific occurrence — is this a standard use, or is the author doing something distinctive with it?
 - Choose the option that best fits this context, and say why the alternatives were set aside. Don't just list the options and stop short of a call — Phase 4 exists to feed a reading, not a lexicon dump.
 
+## Start from the right word, not the English one
+
+A word study nearly always starts from an English word, which means it starts from a translator's
+decision. `bible_interlinear <book> <chapter> <verse>` shows which original word each English word
+in ULT renders, so Step 1 can begin from the lemma actually behind the text rather than the one the
+English suggested. Where one English phrase maps to two originals — common with the Hebrew object
+marker — that is a real many-to-many relation, not noise to filter.
+
+Pair it with `bible_grammar` when the point turns on the *form* rather than the word: the lexicons
+say what a lemma means, the grammar says what a gentilic, a construct chain or a cohortative is
+doing. Both are unfoldingWord sources (CC BY-SA 4.0), wired in on 2026-09-05.
+
 ## Recording
 
 Capture the term in the study-state file's `content_word_studies.terms` entry (see [study-state.template.yml](study-state.template.yml)). Beyond `word`, `language`, `transliteration`, `strongs_id`, and `gloss`, use the `range_of_meanings` and `notes` fields for what Steps 1–3 above turn up — enough that a later session (or a different agent) can see the reasoning, not just the final gloss.

@@ -5,7 +5,7 @@ description: "The English translations, Hebrew Masoretic witnesses, and Greek Ne
 tags: ["translations", "versions", "lang/hebrew", "lang/greek", "septuagint", "masoretic", "method/textual-criticism"]
 draft: false
 date_created: 2025-06-07
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -124,6 +124,18 @@ is the whole argument for checking a verse rather than trusting a label.
 
     A live question sits alongside that. Some readings in these Hebrew editions have no counterpart in the Greek, and there is an argument that the earliest printings of Salkinson-Ginsburg carried readings later editions removed. Second Thessalonians 2:7 is the case that matters most here, since the identity of the restrainer bears on [the rapture study](../last-things/rapture.md). What our copy actually reads at that verse is recorded in `references/README.md`, dated, so the claim can be tested against a specific text instead of a recollection.
 
+!!! note "Which English word renders which Hebrew or Greek word"
+
+    One translation here carries something the others do not. unfoldingWord's **ULT** (`uw-ult`) is
+    aligned word by word to the Hebrew and Greek, so `query.py interlinear <book> <ch> <v>` answers
+    *what is this English word actually translating* — the question behind most word studies, and
+    one this project previously had no way to answer without judgement.
+
+    Two cautions. The mapping is genuinely many-to-many: Genesis 1:1's "the heavens" renders both
+    אֵת and הַשָּׁמַיִם, since the Hebrew object marker has no English of its own. And ULT is one
+    literal translation, so it tells you what ULT chose, not what the word must mean — for that,
+    look the lemma up.
+
 ## Greek New Testament
 
 | Text | Date | What it is | Strengths | Cautions | Tracked here |
@@ -132,6 +144,7 @@ is the whole argument for checking a verse rather than trusting a label.
 | **NA28** — Nestle-Aland, 28th edition | 2012 | The critical text nearly all modern scholarship and translations (ESV, NIV, NASB, etc.) actually cite | The field standard; the most recent edition incorporated fresh collation of the Catholic Epistles against the full manuscript tradition (the ECM project) | Commercial license — not in our own database at all; reachable only indirectly through the NA28-ESV parallel inside the external, quotation-only `study-notes.db`, never quoted at length | ❌ Not tracked; quotation-only via `study-notes.db` |
 | **Tischendorf, 8th edition** | 1869–1872 | Constantin von Tischendorf's critical text, built heavily on Codex Sinaiticus — which Tischendorf himself discovered at St. Catherine's Monastery | An independent line of 19th-century critical-text reasoning, distinct from the SBLGNT/NA28 editorial lineage; public domain | Over 150 years old — predates the papyri discoveries and collation work that inform NA28/SBLGNT | ✅ `ebible-grc-tisch` |
 | **Byzantine/Majority Text** (Robinson-Pierpont) | 2005, revised 2013 | The Byzantine manuscript tradition underlying the KJV/Textus Receptus lineage — the majority reading by raw manuscript count | Valuable for seeing exactly where the eclectic critical texts diverge from the Majority Text, and why | "Majority by count" is a different argument than "earliest or best attested" — worth being explicit about that distinction whenever citing it | 🟡 `scrollmapper-Byz` |
+| **UGNT** — unfoldingWord Greek New Testament | 2022– | The Greek text unfoldingWord's translations are aligned to, following the *Bunning Heuristic Prototype* | Openly licensed (CC BY-SA 4.0) and queryable here; a fourth lineage alongside SBLGNT, Tischendorf and the Byzantine text, and the text that makes ULT's word-level alignment resolvable | **A different kind of edition** — a heuristic text from the Center for New Testament Restoration rather than a committee edition like NA28. It differs from SBLGNT in roughly one verse in six: at John 1:34 it reads Υἱὸς where SBLGNT has ἐκλεκτός. Check which text a reading comes from before resting an argument on it | ✅ `uw-ugnt` |
 | **Textus Receptus** (Stephanus 1550 / Scrivener 1894) | 1550, standardized 1894 | The specific printed Greek text underlying the King James Version | Essential for explaining *why* the KJV reads differently from modern translations at a given verse (e.g. the Comma Johanneum at 1 John 5:7-8) | Based on a small number of late medieval manuscripts available to Erasmus in the 1500s, long since superseded by far older manuscript evidence | 🟡 `scrollmapper-TR` |
 
 ### Three lines of transmission, as Ken Johnson frames them

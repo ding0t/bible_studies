@@ -195,3 +195,35 @@ CREATE TABLE cross_references (     -- verse-to-verse, translation-independent
     votes INTEGER
 );
 CREATE INDEX idx_xref_from ON cross_references(from_book, from_chapter, from_verse);
+
+CREATE TABLE word_alignment (       -- which original-language word each English word renders,
+                                    -- from unfoldingWord's ULT. Nothing else in this database
+                                    -- answers "which Hebrew word is this English word?" -- the
+                                    -- morphology table describes original words, and the
+                                    -- translations sit beside them unlinked.
+    work_id TEXT NOT NULL REFERENCES works(work_id),   -- the English side (uw-ult)
+    book TEXT NOT NULL, chapter INTEGER NOT NULL, verse INTEGER NOT NULL,
+    english TEXT NOT NULL,           -- the English words this alignment frame encloses
+    content TEXT NOT NULL,           -- the original-language word they render
+    lemma TEXT, strong TEXT, morph TEXT,
+    -- MANY-TO-MANY, deliberately. USFM nests alignment frames, so two original words can enclose
+    -- one English phrase and one original word can enclose several English words. Each frame
+    -- becomes its own row rather than being flattened: Genesis 1:1's "the heavens" is genuinely
+    -- rendering both אֵת and הַשָּׁמַיִם, and picking one would invent a precision the data does
+    -- not have.
+    occurrence INTEGER               -- which occurrence of `content` within the verse
+);
+CREATE INDEX idx_align_ref ON word_alignment(book, chapter, verse);
+CREATE INDEX idx_align_strong ON word_alignment(strong);
+
+CREATE TABLE grammar_articles (     -- unfoldingWord Hebrew Grammar, one row per article.
+                                    -- The lexicons in this database say what a WORD means; this
+                                    -- says what a FORM does, which develop-bible-study's Phase 4
+                                    -- asks for and nothing here previously supplied.
+    work_id TEXT NOT NULL REFERENCES works(work_id),
+    slug TEXT NOT NULL,              -- file stem, e.g. 'adjective_gentilic'
+    title TEXT NOT NULL,
+    body TEXT NOT NULL,              -- reStructuredText with its directives stripped to prose
+    PRIMARY KEY (work_id, slug)
+);
+CREATE INDEX idx_grammar_slug ON grammar_articles(slug);

@@ -39,6 +39,11 @@ PARTIAL_COVERAGE = {
     "scrollmapper-StatResGNT": NT_BOOKS,
     "scrollmapper-TR": NT_BOOKS,
     "scrollmapper-Twenty": NT_BOOKS,
+    # unfoldingWord: UHB is the Hebrew Bible, UGNT the Greek New Testament, so each is half a
+    # Bible by design. ULT is the full 66 and is deliberately absent from this list. uw-uhg has no
+    # verses at all -- it is a grammar, and lives in grammar_articles rather than verses.
+    "uw-uhb": OT_BOOKS,
+    "uw-ugnt": NT_BOOKS,
     # Hebrew/Masoretic OT texts -- no NT by design
     "morphhb-wlc": OT_BOOKS,
     "scrollmapper-WLC": OT_BOOKS,

@@ -40,3 +40,15 @@
 [submodule "references/restricted-data/dss"]
 	path = references/restricted-data/dss
 	url = https://github.com/ding0t/dss.git
+[submodule "references/open-data/uw-uhb"]
+	path = references/open-data/uw-uhb
+	url = https://git.door43.org/unfoldingWord/hbo_uhb.git
+[submodule "references/open-data/uw-ugnt"]
+	path = references/open-data/uw-ugnt
+	url = https://git.door43.org/unfoldingWord/el-x-koine_ugnt.git
+[submodule "references/open-data/uw-ult"]
+	path = references/open-data/uw-ult
+	url = https://git.door43.org/unfoldingWord/en_ult.git
+[submodule "references/open-data/uw-uhg"]
+	path = references/open-data/uw-uhg
+	url = https://git.door43.org/unfoldingWord/en_uhg.git

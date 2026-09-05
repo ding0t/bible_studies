@@ -295,6 +295,155 @@ def ingest_web_crossrefs(conn: sqlite3.Connection) -> None:
           + (f" (skipped: {dict(skipped)})" if skipped else ""))
 
 
+# unfoldingWord's USFM marks every word with lemma, Strong's and morphology, and ULT additionally
+# wraps its English in \zaln-s frames naming the original word being rendered. Four repos, three
+# shapes: UHB/UGNT are tagged originals, ULT is a tagged translation carrying alignment, UHG is
+# reStructuredText prose.
+_UW_WORD = re.compile(r'\\w\s+([^|\\]+)\|([^\\]*)\\w\*')
+_UW_ZALN_OPEN = re.compile(r'\\zaln-s\s*\|([^\\]*?)\\\*')
+_UW_ATTR = re.compile(r'([\w-]+)="([^"]*)"')
+
+
+def _uw_books(repo: Path):
+    """(osis_book, usfm_text) for each book file, in canonical order."""
+    for path in sorted(repo.glob("*.usfm")):
+        match = re.search(r"\\id\s+(\S+)", path.read_text(encoding="utf-8", errors="replace")[:400])
+        if match is None:
+            continue
+        osis = MACULA_USFM_TO_OSIS.get(match.group(1))
+        if osis is not None:
+            yield osis, path.read_text(encoding="utf-8", errors="replace")
+
+
+def _uw_verses(usfm: str):
+    r"""(chapter, verse, body) for each verse. USFM puts \c before its verses, so split on it."""
+    for chunk in re.split(r"\\c\s+(\d+)", usfm)[1:]:
+        if chunk.strip().isdigit() and len(chunk.strip()) < 4:
+            chapter = int(chunk.strip())
+            continue
+        for m in re.finditer(r"\\v\s+(\d+)(.*?)(?=\\v\s+\d+|\Z)", chunk, re.S):
+            yield chapter, int(m.group(1)), m.group(2)
+
+
+def ingest_unfoldingword_text(conn: sqlite3.Connection, repo_name: str, work_id: str, title: str,
+                              language: str, url_slug: str) -> None:
+    """UHB and UGNT: the tagged original-language texts, stored as verse text.
+
+    Their per-word lemma/Strong's/morphology is deliberately NOT loaded into `morphology`. That
+    table is filled from MACULA off the same WLC and SBLGNT, and a second opinion keyed to the same
+    columns would silently double every count a word study makes. What these two are here for is
+    the text itself -- UGNT is a witness this database otherwise lacks, and both are what ULT's
+    alignment resolves against.
+    """
+    repo = OPEN_DATA / repo_name
+    if not repo.is_dir():
+        print(f"{work_id}: {repo} missing -- skipped")
+        return
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+        (work_id, None, title, language, repo_name,
+         f"https://git.door43.org/unfoldingWord/{url_slug}", submodule_commit(repo_name), TODAY,
+         "Creative Commons: BY-SA 4.0", "open",
+         f"unfoldingWord, https://www.unfoldingword.org/{url_slug.split('_')[-1]}"),
+    )
+    rows = []
+    for osis, usfm in _uw_books(repo):
+        for chapter, verse, body in _uw_verses(usfm):
+            words = [w for w, _ in _UW_WORD.findall(body)]
+            if words:
+                rows.append((work_id, osis, chapter, verse, " ".join(words)))
+    conn.executemany("INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", rows)
+    conn.commit()
+    print(f"{work_id}: {len(rows)} verses")
+
+
+def ingest_ult(conn: sqlite3.Connection) -> None:
+    r"""ULT: the English text, and the alignment that is the reason for taking it.
+
+    Parsed with a stack because \zaln frames nest -- Genesis 1:1 opens one for אֵת and another for
+    הַשָּׁמַיִם before closing both around "the heavens". Every open frame collects the English words
+    that appear while it is open, so a nested pair produces two rows sharing that English. See the
+    schema comment on word_alignment for why that is the honest shape rather than a defect.
+    """
+    repo = OPEN_DATA / "uw-ult"
+    if not repo.is_dir():
+        print("uw-ult: missing -- skipped")
+        return
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+        ("uw-ult", "ULT", "unfoldingWord Literal Text", "eng", "uw-ult",
+         "https://git.door43.org/unfoldingWord/en_ult", submodule_commit("uw-ult"), TODAY,
+         "Creative Commons: BY-SA 4.0", "open", "unfoldingWord, https://www.unfoldingword.org/ult"),
+    )
+    verse_rows, align_rows = [], []
+    for osis, usfm in _uw_books(repo):
+        for chapter, verse, body in _uw_verses(usfm):
+            english_all, stack = [], []
+            for token in re.finditer(r"\\zaln-s\s*\|([^\\]*?)\\\*|\\zaln-e\\\*|\\w\s+([^|\\]+)\|([^\\]*)\\w\*", body):
+                if token.group(1) is not None:
+                    stack.append((dict(_UW_ATTR.findall(token.group(1))), []))
+                elif token.group(2) is not None:
+                    english_all.append(token.group(2))
+                    for _, collected in stack:
+                        collected.append(token.group(2))
+                elif stack:
+                    attrs, collected = stack.pop()
+                    if collected and attrs.get("x-content"):
+                        align_rows.append((
+                            "uw-ult", osis, chapter, verse, " ".join(collected),
+                            attrs["x-content"], attrs.get("x-lemma"), attrs.get("x-strong"),
+                            attrs.get("x-morph"),
+                            int(attrs["x-occurrence"]) if attrs.get("x-occurrence", "").isdigit() else None,
+                        ))
+            if english_all:
+                verse_rows.append(("uw-ult", osis, chapter, verse, " ".join(english_all)))
+    conn.executemany("INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", verse_rows)
+    conn.executemany(
+        "INSERT INTO word_alignment (work_id, book, chapter, verse, english, content, lemma, "
+        "strong, morph, occurrence) VALUES (?,?,?,?,?,?,?,?,?,?)", align_rows)
+    conn.commit()
+    print(f"uw-ult: {len(verse_rows)} verses, {len(align_rows)} alignment rows")
+
+
+def ingest_uhg(conn: sqlite3.Connection) -> None:
+    """UHG: the Hebrew reference grammar, one row per article.
+
+    Sphinx directives, cross-reference roles and include lines are stripped to leave prose --
+    `:ref:`masculine<gender_masculine>`` becomes "masculine". The articles are the point, not the
+    HTML build, so nothing here tries to resolve the includes.
+    """
+    content_dir = OPEN_DATA / "uw-uhg" / "content"
+    if not content_dir.is_dir():
+        print("uw-uhg: missing -- skipped")
+        return
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+        ("uw-uhg", None, "unfoldingWord Hebrew Grammar", "eng", "uw-uhg",
+         "https://git.door43.org/unfoldingWord/en_uhg", submodule_commit("uw-uhg"), TODAY,
+         "Creative Commons: BY-SA 4.0", "open", "unfoldingWord, https://www.unfoldingword.org/uhg"),
+    )
+    rows = []
+    for path in sorted(content_dir.glob("*.rst")):
+        raw = path.read_text(encoding="utf-8", errors="replace")
+        lines = [l for l in raw.splitlines()
+                 if not l.startswith((":github_url:", ".. _", ".. include::", ".. toctree::"))]
+        title = ""
+        for i, line in enumerate(lines[:-1]):
+            if line.strip() and set(lines[i + 1].strip()) in ({"="}, {"-"}) and lines[i + 1].strip():
+                title = line.strip()
+                break
+        body = re.sub(r":ref:`([^<`]+)<[^>]+>`", r"\1", "\n".join(lines))
+        body = re.sub(r":\w+:`([^`]+)`", r"\1", body)
+        rows.append(("uw-uhg", path.stem, title or path.stem, body.strip()))
+    conn.executemany(
+        "INSERT INTO grammar_articles (work_id, slug, title, body) VALUES (?,?,?,?)", rows)
+    conn.commit()
+    print(f"uw-uhg: {len(rows)} grammar articles")
+
+
 def ingest_morphhb(conn: sqlite3.Connection) -> None:
     from BibleOrgSys import BibleOrgSysGlobals
     from BibleOrgSys.OriginalLanguages.HebrewWLCBible import OSISHebrewWLCBible
@@ -1149,6 +1298,10 @@ def main() -> None:
     # question, which is the whole reason for holding both. Like Delitzsch it is a 19th-century
     # translation FROM the Greek, not a witness to any Hebrew original.
     ingest_ebible(conn, "hebsg", "Salkinson", "Salkinson-Ginsburg Hebrew New Testament", "heb")
+    ingest_unfoldingword_text(conn, "uw-uhb", "uw-uhb", "unfoldingWord Hebrew Bible", "hbo", "hbo_uhb")
+    ingest_unfoldingword_text(conn, "uw-ugnt", "uw-ugnt", "unfoldingWord Greek New Testament", "grc", "el-x-koine_ugnt")
+    ingest_ult(conn)
+    ingest_uhg(conn)
     ingest_dss(conn)
     ingest_lxx_lemmas(conn)
     set_versification(conn)

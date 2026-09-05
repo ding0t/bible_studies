@@ -43,7 +43,8 @@ flowchart LR
         eng["WEB / ASV / YLT / KJV<br/>public-domain English"]
         lxx["Brenton Septuagint"]
         xref["OpenBible.info<br/>cross-references"]
-        macula ~~~ sblgnt ~~~ wlc ~~~ eng ~~~ lxx ~~~ xref
+        uw["unfoldingWord<br/>UHB, UGNT, ULT, UHG<br/>CC BY-SA"]
+        macula ~~~ sblgnt ~~~ wlc ~~~ eng ~~~ lxx ~~~ xref ~~~ uw
     end
 
     subgraph restricted["Restricted, non-commercial — usable now, flagged"]

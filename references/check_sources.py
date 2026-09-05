@@ -100,7 +100,13 @@ def ingested_dirs() -> set[str]:
     if not BUILD_PY.is_file():
         return set()
     source = BUILD_PY.read_text(encoding="utf-8")
-    return set(re.findall(r'(?:OPEN_DATA|RESTRICTED_DATA) / "([a-z0-9-]+)"', source))
+    found = set(re.findall(r'(?:OPEN_DATA|RESTRICTED_DATA) / "([a-z0-9-]+)"', source))
+    # An ingest that takes its directory as a PARAMETER is invisible to the pattern above, because
+    # the literal sits at the call site rather than next to OPEN_DATA. ingest_unfoldingword_text is
+    # shared by UHB and UGNT and hit exactly that: both were ingested and both reported raw-only.
+    # Match the call sites too rather than un-sharing the function.
+    found |= set(re.findall(r'ingest_unfoldingword_text\(conn, "([a-z0-9-]+)"', source))
+    return found
 
 
 def patristics_drift() -> tuple[list[str], list[str]]:

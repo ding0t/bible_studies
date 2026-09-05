@@ -481,6 +481,65 @@ def lookup_links(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
     }
 
 
+def lookup_interlinear(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
+                        from_scheme: str = "english") -> dict[str, object]:
+    """Which original-language word each English word renders, from unfoldingWord's ULT alignment.
+
+    The gap this fills: everything else here describes the two sides separately. `verse` gives a
+    translation, `word` gives a lemma's occurrences, `syntax` gives clause roles -- but none of them
+    says *this English word renders that Hebrew word*, which is the question a reader actually asks
+    when a study makes something turn on a term.
+
+    The mapping is many-to-many and is reported as it stands. Genesis 1:1's "the heavens" renders
+    both אֵת and הַשָּׁמַיִם, because the object marker has no English of its own and the alignment
+    encloses the phrase twice. Flattening that to one row per English phrase would invent a
+    precision the data does not have, so both rows come back.
+
+    Numbered in the English scheme, since ULT is an English translation; pass `from_scheme` if your
+    reference is masoretic or lxx.
+    """
+    reference = versification.align(book, chapter, verse, from_scheme, "english")
+    if reference is None:
+        return {"reference": f"{book} {chapter}:{verse}", "rows": [],
+                "warning": "no English-scheme counterpart for this reference"}
+    e_book, e_chapter, e_verse = reference
+    rows = [dict(r) for r in conn.execute(
+        "SELECT english, content, lemma, strong, morph, occurrence FROM word_alignment "
+        "WHERE book=? AND chapter=? AND verse=? ORDER BY rowid",
+        (e_book, e_chapter, e_verse))]
+    text = conn.execute(
+        "SELECT text FROM verses WHERE work_id='uw-ult' AND book=? AND chapter=? AND verse=?",
+        (e_book, e_chapter, e_verse)).fetchone()
+    return {"reference": f"{e_book} {e_chapter}:{e_verse}", "text": text[0] if text else None,
+            "rows": rows}
+
+
+def lookup_grammar(conn: sqlite3.Connection, term: str, full: bool = False) -> list[dict[str, object]]:
+    """Search the unfoldingWord Hebrew Grammar by slug, title or body.
+
+    The lexicons in this database say what a word means. This says what a *form* does -- what a
+    gentilic adjective is, what the definite article does to a construct chain -- which
+    develop-bible-study's Phase 4 asks for ("grammar/syntax points that affect meaning") and which
+    nothing here could previously answer without recall.
+
+    Matched loosely on purpose: a morphology code like `Ncfsa` is not what anyone types, so slug and
+    title are searched first and the body only if that finds nothing.
+    """
+    needle = f"%{term.lower().replace(' ', '_')}%"
+    rows = [dict(r) for r in conn.execute(
+        "SELECT slug, title, body FROM grammar_articles WHERE lower(slug) LIKE ? OR lower(title) LIKE ? "
+        "ORDER BY length(slug)", (needle, f"%{term.lower()}%"))]
+    if not rows:
+        rows = [dict(r) for r in conn.execute(
+            "SELECT slug, title, body FROM grammar_articles WHERE lower(body) LIKE ? ORDER BY length(slug) LIMIT 8",
+            (f"%{term.lower()}%",))]
+    if not full:
+        for r in rows:
+            body = str(r["body"])
+            r["body"] = body[:600] + ("…" if len(body) > 600 else "")
+    return rows
+
+
 def lookup_variants(conn: sqlite3.Connection, book: str, chapter: int, verse: int | None = None,
                      from_scheme: str = "english") -> dict[str, object]:
     """Where the Dead Sea Scrolls read something the Masoretic text does not.
@@ -853,6 +912,35 @@ def cmd_trace(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
             print(f"    {lead['reference']:14} {lead['votes']:4} votes")
 
 
+def cmd_interlinear(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    r = lookup_interlinear(conn, args.book, args.chapter, args.verse)
+    print(f"{r['reference']} (ULT, aligned to UHB/UGNT)\n")
+    if r.get("warning"):
+        print(f"  {r['warning']}")
+        return
+    if r.get("text"):
+        print(f"  {r['text']}\n")
+    if not r["rows"]:
+        print("  no alignment recorded for this verse")
+        return
+    for row in r["rows"]:
+        strong = row["strong"] or ""
+        print(f"  {str(row['english'])[:34]:36} <- {row['content']}")
+        print(f"  {'':36}    {str(row['lemma'] or ''):16} {strong:12} {row['morph'] or ''}")
+
+
+def cmd_grammar(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    rows = lookup_grammar(conn, args.term, full=args.full)
+    if not rows:
+        print(f"no grammar article matching {args.term!r}")
+        return
+    for row in rows[: 1 if args.full else 6]:
+        print(f"\n  {row['title']}  ({row['slug']})")
+        for line in str(row["body"]).splitlines():
+            if line.strip():
+                print(f"    {line}")
+
+
 def cmd_variants(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
     r = lookup_variants(conn, args.book, args.chapter, args.verse)
     print(f"{r['reference']} (masoretic numbering)\n")
@@ -1002,6 +1090,17 @@ def main() -> None:
     p_trace.add_argument("--leads", action="store_true",
                          help="also show crowd-assembled cross-references")
     p_trace.set_defaults(func=cmd_trace)
+
+    p_inter = sub.add_parser("interlinear", help="Which original word each English word renders (ULT alignment)")
+    p_inter.add_argument("book", help="OSIS book code, e.g. Gen")
+    p_inter.add_argument("chapter", type=int)
+    p_inter.add_argument("verse", type=int)
+    p_inter.set_defaults(func=cmd_interlinear)
+
+    p_gram = sub.add_parser("grammar", help="Hebrew grammar articles (unfoldingWord UHG)")
+    p_gram.add_argument("term", help="a slug, title or phrase -- e.g. gentilic, construct, dual")
+    p_gram.add_argument("--full", action="store_true", help="print the first match in full")
+    p_gram.set_defaults(func=cmd_grammar)
 
     p_var = sub.add_parser("variants", help="Scroll readings the Masoretic text does not carry")
     p_var.add_argument("book", help="OSIS book code, e.g. Isa")

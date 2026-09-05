@@ -1,0 +1,102 @@
+slug: unfoldingword-wireup
+title: "Wiring the unfoldingWord sources in: submodules, database, query, MCP, skills, docs"
+status: complete
+started: 2026-09-05
+
+# Follows references/study-state/github-resources-review.yml, which evaluated these four and
+# recommended taking them only when needed. Decision reversed by the user: bring all of them in and
+# wire them through, so they are actually used rather than catalogued.
+
+sources:
+  - repo: https://git.door43.org/unfoldingWord/hbo_uhb
+    licence: CC BY-SA 4.0
+    what: Hebrew OT, USFM, lemma + prefixed Strong's + morphology per word
+    why: the text ULT's Old Testament alignment resolves against
+  - repo: https://git.door43.org/unfoldingWord/el-x-koine_ugnt
+    licence: CC BY-SA 4.0
+    what: Greek NT, Bunning Heuristic Prototype text, same tagging
+    why: the text ULT's New Testament alignment resolves against; also a distinct witness
+  - repo: https://git.door43.org/unfoldingWord/en_ult
+    licence: CC BY-SA 4.0
+    what: literal English translation carrying word-level alignment to UHB/UGNT
+    why: the only English-to-original alignment held anywhere in this project
+  - repo: https://git.door43.org/unfoldingWord/en_uhg
+    licence: CC BY-SA 4.0
+    what: reference grammar of biblical Hebrew, 96 articles keyed to morphology codes
+    why: fills a real gap -- lexicons and morph tags are held, grammar is not
+
+# UST is deliberately not included: its licence was never individually confirmed, and the review
+# left it that way. Four sources, not five.
+
+decisions:
+  permanence: >
+    The repo's pattern is fork-to-ding0t/* on GitHub for permanence. Not possible here: `gh auth
+    status` fails on the keyring, so no mirror can be created from this session. Submodules point
+    at Door43 directly. That is a real weakening of the pattern -- if Door43 goes away or force-
+    pushes, the pinned commit is unreachable -- and it is recorded rather than papered over.
+  sharealike: >
+    All four are CC BY-SA, unlike every other open source in the tree. license_map.yml already
+    tiers BY-SA as open. Fine for quoting and for a local gitignored bible-text.db; revisit before
+    any derived dataset is published.
+
+stages:
+  acquire:
+    done: true
+    notes: >
+      Four submodules under references/open-data/ as uw-uhb, uw-ugnt, uw-ult, uw-uhg. Shallow
+      clones, ~137MB total. Pointing at Door43 directly, not mirrored -- see decisions.permanence.
+  database:
+    done: true
+    notes: >
+      schema.sql gains word_alignment and grammar_articles. build.py gains
+      ingest_unfoldingword_text (shared by UHB and UGNT), ingest_ult and ingest_uhg. Loaded:
+      uw-uhb 23,145 verses, uw-ugnt 7,958, uw-ult 31,103 verses plus 475,036 alignment rows,
+      uw-uhg 88 articles. UHB/UGNT per-word morphology is deliberately NOT written to the
+      morphology table -- MACULA already fills it off the same WLC and SBLGNT, and a second
+      opinion in the same columns would silently double every count a word study makes.
+  query:
+    done: true
+    notes: >
+      query.py gains lookup_interlinear / cmd_interlinear and lookup_grammar / cmd_grammar, with
+      `interlinear` and `grammar` subcommands. Named interlinear rather than align because align
+      was already taken by versification.
+  mcp:
+    done: true
+    notes: "mcp_server.py gains bible_interlinear and bible_grammar; 19 tools registered, both present."
+  skills:
+    done: true
+    notes: >
+      develop-bible-study SKILL.md Phase 4 now says to check what an English word translates before
+      writing "the text says X", and to look grammar up rather than recall it. word-study-method.md
+      gains a section on starting from the right lemma rather than the English one.
+  docs:
+    done: true
+    notes: >
+      references/README.md (agent-facing: the two tables, the many-to-many warning, the SBLGNT/UGNT
+      divergence, ShareAlike, the mirroring gap); resources/github.md (status now submoduled, with
+      the permanence caveat); scripture/translations.md (UGNT as a fourth Greek witness, and a note
+      on the alignment); about/about-our-datasets.md (uw node in the open tier -- diagram re-measured
+      at 1178px, unchanged, since the node stacks rather than widens).
+  verification:
+    done: true
+    notes: >
+      229 tests pass, including 6 new in tests/test_unfoldingword.py. test_completeness.py gained
+      PARTIAL_COVERAGE entries for uw-uhb (OT) and uw-ugnt (NT). check_sources.py needed a fix: its
+      ingested-dirs regex only matched OPEN_DATA / "literal", so the two sources sharing a
+      parameterised ingest reported raw-only while being fully queryable -- now matches the call
+      sites too. mkdocs build --strict clean; validate-content clean.
+
+open_questions:
+  - >
+    Not mirrored to ding0t/*. gh auth failed on the keyring, so if Door43 disappears the pinned
+    commits are unreachable. Worth doing when auth works.
+  - >
+    UST was not taken -- its licence was never individually confirmed. Four sources, not five.
+  - >
+    ULT's alignment is loaded but nothing yet USES it in published content. The first study to
+    quote an English word and show the Hebrew behind it is the test of whether this was worth
+    137MB.
+  - >
+    Twice in this session the content validator caught Hebrew flanked by bold in text I wrote for
+    github.md. The check works; the habit does not. Worth remembering when editing table rows that
+    already contain Hebrew.

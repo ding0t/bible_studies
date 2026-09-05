@@ -117,6 +117,42 @@ The genuinely ancient Aramaic in this repo is **biblical Aramaic in the Old Test
 
 ### Scripture links — the first table this repo derives rather than ingests
 
+## unfoldingWord: the alignment and the grammar
+
+Four CC BY-SA 4.0 sources submoduled 2026-09-05 and wired end to end. They answer two questions
+nothing else here could.
+
+**`word_alignment` — which original word each English word renders.** 475,036 rows from ULT, whose
+USFM wraps every English word in a frame naming the Hebrew or Greek behind it. Query with
+`query.py interlinear <book> <ch> <v>` or the `bible_interlinear` MCP tool. Everything else in this
+database describes one side or the other; this is the only link between them, and it is the cheapest
+guard against a study resting a point on a translator's choice.
+
+**It is many-to-many, and stays that way.** Genesis 1:1's "the heavens" comes back twice, rendering
+both אֵת and הַשָּׁמַיִם, because the object marker has no English of its own and the alignment
+frames nest. Collapsing rows that share an English phrase would throw the marker away and assert a
+one-to-one mapping the Hebrew does not have; `tests/test_unfoldingword.py` pins it.
+
+**`grammar_articles` — what a form does, as against what a word means.** 88 articles from UHG,
+searched with `query.py grammar <term>` or `bible_grammar`. The lexicons here answer "what does this
+lemma mean"; until this went in, "what is a gentilic adjective doing" had to come from recall.
+
+| work_id | what | note |
+|---|---|---|
+| `uw-ult` | unfoldingWord Literal Text, 31,103 verses | the English side of the alignment |
+| `uw-uhb` | unfoldingWord Hebrew Bible, 23,145 verses | the Hebrew side. Its per-word morphology is deliberately **not** loaded into `morphology` — that table is MACULA's off the same WLC, and a second opinion in the same columns would silently double every count a word study makes |
+| `uw-ugnt` | unfoldingWord Greek NT, 7,958 verses | the Greek side, **and a distinct witness**: a Bunning Heuristic Prototype text, not SBLGNT. They differ in roughly one verse in six — John 1:34 reads Υἱὸς here against SBLGNT's ἐκλεκτός. Check `bible_verse` before resting an argument on wording from the alignment |
+| `uw-uhg` | unfoldingWord Hebrew Grammar, 88 articles | no verses at all; it lives in `grammar_articles` |
+
+**ShareAlike, not plain CC BY.** These four are the only BY-SA sources in the tree.
+`license_map.yml` tiers BY-SA as `open`, which is right for quoting and for a gitignored local
+`bible-text.db`, and unfoldingWord additionally require that a derivative state its changes and drop
+their trademark. Revisit before publishing any dataset derived from them.
+
+**Not mirrored, unlike everything else here.** Door43 is Gitea, `gh auth` failed on the machine that
+added them, so the submodules point upstream directly. Pinned commits protect against upstream
+changing, not against Door43 disappearing.
+
 `scripture_links` holds three classes of derived link, computed at build time by `quotations.py`. Nothing upstream supplies them, so nothing upstream will fail if they degrade — `tests/test_quotations.py` is the only thing standing between a silent regression and a wrong citation.
 
 | class | sides | pairs (alignment ≥18) | what a match means |

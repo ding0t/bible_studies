@@ -222,6 +222,54 @@ def study_gaps(study_path: str, limit: int = 10) -> dict:
 
 
 @mcp.tool()
+def bible_interlinear(book: str, chapter: int, verse: int) -> dict:
+    """Which original-language word each English word renders, for one verse.
+
+    Reach for this whenever a study makes something turn on an English word -- before writing "the
+    text says X", check what X is actually translating. Every other tool here describes one side or
+    the other; this is the only one that links them, using unfoldingWord's ULT alignment against
+    the UHB (Hebrew) and UGNT (Greek).
+
+    The mapping is many-to-many and comes back that way. Genesis 1:1's "the heavens" renders both
+    אֵת and הַשָּׁמַיִם, because the Hebrew object marker has no English of its own and the alignment
+    encloses the phrase twice. Two rows sharing an English phrase is the data being honest, not a
+    duplicate to filter out.
+
+    Two cautions. ULT is one literal translation, so this answers "what does ULT render this with",
+    not "what must this English word mean" -- for the word's own range use `bible_word`. And the
+    Greek side is the UGNT, a Bunning Heuristic Prototype text rather than the SBLGNT the rest of
+    this database uses: at John 1:34 they differ (υἱός against ἐκλεκτός), so check `bible_verse`
+    before resting a New Testament argument on the wording here.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_interlinear(conn, book, chapter, verse)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
+def bible_grammar(term: str, full: bool = False) -> list:
+    """Biblical Hebrew grammar articles -- what a FORM does, as against what a word means.
+
+    The lexicons reached through `bible_word` and `twot_root` say what a word means. This says what
+    the morphology is doing: what a gentilic adjective is, how the dual differs from the plural,
+    what the definite article does in a construct chain. develop-bible-study's Phase 4 asks for
+    "grammar/syntax points that affect meaning" and this is where they come from -- previously they
+    came from recall, which is exactly the habit this project exists to replace.
+
+    Search by slug, title or phrase: "gentilic", "construct", "dual", "cohortative". Pass
+    `full=True` for the complete article once you have found the right one; the default truncates so
+    several can be scanned at once. Source is unfoldingWord's UHG, CC BY-SA 4.0.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_grammar(conn, term, full=full)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
 def bible_variants(book: str, chapter: int, verse: int | None = None) -> dict:
     """Where the Dead Sea Scrolls read something the Masoretic text does not.
 
