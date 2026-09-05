@@ -18,4 +18,5 @@ draft: false
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 15:8-10
 - [The Rapture of the Church](../../last-things/rapture.md) — 15:51-53
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 15:51-53
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 15:4
 <!-- commentary-index:auto-end -->

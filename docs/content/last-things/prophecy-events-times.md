@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Daniel 9:24-27"
 bible_references: ["1 Kings 16:29", "2 Kings 4:23", "2 Kings 18:13-19:37", "2 Kings 24:10-17", "2 Kings 25:27-30", "Ezra 1:1-4", "Nehemiah 2:1-8", "Joshua 10:12-14", "Amos 8:5", "Amos 8:9", "Hosea 2:11", "Isaiah 1:13-14", "Joel 2:31", "Daniel 9:24-27", "Matthew 21:1-11", "Matthew 27:45", "Mark 15:33", "Luke 23:44-45", "Luke 19:41-44", "Acts 2:20"]
 date_created: 2024-10-20
-date_modified: 2026-08-23
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -320,6 +320,15 @@ vague lament — on Daniel's own math, "the time" was calculable, decades in adv
 already sitting in the Persian court's own dated records. The rebuke lands with more weight once
 you see the arithmetic behind it.
 
+### "Three days and three nights"
+
+Hoehner's correction lands the crucifixion on a Friday, and a Friday afternoon death with a Sunday
+dawn resurrection gives two nights, not three — against Jesus's own "three days and three nights"
+at Matthew 12:40. That objection is the strongest one against the date this section reaches, and it
+is worked through separately in [Three Days and Three Nights](../jesus/three-days-and-three-nights.md):
+the phrase occurs once, the New Testament describes the interval "on the third day" eight times, and
+Mark calls the crucifixion day the **προσάββατον**, the day before the Sabbath.
+
 ## Celestial corroboration: eclipses and the biblical record
 
 Eclipses are attractive as chronological evidence for the same reason the Bur-Sagale eclipse
@@ -397,7 +406,7 @@ astronomical fact, true regardless of how vivid it looked, and it's a third, ind
 converging on AD 33 alongside Hoehner's weekday-based dating in the calculation above. But
 "an eclipse occurred that week" and "the crowd at Pentecost was talking about a vivid blood moon"
 are two different claims with two different levels of support, and Schaefer's critique means only
-the first one is solid. Treat the convergence as suggestive, not as independent proof stacked on
+the first one is solid. [Chronology Anchors](chronology-anchors.md#settling-the-crucifixion-year) goes further and declines to use the eclipse at all, on the ground that Peter is quoting Joel about what *will* happen rather than reporting the previous Friday's sky. Treat the convergence as suggestive, not as independent proof stacked on
 top of the Daniel calculation.
 
 ### The Star of Bethlehem (noted, not pursued here)

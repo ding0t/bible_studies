@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 1:17
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:17
 <!-- commentary-index:auto-end -->

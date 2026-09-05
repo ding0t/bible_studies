@@ -214,11 +214,11 @@ Two of these studies are charts you can drive rather than pages you read.
 ## Recently updated
 
 <!-- recent-updates-teaser:auto-start -->
+- **[FAQ](faq.md)** — :material-new-box: New 2026-09-06
 - **[The Bride of Christ](israel-and-church/bride-of-christ.md)** — :material-new-box: New 2026-09-06
-- **[The Parables of the Olivet Discourse](last-things/olivet-discourse-parables.md)** — :material-new-box: New 2026-09-06
-- **[The Rapture of the Church](last-things/rapture.md)** — :material-update: Updated 2026-09-06
-- **[The Trumpet Call of God](last-things/trumpet.md)** — :material-update: Updated 2026-09-06
-- **[Glossary](glossary.md)** — :material-new-box: New 2026-09-05
+- **[What World Population Declares: Biblical Chronology and the Arithmetic of Growth](god/world-population-declares-gods-creation-and-biblical-truth.md)** — :material-update: Updated 2026-09-06
+- **[The Day Is Near](last-things/day-is-near.md)** — :material-update: Updated 2026-09-06
+- **[Charting End Times](last-things/prophecy-chart.md)** — :material-update: Updated 2026-09-06
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) list for more.

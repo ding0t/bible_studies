@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 8:1-10 (primary passage)
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 8:31
 <!-- commentary-index:auto-end -->

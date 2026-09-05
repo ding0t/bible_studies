@@ -20,6 +20,14 @@ way.
 <!-- recent-updates:auto-start -->
 <div class="grid cards" markdown>
 
+-   __FAQ__
+
+    ---
+
+    Short answers to the questions readers arrive with — who writes this, how AI is used, what I believe, which translation and why, and how to check any claim on the site for yourself.
+
+    :material-new-box: New 2026-09-06 · [:octicons-arrow-right-24: Read](../faq.md)
+
 -   __The Bride of Christ__
 
     ---
@@ -27,6 +35,38 @@ way.
     Scripture calls the church a betrothed bride and says so in its own voice. What the primary rabbinic and cultural sources actually document about Jewish betrothal, what the New Testament builds on it, how much weight the Song of Songs can carry — and which popular details have no source at all.
 
     :material-new-box: New 2026-09-06 · [:octicons-arrow-right-24: Read](../israel-and-church/bride-of-christ.md)
+
+-   __What World Population Declares: Biblical Chronology and the Arithmetic of Growth__
+
+    ---
+
+    God's first command to humanity was to multiply. This study traces that command from Genesis 1:28 through Noah and Israel in Egypt, then runs the Bible's own population figures against exponential growth models — how many people are alive, how many have ever been born, and what 6,000 years of history requires demographically.
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../god/world-population-declares-gods-creation-and-biblical-truth.md)
+
+-   __The Day Is Near__
+
+    ---
+
+    Why the timing of Christ's return is deliberately hidden, and the six-then-seventh pattern -- creation week, Sabbath, Hebrews' rest, the millennium -- this site reads through 2 Peter 3's 'a day is as a thousand years.'
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/day-is-near.md)
+
+-   __Charting End Times__
+
+    ---
+
+    Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- plus a mermaid diagram of the same framework.
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/prophecy-chart.md)
+
+-   __The Combined Timeline: One Line, Two Zones__
+
+    ---
+
+    Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,646 years at creation and converge on Abraham to the year.
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/combined-timeline.md)
 
 -   __The Parables of the Olivet Discourse__
 
@@ -59,14 +99,6 @@ way.
     Short definitions of the terms these studies use — interpretive vocabulary, original-language vocabulary, manuscripts, and the datasets behind the site — each linked to the page that explains it in full.
 
     :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../glossary.md)
-
--   __FAQ__
-
-    ---
-
-    Short answers to the questions readers arrive with — who writes this, how AI is used, what I believe, which translation and why, and how to check any claim on the site for yourself.
-
-    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../faq.md)
 
 -   __Patristic Sources__
 
@@ -147,38 +179,6 @@ way.
     The English translations, Hebrew Masoretic witnesses, and Greek New Testament/Septuagint texts this project relies on — strengths, cautions, publication history, and which ones are actually queryable in this repo's own database versus cited from general knowledge.
 
     :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../scripture/translations.md)
-
--   __The Olivet Discourse__
-
-    ---
-
-    Four men asked Jesus for a sign. He refused to give them a checklist, warned them four times about anyone who offered one, and named a single sign — his own return. A dispensational reading of Matthew 24, Mark 13 and Luke 21, from the disciples' question through to the new heavens and new earth.
-
-    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../last-things/olivet-discourse.md)
-
--   __Joel 2__
-
-    ---
-
-    Commentary and cross-referenced studies for Joel chapter 2
-
-    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../commentaries/29-joel/chapter-002.md)
-
--   __Joel 1__
-
-    ---
-
-    Commentary and cross-referenced studies for Joel chapter 1
-
-    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../commentaries/29-joel/chapter-001.md)
-
--   __Hosea 9__
-
-    ---
-
-    Commentary and cross-referenced studies for Hosea chapter 9
-
-    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../commentaries/28-hosea/chapter-009.md)
 
 </div>
 <!-- recent-updates:auto-end -->

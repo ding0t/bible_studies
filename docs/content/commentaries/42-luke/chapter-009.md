@@ -15,4 +15,5 @@ draft: false
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 9:10-17 (primary passage)
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 9:51-56
 - [John son of Zebedee](../../biblical-figures/john.md) — 9:54
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 9:22
 <!-- commentary-index:auto-end -->

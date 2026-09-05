@@ -179,17 +179,26 @@ works the disputed cases rather than asserting that there are none.
 
 ### When was Jesus crucified?
 
-**Friday, 3 April AD 33**, on two lines that converge from different directions. Harold Hoehner's
-reworking of Daniel's seventy weeks lands the Triumphal Entry on 30 March AD 33 — he shifted
-Sir Robert Anderson's earlier AD 32 result because an AD 32 crucifixion falls on the wrong day of
-the week for a Friday Passover. Independently, Humphreys and Waddington calculated every Passover
-lunar eclipse visible from Jerusalem across AD 26-36 and found exactly one, on that Friday evening.
+**Friday, 3 April AD 33.** The day of the week is the firm part: Mark calls it "the day of
+Preparation, that is, the day before the Sabbath" (15:42), and Luke and John say the same. Only two
+years in the plausible range put Passover on a Friday — AD 30 (7 April) and AD 33 (3 April).
 
-Hold it loosely. The precise day is disputed among people doing careful technical work on the same
-data, the seventy-weeks day counts run two to four days loose in the retelling, and Bradley
-Schaefer's peer-reviewed reply argues the eclipse was far less visible than the "blood moon"
-framing suggests. What survives all of that is the year, not a vivid sign.
-→ [Prophecy: Events and Times](last-things/prophecy-events-times.md#the-flagship-calculation-daniels-seventy-weeks-to-the-triumphal-entry)
+The year rests mainly on Luke 3:1 read naturally, with Sejanus's fall behind the pressure on Pilate
+at John 19:12, Daniel 9 and Paul's chronology all leaning the same way. AD 30 stays defensible for
+anyone who dates Tiberius's fifteenth year from the co-regency. The lunar-eclipse argument that
+often accompanies this date is **not** used here — it needs both a contested observation and a
+strained reading of Peter's Joel quotation.
+→ [Chronology Anchors](last-things/chronology-anchors.md#settling-the-crucifixion-year)
+
+### Doesn't "three days and three nights" rule out a Friday?
+
+It is the strongest objection to it. Friday afternoon to Sunday dawn gives two nights, not three.
+The short answer is that the phrase occurs once (Matthew 12:40, quoting Jonah), the New Testament
+describes the same interval "on the third day" eight times, and Mark and Matthew report one
+prediction with "after three days" and "on the third day" respectively — so the Gospels treat the
+two as equivalent, which only works if part of a day counts as a day. The Friday reading is the
+stronger one and still spends that verse on credit.
+→ [Three Days and Three Nights](jesus/three-days-and-three-nights.md)
 
 ## How the studies are made
 

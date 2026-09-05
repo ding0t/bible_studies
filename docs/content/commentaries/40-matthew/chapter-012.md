@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 12:40 (primary passage)
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 12:43-44
 - [Sin and Sorcery](../../sin/sorcery.md) — 12:22-32
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 12:28

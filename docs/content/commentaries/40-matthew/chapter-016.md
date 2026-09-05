@@ -14,4 +14,5 @@ draft: false
 
 - [Simon Peter](../../biblical-figures/peter.md) — 16:13-20 (primary passage)
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 16:5-12
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 16:21
 <!-- commentary-index:auto-end -->

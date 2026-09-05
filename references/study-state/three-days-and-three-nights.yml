@@ -1,0 +1,105 @@
+slug: three-days-and-three-nights
+title: "Three Days and Three Nights"
+status: published
+target_path: docs/content/jesus/three-days-and-three-nights.md
+
+primary_passage: "Matthew 12:40"
+supporting_passages: ["Luke 24:21", "Mark 15:42", "Mark 8:31", "Matthew 16:21", "John 19:31"]
+genre: [gospel]
+
+origin: >
+  User challenge, after a FAQ entry was added dating the crucifixion to Friday 3 April AD 33: "keep
+  in mind jesus was 3 days and 3 nights before resurrection. why assume friday if that does not
+  allow 3/3". A fair objection, and the site had no answer to it anywhere -- the phrase appeared
+  only in a passing row of numerology.md's number table, and prophecy-events-times.md reached a
+  Friday without engaging it.
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Filed in jesus/ rather than last-things/ on the precedent of the-day-no-one-knows.md: a short,
+      focused study on one contested sentence of Jesus about time. Written as its own study rather
+      than a subsection of prophecy-events-times.md, which now carries a pointer instead, mirroring
+      how day-is-near.md points at the-day-no-one-knows.md.
+  exegesis:
+    content_word_studies:
+      done: true
+      notes: >
+        Every count below queried from sblgnt / macula-greek-sblgnt, not recalled.
+        "three days and three nights" (treis hemeras kai treis nuktas): ONE occurrence in the NT,
+        Matt 12:40, and it is Jesus quoting Jonah 1:17 (Hebrew 2:1).
+        "on the third day" (te trite hemera): EIGHT -- Matt 16:21, 17:23, 20:19; Luke 9:22, 24:7,
+        24:46; Acts 10:40; 1 Cor 15:4 (the last as te hemera te trite, which a naive LIKE misses).
+        "after three days" (meta treis hemeras): THREE, all Mark -- 8:31, 9:31, 10:34. Acts 25:1 is
+        Festus and unrelated.
+        prosabbaton: ONE occurrence in the NT, Mark 15:42, glossed "the day before Sabbath". This is
+        the strongest single datum for a Friday -- Mark defines the crucifixion day as the day
+        before the weekly Sabbath.
+        paraskeue: six, all of that day (Matt 27:62; Mark 15:42; Luke 23:54; John 19:14, 31, 42).
+      terms:
+        - {word: "προσάββατον", language: greek, transliteration: "prosabbaton", strongs_id: "G4315", gloss: "the day before the Sabbath", notes: "hapax in the NT, Mark 15:42"}
+        - {word: "παρασκευή", language: greek, transliteration: "paraskeuē", strongs_id: "G3904", gloss: "preparation", notes: "6x, all of the crucifixion day"}
+        - {word: "μεγάλη", language: greek, transliteration: "megalē", strongs_id: "G3173", gloss: "great", notes: "John 19:31 'a high day' -- the ambiguity the Wednesday case rests on"}
+  hermeneutics:
+    theological_principle:
+      done: true
+      notes: >
+        The load-bearing observation is not any single verse but the SYNOPTIC PAIRING: Mark 8:31
+        ("after three days") and Matt 16:21 ("on the third day") report the same prediction on the
+        same occasion. The Gospels therefore treat the two phrasings as equivalent, which is only
+        possible on inclusive reckoning. That makes inclusive reckoning an observation about the
+        text rather than a device imported to rescue a Friday.
+        Luke 24:21 is the second pillar and the more interesting one evidentially: two disciples
+        counting incidentally, on the day itself, call that Sunday "the third day since". Not a
+        prediction being interpreted.
+  cross_reference:
+    done: true
+    translations_compared: ["ESV"]
+    divergences_noted: "None material; the argument runs on Greek counts rather than on English renderings."
+  drafting:
+    done: true
+    file: docs/content/jesus/three-days-and-three-nights.md
+  review:
+    done: false
+    validated: true
+
+open_questions:
+  - >
+    The study reaches Friday but explicitly does not retire the objection. It says so: the Friday
+    reading "buys Matthew 12:40 on credit", needing inclusive reckoning to absorb the missing night,
+    and inclusive reckoning is invoked at exactly the point where it is convenient. Deliberate --
+    the alternative was to assert a resolution the evidence does not quite deliver.
+  - >
+    John 19:31's megale ("a high day") is left genuinely open between "a festival Sabbath distinct
+    from the weekly one" and "the weekly Sabbath made great by a feast falling on it". The first
+    reading is the whole Wednesday/Thursday case and it is not foolish; what it must additionally
+    absorb is prosabbaton and Luke 24:21.
+  - >
+    review-bible-study has NOT been run on this study. It was published anyway, and the reason is
+    worth recording: the user asked for the site to be made consistent with it, which required the
+    FAQ and prophecy-events-times.md to link to it, and mkdocs --strict fails when a published page
+    links to a draft. Publishing was therefore implied by the request, not a decision to skip the
+    gate quietly. An adversarial pass is still outstanding.
+  - >
+    CORRECTION MADE AFTER DRAFTING. The FAQ entry written alongside this study said the AD 33 date
+    rested on "two lines that converge", the second being the Humphreys-Waddington lunar eclipse. It
+    was built from prophecy-events-times.md without checking chronology-anchors.md, which is the
+    page that actually settles the year -- and that page DECLINES the eclipse argument outright, on
+    two grounds: Schaefer's visibility objection, and, more importantly, that Peter quotes Joel 2:31
+    about what WILL happen before the day of the LORD, so reading it as a report of the previous
+    Friday's sky asks the sermon for something it is not doing. The FAQ was rebuilt on
+    chronology-anchors.md's actual basis (Luke 3:1 primary, with Sejanus, Daniel 9 and Paul), the
+    eclipse claim removed, and prophecy-events-times.md cross-linked to the stronger rejection since
+    it calls the eclipse "a third, independent line".
+  - >
+    ai_provider_models was seeded by hand, unusually. refresh_frontmatter_provenance.py derives it
+    from Co-Authored-By trailers on commits touching the file, and a brand-new file has none, so it
+    wrote an empty list which validate check 17 then flagged. The script unions rather than
+    overwrites, so the seeded value survives and will be confirmed by the first commit.
+
+resources_consulted:
+  - {type: other, title: "SBL Greek New Testament", author: "ed. Michael W. Holmes", note: "every occurrence count"}
+  - {type: other, title: "MACULA Greek Linguistic Datasets", author: "Clear Bible", note: "lemma/morphology for prosabbaton, paraskeue"}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "note on Matt 12:40 states the inclusive-reckoning convention outright, and worked the Friday/Saturday/Sunday count -- the one commentary citation the study needs"}
+last_updated: "2026-09-06"

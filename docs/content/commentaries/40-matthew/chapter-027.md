@@ -16,4 +16,5 @@ draft: false
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 27:19
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 27:3-10
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 27:45
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 27:62
 <!-- commentary-index:auto-end -->

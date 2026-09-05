@@ -15,4 +15,5 @@ draft: false
 - [John son of Zebedee](../../biblical-figures/john.md) — 19:25-27 (primary passage)
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 19:23-24
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 19:25
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 19:31
 <!-- commentary-index:auto-end -->

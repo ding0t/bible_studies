@@ -4,7 +4,7 @@ category: "other"
 description: "Who Christ is and what he did, including Old Testament prophecy fulfilled in him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -55,6 +55,14 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
     A New Testament concordance study of 'the way' (hodos): its Old Testament roots, Jesus's claim in John 14:6, and how believers called themselves the Way before outsiders coined 'Christian.'
 
     [:octicons-arrow-right-24: Read](the-way.md)
+
+-   __Three Days and Three Nights__
+
+    ---
+
+    A Friday crucifixion gives two nights, not three. Whether Matthew 12:40 rules it out — the one occurrence of the phrase, the eight that say 'on the third day', Mark's word for the day, and the 'high day' that carries the Wednesday case.
+
+    [:octicons-arrow-right-24: Read](three-days-and-three-nights.md)
 
 -   __The Woman Who Touched the Fringe: Uncleanness Running Backwards__
 
