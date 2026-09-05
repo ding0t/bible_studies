@@ -257,3 +257,51 @@ revision_2026-09-06c:
     opposite sides of the journey.
   verification: "All five ESV quotations re-checked verbatim against study-notes.db. mkdocs --strict clean, new anchor resolves, validate at the 8 pre-existing warnings."
   last_updated: "2026-09-06"
+
+revision_2026-09-06d:
+  what: "Section reordering after a user request to check whether the study's ordering is logical. It was not, in four specific ways."
+  problems_found:
+    - "The primary passage arrived seventh. Frontmatter names 1 Thess 4:15-18, but it was first quoted at line 165 of 530 -- after the word study, the sequence chart, the OT typology, John 14 and all of Matthew 24-25."
+    - >
+      The typology section preceded the texts it claimed to support, and said so in a sentence that
+      contradicted itself: it opened "Before the New Testament describes the rapture directly" and
+      then referred to "the direct teaching texts above", which were below it.
+    - >
+      The sequence diagram sat third, presenting the conclusion before any argument -- and this
+      session made that worse by adding Bema and marriage-supper nodes that were not explained
+      until 300+ lines later.
+    - "The Jewish wedding pattern, and the new marriage-supper subsection inside it, sat AFTER Eternity, though the supper precedes the second coming. A four-section chronological backtrack."
+    - "'Certainty' was a 131-word section with a title that named no content, holding a primary rapture text (John 14:1-3) that belonged beside the others."
+  new_order: >
+    Key Takeaways; harpazo word study; The promise (John 14, ex-"Certainty"); The call to rapture
+    (1 Thess 4 + 1 Cor 15); The imminence; Two comings sorted; The restrainer; Types in the OT; The
+    Jewish wedding pattern; The tribulation; The judgments; The millennial reign; Eternity; The
+    whole sequence in one view; Early church testimony; Other end-times views; Conclusion;
+    Discussion questions; References.
+  rationale: >
+    Grouped by function: lexical base, then the direct teaching texts, then the argument, then the
+    systematic comparison, then the supporting typology (now genuinely after what it supports),
+    then the wedding type, then the sequel events in order, then reception and conclusion. The
+    diagram moved from third to a capstone after Eternity, which resolves every forward reference
+    it had -- Bema, marriage supper and the sequel sections are all explained before the reader
+    reaches it. Renamed "The whole sequence in one view" to signal it is a recap rather than a
+    roadmap, with a matching lead-in.
+  method: >
+    Done mechanically rather than by hand: split the body on ## boundaries, reassembled by index,
+    and asserted the body word count unchanged (9,219 before and after) so no content could be
+    lost or duplicated in the move.
+  reference_sweep: >
+    The real cost of reordering here was not anchors but the 27 "above"/"below" references. Audited
+    every one against the new section map. Five needed changing: the imminence back-reference in
+    The call to rapture, the typology link in The imminence, the direct-teaching-texts reference in
+    Types (which had been WRONG in the old order too and was corrected in the opposite direction
+    earlier the same day), a vague "The sequence above" in the wedding section, and a now-stale
+    '"Certainty" section above' in References. Three others had already been found wrong before the
+    move -- two of them introduced by this session's own edits -- and were fixed then.
+  anchor_safety: >
+    Checked before moving anything: no other page on the site links to a rapture.md ANCHOR, only to
+    the file, so reordering could not break an inbound link. All 11 of the study's own internal
+    anchors re-verified as resolving after the move, including the two renamed headings; the two
+    old anchors (#certainty, #the-sequence-of-end-time-events) confirmed gone from the built page.
+  verification: "Body word count identical. mkdocs --strict clean. validate at the 8 pre-existing warnings. Both diagrams re-measured after the move: 276px and 552.8px, each rendering at 100%. All nine changed section junctions read for dangling transitions; none found."
+  last_updated: "2026-09-06"

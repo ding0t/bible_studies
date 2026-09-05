@@ -70,94 +70,13 @@ But four occurrences describe something more specific: a person suddenly, physic
 
 **Conclusion.** Every time ἁρπάζω describes someone going to be with God, it describes a real, sudden, physical event — not a slow transition, and not a figure of speech for dying or for a spiritual change of status. That is the term Paul reaches for in 1 Thessalonians 4:17, deliberately, and it is the strongest lexical argument that the rapture is what it sounds like: a real, sudden, bodily gathering of the Church, distinct in kind from the visible, earth-bound second coming described in 2 Thessalonians.
 
-## The sequence of end-time events
-
-On the pretribulational reading argued above, the events fall in this order. The dotted branch is
-concurrent rather than sequential — the Bema seat runs through the tribulation years, in heaven.
-
-```mermaid
-flowchart TD
-    A["The Church age<br/>continues today"] --> B["The rapture<br/>no preceding sign,<br/>at any moment<br/>the Church is caught up<br/>(1 Thess 4:16-17)"]
-    B --> C["The tribulation begins<br/>seven years<br/>Antichrist confirms<br/>a covenant<br/>(Dan 9:27)"]
-    C --> D["Midpoint<br/>abomination of desolation,<br/>the man of lawlessness revealed<br/>(2 Thess 2:3-4)"]
-    D --> E["The second coming<br/>Christ returns visibly, with<br/>the armies of heaven<br/>(Rev 19:11-16)"]
-    E --> F["The millennium<br/>Christ reigns on earth with<br/>His saints, 1000 years<br/>(Rev 20:1-6)"]
-    F --> G["Great White Throne<br/>judgment of the unsaved<br/>(Rev 20:11-15)"]
-    G --> H["Eternity<br/>new heaven and new earth<br/>(Rev 21:1-4)"]
-    C -.-> X["Throughout, in heaven<br/>Bema seat judgment<br/>of believers<br/>(2 Cor 5:10)"]
-```
-
-## Types in the Old Testament: Enoch, Lot, and Elijah
-
-Before the New Testament describes the rapture directly, three Old Testament lives already trace its shape, standing beside a fourth who models the alternative. This is typology: narrative illustrates a pattern instead of establishing one on its own, so what follows supports the direct teaching texts above without substituting for them.
-
-**Enoch — taken before judgment fell.** "Enoch walked with God, and he was not, for God took him" ([Genesis 5:21-24 (ESV)](https://www.blueletterbible.org/esv/Gen/5/21-24)). Hebrews makes the point explicit: "By faith Enoch was taken up so that he should not see death... he was commended as having pleased God" ([Hebrews 11:5 (ESV)](https://www.blueletterbible.org/esv/Heb/11/5)). Enoch is the seventh from Adam ([Jude 1:14-15 (ESV)](https://www.blueletterbible.org/esv/Jud/1/14-15)) — and the flood, the judgment that sweeps away everyone left on earth, falls only three generations later, in the days of his own great-grandson. Enoch is removed before that judgment comes; he simply isn't there for it, taken quietly, without spectacle, sometime before the water rises.
-
-Two details in the Hebrew sharpen this. "Walked" is <span dir="rtl">וַיִּתְהַלֵּךְ</span>
-(*wayyithallēkh*, from <span dir="rtl">הָלַךְ</span> *hālakh*, Strong's H1980) — a Hithpael, the
-stem that carries iterative or habitual action. It is not a single walk but a sustained manner of
-life, "walked about with God," and Genesis uses the same form twice (5:22, 5:24) to frame the three
-hundred years between. And "took" is <span dir="rtl">לָקַח</span> (*lāqach*, Strong's H3947), the
-ordinary verb for taking or fetching — plain, unspectacular, and the same verb Scripture uses for
-Elijah's departure (2 Kings 2:3, 5, 9, 10) and for the psalmists' hope beyond death: "for he will
-receive me" ([Psalm 49:15 (ESV)](https://www.blueletterbible.org/esv/Psa/49/15)) and "afterward you
-will receive me to glory" ([Psalm 73:24 (ESV)](https://www.blueletterbible.org/esv/Psa/73/24)).
-The ESV renders <span dir="rtl">לָקַח</span> "took" in Genesis and "receive" in both psalms, so the
-thread joining Enoch, Elijah and the psalmists is one an English reader cannot see without checking
-the underlying word.
-
-**Noah — preserved through judgment, not removed from it.** Noah is a different pattern entirely: he and his family go *into* the flood, sealed in the ark, and come out the other side of God's judgment ([Genesis 7:1 (ESV)](https://www.blueletterbible.org/esv/Gen/7/1); [Genesis 7:16 (ESV)](https://www.blueletterbible.org/esv/Gen/7/16)). Both men are righteous; both are spared; but one is removed before the judgment falls and the other is carried through it. Since the flood is already a type of the tribulation (see [The imminence of the rapture](#the-imminence-of-the-rapture); Matthew 24:37-39), Enoch and Noah between them model the two competing views of the rapture's timing side by side, in the same chapters of Genesis.
-
-**Lot — physically removed, moments before fire fell.** Genesis records the angels physically dragging Lot, his wife, and his daughters out of Sodom because Lot himself hesitated: "he lingered. So the men seized him and his wife and his two daughters by the hand... and they brought him out and set him outside the city" ([Genesis 19:16 (ESV)](https://www.blueletterbible.org/esv/Gen/19/16)). The rescue and the judgment are separated by minutes, not centuries — Lot reaches Zoar, and only then "the LORD rained on Sodom and Gomorrah sulfur and fire" (Genesis 19:24-25). Peter draws the comparison Jesus himself draws (Luke 17:28-30, pairing Lot's day explicitly with the Son of Man's): Noah and Lot are named together as the same category of act — "the Lord knows how to rescue the godly from trials, and to keep the unrighteous under punishment until the day of judgment" ([2 Peter 2:9 (ESV)](https://www.blueletterbible.org/esv/2Pe/2/9)) — rescue named as God's ordinary pattern, not a one-off.
-
-Lot's removal complicates the picture, though. It isn't the quiet, willing translation Enoch's is: he has to be seized by the hand because he is slow to leave what he is about to lose. The typology is less tidy than it first looks.
-
-**Elijah — taken up bodily, in full view.** Where Enoch's departure is quiet, Elijah's is dramatic: "as they still went on and talked, behold, chariots of fire and horses of fire separated the two of them. And Elijah went up by a whirlwind into heaven" ([2 Kings 2:11 (ESV)](https://www.blueletterbible.org/esv/2Ki/2/11)), in full view of Elisha. Elijah is taken up alive, without dying — the same basic shape 1 Corinthians 15:51-52 describes for believers still alive at the rapture ("we shall not all sleep... in a moment, in the twinkling of an eye").
-
-Three men removed bodily before judgment reached them, in three different keys; a fourth preserved through it. And it is Peter's own epistle that names Noah and Lot together, rather than leaving later readers to spot the connection — then Jesus applies it by name to "the day when the Son of Man is revealed" (Luke 17:30).
-
-## Certainty
+## The promise: Christ returns for his own
 
 > ✝️ [John 14:1-4 (ESV)](https://www.blueletterbible.org/esv/Joh/14/1-4)
 >
 > 1 "Let not your hearts be troubled. Believe in God; believe also in me. 2 In my Father's house are many rooms. If it were not so, would I have told you that I go to prepare a place for you? 3 And if I go and prepare a place for you, **I will come again and will take you to myself, that where I am you may be also.** 4 And you know the way to where I am going."
 
 Christ is coming back *for His own*, personally, to take them where he is — stated as a promise before any sequence of events is worked out. Chuck Missler begins his own treatment of the "blessed hope" here for that reason.
-
-## The imminence of the rapture
-
-> ✝️ [Matthew 24:36-44 (ESV)](https://www.blueletterbible.org/esv/Mat/24/36-44)
->
-> 36 "But concerning that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father only. 37 For as were the days of Noah, so will be the coming of the Son of Man. 38 For as in those days before the flood they were eating and drinking, marrying and giving in marriage, until the day when Noah entered the ark, 39 and they were unaware until the flood came and swept them all away, so will be the coming of the Son of Man. 40 Then two men will be in the field; one will be taken and one left. 41 Two women will be grinding at the mill; one will be taken and one left. 42 Therefore, stay awake, for you do not know on what day your Lord is coming. 43 But know this, that if the master of the house had known in what part of the night the thief was coming, he would have stayed awake and would not have let his house be broken into. 44 Therefore you also must be ready, for the Son of Man is coming at an hour you do not expect."
-
-- No sign is given here for the rapture to wait on — contrast the specific, sequenced signs Jesus gives for the second coming earlier in the same chapter (Matthew 24:4-31). That contrast is itself an argument for two distinct comings, and [The Olivet Discourse](olivet-discourse.md) works through those signs in detail. On verse 36's "nor the Son", and what it does and does not say about Christ's knowledge, see [The Day No One Knows](../jesus/the-day-no-one-knows.md).
-- The point of comparison is being *unprepared*, not being removed. The flood generation was "eating and drinking, marrying and giving in marriage… and they were unaware until the flood came" (24:38-39). Noah is not the one taken out of the scene here; he is the one sealed into the ark while the water falls on the world around him — which is why this passage models preservation *through* judgment, as [the typology section above](#types-in-the-old-testament-enoch-lot-and-elijah) sets out, and why the ark is not a picture of the rapture.
-- "You also must be ready" — the imminence isn't a detail to work out; it's the point of the passage.
-
-### Why "one taken, one left" is not part of this case
-
-"One will be taken and one left" (24:40-41) is regularly quoted as proof of a pretribulational
-rapture. It will not carry that weight. Both verbs sit in the same semantic domain of physical
-movement — παραλαμβάνω (*paralambanō*, "take") at Louw-Nida 15.168 and ἀφίημι (*aphiēmi*, "leave")
-at 15.48 — so neither carries a verdict lexically. The verdict has to come from context, and the
-context is the Noah illustration these two verses complete, where the ones swept away are the wicked
-and the man left standing on the earth is Noah. [The Olivet Discourse](olivet-discourse.md) works
-this through, including Luke's own answer when the disciples ask "Where, Lord?" (Luke 17:37).
-
-The pretribulational case rests on 1 Thessalonians 4:13-18, John 14:1-4 and the restrainer of
-2 Thessalonians 2:6-7 — the texts treated above. It does not need this saying.
-
-> ✝️ [Matthew 25:1-13 (ESV)](https://www.blueletterbible.org/esv/Mat/25/1-13)
->
-> 1 "Then the kingdom of heaven will be like ten virgins who took their lamps and went to meet the bridegroom. 2 Five of them were foolish, and five were wise. 3 For when the foolish took their lamps, they took no oil with them, 4 but the wise took flasks of oil with their lamps. 5 As the bridegroom was delayed, they all became drowsy and slept. 6 But at midnight there was a cry, 'Here is the bridegroom! Come out to meet him.' 7 Then all those virgins rose and trimmed their lamps. 8 And the foolish said to the wise, 'Give us some of your oil, for our lamps are going out.' 9 But the wise answered, saying, 'Since there will not be enough for us and for you, go rather to the dealers and buy for yourselves.' 10 And while they were going to buy, the bridegroom came, and those who were ready went in with him to the marriage feast, and the door was shut. 11 Afterward the other virgins came also, saying, 'Lord, lord, open to us.' 12 But he answered, 'Truly, I say to you, I do not know you.' 13 Watch therefore, for you know neither the day nor the hour."
-
-Parables make one or a few main points for their original hearers instead of encoding a checklist of independently significant details. So the count of virgins and the specifics of the oil illustrate the point — readiness, tested by an unknown delay — and aren't separate doctrinal claims. This parable sits third in a run of four that Matthew groups together; [The Parables of the Olivet Discourse](olivet-discourse-parables.md) reads all four against their setting.
-
-- Why ten? Five foolish, five wise — a mixed group, outwardly identical until the moment of testing.
-- The wise were prepared *in advance* for the bridegroom's return, not scrambling when he arrived.
-- "They all became drowsy and slept" — the same failure recurs at Gethsemane, where Jesus prayed and the disciples slept (Matthew 26:36-45); sleep, in both scenes, is what happens to people who don't grasp the weight of the moment.
-- "Those who were ready went in with him... and the door was shut" — a door that shuts is a door that, at some point, cannot be opened again.
-- "Watch therefore, for you know neither the day nor the hour" — the same imminence as Matthew 24, now tied to a wedding.
 
 ## The call to rapture
 
@@ -178,7 +97,7 @@ Paul isn't answering an abstract question here. Earlier in the same letter he ha
 
 Read strictly on that pattern, the word could imply the Church escorts Christ back down to earth immediately — which is the standard scholarly objection to reading the rapture as an event years ahead of the second coming.
 
-The two still read best as distinct, resting on the imminence argument above, the absent-signs contrast with Matthew 24, and 1 Thessalonians 5:9's "not destined for wrath" — none of which depend on *apantēsis*. But the word itself doesn't settle the question in either direction, and it is not another plank in the case.
+The two still read best as distinct, resting on the imminence argument below, the absent-signs contrast with Matthew 24, and 1 Thessalonians 5:9's "not destined for wrath" — none of which depend on *apantēsis*. But the word itself doesn't settle the question in either direction, and it is not another plank in the case.
 
 > ✝️ [1 Corinthians 15:51-53 (ESV)](https://www.blueletterbible.org/esv/1Co/15/51-53)
 >
@@ -188,6 +107,41 @@ The two still read best as distinct, resting on the imminence argument above, th
 - "In a moment, in the twinkling of an eye" — about as fast as language can describe, reinforcing the sudden, ἁρπάζω-consistent nature of the event.
 - The trumpet appears again, tying this passage to 1 Thessalonians 4 and to [The Trumpet Call of God](trumpet.md).
 - Imperishable, immortal — the goal isn't escape from the body, but its transformation.
+
+## The imminence of the rapture
+
+> ✝️ [Matthew 24:36-44 (ESV)](https://www.blueletterbible.org/esv/Mat/24/36-44)
+>
+> 36 "But concerning that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father only. 37 For as were the days of Noah, so will be the coming of the Son of Man. 38 For as in those days before the flood they were eating and drinking, marrying and giving in marriage, until the day when Noah entered the ark, 39 and they were unaware until the flood came and swept them all away, so will be the coming of the Son of Man. 40 Then two men will be in the field; one will be taken and one left. 41 Two women will be grinding at the mill; one will be taken and one left. 42 Therefore, stay awake, for you do not know on what day your Lord is coming. 43 But know this, that if the master of the house had known in what part of the night the thief was coming, he would have stayed awake and would not have let his house be broken into. 44 Therefore you also must be ready, for the Son of Man is coming at an hour you do not expect."
+
+- No sign is given here for the rapture to wait on — contrast the specific, sequenced signs Jesus gives for the second coming earlier in the same chapter (Matthew 24:4-31). That contrast is itself an argument for two distinct comings, and [The Olivet Discourse](olivet-discourse.md) works through those signs in detail. On verse 36's "nor the Son", and what it does and does not say about Christ's knowledge, see [The Day No One Knows](../jesus/the-day-no-one-knows.md).
+- The point of comparison is being *unprepared*, not being removed. The flood generation was "eating and drinking, marrying and giving in marriage… and they were unaware until the flood came" (24:38-39). Noah is not the one taken out of the scene here; he is the one sealed into the ark while the water falls on the world around him — which is why this passage models preservation *through* judgment, as [the typology section below](#types-in-the-old-testament-enoch-lot-and-elijah) sets out, and why the ark is not a picture of the rapture.
+- "You also must be ready" — the imminence isn't a detail to work out; it's the point of the passage.
+
+### Why "one taken, one left" is not part of this case
+
+"One will be taken and one left" (24:40-41) is regularly quoted as proof of a pretribulational
+rapture. It will not carry that weight. Both verbs sit in the same semantic domain of physical
+movement — παραλαμβάνω (*paralambanō*, "take") at Louw-Nida 15.168 and ἀφίημι (*aphiēmi*, "leave")
+at 15.48 — so neither carries a verdict lexically. The verdict has to come from context, and the
+context is the Noah illustration these two verses complete, where the ones swept away are the wicked
+and the man left standing on the earth is Noah. [The Olivet Discourse](olivet-discourse.md) works
+this through, including Luke's own answer when the disciples ask "Where, Lord?" (Luke 17:37).
+
+The pretribulational case rests on 1 Thessalonians 4:13-18, John 14:1-4 and the restrainer of
+2 Thessalonians 2:6-7 — the texts this study treats in their own sections. It does not need this saying.
+
+> ✝️ [Matthew 25:1-13 (ESV)](https://www.blueletterbible.org/esv/Mat/25/1-13)
+>
+> 1 "Then the kingdom of heaven will be like ten virgins who took their lamps and went to meet the bridegroom. 2 Five of them were foolish, and five were wise. 3 For when the foolish took their lamps, they took no oil with them, 4 but the wise took flasks of oil with their lamps. 5 As the bridegroom was delayed, they all became drowsy and slept. 6 But at midnight there was a cry, 'Here is the bridegroom! Come out to meet him.' 7 Then all those virgins rose and trimmed their lamps. 8 And the foolish said to the wise, 'Give us some of your oil, for our lamps are going out.' 9 But the wise answered, saying, 'Since there will not be enough for us and for you, go rather to the dealers and buy for yourselves.' 10 And while they were going to buy, the bridegroom came, and those who were ready went in with him to the marriage feast, and the door was shut. 11 Afterward the other virgins came also, saying, 'Lord, lord, open to us.' 12 But he answered, 'Truly, I say to you, I do not know you.' 13 Watch therefore, for you know neither the day nor the hour."
+
+Parables make one or a few main points for their original hearers instead of encoding a checklist of independently significant details. So the count of virgins and the specifics of the oil illustrate the point — readiness, tested by an unknown delay — and aren't separate doctrinal claims. This parable sits third in a run of four that Matthew groups together; [The Parables of the Olivet Discourse](olivet-discourse-parables.md) reads all four against their setting.
+
+- Why ten? Five foolish, five wise — a mixed group, outwardly identical until the moment of testing.
+- The wise were prepared *in advance* for the bridegroom's return, not scrambling when he arrived.
+- "They all became drowsy and slept" — the same failure recurs at Gethsemane, where Jesus prayed and the disciples slept (Matthew 26:36-45); sleep, in both scenes, is what happens to people who don't grasp the weight of the moment.
+- "Those who were ready went in with him... and the door was shut" — a door that shuts is a door that, at some point, cannot be opened again.
+- "Watch therefore, for you know neither the day nor the hour" — the same imminence as Matthew 24, now tied to a wedding.
 
 ## Two comings, sorted by their own language
 
@@ -370,44 +324,38 @@ fit* does occur in this commentary tradition — but on Revelation 6:14 rather t
 only in Jerome's recension, and in a section Haussleiter's own apparatus marks as taken from
 Tyconius. It is not Victorinus on Paul.
 
-## The tribulation
+## Types in the Old Testament: Enoch, Lot, and Elijah
 
-The tribulation is a specific seven-year period — Daniel's seventieth "week" of years ([Daniel 9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27); see [The Zadok Calendar](../feasts/zadok-calendar.md) for how this site reckons that kind of chronology) — during which God's judgment falls on a world that has rejected Him, culminating in the man of lawlessness taking his seat in the temple (2 Thessalonians 2:4) and the abomination of desolation at its midpoint.
+Before the New Testament describes the rapture directly, three Old Testament lives already trace its shape, standing beside a fourth who models the alternative. This is typology: narrative illustrates a pattern instead of establishing one on its own, so what follows supports the direct teaching texts above without substituting for them.
 
-Scripture gives two direct reasons to expect the Church to be removed before this period, not merely protected through it.
+**Enoch — taken before judgment fell.** "Enoch walked with God, and he was not, for God took him" ([Genesis 5:21-24 (ESV)](https://www.blueletterbible.org/esv/Gen/5/21-24)). Hebrews makes the point explicit: "By faith Enoch was taken up so that he should not see death... he was commended as having pleased God" ([Hebrews 11:5 (ESV)](https://www.blueletterbible.org/esv/Heb/11/5)). Enoch is the seventh from Adam ([Jude 1:14-15 (ESV)](https://www.blueletterbible.org/esv/Jud/1/14-15)) — and the flood, the judgment that sweeps away everyone left on earth, falls only three generations later, in the days of his own great-grandson. Enoch is removed before that judgment comes; he simply isn't there for it, taken quietly, without spectacle, sometime before the water rises.
 
-**Not destined for wrath.** "For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ" ([1 Thessalonians 5:9 (ESV)](https://www.blueletterbible.org/esv/1Th/5/9)). The tribulation is explicitly God's wrath poured out on the earth — a category Scripture says believers are not appointed to.
+Two details in the Hebrew sharpen this. "Walked" is <span dir="rtl">וַיִּתְהַלֵּךְ</span>
+(*wayyithallēkh*, from <span dir="rtl">הָלַךְ</span> *hālakh*, Strong's H1980) — a Hithpael, the
+stem that carries iterative or habitual action. It is not a single walk but a sustained manner of
+life, "walked about with God," and Genesis uses the same form twice (5:22, 5:24) to frame the three
+hundred years between. And "took" is <span dir="rtl">לָקַח</span> (*lāqach*, Strong's H3947), the
+ordinary verb for taking or fetching — plain, unspectacular, and the same verb Scripture uses for
+Elijah's departure (2 Kings 2:3, 5, 9, 10) and for the psalmists' hope beyond death: "for he will
+receive me" ([Psalm 49:15 (ESV)](https://www.blueletterbible.org/esv/Psa/49/15)) and "afterward you
+will receive me to glory" ([Psalm 73:24 (ESV)](https://www.blueletterbible.org/esv/Psa/73/24)).
+The ESV renders <span dir="rtl">לָקַח</span> "took" in Genesis and "receive" in both psalms, so the
+thread joining Enoch, Elijah and the psalmists is one an English reader cannot see without checking
+the underlying word.
 
-**Kept from, not kept through.** To the church in Philadelphia: "I will keep you from the hour of trial that is coming on the whole world, to try those who dwell on the earth" ([Revelation 3:10 (ESV)](https://www.blueletterbible.org/esv/Rev/3/10)). That reads best as a promise to be kept *from* the hour itself, not merely preserved safely inside it.
+**Noah — preserved through judgment, not removed from it.** Noah is a different pattern entirely: he and his family go *into* the flood, sealed in the ark, and come out the other side of God's judgment ([Genesis 7:1 (ESV)](https://www.blueletterbible.org/esv/Gen/7/1); [Genesis 7:16 (ESV)](https://www.blueletterbible.org/esv/Gen/7/16)). Both men are righteous; both are spared; but one is removed before the judgment falls and the other is carried through it. Since the flood is already a type of the tribulation (see [The imminence of the rapture](#the-imminence-of-the-rapture); Matthew 24:37-39), Enoch and Noah between them model the two competing views of the rapture's timing side by side, in the same chapters of Genesis.
 
-The underlying Greek is contested, though. Standard commentary treats ἐκ τῆς ὥρας ("out of the hour") as ambiguous between "keep you from undergoing" and "keep you through," with serious interpreters on both sides. The reading above is defensible but not the only one a careful reader of the Greek can reach, which is why the case for a pretribulational rapture leans on more than this verse.
+**Lot — physically removed, moments before fire fell.** Genesis records the angels physically dragging Lot, his wife, and his daughters out of Sodom because Lot himself hesitated: "he lingered. So the men seized him and his wife and his two daughters by the hand... and they brought him out and set him outside the city" ([Genesis 19:16 (ESV)](https://www.blueletterbible.org/esv/Gen/19/16)). The rescue and the judgment are separated by minutes, not centuries — Lot reaches Zoar, and only then "the LORD rained on Sodom and Gomorrah sulfur and fire" (Genesis 19:24-25). Peter draws the comparison Jesus himself draws (Luke 17:28-30, pairing Lot's day explicitly with the Son of Man's): Noah and Lot are named together as the same category of act — "the Lord knows how to rescue the godly from trials, and to keep the unrighteous under punishment until the day of judgment" ([2 Peter 2:9 (ESV)](https://www.blueletterbible.org/esv/2Pe/2/9)) — rescue named as God's ordinary pattern, not a one-off.
 
-## The judgments
+Lot's removal complicates the picture, though. It isn't the quiet, willing translation Enoch's is: he has to be seized by the hand because he is slow to leave what he is about to lose. The typology is less tidy than it first looks.
 
-Scripture describes two distinct judgments, for two distinct groups, at two distinct times. Collapsing them into one "final judgment" flattens a real structure in the text.
+**Elijah — taken up bodily, in full view.** Where Enoch's departure is quiet, Elijah's is dramatic: "as they still went on and talked, behold, chariots of fire and horses of fire separated the two of them. And Elijah went up by a whirlwind into heaven" ([2 Kings 2:11 (ESV)](https://www.blueletterbible.org/esv/2Ki/2/11)), in full view of Elisha. Elijah is taken up alive, without dying — the same basic shape 1 Corinthians 15:51-52 describes for believers still alive at the rapture ("we shall not all sleep... in a moment, in the twinkling of an eye").
 
-| Judgment | Who | When | Basis |
-| --- | --- | --- | --- |
-| The Bema seat | Believers | During the tribulation, in heaven | Works tested for reward, not for salvation — [2 Corinthians 5:10 (ESV)](https://www.blueletterbible.org/esv/2Co/5/10); [1 Corinthians 3:11-15 (ESV)](https://www.blueletterbible.org/esv/1Co/3/11-15) |
-| The Great White Throne | The unsaved dead | After the millennium | Judged "according to what they had done," ending in the second death — [Revelation 20:11-15 (ESV)](https://www.blueletterbible.org/esv/Rev/20/11-15) |
-
-**Bēma** (**βῆμα**) is commonly glossed as "a Greek athletic term for the judge's stand at the games." That gloss is wrong. Every one of its twelve New Testament occurrences is judicial or civic: Pilate's judgment seat (Matthew 27:19; John 19:13), Herod's throne (Acts 12:21), Gallio's tribunal at Corinth (Acts 18:12, 16-17), Festus's tribunal (Acts 25:6, 10, 17), and "the judgment seat of God/Christ" itself (Romans 14:10; 2 Corinthians 5:10). The ESV Study Bible's note on 2 Corinthians 5:10 identifies it as "the tribunal bench in the Roman courtroom, where the governor sat while rendering judicial verdicts" — remains of one still stand in the Corinthian forum.
-
-The Bema is a judgment of reward, not of condemnation. A believer's salvation was settled at the cross; what is evaluated here is what was built on that foundation (1 Corinthians 3:12-13). The Great White Throne is where those never covered by Christ's righteousness are judged by their own deeds, and found wanting.
-
-## The millennial reign
-
-Revelation is apocalyptic literature, and this site's practice elsewhere (see [The Trumpet Call of God](trumpet.md)'s treatment of Revelation's seven trumpets) is to trace a vision's Old Testament imagery before assigning it a novel referent. The white-horse imagery here has that grounding: it echoes the rider-on-a-white-horse figure John introduces earlier (Revelation 6:2) and, further back, the coming king's triumph pictured across the Psalms and Prophets (e.g. Psalm 45:3-5).
-
-With that step taken, the passage reads as a real, visible, future event. After the tribulation, Christ returns visibly and physically — "the armies of heaven, arrayed in fine linen, white and pure, were following him on white horses" ([Revelation 19:11-16 (ESV)](https://www.blueletterbible.org/esv/Rev/19/11-16)) — not in secret, and not merely "spiritually." He then reigns on earth for a literal thousand years, with resurrected and raptured believers reigning alongside Him as priests of God ([Revelation 20:1-6 (ESV)](https://www.blueletterbible.org/esv/Rev/20/1-6)). This is the earthly, physical fulfillment of the many Old Testament promises of a coming kingdom of peace and righteousness — not spiritualized into the Church age, and still future.
-
-## Eternity
-
-At the millennium's close, Satan is judged once for all, the unsaved face the Great White Throne, and then comes the eternal state: "a new heaven and a new earth... and I heard a loud voice from the throne saying, 'Behold, the dwelling place of God is with man. He will dwell with them'" ([Revelation 21:1-4 (ESV)](https://www.blueletterbible.org/esv/Rev/21/1-4)). Whatever remains uncertain about the sequence leading to this point, the destination is not in doubt: God, dwelling with His people, forever.
+Three men removed bodily before judgment reached them, in three different keys; a fourth preserved through it. And it is Peter's own epistle that names Noah and Lot together, rather than leaving later readers to spot the connection — then Jesus applies it by name to "the day when the Son of Man is revealed" (Luke 17:30).
 
 ## The Jewish wedding pattern
 
-The sequence above maps closely onto the structure of a first-century Jewish betrothal and wedding — likely not a coincidence, given that Jesus and Paul were both speaking to audiences who would have recognized the pattern immediately.
+The sequence argued above maps closely onto the structure of a first-century Jewish betrothal and wedding — likely not a coincidence, given that Jesus and Paul were both speaking to audiences who would have recognized the pattern immediately.
 
 ```mermaid
 flowchart TD
@@ -472,6 +420,61 @@ whole thread, including where the identification is argued rather than assumed.
 
 These good works aren't confined to this present life — the reward evaluated at the Bema seat suggests they carry forward into eternity, not merely into the record of a life now finished.
 
+## The tribulation
+
+The tribulation is a specific seven-year period — Daniel's seventieth "week" of years ([Daniel 9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27); see [The Zadok Calendar](../feasts/zadok-calendar.md) for how this site reckons that kind of chronology) — during which God's judgment falls on a world that has rejected Him, culminating in the man of lawlessness taking his seat in the temple (2 Thessalonians 2:4) and the abomination of desolation at its midpoint.
+
+Scripture gives two direct reasons to expect the Church to be removed before this period, not merely protected through it.
+
+**Not destined for wrath.** "For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ" ([1 Thessalonians 5:9 (ESV)](https://www.blueletterbible.org/esv/1Th/5/9)). The tribulation is explicitly God's wrath poured out on the earth — a category Scripture says believers are not appointed to.
+
+**Kept from, not kept through.** To the church in Philadelphia: "I will keep you from the hour of trial that is coming on the whole world, to try those who dwell on the earth" ([Revelation 3:10 (ESV)](https://www.blueletterbible.org/esv/Rev/3/10)). That reads best as a promise to be kept *from* the hour itself, not merely preserved safely inside it.
+
+The underlying Greek is contested, though. Standard commentary treats ἐκ τῆς ὥρας ("out of the hour") as ambiguous between "keep you from undergoing" and "keep you through," with serious interpreters on both sides. The reading above is defensible but not the only one a careful reader of the Greek can reach, which is why the case for a pretribulational rapture leans on more than this verse.
+
+## The judgments
+
+Scripture describes two distinct judgments, for two distinct groups, at two distinct times. Collapsing them into one "final judgment" flattens a real structure in the text.
+
+| Judgment | Who | When | Basis |
+| --- | --- | --- | --- |
+| The Bema seat | Believers | During the tribulation, in heaven | Works tested for reward, not for salvation — [2 Corinthians 5:10 (ESV)](https://www.blueletterbible.org/esv/2Co/5/10); [1 Corinthians 3:11-15 (ESV)](https://www.blueletterbible.org/esv/1Co/3/11-15) |
+| The Great White Throne | The unsaved dead | After the millennium | Judged "according to what they had done," ending in the second death — [Revelation 20:11-15 (ESV)](https://www.blueletterbible.org/esv/Rev/20/11-15) |
+
+**Bēma** (**βῆμα**) is commonly glossed as "a Greek athletic term for the judge's stand at the games." That gloss is wrong. Every one of its twelve New Testament occurrences is judicial or civic: Pilate's judgment seat (Matthew 27:19; John 19:13), Herod's throne (Acts 12:21), Gallio's tribunal at Corinth (Acts 18:12, 16-17), Festus's tribunal (Acts 25:6, 10, 17), and "the judgment seat of God/Christ" itself (Romans 14:10; 2 Corinthians 5:10). The ESV Study Bible's note on 2 Corinthians 5:10 identifies it as "the tribunal bench in the Roman courtroom, where the governor sat while rendering judicial verdicts" — remains of one still stand in the Corinthian forum.
+
+The Bema is a judgment of reward, not of condemnation. A believer's salvation was settled at the cross; what is evaluated here is what was built on that foundation (1 Corinthians 3:12-13). The Great White Throne is where those never covered by Christ's righteousness are judged by their own deeds, and found wanting.
+
+## The millennial reign
+
+Revelation is apocalyptic literature, and this site's practice elsewhere (see [The Trumpet Call of God](trumpet.md)'s treatment of Revelation's seven trumpets) is to trace a vision's Old Testament imagery before assigning it a novel referent. The white-horse imagery here has that grounding: it echoes the rider-on-a-white-horse figure John introduces earlier (Revelation 6:2) and, further back, the coming king's triumph pictured across the Psalms and Prophets (e.g. Psalm 45:3-5).
+
+With that step taken, the passage reads as a real, visible, future event. After the tribulation, Christ returns visibly and physically — "the armies of heaven, arrayed in fine linen, white and pure, were following him on white horses" ([Revelation 19:11-16 (ESV)](https://www.blueletterbible.org/esv/Rev/19/11-16)) — not in secret, and not merely "spiritually." He then reigns on earth for a literal thousand years, with resurrected and raptured believers reigning alongside Him as priests of God ([Revelation 20:1-6 (ESV)](https://www.blueletterbible.org/esv/Rev/20/1-6)). This is the earthly, physical fulfillment of the many Old Testament promises of a coming kingdom of peace and righteousness — not spiritualized into the Church age, and still future.
+
+## Eternity
+
+At the millennium's close, Satan is judged once for all, the unsaved face the Great White Throne, and then comes the eternal state: "a new heaven and a new earth... and I heard a loud voice from the throne saying, 'Behold, the dwelling place of God is with man. He will dwell with them'" ([Revelation 21:1-4 (ESV)](https://www.blueletterbible.org/esv/Rev/21/1-4)). Whatever remains uncertain about the sequence leading to this point, the destination is not in doubt: God, dwelling with His people, forever.
+
+## The whole sequence in one view
+
+Everything argued above, in one view. On the pretribulational reading the events fall in this order. Two tracks run in
+parallel through the tribulation years — one on earth, one in heaven — and they converge at the
+second coming, when the Church returns with him.
+
+```mermaid
+flowchart TD
+    A["The Church age<br/>continues today"] -->|"no sign to wait on"| B["The rapture<br/>the Church is caught up<br/>1 Thess 4:16-17<br/>1 Cor 15:51-53"]
+    B --> C["Tribulation begins<br/>seven years<br/>covenant confirmed<br/>Dan 9:27"]
+    C --> D["Midpoint<br/>abomination of desolation<br/>Matt 24:15<br/>man of lawlessness revealed<br/>2 Thess 2:3-4"]
+    D -->|"after the tribulation<br/>Matt 24:29"| E["The second coming<br/>every eye sees him<br/>Rev 19:11-16; Matt 24:30"]
+    E --> F["The millennium<br/>Christ reigns, 1000 years<br/>Rev 20:1-6"]
+    F --> G["Great White Throne<br/>the unsaved judged<br/>Rev 20:11-15"]
+    G --> H["Eternity<br/>new heaven, new earth<br/>Rev 21:1-4"]
+    B -->|"in heaven"| X["Bema seat<br/>believers' works assessed<br/>2 Cor 5:10; 1 Cor 3:11-15"]
+    X -->|"clothed in her<br/>righteous deeds<br/>Rev 19:8"| Y["Marriage of the Lamb<br/>and the supper<br/>Rev 19:7-9"]
+    Y -->|"returns with him<br/>Rev 19:14; Col 3:4"| E
+```
+
 ## Early church testimony
 
 How far back does this expectation go? The post-apostolic church was broadly premillennial — Justin Martyr, Papias, Irenaeus, and Tertullian all held that Christ returns to reign on earth for a literal thousand years, the same basic framework as [the millennial reign](#the-millennial-reign) above. That much isn't seriously disputed among historians of the early church.
@@ -511,7 +514,7 @@ The word Scripture uses for the rapture, ἁρπάζω, describes a real, sudden
 
 ## References & Recommended Reading
 
-- Chuck Missler, [Blessed Hope teaching series](https://www.khouse.org/) — starting point for the "Certainty" section above.
+- Chuck Missler, [Blessed Hope teaching series](https://www.khouse.org/) — starting point for [The promise: Christ returns for his own](#the-promise-christ-returns-for-his-own).
 - [A study from a scholarly perspective on ancient Jewish weddings](https://hearingshofar.blogspot.com/2013/12/the-parable-of-bridegrooms-shofar.html) and [The prophetic pattern of the ancient Jewish wedding](https://www.truevinelife.com/growthinchrist/return-of-jesus-christ-part-2-the-prophetic-pattern-of-the-ancient-jewish-wedding) — popular-level sources for [The Jewish wedding pattern](#the-jewish-wedding-pattern) section's custom sequence; see the caveat given there about their evidentiary weight.
 - *ESV Study Bible* (Crossway, 2016) — notes on Revelation 3:10, 1 Thessalonians 4:17, 2 Thessalonians 2:6-7, and 2 Corinthians 5:10, consulted as an independent check; source of the corrected Bēma etymology and the acknowledged ambiguity on Revelation 3:10 and the restrainer's identity.
 - *NIV Biblical Theology Study Bible* (Zondervan, 2018) — notes on 1 Thessalonians 4:17 (the *apantēsis* civic-welcome sense) and 2 Thessalonians 2:6-7 (the scholarly proposals for the restrainer), consulted independently of the ESV Study Bible above.
