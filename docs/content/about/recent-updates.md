@@ -20,6 +20,14 @@ way.
 <!-- recent-updates:auto-start -->
 <div class="grid cards" markdown>
 
+-   __The Bride of Christ__
+
+    ---
+
+    Scripture calls the church a betrothed bride and says so in its own voice. What the primary rabbinic and cultural sources actually document about Jewish betrothal, what the New Testament builds on it, how much weight the Song of Songs can carry — and which popular details have no source at all.
+
+    :material-new-box: New 2026-09-06 · [:octicons-arrow-right-24: Read](../israel-and-church/bride-of-christ.md)
+
 -   __The Parables of the Olivet Discourse__
 
     ---
@@ -115,14 +123,6 @@ way.
     A public working list of study topics and research items still to be developed, organized by the site's own subject sections.
 
     :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](backlog.md)
-
--   __The Bride of Christ__
-
-    ---
-
-    Scripture calls the church a betrothed bride and says so in its own voice. What the primary rabbinic and cultural sources actually document about Jewish betrothal, what the New Testament builds on it, how much weight the Song of Songs can carry — and which popular details have no source at all.
-
-    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../israel-and-church/bride-of-christ.md)
 
 -   __Reading the Original-Language Data__
 

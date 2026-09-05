@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-13"
 bible_references: ["Revelation 1:3", "James 5:7-8", "Mark 13:32-37", "Matthew 24:3-14", "Exodus 20:11", "Hebrews 4:1-13", "Revelation 20:1-7", "Acts 1:9-11", "Genesis 1:14-19", "Colossians 2:16-17"]
 date_created: 2024-05-29
-date_modified: 2026-08-23
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -33,7 +33,7 @@ John opens Revelation by pronouncing a blessing on the reader before a single se
 
 ### Lessons about Jesus
 
-- He set a real limit on his own knowledge during his earthly life: "concerning that day or that hour, no one knows... nor the Son, but only the Father" (Mark 13:32). The Son did not know the timing -- a fact about the incarnation, not a rhetorical figure.
+- He did not name the day when he was asked: "concerning that day or that hour, no one knows... nor the Son, but only the Father" (Mark 13:32). The weight of that sentence falls on whose prerogative the date is rather than on what the Son lacked -- asked the same question again after the resurrection, he answered the same way and gave the reason: "the Father has fixed" them "by his own authority" (Acts 1:7). What the verse does and does not say about Christ's knowledge is worked out in [The Day No One Knows](../jesus/the-day-no-one-knows.md).
 - His return will match his ascension in kind: bodily, visible, "in the same way" (Acts 1:11) -- not merely spiritual or figurative.
 - He delays not from weakness but from patience: 2 Peter's letter calls him "our Lord and Savior Jesus Christ" throughout (1:11; 3:18), and it is that same Lord who "is patient... not wishing that any should perish, but that all should reach repentance" (2 Peter 3:9).
 
@@ -51,7 +51,7 @@ John opens Revelation by pronouncing a blessing on the reader before a single se
 
 ### Prayer
 
-Father, you set a limit on what even the Son knew of the day and hour, and you are patient with a world you could justly judge today -- not wanting anyone to perish, but all to come to repentance. Thank you that the delay itself is mercy, not neglect. Give me the same patience you show: endurance under real pressure rather than passive waiting, and work to do -- watching, praying, telling others -- rather than idle watching of the sky. Amen.
+Father, the times and seasons are fixed by your own authority, and not even the Son named them when he was asked -- so I am not going to work them out either. You are patient with a world you could justly judge today -- not wanting anyone to perish, but all to come to repentance. Thank you that the delay itself is mercy, not neglect. Give me the same patience you show: endurance under real pressure rather than passive waiting, and work to do -- watching, praying, telling others -- rather than idle watching of the sky. Amen.
 
 ## Be patient while the time is hidden
 
@@ -67,7 +67,7 @@ That same verb reappears where the study turns next: 2 Peter 3:9 says the Lord h
 >
 > 32 "But concerning that day or that hour, no one knows, not even the angels in heaven, nor the Son, but only the Father. 33 Be on guard, keep awake. For you do not know when the time will come. 34 It is like a man going on a journey, when he leaves home and puts his servants in charge, each with his work, and commands the doorkeeper to stay awake. 35 Therefore stay awake--for you do not know when the master of the house will come, in the evening, or at midnight, or when the rooster crows, or in the morning-- 36 lest he come suddenly and find you asleep. 37 And what I say to you I say to all: Stay awake."
 
-This closes the Olivet Discourse (see [Signs of the end of the age](#signs-of-the-end-of-the-age) below for the section that opens it), and it answers the disciples' "when" question by declining to answer it. **No one knows** (**οὐδεὶς οἶδεν**) is stated in a chain that runs from angels, to the Son himself, stopping only at the Father -- Jesus is not being coy; the text states the Son did not know the day or hour during his earthly ministry, a real limitation of the incarnation rather than a rhetorical device. The parable that follows reframes not-knowing as a job description, not a problem: a servant left in charge doesn't need the master's arrival time to do the work assigned; "stay awake" has to mean something more than watching the horizon.
+This closes the Olivet Discourse (see [Signs of the end of the age](#signs-of-the-end-of-the-age) below for the section that opens it), and it answers the disciples' "when" question by declining to answer it. **No one knows** (**οὐδεὶς οἶδεν**) is stated in a chain that runs from angels, to the Son himself, stopping only at the Father -- and where the chain stops is the point of it. Jesus is not being coy, but neither is the sentence built to report what he lacked: it is built to land on whose the date is, which is the answer he gives again after the resurrection when no incarnational limit is in view (Acts 1:7). How the Son's own knowledge is to be understood here is a real question, and a separate one; [The Day No One Knows](../jesus/the-day-no-one-knows.md) takes it up. The parable that follows reframes not-knowing as a job description, not a problem: a servant left in charge doesn't need the master's arrival time to do the work assigned; "stay awake" has to mean something more than watching the horizon.
 
 ## A day like a thousand years
 
@@ -81,7 +81,7 @@ Verse 8's answer to the delay itself -- **one day is as a thousand years** (**�
 
 Peter also does not stop where Moses did. Psalm 90:4 runs one direction -- a long span looks short to God -- and Peter adds the converse: "and a thousand years as one day." A long time seeming short is consolation for a delay. A short time being a thousand years is not; the second half of the clause does no work at all if patience is the whole point. Peter's pastoral application follows immediately in 3:9 ("the Lord is not slow... but is patient"), and it is real -- but the fact he tells the beloved not to overlook in verse 8 is the correspondence itself, stated both ways.
 
-That correspondence is what the wider six-then-seventh pattern is built on -- traced below in [The pattern of six days and a seventh](#the-pattern-of-six-days-and-a-seventh), and at length in [A Day Is a Thousand Years](day-is-a-thousand-years.md). It is worth being exact about what there is a later addition and what isn't. Reading Genesis 1's six days as six thousand years is not something this site inferred from 2 Peter 3:8: it is in *Jubilees* 4:29-30 two centuries before Peter wrote, in the Talmud (b. *Sanhedrin* 97a), and across the early church from Barnabas to Lactantius, and the *NIV Cultural Backgrounds Study Bible* notes on this verse that Jewish writers of Peter's day already applied the thousand-year day to the days of creation. Peter is writing into that frame, not being retrofitted with it.
+That correspondence is what the wider six-then-seventh pattern is built on -- traced below in [The pattern of six days and a seventh](#the-pattern-of-six-days-and-a-seventh), and at length in [A Day Is a Thousand Years](day-is-a-thousand-years.md). Reading Genesis 1's six days as six thousand years is not something this site inferred from 2 Peter 3:8: it is in *Jubilees* 4:29-30 two centuries before Peter wrote, in the Talmud (b. *Sanhedrin* 97a), and across the early church from Barnabas to Lactantius, and the *NIV Cultural Backgrounds Study Bible* notes on this verse that Jewish writers of Peter's day already applied the thousand-year day to the days of creation. Peter is writing into that frame, not being retrofitted with it.
 
 What *is* inference, and held loosely, is the arithmetic -- which manuscript tradition, which creation epoch, which year the sixth day closes in. The shape carries; the date does not. Peter himself moves from the ratio in verse 8 to patience in verse 9 and holy conduct in verse 11, and never to a calculation.
 
@@ -174,7 +174,7 @@ That said, this site's own working chronology ([Charting End Times](prophecy-cha
 ## Discussion questions
 
 1. James commands believers to have the same patience (*makrothymeō*) 2 Peter says God himself already has (3:9). Does it change how "be patient" lands, to know it's not a standard God holds you to without holding it himself?
-2. Mark 13:32 states plainly that the incarnate Son did not know the day or hour. How do you hold that together with everything else Scripture says about who Jesus is?
+2. Mark 13:32 names the Father alone as knowing the day and hour. How do you hold that together with everything else Scripture says about who Jesus is?
 3. This study is explicit about which parts are exegesis (what a text says) and which parts are typological extension or open speculation (the 6,000-year date, 2032). Did that distinction change how persuasive any particular section felt to you?
 4. Matthew 24:14 names the gospel reaching all nations, not a political or natural sign, as the stated condition before "the end will come." Does that redirect where you'd look for evidence the end is near?
 

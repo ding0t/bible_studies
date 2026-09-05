@@ -104,3 +104,50 @@ resources_consulted:
   - {type: dictionary, title: "TWOT (Theological Wordbook of the Old Testament)", author: "Archer, Harris & Waltke", note: "root 2323 (shabat, 'cease') via twot_strongs MCP tool"}
   - {type: commentary, title: "ESV Study Bible", author: "Crossway, 2016", note: "notes on Heb 4:1-13, 4:8-10; 2 Pet 3:1-13, 3:8-10; Acts 1:6-11, 1:11; Matt 24:1-14, 24:5-8 -- consulted last, after independent word-study draft; confirmed Heb 4 reads as gospel-rest not explicitly millennial, and Acts 1:11 as manner-not-timing, both of which changed how the redraft frames those two sections rather than just confirming what was already written"}
 last_updated: "2026-08-04"
+
+revision_2026-09-06:
+  what: >
+    User flagged the Prayer's opening line -- "Father, you set a limit on what even the Son knew of
+    the day and hour" -- as asserting a reading already dismissed elsewhere on the site. Correct,
+    and the problem ran wider than the prayer.
+  the_conflict: >
+    jesus/the-day-no-one-knows.md is a whole study on Mark 13:32 / Matt 24:36, and it concludes the
+    opposite: "The verse speaks in terms of his human nature, and its emphasis falls on the
+    Father's prerogative rather than on the Son's limitation." It quotes the NLT Life Application
+    note -- "the emphasis of this verse is not on Jesus' lack of knowledge but rather on the fact
+    that no one but God has this knowledge" -- and its decisive argument is that Jesus is asked the
+    same question again AFTER the resurrection, when no incarnational limitation is in view, and
+    answers it the same way: "the Father has fixed" them "by his own authority" (Acts 1:7).
+  instances_found: 5
+  fixed:
+    - >
+      The Prayer (worst of the five, and the one flagged). "Father, YOU set a limit on what even the
+      Son knew" makes the Father the agent withholding knowledge from the Son -- which is neither
+      the sibling study's Father's-prerogative reading NOR the two-natures answer, and is the
+      shakiest formulation available. Reframed onto Acts 1:7: "the times and seasons are fixed by
+      your own authority, and not even the Son named them when he was asked".
+    - >
+      Body prose, the Mark 13:32 exposition. Read "the text states the Son did not know the day or
+      hour during his earthly ministry, a real limitation of the incarnation rather than a
+      rhetorical device". The problem is "the text states": the sibling study argues the text states
+      the Father's prerogative, and the human-nature limitation is a theological inference from
+      elsewhere. Rewritten to keep the chain observation (angels, Son, stopping at the Father --
+      which is good and textual) while attributing the assertion correctly, and to hand the
+      knowledge question to the study that treats it.
+    - "Lessons about Jesus bullet: 'He set a real limit on his own knowledge' restated as 'He did not name the day when he was asked', with the prerogative point and the Acts 1:7 follow-up added."
+    - "Discussion question 2: 'Mark 13:32 states plainly that the incarnate Son did not know' prejudged the question it was asking. Now 'names the Father alone as knowing the day and hour'."
+  left_alone: >
+    The Be Transformed bullet's "outside even the Son's stated awareness during his earthly life" is
+    careful enough to stand -- "stated awareness" claims only what the verse says -- and the memory
+    verse simply quotes Mark 13:32.
+  link_gap_closed: >
+    day-is-near.md linked to NEITHER the-day-no-one-knows.md nor olivet-discourse.md, despite Mark
+    13:32-37 sitting in its own bible_references and being quoted in full in the body. Two links to
+    the-day-no-one-knows added, at the two places the knowledge question arises.
+  also: >
+    Deleted "It is worth being exact about what there is a later addition and what isn't" -- the
+    validator's standing worth-template warning on this file. It was also grammatically broken, and
+    it failed the deletion test: the sentence after it does the work. Validator warnings for the
+    corpus went 8 to 7.
+  verification: "Mark 13:32, Acts 1:7 and 2 Pet 3:9 re-checked against study-notes.db before being quoted. mkdocs --strict clean, both new links resolve in the built page, validate clean."
+  last_updated: "2026-09-06"
