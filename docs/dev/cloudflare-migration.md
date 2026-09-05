@@ -2,9 +2,16 @@
 
 Moving the site from GitHub Pages to Cloudflare Workers static assets, keeping `the-way.lewy.au`.
 
-**Status: Phase 1 in progress (2026-09-05).** `lewy.au` added to Cloudflare (Free plan). Assigned
-nameservers: `simone.ns.cloudflare.com`, `zac.ns.cloudflare.com` (original VentraIP nameservers were
-`ns1/2/3.nameserver.net.au` — see the rollback section).
+**Status: cutover complete, Phase 5 clean-up pending (2026-09-05).** `lewy.au` on Cloudflare (Free
+plan), nameservers `simone.ns.cloudflare.com` / `zac.ns.cloudflare.com` (original VentraIP
+nameservers were `ns1/2/3.nameserver.net.au` — see the rollback section). `the-way.lewy.au` is now
+served by the `the-way` Worker (Custom Domain), verified working: homepage, both tool pages and
+their JS bundles, a `mkdocs-redirects` stub, `/tags/`, search index, the copyright page, and a
+proper 404 for a bad URL. CI (`.github/workflows/deploy.yml`) deploys via `wrangler-action@v3`
+pinned to `wranglerVersion: '4'` — its unpinned default silently installs an old Wrangler that
+doesn't understand an assets-only `wrangler.jsonc`. GitHub Pages itself (Settings → Pages) is
+still configured and still has the custom domain attached — deliberately not touched yet, per
+Phase 5's soak period.
 
 **Motivation:** site analytics. GitHub Pages gives none. Cloudflare Web Analytics is server-side
 once the zone is proxied — no JS beacon, no cookie banner, not defeated by ad blockers.
@@ -214,10 +221,20 @@ reversible. **The scary step and the site-moving step are deliberately not the s
            with:
              apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
              accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+             # Pin explicitly -- with no `wrangler` devDependency anywhere in the repo for the
+             # action to detect a version from, it silently installs an old pinned default
+             # (3.90.0 as of this writing) that doesn't understand an assets-only wrangler.jsonc
+             # (no `main`) and fails with "Missing entry-point".
+             wranglerVersion: '4'
    ```
 
    The existing path-filter caveat is unchanged: a commit touching only `references/` or `utils/`
    still deploys nothing.
+
+   Adding secrets to a public repo is safe here for two reasons: the workflow triggers only on
+   `push`/`workflow_dispatch`, never `pull_request`, so a fork's PR gets no access to them
+   regardless of what workflow code the PR contains; and the token itself is scoped to
+   Workers-edit-only (the template above), not a Global API Key.
 
 7. **Push and confirm** the Action deploys cleanly to `workers.dev`. Two live copies now exist:
    GitHub Pages on the real domain, Workers on `workers.dev`.
@@ -230,15 +247,21 @@ reversible. **The scary step and the site-moving step are deliberately not the s
 9. **Soak for a day.** Confirm `the-way.lewy.au` still resolves and serves, and that anything found
    in the step 1 export still works.
 10. **Point the domain at the Worker.** In the Worker's Settings → Domains & Routes, add Custom
-    Domain `the-way.lewy.au`. Cloudflare replaces the A records with its own proxied record and
-    issues the certificate automatically; delete any leftover GitHub A records. Verify:
+    Domain `the-way.lewy.au`. **This fails with "Hostname already has externally managed DNS
+    records" if the manual `the-way` A record(s) are still there — delete them in DNS → Records
+    first**, then add the Custom Domain. (Toggling that A record to proxied instead of deleting it
+    isn't enough; Custom Domains want a record they created themselves.) Cloudflare then creates
+    its own managed record and issues the certificate automatically. There's a short window
+    (seconds, sometimes longer) between deleting the old record and the new one going live where
+    the hostname can briefly fail to resolve — low-stakes for low traffic, but expect it. Verify:
 
     ```bash
     curl -sI https://the-way.lewy.au | head
     ```
 
-    The `server:` header should now be Cloudflare, not `GitHub.com`. This is also the point to add
-    the apex/`www` Redirect Rule if the parking page is being replaced.
+    The `server:` header should now be Cloudflare, not `GitHub.com`, and the response should carry
+    no `x-github-request-id`. This is also the point to add the apex/`www` Redirect Rule if the
+    parking page is being replaced.
 
 ### Phase 5 — Clean up (after a week's soak)
 
