@@ -33,14 +33,14 @@ a study depends on is usually the layer, not the text, which is why the layer de
 
 The full account of what each is *worth as a witness* — its strengths, its cautions, where it stands
 in the manuscript tradition — belongs to [Bible Translations & Source
-Texts](translations.md), which treats them one by one. What the third column adds here is narrower
+Texts](translations.md), which treats them one by one. What the third column adds is narrower
 and specific to this page: **every limitation of a text is inherited by the annotation built on it.**
 A lemma attached to a single manuscript is a lemma for that manuscript's reading.
 
 | Text | What it is | The limit the annotation inherits |
 |---|---|---|
 | **WLC** — Westminster Leningrad Codex | The Hebrew Old Testament, in a digital edition of the Leningrad Codex, a complete manuscript written about AD 1008. The Hebrew behind almost every English Old Testament | **One manuscript, not a reconstruction.** Where that scribe was idiosyncratic, so is every lemma and parse built on him. Its vowel points are Masoretic and medieval — centuries younger than the consonants they interpret — so a parsing that depends on vocalisation is resting on a later reading, not on the oldest layer of the text |
-| **SBLGNT** — SBL Greek New Testament | A modern critical Greek New Testament, published 2010, openly licensed. The default Greek here | **Eclectic: no single manuscript reads exactly this.** It is a reasoned synthesis of earlier critical editions, so the annotation describes an edition rather than any surviving copy |
+| **SBLGNT** — SBL Greek New Testament | A modern critical Greek New Testament, published 2010, openly licensed. The default Greek in this site's own database | **Eclectic: no single manuscript reads exactly this.** It is a reasoned synthesis of earlier critical editions, so the annotation describes an edition rather than any surviving copy |
 | **Brenton Septuagint** | The Greek Old Testament: a pre-Christian translation of the Hebrew, and often the version New Testament authors quote | **A translation, so it witnesses its Hebrew source at one remove** — and translators interpret. Brenton follows Vaticanus, one Septuagint tradition among several that diverge |
 | **UHB / UGNT** | unfoldingWord's Hebrew Bible and Greek New Testament — the texts their English alignment resolves against | **UGNT is a heuristic text**, not a committee edition, and differs from SBLGNT in roughly one verse in six. Alignment data resolves against *it*, so check which Greek a wording came from |
 | **Dead Sea Scrolls** | Hebrew manuscripts a thousand years older than the Leningrad Codex, and fragmentary | **Neither complete nor uniform.** 31.8% of words carry an editorial mark, so a bracketed reading is a modern reconstruction; and the scrolls are textually plural — some proto-Masoretic, some behind the Septuagint, some independent. "The scrolls read X" is usually "one scroll reads X" |
@@ -55,7 +55,7 @@ one it is standing on.
 
 **MACULA** is a set of open scholarly annotations published by Clear Bible, one for Hebrew and one
 for Greek. It does not contain a Bible; it contains a row for every word of one, saying what that
-word is. When a study here says "MACULA gives the domain as…", it means this dataset, not a
+word is. When a study on this site says "MACULA gives the domain as…", it means this dataset, not a
 translation or a manuscript.
 
 Everything below is a layer MACULA (or a comparable source) attaches to a word.
@@ -120,8 +120,8 @@ a spelling.
 ### Alignment
 
 Which original word each English word is rendering. Not part of MACULA — it comes from
-unfoldingWord's ULT, and it is the only thing here that links a translation to its source word by
-word.
+unfoldingWord's ULT, and it is the only dataset this site holds that links a translation to its
+source word by word.
 
 It matters because most study questions start from an English word, and therefore from a
 translator's decision. Alignment turns "which Hebrew word is this?" from a guess into a lookup.
@@ -140,7 +140,7 @@ it is queried, is on [About Our Datasets](../about/about-our-datasets.md).
 
 ### MACULA — Clear Bible
 
-The main source here for both Hebrew and Greek. Assembled rather than authored: MACULA Hebrew takes
+This site's main source for both Hebrew and Greek. Assembled rather than authored: MACULA Hebrew takes
 the Westminster Leningrad Codex text released into the public domain by the **Groves Center**, adds
 syntax trees developed by **Clear Bible** together with that same centre, and word-sense data from
 the United Bible Societies' **MARBLE** project — the Semantic Dictionary of Biblical Hebrew. MACULA
@@ -152,7 +152,7 @@ Clear Bible has changed names twice — Asia Bible Society, then Global Bible In
 
 **Strengths.** Broad and consistent: morphology, lemma, gloss, semantic domain and clause syntax for
 both testaments, in one shape, openly licensed (CC BY 4.0). The semantic domains are the part
-nothing else here supplies, and they answer a question no dictionary does.
+no other source this site holds supplies, and they answer a question no dictionary does.
 
 **Weaknesses.** It inherits every judgement of its sources, and those sources are not uniform — the
 Greek side rests on two different editions. Syntax and coreference coverage is **partial**, so a
@@ -179,8 +179,8 @@ Datasets from an established Biblical Studies research institute: Strong's-tagge
 Hebrew and Greek lexicons, morphology, and cross-references, CC BY 4.0.
 
 **Strengths.** The broadest single source of the lot, covering lexicon and cross-reference needs
-together, from scholars rather than a volunteer compilation. Attribution is a licence condition
-here, not a courtesy.
+together, from scholars rather than a volunteer compilation. Attribution is a condition of STEPBible's own
+licence, not a courtesy.
 
 **Weaknesses.** Held but **not ingested** into this project's database, so it is read as raw files
 rather than queried. Anyone concluding a word is unattested should remember that this source cannot
@@ -191,8 +191,8 @@ be seen by the query tools.
 Decades of Hebrew linguistic analysis over the Biblia Hebraica Stuttgartensia, distributed in the
 text-fabric format, from a university research centre built around exactly this work.
 
-**Strengths.** Deeper syntactic analysis than anything else here — full clause hierarchy, not just
-clause role.
+**Strengths.** Deeper syntactic analysis than any other source this site holds — full clause
+hierarchy, not just clause role.
 
 **Weaknesses.** **CC BY-NC**: non-commercial only, so it sits in `references/restricted-data/` and
 would be off the table if this site ever monetised. Catalogued and licence-checked but not wired
@@ -205,13 +205,13 @@ A translation organisation's data rather than an academic corpus, and it shows i
 at. The Hebrew Bible and Greek New Testament are tagged the same way as the others, but their reason
 for existing is that the **ULT** English translation is aligned to them word by word.
 
-**Strengths.** The alignment, which nothing else here has. It is what turns "which Hebrew word is
+**Strengths.** The alignment, which nothing else this site holds has. It is what turns "which Hebrew word is
 this English word?" into a lookup.
 
 **Weaknesses.** The Greek text is the *Bunning Heuristic Prototype*, not a committee edition like
 NA28 or SBLGNT, and it differs from this project's default SBLGNT in roughly one verse in six — at
 John 1:34 it reads Υἱὸς where SBLGNT has ἐκλεκτός. All four are **CC BY-SA**, the only ShareAlike
-sources here, which constrains what a derived dataset could be published under.
+sources this site uses, which constrains what a derived dataset could be published under.
 
 ### Strong's numbers
 
@@ -222,7 +222,7 @@ carries Strong's numbers, which is what lets them be joined together at all.
 
 **Weaknesses.** It is a Victorian concordance. Its glosses reflect the lexicography of its day, and
 its numbering occasionally splits or merges what modern lexicons treat differently. Sound as an
-identifier, unreliable as a definition — a distinction studies here are expected to keep.
+identifier, unreliable as a definition — a distinction studies on this site are expected to keep.
 
 ## One verse, every layer
 
