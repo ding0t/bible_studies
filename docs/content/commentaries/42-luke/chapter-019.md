@@ -14,4 +14,5 @@ draft: false
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 19:41-44
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 19:41-44
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 19:41-44
 <!-- commentary-index:auto-end -->

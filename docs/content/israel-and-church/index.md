@@ -4,7 +4,7 @@ category: "other"
 description: "The covenants, the distinction between Israel and the Church, and the Hebrew roots of the faith."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-08-24
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -15,6 +15,14 @@ The covenants, the distinction between Israel and the Church, and the Hebrew roo
 
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
+
+-   __The Bride of Christ__
+
+    ---
+
+    Scripture calls the church a betrothed bride and says so in its own voice. What the primary rabbinic and cultural sources actually document about Jewish betrothal, what the New Testament builds on it, how much weight the Song of Songs can carry — and which popular details have no source at all.
+
+    [:octicons-arrow-right-24: Read](bride-of-christ.md)
 
 -   __Hebrew Roots of Christianity__
 

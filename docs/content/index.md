@@ -214,11 +214,11 @@ Two of these studies are charts you can drive rather than pages you read.
 ## Recently updated
 
 <!-- recent-updates-teaser:auto-start -->
-- **[What Creation Declares: General Revelation in Romans 1:19-23](god/creation-reveals-the-creator.md)** — :material-update: Updated 2026-08-23
-- **[Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](god/behemoth-and-leviathan.md)** — :material-new-box: New 2026-08-23
-- **[The Day Is Near](last-things/day-is-near.md)** — :material-update: Updated 2026-08-23
-- **[Romans 1](commentaries/45-romans/chapter-001.md)** — :material-update: Updated 2026-08-23
-- **[Romans 11](commentaries/45-romans/chapter-011.md)** — :material-update: Updated 2026-08-23
+- **[Glossary](glossary.md)** — :material-new-box: New 2026-09-05
+- **[FAQ](faq.md)** — :material-new-box: New 2026-09-05
+- **[Patristic Sources](resources/patristic-sources.md)** — :material-update: Updated 2026-09-05
+- **[Public Data Sources](resources/public-data-sources.md)** — :material-new-box: New 2026-09-05
+- **[Jewish Literature & Primary Sources](resources/jewish-sources.md)** — :material-update: Updated 2026-09-05
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) list for more.

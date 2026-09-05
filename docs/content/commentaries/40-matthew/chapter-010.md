@@ -21,5 +21,7 @@ draft: false
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 10:3
 - [Philip](../../biblical-figures/philip.md) — 10:3
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 10:3
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 10:35-36
+- [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 10:40-42
 - [Thomas](../../biblical-figures/thomas.md) — 10:3
 <!-- commentary-index:auto-end -->

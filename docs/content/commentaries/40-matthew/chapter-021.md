@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 21:1-11
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 21:18-22
 - [The Way](../../jesus/the-way.md) — 21:32
 <!-- commentary-index:auto-end -->

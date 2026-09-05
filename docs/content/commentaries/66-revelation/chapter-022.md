@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Sin and Sorcery](../../sin/sorcery.md) — 22:15
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 22:17
 <!-- commentary-index:auto-end -->

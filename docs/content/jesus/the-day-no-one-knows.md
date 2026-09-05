@@ -3,11 +3,11 @@ title: "The Day No One Knows"
 category: "theology"
 description: "\"Nor the Son\" — what Mark 13:32 and Matthew 24:36 do and do not say about Christ's knowledge. The textual variant, the two natures, the Father's prerogative, and whether Jesus was quoting a Jewish wedding idiom."
 tags: ["matthew", "mark", "acts", "christology", "incarnation", "method/textual-criticism", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Matthew 24:36; Mark 13:32"
 bible_references: ["Matthew 24:36", "Mark 13:32", "Acts 1:7", "John 2:24-25", "John 21:17", "John 16:30", "Luke 2:52", "Hebrews 5:8", "Philippians 2:6-7", "Zechariah 14:7", "Matthew 25:1-13", "Matthew 24:42", "Matthew 24:45-46", "Matthew 25:19", "Matthew 25:40", "Romans 14:12"]
 date_created: 2026-09-04
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
 ---

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 2:1-7
+- [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 2:52
 <!-- commentary-index:auto-end -->

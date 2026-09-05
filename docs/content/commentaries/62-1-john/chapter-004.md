@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 4:4
+- [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 4:1
 - [Sin and Sorcery](../../sin/sorcery.md) — 4:1-3
 <!-- commentary-index:auto-end -->

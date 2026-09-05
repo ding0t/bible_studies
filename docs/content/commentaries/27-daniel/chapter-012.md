@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 12:1
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 12:1-11
 <!-- commentary-index:auto-end -->

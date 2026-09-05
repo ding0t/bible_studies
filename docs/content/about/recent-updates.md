@@ -20,165 +20,165 @@ way.
 <!-- recent-updates:auto-start -->
 <div class="grid cards" markdown>
 
--   __What Creation Declares: General Revelation in Romans 1:19-23__
+-   __Glossary__
 
     ---
 
-    An exegetical study of Romans 1:19-23 on what creation alone reveals about God, with a look at young-earth arguments from design, the fossil record, and the early universe.
+    Short definitions of the terms these studies use — interpretive vocabulary, original-language vocabulary, manuscripts, and the datasets behind the site — each linked to the page that explains it in full.
 
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../god/creation-reveals-the-creator.md)
+    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../glossary.md)
 
--   __Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41__
-
-    ---
-
-    An exegetical study of Job 40:15-41:34 — two real, mighty animals God parades before Job, neither of which matches anything alive today. What the Hebrew says about their habitat and their fire, why the hippopotamus and crocodile identifications fail, and where the creatures may be attested outside Scripture.
-
-    :material-new-box: New 2026-08-23 · [:octicons-arrow-right-24: Read](../god/behemoth-and-leviathan.md)
-
--   __The Day Is Near__
+-   __FAQ__
 
     ---
 
-    Why the timing of Christ's return is deliberately hidden, and the six-then-seventh pattern -- creation week, Sabbath, Hebrews' rest, the millennium -- this site reads through 2 Peter 3's 'a day is as a thousand years.'
+    Short answers to the questions readers arrive with — who writes this, how AI is used, what I believe, which translation and why, and how to check any claim on the site for yourself.
 
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../last-things/day-is-near.md)
+    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../faq.md)
 
--   __Romans 1__
-
-    ---
-
-    Commentary and cross-referenced studies for Romans chapter 1
-
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/45-romans/chapter-001.md)
-
--   __Romans 11__
+-   __Patristic Sources__
 
     ---
 
-    Commentary and cross-referenced studies for Romans chapter 11
+    The early church fathers this site draws on: what each source is, how reliable it is, why traditions about the apostles need grading rather than repeating, and why a claim about a father's wording has to be read in his own language rather than a translation.
 
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/45-romans/chapter-011.md)
+    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../resources/patristic-sources.md)
 
--   __Ezekiel 29__
-
-    ---
-
-    Commentary and cross-referenced studies for Ezekiel chapter 29
-
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/26-ezekiel/chapter-029.md)
-
--   __Job 9__
+-   __Public Data Sources__
 
     ---
 
-    Commentary and cross-referenced studies for Job chapter 9
+    A survey of the open Bible data that exists in this space — texts, manuscripts, lexicons, cross-references, alignment — what each source is, why it matters, how it is licensed, and which ones this site actually uses.
 
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-009.md)
+    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../resources/public-data-sources.md)
 
--   __Job 38__
-
-    ---
-
-    Commentary and cross-referenced studies for Job chapter 38
-
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-038.md)
-
--   __Job 7__
+-   __Jewish Literature & Primary Sources__
 
     ---
 
-    Commentary and cross-referenced studies for Job chapter 7
+    Sefaria and other sources for Jewish literature (Mishnah, Talmud) relevant to understanding a passage's Second Temple / rabbinic background
 
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-007.md)
+    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../resources/jewish-sources.md)
 
--   __Job 3__
-
-    ---
-
-    Commentary and cross-referenced studies for Job chapter 3
-
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-003.md)
-
--   __Job 42__
+-   __Copyright & Scripture Permissions__
 
     ---
 
-    Commentary and cross-referenced studies for Job chapter 42
+    Copyright notices for the Bible translations and reference works quoted on this site, and the terms under which they are used.
 
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-042.md)
+    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](copyright.md)
 
--   __Job 40__
-
-    ---
-
-    Commentary and cross-referenced studies for Job chapter 40
-
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-040.md)
-
--   __Job 41__
+-   __Our Data Sources__
 
     ---
 
-    Commentary and cross-referenced studies for Job chapter 41
+    What Bible text, lexical, and commentary data backs this site, organized by license tier, and what each tier is and isn't used for.
 
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/18-job/chapter-041.md)
+    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](about-our-datasets.md)
 
--   __Psalms 18__
-
-    ---
-
-    Commentary and cross-referenced studies for Psalms chapter 18
-
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/19-psalms/chapter-018.md)
-
--   __Psalms 74__
+-   __Backlog__
 
     ---
 
-    Commentary and cross-referenced studies for Psalms chapter 74
+    A public working list of study topics and research items still to be developed, organized by the site's own subject sections.
 
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/19-psalms/chapter-074.md)
+    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](backlog.md)
 
--   __Psalms 104__
-
-    ---
-
-    Commentary and cross-referenced studies for Psalms chapter 104
-
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/19-psalms/chapter-104.md)
-
--   __1 Timothy 2__
+-   __Reading the Original-Language Data__
 
     ---
 
-    Commentary and cross-referenced studies for 1 Timothy chapter 2
+    What the Hebrew and Greek sources behind this site actually are, what an annotation layer like MACULA adds on top of a text, and what the vocabulary means — lemma, morphology, Strong's number, semantic domain, alignment — with one verse shown at every layer.
 
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/54-1-timothy/chapter-002.md)
+    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../scripture/original-language-data.md)
 
--   __Genesis 2__
-
-    ---
-
-    Commentary and cross-referenced studies for Genesis chapter 2
-
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/01-genesis/chapter-002.md)
-
--   __Genesis 1__
+-   __Early New Testament Manuscripts__
 
     ---
 
-    Commentary and cross-referenced studies for Genesis chapter 1
+    earlynewtestament.com — English translations of the 83 earliest known New Testament papyri, all dated to AD 300 or earlier
 
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/01-genesis/chapter-001.md)
+    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../scripture/early-new-testament-manuscripts.md)
 
--   __Isaiah 27__
+-   __Bible Translations & Source Texts__
 
     ---
 
-    Commentary and cross-referenced studies for Isaiah chapter 27
+    The English translations, Hebrew Masoretic witnesses, and Greek New Testament/Septuagint texts this project relies on — strengths, cautions, publication history, and which ones are actually queryable in this repo's own database versus cited from general knowledge.
 
-    :material-update: Updated 2026-08-23 · [:octicons-arrow-right-24: Read](../commentaries/23-isaiah/chapter-027.md)
+    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../scripture/translations.md)
+
+-   __The Rapture of the Church__
+
+    ---
+
+    The blessed hope of the Church: a word study on harpazo, the sequence of end-times events, and the case for a pretribulational rapture
+
+    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../last-things/rapture.md)
+
+-   __Scripture Links__
+
+    ---
+
+    Look up a verse and see what it quotes, what quotes it, and what it echoes — with the shared wording shown, so you can judge each link rather than take it on trust.
+
+    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](../references.md)
+
+-   __How This Site Is Built__
+
+    ---
+
+    The tech behind this site: mkdocs with React tools bundled in, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys
+
+    :material-update: Updated 2026-09-04 · [:octicons-arrow-right-24: Read](../resources/site-architecture.md)
+
+-   __The Day No One Knows__
+
+    ---
+
+    \"Nor the Son\" — what Mark 13:32 and Matthew 24:36 do and do not say about Christ's knowledge. The textual variant, the two natures, the Father's prerogative, and whether Jesus was quoting a Jewish wedding idiom.
+
+    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](../jesus/the-day-no-one-knows.md)
+
+-   __How We Cross-Reference Scripture__
+
+    ---
+
+    Scripture links on this site are derived from the biblical texts themselves rather than copied from a cross-reference list — how that works, the four kinds of evidence it produces, and why they are never merged into a single score.
+
+    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](how-we-cross-reference.md)
+
+-   __The Bride of Christ__
+
+    ---
+
+    Scripture calls the church a betrothed bride and says so in its own voice. What the primary rabbinic and cultural sources actually document about Jewish betrothal, what the New Testament builds on it, how much weight the Song of Songs can carry — and which popular details have no source at all.
+
+    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](../israel-and-church/bride-of-christ.md)
+
+-   __Charting End Times__
+
+    ---
+
+    Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- plus a mermaid diagram of the same framework.
+
+    :material-update: Updated 2026-09-04 · [:octicons-arrow-right-24: Read](../last-things/prophecy-chart.md)
+
+-   __The Combined Timeline: One Line, Two Zones__
+
+    ---
+
+    Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,646 years at creation and converge on Abraham to the year.
+
+    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](../last-things/combined-timeline.md)
+
+-   __The Olivet Discourse__
+
+    ---
+
+    Four men asked Jesus for a sign. He refused to give them a checklist, warned them four times about anyone who offered one, and named a single sign — his own return. A dispensational reading of Matthew 24, Mark 13 and Luke 21, from the disciples' question through to the new heavens and new earth.
+
+    :material-new-box: New 2026-09-04 · [:octicons-arrow-right-24: Read](../last-things/olivet-discourse.md)
 
 </div>
 <!-- recent-updates:auto-end -->

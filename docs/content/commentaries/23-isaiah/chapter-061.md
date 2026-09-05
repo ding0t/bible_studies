@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 61:1
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 61:10
 <!-- commentary-index:auto-end -->

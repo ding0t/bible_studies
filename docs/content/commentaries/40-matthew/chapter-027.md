@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 27:57-60
+- [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 27:19
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 27:3-10
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 27:45
 <!-- commentary-index:auto-end -->

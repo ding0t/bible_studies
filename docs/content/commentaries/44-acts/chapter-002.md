@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 2:17
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:20
 - [Simon Peter](../../biblical-figures/peter.md) — 2:14-41
 <!-- commentary-index:auto-end -->

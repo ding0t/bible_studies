@@ -14,4 +14,5 @@ draft: false
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 3:1-9
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 3:1-8
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 3:1
 <!-- commentary-index:auto-end -->

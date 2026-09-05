@@ -3,11 +3,11 @@ title: "The Parables of the Olivet Discourse"
 category: "prophecy"
 description: "Matthew's four parables of watchfulness -- the faithful and wicked servant, the ten virgins, the talents, and the sheep and the goats -- read against their wedding, household, and shepherding customs."
 tags: ["matthew", "parable", "dispensationalism", "method/word-study"]
-draft: true
+draft: false
 primary_passage: "Matthew 24:45-25:46"
 bible_references: ["Matthew 24:45-51", "Matthew 25:1-46", "Matthew 10:40-42", "Matthew 12:48-50", "Matthew 18:23-35", "Matthew 20:1-16", "Ezekiel 34:17-24", "Luke 12:35-48", "John 3:29"]
 date_created: 2026-08-29
-date_modified: 2026-08-30
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-sonnet-5
 ---

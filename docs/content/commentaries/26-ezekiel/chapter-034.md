@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 34:5
+- [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 34:17-24
 <!-- commentary-index:auto-end -->

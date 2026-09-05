@@ -14,4 +14,5 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 31:31-34
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 31:31-34
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 31:32
 <!-- commentary-index:auto-end -->

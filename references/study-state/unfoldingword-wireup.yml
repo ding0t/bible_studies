@@ -96,9 +96,18 @@ open_questions:
   - >
     UST was not taken -- its licence was never individually confirmed. Four sources, not five.
   - >
-    ULT's alignment is loaded but nothing yet USES it in published content. The first study to
-    quote an English word and show the Hebrew behind it is the test of whether this was worth
-    137MB.
+    CLOSED 2026-09-05. ULT's alignment is now used in published content, and it earned the 137MB
+    twice over in the rapture study. At 2 Thessalonians 2:7 it showed that ULT's "will do so until"
+    hangs off a bare heos and that the verb is ginomai ("come to be"), with no expressed subject
+    and no agent -- so "the restrainer REMOVED" was a translator's frame, not Paul's, and the
+    section is retitled. At Genesis 5:24 it showed "away" in "God took him away" has no Hebrew
+    behind it (both words map to laqach), and that wayyithallekh is a Hithpael -- habitual walking,
+    which every English version flattens. It also surfaced that the ESV renders laqach "took" in
+    Genesis but "receive" in Psalm 49:15 and 73:24, hiding the thread joining Enoch, Elijah and the
+    psalmists. Follow-on: the notes table had been empty in every build, so the 1,297 unfoldingWord
+    footnotes were wired in (930 UHB Qere readings under their own note_type), and UHB's per-verse
+    \va Hebrew numbering became the versification_map table -- 2,033 rows, correct for 2,022 where
+    versification.align() alone managed 173.
   - >
     Twice in this session the content validator caught Hebrew flanked by bold in text I wrote for
     github.md. The check works; the habit does not. Worth remembering when editing table rows that

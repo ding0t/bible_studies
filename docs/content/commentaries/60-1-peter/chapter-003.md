@@ -14,4 +14,5 @@ draft: false
 
 - [Biblical Numerology](../../scripture/numerology.md) — 3:20
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 3:18-20
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 3:15
 <!-- commentary-index:auto-end -->

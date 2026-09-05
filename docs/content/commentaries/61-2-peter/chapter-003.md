@@ -14,4 +14,5 @@ draft: false
 
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 3:3-9 (primary passage)
 - [The Day Is Near](../../last-things/day-is-near.md) — 3:3-13 (primary passage)
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 3:3-13
 <!-- commentary-index:auto-end -->

@@ -17,6 +17,7 @@ draft: false
 - [Charting End Times](../../last-things/prophecy-chart.md) — 9:27
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 9:2
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 9:24-27
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 9:24-27
 - [The Rapture of the Church](../../last-things/rapture.md) — 9:27
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 9:24-27
 <!-- commentary-index:auto-end -->

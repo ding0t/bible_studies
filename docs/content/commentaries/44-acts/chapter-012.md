@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 12:1-2 (primary passage)
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 12:1-2
 <!-- commentary-index:auto-end -->

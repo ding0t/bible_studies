@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-08-23
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -55,6 +55,22 @@ End-times prophecy, read dispensationally.
     Tracing the covenant line from Adam to Christ through Genesis 5 and 11's genealogies, comparing the Masoretic Text, Septuagint, and Samaritan Pentateuch, closing the Exodus-to-Solomon gap with the priestly and Davidic genealogies, and asking what the names themselves are saying
 
     [:octicons-arrow-right-24: Read](genealogy-times.md)
+
+-   __The Parables of the Olivet Discourse__
+
+    ---
+
+    Matthew's four parables of watchfulness -- the faithful and wicked servant, the ten virgins, the talents, and the sheep and the goats -- read against their wedding, household, and shepherding customs.
+
+    [:octicons-arrow-right-24: Read](olivet-discourse-parables.md)
+
+-   __The Olivet Discourse__
+
+    ---
+
+    Four men asked Jesus for a sign. He refused to give them a checklist, warned them four times about anyone who offered one, and named a single sign — his own return. A dispensational reading of Matthew 24, Mark 13 and Luke 21, from the disciples' question through to the new heavens and new earth.
+
+    [:octicons-arrow-right-24: Read](olivet-discourse.md)
 
 -   __Charting End Times__
 

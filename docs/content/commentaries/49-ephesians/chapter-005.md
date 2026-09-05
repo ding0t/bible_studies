@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:22-33 (primary passage)
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:25-27
 <!-- commentary-index:auto-end -->

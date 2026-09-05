@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 23:36-39
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 23:5
 <!-- commentary-index:auto-end -->

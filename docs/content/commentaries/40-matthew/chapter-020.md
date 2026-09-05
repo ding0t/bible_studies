@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 20:20-23
+- [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 20:1-16
 <!-- commentary-index:auto-end -->

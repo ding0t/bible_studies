@@ -17,5 +17,6 @@ draft: false
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 14:33
 - [John son of Zebedee](../../biblical-figures/john.md) — 14:33
 - [Simon Peter](../../biblical-figures/peter.md) — 14:66-72
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 14:32-42
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 14:50
 <!-- commentary-index:auto-end -->

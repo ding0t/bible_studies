@@ -13,5 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [John son of Zebedee](../../biblical-figures/john.md) — 1:9
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:4
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:3
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:9
 <!-- commentary-index:auto-end -->

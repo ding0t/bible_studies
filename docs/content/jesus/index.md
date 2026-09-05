@@ -4,7 +4,7 @@ category: "other"
 description: "Who Christ is and what he did, including Old Testament prophecy fulfilled in him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-08-23
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -39,6 +39,14 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
     A history of the Melchizedek priesthood from Genesis 14 through Second Temple Judaism, and a word-by-word walk through Hebrews' argument that Jesus fulfills it.
 
     [:octicons-arrow-right-24: Read](melchizedek-priesthood.md)
+
+-   __The Day No One Knows__
+
+    ---
+
+    "Nor the Son" — what Mark 13:32 and Matthew 24:36 do and do not say about Christ's knowledge. The textual variant, the two natures, the Father's prerogative, and whether Jesus was quoting a Jewish wedding idiom.
+
+    [:octicons-arrow-right-24: Read](the-day-no-one-knows.md)
 
 -   __The Way__
 
