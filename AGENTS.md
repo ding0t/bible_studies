@@ -55,6 +55,14 @@ hand-write those three.
 - Identify other cultural context that may be inferred in the text; such as understanding a particular feast or festival.
 - Always provide reference to extra-biblical sources if used
 - Prefer dispensational perspectives
+- [docs/content/about/statement-of-faith.md](docs/content/about/statement-of-faith.md) is the
+  canonical source for personal doctrinal positions a study's conclusions should stay consistent
+  with (the dispensational preference above is itself restated from its "End times" section — don't
+  let the two drift by editing one without the other). It's a record of settled conviction, not a
+  filter to read backward into a text: **exegesis still runs uncoerced** per the rule above; where a
+  study's hermeneutical conclusion runs against a documented position, that's a signal to surface to
+  the user, never one to silently resolve by softening the conclusion or quietly rewriting the
+  exegesis. See develop-bible-study Phase 5 and review-bible-study Phase 6 for where this is checked.
 - See [references/README.md](references/README.md) for the full catalog of sources available for this — open-license data (safe to cite/use freely), restricted-license data (usable now, commercial-use caveats), and local-only copyrighted references (cite briefly with attribution, never reproduce at length) — and how to query each.
 
 ## Tech stack

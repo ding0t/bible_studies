@@ -1,6 +1,6 @@
 ---
 name: review-bible-study
-description: Critically audits an existing study, commentary, or sermon file in docs/content/ -- scripture-quote accuracy, citation accuracy, word studies re-verified against source, the study's own synthetic claims (correspondences, orderings, counts, arithmetic) verified independently, claims cross-checked against a commentary, exegesis-context coverage per how-to-read-the-bible.md, taxonomy placement, frontmatter and tag correctness, and a style-guide pass. Use when the user asks to review, audit, fact-check, critique, double-check, or verify an already-drafted or already-published study -- as opposed to develop-bible-study, which builds a new one.
+description: Critically audits an existing study, commentary, or sermon file in docs/content/ -- scripture-quote accuracy, citation accuracy, word studies re-verified against source, the study's own synthetic claims (correspondences, orderings, counts, arithmetic) verified independently, claims cross-checked against a commentary, exegesis-context coverage per how-to-read-the-bible.md, consistency with statement-of-faith.md, taxonomy placement, frontmatter and tag correctness, and a style-guide pass. Use when the user asks to review, audit, fact-check, critique, double-check, or verify an already-drafted or already-published study -- as opposed to develop-bible-study, which builds a new one.
 ---
 
 # Review a Bible Study
@@ -198,6 +198,17 @@ each **covered**, **partial**, or **missing**:
 6. Is the theological principle stated or taught elsewhere in Scripture, rather than resting on one
    narrative detail or incidental remark alone?
 
+A seventh question, sourced from a different document — not one of the six above, so mark it
+separately rather than folding it in:
+
+7. **Statement-of-faith consistency.** Where the study's stated theological principle intersects a
+   position in [statement-of-faith.md](../../../docs/content/about/statement-of-faith.md), is it
+   consistent with it? Most studies won't intersect it at all — the statement covers core doctrine,
+   not every debated secondary topic — and **missing** is the expected, unremarkable result, not a
+   gap to chase. Report a genuine conflict, don't resolve it: this is the author's own settled,
+   Scripture-derived conviction, not a rule to enforce backward into the exegesis, so the finding is
+   "here's a tension to look at," never a suggested rewrite of either the study or the statement.
+
 Then run the mechanical half, which finds omissions that reading cannot:
 
 ```bash
@@ -301,11 +312,14 @@ Findings, most severe first:
 
 - **Critical** — wrong scripture text, a citation that doesn't say what's claimed, a broken translation
   label, a false synthetic claim the study makes in its own voice (Phase 4), a commentary that
-  contradicts a central claim, or Hebrew/Aramaic text broken by markdown bold (see Phase 2). These
-  block `draft: false` (or, for an already-live file, warrant fixing promptly).
-- **Moderate** — a Phase 6 context gap (e.g., cultural-vs-transcultural never made explicit), a stale
-  word-count claim that's directionally still true but numerically off, a cross-reference that's weaker
-  than stated, or a pervasive style-register problem (Phase 8).
+  contradicts a central claim, Hebrew/Aramaic text broken by markdown bold (see Phase 2), or a
+  conflict with one of statement-of-faith.md's own marked-essential sections — Scripture's authority,
+  the Trinity, or salvation/justification (Phase 6, question 7). These block `draft: false` (or, for
+  an already-live file, warrant fixing promptly).
+- **Moderate** — a Phase 6 context gap (e.g., cultural-vs-transcultural never made explicit), a
+  statement-of-faith conflict outside those marked-essential sections, a stale word-count claim
+  that's directionally still true but numerically off, a cross-reference that's weaker than stated,
+  or a pervasive style-register problem (Phase 8).
 - **Minor** — style-guide hits, padding, structural nits.
 
 Present the list to the user before fixing anything. Once they've seen it and said which to act on,
