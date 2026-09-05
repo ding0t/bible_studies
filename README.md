@@ -85,7 +85,7 @@ references/                data and tooling behind studies, not site content
 
 .claude/skills/develop-bible-study/  the exegesis-then-hermeneutics process for writing a new study
 
-.github/workflows/deploy.yml   npm test + build:tools, then mkdocs build, deploys to GitHub Pages
+.github/workflows/deploy.yml   npm test + build:tools, then mkdocs build, deploys to Cloudflare Workers
 ```
 
 ## Licence

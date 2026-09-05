@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-09-05
+
+### Changed
+- **Deploy target: GitHub Pages → Cloudflare Workers**. Same domain (`the-way.lewy.au`), same
+  mkdocs/esbuild build; only the publish step changed, to `wrangler deploy` (assets-only Worker,
+  no `main` script, so requests stay free and unlimited under Workers' static-assets billing). Done
+  for server-side site analytics, which GitHub Pages has no equivalent of. DNS hosting for the whole
+  `lewy.au` zone moved to Cloudflare in the same migration (VentraIP remains the registrar). See
+  [docs/dev/cloudflare-migration.md](docs/dev/cloudflare-migration.md) for the full record,
+  including the two CI/DNS gotchas hit along the way.
+
 ## [0.1.0] - 2026-01-11
 
 ### Added

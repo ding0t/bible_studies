@@ -9,7 +9,7 @@ again, it means the symlink got replaced by accident; recreate it with
 
 ## About the project
 
-A collection of Bible studies, presented on GitHub Pages. To develop, research, or draft a new
+A collection of Bible studies, presented on Cloudflare Workers. To develop, research, or draft a new
 study, commentary, or sermon file, use the **develop-bible-study** skill
 (`.claude/skills/develop-bible-study/SKILL.md`) rather than writing prose from scratch — it
 enforces exegesis-before-hermeneutics and keeps a resumable state file per study under
@@ -68,9 +68,11 @@ hand-write those three.
   sidebar, search, breadcrumbs and palette toggle. **Astro is gone** — there is one site build.
   `app/` is now just the React components, their utils, the build scripts and the tests; esbuild
   bundles the two entry points in `app/src/entries/` into `docs/content/assets/js/`.
-- **The site is served from `the-way.lewy.au` at its root**, not from `github.io/bible_studies`
-  (which 301s there). Site-absolute URLs therefore carry no repo prefix. Getting this wrong is not
-  cosmetic: it 404s the tools' JS bundles and kills them silently.
+- **The site is served from `the-way.lewy.au` at its root** — a Cloudflare Workers Custom Domain,
+  not `github.io/bible_studies` (stale and orphaned since the September 2026 migration; no longer
+  built, no longer the custom domain, no longer even resolving there). Site-absolute URLs therefore
+  carry no repo prefix. Getting this wrong is not cosmetic: it 404s the tools' JS bundles and kills
+  them silently.
 
 ## Commands
 
@@ -174,13 +176,17 @@ python3 utils/refresh_frontmatter_provenance.py  # fill date_created/date_modifi
 **Deploy**: `.github/workflows/deploy.yml` runs `utils/generate_recent_updates.py`, then `npm ci`
 + `npm test` + `npm run build:tools` in `app/` (**before** the mkdocs build — `build:tools` writes
 the React bundle into `docs/content/assets/js/`, which mkdocs then copies like any other asset),
-then `mkdocs build --site-dir site`, and publishes to GitHub Pages on push to `main`. One build
-produces the whole site; there is no stitch step.
-It is **path-filtered to `docs/**`, `app/**`, `mkdocs.yml`, and the workflow file** — a commit
-touching only `references/` or `utils/` deploys nothing. If such a change needs to reach the live
-site (e.g. re-running `commentary_index.py` wrote into `docs/content/`, or you want a fresh
-recent-updates page), either include the `docs/` edit in the same commit or trigger the workflow
-manually (`workflow_dispatch`).
+then `mkdocs build --site-dir site`, and deploys to **Cloudflare Workers** (`wrangler deploy`, via
+`cloudflare/wrangler-action@v3` — pinned to `wranglerVersion: '4'`, since the action's unpinned
+default silently installs an old Wrangler that can't read an assets-only `wrangler.jsonc`) on push
+to `main`. One build produces the whole site; there is no stitch step. This replaced a GitHub Pages
+deploy in September 2026 — same domain, same build, only the last step changed. See
+[docs/dev/cloudflare-migration.md](docs/dev/cloudflare-migration.md) for the full migration record.
+It is **path-filtered to `docs/**`, `app/**`, `mkdocs.yml`, `wrangler.jsonc`, and the workflow
+file** — a commit touching only `references/` or `utils/` deploys nothing. If such a change needs
+to reach the live site (e.g. re-running `commentary_index.py` wrote into `docs/content/`, or you
+want a fresh recent-updates page), either include the `docs/` edit in the same commit or trigger
+the workflow manually (`workflow_dispatch`).
 
 ## Architecture
 

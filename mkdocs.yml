@@ -1,7 +1,8 @@
 site_name: The Way
-# Served from the custom domain at its root -- GitHub Pages carries cname the-way.lewy.au, and
-# github.io/bible_studies 301s there. This was still the github.io sub-path URL until 2026-08-23,
-# which made every site-absolute '/bible_studies/...' link on the site a 404 on the live domain.
+# Served from the custom domain at its root -- a Cloudflare Workers Custom Domain as of
+# 2026-09-05 (previously GitHub Pages, same domain, same build). This was still the github.io
+# sub-path URL until 2026-08-23, which made every site-absolute '/bible_studies/...' link on the
+# site a 404 on the live domain -- see docs/dev/cloudflare-migration.md for the deploy history.
 site_url: 'https://the-way.lewy.au/'
 repo_url: 'https://github.com/ding0t/bible_studies'
 docs_dir: docs/content
