@@ -1,4 +1,4 @@
-name: Deploy site to GitHub Pages
+name: Deploy site to Cloudflare Workers
 
 on:
   push:
@@ -10,11 +10,12 @@ on:
       # hooks/draft_pages.py decides which pages reach the build at all, so a change to it
       # changes the published site even when no content file moves.
       - 'hooks/**'
+      - 'wrangler.jsonc'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 concurrency:
-  group: pages
+  group: deploy
   cancel-in-progress: true
 
 jobs:
@@ -57,20 +58,8 @@ jobs:
       - name: Build mkdocs content site
         run: uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects mkdocs build --site-dir site
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5
+      - name: Deploy to Cloudflare Workers
+        uses: cloudflare/wrangler-action@v3
         with:
-          path: site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v5
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
