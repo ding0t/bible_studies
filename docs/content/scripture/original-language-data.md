@@ -118,6 +118,104 @@ word.
 It matters because most study questions start from an English word, and therefore from a
 translator's decision. Alignment turns "which Hebrew word is this?" from a guess into a lookup.
 
+## Where the annotation comes from
+
+The layers above did not appear from nowhere. Each is a project with a history, particular strengths
+and real limits, and knowing which one a study leaned on tells you something about how much weight
+the claim carries.
+
+**A boundary worth keeping in mind:** this section is about the *annotation projects*. Whether a
+given **text** is a good witness — how old the manuscript is, where it sits in the tradition, what
+its editors chose — is a different question, answered in
+[Bible Translations & Source Texts](translations.md). Where each of these is actually used, and how
+it is queried, is on [About Our Datasets](../about/about-our-datasets.md).
+
+### MACULA — Clear Bible
+
+The main source here for both Hebrew and Greek. Assembled rather than authored: MACULA Hebrew takes
+the Westminster Leningrad Codex text released into the public domain by the **Groves Center**, adds
+syntax trees developed by **Clear Bible** together with that same centre, and word-sense data from
+the United Bible Societies' **MARBLE** project — the Semantic Dictionary of Biblical Hebrew. MACULA
+Greek does the same over the Nestle 1904 text (transcribed by Diego Santos, morphology by Ulrik
+Sandborg-Petersen) and the SBLGNT, with Louw & Nida's domains from MARBLE.
+
+Clear Bible has changed names twice — Asia Bible Society, then Global Bible Initiative from 2014 to
+2020 — which is why older citations of the same data look like different sources.
+
+**Strengths.** Broad and consistent: morphology, lemma, gloss, semantic domain and clause syntax for
+both testaments, in one shape, openly licensed (CC BY 4.0). The semantic domains are the part
+nothing else here supplies, and they answer a question no dictionary does.
+
+**Weaknesses.** It inherits every judgement of its sources, and those sources are not uniform — the
+Greek side rests on two different editions. Syntax and coreference coverage is **partial**, so a
+null means "not annotated", never "no such relation". And the domain codes come from MARBLE under a
+grant to Clear specifically, so they are the one part to cite carefully rather than treat as plain
+CC BY.
+
+### Open Scriptures Hebrew Bible (morphhb)
+
+The Westminster Leningrad Codex marked up in OSIS XML with lemma and morphology, maintained as an
+open community project. Its own documentation notes that morphology was added progressively rather
+than arriving complete.
+
+**Strengths.** The most direct route to the WLC as a *text* with tagging attached, in a simple
+format, and the source AGENTS.md points at for Hebrew word studies. Every word carries a stable id
+so other datasets can attach to it.
+
+**Weaknesses.** Text and tagging only — no syntax, no semantic domains. For anything beyond the word
+itself you need MACULA.
+
+### STEPBible — Tyndale House, Cambridge
+
+Datasets from an established Biblical Studies research institute: Strong's-tagged texts, brief
+Hebrew and Greek lexicons, morphology, and cross-references, CC BY 4.0.
+
+**Strengths.** The broadest single source of the lot, covering lexicon and cross-reference needs
+together, from scholars rather than a volunteer compilation. Attribution is a licence condition
+here, not a courtesy.
+
+**Weaknesses.** Held but **not ingested** into this project's database, so it is read as raw files
+rather than queried. Anyone concluding a word is unattested should remember that this source cannot
+be seen by the query tools.
+
+### BHSA — Eep Talstra Centre, VU Amsterdam
+
+Decades of Hebrew linguistic analysis over the Biblia Hebraica Stuttgartensia, distributed in the
+text-fabric format, from a university research centre built around exactly this work.
+
+**Strengths.** Deeper syntactic analysis than anything else here — full clause hierarchy, not just
+clause role.
+
+**Weaknesses.** **CC BY-NC**: non-commercial only, so it sits in `references/restricted-data/` and
+would be off the table if this site ever monetised. Catalogued and licence-checked but not wired
+into any query tool, because MACULA already covers subject, role, construct state and coreference.
+It is reserved for an argument that specifically needs what MACULA cannot give.
+
+### unfoldingWord — UHB, UGNT, ULT
+
+A translation organisation's data rather than an academic corpus, and it shows in what it is good
+at. The Hebrew Bible and Greek New Testament are tagged the same way as the others, but their reason
+for existing is that the **ULT** English translation is aligned to them word by word.
+
+**Strengths.** The alignment, which nothing else here has. It is what turns "which Hebrew word is
+this English word?" into a lookup.
+
+**Weaknesses.** The Greek text is the *Bunning Heuristic Prototype*, not a committee edition like
+NA28 or SBLGNT, and it differs from this project's default SBLGNT in roughly one verse in six — at
+John 1:34 it reads Υἱὸς where SBLGNT has ἐκλεκτός. All four are **CC BY-SA**, the only ShareAlike
+sources here, which constrains what a derived dataset could be published under.
+
+### Strong's numbers
+
+James Strong's concordance of 1890, long out of copyright, digitised many times over.
+
+**Strengths.** The universal index. Nearly every resource in this space, including all of the above,
+carries Strong's numbers, which is what lets them be joined together at all.
+
+**Weaknesses.** It is a Victorian concordance. Its glosses reflect the lexicography of its day, and
+its numbering occasionally splits or merges what modern lexicons treat differently. Sound as an
+identifier, unreliable as a definition — a distinction studies here are expected to keep.
+
 ## One verse, every layer
 
 Genesis 1:1, as this site's database actually holds it:
