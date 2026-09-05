@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Thessalonians 4:15-18"
 bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "1 Corinthians 11:25", "1 Corinthians 6:19-20", "Ephesians 5:25-27", "1 Corinthians 1:2", "1 Corinthians 6:11", "Hebrews 10:10", "Hebrews 13:12", "Ephesians 2:10", "Genesis 5:21-24", "Hebrews 11:5", "Jude 1:14-15", "2 Kings 2:11", "Genesis 7:1", "Genesis 7:16", "Genesis 19:15-16", "Genesis 19:24", "2 Peter 2:5-9", "Luke 17:28-30", "Revelation 7:9-14"]
 date_created: 2024-04-23
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -72,24 +72,19 @@ But four occurrences describe something more specific: a person suddenly, physic
 
 ## The sequence of end-time events
 
+On the pretribulational reading argued above, the events fall in this order. The dotted branch is
+concurrent rather than sequential — the Bema seat runs through the tribulation years, in heaven.
+
 ```mermaid
-timeline
-    title The end-times sequence (pretribulational reading)
-    section Church age
-        Today : The Church age continues
-    section The rapture
-        Any moment, no preceding sign : The Church is caught up (1 Thess 4:16-17)
-    section The tribulation, 7 years
-        Start : Antichrist confirms a covenant (Dan 9:27)
-        Midpoint : Abomination of desolation, the man of lawlessness revealed (2 Thess 2:3-4)
-        Throughout : Bema seat judgment of believers, in heaven (2 Cor 5:10)
-    section The second coming
-        End of the tribulation : Christ returns visibly, with the armies of heaven (Rev 19:11-16)
-    section The millennium
-        1000 years : Christ reigns on earth with His saints (Rev 20:1-6)
-        End : Great White Throne judgment of the unsaved (Rev 20:11-15)
-    section Eternity
-        Forever : New heaven and new earth (Rev 21:1-4)
+flowchart TD
+    A["The Church age<br/>continues today"] --> B["The rapture<br/>no preceding sign,<br/>at any moment<br/>the Church is caught up<br/>(1 Thess 4:16-17)"]
+    B --> C["The tribulation begins<br/>seven years<br/>Antichrist confirms<br/>a covenant<br/>(Dan 9:27)"]
+    C --> D["Midpoint<br/>abomination of desolation,<br/>the man of lawlessness revealed<br/>(2 Thess 2:3-4)"]
+    D --> E["The second coming<br/>Christ returns visibly, with<br/>the armies of heaven<br/>(Rev 19:11-16)"]
+    E --> F["The millennium<br/>Christ reigns on earth with<br/>His saints, 1000 years<br/>(Rev 20:1-6)"]
+    F --> G["Great White Throne<br/>judgment of the unsaved<br/>(Rev 20:11-15)"]
+    G --> H["Eternity<br/>new heaven and new earth<br/>(Rev 21:1-4)"]
+    C -.-> X["Throughout, in heaven<br/>Bema seat judgment<br/>of believers<br/>(2 Cor 5:10)"]
 ```
 
 ## Types in the Old Testament: Enoch, Lot, and Elijah

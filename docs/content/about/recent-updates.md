@@ -4,7 +4,7 @@ category: "other"
 description: "A running list of the studies and pages on this site that have been newly published or most recently revised."
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
