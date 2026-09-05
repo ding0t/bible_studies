@@ -17,6 +17,9 @@ nav:
   - commentaries
   - sermons
   - resources
+  # A lookup surface rather than a section: short definitions that link out to the page
+  # owning each term. Sits with the reference material, above the interactive tools.
+  - glossary.md
   # All three interactive tools are ordinary mkdocs pages: a React bundle built by esbuild into
   # docs/content/assets/js/ is mounted into each. Astro is gone, so there is no second build and
   # no stitch step, and `mkdocs serve` renders them like any other page -- run `npm run build:tools`
