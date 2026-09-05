@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 11:10-32"
 bible_references: ["Genesis 5:1-32", "Genesis 7:11", "Genesis 11:10-32", "Genesis 12:4", "Exodus 12:40-41", "1 Kings 6:1", "Acts 7:4", "Galatians 3:17"]
 date_created: 2026-08-22
-date_modified: 2026-09-04
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -52,23 +52,33 @@ flowchart LR
 
 The order of events is certain even where their dates are not. No manuscript tradition disputes any of this sequence.
 
+The spine — order first, dates second.
+
 ```mermaid
-timeline
-        title The spine — order first, dates second
-        section Elastic
-          Creation : Adam and Eve
-          The Flood : eight survive, six of childbearing age
-          Babel : the seventy clans scatter
-        section The hinge
-          Abraham : every tradition agrees on 1996 BC
-        section Rigid
-          Exodus : Israel leaves Egypt
-          Solomon : the first temple begun
-          Exile : Jerusalem falls, then the return
-          Antiochus : the temple desecrated and rededicated
-          Christ : crucified and raised
-        section Since
-          The church age : running now
+flowchart TD
+    subgraph elastic["Elastic — the order is firm, the dates are not"]
+      direction TB
+      A["Creation<br/>Adam and Eve"] --> B["The Flood<br/>eight survive, six of childbearing age"]
+      B --> C["Babel<br/>the seventy clans scatter"]
+    end
+    subgraph hinge["The hinge"]
+      direction TB
+      D["Abraham<br/>every tradition agrees on 1996 BC"]
+    end
+    subgraph rigid["Rigid — anchored to datable events"]
+      direction TB
+      E["Exodus<br/>Israel leaves Egypt"] --> F["Solomon<br/>the first temple begun"]
+      F --> G["Exile<br/>Jerusalem falls, then the return"]
+      G --> H["Antiochus<br/>the temple desecrated and rededicated"]
+      H --> I["Christ<br/>crucified and raised"]
+    end
+    subgraph since["Since"]
+      direction TB
+      J["The church age<br/>running now"]
+    end
+    elastic --> hinge
+    hinge --> rigid
+    rigid --> since
 ```
 
 ## The elastic zone: creation to Abraham

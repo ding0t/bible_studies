@@ -124,19 +124,13 @@ The pattern assembled so far:
 
 Taking all six together as one shape: six days of ordinary history, each a "thousand years" by 2 Peter 3:8's ratio, followed by a seventh, Sabbath-like millennium matching Revelation 20's numbered reign. On that reading, a literal 6,000 years of human history precede the millennium. This is the same shape [The Zadok Calendar](../feasts/zadok-calendar.md) traces further back, in 1 Enoch's "Apocalypse of Weeks" (1 Enoch 91-93) dividing all of history into ten 700-year "weeks" toward a 7,000-year total -- an older, independent witness to the same six-then-seventh arithmetic.
 
-```mermaid
-timeline
-        title The ages by the Zadok calendar
-        section Day 1-2 <br> 0-2000
-          0: Creation
-        section Day 3-4 <br> 2000-4000
-          32 AD : Crucifixion
-          75 AD : 4000
-        section Day 5-6<br> 4000-6000
-          2025 AD
-        section Day 7 <br> 6000-7000
-          2075 AD : Year 6000
+The ages by the Zadok calendar, in thousand-year days from creation (AM).
 
+```mermaid
+flowchart TD
+    A["Days 1-2 · AM 0-2000<br/>Creation"] --> B["Days 3-4 · AM 2000-4000<br/>AD 32 crucifixion<br/>AD 75 — AM 4000"]
+    B --> C["Days 5-6 · AM 4000-6000<br/>AD 2025, where we are"]
+    C --> D["Day 7 · AM 6000-7000<br/>AD 2075 — AM 6000"]
 ```
 
 **A flagged inconsistency, not smoothed over.** This timeline's own arithmetic (year 6000 = 2075 AD) implies a creation epoch of roughly 3925 BC -- a different number from the 4004 BC epoch [The Zadok Calendar](../feasts/zadok-calendar.md) and `references/build/genealogy_chronology.py` use elsewhere on this site, and different again from the Masoretic, Septuagint, and Samaritan Pentateuch genealogical totals compared in [Bible Chronology & Genealogical Time](genealogy-times.md). That page and [Prophecy: Events and Times](prophecy-events-times.md) already flag this specific study's date as the outlier; this section is the matching flag from this study's own side, not a resolution -- reconciling it is tracked as open, unfinished work, not settled by picking whichever number reads best here.

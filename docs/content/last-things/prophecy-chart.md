@@ -6,7 +6,7 @@ tags: ["chart", "timeline", "dispensationalism", "larkin"]
 draft: false
 bible_references: ["Genesis 1:1-2:3", "Exodus 20:11", "Colossians 2:16-17", "Hebrews 4:9", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 19:7-9", "Revelation 20:1-6", "Zechariah 14:4-5"]
 date_created: 2024-05-29
-date_modified: 2026-09-04
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -37,25 +37,17 @@ Christ), and **Grace**, his name for the Church age -- with the seventh day as *
 explicitly tied to the weekly Sabbath pattern (Exodus 20:11; Hebrews 4:9; Colossians 2:16-17), and an
 eighth, open-ended "day" for the New Earth beyond it.
 
+The seven thousand years on Larkin's framework, with an eighth day beyond them.
+
 ```mermaid
-timeline
-    title The seven thousand years (Larkin's framework)
-    section Day 1 -- 1st millennium
-        Eden : Conscience begins
-    section Day 2 -- 2nd millennium
-        Enoch : taken before the Flood
-    section Day 3 -- 3rd millennium
-        Abraham : the promise
-    section Day 4 -- 4th millennium
-        Solomon : Law, kingdom at its height
-    section Day 5 -- 5th millennium
-        Christ : first coming -- Grace/Church begins
-    section Day 6 -- 6th millennium
-        Dark Ages to today : Church age continues
-    section Day 7 -- 7th millennium
-        Millennium : Christ reigns 1,000 years -- Rev 20:1-6
-    section Day 8 -- unending
-        New Earth : eternal state
+flowchart TD
+    A["Day 1 · 1st millennium<br/>Eden — conscience begins"] --> B["Day 2 · 2nd millennium<br/>Enoch — taken before the Flood"]
+    B --> C["Day 3 · 3rd millennium<br/>Abraham — the promise"]
+    C --> D["Day 4 · 4th millennium<br/>Solomon — Law, kingdom at its height"]
+    D --> E["Day 5 · 5th millennium<br/>Christ — first coming, Grace and Church begin"]
+    E --> F["Day 6 · 6th millennium<br/>Dark Ages to today — Church age continues"]
+    F --> G["Day 7 · 7th millennium<br/>Millennium — Christ reigns 1,000 years<br/>Rev 20:1-6"]
+    G --> H["Day 8 · unending<br/>New Earth — the eternal state"]
 ```
 
 This site's own position, as against Larkin's chart: the *shape* -- six ordinary ages followed by a

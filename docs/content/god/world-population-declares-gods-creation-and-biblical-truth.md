@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 9:1-19"
 bible_references: ["Genesis 1:20-21", "Genesis 1:28", "Genesis 5:32", "Genesis 6:1", "Genesis 7:11", "Genesis 7:21", "Genesis 8:17", "Genesis 9:1-19", "Genesis 9:28-29", "Genesis 10:1-32", "Genesis 11:1-9", "Genesis 11:10", "Genesis 13:16", "Genesis 15:5", "Genesis 22:17", "Genesis 46:26-27", "Exodus 1:5-7", "Exodus 1:12", "Exodus 8:3", "Exodus 12:37-41", "Leviticus 11:29", "Leviticus 11:41-46", "Numbers 1:2-3", "Numbers 1:45-46", "Deuteronomy 10:22", "2 Samuel 24:9", "1 Chronicles 21:5", "Psalm 105:30", "Jeremiah 33:22", "Ezekiel 47:9", "Acts 7:14", "Acts 17:26", "Romans 1:20", "Galatians 3:16", "Galatians 3:17", "Galatians 3:29", "Hebrews 11:12", "Revelation 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-08-23
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -360,25 +360,33 @@ Dates use this site's Zadok-year convention — year 0 is Adam's creation, and
 [Genealogy and Times](../last-things/genealogy-times.md) for how the Genesis 5 and 11 figures were
 read out of the Masoretic Text, Septuagint and Samaritan Pentateuch and turned into these years.
 
+Population anchors, each given as a Zadok year (AM, from creation) beside its Gregorian date.
+
 ```mermaid
-timeline
-        title Population anchors — Zadok year / Gregorian
-        section Creation to Flood
-          AM 0 / 4004 BC : Adam and Eve — 2 people
-          AM 1655 / 2349 BC : Eve of the Flood — modelled 100 million : band 30 to 900 million, no biblical figure
-          AM 1656 / 2348 BC : The Flood — 8 survive, 6 of childbearing age
-        section Flood to Abraham
-          AM 1757 / 2247 BC : Peleg born — in his days the earth was divided
-          AM 1856 / 2148 BC : Babel — the 70 clans of Genesis 10 scattered
-          AM 1948 / 2056 BC : Abraham born
-        section Abraham to Christ
-          AM 2558 / 1446 BC : Exodus — about 2 million leave Egypt
-          AM 2949 / 1055 BC : David — 1.3 million fighting men counted
-          AM 4004 / AD 1 : Christ — world about 300 million
-        section Christ to now
-          AM 5804 / AD 1800 : 1 billion
-          AM 5954 / AD 1950 : 2.5 billion
-          AM 6030 / AD 2026 : 8.2 billion
+flowchart TD
+    subgraph a["Creation to Flood"]
+      direction TB
+      A["AM 0 · 4004 BC<br/>Adam and Eve — 2 people"] --> B["AM 1655 · 2349 BC<br/>Eve of the Flood<br/>modelled 100 million<br/>band 30–900 million, no biblical figure"]
+      B --> C["AM 1656 · 2348 BC<br/>The Flood — 8 survive,<br/>6 of childbearing age"]
+    end
+    subgraph b["Flood to Abraham"]
+      direction TB
+      D["AM 1757 · 2247 BC<br/>Peleg born — the earth divided"] --> E["AM 1856 · 2148 BC<br/>Babel — the 70 clans scatter"]
+      E --> F["AM 1948 · 2056 BC<br/>Abraham born"]
+    end
+    subgraph c["Abraham to Christ"]
+      direction TB
+      G["AM 2558 · 1446 BC<br/>Exodus — about 2 million leave Egypt"] --> H["AM 2949 · 1055 BC<br/>David — 1.3 million fighting men"]
+      H --> I["AM 4004 · AD 1<br/>Christ — world about 300 million"]
+    end
+    subgraph d["Christ to now"]
+      direction TB
+      J["AM 5804 · AD 1800 — 1 billion"] --> K["AM 5954 · AD 1950 — 2.5 billion"]
+      K --> L["AM 6030 · AD 2026 — 8.2 billion"]
+    end
+    a --> b
+    b --> c
+    c --> d
 ```
 
 David's figure comes from Joab's census: "in Israel there were 800,000 valiant men who drew the

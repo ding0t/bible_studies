@@ -118,9 +118,35 @@ Two environment traps, both hit on first use: mermaid-cli downloads Chromium fro
 
 ## The corpus is clean — keep it that way
 
-Measured on 2026-09-04 across 29 mermaid blocks in 15 files (24 measurable; the five `timeline`
-blocks size themselves). Twelve rendered under 50%; **all twelve were rewritten the same day, and
-nothing is under 50% now.** The widest diagram on the site went 3725px → 1178px.
+Measured on 2026-09-04 across 29 mermaid blocks in 15 files. Twelve rendered under 50%; **all twelve
+were rewritten the same day.** The widest diagram on the site went 3725px → 1178px.
+
+**`timeline` blocks were excluded from that pass on the grounds that they "size themselves". They do
+not, and the exemption is how five diagrams stayed unreadable through a sweep that was checking for
+exactly that.** Mermaid lays timeline *sections* out
+horizontally, so the width grows with the number of sections and nothing constrains it: the five on
+this site measured 1390–2790px, rendering at 20–41%. Worse, the timeline renderer writes per-section
+text colours straight into the SVG — `.section-0 text{fill:black}`, `.section-2 text{fill:#ffffff}`,
+picked by section index — which bypasses mkdocs-material's palette variables and so ignores the
+dark-mode toggle. That is why the corpus's other diagrams need no `classDef` and a timeline alone
+came out with black text on a dark background.
+
+**So: do not use `timeline`.** All five were converted to `flowchart TD` on 2026-09-06 and every one
+now renders at 100%:
+
+| Was | Now | File |
+|---|---|---|
+| 2790 (20%) | 346 (100%) | `god/world-population-declares-gods-creation-and-biblical-truth.md` |
+| 2390 (24%) | 346 (100%) | `last-things/combined-timeline.md` |
+| 2190 (26%) | 552 (100%) | `last-things/rapture.md` |
+| 1990 (28%) | 276 (100%) | `last-things/prophecy-chart.md` |
+| 1390 (41%) | 249 (100%) | `last-things/day-is-near.md` |
+
+A timeline's `title` has no `flowchart` equivalent worth using — move it into a lead-in sentence
+above the block, since it usually carries information the nodes don't (which era scheme the years
+are in, whose framework the chart follows).
+
+The 2026-09-04 table, for the twelve fixed then:
 
 | Was | Now | File |
 |---|---|---|
