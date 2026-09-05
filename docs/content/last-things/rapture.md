@@ -220,7 +220,7 @@ that it ties 1 Thessalonians 4 to 1 Corinthians 15, and it does, but Matthew 24:
 | | Rapture passages<br/>1 Thess 4:15-17 · 1 Cor 15:51-53 · John 14:1-3 | Visible-coming passages<br/>Matt 24:29-31 · 2 Thess 1:7-10 · Rev 1:7 · Rev 19:11-16 |
 |---|---|---|
 | **Which way the saints move** | up — "caught up… to meet the Lord **in the air**" (1 Thess 4:17) | not stated of them; angels gather the elect as he descends (Matt 24:31) |
-| **Who comes with him** | the dead in Christ, raised first (1 Thess 4:16) | the armies of heaven on white horses (Rev 19:14); "his mighty angels" (2 Thess 1:7) |
+| **Who comes with him** | the dead in Christ, raised first (1 Thess 4:16) | "his mighty angels" (2 Thess 1:7); the armies of heaven on white horses (Rev 19:14) — **and the Church is plausibly among them**, see below |
 | **Who sees it** | not stated | "every eye" (Rev 1:7); "all the tribes of the earth… will see" (Matt 24:30) |
 | **How the nations react** | not stated | they mourn — **κόψονται**, the same verb and the same phrase "all the tribes of the earth" in both Matt 24:30 and Rev 1:7 |
 | **Signs beforehand** | none; "like a thief" (1 Thess 5:2), "in the twinkling of an eye" (1 Cor 15:52) | sun, moon and stars, "immediately **after the tribulation** of those days" (Matt 24:29) |
@@ -228,9 +228,49 @@ that it ties 1 Thessalonians 4 to 1 Corinthians 15, and it does, but Matthew 24:
 | **Resurrection and transformation** | central — the dead raised, the living changed, mortality putting on immortality (1 Cor 15:52-53) | absent |
 | **Stated purpose in context** | comfort for the grieving (1 Thess 4:18); "the blessed hope" (Titus 2:13) | "to judge and make war" (Rev 19:11); recompense (2 Thess 1:8) |
 
-Eight features, and every one of them lands in one column or the other. That is the argument the
-vocabulary was being asked to carry and could not: two events described with overlapping words but
-with almost nothing in common in direction, visibility, company, consequence or purpose.
+Seven of the eight land in one column only, which is the argument the vocabulary was being asked to
+carry and could not: two events described in overlapping words with almost nothing in common in
+direction, visibility, consequence or purpose. The eighth — who comes with him — is shared, and it
+turns out to be the most interesting row in the table.
+
+### Does the Church ride out with him?
+
+"And so we will always be with the Lord" (1 Thessalonians 4:17). **πάντοτε** — *always*, with no
+period carved out of it. If the Church is caught up to him before the tribulation, then the Church is
+with him when he returns at the end of it, and the company that rides out in Revelation 19:14 should
+include her. Four lines of evidence say it does.
+
+**The fabric.** The armies wear **βύσσινον λευκὸν καθαρόν**, "fine linen, white and pure" (19:14).
+Six verses earlier the bride is granted **βύσσινον λαμπρὸν καθαρόν**, "fine linen, bright and pure"
+(19:8) — two of the three words identical. When John dresses angels he reaches for a different noun:
+the seven angels of 15:6 wear **λίνον** καθαρὸν λαμπρόν, same participle *ἐνδεδυμένοι*, different
+cloth. So the armies are dressed as the Bride is, not as the angels are.
+
+Three parties wear βύσσινος in Revelation, and the third is the point of the contrast rather than an
+exception to it. Babylon is "clothed in fine linen, in purple and scarlet" (18:16) — the same verb
+*περιβάλλω* as the Bride at 19:8, and fine linen appears in her cargo manifest at 18:12. Two women,
+both in βύσσινος: one who bought it and wears it with the purple and scarlet of a harlot, one who was
+*granted* it, bright and pure. The armies' linen is qualified the Bride's way — white, pure — not
+Babylon's.
+
+**The company at the Lamb's war.** Running up to this scene, Revelation 17:14 says of those who
+fight beside him that "those with him are **called and chosen and faithful**" — κλητοὶ καὶ ἐκλεκτοὶ
+καὶ πιστοί, three words the New Testament uses of believers and not of angels.
+
+**Paul says it directly.** "When Christ who is your life appears, then you also will appear **with
+him** in glory" (Colossians 3:4) — one verb, φανερόω, for both, and **σὺν αὐτῷ** joining them. And
+he prays for hearts blameless "at the coming of our Lord Jesus **with all his saints**" (1
+Thessalonians 3:13). That phrase can mean angels; Zechariah 14:5 and Jude 14 both use "holy ones"
+that way, and 3:13 may be echoing Zechariah. But in these two letters Paul's substantive *οἱ ἅγιοι*
+occurs only here and at 2 Thessalonians 1:10, where it unambiguously means believers — "glorified in
+his saints, and marveled at among all who have believed."
+
+**This strengthens the pretribulational case rather than straining it.** The Church can only come
+*with* him if she was already taken *to* him, so a second coming accompanied by the Bride requires a
+prior gathering — which is the reading argued above. It also explains the one shared row in the
+features table: the two events differ in almost everything, but the same people are present at both,
+on opposite sides of the journey. Caught up to meet him in the air, and riding out behind him in the
+linen the Bema produced.
 
 ### What the sequence markers do and do not say
 

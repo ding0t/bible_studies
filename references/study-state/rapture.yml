@@ -218,3 +218,42 @@ revision_2026-09-06b:
     was observed in the Greek and is stated. mkdocs --strict clean, all four new anchors resolve,
     validate at the 8 pre-existing warnings.
   last_updated: "2026-09-06"
+
+revision_2026-09-06c:
+  what: >
+    User question: does "the armies of heaven" at Rev 19:14 include the Bride, particularly given
+    "we will always be with the Lord"? Answer is yes, on four converging lines -- and it forced a
+    correction to the features table added earlier the same day.
+  correction_to_own_work:
+    - >
+      The features table's row "Who comes with him" split cleanly (rapture: the dead in Christ /
+      second coming: angels and armies), and the claim under it read "every one of them lands in one
+      column or the other". Both were wrong. The Church is plausibly in BOTH columns, so the row now
+      shows the overlap and the claim reads "seven of the eight". A shared row is the honest result
+      and it turns out to be the most interesting one.
+    - >
+      Mid-draft I wrote that byssinos "clothes nobody else in the book". False: Rev 18:16 has
+      Babylon periblebemene byssinon -- the same verb periballo as the Bride at 19:8. Caught by
+      checking rather than by re-reading. The corrected version is stronger: THREE parties wear
+      byssinos, and Babylon is the contrast rather than an exception -- she bought it (it is cargo
+      at 18:12) and wears it with purple and scarlet, the Bride was GRANTED it bright and pure, and
+      the armies' linen is qualified the Bride's way (white, pure) not Babylon's.
+  evidence:
+    - "Fabric: armies byssinon leukon katharon (19:14) against the Bride's byssinon lampron katharon (19:8), two of three words identical. Angels get a different noun -- linon katharon lampron (15:6) -- with the same participle endedymenoi."
+    - "Rev 17:14, running up to the same scene: those with him are kletoi kai eklektoi kai pistoi, believer vocabulary rather than angel vocabulary."
+    - "Col 3:4 states it directly: one verb phaneroo for Christ and for believers, joined by syn auto -- 'you also will appear WITH him in glory'."
+    - >
+      1 Thess 3:13 'with all his saints'. Handled with care rather than asserted: hoi hagioi as a
+      substantive CAN mean angels (Zech 14:5, Jude 14, and 3:13 may echo Zechariah). But across 1-2
+      Thessalonians Paul's substantive plural occurs only at 3:13 and 2 Thess 1:10, and 1:10 is
+      unambiguously believers ('glorified in his saints... marveled at among all who have
+      believed'). Every other hagios in those letters is 'Holy Spirit' or 'holy kiss'. Derived from
+      the morphology, not recalled.
+    - "pantote at 1 Thess 4:17 -- 'ALWAYS with the Lord', with no interval carved out."
+  why_it_helps: >
+    Stated in the study: this strengthens the pretribulational case rather than straining it, since
+    the Church can only come WITH him if she was already taken TO him. It also explains the single
+    shared row -- the two events differ in nearly everything but have the same people present, on
+    opposite sides of the journey.
+  verification: "All five ESV quotations re-checked verbatim against study-notes.db. mkdocs --strict clean, new anchor resolves, validate at the 8 pre-existing warnings."
+  last_updated: "2026-09-06"
