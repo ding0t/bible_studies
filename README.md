@@ -14,17 +14,19 @@ Personal bible studies on end times, prophecy, and biblical themes.
 
 ## Site structure
 
-Two separate tools, stitched into one deployed site:
+One site build, from two source trees:
 
-- **`docs/`** — the content site (studies, commentaries, resources), built with [mkdocs-material](https://squidfunnel.github.io/mkdocs-material/). This is where nearly all writing happens.
-- **`app/`** — the interactive timeline and genealogy viewer, an Astro app. Separate npm project, separate dev workflow.
+- **`docs/`** — the content site (studies, commentaries, resources), built with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/). This is where nearly all writing happens.
+- **`app/`** — the React components behind the interactive tools (scripture links, timeline, genealogy).
+  Separate npm project; esbuild bundles them into `docs/content/assets/js/` before the mkdocs build,
+  so a single pass produces the whole site.
 
 ## Getting Started
 
 ### Content (studies, commentaries)
 
 ```bash
-uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin mkdocs serve
+uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects mkdocs serve
 ```
 
 Dev server (hot reload) at http://localhost:8000/.
@@ -68,7 +70,7 @@ docs/                    mkdocs content site
 ├── CONTENT_GUIDE.md       frontmatter schema, categories, image paths — the authoritative content reference
 └── dev/CONTRIBUTING.md    contributor guide
 
-app/                      Astro app: interactive timeline + genealogy viewer only
+app/                      React components for the interactive tools, bundled into the mkdocs site
 ├── src/
 ├── scripts/               build-time data prep (e.g. events.json from content frontmatter)
 └── package.json
@@ -83,5 +85,5 @@ references/                data and tooling behind studies, not site content
 
 .claude/skills/develop-bible-study/  the exegesis-then-hermeneutics process for writing a new study
 
-.github/workflows/deploy.yml   builds mkdocs + Astro, stitches them together, deploys to GitHub Pages
+.github/workflows/deploy.yml   npm test + build:tools, then mkdocs build, deploys to GitHub Pages
 ```
