@@ -1,0 +1,184 @@
+slug: woman-at-well
+title: "The Woman at the Well"
+status: review
+target_path: docs/content/jesus/woman-at-well.md
+
+primary_passage: "John 4:1-42"
+supporting_passages: []
+genre: [gospel]
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Placeholder already existed at docs/content/jesus/woman-at-well.md since 2025-04-25 with
+      frontmatter and a one-paragraph plan, no body. Section confirmed as jesus/ (Christology):
+      the passage's own climax is Jesus's self-disclosure, "I who speak to you am he" (4:26), and
+      the Samaritan/Jew material serves that rather than being the subject. israel-and-church/ was
+      considered and rejected on those grounds.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Samaria route: most Jews DID travel Judea->Galilee through Samaria (Josephus, Antiquities
+        20.118; Wars 2.232; Life 269 = a three-day journey), per NIV Cultural Backgrounds. So the
+        route was ordinary and edei at 4:4 is NOT forced to mean divine necessity by geography --
+        an initial over-read, corrected by both ESVSB and Cultural Backgrounds. The theological
+        weight comes from John's own usage pattern instead, which is checkable (see word studies).
+        Sychar: usually identified with Askar, ~0.7 mi (ESVSB) to ~1 mi (Cultural Backgrounds) from
+        the well, on the slope of Mt Ebal. Well is ~100ft/31m deep today.
+        Samaritan identity: 2 Kgs 17:24-41 resettlement; Jews denied Samaritan descent from Jacob,
+        Samaritans affirmed it; by the first century Samaritans were monotheists.
+        Uncleanness: Jewish tradition held a Samaritan woman continually unclean, so drinking from
+        her vessel conveyed impurity -- which is why 4:9's sunchrontai may mean "share vessels
+        with" rather than "associate with" (CSB footnote "Or do not share vessels with"; ESVSB
+        notes the same narrower sense).
+        Gerizim: the Samaritan Pentateuch reads Gerizim at Deut 27:4 where the MT reads Ebal --
+        VERIFIED in this repo, scrollmapper-SP vs morphhb-wlc. That variant is the textual root of
+        4:20's dispute.
+        Samaritan messianism: they expected a Mosaic prophet-restorer (Taheb) per Deut 18:15-18,
+        not a Davidic Messiah -- so her "Messias" in 4:25 is not the Jewish category.
+        Women's testimony was widely discounted (Josephus rejected it as unstable), which sharpens
+        4:39.
+        Hour: LSB footnote allows "Perhaps 6 p.m. Roman time or noon Jewish time" -- so the
+        solitary-at-noon inference is the majority reading, not a settled fact. Flag, do not assert.
+    literary_context:
+      done: true
+      notes: >
+        John 3:29, immediately preceding, has the Baptist call Jesus the BRIDEGROOM ("he who has
+        the bride is the bridegroom"). John 4 then seats Jesus at a well and has him meet a woman
+        -- the OT betrothal type-scene (Gen 24 Rebekah, Gen 29 Rachel, Ex 2 Zipporah). Cultural
+        Backgrounds notes Moses likewise sat at a well before meeting Zipporah, and that Isaac's
+        representative asked Rebekah for a drink (Gen 24:17). The type-scene is evoked and then
+        redirected: the bride Jesus wins is a village, not a wife.
+        Paired with John 3: Nicodemus (male, Jewish, respected teacher, comes by night, does not
+        understand) against the woman (female, Samaritan, disreputable, meets him at midday, ends
+        up evangelising). Deliberate contrast either side of chapter 4.
+        Bracketing: aphiemi at 4:3 (Jesus "left" Judea) and 4:28 (she "left" her water jar).
+        kopiao occurs three times in John and ALL THREE are in this chapter -- 4:6 Jesus wearied
+        from the journey, 4:38 "you have not laboured / others have laboured". Verified.
+    content_word_studies:
+      done: true
+      notes: >
+        MAIN FINDING (verified twice, from morphology not recall): John 4 uses TWO different words
+        English collapses into "well", and they split by speaker. pege (spring) at 4:6 x2
+        (narrator) and 4:14 (Jesus); phrear (dug shaft) at 4:11 and 4:12 (the woman, both times).
+        Narrator and Jesus say spring; the woman says shaft. And 4:14 relocates the pege INTO the
+        believer. phrear is rare in the NT -- only Luke 14:5, John 4:11-12 and Rev 9:1-2.
+        The LXX renders Jeremiah 2:13's meqor mayim hayyim with PEGE, the same noun -- so John's
+        word choice sits on Jeremiah's indictment: Israel forsook the spring and dug cisterns that
+        hold no water. Jer 17:13 repeats it (4Q70 attests the reading; bible_variants reports NO
+        variant there, so claim attestation, not divergence).
+        edei/dei in John: 3:7, 3:14, 3:30, 4:4, 4:20, 4:24, 9:4, 10:16, 12:34, 20:9 -- ten, and
+        4:4 is the only past-tense form. John 4 carries three of the ten, and the woman uses dei
+        for WHERE one must worship (4:20) before Jesus redirects it to HOW (4:24). NOTE: MACULA
+        lemmatises most of these under deo, not dei, so a lemma='dei' query undercounts to one --
+        caught and corrected; do not repeat that query shape.
+        ego eimi: 4:26 is the FIRST in the Gospel (verified against all 23 occurrences). Form is
+        "Ego eimi, ho lalon soi". NLT footnote at 4:26 itself offers "The I AM is here" / "I am the
+        LORD" and cross-references Exod 3:14 -- so the divine-name reading is a live translator
+        option, not only a commentator's. Do not settle it; report the fork.
+        soter occurs ONCE in John, at 4:42, on Samaritan lips.
+        meti at 4:29 expects a negative answer (MACULA glosses "Can it be [that]"; the other two
+        Johannine uses are 8:22 and 18:35, both expecting no). Her testimony is tentative, yet
+        4:39 says many believed through it.
+        "Come, see" (Deute idete, 4:29) echoes 1:39 (Erchesthe kai opsesthe) and 1:46 (Erchou kai
+        ide) -- same imperative of horao, different verb for "come". State it that precisely.
+        DECLINED: the "five husbands = five resettled nations" allegory. 2 Kgs 17:24 does list five
+        populations, which is why it recurs, but 17:29-31 names SEVEN gods, John gives no
+        allegorical signal, and the woman treats the statement as personal knowledge (4:19).
+      terms:
+        - {word: "πηγή", language: greek, transliteration: "pēgē", strongs_id: "G4077", gloss: "spring, fountain", notes: "narrator 4:6 x2, Jesus 4:14; LXX word for Jer 2:13 meqor"}
+        - {word: "φρέαρ", language: greek, transliteration: "phrear", strongs_id: "G5421", gloss: "dug well, shaft, cistern", notes: "the woman only, 4:11 and 4:12"}
+        - {word: "ὕδωρ ζῶν", language: greek, transliteration: "hydōr zōn", strongs_id: "G5204/G2198", gloss: "living (i.e. running) water", notes: "ordinary idiom for flowing water; Jesus means the Spirit, cf 7:38-39"}
+        - {word: "δεῖ", language: greek, transliteration: "dei", strongs_id: "G1163", gloss: "it is necessary", notes: "ten in John; 4:4 the only imperfect; three of the ten in ch.4"}
+        - {word: "ἐγώ εἰμι", language: greek, transliteration: "egō eimi", strongs_id: "G1473/G1510", gloss: "I am", notes: "4:26 is the first of 23 in John"}
+        - {word: "κοπιάω", language: greek, transliteration: "kopiaō", strongs_id: "G2872", gloss: "to labour, grow weary", notes: "all three Johannine uses in ch.4: 4:6, 4:38 x2"}
+        - {word: "μήτι", language: greek, transliteration: "mēti", strongs_id: "G3385", gloss: "surely not?", notes: "4:29; expects a negative answer"}
+        - {word: "σωτήρ", language: greek, transliteration: "sōtēr", strongs_id: "G4990", gloss: "saviour", notes: "only occurrence in John, 4:42"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Cultural: the vessel-uncleanness rule behind 4:9, the impropriety of a man conversing at
+        length with a woman (4:27), the Gerizim/Jerusalem question itself, and drawing water as
+        women's communal work. Transcultural: the Spirit given as an indwelling source rather than
+        a supply reached; worship detached from place; and Jesus disclosing identity to someone
+        with no standing. The betrothal type-scene is a literary convention, not a norm to apply.
+    theological_principle:
+      done: true
+      notes: >
+        Jesus gives the Spirit as an inward, self-renewing source of life, received as a gift
+        rather than earned or reached, and relocates worship from a place to the Father, so access
+        no longer depends on standing on the right ground or belonging to the right people.
+        Cross-checked as required, not built on the narrative alone: John 7:39 states the
+        water=Spirit identification; the gift language is in the passage itself (dorea, 4:10) and
+        taught explicitly at Eph 2:8-9; the people-as-temple development is 1 Cor 3:16-17 and Eph
+        2:19-22.
+        statement-of-faith.md check: NO CONFLICT. Its Holy Spirit section ("indwells, seals") and
+        its Salvation section ("not earned; it's received") both align, the latter strikingly so
+        with 4:10's dorea tou theou.
+    application_draft:
+      done: true
+      notes: >
+        Be Transformed section built on the where->how pivot (dei at 4:20 vs 4:24) and on the
+        ordering of 4:16-26 (history raised before worship taught and before self-disclosure, with
+        no precondition attached).
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "John 3:29", relation: "immediately preceding -- Jesus named the bridegroom, which sets up the well scene"}
+      - {ref: "Jeremiah 2:13", relation: "LXX renders meqor with PEGE, the noun John uses; the spring-vs-cisterns indictment John 4 reverses"}
+      - {ref: "Jeremiah 17:13", relation: "repeats it; 4Q70 attests the reading, bible_variants reports no variant"}
+      - {ref: "John 7:37-39", relation: "John's own identification of living water as the Spirit"}
+      - {ref: "Deuteronomy 27:4", relation: "MT Ebal vs Samaritan Pentateuch Gerizim -- the textual root of 4:20"}
+      - {ref: "Deuteronomy 18:15-18", relation: "the Mosaic prophet the Samaritans expected"}
+      - {ref: "Genesis 24 / 29 / Exodus 2", relation: "the well betrothal type-scene"}
+      - {ref: "2 Kings 17:24-41", relation: "Samaritan origins; five populations but SEVEN gods, which is what sinks the five-husbands allegory"}
+      - {ref: "John 1:39, 1:46", relation: "same horao imperative as her 'Come, see'"}
+      - {ref: "Isaiah 12:3, 44:3; Ezekiel 47:1-6; Zechariah 14:8", relation: "prophetic water promises"}
+    translations_compared: ["ESV", "NIV", "CSB", "LSB", "WEB", "ASV", "BSB", "ULT", "YLT"]
+    divergences_noted: >
+      NO English version distinguishes pege (4:6) from phrear (4:11) -- all print "well", so the
+      narrator/woman split is invisible in English. At 4:14 the versions divide: ESV, NIV and BSB
+      keep "spring"/"fount"; WEB, ASV, LSB and CSB print "well" and flatten the promise into a
+      better well. CSB's own footnote there reads "Or spring". Practical advice given to the
+      reader: read ESV or NIV at 4:14.
+  drafting:
+    done: true
+    file: docs/content/jesus/woman-at-well.md
+  review:
+    done: false
+    validated: true # npm run validate clean (only provenance warnings, since resolved); mkdocs build --strict clean with links and the internal anchor resolving
+
+open_questions:
+  - >
+    Every ESV block quote was re-verified against study-notes.db rather than typed from memory, and
+    two of my own alterations were caught doing it: "Saviour" for the ESV's "Savior" inside
+    quotation marks, and a closing quotation mark added at 4:19 where her speech runs on into 4:20.
+  - >
+    The hour at 4:6 is unresolved. Noon (Jewish reckoning) is the majority reading and the whole
+    solitary-woman inference depends on it, but the LSB footnote allows 6 p.m. Roman time. Stated
+    as an inference in the draft rather than asserted.
+  - >
+    Whether 4:26's ego eimi carries Exodus 3:14 weight is left open in the draft. The context is a
+    reply about the Messiah, so "I am he" is the natural sense; but the NLT footnote itself offers
+    "The I AM is here" and cites Exod 3:14, so it is a live translator option, not merely a
+    commentator's. The unambiguous absolute use is 8:58.
+  - >
+    NOT run yet: review-bible-study. The skill gates draft:false on the user's review plus an
+    adversarial pass, and this study carries a textual-critical claim (Deut 27:4) and eight word
+    studies, so it qualifies as load-bearing. Left draft:true pending that.
+resources_consulted:
+  - {type: other, title: "SBL Greek New Testament", author: "ed. Michael W. Holmes", note: "base Greek text; pege/phrear distribution, the 23 ego eimi occurrences"}
+  - {type: other, title: "MACULA Greek Linguistic Datasets", author: "Clear Bible", note: "morphology for dei, kopiao, meti, soter counts. CAUTION: lemmatises dei under deo, so a lemma='dei' query undercounts"}
+  - {type: other, title: "Samaritan Pentateuch (scrollmapper-SP)", author: "-", note: "Deut 27:4 Gerizim reading, set against morphhb-wlc's Ebal. restricted-nc tier"}
+  - {type: other, title: "Open Scriptures Septuagint lemmas", author: "-", note: "confirmed LXX uses pege for Jer 2:13's meqor -- the link that makes John's word choice load-bearing"}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "CORRECTED my read of edei -- notes the geographic route was ordinary; also supplied the dei list, Sychar/Askar, and the narrower sense of sunchrontai"}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan (Keener)", note: "CONTRIBUTED the Josephus route citations, the well-betrothal parallels incl. Moses at the well, Samaritan Taheb expectation, and the standing of women's testimony"}
+  - {type: commentary, title: "CSB Ancient Faith Study Bible", author: "Holman", note: "footnotes at 4:9 ('Or do not share vessels with') and 4:14 ('Or spring') -- confirmed the word study is a real translation decision"}
+  - {type: commentary, title: "Legacy Standard Bible", author: "Three Sixteen Publishing", note: "CORRECTED my noon assumption via its 4:6 footnote; also 'Or Spirit' at 4:24"}
+  - {type: commentary, title: "NLT Life Application Study Bible", author: "Tyndale", note: "4:26 footnote offering 'The I AM is here' and citing Exod 3:14"}
+  - {type: other, title: "Josephus, Antiquities 20.118; Wars 2.232; Life 269", author: "Josephus", note: "cited via the Cultural Backgrounds note, not read directly -- stated that way in the draft"}
+  - {type: other, title: "How to Read the Bible for All Its Worth", author: "Fee & Stuart", note: "method"}
+last_updated: "2026-09-06"

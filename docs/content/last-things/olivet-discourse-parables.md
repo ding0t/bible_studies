@@ -9,6 +9,7 @@ bible_references: ["Matthew 24:45-51", "Matthew 25:1-46", "Matthew 10:40-42", "M
 date_created: 2026-08-29
 date_modified: 2026-09-05
 ai_provider_models:
+  - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
 ---
 
