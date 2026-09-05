@@ -216,6 +216,34 @@ CREATE TABLE word_alignment (       -- which original-language word each English
 CREATE INDEX idx_align_ref ON word_alignment(book, chapter, verse);
 CREATE INDEX idx_align_strong ON word_alignment(strong);
 
+CREATE TABLE versification_map (  -- per-verse Hebrew numbering, recorded by the source itself
+                                    -- rather than inferred. UHB numbers verses the ULT's (English)
+                                    -- way and carries the Masoretic number alongside in a \va
+                                    -- marker, for 1,970 verses across 27 books. That is strictly
+                                    -- better evidence than versification.superscription_offset(),
+                                    -- which infers a whole-chapter shift from two works' verse
+                                    -- counts: this is stated per verse, and it covers cases the
+                                    -- scheme-level align() gets wrong outright (English Jonah 1:17
+                                    -- is Hebrew Jonah 2:1, and English Job 41:2 is Hebrew Job
+                                    -- 40:26 -- align() returns the reference unchanged for both).
+    work_id TEXT NOT NULL REFERENCES works(work_id),
+    book TEXT NOT NULL,
+    chapter INTEGER NOT NULL,        -- as this work numbers it
+    verse INTEGER NOT NULL,
+    alt_scheme TEXT NOT NULL,        -- the scheme alt_chapter/alt_verse are numbered in
+    alt_chapter INTEGER NOT NULL,
+    alt_verse INTEGER NOT NULL,
+    -- \va sometimes gives "32:1" and sometimes a bare "1" even where the chapter also rolls over
+    -- (Daniel 5:31, Jonah 1:17), so the chapter is not always stated and cannot be taken on trust.
+    -- 'explicit'         the source named chapter and verse outright.
+    -- 'verse+verified'   \va gave the verse; the chapter was resolved by finding which candidate
+    --                    the WLC text actually agrees with, so both halves are checked.
+    -- 'verse+unverified' \va gave the verse but no candidate chapter matched the WLC. The chapter
+    --                    is an unconfirmed inference -- do not lean on it.
+    source TEXT NOT NULL
+);
+CREATE INDEX idx_versification_ref ON versification_map(work_id, book, chapter, verse);
+
 CREATE TABLE grammar_articles (     -- unfoldingWord Hebrew Grammar, one row per article.
                                     -- The lexicons in this database say what a WORD means; this
                                     -- says what a FORM does, which develop-bible-study's Phase 4

@@ -153,6 +153,38 @@ Those four also carry a **share-alike** licence, where everything else open on t
 CC0 or public domain. That places no limit on quoting them. It would matter if this site ever
 published a dataset built from them.
 
+### What each of the four actually does here
+
+They are working instruments rather than reading texts, and none of them is a source this site
+quotes from — studies quote the ESV by default. Each earns its place by answering a question nothing
+else here could:
+
+| Source | What it answers | Where it shows up |
+|---|---|---|
+| **ULT** — Literal Text | *Which original word is this English word translating?* Every word carries an alignment frame naming the Hebrew or Greek behind it | the 475,036 rows in `word_alignment`, and 326 translator footnotes |
+| **UHB** — Hebrew Bible | *What did the Masoretes say to read instead?* The text the ULT's Old Testament alignment resolves against | 949 footnotes, 930 of them **Qere** readings |
+| **UGNT** — Greek New Testament | *Does a second Greek edition read this differently?* A Bunning Heuristic Prototype text rather than a committee edition | a fourth Greek witness in `verses`, and 22 notes on disputed passages |
+| **UHG** — Hebrew Grammar | *What does this grammatical form do,* as against what the word means | the 88 rows in `grammar_articles` |
+
+Two cautions travel with them, both of which unfoldingWord state themselves.
+
+The UHB numbers verses the **English** way rather than the Hebrew way — it "uses the versification
+scheme of the ULT", which they note "may make some resources that are keyed to the WLC more
+difficult to use with the Hebrew text". So it and the Westminster Leningrad Codex disagree about
+which verse a reference names across roughly 1,500 verses, mostly in Joel, 1 Chronicles, 1 Kings,
+Numbers, Job, Ezekiel and Malachi. The UHB records its own Hebrew numbering verse by verse, and this
+site keeps that as the `versification_map` table rather than guessing at the shift. See
+[versification](../glossary.md#versification).
+
+The UHB also prints a different reading where the Masoretes left two: "in order to avoid
+subjectivity, the text of the UHB uses the Ketiv of the WLC", where the Westminster Leningrad Codex
+prints the Qere. That one decision accounts for nearly all the ~1.5% of verses where the two Hebrew
+texts differ, and the 930 Qere readings are kept as notes on the verses they belong to, so nothing
+is lost either way. See [Ketiv and Qere](../glossary.md#ketiv-qere).
+
+Separately, the UGNT differs from this project's default Greek text in about one verse in six by raw
+count, though most of that is manuscript spelling rather than a different text.
+
 ## The two databases, and what is in them
 
 Nothing here is hand-curated. `bible-text.db` is rebuilt from scratch by
@@ -170,6 +202,8 @@ resting on it can be re-derived rather than trusted.
 | `scripture_links` | 2,304 | **derived here, not ingested** — quotations and allusions this project detects itself |
 | `dss_variants` | 1,874 | where a Dead Sea Scroll reads something the Masoretic text does not |
 | `literary_units` | 1,181 | paragraph and pericope boundaries from the Masoretic markers, not modern chapter breaks |
+| `versification_map` | 2,033 | the Hebrew verse number for each verse the unfoldingWord Hebrew Bible numbers the English way — stated by the source, not inferred |
+| `notes` | 1,297 | the translators' own footnotes — where they judged the text ambiguous, and what the alternative was |
 | `grammar_articles` | 88 | what a Hebrew *form* does, as against what a word means |
 
 `study-notes.db` is the second collection, built by `build_study_notes.py` from commercial

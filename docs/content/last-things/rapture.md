@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Thessalonians 4:15-18"
 bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "1 Corinthians 11:25", "1 Corinthians 6:19-20", "Ephesians 5:25-27", "1 Corinthians 1:2", "1 Corinthians 6:11", "Hebrews 10:10", "Hebrews 13:12", "Ephesians 2:10", "Genesis 5:21-24", "Hebrews 11:5", "Jude 1:14-15", "2 Kings 2:11", "Genesis 7:1", "Genesis 7:16", "Genesis 19:15-16", "Genesis 19:24", "2 Peter 2:5-9", "Luke 17:28-30", "Revelation 7:9-14"]
 date_created: 2024-04-23
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -98,6 +98,19 @@ Before the New Testament describes the rapture directly, three Old Testament liv
 
 **Enoch — taken before judgment fell.** "Enoch walked with God, and he was not, for God took him" ([Genesis 5:21-24 (ESV)](https://www.blueletterbible.org/esv/Gen/5/21-24)). Hebrews makes the point explicit: "By faith Enoch was taken up so that he should not see death... he was commended as having pleased God" ([Hebrews 11:5 (ESV)](https://www.blueletterbible.org/esv/Heb/11/5)). Enoch is the seventh from Adam ([Jude 1:14-15 (ESV)](https://www.blueletterbible.org/esv/Jud/1/14-15)) — and the flood, the judgment that sweeps away everyone left on earth, falls only three generations later, in the days of his own great-grandson. Enoch is removed before that judgment comes; he simply isn't there for it, taken quietly, without spectacle, sometime before the water rises.
 
+Two details in the Hebrew sharpen this. "Walked" is <span dir="rtl">וַיִּתְהַלֵּךְ</span>
+(*wayyithallēkh*, from <span dir="rtl">הָלַךְ</span> *hālakh*, Strong's H1980) — a Hithpael, the
+stem that carries iterative or habitual action. It is not a single walk but a sustained manner of
+life, "walked about with God," and Genesis uses the same form twice (5:22, 5:24) to frame the three
+hundred years between. And "took" is <span dir="rtl">לָקַח</span> (*lāqach*, Strong's H3947), the
+ordinary verb for taking or fetching — plain, unspectacular, and the same verb Scripture uses for
+Elijah's departure (2 Kings 2:3, 5, 9, 10) and for the psalmists' hope beyond death: "for he will
+receive me" ([Psalm 49:15 (ESV)](https://www.blueletterbible.org/esv/Psa/49/15)) and "afterward you
+will receive me to glory" ([Psalm 73:24 (ESV)](https://www.blueletterbible.org/esv/Psa/73/24)).
+The ESV renders <span dir="rtl">לָקַח</span> "took" in Genesis and "receive" in both psalms, so the
+thread joining Enoch, Elijah and the psalmists is one an English reader cannot see without checking
+the underlying word.
+
 **Noah — preserved through judgment, not removed from it.** Noah is a different pattern entirely: he and his family go *into* the flood, sealed in the ark, and come out the other side of God's judgment ([Genesis 7:1 (ESV)](https://www.blueletterbible.org/esv/Gen/7/1); [Genesis 7:16 (ESV)](https://www.blueletterbible.org/esv/Gen/7/16)). Both men are righteous; both are spared; but one is removed before the judgment falls and the other is carried through it. Since the flood is already a type of the tribulation (see [The imminence of the rapture](#the-imminence-of-the-rapture); Matthew 24:37-39), Enoch and Noah between them model the two competing views of the rapture's timing side by side, in the same chapters of Genesis.
 
 **Lot — physically removed, moments before fire fell.** Genesis records the angels physically dragging Lot, his wife, and his daughters out of Sodom because Lot himself hesitated: "he lingered. So the men seized him and his wife and his two daughters by the hand... and they brought him out and set him outside the city" ([Genesis 19:16 (ESV)](https://www.blueletterbible.org/esv/Gen/19/16)). The rescue and the judgment are separated by minutes, not centuries — Lot reaches Zoar, and only then "the LORD rained on Sodom and Gomorrah sulfur and fire" (Genesis 19:24-25). Peter draws the comparison Jesus himself draws (Luke 17:28-30, pairing Lot's day explicitly with the Son of Man's): Noah and Lot are named together as the same category of act — "the Lord knows how to rescue the godly from trials, and to keep the unrighteous under punishment until the day of judgment" ([2 Peter 2:9 (ESV)](https://www.blueletterbible.org/esv/2Pe/2/9)) — rescue named as God's ordinary pattern, not a one-off.
@@ -169,7 +182,7 @@ The two still read best as distinct, resting on the imminence argument above, th
 - The trumpet appears again, tying this passage to 1 Thessalonians 4 and to [The Trumpet Call of God](trumpet.md).
 - Imperishable, immortal — the goal isn't escape from the body, but its transformation.
 
-## The restrainer removed
+## The restrainer and his going
 
 > ✝️ [2 Thessalonians 2:1-7 (ESV)](https://www.blueletterbible.org/esv/2Th/2/1-7)
 >
@@ -182,6 +195,31 @@ The two still read best as distinct, resting on the imminence argument above, th
 
 The phrase recurs at multiple points in Scripture, not only at the very end. Joel used it for a locust-plague judgment centuries before Christ (Joel 2:31, quoted directly at Acts 2:20), and Amos warned Israelites who wished for it that it meant darkness, not light, for the unrepentant (Amos 5:18-20). It names a category of decisive divine action God's people can face more than once.
 
+### What verse 7 actually says about the going
+
+"Until he is out of the way" is doing more work in English than the Greek does. The clause is
+**ἕως ἐκ μέσου γένηται** (*heōs ek mesou genētai*, "until out of [the] midst he might come to be").
+Three things follow from checking it word by word against the alignment rather than reading the
+translation:
+
+- The verb is **γίνομαι** (*ginomai*, Strong's G1096) — "become, come to be" — not a verb of
+  removal. Paul does not use αἴρω ("take away"), ἀναιρέω, or a passive of any word meaning
+  *remove*. **γένηται** is aorist middle subjunctive, third person singular.
+- There is **no expressed subject**. The "he" of the English is supplied from verse 7's masculine
+  participle ὁ κατέχων, which is a sound inference, but it is an inference.
+- There is **no agent**. Nothing in the clause says *who* does the removing, because grammatically
+  nothing is being done to anyone — the construction is intransitive.
+
+So the sentence says the restrainer *comes to be out of the midst*, and stops there. That is
+compatible with the restrainer being taken away, and it is equally compatible with the restrainer
+simply ceasing to stand in the middle. The English word "removed" — including in this section's own
+heading — imports a passive and an agent the Greek withholds.
+
+This does not overturn the reading below; a restrainer who "comes to be out of the midst" has still
+stopped restraining, which is the point the argument needs. But the *manner* of the going is not
+stated in this verse, and an argument that leans on the restrainer being actively removed by God at
+a particular moment is leaning on the translation rather than on Paul.
+
 ### Who is the restrainer?
 
 Identifying the restrainer in verses 6-7 is an open question among serious interpreters. Proposed answers include the Roman Empire and its rule of law, human government generally, the ongoing proclamation of the gospel, the archangel Michael (drawing on Daniel 10-12's own restraining angelic conflict), and the Holy Spirit working in and through the Church.
@@ -190,7 +228,7 @@ The last of these is the most compelling reading, and not only by elimination. A
 
 That shift is what we would expect if the restrainer is the Spirit. **πνεῦμα** ("spirit") is itself a grammatically neuter noun, but the New Testament consistently refers back to the Spirit with personal, masculine pronouns when his agency and personhood are in view (John 14:26; 16:13-14), rather than the grammatically "correct" neuter — the same pattern this verse shows.
 
-On that reading, the restrainer's removal ties directly to the Church's own removal at the rapture. Not the Spirit ceasing to exist or act in the world: people still come to saving faith during the tribulation, as the great multitude "washed... in the blood of the Lamb" at Revelation 7:9-14 implies. What ends is His restraining ministry *through the Church*, when the Church itself is taken. This would be the same event as 1 Thessalonians 4:17, seen from its consequence instead of its promise.
+On that reading, the restrainer's going ties directly to the Church's own removal at the rapture. Not the Spirit ceasing to exist or act in the world: people still come to saving faith during the tribulation, as the great multitude "washed... in the blood of the Lamb" at Revelation 7:9-14 implies. What ends is His restraining ministry *through the Church*, when the Church itself is taken. This would be the same event as 1 Thessalonians 4:17, seen from its consequence instead of its promise.
 
 The grammatical shift is real evidence, not an inference from a doctrine assumed in advance. It is also not the only reading serious interpreters hold.
 

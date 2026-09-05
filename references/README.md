@@ -148,9 +148,94 @@ lemma mean"; until this went in, "what is a gentilic adjective doing" had to com
 | work_id | what | note |
 |---|---|---|
 | `uw-ult` | unfoldingWord Literal Text, 31,103 verses | the English side of the alignment |
-| `uw-uhb` | unfoldingWord Hebrew Bible, 23,145 verses | the Hebrew side. Its per-word morphology is deliberately **not** loaded into `morphology` — that table is MACULA's off the same WLC, and a second opinion in the same columns would silently double every count a word study makes |
-| `uw-ugnt` | unfoldingWord Greek NT, 7,958 verses | the Greek side, **and a distinct witness**: a Bunning Heuristic Prototype text, not SBLGNT. They differ in roughly one verse in six — John 1:34 reads Υἱὸς here against SBLGNT's ἐκλεκτός. Check `bible_verse` before resting an argument on wording from the alignment |
+| `uw-uhb` | unfoldingWord Hebrew Bible, 23,145 verses | the Hebrew side, and **an alignment anchor rather than a second Hebrew text** — see the versification warning below before querying it beside `morphhb-wlc`. Its per-word morphology is deliberately **not** loaded into `morphology` — that table is MACULA's off the same WLC, and a second opinion in the same columns would silently double every count a word study makes |
+| `uw-ugnt` | unfoldingWord Greek NT, 7,958 verses | the Greek side, **and a distinct witness**: a Bunning Heuristic Prototype text, not SBLGNT. Measured over the 7,939 verses the two share: 14.7% differ once accents, SBL sigla, case and elision marks are normalised, 11.4% still differ after itacism (ει/ι) is collapsed too, and only **87 verses differ by three or more words**. So "one verse in six" is the right raw count but the wrong impression — the bulk is manuscript orthography (Δαυείδ for Δαυίδ 59×, Πειλᾶτος for Πιλᾶτος 39×, Ἡλείας for Ἡλίας 16×), not textual instability. Where it *is* substantive it is substantive at the places that matter: Mark 16:8ff, the pericope adulterae (John 8:4–11), Luke 23:34, 1 Cor 7:33–34, and John 1:34's Υἱὸς against SBLGNT's ἐκλεκτός. Treat it as a real second witness worth consulting, and confirm with `bible_verse` which text a reading came from |
 | `uw-uhg` | unfoldingWord Hebrew Grammar, 88 articles | no verses at all; it lives in `grammar_articles` |
+
+**UHB and WLC do not agree about verse numbers, and nothing stops you querying them as if they
+did.** This is the sharpest edge on these four sources, and it is not an accident of the ingest --
+unfoldingWord state it outright: the UHB "uses the versification scheme of the ULT instead of that
+of the OSHB (which is based on the WLC scheme common for Hebrew Bibles)", and they note it "may make
+some resources that are keyed to the WLC more difficult to use with the Hebrew text"
+([hbo_uhb README](https://git.door43.org/unfoldingWord/hbo_uhb)). `uw-uhb` follows the ULT's English
+(ASV/KJV-style) versification; `morphhb-wlc` follows the Hebrew. Both live in the same `verses`
+table keyed by `book`/`chapter`/`verse`, so the same reference against the two works can return two
+different verses with no error and no warning:
+
+```
+Joel 2:28  ->  morphhb-wlc: (no row)                uw-uhb: וְ⁠הָיָ֣ה אַֽחֲרֵי כֵ֗ן אֶשְׁפּ֤וֹךְ אֶת רוּחִ⁠י֙ ...
+Joel 3:1   ->  morphhb-wlc: וְ/הָיָ֣ה אַֽחֲרֵי־כֵ֗ן ...   uw-uhb: כִּ֗י הִנֵּ֛ה בַּ⁠יָּמִ֥ים הָ⁠הֵ֖מָּה ...
+```
+
+Measured over the 23,011 references the two share, with paragraph markers (<span dir="rtl">ס</span>,
+<span dir="rtl">פ</span>) excluded: 1,885 differ in consonantal text, and **82% of those (1,545) are
+the same text under a different number**. Only 340 verses — 1.48% — genuinely differ, which is
+about what UHB's stated Ketiv policy predicts. The offset books are 1Chr, 1Kgs, Num, Joel, Job,
+Ezek, Mal, Dan, Neh, Lev, Exod and a scattering of others.
+
+Two consequences. First, **UHB is not a useful second opinion on the Hebrew** — it is the same WLC
+consonantal text, and `morphhb-wlc` remains the Old Testament primary. Its job is to be the text
+ULT's alignment resolves against, and it does that job well.
+
+Second, **never compare the two by reference alone.** Reach for `query.py parallel <book> <ch> <v>
+--target <work_id>`, which resolves *work to work* and applies the psalm-superscription offset on
+top of the scheme shift. Do **not** use `query.py align` for this: it is scheme-to-scheme by
+contract and moves the chapter only, so it reports masoretic Ps 49:15 for English Ps 49:15 when the
+verse you want in `morphhb-wlc` is 49:16 — the superscription offset is a per-digitisation property
+of the two works in hand, not of the scheme, so `align` has no way to know it. `query.py verse` now
+prints both sides of this: a `NOTE` naming the other schemes' numbers when a found verse is numbered
+differently elsewhere, and, when a lookup misses in a book the work does carry, a `WARNING` naming
+the reference to ask for instead of the old "check the reference".
+
+**`notes` — 1,297 footnotes, and the table's first rows.** The `notes` table existed from the
+start and was empty in every build until 2026-09-05, which quietly made `query.py passage --notes`
+a flag that returned nothing for every passage in every work. These three texts fill it:
+
+| work_id | notes | what they are |
+|---|---|---|
+| `uw-uhb` | 949 | 930 **Qere** readings (`note_type='qere'`), 1 Ketiv, 18 translator notes. This is a *stated editorial policy*, not a quirk: "in order to avoid subjectivity, the text of the UHB uses the Ketiv of the WLC" ([hbo_uhb README](https://git.door43.org/unfoldingWord/hbo_uhb)) — so UHB prints the Ketiv where the WLC prints the Qere, and records the Qere here. That single decision is the mechanism behind the ~340 verses where the two genuinely differ, which means those differences are **recoverable** rather than merely noted: the Qere is in `notes`, keyed to the verse |
+| `uw-ult` | 326 | translators' decisions: *"or perhaps X (Hebrew Ketiv)"*, *"the meaning of this word is uncertain"*, *"the best Hebrew manuscripts do not include this verse"* |
+| `uw-ugnt` | 22 | textual-critical notes on omitted passages — *"Some ancient manuscripts include Mark 16:9-20"* |
+
+This is the open-licence counterpart to the `note_type='footnote'` corpus in `study-notes.db` that
+develop-bible-study Phase 5 tells you to pull as a matter of course: the translation committee's own
+record of where the text is genuinely ambiguous. Ruth 2:1 is the reference case — ULT records the
+fork (*"a relative of her husband or perhaps an acquaintance of her husband (Hebrew Ketiv)"*) and
+UHB gives the Qere behind it (<span dir="rtl">מוֹדַ֣ע</span>), and both come back on an ordinary
+English verse lookup because `lookup_verse` resolves notes across versification schemes.
+
+Two parsing details worth knowing. Footnote markup is stripped to prose, so a note never leaks
+`\fq`/`\ft` markers or the lemma and Strong's tagging that wraps original-language words inside a
+note. And 64 psalms carry their title in a `\d` block rather than a `\v` — UHB numbers verses the
+English way, so a title that is Hebrew verse 1 cannot be a `\v` at all. `_uw_verses` splits on `\v`
+and cannot see those, so `_uw_superscriptions` covers them; without it the Qere readings on
+Jeduthun's name at Psalms 39 and 77 are silently dropped.
+
+**`versification_map` — 2,033 rows, and the answer to the trap above.** UHB does not merely use a
+different numbering, it *records the Hebrew one alongside*, in a `\va` marker on each affected
+verse. That is strictly better evidence than `versification.superscription_offset()`, which infers a
+whole-chapter shift from two works' verse counts: this is stated per verse, and it fixes references
+the scheme-level `align()` gets wrong outright — English Jonah 1:17 is Hebrew **Jonah 2:1** and
+English Job 41:2 is Hebrew **Job 40:26**, where `align()` returns both unchanged.
+
+`\va` is inconsistent about the chapter — 130 markers give it outright ("32:1"), the rest a bare
+verse number even where the chapter rolls over — so the chapter is resolved by testing candidates
+against the WLC text rather than assumed. The `source` column says how far to trust each row:
+
+| source | rows | meaning |
+|---|---|---|
+| `explicit` | 130 | the marker named chapter and verse |
+| `verse+verified` | 1,895 | `\va` gave the verse; the chapter was confirmed against WLC text |
+| `verse+unverified` | 8 | no candidate chapter matched — an unconfirmed inference, don't lean on it |
+
+Measured against `morphhb-wlc`: 1,828 rows land on identical consonantal text and a further 194 on
+the right verse with a Ketiv/Qere difference — 99%+ — where `align()` alone manages 173.
+`query.py verse` prints the stated reference whenever it disagrees with the scheme map.
+
+**The `\d` superscription text is now ingested too**, as **verse 0** of its psalm. Verse 0 is the
+only number that cannot collide with a real verse, and it keeps the title as its own row rather than
+merging it into verse 1 — which would fuse two Hebrew verses into one. UHB Psalm 39:0 now matches
+WLC Psalm 39:1 exactly.
 
 **ShareAlike, not plain CC BY.** These four are the only BY-SA sources in the tree.
 `license_map.yml` tiers BY-SA as `open`, which is right for quoting and for a gitignored local

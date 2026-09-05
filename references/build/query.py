@@ -72,7 +72,9 @@ def _resolve_work_id(conn: sqlite3.Connection, translation: str | None) -> str:
 # Lookup functions -- shared by the CLI below and mcp_server.py.
 # ---------------------------------------------------------------------------
 
-def _empty_result_reason(conn: sqlite3.Connection, work_id: str, book: str) -> str:
+def _empty_result_reason(conn: sqlite3.Connection, work_id: str, book: str,
+                          chapter: int | None = None, verse: int | None = None,
+                          from_scheme: str = "english") -> str:
     """A found-nothing verse/passage lookup looks identical whether the caller typo'd the book
     code or the translation genuinely doesn't cover that book (e.g. an NT-only Greek text, or --
     what this was written for -- ingest_ebible silently dropping 22 books from WEB/Delitzsch/
@@ -86,6 +88,36 @@ def _empty_result_reason(conn: sqlite3.Connection, work_id: str, book: str) -> s
     if not has_any:
         return (f"{work_id} has no verses for {book} at all -- this translation may not cover "
                 f"that book (check bible_works), or try a different translation.")
+    # The commonest cause of a miss in a book the work DOES carry is a versification mismatch, and
+    # "check the reference" sends the caller looking for a typo that isn't there. uw-uhb numbers
+    # verses the ULT's way and morphhb-wlc the Hebrew way, so Joel 2:28 is a real verse in one and
+    # absent from the other; say which number to ask for instead of implying user error.
+    if chapter is not None and verse is not None:
+        target_scheme = _work_scheme(conn, work_id)
+        if target_scheme == "masoretic" and from_scheme == "english":
+            stated = _stated_alt_ref(conn, book, chapter, verse)
+            if stated and conn.execute(
+                "SELECT 1 FROM verses WHERE work_id=? AND book=? AND chapter=? AND verse=?",
+                (work_id, book, stated["alt_chapter"], stated["alt_verse"]),
+            ).fetchone():
+                return (f"{work_id} uses masoretic versification. UHB records that "
+                        f"{book} {chapter}:{verse} is {book} {stated['alt_chapter']}:"
+                        f"{stated['alt_verse']} in Hebrew numbering -- ask for that reference.")
+        if target_scheme != from_scheme:
+            ref = versification.align(book, chapter, verse, from_scheme, target_scheme)
+            if ref is not None:
+                a_book, a_chapter, a_verse = ref
+                exists = conn.execute(
+                    "SELECT 1 FROM verses WHERE work_id=? AND book=? AND chapter=? AND verse=?",
+                    (work_id, a_book, a_chapter, a_verse),
+                ).fetchone()
+                if exists:
+                    return (f"{work_id} uses {target_scheme} versification, where "
+                            f"{book} {chapter}:{verse} ({from_scheme}) is "
+                            f"{a_book} {a_chapter}:{a_verse}. Ask for that reference, or use "
+                            f"`query.py parallel` -- it resolves work-to-work and also applies "
+                            f"the psalm-superscription offset, which `align` (scheme-to-scheme) "
+                            f"does not.")
     return f"{book} exists in {work_id}, but not at the chapter/verse given -- check the reference."
 
 # Strong's numbers are stored bare (schema.sql explains why), so G1242 and H1242 are the same
@@ -251,6 +283,32 @@ def _aligned_refs(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
     return resolved
 
 
+def _stated_alt_ref(conn: sqlite3.Connection, book: str, chapter: int, verse: int):
+    """The Hebrew reference UHB itself records for this verse, or None.
+
+    Preferred over `versification.align()` wherever it exists, because the verse is stated per verse
+    by the source rather than inferred from two works' verse counts, and the chapter is checked
+    against the WLC text rather than assumed. `source` says which: 'explicit' and 'verse+verified'
+    are both checked, 'verse+unverified' is not. Measured against morphhb-wlc it lands
+    on the right verse for 2,014 of 2,027 rows, where align() alone manages 173 -- and it is the only
+    thing here that gets English Jonah 1:17 to Hebrew 2:1 or English Job 41:2 to Hebrew 40:26.
+    """
+    row = conn.execute(
+        "SELECT alt_chapter, alt_verse, source FROM versification_map "
+        "WHERE book=? AND chapter=? AND verse=? LIMIT 1", (book, chapter, verse),
+    ).fetchone()
+    return dict(row) if row else None
+
+
+def _stated_english_ref(conn: sqlite3.Connection, book: str, chapter: int, verse: int):
+    """The reverse: given a Hebrew (masoretic) reference, the English number UHB gives it."""
+    row = conn.execute(
+        "SELECT chapter, verse FROM versification_map "
+        "WHERE book=? AND alt_chapter=? AND alt_verse=? LIMIT 1", (book, chapter, verse),
+    ).fetchone()
+    return dict(row) if row else None
+
+
 def lookup_verse(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
                   translation: str | None = None) -> dict[str, object]:
     """Translation text plus every morphology row and note for one verse -- the single most
@@ -296,8 +354,15 @@ def lookup_verse(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
         result["aligned_references"] = {
             s: f"{b} {c}:{v}" for s, (b, c, v) in realigned.items()
         }
+    # A stated mapping beats an inferred one, and disagreements are worth showing rather than
+    # silently preferring one -- they mark the verses where the scheme map is wrong.
+    stated = _stated_alt_ref(conn, book, chapter, verse) if scheme == "english" else None
+    if stated:
+        result["stated_hebrew_reference"] = (
+            f"{book} {stated['alt_chapter']}:{stated['alt_verse']}")
+        result["stated_hebrew_source"] = stated["source"]
     if verse_row is None:
-        result["warning"] = _empty_result_reason(conn, work_id, book)
+        result["warning"] = _empty_result_reason(conn, work_id, book, chapter, verse)
     return result
 
 
@@ -784,6 +849,24 @@ def cmd_verse(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
     print(f"  {result['text'] or '(not found for this work_id)'}")
     if result.get("warning"):
         print(f"  WARNING: {result['warning']}")
+    # lookup_verse resolves this so the morphology below comes from the right verse, but it was
+    # never shown. Worth printing: it is the only signal that the same reference names a different
+    # verse in another work here (uw-uhb is numbered the ULT's way, morphhb-wlc the Hebrew way),
+    # which otherwise fails silently when two Hebrew works are compared by reference.
+    if result.get("aligned_references"):
+        others = ", ".join(f"{s} {r}" for s, r in sorted(result["aligned_references"].items()))
+        print(f"  NOTE: this verse is numbered differently elsewhere -- {others}. "
+              f"Works in another scheme must be queried at their own number.")
+    if result.get("stated_hebrew_reference"):
+        stated = result["stated_hebrew_reference"]
+        inferred = (result.get("aligned_references") or {}).get("masoretic")
+        if inferred and inferred != stated:
+            print(f"  NOTE: UHB states the Hebrew reference is {stated} "
+                  f"({result['stated_hebrew_source']}), against {inferred} from the scheme map. "
+                  f"Prefer the stated one.")
+        elif not inferred:
+            print(f"  NOTE: UHB states the Hebrew reference is {stated} "
+                  f"({result['stated_hebrew_source']}); the scheme map reports no shift.")
 
     last_work = None
     for r in result["morphology"]:

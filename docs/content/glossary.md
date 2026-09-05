@@ -162,6 +162,19 @@ pre-Christian Hebrew witnesses this site holds. They are fragmentary, and a read
 brackets is an editor's reconstruction rather than manuscript evidence.
 → [The Dead Sea Scrolls](scripture/ancient-texts-manuscripts.md#1-the-dead-sea-scrolls-c-250-bc-ad-68)
 
+**Ketiv and Qere**{ #ketiv-qere } — The Masoretes' way of correcting a text without altering it.
+*Ketiv* (<span dir="rtl">כְּתִיב</span>, "what is written") is the consonantal text as received;
+*Qere* (<span dir="rtl">קְרֵי</span>, "what is read") is what the scribes marked to be read aloud
+instead. Neither is discarded — the written form stays on the page and the spoken correction sits in
+the margin, which is why a Hebrew Bible can preserve a reading its own tradition thought wrong.
+
+Which of the two a printed edition puts in the running text is an editorial decision, and the two
+Hebrew texts on this site made it differently. The Westminster Leningrad Codex follows the Qere; the
+unfoldingWord Hebrew Bible deliberately does not — "in order to avoid subjectivity, the text of the
+UHB uses the Ketiv of the WLC" ([unfoldingWord](https://git.door43.org/unfoldingWord/hbo_uhb)). That
+single choice is why the two differ in roughly 1.5% of verses, and this site's database keeps the
+930 Qere readings as notes attached to the verses they belong to, so both are visible.
+
 **LXX**{ #lxx } — The standard abbreviation for the [Septuagint](#septuagint), from the seventy
 translators of the tradition behind it.
 
@@ -203,6 +216,24 @@ fourth-century codices, and the reason they are sometimes called "the uncials".
 
 **Vorlage**{ #vorlage } — The source text a translator was actually working from — a distinct
 question from what the translation says.
+
+**Versification**{ #versification } — How an edition divides a book into numbered chapters and
+verses. The divisions are not part of the original text — they were added centuries later — and
+different traditions drew them in different places, so **the same reference can name different
+verses in different editions**.
+
+Hebrew Bibles and English Bibles disagree most often over psalm superscriptions (Hebrew usually
+counts the title as verse 1, English usually does not) and over where a chapter ends: what an
+English Bible calls Joel 2:28 is Joel 3:1 in Hebrew, and Jonah 1:17 is Jonah 2:1.
+
+This matters here because **the two Hebrew texts on this site are not numbered the same way.** The
+Westminster Leningrad Codex uses the Hebrew scheme; the unfoldingWord Hebrew Bible deliberately uses
+the English one, and unfoldingWord say so plainly — the UHB "uses the versification scheme of the
+ULT instead of that of the OSHB (which is based on the WLC scheme common for Hebrew Bibles)", which
+"may make some resources that are keyed to the WLC more difficult to use with the Hebrew text"
+([unfoldingWord](https://git.door43.org/unfoldingWord/hbo_uhb)). Around 1,500 verses are affected,
+mostly in Joel, 1 Chronicles, 1 Kings, Numbers, Job, Ezekiel and Malachi.
+→ [Hebrew Old Testament](scripture/translations.md#hebrew-old-testament)
 
 **WLC**{ #wlc } — Westminster Leningrad Codex. See [Masoretic Text](#masoretic-text).
 

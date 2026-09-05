@@ -7,12 +7,14 @@ not here.
 """
 import collections
 import csv
+import difflib
 import json
 import math
 import re
 import sqlite3
 import subprocess
 import sys
+import unicodedata
 import urllib.request
 import zipfile
 from datetime import date, timezone
@@ -325,6 +327,155 @@ def _uw_verses(usfm: str):
             yield chapter, int(m.group(1)), m.group(2)
 
 
+# A footnote is \f, an optional caller (+), then marker-tagged content, closed by \f*. The content
+# markers (\ft free text, \fq a quotation of the translated text, \fqa an alternative rendering)
+# read as continuous prose once stripped, so they are dropped rather than preserved -- "\fq your
+# cloak \ft or perhaps \fqa your clothes \ft (Hebrew Qere)" becomes exactly the sentence a reader
+# wants. Original-language words inside a note carry the same \w markup as the running text and are
+# reduced to the word itself; keeping their lemma/Strong's attributes would bury a one-word Qere
+# reading in eighty characters of tagging.
+_UW_FOOTNOTE = re.compile(r"\\f\s+\+?\s*(.*?)\\f\*", re.S)
+_UW_FOOTNOTE_WORD = re.compile(r"\\\+?w\s+([^|\\]+)\|[^\\]*\\\+?w\*")
+_UW_FOOTNOTE_MARKER = re.compile(r"\\[+a-z]+\*?")
+
+
+def _alt_ref_row(work_id: str, book: str, chapter: int, verse: int,
+                 alt: tuple[int | None, int]) -> tuple:
+    r"""One versification_map row, resolving the chapter when \va did not state it.
+
+    A bare \va gives the verse only, so the chapter comes from the scheme map -- which is exactly
+    the part that is sometimes wrong (English Jonah 1:17 is Hebrew 2:1; align() leaves it at 1:17).
+    The label set here is provisional -- _resolve_alt_chapters() then checks the chapter against the
+    WLC text and upgrades it to 'verse+verified' or downgrades it to 'verse+unverified', so a caller
+    is never left trusting an unchecked chapter as much as a stated one.
+    """
+    alt_chapter, alt_verse = alt
+    if alt_chapter is not None:
+        return (work_id, book, chapter, verse, "masoretic", alt_chapter, alt_verse, "explicit")
+    ref = versification.align(book, chapter, max(verse, 1), "english", "masoretic")
+    resolved_chapter = ref[1] if ref is not None else chapter
+    return (work_id, book, chapter, verse, "masoretic", resolved_chapter, alt_verse, "verse+provisional")
+
+
+def _hebrew_letters(text: str) -> str:
+    """Consonants only -- vowels, cantillation, maqqef and morpheme separators all dropped.
+
+    The two editions disagree about where a word divides (WLC writes a maqqef, UHB a word joiner),
+    so any comparison that keeps word boundaries reports differences that are not there.
+    """
+    decomposed = unicodedata.normalize("NFD", text)
+    stripped = "".join(c for c in decomposed if not unicodedata.combining(c))
+    return re.sub(r"[^\u05d0-\u05ea]", "", stripped)
+
+
+def _resolve_alt_chapters(conn: sqlite3.Connection, work_id: str, rows: list) -> list:
+    r"""Fix the chapter on every `verse+scheme` row by checking which one the WLC actually agrees with.
+
+    \va states the verse but often not the chapter, and the scheme map is exactly what is unreliable
+    at a chapter boundary -- it leaves English Jonah 1:17 at Hebrew 1:17 when the answer is 2:1, and
+    English Job 41:2 at 41:26 when it is 40:26. Both are recoverable without guessing: morphhb-wlc is
+    already ingested, so the candidate chapters can be tested against the text itself and the one
+    that matches kept -- marked 'verse+verified'. A row that matches nothing keeps its inferred
+    chapter and is marked 'verse+unverified' so a caller knows not to lean on it.
+    """
+    wlc = {}
+    for book, chap, vs, text in conn.execute(
+            "SELECT book, chapter, verse, text FROM verses WHERE work_id='morphhb-wlc'"):
+        wlc[(book, chap, vs)] = _hebrew_letters(text)
+    source_text = {}
+    for book, chap, vs, text in conn.execute(
+            "SELECT book, chapter, verse, text FROM verses WHERE work_id=?", (work_id,)):
+        source_text[(book, chap, vs)] = _hebrew_letters(text)
+
+    resolved = []
+    for row in rows:
+        wid, book, chapter, verse, scheme, alt_chapter, alt_verse, origin = row
+        if origin == "explicit":
+            resolved.append(row)
+            continue
+        mine = source_text.get((book, chapter, verse))
+        if not mine:
+            resolved.append(row)
+            continue
+        best, best_ratio = None, 0.0
+        for candidate in (alt_chapter, chapter, chapter - 1, chapter + 1):
+            theirs = wlc.get((book, candidate, alt_verse))
+            if not theirs:
+                continue
+            ratio = difflib.SequenceMatcher(None, mine, theirs).ratio()
+            if ratio > best_ratio:
+                best, best_ratio = candidate, ratio
+        if best is not None and best_ratio >= 0.9:
+            resolved.append((wid, book, chapter, verse, scheme, best, alt_verse, "verse+verified"))
+        else:
+            resolved.append((wid, book, chapter, verse, scheme, alt_chapter, alt_verse,
+                             "verse+unverified"))
+    return resolved
+
+
+def _uw_superscriptions(usfm: str):
+    r"""(chapter, body) for each \d superscription block -- the psalm titles.
+
+    UHB numbers verses the ULT's way, so where Hebrew counts a superscription as verse 1 and English
+    does not, the title cannot be a \v at all: it sits in a \d block before the first verse, with its
+    Hebrew number preserved alongside in \va. 64 psalms are built that way, and _uw_verses -- which
+    splits on \v -- cannot see any of them. Their footnotes are Qere readings on names in the titles
+    (Jeduthun at Psalms 39 and 77), so they are attributed to verse 1, the nearest reference an
+    English-numbered reader can look up.
+    """
+    for chunk in re.split(r"\\c\s+(\d+)", usfm)[1:]:
+        if chunk.strip().isdigit() and len(chunk.strip()) < 4:
+            chapter = int(chunk.strip())
+            continue
+        head = re.split(r"\\v\s+\d+", chunk, maxsplit=1)[0]
+        for m in re.finditer(r"\\d\b(.*?)(?=\\[cpqsm]\w*\s*\n|\Z)", head, re.S):
+            yield chapter, m.group(1)
+
+
+_UW_VA = re.compile(r"\\va\s+([0-9]+(?::[0-9]+)?)\s*\\va\*")
+
+
+def _uw_alt_verse(body: str):
+    r"""The Hebrew verse number this verse carries in \va, as (chapter_or_None, verse).
+
+    UHB is numbered the ULT's way and records the Masoretic number alongside. It is inconsistent
+    about the chapter: 131 markers give it outright ("32:1"), but Daniel 5:31 and Jonah 1:17 record
+    a bare "1" where the Hebrew chapter also rolls over. So the chapter is returned only when the
+    source actually stated it, and the caller falls back to the scheme map otherwise.
+    """
+    m = _UW_VA.search(body)
+    if m is None:
+        return None
+    raw = m.group(1)
+    if ":" in raw:
+        chapter, verse = raw.split(":", 1)
+        return int(chapter), int(verse)
+    return None, int(raw)
+
+
+def _uw_footnotes(body: str):
+    r"""(note_type, text) for each footnote in one verse body.
+
+    UHB spends 930 of its 949 notes on a single job: it prints the Ketiv in the text and records the
+    Qere here, flagged by a bare `Q`. That is the Masoretes' own "the consonants say X, read Y" --
+    the reason UHB and morphhb-wlc disagree in 340 verses -- so it gets its own note_type rather
+    than being filed under 'translator' with genuine translator prose. The one-letter flags are
+    expanded because `Q` alone is opaque next to the reading it introduces.
+    """
+    for raw in _UW_FOOTNOTE.findall(body):
+        text = _UW_FOOTNOTE_WORD.sub(r"\1", raw)
+        text = _UW_FOOTNOTE_MARKER.sub(" ", text)
+        text = re.sub(r"\s+", " ", text).strip()
+        if not text:
+            continue
+        note_type = "translator"
+        if text == "Q" or text.startswith("Q "):
+            note_type, text = "qere", "Qere: " + text[1:].strip()
+        elif text == "K" or text.startswith("K "):
+            note_type, text = "ketiv", "Ketiv: " + text[1:].strip()
+        yield note_type, text
+
+
 def ingest_unfoldingword_text(conn: sqlite3.Connection, repo_name: str, work_id: str, title: str,
                               language: str, url_slug: str) -> None:
     """UHB and UGNT: the tagged original-language texts, stored as verse text.
@@ -347,15 +498,41 @@ def ingest_unfoldingword_text(conn: sqlite3.Connection, repo_name: str, work_id:
          "Creative Commons: BY-SA 4.0", "open",
          f"unfoldingWord, https://www.unfoldingword.org/{url_slug.split('_')[-1]}"),
     )
-    rows = []
+    rows, note_rows, map_rows = [], [], []
     for osis, usfm in _uw_books(repo):
         for chapter, verse, body in _uw_verses(usfm):
             words = [w for w, _ in _UW_WORD.findall(body)]
             if words:
                 rows.append((work_id, osis, chapter, verse, " ".join(words)))
+            for note_type, text in _uw_footnotes(body):
+                note_rows.append((work_id, osis, chapter, verse, note_type, text))
+            alt = _uw_alt_verse(body)
+            if alt is not None:
+                map_rows.append(_alt_ref_row(work_id, osis, chapter, verse, alt))
+        # A psalm title that is Hebrew verse 1 cannot be a \v in an English-numbered text, so 64 of
+        # them sit in a \d block that _uw_verses cannot see -- their text was absent from `verses`
+        # entirely. Stored as verse 0: it is the only number that cannot collide with a real verse,
+        # and it keeps the title attached to its psalm instead of merged into verse 1, which would
+        # silently fuse two Hebrew verses into one row.
+        for chapter, head in _uw_superscriptions(usfm):
+            words = [w for w, _ in _UW_WORD.findall(head)]
+            if words:
+                rows.append((work_id, osis, chapter, 0, " ".join(words)))
+            for note_type, text in _uw_footnotes(head):
+                note_rows.append((work_id, osis, chapter, 0, note_type, text))
+            alt = _uw_alt_verse(head)
+            if alt is not None:
+                map_rows.append(_alt_ref_row(work_id, osis, chapter, 0, alt))
     conn.executemany("INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", rows)
+    conn.executemany(
+        "INSERT INTO notes (work_id, book, chapter, verse, note_type, text) VALUES (?,?,?,?,?,?)",
+        note_rows)
+    conn.executemany(
+        "INSERT INTO versification_map (work_id, book, chapter, verse, alt_scheme, alt_chapter, "
+        "alt_verse, source) VALUES (?,?,?,?,?,?,?,?)", _resolve_alt_chapters(conn, work_id, map_rows))
     conn.commit()
-    print(f"{work_id}: {len(rows)} verses")
+    print(f"{work_id}: {len(rows)} verses, {len(note_rows)} notes, "
+          f"{len(map_rows)} versification rows")
 
 
 def ingest_ult(conn: sqlite3.Connection) -> None:
@@ -377,9 +554,11 @@ def ingest_ult(conn: sqlite3.Connection) -> None:
          "https://git.door43.org/unfoldingWord/en_ult", submodule_commit("uw-ult"), TODAY,
          "Creative Commons: BY-SA 4.0", "open", "unfoldingWord, https://www.unfoldingword.org/ult"),
     )
-    verse_rows, align_rows = [], []
+    verse_rows, align_rows, note_rows = [], [], []
     for osis, usfm in _uw_books(repo):
         for chapter, verse, body in _uw_verses(usfm):
+            for note_type, text in _uw_footnotes(body):
+                note_rows.append(("uw-ult", osis, chapter, verse, note_type, text))
             english_all, stack = [], []
             for token in re.finditer(r"\\zaln-s\s*\|([^\\]*?)\\\*|\\zaln-e\\\*|\\w\s+([^|\\]+)\|([^\\]*)\\w\*", body):
                 if token.group(1) is not None:
@@ -399,12 +578,19 @@ def ingest_ult(conn: sqlite3.Connection) -> None:
                         ))
             if english_all:
                 verse_rows.append(("uw-ult", osis, chapter, verse, " ".join(english_all)))
+        for chapter, head in _uw_superscriptions(usfm):
+            for note_type, text in _uw_footnotes(head):
+                note_rows.append(("uw-ult", osis, chapter, 1, note_type, f"{text} (on the superscription)"))
     conn.executemany("INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", verse_rows)
     conn.executemany(
         "INSERT INTO word_alignment (work_id, book, chapter, verse, english, content, lemma, "
         "strong, morph, occurrence) VALUES (?,?,?,?,?,?,?,?,?,?)", align_rows)
+    conn.executemany(
+        "INSERT INTO notes (work_id, book, chapter, verse, note_type, text) VALUES (?,?,?,?,?,?)",
+        note_rows)
     conn.commit()
-    print(f"uw-ult: {len(verse_rows)} verses, {len(align_rows)} alignment rows")
+    print(f"uw-ult: {len(verse_rows)} verses, {len(align_rows)} alignment rows, "
+          f"{len(note_rows)} notes")
 
 
 def ingest_uhg(conn: sqlite3.Connection) -> None:
