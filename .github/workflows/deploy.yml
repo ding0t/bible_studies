@@ -63,3 +63,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          # No `wrangler` devDependency anywhere in the repo for the action to detect a version
+          # from, so it silently falls back to an old pinned default (3.90.0) that doesn't
+          # understand an assets-only wrangler.jsonc (no `main`) -- pin explicitly instead.
+          wranglerVersion: '4'
