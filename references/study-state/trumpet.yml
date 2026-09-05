@@ -218,3 +218,33 @@ resources_consulted:
   - {type: commentary, title: "NIV Cultural Backgrounds Study Bible / NKJV Cultural Backgrounds Study Bible", author: "Zondervan, ed. Walton and Keener", note: "Source of the Egyptian-trumpet archaeological parallel, the Exodus-plague/trumpet/bowl comparison chart, the Joel-locust background to Revelation 9, and the Isaiah 27:12-13 background to Matthew 24:31. Materially shaped the Seven Trumpets table and the last-trumpet distinction section, not just confirmed them."}
   - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan, 2018, gen. ed. D. A. Carson", note: "1 Corinthians 15:52 cross-reference note -- engaged directly rather than just cited, since it reads the trumpet texts as one thematic family without the timing distinction this study argues for; noted that disagreement explicitly in the draft rather than silently picking the source that agreed."}
 last_updated: "2026-08-04"
+
+revision_2026-09-06:
+  what: "Image pass, at the user's request."
+  changes:
+    - >
+      shofar.webp constrained to width="320" via attr_list. It is 1365x2048 portrait, which
+      rendered at roughly 563x845 in the content column -- a screen and a half of image. The file
+      itself is unchanged, so the change is reversible and the image stays sharp at 2x.
+    - >
+      two-trumpets.jpg REMOVED from the study and DELETED from the repo. Not a sizing problem: the
+      photo contradicted the paragraph it sat under. This study's own sources put the chatsotsrah
+      at "roughly two feet long" (ESV Study Bible on Num 10) and, via Josephus, "just over a foot
+      long and flared"; the photo showed two men blowing instruments nearer five feet. Resizing
+      would have preserved the contradiction. It was also a modern reenactment featuring
+      identifiable people, with no provenance or attribution recorded anywhere in the study.
+      Recoverable from git history at bf372cd if ever wanted.
+  note_on_earlier_entry: >
+    The review_2026-08-04 entry above records both images as "confirmed to resolve on disk". That
+    was true when written and is now stale for two-trumpets.jpg. Left as written rather than
+    edited, since these blocks are a dated record rather than current state.
+  replacement_wanted: >
+    The study already names the right image in its own prose: "pictures of captured temple trumpets
+    survive on the Arch of Titus in Rome, carried among the plunder of Jerusalem's fall in AD 70."
+    An ancient primary depiction rather than a reconstruction, and it is what the paragraph is
+    already citing. Wikimedia Commons carries public-domain photographs of the spoils panel. Not
+    added here because images cannot be fetched from the working environment.
+  site_gap_noticed: >
+    There is no image-credit or attribution convention anywhere in docs/content/. Every image on
+    the site is unattributed. Worth closing separately from this study.
+  last_updated: "2026-09-06"
