@@ -5,7 +5,7 @@ description: "Master list of open-license Bible text, manuscript, lexicon, and c
 tags: ["github", "lang/hebrew", "lang/greek", "lexicon", "strongs", "manuscripts", "licensing"]
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -18,6 +18,23 @@ Master list of external repositories we're forking (or considering forking) as o
 Sourced partly from [biblenerd/awesome-bible-developer-resources](https://github.com/biblenerd/awesome-bible-developer-resources), a curated list of Bible developer resources — good place to check first when we need a new data type.
 
 **Rule we're following:** a repository's own license (MIT, CC0, etc.) only covers *their* code/compilation — it does not override the copyright status of third-party text they've bundled in (a Bible translation, a lexicon). Every entry below is checked for this specifically, because at least one candidate below gets it wrong.
+
+**What belongs here, and what belongs elsewhere.** This page is the acquisition ledger: which
+repository, under which licence, forked to where, at what path and size, and what bit us on the way
+in. Three other pages describe the same material for other purposes, and a fact should live in one
+of them rather than be restated across all four:
+
+| Page | Answers |
+|---|---|
+| this page | Where a source came from, its licence, whether we forked it and where it sits on disk |
+| [About Our Datasets](../about/about-our-datasets.md) | Which licence tier a source falls in, which database it feeds, and how much of it may be quoted |
+| [Bible Translations & Source Texts](../scripture/translations.md) | What a text *is* as a witness — its strengths, its cautions, what it can and cannot settle |
+| [Patristic Sources](patristic-sources.md) | The church fathers, and why an original matters where a translation will not do |
+
+A row here should say what a source is in a phrase and link out for the rest. Where this page has
+argued a text's value at length it has drifted from the pages that own that argument, and been
+wrong: it described Delitzsch as "our only Hebrew New Testament text" while the row beneath it
+documented the second one.
 
 **Status key**
 
@@ -37,7 +54,9 @@ Sourced partly from [biblenerd/awesome-bible-developer-resources](https://github
 | [alshival/super_bible](https://github.com/alshival/super_bible) | CSV Bible text dumps, several English + Spanish versions, built for LLM training data | Repo claims **CC0-1.0** | ❌ Skip | Not forked. Includes a full **ESV** CSV (`super_bible_ESV.csv`). The ESV is a commercially copyrighted Crossway translation with a published permissions policy (free quotation up to 500 verses under conditions, not wholesale redistribution) — a CC0 declaration by this repo's maintainer doesn't and can't waive Crossway's copyright. If we want any of its clearly-public-domain files later, re-source them individually and verify each one, not via a blanket fork. |
 | [javascripture/javascripture](https://github.com/javascripture/javascripture) | Bible data bundled with a JS project (`gh-pages/bibles`) | Not found in README | ⚠️ Verify | Not forked. Need to check the actual `bibles/` data files and their source before deciding. |
 | [berean.bible](https://berean.bible/) (Berean Standard Bible / Berean Greek Bible) | Modern, readable English translation + Greek critical text | **CC0 — dedicated to the public domain, April 2023.** Confirmed on their terms page: "all uses are freely permitted," commercial use explicitly allowed. Only ask: don't call a modified derivative "Berean." | ✅ Covered, not separately forked | No single canonical GitHub source exists (BSB text is scattered across ~15 unofficial hobby repos). Already have it via `scrollmapper/bible_databases` above — a dedicated fork would be redundant. Revisit only if we need the canonical USFM form specifically (see `usfm-bible/examples.bsb`). |
-| [unfoldingWord/hbo_uhb](https://git.door43.org/unfoldingWord/hbo_uhb) (UHB) | Lexically tagged, morphologically parsed Hebrew OT | CC BY-SA 4.0 (confirmed) | ⚠️ Blocked on mechanism | Hosted on Door43 (Gitea), not GitHub — `gh repo fork` doesn't cross platforms. Forking there needs a separate Door43 account and a different process than everything else in this doc. Holding off rather than half-doing the "fork for permanence" pattern; revisit if a study specifically needs UHB over `morphhb`. |
+| [unfoldingWord/hbo_uhb](https://git.door43.org/unfoldingWord/hbo_uhb) (UHB) | Hebrew OT in USFM with lemma, Strong's and morphology on every word | CC BY-SA 4.0 (confirmed in `LICENSE.md`, 2026-09-05) | 🟡 Evaluated, take only with ULT | Reachable and small (~23MB). **On its own it adds little**: Genesis 1:1 gives `\w בְּ⁠רֵאשִׁ֖ית\|lemma="רֵאשִׁית" strong="b:H7225" x-morph="He,R:Ncfsa"`, which is lemma, prefixed Strong's and morphology we already hold twice over in `morphhb` and `macula-hebrew` off the same WLC text. Its actual value is being *the text ULT aligns to* — take it as the key to the alignment below, not as a third copy of the Hebrew. |
+| [unfoldingWord/en_ult](https://git.door43.org/unfoldingWord/en_ult) (ULT) | Literal English translation carrying **word-level alignment to the Hebrew and Greek** | CC BY-SA 4.0 (confirmed in `LICENSE.md`, 2026-09-05) | 🟡 Worth taking when a study needs it | ~115MB. The one thing here nothing else supplies: every English word is wrapped in a `\zaln-s` marker naming the original word it renders, with its lemma, Strong's and morphology — *"In the beginning"* carries `x-content="בְּ⁠רֵאשִׁ֖ית"`. That turns "which Hebrew word is this English word?" from a judgement into a lookup, which is exactly what this site claims to do for cross-references. Needs `hbo_uhb` (and UGNT for the NT) to resolve against. |
+| [unfoldingWord/en_uhg](https://git.door43.org/unfoldingWord/en_uhg) (UHG) | Reference grammar of biblical Hebrew, 96 articles keyed to the same morphology codes | CC BY-SA 4.0 (confirmed in `LICENSE.md`, 2026-09-05) | 🟡 Worth taking when a study needs it | Tiny (~3MB), `.rst` files by category — *adjective_gentilic*, *definiteness*, *conjunction*. Fills a real gap rather than duplicating: this project holds lexicons (BDB, Strong's, TWOT) and morphology tags but **no grammar**, while develop-bible-study's Phase 4 asks for "grammar/syntax points that affect meaning." Currently that has to come from recall. |
 | [LogosBible/SBLGNT](https://github.com/LogosBible/SBLGNT) | SBL Greek New Testament, the standard academic critical text | CC BY 4.0 (confirmed — SBL & Logos Bible Software, copyright holders since 2010) | ✅ Forked | [ding0t/SBLGNT](https://github.com/ding0t/SBLGNT) → `references/open-data/sblgnt/`. Commercial use allowed. |
 | [ETCBC/bhsa](https://github.com/ETCBC/bhsa) | Biblia Hebraica Stuttgartensia with deep linguistic/syntactic annotation (text-fabric format) | **CC BY-NC 4.0 — non-commercial only** (confirmed: "do not use the data for commercial applications without consent; contact the German Bible Society" for commercial use) | 🟡 Forked, restricted | [ding0t/bhsa](https://github.com/ding0t/bhsa) → `references/restricted-data/bhsa/`. Off the table if this site ever monetizes. |
 
@@ -60,6 +79,20 @@ Sourced partly from [biblenerd/awesome-bible-developer-resources](https://github
 | STEPBible-Data (above) | Includes TSK-style cross-reference data | CC BY 4.0 | ✅ Forked | See above — no separate source needed unless it turns out incomplete. |
 | scrollmapper/bible_databases (above) | Includes cross-reference databases | MIT (schema) | ✅ Forked | See above — cross-ref tables come along with the Bible text fork. |
 
+### Two notes before forking anything from Door43
+
+**ShareAlike is not the same as CC BY.** Every other open source on this page is CC BY, CC0 or
+public domain; the unfoldingWord texts are CC BY-**SA**, so a derivative has to carry the same
+licence, and unfoldingWord's own terms add that a derivative must state what was changed and drop
+the unfoldingWord® trademark. `license_map.yml` already tiers BY-SA as `open`, which is right for
+quoting and for building `bible-text.db` locally, since that database is gitignored and never
+redistributed. It would need thinking about again before any derived dataset was published.
+
+**Door43 is Gitea, so `gh repo fork` does not reach it** — that part of the old note was correct.
+What was wrong was treating it as a blocker: the repos clone and their raw files fetch fine, and
+the "fork for permanence" pattern would be satisfied by pushing a mirror to `ding0t/*`. The reason
+to hold off is worth-it-yet, not can't.
+
 ## Not pursuing
 
 - [openscriptures/api](https://github.com/openscriptures/api) — archived, GPL-2.0, application code rather than data. No reason to fork for a static-content repo.
@@ -77,7 +110,7 @@ Listed so nothing gets silently dropped; pull one of these in when a study actua
 - **Codex Sinaiticus** (XML) — check license, British Library involvement suggests possible NC restriction
 - **Open Greek New Testament (OGNT / CNTR)** — NA28-equivalent text
 - **Robinson's Greek Texts** — Byzantine/Majority text
-- **unfoldingWord Greek NT (UGNT), Literal Text (ULT), Simplified Text (UST)** — likely CC BY-SA 4.0 like `hbo_uhb` above, not individually confirmed yet
+- **unfoldingWord Greek NT (UGNT), Simplified Text (UST)** — likely CC BY-SA 4.0, not individually confirmed. UGNT is the Greek-side partner to `hbo_uhb`, so it is what a New Testament study would need to resolve ULT's alignment. (ULT itself is now evaluated and tabled above.)
 - **Open Bibles** (Bible Innovations) — aggregator of PD/CC translations, worth checking as a second source alongside scrollmapper
 - **Abbott-Smith Manual Lexicon**, **Dodson Greek-English Lexicon**, **Liddell-Scott-Jones (LSJ)** — Greek lexicons, likely public domain (pre-1929 sources) but not confirmed per-repo
 
@@ -106,8 +139,8 @@ verified present in each.
 | `eng-web` | World English Bible (WEB) — full Bible | Public Domain (confirmed on-page) | AGENTS.md's preferred WEB translation, previously not actually present (scrollmapper's bundle only has the unrelated older "Webster"/"RWebster" PD translations, despite a stray empty `WEB.db` stub suggesting otherwise). |
 | `grcbrent` | Brenton Septuagint — actual Greek LXX text (verified by downloading and reading it directly, not just the license text — "Brenton" commonly implies his *English* translation, so this was worth checking) | Public Domain (confirmed on-page) | Fills a real gap: `GreekResources` above deliberately excludes LXX text because the CCAT source is restricted. `grclxx` (Orthodox Media Network) is a near-identical edition of the same text — skipped as redundant rather than forking both. |
 | `grc-tisch` | Tischendorf 8th ed. Greek New Testament — a third distinct NT critical-text lineage alongside SBLGNT (CC BY 4.0, above) and Byzantine/TR (via scrollmapper, restricted-nc) | Public Domain (confirmed on-page) | |
-| `heb` | Delitzsch Hebrew Bible — OT+NT translated into Hebrew | Public Domain (confirmed on-page) | Our only Hebrew New Testament text. **Confirmed 2026-09-03 to be the same translation as `scrollmapper-HebModern`** — 31,101 of 31,102 verses are byte-identical — so the two work_ids are one text ingested twice, and this one is the copy with a confirmed public-domain licence. Delitzsch (1877) is a 19th-century translation *from the Greek*, not an ancient witness; see [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) before citing it as evidence of a Hebrew original. |
-| `hebsg` | Salkinson-Ginsburg Hebrew New Testament (1885, revised by Ginsburg 1886) | Public Domain (confirmed in eBible's catalog) | A **second, independent** Hebrew rendering of the Greek NT. Salkinson confined himself to vocabulary attested in the Tanakh and pointed his text; Delitzsch wrote unpointed in a more Mishnaic register, so the two differ in every verse. Like Delitzsch it is a 19th-century translation *from the Greek* — not a witness to a Hebrew original. |
+| `heb` | Delitzsch — **his Hebrew New Testament**, bundled by eBible with a Hebrew Old Testament | Public Domain (confirmed on-page) | One of **two** Hebrew New Testaments here; `hebsg` below is the other. The bundle's OT half is the Hebrew Bible's own text, unpointed — *not* something Delitzsch translated, so read the work_id's "Hebrew Bible (OT+NT)" title as a container label rather than a claim about authorship. **Re-confirmed 2026-09-05 to be the same text as `scrollmapper-HebModern`** — 31,101 of 31,102 verses byte-identical — so the two work_ids are one text ingested twice, and this is the copy with a confirmed public-domain licence. What the two Hebrew New Testaments can and cannot settle is on [Bible Translations & Source Texts](../scripture/translations.md#hebrew-old-testament), not repeated here. |
+| `hebsg` | Salkinson-Ginsburg Hebrew New Testament (1885, revised by Ginsburg 1886) | Public Domain (confirmed in eBible's catalog) | The second, independent Hebrew rendering of the Greek NT: Salkinson kept to vocabulary attested in the Tanakh and pointed his text, Delitzsch wrote unpointed in a more Mishnaic register, so the two differ in every verse. Both are 19th-century translations *from the Greek*. Why that matters, and the live question about its earliest printings, is on [Bible Translations & Source Texts](../scripture/translations.md#hebrew-old-testament). |
 
 **Known data-quality caveats** (see `ingest_ebible()`'s own notes for full detail): some NT editions double-tag words (`\w` + non-standard `\ww`) or use USFM 3.0 `\w word|attr\w*` syntax the installed BibleOrgSys doesn't strip cleanly — handled with a regex pass before loading, verified against Rev 13:10 and John 3:16. LXX/deuterocanonical chapter-verse numbering can diverge from Masoretic/English versification (Psalms, Daniel, Esther especially) — don't assume `(book, chapter, verse)` lines up across works without checking.
 

@@ -1,0 +1,84 @@
+slug: github-resources-review
+title: "Review of resources/github.md — Hebrew NT claims, Door43 sources, overlap with about-our-datasets"
+status: complete
+target_path: docs/content/resources/github.md
+started: 2026-09-05
+
+# Not a Bible study, so the study template does not apply. Same purpose though: survive a session
+# boundary without re-deriving what was already established.
+
+scope:
+  - Fix the Hebrew New Testament claims on resources/github.md
+  - Evaluate three Door43 repos the page lists as unexplored or blocked
+  - Remove duplication between resources/github.md and about/about-our-datasets.md
+
+findings:
+  hebrew_nt_claims:
+    verified_against: references/build/out/bible-text.db, 2026-09-05
+    errors_found:
+      - claim: "`heb` … Our only Hebrew New Testament text."
+        location: docs/content/resources/github.md, eBible table
+        verdict: WRONG, and self-contradicting
+        evidence: >
+          The very next row documents `hebsg` (Salkinson-Ginsburg) as "a second, independent Hebrew
+          rendering of the Greek NT". Both are in bible-text.db: ebible-heb carries 31,102 verses
+          and ebible-hebsg 7,957 (NT only). translations.md has said "two Hebrew New Testaments"
+          since 2026-09-04, so this page is the odd one out.
+      - claim: "Delitzsch Hebrew Bible — OT+NT translated into Hebrew"
+        verdict: WRONG for the OT half
+        evidence: >
+          ebible-heb's Genesis 1:1 is the Hebrew Bible's own text, unpointed and without the WLC's
+          morpheme separators — בראשית ברא אלהים את השמים ואת הארץ. Delitzsch translated the NEW
+          Testament into Hebrew; the OT in this bundle is the Hebrew Bible, not a translation into
+          Hebrew. The work_id title in build.py, "Delitzsch Hebrew Bible (OT+NT)", carries the same
+          ambiguity.
+    claims_that_hold:
+      - claim: "31,101 of 31,102 verses byte-identical with scrollmapper-HebModern"
+        verdict: CONFIRMED on re-run, 31101/31102
+      - claim: "Delitzsch and Salkinson are 19th-century translations from the Greek, not ancient witnesses"
+        verdict: CONFIRMED, and consistent with translations.md
+
+  door43:
+    status: evaluated 2026-09-05, all three tabled on the page; none forked yet
+    licence: >
+      All three CC BY-SA 4.0, confirmed by reading each LICENSE.md directly. ShareAlike, unlike
+      every other open source on that page, plus an unfoldingWord trademark condition on
+      derivatives. license_map.yml already tiers BY-SA as open, which holds for quoting and for a
+      local gitignored bible-text.db; it would need revisiting before publishing a derived dataset.
+    hbo_uhb: >
+      ~23MB. Lemma, prefixed Strong's and morphology per word, off the same WLC text as morphhb.
+      Adds little on its own -- we hold that twice already in morphhb and macula-hebrew. Its value
+      is being the text ULT aligns to.
+    en_ult: >
+      ~115MB. THE find. Every English word wrapped in a \zaln-s marker naming the original word it
+      renders, with lemma, Strong's and morph -- "In the beginning" carries x-content="בראשית".
+      Nothing else held here supplies English-to-original alignment. Needs hbo_uhb (and UGNT for
+      the NT) to resolve against.
+    en_uhg: >
+      ~3MB, 96 .rst articles by grammatical category. Fills a real gap rather than duplicating:
+      this project has lexicons and morphology tags but no grammar, while develop-bible-study's
+      Phase 4 asks for grammar points that affect meaning.
+    correction_to_the_page: >
+      The old row said UHB was "blocked on mechanism". Half right: gh repo fork genuinely cannot
+      reach Gitea, but the repos clone and their raw files fetch fine, and a mirror pushed to
+      ding0t/* would satisfy the fork-for-permanence pattern. The reason to hold off is
+      worth-it-yet, not can't.
+
+  duplication:
+    status: resolved by stating the boundary rather than deleting text
+    finding: >
+      Not duplication of fact so much as four pages describing one inventory for different readers:
+      github.md (acquisition -- repo, licence, fork, path), about-our-datasets.md (tier, which
+      database, how much may be quoted), translations.md (what a text is worth as a witness),
+      patristic-sources.md (the fathers). The harmful overlap was interpretive: github.md argued a
+      text's value at length, drifted from the page that owns that argument, and got it wrong.
+      Both pages now carry a table or note saying which question each owns, and github.md's Hebrew
+      rows link out instead of restating.
+
+open_questions:
+  - >
+    Nothing enforces the four-page boundary. check_sources.py catches a source missing from the
+    patristics docs, but nothing catches a claim restated in two places and updated in one.
+  - >
+    UGNT was not evaluated. It is the Greek-side partner to hbo_uhb and would be needed before
+    ULT's alignment is usable for any New Testament study.

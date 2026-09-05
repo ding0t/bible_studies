@@ -5,7 +5,7 @@ description: "What Bible text, lexical, and commentary data backs this site, org
 tags: ["data", "sources", "licensing", "transparency", "mermaid"]
 draft: false
 date_created: 2026-07-27
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -110,6 +110,16 @@ Strong's number pointing to a TWOT root, lemma, and one-line gloss — are open 
 plain JSON map and use freely. Its actual discussion prose, the paragraphs of argument behind each root,
 is quotation-only like any other copyrighted reference work: citable by root number and gloss, quotable
 a sentence at a time with attribution, never reproduced as a full entry.
+
+## Where this page stops
+
+This page answers one question: which licence tier a source falls in, which database it feeds, and
+how much of it may be quoted. It deliberately does not carry the acquisition detail — repository
+URLs, fork status, paths on disk — which lives on
+[Open Bible Data on GitHub](../resources/github.md), nor the judgement of what each text is worth as
+a witness, which lives on [Bible Translations & Source Texts](../scripture/translations.md). Facts
+restated in several places drift apart, and the version on the page that does not own the question
+is the one that goes stale.
 
 ## What sits outside both databases
 
