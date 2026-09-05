@@ -16,6 +16,7 @@ copyright: 'Scripture quotations are used by permission — see <a href="/about/
 theme:
   name: material
   favicon: assets/img/favicon.svg
+  logo: assets/img/favicon.svg
   palette:
     # Defaults to the visitor's OS-level preference, then remembers their explicit choice.
     - media: "(prefers-color-scheme: light)"
