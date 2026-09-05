@@ -128,7 +128,7 @@ The ages by the Zadok calendar, in thousand-year days from creation (AM).
 
 ```mermaid
 flowchart TD
-    A["Days 1-2 · AM 0-2000<br/>Creation"] --> B["Days 3-4 · AM 2000-4000<br/>AD 32 crucifixion<br/>AD 75 — AM 4000"]
+    A["Days 1-2 · AM 0-2000<br/>Creation"] --> B["Days 3-4 · AM 2000-4000<br/>AD 33 crucifixion<br/>AD 75 — AM 4000"]
     B --> C["Days 5-6 · AM 4000-6000<br/>AD 2025, where we are"]
     C --> D["Day 7 · AM 6000-7000<br/>AD 2075 — AM 6000"]
 ```

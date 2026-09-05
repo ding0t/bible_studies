@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -174,6 +174,22 @@ By comparing the manuscripts that carry it and saying openly where they disagree
 textual criticism is, and it is a strength of the case rather than an embarrassment to it. This site
 works the disputed cases rather than asserting that there are none.
 → [Textual criticism](scripture/ancient-texts-manuscripts.md#textual-criticism-how-we-actually-know)
+
+## Dates and chronology
+
+### When was Jesus crucified?
+
+**Friday, 3 April AD 33**, on two lines that converge from different directions. Harold Hoehner's
+reworking of Daniel's seventy weeks lands the Triumphal Entry on 30 March AD 33 — he shifted
+Sir Robert Anderson's earlier AD 32 result because an AD 32 crucifixion falls on the wrong day of
+the week for a Friday Passover. Independently, Humphreys and Waddington calculated every Passover
+lunar eclipse visible from Jerusalem across AD 26-36 and found exactly one, on that Friday evening.
+
+Hold it loosely. The precise day is disputed among people doing careful technical work on the same
+data, the seventy-weeks day counts run two to four days loose in the retelling, and Bradley
+Schaefer's peer-reviewed reply argues the eclipse was far less visible than the "blood moon"
+framing suggests. What survives all of that is the year, not a vivid sign.
+→ [Prophecy: Events and Times](last-things/prophecy-events-times.md#the-flagship-calculation-daniels-seventy-weeks-to-the-triumphal-entry)
 
 ## How the studies are made
 
