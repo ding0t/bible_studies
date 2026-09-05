@@ -28,3 +28,6 @@ references/build/BibleOrgSysData/
 
 # Built by `npm run build:tools` in app/ before the mkdocs build; never committed.
 docs/content/assets/js/
+
+# Wrangler's local cache/account state from `wrangler deploy`
+.wrangler/
