@@ -80,3 +80,95 @@ review_2026-08-07:
     as a third rapture-pattern type (Genesis 19, 2 Peter 2:5-9, Luke 17:28-30) alongside Enoch and
     Elijah; structure converted to this site's current Key Takeaways / Discussion Questions format.
     Flipped draft: false after this pass.
+
+review_2026-09-06:
+  reviewer: "review-bible-study skill, user-directed (Noah contradiction + sibling cross-links)"
+  scope: >
+    Targeted adversarial pass on a live (draft: false) file. Phase 1 re-verified all 7 ESV quote
+    blocks character-by-character against study-notes.db. Phase 3 re-derived the Louw-Nida domains
+    for paralambano/aphiemi rather than trusting the sibling study's transcription. Phase 4
+    enumerated the study's Noah claims and compared them against each other. Phase 5 cross-checked
+    against NIV Cultural Backgrounds, which this study does not cite. Phase 6 ran study_gaps and the
+    statement-of-faith check. Phase 8 re-measured the style metrics style-guide.md recorded against
+    this file, and measured both mermaid diagrams.
+  critical_found: 1
+  critical_fixed: 1
+  moderate_found: 2
+  moderate_fixed: 2
+  minor_found: 3
+  minor_fixed: 2
+  findings:
+    - severity: critical
+      what: >
+        The study contradicted itself on Noah. Four places had him preserved THROUGH the flood
+        (lines 30, 109, 117, and discussion question 3); two had him removed BEFORE it (the two
+        imminence bullets), including "the ark is a type of the rapture". The ark is the
+        preservation-through picture and is the post-tribulational reading's best illustration, so
+        those two bullets both contradicted the study's own thesis and conceded its strongest
+        opposing image. Aggravating: line 109 cross-linked the reader INTO the section holding the
+        contradiction.
+      evidence: >
+        (1) Genesis has Noah sealed inside the ark with the flood falling on him, not removed from
+        the scene. (2) olivet-discourse.md, live on this site and linking to rapture.md, argues at
+        length that "the man left behind on the earth, preserved through the judgment, is Noah".
+        (3) Its lexical basis re-derived independently here: paralambano = Louw-Nida 15.168,
+        aphiemi = 15.48, both domain 15 linear movement, neither in a rescue or punishment domain,
+        so neither verb carries a verdict. (4) NIV Cultural Backgrounds on Matt 24:41, a commentary
+        this study does not cite: "one is taken (to judgment, v. 39) but the other is spared."
+      fix: >
+        Both bullets replaced. The imminence point (which is sound) is kept and rebuilt on being
+        UNPREPARED rather than being removed; a new subsection "Why 'one taken, one left' is not
+        part of this case" states the lexical position and hands the passage to olivet-discourse.md.
+        Fixing this costs the pretrib conclusion nothing -- olivet-discourse.md already says the
+        case rests on 1 Thess 4:13-18, John 14:1-4 and 2 Thess 2:6-7 instead.
+    - severity: moderate
+      what: >
+        Link asymmetry. rapture.md linked out to only three studies while seven linked in and got
+        nothing back. It quotes Matthew 24:36-44 and Matthew 25:1-13 in full without pointing at
+        the site's dedicated studies of exactly those passages.
+      fix: >
+        Added olivet-discourse.md (x2, at the signs contrast and the taken/left subsection),
+        olivet-discourse-parables.md (at the ten virgins, noting it is third of Matthew's four),
+        and ../jesus/the-day-no-one-knows.md (at verse 36's "nor the Son"). Still inbound-only:
+        prophecy-chart.md, prophecy-essentials.md, bride-of-christ.md, israel-and-the-church.md.
+    - severity: moderate
+      what: >
+        The Ken Johnson section ("A claim this study cannot verify") ran six paragraphs of apologia
+        -- a heading that is itself a denial, plus "the name is not being raised here to dismiss it"
+        and "None of that makes Johnson's conclusion wrong". User flagged it as adding no value
+        beyond recording that the request had been actioned.
+      fix: >
+        Cut to three paragraphs and retitled "What Victorinus actually says", per style-guide.md's
+        rule to retitle a denial as what the section establishes. All verified content kept and
+        re-verified against the primary source on this pass: donec de medio tollatur (Victorinus)
+        and donec de medio fiat (Jerome) both located in Haussleiter CSEL 49 at Comm. in Apoc.
+        11.4-5; the gloss fuisse inter Caesares / qui tunc erat princeps confirmed; the c. 304 death
+        date against the claimed AD 180.
+      new_finding: >
+        Re-checking the Latin turned up something the earlier pass missed. The phrase "ecclesia de
+        medio fit" DOES occur in this commentary tradition, which is what someone arguing the
+        Church-removal reading would reach for -- but it sits on Revelation 6:14, not 2
+        Thessalonians, appears only in Jerome's recension, and falls in a section Haussleiter's own
+        apparatus marks as drawn from Tyconius. Stated in the study now, because naming the one
+        piece of apparent support and showing what it is makes the section shorter AND stronger.
+        The 2 Thess clauses themselves have no subject in either recension (tollatur, fiat both
+        impersonal), which is the same gap the Greek leaves at genetai -- now cross-linked to the
+        section added earlier this session.
+    - severity: minor
+      what: "The first mermaid was a 7-section timeline: 2190px, rendering at 26% in a ~563px column, with per-section text colours (fill:black / fill:#ffffff) hardcoded by the timeline renderer and blind to the dark-mode toggle."
+      fix: "Converted to flowchart TD, measured at 548px (100%), inheriting the theme like the site's other diagrams. Second diagram measured clean."
+    - severity: minor
+      what: "A 121-word bullet introduced by this pass's own first draft of the taken/left material -- caught by validate-content check 12, not by re-reading."
+      fix: "Promoted to prose under its own sub-heading."
+    - severity: minor
+      what: "Tags are ['rapture', 'method/word-study'] on a 7,400-word study covering typology, Greek word studies, four OT figures and the restrainer. At least method/typology and lang/greek are missing."
+      fix: "NOT FIXED -- reported to the user, awaiting their call."
+  clean:
+    - "Phase 1: all 7 ESV quote blocks verbatim against study-notes.db. Only deviation is markdown bold added inside John 14:1-4 for emphasis, unmarked as emphasis added (minor, left)."
+    - "Phase 6 q7: consistent with statement-of-faith.md's dispensational, pretribulational End times section."
+    - "study_gaps: crossref noise only, nothing bearing on the argument."
+    - >
+      Phase 8: the style metrics style-guide.md recorded against this very file have largely been
+      paid down since. "rather than" 29 -> 7, worth-template 0, the 344-word bullet gone, and none
+      of the four discussion questions is self-referential any more.
+  last_updated: "2026-09-06"

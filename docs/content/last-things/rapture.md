@@ -130,16 +130,28 @@ This is where Chuck Missler begins his own discussion of the "blessed hope": bef
 >
 > 36 "But concerning that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father only. 37 For as were the days of Noah, so will be the coming of the Son of Man. 38 For as in those days before the flood they were eating and drinking, marrying and giving in marriage, until the day when Noah entered the ark, 39 and they were unaware until the flood came and swept them all away, so will be the coming of the Son of Man. 40 Then two men will be in the field; one will be taken and one left. 41 Two women will be grinding at the mill; one will be taken and one left. 42 Therefore, stay awake, for you do not know on what day your Lord is coming. 43 But know this, that if the master of the house had known in what part of the night the thief was coming, he would have stayed awake and would not have let his house be broken into. 44 Therefore you also must be ready, for the Son of Man is coming at an hour you do not expect."
 
-- No sign is given here for the rapture to wait on — contrast the specific, sequenced signs Jesus gives for the second coming earlier in the same chapter (Matthew 24:4-31). That contrast is itself an argument for two distinct comings.
-- The rapture is pre-judgment: Noah's household is removed *before* the flood falls, not partway through it or after.
-- The ark is a type of the rapture, at least loosely — a way of escape prepared in advance, entered before judgment arrives.
+- No sign is given here for the rapture to wait on — contrast the specific, sequenced signs Jesus gives for the second coming earlier in the same chapter (Matthew 24:4-31). That contrast is itself an argument for two distinct comings, and [The Olivet Discourse](olivet-discourse.md) works through those signs in detail. On verse 36's "nor the Son", and what it does and does not say about Christ's knowledge, see [The Day No One Knows](../jesus/the-day-no-one-knows.md).
+- The point of comparison is being *unprepared*, not being removed. The flood generation was "eating and drinking, marrying and giving in marriage… and they were unaware until the flood came" (24:38-39). Noah is not the one taken out of the scene here; he is the one sealed into the ark while the water falls on the world around him — which is why this passage models preservation *through* judgment, as [the typology section above](#types-in-the-old-testament-enoch-lot-and-elijah) sets out, and why the ark is not a picture of the rapture.
 - "You also must be ready" — the imminence isn't a detail to work out; it's the point of the passage.
+
+### Why "one taken, one left" is not part of this case
+
+"One will be taken and one left" (24:40-41) is regularly quoted as proof of a pretribulational
+rapture. It will not carry that weight. Both verbs sit in the same semantic domain of physical
+movement — παραλαμβάνω (*paralambanō*, "take") at Louw-Nida 15.168 and ἀφίημι (*aphiēmi*, "leave")
+at 15.48 — so neither carries a verdict lexically. The verdict has to come from context, and the
+context is the Noah illustration these two verses complete, where the ones swept away are the wicked
+and the man left standing on the earth is Noah. [The Olivet Discourse](olivet-discourse.md) works
+this through, including Luke's own answer when the disciples ask "Where, Lord?" (Luke 17:37).
+
+The pretribulational case rests on 1 Thessalonians 4:13-18, John 14:1-4 and the restrainer of
+2 Thessalonians 2:6-7 — the texts treated above. It does not need this saying.
 
 > ✝️ [Matthew 25:1-13 (ESV)](https://www.blueletterbible.org/esv/Mat/25/1-13)
 >
 > 1 "Then the kingdom of heaven will be like ten virgins who took their lamps and went to meet the bridegroom. 2 Five of them were foolish, and five were wise. 3 For when the foolish took their lamps, they took no oil with them, 4 but the wise took flasks of oil with their lamps. 5 As the bridegroom was delayed, they all became drowsy and slept. 6 But at midnight there was a cry, 'Here is the bridegroom! Come out to meet him.' 7 Then all those virgins rose and trimmed their lamps. 8 And the foolish said to the wise, 'Give us some of your oil, for our lamps are going out.' 9 But the wise answered, saying, 'Since there will not be enough for us and for you, go rather to the dealers and buy for yourselves.' 10 And while they were going to buy, the bridegroom came, and those who were ready went in with him to the marriage feast, and the door was shut. 11 Afterward the other virgins came also, saying, 'Lord, lord, open to us.' 12 But he answered, 'Truly, I say to you, I do not know you.' 13 Watch therefore, for you know neither the day nor the hour."
 
-Parables make one or a few main points for their original hearers instead of encoding a checklist of independently significant details. So the count of virgins and the specifics of the oil illustrate the point — readiness, tested by an unknown delay — and aren't separate doctrinal claims.
+Parables make one or a few main points for their original hearers instead of encoding a checklist of independently significant details. So the count of virgins and the specifics of the oil illustrate the point — readiness, tested by an unknown delay — and aren't separate doctrinal claims. This parable sits third in a run of four that Matthew groups together; [The Parables of the Olivet Discourse](olivet-discourse-parables.md) reads all four against their setting.
 
 - Why ten? Five foolish, five wise — a mixed group, outwardly identical until the moment of testing.
 - The wise were prepared *in advance* for the bridegroom's return, not scrambling when he arrived.
@@ -227,19 +239,32 @@ On that reading, the restrainer's going ties directly to the Church's own remova
 
 The grammatical shift is real evidence, not an inference from a doctrine assumed in advance. It is also not the only reading serious interpreters hold.
 
-### A claim this study cannot verify
+### What Victorinus actually says
 
-Ken Johnson (Th.D.) argues from what he presents as an ancient Hebrew-language text of 1-2 Thessalonians — claimed to be quoted by two church fathers by around AD 180 — that the restrainer is identified there by name as the Holy Spirit, removing the ambiguity the Greek leaves open.
+Ken Johnson (Th.D.) argues from what he presents as an ancient Hebrew-language text of 1-2
+Thessalonians, quoted by two church fathers by around AD 180, that the restrainer is named there as
+the Holy Spirit. The publicly available material doesn't name the manuscript, give a catalog
+reference, or identify the two fathers, so the claim itself can't be checked from here — and a
+Hebrew *Vorlage* for letters written to a Gentile-majority congregation in Macedonia is not part of
+any established textual-critical tradition, unlike the Peshitta or the Old Latin.
 
-This site cites Johnson elsewhere ([The Zadok Calendar](../feasts/zadok-calendar.md)) for a different, independently-checkable claim about 1 Enoch's Apocalypse of Weeks, so the name is not being raised here to dismiss it. But this claim is different in kind. The publicly available material describing it doesn't name the manuscript, give a catalog reference, or identify which two church fathers supposedly quote it — the details that would let anyone verify it, the way Pseudo-Ephraem's and Irenaeus's much more modest claims below can be checked against a named, locatable text even where their *meaning* is disputed. Paul's letters to a Gentile-majority congregation in Macedonia are, without serious dispute among textual scholars, Greek compositions, and a Hebrew *Vorlage* for them is not part of any established textual-critical tradition — unlike the Peshitta or the Old Latin, which are real, catalogued ancient versions.
+One half of it can be checked, because our notes name Victorinus of Pettau as one of the two
+fathers. Haussleiter's critical edition (CSEL 49, 1916) prints both surviving recensions, and at
+*Commentary on the Apocalypse* 11.4-5 Victorinus quotes 2 Thessalonians 2:7 as **donec de medio
+tollatur**, with Jerome's revision reading **donec de medio fiat**. So "out of the midst" is
+genuinely his phrase. What follows it in his own text is a gloss identifying the restrainer as Roman
+imperial power — *fuisse inter Caesares*, "he was among the Caesars", *qui tunc erat princeps*, "who
+was then the prince." Whatever his Greek or Latin read, Victorinus did not take the restrainer to be
+the Church. His date is a second problem: he died around 304, so he cannot be a witness "by around
+AD 180."
 
-Part of it can now be tested. Our notes record Victorinus of Pettau as one of the two fathers cited, and his commentary has been located: at *Commentary on the Apocalypse* 11.7 he quotes 2 Thessalonians 2:7 and then glosses it — and his restrainer is **Roman imperial power**, "in the kingdom of the Romans... among the Cæsars," "he should come who then was the prince." Whatever his text of the verse read, he did not take the restrainer to be the Church. His date is a separate problem: he died around 304, so he cannot be a witness "by around AD 180."
-
-The wording has now been checked in the Latin, and it divides in an instructive way. Victorinus wrote in Latin, and Haussleiter's critical edition (CSEL 49, 1916) prints both surviving recensions. Both carry *de medio* — literally "out of the midst": *donec de medio **tollatur*** in Victorinus's own text, *donec de medio **fiat*** in Jerome's revision. So "out of the midst" is genuinely his phrase, and an English translation reading "until he be taken out of the way" is rendering those same three words idiomatically. Anyone citing him for "out of the midst" is on solid ground there.
-
-What the Latin does not contain is the subject. Both verbs are impersonal — *tollatur*, *fiat*, "until he or it be out of the midst" — and the word *ecclesia* appears in neither clause. A rendering that reads "when **the church** shall have gone out of the midst" has supplied the church itself, which is the whole of the disputed point. Victorinus's own gloss then supplies a different subject: he is talking about Roman imperial power, *inter Caesares*, "who was then the prince."
-
-None of that makes Johnson's conclusion wrong. The Greek grammatical evidence above reaches a similar place on firmer ground, and the identification of the restrainer with the Spirit does not depend on any Hebrew manuscript. What the Hebrew-text claim itself rests on still cannot be checked from here.
+Both Latin verbs are impersonal — *tollatur* and *fiat*, "until he or it be out of the midst" — and
+neither clause names a subject, which is the same gap [the Greek leaves at 2 Thessalonians
+2:7](#what-verse-7-actually-says-about-the-going). An English rendering reading "when **the church**
+shall have gone out of the midst" has supplied the disputed point. The phrase *ecclesia de medio
+fit* does occur in this commentary tradition — but on Revelation 6:14 rather than 2 Thessalonians,
+only in Jerome's recension, and in a section Haussleiter's own apparatus marks as taken from
+Tyconius. It is not Victorinus on Paul.
 
 ## The tribulation
 
@@ -349,7 +374,7 @@ The word Scripture uses for the rapture, ἁρπάζω, describes a real, sudden
 - *ESV Study Bible* (Crossway, 2016) — notes on Revelation 3:10, 1 Thessalonians 4:17, 2 Thessalonians 2:6-7, and 2 Corinthians 5:10, consulted as an independent check; source of the corrected Bēma etymology and the acknowledged ambiguity on Revelation 3:10 and the restrainer's identity.
 - *NIV Biblical Theology Study Bible* (Zondervan, 2018) — notes on 1 Thessalonians 4:17 (the *apantēsis* civic-welcome sense) and 2 Thessalonians 2:6-7 (the scholarly proposals for the restrainer), consulted independently of the ESV Study Bible above.
 - Robert L. Thomas, cited in Thomas Ice, [The Holy Spirit and the Pretribulational Rapture](https://www.according2prophecy.org/hsrap.html) — source of the τὸ κατέχον / ὁ κατέχων gender-shift argument at 2 Thessalonians 2:6-7, confirmed against this repo's own Greek text (SBLGNT).
-- Ken Johnson, Th.D., *[Paul's Ancient Hebrew Thessalonian Epistles](https://prophecywatchers.com/product/pauls-ancient-hebrew-thessalonians-epistles-proof-of-a-pre-trib-rapture-by-ken-johnson-shipping-included-usa-only/)* — see [A claim this study cannot verify](#a-claim-this-study-cannot-verify): the underlying manuscript claim could not be checked from publicly available material, unlike the more checkable (if still disputed) patristic citations elsewhere.
+- Ken Johnson, Th.D., *[Paul's Ancient Hebrew Thessalonian Epistles](https://prophecywatchers.com/product/pauls-ancient-hebrew-thessalonians-epistles-proof-of-a-pre-trib-rapture-by-ken-johnson-shipping-included-usa-only/)* — see [What Victorinus actually says](#what-victorinus-actually-says): the underlying manuscript claim could not be checked from publicly available material, and Victorinus, named as one of the two witnesses, glosses 2 Thessalonians 2:7 as Roman imperial power.
 - [The Trumpet Call of God](trumpet.md) — the trumpet imagery shared between 1 Thessalonians 4:16 and 1 Corinthians 15:52, and this site's model for tracing Revelation's imagery to its Old Testament source.
 - [The Day Is Near](day-is-near.md) — the readiness Matthew 25's parable calls for, worked out in full.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) — the chronological framework behind the seven-year tribulation reckoning above.
