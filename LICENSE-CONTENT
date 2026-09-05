@@ -1,0 +1,51 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 David Ingot
+
+The written content of this repository -- the studies, commentaries, sermons and
+other prose under docs/content/, together with the genealogy and timeline data
+authored for this project under docs/data/ -- is licensed under the Creative
+Commons Attribution 4.0 International Licence.
+
+    Human-readable summary:  https://creativecommons.org/licenses/by/4.0/
+    Full legal code:         https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt this material, for any purpose, including
+commercially, provided you give appropriate credit, provide a link to the
+licence, and indicate if changes were made.
+
+Preferred attribution:
+
+    David Ingot, "The Way" -- https://the-way.lewy.au
+
+That last condition matters more here than the others. These are personal study
+notes, published so they can be checked; if you change one, say so, so that what
+you have altered is not read as something I stand behind.
+
+
+WHAT THIS LICENCE DOES NOT COVER
+--------------------------------
+
+Only the original writing is licensed here. The rest is not mine to license:
+
+  * Quoted Scripture. The ESV, NIV, NKJV, CSB, NASB and other copyrighted
+    translations are quoted under their publishers' permissions and remain
+    under their own copyright. Public-domain and openly licensed texts (WEB,
+    ASV, YLT, the Masoretic Text, the Septuagint) carry their own terms.
+
+  * Lexicons, commentaries, study Bibles and dictionaries quoted or cited in a
+    study's References section.
+
+  * Linguistic datasets -- MACULA (CC BY 4.0, Biblica/Clear Bible), morphhb,
+    STEPBible, unfoldingWord (CC BY-SA), BHSA (non-commercial) and the rest.
+    Each is credited and carries its own licence.
+
+  * The git submodules under references/open-data/ and
+    references/restricted-data/. These are separate repositories under separate
+    licences; the directory a source sits in is the licence audit boundary.
+
+  * Code, which is under the MIT Licence. See LICENSE.
+
+Full detail: docs/content/about/copyright.md for quoted works, and
+references/README.md for every data source, its licence tier, and how it may be
+used.

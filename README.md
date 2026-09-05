@@ -87,3 +87,17 @@ references/                data and tooling behind studies, not site content
 
 .github/workflows/deploy.yml   npm test + build:tools, then mkdocs build, deploys to GitHub Pages
 ```
+
+## Licence
+
+Two licences, because a repository of writing and a repository of code are not the same thing:
+
+- **Writing** — the studies and other prose under `docs/content/` are [CC BY 4.0](LICENSE-CONTENT).
+  Share and adapt them, commercially or not; credit the source and say if you changed anything.
+- **Code** — `app/`, `references/build/`, `utils/`, `hooks/` and the build configuration are
+  [MIT](LICENSE).
+
+Neither covers third-party material. Quoted Scripture, lexicons, commentaries, the linguistic
+datasets, and the submodules under `references/open-data/` and `references/restricted-data/` each
+carry their own terms — see [about/copyright.md](docs/content/about/copyright.md) and
+[references/README.md](references/README.md).

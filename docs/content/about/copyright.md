@@ -5,7 +5,7 @@ description: "Copyright notices for the Bible translations and reference works q
 tags: ["copyright", "permissions", "attribution", "translations"]
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-08-23
+date_modified: 2026-09-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -92,3 +92,25 @@ from the Bible text they accompany, and no part of them is reproduced here at le
 
 If you believe anything on this site exceeds fair use or a publisher's stated permission, please
 [open an issue](https://github.com/ding0t/bible_studies/issues) and it will be corrected.
+
+## This site's own writing
+
+Everything above is what this site borrows. This section is what it grants.
+
+The studies, commentaries, sermons and other prose written for this site are licensed under
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+(CC BY 4.0). You may share and adapt them for any purpose, including commercially, provided you give
+credit, link to the licence, and indicate if changes were made. Preferred attribution:
+
+> David Ingot, *The Way* — https://the-way.lewy.au
+
+The requirement to indicate changes is the one that matters here. These are personal study notes,
+published so that they can be tested rather than taken on trust; if you alter one, say so, so that
+your edit is not read as something this site stands behind.
+
+That licence covers the original writing and nothing else. Quoted Scripture, the lexicons and
+commentaries listed above, and the linguistic datasets each remain under their own terms, as does
+every source catalogued in
+[references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md). The
+site's code — the tools, the build scripts and the query layer — is separately licensed under the
+MIT Licence.
