@@ -27,6 +27,44 @@ Every quotation in a study rests on two choices most readers never see: which *t
 
 Our default is the **ESV** for prose quotation, cross-checked against **NASB**, **NIV**, and **NLT** for how differently-weighted translation philosophies render a disputed or ambiguous verse, against the **LSB** where the divine name is at stake (it prints Yahweh where the others print LORD), and against **WEB**, **ASV**, and **YLT** when we need a text we can actually store, search, and quote in full without a permissions ceiling. The Masoretic Text and Septuagint anchor original-language word studies; the Greek New Testament entries below anchor NT word studies and textual-criticism notes. See [AGENTS.md](https://github.com/ding0t/bible_studies/blob/main/AGENTS.md) for the standing rule this page expands on.
 
+## Three questions to ask of any text on this page
+
+"Hebrew text" and "Greek text" are not one category each. They cover things that differ in ways that
+decide what a citation can carry, and grouping by language alone hides it — this page grouped two
+19th-century translations under *Hebrew Old Testament* for a long time on exactly that mistake.
+
+Three questions separate them.
+
+**1. Is it in the language it was composed in?** A text can be in Hebrew without being a Hebrew
+witness. Delitzsch's New Testament is Hebrew and was translated out of Greek in 1877; it witnesses a
+translator, not an original. The Septuagint is the converse case — Greek, and a *translation* of
+Hebrew, but made before Christ, so it witnesses a Hebrew text older than any Hebrew manuscript we
+hold.
+
+**2. What kind of edition is it?** This is the "compilation" question, and the answers are not
+equivalent:
+
+| Kind | What it means | Example |
+|---|---|---|
+| Manuscript | An actual surviving copy | The Dead Sea Scrolls |
+| Diplomatic edition | One manuscript, printed as it stands | The Westminster Leningrad Codex |
+| Eclectic edition | Compiled by choosing among many witnesses | SBLGNT, NA28, the Textus Receptus |
+| Derived text | Produced from other editions by a stated procedure | UGNT, following the Bunning Heuristic Prototype |
+| Translation | Rendered into another language | The Septuagint, Delitzsch, every English version |
+
+A diplomatic edition tells you what one scribe wrote. An eclectic edition tells you what its editors
+judged. Neither is "the original", and they fail in opposite directions: the first inherits one
+copyist's mistakes, the second exists in no manuscript at all.
+
+**3. What was it compiled from, and did translation happen anywhere in that chain?** Every step away
+from the autograph is either an *editorial* remove (someone chose between witnesses) or a
+*linguistic* one (someone rendered it into another language). Brenton's Septuagint carries both
+twice over: an ancient translation out of Hebrew, an edition of that translation's manuscripts, and
+Brenton's own English rendering beside it. A word study working from the English is four removes
+out, and should know it.
+
+None of this makes a text unusable. It decides what it is evidence *of*.
+
 ## English translations
 
 | Translation | First published | Approach | Strengths | Cautions | Tracked here |
@@ -115,14 +153,6 @@ is the whole argument for checking a verse rather than trusting a label.
 | **Masoretic Text** — Westminster Leningrad Codex (WLC) | Manuscript dated 1008 CE by its own colophon | The standard Hebrew Bible text underlying virtually every printed Hebrew Bible (BHS/BHQ) and every English OT translation above | Oldest *complete* Masoretic manuscript in existence, full vocalization/cantillation/Masoretic notes intact; our copy carries both morphological tagging (`morphhb`) and SDBH semantic-domain codes (`macula-hebrew`) — the two together are what make Hebrew word studies here queryable rather than hand-searched | A single-manuscript edition, not an eclectic reconstruction — it inherits that one codex's scribal idiosyncrasies; copied roughly 1,400 years after the events it records and centuries after the Dead Sea Scrolls, so cross-checking against those earlier witnesses still matters on disputed readings | ✅ `morphhb-wlc`, `macula-hebrew-wlc`, `scrollmapper-WLC` |
 | **Dead Sea Scrolls** (biblical scrolls) | Copied c. 250 BCE – 68 CE | 262 scroll witnesses to 36 of the 39 Old Testament books, transcribed by Martin Abegg and colleagues | **A thousand years older than the Masoretic manuscripts** — the only pre-Christian Hebrew witnesses we hold. Each scroll is kept as its own work, because they disagree: Isaiah 53:5 survives in both 1Qisaa and 1Q8 and they read differently. Makes Deuteronomy 32:8 and Psalm 22:16 checkable here rather than taken on report | Fragmentary — **31.8% of words carry an editorial mark**, and our text keeps them: `[ ]` is reconstruction, `#` and `?` damaged or uncertain. A scroll reading inside brackets is an editor's judgement, not manuscript evidence. Esther is absent entirely. Non-commercial licence | 🟡 `dss-*` |
 | **Samaritan Pentateuch** | Extant manuscripts from the medieval period; tradition claims earlier origins | An independent Torah-only text tradition preserved by the Samaritan community | Valuable second witness for text-critical comparison against the Masoretic Text on disputed Torah readings | Reflects Samaritan theological commitments (Mount Gerizim vs. Jerusalem, among others) rather than the mainstream Jewish transmission line — a comparison tool, not a primary text | 🟡 `scrollmapper-SP` |
-| **Delitzsch Hebrew Bible** | First published 1877, revised through the early 20th century | A modern scholarly Hebrew *translation* of the New Testament, paired here with the Hebrew OT | Useful for tracing how NT vocabulary and OT allusions map back into Hebrew — helpful for spotting an OT echo a Greek-only reading might miss | Not an ancient witness — a 19th-century translation project (Franz Delitzsch), so it reflects translator choices, not manuscript history; never cite it as if it were the OT's own Hebrew | ✅ `ebible-heb` |
-| **Salkinson-Ginsburg Hebrew New Testament** | Salkinson 1885, revised by Ginsburg 1886 | A second scholarly Hebrew *translation* of the New Testament, independent of Delitzsch | Read against Delitzsch it shows where a Hebrew rendering is a translator's choice rather than something the Greek forces — Romans 1:17 is *from faith to faith* in Delitzsch and *from a wellspring of faith* in Salkinson | Not an ancient witness — a 19th-century translation, and its restriction to Tanakh vocabulary is a stylistic programme, not evidence of an earlier Hebrew text | ✅ `ebible-hebsg` |
-
-!!! note "Two Hebrew New Testaments, and what they can and cannot settle"
-
-    Delitzsch and Salkinson-Ginsburg are independent 19th-century translations of the Greek into Hebrew, and they differ in every verse. That disagreement is the point: where they diverge, a Hebrew rendering is the translator's judgement rather than something the Greek compels. Neither is a witness to a Hebrew original, and no ancient Hebrew New Testament manuscript exists — the earliest Hebrew gospel witnesses (Shem Tov, Du Tillet, Münster) are medieval, and the Cochin manuscript Cambridge holds is an 18th-century Hebrew Matthew its own catalogue describes as made for polemical purposes.
-
-    A live question sits alongside that. Some readings in these Hebrew editions have no counterpart in the Greek, and there is an argument that the earliest printings of Salkinson-Ginsburg carried readings later editions removed. Second Thessalonians 2:7 is the case that matters most here, since the identity of the restrainer bears on [the rapture study](../last-things/rapture.md). What our copy actually reads at that verse is recorded in `references/README.md`, dated, so the claim can be tested against a specific text instead of a recollection.
 
 !!! tip "New to lemmas, parsing and semantic domains?"
 
@@ -142,6 +172,24 @@ is the whole argument for checking a verse rather than trusting a label.
     אֵת and הַשָּׁמַיִם, since the Hebrew object marker has no English of its own. And ULT is one
     literal translation, so it tells you what ULT chose, not what the word must mean — for that,
     look the lemma up.
+
+## Hebrew New Testaments — translations, not witnesses
+
+Both are in Hebrew and neither is a Hebrew witness: they are 19th-century renderings **out of
+Greek**, made long after the New Testament was written. They sat under *Hebrew Old Testament* on
+this page until 2026-09-05, which is precisely the confusion the three questions above exist to
+prevent.
+
+| Text | Date | What it is | Strengths | Cautions | Tracked here |
+|---|---|---|---|---|---|
+| **Delitzsch Hebrew Bible** | First published 1877, revised through the early 20th century | A modern scholarly Hebrew *translation* of the New Testament, paired here with the Hebrew OT | Useful for tracing how NT vocabulary and OT allusions map back into Hebrew — helpful for spotting an OT echo a Greek-only reading might miss | Not an ancient witness — a 19th-century translation project (Franz Delitzsch), so it reflects translator choices, not manuscript history; never cite it as if it were the OT's own Hebrew | ✅ `ebible-heb` |
+| **Salkinson-Ginsburg Hebrew New Testament** | Salkinson 1885, revised by Ginsburg 1886 | A second scholarly Hebrew *translation* of the New Testament, independent of Delitzsch | Read against Delitzsch it shows where a Hebrew rendering is a translator's choice rather than something the Greek forces — Romans 1:17 is *from faith to faith* in Delitzsch and *from a wellspring of faith* in Salkinson | Not an ancient witness — a 19th-century translation, and its restriction to Tanakh vocabulary is a stylistic programme, not evidence of an earlier Hebrew text | ✅ `ebible-hebsg` |
+
+!!! note "Two Hebrew New Testaments, and what they can and cannot settle"
+
+    Delitzsch and Salkinson-Ginsburg are independent 19th-century translations of the Greek into Hebrew, and they differ in every verse. That disagreement is the point: where they diverge, a Hebrew rendering is the translator's judgement rather than something the Greek compels. Neither is a witness to a Hebrew original, and no ancient Hebrew New Testament manuscript exists — the earliest Hebrew gospel witnesses (Shem Tov, Du Tillet, Münster) are medieval, and the Cochin manuscript Cambridge holds is an 18th-century Hebrew Matthew its own catalogue describes as made for polemical purposes.
+
+    A live question sits alongside that. Some readings in these Hebrew editions have no counterpart in the Greek, and there is an argument that the earliest printings of Salkinson-Ginsburg carried readings later editions removed. Second Thessalonians 2:7 is the case that matters most here, since the identity of the restrainer bears on [the rapture study](../last-things/rapture.md). What our copy actually reads at that verse is recorded in `references/README.md`, dated, so the claim can be tested against a specific text instead of a recollection.
 
 ## Greek New Testament
 
