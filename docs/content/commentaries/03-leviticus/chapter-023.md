@@ -17,4 +17,5 @@ draft: false
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 23:2-4
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 23:23-25
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 23:4
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 23:32
 <!-- commentary-index:auto-end -->

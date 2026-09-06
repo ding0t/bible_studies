@@ -5,7 +5,7 @@ description: "A Friday crucifixion gives two nights, not three. Whether Matthew 
 tags: ["matthew", "mark", "luke", "john", "crucifixion", "resurrection", "chronology", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "Matthew 12:40"
-bible_references: ["Matthew 12:40", "Jonah 1:17", "Matthew 16:21", "Matthew 17:23", "Matthew 20:19", "Luke 9:22", "Luke 24:7", "Luke 24:21", "Luke 24:46", "Acts 10:40", "1 Corinthians 15:4", "Mark 8:31", "Mark 9:31", "Mark 10:34", "Mark 15:42", "Luke 23:54", "John 19:31", "John 19:14", "John 19:42", "Matthew 27:62"]
+bible_references: ["Matthew 12:40", "Jonah 1:17", "Matthew 16:21", "Matthew 17:23", "Matthew 20:19", "Luke 9:22", "Luke 24:7", "Luke 24:21", "Luke 24:46", "Acts 10:40", "1 Corinthians 15:4", "Mark 8:31", "Mark 9:31", "Mark 10:34", "Mark 15:42", "Luke 23:54", "John 19:31", "John 19:14", "John 19:42", "Matthew 27:62", "Genesis 1:5", "Leviticus 23:32", "Mark 16:1-2", "Matthew 28:1", "John 20:1"]
 date_created: 2026-09-06
 date_modified: 2026-09-06
 ai_provider_models:
@@ -74,9 +74,9 @@ thing itself rather than in my account of it. Amen.
 > Son of Man be three days and three nights in the heart of the earth.
 
 Read as a measurement, that requires roughly seventy-two hours. A crucifixion on Friday afternoon
-and an empty tomb at dawn on Sunday gives two nights — Friday and Saturday — and parts of three
-days. The gap is one night, and it is the whole of the case for moving the crucifixion to a
-Wednesday or a Thursday.
+and an empty tomb at dawn on Sunday spans two periods of darkness and parts of three days. The gap
+is one night, and it is the whole of the case for moving the crucifixion to a Wednesday or a
+Thursday.
 
 Four lines bear on it. Each was counted from the Greek text rather than recalled.
 
@@ -148,6 +148,43 @@ died. Luke says the same without the term: "It was the day of Preparation, and t
 beginning" (23:54). **παρασκευή** (*paraskeuē*, "Preparation") is used of that day six times across
 the four Gospels (Matthew 27:62; Mark 15:42; Luke 23:54; John 19:14, 31, 42).
 
+## Does a sunset-to-sunset day change the count?
+
+It is the first thing to check, because the Hebrew day does not run midnight to midnight. It runs
+evening to evening — "there was evening and there was morning, the first day" (Genesis 1:5), and
+for the Day of Atonement explicitly, "from evening to evening shall you keep your Sabbath"
+(Leviticus 23:32). Each day carries its night at the *front*, not the back.
+
+Laid out that way, a Friday crucifixion looks like this:
+
+| Hebrew day | Runs | In the tomb for its night? | For its daylight? |
+|---|---|---|---|
+| Friday (Preparation) | Thursday sunset → Friday sunset | No — he was alive | Only the last hours, from about the ninth hour |
+| The Sabbath | Friday sunset → Saturday sunset | **Yes** | **Yes** — the one complete day |
+| The first day | Saturday sunset → Sunday sunset | **Yes** | Risen at or before dawn |
+
+**Three days touched, two nights — the same answer.** Sunset reckoning relocates which day each
+night belongs to, and it does not add one. The two nights in the tomb are the Sabbath's night and
+the first day's night; calling them "Friday night" and "Saturday night," as a modern reader
+naturally would, attaches each to the wrong day without changing the total.
+
+What it does do is make the inclusive count read less like special pleading. On this reckoning the
+burial touches three named days and fills the middle one completely, which is a more natural thing
+for "the third day" to mean than a modern midnight-to-midnight count would allow. It also explains
+the Gospels' own movements without strain: the women could not buy spices until "the Sabbath was
+past" (Mark 16:1), which is Saturday *evening*, and they came to the tomb "very early on the first
+day of the week" (16:2) — the same Hebrew day, some hours later.
+
+**And it strengthens the other side, which should be said.** On sunset reckoning a Wednesday
+crucifixion produces a literal three days and three nights, provided the resurrection is placed at
+the end of the Sabbath rather than on Sunday morning: Thursday, Friday and the Sabbath each
+contribute a full night and a full day. The Gospels never narrate the moment of the resurrection —
+only the discovery of an empty tomb at dawn — so that placement is not excluded by the texts. This
+is the Wednesday case at its most coherent, and sunset reckoning is what makes it work.
+
+What sunset reckoning does not do is rescue it from Luke 24:21. Counting from a Wednesday, that
+Sunday is the fifth day, whatever hour the days are held to begin.
+
 ## The counter-case, at its strongest
 
 > ✝️ John 19:31 (ESV)
@@ -173,10 +210,16 @@ ratio of "on the third day" over "three days and three nights" points the same w
 
 But the Friday reading buys Matthew 12:40 on credit. It needs inclusive reckoning to absorb the
 missing night, and inclusive reckoning is a real convention invoked at exactly the point where it is
-convenient. That is a cost rather than a refutation, and this study does not retire it. Anyone
-holding the Friday date should be able to say what it costs, which is one night, and why the
-convention that covers it is attested rather than improvised — because Mark and Matthew use both
-phrasings of the same sentence.
+convenient. That is a cost rather than a refutation, and this study does not retire it. What keeps
+it from being special pleading is that the convention is visible independently: Mark and Matthew use
+both phrasings of the same sentence, which they could not do if a part-day did not count as a day.
+
+The two positions can be stated as a straight trade, and a reader should choose knowing it. The
+Wednesday reading takes Matthew 12:40 at face value — and on sunset reckoning it genuinely delivers
+three nights — but has to carry Mark's **προσάββατον**, the eight "on the third day" statements, and
+a Sunday that its own count makes the fifth day. The Friday reading takes those and carries one
+missing night. This study holds the second because the things it has to explain away are fewer and
+weaker, not because the first is foolish.
 
 ## Discussion questions
 

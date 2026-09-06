@@ -102,4 +102,38 @@ resources_consulted:
   - {type: other, title: "SBL Greek New Testament", author: "ed. Michael W. Holmes", note: "every occurrence count"}
   - {type: other, title: "MACULA Greek Linguistic Datasets", author: "Clear Bible", note: "lemma/morphology for prosabbaton, paraskeue"}
   - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "note on Matt 12:40 states the inclusive-reckoning convention outright, and worked the Friday/Saturday/Sunday count -- the one commentary citation the study needs"}
-last_updated: "2026-09-06"
+revision_2026-09-06b:
+  what: >
+    User asked whether the study accounts for the Hebrew day beginning at sundown. It did not, and
+    the omission had produced a real imprecision.
+  the_imprecision: >
+    The draft said a Friday crucifixion "gives two nights -- Friday and Saturday". On sunset
+    reckoning each night belongs to the day it BEGINS, so those two are the Sabbath's night and the
+    first day's night. Same count, wrong labels -- and sloppy in a study whose whole argument turns
+    on Jewish reckoning. Reworded to "two periods of darkness" and the table now names them
+    correctly.
+  finding: >
+    Sunset reckoning does NOT add a third night to the Friday view. Worked out against Gen 1:5 and
+    Lev 23:32: Friday contributes only its last daylight hours (he was alive through its night), the
+    Sabbath contributes a complete night and day, and the first day contributes its night. Three
+    days touched, two nights -- the same total the modern count gives.
+    What it DOES do is make the inclusive count read less like special pleading, since the burial
+    touches three named days and fills the middle one, and it explains Mark 16:1-2 without strain:
+    the women could not buy spices until the Sabbath was past, which is Saturday EVENING, then came
+    at dawn on the same Hebrew day.
+  concession_added: >
+    Sunset reckoning strengthens the WEDNESDAY case, and the study now says so. On that reckoning a
+    Wednesday crucifixion with the resurrection at the end of the Sabbath gives a literal three
+    nights and three days -- Thursday, Friday and the Sabbath each complete -- and the Gospels never
+    narrate the moment of resurrection, only the discovery of an empty tomb at dawn, so that
+    placement is not excluded by the texts. This is the Wednesday position at its most coherent and
+    the earlier draft did not represent it that strongly.
+    What sunset reckoning does not do is rescue it from Luke 24:21: from a Wednesday that Sunday is
+    the fifth day whatever hour days are held to begin.
+  conclusion_rebalanced: >
+    "Where that leaves it" now states the choice as a straight trade rather than a verdict with a
+    footnote. Wednesday takes Matt 12:40 at face value and carries prosabbaton, the eight "third
+    day" statements and a Sunday its own count makes the fifth. Friday takes those and carries one
+    missing night. The study holds Friday because what it must explain away is fewer and weaker --
+    stated that way, rather than as the other view being foolish.
+  last_updated: "2026-09-06"

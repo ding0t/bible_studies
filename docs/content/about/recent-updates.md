@@ -28,6 +28,14 @@ way.
 
     :material-new-box: New 2026-09-06 · [:octicons-arrow-right-24: Read](../faq.md)
 
+-   __Three Days and Three Nights__
+
+    ---
+
+    A Friday crucifixion gives two nights, not three. Whether Matthew 12:40 rules it out — the one occurrence of the phrase, the eight that say 'on the third day', Mark's word for the day, and the 'high day' that carries the Wednesday case.
+
+    :material-new-box: New 2026-09-06 · [:octicons-arrow-right-24: Read](../jesus/three-days-and-three-nights.md)
+
 -   __The Bride of Christ__
 
     ---
@@ -51,6 +59,14 @@ way.
     Why the timing of Christ's return is deliberately hidden, and the six-then-seventh pattern -- creation week, Sabbath, Hebrews' rest, the millennium -- this site reads through 2 Peter 3's 'a day is as a thousand years.'
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/day-is-near.md)
+
+-   __Prophecy Events and Times__
+
+    ---
+
+    Anchoring Bible chronology to independently-dated history, pivoting forward and back from those anchors, and calculating Daniel's 70 weeks to the Triumphal Entry
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/prophecy-events-times.md)
 
 -   __Charting End Times__
 
@@ -92,93 +108,77 @@ way.
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/trumpet.md)
 
--   __Glossary__
+-   __Acts 10__
 
     ---
 
-    Short definitions of the terms these studies use — interpretive vocabulary, original-language vocabulary, manuscripts, and the datasets behind the site — each linked to the page that explains it in full.
+    Commentary and cross-referenced studies for Acts chapter 10
 
-    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../glossary.md)
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/44-acts/chapter-010.md)
 
--   __Patristic Sources__
-
-    ---
-
-    The early church fathers this site draws on: what each source is, how reliable it is, why traditions about the apostles need grading rather than repeating, and why a claim about a father's wording has to be read in his own language rather than a translation.
-
-    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../resources/patristic-sources.md)
-
--   __Public Data Sources__
+-   __Luke 9__
 
     ---
 
-    A survey of the open Bible data that exists in this space — texts, manuscripts, lexicons, cross-references, alignment — what each source is, why it matters, how it is licensed, and which ones this site actually uses.
+    Commentary and cross-referenced studies for Luke chapter 9
 
-    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../resources/public-data-sources.md)
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/42-luke/chapter-009.md)
 
--   __Jewish Literature & Primary Sources__
-
-    ---
-
-    Sefaria and other sources for Jewish literature (Mishnah, Talmud) relevant to understanding a passage's Second Temple / rabbinic background
-
-    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../resources/jewish-sources.md)
-
--   __The Day No One Knows__
+-   __Luke 23__
 
     ---
 
-    \"Nor the Son\" — what Mark 13:32 and Matthew 24:36 do and do not say about Christ's knowledge. The textual variant, the two natures, the Father's prerogative, and whether Jesus was quoting a Jewish wedding idiom.
+    Commentary and cross-referenced studies for Luke chapter 23
 
-    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../jesus/the-day-no-one-knows.md)
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/42-luke/chapter-023.md)
 
--   __Copyright & Scripture Permissions__
-
-    ---
-
-    Copyright notices for the Bible translations and reference works quoted on this site, and the terms under which they are used.
-
-    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](copyright.md)
-
--   __Our Data Sources__
+-   __Luke 24__
 
     ---
 
-    What Bible text, lexical, and commentary data backs this site, organized by license tier, and what each tier is and isn't used for.
+    Commentary and cross-referenced studies for Luke chapter 24
 
-    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](about-our-datasets.md)
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/42-luke/chapter-024.md)
 
--   __Backlog__
-
-    ---
-
-    A public working list of study topics and research items still to be developed, organized by the site's own subject sections.
-
-    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](backlog.md)
-
--   __Reading the Original-Language Data__
+-   __Matthew 17__
 
     ---
 
-    What the Hebrew and Greek sources behind this site actually are, what an annotation layer like MACULA adds on top of a text, and what the vocabulary means — lemma, morphology, Strong's number, semantic domain, alignment — with one verse shown at every layer.
+    Commentary and cross-referenced studies for Matthew chapter 17
 
-    :material-new-box: New 2026-09-05 · [:octicons-arrow-right-24: Read](../scripture/original-language-data.md)
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-017.md)
 
--   __Early New Testament Manuscripts__
-
-    ---
-
-    earlynewtestament.com — English translations of the 83 earliest known New Testament papyri, all dated to AD 300 or earlier
-
-    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../scripture/early-new-testament-manuscripts.md)
-
--   __Bible Translations & Source Texts__
+-   __Matthew 27__
 
     ---
 
-    The English translations, Hebrew Masoretic witnesses, and Greek New Testament/Septuagint texts this project relies on — strengths, cautions, publication history, and which ones are actually queryable in this repo's own database versus cited from general knowledge.
+    Commentary and cross-referenced studies for Matthew chapter 27
 
-    :material-update: Updated 2026-09-05 · [:octicons-arrow-right-24: Read](../scripture/translations.md)
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-027.md)
+
+-   __Matthew 12__
+
+    ---
+
+    Commentary and cross-referenced studies for Matthew chapter 12
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-012.md)
+
+-   __Matthew 16__
+
+    ---
+
+    Commentary and cross-referenced studies for Matthew chapter 16
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-016.md)
+
+-   __Matthew 20__
+
+    ---
+
+    Commentary and cross-referenced studies for Matthew chapter 20
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-020.md)
 
 </div>
 <!-- recent-updates:auto-end -->

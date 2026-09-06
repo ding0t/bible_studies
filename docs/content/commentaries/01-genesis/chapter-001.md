@@ -18,5 +18,6 @@ draft: false
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:14-19
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 1:14-19
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:5
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 1:20-21
 <!-- commentary-index:auto-end -->
