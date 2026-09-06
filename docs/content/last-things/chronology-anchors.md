@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Kings 6:1"
 bible_references: ["1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Ezekiel 40:1", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20"]
 date_created: 2026-08-22
-date_modified: 2026-08-23
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -165,7 +165,27 @@ Two dates satisfy the Gospels' own constraints, and only two. The crucifixion wa
 
 Both are Nisan 14, so the long-standing question of whether the Synoptics and John place the crucifixion on Nisan 14 or 15 does not decide between them. Four other lines do.
 
-**Luke 3:1 is the primary evidence, and it favours AD 33.** Tiberius succeeded Augustus on 19 August AD 14, so his fifteenth year runs from August AD 28 to August AD 29. The *ESV Study Bible* puts it at "probably A.D. 29 (plus or minus a year)" and the *NIV Biblical Theology Study Bible* at AD 28-29. John's ministry begins there, Jesus is baptised after it, and the Passovers John records (2:13; 6:4; 11:55, with 5:1 possibly a fourth) carry the ministry across roughly three years to AD 33. Reaching AD 30 instead requires counting Tiberius's fifteenth year from his earlier provincial authority around AD 11-13 — a reckoning the Cultural Backgrounds volumes note is available, but which sits awkwardly beside Luke's evident care in naming five officials with their exact titles.
+**Why the other nine years drop out, and why AD 32 keeps coming back.** The filter is a single
+astronomical fact, and it carries a stated assumption: on the Pharisaic-Rabbinic lunar-solar
+calendar in common Jewish use at the time, Nisan 14 landed on a Friday only twice in Pilate's
+eleven-year prefecture. The *ESV Study Bible*'s own article on the question puts it the same way —
+"the only plausible years for such a Friday corresponding to Nisan 14 are A.D. 30 or 33."
+Every other year in the window fails on the weekday alone, before any of the historical arguments
+below are reached, which is why a candidate list is always short and never includes AD 31, AD 34, or
+any of the rest.
+
+**AD 32 is the one that keeps being proposed anyway.** It is a genuine candidate on *chronological*
+grounds and not on astronomical ones. Sir Robert Anderson's
+reckoning of Daniel's seventy weeks lands on 10 Nisan as 6 April AD 32, days before the Triumphal
+Entry, and that calculation is the reason the year circulates. Harold Hoehner reworked it and moved
+the terminus a year later for exactly this reason: on Anderson's own numbers an AD 32 crucifixion
+falls on the wrong day of the week for a Friday Passover. A date that satisfies the arithmetic of
+Daniel 9 but puts the crucifixion on a weekday the Gospels exclude is not a candidate; it is a
+calculation needing correction, which is what Hoehner gave it. See
+[Prophecy: Events and Times](prophecy-events-times.md#the-arithmetic) for both versions of that sum
+and the two-to-four-day slack in each.
+
+**Luke 3:1 is the primary evidence, and it favours AD 33.** Tiberius succeeded Augustus on 19 August AD 14, so his fifteenth year runs from August AD 28 to August AD 29. The *ESV Study Bible* puts it at "probably A.D. 29 (plus or minus a year)" and the *NIV Biblical Theology Study Bible* at AD 28-29. John's ministry begins there, Jesus is baptised after it, and the Passovers John records carry the ministry across roughly three years to AD 33 — set out below. Reaching AD 30 instead requires counting Tiberius's fifteenth year from his earlier provincial authority around AD 11-13 — a reckoning the Cultural Backgrounds volumes note is available, but which sits awkwardly beside Luke's evident care in naming five officials with their exact titles.
 
 **John 2:20 turns out to be neutral.** The Greek reads *Τεσσεράκοντα καὶ ἓξ ἔτεσιν οἰκοδομήθη ὁ ναὸς οὗτος* — an aorist, οἰκοδομήθη ("was built"), and ναός, the sanctuary proper rather than the whole ἱερόν complex. Josephus has Herod building the naos in eighteen months from his eighteenth year, finishing around 18/17 BC, while the wider precinct was unfinished until the AD 60s. So the dative ἔτεσιν carries two defensible senses, and each pairs with one candidate to give a ministry of about three years:
 
@@ -174,7 +194,24 @@ Both are Nisan 14, so the long-standing question of whether the Synoptics and Jo
 | "has taken forty-six years to build" | Herod's start, 20/19 BC | AD 27 | AD 30 |
 | "was built forty-six years ago" | the naos completed, 18/17 BC | AD 29/30 | AD 33 |
 
-The verse is compatible with either year and selects neither.
+The verse is compatible with either year and selects neither. The *ESV Study Bible* goes further and
+calls the second reading "much more likely," on the same grammatical grounds set out
+above. This page stops short of that: the grammar leans that way without settling it,
+and the year does not need John 2:20 to carry weight it cannot.
+
+**The Passovers in John make AD 30 hard to hold.** John marks at least three Passovers across the
+ministry (2:13; 6:4; 11:55), possibly four if the unnamed feast at 5:1 is one. Take the earliest
+start Luke 3:1 allows, late AD 28: the first of those Passovers falls in AD 29, the second in AD 30,
+the third no earlier than AD 31 — so the crucifixion cannot be at the second. The *ESV Study Bible*
+runs the same count and reaches AD 33 by it, and treats it as the argument that makes AD 30
+difficult rather than merely less likely.
+
+The escape from that is to say John records only two Passovers, on the view that his temple cleansing
+(2:13-22) is the Synoptics' one at the end of the ministry, moved forward for thematic reasons. That
+is a real position, and it is the load-bearing assumption under most AD 30 reconstructions — which is
+worth knowing, because it means the crucifixion year and the number of temple cleansings are the same
+question wearing two hats. John's own time markers resist it: "after this" he went to Capernaum "for
+a few days," and *then* "the Passover of the Jews was at hand" (2:12-13).
 
 **Sejanus favours AD 33.** "If you release this man, you are not Caesar's friend" (John 19:12, ESV) uses the language of *amicus Caesaris*, and it lands on Pilate with real force only after his patron Sejanus fell in October AD 31 and association with him became dangerous. A Pilate who caves to that threat fits AD 33 better than AD 30.
 
@@ -193,6 +230,11 @@ Sabbatical and jubilee cycles are used on this page only where Scripture attache
 ## References & Recommended Reading
 
 - **ESV Bible** (Crossway) — all scripture verified against `study-notes.db`.
+- ***ESV Study Bible*** (Crossway), "The Date of Jesus' Crucifixion" — the article this section was
+  checked against. It runs the same two-candidate filter and reaches the same verdict by a partly
+  different route: it rests more weight on John 2:20 than this page does, does not use Sejanus,
+  Daniel 9 or Paul's chronology, and closes by noting that AD 30 "is held by a number of respected
+  NT scholars," so both dates appear in its own chronologies.
 - **Edwin R. Thiele, *The Mysterious Numbers of the Hebrew Kings*** — the regnal reconstruction behind entries 1-9, and the accession-year convention.
 - **Babylonian Chronicle series**, principally BM 21946 — entries 10, 11, 12; the 2 Adar date for Jehoiachin's deportation.
 - **Nabonidus Chronicle** — the fall of Babylon, 16 Tishri (12 October) 539 BC.

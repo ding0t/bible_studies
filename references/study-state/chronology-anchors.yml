@@ -123,3 +123,50 @@ review_2026_08_22:
     per sentence and carried 9 `worth ___` instances (now 8 -- one was removed incidentally while
     adding the NLT note, since it was also a virtue contrast). Flagged for a separate style pass.
   outcome: "All Critical and Moderate findings fixed and re-verified by fresh computation. npm run validate 10 warnings (unchanged, none on these files); npm test 21/21; mkdocs build --strict clean."
+
+revision_2026-09-06:
+  what: >
+    User asked what the ESV Study Bible's crucifixion-date article draws on, and specifically why
+    AD 32 is not a candidate. The article is NOT in study-notes.db -- that build ingests notes,
+    introductions and verses for the ESV, and zero topical articles -- but the source epub is
+    unzipped on the media volume at local-only-build/unzipped/esv-study-bible, and the article is
+    at OEBPS/Text/c251.resources.xhtml, "The Date of Jesus' Crucifixion".
+  answer_on_ad32: >
+    The filter is astronomical and AD 32 fails it. On the Pharisaic-Rabbinic lunar-solar calendar in
+    common Jewish use at the time, Nisan 14 fell on a Friday only twice in Pilate's prefecture (AD
+    26-36): AD 30 and AD 33. The ESVSB states it in those terms. AD 32 recurs anyway because it is a
+    CHRONOLOGICAL candidate rather than an astronomical one -- Anderson's reckoning of Daniel's
+    seventy weeks lands on it -- and Hoehner moved the terminus a year precisely because an AD 32
+    crucifixion falls on the wrong weekday for a Friday Passover.
+  gaps_the_comparison_found:
+    - >
+      THE PASSOVERS IN JOHN were missing as an argument. The ESVSB treats this as what makes AD 30
+      difficult rather than merely less likely: John marks at least three Passovers (2:13; 6:4;
+      11:55), so from the earliest start Luke 3:1 allows (late AD 28) the third falls no earlier
+      than AD 31 and the crucifixion cannot be at the second. Added, with the arithmetic shown.
+    - >
+      THE TEMPLE-CLEANSING HINGE was missing with it, and it is the more useful half. The only
+      escape from the Passover count is to read John's cleansing (2:13-22) as the Synoptics' one
+      moved forward, giving two Passovers instead of three -- so the crucifixion year and the number
+      of temple cleansings are the same question in two guises. Added, with John's own time markers
+      at 2:12-13 as the resistance to it.
+    - >
+      THE CALENDAR ASSUMPTION was unnamed. The two-candidate result depends on which calendar is
+      reconstructed; the page now says Pharisaic-Rabbinic lunar-solar, as the ESVSB does.
+  deliberate_divergence_recorded: >
+    On John 2:20 the ESVSB calls the "was built forty-six years ago" reading "much more likely" and
+    counts the verse for AD 33. This page called it neutral and still does; the divergence is now
+    stated in the text rather than left as a silent disagreement, with the reason -- the grammar
+    leans that way without settling it, and the year does not need John 2:20 to carry weight it
+    cannot.
+  also: >
+    The ESVSB is internally inconsistent on Nisan 14 vs 15: the article has Nisan 14 running Thursday
+    sundown to Friday sundown with the crucifixion on it, while its own note on Matt 26:17 says
+    "Jesus was crucified the following afternoon, Friday (still Nisan 15)". Not chased down, since
+    this page already records that the 14/15 question does not decide between the two candidate
+    years. Noted here so it is not rediscovered as though new.
+  citation_care: >
+    ESVSB content is quotation-only tier. One sentence quoted with attribution ("the only plausible
+    years..."), the rest synthesised, and the article added to References & Recommended Reading with
+    a note on where its route differs from this page's.
+  last_updated: "2026-09-06"
