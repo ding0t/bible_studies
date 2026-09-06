@@ -100,6 +100,65 @@ The schema treated the reference tuple as if it were a key. It is not, and the t
 1. **Not unique within a work.** Nothing enforced one row per reference, and it wasn't true: upstream scrollmapper ships each verse many times over (ASV: 217,714 rows for 31,102 references) with the copies differing in whitespace, so 28,674 references carried two or three rows across 38 works — and `lookup_verse`'s `fetchone()` returned whichever SQLite reached first. Fixed at ingest (normalize whitespace; where copies still differ keep the one with the most words, since the disagreements are lost word separators) and now enforced by `idx_verses_unique`. It also un-inflated KJV Psalm 119 from 198 verses to 176.
 2. **Not an identity across works.** Uniqueness within a work says nothing about whether the same tuple means the same verse in another one. It often doesn't — see below.
 
+### Query traps — results that are wrong and look fine
+
+Every entry here is a real defect that reached a draft. They share a shape: the query succeeded, the
+number was plausible, and nothing in the output said otherwise. The tooling now says otherwise where
+it can, but the habit is the actual guard — **when a count is surprisingly small, it is more often
+the query than the corpus.**
+
+- **A lemma is a filing decision, not a fact about the text.** `query.py concordance δεῖ --book John`
+  returns **one** row for the whole gospel. John uses the verb repeatedly; MACULA files most of those
+  occurrences under δέω, its dictionary head. The count is a count of *rows filed under a lemma
+  string*, which is not the same question as "how often does this word appear". `query.py` now emits
+  a `lemma_sanity_warning` when the bare string appears in far more verses than the morphology
+  returns rows — but it only fires above a threshold, so a quiet result is not a cleared one.
+- **A zero is ambiguous three ways** and the query cannot tell you which: the word genuinely is not
+  there; the reference is in the wrong versification scheme (see
+  the **Versification** section below); or the work is
+  present on disk but **not ingested**, so nothing was ever searched (`check_sources.py`'s raw-only
+  list). `_empty_result_reason` in `query.py` distinguishes these where it can.
+- **A root is not a meaning.** עָלָה occurs 889 times and means "go up"; calling it "the verb used of
+  raising from the dead" because it appears in a resurrection passage is the root fallacy with a
+  database behind it. Frequency is the tell — a word common enough to appear anywhere proves nothing
+  by appearing here. Both skills check for this; see review-bible-study Phase 3.
+- **An exhaustiveness claim needs a re-run, not a memory.** "The only occurrence", "nowhere else",
+  "clothes nobody else in the book" — that last one shipped, and Babylon wears βύσσινος six verses
+  before the bride does (Revelation 18:16). `npm run validate` check 18 flags these when they share
+  a line with Greek or Hebrew; it can only ask.
+- **Counting across works multiplies by editions held.** A whole-corpus scan of the Greek returns one
+  hit per edition, so a word in one verse can report as three. Scope the query to a single work.
+
+### Guards, and how to run them
+
+Four checks exist because each of the above got through review at least once. None replaces reading;
+all of them fail loudly where reading failed quietly.
+
+```bash
+cd references/build
+uv run pytest tests/test_invariants.py     # every declared table has rows; every ingested work has content
+uv run python verify_claims.py             # re-run the SQL behind studies' recorded claims, compare to expect:
+uv run python cross_study_claims.py --min-studies 4   # chapters several studies treat — where contradictions hide
+uv run python cross_study_claims.py "Matthew 24"      # what each of them actually says about one
+```
+
+- **`tests/test_invariants.py`** asserts that a table declared in `schema.sql` is not empty. The
+  `notes` table was empty in **every build** for months — nothing queried it, so nothing noticed, and
+  studies were written past a 22,000-note corpus that was not there. A table that is legitimately
+  empty goes in `MAY_BE_EMPTY` **with its reason as the dict value**; an exemption without a recorded
+  justification is how that class of bug survives the sweep that was looking for it. (The diagram
+  sweep learned the same lesson: `timeline` blocks were exempted for "sizing themselves", which they
+  do not, and five stayed unreadable through the pass built to catch exactly that.)
+- **`verify_claims.py`** reads `claims:` blocks from `study-state/<slug>.yml` — a SQL query, and the
+  number the study printed — and re-runs them. A study saying "nine times" stays true only until the
+  corpus or the query changes; this notices. Add a block when a study rests weight on a count.
+- **`cross_study_claims.py`** answers a question no phase of either skill asks: *what do the other
+  studies say about this chapter?* Every review phase checks a study against **sources**; this checks
+  studies against **each other**. It cannot judge, only lay the sentences side by side. Ninety-seven
+  chapters are cited by three or more studies, and the contradictions found this way — Noah taken
+  before the flood in one section and preserved through it in four, a prayer in one study assuming
+  the Mark 13:32 reading a sibling study exists to refute — were all in the top of that list.
+
 ### Two works that look like Semitic originals and are not
 
 - **`ebible-hebsg`** is the Salkinson-Ginsburg Hebrew New Testament (1885/86) — two Hebraists, Isaac Salkinson and Christian David Ginsburg, and the edition most often meant when "two Hebrew scholars" comes up. It is nonetheless a **translation from the Greek**, distinguished from Delitzsch by confining itself to vocabulary attested in the Tanakh. Held here precisely so the two can be read against each other; neither attests a Hebrew original.

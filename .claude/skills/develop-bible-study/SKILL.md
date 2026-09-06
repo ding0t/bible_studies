@@ -89,6 +89,25 @@ Only now, cross to application:
   - Expect this step to *change* something. If commentaries confirm every single thing you already wrote and add nothing, you have probably skimmed them for agreement rather than read them for correction. Note explicitly in `resources_consulted` what each one confirmed versus contributed.
 - Record every source touched in `resources_consulted` on the state file, with enough detail (author, work, translation) to reconstruct the citation later.
 
+### Check the study against its siblings, not only against sources
+
+Everything above compares a claim to a **source**. Nothing compares it to *the other studies on this
+site*, and that is where this corpus has actually contradicted itself. `rapture.md` had Noah removed
+before the flood in one section and preserved through it in four others, while `olivet-discourse.md`
+— which it links to — had settled the question the other way with lexical evidence. `day-is-near.md`
+prayed a reading of Mark 13:32 that a sibling study exists to refute. Every one of those files passed
+review on its own.
+
+```bash
+cd references/build
+uv run python cross_study_claims.py --min-studies 4   # the shared surface, busiest first
+uv run python cross_study_claims.py "Matthew 24"      # what each study says about one chapter
+```
+
+Run it for each chapter this study leans on that other studies also treat. The tool cannot judge —
+it lays the sentences out side by side. Where two studies disagree, the fix is usually *one* of them,
+and which one is a question for the user, not a silent edit to whichever file is open.
+
 ## Phase 7 — Draft
 
 - Write the file per [docs/CONTENT_GUIDE.md](../../../docs/CONTENT_GUIDE.md) frontmatter schema (`title`, `category`, `description`, `tags`, `draft: true`, `bible_references`), into the section chosen from [placement-and-tags.md](placement-and-tags.md).

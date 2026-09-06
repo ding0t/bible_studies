@@ -117,7 +117,7 @@ scripts/build-events.test.js`, or `node src/utils/chronology.test.js` for the `s
 
 `npm run validate` (`app/scripts/validate-content.js`, run from `app/`) is the content linter, and
 **it is not wired into CI** — the deploy workflow runs `npm test` only, so validate has to be run
-by hand after editing content. It applies 17 checks in three groups:
+by hand after editing content. It applies 19 checks in four groups:
 
 - **Checks 1–9, structural**: frontmatter (required fields, tag quoting, draft status), image paths,
   scripture quote blocks opening with `> ✝️ Reference (TRANSLATION)` as their first line (the
@@ -134,6 +134,14 @@ by hand after editing content. It applies 17 checks in three groups:
   first bold thesis, block-quote share of the opening, unglossed terms of art), and the provenance
   frontmatter — missing fields, a `date_modified` behind the file's last commit, or an
   `ai_provider_models` entry that isn't provider-qualified. Also warnings.
+- **Checks 18–19, claims that go stale silently.** An exhaustiveness claim ("only occurrence",
+  "nowhere else") sharing a line with Greek or Hebrew characters — the cheapest sentence in a study
+  to write and the most expensive to verify, so routinely written unverified; one shipped saying
+  βύσσινος "clothes nobody else in the book" when Babylon wears it six verses earlier. And a
+  directional reference whose anchor points the other way ("see [X](#x) above" when `#x` is below).
+  Reordering a study breaks those in bulk and *nothing else can see it* — the anchor still resolves,
+  so `mkdocs build --strict` passes and the reader is simply sent the wrong way. Neither check can
+  verify the claim; both ask.
 
 **Bible-text database** (`references/build/` — `uv`-managed Python, ≥3.14):
 
@@ -146,6 +154,9 @@ uv run pytest tests/test_syntax.py # single suite (pythonpath is set in pyprojec
 uv run python query.py --help      # word / concordance / verse / passage / cross-ref / align / parallel / scripture-link lookups
 uv run python study_gaps.py docs/content/<study>.md   # what links to a study's passages that it never cites
 uv run python twot_lookup.py --help
+uv run pytest tests/test_invariants.py                # every declared table has rows -- the guard the empty `notes` table needed
+uv run python verify_claims.py                        # re-run the SQL behind studies' recorded counts, compare to `expect:`
+uv run python cross_study_claims.py --min-studies 4   # chapters several studies treat; add a chapter to see what each says
 uv run python commentary_index.py  # regenerate auto cross-ref pages — run after editing a study's bible_references/primary_passage
 uv run python section_index.py     # regenerate category landing pages — run after adding a study or new content section
 uv run python build_study_notes.py # commercial study-Bible db, writes outside this repo — see references/README.md
@@ -237,6 +248,14 @@ the workflow manually (`workflow_dispatch`).
   **review-bible-study** (`.claude/skills/review-bible-study/SKILL.md`), which re-verifies quotes,
   citations, and word studies against source. Reach for review, not develop, when the ask is
   "audit / fact-check / critique" rather than "write".
+- **An exemption in a checking tool carries its justification with it, or it is a hole.** Two of this
+  repo's checks were defeated by an unrecorded exemption rather than by a missing check. The diagram
+  sweep skipped `timeline` blocks because they "size themselves" — they do not, and five stayed
+  unreadable through the pass built to catch exactly that. The `notes` table was empty in every
+  build for months because nothing asserted a declared table has rows. So: `MAY_BE_EMPTY` in
+  `references/build/tests/test_invariants.py` is a dict, not a set, and the value is the reason;
+  a skipped case in `validate-content.js` gets a comment saying why. A reader who cannot see the
+  reason cannot tell an exemption from an oversight, and neither can the next sweep.
 - **`references/biblefacts/` is raw, unvetted input** — transcripts and notes captured from
   third-party teaching (currently Dead Sea Scrolls material). It is not part of either SQLite
   pipeline and is not covered by `references/README.md`'s license tiers. Treat it as a lead to

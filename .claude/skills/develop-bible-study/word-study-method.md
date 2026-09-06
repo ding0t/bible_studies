@@ -10,6 +10,26 @@ Trace the word's usage *through time*, in order: Classical Greek, then the Septu
 
 **Root fallacy guardrail:** a word's ancient or etymological root is not its present-tense meaning. If a conclusion leans on "the root word literally means X" as though that settles usage in the passage at hand, that's the error this step exists to catch — flag it and go back to usage evidence instead.
 
+**Frequency is the cheapest root-fallacy tell there is: run the concordance before writing the
+sentence.** The failure does not announce itself as etymology — it reads as an observation about
+usage. A draft here said <span dir="rtl">עָלָה</span> is "the verb used of raising from death"
+because it stands in a resurrection passage; it occurs **889 times** and means "go up". A word
+common enough to turn up anywhere proves nothing by turning up here, so the check is one query, and
+the answer is a number: if it is large, the word is carrying no weight and the sentence has to go.
+
+**And a surprisingly *small* count is more often the query than the corpus.** `concordance δεῖ
+--book John` returns one row for the whole gospel, because MACULA files most occurrences under δέω.
+`query.py` now warns when the bare string appears in far more verses than the lemma returns rows,
+but the warning has a threshold and silence is not a clearance. Read the number against the passage
+you just read: an implausible count is a bug report about the query. See **Query traps** in
+[references/README.md](../../../references/README.md) for the rest of that list.
+
+**A count you publish should be a count you can re-run.** When a study rests weight on one — "nine
+times", "only in Matthew" — record the SQL and the expected number in a `claims:` block on the
+study's state file, and `references/build/verify_claims.py` re-checks it against the corpus
+afterwards. A published count that was right when written and silently drifts is indistinguishable
+from one that was never checked.
+
 **Lexicon-bias guardrail:** a lexicon entry is itself a piece of scholarship, not a neutral fact — a lexicon writer's own theological or interpretive leanings shape which sense gets listed first, or at all. Don't settle a load-bearing gloss on a single lexicon; cross-check it against at least one other (Louw-Nida/SDBH's domain-based grouping and TWOT are usually enough) and note if they disagree rather than quietly picking the one that supports the reading already in mind.
 
 **Read the translators' footnotes on the passage before concluding anything.** `study-notes.db`'s

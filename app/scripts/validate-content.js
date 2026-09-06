@@ -405,6 +405,66 @@ function validateFile(filePath) {
     }
   }
 
+  // Check 18: exhaustiveness claims about an original-language word. "The only occurrence",
+  // "nowhere else", "appears once" -- the cheapest sentences in a study to write and the most
+  // expensive to verify, so they are routinely written unverified. This one shipped: a study said
+  // byssinos "clothes nobody else in the book" when Babylon wears it six verses earlier.
+  //
+  // The check cannot verify the claim; nothing in Node can reach the Greek database. It asks. It
+  // fires only when the exhaustiveness language shares a line with Greek or Hebrew characters,
+  // which keeps it off ordinary prose, and it is a warning because the claim is often true.
+  {
+    const EXHAUSTIVE = /\b(only occurrence|only place|only time|nowhere else|appears once|occurs once|the sole|never elsewhere|no other (?:verse|passage|book)|clothes nobody|used nowhere)\b/i;
+    const ORIGINAL_SCRIPT = /[\u0370-\u03FF\u1F00-\u1FFF\u0590-\u05FF]/;
+    bodyLines.forEach((line, i) => {
+      if (EXHAUSTIVE.test(line) && ORIGINAL_SCRIPT.test(line)) {
+        log(
+          'warning',
+          filePath,
+          `Line ${i + frontmatterEnd + 2}: an exhaustiveness claim about an original-language word ("${(line.match(EXHAUSTIVE) || [''])[0]}"). Re-run the count before publishing -- these are written unverified more often than any other kind, and one shipped saying a word "clothes nobody else in the book" when it clothes Babylon.`
+        );
+      }
+    });
+  }
+
+  // Check 19: a directional reference next to an internal link that points the wrong way.
+  // "See [X](#x) above" when #x is below is invisible to every other check here -- mkdocs resolves
+  // the anchor, so --strict passes, and the reader is simply sent the wrong way. Reordering a study
+  // breaks these silently and in bulk: a section move broke five in one file, and three more had
+  // been wrong beforehand.
+  {
+    const headingLine = new Map();
+    bodyLines.forEach((line, i) => {
+      const h = line.match(/^#{2,4}\s+(.*)$/);
+      if (h) {
+        const slug = h[1]
+          .toLowerCase()
+          .replace(/[`*_]/g, '')
+          .replace(/[^\w\s-]/g, '')
+          .trim()
+          .replace(/\s+/g, '-');
+        if (!headingLine.has(slug)) headingLine.set(slug, i);
+      }
+    });
+    bodyLines.forEach((line, i) => {
+      const re = /\]\(#([a-z0-9-]+)\)([^.\n]{0,40}?)\b(above|below)\b/gi;
+      let m;
+      while ((m = re.exec(line)) !== null) {
+        const target = headingLine.get(m[1]);
+        if (target === undefined) continue;
+        const saidAbove = m[3].toLowerCase() === 'above';
+        const isAbove = target < i;
+        if (saidAbove !== isAbove) {
+          log(
+            'warning',
+            filePath,
+            `Line ${i + frontmatterEnd + 2}: says "${m[3]}" of #${m[1]}, which is ${isAbove ? 'above' : 'below'} it. Reordering breaks these silently; mkdocs --strict cannot see it because the anchor still resolves.`
+          );
+        }
+      }
+    });
+  }
+
   // Check 17: the provenance fields -- date_created, date_modified, ai_provider_models -- on the
   // hand-written pages. They are written by utils/refresh_frontmatter_provenance.py from git
   // history; this check exists because a date typed into frontmatter goes stale the moment

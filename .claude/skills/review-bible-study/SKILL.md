@@ -236,6 +236,25 @@ phase by skipping straight to application. That is precisely the failure mode
 rule that governs everything" exist to catch, so don't skip this phase because the sourcing already
 checked out clean.
 
+### Check the study against its siblings, not only against sources
+
+Everything above compares a claim to a **source**. Nothing compares it to *the other studies on this
+site*, and that is where this corpus has actually contradicted itself. `rapture.md` had Noah removed
+before the flood in one section and preserved through it in four others, while `olivet-discourse.md`
+— which it links to — had settled the question the other way with lexical evidence. `day-is-near.md`
+prayed a reading of Mark 13:32 that a sibling study exists to refute. Every one of those files passed
+review on its own.
+
+```bash
+cd references/build
+uv run python cross_study_claims.py --min-studies 4   # the shared surface, busiest first
+uv run python cross_study_claims.py "Matthew 24"      # what each study says about one chapter
+```
+
+Run it for each chapter this study leans on that other studies also treat. The tool cannot judge —
+it lays the sentences out side by side. Where two studies disagree, the fix is usually *one* of them,
+and which one is a question for the user, not a silent edit to whichever file is open.
+
 ## Phase 7 — Placement, frontmatter & tags
 
 Cheap to check, and the failures are invisible from the page itself — they show up as a study missing
