@@ -49,7 +49,14 @@ def bible_word(strongs: str | None = None, lemma: str | None = None, book: str |
     restrict to one OSIS book code (e.g. 'Mark')."""
     conn = query.connect()
     try:
-        return query.lookup_word(conn, strongs=strongs, lemma=lemma, book=book)
+        rows = query.lookup_word(conn, strongs=strongs, lemma=lemma, book=book)
+        if lemma:
+            warning = query.lemma_sanity_warning(conn, lemma, book, len(rows))
+            if warning:
+                # prepended as a row rather than raised: the caller still wants the data, and a
+                # count that is an artefact of lemma normalisation looks exactly like a real one
+                return [{"warning": warning}] + rows
+        return rows
     finally:
         conn.close()
 

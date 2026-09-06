@@ -317,3 +317,56 @@ review_2026-09-06:
     - "Phase 6: study_gaps returns only festival-calendar parallels (Num 28-29, Lev 25) that do not bear on the argument. No statement-of-faith intersection."
     - "Phase 7: placement, tags and provenance all clean. Phase 8: diagram 465px at 100%; no Hebrew in markdown bold."
   last_updated: "2026-09-06"
+
+# Countable claims this study makes in its own voice, as SQL with the answer the prose states.
+# Re-run with: cd references/build && uv run python verify_claims.py three-days-and-three-nights
+# The exclusions are inside the SQL so `expect` is literally the number printed in the study.
+claims:
+  - id: third-day-count
+    what: '"on the third day", resurrection contexts'
+    sql: |
+      SELECT COUNT(*) FROM verses WHERE work_id='sblgnt'
+        AND (text LIKE '%τρίτῃ ἡμέρᾳ%' OR text LIKE '%ἡμέρᾳ τῇ τρίτῃ%')
+        AND NOT (book='John' AND chapter=2 AND verse=1)
+    expect: 9
+    note: >
+      John 2:1 excluded as the Cana wedding. This is the claim that was published as EIGHT --
+      Luke 18:33 was missed -- and propagated to six sentences before review caught it.
+  - id: after-three-days-count
+    what: '"after three days", resurrection contexts'
+    sql: |
+      SELECT COUNT(*) FROM verses WHERE work_id='sblgnt'
+        AND text LIKE '%μετὰ τρεῖς ἡμέρας%'
+        AND NOT (book='Acts' AND chapter=25 AND verse=1)
+    expect: 3
+    note: Acts 25:1 excluded -- Festus, unrelated to the resurrection.
+  - id: three-days-three-nights-count
+    what: '"three days and three nights" in the NT'
+    sql: "SELECT COUNT(*) FROM verses WHERE work_id='sblgnt' AND text LIKE '%τρεῖς νύκτας%'"
+    expect: 1
+  - id: total-statements
+    what: the span stated across all three phrasings
+    sql: |
+      SELECT (SELECT COUNT(*) FROM verses WHERE work_id='sblgnt'
+                AND (text LIKE '%τρίτῃ ἡμέρᾳ%' OR text LIKE '%ἡμέρᾳ τῇ τρίτῃ%')
+                AND NOT (book='John' AND chapter=2 AND verse=1))
+           + (SELECT COUNT(*) FROM verses WHERE work_id='sblgnt'
+                AND text LIKE '%μετὰ τρεῖς ἡμέρας%'
+                AND NOT (book='Acts' AND chapter=25 AND verse=1))
+           + (SELECT COUNT(*) FROM verses WHERE work_id='sblgnt' AND text LIKE '%τρεῖς νύκτας%')
+    expect: 13
+    note: the study says "stated thirteen times and explains it none" in two places.
+  - id: prosabbaton-hapax
+    what: prosabbaton is a New Testament hapax
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='προσάββατον'"
+    expect: 1
+  - id: paraskeue-count
+    what: paraskeue, all six of the crucifixion day
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='παρασκευή'"
+    expect: 6
+  - id: ego-eimi-in-john
+    what: ego eimi occurrences in John, of which 4:26 is the first
+    sql: |
+      SELECT COUNT(*) FROM verses WHERE work_id='sblgnt' AND book='John'
+        AND (text LIKE '%Ἐγώ εἰμι%' OR text LIKE '%ἐγώ εἰμι%')
+    expect: 23

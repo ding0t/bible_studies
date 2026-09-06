@@ -246,13 +246,17 @@ review_2026-09-01:
         question above ("Either verify or drop the two names before draft: false") -- Bernard was
         dropped from the prose, Origen was not.
     minor:
-      - "Tobit is set among the exiles in Media" -- the Nephthalim exiles are in Nineveh (Assyria, Tobit 1:2, 7:3); Ecbatana (Media) is Raguel/Sara's home, not an exile community.
-      - "The image travels from the marriage bed to the day of the LORD" -- the study's own glosses (and the MACULA glosses) say chamber, not bed, for Ps 19 and Joel.
+      - >-
+          "Tobit is set among the exiles in Media" -- the Nephthalim exiles are in Nineveh (Assyria, Tobit 1:2, 7:3); Ecbatana (Media) is Raguel/Sara's home, not an exile community.
+      - >-
+          "The image travels from the marriage bed to the day of the LORD" -- the study's own glosses (and the MACULA glosses) say chamber, not bed, for Ps 19 and Joel.
       - bible_references carries four entries absent from the prose (1 Thess 4:16-17, 2 Thess 2:1, Song of Songs 4:9-12, Matthew 22:1-14) -- phantom entries on those chapters' commentary-index pages; and Exodus 15:17, quoted in the prose, is missing from the list.
-      - "One source arguing for it concedes the idiom is not proven." -- unnamed source; unfollowable citation.
+      - >-
+          "One source arguing for it concedes the idiom is not proven." -- unnamed source; unfollowable citation.
       - ESV SB attribution overstated: the note says "best to understand my Father's house as referring to heaven"; "rather than as a building under renovation" is the study's own straw, not the note's contrast.
       - File is uncommitted: the provenance dates (2026-09-01) are what refresh_frontmatter_provenance.py stamps on a never-committed file; re-run it with the first commit so git and frontmatter agree. Not a hand-edit.
-      - Style: "One more detail from the same evening." is a pure signpost (the style guide names this exact shape); "something startling" in the hook is a grader adjective; "Note the last one:" is a borderline narrating announcement.
+      - >-
+          Style: "One more detail from the same evening." is a pure signpost (the style guide names this exact shape); "something startling" in the hook is a grader adjective; "Note the last one:" is a borderline narrating announcement.
       - References section lists the ESV SB note on Song 1:1, which the prose never uses (only the 1:2-2:17 note is cited).
   verified_clean: >
     All ~30 ESV quotes verbatim (including the three block quotes, ellipsis in Song 2:12 proper).
@@ -275,5 +279,6 @@ review_2026-09-01:
     Rev 19:8 "was given" as God's sovereign gifting matching the study's rules-out-both-halves
     reading; no contradiction found. Placement (israel-and-church) and all 13 tags check out
     against the live tag vocabulary; section order matches the skill's Phase 7.
-  status: findings presented to user; fixes pending selection. File was draft: true and
+  status: >-
+    findings presented to user; fixes pending selection. File was draft: true and
     uncommitted at review time.

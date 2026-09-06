@@ -22,6 +22,7 @@ CLI examples:
 """
 import argparse
 import sqlite3
+import unicodedata
 from pathlib import Path
 
 import quotations
@@ -141,6 +142,58 @@ def _strongs_filter(strongs: str) -> tuple[str, list]:
     placeholders = ",".join("?" * len(languages))
     return (f"work_id IN (SELECT work_id FROM works WHERE language IN ({placeholders}))",
             list(languages))
+
+
+_PUNCT = "·,.;:!?()[]{}\u2019\u2018\u201c\u201d\u00b7\u037e\u2014\u2013-\u02bc\u1fbd"
+
+
+def _strip_accents(text: str) -> str:
+    """Letters only, accents and breathings removed — so a lemma cited with accents still matches
+    running text that points it differently."""
+    decomposed = unicodedata.normalize("NFD", (text or "").lower())
+    return "".join(c for c in decomposed if not unicodedata.combining(c))
+
+
+def lemma_sanity_warning(conn: sqlite3.Connection, lemma: str, book: str | None,
+                          found: int) -> str | None:
+    """Flag a lemma count that the verse text contradicts.
+
+    Written after a real miss. `lemma='δεῖ'` returns ONE row for the whole of John, because MACULA
+    files most occurrences under δέω and only two under δεῖ — so a study reported that John uses
+    "must" once, when the string is there ten times. The query was correct SQL and the answer was
+    nonsense, and nothing said so.
+
+    The check is a disagreement, not a threshold: count the verses whose text actually contains the
+    lemma's own letters, and compare. If the text has it far more often than the morphology does,
+    the lemma is normalised under some other head and the count is an artefact. Accent-insensitive,
+    because a lemma is cited with accents and the running text may point them differently.
+    """
+    if not lemma or len(lemma) < 2:
+        return None
+    bare = _strip_accents(lemma)
+    # Compare like with like. The morphology table annotates exactly two texts, so the text scan has
+    # to run over those two and no others: counting every Greek work in `verses` multiplies the hit
+    # count by the number of editions held and makes the ratio measure the corpus, not the lemma.
+    # That bug was in the first cut of this function and reported 50 verses of John for δεῖ.
+    where = ["work_id IN ('sblgnt', 'morphhb-wlc')"]
+    params: list = []
+    if book:
+        where.append("book = ?")
+        params.append(book)
+    hits = 0
+    for (text,) in conn.execute(f"SELECT text FROM verses WHERE {' AND '.join(where)}", params):
+        # whole words, not substrings: δει sits inside οὐδείς and εἶδεν, and a substring test
+        # reported 379 verses of John for a lemma that is actually there nine times
+        if bare in {w.strip(_PUNCT) for w in _strip_accents(text).split()}:
+            hits += 1
+    # one or two stray matches prove nothing; a wide gap does
+    if hits >= 5 and hits >= found * 3:
+        where_book = f" in {book}" if book else ""
+        return (f"lemma '{lemma}' returns {found} morphology row(s){where_book}, but the string "
+                f"appears in {hits} verses of the original-language text. The lemma is probably "
+                f"normalised under a different head — MACULA files δεῖ under δέω, for instance. "
+                f"Check before quoting this count.")
+    return None
 
 
 def lookup_word(conn: sqlite3.Connection, strongs: str | None = None, lemma: str | None = None,
@@ -812,6 +865,10 @@ def cmd_word(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
         rows = lookup_word(conn, strongs=args.strongs, lemma=args.lemma, book=args.book)
     except ValueError as e:
         raise SystemExit(f"word: {e} (give --strongs or --lemma)")
+    if args.lemma:
+        warning = lemma_sanity_warning(conn, args.lemma, args.book, len(rows))
+        if warning:
+            print(f"  WARNING: {warning}\n")
     if not rows:
         print("No matches.")
         return

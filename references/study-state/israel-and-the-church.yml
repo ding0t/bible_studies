@@ -228,7 +228,7 @@ review_2026-08-12:
 
 superseded_last_updated_2026_08_12: "2026-08-12"
 
-  publish_2026-08-12: >
+publish_2026-08-12: >
     Flipped to draft: false and indexes regenerated. Two defects surfaced by the generators and
     fixed before publishing. (1) commentary_index.py DELETED two auto-generated chapter pages —
     Jeremiah 2 and Ezekiel 37 — because the rebuild had dropped both from bible_references, and
