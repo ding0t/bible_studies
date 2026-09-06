@@ -197,3 +197,52 @@ revision_2026-09-06d:
     crucifixion falls on Nisan 14 or 15; the study already records that the question does not decide
     the year, so the diagram follows the article rather than adjudicating.
   last_updated: "2026-09-06"
+
+revision_2026-09-06e:
+  what: >
+    User: add depth on types, patterns and prophecies, on what Jesus said about where he was and
+    what it achieved, and draw on the cross-reference materials -- "the timing is just a small part
+    of this study". Correct. The study was an arithmetic paper with a Jonah reference in it.
+  new_material:
+    - >
+      THE SIGN, AND WHAT JONAH SAID IT WAS. bible_trace on Matt 12:40 returns Jonah 2:1 LXX as a
+      quotation-greek link at strength 24, corroborated, sharing a whole clause -- so Jesus is
+      quoting, not comparing. Jonah's own prayer then interprets his three days and never mentions a
+      fish: "the belly of Sheol" (2:2), "the pit" (2:6), and God does not release him but BRINGS HIM
+      UP. Jonah's three days are a burial.
+    - >
+      THE KARDIA LINK, which is the find of this pass. Jonah 2:3 English (2:4 Hebrew) has him "in
+      the heart of the seas" -- bilvav yammim, lemma levav -- and the LXX renders it kardias
+      thalasses. Matt 12:40 has kardia tes ges, "the heart of the earth". Jesus takes the noun out
+      of the passage he is quoting and moves it from the sea to the ground. Verified in both the
+      Hebrew morphology and the lxx-lemmas table, not assumed.
+    - >
+      THREE DAYS, THREE APPOINTED TIMES. The span is bounded by consecutive festivals in Lev 23 and
+      the NT names Christ as the fulfilment of the outer two: Passover (23:5) with 1 Cor 5:7, and
+      Firstfruits (23:10-11) with 1 Cor 15:20, 23. Lev 23:11 dates the sheaf "on the day after the
+      Sabbath" -- so the resurrection falls on the appointed day for the offering it fulfils, which
+      answers "why Sunday" from the calendar rather than only from the Gospels. This is a better
+      answer to "why three days" than any arithmetic, and the site had NO Firstfruits material at
+      all; it is an open backlog item, so the point is made in this study rather than cross-linked.
+    - >
+      1 SAMUEL 30:12-13, an uncorroborated quotation-greek link the same trace turned up. v12 has a
+      man who had not eaten "three days and three nights"; v13 has him say "I fell sick three days
+      ago". Same speaker, same episode, adjacent verses. The idiom demonstrated in the OT, in the
+      exact phrase Jesus uses, by someone with no stake in the question. Nothing in the inherited
+      cross-reference lists carries it.
+    - >
+      WHERE HE WAS. Ps 16:10 as the stated prophecy, applied by Peter at Acts 2:31 with the argument
+      from David's tomb still being in Jerusalem; Luke 23:43 "today... in paradise"; Eph 4:8-10 the
+      descent and the host of captives; 1 Pet 3:19 flagged as genuinely contested rather than quietly
+      omitted; Rev 1:18 the keys. Stated plainly that the NT never narrates the interval -- only its
+      boundaries and outcome.
+    - "WHAT IT ACHIEVED. Heb 2:14-15 (death's holder destroyed, its hostages freed, and the mechanism is THROUGH death); Rev 1:18 (authority transferred); 1 Cor 15:23 (firstfruits means a field is coming)."
+  reframed: >
+    Hook rewritten so the sign leads and the arithmetic follows, "## The problem" became "## The
+    counting problem", and the counting section now says outright why it occupies so much room:
+    Scripture states the span twelve times and explains it none, while saying a great deal about
+    what the days accomplished. Types & Prophecy in Key Takeaways rebuilt around Jonah's own words,
+    the feast sequence and Ps 16:10.
+  frontmatter: "description rewritten; bible_references +17; tags gained jonah, leviticus, psalms, method/typology, lang/hebrew -- all already in the site vocabulary."
+  size: "2,489 words to 4,897."
+  last_updated: "2026-09-06"

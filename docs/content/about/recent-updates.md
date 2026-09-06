@@ -32,7 +32,7 @@ way.
 
     ---
 
-    A Friday crucifixion gives two nights, not three. Whether Matthew 12:40 rules it out — the one occurrence of the phrase, the eight that say 'on the third day', Mark's word for the day, and the 'high day' that carries the Wednesday case.
+    The sign of Jonah, and what Jonah said it was: the belly of Sheol, the heart of the seas, brought up from the pit. The three days across Passover, Unleavened Bread and Firstfruits. Where the New Testament says Christ was, what it says he achieved — and, in its proper proportion, whether a Friday allows three nights.
 
     :material-new-box: New 2026-09-06 · [:octicons-arrow-right-24: Read](../jesus/three-days-and-three-nights.md)
 

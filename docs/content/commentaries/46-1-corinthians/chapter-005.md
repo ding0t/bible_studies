@@ -14,4 +14,5 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 5:7
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:7-8
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 5:7
 <!-- commentary-index:auto-end -->
