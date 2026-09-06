@@ -504,20 +504,22 @@ At the millennium's close, Satan is judged once for all, the unsaved face the Gr
 
 ## The whole sequence in one view
 
-Everything argued above, in one view. On the pretribulational reading the events fall in this order. Two tracks run in
-parallel through the tribulation years — one on earth, one in heaven — and they converge at the
-second coming, when the Church returns with him.
+Everything argued above, in one view. On the pretribulational reading the events fall in this
+order. The branch below the rapture is not the Church dividing — it is the whole Church leaving.
+Two tracks then run in parallel through the tribulation years: one on earth, which the Church has
+been removed from, and one in heaven, where she is. They converge at the second coming, when she
+returns with him.
 
 ```mermaid
 flowchart TD
-    A["The Church age<br/>continues today"] -->|"no sign to wait on"| B["The rapture<br/>the Church is caught up<br/>1 Thess 4:16-17<br/>1 Cor 15:51-53"]
-    B --> C["Tribulation begins<br/>seven years<br/>covenant confirmed<br/>Dan 9:27"]
+    A["The Church age<br/>continues today"] -->|"no sign to wait on"| B["The rapture<br/>the whole Church<br/>is caught up<br/>1 Thess 4:16-17<br/>1 Cor 15:51-53"]
+    B -->|"on earth,<br/>the Church removed"| C["Tribulation begins<br/>seven years<br/>covenant confirmed<br/>Dan 9:27"]
     C --> D["Midpoint<br/>abomination of desolation<br/>Matt 24:15<br/>man of lawlessness revealed<br/>2 Thess 2:3-4"]
     D -->|"after the tribulation<br/>Matt 24:29"| E["The second coming<br/>every eye sees him<br/>Rev 19:11-16; Matt 24:30"]
     E --> F["The millennium<br/>Christ reigns, 1000 years<br/>Rev 20:1-6"]
     F --> G["Great White Throne<br/>the unsaved judged<br/>Rev 20:11-15"]
     G --> H["Eternity<br/>new heaven, new earth<br/>Rev 21:1-4"]
-    B -->|"in heaven"| X["Bema seat<br/>believers' works assessed<br/>2 Cor 5:10; 1 Cor 3:11-15"]
+    B -->|"in heaven,<br/>the Church with Christ"| X["Bema seat<br/>believers' works assessed<br/>2 Cor 5:10; 1 Cor 3:11-15"]
     X -->|"clothed in her<br/>righteous deeds<br/>Rev 19:8"| Y["Marriage of the Lamb<br/>and the supper<br/>Rev 19:7-9"]
     Y -->|"returns with him<br/>Rev 19:14; Col 3:4"| E
 ```

@@ -58,7 +58,34 @@ resources_consulted:
   - {type: other, title: "Ken Johnson, Th.D., Paul's Ancient Hebrew Thessalonian Epistles", note: "User-requested addition. Web-researched (WebSearch + WebFetch against prophecywatchers.com and according2prophecy.org product/article pages) rather than assumed -- found the specific manuscript claim is not identifiable from public material. Named in the study with that verification limit stated plainly."}
   - {type: lexicon, title: "bible-text.db (SBLGNT via macula-greek-sblgnt, bible_word/bible_concordance)", note: "Direct verification of harpazo (14x), apantesis (3x), bema (12x, all judicial), and the katechon/katechon gender shift."}
 
-last_updated: "2026-08-07"
+diagram_fix_2026_09_06:
+  reported_by: >
+    User reading the summary flowchart: "it looks like half the church goes through tribulation and
+    the other half to heaven." Rendering the block confirmed it -- the read was the diagram's
+    defect, not a misreading.
+  defect: >
+    The rapture node B had two outgoing edges. Only the heaven branch was labelled ("in heaven");
+    the branch into "Tribulation begins" was bare. Mermaid lays that out as a symmetrical fork
+    under "The rapture -- the Church is caught up", so the Church appears to divide, with the
+    unlabelled branch reading as the default path. That contradicts the study's own thesis and
+    statement-of-faith.md:252 ("The church will be caught up to meet Christ before the tribulation
+    begins"). The prose lead-in said "two tracks ... one on earth, one in heaven" but never said
+    the earth track has no Church on it, so nothing in the section corrected the picture.
+  fix: >
+    Both edges out of B now carry labels -- "on earth, the Church removed" and "in heaven, the
+    Church with Christ" -- and the node reads "the whole Church is caught up". Lead-in prose now
+    states outright that the branch is not the Church dividing but the whole Church leaving.
+  layout_checked: >
+    Measured with mermaid-cli per diagrams.md rather than estimated. Before 552px; after 552px, so
+    the page keeps its 100% render. A subgraph version grouping the two tracks in labelled clusters
+    read better but measured 706px (~80%), and trimming the cluster titles did not help -- the cost
+    is subgraph padding, not title length. Rejected on that basis; the edge labels carry the same
+    information at no width.
+  scope_checked: >
+    prophecy-chart.md's second flowchart has a similar fork but is correctly drawn -- its
+    tribulation edge comes off "Abraham's line / the Jews", not off the Church. No other diagram on
+    the site forks out of a Church node. rapture.md's first diagram (Jewish wedding) is linear.
+last_updated: "2026-09-06"
 review_2026-08-07:
   reviewer: "review-bible-study skill (subagent) + user-directed follow-up"
   scope: "Full adversarial pass -- Phases 1-6 of review-bible-study, plus a user-requested second pass adding OT typology (Lot) and researching a specific claimed source (Ken Johnson) for the restrainer argument."
