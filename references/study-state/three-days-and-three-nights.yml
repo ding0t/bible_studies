@@ -246,3 +246,74 @@ revision_2026-09-06e:
   frontmatter: "description rewritten; bible_references +17; tags gained jonah, leviticus, psalms, method/typology, lang/hebrew -- all already in the site vocabulary."
   size: "2,489 words to 4,897."
   last_updated: "2026-09-06"
+
+review_2026-09-06:
+  reviewer: "review-bible-study skill, full adversarial pass on a live file"
+  scope: >
+    Phases 1-8. Every count re-derived from sblgnt rather than re-read; translator footnotes pulled
+    for Matt 12:38-41 and Jonah 1:17-2:6; commentary cross-check against NLT Life Application, which
+    the study does not cite; study_gaps; internal links; diagram measured; style pass.
+  critical_found: 1
+  critical_fixed: 1
+  moderate_found: 2
+  moderate_fixed: 2
+  minor_found: 3
+  minor_fixed: 3
+  findings:
+    - severity: critical
+      what: >
+        The occurrence count was wrong. "On the third day" is NINE, not eight -- Luke 18:33 ("and on
+        the third day he will rise") was missed. John 2:1 is the Cana wedding and is correctly
+        excluded. The single miss propagated to six places: the table, "eight times against one" in
+        Key Takeaways, "the eight-to-one ratio" in the conclusion, "the eleven others", and "stated
+        twelve times" twice.
+      why_it_survived: >
+        Written from a LIKE query whose pattern I had already had to widen once, and never re-run
+        after. Exactly the Phase 4 failure the skill describes -- a quantity claim in the study's own
+        voice with nothing external for a reader to check it against.
+      fix: "All six corrected: 9 / 3 / 1, totalling 13, with Luke 18:33 added to the reference list. Re-derived twice more after fixing."
+    - severity: moderate
+      what: >
+        Root-fallacy overclaim. The study said God "brings him up -- watta'al, THE VERB USED OF
+        RAISING FROM DEATH". Form and gloss check out (alah, H5927), but the verb occurs 889 times
+        meaning go up, come up, offer up -- mist in Gen 2:6, a burnt offering in Gen 8:20, Abram
+        travelling in Gen 13:1. Not a resurrection term.
+      fix: "Rewritten to say what is true: the ordinary verb for going or bringing up, with the burial carried by everything around it rather than by the word."
+    - severity: moderate
+      what: >
+        The study's two Old Testament anchors were never connected, and one noun connects them.
+        Jonah 2:6's "pit" and Psalm 16:10's "corruption" are both shachath (H7845); the LXX carries
+        the pair as phthora and diaphthora, and diaphthora is what Peter quotes at Acts 2:27, 31. The
+        relation is exact: Jonah is brought up FROM the shachath, the Holy One is not left to SEE it.
+      how_found: >
+        Phase 3's standing footnote pull. The Legacy Standard Bible footnotes Jonah 2:6 "Or
+        corruption", which the study had never consulted. Reading alone would not have produced it.
+      fix: "Added to the Psalm 16:10 discussion, where it joins the two halves of the study."
+    - severity: minor
+      what: "Three bare 'genuinely' (the phrase is genuinely open / genuinely difficult / it genuinely delivers)."
+      fix: "All three cut; one reworded to 'does deliver' where the emphasis was doing real contrastive work."
+    - severity: minor
+      what: >
+        Discussion question 4 asked the reader to evaluate the study's own method -- "This study
+        reaches a conclusion and then names what that conclusion costs." style-guide.md names this
+        exactly: questions are for thinking about the subject, never about the study's handling of
+        itself, and it solicits credit for the caveats.
+      fix: "Replaced with a question about the sign of Jonah itself."
+    - severity: minor
+      what: "The Jonah 1:17 / 2:1 numbering was used correctly but inconsistently across frontmatter and prose; three translations footnote the discrepancy."
+      fix: "One parenthesis added where the quotation is first discussed."
+  clean:
+    - "Phase 1: all ESV quotations verbatim."
+    - "Counts that were right: 'after three days' 3 (Acts 25:1 correctly excluded as Festus), paraskeue 6, prosabbaton a NT hapax."
+    - >
+      Phase 4 correspondence claims all held. Mark 8:31 / Matt 16:21 confirmed as one occasion --
+      both follow Peter's confession and the charge to tell no one. Lev 23:5, 6, 10-11 accurate. The
+      kardia link re-verified in the Hebrew morphology AND the lxx-lemmas table. Jonah 2:1 quotation
+      at strength 24 corroborated, 1 Sam 30:12 uncorroborated, both as stated.
+    - >
+      Phase 5: NLT Life Application, uncited by the study, CONFIRMS the central reading -- "Jesus was
+      clearly saying that his resurrection would prove his identity as the Messiah" -- and is silent
+      on the arithmetic. No contradiction.
+    - "Phase 6: study_gaps returns only festival-calendar parallels (Num 28-29, Lev 25) that do not bear on the argument. No statement-of-faith intersection."
+    - "Phase 7: placement, tags and provenance all clean. Phase 8: diagram 465px at 100%; no Hebrew in markdown bold."
+  last_updated: "2026-09-06"

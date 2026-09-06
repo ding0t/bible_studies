@@ -116,6 +116,30 @@ way.
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/trumpet.md)
 
+-   __1 Samuel 30__
+
+    ---
+
+    Commentary and cross-referenced studies for 1 Samuel chapter 30
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/09-1-samuel/chapter-030.md)
+
+-   __Revelation 1__
+
+    ---
+
+    Commentary and cross-referenced studies for Revelation chapter 1
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/66-revelation/chapter-001.md)
+
+-   __Acts 2__
+
+    ---
+
+    Commentary and cross-referenced studies for Acts chapter 2
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/44-acts/chapter-002.md)
+
 -   __Acts 10__
 
     ---
@@ -148,37 +172,13 @@ way.
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/42-luke/chapter-024.md)
 
--   __Matthew 28__
+-   __1 Peter 3__
 
     ---
 
-    Commentary and cross-referenced studies for Matthew chapter 28
+    Commentary and cross-referenced studies for 1 Peter chapter 3
 
-    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-028.md)
-
--   __Matthew 17__
-
-    ---
-
-    Commentary and cross-referenced studies for Matthew chapter 17
-
-    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-017.md)
-
--   __Matthew 27__
-
-    ---
-
-    Commentary and cross-referenced studies for Matthew chapter 27
-
-    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-027.md)
-
--   __Matthew 12__
-
-    ---
-
-    Commentary and cross-referenced studies for Matthew chapter 12
-
-    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-012.md)
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/60-1-peter/chapter-003.md)
 
 </div>
 <!-- recent-updates:auto-end -->

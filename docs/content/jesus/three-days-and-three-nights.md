@@ -50,7 +50,7 @@ and how long.
 - He answered a demand for a sign by pointing at his own burial, before anyone had asked about a
   timetable.
 - He spoke of the interval far more often as "the third day" than as three days and three nights —
-  eight times against one.
+  nine times against one.
 - The two disciples on the Emmaus road, on the day it happened, called that Sunday "the third day
   since these things happened" (Luke 24:21). Whatever reckoning they were using, it is the one the
   New Testament uses.
@@ -95,7 +95,7 @@ Thursday.
 
 Four lines bear on it, each counted from the Greek text rather than recalled. They occupy most of
 what follows, which is a matter of the question's difficulty rather than its importance: Scripture
-states the span twelve times and explains it none, while it says a great deal about what the days
+states the span thirteen times and explains it none, while it says a great deal about what the days
 accomplished.
 
 ## The sign, and what Jonah said it was
@@ -104,7 +104,9 @@ Jesus is not making a general comparison. He is quoting, and the quotation is ex
 reproduces the Septuagint of Jonah 2:1 word for word — *ἦν Ἰωνᾶς ἐν τῇ κοιλίᾳ τοῦ κήτους τρεῖς
 ἡμέρας καὶ τρεῖς νύκτας*, "Jonah was in the belly of the sea creature three days and three nights."
 This project's own quotation detection scores that link at 24, its highest tier, and finds it
-corroborated by the inherited cross-reference lists as well.
+corroborated by the inherited cross-reference lists as well. (The verse is Jonah 1:17 in English
+Bibles and 2:1 in the Hebrew and the Greek — a numbering difference the NLT, the Legacy Standard
+Bible and others footnote at that verse. References here follow whichever text is being cited.)
 
 That matters because Jonah interprets his own three days, in the prayer that follows immediately —
 and he does not describe a fish. He describes death.
@@ -119,7 +121,9 @@ and he does not describe a fish. He describes death.
 
 **The belly of the fish is "the belly of Sheol."** The place is "the pit," a land with bars that
 close. And what God does is not *release* him but *bring him up* — <span dir="rtl">וַתַּעַל</span>,
-the verb used of raising from death. Jonah's three days are a burial.
+from <span dir="rtl">עָלָה</span> (*ʿalah*), the ordinary verb for going or bringing up. Nothing in
+the word itself carries resurrection; the burial is carried by everything around it. Jonah's three
+days are a death and a raising, described as such by the man they happened to.
 
 **And one word travels from Jonah's prayer into Jesus's sentence.** Jonah 2:3 in English (2:4 in the
 Hebrew) puts him "in the heart of the seas" — <span dir="rtl">בִּלְבַב יַמִּים</span>, which the
@@ -167,11 +171,11 @@ the New Testament describes the same interval two other ways, and far more often
 
 | Phrasing | Occurrences | Where |
 |---|---|---|
-| "on the third day" | **8** | Matthew 16:21; 17:23; 20:19; Luke 9:22; 24:7; 24:46; Acts 10:40; 1 Corinthians 15:4 |
+| "on the third day" | **9** | Matthew 16:21; 17:23; 20:19; Luke 9:22; 18:33; 24:7; 24:46; Acts 10:40; 1 Corinthians 15:4 |
 | "after three days" | **3** | Mark 8:31; 9:31; 10:34 |
 | "three days and three nights" | **1** | Matthew 12:40 |
 
-A reading that makes the one occurrence the measurement and the eleven others approximations has
+A reading that makes the one occurrence the measurement and the twelve others approximations has
 the ratio upside down.
 
 **And the Old Testament glosses the phrase itself, once.** Running this project's quotation
@@ -353,7 +357,7 @@ require comparing two Gospels. It is inside one paragraph.
 "A high day" is **μεγάλη** — great. If that names a *festival* Sabbath distinct from the weekly one,
 then two Sabbaths fell in that week, and the extra day the literal reading of Matthew 12:40 needs
 becomes available. That is the real plank under the Wednesday and Thursday positions, and it is not
-a foolish one: the phrase is genuinely open between "a festival Sabbath" and "the weekly Sabbath,
+a foolish one: the phrase is open between "a festival Sabbath" and "the weekly Sabbath,
 made great by a feast falling on it."
 
 **The spices are the better version of that argument.** Luke has the women return from the burial and
@@ -388,7 +392,15 @@ resemblance. Peter quotes it in the first Christian sermon and says outright wha
 > nor did his flesh see corruption.
 
 Two negatives, and they are the load-bearing content: **not abandoned** to Hades, and **no
-corruption**. The first assumes he was there; the second bounds how long. Peter's argument in
+corruption**. The first assumes he was there; the second bounds how long.
+
+**And that second word ties the psalm back to Jonah.** Psalm 16:10's "corruption" is
+<span dir="rtl">שַׁחַת</span> (*shachath*, H7845) — the same noun Jonah uses for the place God brings
+him up from, which the ESV renders "the pit" there and the Legacy Standard Bible footnotes as "Or
+corruption." The Septuagint carries the pair across as φθορά at Jonah and διαφθορά at the psalm, and
+διαφθορά is the word Peter quotes. So the two Old Testament texts this study leans on are joined by
+one noun, and the relation between them is exact: Jonah is brought up **from** the shachath; the Holy
+One is not left to **see** it. Peter's argument in
 Acts 2:29-31 turns on David's tomb still being in Jerusalem — David saw corruption, so the psalm was
 not about him.
 
@@ -401,7 +413,7 @@ not about him.
 **Peter's other statement is the contested one.** "He went and proclaimed to the spirits in prison"
 (1 Peter 3:19) has been read as Christ preaching in Hades between death and resurrection, as the
 pre-incarnate Christ preaching through Noah to that generation, and as a proclamation of victory to
-fallen angels. The passage is genuinely difficult and this study does not settle it; it is noted
+fallen angels. The passage is difficult and this study does not settle it; it is noted
 because any account of the three days that quietly leaves it out is trimming the evidence.
 
 What the New Testament does not do is describe the interval. There is no narration of it anywhere —
@@ -425,13 +437,13 @@ the firstfruits language above: a sheaf is waved because a field is coming. "Chr
 then at his coming those who belong to Christ" (1 Corinthians 15:23).
 
 Set beside those, the question of whether the interval ran two nights or three is a small one — which
-is roughly the proportion Scripture itself gives it, since the span is stated twelve times and
+is roughly the proportion Scripture itself gives it, since the span is stated thirteen times and
 explained none.
 
 ## Where that leaves it
 
 The weight is with a Friday crucifixion. Two independent things point at it — a word that means the
-day before the weekly Sabbath, and two disciples counting to three on the Sunday — and the eight-to-one
+day before the weekly Sabbath, and two disciples counting to three on the Sunday — and the nine-to-one
 ratio of "on the third day" over "three days and three nights" points the same way.
 
 But the Friday reading buys Matthew 12:40 on credit. It needs inclusive reckoning to absorb the
@@ -444,7 +456,7 @@ The two positions are best stated as a trade, with both bills itemised.
 
 | | Takes at face value | Has to absorb |
 |---|---|---|
-| **Wednesday** | Matthew 12:40 — and on sunset reckoning it genuinely delivers three nights; the Luke/Mark spice sequence, without harmonising | Mark's **προσάββατον**; the eight "on the third day" statements; a Sunday its own count makes the fifth day (Luke 24:21) |
+| **Wednesday** | Matthew 12:40 — and on sunset reckoning it does deliver three nights; the Luke/Mark spice sequence, without harmonising | Mark's **προσάββατον**; the eight "on the third day" statements; a Sunday its own count makes the fifth day (Luke 24:21) |
 | **Friday** | προσάββατον; Luke 24:21; the chief priests using both phrasings a sentence apart | one missing night; a harmonisation of Luke's "prepared" against Mark's "bought" |
 
 This study holds the Friday reading, because Luke 24:21 and προσάββατον are explicit statements
@@ -461,8 +473,9 @@ is the honest state of it, and anyone holding the date should be able to name bo
    carry more evidential weight than a deliberate one?
 3. Jesus called it "the sign of Jonah." What is a sign for, and does a sign have to be a
    measurement to be true?
-4. This study reaches a conclusion and then names what that conclusion costs. Where else do you hold
-   a position whose price you have not totalled?
+4. Jonah calls the fish's belly "the belly of Sheol" and says God *brought him up*. If that is the
+   sign Jesus chose for himself, what is it a sign of — and what would be lost if it were only a
+   statement about how long?
 
 ## References & Recommended Reading
 
