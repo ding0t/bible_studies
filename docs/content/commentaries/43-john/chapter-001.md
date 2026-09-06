@@ -19,4 +19,5 @@ draft: false
 - [Simon Peter](../../biblical-figures/peter.md) — 1:40-42
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 1:35-51
 - [The Way](../../jesus/the-way.md) — 1:23
+- [The Woman at the Well](../../jesus/woman-at-well.md) — 1:39
 <!-- commentary-index:auto-end -->

@@ -64,6 +64,14 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
 
     [:octicons-arrow-right-24: Read](three-days-and-three-nights.md)
 
+-   __The Woman at the Well__
+
+    ---
+
+    An exegetical study of John 4:1-42: the two Greek words English flattens into 'well', why the Samaritan woman's Gerizim claim rests on a variant in her own Pentateuch, and the first 'I am' in John's Gospel.
+
+    [:octicons-arrow-right-24: Read](woman-at-well.md)
+
 -   __The Woman Who Touched the Fringe: Uncleanness Running Backwards__
 
     ---

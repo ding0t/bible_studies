@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 8:28
+- [The Woman at the Well](../../jesus/woman-at-well.md) — 8:58
 <!-- commentary-index:auto-end -->

@@ -1,6 +1,6 @@
 slug: woman-at-well
 title: "The Woman at the Well"
-status: review
+status: published
 target_path: docs/content/jesus/woman-at-well.md
 
 primary_passage: "John 4:1-42"
@@ -182,3 +182,28 @@ resources_consulted:
   - {type: other, title: "Josephus, Antiquities 20.118; Wars 2.232; Life 269", author: "Josephus", note: "cited via the Cultural Backgrounds note, not read directly -- stated that way in the draft"}
   - {type: other, title: "How to Read the Bible for All Its Worth", author: "Fee & Stuart", note: "method"}
 last_updated: "2026-09-06"
+
+publication_2026-09-06:
+  what: "Published at the user's instruction. draft: true -> false."
+  pre_publication_check: >
+    review-bible-study was not run in full, but every synthetic claim in the study -- the class that
+    produced a Critical finding in three-days-and-three-nights.md the same day -- was re-derived
+    from source immediately before publishing, none of it re-read:
+      pege at John 4:6 x2 and 4:14, phrear at 4:11 and 4:12 -- confirmed, and the speaker split holds
+      phrear across the NT: Luke 14:5, John 4:11, 4:12, Rev 9:1, Rev 9:2 x3 -- so "four times of the
+        shaft of the abyss in Rev 9:1-2" is right
+      soter in John: 1, at 4:42 -- confirmed
+      kopiao in John: 3, all in chapter 4 (4:6, 4:38 x2) -- confirmed
+      ego eimi in John: 23 total, first at 4:26 -- confirmed, so "twenty-two more follow" holds
+      dei in John: 10, at 3:7, 3:14, 3:30, 4:4, 4:20, 4:24, 9:4, 10:16, 12:34, 20:9 -- confirmed,
+        and three of the ten are in chapter 4. This was the count that needed correcting during
+        drafting, because MACULA lemmatises most of them under deo rather than dei, so it was
+        re-checked with particular care.
+    Deut 27:4 Ebal/Gerizim and the 2 Kings 17 counts (five populations at 17:24, seven gods at
+    17:29-31) were verified during drafting and not re-run.
+  outstanding: >
+    A full review-bible-study pass on this study has still not been run. The pre-publication check
+    above covers Phase 4, the phase that has produced every Critical finding in this repo so far,
+    but not Phases 2, 5, 6 or 8 -- citation accuracy, an independent commentary cross-check,
+    context coverage, or a style pass. Worth running.
+  last_updated: "2026-09-06"

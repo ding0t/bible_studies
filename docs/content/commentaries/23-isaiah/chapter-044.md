@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Sin and Sorcery](../../sin/sorcery.md) — 44:24-26
+- [The Woman at the Well](../../jesus/woman-at-well.md) — 44:3
 <!-- commentary-index:auto-end -->

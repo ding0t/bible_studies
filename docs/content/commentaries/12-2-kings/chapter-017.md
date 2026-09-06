@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 17:6
+- [The Woman at the Well](../../jesus/woman-at-well.md) — 17:24-41
 <!-- commentary-index:auto-end -->

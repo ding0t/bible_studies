@@ -36,6 +36,14 @@ way.
 
     :material-new-box: New 2026-09-06 · [:octicons-arrow-right-24: Read](../jesus/three-days-and-three-nights.md)
 
+-   __The Woman at the Well__
+
+    ---
+
+    An exegetical study of John 4:1-42: the two Greek words English flattens into 'well', why the Samaritan woman's Gerizim claim rests on a variant in her own Pentateuch, and the first 'I am' in John's Gospel.
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../jesus/woman-at-well.md)
+
 -   __The Bride of Christ__
 
     ---
@@ -116,6 +124,14 @@ way.
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/trumpet.md)
 
+-   __1 Samuel 4__
+
+    ---
+
+    Commentary and cross-referenced studies for 1 Samuel chapter 4
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/09-1-samuel/chapter-004.md)
+
 -   __1 Samuel 30__
 
     ---
@@ -123,6 +139,22 @@ way.
     Commentary and cross-referenced studies for 1 Samuel chapter 30
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/09-1-samuel/chapter-030.md)
+
+-   __Jeremiah 41__
+
+    ---
+
+    Commentary and cross-referenced studies for Jeremiah chapter 41
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/24-jeremiah/chapter-041.md)
+
+-   __Colossians 3__
+
+    ---
+
+    Commentary and cross-referenced studies for Colossians chapter 3
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/51-colossians/chapter-003.md)
 
 -   __Revelation 1__
 
@@ -147,38 +179,6 @@ way.
     Commentary and cross-referenced studies for Acts chapter 10
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/44-acts/chapter-010.md)
-
--   __Luke 9__
-
-    ---
-
-    Commentary and cross-referenced studies for Luke chapter 9
-
-    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/42-luke/chapter-009.md)
-
--   __Luke 23__
-
-    ---
-
-    Commentary and cross-referenced studies for Luke chapter 23
-
-    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/42-luke/chapter-023.md)
-
--   __Luke 24__
-
-    ---
-
-    Commentary and cross-referenced studies for Luke chapter 24
-
-    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/42-luke/chapter-024.md)
-
--   __1 Peter 3__
-
-    ---
-
-    Commentary and cross-referenced studies for 1 Peter chapter 3
-
-    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/60-1-peter/chapter-003.md)
 
 </div>
 <!-- recent-updates:auto-end -->

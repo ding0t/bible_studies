@@ -3,7 +3,7 @@ title: "The Woman at the Well"
 category: "prophecy"
 description: "An exegetical study of John 4:1-42: the two Greek words English flattens into 'well', why the Samaritan woman's Gerizim claim rests on a variant in her own Pentateuch, and the first 'I am' in John's Gospel."
 tags: ["john", "samaritan-woman", "living-water", "method/word-study", "lang/greek", "person/jesus", "holy-spirit", "worship", "method/textual-criticism"]
-draft: true
+draft: false
 primary_passage: "John 4:1-42"
 bible_references: ["John 3:22-30", "John 7:37-39", "John 1:39", "John 1:46", "John 8:58", "John 19:26", "Jeremiah 2:13", "Jeremiah 17:13", "Zechariah 14:8", "Isaiah 12:3", "Isaiah 44:3", "Ezekiel 47:1-6", "Genesis 24:10-27", "Genesis 29:1-12", "Exodus 2:15-21", "Deuteronomy 18:15-18", "Deuteronomy 27:4", "Deuteronomy 11:29", "2 Kings 17:24-41", "Genesis 33:18-20", "Joshua 24:32", "Exodus 3:14", "Luke 14:5", "Revelation 9:1-2"]
 date_created: 2025-04-25

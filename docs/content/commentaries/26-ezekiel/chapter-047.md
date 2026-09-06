@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Woman at the Well](../../jesus/woman-at-well.md) — 47:1-6
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 47:9
 <!-- commentary-index:auto-end -->

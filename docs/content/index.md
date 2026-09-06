@@ -216,9 +216,9 @@ Two of these studies are charts you can drive rather than pages you read.
 <!-- recent-updates-teaser:auto-start -->
 - **[FAQ](faq.md)** — :material-new-box: New 2026-09-06
 - **[Three Days and Three Nights](jesus/three-days-and-three-nights.md)** — :material-new-box: New 2026-09-06
+- **[The Woman at the Well](jesus/woman-at-well.md)** — :material-update: Updated 2026-09-06
 - **[The Bride of Christ](israel-and-church/bride-of-christ.md)** — :material-new-box: New 2026-09-06
 - **[What World Population Declares: Biblical Chronology and the Arithmetic of Growth](god/world-population-declares-gods-creation-and-biblical-truth.md)** — :material-update: Updated 2026-09-06
-- **[The Day Is Near](last-things/day-is-near.md)** — :material-update: Updated 2026-09-06
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) list for more.

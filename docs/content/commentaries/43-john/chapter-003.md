@@ -16,4 +16,5 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 3:16-18
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 3:29
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 3:29
+- [The Woman at the Well](../../jesus/woman-at-well.md) — 3:22-30
 <!-- commentary-index:auto-end -->

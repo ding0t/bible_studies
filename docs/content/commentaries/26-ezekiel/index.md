@@ -22,5 +22,5 @@ draft: false
 - [Chapter 39](chapter-039.md) — 1 study(ies)
 - [Chapter 40](chapter-040.md) — 1 study(ies)
 - [Chapter 44](chapter-044.md) — 1 study(ies)
-- [Chapter 47](chapter-047.md) — 1 study(ies)
+- [Chapter 47](chapter-047.md) — 2 study(ies)
 <!-- commentary-index:auto-end -->
