@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 4:18
+- [The Rapture of the Church](../../last-things/rapture.md) — 4:1
 <!-- commentary-index:auto-end -->

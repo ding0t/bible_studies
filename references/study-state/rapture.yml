@@ -341,3 +341,47 @@ revision_2026-09-06e:
     seven-day feast. Cross-linked both ways.
   verification: "All seven verses re-checked against study-notes.db (Gen 29:27; Judg 14:12; Dan 9:27; Num 14:34; Ezek 4:6; Joel 2:16; Isa 4:5). shabua occurrence list and count queried, not recalled. mkdocs --strict clean, both cross-links resolve in the built pages, Hebrew renders inside a dir=rtl span with no bold (validate Check 9 clean)."
   last_updated: "2026-09-06"
+
+revision_2026-09-06f:
+  what: >
+    User noticed that the apantesis objection and the later "the Church returns with him" material
+    look consistent rather than in tension, and asked for it validated and expanded. It is
+    consistent, and checking it turned up that the study had been overstating the objection.
+  finding_the_septuagint: >
+    The study said apantesis "was the ordinary Greek term for a delegation going out to formally
+    greet an arriving dignitary and then escorting him back into the city", resting that on the two
+    other NT uses. Three occurrences is a thin base, and the study had never consulted the
+    Septuagint -- which is Paul's own Bible and uses eis apantesin TWENTY times. The range is far
+    wider than a civic-welcome script: Israel goes out eis apantesin autois EIS POLEMON, "to meet
+    them for war" (1 Sam 4:1); Michal goes out eis apantesin to David and rebukes him (2 Sam 6:20);
+    Ishmael goes out eis apantesin weeping and murders the men he meets (Jer 41:6, LXX 48:6).
+    Greetings and welcomes sit alongside those. The noun means "go out and meet"; welcome, rebuke
+    and ambush are all supplied by context. Verified in ebible-grcbrent, quoting the Greek.
+  finding_the_commentary: >
+    The NIV Cultural Backgrounds Study Bible -- which rapture.md did NOT cite, so an independent
+    check -- states the civic sense with a condition the study had dropped: "WHEN USED IN A CONTEXT
+    OF A ROYAL 'COMING'", those welcoming him "would go to form his escort EN ROUTE TO HIS
+    DESTINATION". Both halves matter. The sense is conditioned on context rather than resident in
+    the word, and the escort accompanies him to HIS destination, which the note does not identify --
+    so it does not decide the direction of travel.
+  the_users_point_validated: >
+    Correct, and now stated. The objection assumes the pattern needs an IMMEDIATE return. What it
+    needs is a return. Christ is met in the air at 1 Thess 4:17 and comes back with his own at Rev
+    19:14 -- the case already made in "Does the Church ride out with him?" -- so the civic pattern
+    completes with an interval inside it. The two sections were never in tension; the study simply
+    had not joined them.
+  bonus: >
+    Matthew 25:6 is the one apantesis text that is also a wedding, and it is usually cited AGAINST
+    the pretribulational reading. Its own sequence is meeting (25:6) then "went in with him to the
+    marriage feast" (25:10) -- which is the order this study now argues: caught up, assessed,
+    married, returning. On the sequence set out here it fits rather than opposes.
+  heading_changed: >
+    "The strongest objection: apantesis" is no longer accurate, so it became "The apantesis
+    objection, and what the Septuagint does to it". Checked first that nothing on the site linked
+    the old anchor; nothing did.
+  not_overclaimed: >
+    The section still says outright that apantesis is not a plank in the case and that the argument
+    rests on imminence, the absent-signs contrast and 1 Thess 5:9. The change is that the word is
+    weaker as an OBJECTION than it is usually made to carry -- not that it now supports the
+    conclusion.
+  last_updated: "2026-09-06"

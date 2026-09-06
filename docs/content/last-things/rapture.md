@@ -5,7 +5,7 @@ description: "The blessed hope of the Church: a word study on harpazo, the seque
 tags: ["rapture", "1-thessalonians", "2-thessalonians", "matthew", "revelation", "tribulation", "dispensationalism", "holy-spirit", "method/word-study", "method/typology", "method/textual-criticism", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "1 Thessalonians 4:15-18"
-bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "1 Corinthians 11:25", "1 Corinthians 6:19-20", "Ephesians 5:25-27", "1 Corinthians 1:2", "1 Corinthians 6:11", "Hebrews 10:10", "Hebrews 13:12", "Ephesians 2:10", "Genesis 5:21-24", "Hebrews 11:5", "Jude 1:14-15", "2 Kings 2:11", "Genesis 7:1", "Genesis 7:16", "Genesis 19:15-16", "Genesis 19:24", "2 Peter 2:5-9", "Luke 17:28-30", "Revelation 7:9-14"]
+bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "1 Corinthians 11:25", "1 Corinthians 6:19-20", "Ephesians 5:25-27", "1 Corinthians 1:2", "1 Corinthians 6:11", "Hebrews 10:10", "Hebrews 13:12", "Ephesians 2:10", "Genesis 5:21-24", "Hebrews 11:5", "Jude 1:14-15", "2 Kings 2:11", "Genesis 7:1", "Genesis 7:16", "Genesis 19:15-16", "Genesis 19:24", "2 Peter 2:5-9", "Luke 17:28-30", "Revelation 7:9-14", "1 Samuel 4:1", "2 Samuel 6:20", "Jeremiah 41:6", "Matthew 25:10", "Colossians 3:4", "Revelation 19:14"]
 date_created: 2024-04-23
 date_modified: 2026-09-06
 ai_provider_models:
@@ -91,13 +91,50 @@ Paul isn't answering an abstract question here. Earlier in the same letter he ha
 - A cry of command, an archangel's voice, a trumpet — three distinct signals, none of them subtle or secret.
 - "Encourage one another with these words" — whatever the mechanics, the pastoral purpose of this text is comfort.
 
-### The strongest objection: *apantēsis*
+### The *apantēsis* objection, and what the Septuagint does to it
 
-"Meet the Lord in the air" translates **εἰς ἀπάντησιν τοῦ κυρίου**. **ἀπάντησις** (*apantēsis*) was the ordinary Greek term for a delegation going *out* to formally greet an arriving dignitary and then escorting him *back* into the city. Its only other New Testament uses carry exactly this civic-welcome sense: Matthew 25:6, the virgins going out to meet the bridegroom, and Acts 28:15, believers from Rome going out to meet Paul on the road.
+"Meet the Lord in the air" translates **εἰς ἀπάντησιν τοῦ κυρίου**, and the standard objection runs
+from that phrase. **ἀπάντησις** (*apantēsis*) is used in Hellenistic sources of a delegation going
+*out* to greet an arriving dignitary and then escorting him in, and both other New Testament
+occurrences fit that shape: Matthew 25:6, the virgins going out to meet the bridegroom, and Acts
+28:15, believers from Rome coming out to meet Paul on the road. Read strictly, the word would have
+the Church escort Christ straight back down to earth, making the rapture and the second coming one
+event rather than two.
 
-Read strictly on that pattern, the word could imply the Church escorts Christ back down to earth immediately — which is the standard scholarly objection to reading the rapture as an event years ahead of the second coming.
+Three things bear on that, and they run in the same direction.
 
-The two still read best as distinct, resting on the imminence argument below, the absent-signs contrast with Matthew 24, and 1 Thessalonians 5:9's "not destined for wrath" — none of which depend on *apantēsis*. But the word itself doesn't settle the question in either direction, and it is not another plank in the case.
+**The Septuagint does not support a fixed script.** Paul's Bible uses εἰς ἀπάντησιν twenty times,
+and the outcome of the meeting varies entirely with the situation rather than with the noun. Israel
+goes out **εἰς ἀπάντησιν αὐτοῖς εἰς πόλεμον**, "to meet them *for war*" (1 Samuel 4:1). Michal goes
+out εἰς ἀπάντησιν to David and rebukes him for dancing (2 Samuel 6:20). Ishmael goes out εἰς
+ἀπάντησιν weeping, and murders the men he has met (Jeremiah 41:6, LXX 48:6). Alongside those sit
+ordinary greetings and welcomes. The word means *to go out and meet*; welcome, rebuke and ambush are
+all supplied by context, and none of them is carried by the noun.
+
+**The commentary that presses the civic sense states the condition on it.** The *NIV Cultural
+Backgrounds Study Bible* puts it this way at 1 Thessalonians 4:17: "**when used in a context of a
+royal 'coming'**," those welcoming him "would go to form his escort **en route to his destination**."
+Both halves matter. The sense is conditioned on the context rather than resident in the word, and
+the escort accompanies him to *his* destination — which the note does not identify. If that
+destination is the Father's house, where Jesus said he was going to prepare a place and to which he
+promised to take his own (John 14:2-3), the escort travels up rather than down.
+
+**And on this study's own reconstruction the escort does happen — later.** The objection assumes the
+pattern requires an *immediate* return. What it requires is a return. Christ is met in the air
+(1 Thessalonians 4:17), and Christ comes back with his own at the end of the tribulation, in the
+linen the Bema produced — the case set out under [Does the Church ride out with
+him?](#does-the-church-ride-out-with-him) below. The civic pattern is completed, with an interval
+inside it.
+
+The wedding parallel makes that concrete, because it is the one *apantēsis* text that is also a
+wedding. The virgins "come out to **meet**" the bridegroom (Matthew 25:6) and then "went in with him
+to the **marriage feast**" (25:10) — meeting, then feast, then the rest. That is the order this study
+argues for: caught up, assessed, married, and returning. Matthew 25:6 is usually cited against the
+pretribulational reading; on the sequence set out here it fits it.
+
+None of that makes *apantēsis* a plank in the case, and the argument still rests on the imminence
+material below, the absent-signs contrast with Matthew 24, and 1 Thessalonians 5:9. But the word is
+weaker as an objection than it is usually made to carry, and the Septuagint is where that shows.
 
 > ✝️ [1 Corinthians 15:51-53 (ESV)](https://www.blueletterbible.org/esv/1Co/15/51-53)
 >
@@ -527,6 +564,9 @@ The word Scripture uses for the rapture, ἁρπάζω, describes a real, sudden
 - Chuck Missler, [Blessed Hope teaching series](https://www.khouse.org/) — starting point for [The promise: Christ returns for his own](#the-promise-christ-returns-for-his-own).
 - [A study from a scholarly perspective on ancient Jewish weddings](https://hearingshofar.blogspot.com/2013/12/the-parable-of-bridegrooms-shofar.html) and [The prophetic pattern of the ancient Jewish wedding](https://www.truevinelife.com/growthinchrist/return-of-jesus-christ-part-2-the-prophetic-pattern-of-the-ancient-jewish-wedding) — popular-level sources for [The Jewish wedding pattern](#the-jewish-wedding-pattern) section's custom sequence; see the caveat given there about their evidentiary weight.
 - *ESV Study Bible* (Crossway, 2016) — notes on Revelation 3:10, 1 Thessalonians 4:17, 2 Thessalonians 2:6-7, and 2 Corinthians 5:10, consulted as an independent check; source of the corrected Bēma etymology and the acknowledged ambiguity on Revelation 3:10 and the restrainer's identity.
+- *NIV Cultural Backgrounds Study Bible* (Zondervan) — note on 1 Thessalonians 4:17, for the
+  conditioned form of the civic-*apantēsis* claim and for the escort travelling to *his*
+  destination. Consulted independently of the ESV Study Bible above.
 - *NIV Biblical Theology Study Bible* (Zondervan, 2018) — notes on 1 Thessalonians 4:17 (the *apantēsis* civic-welcome sense) and 2 Thessalonians 2:6-7 (the scholarly proposals for the restrainer), consulted independently of the ESV Study Bible above.
 - Robert L. Thomas, cited in Thomas Ice, [The Holy Spirit and the Pretribulational Rapture](https://www.according2prophecy.org/hsrap.html) — source of the τὸ κατέχον / ὁ κατέχων gender-shift argument at 2 Thessalonians 2:6-7, confirmed against this repo's own Greek text (SBLGNT).
 - Ken Johnson, Th.D., *[Paul's Ancient Hebrew Thessalonian Epistles](https://prophecywatchers.com/product/pauls-ancient-hebrew-thessalonians-epistles-proof-of-a-pre-trib-rapture-by-ken-johnson-shipping-included-usa-only/)* — see [What Victorinus actually says](#what-victorinus-actually-says): the underlying manuscript claim could not be checked from publicly available material, and Victorinus, named as one of the two witnesses, glosses 2 Thessalonians 2:7 as Roman imperial power.
