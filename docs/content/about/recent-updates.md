@@ -140,6 +140,14 @@ way.
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/42-luke/chapter-024.md)
 
+-   __Matthew 28__
+
+    ---
+
+    Commentary and cross-referenced studies for Matthew chapter 28
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-028.md)
+
 -   __Matthew 17__
 
     ---
@@ -171,14 +179,6 @@ way.
     Commentary and cross-referenced studies for Matthew chapter 16
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-016.md)
-
--   __Matthew 20__
-
-    ---
-
-    Commentary and cross-referenced studies for Matthew chapter 20
-
-    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-020.md)
 
 </div>
 <!-- recent-updates:auto-end -->

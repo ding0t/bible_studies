@@ -5,7 +5,7 @@ description: "A Friday crucifixion gives two nights, not three. Whether Matthew 
 tags: ["matthew", "mark", "luke", "john", "crucifixion", "resurrection", "chronology", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "Matthew 12:40"
-bible_references: ["Matthew 12:40", "Jonah 1:17", "Matthew 16:21", "Matthew 17:23", "Matthew 20:19", "Luke 9:22", "Luke 24:7", "Luke 24:21", "Luke 24:46", "Acts 10:40", "1 Corinthians 15:4", "Mark 8:31", "Mark 9:31", "Mark 10:34", "Mark 15:42", "Luke 23:54", "John 19:31", "John 19:14", "John 19:42", "Matthew 27:62", "Genesis 1:5", "Leviticus 23:32", "Mark 16:1-2", "Matthew 28:1", "John 20:1"]
+bible_references: ["Matthew 12:40", "Jonah 1:17", "Matthew 16:21", "Matthew 17:23", "Matthew 20:19", "Luke 9:22", "Luke 24:7", "Luke 24:21", "Luke 24:46", "Acts 10:40", "1 Corinthians 15:4", "Mark 8:31", "Mark 9:31", "Mark 10:34", "Mark 15:42", "Luke 23:54", "John 19:31", "John 19:14", "John 19:42", "Matthew 27:62", "Genesis 1:5", "Leviticus 23:32", "Mark 16:1-2", "Matthew 28:1", "John 20:1", "Matthew 27:62-64", "Mark 15:42-46", "Luke 23:50-56", "John 19:38-42"]
 date_created: 2026-09-06
 date_modified: 2026-09-06
 ai_provider_models:
@@ -185,6 +185,44 @@ is the Wednesday case at its most coherent, and sunset reckoning is what makes i
 What sunset reckoning does not do is rescue it from Luke 24:21. Counting from a Wednesday, that
 Sunday is the fifth day, whatever hour the days are held to begin.
 
+## What the burial sequence adds
+
+The burial is the most tightly timed passage in the Gospels, and it constrains the question from two
+directions.
+
+**It ran against a deadline, and all four writers say so.** Jesus died around the ninth hour, and
+between that and sunset Joseph had to reach Pilate, wait while Pilate summoned the centurion to
+confirm the death (Mark 15:44), buy a linen shroud, take the body down, wrap it and lay it in a tomb.
+Mark frames the whole thing with "when evening had come, since it was the day of Preparation, that
+is, the day before the Sabbath" (15:42). Luke: "the Sabbath was beginning" (23:54). John gives the
+reason for the tomb they chose: "because of the Jewish day of Preparation, since the tomb was close
+at hand, they laid Jesus there" (19:42) — a *nearby* tomb, because there was no time for a better
+one.
+
+That does not by itself pick a day. What it establishes is that the crucifixion fell immediately
+before a Sabbath, with the burial pressed into the last hours of daylight — which is common ground
+between the Friday and the Wednesday readings, though it is often argued as though only one of them
+accounts for it.
+
+**The chief priests use both phrasings, one sentence apart.** This is the sharpest single piece of
+evidence in the whole question, and it comes from hostile witnesses:
+
+> ✝️ Matthew 27:63-64 (ESV)
+>
+> 63 and said, "Sir, we remember how that impostor said, while he was still alive, 'After three days
+> I will rise.' 64 Therefore order the tomb to be made secure until the third day, lest his
+> disciples go and steal him away and tell the people, 'He has risen from the dead,' and the last
+> fraud will be worse than the first."
+
+They quote Jesus as saying **μετὰ τρεῖς ἡμέρας**, "after three days" — and then, in the next breath,
+ask for a guard **ἕως τῆς τρίτης ἡμέρας**, "until the third day." If "after three days" meant a full
+seventy-two hours, a guard posted only until the third day would expire before the moment they were
+trying to protect against, and the request makes no sense. One speaker, one occasion, one author,
+both phrasings, treated as the same span.
+
+That is a tighter demonstration than the Mark 8:31 / Matthew 16:21 pairing above, because it does not
+require comparing two Gospels. It is inside one paragraph.
+
 ## The counter-case, at its strongest
 
 > ✝️ John 19:31 (ESV)
@@ -199,8 +237,24 @@ becomes available. That is the real plank under the Wednesday and Thursday posit
 a foolish one: the phrase is genuinely open between "a festival Sabbath" and "the weekly Sabbath,
 made great by a feast falling on it."
 
-What the high-day reading has to do in addition is absorb Mark's **προσάββατον** and Luke's
-"the third day since." Neither moves easily.
+**The spices are the better version of that argument.** Luke has the women return from the burial and
+*prepare* spices and ointments, and then "on the Sabbath they rested according to the commandment"
+(23:56) — preparation before the Sabbath. Mark has them *buy* spices "when the Sabbath was past"
+(16:1) — purchase after it. On a single Sabbath those two sit awkwardly: why buy on Saturday evening
+what you had already prepared on Friday evening, in a burial window measured in minutes?
+
+Two Sabbaths dissolve it completely. A Wednesday crucifixion gives a festival Sabbath on Thursday,
+an ordinary Friday on which the women could both buy and prepare, and the weekly Sabbath on Saturday
+to rest — Mark's purchase and Luke's preparation both land on the Friday, in that order, and neither
+Gospel has to be harmonised against the other. This is the strongest form of the two-Sabbath case
+and it is a good deal stronger than the "high day" phrase carrying it alone.
+
+The single-Sabbath answer is that Greek aorists do not order these events as sharply as an English
+reader hears them, and that Mark's purchase may be supplementary to a preparation Luke compresses
+into the evening. That is a real reading. It is also a harmonisation, and should be called one.
+
+What both forms of the argument must still absorb is Mark's **προσάββατον** and Luke's "the third
+day since." Neither moves easily.
 
 ## Where that leaves it
 
@@ -214,12 +268,18 @@ convenient. That is a cost rather than a refutation, and this study does not ret
 it from being special pleading is that the convention is visible independently: Mark and Matthew use
 both phrasings of the same sentence, which they could not do if a part-day did not count as a day.
 
-The two positions can be stated as a straight trade, and a reader should choose knowing it. The
-Wednesday reading takes Matthew 12:40 at face value — and on sunset reckoning it genuinely delivers
-three nights — but has to carry Mark's **προσάββατον**, the eight "on the third day" statements, and
-a Sunday that its own count makes the fifth day. The Friday reading takes those and carries one
-missing night. This study holds the second because the things it has to explain away are fewer and
-weaker, not because the first is foolish.
+The two positions are best stated as a trade, with both bills itemised.
+
+| | Takes at face value | Has to absorb |
+|---|---|---|
+| **Wednesday** | Matthew 12:40 — and on sunset reckoning it genuinely delivers three nights; the Luke/Mark spice sequence, without harmonising | Mark's **προσάββατον**; the eight "on the third day" statements; a Sunday its own count makes the fifth day (Luke 24:21) |
+| **Friday** | προσάββατον; Luke 24:21; the chief priests using both phrasings a sentence apart | one missing night; a harmonisation of Luke's "prepared" against Mark's "bought" |
+
+This study holds the Friday reading, because Luke 24:21 and προσάββατον are explicit statements
+about *which day* while the two costs on the Friday side are both about *how to count* — and because
+Matthew 27:63-64 shows the counting convention being used by people with no stake in defending it.
+But the Friday column is not empty, and it grew by one line while this study was being written. That
+is the honest state of it, and anyone holding the date should be able to name both entries.
 
 ## Discussion questions
 
