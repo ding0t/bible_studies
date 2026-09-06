@@ -76,6 +76,14 @@ way.
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/prophecy-chart.md)
 
+-   __Chronology Anchors: What Can Actually Be Dated, and How Tightly__
+
+    ---
+
+    Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its year in both candidate Zadok epochs. The fixed rail the rest of the biblical timeline hangs from.
+
+    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../last-things/chronology-anchors.md)
+
 -   __The Combined Timeline: One Line, Two Zones__
 
     ---
@@ -171,14 +179,6 @@ way.
     Commentary and cross-referenced studies for Matthew chapter 12
 
     :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-012.md)
-
--   __Matthew 16__
-
-    ---
-
-    Commentary and cross-referenced studies for Matthew chapter 16
-
-    :material-update: Updated 2026-09-06 · [:octicons-arrow-right-24: Read](../commentaries/40-matthew/chapter-016.md)
 
 </div>
 <!-- recent-updates:auto-end -->

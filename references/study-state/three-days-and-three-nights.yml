@@ -175,3 +175,25 @@ revision_2026-09-06c:
     The weekly Sabbath does run Friday sunset to Saturday sunset, on the same evening-to-evening rule
     the study already sets out from Gen 1:5 and Lev 23:32. No change needed; the table encoded it.
   last_updated: "2026-09-06"
+
+revision_2026-09-06d:
+  what: "User asked whether a diagram existed for the AD 33 / three-days reconstruction. None did, anywhere on the site."
+  added: >
+    A flowchart TD in the study, laying the Passion Week out on sunset-to-sunset days with each day
+    carrying its night at the front -- three subgraphs (the Preparation, the Sabbath, the first day),
+    each split into its night and its daylight, with the tomb status and the running tally marked on
+    each half, and a closing node stating the result: three days touched, two nights.
+  why_it_earns_its_place: >
+    The argument is temporal and the prose was labouring at it. Two things the picture settles at a
+    glance that paragraphs do not. The night of the Preparation is the one he was ALIVE for, so it
+    never counts on any reconstruction -- which is the thing most readers have to be told twice. And
+    the Sabbath is the only COMPLETE day in the tomb, which is why every reckoning of this has to
+    lean on the two partial days at either end, Friday or Wednesday alike.
+  measured: "464.98px, renders at 100% in the ~563px column. flowchart TD with three direction TB subgraphs linked stage-to-stage, per diagrams.md."
+  note: >
+    The diagram uses Nisan 14 running Thursday sunset to Friday sunset -- the ESV Study Bible
+    article's reckoning, and the one that produces a Friday Passover in AD 33 and so makes the year
+    a candidate. That article and the ESVSB's own note on Matt 26:17 disagree on whether the
+    crucifixion falls on Nisan 14 or 15; the study already records that the question does not decide
+    the year, so the diagram follows the article rather than adjudicating.
+  last_updated: "2026-09-06"

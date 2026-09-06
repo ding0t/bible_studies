@@ -185,6 +185,37 @@ is the Wednesday case at its most coherent, and sunset reckoning is what makes i
 What sunset reckoning does not do is rescue it from Luke 24:21. Counting from a Wednesday, that
 Sunday is the fifth day, whatever hour the days are held to begin.
 
+## The week as the Hebrew calendar counts it
+
+Laid out on sunset-to-sunset days, with each day carrying its night at the front, the whole question
+becomes visible at once. This is the AD 33 reconstruction — Nisan 14 running Thursday sunset to
+Friday sunset, which is the reckoning that puts Passover on a Friday in that year and is why AD 33
+is a candidate at all.
+
+```mermaid
+flowchart TD
+    subgraph d1["The Preparation · Nisan 14 · Thursday sunset → Friday sunset"]
+      direction TB
+      A["<i>its night</i><br/>Passover meal,<br/>arrest, trials<br/><b>he is alive</b>"] --> B["<i>its daylight</i><br/>crucified, dead at<br/>about the ninth hour,<br/>buried before sunset<br/><b>DAY 1 — part of it</b>"]
+    end
+    subgraph d2["The Sabbath · Friday sunset → Saturday sunset"]
+      direction TB
+      C["<i>its night</i><br/>in the tomb<br/><b>NIGHT 1</b>"] --> D["<i>its daylight</i><br/>in the tomb;<br/>the women rest<br/><b>DAY 2 — all of it</b>"]
+    end
+    subgraph d3["The first day · Saturday sunset → Sunday sunset"]
+      direction TB
+      E["<i>its night</i><br/>in the tomb;<br/>the Sabbath past,<br/>spices bought<br/><b>NIGHT 2</b>"] --> F["<i>its dawn</i><br/>the tomb is empty<br/><b>DAY 3 — part of it</b>"]
+    end
+    d1 --> d2
+    d2 --> d3
+    d3 --> T["<b>Three days touched.</b><br/><b>Two nights.</b><br/>The third night is the cost<br/>the Friday reading carries."]
+```
+
+Two things the picture settles that prose labours at. The night of the Preparation is the one he was
+*alive* for — so it never counts, whichever day the crucifixion is placed on. And the Sabbath is the
+only complete day in the tomb, which is why every reckoning of this, ancient or modern, has to lean
+on the two partial days at either end.
+
 ## What the burial sequence adds
 
 The burial is the most tightly timed passage in the Gospels, and it constrains the question from two
