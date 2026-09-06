@@ -49,7 +49,7 @@ const harmonized = mergePeopleWithVariant(people, 'harmonized_v1');
 const mtMethuselah = mt.find((p) => p.id === 'methuselah');
 const spMethuselah = sp.find((p) => p.id === 'methuselah');
 assert(mtMethuselah.lifespan_years === 969, 'MT Methuselah lifespan is 969 years');
-assert(spMethuselah.lifespan_years === 720, 'SP Methuselah lifespan is 720 years (survives to the Flood)');
+assert(spMethuselah.lifespan_years === 720, 'SP Methuselah lifespan is 720 years (dies in the Flood year)');
 
 const mtTerah = mt.find((p) => p.id === 'terah');
 const spTerah = sp.find((p) => p.id === 'terah');
@@ -58,7 +58,10 @@ assert(spTerah.lifespan_years === 145, 'SP Terah lifespan is 145 years');
 
 const harmonizedMethuselah = harmonized.find((p) => p.id === 'methuselah');
 const harmonizedTerah = harmonized.find((p) => p.id === 'terah');
-assert(harmonizedMethuselah.tradition_used === 'sp', 'harmonized_v1 adopts SP for Methuselah');
+// harmonized_v1 keeps MT for Methuselah: MT already has him dying in the Flood year (AM 1656),
+// so the former SP override fixed an LXX-only problem while shortening the chain to Noah by 120
+// years and leaving Methuselah dead 129 years before the Flood.
+assert(harmonizedMethuselah.tradition_used === 'mt', 'harmonized_v1 keeps MT for Methuselah');
 assert(harmonizedTerah.tradition_used === 'sp', 'harmonized_v1 adopts SP for Terah');
 
 const mtAbraham = mt.find((p) => p.id === 'abraham');

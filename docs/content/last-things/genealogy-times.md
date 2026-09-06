@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:35-38", "Ezra 7:1-5", "Ruth 4:18-22", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Acts 13:19-21", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
 date_created: 2026-07-24
-date_modified: 2026-08-23
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -59,8 +59,9 @@ manuscripts) simply doesn't apply past Terah, because Genesis stops giving one.
 - **The Septuagint (LXX)**, in the Brenton edition — the pre-Christian Greek translation, whose
   Genesis 5 and 11 numbers diverge from MT's in a strikingly patterned way (below).
 - **The Samaritan Pentateuch (SP)** — preserved independently by the Samaritan community, and
-  the least commonly consulted of the three, but not the least interesting: it resolves two real
-  problems that MT and LXX both leave open (see Methuselah and Terah below).
+  the least commonly consulted of the three, but not the least interesting: it resolves the Terah
+  problem MT and LXX both leave open, and it corroborates MT's Methuselah result by an entirely
+  different set of numbers (both below).
 
 All figures below were queried directly from this repo's `references/build/bible-text.db`
 (`morphhb-wlc` for MT, `ebible-grcbrent` for LXX, `scrollmapper-SP` for SP) and cross-checked by
@@ -173,16 +174,39 @@ freight. Read as *mut* ("die," H4191) + *shalach* ("send," H7971), it becomes a 
 "his death shall send [it]." Both parse correctly; nothing in the lexicon settles which one the
 name-giver intended.
 
-What tips the scales toward the second reading isn't etymology, it's arithmetic — and this is
-exactly where the textual traditions disagree most sharply. MT and LXX both total Methuselah's
-life at 969 years (the longest in the record), but via different splits. Run that 969 forward on
-either tradition's own numbers for Lamech and Noah, and Methuselah is still alive more than a
-decade *after* the Flood begins — a long-noted, real problem, not an invented one. If the name
-means "his death shall send [judgment]," a man who outlives the judgment his own name
-predicted is an awkward result. SP alone avoids it: its total for Methuselah is 720, not 969 —
-short enough that his death lands in the very year of the Flood. If the eschatological reading
-of the name is right, SP is the one tradition where the name and the math actually agree without
-further harmonizing.
+What tips the scales toward the second reading isn't etymology, it's arithmetic — and the
+arithmetic has to be run separately in each tradition, because the three chains put Methuselah's
+death in three different places relative to the Flood. The Flood itself is fixed the same way in
+all of them: Noah is six hundred when it comes ([Genesis 7:6](https://www.blueletterbible.org/esv/Gen/7/6),
+[7:11](https://www.blueletterbible.org/esv/Gen/7/11)), so each tradition's Flood year is simply
+its own Noah's birth year plus 600.
+
+| Tradition | Methuselah born | dies | Flood | Result |
+| --- | --- | --- | --- | --- |
+| MT | AM 687 | AM 1656 | AM 1656 | dies in the Flood year |
+| SP | AM 587 | AM 1307 | AM 1307 | dies in the Flood year |
+| LXX | AM 1287 | AM 2256 | AM 2242 | outlives the Flood by 14 years |
+
+MT lands it exactly. Adding the seven fathering-ages from Adam down to Enoch puts
+Methuselah's birth at AM 687, and his 969-year total carries him to AM 1656 — the same year
+Noah turns 600. Nothing in that sum was arranged to produce the result; it falls out of figures
+given one verse at a time across Genesis 5, and the longest life in the record ends in the year
+the judgment arrives.
+
+SP reaches the same result by a different road. Its Jared fathers Enoch at 62 rather than 162,
+which pulls Methuselah's birth 100 years back to AM 587, and its Methuselah totals 720 rather
+than 969. Both ends move, and they move together: his death lands in AM 1307,
+again the Flood year. Two traditions that disagree about nearly every number in the chapter
+agree about this one relationship.
+
+LXX alone breaks it, and by a specific 14 years. It keeps the 969 total but redistributes the
+splits above Methuselah, pushing his birth to AM 1287 and his death to AM 2256 against a Flood
+at AM 2242. A man whose name may mean "his death shall send [judgment]" then outlives that
+judgment by fourteen years. This is a real problem, long noted — but it belongs to the
+Septuagint, not to the Hebrew, and it appears in the same tradition that carries the spurious
+Cainan discussed [above](#the-cainan-question). If the eschatological reading of the name is
+right, MT and SP both already agree with it, and the only witness that disagrees is the one with
+an independent transmission problem in the same chain.
 
 ### Terah and Abram: a puzzle two different ways
 
@@ -249,22 +273,32 @@ temptation, and it is a real one.
 Three real manuscript traditions and a fourth option — synthesizing rather than simply picking
 one — are laid out in `docs/data/genealogy/index.json`'s `timeline_variants`. This study's
 working position, `harmonized_v1`, takes MT as the base (matching this site's existing
-`zadok_year` convention and `docs/data/events.json`) and adopts SP's reading in exactly two
-places:
+`zadok_year` convention and `docs/data/events.json`) and adopts SP's reading in exactly one
+place:
 
-1. **Methuselah** — because SP is the only tradition where his death doesn't survive the Flood
-   his own (possible) name predicts.
-2. **Terah** — because SP's total resolves the Abram-departure puzzle without requiring Genesis
-   11:26 to be read against its own stated birth-order.
+1. **Terah** — because SP's 145-year total resolves the Abram-departure puzzle without requiring
+   Genesis 11:26 to be read against its own stated birth-order.
 
-Both substitutions share the same justification: they're adopted *because* they resolve a
-demonstrable internal problem in the base reading, not merely because SP is available, older in
-places, or shorter. That's a deliberate filter. SP has other divergences — the Shelah-through-
-Serug redistribution pattern, the three-way split at Nahor — that this study does *not* adopt
-into `harmonized_v1`, because nothing about those specific numbers resolves a contradiction the
-way Methuselah and Terah's do. Adopting a reading only where it earns its keep, and leaving the
-rest alone, is the whole point of naming this a *proposed synthesis* rather than just crowning
-one manuscript the winner.
+The substitution is adopted *because* it resolves a demonstrable internal problem in the base
+reading, not because SP is available, older in places, or shorter. That filter is what keeps the
+rest of SP out: the Shelah-through-Serug redistribution pattern and the three-way split at Nahor
+are left alone, because nothing about those numbers resolves a contradiction the way Terah's
+does. Adopting a reading only where it earns its keep is the point of calling this a *proposed
+synthesis* rather than crowning one manuscript the winner.
+
+**A second substitution was removed on 2026-09-06, and the reason is worth recording.**
+`harmonized_v1` previously took SP's Methuselah as well, on the stated grounds that SP was the
+only tradition avoiding a Methuselah who outlives the Flood. That premise was wrong: as the
+section above now shows, MT already has him dying in the Flood year exactly, and the 14-year
+overshoot is an LXX-only defect. The substitution was fixing a problem the base text did not
+have. It also did real damage, because adopting a tradition's record for one man takes *all* of
+his numbers, not the one under discussion. SP's Methuselah fathers Lamech at 67 rather than
+MT's 187, so the graft shortened the chain from Adam to Noah by 120 years — moving Noah's birth
+to AM 936 and the Flood to AM 1536 — while Methuselah's own death moved to AM 1407, leaving him
+dead 129 years *before* the Flood. The correspondence the substitution existed to protect was
+destroyed by making it. It also pulled Adam's death (AM 930) to within six years of Noah's
+birth, close enough to read as an overlap on the timeline chart, when MT separates them by 126
+years and no antediluvian patriarch except Noah is born after Adam dies.
 
 **How the Gregorian dates are derived, corrected 2026-08-22.** Zadok year 0 is Adam's creation
 and is absolute, so a variant with a longer chain from Adam to Terah puts creation *earlier* in
@@ -282,7 +316,7 @@ Terah to Abram per Acts 7:4, Abram's call to the Exodus per Galatians 3:17):
 | MT | 4004 BC | 1656 / 2348 BC | 2083 / 1921 BC |
 | LXX | 5470 BC | 2242 / 3228 BC | 3549 / 1921 BC |
 | SP | 4305 BC | 1307 / 2998 BC | 2324 / 1981 BC |
-| **harmonized_v1** | **3824 BC** | **1536 / 2288 BC** | **1903 / 1921 BC** |
+| **harmonized_v1** | **3944 BC** | **1656 / 2288 BC** | **2023 / 1921 BC** |
 
 The gap between MT's and LXX's Flood dates is now 880 years, and it runs the other way: the
 Septuagint puts the Flood *before* Egypt's First Dynasty rather than a millennium after it.
@@ -459,9 +493,9 @@ does the same thing on a larger scale that the whole genealogy does: a real reco
 people, shaped by a real author, tracking a promise that is still, twenty-some centuries after
 its last recorded chapter, being kept.
 
-The specific date question — whether creation was 6540, 5960, or 5308 years before Christ on
-this study's three witnesses, or something closer to the 5940-year figure `harmonized_v1`
-implies — stays open, and honestly reported as open above. What doesn't stay open is the shape
+The specific date question — whether creation was 4004, 5470, or 4305 years before Christ on
+this study's three witnesses, or the 3944 BC that `harmonized_v1` implies — stays open, and is
+reported as open above. What doesn't stay open is the shape
 of the claim: a single traceable line, named generation by generation, carrying a promise from
 Eden to an empty tomb. The math was always in service of that; it was never the point on its
 own.

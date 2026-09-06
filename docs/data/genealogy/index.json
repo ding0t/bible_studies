@@ -47,17 +47,12 @@
     },
     "harmonized_v1": {
       "name": "Proposed synthesis (working)",
-      "description": "MT as the base, with two targeted SP substitutions where SP resolves an internal problem MT/LXX leave open.",
+      "description": "MT as the base, with one targeted SP substitution (Terah) where SP resolves an internal problem MT/LXX leave open. A second substitution (Methuselah) was removed 2026-09-06: it had been adopted to stop Methuselah outliving the Flood, but MT already has him dying in the Flood year exactly (dies AM 1656, Flood AM 1656) -- the 14-year overshoot is an LXX-only problem. Grafting SP's Methuselah onto an MT chain also carried SP's age-at-heir-birth of 67 (vs MT 187), shortening the chain to Noah by 120 years and leaving Methuselah dead 129 years BEFORE the Flood -- breaking the very correspondence it was adopted to protect.",
       "confidence_label": "most probable (working -- not yet argued in the study)",
       "based_on": [
         "mt"
       ],
       "overrides": [
-        {
-          "person_id": "methuselah",
-          "adopts_tradition": "sp",
-          "reason": "Avoids Methuselah surviving the Flood by 14+ years, a long-noted problem with MT/LXX's own 969-year total."
-        },
         {
           "person_id": "terah",
           "adopts_tradition": "sp",

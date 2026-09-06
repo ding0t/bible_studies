@@ -113,3 +113,11 @@ review_2026_08_22:
     per sentence and carried 9 `worth ___` instances (now 8 -- one was removed incidentally while
     adding the NLT note, since it was also a virtue contrast). Flagged for a separate style pass.
   outcome: "All Critical and Moderate findings fixed and re-verified by fresh computation. npm run validate 10 warnings (unchanged, none on these files); npm test 21/21; mkdocs build --strict clean."
+
+correction_2026_09_06: >
+  harmonized_v1's Methuselah override was removed (see genealogy-times.yml correction_2026_09_06
+  for the full trace). The phase_4 figures recorded above are superseded: bar-chart values are now
+  1948/2008/2309/3474, and the sentence under the chart reads "three-quarters longer than
+  harmonized_v1's" -- the verified 1.900x near-double relation was an artifact of the bad
+  override, not a property of the text. The 1.505x LXX-to-SP ratio, the 19-generation count, the
+  three-of-four Terah convergence at 2126 BC and every rigid-zone figure are unaffected.

@@ -403,7 +403,7 @@ Three date questions are open. None of them changes the argument.
 | Reconstruction | Flood | Years to AD 2026 | Required rate | Doubling |
 |---|---|---|---|---|
 | Masoretic (Ussher) — this site's `zadok_year` base | 2348 BC | 4,374 | 0.481%/yr | 144 yrs |
-| `harmonized_v1` (MT with two Samaritan readings) | 2288 BC | 4,314 | 0.488%/yr | 142 yrs |
+| `harmonized_v1` (MT with one Samaritan reading) | 2288 BC | 4,314 | 0.488%/yr | 142 yrs |
 | Samaritan Pentateuch | 2998 BC | 5,024 | 0.419%/yr | 166 yrs |
 | Septuagint | 3228 BC | 5,254 | 0.400%/yr | 173 yrs |
 

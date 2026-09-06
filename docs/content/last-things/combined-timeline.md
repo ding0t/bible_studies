@@ -38,7 +38,7 @@ Above Terah the method changes completely. Genesis 5 and 11 give a father's age 
 flowchart LR
     subgraph E["ELASTIC — the count varies by manuscript"]
         direction TB
-        A["Creation<br/>3824-5470 BC<br/>depending on the tradition"] --> B["The Flood"] --> C["Babel"]
+        A["Creation<br/>3944-5470 BC<br/>depending on the tradition"] --> B["The Flood"] --> C["Babel"]
     end
     subgraph R["RIGID — the dates are fixed by anchors"]
         direction TB
@@ -87,13 +87,13 @@ Anno Mundi year and Gregorian date both move here, and they move together. Figur
 
 | Event | Masoretic | Septuagint | Samaritan | harmonized_v1 |
 |---|---|---|---|---|
-| Creation | AM 0 · 4004 BC | AM 0 · 5470 BC | AM 0 · 4305 BC | AM 0 · 3824 BC |
-| Enoch born | AM 622 · 3382 BC | AM 1122 · 4348 BC | AM 522 · 3783 BC | AM 622 · 3202 BC |
-| Noah born | AM 1056 · 2948 BC | AM 1642 · 3828 BC | AM 707 · 3598 BC | AM 936 · 2888 BC |
-| The Flood (Genesis 7:11) | AM 1656 · 2348 BC | AM 2242 · 3228 BC | AM 1307 · 2998 BC | AM 1536 · 2288 BC |
-| Peleg born | AM 1757 · 2247 BC | AM 2773 · 2697 BC | AM 1708 · 2597 BC | AM 1637 · 2187 BC |
-| Terah born | AM 1878 · 2126 BC | AM 3344 · 2126 BC | AM 2179 · 2126 BC | AM 1758 · 2066 BC |
-| **Abram born** | **AM 2008 · 1996 BC** | **AM 3474 · 1996 BC** | **AM 2309 · 1996 BC** | **AM 1828 · 1996 BC** |
+| Creation | AM 0 · 4004 BC | AM 0 · 5470 BC | AM 0 · 4305 BC | AM 0 · 3944 BC |
+| Enoch born | AM 622 · 3382 BC | AM 1122 · 4348 BC | AM 522 · 3783 BC | AM 622 · 3322 BC |
+| Noah born | AM 1056 · 2948 BC | AM 1642 · 3828 BC | AM 707 · 3598 BC | AM 1056 · 2888 BC |
+| The Flood (Genesis 7:11) | AM 1656 · 2348 BC | AM 2242 · 3228 BC | AM 1307 · 2998 BC | AM 1656 · 2288 BC |
+| Peleg born | AM 1757 · 2247 BC | AM 2773 · 2697 BC | AM 1708 · 2597 BC | AM 1757 · 2187 BC |
+| Terah born | AM 1878 · 2126 BC | AM 3344 · 2126 BC | AM 2179 · 2126 BC | AM 1878 · 2066 BC |
+| **Abram born** | **AM 2008 · 1996 BC** | **AM 3474 · 1996 BC** | **AM 2309 · 1996 BC** | **AM 1948 · 1996 BC** |
 
 The stretch itself is what varies. Measured in years from creation to Abraham's birth:
 
@@ -102,10 +102,10 @@ xychart-beta
     title "Length of the elastic zone — creation to Abraham, in years"
     x-axis ["harmonized_v1", "Masoretic", "Samaritan", "Septuagint"]
     y-axis "years" 0 --> 3600
-    bar [1828, 2008, 2309, 3474]
+    bar [1948, 2008, 2309, 3474]
 ```
 
-The Septuagint's chain is half as long again as the Samaritan's, and nearly twice `harmonized_v1`'s. Which of them preserves the older figures is a text-critical question, not an arithmetical one, and [Genealogy and Times](genealogy-times.md) works through the evidence — including the finding that the Samaritan Pentateuch sides with the Masoretic Text six times to nil in Genesis 5 and with the Septuagint six times to nil in Genesis 11, which is why the two chapters cannot be decided as one block.
+The Septuagint's chain is half as long again as the Samaritan's, and three-quarters longer than `harmonized_v1`'s. Which of them preserves the older figures is a text-critical question, not an arithmetical one, and [Genealogy and Times](genealogy-times.md) works through the evidence — including the finding that the Samaritan Pentateuch sides with the Masoretic Text six times to nil in Genesis 5 and with the Septuagint six times to nil in Genesis 11, which is why the two chapters cannot be decided as one block.
 
 ## The hinge: why they all agree about Abraham
 

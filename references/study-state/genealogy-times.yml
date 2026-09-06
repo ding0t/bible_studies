@@ -288,7 +288,60 @@ resources_consulted:
   - {type: other, title: "ebible-grcbrent (Brenton Septuagint)", author: "queried via references/build/query.py", note: "primary LXX source for Genesis 5, 11 verse text"}
   - {type: other, title: "scrollmapper-SP (Samaritan Pentateuch)", author: "queried via references/build/query.py", note: "primary SP source for Genesis 5, 11 verse text; restricted-nc license tier"}
   - {type: lexicon, title: "twot_strongs_map.json", author: "TWOT (Theological Wordbook of the Old Testament), root/Strong's/gloss only", note: "used via references/build/twot_lookup.py for every root cited in the word-study table above"}
-last_updated: "2026-07-24"
+correction_2026_09_06:
+  trigger: >
+    User asked whether the genealogy viewer was right to show Adam still alive when Noah is born,
+    and whether that put creation-to-Flood close to Adam's own lifespan. On MT it does not: Adam
+    dies AM 930, Noah is born AM 1056, and the Flood is AM 1656 -- 1.78x Adam's lifespan. But the
+    `harmonized_v1` variant showed Adam dying AM 930 and Noah born AM 936, a six-year gap that
+    reads as an overlap on the chart. Tracing that back exposed a false premise in this study.
+  error_found: >
+    The Methuselah section claimed MT and LXX BOTH leave Methuselah alive "more than a decade
+    after the Flood begins", and that "SP alone avoids it". False for MT. MT: Methuselah born
+    AM 687 + 969 = dies AM 1656; Noah born AM 1056 + 600 = Flood AM 1656. He dies in the Flood
+    year exactly. The 14-year overshoot is LXX-only (dies AM 2256, Flood AM 2242). SP also lands
+    exactly (dies AM 1307, Flood AM 1307), by a different route -- its Jared fathers Enoch at 62
+    not 162. The study's own results table two sections below already printed MT's Flood at 1656,
+    contradicting the paragraph. Verified against docs/data/genealogy/generated/*.json and Gen 5
+    / 7:6 in bible-text.db (ebible-eng-web), not from memory.
+  consequence_fixed: >
+    index.json's `harmonized_v1` had adopted SP for Methuselah on that false premise. Because an
+    override takes a person's WHOLE tradition record, it also took SP's age_at_heir_birth of 67
+    (vs MT 187), shortening Adam-to-Noah by 120 years: Noah AM 936, Flood AM 1536, and Methuselah
+    dead AM 1407 -- 129 years BEFORE the Flood. The substitution destroyed the correspondence it
+    was adopted to protect, and pulled Adam's death to within six years of Noah's birth. Override
+    removed. `harmonized_v1` is now MT plus one SP substitution (Terah), which still stands on the
+    Acts 7:4 argument and the NLT textual note recorded in phase_5_commentary.
+  figures_superseded: >
+    These SUPERSEDE the values recorded above and in combined-timeline.yml. harmonized_v1 now:
+    creation 3944 BC (was 3824), Flood AM 1656 / 2288 BC (was AM 1536; the BC date is unchanged,
+    because creation moved 120 years earlier as the Flood moved 120 years later), Terah died
+    AM 2023 / 1921 BC (was AM 1903), Abram born AM 1948 (was AM 1828). Antediluvian chain is now
+    identical to MT. Bar-chart values are 1948/2008/2309/3474 (was 1828/...), so the sentence
+    beneath it now reads "three-quarters longer than harmonized_v1's" -- the "nearly twice"
+    relation recorded in combined-timeline.yml phase_4 no longer holds and was itself a product
+    of the bad override.
+  also_fixed: >
+    Stale epoch figures in the closing paragraph ("creation was 6540, 5960, or 5308 years before
+    Christ ... the 5940-year figure harmonized_v1 implies"). Introduced in 8860b51, never updated
+    by the 2026-08-22 anchor correction in a63e79b, and matching no variant. Now 4004 / 5470 /
+    4305 / 3944 BC per the generator. Also a miscount in the new text caught before commit:
+    Methuselah's birth is the sum of SEVEN fathering-ages (Adam through Enoch), not nine.
+  verification: >
+    genealogy_chronology.py regenerated all four variants; app `npm test` passes (its assertion
+    now reads harmonized_v1 keeps MT for Methuselah); validate_genealogy.py passes;
+    validate-content.js passes with 14 pre-existing warnings, none on the three edited pages;
+    mkdocs build --strict clean.
+  files_touched:
+    - docs/data/genealogy/index.json (override removed, variant description records why)
+    - docs/data/genealogy/generated/*.json (regenerated)
+    - docs/content/last-things/genealogy-times.md (Methuselah section rewritten, SP bullet,
+      synthesis section, results table, closing epoch figures)
+    - docs/content/last-things/combined-timeline.md (variant table, mermaid range, bar chart)
+    - docs/content/god/world-population-...md ("two Samaritan readings" -> "one"; the 2288 BC
+      Flood date and every derived growth rate are unchanged)
+    - app/src/utils/chronology.test.js
+last_updated: "2026-09-06"
 
 review_2026_08_22:
   reviewer: "review-bible-study skill, full 8-phase adversarial pass"
