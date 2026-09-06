@@ -5,7 +5,7 @@ description: "Short definitions of the terms these studies use — interpretive 
 tags: ["glossary", "reference", "method/word-study", "method/textual-criticism"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-09-05
+date_modified: 2026-09-06
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -65,7 +65,8 @@ kept in practice, as distinct from the commandment itself.
 [Exegesis](#exegesis) asks what a passage meant; hermeneutics asks what follows from it.
 
 **Inclusio**{ #inclusio } — A unit of text bracketed by the same word or phrase at its start and
-end. The bracket marks where the unit begins and ends, and often names its theme.
+end. The bracket marks where the unit begins and ends, and often names its theme. Psalm 8 both opens
+and closes with "Yahweh, our Lord, how majestic is your name in all the earth!" (WEB).
 
 **Koinonia**{ #koinonia } — Greek κοινωνία (*koinōnia*), "fellowship, sharing, participation" — the
 common life of believers and their share in Christ (Acts 2:42).
@@ -107,7 +108,8 @@ that owns them works Genesis 1:1 through every one.
 
 **Alignment**{ #alignment } — Which original word each English word is rendering. It turns "which
 Hebrew word is this?" from a guess into a lookup, and it is the only thing on this list that links a
-translation to its source word by word.
+translation to its source word by word. In Genesis 1:1 all four words of "In the beginning" align to
+one Hebrew word, <span dir="rtl">בְּרֵאשִׁית</span>.
 → [Alignment](scripture/original-language-data.md#alignment)
 
 **Construct state**{ #construct-state } — Hebrew's way of saying "X of Y" — the first noun takes a
@@ -115,19 +117,22 @@ shortened bound form rather than a preposition. *Bet* ("house") plus *lehem* ("b
 Bethlehem, "house of bread".
 
 **Coreference**{ #coreference } — Annotation recording which word refers back to which earlier one:
-who "he" is. Coverage is partial, so a blank means *not annotated*, never *no referent*.
+who "he" is. The "her" of Matthew 1:19 is tagged as pointing back to "the mother" of verse 18.
+Coverage is partial, so a blank means *not annotated*, never *no referent*.
 
-**Gloss**{ #gloss } — A very short English equivalent, for orientation only. A gloss is not a
-translation and not a definition — it is a label, so you can tell which word you are looking at.
+**Gloss**{ #gloss } — A very short English equivalent, for orientation only:
+<span dir="rtl">בָּרָא</span> is glossed "he.created". A gloss is not a translation and not a
+definition — it is a label, so you can tell which word you are looking at.
 → [Gloss](scripture/original-language-data.md#gloss)
 
-**Hapax legomenon**{ #hapax-legomenon } — A word occurring only once in a given body of text. Weight it
-carefully: with no second occurrence there is no internal control on what the author meant by it.
+**Hapax legomenon**{ #hapax-legomenon } — A word occurring only once in a given body of text —
+θεόπνευστος (*theopneustos*, "God-breathed") at 2 Timothy 3:16 is one for the New Testament. Weight
+it carefully: with no second occurrence there is no internal control on what the author meant by it.
 
 **Lemma, lemmatised**{ #lemma } — The lemma is a word's dictionary form, the form you would look up.
 A *lemmatised* text is one where somebody has identified that form for every word, which is what
 makes a real word study possible — you can ask where else an author uses a word, whatever shape it
-was inflected into.
+was inflected into. ἀγάπην, ἀγάπῃ and ἀγάπη are three shapes of one lemma, ἀγάπη.
 → [Lemma](scripture/original-language-data.md#lemma-and-what-lemmatised-means)
 
 **Morphology, parsing**{ #morphology } — What grammatical form a particular occurrence is in, written
@@ -138,16 +143,19 @@ an argument turns on the form rather than the word.
 **Semantic domain**{ #semantic-domain } — A code placing a word in a category of meaning, from a
 scholarly classification ([Louw-Nida](#louw-nida) for Greek, [SDBH](#sdbh) for Hebrew). It answers
 what a dictionary cannot: which other words mean something like this one, including words that share
-no letters with it.
+no letters with it — Louw-Nida `23.93` holds ζάω ("live"), ἀνίστημι ("rise") and ἔγερσις
+("resurrection") together.
 → [Semantic domain](scripture/original-language-data.md#semantic-domain)
 
 **Strong's number**{ #strongs-number } — A number identifying a word in *Strong's Concordance*
-(1890), H for Hebrew and G for Greek. Sound as an identifier and unreliable as a definition — its
-glosses are Victorian, but its numbers are the common index that lets different resources talk about
-the same word. → [Strong's numbers](scripture/original-language-data.md#strongs-numbers)
+(1890), H for Hebrew and G for Greek: H1254 is <span dir="rtl">בָּרָא</span>, G26 is ἀγάπη. Sound as
+an identifier and unreliable as a definition — its glosses are Victorian, but its numbers are the
+common index that lets different resources talk about the same word.
+→ [Strong's numbers](scripture/original-language-data.md#strongs-numbers)
 
 **Surface form**{ #surface-form } — The word exactly as it stands in the text, inflected, with its
-vowel points and accents. What you read, and nearly useless for searching.
+vowel points and accents — <span dir="rtl">בְּרֵאשִׁ֖ית</span> in Genesis 1:1, where the lemma is
+<span dir="rtl">רֵאשִׁית</span>. What you read, and nearly useless for searching.
 → [Surface form](scripture/original-language-data.md#surface-form)
 
 ## Texts, manuscripts and witnesses
@@ -244,8 +252,9 @@ constantly. What they are, and which of them a query tool can actually see, is s
 [About our datasets](about/about-our-datasets.md).
 
 **BHSA**{ #bhsa } — Decades of Hebrew linguistic analysis from the Eep Talstra Centre, VU Amsterdam,
-with deeper clause hierarchy than anything else held here. Catalogued and licence-checked but not
-wired into any query tool, since MACULA already covers what the studies ask for.
+with deeper clause hierarchy than anything else held here: it can say which clause hangs under which,
+where MACULA labels a clause's own role and stops. Catalogued and licence-checked but not wired into
+any query tool, since MACULA already covers what the studies ask for.
 → [BHSA](scripture/original-language-data.md#bhsa-eep-talstra-centre-vu-amsterdam)
 
 **`bible-text.db`**{ #bible-text-db } — The database the studies query: every ingested text,
@@ -261,20 +270,25 @@ a short attributed quotation and never reproduced at length).
 → [Three tiers, one rule](about/about-our-datasets.md#three-tiers-one-rule)
 
 **Louw-Nida**{ #louw-nida } — The standard semantic-domain classification for New Testament Greek,
-by Johannes Louw and Eugene Nida. It is where a Greek word's domain code on this site comes from.
+by Johannes Louw and Eugene Nida. It is where a Greek word's [semantic domain](#semantic-domain) code
+comes from, and its codes are two-part: ἀγάπη ("love") is `25.43`.
 
 **MACULA**{ #macula } — Open scholarly annotations published by Clear Bible, one set for Hebrew and
 one for Greek, and this site's main source for both. It contains no Bible of its own: it carries a
 row for every word of one, saying what that word is — lemma, parsing, gloss, semantic domain, clause
-syntax. When a study says "MACULA gives the domain as…", this dataset is what it means.
+syntax. For <span dir="rtl">בָּרָ֣א</span> in Genesis 1:1 that row reads lemma
+<span dir="rtl">בָּרָא</span>, parsing `Vqp3ms`, gloss "he.created", domain `002002002005`. When a
+study says "MACULA gives the domain as…", this dataset is what it means.
 → [MACULA](scripture/original-language-data.md#macula-clear-bible)
 
 **MARBLE**{ #marble } — The United Bible Societies project supplying the word-sense data MACULA
-carries, including the Semantic Dictionary of Biblical Hebrew.
+carries, including the Semantic Dictionary of Biblical Hebrew. Every domain code quoted on this site
+traces back to it, Greek `25.43` and Hebrew `002001002022` alike.
 
 **morphhb**{ #morphhb } — The Open Scriptures Hebrew Bible: the Westminster Leningrad Codex marked up
 with lemma and morphology, and the source this site's Hebrew word studies are required to work from.
-Text and tagging only — no syntax, no semantic domains.
+Genesis 1:1's <span dir="rtl">בָּרָ֣א</span> arrives with Strong's `1254 a` and morphology `HVqp3ms`,
+and nothing more: text and tagging only — no gloss, no syntax, no semantic domains.
 → [morphhb](scripture/original-language-data.md#open-scriptures-hebrew-bible-morphhb)
 
 **Scripture links: `quotation-greek`, `inner-biblical`, `allusion-lemma`, `quotation-hebrew`**{ #scripture-links } —
@@ -284,7 +298,9 @@ fourth is a judgement.
 → [Four kinds of evidence](about/how-we-cross-reference.md#four-kinds-of-evidence-deliberately-kept-apart)
 
 **SDBH**{ #sdbh } — The Semantic Dictionary of Biblical Hebrew, the Hebrew counterpart to
-[Louw-Nida](#louw-nida), and the source of Hebrew domain codes here.
+[Louw-Nida](#louw-nida), and the source of Hebrew domain codes here. Its codes are nested numeric
+paths rather than two-part numbers: `002001002022` gathers <span dir="rtl">שָׂמַח</span>,
+<span dir="rtl">שׂוּשׂ</span> and <span dir="rtl">גִּיל</span>, three verbs for rejoicing.
 
 **STEPBible**{ #stepbible } — Datasets from Tyndale House, Cambridge: Strong's-tagged texts,
 lexicons, morphology and cross-references. Held as raw files but **not ingested**, so the query
@@ -297,13 +313,15 @@ outside this public repository, and it is used to test a reading already reached
 never to form one. → [The two databases](about/about-our-datasets.md#the-two-databases-and-what-is-in-them)
 
 **TWOT**{ #twot } — The *Theological Wordbook of the Old Testament*. Its bare facts — a Strong's
-number pointing to a root, lemma and one-line gloss — are open enough to use freely; its discussion
-prose is not, and sits in the quotation-only tier.
+number pointing to a root, lemma and one-line gloss, as H2617 <span dir="rtl">חֶ֫סֶד</span> (*ḥesed*)
+points to root 698a — are open enough to use freely; its discussion prose is not, and sits in the
+quotation-only tier.
 → [TWOT: one source, split across two tiers](about/about-our-datasets.md#twot-one-source-split-across-two-tiers)
 
 **unfoldingWord, ULT**{ #ult } — A translation organisation's Hebrew, Greek and English datasets. The
 ULT English translation is aligned to the original texts word by word, which is the one thing here
-that no other source supplies.
+that no other source supplies: it is what shows "One and Only" at John 3:16 to be three English words
+for one Greek one, μονογενῆ.
 → [unfoldingWord](scripture/original-language-data.md#unfoldingword-uhb-ugnt-ult)
 
 ## See also
