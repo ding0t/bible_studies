@@ -16,4 +16,5 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 5:17
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:17-18
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:10
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 5:1-8
 <!-- commentary-index:auto-end -->

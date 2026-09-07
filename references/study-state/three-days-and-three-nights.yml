@@ -356,6 +356,21 @@ claims:
            + (SELECT COUNT(*) FROM verses WHERE work_id='sblgnt' AND text LIKE '%τρεῖς νύκτας%')
     expect: 13
     note: the study says "stated thirteen times and explains it none" in two places.
+  - id: hades-count
+    what: ᾅδης occurrences in the NT
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='ᾅδης'"
+    expect: 10
+    note: >
+      The study lists all ten inline (Matt 11:23; 16:18; Luke 10:15; 16:23; Acts 2:27, 31;
+      Rev 1:18; 6:8; 20:13, 14), so a change here breaks a printed list, not just a number.
+  - id: paradeisos-count
+    what: παράδεισος occurrences in the NT
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='παράδεισος'"
+    expect: 3
+    note: >
+      Load-bearing. The whole "which paradise" argument is that there are exactly three, one
+      before the ascension (Luke 23:43) and two after (2 Cor 12:4; Rev 2:7). A fourth occurrence
+      would not break the argument but would need addressing.
   - id: prosabbaton-hapax
     what: prosabbaton is a New Testament hapax
     sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='προσάββατον'"
@@ -370,3 +385,293 @@ claims:
       SELECT COUNT(*) FROM verses WHERE work_id='sblgnt' AND book='John'
         AND (text LIKE '%Ἐγώ εἰμι%' OR text LIKE '%ἐγώ εἰμι%')
     expect: 23
+
+revision_2026-09-07:
+  what: >
+    User restructured the file by hand -- moved the theology ahead of the arithmetic, demoted the
+    dating argument under a new heading, and left nine todos plus two stub sections (Sheol/Hades/
+    Abraham's bosom; which paradise). Asked for a review and rewrite against those edits.
+  decisions_taken_with_user:
+    - "Intermediate state: hold the two-compartment Hades view, stated as held-with-reasons rather than certain."
+    - "Dating half compressed from ~2,500 words to ~1,100, cross-linking chronology-anchors.md for the year rather than re-arguing it."
+    - "Process: develop-bible-study for the new material, then review-bible-study over the whole file."
+  restructured: >
+    Order is now hook -> Key Takeaways -> the sign of Jonah -> the three appointed times (moved UP,
+    it is typology and was stranded under the dating header) -> Sheol/Hades primer -> Abraham's side
+    and the chasm -> which paradise -> what the days achieved -> horizontal rule -> the dating
+    question -> where that leaves it. The study now ends on the theology rather than the arithmetic.
+  user_edits_pushed_back_on:
+    - >
+      "What the type carries is burial and emergence, AND EVEN THE TIMING" reversed the study's own
+      argument -- the rest of the file spends 2,000 words showing the Jonah phrase is idiom, not
+      measurement (1 Sam 30:12-13 being the demonstration). Restored to burial and emergence.
+    - >
+      "pointed them back to the sign ALREADY GIVEN" -- Matt 12:39 has Jesus announcing the sign, not
+      recalling one already given. Reworded to "refused the request and answered it in the same breath".
+  new_word_studies:
+    - {word: "ᾅδης", language: greek, transliteration: "hadēs", strongs_id: "G86", gloss: "Hades", notes: "10x in NT, all listed in the study; LN domain 1.19"}
+    - {word: "παράδεισος", language: greek, transliteration: "paradeisos", strongs_id: "G3857", gloss: "paradise", notes: "3x -- Luke 23:43 pre-ascension, 2 Cor 12:4 and Rev 2:7 post; LN domain 1.14"}
+    - {word: "κόλπος", language: greek, transliteration: "kolpos", strongs_id: "G2859", gloss: "bosom, lap, side", notes: "6x; at Luke 16:22-23 LN tags it 1.16 TOGETHER WITH Ἀβραάμ"}
+    - {word: "שְׁאוֹל", language: hebrew, transliteration: "sheol", strongs_id: "H7585", gloss: "Sheol", notes: "LXX renders it ᾅδης; Gen 37:35 has Jacob expecting to go there"}
+  main_find: >
+    THE LOUW-NIDA DOMAIN CODES. Domain 1 is "geographical objects and features", and παράδεισος
+    (1.14), κόλπος Ἀβραάμ (1.16) and ᾅδης (1.19) sit in it almost adjacently. At Luke 16:22 BOTH
+    κόλπος and Ἀβραάμ carry 1.16 -- the annotators are treating the two words as one name for one
+    place, not as a description of a patriarch's chest. That is independent lexicographical
+    testimony that Luke 16's vocabulary is spatial, and it is the backbone of the new section.
+  second_find: >
+    ESV renders Ps 16:10 "Sheol" and Acts 2:27 "Hades" -- one sentence, the NT quoting the OT, with
+    the equation visible in English to a reader with no Greek or Hebrew. Verified via bible_trace:
+    quotation-greek to LXX Ps 15:10 at strength 30, corroborated. Cheapest possible demonstration
+    that the two words name one thing.
+  john_20_17_resolved: >
+    Μή μου ἅπτου is mē + PRESENT imperative -- forbidding a continuing action, "stop clinging", which
+    is how the ESV ("do not cling") and the NIV BTSB ("Stop clinging to me") both render it. It is
+    not a rule about contact: Matt 28:9 has the other women take hold of his feet (κρατέω, which
+    Louw-Nida files in the same domain 18.6 as John's ἅπτω here) within the same day, and Thomas is
+    invited to touch a week later. So the popular "untouchable until he had been to heaven" reading
+    is excluded by Matthew in the same twenty-four hours. ἀναβέβηκα is perfect: the ascension had
+    not happened. The verse fits BOTH intermediate-state readings and adjudicates neither.
+  commentaries_changed_the_conclusion: >
+    Phase 6 worked as advertised -- the commentary pass materially weakened what was going to be
+    written, and the study now says so instead of quietly keeping the stronger version.
+    EPHESIANS 4:8-9 is the proof-text for the descent emptying Abraham's bosom, and BOTH halves of
+    that reading are contested on this site's own shelf. The CSB footnotes v9's genitive "Or the
+    lower parts, namely, the earth", making the descent the incarnation; the ESVSB takes it that way
+    outright; the NIV BTSB says the passage "probably does not refer to Christ's descent into Hades".
+    On the captives, the ESVSB judges them "most likely demons" and the NIV BTSB "the spiritual
+    powers Christ conquered by the cross" (Col 2:15). So the user's todo -- "did this release those
+    in the bosom of Abraham?" -- gets a QUALIFIED answer: the destination of the righteous dead did
+    change, taught more clearly at 2 Cor 5:8, but Eph 4:8 is a weaker witness to it than it is
+    usually made to carry, and the study says that outright.
+    LUKE 16 likewise: the ESVSB reads Abraham's side as "the fellowship of other believers already in
+    heaven" and the chasm as "between heaven and hell", and the NIV BTSB as "the heavenly feast".
+    The two-compartment view is still held -- Gen 37:35, the ᾅδης of Luke 16:23 with the chasm INSIDE
+    it, and Rev 20:13-14 emptying and destroying Hades all support it, and the Cultural Backgrounds
+    volumes confirm Second Temple Judaism pictured it that way -- but the disagreement is named in
+    the prose rather than omitted.
+  todos_answered:
+    - "Sheol/Hades/Abraham's bosom primer: written, two new sections."
+    - "Which paradise: written, both readings stated, first held."
+    - "Did the descent release Abraham's bosom: answered, qualified -- see above."
+    - >
+      "Does this lock in AD 33 / which calendar?": NO, and the study now says which constraint does
+      what. The three-days reckoning settles nothing about the year; the WEEKDAY does. Friday +
+      Nisan 14 + Pilate's prefecture (AD 26-36) on the Pharisaic-Rabbinic lunar-solar calendar
+      leaves exactly two candidates, Fri 7 Apr AD 30 and Fri 3 Apr AD 33. Choosing between them
+      needs Luke 3:1 and John's Passovers, which chronology-anchors.md already works through -- so
+      it is cross-linked, not re-argued.
+    - >
+      "Which of the three days is προσάββατον anchored to?": the FIRST -- the day of the crucifixion
+      and burial, not the day in the tomb or the day of the resurrection. Stated inline.
+    - "Be Transformed: written as Think / Attitude / Do, per the user's own scaffold."
+    - "Prayer: user's own text kept, spelling corrected only."
+    - "<not about Jesus but useful>: the Emmaus bullet moved into the dating half where it is evidence."
+    - "'Bubble the so-what up': 'Where that leaves it' now opens on what the three days achieved and reaches the arithmetic second."
+  size: "4,897 words to 5,050 -- theology roughly doubled, dating roughly halved."
+  frontmatter: >
+    description rewritten; bible_references +12 (Luke 16:19-31, Gen 37:35, Eph 4:8-10, 2 Cor 12:2-4,
+    Rev 2:7, John 20:17, Matt 28:9, Rev 20:13-14, Acts 2:27, Luke 18:33 among them); tags gained
+    "ephesians". Luke 18:33 was missing from bible_references despite being in the table since the
+    2026-09-06 review fixed the count.
+  last_updated: "2026-09-07"
+
+revision_2026-09-07b:
+  what: >
+    User, having read the rewrite: address "what about the rapture and the resurrection still to
+    occur -- is this the physical body?" in the Abraham's-side section, and pull in Samuel's own
+    phrasing at En-dor for the pre-Christ righteous side of Sheol.
+  added_1_samuel_28: >
+    Placed in the Sheol/Hades section as the OT foundation, BEFORE Luke 16, since it is OT
+    vocabulary about where the dead are. Four observations, all read off the morphology:
+      - Direction is up out of the earth. עָלָה (alah, H5927) occurs FIVE times in 1 Sam 28:8-15
+        (28:8, 11 twice, 13, 14, 15) -- verified against macula-hebrew-wlc, and it is the same lemma
+        as Jonah 2:7 Hebrew / 2:6 English, which the study already discusses. Deliberately NOT
+        presented as the verb carrying resurrection meaning: the 2026-09-06 review already caught
+        that exact overclaim on this verb, so it is framed as a shared spatial assumption instead.
+      - Samuel is recognisably himself, in the robe of 1 Sam 15:27 (ESVSB, NIV CBSB both make the
+        robe the trigger for Saul's recognition).
+      - רָגַז (ragaz) "disturbed" -- he was at rest and was interrupted.
+      - The woman's אֱלֹהִים: ESVSB notes the plural form and that the term "is used of the spirits
+        of the dead in ancient Near Eastern texts".
+  the_load_bearing_line: >
+    1 Sam 28:19, "tomorrow you and your sons shall be WITH ME". Saul is under judgment and dies by
+    his own hand; Samuel died in honour; they go to the same place. That does not fit a straight
+    heaven-and-hell afterlife (which would put Saul in heaven with Samuel) and fits the one-realm,
+    two-conditions picture Luke 16 draws. This is the strongest OT support the two-compartment
+    reading has in this study, and the USER supplied it.
+    The minimal reading -- "you will be dead as I am dead" -- is granted in the prose, because even
+    it concedes a common place and state for righteous and unrighteous dead, which is the point.
+  was_it_samuel: >
+    Study follows the narrator, who calls him Samuel throughout and reports a prophecy that came
+    true. Not a lone judgement: ESVSB ("hard to think that the narrator thought this was a deceptive
+    illusion"), NIV BTSB ("Samuel actually comes up from the grave. There is no sense from the entire
+    text that this is not really the great prophet") and both Cultural Backgrounds volumes ("from a
+    literary standpoint, there is no question") all agree. Noted in a parenthesis rather than argued.
+  added_the_body_section: >
+    New "### What is still owed: the body" under What those days achieved. Answers the user's
+    question directly: NO, the emptying of Abraham's side is not the resurrection, and the body is
+    still owed.
+      - 2 Cor 5:3-4 is the decisive text and it is usually skipped: Paul does NOT want to be
+        "unclothed" (found naked) but "further clothed". So the intermediate state is explicitly
+        DISEMBODIED and Paul explicitly prefers something else to it. "Far better" (Phil 1:23) than
+        here; not the end.
+      - Rev 6:9-11 shows that state still running long after the ascension -- martyrs conscious,
+        vocal, robed, and told to REST A LITTLE LONGER. With God and not yet raised.
+      - 1 Thess 4:14-17 gives the sequence: God brings WITH him those who have fallen asleep, and
+        THEN the dead in Christ rise. The person comes with Christ; the body comes out of the ground.
+      - 1 Cor 15:53: what is raised is "this perishable body".
+    Rendered as a three-row table (alive / died before his coming / at his coming), against body and
+    location. Closes on Christ as the exception that establishes the rule -- his tomb is empty, ours
+    are not, which is what "firstfruits" claims (1 Cor 15:23, already quoted earlier in the study).
+    Cross-links rapture.md#the-whole-sequence-in-one-view.
+  consistency_checked: >
+    rapture.md does NOT cover the intermediate state or the disembodied question anywhere -- checked
+    before writing, so this fills a gap rather than contradicting a sibling. Consistent with
+    statement-of-faith.md's resurrection-body section (1 Cor 15:42-44) and its pretribulational
+    position; neither needed changing.
+  verification: >
+    14 scripture blocks re-checked against esv-study-bible; the new 1 Sam 28:13-15 and 2 Cor 5:3-4, 8
+    both verbatim. The four "unmatched" reports are the three deliberate elisions (Jonah 2:2-6,
+    Luke 16:22-23+26, 2 Cor 5:3-4+8) and the known "( In" extraction artifact at Eph 4:9.
+    npm run validate: no new warnings. verify_claims: 9/9 still passing.
+  also_fixed: >
+    An unverifiable superlative introduced in this pass -- "more detail about the state of the dead
+    than any other passage in the Old Testament" -- was cut before it shipped and replaced with the
+    countable alah figure. Exactly the kind of sentence check 18 exists for, and it would not have
+    tripped it (no Hebrew characters on that line).
+  last_updated: "2026-09-07"
+
+revision_2026-09-07c:
+  what: >
+    User asked for a mermaid or SVG visualisation of Hades, the gulf and the movement to heaven,
+    plus Larkin's own diagram from clarencelarkincharts.com (they supplied the direct page URL
+    mid-turn: Clarence_Larkin_10.html, "The Underworld").
+  new_section: "## The whole arrangement in one view, placed after What those days achieved and before the dating half."
+  own_diagram: >
+    flowchart TD, three stacked era subgraphs (before the resurrection / now since the ascension /
+    at his coming), each with direction LR holding TWO nodes joined by an invisible link -- the
+    righteous track and the unrighteous track side by side. The two-column shape is the point: the
+    right-hand column runs UNBROKEN from Luke 16 to Rev 20, which is what makes "the descent emptied
+    Hades" too strong a sentence, and it is the thing the prose kept having to restate.
+  measured: >
+    573.77px, renders at ~98% in the ~563px column. This is 2% OVER the 560 budget in diagrams.md
+    and the overage is deliberate -- recorded here so a later sweep knows it was measured, not
+    missed. Both columns are already at mermaid's ~230px-per-column floor (confirmed: shortening the
+    subgraph title from 66 to 60 chars changed the width by 0.00px), so 573 is the floor for any
+    two-column layout. The single-column alternative measured 276px but loses the side-by-side
+    tracks, which is the diagram's whole reason for existing.
+  tooling_calibrated: >
+    Before trusting any number, re-rendered the study's EXISTING passion-week diagram and got
+    464.984375px against the 464.98px recorded in revision_2026-09-06d. Worth doing: the first
+    measurement attempt looked wrong (foreignObject width="200" in the output suggested text was not
+    being measured), and the calibration is what established the numbers were sound.
+  larkin_chart: >
+    "The Underworld", self-hosted at docs/content/assets/img/larkin/the-underworld.gif (1242x724,
+    130KB), downloaded from clarencelarkincharts.com/clarence_larkin/images/the_underworld.gif
+    rather than hotlinked -- matching the convention already set by the four Larkin charts in that
+    directory used by prophecy-chart.md and olivet-discourse.md.
+    NOTE the site serves over http with an EXPIRED TLS certificate, so WebFetch fails on it; the
+    fetch was done with curl -k. If it needs re-fetching, that is why.
+  larkin_copyright: >
+    Public domain. Dispensational Truth published 1918, expanded 1920 -- before the 1929 US cutoff --
+    and Larkin died 24 January 1924, so it is also clear on life+70. The chart carries Larkin's own
+    "Copyrighted" mark, which is a notice of an expired term rather than a live claim; the new
+    copyright.md section says so explicitly.
+  copyright_gap_fixed: >
+    Larkin was NOT mentioned anywhere in docs/content/about/copyright.md, despite four of his charts
+    already being used by prophecy-chart.md and olivet-discourse.md. Added a "## Public-domain
+    charts" section covering all of them, not just this one. Pre-existing gap, found by following
+    the skill's rule that a new major source gets a copyright.md entry in the same commit.
+  larkin_handled_honestly: >
+    The chart draws EXACTLY this study's held position -- "Paradise ... it is now empty", "Hell ...
+    still occupied", "The Great Gulf, Luke 16:19-31", Tartarus and the abyss kept distinct from the
+    lake of fire -- and even labels the ascending arrow off the cross "the first fruits", which is
+    the 1 Cor 15:20-23 argument the prose reaches independently.
+    But it asserts as settled two things this study records as contested: the arrow removing the
+    righteous souls is captioned Eph 4:8-10, the passage whose captives the ESVSB calls "most likely
+    demons"; and the right-hand third runs resurrections and judgments through the tribulation and
+    the millennium, beyond this study's scope. The prose says so, and frames the chart as "the
+    position drawn, not evidence for it". Presenting it without that caveat would have quietly
+    upgraded the study's own hedged conclusion.
+  verification: >
+    npm run validate clean (only the pre-existing, verified prosabbaton warning).
+    mkdocs build --strict passes, and the built output was checked directly: the gif is copied to
+    site assets, the img src resolves, the new copyright.md #public-domain-charts anchor exists, and
+    two mermaid blocks are present on the page.
+  last_updated: "2026-09-07"
+
+revision_2026-09-07d:
+  what: "User: review the discussion questions, suggesting a complete rewrite. They were right."
+  diagnosis:
+    - >
+      FOSSIL OF THE OLD STUDY. Q1 and Q2 were both about time-language precision -- two of five
+      questions spent on the material the restructure demoted to a quarter of the page and which the
+      study's own conclusion calls "a small one". Nothing at all on Sheol/Hades, Samuel at En-dor,
+      the paradise question, or the still-owed body -- i.e. nothing on any of the material added in
+      the three revisions since the questions were written.
+    - >
+      Q2 BROKE THE STYLE-GUIDE RULE. "Why might an incidental count carry more evidential weight
+      than a deliberate one?" asks about evidence-weighting METHOD, which style-guide.md forbids
+      ("for the reader to think about the subject, never about the study's own method"). Same fault
+      it records against two of rapture.md's four, but harder to spot because it is dressed as an
+      epistemology question rather than as "did this change your mind".
+    - >
+      Q3 was two questions in one and the second was rhetorical -- "does a sign have to be a
+      measurement to be true?" telegraphs the answer the study had just given. A comprehension
+      check, not a prompt.
+    - "None of the five landed personally; all were analytical, despite the study having real pastoral weight in the body section."
+  kept: >
+    Q4 (Jonah interpreting his own three days) was the only sound one -- open, text-rooted, and its
+    "what would be lost if it were only a statement about how long" tail makes the reader test the
+    alternative. Carried forward as the new Q2, lightly reworded. Not a total rewrite, and the user
+    was told so.
+  new_set_proportion: >
+    Six questions, weighted like the study now is: 1-2 the sign of Jonah, 3-4 where he was
+    (Samuel's "with me"; Luke 23:43 against John 20:17), 5 the body, 6 the arithmetic -- ONE
+    question on the dating, down from three.
+  new_q5_is_the_load_bearing_one: >
+    Paul says being with Christ is "far better" and that he does not want to be found "unclothed",
+    both at once -- then asks whether the way Christians usually speak at a funeral keeps that
+    distinction or loses it. It is the only question that lands on the reader personally, and it
+    exposes a real gap between popular Christian speech and 2 Cor 5:3-4. This is what the old set
+    had nothing of.
+  last_updated: "2026-09-07"
+
+revision_2026-09-07e:
+  what: >
+    User asked for the discussion questions to follow a codified structure -- original languages,
+    deeper insight from Scripture, prophecy / what we learn about Jesus, being transformed -- and
+    for that pattern to go into the skill, not just into this file.
+  codified_in: ".claude/skills/develop-bible-study/discussion-questions.md (new companion file)"
+  the_organising_idea: >
+    The facets are not an arbitrary list: the question set MIRRORS Key Takeaways. key-takeaways.md
+    already states the relationship ("Key Takeaways delivers content and calls to action up front;
+    discussion questions are open-ended prompts for a reader or a group to work through afterward"),
+    so the questions ask the reader to do for themselves the work the study did for them. That gives
+    each facet a principled source and stops the list reading as a template.
+    Facets: the language / the text in its context / type, prophecy and Christ / the hard part /
+    be transformed. Four to six questions, include only what the study earned -- the same discipline
+    Key Takeaways already applies -- and the order is a default, not a rule.
+  wired_into:
+    - "develop SKILL.md Phase 7 bullet + companion-file list."
+    - "style-guide.md: its existing prohibition now points at the new file as the positive counterpart."
+    - >
+      review-bible-study SKILL.md Phase 8: a new check, deliberately describing TWO findings --
+      the prohibition catches a method question (including the disguised evidence-weighting form),
+      the facet table catches the commoner defect of a set that is individually fine and
+      collectively stale.
+  new_failure_mode_recorded: >
+    QUESTION SETS GO STALE SILENTLY, and they are the likeliest part of a study to do it. When a
+    study is restructured the prose gets re-read and the questions do not, because each question
+    stays individually defensible -- nothing looks wrong. This study carried its original set
+    through three revisions that doubled the theology, halved the arithmetic and added four
+    sections, and no validator, link check or style pass could see it. Same class as
+    validate-content.js checks 18 and 19: true when written, quietly stopped being true.
+  applied_here: >
+    Six questions, each labelled with its facet so the structure is visible to a group leader:
+    language (alah as an ordinary verb, tying Jonah to Samuel), context (Jonah interpreting his own
+    three days), type/Christ (why a burial as the credential), deeper in Scripture (Samuel's "with
+    me"), the hard part (Luke 23:43 against John 20:17), be transformed (Paul's "far better" against
+    "not unclothed", and how funerals speak).
+  last_updated: "2026-09-07"

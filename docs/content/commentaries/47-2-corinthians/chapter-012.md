@@ -14,4 +14,5 @@ draft: false
 
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 12:7
 - [The Rapture of the Church](../../last-things/rapture.md) — 12:2-4
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 12:2-4
 <!-- commentary-index:auto-end -->

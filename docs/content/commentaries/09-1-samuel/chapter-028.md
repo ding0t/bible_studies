@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Sin and Sorcery](../../sin/sorcery.md) — 28:3-25
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 28:13-19
 <!-- commentary-index:auto-end -->
