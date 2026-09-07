@@ -15,4 +15,5 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 8:23
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 8:3
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 8:1
+- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 8:26-27
 <!-- commentary-index:auto-end -->

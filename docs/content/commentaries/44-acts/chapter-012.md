@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 12:1-2 (primary passage)
+- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 12:5
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 12:1-2
 <!-- commentary-index:auto-end -->

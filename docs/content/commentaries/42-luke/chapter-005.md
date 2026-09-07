@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 5:27-32
+- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 5:16
 - [Simon Peter](../../biblical-figures/peter.md) — 5:1-11
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 5:33
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 5:1-11

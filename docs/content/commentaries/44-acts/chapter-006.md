@@ -1,17 +1,16 @@
 ---
-title: "Ephesians 6"
+title: "Acts 6"
 category: "bible"
-description: "Commentary and cross-referenced studies for Ephesians chapter 6"
-tags: ["ephesians"]
+description: "Commentary and cross-referenced studies for Acts chapter 6"
+tags: ["acts"]
 draft: false
 ---
 
-# Ephesians 6
+# Acts 6
 
 
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
 - [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 6:4
-- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 6:20
 <!-- commentary-index:auto-end -->

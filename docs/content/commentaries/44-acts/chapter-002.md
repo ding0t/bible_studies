@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 2:17
+- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 2:42
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:20
 - [Simon Peter](../../biblical-figures/peter.md) — 2:14-41
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 2:27

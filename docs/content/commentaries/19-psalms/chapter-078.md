@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 78:17-31
+- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 78:4-7
 <!-- commentary-index:auto-end -->

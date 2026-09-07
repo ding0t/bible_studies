@@ -14,6 +14,7 @@ draft: false
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 5:9
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 5:19-21
+- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 5:17-18
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 5:1-4
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:9
 <!-- commentary-index:auto-end -->

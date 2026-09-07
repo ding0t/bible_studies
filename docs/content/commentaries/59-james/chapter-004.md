@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 4:7
+- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 4:2-3
 <!-- commentary-index:auto-end -->

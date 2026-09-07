@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 5:16
 - [The Day Is Near](../../last-things/day-is-near.md) — 5:7-8
 - [The Way](../../jesus/the-way.md) — 5:20
 <!-- commentary-index:auto-end -->

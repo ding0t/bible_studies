@@ -14,4 +14,5 @@ draft: false
 
 - [Biblical Numerology](../../scripture/numerology.md) — 6:4
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 6:4-7
+- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 6:6-7
 <!-- commentary-index:auto-end -->

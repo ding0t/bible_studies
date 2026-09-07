@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 32:26-29
+- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 32:11-14
 <!-- commentary-index:auto-end -->

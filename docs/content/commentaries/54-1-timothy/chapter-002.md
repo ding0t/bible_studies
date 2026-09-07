@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 2:5
+- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 2:1-4
 <!-- commentary-index:auto-end -->

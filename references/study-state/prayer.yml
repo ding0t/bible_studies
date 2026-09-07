@@ -1,0 +1,187 @@
+slug: prayer
+title: "Prayer: The Continual Discipline"
+status: published
+target_path: docs/content/christian-life/prayer-as-communion.md
+
+primary_passage: "Colossians 4:2"
+supporting_passages: ["1 Timothy 2:1-4", "Acts 4:23-31", "Luke 5:16", "Ephesians 2:18", "Matthew 6:5-15"]
+genre: [epistle, gospel, narrative]
+
+origin: >
+  User: "It needs to move from my personal notes to a grounded scripture study of the continual
+  discipline of prayer." With a specified outcome list -- personal vs corporate, how and what to
+  pray, what to use from the Lord's Prayer, Jesus's own prayer life, the apostles' practice and
+  teaching, whether to pray to Jesus or the Father, what prayer permits God to do, attitude, and
+  teaching a family.
+
+what_it_was: >
+  472 words at docs/content/christian-life/prayer-as-communion.md -- four lines of personal notes,
+  two long block quotes (Heb 12:1-2 and the whole of Matt 6:5-15) doing most of the word count, a
+  YouTube link, and a section of transcribed teaching. Published, not draft.
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      KEPT THE EXISTING PATH rather than renaming to prayer.md. The page is published and linked
+      from christian-life/index.md; a rename costs a redirect for no reader benefit. Title and
+      description changed, slug left alone. Flagged to the user rather than done silently.
+      SCOPE BOUNDARY: lords-prayer.md already exists at 4,127 words and is a full exegetical study
+      of Matt 6:9-13 / Luke 11:2-4 with per-petition word studies. This study therefore uses the
+      Lord's Prayer as a TEMPLATE and cross-links, and does not re-exegete a single petition.
+  exegesis:
+    content_word_studies:
+      done: true
+      notes: >
+        All three read off macula-greek-sblgnt at the verse.
+        προσκαρτερέω: 10 NT occurrences, FIVE of them about prayer (Acts 1:14; 2:42; 6:4;
+        Rom 12:12; Col 4:2). The others are Acts 2:46 (temple), 8:13 (Simon with Philip), 10:7
+        (attending soldiers), Mark 3:9 (the boat), Rom 13:6 (tax officials). This is the study's
+        opening move: the NT's habitual word for prayer is a word about stubborn persistence, not
+        about feeling.
+        Luke 5:16 is a PERIPHRASTIC IMPERFECT -- ἦν + ὑποχωρῶν + προσευχόμενος -- so it describes a
+        customary practice, not one occasion. ESV's "would withdraw" preserves it; several
+        translations flatten it to a simple past.
+        1 Tim 2:1's four nouns carry FOUR DIFFERENT Louw-Nida domains -- δέησις 33.171,
+        προσευχή 33.178, ἔντευξις 33.347, εὐχαριστία 33.349 -- so the lexicographers treat them as
+        distinct acts rather than as synonyms piled up for rhetorical weight. That is the backbone
+        of the "what to pray about" section and of discussion question 6.
+      terms:
+        - {word: "προσκαρτερέω", language: greek, transliteration: "proskartereō", strongs_id: "G4342", gloss: "persist in, stick at", notes: "10x, 5 of prayer; LN 68.68"}
+        - {word: "δέησις", language: greek, transliteration: "deēsis", strongs_id: "G1162", gloss: "entreaty out of need", notes: "LN 33.171"}
+        - {word: "ἔντευξις", language: greek, transliteration: "enteuxis", strongs_id: "G1783", gloss: "approach on another's behalf", notes: "LN 33.347"}
+  hermeneutics:
+    theological_principle:
+      done: true
+      notes: >
+        Prayer is not how access is obtained but what is done because access is already given
+        (Eph 2:18; Matt 6:8 gives God's foreknowledge as a reason TO pray). The discipline follows
+        from the relationship rather than establishing it.
+  drafting: {done: true, file: docs/content/christian-life/prayer-as-communion.md}
+  review: {done: false, validated: true}
+
+the_contested_note_in_the_source: >
+  THE ONE THING THAT NEEDED ADJUDICATING, and it came from the user's own notes, so it was addressed
+  in the prose rather than deleted.
+  The old file recorded, from an Alan Nolan talk: "God cannot legally implement his will unless we
+  ask him to. Prayer - is the right for God to implement his sovereignty by the request of man."
+  Assessed as a true kernel in an unsupportable frame, and the study says so with both halves:
+    - TRUE: God has genuinely appointed prayer as a means. James 4:2 "you do not have because you do
+      not ask" is a real causal statement; James 5:16 likewise. A God who ordains ends ordains means.
+    - NOT SUPPORTABLE: that God CANNOT act unasked. Eph 1:11 "works all things according to the
+      counsel of his will"; the incarnation was requested by nobody; Rom 5:8 has the central act of
+      history done for people who were not asking.
+    - THE DECISIVE TEXT is the church's own model prayer under threat: Acts 4:24 opens "SOVEREIGN
+      LORD, who made the heaven and the earth", recites Psalm 2, and describes the enemies as having
+      done what God's hand "had predestined to take place" (4:28) -- then asks, and asks for boldness
+      rather than for the threat's removal. A prayer that begins by asserting absolute sovereignty is
+      the opposite of a God awaiting legal permission.
+  Consistent with statement-of-faith.md line 58, "the Father ... Creator and sovereign over all",
+  which the study cites in its Related links so the measurement is visible.
+
+pray_to_whom: >
+  Answered rather than left open, because the user asked directly. Pattern and default is to the
+  FATHER (Matt 6:9; Luke 11:2), through the SON (John 16:23-24), in the SPIRIT -- all three in one
+  sentence at Eph 2:18. But prayer to Jesus is attested and never corrected: Acts 7:59 (Stephen,
+  redirecting Ps 31:5 to Christ), 2 Cor 12:8-9 (Paul's thorn -- and the answer comes from Christ),
+  1 Cor 1:2 (Christians defined as those who "call upon the name of our Lord Jesus Christ"),
+  Rev 22:20. The Spirit is described as interceding FOR us (Rom 8:26-27) and there is no NT example
+  of prayer addressed to him -- stated, so a reader does not build a practice on silence.
+
+open_questions:
+  - >
+    The study asserts there is no NT example of prayer addressed to the Holy Spirit. Checked against
+    the passages usually offered and none is a direct address, but this is an argument from silence
+    over the whole corpus and was not exhaustively searched. Phrased as "no New Testament example"
+    with the Rom 8:26-27 role stated positively alongside, rather than as a prohibition.
+  - >
+    No Types & Prophecy block in Key Takeaways. Deliberate -- the subject supplies neither, and
+    key-takeaways.md says to include only what the study earned rather than filling the template.
+
+claims:
+  - id: proskartereo-count
+    what: προσκαρτερέω occurrences in the NT
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='προσκαρτερέω'"
+    expect: 10
+    note: >
+      The study also says five of the ten are about prayer and lists them (Acts 1:14; 2:42; 6:4;
+      Rom 12:12; Col 4:2). That five cannot be expressed as SQL -- it is a judgement about context,
+      not a lemma count -- so the total is what is machine-checked and the list is printed in the
+      prose for a reader to check.
+  - id: deesis-domain
+    what: 1 Tim 2:1's four nouns carry four distinct Louw-Nida domains
+    sql: |
+      SELECT COUNT(DISTINCT domain_code) FROM morphology
+        WHERE work_id='macula-greek-sblgnt' AND book='1Tim' AND chapter=2 AND verse=1
+        AND lemma IN ('δέησις','προσευχή','ἔντευξις','εὐχαριστία')
+    expect: 4
+
+resources_consulted:
+  - {type: other, title: "MACULA Greek Linguistic Datasets", note: "proskartereo occurrences, Luke 5:16 periphrastic imperfect, 1 Tim 2:1 domains"}
+  - {type: other, title: "ESV (via study-notes.db)", note: "all six block quotes verified verbatim"}
+
+revision_2026-09-07b:
+  what: >
+    User clarified what they take Nolan to mean, and it is materially stronger than the note as
+    written: prayer as recognition of God's sovereignty over my life rather than a mechanism for
+    executing my own will -- deliberate seeking of God's will, and communion -- and THAT seeking is
+    what allows God to act. Then, mid-turn: "I think that concept will be all through scripture."
+  verdict: >
+    The user was right on both counts, and the first draft of the section had the emphasis wrong. It
+    led with the refutation of the literal "God cannot legally act" formulation and treated the true
+    kernel as a concession. Rewritten to lead with the strong version, demonstrate it, and put the
+    correction last and short.
+  the_pattern_is_canon_wide: >
+    Checked rather than assumed, and it holds across Law, History, Psalms, Wisdom, Prophets, Gospels
+    and Epistles with the SAME STRUCTURE -- alignment of the will, then God acting. Tabulated in the
+    study: 2 Chr 7:14 (humble/seek/turn THEN I will hear); Ps 37:4 (delight THEN desires granted);
+    Ps 66:18-19; Prov 28:9 (turn the ear from the law and even the prayer is an abomination);
+    John 15:7 (IF you abide... ask whatever you wish); Jas 4:7-10; 1 John 3:22 (BECAUSE we keep his
+    commandments); 1 John 5:14 (according to his will, he hears us).
+  the_james_4_find: >
+    THE BEST OF THE PASS. "You do not have, because you do not ask" (4:2) -- the sentence the whole
+    Nolan argument rests on -- sits INSIDE a paragraph diagnosing a disordered will. 4:1 "your
+    passions at war within you", 4:3 "you ask wrongly, to spend it on your passions", and the
+    prescription at 4:7-10 is submit / draw near / humble. So the very text that says God waits to
+    be asked says in the same breath that the asking is worthless while the will is elsewhere.
+    Quoting 4:2 without 4:1-10 turns a call to surrender into a technique for acquisition. This is
+    contextual, not imposed -- it is what the paragraph is about.
+  moses_and_daniel: >
+    Added as the worked examples of what praying God's will looks like, because both pray God's own
+    declared commitments back to him rather than imposing a preference. Moses argues from God's
+    reputation and the oath sworn to Abraham (Exod 32:13) and "the LORD relented" (32:14) -- which
+    is also the STRONGEST text for Nolan's side and is included honestly rather than omitted.
+    Daniel "perceived in the books" what God had said through Jeremiah (Dan 9:2) and then prayed for
+    it, disclaiming leverage outright: "not because of our righteousness, but because of your great
+    mercy" (9:18).
+  ps_37_4_handled: >
+    Flagged in the study as the verse most often quoted as a blank cheque, and as the clearest case
+    of the pattern -- delight first is what reshapes the desires, so it is not a promise of getting
+    what you already want. Also became discussion question 4, replacing an Acts 4 question, since
+    the will/alignment material is now the study's largest section and had no question on it.
+  what_survived_of_the_correction: >
+    Still says the "legally cannot" framing overshoots, on Eph 1:11, the unrequested incarnation,
+    Rom 5:8, and Acts 4:24's "Sovereign Lord" -- but now with the PRACTICAL reason the distinction
+    matters, which the first draft lacked: if God is legally blocked without me, unanswered prayer
+    becomes my failure and prayer becomes a burden with my name on it; if he is sovereign and has
+    appointed prayer as how a child seeks his Father's will, then Gethsemane -- request refused,
+    prayer perfect -- stops being a problem.
+  removed_2026_09_07c: >
+    User: "Lets remove the legally cannot terminology then. This is not an argument." Correct, and
+    it should not have needed saying -- the study is a study of prayer, not a rebuttal of a named
+    teacher, and a whole subsection framed as "where X overshoots" made it briefly the latter.
+    Deleted the "Where the 'legally cannot' framing overshoots" subsection entirely, dropped the
+    attribution at the James 4 paragraph (the exegesis stands on its own without a name attached to
+    it), and cut the trailing "not exercising a human right over him", which was the dominion claim
+    surviving in negative form. Eph 1:11 and Rom 5:8 left the study with the subsection and were
+    removed from bible_references so the frontmatter does not claim passages the prose no longer
+    cites.
+    The pastoral payoff was kept but restated without a foil: an unanswered request is not evidence
+    of a defective prayer life, because Gethsemane was prayed perfectly and the cup stayed. That
+    said positively is stronger than it was as the second half of a contrast, which is the general
+    lesson -- style-guide.md's virtue-contrast rule is about straw alternatives, and this was the
+    same shape aimed at a real position.
+    Acts 4:24's "Sovereign Lord" is untouched: it was already doing honest work in "How the apostles
+    prayed" as an observation about how the church actually prayed, rather than as a rebuttal.
+  size: "472 words to ~4,200."
+last_updated: "2026-09-07"
