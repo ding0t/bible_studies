@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 16:9-10
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 16:6-10
 - [Sin and Sorcery](../../sin/sorcery.md) — 16:16-18
 - [The Way](../../jesus/the-way.md) — 16:17
 <!-- commentary-index:auto-end -->

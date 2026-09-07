@@ -60,7 +60,7 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
 
     ---
 
-    The sign of Jonah, and what Jonah said it was: the belly of Sheol, the heart of the seas, brought up from the pit. The three days across Passover, Unleavened Bread and Firstfruits. Where the New Testament says Christ was, what it says he achieved — and, in its proper proportion, whether a Friday allows three nights.
+    The sign of Jonah, and what Jonah said it was: the belly of Sheol, the heart of the seas, brought up from the pit. Where the New Testament says Christ was between the cross and the empty tomb — Sheol, Hades, Abraham's side, paradise — what it says he achieved there, and, in its proper proportion, whether a Friday allows three nights.
 
     [:octicons-arrow-right-24: Read](three-days-and-three-nights.md)
 

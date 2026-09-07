@@ -108,6 +108,13 @@ claims:
       Rom 12:12; Col 4:2). That five cannot be expressed as SQL -- it is a judgement about context,
       not a lemma count -- so the total is what is machine-checked and the list is printed in the
       prose for a reader to check.
+  - id: katadioko-hapax
+    what: καταδιώκω is a New Testament hapax, at Mark 1:36
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='καταδιώκω'"
+    expect: 1
+    note: >
+      The study says it "occurs nowhere else in the New Testament" -- exactly the kind of
+      exhaustiveness claim validate-content.js check 18 exists to flag, so it is machine-checked.
   - id: deesis-domain
     what: 1 Tim 2:1's four nouns carry four distinct Louw-Nida domains
     sql: |
@@ -183,5 +190,353 @@ revision_2026-09-07b:
     same shape aimed at a real position.
     Acts 4:24's "Sovereign Lord" is untouched: it was already doing honest work in "How the apostles
     prayed" as an observation about how the church actually prayed, rather than as a rebuttal.
-  size: "472 words to ~4,200."
+  revision_2026-09-07d:
+    what: >
+      User: the term "periphrastic imperfect" was "useful - but a bit jargony without explanation";
+      then, mid-turn, "we also need to add that jesus often deliberately prayed alone".
+    glossed: >
+      Term kept and defined rather than dropped, since the user called it useful. Key Takeaways
+      bullet now glosses it inline ("the verb 'to be' plus a participle... the form Greek uses for
+      repeated or customary action") and links down to a new subsection, "Why that second row says
+      'would'", which explains the construction and then compares translations. This is the
+      unglossed-terms-of-art defect validate check 16 looks for, caught by the user rather than by
+      the checker -- check 16 only measures the study's opening.
+    translation_comparison_earned_its_place: >
+      The versions genuinely split, and the split is the reverse of what a reader would guess.
+      ESV keeps the customary sense with "would withdraw"; NIV, NKJV, CSB and BSB reach for an
+      adverb ("often/frequently withdrew"), same force. KJV, ASV and WEB flatten it to a simple past
+      and the habit disappears. YLT shows the underlying shape ("he was withdrawing... and was
+      praying") and is used as a cross-check only, per AGENTS.md. So the OLDER, more literal
+      translations are the ones that lose it here -- English has no bare past that carries what the
+      Greek imperfect carries.
+    solitude_section_added: >
+      "### He went to trouble to be alone". The point was previously only a table row and the user
+      was right that it needed its own treatment.
+      THE FIND: καταδιώκω at Mark 1:36 is a NT hapax meaning to track down or pursue closely -- the
+      disciples HUNTED Jesus down at prayer, and the ESV's "searched for him" is mild for it.
+      Also: Matt 14:23 uses two words for solitude in one sentence (by himself / alone); John 6:15
+      gives the motive at that same moment -- he withdrew to escape being made king, so solitude was
+      retreat from acclaim and not only from demand; Luke 9:18's κατὰ μόνας has him praying "alone"
+      while the disciples were with him; and Gethsemane separates in three stages, eight left
+      behind, three taken further, then "a little farther" and a stone's throw (Matt 26:36-39;
+      Luke 22:41). The location word is ἔρημος throughout -- somewhere he had to travel to, which
+      is what makes the solitude legible as a decision rather than a preference.
+  revision_2026-09-07e:
+    what: >
+      User asked for a usable pattern derived from the study -- "1) recognise God, 2) thank God
+      3)... to help us learn and get the right focus" -- then, mid-turn, for a suggested opening and
+      OT and NT examples per step, then for a diagram.
+    section_added: '"## A pattern to pray by", placed AFTER the alignment section so step 3 lands with the canon-wide argument already behind it, and before Attitude.'
+    the_shape: >
+      Six steps in two halves, which is the Lord's Prayer's own structure -- three God-ward
+      (recognise / thank / surrender) before a single request, then three us-ward (ask / intercede /
+      clear and be kept). Thanksgiving and intercession are placed where the rest of the NT puts
+      them rather than invented: Phil 4:6 and Col 4:2 both attach thanksgiving to asking, and
+      ἔντευξις is one of 1 Tim 2:1's four.
+      The closing note makes the pedagogy explicit: the ORDER is the teaching, and the shape scales
+      from twenty seconds to half an hour. "A spine, not a script -- Jesus said pray LIKE this."
+    per_step_examples: >
+      Each step carries a suggested opening (words to start with, not to keep) plus one OT and one
+      NT example. Chosen for fit rather than familiarity, and all verified in ESV:
+        1. 1 Chr 29:11 (David) and Neh 1:5 / Acts 4:24
+        2. Ps 103:1-2 -- a man telling himself to remember -- and Ps 100:4 / Eph 1:16
+        3. 1 Sam 3:10 and Dan 9:2-3 / Matt 26:39, Acts 21:14
+        4. Prov 30:8-9, which is the daily-bread petition in advance / Phil 4:6
+        5. 1 Sam 12:23, where Samuel calls NOT praying for people a sin, and Job 42:10, where Job is
+           restored when he prays for the friends who wronged him / Col 4:12
+        6. Ps 139:23-24 -- asking to be shown rather than reporting / 1 John 1:9
+    diagram: >
+      flowchart TD, two subgraphs (God-ward, then us-ward) each holding three stacked steps.
+      MEASURED 346px, renders at 100% in the ~563px column -- comfortably inside the diagrams.md
+      budget, unlike the two-track diagram in three-days-and-three-nights.md which sits at 573.
+      It earns its place as a MEMORY aid: the pattern is six steps meant to be recalled without
+      re-reading 1,500 words of prose, and the two-half structure is the whole teaching.
+  size: "472 words to ~6,000."
 last_updated: "2026-09-07"
+
+review_2026-09-07:
+  reviewer: "review-bible-study skill, full adversarial pass. NOTE: same agent that drafted the file in this session, which is the bias the skill's re-derive-don't-re-read rule exists to counter."
+  scope: >
+    Phases 1-8. 31 inline quotations and 7 block quotes re-queried against esv-study-bible rather
+    than re-read; every word claim re-derived from macula-greek-sblgnt; synthetic claims extracted
+    into a list away from the prose before checking; study_gaps; cross_study_claims on Matthew 6;
+    internal links resolved on disk; diagram re-measured.
+  critical_found: 0
+  moderate_found: 2
+  moderate_fixed: 2
+  minor_found: 8
+  minor_fixed: 8
+  findings:
+    - severity: moderate
+      what: >
+        THE ALIGNMENT TABLE'S HEADERS MISDESCRIBED TWO OF ITS EIGHT ROWS. Columns read "The
+        alignment | Then the acting". Proverbs 28:9 put "turns away his ear from hearing the law"
+        under ALIGNMENT -- that is misalignment -- and "even his prayer is an abomination" under
+        THE ACTING, which is God rejecting rather than acting. Psalm 66:18-19 quoted the
+        counterfactual in the left cell, so the actual alignment was never stated.
+      why_it_matters: >
+        Textbook Phase 4: every verse correctly quoted, the relation asserted between them false.
+        Both rows read as confirming evidence while pointing the other way.
+      fix: >
+        Headers changed to "The condition | What follows", which fits all eight. The two negative
+        rows split into a second table under a lead-in saying they state the same thing from the
+        other side, and the Psalm 66 row re-cut so the condition and consequence line up.
+    - severity: moderate
+      what: >
+        ACTS 4:24 IS ITSELF A SCRIPTURE QUOTATION AND THE STUDY NEVER SAID SO. study_gaps surfaced
+        Exodus 20:11 and Psalm 146:6 (both "who made heaven and earth, the sea, and all that is in
+        them") behind the church's opening address, plus Haggai 2:6/21.
+      why_it_matters: >
+        The study quotes Acts 4:24 twice and argues two sections later that Moses and Daniel "pray
+        God's own stated commitments back to him". Its own New Testament example was doing exactly
+        that and the study missed it -- an omission that weakened the argument it was making.
+      fix: "Added to the apostles section, naming both Old Testament sources."
+    - severity: minor
+      what: 'Acts 2:42 quoted as devoted "to the prayers"; ESV reads "to the breaking of bread and the prayers", so those three words are not contiguous.'
+      fix: 'Quotation re-cut to "the breaking of bread and the prayers".'
+    - severity: minor
+      what: '"which is worth knowing before building a practice on it" -- a worth___ filler that npm run validate did not catch. See tooling finding below.'
+      fix: "Cut, and the surrounding sentence rewritten to hedge the exhaustiveness claim at the same time."
+    - severity: minor
+      what: >
+        Three unchecked quantifiers in the study's own voice: "most prayers in the Epistles are
+        addressed to the Father"; intercession as "the step most often skipped"; "the one Paul
+        spends most of his own recorded praying on".
+      fix: >
+        First replaced with a checkable statement about Paul's own recorded prayers; second cut as
+        an unverifiable assertion about readers; third replaced with the four references it rests on
+        (Eph 1:16-19; 3:14-19; Phil 1:9-11; Col 1:9-10), all confirmed intercessory.
+    - severity: minor
+      what: '"worded in the plural throughout" overstated -- three petitions contain no first-person pronoun at all.'
+      fix: 'Reworded to "every first-person word is plural", which is the actual claim.'
+    - severity: minor
+      what: '"There is no New Testament example of prayer directed to the Spirit" stated flatly, though the state file already recorded it as an argument from silence.'
+      fix: "Prose now says so, and gives the consequence rather than implying a prohibition."
+    - severity: minor
+      what: >
+        Register: "the anxiety is misplaced -- the New Testament is relaxed here in a way that later
+        argument about it often is not" (reader-reassurance plus a swipe at unnamed opponents), and
+        "the details are unglamorous" (grader adjective).
+      fix: "First sentence cut entirely; the practical answer stands without it. Second cut."
+    - severity: minor
+      what: "No discussion question touches the deliberate-solitude section. NOT FIXED -- outside the recommended set; left as a known gap."
+    - severity: minor
+      what: "Em-dash density, 75 in ~6,000 words. NOT FIXED -- reported for the author's judgement rather than mechanically thinned."
+  tooling_finding: >
+    CHECK 10 IN validate-content.js WAS EFFECTIVELY DEAD. Its generic arm was anchored to
+    "it('s| is) worth <verb>ing", so it saw nothing whose subject was not the word "it", and
+    "knowing" was absent from its fixed word list -- which is how "which is worth knowing" sat in a
+    published file unflagged. Baseline across the whole corpus was ZERO hits.
+    Widened the subject slot to it/this/that/which/there plus a bare "is/are/was/were worth
+    <verb>ing". Corpus now reports 24 hits across a dozen files, inspected and all genuine
+    instances of the template rather than false positives -- e.g. "which is worth holding",
+    "this is worth correcting", "is worth pausing", "are worth following". Left as warnings for the
+    author to decide per hit, which is what the check's own comment says it is for; the other 24 are
+    NOT fixed here, since they belong to other studies.
+  clean:
+    - "Phase 1: all quotations verbatim apart from the Acts 2:42 boundary above."
+    - "Phase 2: all 7 internal links resolve on disk; no Hebrew in the file, so no bold-wrap risk."
+    - >
+      Phase 3: προσκαρτερέω 10 with the five prayer contexts correct (Acts 1:14; 2:42; 6:4;
+      Rom 12:12; Col 4:2); καταδιώκω a genuine NT hapax; ἔρημος present at all three cited verses;
+      Matt 14:23 does carry two distinct solitude words (κατ᾽ ἰδίαν and μόνος); Luke 9:18 κατὰ μόνας
+      confirmed; 1 Tim 2:1's four distinct Louw-Nida domains confirmed.
+    - >
+      Phase 5: the ESV Study Bible on Col 4:2 -- a commentary the study did not cite -- CONFIRMS the
+      central thanksgiving argument almost verbatim ("Thanksgiving leavens prayer, so that it does
+      not become merely a selfish pleading to have one's desires fulfilled") and independently cites
+      James 4:1-3, the same paragraph the study leans on. NIV BTSB confirms the προσκαρτερέω link to
+      Acts 1:14 and 2:42. No contradictions.
+    - "Phase 6 q7: no statement-of-faith conflict; removing the sovereignty polemic on 2026-09-07c resolved it."
+    - "Sibling check: no contradiction with lords-prayer.md on Matthew 6 -- complementary, which confirms the scope boundary set at drafting."
+    - "Phase 7: placement correct; all eight topic tags in live corpus vocabulary; frontmatter and provenance current."
+    - "Phase 8: diagram re-measured at 346px, renders 100%. Discussion questions cover all five facets."
+  last_updated: "2026-09-07"
+
+revision_2026-09-07f:
+  what: >
+    User asked to expand on how God answers prayer -- Jesus and Paul always having answers, the mode
+    usually unrecorded, the answer often already present but unrecognised, Abraham's servant
+    answered before he finished, and the prayers of the saints as incense in Revelation.
+  section_added: '"## How God answers", placed between "What prayer permits God to do" and "A pattern to pray by" -- both are about God''s side of the exchange.'
+  four_patterns_the_texts_show:
+    - >
+      ALREADY ON THE WAY BEFORE THE PRAYER ENDS. Isa 65:24 states it; Gen 24:15 shows it, and the
+      user was right that it is an excellent example -- Genesis reports the timing TWICE, once by
+      the narrator and once in the servant's own retelling at 24:45, where he adds "in my heart",
+      so the prayer was silent and already being answered. Dan 9:23 is sharper still: "At the
+      BEGINNING of your pleas for mercy a word went out" -- not at the end.
+    - >
+      HEARD IS NOT THE SAME AS DELIVERED. Dan 10:12-13 is the guard that stops the above becoming a
+      promise of speed: heard "from the first day", messenger withstood twenty-one days. Daniel
+      spent three weeks with no evidence, and something had happened immediately. Included
+      deliberately -- without it the section would read as a guarantee of quick results.
+    - >
+      THE MODE IS RARELY SPECIFIED. Where Scripture does say, the routes differ wildly: an angel
+      dispatched (Dan 9:21), a person arriving at the right moment (Gen 24:15), an audible voice
+      (John 12:28), a refusal with a reason (2 Cor 12:9), a door closed and another opened
+      (Acts 16:6-10). Gethsemane was answered no and Heb 5:7 still says he "was heard".
+    - >
+      THE ANSWER CAN BE MISSED WHILE IT IS HAPPENING, and there are two memorable cases. John
+      12:28-29: God answers AUDIBLY and the crowd says it thundered -- an answer in words, taken for
+      weather. Acts 12:14-16: the church praying through the night for Peter tells Rhoda she is out
+      of her mind while Peter keeps knocking. They had prayed for exactly this (12:5). Both directly
+      serve the user's point that the answer is often right there unrecognised.
+  jesus_and_paul: >
+    John 11:41-42 is the anchor -- "I knew that you ALWAYS hear me", said BEFORE Lazarus comes out,
+    so it is not confidence produced by the result. Paul's case is the counterweight: 2 Cor 12:8-9,
+    where the answer is a clear no with a reason, which is still an answer.
+  incense_arc: >
+    Ps 141:2 asks that prayer be "counted as incense"; Rev 5:8 shows it granted -- golden bowls of
+    incense "WHICH ARE the prayers of the saints", so prayers are collected rather than spent on
+    delivery. Then Rev 8:3-5: the same censer that carried them up is filled with fire from the
+    altar and thrown to earth, and the trumpets follow.
+    CHECKED BEFORE CLAIMING IT, given the review a few hours earlier. The ESV Study Bible titles the
+    passage "The Saints' Prayers, and Fire Flung to Earth" and states outright that "fiery
+    devastation descends from God's altar in response to his people's pleas"; both Cultural
+    Backgrounds volumes link 8:3 to Ps 141:2 and to the martyrs' vindication at 6:9-11. So the arc
+    is the commentators' reading too, not an inference of this study's own.
+    The pastoral payoff, and the reason the section closes there: on this picture no prayer is lost,
+    and some are being KEPT rather than declined -- answered on a timetable that runs past the end
+    of the life that prayed them.
+  caught_by_the_widened_check: >
+    The Check 10 regex widened during the same session immediately flagged "it is worth setting out
+    what the texts actually show" in this new section, written within the hour. Cut. (That
+    particular instance would have matched the old regex too, so it is not evidence the widening
+    works -- it is evidence the check earns its place at all.)
+  frontmatter: 'bible_references +14; tags gained "revelation" and "daniel".'
+  size: "~6,000 words to ~7,400."
+  last_updated: "2026-09-07"
+
+revision_2026-09-07g:
+  what: >
+    User: "do we discuss prayer is an attitude first, then habit? ... it is how we view communion and
+    relationship with God, as daily bread. not a chore a joy. then the habit is easy."
+  the_drift_they_caught: >
+    A real structural problem, and one this session introduced. The file is named
+    prayer-as-communion.md and its pre-rewrite description was "prayer as communion with God and our
+    identity as His children". The 2026-09-07 rewrite retitled it "The Continual Discipline", opened
+    on προσκαρτερέω, and originally said "that is the vocabulary of a practice kept, NOT A MOOD
+    CAUGHT" -- setting discipline against affection in a way the New Testament does not. The user had
+    already softened that line by hand before raising it. The Attitude section, the only place
+    disposition was treated, sat near the END, after the pattern.
+    So the study had drifted from communion-first to discipline-first, and the slug was left
+    pointing at the older, better centre.
+  section_added: >
+    "## Communion before discipline", placed FIRST among the body sections -- immediately after Key
+    Takeaways, before "Who am I praying to?" -- because on the user's reading it is the foundation
+    the rest stands on.
+  the_theological_anchor: >
+    Rom 8:15-16 and Gal 4:6-7. The "Abba! Father!" cry is PRODUCED by the Spirit of adoption -- "by
+    whom we cry" -- not manufactured by effort. And Galatians draws the conclusion in exactly the
+    user's terms: "no longer a SLAVE, but a SON". Slave and son is the difference between prayer as
+    chore and prayer as relationship; a slave prays because he must and stops when he can.
+  supporting: >
+    The Psalms as appetite rather than obligation (42:1-2; 63:1; 27:4; 73:25 -- "there is nothing on
+    earth that I desire besides you"); Matt 11:28-30, where Jesus offers REST rather than another
+    load, so prayer that feels like one more thing being failed at is filed under the wrong yoke;
+    Luke 10:41-42, where the correction to anxious Martha is not to serve harder but that "one thing
+    is necessary"; and Ps 16:11 as the motive Scripture actually supplies.
+    DAILY BREAD REFRAMED, per the user's own phrasing: not a ration grudgingly issued but a child
+    asking a father for today's food -- the most ordinary thing in a household, and the reason
+    Jesus put it in the model prayer at all.
+  the_honest_counterweight: >
+    The section does not end on "get the attitude right and the habit is easy", because the study's
+    own προσκαρτερέω evidence and its solitude section both cut the other way. It closes: appetite
+    makes a habit sustainable, and the habit is what carries you across the stretches where appetite
+    fails. Jesus got up before dawn and walked out of town -- "that is not what a feeling does. It is
+    what a love does when it is inconvenient, which is also the point at which love and discipline
+    stop being distinguishable." Both directions are true and Scripture holds both.
+  also: 'Key Takeaways "Think" bullet extended to carry the given-not-manufactured point with Rom 8:15.'
+  title_changed: >
+    Raised with the user and approved: "Prayer: The Continual Discipline" -> "Prayer: Communion and
+    the Habit It Sustains", which states the study's actual order rather than only its second half.
+    Description rewritten to match, leading on relationship rather than practice.
+    NO RENAME NEEDED, and this is the neat part: the slug prayer-as-communion.md was left over from
+    the original 2024 notes and had been at odds with the retitle. The new title agrees with it, so
+    the URL stays stable and no mkdocs-redirects entry is required.
+    commentary_index.py and section_index.py both re-run -- the old title was embedded in 10+
+    generated cross-reference pages and the christian-life section card.
+  frontmatter: 'bible_references +10; tags gained "galatians" and "psalms".'
+  size: "~7,100 words to ~7,800."
+  last_updated: "2026-09-07"
+
+review_2026-09-07b:
+  reviewer: "review-bible-study, second pass, after the file grew ~1,700 words in two new sections and was retitled."
+  major_found: 1
+  moderate_found: 1
+  minor_found: 3
+  all_fixed: true
+  findings:
+    - severity: major
+      what: >
+        Exodus 20:11 and Psalm 146:6 were cited in prose -- added when fixing the first review's
+        Acts 4:24 finding -- and never added to bible_references, so commentary_index.py
+        under-reported the study on both chapters and study_gaps still listed them as gaps.
+      fix: "Added, with Psalm 2, which the prose also names."
+      note: "Exactly the Phase 7 failure mode: invisible from the page, wrong on someone else's."
+    - severity: moderate
+      what: >
+        DISCUSSION QUESTIONS WENT STALE AGAIN, one day after the staleness rule was codified, and in
+        the sharper form the rule predicts. All five facets were still covered so nothing looked
+        wrong, but three substantial sections had no question -- How God answers, Communion before
+        discipline, and deliberate solitude -- and Q1 had begun ARGUING WITH THE STUDY: it asked
+        what changes if prayer is "a thing you persist in rather than a thing you feel moved to",
+        which is precisely the either/or the new opening section exists to correct.
+      fix: >
+        Q1 recast to hold both (given affection and stubborn habit, "which one have you been trying
+        to manufacture?"); Q3 moved from Gethsemane to the solitude material; Q4 moved from Ps 37:4
+        to the answered-before-he-finished pair (Gen 24:15 against Dan 10:12-13, "how should either
+        change the way you read a silence?"). Six questions kept.
+    - severity: minor
+      what: "Pronoun inconsistency for God -- 8 lowercase against 3 capitalised, the capitals from the user's hand edits."
+      fix: "Lowercased to match the file's prevailing ESV-style convention."
+    - severity: minor
+      what: "Four prose lines over 105 chars where the file wraps at ~100 (the rest were tables, mermaid, or Greek inflating awk's byte count)."
+      fix: "Rewrapped."
+    - severity: minor
+      what: 'Typo in a hand edit: "He prayed the Fathers will be done" -- missing apostrophe.'
+      fix: '"the Father''s will".'
+  structural_pass_requested_by_user: >
+    "read end to end for structure and make sure the communion aspect comes out appropriately."
+    IT DID NOT, and the measurement is what showed it. Counting communion/relationship language by
+    section found it concentrated in its own section (16 hits) and ABSENT from "How Jesus prayed"
+    and "What to pray about" -- so communion was a section, not a thread, in a study now titled
+    "Communion and the Habit It Sustains".
+    Worse, THE HOOK CONTRADICTED THE SECTION 550 WORDS LATER. It opened "the New Testament's usual
+    word for how the church prayed is NOT A WORD ABOUT FEELING", and the communion section then
+    established that Scripture's own register for prayer is thirst, appetite and joy. The title
+    promised communion first and the opening delivered stubbornness.
+  structural_fixes:
+    - >
+      Hook rewritten to lead with the relationship -- "Prayer in the New Testament is a child
+      speaking to a father... the Spirit PRODUCES that cry rather than the believer working it up"
+      -- and to introduce προσκαρτερέω as what the relationship produces rather than as its
+      correction. The user's own sentence ("the vocabulary of a healthy habit, not something done as
+      a side thought or option") is preserved. The stale contents list, which predated two sections,
+      now names them and states the order: "Communion first, then the habit it sustains".
+    - >
+      "How Jesus prayed" gained the missing half: the solitude sections described what it COST and
+      never said what he went FOR. Added -- he was not withdrawing because he found people tiring,
+      he went to be with his Father, and John 17 is the one long record of what that sounded like.
+    - '"What to pray about" gained one sentence: Phil 4:6''s "in everything" is a permission granted on the strength of the relationship, not a subject list.'
+    - >
+      Attitude bullet 1 had become a thin restatement of a whole section written after it. Recast to
+      cross-link the communion section and add a practical test instead ("whether you pray
+      differently after a bad week -- a suppliant would; a child would not").
+  measured_after: "Communion language now appears in every section but none is a token; the two that had zero now have two each."
+  em_dashes_fixed_2026_09_07: >
+    Reported twice and then actioned on the user's instruction. 88 -> 46, of which 12 are inside
+    Scripture quotations and 3 are table cells, so PROSE went from ~73 to ~31 in 8,000 words --
+    roughly one per 260 words, from one per 90.
+    Done as 41 explicit hand-checked replacements rather than a regex sweep, because the dashes were
+    not uniformly wrong: PAIRED dashes acting as parentheses are legitimate and were left alone. The
+    tic was the SINGLE dash used as a general-purpose joint, and overwhelmingly one construction --
+    "X — and Y", which reads better as a comma, a colon or a full stop. Three lines had to be
+    rewrapped afterwards where joins pushed them over the file's ~100-char wrap, and one item in a
+    semicolon-separated list was re-cut to parentheses to match its neighbours.
+  agent_note: >
+    The widened Check 10 caught the reviewer's own "worth ___" filler THREE times in this session,
+    each within an hour of writing it. That is a habit of this model rather than a one-off, and it
+    is the argument for the check existing at all.
+  last_updated: "2026-09-07"

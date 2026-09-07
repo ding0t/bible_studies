@@ -20,7 +20,7 @@ draft: false
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 1:15-20
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 1:13
 - [Philip](../../biblical-figures/philip.md) — 1:13
-- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 1:14
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:14
 - [Simon the Zealot](../../biblical-figures/simon-the-zealot.md) — 1:13
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 1:13
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:9-11

@@ -19,7 +19,7 @@ draft: false
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 6:16
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 6:15
 - [Philip](../../biblical-figures/philip.md) — 6:14
-- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 6:12
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 6:12
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 6:16
 - [Thomas](../../biblical-figures/thomas.md) — 6:15
 <!-- commentary-index:auto-end -->

@@ -13,5 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 5:11-13 (primary passage)
-- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 5:14-15
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 5:14-15
 <!-- commentary-index:auto-end -->

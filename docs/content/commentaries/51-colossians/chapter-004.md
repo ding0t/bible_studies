@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 4:2 (primary passage)
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:2 (primary passage)
 <!-- commentary-index:auto-end -->

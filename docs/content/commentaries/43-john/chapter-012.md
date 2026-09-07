@@ -16,5 +16,6 @@ draft: false
 - [Andrew](../../biblical-figures/andrew.md) — 12:20-22
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 12:32-34
 - [Philip](../../biblical-figures/philip.md) — 12:20-22
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 12:28-29
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 12:20-22
 <!-- commentary-index:auto-end -->

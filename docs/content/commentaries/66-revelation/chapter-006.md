@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 6:9-11
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 6:9-11
 <!-- commentary-index:auto-end -->

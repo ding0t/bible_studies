@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 15:7
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 15:7
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 15:16
 <!-- commentary-index:auto-end -->

@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 16:23-24
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 16:23-24
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 16:30
 <!-- commentary-index:auto-end -->

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 42:1-6
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 42:10
 <!-- commentary-index:auto-end -->

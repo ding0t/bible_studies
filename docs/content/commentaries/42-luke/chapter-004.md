@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 4:18-19
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:42
 <!-- commentary-index:auto-end -->

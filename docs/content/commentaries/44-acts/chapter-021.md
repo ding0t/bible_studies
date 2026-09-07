@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Philip](../../biblical-figures/philip.md) — 21:8
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 21:14
 <!-- commentary-index:auto-end -->

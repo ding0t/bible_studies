@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 6:4
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 6:4
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 6:20
 <!-- commentary-index:auto-end -->

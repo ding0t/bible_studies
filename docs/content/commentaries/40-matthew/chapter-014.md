@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 14:13-21 (primary passage)
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 14:23
 - [Simon Peter](../../biblical-figures/peter.md) — 14:28-31
 <!-- commentary-index:auto-end -->

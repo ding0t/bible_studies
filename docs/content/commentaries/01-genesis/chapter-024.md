@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 24:15
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 24:10-27
 <!-- commentary-index:auto-end -->

@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 29:10-11
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 29:11
 <!-- commentary-index:auto-end -->

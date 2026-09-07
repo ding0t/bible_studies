@@ -14,6 +14,6 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 26:26-29 (primary passage)
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 26:14-16 (primary passage)
-- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 26:39-42
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 26:36-39
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 26:29
 <!-- commentary-index:auto-end -->

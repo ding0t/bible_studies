@@ -14,5 +14,5 @@ draft: false
 
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 11:2-4 (primary passage)
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 11:3
-- [Prayer: The Continual Discipline](../../christian-life/prayer-as-communion.md) — 11:1-13
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 11:1-13
 <!-- commentary-index:auto-end -->
