@@ -15,5 +15,6 @@ draft: false
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 20:8-11
 - [Biblical Numerology](../../scripture/numerology.md) — 20:1-17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 20:11
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 20:11
 - [The Day Is Near](../../last-things/day-is-near.md) — 20:11
 <!-- commentary-index:auto-end -->

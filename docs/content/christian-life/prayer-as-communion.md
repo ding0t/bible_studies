@@ -76,9 +76,10 @@ prototyping — see that page for what each part is for and why.)*
   already opened. If you pray as though you must first get his attention, the problem is not your
   technique but your picture of him, and the picture comes first. The willingness to pray is given
   ("the Spirit of adoption as sons, by whom we cry, 'Abba! Father!'", Romans 8:15), not manufactured.
-- **Attitude.** Prayer is not a shopping list of needs. "Your Father knows what you need before you
-  ask him" (Matthew 6:8), and Jesus says that as a reason *to* pray, not a reason to skip it.
-  Prayer is not briefing God.
+- **Attitude.** Approach prayer as a relationship: He is your personal Father. His will is always
+  wiser and better than ours, and He offers His own strength for what it asks of us. "Your Father
+  knows what you need before you ask him" (Matthew 6:8), and Jesus says that as a reason *to* pray,
+  not a reason to skip it. Prayer is not briefing God, and not a shopping list of needs.
 - **Do.** Develop the habit: pray as you walk, and before a meeting. Thank God for who he is and
   what he has done. Pray for strength. Fix a time and a place rather than waiting to feel like it.
   Daniel had a window and three set hours (Daniel 6:10); Jesus had a desolate place before dawn
@@ -86,12 +87,21 @@ prototyping — see that page for what each part is for and why.)*
 
 ### Prayer
 
-Father, thank you that the way to you is open, and that it cost your Son to open it. Forgive me for
-treating prayer as the thing I do when I have run out of other options.
+*(Prayed through the six movements this study arrives at — see
+[A pattern to pray by](#a-pattern-to-pray-by).)*
 
-Teach me to keep at it, not because you are reluctant, but because you have made this the way a
-child speaks to his Father. Make me steady where I have been sporadic, and give me more appetite for
-you than for the answers I came for. Amen.
+Father, you are holy. Thank you for restoring my broken relatinship with you your Son to open it.
+
+Thank you for that, and for the answers you have already given that I did not recognise at the time.
+
+Have your way in me. Where my asking is really instruction, correct it; I would rather want what you
+want than get what I came for.
+
+Give me what today needs, and make me steady where I have been sporadic. For the people you have put
+in front of me, and the ones whose names I keep meaning to bring: let them know you better.
+
+Forgive me for treating prayer as the thing I do when the other options have run out, and make me
+quick to forgive where I have been slow. Keep me tomorrow; I will not manage it on my own. Amen.
 
 ## Communion before discipline
 
