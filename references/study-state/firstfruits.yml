@@ -1,0 +1,190 @@
+slug: firstfruits
+title: "Firstfruits: The Sheaf Waved on the Third Day"
+status: draft
+target_path: docs/content/feasts/firstfruits.md
+
+primary_passage: "Leviticus 23:9-14"
+supporting_passages: ["1 Corinthians 15:20-23", "Joshua 5:10-12", "Leviticus 23:15-16", "Romans 8:23"]
+genre: [law, epistle, narrative]
+
+origin: >
+  User request, immediately after the 2026-09-07 rewrite of three-days-and-three-nights.md: "draft
+  the firstfruits study under feasts/ specifically you can imagine tying into the resurrection and
+  jesus". It was already a standing gap -- three-days-and-three-nights.md says outright "This site
+  has no study on Firstfruits yet -- it is an open item -- so the point is made here rather than
+  cross-referenced", and backlog.md section 6.2 lists it unchecked.
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Filed in feasts/ per placement-and-tags.md ("Appointed times"). trumpets.md is the only
+      existing single-feast study and uses the OLD pre-Key-Takeaways structure (Overview /
+      Historical context / Literary context / ...), so this one follows the CURRENT skill Phase 7
+      structure instead, matching three-days-and-three-nights.md. Not a reason to rewrite
+      trumpets.md, but worth knowing the section is now mixed.
+  exegesis:
+    content_word_studies:
+      done: true
+      notes: >
+        Every form below read off macula-hebrew-wlc / lxx-lemmas / macula-greek-sblgnt at the verse,
+        not recalled.
+        Lev 23:10 Hebrew: עֹמֶר רֵאשִׁית קְצִירְכֶם -- "the sheaf of the first of your harvest".
+        Lev 23:11 verb: נוּף (nuph) hiphil, "wave/elevate", twice in the verse.
+        LXX Lev 23:10 renders עֹמֶר רֵאשִׁית as δράγμα ἀπαρχήν -- and ἀπαρχή is EXACTLY the word
+        Paul applies to Christ at 1 Cor 15:20, 23. That is a verbal link from the feast text to
+        Paul's claim, not an inferred one.
+        ἀπαρχή in the NT: 9 occurrences -- Rom 8:23; 11:16; 16:5; 1 Cor 15:20, 23; 16:15;
+        2 Thess 2:13; Jas 1:18; Rev 14:4.
+      terms:
+        - {word: "עֹמֶר", language: hebrew, transliteration: "omer", strongs_id: "H6016", gloss: "sheaf", notes: "a bundle of stalks holdable in one hand (NIV BTSB at 23:11)"}
+        - {word: "רֵאשִׁית", language: hebrew, transliteration: "reshith", strongs_id: "H7225", gloss: "first, beginning, choicest"}
+        - {word: "נוּף", language: hebrew, transliteration: "nuph", strongs_id: "H5130", gloss: "to wave, elevate", notes: "hiphil; the tenuphah ritual -- lifted toward heaven, then lowered into the priest's hands (NKJV CBSB at Lev 7:30)"}
+        - {word: "ἀπαρχή", language: greek, transliteration: "aparchē", strongs_id: "G536", gloss: "firstfruits", notes: "LXX's word at Lev 23:10; Paul's word for Christ at 1 Cor 15:20, 23; LN domain 61.8"}
+  hermeneutics:
+    theological_principle:
+      done: true
+      notes: >
+        The sheaf is not a sample sent ahead of a harvest that might fail -- it is the legal act
+        that RELEASES the harvest. Lev 23:14 forbids eating any of the crop until the sheaf is
+        waved. So "Christ the firstfruits" is not merely "first in sequence" or "a foretaste"; it
+        is the offering without which the rest of the harvest stays in the field. That is a
+        stronger reading of 1 Cor 15:20-23 than the commentaries' "foretaste/sample" gloss, and it
+        comes straight from the statute's own prohibition.
+  cross_reference:
+    done: true
+    translations_compared: ["ESV", "JPS", "ASV", "BSB", "Brenton LXX", "Samaritan Pentateuch"]
+    divergences_noted: >
+      THE MAIN FIND -- see disputed_date below. The LXX renders the identical Hebrew phrase two
+      different ways five verses apart.
+  drafting:
+    done: true
+    file: docs/content/feasts/firstfruits.md
+  review:
+    done: false
+    validated: true
+
+disputed_date: >
+  "On the day after the Sabbath" (Lev 23:11) is the whole question, because it decides whether
+  Firstfruits is always a Sunday or always Nisan 16.
+  TEXTUALLY THERE IS NO VARIANT. Hebrew MT has מִמָּחֳרַת הַשַּׁבָּת at both 23:11 and 23:15; the
+  Samaritan Pentateuch (scrollmapper-SP) reads identically at both; 4Q24 attests 23:11 including
+  ממחרת השבת. So the dispute is interpretive, not text-critical, and any study claiming a variant
+  is wrong.
+  THE LXX IS INTERNALLY INCONSISTENT, AND THAT IS THE FIND. Brenton's Septuagint at 23:11 reads
+  τῇ ἐπαύριον τῆς πρώτης -- "on the morrow of THE FIRST", i.e. the day after the first day of
+  Unleavened Bread (Nisan 15), which is the later Pharisaic reading. But at 23:15, translating the
+  SAME Hebrew phrase, it reads ἀπὸ τῆς ἐπαύριον τῶν σαββάτων -- "from the morrow of THE SABBATHS".
+  The Greek translators rendered one phrase two ways within five verses. The ambiguity is therefore
+  pre-Christian and was never resolved by the tradition that produced the Greek Old Testament.
+  Verified against ebible-grcbrent, not against the lemma table alone.
+
+ad33_convergence: >
+  THE TIE-IN THE USER ASKED FOR, and it is better than either reading winning.
+  On chronology-anchors.md's AD 33 reconstruction Nisan 14 is Friday 3 April. So Nisan 15 (the
+  first day of Unleavened Bread, a rest day) IS the weekly Sabbath that year, and Nisan 16 is the
+  Sunday. Run both readings:
+    - Pharisaic (hashabbat = Nisan 15, the festival rest day): sheaf waved Nisan 16 = Sunday.
+    - Sadducean/Samaritan (hashabbat = the weekly Sabbath): the weekly Sabbath in that week is
+      Nisan 15, so the morrow is Nisan 16 = Sunday.
+  BOTH LAND ON THE SAME DAY. The dispute that divides the calendar in every other year collapses
+  in the crucifixion year, because Nisan 15 fell on the Sabbath. So the resurrection falls on
+  Firstfruits on EITHER reckoning, and the study does not have to adjudicate a dispute the sources
+  never settled. This is the load-bearing observation of the study.
+
+open_questions:
+  - >
+    The study does not decide the Pharisee/Sadducee question and says so. It cannot be decided from
+    the Hebrew, and the LXX witnesses against itself. Stated as a genuine ambiguity rather than
+    quietly resolved in favour of the Sunday reading -- which is the reading the typology would
+    prefer, and therefore exactly the one to be careful about.
+  - >
+    The ESV Study Bible's own festal chart dates Firstfruits to "16th of first month (Abib)" --
+    i.e. it adopts the Pharisaic reckoning outright, without flagging the dispute. Worth knowing
+    that three-days-and-three-nights.md's "on this reckoning it falls on the appointed day for the
+    offering it fulfils" is leaning on a reading its own cited commentary does not share. The AD 33
+    convergence above is what rescues that sentence, and this study supplies it.
+  - >
+    Whether the sheaf was cut on the evening of Nisan 15 and waved on the morning of Nisan 16 is a
+    Mishnaic detail (m. Menahot 10) not in the biblical text. The study stays with what Leviticus
+    says and does not reconstruct the temple ceremony from later rabbinic sources it cannot verify
+    from the corpus here.
+  - >
+    ROOT-FALLACY RISK AVOIDED. רֵאשִׁית at Lev 23:10 is the same lemma as Genesis 1:1's
+    בְּרֵאשִׁית, and it is tempting to make a new-creation link of it. It is a common noun and the
+    connection is not marked by anything in either text, so the study does not make the claim. Noted
+    here so a later pass does not "discover" it.
+
+resources_consulted:
+  - {type: other, title: "MACULA Hebrew Linguistic Datasets (WLC)", note: "omer, reshith, nuph at Lev 23:10-11"}
+  - {type: other, title: "Brenton Septuagint (Greek)", note: "THE find -- τῆς πρώτης at 23:11 against τῶν σαββάτων at 23:15"}
+  - {type: other, title: "Samaritan Pentateuch", note: "reads with MT at both verses; confirms the dispute is interpretive, not textual"}
+  - {type: other, title: "Dead Sea Scrolls 4Q24 (Leviticus)", note: "attests 23:10-11 including omer reshith and mimmochorath hashabbat"}
+  - {type: commentary, title: "ESV Study Bible", note: "CONFIRMS the aparche/foretaste reading of 1 Cor 15:20 and lists the Lev 23:10 link; but its festal chart dates Firstfruits to Nisan 16 without flagging the dispute -- cited for both"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "CONTRIBUTED the sheaf definition and, at Lev 23:11, an explicit statement that the phrase is ambiguous and 'the ambiguity may be intentional'"}
+  - {type: commentary, title: "NIV/NKJV Cultural Backgrounds Study Bible", note: "CONTRIBUTED the barley-not-wheat point, the tenuphah ritual mechanics at Lev 7:30, and the Josh 5:10-11 barley-harvest timing"}
+  - {type: commentary, title: "CSB Ancient Faith Study Bible", note: "footnote at Lev 23:10 identifying the crop as barley"}
+
+claims:
+  - id: aparche-count
+    what: ἀπαρχή occurrences in the NT
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='ἀπαρχή'"
+    expect: 9
+  - id: aparche-in-1cor15
+    what: ἀπαρχή in 1 Corinthians 15, both of Christ
+    sql: |
+      SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt'
+        AND lemma='ἀπαρχή' AND book='1Cor' AND chapter=15
+    expect: 2
+  - id: nuph-in-lev-23-11
+    what: נוּף occurs twice in Leviticus 23:11
+    sql: |
+      SELECT COUNT(*) FROM morphology WHERE work_id='macula-hebrew-wlc'
+        AND lemma='נוּף' AND book='Lev' AND chapter=23 AND verse=11
+    expect: 2
+  - id: lxx-lev-23-11-not-sabbath
+    what: >
+      Brenton LXX Lev 23:11 contains πρώτης and does NOT contain σαββ- ; the study's central
+      textual claim. Returns 1 when both hold.
+    sql: |
+      SELECT COUNT(*) FROM verses WHERE work_id='ebible-grcbrent'
+        AND book='Lev' AND chapter=23 AND verse=11
+        AND text LIKE '%πρώτης%' AND text NOT LIKE '%σαββ%'
+    expect: 1
+  - id: lxx-lev-23-15-is-sabbath
+    what: >
+      Brenton LXX Lev 23:15 DOES contain σαββάτων, translating the same Hebrew phrase the other
+      way. The pair of these two claims is the study's find.
+    sql: |
+      SELECT COUNT(*) FROM verses WHERE work_id='ebible-grcbrent'
+        AND book='Lev' AND chapter=23 AND verse=15
+        AND text LIKE '%σαββάτων%'
+    expect: 1
+
+corrections_during_drafting:
+  - >
+    ZADOK CALENDAR CLAIM WAS WRONG AND WAS CAUGHT BEFORE PUBLISHING. The draft's Related-links line
+    said Firstfruits "always falls on a fixed Sunday" on the 364-day calendar. Checked against
+    zadok-calendar.md rather than left as written: 1 Nisan is always a WEDNESDAY there, and with
+    30-day months that puts Nisan 15 on a Wednesday and Nisan 16 on a THURSDAY. The weekly-Sabbath
+    reading gives Nisan 19, a Sunday. So the calendar fixes the weekday by construction but does not
+    by itself produce a Sunday -- which reading is taken still decides it. Line rewritten to say
+    exactly that.
+
+last_updated: "2026-09-07"
+
+revision_2026-09-07b:
+  what: "Discussion questions rebuilt against the new discussion-questions.md facet table."
+  what_the_table_caught: >
+    The draft had NO language question, despite the study running word studies on ἀπαρχή, עֹמֶר and
+    נוּף -- the ἀπαρχή link being the study's single strongest find. A fresh draft written the same
+    day by the same agent, and the gap was invisible until the facets were laid out. Good evidence
+    the table earns its place rather than restating what a careful writer would do anyway.
+    Also fixed: Q2 was two questions joined by "and" ("what should a reader do... and is resolving
+    it always the goal?"), and its second half drifted toward method rather than the text.
+  now: >
+    Six questions, facet-labelled: language (why Paul reaches for the offering's technical noun),
+    context (Lev 23:14's untouchable field), deeper in Scripture (Joshua 5 and the manna),
+    the hard part (a text whose own earliest translators disagreed), prophecy/Christ (1 Cor 15
+    standing or falling together), be transformed (the order of giving).
+  last_updated: "2026-09-07"
