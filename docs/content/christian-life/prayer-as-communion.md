@@ -667,8 +667,22 @@ flowchart TD
 
 ### Toward him, before anything is asked
 
-**1. Recognise who you are speaking to.** *"Our Father in heaven, hallowed be your name."* Two things
-at once, correcting opposite errors: he is a **Father**, so you come as a child rather than as a
+These three have one job: to get your eyes onto God before you look at yourself. They are the
+practice built on [Communion before discipline](#communion-before-discipline) and on
+[what prayer permits God to do](#what-prayer-permits-god-to-do); if a step here looks arbitrary, the
+argument for it is in those two sections. They are not a
+warm-up to the real prayer; they are the attitude the rest of it is prayed in — God named for who he
+is, thanked for what he has already done, and his will put ahead of yours while you still have the
+option of preferring your own.
+
+Psalm 37:4 is the same order in miniature. "Delight yourself in the LORD, and he will give you the
+desires of your heart" — delight *first*, and the desires are reshaped by the delighting. That order
+is the reverse of instinct, which is the whole reason it works on you: go through these three and the
+asking that follows comes out different, because you do.
+
+**1. Recognise who you are speaking to.** *"Our Father in heaven, hallowed be your name."*
+([Who am I praying to?](#who-am-i-praying-to) works out the Father/Son/Spirit shape and what opened
+the access.) Two things at once, correcting opposite errors: he is a **Father**, so you come as a child rather than as a
 petitioner trying to get a hearing; and his name is **holy**, so you come as a creature. Say
 something true about him before you say anything about yourself.
 
@@ -695,8 +709,8 @@ into a list of complaints.
 > you, remembering you in my prayers" (Ephesians 1:16).
 
 **3. Hand over your will.** *"Your kingdom come, your will be done, on earth as it is in heaven."*
-This is the hinge, and the pattern traced above runs straight through it: alignment first, then God
-acting. Ask what he wants before telling him what you want.
+This is the hinge, and the canon-wide pattern runs straight through it — alignment first, then God
+acting ([the eight texts](#what-prayer-permits-god-to-do)). Ask what he wants before telling him what you want.
 
 > **Try:** *"Your will here, not mine. Show me what you are doing, and make me willing before I ask
 > for anything."*
@@ -709,9 +723,20 @@ acting. Ask what he wants before telling him what you want.
 
 ### Then bring yourself, and everyone else
 
+Only now, and in that order for a reason. The two words Paul uses for this half are distinct acts,
+not two ways of saying "ask": **δέησις** is asking out of your own need, and **ἔντευξις** is
+approaching God on someone else's behalf. Both are worked out from the text in
+[What to pray about](#what-to-pray-about), and what Paul actually asks *for* people is established
+in [How the apostles prayed](#how-the-apostles-prayed-and-what-they-taught).
+
+Having fixed your eyes on God in the first three, you bring your own needs and other people's into a
+frame that has already been set. The needs are no smaller; they are being said to someone you have
+just spent three movements remembering.
+
 **4. Ask for today.** *"Give us this day our daily bread."* Real needs, plainly said, and today's
-rather than the whole year's. This is δέησις: asking out of need, the word used of Jesus in
-   Gethsemane.
+rather than the whole year's. This is **δέησις** — asking out of need, from the verb people use when
+they beg other people, and the word used of Jesus in Gethsemane
+([the word study](#what-to-pray-about)).
 
 > **Try:** *"Today I need ______. I am not managing ______."*
 >
@@ -721,7 +746,8 @@ rather than the whole year's. This is δέησις: asking out of need, the word
 > **New Testament:** "do not be anxious about anything, but in everything by prayer and supplication
 > with thanksgiving let your requests be made known to God" (Philippians 4:6).
 
-**5. Name other people.** ἔντευξις, intercession, which is what Paul's recorded prayers for
+**5. Name other people.** **ἔντευξις**, intercession
+([why it is a distinct act](#what-to-pray-about)), which is what Paul's recorded prayers for
 churches consist of almost entirely (Ephesians 1:16-19; 3:14-19; Philippians 1:9-11;
 Colossians 1:9-10). His first request for them is that they would **know God better**. Their
 circumstances belong here too — he asks for his own without embarrassment — but he attaches a
@@ -749,12 +775,9 @@ directions in that petition, and the prayer ends by admitting you cannot keep yo
 > **New Testament:** "If we confess our sins, he is faithful and just to forgive us our sins"
 > (1 John 1:9).
 
-### Two things about the shape
+### The shape scales
 
-**The order is itself the teaching.** Three movements God-ward before a single request, which is the
-reverse of instinct, and is exactly why praying it in order does something to you.
-
-**And it scales.** The whole thing takes twenty seconds if that is all you have, and will carry half
+The whole thing takes twenty seconds if that is all you have, and will carry half
 an hour if you stop and dwell at each step. It is a spine, not a script. Jesus said "pray *like
 this*," not "pray this."
 

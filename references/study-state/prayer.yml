@@ -779,3 +779,52 @@ revision_2026-09-07m:
     divine speech, the bat qol -- not used in the prose, but it confirms the crowd had a category
     for a heavenly voice and were not reaching for a weather report.
   last_updated: "2026-09-07"
+
+revision_2026-09-07n:
+  what: >
+    User: the "Toward him, before anything is asked" subheading "needs to call out the purpose is to
+    set our eyes on him, not ourselves. it is exactly the setting of the attitude, the recognition
+    of his will first, the Ps 37:4 - delight in him first."
+  the_gap: >
+    The subheading ran straight into step 1 with no statement of what the three God-ward movements
+    are FOR. A reader working the pattern was told what to do and not why, and the purpose was only
+    stated at the END of the section, eighty lines later, after they had already done it.
+  added: >
+    A two-paragraph lead-in: the three have one job, to get your eyes onto God before you look at
+    yourself; they are not a warm-up to the real prayer but the attitude the rest of it is prayed in.
+    Then Ps 37:4 as "the same order in miniature" -- delight first, and the desires are reshaped by
+    the delighting -- closing on "go through these three and the asking that follows comes out
+    different, because you do."
+  tightened: >
+    The closing "Two things about the shape" then restated it, so its first bullet was cut and its
+    one distinct idea ("the reverse of instinct") folded up into the lead-in where it belongs. The
+    subheading is now "The shape scales", carrying only the point that survives.
+  note_on_rule_5: >
+    Two antitheses were KEPT here deliberately: "on God before you look at yourself" and "not a
+    warm-up to the real prayer; they are the attitude". Both are the narrow exception the rule
+    allows -- a reader genuinely does arrive at prayer with their own needs foremost and treating
+    the God-ward part as preamble, so the contrast removes a wrong version they hold rather than
+    supplying rhythm.
+  last_updated: "2026-09-07"
+
+revision_2026-09-07o:
+  what: >
+    User: '"Then bring yourself, and everyone else" supplication and intercession link (provide
+    literal linkbacks as needed to the study behind the method)'.
+  added: >
+    A lead-in parallel to the one just written for the first half, naming what the second half is
+    for and distinguishing its two words as separate ACTS rather than two ways of saying ask --
+    δέησις asking out of your own need, ἔντευξις approaching God on someone else's behalf. Closes
+    on the line that stops the second half reading as a demotion of the reader's real problems:
+    "the needs are no smaller; they are being said to someone you have just spent three movements
+    remembering."
+  linkbacks: >
+    Six, all verified against the built HTML rather than assumed: the two half lead-ins, and steps
+    1, 3, 4 and 5. Steps 2 and 6 left unlinked on purpose -- their evidence (Phil 4:6, Col 4:2, the
+    Lord's Prayer petitions) is already cited inline, so a link would point at nothing new, and
+    linking every step for symmetry would be clutter.
+  what_this_changes_structurally: >
+    The pattern section now works as a standalone method page with a route back into the evidence
+    for anyone who wants to check it -- which is a reasonable way for a reader to use a
+    9,500-word study, and was not previously possible.
+  last_updated: "2026-09-07"
