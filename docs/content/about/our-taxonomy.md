@@ -196,7 +196,7 @@ The slash isn't decoration: mkdocs-material's tags plugin is configured with
 [Tags](../tags.md) page rather than as a flat string. Add a value to a facet by using it; the
 hierarchy builds itself.
 
-`status: investigation` is worth singling out. Some material here is honest inquiry rather than
+`status: investigation` is the exception. Some material here is honest inquiry rather than
 settled conclusion, and that distinction matters more to a reader than which folder it sits in. It is
 a property of a study, not a place to put one.
 

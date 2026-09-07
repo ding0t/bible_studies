@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Daniel 9:24-27"
 bible_references: ["1 Kings 16:29", "2 Kings 4:23", "2 Kings 18:13-19:37", "2 Kings 24:10-17", "2 Kings 25:27-30", "Ezra 1:1-4", "Nehemiah 2:1-8", "Joshua 10:12-14", "Amos 8:5", "Amos 8:9", "Hosea 2:11", "Isaiah 1:13-14", "Joel 2:31", "Daniel 9:24-27", "Matthew 21:1-11", "Matthew 27:45", "Mark 15:33", "Luke 23:44-45", "Luke 19:41-44", "Acts 2:20"]
 date_created: 2024-10-20
-date_modified: 2026-09-06
+date_modified: 2026-09-07
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -53,7 +53,7 @@ Two conventions matter for everything that follows:
 
 ## On calendars
 
-Two calendars are worth knowing when dating biblical events:
+Two calendars bear on dating biblical events:
 
 - **The Zadok/Essene calendar** — a 364-day solar calendar (12 x 30 days plus 4 Tekufah days),
   already covered in depth in [The Zadok Calendar](../feasts/zadok-calendar.md). This is the calendar behind

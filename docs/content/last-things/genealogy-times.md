@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:35-38", "Ezra 7:1-5", "Ruth 4:18-22", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Acts 13:19-21", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
 date_created: 2026-07-24
-date_modified: 2026-09-06
+date_modified: 2026-09-07
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -286,7 +286,7 @@ are left alone, because nothing about those numbers resolves a contradiction the
 does. Adopting a reading only where it earns its keep is the point of calling this a *proposed
 synthesis* rather than crowning one manuscript the winner.
 
-**A second substitution was removed on 2026-09-06, and the reason is worth recording.**
+**A second substitution was removed on 2026-09-06, for the following reason.**
 `harmonized_v1` previously took SP's Methuselah as well, on the stated grounds that SP was the
 only tradition avoiding a Methuselah who outlives the Flood. That premise was wrong: as the
 section above now shows, MT already has him dying in the Flood year exactly, and the 14-year

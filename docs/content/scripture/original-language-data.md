@@ -6,7 +6,7 @@ tags: ["lang/hebrew", "lang/greek", "method/textual-criticism", "sources", "data
 draft: false
 bible_references: ["Genesis 1:1", "John 1:1"]
 date_created: 2026-09-05
-date_modified: 2026-09-05
+date_modified: 2026-09-07
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -48,7 +48,7 @@ A lemma attached to a single manuscript is a lemma for that manuscript's reading
 | **UHB / UGNT** | Derived texts — UHB from the WLC tradition, UGNT following the Bunning Heuristic Prototype | **None** in the texts themselves; the ULT aligned to them is an English translation | **UGNT is a heuristic text**, not a committee edition, and differs from SBLGNT in roughly one verse in six. Alignment data resolves against *it*, so check which Greek a wording came from |
 | **Dead Sea Scrolls** | Manuscripts — actual surviving copies, not an edition | **None** — Hebrew, in Hebrew | **Neither complete nor uniform.** 31.8% of words carry an editorial mark, so a bracketed reading is a modern reconstruction; and the scrolls are textually plural — some proto-Masoretic, some behind the Septuagint, some independent. "The scrolls read X" is usually "one scroll reads X" |
 
-The pattern across that column is worth naming, because it is the honest limit of everything on this
+The pattern across that column is the honest limit of everything on this
 page: **annotation is only ever as good as the text it sits on, and none of these texts is neutral.**
 A single medieval manuscript, a modern reconstruction, an ancient translation and a heap of fragments
 each carry a different kind of uncertainty, and a study that leans hard on a word should say which

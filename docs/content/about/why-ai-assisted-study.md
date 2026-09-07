@@ -5,7 +5,7 @@ description: "How AI is used to research and draft the studies on this site: wha
 tags: ["ai", "study-method", "transparency"]
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-09-01
+date_modified: 2026-09-07
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -90,7 +90,7 @@ passage in its own setting goes back for rework; it doesn't get published with s
 
 People ask whether this is RAG — retrieval-augmented generation, the usual pattern where you chop a
 corpus into fragments, turn them into vectors, and pull back whichever ones look closest to the
-question. It isn't, and the reason is worth explaining, because I think a lot of "AI for Bible study"
+question. It isn't, and the reason matters: a lot of "AI for Bible study"
 projects reach for that by default and give away something they didn't need to give away.
 
 **Scripture already has exact addressing.** Book, chapter, verse. Strong's numbers. Louw-Nida

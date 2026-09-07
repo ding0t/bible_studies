@@ -5,7 +5,7 @@ description: "Scripture links on this site are derived from the biblical texts t
 tags: ["data", "method/textual-criticism", "cross-references", "septuagint", "transparency", "mermaid"]
 draft: false
 date_created: 2026-09-04
-date_modified: 2026-09-04
+date_modified: 2026-09-07
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -232,7 +232,7 @@ justify itself against. It is not in this database; the corroboration check abov
 modern crowd-voted set instead, with the World English Bible's own footnotes as a second, much
 smaller witness.
 
-Four differences are worth knowing, and they cut in both directions.
+Four differences cut in both directions.
 
 **An inherited list is better at meaning.** TSK's compilers linked passages that speak to the same
 theme in different words — a mercy in Exodus to a mercy in Luke, with nothing textual in common.
