@@ -310,6 +310,14 @@ generalises to every tell on that page: a reviewer grepping the guide's literal 
 every variant of them. *"Notice that…"* is listed there; *"Note what this is"* is not, and they are
 the same sentence.
 
+**Three tells need a human, and the review should say so rather than pretend to have covered them.**
+[human-review.md](../develop-bible-study/human-review.md) names them: the antithesis construction
+(`X, not Y` / `rather than` — count it, one every 210 words is the observed drift), essay register
+surviving into Key Takeaways, the prayer and the application, and writing around the theology
+instead of naming it. An agent can count the first and should; the second and third are judgement
+calls a reviewer who also drafted the file is the worst-placed person to make. Report what you find
+and hand the page to the user.
+
 **Check the discussion questions against
 [discussion-questions.md](../develop-bible-study/discussion-questions.md)**, not only against
 style-guide.md's prohibition. Two different findings live here. The prohibition catches a question

@@ -7,7 +7,7 @@ like an LLM wrote it, which undercuts the reader's trust in the research underne
 
 ## Write toward this
 
-**Four rules, and they are the whole guide.** Everything after this section is diagnostic — the
+**Six rules, and they are the whole guide.** Everything after this section is diagnostic — the
 specific shapes prose takes when it drifts off these four, with corpus evidence behind each. Write
 toward the four and the drift mostly doesn't happen; check against the tells and you only catch
 instances, one at a time, forever. Use these from the first sentence of the first draft, not as a
@@ -35,6 +35,69 @@ belongs after the fact rather than in front of it.
 manuscript variant and a date are each stronger than any adjective available to you. Reaching for
 *decisive*, *striking* or *remarkable* is usually a sign of being short on evidence rather than short
 on vocabulary — go and get the reference instead.
+
+**5. Define affirmatively. Do not build a claim out of what it is not.** This is a structural
+prohibition and it applies before the first sentence is written, not as a cleanup pass. Three named
+shapes are ruled out:
+
+- **Thesis-antithesis** — "X, not Y" / "X — not Y" / "X rather than Y" / "not only X but Y".
+- **Dialectical hedging** — advancing a claim by staging and then dismissing its opposite.
+- **Contrastive reframes** — "it is not a *A*; it is a *B*", where the reader never proposed *A*.
+
+**Say what the thing is, then give the evidence.** Where a contrast feels necessary, that is almost
+always a signal that the affirmative claim is underspecified — the fix is a concrete example, a
+count, or a citation, not a foil. *"He would withdraw to desolate places and pray"* plus the
+periphrastic imperfect and five occurrences of ἔρημος does the work that *"prayer is a practice
+kept, not a mood caught"* was reaching for, and does it with evidence instead of a discarded
+alternative.
+
+**The narrow exception, and it is narrow.** Keep a contrast only where the reader genuinely arrives
+holding the wrong version and the study's job is to remove it — *"an argument from silence rather
+than a prohibition"* is doing that. Quoted Scripture is exempt; "not my will, but yours" is not
+yours to edit. Everything else goes.
+
+**Why prohibit rather than diagnose.** Because this one does not respond to detection.
+`prayer-as-communion.md` carried 38 instances after two full adversarial reviews and a clean
+validate, and the count went *up* between revisions — the same agent that had just cut them wrote
+more within the hour. A rule applied at drafting stops them being generated; a tell list only ever
+removes instances, one at a time, forever.
+
+**6. Write the theology as the subject. Say what is true about God, name it, and say what it means
+for the reader.** This is the rule the site's author rates highest, and it is compositional: it
+governs what a paragraph is *for*, so it has to be held while drafting rather than checked
+afterwards.
+
+**The voice to write in:** someone who believes this, explaining it to someone who needs it to be
+true. Not a scholar reporting what a text has been taken to mean. The research is done in the
+analytical voice; the writing is not.
+
+Four positive moves:
+
+- **State what the passage shows about God, in the study's own voice.** Finish the sentence *"this
+  shows that God ___"* and put the answer in the prose. If the exegesis established something about
+  God's character, purpose or work, that sentence is the point of the section — not an inference
+  left for the reader to assemble.
+- **Follow the doctrine to its named form.** Where a passage turns on adoption, write adoption.
+  Where it rests on the atonement, write the atonement and say why it bears here. The tradition's
+  nouns are load-bearing, and shorter than the paraphrase that avoids them.
+- **Name the person.** "Your Son Jesus", not "your Son". "The Holy Spirit", not "the Spirit's role".
+  A prayer closes "In Jesus' name. Amen."
+- **Land it in the second person.** A doctrine that never reaches *"so you may…"* has been described
+  rather than taught. Key Takeaways, Be Transformed and the prayer are where this is checked.
+
+**Mark the confidence as you go.** State the settled thing plainly; say of a contested one that it is
+contested, and give the case on both sides. Doing this *while drafting* is what stops the rule
+becoming licence to overclaim — AGENTS.md requires exegesis run uncoerced, and this corpus holds
+1 Peter 3:19, John 19:31's "high day" and the two-compartment reading of Hades with their costs
+stated. Marked uncertainty is precision. The failure is the unmarked middle, where the prose is
+careful enough that a reader cannot tell which they are reading.
+
+**Why this is a drafting rule and not a check.** Searching for the symptom does not work, because
+there is no symptom to search for. Measured across this corpus the hedging vocabulary you would
+think to ban — *in some sense*, *can be seen as*, *points toward*, *arguably* — appears in single
+figures across ~90 files. Every real instance was a sentence that was accurate, unhedged, and simply
+missing the name. Nothing greps for an absence. The only place this can be fixed is before the
+sentence is written.
 
 **Two tests, both cheap.** *Deletion*: cut the sentence, re-read the paragraph, and see whether any
 fact, citation or step went with it. *Skim*: read the draft and notice what your eye slides past to
@@ -353,9 +416,31 @@ is exactly backwards.
 
 ## The tell: rhetorical rhythm on autopilot
 
-**The "Not X — Y" contrast.** Useful the first time in a section ("Not punished for being hungry —
-punished for despising sufficiency"). Load-bearing the second time. A tic by the third — if a
-section leans on it more than twice, cut back to the strongest instance and rewrite the rest plainly.
+**The antithesis construction, in all its forms.** The prevention is
+[rule 5](#write-toward-this); this entry is for catching what got through. It is the most persistent
+tic in the corpus and
+the rule was too narrow: it named only the dashed form, so the commoner variants went uncounted.
+Count all of them together —
+
+- `X — not Y` (the dashed form)
+- `X, not Y` ("a practice kept, not a mood caught")
+- `X rather than Y`
+- `not only X but Y`
+
+`christian-life/prayer-as-communion.md` measured **18 `, not ` plus 20 `rather than` in 8,000
+words**, one every 210 words, in a file that had already passed two full reviews. None of them
+tripped a validator and none read badly alone.
+
+**Why it matters more than it looks.** The author of that study put it exactly: it *"adds fluff,
+destroys confidence."* An antithesis defines a thing by what it is not, which means the reader
+receives the wrong version first and has to discard it. Done once for a real contrast, that is
+useful. Done every third sentence it reads as a writer reaching for shape instead of saying the
+thing, and the cumulative effect is a loss of authority — the prose sounds like it is arguing with
+someone rather than telling you what is true.
+
+**The test:** delete the negative half and read what is left. If the positive half still says
+everything, the contrast was rhythm and should go. Keep it only where the wrong version is one a
+reader genuinely arrives holding.
 
 **Em-dash density.** One em-dash aside per sentence reads as controlled. Two pairs in one sentence, or
 one pair in almost every sentence of a paragraph, reads as scaffolding holding up thoughts that were
@@ -368,6 +453,59 @@ if there's a fourth that actually adds something, keep it — don't trim a real 
 **Summarizing what the paragraph you just wrote already said.** *"So, to sum up…"* / *"In short…"* right
 after making the point. Trust the reader to have read the paragraph; end the section on the last real
 point, not a recap of it.
+
+## The tell: essay register where devotional register belongs
+
+A study is not an essay about a subject; it is written for someone who will act on it. Those want
+different voices, and the drift is always in the same direction — toward the analytical, because
+that is the register in which the research was done.
+
+The symptoms are recognisable once named:
+
+| Essay register | Devotional register |
+|---|---|
+| a sentence built on a hinge | a plain imperative |
+| "the practical guard against a prayer life that silts up" | "pray as you walk, and before a meeting" |
+| a clever comparative ("let them know you better this year than last") | the plain request ("let them know you better") |
+| observing what a reader might do | telling the reader what to do |
+
+**Both registers belong in most studies, and the split is usually structural.** The exegesis, word
+studies and evidence want the analytical voice — that is where precision lives. **Key Takeaways, Be
+Transformed, the prayer, and the application sections want the devotional one.** A study that keeps
+the essayist's voice all the way into its prayer has not finished the job; the reader can feel the
+author still performing for a marker.
+
+The reliable signal, from the corpus: **when a human author edits an agent-drafted study, the edits
+are overwhelmingly in this direction** — cutting the constructions, adding the plain imperative,
+naming the concrete occasion. Treat that as the drift being corrected, not as a difference of taste.
+
+## The tell: writing around the theology instead of naming it
+
+The prevention is [rule 6](#write-toward-this); this entry is for catching what got through. It is
+the most consequential of the three and the least visible, because nothing in the sentence is wrong.
+It is what is *absent*.
+
+An agent drafting Christian content tends to describe theological realities at one remove — the
+accurate paraphrase in place of the name, the mechanism in place of the person:
+
+| Written around it | Named |
+|---|---|
+| "your Son" | "your Son Jesus" |
+| "he prayed his way through the hardest thing asked of him" | "he prayed the Father's will be done, even through the hardest thing" |
+| a prayer ending "Amen" | "In Jesus' name. Amen." |
+| "the way to you is open" | "the way to you is open because it cost your Son to open it" |
+
+Each left-hand version is defensible and none is an error, which is why this survives review. But a
+study for Christian readers that consistently declines to name what it means reads as evasive, and
+the cumulative effect is a document that sounds like it is describing a faith rather than holding
+one. The site's own AGENTS.md asks for accuracy to Scripture and for dispensational conviction where
+the text supports it; hedged theology is not neutrality, it is a different position quietly adopted.
+
+**The check:** at every point where the study states a theological reality, ask whether a plainer,
+more explicit version exists and whether anything but reticence is stopping you writing it. Where a
+conclusion is genuinely contested, say so and say why — the studies in this corpus do that well.
+What to avoid is the *unmarked* hedge, where nothing signals to the reader that a stronger claim was
+available and passed over.
 
 ## Hebrew/RTL text and markdown bold
 
@@ -409,7 +547,7 @@ Check 10), so a clean validate run is the faster way to find every instance.
 
 ## If you only remember one thing
 
-Not the tell list — the four rules in [Write toward this](#write-toward-this). Every diagnostic on
+Not the tell list — the six rules in [Write toward this](#write-toward-this). Every diagnostic on
 this page exists because prose drifted off one of them, and the list will always lag the drift: each
 new variant needs a new entry, which is why `worth ___` reached 48 instances in a corpus where the
 rule was already written down. Writing toward "every sentence adds a fact, a citation, or a step"

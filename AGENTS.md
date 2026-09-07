@@ -50,6 +50,25 @@ hand-write those three.
     committed file — a sentence or two with attribution — not whether you may look it up.
 - Always provide translation used if making a quote
 - Always review context of a verse when doing a study, do not bend context to suit the scholar
+- **Write the theology as the subject, and write it as someone who believes it to someone who needs
+  it to be true.** The research is analytical; the writing is not. In every study, finish the
+  sentence *"this shows that God ___"* and put the answer in the prose — if the exegesis established
+  something about God's character, purpose or work, that sentence is the point of the section, not
+  an inference left for the reader to assemble. Follow a doctrine to its named form (adoption,
+  atonement, propitiation, justification) rather than paraphrasing around it. Name the person:
+  "your Son Jesus", not "your Son"; a prayer closes "In Jesus' name. Amen." Land it in the second
+  person — a doctrine that never reaches *"so you may…"* has been described rather than taught.
+- **Mark the confidence as you write.** State a settled thing plainly; say of a contested one that it
+  is contested, and give the case on both sides. This is what keeps the rule above from becoming
+  overclaim — the exegesis-uncoerced rule still governs, and marked uncertainty is precision. The
+  failure is the unmarked middle, careful enough that a reader cannot tell which they are reading.
+- **Define affirmatively. Do not build a claim out of what it is not.** Thesis-antithesis ("X, not
+  Y" / "X rather than Y"), dialectical hedging, and contrastive reframes are ruled out at drafting.
+  Where a contrast feels necessary the affirmative claim is underspecified: supply a concrete
+  example, a count or a citation instead of a foil. Keep a contrast only where the reader genuinely
+  arrives holding the wrong version, and never edit one out of quoted Scripture.
+- Full rules, with the corpus evidence behind each:
+  `.claude/skills/develop-bible-study/style-guide.md`, "Write toward this".
 - Conduct original language word studies to understand meaning
 - Add the original Hebrew, Aramaic, or Greek text, plus the English pronunciation of a word when explaining
 - Identify other cultural context that may be inferred in the text; such as understanding a particular feast or festival.
