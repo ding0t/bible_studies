@@ -256,6 +256,10 @@ itself — *"Did seeing those objections named change how persuasive the conclus
 caveats rather than provoking thought about Scripture. Ask about Enoch and Noah, not about your
 own even-handedness.
 
+That is the prohibition; **[discussion-questions.md](discussion-questions.md) is the positive
+counterpart** — which facets a set should cover, and why a set that passes this rule can still be
+wrong for the study it sits under.
+
 ## The tell: the apologia posture
 
 Every other rule on this page works at the sentence. This one works at the whole document, which is

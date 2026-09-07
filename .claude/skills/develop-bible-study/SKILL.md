@@ -124,6 +124,12 @@ and which one is a question for the user, not a silent edit to whichever file is
   | **Memory verses** | 1–3 verses *already quoted and cited in the study's own body*, pointed back to — not new quotations introduced here. |
   | **Be Transformed** | Romans 12:2 made concrete: specific thoughts, attitudes, actions the study calls the reader to examine or change. Keep it as distinguishable from the exegesis as Phase 5 already requires. |
   | **Prayer** (last, deliberately) | A short response specific to this study's content, structured the way the Lord's Prayer study shows Jesus's model working — relationship and God's character first, request second. Not a generic devotional line. |
+- **Discussion questions cover a set of facets — see [discussion-questions.md](discussion-questions.md).**
+  The set mirrors Key Takeaways: language, the text in its context, type/prophecy/Christ, the hard
+  part, and one that lands on the reader personally. Include only the facets the study earned. That
+  file also carries the rules, each from a specimen in this corpus, and the failure mode specific to
+  this section: **question sets go stale silently after a restructure**, because each question stays
+  individually defensible while the set stops matching the study.
 - Always give the translation used for any quotation (AGENTS.md). This applies per-quote, not just
   once for the study as a whole: when a lookup tool returns text, check which `work_id`/translation
   it actually came from before dropping it into prose, rather than assuming it's ESV because ESV is
@@ -198,6 +204,7 @@ Update the relevant `stages.*` block and bump `last_updated` as each phase above
 - [placement-and-tags.md](placement-and-tags.md) — section taxonomy, tag facets, frontmatter traps (read before drafting)
 - [word-study-method.md](word-study-method.md) — the fuller diachronic → synchronic → conclusion procedure (Phase 4)
 - [style-guide.md](style-guide.md) — the prose pass (Phase 7)
+- [discussion-questions.md](discussion-questions.md) — the facets a question set covers (Phase 7)
 - [diagrams.md](diagrams.md) — the mermaid width budget and the stage-folding pattern (Phase 7)
 - [study-state.template.yml](study-state.template.yml) — state file schema
 

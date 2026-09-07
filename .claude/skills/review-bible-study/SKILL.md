@@ -310,6 +310,17 @@ generalises to every tell on that page: a reviewer grepping the guide's literal 
 every variant of them. *"Notice that…"* is listed there; *"Note what this is"* is not, and they are
 the same sentence.
 
+**Check the discussion questions against
+[discussion-questions.md](../develop-bible-study/discussion-questions.md)**, not only against
+style-guide.md's prohibition. Two different findings live here. The prohibition catches a question
+about the study's own method — including the disguised form, a question about evidence-weighting
+technique rather than about the text. The facet table catches the commoner defect: a set that is
+individually fine and collectively stale, because the study was restructured and the questions were
+not re-read. Ask which facets the study now has — language, context, Christ, the hard part,
+transformed — that no question touches, and whether the set's proportions match the study's own. A
+study whose smallest section gets most of its questions has a set left over from an earlier draft.
+Report as **Minor**, or **Moderate** where the questions no longer reflect what the study argues.
+
 **Measure any mermaid diagram in the file** against
 [diagrams.md](../develop-bible-study/diagrams.md). A diagram wider than ~560px is scaled down whole
 by the browser, labels with it, and the defect is invisible in the markdown — the source of a 3725px
