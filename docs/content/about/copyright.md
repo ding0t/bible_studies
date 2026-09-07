@@ -5,7 +5,7 @@ description: "Copyright notices for the Bible translations and reference works q
 tags: ["copyright", "permissions", "attribution", "translations"]
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-09-05
+date_modified: 2026-09-07
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -89,6 +89,18 @@ named monograph — the work is credited in that study's own **References & Reco
 section. Such material is used only in brief, attributed quotation or synthesized into original
 prose. The notes, articles, charts and introductions in those editions are separately copyrighted
 from the Bible text they accompany, and no part of them is reproduced here at length.
+
+## Public-domain charts
+
+Several studies reproduce charts by **Clarence Larkin** (1850-1924) from *Dispensational Truth, or
+God's Plan and Purpose in the Ages* (1918; expanded edition 1920) and *Rightly Dividing the Word*.
+These are in the public domain: the works were published well before 1929, and their author died in
+1924. The charts carry Larkin's own "Copyrighted" mark, which is a notice of a term that has since
+expired, not a live claim. They are self-hosted here rather than hotlinked, and each is captioned
+with its title and Larkin's name where it appears.
+
+Reproducing a chart is not endorsement of everything it asserts; where a study uses one, it says in
+its own prose which parts of the chart it holds and which it does not.
 
 If you believe anything on this site exceeds fair use or a publisher's stated permission, please
 [open an issue](https://github.com/ding0t/bible_studies/issues) and it will be corrected.
