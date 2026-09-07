@@ -5,7 +5,7 @@ description: "Prayer as relationship before routine -- the Spirit-given cry of '
 tags: ["matthew", "luke", "acts", "revelation", "daniel", "ephesians", "colossians", "1-timothy", "james", "galatians", "hebrews", "psalms", "discipleship", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "Colossians 4:2"
-bible_references: ["Colossians 4:2", "Acts 1:14", "Acts 2:42", "Acts 6:4", "Acts 4:23-31", "Acts 12:5", "Romans 12:12", "1 Thessalonians 5:17-18", "Philippians 4:6-7", "1 Timothy 2:1-4", "Matthew 6:5-15", "Luke 11:1-13", "Luke 5:16", "Luke 6:12", "Luke 9:18", "Luke 4:42", "Mark 1:35-37", "Matthew 14:23", "John 6:15", "Matthew 26:36-39", "Luke 22:41", "Luke 22:39-46", "Hebrews 5:7", "John 17", "John 16:23-24", "Acts 7:59-60", "Revelation 22:20", "2 Corinthians 12:8-9", "1 Corinthians 1:2", "Ephesians 2:18", "Romans 8:26-27", "Ephesians 1:15-19", "Ephesians 3:14-19", "James 4:2-3", "James 5:16", "Daniel 6:10", "Deuteronomy 6:6-7", "Ephesians 6:4", "Psalm 78:4-7", "Matthew 6:10", "2 Chronicles 7:14", "Psalm 37:4", "Psalm 66:18-19", "Proverbs 28:9", "John 15:7", "James 4:7-10", "1 John 3:22", "1 John 5:14-15", "Exodus 32:11-14", "Daniel 9:2-3", "Daniel 9:18", "1 Samuel 3:10", "Romans 12:1-2", "Colossians 4:12", "Matthew 26:39-42", "1 Chronicles 29:10-11", "Nehemiah 1:5", "Psalm 103:1-2", "Psalm 100:4", "Proverbs 30:8-9", "1 Samuel 12:23", "Job 42:10", "Psalm 139:23-24", "1 John 1:9", "Acts 21:14", "John 11:41-42", "Isaiah 65:24", "Genesis 24:15", "Genesis 24:45", "Daniel 9:20-23", "Daniel 10:12-13", "John 12:28-29", "Acts 12:13-16", "Acts 16:6-10", "Psalm 141:2", "Revelation 5:8", "Revelation 8:3-5", "Revelation 6:9-11", "Romans 8:15-16", "Galatians 4:6-7", "Psalm 42:1-2", "Psalm 63:1", "Psalm 27:4", "Psalm 73:25", "Matthew 11:28-30", "Luke 10:38-42", "Psalm 16:11", "Exodus 20:11", "Psalm 146:6", "Psalm 2", "Colossians 1:9-10", "Philippians 1:9", "Romans 15:30-32", "Ephesians 6:19-20", "Colossians 4:3-4", "2 Thessalonians 3:1-2", "Hebrews 10:19-22", "Hebrews 4:14-16", "Hebrews 7:25", "Romans 8:34", "1 Timothy 2:5-6", "1 Timothy 5:5", "Luke 1:13", "Romans 10:1", "Ephesians 6:18", "2 Corinthians 8:4", "Acts 8:34"]
+bible_references: ["Colossians 4:2", "Acts 1:14", "Acts 2:42", "Acts 6:4", "Acts 4:23-31", "Acts 12:5", "Romans 12:12", "1 Thessalonians 5:17-18", "Philippians 4:6-7", "1 Timothy 2:1-4", "Matthew 6:5-15", "Luke 11:1-13", "Luke 5:16", "Luke 6:12", "Luke 9:18", "Luke 4:42", "Mark 1:35-37", "Matthew 14:23", "John 6:15", "Matthew 26:36-39", "Luke 22:41", "Luke 22:39-46", "Hebrews 5:7", "John 17", "John 16:23-24", "Acts 7:59-60", "Revelation 22:20", "2 Corinthians 12:8-9", "1 Corinthians 1:2", "Ephesians 2:18", "Romans 8:26-27", "Ephesians 1:15-19", "Ephesians 3:14-19", "James 4:2-3", "James 5:16", "Daniel 6:10", "Deuteronomy 6:6-7", "Ephesians 6:4", "Psalm 78:4-7", "Matthew 6:10", "2 Chronicles 7:14", "Psalm 37:4", "Psalm 66:18-19", "Proverbs 28:9", "John 15:7", "James 4:7-10", "1 John 3:22", "1 John 5:14-15", "Exodus 32:11-14", "Daniel 9:2-3", "Daniel 9:18", "1 Samuel 3:10", "Romans 12:1-2", "Colossians 4:12", "Matthew 26:39-42", "1 Chronicles 29:10-11", "Nehemiah 1:5", "Psalm 103:1-2", "Psalm 100:4", "Proverbs 30:8-9", "1 Samuel 12:23", "Job 42:10", "Psalm 139:23-24", "1 John 1:9", "Acts 21:14", "John 11:41-42", "Isaiah 65:24", "Genesis 24:15", "Genesis 24:45", "Daniel 9:20-23", "Daniel 10:12-13", "John 12:28-29", "Psalm 29:3", "Job 37:4", "2 Samuel 22:14", "Acts 12:13-16", "Acts 16:6-10", "Psalm 141:2", "Revelation 5:8", "Revelation 8:3-5", "Revelation 6:9-11", "Romans 8:15-16", "Galatians 4:6-7", "Psalm 42:1-2", "Psalm 63:1", "Psalm 27:4", "Psalm 73:25", "Matthew 11:28-30", "Luke 10:38-42", "Psalm 16:11", "Exodus 20:11", "Psalm 146:6", "Psalm 2", "Colossians 1:9-10", "Philippians 1:9", "Romans 15:30-32", "Ephesians 6:19-20", "Colossians 4:3-4", "2 Thessalonians 3:1-2", "Hebrews 10:19-22", "Hebrews 4:14-16", "Hebrews 7:25", "Romans 8:34", "1 Timothy 2:5-6", "1 Timothy 5:5", "Luke 1:13", "Romans 10:1", "Ephesians 6:18", "2 Corinthians 8:4", "Acts 8:34"]
 date_created: 2024-10-06
 date_modified: 2026-09-07
 ai_provider_models:
@@ -584,9 +584,18 @@ heard" (5:7).
 
 **And the answer can be missed while it is happening.** Twice, memorably.
 
-When Jesus prays "Father, glorify your name," God answers **audibly**: "Then a voice came from
-heaven", and the bystanders disagree about what they just heard: "The crowd that stood there and
-heard it said that it had thundered" (John 12:28-29). An answer given in words, taken for weather.
+When Jesus prays "Father, glorify your name," God answers **audibly** — "Then a voice came from
+heaven" — and the bystanders cannot agree on what they just heard. Some said "that it had
+thundered"; others, "An angel has spoken to him" (John 12:28-29).
+
+The Greek is **βροντὴν γεγονέναι**, "that thunder had happened", and it does not settle what they
+meant by it. Scripture regularly describes God's own voice as thunder: "the God of glory thunders"
+(Psalm 29:3), "he thunders with his majestic voice" (Job 37:4), "the LORD thundered from heaven, and
+the Most High uttered his voice" (2 Samuel 22:14). A first-century hearer saying "thunder" may be
+reporting a theophany, not dismissing one as weather. What the passage does show is a gradient:
+Jesus receives words, one group hears something they can only call thunder, and a third recognises
+speech but guesses at the speaker. God answered out loud, and the answer landed at three different
+depths in one crowd.
 
 And the church, praying through the night for Peter in prison, does not believe the answer when it
 knocks on the door:
