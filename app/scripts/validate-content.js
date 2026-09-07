@@ -218,12 +218,22 @@ function validateFile(filePath) {
   // then to ignore the errors next to it. The author decides per hit; the check only
   // guarantees the decision gets made.
   // Two arms, because the slot is open: an explicit list of the commonest fillers, plus a
-  // generic "it is/it's worth <anything>ing" that catches fillers nobody has thought of yet.
+  // generic "<subject> is worth <anything>ing" that catches fillers nobody has thought of yet.
   // Listing only the known fillers would repeat the exact mistake this check exists to fix.
+  // The generic arm was originally anchored to "it is/it's" and missed every other subject --
+  // a review of prayer-as-communion.md found "which is worth knowing before building a practice
+  // on it", which matched neither arm ("knowing" is not in the list, and the subject is not "it").
+  // So the subject slot now accepts it/this/that/which/there, and a bare "is worth ...ing" too.
+  // KNOWN AND ACCEPTED TRADE-OFF: leaving the verb slot open also catches the ordinary sense of
+  // "worth" -- deserving of -- as in sorcery.md's "nor that their power is worth fearing" or
+  // "both are worth following". Those are not the announcing template and should be kept. That is
+  // fine: this is a WARNING, and the check's job is to make the author decide, not to decide for
+  // them. Do not narrow the verb slot to a fixed list to remove them -- that reintroduces exactly
+  // the blind spot documented above, where "knowing" was missing and a filler shipped unflagged.
   const worthPattern = new RegExp(
     [
       String.raw`\bworth\s+(?:being\s+clear|noting|stating|saying|asking|making|pointing\s+out|flagging|remembering|mentioning|bearing\s+in\s+mind|a\s+mention|repeating|emphasi[sz]ing)\b`,
-      String.raw`\bit(?:'s|’s|\s+is)\s+worth\s+\w+ing\b`,
+      String.raw`\b(?:it|this|that|which|there)?\s*(?:'s|’s|\bis|\bare|\bwas|\bwere)\s+worth\s+\w+ing\b`,
     ].join('|'),
     'gi'
   );
