@@ -115,6 +115,23 @@ claims:
     note: >
       The study says it "occurs nowhere else in the New Testament" -- exactly the kind of
       exhaustiveness claim validate-content.js check 18 exists to flag, so it is machine-checked.
+  - id: deesis-count
+    what: δέησις occurrences in the NT, all addressed to God
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='δέησις'"
+    expect: 18
+  - id: deomai-count
+    what: δέομαι, the verb behind it -- mostly people begging people
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='δέομαι'"
+    expect: 12
+  - id: deesis-beside-proseuche
+    what: verses carrying both δέησις and προσευχή, which is why they are not synonyms
+    sql: |
+      SELECT COUNT(*) FROM (SELECT DISTINCT a.book,a.chapter,a.verse FROM morphology a
+        JOIN morphology b ON a.book=b.book AND a.chapter=b.chapter AND a.verse=b.verse
+          AND a.work_id=b.work_id
+        WHERE a.work_id='macula-greek-sblgnt' AND a.lemma='δέησις' AND b.lemma='προσευχή')
+    expect: 4
+    note: "1 Tim 2:1; 1 Tim 5:5; Eph 6:18; Phil 4:6 -- the study names all four."
   - id: deesis-domain
     what: 1 Tim 2:1's four nouns carry four distinct Louw-Nida domains
     sql: |
@@ -590,4 +607,81 @@ revision_2026-09-07h:
     than a prohibition", "appetite, not obligation", "the shape, not as the words", "kept rather
     than declined", "a spine, not a script". Forcing the count lower would have cost meaning. The
     density was the problem, not the device.
+  last_updated: "2026-09-07"
+
+revision_2026-09-07i:
+  what: "Theology pass, running the new rule 6 against the prose rather than searching for a symptom."
+  method: >
+    The positive test, per rule 6: for each section, finish "this shows that God ___" and check
+    whether the study PRINTS the answer or leaves the reader to assemble it. Then three follow-ups --
+    is the doctrine named, is the person named, does it reach the second person.
+  the_main_finding: >
+    THE STUDY ASSERTED THAT ACCESS TO GOD IS ALREADY OPEN, FOUR TIMES, AND NEVER SAID WHAT OPENED IT.
+    "the access a Father has already opened", "the way to you is open", Eph 2:18 -- and a measured
+    zero occurrences of atonement, propitiation, mediator, ransom, blood, curtain or high priest in
+    8,000 words. Hebrews was cited once, for 5:7, and the two texts that state the basis of prayer
+    access were absent entirely.
+    Sharpest form of it: the study used the phrase "the way is open", which is Hebrews 10:20's own
+    image ("the new and living way that he opened for us through the curtain"), without the text.
+    It had borrowed the metaphor and dropped the doctrine.
+  fixed:
+    - >
+      Heb 10:19-22 added as a block quote in "Who am I praying to?", with Heb 4:16's "let us then
+      with confidence draw near to the throne of grace". Names the curtain, the blood, and the
+      instruction the writer draws from it, and lands in the second person: "when you pray you are
+      not asking for a hearing. You are using one that was bought, and paid for in blood."
+    - >
+      CHRIST'S PRESENT INTERCESSION was asserted from John 17 -- "the intercession of John 17 did
+      not stop at the ascension" -- which is an inference from a past prayer where two direct proof
+      texts exist. Now cites Heb 7:25 ("he always lives to make intercession for them") and
+      Rom 8:34, and the Key Takeaways bullet is retitled "He is praying FOR YOU now".
+    - >
+      1 TIM 2:5-6 SITS FOUR VERSES AFTER 2:1. The study builds a whole section on Paul's four kinds
+      of prayer at 2:1 and never noticed he gives the ground in the same paragraph -- "one mediator
+      between God and men, the man Christ Jesus, who gave himself as a ransom for all". Added in
+      both places.
+    - >
+      "How Jesus prayed" described the practice at length and never said what it shows about the
+      FATHER. Added: the Son of God, short of nothing, got up in the dark and left a town that
+      wanted him, for years, to talk to his Father. "Prayer is not a remedy for weakness that
+      stronger people can do without; it is what the strongest man who ever lived arranged his life
+      around. If he wanted that much time with the Father, the Father is worth yours."
+  measured_after: 'blood 3, curtain 2, high priest 1, mediator 1, ransom 1, intercession 8, adoption 2 -- from zero on the first five.'
+  note_on_method: >
+    This is the pass that justifies rule 6 being a drafting rule. Nothing here was findable by
+    search: every gap was accurate, unhedged prose with the doctrine left out, and the only thing
+    that surfaced them was reading each section against "this shows that God ___". A grep for
+    hedging vocabulary would have returned nothing, as the corpus measurement already showed.
+  frontmatter: 'bible_references +5; tags gained "hebrews".'
+  last_updated: "2026-09-07"
+
+revision_2026-09-07j:
+  what: >
+    User asked what δεήσεις actually means -- "is this supplication - i have always wondered the
+    meaning of the word" -- then asked for the answer to go into the study.
+  the_finding: >
+    THE MEANING IS IN THE VERB, NOT THE NOUN. δέομαι (G1189) is not a religious word: of its twelve
+    NT occurrences most are people begging OTHER PEOPLE -- Paul imploring the Corinthians
+    (2 Cor 10:2) and Galatians (4:12), the eunuch asking Philip (Acts 8:34), Paul on a Roman tribune
+    (Acts 21:39) and on Agrippa (26:3), the father of the demonised boy on Jesus (Luke 9:38), and
+    the Macedonians begging Paul for the PRIVILEGE OF GIVING (2 Cor 8:4).
+    So the root sense is urgent asking out of need, and δέησις is that word pointed upward. All 18
+    NT occurrences of the noun are addressed to God, and every clear case has a specific lack behind
+    it: Zechariah childless (Luke 1:13), Paul for Israel (Rom 10:1), the widow left alone
+    (1 Tim 5:5), Gethsemane (Heb 5:7).
+  the_clincher: >
+    δέησις stands beside προσευχή in the SAME VERSE four times (1 Tim 2:1; 1 Tim 5:5; Eph 6:18;
+    Phil 4:6), which is not how anyone uses two words for one thing. Louw-Nida agrees: 33.171 holds
+    δέησις alone, separate from προσευχή at 33.178.
+  answer_given: >
+    "Supplication" is accurate and unhelpful, because the English word is now archaic enough to hide
+    the sense. Plain version: προσευχή is prayer as such; δέησις is the part where you say what you
+    need and ask for it. Closest modern English is "asking out of need", or bluntly, begging.
+    The study's existing gloss "entreaty out of need" held up against all 18 and was tightened to
+    "asking out of need - begging".
+  pastoral_point_added: >
+    δέησις is the step most people are best at and most embarrassed about, and Scripture is not
+    embarrassed by it -- Paul puts it FIRST of the four, and it is the word chosen for the Son of God
+    on the night he was betrayed.
+  claims_added: "deesis-count 18, deomai-count 12, deesis-beside-proseuche 4 -- so none of the three numbers in the new prose can rot."
   last_updated: "2026-09-07"

@@ -14,4 +14,5 @@ draft: false
 
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 7:1-28 (primary passage)
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 7:25
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 7:25
 <!-- commentary-index:auto-end -->

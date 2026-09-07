@@ -2,10 +2,10 @@
 title: "Prayer: Communion and the Habit It Sustains"
 category: "prayer"
 description: "Prayer as relationship before routine -- the Spirit-given cry of 'Abba, Father' that makes the habit possible, who prayer is addressed to, how Jesus and the apostles actually prayed, what to pray about, how God answers, a pattern to pray by, and how to teach a household to pray."
-tags: ["matthew", "luke", "acts", "revelation", "daniel", "ephesians", "colossians", "1-timothy", "james", "galatians", "psalms", "discipleship", "method/word-study", "lang/greek"]
+tags: ["matthew", "luke", "acts", "revelation", "daniel", "ephesians", "colossians", "1-timothy", "james", "galatians", "hebrews", "psalms", "discipleship", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "Colossians 4:2"
-bible_references: ["Colossians 4:2", "Acts 1:14", "Acts 2:42", "Acts 6:4", "Acts 4:23-31", "Acts 12:5", "Romans 12:12", "1 Thessalonians 5:17-18", "Philippians 4:6-7", "1 Timothy 2:1-4", "Matthew 6:5-15", "Luke 11:1-13", "Luke 5:16", "Luke 6:12", "Luke 9:18", "Luke 4:42", "Mark 1:35-37", "Matthew 14:23", "John 6:15", "Matthew 26:36-39", "Luke 22:41", "Luke 22:39-46", "Hebrews 5:7", "John 17", "John 16:23-24", "Acts 7:59-60", "Revelation 22:20", "2 Corinthians 12:8-9", "1 Corinthians 1:2", "Ephesians 2:18", "Romans 8:26-27", "Ephesians 1:15-19", "Ephesians 3:14-19", "James 4:2-3", "James 5:16", "Daniel 6:10", "Deuteronomy 6:6-7", "Ephesians 6:4", "Psalm 78:4-7", "Matthew 6:10", "2 Chronicles 7:14", "Psalm 37:4", "Psalm 66:18-19", "Proverbs 28:9", "John 15:7", "James 4:7-10", "1 John 3:22", "1 John 5:14-15", "Exodus 32:11-14", "Daniel 9:2-3", "Daniel 9:18", "1 Samuel 3:10", "Romans 12:1-2", "Colossians 4:12", "Matthew 26:39-42", "1 Chronicles 29:10-11", "Nehemiah 1:5", "Psalm 103:1-2", "Psalm 100:4", "Proverbs 30:8-9", "1 Samuel 12:23", "Job 42:10", "Psalm 139:23-24", "1 John 1:9", "Acts 21:14", "John 11:41-42", "Isaiah 65:24", "Genesis 24:15", "Genesis 24:45", "Daniel 9:20-23", "Daniel 10:12-13", "John 12:28-29", "Acts 12:13-16", "Acts 16:6-10", "Psalm 141:2", "Revelation 5:8", "Revelation 8:3-5", "Revelation 6:9-11", "Romans 8:15-16", "Galatians 4:6-7", "Psalm 42:1-2", "Psalm 63:1", "Psalm 27:4", "Psalm 73:25", "Matthew 11:28-30", "Luke 10:38-42", "Psalm 16:11", "Exodus 20:11", "Psalm 146:6", "Psalm 2"]
+bible_references: ["Colossians 4:2", "Acts 1:14", "Acts 2:42", "Acts 6:4", "Acts 4:23-31", "Acts 12:5", "Romans 12:12", "1 Thessalonians 5:17-18", "Philippians 4:6-7", "1 Timothy 2:1-4", "Matthew 6:5-15", "Luke 11:1-13", "Luke 5:16", "Luke 6:12", "Luke 9:18", "Luke 4:42", "Mark 1:35-37", "Matthew 14:23", "John 6:15", "Matthew 26:36-39", "Luke 22:41", "Luke 22:39-46", "Hebrews 5:7", "John 17", "John 16:23-24", "Acts 7:59-60", "Revelation 22:20", "2 Corinthians 12:8-9", "1 Corinthians 1:2", "Ephesians 2:18", "Romans 8:26-27", "Ephesians 1:15-19", "Ephesians 3:14-19", "James 4:2-3", "James 5:16", "Daniel 6:10", "Deuteronomy 6:6-7", "Ephesians 6:4", "Psalm 78:4-7", "Matthew 6:10", "2 Chronicles 7:14", "Psalm 37:4", "Psalm 66:18-19", "Proverbs 28:9", "John 15:7", "James 4:7-10", "1 John 3:22", "1 John 5:14-15", "Exodus 32:11-14", "Daniel 9:2-3", "Daniel 9:18", "1 Samuel 3:10", "Romans 12:1-2", "Colossians 4:12", "Matthew 26:39-42", "1 Chronicles 29:10-11", "Nehemiah 1:5", "Psalm 103:1-2", "Psalm 100:4", "Proverbs 30:8-9", "1 Samuel 12:23", "Job 42:10", "Psalm 139:23-24", "1 John 1:9", "Acts 21:14", "John 11:41-42", "Isaiah 65:24", "Genesis 24:15", "Genesis 24:45", "Daniel 9:20-23", "Daniel 10:12-13", "John 12:28-29", "Acts 12:13-16", "Acts 16:6-10", "Psalm 141:2", "Revelation 5:8", "Revelation 8:3-5", "Revelation 6:9-11", "Romans 8:15-16", "Galatians 4:6-7", "Psalm 42:1-2", "Psalm 63:1", "Psalm 27:4", "Psalm 73:25", "Matthew 11:28-30", "Luke 10:38-42", "Psalm 16:11", "Exodus 20:11", "Psalm 146:6", "Psalm 2", "Hebrews 10:19-22", "Hebrews 4:14-16", "Hebrews 7:25", "Romans 8:34", "1 Timothy 2:5-6", "1 Timothy 5:5", "Luke 1:13", "Romans 10:1", "Ephesians 6:18", "2 Corinthians 8:4", "Acts 8:34"]
 date_created: 2024-10-06
 date_modified: 2026-09-07
 ai_provider_models:
@@ -54,8 +54,10 @@ prototyping — see that page for what each part is for and why.)*
   will, but yours, be done"
   (Luke 22:42). Hebrews says he "was heard because of his reverence" (5:7) — heard, and the cup
   stayed.
-- **He is praying now.** The intercession of John 17 did not stop at the ascension; it is the
-  ground of the access described below.
+- **He is praying for you now.** Not an inference from John 17 but a stated fact: "he always lives
+  to make intercession for them" (Hebrews 7:25), and he does it "at the right hand of God"
+  (Romans 8:34). The access described below rests on a living high priest, not only on a finished
+  transaction.
 
 ### Memory verses
 
@@ -182,6 +184,33 @@ both have access in one Spirit to the Father" (Ephesians 2:18). To the Father, t
 the Spirit. That is the normal Christian posture in prayer, and it is the posture of Paul's own
 recorded prayers, which are addressed to the Father (Ephesians 1:16-17; 3:14).
 
+**The access has a basis, and Hebrews states it.**
+
+> ✝️ Hebrews 10:19-22 (ESV)
+>
+> 19 Therefore, brothers, since we have confidence to enter the holy places by the blood of Jesus,
+> 20 by the new and living way that he opened for us through the curtain, that is, through his flesh,
+> 21 and since we have a great priest over the house of God, 22 let us draw near with a true heart in
+> full assurance of faith, with our hearts sprinkled clean from an evil conscience and our bodies
+> washed with pure water.
+
+"The way is open" is Hebrews' own phrase for what the cross did to the barrier around God's
+presence. The curtain is the temple veil, the blood is Jesus's, and the conclusion the writer draws
+from it is an instruction to pray: **draw near**. Hebrews 4:16 gives the same instruction with the
+promise attached — "let us then with confidence draw near to the throne of grace, that we may
+receive mercy and find grace to help in time of need."
+
+So when you pray you are not asking for a hearing. You are using one that was bought, and paid for
+in blood. That is the difference between approaching God and approaching him *with confidence*,
+which is the word both passages use.
+
+**And the one who opened it is still at work.** "He always lives to make intercession for them"
+(Hebrews 7:25); "Christ Jesus is the one who died — more than that, who was raised — who is at the
+right hand of God, who indeed is interceding for us" (Romans 8:34). Paul names the office in the
+same paragraph where he lists the four kinds of prayer: "there is one mediator between God and men,
+the man Christ Jesus, who gave himself as a ransom for all" (1 Timothy 2:5-6), four verses after
+2:1. The instruction to pray and the ground of praying sit together.
+
 **But prayer addressed to Jesus is also in the New Testament, and is never corrected.** Stephen dies
 praying to him: "Lord Jesus, receive my spirit" (Acts 7:59), which is Psalm 31:5 redirected to
 Christ. Paul "pleaded with the Lord" three times about his thorn and got an answer from Christ:
@@ -282,6 +311,12 @@ The disciples' one recorded request for teaching came after watching him do it: 
 praying in a certain place, and when he finished, one of his disciples said to him, 'Lord, teach us
 to pray'" (Luke 11:1).
 
+**What that says about the Father is the part to take away.** The Son of God, who was not short of
+anything, got up in the dark and walked out of a town that wanted him, repeatedly, for years, in
+order to talk to his Father. Prayer is not a remedy for weakness that stronger people can do
+without; it is what the strongest man who ever lived arranged his life around. If he wanted that
+much time with the Father, the Father is worth yours.
+
 ## How the apostles prayed, and what they taught
 
 **They treated prayer as work with a claim on their time.** When administration threatened it, the
@@ -346,10 +381,34 @@ Louw-Nida assigns each its own semantic domain.
 
 | Greek | Sense | In practice |
 |---|---|---|
-| **δεήσεις** (*deēseis*) | entreaty out of need | what you lack, and cannot fix |
+| **δεήσεις** (*deēseis*) | asking out of need — begging | what you lack, and cannot fix |
 | **προσευχάς** (*proseuchas*) | prayer, the general word | the ordinary talking |
 | **ἐντεύξεις** (*enteuxeis*) | approaching someone on another's behalf | intercession — named people |
 | **εὐχαριστίας** (*eucharistias*) | thanksgiving | what he has already done |
+
+**"Supplication" is an accurate translation of the first and an unhelpful one**, because the English
+word is now archaic enough to hide what it means. The sense is in the verb it comes from.
+**δέομαι** (*deomai*) is not a religious word at all: of its twelve New Testament occurrences, most
+are people begging other people. Paul implores the Corinthians (2 Corinthians 10:2) and the
+Galatians (4:12); the Ethiopian eunuch asks it of Philip (Acts 8:34); Paul uses it on a Roman
+tribune (Acts 21:39) and on Agrippa (26:3); the father of the demonised boy uses it on Jesus
+(Luke 9:38); and the Macedonians use it on Paul, begging for the *privilege of giving*
+(2 Corinthians 8:4).
+
+So the root sense is urgent asking out of need — begging, pleading — and the noun is that word
+pointed upward. All eighteen New Testament occurrences of **δέησις** are addressed to God, and each
+clear case has a specific lack behind it: Zechariah childless (Luke 1:13), Paul for Israel's
+salvation (Romans 10:1), the widow "left all alone" (1 Timothy 5:5), and Jesus in Gethsemane,
+offering "prayers and supplications, with loud cries and tears" (Hebrews 5:7).
+
+**Four times it stands beside προσευχή in the same verse** — here, and 1 Timothy 5:5,
+Ephesians 6:18, Philippians 4:6 — which is not how anyone uses two words for one thing. Philippians
+4:6 is the plainest: "by prayer and supplication." The general act, and the specific asking inside
+it.
+
+That matters practically, because δέησις is the step most people are best at and most embarrassed
+about. Scripture is not embarrassed by it. Paul puts it first of the four, and it is the word chosen
+for the Son of God on the night he was betrayed.
 
 Most prayer lives are heavy on the first and light on the last two. Paul's ordering puts
 intercession and thanksgiving in the same breath as asking for yourself, and then names the least
@@ -360,6 +419,10 @@ strength of the relationship — a child brings a father
 whatever is in his hands, and the smallness of a thing is not a reason to leave it out. And
 Colossians 4:2 attaches the thanksgiving to the steadfastness — "being watchful in it with
 thanksgiving", the practical guard against a prayer life that becomes a list of complaints.
+
+Paul gives the ground four verses later, in the same paragraph: "there is one mediator between God
+and men, the man Christ Jesus, who gave himself as a ransom for all" (1 Timothy 2:5-6). The list of
+what to pray and the reason you may pray it are one piece of writing.
 
 **Use the Lord's Prayer as the shape, not as the words.** "Pray then *like this*" (Matthew 6:9) is
 an instruction about pattern. Its order is the useful part, and it is the reverse of most instinct:
@@ -616,7 +679,8 @@ acting. Ask what he wants before telling him what you want.
 ### Then bring yourself, and everyone else
 
 **4. Ask for today.** *"Give us this day our daily bread."* Real needs, plainly said, and today's
-rather than the whole year's. This is δέησις, entreaty out of need.
+rather than the whole year's. This is δέησις: asking out of need, the word used of Jesus in
+   Gethsemane.
 
 > **Try:** *"Today I need ______. I am not managing ______."*
 >

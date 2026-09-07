@@ -16,5 +16,6 @@ draft: false
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 4:15
 - [Charting End Times](../../last-things/prophecy-chart.md) — 4:9
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 4:14-16
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:14-16
 - [The Day Is Near](../../last-things/day-is-near.md) — 4:1-13
 <!-- commentary-index:auto-end -->
