@@ -94,6 +94,7 @@ stages:
         - {word: "δεῖ", language: greek, transliteration: "dei", strongs_id: "G1163", gloss: "it is necessary", notes: "ten in John; 4:4 the only imperfect; three of the ten in ch.4"}
         - {word: "ἐγώ εἰμι", language: greek, transliteration: "egō eimi", strongs_id: "G1473/G1510", gloss: "I am", notes: "4:26 is the first of 23 in John"}
         - {word: "κοπιάω", language: greek, transliteration: "kopiaō", strongs_id: "G2872", gloss: "to labour, grow weary", notes: "all three Johannine uses in ch.4: 4:6, 4:38 x2"}
+        - {word: "ἀντλέω", language: greek, transliteration: "antleō", strongs_id: "G501", gloss: "to draw (water)", notes: "four NT occurrences, all in John: 2:8, 2:9, 4:7, 4:15. LXX verb at Gen 24:13/20, Exod 2:16-19 (betrothal wells) and Isa 12:3, where LXX also has pege. Added 2026-09-07."}
         - {word: "μήτι", language: greek, transliteration: "mēti", strongs_id: "G3385", gloss: "surely not?", notes: "4:29; expects a negative answer"}
         - {word: "σωτήρ", language: greek, transliteration: "sōtēr", strongs_id: "G4990", gloss: "saviour", notes: "only occurrence in John, 4:42"}
   hermeneutics:
@@ -181,7 +182,7 @@ resources_consulted:
   - {type: commentary, title: "NLT Life Application Study Bible", author: "Tyndale", note: "4:26 footnote offering 'The I AM is here' and citing Exod 3:14"}
   - {type: other, title: "Josephus, Antiquities 20.118; Wars 2.232; Life 269", author: "Josephus", note: "cited via the Cultural Backgrounds note, not read directly -- stated that way in the draft"}
   - {type: other, title: "How to Read the Bible for All Its Worth", author: "Fee & Stuart", note: "method"}
-last_updated: "2026-09-06"
+last_updated: "2026-09-07"
 
 publication_2026-09-06:
   what: "Published at the user's instruction. draft: true -> false."
@@ -207,3 +208,56 @@ publication_2026-09-06:
     but not Phases 2, 5, 6 or 8 -- citation accuracy, an independent commentary cross-check,
     context coverage, or a style pass. Worth running.
   last_updated: "2026-09-06"
+
+rewrite_2026-09-07:
+  why: >
+    User feedback on the published study: "a lot of words and not a lot of so what", the Lessons
+    about Jesus section "does not even address living water", and "a lot of fluff at the opening."
+    All three were fair. The pege/phrear finding was the study's best material and it was sitting in
+    a word-study section while the Christological takeaways talked about Jesus's manner instead.
+  changes:
+    - >
+      Opening replaced. The old hook was four lines of scene-painting with no thesis. New opening
+      states the pege/phrear split and the Jeremiah 2:13 trade in bold inside the first 60 words,
+      then lands on 4:15 -- she asks for the spring as a labour-saving device.
+    - >
+      Lessons about Jesus rebuilt around the water. Now leads with "he is the spring itself"
+      (Jer 2:13 LXX pege), then source-not-supply (4:13 vs 4:14, Spirit at 7:39), then the gift
+      asked for and not earned (dorea, 4:10). The manner-of-Jesus bullets that used to open it were
+      cut or moved down.
+    - >
+      NEW section "What she asks for instead" (John 4:13-16). The old draft never quoted 4:13 or
+      4:15, which meant the supply/source point was made lexically and never narratively. 4:13 is
+      Jesus naming what a shaft delivers; 4:15 is her asking for the shaft-life minus the walk;
+      4:16 is his answer, which leaves the water entirely. This is now the hinge into the husbands
+      section.
+    - >
+      NEW word study: antleo, "to draw". Four NT occurrences, all in John -- 2:8, 2:9 (Cana), 4:7
+      (she came to draw), 4:15 (she asks never to draw again). VERIFIED via query.py word --strongs
+      G501. Same verb in the LXX at Gen 24:13, 24:20, Exod 2:16-19 (the betrothal well scenes the
+      study already cited) and at Isa 12:3, where the Hebrew is ma'ayan and the LXX renders it
+      PEGE -- verified, so Isaiah 12:3 stopped being a bare item in a list of water promises and
+      became part of the spring/shaft thread.
+    - >
+      Be Transformed converted from two prose paragraphs to the Think/Attitude/Do bullets
+      key-takeaways.md specifies, each anchored to a verse (2:13 / 4:20-24 / 4:15-16).
+    - >
+      Cuts: the edei/hour/Sychar material compressed from four paragraphs to two (dropped the
+      past-tense-form detail, which had no payoff); the English-versions section from ~24 lines to
+      ~12; the ego eimi predicate list shortened; the Gerizim and 2 Kings paragraphs tightened;
+      "the word choice sits on a specific Old Testament indictment" and "Both readings are in this
+      project's own database" deleted as signpost and study-talking-about-itself; the John 4:16-19
+      block quote trimmed to 4:17-19 since 4:16 is now quoted above it.
+    - Discussion question 1 replaced with the 4:13/4:15 "shorter walk to the same well" question.
+  net: >
+    Prose (excluding block quotes and tables) 3534 -> ~3730 words. Slightly longer, not shorter:
+    the cuts were real but the payoff added -- the 4:13-16 hinge, antleo, and the rebuilt Lessons
+    and Be Transformed sections -- was larger. The complaint was ratio, not length.
+  verification: >
+    npm run validate: no findings on this file (the 14 warnings in the run are all other files).
+    mkdocs build --strict: clean. refresh_frontmatter_provenance.py --check: no drift.
+    Every ESV quotation in the new material (4:13-16) checked against study-notes.db, not typed
+    from memory. antleo occurrences and the Isa 12:3 LXX pege re-derived from bible-text.db.
+  still_outstanding: >
+    A full review-bible-study pass has still not been run on this study (Phases 2, 5, 6, 8).
+  last_updated: "2026-09-07"
