@@ -540,3 +540,54 @@ review_2026-09-07b:
     each within an hour of writing it. That is a habit of this model rather than a one-off, and it
     is the argument for the check existing at all.
   last_updated: "2026-09-07"
+
+revision_2026-09-07h:
+  what: >
+    User asked what pattern their successive hand edits showed, confirmed three of the five offered,
+    and asked for those three to go into the skill plus a human-reviewer reminder.
+  the_three_they_confirmed:
+    - >
+      THE ANTITHESIS CONSTRUCTION. Their words: "breaking the antithesis construction is always a
+      thing. It adds fluff. Destroys confidence." Every hand edit they had made to agent prose
+      removed one -- "a practice kept, not a mood caught", "you are not a power I have to persuade",
+      "this year than last".
+    - "ESSAY REGISTER WHERE DEVOTIONAL BELONGS. Confirmed, with: \"if that is something I need to do than so be it.\""
+    - >
+      WRITING AROUND THE THEOLOGY. The one they rated highest: "this is really a strong one - i want
+      clear theology not side step around." Evidenced by their own additions: "through your Son
+      JESUS" for "your Son", "In Jesus' name" where the prayer had stopped at Amen, "he prayed the
+      FATHER'S WILL be done" for the descriptive "he prayed his way through".
+  measured: >
+    prayer-as-communion.md carried 18 ", not " plus 20 "rather than" in 8,000 words -- one every 210
+    -- AFTER two full adversarial reviews and a clean validate. Nothing had flagged it because
+    style-guide.md's existing rule named only the DASHED form ("Not X — Y") and called it "a tic by
+    the third", so the two commoner variants went uncounted.
+  written_into:
+    - >
+      style-guide.md: the existing rhetorical-rhythm bullet replaced with a full rule covering all
+      four forms, carrying the measured count and the delete-the-negative-half test. Two new "tell"
+      sections added: essay-vs-devotional register (with the structural split -- exegesis stays
+      analytical, Key Takeaways / Be Transformed / prayer / application go devotional), and writing
+      around the theology, which is the hard one because nothing in the sentence is wrong, only
+      absent.
+    - >
+      NEW FILE human-review.md -- deliberately only these three, since a longer list does not get
+      used. Each carries a one-line test and a calibration example from this corpus.
+    - "develop SKILL.md: Phase 7 now says to hand human-review.md back WITH the draft, naming which of the three the draft is weakest on."
+    - >
+      review SKILL.md Phase 8: says outright that two of the three are judgement calls a reviewer
+      who also drafted the file is the worst-placed person to make, and to hand the page to the user
+      rather than pretend to have covered them.
+  applied_to_this_study: >
+    38 -> 30. Eight cut where deleting the negative half lost nothing: "rather than with method",
+    ", not manufactured", a third consecutive "rather than" in three lines, "rather than a subject
+    list", "rather than a text to be recited", "not only that their circumstances would improve",
+    "rather than from technique", and "the pattern, not a script" which duplicated "a spine, not a
+    script" forty lines above.
+    THE REMAINING 30 WERE KEPT DELIBERATELY and the honest result is that most of this file's
+    antitheses are load-bearing: two are inside Scripture quotations ("not my will, but yours"),
+    and the rest carry real distinctions a reader arrives holding -- "argument from silence rather
+    than a prohibition", "appetite, not obligation", "the shape, not as the words", "kept rather
+    than declined", "a spine, not a script". Forcing the count lower would have cost meaning. The
+    density was the problem, not the device.
+  last_updated: "2026-09-07"

@@ -18,8 +18,7 @@ ai_provider_models:
 
 Prayer in the New Testament is a child speaking to a father. The cry it puts in a Christian's mouth
 is "Abba! Father!", and Paul says the Spirit *produces* that cry rather than the believer working it
-up (Romans 8:15). Everything practical below rests on that, which is why this study starts there
-rather than with method.
+up (Romans 8:15). Everything practical below rests on that, which is why this study starts there.
 
 What the relationship produces is a habit, and the New Testament has a word for that too:
 **προσκαρτερέω** (*proskartereō*) — to stick at something, to keep at it stubbornly. It occurs ten
@@ -75,7 +74,7 @@ prototyping — see that page for what each part is for and why.)*
 - **Think.** Prayer is not the lever that makes an unwilling God act. It is the access a Father has
   already opened. If you pray as though you must first get his attention, the problem is not your
   technique but your picture of him, and the picture comes first. The willingness to pray is given
-  ("the Spirit of adoption as sons, by whom we cry, 'Abba! Father!'", Romans 8:15), not manufactured.
+  ("the Spirit of adoption as sons, by whom we cry, 'Abba! Father!'", Romans 8:15).
 - **Attitude.** Approach prayer as a relationship: He is your personal Father. His will is always
   wiser and better than ours, and He offers His own strength for what it asks of us. "Your Father
   knows what you need before you ask him" (Matthew 6:8), and Jesus says that as a reason *to* pray,
@@ -90,9 +89,15 @@ prototyping — see that page for what each part is for and why.)*
 *(Prayed through the six movements this study arrives at — see
 [A pattern to pray by](#a-pattern-to-pray-by).)*
 
-Father, you are holy. Thank you for restoring my broken relatinship with you your Son to open it.
+Father, you are holy. Thank you for restoring my broken relationship with you through your Son Jesus.
 
-Thank you for that, and for the answers you have already given that I did not recognise at the time.
+Thank you that I can come to you freely, and commune with you in thanksgiving and in every
+supplication.
+
+Thank you that you always hear, and that you treasure my prayers.
+
+Thank you for the answers you have already given that I did not recognise, and for those you are
+holding over in your wisdom.
 
 Have your way in me. Where my asking is really instruction, correct it; I would rather want what you
 want than get what I came for.
@@ -101,7 +106,9 @@ Give me what today needs, and make me steady where I have been sporadic. For the
 in front of me, and the ones whose names I keep meaning to bring: let them know you better.
 
 Forgive me for treating prayer as the thing I do when the other options have run out, and make me
-quick to forgive where I have been slow. Keep me tomorrow; I will not manage it on my own. Amen.
+quick to forgive where I have been slow. Keep me tomorrow; I will not manage it on my own.
+
+In Jesus' name. Amen.
 
 ## Communion before discipline
 
@@ -186,7 +193,7 @@ Christians simply as "all those who in every place call upon the name of our Lor
 **The Spirit's role is stated differently.** Romans 8:26-27 has the Spirit interceding *for* us
 "with groanings too deep for words" — helping us pray rather than being the one addressed. No prayer
 in the New Testament is addressed to him. That is an argument from silence rather than a
-prohibition, but it is why this study describes the Spirit's part as helping rather than receiving.
+prohibition, and it is why this study describes the Spirit's part as help given to the one praying.
 
 So the practical answer: **make the Father your habit and your default, because that is what Jesus
 taught; speak to the Son freely, because Scripture does.**
@@ -349,7 +356,7 @@ intercession and thanksgiving in the same breath as asking for yourself, and the
 likely subject: governing authorities, including the ones persecuting the church he wrote to.
 
 Philippians 4:6 gives the scope in a word: "in everything." That is a permission granted on the
-strength of the relationship rather than a subject list to work through — a child brings a father
+strength of the relationship — a child brings a father
 whatever is in his hands, and the smallness of a thing is not a reason to leave it out. And
 Colossians 4:2 attaches the thanksgiving to the steadfastness — "being watchful in it with
 thanksgiving", the practical guard against a prayer life that becomes a list of complaints.
@@ -360,7 +367,7 @@ God's name, God's kingdom, God's will — *then* bread, forgiveness, and rescue.
 puts your requests in a frame before you make them. This site has a full exegetical study of the
 petitions themselves at [The Lord's Prayer](lords-prayer.md); what matters here is that it was given
 as a template to be used, and that it takes about twenty seconds, which makes it a usable spine for
-a longer prayer rather than a text to be recited and finished.
+a longer prayer.
 
 ## What prayer permits God to do
 
@@ -621,8 +628,7 @@ rather than the whole year's. This is δέησις, entreaty out of need.
 
 **5. Name other people.** ἔντευξις, intercession, which is what Paul's recorded prayers for
 churches consist of almost entirely (Ephesians 1:16-19; 3:14-19; Philippians 1:9-11;
-Colossians 1:9-10). His model is to ask that people would know God better, not only that their
-circumstances would improve.
+Colossians 1:9-10). His model is to ask that people would know God better.
 
 > **Try:** *"For ______ by name: that they would know you better, and for ______ that they are
 > carrying."*
@@ -690,11 +696,11 @@ inside normal life, which suggests short and frequent over long and scheduled. P
 the reason to bother: so "the next generation might know… and arise and tell them to their
 children," which is a two-generation horizon.
 
-What that looks like, drawn from what is above rather than from technique:
+What that looks like, drawn from what is above:
 
 - **Let them watch.** The disciples asked to be taught after seeing Jesus pray (Luke 11:1). A child
   who never sees a parent pray has been taught something already.
-- **Give them the pattern, not a script.** The Lord's Prayer is short enough to learn and structured
+- **Give them the pattern to build on.** The Lord's Prayer is short enough to learn and structured
   enough to build on. Walking through its order — God, then us — teaches a shape they can use when
   the words are their own.
 - **Pray the four kinds.** A child can do all of 1 Timothy 2:1: something I need, something I want
