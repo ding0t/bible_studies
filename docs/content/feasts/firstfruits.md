@@ -2,10 +2,10 @@
 title: "Firstfruits: The Sheaf Waved on the Third Day"
 category: "feasts"
 description: "Leviticus 23:9-14 commands a single sheaf waved before the LORD before any of the harvest may be eaten. What the statute actually requires, the disputed date that decides whether it falls on a Sunday, why that dispute collapsed in the crucifixion year, and why Paul calls Christ the aparche."
-tags: ["leviticus", "joshua", "1-corinthians", "romans", "resurrection", "chronology", "dead-sea-scrolls", "method/word-study", "method/typology", "lang/hebrew", "lang/greek"]
+tags: ["leviticus", "joshua", "numbers", "1-corinthians", "romans", "resurrection", "chronology", "dead-sea-scrolls", "method/word-study", "method/typology", "lang/hebrew", "lang/greek"]
 draft: true
 primary_passage: "Leviticus 23:9-14"
-bible_references: ["Leviticus 23:9-14", "Leviticus 23:15-16", "Leviticus 23:5-8", "Leviticus 7:30", "Joshua 5:10-12", "Exodus 23:19", "Exodus 34:26", "Deuteronomy 16:9", "1 Corinthians 15:20-23", "1 Corinthians 5:7", "Romans 8:23", "Romans 11:16", "James 1:18", "Revelation 14:4", "Colossians 1:18", "Revelation 1:5", "John 12:24", "Matthew 28:1", "John 20:1", "Ruth 1:22"]
+bible_references: ["Leviticus 23:9-14", "Leviticus 23:15-16", "Leviticus 23:5-8", "Leviticus 7:30", "Joshua 5:10-12", "Exodus 23:19", "Exodus 34:26", "Deuteronomy 16:9", "1 Corinthians 15:20-23", "1 Corinthians 5:7", "Romans 8:23", "Romans 11:16", "James 1:18", "Revelation 14:4", "Colossians 1:18", "Revelation 1:5", "John 12:24", "Matthew 28:1", "John 20:1", "Ruth 1:22", "Numbers 28:26", "Exodus 34:22", "Numbers 15:20-21"]
 date_created: 2026-09-07
 date_modified: 2026-09-07
 ai_provider_models:
@@ -46,7 +46,7 @@ the crucifixion year, uniquely, both readings land on the same Sunday.
 
 - He is called the firstfruits by the same word the Greek Old Testament uses for the sheaf — a
   named type, not an inferred resemblance.
-- His resurrection is presented as the legal release of a harvest, not a solitary wonder:
+- The resurrection of Jesus is presented as the legal release of a harvest, not a solitary wonder:
   "Christ the firstfruits, then at his coming those who belong to Christ" (1 Corinthians 15:23).
 - He said the same thing about himself in the same agricultural terms: "unless a grain of wheat
   falls into the earth and dies, it remains alone; but if it dies, it bears much fruit" (John 12:24).
@@ -108,6 +108,14 @@ harvest," and the Cultural Backgrounds volumes make the agricultural point: barl
 the spring, wheat some weeks later, which is why the grain offering of the later feast at
 Leviticus 23:16 is a different crop. Ruth 1:22 marks the same seasonal order. So Firstfruits sits at
 the front edge of the harvest year, not at its climax.
+
+**Which is where a real confusion starts, and it is cheaper to clear now than later.** The word
+"firstfruits" attaches to *two* feasts in the Old Testament. This barley sheaf is one. But Numbers
+28:26 calls the Feast of **Weeks** — Pentecost, fifty days later — "the day of the firstfruits, when
+you offer a grain offering of new grain to the LORD," and Exodus 34:22 calls that same feast "the
+firstfruits of wheat harvest." Two crops, two dates, one name, and a reader who looks the term up in
+a concordance will find both. This study is about the first of them, the barley sheaf of
+Leviticus 23:9-14, which is the one Paul reaches for at 1 Corinthians 15:20.
 
 **The verb is "wave," and it describes a gesture.** <span dir="rtl">נוּף</span> (*nuph*, H5130)
 occurs twice in verse 11 alone. The *NKJV Cultural Backgrounds Study Bible* describes the
@@ -242,6 +250,12 @@ sheaf does not merely *indicate* the harvest — until it is waved, the harvest 
 back into Paul, "Christ the firstfruits" says more than that his resurrection body previews ours. It
 says the rest of the harvest was legally in the field until he was lifted up, and is now available.
 
+Say it once without the title, because a title can hold a thing at arm's length. On a
+Sunday morning in Jerusalem a priest lifted a handful of barley in the temple and waved it before the
+LORD; outside the city wall, a man named Jesus walked out of a grave. The offering that made a
+nation's harvest lawful to eat and the event that makes your resurrection certain happened the same
+morning. **The sheaf was a promise about him, and he is the promise about you.**
+
 **"Each in his own order" is the sequence the feast already taught.** ἀπαρχή makes no sense as a
 solitary category — a first requires a second. Paul's argument through the chapter is that denying
 the general resurrection while affirming Christ's is incoherent, and the feast is why: nobody waves a
@@ -259,8 +273,10 @@ guarantee covers.
   of firstfruits of his creatures" (James 1:18). The harvest metaphor turns and the church stands in
   the sheaf's place.
 - **Israel.** "If the dough offered as firstfruits is holy, so is the whole lump, and if the root is
-  holy, so are the branches" (Romans 11:16) — the same logic of a consecrated first guaranteeing the
-  whole.
+  holy, so are the branches" (Romans 11:16). Paul is citing a specific statute rather than reaching
+  for a general metaphor: Numbers 15:20-21 commands that "of the first of your dough you shall
+  present a loaf as a contribution." Same logic as the sheaf — a consecrated first, and the whole
+  batch released by it.
 
 The pattern holds across all of them: a first that is genuinely part of what follows, offered to God,
 and therefore securing the rest. It is why the New Testament can call Christ "the firstborn from the

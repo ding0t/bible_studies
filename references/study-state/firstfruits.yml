@@ -188,3 +188,60 @@ revision_2026-09-07b:
     the hard part (a text whose own earliest translators disagreed), prophecy/Christ (1 Cor 15
     standing or falling together), be transformed (the order of giving).
   last_updated: "2026-09-07"
+
+review_2026-09-07:
+  reviewer: "review-bible-study, full pass, plus the new style-guide rules 5 and 6. Drafted by the same agent -- the author-bias caveat applies."
+  critical_found: 0
+  moderate_found: 3
+  all_fixed: true
+  findings:
+    - severity: moderate
+      what: >
+        THE STUDY NEVER NAMED JESUS. "Christ" appeared 18 times; "Jesus" appeared once, and only in
+        the template heading "### Lessons about Jesus". The study's own prose never said the name.
+        Defensible in places -- "Christ the firstfruits" is Paul's phrase and stays -- but for a
+        study whose subject is the resurrection, writing exclusively in the title is the pattern
+        rule 6 exists to catch. The office is an abstraction; the sheaf was waved on the morning a
+        named man walked out of a tomb.
+      fix: >
+        A closing paragraph in "Christ the firstfruits" that says it once without the title: a priest
+        lifting barley in the temple while outside the wall a man named Jesus walked out of a grave,
+        the same morning. Ends "the sheaf was a promise about him, and he is the promise about you"
+        -- which also lands the section in the second person, per rule 6's fourth move. Key
+        Takeaways bullet reworded to "The resurrection of Jesus is presented as...".
+    - severity: moderate
+      what: >
+        "FIRSTFRUITS" NAMES TWO DIFFERENT FEASTS AND THE STUDY NEVER SAID SO. Num 28:26 calls the
+        Feast of WEEKS "the day of the firstfruits", and Exod 34:22 calls it "the firstfruits of
+        wheat harvest". The study distinguished barley from wheat but never said the NAME is shared,
+        so a reader checking a concordance would hit Pentecost and be lost. Found by study_gaps
+        (Num 28 surfaced as a quotation link off Lev 23:5-16), not by reading.
+      fix: "A paragraph after the barley point: two crops, two dates, one name, and which one this study is about."
+    - severity: moderate
+      what: >
+        Romans 11:16's "dough offered as firstfruits" was cited as though it were a general metaphor.
+        It is a specific statute -- Num 15:20-21, "of the first of your dough you shall present a
+        loaf as a contribution" -- and the OT source was missing. Also a study_gaps find.
+      fix: "Statute cited alongside."
+  clean:
+    - "Phase 1: 6 block quotes and 7 inline quotations, all verbatim against esv-study-bible."
+    - "Phase 2: all 8 internal links resolve, including the chronology-anchors anchor."
+    - >
+      Phase 3: ἀπαρχή 9, נוּף twice at Lev 23:11, and the Brenton LXX divergence re-confirmed
+      (τῆς πρώτης at 23:11 against τῶν σαββάτων at 23:15) -- the study's central find, still standing.
+    - "Phase 4: 5/5 recorded claims passing."
+    - >
+      Phase 5: the NLT Life Application Study Bible, which the study does NOT cite, independently
+      CONFIRMS its central reading -- "The Israelites were not to eat the food from their harvest
+      until they had made this offering." That is the release-not-sample argument from a source the
+      study never leaned on.
+    - "Phase 7: placement correct, all tags in live corpus vocabulary, frontmatter complete."
+    - "Rule 5: 10 antitheses in 3,330 words, one every 333 -- inside the healthy band. No action."
+  tooling_note: >
+    A Hebrew lemma query returned 0 for רֵאשִׁית and briefly looked like a real finding. It was the
+    query string's Unicode normalisation, not the data -- the word is present, 51 occurrences,
+    correctly tagged at Lev 23:10. HEBREW LEMMA LOOKUPS MUST GO BY strongs_id, NOT BY STRING MATCH.
+    Recorded because it would produce a confident false finding in any future review.
+  agent_note: "The widened Check 10 caught this reviewer's own 'worth ___' filler again -- the fourth time in one session, each within minutes of writing it."
+  frontmatter: 'bible_references +3 (Num 28:26, Exod 34:22, Num 15:20-21); tags gained "numbers".'
+  last_updated: "2026-09-07"
