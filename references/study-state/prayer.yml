@@ -115,6 +115,17 @@ claims:
     note: >
       The study says it "occurs nowhere else in the New Testament" -- exactly the kind of
       exhaustiveness claim validate-content.js check 18 exists to flag, so it is machine-checked.
+  - id: pauls-prayer-cognition-words
+    what: >
+      knowledge/wisdom/understanding/revelation across Paul's three recorded church prayers --
+      the study states 4 + 2 + 1 + 1
+    sql: |
+      SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt'
+        AND lemma IN ('σοφία','ἐπίγνωσις','σύνεσις','ἀποκάλυψις')
+        AND ((book='Eph' AND chapter=1 AND verse BETWEEN 17 AND 18)
+          OR (book='Col' AND chapter=1 AND verse BETWEEN 9 AND 10)
+          OR (book='Phil' AND chapter=1 AND verse=9))
+    expect: 8
   - id: deesis-count
     what: δέησις occurrences in the NT, all addressed to God
     sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='δέησις'"
@@ -684,4 +695,60 @@ revision_2026-09-07j:
     embarrassed by it -- Paul puts it FIRST of the four, and it is the word chosen for the Son of God
     on the night he was betrayed.
   claims_added: "deesis-count 18, deomai-count 12, deesis-beside-proseuche 4 -- so none of the three numbers in the new prose can rot."
+  last_updated: "2026-09-07"
+
+
+revision_2026-09-07k:
+  what: >
+    User on "Paul's recorded prayers ask mostly for perception, not circumstances": perception "is
+    like just a way of looking at something, but the prayer is actually about knowing - about
+    wisdom."
+  verdict: >
+    Correct, and the Greek is decisive. Across Paul's three recorded church prayers (Eph 1:16-19;
+    Col 1:9-10; Phil 1:9) he asks four times for ἐπίγνωσις, twice for σοφία, and once each for
+    σύνεσις and ἀποκάλυψις. Eight cognition words, and the only one anywhere near "perception" is
+    αἴσθησις at Phil 1:9, glossed discernment. "Perception" was the agent's paraphrase and the
+    weakest word available; Paul asks for KNOWING.
+  changed: >
+    Both instances now read wisdom and knowledge, with the vocabulary given rather than summarised,
+    and the ἐπι- prefix explained: ἐπίγνωσις is γνῶσις intensified -- not information about God but
+    knowledge OF him, the kind had of a person rather than of a subject. Closes on the point that
+    lands it for a reader: he asks for people who know God better, "which is the one request no
+    change of circumstances could grant."
+  note: >
+    The antithesis was KEPT here on purpose. Rule 5 allows a contrast where the reader genuinely
+    arrives holding the wrong version, and "prayer is for changing circumstances" is exactly that.
+  claim_added: "pauls-prayer-cognition-words, expect 8, so the four counts in the new prose cannot rot."
+  last_updated: "2026-09-07"
+
+revision_2026-09-07l:
+  what: "User: did the epignosis finding end up expanding what intercessory prayer is, and its focus?"
+  answer: >
+    It should have, and pushing on it found something the study was at risk of implying WRONGLY.
+    There is an asymmetry in Paul that the study had only half of.
+  the_asymmetry: >
+    When Paul prays FOR churches, he asks for knowledge, wisdom, understanding and revelation --
+    eight cognition words across three prayers, no circumstances at all.
+    When he asks churches to pray FOR HIM, the requests are almost entirely circumstantial:
+    deliverance from the unbelievers in Judea and safe travel (Rom 15:31-32), an open door for the
+    word while in prison (Col 4:3), words given to speak boldly (Eph 6:19-20), deliverance from
+    wicked men (2 Thess 3:2).
+    Stating only the first half invited the reader to conclude that praying about circumstances is
+    unspiritual, which Paul rules out by his own practice.
+  the_distinguishing_feature: >
+    Not that circumstances are off-limits but that PAUL SAYS WHAT HE WANTS THE CIRCUMSTANCE FOR.
+    Not "open a door" but "open a door FOR THE WORD"; not "rescue me" but rescue me so that "the
+    word of the Lord may speed ahead and be honored" (2 Thess 3:1). The purpose is always larger
+    than the relief. Given to the reader as a test: name the thing you want, say what you want it
+    for, and see whether the answer survives being said out loud.
+  also_changed: >
+    Pattern step 5 now says his FIRST request for people is that they would know God better, and
+    that their circumstances belong there too "-- he asks for his own without embarrassment -- but
+    he attaches a purpose to each, and so should you." The 1 Tim 2:1 table row for ἐντεύξεις now
+    reads "named people, and what you want for them".
+  caught_in_the_same_pass: >
+    An ESV quotation had been anglicised -- "be honoured" where the ESV reads "honored". Small, and
+    exactly the class of error Phase 1 exists for: a quotation altered to match house spelling is
+    still an altered quotation. Swept the two studies for the other likely words (favour, colour,
+    neighbour, saviour, labour) inside quotation marks; none found.
   last_updated: "2026-09-07"

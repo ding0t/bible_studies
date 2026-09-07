@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:6
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:9
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:23
 <!-- commentary-index:auto-end -->

@@ -5,7 +5,7 @@ description: "Prayer as relationship before routine -- the Spirit-given cry of '
 tags: ["matthew", "luke", "acts", "revelation", "daniel", "ephesians", "colossians", "1-timothy", "james", "galatians", "hebrews", "psalms", "discipleship", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "Colossians 4:2"
-bible_references: ["Colossians 4:2", "Acts 1:14", "Acts 2:42", "Acts 6:4", "Acts 4:23-31", "Acts 12:5", "Romans 12:12", "1 Thessalonians 5:17-18", "Philippians 4:6-7", "1 Timothy 2:1-4", "Matthew 6:5-15", "Luke 11:1-13", "Luke 5:16", "Luke 6:12", "Luke 9:18", "Luke 4:42", "Mark 1:35-37", "Matthew 14:23", "John 6:15", "Matthew 26:36-39", "Luke 22:41", "Luke 22:39-46", "Hebrews 5:7", "John 17", "John 16:23-24", "Acts 7:59-60", "Revelation 22:20", "2 Corinthians 12:8-9", "1 Corinthians 1:2", "Ephesians 2:18", "Romans 8:26-27", "Ephesians 1:15-19", "Ephesians 3:14-19", "James 4:2-3", "James 5:16", "Daniel 6:10", "Deuteronomy 6:6-7", "Ephesians 6:4", "Psalm 78:4-7", "Matthew 6:10", "2 Chronicles 7:14", "Psalm 37:4", "Psalm 66:18-19", "Proverbs 28:9", "John 15:7", "James 4:7-10", "1 John 3:22", "1 John 5:14-15", "Exodus 32:11-14", "Daniel 9:2-3", "Daniel 9:18", "1 Samuel 3:10", "Romans 12:1-2", "Colossians 4:12", "Matthew 26:39-42", "1 Chronicles 29:10-11", "Nehemiah 1:5", "Psalm 103:1-2", "Psalm 100:4", "Proverbs 30:8-9", "1 Samuel 12:23", "Job 42:10", "Psalm 139:23-24", "1 John 1:9", "Acts 21:14", "John 11:41-42", "Isaiah 65:24", "Genesis 24:15", "Genesis 24:45", "Daniel 9:20-23", "Daniel 10:12-13", "John 12:28-29", "Acts 12:13-16", "Acts 16:6-10", "Psalm 141:2", "Revelation 5:8", "Revelation 8:3-5", "Revelation 6:9-11", "Romans 8:15-16", "Galatians 4:6-7", "Psalm 42:1-2", "Psalm 63:1", "Psalm 27:4", "Psalm 73:25", "Matthew 11:28-30", "Luke 10:38-42", "Psalm 16:11", "Exodus 20:11", "Psalm 146:6", "Psalm 2", "Hebrews 10:19-22", "Hebrews 4:14-16", "Hebrews 7:25", "Romans 8:34", "1 Timothy 2:5-6", "1 Timothy 5:5", "Luke 1:13", "Romans 10:1", "Ephesians 6:18", "2 Corinthians 8:4", "Acts 8:34"]
+bible_references: ["Colossians 4:2", "Acts 1:14", "Acts 2:42", "Acts 6:4", "Acts 4:23-31", "Acts 12:5", "Romans 12:12", "1 Thessalonians 5:17-18", "Philippians 4:6-7", "1 Timothy 2:1-4", "Matthew 6:5-15", "Luke 11:1-13", "Luke 5:16", "Luke 6:12", "Luke 9:18", "Luke 4:42", "Mark 1:35-37", "Matthew 14:23", "John 6:15", "Matthew 26:36-39", "Luke 22:41", "Luke 22:39-46", "Hebrews 5:7", "John 17", "John 16:23-24", "Acts 7:59-60", "Revelation 22:20", "2 Corinthians 12:8-9", "1 Corinthians 1:2", "Ephesians 2:18", "Romans 8:26-27", "Ephesians 1:15-19", "Ephesians 3:14-19", "James 4:2-3", "James 5:16", "Daniel 6:10", "Deuteronomy 6:6-7", "Ephesians 6:4", "Psalm 78:4-7", "Matthew 6:10", "2 Chronicles 7:14", "Psalm 37:4", "Psalm 66:18-19", "Proverbs 28:9", "John 15:7", "James 4:7-10", "1 John 3:22", "1 John 5:14-15", "Exodus 32:11-14", "Daniel 9:2-3", "Daniel 9:18", "1 Samuel 3:10", "Romans 12:1-2", "Colossians 4:12", "Matthew 26:39-42", "1 Chronicles 29:10-11", "Nehemiah 1:5", "Psalm 103:1-2", "Psalm 100:4", "Proverbs 30:8-9", "1 Samuel 12:23", "Job 42:10", "Psalm 139:23-24", "1 John 1:9", "Acts 21:14", "John 11:41-42", "Isaiah 65:24", "Genesis 24:15", "Genesis 24:45", "Daniel 9:20-23", "Daniel 10:12-13", "John 12:28-29", "Acts 12:13-16", "Acts 16:6-10", "Psalm 141:2", "Revelation 5:8", "Revelation 8:3-5", "Revelation 6:9-11", "Romans 8:15-16", "Galatians 4:6-7", "Psalm 42:1-2", "Psalm 63:1", "Psalm 27:4", "Psalm 73:25", "Matthew 11:28-30", "Luke 10:38-42", "Psalm 16:11", "Exodus 20:11", "Psalm 146:6", "Psalm 2", "Colossians 1:9-10", "Philippians 1:9", "Romans 15:30-32", "Ephesians 6:19-20", "Colossians 4:3-4", "2 Thessalonians 3:1-2", "Hebrews 10:19-22", "Hebrews 4:14-16", "Hebrews 7:25", "Romans 8:34", "1 Timothy 2:5-6", "1 Timothy 5:5", "Luke 1:13", "Romans 10:1", "Ephesians 6:18", "2 Corinthians 8:4", "Acts 8:34"]
 date_created: 2024-10-06
 date_modified: 2026-09-07
 ai_provider_models:
@@ -339,11 +339,33 @@ what has already happened as what God's "hand and… plan had predestined to tak
 only then ask. Notably they do not ask for the threat to be
 removed; they ask to speak boldly through it (4:29).
 
-**Paul's recorded prayers for churches ask mostly for perception, not circumstances.** In
-Ephesians 1:16-19 he asks that they would *know*: the hope of his calling, the riches of the
-inheritance, the greatness of the power already toward them. In Ephesians 3:14-19, that they would
-be strengthened inwardly and grasp the love of Christ. Set beside how most of us pray, the contrast
-is instructive: he asks for changed people more than changed situations.
+**Paul's recorded prayers for churches ask for wisdom and knowledge, not for circumstances**, and
+his own vocabulary is the evidence. Across the three (Ephesians 1:16-19; Colossians 1:9-10;
+Philippians 1:9) he asks four times for **ἐπίγνωσις** (*epignōsis*, knowledge), twice for
+**σοφία** (*sophia*, wisdom), and once each for **σύνεσις** (understanding) and **ἀποκάλυψις**
+(revelation). Not one of those is a request about circumstances.
+
+The prefix on the first is doing work. ἐπίγνωσις is γνῶσις with **ἐπι-** on the front — not
+information about God but knowledge *of* him, the kind you have of a person rather than of a
+subject. So Ephesians 1:17-18 asks for "the Spirit of wisdom and of revelation in the knowledge of
+him, having the eyes of your hearts enlightened", and Colossians 1:9 for "the knowledge of his will
+in all spiritual wisdom and understanding". Set beside how most of us pray, he asks for changed
+people more than changed situations — and specifically for people who **know God better**, which is
+the one request no change of circumstances could grant.
+
+**Which could be read as a rule against praying for circumstances, and Paul rules that out himself.**
+When he asks churches to pray for *him*, the requests are almost entirely circumstantial: that he
+would "be delivered from the unbelievers in Judea" and "come to you with joy" (Romans 15:31-32);
+that "God may open to us a door for the word" while he is in prison (Colossians 4:3); that "words
+may be given" him to speak boldly (Ephesians 6:19-20); that he be "delivered from wicked and evil
+men" (2 Thessalonians 3:2). Deliverance, travel, open doors, courage. He asks for all of it.
+
+The pattern is not that circumstances are unspiritual to pray about. It is that **Paul says what he
+wants the circumstance for.** Not "open a door" but "open a door *for the word*"; not "rescue me"
+but rescue me so that "the word of the Lord may speed ahead and be honored" (2 Thessalonians 3:1).
+The request has a purpose attached, and the purpose is always larger than the relief. That is a
+usable test for your own asking: name the thing you want, then say what you want it *for*, and see
+whether the answer survives being said out loud.
 
 **James supplies the two blunt sentences.** "You do not have, because you do not ask" (4:2), and
 immediately, "You ask and do not receive, because you ask wrongly, to spend it on your passions"
@@ -383,7 +405,7 @@ Louw-Nida assigns each its own semantic domain.
 |---|---|---|
 | **δεήσεις** (*deēseis*) | asking out of need — begging | what you lack, and cannot fix |
 | **προσευχάς** (*proseuchas*) | prayer, the general word | the ordinary talking |
-| **ἐντεύξεις** (*enteuxeis*) | approaching someone on another's behalf | intercession — named people |
+| **ἐντεύξεις** (*enteuxeis*) | approaching someone on another's behalf | intercession — named people, and what you want for them |
 | **εὐχαριστίας** (*eucharistias*) | thanksgiving | what he has already done |
 
 **"Supplication" is an accurate translation of the first and an unhelpful one**, because the English
@@ -495,7 +517,7 @@ is the whole posture in five words: "Speak, for your servant hears" (1 Samuel 3:
 seeking is the point at which my will is handed over, and Scripture presents that surrender as the
 condition God acts through. Romans 12 has the order exactly: present your body as a living
 sacrifice *first*, then "by testing you may discern what is the will of God" (12:1-2). Discernment
-follows surrender rather than preceding it. Which is why Paul's prayers ask for perception,
+follows surrender rather than preceding it. Which is why Paul's prayers ask for wisdom,
 Epaphras labours in prayer "that you may stand mature and fully assured in **all the will of God**"
 (Colossians 4:12), and the Spirit himself intercedes "according to the will of God" (Romans 8:27).
 
@@ -692,7 +714,9 @@ rather than the whole year's. This is δέησις: asking out of need, the word
 
 **5. Name other people.** ἔντευξις, intercession, which is what Paul's recorded prayers for
 churches consist of almost entirely (Ephesians 1:16-19; 3:14-19; Philippians 1:9-11;
-Colossians 1:9-10). His model is to ask that people would know God better.
+Colossians 1:9-10). His first request for them is that they would **know God better**. Their
+circumstances belong here too — he asks for his own without embarrassment — but he attaches a
+purpose to each, and so should you.
 
 > **Try:** *"For ______ by name: that they would know you better, and for ______ that they are
 > carrying."*

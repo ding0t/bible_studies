@@ -14,4 +14,5 @@ draft: false
 
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 15:4
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 15:8-12
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 15:30-32
 <!-- commentary-index:auto-end -->
