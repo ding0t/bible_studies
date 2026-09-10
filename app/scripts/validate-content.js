@@ -437,12 +437,18 @@ function validateFile(filePath) {
   // already covers bullet length.
   const proseLines = [];
   let inFence = false;
+  let inItem = false;
   for (const rawLine of bodyContent.split(/\r?\n/)) {
     if (/^\s*```/.test(rawLine)) { inFence = !inFence; continue; }
     if (inFence) continue;
-    if (/^\s*[>|#]/.test(rawLine)) continue;
-    if (/^\s*(?:[-*+]|\d+\.)\s/.test(rawLine)) continue;
-    if (/^\s*$/.test(rawLine)) { proseLines.push(''); continue; }
+    if (/^\s*[>|#]/.test(rawLine)) { inItem = false; continue; }
+    if (/^\s*(?:[-*+]|\d+\.)\s/.test(rawLine)) { inItem = true; continue; }
+    if (/^\s*$/.test(rawLine)) { inItem = false; proseLines.push(''); continue; }
+    // A list item's wrapped continuation lines are indented and match no marker. Skipping only the
+    // marker line left them in, glued to whatever prose followed, which invented long sentences and
+    // was why this check disagreed with a hand-run count by ~15%.
+    if (inItem && /^\s{2,}/.test(rawLine)) continue;
+    inItem = false;
     proseLines.push(rawLine.trim());
   }
   // Paragraph-bounded: a paragraph ending in a colon (introducing a block quote) would otherwise

@@ -35,7 +35,8 @@ Two conventions matter for everything that follows:
 1. **Bible prophecy uses a 360-day year.** The Flood lasted "five months"
    ([Genesis 7:11](https://www.blueletterbible.org/esv/Gen/7/11);
    [Genesis 8:3-4](https://www.blueletterbible.org/esv/Gen/8/3-4)), and that same span is elsewhere
-   counted as 150 days — five 30-day months. Revelation counts the same period three different ways
+    counted as 150 days — five 30-day months. Revelation counts that same period three different ways
+
    and gets the same number every time: 42 months
    ([Revelation 11:2](https://www.blueletterbible.org/esv/Rev/11/2)), "time, and times, and half a
    time," i.e. 3.5 years
@@ -90,12 +91,12 @@ already shows Israel doing, from the earliest prophets on:
   vocabulary itself is lunar — and commands trumpets and offerings "at the beginnings of your
   months" ([Numbers 10:10](https://www.blueletterbible.org/esv/Num/10/10);
   [28:11-15](https://www.blueletterbible.org/esv/Num/28/11)).
-- Pre-exilic prophets treat New Moon and Sabbath as a paired, ordinary observance: merchants
-  grumbling that they can't trade "until the new moon be over... and the Sabbath"
-  ([Amos 8:5 (ESV)](https://www.blueletterbible.org/esv/Amo/8/5), 8th century BC); "New moon and
-  Sabbath and the calling of convocations" grouped as Judah's normal (if hollow) religious calendar
-  ([Isaiah 1:13-14 (ESV)](https://www.blueletterbible.org/esv/Isa/1/13), 8th century BC);
-  "her feasts, her new moons, her Sabbaths" as the whole festal calendar under judgment
+- Pre-exilic prophets treat New Moon and Sabbath as a paired, ordinary observance. Merchants grumble
+  that they cannot trade "until the new moon be over... and the Sabbath"
+  ([Amos 8:5 (ESV)](https://www.blueletterbible.org/esv/Amo/8/5), 8th century BC). Isaiah groups
+  "New moon and Sabbath and the calling of convocations" as Judah's normal, if hollow, religious
+  calendar ([Isaiah 1:13-14 (ESV)](https://www.blueletterbible.org/esv/Isa/1/13), 8th century BC).
+  Hosea puts "her feasts, her new moons, her Sabbaths" under judgment as the whole festal calendar
   ([Hosea 2:11](https://www.blueletterbible.org/esv/Hos/2/11), 8th century BC). Elisha's own
   household, a century earlier, assumes visiting a prophet is something you do on "new moon or
   Sabbath" ([2 Kings 4:23](https://www.blueletterbible.org/esv/2Ki/4/23), 9th century BC) — a
@@ -135,12 +136,12 @@ Given that, this study runs two different tools for two different jobs, and keep
    360-day or 364-day scheme is involved in that part at all.
 2. **Decoding a prophecy's own internal time-arithmetic** (Daniel's seventy weeks, next) uses the
    **360-day schematic prophetic year** — not the fuller 364-day Zadok/Tekufah civil-calendar
-   claim, and not the lunar civil calendar either. The reasons: it's the convention Genesis 7-8
-   itself uses; Revelation cross-checks it three separate ways and gets the same figure every time
-   (see "Interpreting Bible prophecy" above); and it sidesteps the unresolved lunar-vs-solar civil
-   calendar question entirely, since it's a claim about how *this kind of prophecy counts*, not a
-   claim about what calendar Israel lived by day to day. That's a deliberately narrower, better
-   -evidenced claim than "the prophets used a 364-day civil calendar," and this study isn't making
+   claim, and not the lunar civil calendar either. Three reasons. It is the convention Genesis 7-8
+   itself uses. Revelation cross-checks it three separate ways and gets the same figure every time
+   (see "Interpreting Bible prophecy" above). And it sidesteps the unresolved lunar-vs-solar civil
+   calendar question, because it is a claim about how *this kind of prophecy counts* rather than a
+   claim about what calendar Israel lived by. That is a narrower and better-evidenced claim than
+   "the prophets used a 364-day civil calendar," and this study isn't making
    the larger one.
 
 ## The anchors
@@ -194,12 +195,12 @@ Given that, this study runs two different tools for two different jobs, and keep
 - **Why it's an anchor:** Neo-Babylonian court chronicles were kept to a standard of near
   day-by-day precision and cross-check against Ptolemy's later astronomical Canon, giving this
   period very high absolute precision.
-- **A wrinkle worth resolving, not hiding:** the Chronicle's "seventh year" and 2 Kings 24:12's
-  "eighth year" of Nebuchadnezzar look like a contradiction at first glance. They're not — Babylon
-  used *accession-year* reckoning (a king's first partial year on the throne is his "accession
-  year," and his first full year is year 1), and this is one of the places where the biblical
-  text's counting runs on the alternate *non-accession-year* convention (the partial first year
-  already counts as year 1), pushing every later regnal year up by one. This isn't special pleading
+- **A wrinkle, resolved openly.** The Chronicle's "seventh year" and 2 Kings 24:12's
+  "eighth year" of Nebuchadnezzar look like a contradiction. They are not. Babylon used
+  *accession-year* reckoning: a king's first partial year on the throne is his "accession year," and
+  his first full year is year 1. The biblical text here runs on the alternate
+  *non-accession-year* convention, where the partial first year already counts as year 1. That
+  pushes every later regnal year up by one. This isn't special pleading
   for this one date — it's the same mechanism Thiele's reconstruction uses systematically to
   reconcile Israel's and Judah's regnal counts with each other above.
 
@@ -382,31 +383,39 @@ rules it out regardless of that wording.
 A genuine, independently computable eclipse *is* connected to this week — just not the daytime
 darkness, and not a solar one. Colin Humphreys and Graeme Waddington calculated every lunar eclipse
 visible from Jerusalem at Passover across every candidate crucifixion year, AD 26-36 (*Nature*,
-1983), and found exactly one: **Friday, 3 April AD 33**, when a partial lunar eclipse was already in
-progress as the moon rose over the Mount of Olives around 6:20pm — hours *after* the daytime
-darkness of the crucifixion itself, at the moment 14 Nisan was ending and 15 Nisan (the Sabbath)
-beginning. They connected this to Peter's Pentecost sermon, which quotes
-[Joel 2:31 (ESV)](https://www.blueletterbible.org/esv/Joe/2/31) — "the sun shall be turned to
-darkness, and the moon to blood" — as
-[Acts 2:20 (ESV)](https://www.blueletterbible.org/esv/Act/2/20), proposing Peter's audience had
-this very eclipse, seven weeks earlier, in living memory.
+1983). They found exactly one: **Friday, 3 April AD 33**.
 
-**That claim has been directly challenged.** Bradley Schaefer's peer-reviewed reply (*Quarterly
-Journal of the Royal Astronomical Society*, 1990) recalculated how much of the moon's disc would
-actually have been perceptibly shadowed as it cleared the horizon and became visible to the naked
-eye, and found the answer was small — by his estimate, at most a partial dimming of a fraction of
-the disc, with the eclipsed portion largely gone by the time the moon was high enough to see clearly
-against the twilight sky. His comparison: trying to spot an eight-watt red bulb next to a
-searchlight. A "blood moon" vivid enough to be *remarked on* seven weeks later, on his numbers,
-overstates what was actually visible.
+A partial lunar eclipse was already in progress as the moon rose over the Mount of Olives around
+6:20pm — hours *after* the daytime darkness of the crucifixion, at the moment 14 Nisan was ending
+and 15 Nisan, the Sabbath, was beginning.
 
-**What's worth taking from this, carefully:** Waddington's search found AD 33 as the *only* year in
-an eleven-year window with a Passover lunar eclipse visible from Jerusalem at all — that's a hard
-astronomical fact, true regardless of how vivid it looked, and it's a third, independent line
-converging on AD 33 alongside Hoehner's weekday-based dating in the calculation above. But
-"an eclipse occurred that week" and "the crowd at Pentecost was talking about a vivid blood moon"
-are two different claims with two different levels of support, and Schaefer's critique means only
-the first one is solid. [Chronology Anchors](chronology-anchors.md#settling-the-crucifixion-year) goes further and declines to use the eclipse at all, on the ground that Peter is quoting Joel about what *will* happen rather than reporting the previous Friday's sky. Treat the convergence as suggestive, not as independent proof stacked on
+They connected this to Peter's Pentecost sermon, which quotes [Joel 2:31
+(ESV)](https://www.blueletterbible.org/esv/Joe/2/31) — "the sun shall be turned to darkness, and the
+moon to blood" — as [Acts 2:20 (ESV)](https://www.blueletterbible.org/esv/Act/2/20). Their proposal
+is that Peter's audience had this very eclipse, seven weeks earlier, in living memory.
+
+**That claim has been directly challenged.** Bradley Schaefer replied in the *Quarterly Journal of
+the Royal Astronomical Society* (1990). He recalculated how much of the moon's disc would actually
+have been shadowed as it cleared the horizon and became visible to the naked eye.
+
+The answer was small. By his estimate, at most a partial dimming of a fraction of the disc, with the
+eclipsed portion largely gone by the time the moon was high enough to see clearly against the
+twilight sky. His comparison: trying to spot an eight-watt red bulb next to a searchlight.
+
+So a "blood moon" vivid enough to be *remarked on* seven weeks later overstates what was visible.
+
+**What to take from this, carefully.** Waddington's search found AD 33 as the *only* year in
+an eleven-year window with a Passover lunar eclipse visible from Jerusalem at all. That is a hard
+astronomical fact, true regardless of how vivid it looked, and it is a third independent line
+converging on AD 33 alongside Hoehner's weekday-based dating above.
+
+But two claims are in play, and they are not the same. "An eclipse occurred that week." And "the
+crowd at Pentecost was talking about a vivid blood moon." Schaefer's critique leaves only the first
+standing.
+
+[Chronology Anchors](chronology-anchors.md#settling-the-crucifixion-year) goes further and declines
+to use the eclipse at all. Peter is quoting Joel about what *will* happen, not reporting the
+previous Friday's sky. So treat the convergence as suggestive, not as independent proof stacked on
 top of the Daniel calculation.
 
 ### The Star of Bethlehem (noted, not pursued here)
