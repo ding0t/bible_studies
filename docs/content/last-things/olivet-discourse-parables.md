@@ -15,31 +15,35 @@ ai_provider_models:
 
 # The Parables of the Olivet Discourse
 
-Matthew alone extends the Olivet Discourse into four parables that Mark and Luke's versions of this
-same conversation don't carry, and **each of the four answers the same question — how do you wait for
-a coming with no announced date — with a different, specific standard of judgment**: a steward is
-judged for what he does with the delay, a bridesmaid for what she brought before it started, a
-servant for what he risked with what wasn't his, and a nation for who it fed. Flattening the four
-into one lesson about "being ready" loses exactly what each was built to say differently.
+Matthew alone carries these four parables. Mark and Luke record the same conversation and do not
+have them.
+
+All four answer one question: **how do you wait for a coming with no announced date?** But each
+answers it with a different standard of judgment. A steward is judged for what he does with the
+delay. A bridesmaid, for what she brought before it started. A servant, for what he risked with what
+was never his. A nation, for who it fed.
+
+Flatten the four into one lesson about "being ready" and you lose the thing each was built to say.
 
 ## Key Takeaways
 
 ### Types & Prophecy
 
-The sheep-and-goats judgment (25:31-46) sits on an Old Testament prophecy about the same act: "I
-judge between sheep and sheep, the rams and the male goats" (Ezekiel 34:17, WEB), spoken against
-shepherds who fed themselves and let the flock scatter. Ezekiel's oracle and Jesus's parable use the
-same image for the same purpose — sorting a mixed flock at the point where a shepherd's job requires
-it — three centuries apart.
+The sheep-and-goats judgment (25:31-46) rests on an older prophecy about the same act. "I judge
+between sheep and sheep, the rams and the male goats" (Ezekiel 34:17, WEB). Ezekiel spoke that
+against shepherds who fed themselves and let the flock scatter.
+
+Three centuries apart, the oracle and the parable use one image for one purpose: sorting a mixed
+flock at the point where a shepherd's job requires it.
 
 ### Lessons about Jesus
 
 Jesus casts himself as the bridegroom in the third parable (25:1, 5-6, 10) — an image John the
 Baptist had already applied to him: "the one who has the bride is the bridegroom" (John 3:29, ESV).
-He also casts himself as the King who identifies personally with the treatment of "the least of these
-my brothers" (25:40) — not a general claim to notice suffering, but a specific claim that what is
-done to his own is done to him, the same claim he makes in Matthew 10:40, "he who receives you
-receives me."
+He also casts himself as the King. And that King takes the treatment of "the least of these my
+brothers" personally (25:40). This is not a general claim that God notices suffering. It is the
+specific claim that what is done to his own is done to him — the same claim he makes at
+Matthew 10:40, "he who receives you receives me."
 
 ### Memory verses
 
@@ -50,12 +54,13 @@ Goats](#the-sheep-and-the-goats-2531-46).
 
 ### Be Transformed
 
-Three of the four parables measure faithfulness by proportion, not by outcome or by intensity of
-feeling: the wicked servant is condemned for what he does with a delay he didn't ask for (24:48-49),
-the one-talent servant for what he refused to risk with what was never his (25:24-25), and the
-goats for what they never did for people they never thought mattered (25:44-45). None of the three
-failures required a dramatic sin — each is a failure of ordinary, sustained faithfulness with
-whatever was actually entrusted.
+Three of the four measure faithfulness by proportion. Not by outcome, and not by how strongly anyone
+felt. The wicked servant is condemned for what he does with a delay he did not ask for (24:48-49).
+The one-talent servant, for what he refused to risk with money that was never his (25:24-25). The
+goats, for what they never did for people they never thought mattered (25:44-45).
+
+Notice what none of those required. No dramatic sin. Each is a failure of ordinary, sustained
+faithfulness with whatever was actually entrusted.
 
 ### Prayer
 
@@ -92,10 +97,10 @@ judgment, not incidental language.
 Five of the ten were ready for the bridegroom's return and five weren't, and when he came,
 readiness could not be borrowed — only prepared beforehand.
 
-The wedding custom behind this parable is a Judean betrothal wedding: the groom's party would come to
-the bride's house after dark, at an hour the bridesmaids couldn't know precisely in advance, "given
-the many preparations (and the bride's relatives haggling over the value of the gifts given them)"
-(*NIV Cultural Backgrounds Study Bible*, note on 25:1). The "lamps" the ten virgins carry (λαμπάς,
+Behind the parable is a Judean betrothal wedding. The groom's party came to the bride's house after
+dark, and the bridesmaids could not know the hour in advance — "given the many preparations (and the
+bride's relatives haggling over the value of the gifts given them)" (*NIV Cultural Backgrounds Study
+Bible*, note on 25:1). The "lamps" the ten virgins carry (λαμπάς,
 *lampas*) are more likely torches than household oil lamps — "torches, which characterized night
 weddings throughout the ancient Mediterranean world," sometimes "simple oil-soaked rags wrapped
 around sticks" needing rewrapping roughly every fifteen minutes (*NIV Cultural Backgrounds Study
@@ -136,11 +141,11 @@ done, good and faithful servant. You have been faithful over a little; I will se
 and the one who turned two into four. Reward tracks faithfulness with what was given, not the size of
 what was given. The third servant's stated reason for burying his talent is not laziness but fear
 built on a specific, false belief about his master's character: "I knew you to be a hard man,
-reaping where you did not sow... so I was afraid" (25:24-25, ESV). The master's reply doesn't dispute
-the description of himself — "you knew that I reap where I have not sown" (25:26) — he disputes the
-conclusion the servant drew from it: a master who reaps a return expects one, which is a reason to
-risk what was entrusted, in this case at minimum with "the bankers" for guaranteed interest (25:27),
-not a reason to bury it. The servant's fear didn't protect the talent from loss; it guaranteed it —
+reaping where you did not sow... so I was afraid" (25:24-25, ESV). The master does not dispute the description of himself. "You knew that I reap where I have not sown"
+(25:26). What he disputes is the conclusion the servant drew from it.
+
+A master who reaps a return expects one. That is a reason to risk what was entrusted — at minimum
+with "the bankers", for guaranteed interest (25:27). It is not a reason to bury it. The servant's fear didn't protect the talent from loss; it guaranteed it —
 "take the talent from him... cast the worthless servant into the outer darkness" (25:28, 30) — the
 same judgment formula that closed the first parable of this set.
 
@@ -149,34 +154,39 @@ same judgment formula that closed the first parable of this set.
 This judgment turns on what people actually did — who they fed, welcomed, and visited — done to
 people the King calls his own.
 
-The closing scene draws on an ordinary Judean shepherding practice: sheep and goats "often looked
-similar from a distance and often grazed together," but were separated at night, "because the goats
-required a warmer place to rest" (*NIV Biblical Theology Study Bible*, note on 25:32). The separation
-Jesus describes — "he will separate people one from another as a shepherd separates the sheep from
-the goats" (25:32, ESV) — pictures a routine, practiced act, not an unusual one; a shepherd did this
-every evening. Ezekiel had already used the identical image for divine judgment: "I judge between
-sheep and sheep, the rams and the male goats" (Ezekiel 34:17, WEB), in an oracle against shepherds who
-had fed themselves instead of the flock (Ezekiel 34:2-4) — the same pairing of images, sheep valued
-over goats, applied the same way seven centuries earlier.
+The closing scene draws on ordinary Judean shepherding. Sheep and goats "often looked similar from a
+distance and often grazed together." At night they were separated, "because the goats required a
+warmer place to rest" (*NIV Biblical Theology Study Bible*, note on 25:32).
 
-The scene's most contested phrase is "the least of these my brothers" (25:40, ESV). Read broadly,
-it names suffering people in general, and the parable becomes a call to humanitarian compassion
-toward anyone in need — a reading with real support in how naturally the list (hungry, thirsty,
-stranger, naked, sick, imprisoned) maps onto ordinary human need. Read more narrowly, "my brothers"
-picks up Matthew's own earlier definition of the term — "whoever does the will of my Father who is in
-heaven, he is my brother" (12:50, WEB), spoken of Jesus's disciples specifically — and Jesus's earlier
-promise that "whoever gives one of these little ones just a cup of cold water... in the name of a
-disciple, will in no way lose his reward" (10:42, WEB), a promise attached explicitly to how *nations*
-treat his own sent-out messengers. On that reading, "all the nations" gathered before the King
-(25:32) are being judged corporately, as Gentile nations, on how they treated Christ's own people —
-his messengers, and by extension ethnic Israel — during whatever period this final, still-future
-judgment follows, which fits the discourse's larger dispensational shape better than a general
-judgment of individual souls: this scene judges nations, gathered together, at the King's visible
-appearing (25:31) — a specific end-time scene, not the ordinary pattern of personal salvation taught
-everywhere else in the Gospels as by grace through faith. Both readings agree on the parable's
-practical center: real, concrete action toward people in real need, done or withheld, is what the
-King names as evidence — "as you did it... you did it to me" (25:40) and its mirror, "as you did not
-do it... you did not do it to me" (25:45).
+So the separation Jesus describes is a routine act. "He will separate people one from another as a
+shepherd separates the sheep from the goats" (25:32, ESV). A shepherd did that every evening.
+
+Ezekiel had used the same image seven centuries earlier, and for the same purpose. "I judge between
+sheep and sheep, the rams and the male goats" (Ezekiel 34:17, WEB). His oracle was against shepherds
+who fed themselves instead of the flock (Ezekiel 34:2-4).
+
+One phrase in the scene is contested: "the least of these my brothers" (25:40, ESV).
+
+**Read broadly**, it names suffering people in general, and the parable becomes a call to compassion
+toward anyone in need. That reading has real support. The list — hungry, thirsty, stranger, naked,
+sick, imprisoned — maps straight onto ordinary human need.
+
+**Read narrowly**, "my brothers" picks up a definition Matthew has already given. "Whoever does the
+will of my Father who is in heaven, he is my brother" (12:50, WEB), said of the disciples. It also
+picks up an earlier promise: "whoever gives one of these little ones just a cup of cold water… in
+the name of a disciple, will in no way lose his reward" (10:42, WEB). That promise is attached to
+how people treat his sent-out messengers.
+
+On the narrow reading, "all the nations" are judged as nations (25:32). The measure is how they
+treated Christ's own — his messengers, and by extension ethnic Israel — during the period this
+still-future judgment follows. It fits the discourse's dispensational shape. And it keeps the scene
+where Matthew puts it: nations gathered at the King's visible appearing (25:31), which is a specific
+end-time event. It is not the ordinary pattern of personal salvation, taught everywhere else in the
+Gospels as by grace through faith.
+
+Both readings agree on the practical centre. What the King names as evidence is real action toward
+people in real need, done or withheld. "As you did it… you did it to me" (25:40). And its mirror:
+"as you did not do it… you did not do it to me" (25:45).
 
 ## Discussion Questions
 

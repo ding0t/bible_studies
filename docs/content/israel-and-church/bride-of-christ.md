@@ -14,17 +14,24 @@ ai_provider_models:
 
 # The Bride of Christ
 
-Paul quotes Genesis on a man leaving his father and mother to hold fast to his wife, and then says
-something about what he has just quoted that is easy to read past: "This mystery is profound, and I am saying that it
-refers to Christ and the church" (Ephesians 5:32, ESV). He is not reaching for an illustration. He is
-telling his readers that marriage was carrying this meaning all along.
+Paul quotes Genesis: a man leaves his father and mother and holds fast to his wife. Then he says
+something about that verse which is easy to read straight past. **"This mystery is profound, and I
+am saying that it refers to Christ and the church"** (Ephesians 5:32, ESV).
 
-That gives the bride imagery a footing most typology does not have. **Where the New Testament itself
-makes the identification — Paul, John the Baptist, the book of Revelation — the type is stated, not
-inferred; where the argument depends instead on reconstructing first-century wedding practice, the
-ground is softer, and some of the most confidently repeated details have no ancient source behind
-them at all.** This study sorts the material into those tiers and says which is which, because the
-strongest form of the doctrine does not need the weakest evidence for it.
+He is not reaching for an illustration. He is telling the Ephesians that marriage had been carrying
+this meaning the whole time.
+
+That matters. Most Old Testament pictures of Christ have to be argued for — you notice the pattern
+and make the case that it was intended. This one does not. Paul states it outright. John the Baptist
+states it. Revelation states it twice in its closing chapters.
+
+But not everything taught about the bride comes from Scripture. A good deal of it comes from
+reconstructions of the first-century Jewish wedding — the father inspecting the chamber, the groom's
+"only my father knows the day," the bridal chamber prepared in the father's house. Some of that is
+documented. Some of it has no ancient source at all.
+
+So this study sorts the evidence into tiers and tells you which tier you are standing on. The
+doctrine is strong. It does not need the weak arguments, and it is better off without them.
 
 ## Key Takeaways
 
@@ -67,11 +74,14 @@ come, and bring us to the table you have not yet finished. Amen.
 
 ## Where Scripture Says It Itself
 
-Two of this study's primary passages need placing before they are quoted. **Ephesians** is
-written by a prisoner — "I, Paul, a prisoner of Christ Jesus on behalf of you Gentiles" (3:1), "an
-ambassador in chains" (6:20) — and the marriage passage sits inside a long section on Spirit-filled
-conduct that begins "be filled with the Spirit" (5:18), so the husband-and-wife material arrives as
-an application of that, not as a standalone treatise on marriage. **Revelation** is written to seven
+Two of this study's primary passages need placing before they are quoted.
+
+**Paul wrote Ephesians from prison.** "I, Paul, a prisoner of Christ Jesus on behalf of you
+Gentiles" (3:1). "An ambassador in chains" (6:20). And the marriage passage sits inside a long
+section on Spirit-filled conduct, which opens "be filled with the Spirit" (5:18). So the
+husband-and-wife material is an application of that. It is not a treatise on marriage.
+
+**Revelation** is written to seven
 named congregations in Asia (1:4) by a man in exile on Patmos "on account of the word of God and the
 testimony of Jesus" (1:9). Its wedding is announced to churches under pressure, which is why the
 Bride's readiness is described as something granted rather than achieved.
@@ -351,7 +361,7 @@ independently, so the resonance is a recognised one rather than a private constr
 
 It is still a resonance. Matthew does not quote the Song, and συκῆ is simply the ordinary word for a
 fig tree, so shared vocabulary proves nothing on its own. What the two passages share is a structure
-of inference — the season tells you the time — and that is worth seeing without being turned into a
+of inference — the season tells you the time — and it repays seeing without being turned into a
 citation.
 
 ## What Popular Teaching Adds, and Why It Is Not Needed

@@ -415,6 +415,63 @@ function validateFile(filePath) {
     }
   }
 
+  // Check 20: prose that cannot be read aloud. These studies get read to families and taught
+  // from; the New Testament letters were written to be read to a gathered church, which is why
+  // they are easy to say and this corpus was not. A reader tried reading bride-of-christ.md to
+  // his wife and stopped -- "it sounds too vague and sparse... a sentence that has a lot of words
+  // but didn't have much substance".
+  //
+  // AVERAGE LENGTH IS NOT THE SIGNAL and checking it would find nothing: bride-of-christ averaged
+  // 25.0 words against Ephesians 5's 23.4. What separates them is the MEDIAN and the long tail.
+  // Romans 12 averages 20.2 with a median of 10 -- half its sentences are ten words or shorter, so
+  // a point lands and is then developed. Uniform mid-length prose has no rhythm and nothing lands.
+  // Measured on the WEB text: Eph 5 median 20 / 16.7% at >=35w; Rom 12 median 10 / 15.0%;
+  // Phil 4 median 15 / 7.4%; 1 Cor 13 median 13 / 6.7%.
+  //
+  // Thresholds sit just outside the worst Pauline chapter measured, so Paul himself would pass:
+  // median >= 22, or >= 25% of sentences at 35+ words. Both are WARNINGS -- a dense evidence
+  // section legitimately runs long, and the author decides per file.
+  //
+  // Only prose paragraphs are counted. Block quotes are the source's sentence length and not the
+  // author's; tables, code fences, headings and list items have their own conventions and Check 12
+  // already covers bullet length.
+  const proseLines = [];
+  let inFence = false;
+  for (const rawLine of bodyContent.split(/\r?\n/)) {
+    if (/^\s*```/.test(rawLine)) { inFence = !inFence; continue; }
+    if (inFence) continue;
+    if (/^\s*[>|#]/.test(rawLine)) continue;
+    if (/^\s*(?:[-*+]|\d+\.)\s/.test(rawLine)) continue;
+    if (/^\s*$/.test(rawLine)) { proseLines.push(''); continue; }
+    proseLines.push(rawLine.trim());
+  }
+  const proseText = proseLines
+    .join('\n')
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')   // links -> their text
+    .replace(/[*_`]/g, '')
+    .replace(/<[^>]+>/g, '')
+    // protect the abbreviations and references that would otherwise split a sentence
+    .replace(/\b(vv?|cf|e\.g|i\.e|Gk|Heb|Lit|St|Mt|Mk|Lk|Jn|ch|chs|p|pp|ed|trans|c)\.\s/gi, '$1<DOT> ')
+    .replace(/(\d)\.\s(?=\d)/g, '$1<DOT> ');
+  const sentences = proseText
+    .split(/(?<=[.!?])["')\]]*\s+(?=[A-Z"'\u201c(])/)
+    .map((x) => x.replace(/<DOT>/g, '.').trim())
+    .filter((x) => x.split(/\s+/).filter(Boolean).length > 3);
+  if (sentences.length >= 25) {
+    const lengths = sentences.map((x) => x.split(/\s+/).filter(Boolean).length).sort((a, b) => a - b);
+    const mid = Math.floor(lengths.length / 2);
+    const median = lengths.length % 2 ? lengths[mid] : Math.round((lengths[mid - 1] + lengths[mid]) / 2);
+    const longOnes = lengths.filter((n) => n >= 35).length;
+    const longPct = (100 * longOnes) / lengths.length;
+    if (median >= 22 || longPct >= 25) {
+      log(
+        'warning',
+        filePath,
+        `Reads as written-to-be-scanned, not read aloud: median sentence ${median} words, ${longPct.toFixed(0)}% at 35+ words (${longOnes} of ${lengths.length}). Paul's own range is median 10-20 and 7-17% -- Romans 12 averages 20 words with a median of 10, because half its sentences are short enough to land. Break the longest sentences at their "and", semicolon or dash, put the point in a short sentence of its own, and read the result out loud. See style-guide.md rule 7.`
+      );
+    }
+  }
+
   // Check 18: exhaustiveness claims about an original-language word. "The only occurrence",
   // "nowhere else", "appears once" -- the cheapest sentences in a study to write and the most
   // expensive to verify, so they are routinely written unverified. This one shipped: a study said

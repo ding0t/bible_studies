@@ -7,7 +7,7 @@ like an LLM wrote it, which undercuts the reader's trust in the research underne
 
 ## Write toward this
 
-**Six rules, and they are the whole guide.** Everything after this section is diagnostic — the
+**Seven rules, and they are the whole guide.** Everything after this section is diagnostic — the
 specific shapes prose takes when it drifts off these four, with corpus evidence behind each. Write
 toward the four and the drift mostly doesn't happen; check against the tells and you only catch
 instances, one at a time, forever. Use these from the first sentence of the first draft, not as a
@@ -98,6 +98,57 @@ think to ban — *in some sense*, *can be seen as*, *points toward*, *arguably* 
 figures across ~90 files. Every real instance was a sentence that was accurate, unhedged, and simply
 missing the name. Nothing greps for an absence. The only place this can be fixed is before the
 sentence is written.
+
+**7. Write it to be read aloud.** These studies are read to families, taught from, and quoted in
+sermons. The New Testament letters were written for exactly that — read to a gathered church by
+someone standing up — which is why they are easy to say and this corpus is not. A reader tried
+reading `bride-of-christ.md` to his wife and stopped: "it sounds too vague and sparse… a sentence
+that has a lot of words but didn't have much substance."
+
+**Average sentence length is not the problem, and chasing it will waste your time.** Measured:
+
+| | avg | **median** | **≥35 words** | nominalisations | "you" |
+|---|---|---|---|---|---|
+| `bride-of-christ.md` | 25.0 | **22** | **24.8%** | 25.6/1k | 9.2/1k |
+| Ephesians 5 (WEB) | 23.4 | 20 | 16.7% | 21.4/1k | 17.8/1k |
+| Romans 12 (WEB) | 20.2 | **10** | 15.0% | 19.8/1k | 32.1/1k |
+| Philippians 4 (WEB) | 17.4 | 15 | 7.4% | 14.8/1k | 48.6/1k |
+| 1 Corinthians 13 (WEB) | 18.0 | 13 | 6.7% | **3.6/1k** | 0 |
+
+The study's average is *within one word of Ephesians 5*. Four things separate them:
+
+- **Paul's median sits far below his mean; the corpus's sits near it.** Romans 12 averages 20 words
+  and has a median of **10** — half its sentences are ten words or shorter. "Let love be without
+  hypocrisy." "Abhor that which is evil." He writes mostly short and occasionally long, so a point
+  *lands* and then gets developed. Uniform mid-length prose has no rhythm, nowhere to breathe, and
+  nothing that lands. **This is the single biggest cause of "a lot of words without much substance."**
+- **A quarter of the study's sentences are ≥35 words**, against 7–17% of Paul's. At 35 words a reader
+  aloud runs out of air.
+- **Nominalisation.** "The identification", "the preparation", "reconstructing first-century wedding
+  practice." Abstract nouns where verbs belong. 1 Corinthians 13 runs at 3.6 per thousand and is the
+  most quoted chapter Paul wrote.
+- **Address.** Paul is talking *to someone* — 32 and 49 "you" per thousand in Romans 12 and
+  Philippians 4. The corpus describes something to nobody. (1 Corinthians 13 has none, deliberately;
+  that is a chosen effect, not a default.)
+
+**How to fix a paragraph:** find the longest sentence and break it where the "and", the semicolon or
+the dash is. Put the point in a short sentence of its own. Turn one abstract noun back into a verb.
+Then read the paragraph out loud, and if you run out of breath, break it again.
+
+Worked example. Sixty-three words, one sentence:
+
+> Ephesians is written by a prisoner — "I, Paul, a prisoner of Christ Jesus on behalf of you
+> Gentiles" (3:1), "an ambassador in chains" (6:20) — and the marriage passage sits inside a long
+> section on Spirit-filled conduct that begins "be filled with the Spirit" (5:18), so the
+> husband-and-wife material arrives as an application of that, not as a standalone treatise on
+> marriage.
+
+Same content, six sentences, median 9:
+
+> Paul wrote Ephesians from prison. "I, Paul, a prisoner of Christ Jesus on behalf of you Gentiles"
+> (3:1). "An ambassador in chains" (6:20). The marriage passage sits inside a long section on
+> Spirit-filled conduct, and that section opens "be filled with the Spirit" (5:18). So the
+> husband-and-wife material is an application. Paul is not writing a treatise on marriage.
 
 **Two tests, both cheap.** *Deletion*: cut the sentence, re-read the paragraph, and see whether any
 fact, citation or step went with it. *Skim*: read the draft and notice what your eye slides past to
@@ -547,7 +598,7 @@ Check 10), so a clean validate run is the faster way to find every instance.
 
 ## If you only remember one thing
 
-Not the tell list — the six rules in [Write toward this](#write-toward-this). Every diagnostic on
+Not the tell list — the seven rules in [Write toward this](#write-toward-this). Every diagnostic on
 this page exists because prose drifted off one of them, and the list will always lag the drift: each
 new variant needs a new entry, which is why `worth ___` reached 48 instances in a corpus where the
 rule was already written down. Writing toward "every sentence adds a fact, a citation, or a step"
