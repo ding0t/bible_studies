@@ -445,8 +445,13 @@ function validateFile(filePath) {
     if (/^\s*$/.test(rawLine)) { proseLines.push(''); continue; }
     proseLines.push(rawLine.trim());
   }
+  // Paragraph-bounded: a paragraph ending in a colon (introducing a block quote) would otherwise
+  // be joined to the next one, inventing sentences that nobody wrote and inflating both numbers.
   const proseText = proseLines
     .join('\n')
+    .split(/\n\s*\n/)
+    .map((para) => (/[.!?]["')\]]*\s*$/.test(para.trim()) ? para : `${para.trim()}.`))
+    .join('\n\n')
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')   // links -> their text
     .replace(/[*_`]/g, '')
     .replace(/<[^>]+>/g, '')

@@ -28,12 +28,13 @@ prototyping -- see that page for what each part is for and why.)*
 
 ### Types & Prophecy
 
-**Prophecy.** Every example below is prophecy in the strict sense -- a specific, verbal prediction,
-made in one text, checked against a later, independent fulfillment: Micah names Bethlehem as the
-Messiah's birthplace roughly 700 years early; Isaiah and the Psalms describe the manner of his death
-centuries before Rome existed to crucify anyone; Daniel's angel gives Israel a countable number of
-years to "an anointed one"; Jesus himself predicts Jerusalem's fall within his hearers' own
-generation. None of this is typology dressed up as prediction -- see
+**Prophecy.** Every example below is prophecy in the strict sense. A specific, verbal prediction, made in one
+text, and checked against a fulfilment recorded later and independently.
+
+Micah names Bethlehem as the Messiah's birthplace roughly 700 years early. Isaiah and the Psalms
+describe the manner of his death centuries before Rome existed to crucify anyone. Daniel's angel
+gives Israel a countable number of years to "an anointed one". And Jesus predicts Jerusalem's fall
+inside his hearers' own generation. None of this is typology dressed up as prediction -- see
 [Historically fulfilled prophecy](#historically-fulfilled-prophecy-not-by-squinting) below for why
 each one is checked, not asserted.
 
@@ -140,11 +141,11 @@ event. **Ruler** translates <span dir="rtl">מוֹשֵׁל</span> (*moshel*, H49
 rule"); Bethlehem's insignificance is stated plainly -- **too little**
 (<span dir="rtl">צָעִיר</span>, *tsa'ir*, H6810) among Judah's clans, the small town passed over
 for Jerusalem in every ordinary political calculation. **From of old, from ancient days**
-(<span dir="rtl">מִקֶּדֶם מִימֵי עוֹלָם</span>) needs precision here. TWOT glosses <span dir="rtl">עוֹלָם</span> (*olam*, H5769, root 1631a)
-conservatively as "long duration,"
-not "eternity" outright -- the phrase marks this ruler's origin as extraordinarily ancient, which is
-suggestive alongside everything else Scripture says about the Messiah's deity, but the deity claim
-itself rests on other texts, not on this word alone.
+(<span dir="rtl">מִקֶּדֶם מִימֵי עוֹלָם</span>) needs precision here. TWOT glosses <span
+dir="rtl">עוֹלָם</span> (*olam*, H5769, root 1631a) conservatively, as "long duration" rather than
+"eternity" outright. The phrase marks this ruler's origin as extraordinarily ancient. That is
+suggestive alongside everything else Scripture says about the Messiah's deity. But the deity claim
+rests on other texts, not on this word.
 
 > ✝️ Matthew 2:5-6 (ESV)
 >
@@ -185,10 +186,11 @@ so this is a real, physical wounding, not a metaphor for ordinary suffering.
 > no violence, and there was no deceit in his mouth.
 
 A specific, checkable detail: an innocent man's grave shared with **a rich man**
-(<span dir="rtl">עָשִׁיר</span>, *ashir*). The Gospels record exactly this: "there came a rich man from Arimathea, named Joseph...
-and laid it in his own new tomb" (Matthew 27:57, 60, ESV) -- Jesus buried in a wealthy disciple's own
-tomb, not in a common grave, matching a detail Isaiah's text didn't need to include at all if it
-were merely describing generic suffering.
+(<span dir="rtl">עָשִׁיר</span>, *ashir*). The Gospels record exactly that. "There came a rich man from Arimathea, named Joseph... and laid it
+in his own new tomb" (Matthew 27:57, 60, ESV). Jesus was buried in a wealthy disciple's tomb rather
+than a common grave.
+
+Isaiah had no need to include that detail if he was describing generic suffering.
 
 > ✝️ Psalm 22:16-18 (ESV)
 >
@@ -197,10 +199,10 @@ were merely describing generic suffering.
 > among them, and for my clothing they cast lots.
 
 This is the single most instructive case for a skeptical reader, because a real textual difficulty
-sits at its centre. Queried directly against the Masoretic Text (WLC):
-the Hebrew consonants at verse 17 (Hebrew numbering; = English v. 16) read
-<span dir="rtl">כָּ֝אֲרִ֗י</span> (*ka'ari*), "like a lion" -- which leaves the clause without a verb ("like a lion, my hands and my
-feet"), an awkward, incomplete sentence on its own terms. Checked against the Greek Septuagint
+sits at its centre. Queried directly against the Masoretic Text (WLC), the Hebrew consonants at
+verse 17 (Hebrew numbering; English v. 16) read <span dir="rtl">כָּ֝אֲרִ֗י</span> (*ka'ari*), "like
+a lion". That leaves the clause with no verb — "like a lion, my hands and my feet" — an awkward,
+incomplete sentence on its own terms. Checked against the Greek Septuagint
 (Brenton's edition, translated some two centuries before Christ) at the parallel verse: **ὤρυξαν
 χεῖράς μου, καὶ πόδας** -- "they have pierced my hands and feet," a complete, sensible clause. That
 Greek translation existed roughly two hundred years before crucifixion was ever inflicted on a Jew,
@@ -209,28 +211,27 @@ ESV itself follows this reading, "they have pierced my hands and feet" -- a tran
 named here rather than left silent, in favor of the sense that gives a working sentence over the one
 that doesn't.
 
-Verse 18's detail is even more specific: soldiers **casting lots** for a victim's clothing is exactly
-what John's Gospel independently records happening at the crucifixion -- "they took his garments and
-divided them into four parts... they said to one another, 'Let us not tear it, but cast lots for it
+Verse 18 is more specific still. Soldiers **casting lots** for a victim's clothing is exactly what
+John's Gospel records at the crucifixion, and records independently. "They took his garments and divided them into
+four parts... they said to one another, 'Let us not tear it, but cast lots for it
 to see whose it shall be.' This was to fulfill the Scripture which says, 'They divided my garments
 among them, and for my clothing they cast lots'" (John 19:23-24, ESV, quoting Psalm 22:18 directly).
 
 **Worth naming plainly:** not every scholar reads Psalm 22 as a direct, predictive prophecy of the
 crucifixion. The ESV Study Bible's own note treats it primarily as an individual lament from an
 innocent sufferer, with the Gospels applying its language to Jesus as the innocent sufferer *par
-excellence* rather than the psalm being written as a forecast in the first place. Both readings keep
-the same hard evidence on the table -- a specific method of execution and a specific detail about
-divided clothing, both named centuries before either was historically possible to invent after the
-fact -- and a reader doesn't have to settle the "was this meant as prediction" question to see that
-the details themselves are real and checkable.
+excellence* rather than the psalm being written as a forecast in the first place. Both readings leave the same hard evidence on the table. A specific method of execution. A specific
+detail about divided clothing. Both named centuries before either could have been invented after the
+fact. You do not have to settle the "was this meant as prediction" question to see that the details
+are real and checkable.
 
 ### The countdown to the exact week — Daniel's seventy weeks
 
-Already worked out in full, with independently-dated Persian court records as the anchor, in
-[Prophecy, calendar, and the anchors of biblical history](prophecy-events-times.md): a decree dated
-to 445 BC (Nehemiah 2:1-8, fixed by the Elephantine papyri), run through Daniel 9:25's stated 69
-"weeks" of years, lands within days of the very week Jesus rode into Jerusalem as king -- not a
-different century, not off by a generation. That page gives the full case, including where the
+This is worked out in full in [Prophecy, calendar, and the anchors of biblical
+history](prophecy-events-times.md), with independently-dated Persian court records as the anchor. A
+decree dated to 445 BC (Nehemiah 2:1-8, fixed by the Elephantine papyri), run through Daniel 9:25's
+stated 69 "weeks" of years, lands within days of the week Jesus rode into Jerusalem as king. Not a
+different century. Not off by a generation. That page gives the full case, including where the
 calculation is genuinely disputed (the exact day) and where it isn't (the shape of the result). This
 study doesn't re-derive that math; see [Prophecy yet to come](#prophecy-yet-to-come) below for the
 seventieth week that page stops short of, which is still future.
@@ -255,10 +256,10 @@ Jesus, but Jesus's own prediction, checked against secular history.
 > buildings of the temple. 2 But he answered them, "You see all these, do you not? Truly, I say to
 > you, there will not be left here one stone upon another that will not be thrown down."
 
-In AD 70 -- within the lifetime of people who heard him say this -- Titus's legions besieged
-Jerusalem, breached its walls, and burned the temple to the ground; Josephus, an eyewitness to the
-Roman side of the siege, records the temple's destruction by fire and the systematic dismantling of
-the city that followed (*The Jewish War*, Book 6). A common objection has a direct answer
+It happened in AD 70, within the lifetime of people who heard him say it. Titus's legions besieged
+Jerusalem, breached the walls, and burned the temple to the ground. Josephus watched it from the
+Roman side, and records the fire and the systematic dismantling of the city that followed
+(*The Jewish War*, Book 6). A common objection has a direct answer
 rather than ignoring: the Western Wall still stands today, so wasn't the "not one stone" prediction
 falsified? No -- the Western Wall is a *retaining wall* for the platform the temple stood on, not
 part of the temple building itself; the temple structure Jesus and his disciples were looking at
@@ -283,8 +284,9 @@ either alone.
 > wonderful stones and what wonderful buildings!" 2 And Jesus said to him, "Do you see these great
 > buildings? There will not be left here one stone upon another that will not be thrown down."
 
-Mark's account runs shorter than Matthew's but keeps the same shape: false messiahs and wars as
-"the beginning of the birth pains" (Mark 13:8, paralleling Matthew 24:8), then a specific marker --
+Mark's account runs shorter than Matthew's and keeps the same shape. False messiahs and wars come
+first, "the beginning of the birth pains" (Mark 13:8, paralleling Matthew 24:8). Then a specific
+marker --
 
 > ✝️ Mark 13:14 (ESV)
 >
@@ -292,16 +294,15 @@ Mark's account runs shorter than Matthew's but keeps the same shape: false messi
 > reader understand), then let those who are in Judea flee to the mountains."
 
 Matthew names the source of that image directly: "the abomination of desolation spoken of by the
-prophet Daniel, standing in the holy place" (Matthew 24:15, ESV) -- Jesus himself treating Daniel
-9:27's language (see [Prophecy yet to come](#prophecy-yet-to-come) below) as still future from his
-own vantage point, not exhausted by anything that had already happened in his hearers' past. What
-follows in both accounts -- "great tribulation, such as has not been from the beginning of the world
-until now, no, and never will be" (Matthew 24:21, ESV; Mark 13:19 nearly verbatim) -- describes
-something of a severity neither account claims already happened by AD 70, however severe that siege
-was in its own right. Both Gospels close the same way: no one, "not even the angels in heaven, nor
-the Son, but only the Father" (Mark 13:32, ESV), knows the day or hour -- a point this site works out
-in full, word by word, in [The Day Is Near](day-is-near.md), which this study defers to rather than
-repeating.
+prophet Daniel, standing in the holy place" (Matthew 24:15, ESV).
+
+So Jesus treats Daniel 9:27 as still future from where he stands (see
+[Prophecy yet to come](#prophecy-yet-to-come) below). Nothing in his hearers' past had used it up. What follows in both accounts is a severity neither account claims had already happened. "Great
+tribulation, such as has not been from the beginning of the world until now, no, and never will be"
+(Matthew 24:21, ESV; Mark 13:19 nearly verbatim). The AD 70 siege was severe in its own right. This
+is not describing it. Both Gospels close the same way. No one knows the day or hour, "not even the angels in heaven, nor
+the Son, but only the Father" (Mark 13:32, ESV). [The Day Is Near](day-is-near.md) works that out
+word by word, and this study defers to it rather than repeating it.
 
 ## Prophecy yet to come
 
@@ -323,16 +324,16 @@ seventieth week that didn't follow immediately:
 > desolate, until the decreed end is poured out on the desolator.
 
 **Week** translates <span dir="rtl">שָׁבוּעַ</span> (*shavu'a*, H7620, "seven") -- the same word Daniel's angel used for
-the first 69, already shown by that page's own case to run on literal years, not days. Nearly two
-thousand years now separate week 69 from week 70 -- a gap the text itself doesn't name a duration
-for, but which this site (following [The Zadok Calendar](../feasts/zadok-calendar.md) and [The Day Is
-Near](day-is-near.md)) reads as the still-continuing church age, unforeseen by the Old Testament
-prophets themselves (Ephesians 3:4-6's "mystery"). This seventieth week -- a coming leader confirming
+the first 69, already shown by that page's own case to run on literal years, not days. Nearly two thousand years now separate week 69 from week 70. The text names no duration for that
+gap. This site reads it as the still-continuing church age, following [The Zadok
+Calendar](../feasts/zadok-calendar.md) and [The Day Is Near](day-is-near.md) — an age the Old
+Testament prophets did not foresee, which is Paul's point in calling it a "mystery" (Ephesians
+3:4-6). This seventieth week -- a coming leader confirming
 a covenant, sacrifice halted at its midpoint, "the abomination of desolation" Jesus names directly in
-Matthew 24:15 -- *is* the seven-year tribulation. [The Rapture of the Church](rapture.md) works out
-that whole period verse by verse, including the Bema and Great White Throne judgments and why this
-site reads the church as removed before it starts rather than merely preserved through it; this
-study doesn't re-derive that case, only locates it on Daniel's own timeline.
+Matthew 24:15 -- *is* the seven-year tribulation. [The Rapture of the Church](rapture.md) works that whole period out verse by verse. It covers the
+Bema and Great White Throne judgments, and why this site reads the church as removed before the
+period starts rather than preserved through it. This study does not re-derive that case. It only
+locates it on Daniel's timeline.
 
 ### The pretribulational rapture
 
@@ -344,11 +345,12 @@ study doesn't re-derive that case, only locates it on Daniel's own timeline.
 
 This site's own position, argued at length in [The Rapture of the Church](rapture.md): the Church is
 gathered to Christ *before* the tribulation begins, not partway through it or at its end alongside
-the visible second coming. The case there rests on the Greek word behind "rapture" (**ἁρπάζω**,
-*harpazo*, "seized/caught away," used elsewhere only of real, physical, sudden removals to heaven),
-the total absence of preceding signs for this event specifically (unlike the second coming's named
-sequence), and Scripture's own promise that believers are "not destined for wrath" (1 Thessalonians
-5:9). That page also gives post-tribulational, mid-tribulational, and pre-wrath views a fair hearing
+the visible second coming. The case there rests on three things. The Greek word behind "rapture" —
+**ἁρπάζω**, *harpazo*, "seized" or "caught away", used elsewhere only of real, physical, sudden
+removals to heaven. The absence of any preceding sign for this event specifically, unlike the second
+coming's named sequence. And Scripture's own promise that believers are "not destined for wrath" (1
+Thessalonians 5:9). That page also gives post-tribulational, mid-tribulational, and pre-wrath views
+a fair hearing
 rather than only their weakest forms -- worth reading in full rather than taking this study's word for
 which view is correct.
 
@@ -356,12 +358,13 @@ which view is correct.
 
 After the tribulation, Christ returns visibly -- not the quiet, personal gathering of the rapture, but
 "the armies of heaven... following him on white horses" (Revelation 19:11-16) -- and reigns on earth
-for a literal thousand years (Revelation 20:1-6). [The Day Is Near](day-is-near.md) traces this
-forward from the creation week's own six-days-then-a-seventh pattern, through the Sabbath as "a
-shadow of the things to come" (Colossians 2:16-17) and Hebrews 4's still-open Sabbath rest, to
-Revelation 20's numbered thousand years as that pattern's consummation -- read there in full, along
-with that page's own honest flag that the exact date arithmetic built on top of it doesn't yet
-reconcile cleanly with this site's other chronology studies.
+for a literal thousand years (Revelation 20:1-6). [The Day Is Near](day-is-near.md) traces this forward. It begins with the creation week's own
+six-days-then-a-seventh pattern. It runs through the Sabbath as "a shadow of the things to come"
+(Colossians 2:16-17) and Hebrews 4's still-open Sabbath rest. It ends at Revelation 20's numbered
+thousand years.
+
+Read it there in full. That page also flags, honestly, that the date arithmetic built on the pattern
+does not yet reconcile cleanly with this site's other chronology studies.
 
 ## Larkin's chart: the whole shape at a glance
 
