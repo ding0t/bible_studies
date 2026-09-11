@@ -94,13 +94,83 @@ kingdom, and the power, and the glory" — to suggest where the doxology came fr
 Matthew's original text (see the textual note above), but it was almost certainly drawing on this
 Old Testament liturgical prayer rather than invented from nothing.
 
-*Synchronic.* Concordanced across the whole NT (164 occurrences total), *basileia* clusters heavily in the Synoptics -- Matthew alone accounts for over a third of all NT occurrences, mostly in his own distinctive phrase "kingdom of heaven" (32x, unique to Matthew). Checked directly against the Greek text, Matthew uses "kingdom of heaven" and "kingdom of God" interchangeably for the identical statement within the space of one verse (Matt 19:23 "kingdom of heaven," 19:24 "kingdom of God," same saying about a rich man) -- confirming "heaven" is a reverential Jewish circumlocution for the divine name, not a different, more spiritual kingdom than the "kingdom of God" spoken of elsewhere. The wider NT usage holds a real already/not-yet tension rather than settling on one pole: Jesus states plainly that the kingdom has *already* arrived in his own ministry -- "if I cast out demons by the Spirit [Luke: finger] of God, then the kingdom of God has come upon you" (*ephthasen*, aorist, "has arrived" -- Matt 12:28 par. Luke 11:20, both verified) -- and again, "the kingdom of God is in the midst of you" (Luke 17:21). Yet the same Gospels look to a still-future consummation: "inherit the kingdom prepared for you from the foundation of the world" (Matt 25:34), and even after the resurrection the apostles can still ask, without correction on the substance of their expectation (only its timing), "Lord, will you at this time restore the kingdom to Israel?" (Acts 1:6).
+*Synchronic.* Concordanced across the whole New Testament, *basileia* occurs 164 times and clusters
+heavily in the Synoptics. Matthew alone accounts for over a third, mostly in his own distinctive
+phrase "kingdom of heaven" (32x, unique to Matthew).
 
-*Conclusion.* "Your kingdom come" (*elthetō hē basileia sou*, aorist active imperative) asks, in the same breath as the next clause ("your will be done, on earth as it is in heaven" -- the two lines are best read as synonymous parallelism, one request stated two ways), for God's reign to be established in full. Given that Jesus's own ministry already means the kingdom has broken in (Matt 12:28), while its visible, universal, earthly consummation remains future (Matt 25:34; Daniel 2:44; Acts 1:6-7) -- this petition is prayed from within the "already" toward the "not yet." Reading it this way (consistent with a dispensational preference for a future, literal establishment of God's kingdom on earth rather than treating "kingdom" as a fully-realized present-only reality) fits both halves of the NT evidence without discarding either: the King has already come and inaugurated his reign, but his disciples still rightly pray, and still wait, for that reign's full and visible arrival.
+Checked directly against the Greek text, Matthew uses "kingdom of heaven" and "kingdom of God"
+interchangeably for the identical statement within one verse — Matt 19:23 "kingdom of heaven", 19:24
+"kingdom of God", the same saying about a rich man. So "heaven" is a reverential Jewish
+circumlocution for the divine name. It is not a different, more spiritual kingdom.
 
-*The verb matters here too, not just the noun.* Checked directly against the Greek morphology tagging for all three "Thou-petitions" in Matthew 6:9-10: "hallowed be your name" (*hagiasthētō*) is aorist **passive** imperative, and "your will be done" (*genēthētō*) is likewise a passive-toned aorist imperative -- both avoid naming God directly as the one acting (a "divine passive," a common reverential Jewish idiom for describing God's own action without a direct grammatical subject). "Your kingdom **come**" (*elthetō*) breaks that pattern: it is aorist **active** imperative, with the kingdom itself as the grammatical subject that arrives, rather than something acted upon or brought about by an unnamed agent. The aorist aspect (rather than a present/durative form) asks for the kingdom's arrival as a complete, whole event -- fitting the "not yet" consummation half of the already/not-yet tension above, rather than a request for continuous incremental encroachment. This exact clause -- *elthetō hē basileia sou* -- is one of only two lines that survive word-for-word in Luke's shorter, earliest-attested text (with "hallowed be your name"); "your will be done, on earth as it is in heaven" is Matthew-only in the earliest manuscripts (see the textual note above). "Your kingdom come" is therefore the more securely double-attested of the two "Thou" petitions about God's future action, not an incidental detail added by one Gospel alone.
+The wider usage holds a real already/not-yet tension rather than settling on one pole. Jesus states
+plainly that the kingdom has *already* arrived in his ministry: "if I cast out demons by the Spirit
+[Luke: finger] of God, then the kingdom of God has come upon you" (*ephthasen*, aorist, "has
+arrived" — Matt 12:28 par. Luke 11:20, both verified). And again, "the kingdom of God is in the
+midst of you" (Luke 17:21).
 
-**ἐπιούσιος (*epiousios*, "daily," G1967) -- the single rarest word in the New Testament.** Concordanced across the entire Greek New Testament, this word occurs in exactly two verses total: Matthew 6:11 and its parallel, Luke 11:3 -- nowhere else. It is so rare that even the early church father Origen remarked it looked coined by the Gospel writers themselves, and Jerome, translating into Latin, rendered it two different ways in the same Vulgate -- *supersubstantialem* ("super-substantial") in Matthew, *cotidianum* ("daily") in Luke -- which is itself evidence of genuine ancient uncertainty about the word, not modern scholarly overreach. The live options are: "daily" (the traditional gloss); "for today" (from *epi* + *ousa*, "the present day"); "for the coming day" (from *epi* + a form of "tomorrow"); or "necessary for existence" (from *epi* + *ousia*, "substance/being"). All of these converge on the same practical force regardless of which etymology is correct: asking God for today's or tomorrow's sufficiency, not for stockpiled abundance. The conceptual Old Testament background supports that reading either way: manna could not be hoarded beyond its day, except the day before Sabbath (Exodus 16:4, 19-20) -- a built-in, enforced day-by-day dependence. Proverbs 30:8's wisdom prayer, "feed me with the food that is needful for me" (literally "the bread of my portion/allotment," Hebrew *lechem chuqqi*, TWOT root 728a), asks for sufficiency rather than either poverty or riches -- a different word, but the same shape of request.
+Yet the same Gospels look to a still-future consummation: "inherit the kingdom prepared for you from
+the foundation of the world" (Matt 25:34). Even after the resurrection the apostles can ask, "Lord,
+will you at this time restore the kingdom to Israel?" (Acts 1:6) — and be corrected only on the
+timing, not the substance of the expectation.
+
+*Conclusion.* "Your kingdom come" (*elthetō hē basileia sou*, aorist active imperative) asks for
+God's reign to be established in full. The next clause states the same request a second way — "your
+will be done, on earth as it is in heaven" — and the two lines are best read as synonymous
+parallelism.
+
+Jesus's own ministry already means the kingdom has broken in (Matt 12:28). Its visible, universal,
+earthly consummation remains future (Matt 25:34; Daniel 2:44; Acts 1:6-7). So this petition is
+prayed from within the "already", toward the "not yet".
+
+That reading fits both halves of the New Testament evidence without discarding either, and it is
+consistent with a dispensational preference for a future, literal establishment of God's kingdom on
+earth. The King has already come and inaugurated his reign. His disciples still rightly pray, and
+still wait, for that reign's full and visible arrival.
+
+*The verb matters here too, not just the noun.* Checked directly against the Greek morphology
+tagging for all three "Thou-petitions" in Matthew 6:9-10.
+
+"Hallowed be your name" (*hagiasthētō*) is aorist **passive** imperative. "Your will be done"
+(*genēthētō*) is likewise a passive-toned aorist imperative. Both avoid naming God directly as the
+one acting — a "divine passive", the common reverential Jewish idiom for describing God's action
+without a grammatical subject.
+
+"Your kingdom **come**" (*elthetō*) breaks that pattern. It is aorist **active** imperative, with
+the kingdom itself as the subject that arrives, rather than something acted upon by an unnamed
+agent.
+
+The aorist aspect asks for the kingdom's arrival as a complete, whole event. That fits the "not yet"
+consummation half of the tension above, rather than a request for continuous incremental
+encroachment.
+
+One more thing about this clause. *Elthetō hē basileia sou* is one of only two lines surviving
+word-for-word in Luke's shorter, earliest-attested text, alongside "hallowed be your name". "Your
+will be done, on earth as it is in heaven" is Matthew-only in the earliest manuscripts (see the
+textual note above). So "your kingdom come" is the more securely double-attested of the two "Thou"
+petitions about God's future action.
+
+**ἐπιούσιος (*epiousios*, "daily," G1967) — the single rarest word in the New Testament.**
+Concordanced across the entire Greek New Testament, it occurs in exactly two verses: Matthew 6:11
+and its parallel, Luke 11:3. Nowhere else.
+
+It is so rare that Origen remarked it looked coined by the Gospel writers themselves. Jerome
+rendered it two different ways in the same Vulgate — *supersubstantialem* ("super-substantial") in
+Matthew, *cotidianum* ("daily") in Luke. That is evidence of genuine ancient uncertainty, not modern
+scholarly overreach.
+
+The live options are four. "Daily", the traditional gloss. "For today", from *epi* + *ousa*. "For
+the coming day", from *epi* + a form of "tomorrow". Or "necessary for existence", from *epi* +
+*ousia*, "substance".
+
+All four converge on the same practical force: asking God for today's or tomorrow's sufficiency, not
+for stockpiled abundance.
+
+The Old Testament background supports that either way. Manna could not be hoarded beyond its day,
+except the day before Sabbath (Exodus 16:4, 19-20) — a built-in, enforced day-by-day dependence. And
+Proverbs 30:8's wisdom prayer, "feed me with the food that is needful for me" (literally "the bread
+of my portion", Hebrew *lechem chuqqi*, TWOT root 728a), asks for sufficiency rather than either
+poverty or riches. A different word, the same shape of request.
 
 **ὀφειλήματα / ἁμαρτίας (*opheilēmata* / *hamartias*, "debts" / "sins," G3783 / G266) and the sabbatical background.** Matthew has Jesus ask forgiveness for "debts" (*opheilēmata*, G3783) -- financial language used as a metaphor for sin. Luke's parallel instead uses "sins" (*hamartias*, G266) for what's forgiven, but keeps the debt-root word (*opheilonti*, G3784, "indebted") for what we forgive others -- Luke unpacks Matthew's financial metaphor into its plain theological sense while keeping the debt-language on the human side of the comparison. This isn't an abstract image invented for the prayer: Israel practiced an actual sabbatical-year debt release (*shemittah*, Deuteronomy 15:1-2), a real, periodic, covenant-mandated cancellation of debts that could not otherwise be repaid. The prayer borrows a category its hearers lived under literally.
 

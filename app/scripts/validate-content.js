@@ -438,9 +438,16 @@ function validateFile(filePath) {
   const proseLines = [];
   let inFence = false;
   let inItem = false;
+  // Regions between auto-start/auto-end markers are written by commentary_index.py,
+  // section_index.py and generate_recent_updates.py, not by an author. Grading them asks someone
+  // to hand-edit text a script will overwrite on its next run.
+  let inGenerated = false;
   for (const rawLine of bodyContent.split(/\r?\n/)) {
     if (/^\s*```/.test(rawLine)) { inFence = !inFence; continue; }
     if (inFence) continue;
+    if (/:auto-start\s*-->/.test(rawLine)) { inGenerated = true; continue; }
+    if (/:auto-end\s*-->/.test(rawLine)) { inGenerated = false; continue; }
+    if (inGenerated) continue;
     if (/^\s*[>|#]/.test(rawLine)) { inItem = false; continue; }
     // Footnote definitions are reference apparatus, not prose. A block of them reads as one
     // enormous sentence and was inflating trumpet.md by a phantom 104-word "sentence".
