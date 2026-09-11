@@ -15,12 +15,13 @@ ai_provider_models:
 
 # Hebrew roots of Christianity
 
-Jesus's Bible, and the apostles' Bible, was the Hebrew Scriptures. When Paul tells Timothy that
-"all Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and
-for training in righteousness" (2 Timothy 3:16), the "Scripture" he means is the Old Testament — the
-New Testament didn't exist yet to be included in that sentence. When the risen Christ wanted to
-explain himself to two confused disciples on the Emmaus road, he didn't hand them a new document; he
-opened the one they already had (Luke 24:27, below).
+Jesus's Bible, and the apostles' Bible, was the Hebrew Scriptures. Paul tells Timothy that "all
+Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for
+training in righteousness" (2 Timothy 3:16). The "Scripture" he means there is the Old Testament.
+The New Testament did not yet exist to be included in that sentence.
+
+And when the risen Christ wanted to explain himself to two confused disciples on the Emmaus road, he
+did not hand them a new document. He opened the one they already had (Luke 24:27, below).
 
 **The Old Testament, read the way Jesus and his apostles read it, is not background reading for the
 church — it is the record God used to explain who Christ is, and it still does that job today.** A
@@ -34,15 +35,16 @@ prototyping — see that page for what each part is for and why.)*
 
 ### Types & Prophecy
 
-**Type.** The Old Testament's institutions — its sacrifices, its priesthood, its appointed feasts —
-function as **σκιά** (*skia*), shadow: "the law has but a shadow of the good things to come" (Hebrews
-10:1), things that "are a shadow of the things to come, but the substance belongs to Christ"
-(Colossians 2:16-17). A shadow is cast by something real; it is recognisable once the object that
-casts it is seen, which is why the New Testament keeps reaching back into the Old to say what Christ
-fulfills.
+**Type.** The Old Testament's institutions function as **σκιά** (*skia*), shadow. Its sacrifices,
+its priesthood, its appointed feasts. "The law has but a shadow of the good things to come" (Hebrews
+10:1). They "are a shadow of the things to come, but the substance belongs to Christ" (Colossians
+2:16-17).
 
-**Prophecy.** Distinct from the type-shadow relationship is direct prediction: Jesus told his
-disciples the Hebrew Scriptures spoke of him in so many words, not merely by pattern — "beginning
+A shadow is cast by something real. It becomes recognisable once you see the object casting it,
+which is why the New Testament keeps reaching back into the Old to say what Christ fulfils.
+
+**Prophecy.** Direct prediction is a different thing from the type-shadow relationship. Jesus told
+his disciples the Hebrew Scriptures spoke of him in so many words, not merely by pattern. "Beginning
 with Moses and all the Prophets, he interpreted to them in all the Scriptures the things concerning
 himself" (Luke 24:27).
 
@@ -138,12 +140,14 @@ such type through in full.
 
 **Torah** — <span dir="rtl">תּוֹרָה</span> (*torah*, pronounced "toh-RAH") — is usually rendered "law" in English, but TWOT glosses
 the underlying root's sense as *direction* — from a verb meaning to teach or to point the way, not
-merely to legislate. That sense matters for how Jesus treated it: "not an iota, not a dot, will pass
-from the Law until all is accomplished" (Matthew 5:18), spoken by the same teacher who called it a
-lamp still worth walking by — "your word is a lamp to my feet and a light to my path" (Psalm
-119:105). Torah as instruction, read for what it teaches about God's character and what it
-foreshadows in Christ, is the legitimate use; Torah as a legal code Gentile believers must keep is the
-caution above.
+merely to legislate. That sense matters for how Jesus treated it. "Not an iota, not a dot, will pass
+from the Law until all is accomplished" (Matthew 5:18) — spoken by the same teacher who called it a
+lamp still worth walking by, "your word is a lamp to my feet and a light to my path" (Psalm
+119:105).
+
+So Torah as instruction, read for what it teaches about God's character and what it foreshadows in
+Christ, is the legitimate use. Torah as a legal code Gentile believers must keep is the caution
+above.
 
 ### Festivals
 
@@ -158,12 +162,14 @@ with what a feast was rehearsing cannot recognise it being fulfilled.
 
 ### Creation
 
-The creation account gives the church its calendar rhythm before it gives Israel a single command:
-"on the seventh day God finished his work… and he rested on the seventh day" (Genesis 2:2), a pattern
-set before the Law existed to command it and older than any nation who would later keep it. The
-[Zadok calendar](../feasts/zadok-calendar.md) study traces how that same seven-based structure runs
-underneath Israel's whole appointed-times system, sabbatical years and jubilees included — creation's
-own order, not an invention of the Law layered on top of it.
+The creation account gives the church its calendar rhythm before it gives Israel a single command.
+"On the seventh day God finished his work… and he rested on the seventh day" (Genesis 2:2). That
+pattern was set before the Law existed to command it, and it is older than any nation that would
+later keep it.
+
+The [Zadok calendar](../feasts/zadok-calendar.md) study traces how the same seven-based structure
+runs underneath Israel's whole appointed-times system, sabbatical years and jubilees included. It is
+creation's own order, not an invention of the Law layered on top.
 
 ### Prophecy
 
@@ -180,41 +186,48 @@ Christ, because he said so himself.
 Not everything the New Testament's first readers knew was inside the canon, and the New Testament
 authors name their sources plainly. Jude names his: "Enoch, the seventh from Adam,
 prophesied, saying, 'Behold, the Lord comes with ten thousands of his holy ones'" (Jude 14) is a
-direct quotation of 1 Enoch 1:9, a Jewish apocalyptic work from the second or first century BC. The
-*ESV Study Bible* is explicit that this doesn't promote 1 Enoch to Scripture — "the use of
-extrabiblical literature does not mean that any of these literary works are authoritative words of
-God in the same category as Scripture" — only that Jude, writing to an audience who knew the book,
-draws on it as a true example on this one point. Two verses earlier Jude alludes to another
-non-biblical work without naming it: the archangel Michael "disputing about the body of Moses" (Jude
-9) has no source in the Old Testament's own account of Moses's death (Deuteronomy 34:5-7), and it's
-the *Assumption of Moses* — an early Jewish pseudepigraphon, now lost apart from patristic citation —
-that both the *CSB Ancient Faith Study Bible* and the *NLT Life Application Study Bible* name as
-Jude's likely source. The *ESV Study Bible* is the more cautious of the four consulted here, declining
-to commit to a title and calling the underlying story simply "lost to history" — a caution worth
-keeping, since the work itself doesn't survive for anyone to check Jude's allusion against directly.
-What isn't in doubt either way is Jude's own assumption: he expects his readers to recognise a story
-his own letter doesn't stop to explain. Paul does the same thing by name-dropping rather than quoting: "Jannes and
-Jambres opposed Moses" (2 Timothy 3:8) names Pharaoh's magicians from Exodus 7, who go unnamed in
-Exodus itself — the *ESV Study Bible* notes the names come from "early extrabiblical Jewish
-writings" that Paul expects Timothy to recognise without explanation.
+direct quotation of 1 Enoch 1:9, a Jewish apocalyptic work from the second or first century BC.
 
-The Mishnah is a different case, and worth being precise about. It was redacted around AD 200 —
-after the New Testament — so it isn't a source any New Testament author is quoting the way Jude
-quotes 1 Enoch. What it documents is older than its own redaction date: the developed liturgical
-practice of the feasts a first-century Jew would already have known, which is why this site cites it
-elsewhere as background rather than as prophecy or doctrine — the four cups of the Passover Seder in
-[The Last Supper and the Cups of Passover](../feasts/last-supper-four-cups.md), and the shofar
-procedure behind [the Feast of Trumpets](../feasts/trumpets.md). Quotations here and on those pages
-come from the Sefaria Community Translation (CC0), via [sefaria.org](https://www.sefaria.org).
+The *ESV Study Bible* is explicit that this does not promote 1 Enoch to Scripture. "The use of
+extrabiblical literature does not mean that any of these literary works are authoritative words of
+God in the same category as Scripture." Jude is writing to an audience who knew the book, and he
+draws on it as a true example on this one point.
+
+Two verses earlier he alludes to another non-biblical work without naming it. The archangel Michael
+"disputing about the body of Moses" (Jude 9) has no source in the Old Testament's account of Moses's
+death (Deuteronomy 34:5-7). Both the *CSB Ancient Faith Study Bible* and the *NLT Life Application
+Study Bible* name the *Assumption of Moses* as Jude's likely source — an early Jewish
+pseudepigraphon, now lost apart from patristic citation.
+
+The *ESV Study Bible* is the most cautious of the four consulted here. It declines to commit to a
+title and calls the underlying story simply "lost to history". That caution is well placed: the work
+does not survive for anyone to check Jude's allusion against.
+What isn't in doubt either way is Jude's own assumption: he expects his readers to recognise a story
+his own letter doesn't stop to explain. Paul does the same by name-dropping rather than quoting.
+"Jannes and Jambres opposed Moses" (2 Timothy 3:8) names Pharaoh's magicians from Exodus 7, who go
+unnamed in Exodus itself. The *ESV Study Bible* notes the names come from "early extrabiblical
+Jewish writings" — and Paul expects Timothy to recognise them without explanation.
+
+The Mishnah is a different case, and needs stating precisely. It was redacted around AD 200, after
+the New Testament, so it is not a source any New Testament author is quoting the way Jude quotes 1
+Enoch.
+
+What it documents is older than its redaction date. It records the developed liturgical practice of
+the feasts a first-century Jew would already have known. That is why this site cites it as
+background rather than as prophecy or doctrine — the four cups of the Passover Seder in [The Last
+Supper and the Cups of Passover](../feasts/last-supper-four-cups.md), and the shofar procedure
+behind [the Feast of Trumpets](../feasts/trumpets.md). Quotations here and on those pages come from
+the Sefaria Community Translation (CC0), via [sefaria.org](https://www.sefaria.org).
 
 ## Why this still matters for the church today
 
-None of this is antiquarian interest. Paul states the reason plainly: "whatever was written in former
-days was written for our instruction, that through endurance and through the encouragement of the
-Scriptures we might have hope" (Romans 15:4) — written of the Old Testament, to a church centuries
-after it was first written, still calling it instruction rather than history. A church that treats the
-Old Testament as solved background reading loses exactly the thing Jesus reached for on the Emmaus
-road, and exactly the thing Paul says the church still needs for endurance and hope.
+None of this is antiquarian interest, and Paul says why. "Whatever was written in former days was
+written for our instruction, that through endurance and through the encouragement of the Scriptures
+we might have hope" (Romans 15:4). He writes that of the Old Testament, to a church centuries after
+it was first written, and he still calls it instruction rather than history.
+
+A church that treats the Old Testament as solved background reading loses the thing Jesus reached
+for on the Emmaus road. It loses the thing Paul says you still need for endurance and hope.
 
 ## Discussion questions
 

@@ -20,7 +20,7 @@ quotation, and Jonah's own account of those days calls the place Sheol and the p
 about where he was going and who would bring him back.
 
 This study follows it in that order — what the sign is, where the New Testament says he was, and
-what those days achieved. Then, whether the crucifiction - ressurection event can be dated.
+what those days achieved. Then, whether the crucifixion and resurrection can be dated.
 
 ## Key Takeaways
 
