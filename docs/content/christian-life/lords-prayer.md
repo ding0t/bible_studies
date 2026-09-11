@@ -50,7 +50,14 @@ Before drawing any lessons from the content, a prior question has to be settled:
 
 **The Gospels themselves.** Matthew, traditionally the tax-collector-turned-apostle, wrote a Gospel arranged topically around five major discourses for a largely Jewish-Christian audience steeped in the Hebrew Scriptures -- which fits the Sermon on the Mount being an anthology of Jesus's teaching gathered under one heading rather than a single unbroken speech. Luke, a physician and companion of Paul, explicitly says he is writing "an orderly account" for Theophilus after "having followed all things closely" (Luke 1:1-4) -- an account structured, in its middle section (9:51-19:27), around Jesus's journey toward Jerusalem.
 
-**Second Temple prayer customs.** Matthew 6:5's "hypocrites" who "love to stand and pray in the synagogues and at the street corners, that they may be seen by others" reflects a real practical opportunity: first-century Judaism observed fixed daily prayer times (the *Shema* and the *Amidah*, recited morning and afternoon), which meant anyone wanting to be seen praying could simply arrange to be in a visible public spot when the hour came. Jesus isn't inventing a hypothetical hypocrite; he's naming an exploitable feature of ordinary Jewish piety.
+**Second Temple prayer customs.** Matthew 6:5's "hypocrites" who "love to stand and pray in the
+synagogues and at the street corners, that they may be seen by others" reflects a real practical
+opportunity. First-century Judaism observed fixed daily prayer times — the *Shema* and the *Amidah*,
+recited morning and afternoon. Anyone wanting to be seen praying could simply arrange to be
+somewhere visible when the hour came.
+
+Jesus is not inventing a hypothetical hypocrite. He is naming an exploitable feature of ordinary
+Jewish piety.
 
 **"Vain repetitions... as the Gentiles do" (Matt 6:7).** The verb here, *battalogeo* (βατταλογέω), is rare enough that its precise sense (a babbling or heaping-up of empty phrases) is inferred partly from context. The concrete referent is pagan prayer practice: piling up names and formulas to compel a capricious god to listen. Elijah's taunt of the prophets of Baal, who "cried aloud and cut themselves... and raved" from morning to noon trying to get Baal's attention (1 Kings 18:26-29), is the kind of frantic, repetitive religious noise Jesus is contrasting his own brief model prayer against.
 
@@ -66,7 +73,26 @@ Before drawing any lessons from the content, a prior question has to be settled:
 
 **βασιλεία (*basileia*, "kingdom," G932) -- "your kingdom come."** This term carries enough theological weight, and enough already/not-yet tension, to warrant the fuller diachronic-then-synchronic treatment rather than a bare gloss.
 
-*Diachronic.* In Classical Greek, *basileia* denotes kingship or reign -- the abstract exercise of royal sovereignty -- with "realm/territory" as a secondary, derived sense. The Septuagint mostly renders Hebrew *malkuth*/Aramaic *malku* (both from the root *mlk*, "to reign") this same way: an act of ruling, not primarily a plot of land. Daniel's visions supply the clearest Old Testament background for a *future, God-established* kingdom: "the God of heaven will set up a kingdom that shall never be destroyed... it shall break in pieces all these kingdoms and bring them to an end, and it shall stand forever" (Daniel 2:44, ESV; confirmed against the Aramaic text -- *malku* [H4437] used both for the eternal kingdom God sets up and, in the same verse, for the merely human kingdoms it supersedes). David's own temple-dedication prayer supplies a second, and strikingly relevant, background text: "Yours, O LORD, is the greatness and the power and the glory and the victory and the majesty... yours is the kingdom [*mamlakah*, H4467], O LORD, and you are exalted as head above all" (1 Chronicles 29:11, ESV, verified against the Hebrew). That wording is close enough to the disputed doxology appended to Matthew 6:13 ("for thine is the kingdom, and the power, and the glory") that the later doxology, even though not part of Matthew's original text (see the textual note above), was almost certainly drawing on this exact OT liturgical prayer rather than being invented from nothing.
+*Diachronic.* In Classical Greek, *basileia* denotes kingship or reign — the abstract exercise of
+royal sovereignty — with "realm" or "territory" as a secondary, derived sense. The Septuagint mostly
+renders Hebrew *malkuth* and Aramaic *malku* the same way. Both come from the root *mlk*, "to
+reign". It is an act of ruling, not primarily a plot of land.
+
+Daniel's visions supply the clearest Old Testament background for a *future, God-established*
+kingdom. "The God of heaven will set up a kingdom that shall never be destroyed... it shall break in
+pieces all these kingdoms and bring them to an end, and it shall stand forever" (Daniel 2:44, ESV).
+Confirmed against the Aramaic: *malku* (H4437) is used both for the eternal kingdom God sets up and,
+in the same verse, for the human kingdoms it supersedes.
+
+David's own temple-dedication prayer supplies a second background text, and a strikingly relevant
+one. "Yours, O LORD, is the greatness and the power and the glory and the victory and the majesty...
+yours is the kingdom [*mamlakah*, H4467], O LORD, and you are exalted as head above all" (1
+Chronicles 29:11, ESV, verified against the Hebrew).
+
+That wording is close enough to the disputed doxology appended to Matthew 6:13 — "for thine is the
+kingdom, and the power, and the glory" — to suggest where the doxology came from. It is not part of
+Matthew's original text (see the textual note above), but it was almost certainly drawing on this
+Old Testament liturgical prayer rather than invented from nothing.
 
 *Synchronic.* Concordanced across the whole NT (164 occurrences total), *basileia* clusters heavily in the Synoptics -- Matthew alone accounts for over a third of all NT occurrences, mostly in his own distinctive phrase "kingdom of heaven" (32x, unique to Matthew). Checked directly against the Greek text, Matthew uses "kingdom of heaven" and "kingdom of God" interchangeably for the identical statement within the space of one verse (Matt 19:23 "kingdom of heaven," 19:24 "kingdom of God," same saying about a rich man) -- confirming "heaven" is a reverential Jewish circumlocution for the divine name, not a different, more spiritual kingdom than the "kingdom of God" spoken of elsewhere. The wider NT usage holds a real already/not-yet tension rather than settling on one pole: Jesus states plainly that the kingdom has *already* arrived in his own ministry -- "if I cast out demons by the Spirit [Luke: finger] of God, then the kingdom of God has come upon you" (*ephthasen*, aorist, "has arrived" -- Matt 12:28 par. Luke 11:20, both verified) -- and again, "the kingdom of God is in the midst of you" (Luke 17:21). Yet the same Gospels look to a still-future consummation: "inherit the kingdom prepared for you from the foundation of the world" (Matt 25:34), and even after the resurrection the apostles can still ask, without correction on the substance of their expectation (only its timing), "Lord, will you at this time restore the kingdom to Israel?" (Acts 1:6).
 
@@ -78,13 +104,37 @@ Before drawing any lessons from the content, a prior question has to be settled:
 
 **ὀφειλήματα / ἁμαρτίας (*opheilēmata* / *hamartias*, "debts" / "sins," G3783 / G266) and the sabbatical background.** Matthew has Jesus ask forgiveness for "debts" (*opheilēmata*, G3783) -- financial language used as a metaphor for sin. Luke's parallel instead uses "sins" (*hamartias*, G266) for what's forgiven, but keeps the debt-root word (*opheilonti*, G3784, "indebted") for what we forgive others -- Luke unpacks Matthew's financial metaphor into its plain theological sense while keeping the debt-language on the human side of the comparison. This isn't an abstract image invented for the prayer: Israel practiced an actual sabbatical-year debt release (*shemittah*, Deuteronomy 15:1-2), a real, periodic, covenant-mandated cancellation of debts that could not otherwise be repaid. The prayer borrows a category its hearers lived under literally.
 
-**πειρασμόν ("temptation/testing," *peirasmos*, G3986) -- checked against James 1:13-14.** This word creates a real interpretive tension worth naming directly rather than passing over: James 1:13 states plainly, "God cannot be tempted with evil, and he himself tempts no one" -- so how can Jesus have us ask God not to "lead us into temptation"? Two harmonizing readings are current: (1) *peirasmos* elsewhere in the New Testament carries the sense "trial/testing" rather than "enticement to sin" (compare the sense in Revelation 3:10's "hour of trial"), so the petition may be a request to be spared severe testing rather than a claim that God causes sin; (2) "lead us not into" may be a Semitic idiom for "do not let us fall into/succumb to," parallel to other places where Scripture attributes an outcome to God's agency in a permissive rather than causative sense (as with the "hardening" of Pharaoh's heart). Either resolves the apparent tension with James without forcing a contradiction; this study does not adjudicate between them as definitively settled.
+**πειρασμόν ("temptation/testing," *peirasmos*, G3986) — checked against James 1:13-14.** This word
+creates a real interpretive tension, and it needs naming rather than passing over. James 1:13 states
+plainly, "God cannot be tempted with evil, and he himself tempts no one." So how can Jesus have us
+ask God not to "lead us into temptation"?
+
+Two harmonising readings are current. First, *peirasmos* elsewhere in the New Testament carries the
+sense "trial" or "testing" rather than "enticement to sin" — compare Revelation 3:10's "hour of
+trial". On that reading the petition asks to be spared severe testing, and makes no claim that God
+causes sin.
+
+Second, "lead us not into" may be a Semitic idiom for "do not let us fall into". Scripture elsewhere
+attributes an outcome to God's agency in a permissive rather than a causative sense, as with the
+"hardening" of Pharaoh's heart.
+
+Either resolves the tension with James without forcing a contradiction. This study does not
+adjudicate between them.
 
 **τοῦ πονηροῦ (*tou ponērou*, "of the evil / the evil one," G4190).** The Greek genitive here is grammatically ambiguous between neuter ("evil," the abstract quality) and masculine ("the evil one," a person -- i.e., Satan). Elsewhere in the New Testament, the identical phrase *ho ponēros* clearly denotes Satan (Matthew 13:19, 13:38; John 17:15; 1 John 2:13-14, 3:12, 5:18-19) -- which inclines many interpreters toward "deliver us from the evil one" over the more generic "deliver us from evil," though English translations split on this rendering and either is grammatically defensible.
 
 **A textual note on the doxology.** The familiar liturgical ending -- "For thine is the kingdom, and the power, and the glory, forever, Amen" -- is a textual question, not merely a translational one. Checking the Greek text directly (SBLGNT) against several English translations confirms the doxology has no corresponding Greek words in the earliest manuscript tradition at Matthew 6:13; it's present in the WEB translation but absent from the ASV, which follows the same older manuscript tradition as most modern critical Greek texts. The doxology is attested from the Didache onward as a liturgical addition, not as part of what Matthew originally wrote -- which is why most modern translations, including the ESV quoted above, print it only as a footnote. Luke's account never had a doxology in any manuscript tradition.
 
-A related textual finding: Luke's account in the earliest manuscripts is shorter even than the ESV/WEB text above might suggest at first glance -- some manuscript traditions (reflected in translations that lean on the Byzantine/Majority text, such as YLT) expanded Luke 11:2 with Matthew's fuller wording ("our Father who is in heaven... your will be done, as in heaven, so on earth"), while the earlier and shorter reading (reflected in the ASV, and followed by the ESV quoted above) has simply "Father, hallowed be your name. Your kingdom come." This is a clear case of later scribes harmonizing Luke's distinct, shorter wording toward Matthew's, rather than Luke having originally matched Matthew word for word.
+A related textual finding. Luke's account in the earliest manuscripts is shorter even than the
+ESV/WEB text above suggests. Some manuscript traditions — reflected in translations leaning on the
+Byzantine/Majority text, such as YLT — expanded Luke 11:2 with Matthew's fuller wording: "our Father
+who is in heaven... your will be done, as in heaven, so on earth."
+
+The earlier and shorter reading, reflected in the ASV and followed by the ESV quoted above, has
+simply "Father, hallowed be your name. Your kingdom come."
+
+So this is a clear case of later scribes harmonising Luke's distinct, shorter wording toward
+Matthew's. Luke did not originally match Matthew word for word.
 
 ## Literary context: why each Gospel places it differently
 

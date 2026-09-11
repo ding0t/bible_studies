@@ -115,15 +115,18 @@ before it reaches either Melchizedek or Aaron.
 guard"). The same two verbs recur together for the priests' and Levites' work at the tabernacle:
 "they shall keep [שָׁמַר] his charge... to do the service [עָבַד] of the tabernacle" (Numbers
 3:7-8, ASV — its "charge" keeps the construct-noun sense מִשְׁמֶרֶת carries more visibly than
-ESV's "keep guard over him"), and again at 18:7. The ESV Study Bible's note on this verse draws
-the conclusion directly:
-Adam's role "is to be not only a gardener but also a guardian... as a priest, he is to maintain the
-sanctity of the garden as part of a temple complex" — and its heading for the whole section names
-Eden itself "the Sanctuary of Eden."[^esvsb-eden] The NIV Biblical Theology Study Bible makes the
-same point independently and adds where the office goes after Adam fails to keep it: when the man
-is driven out, "the task of guarding the garden is given to cherubim" (Genesis 3:24, which reuses
-the identical verb שָׁמַר for what they do at the gate).[^nivbtsb-eden] The office does not vanish
-when the first man forfeits it; it is reassigned.
+ESV's "keep guard over him"), and again at 18:7.
+
+The *ESV Study Bible* draws the conclusion directly. Adam's role "is to be not only a gardener but
+also a guardian... as a priest, he is to maintain the sanctity of the garden as part of a temple
+complex". Its heading for the whole section names Eden itself "the Sanctuary of Eden."[^esvsb-eden]
+
+The *NIV Biblical Theology Study Bible* makes the same point independently, and adds where the
+office goes after Adam fails to keep it. When the man is driven out, "the task of guarding the
+garden is given to cherubim" (Genesis 3:24) — reusing the identical verb שָׁמַר for what they do at
+the gate.[^nivbtsb-eden]
+
+So the office does not vanish when the first man forfeits it. It is reassigned.
 
 **Noah and the patriarchs.** No separate priestly class exists yet in Genesis. The household head
 acts as his family's priest directly: Noah "built an altar to Yahweh... and offered burnt
@@ -131,20 +134,24 @@ offerings" with his own hands after the flood (Genesis 8:20, WEB), and Abraham a
 their own altars (Genesis 12:7-8; 26:25). Priesthood in this period is a function of headship, not
 a distinct office someone is set apart into.
 
-**The firstborn, then the Levites.** That changes at Sinai, in two steps. First, after the tenth
-plague spared Israel's own firstborn, God claims them: "Sanctify to me all the firstborn... it is
-mine" (Exodus 13:2, WEB) — the implication, confirmed by the ESV Study Bible's note on the parallel
-text in Numbers, being that Israel's firstborn sons were meant to serve God in the sanctuary in
-place of their Egyptian counterparts who died.[^esvsb-num3] That plan does not survive the golden
-calf. When Moses called "whoever is on Yahweh's side" after Israel's idolatry, only "the sons of
-Levi gathered themselves together to him," carried out the resulting judgment, and were told,
-"Consecrate yourselves today to Yahweh... that he may give you a blessing today" (Exodus 32:26-29,
-WEB). Numbers then narrates the formal transfer this loyalty earned: "I have taken the Levites from
-among the children of Israel instead of all the firstborn who open the womb... and the Levites
-shall be mine" (Numbers 3:12, WEB), restated at 8:16 (WEB) — "instead of all who open the womb,
-even the firstborn of all the children of Israel, I have taken them to me." The priestly office
-that began as every
-Israelite firstborn son's birthright becomes, specifically because of Israel's failure and Levi's
+**The firstborn, then the Levites.** That changes at Sinai, in two steps.
+
+First, after the tenth plague spared Israel's own firstborn, God claims them. "Sanctify to me all
+the firstborn... it is mine" (Exodus 13:2, WEB). The *ESV Study Bible*'s note on the parallel text
+in Numbers draws the implication: Israel's firstborn sons were meant to serve God in the sanctuary,
+in place of their Egyptian counterparts who died.[^esvsb-num3]
+
+That plan does not survive the golden calf. When Moses called "whoever is on Yahweh's side" after
+Israel's idolatry, only "the sons of Levi gathered themselves together to him". They carried out the
+resulting judgment, and were told, "Consecrate yourselves today to Yahweh... that he may give you a
+blessing today" (Exodus 32:26-29, WEB).
+
+Numbers then narrates the transfer that loyalty earned. "I have taken the Levites from among the
+children of Israel instead of all the firstborn who open the womb... and the Levites shall be mine"
+(Numbers 3:12, WEB). It is restated at 8:16: "instead of all who open the womb, even the firstborn
+of all the children of Israel, I have taken them to me."
+
+So the priestly office that began as every
 faithfulness at that failure, the possession of one tribe. Aaron's own line within that tribe is
 appointed later still (Exodus 28:1), and only then does the office narrow to a single family.
 
@@ -192,17 +199,22 @@ Melchizedek.
 > earth; 20 and blessed be God Most High, who has delivered your enemies into your hand!" And
 > Abram gave him a tenth of everything.
 
-Everything Hebrews later leans on is compressed into these three verses. Salem is generally
-identified with Jerusalem — Psalm 76:2 places God's dwelling "in Salem," and Egyptian execration
-texts from around 1900 BC already attest a settlement there by that name, so the city itself is
-not a literary invention.[^cbsb-gen14] Melchizedek functions as both its king and the priest of
-its patron deity, El Elyon — a combination that was ordinary in the wider ancient Near East, where
-a city-state's ruler regularly also served as chief priest of the city's god.[^cbsb-gen14] What
-makes it worth Hebrews' attention centuries later is that Israel's own Law would not permit this
-combination: when King Uzziah presumed to burn incense in the temple, a priestly office reserved
-for Aaron's line, he was struck with leprosy on the spot (2 Chronicles 26:16-21). Melchizedek's
-office predates that separation. He is a king who is also a legitimate priest, seven or eight
-centuries before Levi is set apart to be a priestly tribe at all.
+Everything Hebrews later leans on is compressed into these three verses.
+
+Salem is generally identified with Jerusalem. Psalm 76:2 places God's dwelling "in Salem", and
+Egyptian execration texts from around 1900 BC already attest a settlement there by that name. The
+city is not a literary invention.[^cbsb-gen14]
+
+Melchizedek functions as both its king and the priest of its patron deity, El Elyon. That
+combination was ordinary in the wider ancient Near East, where a city-state's ruler regularly served
+as chief priest of the city's god.[^cbsb-gen14]
+
+What makes it worth Hebrews' attention centuries later is that Israel's own Law would not permit it.
+When King Uzziah presumed to burn incense in the temple — a priestly office reserved for Aaron's
+line — he was struck with leprosy on the spot (2 Chronicles 26:16-21).
+
+Melchizedek's office predates that separation. He is a king who is also a legitimate priest, seven
+or eight centuries before Levi is set apart as a priestly tribe at all.
 
 **Name and city.** Melchizedek — Hebrew מַלְכִּי־צֶדֶק (*malkî-ṣedeq*) — divides into מֶלֶךְ
 (*melek*, "king") and צֶדֶק (*ṣedeq*, "righteousness," TWOT root 1879a), giving "king of
@@ -212,13 +224,15 @@ Hebrews himself, not from later imagination — he states them as "by interpreta
 standard move for a Greek-speaking audience who would not have parsed the Hebrew unassisted.
 
 **El Elyon.** "God Most High" translates אֵל עֶלְיוֹן (*El Elyon*), a title also attested for
-generic high gods elsewhere in Canaanite religion — so on a strictly comparative-religion reading,
-nothing in Genesis 14 by itself proves Melchizedek worshiped the God of Abram specifically.[^cbsb-gen14]
-The narrative itself, though, closes that gap: three verses after receiving Melchizedek's
-blessing, Abram swears his own oath "to Yahweh, God Most High, possessor of heaven and earth"
-(Genesis 14:22, WEB) — the same El Elyon title from verse 20, now fused with the covenant name in
-a single breath. The text's own author intends the reader to recognize them as the same God,
-whatever the title's wider currency in the surrounding culture.
+generic high gods elsewhere in Canaanite religion. So on a strictly comparative-religion reading,
+nothing in Genesis 14 by itself proves Melchizedek worshipped the God of Abram.[^cbsb-gen14]
+
+The narrative closes that gap itself. Three verses after receiving Melchizedek's blessing, Abram
+swears his own oath "to Yahweh, God Most High, possessor of heaven and earth" (Genesis 14:22, WEB) —
+the same El Elyon title from verse 20, now fused with the covenant name in one breath.
+
+The author intends the reader to recognise them as the same God, whatever the title's wider currency
+in the surrounding culture.
 
 **No genealogy.** Genesis is structured around *toledot* — the recurring "these are the
 generations of" formula that tracks every major figure's line. Melchizedek alone gets none. He
@@ -235,24 +249,28 @@ Melchizedek surfaces exactly once more in the Hebrew Bible, in a single line of 
 > 4 The LORD has sworn and will not change his mind, "You are a priest forever after the order of
 > Melchizedek."
 
-Psalm 110 is a Davidic psalm about an idealized king who sits at Yahweh's right hand (v.1),
-rules from Zion (v.2), and crushes his enemies (vv.5-6) — Jesus himself treats it as directly
-messianic, using verse 1 to press the Pharisees on how the Messiah can be both David's son and
-David's Lord (Matthew 22:41-45), and it is quoted or alluded to in the New Testament more than any
-other Old Testament chapter. Verse 4 adds a second office to that king's résumé: not just royal
-but priestly, and not on Aaron's terms. Yahweh's oath ("has sworn and will not change his mind")
-installs him "after the order of Melchizedek" — the same *taxis* language Hebrews will later
-build seven chapters on.
+Psalm 110 is a Davidic psalm about an idealised king. He sits at Yahweh's right hand (v.1), rules
+from Zion (v.2), and crushes his enemies (vv.5-6).
+
+Jesus treats it as directly messianic. He uses verse 1 to press the Pharisees on how the Messiah can
+be both David's son and David's Lord (Matthew 22:41-45). No other Old Testament chapter is quoted or
+alluded to more often in the New Testament.
+
+Verse 4 adds a second office to that king's résumé. Not only royal but priestly, and not on Aaron's
+terms. Yahweh's oath — "has sworn and will not change his mind" — installs him "after the order of
+Melchizedek", the same *taxis* language Hebrews will later build seven chapters on.
 
 The pairing matters because of what the Law otherwise forbids: Judah's king cannot lawfully be a
 priest, and Levi's priest cannot lawfully be a king (2 Chronicles 26:16-21, above). Psalm 110:4
 anticipates one figure who legitimately holds both — on the precedent Melchizedek already set,
-centuries before either tribal restriction existed. Zechariah later picks up the same combination
-in a postexilic oracle about "the Branch," who will "build the temple of the LORD," "bear royal
-honor, and shall sit and rule on his throne," and be "a priest on his throne, and the counsel of
-peace shall be between them both" (Zechariah 6:12-13) — a second witness, independent of Hebrews,
-that a king-priest belonged to Israel's own messianic expectation and not only to the author of
-Hebrews' typology.
+centuries before either tribal restriction existed.
+
+Zechariah later picks up the same combination in a postexilic oracle about "the Branch". He will
+"build the temple of the LORD", "bear royal honor, and shall sit and rule on his throne", and be "a
+priest on his throne, and the counsel of peace shall be between them both" (Zechariah 6:12-13).
+
+That is a second witness, independent of Hebrews, that a king-priest belonged to Israel's own
+messianic expectation.
 
 ## Between the Testaments: a contested figure
 
@@ -260,16 +278,20 @@ By the first century, Melchizedek was not a forgotten footnote. Jewish groups re
 Old Testament texts had already built substantially different pictures of him before Hebrews'
 author writes into that milieu without simply repeating it.
 
-**Qumran (11Q13, "11QMelchizedek").** A fragmentary Hebrew scroll from Cave 11, dated to roughly
-the mid-first century BC, builds a composite pesher — a running commentary that strings several
-Old Testament texts together as one prophecy — out of the Jubilee legislation, a royal psalm, and
-two messianic prophecies, all applied to a single end-times figure called Melchizedek.[^11q13] It
-opens from Leviticus 25:13 and Deuteronomy 15:2 on releasing debts in the Jubilee year, then
+**Qumran (11Q13, "11QMelchizedek").** A fragmentary Hebrew scroll from Cave 11, dated to roughly the
+mid-first century BC, builds a composite *pesher* — a running commentary stringing several Old
+Testament texts together as one prophecy. It draws on the Jubilee legislation, a royal psalm, and
+two messianic prophecies, all applied to a single end-times figure called Melchizedek.[^11q13]
+
+It opens from Leviticus 25:13 and Deuteronomy 15:2 on releasing debts in the Jubilee year. It then
 identifies "the captives" of that legislation with Isaiah 61:1's "captives" set free in "liberty"
-(דְּרוֹר, *deror*) — the same rare word Leviticus 25:10 itself uses for the Jubilee's release, so
-the link isn't just thematic, it's the shared Hebrew word doing the connecting. Isaiah 61:1 is the
-same verse Jesus reads aloud in the Nazareth synagogue and applies to himself: "he has anointed me
-to proclaim liberty to the captives... to proclaim the acceptable year of the Lord" (Luke 4:18-19).
+(דְּרוֹר, *deror*) — the same rare word Leviticus 25:10 uses for the Jubilee's release. So the link
+is not merely thematic. The shared Hebrew word is doing the connecting.
+
+Isaiah 61:1 is the verse Jesus reads aloud in the Nazareth synagogue and applies to himself: "he has
+anointed me to proclaim liberty to the captives... to proclaim the acceptable year of the Lord"
+(Luke 4:18-19).
+
 11Q13 reads it the same way a century or so earlier, just without a name attached yet — as a
 Jubilee-shaped release from a debt that turns out to be sin itself, assigned to "the sons of Heaven
 and the lot of Melchizedek."
@@ -277,17 +299,22 @@ and the lot of Melchizedek."
 The scroll's second half turns to judgment, and does the same composite-quotation move with
 Psalm 82:1 — "God (אֱלֹהִים) has taken his stand in the divine assembly; in the midst of the gods
 (אֱלֹהִים) he holds judgment" — read as Melchizedek's own end-times judgment against Belial and
-his spirits. That's a striking psalm to reach for, because Jesus reaches for the very same one:
-when accused of blasphemy for calling himself God's Son, he answers by quoting Psalm 82:6's "I said,
-you are gods" back at his accusers (John 10:34-36) — two independent first-century readings both
-treating this psalm's "elohim" language as live ground for a contested identity claim, on opposite
-sides of the same dispute. 11Q13 then adds Isaiah 52:7 ("how beautiful... are the feet of him who
-brings good news") and Daniel 9:25's "an anointed one, a prince," identifying the "messenger" of the
-one prophecy with the "prince" of the other — three separate Old Testament threads (Jubilee law, a
-psalm, two messianic oracles) braided into a single portrait of one heavenly, angelic figure who
-proclaims release, judges Belial, and is called Melchizedek.[^11q13] This is a far larger role than
-anything in Genesis or the Psalms — Melchizedek's *name* has become the peg for an entirely new
-composite eschatological figure, not a memory of the historical king Abram met.
+his spirits. That is a striking psalm to reach for, because Jesus reaches for the very same one.
+Accused of blasphemy for calling himself God's Son, he answers by quoting Psalm 82:6's "I said, you
+are gods" back at his accusers (John 10:34-36).
+
+So two independent first-century readings treat this psalm's *elohim* language as live ground for a
+contested identity claim — on opposite sides of the same dispute.
+
+11Q13 then adds Isaiah 52:7 ("how beautiful... are the feet of him who brings good news") and Daniel
+9:25's "an anointed one, a prince", identifying the "messenger" of the one prophecy with the
+"prince" of the other. Three separate Old Testament threads — Jubilee law, a psalm, two messianic
+oracles — braided into a single portrait of one heavenly, angelic figure who proclaims release,
+judges Belial, and is called Melchizedek.[^11q13]
+
+That is a far larger role than anything in Genesis or the Psalms. Melchizedek's *name* has become
+the peg for an entirely new composite eschatological figure. It is not a memory of the historical
+king Abram met.
 
 That is a different question from the one Genesis 14 raises, and the two shouldn't be merged.
 Genesis gives no hint that its Melchizedek was anything but human; what Qumran did was take
@@ -337,27 +364,35 @@ with Luke as translator — the account preserved by Clement of Alexandria (Euse
 *Ecclesiastical History* 6.14.2-4), which also explains why the Greek reads closer to Luke-Acts
 than to Paul's other letters. Whoever held the pen, the church received the letter as canonical
 and authoritative from early on, and that standing doesn't hinge on settling the authorship
-question. What the letter reveals about its audience is a Jewish-Christian (and likely some
-God-fearing Gentile) group under real pressure — commended for past endurance of
-persecution and public "plundering of your property" (10:32-34), warned that some have grown
-lax about assembling together (10:25), and tempted, the letter's whole argument implies, to drift
-back toward the Jewish sacrificial system rather than hold to Christ. The strongest evidence for a
-date before AD 70 is that the letter speaks of temple sacrifices as an ongoing present reality
-(7:27-28; 8:3-5; 9:7-8, 25; 10:1-3; 13:10-11) — an author trying to show that system's
-insufficiency would have had an unanswerable argument available in the temple's destruction, and
+question.
+
+What the letter reveals about its audience is a Jewish-Christian group under real pressure, probably
+with some God-fearing Gentiles among them. They are commended for past endurance of persecution and
+the public "plundering of your property" (10:32-34). Some have grown lax about assembling together
+(10:25). And the letter's whole argument implies they are tempted to drift back toward the Jewish
+sacrificial system rather than hold to Christ.
+
+The strongest evidence for a date before AD 70 is that the letter speaks of temple sacrifices as an
+ongoing present reality (7:27-28; 8:3-5; 9:7-8, 25; 10:1-3; 13:10-11). An author trying to show that
+system's insufficiency would have had an unanswerable argument available in the temple's
+destruction, and
 never reaches for it.
 
 **The priesthood thread, from chapter 2 on.** The case for Melchizedek does not start at chapter
 7; it is prepared for three separate times earlier in the letter. Hebrews 2:17-18 first introduces
 Jesus as a "merciful and faithful high priest" who can help those who are tempted because he was
-tempted himself. Hebrews 4:14-16 returns to that title to ground a call to hold fast: "since we
-have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold
-fast our confession" (4:14, ESV) — then turns that same confidence outward into approach: "with
-confidence draw near to the throne of grace, that we may receive mercy and find grace to help in
-time of need" (4:16, ESV). Then 5:1-10 states the two qualifications any legitimate high priest must
-meet — he must be taken from among men, and he must be called by God rather than self-appointed,
-"just as Aaron was" (5:4). Christ meets both: appointed by the Father's own declaration, which
-Hebrews quotes as two psalms laid side by side —
+tempted himself.
+
+Hebrews 4:14-16 returns to the title to ground a call to hold fast. "Since we have a great high
+priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession"
+(4:14, ESV). Then it turns that same confidence outward into approach: "with confidence draw near to
+the throne of grace, that we may receive mercy and find grace to help in time of need" (4:16, ESV).
+
+Then 5:1-10 states the two qualifications any legitimate high priest must meet. He must be taken
+from among men. And he must be called by God rather than self-appointed, "just as Aaron was" (5:4).
+
+Christ meets both. He is appointed by the Father's own declaration, which Hebrews quotes as two
+psalms laid side by side —
 
 > ✝️ Hebrews 5:5-6 (ESV), quoting Psalm 2:7 and Psalm 110:4
 >
@@ -414,21 +449,26 @@ Read across chapters 5-7, the argument is that Christ's priesthood is superior i
 in chapters 8-10 is not a second, separate argument tacked on afterward; Hebrews itself says so.
 
 **Chapters 8-10: a shadow tabernacle and the true one.** Chapter 8 opens by naming what everything
-since chapter 5 has been building toward: "the point (κεφάλαιον) in what we are saying is this: we
-have such a high priest, one who is seated at the right hand of the throne of the Majesty in
-heaven, a minister in the holy places, in the true tent that the Lord set up, not man" (8:1-2,
-ESV). The priesthood case and the sanctuary case are one argument, not two — the second is stated
-as the conclusion of the first. And Christ could not have ministered in the earthly tabernacle even
-if he had wanted to: "if he were on earth, he would not be a priest at all, since there are priests
-who offer gifts according to the law" (8:4) — the same point 7:13-14 already made about Judah
-having no claim on Levi's altar, now doing further work: Christ's priesthood isn't just of a
-different *order* than Aaron's, it operates in a different *place* than Aaron's ever did.
+since chapter 5 has been building toward. "The point (κεφάλαιον) in what we are saying is this: we
+have such a high priest, one who is seated at the right hand of the throne of the Majesty in heaven,
+a minister in the holy places, in the true tent that the Lord set up, not man" (8:1-2, ESV).
+
+So the priesthood case and the sanctuary case are one argument. The second is stated as the
+conclusion of the first.
+
+And Christ could not have ministered in the earthly tabernacle even had he wanted to. "If he were on
+earth, he would not be a priest at all, since there are priests who offer gifts according to the
+law" (8:4). That is the point 7:13-14 already made about Judah having no claim on Levi's altar, now
+doing further work. Christ's priesthood is not only of a different *order* than Aaron's. It operates
+in a different *place*.
 
 That place is not a better copy of Moses' tabernacle; Hebrews says the earthly tabernacle was
-never more than a **ὑπόδειγμα καὶ σκιά** — "copy and shadow" (8:5) — of a heavenly original, and
-grounds the claim directly in the tabernacle's own founding instructions: God told Moses at Sinai,
-"see that you make everything according to the pattern (τύπος) that was shown you on the mountain"
-(Exodus 25:40, quoted at 8:5). The earthly sanctuary was designed, from its first blueprint, to
+never more than a **ὑπόδειγμα καὶ σκιά** — "copy and shadow" (8:5) — of a heavenly original.
+
+It grounds that in the tabernacle's own founding instructions. God told Moses at Sinai, "see that
+you make everything according to the pattern (τύπος) that was shown you on the mountain" (Exodus
+25:40, quoted at 8:5). The earthly sanctuary was designed, from its first blueprint, to copy
+something else.
 copy something else. Hebrews repeats the claim at 9:23-24: the tabernacle's furnishings are
 "copies (ὑποδείγματα) of the heavenly things," needing only earthly rites to purify them, while
 "the heavenly things themselves" required "better sacrifices" — because Christ "has entered, not
@@ -448,13 +488,16 @@ argument for why Christ's priesthood fulfills what Melchizedek foreshadowed, and
 spatial-copy argument for why the sanctuary he serves in is the real one and Sinai's was only ever
 a floor plan.
 
-The two cases converge rather than merely sit side by side: because Christ's priesthood is
+The two cases converge rather than sitting side by side. Because Christ's priesthood is
 Melchizedekian rather than Aaronic, it can be exercised in the true, heavenly sanctuary rather than
-its earthly copy (7:11-14 has already ruled out the earthly one); and because the sanctuary is the
-true one, the covenant mediated there is correspondingly better (Jeremiah 31:31-34, quoted in full
-at 8:8-12 and again in part at 10:16-17), sealed by a sacrifice — his own blood, not an animal's —
-that "perfected for all time those who are being sanctified" (10:14), rather than one that had to
-be repeated because it was only ever a shadow of the sacrifice that could actually finish the job.
+its earthly copy — 7:11-14 has already ruled the earthly one out.
+
+And because the sanctuary is the true one, the covenant mediated there is correspondingly better
+(Jeremiah 31:31-34, quoted in full at 8:8-12 and again in part at 10:16-17).
+
+It is sealed by a sacrifice of his own blood rather than an animal's, one that "perfected for all
+time those who are being sanctified" (10:14). The old sacrifice had to be repeated. It was only ever
+a shadow of the sacrifice that could finish the job.
 
 ## Word studies: the vocabulary carrying Hebrews' argument
 
