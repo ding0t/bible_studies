@@ -442,6 +442,9 @@ function validateFile(filePath) {
     if (/^\s*```/.test(rawLine)) { inFence = !inFence; continue; }
     if (inFence) continue;
     if (/^\s*[>|#]/.test(rawLine)) { inItem = false; continue; }
+    // Footnote definitions are reference apparatus, not prose. A block of them reads as one
+    // enormous sentence and was inflating trumpet.md by a phantom 104-word "sentence".
+    if (/^\s*\[\^[^\]]+\]:/.test(rawLine)) { inItem = true; continue; }
     if (/^\s*(?:[-*+]|\d+\.)\s/.test(rawLine)) { inItem = true; continue; }
     if (/^\s*$/.test(rawLine)) { inItem = false; proseLines.push(''); continue; }
     // A list item's wrapped continuation lines are indented and match no marker. Skipping only the

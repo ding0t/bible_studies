@@ -80,7 +80,22 @@ Ancient Israel used two distinct instruments for the "trumpet" English translati
 > summoning the congregation and for breaking camp. 3 And when both are blown, all the
 > congregation shall gather themselves to you at the entrance of the tent of meeting."
 
-The Cultural Backgrounds Study Bible notes these were likely styled after Egyptian instruments of the same period — narrow-tubed, sharp-pitched trumpets known from Late Bronze Age Egypt, examples of which were found in Tutankhamun's own tomb, used there in both cultic and military settings.[^cbsb-num10] Josephus describes Israel's own pair as just over a foot long and flared, and pictures of captured temple trumpets survive on the Arch of Titus in Rome, carried among the plunder of Jerusalem's fall in AD 70.[^cbsb-num10] Silver trumpets were blown by Aaron's priestly line specifically (Numbers 10:8) and reappear in Phinehas's hand at the battle against Midian (Numbers 31:6) — a war context, not a worship one, showing the same instrument served both. The shofar and the silver trumpet were never interchangeable in function: the ram's horn belonged to Israel generally and to unrepeatable, dramatic moments (Sinai, Jericho, Jubilee); the silver trumpets belonged to the priesthood and to Israel's ordinary operating rhythm — assembling, marching, going to war, marking a feast day.
+The *Cultural Backgrounds Study Bible* notes these were likely styled after Egyptian instruments of
+the same period — narrow-tubed, sharp-pitched trumpets known from Late Bronze Age Egypt, used in
+both cultic and military settings. Examples were found in Tutankhamun's own tomb.[^cbsb-num10]
+
+Josephus describes Israel's pair as just over a foot long and flared. Pictures of the captured
+temple trumpets survive on the Arch of Titus in Rome, carried among the plunder of Jerusalem's fall
+in AD 70.[^cbsb-num10]
+
+Aaron's priestly line blew the silver trumpets specifically (Numbers 10:8), and they reappear in
+Phinehas's hand at the battle against Midian (Numbers 31:6). That is a war context rather than a
+worship one, which shows the same instrument served both.
+
+The shofar and the silver trumpet were never interchangeable in function. The ram's horn belonged to
+Israel generally, and to unrepeatable, dramatic moments: Sinai, Jericho, Jubilee. The silver
+trumpets belonged to the priesthood and to Israel's ordinary operating rhythm — assembling,
+marching, going to war, marking a feast day.
 
 Revelation's Greek text draws no such distinction — **σάλπιγξ (*salpigx*, G4536)** covers every trumpet in the New Testament, from Paul's illustration about an army preparing for battle (1 Corinthians 14:8) to the seven angels of Revelation 8-11. The word itself carries no information about which Hebrew instrument (or neither) lies behind a given use; that has to come from context, not vocabulary — a caution worth keeping in mind before the "last trumpet" section below.
 
@@ -107,13 +122,39 @@ Before any of those ordinary uses existed, a trumpet had already announced the L
 > 16 On the morning of the third day there were thunders and lightnings and a thick cloud on the
 > mountain and a very loud trumpet blast, so that all the people in the camp trembled.
 
-The ESV Study Bible's note ties the sound directly to the sight: "all the sights... and sounds... signify the LORD's presence... a continual reminder to Israel that the LORD had spoken to Moses."[^esvsb-exod19] The trumpet here isn't summoning Israel to do anything yet — it is itself part of what God's presence sounds like, growing "louder and louder" as the mountain shakes (19:19). Every later use of a trumpet in Israel's worship — gathering the congregation, marking a feast, sounding Atonement — inherits this first association: the sound itself means *the LORD is here.* Hebrews 12:19 looks back on this same trumpet centuries later as part of what made Sinai a terrifying encounter believers under the new covenant are explicitly told they have not come to (Hebrews 12:18-24) — the sound remains, in the New Testament's own reckoning, the marker of God's dramatic, unmediated presence.
+The *ESV Study Bible*'s note ties the sound directly to the sight. "All the sights... and sounds...
+signify the LORD's presence... a continual reminder to Israel that the LORD had spoken to
+Moses."[^esvsb-exod19]
+
+The trumpet here is not summoning Israel to do anything yet. It is part of what God's presence
+sounds like, growing "louder and louder" as the mountain shakes (19:19).
+
+Every later trumpet in Israel's worship inherits that first association — gathering the
+congregation, marking a feast, sounding Atonement. The sound itself means *the LORD is here*.
+
+Hebrews 12:19 looks back on this same trumpet centuries later. It is part of what made Sinai a
+terrifying encounter, and believers under the new covenant are told explicitly that they have not
+come to it (Hebrews 12:18-24). So in the New Testament's own reckoning the sound still marks God's
+dramatic, unmediated presence.
 
 ## The seven trumpets of Revelation
 
-John received this vision while exiled on Patmos, an Aegean island Rome used to banish political prisoners (Revelation 1:9) — a detail John himself gives as evidence he shares in the very "tribulation" his readers are enduring, not a remote seer writing from safety.[^esvsb-rev1] What follows is addressed to seven specific, named congregations in Asia Minor (chs. 2-3) already under real pressure before a single trumpet sounds. The trumpet judgments are not this book's starting point; they're the second half of a vision whose first half is Christ's own diagnosis of, and promises to, churches actually reading it.
+John received this vision while exiled on Patmos, an Aegean island Rome used to banish political
+prisoners (Revelation 1:9). He gives that detail himself, as evidence he shares in the very
+"tribulation" his readers are enduring. He is not a remote seer writing from safety.[^esvsb-rev1]
 
-Revelation structures its judgments in four cycles — seven letters, seven seals, seven trumpets, seven bowls — and the trumpets are the third.[^esvsb-rev8] They open in heaven, not on earth: seven angels are given seven trumpets in response to the prayers of the saints, offered up with incense from a golden altar (Revelation 8:2-5), before the first one sounds. What follows deliberately reuses Egypt's own plagues, escalated and directed at "those who dwell on the earth" rather than one nation:
+What follows is addressed to seven specific, named congregations in Asia Minor (chs. 2-3), already
+under real pressure before a single trumpet sounds. So the trumpet judgments are not this book's
+starting point. They are the second half of a vision whose first half is Christ's own diagnosis of,
+and promises to, churches actually reading it.
+
+Revelation structures its judgments in four cycles: seven letters, seven seals, seven trumpets,
+seven bowls. The trumpets are the third.[^esvsb-rev8]
+
+They open in heaven rather than on earth. Seven angels are given seven trumpets in response to the
+prayers of the saints, offered up with incense from a golden altar (Revelation 8:2-5), before the
+first one sounds. What follows deliberately reuses Egypt's own plagues, escalated and directed at
+"those who dwell on the earth" rather than at one nation:
 
 | Trumpet | Revelation | Result | Old Testament echo |
 |---|---|---|---|
@@ -125,21 +166,83 @@ Revelation structures its judgments in four cycles — seven letters, seven seal
 | Sixth (2nd woe) | 9:13-21 | Four bound angels released at the Euphrates lead a vast army that kills a third of mankind | — |
 | Seventh (3rd woe) | 11:15-19 | "The kingdom of the world has become the kingdom of our Lord and of his Christ" | The coronation-trumpet pattern of 1 Kings 1:34-39, now cosmic |
 
-The Cultural Backgrounds Study Bible tracks this Exodus pattern across all three of Revelation's judgment cycles — trumpets, and again in the bowls of chapter 16 — concluding that "Revelation is not simply recounting what happened in Moses's day; it is depicting judgments on the world in familiar biblical terms."[^cbsb-rev8] The fifth trumpet is the clearest case of borrowed imagery doing real interpretive work: John's locusts are "like horses prepared for battle," crowned, with human faces, women's hair, and a king named **Ἀβαδδών / Ἀπολλύων** — Hebrew and Greek both meaning "Destroyer" (Revelation 9:7-11). None of that description comes from Exodus's locust plague, which is simply locusts. It comes from Joel 2:4-11's war-horse imagery, describing what Joel himself calls Yahweh's own army executing the Day of the LORD. Revelation doesn't invent a new locust; it identifies which prophetic locust-army this is.
+The *Cultural Backgrounds Study Bible* tracks this Exodus pattern across all three of Revelation's
+judgment cycles, the trumpets and again the bowls of chapter 16. Its conclusion: "Revelation is not
+simply recounting what happened in Moses's day; it is depicting judgments on the world in familiar
+biblical terms."[^cbsb-rev8]
 
-The escalation is deliberate and stated, not merely observed: where the first four seals had touched "a fourth" of the earth (Revelation 6:8), the first four trumpets touch "a third" — worse, but still restrained, "giving foretastes of total devastation to come if rebels ignore his warnings."[^esvsb-rev8] The seventh trumpet is where restraint ends and the pattern this whole study has traced reaches its own conclusion: a trumpet, sounding a coronation, exactly as one sounded for Solomon a thousand years earlier — except this throne is the whole world's, and this reign has no successor to wait for. Revelation 10:7 marks the same moment from a different angle, calling it the point at which "the mystery of God would be fulfilled, just as he announced to his servants the prophets" (ESV) — every trumpet warning the prophets ever gave was building toward this specific sound.
+The fifth trumpet is the clearest case of borrowed imagery doing real interpretive work. John's
+locusts are "like horses prepared for battle," crowned, with human faces, women's hair, and a king
+named **Ἀβαδδών / Ἀπολλύων** — Hebrew and Greek both meaning "Destroyer" (Revelation 9:7-11).
+
+None of that comes from Exodus's locust plague, which is simply locusts. It comes from Joel 2:4-11's
+war-horse imagery, describing what Joel calls Yahweh's own army executing the Day of the LORD.
+Revelation does not invent a new locust. It identifies which prophetic locust-army this is.
+
+The escalation is deliberate, and the text states it rather than leaving it to be noticed. The first
+four seals had touched "a fourth" of the earth (Revelation 6:8). The first four trumpets touch "a
+third" — worse, and still restrained, "giving foretastes of total devastation to come if rebels
+ignore his warnings."[^esvsb-rev8]
+
+The seventh trumpet is where restraint ends, and where the pattern this study has traced reaches its
+conclusion. A trumpet sounding a coronation, exactly as one sounded for Solomon a thousand years
+earlier. Except this throne is the whole world's, and this reign has no successor to wait for.
+
+Revelation 10:7 marks the same moment from another angle. It is the point at which "the mystery of
+God would be fulfilled, just as he announced to his servants the prophets" (ESV). Every trumpet
+warning the prophets ever gave was building toward this one sound.
 
 ## "At the last trumpet": three texts, not automatically one event
 
 Three New Testament passages use trumpet language for a future gathering, and popular reading often merges them into a single moment. The vocabulary invites that — all three use forms of the same word, *salpigx* — but vocabulary alone doesn't establish that. Read on their own terms, each text names a different audience and a different content.
 
-**1 Corinthians 15:51-53 and 1 Thessalonians 4:16-17** address the church specifically — "we shall not all sleep, but we shall all be changed" (1 Corinthians 15:51, ESV); "the dead in Christ will rise first. Then we who are alive, who are left, will be caught up together with them" (1 Thessalonians 4:16-17, ESV). The ESV Study Bible identifies the Greek verb behind "caught up" as **ἁρπάζω** (*harpazō*, "to seize suddenly, snatch away") — the term the word "rapture" translates — and notes the three sounds Paul describes (a cry of command, an archangel's voice, "the trumpet of God") together summon the dead to rise, before the living join them in the air.[^esvsb-1thess4] Nothing in either passage mentions judgment on unbelievers, a tribulation, or the earth itself; the entire scene concerns believers already united to Christ.
+**1 Corinthians 15:51-53 and 1 Thessalonians 4:16-17** address the church specifically. "We shall
+not all sleep, but we shall all be changed" (1 Corinthians 15:51, ESV). "The dead in Christ will
+rise first. Then we who are alive, who are left, will be caught up together with them" (1
+Thessalonians 4:16-17, ESV).
 
-**Matthew 24:29-31** is different in every one of those respects. It comes explicitly "immediately after the tribulation of those days" (24:29, ESV) — a stated chronological marker neither Corinthians nor Thessalonians carries — and describes Christ's visible appearing "with power and great glory," at which his angels "will gather his elect from the four winds" (24:30-31). The Cultural Backgrounds Study Bible traces this trumpet image to Jewish end-time expectation rooted in Isaiah 27:12-13 — a passage naming Israel specifically: exiled Israelites "lost in the land of Assyria" and "driven out to the land of Egypt," gathered by a "great trumpet" to worship at Jerusalem (Isaiah 27:13, ESV).[^nkjvcbsb-matt24] That is a regathering of scattered Israel to a specific place, at a stated point after tribulation — not the same shape of event as believers of every nation caught up to meet Christ "in the air."
+The *ESV Study Bible* identifies the verb behind "caught up" as **ἁρπάζω** (*harpazō*, "to seize
+suddenly, snatch away"), which is the term the word "rapture" translates. It notes that the three
+sounds Paul describes — a cry of command, an archangel's voice, "the trumpet of God" — together
+summon the dead to rise, before the living join them in the air.[^esvsb-1thess4]
+
+Neither passage mentions judgment on unbelievers, a tribulation, or the earth itself. The whole
+scene concerns believers already united to Christ.
+
+**Matthew 24:29-31** is different in every one of those respects. It comes explicitly "immediately
+after the tribulation of those days" (24:29, ESV) — a stated chronological marker neither
+Corinthians nor Thessalonians carries. And it describes Christ's visible appearing "with power and
+great glory," at which his angels "will gather his elect from the four winds" (24:30-31).
+
+The *Cultural Backgrounds Study Bible* traces this trumpet image to Jewish end-time expectation
+rooted in Isaiah 27:12-13, a passage naming Israel specifically. Exiled Israelites "lost in the land
+of Assyria" and "driven out to the land of Egypt," gathered by a "great trumpet" to worship at
+Jerusalem (Isaiah 27:13, ESV).[^nkjvcbsb-matt24]
+
+That is a regathering of scattered Israel, to a specific place, at a stated point after tribulation.
+It is not the same shape of event as believers of every nation caught up to meet Christ "in the
+air".
 
 **Revelation 11:15-19**, the seventh trumpet studied above, differs from both: it is the last of a numbered judgment sequence falling on "those who dwell on the earth" (8:13), and its content is a kingdom announcement and a reckoning — "the time for the dead to be judged... and for destroying the destroyers of the earth" (11:18, ESV) — not a resurrection of the righteous dead in Christ.
 
-Not every source treats these three as sharply distinct. The NIV Biblical Theology Study Bible's note on 1 Corinthians 15:52 lists Isaiah 27:13, Joel 2:1, Matthew 24:31, 1 Thessalonians 4:16, and Revelation's trumpets together as one family of "trumpet announces the Lord's coming" texts, without separating them by timing.[^nivbtsb-1cor15] That's true as far as it goes — all of them do draw on the same Old Testament pattern this study has traced from Sinai onward, and Revelation 10:7's "mystery of God," fulfilled at the seventh trumpet, even echoes the same word Paul uses for the resurrection ("I tell you a mystery," 1 Corinthians 15:51) — a real point of contact, not one to paper over. But sharing an image and a vocabulary word is not the same as sharing an event. Paul's audience, timing, and content point one way; Matthew's point another; Revelation's a third. On a dispensational reading, which keeps the church's hope distinct from Israel's promised regathering and from the tribulation judgments poured out on an unbelieving world, that's exactly what the text's own details predict: three trumpets, doing three different jobs, because a shared instrument was never a shared event to begin with — no more than a shofar at Jericho and a shofar at Jubilee were the same occasion because they used the same kind of horn.
+Not every source treats these three as sharply distinct. The *NIV Biblical Theology Study Bible*
+lists Isaiah 27:13, Joel 2:1, Matthew 24:31, 1 Thessalonians 4:16 and Revelation's trumpets together
+as one family of "trumpet announces the Lord's coming" texts, without separating them by
+timing.[^nivbtsb-1cor15]
+
+That is true as far as it goes. All of them draw on the same Old Testament pattern this study has
+traced from Sinai onward. And Revelation 10:7's "mystery of God", fulfilled at the seventh trumpet,
+echoes the very word Paul uses for the resurrection: "I tell you a mystery" (1 Corinthians 15:51). A
+real point of contact, and not one to paper over.
+
+But sharing an image and a vocabulary word is not sharing an event. Paul's audience, timing and
+content point one way. Matthew's point another. Revelation's a third.
+
+On a dispensational reading, which keeps the church's hope distinct from Israel's promised
+regathering and from the tribulation judgments poured out on an unbelieving world, that is exactly
+what the text's own details predict. Three trumpets, doing three different jobs. A shared instrument
+was never a shared event — no more than a shofar at Jericho and a shofar at Jubilee were one
+occasion because they used the same kind of horn.
 
 ## Then and now
 
