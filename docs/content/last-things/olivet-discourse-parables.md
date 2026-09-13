@@ -111,10 +111,14 @@ hand someone this week reaches Him, and so does the one you decide not to bother
 
 ### Memory verses
 
-"Well done, good and faithful servant. You have been faithful over a little; I will set you over
-much" (Matthew 25:21, ESV) — see [The Talents](#the-talents-2514-30). "As you did it to one of the
-least of these my brothers, you did it to me" (Matthew 25:40, ESV) — see [The Sheep and the
-Goats](#the-sheep-and-the-goats-2531-46).
+- **Matthew 25:13 (ESV)** — "Watch therefore, for you know neither the day nor the hour." The
+  discourse's own summary of all four. See [The Ten Virgins](#the-ten-virgins-251-13) for what it
+  does *not* mean: every one of the ten slept.
+- **Matthew 25:21 (ESV)** — "Well done, good and faithful servant. You have been faithful over a
+  little; I will set you over much." Word for word what the two-talent servant hears as well as the
+  five (25:21, 23). See [The Talents](#the-talents-2514-30).
+- **Matthew 25:40 (ESV)** — "Truly, I say to you, as you did it to one of the least of these my
+  brothers, you did it to me." See [The Sheep and the Goats](#the-sheep-and-the-goats-2531-46).
 
 ### Be Transformed
 
