@@ -5,7 +5,7 @@ description: "What the Key Takeaways section at the top of every study is for, t
 tags: ["study-method", "key-takeaways", "transformation"]
 draft: false
 date_created: 2026-08-02
-date_modified: 2026-08-23
+date_modified: 2026-09-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -66,7 +66,7 @@ Takeaways**, in this order:
 
 ### Types & Prophecy
 
-Two related but distinct things Scripture itself keeps apart, both belonging under one heading
+Two related but distinct things, which Scripture itself keeps apart. Both belong under one heading,
 because both are God telling readers what to expect before it happens:
 
 - **Type.** What Old Testament person, object, ritual, or event in *this specific study* functions
@@ -80,38 +80,37 @@ because both are God telling readers what to expect before it happens:
   after Melchizedek's order was coming is prophecy in this sense, distinct from Melchizedek
   himself being a type.
 
-Keep the two apart rather than blending them into one paragraph — a reader should be able to tell
-which one a given claim rests on, since a type argues from resemblance and a prophecy argues from
-a stated prediction actually coming true, and conflating them overclaims one or the other. A study
-with only one of the two gets only that one subheading, not a forced example of the other — see
-[Not every study needs all five](#not-every-study-needs-all-five) below.
+Keep the two apart rather than blending them into one paragraph. A reader should be able to tell
+which one a given claim rests on. A type argues from resemblance. A prophecy argues from a stated
+prediction actually coming true. Conflating them overclaims one or the other. A study with only one
+of the two gets only that one subheading. See [Not every study needs all five](#not-every-study-
+needs-all-five) below.
 
 ### Lessons about Jesus
 
 Direct Christological content, stated plainly: what this study teaches about who Jesus is, or what
-he has done. This is the section's center of gravity for a study centered on Christ, and it's where
-the strongest, most load-bearing facts the exegesis established belong — not a repeat of the whole
-argument, just its conclusions about him.
+he has done. This is the section's center of gravity for a study centered on Christ. The strongest,
+most load-bearing facts the exegesis established belong here. Put its conclusions about him, rather
+than a repeat of the whole argument.
 
 ### Memory verses
 
-One to three verses from the study worth committing to memory, named with reference and
-translation. These should already appear, quoted and cited, somewhere in the study's own body —
-this subsection points back to them, it doesn't introduce new quotations.
+One to three verses from the study worth committing to memory, named with reference and translation.
+These should already appear, quoted and cited, somewhere in the study's own body. This subsection
+points back to them. It introduces no new quotations.
 
 ### Be Transformed
 
 The Romans 12:2 payoff, made concrete: specific thoughts, attitudes, actions, or behaviors this
-study calls the reader to examine or change. Keep this distinguishable from the exegesis above the
-same way this site's develop-bible-study process already asks of application generally — a reader
-should be able to tell what the text *said* from what the study is *applying*, and this is where
-the applying happens, named directly rather than left for the reader to infer.
+study calls the reader to examine or change. Keep this distinguishable from the exegesis above, the
+way this site's develop-bible-study process already asks of application generally. A reader should
+be able to tell what the text *said* from what the study is *applying*. This is where the applying
+happens, so name it directly rather than leaving the reader to infer it.
 
-In practice, this works well as three short labeled bullets — **Think** (a thought or belief to
-correct), **Attitude** (a posture or disposition to adopt), **Do** (an action or behavior to take)
-— covering the same four things in Romans 12:2's own vocabulary (thoughts, attitudes, actions,
-behaviors) without needing a fourth bullet, since "actions" and "behaviors" are close enough in
-practice to share one.
+In practice, three short labeled bullets work well. **Think**, a thought or belief to correct.
+**Attitude**, a posture or disposition to adopt. **Do**, an action or behavior to take. Those three
+cover the same four things in Romans 12:2's own vocabulary — thoughts, attitudes, actions, behaviors
+— because "actions" and "behaviors" are close enough in practice to share one bullet.
 
 ### Prayer
 
@@ -124,29 +123,29 @@ a general request for blessing.
 
 Structure it the way [The Lord's Prayer](../christian-life/lords-prayer.md) study draws out from
 Jesus's own model: **relationship and God's character first, request second.** "Our Father" comes
-before a single petition is made, and the first three petitions in that prayer concern God himself
-— his name, his kingdom, his will — before the prayer ever turns to daily bread, forgiveness, or
-deliverance. A Key Takeaways prayer should follow the same order: open by addressing God in light
-of what this study just established about him (adoration grounded in *this* study's content, not
-generic praise), then move to an honest, specific request that follows from it. It doesn't need to
-be long to do this — Jesus's own model prayer isn't — but the order matters more than the length.
+before a single petition is made. The first three petitions in that prayer concern God himself: his
+name, his kingdom, his will. Only then does the prayer turn to daily bread, forgiveness, and
+deliverance. A Key Takeaways prayer should follow the same order. Open by addressing God in light of
+what this study just established about him — adoration grounded in *this* study's content rather
+than generic praise. Then move to an honest, specific request that follows from it. It doesn't need
+to be long to do this — Jesus's own model prayer isn't — but the order matters more than the length.
 
 ---
 
 ## Not every study needs all five
 
 A study on a passage with no natural type, and no direct verbal prophecy either, shouldn't invent
-one to fill the subheading — the develop-bible-study skill's existing discipline (don't pad a
-translation-comparison section just to have one; don't force a rule-of-three) applies here too. A
-study might have a type and no prophecy, a prophecy and no type, both, or neither — include only
-the piece the study actually earned, not because the template lists it. **Discussion questions**, already a separate section
-at the end of every study, stays separate from this — Key Takeaways delivers content and calls to
-action up front; discussion questions are open-ended prompts for a reader or a group to work
-through afterward.
+one to fill the subheading. The develop-bible-study skill's existing discipline applies here too:
+don't pad a translation-comparison section just to have one, and don't force a rule-of-three. A
+study might have a type and no prophecy, a prophecy and no type, both, or neither — include only the
+piece the study actually earned, not because the template lists it. **Discussion questions**,
+already a separate section at the end of every study, stays separate from this — Key Takeaways
+delivers content and calls to action up front; discussion questions are open-ended prompts for a
+reader or a group to work through afterward.
 
 ## Status
 
 This is a prototype, first built out on [Jesus, Priest in the Order of
-Melchizedek](../jesus/melchizedek-priesthood.md). Expect the shape of this page and the
-studies using it to keep changing as it gets tried against more studies — this page will be updated
-as that happens, not left to drift out of sync with what studies actually do.
+Melchizedek](../jesus/melchizedek-priesthood.md). Expect the shape of this page and the studies
+using it to keep changing as it gets tried against more studies. This page will be updated as that
+happens, rather than left to drift out of sync with what studies actually do.

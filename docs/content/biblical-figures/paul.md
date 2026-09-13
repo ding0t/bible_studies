@@ -9,6 +9,7 @@ bible_references: ["Acts 9:15", "Acts 26:12-18", "Galatians 1:11-24", "Galatians
 date_created: 2026-08-29
 date_modified: 2026-09-13
 ai_provider_models:
+  - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
 ---
 
