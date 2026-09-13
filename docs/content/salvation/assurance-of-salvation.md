@@ -9,6 +9,7 @@ bible_references: ["Acts 4:9-12", "Ephesians 1:13-14", "Ephesians 2:1-10", "John
 date_created: 2026-08-24
 date_modified: 2026-09-13
 ai_provider_models:
+  - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
 ---
 
