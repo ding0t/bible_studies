@@ -17,16 +17,16 @@ ai_provider_models:
 
 Most of the Bible's internal chronology is relative: king X reigned so many years, was followed by
 king Y, and so on. To turn that into an absolute calendar date, you need at least one point where a
-biblical event is independently fixed by something outside the Bible — a synchronism with a
-datable foreign king, a dateable inscription, or an astronomically fixed event. Call that an
-**anchor**. From an anchor, the Bible's own regnal and genealogical data lets you pivot forward and
-backward to date the events around it — with the caveat that the further you get from an anchor,
-the more that dating depends on how the intervening numbers are reconciled, not just added up.
+biblical event is independently fixed by something outside the Bible — a synchronism with a datable
+foreign king, a dateable inscription, or an astronomically fixed event. Call that an **anchor**.
+From an anchor, the Bible's own regnal and genealogical data lets you pivot forward and backward to
+date the events around it. One caveat holds throughout. The further you get from an anchor, the more
+the dating depends on how the intervening numbers are reconciled rather than simply added up.
 
-This study collects the strongest available anchors, states plainly *why* each one counts as an
-anchor rather than a guess, and then works the flagship case where that method pays off most
-dramatically: Daniel's seventy weeks, calculated forward from a dated Persian decree to the exact
-week of the Triumphal Entry.
+This study collects the strongest available anchors and states plainly *why* each one counts as an
+anchor rather than a guess. Then it works the flagship case, where the method pays off most
+dramatically. Daniel's seventy weeks, calculated forward from a dated Persian decree, land on the
+exact week of the Triumphal Entry.
 
 ## Interpreting Bible prophecy
 
@@ -79,9 +79,9 @@ themselves, originally used before a lunar calendar displaced it. That claim doe
 against either the texts or the dates involved, though it needs to be split into two separate
 questions to see why.
 
-**The rabbinic calendar's *fixed calculation method* really is late** — Hillel II fixed it by
-decree in AD 358-359, replacing a much older system where the Sanhedrin declared each new month by
-witnessed observation of the crescent moon and inserted leap months as needed rather than by a
+**The rabbinic calendar's *fixed calculation method* really is late.** Hillel II fixed it by decree
+in AD 358-359. It replaced a much older system, in which the Sanhedrin declared each new month by
+witnessed observation of the crescent moon, and inserted leap months as needed rather than by a
 standing formula. That part of the popular claim is correct.
 
 But the *lunar month-counting it formalizes* is not late at all — it's what the Bible's own text
@@ -107,12 +107,12 @@ already shows Israel doing, from the earliest prophets on:
   itself credits the returning exiles with bringing them back from Babylon.
 
 **The 364-day calendar's own earliest textual attestation runs the other way.** It first appears in
-1 Enoch's Astronomical Book (Aramaic fragments at Qumran, generally dated to the 3rd century BC)
-and is developed further by the Book of Jubilees (mid-2nd century BC) — both centuries *after*
-Isaiah, Amos, Hosea, Jeremiah, and Ezekiel, and after the last Old Testament prophets (Haggai,
-Zechariah, Malachi, c. 520-400 BC). By the actual manuscript evidence, the 364-day calendar is the
-*newer* of the two systems, not the older one. Its own advocates don't really argue otherwise —
-Jubilees frames the 364-day scheme as a **restoration** of what Israel should have kept, cast as a
+1 Enoch's Astronomical Book, whose Aramaic fragments at Qumran are generally dated to the 3rd
+century BC. The Book of Jubilees develops it further in the mid-2nd century BC. Both come centuries
+*after* Isaiah, Amos, Hosea, Jeremiah, and Ezekiel, and after the last Old Testament prophets too
+(Haggai, Zechariah, Malachi, c. 520-400 BC). By the actual manuscript evidence, the 364-day calendar
+is the *newer* of the two systems, not the older one. Its own advocates don't really argue otherwise
+— Jubilees frames the 364-day scheme as a **restoration** of what Israel should have kept, cast as a
 polemic against the lunar calendar as a later corruption. That's a real theological position, but
 it's an argument from theology about what *ought* to have been practiced, not a claim resting on
 earlier manuscripts or independently attested earlier practice.
@@ -249,12 +249,12 @@ Given that, this study runs two different tools for two different jobs, and keep
 [Daniel 9:24-27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/24-27) comes as Gabriel's direct
 answer to a specific question: Daniel has just been reading Jeremiah's prophecy of a 70-*year* exile
 ([Jeremiah 25:11-12](https://www.blueletterbible.org/esv/Jer/25/11);
-[29:10](https://www.blueletterbible.org/esv/Jer/29/10)) and praying over it
-([Daniel 9:2-19](https://www.blueletterbible.org/esv/Dan/9/2)) when the angel arrives with a longer
-answer: "seventy sevens" (שָׁבֻעִים שִׁבְעִים) are decreed for Daniel's people and city. Verse 25
-gives the starting gun: "from the going out of the word (דָּבָר, *dabar*) to restore and build
-Jerusalem" to "an anointed one, a prince" (מָשִׁיחַ נָגִיד, *mashiach nagid*) is 7 weeks plus 62
-weeks — 69 weeks in total.
+[29:10](https://www.blueletterbible.org/esv/Jer/29/10)) and praying over it ([Daniel
+9:2-19](https://www.blueletterbible.org/esv/Dan/9/2)) when the angel arrives with a longer answer.
+"Seventy sevens" (שָׁבֻעִים שִׁבְעִים) are decreed for Daniel's people and city. Verse 25 gives the
+starting gun: "from the going out of the word (דָּבָר, *dabar*) to restore and build Jerusalem" to
+"an anointed one, a prince" (מָשִׁיחַ נָגִיד, *mashiach nagid*) is 7 weeks plus 62 weeks — 69 weeks
+in total.
 
 ### Which decree?
 
@@ -276,59 +276,59 @@ Anchor 6, 445 BC, rather than Cyrus's earlier and more famous decree.
 ### The arithmetic
 
 Sir Robert Anderson worked this out in *The Coming Prince* (1894): 69 weeks of 7 years of 360 days
-each is 483 prophetic years, or exactly **173,880 days**. Starting from 1 Nisan in Artaxerxes'
-twentieth year — which Anderson placed on 14 March 445 BC — and counting 173,880 days forward
-(476 solar years plus 24 days, correcting for the days a solar-year count alone would miss), he
-landed on **10 Nisan, which he calculated as 6 April AD 32** — days before the Triumphal Entry.
+each is 483 prophetic years, or exactly **173,880 days**. He started from 1 Nisan in Artaxerxes'
+twentieth year, which he placed on 14 March 445 BC, and counted 173,880 days forward. That is 476
+solar years plus 24 days, the correction for what a solar-year count alone would miss. He landed on
+**10 Nisan, which he calculated as 6 April AD 32** — days before the Triumphal Entry.
 
 Harold Hoehner later reworked the calculation in *Chronological Aspects of the Life of Christ* and
 came out a year later: starting 1 Nisan 444 BC (5 March, Julian) and landing on 10 Nisan, 30 March
-AD 33. His reason for the shift was internal consistency — an AD 32 crucifixion, on Anderson's own
-numbers, falls on the wrong day of the week for a Friday Passover, so Hoehner corrected the terminus
+AD 33. His reason for the shift was internal consistency. An AD 32 crucifixion, on Anderson's own
+numbers, falls on the wrong day of the week for a Friday Passover. So Hoehner corrected the terminus
 to a year where the crucifixion actually lands on a Friday.
 
-**Neither result is uncontested in its details.** Critics of Hoehner's date have argued the actual
-new moon puts 1 Nisan 444 BC a month later than he used, which would push his terminus later too;
-Hoehner's own work also contains an acknowledged computational error regarding whether Friday, 7
-April AD 30 is astronomically possible as a crucifixion date. The precise day is disputed among people doing careful,
-technical work on the same data.
+**Neither result is uncontested in its details.** Critics of Hoehner's date have argued that the
+actual new moon puts 1 Nisan 444 BC a month later than he used, which would push his terminus later
+too. His own work also contains an acknowledged computational error, over whether Friday, 7 April AD
+30 is astronomically possible as a crucifixion date. The precise day is disputed among people doing
+careful, technical work on the same data.
 
 **The day counts don't quite close, either**, which a reader checking the sums will notice. Counted
-directly as proleptic Julian day numbers, 14 March 445 BC to 6 April AD 32 is **173,882** days —
-two more than the 173,880 the prophecy requires. The ordinary decomposition reproduces that figure
-exactly: 476 x 365 = 173,740, plus the 119 leap days the Julian four-year rule puts inside that span,
-plus the 23 days from 14 March to 6 April. Where Anderson's own working absorbs the two-day
+directly as proleptic Julian day numbers, 14 March 445 BC to 6 April AD 32 is **173,882** days — two
+more than the 173,880 the prophecy requires. The ordinary decomposition reproduces that figure
+exactly: 476 x 365 = 173,740, plus the 119 leap days the Julian four-year rule puts inside that
+span, plus the 23 days from 14 March to 6 April. Where Anderson's own working absorbs the two-day
 difference is not something this study can check -- *The Coming Prince* is not among the sources
-available here, and the gap is reported without a diagnosis of its cause. Hoehner's interval,
-5 March 444 BC to 30 March AD 33, runs **173,884** days, four long. Neither gap is large enough to move the result out of Passion Week, which is the claim below
-that actually carries weight — but the arithmetic is tighter in the retelling than in the sources,
-and a two-to-four-day slack is the honest state of it.
+available here, and the gap is reported without a diagnosis of its cause. Hoehner's interval, 5
+March 444 BC to 30 March AD 33, runs **173,884** days, four long. Neither gap is large enough to
+move the result out of Passion Week, and that is the claim below carrying real weight. The
+arithmetic is tighter in the retelling than in the sources. A two-to-four-day slack is the honest
+state of it.
 
-**What isn't in serious dispute** is the shape of the result: a decree dated by independent
-Persian-era records, run through a straightforward 483-year prophetic count, lands within days of
-Passion Week nearly two thousand years later — not in some other century, not off by a generation,
-but inside the same week Jesus rode into Jerusalem. The **specific day** ("10 Nisan," tied to the
-Passover lamb's selection four days before slaughter, Exodus 12:3) is an inference from typology,
-not a date Matthew states outright — an assumption layered onto the calculation rather than a fact
-it independently proves.
+**What isn't in serious dispute** is the shape of the result. A decree dated by independent Persian-
+era records, run through a straightforward 483-year prophetic count, lands within days of Passion
+Week nearly two thousand years later. It lands inside the same week Jesus rode into Jerusalem. The
+**specific day** — "10 Nisan," tied to the Passover lamb's selection four days before slaughter
+(Exodus 12:3) — is an inference from typology. Matthew never states that date outright, so it is an
+assumption layered onto the calculation rather than a fact the calculation proves.
 
 ### The payoff
 
 [Luke 19:41-44 (ESV)](https://www.blueletterbible.org/esv/Luk/19/41), set at this same Triumphal
 Entry, records Jesus weeping over Jerusalem: "would that you, even you, had known on this day the
-things that make for peace!... because you did not know the time of your visitation." That's not a
-vague lament — on Daniel's own math, "the time" was calculable, decades in advance, from a decree
-already sitting in the Persian court's own dated records. The rebuke lands with more weight once
-you see the arithmetic behind it.
+things that make for peace!... because you did not know the time of your visitation." That is no
+vague lament. On Daniel's own math, "the time" was calculable decades in advance, from a decree
+already sitting in the Persian court's own dated records. The rebuke lands with more weight once you
+see the arithmetic behind it.
 
 ### "Three days and three nights"
 
 Hoehner's correction lands the crucifixion on a Friday, and a Friday afternoon death with a Sunday
-dawn resurrection gives two nights, not three — against Jesus's own "three days and three nights"
-at Matthew 12:40. That objection is the strongest one against the date this section reaches, and it
-is worked through separately in [Three Days and Three Nights](../jesus/three-days-and-three-nights.md):
-the phrase occurs once, the New Testament describes the interval "on the third day" eight times, and
-Mark calls the crucifixion day the **προσάββατον**, the day before the Sabbath.
+dawn resurrection gives two nights, not three — against Jesus's own "three days and three nights" at
+Matthew 12:40. That is the strongest objection against the date this section reaches. [Three Days
+and Three Nights](../jesus/three-days-and-three-nights.md) works it through separately. The phrase
+occurs once. The New Testament describes the interval "on the third day" eight times. And Mark calls
+the crucifixion day the **προσάββατον**, the day before the Sabbath.
 
 ## Celestial corroboration: eclipses and the biblical record
 
@@ -340,29 +340,29 @@ kinds of case show up below.
 
 ### Was there an eclipse behind Amos's "sun go down at noon"? (proposed, not certain)
 
-[Amos 8:9 (ESV)](https://www.blueletterbible.org/esv/Amo/8/9) — "I will make the sun go down at
-noon and darken the earth in broad daylight" — is sometimes tied to the Bur-Sagale eclipse of 763
-BC, the same one anchoring Anchor 1, since Amos prophesied under Jeroboam II of Israel, whose reign
-overlaps that date. The fit is suggestive, not established: Amos doesn't name an eclipse, and the
-verse's poetic register (paired with mourning, sackcloth, and famine two verses later) reads at
-least as naturally as a stock prophetic image of judgment as it does a report of an observed
-event. Scholarship is divided over whether Amos had this specific eclipse in mind, an
-earlier one, or no specific eclipse at all — worth citing as a live possibility, not a fixed point.
+[Amos 8:9 (ESV)](https://www.blueletterbible.org/esv/Amo/8/9) reads, "I will make the sun go down at
+noon and darken the earth in broad daylight." It is sometimes tied to the Bur-Sagale eclipse of 763
+BC, the same one behind Anchor 1. Amos prophesied under Jeroboam II of Israel, whose reign overlaps
+that date. The fit is suggestive, not established: Amos doesn't name an eclipse, and the verse's
+poetic register (paired with mourning, sackcloth, and famine two verses later) reads at least as
+naturally as a stock prophetic image of judgment as it does a report of an observed event.
+Scholarship is divided over whether Amos had this specific eclipse in mind, an earlier one, or no
+specific eclipse at all — worth citing as a live possibility, not a fixed point.
 
 ### Joshua's long day at Gibeon, reinterpreted as an eclipse (contested)
 
 Colin Humphreys and Graeme Waddington — the same pair behind the crucifixion-eclipse work below —
-proposed in a 2017 peer-reviewed paper (*Astronomy & Geophysics*) that
-[Joshua 10:12-14](https://www.blueletterbible.org/esv/Jos/10/12) describes an annular solar
-eclipse at Gibeon on 30 October 1207 BC, not a literal halting of the sun and moon's motion. Their
-argument rests partly on the Hebrew verb *dom* ("stand still, stop") sharing a root with an
-Akkadian term used in Babylonian astronomical texts for an eclipse. It's a serious astronomical
-claim, not a fringe one — but it sits awkwardly against the passage's own plain description of the
-*effect*: the sun "did not hurry to set for about a whole day," a **lengthened** day, remembered as
-uniquely long ("there has been no day like it before or since," v. 14). An eclipse, annular or
-otherwise, *darkens* the sky for a few minutes; it doesn't lengthen the day. Reading the text as an
-eclipse account requires reading past that stated effect, not just adding detail to it — worth
-knowing the theory exists, but it doesn't obviously fit the very verse it's built from.
+proposed in a 2017 peer-reviewed paper (*Astronomy & Geophysics*) that [Joshua
+10:12-14](https://www.blueletterbible.org/esv/Jos/10/12) describes an annular solar eclipse at
+Gibeon on 30 October 1207 BC, not a literal halting of the sun and moon's motion. Their argument
+rests partly on the Hebrew verb *dom* ("stand still, stop") sharing a root with an Akkadian term
+used in Babylonian astronomical texts for an eclipse. It is a serious astronomical claim. It sits
+awkwardly against the passage's own plain description of the *effect*. The sun "did not hurry to set
+for about a whole day." That is a **lengthened** day, remembered as uniquely long: "there has been
+no day like it before or since" (v. 14). An eclipse, annular or otherwise, *darkens* the sky for a
+few minutes; it doesn't lengthen the day. Reading the text as an eclipse account requires reading
+past that stated effect, not just adding detail to it — worth knowing the theory exists, but it
+doesn't obviously fit the very verse it's built from.
 
 ### The crucifixion darkness was not — could not have been — a solar eclipse
 
@@ -422,11 +422,11 @@ top of the Daniel calculation.
 
 The other astronomical event people ask about — the star of Matthew 2:1-12 — is a different kind of
 phenomenon (a planetary conjunction or occultation, not an eclipse) and sits on much weaker
-scholarly ground than anything above. Michael Molnar's case for a double occultation of Jupiter by
-the moon in Aries in 6 BC, and the more popular Jupiter-Regulus-Venus conjunctions of 3-2 BC, both
-have real astronomical substance, but neither commands anything like consensus, and the 3-2 BC
-dating sits awkwardly against Herod's death in 4 BC (see Anchor discussion of the Nativity date
-above). Flagged here as a known research area, not developed further in this study.
+scholarly ground than anything above. Michael Molnar argued for a double occultation of Jupiter by
+the moon in Aries in 6 BC. The more popular candidate is the Jupiter-Regulus-Venus conjunctions of
+3-2 BC. Both have real astronomical substance, and neither commands anything like consensus. The 3-2
+BC dating also sits awkwardly against Herod's death in 4 BC (see the Anchor discussion of the
+Nativity date above). Flagged here as a known research area, not developed further in this study.
 
 ## Pivoting backward from the anchors
 
