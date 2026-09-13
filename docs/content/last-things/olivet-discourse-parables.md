@@ -71,12 +71,31 @@ and do personally (34:11-12).
 
 ### Lessons about Jesus
 
-Jesus casts himself as the bridegroom in the third parable (25:1, 5-6, 10) — an image John the
-Baptist had already applied to him: "the one who has the bride is the bridegroom" (John 3:29, ESV).
-He also casts himself as the King. And that King takes the treatment of "the least of these my
-brothers" personally (25:40). This is not a general claim that God notices suffering. It is the
-specific claim that what is done to his own is done to him — the same claim he makes at
-Matthew 10:40, "he who receives you receives me."
+**He is the returning figure in all four.** He is the master whose servant is caught at his work
+(ὁ κύριος αὐτοῦ, 24:46) and the master who "came and settled accounts" after a long time
+(ὁ κύριος τῶν δούλων ἐκείνων, 25:19). He is the bridegroom the ten went out to meet (ὁ νυμφίος,
+25:1). And He is the Son of Man who "will sit on his glorious throne" with all the angels, there
+called ὁ βασιλεύς, the King (25:31, 34). Four parables, four roles, one person — and every one of
+them is the one everybody else is waiting for.
+
+**Two of those roles belong to God in the Old Testament, and He takes them anyway.** "Your Maker is
+your husband, the LORD of hosts is his name" (Isaiah 54:5, ESV); "you will call me 'My Husband'"
+(Hosea 2:16, ESV); "I was their husband, declares the LORD" (Jeremiah 31:32, ESV). Jesus steps into
+that role without explaining Himself, here and at Matthew 9:15. John the Baptist had already put Him
+there — "the one who has the bride is the bridegroom" (John 3:29, ESV). The throne is the same kind
+of claim. He sits on it, all the nations are gathered, and He divides them.
+
+**He keeps the Father distinct while doing it.** The King welcomes "you who are blessed by my
+Father" into "the kingdom prepared for you from the foundation of the world" (25:34, ESV). The one
+on the throne is the Son, and the kingdom He hands out is His Father's.
+
+**And He binds Himself to His people by identity.** "As you did it to one of the least of these my
+brothers, you did it to me" (25:40, ESV) — the same thing He says at Matthew 10:40, "whoever
+receives you receives me." He calls them His brothers, and He counts what they were given as given
+to Him.
+
+This shows that God came near enough to be treated well or badly in person. So the cup of water you
+hand someone this week reaches Him, and so does the one you decide not to bother with.
 
 ### Memory verses
 
