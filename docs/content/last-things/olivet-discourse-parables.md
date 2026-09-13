@@ -147,10 +147,22 @@ kind that happens slowly, to people who expected to pass.
 
 ### Prayer
 
-Lord, you have entrusted each of us differently — different gifts, different opportunities, different
-people put in front of us. Keep us faithful with what is actually ours to steward, ready whenever you
-come, and unwilling to walk past the hungry, the stranger, or the prisoner as if we hadn't seen you in
-them. Amen.
+Lord Jesus, all four of these stories end with You arriving. You are the master who comes home and
+settles the accounts. You are the bridegroom the lamps were lit for. You are the King on the throne
+who gathers the nations and divides them. The roles God kept for Himself — husband to His people,
+judge of all the earth, the shepherd who said He would come and find the sheep in person — are
+Yours, because You are God.
+
+We do not understand these parables on our own. Your first disciples did not either. They came back
+and asked You, and You explained. So do that for us. Give us the secrets of Your kingdom the way You
+said they are given: to those who ask.
+
+Keep us faithful while You are delayed, and guard us from reading the wait as permission. Where we
+have buried what You entrusted, show us the untrue thing we believed about You that made us bury it.
+Give us oil of our own. And when we pass someone hungry, or a stranger, or a prisoner, let us see
+You standing there and stop.
+
+Come, Lord Jesus. Amen.
 
 ## The Faithful and Wicked Servant (24:45-51)
 
