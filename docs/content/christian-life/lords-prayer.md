@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 6:9-13; Luke 11:2-4"
 bible_references: ["Matthew 6:5-15", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Luke 17:21", "Matthew 25:34", "Acts 1:6", "Matthew 19:23-24"]
 date_created: 2026-07-22
-date_modified: 2026-09-11
+date_modified: 2026-09-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
