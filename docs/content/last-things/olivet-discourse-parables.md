@@ -29,12 +29,45 @@ Flatten the four into one lesson about "being ready" and you lose the thing each
 
 ### Types & Prophecy
 
-The sheep-and-goats judgment (25:31-46) rests on an older prophecy about the same act. "I judge
-between sheep and sheep, the rams and the male goats" (Ezekiel 34:17, WEB). Ezekiel spoke that
-against shepherds who fed themselves and let the flock scatter.
+**A psalm predicted that the Messiah would teach exactly like this.** "I will open my mouth in a
+parable; I will utter dark sayings from of old" (Psalm 78:2, ESV). Matthew quotes it and calls it
+fulfilled outright — "This was to fulfill what was spoken by the prophet" (Matthew 13:35, ESV). The
+*method* is the prophecy. The psalm named the form He would teach in, centuries before He used it.
 
-Three centuries apart, the oracle and the parable use one image for one purpose: sorting a mixed
-flock at the point where a shepherd's job requires it.
+**He said plainly why He used it.** The disciples asked Him directly: "Why do you speak to them in
+parables?" (Matthew 13:10, ESV). His answer splits His hearers in two. "To you it has been given to
+know the secrets of the kingdom of heaven, but to them it has not been given" (13:11, ESV). The
+Greek is **τὰ μυστήρια** (*ta mystēria*) — things disclosed by someone who knows them, rather than
+things worked out by someone clever. Three verses later He says the rest out loud: "seeing they do
+not see, and hearing they do not hear, nor do they understand" (13:13, ESV).
+
+So a parable hands over and holds back in the same sentence. It is a sorting instrument, and it
+sorts by who asks.
+
+**Not understanding is the normal condition, including for the Twelve.** They ask Him to explain the
+weeds (13:36). Peter asks Him to explain another and gets "Are you also still without
+understanding?" (15:15-16, ESV). Every one of those explanations came because someone came back and
+asked for it. The four parables here land on men who had just asked Him a question they could not
+answer themselves — "when will these things be, and what will be the sign of your coming and of the
+end of the age?" (24:3, ESV).
+
+**And the subject throughout is the kingdom of heaven.** That phrase is Matthew's own.
+**βασιλεία τῶν οὐρανῶν** occurs thirty times in the SBLGNT, every one of them in this Gospel. Luke
+and Mark reach for **βασιλεία τοῦ θεοῦ**, "the kingdom of God", thirty-one and fourteen times.
+Matthew 25:1 opens the second of these parables with it — "Then the kingdom of heaven will be like
+ten virgins" — and 25:14's "For it will be like a man going on a journey" carries the same subject
+forward. So these are four pictures of how God's reign receives people when the King arrives.
+
+**This shows that God gives understanding away.** The secrets of His kingdom are "given" (13:11),
+and every explanation in Matthew 13 and 15 went to someone who came back and asked for it. So if these parables read as
+opaque to you, that is the ordinary starting place, and the response Scripture models is Peter's:
+ask Him to explain it.
+
+**The sheep-and-goats judgment rests on an older oracle about the same act.** "I judge between sheep
+and sheep, the rams and the male goats" (Ezekiel 34:17, WEB). Ezekiel spoke it against shepherds who
+fed themselves and let the flock scatter. Three centuries later Jesus takes the same image and puts
+Himself in it as the shepherd who does the sorting (25:32) — the thing Ezekiel said God would come
+and do personally (34:11-12).
 
 ### Lessons about Jesus
 
