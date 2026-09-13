@@ -15,4 +15,5 @@ draft: false
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 9:9-13 (primary passage)
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 9:20-22 (primary passage)
 - [Simon the Zealot](../../biblical-figures/simon-the-zealot.md) — 9:9
+- [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 9:15
 <!-- commentary-index:auto-end -->

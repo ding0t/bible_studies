@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 5:12-21
+- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 5:2
 <!-- commentary-index:auto-end -->

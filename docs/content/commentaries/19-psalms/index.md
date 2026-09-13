@@ -59,7 +59,7 @@ What types are seen as shadows of a truth.
 - [Chapter 66](chapter-066.md) — 1 study(ies)
 - [Chapter 73](chapter-073.md) — 1 study(ies)
 - [Chapter 74](chapter-074.md) — 1 study(ies)
-- [Chapter 78](chapter-078.md) — 2 study(ies)
+- [Chapter 78](chapter-078.md) — 3 study(ies)
 - [Chapter 82](chapter-082.md) — 1 study(ies)
 - [Chapter 89](chapter-089.md) — 1 study(ies)
 - [Chapter 90](chapter-090.md) — 1 study(ies)

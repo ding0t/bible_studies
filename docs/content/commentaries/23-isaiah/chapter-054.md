@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 54:5
+- [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 54:5
 <!-- commentary-index:auto-end -->

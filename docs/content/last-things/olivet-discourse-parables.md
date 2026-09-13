@@ -5,7 +5,7 @@ description: "Matthew's four parables of watchfulness -- the faithful and wicked
 tags: ["matthew", "parable", "dispensationalism", "method/word-study"]
 draft: false
 primary_passage: "Matthew 24:45-25:46"
-bible_references: ["Matthew 24:45-51", "Matthew 25:1-46", "Matthew 10:40-42", "Matthew 12:48-50", "Matthew 18:23-35", "Matthew 20:1-16", "Ezekiel 34:17-24", "Luke 12:35-48", "John 3:29"]
+bible_references: ["Matthew 24:3", "Matthew 24:45-51", "Matthew 25:1-46", "Matthew 9:15", "Matthew 10:40-42", "Matthew 12:48-50", "Matthew 13:10-17", "Matthew 13:34-35", "Matthew 15:15-16", "Matthew 18:23-35", "Matthew 20:1-16", "Psalm 78:2", "Isaiah 54:5", "Hosea 2:16", "Jeremiah 31:32", "Ezekiel 34:11-12", "Ezekiel 34:17-24", "Luke 12:35-48", "Luke 19:11-27", "John 3:29"]
 date_created: 2026-08-29
 date_modified: 2026-09-13
 ai_provider_models:
@@ -15,8 +15,15 @@ ai_provider_models:
 
 # The Parables of the Olivet Discourse
 
-Matthew alone carries these four parables. Mark and Luke record the same conversation and do not
-have them.
+All four of these parables sit in Matthew's Olivet Discourse and in no one else's. Mark and Luke
+record the same conversation without them.
+
+Luke does carry a close relative of the first, on a different occasion — "Who then is the faithful
+and wise manager, whom his master will set over his household, to give them their portion of food at
+the proper time?" (Luke 12:42, ESV), with the same delay, the same beating of fellow servants, and
+the same "cut him in pieces" (12:45-46). The talents has a cousin in Luke's ten minas (19:11-27),
+alike in shape and different in detail. What Matthew has that nobody else does is the set of four,
+in this order, in this discourse.
 
 All four answer one question: **how do you wait for a coming with no announced date?** But each
 answers it with a different standard of judgment. A steward is judged for what he does with the
@@ -226,7 +233,7 @@ A talent (τάλαντον, *talanton*) is not a coin but the largest unit of cu
 Greco-Roman world — "about 6,000 drachmas, the equivalent of about 20 years' wages for a laborer"
 (*ESV Study Bible*, note on Matthew 18:24, the parable that establishes this parable's own currency
 scale). Even the servant entrusted with one talent — the smallest amount in the parable — is handed
-roughly two decades of an ordinary laborer's income, "to each according to his own ability" (25:15,
+roughly two decades of an ordinary laborer's income, "to each according to his ability" (25:15,
 ESV): a real sum, scaled to what the master judged each servant capable of managing, not a token
 amount meant to be safe to lose.
 
@@ -292,9 +299,10 @@ people in real need, done or withheld. "As you did it… you did it to me" (25:4
 3. If "the least of these my brothers" names Christ's own messengers specifically rather than the
    suffering in general, what changes about how you read this scene as end-time prophecy rather than
    as a general ethical teaching?
-4. Three of these four parables end with the same judgment formula — "weeping and gnashing of
-   teeth." What does the repetition across four different stories, in four different settings,
-   suggest about how seriously Matthew wants a reader to take each one?
+4. Two of these four end on the same judgment formula — "weeping and gnashing of teeth" (24:51;
+   25:30) — and Matthew uses it four more times outside them (8:12; 13:42; 13:50; 22:13). What does
+   a fixed formula, repeated across six scenes in one Gospel, suggest about how seriously he wants a
+   reader to take each one?
 
 ## References & Recommended Reading
 

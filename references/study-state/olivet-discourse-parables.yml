@@ -1,0 +1,36 @@
+slug: olivet-discourse-parables
+path: docs/content/last-things/olivet-discourse-parables.md
+note: >-
+  No state file existed before this review. The study was written before the
+  develop-bible-study skill tracked per-study progress, so there is no research
+  trail for Phases 1-7 of drafting and none has been backfilled here. This file
+  begins at the 2026-09-13 review.
+
+review_2026-09-13:
+  scope: "review-bible-study skill, full pass (Phases 1-8) against docs/content/last-things/olivet-discourse-parables.md (draft: false, live)"
+  findings_critical:
+    - "Opening sentence 'Matthew alone carries these four parables' is false. Luke 12:42-46 carries the first parable nearly verbatim -- same 'faithful and wise manager ... their portion of food at the proper time', same delay, same beating of fellow servants, same 'cut him in pieces'. The study's own bible_references already listed Luke 12:35-48 and the body never mentioned it. FIXED."
+    - "Discussion question 4 claimed 'Three of these four parables end with the same judgment formula'. It is two (24:51; 25:30); the virgins end at 25:13 and the sheep and goats at 25:46. The same question then said 'across four different stories', contradicting its own count. FIXED."
+    - "Matthew 25:15 quoted as 'to each according to his own ability' under an ESV label; ESV reads 'to each according to his ability'. FIXED."
+  findings_moderate:
+    - "Key Takeaways assert the contested 'least of these my brothers' identification as settled, and lean opposite ways from each other -- Lessons about Jesus takes the narrow reading, Be Transformed's Do assumes the broad one -- while the body correctly marks the phrase as contested. OPEN."
+    - "bible_references was stale after the 2026-09-13 rewrites: Psalm 78:2, Matthew 13:10-17, 13:34-35, 15:15-16, 9:15, Isaiah 54:5, Hosea 2:16, Jeremiah 31:32 and Ezekiel 34:11-12 were all load-bearing and unlisted, so commentary_index under-reported the study. FIXED, and commentary_index.py re-run."
+    - "Discussion questions are stale against the restructured study: no language facet despite substantial Greek (oiketeia, talanton, ta mysteria, basileia ton ouranon), and no Be-transformed facet. Nothing touches the new Types & Prophecy or deity-of-Christ material. OPEN."
+    - "Phase 6 q5: the cultural-vs-transcultural line is never drawn explicitly, though wedding, shepherding and currency customs are all explained. OPEN."
+    - "Matthew 10:42 (WEB) drops 'most certainly I tell you, he' mid-quote without an ellipsis. OPEN."
+  findings_minor:
+    - "Rule 8 (Godhead pronoun capitalisation) only half-applied: lines for the bridegroom and the King still lowercase while Key Takeaways capitalise. OPEN."
+    - "Quotes without a translation label: 24:47, 25:13, 25:10/12, 25:28/30, 25:26. OPEN."
+    - "Matthew 12:50 truncated at 'he is my brother' without an ellipsis. OPEN."
+    - "Matthew 25:40 quoted with capital 'As' in Lessons about Jesus where ESV has lowercase 'as'; the Memory-verses copy is correct. OPEN."
+    - "12 antithesis constructions, one per 293 words -- under the 210-word observed drift, clustered in body sections not rewritten this session. OPEN."
+    - "Phase 6 q2: historical occasion (Matthew's authorship, audience, date) never stated. OPEN."
+  findings_confirmed_no_issue:
+    - "oiketeia (Matt 24:45) really is the only New Testament occurrence -- re-derived against SBLGNT."
+    - "The klauthmos kai brygmos ton odonton formula really does close five other Matthean judgment scenes (8:12; 13:42; 13:50; 22:13; 25:30); it also appears at Luke 13:28, which the study does not claim otherwise."
+    - "basileia ton ouranon: 30 occurrences in SBLGNT, every one in Matthew; Luke and Mark use basileia tou theou 31 and 14 times."
+    - "talanton and the Matthew 18:24 currency scale check out (Matt 18:24; 25:15-28; Rev 16:21)."
+    - "Every other quoted verse verbatim against study-notes.db (ESV) and bible-text.db (WEB)."
+    - "Internal links resolve; tags valid against tags.md; category consistent with section; no mermaid diagrams; npm run validate and mkdocs --strict both clean."
+    - "Phase 5 independent cross-check against NLT Life Application Study Bible (not cited by the study): confirms the 25:15 abilities reading, the 25:1-13 non-transferable-readiness reading, and the Ezekiel 34:17-24 link at 25:32; independently confirms the 'least of these' identification is genuinely debated."
+    - "Phase 6 sibling check via cross_study_claims.py 'Matthew 25': no contradiction. the-day-no-one-knows.md warns against the unproven father-approval-gate explanation of the delay and this study uses the prosaic NIV Cultural Backgrounds explanation instead; bride-of-christ.md and rapture.md are consistent."

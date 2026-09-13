@@ -15,4 +15,5 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 2:19-23
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:11
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 2:19-20
+- [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 2:16
 <!-- commentary-index:auto-end -->

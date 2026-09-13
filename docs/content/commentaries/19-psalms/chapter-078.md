@@ -14,4 +14,5 @@ draft: false
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 78:17-31
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 78:4-7
+- [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 78:2
 <!-- commentary-index:auto-end -->
