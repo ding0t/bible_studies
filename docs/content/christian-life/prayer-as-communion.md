@@ -49,13 +49,13 @@ prototyping — see that page for what each part is for and why.)*
   from his closest friends in Gethsemane (Luke 22:41).
 - **He prayed before decisions, not after them.** All night on the mountain before naming the
   twelve (Luke 6:12).
-- **He prayed the Father's will be done, even through the hardest thing asked of him**, and the
+- **He prayed the Father's will be done, even through the hardest thing asked of Him**, and the
   prayer includes a request that was not granted: "remove this cup from me. Nevertheless, not my
   will, but yours, be done"
-  (Luke 22:42). Hebrews says he "was heard because of his reverence" (5:7) — heard, and the cup
+  (Luke 22:42). Hebrews says He "was heard because of his reverence" (5:7) — heard, and the cup
   stayed.
 - **He is praying for you now.** Not an inference from John 17 but a stated fact: "he always lives
-  to make intercession for them" (Hebrews 7:25), and he does it "at the right hand of God"
+  to make intercession for them" (Hebrews 7:25), and He does it "at the right hand of God"
   (Romans 8:34). The welcome described below rests on a living high priest, not only on a finished
   transaction.
 
@@ -74,16 +74,16 @@ prototyping — see that page for what each part is for and why.)*
 ### Be Transformed
 
 - **Think.** Prayer is not the lever that makes an unwilling God act. It is a conversation with a
-  Father who has already opened the way to himself, at the cost of his Son. If you pray as though
-  you must first get his attention, the problem is not your technique but your picture of him, and
+  Father who has already opened the way to Himself, at the cost of His Son. If you pray as though
+  you must first get His attention, the problem is not your technique but your picture of Him, and
   the picture comes first. The willingness to pray is given
   ("the Spirit of adoption as sons, by whom we cry, 'Abba! Father!'", Romans 8:15).
 - **Attitude.** Approach prayer as a relationship: He is your personal Father. His will is always
   wiser and better than ours, and He offers His own strength for what it asks of us. "Your Father
   knows what you need before you ask him" (Matthew 6:8), and Jesus says that as a reason *to* pray,
   not a reason to skip it. Prayer is not briefing God, and not a shopping list of needs.
-- **Do.** Develop the habit: pray as you walk, and before a meeting. Thank God for who he is and
-  what he has done. Pray for strength. Fix a time and a place rather than waiting to feel like it.
+- **Do.** Develop the habit: pray as you walk, and before a meeting. Thank God for who He is and
+  what He has done. Pray for strength. Fix a time and a place rather than waiting to feel like it.
   Daniel had a window and three set hours (Daniel 6:10); Jesus had a desolate place before dawn
   (Mark 1:35). Neither was improvising.
 
@@ -172,7 +172,7 @@ This is the first practical question, and the New Testament answers it clearly e
 without flattening the distinctions.
 
 **The pattern Jesus gave is prayer to the Father.** "Pray then like this: *Our Father in heaven*"
-(Matthew 6:9); "when you pray, say: *Father*" (Luke 11:2). And he gives the mechanism plainly:
+(Matthew 6:9); "when you pray, say: *Father*" (Luke 11:2). And He gives the mechanism plainly:
 
 > ✝️ John 16:23-24 (ESV)
 >
@@ -222,16 +222,16 @@ the man Christ Jesus, who gave himself as a ransom for all" (1 Timothy 2:5-6), f
 2:1. The instruction to pray and the ground of praying sit together.
 
 **But prayer addressed to Jesus is also in the New Testament, and is never corrected.** Stephen dies
-praying to him: "Lord Jesus, receive my spirit" (Acts 7:59), which is Psalm 31:5 redirected to
+praying to Him: "Lord Jesus, receive my spirit" (Acts 7:59), which is Psalm 31:5 redirected to
 Christ. Paul "pleaded with the Lord" three times about his thorn and got an answer from Christ:
 "my power is made perfect in weakness… the power of Christ" (2 Corinthians 12:8-9). Paul describes
 Christians simply as "all those who in every place call upon the name of our Lord Jesus Christ"
-(1 Corinthians 1:2). And the Bible's last prayer is addressed to him: "Come, Lord Jesus!"
+(1 Corinthians 1:2). And the Bible's last prayer is addressed to Him: "Come, Lord Jesus!"
 (Revelation 22:20).
 
 **The Spirit's role is stated differently.** Romans 8:26-27 has the Spirit interceding *for* us
 "with groanings too deep for words" — helping us pray rather than being the one addressed. No prayer
-in the New Testament is addressed to him. That is an argument from silence rather than a
+in the New Testament is addressed to Him. That is an argument from silence rather than a
 prohibition, and it is why this study describes the Spirit's part as help given to the one praying.
 
 So the practical answer: **make the Father your habit and your default, because that is what Jesus
@@ -277,14 +277,14 @@ The solitude is not incidental to the accounts; it is the thing the narrators ke
 was deliberate enough to inconvenience people.
 
 **He left before anyone was awake, and had to be hunted down.** After the whole town gathered at the
-door in Capernaum, Mark has him gone before dawn: "he departed and went out to a desolate place, and
-there he prayed" (1:35). The next verse says Simon and the others **κατεδίωξεν** him, a verb that
+door in Capernaum, Mark has Him gone before dawn: "he departed and went out to a desolate place, and
+there he prayed" (1:35). The next verse says Simon and the others **κατεδίωξεν** Him, a verb that
 occurs nowhere else in the New Testament and means to track down or pursue closely; the ESV's
-"searched for him" is mild for it. When they find him, their reproach is the obvious one: "Everyone
+"searched for him" is mild for it. When they find Him, their reproach is the obvious one: "Everyone
 is looking for you" (1:37). Luke reports the same pattern after the same sort of day, with the crowds
-"seeking him" and wanting to keep him from leaving (4:42).
+"seeking him" and wanting to keep Him from leaving (4:42).
 
-**He did it after success as much as after pressure.** Having fed five thousand, he "dismissed the
+**He did it after success as much as after pressure.** Having fed five thousand, He "dismissed the
 crowds" and "went up on the mountain **by himself** to pray. When evening came, he was there
 **alone**" (Matthew 14:23) — two words for solitude in one sentence. John gives the motive at the
 same moment: perceiving they meant "to take him by force to make him king, Jesus withdrew again to
@@ -294,37 +294,37 @@ the mountain by himself" (6:15). Solitude was a retreat from acclaim, not only f
 **alone** (κατὰ μόνας), the disciples were with him." Being among people did not count as the
 company being over.
 
-**And at the worst moment he separated in stages.** At Gethsemane he leaves eight ("Sit here, while
+**And at the worst moment he separated in stages.** At Gethsemane He leaves eight ("Sit here, while
 I go over there and pray"), takes Peter, James and John further in, then goes "a little farther" and
-falls on his face alone (Matthew 26:36-39). Luke measures the last stage: "about a stone's throw"
-(22:41). Even with the three closest men he had, the praying itself was done by himself.
+falls on His face alone (Matthew 26:36-39). Luke measures the last stage: "about a stone's throw"
+(22:41). Even with the three closest men He had, the praying itself was done by Himself.
 
 The place is usually **ἔρημος** (*erēmos*), a desolate or wilderness place — Mark 1:35, Luke 4:42,
-Luke 5:16. Not a quiet corner of a busy house but somewhere he had to travel to. That is what makes
-the solitude legible as a decision: it cost him sleep, it cost him distance, and it cost the people
-around him access to him while it lasted.
+Luke 5:16. Not a quiet corner of a busy house but somewhere He had to travel to. That is what makes
+the solitude legible as a decision: it cost Him sleep, it cost Him distance, and it cost the people
+around Him access to Him while it lasted.
 
-**And what he went for is the point.** Nothing in these accounts suggests he withdrew because
-he found people tiring. He went to be with his Father, and John 17 is the one long record of what
+**And what He went for is the point.** Nothing in these accounts suggests He withdrew because
+He found people tiring. He went to be with His Father, and John 17 is the one long record of what
 that sounded like from the inside. The solitude is not the discipline of a man making himself pray;
-it is the arrangement of someone protecting the relationship he most wanted, from the demands of
-everyone who wanted him. That is the same order the study opened with: communion first, and the
+it is the arrangement of someone protecting the relationship He most wanted, from the demands of
+everyone who wanted Him. That is the same order the study opened with: communion first, and the
 habit built to serve it.
 
 Two things follow that bear directly on a struggling prayer life. **He made time rather than found
-it** — the withdrawing is the deliberate part, and it always costs something he could otherwise have
-been doing. And **his prayers were not uniformly answered as asked**, which means an unanswered
+it** — the withdrawing is the deliberate part, and it always costs something He could otherwise have
+been doing. And **His prayers were not uniformly answered as asked**, which means an unanswered
 request is not evidence of a defective prayer life. It is the pattern of the one whose prayer life
 was perfect.
 
-The disciples' one recorded request for teaching came after watching him do it: "Now Jesus was
+The disciples' one recorded request for teaching came after watching Him do it: "Now Jesus was
 praying in a certain place, and when he finished, one of his disciples said to him, 'Lord, teach us
 to pray'" (Luke 11:1).
 
 **What that says about the Father is the part to take away.** The Son of God, who was not short of
 anything, got up in the dark and walked out of a town that wanted him, repeatedly, for years, in
 order to talk to his Father. Prayer is not a remedy for weakness that stronger people can do
-without; it is what the strongest man who ever lived arranged his life around. If he wanted that
+without; it is what the strongest man who ever lived arranged His life around. If He wanted that
 much time with the Father, the Father is worth yours.
 
 ## How the apostles prayed, and what they taught
@@ -440,7 +440,7 @@ it.
 
 That matters practically, because δέησις is the step most people are best at and most embarrassed
 about. Scripture is not embarrassed by it. Paul puts it first of the four, and it is the word chosen
-for the Son of God on the night he was betrayed.
+for the Son of God on the night He was betrayed.
 
 Most prayer lives are heavy on the first and light on the last two. Paul's ordering puts
 intercession and thanksgiving in the same breath as asking for yourself, and then names the least
@@ -468,7 +468,7 @@ a longer prayer.
 
 The model prayer contains the answer in four words, and they are not "my will be done." Jesus puts
 **"your will be done, on earth as it is in heaven"** (Matthew 6:10) third, before a single request
-for bread, forgiveness or rescue. Prayer as he teaches it opens by handing the outcome over.
+for bread, forgiveness or rescue. Prayer as He teaches it opens by handing the outcome over.
 
 That is not a stray emphasis. It is one of the most consistent structures in Scripture: **a will
 brought into line with God's, and then God acting.** The order does not vary, and it holds across
@@ -491,7 +491,7 @@ Two more state the same thing from the other side, which is the sharper way to h
 | **Proverbs 28:9** | "If one turns away his ear from hearing the law" | "even his prayer is an abomination" |
 
 Psalm 37:4 is the one most often quoted as a blank cheque and is the clearest example of the
-pattern: delight in God *first* and he grants the heart's desires, because delighting in him is
+pattern: delight in God *first* and He grants the heart's desires, because delighting in Him is
 what reshapes the desires. The verse is not about getting what you already want.
 
 **James makes the point by diagnosis.** The sentence usually quoted on its own — "you do not have,
@@ -514,22 +514,22 @@ worthless while the will is elsewhere. The two verses are one argument, and quot
 preference. Moses, interceding after the golden calf, argues from God's reputation among the
 Egyptians and from the covenant God swore to Abraham — "*Remember* Abraham, Isaac, and Israel… to
 whom you swore by your own self" (Exodus 32:13), and "the LORD relented from the disaster"
-(32:14). He prays God's own stated commitments back to him. Daniel does it more explicitly still:
+(32:14). He prays God's own stated commitments back to Him. Daniel does it more explicitly still:
 he "perceived in the books" what God had declared through Jeremiah about the seventy years
 (Daniel 9:2), and *then* prayed for it. When he asks, he disclaims leverage outright: "we do
 not present our pleas before you because of our righteousness, but because of your great mercy"
 (9:18).
 
-That is the shape: finding out what God has said he wants, and asking him for it. Samuel's answer
+That is the shape: finding out what God has said He wants, and asking Him for it. Samuel's answer
 is the whole posture in five words: "Speak, for your servant hears" (1 Samuel 3:10).
 
-**So what does prayer permit God to do in your life?** Chiefly it permits him to have it. The
+**So what does prayer permit God to do in your life?** Chiefly it permits Him to have it. The
 seeking is the point at which my will is handed over, and Scripture presents that surrender as the
 condition God acts through. Romans 12 has the order exactly: present your body as a living
 sacrifice *first*, then "by testing you may discern what is the will of God" (12:1-2). Discernment
 follows surrender rather than preceding it. Which is why Paul's prayers ask for wisdom,
 Epaphras labours in prayer "that you may stand mature and fully assured in **all the will of God**"
-(Colossians 4:12), and the Spirit himself intercedes "according to the will of God" (Romans 8:27).
+(Colossians 4:12), and the Spirit Himself intercedes "according to the will of God" (Romans 8:27).
 
 Held that way, an unanswered request stops being evidence of a defective prayer life. Gethsemane was
 prayed perfectly and the cup stayed. The measure of a prayer life is not its hit rate but whose will
@@ -549,7 +549,7 @@ Jesus prayed with a settled confidence about being heard, and said so out loud a
 > you have heard me. 42 I knew that you always hear me, but I said this on account of the people
 > standing around, that they may believe that you sent me."
 
-"I knew that you **always** hear me", and he says it before Lazarus comes out, so it is not
+"I knew that you **always** hear me", and He says it before Lazarus comes out, so it is not
 confidence produced by the result. That assumption sits underneath every prayer recorded in
 Scripture. What the texts show about how the answer arrives falls into four patterns.
 
@@ -589,7 +589,7 @@ often than the machinery, but where it does say, the answers arrive by very diff
 angel dispatched (Daniel 9:21); a person walking round the corner at the right moment
 (Genesis 24:15); an audible voice (John 12:28); a plain refusal with a reason attached ("My grace
 is sufficient for you", 2 Corinthians 12:9); a door closed in one direction and opened in another
-(Acts 16:6-10). Jesus's own answer at Gethsemane was no, and Hebrews still says he "was
+(Acts 16:6-10). Jesus's own answer at Gethsemane was no, and Hebrews still says He "was
 heard" (5:7).
 
 **And the answer can be missed while it is happening.** Twice, memorably.
@@ -656,10 +656,10 @@ Scripture who prayed that way.
 
 ```mermaid
 flowchart TD
-    subgraph GOD["Toward him · before anything is asked"]
+    subgraph GOD["Toward Him · before anything is asked"]
       direction TB
       A["<b>1 · Recognise</b><br/>who you are speaking to<br/><i>hallowed be your name</i>"]
-      B["<b>2 · Thank</b><br/>what he has already done<br/><i>Phil 4:6 · Col 4:2</i>"]
+      B["<b>2 · Thank</b><br/>what He has already done<br/><i>Phil 4:6 · Col 4:2</i>"]
       C["<b>3 · Surrender</b><br/>hand over your will<br/><i>your will be done</i>"]
       A --> B
       B --> C
@@ -675,14 +675,14 @@ flowchart TD
     GOD --> US
 ```
 
-### Toward him, before anything is asked
+### Toward Him, before anything is asked
 
 These three have one job: to get your eyes onto God before you look at yourself. They are the
 practice built on [Communion before discipline](#communion-before-discipline) and on
 [what prayer permits God to do](#what-prayer-permits-god-to-do); if a step here looks arbitrary, the
 argument for it is in those two sections. They are not a
-warm-up to the real prayer; they are the attitude the rest of it is prayed in — God named for who he
-is, thanked for what he has already done, and his will put ahead of yours while you still have the
+warm-up to the real prayer; they are the attitude the rest of it is prayed in — God named for who He
+is, thanked for what He has already done, and His will put ahead of yours while you still have the
 option of preferring your own.
 
 Psalm 37:4 is the same order in miniature. "Delight yourself in the LORD, and he will give you the
@@ -692,9 +692,9 @@ asking that follows comes out different, because you do.
 
 **1. Recognise who you are speaking to.** *"Our Father in heaven, hallowed be your name."*
 ([Who am I praying to?](#who-am-i-praying-to) works out the Father/Son/Spirit shape and what opened
-the access.) Two things at once, correcting opposite errors: he is a **Father**, so you come as a child rather than as a
+the access.) Two things at once, correcting opposite errors: He is a **Father**, so you come as a child rather than as a
 petitioner trying to get a hearing; and his name is **holy**, so you come as a creature. Say
-something true about him before you say anything about yourself.
+something true about Him before you say anything about yourself.
 
 > **Try:** *"Father, you are holy, and you are mine. You made everything there is, and you are not
 > reluctant to hear me."*
@@ -706,7 +706,7 @@ something true about him before you say anything about yourself.
 > **New Testament:** the church under threat — "Sovereign Lord, who made the heaven and the earth
 > and the sea and everything in them" (Acts 4:24).
 
-**2. Thank him.** Name what he has already done. Paul attaches thanksgiving to requests ("by prayer
+**2. Thank Him.** Name what He has already done. Paul attaches thanksgiving to requests ("by prayer
 and supplication *with thanksgiving*", Philippians 4:6) and to persistence ("being watchful in it
 with thanksgiving", Colossians 4:2). It is the practical guard against a prayer life that silts up
 into a list of complaints.
@@ -720,7 +720,7 @@ into a list of complaints.
 
 **3. Hand over your will.** *"Your kingdom come, your will be done, on earth as it is in heaven."*
 This is the hinge, and the canon-wide pattern runs straight through it — alignment first, then God
-acting ([the eight texts](#what-prayer-permits-god-to-do)). Ask what he wants before telling him what you want.
+acting ([the eight texts](#what-prayer-permits-god-to-do)). Ask what He wants before telling Him what you want.
 
 > **Try:** *"Your will here, not mine. Show me what you are doing, and make me willing before I ask
 > for anything."*
@@ -852,15 +852,15 @@ What that looks like, drawn from what is above:
    than worked up (Romans 8:15). How do a given affection and a stubborn habit belong in the same
    prayer life, and which one have you been trying to manufacture?
 2. **The text in its context.** Jesus says "your Father knows what you need before you ask him," and
-   then immediately teaches his disciples to ask. Why does knowing already not make the asking
+   then immediately teaches His disciples to ask. Why does knowing already not make the asking
    pointless?
 3. **Lessons about Jesus.** He got up before dawn, walked out of town, and the disciples had to hunt
-   him down. He was not escaping people; he was going to his Father. What does that cost look like
+   Him down. He was not escaping people; He was going to His Father. What does that cost look like
    in a week of yours, and what would you have to give up to pay it?
 4. **Deeper in Scripture.** Abraham's servant is answered before he finishes praying (Genesis 24:15)
    and Daniel is told his words were heard on day one but the messenger was delayed twenty-one days
    (Daniel 10:12-13). Both are true. How should either change the way you read a silence?
-5. **The hard part.** Jesus taught his disciples to pray to the Father; Stephen died praying to
+5. **The hard part.** Jesus taught His disciples to pray to the Father; Stephen died praying to
    Jesus and was not corrected. How do you hold both, and does the way you pray reflect it?
 6. **Be transformed.** Of 1 Timothy 2:1's four — supplication, prayer, intercession, thanksgiving —
    which is thinnest in your own praying, and what would it take this week to make it less thin?

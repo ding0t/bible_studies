@@ -67,6 +67,12 @@ hand-write those three.
   Where a contrast feels necessary the affirmative claim is underspecified: supply a concrete
   example, a count or a citation instead of a foil. Keep a contrast only where the reader genuinely
   arrives holding the wrong version, and never edit one out of quoted Scripture.
+- **Capitalise pronouns for the Godhead in your own prose — `He`, `Him`, `His`, `Himself` for the
+  Father, the Son and the Holy Spirit. Never inside a quotation.** The ESV, NIV, CSB, NLT, KJV and
+  WEB all print divine pronouns lowercase, so a quoted verse keeps lowercase even when the sentence
+  around it capitalises; that mismatch is correct, and editing a quotation to match house style is a
+  misquotation. Where the referent is contested the capital is an argument, not formatting — leave
+  Isaiah 53 lowercase and let Acts 8:32-35 make the identification.
 - Full rules, with the corpus evidence behind each:
   `.claude/skills/develop-bible-study/style-guide.md`, "Write toward this".
 - Conduct original language word studies to understand meaning

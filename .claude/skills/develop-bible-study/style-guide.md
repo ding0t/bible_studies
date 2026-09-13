@@ -7,10 +7,10 @@ like an LLM wrote it, which undercuts the reader's trust in the research underne
 
 ## Write toward this
 
-**Seven rules, and they are the whole guide.** Everything after this section is diagnostic — the
-specific shapes prose takes when it drifts off these four, with corpus evidence behind each. Write
-toward the four and the drift mostly doesn't happen; check against the tells and you only catch
-instances, one at a time, forever. Use these from the first sentence of the first draft, not as a
+**Eight rules, and they are the whole guide.** Everything after this section is diagnostic — the
+specific shapes prose takes when it drifts off them, with corpus evidence behind each. Write toward
+the eight and the drift mostly doesn't happen; check against the tells and you only catch instances,
+one at a time, forever. Use these from the first sentence of the first draft, not as a
 pass at the end.
 
 **1. Every sentence adds a fact, a citation, or a step in the argument.** This single rule subsumes
@@ -153,6 +153,40 @@ Same content, six sentences, median 9:
 **Two tests, both cheap.** *Deletion*: cut the sentence, re-read the paragraph, and see whether any
 fact, citation or step went with it. *Skim*: read the draft and notice what your eye slides past to
 get to the content — that reflex **is** the finding, and it is exactly what the reader will do.
+
+**8. Capitalise pronouns for the Godhead in the site's own prose. Never inside a quotation.**
+House style, set by the site's author: `He`, `Him`, `His`, `Himself` when the referent is the
+Father, the Son, or the Holy Spirit. Lowercase for everyone else — Moses, Paul, Pharaoh, Melchizedek,
+Satan.
+
+**The quotation rule is absolute and it is the half that gets broken.** The ESV is this site's
+default and the ESV does not capitalise divine pronouns; neither do the NIV, CSB, NLT, KJV, WEB, ASV
+or LEB. So a quoted verse keeps lowercase *even when the sentence around it capitalises*, and that
+visible mismatch is correct:
+
+> He had already told them what He came to do. "The Son of Man came not to be served but to serve,
+> and to give his life as a ransom for many" (Mark 10:45, ESV).
+
+Altering a quotation to match house style is a misquotation, and this repo has shipped that class of
+error before (an ESV "honored" anglicised to "honoured"). The same applies to a quoted commentary,
+a footnote citation, and a translation-comparison table — those print what the source prints.
+
+**Where the referent is contested, the capital is an argument, so make it deliberately.** This is
+not a formatting decision. Isaiah 53:5 is the clean case: NKJV, NASB, LSB and BSB print "**He** was
+pierced for our transgressions"; ESV, NIV, CSB, NLT, KJV and WEB print "**he**". The capital
+pre-commits the reader to identifying the Servant as Christ before the text has argued it. Acts
+8:32-35 makes that identification explicitly, so the conclusion is right — but let the New Testament
+do the work rather than a capital letter. **In a study's own prose, capitalise where the study has
+established the referent, and leave lowercase where the identification is the thing under
+discussion.** YLT and JPS both do exactly this, from opposite theologies: both capitalise at Psalm
+23:3 ("for **His** name's sake") where the referent is unambiguously YHWH, and both drop to
+lowercase through Isaiah 53.
+
+**Measured, so the convention is checkable.** Across Psalms, Isaiah, John, Romans and Hebrews, the
+share of `He`/`Him`/`His` against all third-person masculine singular pronouns runs 63% in NKJV,
+NASB, LSB and BSB; 52% in JPS and 39% in YLT; and 1-4% in every translation that does not capitalise
+at all — that floor being ordinary sentence-initial capitals, not policy. Hebrew and Greek have no
+capital letters, so nothing in the source text settles it either way.
 
 ## The tell: words that assert confidence instead of earning it
 
@@ -598,7 +632,7 @@ Check 10), so a clean validate run is the faster way to find every instance.
 
 ## If you only remember one thing
 
-Not the tell list — the seven rules in [Write toward this](#write-toward-this). Every diagnostic on
+Not the tell list — the eight rules in [Write toward this](#write-toward-this). Every diagnostic on
 this page exists because prose drifted off one of them, and the list will always lag the drift: each
 new variant needs a new entry, which is why `worth ___` reached 48 instances in a corpus where the
 rule was already written down. Writing toward "every sentence adds a fact, a citation, or a step"
