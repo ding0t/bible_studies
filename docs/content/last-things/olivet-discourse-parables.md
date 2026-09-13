@@ -87,13 +87,28 @@ Goats](#the-sheep-and-the-goats-2531-46).
 
 ### Be Transformed
 
-Three of the four measure faithfulness by proportion. Not by outcome, and not by how strongly anyone
-felt. The wicked servant is condemned for what he does with a delay he did not ask for (24:48-49).
-The one-talent servant, for what he refused to risk with money that was never his (25:24-25). The
-goats, for what they never did for people they never thought mattered (25:44-45).
+Every one of these four fails at ordinary, sustained faithfulness with what was actually entrusted.
+Not one of them commits a dramatic sin. That is the warning: the failure Jesus pictures here is the
+kind that happens slowly, to people who expected to pass.
 
-Notice what none of those required. No dramatic sin. Each is a failure of ordinary, sustained
-faithfulness with whatever was actually entrusted.
+- **Think.** The buried talent came out of a stated belief about the master. "I knew you to be a
+  hard man, reaping where you did not sow... so I was afraid" (25:24-25, ESV). Watch what Jesus has
+  the master do with that. He accepts the description — "You knew that I reap where I have not
+  sown" (25:26, ESV) — and rejects the conclusion drawn from it. A master who expects a return is
+  a reason to risk the money, and that servant turned it into a reason to bury it. What you believe
+  about Christ's character decides what you do with what He handed you. So name the belief about
+  Him sitting underneath the thing you are not doing.
+- **Attitude.** The wicked servant read the timing correctly. "My master is delayed" (24:48, ESV)
+  was an accurate forecast, and he treated it as permission. The delay is the test. Nothing about
+  these parables asks you to predict the date, and all four ask what you are doing while it runs.
+  Take the waiting itself as the assignment He left you.
+- **Do.** Two things this week, one from each of the remaining parables. First, tend what cannot be
+  lent. The wise virgins carried their own oil, and at the door the answer was "since there will not
+  be enough for us and for you" (25:9, ESV) — your own standing with Christ is not something a
+  friend, a spouse or a church can hand over at the last minute, so go and see to it now. Second,
+  feed someone. The goats are condemned for what they never did for people they never thought
+  mattered (25:44-45). Pick one name off the King's own list — hungry, thirsty, stranger, naked,
+  sick, in prison (25:35-36) — and do the thing before Sunday.
 
 ### Prayer
 
