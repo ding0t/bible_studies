@@ -78,12 +78,24 @@ and do personally (34:11-12).
 called ὁ βασιλεύς, the King (25:31, 34). Four parables, four roles, one person — and every one of
 them is the one everybody else is waiting for.
 
-**Two of those roles belong to God in the Old Testament, and He takes them anyway.** "Your Maker is
-your husband, the LORD of hosts is his name" (Isaiah 54:5, ESV); "you will call me 'My Husband'"
-(Hosea 2:16, ESV); "I was their husband, declares the LORD" (Jeremiah 31:32, ESV). Jesus steps into
-that role without explaining Himself, here and at Matthew 9:15. John the Baptist had already put Him
-there — "the one who has the bride is the bridegroom" (John 3:29, ESV). The throne is the same kind
-of claim. He sits on it, all the nations are gathered, and He divides them.
+**These parables affirm the deity of Christ. Roles that belong to God in the Old Testament are
+taken by Christ in the New.** Jesus Christ is fully God and fully man (see
+[Statement of Faith](../about/statement-of-faith.md#god-the-son)), and here He teaches it by
+stepping into God's own roles and answering to them.
+
+*Husband* is God's, said three times: "Your Maker is your husband, the LORD of hosts is his name"
+(Isaiah 54:5, ESV); "you will call me 'My Husband'" (Hosea 2:16, ESV); "I was their husband,
+declares the LORD" (Jeremiah 31:32, ESV). Jesus takes that title for Himself here and at Matthew
+9:15, and John the Baptist had already placed Him in it (John 3:29).
+
+*Judge of all the nations* is God's. The Son of Man sits on His glorious throne, the nations are
+gathered before Him, and He divides them (25:31-32).
+
+*Shepherd of Israel* is God's, and He said He would come and do it in person: "I, I myself will
+search for my sheep and will seek them out" (Ezekiel 34:11, ESV). In this parable it is Jesus who
+separates the sheep from the goats (25:32).
+
+Three roles God reserved to Himself, and Jesus occupies all three without a word of explanation.
 
 **He keeps the Father distinct while doing it.** The King welcomes "you who are blessed by my
 Father" into "the kingdom prepared for you from the foundation of the world" (25:34, ESV). The one
