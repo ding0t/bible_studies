@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:23-25"
 bible_references: ["Leviticus 23:23-25", "Numbers 29:1-6", "Numbers 10:1-10", "1 Corinthians 15:51-53", "Matthew 24:30-31", "Matthew 24:36", "1 Thessalonians 4:16-17", "Joel 2:1"]
 date_created: 2025-08-10
-date_modified: 2026-08-23
+date_modified: 2026-09-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-4.5
@@ -22,25 +22,60 @@ Leviticus 23:23-25 commands Israel to keep a day in the seventh month marked by 
 
 > "Speak to the people of Israel, saying, In the seventh month, on the first day of the month, you shall observe a day of solemn rest, a memorial proclaimed with blast of trumpets, a holy convocation. You shall not do any ordinary work, and you shall present a food offering to the LORD." (Leviticus 23:23-25, ESV)
 
-The text itself names this day **Yom Teruah** — it does not call it "Rosh Hashanah" ("head of the year") or "Feast of Trumpets." Both of those are later traditional names, not the Torah's own vocabulary. "Rosh Hashanah" reflects a civil-calendar new-year framing (Tishrei 1) that sits alongside, not in place of, the religious calendar's own new year at Nisan 1 (Exodus 12:2 — the month of the Exodus is explicitly made "the first month of the year" for Israel's religious calendar, which is why the seventh month carries a name about a "memorial," not "new year").
+The text itself names this day **Yom Teruah** — it does not call it "Rosh Hashanah" ("head of the
+year") or "Feast of Trumpets." Both of those are later traditional names, not the Torah's own
+vocabulary. "Rosh Hashanah" reflects a civil-calendar new-year framing at Tishrei 1. That sits
+alongside the religious calendar's own new year at Nisan 1. Exodus 12:2 explicitly makes the month
+of the Exodus "the first month of the year" for Israel's religious calendar. That is why the seventh
+month carries a name about a "memorial."
 
-The day's starting moment depended on testimony, not calculation: a new month began when witnesses sighted the new moon and reported it, a detail that matters for why this feast in particular came to be associated with an unknown starting hour (see below). [Mishnah Rosh Hashanah 4:4](https://www.sefaria.org/Mishnah_Rosh_Hashanah.4.4?lang=bi) (Sefaria Community Translation, CC0) preserves the actual procedure: witnesses were originally accepted for testimony all day, but after they once arrived late enough to disrupt the evening service, the cutoff moved to the afternoon — with a further adjustment after the Temple's destruction in 70 AD extending the cutoff back to all day. This is later rabbinic material (the Mishnah was redacted around 200 AD), so it documents developed practice, not necessarily the exact procedure in Moses's own day — but the underlying mechanism (new month = witnessed, not calculated) is old and explains a real feature of the text: this is the one appointed time in Leviticus 23 whose exact start Israel did not fully control in advance.
+The day's starting moment depended on testimony rather than calculation. A new month began when
+witnesses sighted the new moon and reported it. That detail matters for why this feast in particular
+came to be associated with an unknown starting hour (see below). [Mishnah Rosh Hashanah
+4:4](https://www.sefaria.org/Mishnah_Rosh_Hashanah.4.4?lang=bi) (Sefaria Community Translation, CC0)
+preserves the actual procedure. Witnesses were originally accepted for testimony all day. After they
+once arrived late enough to disrupt the evening service, the cutoff moved to the afternoon. A
+further adjustment after the Temple's destruction in 70 AD extended the cutoff back to all day. This
+is later rabbinic material, since the Mishnah was redacted around 200 AD. It documents developed
+practice rather than the exact procedure in Moses's own day. The underlying mechanism is old, though
+— a new month was witnessed, not calculated — and it explains a real feature of the text. This is
+the one appointed time in Leviticus 23 whose exact start Israel did not fully control in advance.
 
 ## Literary context
 
-Leviticus 23 lists Israel's appointed feasts as one continuous unit, not a miscellany: Passover and Unleavened Bread and Firstfruits cluster in the first month, Weeks (Shavuot) falls fifty days later, and then Trumpets, the Day of Atonement, and Tabernacles cluster in the seventh month. Trumpets is the **first of the three fall feasts** — it opens that second cluster rather than standing alone, sitting between the spring harvest festivals and the Day of Atonement ten days later. The governing point of Leviticus 23 as a whole: this is a fixed liturgical calendar structuring Israel's entire year around what God has done and will do, not an assortment of unrelated holy days.
+Leviticus 23 lists Israel's appointed feasts as one continuous unit. Passover, Unleavened Bread and
+Firstfruits cluster in the first month. Weeks, Shavuot, falls fifty days later. Then Trumpets, the
+Day of Atonement, and Tabernacles cluster in the seventh month. Trumpets is the **first of the three
+fall feasts** — it opens that second cluster rather than standing alone, sitting between the spring
+harvest festivals and the Day of Atonement ten days later. The governing point of Leviticus 23 as a
+whole: this is a fixed liturgical calendar structuring Israel's entire year around what God has done
+and will do, not an assortment of unrelated holy days.
 
 ## Word study: teruah
 
 This is the word the entire feast is named for, and its range is wider than the English suggests.
 
-Teruah: <span dir="rtl">תְּרוּעָה</span> (*teruah*, H8643), from the root <span dir="rtl">רוּעַ</span> (*ruaʿ*, H7321), which TWOT glosses "raise a shout" (root 2135; *teruah* itself is 2135b, "shout of war"). Concordancing the word directly against `bible-text.db` turns up its real range: a war-cry or alarm (Amos 1:14, 2:2; Ezekiel 21:27), a shout at God's presence — the ark's arrival in camp, the ark entering Jerusalem (1 Samuel 4:5-6; 2 Samuel 6:15), and a shout of joy at the temple's foundation being laid (Ezra 3:11-13). **The word itself is about the sound — a shout, alarm, or joyful cry — not specifically "a trumpet."**
+Teruah: <span dir="rtl">תְּרוּעָה</span> (*teruah*, H8643), from the root <span
+dir="rtl">רוּעַ</span> (*ruaʿ*, H7321), which TWOT glosses "raise a shout" (root 2135; *teruah*
+itself is 2135b, "shout of war"). Concordancing the word directly against `bible-text.db` turns up
+its real range. A war-cry or alarm (Amos 1:14, 2:2; Ezekiel 21:27). A shout at God's presence, at
+the ark's arrival in camp and at the ark entering Jerusalem (1 Samuel 4:5-6; 2 Samuel 6:15). And a
+shout of joy at the temple's foundation being laid (Ezra 3:11-13). **The word itself is about the
+sound — a shout, alarm, or joyful cry — not specifically "a trumpet."**
 
 Every major English translation (KJV, ASV, WEB, ESV) renders it "trumpets" or "blowing of trumpets." That's a defensible choice — the shofar was the near-universal means of producing a teruah in a worship setting — but it obscures that the Hebrew doesn't say "trumpet." It says "shout" or "alarm," and instrument-based ways of making that sound are the *means*, not the word's own meaning. A popular understanding built on the English gloss will miss the Hebrew's actual range.
 
-Numbers 10:1-10 confirms teruah is a specific **signal pattern**, not just any loud noise: blown on the same silver trumpets as *tekiah* (a long blast, for gathering the assembly), teruah was the short, staccato pattern that signaled the camp to break and march. This tekiah/teruah distinction is the root of the shofar sequence still used today — [Mishnah Rosh Hashanah 4:9](https://www.sefaria.org/Mishnah_Rosh_Hashanah.4.9?lang=bi) describes a three-part tekiah-teruah-tekiah pattern sounded three times through the liturgy.
+Numbers 10:1-10 confirms teruah is a specific **signal pattern** rather than any loud noise. It was
+blown on the same silver trumpets as *tekiah*, a long blast for gathering the assembly. Teruah was
+the short, staccato pattern that signalled the camp to break and march. This tekiah/teruah
+distinction is the root of the shofar sequence still used today — [Mishnah Rosh Hashanah
+4:9](https://www.sefaria.org/Mishnah_Rosh_Hashanah.4.9?lang=bi) describes a three-part tekiah-
+teruah-tekiah pattern sounded three times through the liturgy.
 
-A second term matters here. Zikkaron, <span dir="rtl">זִכָּרוֹן</span> (*zikkaron*, "memorial," H2146), is paired with teruah in the verse itself — "a memorial of teruah" — which directly grounds the traditional name **Yom HaZikkaron** (Day of Remembrance) in the text's own vocabulary, unlike "Rosh Hashanah."
+A second term matters here. Zikkaron, <span dir="rtl">זִכָּרוֹן</span> (*zikkaron*, "memorial,"
+H2146), is paired with teruah in the verse itself, as "a memorial of teruah." That grounds the
+traditional name **Yom HaZikkaron**, Day of Remembrance, in the text's own vocabulary. "Rosh
+Hashanah" has no such grounding.
 
 ### Genre lens: ceremonial law
 
@@ -48,9 +83,21 @@ Leviticus 23:23-25 is ceremonial law — a fixed calendar observance, not a mora
 
 ## The trumpets typology: what's stated, what's inferred
 
-A popular teaching (well laid out in Eddie Chumney, *The Seven Festivals of the Messiah*, ch. "Rosh HaShanah: The Head of the Year") connects three biblical uses of "trumpet" to three of the appointed feasts: a "first trump" at Sinai when the Torah was given (Exodus 19:19, associated with Shavuot), a "last trump" identified with 1 Corinthians 15:51-53's resurrection/rapture trumpet (associated with Rosh Hashanah/Yom Teruah), and a "great trump" identified with Matthew 24:30-31's gathering at Christ's return (associated with Yom Kippur).
+A popular teaching connects three biblical uses of "trumpet" to three of the appointed feasts. Eddie
+Chumney lays it out in *The Seven Festivals of the Messiah*, ch. "Rosh HaShanah: The Head of the
+Year." A "first trump" at Sinai when the Torah was given (Exodus 19:19), associated with Shavuot. A
+"last trump" identified with 1 Corinthians 15:51-53's resurrection and rapture trumpet, associated
+with Rosh Hashanah/Yom Teruah. And a "great trump" identified with Matthew 24:30-31's gathering at
+Christ's return, associated with Yom Kippur.
 
-Note what the argument rests on: **neither 1 Corinthians 15 nor Matthew 24 names Rosh Hashanah or Yom Kippur.** Paul writes "at the last trumpet" (1 Corinthians 15:52, ESV) without dating it to any feast; Jesus speaks of "a great sound of a trumpet" (Matthew 24:31) — WEB's more literal rendering — without naming Yom Kippur either. The connection is built by combining the NT's trumpet language with the rabbinic tradition's own multi-part shofar terminology, then matching them up. That's a real, traceable argument, not an arbitrary one. But it is typological reasoning from shared vocabulary, not something either New Testament text states outright — suggestive, and short of settled.
+Note what the argument rests on: **neither 1 Corinthians 15 nor Matthew 24 names Rosh Hashanah or
+Yom Kippur.** Paul writes "at the last trumpet" (1 Corinthians 15:52, ESV) without dating it to any
+feast. Jesus speaks of "a great sound of a trumpet" (Matthew 24:31), in WEB's more literal
+rendering, without naming Yom Kippur either. The connection is built by combining the NT's trumpet
+language with the rabbinic tradition's own multi-part shofar terminology, then matching them up.
+That's a real, traceable argument, not an arbitrary one. But it is typological reasoning from shared
+vocabulary, not something either New Testament text states outright — suggestive, and short of
+settled.
 
 **On the "no one knows the day or hour" connection**: Matthew 24:36 uses that exact uncertainty, and it does parallel Yom Teruah's witness-dependent start (see Historical Context above).
 

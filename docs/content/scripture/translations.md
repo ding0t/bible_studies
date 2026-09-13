@@ -5,7 +5,7 @@ description: "The English translations, Hebrew Masoretic witnesses, and Greek Ne
 tags: ["translations", "versions", "lang/hebrew", "lang/greek", "septuagint", "masoretic", "method/textual-criticism"]
 draft: false
 date_created: 2025-06-07
-date_modified: 2026-09-05
+date_modified: 2026-09-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -13,7 +13,14 @@ ai_provider_models:
 
 # Bible Translations & Source Texts
 
-Every quotation in a study rests on two choices most readers never see: which *translation* rendered the verse into English, and which underlying Hebrew or Greek *edition* that translation was made from. Neither choice is neutral — a formally literal translation of an eclectic critical Greek text argues differently than a thought-for-thought translation of the Byzantine tradition, even quoting the "same" verse. This page catalogs what we actually lean on, the tradeoffs of each, and — since this repo also functions as a small research tool — which of these are wired into our own queryable database (`references/build/bible-text.db`) versus cited from general knowledge because the license doesn't allow us to store the text locally.
+Every quotation in a study rests on two choices most readers never see: which *translation* rendered
+the verse into English, and which underlying Hebrew or Greek *edition* that translation was made
+from. Neither choice is neutral — a formally literal translation of an eclectic critical Greek text
+argues differently than a thought-for-thought translation of the Byzantine tradition, even quoting
+the "same" verse. This page catalogs what we actually lean on and the tradeoffs of each. This repo
+also functions as a small research tool, so it records which of these are wired into our own
+queryable database (`references/build/bible-text.db`), and which are cited from general knowledge
+because the license doesn't allow us to store the text locally.
 
 !!! note "Tracking key"
     - ✅ **Queryable now** — full text loaded in `bible-text.db`, openly licensed, quote at length
@@ -25,7 +32,14 @@ Every quotation in a study rests on two choices most readers never see: which *t
 
 ## Translation philosophy
 
-Our default is the **ESV** for prose quotation, cross-checked against **NASB**, **NIV**, and **NLT** for how differently-weighted translation philosophies render a disputed or ambiguous verse, against the **LSB** where the divine name is at stake (it prints Yahweh where the others print LORD), and against **WEB**, **ASV**, and **YLT** when we need a text we can actually store, search, and quote in full without a permissions ceiling. The Masoretic Text and Septuagint anchor original-language word studies; the Greek New Testament entries below anchor NT word studies and textual-criticism notes. See [AGENTS.md](https://github.com/ding0t/bible_studies/blob/main/AGENTS.md) for the standing rule this page expands on.
+Our default is the **ESV** for prose quotation. We cross-check it against **NASB**, **NIV**, and
+**NLT**, for how differently-weighted translation philosophies render a disputed or ambiguous verse.
+Against the **LSB** where the divine name is at stake, since it prints Yahweh where the others print
+LORD. And against **WEB**, **ASV**, and **YLT** when we need a text we can actually store, search,
+and quote in full without a permissions ceiling. The Masoretic Text and Septuagint anchor original-
+language word studies. The Greek New Testament entries below anchor NT word studies and textual-
+criticism notes. See [AGENTS.md](https://github.com/ding0t/bible_studies/blob/main/AGENTS.md) for
+the standing rule this page expands on.
 
 ## Three questions to ask of any text on this page
 
@@ -113,11 +127,12 @@ A reader of the CSB and a reader of the ESV are not reading the same claim about
 LSB prints the name itself rather than the substitute "LORD", which is the case for keeping it on the
 shelf when the covenant name is the point.
 
-The translators knew. Three committees footnote the fork at this verse — the LSB offers "Or *A vehement flame*" and explains that *Yah* is "the shortened form of Yahweh, found in
-poetry and praise (e.g. Hallelu*jah*), and in names (e.g. Zechar*iah*)"; the CSB, having printed the
-intensifier, notes "Or *the blaze of the Lord*". **Reading the footnote is faster than reconstructing
-the disagreement from six parallel versions, and it is the translators' own testimony that the
-question is live.**
+The translators knew. Three committees footnote the fork at this verse. The LSB offers "Or *A
+vehement flame*", and explains that *Yah* is "the shortened form of Yahweh, found in poetry and
+praise (e.g. Hallelu*jah*), and in names (e.g. Zechar*iah*)". The CSB, having printed the
+intensifier, notes "Or *the blaze of the Lord*". **Reading the footnote is faster than
+reconstructing the disagreement from six parallel versions, and it is the translators' own testimony
+that the question is live.**
 
 ### New Testament — John 6:54, and a verb most translations flatten
 
@@ -166,9 +181,9 @@ is the whole argument for checking a verse rather than trusting a label.
 !!! note "Which English word renders which Hebrew or Greek word"
 
     One translation here carries something the others do not. unfoldingWord's **ULT** (`uw-ult`) is
-    aligned word by word to the Hebrew and Greek, so `query.py interlinear <book> <ch> <v>` answers
-    *what is this English word actually translating* — the question behind most word studies, and
-    one this project previously had no way to answer without judgement.
+    aligned word by word to the Hebrew and Greek. So `query.py interlinear <book> <ch> <v>` answers
+    *what is this English word actually translating*. That is the question behind most word studies,
+    and one this project previously had no way to answer without judgement.
 
     Two cautions. The mapping is genuinely many-to-many: Genesis 1:1's "the heavens" renders both
     אֵת and הַשָּׁמַיִם, since the Hebrew object marker has no English of its own. And ULT is one
@@ -210,9 +225,9 @@ The table above is a catalogue: it says what each text is, but not how they rela
 Ken Johnson (Bible Facts) maps that relation as three lines descending from the original, in a study
 introducing his verse-by-verse work on the Hebrew Thessalonians
 ([video](https://www.youtube.com/live/AN8EWx822pM)). It is redrawn here with his own spoken dates,
-because the shape is a useful map of the disagreement even where his argument is contested — and
-because a reader meeting "Textus Receptus" and "critical text" in the table deserves to know they
-are the endpoints of a live dispute rather than two neutral options.
+because the shape is a useful map of the disagreement even where his argument is contested. A reader
+meeting "Textus Receptus" and "critical text" in the table deserves to know they are the endpoints
+of a live dispute rather than two neutral options.
 
 ```mermaid
 flowchart LR
@@ -235,14 +250,14 @@ flowchart LR
 ```
 
 **His argument.** The Received Text is the fullest, and the critical text is that text with material
-removed. The third line runs through Hebrew and Aramaic manuscripts: most of it is medieval
-back-translation from Greek, which he concedes freely, but a subset carries readings that
-back-translation does not explain — some of them *anti*-Catholic, which would have made an
-inquisition worse rather than deflected one, appearing at the same places across independent
-manuscript families, and quoted by church fathers who predate every surviving manuscript. Hence
-"Received Text **plus**" rather than a fourth text-type. That last argument is the strongest part of
-his case: it is a genuine falsification of the usual explanation for those particular readings,
-rather than an appeal to preference.
+removed. The third line runs through Hebrew and Aramaic manuscripts. Most of it is medieval back-
+translation from Greek, which he concedes freely. A subset carries readings that back-translation
+does not explain. Some of them are *anti*-Catholic, which would have made an inquisition worse
+rather than deflected one. They appear at the same places across independent manuscript families.
+And church fathers who predate every surviving manuscript quote them. Hence "Received Text **plus**"
+rather than a fourth text-type. That last argument is the strongest part of his case: it is a
+genuine falsification of the usual explanation for those particular readings, rather than an appeal
+to preference.
 
 **Where it is contested, and this site does not follow him.** *"The critical text is the Received
 Text with material cut out"* is the disputed question stated as a premise. The mainstream reading
@@ -267,7 +282,14 @@ caution applies.
 
 !!! warning "The LXX numbers its chapters differently — check before comparing"
 
-    A reference is not a universal address. The Septuagint renumbers nearly the whole psalter, so English Psalm 23 is **LXX Psalm 22**, and it adds a Psalm 151. Jeremiah is reordered rather than renumbered — the oracles against the nations move to the middle of the book, so the new covenant passage Hebrews 8 quotes is English Jeremiah 31 but **LXX Jeremiah 38** — and because the chapter *count* is identical at 52, nothing about the book looks unusual until a citation lands in the wrong place. Joel and Malachi divide as the Hebrew does rather than as English Bibles do, and Daniel divides differently again at each end: the Septuagint follows the English break at 3/4 and the Hebrew one at 5/6.
+    A reference is not a universal address. The Septuagint renumbers nearly the whole psalter, so
+    English Psalm 23 is **LXX Psalm 22**, and it adds a Psalm 151. Jeremiah is reordered rather than
+    renumbered. The oracles against the nations move to the middle of the book, so the new covenant
+    passage Hebrews 8 quotes is English Jeremiah 31 but **LXX Jeremiah 38**. The chapter *count* is
+    identical at 52, so nothing about the book looks unusual until a citation lands in the wrong
+    place. Joel and Malachi divide as the Hebrew does rather than as English Bibles do, and Daniel
+    divides differently again at each end: the Septuagint follows the English break at 3/4 and the
+    Hebrew one at 5/6.
 
     The repo resolves this rather than leaving it to memory. Every work in `bible-text.db` records which scheme it uses, and `uv run python query.py align Joel 2 28` reports a reference as each scheme numbers it. Verse lookups align automatically; see [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) for the cases that are deliberately left unmapped because no correspondence can be established.
 
@@ -323,14 +345,14 @@ modern editor's reconstruction.
 
 The "agrees with Paul" axis has also now been enumerated rather than estimated. Of the 140 strong
 New Testament quotations of the Old that this repo derives, **eighteen land on a verse where a
-scroll also differs from the Masoretic — and read one at a time, one of them is a case where the
-scroll supplies the reading the New Testament follows.** That one is Isaiah 61:1, where 1QIsaa
-carries the single divine name Luke 4:18 and the Septuagint have, against the Masoretic's double —
-and even there 4Q56 and 4Q66 keep the Masoretic reading. Two of the most quoted verses run the other
-way outright: at Isaiah 53:1 the *"Lord"* that John 12:38 opens with is a Septuagint plus that all
-three scrolls lack, and at Isaiah 7:14 the scroll reads *he shall call* where the Masoretic has *she
-shall call* and Matthew has *they shall call* — the scroll differs from the Masoretic, but not in
-Matthew's direction.
+scroll also differs from the Masoretic.** Read one at a time, **one of those eighteen is a case
+where the scroll supplies the reading the New Testament follows.** That one is Isaiah 61:1, where
+1QIsaa carries the single divine name Luke 4:18 and the Septuagint have, against the Masoretic's
+double — and even there 4Q56 and 4Q66 keep the Masoretic reading. Two of the most quoted verses run
+the other way outright. At Isaiah 53:1 the *"Lord"* that John 12:38 opens with is a Septuagint plus
+that all three scrolls lack. At Isaiah 7:14 the scroll reads *he shall call*, where the Masoretic
+has *she shall call* and Matthew has *they shall call*. The scroll differs from the Masoretic, and
+not in Matthew's direction.
 
 The deeper issue is that the two axes do not partition together. At Deuteronomy 32:8 the scroll
 reads *sons of God* against the Masoretic *sons of Israel*, siding with the New Testament; at
@@ -345,7 +367,12 @@ explained by the Septuagint alone with no scroll required.
 
 It's not an oversight that ESV, NASB, NIV, and NLT — the four translations we quote most in prose — are missing from `bible-text.db`, the ✅ database. They're commercially copyrighted, and Crossway/Lockman/Biblica/Tyndale's permissions policies allow generous quotation (a study citing a verse or a short passage with attribution is exactly the intended use) but not bulk redistribution into a database anyone could dump wholesale. WEB, ASV, and YLT exist in our own database specifically so we always have *something* fully open to fall back on — for concordance searches, cross-reference generation, or any use that would otherwise require copying a commercial text at scale.
 
-All four get the same narrower exception, marked 🔒 above rather than ❌: each one's verse text is a byproduct of a commercial study Bible (or, for NASB, a standalone edition) loaded into `study-notes.db` — `esv-study-bible`; `niv-cultural-backgrounds-study-bible` / `niv-biblical-theology-study-bible`; `nlt-life-application-study-bible` / `nlt-christian-basics-bible`; `nasb-1995` / `nasb-2020` — so each is queryable there for the one purpose that license permits: checking a quotation against source before publishing it, not bulk concordance work.
+All four get the same narrower exception, marked 🔒 above rather than ❌. Each one's verse text is a
+byproduct of a commercial study Bible loaded into `study-notes.db`, or for NASB a standalone
+edition: `esv-study-bible`; `niv-cultural-backgrounds-study-bible` / `niv-biblical-theology-study-
+bible`; `nlt-life-application-study-bible` / `nlt-christian-basics-bible`; `nasb-1995` /
+`nasb-2020`. Each is queryable there for the one purpose that license permits — checking a quotation
+against source before publishing it, rather than bulk concordance work.
 
 NASB is the one to treat more cautiously even within that 🔒 tier. ESV, NIV, and NLT all carry a stated safe-harbor (500–1,000 verses / 25–50% of a work, see the permissions table in [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md)) — quote a verse or two in a study and you're comfortably inside it. NASB's own permission notice states no such threshold at all; Lockman's language requires quotation and reprint requests to be "directed to and approved in writing." Being 🔒-tracked here means an NASB quotation can be *verified* against source instead of trusted from memory — it doesn't mean the safe-harbor reasoning that applies to the other three translations extends to NASB.
 
