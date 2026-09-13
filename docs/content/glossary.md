@@ -5,7 +5,7 @@ description: "Short definitions of the terms these studies use — interpretive 
 tags: ["glossary", "reference", "method/word-study", "method/textual-criticism"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-09-06
+date_modified: 2026-09-13
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -34,18 +34,18 @@ biblical instances, and reading its symbols as flat description is the commonest
 **Antitype**{ #antitype } — The fulfilment that a type points forward to. Melchizedek is the type;
 the priesthood of Christ is the antitype. See [typology](#typology).
 
-**Chiasm, chiastic**{ #chiasm } — A passage arranged so its parts mirror around a centre
-(A-B-C-B'-A'), which throws the weight onto the middle term. 2 Peter 3:8 is one in Greek — *one day
-… a thousand years / a thousand years … one day*.
-→ [A day is as a thousand years](last-things/day-is-a-thousand-years.md)
+**Chiasm, chiastic**{ #chiasm } — A passage arranged so its parts mirror around a centre, A-B-
+C-B'-A'. That throws the weight onto the middle term. 2 Peter 3:8 is one in Greek — *one day … a
+thousand years / a thousand years … one day*. → [A day is as a thousand years](last-things/day-is-a-
+thousand-years.md)
 
 **Dispensationalism**{ #dispensationalism } — Reading Scripture as God dealing with humanity through
 successive administrations, and holding that the promises made to Israel are not transferred to the
 Church. It is this site's default framework. The name comes from Paul's own word for the present
-arrangement, **οἰκονομία** (*oikonomia*, G3622) — the household-management of a thing, its
-administration — which Ephesians 3:9 applies to "the plan of the mystery": an age with its own
-terms, opened at the cross and not identical to the age before it or the one after.
-→ [Israel and the Church](israel-and-church/israel-and-the-church.md#what-scripture-means-by-a-mystery)
+arrangement: **οἰκονομία** (*oikonomia*, G3622), the household-management of a thing, its
+administration. Ephesians 3:9 applies it to "the plan of the mystery". An age with its own terms,
+opened at the cross, and distinct from the age before it and the one after. → [Israel and the
+Church](israel-and-church/israel-and-the-church.md#what-scripture-means-by-a-mystery)
 
 **Eisegesis**{ #eisegesis } — Reading a meaning *into* a text that is not in it. Usually the result
 of arriving with the conclusion already settled. The opposite failure to [exegesis](#exegesis).
@@ -130,10 +130,10 @@ definition — it is a label, so you can tell which word you are looking at.
 it carefully: with no second occurrence there is no internal control on what the author meant by it.
 
 **Lemma, lemmatised**{ #lemma } — The lemma is a word's dictionary form, the form you would look up.
-A *lemmatised* text is one where somebody has identified that form for every word, which is what
-makes a real word study possible — you can ask where else an author uses a word, whatever shape it
-was inflected into. ἀγάπην, ἀγάπῃ and ἀγάπη are three shapes of one lemma, ἀγάπη.
-→ [Lemma](scripture/original-language-data.md#lemma-and-what-lemmatised-means)
+A *lemmatised* text is one where somebody has identified that form for every word. That is what
+makes a real word study possible. You can ask where else an author uses a word, whatever shape it
+was inflected into. ἀγάπην, ἀγάπῃ and ἀγάπη are three shapes of one lemma, ἀγάπη. →
+[Lemma](scripture/original-language-data.md#lemma-and-what-lemmatised-means)
 
 **Morphology, parsing**{ #morphology } — What grammatical form a particular occurrence is in, written
 as a code: `Vqp3ms` is a verb, qal stem, perfect, 3rd person masculine singular. It matters whenever
@@ -230,18 +230,18 @@ verses. The divisions are not part of the original text — they were added cent
 different traditions drew them in different places, so **the same reference can name different
 verses in different editions**.
 
-Hebrew Bibles and English Bibles disagree most often over psalm superscriptions (Hebrew usually
-counts the title as verse 1, English usually does not) and over where a chapter ends: what an
-English Bible calls Joel 2:28 is Joel 3:1 in Hebrew, and Jonah 1:17 is Jonah 2:1.
+Hebrew Bibles and English Bibles disagree most often over two things. Psalm superscriptions, where
+Hebrew usually counts the title as verse 1 and English usually does not. And where a chapter ends:
+what an English Bible calls Joel 2:28 is Joel 3:1 in Hebrew, and Jonah 1:17 is Jonah 2:1.
 
 This matters here because **the two Hebrew texts on this site are not numbered the same way.** The
-Westminster Leningrad Codex uses the Hebrew scheme; the unfoldingWord Hebrew Bible deliberately uses
-the English one, and unfoldingWord say so plainly — the UHB "uses the versification scheme of the
-ULT instead of that of the OSHB (which is based on the WLC scheme common for Hebrew Bibles)", which
-"may make some resources that are keyed to the WLC more difficult to use with the Hebrew text"
+Westminster Leningrad Codex uses the Hebrew scheme. The unfoldingWord Hebrew Bible deliberately uses
+the English one, and unfoldingWord say so plainly. The UHB "uses the versification scheme of the ULT
+instead of that of the OSHB (which is based on the WLC scheme common for Hebrew Bibles)", which "may
+make some resources that are keyed to the WLC more difficult to use with the Hebrew text"
 ([unfoldingWord](https://git.door43.org/unfoldingWord/hbo_uhb)). Around 1,500 verses are affected,
-mostly in Joel, 1 Chronicles, 1 Kings, Numbers, Job, Ezekiel and Malachi.
-→ [Hebrew Old Testament](scripture/translations.md#hebrew-old-testament)
+mostly in Joel, 1 Chronicles, 1 Kings, Numbers, Job, Ezekiel and Malachi. → [Hebrew Old
+Testament](scripture/translations.md#hebrew-old-testament)
 
 **WLC**{ #wlc } — Westminster Leningrad Codex. See [Masoretic Text](#masoretic-text).
 
@@ -264,10 +264,10 @@ any claim resting on it can be re-derived.
 → [The two databases](about/about-our-datasets.md#the-two-databases-and-what-is-in-them)
 
 **Licence tiers**{ #licence-tiers } — Every source falls into one of three, and the tier decides how
-it may be used: **open** (cited and quoted freely), **restricted non-commercial** (usable while this
-site does not monetise, flagged by name), and **quotation-only** (commercially published, cited with
-a short attributed quotation and never reproduced at length).
-→ [Three tiers, one rule](about/about-our-datasets.md#three-tiers-one-rule)
+it may be used. **Open**, cited and quoted freely. **Restricted non-commercial**, usable while this
+site does not monetise, and flagged by name. And **quotation-only**, commercially published, cited
+with a short attributed quotation and never reproduced at length. → [Three tiers, one
+rule](about/about-our-datasets.md#three-tiers-one-rule)
 
 **Louw-Nida**{ #louw-nida } — The standard semantic-domain classification for New Testament Greek,
 by Johannes Louw and Eugene Nida. It is where a Greek word's [semantic domain](#semantic-domain) code
@@ -312,17 +312,17 @@ study Bibles and commentary. Because that material is quotation-only it is built
 outside this public repository, and it is used to test a reading already reached from the text,
 never to form one. → [The two databases](about/about-our-datasets.md#the-two-databases-and-what-is-in-them)
 
-**TWOT**{ #twot } — The *Theological Wordbook of the Old Testament*. Its bare facts — a Strong's
-number pointing to a root, lemma and one-line gloss, as H2617 <span dir="rtl">חֶ֫סֶד</span> (*ḥesed*)
-points to root 698a — are open enough to use freely; its discussion prose is not, and sits in the
-quotation-only tier.
-→ [TWOT: one source, split across two tiers](about/about-our-datasets.md#twot-one-source-split-across-two-tiers)
+**TWOT**{ #twot } — The *Theological Wordbook of the Old Testament*. Its bare facts are open enough
+to use freely: a Strong's number pointing to a root, lemma and one-line gloss, as H2617 <span
+dir="rtl">חֶ֫סֶד</span> (*ḥesed*) points to root 698a. Its discussion prose is not, and sits in the
+quotation-only tier. → [TWOT: one source, split across two tiers](about/about-our-datasets.md#twot-
+one-source-split-across-two-tiers)
 
-**unfoldingWord, ULT**{ #ult } — A translation organisation's Hebrew, Greek and English datasets. The
-ULT English translation is aligned to the original texts word by word, which is the one thing here
-that no other source supplies: it is what shows "One and Only" at John 3:16 to be three English words
-for one Greek one, μονογενῆ.
-→ [unfoldingWord](scripture/original-language-data.md#unfoldingword-uhb-ugnt-ult)
+**unfoldingWord, ULT**{ #ult } — A translation organisation's Hebrew, Greek and English datasets.
+The ULT English translation is aligned to the original texts word by word. That is the one thing
+here no other source supplies. It is what shows "One and Only" at John 3:16 to be three English
+words for one Greek one, μονογενῆ. → [unfoldingWord](scripture/original-language-
+data.md#unfoldingword-uhb-ugnt-ult)
 
 ## See also
 

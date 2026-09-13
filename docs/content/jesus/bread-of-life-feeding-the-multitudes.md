@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15; Matthew 15:32-39; Mark 8:1-10"
 bible_references: ["John 6:22-71", "Mark 8:14-21", "Matthew 16:5-12", "Exodus 16:4-21", "Numbers 11:4-9", "Numbers 11:31-34", "Deuteronomy 8:2-3", "Deuteronomy 18:15-18", "2 Kings 4:42-44", "Psalm 78:17-31", "Psalm 23:1-2", "Isaiah 25:6-9", "Isaiah 55:1-3", "Ezekiel 34:5", "Ezekiel 34:13-16", "Numbers 27:15-18", "Matthew 4:1-4", "Matthew 6:11", "Luke 11:3", "Proverbs 30:8-9", "Revelation 2:17", "Mark 14:22", "Mark 7:24-31", "Matthew 15:29-31", "1 Timothy 6:6-8", "Romans 1:16", "1 Corinthians 11:23-26", "Luke 9:16"]
 date_created: 2026-07-25
-date_modified: 2026-08-30
+date_modified: 2026-09-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -28,18 +28,19 @@ prototyping — see that page for what each part is for and why.)*
 ### Types & Prophecy
 
 **Type.** The manna is a **τύπος** of Christ, and the identification is Jesus's own, not the
-interpreter's inference. What the pattern shows, point for point: bread that comes down from
-heaven rather than up from the ground (Exodus 16:4; John 6:32-33); given to people who did not work
-for it and could not have made it; issued a day at a time and impossible to hoard (Exodus 16:19-20);
-given *as a test* (Exodus 16:4, LXX **πειράσω** — the same verb John uses of Jesus's question at
-6:6); and sufficient, never abundant. Jesus takes each of those and applies them to himself, then
+interpreter's inference. The pattern shows five things, point for point. Bread that comes down from
+heaven rather than up from the ground (Exodus 16:4; John 6:32-33). Given to people who did not work
+for it and could not have made it. Issued a day at a time and impossible to hoard (Exodus 16:19-20).
+Given *as a test* — Exodus 16:4's LXX has **πειράσω**, the same verb John uses of Jesus's question
+at 6:6. And sufficient, never abundant. Jesus takes each of those and applies them to himself, then
 presses the type past where it can follow: the fathers ate manna and died (6:49), so the true bread
 has to do something manna never did.
 
-A second, lesser type sits underneath the first feeding. Elisha's twenty barley loaves set before a
-hundred men, with food left over "according to the word of the LORD" (2 Kings 4:42-44), is the same
-event at a fiftieth of the scale — servant's objection, command to distribute anyway, all eat, and
-there is surplus. The 5,000 is that miracle done again in Israel by the one who *is* that word.
+A second, lesser type sits underneath the first feeding. Elisha's twenty barley loaves are set
+before a hundred men, with food left over "according to the word of the LORD" (2 Kings 4:42-44).
+That is the same event at a fiftieth of the scale. A servant's objection, a command to distribute
+anyway, all eat, and there is surplus. The 5,000 is that miracle done again in Israel by the one who
+*is* that word.
 
 **Prophecy.** Deuteronomy 18:15-18 promises a prophet like Moses, and Moses is the standard the
 crowd applies: they watch bread appear in a wilderness and conclude, correctly, "This is indeed the
@@ -137,11 +138,11 @@ who lack information — they can recite the numbers on demand — but at men wh
 and still cannot reason from it to the next empty hillside. That is the failure the two feedings are
 laid side by side to expose, and it is the reason the numbers get rehearsed instead of explained.
 
-The Greek text never blurs the two events either. **κόφινος** (*kophinos*, G2894) — Matthew 14:20;
-16:9; Mark 6:43; 8:19; Luke 9:17; John 6:13 — belongs, every time, to the 5,000. **σπυρίς** (*spyris*,
-G4711) — Matthew 15:37; 16:10; Mark 8:8; 8:20 — belongs, every time, to the 4,000. (It appears once
-more in the New Testament, at Acts 9:25, where Paul is lowered down a city wall in one — so a *spyris*
-is hamper-sized.) Four writers, two feedings, ten occurrences, zero crossover. Nearly every English
+The Greek text never blurs the two events either. **κόφινος** (*kophinos*, G2894) belongs every time
+to the 5,000 — Matthew 14:20; 16:9; Mark 6:43; 8:19; Luke 9:17; John 6:13. **σπυρίς** (*spyris*,
+G4711) belongs every time to the 4,000 — Matthew 15:37; 16:10; Mark 8:8; 8:20. (It appears once more
+in the New Testament, at Acts 9:25, where Paul is lowered down a city wall in one — so a *spyris* is
+hamper-sized.) Four writers, two feedings, ten occurrences, zero crossover. Nearly every English
 version renders both words "basket," so Jesus's own distinction at Mark 8:19-20 is invisible in
 translation.
 
@@ -158,19 +159,19 @@ Before the discourse begins, John frames the miracle with two words that the cro
 
 The first is at the start. Jesus asks Philip where they are to buy bread, and John steps in to say
 why: *"He said this to test him, for he himself knew what he would do"* (6:6, WEB) — **πειράζων**
-(*peirazōn*, G3985). That is the word the Greek Old Testament uses for what the manna was *for*: the
+(*peirazōn*, G3985). That is the word the Greek Old Testament uses for what the manna was *for*. The
 people gather a day's portion daily, "that I may **test** them, whether they will walk in my law or
-not" (Exodus 16:4, WEB; LXX ὅπως **πειράσω** αὐτούς, from the same verb, rendering Hebrew
-<span dir="rtl">נָסָה</span> *nasah*, H5254). Bread from heaven arrives, both times, as an examination — and John 6:6
-is the only undisputed occurrence of *peirazō* in his Gospel.
+not" (Exodus 16:4, WEB). The LXX reads ὅπως **πειράσω** αὐτούς, from the same verb, rendering Hebrew
+<span dir="rtl">נָסָה</span> *nasah*, H5254. Bread from heaven arrives, both times, as an
+examination — and John 6:6 is the only undisputed occurrence of *peirazō* in his Gospel.
 
 The second is at the end. With everyone full, Jesus orders the fragments collected — *"Gather up the
 broken pieces which are left over, that nothing be lost"* (6:12, WEB), **ἀπόληται** (*apolētai*,
 from ἀπόλλυμι, G622). So the twelve baskets are not what happened to be lying around afterwards;
 they exist because Jesus commanded that nothing perish. And John then uses that same verb twice more
-in the same chapter, both times of something far larger than bread: the food *"that perishes"*
-(**ἀπολλυμένην**, 6:27) which they are not to work for, and the Father's will that of all he has
-given the Son *"I should lose nothing"* (**ἀπολέσω**, 6:39).
+in the same chapter, both times of something far larger than bread. The food *"that perishes"*
+(**ἀπολλυμένην**, 6:27), which they are not to work for. And the Father's will that of all he has
+given the Son, *"I should lose nothing"* (**ἀπολέσω**, 6:39).
 
 One verb, three uses, one chapter: the crumbs he will not waste, the food not worth working for, and
 the people he will not let go. The care he shows over barley scraps is the same care, in the same
@@ -276,17 +277,18 @@ John 6, "daily bread" can't be read as only a request for groceries.
 Jesus never states an ethnic reading of the two feedings. The narrative supplies one anyway, in layers.
 
 **Geography.** The 5,000 happens in Jewish Galilee — Bethsaida (Luke 9:10), the Sea of Tiberias
-(John 6:1). The 4,000 follows Jesus's circuit through Tyre, Sidon, and the Decapolis (Mark 7:24, 31) —
-Gentile territory — and Matthew adds a tell: the crowd "glorified the God of *Israel*" (Matt 15:31,
-ESV), an odd thing to say of Jewish worshippers and natural for Gentile ones. Mark 8:3's "some of them
-have come from far away," and the three-day wait with nowhere nearby to buy bread, fit a thinly settled
-Gentile region — the opposite of Mark 6:36's assumption that villages sit close at hand.
+(John 6:1). The 4,000 follows Jesus's circuit through Tyre, Sidon, and the Decapolis (Mark 7:24,
+31), all Gentile territory. Matthew adds a tell. The crowd "glorified the God of *Israel*" (Matt
+15:31, ESV) — an odd thing to say of Jewish worshippers, and natural for Gentile ones. Mark 8:3's
+"some of them have come from far away," and the three-day wait with nowhere nearby to buy bread, fit
+a thinly settled Gentile region. Mark 6:36 assumes the opposite, with villages close at hand.
 
-**Vocabulary follows geography.** Baskets, above — and the two verbs already tabled: at the Jewish
-feeding Jesus says the *berakhah* over bread, **εὐλόγησεν** (*eulogēsen*, "blessed," spoken to God, not
-over the food, Mark 6:41), while at the Gentile feeding Mark has **εὐχαριστήσας** (*eucharistēsas*,
-"having given thanks," 8:6), as John already does at the first (6:11). Either verb alone would be too
-small to build on. Both, running the same direction as the geography and the baskets, are not.
+**Vocabulary follows geography.** Baskets, above, and the two verbs already tabled. At the Jewish
+feeding Jesus says the *berakhah* over bread: **εὐλόγησεν** (*eulogēsen*, "blessed"), spoken to God
+rather than over the food (Mark 6:41). At the Gentile feeding Mark has **εὐχαριστήσας**
+(*eucharistēsas*, "having given thanks," 8:6), as John already does at the first (6:11). Either verb
+alone would be too small to build on. Both, running the same direction as the geography and the
+baskets, are not.
 
 **And one meal has an Old Testament rehearsal; the other doesn't.**
 
@@ -399,24 +401,24 @@ fitting if the sign presents Jesus as the prophet like Moses; Bullinger's scheme
 of grace; others note five loaves plus two fish makes seven. None of it is stated in the text, and
 neither Mark nor John does anything with it. Enjoy it as an observation; don't preach it as an argument.
 
-**Plainly literal.** The three days (Mark 8:2) explain why the crowd might faint on the road home; the
-two hundred denarii (Mark 6:37; John 6:7) — roughly eight months' wages at a denarius a day
-(Matt 20:2) — is the disciples doing real arithmetic on an impossible grocery bill. Not everything
-numbered is a symbol.
+**Plainly literal.** The three days (Mark 8:2) explain why the crowd might faint on the road home.
+The two hundred denarii (Mark 6:37; John 6:7) is the disciples doing real arithmetic on an
+impossible grocery bill — roughly eight months' wages at a denarius a day (Matt 20:2). Not
+everything numbered is a symbol.
 
 ## Theological principle
 
-God's provision in Christ is abundant — twelve baskets and seven hampers more than either
-crowd could eat — but it's given to reveal the Giver, not to remove the need for him. The sign gets
+God's provision in Christ is abundant — twelve baskets and seven hampers more than either crowd
+could eat — but it's given to reveal the Giver, not to remove the need for him. The sign gets
 misread in two opposite directions, and Scripture corrects both: the crowd in John 6 wants the bread
-without the Bread; the generation in Numbers 11 wants more than the daily portion. One walks away from
-a person (6:66); the other gets exactly what it craved, and a plague with it (11:33-34; Psalm 78:29-31).
-Between grasping for surplus and despising sufficiency, the pattern taught is to take today's portion
-from the Father's hand and let it point past itself to the Son — stated flatly elsewhere, not only
-implied here: "man does not live by bread alone" (Deuteronomy 8:3); "seek first the kingdom of God…
-and all these things will be added to you" (Matthew 6:33); "why do you spend… your labor for that which
-does not satisfy?" (Isaiah 55:2); "give me neither poverty nor riches… lest I be full and deny you"
-(Proverbs 30:8-9); "if we have food and clothing, with these we will be content" (1 Timothy 6:8).
+without the Bread; the generation in Numbers 11 wants more than the daily portion. One walks away
+from a person (6:66); the other gets exactly what it craved, and a plague with it (11:33-34; Psalm
+78:29-31). The pattern taught is to take today's portion from the Father's hand, and to let it point
+past itself to the Son. Scripture states that flatly elsewhere, rather than only implying it here.
+"man does not live by bread alone" (Deuteronomy 8:3); "seek first the kingdom of God… and all these
+things will be added to you" (Matthew 6:33); "why do you spend… your labor for that which does not
+satisfy?" (Isaiah 55:2); "give me neither poverty nor riches… lest I be full and deny you" (Proverbs
+30:8-9); "if we have food and clothing, with these we will be content" (1 Timothy 6:8).
 
 ## Discussion questions
 

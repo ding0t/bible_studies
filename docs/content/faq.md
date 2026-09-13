@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-09-06
+date_modified: 2026-09-13
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -20,9 +20,9 @@ is a word — *lemma*, *MACULA*, *pericope* — the [Glossary](glossary.md) is t
 ### Who writes this, and is it authoritative?
 
 One person, as personal study notes — written to make sure I learn, and published in case they help
-someone else. They carry no authority beyond the Scripture they point at, and you are meant to test
-them the way the Bereans tested Paul, "examining the Scriptures daily to see if these things were
-so" (Acts 17:11). If a study and your Bible disagree, your Bible wins.
+someone else. They carry no authority beyond the Scripture they point at. Test them the way the
+Bereans tested Paul, "examining the Scriptures daily to see if these things were so" (Acts 17:11).
+If a study and your Bible disagree, your Bible wins.
 
 ### Is this written by AI?
 
@@ -65,10 +65,10 @@ your answer you have to leave the list entirely and write it into the "other" bo
 records it as *Christianity, not further defined*.
 
 Two things need saying plainly about that, because a false version of it went around in 2026.
-"Christian" was never removed from the Census — it was never a tick-box in the first place — and it
-is recorded when you write it in.[^abs] The Bureau's stated reason is that a single Christianity box
-would lose the denominational detail, which is a fair thing for a statistician to want. The effect
-on the person filling in the form is still that the list they are handed is a list of the things
+"Christian" was never removed from the Census. It was never a tick-box in the first place, and it is
+recorded when you write it in.[^abs] The Bureau's stated reason is that a single Christianity box
+would lose the denominational detail. That is a fair thing for a statistician to want. The effect on
+the person filling in the form is still the same. The list they are handed is a list of the things
 that divide Christians, and the name they actually go by is not on it.
 
 Paul met the same instinct in Corinth, and did not treat it as harmless:
@@ -97,10 +97,10 @@ go wrong. → [Statement of faith](about/statement-of-faith.md)
 
 ### Where do you land on end times?
 
-Dispensational and pretribulational: the church caught up to meet Christ before a literal seven-year
-tribulation, then his visible return, a literal thousand-year reign, final judgement, and the new
-heaven and new earth. → [End times](about/statement-of-faith.md#end-times) and the
-[Last Things studies](last-things/index.md)
+Dispensational and pretribulational. The church is caught up to meet Christ before a literal seven-
+year tribulation. Then his visible return, a literal thousand-year reign, final judgement, and the
+new heaven and new earth. → [End times](about/statement-of-faith.md#end-times) and the [Last Things
+studies](last-things/index.md)
 
 ### What does "dispensational" mean here, in practice?
 
@@ -193,12 +193,12 @@ strained reading of Peter's Joel quotation.
 ### Doesn't "three days and three nights" rule out a Friday?
 
 It is the strongest objection to it. Friday afternoon to Sunday dawn gives two nights, not three.
-The short answer is that the phrase occurs once (Matthew 12:40, quoting Jonah), the New Testament
-describes the same interval "on the third day" eight times, and Mark and Matthew report one
-prediction with "after three days" and "on the third day" respectively — so the Gospels treat the
+The short answer has three parts. The phrase occurs once (Matthew 12:40, quoting Jonah). The New
+Testament describes the same interval "on the third day" eight times. And Mark and Matthew report
+one prediction with "after three days" and "on the third day" respectively. So the Gospels treat the
 two as equivalent, which only works if part of a day counts as a day. The Friday reading is the
-stronger one and still spends that verse on credit.
-→ [Three Days and Three Nights](jesus/three-days-and-three-nights.md)
+stronger one and still spends that verse on credit. → [Three Days and Three Nights](jesus/three-
+days-and-three-nights.md)
 
 ## How the studies are made
 
@@ -219,10 +219,10 @@ without having examined the passage.
 ### Your cross-references don't match my study Bible's. Why?
 
 Because these are derived from the biblical texts themselves rather than inherited from an existing
-list — the site detects quotations and allusions by measuring the actual shared wording, and shows
+list. The site detects quotations and allusions by measuring the actual shared wording, and shows
 you that wording so you can judge each link. It finds connections the traditional lists miss, and it
-misses some they carry. → [How we cross-reference](about/how-we-cross-reference.md), and
-[what it does not do](about/how-we-cross-reference.md#what-it-does-not-do)
+misses some they carry. → [How we cross-reference](about/how-we-cross-reference.md), and [what it
+does not do](about/how-we-cross-reference.md#what-it-does-not-do)
 
 ## Using the site
 
@@ -254,10 +254,10 @@ sounds.
 
 ### Can I quote or reuse this?
 
-Yes. The studies and other writing here are published under
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share them, translate them, put them in a
-handout or a course pack, quote them in something you sell — provided you credit the source and say
-if you changed anything.
+Yes. The studies and other writing here are published under [CC BY
+4.0](https://creativecommons.org/licenses/by/4.0/). Share them, translate them, put them in a
+handout or a course pack, quote them in something you sell. Just credit the source, and say if you
+changed anything.
 
 That last condition is the one I care about. These are personal notes published so they can be
 checked, and "errors here are mine" only stays true if an altered version says it was altered.

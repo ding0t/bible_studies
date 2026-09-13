@@ -355,8 +355,8 @@ mouth describing their own group:
 
 Luke's phrasing — "were first called" — is passive; someone else is doing the naming. The ESV Study
 Bible reads this as a label "applied by the unbelieving public in Antioch." It marks the point where
-the disciples "were beginning to have an identity of their own apart from other Jews."[^esvsb-
-acts11] The Cultural Backgrounds Study Bible is more specific about the word's shape. **Χριστιανός**
+the disciples "were beginning to have an identity of their own apart from other Jews."[^esvsb-acts11]
+The Cultural Backgrounds Study Bible is more specific about the word's shape. **Χριστιανός**
 follows the pattern of a political nickname, the way partisans of a named leader were tagged
 elsewhere in the empire — "Pompeiians" for followers of Pompey. Antioch in particular had a local
 reputation for this kind of mocking label.[^nkjvcbsb-acts11] The two other New Testament occurrences
