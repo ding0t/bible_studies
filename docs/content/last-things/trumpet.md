@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 8:6-9:21; 11:15-19"
 bible_references: ["Numbers 10:1-10", "Numbers 31:6", "Exodus 19:16-19", "Leviticus 23:23-25", "Leviticus 25:8-12", "Joshua 6:4-5", "Judges 7:16-22", "1 Kings 1:34-39", "Amos 3:6", "Joel 2:1-11", "Zephaniah 1:14-16", "Isaiah 18:3", "Isaiah 27:12-13", "Matthew 24:29-31", "1 Corinthians 14:8", "1 Corinthians 15:51-53", "1 Thessalonians 4:16-17", "Revelation 4:1", "Revelation 10:7", "Revelation 19:11-16"]
 date_created: 2025-05-21
-date_modified: 2026-09-06
+date_modified: 2026-09-11
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-4.5
