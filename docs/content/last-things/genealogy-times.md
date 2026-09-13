@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:35-38", "Ezra 7:1-5", "Ruth 4:18-22", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Acts 13:19-21", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
 date_created: 2026-07-24
-date_modified: 2026-09-07
+date_modified: 2026-09-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -15,18 +15,18 @@ ai_provider_models:
 
 # Genealogy and Times: From Creation to Christ
 
-**The three surviving manuscript traditions put creation as much as 1,466 years apart, and the
-gap is patterned rather than random — a hundred years per patriarch, repeated down the list, which
-somebody introduced deliberately.** Which somebody, and in which direction, is the question this page works
+**The three surviving manuscript traditions put creation as much as 1,466 years apart. The gap is
+patterned rather than random. A hundred years per patriarch, repeated down the list, which somebody
+introduced deliberately.** Which somebody, and in which direction, is the question this page works
 through.
 
 Jesus's genealogy is recorded twice (Matthew 1, Luke 3), and Luke's runs all the way back to Adam.
-That claim is only as strong as the data behind it, so the work here is done directly from source:
-Genesis 5 and 11:10-26, the only two places in the Old Testament that give a father's age at his
-heir's birth rather than just a name, read in all three witnesses. Those are the Masoretic Text,
-the Hebrew that underlies most English Bibles; the Septuagint, the Greek translation made by
-Jewish scholars around the third century BC and the version the New Testament writers most often
-quote; and the Samaritan Pentateuch, preserved independently of both. All three are pulled
+That claim is only as strong as the data behind it, so the work here is done directly from source.
+Genesis 5 and 11:10-26 are the only two places in the Old Testament giving a father's age at his
+heir's birth rather than just a name. Both are read here in all three witnesses. Those are the
+Masoretic Text, the Hebrew that underlies most English Bibles; the Septuagint, the Greek translation
+made by Jewish scholars around the third century BC and the version the New Testament writers most
+often quote; and the Samaritan Pentateuch, preserved independently of both. All three are pulled
 straight from this site's own primary-source database. The raw data and the reasoning here feed
 [docs/data/genealogy](https://github.com/ding0t/bible_studies/tree/main/docs/data/genealogy)'s
 structured files; this page is where the *why* behind those numbers lives.
@@ -40,16 +40,16 @@ not competing projects.
 
 ## How Genesis actually gives this data
 
-Genesis 5 (Adam to Noah) and Genesis 11:10-26 (Shem to Terah) share a distinctive formula,
-repeated once per patriarch: *he lived [age], and fathered [heir]; he lived [years] more after
-fathering [heir], and had other sons and daughters; all his days were [total]*. That formula is
-what makes three-way manuscript comparison possible at all — nowhere else in Scripture is this
-much chronological data given about this many consecutive individuals. It also stops cold after
-Terah: Genesis 11:26 gives his age, but from Abraham onward the text gives ages at specific
-named events (Abraham 100 at Isaac's birth, Genesis 21:5; Isaac 60 at Jacob's, Genesis 25:26)
-rather than a systematic per-generation formula. That's a real change in genre, not a gap in the
-data — the rest of this study's method (comparing an "age at heir's birth" figure across
-manuscripts) simply doesn't apply past Terah, because Genesis stops giving one.
+Genesis 5 (Adam to Noah) and Genesis 11:10-26 (Shem to Terah) share a distinctive formula, repeated
+once per patriarch: *he lived [age], and fathered [heir]; he lived [years] more after fathering
+[heir], and had other sons and daughters; all his days were [total]*. That formula is what makes
+three-way manuscript comparison possible at all — nowhere else in Scripture is this much
+chronological data given about this many consecutive individuals. It also stops cold after Terah:
+Genesis 11:26 gives his age, but from Abraham onward the text gives ages at specific named events
+(Abraham 100 at Isaac's birth, Genesis 21:5; Isaac 60 at Jacob's, Genesis 25:26) rather than a
+systematic per-generation formula. That is a real change in genre rather than a gap in the data. The
+rest of this study's method compares an "age at heir's birth" figure across manuscripts. It cannot
+apply past Terah, because Genesis stops giving one.
 
 ## The three witnesses
 
@@ -174,12 +174,13 @@ freight. Read as *mut* ("die," H4191) + *shalach* ("send," H7971), it becomes a 
 "his death shall send [it]." Both parse correctly; nothing in the lexicon settles which one the
 name-giver intended.
 
-What tips the scales toward the second reading isn't etymology, it's arithmetic — and the
+What tips the scales toward the second reading is arithmetic rather than etymology. And the
 arithmetic has to be run separately in each tradition, because the three chains put Methuselah's
-death in three different places relative to the Flood. The Flood itself is fixed the same way in
-all of them: Noah is six hundred when it comes ([Genesis 7:6](https://www.blueletterbible.org/esv/Gen/7/6),
-[7:11](https://www.blueletterbible.org/esv/Gen/7/11)), so each tradition's Flood year is simply
-its own Noah's birth year plus 600.
+death in three different places relative to the Flood. The Flood itself is fixed the same way in all
+of them: Noah is six hundred when it comes ([Genesis
+7:6](https://www.blueletterbible.org/esv/Gen/7/6),
+[7:11](https://www.blueletterbible.org/esv/Gen/7/11)), so each tradition's Flood year is simply its
+own Noah's birth year plus 600.
 
 | Tradition | Methuselah born | dies | Flood | Result |
 | --- | --- | --- | --- | --- |
@@ -187,11 +188,10 @@ its own Noah's birth year plus 600.
 | SP | AM 587 | AM 1307 | AM 1307 | dies in the Flood year |
 | LXX | AM 1287 | AM 2256 | AM 2242 | outlives the Flood by 14 years |
 
-MT lands it exactly. Adding the seven fathering-ages from Adam down to Enoch puts
-Methuselah's birth at AM 687, and his 969-year total carries him to AM 1656 — the same year
-Noah turns 600. Nothing in that sum was arranged to produce the result; it falls out of figures
-given one verse at a time across Genesis 5, and the longest life in the record ends in the year
-the judgment arrives.
+MT lands it exactly. Adding the seven fathering-ages from Adam down to Enoch puts Methuselah's birth
+at AM 687. His 969-year total carries him to AM 1656. That is the same year Noah turns 600. Nothing
+in that sum was arranged to produce the result. It falls out of figures given one verse at a time
+across Genesis 5. The longest life in the record ends in the year the judgment arrives.
 
 SP reaches the same result by a different road. Its Jared fathers Enoch at 62 rather than 162,
 which pulls Methuselah's birth 100 years back to AM 587, and its Methuselah totals 720 rather
@@ -214,16 +214,16 @@ This is the most consequential single data point in the whole survey, because it
 disagreement about a name's meaning — it's an internal tension inside the text of Genesis
 itself, and MT and SP resolve it in two structurally different ways.
 
-Genesis 11:26 states Terah was 70 when he fathered Abram (named first, alongside Nahor and
-Haran — birth order not stated). But Genesis 12:4 has Abram leaving Haran at 75, and
-[Acts 7:4 (ESV)](https://www.blueletterbible.org/esv/Act/7/4) is explicit that this happened
-*after* Terah's death. Under MT/LXX's stated 205-year total for Terah (born 1876 zadok on MT's
-own numbers), the plain "70 at Abram" reading puts Abram's departure at zadok year 1946+75=2021
-— a full 60 years *before* Terah actually dies at 2081. That's a real contradiction with Acts
-7:4, not a rounding issue, and it's why the standard harmonization reinterprets Genesis 11:26:
-Abram is listed first by covenant significance, not birth order, and was actually the youngest
-of the three sons, born when Terah was 130 (1876+130=2006; +75=2081 — now it lines up exactly
-with Terah's actual death year).
+Genesis 11:26 states Terah was 70 when he fathered Abram (named first, alongside Nahor and Haran —
+birth order not stated). But Genesis 12:4 has Abram leaving Haran at 75, and [Acts 7:4
+(ESV)](https://www.blueletterbible.org/esv/Act/7/4) is explicit that this happened *after* Terah's
+death. Under MT/LXX's stated 205-year total for Terah (born 1876 zadok on MT's own numbers), the
+plain "70 at Abram" reading puts Abram's departure at zadok year 1946+75=2021 — a full 60 years
+*before* Terah actually dies at 2081. That is a real contradiction with Acts 7:4 rather than a
+rounding issue. It is why the standard harmonization reinterprets Genesis 11:26. Abram is listed
+first by covenant significance rather than birth order, and was actually the youngest of the three
+sons, born when Terah was 130. Run it again: 1876+130=2006, +75=2081. Now it lines up exactly with
+Terah's actual death year.
 
 SP's total for Terah is 145, not 205. Run the *same plain 70-year reading* Genesis 11:26 states
 outright, with no reinterpretation and no assumption about birth order, and 70 + 75 = 145 exactly.
@@ -239,11 +239,12 @@ the 145-year total as the reading that reconciles them.
 
 ## Word studies: what the names actually say
 
-Popular teaching sometimes strings the Genesis 5 names into a sentence — Seth (appointed),
-Enosh (mortal man), Kenan (sorrow), Mahalalel (the Blessed God), Jared (shall come down), Enoch
-(teaching), Methuselah (his death shall bring), Lamech (the despairing), Noah (rest/comfort) —
-read together as something like: *Man is appointed mortal sorrow, but the Blessed God shall come
-down, teaching that his death shall bring the despairing rest.* That reads well. Whether it holds is a question for the lexicon, name by name.
+Popular teaching sometimes strings the Genesis 5 names into a sentence. Seth (appointed), Enosh
+(mortal man), Kenan (sorrow), Mahalalel (the Blessed God), Jared (shall come down), Enoch
+(teaching), Methuselah (his death shall bring), Lamech (the despairing), Noah (rest/comfort). Read
+together, that gives something like: *Man is appointed mortal sorrow, but the Blessed God shall come
+down, teaching that his death shall bring the despairing rest.* That reads well. Whether it holds is
+a question for the lexicon, name by name.
 
 Querying this repo's own TWOT root data (`references/build/twot_lookup.py`) name by name, rather
 than trusting the chain as a whole:
@@ -260,13 +261,13 @@ than trusting the chain as a whole:
 | Lamech | **Unknown** | No TWOT root exists; standard lexicons mark the derivation uncertain |
 | Noah | **Solid**, needs precision | Genesis 5:29's own wordplay uses *nacham* ("comfort"), not *nuach* ("rest") — a real double sound-play, not a simple derivation |
 
-So: six of nine names hold up on their own lexical merits, one (Methuselah) is a real, motivated
-ambiguity rather than a coin-flip, and two (Kenan, Lamech) have no lexical footing for the
-reading the popular chain wants from them. That doesn't wreck the pattern — six solid, theologically resonant names in a row
-(appointed, [frail] man, praise of God, shall come down, dedicated, comfort) is still a real
-feature of the text, not manufactured. But claiming a complete nine-word sentence requires
-filling two genuine gaps with unattested glosses. Rounding "suggestive" up to "complete" is the
-temptation, and it is a real one.
+So six of the nine names hold up on their own lexical merits. One, Methuselah, is a real and
+motivated ambiguity rather than a coin-flip. Two, Kenan and Lamech, have no lexical footing for the
+reading the popular chain wants from them. That doesn't wreck the pattern — six solid, theologically
+resonant names in a row (appointed, [frail] man, praise of God, shall come down, dedicated, comfort)
+is still a real feature of the text, not manufactured. But claiming a complete nine-word sentence
+requires filling two genuine gaps with unattested glosses. Rounding "suggestive" up to "complete" is
+the temptation, and it is a real one.
 
 ## Toward a most probable timeline
 
@@ -286,19 +287,19 @@ are left alone, because nothing about those numbers resolves a contradiction the
 does. Adopting a reading only where it earns its keep is the point of calling this a *proposed
 synthesis* rather than crowning one manuscript the winner.
 
-**A second substitution was removed on 2026-09-06, for the following reason.**
-`harmonized_v1` previously took SP's Methuselah as well, on the stated grounds that SP was the
-only tradition avoiding a Methuselah who outlives the Flood. That premise was wrong: as the
-section above now shows, MT already has him dying in the Flood year exactly, and the 14-year
-overshoot is an LXX-only defect. The substitution was fixing a problem the base text did not
-have. It also did real damage, because adopting a tradition's record for one man takes *all* of
-his numbers, not the one under discussion. SP's Methuselah fathers Lamech at 67 rather than
-MT's 187, so the graft shortened the chain from Adam to Noah by 120 years — moving Noah's birth
-to AM 936 and the Flood to AM 1536 — while Methuselah's own death moved to AM 1407, leaving him
-dead 129 years *before* the Flood. The correspondence the substitution existed to protect was
-destroyed by making it. It also pulled Adam's death (AM 930) to within six years of Noah's
-birth, close enough to read as an overlap on the timeline chart, when MT separates them by 126
-years and no antediluvian patriarch except Noah is born after Adam dies.
+**A second substitution was removed on 2026-09-06, for the following reason.** `harmonized_v1`
+previously took SP's Methuselah as well, on the stated grounds that SP was the only tradition
+avoiding a Methuselah who outlives the Flood. That premise was wrong: as the section above now
+shows, MT already has him dying in the Flood year exactly, and the 14-year overshoot is an LXX-only
+defect. The substitution was fixing a problem the base text did not have. It also did real damage,
+because adopting a tradition's record for one man takes *all* of his numbers, not the one under
+discussion. SP's Methuselah fathers Lamech at 67 rather than MT's 187. The graft therefore shortened
+the chain from Adam to Noah by 120 years, moving Noah's birth to AM 936 and the Flood to AM 1536.
+Methuselah's own death moved to AM 1407, leaving him dead 129 years *before* the Flood. The
+correspondence the substitution existed to protect was destroyed by making it. It also pulled Adam's
+death (AM 930) to within six years of Noah's birth, close enough to read as an overlap on the
+timeline chart, when MT separates them by 126 years and no antediluvian patriarch except Noah is
+born after Adam dies.
 
 **How the Gregorian dates are derived, corrected 2026-08-22.** Zadok year 0 is Adam's creation
 and is absolute, so a variant with a longer chain from Adam to Terah puts creation *earlier* in
@@ -380,17 +381,17 @@ Summing every individually-stated figure in Judges, in the order given:
 | Philistine oppression (west) | 40 | [Judges 13:1](https://www.blueletterbible.org/esv/Jdg/13/1) |
 | Samson (during the Philistine oppression) | 20 | [Judges 15:20](https://www.blueletterbible.org/esv/Jdg/15/20); [16:31](https://www.blueletterbible.org/esv/Jdg/16/31) |
 
-That's **410 years** for Judges proper. Add the wilderness wandering (40, fixed), roughly 7
-years for Joshua's conquest (derived from [Joshua 14:7,
-10](https://www.blueletterbible.org/esv/Jos/14/7): Caleb was 40 at the spies' mission, 85 "45
-years" later, and 38 of those 45 were the imposed wilderness delay, leaving ~7 for the conquest
-itself), Eli's 40 years judging Israel
-([1 Samuel 4:18](https://www.blueletterbible.org/esv/1Sa/4/18)), an unspecified stretch of
-Samuel's own ministry before the monarchy, Saul's reign, David's 40
-([2 Samuel 5:4-5](https://www.blueletterbible.org/esv/2Sa/5/4)), and Solomon's 4 years to the
-temple, and the sequential total comfortably exceeds 480 before Samuel's own years are even
-counted — by at least 100 years, likely more. **This is a long-recognized problem, not a new
-one**, and it has a name in the scholarly literature: the "Judges chronology problem."
+That's **410 years** for Judges proper. Now add the rest. The wilderness wandering, 40 years and
+fixed. Roughly 7 years for Joshua's conquest, derived from [Joshua 14:7,
+10](https://www.blueletterbible.org/esv/Jos/14/7): Caleb was 40 at the spies' mission and 85 "45
+years" later, and 38 of those 45 were the imposed wilderness delay, leaving about 7 for the conquest
+itself. Eli's 40 years judging Israel ([1 Samuel
+4:18](https://www.blueletterbible.org/esv/1Sa/4/18)). An unspecified stretch of Samuel's own
+ministry before the monarchy. Saul's reign. David's 40 ([2 Samuel
+5:4-5](https://www.blueletterbible.org/esv/2Sa/5/4)). And Solomon's 4 years to the temple. The
+sequential total comfortably exceeds 480 before Samuel's own years are even counted — by at least
+100 years, likely more. **This is a long-recognized problem, not a new one**, and it has a name in
+the scholarly literature: the "Judges chronology problem."
 
 Saul's own reign-length can't even be read off the Hebrew text as it stands: [1 Samuel
 13:1](https://www.blueletterbible.org/esv/1Sa/13/1) reads, transliterated, "Saul was a son of a
@@ -404,34 +405,33 @@ real gap in the Hebrew manuscript tradition, not resolving an ambiguity within i
 
 ### The textual basis for overlap — this isn't invented
 
-The standard resolution treats several of these judgeships as **regional rather than national**,
-and therefore overlapping in time rather than strictly sequential. That's not a modern
-harmonizer's convenience — the text says so directly. [Judges 10:7-9
-(ESV)](https://www.blueletterbible.org/esv/Jdg/10/7) states that God "sold them into the hand of
-the Philistines and into the hand of the Ammonites" **in the same breath**, with the Ammonite
-oppression explicitly located "beyond the Jordan... in Gilead" (east) for 18 years, while
-Philistine pressure came from the west. Jephthah, Ibzan, Elon, and Abdon's combined 31 years
-belong to the eastern/Gilead side of that same double-oppression; Samson's 20 years explicitly
-take place "in the days of the Philistines" ([Judges 15:20](https://www.blueletterbible.org/esv/Jdg/15/20))
-— he judges *during* the 40-year Philistine oppression, not after ending it, and 1 Samuel's own
-narrative shows Philistine dominance continuing well past Samson's death, through Eli's era and
-into Samuel's early ministry. None of this requires inventing an overlap the text doesn't
-support; it requires taking the text's own geography seriously instead of defaulting to a single
-linear national timeline the book of Judges never actually claims to be giving.
+The standard resolution treats several of these judgeships as **regional rather than national**, and
+therefore overlapping in time rather than strictly sequential. That's not a modern harmonizer's
+convenience — the text says so directly. [Judges 10:7-9
+(ESV)](https://www.blueletterbible.org/esv/Jdg/10/7) states that God "sold them into the hand of the
+Philistines and into the hand of the Ammonites" **in the same breath**, with the Ammonite oppression
+explicitly located "beyond the Jordan... in Gilead" (east) for 18 years, while Philistine pressure
+came from the west. Jephthah, Ibzan, Elon, and Abdon's combined 31 years belong to the eastern,
+Gilead side of that same double-oppression. Samson's 20 years explicitly take place "in the days of
+the Philistines" ([Judges 15:20](https://www.blueletterbible.org/esv/Jdg/15/20)). He judges *during*
+the 40-year Philistine oppression. 1 Samuel's own narrative shows Philistine dominance continuing
+well past Samson's death, through Eli's era and into Samuel's early ministry. None of this requires
+inventing an overlap the text doesn't support. It requires taking the text's own geography
+seriously, instead of defaulting to a single linear national timeline the book of Judges never
+claims to be giving.
 
 ### Genealogy check #1: the priestly line — broadly consistent with ~480 years
 
-The high priestly line from Aaron to Zadok (David and Solomon's priest) is given twice,
-independently: [1 Chronicles 6:35-38](https://www.blueletterbible.org/esv/1Ch/6/35) and
-[Ezra 7:1-5](https://www.blueletterbible.org/esv/Ezr/7/1) (tracing Ezra's own ancestry back to
-Aaron), and the two lists agree exactly: Aaron → Eleazar → Phinehas → Abishua → Bukki → Uzzi →
-Zerahiah → Meraioth → Amariah → Ahitub → Zadok. That's **10 generational steps** from Aaron
-(who dies in the wilderness, so effectively at the Exodus end-point) to Zadok (serving at the
-very end of David's reign and the start of Solomon's). Over roughly 400-480 years, that's
-40-48 years per generation — on the high side for a strict father-to-son succession, but not
-implausible for a priestly office where a man might not become high priest, or father his own
-heir, particularly young. This genealogy doesn't *prove* 480 years, but it doesn't strain against
-it either.
+The high priestly line from Aaron to Zadok, David and Solomon's priest, is given twice and
+independently. [1 Chronicles 6:35-38](https://www.blueletterbible.org/esv/1Ch/6/35) gives it, and so
+does [Ezra 7:1-5](https://www.blueletterbible.org/esv/Ezr/7/1), tracing Ezra's own ancestry back to
+Aaron. The two lists agree exactly: Aaron → Eleazar → Phinehas → Abishua → Bukki → Uzzi → Zerahiah →
+Meraioth → Amariah → Ahitub → Zadok. That's **10 generational steps** from Aaron (who dies in the
+wilderness, so effectively at the Exodus end-point) to Zadok (serving at the very end of David's
+reign and the start of Solomon's). Over roughly 400-480 years, that's 40-48 years per generation —
+on the high side for a strict father-to-son succession, but not implausible for a priestly office
+where a man might not become high priest, or father his own heir, particularly young. This genealogy
+doesn't *prove* 480 years, but it doesn't strain against it either.
 
 ### Genealogy check #2: the Davidic line — in real tension with 480 years
 
@@ -452,46 +452,44 @@ biblical pattern, not a special plea invented to save this one case.
 
 ### Where this leaves the reconstruction
 
-Two genealogical checks point in different directions. The priestly line is compatible with something close to 1 Kings
-6:1's 480 years; the royal line, taken at face value, is not, and all but requires accepting that
-Ruth's list omits names. Put together with the judges-overlap evidence above, the most defensible
-reading is: **1 Kings 6:1's 480 years is plausible as a real total**, achieved by real regional
-overlap among the judges (textually supported, not invented) rather than strict national
-sequence, while Ruth's five-generation genealogy for David almost certainly telescopes rather
-than recording every link — the same kind of compression this study already had to reckon with
-in Matthew's genealogy, just applied one book earlier. Nothing here fixes an exact year-by-year
-allocation of which judge overlaps which by how much; that level of precision isn't recoverable
-from what the text actually states, and claiming otherwise would overshoot the evidence in the
-same way summing the numbers naively does.
+Two genealogical checks point in different directions. The priestly line is compatible with
+something close to 1 Kings 6:1's 480 years. The royal line, taken at face value, is not. It all but
+requires accepting that Ruth's list omits names. Put that together with the judges-overlap evidence
+above, and the most defensible reading has two parts. **1 Kings 6:1's 480 years is plausible as a
+real total**, achieved by real regional overlap among the judges rather than strict national
+sequence. That overlap is textually supported. And Ruth's five-generation genealogy for David almost
+certainly telescopes rather than recording every link. That is the same compression this study
+already had to reckon with in Matthew's genealogy, applied one book earlier. Nothing here fixes an
+exact year-by-year allocation of which judge overlaps which by how much; that level of precision
+isn't recoverable from what the text actually states, and claiming otherwise would overshoot the
+evidence in the same way summing the numbers naively does.
 
 ## What this means for prophecy and Christ
 
-None of the above is only an arithmetic exercise. Two genealogies of Jesus survive
-(Matthew 1:1-17, Luke 3:23-38), and they're doing visibly different jobs. Matthew's is
-explicitly structured, "fourteen generations" three times over (Matthew 1:17), and to hit that
-count it compresses the king-list of Judah, skipping three known kings between Joram and
-Uzziah (compare Matthew 1:8 with 1 Chronicles 3:11-12). That's not sloppiness; ancient
-genealogies routinely telescoped names for a structuring purpose without being understood as
-lying about lineage. It also means Matthew's list, unlike Genesis 5 and 11, was never trying to
-support a year count at all — it's making a royal, covenantal argument (this is David's heir),
-not a chronological one. Luke's list runs the other direction, all the way back past Abraham to
-"the son of Adam, the son of God" (Luke 3:38) — and that ending is the argument. Luke is setting
-up the same connection Paul makes explicitly: Jesus as the second Adam, undoing in obedience
-what the first Adam did in disobedience (Romans 5:12-21; 1 Corinthians 15:22, 45). The genealogy
-exists, in Luke's hands, to make a theological claim stick to a real, traceable human line — not
-in spite of it being real, but because it is.
+None of the above is only an arithmetic exercise. Two genealogies of Jesus survive (Matthew 1:1-17,
+Luke 3:23-38), and they're doing visibly different jobs. Matthew's is explicitly structured,
+"fourteen generations" three times over (Matthew 1:17), and to hit that count it compresses the
+king-list of Judah, skipping three known kings between Joram and Uzziah (compare Matthew 1:8 with 1
+Chronicles 3:11-12). That's not sloppiness; ancient genealogies routinely telescoped names for a
+structuring purpose without being understood as lying about lineage. It also means Matthew's list,
+unlike Genesis 5 and 11, was never trying to support a year count at all — it's making a royal,
+covenantal argument (this is David's heir), not a chronological one. Luke's list runs the other
+direction, all the way back past Abraham to "the son of Adam, the son of God" (Luke 3:38). That
+ending is the argument. Luke is setting up the same connection Paul makes explicitly. Jesus is the
+second Adam, undoing in obedience what the first Adam did in disobedience (Romans 5:12-21; 1
+Corinthians 15:22, 45). The genealogy exists, in Luke's hands, to make a theological claim stick to
+a real, traceable human line. It works precisely because that line is real.
 
-That is the frame the chronological work sits inside. The line from Adam to Christ isn't
-being tracked because a date is owed; it's being tracked because Genesis 3:15's promise — that
-the woman's seed would come, and would matter — runs through actual named people whose own names
-turn out, more often than not, to be saying something true about what's coming. Seth,
-*appointed*, in place of a murdered brother. Enoch, *dedicated*, taken without dying, a preview
-that death isn't the last word for those who walk with God (Hebrews 11:5). Noah, *comfort*, the
-one who carries the appointed line through judgment rather than being consumed by it. Whether or
-not Methuselah's own name predicted the Flood by its own arithmetic, the pattern around him
-does the same thing on a larger scale that the whole genealogy does: a real record of real
-people, shaped by a real author, tracking a promise that is still, twenty-some centuries after
-its last recorded chapter, being kept.
+That is the frame the chronological work sits inside. The line from Adam to Christ is tracked
+because of a promise, not because a date is owed. Genesis 3:15 said the woman's seed would come, and
+would matter. That promise runs through actual named people, whose own names turn out, more often
+than not, to be saying something true about what is coming. Seth, *appointed*, in place of a
+murdered brother. Enoch, *dedicated*, taken without dying, a preview that death isn't the last word
+for those who walk with God (Hebrews 11:5). Noah, *comfort*, the one who carries the appointed line
+through judgment rather than being consumed by it. Methuselah's own name may or may not have
+predicted the Flood by its own arithmetic. The pattern around him does, on a larger scale, what the
+whole genealogy does. It is a real record of real people, shaped by a real author, tracking a
+promise. Twenty-some centuries after its last recorded chapter, that promise is still being kept.
 
 The specific date question — whether creation was 4004, 5470, or 4305 years before Christ on
 this study's three witnesses, or the 3944 BC that `harmonized_v1` implies — stays open, and is
