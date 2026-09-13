@@ -5,7 +5,7 @@ description: "What Bible text, lexical, and commentary data backs this site, org
 tags: ["data", "sources", "licensing", "transparency", "mermaid"]
 draft: false
 date_created: 2026-07-27
-date_modified: 2026-09-05
+date_modified: 2026-09-13
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -20,16 +20,16 @@ where each one comes from, and what it's licensed to let a study do with it.
 which scripts built and cleaned it, what the two databases contain, and what an agent can reach.
 Where a fact about our data lives in more than one place it drifts, so it lives here.
 
-Its companion is [Public Data Sources](../resources/public-data-sources.md), which is a different
-job: a survey of the open Bible data that exists in this space — including sources looked at and
-turned down — for a reader who wants the landscape rather than our plumbing. Anything there that we
+Its companion is [Public Data Sources](../resources/public-data-sources.md), which does a different
+job. It surveys the open Bible data that exists in this space, including sources looked at and
+turned down, for a reader who wants the landscape rather than our plumbing. Anything there that we
 actually use points back here.
 
-Three other pages own questions this one deliberately does not: what a given text is *worth as a
-witness* belongs to [Bible Translations & Source Texts](../scripture/translations.md); what the
-data's own vocabulary means — lemma, parsing, semantic domain, and what MACULA actually is — to
-[Reading the Original-Language Data](../scripture/original-language-data.md); and the church fathers
-to [Patristic Sources](../resources/patristic-sources.md).
+Three other pages own questions this one deliberately does not. What a given text is *worth as a
+witness* belongs to [Bible Translations & Source Texts](../scripture/translations.md). What the
+data's own vocabulary means — lemma, parsing, semantic domain, and what MACULA actually is — belongs
+to [Reading the Original-Language Data](../scripture/original-language-data.md). The church fathers
+belong to [Patristic Sources](../resources/patristic-sources.md).
 
 ## Three tiers, one rule
 
@@ -92,20 +92,20 @@ flowchart LR
 
 ## What each tier is for
 
-**Open data does the heavy lifting.** Nearly everything a word study depends on — the Hebrew and Greek
-text itself, morphology, lemmas, Strong's numbers, Louw-Nida/SDBH semantic domains, clause-level syntax
-and coreference, cross-references, and four complete public-domain English translations — is open. This
-is also the only tier published alongside this project, so it is the tier a reader can go and check
-without asking anyone's permission. [Bible Translations &
-Source Texts](../scripture/translations.md) is the deep dive on this slice specifically — translation
-philosophy, textual-criticism tradeoffs, and a per-edition tracking table for every English translation,
-Hebrew witness, and Greek New Testament text this site draws on, English translations included.
+**Open data does the heavy lifting.** Nearly everything a word study depends on — the Hebrew and
+Greek text itself, morphology, lemmas, Strong's numbers, Louw-Nida/SDBH semantic domains, clause-
+level syntax and coreference, cross-references, and four complete public-domain English translations
+— is open. This is also the only tier published alongside this project, so it is the tier a reader
+can go and check without asking anyone's permission. [Bible Translations & Source
+Texts](../scripture/translations.md) is the deep dive on this slice specifically. It covers
+translation philosophy and textual-criticism tradeoffs, and carries a per-edition tracking table for
+every English translation, Hebrew witness, and Greek New Testament text this site draws on.
 
 **Restricted data fills a specific gap, carefully.** The Byzantine/Textus Receptus Greek text is
-usable now under its non-commercial terms. BHSA — a deeper Hebrew syntax resource than MACULA provides
-— is cataloged and license-checked but not yet wired into any query tool; MACULA already covers subject,
-role, construct state, and coreference for both testaments, so BHSA is reserved for an argument that
-specifically needs full clause hierarchy MACULA doesn't give.
+usable now under its non-commercial terms. BHSA is a deeper Hebrew syntax resource than MACULA
+provides. It is cataloged and license-checked, and not yet wired into any query tool. MACULA already
+covers subject, role, construct state, and coreference for both testaments. So BHSA is reserved for
+an argument that specifically needs full clause hierarchy MACULA doesn't give.
 
 **Quotation-only data checks the work; it doesn't write it.** The rule these studies follow is
 commentaries last, not first — used to test a reading already reached from the text, never to form
@@ -115,11 +115,11 @@ it.
 
 ## TWOT: one source, split across two tiers
 
-The *Theological Wordbook of the Old Testament* doesn't fit neatly into one bucket. Its bare facts — a
-Strong's number pointing to a TWOT root, lemma, and one-line gloss — are open enough to commit as a
-plain JSON map and use freely. Its actual discussion prose, the paragraphs of argument behind each root,
-is quotation-only like any other copyrighted reference work: citable by root number and gloss, quotable
-a sentence at a time with attribution, never reproduced as a full entry.
+The *Theological Wordbook of the Old Testament* doesn't fit neatly into one bucket. Its bare facts —
+a Strong's number pointing to a TWOT root, lemma, and one-line gloss — are open enough to commit as
+a plain JSON map and use freely. Its actual discussion prose, the paragraphs of argument behind each
+root, is quotation-only like any other copyrighted reference work. Citable by root number and gloss.
+Quotable a sentence at a time with attribution. Never reproduced as a full entry.
 
 ## What sits outside both databases
 
@@ -168,7 +168,7 @@ else here could:
 
 Two cautions travel with them, both of which unfoldingWord state themselves.
 
-The UHB numbers verses the **English** way rather than the Hebrew way — it "uses the versification
+The UHB numbers verses the **English** way rather than the Hebrew way. It "uses the versification
 scheme of the ULT", which they note "may make some resources that are keyed to the WLC more
 difficult to use with the Hebrew text". So it and the Westminster Leningrad Codex disagree about
 which verse a reference names across roughly 1,500 verses, mostly in Joel, 1 Chronicles, 1 Kings,
@@ -179,8 +179,8 @@ site keeps that as the `versification_map` table rather than guessing at the shi
 The UHB also prints a different reading where the Masoretes left two: "in order to avoid
 subjectivity, the text of the UHB uses the Ketiv of the WLC", where the Westminster Leningrad Codex
 prints the Qere. That one decision accounts for nearly all the ~1.5% of verses where the two Hebrew
-texts differ, and the 930 Qere readings are kept as notes on the verses they belong to, so nothing
-is lost either way. See [Ketiv and Qere](../glossary.md#ketiv-qere).
+texts differ. The 930 Qere readings are kept as notes on the verses they belong to, so nothing is
+lost either way. See [Ketiv and Qere](../glossary.md#ketiv-qere).
 
 Separately, the UGNT differs from this project's default Greek text in about one verse in six by raw
 count, though most of that is manuscript spelling rather than a different text.
@@ -225,9 +225,9 @@ this project's public repository**, on separate storage, so it cannot be redistr
 ### How a study reaches it
 
 Studies here are written against these tables rather than from memory, through the same queries
-anyone else can run: ask for a verse and get its text, its per-word parsing and its
-cross-references; ask for a word and get every occurrence of it; ask what an English word is
-translating and get the original behind it.
+anyone else can run. Ask for a verse and get its text, its per-word parsing and its cross-
+references. Ask for a word and get every occurrence of it. Ask what an English word is translating
+and get the original behind it.
 
 The most useful is the trace. Give it a verse and it returns everything the collection knows about
 that verse — what it quotes, what quotes it, the words the two share, and how each connection was
