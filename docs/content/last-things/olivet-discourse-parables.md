@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:45-25:46"
 bible_references: ["Matthew 24:3", "Matthew 24:45-51", "Matthew 25:1-46", "Matthew 9:15", "Matthew 10:40-42", "Matthew 12:48-50", "Matthew 13:10-17", "Matthew 13:34-35", "Matthew 15:15-16", "Matthew 18:23-35", "Matthew 20:1-16", "Psalm 78:2", "Isaiah 54:5", "Hosea 2:16", "Jeremiah 31:32", "Ezekiel 34:11-12", "Ezekiel 34:17-24", "Luke 12:35-48", "Luke 19:11-27", "John 3:29"]
 date_created: 2026-08-29
-date_modified: 2026-09-13
+date_modified: 2026-09-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -292,17 +292,25 @@ people in real need, done or withheld. "As you did it… you did it to me" (25:4
 
 ## Discussion Questions
 
-1. All ten virgins fell asleep waiting, wise and foolish alike. What does that detail rule out as the
-   parable's actual point, and what does it leave standing instead?
-2. The one-talent servant's stated reason for burying his talent is fear of a "hard man." How does
-   the master's reply reframe that fear rather than simply denying it?
-3. If "the least of these my brothers" names Christ's own messengers specifically rather than the
-   suffering in general, what changes about how you read this scene as end-time prophecy rather than
-   as a general ethical teaching?
-4. Two of these four end on the same judgment formula — "weeping and gnashing of teeth" (24:51;
-   25:30) — and Matthew uses it four more times outside them (8:12; 13:42; 13:50; 22:13). What does
-   a fixed formula, repeated across six scenes in one Gospel, suggest about how seriously he wants a
-   reader to take each one?
+1. Matthew reaches for **οἰκετεία** (*oiketeia*) exactly once, at 24:45, and it names a household
+   *staff* — so the steward's charge is other servants' food and welfare. What does that one word
+   do to what "faithful" means in this parable?
+2. Jesus ends the ten virgins with "Watch therefore" (25:13), in a parable where the wise ones sleep
+   through the wait along with the foolish (25:5). How do you hold those two sentences together?
+3. Matthew says Jesus taught in parables "to fulfill what was spoken by the prophet" (13:35),
+   quoting Psalm 78:2 — so what the psalm predicted was the *way* He would teach. If God
+   planned a way of teaching that hands over and holds back at once (13:11-13), what does that
+   commit you to about how He deals with people who have not understood yet?
+4. Three roles Scripture keeps for God — husband (Isaiah 54:5), judge of all the nations, and the
+   shepherd who said "I, I myself will search for my sheep" (Ezekiel 34:11) — are occupied by Jesus
+   in these parables, with no word of explanation offered. Which of the three would have been
+   hardest for His first hearers to swallow?
+5. "The least of these my brothers" (25:40) can name Christ's own messengers, on the definition
+   Matthew already gave at 12:50 and 10:42, or suffering people in general. Hold the two readings
+   side by side: what does each one make this judgment scene *about*?
+6. The one-talent servant lost nothing and handed back exactly what he was given, and he is
+   condemned anyway (25:28-30). Where has "being careful with what God gave me" quietly meant
+   burying it, and what would risking it look like between now and Christmas?
 
 ## References & Recommended Reading
 
