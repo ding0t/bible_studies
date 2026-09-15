@@ -17,11 +17,11 @@ review_2026-09-13:
     - "bible_references was stale after the 2026-09-13 rewrites: Psalm 78:2, Matthew 13:10-17, 13:34-35, 15:15-16, 9:15, Isaiah 54:5, Hosea 2:16, Jeremiah 31:32 and Ezekiel 34:11-12 were all load-bearing and unlisted, so commentary_index under-reported the study. FIXED, and commentary_index.py re-run."
     - "Discussion questions were stale against the restructured study: no language facet despite substantial Greek, and no Be-transformed facet; nothing touched the new Types & Prophecy or deity-of-Christ material. FIXED 2026-09-15 -- rewritten to the discussion-questions.md facet table, six questions covering language (oiketeia), context (virgins), prophecy (Ps 78:2 / Matt 13:35), Christ (the three reserved roles), the hard part (least of these), and be-transformed (talents). All four parables now represented, one each."
     - "Phase 6 q5: the cultural-vs-transcultural line is never drawn explicitly, though wedding, shepherding and currency customs are all explained. OPEN."
-    - "Matthew 10:42 (WEB) drops 'most certainly I tell you, he' mid-quote without an ellipsis. OPEN."
+    - "Matthew 10:42 (WEB) dropped 'most certainly I tell you, he' mid-quote without an ellipsis. FIXED 2026-09-15 -- now quoted in full and verified verbatim against bible-text.db."
   findings_minor:
     - "Rule 8 (Godhead pronoun capitalisation) only half-applied: lines for the bridegroom and the King still lowercase while Key Takeaways capitalise. OPEN."
     - "Quotes without a translation label: 24:47, 25:13, 25:10/12, 25:28/30, 25:26. OPEN."
-    - "Matthew 12:50 truncated at 'he is my brother' without an ellipsis. OPEN."
+    - "Matthew 12:50 truncated at 'he is my brother', dropping 'and sister, and mother' without an ellipsis. FIXED 2026-09-15 -- quoted in full; only the opening 'For' is dropped, which is standard for a quotation opening a sentence."
     - "Matthew 25:40 quoted with capital 'As' in Lessons about Jesus where ESV has lowercase 'as'; the Memory-verses copy is correct. OPEN."
     - "12 antithesis constructions, one per 293 words -- under the 210-word observed drift, clustered in body sections not rewritten this session. OPEN."
     - "Phase 6 q2: historical occasion (Matthew's authorship, audience, date) never stated. OPEN."

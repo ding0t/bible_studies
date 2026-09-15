@@ -275,10 +275,11 @@ toward anyone in need. That reading has real support. The list — hungry, thirs
 sick, imprisoned — maps straight onto ordinary human need.
 
 **Read narrowly**, "my brothers" picks up a definition Matthew has already given. "Whoever does the
-will of my Father who is in heaven, he is my brother" (12:50, WEB), said of the disciples. It also
-picks up an earlier promise: "whoever gives one of these little ones just a cup of cold water… in
-the name of a disciple, will in no way lose his reward" (10:42, WEB). That promise is attached to
-how people treat his sent-out messengers.
+will of my Father who is in heaven, he is my brother, and sister, and mother" (12:50, WEB), said of
+the disciples. It also picks up an earlier promise: "Whoever gives one of these little ones just a
+cup of cold water to drink in the name of a disciple, most certainly I tell you, he will in no way
+lose his reward" (10:42, WEB). That promise is attached to how people treat his sent-out
+messengers.
 
 On the narrow reading, "all the nations" are judged as nations (25:32). The measure is how they
 treated Christ's own — his messengers, and by extension ethnic Israel — during the period this
