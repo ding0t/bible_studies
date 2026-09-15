@@ -108,13 +108,14 @@ Three roles God reserved to Himself, and Jesus occupies all three without a word
 Father" into "the kingdom prepared for you from the foundation of the world" (25:34, ESV). The one
 on the throne is the Son, and the kingdom He hands out is His Father's.
 
-**And He binds Himself to His people by identity.** "As you did it to one of the least of these my
-brothers, you did it to me" (25:40, ESV) — the same thing He says at Matthew 10:40, "whoever
-receives you receives me." He calls them His brothers, and He counts what they were given as given
-to Him.
+**And He binds Himself to the people He calls His brothers.** "As you did it to one of the least of these my
+brothers, you did it to me" (25:40, ESV). He says the same thing to the Twelve at Matthew 10:40,
+"whoever receives you receives me." Whoever "my brothers" names — the question is contested, and
+[The Sheep and the Goats](#the-sheep-and-the-goats-2531-46) below works through both readings — the
+King counts how they were treated as how He was treated.
 
-This shows that God came near enough to be treated well or badly in person. So the cup of water you
-hand someone this week reaches Him, and so does the one you decide not to bother with.
+This shows that God came near enough to be treated well or badly in person. So what you do for
+someone in real need this week reaches Him, and so does what you decide not to bother with.
 
 ### Memory verses
 
@@ -148,9 +149,9 @@ kind that happens slowly, to people who expected to pass.
   lent. The wise virgins carried their own oil, and at the door the answer was "since there will not
   be enough for us and for you" (25:9, ESV) — your own standing with Christ is not something a
   friend, a spouse or a church can hand over at the last minute, so go and see to it now. Second,
-  feed someone. The goats are condemned for what they never did for people they never thought
-  mattered (25:44-45). Pick one name off the King's own list — hungry, thirsty, stranger, naked,
-  sick, in prison (25:35-36) — and do the thing before Sunday.
+  feed someone. Both readings of "the least of these" agree on what the King calls evidence: real
+  action toward people in real need, done or withheld (25:44-45). Pick one name off His own list —
+  hungry, thirsty, stranger, naked, sick, in prison (25:35-36) — and do the thing before Sunday.
 
 ### Prayer
 
