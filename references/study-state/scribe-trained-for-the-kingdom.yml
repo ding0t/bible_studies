@@ -341,3 +341,31 @@ additions_2026-09-16:
     - "Moderate 7 — oikodespotes: 20:1 and 21:33 still stated as flatly as 10:25 and 13:27->13:37."
     - "Remaining Minor findings from review_2026-09-15."
     - "ai_provider_models still hand-seeded; re-run refresh_frontmatter_provenance.py after commit."
+
+# Replayable evidence -- re-run with:
+#   cd references/build && uv run python verify_claims.py scribe-trained-for-the-kingdom --evidence
+# Each entry is a tool call from research_batch.REGISTRY plus what its answer must contain, so a
+# fact the study rests on can be re-checked instead of trusted because it was checked once.
+evidence:
+  - id: matt-13-52-esv
+    what: the ESV wording the study quotes for Matthew 13:52
+    tool: study_verse
+    args: {book: Matt, chapter: 13, verse: 52, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "every scribe who has been trained for the kingdom of heaven"
+    checked: 2026-09-18
+
+  - id: grammateus-in-matthew
+    what: γραμματεύς occurrences in Matthew -- the term is Matthew's, used throughout
+    tool: bible_word
+    args: {lemma: "γραμματεύς", book: Matt}
+    expect_count: 22
+    checked: 2026-09-18
+
+  - id: ezra-7-6-skilled-scribe
+    what: Ezra 7:6 is the OT archetype the study builds on (sofer mahir)
+    tool: bible_verse
+    args: {book: Ezra, chapter: 7, verse: 6, translation: WEB}
+    path: text
+    expect_contains: "skilled scribe in the law of Moses"
+    checked: 2026-09-18

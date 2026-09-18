@@ -1,7 +1,7 @@
 # Plan — research & review MCP server, v2
 
 **Date:** 2026-09-18
-**Status:** Phases 1–4 shipped 2026-09-18. Phase 5 proposed.
+**Status:** all five phases shipped 2026-09-18.
 **Scope:** `references/build/` — extend the existing `bible-references` MCP server into the
 research/review substrate the two content skills actually need.
 
@@ -227,7 +227,7 @@ composed query does not. Folding alignment into the brief closes the class.
 
 Shape the return as the skill's exegesis order, so the brief reads as the section it will become.
 
-## Phase 5 — repeatable ledger
+## Phase 5 — repeatable ledger  ✅ shipped
 
 Generalise `verify_claims.py` from SQL-with-`expect` to *any tool call with an expected result*.
 The state file gains an `evidence:` block:
@@ -258,7 +258,7 @@ by hand is work. A tool call the agent already made, recorded automatically, is 
 | 2 — `sources.toml` | — | ~half day | **shipped 2026-09-18** |
 | 3 — `research_batch` | 1, 2 | ~half day | **shipped 2026-09-18** |
 | 4 — `passage_brief` | 3 | ~1 day | **shipped 2026-09-18** |
-| 5 — evidence ledger | 3 | ~half day | yes |
+| 5 — evidence ledger | 3 | ~half day | **shipped 2026-09-18** |
 
 Phases 1 and 2 are independent; either can go first. **Phase 1 first** — it removes the live
 failure mode.

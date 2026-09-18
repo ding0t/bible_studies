@@ -24,6 +24,7 @@ Registered with Claude Code via ../../.mcp.json.
 """
 from mcp.server.fastmcp import FastMCP
 
+import evidence as evidence_lib
 import passage_brief as passage_brief_lib
 import query
 import research_batch
@@ -538,6 +539,34 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
         translations=translations, study_works=study_works, include=include,
         budget_seconds=budget_seconds,
     )
+
+
+@mcp.tool()
+def evidence_draft(requests: list[dict], budget_seconds: float = 30.0) -> dict:
+    """Run lookups and return them as `evidence:` entries to paste into a study's state file.
+
+    Use this when you have just verified something a study will rest on. Each entry records the
+    tool call and a conservative expectation drawn from the real answer, so the fact can be
+    re-checked later instead of trusted because it was checked once -- which is where every
+    Critical finding in this repo has come from. Tighten the `what` and the expectation before
+    committing; the draft is a starting point, not a verdict.
+
+    `requests` takes the same shape as research_batch_run: {"id", "tool", "args"}.
+    """
+    return evidence_lib.draft_entries(requests, budget_seconds=budget_seconds)
+
+
+@mcp.tool()
+def evidence_check(entries: list[dict], budget_seconds: float = 60.0) -> dict:
+    """Replay `evidence:` entries and report which still hold.
+
+    Statuses: ok, FAIL (the recorded expectation no longer matches), unverified (the source could
+    not be reached, so the evidence could not be tested -- NOT the same as being wrong), malformed.
+    Replays the whole set in one batch. For a study's committed block, prefer the CLI:
+    `uv run python verify_claims.py <slug> --evidence`.
+    """
+    records = evidence_lib.check_entries(entries, budget_seconds=budget_seconds)
+    return {"records": records, "summary": evidence_lib.summarise(records)}
 
 
 if __name__ == "__main__":

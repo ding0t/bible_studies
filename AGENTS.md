@@ -181,6 +181,8 @@ uv run python study_gaps.py docs/content/<study>.md   # what links to a study's 
 uv run python twot_lookup.py --help
 uv run pytest tests/test_invariants.py                # every declared table has rows -- the guard the empty `notes` table needed
 uv run python verify_claims.py                        # re-run the SQL behind studies' recorded counts, compare to `expect:`
+uv run python verify_claims.py --evidence             # also replay `evidence:` blocks -- tool calls with expected answers
+uv run python verify_claims.py <slug> --only-evidence # just one study's evidence
 uv run python cross_study_claims.py --min-studies 4   # chapters several studies treat; add a chapter to see what each says
 uv run python commentary_index.py  # regenerate auto cross-ref pages — run after editing a study's bible_references/primary_passage
 uv run python section_index.py     # regenerate category landing pages — run after adding a study or new content section
@@ -213,7 +215,15 @@ this repo is public.
 
 `references/build/mcp_server.py` (registered via `.mcp.json`) exposes the same `query.py`/
 `twot_lookup.py`/`study_notes_query.py` lookups as MCP tools — it's a thin wrapper, not a
-second implementation. **Beginning work on a passage? Call `passage_brief` first** — one call returns
+second implementation. **Record what you verify as `evidence:` in the study's state file.** `claims:` only takes SQL
+returning one number, which is why only a handful of studies ever grew one; `evidence:` takes
+any tool call from `research_batch.REGISTRY` plus what its answer must contain, so a quotation's
+wording, a gloss or a root number becomes re-checkable. `evidence_draft` turns lookups you have
+just made into entries to paste. Replay with `verify_claims.py --evidence`. An entry whose
+source is unreachable reports as **unverified**, never as failed — could-not-test and wrong are
+different facts and must read differently.
+
+**Beginning work on a passage? Call `passage_brief` first** — one call returns
 versification, the book introduction, the text in each translation you name (open and
 commercial alike, each routed to the database that holds it), the interlinear, TWOT roots
 for the Hebrew, cross-references, Dead Sea Scroll divergence and study notes, in the order

@@ -29,6 +29,7 @@ import sys
 
 import yaml
 
+import evidence as evidence_lib
 import query
 
 STATE_DIR = pathlib.Path(__file__).resolve().parent.parent / "study-state"
@@ -69,9 +70,47 @@ def check(conn: sqlite3.Connection, claim: dict) -> tuple[bool, str]:
     return True, f"{got!r}"
 
 
+def report_evidence(paths, budget: float) -> tuple[int, int, int, list[tuple[str, str]]]:
+    """Replay each state file's `evidence:` block. Returns (checked, failed, unverified, unreadable).
+
+    `unverified` is counted and reported separately from `failed` and does NOT fail the run: an
+    unmounted volume means the evidence could not be tested, which is a different fact from the
+    evidence being wrong. Conflating them would turn a routine local condition into a screenful of
+    red and teach a reader to stop looking.
+    """
+    checked = failed = unverified = 0
+    unreadable: list[tuple[str, str]] = []
+    for path in paths:
+        entries, parse_error = evidence_lib.load_evidence(path)
+        if parse_error:
+            unreadable.append((path.stem, parse_error))
+            continue
+        if not entries:
+            continue
+        records = evidence_lib.check_entries(entries, budget_seconds=budget)
+        print(f"\n{path.stem}  (evidence)")
+        for record in records:
+            checked += 1
+            if record["status"] == evidence_lib.FAIL:
+                failed += 1
+            elif record["status"] in (evidence_lib.UNVERIFIED, evidence_lib.MALFORMED):
+                unverified += 1
+            label = {evidence_lib.PASS: "ok  ", evidence_lib.FAIL: "FAIL",
+                     evidence_lib.UNVERIFIED: "----", evidence_lib.MALFORMED: "????"}[record["status"]]
+            print(f"  {label} {record['id']:24} {record['what']}\n       {record['detail']}")
+    return checked, failed, unverified, unreadable
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("slug", nargs="?", help="study slug; omit to check every state file")
+    ap.add_argument("--evidence", action="store_true",
+                    help="also replay each study's `evidence:` block (tool calls with expected "
+                         "answers), not just its SQL `claims:`")
+    ap.add_argument("--only-evidence", action="store_true",
+                    help="replay `evidence:` blocks and skip the SQL claims entirely")
+    ap.add_argument("--budget", type=float, default=60.0,
+                    help="wall-clock seconds per state file's evidence replay (default 60)")
     args = ap.parse_args()
 
     paths = ([STATE_DIR / f"{args.slug}.yml"] if args.slug
@@ -79,6 +118,16 @@ def main() -> None:
     missing = [p for p in paths if not p.exists()]
     if missing:
         raise SystemExit(f"no such state file: {missing[0]}")
+
+    if args.only_evidence:
+        e_checked, e_failed, e_unverified, e_unreadable = report_evidence(paths, args.budget)
+        print(f"\n{e_checked} evidence entry(ies); {e_failed} failing, {e_unverified} unverified")
+        if not e_checked:
+            print("No study records evidence yet. Add an `evidence:` block to a state file "
+                  "(see references/build/evidence.py for the shape).")
+        for stem, err in e_unreadable:
+            print(f"  {stem}: {err}")
+        sys.exit(1 if (e_failed or e_unreadable) else 0)
 
     conn = query.connect()
     checked = failed = files_with_claims = 0
@@ -107,11 +156,21 @@ def main() -> None:
         print("\nstate files that could not be parsed at all:")
         for stem, err in unreadable:
             print(f"  {stem}: {err}")
+    e_checked = e_failed = e_unverified = 0
+    if args.evidence:
+        e_checked, e_failed, e_unverified, e_unreadable = report_evidence(paths, args.budget)
+        unreadable += [x for x in e_unreadable if x not in unreadable]
+
     print(f"\n{checked} claim(s) across {files_with_claims} study(ies); {failed} failing"
           + (f"; {len(unreadable)} state file(s) unreadable" if unreadable else ""))
-    if not checked:
-        print("No study records claims yet. Add a `claims:` block to a state file.")
-    sys.exit(1 if (failed or unreadable) else 0)
+    if args.evidence:
+        print(f"{e_checked} evidence entry(ies); {e_failed} failing, {e_unverified} unverified"
+              + (" (unverified means could not be tested -- an absent source, not a wrong claim)"
+                 if e_unverified else ""))
+    if not checked and not e_checked:
+        print("No study records claims or evidence yet. Add a `claims:` or `evidence:` block to a "
+              "state file.")
+    sys.exit(1 if (failed or e_failed or unreadable) else 0)
 
 
 if __name__ == "__main__":
