@@ -216,7 +216,14 @@ this repo is public.
 
 `references/build/mcp_server.py` (registered via `.mcp.json`) exposes the same `query.py`/
 `twot_lookup.py`/`study_notes_query.py` lookups as MCP tools — it's a thin wrapper, not a
-second implementation. **Record what you verify as `evidence:` in the study's state file.** `claims:` only takes SQL
+second implementation. **Before leaning on a source, call `source_profile`.** Every work in the database carries a
+profile in `references/sources.toml` — `kind`, `edition`, `era`, `purpose`, `strengths`,
+`limits` — so you can find out that Young's Literal is a cross-check and never a quotation
+source, or that the Delitzsch Hebrew New Testament is a 19th-century translation rather than a
+Semitic original, without having read this file. The prose these were distilled from is
+[docs/content/scripture/translations.md](docs/content/scripture/translations.md).
+
+**Record what you verify as `evidence:` in the study's state file.** `claims:` only takes SQL
 returning one number, which is why only a handful of studies ever grew one; `evidence:` takes
 any tool call from `research_batch.REGISTRY` plus what its answer must contain, so a quotation's
 wording, a gloss or a root number becomes re-checkable. `evidence_draft` turns lookups you have

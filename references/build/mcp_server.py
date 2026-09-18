@@ -26,6 +26,7 @@ from mcp.server.fastmcp import FastMCP
 
 import evidence as evidence_lib
 import passage_brief as passage_brief_lib
+import source_catalog
 import query
 import research_batch
 import study_notes_query
@@ -624,6 +625,41 @@ def evidence_check(entries: list[dict], budget_seconds: float = 60.0) -> dict:
     """
     records = evidence_lib.check_entries(entries, budget_seconds=budget_seconds)
     return {"records": records, "summary": evidence_lib.summarise(records)}
+
+
+@mcp.tool()
+def source_profile(work_id: str | None = None, kind: str | None = None) -> dict:
+    """What a source IS, what it is FOR, and what it cannot settle.
+
+    The licence tools (bible_works, study_works) answer "may I quote this?". This answers the
+    different question "should I be using this here, and what does it not tell me?"
+
+    Give `work_id` for one source's profile -- e.g. scrollmapper-YLT returns that Fee & Stuart
+    name Young's Literal as formal equivalence taken too far and that it is never a quotation
+    source. Give `kind` to list what is available of one sort: witness, translation, index,
+    lexicon, annotation, commentary, grammar. Give neither for the whole catalog.
+
+    `kind` is a list because some sources are two things at once -- the Septuagint is a Greek
+    translation AND our earliest witness to a Hebrew text older than the Masoretic. There is
+    deliberately no primary/secondary/tertiary field: that is a property of the question, not of
+    the source (1 Enoch is primary for Second Temple Judaism, contextual for reading Jude), so a
+    fixed field would answer confidently and wrongly.
+
+    Read `limits` before resting an argument on any source.
+    """
+    if work_id:
+        profile = source_catalog.profile_for(work_id)
+        if not profile:
+            return {"work_id": work_id, "profile": None,
+                    "note": "no profile covers this work_id; check the spelling against "
+                            "bible_works or study_works"}
+        return {"work_id": work_id} | profile
+    if kind:
+        known = source_catalog.vocabulary()["kinds"]
+        if kind not in known:
+            return {"error": f"unknown kind {kind!r}", "known_kinds": known}
+        return {"kind": kind, "profiles": source_catalog.profiles_by_kind(kind)}
+    return {"vocabulary": source_catalog.vocabulary(), "profiles": source_catalog.profiles()}
 
 
 if __name__ == "__main__":

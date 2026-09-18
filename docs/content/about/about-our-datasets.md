@@ -5,7 +5,7 @@ description: "What Bible text, lexical, and commentary data backs this site, org
 tags: ["data", "sources", "licensing", "transparency", "mermaid"]
 draft: false
 date_created: 2026-07-27
-date_modified: 2026-09-13
+date_modified: 2026-09-18
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -26,7 +26,9 @@ turned down, for a reader who wants the landscape rather than our plumbing. Anyt
 actually use points back here.
 
 Three other pages own questions this one deliberately does not. What a given text is *worth as a
-witness* belongs to [Bible Translations & Source Texts](../scripture/translations.md). What the
+witness* belongs to [Bible Translations & Source Texts](../scripture/translations.md) — which now
+also documents the machine-readable form of that judgement, a per-source profile recording kind,
+edition, era, purpose, strengths and limits for every work in the database. What the
 data's own vocabulary means — lemma, parsing, semantic domain, and what MACULA actually is — belongs
 to [Reading the Original-Language Data](../scripture/original-language-data.md). The church fathers
 belong to [Patristic Sources](../resources/patristic-sources.md).

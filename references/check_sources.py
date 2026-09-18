@@ -187,6 +187,9 @@ def tier_sanity() -> list[str]:
     for lic, tier_name in source_catalog.license_map().items():
         if tier_name not in defined:
             problems.append(f"license_map {lic!r} maps to undefined tier {tier_name!r}")
+    # Profiles say what a source is FOR and what it cannot settle -- the judgement the licence
+    # tiers do not carry. An incomplete one is worse than none, because it reads as checked.
+    problems += source_catalog.profile_problems()
     return problems
 
 

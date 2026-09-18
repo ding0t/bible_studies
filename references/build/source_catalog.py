@@ -137,6 +137,78 @@ def raw_only() -> list[str]:
     return list(catalog()["ingest"]["raw_only"])
 
 
+# --- source profiles -------------------------------------------------------
+
+def vocabulary() -> dict:
+    return catalog()["vocabulary"]
+
+
+def profiles() -> dict[str, dict]:
+    """Every profile, keyed by profile id."""
+    return catalog()["profiles"]
+
+
+def normalize_language(code: str | None) -> str | None:
+    """Canonical language code. Upstream sources disagree (en/eng, he/heb/hbo)."""
+    if not code:
+        return None
+    return catalog().get("language_aliases", {}).get(code, code)
+
+
+def _matches(work_id: str, pattern: str) -> bool:
+    return work_id.startswith(pattern[:-1]) if pattern.endswith("*") else work_id == pattern
+
+
+def profile_for(work_id: str) -> dict | None:
+    """The profile covering a work_id, or None.
+
+    Exact `applies_to` entries win over prefix patterns, so a specifically-profiled translation is
+    not swallowed by a broad family rule -- scrollmapper-YLT must resolve to the YLT profile and
+    its "never quote this" limit, not to a generic English-versions entry.
+    """
+    best = None
+    for pid, profile in profiles().items():
+        for pattern in profile.get("applies_to", []):
+            if not _matches(work_id, pattern):
+                continue
+            if not pattern.endswith("*"):
+                return dict(profile) | {"profile": pid, "matched": pattern}
+            if best is None:
+                best = dict(profile) | {"profile": pid, "matched": pattern}
+    return best
+
+
+def profiles_by_kind(kind: str) -> dict[str, dict]:
+    """Every profile of one kind -- 'what do I have for word study?'."""
+    return {pid: p for pid, p in profiles().items() if kind in p.get("kind", [])}
+
+
+def profile_problems() -> list[str]:
+    """Internal consistency of the profile block, for check_sources.py."""
+    problems = []
+    vocab = vocabulary()
+    kinds, eras = set(vocab["kinds"]), set(vocab["eras"])
+    for pid, profile in profiles().items():
+        for field in ("kind", "era", "purpose", "strengths", "limits", "applies_to"):
+            if field not in profile:
+                problems.append(f"profile {pid!r} has no {field}")
+        for k in profile.get("kind", []):
+            if k not in kinds:
+                problems.append(f"profile {pid!r} claims undefined kind {k!r}")
+        editions = set(vocab["editions"])
+        if profile.get("edition") and profile["edition"] not in editions:
+            problems.append(f"profile {pid!r} claims undefined edition {profile['edition']!r}")
+        text_bearing = {"witness", "translation"} & set(profile.get("kind", []))
+        if text_bearing and not profile.get("edition"):
+            problems.append(f"profile {pid!r} is text-bearing but records no edition "
+                            f"(manuscript/diplomatic/eclectic/derived/translation)")
+        if profile.get("era") and profile["era"] not in eras:
+            problems.append(f"profile {pid!r} claims undefined era {profile['era']!r}")
+        if not profile.get("limits"):
+            problems.append(f"profile {pid!r} records no limits -- every source has some")
+    return problems
+
+
 def summary() -> str:
     """One-screen human view of the catalog, for `python3 references/build/source_catalog.py`."""
     lines = [f"source catalog v{catalog()['meta']['version']} ({CATALOG_PATH})", ""]
@@ -155,6 +227,10 @@ def summary() -> str:
         db = database(name)
         state = "ok" if db["resolved_path"].is_file() else "not built"
         lines.append(f"  {name:14} {db['default_tier']:16} {state:10} {db['resolved_path']}")
+    lines.append("")
+    lines.append(f"profiles: {len(profiles())}")
+    for pid, profile in profiles().items():
+        lines.append(f"  {pid:22} {'+'.join(profile['kind']):24} {profile['era']}")
     lines.append("")
     lines.append(f"raw-only (present, not ingested): {len(raw_only())}")
     for path in raw_only():

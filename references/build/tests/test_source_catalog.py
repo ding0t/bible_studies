@@ -163,3 +163,90 @@ def test_quote_allowance_names_its_tier():
     text = cat.quote_allowance("quotation-only")
     assert text.startswith("quotation-only:")
     assert "sentence or two" in text
+
+
+# --- source profiles -------------------------------------------------------
+# These record what a source is FOR and what it cannot settle -- the judgement the licence tiers
+# do not carry, and which previously existed only as README prose a model does not reliably read.
+
+def test_profile_block_is_internally_consistent():
+    assert cat.profile_problems() == []
+
+
+def test_every_ingested_work_has_a_profile():
+    """An unprofiled work is one a model will use without knowing its limits."""
+    import query
+    conn = query.connect()
+    try:
+        works = [r["work_id"] for r in conn.execute("SELECT work_id FROM works")]
+    finally:
+        conn.close()
+    missing = [w for w in works if not cat.profile_for(w)]
+    assert not missing, f"{len(missing)} works without a profile: {missing[:10]}"
+
+
+def test_every_profile_records_limits():
+    """Every source has limits. A profile with none has not been thought about."""
+    for pid, profile in cat.profiles().items():
+        assert profile.get("limits"), f"{pid} records no limits"
+
+
+def test_exact_match_beats_a_prefix_pattern():
+    """scrollmapper-YLT must reach its own profile, not a generic English-versions rule.
+
+    Otherwise the one limit that matters most -- never quote YLT as a verse's meaning -- would be
+    swallowed by a family entry.
+    """
+    profile = cat.profile_for("scrollmapper-YLT")
+    assert profile["profile"] == "ylt"
+    assert profile["matched"] == "scrollmapper-YLT"
+
+
+def test_ylt_carries_the_do_not_quote_rule():
+    limits = " ".join(cat.profile_for("scrollmapper-YLT")["limits"])
+    assert "Fee & Stuart" in limits
+    assert "Never quote" in limits
+
+
+def test_kjv_lineage_shares_one_profile():
+    for work in ("scrollmapper-KJV", "scrollmapper-AKJV", "scrollmapper-UKJV"):
+        assert cat.profile_for(work)["profile"] == "kjv"
+
+
+def test_a_source_can_be_two_kinds_at_once():
+    """The Septuagint is a Greek translation AND our earliest witness to a Hebrew Vorlage.
+
+    A single primary/secondary ladder cannot say that, which is why `kind` is a list.
+    """
+    kinds = cat.profile_for("ebible-grcbrent")["kind"]
+    assert "witness" in kinds and "translation" in kinds
+
+
+def test_hebrew_new_testaments_are_marked_as_not_originals():
+    """Delitzsch and Salkinson-Ginsburg look like Semitic originals and are 19th-century
+    translations into Hebrew. Reading one as an original is a whole-argument error."""
+    limits = " ".join(cat.profile_for("ebible-heb")["limits"])
+    assert "NOT SEMITIC ORIGINALS" in limits
+
+
+def test_there_is_no_primary_secondary_tertiary_field():
+    """Deliberately absent: that ranking is a property of the question, not the source.
+
+    1 Enoch is primary for Second Temple Judaism and contextual for reading Jude; a fixed field
+    would answer confidently and wrongly.
+    """
+    for profile in cat.profiles().values():
+        assert not {"primary", "secondary", "tertiary", "rank", "level"} & set(profile)
+
+
+def test_profiles_by_kind_filters():
+    lexicons = cat.profiles_by_kind("lexicon")
+    assert "twot" in lexicons
+    assert "web" not in lexicons
+
+
+@pytest.mark.parametrize("raw,expected", [("eng", "en"), ("en", "en"), ("heb", "he"),
+                                          ("hbo", "he"), ("he", "he"), ("grc", "grc")])
+def test_language_codes_normalise(raw, expected):
+    """Upstream disagrees (en/eng, he/heb/hbo), so grouping by raw language was wrong."""
+    assert cat.normalize_language(raw) == expected

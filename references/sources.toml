@@ -163,3 +163,448 @@ path = "references/biblefacts"
 "Copyrighted; Free distribution" = "unknown"
 "Unknown" = "unknown"
 "Null" = "unknown"
+
+# ===========================================================================
+# SOURCE PROFILES -- what each source IS, what it is FOR, and what it cannot settle.
+#
+# The licence tiers above answer "may I quote this?". These answer the different and equally
+# important question "should I be using this here, and what does it not tell me?" -- which was
+# recorded only as README prose, where a model does not reliably see it.
+#
+# WHY NOT primary / secondary / tertiary.
+# That ladder is the obvious shape and it does not survive contact with this material. It mixes two
+# axes: what a thing IS (a text, an index over a text, a discussion about a text) with how far it
+# sits from the original. Strong's (1890) and TWOT (1980) feel "primary" because they sit close to
+# the words, but by the same reasoning that makes a modern commentary tertiary they are late
+# reference works. A concordance is not a source at all; it is an index over one. An English Bible
+# is already interpretation, not a primary text.
+#
+# And the deeper problem: **primary/secondary/tertiary is a property of the QUESTION, not of the
+# source.** 1 Enoch is a primary source for Second Temple Judaism and a contextual one for reading
+# Jude. Eusebius is primary for fourth-century church history and tertiary for Acts. A fixed field
+# would answer confidently and wrongly half the time.
+#
+# So two stable axes instead, plus prose:
+#   kind  -- what sort of object it is. A list, because some sources are genuinely two things:
+#            the Septuagint is a Greek translation AND our earliest witness to a Hebrew Vorlage.
+#   era   -- when it was made. Carries what "tertiary" was reaching for without pretending to
+#            measure distance from the text.
+#   purpose / strengths / limits -- the judgement that cannot be reduced to a field.
+#
+# `applies_to` lists work_ids, or a prefix ending in '*'. Coverage is deliberately partial: the
+# 262 Dead Sea Scroll works share one profile, and a source without one is reported by
+# check_sources.py rather than silently treated as unprofiled.
+# ===========================================================================
+
+[vocabulary]
+# `kind` -- the role a source plays in research.
+kinds = ["witness", "translation", "index", "lexicon", "annotation", "commentary", "grammar"]
+eras = ["ancient", "medieval", "reformation", "early-modern", "modern"]
+
+# `edition` -- what sort of text object it is, for text-bearing sources only. This vocabulary is
+# NOT invented here: it is taken verbatim from docs/content/scripture/translations.md, "Three
+# questions to ask of any text on this page", which already reasons it out for readers. Encoding a
+# second, competing vocabulary would be exactly the drift this catalog exists to prevent.
+#
+#   manuscript  an actual surviving copy (the Dead Sea Scrolls)
+#   diplomatic  one manuscript printed as it stands (Westminster Leningrad Codex)
+#   eclectic    compiled by choosing among many witnesses (SBLGNT, NA28, Textus Receptus)
+#   derived     produced from other editions by a stated procedure (UGNT)
+#   translation rendered into another language
+#
+# A diplomatic edition tells you what one scribe wrote; an eclectic edition tells you what its
+# editors judged. Neither is "the original", and they fail in opposite directions.
+editions = ["manuscript", "diplomatic", "eclectic", "derived", "translation"]
+
+# Language codes arrive inconsistently from upstream (en/eng, he/heb/hbo). Normalised on read;
+# build.py writes the canonical form for new ingests.
+[language_aliases]
+eng = "en"
+heb = "he"
+hbo = "he"
+grc = "grc"
+
+# --- Original-language witnesses ------------------------------------------
+
+[profiles.masoretic]
+kind = ["witness"]
+edition = "diplomatic"
+era = "medieval"
+language = "he"
+applies_to = ["morphhb", "morphhb-wlc", "macula-hebrew-wlc", "uw-uhb", "scrollmapper-MapM", "scrollmapper-WLC", "hebrew-vocab-tools-pericopes"]
+purpose = "The Hebrew Old Testament as the rabbinic tradition transmitted it -- the default base text for Old Testament work."
+strengths = [
+  "Complete, meticulously transmitted, and the text nearly every modern English OT translates.",
+  "Carries the Masoretes' own vowel pointing and accentuation, so the reading tradition is visible.",
+]
+limits = [
+  "The Leningrad Codex is AD 1008 -- a thousand years after the latest OT book, so it is the best witness, not the earliest.",
+  "Where it differs from the Septuagint or a Dead Sea Scroll, being the default does not make it right. Check bible_variants before resting an argument on a disputed wording.",
+]
+
+[profiles.dead-sea-scrolls]
+kind = ["witness"]
+edition = "manuscript"
+era = "ancient"
+language = "he"
+applies_to = ["dss-*"]
+purpose = "Hebrew manuscripts a thousand years older than the Masoretic Text, showing where the text was still fluid."
+strengths = [
+  "The earliest Hebrew witnesses we have, and sometimes they agree with the Septuagint against the Masoretic -- evidence the LXX translators had a different Hebrew text, not that they paraphrased.",
+]
+limits = [
+  "Fragmentary. ALWAYS quote `extant_words` alongside a reading: Deuteronomy 32:8's 'sons of God' is legible but only two words of that verse survive, and a study should say so rather than cite it flat.",
+  "A scroll is one manuscript, not a tradition. A single scroll reading is a datum, not a correction to the Masoretic Text.",
+]
+
+[profiles.sblgnt]
+kind = ["witness"]
+edition = "eclectic"
+era = "modern"
+language = "grc"
+applies_to = ["sblgnt", "macula-greek-sblgnt"]
+purpose = "This repo's default critical Greek New Testament."
+strengths = ["A modern critical edition, freely licensed, with full morphological tagging through MACULA."]
+limits = ["A critical edition is an editorial reconstruction, not a manuscript. Where a reading matters, check bible_variants and say which edition you followed."]
+
+[profiles.ugnt]
+kind = ["witness"]
+edition = "derived"
+era = "modern"
+language = "grc"
+applies_to = ["uw-ugnt"]
+purpose = "A second critical Greek New Testament, useful precisely because it is not the default."
+strengths = [
+  "A genuine second witness. It differs from SBLGNT in roughly one verse in six by raw count, but only 87 verses in the whole NT differ by three or more words -- most of the gap is manuscript orthography (Δαυείδ for Δαυίδ).",
+  "Where it diverges substantively it is worth having: Mark 16:8ff, the pericope adulterae, Luke 23:34, and John 1:34 where it reads υἱός against SBLGNT's ἐκλεκτός.",
+]
+limits = ["bible_interlinear aligns to UGNT, not SBLGNT. Confirm with bible_verse which text a reading came from before resting a New Testament argument on wording."]
+
+[profiles.septuagint]
+kind = ["witness", "translation"]
+edition = "translation"
+era = "ancient"
+language = "grc"
+applies_to = ["ebible-grcbrent", "lxx-lemmas"]
+purpose = "The Greek Old Testament -- the Bible most New Testament writers quote."
+strengths = [
+  "Genuinely two things at once: a translation into Greek, and our earliest substantial witness to a Hebrew text older than the Masoretic.",
+  "When a New Testament quotation does not match the Hebrew, this is usually why -- check here before concluding the author misquoted.",
+]
+limits = [
+  "Renumbers much of the Psalter and divides several books differently. LXX Psalm 22 is English Psalm 23. Never carry a reference across without bible_align.",
+  "Translation quality varies book by book -- it is a collection of translators, not one.",
+]
+
+[profiles.tischendorf]
+kind = ["witness"]
+edition = "eclectic"
+era = "early-modern"
+language = "grc"
+applies_to = ["ebible-grc-tisch"]
+purpose = "Tischendorf's 8th edition (1869-72), a historical critical edition."
+strengths = ["Useful for seeing how the critical text was argued before the modern consensus settled."]
+limits = ["Superseded. Use SBLGNT or UGNT for current readings; reach for this to trace the history of a reading, not to establish one."]
+
+# --- English translations --------------------------------------------------
+
+[profiles.web]
+kind = ["translation"]
+edition = "translation"
+era = "modern"
+language = "en"
+applies_to = ["ebible-eng-web"]
+purpose = "This repo's default English text: public domain, quotable at any length, no permissions question."
+strengths = ["Modern English, formal-equivalent, in the public domain -- the only English text here with no reproduction limit at all."]
+limits = ["Little-used outside open projects, so a reader may not recognise it. Where a study's wording matters to a general audience, quote the ESV as well and label both."]
+
+[profiles.ylt]
+kind = ["translation"]
+edition = "translation"
+era = "early-modern"
+language = "en"
+applies_to = ["scrollmapper-YLT"]
+purpose = "A wooden-literal cross-check for what a smoother translation has flattened. NOT a quotation source."
+strengths = ["Preserves Hebrew and Greek word order and tense so rigidly that a construction a readable translation smooths away is still visible."]
+limits = [
+  "Fee & Stuart name it BY NAME as formal equivalence taken too far, quoting its 1 Corinthians 5:1 rendering as 'impossible English' and concluding 'this is not a valid translation at all'.",
+  "Never quote it as a verse's meaning in a study's prose. Use it the way this repo already does -- to see what was flattened, then say so in your own words.",
+]
+
+[profiles.kjv]
+kind = ["translation"]
+edition = "translation"
+era = "reformation"
+language = "en"
+applies_to = ["scrollmapper-KJV", "scrollmapper-KJVA", "scrollmapper-KJVPCE", "scrollmapper-AKJV", "scrollmapper-UKJV", "scrollmapper-RNKJV"]
+purpose = "The translation most readers know by ear, and a historical document in its own right."
+strengths = ["Unmatched cultural reach -- for a phrase a congregation will recognise, this is the wording they recognise."]
+limits = [
+  "Rests on a late Greek text (the Textus Receptus) that had accumulated errors. Fee & Stuart: 'you should use almost any modern translation other than the KJV or the NKJV' for study.",
+  "Four centuries of semantic drift. Words have quietly changed meaning, so a KJV reading can mislead a modern reader who is confident they understood it.",
+]
+
+[profiles.asv]
+kind = ["translation"]
+edition = "translation"
+era = "early-modern"
+language = "en"
+applies_to = ["scrollmapper-ASV"]
+purpose = "A formal-equivalent 1901 revision, public domain."
+strengths = ["Closer to the underlying grammar than most readable translations, and free of the KJV's text-critical problems."]
+limits = ["Dated English. A useful structural check rather than a translation to quote to a modern reader."]
+
+[profiles.bsb]
+kind = ["translation"]
+edition = "translation"
+era = "modern"
+language = "en"
+applies_to = ["scrollmapper-BSB"]
+purpose = "A modern, readable, CC0 translation."
+strengths = ["Contemporary English with no reproduction limit whatsoever (CC0), which makes it the best modern alternative to WEB for quoting at length."]
+limits = ["Recent and not widely known, so it carries no weight as a recognised rendering."]
+
+[profiles.historic-english]
+kind = ["translation"]
+edition = "translation"
+era = "reformation"
+language = "en"
+applies_to = ["scrollmapper-Tyndale", "scrollmapper-Geneva1599", "scrollmapper-Rotherham", "scrollmapper-Darby", "scrollmapper-Webster", "scrollmapper-RWebster", "scrollmapper-Noyes", "scrollmapper-Anderson", "scrollmapper-Haweis", "scrollmapper-Twenty"]
+purpose = "Historic English versions -- evidence about how a passage has been read, not about what it means."
+strengths = ["Tyndale and Geneva in particular show where the KJV's famous wording came from, and Rotherham marks emphasis explicitly."]
+limits = ["These are reception history. Use them to show how a verse has been rendered over time; do not settle a question of meaning with one."]
+
+[profiles.jps]
+kind = ["translation"]
+edition = "translation"
+era = "early-modern"
+language = "en"
+applies_to = ["scrollmapper-JPS"]
+purpose = "A Jewish English translation of the Hebrew Bible."
+strengths = ["Shows how the Old Testament reads inside the tradition that transmitted it, without Christian-canonical framing -- a genuine corrective when a study risks reading the New Testament backwards into a Hebrew text."]
+limits = ["1917, so the English is dated. It is a witness to a reading tradition, not a neutral arbiter."]
+
+[profiles.catholic-english]
+kind = ["translation"]
+edition = "translation"
+era = "reformation"
+language = "en"
+applies_to = ["scrollmapper-DRC", "scrollmapper-CPDV"]
+purpose = "English translations made from the Latin Vulgate."
+strengths = ["Show what the Western church read for a millennium, and include the deuterocanonical books."]
+limits = ["A translation of a translation -- the Vulgate stands between these and the Hebrew or Greek. Never use one to establish an original-language point."]
+
+[profiles.simplified-english]
+kind = ["translation"]
+edition = "translation"
+era = "modern"
+language = "en"
+applies_to = ["scrollmapper-BBE", "scrollmapper-OEB", "scrollmapper-OEBcth", "scrollmapper-NHEB*", "scrollmapper-ACV", "scrollmapper-LEB", "scrollmapper-LITV", "scrollmapper-MKJV", "scrollmapper-RLT", "scrollmapper-Jubilee2000"]
+purpose = "Assorted modern and restricted-licence English versions present in the corpus."
+strengths = ["Breadth for comparison when you want to see a range of renderings at once."]
+limits = ["Uneven provenance and licence. Check license_tier before quoting any of these, and prefer WEB, BSB or ESV for anything a reader will see."]
+
+[profiles.ult]
+kind = ["translation", "annotation"]
+edition = "translation"
+era = "modern"
+language = "en"
+applies_to = ["uw-ult"]
+purpose = "unfoldingWord's literal text, and the only English here aligned word-by-word to the originals."
+strengths = ["Powers bible_interlinear -- the sole link in this database between an English word and the original it renders. The cheapest guard against building a point on a translator's choice."]
+limits = ["The alignment is many-to-many by nature: Genesis 1:1's 'the heavens' renders both אֵת and הַשָּׁמַיִם, since the object marker has no English of its own."]
+
+[profiles.hebrew-nt]
+kind = ["translation"]
+edition = "translation"
+era = "early-modern"
+language = "he"
+applies_to = ["ebible-heb", "ebible-hebsg"]
+purpose = "Nineteenth-century Hebrew translations of the Greek New Testament."
+strengths = ["Useful for spotting where a New Testament phrase echoes Hebrew idiom -- they generate the `quotation-hebrew` link class."]
+limits = [
+  "THESE ARE NOT SEMITIC ORIGINALS, despite looking like them. Delitzsch and Salkinson-Ginsburg are modern translations INTO Hebrew.",
+  "A match tells you a Hebraist judged a phrase to echo the Old Testament -- informed opinion, not textual evidence. Verify in Greek before using.",
+]
+
+# --- Lexicons and word-study tools ----------------------------------------
+
+[profiles.twot]
+kind = ["lexicon"]
+era = "modern"
+language = "he"
+applies_to = ["twot"]
+purpose = "Theological Wordbook of the Old Testament -- Hebrew roots with theological discussion."
+strengths = ["Organised by root, so it shows a word's family rather than one form in isolation. Good for tracing a concept across the Old Testament."]
+limits = [
+  "1980, and written from a consciously evangelical standpoint. Its theological judgements are arguments, not data -- attribute them.",
+  "Does not carry Strong's homograph suffixes: H1254a and H1254b both resolve to H1254, so a lookup can return two unrelated senses. twot_strongs marks these `matched_without_suffix`; pick deliberately.",
+]
+
+[profiles.strongs]
+kind = ["index"]
+era = "early-modern"
+language = "he"
+applies_to = ["strongs"]
+purpose = "A numbering system linking every KJV English word to an original-language lexeme."
+strengths = ["A universal join key. Nearly every tool here speaks Strong's numbers, which is what makes cross-tool lookup possible at all."]
+limits = [
+  "1890, and an INDEX rather than a lexicon: the glosses are brief and tuned to the KJV's choices, not to the range of a word.",
+  "Notorious for flattening distinct senses into one entry. Never build a word study on a Strong's gloss alone -- go to Louw-Nida, TWOT or BDB for meaning.",
+]
+
+[profiles.louw-nida]
+kind = ["lexicon"]
+era = "modern"
+language = "grc"
+applies_to = ["macula-greek-sblgnt"]
+purpose = "Greek vocabulary organised by semantic domain rather than alphabetically."
+strengths = ["Groups words by what they MEAN, so it answers 'what else could the author have said here?' -- the question an alphabetical lexicon cannot."]
+limits = ["Domain assignment is per-occurrence and editorial. A null domain means unassigned, never 'no domain'."]
+
+[profiles.hebrew-grammar]
+kind = ["grammar"]
+era = "modern"
+language = "he"
+applies_to = ["uw-uhg"]
+purpose = "88 articles on what a Hebrew FORM does, as against what a word means."
+strengths = ["The only source here answering the grammar question -- gentilic adjectives, the dual, construct chains, the cohortative. Before it existed, grammar claims came from memory."]
+limits = ["88 articles is a primer, not a reference grammar. Absence of an article is not evidence about the language."]
+
+# --- Annotation ------------------------------------------------------------
+
+[profiles.macula]
+kind = ["annotation"]
+era = "modern"
+language = "grc"
+applies_to = ["macula-greek-sblgnt", "macula-hebrew-wlc"]
+purpose = "Clause-level syntax and coreference -- who is acting on whom, and what a pronoun points back at."
+strengths = [
+  "Resolves implicit subjects and pronoun antecedents across verse boundaries, which morphology alone cannot do.",
+  "Gives Hebrew construct state and verb conjugation (qatal/wayyiqtol/yiqtol) directly.",
+]
+limits = ["Coverage is partial. A null field means 'not annotated', NEVER 'no such role' -- do not read absence off it."]
+
+# --- Indexes ---------------------------------------------------------------
+
+[profiles.cross-references]
+kind = ["index"]
+era = "modern"
+language = "en"
+applies_to = ["web-crossrefs", "openbible-crossrefs"]
+purpose = "Crowd- and tradition-assembled links between verses (OpenBible.info, TSK lineage)."
+strengths = ["Broad coverage, and votes give a rough confidence signal."]
+limits = [
+  "Leads, not evidence. A cross-reference asserts a relationship without showing grounds for it; verify the linked passage actually says what you need before citing it.",
+  "Numbered in the English scheme. Pass from_scheme when your reference came off a Hebrew or Greek text.",
+]
+
+[profiles.scripture-links]
+kind = ["index"]
+era = "modern"
+language = "grc"
+applies_to = ["scripture-links"]
+purpose = "Quotation and allusion links this repo DERIVES from the texts themselves rather than ingesting."
+strengths = ["Finds links the inherited lists miss, and carries the shared wording so a reader can judge the link instead of trusting it. Grade by longest_run: 8+ reads as quotation."]
+limits = ["The three classes are not equivalent evidence and must never be merged -- see bible_links. quotation-hebrew is a translator's judgement, not a textual fact."]
+
+# --- Commentary ------------------------------------------------------------
+
+[profiles.study-bibles]
+kind = ["commentary"]
+era = "modern"
+language = "en"
+applies_to = ["esv-study-bible", "niv-*", "nkjv-*", "csb-*", "nlt-*", "lsb-2021", "nasb-*", "na28-greek-nt"]
+purpose = "Modern study-Bible commentary, and the only place here holding ESV/NIV/NKJV/CSB/NASB/LSB verse text."
+strengths = [
+  "The Cultural Backgrounds volumes are the strongest source here for first-century and ancient Near Eastern context -- feasts, customs, institutions.",
+  "The only way to verify an ESV/NIV/NKJV/CSB quotation, since bible-text.db holds none of them.",
+]
+limits = [
+  "quotation-only: a sentence or two with attribution in a committed file. Unrestricted for lookup.",
+  "A study note is one scholar's compressed judgement with the argument omitted. Never let a modern note outrank Scripture's own terms plus the ancient reading.",
+  "NKJV notes are usable, but its verse text rests on the KJV's late Greek -- consult the notes, do not quote the text for study.",
+]
+
+[profiles.patristics]
+kind = ["commentary"]
+era = "ancient"
+language = "grc"
+applies_to = ["patristics"]
+purpose = "Early church fathers -- how the church read these texts in the centuries closest to them."
+strengths = [
+  "PRIMARY evidence for reception history and for what was believed and disputed early. When a modern reading is claimed to be ancient, this is where that is settled.",
+  "Sometimes preserves a textual reading or an interpretive tradition found nowhere else.",
+]
+limits = [
+  "Secondary for exegesis of Scripture itself -- a father is a reader, however early. Antiquity is not correctness.",
+  "Mixed licence: NPNF is open, the Apostolic Fathers Greek corpus is not. Check before reproducing.",
+  "Not in either SQLite pipeline -- raw files on the media volume, so query.py and the MCP tools cannot see them.",
+]
+
+[profiles.deuterocanon]
+kind = ["witness", "translation"]
+edition = "translation"
+era = "ancient"
+language = "en"
+applies_to = ["scrollmapper-bible-databases-deuterocanonical"]
+purpose = "Second Temple and deuterocanonical literature -- the world the New Testament was written into."
+strengths = [
+  "Much closer in time and genre to the biblical text than any church father, and often the missing context: Jude quotes 1 Enoch, and Maccabees supplies the background to Hanukkah in John 10.",
+]
+limits = [
+  "Not canonical in this site's position -- context and background, never a basis for doctrine.",
+  "Raw-only: present on disk but NOT ingested, so a bible_verse miss proves nothing about whether a text is here.",
+]
+
+[profiles.samaritan-pentateuch]
+kind = ["witness"]
+edition = "diplomatic"
+era = "ancient"
+language = "he"
+applies_to = ["scrollmapper-SP"]
+purpose = "The Torah as the Samaritan community transmitted it -- an independent Hebrew line."
+strengths = [
+  "A genuinely separate transmission stream from the Masoretic, diverging before the Christian era, so agreement between them is strong evidence and disagreement is a real textual question.",
+  "Sometimes agrees with the Septuagint against the Masoretic, which tells you the reading is old rather than a Greek translator's licence.",
+]
+limits = [
+  "Torah only -- nothing outside the five books.",
+  "Carries deliberate sectarian edits, most visibly the Gerizim reading in the Decalogue. A divergence may be theological rather than textual; check which before using it.",
+]
+
+[profiles.textus-receptus]
+kind = ["witness"]
+edition = "eclectic"
+era = "reformation"
+language = "grc"
+applies_to = ["scrollmapper-TR"]
+purpose = "The printed Greek text behind the KJV and the Reformation translations."
+strengths = ["The text the Reformers worked from, so it explains why the KJV, Geneva and Tyndale read as they do."]
+limits = [
+  "Assembled from a handful of late manuscripts and known to carry accumulated errors -- the Comma Johanneum (1 John 5:7) being the famous one.",
+  "Fee & Stuart's objection to the KJV and NKJV for study is an objection to this text. Use it to explain a traditional reading, never to establish one.",
+]
+
+[profiles.byzantine]
+kind = ["witness"]
+edition = "eclectic"
+era = "medieval"
+language = "grc"
+applies_to = ["scrollmapper-Byz", "scrollmapper-StatResGNT"]
+purpose = "The Byzantine/majority Greek text -- the form most surviving manuscripts carry."
+strengths = ["Shows what the Greek church actually read for centuries, and is the tradition behind the KJV's New Testament."]
+limits = [
+  "Majority is a count of surviving copies, not an argument about age -- the readings are generally later than those in SBLGNT or UGNT.",
+  "Use it to understand where a traditional reading comes from, not to establish the earliest text.",
+]
+
+[profiles.modern-hebrew]
+kind = ["translation"]
+edition = "translation"
+era = "modern"
+language = "he"
+applies_to = ["scrollmapper-HebModern"]
+purpose = "A Modern Hebrew edition of the Bible."
+strengths = ["Readable for anyone working in contemporary Hebrew."]
+limits = ["Modern Hebrew is not Biblical Hebrew. This is not a witness to the ancient text -- never use it for a word study or a textual argument; use the Masoretic Text."]

@@ -5,7 +5,7 @@ description: "The English translations, Hebrew Masoretic witnesses, and Greek Ne
 tags: ["translations", "versions", "lang/hebrew", "lang/greek", "septuagint", "masoretic", "method/textual-criticism"]
 draft: false
 date_created: 2025-06-07
-date_modified: 2026-09-13
+date_modified: 2026-09-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -78,6 +78,41 @@ Brenton's own English rendering beside it. A word study working from the English
 out, and should know it.
 
 None of this makes a text unusable. It decides what it is evidence *of*.
+
+### These three questions are now recorded as data
+
+Everything on this page was prose, which meant a reader could apply it and an automated
+research tool could not. The same judgements now live in machine-readable form in
+`references/sources.toml`, covering all 320 works in the database, so a tool can be asked what a
+source is good for before it quotes from it.
+
+Each source carries:
+
+| Field | What it holds |
+|---|---|
+| `kind` | the role it plays — witness, translation, index, lexicon, annotation, commentary, grammar |
+| `edition` | **the vocabulary from question 2 above**, verbatim: manuscript, diplomatic, eclectic, derived, translation |
+| `era` | ancient, medieval, reformation, early-modern, modern |
+| `purpose` | one sentence on what it is for |
+| `strengths` / `limits` | what it can and cannot settle |
+
+`kind` is a **list**, because question 1's hard cases are real: the Septuagint is recorded as both
+`witness` and `translation`, which is precisely the point made above — Greek, a translation out of
+Hebrew, and still our earliest witness to a Hebrew text older than any Hebrew manuscript we hold.
+
+**There is deliberately no "primary / secondary / tertiary" ranking.** It is the obvious shape and
+it does not survive contact with the material. It mixes what a thing *is* with how far it sits from
+the original: a concordance is not a source but an index over one, and Strong's (1890) and TWOT
+(1980) feel primary because they sit close to the words while being late reference works. More
+fundamentally, that ranking is a property of **the question, not the source** — 1 Enoch is a primary
+source for Second Temple Judaism and a contextual one for reading Jude; Eusebius is primary for
+fourth-century church history and tertiary for Acts. A fixed field would answer confidently and
+wrongly. The axes above stay stable whatever is being asked.
+
+Every entry must record `limits`, and a build check fails if one does not — every source has some,
+and a profile claiming none has not been thought about. The same check fails if a source's stated
+`edition` is not one of the five in question 2, which keeps this page and the data from drifting
+apart.
 
 ## English translations
 

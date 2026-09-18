@@ -56,6 +56,15 @@ def submodule_commit(name: str) -> str:
     return submodule_commit_at(f"references/open-data/{name}")
 
 
+def canonical_language(code: str | None) -> str | None:
+    """Upstream language codes disagree (en/eng, he/heb/hbo). Normalise on write.
+
+    The existing database carries the raw forms, so readers normalise too (see
+    source_catalog.normalize_language); this keeps new ingests from adding to the mess.
+    """
+    return source_catalog.normalize_language(code)
+
+
 def classify_license(license_str: str | None) -> str:
     """Fail-closed: an unlisted licence string is 'unknown', never silently 'open'."""
     if not license_str:
