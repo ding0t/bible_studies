@@ -190,11 +190,21 @@ uv run python build_study_notes.py # commercial study-Bible db, writes outside t
 **Source catalog drift check** (run from the repo root, stdlib only):
 
 ```bash
-python3 references/check_sources.py   # every source on disk documented, and the three docs
-                                      # describing the patristics corpus still in agreement?
+python3 references/check_sources.py   # every source on disk documented, the three docs describing
+                                      # the patristics corpus still in agreement, and sources.toml
+                                      # still matching what build.py actually ingests?
+python3 references/build/source_catalog.py   # print the catalog: tiers, locations, raw-only list
 ```
 
-Exits non-zero on an undocumented source. Its **raw-only** list is the one to know before saying a
+**`references/sources.toml` is the single authority** for where each source lives, what licence
+tier it sits in, and how much of it may be reproduced. `media_root.py`, `build.py`,
+`study_notes_query.py` and `check_sources.py` all read it through
+`references/build/source_catalog.py` — don't parse it anywhere else, and don't reintroduce a
+second place where a location or a tier is decided. It is TOML rather than YAML because
+`check_sources.py` must run from a bare `python3` with no `uv sync`, where `tomllib` is importable
+and PyYAML is not. (`license_map.yml` was folded into it on 2026-09-18.)
+
+Exits non-zero on an undocumented source or on catalog drift. Its **raw-only** list is the one to know before saying a
 text is unavailable: those sources are present but not ingested by `build.py`, so `query.py` and the
 MCP tools cannot see them (this is why a study once asserted Tobit wasn't in the repo while it sat in
 `references/open-data/`). External material — `study-notes.db`, patristics, TWOT scans — resolves

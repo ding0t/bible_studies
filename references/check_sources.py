@@ -49,23 +49,25 @@ cries wolf gets ignored, which is how the catalog drifted in the first place.
 from __future__ import annotations
 
 import argparse
-import os
 import re
 import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 README = REPO_ROOT / "references" / "README.md"
-SOURCE_DIRS = [
-    REPO_ROOT / "references" / "open-data",
-    REPO_ROOT / "references" / "restricted-data",
-]
 BUILD_PY = REPO_ROOT / "references" / "build" / "build.py"
 
-# The patristics corpus lives off-repo; see references/build/media_root.py for why the location is
-# an environment variable rather than a committed path.
-MEDIA_ROOT = Path(os.environ.get("BIBLE_MEDIA_ROOT", "/Volumes/media/bible"))
-PATRISTICS_DIR = MEDIA_ROOT / "reference" / "patristics"
+# The source catalog is the authority for locations and tiers. It is imported rather than
+# re-parsed here: a second parser is how the three config surfaces drifted apart in the first
+# place. source_catalog is stdlib-only (tomllib), which is what keeps this script runnable from a
+# bare `python3` with no `uv sync` -- PyYAML is not importable there, which is why the catalog is
+# TOML rather than YAML.
+sys.path.insert(0, str(REPO_ROOT / "references" / "build"))
+import source_catalog  # noqa: E402
+
+SOURCE_DIRS = [entry["resolved_path"] for entry in source_catalog.source_trees().values()]
+MEDIA_ROOT = source_catalog.media_root()
+PATRISTICS_DIR = source_catalog.media_subdir("reference") / "patristics"
 # Each entry: the doc, and whether it names texts by filename or by author.
 PATRISTICS_DOCS = [
     (README, "file"),
@@ -144,6 +146,50 @@ def patristics_drift() -> tuple[list[str], list[str]]:
     return problems, checked
 
 
+def catalog_drift(ingested: set[str]) -> list[str]:
+    """The catalog's recorded raw-only list, against what build.py actually ingests.
+
+    The authoritative answer is computed from build.py (see ingested_dirs); sources.toml records
+    what that answer is *expected* to be. They drift when a source is newly ingested -- or newly
+    stops being ingested -- and nobody updates the catalog. That matters because the raw-only list
+    is what tells an agent a source is present but unqueryable, and a stale one sends it looking
+    for a query path that does not exist (or, worse, reports a source as absent when it is there).
+    """
+    if not ingested:
+        return []  # ingested_dirs() already reports its own failure; don't pile on
+    problems = []
+    recorded = set(source_catalog.raw_only())
+    actual = set()
+    for source_dir in SOURCE_DIRS:
+        if not source_dir.is_dir():
+            continue
+        for child in sorted(source_dir.iterdir()):
+            if child.is_dir() and not child.name.startswith(".") and child.name not in ingested:
+                actual.add(str(child.relative_to(REPO_ROOT)))
+    for rel in sorted(actual - recorded):
+        problems.append(f"{rel} is not ingested but is missing from sources.toml [ingest].raw_only")
+    for rel in sorted(recorded - actual):
+        problems.append(f"{rel} is listed raw_only in sources.toml but build.py now ingests it "
+                        f"(or it is gone from disk)")
+    return problems
+
+
+def tier_sanity() -> list[str]:
+    """Every tier a database or source tree claims must be defined in [tiers]."""
+    problems = []
+    defined = set(source_catalog.tiers())
+    for name, entry in source_catalog.catalog()["databases"].items():
+        if entry["default_tier"] not in defined:
+            problems.append(f"database {name!r} claims undefined tier {entry['default_tier']!r}")
+    for name, entry in source_catalog.catalog()["source_trees"].items():
+        if entry["default_tier"] not in defined:
+            problems.append(f"source tree {name!r} claims undefined tier {entry['default_tier']!r}")
+    for lic, tier_name in source_catalog.license_map().items():
+        if tier_name not in defined:
+            problems.append(f"license_map {lic!r} maps to undefined tier {tier_name!r}")
+    return problems
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--quiet", action="store_true", help="print only problems")
@@ -209,10 +255,27 @@ def main() -> int:
             print(f"  ok           {len(patristics_checked)} patristic texts, documented in all three places")
         elif not PATRISTICS_DIR.is_dir():
             print(f"  skipped      patristics corpus -- {PATRISTICS_DIR} not mounted")
-        print(f"\n{len(ok)} documented and queryable, {len(not_queryable)} raw-only, "
-              f"{len(undocumented) + len(patristics_problems)} undocumented.")
 
-    return 1 if undocumented or patristics_problems else 0
+    catalog_problems = catalog_drift(ingested) + tier_sanity()
+    for problem in catalog_problems:
+        print(f"  CATALOG      {problem}", file=sys.stderr)
+    if catalog_problems:
+        print("               references/sources.toml has drifted from what build.py does.",
+              file=sys.stderr)
+        print("               It is the single authority for locations, tiers and quoting limits,",
+              file=sys.stderr)
+        print("               so a stale entry misreports what an agent can query or quote.",
+              file=sys.stderr)
+    elif not args.quiet:
+        print(f"  ok           source catalog agrees with build.py "
+              f"({len(source_catalog.raw_only())} raw-only, {len(source_catalog.tiers())} tiers)")
+
+    if not args.quiet:
+        print(f"\n{len(ok)} documented and queryable, {len(not_queryable)} raw-only, "
+              f"{len(undocumented) + len(patristics_problems)} undocumented, "
+              f"{len(catalog_problems)} catalog drift.")
+
+    return 1 if undocumented or patristics_problems or catalog_problems else 0
 
 
 if __name__ == "__main__":

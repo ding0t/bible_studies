@@ -1,0 +1,165 @@
+# Source catalog -- the single authority for WHERE each reference source lives, WHAT licence
+# tier it sits in, and HOW MUCH of it may be reproduced.
+#
+# Before this file, those three facts were split across three places that could disagree:
+# license_map.yml (licence string -> tier), media_root.py (off-repo locations), and the
+# open-data/ vs restricted-data/ directory convention (the audit boundary). Nothing checked them
+# against each other.
+#
+# WHY TOML AND NOT YAML, given the repo otherwise uses YAML:
+# references/check_sources.py is deliberately stdlib-only so it runs from a bare `python3` with no
+# `uv sync` -- and PyYAML is NOT importable there (verified 2026-09-18). `tomllib` has been in the
+# stdlib since 3.11 and is importable from both the bare interpreter and the uv project, so TOML is
+# the only format both readers of this file can parse without adding a dependency to the one script
+# that is documented as needing none.
+#
+# Read it through references/build/source_catalog.py; do not re-parse it ad hoc.
+
+[meta]
+version = 1
+updated = "2026-09-18"
+
+# ---------------------------------------------------------------------------
+# Licence tiers. `quote` and `commit_text` describe what may be REPRODUCED in a committed file;
+# none of them restrict LOOKUP. Consulting a source to verify a quotation is always allowed --
+# conflating the two would make the reference material useless for its main purpose.
+# ---------------------------------------------------------------------------
+
+[tiers.open]
+quote = "unlimited"
+commit_text = true
+description = "Public domain or a permissive licence. Safe to quote at length and to commit."
+
+[tiers.restricted-nc]
+quote = "short"
+commit_text = true
+commercial_use = false
+description = "Non-commercial licence. Quote briefly with attribution; this site is non-commercial."
+
+[tiers.quotation-only]
+quote = "sentence-or-two-with-attribution"
+commit_text = false
+description = """\
+Commercially sold or otherwise copyrighted. Cite by name with attribution, reproduce at most a \
+sentence or two in a committed file. Unrestricted for lookup and verification."""
+
+[tiers.unknown]
+quote = "none"
+commit_text = false
+description = """\
+Licence not established. Fail-closed: treat as unquotable until someone verifies it, rather \
+than assuming open."""
+
+# ---------------------------------------------------------------------------
+# The external volume. Public repo, so the location is an env var, never a committed path.
+# ---------------------------------------------------------------------------
+
+[media]
+env_var = "BIBLE_MEDIA_ROOT"
+default_root = "/Volumes/media/bible"
+network = true   # SMB mount: absence is routine, and large scans are expensive. See [databases].
+
+[media.subdirs]
+local_only_build = "local-only-build"  # build output that must never land in the repo tree
+reference = "reference"                # source PDFs and the patristics corpus
+bibles = "bibles"                      # study-Bible EPUBs that build_study_notes.py extracts from
+resources = "resources"                # course handouts, owned PDFs
+
+# ---------------------------------------------------------------------------
+# Databases.
+# ---------------------------------------------------------------------------
+
+[databases.bible-text]
+path = "references/build/out/bible-text.db"   # repo-relative; gitignored build artifact
+location = "repo"
+builder = "references/build/build.py"
+query_module = "references/build/query.py"
+default_tier = "open"        # per-work tier is authoritative, in the works.license_tier column
+connect = "ro"
+
+[databases.study-notes]
+path = "${media.local_only_build}/study-notes.db"
+location = "media"           # entirely outside the repo tree -- stronger than a .gitignore line
+builder = "references/build/build_study_notes.py"
+query_module = "references/build/study_notes_query.py"
+default_tier = "quotation-only"
+connect = "immutable"        # no locking, no WAL sidecars on a read-only network mount
+require_indexed = true       # a full scan costs 60-100s over SMB and reads as a hung volume
+
+# ---------------------------------------------------------------------------
+# Source trees. THE DIRECTORY A SOURCE LIVES IN IS THE LICENCE AUDIT BOUNDARY -- never move a
+# source between these to make a build work. This table describes that boundary; it does not
+# replace it.
+# ---------------------------------------------------------------------------
+
+[source_trees.open-data]
+path = "references/open-data"
+default_tier = "open"
+
+[source_trees.restricted-data]
+path = "references/restricted-data"
+default_tier = "restricted-nc"
+
+# Present on disk but NOT ingested by build.py, so query.py and the MCP tools cannot see them.
+# Read them as raw files under their own sources/ tree. This list exists because their absence
+# from a query is not evidence of their absence from the repo: a study once asserted Tobit was
+# not here while it sat in references/open-data/.
+# Authoritative list is computed by check_sources.py from build.py itself; this records the
+# expected set so drift is visible.
+[ingest]
+raw_only = [
+  "references/open-data/hebrew-lexicon",
+  "references/open-data/scrollmapper-bible-databases-deuterocanonical",
+  "references/open-data/stepbible-data",
+  "references/open-data/strongs",
+  "references/restricted-data/bhsa",
+  "references/restricted-data/mounce-dictionary",
+]
+
+# Raw, unvetted third-party teaching material. Not in either SQLite pipeline and not covered by
+# the tiers above -- a lead to chase in a primary source, never a citable reference.
+[unvetted]
+path = "references/biblefacts"
+
+# ---------------------------------------------------------------------------
+# Licence string -> tier, for scrollmapper's self-reported `translations.license` values.
+# Migrated verbatim from license_map.yml (2026-09-18), comments included.
+#
+# Update as translations get individually verified -- move an 'unknown' entry to 'open' once
+# confirmed elsewhere and it is reclassified on the next build.
+#
+# 'quotation-only' is never assigned here: that is the separate ESV/NASB/NIV local-only master,
+# seeded from PDFs rather than from scrollmapper.
+#
+# Fail-closed default: any licence string NOT listed here falls back to 'unknown' (see build.py)
+# rather than being silently treated as open.
+# ---------------------------------------------------------------------------
+
+[license_map]
+"Public Domain" = "open"
+"Creative Commons: CC0" = "open"
+"Creative Commons CC0" = "open"
+"Creative Commons: BY 4.0" = "open"
+"Creative Commons: BY-SA 4.0" = "open"
+"Creative Commons: by-sa" = "open"
+"Creative Commons Attribution 3.0 Brazil" = "open"
+
+"Creative Commons: BY-NC 4.0" = "restricted-nc"
+"Creative Commons: BY-NC-SA 4.0" = "restricted-nc"
+"Creative Commons: BY-NC-ND 4.0" = "restricted-nc"
+"Copyrighted; Free non-commercial distribution" = "restricted-nc"
+"Copyrighted; Non-commercial distribution" = "restricted-nc"
+
+# ND-but-not-NC: commercial use is allowed, but reformatting into SQL is an open question under
+# CC-ND ("no derivatives") -- holding as unknown rather than guessing at the legal reading.
+# Revisit if this specific point matters.
+"Creative Commons: by-nd 3.0" = "unknown"
+
+# GPL-tagged ones are SWORD-style compilations (base text is usually PD, but the specific
+# Strong's/morphology-tagged bundle carries its own GPL claim from whoever compiled it) --
+# treating the bundle's own claim as authoritative until checked further.
+"GPL" = "unknown"
+
+"Copyrighted; Free distribution" = "unknown"
+"Unknown" = "unknown"
+"Null" = "unknown"

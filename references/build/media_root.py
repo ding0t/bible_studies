@@ -23,16 +23,21 @@ FileNotFoundError three call frames down.
 
 from __future__ import annotations
 
-import os
 from pathlib import Path
 
-ENV_VAR = "BIBLE_MEDIA_ROOT"
-DEFAULT_MEDIA_ROOT = Path("/Volumes/media/bible")
+import source_catalog
+
+# The env var name, the default root and every subdirectory below now come from
+# references/sources.toml (see source_catalog.py). This module stays as the ergonomic front end
+# -- callers keep using media_root.bibles_dir() -- but it is no longer a second place where a
+# location is *decided*. These two names are kept because they were part of the public surface.
+ENV_VAR = source_catalog.media_env_var()
+DEFAULT_MEDIA_ROOT = Path(source_catalog.catalog()["media"]["default_root"])
 
 
 def media_root() -> Path:
     """The external reference volume, from $BIBLE_MEDIA_ROOT or the default. Not checked to exist."""
-    return Path(os.environ.get(ENV_VAR) or DEFAULT_MEDIA_ROOT).expanduser()
+    return source_catalog.media_root()
 
 
 def require_media_root() -> Path:
@@ -50,26 +55,26 @@ def require_media_root() -> Path:
 
 def local_only_build() -> Path:
     """Build output that must never land inside the repo tree (study-notes.db, OCR pages, …)."""
-    return media_root() / "local-only-build"
+    return source_catalog.media_subdir("local_only_build")
 
 
 def reference_dir() -> Path:
     """Source PDFs and the patristics corpus."""
-    return media_root() / "reference"
+    return source_catalog.media_subdir("reference")
 
 
 def bibles_dir() -> Path:
     """The study-Bible EPUBs that build_study_notes.py extracts from."""
-    return media_root() / "bibles"
+    return source_catalog.media_subdir("bibles")
 
 
 def resources_dir() -> Path:
     """Secondary material -- course handouts, owned PDFs."""
-    return media_root() / "resources"
+    return source_catalog.media_subdir("resources")
 
 
 def study_notes_db() -> Path:
-    return local_only_build() / "study-notes.db"
+    return source_catalog.database("study-notes")["resolved_path"]
 
 
 def lexicon_restricted_db() -> Path:

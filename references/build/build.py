@@ -21,10 +21,9 @@ from datetime import date, timezone
 from pathlib import Path
 from xml.etree import ElementTree
 
-import yaml
-
 from book_map import BOS_CODE_TO_USFM, MACULA_USFM_TO_OSIS, NUM_TO_OSIS, SCROLLMAPPER_NAME_TO_OSIS
 import quotations
+import source_catalog
 import versification
 from versification import scheme_for_work
 
@@ -37,8 +36,10 @@ DB_PATH = OUT_DIR / "bible-text.db"
 CACHE_DIR = BUILD_DIR / "cache"
 TODAY = date.today().isoformat()
 
-with open(BUILD_DIR / "license_map.yml") as f:
-    LICENSE_MAP = yaml.safe_load(f)
+# Licence string -> tier now lives in references/sources.toml alongside the tier definitions and
+# source locations, so the three can no longer disagree. license_map.yml was retired 2026-09-18;
+# its contents and comments moved verbatim into the catalog's [license_map] table.
+LICENSE_MAP = source_catalog.license_map()
 
 
 def submodule_commit_at(rel_path: str) -> str:
@@ -56,9 +57,10 @@ def submodule_commit(name: str) -> str:
 
 
 def classify_license(license_str: str | None) -> str:
+    """Fail-closed: an unlisted licence string is 'unknown', never silently 'open'."""
     if not license_str:
-        return "unknown"
-    return LICENSE_MAP.get(license_str, "unknown")
+        return source_catalog.UNKNOWN_TIER
+    return source_catalog.license_tier(license_str)
 
 
 def init_db() -> sqlite3.Connection:
