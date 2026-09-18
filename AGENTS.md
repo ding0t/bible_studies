@@ -212,7 +212,14 @@ through **`$BIBLE_MEDIA_ROOT`** via `references/build/media_root.py`, never a ha
 this repo is public.
 
 `references/build/mcp_server.py` (registered via `.mcp.json`) exposes the same `query.py`/
-`twot_lookup.py` lookups as MCP tools — it's a thin wrapper, not a second implementation.
+`twot_lookup.py`/`study_notes_query.py` lookups as MCP tools — it's a thin wrapper, not a
+second implementation. **For more than two or three lookups on one passage, use
+`research_batch_run`**: it dispatches to the same library functions over one connection per
+database rather than reopening for each call (measured 9x faster across twelve
+study-notes.db lookups), enforces a wall-clock budget that can actually interrupt a slow
+query, and reports each request's status separately — one unreachable source never fails
+the batch. An `unavailable` result says how to fix it; it is never licence to answer from
+memory.
 
 **Genealogy data** (`utils/` — stdlib-only, run from repo root):
 

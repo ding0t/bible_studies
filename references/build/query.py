@@ -223,6 +223,24 @@ def lookup_word(conn: sqlite3.Connection, strongs: str | None = None, lemma: str
     return [dict(r) for r in rows]
 
 
+def lookup_word_annotated(conn: sqlite3.Connection, strongs: str | None = None,
+                          lemma: str | None = None, book: str | None = None) -> list[dict]:
+    """lookup_word, with a lemma-count sanity warning prepended when one applies.
+
+    This composition used to live in mcp_server.py, which meant the MCP tool and any other caller
+    could disagree about whether the warning appeared. It belongs here for the same reason every
+    other lookup does: one source of truth, so the CLI, the MCP tool and research_batch cannot
+    drift. The warning arrives as a row rather than an exception because the caller still wants the
+    data -- a count that is an artefact of lemma normalisation looks exactly like a real one.
+    """
+    rows = lookup_word(conn, strongs=strongs, lemma=lemma, book=book)
+    if lemma:
+        warning = lemma_sanity_warning(conn, lemma, book, len(rows))
+        if warning:
+            return [{"warning": warning}] + rows
+    return rows
+
+
 def lookup_concordance(conn: sqlite3.Connection, strongs: str, book: str | None = None,
                         work_id: str | None = None) -> list[dict]:
     """Every occurrence of one Strong's number -- the word-study-method.md 'concord across

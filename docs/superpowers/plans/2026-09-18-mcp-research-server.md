@@ -1,7 +1,7 @@
 # Plan — research & review MCP server, v2
 
 **Date:** 2026-09-18
-**Status:** Phases 1–2 shipped 2026-09-18. Phases 3–5 proposed.
+**Status:** Phases 1–3 shipped 2026-09-18. Phases 4–5 proposed.
 **Scope:** `references/build/` — extend the existing `bible-references` MCP server into the
 research/review substrate the two content skills actually need.
 
@@ -185,7 +185,7 @@ queryable fact and never an inference.
 **Do not** move a source between `open-data/` and `restricted-data/` — that directory split *is*
 the licence audit boundary. `sources.yml` describes it; it does not replace it.
 
-## Phase 3 — `research_batch`, the queue
+## Phase 3 — `research_batch`, the queue  ✅ shipped
 
 One call, many typed lookups, one round-trip.
 
@@ -256,7 +256,7 @@ by hand is work. A tool call the agent already made, recorded automatically, is 
 |---|---|---|---|
 | 1 — study-notes tools | — | ~half day | **shipped 2026-09-18** |
 | 2 — `sources.toml` | — | ~half day | **shipped 2026-09-18** |
-| 3 — `research_batch` | 1, 2 | ~half day | yes |
+| 3 — `research_batch` | 1, 2 | ~half day | **shipped 2026-09-18** |
 | 4 — `passage_brief` | 3 | ~1 day | yes |
 | 5 — evidence ledger | 3 | ~half day | yes |
 
