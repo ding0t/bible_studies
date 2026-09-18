@@ -5,7 +5,7 @@ description: "Copyright notices for the Bible translations and reference works q
 tags: ["copyright", "permissions", "attribution", "translations"]
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-09-07
+date_modified: 2026-09-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -42,9 +42,18 @@ Publishers, Inc., Carol Stream, Illinois 60188. All rights reserved.
 copyright © 1960, 1962, 1963, 1968, 1971, 1972, 1973, 1975, 1977, 1995 by The Lockman Foundation.
 Used by permission. All rights reserved. www.lockman.org
 
-**WEB, ASV, YLT, KJV** — the World English Bible, American Standard Version (1901), Young's Literal
-Translation and King James Version are in the public domain. Quoted freely, and named at each
-quotation so a reader can tell which is which.
+**LSB** — Scripture quotations marked "LSB" are taken from the Legacy Standard Bible®, copyright
+© 2021 by The Lockman Foundation. Used by permission. All rights reserved. lsbible.org. The
+Lockman Foundation's quoting guidelines allow up to 1,000 verses in a single work, not exceeding
+50% of that work's total text, and no complete book of the Bible.
+
+**BSB** — the Berean Standard Bible is released under Creative Commons CC0 (public domain
+dedication). Quoted freely.
+
+**WEB, ASV, YLT, KJV, Tyndale, Rotherham** — the World English Bible, American Standard Version
+(1901), Young's Literal Translation, King James Version, William Tyndale's New Testament
+(1525/1530) and J. B. Rotherham's *Emphasised Bible* are in the public domain. Quoted freely, and
+named at each quotation so a reader can tell which is which.
 
 **Septuagint (Brenton)** and the **Masoretic Text (Westminster Leningrad Codex)** — public domain.
 
