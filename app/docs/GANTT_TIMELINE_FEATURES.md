@@ -302,4 +302,4 @@ The enhanced Gantt timeline includes inline comments explaining:
 - Visual feedback styling
 - Responsive width calculation
 
-See [GenealogyViewer.jsx](../../src/components/GenealogyViewer.jsx) lines 368-525 for full implementation.
+See [GenealogyViewer.jsx](../src/components/GenealogyViewer.jsx) lines 368-525 for full implementation.

@@ -29,7 +29,7 @@ src/data/genealogy/
 
 ## Component Architecture
 
-[GenealogyViewer.jsx](../../src/components/GenealogyViewer.jsx) automatically:
+[GenealogyViewer.jsx](../src/components/GenealogyViewer.jsx) automatically:
 1. Imports all 6 era files plus the index
 2. Merges all people arrays on component mount
 3. Reconstructs the full genealogy structure

@@ -1,9 +1,10 @@
-"""Maintains docs/content/bible/commentaries/<NN>-<book>/ as an auto-generated cross-reference
-index into docs/content/studies/**/*.md, keyed by which passage each study is actually about.
+"""Maintains docs/content/commentaries/<NN>-<book>/ as an auto-generated cross-reference
+index into the subject sections listed in SUBJECT_DIRS, keyed by which passage each study is
+actually about.
 
 Source of truth: every study's `bible_references` (supporting) and `primary_passage` (the
-passage(s) the study is centrally about) frontmatter fields. Only 4 of 24 study files have
-either populated as of writing this -- the index will be sparse until more studies gain that
+passage(s) the study is centrally about) frontmatter fields. 53 of 68 subject files have
+either populated as of 2026-09-18 -- the index stays sparse for the rest until they gain that
 frontmatter. That's expected; this script doesn't invent references that aren't there.
 
 Safe to re-run any time (idempotent) and safe to hand-edit commentary content around what this
