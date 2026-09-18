@@ -1,7 +1,7 @@
 # Plan — research & review MCP server, v2
 
 **Date:** 2026-09-18
-**Status:** Phases 1–3 shipped 2026-09-18. Phases 4–5 proposed.
+**Status:** Phases 1–4 shipped 2026-09-18. Phase 5 proposed.
 **Scope:** `references/build/` — extend the existing `bible-references` MCP server into the
 research/review substrate the two content skills actually need.
 
@@ -206,7 +206,7 @@ toward memory.
 Two properties worth having: dedupe identical requests within a batch, and open each db connection
 once per batch rather than once per lookup — on a network share that is most of the cost.
 
-## Phase 4 — `passage_brief`, the innovation
+## Phase 4 — `passage_brief`, the innovation  ✅ shipped
 
 The single biggest reduction in agent effort. One call assembles the standard evidence set for a
 passage that the develop skill currently gathers in a dozen-plus separate calls:
@@ -257,7 +257,7 @@ by hand is work. A tool call the agent already made, recorded automatically, is 
 | 1 — study-notes tools | — | ~half day | **shipped 2026-09-18** |
 | 2 — `sources.toml` | — | ~half day | **shipped 2026-09-18** |
 | 3 — `research_batch` | 1, 2 | ~half day | **shipped 2026-09-18** |
-| 4 — `passage_brief` | 3 | ~1 day | yes |
+| 4 — `passage_brief` | 3 | ~1 day | **shipped 2026-09-18** |
 | 5 — evidence ledger | 3 | ~half day | yes |
 
 Phases 1 and 2 are independent; either can go first. **Phase 1 first** — it removes the live

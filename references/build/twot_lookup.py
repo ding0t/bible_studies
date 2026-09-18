@@ -59,14 +59,50 @@ def lookup_root(root: str) -> list[dict]:
     return [{"root": root, **e} for e in entries]
 
 
+def normalize_strongs(strongs_id: str) -> tuple[str, str | None]:
+    """A Strong's id in any of the forms this repo's sources use -> (lookup key, base fallback).
+
+    MACULA writes Hebrew Strong's numbers three ways TWOT's own index does not use, and every one
+    of them silently returned nothing before this existed:
+
+        b:H7225   a prefixed particle glued to the number (b, c, d, l ...)
+        H0430     zero-padded to four digits
+        H1254a    a letter suffix distinguishing homographs
+
+    The first two are pure formatting and are normalised away. The suffix is NOT: H1254a and
+    H1254b are different lexemes, and TWOT does not carry the distinction, so collapsing them is a
+    judgement rather than a reformat. It is returned as a separate fallback key so the caller can
+    try the exact id first and record that the broader one was used.
+    """
+    cleaned = strongs_id.split(":")[-1].strip()
+    if cleaned.upper().startswith("G"):
+        raise ValueError("TWOT covers Hebrew/Aramaic only -- no Greek (G-prefixed) entries")
+    digits = cleaned.lstrip("Hh")
+    suffix = ""
+    while digits and digits[-1].isalpha():
+        suffix = digits[-1] + suffix
+        digits = digits[:-1]
+    if not digits:
+        raise ValueError(f"no Strong's number in {strongs_id!r}")
+    key = "H" + digits.lstrip("0")
+    return (key + suffix, key) if suffix else (key, None)
+
+
 def lookup_strongs(strongs_id: str) -> list[dict]:
     """TWOT root(s) for a Strong's Hebrew number. TWOT covers the Hebrew/Aramaic OT only,
-    so a bare number or 'H'-prefixed number are treated the same; a 'G' prefix is rejected."""
-    if strongs_id.upper().startswith("G"):
-        raise ValueError("TWOT covers Hebrew/Aramaic only -- no Greek (G-prefixed) entries")
-    normalized = "H" + strongs_id.lstrip("Hh")
+    so a bare number or 'H'-prefixed number are treated the same; a 'G' prefix is rejected.
+
+    Accepts MACULA's prefixed and zero-padded forms -- see normalize_strongs. Where a homograph
+    suffix had to be dropped to find a match, each entry carries `matched_without_suffix` so the
+    caller can see the id it actually answered for.
+    """
+    exact, fallback = normalize_strongs(strongs_id)
     by_strongs, _ = _indexes()
-    return by_strongs.get(normalized, [])
+    if exact in by_strongs:
+        return by_strongs[exact]
+    if fallback and fallback in by_strongs:
+        return [dict(e) | {"matched_without_suffix": exact} for e in by_strongs[fallback]]
+    return []
 
 
 def lookup_lemma(lemma: str) -> list[dict]:

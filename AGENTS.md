@@ -213,8 +213,15 @@ this repo is public.
 
 `references/build/mcp_server.py` (registered via `.mcp.json`) exposes the same `query.py`/
 `twot_lookup.py`/`study_notes_query.py` lookups as MCP tools — it's a thin wrapper, not a
-second implementation. **For more than two or three lookups on one passage, use
-`research_batch_run`**: it dispatches to the same library functions over one connection per
+second implementation. **Beginning work on a passage? Call `passage_brief` first** — one call returns
+versification, the book introduction, the text in each translation you name (open and
+commercial alike, each routed to the database that holds it), the interlinear, TWOT roots
+for the Hebrew, cross-references, Dead Sea Scroll divergence and study notes, in the order
+the develop skill works in. Its `addressing` section is always computed and flags a
+reference that is numbered differently across traditions — Hebrew Joel 3:1 is English Joel
+2:28, and reading one under the other raises no error.
+
+**For other multi-lookup work, use `research_batch_run`**: it dispatches to the same library functions over one connection per
 database rather than reopening for each call (measured 9x faster across twelve
 study-notes.db lookups), enforces a wall-clock budget that can actually interrupt a slow
 query, and reports each request's status separately — one unreachable source never fails

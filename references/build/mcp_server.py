@@ -24,6 +24,7 @@ Registered with Claude Code via ../../.mcp.json.
 """
 from mcp.server.fastmcp import FastMCP
 
+import passage_brief as passage_brief_lib
 import query
 import research_batch
 import study_notes_query
@@ -42,7 +43,9 @@ mcp = FastMCP(
         "unless a translation is specified. The ESV, NIV, NKJV and CSB exist ONLY in study-notes.db "
         "-- verify a quotation from one of them with study_verse rather than from memory. If a "
         "study_* tool reports available:false, say so; never fall back to recalled verse text. "
-        "For more than two or three lookups on the same passage, use research_batch_run: it "
+        "Beginning work on a passage? Call passage_brief first -- it assembles versification, "
+        "text, interlinear, TWOT roots, cross-references, variants and study notes in one "
+        "call, in exegesis order. For other multi-lookup work use research_batch_run: it "
         "shares one connection per database instead of reopening per call (a measured 9x on "
         "study-notes.db over twelve lookups) and reports each request's status separately."
     ),
@@ -505,6 +508,36 @@ def research_batch_run(requests: list[dict], budget_seconds: float = 30.0) -> di
 def research_batch_tools() -> dict:
     """Which lookups research_batch_run can dispatch, and which database each reads."""
     return research_batch.known_tools()
+
+
+@mcp.tool()
+def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | None = None,
+                  translations: list[str] | None = None, study_works: list[str] | None = None,
+                  include: list[str] | None = None, budget_seconds: float = 60.0) -> dict:
+    """The standard exegesis evidence set for a passage, in one call, in exegesis order.
+
+    **Start here when you begin work on a passage.** It assembles what would otherwise be a dozen
+    separate calls: versification, book introduction, text in each requested translation,
+    interlinear with morphology, TWOT roots for the Hebrew, cross-references with shared wording,
+    Dead Sea Scroll divergence, and study notes.
+
+    `addressing` comes first and is always computed, because a reference is not a universal
+    address and getting it wrong is silent: Hebrew Joel 3:1 is English Joel 2:28, LXX Psalm 22 is
+    English Psalm 23. When the schemes disagree the brief says so explicitly.
+
+    translations accepts open-tier codes (WEB, ASV, KJV, YLT) and commercial ones (ESV, NIV, NKJV,
+    CSB, NASB, LSB, NA28) interchangeably -- each is routed to the database that actually holds it.
+    include narrows the sections: addressing, historical, text, words, crossrefs, variants, notes.
+
+    Per-verse detail is capped at 12 verses and says when it truncated; text covers the whole
+    range. An empty section where `diagnostics.unavailable_sources` names a source is a gap in the
+    brief, never evidence about the text -- do not fill it from memory.
+    """
+    return passage_brief_lib.passage_brief(
+        book, chapter, verse_start, verse_end,
+        translations=translations, study_works=study_works, include=include,
+        budget_seconds=budget_seconds,
+    )
 
 
 if __name__ == "__main__":
