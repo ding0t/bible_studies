@@ -34,21 +34,35 @@ import twot_lookup
 mcp = FastMCP(
     "bible-references",
     instructions=(
-        "Tools over this repo's local Bible reference data: bible-text.db (translations, "
-        "Greek/Hebrew morphology, Louw-Nida/SDBH semantic domains, cross-references) and the "
-        "TWOT Strong's/BDB root map, and study-notes.db (commercial study-Bible commentary and "
-        "the ESV/NIV/NKJV/CSB/NASB/LSB translations, via the study_* tools). Call bible_works "
-        "first if you're about to quote a source publicly -- license_tier varies per work_id "
-        "('open' is safe to quote at length; 'restricted-nc' and others are not); study_* results "
-        "carry their own tier and attribution inline. Default translation is WEB (public domain) "
-        "unless a translation is specified. The ESV, NIV, NKJV and CSB exist ONLY in study-notes.db "
-        "-- verify a quotation from one of them with study_verse rather than from memory. If a "
-        "study_* tool reports available:false, say so; never fall back to recalled verse text. "
-        "Beginning work on a passage? Call passage_brief first -- it assembles versification, "
-        "text, interlinear, TWOT roots, cross-references, variants and study notes in one "
-        "call, in exegesis order. For other multi-lookup work use research_batch_run: it "
-        "shares one connection per database instead of reopening per call (a measured 9x on "
-        "study-notes.db over twelve lookups) and reports each request's status separately."
+        "Local Bible reference data: bible-text.db (open/restricted translations, Greek/Hebrew "
+        "morphology, semantic domains, cross-references), study-notes.db (commercial study-Bible "
+        "commentary and the ESV/NIV/NKJV/CSB/NASB/LSB translations), and the TWOT root map.\n"
+        "\n"
+        "WHICH TOOL:\n"
+        "1. Starting on a passage -> passage_brief. One call returns versification, book "
+        "introduction, text in each translation you name, interlinear, TWOT roots, "
+        "cross-references, variants and study notes, in exegesis order.\n"
+        "2. Several lookups that passage_brief does not cover -> research_batch_run (see "
+        "research_batch_tools for what it dispatches). One connection per database instead of one "
+        "per call: a measured 9x on study-notes.db across twelve lookups.\n"
+        "3. One specific fact -> the individual tool.\n"
+        "\n"
+        "THINGS THAT FAIL SILENTLY:\n"
+        "- The ESV, NIV, NKJV and CSB exist ONLY in study-notes.db. Asking bible_verse for them "
+        "returns nothing, which looks like a missing verse. Use study_verse, and verify a "
+        "quotation against it rather than from memory.\n"
+        "- A reference is not a universal address. Hebrew Joel 3:1 is English Joel 2:28; LXX "
+        "Psalm 22 is English Psalm 23. Reading one scheme's text under another's reference raises "
+        "no error. passage_brief reports this for you; otherwise use bible_align or "
+        "bible_parallel.\n"
+        "- An unreachable source is not an answer. If a tool reports available:false, say so and "
+        "stop; never substitute recalled verse text. study_status says whether study-notes.db is "
+        "reachable and how to fix it if not.\n"
+        "\n"
+        "QUOTING: every result carries its own license tier. 'open' may be quoted at length; "
+        "'restricted-nc' briefly with attribution; 'quotation-only' is a sentence or two with "
+        "attribution in a committed file, though unrestricted for lookup and verification. "
+        "bible_works and study_works list the tiers. Default translation is WEB (public domain)."
     ),
 )
 
@@ -143,6 +157,16 @@ def bible_passage(book: str, chapter: int, verse_start: int, verse_end: int,
 def bible_crossref(book: str, chapter: int, verse: int, min_votes: int = 0, limit: int = 20,
                    from_scheme: str = "english") -> list[dict]:
     """Cross-references for one verse (OpenBible.info/TSK-style data), highest-voted first.
+
+    ONE OF THREE related tools -- pick by what you need, they answer different questions:
+      bible_crossref  (this)  crowd/tradition-assembled links. Broad coverage, no evidence
+                              attached. Leads to chase, not proof.
+      bible_links             links computed from the texts themselves, graded by shared wording.
+                              Finds what the lists miss; use when you need textual grounds.
+      bible_trace             both of the above for one verse, each connection carrying how it was
+                              established and the words the two verses share. The richest, and the
+                              one to use when a study turns on where a verse comes from.
+
     Raise min_votes to drop low-confidence links. The data is numbered in the english scheme,
     so pass from_scheme='masoretic' or 'lxx' when your reference came off a Hebrew or
     Septuagint text -- otherwise Joel 3:1 returns the links for the wrong verse."""
@@ -177,6 +201,10 @@ def bible_links(book: str, chapter: int, verse: int, link_type: str | None = Non
                 min_run: int = 0) -> dict:
     """Derived scripture links at one reference, both directions, grouped by class.
 
+    Prefer bible_trace when you want these plus the crowd-assembled cross-references and the
+    shared wording in one answer; use bible_crossref for tradition-assembled leads alone. This
+    tool is the right one when you specifically want links the lists missed.
+
     Computed from the texts themselves rather than taken from a cross-reference list, so these find
     links such lists miss. The three classes are NOT equivalent evidence and must never be merged:
 
@@ -202,8 +230,13 @@ def bible_links(book: str, chapter: int, verse: int, link_type: str | None = Non
 
 
 @mcp.tool()
-def study_gaps(study_path: str, limit: int = 10) -> dict:
+def review_gaps(study_path: str, limit: int = 10) -> dict:
     """What links to a study's passages that the study never mentions.
+
+    NOTE the name. This is about a STUDY FILE in docs/content/ -- a page you are reviewing. It has
+    nothing to do with the `study_*` tools, which are about STUDY BIBLES (ESV, NIV, Cultural
+    Backgrounds) in study-notes.db. It was called `study_gaps` until 2026-09-18 and that alias
+    still works; prefer this name.
 
     Reads the study's own primary_passage and bible_references frontmatter, gathers quotation links
     (derived from the Greek) and openbible cross-references against those passages, subtracts every
@@ -234,6 +267,17 @@ def study_gaps(study_path: str, limit: int = 10) -> dict:
                 "cited_references": raw, "gap_count": len(ranked), "gaps": ranked[:limit]}
     finally:
         conn.close()
+
+
+@mcp.tool()
+def study_gaps(study_path: str, limit: int = 10) -> dict:
+    """Deprecated alias for review_gaps -- use that name instead.
+
+    Renamed 2026-09-18 because `study_gaps` sat in the same namespace as `study_verse`,
+    `study_note` and `study_intro`, which are about study BIBLES rather than about this repo's
+    study files. Kept so existing scripts and skill files keep working.
+    """
+    return review_gaps(study_path, limit=limit)
 
 
 @mcp.tool()
@@ -313,8 +357,11 @@ def bible_variants(book: str, chapter: int, verse: int | None = None) -> dict:
 def bible_trace(book: str, chapter: int, verse: int, translation: str | None = None) -> dict:
     """Everything the corpus knows about one verse, with the evidence for each connection shown.
 
-    The tool to reach for when a study turns on where a verse comes from. Unlike a cross-reference
-    list, every connection carries HOW it was established, how strongly, the linked verse in its
+    The tool to reach for when a study turns on where a verse comes from, and the widest of the
+    three link tools: it folds in what bible_links computes from the texts and what bible_crossref
+    carries from tradition. Reach for those two directly only when you want one kind alone.
+
+    Unlike a cross-reference list, every connection carries HOW it was established, how strongly, the linked verse in its
     original language, an English rendering, and the words the two verses actually share -- so a
     reader can judge the link rather than take it on trust.
 
@@ -389,7 +436,12 @@ def twot_strongs(strongs_id: str) -> list[dict]:
 
 @mcp.tool()
 def twot_lemma(lemma: str) -> list[dict]:
-    """TWOT root(s) for an exact Hebrew lemma match, e.g. 'אָב'."""
+    """TWOT root(s) for an EXACT Hebrew lemma match, e.g. 'אָב'.
+
+    Exact means exact, including vowel points: an unpointed or differently-pointed form returns
+    nothing, which looks identical to the word having no TWOT entry. If you have a Strong's number
+    -- from bible_word or bible_interlinear -- use twot_strongs instead; it normalises MACULA's
+    prefixed and zero-padded spellings (b:H7225, H0430) and is much harder to miss with."""
     return twot_lookup.lookup_lemma(lemma)
 
 
@@ -507,7 +559,12 @@ def research_batch_run(requests: list[dict], budget_seconds: float = 30.0) -> di
 
 @mcp.tool()
 def research_batch_tools() -> dict:
-    """Which lookups research_batch_run can dispatch, and which database each reads."""
+    """Which lookups research_batch_run can dispatch, and which database each reads.
+
+    Call this before assembling a batch if you are unsure a tool is dispatchable -- a name that is
+    not in the registry comes back as a per-request error rather than being silently skipped, but
+    checking first saves the round trip. The source tells you which requests share a connection,
+    and which will report unavailable together if a database cannot be reached."""
     return research_batch.known_tools()
 
 

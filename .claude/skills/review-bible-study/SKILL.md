@@ -217,7 +217,7 @@ cd references/build && uv run python study_gaps.py <path to the study>
 
 It reads the study's own `primary_passage`/`bible_references`, gathers derived scripture links and
 cross-references against those passages, subtracts every chapter the study already cites, and ranks
-what is left. The MCP equivalent is `study_gaps`.
+what is left. The MCP equivalent is `review_gaps` (called `study_gaps` before 2026-09-18; that alias still works). Note the rename: the `study_*` tools are about study **Bibles**, not about this repo's study files.
 
 Weigh the kinds differently, and do not let the tool decide for you. A **quotation** is a textual
 fact: if the study treats a passage and never mentions what it quotes, that is a real gap — *The

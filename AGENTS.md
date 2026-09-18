@@ -178,6 +178,7 @@ uv run pytest                      # completeness / query-diagnostics / syntax c
 uv run pytest tests/test_syntax.py # single suite (pythonpath is set in pyproject.toml — run from references/build)
 uv run python query.py --help      # word / concordance / verse / passage / cross-ref / align / parallel / scripture-link lookups
 uv run python study_gaps.py docs/content/<study>.md   # what links to a study's passages that it never cites
+                                                      # (MCP tool for the same thing: review_gaps)
 uv run python twot_lookup.py --help
 uv run pytest tests/test_invariants.py                # every declared table has rows -- the guard the empty `notes` table needed
 uv run python verify_claims.py                        # re-run the SQL behind studies' recorded counts, compare to `expect:`
