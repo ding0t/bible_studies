@@ -22,6 +22,9 @@ is told a source is unmounted behaves correctly; one that waits on a slow query 
 Run directly for a quick check: `uv run python mcp_server.py` (stdio transport).
 Registered with Claude Code via ../../.mcp.json.
 """
+import pathlib
+import tomllib
+
 from mcp.server.fastmcp import FastMCP
 
 import evidence as evidence_lib
@@ -32,6 +35,18 @@ import source_catalog
 import study_notes_query
 import study_structure
 import twot_lookup
+
+def _version() -> str:
+    """This server's own version, from references/build/pyproject.toml.
+
+    Without it FastMCP reports the `mcp` SDK's version in serverInfo -- so a client asking what
+    version of bible-references it is talking to was told "1.28.1", a number that moves when the
+    SDK is upgraded and never moves when a tool is added or its behaviour changes. Reading the
+    project version keeps one source of truth and makes the answer mean something.
+    """
+    with open(pathlib.Path(__file__).resolve().parent / "pyproject.toml", "rb") as f:
+        return tomllib.load(f)["project"]["version"]
+
 
 mcp = FastMCP(
     "bible-references",
@@ -67,6 +82,12 @@ mcp = FastMCP(
         "bible_works and study_works list the tiers. Default translation is WEB (public domain)."
     ),
 )
+
+# FastMCP does not accept a version, but the low-level Server it wraps does, and leaving it unset
+# makes serverInfo report the `mcp` SDK's version instead -- a client asking what version of
+# bible-references it is talking to was told "1.28.1", a number that moves on an SDK upgrade and
+# never moves when a tool changes. This is the only route in mcp 1.28.
+mcp._mcp_server.version = _version()
 
 
 # ---------------------------------------------------------------------------
