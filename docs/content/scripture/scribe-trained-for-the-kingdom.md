@@ -7,9 +7,10 @@ draft: true
 primary_passage: "Matthew 13:51-52"
 bible_references: ["Matthew 13:10-17", "Isaiah 6:9-10", "Matthew 13:35", "Matthew 13:44-53", "Matthew 9:16-17", "Matthew 12:35", "Matthew 5:17-20", "Matthew 23:34", "Matthew 28:19-20", "Matthew 8:19", "Matthew 27:57", "Matthew 12:14-50", "Matthew 13:39-40", "Mark 2:16", "Acts 19:35", "Acts 23:9", "1 Corinthians 1:20", "Ephesians 3:5-9", "Colossians 1:26", "Daniel 2:27-28", "Ezra 7:6-11", "Psalm 78:2", "2 Timothy 3:16-17", "1 John 2:7-8"]
 date_created: 2026-09-18
-date_modified: 2026-09-18
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
+  - meta/muse-glimmer
 ---
 
 # The scribe trained for the kingdom
@@ -27,6 +28,8 @@ it about them.
 He calls them scribes. Matthew uses that word twenty-two times, and all but a few of them name
 the men ranged against Jesus. Here He hands the title to the Twelve as a description of what He
 has made them.
+
+**In one sentence:** Jesus tells the Twelve they have been discipled into a scribal role that holds the whole Old and New revelation and is sent to spend it.
 
 ## Key Takeaways
 
@@ -79,11 +82,15 @@ You have given. In Jesus' name. Amen.
 
 ## Who is writing, and to whom
 
+### Authorship tradition
+
 The early church is unanimous that the tax collector wrote this Gospel. Papias of Hierapolis names
 him around AD 135 and Irenaeus of Lyons around 175, and no competing tradition survives (*ESV Study
 Bible*, introduction to Matthew). That matters for this verse in particular. Matthew records the
 promise that Jesus makes scribes, and Matthew had no scribal training — Jesus called him off a tax
 booth (9:9), from the one profession in Galilee more despised than the scribes were respected.
+
+### Audience: Jewish readers
 
 He writes for readers who know the Law and the Prophets. He quotes the Old Testament constantly,
 opens with a genealogy running back to "the son of Abraham" (1:1, ESV), and writes "the kingdom
@@ -94,6 +101,8 @@ household storeroom to describe His disciples, Matthew's first readers knew both
 the inside.
 
 ## Where the verse sits
+
+### The parable discourse context
 
 Matthew 13 is the third of the five long discourses that give this Gospel its shape. The whole
 chapter is parables, and the chapter tells you why. The disciples ask Jesus outright: "Why do
@@ -114,15 +123,21 @@ unresponsive crowd. Matthew then quotes Psalm 78:2 and calls it fulfilled: "I wi
 has been hidden since the foundation of the world" (13:35, ESV). Six verses on, Jesus tells the
 Twelve that prophets and righteous people longed to see what they were seeing (13:17).
 
+### Why 13:52 follows 13:51
+
 So by verse 51 the disciples are holding something. Jesus asks whether they have understood.
 They say yes. Then comes Διὰ τοῦτο, *"therefore"* — and the therefore reaches back to their
 yes. Because you have understood, here is what you now are.
+
+### The Nazareth contrast
 
 Two verses later Jesus walks into Nazareth, and the town that raised Him asks, "Where did this
 man get this wisdom?" (13:54, ESV), takes offence, and gets no mighty works. The verse about
 the stocked storeroom sits directly against a village with an empty one.
 
 ## What a scribe was
+
+### Greek γραμματεύς and Hebrew סֹפֵר
 
 The Greek is γραμματεύς (*grammateus*, "gram-mat-YOOCE"). Behind it stands the Hebrew
 <span dir="rtl">סֹפֵר</span> (*sofer*, "so-FARE"), and the Septuagint uses γραμματεύς to
@@ -178,6 +193,8 @@ different word. That is what makes verse 52 the sentence it is — Jesus puts th
 γραμματεὺς μαθητευθείς. The professional who is also an apprentice. A man with a qualification,
 sitting under someone else's teaching.
 
+### The 22 Matthew occurrences
+
 A scribe's stock was old by design. Which makes what Matthew does with the word across his
 Gospel the thing to watch.
 
@@ -199,6 +216,109 @@ New Testament — an open-licensed scholarly dataset, so a considered judgement 
 assigns the semantic domain of "religious official" to twenty of Matthew's
 twenty-two occurrences, and gives 13:52 and 23:34 the domain of "teacher, scholar" instead.
 Those two verses are exactly the two where the scribe belongs to Jesus.
+
+## The householder’s storeroom
+
+### θησαυρός = storeroom, not just treasure
+
+θησαυρός (*thēsauros*, "thay-sow-ROSS") is the word behind English *thesaurus*, and it carries
+two senses: the valuables, and the room they are kept in.
+
+Matthew uses it nine times. Eight of them mean the valuables — the magi's treasures (2:11),
+treasure in heaven (6:20), the heart's treasure (6:21), the treasure hidden in a field eight
+verses before ours (13:44). The Macula annotation puts 13:52 alone in a different semantic
+domain, one that contains just two words: θησαυρός and ταμεῖον, "storehouse" — the word Jesus
+uses for the private room you shut the door of to pray (6:6).
+
+Four translation committees reached the same conclusion independently. The NIV, CSB, NLT and
+BSB all render it **storeroom**; the ESV, NKJV, NASB, LSB, KJV, ASV, WEB and YLT keep
+**treasure**. Both are inside the word's range. The storeroom reading is the one that makes the
+picture work — a householder walks into the room where the household's supplies are kept, and
+carries some out.
+
+That picture has a prerequisite. A storeroom holds what was put in it. This householder has
+spent years filling shelves, and what he carries out today is the fruit of someone else's
+harvest and his own long labour of storing.
+
+### ἐκβάλλει = he keeps bringing out
+
+ἐκβάλλει (*ekballei*) is present tense: he brings out, and goes on bringing out. It is also a
+surprisingly forceful verb. Matthew uses ἐκβάλλω 28 times, and the great majority of them are
+violent — casting out demons (8:16; 9:34; 12:28; 17:19), throwing a man into outer darkness
+(8:12; 22:13; 25:30), driving the traders from the temple (21:12), heaving the son out of the
+vineyard (21:39).
+
+Five of the 28 carry a quiet sense (9:38; 12:20; 12:35 twice; 13:52), and two of them bear
+directly on this verse. The first is a commission. "Pray earnestly to the Lord of the harvest to
+send out laborers into his harvest" (9:38, ESV) — *send out* is ἐκβάλῃ, and the annotation gives
+it the same semantic domain it gives 12:35. The second is the sentence ours is built like:
+
+> ✝️ Matthew 12:35 (ESV)
+>
+> 35 The good person out of his good treasure brings forth good, and the evil person out of his
+> evil treasure brings forth evil.
+
+Same verb, ἐκβάλλει. Same noun, θησαυρός. Same preposition, ἐκ. Matthew builds 13:52 out of the
+same three words as 12:35, in a different order, with the kingdom's contents poured in. (This
+repo's derived cross-reference tooling returns no link between the two verses — it finds
+quotations and shared rare vocabulary, and this is neither. The parallel is my own observation,
+offered for the reader to check in the Greek above.)
+
+Matthew 12:35 comes with a diagnosis attached. Jesus says it while telling the Pharisees that
+"out of the abundance of the heart the mouth speaks" (12:34, ESV). What a man brings out
+reveals what he has stored. Set 13:52 against that and the storeroom becomes an examination:
+what comes out of you when you open your mouth about God is an inventory of your shelves.
+
+### New and old: time, not condition
+
+καινὰ καὶ παλαιά — new things and old things, in that order.
+
+Matthew has used this pair once before, and it looked like the opposite lesson:
+
+> ✝️ Matthew 9:16-17 (ESV)
+>
+> 16 No one puts a piece of unshrunk cloth on an old garment, for the patch tears away from the
+> garment, and a worse tear is made. 17 Neither is new wine put into old wineskins. If it is,
+> the skins burst and the wine is spilled and the skins are destroyed. But new wine is put into
+> fresh wineskins, and so both are preserved.
+
+There the new and the old cannot be mixed. Here they sit on the same shelf. The Greek marks the
+difference.
+
+παλαιός occurs **exactly three times in Matthew**: 9:16, 9:17, and 13:52 — verified against the
+SBLGNT morphology, and there are no others. καινός occurs four times: 9:17, 13:52, 26:29, and
+27:60. So the two occurrences that matter are in these two passages, and the Macula annotation
+assigns them different senses. At 9:16-17 both adjectives carry the domain of condition —
+*worn out* against *unused*. At 13:52 both carry the domain of time — *of a former period*
+against *of a recent one*.
+
+The wineskins are old because they have perished. The stock in the storeroom is old because it
+has been there longer. Jesus is making two different points with the same pair of words, and
+both hold: a religious system worn through will not contain what He is pouring, and everything
+God has ever said stays on the shelves.
+
+**This shows that God does not discard His own words.** He made promises to Abraham, gave the
+Law through Moses, spoke through the prophets, and every one of those is still stock. Jesus
+said it Himself in the same Gospel: "not an iota, not a dot, will pass from the Law until all
+is accomplished" (5:18, ESV). The God who speaks keeps what He has spoken.
+
+**What the new and old are.** The commentaries consulted here converge. The *ESV Study Bible*
+takes the disciples to understand both the "new" revelation from Jesus and how it fulfils the
+"old" promises in the Old Testament. Both *Cultural Backgrounds Study Bibles* say the old
+treasures of the Old Testament can be employed in light of the newer and fuller message of the
+kingdom. The *NIV Biblical Theology Study Bible* frames it as continuity between the old and new
+eras with fresh items added. The *NLT Life Application Study Bible* adds the sharpest
+observation of the four: the professional teachers of the law were trapped in the old and blind
+to the new.
+
+Confidence, marked: that reading is the settled one across every commentary consulted, and I
+hold it. A live alternative reads καινὰ καὶ παλαιά as a merism — a figure meaning simply
+*everything*, so that the point falls on the householder's abundance and generosity. Nothing in
+the application changes either way; a storeroom of every vintage is still a storeroom to be
+spent.
+
+One detail I will record without building on it: Jesus says *new and old*, in that order, where
+a stocktake would run the other way. No source consulted here comments on it.
 
 ## "Has been trained": the passive
 
@@ -258,107 +378,6 @@ happened, all at once.
 neither as a source for what a verse means — see [How to Read the Bible](how-to-read-the-bible.md)
 and the reasoning in Fee and Stuart, listed below.)
 
-## The storeroom
-
-θησαυρός (*thēsauros*, "thay-sow-ROSS") is the word behind English *thesaurus*, and it carries
-two senses: the valuables, and the room they are kept in.
-
-Matthew uses it nine times. Eight of them mean the valuables — the magi's treasures (2:11),
-treasure in heaven (6:20), the heart's treasure (6:21), the treasure hidden in a field eight
-verses before ours (13:44). The Macula annotation puts 13:52 alone in a different semantic
-domain, one that contains just two words: θησαυρός and ταμεῖον, "storehouse" — the word Jesus
-uses for the private room you shut the door of to pray (6:6).
-
-Four translation committees reached the same conclusion independently. The NIV, CSB, NLT and
-BSB all render it **storeroom**; the ESV, NKJV, NASB, LSB, KJV, ASV, WEB and YLT keep
-**treasure**. Both are inside the word's range. The storeroom reading is the one that makes the
-picture work — a householder walks into the room where the household's supplies are kept, and
-carries some out.
-
-That picture has a prerequisite. A storeroom holds what was put in it. This householder has
-spent years filling shelves, and what he carries out today is the fruit of someone else's
-harvest and his own long labour of storing.
-
-## "Brings out"
-
-ἐκβάλλει (*ekballei*) is present tense: he brings out, and goes on bringing out. It is also a
-surprisingly forceful verb. Matthew uses ἐκβάλλω 28 times, and the great majority of them are
-violent — casting out demons (8:16; 9:34; 12:28; 17:19), throwing a man into outer darkness
-(8:12; 22:13; 25:30), driving the traders from the temple (21:12), heaving the son out of the
-vineyard (21:39).
-
-Five of the 28 carry a quiet sense (9:38; 12:20; 12:35 twice; 13:52), and two of them bear
-directly on this verse. The first is a commission. "Pray earnestly to the Lord of the harvest to
-send out laborers into his harvest" (9:38, ESV) — *send out* is ἐκβάλῃ, and the annotation gives
-it the same semantic domain it gives 12:35. The second is the sentence ours is built like:
-
-> ✝️ Matthew 12:35 (ESV)
->
-> 35 The good person out of his good treasure brings forth good, and the evil person out of his
-> evil treasure brings forth evil.
-
-Same verb, ἐκβάλλει. Same noun, θησαυρός. Same preposition, ἐκ. Matthew builds 13:52 out of the
-same three words as 12:35, in a different order, with the kingdom's contents poured in. (This
-repo's derived cross-reference tooling returns no link between the two verses — it finds
-quotations and shared rare vocabulary, and this is neither. The parallel is my own observation,
-offered for the reader to check in the Greek above.)
-
-Matthew 12:35 comes with a diagnosis attached. Jesus says it while telling the Pharisees that
-"out of the abundance of the heart the mouth speaks" (12:34, ESV). What a man brings out
-reveals what he has stored. Set 13:52 against that and the storeroom becomes an examination:
-what comes out of you when you open your mouth about God is an inventory of your shelves.
-
-## New and old
-
-καινὰ καὶ παλαιά — new things and old things, in that order.
-
-Matthew has used this pair once before, and it looked like the opposite lesson:
-
-> ✝️ Matthew 9:16-17 (ESV)
->
-> 16 No one puts a piece of unshrunk cloth on an old garment, for the patch tears away from the
-> garment, and a worse tear is made. 17 Neither is new wine put into old wineskins. If it is,
-> the skins burst and the wine is spilled and the skins are destroyed. But new wine is put into
-> fresh wineskins, and so both are preserved.
-
-There the new and the old cannot be mixed. Here they sit on the same shelf. The Greek marks the
-difference.
-
-παλαιός occurs **exactly three times in Matthew**: 9:16, 9:17, and 13:52 — verified against the
-SBLGNT morphology, and there are no others. καινός occurs four times: 9:17, 13:52, 26:29, and
-27:60. So the two occurrences that matter are in these two passages, and the Macula annotation
-assigns them different senses. At 9:16-17 both adjectives carry the domain of condition —
-*worn out* against *unused*. At 13:52 both carry the domain of time — *of a former period*
-against *of a recent one*.
-
-The wineskins are old because they have perished. The stock in the storeroom is old because it
-has been there longer. Jesus is making two different points with the same pair of words, and
-both hold: a religious system worn through will not contain what He is pouring, and everything
-God has ever said stays on the shelves.
-
-**This shows that God does not discard His own words.** He made promises to Abraham, gave the
-Law through Moses, spoke through the prophets, and every one of those is still stock. Jesus
-said it Himself in the same Gospel: "not an iota, not a dot, will pass from the Law until all
-is accomplished" (5:18, ESV). The God who speaks keeps what He has spoken.
-
-**What the new and old are.** The commentaries consulted here converge. The *ESV Study Bible*
-takes the disciples to understand both the "new" revelation from Jesus and how it fulfils the
-"old" promises in the Old Testament. Both *Cultural Backgrounds Study Bibles* say the old
-treasures of the Old Testament can be employed in light of the newer and fuller message of the
-kingdom. The *NIV Biblical Theology Study Bible* frames it as continuity between the old and new
-eras with fresh items added. The *NLT Life Application Study Bible* adds the sharpest
-observation of the four: the professional teachers of the law were trapped in the old and blind
-to the new.
-
-Confidence, marked: that reading is the settled one across every commentary consulted, and I
-hold it. A live alternative reads καινὰ καὶ παλαιά as a merism — a figure meaning simply
-*everything*, so that the point falls on the householder's abundance and generosity. Nothing in
-the application changes either way; a storeroom of every vintage is still a storeroom to be
-spent.
-
-One detail I will record without building on it: Jesus says *new and old*, in that order, where
-a stocktake would run the other way. No source consulted here comments on it.
-
 ## Why the new was new: reading this dispensationally
 
 This site reads Scripture dispensationally — God administering His purposes through successive
@@ -367,6 +386,8 @@ arrangements, with the promises made to Israel staying Israel's (see
 [Israel and the Church](../israel-and-church/israel-and-the-church.md)). Matthew 13 is where that
 reading does real work on verse 52, because the chapter itself says the contents of the storeroom
 had been withheld until that day.
+
+### Mystery in Matthew 13
 
 Start with the word Jesus uses for them. μυστήριον (*mystērion*, "moo-STAY-ree-on") occurs
 **26 times in the Greek New Testament, and exactly three times in the Gospels** — Matthew 13:11,
@@ -388,12 +409,16 @@ forgiven (12:31), refuses them a sign beyond Jonah's (12:39), and redefines His 
 of the house and sat beside the sea" (13:1, ESV). Matthew dates the parable discourse to the day
 of the rejection.
 
+### What the dispensational reading concludes
+
 **What the dispensational reading concludes from that.** The King has been formally refused, and
 the kingdom's arrival in glory is therefore deferred. What Jesus discloses in these parables
 is the shape the kingdom takes in the interval — sown among four soils, growing with
 weeds in it until a harvest at "the end of the age" (13:39-40), netted good and bad together
 until angels do the sorting (13:47-50). An interval the Old Testament prophets had not been
 shown. Hence a mystery, and hence the "new" stock in verse 52.
+
+### Confidence, marked
 
 **Confidence.** Two different things are stacked here and they hold differently. That μυστήριον
 means withheld-then-revealed is lexical and settled; Daniel 2, Colossians 1:26 and Ephesians 3:5
@@ -402,6 +427,8 @@ kingdom between the rejection and the return is a **systematic** reading. It is 
 the exegesis above supports it, but covenant theologians read the same chapter as the kingdom
 already inaugurated rather than deferred, and they are reading the same verses. A reader should
 know which of the two they are being handed.
+
+### What it does to the storeroom
 
 **What it does to the storeroom.** Whichever way that question falls, verse 52 refuses to let the
 disciple drop either half. The old stock is God's word to Israel, and Jesus has just said not an
@@ -474,6 +501,8 @@ front of someone this week with something in your hands — because He put it th
 
 ## References & Recommended Reading
 
+### Bible texts and original-language data
+
 **Bible texts and original-language data** (all open-licence, queried from this repo's
 `bible-text.db` — see [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md)):
 
@@ -489,6 +518,8 @@ front of someone this week with something in your hands — because He put it th
   Testament (1526)*, *Rotherham's Emphasised Bible*, *Young's Literal Translation* — the
   translation-comparison table.
 
+### Translations quoted
+
 **Translations quoted under publishers' permission notices** (see
 [copyright](../about/copyright.md)):
 
@@ -496,6 +527,8 @@ front of someone this week with something in your hands — because He put it th
   translation of every quotation above unless otherwise labelled.
 - NIV, CSB, NKJV, NASB 1995/2020, LSB and NLT renderings of Matthew 13:52 appear in the
   comparison table only.
+
+### Commentary and background
 
 **Commentary and background** (each cited for a sentence or less, with attribution):
 
@@ -512,6 +545,8 @@ front of someone this week with something in your hands — because He put it th
   the point the first hearers would have grasped, and leave incidental details alone. Their
   assessment of the KJV/NKJV textual base and of Young's Literal Translation is why neither is
   quoted above as a verse's meaning.
+
+### On this site
 
 **On this site:**
 
