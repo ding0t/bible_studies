@@ -599,6 +599,60 @@ function validateFile(filePath) {
       }
     }
   }
+
+  // Check 21: an unbroken run of prose under one heading. The style guide's "Structural
+  // readability" section lists five ways to write badly and nothing about how to structure well,
+  // so a draft could clear every other check here and still arrive as a wall. That is what
+  // happened: scribe-trained-for-the-kingdom.md passed all twenty checks with zero findings while
+  // carrying four sections over 400 words, one of them 900. A separate readability pass split it
+  // into 28 sections (median 278w -> 180w) without changing a single sentence.
+  //
+  // What is measured is the PROSE RUN under one heading -- the distance a reader travels with no
+  // place to stop. Tables, lists, block quotes and code are excluded: they are already visually
+  // broken, and a long reference table is not a wall. A section with sub-headings is therefore
+  // already several short runs and never fires.
+  //
+  // Threshold from a corpus audit of 984 sections across 86 published files: p50 116w, p75 225w,
+  // p90 423w, p95 545w. 600w is p96-97 and fires on 3.8% -- the genuine monsters (a 1868-word
+  // "Word studies" section in lords-prayer.md) rather than any dense section. WARNING, not error:
+  // a sustained argument sometimes has to run, and the author decides. The aspiration in
+  // structural-readability.md is 250-400w; this only catches the far tail.
+  {
+    const lines = content.split('\n');
+    let heading = null;
+    let headingLine = 0;
+    let words = 0;
+    let inFence = false;
+
+    const flush = () => {
+      if (heading && words > 600) {
+        log(
+          'warning',
+          filePath,
+          `Line ${headingLine}: "${heading}" runs ${words} words of unbroken prose. A reader has nowhere to stop. Break it with sub-headings that name what is in each part (see .claude/skills/develop-bible-study/structural-readability.md). Tables, lists and quotes are already excluded from this count.`
+        );
+      }
+    };
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const trimmed = line.trim();
+      if (trimmed.startsWith('```')) { inFence = !inFence; continue; }
+      if (inFence) continue;
+      if (/^#{2,4}\s/.test(trimmed)) {
+        flush();
+        heading = trimmed.replace(/^#+\s*/, '');
+        headingLine = i + 1;
+        words = 0;
+        continue;
+      }
+      if (!heading) continue;
+      if (trimmed.startsWith('|') || trimmed.startsWith('>')) continue;
+      if (/^([-*+]\s|\d+\.\s)/.test(trimmed)) continue;
+      words += trimmed.split(/\s+/).filter(Boolean).length;
+    }
+    flush();
+  }
 }
 
 function walkDirectory(dir) {

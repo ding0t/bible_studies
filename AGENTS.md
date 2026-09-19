@@ -142,7 +142,7 @@ scripts/build-events.test.js`, or `node src/utils/chronology.test.js` for the `s
 
 `npm run validate` (`app/scripts/validate-content.js`, run from `app/`) is the content linter, and
 **it is not wired into CI** — the deploy workflow runs `npm test` only, so validate has to be run
-by hand after editing content. It applies 19 checks in four groups:
+by hand after editing content. It applies 21 checks in five groups:
 
 - **Checks 1–9, structural**: frontmatter (required fields, tag quoting, draft status), image paths,
   scripture quote blocks opening with `> ✝️ Reference (TRANSLATION)` as their first line (the
@@ -159,6 +159,13 @@ by hand after editing content. It applies 19 checks in four groups:
   first bold thesis, block-quote share of the opening, unglossed terms of art), and the provenance
   frontmatter — missing fields, a `date_modified` behind the file's last commit, or an
   `ai_provider_models` entry that isn't provider-qualified. Also warnings.
+- **Check 20, prose that cannot be read aloud** — sentence-length median and long tail, measured
+  against Pauline chapters so Paul himself would pass. **Check 21, an unbroken prose run** over
+  600 words under one heading, where a reader has nowhere to stop (tables, lists and quotes
+  excluded, so a section with sub-headings never fires). 600 is the far tail — p96 of a 984-section
+  corpus audit; the 250-400 word target lives in
+  [structural-readability.md](.claude/skills/develop-bible-study/structural-readability.md), which
+  is the positive counterpart to style-guide.md's prohibitions. Both warnings.
 - **Checks 18–19, claims that go stale silently.** An exhaustiveness claim ("only occurrence",
   "nowhere else") sharing a line with Greek or Hebrew characters — the cheapest sentence in a study
   to write and the most expensive to verify, so routinely written unverified; one shipped saying
