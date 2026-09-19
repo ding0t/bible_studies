@@ -1,11 +1,14 @@
 # Structural readability — the positive counterpart
 
-[style-guide.md](style-guide.md)'s "Structural readability" section lists five ways to structure
+The reference page for **[read-bible-study](SKILL.md)**. That skill is the procedure;
+this is the standard it applies.
+
+[style-guide.md](../develop-bible-study/style-guide.md)'s "Structural readability" section lists five ways to structure
 badly: bullets that are essays, the study talking about itself, the section recap, discussion
 questions about the study's own method, the apologia posture. Every one is a prohibition.
 
 Nothing there says how to structure *well*. This page is that counterpart, the way
-[discussion-questions.md](discussion-questions.md) is the counterpart to the prohibition on
+[discussion-questions.md](../develop-bible-study/discussion-questions.md) is the counterpart to the prohibition on
 method-questions.
 
 ## Why a separate page was needed
@@ -96,4 +99,4 @@ ruled out elsewhere in this skill:
 
 The safe operations are: add a heading, split at a natural break, regroup related sections under a
 parent, move a table's context around it, and add the one-sentence summary. Everything else is
-editing, and editing has its own rules on [style-guide.md](style-guide.md).
+editing, and editing has its own rules on [style-guide.md](../develop-bible-study/style-guide.md).

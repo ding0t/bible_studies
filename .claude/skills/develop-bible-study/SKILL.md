@@ -115,16 +115,18 @@ and which one is a question for the user, not a silent edit to whichever file is
 - **Don't hand-write the provenance fields** (`date_created`, `date_modified`, `ai_provider_models`). Run `python3 utils/refresh_frontmatter_provenance.py` from the repo root **before committing**, and stage its edit alongside the study — it derives all three from git history, and running it after the commit instead can't converge. See "The provenance fields" in [placement-and-tags.md](placement-and-tags.md).
 - **Always populate `primary_passage` and `bible_references`.** `references/build/commentary_index.py` reads these to auto-generate the "studies referencing this chapter" cross-links inside `docs/content/commentaries/<book>/`, keyed off exactly the passage(s) this study is centrally about (`primary_passage`, singular or `;`-separated for a multi-account passage like a Gospel parallel) versus what it merely cites in passing (`bible_references`). A study missing both is invisible to that index, not an error, but it means the cross-reference system silently under-reports — don't skip this field the way many of the pre-existing studies did.
 - Structure: short hook → **Key Takeaways** → historical/literary context → walk-through with original-language notes → theological principle → discussion questions → **References & Recommended Reading**.
-- **When the draft is finished, run a separate structure pass** — see
-  [structural-readability.md](structural-readability.md). Read the finished page as a stranger and
+- **When the draft is finished, run a separate structure pass** — the **read-bible-study** skill
+  (`../read-bible-study/SKILL.md`), whose standard is
+  [structural-readability.md](../read-bible-study/structural-readability.md). Read the finished page as a stranger and
   ask only where a reader would stop and whether they could find their way back in: add
   sub-headings that name their content, aim at 250-400 words between them, put a one-line
   **In one sentence:** thesis after the passage quote, and give a contested-reading note its own
   heading so it is findable. Change no prose while doing it. This is a distinct pass because the
   order a study is composed in — usually the order of the words in the verse — is correct for
   composing and feels inevitable to whoever composed it; judging it as a reader is the one thing
-  the author cannot do. Validator check 21 catches only the far tail (a 600-word unbroken run),
-  so passing it is not evidence the pass was done.
+  the author cannot do — so run it in a different session from this one where you can. Validator
+  check 21 catches only the far tail (a 600-word unbroken run), so passing it is not evidence the
+  pass was done.
 - **Key Takeaways** replaces the old flat "Key lessons" list with up to five subheadings **in this order**, each included only where the study earns it — don't force one to fill a slot. Rationale: [key-takeaways.md](../../../docs/content/about/key-takeaways.md). The section comes up front, before supporting detail — a reader should get the point even if they read no further.
 
   | Subheading | What goes in it |

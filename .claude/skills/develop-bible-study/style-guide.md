@@ -378,8 +378,8 @@ modesty.
 
 ## Structural readability
 
-Everything below is a prohibition. **[structural-readability.md](structural-readability.md) is the
-positive counterpart** — how to structure a study so it can be read, rather than how not to
+Everything below is a prohibition. **[structural-readability.md](../read-bible-study/structural-readability.md) is the
+positive counterpart**, and the **read-bible-study** skill is the pass that applies it — how to structure a study so it can be read, rather than how not to
 structure one. It exists because a draft cleared every check on this page and every check in the
 validator while still arriving as a wall of 400-word sections: avoiding each listed failure is not
 the same as serving a reader.

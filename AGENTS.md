@@ -164,8 +164,9 @@ by hand after editing content. It applies 21 checks in five groups:
   600 words under one heading, where a reader has nowhere to stop (tables, lists and quotes
   excluded, so a section with sub-headings never fires). 600 is the far tail — p96 of a 984-section
   corpus audit; the 250-400 word target lives in
-  [structural-readability.md](.claude/skills/develop-bible-study/structural-readability.md), which
-  is the positive counterpart to style-guide.md's prohibitions. Both warnings.
+  [structural-readability.md](.claude/skills/read-bible-study/structural-readability.md), the
+  standard the **read-bible-study** skill applies and the positive counterpart to style-guide.md's
+  prohibitions. Both warnings.
 - **Checks 18–19, claims that go stale silently.** An exhaustiveness claim ("only occurrence",
   "nowhere else") sharing a line with Greek or Hebrew characters — the cheapest sentence in a study
   to write and the most expensive to verify, so routinely written unverified; one shipped saying
@@ -316,12 +317,19 @@ the workflow manually (`workflow_dispatch`).
 - **`references/open-data/` vs `references/restricted-data/` submodules partition by license
   tier** — the directory a source lives in *is* the license audit boundary; never move a source
   between them.
-- **Two content skills, mirrored:** new content goes through **develop-bible-study**
+- **Three content skills:** new content goes through **develop-bible-study**
   (`.claude/skills/develop-bible-study/SKILL.md`), which tracks resumable per-study progress in
   `references/study-state/<slug>.yml`; an already-drafted or already-published file goes through
   **review-bible-study** (`.claude/skills/review-bible-study/SKILL.md`), which re-verifies quotes,
   citations, and word studies against source. Reach for review, not develop, when the ask is
-  "audit / fact-check / critique" rather than "write".
+  "audit / fact-check / critique" rather than "write". A third, **read-bible-study**
+  (`.claude/skills/read-bible-study/SKILL.md`), answers the question neither of those does —
+  *can it be read?* It restructures an existing file (headings, grouping, placement) under one
+  governing rule, **change no sentence**, which is why its output needs no re-verification and
+  why it cannot live inside review, whose whole job is to change what is wrong. Run it last, and
+  in a different session from the one that drafted the file: judging your own composition order
+  as a reader is the one thing the author cannot do. The three answer *build it / is it true? /
+  can it be read?*
 - **An exemption in a checking tool carries its justification with it, or it is a hole.** Two of this
   repo's checks were defeated by an unrecorded exemption rather than by a missing check. The diagram
   sweep skipped `timeline` blocks because they "size themselves" — they do not, and five stayed

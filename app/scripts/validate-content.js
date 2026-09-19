@@ -629,7 +629,7 @@ function validateFile(filePath) {
         log(
           'warning',
           filePath,
-          `Line ${headingLine}: "${heading}" runs ${words} words of unbroken prose. A reader has nowhere to stop. Break it with sub-headings that name what is in each part (see .claude/skills/develop-bible-study/structural-readability.md). Tables, lists and quotes are already excluded from this count.`
+          `Line ${headingLine}: "${heading}" runs ${words} words of unbroken prose. A reader has nowhere to stop. Break it with sub-headings that name what is in each part (see .claude/skills/read-bible-study/structural-readability.md). Tables, lists and quotes are already excluded from this count.`
         );
       }
     };
