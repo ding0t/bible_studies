@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 4:1-42"
 bible_references: ["John 3:22-30", "John 7:37-39", "John 1:39", "John 1:46", "John 8:58", "John 19:26", "Jeremiah 2:13", "Jeremiah 17:13", "Zechariah 14:8", "Isaiah 12:3", "Isaiah 44:3", "Ezekiel 47:1-6", "Genesis 24:10-27", "Genesis 29:1-12", "Exodus 2:15-21", "Deuteronomy 18:15-18", "Deuteronomy 27:4", "Deuteronomy 11:29", "2 Kings 17:24-41", "Genesis 33:18-20", "Joshua 24:32", "Exodus 3:14", "Luke 14:5", "Revelation 9:1-2"]
 date_created: 2025-04-25
-date_modified: 2026-09-07
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -71,12 +71,12 @@ hour when the Father is worshipped neither on Gerizim nor in Jerusalem.
 
 ### Memory verses
 
-> ✝️ John 4:14 (ESV)
+> ✝️ [John 4:14 (ESV)](https://www.blueletterbible.org/esv/Joh/4/14)
 >
 > 14 but whoever drinks of the water that I will give him will never be thirsty again. The water
 > that I will give him will become in him a spring of water welling up to eternal life.
 
-> ✝️ John 4:23 (ESV)
+> ✝️ [John 4:23 (ESV)](https://www.blueletterbible.org/esv/Joh/4/23)
 >
 > 23 But the hour is coming, and is now here, when the true worshipers will worship the Father in
 > spirit and truth, for the Father is seeking such people to worship him.

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
 bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hosea 6:2", "Hebrews 1:2", "Hebrews 4:9", "Revelation 13:14-18", "Revelation 20:1-7", "Revelation 17:10", "Genesis 49:1", "Malachi 4:2", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:46", "2 Timothy 3:16", "Psalm 89:46-52", "Psalm 92:1-9", "Psalm 93:1", "Ecclesiastes 6:6", "Isaiah 40:17", "Genesis 5:27", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
 date_created: 2026-08-12
-date_modified: 2026-08-23
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -71,17 +71,17 @@ place in Scripture where the length of that reign is stated.
 
 Three verses in the order the argument runs — the week, the ratio, the rest.
 
-> ✝️ Genesis 2:3 (ESV)
+> ✝️ [Genesis 2:3 (ESV)](https://www.blueletterbible.org/esv/Gen/2/3)
 >
 > 3 So God blessed the seventh day and made it holy, because on it God rested from all his work
 > that he had done in creation.
 
-> ✝️ 2 Peter 3:8 (ESV)
+> ✝️ [2 Peter 3:8 (ESV)](https://www.blueletterbible.org/esv/2Pe/3/8)
 >
 > 8 But do not overlook this one fact, beloved, that with the Lord one day is as a thousand years,
 > and a thousand years as one day.
 
-> ✝️ Hebrews 4:9 (ESV)
+> ✝️ [Hebrews 4:9 (ESV)](https://www.blueletterbible.org/esv/Heb/4/9)
 >
 > 9 So then, there remains a Sabbath rest for the people of God,
 

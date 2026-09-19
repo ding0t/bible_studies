@@ -49,23 +49,30 @@ has made them.
 
 ### Memory verses
 
-- **Matthew 13:52** — the verse itself, quoted above. Learn it with the passive intact: *who
-  has been trained.*
-- **Matthew 5:17 (ESV)** — "Do not think that I have come to abolish the Law or the Prophets;
-  I have not come to abolish them but to fulfill them." This is the sentence that stocks the
-  old half of the storeroom.
-- **Ezra 7:10 (WEB)** — "For Ezra had set his heart to seek Yahweh's law, and to do it, and to
-  teach statutes and ordinances in Israel." Three verbs, in that order.
+> ✝️ [Matthew 13:52 (ESV)](https://www.blueletterbible.org/esv/Mat/13/52)
+>
+> 52 And he said to them, "Therefore every scribe who has been trained for the kingdom of heaven
+> is like a master of a house, who brings out of his treasure what is new and what is old."
+
+> ✝️ [Matthew 5:17 (ESV)](https://www.blueletterbible.org/esv/Mat/5/17)
+>
+> 17 "Do not think that I have come to abolish the Law or the Prophets; I have not come to
+> abolish them but to fulfill them."
+
+> ✝️ [Ezra 7:10 (WEB)](https://www.blueletterbible.org/web/Ezr/7/10)
+>
+> 10 For Ezra had set his heart to seek Yahweh's law, and to do it, and to teach statutes and
+> ordinances in Israel.
 
 ### Be Transformed
 
-- **Take the passive seriously.** Your understanding of Scripture is something God has worked
-  in you. Thank Him for it by name this week, and go on asking Him for more of it, the way the
+- **Think.** Your understanding of Scripture is something God has worked in you — take the passive
+  seriously. Thank Him for it by name this week, and go on asking Him for more of it, the way the
   disciples kept coming back to Jesus for the explanations (13:36; 15:15).
-- **Stop ranking the old stock below the new.** If you have quietly settled into the New
-  Testament and left the Old for other people, the householder in this verse has half a
-  storeroom. Read a prophet this month.
-- **Spend it.** The verb is present tense and habitual — this householder is always bringing
+- **Attitude.** Stop ranking the old stock below the new. If you have quietly settled into the New
+  Testament and left the Old for other people, the householder in this verse has half a storeroom.
+  Read a prophet this month.
+- **Do.** Spend it. The verb is present tense and habitual — this householder is always bringing
   things out. Find one person this week who gets something out of your store: a child, a
   younger believer, someone at your table.
 

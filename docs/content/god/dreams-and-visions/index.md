@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 37:5-11; Genesis 40:5-41:36; Daniel 2; Deuteronomy 13:1-5; Jeremiah 23:25-32"
 bible_references: ["Genesis 20:3", "Genesis 28:12", "Genesis 31:10-11", "1 Kings 3:5-15", "Daniel 4:4-27", "Daniel 7:1", "Numbers 12:6-8", "Ecclesiastes 5:7", "Matthew 1:20-21", "Matthew 2:12-13", "Matthew 2:19-22", "Matthew 27:19", "Acts 2:17", "Acts 10:9-16", "Acts 16:9-10", "Joel 2:28-29", "Jude 1:8", "1 Thessalonians 5:19-21", "1 John 4:1"]
 date_created: 2026-08-04
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -29,8 +29,16 @@ Every dream recorded around Jesus's birth protects his life. An angel warns Jose
 
 ### Memory verses
 
-- Deuteronomy 13:3 (ESV) -- "you shall not listen to the words of that prophet or that dreamer of dreams. For the LORD your God is testing you, to know whether you love the LORD your God with all your heart and with all your soul."
-- Jeremiah 23:28 (ESV) -- "Let the prophet who has a dream tell the dream, but let him who has my word speak my word faithfully. What has straw in common with wheat? declares the LORD."
+> ✝️ [Deuteronomy 13:3 (ESV)](https://www.blueletterbible.org/esv/Deu/13/3)
+>
+> 3 you shall not listen to the words of that prophet or that dreamer of dreams. For the LORD your
+> God is testing you, to know whether you love the LORD your God with all your heart and with all
+> your soul.
+
+> ✝️ [Jeremiah 23:28 (ESV)](https://www.blueletterbible.org/esv/Jer/23/28)
+>
+> 28 Let the prophet who has a dream tell the dream, but let him who has my word speak my word
+> faithfully. What has straw in common with wheat? declares the LORD.
 
 ### Be Transformed
 

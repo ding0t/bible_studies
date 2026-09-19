@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Deuteronomy 18:9-22"
 bible_references: ["Genesis 15:16", "Exodus 7:8-13", "Exodus 22:18", "Leviticus 19:31", "Leviticus 20:6", "Leviticus 20:27", "Numbers 23:23", "Deuteronomy 13:1-5", "1 Samuel 28:3-25", "1 Chronicles 10:13-14", "2 Kings 21:6", "2 Kings 23:24", "Isaiah 8:19-20", "Isaiah 44:24-26", "Isaiah 47:9-15", "Daniel 2:27-28", "Micah 5:12", "Nahum 3:4", "Malachi 3:5", "Matthew 2:1-12", "Matthew 12:22-32", "Mark 1:32-34", "Luke 10:17-20", "Acts 3:22-23", "Acts 8:9-24", "Acts 13:4-12", "Acts 16:16-18", "Acts 19:11-20", "Galatians 5:19-21", "1 John 4:1-3", "Revelation 9:21", "Revelation 18:23", "Revelation 21:8", "Revelation 22:15"]
 date_created: 2024-04-24
-date_modified: 2026-08-23
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -56,14 +56,14 @@ his Son.
 
 ### Memory verses
 
-> ✝️ Deuteronomy 18:14-15 (ESV)
+> ✝️ [Deuteronomy 18:14-15 (ESV)](https://www.blueletterbible.org/esv/Deu/18/14-15)
 >
 > 14 for these nations, which you are about to dispossess, listen to fortune-tellers and to
 > diviners. But as for you, the LORD your God has not allowed you to do this. 15 "The LORD your God
 > will raise up for you a prophet like me from among you, from your brothers — it is to him you
 > shall listen —
 
-> ✝️ Isaiah 8:19 (ESV)
+> ✝️ [Isaiah 8:19 (ESV)](https://www.blueletterbible.org/esv/Isa/8/19)
 >
 > 19 And when they say to you, "Inquire of the mediums and the necromancers who chirp and mutter,"
 > should not a people inquire of their God? Should they inquire of the dead on behalf of the living?

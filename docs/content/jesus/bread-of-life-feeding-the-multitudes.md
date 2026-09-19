@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15; Matthew 15:32-39; Mark 8:1-10"
 bible_references: ["John 6:22-71", "Mark 8:14-21", "Matthew 16:5-12", "Exodus 16:4-21", "Numbers 11:4-9", "Numbers 11:31-34", "Deuteronomy 8:2-3", "Deuteronomy 18:15-18", "2 Kings 4:42-44", "Psalm 78:17-31", "Psalm 23:1-2", "Isaiah 25:6-9", "Isaiah 55:1-3", "Ezekiel 34:5", "Ezekiel 34:13-16", "Numbers 27:15-18", "Matthew 4:1-4", "Matthew 6:11", "Luke 11:3", "Proverbs 30:8-9", "Revelation 2:17", "Mark 14:22", "Mark 7:24-31", "Matthew 15:29-31", "1 Timothy 6:6-8", "Romans 1:16", "1 Corinthians 11:23-26", "Luke 9:16"]
 date_created: 2026-07-25
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -68,12 +68,12 @@ is right. What follows shows that a correct fulfillment can still be put to a wr
 
 ### Memory verses
 
-> ✝️ John 6:35 (ESV)
+> ✝️ [John 6:35 (ESV)](https://www.blueletterbible.org/esv/Joh/6/35)
 >
 > Jesus said to them, "I am the bread of life; whoever comes to me shall not hunger, and whoever
 > believes in me shall never thirst."
 
-> ✝️ John 6:26-27 (ESV)
+> ✝️ [John 6:26-27 (ESV)](https://www.blueletterbible.org/esv/Joh/6/26-27)
 >
 > Jesus answered them, "Truly, truly, I say to you, you are seeking me, not because you saw signs, but
 > because you ate your fill of the loaves. Do not work for the food that perishes, but for the food

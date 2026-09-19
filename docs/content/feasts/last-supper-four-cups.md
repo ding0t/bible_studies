@@ -9,7 +9,7 @@ bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Cori
 zadok_year: 4036
 gregorian_year: 33
 date_created: 2026-07-19
-date_modified: 2026-09-04
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -109,13 +109,15 @@ WEB). The banquet also swallows death (Isaiah 25:6-8).
 
 ### Memory verses
 
-> ✝️ Mark 14:25 (ASV)
+> ✝️ [Mark 14:25 (ASV)](https://www.blueletterbible.org/asv/Mar/14/25)
 >
 > 25 Verily I say unto you, I shall no more drink of the fruit of the vine, until that day when I
 > drink it new in the kingdom of God.
 
-**1 Corinthians 11:26 (WEB)** — "For as often as you eat this bread and drink this cup, you proclaim
-the Lord's death **until he comes**."
+> ✝️ [1 Corinthians 11:26 (WEB)](https://www.blueletterbible.org/web/1Co/11/26)
+>
+> 26 For as often as you eat this bread and drink this cup, you proclaim the Lord's death until he
+> comes.
 
 ### Be Transformed
 

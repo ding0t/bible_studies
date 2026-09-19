@@ -9,7 +9,7 @@ bible_references: ["Mark 5:21-43", "Matthew 9:18-26", "Luke 8:40-56", "Leviticus
 zadok_year: 4035
 gregorian_year: 32
 date_created: 2026-08-23
-date_modified: 2026-08-23
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -70,13 +70,15 @@ is real; the fulfilment claim built on it is not one Scripture makes.
 
 ### Memory verses
 
-> ✝️ Mark 5:34 (WEB)
+> ✝️ [Mark 5:34 (WEB)](https://www.blueletterbible.org/web/Mar/5/34)
 >
 > 34 He said to her, "Daughter, your faith has made you well. Go in peace, and be cured of your
 > disease."
 
-**Leviticus 15:27 (WEB)** — "Whoever touches these things shall be unclean" — the rule this scene
-runs backwards.
+> ✝️ [Leviticus 15:27 (WEB)](https://www.blueletterbible.org/web/Lev/15/27)
+>
+> 27 Whoever touches these things shall be unclean, and shall wash his clothes and bathe himself in
+> water, and be unclean until the evening.
 
 ### Be Transformed
 

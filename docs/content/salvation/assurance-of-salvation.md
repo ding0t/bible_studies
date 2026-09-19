@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 John 5:11-13"
 bible_references: ["Acts 4:9-12", "Ephesians 1:13-14", "Ephesians 2:1-10", "John 3:16-18", "John 5:24", "John 6:37-40", "John 10:27-29", "Romans 8:1", "Romans 8:15-17", "Romans 8:31-39", "Romans 10:9-13", "Joel 2:32", "2 Corinthians 5:17", "Philippians 1:6", "Titus 3:4-7", "Hebrews 7:25", "2 Timothy 1:12", "1 Peter 1:3-5", "2 Peter 1:5-11", "Matthew 1:21"]
 date_created: 2026-08-24
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -52,19 +52,19 @@ turns into either presumption or despair.
 
 ### Memory verses
 
-> ✝️ 1 John 5:11-13 (ESV)
+> ✝️ [1 John 5:11-13 (ESV)](https://www.blueletterbible.org/esv/1Jo/5/11-13)
 >
 > 11 And this is the testimony, that God gave us eternal life, and this life is in his Son.
 > 12 Whoever has the Son has life; whoever does not have the Son of God does not have life.
 > 13 I write these things to you who believe in the name of the Son of God, that you may know that
 > you have eternal life.
 
-> ✝️ Ephesians 2:8-9 (ESV)
+> ✝️ [Ephesians 2:8-9 (ESV)](https://www.blueletterbible.org/esv/Eph/2/8-9)
 >
 > 8 For by grace you have been saved through faith. And this is not your own doing; it is the gift
 > of God, 9 not a result of works, so that no one may boast.
 
-> ✝️ Romans 8:1 (ESV)
+> ✝️ [Romans 8:1 (ESV)](https://www.blueletterbible.org/esv/Rom/8/1)
 >
 > 1 There is therefore now no condemnation for those who are in Christ Jesus.
 

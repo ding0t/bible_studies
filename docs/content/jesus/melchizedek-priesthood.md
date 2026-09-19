@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Hebrews 7:1-28"
 bible_references: ["Genesis 2:15", "Genesis 3:22-24", "Genesis 8:20", "Genesis 14:17-20", "Exodus 13:1-2", "Exodus 32:26-29", "Numbers 3:5-13", "Numbers 8:16-18", "Numbers 18:1-7", "Psalm 110:1-4", "Hebrews 2:17-18", "Hebrews 4:14-16", "Hebrews 5:1-10", "Hebrews 6:13-20", "Hebrews 8:1-13", "Hebrews 9:11-28", "Hebrews 10:1-18", "Zechariah 6:12-13", "2 Chronicles 26:16-21", "Jeremiah 31:31-34", "Leviticus 25:8-13", "Deuteronomy 15:2", "Isaiah 61:1", "Luke 4:18-19", "Psalm 82:1-8", "John 10:34-36", "Isaiah 52:7", "Daniel 9:24-27"]
 date_created: 2026-08-02
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -69,12 +69,12 @@ separate times (5:6; 7:17, 21) to press a single point: God said this would happ
 
 ### Memory verses
 
-> ✝️ Psalm 110:4 (ESV)
+> ✝️ [Psalm 110:4 (ESV)](https://www.blueletterbible.org/esv/Psa/110/4)
 >
 > 4 The LORD has sworn and will not change his mind, "You are a priest forever after the order of
 > Melchizedek."
 
-> ✝️ Hebrews 7:22-25 (ESV)
+> ✝️ [Hebrews 7:22-25 (ESV)](https://www.blueletterbible.org/esv/Heb/7/22-25)
 >
 > 22 This makes Jesus the guarantor of a better covenant. 23 The former priests were many in
 > number, because they were prevented by death from continuing in office, 24 but he holds his

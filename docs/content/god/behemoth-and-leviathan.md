@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Job 40:15-24; Job 41:1-34"
 bible_references: ["Job 3:8", "Job 7:12", "Job 9:32-33", "Job 38:4-8", "Job 40:15-24", "Job 41:1-34", "Job 42:1-6", "Genesis 1:2", "Genesis 1:21", "Genesis 2:7", "Psalm 18:8", "Psalm 74:12-15", "Psalm 104:24-26", "Isaiah 27:1", "Ezekiel 29:3", "Romans 1:19-20", "Romans 11:33-36", "1 Timothy 2:5"]
 date_created: 2026-08-23
-date_modified: 2026-08-23
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -26,8 +26,14 @@ Job's complaint before the whirlwind was that no one could bring him and God int
 
 ### Memory verses
 
-- Job 41:11 (ESV) -- "Who has first given to me, that I should repay him? Whatever is under the whole heaven is mine."
-- Job 42:5 (ESV) -- "I had heard of you by the hearing of the ear, but now my eye sees you."
+> ✝️ [Job 41:11 (ESV)](https://www.blueletterbible.org/esv/Job/41/11)
+>
+> 11 Who has first given to me, that I should repay him? Whatever is under the whole heaven is
+> mine.
+
+> ✝️ [Job 42:5 (ESV)](https://www.blueletterbible.org/esv/Job/42/5)
+>
+> 5 I had heard of you by the hearing of the ear, but now my eye sees you.
 
 ### Be Transformed
 

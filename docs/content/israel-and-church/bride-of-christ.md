@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
 bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20"]
 date_created: 2026-09-01
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -54,17 +54,27 @@ meal unfinished, with a promise to complete it.
 
 ### Memory verses
 
-"This mystery is profound, and I am saying that it refers to Christ and the church" (Ephesians 5:32,
-ESV). "Let us rejoice and exult and give him the glory, for the marriage of the Lamb has come, and
-his Bride has made herself ready" (Revelation 19:7, ESV).
+> ✝️ [Ephesians 5:32 (ESV)](https://www.blueletterbible.org/esv/Eph/5/32)
+>
+> 32 This mystery is profound, and I am saying that it refers to Christ and the church.
+
+> ✝️ [Revelation 19:7 (ESV)](https://www.blueletterbible.org/esv/Rev/19/7)
+>
+> 7 Let us rejoice and exult and give him the glory, for the marriage of the Lamb has come, and his
+> Bride has made herself ready.
 
 ### Be Transformed
 
-Revelation says the Bride "has made herself ready," then immediately says how: "it was granted her to
-clothe herself with fine linen, bright and pure" (19:8). Granted. The preparation is real and it is
-given, which rules out both passivity and self-congratulation. Paul puts the same two halves
-together: Christ acts "so that he might present the church to himself in splendor" (Ephesians 5:27),
-and the church lives now as one already spoken for.
+- **Think.** The Bride "made herself ready" only because "it was granted her" (Revelation 19:8,
+  ESV) — the preparation is real and it is given, not self-generated. Rule out both errors at once:
+  you are not waiting passively for Christ to do all the work, and you are not producing your own
+  splendor for Him to inspect.
+- **Attitude.** Live now the way someone already spoken for lives — Christ has already acted "so
+  that he might present the church to himself in splendor" (Ephesians 5:27). That is your identity
+  while you wait, not a status you are still working to earn.
+- **Do.** Name one place you are dressing yourself in something Christ has not granted you —
+  effort, performance, a righteousness you manufactured instead of received — and put it down in
+  favor of what has actually been given you.
 
 ### Prayer
 

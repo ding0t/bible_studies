@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:45-25:46"
 bible_references: ["Matthew 24:3", "Matthew 24:45-51", "Matthew 25:1-46", "Matthew 9:15", "Matthew 10:40-42", "Matthew 12:48-50", "Matthew 13:10-17", "Matthew 13:34-35", "Matthew 15:15-16", "Matthew 18:23-35", "Matthew 20:1-16", "Psalm 78:2", "Isaiah 54:5", "Hosea 2:16", "Jeremiah 31:32", "Ezekiel 34:11-12", "Ezekiel 34:17-24", "Luke 12:35-48", "Luke 19:11-27", "John 3:29"]
 date_created: 2026-08-29
-date_modified: 2026-09-15
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -119,14 +119,25 @@ someone in real need this week reaches Him, and so does what you decide not to b
 
 ### Memory verses
 
-- **Matthew 25:13 (ESV)** — "Watch therefore, for you know neither the day nor the hour." The
-  discourse's own summary of all four. See [The Ten Virgins](#the-ten-virgins-251-13) for what it
-  does *not* mean: every one of the ten slept.
-- **Matthew 25:21 (ESV)** — "Well done, good and faithful servant. You have been faithful over a
-  little; I will set you over much." Word for word what the two-talent servant hears as well as the
-  five (25:21, 23). See [The Talents](#the-talents-2514-30).
-- **Matthew 25:40 (ESV)** — "Truly, I say to you, as you did it to one of the least of these my
-  brothers, you did it to me." See [The Sheep and the Goats](#the-sheep-and-the-goats-2531-46).
+> ✝️ [Matthew 25:13 (ESV)](https://www.blueletterbible.org/esv/Mat/25/13)
+>
+> 13 Watch therefore, for you know neither the day nor the hour.
+
+See [The Ten Virgins](#the-ten-virgins-251-13).
+
+> ✝️ [Matthew 25:21 (ESV)](https://www.blueletterbible.org/esv/Mat/25/21)
+>
+> 21 Well done, good and faithful servant. You have been faithful over a little; I will set you
+> over much.
+
+See [The Talents](#the-talents-2514-30).
+
+> ✝️ [Matthew 25:40 (ESV)](https://www.blueletterbible.org/esv/Mat/25/40)
+>
+> 40 Truly, I say to you, as you did it to one of the least of these my brothers, you did it to
+> me.
+
+See [The Sheep and the Goats](#the-sheep-and-the-goats-2531-46).
 
 ### Be Transformed
 

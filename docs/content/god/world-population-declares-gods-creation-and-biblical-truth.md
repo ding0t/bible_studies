@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 9:1-19"
 bible_references: ["Genesis 1:20-21", "Genesis 1:28", "Genesis 5:32", "Genesis 6:1", "Genesis 7:11", "Genesis 7:21", "Genesis 8:17", "Genesis 9:1-19", "Genesis 9:28-29", "Genesis 10:1-32", "Genesis 11:1-9", "Genesis 11:10", "Genesis 13:16", "Genesis 15:5", "Genesis 22:17", "Genesis 46:26-27", "Exodus 1:5-7", "Exodus 1:12", "Exodus 8:3", "Exodus 12:37-41", "Leviticus 11:29", "Leviticus 11:41-46", "Numbers 1:2-3", "Numbers 1:45-46", "Deuteronomy 10:22", "2 Samuel 24:9", "1 Chronicles 21:5", "Psalm 105:30", "Jeremiah 33:22", "Ezekiel 47:9", "Acts 7:14", "Acts 17:26", "Romans 1:20", "Galatians 3:16", "Galatians 3:17", "Galatians 3:29", "Hebrews 11:12", "Revelation 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-09-06
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -44,12 +44,21 @@ since Genesis 13, finally shown.
 
 ### Memory verses
 
-- Genesis 9:1 (ESV) — "And God blessed Noah and his sons and said to them, 'Be fruitful and multiply
-  and fill the earth.'"
-- Genesis 15:5 (ESV) — "Look toward heaven, and number the stars, if you are able to number them.
-  Then he said to him, 'So shall your offspring be.'"
-- Revelation 7:9 (ESV) — "a great multitude that no one could number, from every nation, from all
-  tribes and peoples and languages."
+> ✝️ [Genesis 9:1 (ESV)](https://www.blueletterbible.org/esv/Gen/9/1)
+>
+> 1 And God blessed Noah and his sons and said to them, "Be fruitful and multiply and fill the
+> earth."
+
+> ✝️ [Genesis 15:5 (ESV)](https://www.blueletterbible.org/esv/Gen/15/5)
+>
+> 5 And he brought him outside and said, "Look toward heaven, and number the stars, if you are able
+> to number them." Then he said to him, "So shall your offspring be."
+
+> ✝️ [Revelation 7:9 (ESV)](https://www.blueletterbible.org/esv/Rev/7/9)
+>
+> 9 After this I looked, and behold, a great multitude that no one could number, from every nation,
+> from all tribes and peoples and languages, standing before the throne and before the Lamb,
+> clothed in white robes, with palm branches in their hands,
 
 ### Be Transformed
 

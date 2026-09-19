@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Thessalonians 4:15-18"
 bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "1 Corinthians 11:25", "1 Corinthians 6:19-20", "Ephesians 5:25-27", "1 Corinthians 1:2", "1 Corinthians 6:11", "Hebrews 10:10", "Hebrews 13:12", "Ephesians 2:10", "Genesis 5:21-24", "Hebrews 11:5", "Jude 1:14-15", "2 Kings 2:11", "Genesis 7:1", "Genesis 7:16", "Genesis 19:15-16", "Genesis 19:24", "2 Peter 2:5-9", "Luke 17:28-30", "Revelation 7:9-14", "1 Samuel 4:1", "2 Samuel 6:20", "Jeremiah 41:6", "Matthew 25:10", "Colossians 3:4", "Revelation 19:14"]
 date_created: 2024-04-23
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -39,9 +39,19 @@ Whichever view is correct, the core promise doesn't change: Christ is coming for
 
 ### Memory verses
 
-- John 14:3 — "I will come again and will take you to myself, that where I am you may be also."
-- 1 Thessalonians 4:17 — "we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air."
-- 1 Thessalonians 5:9 — "For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ."
+> ✝️ [John 14:3 (ESV)](https://www.blueletterbible.org/esv/Joh/14/3)
+>
+> 3 And if I go and prepare a place for you, I will come again and will take you to myself, that
+> where I am you may be also.
+
+> ✝️ [1 Thessalonians 4:17 (ESV)](https://www.blueletterbible.org/esv/1Th/4/17)
+>
+> 17 Then we who are alive, who are left, will be caught up together with them in the clouds to
+> meet the Lord in the air, and so we will always be with the Lord.
+
+> ✝️ [1 Thessalonians 5:9 (ESV)](https://www.blueletterbible.org/esv/1Th/5/9)
+>
+> 9 For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ.
 
 ### Be Transformed
 

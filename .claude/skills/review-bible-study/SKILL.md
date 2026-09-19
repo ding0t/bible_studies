@@ -104,7 +104,11 @@ earlier session) already wrote.
   (`bible_concordance` / `query.py concordance`) and confirm the occurrence count and reference list the
   study states are what the corpus actually returns right now. A miscounted or stale "only N
   occurrences" claim undermines exactly the kind of argument (*trōgō*, *kophinos*/*spyris*) this site's
-  strongest studies are built on.
+  strongest studies are built on. **When the claim being checked is only a frequency number** ("basileia
+  occurs N times"), pass `count_only=True` (`--count-only` on the CLI) rather than pulling every
+  occurrence — a common word's full list can exceed the tool's own output limit (G932 unrestricted is
+  581 rows) and, inside `research_batch_run`, can blow the whole batch's output budget by itself. Only
+  drop the flag when you actually need the reference list, e.g. to spot-check specific verses.
 - **Did the translators footnote something the study never mentions?** Pull `note_type='footnote'` for
   the study's `primary_passage` as a standing step — separately from `study_note`, which is editorial
   commentary rather than the committee's own record of its decision. Read them all, not only the ones
@@ -209,7 +213,14 @@ separately rather than folding it in:
    Scripture-derived conviction, not a rule to enforce backward into the exegesis, so the finding is
    "here's a tension to look at," never a suggested rewrite of either the study or the statement.
 
-Then run the mechanical half, which finds omissions that reading cannot:
+Then run the mechanical half, which finds omissions that reading cannot. Use the **`review_gaps`**
+MCP tool with the study's path (called `study_gaps` before 2026-09-18; that alias still works —
+note the rename: the `study_*` tools are about study **Bibles**, not about this repo's study
+files). Prefer it over the CLI form: the result stays structured MCP data in the conversation
+rather than raw stdout text, which matters because the next step is to weigh and report the
+gap kinds separately, not just skim a printout.
+
+CLI fallback when the server is not connected:
 
 ```bash
 cd references/build && uv run python study_gaps.py <path to the study>
@@ -217,7 +228,7 @@ cd references/build && uv run python study_gaps.py <path to the study>
 
 It reads the study's own `primary_passage`/`bible_references`, gathers derived scripture links and
 cross-references against those passages, subtracts every chapter the study already cites, and ranks
-what is left. The MCP equivalent is `review_gaps` (called `study_gaps` before 2026-09-18; that alias still works). Note the rename: the `study_*` tools are about study **Bibles**, not about this repo's study files.
+what is left.
 
 Weigh the kinds differently, and do not let the tool decide for you. A **quotation** is a textual
 fact: if the study treats a passage and never mentions what it quotes, that is a real gap — *The
@@ -328,6 +339,28 @@ not re-read. Ask which facets the study now has — language, context, Christ, t
 transformed — that no question touches, and whether the set's proportions match the study's own. A
 study whose smallest section gets most of its questions has a set left over from an earlier draft.
 Report as **Minor**, or **Moderate** where the questions no longer reflect what the study argues.
+
+**If the study has a Key Takeaways → Be Transformed subsection, check it against
+[key-takeaways.md](../../../docs/content/about/key-takeaways.md#be-transformed).** The default
+shape is three labeled bullets — `**Think.**`, `**Attitude.**`, `**Do.**` — and a study that instead
+has a prose paragraph, an unlabeled list, a different bullet count, or custom labels has drifted from
+the site's convention unless the study genuinely can't be split three ways. This is the same failure
+class as the discussion-questions check above: each shape is individually readable, so nothing looks
+wrong until the corpus is read side by side. A 2026-09-19 audit found 6 of 29 published studies with
+a Be Transformed subsection had drifted this way with no stated reason — this is corpus-wide drift,
+not a rare exception, so check every study that has this subsection rather than only flagging one
+that looks obviously off. Report as **Minor**.
+
+**If the study has a Memory verses subsection, check it against
+[key-takeaways.md](../../../docs/content/about/key-takeaways.md#memory-verses).** The standard shape
+is a block quote with the reference linking to Blue Letter Bible, and no explanatory sentence after
+the verse (a bare "See [section]" locator in a study with several parallel sections is the one
+exception). As of 2026-09-19 this is genuinely unconverted across the corpus — most studies use the
+block quote without the link, some use a bulleted `**Reference** — "quote"` line, and a few fold the
+citation into a paragraph — so don't report every unlinked reference as a fresh regression; report
+missing links as **Minor** (known corpus cleanup) and an explanatory sentence tacked onto a verse as
+**Minor** as well, but flag it by name since it's the part of this shape that's a genuine defect
+rather than a pending conversion.
 
 **Measure any mermaid diagram in the file** against
 [diagrams.md](../develop-bible-study/diagrams.md). A diagram wider than ~560px is scaled down whole

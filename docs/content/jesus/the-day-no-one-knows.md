@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:36; Mark 13:32"
 bible_references: ["Matthew 24:36", "Mark 13:32", "Acts 1:7", "John 2:24-25", "John 21:17", "John 16:30", "Luke 2:52", "Hebrews 5:8", "Philippians 2:6-7", "Zechariah 14:7", "Matthew 25:1-13", "Matthew 24:42", "Matthew 24:45-46", "Matthew 25:19", "Matthew 25:40", "Romans 14:12"]
 date_created: 2026-09-04
-date_modified: 2026-09-05
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -46,17 +46,23 @@ falls on the Father's prerogative rather than on the Son's limitation.
 
 ### Memory verses
 
-"It is not for you to know times or seasons that the Father has fixed by his own authority"
-(Acts 1:7, ESV).
+> ✝️ [Acts 1:7 (ESV)](https://www.blueletterbible.org/esv/Act/1/7)
+>
+> 7 He said to them, "It is not for you to know times or seasons that the Father has fixed by his
+> own authority."
 
 ### Be Transformed
 
-If the date is the Father's to give and he has not given it, then every scheme for working it out is
-effort spent against the grain of the text. What is left is readiness — and the parables that follow
-define that as being answerable rather than expectant. The servant is blessed for being found *doing
-the job he was given* (Matthew 24:46); the master "settled accounts" (25:19); the nations are
-separated on what they did for "the least of these" (25:40). "Each of us will give an account of
-himself to God" (Romans 14:12, ESV).
+- **Think.** The date is the Father's to give, and he has not given it (Mark 13:32) — every scheme
+  for working it out spends effort against the grain of the text. What Scripture leaves you instead
+  is readiness, and the parables that follow define that as being answerable, not as having
+  predicted anything.
+- **Attitude.** Hold the posture of the servant who is blessed simply for being found *doing the
+  job he was given* (Matthew 24:46), not the posture of someone straining toward a horizon.
+  Readiness looks like faithfulness in the meantime, not expectancy about a date.
+- **Do.** "Each of us will give an account of himself to God" (Romans 14:12, ESV) — ask today what
+  that account would say, and let the nations' test in Matthew 25:40 ("as you did it to one of the
+  least of these") name one concrete thing to do about it before this day is out.
 
 ### Prayer
 

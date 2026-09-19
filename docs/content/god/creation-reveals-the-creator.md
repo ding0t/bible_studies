@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Romans 1:19-23"
 bible_references: ["Psalm 19:1-4", "Acts 14:15-17", "Acts 17:24-28", "Job 38:4-7", "Ephesians 2:10", "Colossians 1:15-17", "Hebrews 1:1-3", "Romans 10:14-17", "Romans 3:11"]
 date_created: 2026-08-04
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -25,8 +25,15 @@ Creation's testimony to God's "eternal power and divine nature" (Romans 1:20, ES
 
 ### Memory verses
 
-- Romans 1:20 (ESV) -- "For his invisible attributes, namely, his eternal power and divine nature, have been clearly perceived, ever since the creation of the world, in the things that have been made. So they are without excuse."
-- Psalm 19:1 (ESV) -- "The heavens declare the glory of God, and the sky above proclaims his handiwork."
+> ✝️ [Romans 1:20 (ESV)](https://www.blueletterbible.org/esv/Rom/1/20)
+>
+> 20 For his invisible attributes, namely, his eternal power and divine nature, have been clearly
+> perceived, ever since the creation of the world, in the things that have been made. So they are
+> without excuse.
+
+> ✝️ [Psalm 19:1 (ESV)](https://www.blueletterbible.org/esv/Psa/19/1)
+>
+> 1 The heavens declare the glory of God, and the sky above proclaims his handiwork.
 
 ### Be Transformed
 

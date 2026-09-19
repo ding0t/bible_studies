@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 10:1-4; Mark 3:13-19; Luke 6:12-16; Acts 1:13"
 bible_references: ["John 1:35-51", "Matthew 4:18-22", "Luke 5:1-11", "Mark 6:7-13", "Matthew 19:28", "Revelation 21:12-14", "Ephesians 2:20", "Acts 1:15-26", "Matthew 10:5-6", "Mark 14:50", "Luke 22:24", "John 15:16", "John 12:20-22", "Titus 3:5"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -44,11 +44,11 @@ is dissolved into the other.
 
 ### Memory verses
 
-> ✝️ Mark 3:14 (ESV)
+> ✝️ [Mark 3:14 (ESV)](https://www.blueletterbible.org/esv/Mar/3/14)
 >
 > 14 And he appointed twelve (whom he also named apostles) so that they might be with him and he might send them out to preach
 
-> ✝️ John 15:16 (ESV)
+> ✝️ [John 15:16 (ESV)](https://www.blueletterbible.org/esv/Joh/15/16)
 >
 > 16 You did not choose me, but I chose you and appointed you that you should go and bear fruit and that your fruit should abide, so that whatever you ask the Father in my name, he may give it to you.
 

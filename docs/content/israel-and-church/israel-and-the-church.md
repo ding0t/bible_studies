@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Romans 11:1-29; Ephesians 2:11-22"
 bible_references: ["Romans 9:1-6", "Romans 11:1-5", "Romans 11:17-24", "Romans 10:1", "Isaiah 59:20", "Psalm 14:7", "Hebrews 8:8-10", "Isaiah 11:11", "Jeremiah 9:25-26", "Genesis 17:5", "Acts 18:2", "1 Corinthians 10:18", "1 Corinthians 10:32", "Ephesians 3:1-9", "Colossians 1:25-27", "Daniel 2:27-30", "Acts 15:13-18", "Acts 1:6-7", "Revelation 7:1-9", "Ezekiel 36:22-28", "Ezekiel 37:15-22", "Ezekiel 20:34-38", "Jeremiah 30:7", "Zechariah 12:10", "Zechariah 13:8-9", "Galatians 6:16", "Galatians 3:29", "Romans 2:28-29", "1 Peter 2:9", "Amos 9:11-15", "Hosea 1:9-11", "Hosea 5:15", "Romans 9:25-26", "Romans 15:8-12", "Deuteronomy 4:30-31", "Daniel 12:1", "Isaiah 49:6", "Genesis 12:3"]
 date_created: 2026-07-24
-date_modified: 2026-08-24
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -56,15 +56,15 @@ branches grafted back "into their own olive tree" (11:24).
 
 ### Memory verses
 
-> ✝️ Romans 11:29 (ESV)
+> ✝️ [Romans 11:29 (ESV)](https://www.blueletterbible.org/esv/Rom/11/29)
 >
 > 29 For the gifts and the calling of God are irrevocable.
 
-> ✝️ 1 Corinthians 10:32 (ESV)
+> ✝️ [1 Corinthians 10:32 (ESV)](https://www.blueletterbible.org/esv/1Co/10/32)
 >
 > 32 Give no offense to Jews or to Greeks or to the church of God,
 
-> ✝️ Ephesians 2:19 (ESV)
+> ✝️ [Ephesians 2:19 (ESV)](https://www.blueletterbible.org/esv/Eph/2/19)
 >
 > 19 So then you are no longer strangers and aliens, but you are fellow citizens with the saints and
 > members of the household of God,

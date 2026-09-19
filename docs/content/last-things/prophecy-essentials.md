@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 24:27"
 bible_references: ["Micah 5:2", "Matthew 2:1-6", "2 Samuel 5:2", "Isaiah 53:5", "Isaiah 53:9", "Psalm 22:16-18", "John 19:23-24", "Matthew 27:57-60", "Daniel 9:24-27", "Luke 19:41-44", "Matthew 24:1-2", "Matthew 24:14-15", "Matthew 24:21", "Matthew 24:34", "Mark 13:1-8", "Mark 13:14-27", "Mark 13:32", "1 Thessalonians 4:16-17", "1 Thessalonians 5:9", "Revelation 19:11-16", "Revelation 20:1-6", "Colossians 2:16-17"]
 date_created: 2026-07-24
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -51,12 +51,21 @@ each one is checked, not asserted.
 
 ### Memory verses
 
-- Luke 24:27 -- "And beginning with Moses and all the Prophets, he interpreted to them in all the
-  Scriptures the things concerning himself."
-- Micah 5:2 -- "But you, O Bethlehem Ephrathah... from you shall come forth for me one who is to be
-  ruler in Israel."
-- Daniel 9:27 -- "And he shall make a strong covenant with many for one week, and for half of the
-  week he shall put an end to sacrifice and offering."
+> ✝️ [Luke 24:27 (ESV)](https://www.blueletterbible.org/esv/Luk/24/27)
+>
+> 27 And beginning with Moses and all the Prophets, he interpreted to them in all the Scriptures
+> the things concerning himself.
+
+> ✝️ [Micah 5:2 (ESV)](https://www.blueletterbible.org/esv/Mic/5/2)
+>
+> 2 But you, O Bethlehem Ephrathah, who are too little to be among the clans of Judah, from you
+> shall come forth for me one who is to be ruler in Israel, whose coming forth is from of old, from
+> ancient days.
+
+> ✝️ [Daniel 9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27)
+>
+> 27 And he shall make a strong covenant with many for one week, and for half of the week he shall
+> put an end to sacrifice and offering.
 
 ### Be Transformed
 

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Colossians 2:16-17"
 bible_references: ["2 Timothy 3:16-17", "2 Timothy 3:8", "Luke 24:25-27", "Matthew 5:17-18", "Hebrews 10:1", "1 Corinthians 5:7-8", "Leviticus 23:2-4", "Deuteronomy 6:4-7", "Genesis 2:2-3", "Psalm 119:105", "Romans 15:4", "Acts 17:11", "Galatians 5:1-4", "Acts 15:10-11", "Jude 1:9", "Jude 1:14-15", "Deuteronomy 34:5-7"]
 date_created: 2025-05-21
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -61,18 +61,18 @@ himself" (Luke 24:27).
 
 ### Memory verses
 
-> ✝️ Colossians 2:16-17 (ESV)
+> ✝️ [Colossians 2:16-17 (ESV)](https://www.blueletterbible.org/esv/Col/2/16-17)
 >
 > 16 Therefore let no one pass judgment on you in questions of food and drink, or with regard to a
 > festival or a new moon or a Sabbath. 17 These are a shadow of the things to come, but the substance
 > belongs to Christ.
 
-> ✝️ Luke 24:27 (ESV)
+> ✝️ [Luke 24:27 (ESV)](https://www.blueletterbible.org/esv/Luk/24/27)
 >
 > 27 And beginning with Moses and all the Prophets, he interpreted to them in all the Scriptures the
 > things concerning himself.
 
-> ✝️ Romans 15:4 (ESV)
+> ✝️ [Romans 15:4 (ESV)](https://www.blueletterbible.org/esv/Rom/15/4)
 >
 > 4 For whatever was written in former days was written for our instruction, that through endurance
 > and through the encouragement of the Scriptures we might have hope.

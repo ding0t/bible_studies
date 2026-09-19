@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24; Mark 13; Luke 21"
 bible_references: ["Matthew 23:36-39", "Matthew 24:1-51", "Acts 12:1-2", "John 21:18-19", "Revelation 1:9", "Mark 13:1-37", "Mark 14:32-42", "Mark 14:50", "Luke 21:5-36", "Luke 17:22-37", "Luke 19:41-44", "Daniel 9:24-27", "Daniel 11:31", "Daniel 12:1-11", "Zechariah 14:1-5", "Isaiah 13:9-10", "Isaiah 27:12-13", "Joel 2:30-31", "Daniel 7:13-14", "Daniel 2:44", "Revelation 7:14", "Revelation 1:7", "Revelation 19:11-16", "Revelation 20:1-6", "Revelation 21:1-4", "2 Thessalonians 2:1-4", "1 Thessalonians 4:13-18", "1 Thessalonians 5:1-4", "2 Peter 3:3-13", "John 14:3", "Acts 1:9-12", "Romans 14:12", "Hebrews 13:17", "1 Peter 3:15", "Matthew 25:19", "Exodus 22:26-27", "Ezekiel 39:17-20", "Matthew 10:35-36", "Micah 7:6", "Matthew 21:18-22", "Mark 11:12-25", "Jeremiah 8:13", "Hosea 9:10", "Joel 1:7"]
 date_created: 2026-08-29
-date_modified: 2026-09-05
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -56,17 +56,26 @@ fixed by his own authority" (Acts 1:7, ESV).
 
 ### Memory verses
 
-"Heaven and earth will pass away, but my words will not pass away" (Matthew 24:35, ESV). "And what I
-say to you I say to all: Stay awake" (Mark 13:37, ESV).
+> ✝️ [Matthew 24:35 (ESV)](https://www.blueletterbible.org/esv/Mat/24/35)
+>
+> 35 Heaven and earth will pass away, but my words will not pass away.
+
+> ✝️ [Mark 13:37 (ESV)](https://www.blueletterbible.org/esv/Mar/13/37)
+>
+> 37 And what I say to you I say to all: Stay awake.
 
 ### Be Transformed
 
-Jesus gives his disciples something to do about the future, and it is not arithmetic. Stay awake
-(Mark 13:37); do not be led astray (Matthew 24:4); endure (24:13); keep working at what you were
-given (24:45-46). Every imperative in the discourse is about conduct in the meantime. None of them
-is about calculation. Peter, who heard all of it, drew the same conclusion decades later: since
-everything visible is going to burn, "what sort of people ought you to be in lives of holiness and
-godliness" (2 Peter 3:11, ESV).
+- **Think.** Not one of the discourse's imperatives asks you to calculate anything. Jesus gives his
+  disciples something to do about the future, and arithmetic is not on the list — stay awake
+  (Mark 13:37), do not be led astray (Matthew 24:4), endure (24:13), keep working at what you were
+  given (24:45-46). Every imperative is about conduct in the meantime.
+- **Attitude.** Peter drew the conclusion from all of it decades later: since everything visible is
+  going to burn, the question is "what sort of people ought you to be in lives of holiness and
+  godliness" (2 Peter 3:11, ESV) — a settled disposition, not anxious watching for signs.
+- **Do.** Pick one of the four imperatives above and name where it currently applies to you — where
+  you are being led astray, where endurance is actually costing you something, or what you were
+  given to keep working at while you wait.
 
 ### Prayer
 

@@ -7,7 +7,7 @@ draft: true
 primary_passage: "Leviticus 23:9-14"
 bible_references: ["Leviticus 23:9-14", "Leviticus 23:15-16", "Leviticus 23:5-8", "Leviticus 7:30", "Joshua 5:10-12", "Exodus 23:19", "Exodus 34:26", "Deuteronomy 16:9", "1 Corinthians 15:20-23", "1 Corinthians 5:7", "Romans 8:23", "Romans 11:16", "James 1:18", "Revelation 14:4", "Colossians 1:18", "Revelation 1:5", "John 12:24", "Matthew 28:1", "John 20:1", "Ruth 1:22", "Numbers 28:26", "Exodus 34:22", "Numbers 15:20-21"]
 date_created: 2026-09-07
-date_modified: 2026-09-07
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -53,13 +53,13 @@ the crucifixion year, uniquely, both readings land on the same Sunday.
 
 ### Memory verses
 
-> ✝️ Leviticus 23:14 (ESV)
+> ✝️ [Leviticus 23:14 (ESV)](https://www.blueletterbible.org/esv/Lev/23/14)
 >
 > 14 And you shall eat neither bread nor grain parched or fresh until this same day, until you have
 > brought the offering of your God: it is a statute forever throughout your generations in all your
 > dwellings.
 
-> ✝️ 1 Corinthians 15:20 (ESV)
+> ✝️ [1 Corinthians 15:20 (ESV)](https://www.blueletterbible.org/esv/1Co/15/20)
 >
 > 20 But in fact Christ has been raised from the dead, the firstfruits of those who have fallen
 > asleep.

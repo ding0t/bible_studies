@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-13"
 bible_references: ["Revelation 1:3", "James 5:7-8", "Mark 13:32-37", "Matthew 24:3-14", "Exodus 20:11", "Hebrews 4:1-13", "Revelation 20:1-7", "Acts 1:9-11", "Genesis 1:14-19", "Colossians 2:16-17"]
 date_created: 2024-05-29
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -39,9 +39,21 @@ John opens Revelation by pronouncing a blessing on the reader before a single se
 
 ### Memory verses
 
-- 2 Peter 3:8 -- "with the Lord one day is as a thousand years, and a thousand years as one day."
-- Mark 13:32 -- "concerning that day or that hour, no one knows... but only the Father."
-- James 5:7 -- "Be patient, therefore, brothers, until the coming of the Lord."
+> ✝️ [2 Peter 3:8 (ESV)](https://www.blueletterbible.org/esv/2Pe/3/8)
+>
+> 8 But do not overlook this one fact, beloved, that with the Lord one day is as a thousand years,
+> and a thousand years as one day.
+
+> ✝️ [Mark 13:32 (ESV)](https://www.blueletterbible.org/esv/Mar/13/32)
+>
+> 32 But concerning that day or that hour, no one knows, not even the angels in heaven, nor the
+> Son, but only the Father.
+
+> ✝️ [James 5:7 (ESV)](https://www.blueletterbible.org/esv/Jas/5/7)
+>
+> 7 Be patient, therefore, brothers, until the coming of the Lord. See how the farmer waits for the
+> precious fruit of the earth, being patient about it, until it receives the early and the late
+> rains.
 
 ### Be Transformed
 

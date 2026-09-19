@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 119; Revelation 13:18"
 bible_references: ["Genesis 1:1", "Proverbs 25:2", "Deuteronomy 29:29", "Psalm 145:13", "Lamentations 1:1-22", "Lamentations 3:1-66", "Lamentations 5:1-22", "Proverbs 31:10-31", "Daniel 5:25-28", "Matthew 1:17", "Luke 14:28", "2 Timothy 3:16-17", "Revelation 13:18", "Deuteronomy 6:4", "Deuteronomy 19:15", "Jonah 1:17", "1 Corinthians 15:4", "Genesis 2:10", "Revelation 4:6-8", "Genesis 1:26-31", "Genesis 2:2-3", "Leviticus 23:1-44", "Genesis 17:12", "1 Peter 3:20", "Exodus 20:1-17", "Genesis 49:1-28", "Matthew 10:2-4", "Revelation 21:12-14", "Genesis 7:12", "Numbers 14:33-34", "Matthew 4:2"]
 date_created: 2025-12-13
-date_modified: 2026-08-23
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -44,32 +44,28 @@ prototyping — see that page for what each part is for and why.)*
 
 ### Memory verses
 
-> ✝️ Deuteronomy 29:29 (ESV)
+> ✝️ [Deuteronomy 29:29 (ESV)](https://www.blueletterbible.org/esv/Deu/29/29)
 >
 > 29 The secret things belong to the LORD our God, but the things that are revealed belong to us and
 > to our children forever, that we may do all the words of this law.
 
-> ✝️ Proverbs 25:2 (ESV)
+> ✝️ [Proverbs 25:2 (ESV)](https://www.blueletterbible.org/esv/Pro/25/2)
 >
 > 2 It is the glory of God to conceal things, but the glory of kings is to search things out.
 
-These two verses are the guardrails of this whole subject, and they are meant to be held together.
-Proverbs licenses the search. Deuteronomy tells you what the search is *for* — "that we may do all
-the words of this law" — and warns that some things were never put on the table.
-
 ### Be Transformed
 
-- Apply one test to every numerical claim you meet, including the ones in this study: **did the
-  author build this pattern, or did I?** A pattern you had to choose a counting method to produce is
-  your pattern, not his.
-- Notice how much of Scripture's craft you have been reading past. The point of learning that
-  Lamentations is an alphabet running out of letters is not trivia — it is that the book was
-  composed by someone containing grief inside a form on purpose.
-- Be suspicious of any reading that makes you a member of a small circle who "sees" what ordinary
-  readers miss. Scripture's structure is the opposite: publicly checkable, and pointing back to
-  things already stated plainly.
-- Watch for the tell in yourself. If a numerical argument arrives conveniently supporting what you
-  already believed, that is precisely when to slow down.
+- **Think.** Apply one test to every numerical claim you meet, including the ones in this study:
+  did the author build this pattern, or did I? A pattern you had to choose a counting method to
+  produce is your pattern, not his — and be suspicious of any reading that makes you a member of a
+  small circle who "sees" what ordinary readers miss. Scripture's structure is the opposite:
+  publicly checkable, and pointing back to things already stated plainly.
+- **Attitude.** Notice how much of Scripture's craft you have been reading past. The point of
+  learning that Lamentations is an alphabet running out of letters is not trivia — it is that the
+  book was composed by someone containing grief inside a form on purpose.
+- **Do.** Watch for the tell in yourself: if a numerical argument arrives conveniently supporting
+  what you already believed, that is precisely when to slow down and test it against the rule
+  above.
 
 ### Prayer
 

@@ -5,7 +5,7 @@ description: "What the Key Takeaways section at the top of every study is for, t
 tags: ["study-method", "key-takeaways", "transformation"]
 draft: false
 date_created: 2026-08-02
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -21,8 +21,9 @@ shaped the way it is, and what belongs in each part of it.
 
     A study's exegesis tells you what the text meant. Key Takeaways is where that gets turned
     outward — toward Christ, toward memory, toward prayer, toward how you actually live — before
-    the reader has to go looking for it. It's a prototype: this page, the studies using it, and the
-    shape of the section itself are all still being grown out.
+    the reader has to go looking for it. The section itself is now standard across the site; what
+    still gets refined is how consistently each part is written to the shape below — see
+    [Status](#status).
 
 ---
 
@@ -99,6 +100,41 @@ One to three verses from the study worth committing to memory, named with refere
 These should already appear, quoted and cited, somewhere in the study's own body. This subsection
 points back to them. It introduces no new quotations.
 
+**Shape: the standard scripture quote block, with the reference itself linking to Blue Letter
+Bible.**
+
+```
+> ✝️ [Romans 8:1 (ESV)](https://www.blueletterbible.org/esv/Rom/8/1)
+>
+> 1 There is therefore now no condemnation for those who are in Christ Jesus.
+```
+
+That's the site's existing `> ✝️ Reference (TRANSLATION)` block quote shape (develop-bible-study
+Phase 7), with one addition specific to this subsection: the reference itself becomes a link. A
+memory verse is the one place on a page a reader is meant to come back to on its own, days later,
+without the study's argument around it — a working link straight to the text (in the translation
+actually quoted, to read in context or compare) earns its place here in a way it wouldn't inside the
+walk-through, where the full verse is already quoted and argued from. A 2026-09-19 audit found the
+corpus currently running three different shapes for this subsection at once — the block quote above
+(most studies), a bulleted `**Reference (Translation)** — "quote"` line (a handful), and a bare
+citation folded into a paragraph (about a third) — with no study yet using the BLB link. Converge
+new and edited studies on the block-quote-with-link shape above; leave the mixed corpus as a known
+cleanup rather than a silent inconsistency. **Check the link resolves before publishing** — most of
+what this site quotes (ESV, WEB, ASV, NASB, NIV) is hosted at Blue Letter Bible under a predictable
+`/<version>/<Book>/<chapter>/<verse>` path, but a study occasionally quotes something rarer (the
+Masoretic Text, LXX, a named lexicon's own rendering); don't construct a URL from the pattern and
+assume it works, follow it.
+
+**No commentary after the verse.** A memory verse's whole job is to be lifted out and held onto
+exactly as it stands; a sentence of explanation right after it works against that, because now the
+reader has to hold the explanation in mind along with the verse instead of just the verse. Where a
+verse needs framing, that framing belongs in Lessons about Jesus or the walk-through it's drawn
+from — not appended here. The one exception is a bare locator, "See [The Ten
+Virgins](#the-ten-virgins-251-13)", in a study whose Memory verses draws one verse from each of
+several parallel sections — that's navigation back to where the verse is argued, not commentary
+competing with it, and the same audit found it used well this way in
+[olivet-discourse-parables.md](../last-things/olivet-discourse-parables.md).
+
 ### Be Transformed
 
 The Romans 12:2 payoff, made concrete: specific thoughts, attitudes, actions, or behaviors this
@@ -107,10 +143,24 @@ way this site's develop-bible-study process already asks of application generall
 be able to tell what the text *said* from what the study is *applying*. This is where the applying
 happens, so name it directly rather than leaving the reader to infer it.
 
-In practice, three short labeled bullets work well. **Think**, a thought or belief to correct.
-**Attitude**, a posture or disposition to adopt. **Do**, an action or behavior to take. Those three
-cover the same four things in Romans 12:2's own vocabulary — thoughts, attitudes, actions, behaviors
-— because "actions" and "behaviors" are close enough in practice to share one bullet.
+**The default shape is three labeled bullets: `**Think.**`, `**Attitude.**`, `**Do.**`** — not one
+option among several, the expected shape whenever this subsection appears. **Think** is a thought or
+belief to correct. **Attitude** is a posture or disposition to adopt. **Do** is an action or behavior
+to take. Those three cover the same four things in Romans 12:2's own vocabulary — thoughts,
+attitudes, actions, behaviors — because "actions" and "behaviors" are close enough in practice to
+share one bullet.
+
+A study earns a different shape only when the application genuinely will not split three ways —
+never as a default to fall back on when writing the three bullets feels like more work than a
+paragraph. If a study's Be Transformed is prose instead of three labeled bullets, or has a different
+bullet count, or uses different labels, that is a deviation from the site's convention and should be
+a deliberate, visible choice, not an unlabeled drift — the same standard
+[style-guide.md](../../../.claude/skills/develop-bible-study/style-guide.md) already holds contested
+claims to. A 2026-09-19 audit found 6 of 29 published studies with a Be Transformed subsection had
+drifted from the three-bullet shape without any such reason on record — the same class of defect
+[discussion-questions.md](../../../.claude/skills/develop-bible-study/discussion-questions.md)
+names for its own section: individually defensible, collectively inconsistent, and invisible to
+every mechanical check.
 
 ### Prayer
 
@@ -145,7 +195,26 @@ reader or a group to work through afterward.
 
 ## Status
 
-This is a prototype, first built out on [Jesus, Priest in the Order of
-Melchizedek](../jesus/melchizedek-priesthood.md). Expect the shape of this page and the studies
-using it to keep changing as it gets tried against more studies. This page will be updated as that
-happens, rather than left to drift out of sync with what studies actually do.
+First built out on [Jesus, Priest in the Order of Melchizedek](../jesus/melchizedek-priesthood.md);
+by 2026-09-19, 29 published studies carry a Key Takeaways section, and the shape itself has stopped
+changing — what an audit now finds is drift in how faithfully individual studies follow it, not gaps
+in what this page says to do. That makes this page's own job different than it was as a prototype:
+less "decide the shape" and more "say the shape precisely enough that drift is visible," since a
+subsection that's individually readable can still be quietly inconsistent with the rest of the
+corpus — the same failure named in
+[discussion-questions.md](../../../.claude/skills/develop-bible-study/discussion-questions.md)'s
+"failure mode" section for its own part of a study. This page is still updated whenever that
+happens, now as a refinement log rather than a redesign:
+
+- **2026-09-19 — Be Transformed's three-bullet shape made the explicit default**, not one option
+  among several. It had been true in practice but phrased as "works well" — a suggestion — and the
+  develop-bible-study skill's own Phase 7 table (what a drafting session actually reads while
+  writing) never named the three labels at all, only this separately-linked page did. A corpus audit
+  found 6 of 29 studies had drifted to prose or custom labels with no reason on record; all six were
+  brought into the shape. The shape is now also stated in develop-bible-study's Phase 7 table
+  directly, and review-bible-study's Phase 8 now audits for it — this page is the one place the
+  *rule* lives, but not the only place a session needs to see it to follow it.
+- **2026-09-19 — Memory verses' shape settled**: the block quote already used by most studies, with
+  the reference linking to Blue Letter Bible, and no explanatory sentence after the verse. See
+  [Memory verses](#memory-verses) above for the shape and the reasoning; the existing corpus is left
+  as a known cleanup, not yet converted.

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Acts 9:1-19; Romans 11:11-24"
 bible_references: ["Acts 9:15", "Acts 26:12-18", "Galatians 1:11-24", "Galatians 2:7-9", "Philippians 3:4-11", "1 Timothy 1:12-16", "1 Corinthians 15:8-10", "Ephesians 3:1-8", "Romans 9:22-24", "Ephesians 2:12-13"]
 date_created: 2026-08-29
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -49,11 +49,11 @@ a common grammar: grace to someone with no natural claim. The text still keeps t
 
 ### Memory verses
 
-> ✝️ Acts 9:15 (ESV)
+> ✝️ [Acts 9:15 (ESV)](https://www.blueletterbible.org/esv/Act/9/15)
 >
 > 15 But the Lord said to him, "Go, for he is a chosen instrument of mine to carry my name before the Gentiles and kings and the children of Israel.
 
-> ✝️ 1 Timothy 1:15-16 (ESV)
+> ✝️ [1 Timothy 1:15-16 (ESV)](https://www.blueletterbible.org/esv/1Ti/1/15-16)
 >
 > 15 The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners, of whom I am the foremost. 16 But I received mercy for this reason, that in me, as the foremost, Jesus Christ might display his perfect patience as an example to those who were to believe in him for eternal life.
 

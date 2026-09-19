@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 21:4-9; John 3:14-15"
 bible_references: ["John 3:1-21", "John 3:16", "John 8:28", "John 12:32-34", "John 20:30-31", "2 Kings 18:1-4", "Isaiah 11:10", "Isaiah 52:13", "Genesis 3:14-15", "2 Corinthians 5:21", "Romans 8:3", "Hebrews 4:15", "Numbers 11:1-3", "Numbers 16:46-48", "Numbers 14:39-45", "Exodus 16:2-5", "Numbers 20:22-29", "Numbers 21:21-35", "Deuteronomy 8:15", "Revelation 12:9", "Isaiah 6:2", "Isaiah 6:6"]
 date_created: 2026-07-22
-date_modified: 2026-08-23
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -52,10 +52,15 @@ prophecy argues from a stated prediction coming true. Both land on the same cros
 
 ### Memory verses
 
-- **John 3:14-15 (ESV)** — "And as Moses lifted up the serpent in the wilderness, so must the Son of
-  Man be lifted up, that whoever believes in him may have eternal life."
-- **Numbers 21:8 (ESV)** — "Make a fiery serpent and set it on a pole, and everyone who is bitten,
-  when he sees it, shall live."
+> ✝️ [John 3:14-15 (ESV)](https://www.blueletterbible.org/esv/Joh/3/14-15)
+>
+> 14 And as Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up,
+> 15 that whoever believes in him may have eternal life.
+
+> ✝️ [Numbers 21:8 (ESV)](https://www.blueletterbible.org/esv/Num/21/8)
+>
+> 8 And the LORD said to Moses, "Make a fiery serpent and set it on a pole, and everyone who is
+> bitten, when he sees it, shall live."
 
 ### Be Transformed
 

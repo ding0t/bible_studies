@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 14:6; Acts 9:2"
 bible_references: ["Isaiah 40:3", "Isaiah 35:8-10", "Psalm 1:1-6", "Jeremiah 6:16", "Deuteronomy 10:12-13", "Matthew 3:3", "Mark 1:2-3", "Luke 3:4-6", "John 1:23", "Matthew 7:13-14", "Matthew 21:32", "Luke 1:76-79", "John 13:36-14:14", "Hebrews 3:10", "Hebrews 9:8", "Hebrews 10:19-20", "Acts 4:12", "Acts 9:1-2", "Acts 11:19-26", "Acts 16:17", "Acts 18:24-26", "Acts 19:9", "Acts 19:23", "Acts 22:4", "Acts 24:5", "Acts 24:14", "Acts 24:22", "Acts 26:28", "Acts 28:22", "1 Peter 4:16", "Romans 3:16-17", "Romans 11:33", "1 Corinthians 4:17", "1 Corinthians 12:31", "2 Peter 2:2", "2 Peter 2:15", "2 Peter 2:21", "Jude 1:11", "James 1:8", "James 5:20"]
 date_created: 2026-08-02
-date_modified: 2026-09-13
+date_modified: 2026-09-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -58,12 +58,12 @@ preparing a road for someone else to walk.
 
 ### Memory verses
 
-> ✝️ John 14:6 (ESV)
+> ✝️ [John 14:6 (ESV)](https://www.blueletterbible.org/esv/Joh/14/6)
 >
 > 6 Jesus said to him, "I am the way, and the truth, and the life. No one comes to the Father
 > except through me."
 
-> ✝️ Acts 24:14 (ESV)
+> ✝️ [Acts 24:14 (ESV)](https://www.blueletterbible.org/esv/Act/24/14)
 >
 > 14 But this I confess to you, that according to the Way, which they call a sect, I worship the
 > God of our fathers, believing everything laid down by the Law and written in the Prophets.
