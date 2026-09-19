@@ -1,6 +1,6 @@
 ---
 name: read-bible-study
-description: Restructures an existing study, commentary, or sermon file in docs/content/ so a human can actually read it -- sub-headings that name their content, a one-line thesis before the evidence, related sections regrouped, tables given their context, an unbroken 600-word run broken up. Changes no sentence: structure, headings and placement only. Use when the user asks to make a study more readable, scannable, easier to follow, better structured, less of a wall of text, or asks for a readability or structure pass -- as opposed to review-bible-study, which checks whether the content is true, and develop-bible-study, which writes it.
+description: Restructures an existing study, commentary, or sermon file in docs/content/ so a human can actually read it -- sub-headings that name their content, a one-line thesis before the evidence, related sections regrouped, tables given their context, an unbroken 600-word run broken up. Changes no sentence -- structure, headings and placement only. Use when the user asks to make a study more readable, scannable, easier to follow, better structured, less of a wall of text, or asks for a readability or structure pass -- as opposed to review-bible-study, which checks whether the content is true, and develop-bible-study, which writes it.
 ---
 
 # Make a Bible Study Readable
