@@ -189,6 +189,9 @@ uv run python study_gaps.py docs/content/<study>.md   # what links to a study's 
                                                       # (MCP tool for the same thing: review_gaps)
 uv run python twot_lookup.py --help
 uv run pytest tests/test_invariants.py                # every declared table has rows -- the guard the empty `notes` table needed
+uv run python study_structure.py <path>               # section-by-section prose measurements for the read-bible-study skill
+uv run python study_structure.py <path> --verify-against HEAD  # prove a restructure changed no sentence
+uv run python study_structure.py                      # corpus: studies ranked by their worst unbroken prose run
 uv run python verify_claims.py                        # re-run the SQL behind studies' recorded counts, compare to `expect:`
 uv run python verify_claims.py --evidence             # also replay `evidence:` blocks -- tool calls with expected answers
 uv run python verify_claims.py <slug> --only-evidence # just one study's evidence

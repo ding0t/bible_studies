@@ -67,14 +67,23 @@ reading tells you that the 700 words are two ideas that were never separated.
 
 ## Phase 2 — Measure
 
+Use the **`read_structure`** MCP tool with the study's path. It returns every heading with its
+prose word count and a verdict — `ok`, `long` (over the 400-word target), `wall` (over 600, where
+validator Check 21 fires) — plus median and longest.
+
+Prefer it over `npm run validate`, which runs all 21 checks across 86 files to measure one, and
+reports only the >600 tail. **600 words is the far tail, not the target** — p96 of a corpus audit
+of 984 sections. The aspiration is 250–400 words between headings, p75–p88 of what this corpus
+already does well, and only `read_structure` reports against that.
+
+CLI fallback when the server is not connected:
+
 ```bash
-cd app && npm run validate        # Check 21 flags any unbroken prose run over 600 words
+cd references/build && uv run python study_structure.py <path>
 ```
 
-Check 21 excludes tables, lists, block quotes and code, so a section already broken by
-sub-headings never fires. **600 words is the far tail, not the target** — p96 of a corpus audit of
-984 sections. Passing Check 21 is not evidence this pass was done; the aspiration is 250–400 words
-between headings, which is p75–p88 of what this corpus already does well.
+Word counting matches Check 21 exactly — tables, lists, block quotes and code excluded — so a
+section already broken by sub-headings never counts as a wall.
 
 Cross-check the reading from Phase 1 against the numbers. Where they disagree, the reading wins: a
 dense 500-word section that reads cleanly is fine, and a 300-word section a reader abandons is not.
@@ -108,21 +117,24 @@ improvements while you are making them.
 
 This is the check that makes the pass trustworthy. Run it every time.
 
+Call **`read_structure`** again with `verify_against` set to the git ref you started from
+(usually `HEAD`). It compares the set of prose lines and answers `clean: true/false`.
+
 ```bash
-# Every non-heading prose line, before and after, must be identical as a set.
-git show HEAD:<path> | grep -v '^#' | grep -v '^\s*$' | sort > /tmp/before.txt
-grep -v '^#' <path> | grep -v '^\s*$' | sort > /tmp/after.txt
-diff /tmp/before.txt /tmp/after.txt
+# CLI fallback
+cd references/build && uv run python study_structure.py <path> --verify-against HEAD
 ```
 
-Three lines may legitimately appear in that diff and nothing else:
+- `removed` — **always a defect.** This pass has no operation that deletes a sentence. If anything
+  is listed here, restore it.
+- `added_unexpected` — a sentence you added without meaning to. Revert it, or hand the file to
+  **review-bible-study**, because "structure only" no longer describes what you did.
+- `added_allowed` — the one-line summary, the pass's single permitted addition.
 
-- the **In one sentence:** line you added
-- an `ai_provider_models` entry, if you are recording your own provenance
-- `date_modified`, which `refresh_frontmatter_provenance.py` rewrites
-
-**Any other line is a prose change you did not intend** — revert it. A deletion (`<`) is always a
-mistake here: the pass has no operation that removes a sentence.
+Frontmatter is excluded on both sides, so `date_modified` and `ai_provider_models` never register.
+Do not hand-roll this with `grep` and `sort`: the first version of this check compared frontmatter
+and reported a routine provenance refresh as a deleted sentence, which is exactly the false alarm
+that teaches people to ignore a verifier.
 
 Then:
 
@@ -149,8 +161,12 @@ has no single subject, a table with no claim to lead it. Do not fix these here.
 
 For a sweep rather than one file:
 
+Call **`read_structure`** with no `study_path`. It ranks every published study by its worst
+unbroken prose run, live pages before drafts.
+
 ```bash
-cd app && npm run validate 2>&1 | grep -A1 "unbroken prose"
+# CLI fallback
+cd references/build && uv run python study_structure.py
 ```
 
 Nothing else in the toolchain owns these. `develop-bible-study` only touches new content, and

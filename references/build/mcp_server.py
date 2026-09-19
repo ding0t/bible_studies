@@ -26,10 +26,11 @@ from mcp.server.fastmcp import FastMCP
 
 import evidence as evidence_lib
 import passage_brief as passage_brief_lib
-import source_catalog
 import query
 import research_batch
+import source_catalog
 import study_notes_query
+import study_structure
 import twot_lookup
 
 mcp = FastMCP(
@@ -660,6 +661,40 @@ def source_profile(work_id: str | None = None, kind: str | None = None) -> dict:
             return {"error": f"unknown kind {kind!r}", "known_kinds": known}
         return {"kind": kind, "profiles": source_catalog.profiles_by_kind(kind)}
     return {"vocabulary": source_catalog.vocabulary(), "profiles": source_catalog.profiles()}
+
+
+@mcp.tool()
+def read_structure(study_path: str | None = None, verify_against: str | None = None,
+                   limit: int = 20) -> dict:
+    """Structure measurements for the read-bible-study skill. Three modes, by argument.
+
+    **study_path alone** -- the outline: every heading with its prose word count and a verdict of
+    ok / long (over the 400-word target) / wall (over 600, where validator Check 21 fires), plus
+    median and longest. Use this in the skill's Phase 2 instead of running the whole validator:
+    it reports against the 250-400 word target, which Check 21's tail-only warning never shows.
+
+    **study_path + verify_against (a git ref)** -- Phase 4, the check the whole pass rests on.
+    Compares the set of prose lines against that ref and answers whether any sentence changed.
+    A removal is ALWAYS a defect: this pass has no operation that deletes a sentence. The only
+    permitted addition is the one-line summary. Frontmatter is excluded, so a provenance refresh
+    never registers as a change.
+
+    **No study_path** -- corpus mode: published studies ranked by their worst unbroken prose run,
+    live pages before drafts. Nothing else owns these; develop-bible-study only touches new
+    content and review-bible-study would charge a full audit to split a heading.
+
+    Word counting matches Check 21 exactly -- tables, lists, block quotes and fenced code excluded,
+    so a section already broken by sub-headings never counts as a wall.
+    """
+    if study_path is None:
+        return study_structure.survey(limit=limit)
+    try:
+        result = {"outline": study_structure.outline(study_path)}
+        if verify_against:
+            result["prose_identity"] = study_structure.prose_identity(study_path, verify_against)
+        return result
+    except FileNotFoundError as e:
+        return {"error": str(e)}
 
 
 if __name__ == "__main__":
