@@ -7,9 +7,10 @@ draft: false
 primary_passage: "Matthew 12:40"
 bible_references: ["Matthew 12:40", "Jonah 1:17", "Matthew 16:21", "Matthew 17:23", "Matthew 20:19", "Luke 9:22", "Luke 18:33", "Luke 24:7", "Luke 24:21", "Luke 24:46", "Acts 10:40", "1 Corinthians 15:4", "Mark 8:31", "Mark 9:31", "Mark 10:34", "Mark 15:42", "Luke 23:54", "John 19:31", "John 19:14", "John 19:42", "Matthew 27:62", "Genesis 1:5", "Leviticus 23:32", "Mark 16:1-2", "Matthew 28:1", "John 20:1", "Matthew 27:62-64", "Mark 15:42-46", "Luke 23:50-56", "John 19:38-42", "Jonah 2:2-6", "Matthew 12:39-41", "1 Samuel 30:11-13", "Leviticus 23:5-11", "1 Corinthians 5:7", "1 Corinthians 15:20-23", "Psalm 16:10", "Acts 2:27", "Acts 2:29-31", "Luke 23:43", "Luke 16:19-31", "Genesis 37:35", "Ephesians 4:8-10", "2 Corinthians 12:2-4", "Revelation 2:7", "John 20:17", "Matthew 28:9", "1 Peter 3:18-19", "Hebrews 2:14-15", "Revelation 1:18", "Revelation 20:13-14", "1 Samuel 28:13-19", "1 Samuel 15:27", "2 Corinthians 5:1-8", "Philippians 1:23", "Revelation 6:9-11", "1 Thessalonians 4:13-17", "1 Corinthians 15:51-53"]
 date_created: 2026-09-06
-date_modified: 2026-09-19
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Three Days and Three Nights
@@ -21,6 +22,10 @@ about where he was going and who would bring him back.
 
 This study follows it in that order — what the sign is, where the New Testament says he was, and
 what those days achieved. Then, whether the crucifixion and resurrection can be dated.
+
+> **In one sentence:** The sign Jesus gave was his own burial and return — Sheol's hold on him
+> broken, the keys of Death and Hades changing hands, a firstfruits harvest guaranteed — and the
+> weekday evidence favors a Friday crucifixion three days before a Sunday resurrection.
 
 ## Key Takeaways
 
@@ -158,6 +163,8 @@ rather than cross-referenced.
 English hands the reader four words here — Sheol, Hades, hell, the grave — where the Bible is
 largely using one idea, so the vocabulary has to be fixed before the question can be asked.
 
+### Sheol and Hades named as the same place
+
 **The New Testament settles the equation itself, by quoting.** Peter quotes Psalm 16:10 at Acts
 2:27, and the ESV renders each in its own language:
 
@@ -173,6 +180,8 @@ One sentence, quoted once. Where the Hebrew has <span dir="rtl">שְׁאוֹל</
 has **ᾅδης** (*hadēs*) — and that is not Peter's innovation but the Septuagint's standing practice,
 which the Greek Old Testament follows from Genesis onward.
 
+### Sheol holds the righteous too
+
 **Sheol is not the wicked's destination alone.** This is the point most likely to be missed by a
 reader carrying a modern "hell" into the word. Jacob, mourning Joseph, expects to go there:
 
@@ -184,6 +193,8 @@ reader carrying a modern "hell" into the word. Jacob, mourning Joseph, expects t
 The Hebrew is <span dir="rtl">שְׁאֹלָה</span> and the Septuagint renders it εἰς ᾅδης. A patriarch
 expects Sheol; so does his righteous son. Whatever Sheol is in the Old Testament, it is where the
 dead are, not where the damned alone are.
+
+### Samuel called up at En-dor
 
 **And one narrative shows the arrangement from the inside.** When Saul has the medium at En-dor
 call up Samuel, the account is unusually specific about the state of the dead, and the details all
@@ -209,6 +220,8 @@ recognisably himself**, an old man in the robe that was his characteristic garme
 she sees <span dir="rtl">אֱלֹהִים</span> — the *ESV Study Bible* notes the plural form here and that
 the term "is used of the spirits of the dead in ancient Near Eastern texts."
 
+### Saul and Samuel, going to the same place
+
 **Then the line that bears on this study.** Samuel tells Saul: "tomorrow you and your sons shall be
 **with me**" (28:19). Saul is a king under judgment, about to die on Mount Gilboa by his own hand.
 Samuel is a prophet who died in honour. And they are going to the same place.
@@ -223,6 +236,8 @@ place and state for the righteous and the unrighteous dead, which is the point a
 simply calls him Samuel throughout and reports a prophecy that came true. The *ESV Study Bible*
 concludes the same — "it is hard to think that the narrator thought this was a deceptive illusion" —
 as do the *NIV Biblical Theology* and *Cultural Backgrounds* volumes.)
+
+### Hades is temporary
 
 **And Hades is temporary.** It occurs ten times in the New Testament (Matthew 11:23; 16:18;
 Luke 10:15; 16:23; Acts 2:27, 31; Revelation 1:18; 6:8; 20:13, 14), and the last two are its end:
@@ -242,6 +257,8 @@ this question has a traditional answer at all.
 > Lazarus at his side… 26 And besides all this, between us and you a great chasm has been fixed, in
 > order that those who would pass from here to you may not be able, and none may cross from there to
 > us.
+
+### κόλπος Ἀβραάμ, a place-name
 
 **"Abraham's side" is <span dir="rtl">κόλπος</span> — literally his bosom or lap.** The familiar
 phrase "Abraham's bosom" comes from the KJV and survives in the WEB; the ESV has "side," and the CSB
@@ -264,12 +281,16 @@ which is a lexicographer's way of saying the two words are functioning as one na
 rather than as a description of a patriarch's chest. Whatever else Luke 16 is doing, its own
 vocabulary is spatial: two conditions, a fixed chasm between them, and each visible from the other.
 
+### The reading this study holds
+
 **The traditional reading takes those as two compartments of one Hades**, the righteous dead held in
 comfort at Abraham's side and the unrighteous in torment, separated but within sight. It is the
 historic dispensational position, and this study holds it, for three reasons: Sheol in the Old
 Testament genuinely receives the righteous (Genesis 37:35), Luke 16 places the whole scene in
 ᾅδης with a chasm *inside* it rather than between earth and heaven, and Hades is a place Revelation
 later empties and destroys.
+
+### Where the commentaries disagree
 
 **It should be said plainly that the commentaries on this site's shelf mostly read it otherwise.**
 The *ESV Study Bible* takes Abraham's side as "the fellowship of other believers already in heaven"
@@ -374,7 +395,7 @@ But Ephesians 4:8 is a weaker witness to it than it is usually made to carry, an
 know that the verse most often quoted for the emptying of Abraham's side is one its own commentators
 mostly read another way.
 
-### What is still owed: the body
+### Away from the body, at home with the Lord
 
 Whatever changed for the righteous dead at the ascension, it was a change of *address*, not of
 condition — and the distinction matters, because it is easy to read "the descent emptied Abraham's
@@ -399,6 +420,8 @@ to be *further clothed*. Being with Christ without a body is better than here; i
 seal are conscious, vocal, and explicitly *waiting*: "they were each given a white robe and told to
 rest a little longer, until the number of their fellow servants and their brothers should be
 complete" (Revelation 6:9-11). They are with God and they are not yet raised.
+
+### The body, still owed
 
 **The raising is a separate, future, bodily event.** "The dead in Christ will rise first. Then we who
 are alive… will be caught up together with them in the clouds" (1 Thessalonians 4:16-17) — and what
