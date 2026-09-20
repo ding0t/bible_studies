@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 21:20
 - [Philip](../../biblical-figures/philip.md) — 21:8
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 21:14
 <!-- commentary-index:auto-end -->

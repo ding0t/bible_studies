@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 2:11
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 2:9
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 2:9

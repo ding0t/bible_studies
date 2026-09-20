@@ -1,54 +1,176 @@
 slug: be-prepared
-title: "Be Prepared: Giving a Reason for the Hope That Is in You"
-status: scoping
+title: "Be Prepared: A Reason for the Hope That Is in You"
+status: drafted
 target_path: docs/content/christian-life/be-prepared.md
 
 primary_passage: "1 Peter 3:13-17"
 supporting_passages:
-  - "Acts 17:10-12"
-  - "1 Peter 3:8-12"
-  - "1 Peter 1:3"
-  - "Colossians 4:5-6"
   - "Isaiah 8:12-13"
+  - "1 Peter 1:3"
+  - "1 Peter 1:21"
+  - "1 Peter 3:8-12"
+  - "Acts 17:10-12"
+  - "Colossians 4:5-6"
+  - "Luke 21:12-15"
 genre: [epistle, acts]
 
 stages:
   scoping:
-    done: false
-    notes: ""
+    done: true
+    notes: >
+      Apologetics filed under christian-life/ (practical theology), per
+      placement-and-tags.md: apologetics is an approach, not a subject, and this
+      study is about the believer's practice rather than a defence of one doctrine.
+      Page already existed as a 34-line stub with a template placeholder quote block
+      ("Bok ch:vv") shipped at draft: false. Replaced wholesale.
   exegesis:
     historical_context:
-      done: false
-      notes: ""
+      done: true
+      notes: >
+        ESV Study Bible introduction to 1 Peter: Petrine authorship, written from
+        Rome ("Babylon", 5:13) c. A.D. 62-63, under Nero but BEFORE the Neronian
+        persecution of 64. Audience is five provinces of Asia Minor (1:1), mostly
+        Gentile (1:14, 1:18, 4:3-4 point to a pagan past). Crucially: ESVSB argues
+        there was no empire-wide official policy against Christians at this date --
+        the pressure is "spasmodic and general outbursts", i.e. local social
+        hostility. That is what καταλαλέω (3:16, "slandered") and ἐπηρεάζω
+        ("revile") describe, and it settles who the ἀπολογία is aimed at: the
+        neighbour, not the magistrate.
     literary_context:
-      done: false
-      notes: ""
+      done: true
+      notes: >
+        3:8-12 closes the household code with a quotation of Psalm 34:12-16, where
+        κύριος renders YHWH (LSB footnote at 3:12: "In OT, Yahweh, cf. Ps 34:15").
+        3:13 picks up "do good" straight from the psalm quotation (3:11). 3:18 gives
+        Christ's own suffering as the ground. So 3:13-17 sits between a psalm about
+        God watching the righteous and the atonement.
     content_word_studies:
-      done: false
-      notes: ""
-      terms: []
+      done: true
+      notes: >
+        The decisive grammatical fact: ἁγιάσατε (v15) is the ONLY imperative in the
+        sentence -- aorist active imperative 2nd plural (UGNT morph Gr,V,MAA2,,P).
+        ἕτοιμοι is a predicate adjective with no verb. Readiness is therefore the
+        state the enthronement produces, and "be prepared" is not itself the command.
+      terms:
+        - lemma: ἁγιάζω
+          strongs: G37
+          note: >
+            v15 ἁγιάσατε, aorist imperative. LXX Isaiah 8:13 reads κύριον αὐτὸν
+            ἁγιάσατε (verified via lxx-lemmas morphology on Isa 8:13: κυριοσ /
+            αυτοσ / αγιαζω). Peter keeps the LXX's verb and its object-slot and
+            puts τὸν Χριστόν where the LXX has αὐτόν (= YHWH of hosts, Hebrew
+            אֶת־יְהוָה צְבָאוֹת אֹתוֹ תַקְדִּישׁוּ, hiphil of קָדַשׁ).
+        - lemma: ἀπολογία
+          strongs: G627
+          note: >
+            8 occurrences in SBLGNT, verified by bible_concordance: Acts 22:1,
+            Acts 25:16, 1 Cor 9:3, 2 Cor 7:11, Phil 1:7, Phil 1:16, 2 Tim 4:16,
+            1 Pet 3:15. Six of the eight are legal settings; 1 Peter's recipient is
+            παντὶ τῷ αἰτοῦντι, "everyone who asks."
+        - lemma: ἕτοιμος
+          strongs: G2092
+          note: >
+            17 occurrences in SBLGNT. Twice in 1 Peter: 1:5 (a salvation "ready" to
+            be revealed) and 3:15. Also Matt 24:44, Matt 25:10 -- the Olivet
+            readiness, already worked in last-things/olivet-discourse.md, which
+            cites 1 Peter 3:15 for the same point.
+        - lemma: ἐλπίς
+          strongs: G1680
+          note: >
+            3 occurrences in 1 Peter: 1:3, 1:21, 3:15. (1:13 is the verb ἐλπίζω,
+            not this noun -- do not fold it into the count.)
+        - lemma: φόβος
+          strongs: G5401
+          note: >
+            5 occurrences in 1 Peter: 1:17, 2:18, 3:2, 3:14, 3:16. 3:14 is the only
+            one that is fear of men, and it is the one Peter forbids; the other four
+            are reverence toward God or a God-grounded respect toward people.
+        - lemma: ζηλωτής
+          strongs: G2207
+          note: >
+            6 occurrences in SBLGNT as a common noun (1 Cor 14:12, 1 Pet 3:13,
+            Acts 21:20, Acts 22:3, Gal 1:14, Titus 2:14). Luke 6:15's "Simon who was
+            called the Zealot" is the same Greek word but is tagged G2208 as a
+            title, so it is NOT in the G2207 list -- state that carefully.
+        - lemma: πραΰτης
+          strongs: G4240
+          note: 11 occurrences; Galatians 5:23 lists it as fruit of the Spirit.
+        - lemma: ἀπολογέομαι / προμελετάω
+          strongs: G626 / G4304
+          note: >
+            Luke 21:14 -- Jesus forbids προμελετᾶν ἀπολογηθῆναι, rehearsing a
+            defence in advance. Cognate of ἀπολογία. This is the study's named
+            tension; handled at "Jesus told them not to prepare a speech".
   hermeneutics:
     cultural_vs_transcultural:
-      done: false
-      notes: ""
+      done: true
+      notes: >
+        Transcultural: the command to sanctify Christ as Lord, the readiness it
+        produces, gentleness and fear, a good conscience. Culturally bound: the
+        specific pressure (slander from pagan neighbours in Asia Minor under a
+        household-honour system), not a modern debate format. The passage does not
+        prescribe a method of argument, which is the commonest overreach made from it.
     theological_principle:
-      done: false
-      notes: ""
+      done: true
+      notes: >
+        God secures the believer's courage by giving him a different Lord to fear.
+        Peter takes Isaiah's command to sanctify YHWH of hosts and names Christ as
+        its object, so the fear of men is displaced by reverence for the risen Christ
+        enthroned in the heart; the ready answer is what that enthronement produces.
     application_draft:
-      done: false
-      notes: ""
+      done: true
+      notes: Be Transformed bullets + prayer written; landed in second person.
   cross_reference:
-    done: false
-    cross_refs: []
-    translations_compared: []
-    divergences_noted: ""
+    done: true
+    cross_refs:
+      - "Isaiah 8:12-13 (quoted 1 Peter 3:14-15)"
+      - "Psalm 34:12-16 (quoted 1 Peter 3:10-12)"
+      - "Luke 21:12-15"
+      - "Colossians 4:5-6"
+      - "Titus 2:14"
+      - "Acts 17:10-12"
+    translations_compared: [ESV, NIV, CSB, WEB, LSB, NA28, SBLGNT, UGNT, LXX, MT, 1QIsaa]
+    divergences_noted: >
+      (1) v15 object: SBLGNT/NA28/UGNT read κύριον τὸν Χριστόν; the Byzantine/TR
+      tradition reads τὸν θεόν, which is why WEB and KJV have "sanctify the Lord God"
+      and the CSB footnotes "Other mss read set God". Study states this openly.
+      (2) φόβος at v16: ESV and NIV render it "respect", WEB and LSB keep "fear", so
+      the ESV hides Peter's own repetition of the word he used at v14. Reported as an
+      observation about translations; the claim rests on the Greek.
+      (3) 1QIsaa at Isaiah 8:13 agrees with the Masoretic (את יהוה צבאות אותו תקדישו)
+      -- no divergence to report, checked rather than assumed.
   drafting:
-    done: false
-    file: ""
+    done: true
+    file: docs/content/christian-life/be-prepared.md
   review:
     done: false
     validated: false
 
-open_questions: []
-resources_consulted: []
-last_updated: "2026-09-19"
+open_questions:
+  - >
+    Luke 21:14 against 1 Peter 3:15. The study proposes that the settings differ
+    (arrest before governors vs. a neighbour's question) and that Jesus forbids a
+    rehearsed script while Peter commands a settled state. Marked in the prose as a
+    proposal, not a settled result. Worth a commentary check beyond the ESV Study
+    Bible before draft: false.
+  - >
+    ESV Study Bible is the only full commentary consulted; the NIV Cultural
+    Backgrounds Study Bible has no study notes on 1 Peter 3 in study-notes.db
+    (query returned empty, not unavailable). A second commentary on v15's Isaiah 8
+    background would strengthen the central claim, though the LXX lemma evidence
+    stands on its own.
+
+resources_consulted:
+  - "ESV Study Bible (Crossway, 2016) -- introduction to 1 Peter (date, audience, occasion, the argument against an empire-wide persecution at this date); notes on 3:13-14 and 3:15-17. CONTRIBUTED the historical setting and the 'no official policy' point, which changed who the ἀπολογία is aimed at. CONFIRMED the reading of v13-14."
+  - "CSB Ancient Faith Study Bible (Holman, 2019) -- footnotes at 3:14, 3:15 ('Other mss read set God'; 'Or sanctify, or set apart'), 3:16. CONTRIBUTED the textual variant at v15 as a translators' own record."
+  - "Legacy Standard Bible (Lockman, 2021) -- footnotes at 3:12 ('In OT, Yahweh, cf. Ps 34:15'), 3:13, 3:15. CONTRIBUTED the identification of κύριος in the Psalm 34 quotation with YHWH."
+  - "NLT Christian Basics Bible / NLT Life Application Study Bible -- footnote at 3:16 noting the verse-division difference for 'with gentleness and respect'."
+  - "SBLGNT and Macula Greek morphology (bible-text.db) -- v15 reads κύριον δὲ τὸν ⸀Χριστὸν ἁγιάσατε, apparatus marker present."
+  - "NA28 (study-notes.db) -- confirms τὸν Χριστόν."
+  - "unfoldingWord UGNT/ULT interlinear -- morphology establishing ἁγιάσατε as the only imperative in v15."
+  - "Septuagint lemma data (lxx-lemmas, bible-text.db) at Isaiah 8:13 -- κύριος / αὐτός / ἁγιάζω, the wording Peter reuses."
+  - "unfoldingWord UHB interlinear at Isaiah 8:12-13 -- קָדַשׁ hiphil, מוֹרָא, עָרַץ."
+  - "1QIsaa (dss, bible-text.db) at Isaiah 8:13 -- agrees with the Masoretic."
+  - "Fee & Stuart, How to Read the Bible for All Its Worth -- epistle and Acts genre lenses (occasion first; narrative precedent is not automatically normative)."
+
+last_updated: "2026-09-20"

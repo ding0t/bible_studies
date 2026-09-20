@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 1:14
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 1:19
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 1:11-24
 <!-- commentary-index:auto-end -->

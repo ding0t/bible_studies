@@ -1,17 +1,16 @@
 ---
-title: "1 Peter 4"
+title: "2 Timothy 4"
 category: "bible"
-description: "Commentary and cross-referenced studies for 1 Peter chapter 4"
-tags: ["1-peter"]
+description: "Commentary and cross-referenced studies for 2 Timothy chapter 4"
+tags: ["2-timothy"]
 draft: false
 ---
 
-# 1 Peter 4
+# 2 Timothy 4
 
 
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 4:16
-- [The Way](../../jesus/the-way.md) — 4:16
 <!-- commentary-index:auto-end -->

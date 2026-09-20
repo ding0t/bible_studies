@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 3:13-17 (primary passage)
 - [Biblical Numerology](../../scripture/numerology.md) — 3:20
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 3:18-20
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 3:15

@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-07
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -16,11 +16,11 @@ Prayer, fasting, and the disciplines of walking with Christ.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
--   __Be Prepared__
+-   __Be Prepared: A Reason for the Hope That Is in You__
 
     ---
 
-    Apologetics: preparing believers to defend their faith with gentleness and respect
+    1 Peter 3:13-17 in its setting: the one imperative in verse 15 is 'sanctify Christ as Lord', Peter puts Christ where Isaiah put YHWH of hosts, and the ready answer is what that enthronement produces in a believer under slander.
 
     [:octicons-arrow-right-24: Read](be-prepared.md)
 

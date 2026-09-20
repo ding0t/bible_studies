@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 21 (primary passage)
+- [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 21:12-15
 <!-- commentary-index:auto-end -->
