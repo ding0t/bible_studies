@@ -161,6 +161,8 @@ thousand years … one day. The clause runs both directions. Peter's source does
 
 ## Where Peter got it
 
+Peter's source is Psalm 90:4, a prayer of Moses.
+
 > ✝️ Psalm 90:4 (ESV)
 >
 > 4 For a thousand years in your sight are but as yesterday when it is past, or as a watch in
@@ -393,6 +395,8 @@ The wider Enochic scheme — 1 Enoch 91-93's "Apocalypse of Weeks," ten weeks of
 toward a seven-thousand-year total — is treated in [The Zadok Calendar](../feasts/zadok-calendar.md)
 and not repeated here.
 
+### Standard commentary agrees
+
 Standard commentary says the same. The *NIV Cultural Backgrounds Study Bible*, commenting on 2 Peter
 3:8, states that Peter appeals to Psalm 90:4 "as did many other Jewish writers of his day (who
 sometimes took 'the day as a thousand years' literally and applied it to the days of creation)."
@@ -447,7 +451,7 @@ smooths to ἐν τῇ ἡμέρᾳ τῇ ἕκτῃ, "on the sixth day," appare
 worked on the Sabbath. The Epistle of Barnabas, quoting this verse in the passage cited below,
 follows the Hebrew.)*
 
-## What most English translations don't show you
+## Which translations keep the Hebrew's articles
 
 Neither marked feature above survives into most English Bibles, and the site's default translation
 loses both. Checked directly against the Hebrew:
@@ -823,7 +827,7 @@ Discourse — signs enough to know the season, and a stated refusal to give the 
 combination Peter gives here, moving from the ratio in verse 8 straight to patience in verse 9 and
 holiness in verse 11.
 
-## What is bound to Israel, and what isn't
+## The Sabbath's two layers
 
 The Sabbath arrives in Scripture wearing two layers, and they do not carry over together.
 
