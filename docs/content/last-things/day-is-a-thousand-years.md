@@ -7,9 +7,10 @@ draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
 bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hosea 6:2", "Hebrews 1:2", "Hebrews 4:9", "Revelation 13:14-18", "Revelation 20:1-7", "Revelation 17:10", "Genesis 49:1", "Malachi 4:2", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:46", "2 Timothy 3:16", "Psalm 89:46-52", "Psalm 92:1-9", "Psalm 93:1", "Ecclesiastes 6:6", "Isaiah 40:17", "Genesis 5:27", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
 date_created: 2026-08-12
-date_modified: 2026-09-19
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # A day is a thousand years
@@ -40,6 +41,8 @@ come.
     context.
 
 ## Key Takeaways
+
+**In one sentence:** 2 Peter 3:8 is not a statement about God's patience but a conversion table that his readers already had — the six days of Genesis 1 were understood as six thousand years of history and the seventh day as the millennium still to come.
 
 *(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is
 prototyping — see that page for what each part is for and why.)*
@@ -163,6 +166,8 @@ thousand years … one day. The clause runs both directions. Peter's source does
 > 4 For a thousand years in your sight are but as yesterday when it is past, or as a watch in
 > the night.
 
+### Psalm 90's own vocabulary
+
 Psalm 90 is titled "A Prayer of Moses, the man of God," which puts the thousand-year day in the
 mouth of the man who wrote Genesis 5. A thousand is not a round number picked at random: it is the
 ceiling of a human life in Hebrew reckoning, and Moses is the one who recorded that nobody ever
@@ -183,6 +188,8 @@ The psalm's second comparison is smaller than its first: not only "as yesterday 
 watches Israel divided the night into, so roughly four hours). Two comparisons of unequal size make
 verse 4 a statement of scale rather than a conversion table.
 
+### The psalm's own word for eternity
+
 The psalm is not, however, about God standing outside time. That category is a later one, and Psalm
 90's own vocabulary points the other way. The psalm's own word for God's eternity is <span dir="rtl">עוֹלָם</span> (*olam*,
 H5769), used twice in verse 2 — <span dir="rtl">מֵעוֹלָם עַד־עוֹלָם</span> (*me'olam ad-olam*), which the MACULA gloss renders "from
@@ -195,12 +202,16 @@ Bible* says verse 4 marks "the difference between the Lord's and humankind's exi
 and that God "does not account for time in the same way that humans do." That is a claim about
 reckoning, not about atemporality.
 
+### The historical chain
+
 Treat the modern gloss as one witness, then, and weigh it against the others. The terms Moses chose
 are the terms everything downstream is built from, and every builder used the first comparison. The
 rabbis quote this verse as the warrant for the thousand-year day (b. *Sanhedrin* 97a). Lactantius
 quotes this verse. Peter reaches for this verse. The psalm's own vocabulary, the Judaism that
 carried it, and the church that inherited it all take the units at face value. The psalm supplies
 them; what was done with them is the subject of this study.
+
+### The Psalter's sequence and Peter's answer
 
 Where it sits in the Psalter points the same way. Psalm 90 opens Book IV, immediately after Book III
 closes on the bleakest note in the Psalter — "How long, O LORD? Will you hide yourself forever?"
@@ -239,6 +250,8 @@ closes Book III, and Psalm 90 actually opens Book IV. The lower two are resembla
 row is this study's reading rather than anything the first two state: the week is where that reply
 lands once the thousand-year day is taken as a measure. Read the first two rows as evidence and the
 third as inference.
+
+### The two changes Peter made to the quotation
 
 The Septuagint renders the opening clause Ὅτι χίλια ἔτη ἐν ὀφθαλμοῖς σου — *chilia etē*, the exact
 phrase Peter uses and the exact phrase John uses six times in Revelation 20. Peter changes it in two
@@ -728,6 +741,8 @@ Joel: "in the last days it shall be, God declares, that I will pour out my Spiri
 about an event happening as he speaks. And of Christ: "he was foreknown before the foundation of
 the world but was made manifest in the last times for the sake of you" (1 Peter 1:20).
 
+### The last two of the six days
+
 Put that next to the week. If history runs six thousand-year days and Christ came at the hinge,
 then "the last days" names the last two of the six — day five and day six — which is why the
 apostles could say without exaggeration that they were living in them and why the phrase has
@@ -791,6 +806,8 @@ years apart — and [Bible Chronology & Genealogical Time](genealogy-times.md) w
 A framework whose start date has a six-hundred-year uncertainty cannot produce an end date good to
 the year, and there is a further problem underneath that: nothing in Scripture says the six days
 began at Adam's creation rather than at some other point, or that the transitions are sharp.
+
+### Scripture's own refusal of a date
 
 Scripture anticipates all of this. Jesus put the day and hour outside even his own stated knowledge
 during his earthly ministry (Mark 13:32) and told the disciples directly that "it is not for you to
