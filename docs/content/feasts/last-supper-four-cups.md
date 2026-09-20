@@ -9,7 +9,7 @@ bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Cori
 zadok_year: 4036
 gregorian_year: 33
 date_created: 2026-07-19
-date_modified: 2026-09-19
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -60,12 +60,16 @@ prototyping — see that page for what each part is for and why.)*
 
 ### Types & Prophecy
 
+#### Type — the feast
+
 **Type — the feast.** Passover was never only a memorial of Egypt. Paul calls the festivals "a
 shadow of the things to come; but the body is Christ's" (Colossians 2:17, WEB), and names the
 substance that cast the shadow: "Christ, our Passover, has been sacrificed in our place"
 (1 Corinthians 5:7, WEB). The lamb killed so that death would pass over Israel's houses (Exodus
 12:13) is the picture; the one killed at that same feast is what it pictured. Jesus keeps the meal's
 shape and puts himself where the lamb had been.
+
+#### Type — the covenant
 
 **Type — the covenant.** Moses ratified the Sinai covenant by sprinkling sacrificial blood over the people: "this
 is the blood of the covenant, which Yahweh has made with you" (Exodus 24:8, WEB). Jesus takes that
@@ -76,10 +80,14 @@ its blood is handed over to be drunk. Blood was the one thing Israel could not c
 gives the reason: "the life of the flesh is in the blood" (17:11, WEB). The cup offers what the
 prohibition guarded — his life, taken in.
 
+#### Prophecy
+
 **Prophecy.** Jeremiah promises a covenant God has not yet made: *"Behold, the days come," says
 Yahweh, "that I will make a new covenant with the house of Israel, and with the house of Judah"*
 (Jeremiah 31:31, WEB) — both houses, named. Calling the cup "the new covenant in my blood" (Luke
 22:20; 1 Corinthians 11:25) claims that promise is being enacted at that table.
+
+#### Still outstanding: the wedding
 
 **Still outstanding: the wedding.** The vow defers a drink to "that day" in the kingdom, and the
 promise it holds back is Exodus 6:7's fourth — "I will take you to myself for a people." Scripture
@@ -169,6 +177,8 @@ assumption that the practice was already fixed by then.
 
 ## Literary context: what each Gospel actually narrates
 
+### Reading order: the earliest witness is the epistle
+
 Three of the four accounts are Gospel narrative and one (Paul's) is an epistle, which sets the
 reading order: each account gets read on its own terms before any of them are harmonized, because a
 detail present in one and absent from another is evidence about that writer's account, not a gap to
@@ -176,6 +186,8 @@ be filled from a neighbour. The dating runs the other way from the usual assumpt
 the mid-50s AD, in a tradition he says he "received from the Lord"; the Gospels reach final form
 later, Mark commonly placed in the 60s and Matthew and Luke anywhere from the 60s to the 80s
 depending on the scholar. The earliest written witness to this meal is the epistle.
+
+### How many cups each account narrates
 
 The four accounts do not narrate the same number of cups.
 
@@ -216,11 +228,15 @@ flowchart LR
     end
 ```
 
+### A textual note on Luke's two cups
+
 **A textual note.** Luke 22:19b-20 is missing from Codex Bezae and a handful of Old Latin
 manuscripts — one of the readings Westcott and Hort called the "Western non-interpolations." The
 earlier and more broadly attested manuscripts carry the fuller text with both cups, which is what
 modern translations follow. Luke's two-cup structure was already unsettled enough in the earliest
 copying tradition for a whole clause to drop out of one line of transmission.
+
+### So which cup is Jesus declining?
 
 **So which cup is Jesus declining?** In Matthew and Mark the vow attaches directly to the
 covenant-cup, and on timing alone — "after supper" in Luke and Paul — that cup corresponds to the
@@ -270,12 +286,16 @@ link back to Moses.
 
 ## The cup he hands them: the blood of the new covenant
 
+### The memorial's new object: body and blood
+
 Passover remembers a rescue already accomplished: *"This day shall be a memorial for you. You shall
 keep it as a feast to Yahweh"* (Exodus 12:14, WEB). The four cups walk the congregation back through
 what was accomplished, in the order Exodus gives it — brought out, freed, redeemed, taken
 (Exodus 6:6-7). Jesus keeps the memorial form and changes what is being remembered: *"This is my
 body which is given for you. Do this in memory of me"* (Luke 22:19, WEB), and over the cup, *"This
 cup is the new covenant in my blood, which is poured out for you"* (Luke 22:20, WEB).
+
+### Blood handed over, not thrown
 
 **The blood changes hands as the covenant changes location.** Moses threw the blood at the people —
 the verb at Exodus 24:8 is <span dir="rtl">זָרַק</span> (*zāraq*, H2236), "toss, throw," which WEB
@@ -289,6 +309,8 @@ happens at that cup is **κοινωνία** (*koinōnia*) — the cup of blessin
 Christ" (1 Corinthians 10:16, WEB). The mode matches the covenant's own terms: Sinai's law was cut
 in stone, and Jeremiah's is written "in their inward parts" (31:33, WEB).
 
+### "Eat my flesh, drink my blood": the Capernaum echo
+
 Jesus had said as much at the Passover season before this one, in the Capernaum synagogue (John 6:4,
 59): *"He who eats my flesh and drinks my blood lives in me, and I in him"* (John 6:56, WEB) — a saying
 his own disciples called hard (6:60). From 6:54 the verb is **τρώγω** (*trōgō*), "chew, gnaw," held
@@ -296,6 +318,8 @@ to the end of the discourse; [Bread of Life](../jesus/bread-of-life-feeding-the-
 through that shift. John never narrates the Supper, and many readers take John 6 of faith in Christ
 rather than of the sacrament. Either reading describes the same thing: a life received by taking
 Christ in, where Sinai's blood stayed on the outside.
+
+### Four promises, and the blood that secures three
 
 The promises the Seder's cups carry are then the promises the New Testament says that blood
 secures:
@@ -325,6 +349,8 @@ flowchart LR
 The cup he hands over and the cup he defers divide the promises the same way. Three are secured by
 the blood he names at the table; the fourth waits, and so does the cup that carries it.
 
+### Two limits on the alignment
+
 **Two limits on that alignment.** The four-cup-to-four-promise correspondence is Jewish tradition
 (see the sources listed at the end), and setting Colossians, Romans, Ephesians and 1 Peter beside
 those promises is a step this study takes — no New Testament writer lines them up. And Jeremiah's
@@ -334,6 +360,8 @@ national terms are not exhausted by the church's communion cup, though Hebrews a
 covenant" (Hebrews 9:15, WEB).
 
 ## The fourth promise: "I will take you to me for a people"
+
+### Exodus 6:7: a promise of acquisition
 
 The four cups answer to four promises, and the fourth is the one the vow leaves hanging:
 
@@ -347,6 +375,8 @@ with <span dir="rtl">לִי</span> (*lî*) — "to *myself*." Not
 merely rescue from Egypt, which the first three promises already cover, but acquisition: God takes
 Israel to himself as his own.
 
+### Jeremiah and Jesus reuse the same formula
+
 **That promise's formula is the one Jeremiah reuses** for the new covenant Jesus names at the cup:
 "I will be their God, and they shall be my people" (Jeremiah 31:33, WEB). The covenant instituted at
 the third cup is described in the language of the fourth.
@@ -358,6 +388,8 @@ evening's discourse:
 >
 > 3 If I go and prepare a place for you, I will come again and will receive you to myself; that
 > where I am, you may be there also.
+
+### The Greek echo between Exodus and John 14:3
 
 The Greek is **παραλήμψομαι ὑμᾶς πρὸς ἐμαυτόν** (*paralēmpsomai hymas pros emauton*). The Septuagint
 renders Exodus 6:7's fourth promise **λήψομαι ἐμαυτῷ ὑμᾶς λαὸν ἐμοὶ** — "I will take you to myself
@@ -373,6 +405,8 @@ formula, so this is an echo rather than a quotation. But the shared reflexive
 makes it more than a generic overlap — of all the ways to say "I will come back for you," Jesus uses
 the construction the fourth promise uses, on the night of the meal built around it.
 
+### Reading John 14:3: rapture, second coming, or death
+
 **Where that leads depends on how you read John 14:3.** On the dispensational reading this site
 generally takes, John 14:3 is the promise of the rapture: Christ returns for his own and takes them
 to himself, before the events that follow. On that reading the fourth cup answers directly to it —
@@ -381,6 +415,8 @@ Jesus interrupted resumes when he comes for his people. Others read John 14:3 of
 generally, or of the believer's reception at death. The verse does not settle between them, and this
 study does not need it to: on any of those readings, "I will take you to myself" is still future,
 still unfulfilled, and still the fourth promise's own language.
+
+### From covenant formula to wedding
 
 **The move from covenant formula to marriage is Scripture's own.** Hosea takes the fourth promise's
 wording and makes it betrothal, then closes with the formula itself:
