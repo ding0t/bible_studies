@@ -49,7 +49,8 @@ def test_john_6_34_esv_reads_sir(conn):
 def test_query_plans_use_an_index(conn, table, sql, params):
     """Every shape this module issues against a large table must SEARCH, never SCAN.
 
-    A SCAN here is 60-100s over SMB and reads to an agent as a hung volume.
+    A SCAN here was 60-100s back when this was NAS-mounted over SMB and read to an agent as a
+    hung volume; still a needless full scan of a large table now it's local.
     """
     plan = " ".join(r["detail"] for r in conn.execute("EXPLAIN QUERY PLAN " + sql, params))
     assert "SEARCH" in plan, f"{table}: expected an indexed SEARCH, got: {plan}"

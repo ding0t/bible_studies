@@ -10,6 +10,7 @@ failure this repo has already had:
 - **no second implementation** -- a batch result and a single-tool result for the same request must
   be the same code path, so they cannot drift.
 """
+import sqlite3
 import time
 
 import pytest
@@ -120,17 +121,36 @@ def test_unindexed_request_is_refused_per_request():
 
 # --- the deadline ----------------------------------------------------------
 
-@needs_study_notes
-def test_slow_query_is_interrupted_and_reported_as_timed_out():
-    """study_works(with_counts=True) scans both large tables -- ~90s over SMB.
+def _sleep_step(_):
+    time.sleep(0.005)
+    return 1
 
-    It must come back as timed_out well inside that, or "slow" and "broken" stay
-    indistinguishable, which is the confusion this module was built to end.
+
+def _burn_time(conn: sqlite3.Connection) -> int:
+    """A registered lookup that exists only for the test below: 3000 rows, each carrying a 5ms
+    Python-function sleep, so it is reliably slow regardless of disk speed or hardware.
+
+    Used in place of a real production query because leaning on one's incidental slowness is
+    exactly what broke this test once already -- study_works(with_counts=True) was ~90s over SMB
+    and dropped well under any reasonable budget once study-notes.db moved to local disk.
     """
+    conn.create_function("slow_step", 1, _sleep_step)
+    return conn.execute(
+        "WITH RECURSIVE cnt(x) AS (VALUES(0) UNION ALL SELECT x+1 FROM cnt WHERE x<3000) "
+        "SELECT COUNT(*) FROM cnt WHERE slow_step(x)=1"
+    ).fetchone()[0]
+
+
+def test_slow_query_is_interrupted_and_reported_as_timed_out(monkeypatch):
+    """A genuinely slow query must come back as timed_out well inside its natural completion time,
+    or "slow" and "broken" stay indistinguishable -- the confusion this module was built to end
+    (a 60-100s scan read as a hung volume three times in one session before it did).
+    """
+    monkeypatch.setitem(rb.REGISTRY, "_burn_time", rb.Spec(_burn_time, "bible-text"))
     started = time.monotonic()
     out = rb.run_batch(
-        [{"id": "slow", "tool": "study_works", "args": {"with_counts": True}}],
-        budget_seconds=3,
+        [{"id": "slow", "tool": "_burn_time", "args": {}}],
+        budget_seconds=0.05,
     )
     elapsed = time.monotonic() - started
     assert out["results"]["slow"]["status"] == "timed_out"

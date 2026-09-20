@@ -14,7 +14,8 @@ one `@mcp.tool()` wrapper per function below. Do not put SQL or JSON parsing in 
 
 study-notes.db (external commercial commentary, quotation-only tier) is exposed through the
 `study_*` tools at the bottom of this file. It needs tighter discipline than bible-text.db and
-TWOT: it lives on a network volume, so study_notes_query refuses queries that would scan it, and
+TWOT: it lives outside the repo tree on its own volume (an NAS share over SMB until
+2026-09-19, local disk since), so study_notes_query refuses queries that would scan it, and
 its returns are snippet-capped and stamped with attribution. Its tools answer with
 {available: false, reason, remedy} instead of raising when the volume is absent -- an agent that
 is told a source is unmounted behaves correctly; one that waits on a slow query invents a reason.
@@ -63,6 +64,10 @@ mcp = FastMCP(
         "research_batch_tools for what it dispatches). One connection per database instead of one "
         "per call: a measured 9x on study-notes.db across twelve lookups.\n"
         "3. One specific fact -> the individual tool.\n"
+        "4. A bare frequency claim (\"basileia occurs N times\"), not the occurrence list -> "
+        "bible_concordance with count_only=True. A common word's full list can exceed this "
+        "tool's own output limit (G932 unrestricted is 581 rows) and, inside "
+        "research_batch_run, can consume the whole batch's output budget by itself.\n"
         "\n"
         "THINGS THAT FAIL SILENTLY:\n"
         "- The ESV, NIV, NKJV and CSB exist ONLY in study-notes.db. Asking bible_verse for them "
@@ -107,12 +112,21 @@ def bible_word(strongs: str | None = None, lemma: str | None = None, book: str |
 
 
 @mcp.tool()
-def bible_concordance(strongs: str, book: str | None = None, work_id: str | None = None) -> list[dict]:
+def bible_concordance(strongs: str, book: str | None = None, work_id: str | None = None,
+                       count_only: bool = False) -> list[dict]:
     """Every occurrence of one Strong's number, for tracing how a word is used across the
-    whole corpus (or one book/source). This is the word-study 'concordance' step."""
+    whole corpus (or one book/source). This is the word-study 'concordance' step.
+
+    Set count_only=True for a bare frequency claim ("basileia occurs N times in the NT").
+    A high-frequency word's full occurrence list can exceed this tool's own output limit --
+    G932 unrestricted is 581 rows, still 162 even restricted to work_id='macula-greek-sblgnt'
+    -- while the count is always exactly one row. Also the right choice inside
+    research_batch_run for the same reason: an uncapped concordance request there can blow the
+    whole batch's output budget by itself."""
     conn = query.connect()
     try:
-        return query.lookup_concordance(conn, strongs, book=book, work_id=work_id)
+        return query.lookup_concordance(conn, strongs, book=book, work_id=work_id,
+                                         count_only=count_only)
     finally:
         conn.close()
 
@@ -474,8 +488,10 @@ def twot_lemma(lemma: str) -> list[dict]:
 # Every tool here returns a structured {available: false, reason, remedy} dict rather than
 # raising when the external volume is absent, so an agent is told what happened instead of
 # inferring it. Do not add a tool that accepts free-form SQL: study_notes_query refuses
-# unindexed queries precisely because a scan of this database over SMB takes 60-100s and
-# reads as a hung volume. See that module's docstring for the incident.
+# unindexed queries precisely because a scan of this database took 60-100s and read as a hung
+# volume back when it lived on the NAS over SMB (moved to local disk 2026-09-19; still refused,
+# since an unindexed scan of a 116 MB file has no reason to be the default even when it's fast).
+# See that module's docstring for the incident.
 # ---------------------------------------------------------------------------
 
 def _study_notes(fn, *args, **kwargs):
@@ -566,7 +582,9 @@ def research_batch_run(requests: list[dict], budget_seconds: float = 30.0) -> di
 
     Prefer this over a sequence of individual tool calls whenever you need more than two or three
     lookups for the same passage -- it opens one connection per database instead of one per
-    lookup, which on the SMB-mounted study-notes.db is a measured 9x saving over twelve lookups.
+    lookup, which on study-notes.db was a measured 9x saving over twelve lookups back when it was
+    NAS-mounted over SMB (moved to local disk 2026-09-19); reuse still avoids real, if smaller,
+    per-call connection overhead now.
 
     Each request is {"id": "...", "tool": "...", "args": {...}} where `tool` is any of the
     bible_*, study_* or twot_* lookups (call research_batch_tools for the list) and `args` are

@@ -56,8 +56,8 @@ than assuming open."""
 
 [media]
 env_var = "BIBLE_MEDIA_ROOT"
-default_root = "/Volumes/media/bible"
-network = true   # SMB mount: absence is routine, and large scans are expensive. See [databases].
+default_root = "~/Documents/bible"   # local disk as of 2026-09-19; was the /Volumes/media NAS share
+network = false   # local disk now -- was an SMB mount. See [databases].
 
 [media.subdirs]
 local_only_build = "local-only-build"  # build output that must never land in the repo tree

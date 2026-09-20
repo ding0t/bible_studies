@@ -242,9 +242,15 @@ def lookup_word_annotated(conn: sqlite3.Connection, strongs: str | None = None,
 
 
 def lookup_concordance(conn: sqlite3.Connection, strongs: str, book: str | None = None,
-                        work_id: str | None = None) -> list[dict]:
+                        work_id: str | None = None, count_only: bool = False) -> list[dict]:
     """Every occurrence of one Strong's number -- the word-study-method.md 'concord across
-    the corpus' step, without hand-writing the GROUP BY each time."""
+    the corpus' step, without hand-writing the GROUP BY each time.
+
+    count_only=True skips fetching every row and returns a single summary dict instead. Use it
+    for a bare frequency claim ("basileia occurs N times") where the occurrence list itself was
+    never going to be read -- a high-frequency word's full list can run past a caller's own
+    output limit (G932 unrestricted is 581 rows; even NT-only it's 162), while the count is
+    always one row."""
     where, params = ["strongs_id = ?"], [strongs.lstrip("GH")]
     language_clause, language_params = _strongs_filter(strongs)
     if language_clause:
@@ -256,6 +262,11 @@ def lookup_concordance(conn: sqlite3.Connection, strongs: str, book: str | None 
     if work_id:
         where.append("work_id = ?")
         params.append(work_id)
+    if count_only:
+        (count,) = conn.execute(
+            f"SELECT COUNT(*) FROM morphology WHERE {' AND '.join(where)}", params,
+        ).fetchone()
+        return [{"strongs_id": strongs, "book": book, "work_id": work_id, "count": count}]
     rows = conn.execute(
         f"SELECT work_id, book, chapter, verse, gloss FROM morphology "
         f"WHERE {' AND '.join(where)} ORDER BY work_id, book, chapter, verse",
@@ -896,9 +907,13 @@ def cmd_word(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
 
 
 def cmd_concordance(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
-    rows = lookup_concordance(conn, args.strongs, book=args.book, work_id=args.work_id)
+    rows = lookup_concordance(conn, args.strongs, book=args.book, work_id=args.work_id,
+                               count_only=args.count_only)
     if not rows:
         print("No matches.")
+        return
+    if args.count_only:
+        print(f"{rows[0]['count']} occurrence(s).")
         return
     last_book = None
     for r in rows:
@@ -1198,6 +1213,8 @@ def main() -> None:
     p_conc.add_argument("strongs", help="e.g. G4982 or H2930")
     p_conc.add_argument("--book", help="restrict to one OSIS book code")
     p_conc.add_argument("--work-id", help="restrict to one source, e.g. macula-greek-sblgnt")
+    p_conc.add_argument("--count-only", action="store_true",
+                         help="just the total, not every occurrence")
     p_conc.set_defaults(func=cmd_concordance)
 
     p_dom = sub.add_parser("domain", help="Every word sharing a Louw-Nida/SDBH domain code")

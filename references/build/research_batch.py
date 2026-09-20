@@ -112,8 +112,9 @@ class _Deadline:
 class _Connections:
     """One connection per database, opened on first use and reused for the whole batch.
 
-    Reuse is the point: on a network mount, opening the connection costs a meaningful fraction of
-    an indexed query, so a dozen lookups that each connect pay that dozen times.
+    Reuse is the point: opening the connection costs a meaningful fraction of an indexed query
+    (more so back when study-notes.db was NAS-mounted over SMB than now it's on local disk), so a
+    dozen lookups that each connect pay that dozen times.
     """
     deadline: _Deadline
     _open: dict = field(default_factory=dict)

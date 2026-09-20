@@ -133,7 +133,7 @@ def test_study_notes_db_is_never_inside_the_repo_tree():
 
 
 def test_study_notes_connects_immutable():
-    """Read-only network mount: no locking, no WAL sidecars written onto the share."""
+    """Read-only external volume: no locking, no WAL sidecars written onto it."""
     assert cat.database("study-notes")["connect"] == "immutable"
     assert cat.database("study-notes")["require_indexed"] is True
 

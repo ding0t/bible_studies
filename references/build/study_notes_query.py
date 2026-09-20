@@ -9,13 +9,16 @@ one source of truth. Read-only -- build_study_notes.py owns writes.
 Why this module exists, recorded because the reasoning is load-bearing
 ----------------------------------------------------------------------
 study-notes.db had no query library and therefore no MCP tools, so agents needing an ESV note
-hand-rolled sqlite3 against it. It lives on a network share (see media_root.py), and a hand-rolled
-query is overwhelmingly likely to be a survey query -- `count(*)`, `SELECT DISTINCT work_id` --
-which full-scans a 116 MB file across SMB. Measured on 2026-09-18: `count(distinct work_id) FROM
+hand-rolled sqlite3 against it. It lives outside the repo on its own volume (see media_root.py --
+an NAS share over SMB until 2026-09-19, local disk since), and a hand-rolled query is overwhelmingly
+likely to be a survey query -- `count(*)`, `SELECT DISTINCT work_id` -- which full-scans a 116 MB
+file. Measured on 2026-09-18, while still NAS-mounted over SMB: `count(distinct work_id) FROM
 verses` took **97 seconds**, `count(*) FROM notes` took 64. The indexed form of the same lookup
-takes **0.1 s**. One agent read that latency as the volume being "hung", reported it unavailable,
-and proposed drafting from memory instead -- which is the failure this repo already has a scar
-from (a study rendered John 6:34 as "Lord, give us this bread"; the ESV reads "Sir").
+takes **0.1 s** -- and stays cheap now the file is local, whereas the unindexed form is merely fast
+instead of merely slow, not gone as a bad habit worth having a guard against. One agent read the
+SMB-era latency as the volume being "hung", reported it unavailable, and proposed drafting from
+memory instead -- which is the failure this repo already has a scar from (a study rendered John
+6:34 as "Lord, give us this bread"; the ESV reads "Sir").
 
 So the point of this module is not convenience. It is that the only reachable query shapes are the
 indexed ones, and that an absent volume reports itself as absent instead of looking slow.
@@ -54,6 +57,7 @@ CLI examples:
 """
 import argparse
 import sqlite3
+import threading
 
 import media_root
 import source_catalog
@@ -95,22 +99,64 @@ def db_path():
     return source_catalog.database(_DB)["resolved_path"]
 
 
+def _stat_within(fn, timeout: float = 2.0):
+    """Run a filesystem check with a hard wall-clock bound, returning None on timeout.
+
+    is_dir()/is_file() on a *wedged* mount -- present in `mount`, not merely absent, but not
+    answering -- block uninterruptibly in the kernel; no signal or join(timeout) cancels the
+    syscall itself. Written against an SMB share (the NAS this lived on until 2026-09-19) but kept
+    now $BIBLE_MEDIA_ROOT is local disk, since the same failure mode applies to any mount -- a
+    stalled network share if the variable is ever pointed at one again, or an external disk that
+    drops mid-read. The daemon thread here is abandoned, not killed, if it doesn't return in time;
+    that leaks one blocked thread per wedge instead of hanging the whole MCP server, which is what
+    happened before this existed -- the reachability check meant to prevent a hang was itself the
+    hang.
+    """
+    result: list[bool] = []
+    thread = threading.Thread(target=lambda: result.append(fn()), daemon=True)
+    thread.start()
+    thread.join(timeout)
+    return result[0] if result else None
+
+
 def availability() -> dict:
     """Whether the database is reachable, as data rather than as an exception.
 
     Call this instead of inferring availability from a slow or failed query -- the distinction
-    between 'absent' and 'slow' is exactly what was lost in the incident above.
+    between 'absent' and 'slow' is exactly what was lost in the incident above. A wedged mount is
+    a third state neither of those checks catches on its own, since is_dir()/is_file() themselves
+    hang on one -- see _stat_within.
     """
     root = media_root.media_root()
     path = db_path()
-    if not root.is_dir():
+    root_ok = _stat_within(root.is_dir)
+    if root_ok is None:
+        return {
+            "available": False,
+            "reason": f"External reference volume is mounted but not responding: {root}",
+            "remedy": "The mount is wedged, not absent -- if it's a network share, unmount and "
+                      "remount it; if it's local/external disk, check it's actually attached. "
+                      "Don't retry this lookup.",
+            "path": str(path),
+        }
+    if not root_ok:
         return {
             "available": False,
             "reason": f"External reference volume not mounted: {root}",
             "remedy": "Mount it, or point $BIBLE_MEDIA_ROOT at where it actually is.",
             "path": str(path),
         }
-    if not path.is_file():
+    path_ok = _stat_within(path.is_file)
+    if path_ok is None:
+        return {
+            "available": False,
+            "reason": f"study-notes.db path check timed out, mount is wedged: {path}",
+            "remedy": "The mount is wedged, not absent -- if it's a network share, unmount and "
+                      "remount it; if it's local/external disk, check it's actually attached. "
+                      "Don't retry this lookup.",
+            "path": str(path),
+        }
+    if not path_ok:
         return {
             "available": False,
             "reason": f"study-notes.db not found at {path}",
@@ -125,9 +171,9 @@ def connect() -> sqlite3.Connection:
     a test or another script can turn it into a structured answer.
 
     `immutable=1` rather than `mode=ro`: it promises the file will not change underneath us, which
-    lets SQLite skip locking and the WAL/shm sidecar files entirely. On a network share that is
-    both faster (measured 0.07s vs 0.11s on an indexed lookup) and avoids writing lock files onto
-    a read-only mount -- the review skill already calls this form mandatory under the sandbox.
+    lets SQLite skip locking and the WAL/shm sidecar files entirely -- faster (measured 0.07s vs
+    0.11s on an indexed lookup, back when this was a network share) and avoids writing lock files
+    onto a read-only mount -- the review skill already calls this form mandatory under the sandbox.
     """
     status = availability()
     if not status["available"]:
@@ -147,7 +193,8 @@ def _require_indexed(book: str, chapter: int | None = None, *, need_chapter: boo
     """
     if not book:
         raise ValueError(
-            "book is required -- an unfiltered query scans the whole table (~60-100s over SMB). "
+            "book is required -- an unfiltered query scans the whole table (60-100s when this "
+            "lived on the NAS over SMB; still a needless full scan now it's local). "
             "Use idx_notes_ref / idx_sn_verses_ref by passing at least book and chapter."
         )
     if book not in _ALL_OSIS_BOOKS:
@@ -323,7 +370,8 @@ def list_works(conn: sqlite3.Connection, with_counts: bool = False) -> list[dict
     """Every work in study-notes.db with its tier and attribution. Instant: `works` has 11 rows.
 
     `with_counts` adds per-work note/verse totals and is **off by default because it scans both
-    large tables** -- ~90s over SMB, the exact cost this module exists to avoid. The first draft of
+    large tables** -- ~90s back when this was NAS-mounted over SMB, the exact cost this module
+    exists to avoid (still a needless full scan now it's local). The first draft of
     this function did the counts unconditionally and hung the CLI on its own smoke test, which is a
     fair demonstration that the scan guard has to apply to this module's own queries and not only
     to the ones it accepts from callers. Turn it on deliberately, from the terminal, when you
@@ -424,7 +472,7 @@ def main() -> None:
 
     p_w = sub.add_parser("works", help="Every work with its tier and attribution")
     p_w.add_argument("--counts", action="store_true",
-                     help="also count notes/verses per work -- scans both large tables, ~90s over SMB")
+                     help="also count notes/verses per work -- scans both large tables, slow")
     p_w.set_defaults(func=cmd_works)
     sub.add_parser("status", help="Is the database reachable?").set_defaults(func=cmd_status)
 
