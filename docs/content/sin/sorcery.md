@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Deuteronomy 18:9-22"
 bible_references: ["Genesis 15:16", "Exodus 7:8-13", "Exodus 22:18", "Leviticus 19:31", "Leviticus 20:6", "Leviticus 20:27", "Numbers 23:23", "Deuteronomy 13:1-5", "1 Samuel 28:3-25", "1 Chronicles 10:13-14", "2 Kings 21:6", "2 Kings 23:24", "Isaiah 8:19-20", "Isaiah 44:24-26", "Isaiah 47:9-15", "Daniel 2:27-28", "Micah 5:12", "Nahum 3:4", "Malachi 3:5", "Matthew 2:1-12", "Matthew 12:22-32", "Mark 1:32-34", "Luke 10:17-20", "Acts 3:22-23", "Acts 8:9-24", "Acts 13:4-12", "Acts 16:16-18", "Acts 19:11-20", "Galatians 5:19-21", "1 John 4:1-3", "Revelation 9:21", "Revelation 18:23", "Revelation 21:8", "Revelation 22:15"]
 date_created: 2024-04-24
-date_modified: 2026-09-19
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -19,6 +19,8 @@ Scripture's fullest list of occult practices sits in a single sentence of Deuter
 named in two verses, all of them called an abomination. What that list is *for* only becomes clear
 from where Moses puts it. It is not a free-standing warning. It is the first half of a contrast
 whose second half is the promise of Christ.
+
+**In one sentence:** Deuteronomy 18 forbids every route to hidden knowledge in the same breath it promises the Prophet God would raise up, because sorcery is a rival source of guidance and Christ is the one God has appointed instead.
 
 ## Key Takeaways
 
@@ -356,6 +358,8 @@ with its related nouns φάρμακος and φάρμακοι. It appears in Paul
 "idolatry, sorcery" standing side by side (Galatians 5:20) — and three times in Revelation (9:21;
 18:23; 21:8; with 22:15).
 
+### Pharmakeia's semantic domain
+
 **A correction.** *Pharmakeia* is often taught as though it meant pharmaceuticals, and
 Revelation read as predicting the drug industry. The word family does cover drugs and potions in
 wider Greek, and ancient magic did use them. But the question for exegesis is which sense is in play
@@ -366,7 +370,11 @@ sub-domain for magic, immediately beside περίεργος, "magic arts," at 53
 Acts 19:19). They are not classified with medicine or healing. Revelation 18:23 settles it in
 context: sorcery there is what *deceives nations*, which is not a thing pharmaceuticals do.
 
+### Four episodes in Acts
+
 Four New Testament episodes fill out the picture.
+
+#### Simon in Samaria
 
 **Simon in Samaria** (Acts 8:9-24) had "amazed the people of Samaria, saying that he himself was
 somebody great," to the point that they called him "the power of God that is called Great." He
@@ -374,9 +382,13 @@ believed and was baptised — and then offered the apostles money for the abilit
 Peter's answer goes to motive, not method: "your heart is not right before God" (8:21). Conversion
 had not yet reached the instinct that treats spiritual power as a purchasable capability.
 
+#### Elymas on Cyprus
+
 **Elymas on Cyprus** (Acts 13:4-12) shows sorcery and false prophecy in the same person, which is how
 Deuteronomy 18 already had it — the ban on divination and the test for false prophets are one
 passage. Luke names him "a Jewish false prophet" *and* a magician in the same breath.
+
+#### The slave girl at Philippi
 
 **The slave girl at Philippi** (Acts 16:16-18) had "a spirit of divination," Greek πνεῦμα πύθωνα
 (*pneuma pythōna*) — literally "a python spirit." Both Cultural Backgrounds Study Bibles identify
@@ -385,6 +397,8 @@ famous oracle in antiquity, was called the Pythia. The girl's owners were making
 What she said about Paul was true — "These men are servants of the Most High God, who proclaim to you
 the way of salvation" — and Paul, after days of it, silenced her without engaging: "I command you in
 the name of Jesus Christ to come out of her."
+
+#### Ephesus
 
 **Ephesus** (Acts 19:11-20) gives the fullest sequence. First the sons of Sceva, who used the name of
 Jesus as a formula — "I adjure you by the Jesus whom Paul proclaims" — and were beaten by the man they
@@ -461,6 +475,8 @@ forbids. Does it cross the line?
 Scripture does not answer by adjudicating individual cases, and neither can a study. It does supply
 tests, and they are unusually clear.
 
+### Jesus and Paul refused demonic testimony that was accurate
+
 **Jesus and Paul both refused demonic testimony that was accurate.** Mark reports that Jesus "would
 not permit the demons to speak, because they knew him" (Mark 1:34); Luke, that "he rebuked them and
 would not allow them to speak, because they knew that he was the Christ" (Luke 4:41). Their problem
@@ -474,6 +490,8 @@ right, the history that admitted it — is inquiry directed at a source other th
 thing Deuteronomy 18:11 names and 1 Chronicles 10:13-14 condemns. The objection is not that such
 information would be useless. It is that Isaiah's question applies: should a people inquire there?
 
+### The Gerasene counter-example
+
 The one apparent counter-example is Jesus asking the Gerasene demoniac's spirit its name (Mark
 5:9), and it should be stated rather than stepped around. Two things are true of it: it is a single
 occurrence in a narrative, and narrative reports without necessarily prescribing; and the answer,
@@ -481,10 +499,14 @@ occurrence in a narrative, and narrative reports without necessarily prescribing
 standard practice of interrogation on it, against the explicit refusals in Mark 1:34 and Luke 4:41,
 inverts the weight of the evidence.
 
+### Technique fails
+
 **Technique fails.** The sons of Sceva had the correct name and the correct formula and no
 relationship — "Jesus I know, and Paul I recognize, but who are you?" (Acts 19:15). Luke's placement
 is pointed: this immediately precedes the book-burning. A ministry whose confidence rests on method
 rather than on Christ is the thing Acts 19 was written to warn about.
+
+### Confession is the test of a spirit
 
 **The test of a spirit is confession, not manifestation.** "Do not believe every spirit, but test the
 spirits to see whether they are from God… every spirit that confesses that Jesus Christ has come in
@@ -493,9 +515,13 @@ Testament makes an impressive phenomenon evidence of anything, and Deuteronomy 1
 ruled that a sign coming true settles nothing about its source. See also
 [test the spirits](../spiritual-beings/test-the-spirits.md).
 
+### The true measure: names written in heaven
+
 **Power is not the measure.** "Do not rejoice in this, that the spirits are subject to you, but
 rejoice that your names are written in heaven" (Luke 10:20). Jesus said this to disciples who had
 just succeeded.
+
+### Indwelling and oppression
 
 On the underlying question of whether a believer can be indwelt by a demon: the New Testament never
 uses δαιμονίζομαι of a Christian, and it says the believer's body is a temple of the Holy Spirit
