@@ -115,6 +115,46 @@ def outline(path: str) -> dict:
     }
 
 
+def _prose_diff(before: str, after: str) -> dict:
+    """Compare two versions of a file's text at the prose level -- the comparison `prose_identity`
+    runs between disk and a git ref, factored out so it can also run ref-to-ref (see
+    test_study_structure.py's use of this against two fixed historical commits, rather than one
+    fixed commit and a working tree that later, unrelated edits can and did move out from under
+    it)."""
+
+    def prose_set(text: str) -> list[str]:
+        # Frontmatter is not prose. Comparing it made date_modified -- which
+        # refresh_frontmatter_provenance.py rewrites on every run -- look like a deleted sentence,
+        # which is the one finding this check treats as always a defect. A verifier that cries
+        # wolf on a routine edit is a verifier people stop reading.
+        body = _strip_frontmatter(text)
+        return _prose_lines([l for l in body.splitlines() if not _HEADING.match(l.strip())])
+
+    from collections import Counter
+    old_c, new_c = Counter(prose_set(before)), Counter(prose_set(after))
+    removed = sorted((old_c - new_c).elements())
+    added = sorted((new_c - old_c).elements())
+
+    def allowed(line: str) -> bool:
+        """The summary line is the pass's one permitted addition. Frontmatter never reaches here."""
+        return line.startswith("**In one sentence:**")
+
+    unexpected = [l for l in added if not allowed(l)]
+    return {
+        "clean": not removed and not unexpected,
+        "removed": removed,
+        "added_allowed": [l for l in added if allowed(l)],
+        "added_unexpected": unexpected,
+        "verdict": (
+            "no sentence changed" if not removed and not unexpected
+            else "PROSE CHANGED -- revert the unexpected lines, or hand the file to "
+                 "review-bible-study, because a structural pass no longer describes it"
+        ),
+        "note": ("A removal is always a defect: this pass has no operation that deletes a sentence."
+                 if removed else None),
+    }
+
+
 def prose_identity(path: str, ref: str = "HEAD") -> dict:
     """Phase 4: prove the restructure changed no sentence.
 
@@ -132,40 +172,8 @@ def prose_identity(path: str, ref: str = "HEAD") -> dict:
     except subprocess.CalledProcessError as e:
         return {"error": f"cannot read {rel} at {ref}: {e.stderr.strip()}"}
 
-    def prose_set(text: str) -> list[str]:
-        # Frontmatter is not prose. Comparing it made date_modified -- which
-        # refresh_frontmatter_provenance.py rewrites on every run -- look like a deleted sentence,
-        # which is the one finding this check treats as always a defect. A verifier that cries
-        # wolf on a routine edit is a verifier people stop reading.
-        body = _strip_frontmatter(text)
-        return _prose_lines([l for l in body.splitlines() if not _HEADING.match(l.strip())])
-
-    old, new = prose_set(before), prose_set(file.read_text(encoding="utf-8", errors="replace"))
-    from collections import Counter
-    old_c, new_c = Counter(old), Counter(new)
-    removed = sorted((old_c - new_c).elements())
-    added = sorted((new_c - old_c).elements())
-
-    def allowed(line: str) -> bool:
-        """The summary line is the pass's one permitted addition. Frontmatter never reaches here."""
-        return line.startswith("**In one sentence:**")
-
-    unexpected = [l for l in added if not allowed(l)]
-    return {
-        "file": rel,
-        "ref": ref,
-        "clean": not removed and not unexpected,
-        "removed": removed,
-        "added_allowed": [l for l in added if allowed(l)],
-        "added_unexpected": unexpected,
-        "verdict": (
-            "no sentence changed" if not removed and not unexpected
-            else "PROSE CHANGED -- revert the unexpected lines, or hand the file to "
-                 "review-bible-study, because a structural pass no longer describes it"
-        ),
-        "note": ("A removal is always a defect: this pass has no operation that deletes a sentence."
-                 if removed else None),
-    }
+    return {"file": rel, "ref": ref,
+            **_prose_diff(before, file.read_text(encoding="utf-8", errors="replace"))}
 
 
 def survey(limit: int = 20, include_drafts: bool = False) -> dict:

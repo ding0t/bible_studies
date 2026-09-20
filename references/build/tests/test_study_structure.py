@@ -5,6 +5,8 @@ if it wrongly reports clean, a prose edit ships inside a "structure only" commit
 re-verifies the study. So it is tested in both directions -- it must pass a real restructure that
 changed no sentence, and it must fail an edit that changed one.
 """
+import subprocess
+
 import pytest
 
 import study_structure as ss
@@ -12,6 +14,11 @@ import study_structure as ss
 SCRIBE = "docs/content/scripture/scribe-trained-for-the-kingdom.md"
 # The commit that restructured the scribe study; its parent is the pre-restructure draft.
 RESTRUCTURE = "c8bad96f"
+
+
+def _text_at(ref: str, path: str = SCRIBE) -> str:
+    return subprocess.run(["git", "-C", str(ss.REPO_ROOT), "show", f"{ref}:{path}"],
+                          capture_output=True, text=True, check=True).stdout
 
 
 # --- what counts as prose --------------------------------------------------
@@ -70,7 +77,12 @@ def test_missing_file_raises_rather_than_returning_empty():
 # --- prose identity: the check the pass rests on ---------------------------
 
 def test_a_real_restructure_reports_no_sentence_changed():
-    result = ss.prose_identity(SCRIBE, f"{RESTRUCTURE}^")
+    """Compared ref-to-ref (RESTRUCTURE against its own parent), not disk-to-ref: this test used
+    to read the file's current working-tree content as the "after" side, which put a later,
+    unrelated prose edit (commit d7d49da, restandardizing Key Takeaways) on the wrong side of the
+    comparison and made a genuinely clean historical restructure look dirty. RESTRUCTURE's own
+    snapshot can't drift out from under this test the way the working tree can."""
+    result = ss._prose_diff(_text_at(f"{RESTRUCTURE}^"), _text_at(RESTRUCTURE))
     assert result["clean"] is True, result
     assert result["removed"] == []
     assert result["added_unexpected"] == []
@@ -125,14 +137,25 @@ def test_unknown_ref_reports_an_error_not_a_crash():
 
 # --- corpus survey ---------------------------------------------------------
 
-def test_survey_ranks_worst_first_and_lives_before_drafts():
-    out = ss.survey(limit=50)
+def test_survey_ranks_worst_first_and_lives_before_drafts(tmp_path, monkeypatch):
+    """Synthetic fixture files, not the live corpus's current wall count -- asserting against that
+    is not a stable invariant to test against. It hit zero the day this test's original
+    `assert rows` broke, when a corpus-wide read-bible-study sweep fixed every remaining wall; the
+    corpus reaching a clean state is success, not a reason this test should fail.
+    """
+    monkeypatch.setattr(ss, "CONTENT_DIR", tmp_path)
+    long_section = "word " * 700
+    (tmp_path / "probe_live.md").write_text(
+        f"---\ndraft: false\n---\n\n## Section\n\n{long_section}\n", encoding="utf-8")
+    (tmp_path / "probe_draft.md").write_text(
+        f"---\ndraft: true\n---\n\n## Section\n\n{long_section}\n", encoding="utf-8")
+
+    out = ss.survey(limit=50, include_drafts=True)
     rows = out["ranked"]
-    assert rows, "the corpus currently has sections over 600 words"
-    drafts = [i for i, r in enumerate(rows) if r["draft"]]
-    lives = [i for i, r in enumerate(rows) if not r["draft"]]
-    if drafts and lives:
-        assert max(lives) < min(drafts), "a live page a reader meets now outranks a draft"
+    names = [r["file"] for r in rows]
+    assert "probe_live.md" in names and "probe_draft.md" in names
+    assert names.index("probe_live.md") < names.index("probe_draft.md"), \
+        "a live page a reader meets now outranks a draft"
     live_words = [r["worst_words"] for r in rows if not r["draft"]]
     assert live_words == sorted(live_words, reverse=True)
 
