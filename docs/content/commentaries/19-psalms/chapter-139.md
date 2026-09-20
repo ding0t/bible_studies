@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 139:23-24
+- [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 139:1-12
 <!-- commentary-index:auto-end -->

@@ -18,4 +18,5 @@ draft: false
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 2:16-17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 2:16-17
 - [The Day Is Near](../../last-things/day-is-near.md) — 2:16-17
+- [Wisdom](../../wisdom/index.md) — 2:3
 <!-- commentary-index:auto-end -->

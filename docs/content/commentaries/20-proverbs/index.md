@@ -22,10 +22,11 @@ Favorite verses to memorise.
 
 ## Daily verse reflections
 
-Proverbs has 30 chapters, so it reads well one chapter a day for a month. Favourite verses and
-insights from that reading are collected on their own page:
+Proverbs has 31 chapters, so it reads well one chapter a day for a month. Personal reflections from
+that reading live in the [Wisdom](../../wisdom/index.md) section rather than here, because they are
+devotional notes rather than commentary:
 
-[:octicons-arrow-right-24: Daily verse reflections](daily-reflections.md)
+[:octicons-arrow-right-24: Proverbs: a chapter a day](../../wisdom/proverbs-reflections.md)
 
 ## Attitudes
 
@@ -60,6 +61,15 @@ What types are seen as shadows of a truth.
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
+- [Chapter 1](chapter-001.md) — 2 study(ies)
+- [Chapter 3](chapter-003.md) — 1 study(ies)
+- [Chapter 8](chapter-008.md) — 2 study(ies)
+- [Chapter 9](chapter-009.md) — 2 study(ies)
+- [Chapter 10](chapter-010.md) — 1 study(ies)
+- [Chapter 11](chapter-011.md) — 1 study(ies)
+- [Chapter 15](chapter-015.md) — 1 study(ies)
+- [Chapter 16](chapter-016.md) — 1 study(ies)
+- [Chapter 20](chapter-020.md) — 1 study(ies)
 - [Chapter 25](chapter-025.md) — 1 study(ies)
 - [Chapter 28](chapter-028.md) — 1 study(ies)
 - [Chapter 30](chapter-030.md) — 3 study(ies)

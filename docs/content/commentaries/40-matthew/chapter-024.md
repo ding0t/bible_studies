@@ -15,6 +15,7 @@ draft: false
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 24:36 (primary passage)
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 24 (primary passage)
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 24:44
+- [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 24:44
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 24:1-2
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 24:30-31
 - [The Day Is Near](../../last-things/day-is-near.md) — 24:3-14

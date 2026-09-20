@@ -172,7 +172,10 @@ plugins:
         'bible/commentaries/19-psalms/chapter-110.md': 'commentaries/19-psalms/chapter-110.md'
         'bible/commentaries/19-psalms/index.md': 'commentaries/19-psalms/index.md'
         'bible/commentaries/20-proverbs/chapter-030.md': 'commentaries/20-proverbs/chapter-030.md'
-        'bible/commentaries/20-proverbs/daily-reflections.md': 'commentaries/20-proverbs/daily-reflections.md'
+        # Moved out of the Proverbs book study into the Wisdom section (2026-09-20): personal
+        # reflections rather than commentary. Both prior addresses land on the new page.
+        'bible/commentaries/20-proverbs/daily-reflections.md': 'wisdom/proverbs-reflections.md'
+        'commentaries/20-proverbs/daily-reflections.md': 'wisdom/proverbs-reflections.md'
         'bible/commentaries/20-proverbs/index.md': 'commentaries/20-proverbs/index.md'
         'bible/commentaries/23-isaiah/chapter-001.md': 'commentaries/23-isaiah/chapter-001.md'
         'bible/commentaries/23-isaiah/chapter-006.md': 'commentaries/23-isaiah/chapter-006.md'

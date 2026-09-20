@@ -61,6 +61,7 @@ Lewis Sperry Chafer's *Systematic Theology* and Charles Ryrie's *Basic Theology*
 | **Last things** | Eschatology | 236 | The rapture, the tribulation, the millennium, judgment, and the ordering of end-times events |
 | **Israel and the Church** | Ecclesiology *(+ the dispensational distinction)* | 262 | The covenants, the relationship and distinction between Israel and the Church, and the Hebrew roots of Christian faith and practice |
 | **Christian life** | Practical theology | 248 | Prayer, fasting, and the disciplines of walking with Christ |
+| **Wisdom** | *Wisdom literature* | 223 | What Proverbs, Ecclesiastes, Job and James teach about living skilfully before God, and personal reflections from reading them |
 | **Feasts** | *Appointed times* | 263 | The biblical feasts and calendars: their Old Testament instruction, their observance, and their fulfilment |
 | **Biblical figures** | *(Biography)* | — | Studies of particular people in Scripture — the twelve disciples, the patriarchs, the prophets, the kings |
 | **Sermons** | Homiletics | 251, 252 | Sermon notes, teaching material, and guidance on preparing to teach |
@@ -169,7 +170,12 @@ Genesis, Daniel and Proverbs already share a template, and it is close kin to
 The generated chapter list sits between `<!-- commentary-index:auto-start -->` and
 `<!-- commentary-index:auto-end -->`. Everything above those markers is hand-written and survives
 regeneration. A book study that outgrows one page splits into sibling pages inside the same book
-folder, the way `commentaries/20-proverbs/daily-reflections.md` does.
+folder.
+
+A page that leaves the book folder altogether is a different move, and the test is what the page
+*is* rather than what it is about. The Proverbs daily reflections were devotional notes filed as
+commentary, so they moved to `wisdom/proverbs-reflections.md` and the book study links out to them;
+the old address redirects. Subject still decides the folder — theirs was Wisdom, not Proverbs.
 
 ### Chapter note
 

@@ -17,4 +17,5 @@ draft: false
 - [Sin and Sorcery](../../sin/sorcery.md) — 12:22-32
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 12:28
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 12:48-50
+- [Wisdom](../../wisdom/index.md) — 12:42
 <!-- commentary-index:auto-end -->

@@ -14,4 +14,5 @@ draft: false
 
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 1:13-14
 - [The Way](../../jesus/the-way.md) — 1:8
+- [Wisdom](../../wisdom/index.md) — 1:5
 <!-- commentary-index:auto-end -->

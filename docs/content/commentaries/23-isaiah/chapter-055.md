@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 55:1-3
+- [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 55:9
 <!-- commentary-index:auto-end -->

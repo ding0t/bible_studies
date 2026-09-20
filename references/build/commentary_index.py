@@ -40,6 +40,7 @@ SUBJECT_DIRS = [
     "last-things",
     "feasts",
     "christian-life",
+    "wisdom",
     "biblical-figures",
 ]
 TODAY = date.today().isoformat()

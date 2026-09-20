@@ -40,6 +40,7 @@ SECTION_BLURBS = {
     "last-things": "End-times prophecy, read dispensationally.",
     "feasts": "The biblical feasts and calendars, their Old Testament instruction, and their fulfillment.",
     "christian-life": "Prayer, fasting, and the disciplines of walking with Christ.",
+    "wisdom": "The fear of the LORD as the beginning of wisdom, and reflections from reading the wisdom books.",
     "biblical-figures": "Studies of particular people in Scripture.",
     "god/dreams-and-visions": "How God has spoken through dreams and visions, and how to tell those from the counterfeits.",
     "god/dreams-and-visions/personal-examples": "The author's own personal dream accounts, kept as testimony rather than Scripture.",
