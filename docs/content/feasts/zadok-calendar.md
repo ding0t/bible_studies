@@ -6,7 +6,7 @@ tags: ["zadok", "calendar", "dead-sea-scrolls", "enoch", "jubilees", "chronology
 draft: false
 bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticus 25:8-13", "2 Samuel 8:17", "1 Kings 2:35", "Ezekiel 44:15", "Daniel 9:24-27"]
 date_created: 2026-07-19
-date_modified: 2026-09-13
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -96,6 +96,8 @@ The calendar structure above says nothing about *when* the count starts. That is
 question, and this site's answer to it has until now lived only as a constant in two code files
 rather than being stated anywhere a reader could check.
 
+### Three candidate epochs, 79 years apart
+
 **Zadok year 0 is Adam's creation, and the Zadok year is absolute — a count of elapsed years since
 that point.** Converting it to a BC/AD date requires a creation epoch, and Scripture supplies the
 intervals for one without supplying the epoch itself. Three candidates are in play on this site,
@@ -113,6 +115,8 @@ All four scenarios and their arguments each way are recorded in
 `docs/data/genealogy/index.json` under `chronology_scenarios`; the generator prints the
 comparison on every run. Only the active one drives published dates.
 
+### What separates the three scenarios
+
 **Two parameters separate them.** The *Exodus anchor* is where the derived chain gets pinned to a
 Gregorian year. 1491 BC is Ussher's own figure, reached before the Assyrian synchronism existed.
 1446 BC follows from 1 Kings 6:1's 480 years, counted back from Solomon's fourth year, itself fixed
@@ -126,6 +130,8 @@ only by moving Solomon's fourth year from 966 to 961 BC. That is inside the spre
 regnal chronology. It is still a five-year adjustment made to land on a number chosen in advance.
 The two correspondences it preserves are therefore artifacts of the adjustment rather than evidence
 for it. It is tracked so the option is visible, not recommended.
+
+### Counting from Adam, and the missing year zero
 
 Those figures count Adam's creation year as AM 0, which is the convention the genealogy data uses
 (Adam's `zadok_year_born` is 0). Two caveats come with that.
@@ -141,11 +147,15 @@ subtracted straight through the gap until August 2026, rendering every AD year o
 they now skip it, and three studies whose `zadok_year` had inherited the error have been
 corrected by a year.
 
+### The Enoch wheel's 140 jubilees
+
 One structural detail from the same source bears on how this site uses jubilees. dsscalendar.org's
 Enoch wheel divides the 7,000 years three ways. Ten weeks of 700 years. Seventy centuries of 100.
 And **140 jubilees of 50 years each**. That last figure settles, for its scheme, the ambiguity
 Leviticus 25:8-10 leaves open between a 49-year and a 50-year cycle: 140 × 50 = 7,000 exactly, where
 49-year cycles would not divide the total at all.
+
+### Where the Exodus falls
 
 **The three differ only in where they anchor the Exodus.** Walking the Masoretic genealogy from Adam
 to Terah, then to Abram by Acts 7:4, then to the Exodus by Galatians 3:17, puts the Exodus at Anno
@@ -154,6 +164,8 @@ respectively. Of those, 1446 BC is the one that follows from 1 Kings 6:1's 480 y
 from Solomon's fourth year. That year is itself fixed by the Assyrian synchronism resting on the
 astronomically dated eclipse of 763 BC. 1491 BC is Ussher's own figure, reached before that
 synchronism was available. 1412 BC corresponds to no standard reckoning I have been able to trace.
+
+### An unresolved inconsistency
 
 **Which leaves an inconsistency.** This page cites dsscalendar.org
 as its primary source for the calendar's structure, and follows it there. It does not follow it on
