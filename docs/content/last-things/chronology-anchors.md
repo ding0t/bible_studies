@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Kings 6:1"
 bible_references: ["1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Ezekiel 40:1", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20"]
 date_created: 2026-08-22
-date_modified: 2026-09-06
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -17,6 +17,8 @@ ai_provider_models:
 **Forty-one events between Solomon's temple and the Resurrection can be placed on a Gregorian calendar, and thirty-one of them carry an error bar of a year or less.** That rail is the fixed part of biblical chronology. Everything upstream of Abraham — the genealogies of Genesis 5 and 11, the Flood, creation itself — is measured *backward* from it, which is why the anchors deserve their own page.
 
 This is the reference table the genealogy work depends on. For the elastic stretch before Abraham, and for the manuscript variants that stretch it, see [Genealogy and Times](genealogy-times.md). For the calendar the Zadok years are counted in, see [The Zadok Calendar](../feasts/zadok-calendar.md).
+
+**In one sentence:** Solomon's temple, an Assyrian eclipse, Daniel's own prophetic arithmetic, and Luke's Roman regnal dates lock forty-one events to a Gregorian calendar tightly enough to place the crucifixion on Friday, 3 April AD 33.
 
 ## Key Takeaways
 
@@ -100,9 +102,15 @@ Twenty-seven Fixed, ten Anchored, four Bracketed. Tier and precision are not the
 
 ## The entries that carry the rest
 
+### The Bur-Sagale eclipse
+
 **Bur-Sagale, 15 June 763 BC (#7).** A solar eclipse recorded in the Assyrian eponym list, computable to the day. It converts the entire eponym sequence from a relative list into an absolute one, and every synchronism between Assyria and Israel inherits its precision. Nothing else on this page is as load-bearing, and it comes from a document with no interest in biblical chronology whatever.
 
+### Jehoiachin's deportation and the accession-year gap
+
 **Jehoiachin's deportation, 16 March 597 BC (#11).** Babylonian Chronicle BM 21946 dates the capture of Jerusalem to 2 Adar of Nebuchadnezzar's seventh year. Second Kings 24:12 calls it his eighth. The one-year gap is accession-year reckoning — Babylonian scribes counted a king's partial first year as his "accession year" and began year one the following spring, while Judah's scribes did not. The tension is a difference of convention, and it recurs wherever Scripture and a Mesopotamian record date the same event.
+
+### Ezekiel's vision, dated to the Day of Atonement
 
 **Ezekiel's vision, 573 BC (#13).** Dated to the twenty-fifth year of the exile, "at the beginning of the year, on the tenth day of the month."
 
@@ -112,17 +120,27 @@ Twenty-seven Fixed, ten Anchored, four Bracketed. Tier and precision are not the
 
 The tenth day of the seventh month is the Day of Atonement, which Leviticus 25:9 names as the day the jubilee trumpet sounds, and a twenty-fifth year sits at the midpoint of a fifty-year cycle. Ezekiel's temple vision appears to be dated *to* a jubilee by the text itself. This is the clearest case on the site of what the review notes call an **attracted** date — Scripture attaching an event to a cycle — as distinct from a modern reader snapping an undated event to the nearest one.
 
+### Jeremiah's seventy years, closed twice
+
 **The seventy years (#12 to #16).** Jeremiah's seventy years (Jeremiah 25:11-12) close twice over: 605 BC to 536 BC from the first deportation to the return, and 586 BC to 516 BC from the temple's destruction to its completion. Second Chronicles 36:21 supplies the reason — the land was repaying sabbaths it had not been given, which implies 490 years of breach and puts Daniel's seventy weeks (Daniel 9:24) on the same arithmetic.
+
+### The 444 BC decree behind Daniel's sixty-nine weeks
 
 **The decree, 444 BC (#20).** Artaxerxes I acceded in 465 BC, so his twentieth year is 445 BC on accession reckoning and 444 BC on a Tishri count. The single year matters because Daniel 9:25's sixty-nine weeks are measured from it: 69 × 7 × 360 days is 173,880 days, or 476 solar years, which reaches AD 32 from 445 BC and AD 33 from 444 BC. The date here is chosen for consistency with entry 26 rather than on independent evidence, and that dependency is recorded rather than hidden.
 
+### The Nativity bracket
+
 **The Nativity bracket, 6-4 BC (#22).** Matthew 2:1 places the birth "in the days of Herod the king," and Matthew 2:16's order against boys "two years old and under" suggests a gap of up to two years before Herod's death. Luke 3:23's "about thirty years of age" at the start of the ministry pulls the other way, toward a later birth. The bracket holds both; a single year would not.
+
+### The "forty-six years" Passover bracket
 
 **"Forty-six years," AD 27-30 (#24).** Josephus puts Herod's start on the temple in his eighteenth year, which is 20 or 19 BC counting from 37 BC and earlier counting from 40 BC. Adding the forty-six years of John 2:20 gives a first Passover somewhere between AD 27 and AD 30. The width of this bracket is what leaves the ministry's length open between roughly three and five years.
 
 ## The four hundred silent years
 
 Nothing in Scripture narrates the stretch from Malachi to Matthew, and the table above carries fifteen entries across it. They are there because Daniel does narrate it — in advance, and in enough detail that the fulfilments are datable.
+
+### Daniel names the kingdoms himself
 
 **Daniel supplies his own interpretation.** The Greek-period entries need no interpretive licence, because the angel names the kingdoms outright.
 
@@ -132,7 +150,11 @@ Nothing in Scripture narrates the stretch from Malachi to Matthew, and the table
 
 The ram broken by the goat is Persia falling to Alexander at Gaugamela in 331 BC (entry 22). The great horn broken at the height of its strength is Alexander dead at thirty-two in 323 BC (entry 23). The four horns toward the four winds are the Diadochi, settled at Ipsus in 301 BC (entry 24). Daniel 11:3-4 runs the same sequence in plainer terms. Three entries, one prophecy, and the angel doing the identifying.
 
+### Two dates fixed to the day: desecration and rededication
+
 **Two entries are datable to the day, and they are the ones Daniel dwells on.** Antiochus IV Epiphanes took the throne in 175 BC (entry 26), and the "little horn" of Daniel 8:9-14 and the contemptible king of Daniel 11:21-35 are recognised as him across the interpretive spectrum. First Maccabees dates his desecration of the temple to 15 Kislev 167 BC and the sacrifice on the pagan altar to the 25th, then dates the rededication to 25 Kislev 164 BC — three years to the day. That rededication is the Feast of Dedication at which John places Jesus walking in Solomon's colonnade (John 10:22), which makes it the only intertestamental event the New Testament dates by name.
+
+### Daniel 8:14's 2,300 evenings and mornings: two readings
 
 **Daniel 8:14's number does not resolve cleanly, and this page does not force it.**
 
@@ -141,6 +163,8 @@ The ram broken by the goat is Persia falling to Alexander at Gaugamela in 331 BC
 > 14 And he said to me, "For 2,300 evenings and mornings. Then the sanctuary shall be restored to its rightful state."
 
 Two readings are defensible and they land in different places. Taken as 2,300 evening-and-morning *sacrifices* — a pair per day — the span is 1,150 days, about 3.15 years, reaching back from the rededication to roughly October 167 BC, just before the desecration. Taken as 2,300 whole days, the span is 6.3 years, reaching back to about 171 BC and the deposition of Onias III, when the priesthood was sold and the "transgression" of verse 12 began. Entry 27 exists in the table to mark that second terminus. Neither reading lands on the desecration itself, and the three-years-to-the-day figure that 1 Maccabees gives is 1,095 days, matching neither exactly.
+
+### The sabbatical cycle, anchored by three sieges
 
 **The sabbatical cycle can be anchored, and three entries do it.** Josephus and 1 Maccabees each date a siege by noting that the defenders ran short of food because the land was lying fallow — a sabbatical year, named incidentally rather than for chronological effect. Three such years survive:
 
@@ -165,6 +189,8 @@ Two dates satisfy the Gospels' own constraints, and only two. The crucifixion wa
 
 Both are Nisan 14, so the long-standing question of whether the Synoptics and John place the crucifixion on Nisan 14 or 15 does not decide between them. Four other lines do.
 
+### The astronomical filter, and why AD 32 persists
+
 **Why the other nine years drop out, and why AD 32 keeps coming back.** The filter is a single
 astronomical fact, and it carries a stated assumption: on the Pharisaic-Rabbinic lunar-solar
 calendar in common Jewish use at the time, Nisan 14 landed on a Friday only twice in Pilate's
@@ -185,7 +211,11 @@ calculation needing correction, which is what Hoehner gave it. See
 [Prophecy: Events and Times](prophecy-events-times.md#the-arithmetic) for both versions of that sum
 and the two-to-four-day slack in each.
 
+### Luke 3:1 and the fifteenth year of Tiberius
+
 **Luke 3:1 is the primary evidence, and it favours AD 33.** Tiberius succeeded Augustus on 19 August AD 14, so his fifteenth year runs from August AD 28 to August AD 29. The *ESV Study Bible* puts it at "probably A.D. 29 (plus or minus a year)" and the *NIV Biblical Theology Study Bible* at AD 28-29. John's ministry begins there, Jesus is baptised after it, and the Passovers John records carry the ministry across roughly three years to AD 33 — set out below. Reaching AD 30 instead requires counting Tiberius's fifteenth year from his earlier provincial authority around AD 11-13 — a reckoning the Cultural Backgrounds volumes note is available, but which sits awkwardly beside Luke's evident care in naming five officials with their exact titles.
+
+### John 2:20: neutral between both years
 
 **John 2:20 turns out to be neutral.** The Greek reads *Τεσσεράκοντα καὶ ἓξ ἔτεσιν οἰκοδομήθη ὁ ναὸς οὗτος* — an aorist, οἰκοδομήθη ("was built"), and ναός, the sanctuary proper rather than the whole ἱερόν complex. Josephus has Herod building the naos in eighteen months from his eighteenth year, finishing around 18/17 BC, while the wider precinct was unfinished until the AD 60s. So the dative ἔτεσιν carries two defensible senses, and each pairs with one candidate to give a ministry of about three years:
 
@@ -198,6 +228,8 @@ The verse is compatible with either year and selects neither. The *ESV Study Bib
 calls the second reading "much more likely," on the same grammatical grounds set out
 above. This page stops short of that: the grammar leans that way without settling it,
 and the year does not need John 2:20 to carry weight it cannot.
+
+### The Passovers in John
 
 **The Passovers in John make AD 30 hard to hold.** John marks at least three Passovers across the
 ministry (2:13; 6:4; 11:55), possibly four if the unnamed feast at 5:1 is one. Take the earliest
@@ -213,17 +245,31 @@ worth knowing, because it means the crucifixion year and the number of temple cl
 question wearing two hats. John's own time markers resist it: "after this" he went to Capernaum "for
 a few days," and *then* "the Passover of the Jews was at hand" (2:12-13).
 
+### Sejanus's fall and the "friend of Caesar" charge
+
 **Sejanus favours AD 33.** "If you release this man, you are not Caesar's friend" (John 19:12, ESV) uses the language of *amicus Caesaris*, and it lands on Pilate with real force only after his patron Sejanus fell in October AD 31 and association with him became dangerous. A Pilate who caves to that threat fits AD 33 better than AD 30.
+
+### Daniel 9:25 and the two candidate decrees
 
 **Daniel 9:25 excludes AD 30 outright** on the reckoning this site follows. Sixty-nine weeks of prophetic years is 69 × 7 × 360 = 173,880 days, or 476 solar years. From Artaxerxes' twentieth year that reaches AD 32 counting the decree at 445 BC, and AD 33 counting it at 444 BC. Neither route produces AD 30.
 
+### Paul's chronology, a weak corroboration
+
 **Paul's chronology leans the same way, weakly.** The Gallio inscription puts his proconsulship of Achaia (Acts 18:12) at AD 51/52. Galatians 1:18 and 2:1 give three years and then fourteen from Paul's conversion, which works back to a conversion around AD 34-35 — comfortable after an AD 33 crucifixion, and leaving an unexplained gap after an AD 30 one. The two spans may overlap, so this carries less weight than the rest.
+
+### The Humphreys-Waddington eclipse argument
 
 **This page does not use the eclipse argument.** Humphreys and Waddington proposed that the partial lunar eclipse rising over Jerusalem on 3 April AD 33 lies behind Peter's "the moon to blood" (Acts 2:20). It fails on two counts. Bradley Schaefer has argued the eclipsed portion would not have been detectable to the naked eye at moonrise, and Humphreys' reply has not settled it. More importantly, Peter is quoting Joel 2:31 about what *will* happen before the day of the LORD, so reading it as a report of the previous Friday's sky asks the sermon for something it is not doing. An argument that needs both a contested observation and a strained citation should not be load-bearing.
 
+### Verdict: Friday, 3 April AD 33
+
 **Verdict: Friday 3 April AD 33.** The date itself is astronomically exact once the year is chosen; the year rests on Luke 3:1 read naturally, supported by Sejanus, Daniel 9 and Paul. AD 30 stays defensible for anyone who takes Tiberius's fifteenth year from the co-regency, and this study records that rather than dismissing it. Entry 20's 444 BC decree follows from this choice rather than standing behind it.
 
+### The ±5-year uncertainty and what it propagates to
+
 Solomon's fourth year carries ±5 years, and every entry above it inherits that. The whole pre-Abrahamic chronology is measured back from this rail, so the ±5 propagates to creation unchanged — which is worth holding beside the far larger uncertainties in the genealogies themselves, where a single decision about what Exodus 12:40's 430 years measure moves the answer by 215.
+
+### Sabbatical and jubilee cycles: where this page uses them
 
 Sabbatical and jubilee cycles are used on this page only where Scripture attaches an event to one. Counting cycles forward from creation is not possible: Leviticus 25:8-10 leaves the cycle ambiguous between 49 and 50 years, and across roughly 120 cycles the two readings diverge by about 120 years.
 
