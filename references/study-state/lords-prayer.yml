@@ -164,7 +164,12 @@ stages:
         provision on God (1 Pet 5:7, Phil 4:6) -- not built on this passage in isolation.
     application_draft:
       done: true
-      notes: "Drafted in the file's own Key Lessons section, kept visibly distinct from the exegesis above."
+      notes: >
+        Originally drafted in a flat "Key Lessons" section at the end of the file, kept visibly
+        distinct from the exegesis above. Migrated 2026-09-19 into the current Key Takeaways
+        format (Lessons about Jesus / Memory verses / Be Transformed / Prayer), placed up front
+        after the passage quote, per develop-bible-study SKILL.md Phase 7 -- see the
+        review_2026-09-19 block below.
 
   cross_reference:
     done: true
@@ -241,4 +246,81 @@ resources_consulted:
   - {type: lexicon, title: "TWOT (Theological Wordbook of the Old Testament) root map", author: "Harris, Archer & Waltke, eds.", note: "Root entries 4a (ab/H1, father), 1990 (qadash/H6942, be set apart), 1105a (lechem/H3899, bread), 728a (choq/H2706, something prescribed), looked up via references/build/twot/twot_strongs_map.json (bare id/lemma/gloss, not TWOT's discussion prose). Cited in the study's References section."}
   - {type: other, title: "WEB, ASV, YLT translations", author: "ebible.org / scrollmapper-bible-databases", note: "Translation and textual-variant comparison, Phase 6 -- confirmed the Matt 6:13 doxology and Luke 11:2 shorter-text findings directly against primary translation text rather than from memory."}
   - {type: other, title: "ESV (Matthew 6:9-13, Luke 11:2-4)", note: "Repo default translation per AGENTS.md; not in bible-text.db (not an open-licensed source), quoted from the well-established published ESV text in the drafted study rather than queried from this repo's tooling."}
+review_2026-09-19:
+  scope: >
+    Full review-bible-study pass (Phases 1-8) after a prior read-bible-study structural pass in
+    the same session (headings added, one In-one-sentence thesis line, no prose changed --
+    verified clean via read_structure --verify_against HEAD). This review checked the
+    now-restructured file, not the pre-restructure version.
+  phase1_scripture_accuracy: >
+    Every ESV quote re-queried against study-notes.db (esv-study-bible). Both full passage blocks
+    (Matt 6:9-13, Luke 11:2-4) verbatim correct. Three misquotations found: Luke 11:1's "as John
+    taught his disciples" rendered two different, inconsistent ways in the file ("just as John
+    taught his disciples" / "just as John also taught his disciples"), neither matching ESV;
+    Matt 12:28/Luke 11:20 conflated into a reordered paraphrase presented as a direct quote;
+    Ephesians 4:32 drops "Be kind to one another, tenderhearted," and silently changes
+    "forgiving" to "forgive" without an ellipsis. All other checked quotes (Isaiah 63:16, 64:8,
+    Daniel 2:44, 1 Chronicles 29:11, Matthew 6:5, 6:33, 25:34, Luke 1:3, 11:13, 17:21, James 1:13,
+    Revelation 3:10, Proverbs 30:8, 1 Peter 5:7, 1 Kings 18:27-29) verified verbatim correct.
+  phase2_citations: >
+    TWOT roots 1990 (qadash), 728a (choq), 4a (ab), 1105a (lechem) all confirmed against
+    twot_root. H4437 (malku) and H4467 (mamlakah) confirmed present at Daniel 2:44 and
+    1 Chronicles 29:11 respectively. No internal markdown links to check (none in file). Two
+    quotes of the traditional doxology wording ("For thine is the kingdom...") are KJV phrasing,
+    quoted without attribution -- repo convention names the translation per AGENTS.md. Isaiah
+    63:16's quote uses an ellipsis where the ESV has only a comma (misleading punctuation, wording
+    itself accurate).
+  phase3_word_studies: >
+    epiousios confirmed exactly 2 NT occurrences (Matt 6:11, Luke 11:3), nowhere else --
+    concordance re-run, matches claim exactly. basileia's claimed "164 times" in the NT is off:
+    concordance restricted to macula-greek-sblgnt (NT only) returns 162. Matthew's "over a third"
+    share (55/162 ~= 34%) still holds. Footnote sweep of Matthew 6 and Luke 11 (all commercial
+    study Bibles) surfaced nothing the study missed -- the CSB/LSB/NLT alternate renderings of
+    epiousios and of "lead us not into temptation" both already match options the study's own
+    peirasmos and epiousios treatments already cover.
+  phase4_synthetic_claims: >
+    Checked the double-attestation claim (elthetes hē basileia sou + hagiasthētō are the only two
+    Thou-petitions surviving word-for-word in Luke's shorter text) against the fetched ESV Luke
+    11:2 text -- confirmed, Luke's text stops before "your will be done." No false synthetic
+    claims found.
+  phase5_commentary_crosscheck: not run this session (time-boxed; no commercial commentary pulled
+    independently of the study's own References section).
+  phase6_context_coverage: >
+    Q1-4, Q6 covered. Q5 (cultural-vs-transcultural) is worked out in this state file's
+    hermeneutics.cultural_vs_transcultural notes but never stated explicitly to the reader in the
+    published prose -- flagged as a Moderate gap. Q7 (statement-of-faith): consistent -- the
+    already/not-yet, future-literal-kingdom reading matches statement-of-faith.md's dispensational
+    End Times section. study_gaps.py found no quotation-level gaps, only low-priority crossref
+    leads. cross_study_claims.py checked against Matthew 6, Luke 11, Daniel 2 and Acts 1 --
+    olivet-discourse.md independently cites Daniel 2:44 the same way; no sibling contradictions.
+  phase7_placement_tags: >
+    Placement (christian-life/, category "prayer") matches placement-and-tags.md's taxonomy table
+    exactly. Tags matthew/luke/method-word-study are established shared vocabulary; the three
+    study-specific tags (lords-prayer, sermon-on-the-mount, jesus-teaching) are legitimate unique
+    topic tags, not near-synonyms of an existing tag. primary_passage/bible_references present.
+    No template placeholders.
+  phase8_style: >
+    "rather than"/", not" contrast constructions run ~1 per 142 words (31 instances / ~4400
+    words) -- denser than human-review.md's flagged 1-per-210 drift rate, though most read on
+    inspection as genuine contested-reading disambiguations rather than rhetorical straw-men.
+    Biggest structural finding: this study predates the site's "Key Takeaways" convention
+    (develop-bible-study SKILL.md Phase 7) and still uses the old flat, unlabeled "Key lessons"
+    list at the end of the file rather than the current up-front, five-subheading spec (Lessons
+    about Jesus / Memory verses / Be Transformed / Prayer) -- notably, the skill's own spec text
+    cites this file by name as the model for how the Prayer subsection should read, even though
+    the file was never migrated to the new structure. User flagged this independently before the
+    review ran.
+  outcome: >
+    User chose "fix everything now." All three Critical misquotes corrected (Luke 11:1, Matt
+    12:28/Luke 11:20, Ephesians 4:32), the basileia count fixed (164 -> 162), the two unattributed
+    KJV doxology quotes labeled, the misleading Isaiah 63:16 ellipsis removed, an explicit
+    cultural-vs-transcultural paragraph added to Theological principle, a discussion question
+    added on the kingdom already/not-yet material, and the Key Takeaways restructure completed
+    (Lessons about Jesus / Memory verses / Be Transformed / Prayer, moved up front; the old flat
+    "Key lessons" section removed; "One teaching, or two?" given its own heading so it stopped
+    being absorbed into the new Prayer subsection's word count). The antithesis-construction
+    density (Minor finding) was left as-is per human-review.md -- a judgement call for a human
+    reader, not a mechanical fix. npm run validate clean (only the pre-existing block-quote-share
+    warning remains, present before this review too). read_structure: 33 sections, median 112
+    words, 0 over target, 0 walls.
 last_updated: "2026-07-22"
