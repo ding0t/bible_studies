@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:35-38", "Ezra 7:1-5", "Ruth 4:18-22", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Acts 13:19-21", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
 date_created: 2026-07-24
-date_modified: 2026-09-13
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -129,6 +129,8 @@ birth, 330 more after, 460 total — [Genesis 11:13 LXX](https://www.blueletterb
 This looks at first like Luke following the Greek tradition against the Hebrew, and this study
 previously read it that way. The manuscript evidence points the other direction.
 
+#### The case for a later insertion
+
 **Luke's own text is contested.** The two earliest witnesses to this verse omit Cainan:
 𝔓⁷⁵, the oldest extant manuscript of Luke, from the early third century, and the fifth-century
 Codex Bezae. Every witness that has him is fourth-century or later, beginning with Codex
@@ -156,6 +158,8 @@ with the name swapped.
 below. A copyist's eye skipping from *Shelah* to a line ending in *Cainan* inserts the name at
 3:36 without effort. No comparable mechanism explains an accidental deletion from 𝔓⁷⁵ and Bezae.
 
+#### The contested counter, and the working position
+
 Against all that: NA28 and UBS still print Cainan at Luke 3:36 unbracketed, Helen Jacobus (*JSP*
 18, 2009) has argued he was original to the Hebrew, and one recent paper questions the
 identification of the 𝔓⁷⁵ fragment itself. The question is contested rather than closed.
@@ -167,12 +171,16 @@ chronology carries 130 years it should not, and the `lxx` variant in
 
 ### Methuselah: the name, the number, and the Flood
 
+#### Two readings of the name
+
 Methuselah's name (מְתוּשֶׁלַח) is ambiguous at the lexical level — not "one attested
 reading and one folk etymology," but two real readings built from real roots. Read as *m'tei*
 ("men of") + *shelach* ("javelin," H7973), it's a plain warrior name with no theological
 freight. Read as *mut* ("die," H4191) + *shalach* ("send," H7971), it becomes a sentence-name:
 "his death shall send [it]." Both parse correctly; nothing in the lexicon settles which one the
 name-giver intended.
+
+#### The arithmetic in each tradition
 
 What tips the scales toward the second reading is arithmetic rather than etymology. And the
 arithmetic has to be run separately in each tradition, because the three chains put Methuselah's
@@ -271,6 +279,8 @@ the temptation, and it is a real one.
 
 ## Toward a most probable timeline
 
+### Adopting SP for Terah
+
 Three real manuscript traditions and a fourth option — synthesizing rather than simply picking
 one — are laid out in `docs/data/genealogy/index.json`'s `timeline_variants`. This study's
 working position, `harmonized_v1`, takes MT as the base (matching this site's existing
@@ -287,6 +297,8 @@ are left alone, because nothing about those numbers resolves a contradiction the
 does. Adopting a reading only where it earns its keep is the point of calling this a *proposed
 synthesis* rather than crowning one manuscript the winner.
 
+### The Methuselah substitution, reverted
+
 **A second substitution was removed on 2026-09-06, for the following reason.** `harmonized_v1`
 previously took SP's Methuselah as well, on the stated grounds that SP was the only tradition
 avoiding a Methuselah who outlives the Flood. That premise was wrong: as the section above now
@@ -300,6 +312,8 @@ correspondence the substitution existed to protect was destroyed by making it. I
 death (AM 930) to within six years of Noah's birth, close enough to read as an overlap on the
 timeline chart, when MT separates them by 126 years and no antediluvian patriarch except Noah is
 born after Adam dies.
+
+### Deriving the Gregorian dates
 
 **How the Gregorian dates are derived, corrected 2026-08-22.** Zadok year 0 is Adam's creation
 and is absolute, so a variant with a longer chain from Adam to Terah puts creation *earlier* in
@@ -325,6 +339,8 @@ Septuagint puts the Flood *before* Egypt's First Dynasty rather than a millenniu
 picture. Three of the four variants agree on Terah's death because they share the anchor and the
 chain from Terah forward is identical; they diverge only above him, which is the whole point.
 
+### Two choices behind the numbers
+
 Two figures behind these numbers are choices rather than manuscript readings, and both are now
 stated in `docs/data/genealogy/index.json` with their scriptural basis rather than buried in
 code. Shem's birth is taken from Genesis 11:10 ("two years after the flood," Shem then 100)
@@ -333,6 +349,8 @@ two differ by 2 years and that slack propagates to every date below Shem. And `h
 alone reads Terah's 70 in Genesis 11:26 plainly, because the Samaritan 145-year total it adopts
 already puts Terah's death in Abram's 75th year — which is the reason that substitution was made
 in the first place.
+
+### What stays open
 
 This is presented as the working answer, not the final one — the state file behind this study
 (`references/study-state/genealogy-times.yml`) tracks it as `harmonized_v1`, open to revision if
@@ -466,6 +484,8 @@ evidence in the same way summing the numbers naively does.
 
 ## What this means for prophecy and Christ
 
+### Two genealogies, two different jobs
+
 None of the above is only an arithmetic exercise. Two genealogies of Jesus survive (Matthew 1:1-17,
 Luke 3:23-38), and they're doing visibly different jobs. Matthew's is explicitly structured,
 "fourteen generations" three times over (Matthew 1:17), and to hit that count it compresses the
@@ -479,6 +499,8 @@ ending is the argument. Luke is setting up the same connection Paul makes explic
 second Adam, undoing in obedience what the first Adam did in disobedience (Romans 5:12-21; 1
 Corinthians 15:22, 45). The genealogy exists, in Luke's hands, to make a theological claim stick to
 a real, traceable human line. It works precisely because that line is real.
+
+### The promise carried through named people
 
 That is the frame the chronological work sits inside. The line from Adam to Christ is tracked
 because of a promise, not because a date is owed. Genesis 3:15 said the woman's seed would come, and
