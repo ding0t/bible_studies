@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 14:6; Acts 9:2"
 bible_references: ["Isaiah 40:3", "Isaiah 35:8-10", "Psalm 1:1-6", "Jeremiah 6:16", "Deuteronomy 10:12-13", "Matthew 3:3", "Mark 1:2-3", "Luke 3:4-6", "John 1:23", "Matthew 7:13-14", "Matthew 21:32", "Luke 1:76-79", "John 13:36-14:14", "Hebrews 3:10", "Hebrews 9:8", "Hebrews 10:19-20", "Acts 4:12", "Acts 9:1-2", "Acts 11:19-26", "Acts 16:17", "Acts 18:24-26", "Acts 19:9", "Acts 19:23", "Acts 22:4", "Acts 24:5", "Acts 24:14", "Acts 24:22", "Acts 26:28", "Acts 28:22", "1 Peter 4:16", "Romans 3:16-17", "Romans 11:33", "1 Corinthians 4:17", "1 Corinthians 12:31", "2 Peter 2:2", "2 Peter 2:15", "2 Peter 2:21", "Jude 1:11", "James 1:8", "James 5:20"]
 date_created: 2026-08-02
-date_modified: 2026-09-19
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -26,6 +26,8 @@ claim Jesus made about himself the night before he died: "I am the way" (John 14
 follows *hodos* through the whole of the New Testament. Where it names a literal road. Where it
 means a course of life. Where it becomes a title for Jesus. And where it becomes a name his
 followers wore before anyone called them anything else.
+
+**In one sentence:** *Hodos* — the Old Testament's ordinary word for the course of a life — becomes, in the New Testament, both Jesus's claim to be the only way to the Father (John 14:6) and the name his followers wore for themselves before anyone called them "Christians" (Acts 9:2).
 
 ## Key Takeaways
 
@@ -101,6 +103,8 @@ life, a body of teaching, or a name for a movement. It traces that weight back t
 source. Then it follows the word into two places the New Testament pushes it further than the Old
 ever did — John 14:6, and the book of Acts.
 
+### John's Gospel: Thomas's question in the Upper Room
+
 **John's Gospel.** Chapters 13-14 sit inside the Upper Room Discourse, Jesus's farewell speech to
 the Twelve on the night of his arrest. Judas has just left to betray him (13:30); Jesus has just
 told Peter he will deny him three times before dawn (13:38). "Let not your hearts be troubled"
@@ -108,6 +112,8 @@ told Peter he will deny him three times before dawn (13:38). "Let not your heart
 "Lord, we do not know where you are going. How can we know the way?" (14:5, ESV) — is what draws
 out 14:6. The claim to be "the way" isn't offered in the abstract; it answers a specific, frightened
 question from a specific man in a specific room, hours before the cross.
+
+### Acts: from persecutor to prisoner
 
 **Acts.** Luke's second volume narrates the gospel's spread from Jerusalem to Rome, and "the Way"
 threads through nearly the whole of it. First in Saul's mouth as persecutor (9:2). Last in Paul's
@@ -210,6 +216,8 @@ exclusivity claim before the following sentence states one outright: not *a* way
 
 Three facets sit inside that one claim:
 
+### The way as destination
+
 **The way is a destination, not a set of directions.** Thomas's question was "how can we know the
 way" (14:5) — he wants a route, the kind of information a map gives. Jesus answers with a person.
 The claim does the opposite of what a set of directions would do: it collapses the distance between
@@ -217,6 +225,8 @@ knowing the way and knowing the destination. "If you had known me, you would hav
 also. From now on you do know him and have seen him" (14:7, ESV) — and when Philip still asks to be
 shown the Father separately, Jesus's answer is blunt: "Whoever has seen me has seen the Father"
 (14:9, ESV). The way and the arrival are the same thing, because both are the same person.
+
+### The curtain that once barred access
 
 **The way fulfills what the Old Testament's own barred access had only pictured.** The ESV Study
 Bible's note on this verse traces the claim back through a set of Old Testament restrictions on
@@ -238,6 +248,8 @@ The curtain that barred entry becomes, in Hebrews' argument, the very thing Chri
 through. Isaiah 35:8's guarded highway pictured that same access problem. Here a person opens the
 road himself.
 
+### A personal exclusivity
+
 **The exclusivity is personal, not merely doctrinal.** First-century Judaism already had groups that
 claimed exclusive access to God. The Qumran community is the sharpest case. Its members believed
 they alone followed the true path, and that other Jewish groups, the temple establishment included,
@@ -258,6 +270,8 @@ the Old Testament's "way of life" idiom rather than extending it into anything n
 together shows how thoroughly the New Testament writers inherited *derek*'s range rather than
 coining a new metaphor of their own:
 
+### Taught rightly, or lost entirely
+
 - **A way that can be taught rightly or wrongly.** Apollos "had been instructed in the way of the
   Lord" but knew only John's baptism; Priscilla and Aquila "took him aside and explained to him
   the way of God more accurately" (Acts 18:25-26, ESV) — the same idiom as Acts's "the Way,"
@@ -269,6 +283,8 @@ coining a new metaphor of their own:
   (Romans 3:16-17, ESV) — the same Hebrew phrase, *derek shalom*, behind Isaiah 59:8's "way of
   peace" discussed further below. Paul's point isn't a wrong way chosen; it's that the way itself
   is unknown.
+### Corrupted or abandoned by false teachers
+
 - **A way that false teachers corrupt or abandon.** Peter warns that some "will follow their
   sensuality, and because of them the way of truth will be blasphemed" (2 Peter 2:2, ESV); that
   others, "forsaking the right way," have "followed the way of Balaam" (2:15, ESV); that it would
@@ -278,6 +294,8 @@ coining a new metaphor of their own:
   believe him" (Matthew 21:32, ESV). Peter's false teachers abandon the very way John walked in
   and the religious leaders refused to believe. Jude names another figure who left it: those who
   have gone "the way of Cain" (Jude 11, ESV).
+### A way that reveals character
+
 - **A way that describes character, not just direction.** James calls the double-minded man
   "unstable in all his ways" (James 1:8, ESV). Someone who "brings back a sinner from his
   wandering" (James 5:20, ESV) is, in the underlying Greek, bringing him back **ἐκ πλάνης ὁδοῦ
@@ -291,6 +309,8 @@ coining a new metaphor of their own:
   doctrine. Hebrews, quoting Psalm 95 of the wilderness generation, says they "always go astray in
   their heart" and "have not known my ways" (Hebrews 3:10, ESV) — heart and way named together, as
   one thing.
+### God's own ways, and a still more excellent one
+
 - **God's own ways, set apart from human ones.** Paul's doxology marvels at "how unsearchable are
   his judgments and how inscrutable his ways!" (Romans 11:33, ESV) — a different register entirely,
   *hodos* used not of a path a person walks but of God's own inscrutable manner of acting, closer
@@ -323,6 +343,8 @@ The name spans Paul's entire career inside the narrative. From persecutor before
 end of it (24:14, 22). Luke never introduces the term or explains it; he uses it the way any writer
 uses a name the audience is assumed to already know.
 
+### Qumran's own use of "the Way"
+
 **Not an unprecedented choice of word.** A Jewish sectarian movement calling itself "the Way" was
 not, in itself, a novelty in this period. The Qumran community, the group behind the Dead Sea
 Scrolls and roughly contemporary with the earliest church, used the identical self-designation for
@@ -333,6 +355,8 @@ end of the road. For Qumran, a strict community rule. For the church, according 
 trajectory through all four Gospels, the person that trajectory was clearing ground for in the first
 place.
 
+### Two names for one movement
+
 **Insiders' name against outsiders' name.** Acts records both sides of the naming at once, and the
 contrast is deliberate. Paul's own word before Felix is "the Way" — and in the very same sentence he
 reports what his accusers call it instead: "according to the Way, **which they call a sect**"
@@ -342,6 +366,8 @@ community leaders in Rome use the same word of Paul years later: "with regard to
 know that everywhere it is spoken against" (28:22, ESV). Every occurrence of *hairesis* applied to
 the church in Acts comes from a hostile or outside speaker. "The Way" never does — it is always the
 movement's word for itself, or a narrator's or official's neutral report of what it calls itself.
+
+### "Christian": an outsider's label
 
 **"Christian" was somebody else's word first.** The label that eventually displaced "the Way" in
 common usage appears only three times in the New Testament, and never once in a believer's own
