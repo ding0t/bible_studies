@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Hebrews 7:1-28"
 bible_references: ["Genesis 2:15", "Genesis 3:22-24", "Genesis 8:20", "Genesis 14:17-20", "Exodus 13:1-2", "Exodus 32:26-29", "Numbers 3:5-13", "Numbers 8:16-18", "Numbers 18:1-7", "Psalm 110:1-4", "Hebrews 2:17-18", "Hebrews 4:14-16", "Hebrews 5:1-10", "Hebrews 6:13-20", "Hebrews 8:1-13", "Hebrews 9:11-28", "Hebrews 10:1-18", "Zechariah 6:12-13", "2 Chronicles 26:16-21", "Jeremiah 31:31-34", "Leviticus 25:8-13", "Deuteronomy 15:2", "Isaiah 61:1", "Luke 4:18-19", "Psalm 82:1-8", "John 10:34-36", "Isaiah 52:7", "Daniel 9:24-27"]
 date_created: 2026-08-02
-date_modified: 2026-09-19
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -21,6 +21,8 @@ obscure Canaanite king-priest is the pattern for the priesthood of God's own Son
 appears in Scripture only long enough to bless Abram, receive a tenth of the spoils, and vanish. No
 birth notice. No death notice. No father, no mother, no tribe. Hebrews reads that silence as
 deliberate: a priesthood built to outlast Levi's before Levi existed.
+
+**In one sentence:** Jesus holds the priesthood Melchizedek only foreshadowed — secured by God's own oath and an indestructible life, exercised in the true heavenly sanctuary, through a single sacrifice that never has to be repeated.
 
 ## Key Takeaways
 
@@ -110,6 +112,8 @@ Tracing where it came from first shows what Hebrews' argument actually assumes: 
 appointed his own priests, and that the office has already changed hands more than once before it
 reaches either Melchizedek or Aaron.
 
+### The garden as sanctuary: Adam's priestly office
+
 **Adam in Eden.** God places the man in the garden "to work it and keep it" (Genesis 2:15) — Hebrew
 לְעָבְדָהּ וּלְשָׁמְרָהּ, from עָבַד (*avad*, "work, serve") and שָׁמַר (*shamar*, "keep,
 guard"). The same two verbs recur together for the priests' and Levites' work at the tabernacle:
@@ -128,11 +132,15 @@ the gate.[^nivbtsb-eden]
 
 So the office does not vanish when the first man forfeits it. It is reassigned.
 
+### Household priesthood before Sinai: Noah and the patriarchs
+
 **Noah and the patriarchs.** No separate priestly class exists yet in Genesis. The household head
 acts as his family's priest directly: Noah "built an altar to Yahweh... and offered burnt
 offerings" with his own hands after the flood (Genesis 8:20, WEB), and Abraham and Isaac do the same at
 their own altars (Genesis 12:7-8; 26:25). Priesthood in this period is a function of headship, not
 a distinct office someone is set apart into.
+
+### From every firstborn son to one tribe: the Levites at Sinai
 
 **The firstborn, then the Levites.** That changes at Sinai, in two steps.
 
@@ -154,6 +162,8 @@ of all the children of Israel, I have taken them to me."
 So the priestly office that began as every faithfulness at that failure, the possession of one
 tribe. Aaron's own line within that tribe is appointed later still (Exodus 28:1), and only then does
 the office narrow to a single family.
+
+### Three things this history sets up for Hebrews' argument
 
 **The significance for Hebrews' argument.** Three things run through every stage of this line, and
 Hebrews' case for Christ depends on the same three holding true of him:
@@ -215,12 +225,16 @@ line — he was struck with leprosy where he stood (2 Chronicles 26:16-21).
 Melchizedek's office predates that separation. He is a king who is also a legitimate priest, seven
 or eight centuries before Levi is set apart as a priestly tribe at all.
 
+### Name and city: king of righteousness, king of peace
+
 **Name and city.** Melchizedek — Hebrew מַלְכִּי־צֶדֶק (*malkî-ṣedeq*) — divides into מֶלֶךְ
 (*melek*, "king") and צֶדֶק (*ṣedeq*, "righteousness," TWOT root 1879a), giving "king of
 righteousness." Salem (שָׁלֵם, *shalem*) shares its consonants with שָׁלוֹם (*shalom*, "peace"),
 which is why Hebrews 7:2 glosses it "king of peace." Both etymologies come from the author of
 Hebrews himself, not from later imagination — he states them as "by interpretation" (7:2), a
 standard move for a Greek-speaking audience who would not have parsed the Hebrew unassisted.
+
+### El Elyon: the same God under a shared Canaanite title
 
 **El Elyon.** "God Most High" translates אֵל עֶלְיוֹן (*El Elyon*), a title also attested for
 generic high gods elsewhere in Canaanite religion. So on a strictly comparative-religion reading,
@@ -232,6 +246,8 @@ the same El Elyon title from verse 20, now fused with the covenant name in one b
 
 The author intends the reader to recognise them as the same God, whatever the title's wider currency
 in the surrounding culture.
+
+### No genealogy: the silence Hebrews builds on
 
 **No genealogy.** Genesis is structured around *toledot* — the recurring "these are the
 generations of" formula that tracks every major figure's line. Melchizedek alone gets none. He has no recorded father, mother, birth, or death. Genesis never claims he had none. This is a narrative silence, and it is unique to him in a book otherwise obsessive about lineage. Hebrews 7:3 will build directly
@@ -273,6 +289,10 @@ messianic expectation.
 
 By the first century, Melchizedek was not a forgotten footnote. Jewish groups reading the same two Old Testament texts had already built very different pictures of him. Hebrews' author writes into that milieu without simply repeating it.
 
+### Qumran (11Q13, "11QMelchizedek")
+
+#### A Jubilee-and-Isaiah catena
+
 **Qumran (11Q13, "11QMelchizedek").** A fragmentary Hebrew scroll from Cave 11, dated to roughly the
 mid-first century BC, builds a composite *pesher* — a running commentary stringing several Old
 Testament texts together as one prophecy. It draws on the Jubilee legislation, a royal psalm, and
@@ -291,6 +311,8 @@ anointed me to proclaim liberty to the captives... to proclaim the acceptable ye
 Jubilee-shaped release from a debt that turns out to be sin itself, assigned to "the sons of Heaven
 and the lot of Melchizedek."
 
+#### The Psalm 82 judgment scene
+
 The scroll's second half turns to judgment, and does the same composite-quotation move with Psalm
 82:1 — "God (אֱלֹהִים) has taken his stand in the divine assembly; in the midst of the gods
 (אֱלֹהִים) he holds judgment" — read as Melchizedek's own end-times judgment against Belial and his
@@ -301,6 +323,8 @@ gods" back at his accusers (John 10:34-36).
 So two independent first-century readings treat this psalm's *elohim* language as live ground for a
 contested identity claim — on opposite sides of the same dispute.
 
+#### A heavenly, composite portrait
+
 11Q13 then adds Isaiah 52:7 ("how beautiful... are the feet of him who brings good news") and Daniel
 9:25's "an anointed one, a prince", identifying the "messenger" of the one prophecy with the
 "prince" of the other. Three separate Old Testament threads — Jubilee law, a psalm, two messianic
@@ -310,6 +334,8 @@ judges Belial, and is called Melchizedek.[^11q13]
 That is a far larger role than anything in Genesis or the Psalms. Melchizedek's *name* has become
 the peg for an entirely new composite eschatological figure. It is not a memory of the historical
 king Abram met.
+
+#### A different figure from Genesis, read with caution
 
 That is a different question from the one Genesis 14 raises, and the two shouldn't be merged.
 Genesis gives no hint that its Melchizedek was anything but human; what Qumran did was take his
@@ -322,6 +348,8 @@ Jesus as God in the flesh. That is a real position, and a stronger claim than th
 vocabulary requires. "Elohim" is exactly the word Psalm 82 — the psalm 11Q13 has just quoted —
 applies to human judges a few verses on.
 
+#### The Zadok Calendar's reading of 11Q13
+
 Separately, this site's own reckoning of the Dead Sea Scrolls' 364-day calendar (see [The Zadok
 Calendar](../feasts/zadok-calendar.md)) follows Dr. Ken Johnson, Th.D. (BibleFacts Ministries). He
 reads 11Q13's placement of these events as falling one Shemittah after a ninth Jubilee in that
@@ -330,10 +358,14 @@ calendar's reckoning, landing around AD 32.
 That is Johnson's own application of the site's chronology to this scroll. The scroll's fragmentary
 Hebrew does not state it in those terms.
 
+### The Genesis Apocryphon (1Q20)
+
 **The Genesis Apocryphon (1Q20).** An Aramaic retelling of Genesis found at Qumran smooths the
 Genesis 14 account, having Melchizedek's meeting with Abram flow more naturally into the
 narrative and confirming the tithe — closer to Genesis's own historical register than 11Q13's
 angelology, but still an expansion rather than a plain retelling.
+
+### Philo of Alexandria
 
 **Philo of Alexandria.** Writing allegorically for a Hellenistic Jewish audience, Philo reads
 Melchizedek in *Legum Allegoriae* 3.79-82 as a figure of the divine Logos — "king of peace" and
@@ -342,11 +374,15 @@ Middle-Platonic reading with almost nothing in common with either Qumran's apoca
 Hebrews' historical typology; the "Melchizedek" doing the work in Philo's argument is a
 philosophical principle, not a person.
 
+### Josephus
+
 **Josephus.** By contrast, Josephus treats Melchizedek as a straightforwardly historical figure —
 a Canaanite king of Salem, which he identifies with Jerusalem, whose name he glosses "righteous
 king," and who "was made" priest of God on account of that righteousness (*Antiquities* 1.10.2).
 No angelology, no allegory — just an ancient king Josephus assumes his readers will accept as
 history.
+
+### What Hebrews does with this material
 
 Hebrews' author knows this wider conversation — the letter's Melchizedek material is introduced as
 something the audience needs to be spiritually mature to receive (Hebrews 5:11-14), which fits a
@@ -357,6 +393,8 @@ silences — no father, no mother, no death — as a divinely designed resemblan
 "resembling the Son of God"), pointing forward rather than being expanded backward.
 
 ## Hebrews' argument, traced
+
+### Author, audience, and date
 
 **Setting.** This study follows the traditional ascription of Hebrews to Paul, writing in Hebrew
 with Luke as translator — the account preserved by Clement of Alexandria (Eusebius,
@@ -375,6 +413,8 @@ The strongest evidence for a date before AD 70 is that the letter speaks of temp
 ongoing present reality (7:27-28; 8:3-5; 9:7-8, 25; 10:1-3; 13:10-11). An author trying to show that
 system's insufficiency would have had an unanswerable argument available in the temple's
 destruction, and never reaches for it.
+
+### The priesthood thread, from chapter 2 on
 
 **The priesthood thread, from chapter 2 on.** The case for Melchizedek does not start at chapter
 7; it is prepared for three separate times earlier in the letter. Hebrews 2:17-18 first introduces
@@ -402,11 +442,15 @@ Pairing Psalm 2 (Sonship, kingship) with Psalm 110 (Melchizedekian priesthood) i
 the letter's own move, not a modern harmonization — it welds royal sonship and priesthood into a
 single appointment before chapter 7 has argued a word of the Melchizedek case itself.
 
+### The interruption
+
 **The interruption.** Right where the reader expects the Melchizedek argument to begin, the author
 stops: "About this we have much to say, and it is hard to explain, since you have become dull of
 hearing" (5:11). What follows, through 6:12, is a warning against spiritual immaturity — the
 Melchizedek material is explicitly flagged as advanced teaching the audience isn't yet ready for,
 which is itself evidence of how much weight chapter 7 is about to carry.
+
+### The hinge
 
 **The hinge.** Hebrews 6:13-20 resumes by pointing to God's oath to Abraham (Genesis 22) as the
 pattern for "two unchangeable things, in which it is impossible for God to lie" (6:18) — promise,
@@ -415,7 +459,11 @@ tool chapter 7 will use on Psalm 110:4. The section closes on the sentence that 
 chapter 7's own topic sentence: Jesus has "become a high priest forever after the order of
 Melchizedek" (6:20).
 
+### Chapter 7 in three movements
+
 **Chapter 7 in three movements.**
+
+#### Melchizedek's superiority, from the Genesis account itself (7:1-10)
 
 *(a) Verses 1-10 — Melchizedek's superiority established from the Genesis account itself.*
 Abraham, not Melchizedek, gives the tithe (7:4), and "it is beyond dispute that the inferior is
@@ -423,6 +471,8 @@ blessed by the superior" (7:7) — the one who blesses outranks the one blessed.
 still, in the author's phrase, "in the loins of his ancestor" Abraham when Melchizedek met him
 (7:9-10), even the Levitical priesthood, in the person of its ancestor, effectively paid tithes to
 Melchizedek rather than the other way around.
+
+#### The argument from the existence of a promise (7:11-19)
 
 *(b) Verses 11-19 — the argument from the existence of a promise.* If the Levitical system had
 actually achieved what it was for, "what further need would there have been for another priest to
@@ -432,6 +482,8 @@ was never going to be sufficient. And because priesthood and law were bound toge
 "when there is a change in the priesthood, there is necessarily a change in the law as well"
 (7:12) — the argument has already, at this point, widened from personnel to the whole
 Torah-administered system.
+
+#### The oath argument (7:20-28)
 
 *(c) Verses 20-28 — the oath argument.* No oath was sworn over any Levitical priest; "those who
 formerly became priests were made such without an oath" (7:20-21). This one was — Psalm 110:4 is
@@ -443,9 +495,13 @@ The chapter closes on a summary of moral and functional superiority — "holy, i
 separated from sinners" (7:26) — and previews the fuller argument still to come in chapters 8-10:
 a single, unrepeated self-offering (7:27) against sacrifices that had to be made "daily."
 
+#### Superior in kind and in person
+
 Read across chapters 5-7, the argument is that Christ's priesthood is superior in *kind* and in
 *person* — a different order, secured by an oath, resting on an indestructible life. What follows in
 chapters 8-10 is not a second, separate argument tacked on afterward; Hebrews itself says so.
+
+### Chapters 8-10: a shadow tabernacle and the true one
 
 **Chapters 8-10: a shadow tabernacle and the true one.** Chapter 8 opens by naming what everything
 since chapter 5 has been building toward. "The point (κεφάλαιον) in what we are saying is this: we
@@ -455,11 +511,15 @@ a minister in the holy places, in the true tent that the Lord set up, not man" (
 So the priesthood case and the sanctuary case are one argument. The second is stated as the
 conclusion of the first.
 
+#### Christ could not have served on earth
+
 And Christ could not have ministered in the earthly tabernacle even had he wanted to. "If he were on
 earth, he would not be a priest at all, since there are priests who offer gifts according to the
 law" (8:4). That is the point 7:13-14 already made about Judah having no claim on Levi's altar, now
 doing further work. Christ's priesthood is not only of a different *order* than Aaron's. It operates
 in a different *place*.
+
+#### Copy and shadow: the tabernacle's own founding instructions
 
 That place is not a better copy of Moses' tabernacle; Hebrews says the earthly tabernacle was never
 more than a **ὑπόδειγμα καὶ σκιά** — "copy and shadow" (8:5) — of a heavenly original.
@@ -477,6 +537,8 @@ hands, which are copies (ἀντίτυπα) of the true things, but into heaven 
 Chapter 10 restates the point once more, in temporal rather than spatial terms. The law has "but a
 shadow (σκιά) of the good things to come instead of the true form (εἰκών) of these realities" (10:1,
 ESV).
+
+#### Two typologies, converging
 
 Calling chapters 5-10 "one argument" describes how the letter is *built*, then — chapter 8 states
 the conclusion chapter 7 was arguing toward. It doesn't mean the letter uses one typology
@@ -506,6 +568,8 @@ Several of the words chapter 7 leans on occur nowhere else in the New Testament 
 signal that the author reached for precise, technical vocabulary rather than settling for ordinary
 terms.
 
+### ἱερωσύνη: the priestly office itself
+
 **ἱερωσύνη (*hierōsynē*, "priesthood," G2420)** — 7:11, 12, 24. This abstract noun for the
 priestly *office* is exclusive to Hebrews 7 in the entire New Testament; every other reference to
 priests in the New Testament uses the concrete noun ἱερεύς (*hiereus*, "priest," the person
@@ -513,10 +577,14 @@ holding the office). The distinction matters to the argument: verse 12 speaks of
 itself being "changed" (μετατίθημι), the way one arrangement is swapped for another — the author
 is arguing about an institution, not merely about which individuals occupy it.
 
+### τάξις: a fixed order or rank
+
 **τάξις (*taxis*, "order," G5010)** — 7:11, 17 (also 5:6, 6:20). A term for a fixed rank or
 category (Louw-Nida 58.21), used symmetrically for both priesthoods in 7:11 — "the order of
 Melchizedek... the order of Aaron" — which sets them up as two rival *classes* of priesthood, not
 simply two individuals. Christ belongs to Melchizedek's *taxis* by pattern. Melchizedek left no line to inherit from, so "order" here cannot mean hereditary succession the way Aaron's line does.
+
+### κρείττων: "better," the letter's structural spine
 
 **κρείττων (*kreittōn*, "better," G2909)** — the letter's structural spine. It occurs twelve times
 across Hebrews (1:4; 6:9; 7:7, 19, 22; 8:6 [twice]; 9:23; 10:34; 11:16, 35, 40; 12:24), more than in
@@ -527,6 +595,8 @@ and "greater" words together runs to 25 occurrences across the letter.[^esvsb-in
 alone uses *kreittōn* three times (vv.7, 19, 22) — the local concentration of the letter's central
 word, right where the Melchizedek argument turns to the covenant it secures.
 
+### ἀκατάλυτος: an indestructible life
+
 **ἀκατάλυτος (*akatalytos*, "indestructible," G179)** — 7:16, a New Testament hapax legomenon
 (its only occurrence). Built from the alpha-privative plus καταλύω (*katalyō*, "to demolish,
 dissolve" — the same verb used of tearing down a building, as at Matthew 24:2 of the temple).
@@ -535,6 +605,8 @@ by the power of an indestructible life" (7:16, ESV) — the qualification is not
 record that can be checked and eventually runs out with death, but the literal fact of his
 resurrection.
 
+### ἀπαράβατος: a priesthood with no successor
+
 **ἀπαράβατος (*aparabatos*, "permanent," G531)** — 7:24, also a New Testament hapax. Lexicographers
 divide over the exact sense: most English versions render it "unchangeable" or "permanent," but
 the word's root (παραβαίνω, "to go past or aside") also supports "which does not pass to a
@@ -542,17 +614,23 @@ successor" — a priesthood that is never handed down because it never needs to 
 converge on the same point verse 23 has just made: the Levitical priesthood was necessarily
 plural, because death kept forcing a transfer to the next man; Christ's is not.
 
+### ἔγγυος: a guarantor who stakes his own life
+
 **ἔγγυος (*engyos*, "guarantor," G1450)** — 7:22, a New Testament hapax and a legal-commercial
 term for someone who personally underwrites another party's obligation. This is a different word
 from μεσίτης (*mesitēs*, "mediator," used at 8:6, 9:15, and 12:24) — a mediator brokers an
 agreement between two parties; a guarantor personally stakes something of his own if the
 obligation isn't met. Hebrews' claim is the stronger one. Jesus personally guarantees the new covenant's terms, with an indestructible life as the collateral nothing can default.
 
+### ἐφάπαξ: once for all
+
 **ἐφάπαξ (*ephapax*, "once for all," G2178)** — 7:27 (also 9:12; 10:10). Intensified from ἅπαξ
 (*hapax*, "once") by the ἐφ- prefix, marking a single, decisive, unrepeatable event — set directly
 against the Levitical high priest's sacrifices offered "daily" (καθ᾿ ἡμέραν, *kath' hēmeran*,
 7:27). The repetition itself is treated as evidence in Hebrews' larger argument (10:1-4): sacrifices
 that had to be offered again and again were, by that very fact, never actually removing sin.
+
+### σκιά and ὑπόδειγμα: shadow and copy
 
 **σκιά (*skia*, "shadow," G4639) and ὑπόδειγμα (*hypodeigma*, "copy," G5262)** — 8:5; 10:1 (*skia*),
 8:5; 9:23 (*hypodeigma* in this sense; a third occurrence at 4:11 uses the word differently, for a
@@ -563,6 +641,8 @@ shared across the wider early church for a shared concern.
 is rarer still in this specific sense: Hebrews' other use, at 4:11, means something closer to
 "cautionary example," so only two of its five NT occurrences carry the "earthly copy of a heavenly
 original" sense the sanctuary argument needs.
+
+### ἀντίτυπος: the earthly copy, struck like a coin
 
 **ἀντίτυπος (*antitypos*, "copy, corresponding type," G499)** — 9:24, one of only two occurrences
 in the entire New Testament (the other, 1 Peter 3:21, uses it of baptism "corresponding to" the
@@ -588,6 +668,8 @@ verse's meaning.
 
 ## Theological principle
 
+### The claim stated
+
 Jesus holds a priesthood superior in kind to the Levitical order: it rests on God's own irrevocable
 oath and on Christ's indestructible resurrection life, not on a genealogical qualification that
 death eventually terminates. That priesthood is Melchizedekian, so it is exercised in the sanctuary
@@ -595,10 +677,14 @@ Hebrews 8:5 calls the heavenly original. The sacrifice offered there is single a
 never repeats. And the letter gives Christ a title stronger than mediator: he is the new covenant's
 *guarantor* (7:22).
 
+### Confirmed independently
+
 None of this rests on Genesis 14's silences alone. Psalm 110:4 states the same promise
 independently. Jeremiah 31:31-34, quoted at Hebrews 8:8-12, supplies the new covenant this
 priesthood secures. And the "once for all" pattern recurs elsewhere in the New Testament for the
 same event (Romans 6:10; 1 Peter 3:18).
+
+### What transcends the history
 
 What's historically particular here and what transcends it are two different things. The
 Chedorlaomer campaign, the mechanics of Levitical tithing, and the Second Temple speculation this
@@ -609,6 +695,8 @@ holds now on the same terms Hebrews describes. That claim doesn't depend on the 
 or the scrolls being true — only on the priesthood and the sacrifice being what Hebrews says they
 are.
 
+### A dispensational reading
+
 On a dispensational reading, Melchizedek's priesthood in Genesis 14 predates Sinai by centuries and
 belongs to a Gentile king outside Abraham's own line entirely. Priestly mediation, in other words,
 did not begin as a Mosaic institution limited to Israel — it existed, legitimately, before the Law
@@ -618,6 +706,8 @@ operates on the terms of God's oath and promise, the same terms given to Abraham
 Hebrews 7:11-12's argument — a change in priesthood requires a change in the law — reads naturally
 as a statement that Christ's priesthood belongs to a different economy altogether, not an upgraded
 version of the same one.
+
+### Confidence to draw near, now
 
 What follows for a reader today is stated directly by the text, not merely implied by it. Because
 access to God no longer depends on a human priesthood that must repeat its work, believers are told
@@ -647,6 +737,8 @@ not a past transaction whose benefits might run out.
 
 ## References & Recommended Reading
 
+### Translations and text databases
+
 - **ESV Bible** (Crossway) — primary translation quoted throughout, per this site's translation
   conventions. **World English Bible (WEB)** and **American Standard Version (ASV)** consulted for
   translation comparison on *aparabatos* (Hebrews 7:24), quoted from this repo's own text database.
@@ -661,6 +753,8 @@ not a past transaction whose benefits might run out.
   Jr., and Bruce K. Waltke (Moody Publishers) — root ids and glosses for כֹּהֵן (*kōhēn*, root
   959a) and צֶדֶק (*ṣedeq*, root 1879a), consulted via this repo's committed TWOT Strong's-number
   map.
+### Study Bibles consulted
+
 - ***ESV Study Bible*** (Crossway, 2016) — consulted last, as a check on conclusions already
   reached from the text. Confirmed the pre-AD-70 dating argument, the "better" cluster's 25
   occurrences as the letter's central motif, the reading of Hebrews 7:3 as an argument from
@@ -678,6 +772,8 @@ not a past transaction whose benefits might run out.
   king-priest pattern behind Genesis 14:18, the note on El Elyon's wider Canaanite usage, and the
   summary of Hasmonean and Sadducean use of Melchizedek to justify combined priestly-royal claims
   in the intertestamental period.
+### Second Temple and classical sources
+
 - **11Q13 ("11QMelchizedek")**, Dead Sea Scrolls, Cave 11, Qumran — the portrait of Melchizedek as
   a heavenly, angelic redeemer figure summarized above draws on published scholarly summaries of
   this fragmentary pesher text, not a first-hand translation.
@@ -693,6 +789,8 @@ not a past transaction whose benefits might run out.
   consulted via published English translation and secondary discussion.
 - **Flavius Josephus**, *Antiquities of the Jews* 1.10.2 — the historical-king reading and the
   "righteous king" name-gloss, consulted via the Whiston translation.
+### Related study on this site
+
 - Related study on this site: [Israel and the Church](../israel-and-church/israel-and-the-church.md) — the dispensational
   framework this study's covenant note draws on, applied there to the Israel/Church question rather
   than to priesthood.
