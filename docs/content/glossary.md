@@ -5,7 +5,7 @@ description: "Short definitions of the terms these studies use — interpretive 
 tags: ["glossary", "reference", "method/word-study", "method/textual-criticism"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-09-13
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -25,6 +25,8 @@ this one, is the real explanation. Where no arrow follows, the entry is all ther
 - [The datasets behind this site](#the-datasets-behind-this-site)
 
 ## Reading and interpreting
+
+### Apocalyptic to Hermeneutics
 
 **Apocalyptic**{ #apocalyptic } — A genre, not a subject: visionary literature that discloses God's
 settled purpose through symbol, number and cosmic imagery. Daniel, Zechariah and Revelation are its
@@ -63,6 +65,8 @@ kept in practice, as distinct from the commandment itself.
 
 **Hermeneutics**{ #hermeneutics } — The principles by which a text is interpreted and applied.
 [Exegesis](#exegesis) asks what a passage meant; hermeneutics asks what follows from it.
+
+### Inclusio to Typology
 
 **Inclusio**{ #inclusio } — A unit of text bracketed by the same word or phrase at its start and
 end. The bracket marks where the unit begins and ends, and often names its theme. Psalm 8 both opens
@@ -106,6 +110,8 @@ draws the line, guesswork where it does not.
 These are the layers of information attached to each word of the Hebrew and Greek text, and the page
 that owns them works Genesis 1:1 through every one.
 
+### Alignment to Hapax legomenon
+
 **Alignment**{ #alignment } — Which original word each English word is rendering. It turns "which
 Hebrew word is this?" from a guess into a lookup, and it is the only thing on this list that links a
 translation to its source word by word. In Genesis 1:1 all four words of "In the beginning" align to
@@ -128,6 +134,8 @@ definition — it is a label, so you can tell which word you are looking at.
 **Hapax legomenon**{ #hapax-legomenon } — A word occurring only once in a given body of text —
 θεόπνευστος (*theopneustos*, "God-breathed") at 2 Timothy 3:16 is one for the New Testament. Weight
 it carefully: with no second occurrence there is no internal control on what the author meant by it.
+
+### Lemma to Surface form
 
 **Lemma, lemmatised**{ #lemma } — The lemma is a word's dictionary form, the form you would look up.
 A *lemmatised* text is one where somebody has identified that form for every word. That is what
@@ -160,6 +168,8 @@ vowel points and accents — <span dir="rtl">בְּרֵאשִׁ֖ית</span> in 
 
 ## Texts, manuscripts and witnesses
 
+### Codex to Ketiv and Qere
+
 **Codex**{ #codex } — A book with leaves bound at a spine, as against a rolled scroll. Christians
 took it up early, which is why the oldest complete Bibles are codices.
 → [Codex Sinaiticus](scripture/ancient-texts-manuscripts.md#16-codex-sinaiticus-c-ad-330-360)
@@ -182,6 +192,8 @@ unfoldingWord Hebrew Bible deliberately does not — "in order to avoid subjecti
 UHB uses the Ketiv of the WLC" ([unfoldingWord](https://git.door43.org/unfoldingWord/hbo_uhb)). That
 single choice is why the two differ in roughly 1.5% of verses, and this site's database keeps the
 930 Qere readings as notes attached to the verses they belong to, so both are visible.
+
+### LXX to Septuagint
 
 **LXX**{ #lxx } — The standard abbreviation for the [Septuagint](#septuagint), from the seventy
 translators of the tradition behind it.
@@ -211,6 +223,8 @@ century BC onward. It matters far beyond translation history because the New Tes
 usually quote it, and it sometimes reads differently from the Hebrew — Hebrews 10:5 quotes "a body
 you have prepared for me" where the Masoretic text has "ears".
 → [Septuagint](scripture/translations.md#septuagint-greek-old-testament)
+
+### Targum to WLC
 
 **Targum**{ #targum } — An Aramaic rendering of the Hebrew Scriptures, often expansive enough to be
 paraphrase and commentary at once. Evidence for how a passage was understood in the synagogue.
@@ -251,6 +265,8 @@ Studies here cite the dataset a claim came out of, so these names turn up in "So
 constantly. What they are, and which of them a query tool can actually see, is set out in full on
 [About our datasets](about/about-our-datasets.md).
 
+### BHSA to morphhb
+
 **BHSA**{ #bhsa } — Decades of Hebrew linguistic analysis from the Eep Talstra Centre, VU Amsterdam,
 with deeper clause hierarchy than anything else held here: it can say which clause hangs under which,
 where MACULA labels a clause's own role and stops. Catalogued and licence-checked but not wired into
@@ -290,6 +306,8 @@ with lemma and morphology, and the source this site's Hebrew word studies are re
 Genesis 1:1's <span dir="rtl">בָּרָ֣א</span> arrives with Strong's `1254 a` and morphology `HVqp3ms`,
 and nothing more: text and tagging only — no gloss, no syntax, no semantic domains.
 → [morphhb](scripture/original-language-data.md#open-scriptures-hebrew-bible-morphhb)
+
+### Scripture links to unfoldingWord, ULT
 
 **Scripture links: `quotation-greek`, `inner-biblical`, `allusion-lemma`, `quotation-hebrew`**{ #scripture-links } —
 The four kinds of connection this site derives between passages, kept apart and never merged into a
