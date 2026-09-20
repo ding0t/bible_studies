@@ -7,9 +7,10 @@ draft: true
 primary_passage: "Matthew 13:51-52"
 bible_references: ["Matthew 13:10-17", "Isaiah 6:9-10", "Matthew 13:35", "Matthew 13:44-53", "Matthew 9:16-17", "Matthew 12:35", "Matthew 5:17-20", "Matthew 23:34", "Matthew 28:19-20", "Matthew 8:19", "Matthew 27:57", "Matthew 12:14-50", "Matthew 13:39-40", "Mark 2:16", "Acts 19:35", "Acts 23:9", "1 Corinthians 1:20", "Ephesians 3:5-9", "Colossians 1:26", "Daniel 2:27-28", "Ezra 7:6-11", "Psalm 78:2", "2 Timothy 3:16-17", "1 John 2:7-8"]
 date_created: 2026-09-18
-date_modified: 2026-09-19
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
   - meta/muse-glimmer
 ---
 

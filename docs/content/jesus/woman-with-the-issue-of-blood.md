@@ -9,9 +9,10 @@ bible_references: ["Mark 5:21-43", "Matthew 9:18-26", "Luke 8:40-56", "Leviticus
 zadok_year: 4035
 gregorian_year: 32
 date_created: 2026-08-23
-date_modified: 2026-09-19
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # The Woman Who Touched the Fringe: Uncleanness Running Backwards
