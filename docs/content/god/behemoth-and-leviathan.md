@@ -7,9 +7,10 @@ draft: false
 primary_passage: "Job 40:15-24; Job 41:1-34"
 bible_references: ["Job 3:8", "Job 7:12", "Job 9:32-33", "Job 38:4-8", "Job 40:15-24", "Job 41:1-34", "Job 42:1-6", "Genesis 1:2", "Genesis 1:21", "Genesis 2:7", "Psalm 18:8", "Psalm 74:12-15", "Psalm 104:24-26", "Isaiah 27:1", "Ezekiel 29:3", "Romans 1:19-20", "Romans 11:33-36", "1 Timothy 2:5"]
 date_created: 2026-08-23
-date_modified: 2026-09-19
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-sonnet-5
 ---
 
 # Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41
@@ -61,13 +62,21 @@ The two exhibits are the end point of that interrogation, and Job's answer follo
 
 ## Two real creatures
 
+### Made in the same world as Job
+
 The Lord introduces Behemoth with a pointing gesture. <span dir="rtl">הִנֵּה־נָא</span> (*hinneh-na*, "look now") is the presentative particle plus the particle of entreaty — the Hebrew for directing someone's attention to something in front of them. Then he places the creature: <span dir="rtl">אֲשֶׁר־עָשִׂיתִי עִמָּךְ</span>, "which I made *immak*" (H5973). English versions split on that preposition. The KJV, the JPS and Young read it "which I made **with** thee"; the ESV, WEB and ASV take it comparatively, "as I made you" / "as well as you." Both senses are available to *im*, and both put Behemoth and Job in the same relation to God as things he made. The "with thee" reading adds contemporaneity — made in the same act, in the same world Job was standing in.
+
+### The argument in Job 41
 
 Job 41 presses the assumption harder, because its argument is a run of questions to which Job already knows the answers. Can you hook him, put a leash on him for your daughters, sell him to merchants, fill his hide with harpoons (41:1-7)? Those are the ordinary things men do to large animals, asked about one animal where they will not work. Verse 9 says a man is undone <span dir="rtl">אֶל־מַרְאָיו</span> (*el-mar'av*, "at the sight of him," from <span dir="rtl">מַרְאֶה</span> *mar'eh*, H4758, "appearance"). Men have looked at this creature.
 
 Verse 33 is then a comparison, not a denial: <span dir="rtl">אֵין־עַל־עָפָר מָשְׁלוֹ</span>, "there is not on the dust his likeness" (*moshel*, H4915, TWOT 1258c). <span dir="rtl">עַל־עָפָר</span> (*al-afar*, "on the dust") is where animals walk. The verse ranks Leviathan against everything else on the ground and finds no equal — and a thing that does not exist cannot be ranked.
 
+### A catalogue of real animals, not myth
+
 Mart-Jan Paul, Professor of Old Testament at the Evangelical Theological Faculty in Leuven, sets out the same case in *Journal of Creation* and adds two observations from the surrounding text. Job 39 has just catalogued ordinary animals — the wild donkey, the ostrich, the horse, the hawk — so the two that follow arrive in a sequence of real ones. And the Lord describes appearance and habits, not primordial combat: Behemoth is a grass-eater lying in the shade of river plants (40:15, 21-22), which is not how the creation myths of Israel's neighbours describe their monsters. Paul's conclusion is stated against the alternative directly: "to call them 'mythological' creatures is to do violence to the text and context of Job; therefore, we affirm that these were actual creatures of which Job had knowledge."
+
+### Real, but gone from the earth
 
 What the passage never says is that either creature could still be found. Behemoth is placed in Job's world; Psalm 104:26 has Leviathan in the sea at the time the psalm was written; Scripture tracks neither one past that. Two real animals, described by the one who made them, and gone from the earth since — which is why the identification question runs through the fossil record and ancient written accounts rather than through the zoo.
 
@@ -79,17 +88,31 @@ What the passage never says is that either creature could still be found. Behemo
 
 Behemoth transliterates Hebrew <span dir="rtl">בְּהֵמוֹת</span> (*behemot*, H930, TWOT root 208b), an intensive plural of *behemah* ("beast," H929) functioning as a superlative: the beast of beasts. Verse 19 ranks him — "the first of the works of God" — rather than merely sizing him.
 
+### Why not the hippopotamus
+
 The traditional identification is the hippopotamus, which the *ESV Study Bible*'s note on 40:15 reports as "almost universally so interpreted," reading verses 16-18 as "poetical extravagance." Four details in the passage work against it.
+
+#### The tail
 
 **The tail.** A hippopotamus's tail is 35-50 centimetres, short and thick, tapering to a point, and it hangs and wiggles rather than being held stiff. A cedar of Lebanon carries branches ten to twenty metres long. Paul's assessment is that the comparison is to size, and that no reading of the hippopotamus's tail supplies it.
 
+#### The muscles
+
 **The muscles.** Verse 16 has Job look at the strength in his loins and the power in the muscles of his belly. A hippopotamus is thickset; the individual muscles are not what a viewer sees.
+
+#### The sword
 
 **The sword.** Verse 19 says only his Maker may bring a sword near him, and verse 24 asks whether anyone can take him by the eyes or pierce his nose. Egyptian hunters killed hippopotamuses routinely, and the favoured tactic was to pierce the nose to force the animal to open its mouth — the specific act verse 24 treats as impossible. Pharaohs advertised the kill; there was a festival called the Harpooning of the Hippopotamus.
 
+#### Familiarity
+
 **Familiarity.** Hippopotamus remains have been recovered from Tel Dor in Israel down to the Iron Age, so a writer in that region knew the animal. A description aimed at a hippopotamus would begin with the squat build, the gaping mouth and the incisors. Job 40 mentions none of them.
 
+#### A euphemism reading
+
 The same *ESV Study Bible* note offers a second route — that "tail" is a euphemism for phallus, with verse 17's "sinews of his thighs" read by the Targum and the Latin as "testicle." That rests on a word the note itself calls "otherwise unknown," and Paul rejects it on two further grounds: potency is no distinguishing feature of this particular animal, and hippopotamus mating happens in the water where it cannot be watched from the bank.
+
+### Habitat: at home in the water
 
 What the passage does press is habitat.
 
@@ -113,6 +136,10 @@ Leviathan is <span dir="rtl">לִוְיָתָן</span> (*livyatan*, H3882, TWOT 
 
 The *ESV Study Bible*'s note on 41:1 suggests the animal "may be the crocodile," adding that the focus is on "whatever powerful creature is being referred to." Biblical Hebrew has no word for crocodile at all, though the animal lived in Canaan — Greek and Latin place names in the region record it — so the identification is a guess about *livyatan*, not a translation of it. On the chapter's own terms it does not hold, and four features rule it out.
 
+### Four features against the crocodile
+
+#### No weapon touches him
+
 **No weapon touches him.** The chapter states this seven ways.
 
 > ✝️ Job 41:26-29 (ESV)
@@ -121,9 +148,15 @@ The *ESV Study Bible*'s note on 41:1 suggests the animal "may be the crocodile,"
 
 Egyptian tomb reliefs show crocodiles taken with harpoons and javelins driven into the neck, where the hard scales stop — the exact implements Job 41:7 says fail against Leviathan.
 
+#### He cannot be handled, and crocodiles were
+
 **He cannot be handled, and crocodiles were.** Verses 1-5 ask whether Job could press down his tongue with a cord, put a rope in his nose, take him as a servant, or leash him for his daughters. Papyrus Cha, dated around 1430 BC, depicts a man holding a crocodile under control with a rope. Herodotus records Egyptians at Thebes and Lake Moeris keeping tamed crocodiles, feeding them consecrated food and fitting them with glass and gold ear ornaments and bracelets on the forelegs (*Histories* II.69). Every impossibility the chapter lists was, for a crocodile, somebody's job.
 
+#### His range is the open deep, not a river
+
 **His range is the open deep, not a river.** Verse 31 has him boiling <span dir="rtl">מְצוּלָה</span> (*metsulah*, H4688, "the deep") and <span dir="rtl">יָם</span> (*yam*, "the sea"); verse 32 leaves <span dir="rtl">תְּהוֹם</span> (*tehom*, H8415) white behind him — the word for the deep in Genesis 1:2, "darkness was over the face of the deep" (ESV). Crocodilians, living or fossil, are river and estuary animals.
+
+#### He has no counterpart
 
 **He has no counterpart.**
 
@@ -139,6 +172,8 @@ Scripture supplies its own category for this creature, and it is not a crocodile
 
 Isaiah names Leviathan twice as <span dir="rtl">נָחָשׁ</span> (*nachash*, H5175, "serpent") and once as <span dir="rtl">תַּנִּין</span> (*tannin*, H8577, TWOT root 2528b) — the word behind "dragon" and "sea monster" in English Bibles. *Tannin* is not a mythological label. Genesis 1:21 uses it of the great sea creatures God made on the fifth day, and Job himself uses it at 7:12 ("Am I the sea, or a sea monster, that you set a guard over me?", ESV). The Bible's own taxonomy for Leviathan is serpent and dragon.
 
+#### The Septuagint calls him dragon
+
 The Septuagint translators read it the same way, and they were working before the Masoretic vowel-pointing existed. At Job 40:25 (English 41:1) they did not transliterate the name at all — they wrote δράκοντα (*drakonta*, "dragon"). At Isaiah 27:1 they used δράκων three times over, dropping the name Leviathan entirely: ἐπὶ τὸν δράκοντα ὄφιν φεύγοντα, ἐπὶ τὸν δράκοντα ὄφιν σκολιόν, ἀνελεῖ τὸν δράκοντα.
 
 ## The fire
@@ -149,15 +184,21 @@ The Septuagint translators read it the same way, and they were working before th
 
 Commentaries routinely file this under hyperbole. The Hebrew makes that harder than it looks, because the poet marks his comparisons and these are not marked.
 
+### Six unmarked clauses
+
 Six clauses across these four verses (Hebrew 41:10-13) are plain indicatives with no comparative particle: sneezings flash light, torches go from his mouth, sparks leap out, smoke comes from his nostrils, his breath kindles coals, a flame comes from his mouth. Two clauses in the same span *do* carry <span dir="rtl">כְּ</span> (*ke*, "like") — "eyes **like** the eyelids of the dawn" and smoke "**as** from a boiling pot and burning rushes" — and both compare *appearance*, not existence. The smoke is asserted flatly; only how it looks is likened to a boiling pot. The writer does the same thing three verses later with a heart "hard as a stone, hard as the lower millstone" (41:24) and again at 41:31, where the deep boils "like a pot." He knows how to signal a simile and does not signal one for the fire itself.
 
 The setting reinforces it. These verses sit inside a sustained inventory of the creature's body — jaws, teeth, scales, neck, folds of flesh, heart, underside — not inside a burst of praise.
+
+### The Septuagint and Psalm 18:8
 
 Two things cut the other way.
 
 The Septuagint softened one clause the Hebrew leaves bare. At Job 41:11 (English 41:19) the Greek reads ἐκ στόματος αὐτοῦ ἐκπορεύονται ὡς λαμπάδες καιόμεναι — "out of his mouth proceed *as it were* burning torches" — inserting a ὡς that the Hebrew does not have. The next verse keeps the smoke as a flat assertion (καπνὸς καμίνου καιομένης, "smoke of a furnace burning"), so the ancient translator was not systematically defusing the passage. One of the six unmarked clauses did read to him as a comparison.
 
 Psalm 18:8 describes God in nearly the same words — "smoke went up from his nostrils, and devouring fire from his mouth; glowing coals flamed forth from him" (ESV) — using the same Hebrew terms for smoke, nostril, fire, mouth and coals. God has no nostrils, so this vocabulary carries figurative freight somewhere in Scripture. What distinguishes Job 41 is density and setting: one compressed line inside a storm theophany there, six unmarked clauses inside an anatomical catalogue here.
+
+### Nothing alive matches him
 
 The objection everyone raises is that no known animal does this. Verse 33 grants it in advance — "there is not on the dust his likeness" — and that is a claim about what walks the ground, not about whether Leviathan was there. Nothing alive matches him, and the Lord is the one who says so — in the middle of a chapter daring Job to lay a hand on the animal (41:8).
 
@@ -193,11 +234,17 @@ Taken together, the five texts do not resolve into a single genre. Two are plain
 
 Two lines of external evidence bear on creatures the Bible describes and no one has seen: bones, and older writing. Both are worth following, and neither settles the identification.
 
+### The fossil record
+
 **The fossil record.** Young-earth researchers have proposed candidates for both. Allan Steel argued in *Journal of Creation* (2001) that Behemoth was a sauropod, on the strength of the cedar tail and the elimination of every living alternative; Paul, working the same passage, names the apatosaur, brachiosaur and ultrasaur as fitting the size and the tail, and *Nigersaurus* as fitting the grass-eating of 40:15 in particular. For Leviathan, Peter Brooker proposed *Sarcosuchus imperator* (*Journal of Creation*, 2005) — a twelve-metre armoured crocodilian with an unusual bulbous cavity at the end of the snout — and Simon Turpin's 2020 survey for Answers in Genesis runs through *Kronosaurus*, *Liopleurodon*, *Sarcosuchus*, *Mosasaurus* and *Plesiosaurus* and settles on none, concluding that Leviathan "may be an extinct creature we currently do not know about."
 
 Each of those writers declines to close the case, and Paul states the reason plainly: new extinct kinds keep being found, and Job 40-41 is not a scientific description. Mainstream paleontology dates all of these animals to the Mesozoic and places no human alongside them — the dispute over that dating is the same one the [companion study](creation-reveals-the-creator.md) lays out on both sides, and nothing in Job 40-41 settles it.
 
+### Older writing
+
 **Older writing.** The Ugaritic Baal Cycle, on tablets from Ras Shamra dated to roughly the thirteenth century BC, describes Lotan (*ltn*) as *bathan bariach* ("fleeing serpent") and *bathan aqallatan* ("twisting serpent"). Isaiah 27:1 pairs the same two roots — *bariach* and *aqallaton* — around the same name. That is an independent Near Eastern attestation of Leviathan under near-identical epithets, older than Isaiah, and it tells us Job's first readers recognised the category the Lord was invoking. The Gilgamesh epic says of the beast Humbaba that his mouth is fire and his breath is death, and Babylonian art depicts dragons with fire coming from the body.
+
+### Where the argument stops
 
 **Where the argument stops.** Popular treatments extend this to the worldwide spread of dragon legend as proof that such creatures were seen by men. That step does not work, for two reasons.
 
