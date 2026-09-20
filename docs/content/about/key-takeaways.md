@@ -5,7 +5,7 @@ description: "What the Key Takeaways section at the top of every study is for, t
 tags: ["study-method", "key-takeaways", "transformation"]
 draft: false
 date_created: 2026-08-02
-date_modified: 2026-09-19
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -100,6 +100,8 @@ One to three verses from the study worth committing to memory, named with refere
 These should already appear, quoted and cited, somewhere in the study's own body. This subsection
 points back to them. It introduces no new quotations.
 
+#### The shape: a linked block quote
+
 **Shape: the standard scripture quote block, with the reference itself linking to Blue Letter
 Bible.**
 
@@ -108,6 +110,8 @@ Bible.**
 >
 > 1 There is therefore now no condemnation for those who are in Christ Jesus.
 ```
+
+#### Why the reference is a link
 
 That's the site's existing `> ✝️ Reference (TRANSLATION)` block quote shape (develop-bible-study
 Phase 7), with one addition specific to this subsection: the reference itself becomes a link. A
@@ -125,12 +129,14 @@ what this site quotes (ESV, WEB, ASV, NASB, NIV) is hosted at Blue Letter Bible 
 Masoretic Text, LXX, a named lexicon's own rendering); don't construct a URL from the pattern and
 assume it works, follow it.
 
+#### No commentary after the verse
+
 **No commentary after the verse.** A memory verse's whole job is to be lifted out and held onto
 exactly as it stands; a sentence of explanation right after it works against that, because now the
 reader has to hold the explanation in mind along with the verse instead of just the verse. Where a
 verse needs framing, that framing belongs in Lessons about Jesus or the walk-through it's drawn
 from — not appended here. The one exception is a bare locator, "See [The Ten
-Virgins](#the-ten-virgins-251-13)", in a study whose Memory verses draws one verse from each of
+Virgins](../last-things/olivet-discourse-parables.md#the-ten-virgins-251-13)", in a study whose Memory verses draws one verse from each of
 several parallel sections — that's navigation back to where the verse is argued, not commentary
 competing with it, and the same audit found it used well this way in
 [olivet-discourse-parables.md](../last-things/olivet-discourse-parables.md).
@@ -142,6 +148,8 @@ study calls the reader to examine or change. Keep this distinguishable from the 
 way this site's develop-bible-study process already asks of application generally. A reader should
 be able to tell what the text *said* from what the study is *applying*. This is where the applying
 happens, so name it directly rather than leaving the reader to infer it.
+
+#### The three labeled bullets: Think, Attitude, Do
 
 **The default shape is three labeled bullets: `**Think.**`, `**Attitude.**`, `**Do.**`** — not one
 option among several, the expected shape whenever this subsection appears. **Think** is a thought or
@@ -155,10 +163,10 @@ never as a default to fall back on when writing the three bullets feels like mor
 paragraph. If a study's Be Transformed is prose instead of three labeled bullets, or has a different
 bullet count, or uses different labels, that is a deviation from the site's convention and should be
 a deliberate, visible choice, not an unlabeled drift — the same standard
-[style-guide.md](../../../.claude/skills/develop-bible-study/style-guide.md) already holds contested
+[style-guide.md](https://github.com/ding0t/bible_studies/blob/main/.claude/skills/develop-bible-study/style-guide.md) already holds contested
 claims to. A 2026-09-19 audit found 6 of 29 published studies with a Be Transformed subsection had
 drifted from the three-bullet shape without any such reason on record — the same class of defect
-[discussion-questions.md](../../../.claude/skills/develop-bible-study/discussion-questions.md)
+[discussion-questions.md](https://github.com/ding0t/bible_studies/blob/main/.claude/skills/develop-bible-study/discussion-questions.md)
 names for its own section: individually defensible, collectively inconsistent, and invisible to
 every mechanical check.
 
@@ -202,7 +210,7 @@ in what this page says to do. That makes this page's own job different than it w
 less "decide the shape" and more "say the shape precisely enough that drift is visible," since a
 subsection that's individually readable can still be quietly inconsistent with the rest of the
 corpus — the same failure named in
-[discussion-questions.md](../../../.claude/skills/develop-bible-study/discussion-questions.md)'s
+[discussion-questions.md](https://github.com/ding0t/bible_studies/blob/main/.claude/skills/develop-bible-study/discussion-questions.md)'s
 "failure mode" section for its own part of a study. This page is still updated whenever that
 happens, now as a refinement log rather than a redesign:
 
