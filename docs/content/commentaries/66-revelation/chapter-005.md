@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 5:8
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:9
 <!-- commentary-index:auto-end -->

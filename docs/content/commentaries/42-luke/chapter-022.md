@@ -15,5 +15,6 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 22:14-20 (primary passage)
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 22:41
 - [Simon Peter](../../biblical-figures/peter.md) — 22:31-34
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 22:20
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 22:24
 <!-- commentary-index:auto-end -->

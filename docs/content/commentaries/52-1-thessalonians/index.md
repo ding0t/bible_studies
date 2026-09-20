@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
-- [Chapter 4](chapter-004.md) — 7 study(ies)
+- [Chapter 4](chapter-004.md) — 8 study(ies)
 - [Chapter 5](chapter-005.md) — 5 study(ies)
 <!-- commentary-index:auto-end -->

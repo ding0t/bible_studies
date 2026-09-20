@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 6:19-20
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 6:20
 - [The Rapture of the Church](../../last-things/rapture.md) — 6:19-20
 <!-- commentary-index:auto-end -->

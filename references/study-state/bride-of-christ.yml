@@ -101,6 +101,84 @@ stages:
             chamber), Isa 4:5 (over restored Zion "there will be a canopy"). The third is the payoff
             -- the wedding-canopy word applied to God's covering of Zion in an eschatological oracle,
             inside a three-occurrence corpus.
+        - word: "ἁρμόζω"
+          language: greek
+          transliteration: "harmozo"
+          strongs_id: "G718"
+          gloss: "betroth, join"
+          notes: >
+            2026-09-20, for the "What the Betrothal Means for You Now" section. EXACTLY ONE NT
+            occurrence: 2 Cor 11:2, hermosamen, aorist middle, Louw-Nida 34.74 (Association).
+            Verified via bible_word G718. The LXX has it ten times in other senses (2 Sam 6:5, 14;
+            Prov 8:30; 19:14; Nah 3:8; Ps 151:2; 2Macc 14:22; 3Macc 1:19; Prov 17:7; PsSol 15:3) --
+            those were NOT characterised in the study, only the NT count is claimed.
+        - word: "ἀρραβών"
+          language: greek
+          transliteration: "arrabon"
+          strongs_id: "G728"
+          gloss: "pledge, down payment, first installment"
+          notes: >
+            THE assurance find. Three NT occurrences, all of the Holy Spirit: 2 Cor 1:22, 2 Cor 5:5,
+            Eph 1:14, all Louw-Nida 57.170. Three LXX occurrences, all in one scene: Gen 38:17, 18,
+            20, Judah's pledge against a promised payment. Verified via bible_word G728. CBSB on
+            Eph 1:14: "Business documents used this Greek term to designate a down payment or first
+            installment." ARGUMENT SHAPE, stated in the study: Paul never calls the Spirit a
+            betrothal gift -- the betrothal (11:2) and the deposit (1:22) stand in the same letter,
+            and that is the whole of the weight claimed.
+        - word: "ἀπάντησις"
+          language: greek
+          transliteration: "apantesis"
+          strongs_id: "G529"
+          gloss: "meeting"
+          notes: >
+            Three NT occurrences, all Louw-Nida 15.78: Matt 25:6 (virgins, "come out to meet him"),
+            Acts 28:15 (brothers from Rome), 1 Thess 4:17. One of the three is a wedding. 43 LXX
+            occurrences. The civic-escort reading (NIV Biblical Theology SB on 1 Thess 4:17 --
+            church escorts Christ DOWN) is cited in the study as the contested alternative and the
+            argument against it is left to rapture.md, which already treats it at length. The
+            section rests nothing on the direction of travel.
+        - word: "παρίστημι"
+          language: greek
+          transliteration: "paristemi"
+          strongs_id: "G3936"
+          gloss: "present, place beside"
+          notes: >
+            Verified via bible_interlinear: Eph 5:27 parastese (aor act subj 3s) and 2 Cor 11:2
+            parastesai (aor act inf) are the same lemma. Col 1:22 likewise. Paul presents the bride
+            to Christ; Christ presents her to Himself.
+        - word: "ἄμωμος"
+          language: greek
+          transliteration: "amomos"
+          strongs_id: "G299"
+          gloss: "without blemish"
+          notes: >
+            Eight NT occurrences (bible_word G299, SBLGNT): Eph 1:4, Eph 5:27, Col 1:22, Phil 2:15,
+            Jude 24, Rev 14:5, Heb 9:14 all at Louw-Nida 88.34; 1 Pet 1:19 at 79.61, the PHYSICAL
+            sense, of the lamb. So the word for the spotless sacrifice is the word for the spotless
+            bride. ESV SB on Eph 5:26-27 states the same dependence ("derived from the consecrating
+            sacrifice of Christ on the cross").
+        - word: "λουτρόν"
+          language: greek
+          transliteration: "loutron"
+          strongs_id: "G3067"
+          gloss: "washing, bath"
+          notes: >
+            Two NT occurrences: Eph 5:26 and Titus 3:5, both Louw-Nida 53.43. LXX: Song 4:2, 6:6,
+            Sir 34:25. CBSB on Eph 5:26 supplies the load-bearing cultural datum: "later Jewish
+            teachers spoke of betrothal as 'the sanctification of the bride,' meaning setting her
+            apart for her husband."
+        - word: "μυστήριον"
+          language: greek
+          transliteration: "mysterion"
+          strongs_id: "G3466"
+          gloss: "mystery"
+          notes: >
+            Six occurrences in Ephesians (1:9; 3:3; 3:4; 3:9; 5:32; 6:19), verified via bible_word
+            G3466 book=Eph. 3:5 defines the sense (withheld then disclosed); 5:32 applies the word
+            to the marriage, which places the bridal relation in this dispensation. LIMIT STATED IN
+            THE STUDY: Paul does not say 5:32's mystery is 3:6's, and the word alone does not prove
+            the church distinct from Israel -- it establishes the period. Sense analysis is
+            israel-and-the-church.md's "What Scripture means by a mystery"; not duplicated here.
         - word: "שַׁלְהֶבֶתְיָה"
           language: hebrew
           transliteration: "shalhevetyah"
@@ -196,7 +274,157 @@ resources_consulted:
   - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "verse text (ESV) and notes on John 14:2-3, Song 1:1, Song 1:2-2:17 -- via study-notes.db"}
   - {type: lexicon, title: "MACULA Greek/Hebrew morphology + Louw-Nida semantic domains", author: "bible-references MCP", note: "paralambano domain split, mone, chuppah, shalhevetyah"}
   - {type: other, title: "OpenBible.info cross-reference dataset", author: "CC-BY", note: "Song 2:13 -> Matt 24:32"}
-last_updated: "2026-09-01"
+
+revision_2026-09-20:
+  request: >
+    User: the study "does not give any so what factor - it is all superficial... i want a proper
+    dispensational exegesis on the so what for the church as the bride of christ - betrothed
+    (assurance, committed), preparing a chamber - what that means, and "always be with the LORD"
+    and the covenant made - presenting his bride as holy."
+  what_changed: >
+    Added "## What the Betrothal Means for You Now" (~2,280 words, six sub-sections) between the
+    popular-teaching tier section and the Discussion Questions, plus three discussion questions,
+    frontmatter (tags 1-thessalonians/sanctification/rapture, 22 new bible_references, description),
+    the prayer's close ("In Jesus' name. Amen."), and References entries. The six sub-sections:
+    (1) the betrothal as a finished legal act -- harmozo + arrabon, landing on assurance;
+    (2) He made the covenant and paid for it -- 1 Cor 6:20, Luke 22:20, Matt 26:29, the Mishnah's
+    two exits closed by Rom 6:9, grounded in Hosea 2:19-20's five divine qualities;
+    (3) why this belongs to the church and why now -- mysterion in Ephesians, Israel's betrothal
+    uncancelled, the Rev 19:9 guests/bride question stated as contested;
+    (4) the prepared place -- John 14:2-3, the mone pair, m. Ketubot 5:2's mutual preparation;
+    (5) "and so we will always be with the Lord" -- 1 Thess 4:16-18, pantote, apantesis, and
+    4:18's own stated pastoral purpose;
+    (6) He presents her holy -- paristemi, amomos, loutron, Rev 19:7-8, Phil 1:6.
+  every_esv_quote_verified: >
+    All ESV quotations in the new section were pulled from study-notes.db (esv-study-bible verses
+    table) in this session rather than recalled: Eph 5:25-27, 1 Thess 4:16-18, Eph 1:13-14, 4:30,
+    2 Cor 1:22, 5:5, 5:10, Col 1:22, Jude 24, Rev 19:7-8, 1 Cor 6:20, Gen 38:17, Rom 6:9, Heb 9:14,
+    1 Pet 1:19, Matt 25:6, Acts 28:15, John 14:2, 14:23, Titus 3:5, Eph 3:3, 3:5, 3:6, Luke 22:20,
+    Hos 2:19-20, Phil 1:6.
+  sibling_consistency: >
+    Checked against rapture.md (which already argues the apantesis objection, the Bema, and where
+    the supper sits) and israel-and-the-church.md (mysterion, Israel not replaced) and
+    statement-of-faith.md's "End times". The new section defers the direction-of-travel argument to
+    rapture.md rather than restating it, and defers the mystery word study to israel-and-the-church.
+  validation: >
+    npm run validate -- clean, no warnings on this file. mkdocs build --strict -- the only four
+    warnings are pre-existing ones in about/key-takeaways.md, untouched here; all three new
+    outbound links (assurance-of-salvation.md, israel-and-the-church.md#what-scripture-means-by-a-
+    mystery, rapture.md) resolve.
+  open: >
+    The study's own prose uses lowercase divine pronouns throughout the PRE-EXISTING sections
+    ("God took marriage as the picture of his covenant"), against AGENTS.md's capitalisation rule.
+    The new section capitalises. Flagged to the user rather than silently rewriting the whole file,
+    since a sweep has to avoid touching the quotations.
+
+
+revision_2026-09-20b:
+  request: >
+    User asked for the wedding pattern broken into components and lined up against the church in OT
+    and NT; the eight application domains they proposed (purchased, betrothed, prepared, covenanted,
+    feasting, homed, always-with, inheritance) questioned and validated rather than accepted; and
+    the ongoing meaning -- Sabbath rest, reigning with Christ, inheritance, and whether the bride is
+    ever called wife. Diagrams requested.
+  verse_corrections_made:
+    - >
+      "Purchased - 1 Pet 1:17" -> 1 Pet 1:18-19. 1:17 is conduct during exile; the ransom language
+      (elytrothete / timio haimati Christou) starts at 1:18.
+    - >
+      "Betrothed - Eph 1:5, 1:13" -> 2 Cor 11:2. Eph 1:5 is huiothesia, ADOPTION, a different image
+      (five NT occurrences, all Paul, LN 35.53, and Rom 9:4 applies it to Israel). Eph 1:13-14 is
+      the sealing and the arrabon, which the study keeps but files under "Pledged", stage 3.
+    - >
+      "Feasting - Eph 1:6" -> Rev 19:7, 9. Eph 1:6 is "to the praise of his glorious grace". The
+      feast word is gamos (G1062, 16 NT occurrences).
+    - >
+      "Prepared - 1 Pet 3" -> either 1 Pet 1:13 ("preparing your minds for action") or Eph 5:27 /
+      John 14:2-3. 1 Pet 3 is household conduct and baptism; it does not carry a bridal preparation.
+    - >
+      "Always with the Lord" and "Inheritance" were moved OUT of the eight-stage pattern. They are
+      what the marriage produces, not steps in it. Both now sit in the "After the Wedding" section.
+    - >
+      KEPT as the user had them: 2 Pet 3:13 and Eph 1:10 for "Homed" (though the study uses Rev 21:3
+      and John 14:2 as the load-bearing pair); 1 Thess 4:17 and 5:10 for "always with the Lord";
+      Eph 1:11/14/18 for the inheritance.
+  main_finding: >
+    THE CHURCH IS CALLED "WIFE", AND ENGLISH HIDES IT. Rev 19:7's "his Bride has made herself ready"
+    is HE GYNE AUTOU in the Greek -- gyne (G1135), wife, with no nymphe in the verse. Verified via
+    bible_interlinear Rev 19:7. Rev 21:9 has both nouns together: ten nymphen ten gynaika tou Arniou.
+    So the title changes at the point the gamos comes, exactly as the user suspected it might.
+    nymphe (G3565) has 8 NT occurrences, split by Louw-Nida: 3 at 10.60 (daughter-in-law -- Matt
+    10:35, Luke 12:53 x2, all Jesus quoting Micah 7:6) and 5 at 10.57 (bride -- John 3:29, Rev
+    18:23, 21:2, 21:9, 22:17). FOUR OF THE FIVE BRIDE USES ARE IN REVELATION, and one of those four
+    (18:23) is Babylon's silenced wedding. Paul never uses nymphe of the church.
+  supporting_word_data:
+    - "sabbatismos G4520 -- hapax in the NT (Heb 4:9, LN 67.185) and ZERO LXX occurrences. Cross-linked to day-is-a-thousand-years.md rather than re-derived."
+    - "symbasileuo G4821 -- exactly 2 NT occurrences, 0 LXX: 2 Tim 2:12 (the promise) and 1 Cor 4:8 (Paul's sarcasm at a church that thought it already reigned). The proportion is stated in the study."
+    - "huiothesia G5206 -- 5 NT, all Paul, LN 35.53. Rom 9:4 gives it to ISRAEL; Rom 8:23 has it still FUTURE, the same already/not-yet shape as the betrothal."
+    - "peripoiesis G4047 -- 5 NT (Eph 1:14; 1 Pet 2:9; 1 Thess 5:9; 2 Thess 2:14; Heb 10:39), 3 LXX including Mal 3:17 'my treasured possession'. Grounds the two-way inheritance."
+    - "patria G3965 -- 3 NT (Luke 2:4; Acts 3:25; Eph 3:15), 174 LXX."
+    - "gamos G1062 -- 16 NT; Rev 19:7, 9 use the ordinary wedding-feast word, same as Cana and Matt 22. LXX includes Gen 29:22 and Tobit 8:19-20, both already cited in this study."
+    - "Hos 2:16 -- ishi (H376) replacing ba'li (H1180), verified via bible_interlinear. Isa 54:5 calls the LORD bo'alayik from the SAME root (H1166), so the root is not the problem; the study says so rather than over-reading Hosea."
+    - "Ezek 16:8-9 -- covenant ('you became mine') THEN washing, the same order as Eph 5:25-26. ESV SB already draws the Ezek 16 link at Eph 5:26-27."
+  what_changed: >
+    Two new H2 sections and two new mermaid diagrams. "## The Pattern, Component by Component"
+    (8-row table: component / custom / OT / church, plus a 3-subgraph TD diagram marking which four
+    components are already done in the aorist, plus "### Three places the wrong verse gets cited").
+    "## After the Wedding: Rest, Reign, Inheritance, Family" (five sub-sections, ending on Rev
+    22:3-4 and 22:17, with a 2-column TD diagram). Key Takeaways gained the gyne finding; three
+    discussion questions added (now 11); frontmatter description, tags and 28 further
+    bible_references; References gained the MACULA/ULT and day-is-a-thousand-years entries.
+    File is now ~10,300 words.
+  diagrams: >
+    Both are flowchart TD at a maximum of two columns per rank, per diagrams.md's ~560px budget.
+    The first folds the eight stages into three stacked subgraphs with direction TB rather than
+    laying eight nodes across.
+  validation: >
+    npm run validate -- zero warnings on this file (one "worth ___" instance was caught and
+    rewritten). mkdocs build --strict -- only the four pre-existing about/key-takeaways.md warnings;
+    the new in-page anchor #family-as-well-as-marriage-and-the-two-do-not-compete resolves.
+    commentary_index.py and section_index.py re-run; provenance already current.
+  noted_not_chased: >
+    The corpus-wide validate warning count fell from 38 to 26 across this session, in files not
+    touched here (rapture.md's 760-word run among them). The index generators re-ran in between,
+    which is the likely cause, but this was not verified.
+
+
+revision_2026-09-20c:
+  request: "Check structure reads as devotional + theological word study; ensure every Hebrew/Greek term carries an English transliteration."
+  transliteration_pass: >
+    A PROSE EDIT, run first and separately from the structure pass, because adding a transliteration
+    changes a sentence and read-bible-study forbids that. 33 transliterations added across prose,
+    tables, both mermaid diagrams, the discussion questions and the References bibliography. Swept
+    mechanically: every distinct non-Latin token in the file (56 of them) now has an English
+    transliteration on first use in its section. Mermaid node labels carry the transliteration
+    unitalicised, since markdown emphasis does not render inside a mermaid label.
+  structure_pass: >
+    read-bible-study, Phases 1-4. Sections 40 -> 45; median prose per section 179 -> 145 words;
+    sections over the 400-word target 2 -> 0; walls (>600) 0 -> 0; longest 503 -> 380.
+    Six operations, all in the skill's safe set: one "In one sentence:" thesis before Key Takeaways
+    (the pass's single permitted addition); "Where Scripture Says It Itself" (503w) split into
+    "Two letters, and the circumstances they were written in" + "Where an author states it
+    outright"; "He presents her holy" (428w) split, with the loutron/Rev 19:7-8 material given
+    "The washing, and why her two clauses agree"; the gyne finding surfaced out of a 377-word run
+    into its own heading, "Revelation 19:7 prints 'Bride' for a word that means wife"; and the
+    study's closing synthesis plus its summary diagram given "Bought, betrothed, married, homed --
+    and looking at His face".
+  prose_identity_check: >
+    Verified against a snapshot taken after the transliteration pass rather than against HEAD, since
+    HEAD predates both new sections entirely. Result: 0 prose lines removed, 3 added, and those 3
+    are the single permitted "In one sentence:" summary. No sentence changed in the structure pass.
+  caveat: >
+    read-bible-study says to run in a session that did not draft the file; this ran in the drafting
+    session because the user asked here. The measurements are objective, but the stranger-reading in
+    Phase 1 carries that limitation.
+  not_fixed_flagged_instead:
+    - "Heading 'Two cautions on the same passage' names its function rather than its content (structural-readability rule 3). Pre-existing; renaming risks an inbound anchor."
+    - "Heading 'Modern reading, and why it is a check rather than a loss' carries the 'rather than' virtue-contrast shape style-guide.md rules out. Pre-existing."
+    - "The study's own prose still uses lowercase divine pronouns in the pre-2026-09-20 sections, against AGENTS.md. Unchanged; a sweep must step around the quotations."
+  still_outstanding: >
+    This file has NOT been through review-bible-study since the two new sections were added. The
+    structural pass verifies nothing about accuracy.
+
+last_updated: "2026-09-20"
 
 # ---------------------------------------------------------------------------
 review_2026-09-01:
@@ -282,3 +510,203 @@ review_2026-09-01:
   status: >-
     findings presented to user; fixes pending selection. File was draft: true and
     uncommitted at review time.
+
+# ---------------------------------------------------------------------------
+review_2026-09-20:
+  skill: review-bible-study
+  trigger: >
+    User-requested full adversarial review, then "fix all recommended findings that impact
+    accuracy and readability". Run in the session AFTER revisions 2026-09-20, 20b and 20c, which
+    revision_2026-09-20c flagged as never having been through review. File was draft: false and
+    live at review time -- a higher-priority failure than a draft one.
+  method: >
+    Concentrated on the two sections added in revisions 20 and 20b, which no prior review covered.
+    All 60 ESV quotations re-queried from study-notes.db (esv-study-bible verses table) rather than
+    read for plausibility; all 17 original-language counts re-derived from bible-text.db morphology
+    (macula-greek-sblgnt / macula-hebrew-wlc / lxx-lemmas) via research_batch_run; Louw-Nida codes
+    re-pulled through query.py word; the "four of eight in the aorist" claim checked against the
+    parsing for each of the four verbs; Eusebius re-checked against the repo's own Nicene-2 text;
+    Phase 5 cross-check used the NLT Life Application Study Bible (NOT cited by the study);
+    translators' footnotes pulled for all three primary passages; review_gaps, npm run validate,
+    mkdocs build --strict, cross_study_claims on 1 Thessalonians 4 and Revelation 19, and all four
+    mermaid diagrams rendered and measured.
+  findings:
+    critical:
+      - >
+        "He presents her holy": ἄμωμος (G299) has eight NT occurrences and the study said "Seven
+        describe people made morally blameless" -- then listed SIX (Eph 1:4, 5:27; Col 1:22;
+        Phil 2:15; Jude 24; Rev 14:5) -- followed by "The eighth describes a lamb" and then named
+        BOTH 1 Pet 1:19 and Heb 9:14. The real split is six of people, two of Christ. A Phase 4
+        quantity claim internally contradicted two lines later. FIXED: "Six... The other two
+        describe Christ". The point underneath is strengthened, not damaged -- the sacrifice/bride
+        overlap is two of eight, not one.
+    moderate:
+      - >
+        "So the title does change, and Scripture changes it at exactly the point the marriage
+        comes." Overstated. γυνή does arrive at Rev 19:7 (verified), but νύμφη CONTINUES after the
+        wedding at 21:2, 21:9 and 22:17, and 21:9 carries both nouns. The study's own next
+        sentences conceded this, so the bold claim asserted more than the study held. FIXED to an
+        ADDITION claim -- "Scripture gives her a second title, and gives it at the point the
+        marriage comes" -- with the continuing νύμφη uses stated. Key Takeaways ("changes her
+        title") and the frontmatter description were brought into line.
+    minor:
+      - 'Tier-2 mermaid label still read "chuppah -- Ps 19:5" while the prose had been corrected to Psalm 19:6 MT by the 2026-09-01 review. Half that fix had landed. FIXED to "Ps 19:6 MT".'
+      - >
+        Genesis 2:24 was absent from bible_references though the study opens on it, quotes it and
+        builds discussion question 1 on it; review_gaps ranked Genesis 2 its top gap. FIXED; the
+        study now appears on commentaries/01-genesis/chapter-002.md.
+      - >
+        Eusebius, Ecclesiastical History 6.32, used in the prose, was missing from References.
+        FIXED. The quotation itself verified verbatim against the repo's own Nicene-2 text at
+        6.32.5-6 -- this closes the 2026-09-01 "Origen uncited/unverifiable" finding.
+      - >
+        The tier diagram rendered at 701px against diagrams.md's ~560px budget (80% browser
+        scale-down). FIXED: flowchart LR -> TD with invisible T1 ~~~ T2 ~~~ T3 stacking links, so
+        all three tiers still arrow to C and tier 3 keeps its dotted "carries no weight" edge.
+        553px. The two diagrams added in revision 20b measured 346px and 562px and needed nothing.
+      - 'Revelation 19:7 memory-verse block ended with "." where the ESV has ";". FIXED.'
+      - >
+        Divine-pronoun capitalisation was still split -- new sections capitalised, pre-2026-09-20
+        sections did not. Flagged and left in all three prior revisions. FIXED this pass: ten
+        pronouns capitalised in the study's own prose, every quotation left lowercase. Verified by
+        a multi-line-aware quote-stripping scan; the remaining lowercase hits are all generic
+        (man, groom, husband, goel) or refer to Paul, John, Joseph, Judah, Raguel or Origen.
+      - >
+        Two headings carried shapes style-guide.md rules out, both flagged and left in revision
+        20c. FIXED, no inbound anchors existed: "Two cautions on the same passage" -> "The bridal
+        chamber, and the exodus underneath"; "Modern reading, and why it is a check rather than a
+        loss" -> "How contemporary scholarship reads the Song".
+      - >
+        Narrated-argument announcements, local rather than pervasive: "Mark what this argument is
+        and is not", "Mark the limit:", "Two limits on the evidence". All three FIXED by stating
+        the limit affirmatively instead of announcing that one is coming. "Now the word that
+        answers the question" went with the γυνή rewrite above.
+  added_not_a_defect: >
+    The Legacy Standard Bible footnotes Revelation 19:7 "Lit wife" -- a translation committee
+    independently corroborating the study's central new finding. Found by pulling note_type=
+    'footnote' for the primary passages, which is a standing Phase 3 step the earlier revisions
+    did not run. Added to the prose and to References.
+  verified_clean: >
+    All 60 ESV quotations verbatim, right reference, right translation label, both new block
+    quotes included. Every word count re-derived and correct: harmozo 1 NT / LN 34.74; arrabon
+    3 NT + 3 LXX all Gen 38; mysterion 6x Ephesians at exactly the six verses named; apantesis
+    3 NT all LN 15.78; loutron 2; mone 2; nymphe 8 split 3x10.60 / 5x10.57 with four of five
+    bride-uses in Revelation; sabbatismos 1 NT 0 LXX; symbasileuo 2 NT 0 LXX; peripoiesis 5 NT /
+    3 LXX incl. Mal 3:17; patria 3 NT / 174 LXX; huiothesia 5 all Paul all 35.53; chuppah 3;
+    shabua 20 (macula-hebrew-wlc); paralambano 34.53 vs 15.168; gamos 16; katapausis 8 in Heb 3-4
+    with the single switch at 4:9. "Four of eight in the aorist" CONFIRMED -- egorasthete (IAP2),
+    hermosamen, esphragisthete (IAP2), apelousasthe (IAM2) / hegiasthete (IAP2). Rev 19:7 is
+    he gyne autou with no nymphe; Rev 21:9 carries both -- the finding is sound. Hos 2:16 ba'li
+    H1180 and Isa 54:5 bo'alayik H1166, same root, as stated. Phase 5: NLT Life Application Study
+    Bible (uncited) CONFIRMS the central claims at Eph 5:25-33, Rev 19:7 and John 14:1-3; no
+    contradiction. Its Rev 19:7 note takes the inclusive side of the guests/bride question, which
+    the study already marks contested and rests nothing on. Phase 6: all six context questions
+    covered -- the 2026-09-01 "no historical occasion for Ephesians or Revelation" Moderate is
+    CLOSED by revision 20c's "Two letters" section. Statement-of-faith consistent (Israel not
+    replaced, church distinct). Sibling check on 1 Thess 4 (8 studies) and Rev 19 (7 studies):
+    no contradiction -- the apantesis direction-of-travel is deferred to rapture.md, where it is
+    argued. Antithesis density 28 in ~10,450 words = one per 373, well under human-review.md's
+    one-per-210 drift mark. Be Transformed carries the Think/Attitude/Do shape; Memory verses use
+    block quotes with Blue Letter Bible links and no explanatory sentence.
+  validation: >
+    npm run validate -- zero findings for this file (24 warnings, all in other files). mkdocs
+    build --strict -- only the four pre-existing about/key-takeaways.md warnings, untouched here.
+    All four mermaid diagrams re-measured: 269px, 553px, 346px, 562px. All five internal links
+    resolve. refresh_frontmatter_provenance.py --check clean. commentary_index.py and
+    section_index.py re-run after the Genesis 2:24 frontmatter change.
+  left_for_a_human: >
+    human-review.md's three judgement calls: whether Key Takeaways has slipped into essay
+    register, whether the prayer and the application land, and whether the theology is named
+    rather than written around. This reviewer did not draft the file, but those remain human
+    calls and were not made here.
+  status: >-
+    All findings fixed. File remains draft: false. Not committed by this pass.
+
+# ---------------------------------------------------------------------------
+read_2026-09-20:
+  skill: read-bible-study
+  trigger: >
+    User asked whether the read pass had been run over the post-review file, then asked for it in
+    a subagent. Run in a FRESH agent with no drafting or review context, which is the condition
+    revision_2026-09-20c could not meet -- that pass ran in the drafting session and recorded the
+    limitation itself. This one satisfies the skill's stranger-reading requirement properly.
+  why_rerun: >
+    review_2026-09-20 changed sentences (two added, several rewritten, two headings renamed).
+    That is review-bible-study's licence and not read's, but it means 20c's structural decisions
+    were taken against prose that no longer exists in that form.
+  baseline: >
+    File was uncommitted and HEAD predates both the review edits and the two sections added in
+    revisions 20 and 20b, so verify_against HEAD would have flagged hundreds of legitimate prose
+    lines. Baseline captured instead with `git stash create` --
+    b77c1935f343846c76ef23a46ae495260e3d4af1 -- a real commit object holding the working tree,
+    leaving the working tree untouched.
+  measurements: >
+    Sections 45 -> 53; median prose per section 145 -> 136 words; longest 419 -> 380; sections
+    over the 400-word target 1 -> 0; walls (>600) 0 -> 0.
+  prose_identity_check: >
+    read_structure --verify-against b77c1935 returns clean: true, removed: [], added_unexpected:
+    [], added_allowed: []. Verdict "no sentence changed". ZERO prose lines added -- the file
+    already carried its "In one sentence:" thesis from 20c, so this pass used none of its single
+    permitted addition. Every operation was `add a heading`. Re-verified independently in the
+    parent session, not taken on the subagent's word.
+  operations: >
+    Five buried ideas surfaced, plus one bibliography subdivision. None of the findings were
+    length -- the file had no wall and one nominal over-length section; all five were a distinct
+    topic sitting unnamed at the tail of a section whose heading advertised something else.
+    (1) "The cup He promised to finish" -- Matt 26:29 was stranded at the end of "The bridal
+    chamber, and the exodus underneath", which announced two subjects and delivered three; it is
+    also a Key Takeaways item, so a reader arrives looking for it. The later back-reference
+    "quoted above from the same evening" still resolves.
+    (2) "Always with the Lord, and the inheritance: what the marriage produces" -- pulled out of
+    "Three places the wrong verse gets cited", which they are not an instance of.
+    (3) "The Spirit as deposit: ἀρραβών (arrabōn)" -- split "The betrothal is a finished legal
+    act" (350w) at its own topic sentence; a major word study previously invisible in the ToC.
+    (4) "The guests at the marriage supper, a contested identification" -- structural-readability
+    rule 5 exactly: a contested reading honestly marked as contested was invisible at the tail of
+    a 352-word section on dispensational timing.
+    (5) "The name she calls Him (Hosea 2:16)" -- the ishi/ba'li study, with its own "This shows
+    that God..." landing, was buried under a heading about Revelation 19:7's γυνή.
+    (6) References & Recommended Reading (419w) subdivided into "Ancient and Second Temple
+    sources" / "Study Bibles, translations and text data" / "On this site" (131/199/89). Judged
+    rather than assumed: the raw count is a bibliography artefact, but subdividing is already the
+    convention in three files including the skill's exemplar scribe-trained-for-the-kingdom.md,
+    and the existing bullet order already fell into those three groups, so NO reordering was
+    needed.
+    No existing heading was renamed, deliberately -- the in-page anchor
+    #family-as-well-as-marriage-and-the-two-do-not-compete is used by the study itself.
+  validation: >
+    npm run validate -- zero findings for this file (24 warnings, all elsewhere). mkdocs build
+    --strict -- exit 1 on exactly the four pre-existing about/key-takeaways.md warnings (three
+    bad relative links into .claude/skills/, one missing #the-ten-virgins-251-13 anchor),
+    untouched here. Both re-run in the parent session to confirm.
+  handed_back_not_fixed:
+    - >
+      "The feast, and the canopy" (208w) genuinely holds two word studies, shabua (H7620) and
+      chuppah (H2646). Inside target, so left alone, but the heading is a conjunction of two
+      subjects; splitting it properly wants a topic sentence for the canopy half that the prose
+      does not have. Author call.
+    - >
+      "A wedding narrative from the period" (244w) ends on a limitations paragraph ("Tobit's
+      evidence carries two limits"), a distinct and important qualification that would benefit
+      from its own heading. Judged over-splitting at this length. Flagged rather than done.
+    - >
+      "Where an author states it outright" (380w, the longest remaining) ends on a mermaid
+      diagram with nothing after it. Rule 6 is written about tables, not diagrams, and the
+      diagram does summarise the whole parent section -- but a reader who skims diagrams loses
+      the section's close. The fix is a sentence, which is review's job.
+    - >
+      Two retained headings build their second half out of what the thing is not, which
+      structural-readability rules out for new headings: "What Popular Teaching Adds, and Why It
+      Is Not Needed" and "One resonance worth noticing, and not overstating". Both pre-existing,
+      both accurate to their sections; renaming either is an editorial judgment about the
+      study's argument rather than its structure. Author call.
+  supersedes: >
+    Two of the three entries in revision_2026-09-20c's not_fixed_flagged_instead list are now
+    moot -- "Two cautions on the same passage" and "Modern reading, and why it is a check rather
+    than a loss" no longer exist, both renamed by review_2026-09-20. The third (lowercase divine
+    pronouns) was also fixed there. Do not carry any of the three forward as open.
+  verifies_nothing: >
+    A structural pass checks no quotation, count, citation, word study or doctrinal claim. This
+    file's accuracy rests on review_2026-09-20 above, run the same day, not on this pass.
+  status: >-
+    Complete. File remains draft: false. Not committed by this pass.

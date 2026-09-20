@@ -16,6 +16,7 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 2:1-10
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 2:12-13
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 2:18
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 2:19
 - [The Rapture of the Church](../../last-things/rapture.md) — 2:10
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 2:20
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 2:10

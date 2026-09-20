@@ -16,5 +16,6 @@ draft: false
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 1:12-13
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 1:25-27
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:9-10
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:22
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 1:15-17
 <!-- commentary-index:auto-end -->

@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:8
 - [The Way](../../jesus/the-way.md) — 4:17
 <!-- commentary-index:auto-end -->

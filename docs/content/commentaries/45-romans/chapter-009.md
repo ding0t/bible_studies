@@ -14,4 +14,5 @@ draft: false
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 9:1-6
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 9:22-24
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 9:4
 <!-- commentary-index:auto-end -->

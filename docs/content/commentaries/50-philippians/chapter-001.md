@@ -14,5 +14,6 @@ draft: false
 
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:6
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:9
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:6
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:23
 <!-- commentary-index:auto-end -->

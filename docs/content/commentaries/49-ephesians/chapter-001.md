@@ -16,4 +16,5 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:13-14
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 1:14
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:15-19
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:13-14
 <!-- commentary-index:auto-end -->

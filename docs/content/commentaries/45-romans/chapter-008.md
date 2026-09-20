@@ -16,4 +16,5 @@ draft: false
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 8:3
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 8:1
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 8:26-27
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 8:15-17
 <!-- commentary-index:auto-end -->

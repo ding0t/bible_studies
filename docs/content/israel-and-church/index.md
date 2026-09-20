@@ -4,7 +4,7 @@ category: "other"
 description: "The covenants, the distinction between Israel and the Church, and the Hebrew roots of the faith."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-05
+date_modified: 2026-09-20
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -20,7 +20,7 @@ The covenants, the distinction between Israel and the Church, and the Hebrew roo
 
     ---
 
-    Scripture calls the church a betrothed bride and says so in its own voice. What the primary rabbinic and cultural sources actually document about Jewish betrothal, what the New Testament builds on it, how much weight the Song of Songs can carry — and which popular details have no source at all.
+    Scripture calls the church a betrothed bride and says so in its own voice. What the primary rabbinic and cultural sources actually document about Jewish betrothal, how much weight the Song of Songs can carry, which popular details have no source at all — and what a finished betrothal, a prepared place, a kept covenant and a bride presented holy mean for you while you wait. The wedding pattern set out component by component, four of its eight already done to you — and what follows the wedding: the rest, the reign, the inheritance, and the point at which Scripture starts calling her the wife of the Lamb as well as His bride.
 
     [:octicons-arrow-right-24: Read](bride-of-christ.md)
 

@@ -17,5 +17,6 @@ draft: false
 - [Charting End Times](../../last-things/prophecy-chart.md) — 4:9
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 4:14-16
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:14-16
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:9-11
 - [The Day Is Near](../../last-things/day-is-near.md) — 4:1-13
 <!-- commentary-index:auto-end -->

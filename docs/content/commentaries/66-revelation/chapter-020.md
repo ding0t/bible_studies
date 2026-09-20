@@ -15,6 +15,7 @@ draft: false
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 20:1-7
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 20:1-6
 - [Charting End Times](../../last-things/prophecy-chart.md) — 20:1-6
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 20:6
 - [The Day Is Near](../../last-things/day-is-near.md) — 20:1-7
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 20:1-6
 - [The Rapture of the Church](../../last-things/rapture.md) — 20:1-6

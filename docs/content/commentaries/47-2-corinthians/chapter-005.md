@@ -15,6 +15,7 @@ draft: false
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 5:21
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 5:17
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:17-18
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:5
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:10
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 5:1-8
 <!-- commentary-index:auto-end -->
