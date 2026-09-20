@@ -19,6 +19,18 @@ const CONTENT_DIR = path.join(REPO_ROOT, 'docs/content');
 let hasErrors = false;
 let warningCount = 0;
 
+// Check 21's exemption list: prose runs over 600 words that are allowed to stand.
+//
+// A dict, not a set, and the value is the REASON -- the same convention as MAY_BE_EMPTY in
+// references/build/tests/test_invariants.py, and for the same reason: a reader who cannot see
+// why a case is exempt cannot tell an exemption from an oversight, and neither can the next
+// sweep. Key is "<path under docs/content>::<heading text>".
+//
+// Empty on purpose. The corpus was at zero walls when check 21 became an error (2026-09-20),
+// so there is no inherited debt here and every entry added later is a deliberate choice with
+// its justification attached. Prefer splitting the run to adding a key.
+const ALLOWED_WALLS = {};
+
 // Last commit date per content path, for check 17. One `git log` pass over the whole tree rather
 // than one per file -- 500-odd git spawns would dominate the runtime of an otherwise instant
 // linter. Paths are as-committed, so a file renamed and not yet re-committed simply won't appear
@@ -614,9 +626,16 @@ function validateFile(filePath) {
   //
   // Threshold from a corpus audit of 984 sections across 86 published files: p50 116w, p75 225w,
   // p90 423w, p95 545w. 600w is p96-97 and fires on 3.8% -- the genuine monsters (a 1868-word
-  // "Word studies" section in lords-prayer.md) rather than any dense section. WARNING, not error:
-  // a sustained argument sometimes has to run, and the author decides. The aspiration in
+  // "Word studies" section in lords-prayer.md) rather than any dense section. The aspiration in
   // structural-readability.md is 250-400w; this only catches the far tail.
+  //
+  // ERROR since 2026-09-20, having been a warning before that. Two things changed together: the
+  // corpus reached zero walls (94 files, 1596 sections, worst run 583w), so the gate starts with
+  // no debt to grandfather; and `npm run validate` was added to the deploy workflow, which is
+  // what had actually been missing -- the check existed and nothing ever ran it, so a wall could
+  // ship silently. The author still decides, but now says so in ALLOWED_WALLS above rather than
+  // by leaving a warning unread. Only the >600 tail is an error; checks 10-20 stay warnings,
+  // because each has a legitimate use the regex cannot distinguish.
   {
     const lines = content.split('\n');
     let heading = null;
@@ -626,10 +645,13 @@ function validateFile(filePath) {
 
     const flush = () => {
       if (heading && words > 600) {
+        const key = `${path.relative(CONTENT_DIR, filePath)}::${heading}`;
+        const reason = ALLOWED_WALLS[key];
+        if (reason) return;
         log(
-          'warning',
+          'error',
           filePath,
-          `Line ${headingLine}: "${heading}" runs ${words} words of unbroken prose. A reader has nowhere to stop. Break it with sub-headings that name what is in each part (see .claude/skills/read-bible-study/structural-readability.md). Tables, lists and quotes are already excluded from this count.`
+          `Line ${headingLine}: "${heading}" runs ${words} words of unbroken prose. A reader has nowhere to stop. Break it with sub-headings that name what is in each part (see .claude/skills/read-bible-study/structural-readability.md). Tables, lists and quotes are already excluded from this count. If this run genuinely has to stand, add "${key}" to ALLOWED_WALLS with the reason.`
         );
       }
     };

@@ -98,6 +98,8 @@ saved (Acts 4:12). *Did I do enough of it?* No — grace, received through faith
 doing to begin with (Ephesians 2:8-9). Assurance built on anything narrower than both of these
 collapses the moment either question is pressed.
 
+### The pun Peter makes to the Sanhedrin
+
 **Acts 4:12.** Peter says this to the Sanhedrin the morning after healing a man lame from birth at
 the temple gate (Acts 3:1-10), the same council that had condemned Jesus weeks earlier, at the
 preceding Passover (Acts 4:1-6). Asked "by what power or by what name did you do this?" (4:7, ESV),
@@ -113,6 +115,8 @@ language uses to say so. The same idiom sits behind "everyone who calls on the n
 be saved" (Romans 10:13, ESV, quoting Joel 2:32). Joel's text names YHWH. Paul applies it to Jesus
 four verses earlier, by way of "if you confess with your mouth that Jesus is Lord" (Romans 10:9,
 ESV).
+
+### The grammar of "not your own doing"
 
 **Ephesians 2:8-9.** Unlike most of Paul's letters, Ephesians answers no specific crisis; it is
 general instruction, probably meant to circulate among several churches in the Roman province of
@@ -144,6 +148,8 @@ to "think paragraphs," because John circles back to the same handful of tests th
 arguing them once in sequence. Those tests are right belief about who Jesus is, obedience, and love
 for other believers.
 
+### Chapter 5's witnesses, and the two verbs for "know"
+
 Chapter 5 is where "believing" concentrates: six of the letter's nine uses of the verb fall here.
 Verses 6-10 build a legal case for who Jesus is, using the two-or-three-witness standard of
 Deuteronomy 17:6 and 19:15. The witnesses are "the Spirit and the water and the blood; and these
@@ -162,6 +168,8 @@ The Gospel states its purpose as being written "so that you may *believe* that J
 (John 20:31, ESV). That is an evangelistic aim, addressed to those not yet convinced. The letter's
 purpose in 5:13 is addressed to "you who believe" already, so that they may *know* what they have.
 Same author, same vocabulary of life and belief, two different audiences and two different goals.
+
+### The longer reading of 5:13 in some versions
 
 *A translation note.* Some English versions (WEB among them) add a further clause to 1 John 5:13 —
 "and that you may continue to believe in the name of the Son of God" — not present in the Greek text
@@ -195,6 +203,8 @@ Peter 1:10, ESV). The ESV Study Bible's note on that verse states the ordering p
 works are evidence of and give assurance of salvation, though they are never the basis for it."
 Reverse that order, treating the fruit as the ground, and assurance becomes exactly the performance-
 based anxiety these texts were written to answer.
+
+### When someone walks away
 
 That leaves one honest pastoral question: what about someone who once seemed to believe and then
 walked away, the way John's own readers had just watched happen (1 John 2:19)? The texts gathered

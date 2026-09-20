@@ -47,6 +47,14 @@ jobs:
         run: npm test
         working-directory: app
 
+      # The content linter. Until 2026-09-20 this ran only by hand, so its one hard check --
+      # an unbroken prose run over 600 words (check 21) -- could not stop a readability
+      # regression from deploying. Warnings still exit 0 and are advisory; only errors fail
+      # the build. Costs ~0.4s.
+      - name: Validate content
+        run: npm run validate
+        working-directory: app
+
       # Must precede the mkdocs build: this regenerates docs/data/events.json from study
       # frontmatter and writes both React bundles into docs/content/assets/js/, which mkdocs then
       # copies into the site like any other asset. The output is gitignored, so it exists only

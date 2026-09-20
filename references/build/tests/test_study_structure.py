@@ -64,9 +64,15 @@ def test_verdicts_follow_the_thresholds():
             assert s["verdict"] == "ok"
 
 
-def test_the_restructured_scribe_study_has_no_walls():
-    """The pass that motivated all of this should leave nothing over 600 words."""
-    assert ss.outline(SCRIBE)["summary"]["walls"] == 0
+# test_the_restructured_scribe_study_has_no_walls was removed on 2026-09-20. It asserted
+# `ss.outline(SCRIBE)["summary"]["walls"] == 0` -- a claim about CONTENT, living in a suite that
+# tests CODE, so an edit to scribe-trained-for-the-kingdom.md could redden this suite without
+# any tool change. That is the same coupling 23750a7 removed from the prose-identity tests, and
+# the guarantee is now enforced where it belongs and across the whole corpus rather than one
+# file: validate-content.js check 21 is an error and runs in the deploy workflow.
+#
+# What stays here is the tool's own behaviour -- thresholds, prose extraction, and the
+# prose-identity comparison -- none of which depends on what any study currently says.
 
 
 def test_missing_file_raises_rather_than_returning_empty():
