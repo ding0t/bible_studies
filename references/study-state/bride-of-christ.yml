@@ -656,6 +656,42 @@ revision_2026-09-21d:
   status: >-
     Committed. File remains draft: false.
 
+revision_2026-09-21e:
+  request: >
+    "3 · Pledged - is there any more in the marriage pattern we can refer to or more depth - this
+    is an excellent component - just looking for a little more."
+  found: >
+    The seal. It sits beside the deposit in Paul's own clause and ties three passages the study
+    already touches. In Genesis 38:18 -- the ONE Old Testament passage that uses erabon (H6162),
+    the word behind arrabon -- the pledge Judah hands over is his chotam (H2368), a SEAL, with his
+    cord and staff. So the pledge in that scene is the man's own identifying mark, and Tamar
+    produces it later for exactly that purpose (38:25). Paul puts the same two things in one
+    clause: God "has also put his seal on us and given us his Spirit in our hearts as a guarantee"
+    (2 Corinthians 1:22) -- sealed AND deposited, the pair Genesis 38 already holds. Ephesians
+    repeats it at 1:13-14. And Song of Songs 8:6's "Set me as a seal upon your heart" is chotam
+    again, which lets the component cross-link to the annex section that already block-quotes that
+    verse for shalhevetyah.
+  marked_not_overclaimed: >
+    The Song runs the relation the other way -- she asks to be the seal on Him, Paul says the
+    church has been sealed by Him. The prose says so: "the direction is reversed and the longing is
+    the same, which is as much as the shared vocabulary will carry."
+  structure: >
+    Component 3 was a single 286-word H2; the addition took it past the 400 target, so it is now
+    three H3s (223 / 281 / 63) under "## 3 · Pledged — already yours", matching the other
+    components. Its anchor shortened, so the table and Study outline links were repointed.
+    Component 1's covenant subsection had grown to 434 with the cup-of-redemption paragraph and was
+    split into "The covenant, and the cup it was sealed in" plus "The two ways out, and why neither
+    is open". The only section now over the 400 target is "The title He takes" at 542, which is
+    pre-existing.
+  verification: >
+    Genesis 38:18 and 38:25 quoted from bible-text.db WEB (open licence). chotam H2368 confirmed at
+    both Genesis 38:18 and Song 8:6 via interlinear; TWOT root 780a. Ephesians 1:13 and the ESV
+    wording checked against study-notes.db. No count claim was made for sphragizo: the raw G4972
+    figure is 49 and includes the LXX, so it would have needed filtering to be usable.
+  NOT_REVIEWED: "The whole of 'The pledge Judah handed over was a seal' is new prose."
+  status: >-
+    Committed. File remains draft: false.
+
 last_updated: "2026-09-21"
 
 # ---------------------------------------------------------------------------

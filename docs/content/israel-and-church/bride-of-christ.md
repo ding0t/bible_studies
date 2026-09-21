@@ -5,7 +5,7 @@ description: "Scripture calls the church a betrothed bride and says so in its ow
 tags: ["ephesians", "revelation", "john", "song-of-songs", "hosea", "isaiah", "matthew", "1-thessalonians", "dispensationalism", "marriage", "covenant", "sanctification", "rapture", "1-peter", "hebrews", "romans", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
-bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "Hosea 2:23", "1 Corinthians 10:16"]
+bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Genesis 38:25", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "Hosea 2:23", "1 Corinthians 10:16"]
 date_created: 2026-09-01
 date_modified: 2026-09-21
 ai_provider_models:
@@ -105,7 +105,7 @@ This is quite a big study. Feel free to jump around.
 - [The pattern of the wedding](#the-pattern-component-by-component). This is the main takeaway of
   the study, and most enjoyable.
 - **The eight components, a section each** — [1 Purchased](#1-purchased-already-yours)
-  · [2 Betrothed](#2-betrothed-already-yours) · [3 Pledged](#3-pledged-the-spirit-as-deposit-arrabon-already-yours)
+  · [2 Betrothed](#2-betrothed-already-yours) · [3 Pledged](#3-pledged-already-yours)
   · [4 Set apart](#4-set-apart-already-yours) · [5 Preparing](#5-preparing-where-you-are-now) · [6 Fetched](#6-fetched-still-ahead)
   · [7 Married](#7-married-and-feasting-still-ahead) · [8 Homed](#8-homed-still-ahead). The first four are already done to
   you; the fifth is where you are standing now.
@@ -250,7 +250,7 @@ things already done to the church.
 |---|---|---|---|---|
 | 1 | **[Purchased](#1-purchased-already-yours)** | [Betrothal "by money"](#betrothal-was-marriage-in-law) (*m. Kiddushin* 1:1) | The <span dir="rtl">גֹּאֵל</span> (*goel*) who redeems his kin; "your Redeemer" (Isaiah 54:5) | "you were bought with a price" (1 Corinthians 6:20); "ransomed… with the precious blood of Christ" (1 Peter 1:18-19); "by your blood you ransomed people for God" (Revelation 5:9) |
 | 2 | **[Betrothed](#2-betrothed-already-yours)** | [Betrothal "by document"](#a-wedding-narrative-from-the-period) — the sealed *shtar* (*m. Kiddushin* 1:1; Tobit 7:14) | "I made my vow to you and entered into a covenant with you… and you became mine" (Ezekiel 16:8); "[I will betroth you to me forever](#1-purchased-already-yours)" (Hosea 2:19) | "I betrothed you to one husband" (2 Corinthians 11:2) |
-| 3 | **[Pledged](#3-pledged-the-spirit-as-deposit-arrabon-already-yours)** | A deposit against the rest of the payment | Judah's <span dir="rtl">עֵרָבוֹן</span> (*erabon*), ἀρραβών (*arrabōn*) in the Greek (Genesis 38:17-20) | "his Spirit in our hearts as a guarantee" (2 Corinthians 1:22); "the guarantee of our inheritance" (Ephesians 1:14) |
+| 3 | **[Pledged](#3-pledged-already-yours)** | A deposit against the rest of the payment | Judah's <span dir="rtl">עֵרָבוֹן</span> (*erabon*), ἀρραβών (*arrabōn*) in the Greek (Genesis 38:17-20) | "his Spirit in our hearts as a guarantee" (2 Corinthians 1:22); "the guarantee of our inheritance" (Ephesians 1:14) |
 | 4 | **[Set apart](#4-set-apart-already-yours)** | Betrothal as "the sanctification of the bride" (*NIV Cultural Backgrounds Study Bible*, note on Ephesians 5:26) | "Then I bathed you with water… and anointed you with oil" (Ezekiel 16:9) | "you were washed, you were sanctified" (1 Corinthians 6:11); "having cleansed her by the washing of water with the word" (Ephesians 5:26) |
 | 5 | **[Preparing](#5-preparing-where-you-are-now)** | [Twelve months, and the groom prepares through the same twelve](#the-after-betrothal-interval-is-a-time-of-preparation) (*m. Ketubot* 5:2) | — | "I go to prepare a place for you" (John 14:2); "that he might [present the church to himself in splendor](#he-presents-her-holy-and-he-is-the-one-who-makes-her-so)" (Ephesians 5:27); "his Bride has made herself ready" (Revelation 19:7) |
 | 6 | **[Fetched](#6-fetched-still-ahead)** | The groom comes, usually after dark, at a time his family's preparations decide (CBSB, note on Matthew 25:1) | — | "Come out to meet him" (Matthew 25:6); "caught up… to meet the Lord in the air" (1 Thessalonians 4:17) |
@@ -334,7 +334,7 @@ Ruth asks Boaz for it in as many words, and asks for the wedding gesture in the 
 (Ruth 3:9, WEB). **This shows that God did not delegate the purchase — He is the kinsman, and the
 price He paid was His own Son's blood.**
 
-### The covenant, the pledge, and the two ways out
+### The covenant, and the cup it was sealed in
 
 The Mishnah supplies the setting. "A woman is acquired in three ways" (*m. Kiddushin* 1:1) — the
 acquiring verbs all belong to the groom, and the bride's consent is assumed rather than transacted.
@@ -351,6 +351,8 @@ own sequence, the cup of the purchase.** The cup He then refuses is the fourth.
 [The Last Supper and the Cups of Passover](../feasts/last-supper-four-cups.md) works the
 identification through, and [The cup He promised to finish](#the-cup-he-promised-to-finish) takes up
 the fourth under component 7, where the wedding supper is in view.
+
+### The two ways out, and why neither is open
 
 Betrothal had two exits, and the Mishnah names them: "she acquires herself by divorce or by her
 husband's death" (*m. Kiddushin* 1:1). Christ has issued no writ of divorce against His church, and
@@ -423,7 +425,9 @@ on Matthew 1:19).
 Two independent witnesses, rabbinic law and a Gospel narrative that presupposes it, agreeing on the
 same point. That is the evidentiary shape worth building on.
 
-## 3 · Pledged: the Spirit as deposit, ἀρραβών (*arrabōn*) — already yours
+## 3 · Pledged — already yours
+
+### The Spirit as deposit: ἀρραβών (*arrabōn*)
 
 Ten chapters earlier in the same letter Paul names what secures the interval. God "has also put his
 seal on us and given us his Spirit in our hearts as a guarantee" (2 Corinthians 1:22, ESV).
@@ -440,6 +444,38 @@ own into your hands as the bond.** The Spirit you have is the first portion of t
 itself, which is why Paul calls Him "the guarantee of our inheritance until we acquire possession of
 it" (Ephesians 1:14, ESV) and tells you that you "were sealed for the day of redemption" (Ephesians
 4:30, ESV).
+
+### The pledge Judah handed over was a seal
+
+The Genesis scene behind ἀρραβών holds a detail Paul's own sentence repeats. Tamar asks Judah what
+he will leave with her, and she names the three things that identify him:
+
+> ✝️ Genesis 38:18 (WEB)
+>
+> 18 He said, "What pledge will I give you?" She said, "Your signet and your cord, and your staff
+> that is in your hand." He gave them to her, and came in to her, and she conceived by him.
+
+"Your signet" is <span dir="rtl">חוֹתָם</span> (*chotam*, H2368), a seal — the stamp a man pressed
+into clay to mark a document as his own. So the pledge, in the one Old Testament passage that uses
+the word, is the man's own identifying mark, handed over and held against him. Tamar produces it
+later for exactly that purpose: "Please discern whose these are — the signet, and the cords, and the
+staff" (Genesis 38:25, WEB).
+
+Paul puts those same two things in a single clause. God "has also put his seal on us and given us
+his Spirit in our hearts as a guarantee" (2 Corinthians 1:22, ESV) — sealed and deposited, the pair
+the Judah scene already holds. Ephesians says it again: you "were sealed with the promised Holy
+Spirit" (1:13, ESV), who is then "the guarantee of our inheritance" (1:14, ESV).
+
+**This shows that God pledged His own identity, and left it with you until He comes for what He has
+bought.**
+
+The Song's bride reaches for the same noun and runs it the other way: "Set me as a seal upon your
+heart, as a seal upon your arm" (Song of Songs 8:6, ESV) is <span dir="rtl">חוֹתָם</span> again.
+She asks to be the seal on Him; Paul says the church has been sealed by Him. The direction is
+reversed and the longing is the same, which is as much as the shared vocabulary will carry — see
+[The one place God is named](#the-one-place-god-is-named) for what else that verse holds.
+
+### How far the betrothal reading carries
 
 Paul nowhere calls the Spirit a betrothal gift. The betrothal
 and the deposit stand in one letter, in one man's vocabulary, describing one arrangement, and that
@@ -482,7 +518,6 @@ appears in every clause as the one acted upon.
 
 "Present" is παραστήσῃ, from παρίστημι (*paristēmi*, G3936) — the verb Paul used of his own work at
 2 Corinthians 11:2, "to present you as a pure virgin to Christ," and again at Colossians 1:22, "to
-
 present you holy and blameless and above reproach before him" (ESV). Paul presents the bride to
 Christ; Christ presents her to Himself.
 
