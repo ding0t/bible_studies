@@ -5,9 +5,9 @@ description: "Matthew's four parables of watchfulness -- the faithful and wicked
 tags: ["matthew", "parable", "dispensationalism", "method/word-study"]
 draft: false
 primary_passage: "Matthew 24:45-25:46"
-bible_references: ["Matthew 24:3", "Matthew 24:45-51", "Matthew 25:1-46", "Matthew 9:15", "Matthew 10:40-42", "Matthew 12:48-50", "Matthew 13:10-17", "Matthew 13:34-35", "Matthew 15:15-16", "Matthew 18:23-35", "Matthew 20:1-16", "Psalm 78:2", "Isaiah 54:5", "Hosea 2:16", "Jeremiah 31:32", "Ezekiel 34:11-12", "Ezekiel 34:17-24", "Luke 12:35-48", "Luke 19:11-27", "John 3:29"]
+bible_references: ["Matthew 24:3", "Matthew 24:45-51", "Matthew 25:1-46", "Matthew 9:15", "Matthew 10:40-42", "Matthew 12:48-50", "Matthew 13:10-17", "Matthew 13:34-35", "Matthew 15:15-16", "Matthew 18:23-35", "Matthew 20:1-16", "Psalm 78:2", "Isaiah 54:5", "Hosea 2:16", "Jeremiah 31:32", "Jeremiah 3:14", "Ezekiel 34:11-12", "Ezekiel 34:17-24", "Luke 12:35-48", "Luke 19:11-27", "John 3:29"]
 date_created: 2026-08-29
-date_modified: 2026-09-19
+date_modified: 2026-09-21
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -90,10 +90,14 @@ taken by Christ in the New.** Jesus Christ is fully God and fully man (see
 [Statement of Faith](../about/statement-of-faith.md#god-the-son)), and here He teaches it by
 stepping into God's own roles and answering to them.
 
-*Husband* is God's, said three times: "Your Maker is your husband, the LORD of hosts is his name"
+*Husband* is God's, in His own voice: "Your Maker is your husband, the LORD of hosts is his name"
 (Isaiah 54:5, ESV); "you will call me 'My Husband'" (Hosea 2:16, ESV); "I was their husband,
-declares the LORD" (Jeremiah 31:32, ESV). Jesus takes that title for Himself here and at Matthew
-9:15, and John the Baptist had already placed Him in it (John 3:29).
+declares the LORD" (Jeremiah 31:32, ESV). Jeremiah 3:14 is a fourth, visible only in the Hebrew —
+the same verb <span dir="rtl">בָּעַל</span> (*baʿal*, H1166) that Isaiah 54:5 and Jeremiah 31:32 use,
+which the ESV renders "I am your master" and the WEB "I am a husband to you." Jesus takes that title
+for Himself here and at Matthew 9:15, and John the Baptist had already placed Him in it (John 3:29).
+[The Bride of Christ](../israel-and-church/bride-of-christ.md#the-title-he-takes) works the four
+Old Testament verses through in full.
 
 *Judge of all the nations* is God's. The Son of Man sits on His glorious throne, the nations are
 gathered before Him, and He divides them (25:31-32).

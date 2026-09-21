@@ -5,9 +5,9 @@ description: "Scripture calls the church a betrothed bride and says so in its ow
 tags: ["ephesians", "revelation", "john", "song-of-songs", "hosea", "isaiah", "matthew", "1-thessalonians", "dispensationalism", "marriage", "covenant", "sanctification", "rapture", "1-peter", "hebrews", "romans", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
-bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14"]
+bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14"]
 date_created: 2026-09-01
-date_modified: 2026-09-20
+date_modified: 2026-09-21
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -19,11 +19,10 @@ Paul quotes Genesis: a man leaves his father and mother and holds fast to his wi
 something about that verse which is easy to read straight past. **"This mystery is profound, and I
 am saying that it refers to Christ and the church"** (Ephesians 5:32, ESV).
 
-He is not reaching for an illustration. He is telling the Ephesians that marriage had been carrying
+He is not using marriage as an illustration. He is telling the Ephesians that marriage had been carrying
 this meaning the whole time.
 
-That matters. Most Old Testament pictures of Christ have to be argued for — you notice the pattern
-and make the case that it was intended. This one does not. Paul states it outright. John the Baptist
+This is an undeniable type throughout Scripture. Paul states it outright. John the Baptist
 states it. Revelation states it twice in its closing chapters.
 
 But not everything taught about the bride comes from Scripture. A good deal of it comes from
@@ -31,12 +30,10 @@ reconstructions of the first-century Jewish wedding — the father inspecting th
 "only my father knows the day," the bridal chamber prepared in the father's house. Some of that is
 documented. Some of it has no ancient source at all.
 
-So this study sorts the evidence into tiers and tells you which tier you are standing on. The
-doctrine is strong. It does not need the weak arguments, and it is better off without them.
-
-**In one sentence:** Scripture itself calls the church Christ's betrothed bride, and four parts of
+**In one sentence:** Scripture calls the church Christ's betrothed bride, and four parts of
 that betrothal are already complete — purchased, betrothed, pledged, set apart — which is what makes
-the waiting a confident one.
+the waiting a confident one. And the remaining four — a place being prepared, a groom who comes for
+her, the marriage supper, the Father's house — set the church in an attitude of joyous hope.
 
 ## Key Takeaways
 
@@ -53,6 +50,14 @@ Jerusalem "prepared as a bride adorned for her husband" (21:2), "the Bride, the 
 (22:17, ESV).
 
 ### Lessons about Jesus
+
+**Husband is a title God kept for Himself, and Jesus takes it.** "Your Maker is your husband, the
+LORD of hosts is his name" (Isaiah 54:5, ESV); "I was their husband, declares the LORD" (Jeremiah
+31:32, ESV); "you will call me 'My Husband'" (Hosea 2:16, ESV). Then John the Baptist points at a man
+from Nazareth and says "the one who has the bride is the bridegroom" (John 3:29), and Jesus calls
+Himself the bridegroom to His face (Matthew 9:15) and again in a parable of the kingdom (Matthew
+25:1). **This shows that God the Son holds the place the God of Israel holds** — and He steps into
+it without a sentence of explanation. See [The title He takes](#the-title-he-takes).
 
 At the Last Supper Jesus tells His disciples He is going to His Father's house to prepare a place,
 and will come again and "take you to myself" (John 14:3). The verb is the one used of a man receiving
@@ -145,6 +150,51 @@ flowchart TD
     D --> E["Marriage of the Lamb<br/>Rev 19:7-9"]
     E --> F["New Jerusalem as bride<br/>Rev 21:2, 9"]
 ```
+
+### The title He takes
+
+The first arrow in that diagram carries the weight of everything after it. God betroths Israel; the
+bridegroom is then identified as Jesus. Put the two halves side by side and the image stops being
+decoration and starts making a claim about who Jesus is.
+
+In the Old Testament the husband is God, and He says so in His own voice. Isaiah attaches the title
+directly to the divine name: "For your Maker is your husband, the LORD of hosts is his name; and the
+Holy One of Israel is your Redeemer, the God of the whole earth he is called" (Isaiah 54:5, ESV).
+Jeremiah makes it the grievance behind the broken covenant — "my covenant that they broke, though I
+was their husband, declares the LORD" (Jeremiah 31:32, ESV). Hosea makes it the promise of what
+Israel will one day call Him: "you will call me 'My Husband'" (Hosea 2:16, ESV).
+
+Two of those three run on one Hebrew verb, <span dir="rtl">בָּעַל</span> (*baʿal*, H1166) — Isaiah's
+<span dir="rtl">בֹעֲלַיִךְ</span> (*boʿalayik*, "your husband," a participle) and Jeremiah's
+<span dir="rtl">בָּעַלְתִּי</span> (*baʿalti*, "I was a husband"). Hosea's line is a play on the same
+root, trading <span dir="rtl">בַּעְלִי</span> (*baʿli*) for <span dir="rtl">אִישִׁי</span> (*ishi*),
+which is worked through at [The name she calls Him](#the-name-she-calls-him-hosea-216) below.
+
+**A fourth occurrence is easy to miss, because the English versions disagree about it.** Jeremiah
+3:14 has God saying <span dir="rtl">אָנֹכִי בָּעַלְתִּי בָכֶם</span> — the same verb, the same
+speaker. The ESV, NASB and CSB render it "I am your master"; the WEB has "I am a husband to you."
+Both are defensible, since the verb carries ownership and marriage together, and that ambiguity is
+exactly what Hosea 2:16 promises to resolve. So the Old Testament witness is four verses rather than
+three, and one of them only shows itself in the Hebrew.
+
+Now set the New Testament beside it. John the Baptist says of Jesus, "the one who has the bride is
+the bridegroom" (John 3:29, ESV). Jesus applies the word to Himself when asked why His disciples do
+not fast: "Can the wedding guests mourn as long as the bridegroom is with them?" (Matthew 9:15, ESV).
+He does it again in a parable about the kingdom of heaven, where ten virgins go out to meet
+ὁ νυμφίος, the bridegroom (Matthew 25:1).
+
+**This shows that God the Son is God.** Isaiah's husband is the LORD of hosts, the God of the whole
+earth. Jesus takes that place and never pauses to justify taking it, and no one in the Gospels
+records an objection to it — the same move He makes with the roles of judge and shepherd, worked
+through in [The Parables of the Olivet Discourse](../last-things/olivet-discourse-parables.md#lessons-about-jesus).
+So when Paul writes "I betrothed you to one husband, to present you as a pure virgin to Christ"
+(2 Corinthians 11:2, ESV), he is not borrowing a poetic figure from the prophets. He is saying that
+the covenant God made with Israel as her husband has its answer in Christ, and that the church now
+stands where Isaiah's bride stood.
+
+And that is what the image is for. A doctrine of the deity of Christ argued from titles can stay in
+the head. This one arrives as a marriage: **the God who called Himself your husband is the Christ who
+bought you, and you are betrothed to Him.**
 
 ## What the Sources Actually Document
 
@@ -926,6 +976,9 @@ flowchart TD
 
 - [The Olivet Discourse](../last-things/olivet-discourse.md) — the Father's authority over the date,
   and the "one taken, one left" saying this study's word data bears on.
+- [The Parables of the Olivet Discourse](../last-things/olivet-discourse-parables.md) — the
+  bridegroom of Matthew 25:1 in context, and the same deity argument run across three of God's
+  reserved roles: husband, judge of the nations, and shepherd of Israel.
 - [The Rapture of the Church](../last-things/rapture.md) — the wedding-pattern sequence, the
   pretribulational argument, the *apantēsis* objection at 1 Thessalonians 4:17, and where the
   marriage supper sits relative to the judgment seat of Christ.
