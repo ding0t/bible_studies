@@ -143,8 +143,22 @@ stages:
     done: true
     file: docs/content/christian-life/be-prepared.md
   review:
-    done: false
-    validated: false
+    done: true
+    validated: true
+    notes: >
+      Adversarial review 2026-09-21 (review-bible-study, independent session).
+      Survived: the one-imperative grammar claim (ἁγιάσατε is the only finite verb in
+      3:15), all six occurrence counts, every ESV Study Bible historical claim, the
+      textual-variant handling, statement-of-faith consistency, and sibling
+      consistency with olivet-discourse.md. Fixed: a spliced Luke 21:12 quotation
+      (first half ESV, second half NASB, unlabelled); the LXX evidence presented as
+      an inflected quotation when the repo holds only lemmas, and the LXX's dropping
+      of "of hosts"; "six of those eight are legal" restated as three courtroom uses
+      plus five with the forensic overtone; the φόβος comparison table pointing at a
+      verse the English versions do not have it at; "in the same order" of Romans
+      8:31; a stray Romans 12:2 in bible_references that reached the Romans 12
+      commentary index. Open: the Luke 21:14 resolution now reads as weaker than
+      first drafted, since NIVCBSB keeps ἀπολογία's courtroom reach.
 
 open_questions:
   - >
@@ -154,11 +168,18 @@ open_questions:
     proposal, not a settled result. Worth a commentary check beyond the ESV Study
     Bible before draft: false.
   - >
-    ESV Study Bible is the only full commentary consulted; the NIV Cultural
-    Backgrounds Study Bible has no study notes on 1 Peter 3 in study-notes.db
-    (query returned empty, not unavailable). A second commentary on v15's Isaiah 8
-    background would strengthen the central claim, though the LXX lemma evidence
-    stands on its own.
+    RESOLVED 2026-09-21 by adversarial review. The earlier note here claimed the NIV
+    Cultural Backgrounds Study Bible "has no study notes on 1 Peter 3" and that the
+    query returned empty. That was a lookup error, not a fact about the source: the
+    query used work_id 'nivcbsb' instead of 'niv-cultural-backgrounds-study-bible'.
+    NIVCBSB in fact has notes at 3:14, 3:15 and 3:16, and the 3:15 note independently
+    confirms this study's central claim -- the Greek of Isaiah 8:13 "begins the same
+    way as the Greek text here ... except that Peter expressly applies this divine
+    role to Christ." Now cited in the study. The same note also qualifies the
+    "neighbour, not magistrate" framing (a defence is something they "may eventually
+    need even in court", citing 4:5-6 and 4:15-16); the study now says both are in
+    view. A false negative recorded as a finding is worse than an open question --
+    it closed off the check that would have strengthened the page.
 
 resources_consulted:
   - "ESV Study Bible (Crossway, 2016) -- introduction to 1 Peter (date, audience, occasion, the argument against an empire-wide persecution at this date); notes on 3:13-14 and 3:15-17. CONTRIBUTED the historical setting and the 'no official policy' point, which changed who the ἀπολογία is aimed at. CONFIRMED the reading of v13-14."
@@ -173,4 +194,4 @@ resources_consulted:
   - "1QIsaa (dss, bible-text.db) at Isaiah 8:13 -- agrees with the Masoretic."
   - "Fee & Stuart, How to Read the Bible for All Its Worth -- epistle and Acts genre lenses (occasion first; narrative precedent is not automatically normative)."
 
-last_updated: "2026-09-20"
+last_updated: "2026-09-21"

@@ -5,9 +5,9 @@ description: "1 Peter 3:13-17 in its setting: the one imperative in verse 15 is 
 tags: ["1-peter", "isaiah", "apologetics", "hope", "suffering", "discipleship", "method/word-study", "lang/greek", "lang/hebrew", "person/peter"]
 draft: false
 primary_passage: "1 Peter 3:13-17"
-bible_references: ["1 Peter 3:13-17", "1 Peter 3:8-12", "1 Peter 3:18", "1 Peter 1:1", "1 Peter 1:3", "1 Peter 1:4", "1 Peter 1:5", "1 Peter 1:17", "1 Peter 1:21", "1 Peter 2:11", "1 Peter 2:12", "1 Peter 2:18", "1 Peter 3:2", "1 Peter 4:16", "Isaiah 8:12-13", "Psalm 34:12-16", "Acts 17:10-12", "Acts 21:20", "Acts 22:1", "Acts 25:16", "Colossians 4:5-6", "Luke 21:12-15", "Luke 6:15", "Titus 2:14", "Galatians 5:22-23", "Galatians 1:14", "1 Corinthians 9:3", "2 Corinthians 7:11", "Philippians 1:7", "Philippians 1:16", "2 Timothy 4:16", "Matthew 24:44", "Matthew 25:10", "Romans 12:2"]
+bible_references: ["1 Peter 3:13-17", "1 Peter 3:8-12", "1 Peter 3:18", "1 Peter 1:1", "1 Peter 1:3", "1 Peter 1:4", "1 Peter 1:5", "1 Peter 1:17", "1 Peter 1:21", "1 Peter 2:11", "1 Peter 2:12", "1 Peter 2:18", "1 Peter 3:2", "1 Peter 4:16", "Isaiah 8:12-13", "Psalm 34:12-16", "Acts 17:10-12", "Acts 21:20", "Acts 22:1", "Acts 25:16", "Colossians 4:5-6", "Luke 21:12-15", "Luke 6:15", "Titus 2:14", "Galatians 5:22-23", "Galatians 1:14", "1 Corinthians 9:3", "2 Corinthians 7:11", "Philippians 1:7", "Philippians 1:16", "2 Timothy 4:16", "Matthew 24:44", "Matthew 25:10"]
 date_created: 2024-05-24
-date_modified: 2026-09-20
+date_modified: 2026-09-21
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-4.5
@@ -53,7 +53,7 @@ prototyping — see that page for what each part is for and why.)*
 
 - **Jesus Christ is the LORD of hosts.** Isaiah 8:13 commands Israel to sanctify
   <span dir="rtl">יְהוָה צְבָאוֹת</span> (*YHWH tsevaʾot*), "the LORD of hosts." The Greek Old
-  Testament renders it κύριον αὐτὸν ἁγιάσατε (*kyrion auton hagiasate*). Peter keeps the verb and
+  Testament has κύριον αὐτὸν ἁγιάσατε (*kyrion auton hagiasate*), "the Lord, Him, sanctify." Peter keeps the verb and
   the grammar and writes κύριον δὲ τὸν Χριστὸν ἁγιάσατε — "sanctify the Lord, the Christ." He puts
   the Son in the slot the Old Testament reserved for the divine name. See
   [below](#peter-puts-christ-where-isaiah-put-yhwh).
@@ -125,9 +125,14 @@ neighbours and relatives and masters, not yet magistrates. Peter has already tol
 exactly this: "when they speak against you as evildoers, they may see your good deeds and glorify
 God" (2:12).
 
-That setting decides who the "defense" of verse 15 is aimed at. Peter does not say *to every
-governor*. He says παντὶ τῷ αἰτοῦντι (*panti tō aitounti*) — "to everyone who asks you." The
-question comes from someone standing close enough to notice.
+That setting shapes who the "defense" of verse 15 is aimed at. Peter says παντὶ τῷ αἰτοῦντι
+(*panti tō aitounti*) — "to everyone who asks you." The question comes from someone standing close
+enough to notice.
+
+The word keeps its courtroom reach, though, and a commentary is right to say so: the *NIV Cultural
+Backgrounds Study Bible* notes at 3:15 that a defence is something Peter's readers "may eventually
+need even in court," pointing to 4:5-6 and 4:15-16. Both are in view. The neighbour's question is
+where it starts.
 
 ### Where the paragraph sits in the letter
 
@@ -171,12 +176,20 @@ where the prophet is told not to share Judah's panic about the Assyrian threat:
 
 Isaiah's two verses work as a pair. Stop fearing what everyone else fears — then fear this instead.
 The Hebrew verb in 8:13 is <span dir="rtl">תַקְדִּישׁוּ</span> (*taqdishu*), a hiphil of
-<span dir="rtl">קָדַשׁ</span> (*qadash*), "to treat as holy." The Septuagint translates the clause
-κύριον αὐτὸν ἁγιάσατε — "the Lord, Him, sanctify."
+<span dir="rtl">קָדַשׁ</span> (*qadash*), "to treat as holy." The Septuagint renders the clause
+κύριον αὐτὸν ἁγιάσατε — "the Lord, Him, sanctify." Two things to hold about that Greek. This site's
+data for the Septuagint at Isaiah 8:13 is a lemma list (κύριος / αὐτός / ἁγιάζω) rather than the
+inflected text, so the accented form above is the standard printed reading and not something this
+repo can attest word by word. And the Greek drops <span dir="rtl">צְבָאוֹת</span> (*tsevaʾot*,
+"hosts") altogether: it reads "the Lord," where the Hebrew reads "the LORD of hosts."
 
 Peter carries the first half over almost word for word and then changes one word in the second. Where
-the Greek Old Testament has αὐτόν, pointing back to the LORD of hosts, Peter writes τὸν Χριστόν. Same
-verb, same imperative form, same construction. New object.
+the Greek Old Testament has αὐτόν, pointing back to the LORD of hosts of the Hebrew, Peter writes
+τὸν Χριστόν. Same verb, same imperative form, same construction. New object.
+
+The *NIV Cultural Backgrounds Study Bible* reaches the same conclusion from the same evidence,
+noting that the Greek of Isaiah 8:13 begins the same way as Peter's Greek "except that Peter
+expressly applies this divine role to Christ" (note on 1 Peter 3:15).
 
 There is no argument attached. Peter expected churches
 four years old, in Bithynia, to read a command addressed to the God of Israel, hear it re-aimed at a
@@ -206,9 +219,12 @@ sharpest.
 Ἀπολογία (*apologia*) is where the English word *apologetics* comes from, and it means a defence
 made in reply to a charge. It appears eight times in the Greek New Testament: Acts 22:1, Acts 25:16,
 1 Corinthians 9:3, 2 Corinthians 7:11, Philippians 1:7, Philippians 1:16, 2 Timothy 4:16, and here.
-Six of those eight are legal. Paul uses it standing on the steps of the Antonia fortress; Festus uses
-it of a Roman defendant's right to face his accusers; Paul uses it again of his first hearing, "at my
-first defense no one came to stand by me" (2 Timothy 4:16).
+Three of those eight sit in an actual courtroom. Paul uses it standing on the steps of the Antonia
+fortress (Acts 22:1); Festus uses it of a Roman defendant's right to face his accusers (Acts 25:16);
+Paul uses it again of his first hearing, "at my first defense no one came to stand by me" (2 Timothy
+4:16). The rest carry the forensic overtone without the court — Paul's "defense of the gospel" from
+prison (Philippians 1:7, 16), his reply to those who examine him (1 Corinthians 9:3), the
+Corinthians clearing themselves (2 Corinthians 7:11).
 
 Peter takes that word and aims it at the neighbour over the fence. The one asking is "everyone who
 asks you," and the verb is αἰτέω (*aiteō*), to ask or request. Your answer is a reply, given when it
@@ -242,8 +258,10 @@ nobody in Cappadocia could cancel.
 Φόβος (*phobos*, "fear") occurs five times in 1 Peter: 1:17, 2:18, 3:2, 3:14 and 3:16. Four of them
 are commended. Conduct yourselves "with fear" through your exile, because you call on a Father who
 judges impartially (1:17). Servants, submit to your masters "with all respect" (2:18). Wives, let
-husbands see "your respectful and pure conduct" (3:2). And in 3:16, make your defence "with
-gentleness and fear."
+husbands see "your respectful and pure conduct" (3:2). And make your defence "with gentleness and
+fear" — a clause the Greek editions place at the head of 3:16, which the ESV, NIV and WEB all print
+at the end of 3:15 instead. The NLT footnotes the difference at 3:16: "Some English translations put
+this sentence in verse 15."
 
 The fifth is 3:14, and it is the one Peter forbids: τὸν δὲ φόβον αὐτῶν μὴ φοβηθῆτε — "do not fear
 their fear." Peter does not tell frightened people to stop being afraid. He moves the fear. Take it
@@ -269,7 +287,8 @@ nowhere, and that the shame eventually lands back on the accuser.
 
 Verse 13 has a word with an edge on it. "If you are zealous for what is good" translates ζηλωταὶ τοῦ
 ἀγαθοῦ — literally "zealots of the good." Ζηλωτής (*zēlōtēs*) is the word Luke uses as a nickname for
-one of the Twelve: "Simon who was called the Zealot" (Luke 6:15). In the New Testament it describes
+one of the Twelve: "Simon who was called the Zealot" (Luke 6:15) — the same word, though a
+concordance separates the six common-noun uses below (G2207) from Simon's title (G2208). In the New Testament it describes
 people burning about something: the Jerusalem believers "all zealous for the law" (Acts 21:20), Paul
 on his own past (Galatians 1:14), and the people Christ purifies for Himself, "zealous for good
 works" (Titus 2:14).
@@ -280,8 +299,8 @@ consumed with anything.
 
 Verse 13's question — "who is there to harm you?" — reads oddly beside verse 14, which assumes they
 may suffer. The ESV Study Bible resolves it as a claim about the final outcome: no one will ultimately
-harm a Christian, even where they harm him now. Read that way, verses 13 and 14 say what Romans 8:31
-says, in the same order.
+harm a Christian, even where they harm him now. Romans 8:31 is the cross-reference the ESV Study
+Bible itself gives for it.
 
 ## What the English Translations Keep
 
@@ -290,7 +309,7 @@ Two features of the Greek survive into some versions and not others.
 | Feature | Greek | ESV | NIV | WEB | LSB |
 |---|---|---|---|---|---|
 | Object of "sanctify" (v15) | τὸν Χριστόν (critical text) | "Christ the Lord" | "revere Christ as Lord" | "the Lord God" (Byzantine) | "Christ as Lord" |
-| φόβος repeated at v14 and v16 | φόβον / φόβου | "respect" | "respect" | "fear" | "fear" |
+| φόβος repeated (v14; v16 in the Greek, v15 in most English) | φόβον / φόβου | "respect" | "respect" | "fear" | "fear" |
 
 The second row is the one a reader can act on. Peter uses the same noun for the fear he forbids in
 verse 14 and the fear he commands in verse 16, and the repetition carries his argument: he moves the
@@ -342,11 +361,13 @@ set speech.
 
 Two things distinguish the settings. Take what follows as a proposal; the sources here do not settle
 it. Jesus is
-describing arrest: "they will lay their hands on you... bringing you before kings and governors"
-(Luke 21:12). Peter is describing a question. And what Jesus forbids is a scripted defence, while
+describing arrest: "they will lay their hands on you and persecute you, delivering you up to the
+synagogues and prisons, and you will be brought before kings and governors for my name's sake"
+(Luke 21:12, ESV). Peter is describing a question. And what Jesus forbids is a scripted defence, while
 Peter commands a state — ἕτοιμοι is an adjective about what you are, not a noun for what you have
-written down. Held that way, the two agree: know your Lord and your hope well enough to speak, and
-leave the actual words to the Spirit who promised to supply them.
+written down. If that distinction holds, the two agree: know your Lord and your hope well enough to
+speak, and leave the actual words to the Spirit who promised to supply them. The first leg is the
+weaker one, since the courtroom sense of ἀπολογία reaches into Peter's setting too.
 
 Ἕτοιμος pulls the same weight elsewhere. It is the word of Matthew 24:44, "you also must be ready,"
 and of the wise virgins at Matthew 25:10 — and in 1 Peter 1:5 it describes the salvation itself,
@@ -397,6 +418,9 @@ the same end, that somebody else might be brought to God.
 - **ESV Study Bible** (Crossway, 2016). Introduction to 1 Peter — authorship, a date of c. A.D.
   62-63 from Rome, the five provinces of 1:1, the largely Gentile readership, and the argument that
   no empire-wide policy against Christians existed at this date. Notes on 3:13-14 and 3:15-17.
+- **NIV Cultural Backgrounds Study Bible** (Zondervan, 2016). Notes on 1 Peter 3:14 and 3:15 — the
+  Isaiah 8:12-13 background, the observation that Peter applies Isaiah's divine role to Christ, and
+  the reminder that ἀπολογία keeps its courtroom sense.
 - **CSB Ancient Faith Study Bible** (Holman, 2019). Translators' footnotes at 3:14, 3:15 ("Other mss
   read set God") and 3:16.
 - **Legacy Standard Bible** (The Lockman Foundation, 2021). Footnote at 3:12 identifying κύριος in
