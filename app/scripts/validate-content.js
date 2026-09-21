@@ -19,6 +19,24 @@ const CONTENT_DIR = path.join(REPO_ROOT, 'docs/content');
 let hasErrors = false;
 let warningCount = 0;
 
+/**
+ * Check 14: how many words a study's opening makes a reader read before it states a point
+ * in bold. Returns Infinity when the study never does.
+ *
+ * Exported so validate-content.test.js can pin the matching rules; the regex is the whole
+ * check, and it has been wrong once already in a way the corpus could not reveal (see the
+ * comment at the call site). Same export-plus-isMain shape as build-events.js.
+ */
+export function countWordsToThesis(bodyContent) {
+  const prose = bodyContent.replace(/^#.*$/gm, '');
+  const boldLead = /\*\*(?:(?!\*\*)[^\n]|\n(?!\s*\n))+?\*\*/.exec(prose);
+  if (!boldLead) return Infinity;
+  return prose
+    .slice(0, boldLead.index)
+    .split(/\s+/)
+    .filter((w) => /[A-Za-z]/.test(w)).length;
+}
+
 // Check 21's exemption list: prose runs over 600 words that are allowed to stand.
 //
 // A dict, not a set, and the value is the REASON -- the same convention as MAY_BE_EMPTY in
@@ -366,16 +384,7 @@ function validateFile(filePath) {
     // thesis with a bold thesis sitting at word 84. Excluding only a literal ** keeps the
     // original guard (a run still cannot swallow the next bold span) without that hole.
     const THESIS_WORD_LIMIT = 300;
-    const boldLead = /\*\*(?:(?!\*\*)[^\n]|\n(?!\s*\n))+?\*\*/.exec(
-      bodyContent.replace(/^#.*$/gm, ''),
-    );
-    const wordsToThesis = boldLead
-      ? bodyContent
-          .replace(/^#.*$/gm, '')
-          .slice(0, boldLead.index)
-          .split(/\s+/)
-          .filter((w) => /[A-Za-z]/.test(w)).length
-      : Infinity;
+    const wordsToThesis = countWordsToThesis(bodyContent);
     if (wordsToThesis > THESIS_WORD_LIMIT) {
       log(
         'warning',
@@ -703,19 +712,25 @@ function walkDirectory(dir) {
   }
 }
 
-console.log('🔍 Validating markdown content files...\n');
+// Guarded so the test file can import countWordsToThesis without walking docs/content and
+// calling process.exit. Same shape as build-events.js.
+const isMain = process.argv[1] === fileURLToPath(import.meta.url);
 
-walkDirectory(CONTENT_DIR);
+if (isMain) {
+  console.log('🔍 Validating markdown content files...\n');
 
-console.log('\n' + '='.repeat(50));
-if (hasErrors) {
-  console.error(`\n❌ Validation failed with errors`);
-  console.log(`   Warnings: ${warningCount}`);
-  process.exit(1);
-} else if (warningCount > 0) {
-  console.warn(`\n✅ Validation passed with ${warningCount} warning(s)`);
-  process.exit(0);
-} else {
-  console.log(`\n✅ All content files are valid!`);
-  process.exit(0);
+  walkDirectory(CONTENT_DIR);
+
+  console.log('\n' + '='.repeat(50));
+  if (hasErrors) {
+    console.error(`\n❌ Validation failed with errors`);
+    console.log(`   Warnings: ${warningCount}`);
+    process.exit(1);
+  } else if (warningCount > 0) {
+    console.warn(`\n✅ Validation passed with ${warningCount} warning(s)`);
+    process.exit(0);
+  } else {
+    console.log(`\n✅ All content files are valid!`);
+    process.exit(0);
+  }
 }
