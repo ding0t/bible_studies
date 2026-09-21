@@ -142,7 +142,7 @@ scripts/build-events.test.js`, or `node src/utils/chronology.test.js` for the `s
 
 `npm run validate` (`app/scripts/validate-content.js`, run from `app/`) is the content linter, and
 **it is not wired into CI** — the deploy workflow runs `npm test` only, so validate has to be run
-by hand after editing content. It applies 21 checks in five groups:
+by hand after editing content. It applies 22 checks in five groups:
 
 - **Checks 1–9, structural**: frontmatter (required fields, tag quoting, draft status), image paths,
   scripture quote blocks opening with `> ✝️ Reference (TRANSLATION)` as their first line (the
@@ -166,7 +166,14 @@ by hand after editing content. It applies 21 checks in five groups:
   corpus audit; the 250-400 word target lives in
   [structural-readability.md](.claude/skills/read-bible-study/structural-readability.md), the
   standard the **read-bible-study** skill applies and the positive counterpart to style-guide.md's
-  prohibitions. Both warnings.
+  prohibitions. Both warnings. **Check 22, a large study with no `## Study outline`** — 5,000+
+  words *and* 8+ top-level sections, which is 9 of 77 content pages. Both bars are needed: one
+  6,132-word study sits in only 6 sections and is easy to hold, while a 5,810-word one spans 19 and
+  is not. mkdocs renders a table of contents already; what it cannot do is annotate a section,
+  group a run of eight into one line, or tell the reader which part they are standing in — see
+  structural-readability.md rule 10, including the rule that an agent writes *descriptive*
+  annotations and leaves evaluative ones to the author. Warning, because whether a page is
+  navigable is a judgment about its argument that a word count cannot make.
 - **Checks 18–19, claims that go stale silently.** An exhaustiveness claim ("only occurrence",
   "nowhere else") sharing a line with Greek or Hebrew characters — the cheapest sentence in a study
   to write and the most expensive to verify, so routinely written unverified; one shipped saying

@@ -641,6 +641,40 @@ function validateFile(filePath) {
     }
   }
 
+  // Check 22: a large study with no Study outline. A generated table of contents enumerates
+  // headings; it cannot annotate them, group a run of eight sequential sections into one idea, or
+  // tell a reader which part they are standing in. Past a certain size a reader cannot hold the
+  // shape of the page in their head and has to trawl the body to find the part they want.
+  //
+  // Threshold from a corpus measurement of 77 content pages: p50 2,634w, p75 4,132w, p88 5,722w.
+  // BOTH bars are required, and the section count is not decoration -- world-population-declares-
+  // gods-creation.md is 6,132 words in 6 sections and is easy to hold, while sorcery.md is 5,810
+  // words across 19 and is not. 5,000w + 8 sections catches 9 of 77 pages.
+  //
+  // WARNING, not an error, and deliberately so. Whether a page is navigable is a judgment about
+  // that page's argument, which a word count cannot make -- a long study that moves through one
+  // continuous argument may be perfectly followable. See structural-readability.md rule 10 for
+  // what the section is for, and for the rule that matters most when an agent writes one:
+  // descriptive annotations only, because an evaluative one is the author's to make.
+  {
+    const body = content.replace(/^---\n[\s\S]*?\n---\n/, '');
+    const sections = (body.match(/^## /gm) || []).length;
+    const words = body
+      .split('\n')
+      .filter((l) => !/^(\||```|\s{4}|>|#)/.test(l))
+      .join(' ')
+      .split(/\s+/)
+      .filter(Boolean).length;
+    const hasOutline = /^##\s+Study outline\s*$/im.test(body);
+    if (words >= 5000 && sections >= 8 && !hasOutline) {
+      log(
+        'warning',
+        filePath,
+        `${words} words across ${sections} top-level sections, with no "## Study outline". A reader cannot hold this shape in their head and has to trawl the body to cherry-pick. Add a short annotated list of the major sections after Key Takeaways -- a briefing, not a repeat of the generated table of contents (see .claude/skills/read-bible-study/structural-readability.md rule 10). Write descriptive annotations; leave evaluative ones to the author.`
+      );
+    }
+  }
+
   // Check 21: an unbroken run of prose under one heading. The style guide's "Structural
   // readability" section lists five ways to write badly and nothing about how to structure well,
   // so a draft could clear every other check here and still arrive as a wall. That is what

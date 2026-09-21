@@ -103,10 +103,30 @@ Apply [structural-readability.md](structural-readability.md). In short:
 6. Never end a section on a table. Lead in with the claim, follow with what it establishes.
 7. Open a section with its topic sentence, not a citation.
 8. Serve the thirty-second reader and the word-study reader at once.
+9. At 5,000+ words and 8+ `##` sections, add a **Study outline** after Key Takeaways — a briefing,
+   not a repeat of the generated TOC. Descriptive annotations only; an evaluative one is the
+   author's to write, so leave the bullet plain and say so in the report.
+10. Move apparatus — source-weighting, correctives, a source serving several sections — into a
+   single `## Annex:` after the last teaching section, keeping Discussion Questions with the
+   teaching they examine.
 
 **The safe operations, exhaustively:** add a heading; split at a natural break; regroup related
-sections under a parent; move a table's surrounding context; add the one-line summary. Anything
-else is editing.
+sections under a parent; move a table's surrounding context; move apparatus to an annex; add the
+one-line summary; add the Study outline. Anything else is editing.
+
+**Two authored additions, and no more.** The `**In one sentence:**` thesis and the Study outline
+are the only prose this pass writes.
+
+Know how each one registers in Phase 4, because they differ. The thesis is matched explicitly and
+comes back as `added_allowed`. **The outline's bullets are invisible to the check** — it ignores
+list items, the same rule validate-content.js Check 21 uses — so a clean result says nothing about
+them, and their anchors have to be verified against a built page instead. A lead-in sentence above
+the outline is ordinary prose and *will* come back as `added_unexpected`; that is correct, and the
+answer is to name it in the report, not to suppress it.
+
+Moving a section can orphan the paragraph that framed it: move that paragraph with its material
+rather than deleting it, and if a section truly needs one new line of framing, write it and name it
+in the report.
 
 Read structural-readability.md's **"What this does not license"** before you start. Bridge
 sentences, bulleting a reasoned paragraph, closing summaries and headings built out of what a thing
@@ -129,7 +149,8 @@ cd references/build && uv run python study_structure.py <path> --verify-against 
   is listed here, restore it.
 - `added_unexpected` — a sentence you added without meaning to. Revert it, or hand the file to
   **review-bible-study**, because "structure only" no longer describes what you did.
-- `added_allowed` — the one-line summary, the pass's single permitted addition.
+- `added_allowed` — the one-line summary, which is matched explicitly. A Study outline's bullets
+  never appear here at all, because the check ignores list items.
 
 Frontmatter is excluded on both sides, so `date_modified` and `ai_provider_models` never register.
 Do not hand-roll this with `grep` and `sort`: the first version of this check compared frontmatter

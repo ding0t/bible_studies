@@ -93,6 +93,68 @@ one instance is enough to do the damage.**
 no sentence. Name it in the report, quote the paragraph, and say the opening is spent on method —
 then leave it for the author or for a develop/review pass.
 
+**10. A large study opens with a Study outline — a briefing, not a table of contents.** At
+**5,000 words and 8 or more `##` sections**, a reader can no longer hold the shape of the page in
+their head. That threshold is a corpus measurement: 9 of 77 content pages clear both bars, and the
+second bar matters on its own — `world-population-declares-gods-creation.md` is 6,132 words in only
+6 sections and does not need one, while `sorcery.md` is 5,810 words across 19 and does.
+
+Put it directly after Key Takeaways, as a short bulleted list of the major sections. mkdocs-material
+already renders a table of contents from the headings, so an outline that only repeats the headings
+has bought nothing. What it adds is the three things a generated TOC structurally cannot do:
+
+- **It annotates.** "This is the main takeaway of the study" is a judgment about what matters.
+- **It groups.** Eight sequential components go on *one* line as a single idea, where the TOC is
+  obliged to give eight equal rows.
+- **It locates the reader.** "The first four are already done to you; the fifth is where you are
+  standing now."
+
+> ## Study outline
+>
+> This is quite a big study. Feel free to jump around.
+>
+> - [The bride of Christ in Scripture](#where-scripture-says-it-itself). Discussion on how
+>   extensive the pattern is in Scripture.
+> - **The eight components, a section each** — [1 Purchased](#1-purchased) · [2 Betrothed](#2-betrothed)
+>   · … · [8 Homed](#8-homed). The first four are already done to you; the fifth is where you are
+>   standing now.
+> - [Annex: sources, word studies and cautions](#annex-sources-word-studies-and-cautions). Useful
+>   material that helped build the body.
+
+**Write descriptive annotations; leave evaluative ones to the author.** This is the rule that keeps
+the section honest, and it is the one an agent will break. "Discussion on how extensive the pattern
+is in Scripture" restates what the section does, and is yours to write. "This is the main takeaway
+of the study, and most enjoyable" is a verdict on the study's own content — the site's author wrote
+that line, and an agent producing it is inventing a judgment it has no standing to make. Where an
+evaluative note would earn its place, leave the bullet descriptive and say so in the report. A page
+of confected enthusiasm is worse than the generated TOC it was meant to improve on.
+
+**Verify every anchor against a built page, never by deriving the slug.** The outline is the one
+section made entirely of in-page links, and two ways of getting them wrong are silent: raw heading
+text (`#Where Scripture Says It Itself`) renders as a link and goes nowhere, and non-ASCII is
+stripped, so `### The Spirit as deposit: ἀρραβών` is `#the-spirit-as-deposit-arrabon` and not what
+the Greek suggests. Build the site and diff the `href="#…"` set against the `id="…"` set.
+
+**11. Apparatus goes in an annex, after the teaching.** Source-weighting, correctives, and a source
+that underwrites several sections at once are all material a reader consults rather than reads
+through. Left in sequence they sit between the teaching and the reader: `bride-of-christ.md` had
+1,364 words of it between its spine and its body, and the reader crossed 48% of the page before
+reaching what the study was for.
+
+Move it to a single `## Annex:` section after the last teaching section and before Discussion
+Questions, which belong with the teaching they examine — every other study in this corpus puts its
+questions directly after its final teaching section. Three tests for whether something is apparatus:
+
+- Would a reader who trusts the study skip it and lose nothing? (Song-of-Songs source-weighting.)
+- Does it serve several sections at once, so filing it under one would strip the others?
+  (Tobit witnesses to components 2, 7 and 8.)
+- Is it about what the study does *not* rest on? (The popular-teaching corrective.)
+
+**Load-bearing framing moves with its material; it is not deleted.** Dissolving a section orphans
+the paragraph that introduced it. Move it to wherever its content went, and write at most one brief
+line of new framing where a section genuinely needs one — then flag every such line in the report,
+because a structural pass that quietly writes paragraphs is no longer a structural pass.
+
 ## Do this as a separate pass, not while drafting
 
 This is the pass a drafting model is worst placed to do, and the reason is structural rather than
