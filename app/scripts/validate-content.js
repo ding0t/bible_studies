@@ -356,8 +356,19 @@ function validateFile(filePath) {
     // fires on 8, several of which are fine (a study earning its thesis with a scene first
     // is a legitimate shape). 300 fires on 4, each indefensible by inspection -- the worst
     // is jesus/woman-suffering-bleeding.md at 429. Raise this only with a fresh audit.
+    //
+    // The inner class is (?!\*\*)[^\n] rather than [^*\n] because a thesis routinely
+    // contains an italicised transliteration -- **... the verb is *qadash*** -- and
+    // excluding every asterisk made that entire bold run unmatchable. The check then
+    // skipped it and measured to the NEXT bold run instead, so the studies most likely to
+    // state their point in the site's own house style were the ones it misreported.
+    // Found 2026-09-21 on christian-life/be-prepared.md, which reported 313 words to
+    // thesis with a bold thesis sitting at word 84. Excluding only a literal ** keeps the
+    // original guard (a run still cannot swallow the next bold span) without that hole.
     const THESIS_WORD_LIMIT = 300;
-    const boldLead = /\*\*(?:[^*\n]|\n(?!\s*\n))+?\*\*/.exec(bodyContent.replace(/^#.*$/gm, ''));
+    const boldLead = /\*\*(?:(?!\*\*)[^\n]|\n(?!\s*\n))+?\*\*/.exec(
+      bodyContent.replace(/^#.*$/gm, ''),
+    );
     const wordsToThesis = boldLead
       ? bodyContent
           .replace(/^#.*$/gm, '')
