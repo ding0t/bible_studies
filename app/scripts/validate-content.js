@@ -80,7 +80,16 @@ function lastCommitDates() {
   return dates;
 }
 
-const LAST_COMMIT_DATES = lastCommitDates();
+// Memoised rather than computed at module scope, so that importing this file has no side
+// effects. It used to run the `git log` above on import, which meant a test importing one pure
+// helper spawned git over the whole content history -- work the test had no use for, and a
+// dependency on being inside a checkout that nothing in the test's own setup implied. Check 17
+// is the only caller, so the pass pays for it on first use and never twice.
+let lastCommitDatesCache = null;
+function getLastCommitDates() {
+  if (lastCommitDatesCache === null) lastCommitDatesCache = lastCommitDates();
+  return lastCommitDatesCache;
+}
 
 function log(type, file, message) {
   const relativePath = path.relative(process.cwd(), file);
@@ -606,7 +615,7 @@ function validateFile(filePath) {
     }
 
     const modifiedMatch = frontmatter.match(/^date_modified:\s*(\d{4}-\d{2}-\d{2})\s*$/m);
-    const lastCommit = LAST_COMMIT_DATES.get(path.relative(REPO_ROOT, filePath));
+    const lastCommit = getLastCommitDates().get(path.relative(REPO_ROOT, filePath));
     if (modifiedMatch && lastCommit && modifiedMatch[1] < lastCommit) {
       log(
         'warning',

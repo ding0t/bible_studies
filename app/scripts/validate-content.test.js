@@ -1,5 +1,10 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import { execFileSync } from 'node:child_process';
+import { pathToFileURL } from 'node:url';
 import { countWordsToThesis } from './validate-content.js';
 
 // Check 14 measures how long a study's opening makes a reader wait for its point, by finding
@@ -54,4 +59,28 @@ test('does not count heading text toward the toll', () => {
 // Word counting requires a letter, so verse numbers and bare punctuation are not words.
 test('counts only tokens containing a letter', () => {
   assert.equal(countWordsToThesis('13 14 -- one **thesis**'), 1);
+});
+
+// Importing this module must do no I/O. It used to run `git log` over the whole content
+// history at module scope for check 17, so importing one pure helper spawned git and made the
+// import depend on being inside a checkout. Guarded by putting a fake `git` first on PATH and
+// asserting it is never reached -- which is stronger than counting execFileSync calls, since
+// it does not depend on whether a monkeypatch reaches an ESM module's live bindings.
+test('importing the module spawns no subprocess', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'vc-import-'));
+  const marker = path.join(dir, 'git-was-called');
+  // Exits non-zero on purpose: lastCommitDates() already tolerates git failing, so the only
+  // thing under test is whether it was invoked at all.
+  fs.writeFileSync(path.join(dir, 'git'), `#!/bin/sh\ntouch "${marker}"\nexit 1\n`, { mode: 0o755 });
+
+  const moduleUrl = pathToFileURL(path.join(import.meta.dirname, 'validate-content.js')).href;
+  execFileSync(process.execPath, ['-e', `import(${JSON.stringify(moduleUrl)})`], {
+    env: { ...process.env, PATH: `${dir}${path.delimiter}${process.env.PATH}` },
+  });
+
+  assert.equal(
+    fs.existsSync(marker),
+    false,
+    'importing validate-content.js spawned git -- check 17 is computing at module scope again'
+  );
 });
