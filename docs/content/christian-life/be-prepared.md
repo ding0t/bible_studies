@@ -294,6 +294,8 @@ Peter's readers were a minority under pressure, and minorities under pressure pr
 gives the zeal a different object. Be as consumed with doing good as anyone in your province is
 consumed with anything.
 
+### "Who is there to harm you?" and the final outcome
+
 Verse 13's question — "who is there to harm you?" — reads oddly beside verse 14, which assumes they
 may suffer. The ESV Study Bible resolves it as a claim about the final outcome: no one will ultimately
 harm a Christian, even where they harm him now. Romans 8:31 is the cross-reference it gives.
@@ -361,6 +363,8 @@ the two agree: know your Lord and your hope well enough to speak, and leave the 
 Holy Spirit who promised to supply them. The first leg is the weaker one, since the courtroom sense of
 ἀπολογία reaches into Peter's setting too.
 
+### ἕτοιμος: ready to be called on
+
 Ἕτοιμος pulls the same weight elsewhere. It is the word of Matthew 24:44, "you also must be ready,"
 and of the wise virgins at Matthew 25:10 — and in 1 Peter 1:5 it describes the salvation itself,
 "ready to be revealed in the last time." The salvation is ready; therefore be ready. To be ready in
@@ -377,6 +381,8 @@ should be God's will, than for doing evil." The conditional is Peter's own — �
 for a Christian whose obedience has landed him somewhere God did not intend. Later in the letter he
 says the same thing to people further in: "if anyone suffers as a Christian, let him not be ashamed,
 but let him glorify God in that name" (4:16).
+
+### Verse 18: the righteous for the unrighteous
 
 And then verse 18, which is where the whole paragraph has been going. "For Christ also suffered once
 for sins, the righteous for the unrighteous, that he might bring us to God." That is substitutionary
