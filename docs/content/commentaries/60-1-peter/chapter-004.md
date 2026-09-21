@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 4:16
+- [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 4:3-4
 - [The Way](../../jesus/the-way.md) — 4:16
 <!-- commentary-index:auto-end -->

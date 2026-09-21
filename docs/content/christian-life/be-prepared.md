@@ -5,7 +5,7 @@ description: "1 Peter 3:13-17 in its setting: the one imperative in verse 15 is 
 tags: ["1-peter", "isaiah", "apologetics", "hope", "suffering", "discipleship", "method/word-study", "lang/greek", "lang/hebrew", "person/peter"]
 draft: false
 primary_passage: "1 Peter 3:13-17"
-bible_references: ["1 Peter 3:13-17", "1 Peter 3:8-12", "1 Peter 3:18", "1 Peter 1:1", "1 Peter 1:3", "1 Peter 1:4", "1 Peter 1:5", "1 Peter 1:17", "1 Peter 1:21", "1 Peter 2:11", "1 Peter 2:12", "1 Peter 2:18", "1 Peter 3:2", "1 Peter 4:16", "Isaiah 8:12-13", "Psalm 34:12-16", "Acts 17:10-12", "Acts 21:20", "Acts 22:1", "Acts 25:16", "Colossians 4:5-6", "Luke 21:12-15", "Luke 6:15", "Titus 2:14", "Galatians 5:22-23", "Galatians 1:14", "1 Corinthians 9:3", "2 Corinthians 7:11", "Philippians 1:7", "Philippians 1:16", "2 Timothy 4:16", "Matthew 24:44", "Matthew 25:10"]
+bible_references: ["1 Peter 3:13-17", "1 Peter 3:8-12", "1 Peter 3:18", "1 Peter 1:1", "1 Peter 1:3", "1 Peter 1:4", "1 Peter 1:5", "1 Peter 1:17", "1 Peter 1:21", "1 Peter 2:3", "1 Peter 2:11", "1 Peter 2:12", "1 Peter 2:18", "1 Peter 3:2", "1 Peter 4:3-4", "1 Peter 4:16", "Isaiah 8:12-13", "Psalm 34:12-16", "Acts 17:10-12", "Acts 21:20", "Acts 22:1", "Acts 25:16", "Colossians 4:5-6", "Luke 21:12-15", "Luke 6:15", "Titus 2:14", "Galatians 5:22-23", "Galatians 1:14", "1 Corinthians 9:3", "2 Corinthians 7:11", "Philippians 1:7", "Philippians 1:16", "2 Timothy 4:16", "Matthew 24:44", "Matthew 25:10"]
 date_created: 2024-05-24
 date_modified: 2026-09-21
 ai_provider_models:
@@ -17,15 +17,16 @@ ai_provider_models:
 # Be Prepared: A Reason for the Hope That Is in You
 
 A neighbour asks you why you are not frightened. That is the situation Peter is writing into.
-The people who first read this letter were being talked about — slandered at work, mocked at the
-baths, cut out of family feasts because they had stopped going to the temple. Somebody was
+The people who first read this letter were being talked about. They had walked out of the drinking
+parties and the idolatry they grew up in, and Peter says their neighbours "are surprised when you do
+not join them in the same flood of debauchery, and they malign you" (1 Peter 4:4, ESV). Somebody was
 eventually going to ask them what on earth they thought they were doing.
 
 This paragraph is where most Christians get their instruction to study apologetics, and it is
 usually read as a command to be prepared. Read the Greek and the command turns out to be somewhere
-else. There is one imperative in verse 15, and it is *sanctify* — set Christ apart as Lord in your
-heart. Readiness is what Peter says that produces. And the sentence he builds it out of is Isaiah's,
-with one word changed: where Isaiah tells Judah to sanctify the LORD of hosts, Peter names Jesus
+else. **There is one imperative in verse 15, and it is *sanctify*** — set Christ apart as Lord in
+your heart. Readiness is what Peter says that produces. And the sentence he builds it out of is
+Isaiah's, with one word changed: where Isaiah tells Judah to sanctify the LORD of hosts, Peter names Jesus
 Christ. So before this passage tells you anything about answering your neighbour, it tells you who is
 on the throne you are answering from.
 
@@ -39,10 +40,10 @@ on the throne you are answering from.
 > behavior in Christ may be put to shame. 17 For it is better to suffer for doing good, if that
 > should be God's will, than for doing evil.
 
-**In one sentence:** Peter takes Isaiah's command to sanctify the LORD of hosts, names Jesus Christ
-as its object, and tells frightened believers that the answer they owe their neighbours grows out of
-that enthronement — so your courage rests on who is Lord in your heart, and your reply to the person
-who asks rests on the hope He has already given you.
+**In one sentence:** Peter takes Isaiah's command to sanctify the LORD of hosts and names Jesus
+Christ as its object. He then tells frightened believers that the answer they owe their neighbours
+grows out of that enthronement. So your courage rests on who is Lord in your heart, and your reply
+to the person who asks rests on the hope He has already given you.
 
 ## Key Takeaways
 
@@ -53,8 +54,8 @@ prototyping — see that page for what each part is for and why.)*
 
 - **Jesus Christ is the LORD of hosts.** Isaiah 8:13 commands Israel to sanctify
   <span dir="rtl">יְהוָה צְבָאוֹת</span> (*YHWH tsevaʾot*), "the LORD of hosts." The Greek Old
-  Testament has κύριον αὐτὸν ἁγιάσατε (*kyrion auton hagiasate*), "the Lord, Him, sanctify." Peter keeps the verb and
-  the grammar and writes κύριον δὲ τὸν Χριστὸν ἁγιάσατε — "sanctify the Lord, the Christ." He puts
+  Testament has κύριον αὐτὸν ἁγιάσατε (*kyrion auton hagiasate*), "the Lord, Him, sanctify." Peter
+  keeps the verb and the grammar and writes κύριον δὲ τὸν Χριστὸν ἁγιάσατε — "sanctify the Lord, the Christ." He puts
   the Son in the slot the Old Testament reserved for the divine name. See
   [below](#peter-puts-christ-where-isaiah-put-yhwh).
 - **He suffered for you before He asked anything of you.** The paragraph runs straight on into the
@@ -91,8 +92,8 @@ prototyping — see that page for what each part is for and why.)*
   this verse asks for.
 - **Attitude.** Settle who is Lord before the conversation, and the conversation stops being a
   threat. The one imperative in verse 15 is addressed to your heart, not to your vocabulary. Fear of
-  the risen Christ and fear of the man in front of you cannot both sit on the throne, and Peter
-  tells you which one belongs there.
+  the risen Christ and fear of the man in front of you cannot both sit on the throne. Put the risen
+  Christ there this morning, before anyone asks you anything.
 - **Do.** Learn your own story and two passages well enough to give either in a minute — how God
   brought you to Christ, and where Scripture says your hope comes from. Read something you
   disagree with. Practise saying "I don't know, but I'll find out," which is a lawful answer and
@@ -104,8 +105,8 @@ prototyping — see that page for what each part is for and why.)*
 > Father, You raised Jesus from the dead and gave Him glory, and You did it so that my faith and
 > hope would be in You. Thank You. Set Your Son on the throne of my heart today, so that when I am
 > talked about I answer out of what is settled and not out of what is shaken. Give me the gentleness
-> Your Spirit grows and the clear conscience that leaves my accusers nothing to hold. Make me ready
-> to speak of Your Son Jesus to anyone who asks. In Jesus' name. Amen.
+> Your Holy Spirit grows and the clear conscience that leaves my accusers nothing to hold. Make me
+> ready to speak of Your Son Jesus to anyone who asks. In Jesus' name. Amen.
 
 ## Who Peter Wrote To, and What Was Happening to Them
 
@@ -129,15 +130,14 @@ That setting shapes who the "defense" of verse 15 is aimed at. Peter says παν
 (*panti tō aitounti*) — "to everyone who asks you." The question comes from someone standing close
 enough to notice.
 
-The word keeps its courtroom reach, though, and a commentary is right to say so: the *NIV Cultural
-Backgrounds Study Bible* notes at 3:15 that a defence is something Peter's readers "may eventually
-need even in court," pointing to 4:5-6 and 4:15-16. Both are in view. The neighbour's question is
-where it starts.
+The word keeps its courtroom reach, though. The *NIV Cultural Backgrounds Study Bible* notes at 3:15
+that a defence is something Peter's readers "may eventually need even in court," pointing to 4:5-6
+and 4:15-16. Both are in view. The neighbour's question is where it starts.
 
 ### Where the paragraph sits in the letter
 
 Verses 8-12 close a long section on how Christians behave inside their households and under
-authority, and they close it by quoting Psalm 34: "For the eyes of the Lord are on the righteous,
+authority. They close it by quoting Psalm 34: "For the eyes of the Lord are on the righteous,
 and his ears are open to their prayer" (1 Peter 3:12, quoting Psalm 34:15-16). In the psalm, "the
 Lord" is YHWH — the Legacy Standard Bible footnotes the verse "In OT, Yahweh, cf. Ps 34:15."
 
@@ -156,12 +156,10 @@ second person plural. Everything after it hangs on it: ἕτοιμοι (*hetoimo
 adjective with no verb of its own.
 
 So the order of the sentence is the order of the Christian life. Set Christ apart as Lord in your
-heart, and readiness is what that produces. Peter is not handing you a technique for winning
-arguments. He is telling you who to enthrone, and then describing what a person with that Lord looks
-like when someone asks them a question.
+heart, and readiness is what that produces. Peter tells you who to enthrone, and then describes what
+a person with that Lord looks like when someone asks them a question.
 
-**This is what God does for the frightened.** He does not first give them courage and then ask for
-an answer. He gives them a Lord, and courage follows the Lord in.
+**This is what God does for the frightened.** He gives them a Lord, and courage follows the Lord in.
 
 ### Peter puts Christ where Isaiah put YHWH
 
@@ -177,25 +175,24 @@ where the prophet is told not to share Judah's panic about the Assyrian threat:
 Isaiah's two verses work as a pair. Stop fearing what everyone else fears — then fear this instead.
 The Hebrew verb in 8:13 is <span dir="rtl">תַקְדִּישׁוּ</span> (*taqdishu*), a hiphil of
 <span dir="rtl">קָדַשׁ</span> (*qadash*), "to treat as holy." The Septuagint renders the clause
-κύριον αὐτὸν ἁγιάσατε — "the Lord, Him, sanctify." Two things to hold about that Greek. This site's
-data for the Septuagint at Isaiah 8:13 is a lemma list (κύριος / αὐτός / ἁγιάζω) rather than the
-inflected text, so the accented form above is the standard printed reading and not something this
-repo can attest word by word. And the Greek drops <span dir="rtl">צְבָאוֹת</span> (*tsevaʾot*,
+κύριον αὐτὸν ἁγιάσατε — "the Lord, Him, sanctify." This site's data for the Septuagint at Isaiah
+8:13 is a lemma list (κύριος / αὐτός / ἁγιάζω) rather than the inflected text, so the accented form
+above is the standard printed reading and not something this repo can attest word by word. The Greek
+also drops <span dir="rtl">צְבָאוֹת</span> (*tsevaʾot*,
 "hosts") altogether: it reads "the Lord," where the Hebrew reads "the LORD of hosts."
 
 Peter carries the first half over almost word for word and then changes one word in the second. Where
 the Greek Old Testament has αὐτόν, pointing back to the LORD of hosts of the Hebrew, Peter writes
 τὸν Χριστόν. Same verb, same imperative form, same construction. New object.
 
-The *NIV Cultural Backgrounds Study Bible* reaches the same conclusion from the same evidence,
-noting that the Greek of Isaiah 8:13 begins the same way as Peter's Greek "except that Peter
+The *NIV Cultural Backgrounds Study Bible* reaches the same conclusion from the same evidence. It
+notes that the Greek of Isaiah 8:13 begins the same way as Peter's Greek "except that Peter
 expressly applies this divine role to Christ" (note on 1 Peter 3:15).
 
-There is no argument attached. Peter expected churches
-four years old, in Bithynia, to read a command addressed to the God of Israel, hear it re-aimed at a
-man they had never met who had been executed in Judea, and find nothing strange in it. **This shows
-that God the Son shares the name and the holiness of God the Father.** The deity of Christ is not
-being defended here. It is being assumed, in an instruction about how to survive gossip.
+There is no argument attached. Peter expected churches four years old, in Bithynia, to read a
+command addressed to the God of Israel and hear it re-aimed at a man they had never met who had been
+executed in Judea. He expected them to find nothing strange in it. **This shows that God the Son shares the name and the holiness of God the Father.** Peter
+assumes the deity of Christ inside an instruction about how to survive gossip.
 
 ### The textual question at verse 15
 
@@ -205,9 +202,9 @@ where the earlier manuscripts read τὸν Χριστόν. The CSB footnotes it 
 God."
 
 The critical editions — SBLGNT, NA28 and the unfoldingWord Greek New Testament — all print τὸν
-Χριστόν, and modern translations follow them. **Say the cost honestly: if the Byzantine reading were
-original, the Isaiah substitution disappears and verse 15 simply repeats Isaiah.** The Christological
-argument above rests on the reading the earlier manuscripts carry, which is the reading behind the
+Χριστόν, and modern translations follow them. **If the Byzantine reading were original, the Isaiah
+substitution disappears and verse 15 simply repeats Isaiah.** The Christological argument above
+rests on the reading the earlier manuscripts carry, which is the reading behind the
 ESV, NIV, CSB, NASB and LSB alike. It does not rest on it alone — verse 16 has "your good behavior in
 Christ," and the letter has already called Him "the Lord" in 2:3 — but this verse is where it is
 sharpest.
@@ -220,8 +217,8 @@ sharpest.
 made in reply to a charge. It appears eight times in the Greek New Testament: Acts 22:1, Acts 25:16,
 1 Corinthians 9:3, 2 Corinthians 7:11, Philippians 1:7, Philippians 1:16, 2 Timothy 4:16, and here.
 Three of those eight sit in an actual courtroom. Paul uses it standing on the steps of the Antonia
-fortress (Acts 22:1); Festus uses it of a Roman defendant's right to face his accusers (Acts 25:16);
-Paul uses it again of his first hearing, "at my first defense no one came to stand by me" (2 Timothy
+fortress (Acts 22:1). Festus uses it of a Roman defendant's right to face his accusers (Acts 25:16).
+Paul uses it again of his first hearing: "at my first defense no one came to stand by me" (2 Timothy
 4:16). The rest carry the forensic overtone without the court — Paul's "defense of the gospel" from
 prison (Philippians 1:7, 16), his reply to those who examine him (1 Corinthians 9:3), the
 Corinthians clearing themselves (2 Corinthians 7:11).
@@ -280,16 +277,16 @@ are not being told to manufacture a tone you do not have.
 
 Then verse 16: "having a good conscience, so that, when you are slandered, those who revile your good
 behavior in Christ may be put to shame." Συνείδησις ἀγαθή (*syneidēsis agathē*) is what makes the
-slander fail. An accusation needs somewhere to stick. Peter's argument is that a clean life gives it
-nowhere, and that the shame eventually lands back on the accuser.
+slander fail. An accusation needs somewhere to stick. A clean life gives it nowhere, and the shame
+eventually lands back on the accuser.
 
 ## Zealots for the Good
 
 Verse 13 has a word with an edge on it. "If you are zealous for what is good" translates ζηλωταὶ τοῦ
 ἀγαθοῦ — literally "zealots of the good." Ζηλωτής (*zēlōtēs*) is the word Luke uses as a nickname for
-one of the Twelve: "Simon who was called the Zealot" (Luke 6:15) — the same word, though a
-concordance separates the six common-noun uses below (G2207) from Simon's title (G2208). In the New Testament it describes
-people burning about something: the Jerusalem believers "all zealous for the law" (Acts 21:20), Paul
+one of the Twelve: "Simon who was called the Zealot" (Luke 6:15). It is the same word, though a
+concordance files its six common-noun uses under G2207 and Simon's title under G2208. In the New
+Testament it describes people burning about something: the Jerusalem believers "all zealous for the law" (Acts 21:20), Paul
 on his own past (Galatians 1:14), and the people Christ purifies for Himself, "zealous for good
 works" (Titus 2:14).
 
@@ -299,28 +296,26 @@ consumed with anything.
 
 Verse 13's question — "who is there to harm you?" — reads oddly beside verse 14, which assumes they
 may suffer. The ESV Study Bible resolves it as a claim about the final outcome: no one will ultimately
-harm a Christian, even where they harm him now. Romans 8:31 is the cross-reference the ESV Study
-Bible itself gives for it.
+harm a Christian, even where they harm him now. Romans 8:31 is the cross-reference it gives.
 
 ## What the English Translations Keep
 
-Two features of the Greek survive into some versions and not others.
+English versions divide over two features of the Greek: the object of "sanctify" in verse 15, and
+whether Peter's repeated φόβος stays one word.
 
 | Feature | Greek | ESV | NIV | WEB | LSB |
 |---|---|---|---|---|---|
 | Object of "sanctify" (v15) | τὸν Χριστόν (critical text) | "Christ the Lord" | "revere Christ as Lord" | "the Lord God" (Byzantine) | "Christ as Lord" |
 | φόβος repeated (v14; v16 in the Greek, v15 in most English) | φόβον / φόβου | "respect" | "respect" | "fear" | "fear" |
 
-The second row is the one a reader can act on. Peter uses the same noun for the fear he forbids in
-verse 14 and the fear he commands in verse 16, and the repetition carries his argument: he moves the
-fear from one object to another. "Respect" is a fair rendering of φόβος in a sentence about how you speak to
-people, and the ESV and NIV both choose it — but it hides the repetition, so an English reader sees
-two different ideas where Peter wrote one word twice. The WEB and LSB keep "fear" and the connection
-stays visible.
+Peter uses the same noun for the fear he forbids in verse 14 and the fear he commands in verse 16,
+and that repetition carries his argument: he moves the fear from one object to another. "Respect" is
+a fair rendering of φόβος in a sentence about how you speak to people, and the ESV and NIV both
+choose it. It hides the repetition, though, so an English reader sees two different ideas where
+Peter wrote one word twice. The WEB and LSB keep "fear" and the connection stays visible.
 
-That is the ordinary result of translation comparison: each version preserves some things and loses
-others. Read a second, more literal version alongside your main one when a word looks like it is
-doing structural work.
+Read a second, more literal version alongside your main one when a word looks like it is doing
+structural work.
 
 ## How Readiness Is Actually Built
 
@@ -334,11 +329,10 @@ The classic text on getting ready is Luke's note about a synagogue in Macedonia:
 > eagerness, examining the Scriptures daily to see if these things were so. 12 Many of them therefore
 > believed, with not a few Greek women of high standing as well as men.
 
-Two details make this a method you can copy. First, Luke evaluates them himself:
-εὐγενέστεροι (*eugenesteroi*), "more noble" — a narrator's verdict, which is what tells you this is
-commended behaviour and not simply recorded behaviour. Second, the verb ἀνακρίνω (*anakrinō*) means
+Luke evaluates them himself: εὐγενέστεροι (*eugenesteroi*), "more noble" — a narrator's verdict, so
+this is commended behaviour and not simply recorded behaviour. The verb ἀνακρίνω (*anakrinō*) means
 to examine or investigate, and Luke says they did it καθ' ἡμέραν, day by day. They did it to Paul's
-preaching, which is to say they checked an apostle against Scripture and Luke praised them for it.
+preaching. They checked an apostle against Scripture, and Luke praised them for it. Copy that.
 
 Verse 12 gives the result: "many of them therefore believed." The examining led somewhere. Paul's
 instruction to Colossae aims at the same competence — "Walk in wisdom toward outsiders, making the
@@ -347,8 +341,7 @@ how you ought to answer each person" (Colossians 4:5-6, ESV).
 
 ### Jesus told them not to rehearse a speech
 
-There is a sentence that sounds like the opposite of 1 Peter 3:15, and it deserves stating rather
-than avoiding:
+One sentence of Jesus' sounds like the opposite of 1 Peter 3:15:
 
 > ✝️ [Luke 21:14-15 (ESV)](https://www.blueletterbible.org/esv/luk/21/14-15)
 >
@@ -359,20 +352,19 @@ than avoiding:
 forbids is προμελετάω (*promeletaō*) — to rehearse or practise in advance, the word for preparing a
 set speech.
 
-Two things distinguish the settings. Take what follows as a proposal; the sources here do not settle
-it. Jesus is
-describing arrest: "they will lay their hands on you and persecute you, delivering you up to the
-synagogues and prisons, and you will be brought before kings and governors for my name's sake"
-(Luke 21:12, ESV). Peter is describing a question. And what Jesus forbids is a scripted defence, while
-Peter commands a state — ἕτοιμοι is an adjective about what you are, not a noun for what you have
-written down. If that distinction holds, the two agree: know your Lord and your hope well enough to
-speak, and leave the actual words to the Spirit who promised to supply them. The first leg is the
-weaker one, since the courtroom sense of ἀπολογία reaches into Peter's setting too.
+Take what follows as a proposal; the sources here do not settle it. Jesus is describing arrest:
+"they will lay their hands on you and persecute you, delivering you up to the synagogues and
+prisons, and you will be brought before kings and governors for my name's sake" (Luke 21:12, ESV).
+Peter is describing a question. And what Jesus forbids is a scripted defence, while Peter commands a
+state — ἕτοιμοι is an adjective about what you are, not a noun for what you have written down. Then
+the two agree: know your Lord and your hope well enough to speak, and leave the actual words to the
+Holy Spirit who promised to supply them. The first leg is the weaker one, since the courtroom sense of
+ἀπολογία reaches into Peter's setting too.
 
 Ἕτοιμος pulls the same weight elsewhere. It is the word of Matthew 24:44, "you also must be ready,"
 and of the wise virgins at Matthew 25:10 — and in 1 Peter 1:5 it describes the salvation itself,
-"ready to be revealed in the last time." The salvation is ready; therefore be ready. Readiness in the
-New Testament is the condition of being able to be called on, which is how
+"ready to be revealed in the last time." The salvation is ready; therefore be ready. To be ready in
+the New Testament is to be able to be called on, which is how
 [The Olivet Discourse](../last-things/olivet-discourse.md) reads it too.
 
 ## When the Answer Costs You
@@ -388,13 +380,13 @@ but let him glorify God in that name" (4:16).
 
 And then verse 18, which is where the whole paragraph has been going. "For Christ also suffered once
 for sins, the righteous for the unrighteous, that he might bring us to God." That is substitutionary
-atonement in one line — the innocent in the place of the guilty — and Peter's word for its purpose is
+atonement in one line: the innocent in the place of the guilty. Peter's word for its purpose is
 προσάγω (*prosagō*), to bring near, to present at court. The Lord you are told to sanctify in your
 heart is the one who suffered unjustly to get you into God's presence.
 
-So the reason you can be gentle to someone who is slandering you is that the same treatment, given to
-Christ, was how you were saved. You are being asked to hold your ground the way He held His — and for
-the same end, that somebody else might be brought to God.
+So you can be gentle with someone who is slandering you, because the same treatment, given to
+Christ, is how you were saved. Hold your ground the way He held His, and for the same end: that
+somebody else might be brought to God.
 
 ## Discussion Questions
 
