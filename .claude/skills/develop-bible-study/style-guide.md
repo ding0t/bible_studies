@@ -330,6 +330,42 @@ I telling the reader what to do, or telling them how well I did?*
 `npm run validate` flags the virtue contrast at warning level (Check 11); the other two shapes are
 too varied to detect mechanically, so they are on you.
 
+## The tell: grading your own evidence instead of giving it
+
+Distinct from the two above, and it survives them both. Here the sentence is not announcing a point
+or advertising candour — it is telling the reader **how strong the evidence is**, usually by
+comparison to an unnamed class of other evidence. The reader is being handed a verdict on the proof
+before the proof.
+
+> ⟨this kind of claim usually has to be argued for⟩. ⟨This one does not.⟩
+
+From `bride-of-christ.md`, cut by the site's author:
+
+> That matters. Most Old Testament pictures of Christ have to be argued for — you notice the pattern
+> and make the case that it was intended. This one does not. Paul states it outright. John the
+> Baptist states it. Revelation states it twice in its closing chapters.
+
+Replaced with:
+
+> This is an undeniable type throughout Scripture. Paul states it outright. John the Baptist states
+> it. Revelation states it twice in its closing chapters.
+
+Three named witnesses follow in both versions, and they were always the argument. The deleted
+sentences graded them — *unusually strong, compared to the ones that have to be argued for* — and a
+grade is not evidence. Note what the replacement does: it asserts the strength **once, flatly**, and
+then spends its words on Paul, John and Revelation. Confidence stated once and demonstrated beats
+confidence argued for by comparison.
+
+**The diagnostic:** a sentence whose subject is *the argument* rather than *the thing*. "Most X have
+to be argued for," "this is the firmest ground," "there are more of them than is often realised,"
+"the evidence here is unusually direct." Cut it and put the citation in the space.
+
+**Its close relative: negating the author's mental act rather than the claim.** *"He is not reaching
+for an illustration"* became *"He is not using marriage as an illustration."* "Reaching for" is a
+metaphor about what was going on in Paul's head, which nobody can check; "using marriage as an
+illustration" is the proposition actually being denied. Where rule 5's narrow exception licenses a
+contrast, negate **the thing**, not the writer's imagined process.
+
 ## The tell: hedging as a reflex
 
 The most damaging version of everything above, because it hides inside a real virtue. A study that

@@ -37,6 +37,15 @@ Takeaways, one bold line stating what the study concludes:
 A reader who stops there should still have the answer. Check 14 already measures how long an
 opening makes a reader wait; this is how you satisfy it deliberately rather than by luck.
 
+**Land the line on what the doctrine makes of the reader, not on the status of the argument.** The
+draft of `bride-of-christ.md` ended its thesis *"…which is what makes the waiting a confident one"*
+— a verdict on an inference. The site's author added: *"And the remaining set the church in an
+attitude of joyous hope."* Same doctrine, and now the sentence says what the church is *like*
+because of it. This is [style-guide.md](../develop-bible-study/style-guide.md) rule 6 applied at the
+one place a reader is guaranteed to look: finish *"so the church / so you ___"* and put the answer
+in the line. Writing this summary is a safe operation for this pass, so it is the one sentence here
+you are authorised to get right.
+
 **2. Aim at 250–400 words between headings.** That is roughly p75–p88 of this corpus, so it is
 where the existing good sections already sit. Check 21 warns at 600 — the far tail, not the
 target. A section past 400 words is usually two ideas that have not been separated yet.
@@ -66,6 +75,23 @@ collector wrote this Gospel"* starts with the claim and then supports it.
 **8. Write for two readers at once.** One wants the conclusion in thirty seconds; one wants the
 word study. Headings and the one-sentence summary serve the first without costing the second
 anything.
+
+**9. An opening spends its words on the subject, never on the study's method.** The published
+opening of `bride-of-christ.md` carried this, and the site's author cut it whole:
+
+> So this study sorts the evidence into tiers and tells you which tier you are standing on. The
+> doctrine is strong. It does not need the weak arguments, and it is better off without them.
+
+The tiers are real and they are the best thing in that study. A reader still meets them, in the
+section that does them. What the paragraph cost was the opening — the position where the reader
+decides what the page is about — spent on the page instead of on Christ. Note that the same
+sentences would be unremarkable in a methods note halfway down. **The style guide already
+prohibits the study talking about itself as a *habit*; in the opening it is a placement fault, and
+one instance is enough to do the damage.**
+
+**This rule reports; it does not act.** Cutting those sentences is editing, and this pass changes
+no sentence. Name it in the report, quote the paragraph, and say the opening is spent on method —
+then leave it for the author or for a develop/review pass.
 
 ## Do this as a separate pass, not while drafting
 
