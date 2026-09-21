@@ -5,7 +5,7 @@ description: "Scripture calls the church a betrothed bride and says so in its ow
 tags: ["ephesians", "revelation", "john", "song-of-songs", "hosea", "isaiah", "matthew", "1-thessalonians", "dispensationalism", "marriage", "covenant", "sanctification", "rapture", "1-peter", "hebrews", "romans", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
-bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "Hosea 2:23", "1 Corinthians 10:16"]
+bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "Hosea 2:23", "1 Corinthians 10:16"]
 date_created: 2026-09-01
 date_modified: 2026-09-21
 ai_provider_models:
@@ -95,6 +95,25 @@ while we wait, and from dressing ourselves in what you have not given. Make us r
 come, and bring us to the table you have not yet finished. 
 
 In Jesus' name. Amen.
+
+## Study outline
+
+This is quite a big study. Feel free to jump around.
+
+- [The bride of Christ in Scripture](#where-scripture-says-it-itself). Discussion on how extensive
+  the pattern is in Scripture.
+- [The pattern of the wedding](#the-pattern-component-by-component). This is the main takeaway of
+  the study, and most enjoyable.
+- **The eight components, a section each** — [1 Purchased](#1-purchased-already-yours)
+  · [2 Betrothed](#2-betrothed-already-yours) · [3 Pledged](#3-pledged-the-spirit-as-deposit-arrabon-already-yours)
+  · [4 Set apart](#4-set-apart-already-yours) · [5 Preparing](#5-preparing-where-you-are-now) · [6 Fetched](#6-fetched-still-ahead)
+  · [7 Married](#7-married-and-feasting-still-ahead) · [8 Homed](#8-homed-still-ahead). The first four are already done to
+  you; the fifth is where you are standing now.
+- [What the marriage produces](#what-the-marriage-produces). Rest, reigning, inheritance and family
+  — what the wedding leads to, and what the study argues are not steps in the sequence.
+- [Discussion questions](#discussion-questions). Eleven, for a group or on your own.
+- [Annex: sources, word studies and cautions](#annex-sources-word-studies-and-cautions). Useful
+  material that helped build the body.
 
 ## Where Scripture Says It Itself
 
@@ -197,307 +216,46 @@ And that is what the image is for. A doctrine of the deity of Christ argued from
 the head. This one arrives as a marriage: **the God who called Himself your husband is the Christ who
 bought you, and you are betrothed to Him.**
 
-## What the Sources Actually Document
+### Why this belongs to the church, and why now
 
-Below the stated typology sits the wedding culture itself. Some of it is well attested in primary
-texts, and that portion is more useful than the embellished version usually offered.
+Ephesians uses μυστήριον (*mystērion*, G3466) six times — 1:9, 3:3, 3:4, 3:9, 5:32 and 6:19 — and
+defines the word in the middle of them. The mystery "was not made known to the sons of men in other
+generations as it has now been revealed to his holy apostles and prophets by the Spirit" (3:5, ESV).
+Kept back, then announced. [Israel and the
+Church](israel-and-the-church.md#what-scripture-means-by-a-mystery) traces that sense to Daniel's
+<span dir="rtl">רָז</span> (*raz*).
 
-### Betrothal was marriage in law
+Paul then lays that same word on the marriage: "This mystery is profound, and I am saying that it
+refers to Christ and the church" (5:32, ESV). The bridal relation therefore stands on the disclosed
+side of Ephesians' own then-and-now line — a relation announced in this age, to the body Ephesians
+3:6 describes as Jew and Gentile made joint-heirs in one. The word choice establishes the period,
+and that is all it establishes: Paul does not say at 5:32 that this is the same mystery as 3:6, and
+the word alone leaves the question of the church's distinctness from Israel open.
 
-The Mishnah's opening tractate on the subject is blunt about mechanism: "A woman is acquired in three
-ways and acquires herself in two: She is acquired by money, by document, or by intercourse...
-And she acquires herself by divorce or by her husband's death" (*m. Kiddushin* 1:1, trans. Kulp).
-Betrothal was not an engagement. It was the marriage, minus cohabitation, and only a writ of divorce
-or a death ended it.
-
-The New Testament assumes exactly this without explaining it. Joseph is *betrothed* to Mary, and when
-he believes she has been unfaithful he "resolved to divorce her quietly" (Matthew 1:19, ESV) — an
-incoherent sentence unless betrothal already carried the legal weight the Mishnah describes. The *NIV
-Cultural Backgrounds Study Bible* states it in the same terms: "More binding than modern Western
-engagements, betrothal could be ended only by divorce or by the death of one of the partners" (note
-on Matthew 1:19).
-
-Two independent witnesses, rabbinic law and a Gospel narrative that presupposes it, agreeing on the
-same point. That is the evidentiary shape worth building on.
-
-### The after betrothal interval is a time of preparation
-
-"A virgin is given twelve months from the [time her intended] husband claimed her, [in which] to
-prepare herself for marriage. Just as [such a period] is given to the woman, so is it given to the
-man to prepare himself. A widow is given thirty days" (*m. Ketubot* 5:2, trans. Kulp). A defined,
-purposeful gap between betrothal and consummation, spent preparing — and the groom prepares through
-the same interval as the bride, which is not how the popular version tells it.
-
-That is the attested version of the interval the popular teaching gestures at, and it maps onto
-Revelation 19:7-8 without any strain: the Bride "has made herself ready," clothed in linen that "was
-granted her."
-
-### The couple lived at the groom's father's house
-
-For the wedding itself "the group would go to the groom's home (normally his parents' home)," and
-"the new couple would normally stay at the home of the groom's parents, sometimes in a room on top of
-the roof, until the groom could secure a home of his own" (*NIV Cultural Backgrounds Study Bible*,
-note on Matthew 25:10). The bride joining the groom at his father's house is documented practice.
-
-The timing of the groom's arrival really was unpredictable, though the reason given is prosaic: "the
-many preparations (and the bride's relatives haggling over the value of the gifts given them)," with
-the groom normally coming after dark (note on Matthew 25:1). Families negotiating, running late.
-
-### The feast, and the canopy
-
-A wedding feast running seven days is biblical and pre-rabbinic: Jacob is told "complete the week of
-this one" (Genesis 29:27), and Samson's feast runs "the seven days of the feast" (Judges 14:12).
-
-The word Genesis uses there is <span dir="rtl">שָׁבוּעַ</span> (*shabua*, H7620) — the same noun
-Daniel uses for the seventieth week (Daniel 9:27), and one whose twenty Old Testament occurrences
-are mostly the Feast of Weeks formula, leaving the bare "bounded seven-period" sense concentrated in
-Genesis 29 and Daniel 9-10. The unit differs, days against years, so this is a resemblance in the
-vocabulary rather than a stated correspondence — but it is a resemblance in the text rather than in
-a reconstructed custom, which is more than the three claims below can offer. [The Rapture of the
-Church](../last-things/rapture.md#the-jewish-wedding-pattern) takes it up where the seven-year
-tribulation is in view.
-
-The canopy has its own small word study. Hebrew <span dir="rtl">חֻפָּה</span> (*chuppah*, Strong's
-H2646) occurs three times in the Old Testament, and the third is the interesting one:
-
-- Psalm 19:6 in the Hebrew (19:5 in English versions) — the sun "comes out like a bridegroom leaving
-  his chamber"
-- Joel 2:16 — "let the bridegroom leave his room, and the bride her chamber"
-- **Isaiah 4:5** — over restored Zion, "over all the glory there will be a canopy"
-
-The wedding-canopy word, applied to God's own covering over Zion in an eschatological oracle. The
-image travels from the bridal chamber to the day of the LORD inside the Hebrew Bible's own vocabulary,
-across only three occurrences.
-
-### A wedding narrative from the period
-
-Everything documented above comes from the Mishnah, codified around 200 AD, or from a modern
-commentary's reading of it. The book of Tobit shows three of the same customs in use centuries
-before Christ, in a story rather than a legal ruling — the customs performed instead of codified.
-Tobit is not canonical in the Protestant canon, and it is used here as a historical witness to
-Jewish practice, not as Scripture.
-
-Raguel gives his daughter Sara to Tobias, and four details bear on points already made above —
-three of them confirming, the fourth qualifying:
-
-> ✝️ Tobit 7:13-16 (KJV Apocrypha)
-> 13 Then he called his daughter Sara, and she came to her father, and he took her by the hand, and
-> gave her to be wife to Tobias, saying, Behold, take her after the law of Moses, and lead her away
-> to thy father. And he blessed them; 14 And called Edna his wife, and took paper, and did write an
-> instrument of covenants, and sealed it. 15 Then they began to eat. 16 After Raguel called his wife
-> Edna, and said unto her, Sister, prepare another chamber, and bring her in thither.
-
-- **A written, sealed marriage covenant** (7:14) — the *shtar*, the second of *m. Kiddushin* 1:1's
-  three means of betrothal, here in use.
-- **The bride is led to the groom's father** (7:13) — "lead her away to thy father," the arrangement
-  the *NIV Cultural Backgrounds Study Bible* describes at Matthew 25:10.
-- **A chamber is prepared for the couple** (7:16), by the bride's household in this case.
-- **An extended feast** of **fourteen** days (8:19-20), double the seven of Genesis 29:27 and Judges
-  14:12. A multi-day feast is the constant; its length varies, which is as much as the seven-day
-  resonance above can bear.
-
-One limit. Tobit's exiles are in Nineveh (1:2) and the wedding is at Ecbatana in Media (3:7), so the
-book witnesses to Diaspora practice some centuries before Christ. That distance is what makes the
-agreement useful: two traditions, separated by geography and by several hundred years, describing
-the same customs.
-
-### The wedding feast was already a picture of the age to come
-
-This matters because it means Revelation's marriage supper was not a fresh metaphor to its first
-readers. "The wedding banquet was a frequent Jewish figure for the coming Messianic era, based on a
-promised future banquet (Isa 25:6) when God would destroy death and remove the tears and shame of his
-people (Isa 25:8)" (*NIV Cultural Backgrounds Study Bible*, note on Revelation 19:7). Revelation
-19:8's fine linen "may recall the bridal array of righteousness in Isa 61:10" (note on 19:8).
-
-## "I Go to Prepare a Place for You"
-
-> ✝️ John 14:1-3 (ESV)
-> 1 "Let not your hearts be troubled. Believe in God; believe also in me. 2 In my Father's house are
-> many rooms. If it were not so, would I have told you that I go to prepare a place for you? 3 And if
-> I go and prepare a place for you, I will come again and will take you to myself, that where I am
-> you may be also."
-
-Father's house, a departure, a place prepared, a return, and a taking. The shape is the betrothal
-sequence, and one word makes the case better than the shape does.
-
-### The verb is the one used for taking a wife
-
-"Take you to myself" is παραλαμβάνω (*paralambanō*, G3880), and the semantic-domain annotation places
-this occurrence at Louw-Nida **34.53** — domain 34 is *Association*, and 34.53 is the receive-or-
-welcome-into-one's-company sense it shares with δέχομαι (*dechomai*), προσδέχομαι
-(*prosdechomai*) and προσλαμβάνομαι (*proslambanomai*).
-
-Where else that domain appears is the point:
-
-| Reference | Form | Domain | Sense |
-|---|---|---|---|
-| Matthew 1:20 | παραλαβεῖν (*paralabein*) | **34.53** | "do not fear **to take** Mary as your wife" |
-| Matthew 1:24 | παρέλαβεν (*parelaben*) | **34.53** | "**took** his wife" |
-| **John 14:3** | παραλήμψομαι (*paralēmpsomai*) | **34.53** | "will **take** you to myself" |
-| Matthew 24:40-41 | παραλαμβάνεται (*paralambanetai*) | 15.168 | "one **is taken**" — physical removal |
-
-The same lemma carries two senses, and the lexicographers separate them. The sense Jesus uses at
-John 14:3 is the one Matthew uses of Joseph receiving Mary as his wife. The sense in the Olivet
-Discourse's "one taken, one left" is a different one — carrying off — which is worked out in [The
-Olivet Discourse](../last-things/olivet-discourse.md#one-taken-one-left).
-
-### The bridal chamber, and the exodus underneath
-
-**"Many rooms" is not, by itself, a bridal chamber.** μονή (*monē*, G3438) occurs exactly twice in
-the New Testament: here, and twenty-one verses later — "If anyone loves me, he will keep my word, and
-my Father will love him, and we will come to him and make our **home** with him" (John 14:23, ESV).
-Same word, same discourse. John is doing something deliberate with the pair: the place Christ
-prepares for us, and the home the Father and Son make in us, are named identically. That is richer
-than a construction project, and it is why the *ESV Study Bible* reads "my Father's house" as heaven
-(note on John 14:2-3), which is a claim about where the place is, not about what it is built of.
-
-**There is an exodus current here too.** "Prepare a place" has Old Testament precedent that is not
-nuptial at all: God sends an angel "to bring you to the place that I have prepared" (Exodus 23:20),
-goes before Israel "to seek you out a place to pitch your tents" (Deuteronomy 1:33), and brings them
-to "the place, O LORD, which you have made for your abode" (Exodus 15:17).
-
-Those two readings are not rivals, because the prophets read the exodus itself as a bridal journey:
-"I remember the devotion of your youth, your love as a bride, how you followed me in the wilderness,
-in a land not sown" (Jeremiah 2:2, ESV). A God who goes ahead to prepare a place for the people He
-brought out is already, in Jeremiah's telling, a bridegroom.
-
-### The cup He promised to finish
-
-From the same evening, having given the cup, Jesus says: "I will not drink again of
-this fruit of the vine until that day when I drink it new with you in my Father's kingdom" (Matthew
-26:29, ESV). A covenant meal deliberately left unfinished, with the promise to finish it.
-
-Which cup He set down bears on the marriage. Read against the Passover Seder's four cups, the cup in
-His hand is the third, the one Paul still calls "the cup of blessing that we bless"
-(1 Corinthians 10:16, ESV), which leaves the fourth as the cup deferred. The fourth carries the last
-of God's four exodus promises: "I will take you to be my people" (Exodus 6:7, ESV). Hosea says that
-same acquisition as a betrothal — "I will betroth you to me forever... I will betroth you to me in
-faithfulness" (Hosea 2:19-20, ESV) — and four verses later gives the formula itself: "I will say to
-Not My People, 'You are my people'" (Hosea 2:23, ESV). **This shows that God has set the day He takes
-a people to Himself as a wedding day**, and has put a cup aside to drink on it. [The Last Supper and
-the Cups of Passover](../feasts/last-supper-four-cups.md) works the four-cup case through in full,
-and marks its own limits: the Gospels number no cups, so the identification rests on the promise
-Exodus attaches to the fourth.
-
-## How Much Weight the Song of Songs Can Carry
-
-The Song is the obvious place to look for this material, and it needs handling with more care than it
-usually gets.
-
-### Read this way early, and read as poetry now
-
-The bridal reading is ancient. Rabbi Akiva's defence of the book is preserved in the Mishnah: "the
-whole world is not as worthy as the day on which the Song of Songs was given to Israel; for all the
-writings are holy but the Song of Songs is the holy of holies" (*m. Yadayim* 3:5). Jewish tradition
-read the book of God and Israel; Christian tradition read it of Christ and the church, and did so
-early — Eusebius records that Origen "commenced his Commentaries on the Song of Songs" while in
-Athens and "completed these also, ten books in number" after returning to Caesarea (*Ecclesiastical
-History* 6.32).
-
-Contemporary evangelical scholarship reads the Song as what it appears to be — love poetry
-celebrating marriage between a man and a woman, with the couple "apparently betrothed" (*ESV Study
-Bible*, note on Song 1:2-2:17), its imagery comparable to Egyptian love poetry (*NIV Cultural
-Backgrounds Study Bible*, note on Song 1:2). That reading is a discipline. The same volume warns, on
-the foxes of 2:15, that the image "has given rise to an enormous number of speculative
-interpretations" and "is not meant to be grist for imaginative interpreters." A book read
-allegorically line-by-line will yield whatever the reader brought to it, which is why the
-identification in Ephesians 5:32 carries weight the Song cannot supply on its own.
-
-### The one place God is named
-
-The Song never mentions God — with a single, disputed exception, at the book's theological climax:
-
-> ✝️ Song of Songs 8:6 (ESV)
-> 6 Set me as a seal upon your heart, as a seal upon your arm, for love is strong as death, jealousy
-> is fierce as the grave. Its flashes are flashes of fire, the very flame of the LORD.
-
-The Hebrew behind "the very flame of the LORD" is <span dir="rtl">שַׁלְהֶבֶתְיָה</span>
-(*shalhevetyah*) — <span dir="rtl">שַׁלְהֶבֶת</span> (*shalhevet*, "flame," H7957) with
-<span dir="rtl">יָה</span> (*Yah*, H3050) attached, the short form of the divine name. Translations
-divide on it: the ESV takes it as the name ("the very flame of the LORD"), while others read the
-ending as an intensifier and render it "a mighty flame." Both are defensible, and the disagreement is
-about Hebrew idiom rather than theology.
-
-If the name is there, then the one time God is named in the Song, it is to identify the fire in human
-love as His own. That is a stronger warrant for reading the book theologically than any allegory of
-its individual images, and it does not require decoding a single fox.
-
-### One resonance worth noticing, and not overstating
-
-> ✝️ Song of Songs 2:10-13 (ESV)
-> 10 My beloved speaks and says to me: "Arise, my love, my beautiful one, and come away, 11 for
-> behold, the winter is past; the rain is over and gone. 12 The flowers appear on the earth, the time
-> of singing has come... 13 The fig tree ripens its figs, and the vines are in blossom; they give
-> forth fragrance. Arise, my love, my beautiful one, and come away."
-
-Winter past, the fig tree budding, and on that evidence: *arise and come away*. The inference runs
-the same way as the Olivet Discourse's fig tree — read the season off the tree, and know He is near
-(Matthew 24:32-33) — and Jesus's flight instructions in the same discourse turn on winter too
-(24:20). The OpenBible cross-reference dataset registers Song 2:13 against Matthew 24:32
-independently, so the resonance is a recognised one rather than a private construction.
-
-It is still a resonance. Matthew does not quote the Song, and συκῆ (*sykē*) is simply the ordinary word for a
-fig tree, so shared vocabulary proves nothing on its own. What the two passages share is a structure
-of inference — the season tells you the time — and it repays seeing without being turned into a
-citation.
-
-## What Popular Teaching Adds, and Why It Is Not Needed
-
-Three claims circulate widely and are usually presented as documented custom. They are not.
-
-- **The father inspects and approves the addition.** In the popular telling the groom builds a room
-  onto his father's house, and only when the father judges it finished may the son go for his bride.
-  No Mishnah, Talmud or Josephus passage is produced for this. The sources for it are modern
-  devotional and Messianic teaching materials citing one another.
-- **"Only my father knows the day."** The claimed stock answer of a groom asked when the wedding will
-  be — usually quoted as *"I don't know, the angels don't know, only my father knows."* That
-  reproduces the structure of Matthew 24:36 itself, which suggests the saying was shaped by the verse
-  rather than the verse by the saying.
-- **A bridal chamber behind John 14:2.** Addressed above: John's own second use of *monē* is of God
-  making His home in the believer.
-
-None of this costs the doctrine anything. That the timing belongs to the Father is stated outright by
-Jesus in His own words — "it is not for you to know times or seasons that the Father has fixed by his
-own authority" (Acts 1:7, ESV) — which is firmer than any reconstructed custom, and is worked out in
-[The Olivet Discourse](../last-things/olivet-discourse.md#the-day-no-one-knows). That the couple
-belongs at the father's house is documented. That the bride prepares during a defined interval is
-documented. The type stands on the attested material and on Scripture's own statements; the invented
-details add colour and cost credibility.
-
-```mermaid
-flowchart TD
-    subgraph T1["TIER 1 — stated by Scripture itself"]
-      A1["Eph 5:31-32 · 2 Cor 11:2 · John 3:29<br/>Rev 19:7-9; 21:2, 9<br/>Hos 2:19-20 · Isa 54:5; 62:5"]
-    end
-    subgraph T2["TIER 2 — documented custom"]
-      A2["Betrothal binding — m. Kiddushin 1:1<br/>Twelve-month interval — m. Ketubot 5:2<br/>Father's house — CBSB Matt 25:10<br/>Seven-day feast — Gen 29:27; Judg 14:12<br/>chuppah — Ps 19:6 MT; Joel 2:16; Isa 4:5"]
-    end
-    subgraph T3["TIER 3 — no ancient source"]
-      A3["Father inspects the chuppah<br/>'Only my father knows' as an idiom<br/>John 14:2 as a bridal chamber"]
-    end
-    T1 ~~~ T2 ~~~ T3
-    T1 --> C["The church<br/>as Christ's<br/>betrothed bride"]
-    T2 --> C
-    T3 -.->|"carries no weight;<br/>the doctrine<br/>does not rest on it"| C
-```
+Israel's betrothal is not cancelled by it. "I will betroth you to me forever" is still future when
+Hosea writes it (2:19), and the prophets keep God's marriage to Israel in view to the end of the
+canon. The dispensational reading holds both at once: Israel remains the wife of the LORD, restored
+on His oath, and the church is the bride of Christ, betrothed in this present age. [Israel and the
+Church](israel-and-the-church.md) argues that case at length, the covenant-theology alternative
+included.
 
 ## The Pattern, Component by Component
 
-The documented custom above has parts. Each part has an Old Testament antecedent, and each has a
+The documented custom has parts. Each part has an Old Testament antecedent, and each has a
 New Testament sentence that puts the church in that position. Set out end to end, the pattern
 turns out to be **mostly behind you**: four of its eight components are stated in the aorist, as
 things already done to the church.
 
 | # | Component | The custom | Old Testament | The church |
 |---|---|---|---|---|
-| 1 | **Purchased** | Betrothal "by money" (*m. Kiddushin* 1:1) | The <span dir="rtl">גֹּאֵל</span> (*goel*) who redeems his kin; "your Redeemer" (Isaiah 54:5) | "you were bought with a price" (1 Corinthians 6:20); "ransomed… with the precious blood of Christ" (1 Peter 1:18-19); "by your blood you ransomed people for God" (Revelation 5:9) |
-| 2 | **Betrothed** | Betrothal "by document" — the sealed *shtar* (*m. Kiddushin* 1:1; Tobit 7:14) | "I made my vow to you and entered into a covenant with you… and you became mine" (Ezekiel 16:8); "I will betroth you to me forever" (Hosea 2:19) | "I betrothed you to one husband" (2 Corinthians 11:2) |
-| 3 | **Pledged** | A deposit against the rest of the payment | Judah's <span dir="rtl">עֵרָבוֹן</span> (*erabon*), ἀρραβών (*arrabōn*) in the Greek (Genesis 38:17-20) | "his Spirit in our hearts as a guarantee" (2 Corinthians 1:22); "the guarantee of our inheritance" (Ephesians 1:14) |
-| 4 | **Set apart** | Betrothal as "the sanctification of the bride" (*NIV Cultural Backgrounds Study Bible*, note on Ephesians 5:26) | "Then I bathed you with water… and anointed you with oil" (Ezekiel 16:9) | "you were washed, you were sanctified" (1 Corinthians 6:11); "having cleansed her by the washing of water with the word" (Ephesians 5:26) |
-| 5 | **Preparing** | Twelve months, and the groom prepares through the same twelve (*m. Ketubot* 5:2) | — | "I go to prepare a place for you" (John 14:2); "that he might present the church to himself in splendor" (Ephesians 5:27); "his Bride has made herself ready" (Revelation 19:7) |
-| 6 | **Fetched** | The groom comes, usually after dark, at a time his family's preparations decide (CBSB, note on Matthew 25:1) | — | "Come out to meet him" (Matthew 25:6); "caught up… to meet the Lord in the air" (1 Thessalonians 4:17) |
-| 7 | **Married, and feasting** | Seven days (Genesis 29:27; Judges 14:12), fourteen in Tobit (8:19-20) | "a feast of rich food… for all peoples" (Isaiah 25:6) | "the marriage of the Lamb has come" (Revelation 19:7); "the marriage supper of the Lamb" (19:9) |
-| 8 | **Homed** | The couple live at the groom's father's house (CBSB, note on Matthew 25:10; Tobit 7:13) | "the place, O LORD, which you have made for your abode" (Exodus 15:17) | "In my Father's house are many rooms" (John 14:2); "the dwelling place of God is with man" (Revelation 21:3) |
+| 1 | **[Purchased](#1-purchased-already-yours)** | [Betrothal "by money"](#betrothal-was-marriage-in-law) (*m. Kiddushin* 1:1) | The <span dir="rtl">גֹּאֵל</span> (*goel*) who redeems his kin; "your Redeemer" (Isaiah 54:5) | "you were bought with a price" (1 Corinthians 6:20); "ransomed… with the precious blood of Christ" (1 Peter 1:18-19); "by your blood you ransomed people for God" (Revelation 5:9) |
+| 2 | **[Betrothed](#2-betrothed-already-yours)** | [Betrothal "by document"](#a-wedding-narrative-from-the-period) — the sealed *shtar* (*m. Kiddushin* 1:1; Tobit 7:14) | "I made my vow to you and entered into a covenant with you… and you became mine" (Ezekiel 16:8); "[I will betroth you to me forever](#1-purchased-already-yours)" (Hosea 2:19) | "I betrothed you to one husband" (2 Corinthians 11:2) |
+| 3 | **[Pledged](#3-pledged-the-spirit-as-deposit-arrabon-already-yours)** | A deposit against the rest of the payment | Judah's <span dir="rtl">עֵרָבוֹן</span> (*erabon*), ἀρραβών (*arrabōn*) in the Greek (Genesis 38:17-20) | "his Spirit in our hearts as a guarantee" (2 Corinthians 1:22); "the guarantee of our inheritance" (Ephesians 1:14) |
+| 4 | **[Set apart](#4-set-apart-already-yours)** | Betrothal as "the sanctification of the bride" (*NIV Cultural Backgrounds Study Bible*, note on Ephesians 5:26) | "Then I bathed you with water… and anointed you with oil" (Ezekiel 16:9) | "you were washed, you were sanctified" (1 Corinthians 6:11); "having cleansed her by the washing of water with the word" (Ephesians 5:26) |
+| 5 | **[Preparing](#5-preparing-where-you-are-now)** | [Twelve months, and the groom prepares through the same twelve](#the-after-betrothal-interval-is-a-time-of-preparation) (*m. Ketubot* 5:2) | — | "I go to prepare a place for you" (John 14:2); "that he might [present the church to himself in splendor](#he-presents-her-holy-and-he-is-the-one-who-makes-her-so)" (Ephesians 5:27); "his Bride has made herself ready" (Revelation 19:7) |
+| 6 | **[Fetched](#6-fetched-still-ahead)** | The groom comes, usually after dark, at a time his family's preparations decide (CBSB, note on Matthew 25:1) | — | "Come out to meet him" (Matthew 25:6); "caught up… to meet the Lord in the air" (1 Thessalonians 4:17) |
+| 7 | **[Married, and feasting](#7-married-and-feasting-still-ahead)** | [Seven days](#the-feast-and-the-canopy) (Genesis 29:27; Judges 14:12), fourteen in Tobit (8:19-20) | "a feast of rich food… for all peoples" (Isaiah 25:6) | "the marriage of the Lamb has come" (Revelation 19:7); "the marriage supper of the Lamb" (19:9) |
+| 8 | **[Homed](#8-homed-still-ahead)** | [The couple live at the groom's father's house](#the-couple-lived-at-the-grooms-fathers-house) (CBSB, note on Matthew 25:10; Tobit 7:13) | "the place, O LORD, which you have made for your abode" (Exodus 15:17) | "In my Father's house are many rooms" (John 14:2); "the dwelling place of God is with man" (Revelation 21:3) |
 
 All quotations ESV. Components 1-4 are complete for every believer; 5 is the one you are standing
 in; 6-8 are announced and not yet done.
@@ -526,6 +284,14 @@ flowchart TD
     DONE --> NOW --> AHEAD
 ```
 
+Below the stated typology sits the wedding culture itself. Some of it is well attested in primary
+texts, and that portion is more useful than the embellished version usually offered.
+
+A betrothed woman in first-century Judea held a set of facts about her position, and she held them
+before the wedding. She was married in law already. Her husband had already paid. The interval had a
+purpose and an end date. **Scripture gives the church those same facts about Christ, and gives them
+as grounds for confidence while she waits.**
+
 ### Three places the wrong verse gets cited
 
 Each of these is a near miss, and each has a better verse a line or two away.
@@ -545,14 +311,63 @@ Each of these is a near miss, and each has a better verse a line or two away.
 Two items commonly listed as stages are better read as what the marriage produces: being always with
 the Lord, and the inheritance. Neither is a step in the sequence. Both are treated below.
 
-## What the Betrothal Means for You Now
+## 1 · Purchased — already yours
 
-Everything above sorts the evidence. This section says what the evidence is for.
+### The price, and what it was paid in
 
-A betrothed woman in first-century Judea held a set of facts about her position, and she held them
-before the wedding. She was married in law already. Her husband had already paid. The interval had a
-purpose and an end date. **Scripture gives the church those same facts about Christ, and gives them
-as grounds for confidence while she waits.**
+Scripture states the price three times, and twice with a marketplace verb. "You were bought with a
+price" (1 Corinthians 6:20, ESV) is ἠγοράσθητε, from ἀγοράζω (*agorazō*, G59), the ordinary word
+for buying in a market. Heaven sings it back to the Lamb in that same verb: "by your blood you
+ransomed people for God from every tribe and language and people and nation" (Revelation 5:9, ESV).
+Peter reaches for the ransom word instead — ἐλυτρώθητε, from λυτρόω (*lytroō*, G3084) — and names
+the currency outright: you were ransomed "not with perishable things such as silver or gold, but
+with the precious blood of Christ, like that of a lamb without blemish or spot" (1 Peter 1:18-19,
+ESV).
+
+### The Redeemer behind the transaction
+
+Behind the transaction the Old Testament puts a person. The <span dir="rtl">גֹּאֵל</span> (*goel*,
+H1350) is the kinsman who holds both the right and the obligation to buy back what his relative has
+lost, and Isaiah gives God the title: "your Redeemer the Holy One of Israel" (Isaiah 54:5, ESV).
+Ruth asks Boaz for it in as many words, and asks for the wedding gesture in the same breath:
+"Therefore spread the corner of your garment over your servant; for you are a near kinsman"
+(Ruth 3:9, WEB). **This shows that God did not delegate the purchase — He is the kinsman, and the
+price He paid was His own Son's blood.**
+
+### The covenant, the pledge, and the two ways out
+
+The Mishnah supplies the setting. "A woman is acquired in three ways" (*m. Kiddushin* 1:1) — the
+acquiring verbs all belong to the groom, and the bride's consent is assumed rather than transacted.
+Christ's side of this is stated in three places: the price above, then the covenant — "This cup
+that is poured out for you is the new covenant in my blood" (Luke 22:20, ESV) — and the pledge to
+return, from the same evening: "I will not drink again of this fruit of the vine until that day
+when I drink it new with you in my Father's kingdom" (Matthew 26:29, ESV).
+
+Both cups sit at named points in the Passover order, and the first of them lands on this component.
+The cup He hands them falls at the Seder's third, which carries the third of God's four exodus
+promises — "I will redeem you with an outstretched arm" (Exodus 6:6, ESV) — and which the order of
+service calls the cup of redemption. **So the cup Christ names the new covenant is, in the meal's
+own sequence, the cup of the purchase.** The cup He then refuses is the fourth.
+[The Last Supper and the Cups of Passover](../feasts/last-supper-four-cups.md) works the
+identification through, and [The cup He promised to finish](#the-cup-he-promised-to-finish) takes up
+the fourth under component 7, where the wedding supper is in view.
+
+Betrothal had two exits, and the Mishnah names them: "she acquires herself by divorce or by her
+husband's death" (*m. Kiddushin* 1:1). Christ has issued no writ of divorce against His church, and
+He has already passed through the other door and come back out: "Christ, being raised from the dead,
+will never die again; death no longer has dominion over him" (Romans 6:9, ESV). Hold that as what it
+is — a rabbinic legal fact set beside two New Testament statements, which is an inference this study
+draws rather than a sentence Scripture writes.
+
+The doctrine underneath it is stated without any inference at all, and Hosea is where God says it.
+He betroths His people "in righteousness and in justice, in steadfast love and in mercy... in
+faithfulness" (Hosea 2:19-20, ESV). Five qualities, every one of them His, in a book whose whole
+occasion is the bride's unfaithfulness. **This shows that God keeps covenant on the strength of His
+own character**, which is the only ground on which a covenant with you could ever have held. So the
+thing that secures your marriage to Christ is the same thing that secured Israel's betrothal to the
+LORD: His faithfulness, pledged in advance, at His own cost.
+
+## 2 · Betrothed — already yours
 
 ### The betrothal is a finished legal act
 
@@ -561,7 +376,54 @@ Paul's word for it occurs once in the New Testament. "I betrothed you to one hus
 act done and over. Louw-Nida files this occurrence at 34.74, in the domain of Association. The one
 time the New Testament uses the betrothal verb, its object is the church.
 
-### The Spirit as deposit: ἀρραβών (*arrabōn*)
+### The covenant God swore to a foundling (Ezekiel 16:8)
+
+Ezekiel puts the betrothal in God's own mouth, as something He did rather than something Israel
+achieved.
+
+> ✝️ Ezekiel 16:8 (WEB)
+>
+> 8 "'"Now when I passed by you, and looked at you, behold, your time was the time of love; and I
+> spread my garment over you and covered your nakedness. Yes, I pledged myself to you and entered
+> into a covenant with you," says the Lord Yahweh, "and you became mine.
+
+The gesture is legal, not affectionate. "I spread my garment over you" is
+<span dir="rtl">וָאֶפְרֹשׂ כְּנָפִי</span> (*va'efros kenafi*) — <span dir="rtl">פָּרַשׂ</span>
+(*paras*, H6566), to spread, over <span dir="rtl">כָּנָף</span> (*kanaph*, H3671), the wing or
+corner of a garment. It is the same verb and the same noun Ruth uses of Boaz, in the same sentence
+where she calls him a near kinsman (Ruth 3:9) — so the act that redeems and the act that betroths
+are one gesture in the Hebrew. The *ESV Study Bible* reads it the same way, noting that spreading
+the garment "signals intent to marry" and the covenant "signifies the formal commitment" (note on
+Ezekiel 16:8).
+
+Then <span dir="rtl">וָאֶשָּׁבַע</span> (*va'eshava*, from <span dir="rtl">שָׁבַע</span>, *shava*,
+H7650), "I swore," and <span dir="rtl">בְּרִית</span> (*berit*, H1285), covenant — an oath and a
+covenant, in that order, closing on "you became mine."
+
+**This shows that God binds Himself by oath before His bride has anything to commend her.** Note
+where the verse falls: the same commentary observes that "the bonds are formed before the cleansing
+of Ezek. 16:9" (note on Ezekiel 16:8). The covenant comes first and the washing follows — which is
+the order this pattern runs in, betrothed at 2 and set apart at 4.
+
+### Betrothal was marriage in law
+
+The Mishnah's opening tractate on the subject is blunt about mechanism: "A woman is acquired in three
+ways and acquires herself in two: She is acquired by money, by document, or by intercourse...
+And she acquires herself by divorce or by her husband's death" (*m. Kiddushin* 1:1, trans. Kulp).
+Betrothal was not an engagement. It was the marriage, minus cohabitation, and only a writ of divorce
+or a death ended it.
+
+The New Testament assumes exactly this without explaining it. Joseph is *betrothed* to Mary, and when
+he believes she has been unfaithful he "resolved to divorce her quietly" (Matthew 1:19, ESV) — an
+incoherent sentence unless betrothal already carried the legal weight the Mishnah describes. The *NIV
+Cultural Backgrounds Study Bible* states it in the same terms: "More binding than modern Western
+engagements, betrothal could be ended only by divorce or by the death of one of the partners" (note
+on Matthew 1:19).
+
+Two independent witnesses, rabbinic law and a Gospel narrative that presupposes it, agreeing on the
+same point. That is the evidentiary shape worth building on.
+
+## 3 · Pledged: the Spirit as deposit, ἀρραβών (*arrabōn*) — already yours
 
 Ten chapters earlier in the same letter Paul names what secures the interval. God "has also put his
 seal on us and given us his Spirit in our hearts as a guarantee" (2 Corinthians 1:22, ESV).
@@ -585,67 +447,96 @@ is the weight the point carries — enough to rest on. Your assurance turns on a
 of His and a deposit already made in you. [Assurance of
 Salvation](../salvation/assurance-of-salvation.md) works that through on its own terms.
 
-### He made the covenant, and He paid for it
+## 4 · Set apart — already yours
 
-In the Mishnah the betrothal is something the groom does. "A woman is acquired in three ways"
-(*m. Kiddushin* 1:1) — the acquiring verbs all belong to him, and the bride's consent is assumed
-rather than transacted. Christ's side of this is stated in three places. The price: "you were bought
-with a price" (1 Corinthians 6:20, ESV). The covenant: "This cup that is poured out for you is the
-new covenant in my blood" (Luke 22:20, ESV). The pledge to return, quoted above from the same
-evening: "I will not drink again of this fruit of the vine until that day when I drink it new with
-you in my Father's kingdom" (Matthew 26:29, ESV).
+### The washing God performed (Ezekiel 16:9)
 
-Betrothal had two exits, and the Mishnah names them: "she acquires herself by divorce or by her
-husband's death" (*m. Kiddushin* 1:1). Christ has issued no writ of divorce against His church, and
-He has already passed through the other door and come back out: "Christ, being raised from the dead,
-will never die again; death no longer has dominion over him" (Romans 6:9, ESV). Hold that as what it
-is — a rabbinic legal fact set beside two New Testament statements, which is an inference this study
-draws rather than a sentence Scripture writes.
+The next verse is the one the table's fourth component rests on, and it follows the covenant by a
+single line.
 
-The doctrine underneath it is stated without any inference at all, and Hosea is where God says it.
-He betroths His people "in righteousness and in justice, in steadfast love and in mercy... in
-faithfulness" (Hosea 2:19-20, ESV). Five qualities, every one of them His, in a book whose whole
-occasion is the bride's unfaithfulness. **This shows that God keeps covenant on the strength of His
-own character**, which is the only ground on which a covenant with you could ever have held. So the
-thing that secures your marriage to Christ is the same thing that secured Israel's betrothal to the
-LORD: His faithfulness, pledged in advance, at His own cost.
+> ✝️ Ezekiel 16:9 (WEB)
+>
+> 9 "'"Then I washed you with water. Yes, I thoroughly washed away your blood from you, and I
+> anointed you with oil.
 
-### Why this belongs to the church, and why now
+Washed, then anointed, then clothed — Ezekiel goes on to "fine linen" and "silk" (16:10, WEB), the
+wardrobe Revelation hands back to the Bride at 19:8. Every verb in the sequence has God as its
+subject; the foundling does nothing to herself.
 
-Ephesians uses μυστήριον (*mystērion*, G3466) six times — 1:9, 3:3, 3:4, 3:9, 5:32 and 6:19 — and
-defines the word in the middle of them. The mystery "was not made known to the sons of men in other
-generations as it has now been revealed to his holy apostles and prophets by the Spirit" (3:5, ESV).
-Kept back, then announced. [Israel and the
-Church](israel-and-the-church.md#what-scripture-means-by-a-mystery) traces that sense to Daniel's
-<span dir="rtl">רָז</span> (*raz*).
+Paul says the same of the church in three aorists stacked together: "you were washed, you were
+sanctified, you were justified in the name of the Lord Jesus Christ and by the Spirit of our God"
+(1 Corinthians 6:11, ESV). **This shows that God cleaned you up Himself, and did it before you
+could offer Him anything worth having.**
 
-Paul then lays that same word on the marriage: "This mystery is profound, and I am saying that it
-refers to Christ and the church" (5:32, ESV). The bridal relation therefore stands on the disclosed
-side of Ephesians' own then-and-now line — a relation announced in this age, to the body Ephesians
-3:6 describes as Jew and Gentile made joint-heirs in one. The word choice establishes the period,
-and that is all it establishes: Paul does not say at 5:32 that this is the same mystery as 3:6, and
-the word alone leaves the question of the church's distinctness from Israel open.
+### He presents her holy, and He is the One who makes her so
 
-Israel's betrothal is not cancelled by it. "I will betroth you to me forever" is still future when
-Hosea writes it (2:19), and the prophets keep God's marriage to Israel in view to the end of the
-canon. The dispensational reading holds both at once: Israel remains the wife of the LORD, restored
-on His oath, and the church is the bride of Christ, betrothed in this present age. [Israel and the
-Church](israel-and-the-church.md) argues that case at length, the covenant-theology alternative
-included.
+> ✝️ Ephesians 5:25-27 (ESV)
+>
+> 25 Husbands, love your wives, as Christ loved the church and gave himself up for her, 26 that he
+> might sanctify her, having cleansed her by the washing of water with the word, 27 so that he might
+> present the church to himself in splendor, without spot or wrinkle or any such thing, that she
+> might be holy and without blemish.
 
-### The guests at the marriage supper, a contested identification
+Five verbs, one subject. Christ loved, gave Himself up, sanctifies, cleansed, presents. The bride
+appears in every clause as the one acted upon.
 
-One further distinction is commonly drawn here, and it is contested. "Blessed are those who are
-invited to the marriage supper of the Lamb" (Revelation 19:9, ESV): dispensational writers usually
-read those guests as a company distinct from the bride, with Old Testament and tribulation saints
-among them, while the *ESV Study Bible* reads the invited as believers who belong to the bride
-herself (note on 19:9-10). Revelation says which blessing they receive and never says which company
-they are. The text carries either reading, so this study states both and rests nothing on the
-choice.
+"Present" is παραστήσῃ, from παρίστημι (*paristēmi*, G3936) — the verb Paul used of his own work at
+2 Corinthians 11:2, "to present you as a pure virgin to Christ," and again at Colossians 1:22, "to
+
+present you holy and blameless and above reproach before him" (ESV). Paul presents the bride to
+Christ; Christ presents her to Himself.
+
+"Without blemish" is ἄμωμος (*amōmos*, G299), and it has eight New Testament occurrences. Six
+describe people made morally blameless — Ephesians 1:4 and 5:27, Colossians 1:22, Philippians 2:15,
+Jude 24, Revelation 14:5. The other two describe Christ: His blood, "like that of a lamb without
+blemish or spot" (1 Peter 1:19, ESV), and Hebrews has Him offering Himself ἄμωμον to God (Hebrews
+9:14). **The word for the spotless sacrifice is the word for the spotless bride.** Her blamelessness
+is produced by His, which is the atonement doing the work; the *ESV Study Bible* states the same
+dependence at this verse, that the church's holiness "is derived from the consecrating sacrifice of
+Christ on the cross" (note on Ephesians 5:26-27).
+
+### The washing, and why her two clauses agree
+
+"Washing" is λουτρόν (*loutron*, G3067), twice in the New Testament: here, and "the washing of
+regeneration and renewal of the Holy Spirit" (Titus 3:5, ESV). The *NIV Cultural Backgrounds Study
+Bible* reports that some relate it to the bride's washing before she is perfumed and dressed, and
+adds a detail worth having: "later Jewish teachers spoke of betrothal as 'the sanctification of the
+bride,' meaning setting her apart for her husband" (note on Ephesians 5:26). Setting apart is what
+sanctification is. On that usage the betrothal is itself the sanctifying act, which is why the church
+can be addressed as holy now and still be told to become so.
+
+Revelation's two clauses then sit together without strain. The Bride "has made herself ready," and
+"it was granted her to clothe herself with fine linen, bright and pure" (19:7-8, ESV). The readiness
+is hers; the cloth is issued to her. **This shows that God completes what He undertakes**, and Paul
+says the same thing with the wedding image nowhere in sight: "he who began a good work in you will
+bring it to completion at the day of Jesus Christ" (Philippians 1:6, ESV).
+
+So the holiness being asked of you is holiness Christ has undertaken to produce in you, at His own
+expense, and He has already paid it. Pursue it as someone who is going to be given it.
+
+## 5 · Preparing — where you are now
+
+> ✝️ John 14:1-3 (ESV)
+> 1 "Let not your hearts be troubled. Believe in God; believe also in me. 2 In my Father's house are
+> many rooms. If it were not so, would I have told you that I go to prepare a place for you? 3 And if
+> I go and prepare a place for you, I will come again and will take you to myself, that where I am
+> you may be also."
+
+### The after betrothal interval is a time of preparation
+
+"A virgin is given twelve months from the [time her intended] husband claimed her, [in which] to
+prepare herself for marriage. Just as [such a period] is given to the woman, so is it given to the
+man to prepare himself. A widow is given thirty days" (*m. Ketubot* 5:2, trans. Kulp). A defined,
+purposeful gap between betrothal and consummation, spent preparing — and the groom prepares through
+the same interval as the bride, which is not how the popular version tells it.
+
+That is the attested version of the interval the popular teaching gestures at, and it maps onto
+Revelation 19:7-8 without any strain: the Bride "has made herself ready," clothed in linen that "was
+granted her."
 
 ### He is preparing a place, and He is preparing it for you
 
-John 14:2-3 was worked through above as a word study. Read now for what it says about Christ's
+John 14:2-3 is worked through as a word study in the annex. Read now for what it says about Christ's
 absence: that absence has content, and the content is you. "I go to prepare a place for you" names
 the actor, the work and the beneficiary in eight words.
 
@@ -659,6 +550,32 @@ So the waiting is not empty on His side. He is occupied with your arrival. What 
 bride could say about the twelve months of her betrothal — that the groom was working through them
 too, exactly as long as she was (*m. Ketubot* 5:2) — the church can say about this interval on far
 better authority, because Christ said it Himself the night before He died.
+
+## 6 · Fetched — still ahead
+
+Father's house, a departure, a place prepared, a return, and a taking. The shape is the betrothal
+sequence, and one word makes the case better than the shape does.
+
+### The verb is the one used for taking a wife
+
+"Take you to myself" is παραλαμβάνω (*paralambanō*, G3880), and the semantic-domain annotation places
+this occurrence at Louw-Nida **34.53** — domain 34 is *Association*, and 34.53 is the receive-or-
+welcome-into-one's-company sense it shares with δέχομαι (*dechomai*), προσδέχομαι
+(*prosdechomai*) and προσλαμβάνομαι (*proslambanomai*).
+
+Where else that domain appears is the point:
+
+| Reference | Form | Domain | Sense |
+|---|---|---|---|
+| Matthew 1:20 | παραλαβεῖν (*paralabein*) | **34.53** | "do not fear **to take** Mary as your wife" |
+| Matthew 1:24 | παρέλαβεν (*parelaben*) | **34.53** | "**took** his wife" |
+| **John 14:3** | παραλήμψομαι (*paralēmpsomai*) | **34.53** | "will **take** you to myself" |
+| Matthew 24:40-41 | παραλαμβάνεται (*paralambanetai*) | 15.168 | "one **is taken**" — physical removal |
+
+The same lemma carries two senses, and the lexicographers separate them. The sense Jesus uses at
+John 14:3 is the one Matthew uses of Joseph receiving Mary as his wife. The sense in the Olivet
+Discourse's "one taken, one left" is a different one — carrying off — which is worked out in [The
+Olivet Discourse](../last-things/olivet-discourse.md#one-taken-one-left).
 
 ### "And so we will always be with the Lord"
 
@@ -694,56 +611,59 @@ comfort now**, because He says so in the paragraph where He reveals it. So when 
 who has just buried a Christian, this is the passage you were given for it, and "always" is the word
 in it to say out loud.
 
-### He presents her holy, and He is the One who makes her so
+## 7 · Married, and feasting — still ahead
 
-> ✝️ Ephesians 5:25-27 (ESV)
->
-> 25 Husbands, love your wives, as Christ loved the church and gave himself up for her, 26 that he
-> might sanctify her, having cleansed her by the washing of water with the word, 27 so that he might
-> present the church to himself in splendor, without spot or wrinkle or any such thing, that she
-> might be holy and without blemish.
+### The feast, and the canopy
 
-Five verbs, one subject. Christ loved, gave Himself up, sanctifies, cleansed, presents. The bride
-appears in every clause as the one acted upon.
+A wedding feast running seven days is biblical and pre-rabbinic: Jacob is told "complete the week of
+this one" (Genesis 29:27), and Samson's feast runs "the seven days of the feast" (Judges 14:12).
 
-"Present" is παραστήσῃ, from παρίστημι (*paristēmi*, G3936) — the verb Paul used of his own work at
-2 Corinthians 11:2, "to present you as a pure virgin to Christ," and again at Colossians 1:22, "to
-present you holy and blameless and above reproach before him" (ESV). Paul presents the bride to
-Christ; Christ presents her to Himself.
+The word Genesis uses there is <span dir="rtl">שָׁבוּעַ</span> (*shabua*, H7620) — the same noun
+Daniel uses for the seventieth week (Daniel 9:27), and one whose twenty Old Testament occurrences
+are mostly the Feast of Weeks formula, leaving the bare "bounded seven-period" sense concentrated in
+Genesis 29 and Daniel 9-10. The unit differs, days against years, so this is a resemblance in the
+vocabulary rather than a stated correspondence — but it is a resemblance in the text rather than in
+a reconstructed custom, which is more than the three claims below can offer. [The Rapture of the
+Church](../last-things/rapture.md#the-jewish-wedding-pattern) takes it up where the seven-year
+tribulation is in view.
 
-"Without blemish" is ἄμωμος (*amōmos*, G299), and it has eight New Testament occurrences. Six
-describe people made morally blameless — Ephesians 1:4 and 5:27, Colossians 1:22, Philippians 2:15,
-Jude 24, Revelation 14:5. The other two describe Christ: His blood, "like that of a lamb without
-blemish or spot" (1 Peter 1:19, ESV), and Hebrews has Him offering Himself ἄμωμον to God (Hebrews
-9:14). **The word for the spotless sacrifice is the word for the spotless bride.** Her blamelessness
-is produced by His, which is the atonement doing the work; the *ESV Study Bible* states the same
-dependence at this verse, that the church's holiness "is derived from the consecrating sacrifice of
-Christ on the cross" (note on Ephesians 5:26-27).
+The canopy has its own small word study. Hebrew <span dir="rtl">חֻפָּה</span> (*chuppah*, Strong's
+H2646) occurs three times in the Old Testament, and the third is the interesting one:
 
-### The washing, and why her two clauses agree
+- Psalm 19:6 in the Hebrew (19:5 in English versions) — the sun "comes out like a bridegroom leaving
+  his chamber"
+- Joel 2:16 — "let the bridegroom leave his room, and the bride her chamber"
+- **Isaiah 4:5** — over restored Zion, "over all the glory there will be a canopy"
 
-"Washing" is λουτρόν (*loutron*, G3067), twice in the New Testament: here, and "the washing of
-regeneration and renewal of the Holy Spirit" (Titus 3:5, ESV). The *NIV Cultural Backgrounds Study
-Bible* reports that some relate it to the bride's washing before she is perfumed and dressed, and
-adds a detail worth having: "later Jewish teachers spoke of betrothal as 'the sanctification of the
-bride,' meaning setting her apart for her husband" (note on Ephesians 5:26). Setting apart is what
-sanctification is. On that usage the betrothal is itself the sanctifying act, which is why the church
-can be addressed as holy now and still be told to become so.
+The wedding-canopy word, applied to God's own covering over Zion in an eschatological oracle. The
+image travels from the bridal chamber to the day of the LORD inside the Hebrew Bible's own vocabulary,
+across only three occurrences.
 
-Revelation's two clauses then sit together without strain. The Bride "has made herself ready," and
-"it was granted her to clothe herself with fine linen, bright and pure" (19:7-8, ESV). The readiness
-is hers; the cloth is issued to her. **This shows that God completes what He undertakes**, and Paul
-says the same thing with the wedding image nowhere in sight: "he who began a good work in you will
-bring it to completion at the day of Jesus Christ" (Philippians 1:6, ESV).
+### The wedding feast was already a picture of the age to come
 
-So the holiness being asked of you is holiness Christ has undertaken to produce in you, at His own
-expense, and He has already paid it. Pursue it as someone who is going to be given it.
+This matters because it means Revelation's marriage supper was not a fresh metaphor to its first
+readers. "The wedding banquet was a frequent Jewish figure for the coming Messianic era, based on a
+promised future banquet (Isa 25:6) when God would destroy death and remove the tears and shame of his
+people (Isa 25:8)" (*NIV Cultural Backgrounds Study Bible*, note on Revelation 19:7). Revelation
+19:8's fine linen "may recall the bridal array of righteousness in Isa 61:10" (note on 19:8).
 
-## After the Wedding: Rest, Reign, Inheritance, Family
+### The cup He promised to finish
 
-Every wedding image in Scripture runs out at the wedding. What follows is a marriage, and the
-question of what the church *is* once the feast is over has a textual answer that is easy to miss
-in English.
+From the same evening, having given the cup, Jesus says: "I will not drink again of
+this fruit of the vine until that day when I drink it new with you in my Father's kingdom" (Matthew
+26:29, ESV). A covenant meal deliberately left unfinished, with the promise to finish it.
+
+Which cup He set down bears on the marriage. Read against the Passover Seder's four cups, the cup in
+His hand is the third, the one Paul still calls "the cup of blessing that we bless"
+(1 Corinthians 10:16, ESV), which leaves the fourth as the cup deferred. The fourth carries the last
+of God's four exodus promises: "I will take you to be my people" (Exodus 6:7, ESV). Hosea says that
+same acquisition as a betrothal — "I will betroth you to me forever... I will betroth you to me in
+faithfulness" (Hosea 2:19-20, ESV) — and four verses later gives the formula itself: "I will say to
+Not My People, 'You are my people'" (Hosea 2:23, ESV). **This shows that God has set the day He takes
+a people to Himself as a wedding day**, and has put a cup aside to drink on it. [The Last Supper and
+the Cups of Passover](../feasts/last-supper-four-cups.md) works the four-cup case through in full,
+and marks its own limits: the Gospels number no cups, so the identification rests on the promise
+Exodus attaches to the fourth.
 
 ### The bride is called a wife, and Revelation says so twice
 
@@ -775,6 +695,99 @@ Revelation 19:7 announces that the γάμος (*gamos*) has come and calls her H
 sentence. From there both names are hers — νύμφη at 21:2 and 22:17, γυνή at 19:7, and 21:9 setting
 the two side by side in one phrase. She keeps the bridal name the way a bridegroom keeps it, with a
 wife's standing under it.
+
+### The guests at the marriage supper, a contested identification
+
+One further distinction is commonly drawn here, and it is contested. "Blessed are those who are
+invited to the marriage supper of the Lamb" (Revelation 19:9, ESV): dispensational writers usually
+read those guests as a company distinct from the bride, with Old Testament and tribulation saints
+among them, while the *ESV Study Bible* reads the invited as believers who belong to the bride
+herself (note on 19:9-10). Revelation says which blessing they receive and never says which company
+they are. The text carries either reading, so this study states both and rests nothing on the
+choice.
+
+## 8 · Homed — still ahead
+
+### The couple lived at the groom's father's house
+
+For the wedding itself "the group would go to the groom's home (normally his parents' home)," and
+"the new couple would normally stay at the home of the groom's parents, sometimes in a room on top of
+the roof, until the groom could secure a home of his own" (*NIV Cultural Backgrounds Study Bible*,
+note on Matthew 25:10). The bride joining the groom at his father's house is documented practice.
+
+The timing of the groom's arrival really was unpredictable, though the reason given is prosaic: "the
+many preparations (and the bride's relatives haggling over the value of the gifts given them)," with
+the groom normally coming after dark (note on Matthew 25:1). Families negotiating, running late.
+
+### The bridal chamber, and the exodus underneath
+
+**"Many rooms" is not, by itself, a bridal chamber.** μονή (*monē*, G3438) occurs exactly twice in
+the New Testament: here, and twenty-one verses later — "If anyone loves me, he will keep my word, and
+my Father will love him, and we will come to him and make our **home** with him" (John 14:23, ESV).
+Same word, same discourse. John is doing something deliberate with the pair: the place Christ
+prepares for us, and the home the Father and Son make in us, are named identically. That is richer
+than a construction project, and it is why the *ESV Study Bible* reads "my Father's house" as heaven
+(note on John 14:2-3), which is a claim about where the place is, not about what it is built of.
+
+**There is an exodus current here too.** "Prepare a place" has Old Testament precedent that is not
+nuptial at all: God sends an angel "to bring you to the place that I have prepared" (Exodus 23:20),
+goes before Israel "to seek you out a place to pitch your tents" (Deuteronomy 1:33), and brings them
+to "the place, O LORD, which you have made for your abode" (Exodus 15:17).
+
+Those two readings are not rivals, because the prophets read the exodus itself as a bridal journey:
+"I remember the devotion of your youth, your love as a bride, how you followed me in the wilderness,
+in a land not sown" (Jeremiah 2:2, ESV). A God who goes ahead to prepare a place for the people He
+brought out is already, in Jeremiah's telling, a bridegroom.
+
+### The Father's house, and the God who moves in
+
+The custom's last step is its plainest: the couple went to live at the groom's father's house. Jesus
+uses that arrangement as the shape of the promise — "In my Father's house are many rooms... I go to
+prepare a place for you" (John 14:2, ESV).
+
+Israel sang about that place before they had arrived anywhere. At the sea, with Egypt behind them
+and the wilderness in front, Moses' song runs forward to a destination:
+
+> ✝️ Exodus 15:17 (WEB)
+>
+> 17 You will bring them in, and plant them in the mountain of your inheritance, the place, Yahweh,
+> which you have made for yourself to dwell in: the sanctuary, Lord, which your hands have
+> established.
+
+Two words carry it. The place is <span dir="rtl">מָכוֹן</span> (*makon*, H4349), a fixed place, and
+it is what God's hands <span dir="rtl">כּוֹנְנוּ</span> (*konenu*) established, from
+<span dir="rtl">כּוּן</span> (*kun*, H3559, "be firm"). *Makon* is a derivative of that same root —
+TWOT files it at 964c, under *kun* at 964 — so the noun and the verb close the line on one root: a
+fixed place, fixed by Him. And the purpose is stated: God made it **for His own dwelling**. Israel
+is planted in the house He built for Himself.
+
+Revelation ends there, and says it with a noun and its cognate verb in a single breath:
+
+> ✝️ Revelation 21:3 (WEB)
+>
+> 3 Behold, God's dwelling is with people; and he will dwell with them, and they will be his people,
+> and God himself will be with them as their God.
+
+"Dwelling" is σκηνή (*skēnē*, G4633), a tent or tabernacle; "he will dwell" is σκηνώσει, from
+σκηνόω (*skēnoō*, G4637). That verb occurs five times in the New Testament — John 1:14, and four
+times in Revelation (7:15; 12:12; 13:6; 21:3). John 1:14 is the one to hold beside this verse: "the
+Word became flesh and dwelt among us" (ESV) is ἐσκήνωσεν, the same verb. God has pitched His tent
+among people once already, for the length of a life. Revelation 21:3 is Him doing it permanently.
+
+The verse's closing clause is textually contested. The ESV prints "as their God"; the unfoldingWord
+ULT notes that the best manuscripts lack it, and the CSB footnotes the same variant. The covenant
+formula stands either way on "they will be his people," which is where Exodus 6:7 began.
+
+**This shows that God's settled intention is to live where you live, and to do it Himself.** The
+house at the end of the sequence is the one He built for His own dwelling, and He brings the bride
+into it. That is what every step before it was for — bought, betrothed, pledged, set apart, prepared
+for, fetched, married — so that you may dwell with Him, and He with you.
+
+## What the Marriage Produces
+
+Every wedding image in Scripture runs out at the wedding. What follows is a marriage, and the
+question of what the church *is* once the feast is over has a textual answer that is easy to miss
+in English.
 
 ### The name she calls Him (Hosea 2:16)
 
@@ -925,6 +938,146 @@ flowchart TD
 11. Hebrews tells you to "strive to enter that rest" (4:11) and names it with a word used nowhere
     else in the Bible (σαββατισμός, *sabbatismos*, 4:9). What in your week is effort that will end at the wedding,
     and what is effort that will not?
+
+## Annex: Sources, Word Studies and Cautions
+
+Three things this study leans on sit here rather than in the sequence above: a source that
+witnesses to several of its steps at once, the book most often reached for on this subject,
+and the claims that have no ancient source behind them at all.
+
+### A wedding narrative from the period
+
+Everything documented above comes from the Mishnah, codified around 200 AD, or from a modern
+commentary's reading of it. The book of Tobit shows three of the same customs in use centuries
+before Christ, in a story rather than a legal ruling — the customs performed instead of codified.
+Tobit is not canonical in the Protestant canon, and it is used here as a historical witness to
+Jewish practice, not as Scripture.
+
+Raguel gives his daughter Sara to Tobias, and four details bear on points already made above —
+three of them confirming, the fourth qualifying:
+
+> ✝️ Tobit 7:13-16 (KJV Apocrypha)
+> 13 Then he called his daughter Sara, and she came to her father, and he took her by the hand, and
+> gave her to be wife to Tobias, saying, Behold, take her after the law of Moses, and lead her away
+> to thy father. And he blessed them; 14 And called Edna his wife, and took paper, and did write an
+> instrument of covenants, and sealed it. 15 Then they began to eat. 16 After Raguel called his wife
+> Edna, and said unto her, Sister, prepare another chamber, and bring her in thither.
+
+- **A written, sealed marriage covenant** (7:14) — the *shtar*, the second of *m. Kiddushin* 1:1's
+  three means of betrothal, here in use.
+- **The bride is led to the groom's father** (7:13) — "lead her away to thy father," the arrangement
+  the *NIV Cultural Backgrounds Study Bible* describes at Matthew 25:10.
+- **A chamber is prepared for the couple** (7:16), by the bride's household in this case.
+- **An extended feast** of **fourteen** days (8:19-20), double the seven of Genesis 29:27 and Judges
+  14:12. A multi-day feast is the constant; its length varies, which is as much as the seven-day
+  resonance above can bear.
+
+One limit. Tobit's exiles are in Nineveh (1:2) and the wedding is at Ecbatana in Media (3:7), so the
+book witnesses to Diaspora practice some centuries before Christ. That distance is what makes the
+agreement useful: two traditions, separated by geography and by several hundred years, describing
+the same customs.
+
+## How Much Weight the Song of Songs Can Carry
+
+The Song is the obvious place to look for this material, and it needs handling with more care than it
+usually gets.
+
+### Read this way early, and read as poetry now
+
+The bridal reading is ancient. Rabbi Akiva's defence of the book is preserved in the Mishnah: "the
+whole world is not as worthy as the day on which the Song of Songs was given to Israel; for all the
+writings are holy but the Song of Songs is the holy of holies" (*m. Yadayim* 3:5). Jewish tradition
+read the book of God and Israel; Christian tradition read it of Christ and the church, and did so
+early — Eusebius records that Origen "commenced his Commentaries on the Song of Songs" while in
+Athens and "completed these also, ten books in number" after returning to Caesarea (*Ecclesiastical
+History* 6.32).
+
+Contemporary evangelical scholarship reads the Song as what it appears to be — love poetry
+celebrating marriage between a man and a woman, with the couple "apparently betrothed" (*ESV Study
+Bible*, note on Song 1:2-2:17), its imagery comparable to Egyptian love poetry (*NIV Cultural
+Backgrounds Study Bible*, note on Song 1:2). That reading is a discipline. The same volume warns, on
+the foxes of 2:15, that the image "has given rise to an enormous number of speculative
+interpretations" and "is not meant to be grist for imaginative interpreters." A book read
+allegorically line-by-line will yield whatever the reader brought to it, which is why the
+identification in Ephesians 5:32 carries weight the Song cannot supply on its own.
+
+### The one place God is named
+
+The Song never mentions God — with a single, disputed exception, at the book's theological climax:
+
+> ✝️ Song of Songs 8:6 (ESV)
+> 6 Set me as a seal upon your heart, as a seal upon your arm, for love is strong as death, jealousy
+> is fierce as the grave. Its flashes are flashes of fire, the very flame of the LORD.
+
+The Hebrew behind "the very flame of the LORD" is <span dir="rtl">שַׁלְהֶבֶתְיָה</span>
+(*shalhevetyah*) — <span dir="rtl">שַׁלְהֶבֶת</span> (*shalhevet*, "flame," H7957) with
+<span dir="rtl">יָה</span> (*Yah*, H3050) attached, the short form of the divine name. Translations
+divide on it: the ESV takes it as the name ("the very flame of the LORD"), while others read the
+ending as an intensifier and render it "a mighty flame." Both are defensible, and the disagreement is
+about Hebrew idiom rather than theology.
+
+If the name is there, then the one time God is named in the Song, it is to identify the fire in human
+love as His own. That is a stronger warrant for reading the book theologically than any allegory of
+its individual images, and it does not require decoding a single fox.
+
+### One resonance worth noticing, and not overstating
+
+> ✝️ Song of Songs 2:10-13 (ESV)
+> 10 My beloved speaks and says to me: "Arise, my love, my beautiful one, and come away, 11 for
+> behold, the winter is past; the rain is over and gone. 12 The flowers appear on the earth, the time
+> of singing has come... 13 The fig tree ripens its figs, and the vines are in blossom; they give
+> forth fragrance. Arise, my love, my beautiful one, and come away."
+
+Winter past, the fig tree budding, and on that evidence: *arise and come away*. The inference runs
+the same way as the Olivet Discourse's fig tree — read the season off the tree, and know He is near
+(Matthew 24:32-33) — and Jesus's flight instructions in the same discourse turn on winter too
+(24:20). The OpenBible cross-reference dataset registers Song 2:13 against Matthew 24:32
+independently, so the resonance is a recognised one rather than a private construction.
+
+It is still a resonance. Matthew does not quote the Song, and συκῆ (*sykē*) is simply the ordinary word for a
+fig tree, so shared vocabulary proves nothing on its own. What the two passages share is a structure
+of inference — the season tells you the time — and it repays seeing without being turned into a
+citation.
+
+## What Popular Teaching Adds, and Why It Is Not Needed
+
+Three claims circulate widely and are usually presented as documented custom. They are not.
+
+- **The father inspects and approves the addition.** In the popular telling the groom builds a room
+  onto his father's house, and only when the father judges it finished may the son go for his bride.
+  No Mishnah, Talmud or Josephus passage is produced for this. The sources for it are modern
+  devotional and Messianic teaching materials citing one another.
+- **"Only my father knows the day."** The claimed stock answer of a groom asked when the wedding will
+  be — usually quoted as *"I don't know, the angels don't know, only my father knows."* That
+  reproduces the structure of Matthew 24:36 itself, which suggests the saying was shaped by the verse
+  rather than the verse by the saying.
+- **A bridal chamber behind John 14:2.** Addressed above: John's own second use of *monē* is of God
+  making His home in the believer.
+
+None of this costs the doctrine anything. That the timing belongs to the Father is stated outright by
+Jesus in His own words — "it is not for you to know times or seasons that the Father has fixed by his
+own authority" (Acts 1:7, ESV) — which is firmer than any reconstructed custom, and is worked out in
+[The Olivet Discourse](../last-things/olivet-discourse.md#the-day-no-one-knows). That the couple
+belongs at the father's house is documented. That the bride prepares during a defined interval is
+documented. The type stands on the attested material and on Scripture's own statements; the invented
+details add colour and cost credibility.
+
+```mermaid
+flowchart TD
+    subgraph T1["TIER 1 — stated by Scripture itself"]
+      A1["Eph 5:31-32 · 2 Cor 11:2 · John 3:29<br/>Rev 19:7-9; 21:2, 9<br/>Hos 2:19-20 · Isa 54:5; 62:5"]
+    end
+    subgraph T2["TIER 2 — documented custom"]
+      A2["Betrothal binding — m. Kiddushin 1:1<br/>Twelve-month interval — m. Ketubot 5:2<br/>Father's house — CBSB Matt 25:10<br/>Seven-day feast — Gen 29:27; Judg 14:12<br/>chuppah — Ps 19:6 MT; Joel 2:16; Isa 4:5"]
+    end
+    subgraph T3["TIER 3 — no ancient source"]
+      A3["Father inspects the chuppah<br/>'Only my father knows' as an idiom<br/>John 14:2 as a bridal chamber"]
+    end
+    T1 ~~~ T2 ~~~ T3
+    T1 --> C["The church<br/>as Christ's<br/>betrothed bride"]
+    T2 --> C
+    T3 -.->|"carries no weight;<br/>the doctrine<br/>does not rest on it"| C
+```
 
 ## References & Recommended Reading
 

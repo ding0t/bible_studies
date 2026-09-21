@@ -424,7 +424,239 @@ revision_2026-09-20c:
     This file has NOT been through review-bible-study since the two new sections were added. The
     structural pass verifies nothing about accuracy.
 
-last_updated: "2026-09-20"
+revision_2026-09-21:
+  request: >
+    Three asks in one session: cross-link this study with the four-cups study; tighten the Tobit
+    and Song of Songs sections; then move "The Pattern, Component by Component" early and let it
+    shape the page.
+  prose_pass: >
+    A PROSE EDIT, committed separately (c0ef3ec6) BEFORE the structure pass, so the structure
+    pass could verify against a clean HEAD. Added a paragraph to "The cup He promised to finish"
+    naming the deferred cup as the Seder's fourth and running the Exodus 6:7 -> Hosea 2 bridge
+    from acquisition formula to betrothal, with a link to last-supper-four-cups.md; a reciprocal
+    paragraph was added there pointing back at this study's paralambano domain table. The Tobit
+    section was cut 426 -> 362 words and now leads with its warrant (every other custom source
+    is the Mishnah, 200 AD; Tobit shows the same customs in use centuries earlier) and grades
+    its four details three-confirming / one-qualifying. The Song of Songs section merged its
+    first two subsections, 726 -> 692 words. All four ESV quotations verified against
+    study-notes.db, not recalled.
+  structure_pass: >
+    read-bible-study, Phases 1-4. One operation only, from the skill's safe set: the whole
+    "The Pattern, Component by Component" section (64 lines -- lead-in, 8-component table,
+    DONE/NOW/AHEAD diagram, "Three places the wrong verse gets cited", "Always with the Lord,
+    and the inheritance") moved from line 484 to line 299, directly after "What the Sources
+    Actually Document" and before "I Go to Prepare a Place for You". Section 7 of 11 -> section
+    4 of 11. Totals unchanged by design: 53 sections, median 159 words, longest 542, 0 walls,
+    1 over target.
+  why_not_earlier: >
+    The user asked for "very early". Two things cap it at this position, and both were put to
+    the user, who chose this one. The section opens "The documented custom above has parts",
+    which is false anywhere above the sources section, and read-bible-study cannot rewrite it.
+    And the table's "The custom" column runs on m. Kiddushin 1:1, m. Ketubot 5:2, the CBSB note
+    at Matthew 25:10 and Tobit 7:14 -- placed before the sources section it would argue from
+    authorities the reader has not met. This is the earliest placement that costs no sentence.
+  prose_identity_check: >
+    read_structure verify_against HEAD (c0ef3ec6): clean true, 0 removed, 0 added, verdict
+    "no sentence changed". Every directional reference re-checked by hand afterwards and all
+    nine still point the right way -- notably "The documented custom above has parts" (line 314,
+    sources section now immediately above) and "[the last section below]" (line 366, target at
+    line 837).
+  not_fixed_flagged_instead:
+    - >
+      The user identified "One resonance worth noticing, and not overstating" as the best
+      section in the study, directly against this session's recommendation to cut it as the
+      clearest filler in the Song of Songs section. Recorded because it is a standing signal
+      about the author's taste: the marked-confidence register ("both are defensible", "a
+      resonance rather than a citation", "worth noticing and not overstating") is a feature to
+      preserve, not hedging to trim. Do not propose cutting it again.
+    - >
+      The shalhevetyah word study at "The one place God is named" is tangential to this study's
+      argument about the church and would be a centrepiece in a Song of Songs study. No Song
+      study exists anywhere in docs/content/. Left in place; a future Song study should claim it.
+    - >
+      last-supper-four-cups.md uses lowercase divine pronouns throughout, against AGENTS.md.
+      This session's addition there was written without divine pronouns rather than introduce a
+      third style. That file needs its own sweep.
+  verifies_nothing: >
+    The structure pass checks no quotation, count, citation, word study or doctrinal claim. And
+    note the gap this session opened: review_2026-09-20 covered the file as it then stood, but
+    the prose_pass above added new paragraphs to this study and to last-supper-four-cups.md that
+    have NOT been through review-bible-study. The ESV quotations in them were verified against
+    study-notes.db at drafting time; the synthetic claim they make (Seder third cup in hand ->
+    fourth deferred -> Hosea reads acquisition as betrothal) has not been adversarially checked.
+  status: >-
+    Structure pass complete and committed separately from the prose pass. File remains
+    draft: false.
+
+revision_2026-09-21b:
+  request: >
+    "Overall content is excellent - just feels a little jumbled." User flagged an overlap between
+    "He made the covenant, and He paid for it" and "Betrothal was marriage in law", then proposed
+    annexing the two evidence sections.
+  diagnosis: >
+    Measured: the reader crossed 48% of the page before reaching the teaching section. Two causes.
+    (1) The application section delivered the table's components in the order 2,3,1,-,-,5,6,4 --
+    the page's own numbered spine was contradicted by the section that follows it. (2) 1,364 words
+    of apparatus (John 14 word study, Song of Songs, popular-teaching corrective) sat between the
+    spine and the body.
+  changes:
+    - "Four H2 sections moved to a new annex after 'After the Wedding': What the Sources Actually Document, 'I Go to Prepare a Place for You', How Much Weight the Song of Songs Can Carry, What Popular Teaching Adds. New signpost H2 'Annex: Sources, Word Studies and Cautions'."
+    - "The nine subsections of 'What the Betrothal Means for You Now' reordered to the table's component order and renumbered: 1 Purchased, 2 Betrothed, 3 Pledged, 4 Set apart (x2), 5 Preparing, 6 Fetched, then the two non-component sections (dispensational placement, contested guests) at the end, the latter bridging into 'After the Wedding' which covers components 7 and 8."
+    - "Table's Component column relinked to the new numbered anchors; The custom column now links down to the five annex subsections that document each custom."
+  teaching_starts_at: "48% -> 21% of the page"
+  argued_against_and_why: >
+    The user proposed annexing "Where Scripture Says It Itself" as well. Argued against and the
+    user agreed to keep it up front: it is the study's warrant rather than apparatus (Eph 5:32,
+    2 Cor 11:2), annexing it inverts exegesis-before-hermeneutics per AGENTS.md and
+    develop-bible-study, and the Song of Songs section's closing argument -- "the identification
+    in Ephesians 5:32 carries weight the Song cannot supply on its own" -- depends on Eph 5:32
+    having already been established.
+  NOT_A_CLEAN_STRUCTURAL_PASS: >
+    read_structure verify_against HEAD returns clean: false. FOUR sentences changed, deliberately
+    and with user authorization, because annexing the sources broke four directional references
+    that read-bible-study cannot repair. The cost was quoted to the user as one sentence before
+    execution and turned out to be four; that was reported. Exactly these four, nothing else:
+    "The documented custom above has parts." -> "The documented custom has parts.";
+    "Everything above sorts the evidence." -> "The pattern above sorts the evidence.";
+    "The pledge to return, quoted above from the same evening" -> "The pledge to return, from the
+    same evening"; "John 14:2-3 was worked through above as a word study." -> "John 14:2-3 is
+    worked through as a word study in the annex."
+    These four have NOT been through review-bible-study.
+  verification: >
+    mkdocs build --strict passes. All 55 in-page anchor links resolve against the 63 generated ids
+    in the built HTML -- zero dead. validate-content.js passes, same 23 pre-existing warnings,
+    none in this file. Every remaining "above"/"below" in the file re-checked by hand after the
+    move; the nine that survive all still point the right way.
+  still_outstanding:
+    - >
+      The m. Kiddushin 1:1 overlap the user spotted is NOT fixed -- both sections still quote
+      "acquired in three ways" and "divorce or by her husband's death". The annex move did change the
+      order for the better: the teaching section (1 Purchased) is now the reader's FIRST encounter
+      with the passage and the annex documents it afterwards, so it reads as cite-then-document
+      rather than establish-then-re-establish. Cutting the duplication is still a prose edit and
+      still review-bible-study's job.
+    - >
+      Table row 7 (Married, and feasting) links to the nymphe/gyne section, which covers the
+      marriage but not the feast; no section expands the wedding supper itself. Row 8 (Homed)
+      links to "The bridal chamber, and the exodus underneath" as the nearest expansion; no
+      section is actually about being homed. Both gaps are content, not structure.
+  status: >-
+    Complete, uncommitted at time of writing. File remains draft: false.
+
+revision_2026-09-21c:
+  request: >
+    "I am looking to fit the other content into the relevant section of what is happening - drawing
+    a somewhat chronological, or marriage pattern to the study - with relevant content grouped
+    together - not as short stubs." Plus: "use brief framing when needed, annex for any load
+    bearing framing, and refer to it in the body."
+  architecture: >
+    The eight components of the pattern table are now the page's H2 spine, and each one gathers its
+    own custom evidence, Old Testament antecedent, New Testament fulfilment, word study and
+    application in one place. The table stopped being a summary of material scattered elsewhere and
+    became the actual table of contents. Order: Key Takeaways, Where Scripture Says It Itself
+    (warrant, with "Why this belongs to the church, and why now" moved in beside it), The Pattern,
+    then 1 Purchased / 2 Betrothed / 3 Pledged / 4 Set apart / 5 Preparing / 6 Fetched / 7 Married
+    and feasting / 8 Homed, then What the Marriage Produces (the rest, reign, inheritance and
+    family the study explicitly calls not-stages), then a slimmed annex.
+  dissolved: >
+    "What the Sources Actually Document" and "I Go to Prepare a Place for You" no longer exist as
+    sections. Their six and three subsections were distributed: Betrothal was marriage in law -> 2;
+    The after betrothal interval + the John 14:1-3 block quote -> 5; The verb used for taking a wife
+    + the "Father's house, a departure" paragraph -> 6; The feast and the canopy, The wedding feast
+    was already a picture of the age to come, The cup He promised to finish -> 7; The couple lived
+    at the groom's father's house, The bridal chamber and the exodus underneath -> 8.
+  new_section: >
+    "8 · Homed: the Father's house, and the God who moves in" was DRAFTED NEW (387 words) to close
+    the one real gap in the spine -- component 8 had no expansion anywhere, and table row 8 had been
+    pointing at the nearest adjacent section instead. Built on Exodus 15:17 and Revelation 21:3,
+    the two verses row 8 cites that the study had never expanded.
+  new_section_verification: >
+    Every element checked against source before writing, none from memory. ESV text of Rev 21:3,
+    Exod 15:17, John 14:2 and John 1:14 from study-notes.db. WEB text of Rev 21:3 and Exod 15:17
+    from bible-text.db (open licence, quoted at length). Interlinear confirms skene G4633 and its
+    cognate verb skenoo G4637 in the same Rev 21:3 sentence, and that John 1:14 eskenosen is the
+    same lemma. Concordance: skenoo occurs 5x in the NT (John 1:14; Rev 7:15; 12:12; 13:6; 21:3) --
+    counted from macula-greek-sblgnt rows only, since the raw G4637 count of 9 includes four LXX
+    occurrences. TWOT confirms makon H4349 is root 964c, a derivative of kun H3559 at root 964, so
+    the noun and the verb closing Exod 15:17 share one root. The Rev 21:3 "as their God" variant is
+    marked in the prose as contested, per the uW ULT and CSB apparatus notes.
+  framing_policy_applied: >
+    Per the user's instruction. ONE sentence deleted -- "The pattern above sorts the evidence. This
+    section says what the evidence is for." -- which framed a section that no longer exists.
+    ONE sentence written, as the annex's framing. Load-bearing framing was MOVED rather than cut:
+    "Below the stated typology sits the wedding culture itself..." now introduces the custom column
+    inside The Pattern, and "A betrothed woman in first-century Judea..." closes that section as the
+    lead-in to the eight components.
+  verification: >
+    Mechanical prose-line diff against the pre-restructure snapshot: exactly 1 line lost (the
+    flagged deletion) and 3 lines added (the one new annex sentence, wrapped). Nothing else moved
+    without being accounted for. A first attempt at the rebuild silently duplicated all six custom
+    subsections -- caught by a duplicate-heading check, reverted from snapshot, and re-run.
+    mkdocs build --strict passes; zero dead anchors; validate-content.js passes with the same 23
+    pre-existing warnings, none in this file. All nine surviving directional references re-checked
+    by hand and all still point the right way.
+  measurements: >
+    58 sections (was 53), median 172 words, longest 542, zero walls, one over the 400 target.
+    Component sections run 243-882 words each.
+  NOT_REVIEWED:
+    - "The whole of '8 · Homed: the Father's house, and the God who moves in' is new prose and has never been through review-bible-study."
+    - "The one new annex framing sentence."
+    - "The four directional-reference repairs from revision_2026-09-21b."
+    - "The cross-reference paragraphs from revision_2026-09-21a, here and in last-supper-four-cups.md."
+  still_outstanding: >
+    The m. Kiddushin 1:1 overlap is now MUCH closer together and easier to fix: "Betrothal was
+    marriage in law" and "The betrothal is a finished legal act" are adjacent under 2 · Betrothed,
+    and component 1 quotes the same passage a page earlier. A review pass should cut the
+    duplication now that all three sit in view of each other.
+  status: >-
+    Complete, uncommitted. File remains draft: false.
+
+revision_2026-09-21d:
+  request: >
+    Follow-ups after the component architecture landed: Discussion Questions placement; a hand-
+    written Study outline to tidy; "the table lists ot and nt verses - but they are never picked up
+    in the body"; "## 1 and ## 2 both open with mishnah - not scripture"; whether the study says
+    which stage the reader is at; and whether the new-covenant cup links to the four-cups study.
+  moves_no_prose:
+    - "Discussion Questions moved above the annex. Every other study in the corpus puts its questions directly after its last teaching section; this page was the only one with apparatus in between. Verified as a pure move: zero prose lines lost or added."
+    - "2 · Betrothed reordered so 'The betrothal is a finished legal act' (2 Corinthians 11:2) opens it and 'Betrothal was marriage in law' (m. Kiddushin) follows. Scripture opens, custom supports."
+    - "All eight component H2s now carry their status -- '1 · Purchased — already yours' through '8 · Homed — still ahead', with '5 · Preparing — where you are now'. The DONE/NOW/AHEAD split was stated four times but all four sat in the first 280 lines; once the table and outline became jump-menus, a reader landing mid-page got no signal. All eight anchors changed and both link sets were repointed."
+  new_prose_all_unreviewed:
+    - "1 · Purchased rewritten to open on Scripture. It now leads with agorazo (G59) at 1 Corinthians 6:20 and Revelation 5:9 and lytroo (G3084) at 1 Peter 1:18-19, where Peter names the currency himself; the Mishnah moved to third position as the setting. At 541 words it had become the study's second wall, so it was split into three subsections and the H2 shortened to '1 · Purchased' to match the other components."
+    - "'The covenant God swore to a foundling (Ezekiel 16:8)' added under 2 · Betrothed."
+    - "'The washing God performed (Ezekiel 16:9)' added under 4 · Set apart, carrying 1 Corinthians 6:11's three aorists."
+    - "A paragraph in 1 · Purchased identifying Luke 22:20's cup as the Seder's third, the cup of redemption (Exodus 6:6), and linking to last-supper-four-cups.md."
+  table_coverage: >
+    The table promised OT and NT verses its sections never picked up. Measured per component: 9
+    references unworked at the start, 0 at the end. Two of the nine were measurement artefacts and
+    would have been reported as real defects had they not been re-checked -- 2 Corinthians 11:2 and
+    Genesis 38 were split across line-wraps, and Isaiah 25:6 is present in component 7 as the
+    abbreviated "(Isa 25:6)" inside a quoted commentary note. Three genuinely absent verses were
+    written in (Ezekiel 16:8, 16:9, and the ransom texts); three worked elsewhere in the study were
+    linked from their table cell rather than duplicated (Isaiah 54:5, 1 Peter 1:18-19 via the
+    existing correction subsection, Ephesians 5:27, Hosea 2:19).
+  best_find: >
+    Ezekiel 16:8's "I spread my garment over you" is paras (H6566) + kanaph (H3671) -- the same verb
+    and noun Ruth uses of Boaz in the sentence where she calls him a near kinsman (Ruth 3:9, where
+    goel H1350 also stands). The act that redeems and the act that betroths are one gesture in the
+    Hebrew, which ties table row 1 to row 2. The ESV note on 16:8 independently states that "the
+    bonds are formed before the cleansing of Ezek. 16:9", corroborating this study's own ordering of
+    betrothed at 2 and set apart at 4.
+  study_outline: >
+    The site's author hand-wrote a "## Study outline" section with three bullets; all three anchors
+    were dead (raw heading text as the target, and one entry with empty link text). Rebuilt with
+    working anchors and extended to cover the page, keeping the author's framing sentence and three
+    descriptions verbatim. Its third bullet is a single line carrying all eight component links.
+  verification: >
+    mkdocs build --strict clean throughout; every anchor checked by diffing the built page's
+    href="#..." set against its id="..." set after each change, which caught three dead links that
+    deriving slugs by hand would have shipped -- including the Greek in the arrabon heading, which
+    strips to "arrabon" rather than the Unicode the heading suggests. validate-content.js passes.
+    All quotations verified against study-notes.db or bible-text.db before writing.
+  status: >-
+    Committed. File remains draft: false.
+
+last_updated: "2026-09-21"
 
 # ---------------------------------------------------------------------------
 review_2026-09-01:
