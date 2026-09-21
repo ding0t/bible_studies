@@ -407,7 +407,9 @@ the construction the fourth promise uses, on the night of the meal built around 
 
 παραλαμβάνω carries a second line of evidence this study only needs in passing. Its occurrence at
 John 14:3 is annotated in the Louw-Nida domain 34.53, the same domain as Joseph's taking of Mary as
-his wife at Matthew 1:20 and 1:24, which is the verb's bridal sense. [The Bride of
+his wife at Matthew 1:20 and 1:24. That domain holds four occurrences in all. One of them is
+John 1:11, where no wedding is in view. So 34.53 is the receive-into-one's-company sense, and the
+bridal force at Matthew 1:20 and 1:24 comes from their context. [The Bride of
 Christ](../israel-and-church/bride-of-christ.md) lays the domain data out occurrence by occurrence
 and follows the betrothal sequence — a father's house, a place prepared, a return, a taking — that
 John 14:1-3 moves through. Read alongside the fourth promise, the two arrive together: the cup of

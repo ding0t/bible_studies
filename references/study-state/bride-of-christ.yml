@@ -795,6 +795,49 @@ revision_2026-09-21h:
   status: >-
     Complete. File remains draft: false.
 
+review_2026-09-21:
+  skill: review-bible-study
+  trigger: "User asked for the review to be run by a subagent, after nine passages of new prose were added the same day."
+  run_as: >
+    Delegated to a subagent, which also satisfies the skill's own rule that review should not run in
+    the session that wrote the prose. Report-only; every finding was then re-verified here before
+    anything was changed, and one was rejected on that basis.
+  verdict_returned: "Safe to leave live. No misquotation, no false count, no statement-of-faith conflict."
+  confirmed_fine: >
+    All three exhaustiveness claims hold. skenoo G4637 = exactly 5 NT occurrences (John 1:14; Rev
+    7:15, 12:12, 13:6, 21:3) -- the raw 9 includes 4 LXX, so the filtering was right. Genesis 38 is
+    the only OT passage using erabon H6162. arrabon G728 = 3 NT and 3 LXX, all Genesis 38. Every
+    quotation verbatim across ESV and WEB. makon H4349 = TWOT 964c under kun H3559 = 964. The
+    eschatological ordering reproduces statement-of-faith.md without drift. cross_study_claims.py
+    over Ruth 4, Ezekiel 16, Genesis 38 and Revelation 19-22 found NO contradictions. The Ruth 3:9
+    / Ezekiel 16:8 link is not an overreach and is better supported than the study claimed -- the
+    ESV Study Bible note on Ezekiel 16:8 cites Ruth 3:9 itself, so it is a commentary's reading
+    rather than a private construction.
+  fixed:
+    - "CONFIRMED WRONG: 'The gesture is legal, not affectionate' at Ezekiel 16:8 denied what the verse states two lines above in the study's own block quote -- 'your time was the time of love', dodim H1730. Rewritten affirmatively, and the Hebrew now cited."
+    - "The paralambano domain table listed three of LN 34.53's FOUR occurrences, omitting John 1:11 ('his own did not receive him'), under a heading reading 'Where else that domain appears is the point'. Re-queried independently: 34.53 = John 1:11, John 14:3, Matt 1:20, Matt 1:24, with Col 2:6 dual-annotated. John 1:11 added, and it now works as the guard on the other three -- the domain is the receive-into-one's-company sense, and the bridal force at Matthew 1:20/1:24 comes from context."
+    - "last-supper-four-cups.md called 34.53 'the verb's bridal sense', overstating what this study established. Corrected there too. The replacement first tripped validator check 20 (sentence length) and was broken into shorter sentences -- confirmed against the HEAD version that the warning was mine, not pre-existing."
+    - "'He is the kinsman, and the price He paid was His own Son's blood' made the Father the kinsman and the Son the price, which breaks the double role the section exists to establish and diverges from kinsman-redeemer.md, where the goel is Christ. Now: Christ is redeemer and bridegroom in one office, and the price was His own blood."
+    - "The third-cup identification was stated flat at first contact with its caveat 350 lines away. It now carries its limit in place, and points at the evidence inside the verse already quoted -- Luke 22:20's cup 'after they had eaten'. 'Which the order of service calls the cup of redemption' softened to 'commonly called', since the Haggadah's naming convention is in neither database."
+    - "kinsman-redeemer.md links here and was absent from this study's 'On this site' list. Added."
+  finding_rejected: >
+    The subagent reported that it could find no unfoldingWord ULT note at Revelation 21:3 and that
+    the study's 'the best manuscripts lack it' was therefore unsupported. That is wrong, and was
+    checked here before acting: bible-text.db notes carries work_id uw-ult, note_type translator,
+    text "Some manuscripts add as their God, but the best manuscripts do not." The study quotes it
+    accurately and attributes it to the ULT. Left unchanged. Recorded because a rejected finding is
+    as much a part of the review record as an accepted one.
+  still_open:
+    - "Discussion questions are stale: all eleven predate the revision and none touches Ruth 4, the covenant-before-cleansing order at Ezekiel 16:8-9, Judah's seal, where the millennium falls, or the Father's house. This is the failure mode discussion-questions.md names -- each question stays individually defensible while the set stops matching the study."
+    - "No evidence: block in this state file, so the three count claims are not replayable by verify_claims.py --evidence. They are all correct; they are just not mechanically re-checkable."
+  also_this_pass: >
+    User judgement, accepted against an earlier call of mine: "Three places the wrong verse gets
+    cited" moved from the Pattern section into the annex, promoted to H2 beside "What Popular
+    Teaching Adds", and the two correctives now sit together. It passes all three of
+    structural-readability rule 11's tests, which my earlier reasoning had missed. Its
+    "[the last section below]" link was de-directionalised, since the target now sits above it, and
+    the annex framing line went from three things to four.
+
 last_updated: "2026-09-21"
 
 # ---------------------------------------------------------------------------

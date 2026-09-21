@@ -5,7 +5,7 @@ description: "Scripture calls the church a betrothed bride and says so in its ow
 tags: ["ephesians", "revelation", "john", "song-of-songs", "hosea", "isaiah", "matthew", "1-thessalonians", "dispensationalism", "marriage", "covenant", "sanctification", "rapture", "1-peter", "hebrews", "romans", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
-bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Ruth 2:12", "Ruth 3:9", "Ruth 4:6", "Ruth 4:9-10", "Ruth 4:14", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Genesis 38:25", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Revelation 19:11", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "Ephesians 2:10", "Revelation 21:24", "Revelation 22:3-5", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "Hosea 2:23", "1 Corinthians 10:16"]
+bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "John 1:11", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Ruth 2:12", "Ruth 3:9", "Ruth 4:6", "Ruth 4:9-10", "Ruth 4:14", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Genesis 38:25", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Revelation 19:11", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "Ephesians 2:10", "Revelation 21:24", "Revelation 22:3-5", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "Hosea 2:23", "1 Corinthians 10:16"]
 date_created: 2026-09-01
 date_modified: 2026-09-21
 ai_provider_models:
@@ -292,20 +292,6 @@ before the wedding. She was married in law already. Her husband had already paid
 purpose and an end date. **Scripture gives the church those same facts about Christ, and gives them
 as grounds for confidence while she waits.**
 
-### Three places the wrong verse gets cited
-
-Each of these is a near miss, and each has a better verse a line or two away.
-
-- **The purchase is 1 Peter 1:18-19, not 1:17.** Verse 17 tells you to "conduct yourselves with
-  fear throughout the time of your exile" (ESV). The ransom language starts in the next sentence.
-- **Ephesians 1:5 is adoption, and adoption is a different picture.** "He predestined us for
-  adoption to himself as sons" (ESV) is υἱοθεσία (*huiothesia*), the legal placing of a son. It is
-  true of you and it is not the betrothal; the betrothal verb in Paul is at 2 Corinthians 11:2.
-  Both images run at once, and [the last section below](#family-as-well-as-marriage-and-the-two-do-not-compete)
-  takes up why Scripture uses more than one.
-- **Ephesians 1:6 is praise, not the feast.** "To the praise of his glorious grace" is what the
-  passage is for. The wedding feast is γάμος (*gamos*), and in Revelation it is at 19:7 and 19:9.
-
 ### Always with the Lord, and the inheritance: what the marriage produces
 
 Two items commonly listed as stages are better read as what the marriage produces: being always with
@@ -346,8 +332,8 @@ So the redemption and the marriage are one witnessed transaction, and the woman 
 called a Moabite at the moment it happens — a foreigner, named as one, brought inside. The women of
 Bethlehem say what has actually been done: "Blessed be the LORD, who has not left you this day
 without a redeemer" (Ruth 4:14, ESV). **This shows that God takes up a right no one else would
-exercise, and pays it out on a bride with no claim of her own — He is the kinsman, and the price He
-paid was His own Son's blood.**
+exercise, and pays it out on a bride with no claim of her own. Christ is the kinsman, redeemer and
+bridegroom in one office, and the price was His own blood.**
 
 ### The covenant, and the cup it was sealed in
 
@@ -360,9 +346,12 @@ when I drink it new with you in my Father's kingdom" (Matthew 26:29, ESV).
 
 Both cups sit at named points in the Passover order, and the first of them lands on this component.
 The cup He hands them falls at the Seder's third, which carries the third of God's four exodus
-promises — "I will redeem you with an outstretched arm" (Exodus 6:6, ESV) — and which the order of
-service calls the cup of redemption. **So the cup Christ names the new covenant is, in the meal's
-own sequence, the cup of the purchase.** The cup He then refuses is the fourth.
+promises — "I will redeem you with an outstretched arm" (Exodus 6:6, ESV) — and which is commonly
+called the cup of redemption. Luke supplies the timing inside the verse this study already quotes:
+it is the cup "after they had eaten" (22:20, ESV). **So the cup Christ names the new covenant is,
+in the meal's own sequence, the cup of the purchase** — on the reading that the Gospels' unnumbered
+cups follow the Seder's order, which is where the weight of this rests. The cup He then refuses is
+the fourth.
 [The Last Supper and the Cups of Passover](../feasts/last-supper-four-cups.md) works the
 identification through, and [The cup He promised to finish](#the-cup-he-promised-to-finish) takes up
 the fourth under component 7, where the wedding supper is in view.
@@ -404,7 +393,8 @@ achieved.
 > spread my garment over you and covered your nakedness. Yes, I pledged myself to you and entered
 > into a covenant with you," says the Lord Yahweh, "and you became mine.
 
-The gesture is legal, not affectionate. "I spread my garment over you" is
+The gesture is legal, and the verse has already said the season was affectionate — "your time was
+the time of love," <span dir="rtl">דֹּדִים</span> (*dodim*, H1730). "I spread my garment over you" is
 <span dir="rtl">וָאֶפְרֹשׂ כְּנָפִי</span> (*va'efros kenafi*) — <span dir="rtl">פָּרַשׂ</span>
 (*paras*, H6566), to spread, over <span dir="rtl">כָּנָף</span> (*kanaph*, H3671), the wing or
 corner of a garment. It is the same verb and the same noun Ruth uses of Boaz, in the same sentence
@@ -623,10 +613,14 @@ Where else that domain appears is the point:
 | Matthew 1:20 | παραλαβεῖν (*paralabein*) | **34.53** | "do not fear **to take** Mary as your wife" |
 | Matthew 1:24 | παρέλαβεν (*parelaben*) | **34.53** | "**took** his wife" |
 | **John 14:3** | παραλήμψομαι (*paralēmpsomai*) | **34.53** | "will **take** you to myself" |
+| John 1:11 | παρέλαβον (*parelabon*) | **34.53** | "his own **did not receive** him" |
 | Matthew 24:40-41 | παραλαμβάνεται (*paralambanetai*) | 15.168 | "one **is taken**" — physical removal |
 
-The same lemma carries two senses, and the lexicographers separate them. The sense Jesus uses at
-John 14:3 is the one Matthew uses of Joseph receiving Mary as his wife. The sense in the Olivet
+Those are all four of the verb's 34.53 occurrences, and the fourth is the guard on the other three:
+John 1:11 is the same domain with no wedding anywhere near it, so 34.53 is the
+receive-into-one's-company sense and the bridal reading at Matthew 1:20 and 1:24 comes from their
+context. The same lemma carries other senses and the lexicographers separate them. The sense Jesus
+uses at John 14:3 is the one Matthew uses of Joseph receiving Mary as his wife. The sense in the Olivet
 Discourse's "one taken, one left" is a different one — carrying off — which is worked out in [The
 Olivet Discourse](../last-things/olivet-discourse.md#one-taken-one-left).
 
@@ -1074,9 +1068,10 @@ flowchart TD
 
 ## Annex: Sources, Word Studies and Cautions
 
-Three things this study leans on sit here rather than in the sequence above: a source that
-witnesses to several of its steps at once, the book most often reached for on this subject,
-and the claims that have no ancient source behind them at all.
+Four things this study leans on sit here rather than in the sequence above: a source that witnesses
+to several of its steps at once, the book most often reached for on this subject, the claims that
+have no ancient source behind them at all, and the verses that get cited for this doctrine by
+mistake.
 
 ### A wedding narrative from the period
 
@@ -1212,6 +1207,20 @@ flowchart TD
     T3 -.->|"carries no weight;<br/>the doctrine<br/>does not rest on it"| C
 ```
 
+## Three places the wrong verse gets cited
+
+Each of these is a near miss, and each has a better verse a line or two away.
+
+- **The purchase is 1 Peter 1:18-19, not 1:17.** Verse 17 tells you to "conduct yourselves with
+  fear throughout the time of your exile" (ESV). The ransom language starts in the next sentence.
+- **Ephesians 1:5 is adoption, and adoption is a different picture.** "He predestined us for
+  adoption to himself as sons" (ESV) is υἱοθεσία (*huiothesia*), the legal placing of a son. It is
+  true of you and it is not the betrothal; the betrothal verb in Paul is at 2 Corinthians 11:2.
+  Both images run at once, and [Family as well as marriage](#family-as-well-as-marriage-and-the-two-do-not-compete)
+  takes up why Scripture uses more than one.
+- **Ephesians 1:6 is praise, not the feast.** "To the praise of his glorious grace" is what the
+  passage is for. The wedding feast is γάμος (*gamos*), and in Revelation it is at 19:7 and 19:9.
+
 ## References & Recommended Reading
 
 ### Ancient and Second Temple sources
@@ -1277,6 +1286,8 @@ flowchart TD
   betrothal material feeds into, argued there without the wedding image.
 - [A Day Is as a Thousand Years](../last-things/day-is-a-thousand-years.md) — σαββατισμός (*sabbatismos*) at
   Hebrews 4:9 worked through in full, with the Sabbath-millennium reading this study only points at.
+- [The Kinsman Redeemer](../jesus/kinsman-redeemer.md) — the *goel* office worked through in Ruth on
+  its own terms: the nearer redeemer who declines, the transaction at the gate, and the genealogy.
 - [Israel and the Church](israel-and-the-church.md) — how the church stands in relation to Israel:
   Romans 11's olive tree, what remains ahead for Israel, and the two companies of Revelation 7. It
   does not treat the bridal imagery; that is this study's own subject.
