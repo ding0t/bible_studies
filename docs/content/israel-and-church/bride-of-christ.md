@@ -5,7 +5,7 @@ description: "Scripture calls the church a betrothed bride and says so in its ow
 tags: ["ephesians", "revelation", "john", "song-of-songs", "hosea", "isaiah", "matthew", "1-thessalonians", "dispensationalism", "marriage", "covenant", "sanctification", "rapture", "1-peter", "hebrews", "romans", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
-bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Ruth 2:12", "Ruth 3:9", "Ruth 4:6", "Ruth 4:9-10", "Ruth 4:14", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Genesis 38:25", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "Hosea 2:23", "1 Corinthians 10:16"]
+bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Ruth 2:12", "Ruth 3:9", "Ruth 4:6", "Ruth 4:9-10", "Ruth 4:14", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Genesis 38:25", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Revelation 19:11", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "Hosea 2:23", "1 Corinthians 10:16"]
 date_created: 2026-09-01
 date_modified: 2026-09-21
 ai_provider_models:
@@ -758,6 +758,55 @@ among them, while the *ESV Study Bible* reads the invited as believers who belon
 herself (note on 19:9-10). Revelation says which blessing they receive and never says which company
 they are. The text carries either reading, so this study states both and rests nothing on the
 choice.
+
+### Where the thousand years falls
+
+The wedding pattern runs 7 straight into 8, and Scripture does not. Between the marriage supper and
+the verse component 8 rests on, this site's [statement of faith](../about/statement-of-faith.md)
+holds four things in order: a literal seven-year tribulation, the return of Christ in power
+(Revelation 19:11), a literal thousand-year reign (Revelation 20:1-6), and the final judgment at the
+great white throne (Revelation 20:11-15). Only after those does John write, "Then I saw a new heaven
+and a new earth" (Revelation 21:1, ESV), and then the sentence about God's dwelling that component 8
+is built on.
+
+So the gap between being married and being homed is the longest interval in the pattern by a wide
+margin — and the bride spends it reigning. "They will be priests of God and of Christ, and they will
+reign with him for a thousand years" (Revelation 20:6, ESV) is the wife's share of her husband's
+standing, worked out over an age, before the new creation arrives. That reign is taken up at
+[Reigning with Him](#reigning-with-him), which sits with the rest of what the marriage produces.
+
+```mermaid
+flowchart TD
+    subgraph NOW["NOW — components 1-5"]
+      direction TB
+      A["Purchased · Betrothed<br/>Pledged · Set apart<br/>= already yours"]
+      B["Preparing<br/>= where you stand"]
+      A --> B
+    end
+    subgraph FETCH["THE FETCHING — components 6-7"]
+      direction TB
+      C["6 · Fetched<br/>1 Thess 4:17"]
+      D["7 · Married, and feasting<br/>Rev 19:7-9"]
+      C --> D
+    end
+    subgraph BETWEEN["BETWEEN 7 AND 8 — an age"]
+      direction TB
+      E["Tribulation ends ·<br/>Christ returns<br/>Rev 19:11"]
+      F["The thousand years<br/>the bride reigns<br/>Rev 20:4-6"]
+      G["Great white throne<br/>Rev 20:11-15"]
+      E --> F --> G
+    end
+    subgraph HOME["THE ETERNAL STATE — component 8"]
+      direction TB
+      H["New heaven and new earth<br/>Rev 21:1"]
+      I["8 · Homed<br/>Rev 21:3 · 22:3-5"]
+      H --> I
+    end
+    NOW --> FETCH --> BETWEEN --> HOME
+```
+
+**This shows that God set the longest stretch of the pattern between the wedding and the house, and
+gave His bride a throne to occupy while she waits for it.**
 
 ## 8 · Homed — still ahead
 

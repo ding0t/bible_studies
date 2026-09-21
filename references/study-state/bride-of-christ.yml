@@ -732,6 +732,39 @@ revision_2026-09-21f:
   status: >-
     Committed. File remains draft: false.
 
+revision_2026-09-21g:
+  request: "Is there any sense in the bride study how the millennial kingdom and then new heaven and earth fit in?"
+  finding: >
+    Partially, and the gap was real. "Reigning with Him" already placed the reign after the wedding
+    and distinguished the thousand years (Rev 20:6) from "forever and ever" (22:5), and component 8
+    already rested on Rev 21:3. But: the words "millennium" and "millennial kingdom" appeared
+    NOWHERE on the page; "thousand years" appeared once, inside a word study; "tribulation" twice,
+    both incidental. Nothing placed the eight components on the eschatological timeline. Components
+    7 and 8 sat adjacent as "still ahead" when, on this site's own statement of faith, a seven-year
+    tribulation, the second coming, a literal thousand-year reign and the great white throne fall
+    between the marriage supper and Revelation 21:3. The wedding-pattern framing was compressing a
+    millennium into the gap between two headings.
+  also_noted: >
+    "Reigning with Him" (the thousand years, Rev 20:6) sits AFTER component 8 (the new earth, Rev
+    21:3) in page order, which is chronologically inverted. Not a false claim, since "What the
+    Marriage Produces" says outright that those items are not steps in the sequence -- but the new
+    section now names the order explicitly and links forward to it, so the reader is not left to
+    reorder it themselves.
+  added: >
+    "### Where the thousand years falls", closing component 7. Names the four things between the
+    supper and the new creation in order, sourced from docs/content/about/statement-of-faith.md so
+    it cannot drift from the documented position, and gives a mermaid diagram placing all eight
+    components against the timeline. Built as flowchart TD with four direction-TB subgraphs per
+    diagrams.md's width budget, since a linear LR chain of this length would render its text at a
+    fraction of 16px.
+  verification: >
+    Revelation 19:11, 20:4, 20:6, 20:11, 21:1 all checked against study-notes.db before citing.
+    Five references added to bible_references. Build strict-clean, no dead anchors, validator
+    unchanged.
+  NOT_REVIEWED: "The whole of 'Where the thousand years falls' is new prose."
+  status: >-
+    Complete. File remains draft: false.
+
 last_updated: "2026-09-21"
 
 # ---------------------------------------------------------------------------
