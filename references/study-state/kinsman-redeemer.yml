@@ -1,0 +1,95 @@
+slug: "kinsman-redeemer"
+title: "The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back"
+status: drafting
+target_path: "docs/content/jesus/kinsman-redeemer.md"
+
+primary_passage: "Ruth 4:1-22"
+supporting_passages:
+  - "Ruth 1:1-22"
+  - "Ruth 2:1-23"
+  - "Ruth 3:1-18"
+  - "Leviticus 25:25"
+  - "Deuteronomy 25:5-10"
+  - "Deuteronomy 23:3-6"
+  - "Matthew 1:5"
+genre: [ot-narrative]
+
+placement_reasoning: >
+  Filed under jesus/ rather than commentaries/08-ruth/ on the precedent of
+  jesus/melchizedek-priesthood.md -- an Old Testament figure studied as a type of Christ belongs to
+  Christology, with the book tagged. Flagged to the user; the alternative is a book study under
+  commentaries/08-ruth/, or the salvation/ section, which the taxonomy defines but has never
+  created. Moving it later is cheap while draft: true.
+
+stages:
+  scoping: {done: true, notes: "OT narrative. Requested as a light draft complementing bride-of-christ.md, which cites Ruth 2:12, 3:9, 4:6, 4:10, 4:14."}
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Set "in the days when the judges ruled" (1:1) -- the era between Joshua and David. Written
+        after David's accession, since 4:17-22 names him and 4:7 explains a custom as belonging to
+        "former times in Israel" (ESV Study Bible, introduction to Ruth). Authorship unnamed;
+        rabbinic tradition (b. Baba Bathra 14a-15b) says Samuel, which the ESV introduction doubts
+        on the ground that Samuel died before David reigned.
+    literary_context:
+      done: true
+      notes: >
+        Famine drives a Bethlehem family into Moab; three deaths leave three widows; the book runs
+        from emptiness to a genealogy. Three legal institutions drive the plot: the goel (Lev
+        25:25), the levirate duty (Deut 25:5-10), and gleaning rights (Lev 19:9-10). The narrative
+        resolves at the town gate in ch. 4 -- a public, witnessed legal transaction.
+    content_word_studies:
+      done: true
+      terms:
+        - {word: "גֹּאֵל", language: hebrew, transliteration: "goel", strongs_id: "H1350", gloss: "kinsman-redeemer", notes: "TWOT root 300, gaal. The kinsman with both right and obligation to buy back what a relative lost."}
+        - {word: "כָּנָף", language: hebrew, transliteration: "kanaph", strongs_id: "H3671", gloss: "wing, corner of a garment", notes: "The inclusio: Boaz blesses Ruth under YHWH's kenafav (2:12); she asks him to spread his own kanaph over her (3:9). He becomes the answer to his own blessing. Same noun at Ezekiel 16:8."}
+        - {word: "קָנָה", language: hebrew, transliteration: "qanah", strongs_id: "H7069", gloss: "acquire, buy", notes: "Ruth 4:10 qaniti -- Boaz acquires the land and Ruth in one witnessed act."}
+        - {word: "חֶסֶד", language: hebrew, transliteration: "chesed", strongs_id: "H2617", gloss: "covenant loyalty", notes: "NOT YET VERIFIED in this draft -- flagged as the obvious next word study; the book is usually read around it and the draft does not yet work it."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >
+        Culturally bound: gleaning rights, the sandal ceremony (4:7), the gate as courthouse.
+        Transcultural: redemption requires a kinsman who is able and willing, and it costs the
+        redeemer something.
+    theological_principle:
+      done: true
+      notes: >
+        Redemption in Israel was a family office with three requirements -- kinship, ability, and
+        willingness -- and Ruth is the book where all three are tested in public. The nearer
+        redeemer has the right and declines it at cost to himself (4:6); Boaz exercises it and pays.
+        The genealogy is the point the narrator himself makes: this transaction produces David, and
+        Matthew puts Ruth in the Messiah's line by name (Matt 1:5).
+    application_draft: {done: true, notes: "Land on Christ as the kinsman who was able and willing, and on the reader as the one with no claim of their own."}
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Matthew 1:5", relation: "Ruth named in the Messiah's genealogy"}
+      - {ref: "Isaiah 54:5", relation: "God titled Redeemer, goel"}
+      - {ref: "Ezekiel 16:8", relation: "kanaph as the betrothal gesture"}
+  draft: {done: true, notes: "Light draft. draft: true."}
+
+open_questions:
+  - >
+    THE CONTESTED POINT, deliberately left open in the draft: Deuteronomy 23:3 bars a Moabite from
+    the assembly of the LORD "even to the tenth generation", and David is four generations from
+    Boaz. The draft states the tension and names the main lines of resolution (the Hebrew is
+    masculine; the ban may concern the nation cultically rather than an individual who converts;
+    Ruth's confession at 1:16 as the hinge) without settling it. A full study should work this
+    properly -- it is the single most substantial exegetical problem in the book.
+  - >
+    chesed is not yet worked. The book is usually read around it and this draft does not cite it at
+    all. That is the largest gap.
+  - >
+    The m. Kiddushin 1:1 / qanah question carried over from bride-of-christ: does the Mishnah's "a
+    woman is acquired" use the same root as Boaz's qaniti? Unverifiable here -- the sefaria cache
+    holds only English for that tractate.
+
+resources_consulted:
+  - {source: "ESV Study Bible (Crossway)", via: "study-notes.db", contributed: "Introduction to Ruth -- date, authorship, the 4:7 'former times' argument. Verse text for every ESV quotation."}
+  - {source: "CSB Ancient Faith Study Bible", via: "study-notes.db", contributed: "Circumstances of writing; the Gentile-inclusion theme and its link to Isaiah 56:3-7."}
+  - {source: "bible-text.db interlinear (MACULA Hebrew, WLC)", via: "bible_interlinear", contributed: "kanaph at Ruth 2:12 and 3:9; qanah at 4:10."}
+  - {source: "TWOT root map", via: "twot_strongs", contributed: "goel H1350 = root 300, gaal."}
+
+last_updated: "2026-09-21"
