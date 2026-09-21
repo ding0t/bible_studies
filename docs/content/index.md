@@ -4,7 +4,7 @@ category: "other"
 description: "Personal Bible study notes: the Old and New Testaments read in context, with word studies in the original languages and every claim traceable to a source."
 draft: false
 date_created: 2026-07-10
-date_modified: 2026-09-06
+date_modified: 2026-09-21
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -29,8 +29,7 @@ ai_provider_models:
 </div>
 
 Long before Jesus spoke those words, the road was already there — Isaiah told Israel to walk in it
-seven centuries before Bethlehem. When Jesus claimed to *be* that way, he wasn't coining a new
-metaphor; he was fulfilling one already given.
+seven centuries before Bethlehem. When Jesus claimed to *be* that way, he was fulfilling what the Old Testament had foreshadowed of the Messiah.
 
 Jesus' earliest followers heard it that way too: before anyone called them Christians,
 they called themselves the Way — Greek **ὁδός** (*hodos*), the
@@ -58,12 +57,13 @@ what I learned, fix errors I did not pick up earlier, and refine a position left
 
 The studies have a focus on:
 
-- Understanding faith in God as described in the Old and New testaments of the Bible, in order to be prepared to explain the truth in love.
+- Building practical knowledge and wisdom of God. Helped along by consistent thinking about ["how does this impact me"](about/key-takeaways.md).
+- Understanding faith in God as described in the Old and New Testaments of the Bible, in order to be prepared to explain the truth in love.
+- Exegetical and expository [original-language studies](about/about-our-datasets.md). That is using source texts to elicit meaning sometimes lost in just one or more English translations.
 - Bible end times — Scripture says we are in the last days, and it matters to know where we stand with God before hard days arrive.
-- Questions that come up often, worked through original languages and various English translations to improve accuracy of reading and context.
-- Starting the journey of learning biblical Hebrew.
+- Starting the journey of [learning biblical Hebrew](resources/hebrew-learning-resources.md).
 - Answering little [side quests](god/world-population-declares-gods-creation-and-biblical-truth.md) that come up.
-- Getting some teaching ideas together as they come.
+- Keeping a [tidy house](about/our-taxonomy.md).
 
 ## The gospel
 
@@ -225,7 +225,7 @@ See the full [Recently Updated](about/recent-updates.md) list for more.
 
 ## Recommended bible resources
 
-- [Got Questions](https://www.gotquestions.org/)
-- [Blue Letter Bible](https://www.blueletterbible.org/)
-- [Bible Facts](https://biblefacts.org/)
+- [Got Questions](https://www.gotquestions.org/) — little snippets of well-structured expositional answers.
+- [Blue Letter Bible](https://www.blueletterbible.org/) — free online bible study tooling.
+- [Bible Facts](https://biblefacts.org/) — excellent studies based in biblical and extra-biblical texts.
 - [eBible.org](https://ebible.org/) — free Bibles in many languages and formats; also the source behind several translations this site's own tools query directly.
