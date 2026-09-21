@@ -692,6 +692,46 @@ revision_2026-09-21e:
   status: >-
     Committed. File remains draft: false.
 
+revision_2026-09-21f:
+  request: >
+    "Look to the book of Ruth - do we use it - have we missed something between Ruth and Boaz -
+    kinsman redeemer - so much in Ruth."
+  gap_found: >
+    Ruth 3:9 was the only verse used, twice, both added earlier the same day. Ruth 4 -- the actual
+    redemption transaction, which is the whole point of the book's legal machinery -- was untouched.
+    No Ruth study exists anywhere in docs/content/.
+  added:
+    - >
+      Component 1, "The Redeemer behind the transaction": Ruth 4 worked in. The nearer redeemer
+      weighs the claim against his own estate and steps back (4:6); Boaz acts at the gate before
+      witnesses and names land and wife in one breath (4:10), where "I have bought" is qaniti from
+      qanah (H7069); the women of Bethlehem name the goel (4:14). The point for this study is that
+      redemption and marriage are ONE witnessed transaction -- which is components 1 and 2 in a
+      single legal act -- and that Ruth is called a Moabite at the moment of acquisition.
+    - >
+      Component 2, in the Ezekiel 16:8 section where kanaph is already under discussion: the
+      inclusio inside Ruth itself. Boaz blesses Ruth by the God "under whose wings you have come to
+      take refuge" (2:12, kenafav, same kanaph H3671), and a chapter later she asks him to spread
+      his own over her. He becomes the answer to the blessing he pronounced.
+  claim_deliberately_omitted: >
+    The strongest available tie would have been that m. Kiddushin 1:1's "a woman is ACQUIRED in
+    three ways" uses the same qanah root as Boaz's qaniti at Ruth 4:10 -- which would bind the
+    study's Mishnah citation directly to Ruth. It is NOT asserted, because it could not be
+    verified: references/build/cache/sefaria holds only English translations of Mishnah Kiddushin,
+    no Hebrew, and AGENTS.md is explicit that an unreachable source is never licence to answer from
+    memory. Left as a lead for anyone with a Hebrew Mishnah to hand; if it verifies it belongs in
+    component 1 or 2.
+  verification: >
+    Ruth 2:12, 4:6, 4:9, 4:10, 4:14 checked against study-notes.db (ESV); kanaph H3671 confirmed at
+    both Ruth 2:12 and 3:9, and qanah H7069 at Ruth 4:10, by interlinear; goel H1350 is TWOT root
+    300. Five Ruth references added to bible_references, so commentary_index.py was re-run -- it
+    generated two new pages (Ruth 2 and Ruth 3) and picked up John 1 and Revelation 7, which had
+    been added with component 8 without the index being regenerated at the time.
+  measurements: "68 sections, median 172, longest 542, zero walls, one over the 400 target (pre-existing)."
+  NOT_REVIEWED: "Both new Ruth passages are new prose."
+  status: >-
+    Committed. File remains draft: false.
+
 last_updated: "2026-09-21"
 
 # ---------------------------------------------------------------------------

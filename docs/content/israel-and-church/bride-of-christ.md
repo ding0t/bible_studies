@@ -5,7 +5,7 @@ description: "Scripture calls the church a betrothed bride and says so in its ow
 tags: ["ephesians", "revelation", "john", "song-of-songs", "hosea", "isaiah", "matthew", "1-thessalonians", "dispensationalism", "marriage", "covenant", "sanctification", "rapture", "1-peter", "hebrews", "romans", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
-bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Genesis 38:25", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "Hosea 2:23", "1 Corinthians 10:16"]
+bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Ruth 2:12", "Ruth 3:9", "Ruth 4:6", "Ruth 4:9-10", "Ruth 4:14", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Genesis 38:25", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "Hosea 2:23", "1 Corinthians 10:16"]
 date_created: 2026-09-01
 date_modified: 2026-09-21
 ai_provider_models:
@@ -331,8 +331,23 @@ H1350) is the kinsman who holds both the right and the obligation to buy back wh
 lost, and Isaiah gives God the title: "your Redeemer the Holy One of Israel" (Isaiah 54:5, ESV).
 Ruth asks Boaz for it in as many words, and asks for the wedding gesture in the same breath:
 "Therefore spread the corner of your garment over your servant; for you are a near kinsman"
-(Ruth 3:9, WEB). **This shows that God did not delegate the purchase — He is the kinsman, and the
-price He paid was His own Son's blood.**
+(Ruth 3:9, WEB).
+
+Ruth is where the office is shown working, and the book spends its last chapter on the legal
+detail. A nearer redeemer holds the prior claim, and he weighs it against his own estate: "I cannot
+redeem it for myself, lest I impair my own inheritance" (Ruth 4:6, ESV). Boaz takes it up in public,
+at the gate, in front of witnesses, and names two things in one breath — the land, and "Also Ruth
+the Moabite, the widow of Mahlon, I have bought to be my wife, to perpetuate the name of the dead in
+his inheritance" (Ruth 4:10, ESV). "I have bought" is <span dir="rtl">קָנִיתִי</span> (*qaniti*),
+from <span dir="rtl">קָנָה</span> (*qanah*, H7069), to acquire; and the sentence closes, "You are
+witnesses this day."
+
+So the redemption and the marriage are one witnessed transaction, and the woman it acquires is
+called a Moabite at the moment it happens — a foreigner, named as one, brought inside. The women of
+Bethlehem say what has actually been done: "Blessed be the LORD, who has not left you this day
+without a redeemer" (Ruth 4:14, ESV). **This shows that God takes up a right no one else would
+exercise, and pays it out on a bride with no claim of her own — He is the kinsman, and the price He
+paid was His own Son's blood.**
 
 ### The covenant, and the cup it was sealed in
 
@@ -394,7 +409,10 @@ The gesture is legal, not affectionate. "I spread my garment over you" is
 (*paras*, H6566), to spread, over <span dir="rtl">כָּנָף</span> (*kanaph*, H3671), the wing or
 corner of a garment. It is the same verb and the same noun Ruth uses of Boaz, in the same sentence
 where she calls him a near kinsman (Ruth 3:9) — so the act that redeems and the act that betroths
-are one gesture in the Hebrew. The *ESV Study Bible* reads it the same way, noting that spreading
+are one gesture in the Hebrew. Ruth's own book sets the word down twice: Boaz first blesses her by
+the God "under whose wings you have come to take refuge" (Ruth 2:12, ESV), which is
+<span dir="rtl">כְּנָפָיו</span> (*kenafav*), the same <span dir="rtl">כָּנָף</span> — and a chapter
+later she asks him to spread his own over her. He becomes the answer to the blessing he pronounced. The *ESV Study Bible* reads it the same way, noting that spreading
 the garment "signals intent to marry" and the covenant "signifies the formal commitment" (note on
 Ezekiel 16:8).
 

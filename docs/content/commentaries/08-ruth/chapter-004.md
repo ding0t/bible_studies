@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 4:18-22
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:6
 <!-- commentary-index:auto-end -->
