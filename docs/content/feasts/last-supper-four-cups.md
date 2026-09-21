@@ -5,11 +5,11 @@ description: "What the Passover Seder's four cups reveal about Jesus's vow at th
 tags: ["passover", "last-supper", "communion", "method/word-study", "lang/greek", "matthew", "mark", "luke"]
 draft: false
 primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
-bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "1 Corinthians 10:16", "1 Corinthians 5:7", "Exodus 6:6-7", "Exodus 12:13", "Exodus 12:14", "Exodus 24:8", "Colossians 2:16-17", "Leviticus 17:10-12", "Psalm 116:13", "Hosea 2:19-23", "Jeremiah 31:31-34", "John 6:53-58", "John 14:1-3", "Romans 6:18", "Romans 8:23", "Romans 8:30", "Ephesians 1:7", "Colossians 1:13", "Colossians 3:4", "Hebrews 9:15", "1 Peter 1:18-19", "Isaiah 25:6-8", "Matthew 8:11", "Matthew 22:1-14", "Matthew 25:1-13", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3"]
+bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Corinthians 11:23-26", "1 Corinthians 10:16", "1 Corinthians 5:7", "Exodus 6:6-7", "Exodus 12:13", "Exodus 12:14", "Exodus 24:8", "Colossians 2:16-17", "Leviticus 17:10-12", "Psalm 116:13", "Hosea 2:19-23", "Jeremiah 31:31-34", "John 6:53-58", "John 14:1-3", "Romans 6:18", "Romans 8:23", "Romans 8:30", "Ephesians 1:7", "Colossians 1:13", "Colossians 3:4", "Hebrews 9:15", "1 Peter 1:18-19", "Isaiah 25:6-8", "Matthew 8:11", "Matthew 22:1-14", "Matthew 25:1-13", "Luke 14:15-24", "Revelation 19:6-9", "Revelation 21:3", "Matthew 1:20", "Matthew 1:24"]
 zadok_year: 4036
 gregorian_year: 33
 date_created: 2026-07-19
-date_modified: 2026-09-20
+date_modified: 2026-09-21
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -404,6 +404,14 @@ same verb whichever English word a translator picks.
 formula, so this is an echo rather than a quotation. But the shared reflexive
 makes it more than a generic overlap — of all the ways to say "I will come back for you," Jesus uses
 the construction the fourth promise uses, on the night of the meal built around it.
+
+παραλαμβάνω carries a second line of evidence this study only needs in passing. Its occurrence at
+John 14:3 is annotated in the Louw-Nida domain 34.53, the same domain as Joseph's taking of Mary as
+his wife at Matthew 1:20 and 1:24, which is the verb's bridal sense. [The Bride of
+Christ](../israel-and-church/bride-of-christ.md) lays the domain data out occurrence by occurrence
+and follows the betrothal sequence — a father's house, a place prepared, a return, a taking — that
+John 14:1-3 moves through. Read alongside the fourth promise, the two arrive together: the cup of
+acquisition and the verb of marriage sit in the same saying, on the same evening.
 
 ### Reading John 14:3: rapture, second coming, or death
 

@@ -5,7 +5,7 @@ description: "Scripture calls the church a betrothed bride and says so in its ow
 tags: ["ephesians", "revelation", "john", "song-of-songs", "hosea", "isaiah", "matthew", "1-thessalonians", "dispensationalism", "marriage", "covenant", "sanctification", "rapture", "1-peter", "hebrews", "romans", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
-bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14"]
+bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Isaiah 4:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Psalm 19:5", "Joel 2:16", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Tobit 7:13-16", "Song of Songs 2:10-13", "Song of Songs 8:6-7", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 20:6", "Hosea 2:16", "Ezekiel 16:8-9", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "1 Corinthians 6:11", "1 Corinthians 6:17", "Ephesians 1:11", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "1 Peter 1:4", "1 Peter 1:18-19", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "Hosea 2:23", "1 Corinthians 10:16"]
 date_created: 2026-09-01
 date_modified: 2026-09-21
 ai_provider_models:
@@ -15,9 +15,9 @@ ai_provider_models:
 
 # The Bride of Christ
 
-Paul quotes Genesis: a man leaves his father and mother and holds fast to his wife. Then he says
-something about that verse which is easy to read straight past. **"This mystery is profound, and I
-am saying that it refers to Christ and the church"** (Ephesians 5:32, ESV).
+Paul quotes Genesis: a man leaves his father and mother and holds fast to his wife. Then he clearly links
+the pattern of marriage with Christ and the church
+ **"This mystery is profound, and I am saying that it refers to Christ and the church"** (Ephesians 5:32, ESV).
 
 He is not using marriage as an illustration. He is telling the Ephesians that marriage had been carrying
 this meaning the whole time.
@@ -25,7 +25,7 @@ this meaning the whole time.
 This is an undeniable type throughout Scripture. Paul states it outright. John the Baptist
 states it. Revelation states it twice in its closing chapters.
 
-But not everything taught about the bride comes from Scripture. A good deal of it comes from
+But not everything taught about the bride comes from Scripture. It also comes from
 reconstructions of the first-century Jewish wedding — the father inspecting the chamber, the groom's
 "only my father knows the day," the bridal chamber prepared in the father's house. Some of that is
 documented. Some of it has no ancient source at all.
@@ -39,10 +39,10 @@ her, the marriage supper, the Father's house — set the church in an attitude o
 
 ### Types & Prophecy
 
-God took marriage as the picture of His covenant long before Paul: "I will betroth you to me forever"
+God used marriage as the picture of His covenant in the Old Testament: "I will betroth you to me forever"
 (Hosea 2:19), "your Maker is your husband" (Isaiah 54:5), "as the bridegroom rejoices over the bride,
 so shall your God rejoice over you" (Isaiah 62:5). The New Testament does not invent the image; it
-identifies the bridegroom. It also gives her a second title at the wedding: at Revelation 19:7 the word the
+identifies clearly who the bridegroom is. It also gives her a second title at the wedding: at Revelation 19:7 the word the
 ESV prints as "Bride" is γυνή (*gynē*), *wife*, and at 21:9 the angel says both — "the Bride, the wife of the
 Lamb". The bride stands in both of Scripture's closing chapters — the new
 Jerusalem "prepared as a bride adorned for her husband" (21:2), "the Bride, the wife of the Lamb"
@@ -56,8 +56,8 @@ LORD of hosts is his name" (Isaiah 54:5, ESV); "I was their husband, declares th
 31:32, ESV); "you will call me 'My Husband'" (Hosea 2:16, ESV). Then John the Baptist points at a man
 from Nazareth and says "the one who has the bride is the bridegroom" (John 3:29), and Jesus calls
 Himself the bridegroom to His face (Matthew 9:15) and again in a parable of the kingdom (Matthew
-25:1). **This shows that God the Son holds the place the God of Israel holds** — and He steps into
-it without a sentence of explanation. See [The title He takes](#the-title-he-takes).
+25:1). **This shows that God the Son holds the place the God of Israel holds**.
+See [The title He takes](#the-title-he-takes).
 
 At the Last Supper Jesus tells His disciples He is going to His Father's house to prepare a place,
 and will come again and "take you to myself" (John 14:3). The verb is the one used of a man receiving
@@ -92,7 +92,9 @@ meal unfinished, with a promise to complete it.
 
 Lord Jesus, you called us yours before we were fit to be called anything. Keep us from wandering
 while we wait, and from dressing ourselves in what you have not given. Make us ready for the day you
-come, and bring us to the table you have not yet finished. In Jesus' name. Amen.
+come, and bring us to the table you have not yet finished. 
+
+In Jesus' name. Amen.
 
 ## Where Scripture Says It Itself
 
@@ -129,7 +131,7 @@ ESV). The friend of the bridegroom — the *shoshbin* — was a real office, not
 honored for honoring the groom, not for seeking his own honor" (*NIV Cultural Backgrounds Study
 Bible*, note on John 3:29). John is describing his own job.
 
-**Revelation, at the end.** "The marriage of the Lamb has come, and his Bride has made herself
+**Revelation, the end times.** "The marriage of the Lamb has come, and his Bride has made herself
 ready" (19:7); "Blessed are those who are invited to the marriage supper of the Lamb" (19:9); the new
 Jerusalem "prepared as a bride adorned for her husband" (21:2); "Come, I will show you the Bride, the
 wife of the Lamb" (21:9).
@@ -157,10 +159,9 @@ The first arrow in that diagram carries the weight of everything after it. God b
 bridegroom is then identified as Jesus. Put the two halves side by side and the image stops being
 decoration and starts making a claim about who Jesus is.
 
-In the Old Testament the husband is God, and He says so in His own voice. Isaiah attaches the title
-directly to the divine name: "For your Maker is your husband, the LORD of hosts is his name; and the
+In the Old Testament the husband is God. "For your Maker is your husband, the LORD of hosts is his name; and the
 Holy One of Israel is your Redeemer, the God of the whole earth he is called" (Isaiah 54:5, ESV).
-Jeremiah makes it the grievance behind the broken covenant — "my covenant that they broke, though I
+Jeremiah makes it the relationship grievance behind the broken covenant — "my covenant that they broke, though I
 was their husband, declares the LORD" (Jeremiah 31:32, ESV). Hosea makes it the promise of what
 Israel will one day call Him: "you will call me 'My Husband'" (Hosea 2:16, ESV).
 
@@ -219,7 +220,7 @@ on Matthew 1:19).
 Two independent witnesses, rabbinic law and a Gospel narrative that presupposes it, agreeing on the
 same point. That is the evidentiary shape worth building on.
 
-### There was a real interval, and it had a purpose
+### The after betrothal interval is a time of preparation
 
 "A virgin is given twelve months from the [time her intended] husband claimed her, [in which] to
 prepare herself for marriage. Just as [such a period] is given to the woman, so is it given to the
@@ -270,12 +271,14 @@ across only three occurrences.
 
 ### A wedding narrative from the period
 
-The book of Tobit contains an extended wedding scene, and being a story rather than a legal ruling it
-shows the customs performed rather than codified. Tobit
-is not canonical in the Protestant canon this site works from, and it is used here as a historical
-witness to Jewish practice, not as Scripture.
+Everything documented above comes from the Mishnah, codified around 200 AD, or from a modern
+commentary's reading of it. The book of Tobit shows three of the same customs in use centuries
+before Christ, in a story rather than a legal ruling — the customs performed instead of codified.
+Tobit is not canonical in the Protestant canon, and it is used here as a historical witness to
+Jewish practice, not as Scripture.
 
-Raguel gives his daughter Sara to Tobias, and four details land on points already made above:
+Raguel gives his daughter Sara to Tobias, and four details bear on points already made above —
+three of them confirming, the fourth qualifying:
 
 > ✝️ Tobit 7:13-16 (KJV Apocrypha)
 > 13 Then he called his daughter Sara, and she came to her father, and he took her by the hand, and
@@ -284,27 +287,19 @@ Raguel gives his daughter Sara to Tobias, and four details land on points alread
 > instrument of covenants, and sealed it. 15 Then they began to eat. 16 After Raguel called his wife
 > Edna, and said unto her, Sister, prepare another chamber, and bring her in thither.
 
-- **A written, sealed marriage covenant** (7:14) — the *shtar*, the second of the three means of
-  betrothal in *m. Kiddushin* 1:1, shown in use rather than merely listed.
-- **The bride is led to the groom's father** (7:13) — "lead her away to thy father," which is the
-  same arrangement the *NIV Cultural Backgrounds Study Bible* describes at Matthew 25:10, from a
-  source centuries older than the Mishnah.
+- **A written, sealed marriage covenant** (7:14) — the *shtar*, the second of *m. Kiddushin* 1:1's
+  three means of betrothal, here in use.
+- **The bride is led to the groom's father** (7:13) — "lead her away to thy father," the arrangement
+  the *NIV Cultural Backgrounds Study Bible* describes at Matthew 25:10.
 - **A chamber is prepared for the couple** (7:16), by the bride's household in this case.
-- **An extended feast** — "he kept the wedding feast fourteen days," and Raguel binds Tobias by oath
-  not to leave "till the fourteen days of the marriage were expired" (8:19-20).
+- **An extended feast** of **fourteen** days (8:19-20), double the seven of Genesis 29:27 and Judges
+  14:12. A multi-day feast is the constant; its length varies, which is as much as the seven-day
+  resonance above can bear.
 
-Tobit gives **fourteen** days, double the seven of Genesis 29:27 and Judges 14:12.
-The multi-day feast is the constant; its length is not.
-Tobit also has the couple pray together before consummation (8:4-8), which no legal source would
-record.
-
-Tobit's evidence carries two limits. Its exiles are in Nineveh, deported from Naphtali "in the time of
-Enemessar king of the Assyrians" (1:2); Ecbatana in Media, where the wedding happens, is Raguel's
-home (3:7). The book was composed some centuries
-before Christ, so it witnesses to Diaspora practice of its own period rather than to first-century
-Judea. And the scrollmapper dataset this repo carries it in supplies no per-book translation label;
-the wording is the KJV Apocrypha, which is public domain by age regardless of how the dataset itself
-is licensed.
+One limit. Tobit's exiles are in Nineveh (1:2) and the wedding is at Ecbatana in Media (3:7), so the
+book witnesses to Diaspora practice some centuries before Christ. That distance is what makes the
+agreement useful: two traditions, separated by geography and by several hundred years, describing
+the same customs.
 
 ### The wedding feast was already a picture of the age to come
 
@@ -372,33 +367,41 @@ From the same evening, having given the cup, Jesus says: "I will not drink again
 this fruit of the vine until that day when I drink it new with you in my Father's kingdom" (Matthew
 26:29, ESV). A covenant meal deliberately left unfinished, with the promise to finish it.
 
+Which cup He set down bears on the marriage. Read against the Passover Seder's four cups, the cup in
+His hand is the third, the one Paul still calls "the cup of blessing that we bless"
+(1 Corinthians 10:16, ESV), which leaves the fourth as the cup deferred. The fourth carries the last
+of God's four exodus promises: "I will take you to be my people" (Exodus 6:7, ESV). Hosea says that
+same acquisition as a betrothal — "I will betroth you to me forever... I will betroth you to me in
+faithfulness" (Hosea 2:19-20, ESV) — and four verses later gives the formula itself: "I will say to
+Not My People, 'You are my people'" (Hosea 2:23, ESV). **This shows that God has set the day He takes
+a people to Himself as a wedding day**, and has put a cup aside to drink on it. [The Last Supper and
+the Cups of Passover](../feasts/last-supper-four-cups.md) works the four-cup case through in full,
+and marks its own limits: the Gospels number no cups, so the identification rests on the promise
+Exodus attaches to the fourth.
+
 ## How Much Weight the Song of Songs Can Carry
 
 The Song is the obvious place to look for this material, and it needs handling with more care than it
 usually gets.
 
-### It was read this way very early
+### Read this way early, and read as poetry now
 
-Rabbi Akiva's defence of the book is famous and it is preserved in the Mishnah: "the whole world is
-not as worthy as the day on which the Song of Songs was given to Israel; for all the writings are
-holy but the Song of Songs is the holy of holies" (*m. Yadayim* 3:5). He was arguing that no one had
-ever seriously disputed its canonicity. Jewish tradition read the book of God and Israel; Christian
-tradition read it of Christ and the church, and did so early — Eusebius records that Origen "commenced
-his Commentaries on the Song of Songs" while in Athens and "completed these also, ten books in number"
-after returning to Caesarea (*Ecclesiastical History* 6.32).
+The bridal reading is ancient. Rabbi Akiva's defence of the book is preserved in the Mishnah: "the
+whole world is not as worthy as the day on which the Song of Songs was given to Israel; for all the
+writings are holy but the Song of Songs is the holy of holies" (*m. Yadayim* 3:5). Jewish tradition
+read the book of God and Israel; Christian tradition read it of Christ and the church, and did so
+early — Eusebius records that Origen "commenced his Commentaries on the Song of Songs" while in
+Athens and "completed these also, ten books in number" after returning to Caesarea (*Ecclesiastical
+History* 6.32).
 
-### How contemporary scholarship reads the Song
-
-Contemporary evangelical scholarship generally reads the Song as what it appears to be — love poetry
+Contemporary evangelical scholarship reads the Song as what it appears to be — love poetry
 celebrating marriage between a man and a woman, with the couple "apparently betrothed" (*ESV Study
-Bible*, note on Song 1:2-2:17). The *NIV Cultural Backgrounds Study Bible* compares its imagery to
-Egyptian love poetry, where lovemaking is likened to pomegranate wine (note on Song 1:2).
-
-That reading is a discipline rather than a demotion. The same volume warns, on the foxes of 2:15,
-that the image "has given rise to an enormous number of speculative interpretations" and "is not
-meant to be grist for imaginative interpreters" (note on Song 2:15). A book read allegorically
-line-by-line will yield whatever the reader brought to it, which is precisely why the identification
-in Ephesians 5:32 carries weight the Song cannot supply on its own.
+Bible*, note on Song 1:2-2:17), its imagery comparable to Egyptian love poetry (*NIV Cultural
+Backgrounds Study Bible*, note on Song 1:2). That reading is a discipline. The same volume warns, on
+the foxes of 2:15, that the image "has given rise to an enormous number of speculative
+interpretations" and "is not meant to be grist for imaginative interpreters." A book read
+allegorically line-by-line will yield whatever the reader brought to it, which is why the
+identification in Ephesians 5:32 carries weight the Song cannot supply on its own.
 
 ### The one place God is named
 
@@ -937,7 +940,9 @@ flowchart TD
 - Tobit 7:13-16 and 8:19-20 (the sealed marriage covenant, the bride led to the groom's father, the
   prepared chamber, the fourteen-day feast) — KJV Apocrypha wording, public domain, from this repo's
   `references/open-data/scrollmapper-bible-databases-deuterocanonical` source set. Cited as an
-  extra-biblical historical witness to Jewish wedding practice, not as Scripture.
+  extra-biblical historical witness to Jewish wedding practice, not as Scripture. The scrollmapper
+  dataset supplies no per-book translation label; the wording is the KJV Apocrypha, which is public
+  domain by age regardless of how the dataset itself is licensed.
 - Eusebius, *Ecclesiastical History* 6.32 (Origen begins his commentary on the Song of Songs in
   Athens and completes it, in ten books, at Caesarea) — Nicene and Post-Nicene Fathers, series 2,
   public domain, from this repo's `references/open-data/scrollmapper-bible-databases-deuterocanonical`

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 6:6-7
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 6:7
 <!-- commentary-index:auto-end -->

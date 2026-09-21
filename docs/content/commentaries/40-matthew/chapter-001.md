@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 1:20
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:21
 - [Biblical Numerology](../../scripture/numerology.md) — 1:17
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 1:20-21
