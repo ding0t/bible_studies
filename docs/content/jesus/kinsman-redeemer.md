@@ -8,7 +8,8 @@ primary_passage: "Ruth 4:1-22"
 bible_references: ["Ruth 1:1", "Ruth 1:16", "Ruth 2:12", "Ruth 3:9", "Ruth 4:1-12", "Ruth 2:1", "Ruth 4:6", "Ruth 4:9-10", "Ruth 4:14", "Ruth 4:17-22", "Leviticus 25:25", "Leviticus 19:9-10", "Deuteronomy 25:5-10", "Deuteronomy 23:3-6", "Matthew 1:5", "Isaiah 54:5", "Ezekiel 16:8", "Isaiah 56:3-7", "Judges 17:6"]
 date_created: 2026-09-21
 date_modified: 2026-09-21
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5
 ---
 
 # The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back
