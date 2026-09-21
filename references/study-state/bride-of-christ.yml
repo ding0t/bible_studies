@@ -765,6 +765,36 @@ revision_2026-09-21g:
   status: >-
     Complete. File remains draft: false.
 
+revision_2026-09-21h:
+  request: >
+    "Is there anything in section 8 we can expand on married life? 'To do good works prepared in
+    advance' - a new heaven and new earth? The final picture in revelation?"
+  finding: >
+    The user's hunch about the two 'preparings' verifies, and precisely. John 14:2's "I go to
+    prepare a place for you" is hetoimasai, from hetoimazo (G2090). Ephesians 2:10's "which God
+    prepared beforehand" is proetoimasen, from proetoimazo (G4282) -- pro prefixed to the same root.
+    Neither Ephesians 2:10 nor latreuo appeared anywhere in the study before this.
+  added: >
+    "### What married life in that house is", closing component 8. Revelation's three verbs for what
+    goes on in the house -- service (latreuo G3000 at 22:3, the priestly-duty word), sight (22:4),
+    rule (22:5) -- plus the traffic through it (21:24), then the hetoimazo/proetoimazo pair.
+  marked_not_overclaimed: >
+    proetoimazo is a compound rather than the identical verb and Paul gives no citation formula, so
+    the prose calls it a shared root and not a quotation -- the same standard the study already
+    applies to paralambano/lambano. The two preparings are also explicitly aimed at different times:
+    the works to walk in NOW, the place to walk into THEN. Ephesians 2:10 is about this life and the
+    section says so rather than annexing it to the eternal state.
+  verification: >
+    John 14:2 and Ephesians 2:10 interlinears confirm hetoimazo/proetoimazo. Revelation 22:3
+    interlinear confirms latreusousin from latreuo; the ESV renders it "worship" and the
+    unfoldingWord interlinear "will serve", and the section holds both inside the word's range
+    rather than picking the one that suits. Revelation 21:24, 22:3, 22:4, 22:5 and Ephesians 2:10
+    checked against study-notes.db before citing.
+  measurements: "70 sections, median 175, zero walls, one over the 400 target (pre-existing)."
+  NOT_REVIEWED: "The whole of 'What married life in that house is' is new prose."
+  status: >-
+    Complete. File remains draft: false.
+
 last_updated: "2026-09-21"
 
 # ---------------------------------------------------------------------------
