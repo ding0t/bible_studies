@@ -9,7 +9,7 @@ location is a property of one machine, not of the project.
 may be quoted; they should not publish the layout of anyone's disks. So the location is read from
 an environment variable instead of being hardcoded in a dozen scripts:
 
-    export BIBLE_MEDIA_ROOT=~/Documents/bible
+    export BIBLE_MEDIA_ROOT=~/bible-media
 
 `DEFAULT_MEDIA_ROOT` keeps the previous behaviour when the variable is unset, so nothing breaks on
 the machine this was built on -- but a second machine (or anyone who clones this) sets the variable

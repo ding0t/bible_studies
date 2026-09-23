@@ -56,7 +56,9 @@ than assuming open."""
 
 [media]
 env_var = "BIBLE_MEDIA_ROOT"
-default_root = "~/Documents/bible"   # local disk as of 2026-09-19; was the /Volumes/media NAS share
+default_root = "~/bible-media"   # local disk; moved out of ~/Documents 2026-09-24 because macOS privacy (TCC)
+                                # blocks open() there until the launching app is granted access -- an
+                                # agent host run in the background never sees the prompt and hangs
 network = false   # local disk now -- was an SMB mount. See [databases].
 
 [media.subdirs]

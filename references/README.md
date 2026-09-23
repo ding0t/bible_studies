@@ -83,7 +83,7 @@ location is a property of one machine, so every script resolves it through an en
 rather than a hardcoded path:
 
 ```bash
-export BIBLE_MEDIA_ROOT=~/Documents/bible   # the default if unset; .env is gitignored
+export BIBLE_MEDIA_ROOT=~/bible-media   # the default if unset; .env is gitignored
 ```
 
 `references/build/media_root.py` is the single place that resolves it, and supplies
