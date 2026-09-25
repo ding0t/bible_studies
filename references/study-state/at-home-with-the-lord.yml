@@ -1,0 +1,27 @@
+slug: at-home-with-the-lord
+title: "At Home with the Lord"
+status: drafting
+target_path: docs/content/last-things/at-home-with-the-lord.md
+primary_passage: "2 Corinthians 5:1-8"
+origin: >
+  Forked 2026-09-26 by the simplify-bible-study pass (readability sweep) from
+  docs/content/jesus/three-days-and-three-nights.md at commit 950ec59.
+point: >
+  Since the ascension the believing dead are with Christ, conscious and without the body, waiting
+  for the bodily resurrection at His coming.
+stages:
+  drafting:
+    done: false
+    notes: >
+      Text moved verbatim from three-days-and-three-nights.md (sections "Did the descent empty
+      Abraham's side?", "Away from the body, at home with the Lord", "The body, still owed" minus its
+      1 Peter 3:19 and "narrate the interval" paragraphs, "The whole arrangement in one view",
+      "Larkin's own chart", discussion question 6). Its quotations and commentary citations were
+      verified there. Needs develop-bible-study for an opening, "In one sentence:" thesis, Key
+      Takeaways, and fixes to references that assumed the parent ("the third row of that table"
+      points at the parent's Leviticus 23 table; "Three sections of prose" and "named above as
+      contested" point at parent sections). Validator Check 20 flags its sentence length.
+open_questions:
+  - Parent three-days-and-three-nights.md carries a plain-text pointer to this study; turn it into a
+    link when this is published.
+  - Consider overlap with any other last-things study on the intermediate state before publishing.

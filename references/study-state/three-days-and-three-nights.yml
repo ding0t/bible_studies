@@ -675,3 +675,159 @@ revision_2026-09-07e:
     me"), the hard part (Luke 23:43 against John 20:17), be transformed (Paul's "far better" against
     "not unclothed", and how funerals speak).
   last_updated: "2026-09-07"
+
+simplify_2026-09-26:
+  pass: simplify-bible-study (readability sweep tier 2, blanket author approval)
+  words_before: 5551
+  words_after: 3868   # Check 23 counting, after the insight additions below
+  budget: 4000        # default; no word_budget set
+  point: >
+    The sign of Jonah is Jesus' burial and return: He went down into Sheol as Jonah described, God
+    brought Him up holding the keys of Death and Hades as the firstfruits of a harvest, and the
+    three-day span, counted inclusively, fits a Friday crucifixion. Agrees with the file's own thesis.
+  source_commit: 950ec59
+  forks:
+    - path: docs/content/last-things/at-home-with-the-lord.md
+      state: references/study-state/at-home-with-the-lord.yml
+      point: >
+        Since the ascension the believing dead are with Christ, conscious and without the body,
+        waiting for the bodily resurrection at His coming.
+      moved_verbatim: >
+        "Did the descent empty Abraham's side?", "Away from the body, at home with the Lord", "The
+        body, still owed" (all but its last two paragraphs, which stayed under "What those days
+        achieved"), "The whole arrangement in one view", "Larkin's own chart", discussion question 6,
+        and the Ephesians 4 / Larkin reference entries.
+  merges:
+    - Key Takeaways "Type" paragraph and the second-type paragraph repeated the sign section and the
+      Leviticus 23 table; Type shortened, second-type paragraph deleted.
+    - Sign-section closer repeated the opening's "where he was going and who would bring him back";
+      reduced to the Matthew 12:39/41 clause.
+  cuts:
+    - The "Sheol and Hades" intro paragraph; Samuel's robe (1 Sam 15:27) and ragaz details; the ESVSB
+      elohim note; the ESVSB quotation on whether it was truly Samuel (attribution kept).
+    - Stale sentence "This site has no study on Firstfruits yet" (feasts/firstfruits.md now exists).
+    - Quotation-detection score sentence; NLT/LSB footnote detail; 1 Samuel 30:12 paragraph (and its
+      bible_references entry and References line); Louw-Nida kratéō/haptō sentence.
+    - The "Scripture states the span thirteen times..." closer; the calendar-reconstruction detail of
+      "Does this fix the year?"; the "Two things point at it independently" sentence in the
+      conclusion (restated in the table and final paragraph).
+    - Frontmatter bible_references/tags for forked passages (Ephesians 4, 2 Cor 5, Phil 1:23,
+      Rev 6:9-11, 1 Thess 4, 1 Cor 15:51-53, 1 Sam 15:27, 1 Sam 30:11-13).
+  added_structure:
+    - "## Study outline (6 items, descriptive)."
+    - "Pointer (plain text, fork is draft): 'Where the believing dead are now, between death and the resurrection, is a separate study in preparation.'"
+    - "Merged '### Saul and Samuel, going to the same place' into 'Samuel called up at En-dor'; merged '### Where the commentaries disagree' into '### The reading this study holds, and the disagreement'."
+    - "'In one sentence:' moved out of the block quote into a plain paragraph (rewritten, see insight)."
+  shortened_sentences:
+    - old: 'He named the place he was going before he went there, and he named it from Scripture rather than from himself.'
+      new: 'He named the place he was going before he went there, and he named it from Scripture.'
+    - old: 'The request "show me something" is rarely about evidence; it is usually about wanting evidence of a kind that costs nothing to accept.'
+      new: 'The request "show me something" is usually a wish for evidence of a kind that costs nothing to accept.'
+    - old: 'the honest move is to say which reading you hold and what it costs you, not to hold it because the costs were never totalled.'
+      new: 'the honest move is to say which reading you hold and what it costs you.'
+    - old: 'Type. Jonah in the fish is the pattern Jesus names for himself, and he names it outright (Matthew 12:40, quoting Jonah 2:1 ...). What the type carries is burial and emergence. Jonah''s own prayer says so: the fish''s belly is "the belly of Sheol," the place is "the pit," and God does not release him but brings him up (Jonah 2:2-6).'
+      new: 'Type. Jonah in the fish is the pattern Jesus names for himself (Matthew 12:40, quoting Jonah 2:1 word for word as the Greek Old Testament has it), and what it carries is burial and emergence: the fish''s belly is "the belly of Sheol," and God brings him up (Jonah 2:2-6).'
+    - old: 'Jesus is not making a general comparison. He is quoting, and the quotation is exact:'
+      new: 'Jesus is quoting, and the quotation is exact:'
+    - old: '(The verse is Jonah 1:17 in English Bibles and 2:1 in the Hebrew and the Greek — a numbering difference the NLT, the Legacy Standard Bible and others footnote at that verse. References here follow whichever text is being cited.)'
+      new: '(The verse is Jonah 1:17 in English Bibles and 2:1 in the Hebrew and the Greek. References here follow whichever text is being cited.)'
+    - old: 'Jonah interprets his own three days, in the prayer that follows immediately — and he does not describe a fish. He describes death.'
+      new: 'Jonah interprets his own three days in the prayer that follows immediately, and he describes death.'
+    - old: 'And what God does is not release him but bring him up — וַתַּעַל, ...'
+      new: 'And God brings him up — וַתַּעַל, ...'
+    - old: 'The sign of Jonah is about where Jesus is going and who brings him back — and Jesus says as much in the same breath, calling it the only sign this generation will get (Matthew 12:39) and adding that "something greater than Jonah is here" (12:41).'
+      new: 'Jesus calls it the only sign this generation will get (Matthew 12:39) and adds that "something greater than Jonah is here" (12:41).'
+    - old: 'The span is not an arbitrary interval. It lands on three consecutive festivals in Leviticus 23, and the New Testament names Christ as the fulfilment of the first and the third by name.'
+      new: 'The span lands on three consecutive festivals in Leviticus 23, and the New Testament names Christ as the fulfilment of the first and the third.'
+    - old: 'So the resurrection does not merely happen to fall on a Sunday; on this reckoning it falls on the appointed day for the offering it fulfils.'
+      new: 'So on this reckoning the resurrection falls on the appointed day for the offering it fulfils.'
+    - old: 'That is a better answer to "why three days" than any arithmetic, and it is the reason the interval is fixed rather than approximate: it is bounded by two feasts, with the Sabbath sitting between them.'
+      new: 'The interval is bounded by two feasts, with the Sabbath sitting between them.'
+    - old: 'has ᾅδης (hadēs) — and that is not Peter''s innovation but the Septuagint''s standing practice, which the Greek Old Testament follows from Genesis onward.'
+      new: 'has ᾅδης (hadēs) — the Septuagint''s standing practice, which the Greek Old Testament follows from Genesis onward.'
+    - old: 'Sheol is not the wicked''s destination alone. This is the point most likely to be missed by a reader carrying a modern "hell" into the word. Jacob, mourning Joseph, expects to go there:'
+      new: 'Sheol receives the righteous too. Jacob, mourning Joseph, expects to go there:'
+    - old: 'Whatever Sheol is in the Old Testament, it is where the dead are, not where the damned alone are.'
+      new: 'Whatever Sheol is in the Old Testament, it is where the dead are.'
+    - old: 'And one narrative shows the arrangement from the inside. When Saul has the medium at En-dor call up Samuel, the account is unusually specific about the state of the dead, and the details all point one way.'
+      new: 'One narrative shows the arrangement from the inside. When Saul has the medium at En-dor call up Samuel, the account is specific about the state of the dead.'
+    - old: 'Four things. The direction is up, out of the earth. עָלָה (ʿalah, H5927), the ordinary verb for going or bringing up, runs five times through these eight verses (28:8, 11 twice, 13, 14, 15) — ...'
+      new: 'The direction is up, out of the earth. עָלָה (ʿalah, H5927) runs five times through these eight verses (28:8, 11 twice, 13, 14, 15) — ...'
+    - old: 'It is the same verb Jonah uses when God "brought up my life from the pit," and neither text leans on it to carry theology; both simply assume the dead are down.'
+      new: 'It is the same verb Jonah uses when God "brought up my life from the pit"; both texts assume the dead are down.'
+    - old: 'Then the line that bears on this study. Samuel tells Saul: "tomorrow you and your sons shall be with me" (28:19).'
+      new: 'Samuel tells Saul: "tomorrow you and your sons shall be with me" (28:19).'
+    - old: 'The minimal reading — "you will be dead as I am dead" — is available and should be granted, but even that concedes a common place and state for the righteous and the unrighteous dead, which is the point at issue.'
+      new: 'The minimal reading — "you will be dead as I am dead" — still concedes a common place and state for the righteous and the unrighteous dead.'
+    - old: 'This study follows the narrator, who simply calls him Samuel throughout and reports a prophecy that came true. The ESV Study Bible concludes the same — "it is hard to think ..." — as do the NIV Biblical Theology and Cultural Backgrounds volumes.'
+      new: 'This study follows the narrator, who calls him Samuel throughout and reports a prophecy that came true, as do the ESV Study Bible and the NIV Biblical Theology and Cultural Backgrounds volumes.'
+    - old: 'A place that is emptied and then destroyed is a holding place, not a final one — which is the frame the rest of this section needs.'
+      new: 'A place that is emptied and then destroyed is a holding place.'
+    - old: 'The lexicographers treat it as a place-name, and that is the load-bearing observation here. Louw-Nida''s semantic domain 1 is geographical objects and features, and three entries sit in it almost adjacently:'
+      new: 'The lexicographers treat it as a place-name. Louw-Nida''s semantic domain 1 is geographical objects and features, and three entries sit in it:'
+    - old: 'At Luke 16:22 the annotation tags both words — κόλπος and Ἀβραάμ — with the same code, 1.16, which is a lexicographer''s way of saying the two words are functioning as one name for one location rather than as a description of a patriarch''s chest. Whatever else Luke 16 is doing, its own vocabulary is spatial:'
+      new: 'At Luke 16:22 the annotation tags both words — κόλπος and Ἀβραάμ — with the same code, 1.16: one name for one location. Luke 16''s own vocabulary is spatial:'
+    - old: 'It should be said plainly that the commentaries on this site''s shelf mostly read it otherwise.'
+      new: 'The commentaries on this site''s shelf mostly read it otherwise.'
+    - old: 'Today — on the day of the crucifixion, not after three days.'
+      new: 'Today — on the day of the crucifixion.'
+    - old: 'Matthew''s verb there is κρατέω, and Louw-Nida files it in the same domain as John''s ἅπτω here — Mary was holding on, and was told to let go.'
+      new: 'Mary was holding on, and was told to let go.'
+    - old: 'Two readings follow, and they are the two answers to this question.'
+      new: 'Two readings follow.'
+    - old: 'This study holds the first, on the strength of the section above — but the second is not a harmonisation invented to escape a problem, and the honest note is that John 20:17 fits both.'
+      new: 'This study holds the first, on the strength of the section above, and John 20:17 fits both.'
+    - old: 'The mechanism is through death — not around it.'
+      new: 'The mechanism is through death.'
+    - old: 'And the resurrection is the first of a harvest, not a solitary marvel.'
+      new: 'And the resurrection is the first of a harvest.'
+    - old: 'Peter''s statement is the other contested one.'
+      new: 'Peter''s statement is contested.'
+    - old: 'What follows does not, and it is the question the phrase "three days and three nights" is usually raised to ask.'
+      new: 'What follows is the question the phrase "three days and three nights" is usually raised to ask.'
+    - old: 'The convention has a name and is not invented for this problem: the ESV Study Bible states it ...'
+      new: 'The convention has a name: the ESV Study Bible states it ...'
+    - old: 'It anchors the first of the three days — the day of the crucifixion and burial, not the day in the tomb or the day of the resurrection.'
+      new: 'It anchors the first of the three days, the day of the crucifixion and burial.'
+    - old: 'The value of the verse is that it is not a prediction being interpreted — it is two ordinary people counting, in passing, on the day in question.'
+      new: 'It is two ordinary people counting, in passing, on the day in question.'
+    - old: 'Sunset reckoning does not add a night to the Friday view — it relocates which day each night belongs to. What it does do is strengthen the other side, which should be said: on sunset reckoning ...'
+      new: 'Sunset reckoning does not add a night to the Friday view. It does strengthen the other side: on sunset reckoning ...'
+    - old: 'That is a real reading, and it is also a harmonisation, and should be called one.'
+      new: 'That is a real reading, and a harmonisation.'
+    - old: 'No, and the two constraints are separable. ... A Friday crucifixion at Passover under Pilate, who was prefect from AD 26 to 36, requires Nisan 14 to fall on a Friday, and on the Pharisaic-Rabbinic lunar-solar calendar ... that happened twice in his eleven years: Friday 7 April AD 30 and Friday 3 April AD 33. ... Choosing between the two takes evidence from outside this study, principally Luke 3:1 and the Passovers John records. Chronology Anchors works that through and reaches AD 33; the reasoning is not repeated here.'
+      new: 'The weekday narrows it. Under Pilate, prefect from AD 26 to 36, Nisan 14 fell on a Friday twice: Friday 7 April AD 30 and Friday 3 April AD 33. Chronology Anchors chooses between them, principally from Luke 3:1 and the Passovers John records, and reaches AD 33.'
+    - old: 'But the Friday reading buys Matthew 12:40 on credit:'
+      new: 'The Friday reading buys Matthew 12:40 on credit:'
+    - old: 'Derived cross-references ... The Matthew 12:40 → Jonah 2:1 quotation and the Matthew 12:40 → 1 Samuel 30:12 link were both surfaced ... The first is corroborated by the inherited reference lists; the second is not carried by any of them.'
+      new: 'The Matthew 12:40 → Jonah 2:1 quotation was surfaced ... It is corroborated by the inherited reference lists.'
+  verify: >
+    study_structure.py --verify-against HEAD: added_unexpected holds only the shortened sentences
+    above, the outline, the pointer and the insight sentences below. npm run validate: no budget
+    or outline warning; only the pre-existing Check 18 exhaustiveness warning (prosabbaton "occurs
+    once", now line 409) remains. mkdocs build --strict: clean.
+  for_author:
+    - Check 18 (prosabbaton "occurs once in the New Testament", ~line 409) left as is; the earlier
+      exegesis notes above record it as a hapax queried from sblgnt, but re-run the count.
+    - Count discrepancy predating this pass -- the table says "on the third day" 9 times (includes
+      Luke 18:33); stages.exegesis above and prophecy-events-times.md say EIGHT. One of them is wrong.
+    - feasts/firstfruits.md now exists; the parent could link it from "Three days, three appointed
+      times" (a later pass -- simplify adds no links).
+    - commentary_index.py needs re-running -- bible_references dropped Ephesians 4:8-10, 2 Cor 5:1-8,
+      Phil 1:23, Rev 6:9-11, 1 Thess 4:13-17, 1 Cor 15:51-53, 1 Sam 15:27 and 1 Sam 30:11-13.
+
+insight_2026-09-26:
+  pass: insight (write the theology as the subject)
+  thesis_rewritten:
+    old: "The sign Jesus gave was his own burial and return — Sheol's hold on him broken, the keys of Death and Hades changing hands, a firstfruits harvest guaranteed — and the weekday evidence favors a Friday crucifixion three days before a Sunday resurrection."
+    new: "In the sign of Jonah God shows that He raises His Son: Jesus went down into Sheol as Jonah did, and God brought Him up holding the keys of Death and Hades, the firstfruits of a harvest that includes you who belong to Him — and the weekday evidence favors a Friday crucifixion three days before a Sunday resurrection."
+  added_sentences:
+    - "(Lessons about Jesus) God raised Him as He brought Jonah up from the pit. The resurrection is the Father's own answer to the demand for a sign, and He has given it to you."
+    - "(The sign) This shows that God answers for His Son: the One who brought Jonah up from the pit raised Jesus from the dead, and the resurrection is His vindication of Jesus as the Christ. So you have the sign the scribes were given, and it is the empty tomb."
+    - "(Three appointed times) This shows that God wrote the death and resurrection of His Son into Israel's calendar: Jesus is the Passover lamb sacrificed and the firstfruits raised. A sheaf is waved because a harvest is coming, so you who belong to Christ will be raised after Him (1 Corinthians 15:23)."
+    - "(Which paradise) Whichever reading holds, the promise to the thief shows that God receives a dying man who trusts Jesus into His Son's company that same day. That promise is made to you on the same terms."
+    - "(What those days achieved) This shows that God overcame death through the death of His Son: Jesus, our Passover lamb, went into death and came out holding its keys. So you need not live in the fear of death that Hebrews 2:15 calls slavery; the One who holds the keys of Death and Hades is the One who died for you."
+  not_changed: >
+    The prayer is addressed to Jesus in lowercase "you" throughout (existing text); no sentence was
+    added there to avoid mixing capitalisation within one prayer. Author may want to recast it and
+    close "In Jesus' name. Amen."
