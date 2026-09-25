@@ -1,6 +1,6 @@
 slug: "kinsman-redeemer"
 title: "The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back"
-status: drafting
+status: review
 target_path: "docs/content/jesus/kinsman-redeemer.md"
 
 primary_passage: "Ruth 4:1-22"
@@ -30,8 +30,9 @@ stages:
         Set "in the days when the judges ruled" (1:1) -- the era between Joshua and David. Written
         after David's accession, since 4:17-22 names him and 4:7 explains a custom as belonging to
         "former times in Israel" (ESV Study Bible, introduction to Ruth). Authorship unnamed;
-        rabbinic tradition (b. Baba Bathra 14a-15b) says Samuel, which the ESV introduction doubts
-        on the ground that Samuel died before David reigned.
+        rabbinic tradition (b. Baba Bathra 14a-15b) says Samuel. Samuel had anointed David before
+        Saul's death (1 Sam 16:13), so dying before David's coronation does not by itself exclude
+        him; the author's date remains uncertain.
     literary_context:
       done: true
       notes: >
@@ -45,7 +46,7 @@ stages:
         - {word: "גֹּאֵל", language: hebrew, transliteration: "goel", strongs_id: "H1350", gloss: "kinsman-redeemer", notes: "TWOT root 300, gaal. The kinsman with both right and obligation to buy back what a relative lost."}
         - {word: "כָּנָף", language: hebrew, transliteration: "kanaph", strongs_id: "H3671", gloss: "wing, corner of a garment", notes: "The inclusio: Boaz blesses Ruth under YHWH's kenafav (2:12); she asks him to spread his own kanaph over her (3:9). He becomes the answer to his own blessing. Same noun at Ezekiel 16:8."}
         - {word: "קָנָה", language: hebrew, transliteration: "qanah", strongs_id: "H7069", gloss: "acquire, buy", notes: "Ruth 4:10 qaniti -- Boaz acquires the land and Ruth in one witnessed act."}
-        - {word: "חֶסֶד", language: hebrew, transliteration: "chesed", strongs_id: "H2617", gloss: "covenant loyalty", notes: "NOT YET VERIFIED in this draft -- flagged as the obvious next word study; the book is usually read around it and the draft does not yet work it."}
+        - {word: "חֶסֶד", language: hebrew, transliteration: "chesed", strongs_id: "H2617", gloss: "covenant loyalty", notes: "Verified 2026-09-25: H2617 at Ruth 1:8, 2:20, 3:10 only (MACULA)."}
   hermeneutics:
     cultural_vs_transcultural:
       done: true
@@ -73,14 +74,11 @@ stages:
 open_questions:
   - >
     THE CONTESTED POINT, deliberately left open in the draft: Deuteronomy 23:3 bars a Moabite from
-    the assembly of the LORD "even to the tenth generation", and David is four generations from
+    the assembly of the LORD "even to the tenth generation", and David is three generations from
     Boaz. The draft states the tension and names the main lines of resolution (the Hebrew is
     masculine; the ban may concern the nation cultically rather than an individual who converts;
     Ruth's confession at 1:16 as the hinge) without settling it. A full study should work this
     properly -- it is the single most substantial exegetical problem in the book.
-  - >
-    chesed is not yet worked. The book is usually read around it and this draft does not cite it at
-    all. That is the largest gap.
   - >
     The m. Kiddushin 1:1 / qanah question carried over from bride-of-christ: does the Mishnah's "a
     woman is acquired" use the same root as Boaz's qaniti? Unverifiable here -- the sefaria cache
@@ -90,6 +88,64 @@ resources_consulted:
   - {source: "ESV Study Bible (Crossway)", via: "study-notes.db", contributed: "Introduction to Ruth -- date, authorship, the 4:7 'former times' argument. Verse text for every ESV quotation."}
   - {source: "CSB Ancient Faith Study Bible", via: "study-notes.db", contributed: "Circumstances of writing; the Gentile-inclusion theme and its link to Isaiah 56:3-7."}
   - {source: "bible-text.db interlinear (MACULA Hebrew, WLC)", via: "bible_interlinear", contributed: "kanaph at Ruth 2:12 and 3:9; qanah at 4:10."}
+  - {source: "bible-text.db morphology (MACULA Hebrew, WLC)", via: "morphology lookup", contributed: "H2617 chesed at Ruth 1:8, 2:20, 3:10; recurrence checked in Ruth."}
+  - {source: "OpenBible.info cross-reference dataset (CC-BY)", via: "bible-text.db cross_references", contributed: "Followed Ruth 3:1 to 1 Timothy 5:8, 14; Ruth 4:5 to Matthew 22:24; Ruth 4:18-22 to Matthew 1 and Luke 3. Checked NT contexts; retained widow-care, levirate-law, and genealogy connections, while marking 1 Timothy as thematic rather than an allusion."}
   - {source: "TWOT root map", via: "twot_strongs", contributed: "goel H1350 = root 300, gaal."}
 
-last_updated: "2026-09-21"
+last_updated: "2026-09-23"
+
+review_2026-09-23:
+  scope: "Structural, literary-context, theology, placement, and style review; compared with bride-of-christ.md."
+  findings:
+    - "The opening calls the Ruth material the one place Scripture shows the goel office end-to-end; this exclusivity claim remains unchecked."
+    - "The draft conflates land redemption under Leviticus 25 with levirate duty under Deuteronomy 25; Boaz is not Mahlon's brother, and the legal relationship needs careful qualification."
+    - "The draft now presents kinship, means, and willingness as narrative features rather than a Levitical formula, and marks the Christological connection as an analogy. The three occurrences of chesed in Ruth are now traced; the Moabite question remains open."
+    - "The bride pattern repeats material already developed in bride-of-christ.md; the kinsman-redemption study should keep its center on Ruth's narrative and point across for the bridal connection."
+  verification_limit: "MCP passage/review lookups and the source-catalog query stalled. A direct read-only morphology query confirmed chesed at Ruth 1:8, 2:20, and 3:10; scripture quotations and the remaining source-dependent claims were not independently verified."
+  status: "Findings were applied to the draft on 2026-09-23; direct MCP/source verification remained unavailable."
+
+followup_2026-09-23_crossrefs:
+  findings:
+    - "The highest-vote New Testament leads include Ruth 3:1 to 1 Timothy 5:8 and 5:14. The surrounding context confirms a thematic connection about family support and widow remarriage; it does not establish a reference to Ruth."
+    - "Ruth 4:5 to Matthew 22:24 leads to Jesus' Sadducee exchange, where Deuteronomy's brother-and-widow rule frames a resurrection question. Added to clarify the distinct legal setting; Matthew does not discuss Boaz or Ruth."
+    - "Ruth 4:18-22 links to Matthew 1 and Luke 3 genealogies. Added Luke 3 as a second New Testament witness to the Boaz-Obed-Jesse-David line; Matthew 1:5 explicitly names Ruth."
+  source: "OpenBible.info cross-reference dataset (CC-BY), read from local bible-text.db; linked passages checked in WEB context."
+
+review_2026-09-25:
+  skill: review-bible-study (subagent), depth as the main question
+  verified_from_source: "All study quotations exact. H1350 21x in Ruth + H1353 2x = 23 (matches ESVSB intro). LXX ankhisteus at Ruth 3:9, 3:12, 4:6, 4:14; LXX Lev 25:25 pairs it with lytroo; 1 Pet 1:18. Isa 54:5 pairs husband and goel. m. Yevamot 8:3 (Kulp) fetched. validate clean."
+  critical: []
+  moderate:
+    - "4:5 Kethiv ('I acquire') vs Qere/ESV ('you acquire') undisclosed; 'does not call them one legal act' contradicts the ESV of 4:5 and the ESVSB intro ('two legal institutions combined in one practice')."
+    - "Ruth 4:14's goel is the newborn (4:15; NIV BTSB); 4:13-17, the bridge to David, is skipped."
+    - "Ruth 3:9 paraphrased 'near relative', losing Ruth's own word goel."
+    - "Moabite question posed without either side (m. Yevamot 8:3 vs Neh 13:1-3, 23)."
+    - "'at a cost to his own estate' is an unmarked inference for Boaz."
+    - "Matt 22 and 1 Tim 5 paragraphs disown their own link."
+    - "Pervasive hedging; theology unnamed ('analogy' x3, 11 denials; Lessons about Jesus mostly not about Jesus)."
+    - "Sibling contradiction with bride-of-christ.md (one act vs two; Christ as kinsman flatly vs analogy). AUTHOR DECISION. Also bride-of-christ quotes 'your Redeemer the Holy One of Israel' as Isa 54:5; that wording is Isa 43:14 / 48:17."
+  depth_plan: "Goel office (Lev 25:23, 47-55; Num 35; Jer 32:7); Gen 38 via Ruth 4:12 and the sandal; LXX ankhisteus/lytroo; the threshing floor 3:9-13; the gate with the 4:5 fork; the Moabite case both ways; the redeemer born 4:13-17 and the line to David and Matthew 1:5; typology anchors Isa 54:5, Isa 59:20 / Rom 11:26, Gal 4:4-5, Heb 2:11, 17, and where it stops. About 3,850 words."
+  status: "Recommend re-drafting through develop-bible-study Phase 7 with this outline."
+
+develop_2026-09-25:
+  author_decisions: "Redraft to the review's deeper outline; Ruth 4 read as 'two laws, one practice' (shared wording with bride-of-christ)."
+  thesis: >-
+    Boaz uses a kinsman's right to buy back what Naomi's family lost and to raise up the dead man's
+    name, and the son born of it is a redeemer whose line runs to David and to Jesus.
+  word_budget: 4000
+  added: >-
+    Goel office (Lev 25:23, 25, 47-55; Num 35; Job 19:25; Jer 32:7); 23-occurrence count; LXX
+    ankhisteus / Lev 25:25 lytroo / 1 Pet 1:18; two laws in one practice (ESV SB intro; NIV CBSB 2:20);
+    Tamar via Ruth 4:12 and Gen 38:8; the sandal against Deut 25:9; 2:20 chesed ambiguity; 3:9 quoted
+    in the ESV with kanaph and goel; chayil at 2:1 and 3:11; 4:5 Kethiv/Qere; the cost stated only for
+    the nearer redeemer; Moabite case both ways (m. Yevamot 8:3 vs Neh 13:1, 23); 4:13-17 as the
+    redeemer who is born (NIV BTSB 4:13, 4:14); typology anchors (Isa 54:5; Isa 59:20 / Rom 11:26;
+    Gal 4:4-5; Heb 2:11, 17; 1 Pet 1:18-19; Rom 3:24) and where the type stops (ESV SB 3:12-13).
+  cut: "Matt 22 and 1 Tim 5 paragraphs; 'analogy' disclaimers; the stale WEB translation note."
+  verified_from_source: >-
+    Every ESV quotation re-queried in study-notes.db; LXX lemmas at Ruth 3:9, 3:12, 4:6, 4:14 and
+    Lev 25:25; interlinear 1 Pet 1:18, Isa 59:20, Ruth 2:1, 3:9, 3:11; H1350 21x + H1353 2x in Ruth;
+    ESV SB intro and notes 2:20, 3:9, 3:12-13, 4:7-8; NIV BTSB 2:20, 4:6, 4:13, 4:14; NIV CBSB 2:20;
+    CSB fn 4:1; Kulp m. Yevamot 8:3.
+  checks: "validate clean; 26 sections, longest 300 words; strict build passes with draft: false."
+  status: "Draft complete; draft: true. Publishing it also fixes bride-of-christ's live link to this page."
