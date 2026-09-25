@@ -130,6 +130,10 @@ stages:
 
 open_questions:
   - >
+    PENDING LINK (2026-09-26 simplify): the "Archaeology and the king lists" pointer in "Where this
+    argument is weak" names the fork *The Flood and the King Lists* in plain text. When
+    god/flood-and-the-king-lists.md is published, turn it into a link.
+  - >
     Two arithmetic claims in the user's supplied working summary were re-derived and found
     WRONG; the study uses the corrected figures. (1) "Halving founders costs ~16 years" --
     ln(8/6)/0.00465 = 62 years, not 16. (2) "A 0.2-0.47% constant curve gives ~60 million
@@ -282,10 +286,96 @@ revision_2026_08_22b:
     references/build/genealogy_chronology.py and app/src/utils/calendarConvert.js, before changing
     any published number.
   verification: "npm run validate 0 findings; mkdocs build --strict passes; em-dash density 0.28/sentence; negative-definition rhythm still 0."
-last_updated: "2026-08-22"
+last_updated: "2026-09-26"
 
 published:
   date: "2026-08-22"
   draft_flag: "flipped to false"
   index_generators_run: "commentary_index.py (58 books, 362 chapters) and section_index.py (god/, last-things/, commentaries/ index pages updated)"
   verification: "npm run validate 0 findings on this file; npm test 21/21; mkdocs build --strict clean; utils/validate_genealogy.py PASSED"
+
+word_budget: 4400
+
+simplify_2026-09-26:
+  skill: simplify-bible-study (readability-sweep-2026-09, tier 2, author blanket approval)
+  words_before: 5539   # Check 23 count, References excluded (tier note's 7,937 was a raw wc)
+  words_after: 4367    # includes the Study outline and the insight_2026-09-26 additions
+  budget: "4,000 default -> word_budget 4400 set here"
+  budget_reason: >
+    After the fork and every merge/tighten worth making, the remainder is one argument whose steps
+    each carry a checkable figure (the census caveats, the seventy-names count, the Flood-date
+    table, the benchmark headroom, the cumulative-births comparison). Cutting further would drop
+    working the review_2026_08_22 pass added at the user's request ("math working at every
+    load-bearing point"). The ~370 words over are the Study outline plus the insight landings.
+  point: >
+    God's first command to humanity was to multiply; Scripture reports it fulfilled from Noah to
+    Israel in Egypt, and the Bible's own chronology reaches today's 8.2 billion at 0.481%/yr, a rate
+    humanity has repeatedly exceeded -- so the short chronology needs no demographic special pleading.
+  point_check: "Agrees with the file's opening thesis and closing section; no conflict."
+  forks:
+    - path: docs/content/god/flood-and-the-king-lists.md
+      point: >
+        The archaeological conflict with a 2348 BC Flood is largely a Masoretic-numbers problem: the
+        Septuagint's longer genealogies put the Flood before Egypt's First Dynasty, though not before
+        predynastic Egypt or Jericho.
+      moved: >
+        All of "Where this argument is weak" subsections: Egyptian and Mesopotamian records; Manetho,
+        the Turin Canon, and the Abydos list; Concurrent dynasties; The Old Kingdom and radiocarbon;
+        The Flood date depends on which manuscript tradition; How this site's four Flood dates are
+        computed; Etemenanki and the Sumerian tongue-confusion story (~1,010 words), plus their six
+        reference entries (NIV Cultural Backgrounds SB, Manetho, Turin Canon, Abydos list, Sumerian
+        King List, Bronk Ramsey 2010).
+  deleted:
+    - "#### Generation length barely moves while lifespans collapse (whole section incl. Genesis 11 table) -- tangent; the rate argument stands without it."
+    - "\"Where this argument is weak\": the census-numbers item (merged into Three caveats, which already gives 1.32%/yr) and the pre-Flood-invented item (merged into Before the Flood, which already calls it a model output with a wide band)."
+    - "Similes: the naked-eye star-count paragraph (tangent); the Revelation 7:9 sentence (kept in Lessons about Jesus and Memory verses)."
+    - "What carries over: the Acts 17:26 sentence (kept in the conclusion), 'Nothing about it is bound to the ancient Near East.', and the closing Revelation 7:9 paragraph (duplicate)."
+    - "Opening roadmap sentence 'What follows works through ... instead of 6,000.' (replaced by the Study outline)."
+    - "'Then the count itself:'; stray 'Three caveats:' line; 'Everything in this half runs on two equations and their rearrangements.'; the 'corollary cuts the other way' paragraph in How many people have ever lived."
+  added:
+    - "## Study outline (three annotated bullets, descriptive) after Key Takeaways."
+    - "Pointer: 'They are weighed, with the archaeology of Babel, in a separate study in preparation, *The Flood and the King Lists*.'"
+  shortened:
+    - old: "Six things to hold against everything above, the second at length because it is the largest."
+      new: "Three things to hold against everything above."
+    - old: "The New Testament keeps both halves. Hebrews 11:12 (ESV) makes it a statement about one dead man's faith: ..."
+      new: "Hebrews 11:12 (ESV) makes it a statement about one dead man's faith: ..."
+    - old: "Paul makes the same universal move ... It is addressed ... and never rescinded. [Acts 17:26 sentence] Nothing about it is bound to the ancient Near East."
+      new: "It is addressed ... and never rescinded."
+    - old: "It is covenant bookkeeping, not a pattern for anyone else's demography."
+      new: "It is covenant bookkeeping."
+    - old: "Every reading in that table clears 1.3%/yr. Hold that number; the whole post-Flood span needs less than half of it."
+      new: "Every reading in that table clears 1.3%/yr, and the whole post-Flood span needs less than half of it."
+    - old: "The births formula is the integral of *b·N(t)* across the span, and it is the method the Population Reference Bureau uses for its \"how many people have ever lived\" estimates — which is why part three's comparison against their figure is like-for-like rather than a rival calculation."
+      new: "The births formula is the integral of *b·N(t)* across the span, the method the Population Reference Bureau uses for its \"how many people have ever lived\" estimates, so part three's comparison against their figure is like-for-like."
+    - old: "Genesis 11:10 puts Arpachshad's birth \"two years after the flood,\" while Genesis 5:32 has Noah at 500 when Shem, Ham and Japheth are born — which makes Noah 502 at Shem's birth if both are read plainly. This repo's generated chronology (`docs/data/genealogy/generated/mt.json`) chains from the 500 figure; adding the Genesis 11:10 datum instead puts Peleg's birth at 101 years post-Flood rather than 99. Either way: about a century."
+      new: "Genesis 11:10 puts Arpachshad's birth \"two years after the flood,\" while Genesis 5:32 has Noah at 500 when his sons are born; this repo's generated chronology chains from the 500, so Peleg's birth falls 99 or 101 years post-Flood."
+    - old: "A single smooth exponential from the ark to the present is off by two orders of magnitude at the midpoint, and any presentation that draws one is wrong on its own terms."
+      new: "A single smooth exponential from the ark to the present is off by two orders of magnitude at the midpoint."
+    - old: "Population alive at a moment is the smaller question. Cumulative births are the larger one, and the births formula from part two answers it: benchmark populations, a crude birth rate per interval, integrated."
+      new: "Cumulative births are the larger question, and the births formula from part two answers it."
+    - old: "The reductio holds. It leaves the question open, because conventional demography has an answer to it."
+      new: "Conventional demography has an answer to this reductio."
+    - old: "A very small number, and small numbers are what a carrying-capacity ceiling produces. So the comparison is between two shapes:"
+      new: "So the comparison is between two shapes:"
+    - old: "Population arithmetic leaves those objections untouched, and on conventional dating they are sharper than a phrase like \"continuous occupation\" suggests:"
+      new: "Population arithmetic leaves those objections untouched."
+    - old: "Thank you that you counted us a blessing rather than a problem."
+      new: "Thank you that you counted us a blessing."
+  verification: >
+    study_structure.py --verify-against HEAD: added_unexpected holds only the shortened sentences
+    above, the pointer, the Study outline and the insight lines below. npm run validate: Check 22
+    (outline) cleared; only Check 23 remained before word_budget was set. mkdocs build --strict
+    passes.
+
+insight_2026-09-26:
+  added_verbatim:
+    - "**In one sentence:** God blessed the human race with a command to fill the earth, re-issued it to the eight who survived the Flood, and kept His word to Abraham in a people too many to count, and the Bible's own chronology reaches today's 8.2 billion at a growth rate humanity has repeatedly exceeded."
+    - "The promise narrows to one man, Jesus, and widens through Him to everyone in Him. So you enter the promise to Abraham by belonging to Jesus Christ: if you are His, you are Abraham's offspring and an heir."
+    - "(Prayer) \"...standing before your Son Jesus.\" and the close \"In Jesus' name. Amen.\""
+    - "This shows that God renewed His creation blessing after the judgment of the Flood, in the words He first spoke in Eden, to the only people left alive. Every person you meet lives downstream of that renewed blessing, and so do you."
+    - "This shows that God wants His image-bearers in abundance. He commands it with the verb of teeming life, and He records Himself answered in the same word. You are part of that abundance."
+    - "This shows that God keeps His covenant promises inside dated, countable history. He swore to Abraham, and four centuries later Moses could point at the crowd in front of him. So you can trust a promise of His whose fulfilment you have not yet seen."
+    - "This shows that God is the Creator who spoke the first blessing over humanity and has kept it in every generation since. The arithmetic establishes consistency, which is weaker than proof, and the deep-time model is consistent too; what the headcount displays plainly is His faithfulness to His word. So when you look at the crowd, you are looking at a promise kept, and you stand inside it."
+  pronoun_fix: "Discussion question 1: 'that he chose that verb' -> 'that He chose that verb'."
+  confidence: "Conclusion landing marks the demographic argument as consistency, weaker than proof, per the study's own 'Consistency is the argument's ceiling'."

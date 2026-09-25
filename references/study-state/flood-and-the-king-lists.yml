@@ -1,0 +1,22 @@
+slug: "flood-and-the-king-lists"
+title: "The Flood and the King Lists: Egypt, Sumer and the Genesis Chronology"
+status: drafting
+target_path: "docs/content/god/flood-and-the-king-lists.md"
+primary_passage: "Genesis 11:10-26"
+forked_from: "docs/content/god/world-population-declares-gods-creation-and-biblical-truth.md"
+point: "The archaeological conflict with a 2348 BC Flood is largely a Masoretic-numbers problem: the Septuagint's longer genealogies put the Flood before Egypt's First Dynasty, though not before predynastic Egypt or Jericho."
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked verbatim on 2026-09-26 (simplify-bible-study, readability-sweep-2026-09) from
+      docs/content/god/world-population-declares-gods-creation-and-biblical-truth.md at commit
+      5a24371: the seven archaeology/king-list subsections of "Where this argument is weak"
+      (#### headings promoted to ##) and six reference entries. Citations and arithmetic were
+      verified there (review_2026_08_22 and revision_2026_08_22b in the parent's state file) and are
+      not redrafted. The last subsection still says "the required-rate column above", which refers
+      to the parent's Flood-date table; fix when developing. Needs develop-bible-study for its own
+      opening, "In one sentence:" thesis, Key Takeaways and discussion questions; draft: true until
+      then. When published, turn the plain-text pointer in the parent into a link.
+open_questions: []
+last_updated: "2026-09-26"

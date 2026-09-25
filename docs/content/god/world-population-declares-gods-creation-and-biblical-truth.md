@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 9:1-19"
 bible_references: ["Genesis 1:20-21", "Genesis 1:28", "Genesis 5:32", "Genesis 6:1", "Genesis 7:11", "Genesis 7:21", "Genesis 8:17", "Genesis 9:1-19", "Genesis 9:28-29", "Genesis 10:1-32", "Genesis 11:1-9", "Genesis 11:10", "Genesis 13:16", "Genesis 15:5", "Genesis 22:17", "Genesis 46:26-27", "Exodus 1:5-7", "Exodus 1:12", "Exodus 8:3", "Exodus 12:37-41", "Leviticus 11:29", "Leviticus 11:41-46", "Numbers 1:2-3", "Numbers 1:45-46", "Deuteronomy 10:22", "2 Samuel 24:9", "1 Chronicles 21:5", "Psalm 105:30", "Jeremiah 33:22", "Ezekiel 47:9", "Acts 7:14", "Acts 17:26", "Romans 1:20", "Galatians 3:16", "Galatians 3:17", "Galatians 3:29", "Hebrews 11:12", "Revelation 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-09-20
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -21,10 +21,11 @@ time the Bible's own genealogies allow, and is that rate anything a human popula
 achieved?
 
 **It is 0.481% per year — a doubling every 144 years.** Israel in Egypt, by Scripture's own figures,
-grew five times faster. The world in the 1960s grew four times faster. What follows works through
-the biblical texts that make population a theological subject at all, then does the demography: how
-many people were alive at each anchor from creation to now, how many have ever been born, and what
-the same clock produces when it runs for 200,000 years instead of 6,000.
+grew five times faster. The world in the 1960s grew four times faster.
+
+**In one sentence:** God blessed the human race with a command to fill the earth, re-issued it to
+the eight who survived the Flood, and kept His word to Abraham in a people too many to count, and the
+Bible's own chronology reaches today's 8.2 billion at a growth rate humanity has repeatedly exceeded.
 
 It is a companion to [What Creation Declares](creation-reveals-the-creator.md), which argues from
 design. This one argues from headcount.
@@ -37,8 +38,9 @@ God promised Abraham offspring "as the stars of heaven and as the sand that is o
 (Genesis 22:17, ESV). Paul reads the singular noun and finds one person in it: "It does not say,
 'And to offsprings,' referring to many, but referring to one, 'And to your offspring,' who is
 Christ" (Galatians 3:16, ESV). Then he reopens it — "if you are Christ's, then you are Abraham's
-offspring, heirs according to promise" (Galatians 3:29, ESV). The promise narrows to one man and
-widens through him to everyone in him. Scripture's last word on the census is John's sight of "a
+offspring, heirs according to promise" (Galatians 3:29, ESV). The promise narrows to one man, Jesus, and
+widens through Him to everyone in Him. So you enter the promise to Abraham by belonging to Jesus
+Christ: if you are His, you are Abraham's offspring and an heir. Scripture's last word on the census is John's sight of "a
 great multitude that no one could number, from every nation, from all tribes and peoples and
 languages" (Revelation 7:9, ESV) — the innumerability the dust-and-stars similes had been claiming
 since Genesis 13, finally shown.
@@ -78,11 +80,20 @@ since Genesis 13, finally shown.
 ### Prayer
 
 Father, you spoke to two people in a garden and told them to fill the earth, and here we are —
-8.2 billion of us, and every one made in your image. Thank you that you counted us a blessing rather
-than a problem. Forgive us for the Babel instinct, for building a name where you told us to go. You
+8.2 billion of us, and every one made in your image. Thank you that you counted us a blessing. Forgive us for the Babel instinct, for building a name where you told us to go. You
 promised Abraham descendants no one could count, and you kept it in a way he never saw: a multitude
-out of every nation standing before your Son. Number me among them, and make me one who goes.
-Amen.
+out of every nation standing before your Son Jesus. Number me among them, and make me one who goes.
+In Jesus' name. Amen.
+
+## Study outline
+
+- **Part one — what Scripture says.** The command to fill the earth from Genesis 1:28 to Noah, its
+  vocabulary, Babel's refusal, the uncountable similes, and Israel in Egypt as the command reported
+  fulfilled.
+- **Part two — what the arithmetic says.** Two formulas, the chronology from creation to now, the
+  shape of the growth curve, and whether the post-Flood span has room.
+- **Part three — what follows.** How many people have ever lived, the same rate run over 200,000
+  years, where the argument is weak, and what the headcount shows about God.
 
 ## Part one — what Scripture says
 
@@ -139,6 +150,10 @@ Every human being now alive descends from three men and their wives. Noah lived 
 Flood (Genesis 9:28) with no further children recorded, which puts the founding *reproducing*
 population at six rather than eight — the figure every calculation in part two starts from.
 
+This shows that God renewed His creation blessing after the judgment of the Flood, in the words He
+first spoke in Eden, to the only people left alive. Every person you meet lives downstream of that
+renewed blessing, and so do you.
+
 ### The vocabulary of the mandate
 
 Four Hebrew verbs carry the command, and one of them does something the English translations cannot
@@ -164,6 +179,9 @@ that will fill the healed Dead Sea (Ezekiel 47:9).
 The two exceptions are Genesis 9:7 and Exodus 1:7. God tells human beings to swarm exactly once, and
 Scripture reports human beings swarming exactly once — the command and its fulfilment, in a word
 otherwise reserved for locust-scale animal abundance.
+
+This shows that God wants His image-bearers in abundance. He commands it with the verb of teeming
+life, and He records Himself answered in the same word. You are part of that abundance.
 
 ### Babel: declining the command
 
@@ -203,14 +221,9 @@ cannot be measured, so I will multiply the offspring of David my servant" (Jerem
 Read as a target figure — 10<sup>22</sup> stars, therefore 10<sup>22</sup> descendants — the similes
 are being asked for something they withhold. Their claim is that the count will exceed counting.
 
-The naked eye sees about 5,600 stars brighter than magnitude +6 across the whole celestial sphere,
-and only half the sphere is above the horizon at once. Abraham, standing outside Hebron at night,
-was looking at roughly three thousand — and God told him the number was beyond him.
-
-The New Testament keeps both halves. Hebrews 11:12 (ESV) makes it a statement about one dead man's
+Hebrews 11:12 (ESV) makes it a statement about one dead man's
 faith: "from one man, and him as good as dead, were born descendants as many as the stars of heaven
-and as many as the innumerable grains of sand by the seashore." Revelation 7:9 shows the multitude,
-still uncounted — "a great multitude that no one could number."
+and as many as the innumerable grains of sand by the seashore."
 
 ### Egypt: the command reported fulfilled
 
@@ -249,8 +262,6 @@ creation mandate, "reiterated to Noah after the flood (Gen 9:1, 7)," is being re
 
 #### The census: seventy in, two million out
 
-Then the count itself:
-
 > ✝️ Exodus 12:37-41 (ESV)
 >
 > 37 And the people of Israel journeyed from Rameses to Succoth, about six hundred thousand men on
@@ -268,6 +279,10 @@ census's purpose as demonstrating "the fulfillment of the promise to Abraham tha
 would be as numerous as the sand on the seashore (Gen. 22:17)." Moses preaches the same arithmetic:
 "Your fathers went down to Egypt seventy persons, and now the LORD your God has made you as numerous
 as the stars of heaven" (Deuteronomy 10:22, ESV).
+
+This shows that God keeps His covenant promises inside dated, countable history. He swore to
+Abraham, and four centuries later Moses could point at the crowd in front of him. So you can trust a
+promise of His whose fulfilment you have not yet seen.
 
 #### The rate the census implies
 
@@ -289,8 +304,6 @@ as the stars of heaven" (Deuteronomy 10:22, ESV).
 | Masoretic Exodus 12:40, face-value census | 70 | 2,000,000 | 430 | **2.39%/yr** | 29 yrs |
 | LXX/Samaritan sojourn, face-value census | 70 | 2,000,000 | 215 | **4.77%/yr** | 15 yrs |
 | Masoretic sojourn, low census reading | 70 | 20,000 | 430 | **1.32%/yr** | 53 yrs |
-
-Three caveats:
 
 #### Three caveats to the rate
 
@@ -316,8 +329,7 @@ posed by these census figures." The *NIV Biblical Theology Study Bible* is blunt
 Septuagint, says seventy-five (Acts 7:14). Because the starting population sits inside a logarithm,
 a 7% difference there moves the computed rate by 0.016 percentage points.
 
-Every reading in that table clears 1.3%/yr. Hold that number; the whole post-Flood span needs less
-than half of it.
+Every reading in that table clears 1.3%/yr, and the whole post-Flood span needs less than half of it.
 
 ### What carries over
 
@@ -326,25 +338,17 @@ each differently.
 
 **Genesis 9:1 reaches everyone.** It is addressed to the only human beings alive, grounded in the
 image of God rather than in a covenant with one nation (9:6), issued before Israel exists, and never
-rescinded. Paul makes the same universal move at the Areopagus — God "made from one man every nation
-of mankind to live on all the face of the earth" (Acts 17:26, ESV). Nothing about it is bound to the
-ancient Near East.
+rescinded.
 
 **Numbers 1 does not.** That census musters men "from twenty years old and upward, all in Israel who
 are able to go to war" (Numbers 1:3, ESV), for a specific nation, under a land promise, ahead of a
-particular conquest. It is covenant bookkeeping, not a pattern for anyone else's demography. A
+particular conquest. It is covenant bookkeeping. A
 modern reader inherits Genesis 9:1 directly; Numbers 1 he inherits as evidence that God keeps
 promises, which is exactly the use the ESV Study Bible's own note makes of it.
-
-Where the promise terminates is neither a census nor a nation but Revelation 7:9's uncountable
-multitude "from every nation, from all tribes and peoples and languages." The arithmetic below
-counts what can be counted. Scripture's own endpoint is the number that cannot.
 
 ## Part two — what the arithmetic says
 
 ### Two formulas, once
-
-Everything in this half runs on two equations and their rearrangements.
 
 ```text
   GROWTH        N(t) = N₀ · e^(r·t)          population after t years
@@ -355,9 +359,9 @@ Everything in this half runs on two equations and their rearrangements.
                                               b = crude birth rate per person per year
 ```
 
-The births formula is the integral of *b·N(t)* across the span, and it is the method the Population
-Reference Bureau uses for its "how many people have ever lived" estimates — which is why part
-three's comparison against their figure is like-for-like rather than a rival calculation.
+The births formula is the integral of *b·N(t)* across the span, the method the Population Reference
+Bureau uses for its "how many people have ever lived" estimates, so part three's comparison against
+their figure is like-for-like.
 
 The headline number falls straight out of the first:
 
@@ -429,10 +433,8 @@ An 880-year spread between the extreme readings moves the required rate by eight
 percentage point. The manuscript dispute is chronologically large and demographically negligible.
 
 **Peleg's birth carries two years of slack.** Genesis 11:10 puts Arpachshad's birth "two years after
-the flood," while Genesis 5:32 has Noah at 500 when Shem, Ham and Japheth are born — which makes
-Noah 502 at Shem's birth if both are read plainly. This repo's generated chronology
-(`docs/data/genealogy/generated/mt.json`) chains from the 500 figure; adding the Genesis 11:10 datum
-instead puts Peleg's birth at 101 years post-Flood rather than 99. Either way: about a century.
+the flood," while Genesis 5:32 has Noah at 500 when his sons are born; this repo's generated
+chronology chains from the 500, so Peleg's birth falls 99 or 101 years post-Flood.
 
 **Babel is a range.** Genesis 10:25 says only that the earth was divided "in his days," and Peleg
 lived 239 years — so anywhere from 2247 to 2008 BC. The *ESV Study Bible*'s map caption dates the
@@ -452,7 +454,7 @@ people gives:
 
 The Han census of AD 2 registered 57,671,400 people in China alone — 120 times that, in one country.
 A single smooth exponential from the ark to the present is off by two orders of magnitude at the
-midpoint, and any presentation that draws one is wrong on its own terms.
+midpoint.
 
 The real curve is steep at the front, nearly flat through the middle, steep again at the end.
 Plotted on a log scale, because a linear axis showing 8 billion cannot also show six — the x-axis is
@@ -512,33 +514,6 @@ dispersion is 150 to 200 years after the Flood, where the ESV Study Bible's c. 2
 lands. The model uses 200 years and 10,000 people, requiring `ln(10,000/6) / 200 = 3.71%/yr` — under
 what Genesis 10's own family sizes imply.
 
-#### Generation length barely moves while lifespans collapse
-
-**Longevity is not the engine.** The 400-to-900-year lifespans of Genesis 5 and 11 are often assumed
-to be what makes early growth fast. Genesis 11 separates the two figures and shows otherwise:
-
-| Patriarch | Age at heir's birth | Lifespan |
-|---|---|---|
-| Shem | 100 | 600 |
-| Arpachshad | 35 | 438 |
-| Shelah | 30 | 433 |
-| Eber | 34 | 464 |
-| Peleg | 30 | 239 |
-| Reu | 32 | 239 |
-| Serug | 30 | 230 |
-| Nahor | 29 | 148 |
-| Terah | 70 | 205 |
-
-(Masoretic figures, from this repo's `references/build/bible-text.db`; the three-way manuscript
-comparison is in [Genealogy and Times](../last-things/genealogy-times.md).)
-
-Between Arpachshad and Nahor, seven consecutive generations father the covenant heir between ages 29
-and 35, essentially the modern figure, while lifespans across those same seven fall from 438 to
-148. Terah, at 70, is the outlier that ends the run. Generation length, which is what sets the annual
-rate, barely moves while longevity collapses. What long life changes is *mortality*: where almost no
-adult dies for two centuries, five or six generations reproduce concurrently, and that is where the
-compounding comes from.
-
 #### The flat middle: a 2,240-year doubling time
 
 **The flat middle.** From Christ to the eve of the industrial era the curve nearly stops:
@@ -594,9 +569,7 @@ times the span it needs.
 
 ### How many people have ever lived
 
-Population alive at a moment is the smaller question. Cumulative births are the larger one, and the
-births formula from part two answers it: benchmark populations, a crude birth rate per interval,
-integrated. The Population Reference Bureau has run that calculation since 1995; the 2022 update by
+Cumulative births are the larger question, and the births formula from part two answers it. The Population Reference Bureau has run that calculation since 1995; the 2022 update by
 Carl Haub and Toshiko Kaneda gives **117 billion people ever born**, of whom the 8 billion then alive
 were 6.8%.
 
@@ -646,11 +619,6 @@ million hunter-gatherers produces very few of them however long it runs. PRB's o
 their entire 190,000 BCE to 8000 BCE block, 96% of assumed human existence, contributes 7.7% of all
 births ever.
 
-The corollary cuts the other way. A short chronology produces no implausibly *small* number of
-people either. Seventy-three billion and one hundred eighteen billion are the same order of
-magnitude, reached by the same arithmetic, and one assumption about when history started separates
-them.
-
 ### Running the clock backwards
 
 The demographic argument is strongest in reverse. Take the rate the biblical chronology needs,
@@ -668,7 +636,7 @@ For scale: the observable universe contains roughly 10<sup>80</sup> atoms, and p
 of human bodies it would hold about 10<sup>82</sup> people. The population figure exceeds that by 336
 orders of magnitude. Extend the same rate over a million years and the exponent passes 2,000.
 
-The reductio holds. It leaves the question open, because conventional demography has an answer to it.
+Conventional demography has an answer to this reductio.
 
 **The mainstream reply.** Population growth was near zero for most of human history, held there by a
 Malthusian ceiling — hunter-gatherer subsistence supports perhaps five to ten million people
@@ -679,8 +647,7 @@ worldwide, and any surplus is removed by famine, disease and infant mortality. O
       = 0.000111  →  0.011% per year,  doubling every 6,263 years
 ```
 
-A very small number, and small numbers are what a carrying-capacity ceiling produces. So the
-comparison is between two shapes:
+So the comparison is between two shapes:
 
 | | Biblical chronology | Deep-time chronology |
 |---|---|---|
@@ -700,7 +667,7 @@ Which shape you find simpler is a judgement, not a calculation.
 
 ### Where this argument is weak
 
-Six things to hold against everything above, the second at length because it is the largest.
+Three things to hold against everything above.
 
 #### The benchmarks' only claim: headroom
 
@@ -708,120 +675,13 @@ Six things to hold against everything above, the second at length because it is 
 people at AD 1 because the historical estimates say so; it derives nothing. Its claim is *headroom*, and headroom only:
 that the biblical chronology can reach known benchmarks at rates humans have achieved.
 
-#### Egyptian and Mesopotamian records occupy the Flood's window
+#### Archaeology and the king lists
 
 **Archaeology and king lists are the real friction.** Egyptian dynastic records, Mesopotamian king
 lists, dendrochronology and varve sequences show continuous occupation through the window a global
 Flood at 2348 BC and a dispersion at 2148 BC would need. Population arithmetic leaves those objections
-untouched, and on conventional dating they are sharper than a phrase like "continuous occupation"
-suggests:
-
-| Event | Conventional date | Against a 2348 BC Flood |
-|---|---|---|
-| Egypt, Dynasty 1 (Narmer) | c. 3100 BC | 750 years earlier |
-| Sumerian Early Dynastic I | c. 2900 BC | 550 years earlier |
-| Djoser's step pyramid | c. 2670 BC | 320 years earlier |
-| Khufu's Great Pyramid | c. 2560 BC | 210 years earlier |
-| Sargon of Akkad | c. 2334 BC | at the Flood |
-
-On those dates the Great Pyramid was built before the Flood and stood through it, with the Egyptian
-record running across the gap unbroken.
-
-#### Manetho, the Turin Canon, and the Abydos list
-
-**What the king lists actually are.** The sources carry less weight than their reputation. Manetho's
-*Aegyptiaca*, the framework behind the thirty dynasties, is **lost**; it survives only in quotation by
-Josephus, Africanus, Eusebius and Syncellus, writing centuries later for their own polemical ends and
-disagreeing with one another on the figures. The Turin Royal Canon, written c. 1245 BC, disintegrated
-in its shipping crate en route to Italy and survives as more than 160 fragments with roughly **half
-the document missing**; Gustav Seyffarth reassembled it by matching papyrus fibres on pieces as small
-as a square centimetre, before hieratic was fully understood, and Donald Redford has questioned its
-reliability for anything earlier than Ramesses II. It also lists gods and demigods among the kings.
-Seti I's Abydos list omits Hatshepsut, Akhenaten, Tutankhamun, Ay, the Hyksos and the whole Second
-Intermediate Period — a legitimacy monument rather than an archive.
-
-#### Concurrent dynasties collapse the naive total
-
-**Successive or parallel.** Summing dynasties as though each followed the last gives absurd totals,
-and Egyptology does not do it: Manetho's transmitted figures reach some 5,500 years, with recensions
-adding gods and demigods for tens of thousands more. Whole dynasties are recognised as concurrent —
-the Herakleopolitan 9th and 10th with the Theban 11th, the Hyksos 15th with the Theban 17th, the 22nd
-through 25th overlapping through the Third Intermediate Period. Millennia have already been collapsed
-out of the naive reading by exactly that move.
-
-The Sumerian King List shows the same thing more starkly, because its literary form asserts
-succession — "X was defeated, the kingship was taken to Y" — while independently attested kings on it
-ruled at the same time. It omits the First Dynasty of Lagash entirely despite that dynasty's own
-surviving inscriptions, gives its eight antediluvian kings 241,200 years between them, and has only
-seven pre-Sargonic rulers attested in Early Dynastic inscriptions; recent handbooks judge its value
-for that period so limited as to advise against using it at all. The same document divides history at
-a flood: "Then the flood swept over. After the flood had swept over, the kingship descended from
-heaven."
-
-#### The Old Kingdom and radiocarbon's independent check
-
-**Where that argument stops.** Two things limit how far the unreliability of the lists can be pressed.
-The demonstrable overlaps sit in the Intermediate Periods, which are late; the period actually in
-conflict with a 2348 BC Flood is the Old Kingdom, a linear Memphite sequence with matching
-stratigraphy at Saqqara and Abydos. And radiocarbon reaches the same answer independently: Bronk
-Ramsey and colleagues (*Science*, 2010) ran 211 measurements on short-lived plant samples through a
-Bayesian model and placed Djoser's accession at 2691-2625 BC, *earlier* than some historical
-estimates. The model takes historical reign lengths as priors, so it is not fully independent, but its
-absolute placement comes from the carbon rather than from Manetho.
-
-#### The Flood date depends on which manuscript tradition
-
-**Which is a problem for the Masoretic numbers specifically.** The conflict above is a function of the
-Flood date, and the Flood date is a function of which manuscript tradition supplies Genesis 5 and 11.
-Anchoring Abraham's birth conventionally and working backward, the Septuagint's longer genealogies put
-the Flood near 3200 BC — before Dynasty 1, with the pyramids and the Early Dynastic period falling
-after it in the right order and no compression of Egypt required. The Samaritan Pentateuch lands
-between. The divergence between the traditions is patterned rather than random: the Septuagint's age
-at the heir's birth runs exactly 100 years higher than the Masoretic for Adam, Seth, Enosh, Cainan,
-Mahalalel, Enoch and Arpachshad. The pattern breaks in four places, and three of them are Jared,
-Methuselah and Lamech — the generations where a 100-year shift would have carried Methuselah's death
-past the Flood. The fourth is Noah, whose 500 the Flood narrative fixes independently.
-
-The Septuagint reading does not clear everything. Egyptian predynastic material (Naqada from c. 4000
-BC, Badarian earlier still) and Jericho's pre-pottery Neolithic levels sit before any biblical Flood
-date under any tradition, and those rest on stratigraphy and radiocarbon rather than on king lists, so
-nothing above reaches them.
-
-#### How this site's four Flood dates are computed
-
-**A note on how those Flood dates are derived.** Until August 2026 this site's generator applied one
-fixed 4004-year offset to every manuscript variant, which held creation still and pushed the Flood
-*later* under the longer Septuagint genealogies — the opposite of their actual effect. The Septuagint
-Flood published at 1762 BC as a result. All four reconstructions are now anchored on a single
-downstream point, the Exodus, so each creation date falls out of its own chain length and the
-Septuagint Flood lands at 3228 BC, before Egypt's First Dynasty rather than a millennium after it.
-The Exodus anchor itself is still open — 1491 BC reproduces the 4004 BC epoch this site publishes,
-while the 1446 BC date used elsewhere on the site would move Masoretic creation to 3959 BC. That
-decision is tracked in [Genealogy and Times](../last-things/genealogy-times.md) rather than settled
-here, and the required-rate column above is unaffected by it, since each rate is computed from its
-own stated span.
-
-#### A twenty-thousand-strong Exodus still clears the bar
-
-**The census numbers may be wrong.** On the *'elep* reading Israel left Egypt about 20,000 strong,
-and the Bible's one clean growth datum drops from 2.39%/yr to 1.32%/yr. That still clears the 0.481%
-the model needs, so the conclusion survives; the headline figure does not.
-
-#### Etemenanki and the Sumerian tongue-confusion story
-
-**Babel's archaeology is contested.** Etemenanki, the ziggurat at Babylon usually associated with the
-tower, is a second-to-first-millennium BC structure; defenders argue for rebuilding on older
-foundations. The Sumerian *Enmerkar and the Lord of Aratta* describes a time when "the whole universe
-in unison spoke to Enlil in one tongue" before speech was changed — but the *NIV Cultural Backgrounds
-Study Bible*, weighing it, concludes that "nothing else in this account parallels the tower of Babel,"
-leaving it as evidence that confusion of language by deity was a known ancient theme rather than as
-corroboration of Genesis 11.
-
-#### The 100 million figure is a modeled guess
-
-**The pre-Flood population is invented.** The 100 million on the chart is a model output at an assumed
-rate, and the plausible band spans a factor of thirty. The total-births figure inherits that
-uncertainty.
+untouched. They are weighed, with the archaeology of Babel, in a separate study in preparation, *The
+Flood and the King Lists*.
 
 #### Consistency is the argument's ceiling
 
@@ -849,10 +709,15 @@ billion in four and a half thousand years is unremarkable — half a percent a y
 has exceeded in every decade since 1900. To account for the population of the earth, the Bible's
 chronology needs a command and a few thousand ordinary years.
 
+This shows that God is the Creator who spoke the first blessing over humanity and has kept it in
+every generation since. The arithmetic establishes consistency, which is weaker than proof, and the
+deep-time model is consistent too; what the headcount displays plainly is His faithfulness to His
+word. So when you look at the crowd, you are looking at a promise kept, and you stand inside it.
+
 ## Discussion questions
 
 1. Genesis 9:7 commands human beings to *swarm* — a word Scripture otherwise uses of fish, frogs and
-   creeping things. What does it say about God's view of human abundance that he chose that verb, and
+   creeping things. What does it say about God's view of human abundance that He chose that verb, and
    how does it sit against the way population is usually discussed now?
 2. Babel's builders wanted a name and a single location; God wanted the earth filled. Where does that
    tension show up in a church, a family, or a career?
@@ -876,8 +741,6 @@ chronology needs a command and a few thousand ordinary years.
 - ***NIV Biblical Theology Study Bible*** (Zondervan) — notes on Exodus 1:7 (the Genesis 1:28 →
   9:1,7 → Exodus 1:7 chain and the Abrahamic promise links), Exodus 12:37 and 12:40, Genesis 10:25
   and 10:32.
-- ***NIV Cultural Backgrounds Study Bible*** (Zondervan) — note on Genesis 11:1 assessing *Enmerkar
-  and the Lord of Aratta* against the Babel narrative.
 - ***CSB Ancient Faith Study Bible*** (Holman) and the ***NLT Life Application Study Bible***
   (Tyndale) — textual notes at Exodus 12:40 recording the Septuagint and Samaritan Pentateuch's
   "and in Canaan."
@@ -898,19 +761,6 @@ chronology needs a command and a few thousand ordinary years.
   populations against the published ranges.
 - **Han dynasty census of AD 2** — 57,671,400 individuals across 12,366,470 households, the earliest
   nationwide census on record and the check that breaks the constant-rate model.
-- **Manetho, *Aegyptiaca*** (c. 280 BC) — lost; cited as transmitted in excerpt by Josephus, Africanus,
-  Eusebius and Syncellus, in Waddell's collection of the fragments (Loeb, 1940).
-- **Turin Royal Canon** (Papyrus 1874, Museo Egizio, c. 1245 BC) — condition, fragment count and
-  reconstruction history; with Donald Redford's caution on its reliability before Ramesses II and
-  Kim Ryholt's 1997 re-reading.
-- **Abydos King List** (temple of Seti I, c. 1290 BC) — cited for its omissions.
-- **Sumerian King List**, principally the Weld-Blundell Prism (WB 444, Ashmolean Museum, c. 1800 BC) —
-  the antediluvian reigns, the flood formula, and the omission of the First Dynasty of Lagash.
-  Thorkild Jacobsen, *The Sumerian King List* (Oriental Institute, 1939), established the
-  contemporaneity of dynasties the list presents as successive.
-- **Christopher Bronk Ramsey et al., "Radiocarbon-Based Chronology for Dynastic Egypt,"** *Science*
-  328 (2010) 1554-1557 — 211 measurements on short-lived samples; Djoser's accession at 2691-2625 BC.
-  Cited as the independent check that a source-reliability critique of the king lists does not reach.
 - [Genealogy and Times](../last-things/genealogy-times.md) and
   [The Zadok Calendar](../feasts/zadok-calendar.md) on this site — the chronology and calendar
   conventions these dates depend on, including the four Flood-date reconstructions.
