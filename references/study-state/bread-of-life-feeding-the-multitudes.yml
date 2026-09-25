@@ -468,3 +468,116 @@ repo_findings:
      BOS_CODE_TO_USFM translation map in book_map.py, routed through in ingest_ebible (this fix was
      not made by the agent writing this study). Verified after rebuild: 66 distinct books, 1,992
      verses across 2Kgs + Ezek. The study's ASV quotations were reverted to WEB accordingly."
+
+simplify_2026-09-26:
+  sweep: readability-sweep-2026-09 (tier 3)
+  words_check23_before: 3934   # References excluded; raw wc 5459 (the tracker's 5,390 figure is a raw count)
+  words_check23_after_simplify: 3600   # approx: final count minus the ~359 insight words
+  words_check23_after_insight: 3959
+  budget: 4000 (default; no word_budget set)
+  point: >
+    In the two feedings Jesus shows He is Himself the bread God gives from heaven -- the Shepherd who
+    feeds Israel and then the nations to the full and loses none the Father gives Him -- so the right
+    response is to come to Him and take today's portion from the Father's hand. Agrees with the
+    study's "Theological principle" section; no Phase 1 stop.
+  forks: none (study was already under the Check 23 budget; tightening made room for the insight pass)
+  merges:
+    - "Elisha type (2 Kings 4:42-44): full paragraph in Key Takeaways > Types & Prophecy cut to a pointer; kept in 'Israel, then the nations'."
+    - "'Correct fulfillment put to a wrong use': cut from Key Takeaways Prophecy; kept in 'The wrong response'."
+    - "Gentile feeding matches the Supper word for word: stated twice in 'I am the bread of life'; kept after the table."
+    - "Mark 8:19-21 numbers recitation: third telling in 'Is there significance in the numbers?' shortened."
+    - "Matthew 4:4 temptation contrast cut from 'Bread, refused and given' (Deut 8:3 remains in Theological principle); heading renamed '### Daily bread'."
+  deleted_sentences:
+    - "Six centuries on, the complaint has not changed."
+    - "Where a single word does structural work across a passage, a more literal translation often keeps the repetition visible where the primary one has smoothed it away."
+    - "Only the old ASV (1901) has \"abideth\" both times — the same version that flattens *trōgō*."
+    - "What follows shows that a correct fulfillment can still be put to a wrong use (6:15)."
+    - "They do not sit equally close: it is the Gentile feeding of the 4,000, not the Jewish feeding of the 5,000, that matches it word for word."
+    - "Not everything numbered is a symbol."
+    - "Offered bread for his own hunger in the wilderness, Jesus refuses and quotes Deuteronomy 8:3 — *\"man does not live by bread alone... but by every word that comes from the mouth of the LORD\"* (Matt 4:4). Offered a hungry crowd, he makes bread without being asked."
+    - "Elisha paragraph in Key Takeaways (5 sentences) -- replaced by pointer line."
+  pointer_lines:
+    - "A second, lesser type, Elisha's twenty barley loaves (2 Kings 4:42-44), is worked through under [Israel, then the nations](#israel-then-the-nations)."
+  shortened_sentences:
+    - old: "The manna is a **τύπος** of Christ, and the identification is Jesus's own, not the interpreter's inference."
+      new: "The manna is a **τύπος** of Christ, and the identification is Jesus's own."
+    - old: "Given *as a test* — Exodus 16:4's LXX has **πειράσω**, the same verb John uses of Jesus's question at 6:6."
+      new: "Given *as a test* (Exodus 16:4 LXX **πειράσω**; John 6:6)."
+    - old: "This is verbal prediction rather than resemblance — God says in so many words that such a prophet is coming — and the crowd's identification is right."
+      new: "This is verbal prediction: God says in so many words that such a prophet is coming, and the crowd's identification is right."
+    - old: "He is not a supplier of bread but the bread itself."
+      new: "He is the bread itself."
+    - old: "The test is not whether you ask God for material things but whether the answer terminates on the gift or moves you to the Giver."
+      new: "The test is whether the answer terminates on the gift or moves you to the Giver."
+    - old: "Jesus's \"do you not yet understand?\" is not aimed at men who lack information — they can recite the numbers on demand — but at men who have watched him do this and still cannot reason from it to the next empty hillside."
+      new: "Jesus's \"do you not yet understand?\" is aimed at men who can recite the numbers on demand and still cannot reason from them to the next empty hillside."
+    - old: "On top of that hard fact, held more loosely: the lexicons commonly identify ..."
+      new: "Held more loosely: the lexicons commonly identify ..."
+    - old: "So the twelve baskets are not what happened to be lying around afterwards; they exist because Jesus commanded that nothing perish."
+      new: "So the twelve baskets exist because Jesus commanded that nothing perish."
+    - old: "And John then uses that same verb twice more in the same chapter, both times of something far larger than bread."
+      new: "John uses the same verb twice more in the chapter, both times of something larger than bread."
+    - old: "That claim reaches its own climax at 6:51 — *\"the bread that I will give for the life of the world is my flesh\"* — and the verbs narrating these miracles turn out to be the church's own vocabulary for its central meal."
+      new: "That claim reaches its own climax at 6:51: *\"the bread that I will give for the life of the world is my flesh.\"* [insight sentences] The verbs narrating these miracles turn out to be the church's own vocabulary for its central meal."
+    - old: "The discourse gets more physical, not less, as the crowd's offense grows."
+      new: "The discourse gets more physical as the crowd's offense grows."
+    - old: "And \"give us this day our daily bread\" (Matt 6:11; Luke 11:3) turns on ..."
+      new: "\"Give us this day our daily bread\" (Matt 6:11; Luke 11:3) turns on ..."
+    - old: "Mark doesn't say so; he doesn't need to."
+      new: "Mark leaves the contrast unstated."
+    - old: "The crowd's actual response to being fed isn't gratitude but appetite."
+      new: "The crowd responds to being fed with appetite."
+    - old: "Their theology is even correct on the way there — \"This is indeed the Prophet who is to come into the world!\" (John 6:14, ESV), Deuteronomy 18:15-18's prophet like Moses, rightly identified."
+      new: "Their theology is even correct on the way there: the prophet like Moses, rightly identified (6:14)."
+    - old: "Not punished for being hungry; punished for despising sufficiency and demanding surplus."
+      new: "They were punished for despising sufficiency and demanding surplus."
+    - old: "Jesus treats the numbers as meaningful himself. At Mark 8:19-21 he doesn't re-explain the miracles; he has the disciples recite five, twelve, seven, seven, then rebukes them for still not understanding (Matthew 16:9-12 records the same exchange)."
+      new: "Jesus treats the numbers as meaningful himself: at Mark 8:19-21 he has the disciples recite five, twelve, seven, seven (so also Matthew 16:9-12)."
+    - old: "Whatever the numbers carry rests on *five, twelve, seven, seven* — not on the thousands."
+      new: "Whatever the numbers carry rests on *five, twelve, seven, seven*."
+    - old: "God's provision in Christ is abundant — twelve baskets and seven hampers more than either crowd could eat — but it's given to reveal the Giver, not to remove the need for him."
+      new: "God's provision in Christ is abundant — twelve baskets and seven hampers more than either crowd could eat — and it is given to reveal the Giver."
+    - old: "Scripture states that flatly elsewhere, rather than only implying it here."
+      new: "Scripture states it flatly elsewhere:"
+  stale_for_author:
+    - "References still says the ASV was consulted for the *menō* comparison; the body no longer names the ASV there (the sentence was cut). Still true as a record of consultation."
+    - "bible_references still lists Matthew 4:1-4, which the body no longer cites after the temptation contrast was cut."
+    - "Existing prose uses lowercase he/him/his for Jesus throughout; only the added sentences and the prayer are capitalised per style-guide rule 8. A case-only pass would touch most sentences, so it was left for the author."
+
+insight_2026-09-26:
+  thesis_added: >
+    **In one sentence:** In the two feedings God gives His people bread from heaven again, and this
+    time the bread is His Son Jesus, the Shepherd who feeds Israel and then the nations to the full
+    and loses none of those the Father gives Him; so you come to Jesus Himself for life, and take
+    today's portion from your Father's hand.
+  added_sentences:
+    - section: "Two events, not one retold"
+      text: "This shows that God means His past provision to be evidence you reason from. When the next hillside is empty, count the baskets He has already filled for you."
+    - section: "Two words John puts around the sign"
+      text: "This shows that God keeps what He gives. The doctrine is the preservation of the saints, and here it rests on Jesus' own statement of His Father's will (6:39): if the Father has given you to Jesus, He will not lose you."
+    - section: "\"I am the bread of life\""
+      text: "This shows that the Father's gift of life is a person, His Son Jesus, given in His own flesh for the life of the world. That is the atonement, and it is why you receive this bread by coming to Jesus and believing in Him (6:35)."
+    - section: "Feeding on him"
+      text: "This shows that what God gives in His Son is union with Him. The food that endures abides in the one who feeds on it, and Jesus promises to abide in you as you abide in Him (6:56)."
+    - section: "Israel, then the nations"
+      text: "This shows that God keeps His promise to Israel first and then opens the same table to the nations. If you are a Gentile believer, you were fed at the second meal, from the same hands and to the full."
+    - section: "Sheep without a shepherd"
+      text: "This shows that God kept His promise to shepherd His sheep Himself, and kept it in person in Jesus. Mark enacts this without stating it; the doctrine it points to is the incarnation. The Shepherd who had compassion on a shepherdless crowd (6:34) is the One who feeds you."
+    - section: "The wrong response — echoing the wilderness"
+      text: "This shows that God is generous to people who have not asked, and that He judges a craving that despises what He has given. So receive today's portion from Him with thanks."
+    - section: "Theological principle"
+      text: "So take today's bread from your Father's hand, and let it bring you to His Son Jesus, the bread of life."
+  prayer_edits:
+    - "\"you gave your Son so that\" -> \"you gave your Son Jesus so that\""
+    - "\"a God who spoils his children\" -> \"a God who spoils His children\""
+    - "\"let it point me past itself to the Bread of Life, in whose name I ask. Amen.\" -> \"... to the Bread of Life, Jesus. In Jesus' name. Amen.\""
+  verify: >
+    study_structure --verify-against HEAD: added_unexpected holds only the shortened sentences,
+    the pointer line and the insight sentences above. validate: only Check 22 (no Study outline)
+    remains on this file, left for the read pass -- note the study sits at 3,959/4,000, so an
+    outline will need a matching cut or a word_budget raise. mkdocs build --strict: clean.
+  coordinator_edit: >
+    Eight landings all opened "This shows that God..." -- rhetorical rhythm on autopilot
+    (style-guide.md). Five openers trimmed to state the claim directly (past provision, keeps what
+    He gives, union, Israel first, generous); the bread-of-life and shepherd ones keep it. No claim
+    changed.
