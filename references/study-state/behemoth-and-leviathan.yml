@@ -218,3 +218,96 @@ resources_consulted:
   - {type: other, title: "Adrienne Mayor, The First Fossil Hunters", author: "Princeton", note: "Fossil remains as a documented origin for legendary creatures (Protoceratops and the griffin)."}
   - {type: other, title: "references/study-state/creation-reveals-the-creator.yml", note: "The parent study's state file, including the 2026-08-06 adversarial review of this material. Retained there; not duplicated wholesale here."}
 last_updated: "2026-08-23"
+
+simplify_2026-09-26:
+  pass: "readability sweep tier 3 (readability-sweep-2026-09.yml); author gave blanket approval"
+  words_before: 4212   # Check 23 count; raw wc 5666
+  words_after: 3993    # approx (Check 23 no longer fires); raw wc 5447
+  budget: 4000
+  point: >
+    God shows Job two real creatures He made and Job cannot master, to show that He is sovereign
+    over all He made and owes no one an account.
+  forks: []
+  forks_note: >
+    Considered forking "Where they might be attested" (~600 words; the study itself calls it not
+    load-bearing) but tightening reached budget, and the description/tags depend on it. Left for
+    the author if the study grows again.
+  deleted:
+    - "Intro: 'Neither matches anything alive today, and Scripture never suggests either one still is; that is why the identification question runs through the fossil record and ancient written accounts rather than through the zoo.' (merged into 'Real, but gone from the earth')"
+    - "Intro: 'What Job 41:33 denies is not the creature's existence but any equal to it on the ground: \"on earth there is not his like.\"' (third copy; kept at 'The argument in Job 41')"
+    - "Section 'A euphemism reading' (ESV SB 40:17 phallus/testicle reading and Paul's rejection) -- tangent; 40:17 dropped from the ESV SB references line"
+    - "'Pharaohs advertised the kill; there was a festival called the Harpooning of the Hippopotamus.'"
+    - "'The Gilgamesh epic says of the beast Humbaba that his mouth is fire and his breath is death, and Babylonian art depicts dragons with fire coming from the body.' (uncited in References)"
+    - "'The clearest instances are Peru's Ica stones and Mexico's Acámbaro figurines, ... the companion study sets out that evidence and why it is excluded.' (lives in creation-reveals-the-creator.md)"
+    - "Be Transformed Do: 'That is the exercise Job 38-41 puts its reader through.'"
+  shortened:
+    - old: "This study works through both chapters on those terms — what the Hebrew says about Behemoth's habitat, why the crocodile identification of Leviathan fails on the chapter's own terms, what Scripture's other four Leviathan texts add, where the creatures may be attested outside the Bible, and what the Lord was doing by putting two animals where an explanation should have gone."
+      new: "This study works through both chapters: what the Hebrew says about Behemoth's habitat, why the crocodile fails as Leviathan, Scripture's other four Leviathan texts, where the creatures may be attested outside the Bible, and what the Lord was doing by putting two animals where an explanation should have gone."
+    - old: "The arbiter Job asked for arrives in the New Testament as a person, not a procedure — \"one mediator ...\""
+      new: "The arbiter Job asked for arrives in the New Testament as a person — \"one mediator ...\""
+    - old: "The one who could not be approached in Job 41 is the one who came near in the incarnation."
+      new: "The God who could not be approached in Job 41 came near in the incarnation of Jesus."
+    - old: "The two exhibits are the end point of that interrogation, and Job's answer follows immediately:"
+      new: "The two exhibits end that interrogation, and Job answers:"
+    - old: "The Leviathan section begins at Hebrew 40:25, which English Bibles number 41:1, so Hebrew Job 41:26 is English 41:34."
+      new: "The Leviathan section begins at Hebrew 40:25, which English Bibles number 41:1."
+    - old: "Those are the ordinary things men do to large animals, asked about one animal where they will not work."
+      new: "Those are the ordinary things men do to large animals."
+    - old: "Verse 33 is then a comparison, not a denial:"
+      new: "Verse 33 is then a comparison:"
+    - old: "Mart-Jan Paul, Professor of Old Testament at the Evangelical Theological Faculty in Leuven, sets out the same case"
+      new: "Mart-Jan Paul sets out the same case"
+    - old: "Paul's conclusion is stated against the alternative directly:"
+      new: "Paul concludes:"
+    - old: "Two real animals, described by the one who made them, and gone from the earth since — which is why the identification question runs through the fossil record and ancient written accounts rather than through the zoo."
+      new: "Neither matches anything alive today, which is why the identification question runs through the fossil record and ancient written accounts."
+    - old: "Verse 19 ranks him — \"the first of the works of God\" — rather than merely sizing him."
+      new: "Verse 19 ranks him: \"the first of the works of God.\" Only his Maker may bring a sword near him."
+    - old: "On the chapter's own terms it does not hold, and four features rule it out."
+      new: "Four features in the chapter rule it out."
+    - old: "The Hebrew makes that harder than it looks, because the poet marks his comparisons and these are not marked."
+      new: "The Hebrew makes that harder: the poet marks his comparisons, and these are not marked."
+    - old: "These verses sit inside a sustained inventory of the creature's body — jaws, teeth, scales, neck, folds of flesh, heart, underside — not inside a burst of praise."
+      new: "These verses sit inside an inventory of the creature's body: jaws, teeth, scales, neck, folds of flesh, heart, underside."
+    - old: "Verse 33 grants it in advance — \"there is not on the dust his likeness\" — and that is a claim about what walks the ground, not about whether Leviathan was there. Nothing alive matches him, and the Lord is the one who says so — in the middle of a chapter daring Job to lay a hand on the animal (41:8)."
+      new: "Verse 33 grants it in advance: \"there is not on the dust his likeness.\" The Lord Himself says so, in the middle of a chapter daring Job to lay a hand on the animal (41:8)."
+    - old: "Neither does the text, and neither does this study — what Job 41 supplies is a report, not an explanation."
+      new: "Neither does the text, and neither does this study: Job 41 supplies a report."
+    - old: "The name occurs five times in the Old Testament. Job 41 is the longest treatment; the other four each add something."
+      new: "The name occurs five times in the Old Testament, and Job 41 is the longest treatment."
+    - old: "**Isaiah 27:1** — quoted above. Here the direction reverses: the name is applied to an enemy God will destroy in the day of the Lord, and Isaiah names him with both of Scripture's serpent words."
+      new: "**Isaiah 27:1** — quoted above: the name applied to an enemy God will destroy in the day of the Lord."
+    - old: "The one thing every text holds in common is control: the creature is made, formed, crushed, punished, or set to play — always by God, never independent of him."
+      new: "The one thing every text holds in common is control: the creature is made, formed, crushed, punished, or set to play, and always by God."
+    - old: "Two lines of external evidence ...: bones, and older writing. Both are worth following, and neither settles the identification."
+      new: "Two lines of external evidence ...: bones, and older writing. Neither settles the identification."
+    - old: "Each of those writers declines to close the case, and Paul states the reason plainly:"
+      new: "Each declines to close the case, and Paul gives the reason:"
+    - old: "That step does not work, for two reasons."
+      new: "That step fails for two reasons."
+    - old: "... traceable through shared poetic phrasing — one family tree, not many witnesses."
+      new: "... traceable through shared poetic phrasing — one family tree."
+    - old: "(The Chinese dragon is the real complication for that generalisation — it governs water and cloud, but fire-breathing forms are attested, which is why Paul cites it as evidence and this study does not treat the pattern as clean.)"
+      new: "(The Chinese dragon complicates this: it governs water and cloud, but fire-breathing forms are attested, so Paul cites it as evidence and this study does not treat the pattern as clean.)"
+    - old: "The Lord's argument does not depend on Job classifying either creature. It depends on Job recognising that he did not make them and cannot subdue them."
+      new: "The Lord's argument depends on Job recognising that he did not make them and cannot subdue them."
+    - old: "Neither is offered as a puzzle to be solved — they are offered as the end of a four-chapter demonstration that the God Job wanted to cross-examine governs a creation Job cannot handle."
+      new: "Both close a four-chapter demonstration that the God Job wanted to cross-examine governs a creation Job cannot handle."
+    - old: "The creature was never the point; the argument runs from creature to Creator."
+      new: "The argument runs from creature to Creator."
+  validator_fixed: "Check 10 'worth ___' at 'Both are worth following' removed."
+  left_for_author:
+    - "Check 18 exhaustiveness claim on ashaq (H6231) 'nowhere else' / 'thirty-odd occurrences' (Behemoth habitat, v.23 paragraph) -- left as-is, re-run the concordance count."
+    - "'The name occurs five times in the Old Testament' -- Isaiah 27:1 names Leviathan twice, so this is five verses / six occurrences; confirm wording."
+    - "Existing lowercase divine pronouns (he/his for God) in untouched sentences were left, since recasing them would show as changed prose; a separate pass can capitalise them."
+
+insight_2026-09-26:
+  added_sentences:
+    - "**In one sentence:** God shows Job two real creatures He made and Job cannot master, to show that He is sovereign over all He made and owes no one an account — so you can rest in who He is when He does not tell you why."
+    - "So you come to the God no one can stand before through His Son, the mediator Job could not find."   # Lessons about Jesus
+    - "Prayer: 'your Son' -> 'your Son Jesus'; closing 'Amen.' -> 'In Jesus' name. Amen.'"
+    - "This shows that God rules creatures as real as Job himself, and He rules you."   # end of 'The argument in Job 41'
+    - "This shows that God is Lord over the one creature on earth with no equal: every weapon fails against it, and He will take up His sword against the dragon in the sea (Isaiah 27:1). Nothing you fear is outside His reach."   # end of Leviathan section
+    - "This shows that God is sovereign over Leviathan in every sense the name carries: He formed the animal, crushed Egypt and will slay the dragon in that day."   # end of other appearances
+    - "This is the doctrine of God's sovereignty, and Job 42:2 states it: \"no purpose of yours can be thwarted.\" God owes no one, because no one has first given to Him; everything He gives, salvation included, is grace. So when He does not explain your suffering, you can answer as Job did: \"now my eye sees you.\""   # What the two exhibits are for
+  note: "All derived from verses the study already quotes (Job 41:10-11, 42:2, 42:5, Isa 27:1, Ps 74:14, Ps 104:26, Rom 11:35-36, 1 Tim 2:5). No new citations."
