@@ -3,7 +3,7 @@ title: "Reading the Song of Songs"
 category: "wisdom"
 description: "The Song of Songs most likely names God once, and calls the fire of married love the flame of the LORD. God made married love from the beginning and guards it with His own zeal, and Paul names what marriage itself points to: Christ and His church."
 tags: ["song-of-songs", "genesis", "ephesians", "isaiah", "matthew", "marriage", "method/word-study", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Song of Songs 8:6-7"
 bible_references: ["Song of Songs 2:10-13", "Song of Songs 2:15", "Song of Songs 8:6-7", "Matthew 24:20", "Matthew 24:32-33", "2 Corinthians 1:22", "Ephesians 5:25", "Ephesians 5:31-32", "Song of Songs 1:1", "Song of Songs 2:7", "Song of Songs 3:5", "Song of Songs 8:4", "Song of Songs 8:5-14", "Isaiah 9:7", "Genesis 38:18", "Genesis 2:22-24", "Psalm 69:9", "John 2:17", "Zechariah 8:2"]
 date_created: 2026-09-25
