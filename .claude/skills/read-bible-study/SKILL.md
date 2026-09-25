@@ -103,7 +103,7 @@ Apply [structural-readability.md](structural-readability.md). In short:
 6. Never end a section on a table. Lead in with the claim, follow with what it establishes.
 7. Open a section with its topic sentence, not a citation.
 8. Serve the thirty-second reader and the word-study reader at once.
-9. At 5,000+ words and 8+ `##` sections, add a **Study outline** after Key Takeaways — a briefing,
+9. At 2,500+ words and 6+ `##` sections, add a **Study outline** after Key Takeaways — a briefing,
    not a repeat of the generated TOC. Descriptive annotations only; an evaluative one is the
    author's to write, so leave the bullet plain and say so in the report.
 10. Move apparatus — source-weighting, correctives, a source serving several sections — into a

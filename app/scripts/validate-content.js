@@ -646,10 +646,10 @@ function validateFile(filePath) {
   // tell a reader which part they are standing in. Past a certain size a reader cannot hold the
   // shape of the page in their head and has to trawl the body to find the part they want.
   //
-  // Threshold from a corpus measurement of 77 content pages: p50 2,634w, p75 4,132w, p88 5,722w.
-  // BOTH bars are required, and the section count is not decoration -- world-population-declares-
-  // gods-creation.md is 6,132 words in 6 sections and is easy to hold, while sorcery.md is 5,810
-  // words across 19 and is not. 5,000w + 8 sections catches 9 of 77 pages.
+  // Threshold lowered 2026-09-25 from 5,000w + 8 sections (9 of 77 pages) at the author's request:
+  // give the reader the map early. 2,500w is ~17 minutes read aloud, half the Check 23 budget, and
+  // catches 38 of 113 pages. The section bar barely filters -- Key Takeaways, Discussion Questions
+  // and References are always ## sections -- but it keeps a short page with a long table out.
   //
   // WARNING, not an error, and deliberately so. Whether a page is navigable is a judgment about
   // that page's argument, which a word count cannot make -- a long study that moves through one
@@ -666,7 +666,7 @@ function validateFile(filePath) {
       .split(/\s+/)
       .filter(Boolean).length;
     const hasOutline = /^##\s+Study outline\s*$/im.test(body);
-    if (words >= 5000 && sections >= 8 && !hasOutline) {
+    if (words >= 2500 && sections >= 6 && !hasOutline) {
       log(
         'warning',
         filePath,

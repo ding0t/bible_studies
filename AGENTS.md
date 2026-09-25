@@ -166,10 +166,9 @@ by hand after editing content. It applies 23 checks in six groups:
   corpus audit; the 250-400 word target lives in
   [structural-readability.md](.claude/skills/read-bible-study/structural-readability.md), the
   standard the **read-bible-study** skill applies and the positive counterpart to style-guide.md's
-  prohibitions. Both warnings. **Check 22, a large study with no `## Study outline`** — 5,000+
-  words *and* 8+ top-level sections, which is 9 of 77 content pages. Both bars are needed: one
-  6,132-word study sits in only 6 sections and is easy to hold, while a 5,810-word one spans 19 and
-  is not. mkdocs renders a table of contents already; what it cannot do is annotate a section,
+  prohibitions. Both warnings. **Check 22, a study with no `## Study outline`** — 2,500+
+  words *and* 6+ top-level sections, which is 38 of 113 content pages (lowered from 5,000/8 on
+  2026-09-25 so readers get the mind map early). mkdocs renders a table of contents already; what it cannot do is annotate a section,
   group a run of eight into one line, or tell the reader which part they are standing in — see
   structural-readability.md rule 10, including the rule that an agent writes *descriptive*
   annotations and leaves evaluative ones to the author. Warning, because whether a page is

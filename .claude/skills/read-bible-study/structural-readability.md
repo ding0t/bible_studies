@@ -93,11 +93,13 @@ one instance is enough to do the damage.**
 no sentence. Name it in the report, quote the paragraph, and say the opening is spent on method —
 then leave it for the author or for a develop/review pass.
 
-**10. A large study opens with a Study outline — a briefing, not a table of contents.** At
-**5,000 words and 8 or more `##` sections**, a reader can no longer hold the shape of the page in
-their head. That threshold is a corpus measurement: 9 of 77 content pages clear both bars, and the
-second bar matters on its own — `world-population-declares-gods-creation.md` is 6,132 words in only
-6 sections and does not need one, while `sorcery.md` is 5,810 words across 19 and does.
+**10. A study of any size opens with a Study outline — a mind map, not a table of contents.** At
+**2,500 words and 6 or more `##` sections**, give the reader the map before the content. The bar
+was 5,000 words and 8 sections until 2026-09-25, which caught 9 pages and left the reader of every
+mid-sized study to find the shape on their own. The site's author asked for the map early:
+2,500 words is about 17 minutes read aloud, halfway to the 4,000-word budget, and catches 38 of
+113 pages. The section bar barely filters, since Key Takeaways, Discussion Questions and References
+are always `##` sections; it stops a short page with a long table from qualifying.
 
 Put it directly after Key Takeaways, as a short bulleted list of the major sections. mkdocs-material
 already renders a table of contents from the headings, so an outline that only repeats the headings
