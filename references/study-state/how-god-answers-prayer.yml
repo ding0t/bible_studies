@@ -1,0 +1,20 @@
+slug: how-god-answers-prayer
+title: "How God Answers Prayer"
+status: draft
+target_path: docs/content/christian-life/how-god-answers-prayer.md
+primary_passage: "Daniel 10:12-13"
+point: >
+  God hears every prayer at once, answers by varied routes and on His own timetable -- sometimes
+  unrecognised while it happens -- and keeps His people's prayers.
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked 2026-09-26 by the simplify pass on docs/content/christian-life/prayer-as-communion.md
+      (at commit d0330a7). The whole "## How God answers" section (intro, five ### subsections) moved
+      verbatim, plus that study's discussion question 4 ("Deeper in Scripture"). Its quotations and
+      word studies (βροντὴν γεγονέναι, the ESV Study Bible heading on Rev 8:3-5) were verified in
+      prayer.yml's review passes; don't redraft them. Needs develop-bible-study for an opening,
+      "In one sentence:" thesis, Key Takeaways and more discussion questions before publishing.
+      Frontmatter provenance fields not written -- run refresh_frontmatter_provenance.py at commit.
+  published: {done: false}

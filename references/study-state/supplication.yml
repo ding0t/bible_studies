@@ -1,0 +1,21 @@
+slug: supplication
+title: "Supplication: Begging, Turned Upward"
+status: draft
+target_path: docs/content/christian-life/supplication.md
+primary_passage: "1 Timothy 2:1"
+point: >
+  δέησις is the New Testament's word for begging out of need, pointed at God; Paul puts it first of
+  1 Timothy 2:1's four, and it is the word used of Jesus in Gethsemane.
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked 2026-09-26 by the simplify pass on docs/content/christian-life/prayer-as-communion.md
+      (at commit d0330a7). Moved verbatim: the "δέησις: the word for begging, turned upward" section and
+      the first two paragraphs of "Practicing the four" (δέησις beside προσευχή four times; "the step
+      most people are best at and most embarrassed about"). The "Four words, four domains" section
+      (1 Tim 2:1-2 quote and Louw-Nida table) is COPIED for context and also stays in the parent.
+      Counts (12 δέομαι, 18 δέησις) were verified in prayer.yml's review passes. Needs
+      develop-bible-study for opening, thesis, Key Takeaways, discussion questions -- or the author
+      may prefer to fold it back or drop it; it is short (~300 words).
+  published: {done: false}

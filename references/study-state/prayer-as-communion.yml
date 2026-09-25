@@ -1,0 +1,16 @@
+# Budget record only. The study's full state file is prayer.yml (slug "prayer", which predates the
+# page keeping its old filename). validate-content.js Check 23 looks up <filename>.yml, so the budget
+# has to live here.
+slug: prayer-as-communion
+state_file: references/study-state/prayer.yml
+target_path: docs/content/christian-life/prayer-as-communion.md
+word_budget: 4450
+word_budget_reason: >
+  Set 2026-09-26 by the readability-sweep simplify pass, after forking two tangents
+  (how-god-answers-prayer.md, supplication.md), merging duplicated material into lords-prayer.md
+  and within the study, and tightening: 7,260 -> 4,404 counted words. The study answers the nine
+  outcomes the author specified in prayer.yml `origin` (personal vs corporate, how and what to pray,
+  the Lord's Prayer as pattern, Jesus's prayer life, the apostles, whom to pray to, what prayer
+  permits God to do, attitude, teaching a family); each remaining ## section carries one of them.
+  Reaching 4,000 would mean deleting one of those outcomes (the likeliest candidates were Moses and
+  Daniel, or the Paul-circumstances test), which is the author's call rather than a sweep's.

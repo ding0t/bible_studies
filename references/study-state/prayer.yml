@@ -863,3 +863,188 @@ revision_2026-09-08:
     FRAME for the thing the study is about. Getting the theology in is not the same as getting it in
     the right register, and the second failure is harder to see because the sentence is true.
   last_updated: "2026-09-08"
+
+simplify_2026-09-26:
+  pass: readability sweep tier 2 (references/study-state/readability-sweep-2026-09.yml), author's blanket approval
+  words_before: 7260   # Check 23 count, References excluded
+  words_after: 4404    # includes the insight additions below and the new Study outline
+  budget: 4450         # set in references/study-state/prayer-as-communion.yml (Check 23 reads <filename>.yml) with its reason
+  point: >
+    The Father has adopted you, opened the way to Himself through Jesus, and given His Spirit to cry
+    '"Abba! Father!"; prayer is a child''s daily conversation with Him, kept as a habit Jesus kept, in'
+    which your will is brought into line with His and He acts. (Agrees with the file's own thesis.)
+  forks:
+    - path: docs/content/christian-life/how-god-answers-prayer.md
+      point: God hears at once, answers by varied routes on His own timetable, and keeps His people's prayers.
+      moved: whole "## How God answers" section + discussion question 4
+    - path: docs/content/christian-life/supplication.md
+      point: δέησις is begging out of need pointed at God, first of 1 Tim 2:1's four.
+      moved: '"δέησις: the word for begging" section + first two paragraphs of "Practicing the four"'
+  merges:
+    - '"Daily bread" paragraph cut -- lords-prayer.md''s Theological principle carries daily provision as a trusting child''s request.'
+    - '"Use the Lord''s Prayer as the shape" section cut; its lords-prayer.md link sentence moved into the A pattern to pray by intro; "pray like this" kept in The shape scales.'
+    - Closet paragraph reduced to a pointer to lords-prayer.md (which treats Matt 6:5-6 in its literary context).
+    - '"The Son intercedes now" section cut (Heb 7:25 / Rom 8:34 stay in Key Takeaways; 1 Tim 2:5-6 stays in What to pray about).'
+    - '"James''s two blunt sentences" and "James: surrender before asking" cut; James 4:7-10 stays as a row of the canon table.'
+    - '"Attitude" section cut -- a gather-up of postures already made in Be Transformed, Communion, and Gethsemane material.'
+    - Pattern section's back-pointer paragraphs, Psalm 37:4 repeat, δέησις/ἔντευξις re-explanation, and "teaching a child" line cut (Household keeps the four kinds).
+    - '"His prayers were not uniformly answered" (How Jesus prayed) cut; the same point stays in What prayer permits.'
+    - Luke 11:1 sentence cut from How Jesus prayed; stays in Household "Let them watch".
+    - Household "Give them the pattern" bullet cut (the pattern section does this).
+  deleted_other: >
+    Intro roadmap paragraph; "Everything practical below rests on that"; Martha/Luke 10 and
+    '"misfiled under the wrong yoke"; Psalm 63:1 / 27:4 / 73:25 sentence; YLT paragraph; Luke 4:42'
+    sentence in solitude; "two words for solitude"; "Being among people did not count..."; "Even with
+    the three closest men..."; "Nothing in these accounts suggests..."; "The prefix on the first is
+    doing work"; "Not one of those is a request about circumstances"; "He asks for all of it";
+    '"Scripture is not embarrassed by it"; Colossians 4:2 sentence in What to pray about (kept in'
+    pattern step 2); "The verse is not about getting what you already want"; "Neither is imposing a
+    preference"; prayer line "Thank you for the answers you have already given...". bible_references
+    pruned of 25 refs that left with the forks or cuts; description drops "how God answers".
+  shortened:
+    - old: Paul says the Spirit *produces* that cry rather than the believer working it up (Romans 8:15).
+      new: Paul says the Spirit *produces* that cry (Romans 8:15).
+    - old: "**He prayed as a habit, not at crises only.** Luke 5:16 uses a periphrastic imperfect — the verb 'to be' plus a participle (ἦν ὑποχωρῶν καὶ προσευχόμενος), the form Greek uses for repeated or customary action. Not 'he withdrew and prayed' on some occasion, but 'he would withdraw and pray.'"
+      new: "**He prayed as a habit.** Luke 5:16 uses a periphrastic imperfect, the form Greek uses for repeated or customary action: 'he would withdraw and pray.'"
+    - old: "**He prayed before decisions, not after them.**"
+      new: "**He prayed before decisions.**"
+    - old: "**He is praying for you now.** Not an inference from John 17 but a stated fact: 'he always lives...' (Hebrews 7:25), and He does it 'at the right hand of God' (Romans 8:34). The welcome described below rests on a living high priest, not only on a finished transaction."
+      new: "**He is praying for you now.** 'He always lives to make intercession for them' (Hebrews 7:25), and He does it 'at the right hand of God' (Romans 8:34)."
+    - old: "Think. Prayer is not the lever that makes an unwilling God act. It is a conversation with a Father... If you pray as though you must first get His attention, the problem is not your technique but your picture of Him, and the picture comes first."
+      new: "Think. Prayer is a conversation with a Father... If you pray as though you must first get His attention, the problem is your picture of Him, and the picture comes first."
+    - old: "...and Jesus says that as a reason *to* pray, not a reason to skip it. Prayer is not briefing God, and not a shopping list of needs."
+      new: "...and Jesus says that as a reason *to* pray."
+    - old: "Fix a time and a place rather than waiting to feel like it. ... Neither was improvising."
+      new: "Fix a time and a place."
+    - old: "Thank you that you always hear, and that you treasure my prayers."
+      new: "Thank you that you always hear."
+    - old: "So before any of the practice below: the New Testament does not present prayer as an obligation you must generate the willingness for. It presents the willingness as **given**."
+      new: "The New Testament presents the willingness to pray as **given**."
+    - old: "The cry is not worked up; it is produced: 'by whom we cry.'"
+      new: "The cry is produced: 'by whom we cry.'"
+    - old: "Slave and son is precisely the difference between prayer as a chore and prayer as a relationship."
+      new: "Slave and son is the difference between prayer as a chore and prayer as a relationship."
+    - old: "**The Psalms record appetite, not obligation.**"
+      new: "**The Psalms record appetite.**"
+    - old: "**And Jesus offers rest rather than another load.**"
+      new: "**Jesus offers rest.**"
+    - old: "So the order matters, and it is the reverse of how prayer is usually taught. **Get the relationship right...**"
+      new: "**Get the relationship right...**"
+    - old: "**The traffic runs both ways, though, and the study would be dishonest to leave it there.**"
+      new: "**The traffic runs both ways.**"
+    - old: "That is not what a feeling does. It is what a love does when it is inconvenient, which is also..."
+      new: "That is what a love does when it is inconvenient, which is also..."
+    - old: "This is the first practical question, and the New Testament answers it clearly enough to act on without flattening the distinctions."
+      new: (deleted)
+    - old: "'The way is open' is Hebrews' own phrase for what the cross did to the barrier around God's presence. The curtain is the temple veil..."
+      new: "The curtain is the temple veil..."
+    - old: "**'Access' can be heard as a turnstile, and it is not one.** Paul's word at Ephesians 2:18 is προσαγωγή, and Louw-Nida files it in the domain of communication — not of movement, and not of permission. ... What Christ opened was an introduction, not a facility. ... which at 11:6 carries the semantic domain of association: coming close to a person, not entering a building."
+      new: "Paul's word at Ephesians 2:18 is προσαγωγή, and Louw-Nida files it in the domain of communication. ... which at 11:6 carries the semantic domain of association: coming close to a person."
+    - old: "So the blood and the curtain are the reason the conversation is possible, and they are not the conversation. Prayer is not the exercise of a purchased right; it is talking to a Father you were brought to at that cost. ... and it is confidence about a welcome, not about a credential."
+      new: "So the blood and the curtain are the reason the conversation is possible. Prayer is talking to a Father you were brought to at that cost. ... and it is confidence about a welcome."
+    - old: "**But prayer addressed to Jesus is also in the New Testament...**"
+      new: "**Prayer addressed to Jesus is also in the New Testament...**"
+    - old: "'with groanings too deep for words' — helping us pray rather than being the one addressed."
+      new: "'with groanings too deep for words.'"
+    - old: "Greek uses that construction — a periphrastic imperfect — to mark action as ongoing or repeated rather than finished. ... It is the difference between reporting an occasion and describing a habit, and the habit is the point."
+      new: "Greek uses that construction — a periphrastic imperfect — to mark action as ongoing or repeated."
+    - old: "The solitude is not incidental to the accounts; it is the thing the narrators keep reporting, and it was deliberate enough to inconvenience people."
+      new: "The narrators keep reporting the solitude, and it was deliberate enough to inconvenience people."
+    - old: "Mark has Him gone before dawn: 'he departed and went out to a desolate place, and there he prayed' (1:35)."
+      new: "Mark has Him gone before dawn (1:35)."  # quotation kept in the How Jesus prayed table
+    - old: "...(Matthew 14:23) — two words for solitude in one sentence."
+      new: "...(Matthew 14:23)."
+    - old: "Solitude was a retreat from acclaim, not only from demand."
+      new: "Solitude was a retreat from acclaim as well as from demand."
+    - old: "**He prayed apart even in company.** Luke 9:18 puts it almost as a paradox: 'as he was praying alone...'"
+      new: "**He prayed apart even in company.** Luke 9:18: 'as he was praying alone...'"
+    - old: "...Luke 5:16. Not a quiet corner of a busy house but somewhere He had to travel to."
+      new: "...Luke 5:16, somewhere He had to travel to."
+    - old: "The solitude is not the discipline of a man making himself pray; it is the arrangement of someone protecting the relationship He most wanted..."
+      new: "The solitude is the arrangement of someone protecting the relationship He most wanted..."
+    - old: "Two things follow that bear directly on a struggling prayer life. **He made time rather than found it** — the withdrawing is the deliberate part, and it always costs something He could otherwise have been doing."
+      new: "**He made time**, and the withdrawing always cost something He could otherwise have been doing."
+    - old: "...walked out of a town that wanted him, repeatedly, for years, in order to talk to his Father. Prayer is not a remedy for weakness that stronger people can do without; it is what the strongest man who ever lived arranged His life around."
+      new: "...walked out of a town that wanted Him, repeatedly, for years, in order to talk to His Father. Prayer is what the strongest man who ever lived arranged His life around."  # also capitalised divine pronouns (style rule 8)
+    - old: "the Twelve delegated the administration rather than the prayer: ... That is the same προσκαρτερέω as Colossians 4:2: the verb of sticking at it."
+      new: "the Twelve delegated the administration: ... That is the same προσκαρτερέω as Colossians 4:2."
+    - old: "Threatened by the Sanhedrin, the church prays together, and the first word is not the problem:"
+      new: "Threatened by the Sanhedrin, the church prays together:"
+    - old: "**And the address itself is Scripture.** 'Who made the heaven...' is not their own phrasing: it is Exodus 20:11 and Psalm 146:6, both of which read..."
+      new: "**And the address itself is Scripture**: Exodus 20:11 and Psalm 146:6, both of which read..."
+    - old: "Notably they do not ask for the threat to be removed..."
+      new: "They do not ask for the threat to be removed..."
+    - old: "**Paul's recorded prayers for churches ask for wisdom and knowledge, not for circumstances**, and his own vocabulary is the evidence."
+      new: "**Paul's recorded prayers for churches ask for wisdom and knowledge**, and his own vocabulary is the evidence."
+    - old: "ἐπίγνωσις is γνῶσις with ἐπι- on the front — not information about God but knowledge *of* him, the kind you have of a person rather than of a subject."
+      new: "ἐπίγνωσις is γνῶσις with ἐπι- on the front — knowledge *of* Him, the kind you have of a person."
+    - old: "**Which could be read as a rule against praying for circumstances, and Paul rules that out himself.** When he asks churches..."
+      new: "**Paul still prays about circumstances.** When he asks churches..."
+    - old: "The pattern is not that circumstances are unspiritual to pray about. It is that **Paul says what he wants the circumstance for.** Not 'open a door' but 'open a door *for the word*'; not 'rescue me' but rescue me so that 'the word of the Lord may speed ahead and be honored' (2 Thessalonians 3:1)."
+      new: "**Paul says what he wants the circumstance for**: a door '*for the word*'; rescue so that 'the word of the Lord may speed ahead and be honored' (2 Thessalonians 3:1)."
+    - old: "**The closet.** 'When you pray, go into your room and shut the door and pray to your Father who is in secret' (Matthew 6:6). The point in context is the audience: the hypocrites pray 'that they may be seen by others' (6:5). What is forbidden is not public prayer but performed prayer."
+      new: "**The closet** is Matthew 6:6, 'go into your room and shut the door', against the hypocrites who pray 'that they may be seen by others' (6:5); [The Lord's Prayer](lords-prayer.md) sets it in context."  # merge pointer
+    - old: "So they are not alternatives, and neither substitutes for the other. Corporate prayer without..."
+      new: "Corporate prayer without..."
+    - old: "Paul gives four distinct words in one sentence, and they are not synonyms piled up for emphasis: Louw-Nida assigns each its own semantic domain."
+      new: "Paul gives four distinct words in one sentence, and Louw-Nida assigns each its own semantic domain."
+    - old: "The model prayer contains the answer in four words, and they are not 'my will be done.'"
+      new: "The model prayer contains the answer in four words."
+    - old: "That is not a stray emphasis. It is one of the most consistent structures in Scripture: ... The order does not vary, and it holds across every part of the canon."
+      new: "It is one of the most consistent structures in Scripture: ... It holds across every part of the canon."
+    - old: "Two more state the same thing from the other side, which is the sharper way to hear it:"
+      new: "Two more state it from the other side:"
+    - old: "Discernment follows surrender rather than preceding it."
+      new: "Discernment follows surrender."
+    - old: "The measure of a prayer life is not its hit rate but whose will it is being conformed to."
+      new: "The measure of a prayer life is whose will it is being conformed to."
+    - old: "It changes the person praying every time, and on the evidence above that is not a consolation prize. It is the mechanism."
+      new: "It changes the person praying every time, and on the evidence above that is the mechanism."
+    - old: "Each step below has a suggested opening — words to start with, not words to keep — and someone in Scripture who prayed that way."
+      new: "Each step below has a suggested opening — words to start with — and someone in Scripture who prayed that way."
+    - old: "They are not a warm-up to the real prayer; they are the attitude the rest of it is prayed in — ..."
+      new: "They are the attitude the rest of it is prayed in — ..."
+    - old: "(Who am I praying to? works out ...) Two things at once, correcting opposite errors: He is a Father, so you come as a child rather than as a petitioner trying to get a hearing; and his name is holy, so you come as a creature."
+      new: "Two things at once, correcting opposite errors: He is a Father, so you come as a child; and His name is holy, so you come as a creature."
+    - old: "This is the hinge, and the canon-wide pattern runs straight through it — alignment first, then God acting ([the eight texts](#what-prayer-permits-god-to-do))."
+      new: "This is the hinge — alignment first, then God acting ([the pattern](#what-prayer-permits-god-to-do))."
+    - old: "This is **δέησις** — asking out of need, from the verb people use when they beg other people, and the word used of Jesus in Gethsemane ([the word study](#what-to-pray-about))."
+      new: "This is **δέησις** ([What to pray about](#what-to-pray-about))."
+    - old: "**5. Name other people.** ἔντευξις, intercession ([why it is a distinct act](#what-to-pray-about)), which is what Paul's recorded prayers ... Their circumstances belong here too — he asks for his own without embarrassment — but he attaches a purpose to each, and so should you."
+      new: "**5. Name other people.** ἔντευξις, intercession, which is what Paul's recorded prayers ... Their circumstances belong here too, and he attaches a purpose to each, and so should you."
+    - old: "It is a spine, not a script. Jesus said 'pray *like this*,' not 'pray this.'"
+      new: "It is a spine. Jesus said 'pray *like this*' (Matthew 6:9)."
+    - old: "The Old Testament's instruction on passing faith down is about ordinary time rather than set-piece occasions."
+      new: "The Old Testament's instruction on passing faith down is about ordinary time."
+    - old: "Structure is what carries a practice through the stretches when nobody feels like it, which is most of the point of a discipline."
+      new: "Structure is what carries a practice through the stretches when nobody feels like it."
+  pointer_lines:
+    - "*How God answers prayer — heard at once, answered by varied routes and on His own timetable, and kept — is being developed as a separate study.*"
+  added_structure:
+    - "## Study outline (nine descriptive lines, after Key Takeaways) -- clears Check 22"
+    - "Headings: '#### Hunted down...', '#### Alone in company...' dropped; 'What He went for, and what it costs to imitate' + 'What that says about the Father' merged as '### What He went for'; 'Practicing the four...' renamed '### Proportion, scope, and the ground'; 'Jesus offers rest...' folded into 'The order, and why it runs both ways'."
+  discussion_questions: "Q4 (Genesis 24 / Daniel 10) moved to the how-god-answers-prayer fork; renumbered 1-5."
+  open_questions:
+    - "Link how-god-answers-prayer.md and supplication.md from this study (and from Related on this site) once they are published -- a published page linking a draft fails mkdocs --strict."
+    - "Budget left at 4,450 rather than 4,000; see prayer-as-communion.yml word_budget_reason."
+  verify: "study_structure --verify-against HEAD: added_unexpected holds only rewrapped shortened sentences, the pointer, the outline and the insight lines below. validate: no new warning on this file (Check 23 cleared by the recorded budget). mkdocs build --strict: exit 0."
+
+insight_2026-09-26:
+  thesis:
+    old: "Prayer is the Spirit-produced cry of a child to a Father who has already opened the way through His Son, sustained as a habit Christ Himself modeled at cost, and aimed always at bringing your will into line with His rather than bending His to yours."
+    new: "God the Father has adopted you, opened the way to Himself through His Son Jesus, and given you His Holy Spirit to cry \"Abba! Father!\"; so prayer is a child's daily conversation with Him, kept up as a habit Jesus Himself kept at cost, in which He brings your will into line with His and acts."
+    why: "Removes the 'rather than' contrast; subject is now God and what He has done; names adoption, Jesus, the Holy Spirit."
+  added:
+    - section: "Communion before discipline / A given willingness"
+      text: "This is **adoption**, and it shows that God wants to be spoken to: He made you His child and sent the Spirit of His Son Jesus to say \"Father\" in you. So you can come to Him as your Father on the days you feel nothing."
+      derived_from: "Romans 8:15-16 and Galatians 4:6-7 as quoted; the study's 'willingness is given' point."
+    - section: "Who am I praying to? / The access has a basis"
+      text: "That cost is the **atonement**: the Father opened the way to Himself through the blood of His Son Jesus, who \"always lives to make intercession\" for you (Hebrews 7:25). So you may come to Him today with confidence, as one already welcomed."
+      derived_from: "Heb 10:19-22 and 4:16 as quoted; Heb 7:25 already in Key Takeaways; kept in the relational 'welcome' register per revision_2026-09-08."
+    - section: "How the apostles prayed / What Paul actually asks for"
+      text: "This shows what God is most ready to give: Himself, known. So ask first that you, and the people you name, would know Him better."
+      derived_from: "The ἐπίγνωσις paragraph: 'the one request no change of circumstances could grant'."
+    - section: "What prayer permits God to do"
+      text: "This shows that God's purpose in your praying includes your **sanctification**: He conforms your will to His and acts through the surrendered will. So you can bring Him every request and leave the outcome with a Father whose will is always wiser than yours."
+      derived_from: "Romans 12:1-2 (transformation, discernment after surrender), Col 4:12, Rom 8:27, the canon table; 'always wiser and better' from Be Transformed."
+  not_changed: "How Jesus prayed already lands ('the Father is worth yours'); Key Takeaways, Be Transformed and the prayer already name Jesus and address the reader. Divine pronouns capitalised in two shortened sentences (What He went for; ἐπίγνωσις)."
