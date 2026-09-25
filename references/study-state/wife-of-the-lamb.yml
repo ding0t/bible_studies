@@ -5,25 +5,40 @@
 
 slug: "wife-of-the-lamb"
 title: "The Wife of the Lamb"
-status: drafting # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
 target_path: "docs/content/israel-and-church/wife-of-the-lamb.md"
 
-primary_passage: "Revelation 19:7-9; Revelation 21:9"
+primary_passage: "Revelation 19:7-9; Revelation 21:1-14"
 supporting_passages: []
 genre: [] # one or more of: epistle, ot-narrative, acts, gospel, parable, law, prophets, psalm, wisdom, apocalyptic, topical
 
 # Written before drafting (Phase 7). The thesis becomes the page's "In one sentence:" line; the
 # outline is the mind map, and becomes the page's Study outline when the study needs one.
 thesis: >-
-  At the wedding Scripture starts calling the bride His wife, and the marriage gives her His rest, His reign, His inheritance and His family.
-outline: [] # [{section: "", says: ""}] -- one line per section, each serving the thesis
-word_budget: 4000 # validator Check 23 reads this. Raise it only with a reason on the next line.
+  When the marriage of the Lamb comes, Scripture begins calling the bride His wife, and a wife shares what is her husband's: His rest, His reign, His inheritance, His family and, at the last, His face.
+outline:
+  - section: "Opening"
+    says: "The bride study ends at the Father's house; Revelation keeps going and changes her name."
+  - section: "Key Takeaways"
+    says: "Types & Prophecy, Lessons about Jesus, Memory verses, Be Transformed, Prayer."
+  - section: "Study outline"
+    says: "The mind map, if the page crosses 2,500 words."
+  - section: "Bride, then wife"
+    says: "nymphe and gyne; Rev 19:7 and 21:9; who the wife is at 21:9-14, marked contested."
+  - section: "The name she calls Him"
+    says: "Hosea 2:16: God wants a husband's name; addressed to Israel, marked as such."
+  - section: "What a wife shares"
+    says: "Rest (Heb 4:9), reign (2 Tim 2:12; Rev 20:6), inheritance both ways (Eph 1), family (adoption, household)."
+  - section: "Looking at His face"
+    says: "Rev 22:3-5 and 22:17: the end of the story is sight, and an invitation."
+
+word_budget: 4000
 word_budget_reason: ""
 
 stages:
   scoping:
-    done: false
-    notes: ""
+    done: true
+    notes: "Forked from bride-of-christ 2026-09-25. Exegesis for the moved text is inherited from that study (review_2026-09-20); only new prose needs fresh verification."
   exegesis:
     historical_context:
       done: false
@@ -51,12 +66,76 @@ stages:
     translations_compared: [] # e.g. ["ESV", "NASB", "NIV"]
     divergences_noted: ""
   drafting:
-    done: false
-    file: ""
+    done: true
+    file: "docs/content/israel-and-church/wife-of-the-lamb.md"
   review:
     done: false
     validated: false # npm run validate passed
 
-open_questions: []
+open_questions:
+  - >-
+    DECISION FOR AUTHOR: Rev 21:9-14 shows 'the Bride, the wife of the Lamb' as the city, with Israel's twelve tribes on the gates and the apostles on the foundations (ESV SB: unity of OT and NT believers). Is the wife the church alone, or all the redeemed? Intersects statement-of-faith / israel-and-the-church.
+  - >-
+    Hosea 2:16 is addressed to Israel. The moved text applies it to 'what the church is'; mark the referent.
+
 resources_consulted: [] # [{type: dictionary|lexicon|commentary|other, title: "", author: "", note: ""}]
 last_updated: "2026-09-25" # ISO date, set by the agent/user at each update
+
+develop_2026-09-25:
+  author_decisions: >-
+    Author: Israel and the church "work together, no conflict" -- resolve in a dispensational view,
+    consistent with israel-and-the-church.md. Hosea 2:16 likewise resolved together, not moved.
+  resolution: >-
+    One city, distinct peoples. Israel is the LORD's wife, restored "in that day" (Hosea 2:14-18;
+    Isa 54:7; Rom 11:26); the church is the Lamb's bride, married in heaven (Rev 19:7) before He
+    rides out (19:11) and Israel turns (Zech 12:10). Rev 21 shows Israel (tribes on gates, 21:12),
+    the church (apostles on foundations, 21:14; Eph 2:20) and the nations (21:24) in one city --
+    the three groups of 1 Cor 10:32, per israel-and-the-church.md. Paul applies Hosea's pattern to
+    Gentiles (Rom 9:25) and leaves Hosea's promise with Israel.
+  verified_from_source: >-
+    ESV text (study-notes.db): Rev 19:7, 19:11, 21:2, 21:3, 21:9-14, 21:24, 22:3-5, 22:17, 5:10;
+    Hos 2:14-16, 2:18, 2:19, 2:23; Isa 54:7, 62:4; Rom 9:25, 11:26; Zech 12:10; John 3:29;
+    Matt 11:11; 2 Cor 11:2; Eph 2:20; 1 Cor 10:32; Heb 11:10, 11:16, 12:22-23. Greek: Rev 21:3
+    lambda-aoi (plural) in SBLGNT and NA28; CSB prints "his peoples" with footnote "Other mss read
+    people"; hetoimazo (G2090) at John 14:2, Heb 11:16, Rev 19:7, 21:2 (interlinear).
+  contested_and_marked: >-
+    Rev 21:3 singular/plural variant; Heb 12:23 one company (NIV BTSB) or two (dispensational);
+    Rev 21:12-14 as distinct peoples (dispensational) or "unity of OT and NT believers" (ESV SB);
+    Hosea's "in that day" as a future time or a description (ESV SB); John the Baptist as friend
+    of the bridegroom outside the bride (inference, held lightly).
+  moved_text_edits: >-
+    Cut "Two occurrences... useful proportion to keep"; "Revelation 21:9 hands the church His name"
+    corrected to Revelation 22:4; "coherent rather than confused" and "not rivals for one slot"
+    contrasts removed; orphan reign paragraph and "What the Marriage Produces" intro dropped.
+  human_review_weakest: >-
+    Essay register in "Two nouns" and "Reigning with Him" (moved text, still analytical).
+  status: "Draft complete; draft: true; awaiting author read, then review-bible-study before publishing."
+
+review_2026-09-25:
+  skill: review-bible-study (subagent)
+  verified_from_source: "All 53 ESV quotations exact. Rev 21:3 laoi in SBLGNT and NA28 (variant flagged); CSB 'his peoples'. G2090 at John 14:2, Heb 11:16, Rev 19:7, 21:2 (40x NT; also Rev 12:6). Word counts re-run and match. m. Ketubot 5:2 matches. validate clean."
+  critical:
+    - "hetoimazo paragraph: 'one place, made ready' is false for Rev 19:7 (the bride prepares herself); John 14:2 = the city is an unmarked inference; Rev 12:6 (a place prepared for the woman) unmentioned."
+  moderate:
+    - "Rev 21:3 plural overclaimed ('says it in one word', 'strongest word'); it widens Lev 26:12 / Ezek 37:27 to the nations, not the Israel/church distinction. Rev 5:10 future follows NA28/ESV; SBLGNT reads present."
+    - "Two-wives question open (Isa 54:5 husband title given to Jesus; Israel the LORD's wife; church the Lamb's bride; 'first wife'). AUTHOR DECISION."
+    - "Thesis vs new frame: reign, servants, Rom 9:4, Mal 3:17, Heb 4:9 extend beyond the bride."
+    - "Hosea 2:17 omitted; Baal-fusion reading (ESV SB) vs proprietor reading unmarked."
+    - "Discussion Q1 applies Hosea 2:16 to 'you', undoing the referent resolution."
+    - "1 Cor 10:32 mapped onto Rev 21 more strongly than israel-and-the-church.md allows; nations not named in the city."
+  minor: "Unattributed 'dispensational writers/readers'; 'funeral' uncashed; 'after the wedding' for Paul; Gen 2:24 unnamed; two sections lack a 'this shows that God' line; narrated-argument skim list; diagram edges; DQ facets; Isa 62:4 only in Takeaways; primary_passage drift."
+  commentary: "NLT LASB Rev 21:12-14 confirms two groups (tribes = OT faithful, apostles = church); NIV CB and NIV BTSB Rev 21:9 complicate."
+  status: "Blocks draft: false until C1 fixed and M2/M3 decided by the author."
+
+fix_2026-09-25:
+  decisions: "Author: one Husband, two covenanted peoples (applied here and in bride-of-christ)."
+  fixed: >-
+    C1 hetoimazo rewritten (three prepare the home, one the bride; John 14:2 = city marked as
+    inference; Rev 12:6 added; 40x NT verified via concordance). M1 covenant formula (Lev 26:12,
+    Ezek 37:27) and plural fits-not-proves; Rev 5:10 text-base noted (UGNT future, SBLGNT present).
+    M2 one-Husband paragraph; 'first wife' removed. M3 shared-with-every-people sentence. M4 Hosea
+    2:17 quoted, Baal-fusion and proprietor readings both named. M5 Q1 rewritten. M6 1 Cor 10:32
+    wording. John the Baptist paragraph cut (unattributed). 'Dispensational readers' qualified.
+    Isa 62:4 into body; Gen 2:24 named; skim-list sentences cut; two 'this shows that God' lines;
+    diagram fanned out; Q3 swapped for adoption.
+  verified: "ESV Lev 26:12, Ezek 37:27, Hos 2:17, Rev 12:6, Rom 8:23; SBLGNT Rev 5:10 present; G2090 = 40 in SBLGNT."
