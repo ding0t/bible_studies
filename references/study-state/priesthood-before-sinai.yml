@@ -1,0 +1,26 @@
+slug: "priesthood-before-sinai"
+title: "Priesthood before Sinai: Adam, the Firstborn and the Levites"
+status: draft
+target_path: "docs/content/jesus/priesthood-before-sinai.md"
+primary_passage: "Numbers 3:5-13"
+point: >
+  God has always appointed His own priests: the office passed from Adam in Eden to the household
+  heads of Genesis, then to Israel's firstborn and finally to Levi, reassigned by God after each
+  failure -- the pattern Hebrews says Jesus' permanent priesthood ends.
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked 2026-09-26 by simplify-bible-study from docs/content/jesus/melchizedek-priesthood.md
+      at commit 0ffe050 (section "## Priesthood before Sinai: Adam, the firstborn, and the Levites"
+      and its subsections, moved verbatim with footnotes esvsb-eden, nivbtsb-eden, esvsb-num3).
+      Word studies and quotations were verified in the parent (see melchizedek-priesthood.yml
+      addendum_2026-07-29). One line restored from 8860b51 where an earlier pass had dropped text
+      ("every Israelite firstborn son's birthright becomes, specifically because of Israel's
+      failure and Levi's").
+  todo:
+    done: false
+    notes: >
+      Needs develop-bible-study: its own opening, "In one sentence:" thesis, Key Takeaways,
+      discussion questions, and provenance frontmatter (refresh_frontmatter_provenance.py) before
+      publishing. On publish, link it from the parent's plain-text pointer (Genesis 14 section).

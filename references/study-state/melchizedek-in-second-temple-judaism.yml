@@ -1,0 +1,24 @@
+slug: "melchizedek-in-second-temple-judaism"
+title: "Melchizedek in Second Temple Judaism"
+status: draft
+target_path: "docs/content/scripture/melchizedek-in-second-temple-judaism.md"
+primary_passage: "Psalm 110:4"
+point: >
+  Before Hebrews was written, Jewish readers of Genesis 14 and Psalm 110 had built three different
+  Melchizedeks -- Qumran's heavenly redeemer (11Q13), Philo's Logos, Josephus's historical king --
+  and Hebrews reads Genesis 14's silences as a designed resemblance to the Son instead.
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked 2026-09-26 by simplify-bible-study from docs/content/jesus/melchizedek-priesthood.md
+      at commit 0ffe050 (section "## Between the Testaments: a contested figure" and all its
+      subsections, incl. "What Hebrews does with this material", moved verbatim with footnote
+      11q13 and the "Second Temple and classical sources" references). Verified in the parent; the
+      11Q13 catena came from Ken Johnson (BibleFacts) and was cross-checked verse by verse there.
+  todo:
+    done: false
+    notes: >
+      Needs develop-bible-study: opening, thesis, Key Takeaways, discussion questions, provenance
+      frontmatter. Check the Genesis Apocryphon paragraph has a source. On publish, link it from the
+      parent's plain-text pointer (Psalm 110 section).

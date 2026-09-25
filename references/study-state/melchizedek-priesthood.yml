@@ -213,6 +213,10 @@ open_questions:
   - "Christophany vs. human-type reading of Melchizedek in Heb 7:3 -- ESV Study Bible note treats the 'without father/mother/genealogy' language as an argument from scriptural silence about an ordinary human king, not a claim of literal preincarnate deity; noted the minority Christophany view exists but did not chase down which named commentators hold it."
   - "Rabbinic identification of Melchizedek with Shem (later tradition) mentioned but not sourced to a specific primary rabbinic text -- flagged as a live open item if the study needs a citable primary reference rather than a general claim."
   - "G.K. Beale's 'The Temple and the Church's Mission' is the standard academic source for the Eden-as-sanctuary/Adam-as-priest thesis added 2026-07-29, but the book is not available in this repo's local references (checked references/ and /Volumes/media/bible/reference -- not present); the added section is sourced instead to ESV Study Bible and NIV Biblical Theology Study Bible notes, which independently confirm the same reading. If Beale becomes available, worth cross-checking against it directly."
+  - "Pending link (simplify 2026-09-26): once docs/content/jesus/priesthood-before-sinai.md is published, turn the plain-text pointer at the end of the Genesis 14 section into a link."
+  - "Pending link (simplify 2026-09-26): once docs/content/scripture/melchizedek-in-second-temple-judaism.md is published, turn the plain-text pointer at the end of the Psalm 110 section into a link."
+  - "Validator Check 18 (insight/simplify sweep 2026-09-26): the akatalytos word study's 'a New Testament hapax legomenon (its only occurrence)' claim is left as written -- re-run the concordance count before relying on it."
+  - "Divine pronouns: sentences added 2026-09-26 capitalise He/Him/His; the untouched prose still uses lowercase he/him/his for Jesus throughout. A mechanical capitalisation pass is outstanding (it was out of scope for a simplify pass, which may change only the sentences it lists)."
 
 addendum_2026-07-29:
   trigger: >
@@ -660,3 +664,93 @@ review_2026-08-02_fixes:
     valid. validate-content.js: 0 errors, only the same two pre-existing unrelated warnings as
     before these fixes (proverbs commentary page, homepage frontmatter) -- nothing new introduced.
   status: fixes applied, not yet committed -- awaiting user instruction on committing this round.
+
+word_budget: 4650  # set 2026-09-26 -- see simplify_2026-09-26.budget_reason
+
+simplify_2026-09-26:
+  words_before: 6672
+  words_after: 4622
+  budget: 4000 default; raised to 4650
+  budget_reason: >
+    After forking the two tangents (priesthood before Sinai; Second Temple reception) and every
+    merge/tighten believed in, 4,622 words remain. The remaining bulk is the word-study section
+    (~950 words) and Hebrews' argument traced (~1,300), both explicitly requested at scoping
+    ("word studies on Hebrews' Greek vocabulary") and both serving the point directly; forking the
+    word studies would remove the study's evidence. The 12 insight sentences plus the rewritten thesis (~250 words) are
+    required by the sweep.
+  point: >
+    God swore an oath that Jesus would be a priest forever in the order of Melchizedek, and Jesus
+    holds that priesthood now -- by an indestructible life, in the true heavenly sanctuary, through
+    one unrepeatable sacrifice. Agrees with the file's existing thesis.
+  forks:
+    - path: docs/content/jesus/priesthood-before-sinai.md
+      point: God has always appointed His own priests; the office passed from Adam to the household heads, the firstborn and the Levites, reassigned by God after each failure.
+      moved: >
+        "## Priesthood before Sinai" and all subsections, incl. "Three things this history sets up for Hebrews' argument" and the Shem note; footnotes esvsb-eden, nivbtsb-eden, esvsb-num3; NIV BTSB reference.
+    - path: docs/content/scripture/melchizedek-in-second-temple-judaism.md
+      point: Before Hebrews, Jewish readers built three different Melchizedeks -- Qumran's heavenly redeemer, Philo's Logos, Josephus's historical king.
+      moved: >
+        "## Between the Testaments" and all subsections (11Q13, Zadok Calendar note, Genesis Apocryphon, Philo, Josephus, What Hebrews does with this material); footnote 11q13; the Second Temple and classical sources references.
+  merges_and_deletions:
+    - "Deleted 'Everything Hebrews later leans on is compressed into these three verses.' (announcement)."
+    - "Deleted 'Verse 4 adds a second office to that king's résumé. Not only royal but priestly, and not on Aaron's terms.' (restated by the next sentence)."
+    - "Deleted 'No later reader noticed this pattern in a resemblance.' (Key Takeaways, Prophecy)."
+    - "Deleted '#### Superior in kind and in person' (summary restated at the opening of chapters 8-10)."
+    - "Deleted the first 'Two typologies, converging' paragraph (person vs object typology) -- merged into the Key Takeaways Types paragraph, which says the same."
+    - "Deleted 'Chapter 10 restates the point once more...' 10:1 paragraph -- kept in the skia word study."
+    - "Deleted '### What a translation comparison adds' (aparabatos senses already given in its word study)."
+    - "Deleted '### The claim stated' (restates the thesis and Lessons about Jesus)."
+    - "Deleted discussion question 2 (examined the forked Second Temple material); renumbered."
+    - "Deleted the orphaned hypodeigma fragment ('is rarer still in this specific sense...'); its 4:11 point is already made in the same word study."
+  repairs_of_prior_corruption: >
+    Three lines had lost text in an earlier pass (present since 03182ca/4d6f0f7). Restored verbatim
+    from 8860b51: Genesis 14 'Abram armed 318 men born in his own household, pursued the raiders north
+    past Dan'; kreitton 'The comparative cluster of "better," "more,"'; and (in the fork) 'every
+    Israelite firstborn son's birthright becomes, specifically because of Israel's failure and Levi's'.
+  shortened:
+    - old: "Hebrews does not treat it as fulfilled by resemblance the way it treats Melchizedek himself. It treats it as fulfilled by an actual, named appointment. The letter quotes this one oracle three separate times (5:6; 7:17, 21) to press a single point: God said this would happen, and it did."
+      new: "Hebrews treats it as fulfilled by an actual, named appointment, and quotes this one oracle three separate times (5:6; 7:17, 21) to press a single point: God said this would happen, and it did."
+    - old: "Several of the words chapter 7 leans on occur nowhere else in the New Testament — which is itself a signal that the author reached for precise, technical vocabulary rather than settling for ordinary terms."
+      new: "Several of the words chapter 7 leans on occur nowhere else in the New Testament."
+    - old: "What's historically particular here and what transcends it are two different things. The Chedorlaomer campaign, the mechanics of Levitical tithing, and the Second Temple speculation this study surveys are all time-bound — details of when and how the argument arose, not the argument itself. What transcends that setting is the letter's own stated claim: a priesthood secured by oath and indestructible life, exercised in the true sanctuary through a single sufficient sacrifice, holds now on the same terms Hebrews describes. That claim doesn't depend on the campaign, the tithe, or the scrolls being true — only on the priesthood and the sacrifice being what Hebrews says they are."
+      new: "The Chedorlaomer campaign, the mechanics of Levitical tithing, and the Second Temple speculation around Melchizedek are time-bound details of how the argument arose. What transcends that setting is the letter's own claim: a priesthood secured by oath and indestructible life, exercised in the true sanctuary through a single sufficient sacrifice, holds now on the same terms Hebrews describes."
+    - old: "What follows for a reader today is stated directly by the text, not merely implied by it. Because access to God no longer depends on a human priesthood that must repeat its work, believers are told to \"with confidence draw near to the throne of grace\" (4:16, ESV) rather than uncertainty about whether they have been accepted."
+      new: "Because access to God no longer depends on a human priesthood that must repeat its work, believers are told to \"with confidence draw near to the throne of grace\" (4:16, ESV)."
+  pointers:
+    - "How the priesthood passed from Adam to the household heads of Genesis, then to Israel's firstborn and finally to Levi, is traced in a separate study, *Priesthood before Sinai* (in preparation)."
+    - "How Second Temple Judaism read Melchizedek — Qumran's heavenly redeemer (11Q13), Philo's Logos allegory and Josephus's historical king — is surveyed in a separate study, *Melchizedek in Second Temple Judaism* (in preparation)."
+  outline: "Added ## Study outline (five descriptive entries) after Key Takeaways; Check 22 now clear."
+  headings: "Re-added '#### Two typologies, converging' above the surviving convergence paragraph."
+  verify: "study_structure.py --verify-against HEAD: added_unexpected holds only the shortened sentences, pointers, outline, the three restorations and the insight sentences. validate: only Check 18 (line 419, pre-existing) and Check 23 (4622 vs budget) before word_budget was set. mkdocs build --strict passes."
+
+insight_2026-09-26:
+  thesis:
+    old: "Jesus holds the priesthood Melchizedek only foreshadowed — secured by God's own oath and an indestructible life, exercised in the true heavenly sanctuary, through a single sacrifice that never has to be repeated."
+    new: "God swore an oath that Jesus would be a priest forever in the order of Melchizedek, and Jesus holds that priesthood now — by an indestructible life, in the true heavenly sanctuary, through a single sacrifice that never has to be repeated — so you can draw near to God through Him with confidence."
+  added:
+    - where: Key Takeaways, Prophecy
+      text: "God bound Himself by oath to give His people this priest, and He kept His word in Jesus."
+    - where: Key Takeaways, Prophecy
+      text: "The priest you come to God through holds His office on God's own sworn promise."
+    - where: Genesis 14, end
+      text: "So before there was a Law or a Levite, God already had a priest-king blessing Abram in His name."
+    - where: Genesis 14, end
+      text: "That is the precedent God would later swear to fulfil in Jesus."
+    - where: Psalm 110, end
+      text: "The king who rules at God's right hand is also the priest who represents His people before Him."
+    - where: Psalm 110, end
+      text: "God promised one person in whom rule and priesthood meet, and in Jesus you have both a King to obey and a Priest who brings you to God."
+    - where: Chapter 7, the oath argument (after 7:24)
+      text: "Because Jesus holds His priesthood permanently, the One who intercedes for you today is the One who will intercede for you at the end; no death will ever hand your case to someone else."
+    - where: Chapters 8-10, end
+      text: "This shows that God's purpose was always to bring you into His presence through one finished sacrifice, and that His Son Jesus has done it."
+    - where: Chapters 8-10, end
+      text: "The atonement is complete: your sanctification rests on what Jesus \"perfected for all time\" (10:14)."
+    - where: Word studies, engyos
+      text: "So your standing in the new covenant rests on Jesus Himself: He has pledged His own life for it, and that life cannot fail."
+    - where: Theological principle, Confidence to draw near
+      text: "This shows that God has provided the priest you need for as long as you need Him."
+    - where: Theological principle, Confidence to draw near
+      text: "When you pray, you come to a Father who has accepted the one sacrifice made for you, and you come alongside His Son Jesus, who is praying for you."
+  doctrines_named: [oath/promise, high-priestly intercession, atonement, sanctification, new covenant]
+  untouched: "Key Takeaways Lessons, Be transformed, Prayer and discussion questions already land in the second person and still match the remaining text."
