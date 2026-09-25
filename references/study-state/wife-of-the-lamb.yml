@@ -1,0 +1,62 @@
+# Forked 2026-09-25 by simplify-bible-study from docs/content/israel-and-church/bride-of-christ.md
+# (working tree over commit 72d73a6). The text was moved verbatim; its quotations and word studies
+# were verified in bride-of-christ (review_2026-09-20). Next: develop-bible-study Phase 7 for an
+# opening, In one sentence, Key Takeaways and prayer. See bride-of-christ.yml simplify_2026-09-25.
+
+slug: "wife-of-the-lamb"
+title: "The Wife of the Lamb"
+status: drafting # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/israel-and-church/wife-of-the-lamb.md"
+
+primary_passage: "Revelation 19:7-9; Revelation 21:9"
+supporting_passages: []
+genre: [] # one or more of: epistle, ot-narrative, acts, gospel, parable, law, prophets, psalm, wisdom, apocalyptic, topical
+
+# Written before drafting (Phase 7). The thesis becomes the page's "In one sentence:" line; the
+# outline is the mind map, and becomes the page's Study outline when the study needs one.
+thesis: >-
+  At the wedding Scripture starts calling the bride His wife, and the marriage gives her His rest, His reign, His inheritance and His family.
+outline: [] # [{section: "", says: ""}] -- one line per section, each serving the thesis
+word_budget: 4000 # validator Check 23 reads this. Raise it only with a reason on the next line.
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: false
+    notes: ""
+  exegesis:
+    historical_context:
+      done: false
+      notes: ""
+    literary_context:
+      done: false
+      notes: ""
+    content_word_studies:
+      done: false
+      notes: ""
+      terms: [] # [{word: "", language: hebrew|aramaic|greek, transliteration: "", strongs_id: "", gloss: "", range_of_meanings: [], notes: ""}] # range_of_meanings/notes are for the fuller diachronic/synchronic method — see word-study-method.md; leave empty for routine terms
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: false
+      notes: ""
+    theological_principle:
+      done: false
+      notes: ""
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: false
+    cross_refs: [] # [{ref: "", relation: ""}]
+    translations_compared: [] # e.g. ["ESV", "NASB", "NIV"]
+    divergences_noted: ""
+  drafting:
+    done: false
+    file: ""
+  review:
+    done: false
+    validated: false # npm run validate passed
+
+open_questions: []
+resources_consulted: [] # [{type: dictionary|lexicon|commentary|other, title: "", author: "", note: ""}]
+last_updated: "2026-09-25" # ISO date, set by the agent/user at each update
