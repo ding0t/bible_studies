@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-05
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -103,6 +103,14 @@ End-times prophecy, read dispensationally.
     The blessed hope of the Church: a word study on harpazo, the sequence of end-times events, and the case for a pretribulational rapture
 
     [:octicons-arrow-right-24: Read](rapture.md)
+
+-   __The Restrainer__
+
+    ---
+
+    The restrainer of 2 Thessalonians 2:6-7 is the Holy Spirit dwelling in the church. While the church stands in the midst of the world, lawlessness is held back; when she is caught up, the lawless one is revealed.
+
+    [:octicons-arrow-right-24: Read](the-restrainer.md)
 
 -   __The Trumpet Call of God__
 

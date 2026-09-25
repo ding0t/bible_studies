@@ -1,0 +1,115 @@
+# Forked 2026-09-25 from last-things/rapture.md ("The restrainer and his going") at the author's request:
+# develop the reading that the restrainer is the Holy Spirit in the church, the body of believers,
+# without weakening it. Outline approved by the author. When published, rapture.md's two restrainer
+# subsections shrink to a summary and a link.
+
+
+slug: "the-restrainer"
+title: "The Restrainer"
+status: published
+target_path: "docs/content/last-things/the-restrainer.md" # e.g. docs/content/studies/prophecy/<slug>.md
+
+primary_passage: "2 Thessalonians 2:1-12"
+supporting_passages: []
+genre: [epistle] # one or more of: epistle, ot-narrative, acts, gospel, parable, law, prophets, psalm, wisdom, apocalyptic, topical
+
+# Written before drafting (Phase 7). The thesis becomes the page's "In one sentence:" line; the
+# outline is the mind map, and becomes the page's Study outline when the study needs one.
+thesis: >-
+  The restrainer of 2 Thessalonians 2:6-7 is the Holy Spirit dwelling in the church, the body of believers; while the church stands in the midst of the world God holds back the full revelation of lawlessness, and when the church is caught up His restraining presence comes to be out of the midst and the lawless one is revealed.
+outline: [] # [{section: "", says: ""}] -- one line per section, each serving the thesis
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: false
+    notes: ""
+  exegesis:
+    historical_context:
+      done: false
+      notes: ""
+    literary_context:
+      done: false
+      notes: ""
+    content_word_studies:
+      done: false
+      notes: ""
+      terms: [] # [{word: "", language: hebrew|aramaic|greek, transliteration: "", strongs_id: "", gloss: "", range_of_meanings: [], notes: ""}] # range_of_meanings/notes are for the fuller diachronic/synchronic method — see word-study-method.md; leave empty for routine terms
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: false
+      notes: ""
+    theological_principle:
+      done: false
+      notes: ""
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: false
+    cross_refs: [] # [{ref: "", relation: ""}]
+    translations_compared: [] # e.g. ["ESV", "NASB", "NIV"]
+    divergences_noted: ""
+  drafting:
+    done: false
+    file: ""
+  review:
+    done: false
+    validated: false # npm run validate passed
+
+open_questions: []
+resources_consulted: [] # [{type: dictionary|lexicon|commentary|other, title: "", author: "", note: ""}]
+last_updated: "2026-09-25" # ISO date, set by the agent/user at each update
+
+hebrew_nt_check_2026-09-25:
+  asked: "Author asked to check the Hebrew NT (Salkinson-Ginsburg) for language insight on the restrainer."
+  source_profile: "hebrew-nt: 19th-century translations INTO Hebrew; informed opinion, not textual evidence."
+  found: >-
+    Delitzsch (ebible-heb): 2 Thess 2:7 mitokh ha-mone'a ... yusar; Phil 2:15 betokh dor iqqesh; 2 Cor
+    6:17 tse'u mitokham -- one Hebrew word (tokh) carries all three, matching Greek mesos. Salkinson-
+    Ginsburg (ebible-hebsg): ha-otser ya'atsrennu (atsar, hold back); 'ad asher yusar mitokh
+    ha-mesillah -- 'from the midst of the road', i.e. the English idiom 'out of the way'. Both use the
+    passive yusar ('be removed'), supplying the agent the Greek omits -- stated in the study.
+  bible_trace_2thess2_7: "No connections or leads."
+
+draft_2026-09-25:
+  file: docs/content/last-things/the-restrainer.md
+  size: "about 2,360 words of prose; budget 4,000."
+  verified_esv: "2 Thess 2:1-9; 1 Thess 4:17; 5:9; Phil 2:15; 2 Cor 6:17; 1 Cor 3:16; 5:2; Eph 2:21-22; John 14:16-17, 26; 16:7-8, 13; 1 John 4:4; Gen 6:3 (+ CSB/LSB footnotes); Matt 5:13-14; Rev 7:9, 14; 13:7; 14:6; Dan 10:13; 12:1; Jude 9."
+  greek_hebrew: "2 Thess 2:6 to katechon (neuter), 2:7 ho katechon (masculine), ek mesou genetai (ginomai, aorist middle subjunctive); John 14:26 ekeinos (masc.) after to Pneuma (neut.); Phil 2:15 meson; 1 Cor 5:2, 2 Cor 6:17, Col 2:14 ek mesou; 1 Thess 4:17 harpagesometha; Dan 12:1 MT ya'amod, LXX (project text) anastesetai."
+  marked: "Identification contested (ESV SB lists Rome, Spirit, Michael); Gen 6:3 verb uncertain; ESV SB's LXX 'pass away' for Michael attributed, not asserted; Hebrew NT readings presented as translators' judgement."
+  checks: "validate clean apart from provenance on an uncommitted file; 23 sections, longest 268 words; strict build passes except the link to know-the-truth.md, itself a draft."
+  pending: "When published: shrink rapture.md 'What verse 7 actually says about the going' and 'Who is the restrainer?' to a summary and link; publish together with know-the-truth.md."
+  status: "Draft complete; draft: true; review pending."
+
+sequence_check_2026-09-25:
+  asked: "Author asked whether the study holds to the pretribulational rapture and the literal seven-year tribulation."
+  finding: "Pretrib held; the seven years, Daniel 9:27 and the midpoint were missing, and 'then the lawless one will be revealed' was unplaced."
+  added: "Section 'Where this falls in the seven years' (Dan 9:27; 2 Thess 2:4; Matt 24:15, 21; link rapture.md#the-tribulation); Types & Prophecy names the seventieth week. The lawless one = Daniel's covenant-maker marked as the dispensational reading; the gap between rapture and covenant left unspecified, as Paul leaves it."
+  sibling_note: "rapture.md's diagram labels 'man of lawlessness revealed' at the midpoint while the covenant (Dan 9:27) opens the seven years. The restrainer study says he comes into the open during the seven years and is seated in the temple at the midpoint -- consistent, but the rapture diagram's 'revealed' label could be read as 'first appears at the midpoint'. Author to decide whether to relabel it 'seated in the temple'."
+
+review_2026-09-25:
+  skill: review-bible-study (subagent, all phases; no edits made)
+  verified_esv: "36 verses verbatim; Greek and Hebrew forms confirmed (to katechon ASN, ho katechon NSM, genetai 2nd aor. mid. subj., harpagesometha, Phil 2:15 meson, Dan 12:1 ya'amod). ek mesou NT-wide: Matt 13:49; Acts 17:33; 23:10; 1 Cor 5:2; 2 Cor 6:17; Col 2:14; 2 Thess 2:7 -- all Pauline uses cited."
+  critical:
+    - "C1 John 14:26 / 16:13 ekeinos refers to parakletos (masc.), not pneuma; 14:26's neuter ho follows pneuma (MACULA coreference; re-checked by the main session). The 'masculine pronoun for the neuter Spirit' claim fails here and in live rapture.md 365-368."
+    - "C2 NIV/NKJV Cultural Backgrounds SB on 2 Thess 2:6-7: 'Some suggest the church in the world, but this would contradict the context (vv. 1-4)' -- unaddressed. NIV BTSB lists the view and favours Michael."
+  moderate:
+    - "Michael: Theodotion unnamed; 'amad range ('stand'/'stop'); Rev 12:7-8 omitted."
+    - "Identification stated unmarked before 'contested'; requirements fit God generally until indwelling is added."
+    - "'Midst' = world is supplied from Phil 2:15; 2 Cor 6:17 quotes Isa 52:11; Col 2:14 ek tou mesou."
+    - "Hebrew NT: SG also uses tokh in all three verses; ha-mesillah an open plus (references/README.md); Delitzsch reads she-yusar unpointed."
+    - "Government and gospel rebuttals weaker than stated (Rom 13:4; 'gospel and Paul')."
+    - "rapture.md 529-530 'culminates ... at its midpoint'."
+  minor: "'one thing'; Gen 6:3 'shows' and LSB footnote wording; salt gloss; 'God is everywhere' (Ps 139:7); 'as before Pentecost'; temple and midpoint inference; tags lang/hebrew, tribulation; provenance; DQ facets."
+  status: "Blocks draft: false until C1 and C2 are resolved; C1 also in live rapture.md."
+
+fix_2026-09-25:
+  approved: "Author: apply all, re-validating the Criticals."
+  revalidated:
+    - "C1 bible_syntax (MACULA): John 14:26 ekeinos -> parakletos, neuter ho -> pneuma; John 16:8 and 16:13 ekeinos -> parakletos (16:7), with to pneuma tes aletheias in apposition at 16:13. Claim corrected: the Spirit carries a neuter name and a masculine title; Paul's neuter and masculine participles fit that Person (marked as the study's reading)."
+    - "C2 NIV CBSB 2:6-7 quoted exactly; answered from vv. 1-4 (vv. 3-4 condition the day of the Lord, not the gathering of v. 1); NIV BTSB's list includes 'the presence of the church and the Holy Spirit'."
+  applied: "M1 Michael (Theodotion named; 'amad range, Gen 29:35; Dan 12:1 context; Rev 12:7; Jude 9 -> restraint still God's). M2 identification marked before argued; 'On this reading'. M3 'midst' of the world supplied from Phil 2:15; 2 Cor 6:17 quotes Isa 52:11; Col 2:14 ek tou mesou. M4 SG also uses tokh in all three; ha-mesillah an open plus; Delitzsch she-yusar. M5 government (Rom 13:4; authority passes, Rev 13:7) and 'gospel and Paul'. Minors: 'stands between'; Gen 6:3 'may show' and LSB wording; salt gloss cut; Ps 139:7; 'on this reading' before Pentecost; midpoint = 'half of the week'; tags; DQs (C1 rewrite, Christ + seven years). 'Other readings' split under three sub-headings."
+  sibling: "rapture.md grammar paragraph corrected to match, with a link to the-restrainer.md; 'culminates ... at its midpoint' corrected. rapture.md now links to a draft -- publish the-restrainer.md before pushing rapture.md."
+  checks: "validate clean apart from provenance; 27 sections, longest 296 words; strict build passes with both new studies published."
