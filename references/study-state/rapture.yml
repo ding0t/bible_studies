@@ -416,3 +416,106 @@ revision_2026-09-06f:
 fix_2026-09-25_from_restrainer_review:
   fixed: "Grammar paragraph under 'Who is the restrainer?': John's masculine ekeinos takes up parakletos, not pneuma (MACULA, John 14:26; 16:8, 13); corrected to the neuter-name / masculine-title reading, linking the-restrainer.md. 'Culminates ... at its midpoint' corrected. Diagram midpoint box relabelled 'lawless one seated in the temple (2 Thess 2:4)'."
   pending: "Shrink 'What verse 7 actually says about the going' and 'Who is the restrainer?' to a summary and link when the-restrainer.md is published."
+
+simplify_2026-09-26:
+  skill: simplify-bible-study (readability sweep 2026-09, tier 1; blanket author approval)
+  words_before: 7032   # Check 23 count, References excluded
+  words_after_simplify: 3729
+  words_after_insight: 3989
+  budget: 4000
+  point: >-
+    God will send Jesus to catch His Church up bodily to Himself before the tribulation's wrath
+    falls -- a real, sudden rescue promised in His word -- and He gives that promise for comfort.
+  phase1: "Point stated without the file; agrees with the file's own thesis. Proceeded."
+  forks:
+    - path: docs/content/last-things/taken-before-judgment.md
+      point: "Enoch, Lot and Elijah are removed bodily before judgment, Noah preserved through it -- patterns of the rapture."
+      moved: "'Types in the Old Testament: Enoch, Lot, and Elijah' (whole section) + discussion question 3"
+    - path: docs/content/last-things/meet-the-lord-in-the-air.md
+      point: "The apantesis objection is weaker than usually claimed: the Septuagint gives the phrase no fixed script, the civic sense is conditioned on context, and Matthew 25 puts the feast between meeting and return."
+      moved: "'The apantesis objection, and what the Septuagint does to it' with its three subsections + the NIV Cultural Backgrounds reference entry"
+    - path: docs/content/last-things/rapture-in-the-early-church.md
+      point: "The early church was broadly premillennial; a pretribulational rapture in the fathers is contested, and the developed doctrine is 19th-century."
+      moved: "'Early church testimony' (whole section, Pseudo-Ephraem, Irenaeus, What the evidence adds up to) + the two patristic reference entries"
+  merges:
+    - "'The Jewish wedding pattern' intro, flowchart, sourcing caveats, custom bullets and the shabua paragraph deleted: bride-of-christ.md covers the custom sequence (with the m. Ketubot sourcing) and the seven-day feast; the existing pointer to it at the end of 'Where the supper sits' stays. Section renamed 'The marriage of the Lamb'; 'Where the supper sits' kept verbatim (anchor used from this page)."
+    - "Restrainer: already summarised by b6141d0 (grammar and midpoint corrections kept intact); 'What verse 7 actually says' and 'Who is the restrainer?' untouched. Victorinus' third paragraph (Latin impersonal verbs, ecclesia de medio fit on Rev 6:14) deleted; anchor #what-victorinus-actually-says kept for the-restrainer.md."
+    - "Matthew 25 parable commentary (method paragraph + five bullets) deleted: olivet-discourse-parables.md reads it. Kept the quotation and the pointer sentence under a new '### The ten virgins' heading."
+    - "'One taken, one left': Louw-Nida detail and 'the case rests on' paragraph deleted; olivet-discourse.md carries both."
+  deleted_as_tangent:
+    - "'\"The day of the Lord\" is a category, not a date'"
+    - "'Prepared for good works' (Ephesians 2:10)"
+    - "'The millennial reign' and 'Eternity' (the sequence diagram still carries both)"
+    - "Revelation 19 Babylon/byssinos paragraph under 'The fabric'"
+    - "Intro 'Whichever view is correct...' paragraph; Key Takeaways prototyping note; Lessons-about-Jesus harpazo bullet (duplicate of the section conclusion); 'We declare to you' bullet (duplicate of the Prophecy takeaway); 'Every row below was checked'; 'Three things bear on that'; dikaiomata 'six other uses' sentence; 'No rapture passage carries a comparable marker'; Corinthian-forum clause"
+  frontmatter: "Removed bible_references whose only occurrence left the page (1 Cor 11:25; 1 Cor 6:19-20; Eph 5:25-27; 1 Cor 1:2; 1 Cor 6:11; Heb 10:10; Heb 13:12; Eph 2:10; 2 Kgs 2:11; Gen 7:1; Gen 7:16; 1 Sam 4:1; 2 Sam 6:20; Jer 41:6) and the lang/hebrew tag. commentary_index.py NOT re-run (writes other files) -- run it at commit time."
+  shortened:
+    - old: "Two well-argued perspectives exist on how this happens. The first holds that the rapture — the *harpazo*, \"catching up\" — is a distinct event from the second coming, separated by the seven-year tribulation. The second holds that the *harpazo* and the second coming are the same event described in different terms. What follows makes the case for the first: pretribulational and dispensational, consistent with how this site reads prophecy elsewhere (see [The Zadok Calendar] and [The Day is Near])."
+      new: "One view holds that the rapture — the *harpazo*, \"catching up\" — is a distinct event from the second coming, separated by the seven-year tribulation; another holds that they are one event described in different terms. This study makes the case for the first, pretribulational and dispensational, as this site reads prophecy elsewhere (see [The Zadok Calendar] and [The Day is Near])."
+    - old: "The counter-arguments named below — Revelation 3:10's ambiguity, 1 Thessalonians 4:17's *apantēsis* — are live ones, and a conclusion is only as strong as its handling of them."
+      new: "The counter-argument named below, Revelation 3:10's ambiguity, is a live one, and a conclusion is only as strong as its handling of it."
+    - old: "Nothing about it is inherently religious or gentle; its core sense is *sudden, forceful removal*, and that sense carries through everywhere the New Testament uses it."
+      new: "Its core sense is *sudden, forceful removal*, and that sense carries through every New Testament use."
+    - old: "Every time ἁρπάζω describes someone going to be with God, it describes a real, sudden, physical event — not a slow transition, and not a figure of speech for dying or for a spiritual change of status. That is the term Paul reaches for in 1 Thessalonians 4:17, deliberately, and it is the strongest lexical argument that the rapture is what it sounds like: a real, sudden, bodily gathering of the Church, distinct in kind from the visible, earth-bound second coming described in 2 Thessalonians."
+      new: "Every time ἁρπάζω describes someone going to be with God, it describes a real, sudden, physical event. Paul chose that term in 1 Thessalonians 4:17, and it is the strongest lexical argument that the rapture is what it sounds like: a real, sudden, bodily gathering of the Church."
+    - old: "Paul isn't answering an abstract question here. Earlier in the same letter he had taught the Thessalonians about Christ's return; in the time since, some of them had died, and the church was grieving in a way that suggests real confusion about whether those believers would share in that return at all. [...] What follows is pastoral correction aimed at a specific grief, not a freestanding timetable."
+      new: "Paul is answering a grief. Some Thessalonian believers had died since he taught the church about Christ's return, and the church seemed unsure whether they would share in it. (last sentence deleted)"
+    - old: "...around him — which is why this passage models preservation *through* judgment, as [the typology section below](#types-in-the-old-testament-enoch-lot-and-elijah) sets out, and why the ark is not a picture of the rapture."
+      new: "...around him, which is why this passage models preservation *through* judgment and why the ark is not a picture of the rapture."
+    - old: "It will not carry that weight. Both verbs sit in the same semantic domain of physical movement — παραλαμβάνω (*paralambanō*, \"take\") at Louw-Nida 15.168 and ἀφίημι (*aphiēmi*, \"leave\") at 15.48 — so neither carries a verdict lexically. The verdict has to come from context, and the context is the Noah illustration these two verses complete, where the ones swept away are the wicked and the man left standing on the earth is Noah. [The Olivet Discourse] works this through, including Luke's own answer when the disciples ask \"Where, Lord?\" (Luke 17:37)."
+      new: "It will not carry that weight. Neither verb carries a verdict lexically, and in the Noah illustration these two verses complete, the ones swept away are the wicked and the man left standing on the earth is Noah. [The Olivet Discourse] works this through."
+    - old: "Parables make one or a few main points ... This parable sits third in a run of four ..."
+      new: "This parable sits third in a run of four ... (preceding two sentences deleted; sentence itself unchanged)"
+    - old: "One sequence marker does run the other way, and it is the strongest of them. Revelation 19 reports the marriage of the Lamb as already come, and the bride as already made ready (19:7-8). That comes **two verses before** heaven opens and the rider goes out (19:11). So on Revelation's own ordering, the Church is gathered, assessed and clothed while the King is still in heaven. [Where the supper sits] works that through."
+      new: "One sequence marker does run the other way, and it is the strongest of them: Revelation 19 reports the marriage of the Lamb as already come **two verses before** heaven opens (19:7-11). [Where the supper sits] works that through."
+    - old: "The wedding type has one stage past the rapture, and Revelation puts it at a specific point."
+      new: "Revelation puts the wedding at a specific point."
+    - old: "Scripture gives two direct reasons to expect the Church to be removed before this period, not merely protected through it."
+      new: "Scripture gives two direct reasons to expect the Church to be removed before this period."
+    - old: "The reading above is defensible but not the only one a careful reader of the Greek can reach, which is why the case for a pretribulational rapture leans on more than this verse."
+      new: "The reading above is defensible, and the pretribulational case leans on more than this verse."
+    - old: "Scripture describes two distinct judgments, for two distinct groups, at two distinct times. Collapsing them into one \"final judgment\" flattens a real structure in the text."
+      new: "Scripture describes two distinct judgments, for two distinct groups, at two distinct times."
+    - old: "...rendering judicial verdicts\" — remains of one still stand in the Corinthian forum."
+      new: "...rendering judicial verdicts\"."
+    - old: "Everything argued above, in one view. On the pretribulational reading the events fall in this order."
+      new: "On the pretribulational reading the events fall in this order."
+    - old: "The view argued above is pretribulational and dispensational. It is not the only view held by serious, Bible-believing Christians."
+      new: "Serious, Bible-believing Christians hold other views."
+    - old: "This affects the millennium section above more than the rapture question itself, but the two are often held together."
+      new: "This affects the millennium more than the rapture question itself, though the two are often held together."
+    - old: "...physical event everywhere else it is used of someone going to be with God — not a metaphor to be reinterpreted."
+      new: "...physical event everywhere else it is used of someone going to be with God."
+    - old: "...Matthew 24:29 ... after the tribulation in so many words. No rapture passage carries a comparable marker."
+      new: "...after the tribulation in so many words. (sentence deleted)"
+  verify: "study_structure.py --verify-against HEAD: added_unexpected holds only the shortened sentences above, the ten-virgins pointer paragraph, and the insight sentences below. validate: Check 23 cleared; only Check 22 (no Study outline) remains -- left for the read pass. mkdocs build --strict: pass."
+
+insight_2026-09-26:
+  thesis_old: "The word Scripture uses for the rapture describes a real, sudden, physical rescue of the Church before the tribulation's judgment falls, and that promise is meant for comfort, not calculation."
+  thesis_new: "God will send His Son Jesus to catch His Church up bodily to Himself before the tribulation's wrath falls, a sudden and real rescue He has promised in His own word, so that you can meet grief and waiting with comfort."
+  prayer: "Closing changed from 'until you come. Amen.' to 'until you come. In Jesus' name. Amen.'"
+  added:
+    - section: "The word behind \"rapture\""
+      text: "This shows that God gathers His people with the whole force the word carries: no one can snatch you out of His hand (John 10:28-29), and one day He will snatch you up to be with Jesus Himself."
+    - section: "The promise"
+      text: "This shows that God has tied your hope to a person: Jesus Himself is coming for you, so your heart need not be troubled (John 14:1)."
+    - section: "The call to rapture"
+      text: "This shows that God answers grief with the resurrection of the body: those you have buried in Christ rise first, and you will be with them and with the Lord always."
+    - section: "The mystery of 1 Corinthians 15:51-53"
+      text: "This is glorification, the last stage of your salvation, and God will complete it in you in the twinkling of an eye."
+    - section: "The imminence of the rapture"
+      text: "This shows that God keeps the day in His own hand and asks you for readiness: watch for Jesus Himself every day, because He is coming at an hour you do not expect (24:44)."
+    - section: "Does the Church ride out with him?"
+      text: "This shows that God means *always* in 1 Thessalonians 4:17: once you are caught up to Jesus you stay at His side, and when He appears in glory, you appear with Him (Colossians 3:4)."
+    - section: "Who is the restrainer?"
+      text: "This shows that God rules the timing of evil in His providence: the lawless one is revealed only \"in his time\" (2:6), so you need not be shaken or alarmed (2:2)."
+    - section: "Where the supper sits"
+      text: "This shows that God clothes the bride by grace from first to last: Jesus is the foundation already laid, and the linen is His gift, so you can build on Jesus now knowing that what He assesses at the Bema He first gave you."
+    - section: "The tribulation"
+      text: "This shows that God has already settled your destiny: He appointed you to obtain salvation through your Lord Jesus Christ, and on the reading argued here He will gather you before that week of wrath begins."
+    - section: "Conclusion"
+      text: "This is the blessed hope: God will send Jesus for you Himself, raise those who have died in Him, and keep you with Him forever, so encourage one another with these words (1 Thessalonians 4:18)."
+  open_questions:
+    - "Pointer links pending: when taken-before-judgment.md, meet-the-lord-in-the-air.md and rapture-in-the-early-church.md are published, link them from rapture.md (Key Takeaways 'Type'; the apantesis row of the vocabulary table / Think bullet; Other end-times views). Left out now because a published page linking a draft fails mkdocs --strict."
+    - "Key Takeaways 'Type' still summarises Enoch/Lot typology whose body now lives in the taken-before-judgment fork."
+    - "Study outline not added (Check 22); the read pass adds it, and it will push the page slightly past 4,000 -- the author may prefer word_budget 4200 then."

@@ -1,0 +1,12 @@
+# Forked 2026-09-26 from last-things/rapture.md (HEAD 0ffe050) by simplify-bible-study during the
+# 2026-09 readability sweep. Text moved verbatim; its quotations and word studies were verified in
+# rapture.md's reviews (see references/study-state/rapture.yml). Needs develop-bible-study for its
+# own opening, thesis and Key Takeaways before publishing.
+slug: "rapture-in-the-early-church"
+status: draft
+target_path: "docs/content/last-things/rapture-in-the-early-church.md"
+stages:
+  scoping: {done: false, notes: "Forked from rapture.md, not yet scoped as its own study."}
+  drafting: {done: false, notes: "Body moved verbatim from rapture.md @ 0ffe050; only in-page anchors retargeted to rapture.md."}
+open_questions:
+  - "When published, link it from rapture.md (see rapture.yml insight_2026-09-26 open_questions)."
