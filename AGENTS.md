@@ -174,7 +174,8 @@ by hand after editing content. It applies 23 checks in six groups:
   annotations and leaves evaluative ones to the author. Warning, because whether a page is
   navigable is a judgment about its argument that a word count cannot make.
 - **Check 23, a study over its word budget** — `word_budget` in
-  `references/study-state/<slug>.yml`, else 4,000 words (about 27 minutes read aloud). Warning;
+  `references/study-state/<slug>.yml`, else 4,000 words (about 27 minutes read aloud; References and
+  the Study outline are not counted, since both are consulted rather than read). Warning;
   the fix is the **simplify-bible-study** skill's recommendation, or a raised budget with its
   reason recorded in the state file.
 - **Checks 18–19, claims that go stale silently.** An exhaustiveness claim ("only occurrence",

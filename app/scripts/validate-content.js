@@ -688,8 +688,11 @@ function validateFile(filePath) {
       : null;
     const budget = stateBudget ? Number(stateBudget[1]) : 4000;
     // The bibliography is consulted, not read, so it does not count against a reading budget.
+    // Neither does the Study outline: Check 22 requires it, and a map of the study is consulted
+    // the same way -- counting it made the two checks fight on every study near its budget.
     const readWords = body
       .split(/^## References\b/m)[0]
+      .replace(/^## Study outline\s*$[\s\S]*?(?=^## )/m, '')
       .split('\n')
       .filter((l) => !/^(\||```|\s{4}|>|#)/.test(l))
       .join(' ')
