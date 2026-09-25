@@ -5,9 +5,9 @@ description: "When the marriage of the Lamb comes, Scripture begins calling the 
 tags: ["revelation", "hosea", "isaiah", "1-corinthians", "2-corinthians", "hebrews", "ephesians", "romans", "1-peter", "2-timothy", "dispensationalism", "marriage", "covenant", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Revelation 19:7-9; Revelation 21:1-14"
-bible_references: ["Revelation 19:7", "Revelation 21:2", "Revelation 21:9", "Revelation 22:17", "Revelation 18:23", "Revelation 20:6", "Revelation 22:3-5", "Hosea 2:16", "Isaiah 54:5", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "Ephesians 1:5", "Ephesians 1:11", "Ephesians 1:14", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "Ephesians 5:31", "1 Peter 1:4", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "1 Corinthians 6:17", "Hosea 2:14-23", "Isaiah 54:7", "Isaiah 62:4", "Romans 9:25", "Romans 11:26", "2 Corinthians 11:2", "Revelation 19:11", "Zechariah 12:10", "John 3:29", "Matthew 11:11", "Revelation 21:3", "Revelation 21:12-14", "Revelation 21:24", "Ephesians 2:20", "1 Corinthians 10:32", "Hebrews 12:22-23", "Hebrews 11:10", "Hebrews 11:16", "John 14:2", "Revelation 5:10", "Hosea 2:17", "Genesis 2:24", "Leviticus 26:12", "Ezekiel 37:27", "Revelation 12:6"]
+bible_references: ["Revelation 19:7", "Revelation 21:2", "Revelation 21:9", "Revelation 22:17", "Revelation 18:23", "Revelation 20:6", "Revelation 22:3-5", "Hosea 2:16", "Isaiah 54:5", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "Ephesians 1:5", "Ephesians 1:11", "Ephesians 1:14", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "Ephesians 5:31", "1 Peter 1:4", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "1 Corinthians 6:17", "Hosea 2:14-23", "Isaiah 54:7", "Isaiah 62:4", "Romans 9:25", "Romans 11:26", "2 Corinthians 11:2", "Revelation 19:11", "Zechariah 12:10", "John 3:29", "Matthew 11:11", "Revelation 21:3", "Revelation 21:12-14", "Revelation 21:24", "Ephesians 2:20", "1 Corinthians 10:32", "Hebrews 12:22-23", "Hebrews 11:10", "Hebrews 11:16", "John 14:2", "Revelation 5:10", "Hosea 2:17", "Genesis 2:24", "Leviticus 26:12", "Ezekiel 37:27", "Revelation 12:6", "Romans 11:17", "Romans 11:24", "Galatians 4:24", "Galatians 4:26-28", "Galatians 4:31", "Isaiah 54:1"]
 date_created: 2026-09-25
-date_modified: 2026-09-25
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -75,7 +75,7 @@ In Jesus' name. Amen.
 
 - [Bride, then wife](#bride-then-wife). The two Greek nouns, and the verse where the new one arrives.
 - [One city, and every people in it](#one-city-and-every-people-in-it). Israel as the LORD's wife and the name she will call Him,
-  the church as the Lamb's bride, and the city that carries both names.
+  the church as the Lamb's bride, the olive tree, and the city that carries both names.
 - [What a wife shares](#what-a-wife-shares). Rest, reign, inheritance and family.
 - [Looking at His face](#looking-at-his-face). Where Revelation ends.
 - [Discussion questions](#discussion-questions). Five, for a group or on your own.
@@ -198,6 +198,35 @@ made perfect" (12:23, ESV). Many dispensational readers take those as two compan
 Old Testament saints. The *NIV Biblical Theology Study Bible* takes them as one group (note on
 12:23), so this is contested. Abraham is in the city on either reading. He "was looking forward to
 the city that has foundations, whose designer and builder is God" (Hebrews 11:10, ESV).
+
+### Grafted in, and the Jerusalem above
+
+Paul draws the same picture as a tree. Gentile believers are "a wild olive shoot ... grafted in among
+the others" who "now share in the nourishing root of the olive tree" (Romans 11:17, ESV), and the
+natural branches will be "grafted back into their own olive tree" (11:24, ESV). One tree, two kinds
+of branch, each kept distinct: the same shape as the city whose gates carry Israel's names and whose
+foundations carry the apostles'. Paul says where the tree is heading: "all Israel will be saved"
+(11:26, ESV). [Israel and the Church](israel-and-the-church.md#the-olive-tree-of-romans-11) works
+through the olive tree in full.
+
+Paul also names the city. "The Jerusalem above is free, and she is our mother" (Galatians 4:26, ESV).
+Then he quotes Isaiah 54:1: "Rejoice, O barren one who does not bear ... For the children of the
+desolate one will be more than those of the one who has a husband" (Galatians 4:27, ESV). That is the
+chapter in which the LORD tells Israel, "your Maker is your husband" (Isaiah 54:5). Paul applies
+Isaiah's pattern, God giving children to the barren, to the children born through the gospel, the way
+he applies Hosea at Romans 9:25. Israel keeps her own promise in the same chapter: "with great
+compassion I will gather you" (Isaiah 54:7, ESV).
+
+Read Galatians 4 on its own terms. Of Hagar and Sarah Paul says, "these women are two covenants. One
+is from Mount Sinai, bearing children for slavery" (4:24, ESV). The contrast is law and promise, and
+it runs through both peoples: Paul, a Jew, writes "we are not children of the slave but of the free
+woman" (4:31, ESV), and "you, brothers, like Isaac, are children of promise" (4:28, ESV). The *ESV
+Study Bible* reads 4:26-27 as making all believers "the true Israel" (note on 4:26-27). That is the
+reading of those who hold one people of God. This site reads Israel in Romans 11 as the nation, as
+[Israel and the Church](israel-and-the-church.md#the-case-for-reading-the-church-as-israel) argues.
+
+**This shows that God builds one household without erasing a name.** Every child of promise has the
+Jerusalem above for a mother, and Israel's own branches are waiting to be grafted back in.
 
 ### Why the whole city is called the bride
 
