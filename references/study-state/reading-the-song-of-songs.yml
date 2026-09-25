@@ -5,7 +5,7 @@
 
 slug: "reading-the-song-of-songs"
 title: "Reading the Song of Songs"
-status: drafting # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
 target_path: "docs/content/wisdom/reading-the-song-of-songs.md"
 
 primary_passage: "Song of Songs 8:6-7"
@@ -15,15 +15,30 @@ genre: [] # one or more of: epistle, ot-narrative, acts, gospel, parable, law, p
 # Written before drafting (Phase 7). The thesis becomes the page's "In one sentence:" line; the
 # outline is the mind map, and becomes the page's Study outline when the study needs one.
 thesis: >-
-  The bridal reading of the Song is ancient; read allegorically line by line it yields whatever the reader brings; its one theological anchor is the flame of Yah at 8:6.
-outline: [] # [{section: "", says: ""}] -- one line per section, each serving the thesis
-word_budget: 4000 # validator Check 23 reads this. Raise it only with a reason on the next line.
+  The Song celebrates the love of a betrothed man and woman and, in its one mention of God, calls that love's fire the flame of the LORD (8:6); married love is His gift, and Paul names what it was always pointing to, Christ and the church (Ephesians 5:32).
+outline:
+  - section: "Opening"
+    says: "A book about love that barely mentions God, and why it is in the Bible."
+  - section: "Key Takeaways"
+    says: "Types (Paul names the picture; the Song does not prophesy), Lessons about Jesus, Memory verse (8:6-7), Be Transformed, Prayer."
+  - section: "What the Song is"
+    says: "Love poetry of a betrothed couple (ESV SB, CBSB)."
+  - section: "How it has been read"
+    says: "Akiva's holy of holies; Origen's ten books."
+  - section: "The flame of the LORD"
+    says: "8:6 shalhevetyah, the seal, and 8:7 'many waters cannot quench love'."
+  - section: "Reading it toward Christ"
+    says: "Ephesians 5:32 carries the identification the Song cannot carry alone; the foxes caution."
+  - section: "Arise, come away"
+    says: "2:10-13 and the fig tree of Matthew 24:32, kept as a resonance."
+
+word_budget: 4000
 word_budget_reason: ""
 
 stages:
   scoping:
-    done: false
-    notes: ""
+    done: true
+    notes: "Forked from bride-of-christ 2026-09-25. Exegesis for the moved text is inherited from that study (review_2026-09-20); only new prose needs fresh verification."
   exegesis:
     historical_context:
       done: false
@@ -51,12 +66,59 @@ stages:
     translations_compared: [] # e.g. ["ESV", "NASB", "NIV"]
     divergences_noted: ""
   drafting:
-    done: false
-    file: ""
+    done: true
+    file: "docs/content/wisdom/reading-the-song-of-songs.md"
   review:
     done: false
     validated: false # npm run validate passed
 
-open_questions: []
+open_questions:
+  - >-
+    DECISION FOR AUTHOR: thesis moved from method ('how much weight the Song can carry') to what the Song shows about God. Confirm.
+
 resources_consulted: [] # [{type: dictionary|lexicon|commentary|other, title: "", author: "", note: ""}]
 last_updated: "2026-09-25" # ISO date, set by the agent/user at each update
+
+develop_2026-09-25:
+  author_decisions: "Thesis confirmed: God's flame (8:6) and Ephesians 5:32, with the allegory caution kept as one section."
+  verified_from_source: >-
+    ESV text: Song 1:1, 2:7, 3:5, 8:4, 8:6-7; Eph 5:25, 5:31-32; 2 Cor 1:22; Isa 9:7. ESV SB notes on
+    8:5-14 and 8:6 ("only mention of the divine name"; "both love and a jealousy to protect marriage
+    are given by God"). Footnotes at 8:6: LSB "Or A vehement flame" and "The shortened form of
+    Yahweh..."; CSB "Or the blaze of the Lord". Hebrew: shalhevet + Yah (H7957, H3050), qin'ah
+    (H7068) at Song 8:6 and Isa 9:7 (Eng; interlinear), chotam (H2368) at Song 8:6 and Gen 38:18.
+  moved_text_edits: >-
+    Seal paragraph rewritten to stand without the bride study's Judah context; "rather than
+    theology", "rather than a private construction" and the forward reference to the foxes cut;
+    quote blocks given their blank second line.
+  human_review_weakest: "Writing around the theology is least likely here; watch the essay register in 'How it has been read'."
+  status: "Draft complete; draft: true; awaiting author read, then review-bible-study before publishing."
+
+review_2026-09-25:
+  skill: review-bible-study (subagent)
+  verified_from_source: "Every ESV quotation exact. 10 translations of 8:6 and all footnotes compared. MACULA (lemma 7957a, no H3050) vs morphhb (H7957 + H3050). H7068 41 verses. Kulp Yadayim 3:5 and NPNF2 Eusebius 6.32.5-6 match. validate clean."
+  critical:
+    - "Foxes quotation attributed to 'the same volume' (reads as ESV SB); it is the NIV Cultural Backgrounds SB note on 2:15. 'That reading is a discipline' lost its antecedent in the reorder."
+  moderate:
+    - "Divine-name reading of 8:6 stated as settled in description, opening, thesis, Think, prayer and the bold line; NIV, CSB, NKJV, NLT and MACULA read an intensifier; NIV BTSB calls the name 'the alternative reading'."
+    - "qin'ah 'God's own word for Himself' overstated (about 18 of 41 uses human, incl. Prov 6:34, Num 5); Key Takeaway credits Isa 9:7's LORD-of-hosts zeal to Jesus."
+    - "'waiting, then wedding, then rest' Types claim unsourced and contested (3:11 wedding day mid-book)."
+    - "Context: parallelism and covenant-wisdom frame unused; authorship/date thin; Gen 2:24 uncited."
+    - "Akiva (sanctity) and Eusebius (Origen wrote ten books) cited for bridal readings neither states."
+    - "'what it was always pointing to' assigns intent to the Song; Eph 5:32 refers Gen 2:24."
+  minor: "LSB footnote truncated without ellipsis; CSB text not disclosed; CBSB Egyptian parallel is the wine metaphor; OpenBible link overstated; 'longing' -> 'belonging'; Q2 paraphrase in quotes; add Gen 2:24; taxonomy page omits Song; Isa 9:7 (Heb 9:6); hedging cluster in 'Arise, come away'."
+  status: "Not ready for draft: false until C1 fixed and M1-M2 decided by the author."
+
+fix_2026-09-25:
+  decisions: "Author: mark the divine-name reading as most likely, name both sides, add Genesis 2:22-24 support."
+  fixed: >-
+    C1 foxes quote now credited to the NIV Cultural Backgrounds SB; 'That reading' antecedent
+    restored. M1 'most likely' in description, opening, thesis, Think; ESV/NASB/LSB vs NIV/CSB/NKJV
+    named; Gen 2:22-24 grounds the gift. M2 qin'ah: husband's jealousy (Prov 6:34) and the LORD's
+    zeal (Zech 8:2; Isa 9:7); parallelism defines it; Christ's zeal via Ps 69:9 / John 2:17. M3
+    Types sequence cut. M4 authorship per CSB AFSB intro. M5 Yadayim dispute quoted; Akiva and
+    Eusebius cited for what they say. M6 Paul applies Gen 2:24; the Song step marked an inference.
+    Minor: LSB ellipsis, CSB text disclosed, wine imagery, OpenBible and Matt 24:20, 'belonging',
+    Q2 exact, Gen 2:24 and method/word-study, Heb 9:6 and Ps 69:10 numbering, our-taxonomy.md
+    Wisdom row.
+  verified: "ESV Gen 2:22, 2:24, Zech 8:2, Ps 69:9, John 2:17; Song 8:6 in CSB, LSB, NASB95/2020, NIV, NKJV, NLT; H7068 at Prov 6:34, Zech 8:2, Ps 69:9 (Heb 69:10); NIV CBSB notes on 1:2 and 2:15; Kulp m. Yadayim 3:5 (dispute + Akiva); CSB AFSB introduction."

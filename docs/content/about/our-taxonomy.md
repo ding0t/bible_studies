@@ -61,7 +61,7 @@ Lewis Sperry Chafer's *Systematic Theology* and Charles Ryrie's *Basic Theology*
 | **Last things** | Eschatology | 236 | The rapture, the tribulation, the millennium, judgment, and the ordering of end-times events |
 | **Israel and the Church** | Ecclesiology *(+ the dispensational distinction)* | 262 | The covenants, the relationship and distinction between Israel and the Church, and the Hebrew roots of Christian faith and practice |
 | **Christian life** | Practical theology | 248 | Prayer, fasting, and the disciplines of walking with Christ |
-| **Wisdom** | *Wisdom literature* | 223 | What Proverbs, Ecclesiastes, Job and James teach about living skilfully before God, and personal reflections from reading them |
+| **Wisdom** | *Wisdom literature* | 223 | What Proverbs, Ecclesiastes, Job, the Song of Songs and James teach about living skilfully before God, and personal reflections from reading them |
 | **Feasts** | *Appointed times* | 263 | The biblical feasts and calendars: their Old Testament instruction, their observance, and their fulfilment |
 | **Biblical figures** | *(Biography)* | — | Studies of particular people in Scripture — the twelve disciples, the patriarchs, the prophets, the kings |
 | **Sermons** | Homiletics | 251, 252 | Sermon notes, teaching material, and guidance on preparing to teach |
