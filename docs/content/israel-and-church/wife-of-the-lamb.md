@@ -3,7 +3,7 @@ title: "The Wife of the Lamb"
 category: "theology"
 description: "When the marriage of the Lamb comes, Scripture begins calling the bride His wife. Israel is the LORD's wife, restored; the church is the Lamb's bride, married in heaven; and Revelation puts both in one city with the nations. What a wife shares: His rest, His reign, His inheritance, His family and His face."
 tags: ["revelation", "hosea", "isaiah", "1-corinthians", "2-corinthians", "hebrews", "ephesians", "romans", "1-peter", "2-timothy", "dispensationalism", "marriage", "covenant", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Revelation 19:7-9; Revelation 21:1-14"
 bible_references: ["Revelation 19:7", "Revelation 21:2", "Revelation 21:9", "Revelation 22:17", "Revelation 18:23", "Revelation 20:6", "Revelation 22:3-5", "Hosea 2:16", "Isaiah 54:5", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "Ephesians 1:5", "Ephesians 1:11", "Ephesians 1:14", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "Ephesians 5:31", "1 Peter 1:4", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "1 Corinthians 6:17", "Hosea 2:14-23", "Isaiah 54:7", "Isaiah 62:4", "Romans 9:25", "Romans 11:26", "2 Corinthians 11:2", "Revelation 19:11", "Zechariah 12:10", "John 3:29", "Matthew 11:11", "Revelation 21:3", "Revelation 21:12-14", "Revelation 21:24", "Ephesians 2:20", "1 Corinthians 10:32", "Hebrews 12:22-23", "Hebrews 11:10", "Hebrews 11:16", "John 14:2", "Revelation 5:10", "Hosea 2:17", "Genesis 2:24", "Leviticus 26:12", "Ezekiel 37:27", "Revelation 12:6"]
 date_created: 2026-09-25
