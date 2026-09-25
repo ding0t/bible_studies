@@ -757,6 +757,9 @@ the end of the sequence is the one He built for His own dwelling, and He brings 
 into it. That is what every step before it was for — bought, betrothed, pledged, set apart, prepared
 for, fetched, married — so that you may dwell with Him, and He with you.
 
+Revelation keeps going past the wedding, and calls her the Lamb's wife.
+[The Wife of the Lamb](wife-of-the-lamb.md) follows her there.
+
 ## Discussion Questions
 
 1. Paul says marriage "refers to Christ and the church" (Ephesians 5:32). If the picture came first
@@ -903,6 +906,10 @@ flowchart TD
   marriage supper sits relative to the judgment seat of Christ.
 - [Assurance of Salvation](../salvation/assurance-of-salvation.md) — the doctrine this study's
   betrothal material feeds into, argued there without the wedding image.
+- [The Wife of the Lamb](wife-of-the-lamb.md) — what the marriage gives her: rest, reign,
+  inheritance, family, and one city shared with Israel and the nations.
+- [Reading the Song of Songs](../wisdom/reading-the-song-of-songs.md) — the flame of the LORD at
+  Song 8:6, and how far the Song can be read toward Christ.
 - [The Kinsman Redeemer](../jesus/kinsman-redeemer.md) — the *goel* office worked through in Ruth on
   its own terms: the nearer redeemer who declines, the transaction at the gate, and the genealogy.
 - [Israel and the Church](israel-and-the-church.md) — how the church stands in relation to Israel:
