@@ -15,20 +15,10 @@ ai_provider_models:
 
 # The Bride of Christ
 
-Paul quotes Genesis: a man leaves his father and mother and holds fast to his wife. Then he clearly links
-the pattern of marriage with Christ and the church
- **"This mystery is profound, and I am saying that it refers to Christ and the church"** (Ephesians 5:32, ESV).
-
-He is not using marriage as an illustration. He is telling the Ephesians that marriage had been carrying
-this meaning the whole time.
-
-This is an undeniable type throughout Scripture. Paul states it outright. John the Baptist
-states it. Revelation states it twice in its closing chapters.
-
-But not everything taught about the bride comes from Scripture. It also comes from
-reconstructions of the first-century Jewish wedding — the father inspecting the chamber, the groom's
-"only my father knows the day," the bridal chamber prepared in the father's house. Some of that is
-documented. Some of it has no ancient source at all.
+Paul in his epistle to the Ephesians calls marriage a profound mystery. Paul quotes Genesis 2:24, then explains its meaning: marriage points to Christ and the church
+(Ephesians 5:31–32). The prophets describe God as Israel's husband; the New Testament calls Christ
+the bridegroom. This study follows that pattern in Scripture and examines the historical sources
+behind later wedding customs.
 
 **In one sentence:** Scripture calls the church Christ's betrothed bride, and four parts of
 that betrothal are already complete — purchased, betrothed, pledged, set apart — which is what makes
@@ -39,15 +29,15 @@ her, the marriage supper, the Father's house — set the church in an attitude o
 
 ### Types & Prophecy
 
-God used marriage as the picture of His covenant in the Old Testament: "I will betroth you to me forever"
-(Hosea 2:19), "your Maker is your husband" (Isaiah 54:5), "as the bridegroom rejoices over the bride,
-so shall your God rejoice over you" (Isaiah 62:5). The New Testament does not invent the image; it
-identifies clearly who the bridegroom is. It also gives her a second title at the wedding: at Revelation 19:7 the word the
-ESV prints as "Bride" is γυνή (*gynē*), *wife*, and at 21:9 the angel says both — "the Bride, the wife of the
-Lamb". The bride stands in both of Scripture's closing chapters — the new
-Jerusalem "prepared as a bride adorned for her husband" (21:2), "the Bride, the wife of the Lamb"
-(21:9) — and the Bible's final invitation is hers to give: "The Spirit and the Bride say, 'Come'"
-(22:17, ESV).
+God used marriage as the picture of His covenant in the Old Testament: "I will betroth you to me
+forever" (Hosea 2:19), "your Maker is your husband" (Isaiah 54:5), and "as the bridegroom rejoices
+over the bride, so shall your God rejoice over you" (Isaiah 62:5). The New Testament carries this
+image forward and identifies the bridegroom. Revelation also gives the bride a second title: at
+19:7, the ESV translates γυνή (*gynē*) as "Bride," though the word means *wife*. At 21:9 the angel
+uses both titles: "the Bride, the wife of the Lamb." The bride appears in both closing chapters:
+the new Jerusalem is "prepared as a bride adorned for her husband" (21:2), and the angel names her
+"the Bride, the wife of the Lamb" (21:9). The Bible's final invitation is hers to give: "The Spirit
+and the Bride say, 'Come'" (22:17, ESV).
 
 ### Lessons about Jesus
 
@@ -56,7 +46,8 @@ LORD of hosts is his name" (Isaiah 54:5, ESV); "I was their husband, declares th
 31:32, ESV); "you will call me 'My Husband'" (Hosea 2:16, ESV). Then John the Baptist points at a man
 from Nazareth and says "the one who has the bride is the bridegroom" (John 3:29), and Jesus calls
 Himself the bridegroom to His face (Matthew 9:15) and again in a parable of the kingdom (Matthew
-25:1). **This shows that God the Son holds the place the God of Israel holds**.
+25:1). Jesus takes the place Scripture gives Israel's God as husband. **This is evidence of His
+deity.**
 See [The title He takes](#the-title-he-takes).
 
 At the Last Supper Jesus tells His disciples He is going to His Father's house to prepare a place,
@@ -98,12 +89,10 @@ In Jesus' name. Amen.
 
 ## Study outline
 
-This is quite a big study. Feel free to jump around.
-
 - [The bride of Christ in Scripture](#where-scripture-says-it-itself). Discussion on how extensive
   the pattern is in Scripture.
-- [The pattern of the wedding](#the-pattern-component-by-component). This is the main takeaway of
-  the study, and most enjoyable.
+- [The pattern of the wedding](#the-pattern-component-by-component). The study's eight-part outline
+  of the biblical wedding pattern.
 - **The eight components, a section each** — [1 Purchased](#1-purchased-already-yours)
   · [2 Betrothed](#2-betrothed-already-yours) · [3 Pledged](#3-pledged-already-yours)
   · [4 Set apart](#4-set-apart-already-yours) · [5 Preparing](#5-preparing-where-you-are-now) · [6 Fetched](#6-fetched-still-ahead)
@@ -174,13 +163,14 @@ flowchart TD
 
 ### The title He takes
 
-The first arrow in that diagram carries the weight of everything after it. God betroths Israel; the
-bridegroom is then identified as Jesus. Put the two halves side by side and the image stops being
-decoration and starts making a claim about who Jesus is.
+The Old Testament calls God Israel's husband; the New Testament identifies Jesus as the bridegroom.
+Read together, these passages place Jesus in a role Scripture assigns to God.
+
+#### God as Israel's husband
 
 In the Old Testament the husband is God. "For your Maker is your husband, the LORD of hosts is his name; and the
 Holy One of Israel is your Redeemer, the God of the whole earth he is called" (Isaiah 54:5, ESV).
-Jeremiah makes it the relationship grievance behind the broken covenant — "my covenant that they broke, though I
+Jeremiah makes it the grievance behind the broken covenant: "my covenant that they broke, though I
 was their husband, declares the LORD" (Jeremiah 31:32, ESV). Hosea makes it the promise of what
 Israel will one day call Him: "you will call me 'My Husband'" (Hosea 2:16, ESV).
 
@@ -190,31 +180,33 @@ Two of those three run on one Hebrew verb, <span dir="rtl">בָּעַל</span> (
 root, trading <span dir="rtl">בַּעְלִי</span> (*baʿli*) for <span dir="rtl">אִישִׁי</span> (*ishi*),
 which is worked through at [The name she calls Him](#the-name-she-calls-him-hosea-216) below.
 
-**A fourth occurrence is easy to miss, because the English versions disagree about it.** Jeremiah
-3:14 has God saying <span dir="rtl">אָנֹכִי בָּעַלְתִּי בָכֶם</span> — the same verb, the same
+#### A disputed wording in Jeremiah
+
+Jeremiah 3:14 has God saying <span dir="rtl">אָנֹכִי בָּעַלְתִּי בָכֶם</span> — the same verb, the same
 speaker. The ESV, NASB and CSB render it "I am your master"; the WEB has "I am a husband to you."
 Both are defensible, since the verb carries ownership and marriage together, and that ambiguity is
 exactly what Hosea 2:16 promises to resolve. So the Old Testament witness is four verses rather than
 three, and one of them only shows itself in the Hebrew.
 
-Now set the New Testament beside it. John the Baptist says of Jesus, "the one who has the bride is
-the bridegroom" (John 3:29, ESV). Jesus applies the word to Himself when asked why His disciples do
-not fast: "Can the wedding guests mourn as long as the bridegroom is with them?" (Matthew 9:15, ESV).
+#### Jesus takes the bridegroom's title
+
+John the Baptist says of Jesus, "the one who has the bride is the bridegroom" (John 3:29, ESV).
+Jesus applies the word to Himself when asked why His disciples do not fast: "Can the wedding guests
+mourn as long as the bridegroom is with them?" (Matthew 9:15, ESV).
 He does it again in a parable about the kingdom of heaven, where ten virgins go out to meet
 ὁ νυμφίος, the bridegroom (Matthew 25:1).
 
-**This shows that God the Son is God.** Isaiah's husband is the LORD of hosts, the God of the whole
-earth. Jesus takes that place and never pauses to justify taking it, and no one in the Gospels
-records an objection to it — the same move He makes with the roles of judge and shepherd, worked
-through in [The Parables of the Olivet Discourse](../last-things/olivet-discourse-parables.md#lessons-about-jesus).
-So when Paul writes "I betrothed you to one husband, to present you as a pure virgin to Christ"
-(2 Corinthians 11:2, ESV), he is not borrowing a poetic figure from the prophets. He is saying that
-the covenant God made with Israel as her husband has its answer in Christ, and that the church now
-stands where Isaiah's bride stood.
+Isaiah names Israel's husband as the LORD of hosts, the God of the whole earth. Jesus takes that
+title, as He does the roles of judge and shepherd, explored in
+[The Parables of the Olivet Discourse](../last-things/olivet-discourse-parables.md#lessons-about-jesus).
+This is one line of evidence for His deity. The Gospels record no objection to His use of the title.
 
-And that is what the image is for. A doctrine of the deity of Christ argued from titles can stay in
-the head. This one arrives as a marriage: **the God who called Himself your husband is the Christ who
-bought you, and you are betrothed to Him.**
+Paul writes, "I betrothed you to one husband, to present you as a pure virgin to Christ"
+(2 Corinthians 11:2, ESV). He says the covenant God made with Israel as her husband finds its answer
+in Christ, and that the church now stands where Isaiah's bride stood.
+
+The marriage image makes the doctrine personal: **the God who called Himself your husband is the
+Christ who bought you, and you are betrothed to Him.**
 
 ### Why this belongs to the church, and why now
 
@@ -331,9 +323,8 @@ witnesses this day."
 So the redemption and the marriage are one witnessed transaction, and the woman it acquires is
 called a Moabite at the moment it happens — a foreigner, named as one, brought inside. The women of
 Bethlehem say what has actually been done: "Blessed be the LORD, who has not left you this day
-without a redeemer" (Ruth 4:14, ESV). **This shows that God takes up a right no one else would
-exercise, and pays it out on a bride with no claim of her own. Christ is the kinsman, redeemer and
-bridegroom in one office, and the price was His own blood.**
+without a redeemer" (Ruth 4:14, ESV). Ruth shows God providing a redeemer for Naomi and Ruth. Christ
+gives His blood to redeem His bride: He is her kinsman, redeemer, and bridegroom.
 
 ### The covenant, and the cup it was sealed in
 
@@ -368,10 +359,9 @@ draws rather than a sentence Scripture writes.
 The doctrine underneath it is stated without any inference at all, and Hosea is where God says it.
 He betroths His people "in righteousness and in justice, in steadfast love and in mercy... in
 faithfulness" (Hosea 2:19-20, ESV). Five qualities, every one of them His, in a book whose whole
-occasion is the bride's unfaithfulness. **This shows that God keeps covenant on the strength of His
-own character**, which is the only ground on which a covenant with you could ever have held. So the
-thing that secures your marriage to Christ is the same thing that secured Israel's betrothal to the
-LORD: His faithfulness, pledged in advance, at His own cost.
+occasion is the bride's unfaithfulness. Hosea grounds the covenant in God's character: righteousness,
+justice, steadfast love, mercy, and faithfulness. Your hope rests on His faithfulness, as Israel's
+betrothal did.
 
 ## 2 · Betrothed — already yours
 
@@ -410,10 +400,10 @@ Then <span dir="rtl">וָאֶשָּׁבַע</span> (*va'eshava*, from <span dir=
 H7650), "I swore," and <span dir="rtl">בְּרִית</span> (*berit*, H1285), covenant — an oath and a
 covenant, in that order, closing on "you became mine."
 
-**This shows that God binds Himself by oath before His bride has anything to commend her.** Note
-where the verse falls: the same commentary observes that "the bonds are formed before the cleansing
-of Ezek. 16:9" (note on Ezekiel 16:8). The covenant comes first and the washing follows — which is
-the order this pattern runs in, betrothed at 2 and set apart at 4.
+God commits Himself to Jerusalem before the cleansing described in Ezekiel 16:9. The same commentary
+observes that "the bonds are formed before the cleansing of Ezek. 16:9" (note on Ezekiel 16:8). The
+covenant comes first and the washing follows: the pattern reaches betrothal in part 2 and setting
+apart in part 4.
 
 ### Betrothal was marriage in law
 
@@ -447,9 +437,8 @@ Study Bible* gives the commercial sense directly: "Business documents used this 
 designate a down payment or first installment" (note on Ephesians 1:14).
 
 A first instalment is part of the sum, handed over early, and it obliges the payer for the rest.
-**This shows that God has bound Himself to finish what He began in you, and has put something of His
-own into your hands as the bond.** The Spirit you have is the first portion of the inheritance
-itself, which is why Paul calls Him "the guarantee of our inheritance until we acquire possession of
+The Spirit is God's pledge that He will complete the work He began in you. He is the first portion
+of the inheritance itself, which is why Paul calls Him "the guarantee of our inheritance until we acquire possession of
 it" (Ephesians 1:14, ESV) and tells you that you "were sealed for the day of redemption" (Ephesians
 4:30, ESV).
 
@@ -474,8 +463,7 @@ his Spirit in our hearts as a guarantee" (2 Corinthians 1:22, ESV) — sealed an
 the Judah scene already holds. Ephesians says it again: you "were sealed with the promised Holy
 Spirit" (1:13, ESV), who is then "the guarantee of our inheritance" (1:14, ESV).
 
-**This shows that God pledged His own identity, and left it with you until He comes for what He has
-bought.**
+The Spirit is God's seal and pledge to you until Christ comes.
 
 The Song's bride reaches for the same noun and runs it the other way: "Set me as a seal upon your
 heart, as a seal upon your arm" (Song of Songs 8:6, ESV) is <span dir="rtl">חוֹתָם</span> again.
@@ -509,8 +497,8 @@ subject; the foundling does nothing to herself.
 
 Paul says the same of the church in three aorists stacked together: "you were washed, you were
 sanctified, you were justified in the name of the Lord Jesus Christ and by the Spirit of our God"
-(1 Corinthians 6:11, ESV). **This shows that God cleaned you up Himself, and did it before you
-could offer Him anything worth having.**
+(1 Corinthians 6:11, ESV). God washed and set you apart through Jesus Christ and the Holy Spirit.
+Your new standing rests on His work.
 
 ### He presents her holy, and He is the One who makes her so
 
@@ -550,8 +538,8 @@ can be addressed as holy now and still be told to become so.
 
 Revelation's two clauses then sit together without strain. The Bride "has made herself ready," and
 "it was granted her to clothe herself with fine linen, bright and pure" (19:7-8, ESV). The readiness
-is hers; the cloth is issued to her. **This shows that God completes what He undertakes**, and Paul
-says the same thing with the wedding image nowhere in sight: "he who began a good work in you will
+is hers; the cloth is issued to her. God grants the bride the clothing and readiness she needs. Paul
+states the same promise without the wedding image: "he who began a good work in you will
 bring it to completion at the day of Jesus Christ" (Philippians 1:6, ESV).
 
 So the holiness being asked of you is holiness Christ has undertaken to produce in you, at His own
@@ -586,8 +574,8 @@ the actor, the work and the beneficiary in eight words.
 The two uses of μονή (*monē*) hold the two halves together. The place Christ prepares for you is a μονή
 (14:2). The home He and the Father make in you is a μονή (14:23). John writes one word over both,
 and the second is present tense for every believer: "we will come to him and make our home with him"
-(14:23, ESV). **This shows that God means to live with you** — and He has started, which is the
-answer to whether He will finish.
+(14:23, ESV). The Father and Son already make their home in believers (14:23); Christ's prepared
+place and God's indwelling belong together.
 
 So the waiting is not empty on His side. He is occupied with your arrival. What a first-century
 bride could say about the twelve months of her betrothal — that the groom was working through them
@@ -653,8 +641,7 @@ travel is argued there; the permanence is settled here, and the permanence is Pa
 
 Then comes his instruction: "Therefore encourage one another with these words" (4:18). The occasion
 was grief — the Thessalonians had buried believers and did not know what had become of them (*ESV
-Study Bible*, note on 4:13-18). **This shows that God intends His plan for the end to work as
-comfort now**, because He says so in the paragraph where He reveals it. So when you sit with someone
+Study Bible*, note on 4:13-18). Paul gives this teaching to comfort grieving believers. When you sit with someone
 who has just buried a Christian, this is the passage you were given for it, and "always" is the word
 in it to say out loud.
 
@@ -706,8 +693,8 @@ His hand is the third, the one Paul still calls "the cup of blessing that we ble
 of God's four exodus promises: "I will take you to be my people" (Exodus 6:7, ESV). Hosea says that
 same acquisition as a betrothal — "I will betroth you to me forever... I will betroth you to me in
 faithfulness" (Hosea 2:19-20, ESV) — and four verses later gives the formula itself: "I will say to
-Not My People, 'You are my people'" (Hosea 2:23, ESV). **This shows that God has set the day He takes
-a people to Himself as a wedding day**, and has put a cup aside to drink on it. [The Last Supper and
+Not My People, 'You are my people'" (Hosea 2:23, ESV). Hosea pictures a day when God will restore
+His people; Jesus promises a future kingdom feast. [The Last Supper and
 the Cups of Passover](../feasts/last-supper-four-cups.md) works the four-cup case through in full,
 and marks its own limits: the Gospels number no cups, so the identification rests on the promise
 Exodus attaches to the fourth.
@@ -799,8 +786,8 @@ flowchart TD
     NOW --> FETCH --> BETWEEN --> HOME
 ```
 
-**This shows that God set the longest stretch of the pattern between the wedding and the house, and
-gave His bride a throne to occupy while she waits for it.**
+Revelation places the thousand-year reign between the wedding and the Father's house. Christ's bride
+shares His reign while awaiting the new Jerusalem.
 
 ## 8 · Homed — still ahead
 
@@ -874,8 +861,8 @@ The verse's closing clause is textually contested. The ESV prints "as their God"
 ULT notes that the best manuscripts lack it, and the CSB footnotes the same variant. The covenant
 formula stands either way on "they will be his people," which is where Exodus 6:7 began.
 
-**This shows that God's settled intention is to live where you live, and to do it Himself.** The
-house at the end of the sequence is the one He built for His own dwelling, and He brings the bride
+God's purpose is to live among His people, and Revelation says He will dwell with them. The house at
+the end of the sequence is the one He built for His own dwelling, and He brings the bride
 into it. That is what every step before it was for — bought, betrothed, pledged, set apart, prepared
 for, fetched, married — so that you may dwell with Him, and He with you.
 
@@ -907,8 +894,7 @@ carry is that both preparings belong to Him, at both ends of the interval — an
 different times. The works were made ready for you to walk in now; the place is being made ready for
 you to walk into then.
 
-**This shows that God never left you to furnish either your life or your home. He prepared both, and
-the walking is what He left to you.**
+God prepared the good works you walk in now and the home He has promised for later.
 
 ## What the Marriage Produces
 
@@ -924,9 +910,8 @@ Hosea already knew what changes with the name. "In that day, declares the LORD, 
 (*baʿli*, H1180), and <span dir="rtl">בַּעַל</span> (*baʿal*) is the ownership word — master, possessor, and
 the name of the Canaanite storm god she had been chasing. Isaiah uses the same root affirmingly,
 calling the LORD <span dir="rtl">בֹּעֲלַיִךְ</span> (*boʿalayik*), "your husband" (Isaiah 54:5), so the root
-itself is not the problem. What Hosea promises is a change of address from the title of a proprietor
-to the name of a person. **This shows that God's aim in redeeming you was never possession alone**,
-and He says so in the book where He has most right to speak as an owner.
+itself is not the problem. Hosea promises a change from the title of a proprietor to the name of a
+person: Israel will call God "My Husband." He seeks faithful communion with His people.
 
 ### The rest that is left over
 
@@ -944,8 +929,7 @@ ESV).
 
 And then the instruction, which sounds backwards until you notice what it is guarding: "Let us
 therefore strive to enter that rest" (4:11, ESV). The striving is to get in, and what you get in to
-is the end of striving. **This shows that God's gift to you is Himself at leisure with you**, which
-is the one thing a religion of effort can never issue.
+is the end of striving. God calls you to enter His rest and live with Him free from striving.
 
 ### Reigning with Him
 
@@ -963,9 +947,8 @@ ESV).
 
 The wedding supplies the logic. A wife shares her husband's house, his name and his standing; that
 is what a marriage was for in the culture the image comes from, and Revelation 21:9 hands the church
-His name. **This shows that God's plan for you is not ornamental.** The Lamb's wife is given the
-Lamb's throne to sit beside, and the qualification named in 2 Timothy 2:12 is endurance — which is
-what the interval you are in is made of.
+His name. God intends His bride to share His kingdom. Second Timothy 2:12 calls believers to endure
+until that reign.
 
 ### The inheritance, and whose it is
 
@@ -983,9 +966,8 @@ So the inheritance runs both directions, and the marriage image is why that is c
 confused. She receives his estate; he receives her. Peter states your side plainly — "an inheritance
 that is imperishable, undefiled, and unfading, kept in heaven for you" (1 Peter 1:4, ESV) — and Paul
 states the terms: "heirs of God and fellow heirs with Christ, provided we suffer with him in order
-that we may also be glorified with him" (Romans 8:17, ESV). **This shows that God has made Himself
-your estate and made you His**, and the deposit already in you is the part of it He has paid in
-advance.
+that we may also be glorified with him" (Romans 8:17, ESV). You receive God's promised inheritance
+and become His people; the Spirit is your pledge of what is to come.
 
 ### Family as well as marriage, and the two do not compete
 
@@ -1015,9 +997,8 @@ is joined to the Lord becomes one spirit with him" (ESV).
 
 ### Bought, betrothed, married, homed — and looking at His face
 
-**This shows that God's purpose is to have you near Him permanently, and He has said so in every
-relationship a person can be in.** Revelation ends by naming all of it at once: the throne of God
-and of the Lamb is there, "his servants will worship him. They will see his face, and his name will
+Revelation ends by naming all of it at once: the throne of God and of the Lamb is there, "his
+servants will worship him. They will see his face, and his name will
 be on their foreheads" (22:3-4, ESV). Bought, betrothed, married, homed, resting, reigning,
 inheriting, and looking at His face — and the last invitation in the Bible is hers to give: "The
 Spirit and the Bride say, 'Come'" (22:17, ESV).

@@ -838,7 +838,7 @@ review_2026-09-21:
     "[the last section below]" link was de-directionalised, since the target now sits above it, and
     the annex framing line went from three things to four.
 
-last_updated: "2026-09-21"
+last_updated: "2026-09-23"
 
 # ---------------------------------------------------------------------------
 review_2026-09-01:
@@ -1124,3 +1124,19 @@ read_2026-09-20:
     file's accuracy rests on review_2026-09-20 above, run the same day, not on this pass.
   status: >-
     Complete. File remains draft: false. Not committed by this pass.
+
+review_2026-09-23_readability_language:
+  scope: "Focused human readability and style edit; no scripture, citation, or doctrinal re-verification."
+  measurements: "Before edits: 14,393 words; 70 headings; median 175 prose words between headings; one section over 400 words (542-word 'The title He takes'); no sections over 600 words."
+  findings:
+    - "Pervasive repeated rhetoric: the exact 'This shows that God...' formula appears 20 times, alongside frequent announced conclusions and em-dash clause chains. The theology is worth keeping; vary the sentence forms and let the evidence lead."
+    - "The opening is hard to enter: a missing sentence break around the Ephesians 5:32 quotation, repeated assertions of confidence ('clearly', 'undeniable', 'outright'), and several contrastive sentences before the study's point lands."
+    - "The first page and study outline include conversational or evaluative filler ('This is quite a big study. Feel free to jump around'; 'most enjoyable') that can be replaced with plain navigation language."
+    - "The 542-word 'The title He takes' section carries a central theological argument in long, abstract sentences; split the argument into shorter claims and keep its evidence close to each claim."
+  changes:
+    - "Rewrote the opening to state the study's subject directly and removed the repeated confidence claims."
+    - "Removed conversational filler from the study outline and described its navigation plainly."
+    - "Added descriptive subheadings to 'The title He takes' and shortened the argument's setup."
+    - "Recast repeated 'This shows that God...' declarations as direct claims tied to their supporting passages."
+  verifies_nothing: "Readability edits only; no quotation, citation, word study, or doctrinal claim was re-verified."
+  status: "Applied; not committed by this pass."
