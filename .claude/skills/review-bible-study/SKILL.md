@@ -393,6 +393,11 @@ Findings, most severe first:
   or a pervasive style-register problem (Phase 8).
 - **Minor** — style-guide hits, padding, structural nits.
 
+**Report the size.** Give the study's word count, its budget (`word_budget` in the state file, or
+4,000), and the net words your recommended fixes would add. A review only ever finds things to add,
+so when a fix would push the study over budget, add a matching cut to the recommendation, or name
+the section as a fork candidate and recommend **simplify-bible-study**.
+
 Present the list to the user before fixing anything. Once they've seen it and said which to act on,
 either fix directly or hand back to develop-bible-study's drafting phase for anything substantial enough
 to need re-drafting rather than a line edit.

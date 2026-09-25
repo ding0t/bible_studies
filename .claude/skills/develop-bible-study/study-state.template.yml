@@ -10,6 +10,13 @@ primary_passage: ""
 supporting_passages: []
 genre: [] # one or more of: epistle, ot-narrative, acts, gospel, parable, law, prophets, psalm, wisdom, apocalyptic, topical
 
+# Written before drafting (Phase 7). The thesis becomes the page's "In one sentence:" line; the
+# outline is the mind map, and becomes the page's Study outline when the study needs one.
+thesis: ""
+outline: [] # [{section: "", says: ""}] -- one line per section, each serving the thesis
+word_budget: 4000 # validator Check 23 reads this. Raise it only with a reason on the next line.
+word_budget_reason: ""
+
 stages:
   scoping:
     done: false

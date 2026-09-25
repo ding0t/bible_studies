@@ -142,7 +142,7 @@ scripts/build-events.test.js`, or `node src/utils/chronology.test.js` for the `s
 
 `npm run validate` (`app/scripts/validate-content.js`, run from `app/`) is the content linter, and
 **it is not wired into CI** — the deploy workflow runs `npm test` only, so validate has to be run
-by hand after editing content. It applies 22 checks in five groups:
+by hand after editing content. It applies 23 checks in six groups:
 
 - **Checks 1–9, structural**: frontmatter (required fields, tag quoting, draft status), image paths,
   scripture quote blocks opening with `> ✝️ Reference (TRANSLATION)` as their first line (the
@@ -174,6 +174,10 @@ by hand after editing content. It applies 22 checks in five groups:
   structural-readability.md rule 10, including the rule that an agent writes *descriptive*
   annotations and leaves evaluative ones to the author. Warning, because whether a page is
   navigable is a judgment about its argument that a word count cannot make.
+- **Check 23, a study over its word budget** — `word_budget` in
+  `references/study-state/<slug>.yml`, else 4,000 words (about 27 minutes read aloud). Warning;
+  the fix is the **simplify-bible-study** skill's recommendation, or a raised budget with its
+  reason recorded in the state file.
 - **Checks 18–19, claims that go stale silently.** An exhaustiveness claim ("only occurrence",
   "nowhere else") sharing a line with Greek or Hebrew characters — the cheapest sentence in a study
   to write and the most expensive to verify, so routinely written unverified; one shipped saying
@@ -327,7 +331,7 @@ the workflow manually (`workflow_dispatch`).
 - **`references/open-data/` vs `references/restricted-data/` submodules partition by license
   tier** — the directory a source lives in *is* the license audit boundary; never move a source
   between them.
-- **Three content skills:** new content goes through **develop-bible-study**
+- **Four content skills:** new content goes through **develop-bible-study**
   (`.claude/skills/develop-bible-study/SKILL.md`), which tracks resumable per-study progress in
   `references/study-state/<slug>.yml`; an already-drafted or already-published file goes through
   **review-bible-study** (`.claude/skills/review-bible-study/SKILL.md`), which re-verifies quotes,
@@ -338,8 +342,14 @@ the workflow manually (`workflow_dispatch`).
   governing rule, **change no sentence**, which is why its output needs no re-verification and
   why it cannot live inside review, whose whole job is to change what is wrong. Run it last, and
   in a different session from the one that drafted the file: judging your own composition order
-  as a reader is the one thing the author cannot do. The three answer *build it / is it true? /
-  can it be read?*
+  as a reader is the one thing the author cannot do. A fourth, **simplify-bible-study**
+  (`.claude/skills/simplify-bible-study/SKILL.md`), shrinks a study under the rule **add
+  nothing**: it names what the study is trying to say, maps every section against that, and
+  recommends forking tangents into new studies, merging repeated points and tightening wordy
+  passages, then applies what the author approves. It exists because every other pass adds words
+  (`bride-of-christ.md` went from 4,362 to 14,393 in three weeks). Validator Check 23 warns when a
+  study passes its `word_budget` (state file, default 4,000). The four answer *build it / is it
+  true? / can it be read? / is it the right size?*
 - **An exemption in a checking tool carries its justification with it, or it is a hole.** Two of this
   repo's checks were defeated by an unrecorded exemption rather than by a missing check. The diagram
   sweep skipped `timeline` blocks because they "size themselves" — they do not, and five stayed

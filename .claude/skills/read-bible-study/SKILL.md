@@ -205,6 +205,9 @@ A live file (`draft: false`) that a reader is currently meeting outranks a draft
 - **review-bible-study** — is the content true? Quotes, citations, word studies, claims, doctrine.
 - **read-bible-study** (this skill) — can it be read? Structure only, no sentence changed, verifies
   nothing.
+- **simplify-bible-study** — is it the right size? Forks, merges and cuts; adds nothing. If Phase 1
+  shows the study is too long rather than badly arranged, recommend that skill instead of this one.
 
-A new study normally wants all three: develop writes it, review checks it, this makes it readable.
+A new study normally wants develop, then review, then this one: develop writes it, review checks
+it, this makes it readable. Put simplify between review and this one when the study is over budget.
 Run this one last, and in a different session from the one that drafted it.

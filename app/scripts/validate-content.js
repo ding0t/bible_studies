@@ -673,6 +673,27 @@ function validateFile(filePath) {
         `${words} words across ${sections} top-level sections, with no "## Study outline". A reader cannot hold this shape in their head and has to trawl the body to cherry-pick. Add a short annotated list of the major sections after Key Takeaways -- a briefing, not a repeat of the generated table of contents (see .claude/skills/read-bible-study/structural-readability.md rule 10). Write descriptive annotations; leave evaluative ones to the author.`
       );
     }
+
+    // Check 23: a study past its word budget. Every review pass finds things to add and none
+    // finds things to cut, so studies only grow: bride-of-christ.md went 4,362 -> 14,393 words in
+    // three weeks. The budget is references/study-state/<slug>.yml `word_budget`, else 4,000
+    // (~27 minutes read aloud, one sitting; p73 of 110 published pages). An author who raises it
+    // records the reason there, which is what makes a larger budget an exemption and not a hole.
+    // WARNING: over budget is a prompt for simplify-bible-study's recommendation, and the author
+    // decides whether to fork, merge, tighten or accept.
+    const slug = path.basename(filePath, '.md');
+    const statePath = path.join(REPO_ROOT, 'references', 'study-state', `${slug}.yml`);
+    const stateBudget = fs.existsSync(statePath)
+      ? fs.readFileSync(statePath, 'utf8').match(/^word_budget:\s*(\d+)/m)
+      : null;
+    const budget = stateBudget ? Number(stateBudget[1]) : 4000;
+    if (words > budget) {
+      log(
+        'warning',
+        filePath,
+        `${words} words against a budget of ${budget}. Run the simplify-bible-study skill for a recommendation: fork tangents into their own studies, merge points made more than once, tighten wordy passages. To accept a larger size, set word_budget in references/study-state/${slug}.yml with the reason.`
+      );
+    }
   }
 
   // Check 21: an unbroken run of prose under one heading. The style guide's "Structural

@@ -110,6 +110,20 @@ and which one is a question for the user, not a silent edit to whichever file is
 
 ## Phase 7 — Draft
 
+**Before writing any prose, say what the study is trying to say.** Put three things in the state
+file:
+
+1. `thesis`: the point in one sentence. It becomes the **In one sentence:** line.
+2. `outline`: one line per planned section, saying what that section says. Every line must serve
+   the thesis. That makes the outline the reader's mind map, and the page's Study outline when it
+   needs one.
+3. `word_budget`: 4,000 unless there's a reason to change it, and if there is, write the reason
+   down.
+
+Research that doesn't serve the thesis is a separate study. Write it down in `open_questions` as a
+fork candidate and leave it out of this draft. Show the thesis and outline to the author before
+drafting; changing them costs a minute at this point and a rewrite later.
+
 - Write the file per [docs/CONTENT_GUIDE.md](../../../docs/CONTENT_GUIDE.md) frontmatter schema (`title`, `category`, `description`, `tags`, `draft: true`, `bible_references`), into the section chosen from [placement-and-tags.md](placement-and-tags.md).
 - **Fill every placeholder** — that file's "Frontmatter failures worth checking" lists the five template values that once shipped intact on a published page, and why `zadok_year`/`gregorian_year` reach the timeline even on a draft.
 - **Don't hand-write the provenance fields** (`date_created`, `date_modified`, `ai_provider_models`). Run `python3 utils/refresh_frontmatter_provenance.py` from the repo root **before committing**, and stage its edit alongside the study — it derives all three from git history, and running it after the commit instead can't converge. See "The provenance fields" in [placement-and-tags.md](placement-and-tags.md).
