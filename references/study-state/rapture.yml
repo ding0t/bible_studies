@@ -519,3 +519,21 @@ insight_2026-09-26:
     - "Pointer links pending: when taken-before-judgment.md, meet-the-lord-in-the-air.md and rapture-in-the-early-church.md are published, link them from rapture.md (Key Takeaways 'Type'; the apantesis row of the vocabulary table / Think bullet; Other end-times views). Left out now because a published page linking a draft fails mkdocs --strict."
     - "Key Takeaways 'Type' still summarises Enoch/Lot typology whose body now lives in the taken-before-judgment fork."
     - "Study outline not added (Check 22); the read pass adds it, and it will push the page slightly past 4,000 -- the author may prefer word_budget 4200 then."
+
+read_2026-09-26:
+  skill: read-bible-study
+  sections: "35 -> 36 (Study outline added)"
+  median_section_words: "75 -> 75"
+  sections_over_400: "0 -> 0 (longest 311)"
+  opening: "thesis at about 90 words in; no placement change needed"
+  moves:
+    - "Study outline added after Key Takeaways (12 bullets, descriptive annotations only, one line each; no lead-in sentence)."
+    - "'## The marriage of the Lamb' moved from before '## The tribulation' to after '## The judgments', so its line 'this study already places the Bema in heaven during the tribulation years' now points back to the Bema, which it names as already placed, and the section sits directly before the sequence diagram that runs Bema -> marriage."
+  verify: "study_structure.py --verify-against HEAD: clean -- removed [], added_unexpected [], no sentence changed"
+  validate: "Check 22 cleared. Check 23 now fires: 4,181 words against 4,000 (the outline added about 190). Author to choose word_budget 4200 with reason, or a matching cut via simplify."
+  mkdocs: "build --strict exit 0; every href=\"#...\" in the built rapture page resolves to an id"
+  findings:
+    - "Key Takeaways 'Type' paragraph summarises Enoch/Lot typology whose body moved to the draft fork taken-before-judgment.md; the page body no longer carries it. Prose issue for the author."
+    - "'Does the Church ride out with him?' closes on 'the linen the Bema produced', and 'Why this strengthens...' leans on a Bema the reader has not met yet; the Bema is explained under The judgments, further down. Only a larger reorder of 'Two comings' could fix this by placement alone, and that would separate the two-comings argument from the imminence material it follows. Left for the author."
+    - "Evaluative outline annotations (e.g. which section is the heart of the case) left to the author."
+    - "This pass verifies nothing; accuracy rests on the review/simplify history above."

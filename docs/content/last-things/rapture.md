@@ -61,6 +61,21 @@ One view holds that the rapture — the *harpazo*, "catching up" — is a distin
 
 Lord, you promised to come again for your own, personally, not as an afterthought — thank you that the hope of being with you isn't vague reassurance but a specific promise, tied to your own word. Where I've let uncertainty about timing become anxiety instead of the comfort this was meant to be, correct that in me. Keep me ready the way the wise virgins were ready — not idle, not fearful, just prepared — until you come. In Jesus' name. Amen.
 
+## Study outline
+
+- [The word behind "rapture"](#the-word-behind-rapture). The Greek verb behind "caught up", and its fourteen New Testament uses.
+- [The promise](#the-promise-christ-returns-for-his-own). John 14:1-4, Jesus coming for His own.
+- [The call to rapture](#the-call-to-rapture). 1 Thessalonians 4:15-18 and 1 Corinthians 15:51-53: the dead raised, the living changed.
+- [The imminence of the rapture](#the-imminence-of-the-rapture). Matthew 24:36-44, "one taken, one left", and the ten virgins.
+- [Two comings](#two-comings-sorted-by-their-own-language). The shared vocabulary, the features that sort, whether the Church rides out with Him in Revelation 19, and what the sequence markers say.
+- [The restrainer and his going](#the-restrainer-and-his-going). 2 Thessalonians 2:1-7, "out of the midst", who restrains, and what Victorinus wrote.
+- [The tribulation](#the-tribulation). Daniel's seventieth week, 1 Thessalonians 5:9, and the contested Revelation 3:10.
+- [The judgments](#the-judgments). The Bema seat and the Great White Throne, and what *bēma* means.
+- [The marriage of the Lamb](#the-marriage-of-the-lamb). Revelation 19:7-9: where the supper sits and what the bride wears.
+- [The whole sequence in one view](#the-whole-sequence-in-one-view). A diagram of the events in order, on earth and in heaven.
+- [Other end-times views](#other-end-times-views). Post-tribulation, mid-tribulation and pre-wrath, and amillennialism.
+- [Discussion questions](#discussion-questions). Three, for a group or on your own.
+
 ## The word behind "rapture": ἁρπάζω
 
 The English word "rapture" doesn't translate anything directly — it comes from the Latin Vulgate's *rapiemur* ("we will be caught up"), itself a translation of the Greek verb used in [1 Thessalonians 4:17 (ESV)](https://www.blueletterbible.org/esv/1Th/4/17): **ἁρπάζω** (*harpazō*, pronounced har-PAD-zo, Strong's G726), "to seize, snatch, or catch away by force."
@@ -302,6 +317,37 @@ was then the prince." Whatever his Greek or Latin read, Victorinus did not take 
 the Church. His date is a second problem: he died around 304, so he cannot be a witness "by around
 AD 180."
 
+## The tribulation
+
+The tribulation is a specific seven-year period. It is Daniel's seventieth "week" of years ([Daniel
+9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27); see [The Zadok Calendar](../feasts/zadok-
+calendar.md) for how this site reckons that kind of chronology). During it God's judgment falls on a
+world that has rejected Him. At its midpoint the man of lawlessness takes his seat in the temple (2 Thessalonians 2:4), the
+abomination of desolation (Matthew 24:15).
+
+Scripture gives two direct reasons to expect the Church to be removed before this period.
+
+**Not destined for wrath.** "For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ" ([1 Thessalonians 5:9 (ESV)](https://www.blueletterbible.org/esv/1Th/5/9)). The tribulation is explicitly God's wrath poured out on the earth — a category Scripture says believers are not appointed to.
+
+This shows that God has already settled your destiny: He appointed you to obtain salvation through your Lord Jesus Christ, and on the reading argued here He will gather you before that week of wrath begins.
+
+**Kept from, not kept through.** To the church in Philadelphia: "I will keep you from the hour of trial that is coming on the whole world, to try those who dwell on the earth" ([Revelation 3:10 (ESV)](https://www.blueletterbible.org/esv/Rev/3/10)). That reads best as a promise to be kept *from* the hour itself, not merely preserved safely inside it.
+
+The underlying Greek is contested, though. Standard commentary treats ἐκ τῆς ὥρας ("out of the hour") as ambiguous between "keep you from undergoing" and "keep you through," with serious interpreters on both sides. The reading above is defensible, and the pretribulational case leans on more than this verse.
+
+## The judgments
+
+Scripture describes two distinct judgments, for two distinct groups, at two distinct times.
+
+| Judgment | Who | When | Basis |
+| --- | --- | --- | --- |
+| The Bema seat | Believers | During the tribulation, in heaven | Works tested for reward, not for salvation — [2 Corinthians 5:10 (ESV)](https://www.blueletterbible.org/esv/2Co/5/10); [1 Corinthians 3:11-15 (ESV)](https://www.blueletterbible.org/esv/1Co/3/11-15) |
+| The Great White Throne | The unsaved dead | After the millennium | Judged "according to what they had done," ending in the second death — [Revelation 20:11-15 (ESV)](https://www.blueletterbible.org/esv/Rev/20/11-15) |
+
+**Bēma** (**βῆμα**) is commonly glossed as "a Greek athletic term for the judge's stand at the games." That gloss is wrong. Every one of its twelve New Testament occurrences is judicial or civic: Pilate's judgment seat (Matthew 27:19; John 19:13), Herod's throne (Acts 12:21), Gallio's tribunal at Corinth (Acts 18:12, 16-17), Festus's tribunal (Acts 25:6, 10, 17), and "the judgment seat of God/Christ" itself (Romans 14:10; 2 Corinthians 5:10). The ESV Study Bible's note on 2 Corinthians 5:10 identifies it as "the tribunal bench in the Roman courtroom, where the governor sat while rendering judicial verdicts".
+
+The Bema is a judgment of reward, not of condemnation. A believer's salvation was settled at the cross; what is evaluated here is what was built on that foundation (1 Corinthians 3:12-13). The Great White Throne is where those never covered by Christ's righteousness are judged by their own deeds, and found wanting.
+
 ## The marriage of the Lamb
 
 ### Where the supper sits, and what the bride is wearing
@@ -339,37 +385,6 @@ This shows that God clothes the bride by grace from first to last: Jesus is the 
 The bride imagery runs much wider than this study's use of it, from Hosea and Isaiah through Paul to
 the new Jerusalem. [The Bride of Christ](../israel-and-church/bride-of-christ.md) works through the
 whole thread, including where the identification is argued rather than assumed.
-
-## The tribulation
-
-The tribulation is a specific seven-year period. It is Daniel's seventieth "week" of years ([Daniel
-9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27); see [The Zadok Calendar](../feasts/zadok-
-calendar.md) for how this site reckons that kind of chronology). During it God's judgment falls on a
-world that has rejected Him. At its midpoint the man of lawlessness takes his seat in the temple (2 Thessalonians 2:4), the
-abomination of desolation (Matthew 24:15).
-
-Scripture gives two direct reasons to expect the Church to be removed before this period.
-
-**Not destined for wrath.** "For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ" ([1 Thessalonians 5:9 (ESV)](https://www.blueletterbible.org/esv/1Th/5/9)). The tribulation is explicitly God's wrath poured out on the earth — a category Scripture says believers are not appointed to.
-
-This shows that God has already settled your destiny: He appointed you to obtain salvation through your Lord Jesus Christ, and on the reading argued here He will gather you before that week of wrath begins.
-
-**Kept from, not kept through.** To the church in Philadelphia: "I will keep you from the hour of trial that is coming on the whole world, to try those who dwell on the earth" ([Revelation 3:10 (ESV)](https://www.blueletterbible.org/esv/Rev/3/10)). That reads best as a promise to be kept *from* the hour itself, not merely preserved safely inside it.
-
-The underlying Greek is contested, though. Standard commentary treats ἐκ τῆς ὥρας ("out of the hour") as ambiguous between "keep you from undergoing" and "keep you through," with serious interpreters on both sides. The reading above is defensible, and the pretribulational case leans on more than this verse.
-
-## The judgments
-
-Scripture describes two distinct judgments, for two distinct groups, at two distinct times.
-
-| Judgment | Who | When | Basis |
-| --- | --- | --- | --- |
-| The Bema seat | Believers | During the tribulation, in heaven | Works tested for reward, not for salvation — [2 Corinthians 5:10 (ESV)](https://www.blueletterbible.org/esv/2Co/5/10); [1 Corinthians 3:11-15 (ESV)](https://www.blueletterbible.org/esv/1Co/3/11-15) |
-| The Great White Throne | The unsaved dead | After the millennium | Judged "according to what they had done," ending in the second death — [Revelation 20:11-15 (ESV)](https://www.blueletterbible.org/esv/Rev/20/11-15) |
-
-**Bēma** (**βῆμα**) is commonly glossed as "a Greek athletic term for the judge's stand at the games." That gloss is wrong. Every one of its twelve New Testament occurrences is judicial or civic: Pilate's judgment seat (Matthew 27:19; John 19:13), Herod's throne (Acts 12:21), Gallio's tribunal at Corinth (Acts 18:12, 16-17), Festus's tribunal (Acts 25:6, 10, 17), and "the judgment seat of God/Christ" itself (Romans 14:10; 2 Corinthians 5:10). The ESV Study Bible's note on 2 Corinthians 5:10 identifies it as "the tribunal bench in the Roman courtroom, where the governor sat while rendering judicial verdicts".
-
-The Bema is a judgment of reward, not of condemnation. A believer's salvation was settled at the cross; what is evaluated here is what was built on that foundation (1 Corinthians 3:12-13). The Great White Throne is where those never covered by Christ's righteousness are judged by their own deeds, and found wanting.
 
 ## The whole sequence in one view
 
