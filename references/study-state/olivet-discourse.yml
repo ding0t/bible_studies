@@ -586,3 +586,16 @@ insight_2026-09-26:
     not native to them" -- the author may want to check the wording.
   not_landed: "AD 70 and the flight sections were left without an added landing to stay inside budget; the thesis and prayer carry the 'He kept His word' point."
 
+read_2026-09-26:
+  skill: read-bible-study
+  changes: "Added '## Study outline' directly after Key Takeaways (9 bullets, descriptive annotations; 'The day no one knows' and 'One taken, one left' grouped on one line). No heading renamed or moved -- inbound anchors #one-taken-one-left and #the-day-no-one-knows (bride-of-christ.md) untouched. Thesis already present ~200 words in; opening left as is."
+  sections: "39 -> 40"
+  median_section_words: "144 -> 140"
+  sections_over_400: "0 -> 0"
+  verify: "study_structure.py --verify-against HEAD: clean, no sentence changed (removed [], added_unexpected []). Outline bullets kept one line each so wrapped continuation lines do not register as prose."
+  mkdocs_strict: "pass; all 10 outline anchors resolve in built HTML"
+  validate: "Check 22 cleared. Check 23 now fires: 5,092 words vs word_budget 5000 -- the outline itself (~170 words) pushed a 4,922-word study over. Author to decide: raise the budget for the outline or exclude it."
+  findings:
+    - "Word budget: see validate above -- structural addition, not a content change."
+    - "'Flee -- practical instructions' is a 7-word heading-plus-quote section; it could merge into 'What each instruction meant' but the split is harmless."
+    - "Not verified: this pass checks no quotation, citation or count."

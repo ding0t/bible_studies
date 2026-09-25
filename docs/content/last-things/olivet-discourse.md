@@ -10,6 +10,7 @@ date_created: 2026-08-29
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -81,6 +82,18 @@ Father, you kept every word of this discourse's near half, down to a date on a c
 half is still ahead and we do not know the day. Guard us from those who claim they do. Keep us
 awake, working at what you gave us, until the sky itself announces your Son Jesus. In Jesus' name.
 Amen.
+
+## Study outline
+
+- [The question behind the question](#the-question-behind-the-question). The three questions of Matthew 24:3, and one conversation recorded by Matthew, Mark and Luke.
+- [What they expected, and what He refused](#what-they-expected-and-what-he-refused). The Jewish lists of woes, birth pangs, and the turn to the disciples' own suffering.
+- [See that no one leads you astray](#see-that-no-one-leads-you-astray). The four warnings against deception, and Mark's repeated "watch out."
+- [AD 70](#ad-70-question-one-answered-and-documented). The temple's fall in Josephus, and the flight to Pella in Eusebius.
+- [The sign, the flight, and the distress](#the-sign-the-flight-and-the-distress). Daniel's abomination of desolation, and what each instruction to flee meant.
+- [The one sign](#the-one-sign-the-son-of-man-comes). The Son of Man on the clouds, the gathering of the elect, and the mountain He sat on.
+- [The day no one knows](#the-day-no-one-knows) and [one taken, one left](#one-taken-one-left). Whose the date is, what "ready" means in the parables, and the contested saying of 24:40-41.
+- [Stay awake](#what-i-say-to-you-i-say-to-all-stay-awake). Mark's four night watches, and the same men asleep in Gethsemane.
+- [Discussion questions](#discussion-questions). Four, for a group or on your own.
 
 ## The Question Behind the Question
 
