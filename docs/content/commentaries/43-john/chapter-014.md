@@ -19,5 +19,6 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 14:1-3
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 14:3
 - [The Rapture of the Church](../../last-things/rapture.md) — 14:1-4
+- [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 14:2
 - [Thomas](../../biblical-figures/thomas.md) — 14:5-6
 <!-- commentary-index:auto-end -->

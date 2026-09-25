@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:17-18
+- [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 2:11
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 2:14-15
 <!-- commentary-index:auto-end -->

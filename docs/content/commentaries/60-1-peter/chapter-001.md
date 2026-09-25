@@ -17,4 +17,6 @@ draft: false
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 1:1
 - [Simon Peter](../../biblical-figures/peter.md) — 1:1
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:19
+- [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:18-19
+- [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 1:4
 <!-- commentary-index:auto-end -->

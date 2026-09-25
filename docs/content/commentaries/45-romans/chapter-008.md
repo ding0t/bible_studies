@@ -17,4 +17,5 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 8:1
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 8:26-27
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 8:28
+- [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 8:15-17
 <!-- commentary-index:auto-end -->

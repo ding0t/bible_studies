@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 3:9-13 (primary passage)
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 3:9
 <!-- commentary-index:auto-end -->

@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 1:22
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:22
 <!-- commentary-index:auto-end -->

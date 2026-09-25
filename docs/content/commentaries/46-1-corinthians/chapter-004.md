@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Way](../../jesus/the-way.md) — 4:17
+- [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 4:8
 <!-- commentary-index:auto-end -->

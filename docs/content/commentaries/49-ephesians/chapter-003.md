@@ -16,4 +16,5 @@ draft: false
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 3:1-8
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 3:14-19
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 3:1
+- [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 3:15
 <!-- commentary-index:auto-end -->

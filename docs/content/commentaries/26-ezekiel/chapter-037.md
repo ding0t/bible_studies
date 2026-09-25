@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 37:15-22
+- [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 37:27
 <!-- commentary-index:auto-end -->

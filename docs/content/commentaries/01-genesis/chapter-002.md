@@ -17,5 +17,7 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 2:10
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:2-3
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:15
+- [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 2:22-24
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 2:24
+- [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:24
 <!-- commentary-index:auto-end -->

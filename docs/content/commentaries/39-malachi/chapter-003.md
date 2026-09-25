@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Sin and Sorcery](../../sin/sorcery.md) — 3:5
+- [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 3:17
 <!-- commentary-index:auto-end -->

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 11:2
+- [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 11:2
 <!-- commentary-index:auto-end -->
