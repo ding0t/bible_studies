@@ -1,0 +1,19 @@
+slug: "one-taken-one-left"
+title: "One Taken, One Left"
+status: drafting
+target_path: "docs/content/last-things/one-taken-one-left.md"
+primary_passage: "Matthew 24:37-41"
+forked_from: "docs/content/last-things/olivet-discourse.md"
+point: "Taken = removed in judgment, left = preserved, by the Noah illustration and Luke 17:37; the pretribulational case rests on other texts."
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked verbatim on 2026-09-26 (simplify-bible-study, readability-sweep-2026-09) from
+      docs/content/last-things/olivet-discourse.md at commit dda393c: ## One Taken, One Left (all subsections). Word studies and
+      quotations were verified there (see olivet-discourse.yml review blocks) and are not redrafted.
+      Needs develop-bible-study for its own opening, "In one sentence:" thesis, Key Takeaways and
+      discussion questions; draft: true until then. When published, turn the plain-text pointer in
+      olivet-discourse.md into a link.
+open_questions: []
+last_updated: "2026-09-26"

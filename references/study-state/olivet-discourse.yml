@@ -1,7 +1,8 @@
 slug: "olivet-discourse"
 title: "The Olivet Discourse"
-status: drafting
+status: published  # corrected 2026-09-26: page frontmatter is draft: false and the page is live
 target_path: "docs/content/last-things/olivet-discourse.md"
+word_budget: 5000  # set 2026-09-26 -- see simplify_2026-09-26.budget_reason
 # Two-file study, agreed with user 2026-08-29:
 #   File A (this state file's target_path): occasion, synoptic comparison (same event vs
 #     divergent emphasis), narrative context of each account, temple destruction prophecy +
@@ -161,6 +162,10 @@ stages:
       review block at the end of this file.
 
 open_questions:
+  - "PENDING LINKS (simplify 2026-09-26): four plain-text pointers in olivet-discourse.md name forks that
+     are draft: true -- last-things/fig-tree-and-this-generation.md, one-taken-one-left.md,
+     immediately-after.md, heaven-and-earth-will-pass-away.md. Turn each pointer into a link when its
+     fork is published (a published page linking to a draft fails mkdocs build --strict)."
   - "RESOLVED 2026-08-29: taken/left word study (paralambanō/aphiēmi, Matt 24:40-41) points
      taken=removed-in-judgment, left=preserved, via the Noah illustration's own logic (flood
      'took away' the wicked, Noah was left/preserved) and Luke 17:37's vulture answer to 'where,
@@ -456,3 +461,128 @@ review_2026-09-04:
       credited with all of Matthew 21 and flagged what 21:5 and 21:42 quote as its omissions. All
       four quotation-tier hits on this study were false positives. Selection is now by verse;
       suppression stays by chapter.
+
+# ---------------------------------------------------------------------------
+simplify_2026-09-26:
+  skill: simplify-bible-study
+  sweep: readability-sweep-2026-09 (tier 1; author's blanket approval, applied without per-study stop)
+  base_commit: dda393c
+  words_before: 9402   # validator Check 23 count, References excluded
+  words_after_simplify: 4682
+  words_after_insight: 4922
+  budget: 5000
+  budget_reason: >
+    Default 4,000. After four forks (~3,870 words) and every tightening judged safe, the remainder is
+    three accounts (Matt 24, Mark 13, Luke 21) answering three questions: the warnings, AD 70 (question
+    one, which the thesis's "came true stone for stone" rests on), the flight and the abomination, the
+    one sign, the day no one knows, and Mark's four watches to Gethsemane. Every remaining section
+    serves or supports the point; cutting further would drop question one or the Gethsemane close.
+    The insight pass then added ~240 words. Raised to 5,000.
+  point: >
+    The Father has fixed the day by His own authority, and Jesus, whose word about the temple came true
+    stone for stone, will come as the one sign nobody needs pointed out -- so His disciples stay awake
+    at the work He gave them and believe no one who claims to know the hour.
+  point_check: "Agrees with the file's old bold thesis (warning against code-breakers + command to stay awake); proceeded."
+  forks:
+    - path: docs/content/last-things/fig-tree-and-this-generation.md
+      point: "The fig tree parable teaches inference from signs, and 'this generation' is the generation that sees them -- no species code and no year to count from."
+      moved: "## The Fig Tree, and What It Does Not Say; ## \"This Generation\" -- Whose, and of What? (all subsections)"
+    - path: docs/content/last-things/one-taken-one-left.md
+      point: "Taken = removed in judgment, left = preserved, by the Noah illustration and Luke 17:37; the pretrib case rests elsewhere."
+      moved: "## One Taken, One Left subsections (verbs, Noah/Luke, counterweight, popular reading). Parent keeps the heading (bride-of-christ.md links #one-taken-one-left), the verse paragraph and the popular-reading paragraph."
+    - path: docs/content/last-things/immediately-after.md
+      point: "24:29's 'immediately' rules out a gap after the distress; Daniel 9's sequence puts the long interval between 24:14 and 24:15."
+      moved: "### Where this sits on the timeline (AD 70 section); ## \"Immediately After\" (incl. Larkin mountain-peaks chart + mermaid); ## Where the Discourse Sits in God's Whole Programme (incl. Larkin seventy-weeks chart + mermaid)"
+    - path: docs/content/last-things/heaven-and-earth-will-pass-away.md
+      point: "Peter and Paul carried the discourse's verbs and images (parousia, flood, thief, labour pains) into 2 Peter 3 and 1 Thessalonians 5 for the same command to stay awake."
+      moved: "## \"Heaven and Earth Will Pass Away\" (one verb two senses, Peter's echo + table, thief image + mermaid)"
+  merges:
+    - "Lessons about Jesus: dropped its copy of the 'whose the date is' / Acts 1:7 point; kept in The Day No One Knows."
+    - "Luke's-substitutions paragraph after the synoptic table cut; the table and the abomination section carry it."
+    - "'What ready actually means' second paragraph (Romans 14:12, Hebrews 13:17, 1 Peter 3:15) cut; the parables study (published) treats readiness parable by parable. Pointer sentence kept."
+  deletions:
+    - "Four men, four fates paragraph (James/Peter/John/Andrew) and its heading; the Mark 14:50 sentence kept and merged into 'To the disciples'."
+    - "Jewish witnesses: 'None of these is Scripture...' sentence; the chevlei mashiach paragraph."
+    - "Warnings: the three sentences on Matthew's non-deceiving uses of planao (sheep, 22:29)."
+    - "ESV SB Mark paragraph closer 'That is an independent commentary...'"
+    - "Flight: mountain paths / David / Maccabees sentence; 'Two things can be said.'; the AD 70-plus-last-days paragraph tail (duplicate of the abomination section)."
+    - "One Sign: Revelation 19-20 scene sentence; trumpet background paragraph (Isa 27:13, NIV CBSB note); 'Matthew leaves the two occurrences...' sentence."
+    - "One conversation: 'Parousia became the standard NT term...' sentence (its epistle material forked)."
+    - "Discussion question 5 (2 Peter 3:10 comparison) -- its section forked."
+    - "Frontmatter: bible_references no longer cited in the body removed (Acts 12:1-2, John 21:18-19, Rev 1:9, 7:14, 19:11-16, 20:1-6, 21:1-4, Luke 17:22-37, Dan 2:44, 2 Thess 2:1-4, Rom 14:12, Heb 13:17, 1 Pet 3:15, Isa 27:12-13, Ezek 39:17-20, Matt 21:18-22, Mark 11:12-25, Jer 8:13, Hos 9:10, Joel 1:7); tags chart, larkin removed; description's 'through to the new heavens and new earth' -> 'to the command to stay awake'; Larkin entry removed from References. commentary_index.py needs re-running."
+  pointer_lines:
+    - "Where the long interval before verse 15 sits, and why verse 29's \"immediately\" leaves no gap after the distress, is worked through against Daniel 9:24-27 in a separate study, *Immediately After* (in preparation)."
+    - "The fig tree (24:32-33) and \"this generation\" (24:34) are worked through in a separate study, *The Fig Tree and This Generation* (in preparation)."
+    - "The verbs, Noah's flood and Luke's vultures are worked through in a separate study, *One Taken, One Left* (in preparation)."
+    - "Peter and Paul carried this discourse's verbs and images into 2 Peter 3 and 1 Thessalonians 5; that trail is followed in a separate study, *Heaven and Earth Will Pass Away* (in preparation)."
+  shortened:
+    - old: "That sentence is about whose the date is, not about what the Son is capable of knowing — see [The Day No One Knows](#the-day-no-one-knows). Asked the same question again after the resurrection, ... (Acts 1:7, ESV)."
+      new: "See [The Day No One Knows](#the-day-no-one-knows)."
+    - old: "Three questions ... a single event. For a first-century Jewish disciple this was not a strange thing to think. If the temple fell, ..."
+      new: "(sentence 'For a first-century Jewish disciple this was not a strange thing to think.' deleted; neighbours unchanged)"
+    - old: "The asymmetry between the accounts is not a disagreement. Mark and Luke's readers asked a narrower question and got a narrower record of the answer. Matthew's disciples asked about the parousia ..."
+      new: "Matthew's disciples asked about the parousia ..."
+    - old: "The three accounts are one conversation recorded three times — the same illustrations in the same order, not merely the same topic."
+      new: "The three accounts are one conversation recorded three times, with the same illustrations in the same order."
+    - old: "What follows the list, in Matthew, is six verses the popular treatment of this chapter usually skips — and they are addressed directly to the disciples, in the second person:"
+      new: "What follows the list in Matthew is addressed directly to the disciples, in the second person:"
+    - old: "He said it to four men Mark names (13:3), and the New Testament reports what became of three of them. ... And one thing belongs beside it: within a day of hearing \"the one who endures to the end will be saved,\" these same men \"all left him and fled\" (Mark 14:50, ESV)."
+      new: "He said it to four men Mark names (13:3), and within a day of hearing \"the one who endures to the end will be saved,\" those same men \"all left him and fled\" (Mark 14:50, ESV)."
+    - old: "The first words out of Jesus's mouth in reply are not a date. They are a warning about deception, and the warning is the discourse's most repeated note."
+      new: "The first words out of Jesus's mouth in reply are a warning about deception, the discourse's most repeated note."
+    - old: "Before the walkthrough reaches the distress of verse 15, the first of the three questions can be closed, because its answer is history."
+      new: "The first of the three questions can be closed here, because its answer is history."
+    - old: "Note what Eusebius actually attributes that to: \"a revelation, vouchsafed to approved men\" — an oracle given to the church at the time, not a recollection of this discourse. Tying the Pella departure to Matthew 24:16 is an inference, and a reasonable one, since these were people who knew what Jesus had said about fleeing Judea. But it is an inference, and the sources do not make it for us."
+      new: "Eusebius attributes the command to that oracle. Tying the Pella departure to Matthew 24:16 is a reasonable inference, since these people knew what Jesus had said about fleeing Judea, but the sources do not make it for us."
+    - old: "This is not apocalyptic poetry. It is evacuation advice: which way to run, what not to go back for, and what weather to pray against."
+      new: "It is evacuation advice: which way to run, what not to go back for, and what weather to pray against."
+    - old: "That sentence raises a real question about Christ's own knowledge, and it has been answered carelessly often enough — including in an earlier draft of this study — that it needs more room than a paragraph. It gets it in [The Day No One Knows](../jesus/the-day-no-one-knows.md), which works through the textual variant, the two natures, and the popular claim that Jesus was quoting a Jewish wedding idiom."
+      new: "That sentence raises a real question about Christ's own knowledge, worked through in [The Day No One Knows](../jesus/the-day-no-one-knows.md): the textual variant, the two natures, and the popular claim that Jesus was quoting a Jewish wedding idiom."
+    - old: "... (Acts 1:7, ESV). Authority, not information."
+      new: "... (Acts 1:7, ESV)."
+    - old: "What the discourse does with that is the part that matters here, and Jesus draws the conclusion himself."
+      new: "Jesus draws the conclusion himself."
+    - old: "The unknown date is not a puzzle set for the church to solve. It is the reason the church is told to be ready."
+      new: "The unknown date is the reason the church is told to be ready."
+    - old: "Mark is not scoring a point against the disciples. He is showing his readers what the command costs, ..."
+      new: "Mark is showing his readers what the command costs, ..."
+  shortened_in_forks:
+    - file: fig-tree-and-this-generation.md
+      old: "One distinction is worth drawing carefully, because the date-setting reading sounds like this one."
+      new: "One distinction needs care, because the date-setting reading sounds like this one."
+    - file: fig-tree-and-this-generation.md
+      note: "link to #where-the-discourse-sits-in-gods-whole-programme repointed to immediately-after.md; 'below' dropped"
+    - file: heaven-and-earth-will-pass-away.md
+      note: "link to #this-generation-whose-and-of-what repointed to fig-tree-and-this-generation.md"
+
+insight_2026-09-26:
+  pass: "style-guide rule 6 / AGENTS.md 'write the theology as the subject' -- additions only, each derived from the study's existing exegesis"
+  thesis_rewrite:
+    old: "**The discourse is not a code to be broken. It is a warning against the people who will tell you they have broken it, and a command to be awake when the answer arrives on its own.**"
+    new: "**In one sentence: the Father has fixed the day by His own authority, and Jesus, whose word about the temple came true stone for stone, will come as the one sign nobody needs to point out — so you stay awake at the work He gave you, and believe no one who claims to know the hour.**"
+    why: "old thesis was contrastive and about the discourse's genre; new one is about God (Acts 1:7, 24:2 + Josephus, 24:27/30, 24:23, 24:45-46, Mark 13:37)"
+  added_sentences:
+    - section: "The three questions"
+      text: "This shows that God orders history on His own timetable and that Jesus answers His disciples truthfully: you are told what you need in order to obey, and the Father keeps the rest."
+    - section: "To the disciples, in the second person"
+      text: "It was the grace of God, and the endurance Jesus commands of you is the endurance He supplies."
+    - section: "Wilderness and inner rooms"
+      text: "This shows that God has made His Son's return public by design: Jesus will come the way lightning comes, so no movement, teacher or private revelation stands between you and Him, and none of them is owed your belief."
+    - section: "The gathering Jerusalem refused"
+      text: "This shows the heart of God in Jesus: the Son of Man who comes with power and great glory is the same Jesus who wept over Jerusalem, and His return is an act of gathering. You can long for the One who is coming, because He has longed to gather His people all along."
+    - section: "\"Concerning that day and hour\""
+      text: "This is the sovereignty of God over history: the Father has fixed the day and kept it for Himself, so you can leave it with Him and give your attention to what He has given you to do."
+    - section: "What \"ready\" actually means"
+      text: "So you get ready for Jesus' return the way the faithful servant did, by feeding the household He has put in your care."
+    - section: "The same command, tested that same night"
+      text: "Jesus kept the men He found asleep, and the endurance they later showed came from Him. That is grace, and it is yours on the same terms: stay awake, and when you find you have slept, return to your Lord and keep watching."
+    - section: "Prayer"
+      text: "'your Son' -> 'your Son Jesus'; closing 'Amen.' -> 'In Jesus' name. Amen.'"
+  confidence_notes: >
+    The gathering landing is kept general ("His people") because the study reads 24:31's elect within a
+    post-tribulation gathering while placing the church's removal earlier (rapture.md); it does not
+    tell the church reader "He will gather you" at 24:31. "Jesus kept the men He found asleep" and
+    "the endurance ... came from Him" rest on the study's own "Whatever endurance they later showed was
+    not native to them" -- the author may want to check the wording.
+  not_landed: "AD 70 and the flight sections were left without an added landing to stay inside budget; the thesis and prayer carry the 'He kept His word' point."
+

@@ -1,13 +1,13 @@
 ---
 title: "The Olivet Discourse"
 category: "prophecy"
-description: "Four men asked Jesus for a sign. He refused to give them a checklist, warned them four times about anyone who offered one, and named a single sign — his own return. A dispensational reading of Matthew 24, Mark 13 and Luke 21, from the disciples' question through to the new heavens and new earth."
-tags: ["matthew", "mark", "luke", "daniel", "jerusalem", "temple", "tribulation", "dispensationalism", "chart", "larkin", "method/word-study", "method/textual-criticism", "lang/greek", "lang/hebrew"]
+description: "Four men asked Jesus for a sign. He refused to give them a checklist, warned them four times about anyone who offered one, and named a single sign — his own return. A dispensational reading of Matthew 24, Mark 13 and Luke 21, from the disciples' question to the command to stay awake."
+tags: ["matthew", "mark", "luke", "daniel", "jerusalem", "temple", "tribulation", "dispensationalism", "method/word-study", "method/textual-criticism", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Matthew 24; Mark 13; Luke 21"
-bible_references: ["Matthew 23:36-39", "Matthew 24:1-51", "Acts 12:1-2", "John 21:18-19", "Revelation 1:9", "Mark 13:1-37", "Mark 14:32-42", "Mark 14:50", "Luke 21:5-36", "Luke 17:22-37", "Luke 19:41-44", "Daniel 9:24-27", "Daniel 11:31", "Daniel 12:1-11", "Zechariah 14:1-5", "Isaiah 13:9-10", "Isaiah 27:12-13", "Joel 2:30-31", "Daniel 7:13-14", "Daniel 2:44", "Revelation 7:14", "Revelation 1:7", "Revelation 19:11-16", "Revelation 20:1-6", "Revelation 21:1-4", "2 Thessalonians 2:1-4", "1 Thessalonians 4:13-18", "1 Thessalonians 5:1-4", "2 Peter 3:3-13", "John 14:3", "Acts 1:9-12", "Romans 14:12", "Hebrews 13:17", "1 Peter 3:15", "Matthew 25:19", "Exodus 22:26-27", "Ezekiel 39:17-20", "Matthew 10:35-36", "Micah 7:6", "Matthew 21:18-22", "Mark 11:12-25", "Jeremiah 8:13", "Hosea 9:10", "Joel 1:7"]
+bible_references: ["Matthew 23:36-39", "Matthew 24:1-51", "Mark 13:1-37", "Mark 14:32-42", "Mark 14:50", "Luke 21:5-36", "Luke 19:41-44", "Daniel 9:24-27", "Daniel 11:31", "Daniel 12:1-11", "Zechariah 14:1-5", "Isaiah 13:9-10", "Joel 2:30-31", "Daniel 7:13-14", "Revelation 1:7", "1 Thessalonians 4:13-18", "1 Thessalonians 5:1-4", "2 Peter 3:3-13", "John 14:3", "Acts 1:9-12", "Matthew 25:19", "Exodus 22:26-27", "Matthew 10:35-36", "Micah 7:6"]
 date_created: 2026-08-29
-date_modified: 2026-09-20
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -28,8 +28,9 @@ separate times he warned them about anyone who would offer them one. Then he nam
 it was his own arrival, lighting the sky from one horizon to the other, needing no announcement from
 anybody.
 
-**The discourse is not a code to be broken. It is a warning against the people who will tell you they
-have broken it, and a command to be awake when the answer arrives on its own.** That is how Matthew
+**In one sentence: the Father has fixed the day by His own authority, and Jesus, whose word about the
+temple came true stone for stone, will come as the one sign nobody needs to point out — so you stay
+awake at the work He gave you, and believe no one who claims to know the hour.** That is how Matthew
 and Mark both build it, and it holds the discourse's three movements together: the age they were
 about to live in, the distress that ends it, and the arrival no one will need pointing out.
 
@@ -48,11 +49,8 @@ unstarted, and the distress of 24:15-28 sits inside it.
 Jesus predicts a specific building's specific fate roughly forty years out, precisely enough that
 Josephus's eyewitness account can be checked against it line by line. In the same breath he refuses
 the one thing his disciples most wanted: "concerning that day or that hour, no one knows, not even
-the angels in heaven, nor the Son, but only the Father" (Mark 13:32, ESV). That sentence is about
-whose the date is, not about what the Son is capable of knowing — see [The Day No One
-Knows](#the-day-no-one-knows). Asked the same question again after the resurrection, he answered
-the same way and named the reason: "it is not for you to know times or seasons that the Father has
-fixed by his own authority" (Acts 1:7, ESV).
+the angels in heaven, nor the Son, but only the Father" (Mark 13:32, ESV). See [The Day No One
+Knows](#the-day-no-one-knows).
 
 ### Memory verses
 
@@ -81,7 +79,8 @@ fixed by his own authority" (Acts 1:7, ESV).
 
 Father, you kept every word of this discourse's near half, down to a date on a calendar. Its far
 half is still ahead and we do not know the day. Guard us from those who claim they do. Keep us
-awake, working at what you gave us, until the sky itself announces your Son. Amen.
+awake, working at what you gave us, until the sky itself announces your Son Jesus. In Jesus' name.
+Amen.
 
 ## The Question Behind the Question
 
@@ -110,14 +109,15 @@ Herod's temple; the platform and the valley are the same ground.) Photo:
 
 Three questions, joined by *and*, asked as though they were one. Behind that grammar is an
 assumption: that the temple's destruction, Messiah's arrival, and the end of the age are a single
-event. For a first-century Jewish disciple this was not a strange thing to think. If the temple
-fell, God's own house had been abandoned, and what could follow that except the end of everything?
+event. If the temple fell, God's own house had been abandoned, and what could follow that except the end of everything?
 
 Jesus's answer takes the question apart. The temple's fall he had already answered before they asked
 it — "there will not be left here one stone upon another" — and Luke records the prophecy in plain
 siege language that came true within forty years. The coming gets a different kind of answer
 altogether: one sign, unmissable, unschedulable. And the end of the age turns out to sit at the far
-side of a stretch of time the disciples did not know was there.
+side of a stretch of time the disciples did not know was there. This shows that God orders history on
+His own timetable and that Jesus answers His disciples truthfully: you are told what you need in
+order to obey, and the Father keeps the rest.
 
 ```mermaid
 flowchart LR
@@ -133,15 +133,13 @@ flowchart LR
 
 ### One conversation, three records
 
-The asymmetry between the accounts is not a disagreement. Mark and Luke's readers asked a narrower
-question and got a narrower record of the answer. Matthew's disciples asked about the *parousia*
+Matthew's disciples asked about the *parousia*
 (παρουσία, *parousia*, Strong's G3952) by name — the word appears at 24:3, 27, 37 and 39, and nowhere
 in Mark's or Luke's version — and Matthew's account is correspondingly the one that runs on into
-chapter 25's parables. *Parousia* became the standard New Testament term for the second coming
-outside the Gospels, which makes Matthew's record the version the epistles later pick up.
+chapter 25's parables.
 
-The three accounts are one conversation recorded three times — the same illustrations in the same
-order, not merely the same topic. What differs is what each writer's readers needed:
+The three accounts are one conversation recorded three times, with the same illustrations in the same
+order. What differs is what each writer's readers needed:
 
 | | Matthew 24 | Mark 13 | Luke 21 |
 |---|---|---|---|
@@ -153,11 +151,6 @@ order, not merely the same topic. What differs is what each writer's readers nee
 | One taken, one left | 24:40-41 | absent | absent here (parallel at 17:34-35) |
 | "Times of the Gentiles" | absent | absent | 21:24 |
 | Parables of readiness | 24:45 – 25:46 | 13:34-37 only | absent |
-
-Luke's substitutions are the clearest case of an author reading his audience. Where Matthew and Mark
-keep Daniel's coded phrase, Luke gives the literal referent — armies around the city — for readers who
-would not catch the citation. He alone names "the times of the Gentiles" (21:24), and he alone states
-the application in plain words (21:28).
 
 ## What They Expected, and What He Refused
 
@@ -201,19 +194,13 @@ show how fixed the habit of listing was:
 | *2 Baruch* 27:2-7 | c. a generation after AD 70 | Twelve numbered parts — "the beginning of commotions... famine and the withholding of rain... earthquakes and terrors" |
 | *m. Sotah* 9:15 | Mishnah, c. AD 200 | "In the footsteps of the messiah insolence will increase... 'a man's own household are his enemies' (Micah 7:6)" |
 
-None of these is Scripture and none is quoted here as though it were; they are historical evidence of
-expectation, nothing more. Two details earn their place. *2 Baruch*'s order — commotions, famine,
+Two details earn their place. *2 Baruch*'s order — commotions, famine,
 earthquakes — is Matthew 24:6-7's order. And the Mishnah's closing quotation is Micah 7:6, the verse
 behind Matthew 24:10's mutual betrayal, which Jesus had already turned on himself at 10:35-36.
 
-One precision the popular version blurs: the fixed rabbinic term *chevlei mashiach*, "the birth pangs
-of the Messiah", belongs to the Talmud, centuries after Jesus, and none of the sources above use it.
-The first century demonstrably had **the lists**, not the label.
-
 ### To the disciples, in the second person
 
-What follows the list, in Matthew, is six verses the popular treatment of this chapter usually
-skips — and they are addressed directly to the disciples, in the second person:
+What follows the list in Matthew is addressed directly to the disciples, in the second person:
 
 > ✝️ Matthew 24:9-13 (ESV)
 > 9 "Then they will deliver you up to tribulation and put you to death, and you will be hated by all
@@ -228,39 +215,21 @@ other, love will cool, and your job is to endure. Mark makes the same turn even 
 synagogues, and you will stand before governors and kings for my sake, to bear witness before them"
 (ESV). The disciples asked about the calendar and Jesus answered about their own coming suffering.
 
-### Four men, four fates
-
-He said it to four men Mark names (13:3), and the New Testament reports what became of three of them.
-**James son of Zebedee** was killed by Herod with the sword (Acts 12:2) — the first apostle to die,
-and the only one whose martyrdom Scripture itself records. **Peter** was told separately, and in
-detail, how he would go: "you will stretch out your hands, and another will dress you and carry you
-where you do not want to go," which John's narrator glosses as showing "by what kind of death he was
-to glorify God" (John 21:18-19, ESV). **John** wrote from exile on Patmos "on account of the word of
-God and the testimony of Jesus," calling himself "your brother and partner in the tribulation"
-(Revelation 1:9, ESV). That last word is θλῖψις — the one Jesus used to his face at 24:9, and the one
-John uses again for the great tribulation still ahead (Revelation 7:14, treated below). Of
-**Andrew**, Scripture records nothing; his end is tradition only.
-
-A recorded martyrdom, a predicted death, a documented exile, and a silence — worth keeping straight
-rather than levelling into a single story of twelve martyrs. [The Twelve: Disciples and
-Apostles](../biblical-figures/twelve-apostles.md) works through the men themselves. And one thing
-belongs beside it: within a day of hearing "the one who endures to the end will be saved," these same
-men "all left him and fled" (Mark 14:50, ESV). Whatever endurance they later showed was not native to
-them.
+He said it to four men Mark names (13:3), and within a day of hearing "the one who endures to the
+end will be saved," those same men "all left him and fled" (Mark 14:50, ESV). Whatever endurance
+they later showed was not native to them. It was the grace of God, and the endurance Jesus commands
+of you is the endurance He supplies.
 
 ## "See That No One Leads You Astray"
 
 ### The four warnings, escalating
 
-The first words out of Jesus's mouth in reply are not a date. They are a warning about deception, and
-the warning is the discourse's most repeated note.
+The first words out of Jesus's mouth in reply are a warning about deception, the discourse's most
+repeated note.
 
 πλανάω (*planaō*, "lead astray, deceive," G4105) occurs eight times in Matthew's Gospel. Four of the
 eight are in this discourse — 24:4, 24:5, 24:11 and 24:24 — and those four are the only Matthean uses
-carrying the sense of misleading somebody (Louw-Nida domain 31.8). Three of the remaining four are
-the wandering sheep of chapter 18 — a different sense entirely (domain 15.24) — and the fourth is
-Jesus telling the Sadducees "you are wrong, because you know neither the Scriptures nor the power of
-God" (22:29), where the word means *being* mistaken rather than misleading anyone (domain 31.67).
+carrying the sense of misleading somebody (Louw-Nida domain 31.8).
 Every time Matthew's Jesus warns about someone deceiving others, he is on the Mount of Olives.
 
 The four warnings escalate. First a general caution: "See that no one leads you astray" (24:4). Then
@@ -286,7 +255,9 @@ out on a single ground, given in the next verse: "For as the lightning comes fro
 as far as the west, so will be the coming of the Son of Man" (24:27, ESV).
 
 That is the answer to question two. Nobody has to point lightning out to you. If someone has to tell
-you the Messiah has come, that fact alone disproves the claim.
+you the Messiah has come, that fact alone disproves the claim. This shows that God has made His Son's
+return public by design: Jesus will come the way lightning comes, so no movement, teacher or private
+revelation stands between you and Him, and none of them is owed your belief.
 
 ### Mark's structural spine: watch
 
@@ -308,13 +279,11 @@ flowchart TD
 
 The *ESV Study Bible* reads Mark the same way: "Jesus gives this entire discourse about the end times
 so that the disciples will be on guard (vv. 5, 9, 23)... Instead of speculating about the specific
-timing of end-time events, all disciples are to be vigilant" (note on Mark 13:33-37). That is an
-independent commentary arriving at the discourse's purpose from its own imperatives.
+timing of end-time events, all disciples are to be vigilant" (note on Mark 13:33-37).
 
 ## AD 70: Question One, Answered and Documented
 
-Before the walkthrough reaches the distress of verse 15, the first of the three questions can be
-closed, because its answer is history. Jesus predicted *this* temple's destruction before they asked
+The first of the three questions can be closed here, because its answer is history. Jesus predicted *this* temple's destruction before they asked
 anything — "there will not be left here one stone upon another" (24:2) — and Luke had recorded the
 same prophecy in plainer terms days earlier, weeping as he approached the city: "the days will come upon you, when your enemies will set up a barricade around you and surround
 you and hem you in on every side and tear you down to the ground, you and your children within you.
@@ -334,19 +303,9 @@ A flight out of the city has its own record. Eusebius reports that
 there before the war, to leave the city and to dwell in a certain town of Perea called Pella"
 (*Ecclesiastical History* 3.5.3). They left, and they lived.
 
-Note what Eusebius actually attributes that to: "a revelation, vouchsafed to approved men" — an
-oracle given to the church at the time, not a recollection of this discourse. Tying the Pella
-departure to Matthew 24:16 is an inference, and a reasonable one, since these were people who knew
-what Jesus had said about fleeing Judea. But it is an inference, and the sources do not make it for
-us.
-
-### Where this sits on the timeline
-
-Where this sits on the discourse's own timeline matters, and it is not inside the distress described
-from verse 15. It falls in the interval between the age of verses 4-14 and that distress — the gap
-Daniel's count leaves between the sixty-ninth week and the seventieth. The temple prophecy was kept
-in full, on a dated calendar, by an eyewitness record. What it was not is the great tribulation, for
-the reason verse 29 gives.
+Eusebius attributes the command to that oracle. Tying the Pella departure to Matthew 24:16 is a
+reasonable inference, since these people knew what Jesus had said about fleeing Judea, but the
+sources do not make it for us.
 
 ## The Sign, the Flight, and the Distress
 
@@ -394,8 +353,7 @@ Each line is culturally loaded, and the *NIV Cultural Backgrounds Study Bible* u
 - **"Flee to the mountains" is counterintuitive advice.** "During invasions, people usually crowded
   into walled cities for protection, but Jesus warns against that measure in this case" (note on
   24:16). The instinct of every Judean under attack was to get inside Jerusalem's walls. Jesus tells
-  them the walls are the trap. The same note observes that mountain paths neutralise a large army's
-  numbers, which is how David evaded Saul and how the Maccabees fought Rome's predecessors.
+  them the walls are the trap.
 - **The housetop.** Roofs were flat and lived on — drying vegetables, praying, talking to neighbours —
   and reached by an external stair, so going down *into* the house costs a detour (note on 24:17).
   Do not take it.
@@ -411,82 +369,19 @@ Each line is culturally loaded, and the *NIV Cultural Backgrounds Study Bible* u
 
 ### First-century furniture, timeless substance
 
-This is not apocalyptic poetry. It is evacuation advice: which way to run, what not to go back for,
-and what weather to pray against.
+It is evacuation advice: which way to run, what not to go back for, and what weather to pray
+against.
 
 The specificity cuts both ways, and it is the best argument for reading these verses of AD 70 and
 nothing else. Shut Sabbath gates, an outside stair, a cloak left at the edge of a field — that is
 first-century Judean furniture, and a flight two thousand years later would not obviously need any of
-it. Two things can be said. Jesus is speaking to first-century men in the furniture of their own
+it. Jesus is speaking to first-century men in the furniture of their own
 world, and the substance of the order — go, go now, do not go back for anything, not even the one
-possession the law says nobody can take from you — transfers to any flight from any city. And this
-study's reading of verse 15 already allows a genuine first-century reference alongside the fuller one,
-which is exactly what the *ESV Study Bible* means by locating the complete fulfilment in both AD 70
-and the last days. What the text does not allow is treating AD 70 as the whole of it, because verse 29
-puts the Son of Man's arrival immediately after the distress these instructions belong to.
+possession the law says nobody can take from you — transfers to any flight from any city.
 
-## "Immediately After": Where the Gap Actually Sits
-
-### What "immediately" means for the timeline
-
-"Immediately after the tribulation of those days the sun will be darkened" (24:29, ESV). εὐθέως —
-*immediately*. It is the hardest word in the chapter for anyone building a timeline, and it is the
-word most schemes quietly walk past.
-
-It rules out putting a long gap **here**, between the distress of verses 15-28 and the coming of
-verses 29-31. Whatever that distress is, the Son of Man follows it at once.
-
-That is not an argument against AD 70 having any place in these verses. This study already gave it
-one at verse 15, following the *ESV Study Bible*'s reading that the abomination finds its complete
-fulfilment in both the Roman destruction and the last days. The argument is against AD 70 being *all*
-they refer to. If the distress verse 29 follows had been exhausted in 70, the sun should have darkened
-and the Son of Man appeared while that generation was still alive; instead the "immediately" would be
-carrying nineteen centuries and still counting, with no stated end.
-
-The *NIV Biblical Theology Study Bible* names the two ways out: either "the distress of those days...
-in some sense continues all the way until Jesus' second coming", or the abomination "will be reenacted
-on a more awful scale just before Christ's return" (note on 24:29-51). This study takes the second. It
-costs nothing at verse 29 — the distress that verse follows is the future one, and the coming does
-follow it at once — while AD 70 stands behind it as the foreshadowing verse 15 allows, not as the
-thing itself.
-
-### The gap's real location
-
-The long interval is real, but it sits **earlier** — between the age Jesus describes in verses 4-14
-and the distress that begins at verse 15. That is where Daniel's own count leaves a gap, between the
-sixty-ninth week and the seventieth, as [Where the Discourse Sits in God's Whole
-Programme](#where-the-discourse-sits-in-gods-whole-programme) works out below and as Larkin's chart
-draws it. Placing the gap at verse 29 instead puts it inside a word that means the opposite.
-
-### Two mountain peaks
-
-Jesus telescopes near and far into one description without marking the join, and he had done it
-before. In the Nazareth synagogue he read Isaiah 61:1-2 aloud and stopped mid-sentence, before "the
-day of vengeance of our God," then said "today this Scripture has been fulfilled in your hearing"
-(Luke 4:21). Isaiah's own sentence runs the near and far together. Jesus read as far as the part then
-being fulfilled and closed the scroll.
-
-Clarence Larkin drew the effect as a landscape: a prophet looking forward sees two mountain peaks
-lined up one behind the other, with the valley between them hidden entirely from that angle. "We see
-the 'mountain peaks' and 'valleys' from the side, and so can separate the first and second coming
-prophecies" — a vantage the prophets themselves did not have.
-
-![Larkin: The "Mountain Peaks" of Prophecy](../assets/img/larkin/mountain-peaks-of-prophecy.gif)
-
-```mermaid
-flowchart TD
-    A["24:4-14 — the age itself<br/>deception, war, famine,<br/>persecution, endure, gospel<br/>to all nations"]
-    A -.->|"the gap: Daniel's 69th to 70th week.<br/>AD 70 falls here — the temple prophecy<br/>of 24:1-2 kept (Luke 21:20-24; Josephus)"| TRIB
-    subgraph TRIB["24:15-28 — 'the tribulation of those days'"]
-      direction TB
-      B["Abomination of desolation<br/>(24:15; Dan 9:27)"] --> C["Flee — and flee fast<br/>(24:16-20)"]
-      C --> D["Great tribulation, days cut short<br/>(24:21-22; Dan 12:1)"]
-      D --> E["False christs, great signs<br/>'do not believe it'<br/>(24:23-26)"]
-    end
-    TRIB ==>|"24:29 EUTHEOS<br/>immediately after"| F["Cosmic signs<br/>(24:29)"]
-    F --> G["The one sign: Son of Man<br/>on the clouds, like lightning<br/>(24:27, 30; Dan 7:13-14)"]
-    G --> H["Elect gathered<br/>(24:31)"]
-```
+Where the long interval before verse 15 sits, and why verse 29's "immediately" leaves no gap after
+the distress, is worked through against Daniel 9:24-27 in a separate study, *Immediately After*
+(in preparation).
 
 ## The One Sign: The Son of Man Comes
 
@@ -504,11 +399,7 @@ Jesus has used of himself throughout the discourse comes from that verse.
 Revelation opens by quoting the same sentence back: "he is coming with the clouds, and every eye will
 see him... and all tribes of the earth will wail on account of him" (Revelation 1:7, ESV) against
 Matthew's "all the tribes of the earth will mourn, and they will see the Son of Man coming on the
-clouds of heaven" (24:30). Clouds, universal visibility, mourning tribes, in that order. John then
-gives the scene in full — heaven opened, a white horse, the rider called Faithful and True, the armies
-of heaven behind him, "King of kings and Lord of lords" on his robe and thigh (Revelation 19:11-16) —
-positioned after the seal, trumpet and bowl judgments and immediately before the thousand years
-(20:1-6).
+clouds of heaven" (24:30). Clouds, universal visibility, mourning tribes, in that order.
 
 ### The gathering Jerusalem refused
 
@@ -524,14 +415,9 @@ or two before:
 
 Twice in Matthew: what he wanted to do for Jerusalem and was refused (23:37), and what he will do at
 his return (24:31). The gathering he was not permitted to give the city, he performs from the four
-winds. Matthew leaves the two occurrences a chapter apart and does not comment on them.
-
-The trumpet at 24:31 has its own background: "a great trumpet will be blown, and those who were lost
-in the land of Assyria... will come and worship the LORD on the holy mountain at Jerusalem" (Isaiah
-27:13, ESV), and Paul carries it into 1 Corinthians 15:52 and 1 Thessalonians 4:16. The *NIV Cultural
-Backgrounds Study Bible* adds that a regularly prayed Jewish prayer expected a trumpet at God's
-final deliverance of his people, and that Jesus sending "his angels" is itself a claim to deity (note
-on Matthew 24:31).
+winds. This shows the heart of God in Jesus: the Son of Man who comes with power and great glory is
+the same Jesus who wept over Jerusalem, and His return is an act of gathering. You can long for the
+One who is coming, because He has longed to gather His people all along.
 
 ### The mountain he was sitting on
 
@@ -548,143 +434,10 @@ Jesus, who was taken up from you into heaven, will come in the same way as you s
 heaven" (Acts 1:11, ESV). Same author, same mountain, three times over: the discourse, the departure,
 and the promise of the return.
 
-## The Fig Tree, and What It Does Not Say
-
-### The parable, and the popular reading
-
-"From the fig tree learn its lesson: as soon as its branch becomes tender and puts out its leaves,
-you know that summer is near. So also, when you see all these things, you know that he is near, at
-the very gates" (24:32-33, ESV). All three accounts call this a parable, and Jesus supplies its own
-interpretation in the second sentence. The comparison is between two acts of inference: leaves let
-you infer summer; "all these things" let you infer nearness.
-
-A popular dispensational reading takes the species itself as the coded content: the fig tree stands
-for Israel, its budding is 1948 or 1967, and "this generation" becomes a countable window from that
-date. **The symbolism it appeals to is real** — that has to be granted before anything is said
-against the reading. Scripture does use the fig tree of Israel. Jeremiah is shown two baskets of figs
-and told "like these good figs, so I will regard as good the exiles from Judah" and, of the bad ones,
-"so will I treat Zedekiah the king of Judah" (Jeremiah 24:5, 8). Hosea has God finding Israel "like
-the first fruit on the fig tree in its first season" (9:10). Jeremiah 8:13 and Micah 7:1 use the
-failed fig harvest for a failed people, and Jesus himself tells a parable about a fruitless fig tree
-in a vineyard given one more year before it is cut down (Luke 13:6-9).
-
-### Four arguments from the text itself
-
-Four things stand against reading it that way *here*.
-
-**Where Scripture means the fig as Israel, it says so.** Jeremiah's vision is interpreted inside the
-vision — the figs are named as the exiles and as Zedekiah before the chapter ends. Jesus interprets
-this parable too, in the sentence immediately after it, and his interpretation is about inference
-from signs: "when you see all these things, you know that he is near." A reader supplying a referent
-the speaker has just declined to supply is working against the text, not with it.
-
-**The word is not a cipher in the New Testament.** συκῆ (*sykē*) occurs sixteen times, and most are
-plainly ordinary — Nathanael sitting under one (John 1:48, 50), James asking whether a fig tree can
-bear olives (3:12), stars falling as a fig tree drops its fruit in a gale (Revelation 6:13). The
-judgment texts are real but they are a subset, not the word's fixed meaning.
-
-**Luke removes the possibility.** Where Matthew and Mark have "the fig tree", Luke has "**the fig
-tree, and all the trees**" (21:29, ESV), and draws the conclusion "the kingdom of God is near"
-(21:31). The *NIV Biblical Theology Study Bible* reads that addition as deliberate: Luke includes
-"all the trees" "probably to shift the focus from the fig tree's symbolic significance (in reference
-to Israel) to planting imagery in general that depicts the natural change of seasons" (note on
-21:29). A code that any tree can carry is not a code.
-
-**There is a plain reason Jesus reached for a fig.** It is the visible one in that landscape:
-"unlike most Judean trees, fig trees lost their leaves each year; they produced new leaves... when
-summer was coming, before the wheat harvest and well before the grape vintage" (*NIV Cultural
-Backgrounds Study Bible*, note on Luke 21:29-30). In a country of evergreens, the deciduous tree is
-the one whose leafing tells you the season has turned. That is the whole of what the parable asks it
-to do.
-
-The cost of the dating version is not only exegetical. It hands the discourse the one thing Jesus
-spent four warnings refusing to give — a checklist with a date attached — and it has already failed
-in practice, since a forty-year generation counted from 1948 expired in 1988 and the calculation was
-simply restarted from 1967.
-
-### The other fig tree: Monday's curse
-
-There is a better-grounded fig tree three days earlier in the same week. On the Monday, Jesus cursed
-a leafy, fruitless fig tree on the road into Jerusalem (Matthew 21:19), the same day he cleared the
-temple; Mark brackets the two as one unit — tree cursed (11:12-14), temple cleared (11:15-19), withered
-tree found (11:20-25) — which the *ESV Study Bible* reads as deliberate, "suggest[ing] a connection
-between the cleansing of the temple and the cursing of the fig tree" (note on Mark 11:12-21), and
-grounds in the Old Testament's use of the fig tree "as a metaphor for Israel and its standing before
-God (e.g., Jer. 8:13; Hos. 9:10, 16; Joel 1:7)" (note on Mark 11:13-14). The men who heard "learn from
-the fig tree" on Tuesday had watched one wither on Monday. But the two images point opposite ways:
-Monday's tree is barren and judged, Tuesday's is budding toward summer. The shared element is the
-tree and the temple's fate, not one fixed meaning for "fig tree" wherever it turns up.
-
-## "This Generation" — Whose, and of What?
-
-### Two questions in one sentence
-
-"Truly, I say to you, this generation will not pass away until all these things take place" (24:34,
-ESV). The *ESV Study Bible* calls this "this difficult passage" and sets out five readings of it, so
-anyone who tells you the grammar settles it is selling something. Two questions hide inside the
-sentence and they have to be taken separately: **what are "all these things", and whose is "this
-generation"?**
-
-### "All these things": what the Greek settles
-
-**The first question the Greek does answer.** πάντα ταῦτα (*panta tauta*, "all these things") appears
-twice in consecutive verses — at 24:33, "when you see all these things, you know that he is near, at
-the very gates", and again at 24:34. The same phrase, one verse apart, in one breath. Whatever it
-means at 33 it means at 34, and at 33 it plainly means *the signs that indicate his nearness* — the
-things you see **before** he arrives, not his arrival. The *NIV Biblical Theology Study Bible* puts it
-without hedging: "all these things. Must refer to the same events as 'all these things' in v. 33,
-which occur before the second coming" (note on 24:34). So "all these things" are the events of
-verses 4-25, up to but not including the coming itself.
-
-### Whose generation? Where the readings divide
-
-**The second question is where the readings divide.** Matthew uses "this generation" (γενεά αὕτη,
-*genea hautē*) eight other times and every one means his own contemporaries — "an evil and adulterous
-generation" (12:39), the generation judged alongside Nineveh (12:41-42), and one paragraph before
-this discourse opens, "all these things will come upon this generation" (23:36), said of the men just
-charged with killing the prophets. Louw-Nida codes γενεά here under both a group sense (10.4, 11.4)
-and a time sense (67.144) at once, so the lexicon will not decide it either.
-
-What that eight-for-eight record *does* settle is a negative, and some dispensational writers rest
-real weight on the opposite: **γενεά here does not mean "race"**, as though Jesus were
-promising the Jewish people's survival to the end. Matthew never uses the word that way, and the
-reading is unnecessary.
-
-### This study's reading
-
-**This study takes the fifth of the ESV Study Bible's options**: "this generation" is the generation
-alive when the events of verses 4-25 begin — the people who see "all these things" and are therefore
-the ones for whom the fig tree's lesson is addressed. On that reading Jesus is saying that once the
-sequence starts it runs to completion within a single lifetime; it does not stretch across ages. That
-keeps Matthew's ordinary sense of γενεά, a cohort of people living at one time, and it is the only
-option that leaves verse 29's "immediately" doing honest work.
-
-It also makes the parable in the next breath cohere. Leaves mean summer is close, not decades off;
-signs mean he is near, at the very gates. A reading on which "all these things" completed in AD 70
-has to explain why he was "at the very gates" nineteen centuries ago.
-
-One distinction is worth drawing carefully, because the date-setting reading sounds like this one.
-It also says "the generation that sees" — it simply identifies what is seen as Israel's return to
-the land and starts a clock there. The difference is whether the text supplies a starting gun, and
-[the fig tree](#the-fig-tree-and-what-it-does-not-say) supplies none: leaves on a tree are the
-example of an inference anyone can make, not a dated event anyone can log. Taking this reading gives
-no year to count from, which is a feature of it. The signs of verses 4-25 will be recognisable when
-they come; nobody is told when they start, and Jesus says so himself four verses later.
-
-### AD 70, and where 1948/1967 fit
-
-Where 1948 and 1967 *can* be weighed is Luke's "times of the Gentiles" (21:24), a passage actually
-about Gentile political control of Jerusalem — see [Where the Discourse Sits in God's Whole
-Programme](#where-the-discourse-sits-in-gods-whole-programme) below.
-
-None of that unsettles what AD 70 actually fulfilled. Jesus predicted this temple's destruction
-(24:1-2), Luke records the prophecy in plain siege language (21:20-24), and it happened — as the next
-section documents. The *NKJV Cultural Backgrounds Study Bible* suggests the two timings in this
-chapter map onto the disciples' own two questions: "the distinction between the specified timing here
-and the unknown timing of v. 36 may relate to the two distinct questions asked in v. 3" (note on
-24:34). The temple got a datable answer. The coming did not.
-
 ## The Day No One Knows
+
+The fig tree (24:32-33) and "this generation" (24:34) are worked through in a separate study, *The
+Fig Tree and This Generation* (in preparation).
 
 ### "Concerning that day and hour"
 
@@ -695,24 +448,23 @@ original question:
 > 36 "But concerning that day and hour no one knows, not even the angels of heaven, nor the Son, but
 > the Father only."
 
-That sentence raises a real question about Christ's own knowledge, and it has been answered carelessly
-often enough — including in an earlier draft of this study — that it needs more room than a paragraph.
-It gets it in [The Day No One Knows](../jesus/the-day-no-one-knows.md), which works through the
-textual variant, the two natures, and the popular claim that Jesus was quoting a Jewish wedding idiom.
+That sentence raises a real question about Christ's own knowledge, worked through in [The Day No One
+Knows](../jesus/the-day-no-one-knows.md): the textual variant, the two natures, and the popular claim
+that Jesus was quoting a Jewish wedding idiom.
 
 The short of it is that the verse is about **whose the date is**, not about what the Son is capable of
 knowing. Asked the same question again after the resurrection, when no question of incarnational
 limitation is in view, he answered the same way and named the reason: "it is not for you to know times
-or seasons that the Father has fixed by his own authority" (Acts 1:7, ESV). Authority, not
-information.
+or seasons that the Father has fixed by his own authority" (Acts 1:7, ESV). This is the sovereignty
+of God over history: the Father has fixed the day and kept it for Himself, so you can leave it with
+Him and give your attention to what He has given you to do.
 
 ### Why the discourse tells them this
 
-What the discourse does with that is the part that matters here, and Jesus draws the conclusion
-himself. He follows this verse with Noah, with the two in the field, and then with the imperative the
+Jesus draws the conclusion himself. He follows this verse with Noah, with the two in the field, and then with the imperative the
 whole chapter has been building toward: "therefore, stay awake, for you do not know on what day your
-Lord is coming" (24:42, ESV). The unknown date is not a puzzle set for the church to solve. It is the
-reason the church is told to be ready.
+Lord is coming" (24:42, ESV). The unknown date is the reason the church is told to be
+ready.
 
 ### What "ready" actually means
 
@@ -725,70 +477,17 @@ is blessed if the master "will find so doing when he comes" (24:46) — found *d
 found looking out of a window. The master of the talents "came and settled accounts with them"
 (25:19). The nations are separated on what they did and failed to do for "the least of these my
 brothers" (25:40). In three of the four, readiness is a record, not a posture, and it is made of
-conduct toward other people.
+conduct toward other people. So you get ready for Jesus' return the way the faithful servant did, by
+feeding the household He has put in your care.
 
-That is the ordinary New Testament shape of it: "each of us will give an account of himself to God"
-(Romans 14:12), leaders who watch over souls "as those who will have to give an account" (Hebrews
-13:17), believers "always being prepared" — ἕτοιμοι again — "to make a defense to anyone who asks you
-for a reason for the hope that is in you" (1 Peter 3:15). Readiness is the state of being able to be
-called on, not a mood of expectancy about a date. All four parables are worked through in [The
+All four parables are worked through in [The
 Parables of the Olivet Discourse](olivet-discourse-parables.md).
 
 ## One Taken, One Left
 
-### The verbs, and what decides their meaning
-
 Matthew's Noah illustration ends in the discourse's most contested sentence: "Then two men will be in
 the field; one will be taken and one left. Two women will be grinding at the mill; one will be taken
 and one left" (24:40-41, ESV).
-
-The verbs are παραλαμβάνω (*paralambanō*, "take," G3880) and ἀφίημι (*aphiēmi*, "leave," G863).
-Louw-Nida codes both under domain 15, physical movement, and not under any domain for rescue or
-punishment. Lexically neither verb carries a verdict. The verdict has to come from context.
-
-### The context decides: Noah, and Luke's "where?"
-
-The context is the illustration these two verses complete. "As were the days of Noah, so will be the
-coming of the Son of Man... they were unaware until the flood came and swept them all away, so will be
-the coming of the Son of Man" (24:37-39, ESV). In that picture the ones removed are the wicked, swept
-off by the flood; the man left behind on the earth, preserved through the judgment, is Noah. Read as
-the continuation it grammatically is, "taken" is removal in judgment and "left" is survival.
-
-Luke's parallel, in a different setting on the road to Jerusalem, uses the same verb pair at 17:34-35,
-and there the disciples ask the follow-up question Matthew does not record: "Where, Lord?" Jesus
-answers, "Where the corpse is, there the vultures will gather" (Luke 17:37, ESV). Two things about
-that answer. Vultures over a corpse is battlefield imagery, standard in both Greco-Roman writing and
-Scripture for the aftermath of slaughter (Deuteronomy 28:26; 1 Samuel 17:44; Psalm 79:1-2; Ezekiel
-39:17-20). And the verb Luke uses for the vultures gathering is ἐπισυναχθήσονται — *episynagō* again,
-the same verb as the gathering of the elect at Matthew 24:31. One coming, two gatherings.
-
-The mill detail is domestic and specific. Galilean homes commonly shared a courtyard, and women of
-different households worked a common millstone together; the *NIV Cultural Backgrounds Study Bible*
-draws the conclusion directly: "despite the closest of associations, one is taken (to judgment, v. 39)
-but the other is spared" (note on Matthew 24:41). That is an independent commentary reaching the same
-reading from the cultural setting rather than from the verbs.
-
-### The counterweight: a different sense elsewhere
-
-One real counterweight deserves stating. *Paralambanō* is used positively elsewhere, including by
-Jesus: "I will come again and will take you to myself, that where I am you may be also" (John 14:3,
-ESV). The word genuinely runs both ways — and the semantic-domain annotation shows the two uses
-parting company rather than sitting on a single ambiguous meaning. John 14:3's παραλήμψομαι is coded
-Louw-Nida **34.53**, the *receive or welcome into one's company* sense that domain 34 (Association)
-covers, sharing its slot with δέχομαι, προσδέχομαι and προσλαμβάνομαι. The two occurrences here at
-24:40-41 are coded **15.168**, physical movement — carrying someone off.
-
-Where else 34.53 turns up is the striking part: Joseph is told "do not fear to take Mary as your
-wife" (Matthew 1:20) and then "took his wife" (1:24), both παραλαμβάνω, both 34.53. The sense John
-14:3 draws on is the one used of a man receiving his bride; the sense Matthew 24:40-41 draws on is
-the one used of being carried off. Same verb, two domains, and the lexicographers separated them
-without reference to anyone's eschatology. Context still decides — and here the context is the
-post-tribulation coming introduced eleven verses earlier, with the angels already gathering the elect
-(24:31) — but the lexicon is not neutral between the two readings the way a bare gloss suggests.
-That marital sense at John 14:3 belongs to a much larger pattern, worked out in [The Bride of
-Christ](../israel-and-church/bride-of-christ.md).
-
-### The popular reading, and where the argument rests
 
 This saying is routinely quoted in popular teaching as proof of a pretribulational rapture — taken
 equals rescued, left equals abandoned. That reading runs against the Noah illustration it completes
@@ -797,159 +496,8 @@ texts entirely — 1 Thessalonians 4:13-18, John 14:1-4, the restrainer of 2 The
 is made at length in [The Rapture of the Church](rapture.md). It neither needs this verse nor is
 damaged by it.
 
-## Where the Discourse Sits in God's Whole Programme
-
-### The gap Daniel's sequence leaves
-
-The abomination of desolation left one piece of Daniel unaccounted for, and it is the piece that
-organises everything still ahead.
-
-Daniel's sequence, read in its own order, generates the gap. Sixty-nine weeks — sevens of years — run
-"from the going out of the word to restore and build Jerusalem to the coming of an anointed one"
-(9:25). "After the sixty-two weeks," that is, after all sixty-nine, "an anointed one shall be cut off
-and shall have nothing" (9:26): the crucifixion. *Then* the text turns to "the people of the prince
-who is to come," who "destroy the city and the sanctuary" (9:26): AD 70, the Roman armies under Titus.
-Only after all of that does the seventieth week appear, and it is tied to neither event but to a
-third, still future: "he shall make a strong covenant with many for one week, and for half of the week
-he shall put an end to sacrifice and offering. And on the wing of abominations shall come one who
-makes desolate" (9:27, ESV).
-
-Nothing in Daniel's sentence requires that covenant to follow AD 70 immediately. Three events, in
-sequence, separately timed; two have happened. Larkin charted exactly this, and labelled the space
-between them:
-
-![Larkin: Daniel's "Seventy Weeks" — the sixty-nine weeks, the gap, and the seventieth week](../assets/img/larkin/daniels-seventy-weeks.gif)
-*Clarence Larkin, "Daniel's 'Seventy Weeks'" (1919), public domain. Larkin marks the 7 weeks (49
-years) to the rebuilding of Jerusalem, the 62 weeks (434 years) to "Messiah the Prince," the cross at
-AD 30, the destruction of Jerusalem at AD 70, and then the "Gap Between the 69th and 70th Week,"
-noting across it that "the present dispensation of 'the Church' was not revealed to Daniel." Daniel
-2's image runs the length of the chart as "the times of the Gentiles" (Luke 21:24), and the seventieth
-week closes at Zechariah 14:4 — the Mount of Olives. From
-[clarencelarkincharts.com](http://clarencelarkincharts.com/).*
-
-### The church age, and the ruler to come
-
-The church age sits in that gap: real, but outside Daniel's count, which is a count of weeks
-"decreed about your people and your holy city" (9:24, ESV) — Israel and Jerusalem, not the church.
-This is the structural reason a dispensational reading keeps Israel and the church distinct rather
-than merging them; see [Israel and the Church](../israel-and-church/israel-and-the-church.md).
-
-The ruler of the seventieth week is "the prince who is to come," drawn from the people who destroyed
-Jerusalem. Paul names the same figure without Daniel's title, and
-opens the passage with the discourse's own warning: "Let no one deceive you in any way" (2
-Thessalonians 2:3, ESV), before describing "the man of lawlessness... who opposes and exalts himself
-against every so-called god or object of worship, so that he takes his seat in the temple of God,
-proclaiming himself to be God" (2:3-4, ESV). That is Daniel's abomination, personal and future, at the
-covenant's midpoint where 9:27 puts it.
-
-### The times of the Gentiles
-
-Luke's phrase covers the whole span in between. "Jerusalem will be trampled underfoot by the Gentiles,
-until the times of the Gentiles are fulfilled" (21:24, ESV) names a period with a stated end
-condition, and Daniel supplies the frame: the four Gentile empires of Daniel 2 and 7, ending when "the
-God of heaven will set up a kingdom that shall never be destroyed... It shall break in pieces all these
-kingdoms and bring them to an end, and it shall stand forever" (Daniel 2:44, ESV). Jerusalem's
-political history since AD 70 fits inside that frame without closing it. A Jewish state in 1948 and
-the city reunified in 1967 are real markers and are the textually appropriate place to weigh those
-dates — this is a passage about Gentile political control of Jerusalem, which is what those dates
-concern — but the text names the *kingdom's* arrival as the closing condition, not a state's founding.
-
-```mermaid
-flowchart TD
-    A["The cross<br/>'anointed one cut off'<br/>Dan 9:26"] --> B["AD 70<br/>city and sanctuary destroyed<br/>Dan 9:26b; Luke 21:20-24"]
-    B --> C["The times of the Gentiles<br/>Luke 21:24; Dan 2<br/><i>the church age — outside<br/>Daniel's count</i>"]
-    C -.->|"the church removed<br/>1 Thess 4:16-17<br/>2 Thess 2:1"| D["Daniel's 70th week<br/>a covenant with many<br/>Dan 9:27 — seven years"]
-    D --> E["Midpoint: sacrifice stopped,<br/>the abomination set up<br/>Dan 9:27; 2 Thess 2:4"]
-    E --> F["Great tribulation<br/>Matt 24:21; Dan 12:1; Rev 7:14"]
-    F --> G["THE SIGN<br/>Son of Man on the clouds<br/>Matt 24:30; Rev 19:11-16<br/>feet on Olivet — Zech 14:4"]
-    G --> H["Millennial kingdom<br/>Rev 20:1-6; Dan 2:44"]
-    H --> I["Final judgment<br/>Rev 20:11-15"]
-    I --> J["Heavens pass away, burned<br/>2 Pet 3:7, 10, 12"]
-    J --> K["New heavens and new earth<br/>2 Pet 3:13; Rev 21:1-4"]
-```
-
-### The rapture's place on this diagram
-
-The rapture's position on that diagram is dashed because this discourse does not put it there. Jesus
-is answering four Jewish disciples about Jerusalem, the temple, and his return in glory; the removal
-of the church is revealed later, to Paul, as something previously undisclosed (1 Corinthians 15:51).
-That the discourse does not teach it is not an argument against it, any more than Daniel's silence
-about the church age is an argument that there isn't one — Larkin's chart makes exactly that point in
-its caption. The full argument is in [The Rapture of the Church](rapture.md).
-
-## "Heaven and Earth Will Pass Away"
-
-### One verb, two senses
-
-The discourse's own last word reaches past the return, past the kingdom, to the end of the physical
-creation. It sits in the verse immediately after the one ["This Generation"](#this-generation-whose-and-of-what)
-just worked through — and the two are a single sentence, which is why neither is finished alone.
-
-Jesus puts one verb in two senses in consecutive sentences:
-
-> ✝️ Matthew 24:34-35 (ESV)
-> 34 Truly, I say to you, this generation will not pass away until all these things take place.
-> 35 Heaven and earth will pass away, but my words will not pass away.
-
-All three are παρέρχομαι (*parerchomai*, G3928). At verse 34, of the generation, Louw-Nida reads it as
-time elapsing (67.85). At verse 35, of heaven and earth and of his own words, the sense shifts to
-ceasing to exist (13.93). A generation that will not run out before these things happen; a cosmos
-that will one day cease; words that will not. The study of "this generation" that stops at verse 34
-has cut a sentence in half.
-
-### Peter's echo
-
-Peter was sitting there when Jesus said it. Decades later, writing to churches mocked for still
-expecting a return that had not come, he wrote the discourse's sequel — and reached for its
-vocabulary:
-
-> ✝️ 2 Peter 3:10, 13 (ESV)
-> 10 But the day of the Lord will come like a thief, and then the heavens will pass away with a roar,
-> and the heavenly bodies will be burned up and dissolved, and the earth and the works that are done
-> on it will be exposed... 13 But according to his promise we are waiting for new heavens and a new
-> earth in which righteousness dwells.
-
-παρέρχομαι occurs exactly once in the whole of 2 Peter, at 3:10, of the heavens passing away — the
-same verb and the same Louw-Nida sense (13.93) as Matthew 24:35. That is not the only borrowing.
-2 Peter 3 works through the discourse point by point:
-
-| 2 Peter 3 | The Olivet Discourse |
-|---|---|
-| 3:4 the scoffers' taunt: "Where is the promise of his **coming**?" | *parousia* — Matthew 24:3, 27, 37, 39 |
-| 3:5-6 the flood, the world that "perished" | the days of Noah — Matthew 24:37-39 |
-| 3:10 "the day of the Lord will come like a **thief**" | "if the master of the house had known in what part of the night the **thief** was coming" — Matthew 24:43 |
-| 3:10 "the heavens will **pass away**" (παρελεύσονται) | "heaven and earth will **pass away**" (παρελεύσεται) — Matthew 24:35 |
-| 3:11 "what sort of people ought you to be" | "stay awake... you also must be ready" — Matthew 24:42, 44 |
-| 3:7, 10, 12 fire; 3:13 new heavens and new earth | *the step past the return the discourse does not take* |
-
-Peter also answers the objection the discourse raises and leaves open. If nobody knows the day, and it
-has been a long time, has the promise failed? "The Lord is not slow to fulfill his promise as some
-count slowness, but is patient toward you, not wishing that any should perish" (3:9, ESV). The delay
-the scoffers read as failure is mercy, deliberately extended.
-
-### The thief image, traced
-
-Paul draws on the same discourse for the same purpose in 1 Thessalonians 5, and takes two images from
-it in two consecutive verses: "the day of the Lord will come like a thief in the night" (5:2), and
-"sudden destruction will come upon them as labor pains come upon a pregnant woman" (5:3) — κλέπτης
-and ὠδίν, Matthew 24:43 and 24:8. He then applies it exactly as Jesus did: "So then let us not sleep,
-as others do, but let us keep awake and be sober" (5:6, ESV).
-
-The image Jesus used of himself travels further than any other in the discourse:
-
-```mermaid
-flowchart LR
-    J["Jesus, Mount of Olives<br/>'the thief' — Matt 24:43<br/>(kleptes, G2812)"]
-    J --> P["Paul — 1 Thess 5:2, 4<br/>'the day of the Lord will come<br/>like a thief in the night'"]
-    J --> PE["Peter — 2 Pet 3:10<br/>'the day of the Lord<br/>will come like a thief'"]
-    J --> R1["Christ to Sardis — Rev 3:3<br/>'I will come like a thief'"]
-    J --> R2["Rev 16:15, in the bowls<br/>'Behold, I am coming like a thief!'"]
-```
-
-Five occurrences across three writers and the risen Christ's own letters, all of the same event, all
-traceable to a sentence spoken on a hillside to four men. And the last word of the whole chain is the
-one Jesus attached to it in the first place: "Blessed is the one who stays awake" (Revelation 16:15,
-ESV).
+The verbs, Noah's flood and Luke's vultures are worked through in a separate study, *One Taken,
+One Left* (in preparation).
 
 ## "What I Say to You I Say to All: Stay Awake"
 
@@ -1021,10 +569,13 @@ question, and Mark 14:33 takes Peter, James and John into the garden. Hours, not
 command from the failure. Jesus said "lest he come suddenly and find you asleep" (13:36); Mark writes
 "he came and found them sleeping" (14:37), and then twice more.
 
-Mark is not scoring a point against the disciples. He is showing his readers what the command costs,
+Mark is showing his readers what the command costs,
 using the only three men who had the chance to obey it that same night, and failed while their Lord
 was a stone's throw away in agony. Anyone reading Mark 13:37 — "what I say to you I say to all" — and
 feeling secure about their own watchfulness has one chapter to go before that confidence is tested.
+Jesus kept the men He found asleep, and the endurance they later showed came from Him. That is grace,
+and it is yours on the same terms: stay awake, and when you find you have slept, return to your Lord
+and keep watching.
 
 The discourse's answer to "when?" is therefore not a date, and not really an argument. It is a job.
 Matthew makes the same turn by following 24:44 with four parables of servants who were and were not
@@ -1032,6 +583,9 @@ ready when the master arrived; those are treated in [The Parables of the Olivet
 Discourse](olivet-discourse-parables.md). Luke states the posture in a sentence: "when these things
 begin to take place, straighten up and raise your heads, because your redemption is drawing near"
 (21:28, ESV).
+
+Peter and Paul carried this discourse's verbs and images into 2 Peter 3 and 1 Thessalonians 5; that
+trail is followed in a separate study, *Heaven and Earth Will Pass Away* (in preparation).
 
 ## Discussion Questions
 
@@ -1047,8 +601,6 @@ begin to take place, straighten up and raise your heads, because your redemption
 4. Mark ends the discourse with "Stay awake," and one chapter later the same three men are asleep in
    Gethsemane. What is Mark asking his reader to conclude — about the disciples, and about the
    reader?
-5. Peter heard Matthew 24:35 in person and used its verb decades later in 2 Peter 3:10. Compare the
-   two passages. What has Peter added that the discourse itself does not say?
 
 ## References & Recommended Reading
 
@@ -1077,10 +629,6 @@ begin to take place, straighten up and raise your heads, because your redemption
   retrieved through `references/build/sefaria.py`.
 - MACULA Greek morphology and Louw-Nida semantic domains (open license) — occurrence and domain data
   for πλανάω, βλέπω, γρηγορέω, ὠδίν, παρέρχομαι, ἐπισυνάγω, κλέπτης, γενεά, παραλαμβάνω, ἀφίημι.
-- Clarence Larkin, *Dispensational Truth* (1918/1920) — "The 'Mountain Peaks' of Prophecy" and
-  "Daniel's 'Seventy Weeks'", public domain in the United States; the latter reproduced from
-  [clarencelarkincharts.com](http://clarencelarkincharts.com/). See also [Charting End
-  Times](prophecy-chart.md).
 - Photograph of the Temple Mount from the Mount of Olives by brionv, via Wikimedia Commons,
   [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
 - [The Rapture of the Church](rapture.md) — the pretribulational case, which rests on texts other

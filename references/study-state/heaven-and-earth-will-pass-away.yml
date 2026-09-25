@@ -1,0 +1,19 @@
+slug: "heaven-and-earth-will-pass-away"
+title: "Heaven and Earth Will Pass Away"
+status: drafting
+target_path: "docs/content/last-things/heaven-and-earth-will-pass-away.md"
+primary_passage: "Matthew 24:35"
+forked_from: "docs/content/last-things/olivet-discourse.md"
+point: "Peter and Paul carried the discourse's verbs and images (parousia, the flood, the thief, labour pains) into 2 Peter 3 and 1 Thessalonians 5 for the same command to stay awake."
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked verbatim on 2026-09-26 (simplify-bible-study, readability-sweep-2026-09) from
+      docs/content/last-things/olivet-discourse.md at commit dda393c: ## "Heaven and Earth Will Pass Away" (all subsections). Word studies and
+      quotations were verified there (see olivet-discourse.yml review blocks) and are not redrafted.
+      Needs develop-bible-study for its own opening, "In one sentence:" thesis, Key Takeaways and
+      discussion questions; draft: true until then. When published, turn the plain-text pointer in
+      olivet-discourse.md into a link.
+open_questions: []
+last_updated: "2026-09-26"

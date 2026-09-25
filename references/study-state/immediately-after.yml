@@ -1,0 +1,19 @@
+slug: "immediately-after"
+title: "Immediately After: Daniel's Seventieth Week and the Olivet Discourse"
+status: drafting
+target_path: "docs/content/last-things/immediately-after.md"
+primary_passage: "Matthew 24:15-31"
+forked_from: "docs/content/last-things/olivet-discourse.md"
+point: "Matthew 24:29's 'immediately' rules out a gap after the distress; Daniel 9:24-27's own sequence puts the long interval between 24:14 and 24:15."
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked verbatim on 2026-09-26 (simplify-bible-study, readability-sweep-2026-09) from
+      docs/content/last-things/olivet-discourse.md at commit dda393c: ### Where this sits on the timeline + ## "Immediately After" + ## Where the Discourse Sits in God's Whole Programme. Word studies and
+      quotations were verified there (see olivet-discourse.yml review blocks) and are not redrafted.
+      Needs develop-bible-study for its own opening, "In one sentence:" thesis, Key Takeaways and
+      discussion questions; draft: true until then. When published, turn the plain-text pointer in
+      olivet-discourse.md into a link.
+open_questions: []
+last_updated: "2026-09-26"

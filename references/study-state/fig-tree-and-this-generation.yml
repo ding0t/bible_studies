@@ -1,0 +1,19 @@
+slug: "fig-tree-and-this-generation"
+title: "The Fig Tree and This Generation"
+status: drafting
+target_path: "docs/content/last-things/fig-tree-and-this-generation.md"
+primary_passage: "Matthew 24:32-34"
+forked_from: "docs/content/last-things/olivet-discourse.md"
+point: "The fig tree parable teaches inference from signs, and 'this generation' is the generation that sees them -- no species code and no year to count from."
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked verbatim on 2026-09-26 (simplify-bible-study, readability-sweep-2026-09) from
+      docs/content/last-things/olivet-discourse.md at commit dda393c: ## The Fig Tree, and What It Does Not Say + ## "This Generation" -- Whose, and of What?. Word studies and
+      quotations were verified there (see olivet-discourse.yml review blocks) and are not redrafted.
+      Needs develop-bible-study for its own opening, "In one sentence:" thesis, Key Takeaways and
+      discussion questions; draft: true until then. When published, turn the plain-text pointer in
+      olivet-discourse.md into a link.
+open_questions: []
+last_updated: "2026-09-26"
