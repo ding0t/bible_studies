@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Know the Truth](../../christian-life/know-the-truth.md) — 3:14
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:10
 <!-- commentary-index:auto-end -->

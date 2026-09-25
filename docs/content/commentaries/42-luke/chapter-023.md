@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Know the Truth](../../christian-life/know-the-truth.md) — 23:46
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 23:44-45
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 23:54
 <!-- commentary-index:auto-end -->

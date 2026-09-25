@@ -27,7 +27,7 @@ draft: false
 - [Chapter 44](chapter-044.md) — 2 study(ies)
 - [Chapter 47](chapter-047.md) — 1 study(ies)
 - [Chapter 49](chapter-049.md) — 1 study(ies)
-- [Chapter 52](chapter-052.md) — 2 study(ies)
+- [Chapter 52](chapter-052.md) — 3 study(ies)
 - [Chapter 53](chapter-053.md) — 2 study(ies)
 - [Chapter 54](chapter-054.md) — 4 study(ies)
 - [Chapter 55](chapter-055.md) — 2 study(ies)
@@ -37,5 +37,5 @@ draft: false
 - [Chapter 62](chapter-062.md) — 2 study(ies)
 - [Chapter 63](chapter-063.md) — 1 study(ies)
 - [Chapter 64](chapter-064.md) — 1 study(ies)
-- [Chapter 65](chapter-065.md) — 1 study(ies)
+- [Chapter 65](chapter-065.md) — 2 study(ies)
 <!-- commentary-index:auto-end -->

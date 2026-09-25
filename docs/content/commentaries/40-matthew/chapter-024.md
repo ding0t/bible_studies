@@ -23,5 +23,6 @@ draft: false
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 24:37-39
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 24:3
 - [The Rapture of the Church](../../last-things/rapture.md) — 24:36-44
+- [The Restrainer](../../last-things/the-restrainer.md) — 24:15
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 24:29-31
 <!-- commentary-index:auto-end -->

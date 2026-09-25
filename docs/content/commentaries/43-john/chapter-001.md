@@ -14,6 +14,7 @@ draft: false
 
 - [Andrew](../../biblical-figures/andrew.md) — 1:35-42 (primary passage)
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 1:45-51 (primary passage)
+- [Know the Truth](../../christian-life/know-the-truth.md) — 1:14
 - [Philip](../../biblical-figures/philip.md) — 1:43-46
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1
 - [Simon Peter](../../biblical-figures/peter.md) — 1:40-42

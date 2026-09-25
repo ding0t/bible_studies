@@ -18,6 +18,7 @@ draft: false
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 4:16-17
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:16-18
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 4:13-18
+- [The Restrainer](../../last-things/the-restrainer.md) — 4:17
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 4:16-17
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 4:13-17
 <!-- commentary-index:auto-end -->

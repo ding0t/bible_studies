@@ -20,5 +20,6 @@ draft: false
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 9:2-3
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 9:24-27
 - [The Rapture of the Church](../../last-things/rapture.md) — 9:27
+- [The Restrainer](../../last-things/the-restrainer.md) — 9:27
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 9:24-27
 <!-- commentary-index:auto-end -->

@@ -14,4 +14,5 @@ draft: false
 
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 3:23
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:11-15
+- [The Restrainer](../../last-things/the-restrainer.md) — 3:16
 <!-- commentary-index:auto-end -->

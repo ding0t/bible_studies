@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 10:12-13
+- [The Restrainer](../../last-things/the-restrainer.md) — 10:13
 <!-- commentary-index:auto-end -->

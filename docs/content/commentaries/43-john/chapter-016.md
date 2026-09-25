@@ -12,6 +12,8 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Know the Truth](../../christian-life/know-the-truth.md) — 16:13
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 16:23-24
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 16:30
+- [The Restrainer](../../last-things/the-restrainer.md) — 16:7-8
 <!-- commentary-index:auto-end -->

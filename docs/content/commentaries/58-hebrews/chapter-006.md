@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 6:13-20
+- [Know the Truth](../../christian-life/know-the-truth.md) — 6:18
 <!-- commentary-index:auto-end -->

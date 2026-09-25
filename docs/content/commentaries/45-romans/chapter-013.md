@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 13:12
+- [The Restrainer](../../last-things/the-restrainer.md) — 13:4
 <!-- commentary-index:auto-end -->

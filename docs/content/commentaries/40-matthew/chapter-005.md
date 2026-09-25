@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:17-18
+- [The Restrainer](../../last-things/the-restrainer.md) — 5:13-14
 <!-- commentary-index:auto-end -->

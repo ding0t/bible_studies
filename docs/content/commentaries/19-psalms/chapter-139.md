@@ -14,4 +14,5 @@ draft: false
 
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 139:23-24
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 139:1-12
+- [The Restrainer](../../last-things/the-restrainer.md) — 139:7
 <!-- commentary-index:auto-end -->

@@ -14,4 +14,5 @@ draft: false
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 52:13
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 52:7
+- [The Restrainer](../../last-things/the-restrainer.md) — 52:11
 <!-- commentary-index:auto-end -->

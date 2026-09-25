@@ -17,4 +17,5 @@ draft: false
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 5:17-18
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 5:1-4
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:9
+- [The Restrainer](../../last-things/the-restrainer.md) — 5:9
 <!-- commentary-index:auto-end -->

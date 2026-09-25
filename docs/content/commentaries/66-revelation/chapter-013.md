@@ -14,4 +14,5 @@ draft: false
 
 - [Biblical Numerology](../../scripture/numerology.md) — 13:18 (primary passage)
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 13:14-18
+- [The Restrainer](../../last-things/the-restrainer.md) — 13:7
 <!-- commentary-index:auto-end -->
