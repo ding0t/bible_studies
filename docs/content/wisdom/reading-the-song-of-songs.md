@@ -8,7 +8,8 @@ primary_passage: "Song of Songs 8:6-7"
 bible_references: ["Song of Songs 2:10-13", "Song of Songs 2:15", "Song of Songs 8:6-7", "Matthew 24:20", "Matthew 24:32-33", "2 Corinthians 1:22", "Ephesians 5:32"]
 date_created: 2026-09-25
 date_modified: 2026-09-25
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Reading the Song of Songs

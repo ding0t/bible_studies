@@ -8,7 +8,8 @@ primary_passage: "Revelation 19:7-9; Revelation 21:9"
 bible_references: ["Revelation 19:7", "Revelation 21:2", "Revelation 21:9", "Revelation 22:17", "Revelation 18:23", "Revelation 20:6", "Revelation 22:3-5", "Hosea 2:16", "Isaiah 54:5", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "Ephesians 1:5", "Ephesians 1:11", "Ephesians 1:14", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "Ephesians 5:31", "1 Peter 1:4", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "1 Corinthians 6:17"]
 date_created: 2026-09-25
 date_modified: 2026-09-25
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Wife of the Lamb
