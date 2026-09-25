@@ -211,7 +211,10 @@ the word alone leaves the question of the church's distinctness from Israel open
 Israel's betrothal is not cancelled by it. "I will betroth you to me forever" is still future when
 Hosea writes it (2:19), and the prophets keep God's marriage to Israel in view to the end of the
 canon. The dispensational reading holds both at once: Israel remains the wife of the LORD, restored
-on His oath, and the church is the bride of Christ, betrothed in this present age. [Israel and the
+on His oath, and the church is the bride of Christ, betrothed in this present age. That is one
+Husband with two covenanted peoples: the Son is the LORD who married Israel, and the distinction lies
+in the two peoples and their two relationships to Him. Readers who hold one people of God read
+Revelation 21:9-14 as a single bride instead. [Israel and the
 Church](israel-and-the-church.md) argues that case at length, the covenant-theology alternative
 included.
 
@@ -282,7 +285,8 @@ ESV).
 
 Behind the transaction the Old Testament puts a person. The <span dir="rtl">גֹּאֵל</span> (*goel*,
 H1350) is the kinsman who holds both the right and the obligation to buy back what his relative has
-lost, and Isaiah gives God the title: "your Redeemer the Holy One of Israel" (Isaiah 54:5, ESV).
+lost. Isaiah gives God that title in the same verse that calls Him husband: "the Holy One of Israel
+is your Redeemer" (Isaiah 54:5, ESV).
 Ruth asks Boaz for it in as many words, and asks for the wedding gesture in the same breath:
 "Therefore spread the corner of your garment over your servant; for you are a near kinsman"
 (Ruth 3:9, WEB).
@@ -296,11 +300,20 @@ his inheritance" (Ruth 4:10, ESV). "I have bought" is <span dir="rtl">קָנִי
 from <span dir="rtl">קָנָה</span> (*qanah*, H7069), to acquire; and the sentence closes, "You are
 witnesses this day."
 
-So the redemption and the marriage are one witnessed transaction, and the woman it acquires is
-called a Moabite at the moment it happens — a foreigner, named as one, brought inside. The women of
-Bethlehem say what has actually been done: "Blessed be the LORD, who has not left you this day
-without a redeemer" (Ruth 4:14, ESV). Ruth shows God providing a redeemer for Naomi and Ruth. Christ
-gives His blood to redeem His bride: He is her kinsman, redeemer, and bridegroom.
+So Ruth joins two laws in one practice: the near kinsman's redemption of the land, and the levirate
+marriage that raises up the dead man's name. The *ESV Study Bible* calls them "two legal institutions
+combined in one practice (which the Law of Moses does not require)" (introduction to Ruth). The
+Hebrew of 4:5 shows the join. The written text reads <span dir="rtl">קניתי</span>, "I acquire", with
+Boaz speaking of himself; the text as read, and the ESV, have "you also acquire Ruth", said to the
+nearer redeemer. On either reading the field and the widow go to one man, at one gate, before the
+same witnesses, and the woman acquired is called a Moabite at the moment it happens — a foreigner,
+named as one, brought inside.
+
+The women of Bethlehem say what has been done: "Blessed be the LORD, who has not left you this day
+without a redeemer" (Ruth 4:14, ESV). The redeemer they mean is the child on Naomi's lap (4:16), "a restorer
+of life" (4:15, ESV), and his line runs to David (4:17). God keeps a redeemer in the family line until
+He sends His Son. Christ gives His blood to redeem His bride: He is her kinsman, redeemer, and
+bridegroom.
 
 ### The covenant, and the cup it was sealed in
 

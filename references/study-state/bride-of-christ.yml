@@ -1205,3 +1205,11 @@ simplify_2026-09-25:
     fails mkdocs build --strict.
   status: "Applied; not committed."
 
+
+fix_2026-09-25_from_sibling_reviews:
+  source: "review_2026-09-25 of kinsman-redeemer and wife-of-the-lamb (subagents), decisions by the author."
+  fixed:
+    - "Isaiah 54:5 misquote: 'your Redeemer the Holy One of Israel' is Isa 43:14 / 48:17 wording; now quotes 54:5 as the ESV has it and notes the verse pairs husband and redeemer."
+    - "Ruth 4: 'one witnessed transaction' replaced by the author's decision 'two laws, one practice' (ESV SB introduction to Ruth, verified), with the 4:5 Kethiv (qnyty, 'I acquire') / Qere and ESV ('you acquire') split disclosed; 4:14's redeemer identified as the child (4:15-17)."
+    - "Two wives: author's decision 'one Husband, two covenanted peoples' stated at the Israel/church paragraph, with the one-bride reading named."
+  verified: "ESV Isa 54:5, 43:14; Ruth 3:9, 4:5, 4:14-17; ESV SB Ruth introduction ('two legal institutions combined in one practice'); morphhb Kethiv and UHB Qere at Ruth 4:5; uW ULT note."
