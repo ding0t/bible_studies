@@ -8,7 +8,8 @@ primary_passage: "John 8:31-47"
 bible_references: ["John 18:37-38", "John 1:14", "John 1:17", "John 14:6", "John 16:13", "John 17:17", "Exodus 34:6", "Psalm 31:5", "Psalm 119:160", "Isaiah 65:16", "Revelation 3:14", "Hebrews 6:18", "Luke 1:4", "Luke 23:46", "1 John 2:21", "1 John 4:6", "1 John 5:20", "Genesis 3:1", "Genesis 3:4", "2 Corinthians 4:4", "2 Corinthians 11:3", "2 Corinthians 11:14", "Revelation 12:9", "2 Thessalonians 2:10-11", "Romans 1:25", "Romans 11:1", "Romans 11:29", "John 1:12", "2 Thessalonians 2:7", "Ephesians 4:14-15", "Ephesians 6:14", "1 Timothy 3:15", "2 Timothy 3:7"]
 date_created: 2026-09-25
 date_modified: 2026-09-25
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Know the Truth
