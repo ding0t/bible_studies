@@ -326,3 +326,15 @@ insight_2026-09-26:
     - "Personal exclusivity: This shows that God has placed salvation in one person, His Son Jesus. So your standing before God rests on one thing: whether you have come to the Father through Him."
     - "Christian section: Both names mark God's people by whom they belong to: \"the Way\" by the one who said He is the way, \"Christian\" by Christ's own title. So whatever you are called for following Jesus, you are called by His name, and you may glorify God in it (1 Peter 4:16)."
   verify: "study_structure --verify-against HEAD: added_unexpected holds only the shortened and insight lines above. validate: no budget warning; Check 22 (no Study outline) remains for the read pass. mkdocs build --strict: exit 0."
+
+read_2026-09-26:
+  sections: "28 -> 29 (added ## Study outline after Key Takeaways)"
+  median_section_words: "116 -> 116"
+  sections_over_400: "0 -> 0 (longest 362; no walls)"
+  opening: "Thesis already in place (In one sentence at ~110 words in); no placement change needed."
+  outline: "9 descriptive bullets, one line each, covering every ## section from scoping to Discussion questions; groups the ### subsections of Jesus-as-the-Way and the epistles section into their parent bullets. All 9 anchors confirmed present in the built HTML."
+  verify: "study_structure --verify-against HEAD: clean, removed [], added_allowed [], added_unexpected [] (no lead-in line written). validate: no warnings for the-way.md (Check 22 cleared). mkdocs build --strict: completed (only the at-home-with-the-lord.md no-git-log notice, another agent's untracked file)."
+  findings_for_author_or_review:
+    - "Lowercase he/him/his/himself for Jesus persists in untouched prose (e.g. Key Takeaways last bullet 'names him', 'he *is* the way'; John's Gospel setting paragraph; Hebrews 10 paragraph 'opens the road himself'; Discussion question 1). Needs a sentence edit, out of scope here."
+    - "Contrastive bullet leads survive in the Hebrew-word and epistles sections ('Two ways, not one.', 'A way that describes character, not just direction.'); style-guide 'define affirmatively' would reword them."
+    - "Trailing whitespace at the end of the first Then and now paragraph."

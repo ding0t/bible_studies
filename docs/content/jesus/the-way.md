@@ -10,6 +10,7 @@ date_created: 2026-08-02
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -85,6 +86,18 @@ name, they were known simply as those who belonged to His Way.
 So let me be one of them in more than name. Where I have settled for agreeing with the truth
 instead of walking in it, correct me, and let me walk the road your Son opened with the confidence
 His blood gives. In Jesus' name. Amen.
+
+## Study outline
+
+- [How this study is scoped](#before-christian-how-this-study-is-scoped). The figurative third of *hodos*'s uses, and the settings of John 14 and Acts.
+- [The Hebrew and Greek word](#the-hebrew-and-greek-word-derek-and-hodos). *Derek* and *hodos*, and three Old Testament uses of "way".
+- [Isaiah's forerunner text](#prepare-the-way-of-the-lord-isaiahs-forerunner-text). Isaiah 40:3 in all four Gospels, Isaiah 35:8's highway, and Zechariah's song.
+- [Jesus as the Way](#i-am-the-way-and-the-truth-and-the-life-jesus-as-the-way). John 14:6 in three parts: the way as destination, the curtain that barred access, and a personal exclusivity.
+- [Walking in the way](#walking-in-the-way-the-moral-life-idiom-across-the-epistles). The moral-life idiom in Acts and the epistles: a way taught or lost, corrupted, revealing character, and God's own ways.
+- [The name before "Christian"](#any-who-belonged-to-the-way-the-name-before-christian). The six uses in Acts, Qumran's parallel, the accusers' "sect", and where "Christian" came from.
+- [A translation note](#a-translation-note-isaiahs-way-in-capital-letters). Why Isaiah 35:8 has a capital "Way" in the ESV and WEB.
+- [Then and now](#then-and-now). What carries over from the first century and what stays there.
+- [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
 ## Before "Christian": how this study is scoped
 
