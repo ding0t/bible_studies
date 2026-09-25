@@ -1,0 +1,26 @@
+slug: "six-days-of-history"
+title: "Six Days of History"
+status: draft
+target_path: "docs/content/last-things/six-days-of-history.md"
+primary_passage: "Genesis 1:1-31"
+supporting_passages: ["Genesis 4-11", "Revelation 13:14-18", "Hosea 6:1-3"]
+point: >
+  Each working day of the creation week has a lexical counterpart in the millennium of history
+  the thousand-year-day reading assigns to it, ending in man's counterfeit image on day six.
+stages:
+  scoping:
+    done: false
+    notes: >
+      Forked verbatim from docs/content/last-things/day-is-a-thousand-years.md @ 7ddf284 during
+      the 2026-09-26 simplify pass: "Day one" through "Day six" subsections (the Day four hinge
+      paragraph on AM 4000 = 4 BC stayed in the parent), "Which translations keep the Hebrew's
+      articles", "Two days, then the third" (Hosea 6:1-3, Abaye) and its discussion question.
+      The anchor paragraph and millennium table are copied (also still in the parent). Verified
+      there (review_2026-08-09); do not redraft. The mapping of days onto specific millennia is
+      this site's construction -- keep that label (see parent open_questions). Hosea section is
+      the loosest fit; the author may prefer it elsewhere. Needs opening, Key Takeaways,
+      References (ESV SB on Hosea 6:2, NKJV CBSB on Genesis 4:26, Irenaeus AH 5.23.2 and 5.28.2,
+      translation comparison list incl. YLT-as-cross-check note) via develop-bible-study.
+open_questions:
+  - "On publish, link it from the plain-text pointer in day-is-a-thousand-years.md ('Six days of history')."
+last_updated: "2026-09-26"

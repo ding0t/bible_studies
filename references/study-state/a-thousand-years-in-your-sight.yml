@@ -1,0 +1,25 @@
+slug: "a-thousand-years-in-your-sight"
+title: "A Thousand Years in Your Sight"
+status: draft
+target_path: "docs/content/last-things/a-thousand-years-in-your-sight.md"
+primary_passage: "Psalm 90:1-4"
+supporting_passages: ["Psalm 89:46-52", "Psalm 92:1-14", "2 Peter 3:4-8"]
+point: >
+  Psalms 90 and 92 answer the complaint that God's sworn promise has failed with God's own duration
+  and a Sabbath song of final judgment -- the move Peter repeats in 2 Peter 3.
+stages:
+  scoping:
+    done: false
+    notes: >
+      Forked verbatim from docs/content/last-things/day-is-a-thousand-years.md @ 7ddf284 during
+      the 2026-09-26 simplify pass: sections "Psalm 90's own vocabulary", "The psalm's own word for
+      eternity", "The historical chain", "The Psalter's sequence and Peter's answer" (with the
+      mermaid diagram) and "The psalm for the seventh day". Quotations and word studies were
+      verified there (see day-is-a-thousand-years.yml review_2026-08-09); do not redraft them.
+      Needs: an opening with an "In one sentence:" thesis, Key Takeaways, References (NIV Biblical
+      Theology SB, NIV Cultural Backgrounds SB, MACULA, TWOT root 1631a, b. Sanhedrin 97a,
+      b. Rosh HaShanah 31a) via develop-bible-study; provenance fields via
+      refresh_frontmatter_provenance.py before commit.
+open_questions:
+  - "On publish, link it from the plain-text pointer in day-is-a-thousand-years.md ('Where Peter got it')."
+last_updated: "2026-09-26"

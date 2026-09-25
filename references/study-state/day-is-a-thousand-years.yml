@@ -218,6 +218,11 @@ open_questions:
     Did not chase down Genesis Rabbah on day two's missing "it was good" (division/dispute).
     The textual observation is verified from WLC directly; only the midrashic comment is
     unverified, so the draft states the observation and omits the midrash.
+  - >
+    PENDING LINKS (simplify 2026-09-26): two plain-text pointers await links once their forks are
+    published -- "A Thousand Years in Your Sight" (last-things/a-thousand-years-in-your-sight.md,
+    under "Where Peter got it") and "Six Days of History" (last-things/six-days-of-history.md,
+    in "Six days of history"). A published page linking a draft fails mkdocs --strict.
 
 resources_consulted:
   - {type: other, title: "bible-text.db (MACULA Greek SBLGNT, MACULA Hebrew WLC, morphhb, Brenton LXX, WEB/ASV/BSB/Rotherham/YLT)", author: "this repo", note: "All Greek/Hebrew morphology, Strong's ids, LXX readings and English comparisons above re-derived here, not recalled."}
@@ -562,3 +567,129 @@ review_2026-08-09:
     All ten quotations inside the diagram verified verbatim against esv-study-bible, including
     Psalm 93:1 "The LORD reigns". bible_references extended with Psalm 89:46-52 and Psalm 93:1.
     npm run validate clean; mkdocs build --strict passes.
+
+simplify_2026-09-26:
+  words_before: 7144   # Check 23 count, References excluded
+  words_after: 3997
+  budget: 4000          # default; word_budget not set
+  point: >
+    God measured history before He set it running -- six thousand-year days of labour and a seventh
+    of rest, which Revelation numbers as Christ's thousand-year reign -- so 2 Peter 3:8-9 answers
+    the scoffers' "where is the promise?" with a week already fixed and a patience that waits for
+    repentance. (Agrees with the file's own thesis in substance; the old wording was contrastive and
+    about the readers' arithmetic, rewritten in the insight pass.)
+  map_summary: >
+    serves: The verse in its own argument; Where Peter got it + The two changes; What Peter's
+    readers already believed (Jubilees, Talmud, Temple, 2 Enoch, commentary); The week's own
+    grammar; The church took it up; Six days of history (intro, table, hinge) + Day seven + the
+    eighth; The last days; Why nobody has got the date right; The Sabbath's two layers.
+    tangents: Psalm 90's vocabulary/olam/historical chain/Psalter sequence + diagram; Psalm 92
+    section; Days one-six day-by-day readings; translation-articles table; Hosea 6:2 (Abaye).
+    duplicates: eighth day (2 Enoch section, Barnabas paragraph, "And the eighth") -> kept in
+    "And the eighth"; Genesis article marking (week's grammar and "last two of the six days") ->
+    kept in week's grammar; Hippolytus (church bullet and date table) -> kept in date table;
+    Justin's Adam argument duplicated Jubilees -> kept Jubilees.
+  forks:
+    - path: docs/content/last-things/a-thousand-years-in-your-sight.md
+      point: >
+        Psalms 90 and 92 answer the complaint that God's sworn promise has failed with God's own
+        duration and a Sabbath song of final judgment -- the move Peter repeats in 2 Peter 3.
+      moved_verbatim: "Psalm 90's own vocabulary; The psalm's own word for eternity; The historical chain; The Psalter's sequence and Peter's answer (with mermaid diagram); The psalm for the seventh day (Psalm 92). Source: day-is-a-thousand-years.md @ 7ddf284."
+    - path: docs/content/last-things/six-days-of-history.md
+      point: >
+        Each working day of the creation week has a lexical counterpart in the millennium of
+        history the thousand-year-day reading assigns to it, ending in man's counterfeit image on
+        day six.
+      moved_verbatim: "Day one to Day six subsections; Which translations keep the Hebrew's articles; Two days, then the third (Hosea 6:1-3); discussion question 4 (Hosea). Anchor paragraph and table copied (also kept in parent). Source: day-is-a-thousand-years.md @ 7ddf284."
+  deleted_outright:
+    - "Genesis 2:2 MT/LXX textual note (week's grammar)"
+    - "Barnabas 'eighth day' paragraph (fact kept in 'And the eighth')"
+    - "Church bullets: Justin Martyr, Hippolytus (Rev 17:10), Cyprian, Methodius"
+    - "2 Enoch: 'same instinct' sentence (kept in 'And the eighth') and Zadok Calendar pointer (still in References)"
+    - "NIVBTSB sabbatismos sentence in Day seven (word study pointer to day-is-near.md kept)"
+    - "Hippolytus cubits paragraph (Hippolytus stays in the date table)"
+    - "'last two of the six days' second paragraph (article marking, already in week's grammar)"
+    - "Jubilees closing restatement; 'There is one fact the scoffers refuse...'; 'The Hebrew singles out the last two days...'; 'That opposition is what sets the terms of chapter 3.'; 'Scripture anticipates all of this.'; 'Put that next to the week.'; Rabbi Zeira clause"
+    - "References: YLT/ASV/BSB/NASB/Rotherham comparison bullet, Justin, Cyprian, Methodius, NIVBTSB entry, Irenaeus 5.23.2/5.28.2, ESVSB Hosea note, TWOT 1631a, MT/LXX divergence; frontmatter bible_references for forked-only passages"
+  shortened:
+    - old: "The type is not the weekly ritual only — it is the *shape*: labour under a curse..."
+      new: "The type is the *shape*: labour under a curse..."
+    - old: "the incarnation is what marks the beginning of the last days, not a sign appearing within them."
+      new: "the incarnation marks the beginning of the last days."
+    - old: "Its question is not when he comes, but how he finds you."
+      new: "Its question is how He finds you."
+    - old: "A long wait does not only test patience; it erodes expectation."
+      new: "A long wait erodes expectation."
+    - old: "Peter wrote one sentence about time that his readers would have recognised instantly and that most readers since have found puzzling. The puzzle is not in the sentence. It is that we have lost the frame he was writing into — a frame in which..."
+      new: "Peter wrote one sentence about time that his readers would have recognised instantly. Most readers since have lost the frame he was writing into — a frame in which..."
+    - old: "2 Peter is a letter, and it should be read the way a letter is read — as one side of an argument with people whose position we only see through the author's reply."
+      new: "2 Peter is one side of an argument, and we see the other side only through Peter's reply."
+    - old: "The ESV Study Bible places it around AD 64-67, from Rome, and identifies the likeliest recipients as the churches of Asia Minor that received 1 Peter — while noting that neither the recipients nor the identity of the false teachers behind chapter 2 can be established with certainty."
+      new: "The ESV Study Bible places it around AD 64-67, from Rome, probably to the churches of Asia Minor that received 1 Peter, while noting that neither the recipients nor the false teachers of chapter 2 can be identified with certainty."
+    - old: "Their premise — ... — is not an observation, it is an assumption, and the Flood falsifies it."
+      new: "Their premise — ... — is an assumption, and the Flood falsifies it."
+    - old: "Peter says that, and then says a short time can be a long one — which is no longer a statement about God's patience. It is a statement about a correspondence between two units."
+      new: "Peter says that, and then says a short time can be a long one, which makes it a correspondence between two units."
+    - old: "The seven millennia are treated as a closed system; what follows is not an eighth millennium but the end of counting."
+      new: "The seven millennia are treated as a closed system; what follows is the end of counting."
+    - old: "Standard commentary says the same. The NIV Cultural Backgrounds Study Bible..."
+      new: "The NIV Cultural Backgrounds Study Bible..."
+    - old: "Genesis 1-2 is narrative, and it is narrative built out of repetition — the same formulas recurring day after day. With prose that patterned, the places the pattern *breaks* are where the author is pointing, and three of them shape how the week is meant to be read."
+      new: "Genesis 1-2 is narrative built out of repetition, the same formulas recurring day after day. Where a pattern that strong *breaks*, the author is pointing, and three breaks shape how the week is meant to be read."
+    - old: "A day, not a place and not a person, is the first holy thing in Scripture."
+      new: "A day is the first holy thing in Scripture."
+    - old: "Matching each individual creation day to the corresponding millennium of history is a further step. The day-by-day scheme itself has ancient precedent (the Temple's psalm cycle above assigns each day a theme, and the seventh an eschatological one); mapping those themes onto specific millennia is this site's construction, built on lexical links that can be checked and dates that can be computed."
+      new: "Matching each creation day to a millennium of history is a further step: the day-by-day scheme has ancient precedent in the Temple's psalm cycle above, and mapping it onto specific millennia is this site's construction."
+    - old: "The NIV Biblical Theology Study Bible notes that the word carries celebration rather than mere cessation, and that the association of 'rest' with God's renewal ... listing 1 Enoch, Jubilees 1:29 and 4:26, 4 Ezra and Barnabas 15 among the parallels."
+      new: "(first shortened, then deleted -- see deleted_outright)"
+    - old: "Hebrews leaves the rest open and does not number it. Revelation numbers it."
+      new: "Hebrews leaves the rest open. Revelation numbers it."
+    - old: "Revelation is apocalyptic, and the discipline that genre asks for is to look for the Old Testament imagery before reaching for a modern referent — which is why the thrones of 20:4 ... Chapter 19 has just described Christ returning ... seized and confined rather than destroyed, and closes with him joining the other two there (20:10) before the great white throne (20:11-15)."
+      new: "Revelation is apocalyptic, and that genre asks the reader to look for the Old Testament imagery first. So the thrones of 20:4 are read here against Daniel 7:9, and the bound dragon against Genesis 3's serpent, named 'that ancient serpent' in the verse itself. In John's sequence, Christ returns on a white horse (19:11) and the beast and the false prophet are thrown into the lake of fire (19:20). Chapter 20 opens with the dragon, the third of them, seized and confined, and closes with him joining the other two (20:10) before the great white throne (20:11-15)."
+    - old: "The phrase the New Testament uses for the present age is not a vague gesture at the future. It is a position in a sequence."
+      new: "The phrase the New Testament uses for the present age names a position in a sequence."
+    - old: "'at the last of these days.' Not *before* the last days, not *approaching* them. The incarnation happens in them."
+      new: "'at the last of these days.' The incarnation happens in them."
+    - old: "...which is why the apostles could say without exaggeration that they were living in them and why the phrase has stayed accurate for two thousand years without ever becoming false."
+      new: "...which is why the apostles could say they were living in them, and why the phrase has stayed accurate for two thousand years."
+    - old: "The modern spread is not much better founded, because it depends on..."
+      new: "The modern spread is not well founded, because it depends on..."
+    - old: "A framework whose start date has a six-hundred-year uncertainty cannot produce an end date good to the year, and there is a further problem underneath that: nothing in Scripture says the six days began at Adam's creation rather than at some other point, or that the transitions are sharp."
+      new: "A start date uncertain by six hundred years cannot produce an end date good to the year. And nothing in Scripture says the six days began at Adam's creation, or that the transitions are sharp."
+    - old: "(b. Sanhedrin 97b) — and a page earlier, Rabbi Zeira asking Sages who were calculating not to delay the Messiah's coming by doing so."
+      new: "(b. Sanhedrin 97b)."
+    - old: "The two things fit together rather than cancelling."
+      new: "The two things fit together."
+    - old: "One layer is covenant-specific. 'You are to speak to the people of Israel,' God tells Moses, 'for this is a sign between me and you throughout your generations' (Exodus 31:13), repeated at 31:17 as 'a sign forever between me and the people of Israel.' Ezekiel says the same: 'I gave them my Sabbaths, as a sign between me and them' (20:12). A sign between two named parties is not a general ordinance, and the New Testament treats it accordingly — 'let no one pass judgment on you … with regard to a festival or a new moon or a Sabbath' (Colossians 2:16), and 'one person esteems one day as better than another...' (Romans 14:5)."
+      new: "One layer is covenant-specific: 'a sign forever between me and the people of Israel' (Exodus 31:17; also 31:13 and Ezekiel 20:12). A sign between two named parties is not a general ordinance, and the New Testament treats it accordingly — 'let no one pass judgment on you … with regard to a festival or a new moon or a Sabbath' (Colossians 2:16; compare Romans 14:5)."
+      reviewer_note: "Exodus 31:13, Ezekiel 20:12 and Romans 14:5 are now cited without their quotations; check the 'compare' framing of Romans 14:5 reads fairly."
+  pointer_lines:
+    - "Psalm 90's own vocabulary, its place in the Psalter, and the Sabbath psalm (Psalm 92) are traced in a separate study, *A Thousand Years in Your Sight* (in preparation)."
+    - "The readings of days one to six are worked through in a separate study, *Six Days of History* (in preparation)."
+  outline: "Not added -- no room in budget; Check 22 warning remains for the read-bible-study pass."
+  verify: "study_structure --verify-against HEAD: added_unexpected holds only shortened sentences, pointer lines, insight sentences and reflowed References lines. validate: only Check 22 on this file. mkdocs build --strict: passes."
+
+insight_2026-09-26:
+  thesis:
+    old: "2 Peter 3:8 is not a statement about God's patience but a conversion table that his readers already had — the six days of Genesis 1 were understood as six thousand years of history and the seventh day as the millennium still to come."
+    new: "God measured history before He set it running — six thousand-year days of labour and a seventh of rest, which Revelation numbers as the thousand-year reign of Jesus — so the delay the scoffers mock is His patience inside a week He has already fixed, and you can wait for His Son with confidence."
+  added_sentences:
+    - section: "The verse, in its own argument"
+      text: "This shows that God's word acts across whole ages. It made the world, judged it by water, and now keeps it for fire (3:5-7). A long wait is no evidence against a God who has already acted once."
+    - section: "The two changes Peter made to the quotation"
+      text: "Readers divide over whether verse 8 is a measure or a statement of scale, and verse 9 stands on either reading: the Lord \"is patient toward you, not wishing that any should perish.\" The wait shows you God's patience at work inside a span He has measured. Every year of it is time He gives for repentance."
+    - section: "The week's own grammar"
+      text: "This shows that God made creation to end in rest with Him. The first thing He made holy was the day He rested, and Hebrews says a Sabbath rest \"remains\" for His people (4:9). The week you live in is moving toward a day He has already blessed."
+    - section: "Day seven — the rest that is numbered"
+      text: "Amillennial readers take the thousand years as the present church age; the features above are this study's case against that. On the reading argued here, this shows that God will give His Son Jesus the kingdom the whole week has been moving toward. Jesus reigns, and those who belong to Him reign with Him (20:4, 6). If you are His, \"blessed and holy\" (20:6) is spoken over you."
+    - section: "The last days are the last of the days"
+      text: "This shows that God has already begun the end. In sending Jesus He opened the last days, and you are living in them."
+    - section: "Scripture's own refusal of a date"
+      text: "This shows that God keeps the date in His own authority (Acts 1:7) and gives you what you need to be ready: the shape of history, its end, and a call to holiness while you wait."
+    - section: "The Sabbath's two layers"
+      text: "God has set His rest as the destination of history, and Hebrews says it is entered by faith in Jesus (4:3, 10). The One who fixed the week will finish it, so you can rest in Him now."
+    - section: "Prayer"
+      text: "\"your Son\" -> \"your Son Jesus\"; closing \"Amen.\" -> \"In Jesus' name. Amen.\""
+  note: >
+    Existing prose still uses lowercase he/him/his for God and Christ throughout; only added and
+    shortened sentences were capitalised. A corpus-style capitalisation pass is left to the author.
