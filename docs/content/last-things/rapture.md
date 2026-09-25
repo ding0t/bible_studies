@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Thessalonians 4:15-18"
 bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "1 Corinthians 11:25", "1 Corinthians 6:19-20", "Ephesians 5:25-27", "1 Corinthians 1:2", "1 Corinthians 6:11", "Hebrews 10:10", "Hebrews 13:12", "Ephesians 2:10", "Genesis 5:21-24", "Hebrews 11:5", "Jude 1:14-15", "2 Kings 2:11", "Genesis 7:1", "Genesis 7:16", "Genesis 19:15-16", "Genesis 19:24", "2 Peter 2:5-9", "Luke 17:28-30", "Revelation 7:9-14", "1 Samuel 4:1", "2 Samuel 6:20", "Jeremiah 41:6", "Matthew 25:10", "Colossians 3:4", "Revelation 19:14"]
 date_created: 2024-04-23
-date_modified: 2026-09-20
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -333,43 +333,22 @@ The phrase recurs at multiple points in Scripture, not only at the very end. Joe
 
 ### What verse 7 actually says about the going
 
-"Until he is out of the way" is doing more work in English than the Greek does. The clause is
-**ἕως ἐκ μέσου γένηται** (*heōs ek mesou genētai*, "until out of [the] midst he might come to be").
-Three things follow from checking it word by word against the alignment rather than reading the
-translation:
-
-- The verb is **γίνομαι** (*ginomai*, Strong's G1096) — "become, come to be" — not a verb of
-  removal. Paul does not use αἴρω ("take away"), ἀναιρέω, or a passive of any word meaning
-  *remove*. **γένηται** is aorist middle subjunctive, third person singular.
-- There is **no expressed subject**. The "he" of the English is supplied from verse 7's masculine
-  participle ὁ κατέχων, which is a sound inference, but it is an inference.
-- There is **no agent**. Nothing in the clause says *who* does the removing, because grammatically
-  nothing is being done to anyone — the construction is intransitive.
-
-So the sentence says the restrainer *comes to be out of the midst*, and stops there. That is
-compatible with the restrainer being taken away, and it is equally compatible with the restrainer
-simply ceasing to stand in the middle. The English word "removed" — including in this section's own
-heading — imports a passive and an agent the Greek withholds.
-
-This does not overturn the reading below; a restrainer who "comes to be out of the midst" has still
-stopped restraining, which is the point the argument needs. But the *manner* of the going is not
-stated in this verse, and an argument that leans on the restrainer being actively removed by God at
-a particular moment is leaning on the translation rather than on Paul.
+"Until he is out of the way" is **ἕως ἐκ μέσου γένηται** (*heōs ek mesou genētai*), "until he comes
+to be out of the midst." The verb is **γίνομαι** (*ginomai*), "become, come to be," in the aorist
+middle subjunctive, and the clause names no one who removes him: the construction is intransitive.
+The restrainer comes to be out of the midst. [The Restrainer](the-restrainer.md#out-of-the-midst)
+follows Paul's phrase through his letters.
 
 ### Who is the restrainer?
 
-Identifying the restrainer in verses 6-7 is an open question among serious interpreters. Proposed answers include the Roman Empire and its rule of law, human government generally, the ongoing proclamation of the gospel, the archangel Michael (drawing on Daniel 10-12's own restraining angelic conflict), and the Holy Spirit working in and through the Church.
-
-The last of these is the most compelling reading, and not only by elimination. A grammatical detail supports it. Queried against the Greek text (SBLGNT), verse 6's participle is **τὸ κατέχον** — neuter, "that which restrains" — while verse 7 switches to **ὁ κατέχων** — masculine, "the one restraining." Paul moves from an impersonal, general description to a personal one within two verses.
-
-That shift is what we would expect if the restrainer is the Spirit. **πνεῦμα** ("spirit") is itself
-a grammatically neuter noun. But the New Testament consistently refers back to the Spirit with
-personal, masculine pronouns when his agency and personhood are in view (John 14:26; 16:13-14),
-rather than the grammatically "correct" neuter. That is the pattern this verse shows.
-
-On that reading, the restrainer's going ties directly to the Church's own removal at the rapture. Not the Spirit ceasing to exist or act in the world: people still come to saving faith during the tribulation, as the great multitude "washed... in the blood of the Lamb" at Revelation 7:9-14 implies. What ends is His restraining ministry *through the Church*, when the Church itself is taken. This would be the same event as 1 Thessalonians 4:17, seen from its consequence instead of its promise.
-
-The grammatical shift is real evidence, not an inference from a doctrine assumed in advance. It is also not the only reading serious interpreters hold.
+This site reads the restrainer as the Holy Spirit dwelling in the church, the body of believers.
+Paul's neuter "what is restraining" (**τὸ κατέχον**, 2:6) and masculine "he who restrains" (**ὁ
+κατέχων**, 2:7) fit the Spirit, who in John's Gospel carries a neuter name and a masculine title (John
+14:26; 16:13). When the church is caught up (1 Thessalonians 4:17), His restraining presence in her
+comes to be out of the midst, and the lawless one is revealed. The Spirit still saves in the
+tribulation (Revelation 7:9-14); what ends is His restraining presence in the church. Interpreters
+divide over the identification — Rome, human government, the gospel and the archangel Michael have
+all been proposed — and [The Restrainer](the-restrainer.md) sets out the case and answers each.
 
 ### What Victorinus actually says
 
@@ -527,8 +506,8 @@ These good works aren't confined to this present life — the reward evaluated a
 The tribulation is a specific seven-year period. It is Daniel's seventieth "week" of years ([Daniel
 9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27); see [The Zadok Calendar](../feasts/zadok-
 calendar.md) for how this site reckons that kind of chronology). During it God's judgment falls on a
-world that has rejected Him. It culminates in the man of lawlessness taking his seat in the temple
-(2 Thessalonians 2:4), and in the abomination of desolation at its midpoint.
+world that has rejected Him. At its midpoint the man of lawlessness takes his seat in the temple (2 Thessalonians 2:4), the
+abomination of desolation (Matthew 24:15).
 
 Scripture gives two direct reasons to expect the Church to be removed before this period, not merely protected through it.
 
@@ -573,7 +552,7 @@ returns with him.
 flowchart TD
     A["The Church age<br/>continues today"] -->|"no sign to wait on"| B["The rapture<br/>the whole Church<br/>is caught up<br/>1 Thess 4:16-17<br/>1 Cor 15:51-53"]
     B -->|"on earth,<br/>the Church removed"| C["Tribulation begins<br/>seven years<br/>covenant confirmed<br/>Dan 9:27"]
-    C --> D["Midpoint<br/>abomination of desolation<br/>Matt 24:15<br/>man of lawlessness revealed<br/>2 Thess 2:3-4"]
+    C --> D["Midpoint<br/>abomination of desolation<br/>Matt 24:15<br/>lawless one seated<br/>in the temple<br/>2 Thess 2:4"]
     D -->|"after the tribulation<br/>Matt 24:29"| E["The second coming<br/>every eye sees him<br/>Rev 19:11-16; Matt 24:30"]
     E --> F["The millennium<br/>Christ reigns, 1000 years<br/>Rev 20:1-6"]
     F --> G["Great White Throne<br/>the unsaved judged<br/>Rev 20:11-15"]
