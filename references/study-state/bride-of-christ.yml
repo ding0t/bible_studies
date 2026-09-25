@@ -23,6 +23,16 @@ supporting_passages:
   - "Song of Songs 2:10-13; 8:6-7"
 genre: [epistle, apocalyptic, gospel, wisdom-poetry]
 
+thesis: >-
+  Scripture calls the church Christ's betrothed bride; four parts of the betrothal are already done
+  to her, and the remaining four set her in joyful hope.
+word_budget: 7000
+word_budget_reason: >-
+  Set 2026-09-25 by the author on simplify-bible-study's recommendation. The study is its
+  eight-component spine, and each component needs its evidence; after both forks and every merge
+  and cut it reads 6,755 words (References excluded). Read it a component or two per sitting, using
+  the Study outline.
+
 stages:
   scoping:
     done: true
@@ -1140,3 +1150,58 @@ review_2026-09-23_readability_language:
     - "Recast repeated 'This shows that God...' declarations as direct claims tied to their supporting passages."
   verifies_nothing: "Readability edits only; no quotation, citation, word study, or doctrinal claim was re-verified."
   status: "Applied; not committed by this pass."
+
+simplify_2026-09-25:
+  skill: simplify-bible-study
+  baseline: "Working tree on 2026-09-25, including the uncommitted review_2026-09-23 edits (not HEAD)."
+  thesis_check: "The agent's cold one-sentence thesis matched the file's In one sentence line; no stop."
+  words: "11,263 -> 6,755 by Check 23's count (References excluded after this pass; 7,000 budget set)."
+  forks:
+    - path: docs/content/israel-and-church/wife-of-the-lamb.md
+      point: >-
+        At the wedding Scripture starts calling the bride His wife, and the marriage gives her His
+        rest, His reign, His inheritance and His family.
+      moved: >-
+        "The bride is called a wife", "Revelation 19:7 prints Bride", the reign paragraph from
+        "Where the thousand years falls", all of "What the Marriage Produces", questions 10-11,
+        and the MACULA / unfoldingWord / LSB / Day-Is-a-Thousand-Years reference entries.
+    - path: docs/content/wisdom/reading-the-song-of-songs.md
+      point: >-
+        The bridal reading of the Song is ancient; read allegorically line by line it yields
+        whatever the reader brings; its one theological anchor is the flame of Yah at 8:6.
+      moved: >-
+        The whole Song of Songs annex, the Song 8:6 seal paragraph from component 3, question 5,
+        and the Yadayim / Eusebius / study-Bible / OpenBible reference entries.
+  merged_into_siblings: >-
+    Passover-cup identification (component 1) cut to last-supper-four-cups.md's link in component
+    7; the shabua / Daniel 9:27 paragraph cut (rapture.md carries it); the apantesis dispute cut to
+    one sentence and the rapture.md link.
+  merged_within: >-
+    mone at John 14:2/14:23 kept in component 8 only; Revelation 19:7-8 readiness kept in component
+    4 and Be Transformed; 2 Corinthians 11:2 third quotation cut; the father's-house custom kept in
+    component 8's first section; Revelation 21:9 no longer quoted twice in Types & Prophecy;
+    Matthew 26:29 kept in Key Takeaways and component 7.
+  cut_tangents: >-
+    chuppah word study; Ephesians 2:10 "prepared beforehand" paragraph; the Cultural Backgrounds
+    Old Testament list; the groom's-arrival timing paragraph (duplicated the table row).
+  component_8_order: >-
+    The closing paragraph "God's purpose is to live among His people..." moved to the end of
+    "What married life in that house is", so the teaching ends on "so that you may dwell with Him,
+    and He with you."
+  wrong_verse_annex_moved_here: |
+    Each of these is a near miss, and each has a better verse a line or two away.
+    - The purchase is 1 Peter 1:18-19, not 1:17. Verse 17 tells you to "conduct yourselves with
+      fear throughout the time of your exile" (ESV). The ransom language starts in the next sentence.
+    - Ephesians 1:5 is adoption, and adoption is a different picture. "He predestined us for
+      adoption to himself as sons" (ESV) is huiothesia, the legal placing of a son. It is true of
+      you and it is not the betrothal; the betrothal verb in Paul is at 2 Corinthians 11:2.
+    - Ephesians 1:6 is praise, not the feast. "To the praise of his glorious grace" is what the
+      passage is for. The wedding feast is gamos, and in Revelation it is at 19:7 and 19:9.
+  shortened_sentences: "Listed old-beside-new in the session report; verified by study_structure._prose_diff against the baseline."
+  pending_links: >-
+    When wife-of-the-lamb.md is published, link it from the end of component 8 and from "Where
+    the thousand years falls"; when reading-the-song-of-songs.md is published, link it from the
+    seal material in component 3. Both left out now because a published page linking to a draft
+    fails mkdocs build --strict.
+  status: "Applied; not committed."
+
