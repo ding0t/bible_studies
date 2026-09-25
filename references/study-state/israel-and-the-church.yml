@@ -185,6 +185,10 @@ stages:
 
 open_questions:
   - >
+    PENDING LINK (simplify 2026-09-26): the paragraph at the end of "What Romans 11 says is still
+    ahead for Israel" names the fork *Israel's Regathering and Refining* in plain text. When
+    israel-and-church/israels-regathering-and-refining.md is published, turn it into a link.
+  - >
     1948 is deliberately NOT claimed as dated fulfilment. What the texts require is a regathering
     to the land preceding national repentance — Ezekiel 36:24-26 puts gathering (v. 24) before
     cleansing and the new heart (vv. 25-26), which is what makes a return in unbelief coherent
@@ -444,3 +448,82 @@ review_2026-08-24:
       raised to the author as a directory-wide decision rather than a per-file fix.
 
 last_updated: "2026-08-24"
+
+simplify_2026-09-26:
+  words_before: 5202   # Check 23 count, References excluded
+  words_after: 3980    # after simplify AND the insight additions below
+  budget: 4000
+  point: >
+    God keeps Israel and the Church as two peoples: the Church a new body created at the cross out
+    of believing Jews and Gentiles, Israel a nation still under His irrevocable calling, hardened in
+    part and to be saved at the end of the age -- so the Gentile believer is to be humble and to pray.
+  forks:
+    - path: docs/content/israel-and-church/israels-regathering-and-refining.md
+      point: >
+        The prophets gather Israel to the land before they cleanse her, refine a remnant through a
+        time of distress for Jacob, and bring the nation to mourn for the one they pierced.
+      moved_verbatim: >
+        "The prophets, and the order they give", "The tribulation, and what it is for", "About 1948",
+        the Romans 11:26 quotation note (Isaiah 59:20 / LXX Psalm 14:7), and discussion question 3
+        (Ezekiel 36). ~1,115 words.
+  merges_and_deletions:
+    - "Why Romans has three chapters: deleted the closing paragraph restating the Gentile-readership point (made in the paragraph before it, and at the olive tree)."
+    - "Mystery: deleted 'Not hinted at and finally understood — withheld, and then said out loud.' (restates 'Hidden, then disclosed.')"
+    - "Case for the Church as Israel: deleted 'None of that is in dispute.'"
+    - "Revelation 7: deleted 'The structure of the vision is doing work here, which is why the seam inside it matters.'"
+    - "Commentaries: deleted the Galatians 6:16 bullet (it only pointed back to the Galatians section)."
+    - "References: NKJV Cultural Backgrounds SB entry and the NIV CBSB 'Psalm 14:7 blending' clause removed with the moved note."
+    - "Frontmatter bible_references: removed the 14 passages now cited only in the fork (Ps 14:7, Isa 11:11, Acts 15:13-18, Acts 1:6-7, Ezek 36:22-28, 37:15-22, 20:34-38, Jer 30:7, Zech 13:8-9, Hos 1:9-11, 5:15, Rom 9:25-26, Deut 4:30-31, Dan 12:1). commentary_index.py NOT re-run (brief forbids touching other files) -- re-run it before committing."
+  shortened:
+    - old: "Paul states the point of the image outright, and it is pastoral rather than technical. Verse 18 is a command — μὴ κατακαυχῶ, a present imperative with a negative, **stop boasting over the branches** — not a definition of what the Church is."
+      new: "Paul states the point of the image outright. Verse 18 is a command — μὴ κατακαυχῶ, a present imperative with a negative, **stop boasting over the branches**."
+    - old: "It is the word from which *dispensation* comes, and it is where the framework this site works within gets its name: an age with its own terms, opened at the cross, disclosed to the apostles, and not identical to the age before it or the one after."
+      new: "It is the word from which *dispensation* comes, and it gives the framework this site works within its name: an age with its own terms, opened at the cross and disclosed to the apostles."
+    - old: "So the count is not sixty-seven knock-down cases and one awkward one. It is a word Scripture uses of a nation and its remnant, never once plainly of the two peoples joined."
+      new: "Scripture uses the word of a nation and its remnant, never once plainly of the two peoples joined."
+    - old: "An English reader of the site's default translation cannot see the phrase the debate is conducted over, which is a reason to keep a more literal version open at this verse."
+      new: "A reader of the ESV cannot see the phrase the debate turns on, so keep a more literal version open at this verse."
+    - old: "One further check on that phrase, which cuts the way this study argues: Paul never supplies the counterpart."
+      new: "Paul never supplies the counterpart."
+    - old: "That reading is available on the Greek. What it cannot do is settle the question, since a single ambiguous conjunction is thin ground for overturning every other occurrence around it."
+      new: "That reading is available on the Greek, but a single ambiguous conjunction is thin ground for overturning every other occurrence around it."
+    - old: "Israel's vocation language is extended to Gentile believers — which the distinction has no need to deny."
+      new: "Israel's vocation language is extended to Gentile believers."
+    - old: "They divide by passage rather than by camp."
+      new: "They divide by passage."
+    - old: "Some of what Romans 9-11 addresses belongs to the first century and does not transfer. The specific situation — Jewish believers returning to congregations that had spent five years without them, and the friction that caused over food, days and seating — is Rome in the 50s. Nobody today is working out how to seat a returning exile from the Claudian edict."
+      new: "Some of what Romans 9-11 addresses belongs to Rome in the 50s: Jewish believers returning to congregations that had spent five years without them, and the friction that caused over food, days and seating."
+    - old: "\"The gifts and the calling of God are irrevocable\" is not advice about first-century manners. It is a statement about God's character, and it is the reason the warning against arrogance still lands."
+      new: "\"The gifts and the calling of God are irrevocable\" is a statement about God's character, and it is the reason the warning against arrogance still lands."
+    - old: "**Israel's national turning is still ahead**, and the distress that precedes it is designed to produce it, not to punish without purpose."
+      new: "**Israel's national turning is still ahead.**"
+      why: "the distress clause's support moved to the fork"
+  pointer_line: "What the prophets say of Israel's regathering, the time of distress for Jacob, and 1948 is being developed as a study of its own, *Israel's Regathering and Refining*."
+  study_outline: "not added -- Check 22 still warns; left for the read pass"
+  verify: "study_structure.py --verify-against HEAD: added_unexpected holds only the shortened sentences, the pointer and the insight lines below (reflowed within their own paragraphs). npm run validate: only Check 22 on this file. mkdocs build --strict clean."
+
+insight_2026-09-26:
+  added_or_rewritten_verbatim:
+    - where: >-
+        opening bold thesis (rewritten; was "Scripture keeps Israel and the Church as two, and it keeps promises to both.")
+      text: "**God keeps Israel and the Church as two peoples, and He keeps His promises to both.**"
+    - where: >-
+        end of "Paul's question, and his answer" (from Romans 11:5 "a remnant, chosen by grace")
+      text: "This is election by grace. God keeps a people for Himself in every generation, and He is keeping one in Israel now."
+    - where: >-
+        end of "What Romans 11 says is still ahead for Israel" (from ἀμεταμέλητα, 11:29)
+      text: "So you can rest on the same character: the God who will not revoke Israel's calling will not revoke yours."
+    - where: >-
+        "Jews, Greeks, and the church of God", after the κτίζω/καινός paragraph (from Ephesians 2:14-16 as quoted)
+      text: "Jesus Himself is that peace (2:14). In His body on the cross He reconciled Jew and Gentile to God together, and if you believe, you belong to the new people He made there."
+    - where: >-
+        close of "How Israel and the Church relate today" (rewritten; was "A Christian who holds this rightly ends up neither despising Israel nor envying her — but grateful, because the same faithfulness that will not let go of a nation that has spent centuries saying no is the faithfulness holding on to him.")
+      text: "Hold this rightly and you end up grateful: the same faithfulness that will not let go of a nation that has spent centuries saying no is holding on to you."
+    - where: >-
+        Prayer close (was "...and knows him. Amen.")
+      text: "Hasten the day Jerusalem looks on the one they pierced and knows Him. In Jesus' name. Amen."
+  left_for_author: >
+    Existing prose still prints divine pronouns lowercase throughout ("his irrevocable calling",
+    "until he disclosed it", "God does not change his mind"); style-guide rule 8 wants them
+    capitalised. Not changed in this pass, since each would be a sentence edit outside its scope.
+

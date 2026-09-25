@@ -1,0 +1,25 @@
+slug: "israels-regathering-and-refining"
+title: "Israel's Regathering and Refining"
+status: draft
+target_path: "docs/content/israel-and-church/israels-regathering-and-refining.md"
+primary_passage: "Ezekiel 36:22-28; Zechariah 12:10-13:9"
+point: >
+  The prophets gather Israel to the land before they cleanse her, refine a remnant through a time
+  of distress for Jacob, and bring the nation to mourn for the one they pierced.
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked verbatim on 2026-09-26 (simplify pass) from
+      docs/content/israel-and-church/israel-and-the-church.md at commit 0ffe050: sections "The
+      prophets, and the order they give", "The tribulation, and what it is for", "About 1948", the
+      Romans 11:26 quotation note (under a new heading "Romans 11:26 and its quotation"), and one
+      discussion question. Quotations and word studies were verified in the parent (see its state
+      file, review blocks). The 1948 caution in the parent's open_questions applies here: 1948 is a
+      candidate stage, never a dated fulfilment.
+  next:
+    done: false
+    notes: >
+      Run develop-bible-study for an opening thesis, Key Takeaways and References (NKJV Cultural
+      Backgrounds SB and NIV Cultural Backgrounds SB for the Psalm 14:7 blending; ESV throughout).
+      Provenance frontmatter left unset for refresh_frontmatter_provenance.py at commit time.
