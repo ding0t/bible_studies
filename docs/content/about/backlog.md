@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-09-05
+date_modified: 2026-09-25
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -39,6 +39,9 @@ Refer to an item by its number, e.g. "work on 4.1."
 | [6.2](#62-individual-feast-studies) | Individual feast studies | Feasts |
 | [7.1](#71-twelve-disciples) | Twelve disciples | Biblical figures |
 | [8.1](#81-mirror-the-unfoldingword-sources) | Mirror the unfoldingWord sources | Sources & tooling |
+| [9.1](#91-calling-good-evil-and-evil-good) | Calling good evil and evil good | Sin |
+| [9.2](#92-sexual-immorality) | Sexual immorality | Sin |
+| [10.1](#101-know-the-truth) | Know the truth | Christian life |
 
 ---
 
@@ -375,3 +378,32 @@ that currently say these are not mirrored: the permanence note on
 `references/README.md`, and `references/study-state/unfoldingword-wireup.yml`.
 
 Roughly 140MB in total; `en_ult` is nearly all of it and `en_uhg` is 3.6MB.
+
+## 9. Sin
+
+### 9.1 Calling good evil and evil good
+
+Tracing the prevalent sin of calling what is good evil, and what the Bible says of it.
+
+- when someone condemns another of wrongdoing who has called out sin - such as murder
+- when sin is legalised as not only ok, but as good, and those who speak against it are in the wrong
+- when preaching Christ is considered as wrongdoing
+
+### 9.2 Sexual immorality
+
+The current study is very light.
+
+- the bible is clear what is sexual sin
+- why is it sin
+- the impact on the individual: sin against one's own body
+- defiling the image of the bride of Christ?
+
+## 10. Christian life
+
+### 10.1 Know the truth
+
+- What is truth: the Hebrew and Greek words
+- There is truth; how it is expressed in ot and nt, and by jesus
+- Objective truth can be known
+- Truth sets you free from lies and confusion
+- The devil wants you to stay unaware of the truth, and will deceive those who do not hold fast to it
