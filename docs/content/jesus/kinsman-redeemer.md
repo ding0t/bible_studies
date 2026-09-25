@@ -3,13 +3,14 @@ title: "The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back"
 category: "theology"
 description: "Boaz uses a kinsman's right to buy back what Naomi's family lost and to raise up a dead man's name. The son born of it is called a redeemer, and his line runs to David and to Jesus, the Kinsman who buys back His people with His own blood. The go'el office, the two laws Ruth joins, the threshing floor, the gate, the Moabite question, and where the type holds and where it stops."
 tags: ["ruth", "person/boaz", "person/ruth", "redemption", "method/typology", "method/word-study", "lang/hebrew", "lang/greek", "old-testament"]
-draft: true
+draft: false
 primary_passage: "Ruth 3:9-13; Ruth 4:1-17"
 bible_references: ["Ruth 1:1", "Ruth 1:16", "Ruth 1:21", "Ruth 2:1", "Ruth 2:12", "Ruth 2:20", "Ruth 3:9-13", "Ruth 4:1-22", "Judges 17:6", "Judges 21:25", "Leviticus 19:9-10", "Leviticus 25:23-25", "Leviticus 25:47-55", "Numbers 35:12", "Deuteronomy 25:5-10", "Deuteronomy 23:3", "Genesis 38:8", "Jeremiah 32:7", "Job 19:25", "Nehemiah 13:1", "Nehemiah 13:23", "Isaiah 54:5", "Isaiah 59:20", "Isaiah 56:3-7", "Romans 11:26", "Romans 3:24", "Galatians 4:4-5", "Hebrews 2:11", "Hebrews 2:17", "1 Peter 1:18-19", "Matthew 1:3", "Matthew 1:5"]
 date_created: 2026-09-21
 date_modified: 2026-09-25
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
 ---
 
 # The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back

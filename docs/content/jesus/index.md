@@ -4,7 +4,7 @@ category: "other"
 description: "Who Christ is and what he did, including Old Testament prophecy fulfilled in him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-07
+date_modified: 2026-09-25
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -31,6 +31,14 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
     The two feeding miracles read the way Jesus reads them at Mark 8:19-21 -- what he makes explicit about the sign in John 6, and what the narrative leaves implicit about Jew, Gentile, shepherd, and the wrong way to want bread.
 
     [:octicons-arrow-right-24: Read](bread-of-life-feeding-the-multitudes.md)
+
+-   __The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back__
+
+    ---
+
+    Boaz uses a kinsman's right to buy back what Naomi's family lost and to raise up a dead man's name. The son born of it is called a redeemer, and his line runs to David and to Jesus, the Kinsman who buys back His people with His own blood. The go'el office, the two laws Ruth joins, the threshing floor, the gate, the Moabite question, and where the type holds and where it stops.
+
+    [:octicons-arrow-right-24: Read](kinsman-redeemer.md)
 
 -   __Jesus, Priest in the Order of Melchizedek__
 
