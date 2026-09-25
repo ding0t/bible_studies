@@ -5,9 +5,9 @@ description: "Why Scripture forbids sorcery: an exegetical study of Deuteronomy 
 tags: ["sorcery", "witchcraft", "divination", "spiritual-warfare", "method/word-study", "deuteronomy"]
 draft: false
 primary_passage: "Deuteronomy 18:9-22"
-bible_references: ["Genesis 15:16", "Exodus 7:8-13", "Exodus 22:18", "Leviticus 19:31", "Leviticus 20:6", "Leviticus 20:27", "Numbers 23:23", "Deuteronomy 13:1-5", "1 Samuel 28:3-25", "1 Chronicles 10:13-14", "2 Kings 21:6", "2 Kings 23:24", "Isaiah 8:19-20", "Isaiah 44:24-26", "Isaiah 47:9-15", "Daniel 2:27-28", "Micah 5:12", "Nahum 3:4", "Malachi 3:5", "Matthew 2:1-12", "Matthew 12:22-32", "Mark 1:32-34", "Luke 10:17-20", "Acts 3:22-23", "Acts 8:9-24", "Acts 13:4-12", "Acts 16:16-18", "Acts 19:11-20", "Galatians 5:19-21", "1 John 4:1-3", "Revelation 9:21", "Revelation 18:23", "Revelation 21:8", "Revelation 22:15"]
+bible_references: ["Genesis 15:16", "Exodus 7:8-13", "Exodus 22:18", "Leviticus 19:31", "Leviticus 20:6", "Leviticus 20:27", "Numbers 23:23", "Deuteronomy 13:1-5", "1 Samuel 28:3-25", "1 Chronicles 10:13-14", "2 Kings 21:6", "2 Kings 23:24", "Isaiah 8:19-20", "Isaiah 44:24-26", "Isaiah 47:9-15", "Daniel 2:27-28", "Micah 5:12", "Nahum 3:4", "Malachi 3:5", "Matthew 2:1-12", "Acts 3:22-23", "Acts 8:9-24", "Acts 13:4-12", "Acts 16:16-18", "Acts 19:11-20", "Galatians 5:19-21", "Revelation 9:21", "Revelation 18:23", "Revelation 21:8", "Revelation 22:15"]
 date_created: 2024-04-24
-date_modified: 2026-09-20
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -16,11 +16,10 @@ ai_provider_models:
 # Sin and Sorcery
 
 Scripture's fullest list of occult practices sits in a single sentence of Deuteronomy — nine crafts
-named in two verses, all of them called an abomination. What that list is *for* only becomes clear
-from where Moses puts it. It is not a free-standing warning. It is the first half of a contrast
-whose second half is the promise of Christ.
+named in two verses, all of them called an abomination. Moses sets it as the first half of a
+contrast whose second half is the promise of Christ.
 
-**In one sentence:** Deuteronomy 18 forbids every route to hidden knowledge in the same breath it promises the Prophet God would raise up, because sorcery is a rival source of guidance and Christ is the one God has appointed instead.
+**In one sentence:** In the same breath that He forbids every route to hidden knowledge, God promises to speak to His people Himself through the Prophet He would raise up, Jesus, so the guidance you need comes by listening to Him.
 
 ## Key Takeaways
 
@@ -38,21 +37,13 @@ the five thousand reached for it independently: "This is indeed the Prophet who 
 world!" (John 6:14; compare John 1:21, 45; 7:40).
 
 The placement is the point. God bans every route to hidden knowledge in verses 10-14 and then, in
-the very next breath, promises the route he *is* providing. Divination is forbidden not because God
-intends his people to know nothing, but because he intends them to hear from him — finally, through
-his Son.
+the very next breath, promises the route He *is* providing. God forbids divination because He intends
+His people to hear from Him — finally, through His Son Jesus.
 
 ### Lessons about Jesus
 
 - He is the Prophet Deuteronomy 18:15 promised, the appointed alternative to every form of
   divination (Acts 3:22-26; 7:37).
-- He silenced demons who were telling the truth about him (Mark 1:34; Luke 4:41). Accuracy was never
-  his standard for whose testimony to accept.
-- He cast out demons by the Spirit of God, not by technique, and said so plainly when accused of the
-  opposite (Matthew 12:28).
-- He owns the authority his followers exercise, and he ranked it below their salvation: "do not
-  rejoice in this, that the spirits are subject to you, but rejoice that your names are written in
-  heaven" (Luke 10:20).
 - Where his word advances, the magic books burn (Acts 19:19-20). Luke reports the two as one
   movement.
 
@@ -95,10 +86,20 @@ Father, you did not leave us guessing. When you forbade every road to hidden kno
 a Prophet in the same breath, and you kept that promise in your Son. You are not a God who hides
 from those who ask.
 
-Teach us to bring our unanswered questions to you and to wait, rather than going looking elsewhere
-when you are silent. Guard us from wanting power more than we want you. Where we have already gone
+Teach us to bring our unanswered questions to you and to wait on you when you are silent. Guard us from wanting power more than we want you. Where we have already gone
 to other sources, give us the Ephesians' courage to name it and be done with it. We ask it in the
 name of Jesus, the Prophet you raised up, to whom we listen. Amen.
+
+## Study outline
+
+1. **The passage** — where the list sits in Deuteronomy, its setting in Canaan, and the nine
+   practices it names.
+2. **The argument** — the listen/listen hinge of verses 14-15, *kāšap* as the nations' word, the
+   inquiry verbs Chronicles and Isaiah use against Saul and Judah, and Isaiah's chirping mediums.
+3. **What sorcery can do** — practitioners who produce something and then hit a wall, and the one
+   word *magos* used for Elymas and for the Magi.
+4. **The New Testament** — *pharmakeia*, three episodes in Acts, and Revelation's four occurrences.
+5. **What carries over** — what binds then and now, and the theological principle.
 
 ## Where the prohibition sits
 
@@ -127,11 +128,10 @@ Then, without a break in the speech:
 > it is to him you shall listen — … 18 I will raise up for them a prophet like you from among their
 > brothers. And I will put my words in his mouth, and he shall speak to them all that I command him.
 
-The *ESV Study Bible* reads the arrangement the same way, calling verses 15-19 "deliberately
-juxtaposed" with the prohibition and summarising the contrast as: the nations listen to magicians;
-Israel is to listen to God's prophet. The *NIV Biblical Theology Study Bible* observes that the list
-is the most complete inventory of occult practice in the Bible, and that Moses gives it at this
-length precisely to mark off the prophetic role from everything resembling it.
+The *ESV Study Bible* calls verses 15-19 "deliberately juxtaposed" with the prohibition: the nations
+listen to magicians; Israel is to listen to God's prophet. The *NIV Biblical Theology Study Bible*
+calls the list the most complete inventory of occult practice in the Bible, given at this length to
+mark off the prophetic role from everything resembling it.
 
 ## Historical and cultural context
 
@@ -140,32 +140,19 @@ those of "these nations, which you are about to dispossess" (18:14). Verse 12 ma
 practices the stated ground of that dispossession. Centuries earlier God had told Abraham his
 descendants would not return for four generations, "for the iniquity of the Amorites is not yet
 complete" (Genesis 15:16) — the dispossession waits on a measure being filled, and Deuteronomy 18:12
-names what was filling it. This is judgment on a specific catalogue of sin, not an arbitrary land
-transfer.
+names what was filling it.
 
-Divination in the ancient Near East was respectable state business, not a fringe pursuit. Kings
-retained diviners the way modern governments retain analysts. Both Cultural Backgrounds Study Bibles
+Divination in the ancient Near East was respectable state business. Kings retained diviners the way modern governments retain analysts. Both Cultural Backgrounds Study Bibles
 caution that "magic" and "religion" cannot be cleanly separated in this world, and that the precise
 technique behind several of Moses' terms is now uncertain. The methods attested across the region
 included reading the entrails of sacrificial animals, astrology, dream interpretation, and calling
 up the dead.
 
-Two details of the passage are easy to misread without this background.
-
 **Why child sacrifice heads a divination list.** Verse 10 opens with the parent who "burns his son or
-his daughter as an offering" before naming a single diviner, which looks like a category error. It
-is not. In some cults, child sacrifice was itself an attempt to secure divine help or force an
+his daughter as an offering" before naming a single diviner. In some cults, child sacrifice was itself an attempt to secure divine help or force an
 outcome — the *ESV Study Bible* points to the king of Moab sacrificing his firstborn on the wall
-mid-battle (2 Kings 3:26-27) as the clearest biblical instance. The most extreme thing a person can
+mid-battle (2 Kings 3:26-27). The most extreme thing a person can
 offer heads the list of things people offer to make the powers speak.
-
-**What is not forbidden here.** Israel was not banned from pronouncing curses or oaths as such.
-Joshua laid a curse on whoever rebuilt Jericho (Joshua 6:26), the law itself prescribes an oath
-ritual involving a curse (Numbers 5:16-28), and Deuteronomy 28 has God pronouncing covenant curses.
-The *NIV Cultural Backgrounds Study Bible* notes that Mesopotamian sources likewise distinguished
-legitimate from illegitimate practitioners. The line Deuteronomy 18 draws is not between "spiritual
-words" and "ordinary words"; it is between the authority you are appealing to and the one you are
-not.
 
 ## Nine practices, named
 
@@ -191,18 +178,10 @@ building a taxonomy but closing every door at once.
 construction that repeats a verb's own root as its object for emphasis: *qōsēm qəsāmîm*, "one who
 divines divinations," and *ḥōbēr ḥāber*, "one who binds a binding." The verb behind the second,
 <span dir="rtl">חָבַר</span> (*ḥābar*), ordinarily means to join or tie together; the spell-caster is
-a *binder*. No English version reproduces either doubling, and none reasonably could without
-sounding absurd. What is lost is a shade of intensity, not a distinct meaning.
+a *binder*. No English version reproduces either doubling; what is lost is a shade of intensity.
 
-Two of the terms invite etymological over-reading, so the limit needs marking. The *TWOT*
-entry for <span dir="rtl">אוֹב</span> (*ʾôb*, item 7) glosses the root "skin-bottle," which is how
-the same consonants are used in Job 32:19. Whether the medium-sense and the wineskin-sense are one
-root or two homonyms is unsettled in the lexica, and popular explanations built on it — that the
-medium's voice sounded hollow like a bottle — are speculation the text does not support. Likewise
-*yiddəʿōnî* (item 8) is formed on <span dir="rtl">יָדַע</span> (*yādaʿ*, "to know"), which suits a
-practitioner who traffics in knowledge, but a word's origin is not its meaning. In both cases the
-usage does the work: item 7 and item 8 appear as a fixed pair across the Old Testament, and every
-occurrence concerns consulting the dead.
+The origins of items 7 and 8 are unsettled in the lexica, so the usage does the work: they appear as
+a fixed pair across the Old Testament, and every occurrence concerns consulting the dead.
 
 ## The hinge: who you listen to
 
@@ -214,7 +193,8 @@ sentences, once of the nations and once of Israel. Between them stands a blunt H
 <span dir="rtl">וְאַתָּה לֹא כֵן</span> (*wəʾattâ lōʾ kēn*) — "but you, not so."
 
 Everyone listens to something. Deuteronomy 18 does not command Israel to stop seeking guidance; it
-tells them where the guidance will come from.
+tells them where the guidance will come from. This shows that God means to be heard: He supplies the
+voice His people need, so you are never left with only the diviners to listen to.
 
 ## Sorcery as the mark of the nations
 
@@ -229,29 +209,19 @@ magicians (Exodus 7:11), Jezebel of Sidon (2 Kings 9:22), Manasseh (2 Chronicles
 5:12, where God promises to cut sorceries *out of* Israel, and Malachi 3:5, where he comes as a
 swift witness against sorcerers in judgment.
 
-Manasseh is worth a footnote of his own, because the two accounts of his reign do not use the same
-vocabulary. Kings says he "used fortune-telling and omens and dealt with mediums and with
-necromancers" (2 Kings 21:6) — *ʿānan*, *nāḥaš*, *ʾôb*, *yiddəʿōnî*, four of Deuteronomy 18's nine
-terms, but not this one. Only the Chronicler adds *kāšap* to the list (2 Chronicles 33:6). The
-practices overlap; the words are not interchangeable, and a concordance built on the English
-"sorcery" would merge two verses the Hebrew keeps distinct.
+Kings' account of Manasseh uses four of Deuteronomy 18's other terms (2 Kings 21:6); only the
+Chronicler adds *kāšap* (2 Chronicles 33:6).
 
 There is no neutral or approved use of this word anywhere in the Old Testament. It is
 lexically marked as something the nations do, and when Israel does it the text presents it as
 adopting the nations' religion.
-
-A note on Exodus 22:18, which the ESV renders "You shall not permit a sorceress to live": the Hebrew
-is feminine (*mekaššēpâ*), but the masculine forms carry the same prohibition everywhere else in the
-list above, and Deuteronomy 18:10's *məkaššēp* is masculine. The feminine here reflects who most
-commonly practised the craft, not a rule aimed at women. The verse has a long history of being
-misused, and the grammar does not support the use.
 
 ## The word that carries the argument: inquiry
 
 Items 7 and 9 of the Deuteronomy list are built on two ordinary verbs — <span dir="rtl">שָׁאַל</span>
 (*šāʾal*, H7592, "to ask") and <span dir="rtl">דָּרַשׁ</span> (*dāraš*, H1875, "to seek, inquire,
 consult"). Neither verb is sinful. Both are used constantly of legitimate prayer and of consulting
-the LORD. What Deuteronomy 18:11 forbids is not asking, but the object: *šōʾēl ʾôb*, one who asks
+the LORD. What Deuteronomy 18:11 forbids is the object: *šōʾēl ʾôb*, one who asks
 **of a medium**; *dōrēš ʾel-hammētîm*, one who inquires **of the dead**.
 
 Two later writers prosecute Israel using exactly this vocabulary.
@@ -270,8 +240,7 @@ supplied outright, at the end of Chronicles' account of his death:
 The Hebrew of verse 13 is *lišʾôl bāʾôb lidrôš* — "to **ask** of a **medium**, to **inquire**" —
 using both of Deuteronomy 18:11's verbs and its noun. Verse 14 completes the indictment with the
 same verb turned negative: *wəlōʾ-dāraš baYHWH*, "and he did not **inquire** of the LORD." The
-Chronicler is not describing Saul's sin in his own words. He is charging him under the statute, in
-the statute's language.
+Chronicler charges Saul under the statute, in the statute's language.
 
 The narrative had already set this up. Saul turned to the medium only after heaven went quiet: "when
 Saul inquired of the LORD, the LORD did not answer him, either by dreams, or by Urim, or by
@@ -284,7 +253,8 @@ dead"). The rhetorical question in the middle — "should not a people inquire o
 whole argument in six words. Isaiah does not dispute that the mediums offer information. He asks
 what a people are doing seeking it there.
 
-Sorcery, on this reading, is not first a matter of forbidden techniques. It is a redirected inquiry.
+Sorcery, on this reading, is a redirected inquiry. The same verbs show what God wants: He is the One
+His people are to seek, and He invites the asking. So bring your questions to Him.
 
 ## Chirping, muttering, and words in the mouth
 
@@ -309,8 +279,7 @@ prediction being accurate was never sufficient warrant.
 
 ## What sorcery can and cannot do
 
-Scripture does not take the position that the practitioners are simply frauds, nor that their power
-is worth fearing. It consistently shows them producing something and then hitting a wall.
+Scripture consistently shows the practitioners producing something and then hitting a wall.
 
 Pharaoh's magicians duplicate the first signs "by their secret arts," and then Aaron's staff
 swallows theirs (Exodus 7:11-12). They fail at the gnats and tell Pharaoh so: "This is the finger of
@@ -329,7 +298,9 @@ of liars and makes fools of diviners… who confirms the word of his servant and
 of his messengers" (Isaiah 44:25-26). The two halves of that sentence are the two halves of
 Deuteronomy 18. Isaiah then turns it on Babylon directly, inviting her to try: "Stand fast in your
 enchantments and your many sorceries… perhaps you may be able to succeed" (Isaiah 47:12). The taunt
-only works because sorcery does enough to be believed in and not enough to save.
+only works because sorcery does enough to be believed in and not enough to save. This shows that God
+is sovereign over every rival power: He alone reveals mysteries and confirms His servant's word, so
+you need not fear what sorcery can do.
 
 ## The same word for Elymas and for the Magi
 
@@ -342,14 +313,15 @@ The word itself named a class — Persian and Babylonian court sages whose compe
 astrology and dream interpretation. Whether it condemns depends entirely on what the person is doing
 and whose word they end up following. Matthew's *magoi* follow a sign, then are redirected by
 Scripture (Micah 5:2, quoted in Matthew 2:5-6), and end up worshipping Christ. Elymas uses his
-standing to keep a proconsul from hearing the word of God.
+standing to keep a proconsul from hearing the word of God. Luke names him "a Jewish false prophet"
+*and* a magician in the same breath — sorcery and false prophecy in one person, as Deuteronomy 18
+already had them in one passage.
 
 This resolves an apparent problem in Daniel. Nebuchadnezzar makes Daniel "chief prefect over all the
 wise men of Babylon" (Daniel 2:48), and Belshazzar's queen recalls that the king had made him "chief
-of the magicians, enchanters, Chaldeans, and astrologers" (Daniel 5:11). Daniel holds the office; he does not practise the craft. His first words on
-receiving the revelation are a flat denial that any of his colleagues' methods could have produced it
-(2:27-28). The office was a position at court. The revelation came from God in a night vision, in
-answer to prayer (2:17-19).
+of the magicians, enchanters, Chaldeans, and astrologers" (Daniel 5:11). Daniel holds the office and
+denies that any of his colleagues' methods could have produced the revelation (2:27-28), which came
+from God in a night vision, in answer to prayer (2:17-19).
 
 ## Sorcery in the New Testament
 
@@ -362,17 +334,13 @@ with its related nouns φάρμακος and φάρμακοι. It appears in Paul
 
 **A correction.** *Pharmakeia* is often taught as though it meant pharmaceuticals, and
 Revelation read as predicting the drug industry. The word family does cover drugs and potions in
-wider Greek, and ancient magic did use them. But the question for exegesis is which sense is in play
-here, and that is answerable from the data rather than from etymology. Louw and Nida's
-semantic-domain lexicon — which groups words by how they are actually used rather than by root —
-places φαρμακεία and φάρμακον at 53.100, inside Domain 53 (*Religious Activities*), in the
+wider Greek, and ancient magic used them. Louw and Nida's semantic-domain lexicon, which groups words
+by usage, places φαρμακεία and φάρμακον at 53.100, inside Domain 53 (*Religious Activities*), in the
 sub-domain for magic, immediately beside περίεργος, "magic arts," at 53.99 (the word Luke uses in
-Acts 19:19). They are not classified with medicine or healing. Revelation 18:23 settles it in
+Acts 19:19). Revelation 18:23 settles it in
 context: sorcery there is what *deceives nations*, which is not a thing pharmaceuticals do.
 
-### Four episodes in Acts
-
-Four New Testament episodes fill out the picture.
+### Three episodes in Acts
 
 #### Simon in Samaria
 
@@ -381,12 +349,6 @@ somebody great," to the point that they called him "the power of God that is cal
 believed and was baptised — and then offered the apostles money for the ability to confer the Spirit.
 Peter's answer goes to motive, not method: "your heart is not right before God" (8:21). Conversion
 had not yet reached the instinct that treats spiritual power as a purchasable capability.
-
-#### Elymas on Cyprus
-
-**Elymas on Cyprus** (Acts 13:4-12) shows sorcery and false prophecy in the same person, which is how
-Deuteronomy 18 already had it — the ban on divination and the test for false prophets are one
-passage. Luke names him "a Jewish false prophet" *and* a magician in the same breath.
 
 #### The slave girl at Philippi
 
@@ -416,6 +378,9 @@ destroying an asset, publicly, with the value read out. Luke's next sentence mak
 Lord the thing that grows in the space the books vacated — the same pairing Deuteronomy 18 makes,
 now in narrative.
 
+How these tests apply to deliverance ministry is taken up in a separate study, *Deliverance and the
+Edge of Sorcery* (in preparation).
+
 ## Sorcery in Revelation
 
 Revelation's four occurrences fall into two groups.
@@ -433,12 +398,6 @@ modern industry means skipping the two texts John is quoting. His subject is wha
 Nahum's already was: a world power whose spiritual counterfeit deceives nations, and which God
 brings down.
 
-The link is harder to see in English than in Hebrew. Nahum 3:4's "charms," twice, is
-<span dir="rtl">כֶּשֶׁף</span> (*kešep*) — the same noun the ESV renders "sorceries" four chapters
-into Isaiah's Babylon oracle (47:9). One Hebrew word, two English words, and the verbal thread
-running from Nineveh through Babylon to Revelation 18 goes quiet at exactly the point John is
-picking it up.
-
 The other two are exclusion lists. Sorcerers appear among those whose portion is the lake of fire
 (21:8) and among those left "outside" the city (22:15). In both, the company is consistent, and it is
 the company sorcery keeps throughout Scripture: idolaters, the sexually immoral, murderers, liars.
@@ -448,115 +407,7 @@ who practise such things "will not inherit the kingdom of God" (5:21).
 The *ESV Study Bible*'s note on Galatians 5:20 states the link between idolatry and sorcery better
 than a paraphrase would: both are attempts to reach the spiritual realm by humanly invented means,
 which have God as their supposed object while rejecting the way he has revealed for approaching him.
-That is Deuteronomy 18 restated for the church — and it sharpens the definition. The problem is not
-only the wrong source. It is the refusal of the appointed one.
-
-## What a reader can check across translations
-
-The count of nine practices in verses 10-11 is what to watch, and translations differ in how visibly
-they preserve it. The ESV keeps the practitioners as nine distinct roles strung on "or." The NIV
-compresses several into smoother English, which reads better and makes the number harder to see. No
-English version renders either cognate accusative (*qōsēm qəsāmîm*, *ḥōbēr ḥāber*), and the wooden
-literal versions that come closest are not worth quoting in prose.
-
-Practical advice: read the passage in a version that keeps the list long, and count. The rhetorical
-force of Deuteronomy 18:10-11 is partly its exhaustiveness, and a smoother rendering spends that to
-buy readability.
-
-One versification note, since citations here follow the ESV's numbering: ESV Exodus 22:18 is Masoretic
-22:17, and ESV Micah 5:12 is Masoretic 5:11.
-
-## Deliverance and the edge of sorcery
-
-This study began from a practical question: deliverance ministry sometimes involves believers
-manifesting, and some of what is practised in that setting resembles the crafts Deuteronomy 18
-forbids. Does it cross the line?
-
-Scripture does not answer by adjudicating individual cases, and neither can a study. It does supply
-tests, and they are unusually clear.
-
-### Jesus and Paul refused demonic testimony that was accurate
-
-**Jesus and Paul both refused demonic testimony that was accurate.** Mark reports that Jesus "would
-not permit the demons to speak, because they knew him" (Mark 1:34); Luke, that "he rebuked them and
-would not allow them to speak, because they knew that he was the Christ" (Luke 4:41). Their problem
-was not that the demons were wrong. It was that they were speaking. Paul does the same at Philippi
-with a spirit whose statement about him was theologically exact (Acts 16:17-18). Whatever else the
-apostolic pattern includes, it does not include interviewing unclean spirits for information.
-
-This is where the line falls most clearly. Commanding a spirit to leave in the name of Jesus is
-apostolic practice, plainly attested. Questioning a spirit to obtain knowledge — its name, its legal
-right, the history that admitted it — is inquiry directed at a source other than God, which is the
-thing Deuteronomy 18:11 names and 1 Chronicles 10:13-14 condemns. The objection is not that such
-information would be useless. It is that Isaiah's question applies: should a people inquire there?
-
-### The Gerasene counter-example
-
-The one apparent counter-example is Jesus asking the Gerasene demoniac's spirit its name (Mark
-5:9), and it should be stated rather than stepped around. Two things are true of it: it is a single
-occurrence in a narrative, and narrative reports without necessarily prescribing; and the answer,
-"Legion, for we are many," yields no hidden knowledge and changes nothing Jesus then does. Building a
-standard practice of interrogation on it, against the explicit refusals in Mark 1:34 and Luke 4:41,
-inverts the weight of the evidence.
-
-### Technique fails
-
-**Technique fails.** The sons of Sceva had the correct name and the correct formula and no
-relationship — "Jesus I know, and Paul I recognize, but who are you?" (Acts 19:15). Luke's placement
-is pointed: this immediately precedes the book-burning. A ministry whose confidence rests on method
-rather than on Christ is the thing Acts 19 was written to warn about.
-
-### Confession is the test of a spirit
-
-**The test of a spirit is confession, not manifestation.** "Do not believe every spirit, but test the
-spirits to see whether they are from God… every spirit that confesses that Jesus Christ has come in
-the flesh is from God" (1 John 4:1-2). The criterion is doctrinal content. Nothing in the New
-Testament makes an impressive phenomenon evidence of anything, and Deuteronomy 13:1-5 had already
-ruled that a sign coming true settles nothing about its source. See also
-[test the spirits](../spiritual-beings/test-the-spirits.md).
-
-### The true measure: names written in heaven
-
-**Power is not the measure.** "Do not rejoice in this, that the spirits are subject to you, but
-rejoice that your names are written in heaven" (Luke 10:20). Jesus said this to disciples who had
-just succeeded.
-
-### Indwelling and oppression
-
-On the underlying question of whether a believer can be indwelt by a demon: the New Testament never
-uses δαιμονίζομαι of a Christian, and it says the believer's body is a temple of the Holy Spirit
-(1 Corinthians 6:19), that they have been transferred out of the domain of darkness (Colossians 1:13),
-and that "he who is in you is greater than he who is in the world" (1 John 4:4). Oppression,
-temptation, and harassment are a different matter and are everywhere assumed (Ephesians 6:11-12;
-1 Peter 5:8). Holding those two together is what the older draft of this study did not do, and it
-matters, because it means a believer's distress in a deliverance setting has more possible
-explanations than the two the question usually offers — genuine demonic oppression short of
-indwelling, and ordinary suggestion under emotional and social pressure, both of which are real, and
-neither of which requires sorcery to explain.
-
-That is the honest shape of the answer. The scriptural tests above can be applied by anyone to any
-ministry, including their own, without needing to settle what is happening in someone else's room.
-
-## What Scripture says about demons
-
-The claims below are the ones the New Testament states directly, each with the text that carries it.
-
-| Claim | Reference |
-|---|---|
-| Demons are real, and orthodox belief alone does not distinguish a person from them | James 2:19 |
-| Demons deceive, and their teaching draws people away from the faith | 1 Timothy 4:1 |
-| Satan and his servants disguise themselves as angels of light and servants of righteousness | 2 Corinthians 11:14-15 |
-| Jesus cast out demons, and gave his followers authority to do so in his name | Mark 1:34; Luke 10:17-19 |
-| Demons can afflict a person physically | Mark 9:17-27; Luke 8:29 |
-| Demons can speak through a person | Mark 5:7-9; Acts 16:17 |
-| Demons are not to be reviled or spoken of presumptuously | Jude 8-10; 2 Peter 2:10-11 |
-| Demons know who Jesus is and know judgment is coming | Matthew 8:29; James 2:19 |
-| Pagan sacrifice is offered to demons, and believers cannot share both tables | 1 Corinthians 10:20-21 |
-| An unclean spirit driven out seeks rest in "waterless places" | Matthew 12:43 |
-
-The last of these is often built into more than it says. Matthew 12:43 is a single clause inside a
-parable about a generation that reforms without being filled, and the point of the passage is the
-empty house, not a doctrine of demons and water.
+That is Deuteronomy 18 restated for the church.
 
 ## What binds then, and what binds now
 
@@ -574,7 +425,9 @@ visible and consistent: the practitioners themselves renounce it and burn what t
 19:19), and the unrepentant are excluded from the kingdom (Galatians 5:21; Revelation 21:8). Not
 once is the church told to execute anyone. Reading Exodus 22:18 as a standing warrant — which is
 exactly what the witch trials did — takes a statute out of the legal system that gave it force and
-hands it to people who were never given it.
+hands it to people who were never given it. The verse's Hebrew is feminine (*mekaššēpâ*), but
+Deuteronomy 18:10's *məkaššēp* is masculine; the feminine reflects who most commonly practised the
+craft, and the grammar does not support aiming the verse at women.
 
 **The prohibition itself carries over completely.** This is the part that does not need argument
 from continuity: Paul and John restate it with none of the theocratic machinery attached. Sorcery
@@ -584,14 +437,14 @@ change of covenant; the penalty was never the church's to carry.
 
 ## Theological principle
 
-Sorcery is condemned in Scripture neither because it is fraudulent nor because it is powerful, but
-because it is a rival route: an attempt to obtain knowledge or power from a source other than the
+Sorcery is condemned in Scripture as a rival route: an attempt to obtain knowledge or power from a source other than the
 one God has appointed, and so a refusal of the way he has revealed for approaching him.
 
 Deuteronomy 18 states this in its own structure. The nations listen to fortune-tellers; Israel is to
-listen to the Prophet God will raise up. The alternative to divination was never ignorance. It was,
-and is, Christ — the Prophet like Moses, in whose mouth God put his words, and to whom the whole
-passage points.
+listen to the Prophet God will raise up. God's answer to divination was, and is, Christ — the Prophet
+like Moses, in whose mouth God put His words, and to whom the whole passage points. This is the
+doctrine of revelation: God has spoken, and spoken in His Son Jesus, so you may bring every question
+to Him and listen.
 
 ## Discussion questions
 
@@ -606,7 +459,7 @@ passage points.
    by their label rather than by their direction?
 5. The Ephesian believers burned books worth fifty thousand days' wages, publicly, after conversion
    (Acts 19:19). What would the equivalent cost you, and what has kept you from it?
-6. Jesus and Paul both silenced spirits that were telling the truth. What does that establish about
+6. Paul silenced a spirit that was telling the truth (Acts 16:17-18). What does that establish about
    which sources of information a Christian should accept?
 
 ## References & Recommended Reading

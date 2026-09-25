@@ -1,0 +1,21 @@
+slug: "deliverance-and-the-edge-of-sorcery"
+title: "Deliverance and the Edge of Sorcery"
+status: draft
+target_path: "docs/content/spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md"
+point: "Scripture supplies tests for where deliverance practice crosses into the inquiry Deuteronomy 18 forbids: command a spirit in Jesus' name, never interview it; technique fails; confession, not manifestation, tests a spirit."
+stages:
+  scoping:
+    done: false
+    notes: |
+      Forked 2026-09-26 by simplify-bible-study from docs/content/sin/sorcery.md at commit 0ffe050:
+      the whole "## Deliverance and the edge of sorcery" section and "## What Scripture says about
+      demons" (table + note), moved verbatim. Only change: the test-the-spirits link path adjusted
+      for the new location. Quotations and word studies were verified in sorcery.md's review
+      (see references/study-state/sorcery.yml, review_2026-08-07); do not redraft them.
+      Needs a develop-bible-study pass for its own opening, In one sentence, Key Takeaways and
+      section structure (the moved ### headings currently sit directly under the H1). One verbatim
+      sentence refers to "the older draft of this study" -- meaning sorcery.md's pre-2026 draft;
+      fix when developing. Consider its relation to christians-and-deliverance.md in the same folder.
+      Provenance fields not yet filled (refresh_frontmatter_provenance.py not run, per sweep brief).
+open_questions:
+  - "Merge with or cross-link christians-and-deliverance.md / contemporary-deliverance.md?"

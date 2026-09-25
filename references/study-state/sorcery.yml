@@ -227,6 +227,7 @@ stages:
       boundary) that would benefit from an adversarial check by an agent that did not draft them.
 
 open_questions:
+  - "PENDING (simplify 2026-09-26): when deliverance-and-the-edge-of-sorcery.md is published, turn the plain-text pointer at the end of the Ephesus subsection into a link, and re-run commentary_index.py (bible_references lost Matthew 12:22-32, Mark 1:32-34, Luke 10:17-20, 1 John 4:1-3)."
   - "1 Samuel 28 — whether Samuel genuinely appeared is deliberately left open in the draft. ESV SB's own note says the passage 'suggests that in some circumstances a medium may be able to contact the dead' while stressing the wrongness of the practice; the text itself does not settle the mechanism and the study does not need it settled, since the Chronicler's verdict (1 Chr 10:13-14) condemns the inquiry either way."
   - "Whether ʾôb 'medium' and ʾôb 'skin-bottle' (Job 32:19) are one root or homonyms is unresolved in the lexica. Flagged in the draft as a curiosity, not used as evidence."
   - "Did not chase the Ugaritic/Akkadian comparative material on necromancy beyond what the Cultural Backgrounds notes summarise; no primary ANE text consulted first-hand."
@@ -302,3 +303,88 @@ review_2026-08-07:
       fix: "NOT fixed this pass — flagged for a later edit; low impact and the substance is correct."
   open_questions_added:
     - "An independent (different-agent) review has still not been run. This pass found one Critical the author's own Phase 8 did not, which is evidence for the skill's own claim that self-review is weaker, not evidence that it is sufficient."
+
+simplify_2026-09-26:
+  pass: "simplify-bible-study, readability sweep tier 2 (blanket author approval)"
+  words_before: 5311   # Check 23 count, References excluded
+  words_after: 3756    # after simplify, before insight; 3941 after insight + Study outline
+  budget: 4000
+  point: "Scripture forbids sorcery because it seeks knowledge or power from a source other than the one God appointed, and God has given His people a Prophet to listen to -- Christ. Agrees with the file's own thesis."
+  forks:
+    - path: "docs/content/spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md"
+      state: "references/study-state/deliverance-and-the-edge-of-sorcery.yml"
+      point: "Scripture supplies tests for where deliverance practice crosses into the inquiry Deuteronomy 18 forbids: command a spirit in Jesus' name, never interview it; technique fails; confession, not manifestation, tests a spirit."
+      moved: ["## Deliverance and the edge of sorcery (all subsections)", "## What Scripture says about demons (table + note)"]
+  deleted:
+    - "## What a reader can check across translations (translation comparison + versification note; kept in stages.cross_reference above)"
+    - "Historical context: 'What is not forbidden here' (curses/oaths paragraph); 'Two details ... easy to misread' lead-in; 'This is judgment on a specific catalogue of sin, not an arbitrary land transfer.'"
+    - "Nine practices: ʾôb 'skin-bottle' / yiddəʿōnî etymology caution (replaced by one shortened sentence)"
+    - "Manasseh footnote (replaced by one shortened sentence)"
+    - "Acts: 'Elymas on Cyprus' episode (merged into the magos section); 'Four New Testament episodes fill out the picture.'"
+    - "Revelation: the kešep 'charms'/'sorceries' English-thread paragraph"
+    - "Lessons about Jesus: Mark 1:34 / Matthew 12:28 / Luke 10:20 bullets (their content moved to the fork)"
+    - "bible_references: Matthew 12:22-32, Mark 1:32-34, Luke 10:17-20, 1 John 4:1-3 (now cited only in the fork)"
+  merged:
+    - "Exodus 22:18 feminine-grammar note moved from 'mark of the nations' into 'What binds then, and what binds now', beside the witch-trial sentence."
+    - "Elymas as sorcerer + false prophet moved into 'The same word for Elymas and for the Magi'."
+  added: ["## Study outline (descriptive, 5 items)", "pointer line at end of Ephesus subsection (plain text; fork is draft)"]
+  shortened:
+    - old: "What that list is *for* only becomes clear from where Moses puts it. It is not a free-standing warning. It is the first half of a contrast whose second half is the promise of Christ."
+      new: "Moses sets it as the first half of a contrast whose second half is the promise of Christ."
+    - old: "The *ESV Study Bible* reads the arrangement the same way, calling verses 15-19 \"deliberately juxtaposed\" with the prohibition and summarising the contrast as: the nations listen to magicians; Israel is to listen to God's prophet. The *NIV Biblical Theology Study Bible* observes that the list is the most complete inventory of occult practice in the Bible, and that Moses gives it at this length precisely to mark off the prophetic role from everything resembling it."
+      new: "The *ESV Study Bible* calls verses 15-19 \"deliberately juxtaposed\" with the prohibition: the nations listen to magicians; Israel is to listen to God's prophet. The *NIV Biblical Theology Study Bible* calls the list the most complete inventory of occult practice in the Bible, given at this length to mark off the prophetic role from everything resembling it."
+    - old: "Divination in the ancient Near East was respectable state business, not a fringe pursuit."
+      new: "Divination in the ancient Near East was respectable state business."
+    - old: "... before naming a single diviner, which looks like a category error. It is not. In some cults, ..."
+      new: "... before naming a single diviner. In some cults, ..."
+    - old: "... (2 Kings 3:26-27) as the clearest biblical instance."
+      new: "... (2 Kings 3:26-27)."
+      note: "also resolves the 2026-08-07 review's unfixed minor finding (overstated ESV SB ranking)"
+    - old: "No English version reproduces either doubling, and none reasonably could without sounding absurd. What is lost is a shade of intensity, not a distinct meaning."
+      new: "No English version reproduces either doubling; what is lost is a shade of intensity."
+    - old: "Two of the terms invite etymological over-reading ... In both cases the usage does the work: item 7 and item 8 appear as a fixed pair across the Old Testament, and every occurrence concerns consulting the dead."
+      new: "The origins of items 7 and 8 are unsettled in the lexica, so the usage does the work: they appear as a fixed pair across the Old Testament, and every occurrence concerns consulting the dead."
+    - old: "Manasseh is worth a footnote of his own ... Kings says he \"used fortune-telling ...\" (2 Kings 21:6) -- ʿānan, nāḥaš, ʾôb, yiddəʿōnî, four of Deuteronomy 18's nine terms, but not this one. Only the Chronicler adds kāšap to the list (2 Chronicles 33:6). The practices overlap; ..."
+      new: "Kings' account of Manasseh uses four of Deuteronomy 18's other terms (2 Kings 21:6); only the Chronicler adds *kāšap* (2 Chronicles 33:6)."
+    - old: "A note on Exodus 22:18 ... the Hebrew is feminine (mekaššēpâ), but the masculine forms carry the same prohibition everywhere else in the list above, and Deuteronomy 18:10's məkaššēp is masculine. The feminine here reflects who most commonly practised the craft, not a rule aimed at women. The verse has a long history of being misused, and the grammar does not support the use."
+      new: "The verse's Hebrew is feminine (*mekaššēpâ*), but Deuteronomy 18:10's *məkaššēp* is masculine; the feminine reflects who most commonly practised the craft, and the grammar does not support aiming the verse at women."
+    - old: "What Deuteronomy 18:11 forbids is not asking, but the object:"
+      new: "What Deuteronomy 18:11 forbids is the object:"
+    - old: "The Chronicler is not describing Saul's sin in his own words. He is charging him under the statute, in the statute's language."
+      new: "The Chronicler charges Saul under the statute, in the statute's language."
+    - old: "Sorcery, on this reading, is not first a matter of forbidden techniques. It is a redirected inquiry."
+      new: "Sorcery, on this reading, is a redirected inquiry."
+    - old: "Scripture does not take the position that the practitioners are simply frauds, nor that their power is worth fearing. It consistently shows them producing something and then hitting a wall."
+      new: "Scripture consistently shows the practitioners producing something and then hitting a wall."
+    - old: "Daniel holds the office; he does not practise the craft. His first words on receiving the revelation are a flat denial that any of his colleagues' methods could have produced it (2:27-28). The office was a position at court. The revelation came from God in a night vision, in answer to prayer (2:17-19)."
+      new: "Daniel holds the office and denies that any of his colleagues' methods could have produced the revelation (2:27-28), which came from God in a night vision, in answer to prayer (2:17-19)."
+    - old: "**Elymas on Cyprus** (Acts 13:4-12) shows sorcery and false prophecy in the same person, which is how Deuteronomy 18 already had it -- the ban on divination and the test for false prophets are one passage. Luke names him \"a Jewish false prophet\" *and* a magician in the same breath."
+      new: "Luke names him \"a Jewish false prophet\" *and* a magician in the same breath -- sorcery and false prophecy in one person, as Deuteronomy 18 already had them in one passage."
+    - old: "The word family does cover drugs and potions in wider Greek, and ancient magic did use them. But the question for exegesis is which sense is in play here, and that is answerable from the data rather than from etymology. Louw and Nida's semantic-domain lexicon -- which groups words by how they are actually used rather than by root -- places ... (Acts 19:19). They are not classified with medicine or healing. Revelation 18:23 ..."
+      new: "The word family does cover drugs and potions in wider Greek, and ancient magic used them. Louw and Nida's semantic-domain lexicon, which groups words by usage, places ... (Acts 19:19). Revelation 18:23 ..."
+    - old: "That is Deuteronomy 18 restated for the church -- and it sharpens the definition. The problem is not only the wrong source. It is the refusal of the appointed one."
+      new: "That is Deuteronomy 18 restated for the church."
+    - old: "Sorcery is condemned in Scripture neither because it is fraudulent nor because it is powerful, but because it is a rival route:"
+      new: "Sorcery is condemned in Scripture as a rival route:"
+    - old: "Teach us to bring our unanswered questions to you and to wait, rather than going looking elsewhere when you are silent."
+      new: "Teach us to bring our unanswered questions to you and to wait on you when you are silent."
+    - old: "6. Jesus and Paul both silenced spirits that were telling the truth."
+      new: "6. Paul silenced a spirit that was telling the truth (Acts 16:17-18)."
+  verify: "study_structure.py --verify-against HEAD: added_unexpected holds only the shortened sentences above, the pointer, the outline and the insight lines below. validate: no warnings on sorcery.md (Check 22 and 23 cleared; 'worth fearing' Check 10 cleared). mkdocs build --strict: pass."
+
+insight_2026-09-26:
+  thesis:
+    old: "Deuteronomy 18 forbids every route to hidden knowledge in the same breath it promises the Prophet God would raise up, because sorcery is a rival source of guidance and Christ is the one God has appointed instead."
+    new: "In the same breath that He forbids every route to hidden knowledge, God promises to speak to His people Himself through the Prophet He would raise up, Jesus, so the guidance you need comes by listening to Him."
+  added_sentences:
+    - section: "Key Takeaways / Types & Prophecy (replaces the 'not because ... but because' sentence)"
+      text: "God forbids divination because He intends His people to hear from Him — finally, through His Son Jesus."
+    - section: "The hinge: who you listen to"
+      text: "This shows that God means to be heard: He supplies the voice His people need, so you are never left with only the diviners to listen to."
+    - section: "The word that carries the argument: inquiry"
+      text: "The same verbs show what God wants: He is the One His people are to seek, and He invites the asking. So bring your questions to Him."
+    - section: "What sorcery can and cannot do"
+      text: "This shows that God is sovereign over every rival power: He alone reveals mysteries and confirms His servant's word, so you need not fear what sorcery can do."
+    - section: "Theological principle (replaces 'The alternative to divination was never ignorance. It was, and is, Christ')"
+      text: "God's answer to divination was, and is, Christ — the Prophet like Moses, in whose mouth God put His words, and to whom the whole passage points. This is the doctrine of revelation: God has spoken, and spoken in His Son Jesus, so you may bring every question to Him and listen."
+  notes: "Existing lowercase divine pronouns in untouched sentences were left as they were (changing them would register as prose changes); capitalised only in sentences this pass rewrote."
