@@ -71,6 +71,11 @@ Recommend moves of three kinds, each with the words it saves:
    deletion test: cut the sentence and see whether a fact, a citation or a step in the argument
    went with it. Start with openings, section closers and transitions, where padding collects.
 
+**Reference pages get the same budget.** A catalogue (sites, manuscripts, numbers, events) is
+consumed a topic at a time, so a long one is hard to use as well as hard to read. Break it into
+pages along its own divisions, such as period, region or kind, with a short index page that carries
+the mind map. Don't raise the budget to fit it.
+
 Total the savings and show the projected length against the budget. Forks usually close most of
 the gap. If the study is still over budget after every move you believe in, say so and give the
 reason. An author may set a higher budget; record it in the state file with the reason.
