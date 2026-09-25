@@ -687,11 +687,19 @@ function validateFile(filePath) {
       ? fs.readFileSync(statePath, 'utf8').match(/^word_budget:\s*(\d+)/m)
       : null;
     const budget = stateBudget ? Number(stateBudget[1]) : 4000;
-    if (words > budget) {
+    // The bibliography is consulted, not read, so it does not count against a reading budget.
+    const readWords = body
+      .split(/^## References\b/m)[0]
+      .split('\n')
+      .filter((l) => !/^(\||```|\s{4}|>|#)/.test(l))
+      .join(' ')
+      .split(/\s+/)
+      .filter(Boolean).length;
+    if (readWords > budget) {
       log(
         'warning',
         filePath,
-        `${words} words against a budget of ${budget}. Run the simplify-bible-study skill for a recommendation: fork tangents into their own studies, merge points made more than once, tighten wordy passages. To accept a larger size, set word_budget in references/study-state/${slug}.yml with the reason.`
+        `${readWords} words (References excluded) against a budget of ${budget}. Run the simplify-bible-study skill for a recommendation: fork tangents into their own studies, merge points made more than once, tighten wordy passages. To accept a larger size, set word_budget in references/study-state/${slug}.yml with the reason.`
       );
     }
   }
