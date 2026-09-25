@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-20
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -31,6 +31,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     Understanding fasting
 
     [:octicons-arrow-right-24: Read](fasting.md)
+
+-   __Know the Truth__
+
+    ---
+
+    Truth is God's own firmness, made flesh in His Son Jesus. You know it by abiding in His word, and it frees you from sin and from the father of lies. A study of John 8:31-47.
+
+    [:octicons-arrow-right-24: Read](know-the-truth.md)
 
 -   __The Lord's Prayer: What Jesus Taught Us About How to Pray__
 
