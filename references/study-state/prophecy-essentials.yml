@@ -132,3 +132,23 @@ resources_consulted:
   - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "verified all ESV quotations against study-notes.db; note on Ps 22 read as a check -- it favors reading the psalm as innocent-sufferer lament fulfilled typologically in the Gospels' own use of it, rather than 'straight prediction'; this study presents both framings rather than picking the stronger-sounding one uncritically"}
   - {type: other, title: "J. Barton Payne, Encyclopedia of Biblical Prophecy (1973)", note: "source for the ~27%-of-verses predictive-material figure, used in place of the previous draft's uncited '70%' claim"}
 last_updated: "2026-08-04"
+
+read_2026-09-26:
+  skill: read-bible-study
+  changes:
+    - "Added **In one sentence:** thesis after the opening paragraph, before Key Takeaways."
+    - "Added ## Study outline (7 one-line bullets, descriptive annotations) after Key Takeaways."
+    - "Split 'The manner of his suffering' (548 words) with three #### sub-headings: Isaiah 53; Psalm 22 pierced/lots; Psalm 22 as lament, a contested reading (gives the contested reading its own heading)."
+  sections: {before: 21, after: 25}
+  median_section_words: {before: 101, after: 101}
+  sections_over_400: {before: 1, after: 0}
+  longest_section_words: {before: 548, after: 259}
+  verify: "study_structure.py --verify-against HEAD: clean, removed [], added_unexpected [], added_allowed = thesis only; no sentence changed"
+  validate: "no warnings for this file (Check 22 cleared)"
+  mkdocs_strict: "built clean; all 7 outline anchors resolve in built HTML"
+  unfixed_findings:
+    - "Heading 'Historically fulfilled prophecy: not by squinting' names what the method is not (thesis-antithesis); left because in-text links target its anchor -- author to retitle and update the two links."
+    - "Several thesis-antithesis constructions in prose (e.g. 'not a misquotation', 'not a metaphor for ordinary suffering', 'rather than hidden', 'isn't anxiety -- it's readiness') and 'worth ___' narration ('worth citing precisely', 'worth a look', 'worth reading in full') -- review-bible-study/style pass."
+    - "Study-talks-about-itself lines ('a figure ... this study used to make', 'this study defers to it', 'This study does not re-derive that case') -- author's call."
+    - "Divine pronouns lowercase in the author's own prose ('he', 'his', 'him' for Jesus/God) against AGENTS.md house style -- review pass."
+    - "Review status in this file: review.done false -- this pass verifies nothing."

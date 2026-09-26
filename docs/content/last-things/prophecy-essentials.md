@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 24:27"
 bible_references: ["Micah 5:2", "Matthew 2:1-6", "2 Samuel 5:2", "Isaiah 53:5", "Isaiah 53:9", "Psalm 22:16-18", "John 19:23-24", "Matthew 27:57-60", "Daniel 9:24-27", "Luke 19:41-44", "Matthew 24:1-2", "Matthew 24:14-15", "Matthew 24:21", "Matthew 24:34", "Mark 13:1-8", "Mark 13:14-27", "Mark 13:32", "1 Thessalonians 4:16-17", "1 Thessalonians 5:9", "Revelation 19:11-16", "Revelation 20:1-6", "Colossians 2:16-17"]
 date_created: 2026-07-24
-date_modified: 2026-09-19
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -20,6 +20,8 @@ is worth her time beyond curiosity about the future. The other doesn't believe y
 "Bible prophecy" used as a synonym for reading tea leaves. Both get the same material here, because
 the case for both is the same case: prophecy already kept, checked against source rather than
 assumed, and a plain statement of what Scripture says is still to come.
+
+**In one sentence:** God has already kept specific, checkable prophecies about Jesus — His birthplace, His death and burial, the week of His entry as king, and Jerusalem's fall — and the same God has said what is still ahead: Daniel's seventieth week, the rapture of the church and Christ's thousand-year reign.
 
 ## Key Takeaways
 
@@ -89,6 +91,16 @@ rest on taking it on faith alone -- you've already shown your hand once, in the 
 anyone willing to look. Give me the same readiness you asked of the first disciples: not
 calculating a date, but living each day as though the King who kept every word so far is the same
 King who's coming. Amen.
+
+## Study outline
+
+- [Why prophecy matters](#why-prophecy-matters). Payne's 27% count, and four reasons prophecy carries weight.
+- [Jesus is the key to all prophecy](#jesus-is-the-key-to-all-prophecy). Luke 24:27 on the Emmaus road.
+- [Historically fulfilled prophecy](#historically-fulfilled-prophecy-not-by-squinting). Micah 5:2, Isaiah 53, Psalm 22, Daniel's seventy weeks and Jerusalem's fall in AD 70.
+- [The two Gospel accounts of the end of the age](#the-two-gospel-accounts-of-the-end-of-the-age). The Olivet Discourse in Mark 13 and Matthew 24.
+- [Prophecy yet to come](#prophecy-yet-to-come). Daniel's seventieth week, the pretribulational rapture and the millennial reign.
+- [Larkin's chart](#larkins-chart-the-whole-shape-at-a-glance). The whole framework on one page.
+- [Discussion questions](#discussion-questions). Four, for a group or on your own.
 
 ## Why prophecy matters
 
@@ -179,6 +191,8 @@ Crucifixion as the Romans practiced it on provincial subjects didn't exist yet i
 world -- Rome's rise, and its adoption of that particular Persian/Carthaginian-derived punishment,
 was still centuries away.
 
+#### Isaiah 53: pierced, and buried with a rich man
+
 > ✝️ Isaiah 53:5 (ESV)
 >
 > 5 But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the
@@ -200,6 +214,8 @@ in his own new tomb" (Matthew 27:57, 60, ESV). Jesus was buried in a wealthy dis
 than a common grave.
 
 Isaiah had no need to include that detail if he was describing generic suffering.
+
+#### Psalm 22: pierced hands and feet, and lots cast for clothing
 
 > ✝️ Psalm 22:16-18 (ESV)
 >
@@ -225,6 +241,8 @@ John's Gospel records at the crucifixion, and records independently. "They took 
 four parts... they said to one another, 'Let us not tear it, but cast lots for it
 to see whose it shall be.' This was to fulfill the Scripture which says, 'They divided my garments
 among them, and for my clothing they cast lots'" (John 19:23-24, ESV, quoting Psalm 22:18 directly).
+
+#### Psalm 22 as lament: a contested reading
 
 **Worth naming plainly:** not every scholar reads Psalm 22 as a direct, predictive prophecy of the
 crucifixion. The ESV Study Bible's own note treats it primarily as an individual lament from an
