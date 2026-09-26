@@ -10,6 +10,7 @@ date_created: 2024-04-24
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -92,14 +93,12 @@ name of Jesus, the Prophet you raised up, to whom we listen. Amen.
 
 ## Study outline
 
-1. **The passage** — where the list sits in Deuteronomy, its setting in Canaan, and the nine
-   practices it names.
-2. **The argument** — the listen/listen hinge of verses 14-15, *kāšap* as the nations' word, the
-   inquiry verbs Chronicles and Isaiah use against Saul and Judah, and Isaiah's chirping mediums.
-3. **What sorcery can do** — practitioners who produce something and then hit a wall, and the one
-   word *magos* used for Elymas and for the Magi.
-4. **The New Testament** — *pharmakeia*, three episodes in Acts, and Revelation's four occurrences.
-5. **What carries over** — what binds then and now, and the theological principle.
+1. **The passage** — [Where the prohibition sits](#where-the-prohibition-sits) · [Historical and cultural context](#historical-and-cultural-context) · [Nine practices, named](#nine-practices-named). Where the list sits in Deuteronomy, its setting in Canaan, and the nine practices it names.
+2. **The argument** — [The hinge](#the-hinge-who-you-listen-to) · [The mark of the nations](#sorcery-as-the-mark-of-the-nations) · [Inquiry](#the-word-that-carries-the-argument-inquiry) · [Chirping and muttering](#chirping-muttering-and-words-in-the-mouth). The listen/listen hinge of verses 14-15, *kāšap* as the nations' word, the inquiry verbs Chronicles and Isaiah use against Saul and Judah, and Isaiah's chirping mediums set against the test of a prophet's word.
+3. **What sorcery can do** — [What sorcery can and cannot do](#what-sorcery-can-and-cannot-do) · [Elymas and the Magi](#the-same-word-for-elymas-and-for-the-magi). Practitioners who produce something and then hit a wall, the one word *magos* used for Elymas and for the Magi, and Daniel as chief of the magicians.
+4. **The New Testament** — [Sorcery in the New Testament](#sorcery-in-the-new-testament) · [Sorcery in Revelation](#sorcery-in-revelation). *Pharmakeia*, three episodes in Acts, and Revelation's four occurrences.
+5. **What carries over** — [What binds then, and what binds now](#what-binds-then-and-what-binds-now) · [Theological principle](#theological-principle). What binds then and now, and the theological principle.
+6. [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## Where the prohibition sits
 
@@ -316,6 +315,8 @@ Scripture (Micah 5:2, quoted in Matthew 2:5-6), and end up worshipping Christ. E
 standing to keep a proconsul from hearing the word of God. Luke names him "a Jewish false prophet"
 *and* a magician in the same breath — sorcery and false prophecy in one person, as Deuteronomy 18
 already had them in one passage.
+
+### Daniel, chief of the magicians
 
 This resolves an apparent problem in Daniel. Nebuchadnezzar makes Daniel "chief prefect over all the
 wise men of Babylon" (Daniel 2:48), and Belshazzar's queen recalls that the king had made him "chief

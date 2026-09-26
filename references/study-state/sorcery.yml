@@ -388,3 +388,17 @@ insight_2026-09-26:
     - section: "Theological principle (replaces 'The alternative to divination was never ignorance. It was, and is, Christ')"
       text: "God's answer to divination was, and is, Christ — the Prophet like Moses, in whose mouth God put His words, and to whom the whole passage points. This is the doctrine of revelation: God has spoken, and spoken in His Son Jesus, so you may bring every question to Him and listen."
   notes: "Existing lowercase divine pronouns in untouched sentences were left as they were (changing them would register as prose changes); capitalised only in sentences this pass rewrote."
+
+read_2026-09-26:
+  changes:
+    - "Study outline (from the simplify pass) kept in its five-group shape and wording; each group now links its sections by anchor, every bullet on one line, a Discussion questions bullet added, group 2 annotation extended with 'set against the test of a prophet's word', group 3 with 'and Daniel as chief of the magicians' (descriptive only)."
+    - "Added '### Daniel, chief of the magicians' over the Daniel paragraph inside 'The same word for Elymas and for the Magi' (buried under a heading that did not name it)."
+  sections: "27 -> 28"
+  median_section_words: "132 -> 132"
+  sections_over_400: "0 -> 0"
+  verify: "study_structure.py --verify-against HEAD: added_unexpected empty, added_allowed empty; removed lists three lines, all wrapped continuation lines of the old outline bullets (read as prose by the verifier), no sentence of the study. validate: no warnings on sorcery.md (Check 22 clear). mkdocs build --strict: pass; all 14 outline anchors resolve in the built HTML."
+  findings_for_author_or_review:
+    - "References list describes material the simplify pass cut: TWOT 'skin-bottle gloss ... prompted the homonym caution above' (no homonym caution remains), ESV SB 'caution that 1 Samuel 28 must not be used to license seances', NIV BTSB definition of sorcery in Exodus 22:18, CBSB 'curses not forbidden' / 'ghostwife' sense of ba'alat-'ob -- none now appear in the body."
+    - "'Sorcery in the New Testament' intro says pharmakeia-family words appear 'three times in Revelation (9:21; 18:23; 21:8; with 22:15)'; 'Sorcery in Revelation' says 'four occurrences'. Reconcile the count."
+    - "'The same word for Elymas and for the Magi' names Elymas as a Jewish false prophet twice (once in each paragraph) -- possible merge candidate."
+    - "Not verified: this pass checks structure only; the file had a review pass earlier but the simplify pass (fc436b3) rewrote sentences since."
