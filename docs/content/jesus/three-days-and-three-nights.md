@@ -81,7 +81,7 @@ when I doubt and ask for more evidence.
 You were dead and now you are alive forevermore. I trust you as my Saviour and my God — the one who
 conquered death itself.
 
-Amen.
+In Jesus' name. Amen.
 
 ## Study outline
 
