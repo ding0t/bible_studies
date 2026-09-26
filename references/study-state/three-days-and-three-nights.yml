@@ -831,3 +831,34 @@ insight_2026-09-26:
     The prayer is addressed to Jesus in lowercase "you" throughout (existing text); no sentence was
     added there to avoid mixing capitalisation within one prayer. Author may want to recast it and
     close "In Jesus' name. Amen."
+
+read_2026-09-26:
+  pass: read-bible-study (stranger reader; structure only)
+  sections: 28 -> 28
+  median_section_words: 148 -> 148
+  sections_over_400: 0 -> 0
+  longest_section_words: 378 -> 378
+  opening: thesis ("In one sentence") ~60 words in -- no slow-opening fix needed.
+  changes:
+    - Study outline (added by the simplify pass) converted to the house shape -- one linked bullet per
+      line. Annotation text kept; "Can the crucifixion be dated?" annotation gains "and the year" to
+      cover its "Does this fix the year?" subsection. Added bullets for "Where that leaves it" and
+      "Discussion questions", which the outline had omitted. The "Abraham's side and paradise" bullet
+      now links both ## sections it groups. No heading renamed (nothing in docs/content links into
+      this page by anchor).
+  verify: >
+    study_structure.py --verify-against HEAD: removed lists six fragments ("Sheol and says God
+    brought him up.", "the Friday.", "temporary.", "harvest.", "Wednesday case at its strongest.",
+    "waved on the day after the Sabbath.") -- these are the wrapped continuation lines of the old
+    numbered outline, which the verifier reads as prose; each survives verbatim in the new one-line
+    bullets. added_unexpected: empty. No body sentence changed. npm run validate: Check 22 outline
+    warning absent; only the pre-existing Check 18 (prosabbaton "occurs once") remains. mkdocs build
+    --strict: clean; every href="#..." on the built page resolves to an id.
+  for_author:
+    - Divine pronouns for Jesus are lowercase in the study's own prose throughout ("his own burial",
+      "he was going", "he came back"), against AGENTS.md's capitalisation rule; the insight pass's
+      added sentences capitalise, so the page now mixes both. Needs a review/edit pass.
+    - Prayer still addressed to Jesus in lowercase "you" and closes "Amen." without "In Jesus' name"
+      (already noted under insight_2026-09-26).
+    - Pre-existing items from the simplify pass still open -- the 9-vs-8 "on the third day" count and
+      Check 18.

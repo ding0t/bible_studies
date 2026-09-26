@@ -10,6 +10,7 @@ date_created: 2026-09-06
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -84,18 +85,14 @@ Amen.
 
 ## Study outline
 
-1. **The sign, and what Jonah said it was** — Jesus quotes Jonah 2:1; Jonah calls the fish's belly
-   Sheol and says God brought him up.
-2. **Three days, three appointed times** — Passover, Unleavened Bread and Firstfruits, and the sheaf
-   waved on the day after the Sabbath.
-3. **Sheol and Hades** — one realm of the dead, holding the righteous and the unrighteous, and
-   temporary.
-4. **Abraham's side and paradise** — Luke 16's two conditions, and where Jesus and the thief were on
-   the Friday.
-5. **What those days achieved** — death's holder destroyed, the keys changing hands, the first of a
-   harvest.
-6. **Can the crucifixion be dated?** — the three phrasings, προσάββατον, Luke 24:21, and the
-   Wednesday case at its strongest.
+- [The sign, and what Jonah said it was](#the-sign-and-what-jonah-said-it-was). Jesus quotes Jonah 2:1; Jonah calls the fish's belly Sheol and says God brought him up.
+- [Three days, three appointed times](#three-days-three-appointed-times). Passover, Unleavened Bread and Firstfruits, and the sheaf waved on the day after the Sabbath.
+- [Sheol and Hades](#sheol-and-hades-one-place-two-languages). One realm of the dead, holding the righteous and the unrighteous, and temporary.
+- **Abraham's side and paradise** — [Luke 16's two conditions](#abrahams-side-paradise-and-the-great-chasm), and [where Jesus and the thief were on the Friday](#which-paradise-did-jesus-and-the-thief-go-to).
+- [What those days achieved](#what-those-days-achieved). Death's holder destroyed, the keys changing hands, the first of a harvest.
+- [Can the crucifixion be dated?](#can-the-crucifixion-be-dated) The three phrasings, προσάββατον, Luke 24:21, the Wednesday case at its strongest, and the year.
+- [Where that leaves it](#where-that-leaves-it). The Wednesday and Friday readings set side by side, with what each has to absorb.
+- [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
 ## The sign, and what Jonah said it was
 
