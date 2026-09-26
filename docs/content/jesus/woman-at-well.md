@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 4:1-42"
 bible_references: ["John 3:22-30", "John 7:37-39", "John 1:39", "John 1:46", "John 8:58", "John 19:26", "Jeremiah 2:13", "Jeremiah 17:13", "Zechariah 14:8", "Isaiah 12:3", "Isaiah 44:3", "Ezekiel 47:1-6", "Genesis 24:10-27", "Genesis 29:1-12", "Exodus 2:15-21", "Deuteronomy 18:15-18", "Deuteronomy 27:4", "Deuteronomy 11:29", "2 Kings 17:24-41", "Genesis 33:18-20", "Joshua 24:32", "Exodus 3:14", "Luke 14:5", "Revelation 9:1-2"]
 date_created: 2025-04-25
-date_modified: 2026-09-19
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -27,6 +27,8 @@ waters, and cut out cisterns for themselves" (Jeremiah 2:13, WEB).**
 
 She asks for it anyway as a labour-saving device — "give me this water, so that I will not be
 thirsty or have to come here to draw water" (4:15) — and Jesus answers by asking about her husband.
+
+**In one sentence:** Jesus is the spring of living waters that Israel forsook for cisterns, and He gives the Holy Spirit as a free gift that wells up inside whoever asks; He moves worship off every mountain to the Father Himself, so you may come to God fully known and worship Him in spirit and truth.
 
 ## Key Takeaways
 
@@ -101,6 +103,16 @@ place. You are the spring my people traded for cisterns we cut ourselves. I have
 found them empty. Give me the water you offered her — not a supply I have to keep returning for, but
 a spring you set inside me. And when you tell me the truth about what I have done, let me hear it
 the way she did, as the reason to keep talking to you rather than the reason to stop. Amen.
+
+## Study outline
+
+- [Where this sits in John](#where-this-sits-in-john). Nicodemus and the woman as a pair, the bridegroom, and why Jesus "had to" go through Samaria.
+- [The two words English calls "well"](#the-two-words-english-calls-well). πηγή and φρέαρ, then [Jeremiah's two evils](#jeremiahs-two-evils), [living water](#living-water-and-the-misunderstanding), [what she asks for](#what-she-asks-for-instead) and [what the English versions do with it](#what-the-english-versions-do-with-it).
+- [Five husbands](#five-husbands-a-count-of-marriages). The allegorical reading of 2 Kings 17, and what John's text supports.
+- [Worship: the question relocated](#worship-the-question-relocated). Gerizim and Deuteronomy 27:4, then *where* one must worship turned into *how*.
+- ["I am, the one speaking to you"](#i-am-the-one-speaking-to-you). The first ἐγώ εἰμι in John, and whether it carries Exodus 3:14.
+- [A hesitant witness, and a two-day stay](#a-hesitant-witness-and-a-two-day-stay). The water jar, her question expecting *no*, and a town that believed.
+- [The theological principle](#the-theological-principle) and [discussion questions](#discussion-questions). Five questions, for a group or on your own.
 
 ## Where this sits in John
 
@@ -241,7 +253,7 @@ version prints "well" here, the promise reads as Jesus giving her *her own well*
 convenience, which is precisely the thing she asks for in the next verse and does not get. Read the
 ESV or NIV at 4:14; at 4:6 and 4:11 no English version will help.
 
-## Five husbands, and what the number is not doing
+## Five husbands: a count of marriages
 
 > ✝️ John 4:17-19 (ESV)
 >

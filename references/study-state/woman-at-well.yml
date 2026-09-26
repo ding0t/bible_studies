@@ -261,3 +261,26 @@ rewrite_2026-09-07:
   still_outstanding: >
     A full review-bible-study pass has still not been run on this study (Phases 2, 5, 6, 8).
   last_updated: "2026-09-07"
+
+read_2026-09-26:
+  skill: read-bible-study
+  sections: "22 -> 23 (added ## Study outline)"
+  median_section_words: "154 -> 154"
+  sections_over_400_words: "0 -> 0 (longest 256, A hesitant witness)"
+  changes: >
+    Added a one-line **In one sentence:** thesis after the opening (the existing bold opening
+    paragraph states the phrear/pege finding but not what it means for the reader). Added a
+    ## Study outline after Key Takeaways, seven one-line bullets, descriptive annotations only;
+    the four sub-sections of "The two words English calls well" are grouped on one bullet.
+    Renamed "## Five husbands, and what the number is not doing" to "## Five husbands: a count of
+    marriages" (heading named what the section is not; no inbound anchor links existed).
+  verify: >
+    study_structure.py --verify-against HEAD: clean, removed [], added_unexpected [],
+    added_allowed = the thesis line only. validate: no warnings for this file (Check 22 gone).
+    mkdocs build --strict passed; all 12 outline anchors resolve in the built HTML.
+  findings_not_fixed: >
+    Thesis-antithesis constructions in existing prose, left for the author/review: the opening's
+    "not a nearer shaft but a spring", Lessons bullet "He is the spring itself, not a route to one",
+    "Not a better shaft, and not an easier walk" (The two words section), and "received as a gift
+    rather than earned or reached" (The theological principle). Opening is not slow: bold thesis
+    sits ~40 words in. This pass verifies nothing; a full review-bible-study pass is still outstanding.
