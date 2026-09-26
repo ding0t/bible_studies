@@ -2,9 +2,26 @@ slug: "immediately-after"
 title: "Immediately After: Daniel's Seventieth Week and the Olivet Discourse"
 status: drafting
 target_path: "docs/content/last-things/immediately-after.md"
-primary_passage: "Matthew 24:15-31"
+primary_passage: "Matthew 24:29-31; Daniel 9:24-27"
 forked_from: "docs/content/last-things/olivet-discourse.md"
+genre: "Gospel discourse (apocalyptic, Matthew 24) read against OT apocalyptic prophecy (Daniel 9)"
 point: "Matthew 24:29's 'immediately' rules out a gap after the distress; Daniel 9:24-27's own sequence puts the long interval between 24:14 and 24:15."
+thesis: >
+  God has fixed Israel's calendar in seventy sevens; sixty-nine ran to the cross, the church age runs
+  in the gap Daniel's own sequence leaves before the seventieth, and Matthew 24:29's "immediately"
+  joins the return of Jesus to the end of that last week's distress, so the God who kept sixty-nine
+  weeks to the letter will keep the seventieth and send His Son at once.
+outline:
+  - "Hook: Daniel counting Jeremiah's seventy years (9:2, 19); the disciples' 'when' on Olivet (Matt 24:3); Matt 24:29-30 quoted; In one sentence."
+  - "Key Takeaways: prophecy of 9:24-27 (two parts fulfilled, one future); Jesus as the anointed one, reader of the gap, and the one who comes at once; memory verses Dan 9:24, Matt 24:30; Be Transformed; prayer."
+  - "Two passages in their setting: Daniel 9's date, prayer and Gabriel's six purposes (kapper, 'to atone'); Matthew 24's question and the verse-15 turn."
+  - "Where the gap cannot sit: eutheos (13x in Matthew, e.g. 4:20, 26:74), Mark 13:24, AD 70's limited place; the two readings named by NIV BTSB, this study taking the second."
+  - "Two mountain peaks: Luke 4 / Isaiah 61; Larkin as historical witness; discourse diagram; the gap placed before verse 15."
+  - "Where the gap does sit: Daniel's three events in order; the contested 'he' of 9:27 with all three ESV SB readings; Larkin's seventy-weeks chart."
+  - "The church age, the ruler, and the times of the Gentiles: Romans 11:25-26; 2 Thess 2:3-4; Luke 21:24 with Daniel 2:44; full-sequence diagram; rapture's dashed arrow."
+  - "What this shows about God: He keeps His calendar (9:26-27 'decreed'); He limits the distress for the elect (24:22, 31); He finishes what the cross began (9:24)."
+  - "Discussion Questions (six facets: language, context x2, Christ/prophecy, hard part, transformed); References."
+word_budget: 4000
 stages:
   forked:
     done: true
@@ -12,8 +29,197 @@ stages:
       Forked verbatim on 2026-09-26 (simplify-bible-study, readability-sweep-2026-09) from
       docs/content/last-things/olivet-discourse.md at commit dda393c: ### Where this sits on the timeline + ## "Immediately After" + ## Where the Discourse Sits in God's Whole Programme. Word studies and
       quotations were verified there (see olivet-discourse.yml review blocks) and are not redrafted.
-      Needs develop-bible-study for its own opening, "In one sentence:" thesis, Key Takeaways and
-      discussion questions; draft: true until then. When published, turn the plain-text pointer in
-      olivet-discourse.md into a link.
-open_questions: []
+  scope:
+    done: true
+    notes: >
+      Primary passage set to Matthew 24:29-31 with Daniel 9:24-27 (the fork had Matthew 24:15-31).
+      The study's argument turns on 24:29's eutheos and on Daniel 9's sequence; 24:15-28 is cited,
+      and treated fully in the parent.
+  historical_context:
+    done: true
+    notes: >
+      Daniel 9: first year of Darius (9:1), 539 BC per ESV SB note on 9:1-27; Daniel reading
+      Jeremiah's seventy years (9:2), confession and plea (9:19). Matthew 24: Olivet, disciples'
+      three-part question (24:3); ESV SB note on 24:15-31 for the verse-15 turn.
+  literary_context:
+    done: true
+    notes: >
+      Daniel 9:24-27 as Gabriel's answer to the prayer (9:20-27); six purposes in 9:24; three events in
+      9:25-27 in order. Matthew 24:4-14 (the age), 15-28 (the distress), 29-31 (the coming); Mark
+      13:24 parallel lacks eutheos but places the signs "in those days, after that tribulation".
+  word_studies:
+    done: true
+    notes: >
+      eutheos G2112: 13x in Matthew (SBLGNT), always immediate sequence (4:20, 26:74 cited).
+      shavu'im H7620 "sevens" (9:24); kapper H3722 "to atone" (9:24); mashiach H4899 (9:26);
+      'am nagid habba (9:26). Moved text's word work (eutheos gloss, Daniel quotations) verified in
+      the parent.
+  hermeneutics:
+    done: true
+    notes: >
+      Consistent with statement-of-faith.md "End times": seven-year tribulation = Daniel 9:27's week,
+      pretribulational rapture, literal return, millennium. No conflict found. The 9:27 "he" is
+      marked contested with all three ESV SB readings stated.
+  cross_reference:
+    done: true
+    notes: >
+      cross_study_claims.py "Daniel 9" run: chronology-anchors.md and prophecy-essentials.md date the
+      69 weeks from 444/445 BC to AD 32/33; Larkin's chart caption gives AD 30 for the cross. The
+      draft now says Larkin's AD 30 is his own date and links chronology-anchors.md. No other
+      contradiction found.
+  draft:
+    done: true
+    notes: >
+      2026-09-26: opening hook, thesis, Key Takeaways, Study outline, setting section, theology
+      section, discussion questions and References added; moved text tightened and recased (He/His
+      for Jesus), parent-context phrases ("this study already...", "the abomination left one piece")
+      rewritten, antithesis constructions removed. ~3,500 body words (prose, excluding mermaid).
+  validate:
+    done: true
+    notes: >
+      npm run validate: only the three provenance warnings (fields deliberately omitted on a draft).
+      Check 15 (block-quote share of opening) cleared by quoting 24:29-30 only. mkdocs build
+      --strict clean. study_structure.py: every section "ok".
+evidence:
+  - id: mt2429-esv
+    what: the eutheos verse, block-quoted
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 29, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Immediately after the tribulation of those days the sun will be darkened"
+    checked: 2026-09-26
+  - id: mt2430-esv
+    what: memory verse and block quote
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 30, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "they will see the Son of Man coming on the clouds of heaven with power and great glory"
+    checked: 2026-09-26
+  - id: mt2431-esv
+    what: 24:31 "gather his elect from the four winds"
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 31, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "gather his elect from the four winds"
+    checked: 2026-09-26
+  - id: euthe-matt-occurrences
+    what: eutheos occurs 13 times in Matthew (SBLGNT)
+    tool: bible_concordance
+    args: {strongs: G2112, book: Matt, work_id: macula-greek-sblgnt}
+    expect_count: 13
+    checked: 2026-09-26
+  - id: mt420-esv
+    what: 4:20 "Immediately they left their nets"
+    tool: study_verse
+    args: {book: Matt, chapter: 4, verse: 20, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Immediately they left their nets"
+    checked: 2026-09-26
+  - id: mt2674-esv
+    what: 26:74 "immediately the rooster crowed"
+    tool: study_verse
+    args: {book: Matt, chapter: 26, verse: 74, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "And immediately the rooster crowed"
+    checked: 2026-09-26
+  - id: mk1324-esv
+    what: Mark's parallel, no eutheos
+    tool: study_verse
+    args: {book: Mark, chapter: 13, verse: 24, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "in those days, after that tribulation, the sun will be darkened"
+    checked: 2026-09-26
+  - id: mt243-esv
+    what: the disciples' question (hook)
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 3, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Tell us, when will these things be, and what will be the sign of your coming and of the end of the age?"
+    checked: 2026-09-26
+  - id: mt2414-esv
+    what: 24:14 gospel to all nations
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 14, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "throughout the whole world as a testimony to all nations"
+    checked: 2026-09-26
+  - id: mt2422-esv
+    what: 24:22 days cut short for the elect
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 22, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "if those days had not been cut short, no human being would be saved. But for the sake of the elect those days will be cut short."
+    checked: 2026-09-26
+  - id: dan92-esv
+    what: hook -- Daniel perceived Jeremiah's seventy years
+    tool: study_verse
+    args: {book: Dan, chapter: 9, verse: 2, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "must pass before the end of the desolations of Jerusalem, namely, seventy years"
+    checked: 2026-09-26
+  - id: dan919-esv
+    what: hook -- Daniel's plea
+    tool: study_verse
+    args: {book: Dan, chapter: 9, verse: 19, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "O Lord, hear; O Lord, forgive. O Lord, pay attention and act. Delay not"
+    checked: 2026-09-26
+  - id: dan924-esv
+    what: memory verse; the six purposes
+    tool: study_verse
+    args: {book: Dan, chapter: 9, verse: 24, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "to finish the transgression, to put an end to sin, and to atone for iniquity, to bring in everlasting righteousness"
+    checked: 2026-09-26
+  - id: dan926-esv
+    what: 9:26 "Desolations are decreed"
+    tool: study_verse
+    args: {book: Dan, chapter: 9, verse: 26, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Desolations are decreed."
+    checked: 2026-09-26
+  - id: dan927-esv
+    what: 9:27 "the decreed end is poured out on the desolator"
+    tool: study_verse
+    args: {book: Dan, chapter: 9, verse: 27, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "until the decreed end is poured out on the desolator"
+    checked: 2026-09-26
+  - id: rom1125-esv
+    what: Romans 11:25 "until the fullness of the Gentiles has come in"
+    tool: study_verse
+    args: {book: Rom, chapter: 11, verse: 25, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "a partial hardening has come upon Israel, until the fullness of the Gentiles has come in"
+    checked: 2026-09-26
+  - id: dan924-kapper
+    what: 9:24 "to atone" is kapper (H3722); "sevens" is shavu'im (H7620)
+    tool: bible_interlinear
+    args: {book: Dan, chapter: 9, verse: 24}
+    path: "text"
+    expect_contains: "Seventy sevens have been determined for your people"
+    checked: 2026-09-26
+  - id: dan926-nagid
+    what: 9:26 mashiach cut off; 'am nagid habba "the people of the coming ruler"
+    tool: bible_interlinear
+    args: {book: Dan, chapter: 9, verse: 26}
+    path: "text"
+    expect_contains: "the people of the coming ruler will destroy"
+    checked: 2026-09-26
+open_questions:
+  - >
+    Larkin chart date: the moved caption dates "Daniel's 'Seventy Weeks'" to 1919, while the prose
+    (following another page on this site) cites Dispensational Truth as 1918, expanded 1920. The
+    caption was verified in the parent; the author may want to confirm which edition the scanned
+    chart comes from.
+  - >
+    The ESV SB 9:27 note's first reading (the Messiah as covenant-maker) is stated with its case. The
+    draft's reply rests on 9:27's covenant-maker being linked to the abominations; an author read of
+    whether that is fairly put would help.
+  - >
+    Body is ~3,500 words, above the brief's 1,500-3,000 aim and inside the 4,000 budget. If trimming,
+    the "Two ways to read it" subsection and the 1948/1967 paragraph are the likeliest candidates.
+  - >
+    When published, turn the plain-text pointer in olivet-discourse.md ("a separate study,
+    *Immediately After* (in preparation)") into a link.
 last_updated: "2026-09-26"

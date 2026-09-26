@@ -1,11 +1,11 @@
 ---
 title: "Immediately After: Daniel's Seventieth Week and the Olivet Discourse"
 category: "prophecy"
-description: "Matthew 24:29's \"immediately\" rules out a gap between the distress and the coming; Daniel 9:24-27's own sequence puts the long interval earlier, between verses 14 and 15."
-tags: ["matthew", "daniel", "tribulation", "dispensationalism", "chart", "larkin"]
+description: "Matthew 24:29's \"immediately\" joins the Son of Man's coming to the end of the great distress; Daniel 9:24-27's own sequence puts the long interval earlier, between the cross and the seventieth week, where the church age runs."
+tags: ["matthew", "daniel", "tribulation", "dispensationalism", "chart", "larkin", "lang/greek", "lang/hebrew"]
 draft: true
-primary_passage: "Matthew 24:15-31"
-bible_references: ["Matthew 24:15-31", "Daniel 9:24-27", "Daniel 2:44", "Luke 21:24", "Luke 4:16-21", "Isaiah 61:1-2", "2 Thessalonians 2:3-4", "1 Corinthians 15:51", "Revelation 20:1-15", "2 Peter 3:7-13", "Zechariah 14:4"]
+primary_passage: "Matthew 24:29-31; Daniel 9:24-27"
+bible_references: ["Matthew 24:1-31", "Daniel 9:1", "Matthew 4:20", "Matthew 26:74", "Mark 13:24", "Daniel 9:2", "Daniel 9:19", "Daniel 9:24-27", "Daniel 2:44", "Luke 21:20-24", "Luke 4:16-21", "Isaiah 61:1-2", "2 Thessalonians 2:3-4", "1 Thessalonians 4:16-17", "2 Thessalonians 2:1", "1 Corinthians 15:51", "Romans 11:25-26", "Hebrews 10:1-9", "Daniel 7:13-14", "Daniel 12:1", "Revelation 7:14", "Revelation 19:11-16", "Revelation 21:1-4", "Revelation 20:1-15", "2 Peter 3:7-13", "Zechariah 14:4"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
 ai_provider_models:
@@ -14,60 +14,165 @@ ai_provider_models:
 
 # Immediately After: Daniel's Seventieth Week and the Olivet Discourse
 
-*(Forked verbatim from [The Olivet Discourse](olivet-discourse.md) during the
-2026-09-26 simplify pass. Needs its own opening and Key Takeaways via develop-bible-study.)*
+In 539 BC Daniel was reading Jeremiah and counting. He "perceived in the books the number of years
+that... must pass before the end of the desolations of Jerusalem, namely, seventy years" (Daniel 9:2,
+ESV), and he prayed for his city: "O Lord, hear; O Lord, forgive... Delay not" (9:19, ESV). God
+answered with a longer count, seventy sevens. Nearly six centuries later four disciples sat with Jesus
+on the Mount of Olives and asked the same kind of question: "Tell us, when will these things be, and
+what will be the sign of your coming and of the end of the age?" (Matthew 24:3, ESV). Jesus answered
+them out of Daniel, and one word in His answer settles where the long wait falls.
 
-Where this sits on the discourse's own timeline matters, and it is not inside the distress described
-from verse 15. It falls in the interval between the age of verses 4-14 and that distress — the gap
-Daniel's count leaves between the sixty-ninth week and the seventieth. The temple prophecy was kept
-in full, on a dated calendar, by an eyewitness record. What it was not is the great tribulation, for
-the reason verse 29 gives.
+> ✝️ Matthew 24:29-30 (ESV)
+>
+> 29 "Immediately after the tribulation of those days the sun will be darkened, and the moon will not
+> give its light, and the stars will fall from heaven, and the powers of the heavens will be shaken.
+> 30 Then will appear in heaven the sign of the Son of Man, and then all the tribes of the earth will
+> mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory.
 
-## "Immediately After": Where the Gap Actually Sits
+**In one sentence:** God has fixed Israel's calendar in seventy sevens; sixty-nine ran to the cross,
+the church age runs in the gap Daniel's own sequence leaves before the seventieth, and Matthew 24:29's
+"immediately" joins the return of Jesus to the end of that last week's distress, so the God who kept
+sixty-nine weeks to the letter will keep the seventieth and send His Son at once.
+
+## Key Takeaways
+
+### Types & Prophecy
+
+Daniel 9:24-27 is direct prophecy. Sixty-nine sevens run "to the coming of an anointed one" (9:25),
+who is then "cut off" (9:26), fulfilled at the cross. The city and sanctuary fall to "the people of
+the prince who is to come" (9:26), fulfilled in AD 70. The seventieth week (9:27) is still ahead, and
+Jesus places its abomination immediately before His own coming (Matthew 24:15, 29-30).
+
+### Lessons about Jesus
+
+- **Jesus is the anointed one Daniel counted to.** The sixty-nine weeks end at the Messiah, and the
+  Messiah is "cut off and shall have nothing" (Daniel 9:26, ESV). The atonement Daniel 9:24 promised
+  was made at the cross.
+- **Jesus reads prophecy with the gap in view.** At Nazareth He read Isaiah 61 and stopped before
+  "the day of vengeance" (Luke 4:16-21), because that half was still future.
+- **Jesus comes the moment the distress ends.** "Immediately after the tribulation of those days"
+  (Matthew 24:29, ESV), the Son of Man appears on the clouds and gathers His elect.
+
+### Memory verses
+
+> ✝️ [Daniel 9:24 (ESV)](https://www.blueletterbible.org/esv/Dan/9/24)
+>
+> 24 "Seventy weeks are decreed about your people and your holy city, to finish the transgression, to
+> put an end to sin, and to atone for iniquity, to bring in everlasting righteousness, to seal both
+> vision and prophet, and to anoint a most holy place.
+
+> ✝️ [Matthew 24:30 (ESV)](https://www.blueletterbible.org/esv/Mat/24/30)
+>
+> 30 Then will appear in heaven the sign of the Son of Man, and then all the tribes of the earth will
+> mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory.
+
+### Be Transformed
+
+- **Think.** God keeps time. Sixty-nine of Daniel's weeks ran out exactly as Gabriel said, so the
+  seventieth will too, and the wait you live in has an end God has already fixed.
+- **Attitude.** Wait for Jesus with settled hope. The church age sits inside God's plan: Israel's
+  hardening lasts "until the fullness of the Gentiles has come in" (Romans 11:25, ESV).
+- **Do.** Read Daniel 9 alongside Matthew 24 this week, and pray Daniel's prayer for Jerusalem and
+  for the people God has not forgotten.
+
+### Prayer
+
+Father, You set the times for Your people and Your holy city, and You have never missed an appointed
+day. Thank You for sending Your Son Jesus, the anointed one, to be cut off for us and to atone for our
+iniquity. Keep us faithful in the time You have given the church, and keep our eyes on the clouds He
+will come on. Hasten the day when He gathers His elect and reigns.
+
+In Jesus' name. Amen.
+
+## Study outline
+
+- [Two passages in their setting](#two-passages-in-their-setting). Daniel's prayer and Gabriel's
+  answer; the question on the Mount of Olives.
+- [Where the gap cannot sit](#where-the-gap-cannot-sit). What εὐθέως means, and the two ways
+  commentators handle it.
+- [Two mountain peaks](#two-mountain-peaks). Near and far fulfilment in one sentence, from Isaiah 61
+  and Larkin's chart.
+- [Where the gap does sit](#where-the-gap-does-sit). Daniel's three events in order, the contested
+  "he" of 9:27, and Larkin's seventy-weeks chart.
+- [The church age, the ruler, and the times of the Gentiles](#the-church-age-the-ruler-and-the-times-of-the-gentiles).
+  What fills the gap and who ends it, with the whole sequence drawn out.
+- [What this shows about God](#what-this-shows-about-god). A God who keeps His calendar, limits the
+  distress, and finishes the atonement's work.
+- [Discussion Questions](#discussion-questions). Six, for a group or on your own.
+
+## Two passages in their setting
+
+### Daniel's prayer and Gabriel's answer
+
+Daniel 9 is dated to "the first year of Darius" (9:1), 539 BC on the *ESV Study Bible*'s reckoning
+(note on 9:1-27), when Daniel was an old man in Babylon. Jeremiah's seventy years were nearly up, and
+Daniel confessed Israel's sin and asked God to restore the city "called by your name" (9:19, ESV).
+
+Gabriel answered with a count in שָׁבֻעִים (*shavu'im*, "sevens" or "weeks"). The seventy sevens are
+"decreed about your people and your holy city" (9:24, ESV), and they carry six purposes: to finish the
+transgression, to put an end to sin, "to atone for iniquity," to bring in everlasting righteousness,
+to seal vision and prophet, and to anoint a most holy place. "To atone" is כַפֵּר (*kapper*), the verb
+of the Day of Atonement. Daniel asked for his city to be rebuilt; God answered with the whole plan for
+dealing with Israel's sin.
+
+### The question on the Mount of Olives
+
+Matthew 24 opens with Jesus predicting the temple's fall (24:1-2) and the disciples asking when, and
+what sign would mark His coming and the end of the age (24:3). The *ESV Study Bible* marks the turn
+at verse 15: Jesus "moves from the general characteristics of this age to describe the 'great
+tribulation' (vv. 15-28) that will precede the coming of the Son of Man (vv. 29-31)" (note on
+24:15-31). Verses 4-14 describe the age itself: deception, war, famine, persecution, and a gospel
+preached "throughout the whole world as a testimony to all nations" (24:14, ESV). Verse 15 names
+Daniel by name, and from there the discourse runs on Daniel's calendar. The full walk-through of the
+discourse is in [The Olivet Discourse](olivet-discourse.md).
+
+## Where the gap cannot sit
 
 ### What "immediately" means for the timeline
 
-"Immediately after the tribulation of those days the sun will be darkened" (24:29, ESV). εὐθέως —
-*immediately*. It is the hardest word in the chapter for anyone building a timeline, and it is the
-word most schemes quietly walk past.
+"Immediately after the tribulation of those days the sun will be darkened" (24:29, ESV). εὐθέως
+(*eutheōs*) is *immediately*, and Matthew uses it thirteen times. It is the word for the fishermen who
+"immediately... left their nets" (4:20, ESV) and for the rooster that crowed "immediately" after
+Peter's third denial (26:74, ESV). Each time, the second event follows the first at once.
 
-It rules out putting a long gap **here**, between the distress of verses 15-28 and the coming of
-verses 29-31. Whatever that distress is, the Son of Man follows it at once.
+That rules out a long gap **here**, between the distress of verses 15-28 and the coming of verses
+29-31. Whatever that distress is, the Son of Man follows it at once. Mark's parallel has no
+εὐθέως and puts the signs "in those days, after that tribulation" (Mark 13:24, ESV), inside the same
+days as the distress.
 
-That is not an argument against AD 70 having any place in these verses. This study already gave it
-one at verse 15, following the *ESV Study Bible*'s reading that the abomination finds its complete
-fulfilment in both the Roman destruction and the last days. The argument is against AD 70 being *all*
-they refer to. If the distress verse 29 follows had been exhausted in 70, the sun should have darkened
-and the Son of Man appeared while that generation was still alive; instead the "immediately" would be
-carrying nineteen centuries and still counting, with no stated end.
+AD 70 keeps its place in these verses. [The Olivet Discourse](olivet-discourse.md#the-abomination-of-desolation)
+gives it one at verse 15, following the *ESV Study Bible*'s reading that the abomination finds its
+complete fulfilment in both the Roman destruction and the last days. The word "immediately" limits
+how much of verses 15-28 AD 70 can carry. If the distress verse 29 follows had been exhausted in 70,
+the sun should have darkened and the Son of Man appeared while that generation was still alive;
+instead the "immediately" would be carrying nineteen centuries and still counting, with no stated
+end.
 
-The *NIV Biblical Theology Study Bible* names the two ways out: either "the distress of those days...
-in some sense continues all the way until Jesus' second coming", or the abomination "will be reenacted
-on a more awful scale just before Christ's return" (note on 24:29-51). This study takes the second. It
-costs nothing at verse 29 — the distress that verse follows is the future one, and the coming does
-follow it at once — while AD 70 stands behind it as the foreshadowing verse 15 allows, not as the
-thing itself.
+### Two ways to read it
 
-### The gap's real location
+This is a contested verse, and the *NIV Biblical Theology Study Bible* names the two ways through it:
+either "the distress of those days... in some sense continues all the way until Jesus' second coming",
+or the abomination "will be reenacted on a more awful scale just before Christ's return" (note on
+24:29-51). The first reading keeps AD 70 as the distress and stretches it across the whole age. This
+study takes the second, which lets "immediately" mean what it means everywhere else in Matthew: the
+distress verse 29 follows is the future one, the coming does follow it at once, and AD 70 stands
+behind it as the foreshadowing verse 15 allows.
 
-The long interval is real, but it sits **earlier** — between the age Jesus describes in verses 4-14
-and the distress that begins at verse 15. That is where Daniel's own count leaves a gap, between the
-sixty-ninth week and the seventieth, as [Where the Discourse Sits in God's Whole
-Programme](#where-the-discourse-sits-in-gods-whole-programme) works out below and as Larkin's chart
-draws it. Placing the gap at verse 29 instead puts it inside a word that means the opposite.
+## Two mountain peaks
 
-### Two mountain peaks
-
-Jesus telescopes near and far into one description without marking the join, and he had done it
-before. In the Nazareth synagogue he read Isaiah 61:1-2 aloud and stopped mid-sentence, before "the
+Jesus telescopes near and far into one description without marking the join, and He had done it
+before. In the Nazareth synagogue He read Isaiah 61:1-2 aloud and stopped mid-sentence, before "the
 day of vengeance of our God," then said "today this Scripture has been fulfilled in your hearing"
 (Luke 4:21). Isaiah's own sentence runs the near and far together. Jesus read as far as the part then
 being fulfilled and closed the scroll.
 
-Clarence Larkin drew the effect as a landscape: a prophet looking forward sees two mountain peaks
-lined up one behind the other, with the valley between them hidden entirely from that angle. "We see
-the 'mountain peaks' and 'valleys' from the side, and so can separate the first and second coming
-prophecies" — a vantage the prophets themselves did not have.
+Clarence Larkin (1850-1924), a Baptist pastor who drew prophecy charts for *Dispensational Truth*
+(1918; expanded 1920), pictured the effect as a landscape. His charts are a historical witness to how
+early dispensationalists read these texts, cited here because they draw the sequence clearly; the
+argument rests on Daniel and Matthew. A prophet looking forward sees two mountain peaks lined up
+one behind the other, with the valley between them hidden from that angle. "We see the 'mountain
+peaks' and 'valleys' from the side, and so can separate the first and second coming prophecies" — a
+vantage the prophets themselves did not have.
 
 ![Larkin: The "Mountain Peaks" of Prophecy](../assets/img/larkin/mountain-peaks-of-prophecy.gif)
 
@@ -86,27 +191,48 @@ flowchart TD
     G --> H["Elect gathered<br/>(24:31)"]
 ```
 
+The long interval is real, and it sits **earlier**, between the age Jesus describes in verses 4-14 and
+the distress that begins at verse 15. AD 70 falls inside it: the temple prophecy of 24:1-2 was kept in
+full, on a dated calendar, by an eyewitness record (see [The Olivet
+Discourse](olivet-discourse.md#ad-70-question-one-answered-and-documented)). Daniel's own count leaves
+the gap there, between the sixty-ninth week and the seventieth, as the next section works out.
 
-## Where the Discourse Sits in God's Whole Programme
+## Where the gap does sit
 
 ### The gap Daniel's sequence leaves
 
-The abomination of desolation left one piece of Daniel unaccounted for, and it is the piece that
-organises everything still ahead.
-
-Daniel's sequence, read in its own order, generates the gap. Sixty-nine weeks — sevens of years — run
+Daniel's sequence, read in its own order, generates the gap. Sixty-nine weeks, sevens of years, run
 "from the going out of the word to restore and build Jerusalem to the coming of an anointed one"
 (9:25). "After the sixty-two weeks," that is, after all sixty-nine, "an anointed one shall be cut off
-and shall have nothing" (9:26): the crucifixion. *Then* the text turns to "the people of the prince
-who is to come," who "destroy the city and the sanctuary" (9:26): AD 70, the Roman armies under Titus.
-Only after all of that does the seventieth week appear, and it is tied to neither event but to a
-third, still future: "he shall make a strong covenant with many for one week, and for half of the week
-he shall put an end to sacrifice and offering. And on the wing of abominations shall come one who
-makes desolate" (9:27, ESV).
+and shall have nothing" (9:26): the crucifixion. The anointed one is מָשִׁיחַ (*mashiach*), the word
+behind "Messiah." *Then* the text turns to "the people of the prince who is to come," who "destroy the
+city and the sanctuary" (9:26): AD 70, the Roman armies under Titus. Only after all of that does the
+seventieth week appear, and it is tied to a third event, still future: "he shall make a strong
+covenant with many for one week, and for half of the week he shall put an end to sacrifice and
+offering. And on the wing of abominations shall come one who makes desolate" (9:27, ESV).
 
-Nothing in Daniel's sentence requires that covenant to follow AD 70 immediately. Three events, in
-sequence, separately timed; two have happened. Larkin charted exactly this, and labelled the space
-between them:
+Daniel's sentence sets no clock between AD 70 and that covenant. Three events, in sequence,
+separately timed; two have happened. How the sixty-nine weeks are dated to the cross is worked out in
+[Chronology Anchors](chronology-anchors.md).
+
+### Whose covenant? The contested "he" of 9:27
+
+Who "he" is in 9:27 is contested, and the *ESV Study Bible* sets out three readings (note on 9:27).
+One takes "he" as the Messiah: His death ended the atoning sacrifices (Hebrews 10:1-9 is its support),
+and the covenant is the new covenant. A second takes "he" as a hostile ruler whose armies destroy the
+temple in AD 70. The third, the dispensational reading this study holds, takes "he" as a future ruler
+at the end of the church age, and reasons that if the sixty-nine weeks end at the cross and Jesus
+returns after the seventieth to judge the desolator, a gap must lie between them.
+
+The nearest person named before "he" is "the prince who is to come" (<span dir="rtl">עַם נָגִיד
+הַבָּא</span>, *'am nagid habba*, "the people of the coming prince"), whose people destroy the city.
+That favours a ruler, which the second and third readings share. What decides between those two is
+Jesus: He takes the "abomination of desolation spoken of by the prophet Daniel" (Matthew 24:15, ESV)
+and has the Son of Man appear "immediately after" the distress it opens (24:29). The first reading
+has the cross in its favour, and careful readers hold it; its cost is that the covenant-maker of 9:27
+is the same figure who brings "abominations" and desolation.
+
+Larkin charted the dispensational reading and labelled the space between the weeks:
 
 ![Larkin: Daniel's "Seventy Weeks" — the sixty-nine weeks, the gap, and the seventieth week](../assets/img/larkin/daniels-seventy-weeks.gif)
 *Clarence Larkin, "Daniel's 'Seventy Weeks'" (1919), public domain. Larkin marks the 7 weeks (49
@@ -115,22 +241,30 @@ AD 30, the destruction of Jerusalem at AD 70, and then the "Gap Between the 69th
 noting across it that "the present dispensation of 'the Church' was not revealed to Daniel." Daniel
 2's image runs the length of the chart as "the times of the Gentiles" (Luke 21:24), and the seventieth
 week closes at Zechariah 14:4 — the Mount of Olives. From
-[clarencelarkincharts.com](http://clarencelarkincharts.com/).*
+[clarencelarkincharts.com](http://clarencelarkincharts.com/). Larkin's AD 30 for the cross is his own
+date; this site's reckoning is in [Chronology Anchors](chronology-anchors.md).*
 
-### The church age, and the ruler to come
+## The church age, the ruler, and the times of the Gentiles
 
-The church age sits in that gap: real, but outside Daniel's count, which is a count of weeks
-"decreed about your people and your holy city" (9:24, ESV) — Israel and Jerusalem, not the church.
-This is the structural reason a dispensational reading keeps Israel and the church distinct rather
-than merging them; see [Israel and the Church](../israel-and-church/israel-and-the-church.md).
+### What fills the gap
+
+The church age sits in that gap. It is real, and it lies outside Daniel's count, which is a count of
+weeks "decreed about your people and your holy city" (9:24, ESV): Israel and Jerusalem. The church
+has its own calling in God's plan, and Israel keeps hers. This is the structural reason a
+dispensational reading keeps Israel and the church distinct; see [Israel and the
+Church](../israel-and-church/israel-and-the-church.md). Paul describes the same interval from the
+other side: "a partial hardening has come upon Israel, until the fullness of the Gentiles has come in.
+And in this way all Israel will be saved" (Romans 11:25-26, ESV).
+
+### The ruler to come
 
 The ruler of the seventieth week is "the prince who is to come," drawn from the people who destroyed
-Jerusalem. Paul names the same figure without Daniel's title, and
-opens the passage with the discourse's own warning: "Let no one deceive you in any way" (2
-Thessalonians 2:3, ESV), before describing "the man of lawlessness... who opposes and exalts himself
-against every so-called god or object of worship, so that he takes his seat in the temple of God,
-proclaiming himself to be God" (2:3-4, ESV). That is Daniel's abomination, personal and future, at the
-covenant's midpoint where 9:27 puts it.
+Jerusalem. Paul names the same figure without Daniel's title, and opens the passage with the
+discourse's own warning: "Let no one deceive you in any way" (2 Thessalonians 2:3, ESV), before
+describing "the man of lawlessness... who opposes and exalts himself against every so-called god or
+object of worship, so that he takes his seat in the temple of God, proclaiming himself to be God"
+(2:3-4, ESV). That is Daniel's abomination, personal and future, at the covenant's midpoint where 9:27
+puts it. What holds him back until then is the subject of [The Restrainer](the-restrainer.md).
 
 ### The times of the Gentiles
 
@@ -140,9 +274,9 @@ condition, and Daniel supplies the frame: the four Gentile empires of Daniel 2 a
 God of heaven will set up a kingdom that shall never be destroyed... It shall break in pieces all these
 kingdoms and bring them to an end, and it shall stand forever" (Daniel 2:44, ESV). Jerusalem's
 political history since AD 70 fits inside that frame without closing it. A Jewish state in 1948 and
-the city reunified in 1967 are real markers and are the textually appropriate place to weigh those
-dates — this is a passage about Gentile political control of Jerusalem, which is what those dates
-concern — but the text names the *kingdom's* arrival as the closing condition, not a state's founding.
+the city reunified in 1967 are real markers of Gentile political control of Jerusalem loosening, and
+this passage is the right place to weigh them; the closing condition the text names is the kingdom's
+arrival.
 
 ```mermaid
 flowchart TD
@@ -160,9 +294,76 @@ flowchart TD
 
 ### The rapture's place on this diagram
 
-The rapture's position on that diagram is dashed because this discourse does not put it there. Jesus
-is answering four Jewish disciples about Jerusalem, the temple, and his return in glory; the removal
-of the church is revealed later, to Paul, as something previously undisclosed (1 Corinthians 15:51).
-That the discourse does not teach it is not an argument against it, any more than Daniel's silence
-about the church age is an argument that there isn't one — Larkin's chart makes exactly that point in
-its caption. The full argument is in [The Rapture of the Church](rapture.md).
+The rapture's arrow on that diagram is dashed because this discourse does not place it. Jesus is
+answering four Jewish disciples about Jerusalem, the temple, and His return in glory; the removal of
+the church is revealed later, to Paul, as a mystery (1 Corinthians 15:51). The discourse's silence on
+it carries as little weight as Daniel's silence on the church age, and Larkin's chart makes exactly
+that point in its caption. The full argument is in [The Rapture of the Church](rapture.md).
+
+## What this shows about God
+
+### He keeps His calendar
+
+God counted sixty-nine weeks to the coming of His anointed one, and the Messiah came and was cut off.
+He said the city and sanctuary would fall, and in AD 70 they fell. Twice in two verses the angel says
+the outcome is fixed: "Desolations are decreed" (9:26, ESV), and the covenant-breaker's end is "the
+decreed end... poured out on the desolator" (9:27, ESV). This shows that God rules history by His own
+word, and that the seventieth week and the return of Jesus are as certain as the cross. So you may
+wait without anxiety: the length of the gap is in His hands, and its end is written.
+
+### He limits the distress for His elect
+
+The week is a real judgment, and God bounds it. "If those days had not been cut short, no human being
+would be saved. But for the sake of the elect those days will be cut short" (Matthew 24:22, ESV). Then
+comes "immediately." God has measured the worst days to their end, and He sends His Son the moment
+the distress is done, and Jesus sends His angels to "gather his elect from the four winds" (24:31, ESV).
+This shows God's faithfulness to His covenant people, Israel first among them. So you may trust Him
+with suffering you cannot see the end of: He has already measured it.
+
+### He finishes what the cross began
+
+Daniel 9:24 promised "to atone for iniquity" and "to bring in everlasting righteousness." The
+atonement was made in the sixty-ninth week's closing event, when the anointed one was cut off for sins
+not His own. What remains in the seventieth week is the rest of the list: the end of Israel's
+transgression and the everlasting righteousness of the kingdom. God will complete the salvation He
+began at the cross. So you, who are saved by that same atonement now, may look for Jesus to finish it in glory.
+
+## Discussion Questions
+
+1. Daniel 9:24 promises "to atone for iniquity" using כַפֵּר (*kapper*), the Day of Atonement verb.
+   What does it tell you about God's plan that Daniel's request to rebuild a city was answered with a
+   promise about sin?
+2. Daniel prayed "Delay not" (9:19), and God answered with a count of 490 years. How does Gabriel's
+   answer reshape what the disciples were asking in Matthew 24:3?
+3. Jesus stopped reading Isaiah 61 before "the day of vengeance" (Luke 4:16-21). Where else in the
+   Gospels do you see the first and second comings joined in one sentence?
+4. The "he" of Daniel 9:27 could be the Messiah or a future ruler. What in 9:26-27 and in Matthew
+   24:15 bears on the choice?
+5. Matthew uses εὐθέως for Peter's rooster and for the Son of Man's coming (26:74; 24:29). What
+   would have to be true of verses 15-28 if all of it happened in AD 70?
+6. "For the sake of the elect those days will be cut short" (Matthew 24:22). What distress are you
+   carrying now that you need to hand to a God who measures its length?
+
+## References & Recommended Reading
+
+- **ESV Study Bible** (Crossway) — notes on Daniel 9:1-27, 9:24-27 and 9:27 (the three readings of
+  the seventieth week), and on Matthew 24:15-31. ESV verse text throughout. Quoted briefly with
+  attribution.
+- **NIV Biblical Theology Study Bible** (Zondervan) — note on Matthew 24:29-51 (the two readings of
+  "immediately").
+- **Clarence Larkin**, *Dispensational Truth* (1918; expanded 1920), charts "The 'Mountain Peaks' of
+  Prophecy" and "Daniel's 'Seventy Weeks'", public domain, via
+  [clarencelarkincharts.com](http://clarencelarkincharts.com/). Cited as a historical dispensational
+  witness.
+- Original-language data from this project's `bible-text.db` — MACULA Greek (SBLGNT) for εὐθέως in
+  Matthew; unfoldingWord interlinear for Matthew 24:29-31, Mark 13:24 and Daniel 9:24-27; MACULA
+  Hebrew (WLC) for Daniel 9:24.
+
+### On this site
+
+- [The Olivet Discourse](olivet-discourse.md) — the whole discourse, including AD 70 and the
+  abomination of desolation at verse 15.
+- [Chronology Anchors](chronology-anchors.md) — dating the sixty-nine weeks.
+- [The Restrainer](the-restrainer.md) — what holds back the man of lawlessness.
+- [The Rapture of the Church](rapture.md) — the pretribulational case.
+- [Israel and the Church](../israel-and-church/israel-and-the-church.md) — why the two stay distinct.
