@@ -10,6 +10,7 @@ date_created: 2026-08-12
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -111,6 +112,19 @@ You are not slow, and you are not absent. Teach me to read the days the way you 
 of labour and a seventh of rest — and to want your rest more than I want to know its date. Keep
 me from the arrogance of calculating what your Son Jesus declined to know, and from the dullness of
 living as though the seventh day were not coming. In Jesus' name. Amen.
+
+## Study outline
+
+- [The verse, in its own argument](#the-verse-in-its-own-argument). 2 Peter 3:3-9, the scoffers' premise, and the chiasm of verse 8.
+- [Where Peter got it](#where-peter-got-it). Psalm 90:4 and the two changes Peter made to it.
+- [What Peter's readers already believed](#what-peters-readers-already-believed). Jubilees, the Talmud, the Temple psalms and 2 Enoch on the thousand-year day.
+- [The week's own grammar](#the-weeks-own-grammar). The day numerals of Genesis 1, the open seventh day, and the three verbs of Genesis 2:1-3.
+- [The church took it up immediately](#the-church-took-it-up-immediately). Barnabas, Irenaeus and Lactantius.
+- [Six days of history](#six-days-of-history). Each creation day matched to a millennium, then the seventh and the eighth.
+- [The last days are the last of the days](#the-last-days-are-the-last-of-the-days). *Acharit hayamim*, Hebrews 1:2, and the last two of the six days.
+- [Why nobody has got the date right](#why-nobody-has-got-the-date-right). Five calculated years 6000, and Scripture's refusal of a date.
+- [The Sabbath's two layers](#the-sabbaths-two-layers). The sign given to Israel, and the creation pattern that carries over.
+- [Discussion questions](#discussion-questions). Four, for a group or on your own.
 
 ## The verse, in its own argument
 

@@ -693,3 +693,15 @@ insight_2026-09-26:
   note: >
     Existing prose still uses lowercase he/him/his for God and Christ throughout; only added and
     shortened sentences were capitalised. A corpus-style capitalisation pass is left to the author.
+
+read_2026-09-26:
+  change: "Added `## Study outline` (10 single-line descriptive bullets, one per H2 section) between Key Takeaways and the first body section. No other structural change: no section over 400 words, thesis already at the top of Key Takeaways (~140 words in, after the extra-biblical-sources admonition)."
+  sections: "27 -> 28 (the outline; prose-bearing sections 27 -> 27)"
+  median_section_words: "117 -> 117"
+  sections_over_400: "0 -> 0 (longest 357)"
+  verify: "study_structure --verify-against HEAD: clean, removed [], added_allowed [], added_unexpected [] -- no sentence changed. validate: no warnings on this file (Check 22 gone). mkdocs build --strict: passes; all 10 outline anchors resolve in the built page."
+  findings_for_author_or_review:
+    - "Two pointer lines say *A Thousand Years in Your Sight* and *Six Days of History* are '(in preparation)'; both files now exist in last-things/ as draft: true. Link them when they publish (linking now would fail --strict)."
+    - "Divine pronouns in existing prose are still lowercase (he/him/his for God and Christ) -- noted by the insight pass, still open."
+    - "'Day seven' sub-section: 'sabbatismos ... appears nowhere else in the New Testament' is an exhaustiveness claim Check 18 misses (Greek is on the previous line); verify with bible_concordance and record as evidence."
+    - "'Standard commentary agrees' is a one-sentence H3; fine as a signpost, but the author may prefer folding it into the section's close."
