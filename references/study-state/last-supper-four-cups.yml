@@ -381,3 +381,16 @@ insight_2026-09-26:
     Divine pronouns capitalised only in added and shortened sentences; untouched prose elsewhere
     still uses lowercase he/his for God and Jesus -- a corpus-wide house-style pass would fix it
     without touching sentence content. Study outline (Check 22) left for the read pass.
+
+read_2026-09-26:
+  added: "## Study outline after Key Takeaways (7 single-line bullets, 9 anchors; groups Theological principle + Application)"
+  sections: "33 -> 34 (the outline)"
+  median_section_words: "88 -> 88"
+  sections_over_400_words: "0 -> 0 (longest 284)"
+  opening: "In-one-sentence thesis already at the top and a bold thesis in the third paragraph; no placement change needed"
+  verify: "study_structure.py --verify-against HEAD: clean, removed [], added_unexpected [] -- no sentence changed"
+  validate: "Check 22 warning gone; no warnings for this file"
+  mkdocs_build_strict: "passed; all 9 outline anchors resolve in built HTML"
+  findings_not_fixed: >
+    Untouched prose still uses lowercase he/his for God and Jesus (already noted by the insight
+    pass) -- a pronoun pass changes sentences, so it is out of scope here.

@@ -12,6 +12,7 @@ date_created: 2026-07-19
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -133,6 +134,16 @@ Father, you ratified a covenant at Sinai with blood sprinkled over your people, 
 table your Son Jesus named a better one in His own blood, and left a cup undrunk until you bring Him back
 to it. You do not leave promises half-kept. Teach us to eat and drink as people waiting for someone,
 and keep us at the table until the day He drinks it new with us. In Jesus' name. Amen.
+
+## Study outline
+
+- [Historical context: the four cups of Passover](#historical-context-the-four-cups-of-passover). The Mishnah's Seder order, and the promise of Exodus 6:6-7 each cup carries.
+- [Literary context: what each Gospel actually narrates](#literary-context-what-each-gospel-actually-narrates). One cup in Matthew and Mark, two in Luke, and the textual question behind Luke's second; [which cup Jesus declines](#so-which-cup-is-jesus-declining) is weighed at the end.
+- [Word study](#word-study-fruit-of-the-vine-new-and-covenant). "Fruit of the vine," "new" and "covenant" in the Greek.
+- [The cup he hands them](#the-cup-he-hands-them-the-blood-of-the-new-covenant). Exodus 24, John 6, and the three promises the blood of the new covenant secures, with two limits on that alignment.
+- [The fourth promise](#the-fourth-promise-i-will-take-you-to-me-for-a-people). Exodus 6:7's "take you to myself," its echo in Jeremiah 31 and John 14:3, and the move from covenant formula to wedding.
+- [Theological principle](#theological-principle) and [Application](#application). What the unfinished meal teaches, and what carries over to communion today.
+- [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
 ## Historical context: the four cups of Passover
 
