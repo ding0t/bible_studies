@@ -527,3 +527,19 @@ insight_2026-09-26:
     "until he disclosed it", "God does not change his mind"); style-guide rule 8 wants them
     capitalised. Not changed in this pass, since each would be a sentence edit outside its scope.
 
+
+read_2026-09-26:
+  sections: "22 -> 26"
+  median_section_words: "168 -> 166"
+  sections_over_400: "1 -> 0 (The case for reading the Church as Israel, 460; longest now 307)"
+  changes:
+    - "added ## Study outline after Key Takeaways (9 single-line bullets; the four Romans 9-11 sections grouped on one line; descriptive annotations only)"
+    - "split 'The case for reading the Church as Israel' with three sub-headings: ### Galatians 6:16 and the Israel of God / ### Romans 2:28-29, Galatians 3:29 and 1 Peter 2:9 / ### The assembly: ἐκκλησία and qahal"
+    - "no ## heading renamed -- the five inbound anchors from other pages still resolve"
+    - "opening bold thesis left as is (no 'In one sentence:' label added); it sits ~50 words in, so the opening is not slow"
+  verify: "study_structure.py --verify-against HEAD: clean, removed [], added_allowed [], added_unexpected [] -- no sentence changed. npm run validate: no warnings on this file (Check 22 gone). mkdocs build --strict passed; all 14 outline anchors resolve in the built HTML."
+  left_for_author:
+    - "Outline annotations are descriptive only; an evaluative note (e.g. which section carries the argument) is the author's to add."
+    - "'Four texts carry the weight on the other side.' now runs straight into the Galatians 6:16 sub-heading; reads fine, noted in case the author wants a different lead-in."
+    - "Divine pronouns still lowercase in existing prose (see insight_2026-09-26.left_for_author)."
+    - "This pass verifies nothing; the last review-bible-study pass predates the 1fd518d simplification."

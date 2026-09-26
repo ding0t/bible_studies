@@ -10,6 +10,7 @@ date_created: 2026-07-24
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -90,6 +91,18 @@ calling them through every unfaithfulness, including mine. Thank you that the sa
 holds them holds me — that I was far off and have been brought near by the blood of Christ, and that
 you made us one without making us the same. Keep me from the arrogance Paul warned the Gentiles
 about. Hasten the day Jerusalem looks on the one they pierced and knows Him. In Jesus' name. Amen.
+
+## Study outline
+
+- **Romans 9-11, in four sections** — [Why Romans has three chapters on this](#why-romans-has-three-chapters-on-this) · [Paul's question, and his answer](#pauls-question-and-his-answer) · [The olive tree of Romans 11](#the-olive-tree-of-romans-11) · [What Romans 11 says is still ahead for Israel](#what-romans-11-says-is-still-ahead-for-israel). The occasion in Rome, the believing remnant, the grafted branches, and the hardening that has an end.
+- [Jews, Greeks, and the church of God](#jews-greeks-and-the-church-of-god). Three groups in 1 Corinthians 10:32, and the one new man Ephesians 2-3 says was created at the cross.
+- [What Scripture means by a mystery](#what-scripture-means-by-a-mystery). Daniel's *raz*, what the prophets already said about the Gentiles, and the [two mysteries](#two-mysteries-and-neither-cancels-the-other) of Ephesians 3 and Romans 11 side by side.
+- [What Paul declines to say](#what-paul-declines-to-say) and [what most English translations drop](#what-most-english-translations-drop). All 68 New Testament uses of "Israel", and "Israel according to the flesh" at 1 Corinthians 10:18.
+- [The case for reading the Church as Israel](#the-case-for-reading-the-church-as-israel). Galatians 6:16, three further texts, and the Old Testament use of *ekklēsia*.
+- [Two companies in Revelation 7](#two-companies-in-revelation-7). The 144,000 and the great multitude, and the argument for reading the list symbolically.
+- [What the commentaries say](#what-the-commentaries-say). Four study Bibles, passage by passage, including where they disagree with this study.
+- [How Israel and the Church relate today](#how-israel-and-the-church-relate-today). What belonged to Rome in the 50s, what transfers, and five conclusions.
+- [Discussion questions](#discussion-questions). Four, for a group or on your own.
 
 ## Why Romans has three chapters on this
 
@@ -375,6 +388,8 @@ Testament — verified by querying every verse containing both Ἰσραήλ and
 
 Four texts carry the weight on the other side.
 
+### Galatians 6:16 and the Israel of God
+
 **Galatians 6:16** — "peace and mercy be upon them, and upon the Israel of God." The crux is the
 **καί** before "the Israel of God," which can be conjunctive ("and") or ascensive ("even"). Read
 ascensively, Paul equates the two. The *ESV Study Bible* sets out both senses and then declines to
@@ -388,6 +403,8 @@ other occurrence around it.
 The *NIV Cultural Backgrounds Study Bible* adds a piece of evidence that cuts the other way: Jewish
 benedictions regularly prayed "Peace … to Israel." That is a reason to hear the phrase as naming a
 distinct group blessed alongside, not a new name for the group just addressed.
+
+### Romans 2:28-29, Galatians 3:29 and 1 Peter 2:9
 
 **Romans 2:28-29** — "no one is a Jew who is merely one outwardly… a Jew is one inwardly." Paul is
 distinguishing real from nominal covenant membership *within* Israel, which is the same move the
@@ -403,6 +420,8 @@ before he is father of Jacob (Genesis 17:5). Being Abraham's offspring by promis
 possession." Peter applies Exodus 19:5-6 to the church. Israel's vocation language is extended to
 Gentile believers. Sharing a calling is not the same as being the same body, and Peter never says
 the nation has forfeited its own.
+
+### The assembly: ἐκκλησία and qahal
 
 The vocabulary does overlap, and on one point it favours the other side. The Greek **ἐκκλησία**
 renders the Hebrew <span dir="rtl">קָהָל</span> (*qahal*, H6951) in the Septuagint — Deuteronomy
