@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 119; Revelation 13:18"
 bible_references: ["Genesis 1:1", "Proverbs 25:2", "Deuteronomy 29:29", "Psalm 145:13", "Lamentations 1:1-22", "Lamentations 3:1-66", "Lamentations 5:1-22", "Proverbs 31:10-31", "Daniel 5:25-28", "Matthew 1:17", "Luke 14:28", "2 Timothy 3:16-17", "Revelation 13:18", "Deuteronomy 6:4", "Deuteronomy 19:15", "Jonah 1:17", "1 Corinthians 15:4", "Genesis 2:10", "Revelation 4:6-8", "Genesis 1:26-31", "Genesis 2:2-3", "Leviticus 23:1-44", "Genesis 17:12", "1 Peter 3:20", "Exodus 20:1-17", "Genesis 49:1-28", "Matthew 10:2-4", "Revelation 21:12-14", "Genesis 7:12", "Numbers 14:33-34", "Matthew 4:2"]
 date_created: 2025-12-13
-date_modified: 2026-09-19
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -25,6 +25,8 @@ That is biblical numerology at its most defensible — a numerical pattern the a
 built, which a reader can verify letter by letter. It sits at one end of a spectrum whose other end
 is a software industry selling hidden prophecies extracted from letter-skip sequences. This study is
 about telling those apart.
+
+**In one sentence:** The numbers God put in Scripture were built and marked in plain view by its authors — acrostics you can check letter by letter, a genealogy that states its fourteens, a riddle God interpreted Himself — so you can read them with confidence and let them send you back to obeying what He has plainly revealed (Deuteronomy 29:29).
 
 ## Key Takeaways
 
@@ -75,6 +77,18 @@ you gave it, the meaning you stated plainly — rather than the patterns I am cl
 manufacture. Keep me from mistaking my own ingenuity for your revelation. Open my eyes to behold
 wondrous things out of your law, and let what I find there send me back to obedience, not to
 speculation. Amen.
+
+## Study outline
+
+- [Why numbers and letters are the same thing in Hebrew and Greek](#why-numbers-and-letters-are-the-same-thing-in-hebrew-and-greek). Alphabets used as numerals, and what gematria is.
+- **The acrostics** — [Patterns you can verify](#the-acrostics-patterns-you-can-verify) · [When the acrostic catches a missing line](#when-the-acrostic-catches-a-missing-line). Ten passages checked against the Hebrew, Nahum 1 as the negative result, and the lost *nun* line of Psalm 145 in the English versions.
+- [The one number Scripture asks us to calculate](#the-one-number-scripture-asks-us-to-calculate). Revelation 13:18: the verb, Nero and the 616 variant, Irenaeus's warning, and 666 as a symbol.
+- [God's own numerical riddle](#gods-own-numerical-riddle-and-who-interprets-it). Daniel 5's weights read as verbs, and who gives the meaning.
+- [Matthew's genealogy](#the-responsible-use-of-gematria-matthews-genealogy). The fourteens Matthew states, and the David gematria as inference.
+- [Where this goes wrong](#where-this-goes-wrong). The "Bible code" and Panin's sevens, tested against the Hebrew text.
+- [A method for reading numbers in Scripture](#a-method-for-reading-numbers-in-scripture). Six working rules drawn from the sections above.
+- [Symbolic numbers in Scripture](#symbolic-numbers-in-scripture). Recurring numbers from 1 to 40 in a table, with two cautions.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## Why numbers and letters are the same thing in Hebrew and Greek
 
@@ -350,6 +364,8 @@ result was extremely sensitive to choices in how the rabbis' names and appellati
 choices with enough latitude that a list could be tuned, consciously or not, toward a positive
 result. Applying the same method to a Hebrew translation of *War and Peace* produced comparable
 "codes." A method that finds prophecies in Tolstoy is not detecting prophecy.
+
+#### Which letter sequence: ketiv, qere and the Samaritan Pentateuch
 
 **There is also a problem the statistics never reach**, and it is one this project can demonstrate
 from its own data. ELS requires a fixed, exact letter sequence: insert or remove a single letter and

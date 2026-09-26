@@ -265,3 +265,21 @@ resources_consulted:
     note: "The exegesis-before-hermeneutics frame behind the study's closing method section."
 
 last_updated: "2026-08-08"
+
+read_2026-09-26:
+  pass: read-bible-study (structure only, stranger reader)
+  changes:
+    - "Added `**In one sentence:**` thesis after the two opening paragraphs (Check 14 opening warning cleared)."
+    - "Added `## Study outline` after Key Takeaways; the two acrostic sections grouped on one bullet; all anchors verified against the built page."
+    - "Split 'Equidistant letter sequences and the \"Bible code\"' (446 words) at its bold-led paragraph with `#### Which letter sequence: ketiv, qere and the Samaritan Pentateuch`."
+  sections: "24 -> 26"
+  median_section_words: "158 -> 158"
+  sections_over_400: "1 -> 0 (longest 446 -> 284)"
+  verify: "study_structure.py --verify-against HEAD clean: removed [], added_unexpected [], added_allowed = the thesis line only. mkdocs build --strict passed; every in-page href resolves."
+  findings_not_fixed:
+    - "Over word budget (validator counted 4,156 words; 5,125 raw) against the 4,000 default: needs a simplify-bible-study pass. Candidate fork: 'Where this goes wrong' (Bible code + Panin, ~700 words) or the symbolic-numbers table."
+    - "Check 11 virtue contrast, Lessons about Jesus bullet 2: 'He explains the pattern rather than hiding it.' Prose change for the author."
+    - "Prayer closes 'Amen.' without 'In Jesus' name', against AGENTS.md's prayer rule."
+    - "Several thesis-antithesis constructions in the prose ('That is not a round number, and it is not an accident'; '— not to satisfy curiosity'; 'is not trivia'; 'not detecting prophecy'); for review, not this pass."
+    - "Opening paragraph 2 ends on the study describing itself ('This study is about telling those apart.') -- rule 9 placement note, left for the author."
+    - "Evaluative outline annotations (which section is the heart of the study) left to the author; Daniel 5 ('the hermeneutical key to the entire subject') is the obvious candidate."
