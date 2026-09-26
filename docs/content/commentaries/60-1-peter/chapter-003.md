@@ -15,6 +15,5 @@ draft: false
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 3:13-17 (primary passage)
 - [Biblical Numerology](../../scripture/numerology.md) — 3:20
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 3:18-20
-- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 3:15
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 3:18-19
 <!-- commentary-index:auto-end -->

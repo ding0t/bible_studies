@@ -15,6 +15,5 @@ draft: false
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 4:4
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 4:1
 - [Know the Truth](../../christian-life/know-the-truth.md) — 4:6
-- [Sin and Sorcery](../../sin/sorcery.md) — 4:1-3
 - [The Restrainer](../../last-things/the-restrainer.md) — 4:4
 <!-- commentary-index:auto-end -->

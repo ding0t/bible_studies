@@ -16,7 +16,6 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 2:1-10
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 2:12-13
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 2:18
-- [The Rapture of the Church](../../last-things/rapture.md) — 2:10
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:21-22
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 2:20
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:19

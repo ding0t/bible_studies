@@ -14,7 +14,6 @@ draft: false
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 7:1-9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 7:15
-- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 7:14
 - [The Rapture of the Church](../../last-things/rapture.md) — 7:9-14
 - [The Restrainer](../../last-things/the-restrainer.md) — 7:9
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 7:9

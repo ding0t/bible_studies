@@ -15,6 +15,6 @@ draft: false
 - [John son of Zebedee](../../biblical-figures/john.md) — 1:9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:4
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:3
-- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:9
+- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:7
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:18
 <!-- commentary-index:auto-end -->

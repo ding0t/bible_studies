@@ -13,6 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:2
-- [The Rapture of the Church](../../last-things/rapture.md) — 1:2
 - [Wisdom](../../wisdom/index.md) — 1:24
 <!-- commentary-index:auto-end -->

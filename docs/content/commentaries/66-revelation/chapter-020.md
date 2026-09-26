@@ -17,7 +17,6 @@ draft: false
 - [Charting End Times](../../last-things/prophecy-chart.md) — 20:1-6
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 20:1-6
 - [The Day Is Near](../../last-things/day-is-near.md) — 20:1-7
-- [The Olivet Discourse](../../last-things/olivet-discourse.md) — 20:1-6
 - [The Rapture of the Church](../../last-things/rapture.md) — 20:1-6
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 20:6
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 20:13-14

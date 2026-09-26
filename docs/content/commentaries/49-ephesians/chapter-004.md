@@ -14,5 +14,4 @@ draft: false
 
 - [Know the Truth](../../christian-life/know-the-truth.md) — 4:14-15
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:30
-- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 4:8-10
 <!-- commentary-index:auto-end -->
