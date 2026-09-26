@@ -255,3 +255,22 @@ review_2026-08-24:
     - "Deut 17:6/19:15 two-or-three-witness cross-reference verified directly -- supports the claim as stated."
   status: "all 11 findings fixed 2026-08-24; re-validated (npm run validate clean) and rebuilt (mkdocs build --strict clean)"
 last_updated: "2026-08-24"
+read_2026-09-26:
+  scope: "read-bible-study structure pass (stranger reader); no sentence changed"
+  changes:
+    - "Added one-line '**In one sentence:**' thesis after the bold opening paragraph, before Key Takeaways."
+    - "Added '## Study outline' (4 one-line descriptive bullets for the H2 sections) after the Prayer, per know-the-truth.md / the-restrainer.md shape."
+  sections: "15 -> 16"
+  median_section_words: "135 -> 135"
+  sections_over_400: "0 -> 0"
+  longest_section_words: 326
+  opening: "bold thesis already ~110 words in; no placement change needed"
+  verify: "study_structure.py --verify-against HEAD: clean, removed [], added_unexpected [], added_allowed = the In-one-sentence line only"
+  validate: "npm run validate: no warnings for this file (Check 22 cleared)"
+  mkdocs: "build --strict passed; all 4 outline anchors resolve in built HTML"
+  findings_not_fixed_prose:
+    - "The bold opening thesis ('rests on what Christ already did, not on how the week has gone') and the new In-one-sentence line now overlap; author may want to fold them into one."
+    - "Thesis-antithesis constructions in author prose (AGENTS.md 'define affirmatively'): 'Confirmation is not the foundation', 'Acts 4:12 and Ephesians 2:8-9 are not two halves of one paragraph', 'not a label but the person', 'not to a general feeling of reassurance'."
+    - "Divine pronouns lowercase in author prose (Key Takeaways 'He holds his own', 'his own name', 'he always lives'; closing sections) -- house rule capitalises He/Him/His."
+    - "Prayer says 'your Son' without naming Jesus and closes 'Amen.' rather than 'In Jesus' name. Amen.'"
+    - "Not re-verified: this pass checks no quotation, count or citation (last review 2026-08-24)."
