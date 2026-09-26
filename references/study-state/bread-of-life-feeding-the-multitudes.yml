@@ -581,3 +581,21 @@ insight_2026-09-26:
     (style-guide.md). Five openers trimmed to state the claim directly (past provision, keeps what
     He gives, union, Israel first, generous); the bread-of-life and shepherd ones keep it. No claim
     changed.
+
+read_2026-09-26:
+  changes:
+    - "Added ## Study outline after Key Takeaways (7 bullets, descriptive annotations only; groups the John 6 and narrative sub-sections onto one line each)."
+    - "Split \"I am the bread of life\" (527 words) at its natural break: new ### Took, blessed, broke, gave heading over the four-verb paragraph, table, kataklao/klao paragraph and the Passover aside."
+  sections: "21 -> 23 (Study outline and Took, blessed, broke, gave)"
+  median_section_words: "264 -> 264"
+  sections_over_400: "1 -> 0 (longest 527 -> 364)"
+  opening: "Thesis already at line 24, directly after a 4-line intro; no move needed."
+  verify: >
+    study_structure --verify-against HEAD: clean, removed [], added_allowed [], added_unexpected []
+    ("no sentence changed"). validate: no warnings on this file (Check 22 gone). mkdocs build
+    --strict: clean; every href="#..." on the built page resolves to an id.
+  findings_for_author_or_review:
+    - "The Passover/barley parenthetical (John 6:4, 6:9) now closes Took, blessed, broke, gave; it belongs to the John 6 frame generally and has no clear home without new framing prose."
+    - "Theological principle (201 words) restates the Numbers 11 / John 6 contrast already landed in The wrong response; a merge is simplify-bible-study's call, not this pass's."
+    - "The Key Takeaways Type paragraph and Lessons duplicate points made in the body (peirazo test, apollymi, shepherd); expected for the Key Takeaways shape, noted only."
+    - "Outline bullets are descriptive only; no evaluative annotation (e.g. which section is the heart of the study) was added -- that is the author's to write."

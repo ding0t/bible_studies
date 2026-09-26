@@ -10,6 +10,7 @@ date_created: 2026-07-25
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -101,6 +102,16 @@ short, and you are not a God who spoils His children.*
 turn my labour. Where I have quietly arranged my life so that I need not ask, break the
 arrangement gently. Give me today what I need for today, and let it point me past itself to the
 Bread of Life, Jesus. In Jesus' name. Amen.*
+
+## Study outline
+
+- [The two feedings, side by side](#the-two-feedings-side-by-side). Place, loaves, crowd, baskets and verbs for each meal, in one table.
+- [Two events, not one retold](#two-events-not-one-retold). Mark 8:19-21, and the two basket words, *kophinos* and *spyris*, that never cross between the meals.
+- [What Jesus makes explicit — John 6](#what-jesus-makes-explicit-john-6), in five sections: [Two words John puts around the sign](#two-words-john-puts-around-the-sign) (the test and "that nothing be lost") · ["I am the bread of life"](#i-am-the-bread-of-life) and [Took, blessed, broke, gave](#took-blessed-broke-gave) (the discourse, and the Supper's verbs in both feedings) · [Feeding on him](#feeding-on-him) (*trōgō* and *menō*) · [Daily bread](#daily-bread) (*epiousios* and the manna).
+- [What the narrative leaves implicit](#what-the-narrative-leaves-implicit). Three readings Mark and John stage without stating: [Israel, then the nations](#israel-then-the-nations) · [Sheep without a shepherd](#sheep-without-a-shepherd) · [The wrong response — echoing the wilderness](#the-wrong-response-echoing-the-wilderness).
+- [Is there significance in the numbers?](#is-there-significance-in-the-numbers). Five, twelve, seven, seven, sorted into tiers from firm to speculative.
+- [Theological principle](#theological-principle). The two opposite misreadings of the sign, John 6 and Numbers 11, and the pattern Scripture teaches.
+- [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
 ## The two feedings, side by side
 
@@ -218,6 +229,8 @@ own climax at 6:51: *"the bread that I will give for the life of the world is my
 that the Father's gift of life is a person, His Son Jesus, given in His own flesh for the life of
 the world. That is the atonement, and it is why you receive this bread by coming to Jesus and
 believing in Him (6:35).
+
+### Took, blessed, broke, gave
 
 The verbs narrating these miracles turn out to be the church's own vocabulary for its central meal.
 Both feedings run the same four actions in the same order — **took, blessed, broke, gave** — and both
