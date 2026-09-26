@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 8:6-9:21; 11:15-19"
 bible_references: ["Numbers 10:1-10", "Numbers 31:6", "Exodus 19:16-19", "Leviticus 23:23-25", "Leviticus 25:8-12", "Joshua 6:4-5", "Judges 7:16-22", "1 Kings 1:34-39", "Amos 3:6", "Joel 2:1-11", "Zephaniah 1:14-16", "Isaiah 18:3", "Isaiah 27:12-13", "Matthew 24:29-31", "1 Corinthians 14:8", "1 Corinthians 15:51-53", "1 Thessalonians 4:16-17", "Revelation 4:1", "Revelation 10:7", "Revelation 19:11-16"]
 date_created: 2025-05-21
-date_modified: 2026-09-20
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-4.5
@@ -61,6 +61,17 @@ prototyping — see that page for what each part is for and why.)*
 Lord — every trumpet you have ever sounded has meant the same thing: you are not silent, and you are not finished. You called Israel to your presence at Sinai, you leveled Jericho's wall, you seated a king with a blast that still echoes in your Son's own coronation. You have promised one more sound is coming — a last trumpet, at which the dead in Christ rise and the living are changed, and a seventh, at which your kingdom is openly, finally yours.
 
 Until then, let me be found listening rather than asleep, working rather than idle, and steadfast rather than shaken by how long the wait feels. Amen.
+
+## Study outline
+
+- [Scope](#scope-what-this-study-covers-and-what-it-doesnt). Where the Feast of Trumpets is covered, and what this study traces instead.
+- [Two instruments, two Hebrew words](#two-instruments-two-hebrew-words). The ram's-horn *shofar*, the silver *chatsotsrah*, and the one Greek word *salpigx*.
+- [What a trumpet call was for](#what-a-trumpet-call-was-for). Five purposes in Israel's life, each with its text, and the prophets' warning trumpet.
+- [The trumpet as theophany: Sinai](#the-trumpet-as-theophany-sinai). The first trumpet in Scripture, sounding the LORD's own presence.
+- [The seven trumpets of Revelation](#the-seven-trumpets-of-revelation). John on Patmos, a table of the seven against Egypt's plagues, Joel's locusts, and the seventh trumpet's coronation.
+- [At the last trumpet](#at-the-last-trumpet-three-texts-not-automatically-one-event). 1 Corinthians 15 with 1 Thessalonians 4, Matthew 24 and Revelation 11 read one at a time, with a counter-reading.
+- [Then and now](#then-and-now). What carries over from every one of these texts to the reader today.
+- [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
 ## Scope: what this study covers, and what it doesn't
 

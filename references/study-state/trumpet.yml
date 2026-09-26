@@ -248,3 +248,18 @@ revision_2026-09-06:
     There is no image-credit or attribution convention anywhere in docs/content/. Every image on
     the site is unattributed. Worth closing separately from this study.
   last_updated: "2026-09-06"
+
+read_2026-09-26:
+  skill: read-bible-study
+  change: "Added ## Study outline (8 one-line bullets, descriptive annotations only) after the Key Takeaways prayer. Existing In one sentence thesis kept verbatim; opening reaches it in ~130 words, so no placement change."
+  sections: "26 -> 27"
+  median_section_words: "124 -> 124"
+  sections_over_400: "0 -> 0"
+  verify: "study_structure.py --verify-against HEAD: clean, removed [], added_unexpected [] -- no sentence changed"
+  validate: "no warnings for last-things/trumpet.md (Check 22 cleared)"
+  mkdocs: "build --strict passed; every outline anchor resolves in built HTML"
+  findings:
+    - "Thesis line uses 'never ornamental' framing and the Scope heading ('what it doesn't') is a negative-defined heading; both left, as rewording is editing."
+    - "Opening paragraph's last sentence ('This study traces...') spends words on the study's method (structural-readability rule 9) -- for the author."
+    - "Several thesis-antithesis constructions in prose (e.g. 'not the same shape of event', 'from context, not vocabulary') -- for review-bible-study."
+    - "Not verified: this pass checks no quotation or claim."
