@@ -143,3 +143,23 @@ resources_consulted:
   - {type: lexicon, title: "TWOT (Theological Wordbook of the Old Testament)", author: "Archer, Harris & Waltke", note: "Root/gloss for chalom (H2472, root 663a) and patar (H6622, root 1860) via twot_strongs."}
   - {type: other, title: "OpenBible.info cross-references", note: "Not heavily used this study -- word-study and ESV Study Bible cross-refs did most of the connective work; noted for completeness."}
 last_updated: "2026-08-04"
+read_2026-09-26:
+  skill: read-bible-study
+  sections: "15 -> 24"
+  median_section_words: "147 -> 130"
+  sections_over_400: "3 -> 0 (longest 521 -> 293)"
+  changes: >
+    Added the In-one-sentence thesis after the opening paragraph (first bold point now ~150 words in,
+    was ~310); added a Study outline after Key Takeaways (8 descriptive bullets, anchors checked
+    against the built page); split Word studies (Hebrew/Aramaic, Greek), Godly dreams (Joseph and
+    Daniel, Solomon at Gibeon, Matthew and Acts) and Otherwise (Deuteronomy 13, Jeremiah 23,
+    Ecclesiastes 5:7 and Jude 1:8) with ### sub-headings; added missing blank lines before the
+    Jeremiah/Ecclesiastes break and before "## The line this study exists to draw".
+  verify: "study_structure.py --verify-against HEAD: clean, removed [], added_unexpected [], added_allowed = the thesis line only"
+  validate: "no warnings for this file (Check 22 cleared)"
+  mkdocs_strict: "passed; all 8 outline anchors resolve"
+  findings_not_fixed:
+    - "Duplicated paragraph: 'Two shorter texts round out the caution...' (Ecclesiastes 5:7 / Jude 1:8) appears twice back to back -- a revised version and the older em-dash version -- with no blank line between, so it renders as one doubled paragraph. Deleting one is editing; left for the author/review."
+    - "Heading 'Where dreams sit: a hierarchy, not a flat category' is thesis-antithesis (AGENTS.md 'define affirmatively'); left as is to keep its anchor stable."
+    - "Opening paragraph closes on the study describing itself ('This study works through... Then it asks...'), structural-readability rule 9; reported, not cut."
+    - "Not yet through review-bible-study (stages.review.done: false); this pass verifies nothing."
