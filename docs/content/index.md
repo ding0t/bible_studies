@@ -4,9 +4,10 @@ category: "other"
 description: "Personal Bible study notes: the Old and New Testaments read in context, with word studies in the original languages and every claim traceable to a source."
 draft: false
 date_created: 2026-07-10
-date_modified: 2026-09-21
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
