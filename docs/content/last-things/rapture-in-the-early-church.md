@@ -8,7 +8,8 @@ primary_passage: "1 Thessalonians 4:17"
 bible_references: ["1 Thessalonians 4:17"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The rapture in the early church

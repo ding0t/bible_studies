@@ -8,7 +8,8 @@ primary_passage: "Psalm 110:4"
 bible_references: ["Genesis 14:17-20", "Psalm 110:1-4", "Leviticus 25:8-13", "Deuteronomy 15:2", "Isaiah 61:1", "Luke 4:18-19", "Psalm 82:1-8", "John 10:34-36", "Isaiah 52:7", "Daniel 9:24-27", "Hebrews 5:11-14", "Hebrews 7:3"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Melchizedek in Second Temple Judaism

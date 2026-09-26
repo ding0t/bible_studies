@@ -8,7 +8,8 @@ primary_passage: "Psalm 90:1-4"
 bible_references: ["Psalm 90:1-15", "Psalm 89:46-52", "Psalm 92:1-14", "Ecclesiastes 6:6", "Isaiah 40:17", "2 Peter 3:4", "2 Peter 3:8"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # A thousand years in your sight

@@ -8,7 +8,8 @@ primary_passage: "1 Thessalonians 4:17"
 bible_references: ["1 Thessalonians 4:17", "Matthew 25:6", "Matthew 25:10", "Acts 28:15", "1 Samuel 4:1", "2 Samuel 6:20", "Jeremiah 41:6", "John 14:2-3"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Meet the Lord in the air

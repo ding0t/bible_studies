@@ -8,7 +8,8 @@ primary_passage: "1 Timothy 2:1"
 bible_references: ["1 Timothy 2:1", "2 Corinthians 10:2", "Galatians 4:12", "Acts 8:34", "Acts 21:39", "Acts 26:3", "Luke 9:38", "2 Corinthians 8:4", "Luke 1:13", "Romans 10:1", "1 Timothy 5:5", "Hebrews 5:7", "Ephesians 6:18", "Philippians 4:6"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Supplication: Begging, Turned Upward

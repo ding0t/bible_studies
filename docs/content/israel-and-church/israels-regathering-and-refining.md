@@ -8,7 +8,8 @@ primary_passage: "Ezekiel 36:22-28; Zechariah 12:10-13:9"
 bible_references: ["Ezekiel 36:22-28", "Ezekiel 37:15-22", "Amos 9:11-15", "Isaiah 11:11", "Hosea 1:9-11", "Romans 9:25-26", "Acts 15:13-18", "Deuteronomy 4:30-31", "Hosea 5:15", "Jeremiah 30:7", "Daniel 12:1", "Ezekiel 20:34-38", "Zechariah 13:8-9", "Zechariah 12:10", "Romans 11:26", "Acts 1:6-7", "Isaiah 59:20", "Psalm 14:7"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Israel's Regathering and Refining

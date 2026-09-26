@@ -8,7 +8,8 @@ primary_passage: "Matthew 24:15-31"
 bible_references: ["Matthew 24:15-31", "Daniel 9:24-27", "Daniel 2:44", "Luke 21:24", "Luke 4:16-21", "Isaiah 61:1-2", "2 Thessalonians 2:3-4", "1 Corinthians 15:51", "Revelation 20:1-15", "2 Peter 3:7-13", "Zechariah 14:4"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Immediately After: Daniel's Seventieth Week and the Olivet Discourse

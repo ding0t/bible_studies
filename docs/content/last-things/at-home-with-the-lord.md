@@ -8,7 +8,8 @@ primary_passage: "2 Corinthians 5:1-8"
 bible_references: ["Ephesians 4:8-10", "2 Corinthians 5:1-8", "Philippians 1:23", "Revelation 6:9-11", "1 Thessalonians 4:13-17", "1 Corinthians 15:51-53", "1 Corinthians 15:20-23", "Luke 16:19-31", "Revelation 20:13-14"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # At Home with the Lord

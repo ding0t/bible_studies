@@ -8,7 +8,8 @@ primary_passage: "Genesis 5:21-24"
 bible_references: ["Genesis 5:21-24", "Hebrews 11:5", "Jude 1:14-15", "Genesis 7:1", "Genesis 7:16", "Genesis 19:16", "Genesis 19:24-25", "2 Peter 2:5-9", "Luke 17:28-30", "2 Kings 2:11", "Psalm 49:15", "Psalm 73:24", "1 Corinthians 15:51-52"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Taken before judgment: Enoch, Noah, Lot and Elijah

@@ -1,0 +1,93 @@
+slug: readability-sweep-2026-09
+title: "Bring the older studies up to the 2026-09-25/26 benchmark: simpler, readable, theology landed"
+status: complete
+completed: 2026-09-26
+started: 2026-09-26
+
+benchmark: >
+  The four studies published 2026-09-25/26 (know-the-truth, the-restrainer, kinsman-redeemer,
+  wife-of-the-lamb) read markedly better than the rest of the corpus. What they share: under
+  word budget (3,200-4,400 words), an "In one sentence:" thesis, a `## Study outline`, and the
+  theology landed on the reader (8-25 second-person uses per 1,000 words, "this shows that God ___"
+  answered in the prose). Selection scorecard: validator warnings + words/budget + you-per-1k +
+  thesis/landing counts, run 2026-09-26.
+
+passes:
+  simplify: >
+    simplify-bible-study, rule "add nothing". Author gave blanket approval ("fix them all") on
+    2026-09-26, so Phase 3 recommendations are applied without a per-study stop -- except Phase 1:
+    if a study's point cannot be stated, or disagrees with its own thesis, record it under
+    open_questions and leave that study for the author.
+  insight: >
+    Style-guide "Write toward this" rule 6 plus AGENTS.md "write the theology as the subject". The
+    only pass that ADDS prose, so its additions are constrained: no new fact, citation, word study
+    or argument -- each added sentence names what the study's existing exegesis already shows about
+    God, names the doctrine, and lands it in the second person. Every added sentence is listed in
+    the study's state file so the author can read them in one place. Contrastive theses
+    ("X, not Y") are rewritten affirmatively.
+  read: >
+    read-bible-study, rule "change no sentence". Run by a different agent from the one that
+    simplified, per that skill's "not the author's own pass". Adds the Study outline.
+
+order_per_study: [simplify, insight, commit, read, commit]
+commits: one per study per pass, so study_structure.py --verify-against HEAD stays per-file.
+
+excluded:
+  christian-life/be-prepared.md: "uncommitted edits in the working tree at sweep start -- not ours to touch"
+  reference_pages: >
+    translations, genealogy-times, prophecy-events-times, chronology-anchors,
+    ancient-texts-manuscripts, archaeological-sites -- data pages; the budget check fires but the
+    fix (split by division) is a separate decision.
+
+studies:
+  # Tier 1 -- all three passes
+  last-things/olivet-discourse.md:       {tier: 1, simplify: done, insight: done, read: done}
+  last-things/day-is-a-thousand-years.md: {tier: 1, simplify: done, insight: done, read: done}
+  last-things/rapture.md:                {tier: 1, simplify: done, insight: done, read: done}
+  jesus/melchizedek-priesthood.md:       {tier: 1, simplify: done, insight: done, read: done}
+  # Tier 2 -- mainly simplify
+  christian-life/prayer-as-communion.md: {tier: 2, simplify: done, insight: done, read: done}
+  sin/sorcery.md:                        {tier: 2, simplify: done, insight: done, read: done}
+  israel-and-church/israel-and-the-church.md: {tier: 2, simplify: done, insight: done, read: done}
+  jesus/three-days-and-three-nights.md:  {tier: 2, simplify: done, insight: done, read: done}
+  god/world-population-declares-gods-creation-and-biblical-truth.md: {tier: 2, simplify: done, insight: done, read: done}
+  # Tier 3 -- mainly insight
+  jesus/the-way.md:                      {tier: 3, simplify: done, insight: done, read: done}
+  jesus/bread-of-life-feeding-the-multitudes.md: {tier: 3, simplify: done, insight: done, read: done}
+  feasts/last-supper-four-cups.md:       {tier: 3, simplify: done, insight: done, read: done}
+  god/behemoth-and-leviathan.md:         {tier: 3, simplify: done, insight: done, read: done}
+  # Tier 4 -- read only (outline, opening)
+  jesus/woman-at-well.md:                {tier: 4, read: done}
+  biblical-figures/twelve-apostles.md:   {tier: 4, read: done}
+  last-things/trumpet.md:                {tier: 4, read: done}
+  last-things/prophecy-essentials.md:    {tier: 4, read: done}
+  biblical-figures/paul.md:              {tier: 4, read: done}
+  jesus/as-the-snake-was-lifted.md:      {tier: 4, read: done}
+  salvation/assurance-of-salvation.md:   {tier: 4, read: done}
+  scripture/numerology.md:               {tier: 4, read: done}
+  god/dreams-and-visions/index.md:       {tier: 4, read: done}
+
+log:
+  - "2026-09-26: 20 agents launched at once hit the session limit before any edit landed. Rerun in waves of ~6."
+  - "wave 1: olivet-discourse, day-is-a-thousand-years, rapture, melchizedek-priesthood, prayer-as-communion, sorcery (simplify+insight)"
+
+  - "wave 1-2: all 13 simplify+insight passes committed (sorcery fc436b3a ... three-days 476da833). 18 draft forks created."
+  - "8f38265: validator Check 23 no longer counts the Study outline -- Check 22 required it and Check 23 penalised it."
+  - "read passes committed: rapture, olivet-discourse, the-way. In flight: day, prayer, israel, bread, last-supper, melchizedek."
+
+  - "all 22 read passes committed. Prayer closes fixed where passes missed them (three-days, paul, assurance, numerology); doubled paragraph removed from dreams-and-visions."
+  - "commentary index regenerated; provenance caught up."
+  - "Verified against SBLGNT concordance: akatalytos (Heb 7:16), prosabbaton (Mark 15:42), sabbatismos (Heb 4:9) each occur once -- the three Greek exhaustiveness claims stand."
+
+open_questions:
+  - "commentary_index.py must be re-run once the sweep ends: several studies dropped bible_references for forked passages."
+  - "A final chore commit is needed for provenance catch-up (ai_provider_models gains opus-5.5 after each commit)."
+  - "18 draft forks each need develop-bible-study before publishing; parents carry plain-text pointers, pending links in each parent's open_questions."
+  - "Lowercase divine pronouns remain in untouched prose across most swept studies (agents capitalised only sentences they wrote) -- a separate recasing pass."
+  - "behemoth: 'ashaq ... a sense it carries nowhere else' (H6231 never means 'drink') is a semantic claim, not a count -- needs the ~37 occurrences read. Greek hapax claims verified (see log)."
+  - "paul: 'Paul's own coinage-in-context' for egkentrizo looks overstated (ordinary grafting vocabulary); ektroma 'only time in the NT' unverified."
+  - "sorcery: NT intro says pharmak- 'three times in Revelation', Revelation section says 'four occurrences'. References still describe material the simplify pass cut."
+  - "numerology is still over budget (4,156) -- wants a simplify pass. be-prepared was excluded (had uncommitted edits)."
+  - "The insight additions (listed verbatim in each study's state file under insight_2026-09-26) are new prose no review-bible-study pass has seen."
+  - "Remaining 'X, not Y' contrasts and 'worth ___' templates flagged by the Tier 4 read passes (twelve-apostles, trumpet, woman-at-well, prophecy-essentials, as-the-snake-was-lifted, assurance) -- prose changes, out of a structure pass's scope."
+  - "Count conflicts: three-days 'on the third day' 9 vs 8 in prophecy-events-times; behemoth 'Leviathan five times' is verses -- Isaiah 27:1 names it twice (6 occurrences)."

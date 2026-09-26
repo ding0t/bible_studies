@@ -8,7 +8,8 @@ primary_passage: "Matthew 24:35"
 bible_references: ["Matthew 24:34-35", "Matthew 24:43", "2 Peter 3:3-13", "1 Thessalonians 5:1-6", "Revelation 3:3", "Revelation 16:15"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Heaven and Earth Will Pass Away

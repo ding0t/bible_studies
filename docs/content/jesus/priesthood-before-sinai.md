@@ -8,7 +8,8 @@ primary_passage: "Numbers 3:5-13"
 bible_references: ["Genesis 2:15", "Genesis 3:22-24", "Genesis 8:20", "Genesis 12:7-8", "Genesis 26:25", "Exodus 13:1-2", "Exodus 28:1", "Exodus 32:26-29", "Numbers 3:5-13", "Numbers 8:16-18", "Numbers 18:1-7", "Hebrews 5:4", "Hebrews 7:11", "Hebrews 7:23-24"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Priesthood before Sinai: Adam, the firstborn and the Levites

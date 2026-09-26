@@ -8,7 +8,8 @@ primary_passage: "Matthew 24:37-41"
 bible_references: ["Matthew 24:37-41", "Matthew 24:31", "Luke 17:34-37", "John 14:3", "Matthew 1:20-24", "Deuteronomy 28:26", "1 Samuel 17:44", "Psalm 79:1-2", "Ezekiel 39:17-20", "1 Thessalonians 4:13-18", "2 Thessalonians 2:6-7"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # One Taken, One Left

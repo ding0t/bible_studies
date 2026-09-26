@@ -8,7 +8,8 @@ primary_passage: "Genesis 1:1-31"
 bible_references: ["Genesis 1:1-31", "Genesis 4:26", "Genesis 5:5", "Genesis 5:23-24", "Genesis 7:11", "Genesis 12:7", "Genesis 22:17-18", "Exodus 14:22", "Leviticus 23:2", "Psalm 89:36-37", "Malachi 4:2", "Matthew 13:47", "Revelation 13:14-18", "Revelation 17:15", "Hosea 6:1-3"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Six days of history

@@ -8,7 +8,8 @@ primary_passage: "Acts 16:16-18"
 bible_references: ["Mark 1:32-34", "Luke 4:41", "Mark 5:9", "Acts 16:16-18", "Acts 19:13-16", "1 John 4:1-3", "Deuteronomy 13:1-5", "Luke 10:17-20", "1 Corinthians 6:19", "Colossians 1:13", "1 John 4:4", "Ephesians 6:11-12", "1 Peter 5:8", "James 2:19", "1 Timothy 4:1", "2 Corinthians 11:14-15", "Mark 9:17-27", "Luke 8:29", "Mark 5:7-9", "Jude 8-10", "2 Peter 2:10-11", "Matthew 8:29", "1 Corinthians 10:20-21", "Matthew 12:43"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Deliverance and the Edge of Sorcery

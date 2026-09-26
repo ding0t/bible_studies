@@ -8,7 +8,8 @@ primary_passage: "Daniel 10:12-13"
 bible_references: ["John 11:41-42", "Isaiah 65:24", "Genesis 24:15", "Genesis 24:45", "Daniel 9:20-23", "Daniel 10:12-13", "2 Corinthians 12:9", "Acts 16:6-10", "Hebrews 5:7", "John 12:28-29", "Psalm 29:3", "Job 37:4", "2 Samuel 22:14", "Acts 12:5", "Acts 12:13-16", "Psalm 141:2", "Revelation 5:8", "Revelation 8:3-5", "Revelation 6:9-11"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # How God Answers Prayer

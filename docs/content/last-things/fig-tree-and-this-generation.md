@@ -8,7 +8,8 @@ primary_passage: "Matthew 24:32-34"
 bible_references: ["Matthew 24:32-36", "Mark 13:28-30", "Luke 21:29-32", "Luke 21:24", "Luke 13:6-9", "Jeremiah 24:5-8", "Jeremiah 8:13", "Hosea 9:10", "Micah 7:1", "Joel 1:7", "Matthew 21:18-22", "Mark 11:12-25", "Matthew 12:39-42", "Matthew 23:36", "John 1:48-50", "James 3:12", "Revelation 6:13"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Fig Tree and This Generation

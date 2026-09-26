@@ -8,7 +8,8 @@ primary_passage: "Genesis 11:10-26"
 bible_references: ["Genesis 5:1-32", "Genesis 7:11", "Genesis 11:1-9", "Genesis 11:10-26"]
 date_created: 2026-09-26
 date_modified: 2026-09-26
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Flood and the King Lists: Egypt, Sumer and the Genesis Chronology
