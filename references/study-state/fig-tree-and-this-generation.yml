@@ -1,8 +1,10 @@
 slug: "fig-tree-and-this-generation"
 title: "The Fig Tree and This Generation"
-status: drafting
+status: drafted
 target_path: "docs/content/last-things/fig-tree-and-this-generation.md"
-primary_passage: "Matthew 24:32-34"
+primary_passage: "Matthew 24:32-35; Mark 13:28-31; Luke 21:29-33"
+genre: "Gospel (prophetic discourse) with a parable"
+word_budget: 4000
 forked_from: "docs/content/last-things/olivet-discourse.md"
 point: "The fig tree parable teaches inference from signs, and 'this generation' is the generation that sees them -- no species code and no year to count from."
 stages:
@@ -15,5 +17,261 @@ stages:
       Needs develop-bible-study for its own opening, "In one sentence:" thesis, Key Takeaways and
       discussion questions; draft: true until then. When published, turn the plain-text pointer in
       olivet-discourse.md into a link.
-open_questions: []
+  historical_context:
+    done: true
+    notes: >
+      Tuesday of Passion Week (Matt 26:2: Passover two days off); four disciples on Olivet (Mark 13:3);
+      spring -- a fig in leaf the day before (Mark 11:13). Saying sits between the coming (24:29-31)
+      and "that day and hour" (24:36); same order in all three Synoptics.
+  literary_context:
+    done: true
+    notes: >
+      24:32-35 is a hinge: sequence behind, watchfulness ahead. πάντα ταῦτα links 33 and 34;
+      παρέρχομαι + οὐ μή links 34 and 35; θύρα links 24:33 to 25:10 and James 5:9.
+  hermeneutics:
+    done: true
+    notes: >
+      View 5 (ESVSB) -- the generation that sees the signs begin. Consistent with statement-of-faith
+      End times (pretrib, literal seventieth week). Contemporaries view (NIV BTSB, CBSB) set out as the
+      main alternative with its strongest argument (Matthew's eight-for-eight usage) and the cost of
+      view 5 named.
+  draft:
+    done: true
+    notes: >
+      2026-09-26 develop pass: added hook with primary-passage block quote, In one sentence, Key
+      Takeaways, Study outline, "The Setting" section, "Near, at the Very Doors" theology section
+      (24:33 subject, θύρα, 24:35-36), discussion questions, references. Moved text kept; fixed
+      out-of-context references (four warnings, "next section documents", "four verses later"),
+      recased divine pronouns, removed several antithesis constructions, set out the contemporaries
+      view fairly. ~3,400 words of prose.
+thesis: >
+  The fig tree teaches Jesus' people to read the signs He named as sure evidence that He is near,
+  and "this generation" is the generation that sees those signs begin; God has fixed the whole
+  sequence and its end, His Son's word guarantees it, and the date belongs to the Father alone.
+outline:
+  - "Hook + 24:32-35 quote + thesis"
+  - "Key Takeaways -- prophecy of the sequence; Jesus' authority, nearness, deference to the Father"
+  - "The Setting -- where the saying falls in the discourse; a fig in leaf that week"
+  - "The Fig Tree, and What It Does Not Say -- fig-as-Israel texts granted; four textual features against a code here; Monday's cursed tree"
+  - "'This Generation' -- 'all these things' fixed by 24:33; contemporaries view with its strength; view 5 argued with its cost; AD 70 and 1948/1967 placed"
+  - "Near, at the Very Doors -- God fixed the end and His Son's word guarantees it; the Father keeps the date; stay awake"
+  - "Discussion questions; References"
+
+evidence:
+  - id: matt-24-3-esv
+    what: ESV wording of the disciples' question (hook)
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 3, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "what will be the sign of your coming and of the end of the age"
+    checked: 2026-09-26
+
+  - id: matt-24-30-esv
+    what: ESV wording quoted in hook and setting
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 30, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "coming on the clouds of heaven with power and great glory"
+    checked: 2026-09-26
+
+  - id: matt-24-33-esv
+    what: memory verse / body quotation
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 33, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "he is near, at the very gates"
+    checked: 2026-09-26
+
+  - id: matt-24-34-esv
+    what: primary verse quotation
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 34, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "this generation will not pass away until all these things take place"
+    checked: 2026-09-26
+
+  - id: matt-24-35-esv
+    what: memory verse / body quotation
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 35, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Heaven and earth will pass away, but my words will not pass away"
+    checked: 2026-09-26
+
+  - id: matt-24-36-esv
+    what: the day and hour
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 36, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "no one knows, not even the angels of heaven, nor the Son, but the Father only"
+    checked: 2026-09-26
+
+  - id: matt-24-2-esv
+    what: temple prediction
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 2, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "not be left here one stone upon another"
+    checked: 2026-09-26
+
+  - id: matt-24-21-esv
+    what: great tribulation wording
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 21, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "such as has not been from the beginning of the world until now, no, and never will be"
+    checked: 2026-09-26
+
+  - id: matt-24-29-esv
+    what: immediately after
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 29, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Immediately after the tribulation of those days"
+    checked: 2026-09-26
+
+  - id: matt-24-42-esv
+    what: command to stay awake
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 42, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Therefore, stay awake, for you do not know on what day your Lord is coming"
+    checked: 2026-09-26
+
+  - id: matt-25-10-esv
+    what: the door was shut
+    tool: study_verse
+    args: {book: Matt, chapter: 25, verse: 10, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "and the door was shut"
+    checked: 2026-09-26
+
+  - id: matt-26-2-esv
+    what: Passover two days off -- dating the discourse
+    tool: study_verse
+    args: {book: Matt, chapter: 26, verse: 2, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "after two days the Passover is coming"
+    checked: 2026-09-26
+
+  - id: mark-13-3-esv
+    what: four disciples on the Mount of Olives
+    tool: study_verse
+    args: {book: Mark, chapter: 13, verse: 3, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Peter and James and John and Andrew asked him privately"
+    checked: 2026-09-26
+
+  - id: mark-11-13-esv
+    what: fig tree in leaf that week
+    tool: study_verse
+    args: {book: Mark, chapter: 11, verse: 13, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "a fig tree in leaf"
+    checked: 2026-09-26
+
+  - id: mark-13-30-esv
+    what: Mark's generation saying identical to Matthew's in ESV
+    tool: study_verse
+    args: {book: Mark, chapter: 13, verse: 30, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "this generation will not pass away until all these things take place"
+    checked: 2026-09-26
+
+  - id: luke-21-32-esv
+    what: Luke's variant wording
+    tool: study_verse
+    args: {book: Luke, chapter: 21, verse: 32, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "until all has taken place"
+    checked: 2026-09-26
+
+  - id: james-5-9-esv
+    what: the Judge at the door
+    tool: study_verse
+    args: {book: Jas, chapter: 5, verse: 9, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "the Judge is standing at the door"
+    checked: 2026-09-26
+
+  - id: james-5-8-esv
+    what: coming at hand
+    tool: study_verse
+    args: {book: Jas, chapter: 5, verse: 8, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "the coming of the Lord is at hand"
+    checked: 2026-09-26
+
+  - id: isa-40-8-esv
+    what: word of our God stands forever
+    tool: study_verse
+    args: {book: Isa, chapter: 40, verse: 8, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "the word of our God will stand forever"
+    checked: 2026-09-26
+
+  - id: acts-1-7-esv
+    what: times fixed by the Father
+    tool: study_verse
+    args: {book: Acts, chapter: 1, verse: 7, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "times or seasons that the Father has fixed by his own authority"
+    checked: 2026-09-26
+
+  - id: esvsb-note-24-34-five-readings
+    what: ESV Study Bible note on 24:34 -- five readings, fifth = generation that sees all these things
+    tool: study_note
+    args: {book: Matt, chapter: 24, verse: 34, work_id: esv-study-bible}
+    expect_contains: "the generation alive when the final period of great tribulation begins"
+    checked: 2026-09-26
+
+  - id: esvsb-note-24-35
+    what: ESV Study Bible note on 24:35 quoted in "Words that outlast creation"
+    tool: study_note
+    args: {book: Matt, chapter: 24, verse: 35, work_id: esv-study-bible}
+    expect_contains: "attributes divine authority and permanence to his own teaching"
+    checked: 2026-09-26
+
+  - id: nivbtsb-note-24-34-preliminary-events
+    what: NIV BTSB holds the contemporaries reading -- preliminary events incl. Jerusalem's destruction within ~40 years
+    tool: study_note
+    args: {book: Matt, chapter: 24, verse: 34, work_id: niv-biblical-theology-study-bible}
+    expect_contains: "all of the preliminary events, including the destruction of Jerusalem"
+    checked: 2026-09-26
+
+  - id: matt-24-33-no-subject
+    what: 24:33 has no expressed subject (ἐγγύς ἐστιν ἐπὶ θύραις); CSB and LSB footnote "Or it"
+    tool: study_note
+    args: {book: Matt, chapter: 24, verse: 33}
+    expect_contains: "Or it"
+    checked: 2026-09-26
+
+  - id: matt-24-34-35-parerchomai-ou-me
+    what: 24:34 and 24:35 both use παρέρχομαι with the double negative οὐ μή
+    tool: bible_interlinear
+    args: {book: Matt, chapter: 24, verse: 35}
+    expect_contains: "παρέλθωσιν"
+    checked: 2026-09-26
+
+  - id: thyra-james-5-9
+    what: James 5:9 uses θύρα (doors), the word of Matthew 24:33
+    tool: bible_concordance
+    args: {strongs: G2374, book: Jas, work_id: macula-greek-sblgnt}
+    expect_count: 1
+    checked: 2026-09-26
+open_questions:
+  - >
+    Sibling tension: last-things/prophecy-essentials.md (~line 295) reads Matthew 24:34 as fulfilled
+    "by ordinary reckoning" in AD 70, with a parenthetical flag. This study takes ESVSB option 5 (the
+    generation that sees the signs). Author to decide whether prophecy-essentials should point here.
+  - >
+    Links to two drafts: immediately-after.md#the-times-of-the-gentiles and
+    heaven-and-earth-will-pass-away.md. Both must be published first (or the links removed), or
+    mkdocs build --strict fails once this page is published. The immediately-after anchor was changed
+    mid-session by a parallel restructure -- re-check it.
+  - >
+    Prose is ~3,400 words, above the 1,500-3,000 aim (under the 4,000 budget). Trim candidates: the
+    Monday fig tree subsection, or the AD 70 subsection (already covered in olivet-discourse.md).
+  - >
+    When published, turn the plain-text pointer in olivet-discourse.md ("in preparation") into a link.
 last_updated: "2026-09-26"
