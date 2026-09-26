@@ -1048,3 +1048,19 @@ insight_2026-09-26:
       text: "This shows that God's purpose in your praying includes your **sanctification**: He conforms your will to His and acts through the surrendered will. So you can bring Him every request and leave the outcome with a Father whose will is always wiser than yours."
       derived_from: "Romans 12:1-2 (transformation, discernment after surrender), Col 4:12, Rom 8:27, the canon table; 'always wiser and better' from Be Transformed."
   not_changed: "How Jesus prayed already lands ('the Father is worth yours'); Key Takeaways, Be Transformed and the prayer already name Jesus and address the reader. Divine pronouns capitalised in two shortened sentences (What He went for; ἐπίγνωσις)."
+
+read_2026-09-26:
+  file: docs/content/christian-life/prayer-as-communion.md
+  reader: stranger pass (read-bible-study), after simplify commit 48e8233
+  sections: "35 -> 33"
+  median_section_words: "138 -> 147"
+  sections_over_400: "0 -> 0 (longest 326)"
+  changes:
+    - "Study outline (from simplify pass) reviewed: all nine anchors resolve in the built page. Bullets 5 (Personal and corporate) and 9 (Teaching a household to pray) had no annotation, so they read as TOC rows; descriptive annotations added."
+    - "What to pray about: removed '### Four words, four domains' and '### Proportion, scope, and the ground'. The heading between the 1 Timothy 2:1 table and 'Most prayer lives are heavy on the first...' cut the table off from the sentence that reads it (rule 6), and removing it left a lone sub-heading. The section is now one 160-word run. No inbound links to either anchor."
+  verify: "study_structure --verify-against HEAD: clean, removed [], added_unexpected [] -- no sentence changed. validate: no warnings on this file (Check 22 clear). mkdocs build --strict: exit 0; every outline anchor and in-page link checked against the built HTML."
+  not_fixed_needs_prose:
+    - "'## How Jesus prayed' opens directly on a table with an empty header row, with no claim leading into it (rules 6/7). This needs a topic sentence from the author."
+    - "'### Why that second row says \"would\"' ends on the translation-comparison table, with nothing after it saying what the split establishes."
+    - "Outline bullet 4 link text shortens the heading to 'How the apostles prayed'. That is fine, and left alone."
+  not_verified: "Structure pass only. It says nothing about the accuracy of quotations, counts or word studies. Review-bible-study last ran before the simplify and insight passes, so the thesis and four added 'This shows that God...' lines are unreviewed."

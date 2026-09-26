@@ -10,6 +10,7 @@ date_created: 2024-10-06
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-4.5
   - anthropic/claude-sonnet-5
 ---
@@ -105,11 +106,11 @@ In Jesus' name. Amen.
 2. **[Who am I praying to?](#who-am-i-praying-to)** — the Father, through the Son, in the Spirit.
 3. **[How Jesus prayed](#how-jesus-prayed)** — habitually, alone, at cost.
 4. **[How the apostles prayed](#how-the-apostles-prayed-and-what-they-taught)** — and what Paul asked for.
-5. **[Personal and corporate](#personal-and-corporate)**
+5. **[Personal and corporate](#personal-and-corporate)** — the shut door of Matthew 6:6, and the church praying together in Acts.
 6. **[What to pray about](#what-to-pray-about)** — 1 Timothy 2:1's four words.
 7. **[What prayer permits God to do](#what-prayer-permits-god-to-do)** — a will aligned, then God acting.
 8. **[A pattern to pray by](#a-pattern-to-pray-by)** — six steps.
-9. **[Teaching a household to pray](#teaching-a-household-to-pray)**
+9. **[Teaching a household to pray](#teaching-a-household-to-pray)** — Deuteronomy 6:6-7, and five habits for a family.
 
 ## Communion before discipline
 
@@ -367,8 +368,6 @@ corporate expression loses the "our," and with it the reminder that you are one 
 
 ## What to pray about
 
-### Four words, four domains
-
 Paul gives four distinct words in one sentence, and Louw-Nida assigns each its own semantic domain.
 
 > ✝️ 1 Timothy 2:1-2 (ESV)
@@ -383,8 +382,6 @@ Paul gives four distinct words in one sentence, and Louw-Nida assigns each its o
 | **προσευχάς** (*proseuchas*) | prayer, the general word | the ordinary talking |
 | **ἐντεύξεις** (*enteuxeis*) | approaching someone on another's behalf | intercession — named people, and what you want for them |
 | **εὐχαριστίας** (*eucharistias*) | thanksgiving | what he has already done |
-
-### Proportion, scope, and the ground
 
 Most prayer lives are heavy on the first and light on the last two. Paul's ordering puts
 intercession and thanksgiving in the same breath as asking for yourself, and then names the least
