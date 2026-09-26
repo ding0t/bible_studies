@@ -311,3 +311,19 @@ insight_2026-09-26:
     - "This shows that God is sovereign over Leviathan in every sense the name carries: He formed the animal, crushed Egypt and will slay the dragon in that day."   # end of other appearances
     - "This is the doctrine of God's sovereignty, and Job 42:2 states it: \"no purpose of yours can be thwarted.\" God owes no one, because no one has first given to Him; everything He gives, salvation included, is grace. So when He does not explain your suffering, you can answer as Job did: \"now my eye sees you.\""   # What the two exhibits are for
   note: "All derived from verses the study already quotes (Job 41:10-11, 42:2, 42:5, Isa 27:1, Ps 74:14, Ps 104:26, Rom 11:35-36, 1 Tim 2:5). No new citations."
+
+read_2026-09-26:
+  sections: "37 -> 38 (added ## Study outline)"
+  median_section_words: "105 -> 105"
+  sections_over_400: "0 -> 0"
+  longest_section_words: 376
+  thesis: "'In one sentence:' already present at the top (line 21); opening not slow -- left as is."
+  changes:
+    - "Added ## Study outline after Key Takeaways/Prayer: 9 single-line bullets, descriptive annotations only, one per ## content section."
+    - "Heading 'A catalogue of real animals, not myth' -> 'A catalogue of real animals' (thesis-antithesis heading; no inbound links)."
+    - "Heading 'His range is the open deep, not a river' -> 'His range is the open deep' (same; no inbound links)."
+  verify: "study_structure.py --verify-against HEAD: clean, removed [], added_unexpected [] -- no sentence changed. mkdocs build --strict passes; all 9 outline anchors resolve in built HTML. Validator Check 22 gone."
+  left_for_author:
+    - "Each #### under 'Why not the hippopotamus' and 'Four features against the crocodile' repeats its heading as a bold lead-in (e.g. '#### The tail' then '**The tail.**'); dropping the bold duplicates would change prose lines. The bold lead 'His range is the open deep, not a river.' still carries the antithesis."
+    - "Check 18 'nowhere else' on ashaq (H6231) still warns -- carried over from the simplify pass."
+    - "This pass verifies nothing; the study's last review status should be checked before treating it as audited."
