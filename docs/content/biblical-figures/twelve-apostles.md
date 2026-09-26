@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 10:1-4; Mark 3:13-19; Luke 6:12-16; Acts 1:13"
 bible_references: ["John 1:35-51", "Matthew 4:18-22", "Luke 5:1-11", "Mark 6:7-13", "Matthew 19:28", "Revelation 21:12-14", "Ephesians 2:20", "Acts 1:15-26", "Matthew 10:5-6", "Mark 14:50", "Luke 22:24", "John 15:16", "John 12:20-22", "Titus 3:5"]
 date_created: 2026-08-08
-date_modified: 2026-09-20
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -19,6 +19,8 @@ Scripture names the Twelve four separate times, and no two lists put them in the
 looks at first like the ordinary untidiness of four men remembering the same group of friends. It
 isn't. Lay the four lists side by side and count positions, and a structure appears that none of the
 four authors mentions and all four obey.
+
+**In one sentence:** Jesus appointed exactly twelve men to announce the restoration of Israel's twelve tribes, called them to be with Him before He sent them out, and made their witness to His resurrection the foundation of His Church — so what qualifies you for His work is that He chose you and you are with Him.
 
 ## Key Takeaways
 
@@ -73,6 +75,17 @@ Father, you chose twelve ordinary men and made them the foundation of the city t
 sun or moon. You did not choose them for their strength, and you did not lose them for their
 weakness. Teach us to want your presence before we want your commission — to be with your Son first,
 and sent second. And where we have narrowed the company you have given us, widen it again.
+
+## Study outline
+
+- **The four lists** — [Four lists, not one](#four-lists-not-one) · [The skeleton inside the lists](#the-skeleton-inside-the-lists) · [Matthew's six pairs](#matthews-list-is-six-pairs-and-english-hides-it). Where each list sits, the three fixed groups of four, and Matthew's pairing before the sending two by two.
+- [From disciple to apostle](#from-disciple-to-apostle). *Mathētēs* and *apostolos*, and the moment Luke 6:13 gives the name.
+- [The calling in three stages](#the-calling-was-three-stages-not-one). First encounter, the call to follow, and the appointment.
+- [Why the number had to be twelve](#why-the-number-had-to-be-twelve). Twelve thrones for the twelve tribes, and the gates and foundations of the city.
+- [The men themselves](#the-men-themselves). Each name and its meaning, three disputed identifications, and [a tax collector and a Zealot](#a-tax-collector-and-a-zealot) in one group.
+- **Sent, scattered, made twelve again** — [Sent to Israel first](#sent-to-israel-first) · [They all fled](#they-all-fled) · [The twelfth chair](#the-twelfth-chair). The commission to Israel, the desertion, and Matthias chosen to restore the number.
+- [Theological principle](#theological-principle). The conclusion drawn together from Mark 3:14, Matthew 19:28, John 15:16 and Acts 1:21-22.
+- [Questions for discussion](#questions-for-discussion). Five, for a group or on your own.
 
 ---
 

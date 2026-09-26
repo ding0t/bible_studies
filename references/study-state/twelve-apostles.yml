@@ -284,3 +284,21 @@ resources_consulted:
     title: "bible-text.db — SBLGNT (CC BY 4.0), World English Bible (public domain)"
     note: "Four apostle lists pulled in Greek and English; group-position pattern and Matthew's pairing verified position-by-position from source rather than from memory."
 last_updated: "2026-08-07"
+
+read_2026-09-26:
+  pass: read-bible-study (structure only, stranger reader)
+  changes:
+    - "Added **In one sentence:** thesis between the opening paragraph and Key Takeaways (was missing)."
+    - "Added ## Study outline after Key Takeaways: 8 one-line bullets, descriptive annotations only; the three list sections and the three closing narrative sections each grouped on one line."
+  sections: "20 -> 21"
+  median_section_words: "131 -> 131"
+  sections_over_400_words: "0 -> 0 (longest 385)"
+  verify: "study_structure.py --verify-against HEAD: clean, removed [], added_unexpected [], added_allowed = the thesis line only"
+  validate: "Check 22 (no outline) cleared. Remaining warning: Check 10 'worth ___' at 'this is worth correcting out loud' (The men themselves)."
+  mkdocs_strict: "pass; all 13 outline anchors resolve in built HTML"
+  findings_not_fixed:
+    - "'worth ___' template x2: 'this is worth correcting out loud' (validator Check 10) and 'A detail worth having:' opening the last paragraph of From disciple to apostle. Prose changes -- for the author/review."
+    - "Two headings are built as thesis-antithesis: 'Four lists, not one' and 'The calling was three stages, not one'. Renaming is structural but changes anchors; left for the author. Note patristic-sources.md links #matthews-list-is-six-pairs-and-english-hides-it, so that heading must keep its slug."
+    - "Key Takeaways 'Be transformed' opens with a negative definition ('The Twelve are not a leadership seminar') and frames all three bullets as assumptions to dismantle -- contrastive framing; prose, for the author."
+    - "Divine pronouns are lowercase throughout the author's own prose (he/him/his for Jesus) against the AGENTS.md house rule; the added thesis capitalises. Corpus-wide prose fix, for review."
+    - "Study outline annotations are descriptive only; no evaluative note (e.g. which section is the study's centre -- arguably 'Why the number had to be twelve') was written. Author may add one."
