@@ -85,11 +85,11 @@ turns into either presumption or despair.
 
 ### Prayer
 
-Father — you gave your testimony concerning your Son before I ever asked for reassurance, and you
+Father — you gave your testimony concerning your Son Jesus before I ever asked for reassurance, and you
 did not leave salvation to my own doing. Ground my confidence there, not in how the last week went.
 Where I have confused evidence for a foundation, correct me; where I have used "grace" as cover for
-indifference, correct that too. Let your Spirit bear witness with mine, the way your word says he
-does. Amen.
+indifference, correct that too. Let your Spirit bear witness with mine, the way your word says He
+does. In Jesus' name. Amen.
 
 ## Study outline
 
