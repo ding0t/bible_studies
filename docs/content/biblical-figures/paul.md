@@ -10,6 +10,7 @@ date_created: 2026-08-29
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -78,7 +79,7 @@ a common grammar: grace to someone with no natural claim. The text still keeps t
 Lord Jesus, you stopped a man mid-persecution and made him your envoy to the very people he
 would never have chosen to reach. Thank you that you call by grace and not by résumé. Where I have
 written someone off -- or written myself off -- because of what came before, interrupt that the way
-you interrupted Saul on the road, and finish what you start. Amen.
+you interrupted Saul on the road, and finish what you start. In Jesus' name. Amen.
 
 ## Study outline
 
