@@ -1,10 +1,34 @@
 slug: "one-taken-one-left"
 title: "One Taken, One Left"
-status: drafting
+status: review
 target_path: "docs/content/last-things/one-taken-one-left.md"
-primary_passage: "Matthew 24:37-41"
+primary_passage: "Matthew 24:37-41; Luke 17:26-37"
+supporting_passages: ["Genesis 7:1", "Genesis 7:23", "Matthew 13:30-49", "Matthew 25:31-46", "John 14:3", "1 Thessalonians 4:17"]
+genre: [gospel]
 forked_from: "docs/content/last-things/olivet-discourse.md"
 point: "Taken = removed in judgment, left = preserved, by the Noah illustration and Luke 17:37; the pretribulational case rests on other texts."
+
+thesis: >
+  In Matthew 24:40-41 the one taken is removed in judgment and the one left is preserved, as Noah
+  was left when the flood took the rest; this shows that God judges with perfect discernment at His
+  Son's return and keeps a people for His kingdom, and the church's hope of being caught up to Jesus
+  rests on other texts.
+outline:
+  - section: "The saying in its two settings"
+    says: "Matthew places it after the post-tribulation coming (24:29-31), between the flood and 'stay awake'; Luke on the road to Jerusalem with Noah and Lot; Luke 17:36 is a late addition."
+  - section: "The verbs, and what decides their meaning"
+    says: "paralambano/aphiemi carry no verdict; Louw-Nida separates John 14:3's welcoming sense (34.53) from Matt 24:40-41's carrying-off sense (15.168)."
+  - section: "Noah was the one left"
+    says: "Gen 7:23 'only Noah was left' (sha'ar, root of she'ar 'remnant'); Matthew's weeds gathered first (13:30, 41, 49) and the sheep/goats show the same order."
+  - section: "Luke's answer to 'where?'"
+    says: "Corpse and vultures = battlefield judgment; episynago echoes 24:31; the shared millstone."
+  - section: "The case for the other reading"
+    says: "Contested: airo vs paralambano, Lot leaving first, 24:31 proximity (ESVSB Luke note, NIV BTSB); answered, with the shared main point stated."
+  - section: "Where the rapture fits"
+    says: "Dispensational placement: wicked taken at the end of the tribulation, righteous survivors enter the kingdom; the rapture rests on 1 Thess 4, John 14, 2 Thess 2."
+word_budget: 4000
+word_budget_reason: ""
+
 stages:
   forked:
     done: true
@@ -12,8 +36,190 @@ stages:
       Forked verbatim on 2026-09-26 (simplify-bible-study, readability-sweep-2026-09) from
       docs/content/last-things/olivet-discourse.md at commit dda393c: ## One Taken, One Left (all subsections). Word studies and
       quotations were verified there (see olivet-discourse.yml review blocks) and are not redrafted.
-      Needs develop-bible-study for its own opening, "In one sentence:" thesis, Key Takeaways and
-      discussion questions; draft: true until then. When published, turn the plain-text pointer in
-      olivet-discourse.md into a link.
-open_questions: []
+  scoping:
+    done: true
+    notes: "Gospel, prophetic discourse. Primary Matt 24:37-41 with Luke 17:26-37 as a separate occasion."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Matthew: Mount of Olives, private question (24:3). Luke: on the way to Jerusalem (17:11), Pharisees' question (17:20) then disciples (17:22). Galilean shared courtyard/millstone (NIV CBSB)."
+    literary_context:
+      done: true
+      notes: "Matthew 24:29-31 coming after the tribulation -> 24:36 timing -> 24:37-39 Noah -> 24:40-41 -> 24:42 stay awake. Luke: Noah and Lot (17:26-30), Lot's wife (17:32), saying (17:34-35), 'Where, Lord?' (17:37)."
+    content_word_studies:
+      done: true
+      terms:
+        - {word: "παραλαμβάνω", language: greek, transliteration: "paralambano", strongs_id: "G3880", gloss: "take", notes: "present passive at Matt 24:40-41 (IPP3); LN 15.168 there vs 34.53 at John 14:3 and Matt 1:20,24 (verified in parent)"}
+        - {word: "ἀφίημι", language: greek, transliteration: "aphiemi", strongs_id: "G863", gloss: "leave"}
+        - {word: "αἴρω", language: greek, transliteration: "airo", strongs_id: "G142", gloss: "take away; the flood's verb at Matt 24:39"}
+        - {word: "שָׁאַר", language: hebrew, transliteration: "sha'ar", strongs_id: "H7604", gloss: "remain, be left (TWOT 2307); Gen 7:23 Niphal; LXX kataleipo"}
+        - {word: "שְׁאָר", language: hebrew, transliteration: "she'ar", strongs_id: "H7605", gloss: "remnant (TWOT 2307a); Isa 10:21"}
+  hermeneutics:
+    theological_principle:
+      done: true
+      notes: "God judges with perfect discernment at the Son's return and preserves a remnant for His kingdom; being left is how God saved in the flood."
+    application_draft:
+      done: true
+      notes: "Believer need not fear the saying (1 Thess 5:9, John 14:3); it sends you to pray for and speak to the person beside you."
+  cross_reference:
+    done: true
+    translations_compared: ["ESV", "KJV (Luke 17:36)", "LSB footnotes", "LXX (Gen 7:23)"]
+    divergences_noted: "Luke 17:36 absent from ESV; KJV includes it; LSB footnote: early mss omit. Commentaries split: ESVSB gives both at Matt 24:40-41 but reads 'caught up' at Luke 17:34-35; NIV BTSB leans salvation; NIV CBSB reads judgment."
+  drafting:
+    done: true
+    file: "docs/content/last-things/one-taken-one-left.md"
+  review:
+    done: false
+    validated: true
+
+evidence:
+  - id: gen-7-23-esv
+    what: Genesis 7:23 ESV wording quoted ("Only Noah was left")
+    tool: study_verse
+    args: {book: Gen, chapter: 7, verse: 23, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Only Noah was left, and those who were with him in the ark"
+    checked: 2026-09-26
+  - id: gen-7-23-shaar
+    what: the Hebrew verb behind "was left" at Genesis 7:23 is שָׁאַר (H7604)
+    tool: bible_interlinear
+    args: {book: Gen, chapter: 7, verse: 23}
+    expect_contains: "H7604"
+    checked: 2026-09-26
+  - id: shaar-twot
+    what: TWOT root 2307 for H7604, 2307a for H7605 (she'ar)
+    tool: twot_strongs
+    args: {strongs_id: H7605}
+    expect_contains: "2307a"
+    checked: 2026-09-26
+  - id: isa-10-21-esv
+    what: Isaiah 10:21's "remnant" is שְׁאָר (H7605), the noun of Gen 7:23's verb
+    tool: bible_interlinear
+    args: {book: Isa, chapter: 10, verse: 21}
+    expect_contains: "H7605"
+    checked: 2026-09-26
+  - id: matt-24-39-airo
+    what: the flood's "swept away" at Matt 24:39 is αἴρω
+    tool: bible_interlinear
+    args: {book: Matt, chapter: 24, verse: 39}
+    expect_contains: "αἴρω"
+    checked: 2026-09-26
+  - id: matt-24-40-present-passive
+    what: παραλαμβάνεται is present passive indicative at Matt 24:40
+    tool: bible_interlinear
+    args: {book: Matt, chapter: 24, verse: 40}
+    expect_contains: "IPP3"
+    checked: 2026-09-26
+  - id: luke-17-37-episynago
+    what: Luke 17:37's vultures "gather" is ἐπισυνάγω
+    tool: bible_interlinear
+    args: {book: Luke, chapter: 17, verse: 37}
+    expect_contains: "ἐπισυνάγω"
+    checked: 2026-09-26
+  - id: luke-17-36-absent-esv
+    what: ESV has no Luke 17:36
+    tool: study_verse
+    args: {book: Luke, chapter: 17, verse: 36, work_id: esv-study-bible}
+    expect_count: 0
+    checked: 2026-09-26
+  - id: luke-17-36-kjv
+    what: KJV includes Luke 17:36
+    tool: bible_verse
+    args: {book: Luke, chapter: 17, verse: 36, translation: KJV}
+    path: text
+    expect_contains: "Two men shall be in the field"
+    checked: 2026-09-26
+  - id: esvsb-matt-24-40-both
+    what: ESV Study Bible gives both readings at Matt 24:40-41
+    tool: study_note
+    args: {book: Matt, chapter: 24, verse: 40, work_id: esv-study-bible}
+    expect_contains: "taken away to final judgment"
+    checked: 2026-09-26
+  - id: esvsb-luke-17-34-caught-up
+    what: ESV Study Bible reads Luke 17:34-35 as caught up to Christ
+    tool: study_note
+    args: {book: Luke, chapter: 17, verse: 34, work_id: esv-study-bible}
+    expect_contains: "caught up to be with Christ"
+    checked: 2026-09-26
+  - id: nivbtsb-luke-17-34
+    what: NIV BTSB calls it unclear and leans salvation; main point is final separation
+    tool: study_note
+    args: {book: Luke, chapter: 17, verse: 34, work_id: niv-biblical-theology-study-bible}
+    expect_contains: "decisive and final separation"
+    checked: 2026-09-26
+  - id: nivcbsb-luke-17-37
+    what: NIV CBSB on carrion birds on battlefields
+    tool: study_note
+    args: {book: Luke, chapter: 17, verse: 37, work_id: niv-cultural-backgrounds-study-bible}
+    expect_contains: "battlefields"
+    checked: 2026-09-26
+  - id: esv-quotes-new
+    what: New ESV quotations in the draft (spot entries; all checked 2026-09-26)
+    tool: study_verse
+    args: {book: Matt, chapter: 13, verse: 30, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Gather the weeds first and bind them in bundles to be burned"
+    checked: 2026-09-26
+  - id: matt-13-41-esv
+    what: Matt 13:41 ESV
+    tool: study_verse
+    args: {book: Matt, chapter: 13, verse: 41, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "gather out of his kingdom all causes of sin and all law-breakers"
+    checked: 2026-09-26
+  - id: matt-13-49-esv
+    what: Matt 13:49 ESV
+    tool: study_verse
+    args: {book: Matt, chapter: 13, verse: 49, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "separate the evil from the righteous"
+    checked: 2026-09-26
+  - id: matt-25-34-esv
+    what: Matt 25:34 ESV
+    tool: study_verse
+    args: {book: Matt, chapter: 25, verse: 34, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "inherit the kingdom prepared for you from the foundation of the world"
+    checked: 2026-09-26
+  - id: luke-17-29-esv
+    what: Luke 17:29 ESV
+    tool: study_verse
+    args: {book: Luke, chapter: 17, verse: 29, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "on the day when Lot went out from Sodom, fire and sulfur rained from heaven"
+    checked: 2026-09-26
+  - id: two-peter-2-9-esv
+    what: 2 Peter 2:9 ESV (memory verse)
+    tool: study_verse
+    args: {book: 2Pet, chapter: 2, verse: 9, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "the Lord knows how to rescue the godly from trials"
+    checked: 2026-09-26
+  - id: one-thess-4-17-esv
+    what: 1 Thessalonians 4:17 ESV
+    tool: study_verse
+    args: {book: 1Thess, chapter: 4, verse: 17, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "who are left, will be caught up together with them in the clouds"
+    checked: 2026-09-26
+
+open_questions:
+  - >
+    Sibling tension (not edited, for the author): rapture.md files Matthew 24:36-44 under "The
+    imminence of the rapture" (no signs, readiness), while this study and olivet-discourse.md place
+    24:40-41 at the post-tribulation coming of 24:29-31. rapture.md's own sub-section already
+    concedes 24:40-41 is not rapture evidence, but its heading still applies the surrounding
+    paragraph to the rapture. Decide whether 24:36-44 addresses the church's waiting by
+    application or by direct reference, and make the two studies say the same.
+  - >
+    Luke's Lot illustration (17:28-29) removes the righteous before the fire, and rapture.md uses
+    Lot as a type of the rapture. This study answers the objection from Lot's wife (17:32) and the
+    "where?" of 17:37; the author may judge that answer thinner than the rest of the case.
+  - "Louw-Nida codes (15.168, 34.53) are carried from the parent's verification, not re-queried here."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", note: "Matt 24:40-41 gives both readings; Luke 17:34-35 reads caught up. Contributed the counter-case."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "Luke 17:34 leans salvation; 17:37 public judgment. Contributed the counter-case and the shared main point."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", note: "Matt 24:41 millstone -> judgment; Luke 17:37 carrion birds. Confirmed."}
+  - {type: commentary, title: "Legacy Standard Bible footnotes", note: "Luke 17:36 early mss omit; 17:37 'Or eagles'."}
+  - {type: lexicon, title: "TWOT via twot_strongs", note: "2307 / 2307a"}
 last_updated: "2026-09-26"
