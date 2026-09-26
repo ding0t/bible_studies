@@ -10,6 +10,7 @@ date_created: 2025-12-13
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -76,7 +77,7 @@ read what you have actually written — the patterns your servants built into yo
 you gave it, the meaning you stated plainly — rather than the patterns I am clever enough to
 manufacture. Keep me from mistaking my own ingenuity for your revelation. Open my eyes to behold
 wondrous things out of your law, and let what I find there send me back to obedience, not to
-speculation. Amen.
+speculation. In Jesus' name. Amen.
 
 ## Study outline
 
