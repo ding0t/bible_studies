@@ -286,3 +286,22 @@ review_2026-08-15:
     change -- now 57 books / 332 chapters, and it created new cross-ref pages for Numbers 16 and
     John 8. section_index.py not needed (no new study, no new section).
 last_updated: "2026-08-15"
+
+read_2026-09-26:
+  skill: read-bible-study
+  sections: {before: 14, after: 24}
+  median_section_words: {before: 105, after: 116}
+  sections_over_400: {before: 3, after: 0}
+  longest_section_words: {before: 531, after: 231}
+  changes: >
+    Added the "In one sentence:" thesis and a 7-bullet "## Study outline" after Key Takeaways
+    (descriptive annotations only). Split Genre and setting, Literary context and Word studies into
+    three ### sub-sections each at existing paragraph breaks.
+  verify: "study_structure.py --verify-against HEAD: clean; removed []; added_unexpected []; added_allowed = the thesis line only"
+  validate: no warnings for this file (Check 22 cleared)
+  mkdocs_strict: passed; all 7 outline anchors resolve in the built HTML
+  findings_not_fixed:
+    - "Opening line builds on a contrast: 'Not an antidote and not a sacrifice -- ...' (define-affirmatively rule); also 'not an artifact of translation' (Word studies) and 'rather than proposed' (The two passages)."
+    - "Divine pronouns are lowercase throughout the author's prose (him, his, himself for Jesus and the Father), against the capitalisation rule; the new thesis line capitalises."
+    - "Discussion question 1 uses 'rather than a stand-alone verse' (virtue-contrast pattern)."
+    - "Not verified by this pass; the study's last review should be checked before relying on it."

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 21:4-9; John 3:14-15"
 bible_references: ["John 3:1-21", "John 3:16", "John 8:28", "John 12:32-34", "John 20:30-31", "2 Kings 18:1-4", "Isaiah 11:10", "Isaiah 52:13", "Genesis 3:14-15", "2 Corinthians 5:21", "Romans 8:3", "Hebrews 4:15", "Numbers 11:1-3", "Numbers 16:46-48", "Numbers 14:39-45", "Exodus 16:2-5", "Numbers 20:22-29", "Numbers 21:21-35", "Deuteronomy 8:15", "Revelation 12:9", "Isaiah 6:2", "Isaiah 6:6"]
 date_created: 2026-07-22
-date_modified: 2026-09-19
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -19,6 +19,8 @@ Israel is dying of snakebite, and God's remedy is a snake. Not an antidote and n
 bronze copy of the thing killing them, raised on a pole, healing anyone who looks at it. Centuries
 later, in a night conversation with a Pharisee, Jesus points back at that pole and says it was
 about him.
+
+**In one sentence:** Jesus names the bronze serpent Moses lifted up in the wilderness as the picture of His own cross: God's Son made in the likeness of the sin that is killing us, lifted up where everyone can see, so that you, bitten and dying, may look to Him in faith and live.
 
 ## Key Takeaways
 
@@ -79,6 +81,16 @@ thing that is killing us, and lifted him up where everyone could see. You are th
 the remedy and then asks only that we look at it. Teach us to stop bringing you what you never asked
 for. Turn our eyes to your Son, and let us live.
 
+## Study outline
+
+- [The two passages](#the-two-passages). Numbers 21:4-9 and John 3:14-16 in full.
+- [Genre and setting](#genre-and-setting). Numbers and John as books, the last murmuring episode, and the serpent image from Egypt's uraeus to Hezekiah's Nehushtan.
+- [Literary context](#literary-context). Where each passage sits, John 3:16 as the continuation of 3:14-15, and "lifted up" as John's word for the cross.
+- [Word studies](#word-studies). Serpent, bronze, *saraph* and *nes* in Hebrew; *hypsoō* and Isaiah's Servant; *ophis* from Genesis to Revelation.
+- [What carries forward, and what doesn't](#what-carries-forward-and-what-doesnt). The one-time object and the lasting pattern.
+- [Theological principle](#theological-principle). The remedy in the likeness of what is judged, and Paul's statement of it.
+- [Discussion questions](#discussion-questions). Four, for a group or on your own.
+
 ## The two passages
 
 > ✝️ Numbers 21:4-9 (ESV)
@@ -95,6 +107,8 @@ application.
 
 ## Genre and setting
 
+### Numbers and John
+
 **Numbers.** Old Testament narrative inside a covenant history. It reports what happened and lets
 placement and outcome carry the verdict, without stopping to tell the reader what to conclude — so
 where an episode sits in the book is part of what it means. The events of 21:4-9 fall near the end
@@ -109,6 +123,8 @@ have life in his name" (John 20:31, WEB). Two Johannine habits are running in ch
 misunderstood by its hearer and then clarified, and a pointer at the cross long before the cross is
 narrated.
 
+### The last murmuring episode
+
 **The complaint and the judgment.** The grievance is specific — "there is no food and no water, and
 we loathe this worthless food" (21:5) — and it is aimed at God's own provision, the manna. The
 serpents of 21:6 answer rebellion against that provision with an immediate, visible consequence.
@@ -119,6 +135,8 @@ Numbers 16 runs the same course, ending with Aaron's censer between the dead and
 (16:46-48). The form is not universal. Exodus 16's grumbling draws provision with no judgment at
 all (16:2-5), and Numbers 14's confession comes after sentence has been passed and is answered with
 defeat at Hormah (14:39-45).
+
+### The serpent image, from Egypt to Hezekiah
 
 **Serpent imagery in the ancient world.** Serpent symbolism was religiously loaded across the
 ancient Near East, and Egypt's uraeus — the rearing cobra on Pharaoh's crown, signifying protection
@@ -136,6 +154,8 @@ the same list as an Asherah pole.
 
 ## Literary context
 
+### Where each passage sits
+
 **Numbers 21:4-9** is the final murmuring-and-judgment unit of the wilderness period, sitting where
 the book turns from wandering to conquest: itinerary notices follow (21:10-20), then the defeats of
 Sihon and Og (21:21-35). Inside the unit, the point is that trusting God's provided remedy turns
@@ -146,6 +166,8 @@ asks "the teacher of Israel" why he does not understand these things (3:10), imp
 Scriptures Nicodemus taught should already have prepared him. Three verses intervene before the
 serpent, and the last of them sets the title: no one has ascended into heaven except the Son of Man
 who came down from it (3:13). That same Son of Man is the one who "must be lifted up" in 3:14.
+
+### John 3:16 continues the sentence
 
 **John 3:16 continues 3:14-15.** It opens **Οὕτως γάρ**, "for thus" — a connective pointing back at
 what was just said — and it reuses the frame of 3:15: **ἵνα πᾶς ὁ πιστεύων... ἔχῃ ζωὴν αἰώνιον**,
@@ -161,6 +183,8 @@ whoever believes in him should not perish, but have eternal life" (John 3:15, WE
 longer reading assimilated to 3:16 in the later Greek text. The ESV quoted above follows the shorter
 one. Nothing in the typology turns on the difference.
 
+### "Lifted up" across John
+
 **"Lifted up" is John's word for the cross.** The verb returns at 8:28 — "When you have lifted up
 the Son of Man, then you will know that I am he" (John 8:28, WEB) — and at 12:32: "And I, if I am
 lifted up from the earth, will draw all people to myself" (John 12:32, WEB), where John adds his own
@@ -169,6 +193,8 @@ WEB). Every one of these is spoken before the crucifixion happens; the Nicodemus
 chapter 3 of 21. The word predicts the cross without naming it.
 
 ## Word studies
+
+### The Hebrew words: serpent, bronze, burning one, banner
 
 **Nachash / nechoshet.** <span dir="rtl">נָחָשׁ</span> / <span dir="rtl">נְחֹשֶׁת</span> ("serpent" /
 "bronze," H5175 / H5178). Numbers 21:9 says Moses made a <span dir="rtl">נְחַשׁ נְחֹשֶׁת</span>,
@@ -189,6 +215,8 @@ Jesse, who stands as a banner of the peoples," whom "the nations will seek" (Isa
 word covers the pole raised for Israel's healing and the ensign the nations come to. Isaiah 11 is
 not citing the Numbers scene; the vocabulary simply runs through both.
 
+### ὑψόω: lifted up and exalted
+
 **ὑψόω** (*hypsoō*, "to lift up, exalt," G5312) — the load-bearing term. John uses it twice in one
 sentence at 3:14: Moses **ὕψωσεν** the serpent, and the Son of Man must **ὑψωθῆναι**. John's own
 gloss at 12:33 fixes what he means by it — the manner of Jesus's death.
@@ -207,6 +235,8 @@ narrative reaches the event, John writes **σταυρόω** (*stauroō*, "crucif
 chapter 19, and never uses *hypsoō* again. The veiled word carries the prediction; the plain word
 reports the execution. And the veiled word is Isaiah's word for the Servant's glory — which is why,
 in John, the cross is the humiliation and the enthronement at once.
+
+### ὄφις: the serpent from Genesis to Revelation
 
 **ὄφις** (*ophis*, "serpent," G3789). The word John uses of the bronze serpent at 3:14
 (**τὸν ὄφιν**) is the word Revelation uses of Satan: **ὁ ὄφις ὁ ἀρχαῖος**, "the old serpent, he who
