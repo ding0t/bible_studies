@@ -1,27 +1,218 @@
 slug: at-home-with-the-lord
 title: "At Home with the Lord"
-status: drafting
+status: drafted
 target_path: docs/content/last-things/at-home-with-the-lord.md
-primary_passage: "2 Corinthians 5:1-8"
+primary_passage: "2 Corinthians 5:1-10"
+supporting_passages: ["Philippians 1:21-24", "1 Thessalonians 4:13-18", "1 Corinthians 15:20-23", "1 Corinthians 15:51-53", "Revelation 6:9-11", "Luke 16:19-31", "Luke 23:43", "Ephesians 4:8-10"]
+genre: [epistle]
 origin: >
   Forked 2026-09-26 by the simplify-bible-study pass (readability sweep) from
   docs/content/jesus/three-days-and-three-nights.md at commit 950ec59.
 point: >
   Since the ascension the believing dead are with Christ, conscious and without the body, waiting
   for the bodily resurrection at His coming.
+thesis: >-
+  Since the ascension, a believer who dies goes at once to be at home with the Lord Jesus, conscious
+  and without the body, and waits there for the resurrection of the body at His coming; God keeps the
+  whole person, the soul with His Son now and the body for the day He raises it.
+outline:
+  - {section: "The passage in its letter", says: "Paul wrote 5:1-8 after despairing of life in Asia (1:8-9); the unit runs 4:16-5:10 and answers how a wasting body faces death with courage."}
+  - {section: "Two verbs for home", says: "endēmeō/ekdēmeō swap between 5:6 and 5:8 -- death moves the believer's home from the body to the Lord; the Spirit is God's arrabōn that it will happen."}
+  - {section: "Away from the body, at home with the Lord", says: "At death the believer is with Christ, conscious and waiting (Phil 1:23; Rev 6:9-11; Luke 23:43); 'naked' in 5:3 is contested, both readings given."}
+  - {section: "The body, still owed", says: "The resurrection is a separate, future, bodily event at His coming; three states side by side; Christ the firstfruits."}
+  - {section: "Where were they before?", says: "The two-compartment reading of Hades (held in the parent) and Ephesians 4:8-10, marked contested."}
+  - {section: "The whole arrangement in one view", says: "Mermaid diagram: before / now / at His coming, two tracks."}
+  - {section: "Larkin's own chart", says: "Historical witness to the classic dispensational picture, with the points this study does not follow named."}
+word_budget: 4000
+word_budget_reason: ""
 stages:
   drafting:
-    done: false
+    done: true
     notes: >
       Text moved verbatim from three-days-and-three-nights.md (sections "Did the descent empty
       Abraham's side?", "Away from the body, at home with the Lord", "The body, still owed" minus its
       1 Peter 3:19 and "narrate the interval" paragraphs, "The whole arrangement in one view",
       "Larkin's own chart", discussion question 6). Its quotations and commentary citations were
-      verified there. Needs develop-bible-study for an opening, "In one sentence:" thesis, Key
-      Takeaways, and fixes to references that assumed the parent ("the third row of that table"
-      points at the parent's Leviticus 23 table; "Three sections of prose" and "named above as
-      contested" point at parent sections). Validator Check 20 flags its sentence length.
+      verified there. 2026-09-26 develop-bible-study pass: added hook, In one sentence, Key
+      Takeaways, Study outline, historical/literary context for 2 Cor 5 (occasion, 4:16-5:10 unit),
+      a word study on ἐνδημέω/ἐκδημέω and ἀρραβών, the contested "naked" (5:3) note, a bridging
+      section introducing the two-compartment reading with a link to the parent, five discussion
+      questions, expanded References. Reordered: the present state first, the Ephesians 4 question
+      after. Fixed parent-dependent references ("Three sections of prose", "named above as
+      contested", "the three days settled..."), recased divine pronouns in moved prose, cut the
+      moved text's antithesis constructions. Author approved skipping the thesis/outline stop.
+  validate:
+    done: true
+    notes: >
+      npm run validate: only Check 17 provenance warnings (fields deliberately omitted). mkdocs
+      build --strict clean (draft dropped from build, so its own anchors were checked by eye).
+genre_notes: >
+  Epistle. Occasion: Paul's near-death in Asia (2 Cor 1:8-9) and opponents who said his suffering
+  disqualified him (ESV SB intro). Paul marks the at-home/away pair as the believer's general
+  condition ("we"), not local practice.
+evidence:
+  - id: 2cor-5-8-esv
+    what: the ESV wording of 2 Corinthians 5:8 (memory verse, quoted throughout)
+    tool: study_verse
+    args: {book: 2Cor, chapter: 5, verse: 8, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "we would rather be away from the body and at home with the Lord"
+    checked: 2026-09-26
+  - id: 2cor-5-4-esv
+    what: 5:4 "further clothed ... swallowed up by life"
+    tool: study_verse
+    args: {book: 2Cor, chapter: 5, verse: 4, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "that we would be further clothed, so that what is mortal may be swallowed up by life"
+    checked: 2026-09-26
+  - id: 2cor-5-5-esv
+    what: 5:5 the Spirit as a guarantee
+    tool: study_verse
+    args: {book: 2Cor, chapter: 5, verse: 5, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "who has given us the Spirit as a guarantee"
+    checked: 2026-09-26
+  - id: 2cor-5-9-esv
+    what: 5:9 whether at home or away
+    tool: study_verse
+    args: {book: 2Cor, chapter: 5, verse: 9, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "whether we are at home or away, we make it our aim to please him"
+    checked: 2026-09-26
+  - id: 2cor-1-8-esv
+    what: the hook -- Paul despaired of life in Asia
+    tool: study_verse
+    args: {book: 2Cor, chapter: 1, verse: 8, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "we despaired of life itself"
+    checked: 2026-09-26
+  - id: 2cor-1-9-esv
+    what: 1:9 sentence of death, God who raises the dead
+    tool: study_verse
+    args: {book: 2Cor, chapter: 1, verse: 9, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "rely not on ourselves but on God who raises the dead"
+    checked: 2026-09-26
+  - id: 2cor-4-16-esv
+    what: opening of the unit, 4:16
+    tool: study_verse
+    args: {book: 2Cor, chapter: 4, verse: 16, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "our inner self is being renewed day by day"
+    checked: 2026-09-26
+  - id: phil-1-21-esv
+    what: Philippians 1:21 memory verse
+    tool: study_verse
+    args: {book: Phil, chapter: 1, verse: 21, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "For to me to live is Christ, and to die is gain."
+    checked: 2026-09-26
+  - id: phil-1-23-esv
+    what: Philippians 1:23 depart and be with Christ, far better
+    tool: study_verse
+    args: {book: Phil, chapter: 1, verse: 23, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "My desire is to depart and be with Christ, for that is far better."
+    checked: 2026-09-26
+  - id: phil-3-21-esv
+    what: Philippians 3:21 transform our lowly body
+    tool: study_verse
+    args: {book: Phil, chapter: 3, verse: 21, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "will transform our lowly body to be like his glorious body"
+    checked: 2026-09-26
+  - id: 1thess-4-13-esv
+    what: grieve as others who have no hope
+    tool: study_verse
+    args: {book: 1Thess, chapter: 4, verse: 13, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "that you may not grieve as others do who have no hope"
+    checked: 2026-09-26
+  - id: 1thess-4-18-esv
+    what: encourage one another
+    tool: study_verse
+    args: {book: 1Thess, chapter: 4, verse: 18, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Therefore encourage one another with these words."
+    checked: 2026-09-26
+  - id: luke-23-43-esv
+    what: today you will be with me in paradise
+    tool: study_verse
+    args: {book: Luke, chapter: 23, verse: 43, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "today you will be with me in paradise"
+    checked: 2026-09-26
+  - id: lev-23-10-esv
+    what: the sheaf of the firstfruits (Types & Prophecy)
+    tool: study_verse
+    args: {book: Lev, chapter: 23, verse: 10, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "the sheaf of the firstfruits of your harvest"
+    checked: 2026-09-26
+  - id: gen-38-18-esv
+    what: Judah's pledge -- signet, cord, staff (the arrabon background)
+    tool: study_verse
+    args: {book: Gen, chapter: 38, verse: 18, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Your signet and your cord and your staff"
+    checked: 2026-09-26
+  - id: acts-18-3-esv
+    what: Paul a tentmaker at Corinth
+    tool: study_verse
+    args: {book: Acts, chapter: 18, verse: 3, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "tentmakers by trade"
+    checked: 2026-09-26
+  - id: endemeo-count
+    what: ἐνδημέω occurs three times in the NT, all in 2 Cor 5:6, 8, 9
+    tool: bible_concordance
+    args: {strongs: G1736}
+    expect_count: 3
+    checked: 2026-09-26
+  - id: ekdemeo-count
+    what: ἐκδημέω occurs three times in the NT, all in 2 Cor 5:6, 8, 9
+    tool: bible_concordance
+    args: {strongs: G1553}
+    expect_count: 3
+    checked: 2026-09-26
+  - id: arrabon-occurrences
+    what: ἀρραβών -- 3 NT (2 Cor 1:22; 5:5; Eph 1:14) plus LXX Gen 38:17, 18, 20 (6 rows total)
+    tool: bible_concordance
+    args: {strongs: G728}
+    expect_count: 6
+    checked: 2026-09-26
+  - id: esvsb-2cor-5-8-note
+    what: ESV SB note on 5:8 -- intermediate state, "immediately into the presence of Christ"
+    tool: study_note
+    args: {book: 2Cor, chapter: 5, verse: 8, work_id: esv-study-bible}
+    expect_contains: "immediately into the presence of Christ"
+    checked: 2026-09-26
+  - id: esvsb-2cor-5-2-4-note
+    what: ESV SB reads naked/unclothed as the intermediate state
+    tool: study_note
+    args: {book: 2Cor, chapter: 5, verse: 3, work_id: esv-study-bible}
+    expect_contains: "believers’ spirits are with God but they do not yet enjoy their resurrected bodies"
+    checked: 2026-09-26
+  - id: nivbtsb-2cor-5-3-note
+    what: NIV BTSB -- Corinthians wanting permanent disembodiment; "some commentators" the intermediate state
+    tool: study_note
+    args: {book: 2Cor, chapter: 5, verse: 3, work_id: niv-biblical-theology-study-bible}
+    expect_contains: "some commentators believe these terms refer to the state between death and resurrection"
+    checked: 2026-09-26
 open_questions:
-  - Parent three-days-and-three-nights.md carries a plain-text pointer to this study; turn it into a
-    link when this is published.
-  - Consider overlap with any other last-things study on the intermediate state before publishing.
+  - Parent three-days-and-three-nights.md carries a plain-text pointer to this study ("a separate
+    study in preparation"); turn it into a link when this is published.
+  - The word "naked" (2 Cor 5:3) is marked contested; the study takes the ESV SB intermediate-state reading
+    and rests the thesis on 5:8 instead. Author may want to weigh this.
+  - The two-compartment reading of Hades is the parent's position (historic dispensational); the
+    commentaries mostly read Abraham's side as heaven. Statement-of-faith is silent on the
+    intermediate state -- no conflict found.
+  - Placement -- last-things/ kept (personal eschatology, category prophecy). salvation/ now exists
+    and its taxonomy blurb lists "death"; author may prefer it there.
+  - Ephesians 4:8-10 is marked contested and not relied on; the Larkin chart is framed as
+    historical witness.
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: Crossway, note: "2 Cor intro (date, occasion, opponents); notes 5:1, 5:1-10, 5:2-4, 5:5, 5:8. Confirmed the intermediate-state reading of 5:8; contributed the naked=intermediate-state reading."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: Zondervan, note: "notes 5:1-10, 5:3-4, 5:5. Contributed the alternative reading of 'naked' (Corinthian desire for permanent disembodiment) and the two senses of arrabōn."}
+  - {type: lexicon, title: "Macula Greek SBLGNT / ULT interlinear", author: unfoldingWord / Clear Bible, note: "lemma, gloss, occurrence counts for ἐνδημέω, ἐκδημέω, ἀρραβών; πρὸς τὸν κύριον at 5:8; ἀναλῦσαι at Phil 1:23."}
+last_updated: "2026-09-26"
