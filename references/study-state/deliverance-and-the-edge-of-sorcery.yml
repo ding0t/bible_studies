@@ -1,21 +1,147 @@
 slug: "deliverance-and-the-edge-of-sorcery"
 title: "Deliverance and the Edge of Sorcery"
-status: draft
+status: drafting
 target_path: "docs/content/spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md"
-point: "Scripture supplies tests for where deliverance practice crosses into the inquiry Deuteronomy 18 forbids: command a spirit in Jesus' name, never interview it; technique fails; confession, not manifestation, tests a spirit."
+
+primary_passage: "Acts 16:16-18"
+supporting_passages:
+  - "Acts 16:11-40 (Philippi frame: 16:14, 16:19, 16:31)"
+  - "Acts 19:13-20"
+  - "Deuteronomy 18:10-11, 15; 13:1-5"
+  - "1 Samuel 28:8; 1 Chronicles 10:13-14; Isaiah 8:19"
+  - "Mark 1:25, 34; Luke 4:41; Mark 5:7-13"
+  - "Luke 10:17-20; 1 John 4:1-4"
+  - "Colossians 1:13; 2:15; Hebrews 2:14; James 4:7"
+genre: [acts, gospel, epistle, topical]
+
+point: "Command a spirit in Jesus' name and ask it nothing; rest on Jesus, not technique; weigh confession; rejoice in your name written in heaven."
+thesis: >
+  God has given His people His Son to listen to and His Son's name to act in, so the apostolic
+  pattern commands an unclean spirit to leave in the name of Jesus and never questions it for
+  knowledge -- seeking knowledge from a spirit is the inquiry Deuteronomy 18 forbids -- and the
+  tests Scripture supplies (silence the spirit, rest on Jesus, weigh confession, rejoice in your name
+  written in heaven) let you judge any ministry, beginning with your own.
+outline:
+  - {section: "Hook + In one sentence", says: "Philippi: a spirit telling the truth, silenced by one command in Jesus' name."}
+  - {section: "Key Takeaways", says: "Lessons about Jesus, memory verses (Acts 16:18; Luke 10:20), Be Transformed, prayer."}
+  - {section: "Philippi: the passage in its setting", says: "Lydia/girl/jailer frame; manteuomai = LXX Deut 18:10 and 1 Sam 28:8; diaponeomai; Paul's motive contested; Acts narrative corroborated by Jesus' own practice."}
+  - {section: "Four tests", says: "1 command, ask nothing (+ Gerasene counter-example, both sides); 2 technique fails (Sceva); 3 confession tests a spirit; 4 rejoice in names written in heaven."}
+  - {section: "When a believer manifests", says: "Indwelling vs oppression (links sibling word study); more than two explanations."}
+  - {section: "What this shows about God", says: "The Prophet to listen to (Deut 18:15); the cross's victory over the powers (Col 2:15; Heb 2:14)."}
+  - {section: "Discussion questions", says: "Five: language, context, Christ, hard part (Mark 5:9), transformed."}
+  - {section: "Annex", says: "The moved table of NT statements about demons."}
+word_budget: 4000
+word_budget_reason: ""
+
 stages:
   scoping:
-    done: false
+    done: true
     notes: |
       Forked 2026-09-26 by simplify-bible-study from docs/content/sin/sorcery.md at commit 0ffe050:
       the whole "## Deliverance and the edge of sorcery" section and "## What Scripture says about
-      demons" (table + note), moved verbatim. Only change: the test-the-spirits link path adjusted
-      for the new location. Quotations and word studies were verified in sorcery.md's review
-      (see references/study-state/sorcery.yml, review_2026-08-07); do not redraft them.
-      Needs a develop-bible-study pass for its own opening, In one sentence, Key Takeaways and
-      section structure (the moved ### headings currently sit directly under the H1). One verbatim
-      sentence refers to "the older draft of this study" -- meaning sorcery.md's pre-2026 draft;
-      fix when developing. Consider its relation to christians-and-deliverance.md in the same folder.
-      Provenance fields not yet filled (refresh_frontmatter_provenance.py not run, per sweep brief).
+      demons" (table + note), moved verbatim. Quotations and word studies in the moved text were
+      verified in sorcery.md's review (references/study-state/sorcery.yml, review_2026-08-07).
+      Developed 2026-09-26 into a complete study: Acts 16:16-18 made the primary passage (it was
+      already the fork's primary_passage) and given its own historical/literary exegesis.
+      "the older draft of this study" sentence rewritten ("Holding indwelling and oppression
+      together matters."). Divine pronouns capitalised in own prose; antithesis constructions in
+      the moved text rewritten affirmatively (headings "confession, not manifestation" and "Power is
+      not the measure" recast). Provenance fields removed per brief (script fills them).
+      Relation to siblings: christians-and-deliverance.md owns the daimonizomai word study and the
+      indwelling argument -- this study now summarises in two paragraphs and links to it;
+      contemporary-deliverance.md linked as the survey of ministries; test-the-spirits.md linked
+      from test 3. No content duplicated beyond that summary.
+  exegesis:
+    historical_context:
+      done: true
+      notes: |
+        Philippi first Macedonian city Paul evangelised; four-part narrative (ESV SB note on
+        16:11-40). "We" section (16:10ff) -- narrator traditionally Luke (ESV SB intro, Irenaeus).
+        Python spirit = Delphic oracle (covered in parent, linked not repeated). Exorcists of the day
+        invoked stronger spirits against weaker ones (NIV CBSB on 16:18, 19:13); name-magic: knowing a
+        spirit's name thought to give control (NIV CBSB on Mark 5:9, Acts 19:13).
+    literary_context:
+      done: true
+      notes: |
+        Girl's episode sits between Lydia (16:14) and the jailer (16:31): a voice speaking about
+        salvation set between two who receive it. Owners' "hope of gain was gone" (16:19) triggers
+        the arrest. Acts narrative: pattern corroborated by Jesus' explicit practice (Mark 1:25, 34;
+        Luke 4:41), so the study does not build a rule on one narrative.
+    content_word_studies:
+      done: true
+      terms:
+        - {word: "μαντεύομαι", language: greek, transliteration: "manteuomai", strongs_id: "G3132", gloss: "to divine, tell fortunes", notes: "1x NT (Acts 16:16), 12x LXX incl. Deut 18:10 and 1 Sam 28:8"}
+        - {word: "διαπονέω", language: greek, transliteration: "diaponeō", strongs_id: "G1278", gloss: "to be greatly annoyed/distressed", notes: "NT: Acts 4:2, 16:18 (both ESV 'greatly annoyed')"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Transcultural: command in Jesus' name; no inquiry of spirits; confession test. Cultural: Delphic oracle background."
+    theological_principle:
+      done: true
+      notes: "God has given the Prophet to listen to (Deut 18:15) and won the victory over the powers at the cross (Col 2:15; Heb 2:14)."
+    application_draft:
+      done: true
+      notes: "Be Transformed + prayer + discussion question 5."
+  cross_reference:
+    done: true
+    translations_compared: ["ESV", "SBLGNT/UGNT interlinear", "LXX lemmas"]
+    divergences_noted: "None material. LSB footnote at 16:18: 'Lit hour'."
+    sibling_check: "cross_study_claims.py 'Acts 16' and 'Mark 5': no contradictions with other studies."
+  drafting:
+    done: true
+    file: "docs/content/spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md"
+  review:
+    done: false
+    validated: true
+    notes: "npm run validate: only the expected provenance-field warnings (fields omitted per brief). mkdocs build --strict passes (draft dropped from build); anchors checked by eye."
+
+evidence:
+  - {id: acts-16-16-esv, what: "ESV Acts 16:16 as quoted", tool: study_verse, args: {book: Acts, chapter: 16, verse: 16, work_id: esv-study-bible}, path: "0.text", expect_contains: "a spirit of divination and brought her owners much gain by fortune-telling", checked: 2026-09-26}
+  - {id: acts-16-17-esv, what: "ESV Acts 16:17 as quoted", tool: study_verse, args: {book: Acts, chapter: 16, verse: 17, work_id: esv-study-bible}, path: "0.text", expect_contains: "These men are servants of the Most High God, who proclaim to you the way of salvation", checked: 2026-09-26}
+  - {id: acts-16-18-esv, what: "ESV Acts 16:18 as quoted (memory verse)", tool: study_verse, args: {book: Acts, chapter: 16, verse: 18, work_id: esv-study-bible}, path: "0.text", expect_contains: "I command you in the name of Jesus Christ to come out of her.” And it came out that very hour", checked: 2026-09-26}
+  - {id: acts-16-14-esv, what: "Lydia's heart opened", tool: study_verse, args: {book: Acts, chapter: 16, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "The Lord opened her heart to pay attention to what was said by Paul", checked: 2026-09-26}
+  - {id: acts-16-19-esv, what: "owners' hope of gain gone", tool: study_verse, args: {book: Acts, chapter: 16, verse: 19, work_id: esv-study-bible}, path: "0.text", expect_contains: "when her owners saw that their hope of gain was gone, they seized Paul and Silas", checked: 2026-09-26}
+  - {id: acts-16-31-esv, what: "jailer told to believe", tool: study_verse, args: {book: Acts, chapter: 16, verse: 31, work_id: esv-study-bible}, path: "0.text", expect_contains: "Believe in the Lord Jesus, and you will be saved, you and your household", checked: 2026-09-26}
+  - {id: manteuomai-nt, what: "μαντεύομαι occurs once in the NT, Acts 16:16", tool: bible_concordance, args: {strongs: G3132, work_id: macula-greek-sblgnt}, expect_count: 1, checked: 2026-09-26}
+  - {id: manteuomai-all, what: "μαντεύομαι 12x LXX + 1x NT (incl. Deut 18:10, 1 Sam 28:8)", tool: bible_concordance, args: {strongs: G3132}, expect_count: 13, checked: 2026-09-26}
+  - {id: diaponeo, what: "διαπονέω in the NT at Acts 4:2 and 16:18 (plus 2 LXX)", tool: bible_concordance, args: {strongs: G1278}, expect_count: 4, checked: 2026-09-26}
+  - {id: acts-4-2-esv, what: "Acts 4:2 'greatly annoyed'", tool: study_verse, args: {book: Acts, chapter: 4, verse: 2, work_id: esv-study-bible}, path: "0.text", expect_contains: "greatly annoyed because they were teaching the people", checked: 2026-09-26}
+  - {id: 1sam-28-8-esv, what: "Saul: Divine for me by a spirit", tool: study_verse, args: {book: 1Sam, chapter: 28, verse: 8, work_id: esv-study-bible}, path: "0.text", expect_contains: "Divine for me by a spirit", checked: 2026-09-26}
+  - {id: deut-18-10-esv, what: "Deut 18:10 'anyone who practices divination'", tool: study_verse, args: {book: Deut, chapter: 18, verse: 10, work_id: esv-study-bible}, path: "0.text", expect_contains: "anyone who practices divination", checked: 2026-09-26}
+  - {id: deut-18-11-esv, what: "Deut 18:11 'one who inquires of the dead'", tool: study_verse, args: {book: Deut, chapter: 18, verse: 11, work_id: esv-study-bible}, path: "0.text", expect_contains: "one who inquires of the dead", checked: 2026-09-26}
+  - {id: deut-18-15-esv, what: "Deut 18:15 as quoted", tool: study_verse, args: {book: Deut, chapter: 18, verse: 15, work_id: esv-study-bible}, path: "0.text", expect_contains: "it is to him you shall listen", checked: 2026-09-26}
+  - {id: 1chr-10-13-esv, what: "Saul consulted a medium", tool: study_verse, args: {book: 1Chr, chapter: 10, verse: 13, work_id: esv-study-bible}, path: "0.text", expect_contains: "consulted a medium, seeking guidance", checked: 2026-09-26}
+  - {id: 1chr-10-14-esv, what: "did not seek guidance from the LORD", tool: study_verse, args: {book: 1Chr, chapter: 10, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "He did not seek guidance from the LORD", checked: 2026-09-26}
+  - {id: isa-8-19-esv, what: "Isaiah 8:19 question", tool: study_verse, args: {book: Isa, chapter: 8, verse: 19, work_id: esv-study-bible}, path: "0.text", expect_contains: "should not a people inquire of their God?", checked: 2026-09-26}
+  - {id: mark-1-25-esv, what: "Be silent, and come out of him!", tool: study_verse, args: {book: Mark, chapter: 1, verse: 25, work_id: esv-study-bible}, path: "0.text", expect_contains: "Be silent, and come out of him!", checked: 2026-09-26}
+  - {id: mark-1-34-esv, what: "would not permit the demons to speak", tool: study_verse, args: {book: Mark, chapter: 1, verse: 34, work_id: esv-study-bible}, path: "0.text", expect_contains: "he would not permit the demons to speak, because they knew him", checked: 2026-09-26}
+  - {id: luke-4-41-esv, what: "Luke 4:41 as quoted", tool: study_verse, args: {book: Luke, chapter: 4, verse: 41, work_id: esv-study-bible}, path: "0.text", expect_contains: "he rebuked them and would not allow them to speak, because they knew that he was the Christ", checked: 2026-09-26}
+  - {id: mark-5-9-esv, what: "Legion", tool: study_verse, args: {book: Mark, chapter: 5, verse: 9, work_id: esv-study-bible}, path: "0.text", expect_contains: "My name is Legion, for we are many", checked: 2026-09-26}
+  - {id: mark-5-13-esv, what: "about two thousand pigs", tool: study_verse, args: {book: Mark, chapter: 5, verse: 13, work_id: esv-study-bible}, path: "0.text", expect_contains: "numbering about two thousand", checked: 2026-09-26}
+  - {id: acts-19-13-esv, what: "Sceva formula", tool: study_verse, args: {book: Acts, chapter: 19, verse: 13, work_id: esv-study-bible}, path: "0.text", expect_contains: "I adjure you by the Jesus whom Paul proclaims", checked: 2026-09-26}
+  - {id: acts-19-15-esv, what: "Jesus I know, and Paul I recognize", tool: study_verse, args: {book: Acts, chapter: 19, verse: 15, work_id: esv-study-bible}, path: "0.text", expect_contains: "Jesus I know, and Paul I recognize, but who are you?", checked: 2026-09-26}
+  - {id: acts-19-19-esv, what: "books burned", tool: study_verse, args: {book: Acts, chapter: 19, verse: 19, work_id: esv-study-bible}, path: "0.text", expect_contains: "who had practiced magic arts brought their books together and burned them", checked: 2026-09-26}
+  - {id: luke-10-17-esv, what: "demons subject in your name", tool: study_verse, args: {book: Luke, chapter: 10, verse: 17, work_id: esv-study-bible}, path: "0.text", expect_contains: "Lord, even the demons are subject to us in your name!", checked: 2026-09-26}
+  - {id: luke-10-20-esv, what: "memory verse Luke 10:20", tool: study_verse, args: {book: Luke, chapter: 10, verse: 20, work_id: esv-study-bible}, path: "0.text", expect_contains: "rejoice that your names are written in heaven", checked: 2026-09-26}
+  - {id: 1john-4-1-esv, what: "1 John 4:1", tool: study_verse, args: {book: 1John, chapter: 4, verse: 1, work_id: esv-study-bible}, path: "0.text", expect_contains: "Beloved, do not believe every spirit, but test the spirits to see whether they are from God", checked: 2026-09-26}
+  - {id: 1john-4-2-esv, what: "1 John 4:2", tool: study_verse, args: {book: 1John, chapter: 4, verse: 2, work_id: esv-study-bible}, path: "0.text", expect_contains: "every spirit that confesses that Jesus Christ has come in the flesh is from God", checked: 2026-09-26}
+  - {id: 1john-4-4-esv, what: "1 John 4:4", tool: study_verse, args: {book: 1John, chapter: 4, verse: 4, work_id: esv-study-bible}, path: "0.text", expect_contains: "he who is in you is greater than he who is in the world", checked: 2026-09-26}
+  - {id: col-1-13-esv, what: "Col 1:13", tool: study_verse, args: {book: Col, chapter: 1, verse: 13, work_id: esv-study-bible}, path: "0.text", expect_contains: "He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son", checked: 2026-09-26}
+  - {id: col-2-15-esv, what: "Col 2:15", tool: study_verse, args: {book: Col, chapter: 2, verse: 15, work_id: esv-study-bible}, path: "0.text", expect_contains: "He disarmed the rulers and authorities and put them to open shame, by triumphing over them in him", checked: 2026-09-26}
+  - {id: heb-2-14-esv, what: "Heb 2:14", tool: study_verse, args: {book: Heb, chapter: 2, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "that through death he might destroy the one who has the power of death, that is, the devil", checked: 2026-09-26}
+  - {id: jas-4-7-esv, what: "James 4:7", tool: study_verse, args: {book: Jas, chapter: 4, verse: 7, work_id: esv-study-bible}, path: "0.text", expect_contains: "Submit yourselves therefore to God. Resist the devil, and he will flee from you", checked: 2026-09-26}
+
 open_questions:
-  - "Merge with or cross-link christians-and-deliverance.md / contemporary-deliverance.md?"
+  - "Merge with christians-and-deliverance.md? Decided against for now: that page owns the indwelling/daimonizomai argument, this one the Deuteronomy 18 inquiry line; this study summarises and links. christians-and-deliverance.md's 'outward signs' section links to sin/sorcery.md -- once this is published, the author may want it to point here instead (not edited, per brief)."
+  - "Paul's motive for annoyance (Acts 16:18) left explicitly contested: ESV SB (appearance of partnership) vs NIV BTSB (irritation/disruption)."
+  - "Mark 5:9 handled with both sides; the NIV CBSB name-magic note is used both for the 'asking a name = authority' reading and against interrogation as practice. Author to judge whether the closing inference ('the magicians' belief') is stated with the right confidence."
+  - "Word count ~3,200 body words: above the 1,500-3,000 aim, under the 4,000 budget. The annex table is the obvious cut if the author wants it shorter."
+  - "Parent sorcery.md's pointer (line ~382) still reads '(in preparation)' as plain text; becomes a link when this is published."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Acts intro (authorship, 'we' passages); notes on Acts 16:11-40, 16:16 (manteuomai = LXX verb), 16:18 (motive), 19:13; Mark 5:9. Confirmed the LXX link; contributed the partnership-motive reading."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Acts 16:18 (exorcists invoking stronger spirits), 19:13 and Mark 5:9 (name-magic). Contributed the name-magic point used on both sides of Mark 5:9."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Acts 16:18 (irritation/disruption motive); Mark 5:9 (Legion = sizable host)."}
+  - {type: other, title: "NLT Life Application Study Bible", author: "Tyndale", note: "Consulted on Acts 16:14-34 and 19:13-16; nothing cited."}
+  - {type: lexicon, title: "Macula Greek SBLGNT / unfoldingWord interlinear; LXX lemmas", author: "", note: "manteuomai and diaponeo occurrences."}
+last_updated: "2026-09-26"
