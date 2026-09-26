@@ -134,3 +134,18 @@ resources_consulted:
   - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan, 2018", note: "explicit parallel offered between God's unmerited choice of Israel (Deut 9:4-5) and unmerited mercy to Paul at 1 Tim 1:16 -- 'if Paul could be saved, anyone could' -- the closest a consulted commentary comes to the user's proposed connection, used as the source for that specific move rather than asserting it independently"}
   - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan, 2016", note: "background on ancient olive-grafting practice and 'contrary to nature' at Rom 11:17-24; confirmed as background only, contributed nothing about Paul's own conversion"}
 last_updated: "2026-08-25"
+read_2026-09-26:
+  skill: read-bible-study
+  added: ["**In one sentence:** thesis before Key Takeaways", "## Study outline (7 single-line descriptive bullets) after Prayer", "8 ### sub-headings (A chosen vessel; Paul as a pattern of saved sinners; Paul as apostle to the Gentiles; Where Scripture stops; Grafted contrary to nature; Mercy to the foremost of sinners; Untimely born)"]
+  sections: "14 -> 22"
+  median_section_words: "158 -> 136"
+  sections_over_400: "2 -> 0 (longest 450 -> 283)"
+  verify: "study_structure.py --verify-against HEAD clean: removed [], added_unexpected [], added_allowed = the thesis only; no sentence changed"
+  validate: "no warnings on paul.md (Check 22 cleared)"
+  mkdocs_strict: "passed; all 23 in-page anchors resolve in built HTML"
+  findings_not_fixed:
+    - "'Two claims, kept separate' opens on method ('This is the point where it matters to be precise about what the text says...') -- the study talking about itself."
+    - "Exhaustiveness claims for review: enkentrizo 'nowhere outside this single passage' and 'Paul's own coinage-in-context... drawn from nowhere else' (the verb is ordinary Greek horticultural vocabulary outside the NT, so 'coinage' looks overstated); ektroma 'the only time... in the New Testament'; 'Paul makes the point once, here, and does not return to it elsewhere' (me diokeis identification; cf. body-of-Christ passages)."
+    - "Several thesis-antithesis constructions ('not my church', 'not incidental', 'not a stated type but a shared shape', 'not the manner of the calling but its source')."
+    - "Prayer closes 'Amen.' without 'In Jesus' name' (AGENTS.md rule)."
+    - "review.done is false -- this pass verifies nothing."

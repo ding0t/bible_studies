@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Acts 9:1-19; Romans 11:11-24"
 bible_references: ["Acts 9:15", "Acts 26:12-18", "Galatians 1:11-24", "Galatians 2:7-9", "Philippians 3:4-11", "1 Timothy 1:12-16", "1 Corinthians 15:8-10", "Ephesians 3:1-8", "Romans 9:22-24", "Ephesians 2:12-13"]
 date_created: 2026-08-29
-date_modified: 2026-09-19
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -20,6 +20,8 @@ jailed for the sake of the Jewish faith he thought he was protecting. Scripture 
 what he was called to instead: carry the gospel to the Gentiles. He is not one of the Twelve, and
 Luke doesn't even switch to calling him "Paul" until the moment his mission turns to Gentile
 territory (Acts 13:9).
+
+**In one sentence:** Scripture names Paul twice over, as the foremost of sinners saved to display Christ's perfect patience and as the apostle Christ sent to the Gentiles, and one grace runs through both: God includes the unqualified on terms no one could earn, so no past of yours puts you beyond His reach.
 
 ## Key Takeaways
 
@@ -78,6 +80,16 @@ would never have chosen to reach. Thank you that you call by grace and not by r�
 written someone off -- or written myself off -- because of what came before, interrupt that the way
 you interrupted Saul on the road, and finish what you start. Amen.
 
+## Study outline
+
+- [Saul of Tarsus, before the road](#saul-of-tarsus-before-the-road). His credentials, and his record as a persecutor.
+- [The road to Damascus](#the-road-to-damascus). The light, the voice, "why are you persecuting me?", and the commission through Ananias.
+- [Two claims, kept separate](#two-claims-kept-separate). Paul as a pattern of saved sinners, and Paul as apostle to the Gentiles.
+- [The grammar the two claims share](#the-grammar-the-two-claims-share). Grafted contrary to nature, the foremost of sinners, untimely born: three images of unearned inclusion.
+- [Called, but not one of the Twelve](#called-but-not-one-of-the-twelve). How his apostleship differs from the Twelve's, and what it shares with theirs.
+- [Theological principle](#theological-principle). The two claims and the grace that connects them.
+- [Discussion questions](#discussion-questions). Five, for a group or on your own.
+
 ---
 
 ## Saul of Tarsus, before the road
@@ -114,6 +126,8 @@ Nazareth, who had already died, risen, and ascended years earlier. The identific
 risen Christ with the body he had not yet called the church is total enough that an attack on one
 is an attack on the other. Paul makes the point once, here, and does not return to it elsewhere.
 
+### A chosen vessel: σκεῦος ἐκλογῆς
+
 The commission comes not to Saul directly but through Ananias, a disciple in Damascus who has
 every reason to be afraid of the man he is sent to heal:
 
@@ -143,6 +157,8 @@ numbers himself among is named once.
 This is the point where it matters to be precise about what the text says and does not say,
 because two true things about Paul are easy to blur into one overstated thing.
 
+### Paul as a pattern of saved sinners
+
 **Claim one: Paul is a named pattern of how grace saves an unlikely candidate.**
 
 > ✝️ 1 Timothy 1:15-16 (ESV)
@@ -162,6 +178,8 @@ it precisely: "Paul: An Example of the Effect of the True Gospel." The claim is 
 power to transform *anyone*, stated in the most extreme case available -- not a claim about Gentiles
 as a category.
 
+### Paul as apostle to the Gentiles
+
 **Claim two: Paul is named, specifically and repeatedly, apostle to the Gentiles.**
 
 > ✝️ Romans 11:13 (ESV)
@@ -179,6 +197,8 @@ tolerate this; they ratified it as a division of labor equal in standing to Pete
 >
 > 9 and when James and Cephas and John, who seemed to be pillars, perceived the grace that was given to me, they gave the right hand of fellowship to Barnabas and me, that we should go to the Gentiles and they to the circumcised.
 
+### Where Scripture stops
+
 Both claims are stated in the plainest possible language, and neither one is the other. Scripture
 never writes a sentence that says "Paul's conversion is a type of Gentile inclusion." What it does
 give is a man in whom both truths run together biographically. The same grace that reached the least
@@ -190,6 +210,8 @@ life; stating it as a formal type the text itself declares is more than the text
 
 The real connection is not a stated type but a shared *shape* of grace -- the same argument, made
 twice, about how each inclusion happens.
+
+### Grafted contrary to nature: ἐγκεντρίζω
 
 Romans 11 supplies the technical word for how Gentiles are joined to the people of God.
 **ἐγκεντρίζω** (*enkentrizō*, en-ken-TRID-zo, G1461) means "to graft in." It is a precise
@@ -209,6 +231,8 @@ harder, less horticulturally sensible image on purpose. The grafting runs agains
 supposed to work. That is exactly his point to Gentile readers tempted toward pride: *nothing in
 your position earned this.*
 
+### Mercy to the foremost of sinners
+
 That is the same logic 1 Timothy 1:16 applies to Paul individually. Nothing in a Pharisee actively
 persecuting the church "earned" an apostleship -- if anything, his record ran as hard against the
 outcome as a wild branch runs against ending up rooted in a cultivated tree. The *NIV Biblical
@@ -222,6 +246,8 @@ apostles:
 > ✝️ 1 Corinthians 15:8-10 (ESV)
 >
 > 8 Last of all, as to one untimely born, he appeared also to me. 9 For I am the least of the apostles, unworthy to be called an apostle, because I persecuted the church of God. 10 But by the grace of God I am what I am, and his grace toward me was not in vain.
+
+### Untimely born: ἔκτρωμα
 
 **ἔκτρωμα** (*ektroma*, ek-TRO-mah, G1626) is a hard word -- "a miscarriage, a stillbirth," used in
 the Septuagint of a child born dead (Numbers 12:12, Job 3:16, Ecclesiastes 6:3). It is the only time
