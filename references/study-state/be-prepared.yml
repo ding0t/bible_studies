@@ -195,3 +195,26 @@ resources_consulted:
   - "Fee & Stuart, How to Read the Bible for All Its Worth -- epistle and Acts genre lenses (occasion first; narrative precedent is not automatically normative)."
 
 last_updated: "2026-09-21"
+
+tidy_2026-09-26:
+  external_edits: >
+    An uncommitted edit of unknown origin (likely a Codex session; .codex/ was untracked) flattened
+    the study: the second-person thesis landing, the "This shows that God..." sentences and the vivid
+    opening were replaced with third-person description and new hedges ("may sound like", "one
+    possible way... remains tentative"). Rejected as a whole -- it ran against AGENTS.md "write the
+    theology as the subject" and "mark the confidence". Kept from it: dropping the Key Takeaways
+    prototype note and "Copy that.", and moving Zealots out of the middle.
+  changes:
+    - "Key Takeaways prototype note removed (the benchmark studies have none)."
+    - "'addressed to your heart, not to your vocabulary' -> 'addressed to your heart' (straw contrast)."
+    - "Prayer: 'answer out of what is settled and not out of what is shaken' -> 'answer out of what is settled'."
+    - "'churches four years old, in Bithynia' -> 'young churches in Bithynia' -- no source dates them."
+    - "'who is, four words later, Christ' -> 'in Peter's next clause' -- it is six Greek words."
+    - "'Copy that.' cut."
+    - "Zealots for the Good (v13) moved ahead of The Command in Verse 15, so the study follows the passage."
+    - "Study outline added (9 bullets, descriptive)."
+  verified: >
+    SBLGNT counts re-run and all stand: phobos 5x in 1 Peter (1:17, 2:18, 3:2, 3:14, 3:16), prautes
+    11x NT, apologia 8x NT (the eight listed), elpis 3x in 1 Peter, zelotes G2207 6x. Prose diff
+    shows only the lines above; validate clean on this file; mkdocs --strict clean, outline anchors
+    all resolve.

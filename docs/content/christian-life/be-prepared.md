@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Peter 3:13-17"
 bible_references: ["1 Peter 3:13-17", "1 Peter 3:8-12", "1 Peter 3:18", "1 Peter 1:1", "1 Peter 1:3", "1 Peter 1:4", "1 Peter 1:5", "1 Peter 1:17", "1 Peter 1:21", "1 Peter 2:3", "1 Peter 2:11", "1 Peter 2:12", "1 Peter 2:18", "1 Peter 3:2", "1 Peter 4:3-4", "1 Peter 4:16", "Isaiah 8:12-13", "Psalm 34:12-16", "Acts 17:10-12", "Acts 21:20", "Acts 22:1", "Acts 25:16", "Colossians 4:5-6", "Luke 21:12-15", "Luke 6:15", "Titus 2:14", "Galatians 5:22-23", "Galatians 1:14", "1 Corinthians 9:3", "2 Corinthians 7:11", "Philippians 1:7", "Philippians 1:16", "2 Timothy 4:16", "Matthew 24:44", "Matthew 25:10"]
 date_created: 2024-05-24
-date_modified: 2026-09-21
+date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-4.5
@@ -46,9 +46,6 @@ grows out of that enthronement. So your courage rests on who is Lord in your hea
 to the person who asks rests on the hope He has already given you.
 
 ## Key Takeaways
-
-*(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is
-prototyping — see that page for what each part is for and why.)*
 
 ### Lessons about Jesus
 
@@ -91,7 +88,7 @@ prototyping — see that page for what each part is for and why.)*
   Say it out loud once this week, to yourself, in the car. Twenty seconds. That is the preparation
   this verse asks for.
 - **Attitude.** Settle who is Lord before the conversation, and the conversation stops being a
-  threat. The one imperative in verse 15 is addressed to your heart, not to your vocabulary. Fear of
+  threat. The one imperative in verse 15 is addressed to your heart. Fear of
   the risen Christ and fear of the man in front of you cannot both sit on the throne. Put the risen
   Christ there this morning, before anyone asks you anything.
 - **Do.** Learn your own story and two passages well enough to give either in a minute — how God
@@ -104,9 +101,21 @@ prototyping — see that page for what each part is for and why.)*
 
 > Father, You raised Jesus from the dead and gave Him glory, and You did it so that my faith and
 > hope would be in You. Thank You. Set Your Son on the throne of my heart today, so that when I am
-> talked about I answer out of what is settled and not out of what is shaken. Give me the gentleness
+> talked about I answer out of what is settled. Give me the gentleness
 > Your Holy Spirit grows and the clear conscience that leaves my accusers nothing to hold. Make me
 > ready to speak of Your Son Jesus to anyone who asks. In Jesus' name. Amen.
+
+## Study outline
+
+- [Who Peter wrote to](#who-peter-wrote-to-and-what-was-happening-to-them). Five provinces of converts under slander, and the Psalm 34 quotation that leads into verse 13.
+- [Zealots for the good](#zealots-for-the-good). Verse 13's ζηλωταί, and how "who is there to harm you?" sits beside verse 14.
+- [The command in verse 15](#the-command-in-verse-15). The one imperative, *sanctify*; Isaiah 8:13 with Christ in the place of the LORD of hosts; the τὸν θεόν variant.
+- [The answer you are asked for](#the-answer-you-are-asked-for). Ἀπολογία's eight uses, and the hope Peter has already defined in chapter 1.
+- [Fear, given a new object](#fear-given-a-new-object). Φόβος five times in the letter, gentleness as fruit of the Spirit, and the good conscience.
+- [What the English translations keep](#what-the-english-translations-keep). Where the ESV, NIV, WEB and LSB differ at verses 15-16.
+- [How readiness is actually built](#how-readiness-is-actually-built). The Bereans, Luke 21:14-15 set beside Peter, and ἕτοιμος.
+- [When the answer costs you](#when-the-answer-costs-you). Verse 17's "if God should will it," and verse 18's substitution.
+- [Discussion questions](#discussion-questions).
 
 ## Who Peter Wrote To, and What Was Happening to Them
 
@@ -145,6 +154,26 @@ Then verse 13 picks up the psalm's own language — "let him turn away from evil
 becomes "if you are zealous for what is good" (3:13). And three verses after quoting a psalm about
 YHWH, Peter writes κύριον δὲ τὸν Χριστόν. Inside one paragraph, the title moves from the God of
 Israel to Jesus, and Peter never pauses to defend the move.
+
+## Zealots for the Good
+
+Verse 13 has a word with an edge on it. "If you are zealous for what is good" translates ζηλωταὶ τοῦ
+ἀγαθοῦ — literally "zealots of the good." Ζηλωτής (*zēlōtēs*) is the word Luke uses as a nickname for
+one of the Twelve: "Simon who was called the Zealot" (Luke 6:15). It is the same word, though a
+concordance files its six common-noun uses under G2207 and Simon's title under G2208. In the New
+Testament it describes people burning about something: the Jerusalem believers "all zealous for the law" (Acts 21:20), Paul
+on his own past (Galatians 1:14), and the people Christ purifies for Himself, "zealous for good
+works" (Titus 2:14).
+
+Peter's readers were a minority under pressure, and minorities under pressure produce zealots. Peter
+gives the zeal a different object. Be as consumed with doing good as anyone in your province is
+consumed with anything.
+
+### "Who is there to harm you?" and the final outcome
+
+Verse 13's question — "who is there to harm you?" — reads oddly beside verse 14, which assumes they
+may suffer. The ESV Study Bible resolves it as a claim about the final outcome: no one will ultimately
+harm a Christian, even where they harm him now. Romans 8:31 is the cross-reference it gives.
 
 ## The Command in Verse 15
 
@@ -189,10 +218,11 @@ The *NIV Cultural Backgrounds Study Bible* reaches the same conclusion from the 
 notes that the Greek of Isaiah 8:13 begins the same way as Peter's Greek "except that Peter
 expressly applies this divine role to Christ" (note on 1 Peter 3:15).
 
-There is no argument attached. Peter expected churches four years old, in Bithynia, to read a
-command addressed to the God of Israel and hear it re-aimed at a man they had never met who had been
-executed in Judea. He expected them to find nothing strange in it. **This shows that God the Son shares the name and the holiness of God the Father.** Peter
-assumes the deity of Christ inside an instruction about how to survive gossip.
+There is no argument attached. Peter expected young churches in Bithynia to read a command
+addressed to the God of Israel and hear it re-aimed at a man they had never met who had been executed
+in Judea. He expected them to find nothing strange in it. **This shows that God the Son shares the
+name and the holiness of God the Father.** Peter assumes the deity of Christ inside an instruction
+about how to survive gossip.
 
 ### The textual question at verse 15
 
@@ -263,7 +293,7 @@ this sentence in verse 15."
 The fifth is 3:14, and it is the one Peter forbids: τὸν δὲ φόβον αὐτῶν μὴ φοβηθῆτε — "do not fear
 their fear." Peter does not tell frightened people to stop being afraid. He moves the fear. Take it
 off the neighbours who are talking about you and put it where Isaiah put it, on the Lord of hosts —
-who is, four words later, Christ.
+who is, in Peter's next clause, Christ.
 
 That is also why your answer comes out gentle. A man who fears his questioner either fights him or
 flatters him. A man who fears Christ can afford to be kind.
@@ -279,26 +309,6 @@ Then verse 16: "having a good conscience, so that, when you are slandered, those
 behavior in Christ may be put to shame." Συνείδησις ἀγαθή (*syneidēsis agathē*) is what makes the
 slander fail. An accusation needs somewhere to stick. A clean life gives it nowhere, and the shame
 eventually lands back on the accuser.
-
-## Zealots for the Good
-
-Verse 13 has a word with an edge on it. "If you are zealous for what is good" translates ζηλωταὶ τοῦ
-ἀγαθοῦ — literally "zealots of the good." Ζηλωτής (*zēlōtēs*) is the word Luke uses as a nickname for
-one of the Twelve: "Simon who was called the Zealot" (Luke 6:15). It is the same word, though a
-concordance files its six common-noun uses under G2207 and Simon's title under G2208. In the New
-Testament it describes people burning about something: the Jerusalem believers "all zealous for the law" (Acts 21:20), Paul
-on his own past (Galatians 1:14), and the people Christ purifies for Himself, "zealous for good
-works" (Titus 2:14).
-
-Peter's readers were a minority under pressure, and minorities under pressure produce zealots. Peter
-gives the zeal a different object. Be as consumed with doing good as anyone in your province is
-consumed with anything.
-
-### "Who is there to harm you?" and the final outcome
-
-Verse 13's question — "who is there to harm you?" — reads oddly beside verse 14, which assumes they
-may suffer. The ESV Study Bible resolves it as a claim about the final outcome: no one will ultimately
-harm a Christian, even where they harm him now. Romans 8:31 is the cross-reference it gives.
 
 ## What the English Translations Keep
 
@@ -334,7 +344,7 @@ The classic text on getting ready is Luke's note about a synagogue in Macedonia:
 Luke evaluates them himself: εὐγενέστεροι (*eugenesteroi*), "more noble" — a narrator's verdict, so
 this is commended behaviour and not simply recorded behaviour. The verb ἀνακρίνω (*anakrinō*) means
 to examine or investigate, and Luke says they did it καθ' ἡμέραν, day by day. They did it to Paul's
-preaching. They checked an apostle against Scripture, and Luke praised them for it. Copy that.
+preaching. They checked an apostle against Scripture, and Luke praised them for it.
 
 Verse 12 gives the result: "many of them therefore believed." The examining led somewhere. Paul's
 instruction to Colossae aims at the same competence — "Walk in wisdom toward outsiders, making the
