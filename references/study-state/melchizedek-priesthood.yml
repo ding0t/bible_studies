@@ -754,3 +754,15 @@ insight_2026-09-26:
       text: "When you pray, you come to a Father who has accepted the one sacrifice made for you, and you come alongside His Son Jesus, who is praying for you."
   doctrines_named: [oath/promise, high-priestly intercession, atonement, sanctification, new covenant]
   untouched: "Key Takeaways Lessons, Be transformed, Prayer and discussion questions already land in the second person and still match the remaining text."
+
+read_2026-09-26:
+  scope: "Stranger-reader pass after simplify (00aca8b). Outline only; no heading moved, no sentence changed."
+  sections: "45 -> 45"
+  median_section_words: "89 -> 90 (the old outline's wrapped lines were counted as prose)"
+  sections_over_400: "0 -> 0 (longest 326, Genesis 14)"
+  opening: "Thesis sits about 90 words in, after the hook. No placement change needed."
+  outline: "Existing simplify-pass outline had no links and wrapped bullets. Linked each entry to its section, put each on one line, corrected entry 4 ('the Greek words chapter 7 leans on' -> 'Hebrews' argument leans on', since shadow/copy/antitype come from chapters 8-10, and antitype was missing), added 'author and audience' to entry 3, and added a Discussion questions entry."
+  verify: "study_structure.py --verify-against HEAD: added_unexpected empty; removed lists only five wrapped continuation lines of HEAD's own Study outline (outline text, not study prose). validate: Check 22 clear, Check 23 clear; only Check 18 remains (line 416, pre-existing). mkdocs build --strict passes; all six outline anchors resolve in the built HTML."
+  left_for_author:
+    - "Check 18, line 416: an 'only occurrence' claim beside Greek text. Re-run the count (review-bible-study)."
+    - "Frontmatter ai_provider_models gained anthropic/claude-opus-5.5 in the working tree before this pass. This pass did not write it."

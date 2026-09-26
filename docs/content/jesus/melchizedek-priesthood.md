@@ -10,6 +10,7 @@ date_created: 2026-08-02
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -108,16 +109,12 @@ caution. Amen.
 
 ## Study outline
 
-1. **A king-priest outside the line** — Genesis 14: who Melchizedek was, his name and city, El
-   Elyon, and the genealogy Genesis leaves out.
-2. **"You are a priest forever"** — Psalm 110:4, God's oath making the Davidic king a priest in
-   Melchizedek's order, and Zechariah's king-priest.
-3. **Hebrews' argument, traced** — the priesthood thread from chapter 2, chapter 7's three
-   movements, and the true sanctuary of chapters 8-10.
-4. **Word studies** — the Greek words chapter 7 leans on: priesthood, order, better,
-   indestructible, permanent, guarantor, once for all, shadow and copy.
-5. **Theological principle** — what this priesthood means now, read dispensationally, and the
-   confidence it gives you to draw near.
+1. [A king-priest outside the line](#a-king-priest-outside-the-line-melchizedek-in-genesis-14) — Genesis 14: who Melchizedek was, his name and city, El Elyon, and the genealogy Genesis leaves out.
+2. ["You are a priest forever"](#you-are-a-priest-forever-melchizedek-in-psalm-110) — Psalm 110:4, God's oath making the Davidic king a priest in Melchizedek's order, and Zechariah's king-priest.
+3. [Hebrews' argument, traced](#hebrews-argument-traced) — author and audience, the priesthood thread from chapter 2, chapter 7's three movements, and the true sanctuary of chapters 8-10.
+4. [Word studies](#word-studies-the-vocabulary-carrying-hebrews-argument) — the Greek words Hebrews' argument leans on: priesthood, order, better, indestructible, permanent, guarantor, once for all, shadow and copy, antitype.
+5. [Theological principle](#theological-principle) — what this priesthood means now, read dispensationally, and the confidence it gives you to draw near.
+6. [Discussion questions](#discussion-questions) — for a group or on your own.
 
 ## A king-priest outside the line: Melchizedek in Genesis 14
 
