@@ -379,3 +379,24 @@ insight_2026-09-26:
     - "This shows that God is the Creator who spoke the first blessing over humanity and has kept it in every generation since. The arithmetic establishes consistency, which is weaker than proof, and the deep-time model is consistent too; what the headcount displays plainly is His faithfulness to His word. So when you look at the crowd, you are looking at a promise kept, and you stand inside it."
   pronoun_fix: "Discussion question 1: 'that he chose that verb' -> 'that He chose that verb'."
   confidence: "Conclusion landing marks the demographic argument as consistency, weaker than proof, per the study's own 'Consistency is the argument's ceiling'."
+
+read_2026-09-26:
+  pass: read-bible-study (stranger reader, after simplify commit 580a512)
+  sections: "36 -> 36"
+  median_section_words: "121 -> 123 (the outline bullets are single lines now, so the wrapped outline text no longer counts as prose)"
+  sections_over_400: "0 -> 0"
+  longest_section_words: "318 -> 318 (What population declares)"
+  changes:
+    - "Study outline: kept the simplify pass's three-part grouping and annotations; linked each part heading and each named section to its anchor (the outline had no links, so it could not be used to jump), added 'what carries over' to the Part one bullet (the section was unmentioned), and put each bullet on one line."
+    - "No other change. Opening already gives the bold rate line and the In-one-sentence thesis within ~70 words."
+  verify: >
+    study_structure.py --verify-against HEAD: added_unexpected empty, added_allowed empty.
+    removed lists four lines, all continuation lines of the old wrapped outline bullets
+    ("vocabulary, Babel's refusal, ...", "fulfilled.", "shape of the growth curve, ...",
+    "years, where the argument is weak, ...") -- the outline text now sits on the bullet lines,
+    which the checker ignores; no study sentence changed. npm run validate: no findings for this
+    file. mkdocs build --strict passes; all 17 outline hrefs resolve to ids in the built page.
+  findings_not_fixed:
+    - "Rule 6: '#### The rate the census implies' ends on its table; the sentence saying what the table establishes ('Every reading in that table clears 1.3%/yr...') closes the following caveats section instead. Left in place because it reads as the conclusion after the caveats; author may prefer a lead-out after the table."
+    - "'### Where this argument is weak' carries only the 7-word lead 'Three things to hold against everything above.' before three sub-headings; fine structurally, noted only."
+    - "Outline annotations are descriptive only; any evaluative note (e.g. which part is the heart of the study) is the author's to add."

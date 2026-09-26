@@ -10,6 +10,7 @@ date_created: 2026-08-22
 date_modified: 2026-09-26
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -87,13 +88,9 @@ In Jesus' name. Amen.
 
 ## Study outline
 
-- **Part one — what Scripture says.** The command to fill the earth from Genesis 1:28 to Noah, its
-  vocabulary, Babel's refusal, the uncountable similes, and Israel in Egypt as the command reported
-  fulfilled.
-- **Part two — what the arithmetic says.** Two formulas, the chronology from creation to now, the
-  shape of the growth curve, and whether the post-Flood span has room.
-- **Part three — what follows.** How many people have ever lived, the same rate run over 200,000
-  years, where the argument is weak, and what the headcount shows about God.
+- **[Part one — what Scripture says](#part-one-what-scripture-says).** [The command to fill the earth](#the-mandate-issued-and-re-issued) from Genesis 1:28 to Noah, [its vocabulary](#the-vocabulary-of-the-mandate), [Babel's refusal](#babel-declining-the-command), [the uncountable similes](#as-numerous-as-what-the-similes-claim), [Israel in Egypt](#egypt-the-command-reported-fulfilled) as the command reported fulfilled, and [what carries over](#what-carries-over) to a reader now.
+- **[Part two — what the arithmetic says](#part-two-what-the-arithmetic-says).** [Two formulas](#two-formulas-once), [the chronology from creation to now](#the-chronology), [the shape of the growth curve](#the-shape-of-the-curve), and [whether the post-Flood span has room](#does-the-chronology-have-room).
+- **[Part three — what follows](#part-three-what-follows).** [How many people have ever lived](#how-many-people-have-ever-lived), [the same rate run over 200,000 years](#running-the-clock-backwards), [where the argument is weak](#where-this-argument-is-weak), and [what the headcount shows about God](#what-population-declares).
 
 ## Part one — what Scripture says
 
