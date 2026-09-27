@@ -7,7 +7,7 @@ draft: true
 primary_passage: "Matthew 24:29-31; Daniel 9:24-27"
 bible_references: ["Matthew 24:1-31", "Daniel 9:1", "Matthew 4:20", "Matthew 26:74", "Mark 13:24", "Daniel 9:2", "Daniel 9:19", "Daniel 9:24-27", "Daniel 2:44", "Luke 21:20-24", "Luke 4:16-21", "Isaiah 61:1-2", "2 Thessalonians 2:3-4", "1 Thessalonians 4:16-17", "2 Thessalonians 2:1", "1 Corinthians 15:51", "Romans 11:25-26", "Hebrews 10:1-9", "Daniel 7:13-14", "Daniel 12:1", "Revelation 7:14", "Revelation 19:11-16", "Revelation 21:1-4", "Revelation 20:1-15", "2 Peter 3:7-13", "Zechariah 14:4"]
 date_created: 2026-09-26
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -35,6 +35,8 @@ the church age runs in the gap Daniel's own sequence leaves before the seventiet
 sixty-nine weeks to the letter will keep the seventieth and send His Son at once.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
 

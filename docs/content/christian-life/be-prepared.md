@@ -7,9 +7,10 @@ draft: false
 primary_passage: "1 Peter 3:13-17"
 bible_references: ["1 Peter 3:13-17", "1 Peter 3:8-12", "1 Peter 3:18", "1 Peter 1:1", "1 Peter 1:3", "1 Peter 1:4", "1 Peter 1:5", "1 Peter 1:17", "1 Peter 1:21", "1 Peter 2:3", "1 Peter 2:11", "1 Peter 2:12", "1 Peter 2:18", "1 Peter 3:2", "1 Peter 4:3-4", "1 Peter 4:16", "Isaiah 8:12-13", "Psalm 34:12-16", "Acts 17:10-12", "Acts 21:20", "Acts 22:1", "Acts 25:16", "Colossians 4:5-6", "Luke 21:12-15", "Luke 6:15", "Titus 2:14", "Galatians 5:22-23", "Galatians 1:14", "1 Corinthians 9:3", "2 Corinthians 7:11", "Philippians 1:7", "Philippians 1:16", "2 Timothy 4:16", "Matthew 24:44", "Matthew 25:10"]
 date_created: 2024-05-24
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-4.5
   - anthropic/claude-sonnet-5
 ---
@@ -46,6 +47,8 @@ grows out of that enthronement. So your courage rests on who is Lord in your hea
 to the person who asks rests on the hope He has already given you.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

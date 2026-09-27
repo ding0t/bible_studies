@@ -7,7 +7,7 @@ draft: true
 primary_passage: "Matthew 24:37-41; Luke 17:26-37"
 bible_references: ["Matthew 24:3", "Matthew 24:29-31", "Matthew 24:37-42", "Luke 17:11", "Luke 17:20-37", "Genesis 7:1", "Genesis 7:23", "Genesis 19:26", "Isaiah 10:21", "Matthew 13:30", "Matthew 13:40-43", "Matthew 13:49", "Matthew 25:31-34", "Matthew 25:46", "2 Peter 2:5-9", "John 14:3", "Matthew 1:20-24", "Deuteronomy 28:26", "1 Samuel 17:44", "Psalm 79:1-2", "Ezekiel 39:17-20", "1 Thessalonians 4:13-18", "1 Thessalonians 5:9", "2 Thessalonians 2:6-7"]
 date_created: 2026-09-26
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -25,6 +25,8 @@ discernment at His Son's return and keeps a people for His kingdom, and the chur
 caught up to Jesus rests on other texts.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
 

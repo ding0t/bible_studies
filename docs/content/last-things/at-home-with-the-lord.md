@@ -7,7 +7,7 @@ draft: true
 primary_passage: "2 Corinthians 5:1-10"
 bible_references: ["2 Corinthians 1:8-9", "2 Corinthians 1:22", "2 Corinthians 4:16-18", "2 Corinthians 5:1-10", "Philippians 1:21-24", "Philippians 3:21", "Luke 23:43", "Luke 16:19-31", "Ephesians 4:8-10", "Ephesians 1:14", "Colossians 2:15", "Genesis 38:17-20", "Leviticus 23:10", "Acts 18:3", "Revelation 6:9-11", "Revelation 20:13-14", "1 Thessalonians 4:13-18", "1 Corinthians 15:20-23", "1 Corinthians 15:51-53", "2 Peter 2:4", "Jude 6"]
 date_created: 2026-09-26
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -25,6 +25,8 @@ coming; God keeps the whole person, the soul with His Son now and the body for t
 it.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
 

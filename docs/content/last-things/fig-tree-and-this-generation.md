@@ -7,7 +7,7 @@ draft: true
 primary_passage: "Matthew 24:32-35; Mark 13:28-31; Luke 21:29-33"
 bible_references: ["Matthew 24:2-3", "Matthew 24:15", "Matthew 24:21", "Matthew 24:4-36", "Matthew 24:42-44", "Matthew 25:10", "Matthew 26:2", "Mark 13:3", "Mark 13:28-30", "Luke 21:20-32", "Luke 13:6-9", "Jeremiah 24:5-8", "Jeremiah 8:13", "Hosea 9:10", "Micah 7:1", "Joel 1:7", "Matthew 21:18-22", "Mark 11:12-25", "Matthew 12:39-42", "Matthew 23:36", "John 1:48-50", "James 3:12", "James 5:8-9", "Revelation 6:13", "Isaiah 40:8", "Acts 1:7"]
 date_created: 2026-09-26
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -33,6 +33,8 @@ the whole sequence and its end, His Son's word guarantees it, and the date belon
 alone.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
 
