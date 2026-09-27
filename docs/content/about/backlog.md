@@ -115,9 +115,21 @@ A place for shorter posts alongside the studies, built on mkdocs-material's own 
 What the pop-ups (0.1 and 0.2) left undone.
 
 - **Strong's numbers on untagged words.** A word gets a word card only when its Strong's number is
-  written beside it. The studies carry about 380 tagged words, and many of the 433 Hebrew words
-  written in `<span dir="rtl">` have no number yet. A sweep adds the number, verified with
-  `bible_word`, in the existing `(*transliteration*, H/G number)` shape.
+  written beside it. The 2026-09-27 sweep added the 198 numbers MACULA resolves to a single entry,
+  so what is left needs a reader's judgement. `references/build/strongs_suggest.py --all` lists it:
+  34 words with more than one candidate number (חֶסֶד, pronouns), 40 not in MACULA, and 64 phrases
+  where the gloss may belong to one word. The 7 in this page are left for the author.
+- **Every reference names its book.** develop-bible-study now requires `(Revelation 21:2)`, never a
+  bare `(21:2)`, except a continuation within the same citation (`(Revelation 21:2, 9; 22:17)`).
+  912 stand-alone bare references across 46 pages were written before the rule. The pop-up resolves
+  them from the nearest earlier reference, and an edit that moves that reference repoints them with
+  no error: `bride-of-christ.md`'s (21:2) opened Isaiah 21:2 after a rewrite cut the sentence naming
+  Revelation 19:7. The 2026-09-27 audit caught only resolutions to a verse that does not exist or
+  with another book named just before, so a wrong book with a real verse can still be hiding. The
+  sweep adds the book to each, checked against its paragraph rather than taken from the resolver.
+- **A validator warning for a bare reference.** Once the sweep is done, a `validate-content.js`
+  check warns on a chapter-and-verse with no book that is not a continuation in the same citation,
+  so new text cannot drift back.
 - **Hebrew meanings.** The word card shows STEPBible's short gloss. TBESH's fuller "Meaning" column
   is left out because its header credits Online Bible's abridged BDB and asks that permission be
   sought. Ask Online Bible, or leave it out for good.
