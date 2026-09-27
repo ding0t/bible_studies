@@ -52,7 +52,9 @@ opened at the cross, and distinct from the age before it and the one after. → 
 Church](israel-and-church/israel-and-the-church.md#what-scripture-means-by-a-mystery)
 
 **Eisegesis**{ #eisegesis } — Reading a meaning *into* a text that is not in it. Usually the result
-of arriving with the conclusion already settled. The opposite failure to [exegesis](#exegesis).
+of arriving with the conclusion already settled. The opposite failure to [exegesis](#exegesis). Its
+prophetic form is sometimes called "newspaper exegesis": starting from the day's headlines and
+working back to a verse that seems to match.
 
 **Eschatology**{ #eschatology } — The study of last things: death, resurrection, judgement, the
 return of Christ, the millennium.
