@@ -1,12 +1,128 @@
 # Forked 2026-09-26 from last-things/rapture.md (HEAD 0ffe050) by simplify-bible-study during the
 # 2026-09 readability sweep. Text moved verbatim; its quotations and word studies were verified in
-# rapture.md's reviews (see references/study-state/rapture.yml). Needs develop-bible-study for its
-# own opening, thesis and Key Takeaways before publishing.
+# rapture.md's reviews (see references/study-state/rapture.yml). Developed into a complete study
+# 2026-09-27 by develop-bible-study (author approved skipping the Phase 7 thesis/outline stop).
 slug: "taken-before-judgment"
 status: draft
 target_path: "docs/content/last-things/taken-before-judgment.md"
+last_updated: 2026-09-27
+genre: "topical typology spanning OT narrative (Genesis 5, 7, 19; 2 Kings 2) and NT epistle/Gospel use (Hebrews 11, 2 Peter 2, Jude, Luke 17)"
+word_budget: 4000
+thesis: >-
+  Enoch, Lot and Elijah were taken out before God's judgment reached them and Noah was kept through
+  it, which shows that God distinguishes His own in the day of wrath and knows how to rescue them;
+  read as types, they illustrate the promise Jesus and Paul give directly, that the church will be
+  caught up before the tribulation.
+outline:
+  - "Key Takeaways: the types, how much weight typology carries, Jesus as deliverer (rhyomai)."
+  - "Reading a type: Romans 5:14; no NT writer pairs Enoch with the rapture; the direct texts carry the doctrine."
+  - "Enoch: Genesis 5's broken refrain; hithallekh / LXX euaresteo -> Heb 11:5; laqach thread; Jude 14-15 prophet of judgment; chronology (flood 669 years after Enoch was taken)."
+  - "Noah: preserved (phylasso) through; Jesus' picture of His coming after the tribulation; Noah pictures the remnant who enter the kingdom (consistent with one-taken-one-left.md)."
+  - "Lot: seized by the hand, 'the LORD being merciful'; Gen 19:22 judgment waits for the rescue; Luke 17:27-30 same-day order; Peter's two verbs, rhyomai = 1 Thess 1:10."
+  - "Elijah: taken up alive in view of Elisha; manner of the rapture (1 Cor 15:51-52)."
+  - "Where the pattern stops: posttrib objection from Noah and Rev 3:10 stated fairly; answer from Matthew's placement, Luke's order, Gen 19:22; direct texts settle it; what God is like; second-person landing."
 stages:
-  scoping: {done: false, notes: "Forked from rapture.md, not yet scoped as its own study."}
-  drafting: {done: false, notes: "Body moved verbatim from rapture.md @ 0ffe050; only in-page anchors retargeted to rapture.md."}
+  scoping: {done: true, notes: "Primary passage Genesis 5:21-24; typology marked as illustrative, direct texts in rapture.md carry the doctrine."}
+  historical_context: {done: true, notes: "Genesis 5 genealogy refrain (ESVSB note); ANE 'taken' parallels and Genesis silent on Enoch's destination (NIVCBSB); 2 Peter 2:4-10a is a lesser-to-greater argument against false teachers (ESVSB), so 2:9 is a general principle."}
+  literary_context: {done: true, notes: "Enoch breaks the 'and he died' refrain twice; Luke 17:26-30 pairs Noah and Lot; Matthew 24:37 sits after 24:29."}
+  word_studies: {done: true, notes: "laqach (moved, verified in parent); LXX euaresteo/metatithemi at Gen 5:24 -> Heb 11:5; phylasso (2 Pet 2:5) vs rhyomai (2 Pet 2:7, 9; 1 Thess 1:10); luqqach 2 Kings 2:10."}
+  hermeneutics: {done: true, notes: "Enoch = church removed before; Noah = remnant preserved through (dispensational); consistent with statement-of-faith End times and with one-taken-one-left.md."}
+  drafting: {done: true, notes: "2026-09-27: opening, thesis, Key Takeaways (with key-takeaways.md format line), outline, Reading a type, Enoch chronology + LXX, Noah remnant reading, Lot Gen 19:22 + Peter's verbs, objection section, discussion questions, references. Moved text tightened; 'Peter draws the comparison Jesus himself draws' garble fixed; divine pronouns recased."}
+  validation: {done: true, notes: "npm run validate: only Check 17 provenance warnings (fields deliberately omitted). mkdocs build --strict passes (draft dropped from build)."}
+resources_consulted:
+  - "ESV Study Bible (Crossway): notes on Gen 5:1-32, 5:22-24; 2 Pet 2:4-10a, 2:9-10a. Confirmed the 'walked' form and Enoch not dying; contributed the lesser-to-greater framing of 2 Pet 2."
+  - "NIV Cultural Backgrounds Study Bible: note on Gen 5:24. Contributed: Genesis does not say where Enoch was taken; ANE parallels (Utuabzu, Utnapishtim)."
+  - "NIV Biblical Theology Study Bible: notes on Gen 5:24 (seventh from Adam) and 2 Pet 2:9."
+  - "bible-text.db: WLC morphology Gen 5:24, 2 Kgs 2:10; LXX lemmas Gen 5:24; WEB Gen 5:25-29, 7:6; unfoldingWord interlinear Heb 11:5, 2 Pet 2:5, 7, 9, 1 Thess 1:10."
+evidence:
+  - id: gen-19-22-esv
+    what: Genesis 19:22 ESV wording ("I can do nothing till you arrive there")
+    tool: study_verse
+    args: {book: Gen, chapter: 19, verse: 22, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "for I can do nothing till you arrive there"
+    checked: 2026-09-27
+  - id: gen-19-16-esv
+    what: Genesis 19:16 ESV wording including "the LORD being merciful to him"
+    tool: study_verse
+    args: {book: Gen, chapter: 19, verse: 16, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "the LORD being merciful to him, and they brought him out and set him outside the city"
+    checked: 2026-09-27
+  - id: heb-11-5-esv
+    what: Hebrews 11:5 ESV memory verse
+    tool: study_verse
+    args: {book: Heb, chapter: 11, verse: 5, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "before he was taken he was commended as having pleased God"
+    checked: 2026-09-27
+  - id: heb-11-5-metatithemi
+    what: Hebrews 11:5 uses metatithemi twice (verb) plus the noun metathesis
+    tool: bible_interlinear
+    args: {book: Heb, chapter: 11, verse: 5}
+    path: "text"
+    expect_contains: "By faith Enoch was transferred so that he did not see death"
+    checked: 2026-09-27
+  - id: gen-5-24-lxx-euaresteo
+    what: LXX Gen 5:24 renders 'walked' with euaresteo and 'took' with metatithemi
+    tool: bible_verse
+    args: {book: Gen, chapter: 5, verse: 24}
+    expect_contains: "μετατιθημι"
+    checked: 2026-09-27
+  - id: pet-2-5-phylasso
+    what: 2 Peter 2:5 'preserved' is phylasso
+    tool: bible_interlinear
+    args: {book: 2Pet, chapter: 2, verse: 5}
+    expect_contains: "φυλάσσω"
+    checked: 2026-09-27
+  - id: pet-2-7-rhyomai
+    what: 2 Peter 2:7 'rescued' is rhyomai
+    tool: bible_interlinear
+    args: {book: 2Pet, chapter: 2, verse: 7}
+    path: "text"
+    expect_contains: "and he rescued righteous Lot"
+    checked: 2026-09-27
+  - id: thess-1-10-rhyomai
+    what: 1 Thessalonians 1:10 'delivers' is rhyomai (ῥυόμενον)
+    tool: bible_interlinear
+    args: {book: 1Thess, chapter: 1, verse: 10}
+    expect_contains: "ῥυόμενον"
+    checked: 2026-09-27
+  - id: thess-1-10-esv
+    what: 1 Thessalonians 1:10 ESV wording
+    tool: study_verse
+    args: {book: 1Thess, chapter: 1, verse: 10, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Jesus who delivers us from the wrath to come"
+    checked: 2026-09-27
+  - id: methuselah-969
+    what: "Methuselah lived 969 years; flood-year chronology 187 + 182 + 600 = 969"
+    tool: bible_passage
+    args: {book: Gen, chapter: 5, verse_start: 25, verse_end: 29}
+    expect_contains: "nine hundred sixty-nine years"
+    checked: 2026-09-27
+  - id: kings-2-10-esv
+    what: 2 Kings 2:10 ESV wording ("as I am being taken from you")
+    tool: study_verse
+    args: {book: 2Kgs, chapter: 2, verse: 10, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "if you see me as I am being taken from you"
+    checked: 2026-09-27
+  - id: rev-3-10-esv
+    what: Revelation 3:10 ESV wording in the objection section
+    tool: study_verse
+    args: {book: Rev, chapter: 3, verse: 10, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "I will keep you from the hour of trial"
+    checked: 2026-09-27
+  - id: romans-5-14-esv
+    what: Romans 5:14 ESV "a type of the one who was to come"
+    tool: study_verse
+    args: {book: Rom, chapter: 5, verse: 14, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "who was a type of the one who was to come"
+    checked: 2026-09-27
 open_questions:
   - "When published, link it from rapture.md (see rapture.yml insight_2026-09-26 open_questions)."
+  - "rapture.md Key Takeaways (line ~29) says Enoch was taken 'before the Flood ever fell'; this study adds that Genesis puts 669 years between them. Not a contradiction, but the author may want the parent's wording to match."
+  - "The objection section answers the posttrib reading of Revelation 3:10 only by pointing to rapture.md; a fuller treatment of tēreō ek would be its own study (fork candidate)."
