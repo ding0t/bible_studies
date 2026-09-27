@@ -312,6 +312,9 @@ the workflow manually (`workflow_dispatch`).
   place a rare word occurs, and the studies that discuss it. So **references are written as plain
   text and never linked** — a link hides a reference from the scanner. Blue Letter Bible links were
   removed site-wide on 2026-09-27; keep one only as a deliberate send-off for follow-up study.
+  The pop-up works alongside the prose, never instead of it. Quote what the argument stands on,
+  since studies are read aloud and the pop-up shows the WEB, and cite what it only points to
+  (develop-bible-study Phase 7).
   `data-ref="…"` and `data-strongs="…"` spans mark what the text cannot say on its own. The data is
   in two halves by where it can be built: `references/build/export_popups.py` writes the Bible
   text, cross-references and lexicon from `bible-text.db` into `docs/content/assets/popups/`

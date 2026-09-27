@@ -36,6 +36,12 @@ manuscript variant and a date are each stronger than any adjective available to 
 *decisive*, *striking* or *remarkable* is usually a sign of being short on evidence rather than short
 on vocabulary — go and get the reference instead.
 
+On this site a bare citation is also complete for the reader, because every reference opens its
+verse in a pop-up. A verse you only point to needs no paraphrase to save a lookup; that sentence
+adds no fact, so rule 1 cuts it. A verse you argue from still gets quoted. The pop-up shows the WEB
+rather than the translation you argued from, and nothing pops up when the study is read aloud
+(rule 7).
+
 **5. Define affirmatively. Do not build a claim out of what it is not.** This is a structural
 prohibition and it applies before the first sentence is written, not as a cleanup pass. Three named
 shapes are ruled out:

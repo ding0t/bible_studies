@@ -71,6 +71,16 @@ Recommend moves of three kinds, each with the words it saves:
    deletion test: cut the sentence and see whether a fact, a citation or a step in the argument
    went with it. Start with openings, section closers and transitions, where padding collects.
 
+   **A quotation that only saves the reader a lookup is also tightening.** Every reference on the
+   site opens its verse in a pop-up. So a verse the study quotes or paraphrases without arguing
+   from it can shrink to its bare citation, which keeps the citation and so fits the rule. The
+   same goes for a gloss list or an occurrence list beside a word tagged with its Strong's number,
+   because the word's card shows both. Keep the count or claim the argument uses and drop the list.
+   Keep every quotation the argument stands on: the pop-up shows the WEB rather than the translation
+   argued from, and a study read aloud shows nothing. Block quotes are not counted toward the
+   budget, so this saves budget words only on inline quotation and paraphrase. Either way it
+   saves the reader time.
+
 **Reference pages get the same budget.** A catalogue (sites, manuscripts, numbers, events) is
 consumed a topic at a time, so a long one is hard to use as well as hard to read. Break it into
 pages along its own divisions, such as period, region or kind, with a short index page that carries

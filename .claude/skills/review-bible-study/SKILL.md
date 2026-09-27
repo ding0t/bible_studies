@@ -58,6 +58,12 @@ Every quoted verse gets re-queried from source, not read for plausibility.
   commentaries. Spot-check against the source directly: `twot_root`/`twot_strongs` for TWOT, `bible_word`
   for Strong's id and gloss. A wrong TWOT root number is a citation to something that doesn't say what's
   claimed, and reads exactly like a correct one until checked.
+- **What each reference and Strong's tag opens.** Every reference and Strong's tag on the page opens a
+  pop-up, so a wrong one is a wrong citation the reader is shown. Two cases are particular to the
+  pop-up. A relative "v. 20" resolves against the last reference in its paragraph, else the section
+  heading's, so check any that follows a citation of another passage. And a word written without its
+  Strong's number gets no card. Report a misresolving reference or a wrong number under the severity
+  of the citation it amounts to, and a missing number as **Minor**.
 - **Internal links.** Confirm every relative markdown link's target file and anchor actually exist on
   disk. A link to a renamed file or a heading that's since moved fails silently for the reader — there's
   no build error anywhere in this pipeline that would catch it.
@@ -109,6 +115,12 @@ earlier session) already wrote.
   occurrence — a common word's full list can exceed the tool's own output limit (G932 unrestricted is
   581 rows) and, inside `research_batch_run`, can blow the whole batch's output budget by itself. Only
   drop the flag when you actually need the reference list, e.g. to spot-check specific verses.
+- **The page now shows the reader the count too.** Each tagged word's pop-up carries its occurrence
+  count, matched on the exact Strong's id as `bible_concordance` matches, and for a rare word every
+  verse it occurs in. A stated count or "only here" that disagrees is contradicted on the same page.
+  Check against the concordance above, never against the card: the card's data is an export
+  (`references/build/export_popups.py`) and lags the database until someone re-runs it. Where the two
+  disagree, say which one is stale.
 - **Did the translators footnote something the study never mentions?** Pull `note_type='footnote'` for
   the study's `primary_passage` as a standing step — separately from `study_note`, which is editorial
   commentary rather than the committee's own record of its decision. Read them all, not only the ones
@@ -362,6 +374,13 @@ site's pop-up opens every plain reference in place, and the links were removed o
 deliberate send-off for follow-up study, saying so in its link text, keeps one. An explanatory
 sentence tacked onto a verse is **Minor** as well, but flag it by name since it's the part of this
 shape that's a genuine defect rather than a pending conversion.
+
+**Check the balance between prose and pop-up** against develop-bible-study Phase 7 ("The pop-up
+works alongside the prose"). There are two findings, one in each direction. A section that argues
+from a verse's wording while giving only its citation leaves the reader arguing from words they
+cannot see. Nothing pops up when the study is read aloud, and the pop-up shows the WEB, so report
+this as **Moderate**. A quotation or paraphrase the argument never uses, kept only to save a lookup,
+is **Minor**; recommend simplify-bible-study.
 
 **Measure any mermaid diagram in the file** against
 [diagrams.md](../develop-bible-study/diagrams.md). A diagram wider than ~560px is scaled down whole
