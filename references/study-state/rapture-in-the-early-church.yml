@@ -1,12 +1,95 @@
 # Forked 2026-09-26 from last-things/rapture.md (HEAD 0ffe050) by simplify-bible-study during the
 # 2026-09 readability sweep. Text moved verbatim; its quotations and word studies were verified in
-# rapture.md's reviews (see references/study-state/rapture.yml). Needs develop-bible-study for its
-# own opening, thesis and Key Takeaways before publishing.
+# rapture.md's reviews (see references/study-state/rapture.yml). Developed into a complete study
+# 2026-09-27 by develop-bible-study (author approved skipping the thesis/outline stop).
 slug: "rapture-in-the-early-church"
-status: draft
+title: "The Rapture in the Early Church"
+status: drafting
 target_path: "docs/content/last-things/rapture-in-the-early-church.md"
+primary_passage: "1 Thessalonians 4:13-18"
+supporting_passages: ["1 Thessalonians 1:10", "1 Thessalonians 5:9", "Acts 17:5-11", "Titus 2:13", "Matthew 24:21", "Revelation 6:14", "Revelation 7:14", "Revelation 15:1"]
+genre: [topical, epistle]
+thesis: >
+  The early church waited for Jesus to come and reign on earth, and a few of its writers spoke of the
+  Church "caught up" or "gathered before the tribulation"; that witness is real, it is contested at
+  every point, and it stands under the word of God it was reading, which is where your hope rests.
+outline:
+  - {section: "What Paul told the Thessalonians", says: "1 Thess 4:13-18 in its setting: a church driven apart from Paul, grieving its dead; harpazo passive, apantesis; the point is comfort (4:18); God binds believers' resurrection to Jesus'."}
+  - {section: "A kingdom on earth", says: "Papias, Justin, Irenaeus, Tertullian were premillennial; Justin admits dissent, Eusebius opposes it; the same fathers put the Church in conflict with Antichrist."}
+  - {section: "Irenaeus: the Church suddenly caught up", says: "AH 5.29.1 (Latin assumetur, repente) read both ways; 5.28.4 and 5.26.1 on the other side."}
+  - {section: "The Shepherd of Hermas", says: "Vision 4.2 promises escape from the coming great tribulation; the vision pictures preservation in its presence."}
+  - {section: "Pseudo-Ephraem", says: "Caspari's Latin of the ante tribulationem line and its exhortation to the living; date contested (c. 373 vs 5th-7th c.); §9 and §10 cut the other way."}
+  - {section: "Victorinus and Jerome's revision", says: "The two 'church out of the midst' lines are in Jerome's recension only; Rev 6:14 gloss is Tyconian and describes flight."}
+  - {section: "What the evidence adds up to", says: "Early roots real, developed doctrine 19th-century, antiquity does not settle truth; the fathers answer to Scripture (Acts 17:11); hope rests on 1 Thess 5:9 / Titus 2:13."}
+word_budget: 4000
+word_budget_reason: ""
 stages:
-  scoping: {done: false, notes: "Forked from rapture.md, not yet scoped as its own study."}
-  drafting: {done: false, notes: "Body moved verbatim from rapture.md @ 0ffe050; only in-page anchors retargeted to rapture.md."}
+  scoping: {done: true, notes: "Historical-theology study; primary passage widened from 4:17 to 4:13-18 (the unit of thought). Fathers treated as reception-history witnesses per source_profile('patristics')."}
+  exegesis:
+    historical_context: {done: true, notes: "1 Thess from Corinth AD 49-51 (ESV SB intro); Paul expelled from Thessalonica (Acts 17:5-10); occasion = believers' deaths (ESV SB note on 4:13-18)."}
+    literary_context: {done: true, notes: "4:13-18 opens the second-coming unit 4:13-5:11 (ESV SB note on 4:1-5:28); point is v.18 comfort. Timing vs tribulation not addressed in this paragraph -- deferred to rapture.md / the-restrainer.md."}
+    content_word_studies:
+      done: true
+      notes: "Routine terms only; the load-bearing lexical work lives in rapture.md."
+      terms:
+        - {word: "ἁρπαγησόμεθα / ἁρπάζω", language: greek, transliteration: "harpagēsometha / harpazō", strongs_id: "G726", gloss: "will be caught up (fut. pass.)", notes: "morph IFP1 per interlinear"}
+        - {word: "ἀπάντησις", language: greek, transliteration: "apantēsis", strongs_id: "G529", gloss: "meeting", notes: "ESV SB: civic reception of a dignitary -- flagged as the posttrib argument, weighed in rapture.md"}
+  hermeneutics:
+    cultural_vs_transcultural: {done: true, notes: "Fathers = witnesses to reading, subordinate to Scripture (Acts 17:11)."}
+    theological_principle: {done: true, notes: "God binds believers' resurrection to Jesus' (4:14); God keeps His promise by His word and a waiting people in every century."}
+    application_draft: {done: true, notes: "Encourage the grieving with 4:13-18; test claims about the fathers; wait with expectancy."}
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "1 Thessalonians 1:10; 5:9", relation: "deliverance from wrath"}
+      - {ref: "Titus 2:13", relation: "blessed hope"}
+      - {ref: "Revelation 7:14", relation: "pretrib answer to Pseudo-Ephraem §9"}
+      - {ref: "Matthew 24:21", relation: "quoted by Irenaeus AH 5.29.1"}
+    translations_compared: ["ESV"]
+    divergences_noted: ""
+  drafting: {done: true, file: "docs/content/last-things/rapture-in-the-early-church.md", notes: "Moved text kept and tightened. Pseudo-Ephraem critic reading changed: the moved text said critics read the line as about saints 'already dead' -- no source for that reading was found, and Caspari's Latin context (the preceding exhortation to the living to prepare 'in occursum domini Christi') runs against it; replaced with the §9/§10 argument verified in Caspari."}
+  review: {done: false, validated: true, notes: "npm run validate: only Check 17 provenance warnings (fields deliberately omitted). mkdocs build --strict passes (draft dropped). In-page anchors checked against markdown toc slugify."}
+
+evidence:
+  - {id: 1th4-13-esv, what: "ESV 1 Thess 4:13 block quote", tool: study_verse, args: {book: 1Thess, chapter: 4, verse: 13, work_id: esv-study-bible}, expect_contains: "that you may not grieve as others do who have no hope", checked: 2026-09-27}
+  - {id: 1th4-14-esv, what: "ESV 1 Thess 4:14", tool: study_verse, args: {book: 1Thess, chapter: 4, verse: 14, work_id: esv-study-bible}, expect_contains: "God will bring with him those who have fallen asleep", checked: 2026-09-27}
+  - {id: 1th4-15-esv, what: "ESV 1 Thess 4:15", tool: study_verse, args: {book: 1Thess, chapter: 4, verse: 15, work_id: esv-study-bible}, expect_contains: "will not precede those who have fallen asleep", checked: 2026-09-27}
+  - {id: 1th4-16-esv, what: "ESV 1 Thess 4:16", tool: study_verse, args: {book: 1Thess, chapter: 4, verse: 16, work_id: esv-study-bible}, expect_contains: "For the Lord himself will descend from heaven", checked: 2026-09-27}
+  - {id: 1th4-17-esv, what: "ESV 1 Thess 4:17 memory verse", tool: study_verse, args: {book: 1Thess, chapter: 4, verse: 17, work_id: esv-study-bible}, expect_contains: "caught up together with them in the clouds to meet the Lord in the air", checked: 2026-09-27}
+  - {id: 1th4-18-esv, what: "ESV 1 Thess 4:18 memory verse", tool: study_verse, args: {book: 1Thess, chapter: 4, verse: 18, work_id: esv-study-bible}, expect_contains: "Therefore encourage one another with these words.", checked: 2026-09-27}
+  - {id: 1th4-17-grk, what: "harpazo future passive 1st pl + apantesis", tool: bible_interlinear, args: {book: 1Thess, chapter: 4, verse: 17}, expect_contains: "ἁρπαγησόμεθα", checked: 2026-09-27}
+  - {id: 1th1-10-esv, what: "ESV 1 Thess 1:10", tool: study_verse, args: {book: 1Thess, chapter: 1, verse: 10, work_id: esv-study-bible}, expect_contains: "Jesus who delivers us from the wrath to come", checked: 2026-09-27}
+  - {id: 1th5-9-esv, what: "ESV 1 Thess 5:9", tool: study_verse, args: {book: 1Thess, chapter: 5, verse: 9, work_id: esv-study-bible}, expect_contains: "God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ", checked: 2026-09-27}
+  - {id: acts17-11-esv, what: "ESV Acts 17:11 Bereans", tool: study_verse, args: {book: Acts, chapter: 17, verse: 11, work_id: esv-study-bible}, expect_contains: "examining the Scriptures daily to see if these things were so", checked: 2026-09-27}
+  - {id: tit2-13-esv, what: "ESV Titus 2:13", tool: study_verse, args: {book: Titus, chapter: 2, verse: 13, work_id: esv-study-bible}, expect_contains: "our blessed hope, the appearing of the glory of our great God and Savior Jesus Christ", checked: 2026-09-27}
+  - {id: rev6-14-esv, what: "ESV Rev 6:14", tool: study_verse, args: {book: Rev, chapter: 6, verse: 14, work_id: esv-study-bible}, expect_contains: "The sky vanished like a scroll that is being rolled up", checked: 2026-09-27}
+  - {id: rev7-14-esv, what: "ESV Rev 7:14", tool: study_verse, args: {book: Rev, chapter: 7, verse: 14, work_id: esv-study-bible}, expect_contains: "the ones coming out of the great tribulation", checked: 2026-09-27}
+
+# Patristic verifications (raw files on $BIBLE_MEDIA_ROOT/reference/patristics -- not dispatchable
+# by research_batch, so recorded here as locations to re-read, not replayable evidence):
+patristic_checks:
+  - "Irenaeus AH 5.29.1 English: anf01.txt ~line 53562 ('when in the end the Church shall be suddenly caught up from this' ... 'last contest of the righteous'). Latin: irenaeus-harvey-vol2-latin-greek.txt ~34455 'cum in fine repente hinc Ecclesia assumetur' (OCR 'hine')."
+  - "Irenaeus AH 5.26.1 'put the Church to flight' (anf01 ~53252); 5.28.4 'tribulation is necessary for those who are saved' (~53512); 5.30.4 Antichrist 3.5 years then Lord comes, 'times of the kingdom' (~53716); 3.3.4 Polycarp 'instructed by apostles' (~39135)."
+  - "Justin, Dialogue 80: 'right-minded Christians on all points' and 'many who belong to the pure and pious faith ... think otherwise' (anf01 ~21768-21790)."
+  - "Tertullian, Against Marcion 3.24: 'a kingdom is promised to us upon the earth' (anf03 ~32157)."
+  - "Eusebius HE 3.39.12-13, Papias's thousand years and 'very limited understanding' (eusebius-npnf2-01 ~18466)."
+  - "Hermas Vision 4.2 (anf02 ~1480-1495): 'escaped from great tribulation', 'type of the great tribulation that is coming', 'possible for you to escape it'."
+  - "Victorinus (CSEL 49): Rev 6:14 'caelum inuolui: ecclesia de medio fit' is Recensio Hieronymi p.77; Haussleiter's note: section from Tyconius, added by Jerome's and later recensions; Beatus/Tyconius fuller text p.76 ('omnem de loco suo recessisse ... bona pars mouebitur de loco suo fugiens'). Rev 15:1 'cum ecclesia de medio exierit' Recensio Hieronymi cap. XV p.137; p.136 'Etiam capituli XV explicatio apud Victorinum desideratur'. ANF07 ~33549 and ~34148 for the English."
+  - "Pseudo-Ephraem: NOT on the media volume. Verified from C. P. Caspari 1890 fetched to session scratchpad from Internet Archive (identifier briefeabhandlun00caspgoog, _djvu.txt; cross-checked with 11889914bsb). §2 p.211 'Omnes enim sancti et electi Dei ante tribulationem, quae uentura est, colliguntur et ad Dominum adsumuntur, ne quando uideant confusionem, quae uniuersum propter peccata nostra obruet mundum'; preceding 'nosmet ipsos praeparamus in occursum domini Christi, ut nos eruat a confusione'; §9 'iustos et impios, iustos ut domino suo probentur'; §10 (p.220) 'Surgite, dormientes, surgite, occurrite Christo'. Caspari's summary (p. ~XIII of the contents): MSS saec. VIII (Barberini, St Gall); 'um 373' from Valentinian/Valens, judged doubtful; prefers 5th-6th c. or early 7th, not after 627-628; author neither Ephraem nor Isidore, used Ephraem, original Greek."
+
 open_questions:
   - "When published, link it from rapture.md (see rapture.yml insight_2026-09-26 open_questions)."
+  - "Caspari 1890 is public domain (1890) and was the only source that could verify the Pseudo-Ephraem line; it is NOT on $BIBLE_MEDIA_ROOT. Author decision: add it to the patristics corpus (a licence-tier decision; would need PROVENANCE.md, references/README.md and resources/patristic-sources.md updated together, per check_sources.py)."
+  - "Moved text's critic reading of Pseudo-Ephraem ('saints already dead') was replaced -- see stages.drafting.notes. Author to confirm."
+  - "The English rendering of Pseudo-Ephraem (according2prophecy.org, the commonly cited translation) matches Caspari's Latin closely; the translator is not named in the study."
+  - "Fork candidate: Pseudo-Methodius and the later medieval (Dolcino, Morgan Edwards) witnesses, not in this study."
+  - "Statement of faith: consistent -- the study affirms the pretrib position rests on Scripture and marks the patristic support as contested, without softening either."
+
+resources_consulted:
+  - {type: other, title: "Ante-Nicene Fathers vols. 1-3, 7", author: "Roberts & Donaldson (eds.)", note: "Irenaeus, Justin, Hermas, Tertullian, Victorinus in English."}
+  - {type: other, title: "Against Heresies, Latin (ed. Harvey, 1857)", author: "Irenaeus", note: "5.29.1 assumetur."}
+  - {type: other, title: "Victorini episcopi Petavionensis Opera, CSEL 49", author: "J. Haussleiter (1916)", note: "Showed both 'church out of the midst' lines belong to Jerome's recension, 6:14 from Tyconius -- contributed the key correction."}
+  - {type: other, title: "Briefe, Abhandlungen und Predigten (1890)", author: "C. P. Caspari", note: "Critical Latin text of Pseudo-Ephraem and date/authorship discussion; contributed §9/§10 counter-evidence and the exhortation-to-the-living context."}
+  - {type: other, title: "Church History (NPNF2 vol. 1)", author: "Eusebius, trans. McGiffert", note: "Papias 3.39.12-13."}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "1 Thess intro (date, setting) and notes on 4:13-18 (occasion, harpazo, apantesis) -- confirmed setting; contributed the apantesis civic-welcome point, flagged as the posttrib argument."}
+last_updated: "2026-09-27"
