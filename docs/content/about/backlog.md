@@ -26,15 +26,15 @@ than a study topic.
 
 | Ref | Topic | Section |
 |---|---|---|
-| [0.1](#01-scripture-pop-up-on-a-verse-reference) | Scripture pop-up on a verse reference | Site features |
-| [0.2](#02-word-study-pop-up-on-an-original-language-word) | Word-study pop-up on an original-language word | Site features |
 | [0.3](#03-key-takeaways-the-remaining-two-parts) | Key Takeaways: the remaining two parts | Site features |
 | [0.4](#04-new-studies-shown-apart-from-updated-ones) | New studies shown apart from updated ones | Site features |
 | [0.5](#05-a-blog) | A blog | Site features |
+| [0.6](#06-pop-up-follow-ups) | Pop-up follow-ups | Site features |
 | [1.1](#11-extra-biblical-texts) | Extra-biblical texts | Scripture |
 | [1.2](#12-typed-scripture-links) | Typed scripture links | Scripture |
 | [2.1](#21-prophecy-and-jesus) | Prophecy and Jesus | Jesus |
 | [2.3](#23-jesus-attitude-toward-women) | Jesus' attitude toward women | Jesus |
+| [2.4](#24-the-feedings-and-the-hardened-hearts) | The feedings and the hardened hearts | Jesus |
 | [4.2](#42-on-death) | On death | Salvation |
 | [4.3](#43-faith) | Faith | Salvation |
 | [5.1](#51-tribulation-perspectives) | Tribulation perspectives | Last things |
@@ -58,49 +58,10 @@ an old reference still points at the right thing.
 
 ## 0. Site features
 
-Work on the site rather than a study. 0.1 and 0.2 share one piece of plumbing with the reader-facing
-reference lookup in [1.2](#12-typed-scripture-links): a static JSON index built at deploy time and
-read by a small script in the page. Build that once and all three sit on it.
-
-### 0.1 Scripture pop-up on a verse reference
-
-Click a Bible reference in a study and the verse opens over the page, so the reader meets Scripture
-itself before the study's comment on it.
-
-- **Text:** the World English Bible, from `bible-text.db`. Only an `open`-tier translation can ship
-  to the browser; the ESV, NIV, NKJV and CSB sit under `quotation-only` in `study-notes.db` and
-  never leave the build machine.
-- **Cross-references:** from the OpenBible set already ingested (`openbible-crossrefs`), capped to
-  the strongest few by vote and labelled as crowd cross-references (see 1.2 on why that label
-  matters).
-- **Also show:** which of our own studies treat the verse. `commentary_index.py` already knows.
-- **How:** most studies link references to Blue Letter Bible today. A build hook can recognise those
-  links and the bare `Book ch:v` pattern and attach the pop-up, with the existing link as the
-  fallback when scripts are off. Versification needs care: a reference is read in the English
-  scheme, and `versification.py` already handles the books that differ.
-- **Size:** index only the verses the site cites, not the whole Bible.
-
-### 0.2 Word-study pop-up on an original-language word
-
-Click a Hebrew, Aramaic or Greek word in a study and get a quick word study without leaving the page.
-It gives the reader, in one place, detail that the studies currently spread unevenly through their
-prose.
-
-| Field | Source in hand |
-|---|---|
-| The word in its own script | `macula-hebrew-wlc`, `macula-greek-sblgnt` |
-| Transliteration and pronunciation | Not held consistently; STEPBible TAHOT/TAGNT (`open-data/stepbible-data`, raw-only today) carries transliteration and is the first place to look |
-| Occurrences in the OT and NT | `bible_concordance` with `count_only` |
-| Common meaning | Lemma glosses in the MACULA data |
-| Louw-Nida / SDBH domain | `morphology.domain_code` |
-| Strong's number and TWOT root | Morphology tables and the TWOT root map |
-
-- **The hard part is marking the words up.** Studies write a word as `<span dir="rtl">…</span>` or
-  inline Greek followed by *(transliteration, H/G number)*, but not uniformly. Keying the pop-up on
-  the Strong's number already written beside most words is the cheapest reliable hook; a sweep can
-  add the number where it is missing.
-- **Counts must come from the build, never from a study's own sentence**, so the pop-up stays right
-  when a study's claim is wrong. That also gives validator checks 18-19 a cross-check.
+Work on the site rather than a study. The verse and word pop-ups (0.1 and 0.2) are built; see
+[Completed](#completed). Their data, exported from `bible-text.db` into
+`docs/content/assets/popups/`, is also the natural source for the reader-facing lookup in
+[1.2](#12-typed-scripture-links).
 
 ### 0.3 Key Takeaways: the remaining two parts
 
@@ -148,6 +109,21 @@ A place for shorter posts alongside the studies, built on mkdocs-material's own 
 - **Deploy:** posts live under `docs/`, so the existing path filter already deploys them.
 - **Decide first:** categories, authors, whether posts get the Key Takeaways shape (probably not),
   and whether a post can be the first draft of a study.
+
+### 0.6 Pop-up follow-ups
+
+What the pop-ups (0.1 and 0.2) left undone.
+
+- **Strong's numbers on untagged words.** A word gets a word card only when its Strong's number is
+  written beside it. The studies carry about 380 tagged words, and many of the 433 Hebrew words
+  written in `<span dir="rtl">` have no number yet. A sweep adds the number, verified with
+  `bible_word`, in the existing `(*transliteration*, H/G number)` shape.
+- **Hebrew meanings.** The word card shows STEPBible's short gloss. TBESH's fuller "Meaning" column
+  is left out because its header credits Online Bible's abridged BDB and asks that permission be
+  sought. Ask Online Bible, or leave it out for good.
+- **Counts in the studies against the cards.** A study's "only here" or "N times" now sits on the
+  same page as a card showing the concordance's number. A one-off pass comparing every stated count
+  with the exported data would find the stale ones (see validator checks 18-19).
 
 ## 1. Scripture
 
@@ -344,6 +320,21 @@ existing commentary index immediately.
 How Jesus treats women across the Gospels, against the norms of his day — not yet scoped beyond
 that.
 
+### 2.4 The feedings and the hardened hearts
+
+Expand [The Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md) with Mark's reading
+of the two feedings (the five thousand and the four thousand) — a revision of that study rather than
+a new one.
+
+- **The gap.** The study treats the rebuke in the boat over the loaves (Mark 8:14-21) but never
+  Mark 6:52. There, after Jesus walks on the water, Mark gives the disciples' astonishment (6:51) its cause: "for
+  they did not understand about the loaves, but their hearts were hardened" (Mark 6:52, ESV).
+- **The thread.** Both scenes are in the boat, and both tie the disciples' failure to the loaves. In
+  the first they are straining against the wind when Jesus comes to them on the water (Mark 6:48).
+  In the second they are arguing over having no bread, and Jesus asks, "Are your hearts
+  hardened?" (Mark 8:17, ESV) and makes them count the baskets from both feedings. Matthew's parallel calls them "you of little faith"
+  (Matthew 16:8), which links this item to [4.3](#43-faith).
+
 ## 4. Salvation
 
 ### 4.2 On death
@@ -367,6 +358,11 @@ from the notes above: the thief on the cross, Moses and Elijah at the Transfigur
 
 What the Bible means by faith, across both Testaments.
 
+- **Where the study should land:** faith is not a work of our own strength. Faith "like a grain of
+  mustard seed" is enough (Matthew 17:20; Luke 17:6), because what matters is **who** the faith is
+  in. That is what Jesus meant when He called His disciples "you of little faith", as when Peter
+  began to sink after walking on the water (Matthew 14:31). ὀλιγόπιστος (*oligopistos*, G3640)
+  occurs five times, all on Jesus' lips: Matthew 6:30, 8:26, 14:31, 16:8 and Luke 12:28.
 - **Words:** Hebrew <span dir="rtl">אָמַן</span> (*ʾaman*, H539), whose hiphil is "believed" at
   Genesis 15:6, and its noun <span dir="rtl">אֱמוּנָה</span> (*ʾemunah*, H530, faithfulness); Greek
   πίστις (*pistis*, G4102) and πιστεύω (*pisteuō*, G4100). The Hebrew root carries firmness and
@@ -425,7 +421,22 @@ What the Bible means by faith, across both Testaments.
 - **Which skill:** if the sentences can stay, this is **read-bible-study** (regroup, change no
   sentence). If the argument itself needs re-ordering, it is a redraft through
   **develop-bible-study**. Decide after one read against the question grouping.
-- The note that raised this broke off mid-sentence ("at the moment the…"). Finish it before starting.
+- **The problem is finding your place, and the content is good.** It is hard to tell which part of
+  the discourse sits where. The 2026-09-26 edits may have helped, so re-read before starting.
+- **Example: the flight to the mountains.** It is not clear when "let those who are in Judea flee to
+  the mountains" (Matthew 24:16, ESV) happens: the temple's destruction and the persecution of the
+  first Christians, the tribulation, or both. Luke's parallel ties it to "Jerusalem surrounded by
+  armies" (Luke 21:20, ESV); Matthew and Mark tie it to Daniel's abomination of desolation. The
+  regrouped study should say which question the instruction answers, and mark the reading as
+  contested where it is.
+- **One full exegesis of "one taken, one left".** Matthew 24:40-41 is worked through in three
+  places: [The Olivet Discourse](../last-things/olivet-discourse.md) has its own section, the
+  [rapture study](../last-things/rapture.md) defers to that, and the draft *One Taken, One Left*
+  (`last-things/one-taken-one-left.md`) is a full study of it. Keep the full exegesis in one of
+  them, most naturally the dedicated study, and have the other two point to it. The draft cannot be
+  linked until it is published. The readings must also agree; the open question is recorded in
+  `references/study-state/readability-sweep-2026-09.yml` under `author_questions`.
+
 
 ### 5.5 The age to come
 
@@ -616,4 +627,6 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 5.3 | The last trumpet | [The Trumpet Call of God](../last-things/trumpet.md) |
 | 7.1 | Twelve disciples | [The Twelve: Disciples and Apostles](../biblical-figures/twelve-apostles.md), with a page per apostle |
 | 10.1 | Know the truth | [Know the Truth](../christian-life/know-the-truth.md) |
+| 0.1 | Scripture pop-up on a verse reference | Every reference on the site opens the verse, its context, cross-references and the studies that treat it, 2026-09-27. Blue Letter Bible links removed |
+| 0.2 | Word-study pop-up on an original-language word | Every Strong's tag, and the word in front of it, opens a word card: lexicon, counts, where it occurs, renderings, and the studies that discuss it, 2026-09-27. Follow-ups in [0.6](#06-pop-up-follow-ups) |
 | 0.3 (part) | Normalise the Key Takeaways opening line | Done across 50 studies, 2026-09-27 |
