@@ -1,15 +1,31 @@
 slug: "a-thousand-years-in-your-sight"
 title: "A Thousand Years in Your Sight"
-status: draft
+status: drafted
 target_path: "docs/content/last-things/a-thousand-years-in-your-sight.md"
-primary_passage: "Psalm 90:1-4"
-supporting_passages: ["Psalm 89:46-52", "Psalm 92:1-14", "2 Peter 3:4-8"]
+primary_passage: "Psalm 90:1-17"
+supporting_passages: ["Psalm 89:46-52", "Psalm 92:1-14", "Psalm 106:45", "Exodus 32:12-14", "Exodus 34:6", "Numbers 14:29-34", "Genesis 3:19", "Hebrews 1:8-12", "2 Peter 3:4-9"]
+genre: "psalm (community lament, attributed to Moses) + canonical-sequence reading of Psalter Books III-IV"
 point: >
-  Psalms 90 and 92 answer the complaint that God's sworn promise has failed with God's own duration
-  and a Sabbath song of final judgment -- the move Peter repeats in 2 Peter 3.
+  Psalm 90 in its own context: Moses' prayer over the dying wilderness generation, setting God's
+  eternity against human frailty under wrath, and asking the eternal God to return, relent and
+  establish the work of mortal hands. The eschatological (week-of-millennia) reading stays the
+  parent's.
+thesis: >
+  The God who is from everlasting to everlasting has been His people's home in every generation, and
+  because a thousand years are as yesterday to Him, mortal and sinful people can ask Him to return, to
+  satisfy them with His steadfast love, and to establish the work of their few days.
+outline:
+  - "Opening: Moses buried a generation (Num 14:29, 34); Ps 90:1-2 quoted; In one sentence."
+  - "A prayer of Moses: only psalm title naming Moses; Deut 33:1 'man of God'; ESVSB Deuteronomy setting; four-step structure."
+  - "The eternal God and the thousand-year day: ma'on (dwelling), moved vocabulary + olam sections; timelessness marked contested with both sides."
+  - "Our days under His wrath: shuv/Gen 3:19; vv. 7-9 death as judgment on sin; v. 12 manah, number our days."
+  - "Return, O LORD: shuv turned back to God; shuv + nacham = Exodus 32:12 golden-calf prayer, answered 32:14; chesed (Ex 34:6); establish the work of our hands; grace landed on reader."
+  - "Where the psalm stands in the Psalter: moved seam/doxology material; 106:45 answers 90:13; Peter's 2 Pet 3:4/8/9; week-of-millennia handed to parent."
+  - "The psalm for the seventh day: moved Ps 92 material + new vocabulary echo (92:2, 4 answer 90:14-17)."
+word_budget: 4000
 stages:
   scoping:
-    done: false
+    done: true
     notes: >
       Forked verbatim from docs/content/last-things/day-is-a-thousand-years.md @ 7ddf284 during
       the 2026-09-26 simplify pass: sections "Psalm 90's own vocabulary", "The psalm's own word for
@@ -20,6 +36,82 @@ stages:
       Theology SB, NIV Cultural Backgrounds SB, MACULA, TWOT root 1631a, b. Sanhedrin 97a,
       b. Rosh HaShanah 31a) via develop-bible-study; provenance fields via
       refresh_frontmatter_provenance.py before commit.
+  historical_context:
+    done: true
+    notes: >
+      Title (Ps 90:1 Heb) is the only psalm superscription naming Moses (bible_word H4872 in Ps:
+      8 hits, 77:21, 90:1, 99:6, 103:7, 105:26, 106:16/23/32). ESVSB intro note: community lament,
+      Deuteronomy-era setting after Num 14:20-36; time words listed. Deut 33:1 "man of God".
+  literary_context:
+    done: true
+    notes: >
+      Structure 1-2 / 3-6 / 7-11 / 12-17 (ESVSB note headings). shuv at 90:3 (x2) and 90:13; 90:13
+      shuv + niphal impv nacham = Exod 32:12 exactly (interlinear); NIVBTSB note 90:13 links v.3 and
+      106:45 (nacham + chesed). Ps 92:2, 4 reuse chesed, boqer, samach, po'al, ranan, ma'aseh yad
+      from 90:14-17.
+  content_and_words:
+    done: true
+    notes: "ma'on H4583 TWOT 1581a; manah H4487 TWOT 1213; shuv H7725 TWOT 2340; nacham H5162 TWOT 1344; chesed H2617 TWOT 698a; kun H3559."
+  hermeneutics:
+    done: true
+    notes: >
+      God eternal and His people's home; death as His judgment on sin; God merciful, relents
+      according to chesed; landed via Jesus (Heb 1:8-12, 13:8; John 1:14; 2 Tim 1:10; 1 Cor 15:58).
+      Statement of faith silent on divine timelessness -- no conflict; contested point marked with
+      both sides (Augustine/Boethius timeless vs everlasting-through-time).
+  draft:
+    done: true
+    notes: >
+      2026-09-27: developed from the fork. Opening, thesis, Key Takeaways (standard intro line),
+      Study outline, four new sections, discussion questions, references added. Moved text kept;
+      pronouns recased; 'this study's reading' / 'subject of this study' / 'appear below' fixed to
+      point at the parent; diagram trimmed to two rows (the day-six/day-seven row is the parent's
+      inference); "eight verses later" corrected to six (90:4 -> 90:10).
+resources_consulted:
+  - "ESV Study Bible -- Ps 90 intro and notes 90:1-2, 3, 3-6, 7-11, 10, 12 (confirmed setting/structure; contributed Deuteronomy setting and dakka' vs 'apar point)"
+  - "NIV Biblical Theology Study Bible -- note on 90:13 (contributed shuv link to v.3 and answer at 106:45)"
+  - "LSB and CSB Ancient Faith footnotes on Ps 90 (ma'on 'hiding place, help'; 'Cause us to know'; nacham 'repent in regard to')"
+  - "unfoldingWord interlinear / MACULA: Ps 90:1,3,12-17; Ps 92:2,4; Ps 106:45; Exod 32:12; Exod 34:6; Gen 3:19"
+  - "TWOT root map via twot_strongs"
 open_questions:
   - "On publish, link it from the plain-text pointer in day-is-a-thousand-years.md ('Where Peter got it')."
-last_updated: "2026-09-26"
+  - "Placement: the developed study is about God's eternity and human frailty in Psalm 90; god/ may now fit better than last-things/. Path kept as briefed; author's call before publish (URL changes are costly after)."
+  - "Augustine Confessions bk 11 / Boethius Consolation bk 5 cited at book level from general knowledge, not checked against the patristics corpus."
+  - "Body ~3,000 words (slightly over the 1,500-3,000 aim, under the 4,000 budget). Psalm 92 section is the likeliest trim if the author wants it shorter."
+last_updated: "2026-09-27"
+evidence:
+  - {id: ps90-1-esv, what: "ESV 90:1 title and dwelling place", tool: study_verse, args: {book: Ps, chapter: 90, verse: 1, work_id: esv-study-bible}, expect_contains: "you have been our dwelling place in all generations", checked: 2026-09-27}
+  - {id: ps90-2-esv, what: "ESV 90:2 memory verse", tool: study_verse, args: {book: Ps, chapter: 90, verse: 2, work_id: esv-study-bible}, expect_contains: "from everlasting to everlasting you are God", checked: 2026-09-27}
+  - {id: ps90-7-esv, what: "ESV 90:7 block quote", tool: study_verse, args: {book: Ps, chapter: 90, verse: 7, work_id: esv-study-bible}, expect_contains: "For we are brought to an end by your anger", checked: 2026-09-27}
+  - {id: ps90-12-esv, what: "ESV 90:12 memory verse", tool: study_verse, args: {book: Ps, chapter: 90, verse: 12, work_id: esv-study-bible}, expect_contains: "So teach us to number our days that we may get a heart of wisdom", checked: 2026-09-27}
+  - {id: ps90-13-esv, what: "ESV 90:13", tool: study_verse, args: {book: Ps, chapter: 90, verse: 13, work_id: esv-study-bible}, expect_contains: "Return, O LORD! How long? Have pity on your servants!", checked: 2026-09-27}
+  - {id: ps90-14-esv, what: "ESV 90:14", tool: study_verse, args: {book: Ps, chapter: 90, verse: 14, work_id: esv-study-bible}, expect_contains: "Satisfy us in the morning with your steadfast love", checked: 2026-09-27}
+  - {id: ps90-17-esv, what: "ESV 90:17", tool: study_verse, args: {book: Ps, chapter: 90, verse: 17, work_id: esv-study-bible}, expect_contains: "yes, establish the work of our hands!", checked: 2026-09-27}
+  - {id: ps90-13-heb, what: "90:13 shuv + niphal nacham", tool: bible_interlinear, args: {book: Ps, chapter: 90, verse: 13}, expect_contains: "VNv2ms", checked: 2026-09-27}
+  - {id: ex32-12-heb, what: "Exod 32:12 shuv + niphal nacham, same form", tool: bible_interlinear, args: {book: Exod, chapter: 32, verse: 12}, expect_contains: "VNv2ms", checked: 2026-09-27}
+  - {id: ex32-12-esv, what: "ESV Exod 32:12", tool: study_verse, args: {book: Exod, chapter: 32, verse: 12, work_id: esv-study-bible}, expect_contains: "Turn from your burning anger and relent from this disaster against your people", checked: 2026-09-27}
+  - {id: ex32-14-esv, what: "ESV Exod 32:14", tool: study_verse, args: {book: Exod, chapter: 32, verse: 14, work_id: esv-study-bible}, expect_contains: "the LORD relented from the disaster that he had spoken of bringing on his people", checked: 2026-09-27}
+  - {id: ex34-6-esv, what: "ESV Exod 34:6", tool: study_verse, args: {book: Exod, chapter: 34, verse: 6, work_id: esv-study-bible}, expect_contains: "abounding in steadfast love and faithfulness", checked: 2026-09-27}
+  - {id: ps106-45-esv, what: "ESV Ps 106:45 answer", tool: study_verse, args: {book: Ps, chapter: 106, verse: 45, work_id: esv-study-bible}, expect_contains: "relented according to the abundance of his steadfast love", checked: 2026-09-27}
+  - {id: ps92-2-esv, what: "ESV Ps 92:2", tool: study_verse, args: {book: Ps, chapter: 92, verse: 2, work_id: esv-study-bible}, expect_contains: "to declare your steadfast love in the morning", checked: 2026-09-27}
+  - {id: ps92-4-esv, what: "ESV Ps 92:4", tool: study_verse, args: {book: Ps, chapter: 92, verse: 4, work_id: esv-study-bible}, expect_contains: "at the works of your hands I sing for joy", checked: 2026-09-27}
+  - {id: ps92-4-heb, what: "92:4 po'al + ma'aseh yad", tool: bible_interlinear, args: {book: Ps, chapter: 92, verse: 4}, expect_contains: "H6467", checked: 2026-09-27}
+  - {id: gen3-19-esv, what: "ESV Gen 3:19", tool: study_verse, args: {book: Gen, chapter: 3, verse: 19, work_id: esv-study-bible}, expect_contains: "to dust you shall return", checked: 2026-09-27}
+  - {id: num14-34-esv, what: "ESV Num 14:34", tool: study_verse, args: {book: Num, chapter: 14, verse: 34, work_id: esv-study-bible}, expect_contains: "a year for each day", checked: 2026-09-27}
+  - {id: deut33-1-esv, what: "ESV Deut 33:1", tool: study_verse, args: {book: Deut, chapter: 33, verse: 1, work_id: esv-study-bible}, expect_contains: "Moses the man of God blessed the people of Israel before his death", checked: 2026-09-27}
+  - {id: heb1-12-esv, what: "ESV Heb 1:12", tool: study_verse, args: {book: Heb, chapter: 1, verse: 12, work_id: esv-study-bible}, expect_contains: "But you are the same, and your years will have no end", checked: 2026-09-27}
+  - {id: heb1-8-esv, what: "ESV Heb 1:8", tool: study_verse, args: {book: Heb, chapter: 1, verse: 8, work_id: esv-study-bible}, expect_contains: "But of the Son he says", checked: 2026-09-27}
+  - {id: ps102-27-esv, what: "ESV Ps 102:27", tool: study_verse, args: {book: Ps, chapter: 102, verse: 27, work_id: esv-study-bible}, expect_contains: "but you are the same, and your years have no end", checked: 2026-09-27}
+  - {id: heb13-8-esv, what: "ESV Heb 13:8", tool: study_verse, args: {book: Heb, chapter: 13, verse: 8, work_id: esv-study-bible}, expect_contains: "Jesus Christ is the same yesterday and today and forever", checked: 2026-09-27}
+  - {id: john1-14-esv, what: "ESV John 1:14", tool: study_verse, args: {book: John, chapter: 1, verse: 14, work_id: esv-study-bible}, expect_contains: "became flesh and dwelt among us", checked: 2026-09-27}
+  - {id: 2tim1-10-esv, what: "ESV 2 Tim 1:10", tool: study_verse, args: {book: 2Tim, chapter: 1, verse: 10, work_id: esv-study-bible}, expect_contains: "abolished death and brought life and immortality to light through the gospel", checked: 2026-09-27}
+  - {id: 1cor15-58-esv, what: "ESV 1 Cor 15:58", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 58, work_id: esv-study-bible}, expect_contains: "in the Lord your labor is not in vain", checked: 2026-09-27}
+  - {id: 2pet3-9-esv, what: "ESV 2 Pet 3:9", tool: study_verse, args: {book: 2Pet, chapter: 3, verse: 9, work_id: esv-study-bible}, expect_contains: "not wishing that any should perish, but that all should reach repentance", checked: 2026-09-27}
+  - {id: moses-in-psalms, what: "Moses named 8x in Psalms; only 90:1 is a title", tool: bible_word, args: {strongs: H4872, book: Ps}, expect_contains: "\"verse\": 1", checked: 2026-09-27}
+  - {id: twot-maon, what: "ma'on TWOT 1581a", tool: twot_strongs, args: {strongs_id: H4583}, expect_contains: "1581a", checked: 2026-09-27}
+  - {id: twot-manah, what: "manah TWOT 1213", tool: twot_strongs, args: {strongs_id: H4487}, expect_contains: "1213", checked: 2026-09-27}
+  - {id: twot-shuv, what: "shuv TWOT 2340", tool: twot_strongs, args: {strongs_id: H7725}, expect_contains: "2340", checked: 2026-09-27}
+  - {id: twot-nacham, what: "nacham TWOT 1344", tool: twot_strongs, args: {strongs_id: H5162}, expect_contains: "1344", checked: 2026-09-27}
+  - {id: twot-chesed, what: "chesed TWOT 698a", tool: twot_strongs, args: {strongs_id: H2617}, expect_contains: "698a", checked: 2026-09-27}
+  - {id: esvsb-ps90-intro, what: "ESVSB setting and time words", tool: study_note, args: {book: Ps, chapter: 90, verse: 1, work_id: esv-study-bible}, expect_contains: "picture Israel around the time of Deuteronomy", checked: 2026-09-27}
+  - {id: nivbt-ps90-13, what: "NIVBTSB 90:13 -> v.3 and 106:45", tool: study_note, args: {book: Ps, chapter: 90, verse: 13, work_id: niv-biblical-theology-study-bible}, expect_contains: "106:45", checked: 2026-09-27}
