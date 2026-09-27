@@ -89,7 +89,7 @@ Amen.
 
 - [The question behind the question](#the-question-behind-the-question). The three questions of Matthew 24:3, and one conversation recorded by Matthew, Mark and Luke.
 - [Question one: the temple](#ad-70-question-one-answered-and-documented). Answered before it was asked (24:2), fulfilled in AD 70: Josephus on the temple's fall, Eusebius on the flight to Pella.
-- [Question three: the close of the age](#question-three-the-close-of-the-age-matthew-244-28). Matthew 24:4-28 — the Jewish lists of woes and the birth pangs, the four warnings against deception, then Daniel's abomination of desolation and the instructions to flee.
+- [Question three: the close of the age](#question-three-the-close-of-the-age-matthew-244-28). Matthew 24:4-28 — the Jewish lists of woes and the birth pangs, the four warnings against deception, then Daniel's abomination of desolation, the instructions to flee, and which question the flight answers.
 - [Question two: the sign of His coming](#question-two-the-one-sign-matthew-2429-31). Matthew 24:29-31 — the Son of Man on the clouds, the gathering of the elect, and the mountain He sat on.
 - [The day no one knows](#the-day-no-one-knows). The "when?" behind all three — whose the date is, what "ready" means in the parables, the contested saying of 24:40-41, and Mark's four night watches ending in Gethsemane.
 - [Discussion questions](#discussion-questions). Four, for a group or on your own.
@@ -393,6 +393,22 @@ it. Jesus is speaking to first-century men in the furniture of their own
 world, and the substance of the order — go, go now, do not go back for anything, not even the one
 possession the law says nobody can take from you — transfers to any flight from any city.
 
+#### Which question the flight answers
+
+**Luke's flight answers question one, and Matthew's and Mark's answer question three. This reading
+is contested.** Luke ties the order to Jerusalem "surrounded by armies" (Luke 21:20-21, ESV), the
+Roman advance of AD 66-70. Matthew and Mark tie it to Daniel's abomination, and Matthew follows it
+with "great tribulation, such as has not been from the beginning of the world until now, no, and
+never will be" (Matthew 24:21, ESV), which the Son of Man ends "immediately" (24:29). AD 70 ended
+with the Son of Man still in heaven, so this study places Matthew's and Mark's flight in the future
+distress of Daniel's seventieth week, with the flight from Rome as its first instance. The *ESV
+Study Bible* calls AD 70 "a pattern or a 'type'" of the destruction at the end of the age (note on
+Luke 21:5-24). Preterist interpreters, pressing the first-century detail above, read the whole
+flight as AD 70.
+
+On either reading, God warned His people before judgment fell, down to which way to run, and kept
+that word to the letter. You can trust Him with what He has told you about the last siege.
+
 Where the long interval before verse 15 sits, and why verse 29's "immediately" leaves no gap after
 the distress, is worked through against Daniel 9:24-27 in a separate study, *Immediately After*
 (in preparation).
@@ -509,8 +525,8 @@ texts entirely — 1 Thessalonians 4:13-18, John 14:1-4, the restrainer of 2 The
 is made at length in [The Rapture of the Church](rapture.md). It neither needs this verse nor is
 damaged by it.
 
-The verbs, Noah's flood and Luke's vultures are worked through in a separate study, *One Taken,
-One Left* (in preparation).
+The verbs, Noah's flood and Luke's vultures are worked through in a separate study, [One Taken,
+One Left](one-taken-one-left.md).
 
 ### "What I Say to You I Say to All: Stay Awake"
 

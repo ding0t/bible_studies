@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Thessalonians 4:15-18"
 bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "Genesis 5:21-24", "Hebrews 11:5", "Jude 1:14-15", "Genesis 19:15-16", "Genesis 19:24", "2 Peter 2:5-9", "Luke 17:28-30", "Revelation 7:9-14", "Matthew 25:10", "Colossians 3:4", "Revelation 19:14"]
 date_created: 2024-04-23
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -157,7 +157,7 @@ This shows that God keeps the day in His own hand and asks you for readiness: wa
 "One will be taken and one left" (Matthew 24:40-41) is regularly quoted as proof of a pretribulational
 rapture. It will not carry that weight. Neither verb carries a verdict lexically, and in the Noah
 illustration these two verses complete, the ones swept away are the wicked and the man left standing
-on the earth is Noah. [The Olivet Discourse](olivet-discourse.md) works this through.
+on the earth is Noah. [One Taken, One Left](one-taken-one-left.md) works this through.
 
 ### The ten virgins
 

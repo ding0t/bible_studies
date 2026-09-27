@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -39,7 +39,6 @@ than a study topic.
 | [4.3](#43-faith) | Faith | Salvation |
 | [5.1](#51-tribulation-perspectives) | Tribulation perspectives | Last things |
 | [5.2](#52-end-times) | End times | Last things |
-| [5.4](#54-the-olivet-discourse-regrouped-by-the-disciples-questions) | The Olivet Discourse, regrouped by the disciples' questions | Last things |
 | [5.5](#55-the-age-to-come) | The age to come | Last things |
 | [5.6](#56-they-were-given-white-robes) | They were given white robes | Last things |
 | [5.7](#57-heaven-and-earth-by-fire) | Heaven and earth by fire | Last things |
@@ -429,38 +428,6 @@ What the Bible means by faith, across both Testaments.
 - Objective is the plundering of Israel
 - Who —
 
-### 5.4 The Olivet Discourse, regrouped by the disciples' questions
-
-[The Olivet Discourse](../last-things/olivet-discourse.md) was cut back and given an outline on
-2026-09-26, and it still does not leave the reader thinking "that is what Jesus was saying".
-
-- **Group by the questions asked.** Matthew 24:3 puts three to Jesus: when will "these things" (the
-  temple's fall, 24:2) be, what will be the sign of His coming, and what will be the sign of the
-  close of the age. Arranged under those three, each answer can be read against the question it
-  answers. Luke 21:7 has only the temple question, which is part of why the parallels differ.
-- **Or group by the events answered.** The temple's fall; the time of distress; the coming of the
-  Son of Man; the hour no one knows. Either way, the reader should reach the end able to say which
-  part of the discourse answers which question.
-- **Which skill:** if the sentences can stay, this is **read-bible-study** (regroup, change no
-  sentence). If the argument itself needs re-ordering, it is a redraft through
-  **develop-bible-study**. Decide after one read against the question grouping.
-- **The problem is finding your place, and the content is good.** It is hard to tell which part of
-  the discourse sits where. The 2026-09-26 edits may have helped, so re-read before starting.
-- **Example: the flight to the mountains.** It is not clear when "let those who are in Judea flee to
-  the mountains" (Matthew 24:16, ESV) happens: the temple's destruction and the persecution of the
-  first Christians, the tribulation, or both. Luke's parallel ties it to "Jerusalem surrounded by
-  armies" (Luke 21:20, ESV); Matthew and Mark tie it to Daniel's abomination of desolation. The
-  regrouped study should say which question the instruction answers, and mark the reading as
-  contested where it is.
-- **One full exegesis of "one taken, one left".** Matthew 24:40-41 is worked through in three
-  places: [The Olivet Discourse](../last-things/olivet-discourse.md) has its own section, the
-  [rapture study](../last-things/rapture.md) defers to that, and the draft *One Taken, One Left*
-  (`last-things/one-taken-one-left.md`) is a full study of it. Keep the full exegesis in one of
-  them, most naturally the dedicated study, and have the other two point to it. The draft cannot be
-  linked until it is published. The readings must also agree; the open question is recorded in
-  `references/study-state/readability-sweep-2026-09.yml` under `author_questions`.
-
-
 ### 5.5 The age to come
 
 What the New Testament means by "the age to come", and how it relates to the millennium and the
@@ -679,3 +646,4 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 0.1 | Scripture pop-up on a verse reference | Every reference on the site opens the verse, its context, cross-references and the studies that treat it, 2026-09-27. Blue Letter Bible links removed |
 | 0.2 | Word-study pop-up on an original-language word | Every Strong's tag, and the word in front of it, opens a word card: lexicon, counts, where it occurs, renderings, and the studies that discuss it, 2026-09-27. Follow-ups in [0.6](#06-pop-up-follow-ups) |
 | 0.3 (part) | Normalise the Key Takeaways opening line | Done across 50 studies, 2026-09-27 |
+| 5.4 | The Olivet Discourse, regrouped by the disciples' questions | [The Olivet Discourse](../last-things/olivet-discourse.md) regrouped under the question each part answers, a section on which question the flight to the mountains answers (marked contested), and "one taken, one left" pointed at [One Taken, One Left](../last-things/one-taken-one-left.md) from both it and the rapture study, 2026-09-28 |
