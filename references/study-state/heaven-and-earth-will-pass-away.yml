@@ -1,10 +1,23 @@
 slug: "heaven-and-earth-will-pass-away"
 title: "Heaven and Earth Will Pass Away"
-status: drafting
+status: drafted
 target_path: "docs/content/last-things/heaven-and-earth-will-pass-away.md"
 primary_passage: "Matthew 24:35"
 forked_from: "docs/content/last-things/olivet-discourse.md"
+genre: "Gospel (prophetic discourse), with epistle (2 Peter 3; 1 Thessalonians 5)"
+word_budget: 4000
 point: "Peter and Paul carried the discourse's verbs and images (parousia, the flood, the thief, labour pains) into 2 Peter 3 and 1 Thessalonians 5 for the same command to stay awake."
+thesis: >
+  Jesus staked His words against heaven and earth, and Peter and Paul built their teaching on the
+  day of the Lord out of those words, so God's promise that His Son is coming is the most certain
+  thing in creation, and you are to meet it awake.
+outline:
+  - "One sentence on the Mount of Olives: 24:34-35 as one sentence; parerchomai in two senses; ou me."
+  - "Words that outlast creation: Isaiah 51:6 and Matthew 5:18 show Jesus claiming God's permanence for His own words (deity of Christ)."
+  - "Peter's echo: 2 Peter's setting in one paragraph (3:3-9 left to day-is-a-thousand-years), the moved borrowing table, and 3:11-14's call to holiness."
+  - "What passes, and what comes: the 3:10 'will be found' variant, renewal vs replacement (contested, both sides), and the dispensational placement after the millennium (Rev 20-21)."
+  - "Paul's thief: 1 Thess 5:1-11 -- times and seasons (Acts 1:7), thief and labour pains, children of the day, 5:9-10 grounded in the cross; pretrib reading marked as this site's, with the alternative."
+  - "The thief image, traced: moved mermaid and Revelation 16:15 close."
 stages:
   forked:
     done: true
@@ -12,8 +25,311 @@ stages:
       Forked verbatim on 2026-09-26 (simplify-bible-study, readability-sweep-2026-09) from
       docs/content/last-things/olivet-discourse.md at commit dda393c: ## "Heaven and Earth Will Pass Away" (all subsections). Word studies and
       quotations were verified there (see olivet-discourse.yml review blocks) and are not redrafted.
-      Needs develop-bible-study for its own opening, "In one sentence:" thesis, Key Takeaways and
-      discussion questions; draft: true until then. When published, turn the plain-text pointer in
-      olivet-discourse.md into a link.
-open_questions: []
-last_updated: "2026-09-26"
+  scope:
+    done: true
+    notes: "Primary passage Matthew 24:35 with 2 Peter 3:1-14 and 1 Thessalonians 5:1-11 as its two apostolic echoes. 2 Peter 3:3-9's own argument (scoffers, flood, 3:8 ratio) deliberately left to day-is-a-thousand-years.md and linked."
+  historical_context:
+    done: true
+    notes: "Mark 13:3 (Peter among the four hearers); 2 Peter as second letter (3:1), eyewitness claim (1:16); 1 Thessalonians AD 49-51 from Corinth per ESV Study Bible introduction."
+  literary_context:
+    done: true
+    notes: "24:35 closes the fig-tree paragraph (24:32-35) and hinges to 24:36; identical in Mark 13:31 and Luke 21:33. 1 Thess 5:1-11 follows 4:13-18 and answers 'times and seasons'."
+  content_words:
+    done: true
+    notes: "parerchomai (moved, re-checked in 2 Peter count); ou me + aorist subjunctive at 24:34 and 24:35 (NA28); chronon kai kairon (1 Thess 5:1) = Acts 1:7 pair; heurethesetai variant at 2 Pet 3:10 (SBLGNT vs NA28 vs CSB/LSB footnotes)."
+  hermeneutics:
+    done: true
+    notes: "Principle: Jesus' words carry God's own permanence (Isa 51:6; 40:8; Matt 5:18), so the promised return is certain and the right response is watchful holiness (2 Pet 3:11-14; 1 Thess 5:6-11). Consistent with statement-of-faith End times: pretrib (1 Thess 5:9 read with 4:13-18), literal millennium, new heaven and earth after Rev 20:11-15."
+  cross_reference:
+    done: true
+    notes: "passage_brief on Matt 24:35 (leads: Isa 40:8, Isa 51:6, Matt 5:18, 2 Pet 3:7). cross_study_claims '2 Peter 3': no contradiction with day-is-a-thousand-years, day-is-near, immediately-after, olivet-discourse."
+  draft:
+    done: true
+    notes: "Drafted 2026-09-27 without the thesis/outline stop (author-approved for fork jobs). Hook, In one sentence, Key Takeaways (standard opening line), Study outline, four new sections around the moved text, discussion questions, References."
+  validate:
+    done: true
+    notes: "npm run validate: only Check 17 provenance warnings (fields deliberately omitted on a draft). mkdocs build --strict clean (draft dropped from build, so its own links are unchecked by it -- checked by hand)."
+resources_consulted:
+  - "ESV Study Bible (Crossway): introduction to 1 Thessalonians (date); notes on Matt 24:35 (confirmed: divine authority of Jesus' words), Matt 24:32-41, 2 Pet 3:1-13, 3:8-10, 3:10 (contributed: 'will be found' as divine passive, renewal-view argument)."
+  - "CSB Ancient Faith Study Bible, LSB, NLT footnotes on 2 Pet 3:10 (contributed: the three-way variant)."
+  - "NA28 and SBLGNT Greek (via study-notes.db and bible-text.db); MACULA Greek Louw-Nida domains."
+evidence:
+  - id: matt-24-35-esv
+    what: "memory verse; primary passage"
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 35, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Heaven and earth will pass away, but my words will not pass away."
+    checked: 2026-09-27
+  - id: matt-24-35-ou-me
+    what: "οὐ μή + subjunctive in 24:35"
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 35, work_id: na28-greek-nt}
+    path: "0.text"
+    expect_contains: "οὐ μὴ παρέλθωσιν"
+    checked: 2026-09-27
+  - id: matt-24-34-ou-me
+    what: "οὐ μή in 24:34"
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 34, work_id: na28-greek-nt}
+    path: "0.text"
+    expect_contains: "οὐ μὴ παρέλθῃ ἡ γενεὰ αὕτη"
+    checked: 2026-09-27
+  - id: matt-24-36-esv
+    what: "next verse: no one knows"
+    tool: study_verse
+    args: {book: Matt, chapter: 24, verse: 36, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "no one knows, not even the angels of heaven, nor the Son, but the Father only"
+    checked: 2026-09-27
+  - id: mark-13-31-esv
+    what: "synoptic parallel identical"
+    tool: study_verse
+    args: {book: Mark, chapter: 13, verse: 31, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Heaven and earth will pass away, but my words will not pass away."
+    checked: 2026-09-27
+  - id: luke-21-33-esv
+    what: "synoptic parallel identical"
+    tool: study_verse
+    args: {book: Luke, chapter: 21, verse: 33, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Heaven and earth will pass away, but my words will not pass away."
+    checked: 2026-09-27
+  - id: mark-13-3-esv
+    what: "the four hearers incl. Peter"
+    tool: study_verse
+    args: {book: Mark, chapter: 13, verse: 3, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Peter and James and John and Andrew asked him privately"
+    checked: 2026-09-27
+  - id: matt-5-18-esv
+    what: "heaven and earth as the limit of the Law"
+    tool: study_verse
+    args: {book: Matt, chapter: 5, verse: 18, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "until heaven and earth pass away, not an iota, not a dot, will pass from the Law"
+    checked: 2026-09-27
+  - id: matt-5-18-greek
+    what: "parerchomai twice in 5:18"
+    tool: study_verse
+    args: {book: Matt, chapter: 5, verse: 18, work_id: na28-greek-nt}
+    path: "0.text"
+    expect_contains: "ἕως ἂν παρέλθῃ ὁ οὐρανὸς καὶ ἡ γῆ, ἰῶτα ἓν ἢ μία κεραία οὐ μὴ παρέλθῃ"
+    checked: 2026-09-27
+  - id: isa-51-6-esv
+    what: "heavens vanish like smoke; salvation forever"
+    tool: study_verse
+    args: {book: Isa, chapter: 51, verse: 6, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "for the heavens vanish like smoke, the earth will wear out like a garment"
+    checked: 2026-09-27
+  - id: isa-51-6-esv-b
+    what: "second half of 51:6"
+    tool: study_verse
+    args: {book: Isa, chapter: 51, verse: 6, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "but my salvation will be forever, and my righteousness will never be dismayed"
+    checked: 2026-09-27
+  - id: isa-40-8-esv
+    what: "word of our God will stand forever"
+    tool: study_verse
+    args: {book: Isa, chapter: 40, verse: 8, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "the word of our God will stand forever"
+    checked: 2026-09-27
+  - id: isa-65-17-esv
+    what: "new heavens and new earth promise"
+    tool: study_verse
+    args: {book: Isa, chapter: 65, verse: 17, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "For behold, I create new heavens and a new earth"
+    checked: 2026-09-27
+  - id: 2pet-1-16-esv
+    what: "eyewitnesses of his majesty"
+    tool: study_verse
+    args: {book: 2Pet, chapter: 1, verse: 16, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "we were eyewitnesses of his majesty"
+    checked: 2026-09-27
+  - id: 2pet-3-1-esv
+    what: "second letter"
+    tool: study_verse
+    args: {book: 2Pet, chapter: 3, verse: 1, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "This is now the second letter that I am writing to you"
+    checked: 2026-09-27
+  - id: 2pet-3-2-esv
+    what: "commandment through your apostles"
+    tool: study_verse
+    args: {book: 2Pet, chapter: 3, verse: 2, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "the commandment of the Lord and Savior through your apostles"
+    checked: 2026-09-27
+  - id: 2pet-3-9-esv
+    what: "patience"
+    tool: study_verse
+    args: {book: 2Pet, chapter: 3, verse: 9, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "not wishing that any should perish, but that all should reach repentance"
+    checked: 2026-09-27
+  - id: 2pet-3-10-esv
+    what: "block quote"
+    tool: study_verse
+    args: {book: 2Pet, chapter: 3, verse: 10, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "the heavens will pass away with a roar"
+    checked: 2026-09-27
+  - id: 2pet-3-10-na28
+    what: "NA28 prints 'will not be found'"
+    tool: study_verse
+    args: {book: 2Pet, chapter: 3, verse: 10, work_id: na28-greek-nt}
+    path: "0.text"
+    expect_contains: "οὐχ εὑρεθήσεται"
+    checked: 2026-09-27
+  - id: 2pet-3-11-esv
+    what: "what sort of people"
+    tool: study_verse
+    args: {book: 2Pet, chapter: 3, verse: 11, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "what sort of people ought you to be in lives of holiness and godliness"
+    checked: 2026-09-27
+  - id: 2pet-3-12-esv
+    what: "waiting for and hastening"
+    tool: study_verse
+    args: {book: 2Pet, chapter: 3, verse: 12, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "waiting for and hastening the coming of the day of God"
+    checked: 2026-09-27
+  - id: 2pet-3-12-parousia
+    what: "'coming' is parousia in 3:12"
+    tool: study_verse
+    args: {book: 2Pet, chapter: 3, verse: 12, work_id: na28-greek-nt}
+    path: "0.text"
+    expect_contains: "τὴν παρουσίαν"
+    checked: 2026-09-27
+  - id: 2pet-3-13-esv
+    what: "memory verse"
+    tool: study_verse
+    args: {book: 2Pet, chapter: 3, verse: 13, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "we are waiting for new heavens and a new earth in which righteousness dwells"
+    checked: 2026-09-27
+  - id: 2pet-3-14-esv
+    what: "be diligent to be found"
+    tool: study_verse
+    args: {book: 2Pet, chapter: 3, verse: 14, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "be diligent to be found by him without spot or blemish, and at peace"
+    checked: 2026-09-27
+  - id: 1thess-4-15-esv
+    what: "by a word from the Lord"
+    tool: study_verse
+    args: {book: 1Thess, chapter: 4, verse: 15, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "by a word from the Lord"
+    checked: 2026-09-27
+  - id: 1thess-5-1-greek
+    what: "times and seasons"
+    tool: study_verse
+    args: {book: 1Thess, chapter: 5, verse: 1, work_id: na28-greek-nt}
+    path: "0.text"
+    expect_contains: "Περὶ δὲ τῶν χρόνων καὶ τῶν καιρῶν"
+    checked: 2026-09-27
+  - id: 1thess-5-3-greek
+    what: "ōdin in 5:3"
+    tool: study_verse
+    args: {book: 1Thess, chapter: 5, verse: 3, work_id: na28-greek-nt}
+    path: "0.text"
+    expect_contains: "ὥσπερ ἡ ὠδὶν"
+    checked: 2026-09-27
+  - id: 1thess-5-4-esv
+    what: "not in darkness"
+    tool: study_verse
+    args: {book: 1Thess, chapter: 5, verse: 4, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "But you are not in darkness, brothers, for that day to surprise you like a thief."
+    checked: 2026-09-27
+  - id: 1thess-5-6-esv
+    what: "keep awake and be sober"
+    tool: study_verse
+    args: {book: 1Thess, chapter: 5, verse: 6, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "let us keep awake and be sober"
+    checked: 2026-09-27
+  - id: 1thess-5-9-esv
+    what: "not destined for wrath"
+    tool: study_verse
+    args: {book: 1Thess, chapter: 5, verse: 9, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ"
+    checked: 2026-09-27
+  - id: 1thess-5-10-esv
+    what: "died for us"
+    tool: study_verse
+    args: {book: 1Thess, chapter: 5, verse: 10, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "who died for us so that whether we are awake or asleep we might live with him"
+    checked: 2026-09-27
+  - id: 1thess-5-11-esv
+    what: "encourage one another"
+    tool: study_verse
+    args: {book: 1Thess, chapter: 5, verse: 11, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "encourage one another and build one another up"
+    checked: 2026-09-27
+  - id: acts-1-7-esv
+    what: "times or seasons"
+    tool: study_verse
+    args: {book: Acts, chapter: 1, verse: 7, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "It is not for you to know times or seasons that the Father has fixed by his own authority"
+    checked: 2026-09-27
+  - id: acts-1-7-greek
+    what: "chronous ē kairous"
+    tool: study_verse
+    args: {book: Acts, chapter: 1, verse: 7, work_id: na28-greek-nt}
+    path: "0.text"
+    expect_contains: "χρόνους ἢ καιροὺς"
+    checked: 2026-09-27
+  - id: rev-20-11-esv
+    what: "earth and sky fled away"
+    tool: study_verse
+    args: {book: Rev, chapter: 20, verse: 11, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "earth and sky fled away, and no place was found for them"
+    checked: 2026-09-27
+  - id: rev-21-1-esv
+    what: "first heaven passed away"
+    tool: study_verse
+    args: {book: Rev, chapter: 21, verse: 1, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "the first heaven and the first earth had passed away"
+    checked: 2026-09-27
+  - id: 2pet-3-10-sblgnt
+    what: "SBLGNT reads εὑρεθήσεται (will be found); parerchomai domain 13.93"
+    tool: bible_verse
+    args: {book: 2Pet, chapter: 3, verse: 10, translation: SBLGNT}
+    path: "text"
+    expect_contains: "ἔργα ⸀εὑρεθήσεται"
+    checked: 2026-09-27
+  - id: 2pet-3-10-footnotes
+    what: "CSB footnotes 'will be burned up' and Syriac/Coptic 'will not be found'; LSB 'burned up'"
+    tool: study_note
+    args: {book: 2Pet, chapter: 3, verse: 10, note_type: footnote}
+    expect_min: 3
+    checked: 2026-09-27
+  - id: parerchomai-2pet-count
+    what: "G3928 occurs once in 2 Peter (carried over from parent, re-checked)"
+    tool: bible_concordance
+    args: {strongs: G3928, book: 2Pet, count_only: true}
+    path: "0.count"
+    expect_contains: "1"
+    checked: 2026-09-27
+open_questions:
+  - "fig-tree-and-this-generation.md is still draft: true, and this study links to it twice (hook section and On this site). Publish it first, or mkdocs build --strict will fail when this one is published."
+  - "When published, turn the plain-text pointer in olivet-discourse.md ('*Heaven and Earth Will Pass Away* (in preparation)') into a link, and run section_index.py / commentary_index.py."
+  - "Isaiah 40:8 is left to the fig-tree study (which already quotes it with the ESV Study Bible note); this study leans on Isaiah 51:6 and Matthew 5:18 instead to avoid duplicating it. If fig-tree is trimmed, reconsider."
+  - "Renewal vs replacement of the cosmos (2 Pet 3:10) is presented as open; statement-of-faith says only 'a new heaven and a new earth', so no conflict -- author may want to state a position."
+  - "'In the week He was crucified' in the hook: the fig-tree study says 'Tuesday'; kept unspecific here because the day is a reconstruction."
+last_updated: "2026-09-27"
