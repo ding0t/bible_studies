@@ -41,6 +41,7 @@ than a study topic.
 | [5.2](#52-end-times) | End times | Last things |
 | [5.4](#54-the-olivet-discourse-regrouped-by-the-disciples-questions) | The Olivet Discourse, regrouped by the disciples' questions | Last things |
 | [5.5](#55-the-age-to-come) | The age to come | Last things |
+| [5.6](#56-they-were-given-white-robes) | They were given white robes | Last things |
 | [6.1](#61-appointed-times-overarching) | Appointed times (overarching) | Feasts |
 | [6.2](#62-individual-feast-studies) | Individual feast studies | Feasts |
 | [8.1](#81-mirror-the-unfoldingword-sources) | Mirror the unfoldingWord sources | Sources & tooling |
@@ -441,6 +442,37 @@ eternal state.
 - **Links:** [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) (the seventh
   day as the millennium), and the Olivet Discourse's "close of the age" (Matthew 24:3).
 
+### 5.6 They were given white robes
+
+White garments on God's people run through Scripture, explicitly and significantly, and Revelation
+returns to them repeatedly. The study should gather every occurrence and ask what the robes mean,
+who wears them, and whether they are God's gift.
+
+- **Where they appear:** Revelation 3:4-5 and 3:18 (the promise to those who conquer, and the
+  counsel to Laodicea); 6:11 (the martyrs under the altar); 7:9 and 7:13-14 (the great multitude,
+  who "washed their robes and made them white in the blood of the Lamb"); 19:8 and 19:14 (the
+  Bride's fine linen, and the armies of heaven). Behind them: Isaiah 1:18, Zechariah 3:3-5 (Joshua's
+  filthy garments taken away and clean ones given), Daniel 7:9 and 12:10, and Isaiah 61:10
+  ("garments of salvation").
+- **The Transfiguration parallel:** Jesus' clothes became white as light (Matthew 17:2, Mark 9:3,
+  Luke 9:29), and the angels at the tomb and the Ascension are dressed in white (Mark 16:5,
+  Acts 1:10). Ask whether the saints' robes share in His glory.
+- **Who wears them:** the martyrs of 6:11, the multitude "out of the great tribulation" (7:14) and
+  the Bride of 19:8 may be different groups. That matters for this site's reading of the
+  tribulation and the Church, so mark which identifications are contested.
+- **Gift or deeds?** The robes are *given* (6:11, the verb ἐδόθη, a divine passive), *washed* in
+  the Lamb's blood (7:14), and the Bride's linen is *granted* her yet is "the righteous deeds of the
+  saints" (19:8). Hold the three together: imputed righteousness (Zechariah 3, Isaiah 61:10) and the
+  fruit it produces. Name the doctrines.
+- **Words:** στολή (*stolē*, "robe"), λευκός (*leukos*, "white"), λευκαίνω (*leukainō*, "make
+  white", 7:14) and βύσσινος (*byssinos*, "fine linen", 19:8). Count occurrences with the
+  concordance before claiming any.
+- **Does it tie in with [The Wife of the Lamb](../israel-and-church/wife-of-the-lamb.md)?** Almost
+  certainly at 19:7-8, where the Bride is clothed in fine linen at the marriage of the Lamb. Test
+  whether the white robes of 3:5, 6:11 and 7:14 are the same clothing, and say how far the link holds.
+- **Other links:** [The Bride of Christ](../israel-and-church/bride-of-christ.md), and
+  [The Rapture of the Church](../last-things/rapture.md), which places the Bema and the linen.
+
 ## 6. Feasts
 
 ### 6.1 Appointed times (overarching)
@@ -585,15 +617,3 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 7.1 | Twelve disciples | [The Twelve: Disciples and Apostles](../biblical-figures/twelve-apostles.md), with a page per apostle |
 | 10.1 | Know the truth | [Know the Truth](../christian-life/know-the-truth.md) |
 | 0.3 (part) | Normalise the Key Takeaways opening line | Done across 50 studies, 2026-09-27 |
-
-
-### They were given white robes
-
-Develop a study on the white robes of the saints. This is not an insignifiancet thing - it is mentioned allot in the bible.
-
-- In what contexts is it mentioned
-- What group of people is it
-- What does it mean 
-- is it the gift given by God
-- what are the parralells; the transfiguration?
-- 
