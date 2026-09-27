@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 10:1-4; Mark 3:13-19; Luke 6:12-16; Acts 1:13"
 bible_references: ["John 1:35-51", "Matthew 4:18-22", "Luke 5:1-11", "Mark 6:7-13", "Matthew 19:28", "Revelation 21:12-14", "Ephesians 2:20", "Acts 1:15-26", "Matthew 10:5-6", "Mark 14:50", "Luke 22:24", "John 15:16", "John 12:20-22", "Titus 3:5"]
 date_created: 2026-08-08
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -24,6 +24,8 @@ four authors mentions and all four obey.
 **In one sentence:** Jesus appointed exactly twelve men to announce the restoration of Israel's twelve tribes, called them to be with Him before He sent them out, and made their witness to His resurrection the foundation of His Church — so what qualifies you for His work is that He chose you and you are with Him.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types and prophecy
 

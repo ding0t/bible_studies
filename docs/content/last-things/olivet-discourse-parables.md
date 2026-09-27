@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:45-25:46"
 bible_references: ["Matthew 24:3", "Matthew 24:45-51", "Matthew 25:1-46", "Matthew 9:15", "Matthew 10:40-42", "Matthew 12:48-50", "Matthew 13:10-17", "Matthew 13:34-35", "Matthew 15:15-16", "Matthew 18:23-35", "Matthew 20:1-16", "Psalm 78:2", "Isaiah 54:5", "Hosea 2:16", "Jeremiah 31:32", "Jeremiah 3:14", "Ezekiel 34:11-12", "Ezekiel 34:17-24", "Luke 12:35-48", "Luke 19:11-27", "John 3:29"]
 date_created: 2026-08-29
-date_modified: 2026-09-21
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -33,6 +33,8 @@ was never his. A nation, for who it fed.
 Flatten the four into one lesson about "being ready" and you lose the thing each was built to say.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
 

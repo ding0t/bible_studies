@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 19:25-27; John 21:20-24"
 bible_references: ["Mark 1:19-20", "Mark 3:17", "Mark 5:37", "Mark 9:2-8", "Mark 14:33", "Luke 9:54", "John 13:23", "Acts 3:1-11", "Acts 4:13", "Acts 8:14", "Galatians 2:9", "Revelation 1:9"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -19,6 +19,8 @@ letters that define love as the test of whether anyone knows God at all. Between
 is the whole argument for what Jesus does to a person.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

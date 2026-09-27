@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Romans 1:19-23"
 bible_references: ["Psalm 19:1-4", "Acts 14:15-17", "Acts 17:24-28", "Job 38:4-7", "Ephesians 2:10", "Colossians 1:15-17", "Hebrews 1:1-3", "Romans 10:14-17", "Romans 3:11"]
 date_created: 2026-08-04
-date_modified: 2026-09-20
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -20,6 +20,8 @@ No one who has ever lived gets to say God left no evidence. That is the specific
 **In one sentence:** Creation alone shows every person enough of God's eternal power and divine nature to leave unbelief without excuse, though only the preached gospel of Christ can save.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

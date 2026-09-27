@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 6:1-4"
 bible_references: ["Genesis 6:1-8", "Genesis 10:15-19", "Numbers 13:25-33", "Numbers 14:36-37", "Deuteronomy 2:10-11", "Deuteronomy 2:20-21", "Deuteronomy 3:11", "Deuteronomy 9:2", "Joshua 11:21-22", "Joshua 15:13-14", "1 Samuel 17:4", "2 Samuel 21:15-22", "Job 1:6", "Job 2:1", "Job 38:7", "2 Peter 2:4-5", "Jude 1:6-7", "Jude 1:14-15", "Matthew 24:37-39", "1 Peter 3:18-20", "Amos 2:9"]
 date_created: 2026-08-04
-date_modified: 2026-09-20
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -32,6 +32,8 @@ This study works through both passages on their own terms first. Then it follows
 **In one sentence:** The giant clans of Canaan and Transjordan are a historical reality Genesis, Deuteronomy, Joshua, and Samuel narrate plainly; their claimed descent from a second Nephilim incursion after the flood rests on one verse spoken inside the spies' discredited report, and no biblical text anywhere describes them as continuing today.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 **Lessons about Jesus.** Jesus himself supplies the only New Testament comparison to this era, and he is precise about what the comparison covers. "As were the days of Noah, so will be the coming of the Son of Man" (Matthew 24:37, ESV) is about people "eating and drinking, marrying and giving in marriage" in total unawareness, "until the flood came and swept them all away" (24:38-39). It describes ordinary complacency meeting sudden judgment. Jesus makes no claim there about giants or genetics. Take the comparison exactly as far as he took it, and no further.
 

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Job 40:15-24; Job 41:1-34"
 bible_references: ["Job 3:8", "Job 7:12", "Job 9:32-33", "Job 38:4-8", "Job 40:15-24", "Job 41:1-34", "Job 42:1-6", "Genesis 1:2", "Genesis 1:21", "Genesis 2:7", "Psalm 18:8", "Psalm 74:12-15", "Psalm 104:24-26", "Isaiah 27:1", "Ezekiel 29:3", "Romans 1:19-20", "Romans 11:33-36", "1 Timothy 2:5"]
 date_created: 2026-08-23
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -23,6 +23,8 @@ When God finally answers Job, he never mentions Job's suffering. He asks questio
 **Behemoth and Leviathan were real animals.** The Lord points at them, says he made them, and asks Job whether he could hook one or put a leash on it — an argument that means nothing if the creatures are figures of speech. This study works through both chapters: what the Hebrew says about Behemoth's habitat, why the crocodile fails as Leviathan, Scripture's other four Leviathan texts, where the creatures may be attested outside the Bible, and what the Lord was doing by putting two animals where an explanation should have gone.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

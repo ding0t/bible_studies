@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Mark 3:18; Acts 1:13"
 bible_references: ["Matthew 10:3", "Luke 6:15", "Mark 2:14", "Mark 15:40", "John 19:25", "Galatians 1:19"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -19,6 +19,8 @@ a fixed structural position no other apostle except Peter and Philip holds so co
 is the entire biblical record. He never speaks, never acts, and is never described.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

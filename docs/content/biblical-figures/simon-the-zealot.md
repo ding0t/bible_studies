@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 6:15; Matthew 10:4"
 bible_references: ["Mark 3:18", "Acts 1:13", "Matthew 9:9", "Matthew 22:15-22"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -19,6 +19,8 @@ that word is the most politically explosive description given to any of the Twel
 The label is the story.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

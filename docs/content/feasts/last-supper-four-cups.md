@@ -9,7 +9,7 @@ bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Cori
 zadok_year: 4036
 gregorian_year: 33
 date_created: 2026-07-19
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -56,8 +56,7 @@ numbering comes from the Passover order of service, weighed in the two sections 
 
 ## Key Takeaways
 
-*(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is
-prototyping — see that page for what each part is for and why.)*
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
 

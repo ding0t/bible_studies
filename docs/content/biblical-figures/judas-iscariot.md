@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 12:1-8; Matthew 26:14-16"
 bible_references: ["Matthew 10:4", "Mark 3:19", "Luke 6:16", "John 6:70-71", "John 13:21-30", "Matthew 27:3-10", "Acts 1:15-20", "Zechariah 11:12-13", "Psalm 41:9"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -19,6 +19,8 @@ chosen with the others, sent out with the others, given authority over unclean s
 others — and he is the reason the apostolic band had to be reconstituted before Pentecost.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

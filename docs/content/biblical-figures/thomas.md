@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 20:24-29"
 bible_references: ["John 11:7-16", "John 14:5-6", "John 21:2", "Matthew 10:3", "Mark 3:18", "Luke 6:15", "Acts 1:13"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -19,6 +19,8 @@ before the famous scene shows a man of blunt, dangerous loyalty — and the scen
 strongest thing anyone says about Jesus in the entire Gospel.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

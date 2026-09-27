@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 14:22-24"
 bible_references: ["Matthew 10:3", "Mark 3:18", "Luke 6:16", "Acts 1:13", "Jude 1:1"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -19,6 +19,8 @@ whole of Scripture, and vanishes. The question is a good one, and the answer to 
 remarkable promises Jesus ever made.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

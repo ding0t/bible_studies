@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Song of Songs 8:6-7"
 bible_references: ["Song of Songs 2:10-13", "Song of Songs 2:15", "Song of Songs 8:6-7", "Matthew 24:20", "Matthew 24:32-33", "2 Corinthians 1:22", "Ephesians 5:25", "Ephesians 5:31-32", "Song of Songs 1:1", "Song of Songs 2:7", "Song of Songs 3:5", "Song of Songs 8:4", "Song of Songs 8:5-14", "Isaiah 9:7", "Genesis 38:18", "Genesis 2:22-24", "Psalm 69:9", "John 2:17", "Zechariah 8:2"]
 date_created: 2026-09-25
-date_modified: 2026-09-25
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -24,6 +24,8 @@ that love's fire the flame of the LORD, and so treats married love as His gift; 
 marriage itself points to: Christ and the church (Ephesians 5:32).
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
 

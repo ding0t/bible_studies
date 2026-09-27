@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 1:35-42"
 bible_references: ["Matthew 4:18-20", "Mark 1:16-18", "Mark 13:3", "John 6:8-9", "John 12:20-22", "Acts 1:13"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -19,6 +19,8 @@ thing: bringing somebody else to Jesus. It is a small enough pattern that it cou
 except that it includes the moment the entire apostolic band began.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

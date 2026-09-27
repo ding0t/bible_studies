@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 6:5-7; John 14:8-11"
 bible_references: ["John 1:43-46", "John 12:20-22", "Matthew 10:3", "Mark 3:18", "Luke 6:14", "Acts 1:13", "Acts 21:8"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -19,6 +19,8 @@ than most of the others put together. What that dialogue shows is a practical ma
 stretched past what practicality can handle.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

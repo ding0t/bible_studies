@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:36; Mark 13:32"
 bible_references: ["Matthew 24:36", "Mark 13:32", "Acts 1:7", "John 2:24-25", "John 21:17", "John 16:30", "Luke 2:52", "Hebrews 5:8", "Philippians 2:6-7", "Zechariah 14:7", "Matthew 25:1-13", "Matthew 24:42", "Matthew 24:45-46", "Matthew 25:19", "Matthew 25:40", "Romans 14:12"]
 date_created: 2026-09-04
-date_modified: 2026-09-20
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -31,6 +31,8 @@ turn. What the saying *does* in the Olivet Discourse — the ground of "stay awa
 Olivet Discourse](../last-things/olivet-discourse.md) and the parables that close it.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
 

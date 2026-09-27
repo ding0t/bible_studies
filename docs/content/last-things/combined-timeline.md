@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 11:10-32"
 bible_references: ["Genesis 5:1-32", "Genesis 7:11", "Genesis 11:10-32", "Genesis 12:4", "Exodus 12:40-41", "1 Kings 6:1", "Acts 7:4", "Galatians 3:17"]
 date_created: 2026-08-22
-date_modified: 2026-09-06
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -19,6 +19,8 @@ ai_provider_models:
 Two other pages hold the detail. [Genealogy and Times](genealogy-times.md) works through the manuscript evidence for the stretch above Abraham. [Chronology Anchors](chronology-anchors.md) lists the forty-one datable events below him. This page puts them on one line.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 John 5:11-13"
 bible_references: ["Acts 4:9-12", "Ephesians 1:13-14", "Ephesians 2:1-10", "John 3:16-18", "John 5:24", "John 6:37-40", "John 10:27-29", "Romans 8:1", "Romans 8:15-17", "Romans 8:31-39", "Romans 10:9-13", "Joel 2:32", "2 Corinthians 5:17", "Philippians 1:6", "Titus 3:4-7", "Hebrews 7:25", "2 Timothy 1:12", "1 Peter 1:3-5", "2 Peter 1:5-11", "Matthew 1:21"]
 date_created: 2026-08-24
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -34,6 +34,8 @@ turns into either presumption or despair.
 **In one sentence:** Assurance of salvation rests on the finished work of Jesus, the only name under heaven by which anyone is saved, received by grace through faith as God's gift; the Spirit's witness and a life of growing godliness confirm it, and the Son and the Father hold those who are His so that no one can snatch them away — so you may know that you have eternal life.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

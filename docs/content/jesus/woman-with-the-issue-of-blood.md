@@ -9,7 +9,7 @@ bible_references: ["Mark 5:21-43", "Matthew 9:18-26", "Luke 8:40-56", "Leviticus
 zadok_year: 4035
 gregorian_year: 32
 date_created: 2026-08-23
-date_modified: 2026-09-20
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -33,8 +33,7 @@ reminder to keep the whole law.
 
 ## Key Takeaways
 
-*(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is
-prototyping — see that page for what each part is for and why.)*
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
 

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 24:27"
 bible_references: ["Micah 5:2", "Matthew 2:1-6", "2 Samuel 5:2", "Isaiah 53:5", "Isaiah 53:9", "Psalm 22:16-18", "John 19:23-24", "Matthew 27:57-60", "Daniel 9:24-27", "Luke 19:41-44", "Matthew 24:1-2", "Matthew 24:14-15", "Matthew 24:21", "Matthew 24:34", "Mark 13:1-8", "Mark 13:14-27", "Mark 13:32", "1 Thessalonians 4:16-17", "1 Thessalonians 5:9", "Revelation 19:11-16", "Revelation 20:1-6", "Colossians 2:16-17"]
 date_created: 2026-07-24
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -26,8 +26,7 @@ assumed, and a plain statement of what Scripture says is still to come.
 
 ## Key Takeaways
 
-*(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is
-prototyping -- see that page for what each part is for and why.)*
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
 

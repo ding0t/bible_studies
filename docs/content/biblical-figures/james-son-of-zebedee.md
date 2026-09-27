@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Mark 10:35-45; Acts 12:1-2"
 bible_references: ["Mark 1:19-20", "Mark 3:17", "Mark 5:37", "Mark 9:2-8", "Mark 13:3", "Mark 14:33", "Luke 9:51-56", "Matthew 20:20-23"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -18,6 +18,8 @@ He asked for a throne and was promised a cup. Roughly a decade later he became t
 Twelve to die for the name — and the only one whose death the New Testament reports.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

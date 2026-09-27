@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 9:9-13"
 bible_references: ["Mark 2:13-17", "Luke 5:27-32", "Matthew 10:3", "Mark 3:18", "Luke 6:15", "Acts 1:13", "Hosea 6:6"]
 date_created: 2026-08-08
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -19,6 +19,8 @@ it back. A fisherman can return to his boat. A tax collector who walks away from
 handed his franchise to someone else permanently.
 
 ## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Lessons about Jesus
 

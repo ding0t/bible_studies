@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
 bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hebrews 1:2", "Hebrews 4:9", "Revelation 20:1-7", "Genesis 49:1", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:46", "2 Timothy 3:16", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
 date_created: 2026-08-12
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -44,8 +44,7 @@ come.
 
 **In one sentence:** God measured history before He set it running — six thousand-year days of labour and a seventh of rest, which Revelation numbers as the thousand-year reign of Jesus — so the delay the scoffers mock is His patience inside a week He has already fixed, and you can wait for His Son with confidence.
 
-*(This section follows the [Key Takeaways](../about/key-takeaways.md) format this site is
-prototyping — see that page for what each part is for and why.)*
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
 
