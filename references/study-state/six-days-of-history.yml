@@ -1,26 +1,114 @@
 slug: "six-days-of-history"
 title: "Six Days of History"
-status: draft
+status: drafted
 target_path: "docs/content/last-things/six-days-of-history.md"
 primary_passage: "Genesis 1:1-31"
-supporting_passages: ["Genesis 4-11", "Revelation 13:14-18", "Hosea 6:1-3"]
+supporting_passages: ["Genesis 2:1-3", "Genesis 4-11", "Exodus 20:11", "Revelation 13:14-18", "Colossians 1:15", "2 Corinthians 3:18", "Romans 8:29"]
+genre: "OT narrative (creation account, Genesis 1:1-2:3) read typologically as a framework for history; Revelation 13 (apocalyptic) at day six"
 point: >
   Each working day of the creation week has a lexical counterpart in the millennium of history
   the thousand-year-day reading assigns to it, ending in man's counterfeit image on day six.
+thesis: >
+  Read as a framework, the six working days of Genesis 1 match the shape of the six thousand years
+  that follow them, from light divided from darkness to man's counterfeit image, and the pattern
+  shows a God who orders history as He ordered creation, sends His Son Jesus at the appointed time
+  as the true image of God, and brings the week to His rest.
+outline:
+  - "Genesis 1 in its setting -- Mosaic book for wilderness Israel; 1:1-2:3 in seven sections; day six the peak; the chapter's own point is God the Creator ordering by His word."
+  - "Reading the week as history -- Barnabas 15 and Irenaeus AH 5.28.3 as witnesses; day-by-day matching labelled this site's construction (typology); no date (Acts 1:7; epochs differ, see day-is-near); the table."
+  - "The first three days -- light and the two lines (Jubilees on Adam's death); the waters divided and the Flood; dry land and the seed. God keeps His word through judgment."
+  - "The last three days -- mo'adim and the throne, closing with the Sun of Righteousness and Galatians 4:4; the swarming sea and the gospel; the image and its counterfeit (eikon, 666, Irenaeus)."
+  - "The true image -- Colossians 1:15, Romans 8:29, 2 Corinthians 3:18; God restores His image through Jesus; the week ends in His rest (Genesis 2:3, Hebrews 4:9, Isaiah 46:10)."
+  - "Reading Genesis 1 in English -- which translations keep 'day one' and 'the sixth day'."
+word_budget: 4000
 stages:
   scoping:
-    done: false
+    done: true
     notes: >
       Forked verbatim from docs/content/last-things/day-is-a-thousand-years.md @ 7ddf284 during
-      the 2026-09-26 simplify pass: "Day one" through "Day six" subsections (the Day four hinge
-      paragraph on AM 4000 = 4 BC stayed in the parent), "Which translations keep the Hebrew's
-      articles", "Two days, then the third" (Hosea 6:1-3, Abaye) and its discussion question.
-      The anchor paragraph and millennium table are copied (also still in the parent). Verified
-      there (review_2026-08-09); do not redraft. The mapping of days onto specific millennia is
-      this site's construction -- keep that label (see parent open_questions). Hosea section is
-      the loosest fit; the author may prefer it elsewhere. Needs opening, Key Takeaways,
-      References (ESV SB on Hosea 6:2, NKJV CBSB on Genesis 4:26, Irenaeus AH 5.23.2 and 5.28.2,
-      translation comparison list incl. YLT-as-cross-check note) via develop-bible-study.
+      the 2026-09-26 simplify pass. The Day one-six subsections, the translation-articles table and
+      the millennium table were verified there (review_2026-08-09) and kept, with out-of-context
+      references fixed ("Jubilees' whole point" now explains Jubilees 4:29-30 and links the parent;
+      "Neither marked feature above" now introduced by a short restatement of day one's cardinal and
+      day six's article, linking the parent's "The week's own grammar"). Hosea 6:1-3 section
+      removed -- see open_questions.
+  historical_context:
+    done: true
+    notes: >
+      ESV Study Bible introduction to Genesis: traditional Mosaic authorship, held by Jews and
+      Christians until the 19th century. First hearers: Israel after the exodus, given the Sabbath
+      grounded in the creation week (Exodus 20:11).
+  literary_context:
+    done: true
+    notes: >
+      Unit is Genesis 1:1-2:3 (ESV SB note on 1:1-2:3: seven sections marked by set phrases; each
+      workday opens "And God said" and closes with the evening-morning formula). ESV SB note on
+      1:24-31: day six is by far the longest section, the peak of interest. ESV SB note on 1:31:
+      six "good" verdicts (vv. 4, 10, 12, 18, 21, 25) then "very good". The chapter's own point is
+      God the Creator ordering all by His word; the six-thousand-year reading is marked in the
+      draft as a second, typological step.
+  content_words:
+    done: true
+    notes: >
+      Moved word studies (ki tov, yabbashah, zera, mo'adim, eikon) verified in the parent. New:
+      eikon at Colossians 1:15 (SBLGNT eikon tou theou) and 2 Corinthians 3:18 (ten auten eikona).
+  hermeneutics:
+    done: true
+    notes: >
+      Principle: God orders history as He ordered creation, restores His image in Jesus, and brings
+      the week to His rest. The day-by-day scheme is framed as typology/framework, never as a
+      date. Consistent with statement-of-faith.md End times (literal millennium, Revelation 20)
+      and with day-is-near.md (both flag epoch disagreement; this study links rather than picks a
+      year and notes 4004 BC puts AM 6000 at AD 1997 while day-is-near reaches AD 2075).
+  cross_reference:
+    done: true
+    notes: >
+      Links parent (5 anchors, all resolved in the built parent), day-is-near#when-is-the-year-6000,
+      genealogy-times.md, and sibling draft a-thousand-years-in-your-sight.md (Psalm 90 not
+      duplicated -- one-line pointer).
+  draft:
+    done: true
+    notes: >
+      2026-09-27: opening hook, Genesis 1:31 quote + In one sentence, Key Takeaways (all five parts),
+      Study outline, "Genesis 1 in its setting", "Reading the week as history", "The true image",
+      section theology lines, discussion questions (5), References. ~3,600 words counted
+      (excl. frontmatter, Study outline, References) -- under the 4,000 budget, above the 3,000
+      aim; the translation and millennium tables account for much of the difference.
+  validate:
+    done: true
+    notes: >
+      npm run validate: no warnings or errors for this file. mkdocs build --strict passed (draft
+      dropped from build, so its own links were checked by hand against the built parent).
+resources_consulted:
+  - "ESV Study Bible (Crossway): Introduction to Genesis; notes on Genesis 1:1, 1:1-2:3, 1:24-31, 1:31 -- confirmed the seven-section structure and contributed 'day six the peak'."
+  - "SBLGNT via bible-text.db: Colossians 1:15, 2 Corinthians 3:18."
+  - "ESV verse text via study-notes.db (esv-study-bible): Genesis 1:5, 1:31, 2:3; Exodus 20:11; Isaiah 46:10; Acts 1:7; Galatians 4:4; Romans 8:29; 2 Corinthians 3:18; Colossians 1:15; Hebrews 4:9."
+  - "Parent study day-is-a-thousand-years.md: Barnabas 15, Irenaeus AH 5.28.3 quotations and Jubilees 4:29-30 (verified there)."
 open_questions:
   - "On publish, link it from the plain-text pointer in day-is-a-thousand-years.md ('Six days of history')."
-last_updated: "2026-09-26"
+  - "Links to the sibling draft a-thousand-years-in-your-sight.md (twice). If this page is published before that one, mkdocs build --strict will fail on those links (hooks/draft_pages.py drops drafts)."
+  - >
+    Hosea 6:1-3 section ("Two days, then the third": miyyomayim, Abaye in b. Sanhedrin 97a, ESV SB
+    on Hosea 6:2, and its discussion question) REMOVED from this draft: Hosea's two days concern
+    Israel's restoration and are about a two-day span, with no tie to the six creation days that
+    could be made honestly. The verified text is in git (this file before 2026-09-27, and the
+    parent @ 7ddf284). Fork candidate: three-days-and-three-nights.md or a Hosea 6 study, or the
+    parent's Talmud section alongside Rav Ketina.
+  - "Provenance fields were already present from an earlier refresh_frontmatter_provenance.py run; left untouched (not hand-edited, not removed)."
+  - "Rotherham and NASB 2020 readings in the translation table were verified in the parent, not re-queried here."
+last_updated: "2026-09-27"
+evidence:
+  - {id: gen1-31-esv, what: "ESV Genesis 1:31 opening quote", tool: study_verse, args: {book: Gen, chapter: 1, verse: 31, work_id: esv-study-bible}, expect_contains: "behold, it was very good. And there was evening and there was morning, the sixth day", checked: 2026-09-27}
+  - {id: gen2-3-esv, what: "ESV Genesis 2:3 paraphrase (blessed, made holy)", tool: study_verse, args: {book: Gen, chapter: 2, verse: 3, work_id: esv-study-bible}, expect_contains: "So God blessed the seventh day and made it holy", checked: 2026-09-27}
+  - {id: exod20-11-esv, what: "ESV Exodus 20:11 in the hook", tool: study_verse, args: {book: Exod, chapter: 20, verse: 11, work_id: esv-study-bible}, expect_contains: "For in six days the LORD made heaven and earth, the sea, and all that is in them, and rested on the seventh day", checked: 2026-09-27}
+  - {id: isa46-10-esv, what: "ESV Isaiah 46:10", tool: study_verse, args: {book: Isa, chapter: 46, verse: 10, work_id: esv-study-bible}, expect_contains: "declaring the end from the beginning", checked: 2026-09-27}
+  - {id: acts1-7-esv, what: "ESV Acts 1:7", tool: study_verse, args: {book: Acts, chapter: 1, verse: 7, work_id: esv-study-bible}, expect_contains: "It is not for you to know times or seasons that the Father has fixed by his own authority", checked: 2026-09-27}
+  - {id: gal4-4-esv, what: "ESV Galatians 4:4", tool: study_verse, args: {book: Gal, chapter: 4, verse: 4, work_id: esv-study-bible}, expect_contains: "when the fullness of time had come, God sent forth his Son", checked: 2026-09-27}
+  - {id: col1-15-esv, what: "ESV Colossians 1:15 memory verse", tool: study_verse, args: {book: Col, chapter: 1, verse: 15, work_id: esv-study-bible}, expect_contains: "He is the image of the invisible God, the firstborn of all creation", checked: 2026-09-27}
+  - {id: col1-15-grk, what: "eikon at Colossians 1:15", tool: bible_verse, args: {book: Col, chapter: 1, verse: 15, translation: SBLGNT}, path: text, expect_contains: "ὅς ἐστιν εἰκὼν τοῦ θεοῦ", checked: 2026-09-27}
+  - {id: rom8-29-esv, what: "ESV Romans 8:29", tool: study_verse, args: {book: Rom, chapter: 8, verse: 29, work_id: esv-study-bible}, expect_contains: "predestined to be conformed to the image of his Son", checked: 2026-09-27}
+  - {id: 2cor3-18-esv, what: "ESV 2 Corinthians 3:18", tool: study_verse, args: {book: 2Cor, chapter: 3, verse: 18, work_id: esv-study-bible}, expect_contains: "are being transformed into the same image from one degree of glory to another", checked: 2026-09-27}
+  - {id: 2cor3-18-grk, what: "eikona at 2 Corinthians 3:18", tool: bible_verse, args: {book: 2Cor, chapter: 3, verse: 18, translation: SBLGNT}, path: text, expect_contains: "τὴν αὐτὴν εἰκόνα", checked: 2026-09-27}
+  - {id: heb4-9-esv, what: "ESV Hebrews 4:9", tool: study_verse, args: {book: Heb, chapter: 4, verse: 9, work_id: esv-study-bible}, expect_contains: "there remains a Sabbath rest for the people of God", checked: 2026-09-27}
+  - {id: esvsb-gen1-24-31, what: "ESV SB: day six the longest section, the peak", tool: study_note, args: {book: Gen, chapter: 1, verse: 24, work_id: esv-study-bible, note_type: study_note}, expect_contains: "day 6 is the peak of interest", checked: 2026-09-27}
+  - {id: esvsb-gen1-1, what: "ESV SB: 1:1-2:3 structured into seven sections", tool: study_note, args: {book: Gen, chapter: 1, verse: 1, work_id: esv-study-bible, note_type: study_note}, expect_contains: "Structured into seven sections", checked: 2026-09-27}
