@@ -91,3 +91,56 @@ open_questions:
   - "The insight additions (listed verbatim in each study's state file under insight_2026-09-26) are new prose no review-bible-study pass has seen."
   - "Remaining 'X, not Y' contrasts and 'worth ___' templates flagged by the Tier 4 read passes (twelve-apostles, trumpet, woman-at-well, prophecy-essentials, as-the-snake-was-lifted, assurance) -- prose changes, out of a structure pass's scope."
   - "Count conflicts: three-days 'on the third day' 9 vs 8 in prophecy-events-times; behemoth 'Leviathan five times' is verses -- Isaiah 27:1 names it twice (6 occurrences)."
+
+develop_forks:
+  started: 2026-09-26
+  rule: >
+    develop-bible-study on each fork, author approval given in advance for thesis/outline. Moved text
+    keeps its parent's verification; anything new is verified from source and recorded as evidence.
+    Every draft stays draft: true -- the author flips it after reading (human-review.md), and the
+    parent's plain-text pointer becomes a link in the same commit. Brief used for agents:
+    kept in the session scratchpad; its rules are restated here so a new session can rebuild it --
+    house shape of know-the-truth.md; Key Takeaways opens with the normalised format line
+    (backlog 0.3); theology landed, He/Him capitalised, no X-not-Y foils, contested points marked;
+    omit provenance fields; keep draft: true; no edits to other content files.
+  status_2026-09-27:
+    developed_and_committed:
+      - spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md
+      - last-things/one-taken-one-left.md
+      - last-things/at-home-with-the-lord.md
+      - last-things/fig-tree-and-this-generation.md
+      - last-things/immediately-after.md
+      - israel-and-church/israels-regathering-and-refining.md
+      - last-things/taken-before-judgment.md
+      - last-things/heaven-and-earth-will-pass-away.md
+      - last-things/meet-the-lord-in-the-air.md
+      - last-things/a-thousand-years-in-your-sight.md
+      - last-things/rapture-in-the-early-church.md
+      - last-things/six-days-of-history.md
+      - jesus/priesthood-before-sinai.md
+      - scripture/melchizedek-in-second-temple-judaism.md
+    interrupted_needs_restart:   # an agent started, hit the weekly limit, made no edits
+      - "feasts/firstfruits.md -- review-bible-study (never run) + benchmark shape; re-check LXX Lev 23:11 vs 23:15 and the AD 33 convergence against chronology-anchors.md and three-days (simplified 2026-09-26)"
+      - "scripture/scribe-trained-for-the-kingdom.md -- review + simplify (5,446 raw words vs 4,000) + benchmark shape"
+    not_started:
+      - "christian-life/how-god-answers-prayer.md (parent prayer-as-communion)"
+      - "christian-life/supplication.md (parent prayer-as-communion; 556 words -- may be better folded back or dropped: author's call)"
+      - "god/flood-and-the-king-lists.md (parent world-population; its last section refers to 'the required-rate column above', which stayed in the parent)"
+  publish_notes: >
+    Link-order dependency: fig-tree links to immediately-after and heaven-and-earth; heaven-and-earth
+    links to fig-tree. Publish those together or the strict build fails. On publishing any fork,
+    turn its parent's plain-text pointer into a link in the same commit, and re-run
+    commentary_index.py.
+  author_questions:
+    - "rapture.md files Matt 24:36-44 under 'The imminence of the rapture'; one-taken-one-left reads 24:40-41 as judgment at the post-tribulation coming. Reconcile."
+    - "prophecy-essentials.md (~line 295) reads Matt 24:34 as fulfilled in AD 70; fig-tree-and-this-generation reads 'this generation' as the one that sees the signs begin."
+    - "meet-the-lord-in-the-air: LXX has the apantesis noun 24x in 22 verses, not 'twenty' -- the TWENTY note in rapture.yml needs correcting; keep or drop the Sinai allusion; Peterson page numbers."
+    - "immediately-after: Larkin chart caption says 1919, prose says Dispensational Truth (1918, expanded 1920)."
+    - "a-thousand-years-in-your-sight: god/ vs last-things/ placement; Augustine/Boethius citations not checked against the patristics corpus."
+    - "at-home-with-the-lord: accept the ESVSB reading of 'naked' (2 Cor 5:3)? salvation/ vs last-things/ placement."
+    - "heaven-and-earth-will-pass-away: renewal vs replacement of creation left open -- state a position?"
+    - "taken-before-judgment: rapture.md's 'before the Flood ever fell' could note the 669-year gap."
+    - "rapture-in-the-early-church: moved text said critics read Pseudo-Ephraem as about the dead; no source found, replaced with evidence from sermon sections 9-10 (Caspari 1890) -- confirm. Add Caspari to the patristics corpus? (licence-tier decision)"
+    - "six-days-of-history: Hosea 6:1-3 section removed as not honestly tied to the six days; it is in git and listed as a fork candidate. Links to the draft a-thousand-years-in-your-sight -- publish that first."
+    - "priesthood-before-sinai: the case against the Eden-priest reading cites no named scholar (Beale not on disk); the Eden-east / tabernacle-east parallel is the agent's own observation; Melchizedek-as-Shem tradition lacks a primary citation."
+    - "melchizedek-in-second-temple-judaism: Philo, Josephus and 11Q13 are not on disk (rest on the parent's earlier check); 'sons of Heaven' traces only to Ken Johnson; zadok-calendar.md credits the 11Q13 date reading to dsscalendar.org while this study credits Johnson -- pick one. Middle sections are weakest on landing the theology."
