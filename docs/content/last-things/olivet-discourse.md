@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24; Mark 13; Luke 21"
 bible_references: ["Matthew 23:36-39", "Matthew 24:1-51", "Mark 13:1-37", "Mark 14:32-42", "Mark 14:50", "Luke 21:5-36", "Luke 19:41-44", "Daniel 9:24-27", "Daniel 11:31", "Daniel 12:1-11", "Zechariah 14:1-5", "Isaiah 13:9-10", "Joel 2:30-31", "Daniel 7:13-14", "Revelation 1:7", "1 Thessalonians 4:13-18", "1 Thessalonians 5:1-4", "2 Peter 3:3-13", "John 14:3", "Acts 1:9-12", "Matthew 25:19", "Exodus 22:26-27", "Matthew 10:35-36", "Micah 7:6"]
 date_created: 2026-08-29
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -88,13 +88,10 @@ Amen.
 ## Study outline
 
 - [The question behind the question](#the-question-behind-the-question). The three questions of Matthew 24:3, and one conversation recorded by Matthew, Mark and Luke.
-- [What they expected, and what He refused](#what-they-expected-and-what-he-refused). The Jewish lists of woes, birth pangs, and the turn to the disciples' own suffering.
-- [See that no one leads you astray](#see-that-no-one-leads-you-astray). The four warnings against deception, and Mark's repeated "watch out."
-- [AD 70](#ad-70-question-one-answered-and-documented). The temple's fall in Josephus, and the flight to Pella in Eusebius.
-- [The sign, the flight, and the distress](#the-sign-the-flight-and-the-distress). Daniel's abomination of desolation, and what each instruction to flee meant.
-- [The one sign](#the-one-sign-the-son-of-man-comes). The Son of Man on the clouds, the gathering of the elect, and the mountain He sat on.
-- [The day no one knows](#the-day-no-one-knows) and [one taken, one left](#one-taken-one-left). Whose the date is, what "ready" means in the parables, and the contested saying of 24:40-41.
-- [Stay awake](#what-i-say-to-you-i-say-to-all-stay-awake). Mark's four night watches, and the same men asleep in Gethsemane.
+- [Question one: the temple](#ad-70-question-one-answered-and-documented). Answered before it was asked (24:2), fulfilled in AD 70: Josephus on the temple's fall, Eusebius on the flight to Pella.
+- [Question three: the close of the age](#question-three-the-close-of-the-age-matthew-244-28). Matthew 24:4-28 — the Jewish lists of woes and the birth pangs, the four warnings against deception, then Daniel's abomination of desolation and the instructions to flee.
+- [Question two: the sign of His coming](#question-two-the-one-sign-matthew-2429-31). Matthew 24:29-31 — the Son of Man on the clouds, the gathering of the elect, and the mountain He sat on.
+- [The day no one knows](#the-day-no-one-knows). The "when?" behind all three — whose the date is, what "ready" means in the parables, the contested saying of 24:40-41, and Mark's four night watches ending in Gethsemane.
 - [Discussion questions](#discussion-questions). Four, for a group or on your own.
 
 ## The Question Behind the Question
@@ -167,135 +164,6 @@ order. What differs is what each writer's readers needed:
 | "Times of the Gentiles" | absent | absent | 21:24 |
 | Parables of readiness | 24:45 – 25:46 | 13:34-37 only | absent |
 
-## What They Expected, and What He Refused
-
-### The list Jesus inherited
-
-The list Jesus gives in 24:4-8 is not original to him. The *NIV Cultural Backgrounds Study Bible*
-notes that "many Jewish thinkers offered lists of sufferings, which they sometimes called the 'birth
-pangs' of the Messiah or of the new world; these sufferings would precede the end of the age" (note
-on Matthew 24:6-14). Wars, international conflict, famine, earthquake, apostasy — the list would have
-sounded entirely familiar to the four men listening.
-
-Then he does something with it that the same note calls out: "in contrast to many other Jewish
-thinkers, he identifies the events listed here as merely 'the beginning of birth pains'," and he
-"will answer the question about the sign of his coming (v. 3) with a single sign at his coming
-(v. 30)." The disciples asked for a checklist. Jesus handed the checklist back, relabelled.
-
-### Birth pangs: Scripture's own image
-
-**The image he relabelled it with is Scripture's own.** The prophets already use birth pangs for the
-distress preceding God's decisive act — Isaiah 13:8 and 26:17, Jeremiah 6:24, Micah 4:9-10, Hosea
-13:13 — which is why neither Jesus nor Paul stops to explain it. ὠδίν (*ōdin*, G5604) occurs four
-times in the New Testament: here and in the Markan parallel (Matthew 24:8; Mark 13:8), of the agony
-of death in Peter's Pentecost sermon (Acts 2:24), and in Paul's own day-of-the-Lord passage — "sudden
-destruction will come upon them as labor pains come upon a pregnant woman, and they will not escape"
-(1 Thessalonians 5:3, ESV).
-
-The metaphor does exactly the work Jesus needs. Labour pains are a real signal that something is
-coming and a famously unreliable guide to when. A woman in early labour knows the birth is real; she
-does not know the hour. That is the epistemic position he puts his disciples in, and it is the
-opposite of a timetable.
-
-### Jewish witnesses to the expectation
-
-Alongside Scripture, and clearly distinct from it, sits a body of **Jewish writing that is not
-Scripture** but tells us what people in that world expected. Three witnesses, three centuries apart,
-show how fixed the habit of listing was:
-
-| | Date | The catalogue |
-|---|---|---|
-| *Jubilees* 23:13, 19 | c. 150 BC, found at Qumran | "calamity follows on calamity... famine, and death, and sword, and captivity"; "the young [strive] with the old" |
-| *2 Baruch* 27:2-7 | c. a generation after AD 70 | Twelve numbered parts — "the beginning of commotions... famine and the withholding of rain... earthquakes and terrors" |
-| *m. Sotah* 9:15 | Mishnah, c. AD 200 | "In the footsteps of the messiah insolence will increase... 'a man's own household are his enemies' (Micah 7:6)" |
-
-Two details earn their place. *2 Baruch*'s order — commotions, famine,
-earthquakes — is Matthew 24:6-7's order. And the Mishnah's closing quotation is Micah 7:6, the verse
-behind Matthew 24:10's mutual betrayal, which Jesus had already turned on himself at 10:35-36.
-
-### To the disciples, in the second person
-
-What follows the list in Matthew is addressed directly to the disciples, in the second person:
-
-> ✝️ Matthew 24:9-13 (ESV)
-> 9 "Then they will deliver you up to tribulation and put you to death, and you will be hated by all
-> nations for my name's sake. 10 And then many will fall away and betray one another and hate one
-> another. 11 And many false prophets will arise and lead many astray. 12 And because lawlessness
-> will be increased, the love of many will grow cold. 13 But the one who endures to the end will be
-> saved."
-
-The question was "when." The answer, so far, is: you will be hated, you will be betrayed by each
-other, love will cool, and your job is to endure. Mark makes the same turn even more sharply at
-13:9 — "be on your guard. For they will deliver you over to councils, and you will be beaten in
-synagogues, and you will stand before governors and kings for my sake, to bear witness before them"
-(ESV). The disciples asked about the calendar and Jesus answered about their own coming suffering.
-
-He said it to four men Mark names (13:3), and within a day of hearing "the one who endures to the
-end will be saved," those same men "all left him and fled" (Mark 14:50, ESV). Whatever endurance
-they later showed was not native to them. It was the grace of God, and the endurance Jesus commands
-of you is the endurance He supplies.
-
-## "See That No One Leads You Astray"
-
-### The four warnings, escalating
-
-The first words out of Jesus's mouth in reply are a warning about deception, the discourse's most
-repeated note.
-
-πλανάω (*planaō*, "lead astray, deceive," G4105) occurs eight times in Matthew's Gospel. Four of the
-eight are in this discourse — 24:4, 24:5, 24:11 and 24:24 — and those four are the only Matthean uses
-carrying the sense of misleading somebody (Louw-Nida domain 31.8).
-Every time Matthew's Jesus warns about someone deceiving others, he is on the Mount of Olives.
-
-The four warnings escalate. First a general caution: "See that no one leads you astray" (24:4). Then
-the mechanism: "many will come in my name, saying, 'I am the Christ,' and they will lead many astray"
-(24:5). Then the professionals: "many false prophets will arise and lead many astray" (24:11). Then
-the worst case:
-
-> ✝️ Matthew 24:23-26 (ESV)
-> 23 Then if anyone says to you, "Look, here is the Christ!" or "There he is!" do not believe it.
-> 24 For false christs and false prophets will arise and perform great signs and wonders, so as to
-> lead astray, if possible, even the elect. 25 See, I have told you beforehand. 26 So, if they say to
-> you, "Look, he is in the wilderness," do not go out. If they say, "Look, he is in the inner rooms,"
-> do not believe it.
-
-### Wilderness and inner rooms
-
-Both locations are pointed. Some Jewish groups of the period expected deliverance to begin in the
-wilderness (*NIV Cultural Backgrounds Study Bible*, note on Matthew 24:26) — the Qumran community had
-gone there on that principle, and Josephus records more than one wilderness messianic movement in the
-decades before the war. "Inner rooms" is the opposite error: a private, insider revelation available
-to those in the know. Jesus rules out both the public movement and the secret one, and he rules them
-out on a single ground, given in the next verse: "For as the lightning comes from the east and shines
-as far as the west, so will be the coming of the Son of Man" (24:27, ESV).
-
-That is the answer to question two. Nobody has to point lightning out to you. If someone has to tell
-you the Messiah has come, that fact alone disproves the claim. This shows that God has made His Son's
-return public by design: Jesus will come the way lightning comes, so no movement, teacher or private
-revelation stands between you and Him, and none of them is owed your belief.
-
-### Mark's structural spine: watch
-
-Mark builds his whole account on this. βλέπετε (*blepete*, "watch out, be on guard," G991) is Mark's
-structural spine, and it lands at 13:5, 13:9, 13:23 and 13:33 — all four coded by Louw-Nida as
-*beware* (27.58) rather than ordinary seeing. Mark sets it up with a play on the same verb: the
-discourse opens with Jesus asking "Do you *see* (βλέπεις) these great buildings?" (13:2). You see the
-buildings. Now watch out.
-
-```mermaid
-flowchart TD
-    S["13:2 — 'Do you SEE (blepeis)<br/>these great buildings?'"]
-    S --> B1["13:5 BLEPETE<br/>'that no one leads you astray'"]
-    B1 --> B2["13:9 BLEPETE<br/>'they will deliver you over'"]
-    B2 --> B3["13:23 BLEPETE<br/>'I have told you all things beforehand'"]
-    B3 --> B4["13:33 BLEPETE + AGRYPNEITE<br/>'you do not know when the time will come'"]
-    B4 --> G["13:37 — 'And what I say to you<br/>I say to all: Stay awake'"]
-```
-
-The *ESV Study Bible* reads Mark the same way: "Jesus gives this entire discourse about the end times
-so that the disciples will be on guard (vv. 5, 9, 23)... Instead of speculating about the specific
-timing of end-time events, all disciples are to be vigilant" (note on Mark 13:33-37).
-
 ## AD 70: Question One, Answered and Documented
 
 The first of the three questions can be closed here, because its answer is history. Jesus predicted *this* temple's destruction before they asked
@@ -322,9 +190,140 @@ Eusebius attributes the command to that oracle. Tying the Pella departure to Mat
 reasonable inference, since these people knew what Jesus had said about fleeing Judea, but the
 sources do not make it for us.
 
-## The Sign, the Flight, and the Distress
+## Question Three: The Close of the Age (Matthew 24:4-28)
 
-### The abomination of desolation
+### What They Expected, and What He Refused
+
+#### The list Jesus inherited
+
+The list Jesus gives in 24:4-8 is not original to him. The *NIV Cultural Backgrounds Study Bible*
+notes that "many Jewish thinkers offered lists of sufferings, which they sometimes called the 'birth
+pangs' of the Messiah or of the new world; these sufferings would precede the end of the age" (note
+on Matthew 24:6-14). Wars, international conflict, famine, earthquake, apostasy — the list would have
+sounded entirely familiar to the four men listening.
+
+Then he does something with it that the same note calls out: "in contrast to many other Jewish
+thinkers, he identifies the events listed here as merely 'the beginning of birth pains'," and he
+"will answer the question about the sign of his coming (v. 3) with a single sign at his coming
+(v. 30)." The disciples asked for a checklist. Jesus handed the checklist back, relabelled.
+
+#### Birth pangs: Scripture's own image
+
+**The image he relabelled it with is Scripture's own.** The prophets already use birth pangs for the
+distress preceding God's decisive act — Isaiah 13:8 and 26:17, Jeremiah 6:24, Micah 4:9-10, Hosea
+13:13 — which is why neither Jesus nor Paul stops to explain it. ὠδίν (*ōdin*, G5604) occurs four
+times in the New Testament: here and in the Markan parallel (Matthew 24:8; Mark 13:8), of the agony
+of death in Peter's Pentecost sermon (Acts 2:24), and in Paul's own day-of-the-Lord passage — "sudden
+destruction will come upon them as labor pains come upon a pregnant woman, and they will not escape"
+(1 Thessalonians 5:3, ESV).
+
+The metaphor does exactly the work Jesus needs. Labour pains are a real signal that something is
+coming and a famously unreliable guide to when. A woman in early labour knows the birth is real; she
+does not know the hour. That is the epistemic position he puts his disciples in, and it is the
+opposite of a timetable.
+
+#### Jewish witnesses to the expectation
+
+Alongside Scripture, and clearly distinct from it, sits a body of **Jewish writing that is not
+Scripture** but tells us what people in that world expected. Three witnesses, three centuries apart,
+show how fixed the habit of listing was:
+
+| | Date | The catalogue |
+|---|---|---|
+| *Jubilees* 23:13, 19 | c. 150 BC, found at Qumran | "calamity follows on calamity... famine, and death, and sword, and captivity"; "the young [strive] with the old" |
+| *2 Baruch* 27:2-7 | c. a generation after AD 70 | Twelve numbered parts — "the beginning of commotions... famine and the withholding of rain... earthquakes and terrors" |
+| *m. Sotah* 9:15 | Mishnah, c. AD 200 | "In the footsteps of the messiah insolence will increase... 'a man's own household are his enemies' (Micah 7:6)" |
+
+Two details earn their place. *2 Baruch*'s order — commotions, famine,
+earthquakes — is Matthew 24:6-7's order. And the Mishnah's closing quotation is Micah 7:6, the verse
+behind Matthew 24:10's mutual betrayal, which Jesus had already turned on himself at 10:35-36.
+
+#### To the disciples, in the second person
+
+What follows the list in Matthew is addressed directly to the disciples, in the second person:
+
+> ✝️ Matthew 24:9-13 (ESV)
+> 9 "Then they will deliver you up to tribulation and put you to death, and you will be hated by all
+> nations for my name's sake. 10 And then many will fall away and betray one another and hate one
+> another. 11 And many false prophets will arise and lead many astray. 12 And because lawlessness
+> will be increased, the love of many will grow cold. 13 But the one who endures to the end will be
+> saved."
+
+The question was "when." The answer, so far, is: you will be hated, you will be betrayed by each
+other, love will cool, and your job is to endure. Mark makes the same turn even more sharply at
+13:9 — "be on your guard. For they will deliver you over to councils, and you will be beaten in
+synagogues, and you will stand before governors and kings for my sake, to bear witness before them"
+(ESV). The disciples asked about the calendar and Jesus answered about their own coming suffering.
+
+He said it to four men Mark names (13:3), and within a day of hearing "the one who endures to the
+end will be saved," those same men "all left him and fled" (Mark 14:50, ESV). Whatever endurance
+they later showed was not native to them. It was the grace of God, and the endurance Jesus commands
+of you is the endurance He supplies.
+
+### "See That No One Leads You Astray"
+
+#### The four warnings, escalating
+
+The first words out of Jesus's mouth in reply are a warning about deception, the discourse's most
+repeated note.
+
+πλανάω (*planaō*, "lead astray, deceive," G4105) occurs eight times in Matthew's Gospel. Four of the
+eight are in this discourse — 24:4, 24:5, 24:11 and 24:24 — and those four are the only Matthean uses
+carrying the sense of misleading somebody (Louw-Nida domain 31.8).
+Every time Matthew's Jesus warns about someone deceiving others, he is on the Mount of Olives.
+
+The four warnings escalate. First a general caution: "See that no one leads you astray" (24:4). Then
+the mechanism: "many will come in my name, saying, 'I am the Christ,' and they will lead many astray"
+(24:5). Then the professionals: "many false prophets will arise and lead many astray" (24:11). Then
+the worst case:
+
+> ✝️ Matthew 24:23-26 (ESV)
+> 23 Then if anyone says to you, "Look, here is the Christ!" or "There he is!" do not believe it.
+> 24 For false christs and false prophets will arise and perform great signs and wonders, so as to
+> lead astray, if possible, even the elect. 25 See, I have told you beforehand. 26 So, if they say to
+> you, "Look, he is in the wilderness," do not go out. If they say, "Look, he is in the inner rooms,"
+> do not believe it.
+
+#### Wilderness and inner rooms
+
+Both locations are pointed. Some Jewish groups of the period expected deliverance to begin in the
+wilderness (*NIV Cultural Backgrounds Study Bible*, note on Matthew 24:26) — the Qumran community had
+gone there on that principle, and Josephus records more than one wilderness messianic movement in the
+decades before the war. "Inner rooms" is the opposite error: a private, insider revelation available
+to those in the know. Jesus rules out both the public movement and the secret one, and he rules them
+out on a single ground, given in the next verse: "For as the lightning comes from the east and shines
+as far as the west, so will be the coming of the Son of Man" (24:27, ESV).
+
+That is the answer to question two. Nobody has to point lightning out to you. If someone has to tell
+you the Messiah has come, that fact alone disproves the claim. This shows that God has made His Son's
+return public by design: Jesus will come the way lightning comes, so no movement, teacher or private
+revelation stands between you and Him, and none of them is owed your belief.
+
+#### Mark's structural spine: watch
+
+Mark builds his whole account on this. βλέπετε (*blepete*, "watch out, be on guard," G991) is Mark's
+structural spine, and it lands at 13:5, 13:9, 13:23 and 13:33 — all four coded by Louw-Nida as
+*beware* (27.58) rather than ordinary seeing. Mark sets it up with a play on the same verb: the
+discourse opens with Jesus asking "Do you *see* (βλέπεις) these great buildings?" (13:2). You see the
+buildings. Now watch out.
+
+```mermaid
+flowchart TD
+    S["13:2 — 'Do you SEE (blepeis)<br/>these great buildings?'"]
+    S --> B1["13:5 BLEPETE<br/>'that no one leads you astray'"]
+    B1 --> B2["13:9 BLEPETE<br/>'they will deliver you over'"]
+    B2 --> B3["13:23 BLEPETE<br/>'I have told you all things beforehand'"]
+    B3 --> B4["13:33 BLEPETE + AGRYPNEITE<br/>'you do not know when the time will come'"]
+    B4 --> G["13:37 — 'And what I say to you<br/>I say to all: Stay awake'"]
+```
+
+The *ESV Study Bible* reads Mark the same way: "Jesus gives this entire discourse about the end times
+so that the disciples will be on guard (vv. 5, 9, 23)... Instead of speculating about the specific
+timing of end-time events, all disciples are to be vigilant" (note on Mark 13:33-37).
+
+### The Sign, the Flight, and the Distress
+
+#### The abomination of desolation
 
 Verse 15 turns a corner. Up to verse 14 Jesus has described what the whole age between his going and
 his coming will be like — deception, war, famine, persecution, endurance. From verse 15 he describes
@@ -351,7 +350,7 @@ referent: "when you see Jerusalem surrounded by armies, then know that its desol
 (Luke 21:20, ESV), followed by the city falling "by the edge of the sword" and its people "led
 captive among all nations" (21:24). That is a plain description of AD 70, and it was fulfilled.
 
-### Flee — practical instructions
+#### Flee — practical instructions
 
 Then the instructions, which are startlingly practical:
 
@@ -361,7 +360,7 @@ Then the instructions, which are startlingly practical:
 > his cloak. 19 And alas for women who are pregnant and for those who are nursing infants in those
 > days! 20 Pray that your flight may not be in winter or on a Sabbath.
 
-### What each instruction meant
+#### What each instruction meant
 
 Each line is culturally loaded, and the *NIV Cultural Backgrounds Study Bible* unpacks them:
 
@@ -382,7 +381,7 @@ Each line is culturally loaded, and the *NIV Cultural Backgrounds Study Bible* u
   killed by their pursuers (*Wars* 4.433). On a Sabbath, Jerusalem's gates would be shut (note on
   24:20).
 
-### First-century furniture, timeless substance
+#### First-century furniture, timeless substance
 
 It is evacuation advice: which way to run, what not to go back for, and what weather to pray
 against.
@@ -398,7 +397,7 @@ Where the long interval before verse 15 sits, and why verse 29's "immediately" l
 the distress, is worked through against Daniel 9:24-27 in a separate study, *Immediately After*
 (in preparation).
 
-## The One Sign: The Son of Man Comes
+## Question Two: The One Sign (Matthew 24:29-31)
 
 Cosmic signs, and then the sign. The vocabulary is the Old Testament's for the day of the LORD:
 "the sun will be darkened, and the moon will not give its light, and the stars will fall from heaven"
@@ -497,7 +496,7 @@ feeding the household He has put in your care.
 All four parables are worked through in [The
 Parables of the Olivet Discourse](olivet-discourse-parables.md).
 
-## One Taken, One Left
+### One Taken, One Left
 
 Matthew's Noah illustration ends in the discourse's most contested sentence: "Then two men will be in
 the field; one will be taken and one left. Two women will be grinding at the mill; one will be taken
@@ -513,9 +512,9 @@ damaged by it.
 The verbs, Noah's flood and Luke's vultures are worked through in a separate study, *One Taken,
 One Left* (in preparation).
 
-## "What I Say to You I Say to All: Stay Awake"
+### "What I Say to You I Say to All: Stay Awake"
 
-### The four watches
+#### The four watches
 
 Mark closes the discourse with a short parable and a command:
 
@@ -531,7 +530,7 @@ divided the night" (*NIV Biblical Theology Study Bible*, note on Mark 13:35). Je
 the point is that any one of them will do; a doorkeeper does not get to pick which watch to be awake
 for.
 
-### The watches fulfilled: Mark's own narrative
+#### The watches fulfilled: Mark's own narrative
 
 Then Mark does something with those four watches. Within a chapter, his own narrative walks through
 all four, in order — and at each one, the men who were told to stay awake do not.
@@ -564,7 +563,7 @@ Louw-Nida sense as 13:35. The midnight watch is positional rather than verbal �
 only once in Mark, at 13:35 — but its slot in the sequence is Gethsemane, and Gethsemane is where the
 command is put to the test by name.
 
-### The same command, tested that same night
+#### The same command, tested that same night
 
 γρηγορέω (*grēgoreō*, "stay awake," G1127) occurs six times in Mark. Three of them are the end of the
 discourse (13:34, 35, 37). The other three are Gethsemane:
