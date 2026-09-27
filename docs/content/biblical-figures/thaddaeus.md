@@ -51,7 +51,7 @@ your word be the proof.
 
 ## The names
 
-**Thaddaeus** — <span lang="grc">Θαδδαῖος</span> (*Thaddaios*, thad-DAH-yoss). Strong's lists this
+**Thaddaeus** — <span lang="grc">Θαδδαῖος</span> (*Thaddaios*, thad-DAH-yoss, G2280). Strong's lists this
 as **of uncertain origin**, and that restraint is worth honouring. A commonly repeated derivation
 connects it to an Aramaic root for "breast," yielding something like "beloved" or
 "warm-hearted," but this is a proposal rather than an established etymology, and it is often quoted
@@ -62,7 +62,7 @@ Some manuscripts of Matthew 10:3 read **Lebbaeus** here, and some conflate the t
 was also called Thaddaeus" — the reading behind the KJV). The earliest text has simply *Thaddaeus*.
 
 **Judas son of James** — <span lang="grc">Ἰούδας Ἰακώβου</span> — is what Luke calls him in both his
-Gospel (6:16) and Acts (1:13). *Judas* is <span dir="rtl">יְהוּדָה</span> *Yehudah*, "praised."
+Gospel (6:16) and Acts (1:13). *Judas* is <span dir="rtl">יְהוּדָה</span> (*Yehudah*, H3063), "praised."
 
 Two names for one man is the straightforward reading: Matthew and Mark have Thaddaeus at position
 ten, Luke and Acts have Judas son of James in the same group of four, and the lists are otherwise

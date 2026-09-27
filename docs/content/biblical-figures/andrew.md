@@ -50,8 +50,8 @@ Give us Andrew's reflex — that the right response to finding you is to go and 
 
 ## The name
 
-<span lang="grc">Ἀνδρέας</span> (*Andreas*, an-DREH-as), from
-<span lang="grc">ἀνήρ</span> (*anēr*), "man" — so, "manly." It is a straightforwardly **Greek**
+<span lang="grc">Ἀνδρέας</span> (*Andreas*, an-DREH-as, G406), from
+<span lang="grc">ἀνήρ</span> (*anēr*, G435), "man" — so, "manly." It is a straightforwardly **Greek**
 name, not a Hebrew or Aramaic one. Andrew and Philip are the only two of the Twelve whose names are
 purely Greek, and both came from Bethsaida — a reminder that Galilee in the first century was not
 culturally sealed off.

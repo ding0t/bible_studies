@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:23-25"
 bible_references: ["Leviticus 23:23-25", "Numbers 29:1-6", "Numbers 10:1-10", "1 Corinthians 15:51-53", "Matthew 24:30-31", "Matthew 24:36", "1 Thessalonians 4:16-17", "Joel 2:1"]
 date_created: 2025-08-10
-date_modified: 2026-09-13
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-4.5
@@ -124,5 +124,5 @@ Yom Teruah is fundamentally a summons to attention before God, marked by sound r
 
 - **Eddie Chumney, *The Seven Festivals of the Messiah*** — the primary source for the three-trumpets typology and the traditional names (Yom HaDin, the wedding-of-the-Messiah betrothal-custom framework) discussed above. Personal copy, not committed to this repo (commercially-sold work); quoted briefly with attribution per the copyright guardrail. Recommended for the fuller typological argument and its connection to the betrothal-custom background this study only summarizes.
 - **Mishnah Rosh Hashanah 4** (Sefaria Community Translation, CC0) — the primary source for the new-moon witness procedure and the tekiah-teruah-tekiah shofar sequence, fetched and verified against the primary text via `references/build/sefaria.py`.
-- **TWOT** (*Theological Wordbook of the Old Testament*) — root entry #2135 (רוּעַ/*ruaʿ*) behind the word study above, looked up via `references/build/twot/twot_strongs_map.json`.
+- **TWOT** (*Theological Wordbook of the Old Testament*) — root entry #2135 (<span dir="rtl">רוּעַ</span>/*ruaʿ*) behind the word study above, looked up via `references/build/twot/twot_strongs_map.json`.
 - The Hebrew word-by-word data above is drawn from this project's own `bible-text.db` (MACULA Hebrew dataset).

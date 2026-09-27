@@ -103,7 +103,7 @@ Paul answers that one question.
 > with them in the clouds to meet the Lord in the air, and so we will always be with the Lord.
 > 18 Therefore encourage one another with these words.
 
-"Will be caught up" is ἁρπαγησόμεθα (*harpagēsometha*), future passive of ἁρπάζω (*harpazō*), "to
+"Will be caught up" is ἁρπαγησόμεθα (*harpagēsometha*, G726), future passive of ἁρπάζω (*harpazō*, G726), "to
 seize, snatch, take away." God does the lifting. The living are caught up "together with" the risen
 dead, "to meet" the Lord: εἰς ἀπάντησιν (*eis apantēsin*). The *ESV Study Bible* notes that
 *apantēsis* often describes a city going out to welcome a dignitary and escort him in. Readers who

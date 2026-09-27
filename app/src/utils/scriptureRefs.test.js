@@ -1,6 +1,17 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { findRefs, findStrongs, formatRef, parseRef, resolveRelative } from './scriptureRefs.js';
+import {
+  findBookNames,
+  findRefs,
+  findStrongs,
+  findWords,
+  formatRef,
+  lemmaBefore,
+  namedWork,
+  parseRef,
+  resolveRelative,
+  wordKey,
+} from './scriptureRefs.js';
 
 const found = (text) => findRefs(text).map((r) => [text.slice(r.start, r.end).trim(), r.ref.book ? formatRef(r.ref) : `rel ${r.ref.v1}-${r.ref.v2}`]);
 
@@ -73,4 +84,50 @@ test("Strong's tags inside the lexicons' range", () => {
     { start: 11, end: 15, id: 'G126' },
     { start: 21, end: 27, id: 'H539' },
   ]);
+});
+
+test('the word a tag glosses is the one before the open parenthesis', () => {
+  const at = (text) => {
+    const found = lemmaBefore(text);
+    return found && text.slice(found.start, found.end);
+  };
+  assert.equal(at('Ephesians uses μυστήριον (mystērion, '), 'μυστήριον');
+  assert.equal(at('ἐλυτρώθητε, from λυτρόω ('), 'λυτρόω');
+  assert.equal(at('To meet is εἰς ἀπάντησιν ('), 'εἰς ἀπάντησιν');
+  assert.equal(at('from קָנָה ('), 'קָנָה');
+  assert.equal(at('μονή (monē) occurs twice ('), null);
+  assert.equal(at('plain English ('), null);
+});
+
+test('a word matches its accented and final-sigma forms, not a differently pointed word', () => {
+  assert.equal(wordKey('ἀρραβὼν'), wordKey('ἀρραβών'));
+  assert.equal(wordKey('Λόγος'), wordKey('λόγοσ'));
+  assert.notEqual(wordKey('דָּבָר'), wordKey('דֶּבֶר'));
+  assert.deepEqual(
+    findWords('ἀρραβών, and the <span>כָּנָף</span>').map((w) => w.key),
+    [wordKey('ἀρραβών'), 'כָּנָף']
+  );
+});
+
+test('a bare chapter and verse takes the book of the passage in hand', () => {
+  const bare = (text) => findRefs(text).map((r) => text.slice(r.start, r.end));
+  assert.deepEqual(bare('God has a building ready (5:1), and the pledge (5:5; 4:16-18)'), ['5:1', '5:5', '4:16-18']);
+  assert.deepEqual(bare('In 5:1 Paul says it; at 13:35 Mark does'), ['5:1', '13:35']);
+  assert.deepEqual(bare('Tobit 7:13-16 and 8:19-20, m. Avot 3:2, 3:6, or 1:2:3'), []);
+  const context = { book: '2Cor', c1: 5, v1: 1, c2: 5, v2: 10 };
+  assert.deepEqual(resolveRelative(findRefs('(4:16-5:10)')[0].ref, context), {
+    book: '2Cor', c1: 4, v1: 16, c2: 5, v2: 10,
+  });
+});
+
+test('a book named in words, and a work the book list does not know', () => {
+  const books = (text) => findBookNames(text).map((n) => n.book);
+  assert.deepEqual(books("three times in Revelation (9:21), and Hebrews says, and Job's"), ['Rev', 'Heb', 'Job']);
+  assert.deepEqual(books('Romans 8:28 and Acts 2, but not mark or acts'), []);
+  assert.equal(namedWork('1 Maccabees \u2014 1:54, '), true);
+  assert.equal(namedWork('The Book of Jubilees '), true);
+  assert.equal(namedWork('In '), false);
+  assert.equal(namedWork('the Community Rule (1QS '), true);
+  assert.equal(namedWork('four in Revelation \u2014 '), false);
+  assert.equal(namedWork('Job himself uses it at '), false);
 });

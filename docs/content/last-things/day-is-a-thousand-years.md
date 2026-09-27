@@ -325,9 +325,9 @@ morning." Every other day in the week is bounded at both ends; the seventh is le
 > from all his work that he had done in creation.
 
 Three verbs carry it: <span dir="rtl">וַיְכַל</span> (*vaykhal*, "he completed," H3615),
-<span dir="rtl">וַיִּשְׁבֹּת</span> (*vayyishbot*, "he ceased," from
-<span dir="rtl">שָׁבַת</span> *shavat*, H7673, TWOT root 2323 — the root behind
-<span dir="rtl">שַׁבָּת</span> *shabbat*), and <span dir="rtl">וַיְקַדֵּשׁ</span> (*vayqaddesh*,
+<span dir="rtl">וַיִּשְׁבֹּת</span> (*vayyishbot*, "he ceased"), from
+<span dir="rtl">שָׁבַת</span> (*shavat*, H7673, TWOT root 2323), the root behind
+<span dir="rtl">שַׁבָּת</span> (*shabbat*, H7676); and <span dir="rtl">וַיְקַדֵּשׁ</span> (*vayqaddesh*,
 "he set apart as holy," H6942). God blesses creatures on day five and man on day six; he sanctifies
 only the seventh day. A day is the first holy thing in Scripture.
 
@@ -411,7 +411,7 @@ Hebrews leaves the rest open. Revelation numbers it.
 Revelation is apocalyptic, and that genre asks the reader to look for the Old Testament imagery
 first. So the thrones of 20:4 are read here against Daniel 7:9, and the bound dragon against
 Genesis 3's serpent, named "that ancient serpent" in the verse itself. In John's sequence, Christ
-returns on a white horse (19:11) and the beast and the false prophet are thrown into the lake of
+returns on a white horse (Revelation 19:11) and the beast and the false prophet are thrown into the lake of
 fire (19:20). Chapter 20 opens with the dragon, the third of them, seized and confined, and closes
 with him joining the other two (20:10) before the great white throne (20:11-15). The thousand years sit inside that sequence, after the
 return and before the final judgment.
@@ -432,7 +432,7 @@ return and before the final judgment.
 > thousand years are ended, Satan will be released from his prison
 
 **χίλια ἔτη** appears six times in these six verses. Read plainly, this is a bounded period with a
-start and an end, containing a binding that is later reversed (20:3, 20:7), a resurrection described
+start and an end, containing a binding that is later reversed (Revelation 20:3, 20:7), a resurrection described
 as "the first" and therefore implying a second (20:5-6), and named individuals reigning. A symbol
 for the present church age does not need a stated duration, does not need Satan released at its
 close, and does not distinguish two resurrections. The seventh day of the week is the one rest
@@ -441,7 +441,7 @@ Scripture counts, and it is counted in thousands of years.
 Amillennial readers take the thousand years as the present church age; the features above are this
 study's case against that. On the reading argued here, this shows that God will give His Son Jesus
 the kingdom the whole week has been moving toward. Jesus reigns, and those who belong to Him reign
-with Him (20:4, 6). If you are His, "blessed and holy" (20:6) is spoken over you.
+with Him (Revelation 20:4, 6). If you are His, "blessed and holy" (20:6) is spoken over you.
 
 ### And the eighth
 

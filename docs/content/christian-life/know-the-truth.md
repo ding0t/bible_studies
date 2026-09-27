@@ -99,7 +99,7 @@ carries the same quality: "The sum of your word is truth" (Psalm 119:160, ESV).
 The same root gives the word you say at the end of a prayer. Isaiah foresees a day when "he who blesses himself
 in the land shall bless himself by the God of truth, and he who takes an oath in the land shall swear
 by the God of truth" (Isaiah 65:16, ESV). "Truth" there is <span dir="rtl">אָמֵן</span> (*amen*): the God of
-Amen. The Septuagint renders that *amen* as ἀληθινός (*alēthinos*), "true," both times. Revelation
+Amen. The Septuagint renders that *amen* as ἀληθινός (*alēthinos*, G228), "true," both times. Revelation
 3:14 most likely draws on the verse, because it calls Jesus both at once: "the Amen, the faithful and
 true (ἀληθινός) witness" (ESV).
 
@@ -142,16 +142,16 @@ and in a Person.
 
 Jesus is in Jerusalem for the Feast of Booths (7:2), teaching in the temple (8:20), and some of His
 hearers have "believed him" (8:31). He sets
-out an order. First, abide in His word. Then you are "truly" His disciples — ἀληθῶς (*alēthōs*), the adverb formed from the truth word. Then you will know the
+out an order. First, abide in His word. Then you are "truly" His disciples — ἀληθῶς (*alēthōs*, G230), the adverb formed from the truth word. Then you will know the
 truth. Then the truth will set you free.
 
-"Abide" is μένω (*menō*), to stay, remain, continue. The *ESV Study Bible* says 8:32 "is frequently
+"Abide" is μένω (*menō*, G3306), to stay, remain, continue. The *ESV Study Bible* says 8:32 "is frequently
 quoted out of context," and the context is this condition: the truth Jesus promises is known
 by continuing to believe and obey His word (note on 8:32). The *NIV Cultural Backgrounds Study Bible*
 adds that ancient schools and Jewish movements took the same view: joining without persevering in the
 teaching was pointless (note on 8:31).
 
-"You will know" is γνώσεσθε (*gnōsesthe*), the future of γινώσκω (*ginōskō*). Jesus promises knowledge
+"You will know" is γνώσεσθε (*gnōsesthe*, G1097), the future of γινώσκω (*ginōskō*, G1097). Jesus promises knowledge
 as a certain result. Luke and John say the same. Luke wrote his Gospel "that
 you may have certainty concerning the things you have been taught" (Luke 1:4, ESV). John wrote to his
 churches "not because you do not know the truth, but because you know it" (1 John 2:21, ESV). "The
@@ -190,7 +190,7 @@ remains forever, and He is the one who sets you free (8:35-36). To everyone who 
 gives "the right to become children of God" (John 1:12, ESV).
 
 **This shows that God frees you through His Son.** The verb is the same in 8:32 and 8:36,
-ἐλευθερόω (*eleutheroō*): "the truth will set you free," "if the Son sets you free." The truth that
+ἐλευθερόω (*eleutheroō*, G1659): "the truth will set you free," "if the Son sets you free." The truth that
 sets you free is Jesus Himself,
 and the freedom is the one only He can give: forgiveness for what you have done and power over what
 you were doing (*ESV Study Bible*, note on 8:36).
@@ -228,7 +228,7 @@ who wrote this Gospel were Jews, and 8:44 is a verdict on that crowd's deeds. It
 turn it on the Jewish people. Paul, an Israelite himself, asks the question: "has God
 rejected his people? By no means!" (Romans 11:1, ESV). "The gifts and the calling of God are
 irrevocable" (11:29, ESV). [Israel and the Church](../israel-and-church/israel-and-the-church.md#what-romans-11-says-is-still-ahead-for-israel)
-sets out what is still ahead for Israel. The warning of 8:44 reaches anyone, of any nation, who hears
+sets out what is still ahead for Israel. The warning of John 8:44 reaches anyone, of any nation, who hears
 the truth and will not have it.
 
 ### The first lie was about God's word

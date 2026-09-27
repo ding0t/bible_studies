@@ -32,7 +32,7 @@ prototyping — see that page for what each part is for and why.)*
 ### Types & Prophecy
 
 **Type.** The sheaf is the pattern, and the New Testament names it rather than leaving it to be
-spotted. The Septuagint calls the offering of Leviticus 23:10 an **ἀπαρχή** (*aparchē*,
+spotted. The Septuagint calls the offering of Leviticus 23:10 an **ἀπαρχή** (*aparchē*, G536,
 "firstfruits"), and that is the exact noun Paul applies to Christ twice in four verses:
 "Christ has been raised from the dead, the firstfruits of those who have fallen asleep"
 (1 Corinthians 15:20). The type carries three things the statute makes explicit — the offering is

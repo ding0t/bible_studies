@@ -50,7 +50,7 @@ Deliverance ministry, as commonly practiced, risks promoting a works-based appro
 ## The key term: "demonized"
 
 The whole case for a Christian being able to come under demonic control turns on one word:
-**δαιμονίζομαι** (*daimonizomai*, pronounced dye-mo-NID-zoh-my, Strong's G1139). Deliverance
+**δαιμονίζομαι** (*daimonizomai*, dye-mo-NID-zoh-my, G1139). Deliverance
 teaching typically distinguishes "possessed" from "demonized," treating them as two different
 conditions. It concedes the first cannot happen to a believer and claims the second can. That
 distinction isn't in the Greek text. It's a choice of English gloss, not a different Greek word for
@@ -79,7 +79,7 @@ than a fixed clinical category with agreed boundaries.
 
 The clearest data point is a contrast. Paul describes being tormented by a "messenger of Satan" in
 2 Corinthians 12:7 (ESV). The verb he reaches for is
-**κολαφίζω** (*kolaphizō*, "to buffet, strike, harass"), the same word used of Jesus being struck
+**κολαφίζω** (*kolaphizō*, G2852, "to buffet, strike, harass"), the same word used of Jesus being struck
 during His trial. He does not reach for δαιμονίζομαι. Scripture had the vocabulary to describe a
 believer under demonic attack, right there, in a passage about an apostle. It uses a different word
 entirely.

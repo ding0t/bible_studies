@@ -110,7 +110,7 @@ has both nouns in one phrase: τὴν νύμφην τὴν γυναῖκα το�
 Arniou*, 21:9). The *Legacy Standard Bible* footnotes the word at 19:7 in two words: "Lit wife."
 
 **So Scripture gives her a second title, and gives it at the point the marriage comes.**
-Revelation 19:7 announces that the γάμος (*gamos*) has come and calls her His wife in the same
+Revelation 19:7 announces that the γάμος (*gamos*, G1062) has come and calls her His wife in the same
 sentence. From there both names are hers — νύμφη at 21:2 and 22:17, γυνή at 19:7, and 21:9 setting
 the two side by side in one phrase. She keeps the bridal name the way a bridegroom keeps it, with a
 wife's standing under it. **This shows that God means His people to belong to Him the way a wife
@@ -259,7 +259,7 @@ the reign, the service, the sight of His face. What is hers is to receive it as 
 
 ### The rest that is left over
 
-Hebrews 4 argues through a chapter on rest using κατάπαυσις (*katapausis*), and switches once. "So then, there
+Hebrews 4 argues through a chapter on rest using κατάπαυσις (*katapausis*, G2663), and switches once. "So then, there
 remains a Sabbath rest for the people of God" (4:9, ESV) is **σαββατισμός** (*sabbatismos*, G4520),
 a word that occurs nowhere else in the New Testament and nowhere in the Greek Old Testament. One
 occurrence, in the whole Bible, and the author spends a chapter getting to it. [A Day Is as a
@@ -317,7 +317,7 @@ and become His people; the Spirit is your pledge of what is to come.
 Scripture calls the church a bride, a body, a building, a flock, a priesthood and a household. Two of them sit right beside the bridal language in
 Ephesians.
 
-**Adoption.** υἱοθεσία (*huiothesia*) occurs five times, all in Paul, all at Louw-Nida 35.53:
+**Adoption.** υἱοθεσία (*huiothesia*, G5206) occurs five times, all in Paul, all at Louw-Nida 35.53:
 Romans 8:15, 8:23, 9:4, Galatians 4:5, Ephesians 1:5. Romans 9:4 gives
 adoption to *Israel*, so the word is not a church-only term. And Romans 8:23 has it still future —
 "we wait eagerly for adoption as sons, the redemption of our bodies" (ESV) — which is the same

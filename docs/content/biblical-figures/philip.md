@@ -51,9 +51,9 @@ recognise him.
 
 ## The name
 
-<span lang="grc">Φίλιππος</span> (*Philippos*, FIL-ip-poss), from
-<span lang="grc">φίλος</span> (*philos*, "loving, friend") and
-<span lang="grc">ἵππος</span> (*hippos*, "horse") — "lover of horses." Like Andrew's, it is a purely
+<span lang="grc">Φίλιππος</span> (*Philippos*, FIL-ip-poss, G5376), from
+<span lang="grc">φίλος</span> (*philos*, G5384, "loving, friend") and
+<span lang="grc">ἵππος</span> (*hippos*, G2462, "horse") — "lover of horses." Like Andrew's, it is a purely
 **Greek** name; those two are the only such names among the Twelve.
 
 **Do not confuse him with Philip the Evangelist**, one of the seven appointed in Acts 6 — the man

@@ -146,7 +146,7 @@ The section above says how I am saved. Justification names what God declares in 
 
 - [x] Justification is a verdict, not a process — God declares me righteous the moment I trust Christ, and that verdict neither improves nor erodes with my performance.
 
-Romans 5:1 (ESV) — "since we have been justified by faith, we have peace with God through our Lord Jesus Christ." The verb is Δικαιωθέντες (*dikaiōthentes*), from δικαιόω (*dikaioō*, G1344), which sits in the same word group as δικαιοσύνη (*dikaiosunē*), "righteousness". The whole group concerns standing — where a person is placed in relation to God.
+Romans 5:1 (ESV) — "since we have been justified by faith, we have peace with God through our Lord Jesus Christ." The verb is Δικαιωθέντες (*dikaiōthentes*), from δικαιόω (*dikaioō*, G1344), which sits in the same word group as δικαιοσύνη (*dikaiosunē*, G1343), "righteousness". The whole group concerns standing — where a person is placed in relation to God.
 
 Paul sets it in a courtroom and then empties the dock: Romans 8:33-34 (ESV) — "Who shall bring any charge against God's elect? It is God who justifies. Who is to condemn?" The charge fails because the Judge has already ruled. Hence Romans 8:1 (ESV) — "There is therefore now no condemnation for those who are in Christ Jesus."
 

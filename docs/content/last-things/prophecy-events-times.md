@@ -49,7 +49,7 @@ Two conventions matter for everything that follows:
    (Daniel 9:24-27) are weeks of *years*, not
    days — the same day-for-a-year principle God states explicitly to Ezekiel
    (Ezekiel 4:6), and the word itself,
-   שָׁבֻעִים (*shavu'im*, "sevens"), is used the same way for a seven-*year* period elsewhere in the
+   <span dir="rtl">שָׁבֻעִים</span> (*shavu'im*, H7620, "sevens"), is used the same way for a seven-*year* period elsewhere in the
    Hebrew Bible (Genesis 29:27-28, Jacob's
    seven years of service to Laban).
 
@@ -88,7 +88,7 @@ standing formula. That part of the popular claim is correct.
 But the *lunar month-counting it formalizes* is not late at all — it's what the Bible's own text
 already shows Israel doing, from the earliest prophets on:
 
-- The Torah's own word for "month," חֹדֶשׁ (*chodesh*), is built from the root for "new" — the
+- The Torah's own word for "month," <span dir="rtl">חֹדֶשׁ</span> (*chodesh*), is built from the root for "new" — the
   vocabulary itself is lunar — and commands trumpets and offerings "at the beginnings of your
   months" (Numbers 10:10;
   <span data-ref="Numbers 28:11–15">28:11-15</span>).
@@ -252,9 +252,9 @@ answer to a specific question: Daniel has just been reading Jeremiah's prophecy 
 (Jeremiah 25:11-12;
 <span data-ref="Jeremiah 29:10">29:10</span>) and praying over it (Daniel
 9:2-19) when the angel arrives with a longer answer.
-"Seventy sevens" (שָׁבֻעִים שִׁבְעִים) are decreed for Daniel's people and city. Verse 25 gives the
-starting gun: "from the going out of the word (דָּבָר, *dabar*) to restore and build Jerusalem" to
-"an anointed one, a prince" (מָשִׁיחַ נָגִיד, *mashiach nagid*) is 7 weeks plus 62 weeks — 69 weeks
+"Seventy sevens" (<span dir="rtl">שָׁבֻעִים שִׁבְעִים</span>) are decreed for Daniel's people and city. Verse 25 gives the
+starting gun: "from the going out of the word (<span dir="rtl">דָּבָר</span>, *dabar*) to restore and build Jerusalem" to
+"an anointed one, a prince" (<span dir="rtl">מָשִׁיחַ נָגִיד</span>, *mashiach nagid*) is 7 weeks plus 62 weeks — 69 weeks
 in total.
 
 ### Which decree?

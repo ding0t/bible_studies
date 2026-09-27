@@ -126,7 +126,7 @@ Jesus then grounds that division in Isaiah. Matthew 13:14-15 quotes Isaiah 6:9-1
 two full verses, thirteen words running unbroken — on ears that hear and never understand. The
 parables sort hearers who were already sorted.
 
-"Secrets" translates μυστήρια (*mystēria*). The ESV Study Bible glosses these as the mysteries
+"Secrets" translates μυστήρια (*mystēria*, G3466). The ESV Study Bible glosses these as the mysteries
 of how the kingdom of heaven would operate, revealed to the disciples and withheld from the
 unresponsive crowd. Matthew then quotes Psalm 78:2 and calls it fulfilled: "I will utter what
 has been hidden since the foundation of the world" (13:35, ESV). Six verses on, Jesus tells the
@@ -148,8 +148,8 @@ the stocked storeroom sits directly against a village with an empty one.
 
 ### Greek γραμματεύς and Hebrew סֹפֵר
 
-The Greek is γραμματεύς (*grammateus*, "gram-mat-YOOCE"). Behind it stands the Hebrew
-<span dir="rtl">סֹפֵר</span> (*sofer*, "so-FARE"), and the Septuagint uses γραμματεύς to
+The Greek is γραμματεύς (*grammateus*, "gram-mat-YOOCE", G1122). Behind it stands the Hebrew
+<span dir="rtl">סֹפֵר</span> (*sofer*, "so-FARE", H5608a), and the Septuagint uses γραμματεύς to
 translate it — including for the man who defines the office.
 
 > ✝️ Ezra 7:6 (WEB)
@@ -181,7 +181,7 @@ pair of parties. They are different kinds of word. **Pharisee** and **Sadducee**
 
 Mark says so in three words. οἱ γραμματεῖς τῶν Φαρισαίων — "the scribes **of the Pharisees**"
 (Mark 2:16, ESV). Luke says it with the technical term for a faction: "some of the scribes of the
-Pharisees' **party**" (Acts 23:9, ESV), where "party" renders μέρος (*meros*), the word for a faction. A man could
+Pharisees' **party**" (Acts 23:9, ESV), where "party" renders μέρος (*meros*, G3313), the word for a faction. A man could
 be a scribe of one party or another, which is only possible if being a scribe is not itself a
 party.
 
@@ -197,7 +197,7 @@ and Paul's "Where is the scribe?" in a list of the wise and the debaters of this
 (1 Corinthians 1:20, ESV).
 
 So the word carries the sense of a credentialed professional: literate, trained, employed to
-know a text and rule from it. The **student** word in Greek is μαθητής (*mathētēs*), and it is a
+know a text and rule from it. The **student** word in Greek is μαθητής (*mathētēs*, G3101), and it is a
 different word. That is what makes verse 52 the sentence it is — Jesus puts the two together.
 γραμματεὺς μαθητευθείς. The professional who is also an apprentice. A man with a qualification,
 sitting under someone else's teaching.
@@ -230,7 +230,7 @@ Those two verses are exactly the two where the scribe belongs to Jesus.
 
 ### θησαυρός = storeroom, not just treasure
 
-θησαυρός (*thēsauros*, "thay-sow-ROSS") is the word behind English *thesaurus*, and it carries
+θησαυρός (*thēsauros*, "thay-sow-ROSS", G2344) is the word behind English *thesaurus*, and it carries
 two senses: the valuables, and the room they are kept in.
 
 Matthew uses it nine times. Eight of them mean the valuables — the magi's treasures (2:11),
@@ -251,7 +251,7 @@ harvest and his own long labour of storing.
 
 ### ἐκβάλλει = he keeps bringing out
 
-ἐκβάλλει (*ekballei*) is present tense: he brings out, and goes on bringing out. It is also a
+ἐκβάλλει (*ekballei*, G1544) is present tense: he brings out, and goes on bringing out. It is also a
 surprisingly forceful verb. Matthew uses ἐκβάλλω 28 times, and the great majority of them are
 violent — casting out demons (8:16; 9:34; 12:28; 17:19), throwing a man into outer darkness
 (8:12; 22:13; 25:30), driving the traders from the temple (21:12), heaving the son out of the
@@ -331,7 +331,7 @@ a stocktake would run the other way. No source consulted here comments on it.
 
 ## "Has been trained": the passive
 
-μαθητευθείς (*mathēteutheis*, "math-ay-tyoo-THICE") is an aorist **passive** participle of
+μαθητευθείς (*mathēteutheis*, "math-ay-tyoo-THICE", G3100) is an aorist **passive** participle of
 μαθητεύω, "to make a disciple." The scribe in this verse has had discipling done to him.
 
 The verb is rare. It occurs four times in the whole New Testament, and three of them are
@@ -398,13 +398,13 @@ had been withheld until that day.
 
 ### Mystery in Matthew 13
 
-Start with the word Jesus uses for them. μυστήριον (*mystērion*, "moo-STAY-ree-on") occurs
+Start with the word Jesus uses for them. μυστήριον (*mystērion*, "moo-STAY-ree-on", G3466) occurs
 **26 times in the Greek New Testament, and exactly three times in the Gospels** — Matthew 13:11,
 Mark 4:11 and Luke 8:10, which are the same sentence in three accounts. Everywhere else it is
 Paul (19 times) or Revelation (4). Jesus says the word once, and He says it here.
 
 [Israel and the Church](../israel-and-church/israel-and-the-church.md#what-scripture-means-by-a-mystery)
-works out what the word means, tracing it back to the Aramaic <span dir="rtl">רָז</span> (*raz*)
+works out what the word means, tracing it back to the Aramaic <span dir="rtl">רָז</span> (*raz*, H7328)
 of Daniel 2: something God alone knows, which stays unknown until He says it, and which is then
 plain. Hidden, then disclosed. Matthew says the same thing about these parables in his own voice
 eight verses on — Jesus "will utter what has been hidden since the foundation of the world"
@@ -450,7 +450,7 @@ when He said it He did not take back a word of what He had said before. That is 
 a storeroom: it has room for everything He has ever said.
 
 One resonance, and it is only that. The framework takes its name from
-οἰκονομία (*oikonomia*), the "administration" of Ephesians 3:9 — literally household-management.
+οἰκονομία (*oikonomia*, G3622), the "administration" of Ephesians 3:9 — literally household-management.
 Jesus calls the trained disciple an οἰκοδεσπότης, a house-master. Both words are built on οἶκος,
 the household. Paul is describing how God runs His house; Jesus is describing who keeps the
 store in it.

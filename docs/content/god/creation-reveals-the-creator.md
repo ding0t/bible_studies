@@ -84,7 +84,7 @@ Lord, the heavens you stretched out and the intricate cell you designed both dec
 
 ### "Eternal power and divine nature" (v.20)
 
-**"Eternal power and divine nature" (v.20).** Two more rare words name what specifically gets perceived. **ἀΐδιος** (*aidios*, G126, "eternal, everlasting") appears in the New Testament only here and in Jude 6 ("eternal chains"), distinct from the far more common *aiōnios*. **θειότης** (*theiotes*, G2305, "divine nature/quality") is a New Testament hapax legomenon. It needs distinguishing from a similar-looking word Paul uses elsewhere. Colossians 2:9 says the fullness of **θεότης** (*theotes*, "deity, Godhead") dwells bodily in Christ. *Theiotes* in Romans 1:20 is the divine quality perceivable *from* the works. *Theotes* in Colossians 2:9 is the full essence of deity itself, revealed *in* Christ. That distinction is this whole study in miniature. Creation shows you *that* there is a God of great and eternal power. It takes the incarnate Son to show you *who* God fully is.
+**"Eternal power and divine nature" (v.20).** Two more rare words name what specifically gets perceived. **ἀΐδιος** (*aidios*, G126, "eternal, everlasting") appears in the New Testament only here and in Jude 6 ("eternal chains"), distinct from the far more common *aiōnios*. **θειότης** (*theiotes*, G2305, "divine nature/quality") is a New Testament hapax legomenon. It needs distinguishing from a similar-looking word Paul uses elsewhere. Colossians 2:9 says the fullness of **θεότης** (*theotes*, G2320, "deity, Godhead") dwells bodily in Christ. *Theiotes* in Romans 1:20 is the divine quality perceivable *from* the works. *Theotes* in Colossians 2:9 is the full essence of deity itself, revealed *in* Christ. That distinction is this whole study in miniature. Creation shows you *that* there is a God of great and eternal power. It takes the incarnate Son to show you *who* God fully is.
 
 ### "Without excuse" (v.20)
 
@@ -130,7 +130,7 @@ Both are real animals. Behemoth (Job 40:15-24) is <span dir="rtl">בְּהֵמו
 
 Neither has to be identified for the Lord's argument to land. It depends on Job recognising that he did not make them and cannot subdue them. This is Romans 1:20's *aidios dynamis*, "eternal power", made perceptible through what has been made — acted out narratively centuries before Paul names the principle. Then the speech turns from creature to Creator: "Who then is he who can stand before me? Who has first given to me, that I should repay him?" (Job 41:10-11, ESV). That is the line Paul quotes at the close of Romans 11:35.
 
-**A separate study works through both chapters in detail** — the case from the text that both creatures were real and are now extinct, why the hippopotamus and crocodile identifications fail, the unmarked Hebrew clauses behind the fire of 41:18-21, the other four Leviathan texts in the Old Testament, and where the animals may be attested in the fossil record and in ancient writing. See [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](behemoth-and-leviathan.md).
+**A separate study works through both chapters in detail** — the case from the text that both creatures were real and are now extinct, why the hippopotamus and crocodile identifications fail, the unmarked Hebrew clauses behind the fire of Job 41:18-21, the other four Leviathan texts in the Old Testament, and where the animals may be attested in the fossil record and in ancient writing. See [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](behemoth-and-leviathan.md).
 
 ## What creation still declares
 

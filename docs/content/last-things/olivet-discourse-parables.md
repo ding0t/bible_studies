@@ -76,7 +76,7 @@ ask Him to explain it.
 **The sheep-and-goats judgment rests on an older oracle about the same act.** "I judge between sheep
 and sheep, the rams and the male goats" (Ezekiel 34:17, WEB). Ezekiel spoke it against shepherds who
 fed themselves and let the flock scatter. Three centuries later Jesus takes the same image and puts
-Himself in it as the shepherd who does the sorting (25:32) — the thing Ezekiel said God would come
+Himself in it as the shepherd who does the sorting (Matthew 25:32) — the thing Ezekiel said God would come
 and do personally (34:11-12).
 
 ### Lessons about Jesus
@@ -107,7 +107,7 @@ gathered before Him, and He divides them (25:31-32).
 
 *Shepherd of Israel* is God's, and He said He would come and do it in person: "I, I myself will
 search for my sheep and will seek them out" (Ezekiel 34:11, ESV). In this parable it is Jesus who
-separates the sheep from the goats (25:32).
+separates the sheep from the goats (Matthew 25:32).
 
 Three roles God reserved to Himself, and Jesus occupies all three without a word of explanation.
 
@@ -312,14 +312,14 @@ people in real need, done or withheld. "As you did it… you did it to me" (25:4
 
 ## Discussion Questions
 
-1. Matthew reaches for **οἰκετεία** (*oiketeia*) exactly once, at 24:45, and it names a household
+1. Matthew reaches for **οἰκετεία** (*oiketeia*, G2322) exactly once, at 24:45, and it names a household
    *staff* — so the steward's charge is other servants' food and welfare. What does that one word
    do to what "faithful" means in this parable?
 2. Jesus ends the ten virgins with "Watch therefore" (25:13), in a parable where the wise ones sleep
    through the wait along with the foolish (25:5). How do you hold those two sentences together?
 3. Matthew says Jesus taught in parables "to fulfill what was spoken by the prophet" (13:35),
    quoting Psalm 78:2 — so what the psalm predicted was the *way* He would teach. If God
-   planned a way of teaching that hands over and holds back at once (13:11-13), what does that
+   planned a way of teaching that hands over and holds back at once (Matthew 13:11-13), what does that
    commit you to about how He deals with people who have not understood yet?
 4. Three roles Scripture keeps for God — husband (Isaiah 54:5), judge of all the nations, and the
    shepherd who said "I, I myself will search for my sheep" (Ezekiel 34:11) — are occupied by Jesus

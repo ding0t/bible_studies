@@ -114,7 +114,7 @@ The season was spring. Passover fell two days after the discourse (Matthew 26:2)
 the discourse, on the road into Jerusalem, Jesus had seen "in the distance a fig tree in leaf ... for it was not
 the season for figs" (Mark 11:13, ESV). The disciples were looking at leafing fig trees when Jesus
 said "as soon as its branch becomes tender and puts out its leaves, you know that summer is near."
-The word for summer is θέρος (*theros*).
+The word for summer is θέρος (*theros*, G2330).
 
 ## The Fig Tree, and What It Does Not Say
 
@@ -144,7 +144,7 @@ this parable too, in the sentence immediately after it, and His interpretation i
 from signs: "when you see all these things, you know that he is near." A reader supplying a referent
 the speaker has just declined to supply is working against the text.
 
-**The word is not a cipher in the New Testament.** συκῆ (*sykē*) occurs sixteen times, and most are
+**The word is not a cipher in the New Testament.** συκῆ (*sykē*, G4808) occurs sixteen times, and most are
 plainly ordinary: Nathanael sitting under one (John 1:48, 50), James asking whether a fig tree can
 bear olives (3:12), stars falling as a fig tree drops its fruit in a gale (Revelation 6:13). The
 judgment texts are real, and they are a subset of the sixteen.
@@ -270,7 +270,7 @@ temple got a datable answer. The coming did not.
 The Greek of verse 33 has no subject: ἐγγύς ἐστιν ἐπὶ θύραις (*engys estin epi thyrais*), "is near,
 at the doors." The ESV supplies "he", the NIV "it", and the CSB and LSB both footnote the other
 option. Either way the thing near is the coming of the Son of Man, which verse 30 has just described.
-θύρα (*thyra*, "door") is the word James uses when he tells the churches, "the coming of the Lord is
+θύρα (*thyra*, G2374, "door") is the word James uses when he tells the churches, "the coming of the Lord is
 at hand ... behold, the Judge is standing at the door" (James 5:8-9, ESV), and Matthew uses it again
 a chapter later, in the parable of the ten virgins: "those who were ready went in with him to the
 marriage feast, and the door was shut" (Matthew 25:10, ESV). Near, at the doors, is where someone stands who is about
@@ -279,7 +279,7 @@ to come in.
 ### Words that outlast creation
 
 Verse 35 closes the paragraph: "Heaven and earth will pass away, but my words will not pass away"
-(ESV). The verb is the one verse 34 used of the generation, παρέρχομαι (*parerchomai*, "pass away"),
+(ESV). The verb is the one verse 34 used of the generation, παρέρχομαι (*parerchomai*, G3928, "pass away"),
 and both verses use the emphatic double negative οὐ μή (*ou mē*): the generation will *certainly not*
 pass away until all these things happen, and His words will *certainly not* pass away at all. The
 *ESV Study Bible* notes that Jesus here "attributes divine authority and permanence to his own

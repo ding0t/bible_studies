@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [One Taken, One Left](../../last-things/one-taken-one-left.md) — 2:5-9
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 2:4-5
 - [The Rapture of the Church](../../last-things/rapture.md) — 2:5-9
 - [The Way](../../jesus/the-way.md) — 2:2

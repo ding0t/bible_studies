@@ -35,7 +35,7 @@ Lord treated as authoritative and the tool his first followers reached for to ex
 
 ### Types & Prophecy
 
-**Type.** The Old Testament's institutions function as **σκιά** (*skia*), shadow. Its sacrifices,
+**Type.** The Old Testament's institutions function as **σκιά** (*skia*, G4639), shadow. Its sacrifices,
 its priesthood, its appointed feasts. "The law has but a shadow of the good things to come" (Hebrews
 10:1). They "are a shadow of the things to come, but the substance belongs to Christ" (Colossians
 2:16-17).
@@ -129,7 +129,7 @@ Six things repay a church's attention, each a different angle on the same Old Te
 ### Shadows and types
 
 An Old Testament person, object, or ritual can pattern Christ or the gospel without saying so in
-words — a **τύπος** (*typos*), the word the New Testament itself uses for the mechanism (Romans
+words — a **τύπος** (*typos*, G5179), the word the New Testament itself uses for the mechanism (Romans
 5:14). The tabernacle's sacrifices are the clearest case: they covered sin repeatedly and never
 finally, "since the law has but a shadow of the good things to come instead of the true form of these
 realities" (Hebrews 10:1). Recognising the shadow is what lets a reader recognise the substance when
@@ -138,7 +138,7 @@ such type through in full.
 
 ### Torah
 
-**Torah** — <span dir="rtl">תּוֹרָה</span> (*torah*, pronounced "toh-RAH") — is usually rendered "law" in English, but TWOT glosses
+**Torah** — <span dir="rtl">תּוֹרָה</span> (*torah*, toh-RAH, H8451) — is usually rendered "law" in English, but TWOT glosses
 the underlying root's sense as *direction* — from a verb meaning to teach or to point the way, not
 merely to legislate. That sense matters for how Jesus treated it. "Not an iota, not a dot, will pass
 from the Law until all is accomplished" (Matthew 5:18) — spoken by the same teacher who called it a
@@ -254,8 +254,8 @@ for on the Emmaus road. It loses the thing Paul says you still need for enduranc
 - ESV Bible (Crossway) — primary translation quoted throughout.
 - MACULA Hebrew (WLC) Linguistic Dataset, via this repo's `references/build/bible-text.db` — Hebrew
   forms above.
-- *Theological Wordbook of the Old Testament* (Moody, 1980) — root glosses for תּוֹרָה (*torah*,
-  H8451, "direction") and מוֹעֵד (*moed*, H4150, "appointed time"), via this repo's TWOT lookup tools.
+- *Theological Wordbook of the Old Testament* (Moody, 1980) — root glosses for <span dir="rtl">תּוֹרָה</span> (*torah*,
+  H8451, "direction") and <span dir="rtl">מוֹעֵד</span> (*moed*, H4150, "appointed time"), via this repo's TWOT lookup tools.
 - Mishnah, Sefaria Community Translation (CC0), via [sefaria.org](https://www.sefaria.org) — the
   source behind the Mishnah citations on the Feasts pages linked below.
 

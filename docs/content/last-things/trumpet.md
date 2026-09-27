@@ -230,7 +230,7 @@ not all sleep, but we shall all be changed" (1 Corinthians 15:51, ESV). "The dea
 rise first. Then we who are alive, who are left, will be caught up together with them" (1
 Thessalonians 4:16-17, ESV).
 
-The *ESV Study Bible* identifies the verb behind "caught up" as **ἁρπάζω** (*harpazō*, "to seize
+The *ESV Study Bible* identifies the verb behind "caught up" as **ἁρπάζω** (*harpazō*, G726, "to seize
 suddenly, snatch away"), which is the term the word "rapture" translates. It notes that the three
 sounds Paul describes — a cry of command, an archangel's voice, "the trumpet of God" — together
 summon the dead to rise, before the living join them in the air.[^esvsb-1thess4]

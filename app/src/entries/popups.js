@@ -11,9 +11,13 @@
 import {
   BOOK_ORDER,
   bookName,
+  findBookNames,
   findRefs,
   findStrongs,
+  findWords,
   formatRef,
+  lemmaBefore,
+  namedWork,
   parseRef,
   parseStrongs,
   resolveRelative,
@@ -78,20 +82,24 @@ function trigger(kind, value, text) {
 // Finding references in the page
 
 function scan(root) {
+  const tagged = new Map();
   for (const node of root.querySelectorAll('[data-ref]')) {
     const ref = parseRef(node.dataset.ref);
     if (ref) adopt(node, 'ref', ref);
   }
   for (const node of root.querySelectorAll('[data-strongs]')) {
     const id = parseStrongs(node.dataset.strongs);
-    if (id) adopt(node, 'word', id);
+    if (id) claim(node, id, tagged);
   }
 
-  // Walk elements and text together, in reading order, so a relative "v. 20" can be resolved
-  // against the passage the reader is in: the last reference in the same paragraph, else the
-  // reference in the section heading.
+  // Walk elements and text together, in reading order, so a relative "v. 20" or a bare "5:1" can be
+  // resolved against the passage the reader is in: the last reference or book named in words in the
+  // same paragraph, else the quotation's own reference line, else the section heading's, else the
+  // page's primary_passage (put on the page by hooks/popups.py).
+  const page = parseRef(root.querySelector('[data-primary-passage]')?.dataset.primaryPassage);
   const headings = [];
   const lastInBlock = new WeakMap();
+  const blockText = new WeakMap();
   const texts = [];
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT, {
     acceptNode(node) {
@@ -105,21 +113,45 @@ function scan(root) {
         }
         return node.matches(SKIP) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_SKIP;
       }
-      return /\d/.test(node.data) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
+      return NodeFilter.FILTER_ACCEPT;
     },
   });
   while (walker.nextNode()) {
     const node = walker.currentNode;
     const block = node.parentElement.closest(BLOCK);
+    const quote = node.parentElement.closest('blockquote');
+    const before = (block && blockText.get(block)) || '';
+    if (block) blockText.set(block, before + node.data);
     const matches = [];
-    for (const { start, end, ref } of findRefs(node.data)) {
+    const found = [
+      ...findRefs(node.data),
+      ...findBookNames(node.data).map(({ start, book }) => ({ start, named: { book } })),
+    ].sort((a, b) => a.start - b.start);
+    for (const { start, end, ref, named } of found) {
+      if (named) {
+        if (block) lastInBlock.set(block, named);
+        continue;
+      }
       let resolved = ref;
       if (!ref.book) {
-        const context = (block && lastInBlock.get(block)) || headings[headings.length - 1]?.ref;
-        resolved = resolveRelative(ref, context);
+        if (ref.c1 !== undefined && namedWork(before + node.data.slice(0, start))) continue;
+        // A numbered reference in the same paragraph or cell comes first; a book only named in words
+        // there yields to a table's column header, which names the book for the whole column.
+        const nearest = block && lastInBlock.get(block);
+        const contexts = [
+          nearest?.c1 !== undefined ? nearest : null,
+          columnBook(node),
+          nearest,
+          quote && lastInBlock.get(quote),
+          headings[headings.length - 1]?.ref,
+          page,
+        ];
+        resolved = null;
+        for (const context of contexts) if (!resolved && context) resolved = resolveRelative(ref, context);
         if (!resolved) continue;
-      } else if (block) {
-        lastInBlock.set(block, ref);
+      } else {
+        if (block) lastInBlock.set(block, ref);
+        if (quote && !lastInBlock.has(quote)) lastInBlock.set(quote, ref);
       }
       matches.push({ start, end, kind: 'ref', value: resolved });
     }
@@ -141,24 +173,88 @@ function scan(root) {
     }
     fragment.append(node.data.slice(at));
     node.replaceWith(fragment);
-    for (const made of words) linkWord(made, refs.get(made).value);
+    for (const made of words) linkWord(made, refs.get(made).value, tagged);
   }
+  linkRepeats(root, tagged);
 }
 
-// Studies write a word as <span dir="rtl">גֹּאֵל</span> (*goel*, H1350) or **ἀΐδιος** (*aidios*,
-// G126). The number is the reliable hook, but the reader reaches for the word, so the word in
-// front of the parenthesis opens the same card.
-const ORIGINAL = /[\u0370-\u03FF\u1F00-\u1FFF\u0590-\u05FF]/;
-function linkWord(tag, id) {
+// Studies write a word as <span dir="rtl">גֹּאֵל</span> (*goel*, H1350), **ἀΐδιος** (*aidios*,
+// G126) or plain ἀρραβών (*arrabōn*, G728). The number is the reliable hook, but the reader
+// reaches for the word, so the word in front of the parenthesis opens the same card.
+const ORIGINAL = /[Ͱ-Ͽἀ-῿֐-׿]/;
+function linkWord(tag, id, tagged) {
   let between = '';
   for (let node = tag.previousSibling; node; node = node.previousSibling) {
     if (node.nodeType === Node.ELEMENT_NODE && ORIGINAL.test(node.textContent) && !refs.has(node)) {
-      if (/^\s*\([^()]*$/.test(between)) adopt(node, 'word', id);
+      if (/^\s*\([^()]*$/.test(between)) claim(node, id, tagged);
       return;
+    }
+    if (node.nodeType === Node.TEXT_NODE && node.data.includes('(')) {
+      const found = lemmaBefore(node.data + between);
+      if (found) {
+        if (found.end <= node.data.length) {
+          const word = node.splitText(found.start);
+          word.splitText(found.end - found.start);
+          const wrapped = el('span', {}, word.data);
+          word.replaceWith(wrapped);
+          claim(wrapped, id, tagged);
+        }
+        return;
+      }
+      // Only " (" between the tag and an element: the word is the <span dir="rtl"> or <strong>.
+      if (node.data.slice(0, node.data.lastIndexOf('(')).trim()) return;
     }
     between = node.textContent + between;
     if (between.length > 80 || between.includes(')')) return;
   }
+}
+
+// A word the page has tagged once is the same word when it comes back: ἀρραβών glossed with G728
+// in one section opens G728 wherever else the study names it. A form the page tags with two
+// different numbers is left alone.
+function claim(node, id, tagged) {
+  adopt(node, 'word', id);
+  const words = findWords(node.textContent);
+  if (words.length !== 1) return;
+  const { key } = words[0];
+  tagged.set(key, tagged.has(key) && tagged.get(key) !== id ? null : id);
+}
+
+function linkRepeats(root, tagged) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      if (node.nodeType === Node.ELEMENT_NODE) {
+        return node.matches(SKIP) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_SKIP;
+      }
+      return ORIGINAL.test(node.data) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
+    },
+  });
+  const found = [];
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    const words = findWords(node.data).filter((w) => tagged.get(w.key));
+    if (words.length) found.push({ node, words });
+  }
+  for (const { node, words } of found) {
+    const fragment = document.createDocumentFragment();
+    let at = 0;
+    for (const w of words) {
+      fragment.append(node.data.slice(at, w.start), trigger('word', tagged.get(w.key), node.data.slice(w.start, w.end)));
+      at = w.end;
+    }
+    fragment.append(node.data.slice(at));
+    node.replaceWith(fragment);
+  }
+}
+
+// A table whose column header names the book -- "| Day | Genesis |" over rows of "(1:3-5)".
+function columnBook(node) {
+  const cell = node.parentElement.closest('td');
+  const header = cell?.closest('table')?.querySelectorAll('thead th')[cell.cellIndex];
+  if (!header) return null;
+  const ref = findRefs(header.textContent).find((r) => r.ref.book);
+  const named = findBookNames(header.textContent)[0];
+  return ref ? ref.ref : named ? { book: named.book } : null;
 }
 
 function adopt(node, kind, value) {

@@ -254,7 +254,7 @@ word from "you can lose what you were actually given."
   2:1-10; Romans 8:1-17; John 10:26-29; 2 Peter 1:5-11; Philippians 1:6. Quoted briefly with
   attribution per this site's [copyright policy](../about/copyright.md); ESV Bible text quoted under
   Crossway's stated permissions.
-- *Theological Wordbook of the Old Testament* (TWOT), root 929, יָשַׁע (*yashaʿ*), "deliver" — the
+- *Theological Wordbook of the Old Testament* (TWOT), root 929, <span dir="rtl">יָשַׁע</span> (*yashaʿ*), "deliver" — the
   root behind Jesus' own name.
 - MACULA Greek Linguistic Datasets (Greek NT syntax and morphology, CC BY 4.0) and the SBL Greek New
   Testament, used to verify the *sōzō* wordplay in Acts 4:9-12, the *touto* referent in Ephesians

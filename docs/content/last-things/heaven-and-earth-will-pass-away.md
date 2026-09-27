@@ -206,7 +206,7 @@ now.
 
 The last clause of 2 Peter 3:10 is one of the harder textual problems in the New Testament, and
 English versions differ because the manuscripts do. The Greek of the SBL edition reads
-εὑρεθήσεται (*heurethēsetai*, hyoo-reh-THAY-seh-tai), "will be found," which the ESV renders "will
+εὑρεθήσεται (*heurethēsetai*, hyoo-reh-THAY-seh-tai, G2147), "will be found," which the ESV renders "will
 be exposed." Other manuscripts read "will be burned up" (the LSB and CSB footnote it), and a few
 Syriac and Coptic manuscripts read "will not be found" (CSB footnote), which is the reading the
 NA28 prints. The *ESV Study Bible* takes "will be found" as a divine passive — the earth and every
@@ -270,7 +270,7 @@ by his own authority" (Acts 1:7, ESV). The Thessalonians already knew the answer
 Paul draws on the same discourse for the same purpose, and takes two images from it in two
 consecutive verses: "the day of the Lord will come like a thief in the night" (5:2), and "sudden
 destruction will come upon them as labor pains come upon a pregnant woman" (5:3) — κλέπτης
-(*kleptēs*, "thief") and ὠδίν (*ōdin*, "labour pain"), Matthew 24:43 and 24:8. He then applies it
+(*kleptēs*, G2812, "thief") and ὠδίν (*ōdin*, G5604, "labour pain"), Matthew 24:43 and 24:8. He then applies it
 exactly as Jesus did: "let us keep awake and be sober" (5:6).
 
 ### Children of the day

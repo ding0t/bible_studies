@@ -297,7 +297,7 @@ flesh is in the blood. I have given it to you on the altar to make atonement for
 is the blood that makes atonement by reason of the life"* (Leviticus 17:11, WEB), with being "cut off
 from among his people" as the penalty for eating it (17:10, WEB). So a cup identified as covenant
 blood and handed over to be drunk offers the life that atones, on the inside. Paul's word for what
-happens at that cup is **κοινωνία** (*koinōnia*) — the cup of blessing is "a sharing of the blood of
+happens at that cup is **κοινωνία** (*koinōnia*, G2842) — the cup of blessing is "a sharing of the blood of
 Christ" (1 Corinthians 10:16, WEB).
 
 ### "Eat my flesh, drink my blood": the Capernaum echo
@@ -506,7 +506,7 @@ cross does not meet.
   and is the source for the Exodus 24:8 echo and the vow-of-abstinence category used above.
   Recommended for the fuller verse-by-verse background.
 - Original-language data (γένημα τῆς ἀμπέλου, καινός, διαθήκη, ποτήριον, εὐχαριστήσας, παραλαμβάνω,
-  κοινωνία, לָקַח, זָרַק) and the Louw-Nida domain codes cited in the word study come from this project's own
+  κοινωνία, <span dir="rtl">לָקַח</span>, <span dir="rtl">זָרַק</span>) and the Louw-Nida domain codes cited in the word study come from this project's own
   `bible-text.db` — MACULA Greek (SBLGNT) and MACULA Hebrew (WLC). The Exodus 6:7 Septuagint text is
   Brenton's edition (`ebible-grcbrent`), public domain.
 - On the Luke 22:19b-20 variant: consult a critical apparatus (UBS5/NA28) directly for the

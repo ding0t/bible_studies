@@ -167,7 +167,7 @@ Israel will one day call Him: "you will call me 'My Husband'" (Hosea 2:16, ESV).
 
 Two of those three run on one Hebrew verb, <span dir="rtl">בָּעַל</span> (*baʿal*, H1166) — Isaiah's
 <span dir="rtl">בֹעֲלַיִךְ</span> (*boʿalayik*, "your husband," a participle) and Jeremiah's
-<span dir="rtl">בָּעַלְתִּי</span> (*baʿalti*, "I was a husband"). Hosea's line is a play on the same
+<span dir="rtl">בָּעַלְתִּי</span> (*baʿalti*, H1166, "I was a husband"). Hosea's line is a play on the same
 root, trading <span dir="rtl">בַּעְלִי</span> (*baʿli*) for <span dir="rtl">אִישִׁי</span> (*ishi*).
 
 #### A disputed wording in Jeremiah
@@ -201,7 +201,7 @@ defines the word in the middle of them. The mystery "was not made known to the s
 generations as it has now been revealed to his holy apostles and prophets by the Spirit" (3:5, ESV).
 Kept back, then announced. [Israel and the
 Church](israel-and-the-church.md#what-scripture-means-by-a-mystery) traces that sense to Daniel's
-<span dir="rtl">רָז</span> (*raz*).
+<span dir="rtl">רָז</span> (*raz*, H7328).
 
 Paul then lays that same word on the marriage: "This mystery is profound, and I am saying that it
 refers to Christ and the church" (5:32, ESV). The bridal relation therefore stands on the disclosed
@@ -231,7 +231,7 @@ things already done to the church.
 |---|---|---|---|---|
 | 1 | **[Purchased](#1-purchased-already-yours)** | [Betrothal "by money"](#betrothal-was-marriage-in-law) (*m. Kiddushin* 1:1) | The <span dir="rtl">גֹּאֵל</span> (*goel*) who redeems his kin; "your Redeemer" (Isaiah 54:5) | "you were bought with a price" (1 Corinthians 6:20); "ransomed… with the precious blood of Christ" (1 Peter 1:18-19); "by your blood you ransomed people for God" (Revelation 5:9) |
 | 2 | **[Betrothed](#2-betrothed-already-yours)** | [Betrothal "by document"](#a-wedding-narrative-from-the-period) — the sealed *shtar* (*m. Kiddushin* 1:1; Tobit 7:14) | "I made my vow to you and entered into a covenant with you… and you became mine" (Ezekiel 16:8); "[I will betroth you to me forever](#1-purchased-already-yours)" (Hosea 2:19) | "I betrothed you to one husband" (2 Corinthians 11:2) |
-| 3 | **[Pledged](#3-pledged-already-yours)** | A deposit against the rest of the payment | Judah's <span dir="rtl">עֵרָבוֹן</span> (*erabon*), ἀρραβών (*arrabōn*) in the Greek (Genesis 38:17-20) | "his Spirit in our hearts as a guarantee" (2 Corinthians 1:22); "the guarantee of our inheritance" (Ephesians 1:14) |
+| 3 | **[Pledged](#3-pledged-already-yours)** | A deposit against the rest of the payment | Judah's <span dir="rtl">עֵרָבוֹן</span> (*erabon*, H6162), ἀρραβών (*arrabōn*) in the Greek (Genesis 38:17-20) | "his Spirit in our hearts as a guarantee" (2 Corinthians 1:22); "the guarantee of our inheritance" (Ephesians 1:14) |
 | 4 | **[Set apart](#4-set-apart-already-yours)** | Betrothal as "the sanctification of the bride" (*NIV Cultural Backgrounds Study Bible*, note on Ephesians 5:26) | "Then I bathed you with water… and anointed you with oil" (Ezekiel 16:9) | "you were washed, you were sanctified" (1 Corinthians 6:11); "having cleansed her by the washing of water with the word" (Ephesians 5:26) |
 | 5 | **[Preparing](#5-preparing-where-you-are-now)** | [Twelve months, and the groom prepares through the same twelve](#the-after-betrothal-interval-is-a-time-of-preparation) (*m. Ketubot* 5:2) | — | "I go to prepare a place for you" (John 14:2); "that he might [present the church to himself in splendor](#he-presents-her-holy-and-he-is-the-one-who-makes-her-so)" (Ephesians 5:27); "his Bride has made herself ready" (Revelation 19:7) |
 | 6 | **[Fetched](#6-fetched-still-ahead)** | The groom comes, usually after dark, at a time his family's preparations decide (CBSB, note on Matthew 25:1) | — | "Come out to meet him" (Matthew 25:6); "caught up… to meet the Lord in the air" (1 Thessalonians 4:17) |
@@ -548,11 +548,11 @@ Where else that domain appears is the point:
 
 | Reference | Form | Domain | Sense |
 |---|---|---|---|
-| Matthew 1:20 | παραλαβεῖν (*paralabein*) | **34.53** | "do not fear **to take** Mary as your wife" |
-| Matthew 1:24 | παρέλαβεν (*parelaben*) | **34.53** | "**took** his wife" |
-| **John 14:3** | παραλήμψομαι (*paralēmpsomai*) | **34.53** | "will **take** you to myself" |
-| John 1:11 | παρέλαβον (*parelabon*) | **34.53** | "his own **did not receive** him" |
-| Matthew 24:40-41 | παραλαμβάνεται (*paralambanetai*) | 15.168 | "one **is taken**" — physical removal |
+| Matthew 1:20 | παραλαβεῖν (*paralabein*, G3880) | **34.53** | "do not fear **to take** Mary as your wife" |
+| Matthew 1:24 | παρέλαβεν (*parelaben*, G3880) | **34.53** | "**took** his wife" |
+| **John 14:3** | παραλήμψομαι (*paralēmpsomai*, G3880) | **34.53** | "will **take** you to myself" |
+| John 1:11 | παρέλαβον (*parelabon*, G3880) | **34.53** | "his own **did not receive** him" |
+| Matthew 24:40-41 | παραλαμβάνεται (*paralambanetai*, G3880) | 15.168 | "one **is taken**" — physical removal |
 
 Those are all four of the verb's 34.53 occurrences, and the fourth is the guard on the other three:
 John 1:11 is the same domain with no wedding anywhere near it, so 34.53 is the
@@ -574,7 +574,7 @@ Olivet Discourse](../last-things/olivet-discourse.md#one-taken-one-left).
 
 Paul spends a verse and a half on sequence — the command, the archangel's voice, the trumpet, the
 dead first, then the living — and lands the sentence on a Person and an adverb: πάντοτε σὺν κυρίῳ
-ἐσόμεθα (*pantote syn kyriō esometha*), "we will always be with the Lord." πάντοτε (*pantote*) is *always*. The destination of the
+ἐσόμεθα (*pantote syn kyriō esometha*), "we will always be with the Lord." πάντοτε (*pantote*, G3842) is *always*. The destination of the
 whole arrangement is His company, permanently.
 
 "To meet" is εἰς ἀπάντησιν (*eis apantēsin*, G529). ἀπάντησις occurs three times in the New
@@ -810,12 +810,12 @@ three of them confirming, the fourth qualifying:
 > instrument of covenants, and sealed it. 15 Then they began to eat. 16 After Raguel called his wife
 > Edna, and said unto her, Sister, prepare another chamber, and bring her in thither.
 
-- **A written, sealed marriage covenant** (7:14) — the *shtar*, the second of *m. Kiddushin* 1:1's
+- **A written, sealed marriage covenant** (Tobit 7:14) — the *shtar*, the second of *m. Kiddushin* 1:1's
   three means of betrothal, here in use.
-- **The bride is led to the groom's father** (7:13) — "lead her away to thy father," the arrangement
+- **The bride is led to the groom's father** (Tobit 7:13) — "lead her away to thy father," the arrangement
   the *NIV Cultural Backgrounds Study Bible* describes at Matthew 25:10.
-- **A chamber is prepared for the couple** (7:16), by the bride's household in this case.
-- **An extended feast** of **fourteen** days (8:19-20), double the seven of Genesis 29:27 and Judges
+- **A chamber is prepared for the couple** (Tobit 7:16), by the bride's household in this case.
+- **An extended feast** of **fourteen** days (Tobit 8:19-20), double the seven of Genesis 29:27 and Judges
   14:12. A multi-day feast is the constant; its length varies.
 
 One limit. Tobit's exiles are in Nineveh (1:2) and the wedding is at Ecbatana in Media (3:7), so the
@@ -888,7 +888,7 @@ flowchart TD
   1 Thessalonians 4:13-18 and Revelation 19:9-10, quoted briefly with attribution.
 - MACULA Greek/Hebrew morphology and Louw-Nida semantic domains (open license) — domain and
   occurrence data for παραλαμβάνω (*paralambanō*), μονή (*monē*), ἁρμόζω (*harmozō*), ἀρραβών
-  (*arrabōn*), ἀπάντησις (*apantēsis*), παρίστημι (*paristēmi*), ἄμωμος (*amōmos*), λουτρόν
+  (*arrabōn*), ἀπάντησις (*apantēsis*, G529), παρίστημι (*paristēmi*), ἄμωμος (*amōmos*), λουτρόν
   (*loutron*) and μυστήριον (*mystērion*). Septuagint lemma data for ἀρραβών at Genesis 38.
 - unfoldingWord ULT interlinear alignment (open license) — used to establish the Hebrew of Isaiah 54:5
   (<span dir="rtl">בֹּעֲלַיִךְ</span>, *boʿalayik*).

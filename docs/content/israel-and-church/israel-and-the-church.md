@@ -351,7 +351,7 @@ more than a bare count:
   straight on to Isaac and Ishmael, Jacob and Esau, all inside Abraham's physical line. It is the
   believing remnant, not the Church.
 - **Hebrews 8:8 and 8:10** quote Jeremiah's new-covenant promise inside an argument the letter
-  presses on Christian readers — 8:8 naming "the house of Israel and… the house of Judah," 8:10 "the
+  presses on Christian readers — Hebrews 8:8 naming "the house of Israel and… the house of Judah," 8:10 "the
   house of Israel" alone. The referent *in the quotation* is Jeremiah's; how far Hebrews transfers it
   is a separate and contested question.
 - **Galatians 6:16** is the one occurrence seriously argued as meaning the Church, and it is

@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-09-13
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -104,7 +104,7 @@ studies](last-things/index.md)
 
 ### What does "dispensational" mean here, in practice?
 
-The word itself is Paul's — **οἰκονομία** (*oikonomia*), the administration of a household, used at
+The word itself is Paul's — **οἰκονομία** (*oikonomia*, G3622), the administration of a household, used at
 Ephesians 3:9 of the arrangement now in force; see [dispensationalism](glossary.md#dispensationalism)
 for that. In practice, though, it rests on one commitment above all: that the Bible is the
 authoritative Word of God, over tradition and over human leaders. It is to be read first as written and in context — not as symbolic poetry, and not as
@@ -233,7 +233,7 @@ Three doors, depending on what you came for.
 follows — the questions to ask of a passage, in order. [Key takeaways](about/key-takeaways.md)
 explains what every study is trying to hand you, so the studies read faster. And if you would rather
 start with the thing itself, [The Way](jesus/the-way.md) is a word study that traces one Greek word,
-ὁδός (*hodos*), from Isaiah through John 14:6 into the book of Acts, and shows what this site does
+ὁδός (*hodos*, G3598), from Isaiah through John 14:6 into the book of Acts, and shows what this site does
 with a passage.
 
 ### How is the site organised, and how do I find a passage?

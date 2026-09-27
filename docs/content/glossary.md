@@ -5,7 +5,7 @@ description: "Short definitions of the terms these studies use — interpretive 
 tags: ["glossary", "reference", "method/word-study", "method/textual-criticism"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-09-20
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -73,7 +73,7 @@ kept in practice, as distinct from the commandment itself.
 end. The bracket marks where the unit begins and ends, and often names its theme. Psalm 8 both opens
 and closes with "Yahweh, our Lord, how majestic is your name in all the earth!" (WEB).
 
-**Koinonia**{ #koinonia } — Greek κοινωνία (*koinōnia*), "fellowship, sharing, participation" — the
+**Koinonia**{ #koinonia } — Greek κοινωνία (*koinōnia*, G2842), "fellowship, sharing, participation" — the
 common life of believers and their share in Christ (Acts 2:42).
 
 **Liturgy**{ #liturgy } — The fixed order and wording of public worship. A neutral term: synagogue
@@ -133,7 +133,7 @@ definition — it is a label, so you can tell which word you are looking at.
 → [Gloss](scripture/original-language-data.md#gloss)
 
 **Hapax legomenon**{ #hapax-legomenon } — A word occurring only once in a given body of text —
-θεόπνευστος (*theopneustos*, "God-breathed") at 2 Timothy 3:16 is one for the New Testament. Weight
+θεόπνευστος (*theopneustos*, G2315, "God-breathed") at 2 Timothy 3:16 is one for the New Testament. Weight
 it carefully: with no second occurrence there is no internal control on what the author meant by it.
 
 ### Lemma to Surface form
@@ -152,8 +152,8 @@ an argument turns on the form rather than the word.
 **Semantic domain**{ #semantic-domain } — A code placing a word in a category of meaning, from a
 scholarly classification ([Louw-Nida](#louw-nida) for Greek, [SDBH](#sdbh) for Hebrew). It answers
 what a dictionary cannot: which other words mean something like this one, including words that share
-no letters with it — Louw-Nida `23.93` holds ζάω ("live"), ἀνίστημι ("rise") and ἔγερσις
-("resurrection") together.
+no letters with it — Louw-Nida `23.93` holds ζάω ("live", G2198), ἀνίστημι ("rise", G450) and ἔγερσις
+("resurrection", G1454) together.
 → [Semantic domain](scripture/original-language-data.md#semantic-domain)
 
 **Strong's number**{ #strongs-number } — A number identifying a word in *Strong's Concordance*
@@ -288,7 +288,7 @@ rule](about/about-our-datasets.md#three-tiers-one-rule)
 
 **Louw-Nida**{ #louw-nida } — The standard semantic-domain classification for New Testament Greek,
 by Johannes Louw and Eugene Nida. It is where a Greek word's [semantic domain](#semantic-domain) code
-comes from, and its codes are two-part: ἀγάπη ("love") is `25.43`.
+comes from, and its codes are two-part: ἀγάπη ("love", G26) is `25.43`.
 
 **MACULA**{ #macula } — Open scholarly annotations published by Clear Bible, one set for Hebrew and
 one for Greek, and this site's main source for both. It contains no Bible of its own: it carries a

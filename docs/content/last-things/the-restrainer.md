@@ -109,7 +109,7 @@ not yet appeared:
 > way. 8 And then the lawless one will be revealed, whom the Lord Jesus will kill with the breath of
 > his mouth and bring to nothing by the appearance of his coming.
 
-The verb is κατέχω (*katechō*), to hold back or hold fast. Lawlessness is "already at work" as a
+The verb is κατέχω (*katechō*, G2722), to hold back or hold fast. Lawlessness is "already at work" as a
 mystery, hidden. Its full form, a man, waits until the restrainer is out of the way. And Paul begins
 the whole chapter with "our being gathered together to him" (2:1, ESV), the event he described in 1
 Thessalonians 4:17.
@@ -140,8 +140,8 @@ Paul names the restrainer twice, in two genders. Verse 6 has τὸ κατέχο�
 is restraining." Verse 7 has ὁ κατέχων (*ho katechōn*), masculine, "he who restrains." The *ESV Study
 Bible* notes the same shift (note on 2:5-7).
 
-The Holy Spirit carries both kinds of name in John's Gospel. His name πνεῦμα (*pneuma*), "Spirit," is
-neuter. His title παράκλητος (*paraklētos*), "Helper," is masculine. John 14:26 uses both in one
+The Holy Spirit carries both kinds of name in John's Gospel. His name πνεῦμα (*pneuma*, G4151), "Spirit," is
+neuter. His title παράκλητος (*paraklētos*, G3875), "Helper," is masculine. John 14:26 uses both in one
 sentence: "But the Helper, the Holy Spirit, whom the Father will send in my name, he will teach you
 all things" (ESV). There the neuter "whom" (ὅ) follows "Spirit," and the masculine "he" (ἐκεῖνος)
 takes up "Helper." John 16:13 sets the two side by side: ἐκεῖνος, τὸ πνεῦμα τῆς ἀληθείας, "he, the
@@ -183,7 +183,7 @@ in the world is God's restraint on lawlessness in this age.
 ### Paul's phrase
 
 "Until he is out of the way" is ἕως ἐκ μέσου γένηται (*heōs ek mesou genētai*), literally "until he
-comes to be out of the midst." The verb γίνομαι (*ginomai*) means "become, come to be." The clause
+comes to be out of the midst." The verb γίνομαι (*ginomai*, G1096) means "become, come to be." The clause
 names no one who removes him; it says he comes to be out of the midst. [The Rapture of the
 Church](rapture.md#what-verse-7-actually-says-about-the-going) sets out that grammar in full.
 
@@ -198,7 +198,7 @@ midst, and be separate from them" (2 Corinthians 6:17, ESV).
 
 Paul also tells the church where she stands now. Believers are "children of God without blemish in the
 midst of a crooked and twisted generation, among whom you shine as lights in the world" (Philippians
-2:15, ESV). "In the midst" is μέσον (*meson*), the same word. The church stands in the midst of the
+2:15, ESV). "In the midst" is μέσον (*meson*, G3319), the same word. The church stands in the midst of the
 world now. 2 Thessalonians 2:7 does not say what the restrainer comes out of the midst of; read with
 Philippians 2:15, this study takes it as the world where the church now stands.
 
@@ -218,18 +218,18 @@ Salkinson–Ginsburg carries the same word through all three verses:
 <span dir="rtl">מִתּוֹךְ</span> at 2 Thessalonians 2:7, <span dir="rtl">בְּתוֹךְ</span> at
 Philippians 2:15 and <span dir="rtl">מִתּוֹכָם</span> at 2 Corinthians 6:17. It names the restrainer
 <span dir="rtl">הָעֹצֵר</span> (*ha-otser*), "the one who holds back," from
-<span dir="rtl">עָצַר</span> (*atsar*), and adds <span dir="rtl">הַמְּסִילָּה</span> (*ha-mesillah*),
+<span dir="rtl">עָצַר</span> (*atsar*, H6113), and adds <span dir="rtl">הַמְּסִילָּה</span> (*ha-mesillah*),
 "the road," which has no counterpart in the Greek; whether it is the translator supplying the idiom
 behind English "out of the way" is an open question. Both translations use a passive verb —
 Delitzsch <span dir="rtl">שיוסר</span> (*she-yusar*), Salkinson–Ginsburg
-<span dir="rtl">יוּסַר</span> (*yusar*), "he will be removed" — which supplies an agent the Greek
+<span dir="rtl">יוּסַר</span> (*yusar*, H5493), "he will be removed" — which supplies an agent the Greek
 leaves unstated.
 
 ### Caught up
 
 On this reading, the rapture is that moment. "We who are alive, who are left, will be caught up together with them in
 the clouds to meet the Lord in the air" (1 Thessalonians 4:17, ESV). "Caught up" is ἁρπαγησόμεθα, from
-ἁρπάζω (*harpazō*), to snatch. The church is taken out of the midst, and the Spirit's restraining
+ἁρπάζω (*harpazō*, G726), to snatch. The church is taken out of the midst, and the Spirit's restraining
 presence in her goes with her. Then "the lawless one will be revealed" (2 Thessalonians 2:8, ESV).
 
 **This shows that God keeps His people out of the wrath to come.** The same event that ends the

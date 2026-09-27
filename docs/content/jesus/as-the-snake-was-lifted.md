@@ -225,8 +225,8 @@ Where else the verb appears is what gives the choice its weight. The Septuagint 
 Servant Song with it: **Ἰδοὺ συνήσει ὁ παῖς μου, καὶ ὑψωθήσεται καὶ δοξασθήσεται σφόδρα** (Isaiah
 52:13, Brenton LXX) — rendered literally, "Behold, my servant will understand, and he will be lifted
 up and glorified exceedingly." Behind the Greek the Hebrew stacks three verbs of exaltation,
-<span dir="rtl">יָרוּם</span> *yarum*, <span dir="rtl">וְנִשָּׂא</span> *venissa*, and
-<span dir="rtl">וְגָבַהּ</span> *vegavah* (H7311 / H5375 / H1361): "he will be high, and lifted up,
+<span dir="rtl">יָרוּם</span> (*yarum*, H7311), <span dir="rtl">וְנִשָּׂא</span> (*venissa*, H5375)
+and <span dir="rtl">וְגָבַהּ</span> (*vegavah*, H1361): "he will be high, and lifted up,
 and greatly exalted."
 
 John's vocabulary then splits along a clean line. Every saying about Jesus's death spoken *before* it

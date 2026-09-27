@@ -51,8 +51,8 @@ willing to destroy for you, but by whom we are willing to love.
 
 ## The name
 
-<span lang="grc">Ἰωάννης</span> (*Iōannēs*, ee-o-AN-nace), from Hebrew
-<span dir="rtl">יוֹחָנָן</span> *Yochanan* (yo-khah-NAHN), a shortened form of *Yehochanan*:
+<span lang="grc">Ἰωάννης</span> (*Iōannēs*, ee-o-AN-nace, G2491), from Hebrew
+<span dir="rtl">יוֹחָנָן</span> (*Yochanan*, yo-khah-NAHN, H3110), a shortened form of *Yehochanan*:
 "Yahweh has been gracious."
 
 ## Background

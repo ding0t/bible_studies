@@ -53,13 +53,13 @@ forgive.
 
 ## The name
 
-**Judas** — <span lang="grc">Ἰούδας</span> (*Ioudas*, ee-oo-DAHSS), from
-<span dir="rtl">יְהוּדָה</span> *Yehudah* (yeh-hoo-DAH), "praised" (Genesis 29:35). It was among the
+**Judas** — <span lang="grc">Ἰούδας</span> (*Ioudas*, ee-oo-DAHSS, G2455), from
+<span dir="rtl">יְהוּדָה</span> (*Yehudah*, yeh-hoo-DAH, H3063), "praised" (Genesis 29:35). It was among the
 most common Jewish names of the period, and honourable — the name of a patriarch, a tribe, and Judas
 Maccabeus. Two of the Twelve carried it, which is why John has to specify "Judas (not Iscariot)"
 elsewhere (John 14:22).
 
-**Iscariot** — <span lang="grc">Ἰσκαριώτης</span> (*Iskariōtēs*). The derivation is **disputed**,
+**Iscariot** — <span lang="grc">Ἰσκαριώτης</span> (*Iskariōtēs*, G2469). The derivation is **disputed**,
 and this study will not pretend otherwise. The two main proposals:
 
 1. **"Man of Kerioth"** — Hebrew <span dir="rtl">אִישׁ קְרִיּוֹת</span> *ish-Qeriyot*, a town in
@@ -130,8 +130,8 @@ to say the accounts emphasise different things and are not obviously irreconcila
 a reconstruction as though Scripture supplied it.
 
 Matthew's word for Judas' response: he "changed his mind" —
-<span lang="grc">μεταμέλομαι</span> (*metamelomai*), regret or remorse — rather than
-<span lang="grc">μετανοέω</span> (*metanoeō*), the ordinary New Testament word for repentance. He
+<span lang="grc">μεταμέλομαι</span> (*metamelomai*, G3338), regret or remorse — rather than
+<span lang="grc">μετανοέω</span> (*metanoeō*, G3340), the ordinary New Testament word for repentance. He
 felt the weight of it, said the true thing ("I have sinned by betraying innocent blood"), said it to
 the wrong people, and did not go back to Jesus. Peter denied and returned; Judas regretted and did
 not.

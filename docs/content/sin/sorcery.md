@@ -184,7 +184,7 @@ a fixed pair across the Old Testament, and every occurrence concerns consulting 
 ## The hinge: who you listen to
 
 The turn from verse 14 to verse 15 runs on one repeated verb. In verse 14 the nations
-<span dir="rtl">יִשְׁמָעוּ</span> (*yišmāʿû*, "they listen") to soothsayers and diviners. In verse 15
+<span dir="rtl">יִשְׁמָעוּ</span> (*yišmāʿû*, H8085, "they listen") to soothsayers and diviners. In verse 15
 Israel is told <span dir="rtl">תִּשְׁמָעוּן</span> (*tišmāʿûn*, "you shall listen") to the coming
 prophet. It is the same verb, <span dir="rtl">שָׁמַע</span> (*šāmaʿ*, H8085), in consecutive
 sentences, once of the nations and once of Israel. Between them stands a blunt Hebrew clause:
@@ -387,7 +387,7 @@ Revelation's four occurrences fall into two groups.
 
 Two describe humanity under judgment refusing to change: those who "did not repent of their murders
 or their sorceries or their sexual immorality or their thefts" (9:21), and Babylon, of whom it is
-said that "all nations were deceived by your sorcery" (18:23).
+said that "all nations were deceived by your sorcery" (Revelation 18:23).
 
 That verse is built from Old Testament material. The *NIV Cultural Backgrounds Study Bible* notes
 that Isaiah supplies the concept — Babylon judged "in spite of your many sorceries and the great

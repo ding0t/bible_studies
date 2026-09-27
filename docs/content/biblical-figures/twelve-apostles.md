@@ -169,7 +169,7 @@ structure is reflecting something real rather than accidental.
 ## Matthew's list is six pairs, and English hides it
 
 Matthew builds his list differently from Mark, and the difference is in the Greek grammar rather
-than in the words. Matthew joins names with <span lang="grc">καί</span> (*kai*, "and") *inside* each
+than in the words. Matthew joins names with <span lang="grc">καί</span> (*kai*, G2532, "and") *inside* each
 pair, then drops the conjunction entirely *between* pairs:
 
 > Simon who is called Peter **and** Andrew his brother, James the son of Zebedee **and** John his
@@ -228,7 +228,7 @@ authority of the sender. The word is about commission, not education.
 
 The sequence in verse 13 is precise: he called the *disciples* — the wide group — chose twelve
 **from among them**, and *named* them apostles. The Greek verb is
-<span lang="grc">ὠνόμασεν</span> (*ōnomasen*), "he named." The title is conferred, not earned.
+<span lang="grc">ὠνόμασεν</span> (*ōnomasen*, G3687), "he named." The title is conferred, not earned.
 
 A textual note that strengthens rather than weakens the point: Mark 3:14 also contains the clause
 "whom he also named apostles," but **some manuscripts omit it** — both the CSB and the NLT flag the
@@ -305,24 +305,24 @@ supplies — where a meaning is uncertain, it is marked so.
 
 | # | Name | Original | Meaning | Background |
 |---|---|---|---|---|
-| 1 | Simon Peter | <span lang="grc">Σίμων Πέτρος</span> | *Simon* from Hebrew <span dir="rtl">שִׁמְעוֹן</span> *Shimʿon*, "he has heard"; *Peter* / Aramaic *Cephas*, "rock" | Fisherman, Bethsaida and Capernaum |
+| 1 | Simon Peter | <span lang="grc">Σίμων Πέτρος</span> | *Simon* from Hebrew <span dir="rtl">שִׁמְעוֹן</span> (*Shimʿon*, H8095), "he has heard"; *Peter* / Aramaic *Cephas*, "rock" | Fisherman, Bethsaida and Capernaum |
 | 2 | Andrew | <span lang="grc">Ἀνδρέας</span> | A Greek name, from <span lang="grc">ἀνήρ</span> *anēr*, "man" — "manly" | Fisherman; Peter's brother; first a disciple of John the Baptist |
-| 3 | James son of Zebedee | <span lang="grc">Ἰάκωβος</span> | Jacob, <span dir="rtl">יַעֲקֹב</span> *Yaʿaqob*, "heel-grabber, supplanter" | Fisherman; first apostle martyred (Acts 12:2) |
-| 4 | John | <span lang="grc">Ἰωάννης</span> | <span dir="rtl">יוֹחָנָן</span> *Yochanan*, "Yahweh has been gracious" | Fisherman; James's brother; both named Sons of Thunder |
+| 3 | James son of Zebedee | <span lang="grc">Ἰάκωβος</span> | Jacob, <span dir="rtl">יַעֲקֹב</span> (*Yaʿaqob*, H3290), "heel-grabber, supplanter" | Fisherman; first apostle martyred (Acts 12:2) |
+| 4 | John | <span lang="grc">Ἰωάννης</span> | <span dir="rtl">יוֹחָנָן</span> (*Yochanan*, H3110), "Yahweh has been gracious" | Fisherman; James's brother; both named Sons of Thunder |
 | 5 | Philip | <span lang="grc">Φίλιππος</span> | A Greek name — *philos* + *hippos*, "lover of horses" | Bethsaida, same town as Andrew and Peter |
 | 6 | Bartholomew | <span lang="grc">Βαρθολομαῖος</span> | Aramaic *bar-Talmai*, "son of Talmai" — a patronymic, not a personal name | Traditionally identified with Nathanael of Cana (see below) |
-| 7 | Thomas | <span lang="grc">Θωμᾶς</span> | Aramaic <span dir="rtl">תְּאוֹמָא</span> *teʾoma*, "twin"; Greek *Didymus* means the same (John 11:16) | Unrecorded; whose twin is never said |
-| 8 | Matthew | <span lang="grc">Μαθθαῖος</span> | <span dir="rtl">מַתִּתְיָה</span> *Mattityah*, "gift of Yahweh"; also called Levi, "attached" | Tax collector (<span lang="grc">τελώνης</span>, *telōnēs*) under Rome |
+| 7 | Thomas | <span lang="grc">Θωμᾶς</span> | Aramaic <span dir="rtl">תְּאוֹמָא</span> (*teʾoma*), "twin"; Greek *Didymus* means the same (John 11:16) | Unrecorded; whose twin is never said |
+| 8 | Matthew | <span lang="grc">Μαθθαῖος</span> | <span dir="rtl">מַתִּתְיָה</span> (*Mattityah*, H4993), "gift of Yahweh"; also called Levi, "attached" | Tax collector (<span lang="grc">τελώνης</span>, *telōnēs*) under Rome |
 | 9 | James son of Alphaeus | <span lang="grc">Ἰάκωβος</span> | As above; *Alphaeus* is of uncertain derivation | Nothing recorded beyond the lists |
 | 10 | Thaddaeus / Judas son of James | <span lang="grc">Θαδδαῖος</span> | **Uncertain.** Strong's declines to derive it | Speaks once (John 14:22) |
-| 11 | Simon the Zealot | <span lang="grc">Καναναῖος</span> / <span lang="grc">Ζηλωτής</span> | Aramaic <span dir="rtl">קַנְאָן</span> *qanʾan*, "zealous" — **not** "Canaanite" | Zealot, or of zealot temperament |
+| 11 | Simon the Zealot | <span lang="grc">Καναναῖος</span> / <span lang="grc">Ζηλωτής</span> | Aramaic <span dir="rtl">קַנְאָן</span> (*qanʾan*), "zealous" — **not** "Canaanite" | Zealot, or of zealot temperament |
 | 12 | Judas Iscariot | <span lang="grc">Ἰούδας Ἰσκαριώτης</span> | *Judah*, "praised"; *Iscariot* probably *ish-Qeriyoth*, "man of Kerioth" | Kept the money box (John 12:6); betrayed Jesus |
 
 Three notes on that table, because each is a place where confident-sounding tradition outruns the
 text.
 
 **Simon the Cananaean is not a Canaanite.** Matthew and Mark call him
-<span lang="grc">Καναναῖος</span> (*Kananaios*), which the KJV rendered "Simon the Canaanite" —
+<span lang="grc">Καναναῖος</span> (*Kananaios*, G2581), which the KJV rendered "Simon the Canaanite" —
 and Strong's itself flags that as an error, noting the word was mistaken for a derivative of
 <span lang="grc">Χαναάν</span>, "Canaan." It is Aramaic *qanʾan*, "zealous one." Luke simply
 translates it into Greek for his readers: <span lang="grc">Ζηλωτής</span>, *Zēlōtēs*, "Zealot"

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [One Taken, One Left](../../last-things/one-taken-one-left.md) — 17:26-37 (primary passage)
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 17:21
 - [The Rapture of the Church](../../last-things/rapture.md) — 17:28-30
 <!-- commentary-index:auto-end -->

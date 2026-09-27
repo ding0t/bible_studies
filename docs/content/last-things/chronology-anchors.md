@@ -221,7 +221,7 @@ and the two-to-four-day slack in each.
 
 ### John 2:20: neutral between both years
 
-**John 2:20 turns out to be neutral.** The Greek reads *Τεσσεράκοντα καὶ ἓξ ἔτεσιν οἰκοδομήθη ὁ ναὸς οὗτος* — an aorist, οἰκοδομήθη ("was built"), and ναός, the sanctuary proper rather than the whole ἱερόν complex. Josephus has Herod building the naos in eighteen months from his eighteenth year, finishing around 18/17 BC, while the wider precinct was unfinished until the AD 60s. So the dative ἔτεσιν carries two defensible senses, and each pairs with one candidate to give a ministry of about three years:
+**John 2:20 turns out to be neutral.** The Greek reads *Τεσσεράκοντα καὶ ἓξ ἔτεσιν οἰκοδομήθη ὁ ναὸς οὗτος* — an aorist, οἰκοδομήθη ("was built", G3618), and ναός, the sanctuary proper rather than the whole ἱερόν complex. Josephus has Herod building the naos in eighteen months from his eighteenth year, finishing around 18/17 BC, while the wider precinct was unfinished until the AD 60s. So the dative ἔτεσιν carries two defensible senses, and each pairs with one candidate to give a ministry of about three years:
 
 | Reading | Counts from | First Passover | Fits |
 |---|---|---|---|
@@ -292,7 +292,7 @@ Sabbatical and jubilee cycles are used on this page only where Scripture attache
 - **Kurkh Monolith** and the **Black Obelisk of Shalmaneser III** — Ahab at Qarqar, and Jehu's tribute.
 - **Sennacherib's Annals (Taylor Prism)** — the 701 BC campaign, naming Hezekiah.
 - **Bubastite Portal, Karnak** — Shoshenq I's campaign list.
-- **1 Maccabees** — 1:54, 1:59, 4:52-59 (the desecration and rededication dates) and 6:49, 53 (the sabbatical year at Beth-zur). NOT held in this repo's `bible-text.db`, so cited by reference without local verification.
+- **1 Maccabees** — 1:54, 1:59, 4:52-59 (the desecration and rededication dates) and 1 Maccabees 6:49, 53 (the sabbatical year at Beth-zur). NOT held in this repo's `bible-text.db`, so cited by reference without local verification.
 - **Josephus, *Antiquities*** 13.234 and 14.475 — the two later attested sabbatical years; 15.380 for Herod's temple works.
 - **Ben Zion Wacholder** and **Benedict Zuckermann** — the two competing reconstructions of the sabbatical cycle, differing by one year.
 - [Genealogy and Times](genealogy-times.md) — the elastic zone before Abraham, and the manuscript variants.

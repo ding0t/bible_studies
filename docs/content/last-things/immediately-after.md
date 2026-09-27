@@ -110,10 +110,10 @@ Daniel 9 is dated to "the first year of Darius" (9:1), 539 BC on the *ESV Study 
 (note on 9:1-27), when Daniel was an old man in Babylon. Jeremiah's seventy years were nearly up, and
 Daniel confessed Israel's sin and asked God to restore the city "called by your name" (9:19, ESV).
 
-Gabriel answered with a count in שָׁבֻעִים (*shavu'im*, "sevens" or "weeks"). The seventy sevens are
+Gabriel answered with a count in <span dir="rtl">שָׁבֻעִים</span> (*shavu'im*, H7620, "sevens" or "weeks"). The seventy sevens are
 "decreed about your people and your holy city" (9:24, ESV), and they carry six purposes: to finish the
 transgression, to put an end to sin, "to atone for iniquity," to bring in everlasting righteousness,
-to seal vision and prophet, and to anoint a most holy place. "To atone" is כַפֵּר (*kapper*), the verb
+to seal vision and prophet, and to anoint a most holy place. "To atone" is <span dir="rtl">כַפֵּר</span> (*kapper*, H3722), the verb
 of the Day of Atonement. Daniel asked for his city to be rebuilt; God answered with the whole plan for
 dealing with Israel's sin.
 
@@ -133,7 +133,7 @@ discourse is in [The Olivet Discourse](olivet-discourse.md).
 ### What "immediately" means for the timeline
 
 "Immediately after the tribulation of those days the sun will be darkened" (24:29, ESV). εὐθέως
-(*eutheōs*) is *immediately*, and Matthew uses it thirteen times. It is the word for the fishermen who
+(*eutheōs*, G2112) is *immediately*, and Matthew uses it thirteen times. It is the word for the fishermen who
 "immediately... left their nets" (4:20, ESV) and for the rooster that crowed "immediately" after
 Peter's third denial (26:74, ESV). Each time, the second event follows the first at once.
 
@@ -206,7 +206,7 @@ the gap there, between the sixty-ninth week and the seventieth, as the next sect
 Daniel's sequence, read in its own order, generates the gap. Sixty-nine weeks, sevens of years, run
 "from the going out of the word to restore and build Jerusalem to the coming of an anointed one"
 (9:25). "After the sixty-two weeks," that is, after all sixty-nine, "an anointed one shall be cut off
-and shall have nothing" (9:26): the crucifixion. The anointed one is מָשִׁיחַ (*mashiach*), the word
+and shall have nothing" (9:26): the crucifixion. The anointed one is <span dir="rtl">מָשִׁיחַ</span> (*mashiach*), the word
 behind "Messiah." *Then* the text turns to "the people of the prince who is to come," who "destroy the
 city and the sanctuary" (9:26): AD 70, the Roman armies under Titus. Only after all of that does the
 seventieth week appear, and it is tied to a third event, still future: "he shall make a strong
@@ -332,7 +332,7 @@ began at the cross. So you, who are saved by that same atonement now, may look f
 
 ## Discussion Questions
 
-1. Daniel 9:24 promises "to atone for iniquity" using כַפֵּר (*kapper*), the Day of Atonement verb.
+1. Daniel 9:24 promises "to atone for iniquity" using <span dir="rtl">כַפֵּר</span> (*kapper*), the Day of Atonement verb.
    What does it tell you about God's plan that Daniel's request to rebuild a city was answered with a
    promise about sin?
 2. Daniel prayed "Delay not" (9:19), and God answered with a count of 490 years. How does Gabriel's

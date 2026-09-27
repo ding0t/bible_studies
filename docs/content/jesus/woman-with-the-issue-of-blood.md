@@ -187,7 +187,7 @@ The place it hangs is the <span dir="rtl">כָּנָף</span> (*kānāp̄*, H367
 "wing" and "corner/edge of a garment," and which is about to do a great deal of work.
 
 **The Greek link is exact, and checkable.** When the Septuagint — the pre-Christian Greek translation
-of the Old Testament — renders Numbers 15:38, it translates *tsitsit* with **κράσπεδα** (*kraspeda*)
+of the Old Testament — renders Numbers 15:38, it translates *tsitsit* with **κράσπεδα** (*kraspeda*, G2899)
 and *kānāp̄* with **πτερύγια** (*pterygia*, "little wings"), keeping the wing/corner double sense in
 Greek:
 
@@ -270,7 +270,7 @@ as one trades a checkable observation for an unsupportable claim.
   5:28); Jesus says "your faith has made you well" (σέσωκέν, 5:34). This is the ordinary New
   Testament verb for salvation, which invites over-reading. MACULA's
   Louw-Nida tagging in this project's `bible-text.db` puts both occurrences in domain **23.136**,
-  physical healing — the same domain as ἰάομαι (*iaomai*), the unambiguously physical healing verb
+  physical healing — the same domain as ἰάομαι (*iaomai*, G2390), the unambiguously physical healing verb
   Mark uses two verses earlier at 5:29. Physical healing is the controlling sense here. That said,
   the exact phrase "your faith has made you well" (ἡ πίστις σου σέσωκέν σε) recurs word for word at
   Mark 10:52 to blind Bartimaeus, so Mark is at least linking his faith-and-healing scenes

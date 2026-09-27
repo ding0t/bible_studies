@@ -80,7 +80,7 @@ Lord, you promised to come again for your own, personally, not as an afterthough
 
 ## The word behind "rapture": ἁρπάζω
 
-The English word "rapture" doesn't translate anything directly — it comes from the Latin Vulgate's *rapiemur* ("we will be caught up"), itself a translation of the Greek verb used in 1 Thessalonians 4:17 (ESV): **ἁρπάζω** (*harpazō*, pronounced har-PAD-zo, Strong's G726), "to seize, snatch, or catch away by force."
+The English word "rapture" doesn't translate anything directly — it comes from the Latin Vulgate's *rapiemur* ("we will be caught up"), itself a translation of the Greek verb used in 1 Thessalonians 4:17 (ESV): **ἁρπάζω** (*harpazō*, har-PAD-zo, G726), "to seize, snatch, or catch away by force."
 
 **Where the word comes from.** In classical and koine Greek, ἁρπάζω is ordinary language for forcible seizure — a wolf snatching prey, a robber seizing goods, a kidnapper taking a person against their will. Its core sense is *sudden, forceful removal*, and that sense carries through every New Testament use.
 
@@ -147,14 +147,14 @@ This is glorification, the last stage of your salvation, and God will complete i
 > 36 "But concerning that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father only. 37 For as were the days of Noah, so will be the coming of the Son of Man. 38 For as in those days before the flood they were eating and drinking, marrying and giving in marriage, until the day when Noah entered the ark, 39 and they were unaware until the flood came and swept them all away, so will be the coming of the Son of Man. 40 Then two men will be in the field; one will be taken and one left. 41 Two women will be grinding at the mill; one will be taken and one left. 42 Therefore, stay awake, for you do not know on what day your Lord is coming. 43 But know this, that if the master of the house had known in what part of the night the thief was coming, he would have stayed awake and would not have let his house be broken into. 44 Therefore you also must be ready, for the Son of Man is coming at an hour you do not expect."
 
 - No sign is given here for the rapture to wait on — contrast the specific, sequenced signs Jesus gives for the second coming earlier in the same chapter (Matthew 24:4-31). That contrast is itself an argument for two distinct comings, and [The Olivet Discourse](olivet-discourse.md) works through those signs in detail. On verse 36's "nor the Son", and what it does and does not say about Christ's knowledge, see [The Day No One Knows](../jesus/the-day-no-one-knows.md).
-- The point of comparison is being *unprepared*, not being removed. The flood generation was "eating and drinking, marrying and giving in marriage… and they were unaware until the flood came" (24:38-39). Noah is not the one taken out of the scene here; he is the one sealed into the ark while the water falls on the world around him, which is why this passage models preservation *through* judgment and why the ark is not a picture of the rapture.
+- The point of comparison is being *unprepared*, not being removed. The flood generation was "eating and drinking, marrying and giving in marriage… and they were unaware until the flood came" (Matthew 24:38-39). Noah is not the one taken out of the scene here; he is the one sealed into the ark while the water falls on the world around him, which is why this passage models preservation *through* judgment and why the ark is not a picture of the rapture.
 - "You also must be ready" — the imminence isn't a detail to work out; it's the point of the passage.
 
-This shows that God keeps the day in His own hand and asks you for readiness: watch for Jesus Himself every day, because He is coming at an hour you do not expect (24:44).
+This shows that God keeps the day in His own hand and asks you for readiness: watch for Jesus Himself every day, because He is coming at an hour you do not expect (Matthew 24:44).
 
 ### Why "one taken, one left" is not part of this case
 
-"One will be taken and one left" (24:40-41) is regularly quoted as proof of a pretribulational
+"One will be taken and one left" (Matthew 24:40-41) is regularly quoted as proof of a pretribulational
 rapture. It will not carry that weight. Neither verb carries a verdict lexically, and in the Noah
 illustration these two verses complete, the ones swept away are the wicked and the man left standing
 on the earth is Noah. [The Olivet Discourse](olivet-discourse.md) works this through.
@@ -177,14 +177,14 @@ out against the corpus, that argument mostly fails, and a different one takes it
 
 | Greek term | In the rapture passages | In the visible-coming passages | Separates them? |
 |---|---|---|---|
-| **παρουσία** (*parousia*, "arrival, presence") | 1 Thess 4:15; 1 Cor 15:23; 2 Thess 2:1 | Matt 24:27, 37, 39; 2 Thess 2:8 | No |
-| **ἀποκάλυψις** (*apokalypsis*, "unveiling") | 1 Cor 1:7; 1 Pet 1:7, 13 | 2 Thess 1:7 | No |
-| **ἐπιφάνεια** (*epiphaneia*, "appearing") | Titus 2:13 | 2 Thess 2:8 | No |
-| **ἐπισυνάγω / ἐπισυναγωγή** ("gather together") | 2 Thess 2:1 | Matt 24:31; Mark 13:27 | No |
-| **σάλπιγξ** (*salpinx*, "trumpet") | 1 Thess 4:16; 1 Cor 15:52 | Matt 24:31 | No |
-| **ἄγγελος** ("angel") | 1 Thess 4:16 — an archangel's *voice* | Matt 24:31; 2 Thess 1:7 — angels *sent*, and accompanying | Partly |
+| **παρουσία** (*parousia*, G3952, "arrival, presence") | 1 Thess 4:15; 1 Cor 15:23; 2 Thess 2:1 | Matt 24:27, 37, 39; 2 Thess 2:8 | No |
+| **ἀποκάλυψις** (*apokalypsis*, G602, "unveiling") | 1 Cor 1:7; 1 Pet 1:7, 13 | 2 Thess 1:7 | No |
+| **ἐπιφάνεια** (*epiphaneia*, G2015, "appearing") | Titus 2:13 | 2 Thess 2:8 | No |
+| **ἐπισυνάγω / ἐπισυναγωγή** ("gather together", G1997) | 2 Thess 2:1 | Matt 24:31; Mark 13:27 | No |
+| **σάλπιγξ** (*salpinx*, G4536, "trumpet") | 1 Thess 4:16; 1 Cor 15:52 | Matt 24:31 | No |
+| **ἄγγελος** ("angel", G32) | 1 Thess 4:16 — an archangel's *voice* | Matt 24:31; 2 Thess 1:7 — angels *sent*, and accompanying | Partly |
 | **ἁρπάζω** (*harpazō*, "snatch away") | 1 Thess 4:17 | — | **Yes** |
-| **ἀπάντησις** (*apantēsis*, "meeting") | 1 Thess 4:17 | — | **Yes** |
+| **ἀπάντησις** (*apantēsis*, G529, "meeting") | 1 Thess 4:17 | — | **Yes** |
 
 Five of the eight terms appear on both sides. The two that are genuinely one-sided both sit in the
 same verse, 1 Thessalonians 4:17 — so the vocabulary argument reduces to a single sentence of Paul's
@@ -218,10 +218,10 @@ include her. Four lines of evidence say it does.
 
 #### The fabric linking the armies and the Bride
 
-**The fabric.** The armies wear **βύσσινον λευκὸν καθαρόν**, "fine linen, white and pure" (19:14).
+**The fabric.** The armies wear **βύσσινον λευκὸν καθαρόν**, "fine linen, white and pure" (Revelation 19:14).
 Six verses earlier the bride is granted **βύσσινον λαμπρὸν καθαρόν**, "fine linen, bright and pure"
 (19:8) — two of the three words identical. When John dresses angels he reaches for a different noun:
-the seven angels of 15:6 wear **λίνον** καθαρὸν λαμπρόν, same participle *ἐνδεδυμένοι*, different
+the seven angels of Revelation 15:6 wear **λίνον** καθαρὸν λαμπρόν, same participle *ἐνδεδυμένοι*, different
 cloth. So the armies are dressed as the Bride is, not as the angels are.
 
 #### The company at the Lamb's war
@@ -282,7 +282,7 @@ sits](#where-the-supper-sits-and-what-the-bride-is-wearing) works that through.
 ### What verse 7 actually says about the going
 
 "Until he is out of the way" is **ἕως ἐκ μέσου γένηται** (*heōs ek mesou genētai*), "until he comes
-to be out of the midst." The verb is **γίνομαι** (*ginomai*), "become, come to be," in the aorist
+to be out of the midst." The verb is **γίνομαι** (*ginomai*, G1096), "become, come to be," in the aorist
 middle subjunctive, and the clause names no one who removes him: the construction is intransitive.
 The restrainer comes to be out of the midst. [The Restrainer](the-restrainer.md#out-of-the-midst)
 follows Paul's phrase through his letters.
@@ -364,21 +364,21 @@ Revelation puts the wedding at a specific point.
 > "Write this: Blessed are those who are invited to the marriage supper of the Lamb." And he said to
 > me, "These are the true words of God."
 
-Two verses later heaven opens and the rider on the white horse goes out (19:11). So in Revelation's
+Two verses later heaven opens and the rider on the white horse goes out (Revelation 19:11). So in Revelation's
 own order the marriage **has come** — ἦλθεν, aorist — and the bride **has made herself ready** —
 ἡτοίμασεν, aorist — before the visible return, not after it. Both verbs report completed action. The
 supper is announced while the King is still in heaven.
 
 That places a requirement on the sequence, and it is the join this study has been making in pieces.
 The bride's garment "is the righteous deeds of the saints." The word is **δικαιώματα**
-(*dikaiōmata*), which Louw-Nida puts at 88.14, "righteous acts" — the same sense as Revelation 15:4.
+(*dikaiōmata*, G1345), which Louw-Nida puts at 88.14, "righteous acts" — the same sense as Revelation 15:4.
 Those deeds are exactly what [the Bema seat](#the-judgments) assesses, and
 this study already places the Bema in heaven during the tribulation years. The bride is therefore
 dressed in the outcome of a judgment that has already happened — which cannot be true if the Church
 is still on earth when the rider appears.
 
 One guard against reading that as merit. The linen is not sewn but **ἐδόθη αὐτῇ**, "it was granted
-her" (19:8), a divine passive: given, and *consisting of* deeds, at the same time. That is the Bema's
+her" (Revelation 19:8), a divine passive: given, and *consisting of* deeds, at the same time. That is the Bema's
 own logic — reward for what was built on a foundation already laid, never the foundation itself
 (1 Corinthians 3:11-15).
 

@@ -128,12 +128,12 @@ case for it, the case against it, and where this study stands.
 ### The case for a priest in Eden
 
 God places the man in the garden "to work it and keep it" (Genesis 2:15, ESV). The Hebrew is
-<span dir="rtl">לְעָבְדָהּ וּלְשָׁמְרָהּ</span>, from <span dir="rtl">עָבַד</span> (*avad*, "work,
-serve") and <span dir="rtl">שָׁמַר</span> (*shamar*, "keep, guard"). The same two verbs recur
+<span dir="rtl">לְעָבְדָהּ וּלְשָׁמְרָהּ</span>, from <span dir="rtl">עָבַד</span> (*avad*, H5647, "work,
+serve") and <span dir="rtl">שָׁמַר</span> (*shamar*, H8104, "keep, guard"). The same two verbs recur
 together for the Levites' work at the tabernacle: "they shall keep [<span dir="rtl">שָׁמַר</span>] his
 charge... to do the service [<span dir="rtl">עָבַד</span>] of the tabernacle" (Numbers 3:7-8, ASV),
 and again at 18:7. ASV's "charge" keeps the sense of the noun <span dir="rtl">מִשְׁמֶרֶת</span>
-(*mishmeret*), which the ESV's "keep guard over him" flattens.
+(*mishmeret*, H4931), which the ESV's "keep guard over him" flattens.
 
 The *ESV Study Bible* draws the conclusion directly. Adam's role "is to be not only a gardener but
 also a guardian... As a priest, he is to maintain the sanctity of the garden as part of a temple
@@ -148,11 +148,11 @@ The tabernacle repeats Eden's shape. Eden is guarded on the east by cherubim (Ge
 tabernacle has cherubim worked into its veil (Exodus 26:31) and set over the ark, where God says, "There
 I will meet with you" (Exodus 25:22, ESV). And in Numbers 3 the east side of the tabernacle, "toward
 the sunrise," is held by Moses, Aaron and his sons, "guarding the sanctuary itself" (3:38, ESV) —
-<span dir="rtl">שֹׁמְרִים</span> (*shomerim*), "keepers," from the same verb.
+<span dir="rtl">שֹׁמְרִים</span> (*shomerim*, H8104), "keepers," from the same verb.
 
 ### The case against
 
-Genesis never calls Adam a priest. The word <span dir="rtl">כֹּהֵן</span> (*kohen*, "priest") first
+Genesis never calls Adam a priest. The word <span dir="rtl">כֹּהֵן</span> (*kohen*, H3548, "priest") first
 appears in Scripture at Genesis 14:18, of Melchizedek. Eden has no altar and no sacrifice.
 
 The verb <span dir="rtl">עָבַד</span> frames Genesis 2:15 on both sides with farming: before the
@@ -251,7 +251,7 @@ ends in a High Priest who is never succeeded.
 
 The firstborn language reaches the church too. Hebrews calls God's gathered people "the assembly of
 the firstborn who are enrolled in heaven" (Hebrews 12:23, ESV). "Firstborn" there is plural,
-πρωτοτόκων (*prōtotokōn*), "firstborn ones." The *ESV Study Bible* reads it as Jesus' followers granted an inheritance as though
+πρωτοτόκων (*prōtotokōn*, G4416), "firstborn ones." The *ESV Study Bible* reads it as Jesus' followers granted an inheritance as though
 each were a firstborn son.[^esvsb-heb12] God claimed Israel's firstborn at the exodus; in Jesus He
 claims His people the same way, and Jesus "made us a kingdom, priests to his God and Father"
 (Revelation 1:6, ESV).

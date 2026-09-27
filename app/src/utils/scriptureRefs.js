@@ -111,6 +111,44 @@ const NEXT = new RegExp(`^(\\s*[,;]\\s*(?:and\\s+)?)(\\d{1,3})(?::(\\d{1,3}))?(?
 // "v. 20", "vv. 3-5", "verse 20", "verses 3-5": relative to the passage in hand.
 const RELATIVE = new RegExp(`(?<![\\w])(vv?\\.|verses?)\\s*(\\d{1,3})(?:${DASH}(\\d{1,3}))?(?![\\d:])`, 'gi');
 
+// "(5:1)", "at 4:16", "5:6-8": a chapter and verse whose book is the passage in hand.
+const BARE = new RegExp(`(?<![\\w:.\u2013/-])(\\d{1,3}):(\\d{1,3})(?:${DASH}(\\d{1,3})(?::(\\d{1,3}))?)?(?![\\d:])`, 'g');
+// A chapter and verse straight after a capitalised name belongs to a work the book list does not know
+// -- "Tobit 8:19", "m. Avot 3:2, 3:6", "1QS 8:1" -- and is never given a Bible book. The
+// capitalised English words a sentence can open with are the exception.
+const NAMED = /(?:^|[^\w'’])(\d*[A-Z][\w'’]*)\.?\s*[\u2014\u2013]?\s+(?:\d{1,3}:\d{1,3}(?:\s*[-\u2013]\s*\d{1,3}(?::\d{1,3})?)?\s*(?:[,;]|and)\s*)*$/;
+const SENTENCE_START = new Set(
+  'In At See Cf Compare From And Then Also Both So But Of On To By After Before Until With Verse Verses Chapter Here There Where When Note Notes Ch'.split(' ')
+);
+
+// Whether a bare chapter and verse at the end of `before` belongs to a named non-biblical work.
+export function namedWork(before) {
+  const named = NAMED.exec(before);
+  return Boolean(named && !SENTENCE_START.has(named[1]) && !ALIAS.has(named[1].toLowerCase()));
+}
+
+// A book named in words, "three times in Revelation (9:21; 18:23)" or "Hebrews says", is the book a
+// bare chapter and verse after it belongs to. Full names only, capitalised, and never one followed by
+// a number, which is a reference findRefs already has.
+const BOOK_WORD = new RegExp(
+  `(?<![\\w\u00C0-\u024F])(${BOOKS.flatMap(([, full]) => full)
+    .sort((a, b) => b.length - a.length)
+    .map((n) => escape(n).replace(/ /g, '\\s+'))
+    .join('|')})(?:'s|’s)?(?![\\w\u00C0-\u024F])(?!\\.?\\s*\\d)`,
+  'g'
+);
+
+export function findBookNames(text) {
+  const out = [];
+  BOOK_WORD.lastIndex = 0;
+  let m;
+  while ((m = BOOK_WORD.exec(text))) {
+    const alias = ALIAS.get(m[1].toLowerCase().replace(/\s+/g, ' '));
+    if (alias) out.push({ start: m.index, end: m.index + m[0].length, book: alias.osis });
+  }
+  return out;
+}
+
 const int = (s) => (s === undefined ? undefined : parseInt(s, 10));
 
 function make(osis, c1, v1, c2, v2) {
@@ -192,13 +230,25 @@ export function findRefs(text) {
     const v1 = int(m[2]);
     out.push({ start: at, end: at + m[0].length, ref: { book: undefined, c1: undefined, v1, c2: undefined, v2: int(m[3]) ?? v1 } });
   }
+
+  BARE.lastIndex = 0;
+  while ((m = BARE.exec(text))) {
+    const at = m.index;
+    if (out.some((r) => at < r.end && m.index + m[0].length > r.start)) continue;
+    if (namedWork(text.slice(0, at))) continue;
+    const [c1, v1, a, b] = [int(m[1]), int(m[2]), int(m[3]), int(m[4])];
+    const ref = b !== undefined ? { c1, v1, c2: a, v2: b } : { c1, v1, c2: c1, v2: a ?? v1 };
+    out.push({ start: at, end: at + m[0].length, ref: { book: undefined, ...ref } });
+  }
   return out.sort((a, b) => a.start - b.start);
 }
 
 // Give a relative reference ("vv. 3-5") the book and chapter of the passage it sits in.
 export function resolveRelative(ref, context) {
   if (ref.book) return ref;
-  if (!context?.book || context.c1 === undefined) return null;
+  if (!context?.book) return null;
+  if (ref.c1 !== undefined) return { ...ref, book: context.book };
+  if (context.c1 === undefined) return null;
   const chapter = context.c2 ?? context.c1;
   return { book: context.book, c1: chapter, v1: ref.v1, c2: chapter, v2: ref.v2 };
 }
@@ -235,4 +285,39 @@ export function findStrongs(text) {
 export function parseStrongs(text) {
   const found = findStrongs(String(text ?? '').trim());
   return found.length ? found[0].id : null;
+}
+
+// A Greek, Hebrew or Aramaic word, with the combining accents and points it is written with.
+const SCRIPT = '\\u0300-\\u036F\\u0370-\\u03FF\\u1F00-\\u1FFF\\u0590-\\u05FF\\uFB1D-\\uFB4F';
+const LETTER = '\\u0386-\\u03FF\\u1F00-\\u1FFF\\u05D0-\\u05EA\\uFB1D-\\uFB4F';
+const WORD = `[${SCRIPT}]*[${LETTER}][${SCRIPT}]*`;
+const WORDS = new RegExp(WORD, 'gu');
+const LEMMA = new RegExp(`(${WORD}(?:\\s+${WORD})*)\\s*\\([^()]*$`, 'u');
+
+// The word or phrase a study is about to gloss: text ending "ἀρραβών (*arrabōn*, " gives the span
+// of ἀρραβών. Only an unclosed parenthesis counts, so a word glossed earlier in the sentence is
+// never mistaken for the one this tag belongs to.
+export function lemmaBefore(text) {
+  const m = LEMMA.exec(text);
+  return m ? { start: m.index, end: m.index + m[1].length } : null;
+}
+
+// A running-text ἀρραβὼν is the ἀρραβών tagged above it: Greek accents and breathings, Hebrew
+// cantillation and a Greek final sigma are dropped. Hebrew vowel points are kept, because
+// unpointed Hebrew merges different words.
+export function wordKey(word) {
+  return word
+    .normalize('NFD')
+    .replace(/[̀-֑ͯ-֯;·]/g, '')
+    .normalize('NFC')
+    .toLowerCase()
+    .replace(/ς/g, 'σ');
+}
+
+export function findWords(text) {
+  return [...text.matchAll(WORDS)].map((m) => ({
+    start: m.index,
+    end: m.index + m[0].length,
+    key: wordKey(m[0]),
+  }));
 }

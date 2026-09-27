@@ -55,9 +55,9 @@ Luke calls him <span lang="grc">Ζηλωτής</span> (*Zēlōtēs*, zay-lo-TACE
 Acts 1:13).
 
 Matthew and Mark use a different word: <span lang="grc">Καναναῖος</span> (*Kananaios*,
-kah-nah-NAH-yoss). This is **not** Greek and has nothing to do with Canaan or with Cana. It is
-Aramaic — from <span dir="rtl">קַנְאָן</span> *qanʾan*, from the root
-<span dir="rtl">קָנָא</span> *qanaʾ*, "to be jealous, to be zealous."
+kah-nah-NAH-yoss, G2581). This is **not** Greek and has nothing to do with Canaan or with Cana. It is
+Aramaic — from <span dir="rtl">קַנְאָן</span> (*qanʾan*), from the root
+<span dir="rtl">קָנָא</span> (*qanaʾ*, H7065), "to be jealous, to be zealous."
 
 The KJV rendered it "Simon the Canaanite," and Strong's own entry flags this directly as an error,
 noting the word was mistaken for a derivative of <span lang="grc">Χαναάν</span>, "Canaan." The two

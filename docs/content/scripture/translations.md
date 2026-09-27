@@ -5,7 +5,7 @@ description: "The English translations, Hebrew Masoretic witnesses, and Greek Ne
 tags: ["translations", "versions", "lang/hebrew", "lang/greek", "septuagint", "masoretic", "method/textual-criticism"]
 draft: false
 date_created: 2025-06-07
-date_modified: 2026-09-18
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -139,8 +139,8 @@ rather than recalled, and every rendering quoted is a fragment of a single verse
 
 ### Old Testament — Song of Songs 8:6, and whether God is named
 
-The verse ends with four Hebrew words: <span dir="rtl">אֵשׁ</span> (*esh*, "fire"),
-<span dir="rtl">שַׁלְהֶבֶת</span> (*shalhevet*, "flame", Strong's H7957), and
+The verse ends with four Hebrew words: <span dir="rtl">אֵשׁ</span> (*esh*, H784, "fire"),
+<span dir="rtl">שַׁלְהֶבֶת</span> (*shalhevet*, H7957, "flame"), and
 <span dir="rtl">יָה</span> (*Yah*, H3050) — the shortened form of the divine name. The question is
 whether that last syllable names God or works as a Hebrew superlative, the way "mountains of God"
 can mean "mighty mountains". The Song never mentions God anywhere else, so the decision determines
@@ -174,7 +174,7 @@ that the question is live.**
 Through John 6 Jesus uses the ordinary verb for eating, ἐσθίω (*esthiō*, G5315), eleven times: the
 crowd ate the loaves, the fathers ate manna, "unless you eat the flesh of the Son of Man" (6:53). At
 verse 54 he switches to τρώγω (*trōgō*, G5176) and stays with it for the rest of the discourse. The
-lexicon separates them — Louw-Nida puts ἐσθίω at 23.1 and τρώγω at 23.3, alongside γεύομαι ("taste")
+lexicon separates them — Louw-Nida puts ἐσθίω at 23.1 and τρώγω at 23.3, alongside γεύομαι ("taste", G1089)
 and βιβρώσκω, the chewing-and-consuming end of the range. Verse 58 uses both in one sentence: the
 fathers *ate* (ἔφαγον) and died; whoever *feeds on* (τρώγων) this bread will live.
 
@@ -221,7 +221,7 @@ is the whole argument for checking a verse rather than trusting a label.
     and one this project previously had no way to answer without judgement.
 
     Two cautions. The mapping is genuinely many-to-many: Genesis 1:1's "the heavens" renders both
-    אֵת and הַשָּׁמַיִם, since the Hebrew object marker has no English of its own. And ULT is one
+    <span dir="rtl">אֵת</span> and <span dir="rtl">הַשָּׁמַיִם</span>, since the Hebrew object marker has no English of its own. And ULT is one
     literal translation, so it tells you what ULT chose, not what the word must mean — for that,
     look the lemma up.
 

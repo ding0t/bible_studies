@@ -181,7 +181,7 @@ carries a clause the Hebrew does not — verified directly against both texts fo
 > πιστὸς Κύριος ἐν τοῖς λόγοις αὐτοῦ, καὶ ὅσιος ἐν πᾶσι τοῖς ἔργοις αὐτοῦ.
 
 "The LORD is faithful in all his words, and holy in all his works" — which in Hebrew would begin
-<span dir="rtl">נֶאֱמָן</span> (*ne'eman*, "faithful"), a נ word, in exactly the slot the acrostic left empty. The CSB and
+<span dir="rtl">נֶאֱמָן</span> (*ne'eman*, H539, "faithful"), a נ word, in exactly the slot the acrostic left empty. The CSB and
 NLT translators' notes report the line as attested in the Dead Sea Scrolls and Syriac as well as the
 Greek; the Septuagint half of that is what I checked myself.
 
@@ -218,7 +218,7 @@ numerology is good for.
 > it is the number of a man, and his number is 666.
 
 The verb is **ψηφίζω** (*psēphizō*, G5585), "to count, reckon up, calculate." It comes from ψῆφος
-(*psēphos*), the small pebble used both for tallying and for casting a vote — a physical, ordinary
+(*psēphos*, G5586), the small pebble used both for tallying and for casting a vote — a physical, ordinary
 word for working a sum.
 
 It appears exactly twice in the Greek New Testament. The other occurrence is Luke 14:28, where a man
@@ -305,12 +305,12 @@ mean nothing.
 Daniel re-points each weight-name as a passive verb from the same root, and the wordplay is visible
 in the morphology of the text:
 
-- **MENE** — <span dir="rtl">מְנֵא</span>, a mina — read as <span dir="rtl">מְנָה</span> (*menah*):
+- **MENE** — <span dir="rtl">מְנֵא</span>, a mina — read as <span dir="rtl">מְנָה</span> (*menah*, H4483):
   "God has numbered the days of your kingdom" (v26)
 - **TEKEL** — <span dir="rtl">תְּקֵל</span>, a shekel — read as <span dir="rtl">תְּקִילְתָּה</span>
-  (*teqiltah*): "you have been weighed in the balances and found wanting" (v27)
+  (*teqiltah*, H8625): "you have been weighed in the balances and found wanting" (v27)
 - **PARSIN** — <span dir="rtl">פַּרְסִין</span>, half-minas — read as
-  <span dir="rtl">פְּרִיסַת</span> (*perisat*): "your kingdom is divided" (v28), then punned a second
+  <span dir="rtl">פְּרִיסַת</span> (*perisat*, H6537): "your kingdom is divided" (v28), then punned a second
   time against <span dir="rtl">פָּרָס</span> (*Paras*), Persia — "and given to the Medes and Persians"
 
 Weights become verbs; a coin's name becomes an empire's name. It is as dense a piece of wordplay as

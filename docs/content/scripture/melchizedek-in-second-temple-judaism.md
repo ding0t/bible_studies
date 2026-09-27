@@ -107,7 +107,7 @@ and by Melchizedek:
 > earth; 20 and blessed be God Most High, who has delivered your enemies into your hand!" And Abram
 > gave him a tenth of everything.
 
-Then he disappears. The Hebrew name מַלְכִּי־צֶדֶק (*malkî-ṣedeq*) occurs in only two verses of
+Then he disappears. The Hebrew name <span dir="rtl">מַלְכִּי־צֶדֶק</span> (*malkî-ṣedeq*) occurs in only two verses of
 the Old Testament, Genesis 14:18 and Psalm 110:4. The second is an oath:
 
 > ✝️ Psalm 110:4 (ESV)
@@ -122,7 +122,7 @@ works through both passages verse by verse.
 
 Two things in these texts pulled at later readers. The first is what they leave out. Genesis gives
 Melchizedek no father, no mother, no birth and no death. Even the Hebrew of Genesis 14:20 leaves a
-gap: it reads וַיִּתֶּן לוֹ מַעֲשֵׂר (*wayyittēn lô maʿăśēr*), "and he gave him a tenth," without
+gap: it reads <span dir="rtl">וַיִּתֶּן לוֹ מַעֲשֵׂר</span> (*wayyittēn lô maʿăśēr*), "and he gave him a tenth," without
 saying who gave to whom. The ESV supplies "Abram", as Hebrews 7:4 does. The second is what Psalm
 110 adds: a figure God will install, by oath, as priest and king together. Israel's Law kept those
 offices in two tribes, Levi and Judah (Hebrews 7:14). So every reader below is answering one
@@ -139,7 +139,7 @@ applies all of them to a single end-times figure called Melchizedek.[^11q13]
 
 It opens from Leviticus 25:13 and Deuteronomy 15:2 on releasing debts in the Jubilee year. It then
 identifies "the captives" of that legislation with the "captives" of Isaiah 61:1, set free with
-"liberty" (דְּרוֹר, *derôr*). That is the word Leviticus 25:10 uses for the Jubilee's release, and
+"liberty" (<span dir="rtl">דְּרוֹר</span>, *derôr*). That is the word Leviticus 25:10 uses for the Jubilee's release, and
 it is rare: seven occurrences in the Hebrew Bible, in Leviticus 25:10, Isaiah 61:1, Jeremiah 34
 (four times) and Ezekiel 46:17. The shared Hebrew word does the connecting.
 
@@ -155,7 +155,7 @@ are assigned to "the sons of Heaven and the lot of Melchizedek."[^11q13]
 
 The scroll's second half turns to judgment and makes the same composite move with Psalm 82:1:
 "God has taken his place in the divine council; in the midst of the gods he holds judgment" (ESV).
-Both "God" and "gods" there are אֱלֹהִים (*ʾĕlōhîm*). 11Q13 reads the verse as Melchizedek's own
+Both "God" and "gods" there are <span dir="rtl">אֱלֹהִים</span> (*ʾĕlōhîm*, H430). 11Q13 reads the verse as Melchizedek's own
 end-times judgment against Belial and his spirits.
 
 Jesus reached for the same psalm. Accused of blasphemy for calling Himself God's Son, He quoted
@@ -373,7 +373,7 @@ the [statement of faith](../about/statement-of-faith.md) sets out.
   Study Bible** (Zondervan), notes on Genesis 14:18 and Hebrews 7:3. ESV verse text throughout.
 - Original-language data from this project's `bible-text.db`: unfoldingWord interlinear for Genesis
   14:18-20, Leviticus 25:10, Psalm 82:1, Psalm 110:4, Isaiah 61:1 and Hebrews 7:3; MACULA Hebrew
-  (WLC) and Greek (SBLGNT) concordance for דְּרוֹר, מַלְכִּי־צֶדֶק and Μελχισέδεκ.
+  (WLC) and Greek (SBLGNT) concordance for <span dir="rtl">דְּרוֹר</span>, <span dir="rtl">מַלְכִּי־צֶדֶק</span> and Μελχισέδεκ.
 
 ### On this site
 

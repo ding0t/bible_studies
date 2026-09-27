@@ -6,6 +6,9 @@ half needs no database -- it is read from each page's own frontmatter and text -
 every deploy and can never go stale. Listed after draft_pages.py, it only sees the pages that
 hook kept, so a draft never appears in a published pop-up.
 
+It also marks each page with its primary_passage, the passage a bare "(5:1)" in the page falls
+back to when no nearer reference says which book it is in.
+
 Output: assets/popups/studies.json in the built site.
   studies     [{t: title, u: url, p: [primary_passage refs], r: [bible_references]}]
   words       {"G126": [index into studies, ...]} -- the studies that tag a word with its Strong's
@@ -15,6 +18,7 @@ Output: assets/popups/studies.json in the built site.
 
 from __future__ import annotations
 
+import html
 import json
 import re
 from pathlib import Path
@@ -66,6 +70,13 @@ def on_files(files, config):  # noqa: ARG001 - `config` is part of the signature
                 _words.setdefault(word, []).append(len(_studies))
             _studies.append({"t": meta.get("title") or f.name, "u": f.url, "p": primary, "r": references})
     return files
+
+
+def on_page_content(content, page, config, files):  # noqa: ARG001 - part of the hook signature
+    primary = _refs(page.meta.get("primary_passage"))
+    if not primary:
+        return content
+    return f'<div hidden data-primary-passage="{html.escape(primary[0])}"></div>\n{content}'
 
 
 def on_post_build(config):

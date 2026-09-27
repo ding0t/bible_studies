@@ -5,7 +5,7 @@ description: "How Scripture compares to other ancient works on manuscript eviden
 tags: ["method/archaeology", "method/textual-criticism", "manuscripts", "inscriptions", "dead-sea-scrolls", "apologetics"]
 draft: false
 date_created: 2026-01-24
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-4.5
@@ -245,7 +245,7 @@ before. That is the claim the artifacts below are evidence for.
 
 **Contents:**
 - Aramaic inscription by Hazael, king of Damascus
-- Contains phrase "House of David" (בית דוד - *beit david*)
+- Contains phrase "House of David" (<span dir="rtl">בית דוד</span> - *beit david*)
 - Describes victory over kings of Israel and Judah
 
 **Biblical Validation:**

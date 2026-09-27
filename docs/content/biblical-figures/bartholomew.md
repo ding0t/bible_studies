@@ -53,15 +53,15 @@ our honest doubts as you met his.
 
 ## The name
 
-<span lang="grc">Βαρθολομαῖος</span> (*Bartholomaios*, bar-thol-o-MY-oss) is Aramaic:
-<span dir="rtl">בַּר</span> *bar*, "son of," plus **Talmai** (<span dir="rtl">תַּלְמַי</span>,
-*Talmai*). It means "son of Talmai" and nothing else.
+<span lang="grc">Βαρθολομαῖος</span> (*Bartholomaios*, bar-thol-o-MY-oss, G918) is Aramaic:
+<span dir="rtl">בַּר</span> (*bar*, H1247), "son of," plus **Talmai** (<span dir="rtl">תַּלְמַי</span>,
+*Talmai*, H8526). It means "son of Talmai" and nothing else.
 
 That matters, because it is a **patronymic, not a personal name** — the equivalent of being listed
 as "Johnson" with no first name. Bar-Talmai would have had a given name too, and the lists do not
 supply it.
 
-**Nathanael** — <span dir="rtl">נְתַנְאֵל</span> *Netanʾel* (neth-an-EL), "God has given" — is a
+**Nathanael** — <span dir="rtl">נְתַנְאֵל</span> (*Netanʾel*, neth-an-EL, H5417), "God has given" — is a
 given name, and John never pairs it with a patronymic.
 
 ## The identification, and how strong it actually is

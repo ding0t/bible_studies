@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [One Taken, One Left](../../last-things/one-taken-one-left.md) — 17:44
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 17:4
 <!-- commentary-index:auto-end -->

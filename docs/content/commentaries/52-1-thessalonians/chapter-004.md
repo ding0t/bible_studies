@@ -16,6 +16,7 @@ draft: false
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 4:16-17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 4:16-17
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 4:16-17
+- [One Taken, One Left](../../last-things/one-taken-one-left.md) — 4:13-18
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:16-18
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 4:13-18
 - [The Restrainer](../../last-things/the-restrainer.md) — 4:17

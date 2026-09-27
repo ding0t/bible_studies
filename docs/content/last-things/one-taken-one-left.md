@@ -3,7 +3,7 @@ title: "One Taken, One Left"
 category: "prophecy"
 description: "Matthew 24:40-41 and Luke 17:34-37: Noah was the one left when the flood took the rest, and Luke's vultures answer \"taken where?\" The one taken is removed in judgment at the Son of Man's return; the one left is kept for His kingdom."
 tags: ["matthew", "luke", "genesis", "rapture", "dispensationalism", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Matthew 24:37-41; Luke 17:26-37"
 bible_references: ["Matthew 24:3", "Matthew 24:29-31", "Matthew 24:37-42", "Luke 17:11", "Luke 17:20-37", "Genesis 7:1", "Genesis 7:23", "Genesis 19:26", "Isaiah 10:21", "Matthew 13:30", "Matthew 13:40-43", "Matthew 13:49", "Matthew 25:31-34", "Matthew 25:46", "2 Peter 2:5-9", "John 14:3", "Matthew 1:20-24", "Deuteronomy 28:26", "1 Samuel 17:44", "Psalm 79:1-2", "Ezekiel 39:17-20", "1 Thessalonians 4:13-18", "1 Thessalonians 5:9", "2 Thessalonians 2:6-7"]
 date_created: 2026-09-26
@@ -150,7 +150,7 @@ off by the flood. The man left on the earth, preserved through the judgment, is 
 
 Genesis says so in one word. After the flood, "They were blotted out from the earth. Only Noah was
 left, and those who were with him in the ark" (Genesis 7:23, ESV). The Hebrew verb is
-<span dir="rtl">שָׁאַר</span> (*shaʾar*, sha-AR, "remain, be left," TWOT 2307). Its noun is
+<span dir="rtl">שָׁאַר</span> (*shaʾar*, sha-AR, H7604, "remain, be left," TWOT 2307). Its noun is
 <span dir="rtl">שְׁאָר</span> (*sheʾar*, sheh-AR, TWOT 2307a), the prophets' word for the remnant: "A
 remnant will return, the remnant of Jacob, to the mighty God" (Isaiah 10:21, ESV). The Septuagint
 renders it with καταλείπω, "leave behind." In Scripture's first judgment of

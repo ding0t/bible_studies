@@ -53,12 +53,12 @@ make our turning useful to somebody else.
 
 ## The name
 
-**Simon** — <span lang="grc">Σίμων</span> (*Simōn*), from Hebrew <span dir="rtl">שִׁמְעוֹן</span>
-*Shimʿon* (shim-OWN), "he has heard," the name of one of Jacob's sons and his tribe.
+**Simon** — <span lang="grc">Σίμων</span> (*Simōn*, G4613), from Hebrew <span dir="rtl">שִׁמְעוֹן</span>
+(*Shimʿon*, shim-OWN, H8095), "he has heard," the name of one of Jacob's sons and his tribe.
 
-**Peter** — <span lang="grc">Πέτρος</span> (*Petros*, PET-ross), "a rock, a stone." Jesus actually
-gave him the Aramaic form: <span lang="grc">Κηφᾶς</span> (*Kēphas*, kay-FAHS), from Aramaic
-<span dir="rtl">כֵּיפָא</span> *kepha*, "rock." John translates it for his Greek readers, and shows
+**Peter** — <span lang="grc">Πέτρος</span> (*Petros*, PET-ross, G4074), "a rock, a stone." Jesus actually
+gave him the Aramaic form: <span lang="grc">Κηφᾶς</span> (*Kēphas*, kay-FAHS, G2786), from Aramaic
+<span dir="rtl">כֵּיפָא</span> (*kepha*), "rock." John translates it for his Greek readers, and shows
 Jesus doing the renaming on the spot:
 
 > ✝️ John 1:42 (ESV)

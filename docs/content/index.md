@@ -33,7 +33,7 @@ Long before Jesus spoke those words, the road was already there — Isaiah told 
 seven centuries before Bethlehem. When Jesus claimed to *be* that way, he was fulfilling what the Old Testament had foreshadowed of the Messiah.
 
 Jesus' earliest followers heard it that way too: before anyone called them Christians,
-they called themselves the Way — Greek **ὁδός** (*hodos*), the
+they called themselves the Way — Greek **ὁδός** (*hodos*, G3598), the
 ordinary word for a road (Acts 9:2). That's this site's name, and its subject.
 
 See the [full word study](jesus/the-way.md) for how it traces from Isaiah's "way of the LORD"

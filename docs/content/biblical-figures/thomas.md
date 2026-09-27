@@ -53,9 +53,9 @@ Thomas, without reservation, "My Lord and my God."
 
 ## The name
 
-<span lang="grc">Θωμᾶς</span> (*Thōmas*, tho-MAHSS), from Aramaic
-<span dir="rtl">תְּאוֹמָא</span> *teʾoma* (teh-oh-MAH), "twin." John three times adds the Greek
-equivalent, <span lang="grc">Δίδυμος</span> (*Didymos*), which also means "twin" — the ESV simply
+<span lang="grc">Θωμᾶς</span> (*Thōmas*, tho-MAHSS, G2381), from Aramaic
+<span dir="rtl">תְּאוֹמָא</span> (*teʾoma*, teh-oh-MAH), "twin." John three times adds the Greek
+equivalent, <span lang="grc">Δίδυμος</span> (*Didymos*, G1324), which also means "twin" — the ESV simply
 translates it, "called the Twin" (John 11:16; 20:24; 21:2).
 
 Whose twin he was is never stated. The name is all Scripture gives.

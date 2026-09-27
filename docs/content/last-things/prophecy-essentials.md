@@ -198,7 +198,7 @@ was still centuries away.
 > 5 But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the
 > chastisement that brought us peace, and with his wounds we are healed.
 
-**Pierced** translates <span dir="rtl">מְחֹלָל</span> (*mecholal*), from a Hebrew root that Strong's number H2490
+**Pierced** translates <span dir="rtl">מְחֹלָל</span> (*mecholal*, H2490a), from a Hebrew root that Strong's number H2490
 happens to share with a completely different word, "to profane." TWOT splits the homonyms into
 separate roots -- **660**, "bore, pierce," is the one active here, distinct from **661**, "pollute" --
 so this is a real, physical wounding, not a metaphor for ordinary suffering.

@@ -165,7 +165,7 @@ fruitful." Used of trees and vines as readily as of people; the metaphor is agri
 great." The general Hebrew verb for increase in number.
 
 **Fill.** <span dir="rtl">מָלֵא</span> (*male'*, H4390) — Genesis 1:28's "fill the earth," with
-<span dir="rtl">אֶרֶץ</span> (*erets*, "land/earth") as its object.
+<span dir="rtl">אֶרֶץ</span> (*erets*, H776, "land/earth") as its object.
 
 **Swarm.** <span dir="rtl">שָׁרַץ</span> (*sharats*, H8317, TWOT root 2467) — "swarm, teem."
 Genesis 9:7's third imperative, which the ESV renders "increase greatly on the earth." The verb

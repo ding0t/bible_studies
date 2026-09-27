@@ -40,7 +40,7 @@ This study works through both passages on their own terms first. Then it follows
 
 **Memory verses.** Genesis 6:3 (ESV) — "My Spirit shall not abide in man forever, for he is flesh: his days shall be 120 years." Matthew 24:37 (ESV) — "As were the days of Noah, so will be the coming of the Son of Man."
 
-**Be Transformed.** The ten spies who invoked the Nephilim by name did so inside a report Scripture itself calls "evil" (Numbers 13:32), and they died for spreading it (14:36-37). Caleb and Joshua saw the identical giants and drew the opposite conclusion (14:6-9). The same facts, filtered through fear or through trust, produced opposite reports. Examine which of those two you default to when a real obstacle is in front of you.
+**Be Transformed.** The ten spies who invoked the Nephilim by name did so inside a report Scripture itself calls "evil" (Numbers 13:32), and they died for spreading it (14:36-37). Caleb and Joshua saw the identical giants and drew the opposite conclusion (Numbers 14:6-9). The same facts, filtered through fear or through trust, produced opposite reports. Examine which of those two you default to when a real obstacle is in front of you.
 
 **Prayer.** Lord, you know every uncertain thing in this text better than any commentator does. Where Scripture speaks plainly, give me the courage of Caleb. Where Scripture leaves a question open, give me the humility to leave it open too, rather than trading your authority for the confidence of a guess. In Jesus' name. Amen.
 

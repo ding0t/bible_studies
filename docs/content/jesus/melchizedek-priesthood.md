@@ -31,7 +31,7 @@ deliberate: a priesthood built to outlast Levi's before Levi existed.
 
 ### Types & Prophecy
 
-**Type.** Melchizedek is a **τύπος** (*typos*) of Christ's priesthood — not by prediction, but by
+**Type.** Melchizedek is a **τύπος** (*typos*, G5179) of Christ's priesthood — not by prediction, but by
 resemblance: Hebrews 7:3 says he was "made to resemble" (**ἀφωμοιωμένος**) the Son, built from
 what Genesis leaves out about him, not from what it states. The type shows three things. A
 legitimate priesthood that predates the Law and stands outside it, since Melchizedek precedes Levi
@@ -157,16 +157,16 @@ and finally to Levi, is traced in a separate study, *Priesthood before Sinai* (i
 
 ### Name and city: king of righteousness, king of peace
 
-**Name and city.** Melchizedek — Hebrew מַלְכִּי־צֶדֶק (*malkî-ṣedeq*) — divides into מֶלֶךְ
-(*melek*, "king") and צֶדֶק (*ṣedeq*, "righteousness," TWOT root 1879a), giving "king of
-righteousness." Salem (שָׁלֵם, *shalem*) shares its consonants with שָׁלוֹם (*shalom*, "peace"),
+**Name and city.** Melchizedek — Hebrew <span dir="rtl">מַלְכִּי־צֶדֶק</span> (*malkî-ṣedeq*) — divides into <span dir="rtl">מֶלֶךְ</span>
+(*melek*, "king") and <span dir="rtl">צֶדֶק</span> (*ṣedeq*, "righteousness," TWOT root 1879a), giving "king of
+righteousness." Salem (<span dir="rtl">שָׁלֵם</span>, *shalem*) shares its consonants with <span dir="rtl">שָׁלוֹם</span> (*shalom*, H7965, "peace"),
 which is why Hebrews 7:2 glosses it "king of peace." Both etymologies come from the author of
 Hebrews himself, not from later imagination — he states them as "by interpretation" (7:2), a
 standard move for a Greek-speaking audience who would not have parsed the Hebrew unassisted.
 
 ### El Elyon: the same God under a shared Canaanite title
 
-**El Elyon.** "God Most High" translates אֵל עֶלְיוֹן (*El Elyon*), a title also attested for
+**El Elyon.** "God Most High" translates <span dir="rtl">אֵל עֶלְיוֹן</span> (*El Elyon*), a title also attested for
 generic high gods elsewhere in Canaanite religion. So on a strictly comparative-religion reading,
 nothing in Genesis 14 by itself proves Melchizedek worshipped the God of Abram.[^cbsb-gen14]
 
@@ -287,7 +287,7 @@ pattern for "two unchangeable things, in which it is impossible for God to lie" 
 plus oath on top of promise. That principle — an oath makes a promise doubly secure — becomes the
 tool chapter 7 will use on Psalm 110:4. The section closes on the sentence that functions as
 chapter 7's own topic sentence: Jesus has "become a high priest forever after the order of
-Melchizedek" (6:20).
+Melchizedek" (Hebrews 6:20).
 
 ### Chapter 7 in three movements
 
@@ -296,7 +296,7 @@ Melchizedek" (6:20).
 #### Melchizedek's superiority, from the Genesis account itself (7:1-10)
 
 *(a) Verses 1-10 — Melchizedek's superiority established from the Genesis account itself.*
-Abraham, not Melchizedek, gives the tithe (7:4), and "it is beyond dispute that the inferior is
+Abraham, not Melchizedek, gives the tithe (Hebrews 7:4), and "it is beyond dispute that the inferior is
 blessed by the superior" (7:7) — the one who blesses outranks the one blessed. Since Levi was
 still, in the author's phrase, "in the loins of his ancestor" Abraham when Melchizedek met him
 (7:9-10), even the Levitical priesthood, in the person of its ancestor, effectively paid tithes to
@@ -317,7 +317,7 @@ Torah-administered system.
 
 *(c) Verses 20-28 — the oath argument.* No oath was sworn over any Levitical priest; "those who
 formerly became priests were made such without an oath" (7:20-21). This one was — Psalm 110:4 is
-quoted again to prove it (7:21) — "This makes Jesus the guarantor of a better covenant" (7:22).
+quoted again to prove it (Hebrews 7:21) — "This makes Jesus the guarantor of a better covenant" (7:22).
 Levitical priests were also many, because death kept cutting the line short and forcing a
 replacement (7:23). Of Christ the letter says "he holds his priesthood permanently, because he
 continues forever" (7:24).
@@ -386,7 +386,7 @@ Several of the words chapter 7 leans on occur nowhere else in the New Testament.
 
 **ἱερωσύνη (*hierōsynē*, "priesthood," G2420)** — 7:11, 12, 24. This abstract noun for the
 priestly *office* is exclusive to Hebrews 7 in the entire New Testament; every other reference to
-priests in the New Testament uses the concrete noun ἱερεύς (*hiereus*, "priest," the person
+priests in the New Testament uses the concrete noun ἱερεύς (*hiereus*, G2409, "priest," the person
 holding the office). The distinction matters to the argument: verse 12 speaks of the *priesthood*
 itself being "changed" (μετατίθημι), the way one arrangement is swapped for another — the author
 is arguing about an institution, not merely about which individuals occupy it.
@@ -412,7 +412,7 @@ word, right where the Melchizedek argument turns to the covenant it secures.
 ### ἀκατάλυτος: an indestructible life
 
 **ἀκατάλυτος (*akatalytos*, "indestructible," G179)** — 7:16, a New Testament hapax legomenon
-(its only occurrence). Built from the alpha-privative plus καταλύω (*katalyō*, "to demolish,
+(its only occurrence). Built from the alpha-privative plus καταλύω (*katalyō*, G2647, "to demolish,
 dissolve" — the same verb used of tearing down a building, as at Matthew 24:2 of the temple).
 Christ's priesthood rests "not on the basis of a legal requirement concerning bodily descent, but
 by the power of an indestructible life" (7:16, ESV) — the qualification is not a genealogical
@@ -432,7 +432,7 @@ plural, because death kept forcing a transfer to the next man; Christ's is not.
 
 **ἔγγυος (*engyos*, "guarantor," G1450)** — 7:22, a New Testament hapax and a legal-commercial
 term for someone who personally underwrites another party's obligation. This is a different word
-from μεσίτης (*mesitēs*, "mediator," used at 8:6, 9:15, and 12:24) — a mediator brokers an
+from μεσίτης (*mesitēs*, G3316, "mediator," used at 8:6, 9:15, and 12:24) — a mediator brokers an
 agreement between two parties; a guarantor personally stakes something of his own if the
 obligation isn't met. Hebrews' claim is the stronger one. Jesus personally guarantees the new covenant's terms, with an indestructible life as the collateral nothing can default.
 
@@ -442,7 +442,7 @@ and that life cannot fail.
 ### ἐφάπαξ: once for all
 
 **ἐφάπαξ (*ephapax*, "once for all," G2178)** — 7:27 (also 9:12; 10:10). Intensified from ἅπαξ
-(*hapax*, "once") by the ἐφ- prefix, marking a single, decisive, unrepeatable event — set directly
+(*hapax*, G530, "once") by the ἐφ- prefix, marking a single, decisive, unrepeatable event — set directly
 against the Levitical high priest's sacrifices offered "daily" (καθ᾿ ἡμέραν, *kath' hēmeran*,
 7:27). The repetition itself is treated as evidence in Hebrews' larger argument (10:1-4): sacrifices
 that had to be offered again and again were, by that very fact, never actually removing sin.
@@ -460,7 +460,7 @@ shared across the wider early church for a shared concern.
 
 **ἀντίτυπος (*antitypos*, "copy, corresponding type," G499)** — 9:24, one of only two occurrences
 in the entire New Testament (the other, 1 Peter 3:21, uses it of baptism "corresponding to" the
-flood). Built from ἀντί ("corresponding to, over against") plus τύπος ("pattern, mold") — an
+flood). Built from ἀντί ("corresponding to, G473, over against") plus τύπος ("pattern, mold") — an
 earthly *antitypos* is what results when something is struck from a *typos*, the way a coin is
 struck from a die. Hebrews' claim is that the earthly tabernacle is the struck coin and heaven is
 the die, not the reverse.
@@ -535,8 +535,8 @@ Jesus, who is praying for you.
   hapax-legomenon status of *akatalytos*, *aparabatos*, and *engyos*, and the twelve-occurrence
   count for *kreittōn*.
 - ***Theological Wordbook of the Old Testament*** (TWOT), ed. R. Laird Harris, Gleason L. Archer
-  Jr., and Bruce K. Waltke (Moody Publishers) — root ids and glosses for כֹּהֵן (*kōhēn*, root
-  959a) and צֶדֶק (*ṣedeq*, root 1879a), consulted via this repo's committed TWOT Strong's-number
+  Jr., and Bruce K. Waltke (Moody Publishers) — root ids and glosses for <span dir="rtl">כֹּהֵן</span> (*kōhēn*, H3548, root
+  959a) and <span dir="rtl">צֶדֶק</span> (*ṣedeq*, root 1879a), consulted via this repo's committed TWOT Strong's-number
   map.
 ### Study Bibles consulted
 

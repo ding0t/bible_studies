@@ -199,6 +199,8 @@ uv run pytest tests/test_syntax.py # single suite (pythonpath is set in pyprojec
 uv run python query.py --help      # word / concordance / verse / passage / cross-ref / align / parallel / scripture-link lookups
 uv run python study_gaps.py docs/content/<study>.md   # what links to a study's passages that it never cites
                                                       # (MCP tool for the same thing: review_gaps)
+uv run python strongs_suggest.py docs/content/<study>.md  # glossed Greek/Hebrew words with no Strong's number, and the number
+                                                          # MACULA gives each -- reports, never writes (--all for the corpus)
 uv run python twot_lookup.py --help
 uv run pytest tests/test_invariants.py                # every declared table has rows -- the guard the empty `notes` table needed
 uv run python study_structure.py <path>               # section-by-section prose measurements for the read-bible-study skill
@@ -315,6 +317,9 @@ the workflow manually (`workflow_dispatch`).
   The pop-up works alongside the prose, never instead of it. Quote what the argument stands on,
   since studies are read aloud and the pop-up shows the WEB, and cite what it only points to
   (develop-bible-study Phase 7).
+  A bare "(5:1)" takes its book from the paragraph, a table's column header, the quotation, the
+  heading, then the page's `primary_passage` (which `hooks/popups.py` writes onto the page); a
+  Strong's tag also opens from the word in front of it and from that word's later mentions.
   `data-ref="…"` and `data-strongs="…"` spans mark what the text cannot say on its own. The data is
   in two halves by where it can be built: `references/build/export_popups.py` writes the Bible
   text, cross-references and lexicon from `bible-text.db` into `docs/content/assets/popups/`

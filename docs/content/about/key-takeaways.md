@@ -72,7 +72,7 @@ Two related but distinct things, which Scripture itself keeps apart. Both belong
 because both are God telling readers what to expect before it happens:
 
 - **Type.** What Old Testament person, object, ritual, or event in *this specific study* functions
-  as a **τύπος** (*typos*) — a pattern or foreshadowing — of Christ or the gospel, and what exactly
+  as a **τύπος** (*typos*, G5179) — a pattern or foreshadowing — of Christ or the gospel, and what exactly
   the type shows. "Melchizedek was a type of Christ's priesthood, because..." is the shape; the
   "because" is the part worth keeping, not just the label. A type isn't a verbal prediction — it's
   a real historical person, object, or event that patterns a later reality without saying so.

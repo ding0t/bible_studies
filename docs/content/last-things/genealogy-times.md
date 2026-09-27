@@ -174,7 +174,7 @@ chronology carries 130 years it should not, and the `lxx` variant in
 
 #### Two readings of the name
 
-Methuselah's name (מְתוּשֶׁלַח) is ambiguous at the lexical level — not "one attested
+Methuselah's name (<span dir="rtl">מְתוּשֶׁלַח</span>) is ambiguous at the lexical level — not "one attested
 reading and one folk etymology," but two real readings built from real roots. Read as *m'tei*
 ("men of") + *shelach* ("javelin," H7973), it's a plain warrior name with no theological
 freight. Read as *mut* ("die," H4191) + *shalach* ("send," H7971), it becomes a sentence-name:

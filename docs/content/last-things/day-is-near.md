@@ -113,7 +113,7 @@ verses after "a thousand years in your sight are but as yesterday," it asks God 
 long?" (90:13). [Where Peter got it](day-is-a-thousand-years.md#where-peter-got-it) works that
 through against the psalm's vocabulary.
 
-Peter also does not stop where Moses did. Psalm 90:4 runs one direction -- a long span looks short to God -- and Peter adds the converse: "and a thousand years as one day." A long time seeming short is consolation for a delay. A short time being a thousand years is not; the second half of the clause does no work at all if patience is the whole point. Peter's pastoral application follows immediately in 3:9 ("the Lord is not slow... but is patient"), and it is real -- but the fact he tells the beloved not to overlook in verse 8 is the correspondence itself, stated both ways.
+Peter also does not stop where Moses did. Psalm 90:4 runs one direction -- a long span looks short to God -- and Peter adds the converse: "and a thousand years as one day." A long time seeming short is consolation for a delay. A short time being a thousand years is not; the second half of the clause does no work at all if patience is the whole point. Peter's pastoral application follows immediately in 2 Peter 3:9 ("the Lord is not slow... but is patient"), and it is real -- but the fact he tells the beloved not to overlook in verse 8 is the correspondence itself, stated both ways.
 
 That correspondence is what the wider six-then-seventh pattern is built on -- traced below in [The pattern of six days and a seventh](#the-pattern-of-six-days-and-a-seventh), and at length in [A Day Is a Thousand Years](day-is-a-thousand-years.md). Reading Genesis 1's six days as six thousand years is not something this site inferred from 2 Peter 3:8: it is in *Jubilees* 4:29-30 two centuries before Peter wrote, in the Talmud (b. *Sanhedrin* 97a), and across the early church from Barnabas to Lactantius, and the *NIV Cultural Backgrounds Study Bible* notes on this verse that Jewish writers of Peter's day already applied the thousand-year day to the days of creation. Peter is writing into that frame, not being retrofitted with it.
 
@@ -156,7 +156,7 @@ Revelation is the only place in Scripture that names a specific duration for thi
 this site reads it as a literal, future, bounded thousand-year kingdom rather than a symbol for the
 whole church age, consistent with reading prophecy literally first.
 
-Satan is bound, not destroyed (20:2-3). The martyrs are specifically raised and reigning (20:4). A
+Satan is bound, not destroyed (Revelation 20:2-3). The martyrs are specifically raised and reigning (20:4). A
 "first resurrection" implies a second, later one (20:5-6). Taken plainly, that describes an actual
 reign following actual history, not a present spiritual state.
 

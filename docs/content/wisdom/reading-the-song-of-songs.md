@@ -104,7 +104,7 @@ The Song never mentions God, with a single exception, at the book's climax:
 > house, he would be utterly despised.
 
 The Hebrew behind "the very flame of the LORD" is <span dir="rtl">שַׁלְהֶבֶתְיָה</span>
-(*shalhevetyah*) — <span dir="rtl">שַׁלְהֶבֶת</span> (*shalhevet*, "flame," H7957) with
+(*shalhevetyah*, H7957a) — <span dir="rtl">שַׁלְהֶבֶת</span> (*shalhevet*, "flame," H7957) with
 <span dir="rtl">יָה</span> (*Yah*, H3050) attached, the short form of the divine name. Translations
 divide on it. The ESV, NASB and LSB take it as the name ("the very flame of the LORD"; the LSB has
 "The very flame of Yah"). The NIV ("a mighty flame"), CSB ("an almighty flame!") and NKJV ("A most
@@ -168,7 +168,7 @@ Winter past, the fig tree budding, and on that evidence: *arise and come away*. 
 the same way as the Olivet Discourse's fig tree — read the season off the tree, and know He is near
 (Matthew 24:32-33). OpenBible's cross-reference list includes Matthew 24:32 for Song 2:13.
 
-It is still a resonance. Matthew does not quote the Song, and συκῆ (*sykē*) is simply the ordinary word for a
+It is still a resonance. Matthew does not quote the Song, and συκῆ (*sykē*, G4808) is simply the ordinary word for a
 fig tree, so shared vocabulary proves nothing on its own. What the two passages share is a structure
 of inference: the season tells you the time.
 

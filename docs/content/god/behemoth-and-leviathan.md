@@ -85,7 +85,7 @@ The Lord introduces Behemoth with a pointing gesture. <span dir="rtl">הִנֵּ
 
 ### The argument in Job 41
 
-Job 41 presses the assumption harder, because its argument is a run of questions to which Job already knows the answers. Can you hook him, put a leash on him for your daughters, sell him to merchants, fill his hide with harpoons (41:1-7)? Those are the ordinary things men do to large animals. Verse 9 says a man is undone <span dir="rtl">אֶל־מַרְאָיו</span> (*el-mar'av*, "at the sight of him," from <span dir="rtl">מַרְאֶה</span> *mar'eh*, H4758, "appearance"). Men have looked at this creature.
+Job 41 presses the assumption harder, because its argument is a run of questions to which Job already knows the answers. Can you hook him, put a leash on him for your daughters, sell him to merchants, fill his hide with harpoons (41:1-7)? Those are the ordinary things men do to large animals. Verse 9 says a man is undone <span dir="rtl">אֶל־מַרְאָיו</span> (*el-mar'av*), "at the sight of him," from <span dir="rtl">מַרְאֶה</span> (*mar'eh*, H4758), "appearance". Men have looked at this creature.
 
 Verse 33 is then a comparison: <span dir="rtl">אֵין־עַל־עָפָר מָשְׁלוֹ</span>, "there is not on the dust his likeness" (*moshel*, H4915, TWOT 1258c). <span dir="rtl">עַל־עָפָר</span> (*al-afar*, "on the dust") is where animals walk. The verse ranks Leviathan against everything else on the ground and finds no equal — and a thing that does not exist cannot be ranked.
 
@@ -169,7 +169,7 @@ Egyptian tomb reliefs show crocodiles taken with harpoons and javelins driven in
 
 #### His range is the open deep
 
-**His range is the open deep, not a river.** Verse 31 has him boiling <span dir="rtl">מְצוּלָה</span> (*metsulah*, H4688, "the deep") and <span dir="rtl">יָם</span> (*yam*, "the sea"); verse 32 leaves <span dir="rtl">תְּהוֹם</span> (*tehom*, H8415) white behind him — the word for the deep in Genesis 1:2, "darkness was over the face of the deep" (ESV). Crocodilians, living or fossil, are river and estuary animals.
+**His range is the open deep, not a river.** Verse 31 has him boiling <span dir="rtl">מְצוּלָה</span> (*metsulah*, H4688, "the deep") and <span dir="rtl">יָם</span> (*yam*, H3220, "the sea"); verse 32 leaves <span dir="rtl">תְּהוֹם</span> (*tehom*, H8415) white behind him — the word for the deep in Genesis 1:2, "darkness was over the face of the deep" (ESV). Crocodilians, living or fossil, are river and estuary animals.
 
 #### He has no counterpart
 
@@ -189,7 +189,7 @@ Isaiah names Leviathan twice as <span dir="rtl">נָחָשׁ</span> (*nachash*, 
 
 #### The Septuagint calls him dragon
 
-The Septuagint translators read it the same way, and they were working before the Masoretic vowel-pointing existed. At Job 40:25 (English 41:1) they did not transliterate the name at all — they wrote δράκοντα (*drakonta*, "dragon"). At Isaiah 27:1 they used δράκων three times over, dropping the name Leviathan entirely: ἐπὶ τὸν δράκοντα ὄφιν φεύγοντα, ἐπὶ τὸν δράκοντα ὄφιν σκολιόν, ἀνελεῖ τὸν δράκοντα.
+The Septuagint translators read it the same way, and they were working before the Masoretic vowel-pointing existed. At Job 40:25 (English 41:1) they did not transliterate the name at all — they wrote δράκοντα (*drakonta*, G1404, "dragon"). At Isaiah 27:1 they used δράκων three times over, dropping the name Leviathan entirely: ἐπὶ τὸν δράκοντα ὄφιν φεύγοντα, ἐπὶ τὸν δράκοντα ὄφιν σκολιόν, ἀνελεῖ τὸν δράκοντα.
 
 This shows that God is Lord over the one creature on earth with no equal: every weapon fails against it, and He will take up His sword against the dragon in the sea (Isaiah 27:1). Nothing you fear is outside His reach.
 
@@ -233,7 +233,7 @@ The name occurs five times in the Old Testament, and Job 41 is the longest treat
 >
 > 24 O LORD, how manifold are your works! In wisdom have you made them all; the earth is full of your creatures. 25 Here is the sea, great and wide, which teems with creatures innumerable, living things both small and great. 26 There go the ships, and Leviathan, which you formed to play in it.
 
-"Formed" is <span dir="rtl">יָצַר</span> (*yatsar*, H3335, TWOT root 898), the verb used of God forming man from the dust in Genesis 2:7 and forming every beast of the field in Genesis 2:19. The Septuagint uses ἔπλασας here, the same verb it uses of God forming Adam. Leviathan is placed in the psalm's inventory of made things, alongside the ships and the innumerable sea creatures — and the *ESV Study Bible*'s own note on 104:25-26 files it among the "great sea creatures" of Genesis 1:21, which is *tannin*.
+"Formed" is <span dir="rtl">יָצַר</span> (*yatsar*, H3335, TWOT root 898), the verb used of God forming man from the dust in Genesis 2:7 and forming every beast of the field in Genesis 2:19. The Septuagint uses ἔπλασας here, the same verb it uses of God forming Adam. Leviathan is placed in the psalm's inventory of made things, alongside the ships and the innumerable sea creatures — and the *ESV Study Bible*'s own note on Psalm 104:25-26 files it among the "great sea creatures" of Genesis 1:21, which is *tannin*.
 
 **Psalm 74:14** — the hardest of the four.
 

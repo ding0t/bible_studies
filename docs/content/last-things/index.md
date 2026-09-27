@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -69,9 +69,17 @@ End-times prophecy, read dispensationally.
 
     ---
 
-    Four men asked Jesus for a sign. He refused to give them a checklist, warned them four times about anyone who offered one, and named a single sign — his own return. A dispensational reading of Matthew 24, Mark 13 and Luke 21, from the disciples' question through to the new heavens and new earth.
+    Four men asked Jesus for a sign. He refused to give them a checklist, warned them four times about anyone who offered one, and named a single sign — his own return. A dispensational reading of Matthew 24, Mark 13 and Luke 21, from the disciples' question to the command to stay awake.
 
     [:octicons-arrow-right-24: Read](olivet-discourse.md)
+
+-   __One Taken, One Left__
+
+    ---
+
+    Matthew 24:40-41 and Luke 17:34-37: Noah was the one left when the flood took the rest, and Luke's vultures answer "taken where?" The one taken is removed in judgment at the Son of Man's return; the one left is kept for His kingdom.
+
+    [:octicons-arrow-right-24: Read](one-taken-one-left.md)
 
 -   __Charting End Times__
 

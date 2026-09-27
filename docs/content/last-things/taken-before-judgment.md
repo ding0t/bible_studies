@@ -116,14 +116,14 @@ die, "he was not, for God took him." He was 365 years old (5:23).
 ### What the Hebrew says
 
 Two details in the Hebrew sharpen this. "Walked" is <span dir="rtl">וַיִּתְהַלֵּךְ</span>
-(*wayyithallēkh*, from <span dir="rtl">הָלַךְ</span> *hālakh*, Strong's H1980), a Hithpael, the stem
+(*wayyithallēkh*), from <span dir="rtl">הָלַךְ</span> (*hālakh*, H1980), a Hithpael, the stem
 that carries iterative or habitual action. It describes a sustained manner of life, "walked about with
 God," and Genesis uses the same form twice (5:22, 5:24) to frame the three hundred years between. The
-Septuagint renders it with εὐαρεστέω (*euaresteō*, yoo-ah-res-TEH-oh), "pleased" God, and Hebrews
+Septuagint renders it with εὐαρεστέω (*euaresteō*, yoo-ah-res-TEH-oh, G2100), "pleased" God, and Hebrews
 picks up that verb: "before he
 was taken he was commended as having pleased God" (Hebrews 11:5, ESV).
 
-"Took" is <span dir="rtl">לָקַח</span> (*lāqach*, Strong's H3947), the ordinary verb for taking or
+"Took" is <span dir="rtl">לָקַח</span> (*lāqach*, H3947), the ordinary verb for taking or
 fetching. It is the same verb Scripture uses for Elijah's departure (2 Kings 2:3, 5, 9, 10), and for
 the psalmists' hope beyond death: "for he will receive me" (Psalm 49:15, ESV), and "afterward you will receive me to glory"
 (Psalm 73:24, ESV). The ESV renders

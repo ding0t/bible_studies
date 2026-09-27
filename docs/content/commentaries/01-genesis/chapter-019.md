@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [One Taken, One Left](../../last-things/one-taken-one-left.md) — 19:26
 - [The Rapture of the Church](../../last-things/rapture.md) — 19:15-16
 <!-- commentary-index:auto-end -->

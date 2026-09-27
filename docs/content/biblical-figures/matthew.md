@@ -52,10 +52,10 @@ to your table, rather than waiting until we have better ones.
 
 ## The name
 
-**Matthew** — <span lang="grc">Μαθθαῖος</span> (*Maththaios*, math-THAI-oss), from Hebrew
-<span dir="rtl">מַתִּתְיָה</span> *Mattityah* (mat-tit-YAH): "gift of Yahweh."
+**Matthew** — <span lang="grc">Μαθθαῖος</span> (*Maththaios*, math-THAI-oss, G3156), from Hebrew
+<span dir="rtl">מַתִּתְיָה</span> (*Mattityah*, mat-tit-YAH, H4993): "gift of Yahweh."
 
-**Levi** — <span dir="rtl">לֵוִי</span> *Lewi* (lay-VEE), "attached, joined" (Genesis 29:34). Mark
+**Levi** — <span dir="rtl">לֵוִי</span> (*Lewi*, lay-VEE, H3878), "attached, joined" (Genesis 29:34). Mark
 and Luke call him Levi at his calling (Mark 2:14; Luke 5:27); Matthew's Gospel calls him Matthew in
 the same scene. Both names for one man is unremarkable for the period.
 
@@ -66,7 +66,7 @@ sit in different groups of four. It is a loose end, not a conclusion.
 
 ## Background
 
-A <span lang="grc">τελώνης</span> (*telōnēs*, tel-O-nace) — a collector of public revenue, working
+A <span lang="grc">τελώνης</span> (*telōnēs*, G5057, tel-O-nace) — a collector of public revenue, working
 the toll station at Capernaum, on the trade road through Galilee. The Roman system farmed out
 collection rights: the collector paid for the franchise and recouped it, plus profit, from whatever
 he could extract above the required amount. The structure invited extortion and generally received

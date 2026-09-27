@@ -122,7 +122,7 @@ cross.
 ### Acts: from persecutor to prisoner
 
 **Acts.** Luke's second volume narrates the gospel's spread from Jerusalem to Rome, and "the Way"
-threads through nearly the whole of it. First in Saul's mouth as persecutor (9:2). Last in Paul's
+threads through nearly the whole of it. First in Saul's mouth as persecutor (Acts 9:2). Last in Paul's
 own mouth as prisoner, defending himself before the Roman governor Felix (24:14, 22). In between, it
 names the movement at a synagogue argument in Ephesus (19:9) and a riot there over lost silver trade
 (19:23).
@@ -333,7 +333,7 @@ Six times, always with the definite article — **ἡ ὁδός**, *the* Way —
 | Acts 24:22 | Felix, "having a rather accurate knowledge of the Way," defers Paul's case |
 
 The name spans Paul's entire career inside the narrative. From persecutor before his conversion
-(9:2, and his own later confession at 22:4), to prisoner defending himself in the same words at the
+(Acts 9:2, and his own later confession at 22:4), to prisoner defending himself in the same words at the
 end of it (24:14, 22). Luke never introduces the term or explains it; he uses it the way any writer
 uses a name the audience is assumed to already know.
 

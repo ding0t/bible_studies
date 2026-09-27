@@ -51,8 +51,8 @@ one anyway.
 
 ## The name
 
-<span lang="grc">Ἰάκωβος</span> (*Iakōbos*, ee-AK-o-bos) is simply the Greek form of **Jacob** —
-<span dir="rtl">יַעֲקֹב</span> *Yaʿaqob* (yah-ah-KOVE), "heel-grabber," hence "supplanter"
+<span lang="grc">Ἰάκωβος</span> (*Iakōbos*, ee-AK-o-bos, G2385) is simply the Greek form of **Jacob** —
+<span dir="rtl">יַעֲקֹב</span> (*Yaʿaqob*, yah-ah-KOVE, H3290), "heel-grabber," hence "supplanter"
 (Genesis 25:26). English gets "James" through Latin *Iacomus*, a later variant of *Iacobus*; there
 is no separate underlying name. Every "James" in the New Testament is a Jacob.
 
@@ -71,7 +71,7 @@ Jesus gave the brothers a joint nickname:
 >
 > 17 James the son of Zebedee and John the brother of James (to whom he gave the name Boanerges, that is, Sons of Thunder);
 
-<span lang="grc">Βοανηργές</span> (*Boanērges*) is a transliterated Aramaic phrase that Mark
+<span lang="grc">Βοανηργές</span> (*Boanērges*, G993) is a transliterated Aramaic phrase that Mark
 himself glosses as "Sons of Thunder." It reads as a comment on temperament, and the narrative
 supplies the evidence: when a Samaritan village refused Jesus hospitality, "James and John... said,
 'Lord, do you want us to tell fire to come down from heaven and consume them?'" (Luke 9:54).

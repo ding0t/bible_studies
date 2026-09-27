@@ -173,7 +173,7 @@ built from *hypo* ("under") and *typos* ("a mark, an impression, a pattern"). Li
 "under-sketch", the preliminary outline an artist lays down before finishing a work. It occurs
 exactly twice in the New Testament, both times from Paul. Here, and at 2 Timothy 1:13, where he
 tells Timothy to hold "the pattern of sound words" he had heard from him. Scripture uses a different
-word for a formal Old Testament type. That word is **τύπος** (*typos*) itself, which Paul applies to
+word for a formal Old Testament type. That word is **τύπος** (*typos*, G5179) itself, which Paul applies to
 Adam as "a type of the one who was to come" (Romans 5:14, ESV). A *typos* points forward across
 covenants to Christ. A *hypotyposis* is a worked example held up for imitation. Paul is claiming the
 second kind of pattern for himself, and the ESV Study Bible's own section heading over 1:12-17 names

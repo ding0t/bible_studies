@@ -50,7 +50,7 @@ crowd's identification is right.
 ### Lessons about Jesus
 
 - He is the bread itself. Asked for a permanent supply, he answers with a
-  predicate nominative: **Ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς** (6:35). The request could only be granted by
+  predicate nominative: **Ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς** (John 6:35). The request could only be granted by
   being refused in those terms.
 - He will not accept a crown on the crowd's terms, even from people who have just named him
   correctly. When they move to take him by force and make him king, he withdraws (6:14-15).
@@ -60,7 +60,7 @@ crowd's identification is right.
   quoting them: shepherdless sheep made to lie down on green grass and pastured full
   (**ἐχορτάσθησαν**, Mark 6:42).
 - He loses nothing. The verb used of the fragments gathered so that none would be wasted (6:12) is
-  the verb used of the people the Father has given him (6:39).
+  the verb used of the people the Father has given him (John 6:39).
 - He feeds Israel and the nations from the same hands, in that order — twelve Jewish baskets, seven
   Gentile hampers, and the Gentile meal narrated in the words the church would use at its own table
   (Mark 8:6; 1 Corinthians 11:24).
@@ -121,9 +121,9 @@ Bread of Life, Jesus. In Jesus' name. Amen.*
 | Loaves | 5 (barley, John 6:9) + 2 fish | 7 + "a few small fish" |
 | Crowd | about 5,000 men, besides women and children (Matt 14:21) | 4,000 men, besides women and children (Matt 15:38); "about four thousand" (Mark 8:9) |
 | Duration | one late afternoon | three days (Mark 8:2) |
-| Left over | 12 **κόφινοι** (*kophinoi*) | 7 **σπυρίδες** (*spyrides*) |
-| Blessing verb | εὐλόγησεν (*eulogēsen*, "blessed") | εὐχαριστήσας (*eucharistēsas*, "having given thanks") |
-| Breaking verb | κατέκλασεν (*kateklasen*, the compound — only here and Luke 9:16 in the NT) | ἔκλασεν (*eklasen*, the simple verb used at the Last Supper) |
+| Left over | 12 **κόφινοι** (*kophinoi*, G2894) | 7 **σπυρίδες** (*spyrides*) |
+| Blessing verb | εὐλόγησεν (*eulogēsen*, G2127, "blessed") | εὐχαριστήσας (*eucharistēsas*, G2168, "having given thanks") |
+| Breaking verb | κατέκλασεν (*kateklasen*, G2622, the compound — only here and Luke 9:16 in the NT) | ἔκλασεν (*eklasen*, G2806, the simple verb used at the Last Supper) |
 | Aftermath | the crowd tries to make him king by force (John 6:15); the Bread of Life discourse follows | the Pharisees demand a sign (Mark 8:11); Jesus rebukes the disciples over the loaves (8:14-21) |
 
 ## Two events, not one retold
@@ -173,7 +173,7 @@ why: *"He said this to test him, for he himself knew what he would do"* (6:6, WE
 (*peirazōn*, G3985). That is the word the Greek Old Testament uses for what the manna was *for*. The
 people gather a day's portion daily, "that I may **test** them, whether they will walk in my law or
 not" (Exodus 16:4, WEB). The LXX reads ὅπως **πειράσω** αὐτούς, from the same verb, rendering Hebrew
-<span dir="rtl">נָסָה</span> *nasah*, H5254. Bread from heaven arrives, both times, as an
+<span dir="rtl">נָסָה</span> (*nasah*, H5254). Bread from heaven arrives, both times, as an
 examination — and John 6:6 is the only undisputed occurrence of *peirazō* in his Gospel.
 
 The second is at the end. With everyone full, Jesus orders the fragments collected — *"Gather up the
@@ -188,7 +188,7 @@ the people he will not let go. The care he shows over barley scraps is the same 
 word, that he shows over everyone the Father gives him.
 
 God keeps what He gives. The doctrine is the preservation of the saints, and here it
-rests on Jesus' own statement of His Father's will (6:39): if the Father has given you to Jesus, He
+rests on Jesus' own statement of His Father's will (John 6:39): if the Father has given you to Jesus, He
 will not lose you.
 
 ### "I am the bread of life"
@@ -213,7 +213,7 @@ The crowd answers by quoting Scripture back — *Moses gave our fathers manna, w
 (6:30-31) — recombining both halves of LXX Psalm 77:24 (= 78:24) almost word for word. They know the
 text. Jesus corrects the verb tense before he corrects anything else: it was **not Moses** who gave that
 bread, and the giving is **not finished** — "my Father **gives** you the true bread from heaven,"
-present tense, happening now (6:32). Then:
+present tense, happening now (John 6:32). Then:
 
 > ✝️ John 6:35 (ESV)
 >
@@ -227,7 +227,7 @@ way that could satisfy it: the bread isn't a thing he dispenses, it's who he is.
 own climax at 6:51: *"the bread that I will give for the life of the world is my flesh."* This shows
 that the Father's gift of life is a person, His Son Jesus, given in His own flesh for the life of
 the world. That is the atonement, and it is why you receive this bread by coming to Jesus and
-believing in Him (6:35).
+believing in Him (John 6:35).
 
 ### Took, blessed, broke, gave
 
@@ -257,7 +257,7 @@ the shadow of the feast where a lamb dies and unleavened bread is eaten.)*
 ### Feeding on him
 
 The discourse gets more physical as the crowd's offense grows. Through verse 53 John uses
-the ordinary verb for eating, **ἐσθίω/φαγεῖν** (*esthiō/phagein*); from verse 54 he switches to
+the ordinary verb for eating, **ἐσθίω/φαγεῖν** (*esthiō/phagein*, G5315); from verse 54 he switches to
 **τρώγω** (*trōgō*, G5176) — "chew, gnaw" — and holds it to the end: *the one who keeps chewing my
 flesh* (6:54, 56, 57, 58). *Trōgō* is rare — six occurrences in the whole New Testament, four of them
 here (the others: Judas, "who ate my bread," John 13:18; the world eating and drinking before the
@@ -266,7 +266,7 @@ it isn't proof John reaches for something bestial — but the switch is delibera
 the crowd starts objecting (6:52), and is sustained. The ESV is the one major version that marks it
 consistently, rendering *esthiō* "eat" and every *trōgō* "feeds on." The crowd hears the offense
 regardless of translation: *"This is a hard saying; who can listen to it?"* (6:60) — and many leave
-(6:66).
+(John 6:66).
 
 A second thread runs the other way. "The food that **endures** (μένω, *menō*, G3306) to eternal life"
 (6:27) is the same verb as "whoever feeds on my flesh... **abides** in me, and I in him" (6:56). Food
@@ -279,7 +279,7 @@ who feeds on it, and Jesus promises to abide in you as you abide in Him (6:56).
 ### Daily bread
 
 "Give us this day our daily bread" (Matt 6:11; Luke 11:3) turns on
-**ἐπιούσιος** (*epiousios*), the rarest word in the New Testament, whose every proposed derivation
+**ἐπιούσιος** (*epiousios*, G1967), the rarest word in the New Testament, whose every proposed derivation
 converges on the same sense — today's sufficiency, not a stockpile (worked through fully in
 [The Lord's Prayer](../christian-life/lords-prayer.md)). Its model is the manna, which by design could not be
 hoarded (Exodus 16:19-20) — and which this chapter has Jesus identify as pointing at himself. After
@@ -340,7 +340,7 @@ The prayer gets an answer in the very next verse, and the answer is a name:
 > Yahweh said to Moses, "Take Joshua the son of Nun, a man in whom is the Spirit, and lay your hand on
 > him."
 
-Joshua is <span dir="rtl">יְהוֹשֻׁעַ</span> (*Yehoshua*, H3091), which the Septuagint renders **Ἰησοῦν** (*Iēsoun*) —
+Joshua is <span dir="rtl">יְהוֹשֻׁעַ</span> (*Yehoshua*, H3091), which the Septuagint renders **Ἰησοῦν** (*Iēsoun*, G2424) —
 "take to yourself Ἰησοῦν son of Nauē." The name God supplies when Israel needs a shepherd is the
 name of the man standing on the hillside in Mark 6. Mark writes *probata* and *poimēn* into the
 sentence and leaves the third word for the reader, because he has been using it since 1:1.
@@ -357,7 +357,7 @@ Ezekiel turns the same prayer into a promise about God himself:
 Mark's staging enacts exactly that. Jesus makes the crowd **lie down** on **green grass** (6:39) —
 arranged "by hundreds and by fifties" (6:40), the same ranks Moses used when he appointed leaders on
 Jethro's advice (Exodus 18:25) — and they are **fed to the full**: **ἐχορτάσθησαν** (*echortasthēsan*,
-G5526), from **χόρτος** (*chortos*, "grass") — the verb means, at root, *to pasture*. Shepherdless
+G5526), from **χόρτος** (*chortos*, G5528, "grass") — the verb means, at root, *to pasture*. Shepherdless
 sheep, made to lie down in green pasture, grazed full: Psalm 23:1-2, staged rather than stated.
 
 This shows that God kept His promise to shepherd His sheep Himself, and kept it in person in Jesus.
@@ -434,7 +434,7 @@ God's provision in Christ is abundant — twelve baskets and seven hampers more 
 could eat — and it is given to reveal the Giver. The sign gets
 misread in two opposite directions, and Scripture corrects both: the crowd in John 6 wants the bread
 without the Bread; the generation in Numbers 11 wants more than the daily portion. One walks away
-from a person (6:66); the other gets exactly what it craved, and a plague with it (11:33-34; Psalm
+from a person (John 6:66); the other gets exactly what it craved, and a plague with it (Numbers 11:33-34; Psalm
 78:29-31). The pattern taught is to take today's portion from the Father's hand, and to let it point
 past itself to the Son. Scripture states it flatly elsewhere:
 "man does not live by bread alone" (Deuteronomy 8:3); "seek first the kingdom of God… and all these

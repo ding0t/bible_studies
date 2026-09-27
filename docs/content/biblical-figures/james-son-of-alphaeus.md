@@ -50,10 +50,10 @@ keep us from needing it. It is enough to be chosen and to be with you.
 
 ## The name
 
-<span lang="grc">Ἰάκωβος</span> (*Iakōbos*) is the Greek form of **Jacob**,
-<span dir="rtl">יַעֲקֹב</span> *Yaʿaqob*, "heel-grabber, supplanter."
+<span lang="grc">Ἰάκωβος</span> (*Iakōbos*, G2385) is the Greek form of **Jacob**,
+<span dir="rtl">יַעֲקֹב</span> (*Yaʿaqob*, H3290), "heel-grabber, supplanter."
 
-**Alphaeus** — <span lang="grc">Ἁλφαῖος</span> (*Halphaios*, hal-FAH-yoss) — is of uncertain
+**Alphaeus** — <span lang="grc">Ἁλφαῖος</span> (*Halphaios*, hal-FAH-yoss, G256) — is of uncertain
 derivation; Strong's offers only a tentative Hebrew comparison. He is identified by his father
 because there were two apostles named James, and no other means of distinguishing them was needed.
 

@@ -108,8 +108,8 @@ coming that runs to 5:11 and ends on the same note: "God has not destined us for
 salvation through our Lord Jesus Christ" (5:9, ESV).
 
 Two words in the paragraph carry the objection. Verse 15 calls the event the Lord's **παρουσία**
-(*parousia*, par-oo-SEE-ah), "coming, arrival." Verse 17 says the saints are caught up **εἰς
-ἀπάντησιν τοῦ κυρίου**, "to meet the Lord." **ἀπάντησις** (*apantēsis*, ah-PAHN-tay-sis) is a noun,
+(*parousia*, par-oo-SEE-ah, G3952), "coming, arrival." Verse 17 says the saints are caught up **εἰς
+ἀπάντησιν τοῦ κυρίου**, "to meet the Lord." **ἀπάντησις** (*apantēsis*, ah-PAHN-tay-sis, G529) is a noun,
 "a meeting," and Paul uses it only here.
 
 ## The objection at full strength
@@ -150,7 +150,7 @@ New Testament three times, and both of the others fit the civic shape:
   came back with him.
 - **Matthew 25:6.** "Here is the bridegroom! Come out to meet him" (ESV), εἰς ἀπάντησιν αὐτοῦ.
 
-The related noun **ὑπάντησις** (*hypantēsis*, hoo-PAHN-tay-sis) gives the clearest picture of all.
+The related noun **ὑπάντησις** (*hypantēsis*, hoo-PAHN-tay-sis, G5222) gives the clearest picture of all.
 When the crowd heard "that Jesus was coming to Jerusalem," they "went out to meet him" (John
 12:12-13, ESV), εἰς ὑπάντησιν, and He rode into the city to their hosannas.
 

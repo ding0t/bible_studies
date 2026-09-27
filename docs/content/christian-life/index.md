@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-26
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -53,7 +53,7 @@ Prayer, fasting, and the disciplines of walking with Christ.
 
     ---
 
-    Prayer as relationship before routine -- the Spirit-given cry of 'Abba, Father' that makes the habit possible, who prayer is addressed to, how Jesus and the apostles actually prayed, what to pray about, how God answers, a pattern to pray by, and how to teach a household to pray.
+    Prayer as relationship before routine -- the Spirit-given cry of 'Abba, Father' that makes the habit possible, who prayer is addressed to, how Jesus and the apostles actually prayed, what to pray about, what prayer permits God to do, a pattern to pray by, and how to teach a household to pray.
 
     [:octicons-arrow-right-24: Read](prayer-as-communion.md)
 

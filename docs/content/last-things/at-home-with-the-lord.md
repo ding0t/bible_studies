@@ -126,8 +126,8 @@ the Spirit as His pledge (5:5). And death takes the believer home to the Lord (5
 
 ## Two verbs for home
 
-Paul builds verses 6-9 on a pair of verbs. **ἐνδημέω** (*endēmeō*, en-day-MEH-oh) is to be at home
-among your own people. **ἐκδημέω** (*ekdēmeō*, ek-day-MEH-oh) is to be away from home, abroad. Both
+Paul builds verses 6-9 on a pair of verbs. **ἐνδημέω** (*endēmeō*, en-day-MEH-oh, G1736) is to be at home
+among your own people. **ἐκδημέω** (*ekdēmeō*, ek-day-MEH-oh, G1553) is to be away from home, abroad. Both
 are built on δῆμος, a people. Each occurs three times in the New Testament, and all six sit in
 2 Corinthians 5:6, 8 and 9.
 
@@ -145,7 +145,7 @@ make it our aim to please him" (5:9, ESV).
 
 **The Holy Spirit is the pledge that it will happen.** "He who has prepared us for this very thing is
 God, who has given us the Spirit as a guarantee" (5:5, ESV). The word is **ἀρραβών** (*arrabōn*,
-ar-rah-BONE), a pledge or down payment. It occurs three times in the New Testament, and in every one
+ar-rah-BONE, G728), a pledge or down payment. It occurs three times in the New Testament, and in every one
 the pledge is the Spirit (2 Corinthians 1:22; 5:5; Ephesians 1:14). The Greek Old Testament uses it
 for the pledge Judah left with Tamar, his signet, cord and staff, held until the payment came
 (Genesis 38:17-20). The *NIV Biblical Theology Study Bible* gives the word's two senses: a pledge

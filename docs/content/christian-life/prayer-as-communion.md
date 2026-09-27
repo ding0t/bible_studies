@@ -21,7 +21,7 @@ Prayer in the New Testament is a child speaking to a father. The cry it puts in 
 is "Abba! Father!", and Paul says the Spirit *produces* that cry (Romans 8:15).
 
 What the relationship produces is a habit, and the New Testament has a word for that too:
-**προσκαρτερέω** (*proskartereō*) — to stick at something, to keep at it stubbornly. It occurs ten
+**προσκαρτερέω** (*proskartereō*, G4342) — to stick at something, to keep at it stubbornly. It occurs ten
 times, and five of them are about prayer: the upper room "devoting themselves to prayer" (Acts 1:14),
 the first church devoted to "the breaking of bread and the prayers" (Acts 2:42), the apostles
 refusing administration so they could "devote ourselves to prayer" (Acts 6:4), the Romans told to
@@ -192,7 +192,7 @@ from it is an instruction to pray: **draw near**. Hebrews 4:16 gives the same in
 promise attached — "let us then with confidence draw near to the throne of grace, that we may
 receive mercy and find grace to help in time of need."
 
-Paul's word at Ephesians 2:18 is **προσαγωγή** (*prosagōgē*), and Louw-Nida files it in the domain
+Paul's word at Ephesians 2:18 is **προσαγωγή** (*prosagōgē*, G4318), and Louw-Nida files it in the domain
 of **communication**. It is the word for being brought in and presented to someone, the
 way a stranger is introduced at court. And Hebrews' word for what you do next is
 **προσέρχομαι**, "draw near", which at 11:6 carries the semantic domain of **association**: coming
@@ -276,7 +276,7 @@ I go over there and pray"), takes Peter, James and John further in, then goes "a
 falls on His face alone (Matthew 26:36-39). Luke measures the last stage: "about a stone's throw"
 (22:41).
 
-The place is usually **ἔρημος** (*erēmos*), a desolate or wilderness place — Mark 1:35, Luke 4:42,
+The place is usually **ἔρημος** (*erēmos*, G2048), a desolate or wilderness place — Mark 1:35, Luke 4:42,
 Luke 5:16, somewhere He had to travel to. That is what makes
 the solitude legible as a decision: it cost Him sleep, it cost Him distance, and it cost the people
 around Him access to Him while it lasted.
@@ -312,7 +312,7 @@ the Sanhedrin, the church prays together:
 
 **And the address itself is Scripture**: Exodus 20:11 and Psalm 146:6, both of which
 read "who made heaven and earth, the sea, and all that is in them." They then recite Psalm 2, name
-what has already happened as what God's "hand and… plan had predestined to take place" (4:28), and
+what has already happened as what God's "hand and… plan had predestined to take place" (Acts 4:28), and
 only then ask. They do not ask for the threat to be
 removed; they ask to speak boldly through it (4:29).
 
@@ -320,9 +320,9 @@ removed; they ask to speak boldly through it (4:29).
 
 **Paul's recorded prayers for churches ask for wisdom and knowledge**, and
 his own vocabulary is the evidence. Across the three (Ephesians 1:16-19; Colossians 1:9-10;
-Philippians 1:9) he asks four times for **ἐπίγνωσις** (*epignōsis*, knowledge), twice for
-**σοφία** (*sophia*, wisdom), and once each for **σύνεσις** (understanding) and **ἀποκάλυψις**
-(revelation).
+Philippians 1:9) he asks four times for **ἐπίγνωσις** (*epignōsis*, G1922, knowledge), twice for
+**σοφία** (*sophia*, G4678, wisdom), and once each for **σύνεσις** (understanding, G4907) and **ἀποκάλυψις**
+(revelation, G602).
 
 ἐπίγνωσις is γνῶσις with **ἐπι-** on the front — knowledge *of* Him, the kind you have of a person.
 So Ephesians 1:17-18 asks for "the Spirit of wisdom and of revelation in the knowledge of
@@ -377,10 +377,10 @@ Paul gives four distinct words in one sentence, and Louw-Nida assigns each its o
 
 | Greek | Sense | In practice |
 |---|---|---|
-| **δεήσεις** (*deēseis*) | asking out of need — begging | what you lack, and cannot fix |
-| **προσευχάς** (*proseuchas*) | prayer, the general word | the ordinary talking |
-| **ἐντεύξεις** (*enteuxeis*) | approaching someone on another's behalf | intercession — named people, and what you want for them |
-| **εὐχαριστίας** (*eucharistias*) | thanksgiving | what he has already done |
+| **δεήσεις** (*deēseis*, G1162) | asking out of need — begging | what you lack, and cannot fix |
+| **προσευχάς** (*proseuchas*, G4335) | prayer, the general word | the ordinary talking |
+| **ἐντεύξεις** (*enteuxeis*, G1783) | approaching someone on another's behalf | intercession — named people, and what you want for them |
+| **εὐχαριστίας** (*eucharistias*, G2169) | thanksgiving | what he has already done |
 
 Most prayer lives are heavy on the first and light on the last two. Paul's ordering puts
 intercession and thanksgiving in the same breath as asking for yourself, and then names the least

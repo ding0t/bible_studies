@@ -5,7 +5,7 @@ description: "Understanding fasting"
 tags: ["fasting", "devotion", "communion", "faith"]
 draft: false
 date_created: 2026-01-24
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-4.5
@@ -20,11 +20,11 @@ Fasting is fundamentally an attitude of humble dependence upon God, expressed th
 
 ### Hebrew Understanding: צוּם (tsūm)
 
-The Hebrew word <span dir="rtl">צוּם</span> (*tsūm*) means "to abstain from food" or "to cover the mouth." This root conveys both the physical act of not eating and the spiritual posture of humility. The word appears over 50 times in the Old Testament, reflecting its importance in Jewish spiritual life.
+The Hebrew word <span dir="rtl">צוּם</span> (*tsūm*, H6684) means "to abstain from food" or "to cover the mouth." This root conveys both the physical act of not eating and the spiritual posture of humility. The word appears over 50 times in the Old Testament, reflecting its importance in Jewish spiritual life.
 
 ### Greek Understanding: νηστεύω (nēsteuō)
 
-The Greek word **νηστεύω** (*nēsteuō*) means "to fast" or "to abstain from food." The related noun **νηστεία** (*nēsteia*) refers to the practice of fasting itself. These words emphasize voluntary abstinence for religious purposes, distinguishing spiritual fasting from mere hunger or deprivation.
+The Greek word **νηστεύω** (*nēsteuō*, G3522) means "to fast" or "to abstain from food." The related noun **νηστεία** (*nēsteia*, G3521) refers to the practice of fasting itself. These words emphasize voluntary abstinence for religious purposes, distinguishing spiritual fasting from mere hunger or deprivation.
 
 ### Biblical Definition
 
@@ -61,7 +61,7 @@ Fasting is the voluntary denial of physical appetite to pursue spiritual hunger 
 
 ### The Day of Atonement (Yom Kippur)
 
-The only biblically mandated fast was on the Day of Atonement. Leviticus 16:29 commands Israel to "deny yourselves" (Hebrew: *תְּעַנּוּ אֶת־נַפְשֹׁתֵיכֶם*, "afflict your souls"). Jewish tradition understood this as requiring:
+The only biblically mandated fast was on the Day of Atonement. Leviticus 16:29 commands Israel to "deny yourselves" (Hebrew: <span dir="rtl">תְּעַנּוּ אֶת־נַפְשֹׁתֵיכֶם</span>, "afflict your souls"). Jewish tradition understood this as requiring:
 - Complete abstinence from food and drink for 25 hours
 - Abstinence from work
 - Solemn assembly before the LORD

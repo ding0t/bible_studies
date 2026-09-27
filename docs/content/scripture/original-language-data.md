@@ -6,7 +6,7 @@ tags: ["lang/hebrew", "lang/greek", "method/textual-criticism", "sources", "data
 draft: false
 bible_references: ["Genesis 1:1", "John 1:1"]
 date_created: 2026-09-05
-date_modified: 2026-09-07
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -113,7 +113,7 @@ word you are looking at.
 ### Semantic domain
 
 A code placing the word in a category of meaning, from a scholarly classification — Louw-Nida for
-Greek, SDBH for Hebrew. <span dir="rtl">רֵאשִׁית</span> ("beginning") carries `002003003004`; John
+Greek, SDBH for Hebrew. <span dir="rtl">רֵאשִׁית</span> ("beginning", H7225) carries `002003003004`; John
 1:1's ἀρχή carries `67.65`.
 
 This answers a question a dictionary cannot: *what other words mean something like this one*. Two

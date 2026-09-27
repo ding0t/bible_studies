@@ -135,7 +135,7 @@ goes and sits at a well.
 > Jacob's well was there; so Jesus, wearied as he was from his journey, was sitting beside the well.
 > It was about the sixth hour.
 
-"He had to" is **ἔδει** (*edei*, "it was necessary", Strong's G1163). Geography does not make it
+"He had to" is **ἔδει** (*edei*, G1163, "it was necessary"). Geography does not make it
 necessary — Josephus has Galileans crossing Samaria as the ordinary three-day road to Judea
 (*Antiquities* 20.118; *Wars* 2.232; *Life* 269) — but John's vocabulary does. **δεῖ** occurs ten
 times in this Gospel (3:7, 3:14, 3:30, 4:4, 4:20, 4:24, 9:4, 10:16, 12:34, 20:9), and everywhere
@@ -181,7 +181,7 @@ one. A spring, relocated inside the person.
 
 The Hebrew for "spring of living waters" is <span dir="rtl">מְקוֹר מַיִם חַיִּים</span> (*meqôr
 mayim ḥayyîm*), and the Septuagint renders <span dir="rtl">מָקוֹר</span> with **πηγή** — the noun
-John uses. Set against it are <span dir="rtl">בֹּארוֹת</span> (*bo'rôt*), cisterns people cut for
+John uses. Set against it are <span dir="rtl">בֹּארוֹת</span> (*bo'rôt*, H953), cisterns people cut for
 themselves, which hold nothing. Jeremiah says it again at 17:13: "they have forsaken Yahweh, the
 spring of living waters."
 
@@ -225,7 +225,7 @@ Jesus states the difference in the plainest terms available and she still hears 
 spring delivers. Her verse 15 keeps the shaft-shaped life entire and asks only for the walk to be
 removed — no thirst, no trip.
 
-The verb she uses for that trip is **ἀντλέω** (*antleō*, "to draw"), which occurs four times in the
+The verb she uses for that trip is **ἀντλέω** (*antleō*, G501, "to draw"), which occurs four times in the
 New Testament and all four are in John: twice of the servants drawing water at Cana (2:8-9), and
 twice here — she *came* to draw (4:7), and she asks never to have to draw again (4:15). It is also
 the Septuagint's verb for the women at the wells of Genesis 24 and Exodus 2, and for Isaiah's
@@ -340,7 +340,7 @@ one, first, is spoken to a lone Samaritan woman with no one else present.
 Whether it carries the weight of Exodus 3:14 is unsettled. In context it answers her sentence about
 the Messiah, so "I am he" is the natural sense — but the NLT's footnote at 4:26 offers "The 'I AM'
 is here" and "I am the LORD", and cross-references Exodus 3:14, so the divine-name reading is a live
-translator's option and not only a commentator's. The unambiguous absolute use arrives at 8:58; what
+translator's option and not only a commentator's. The unambiguous absolute use arrives at John 8:58; what
 4:26 establishes is that the formula starts here.
 
 ## A hesitant witness, and a two-day stay
@@ -355,7 +355,7 @@ and the **ὑδρία**, the water jar, stays at the well. John does not say why
 she came for water and left without it, and the verb is **ἀφίημι** — the same one that opened the
 chapter when Jesus "left" Judea (4:3).
 
-Her question is framed with **μήτι** (*mēti*), the particle that expects the answer *no*. John uses
+Her question is framed with **μήτι** (*mēti*, G3385), the particle that expects the answer *no*. John uses
 it twice more — the crowd asking "will he kill himself?" (8:22) and Pilate's "am I a Jew?" (18:35) —
 both expecting a denial. So her testimony is closer to *"this couldn't be the Christ, could it?"*
 than to a proclamation. It worked anyway:

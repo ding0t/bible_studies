@@ -124,7 +124,7 @@ of the earth." He has taken the noun out of the passage he is quoting and moved 
 the ground.
 
 Jesus calls it the *only* sign this generation will get (Matthew 12:39) and adds that
-"something greater than Jonah is here" (12:41).
+"something greater than Jonah is here" (Matthew 12:41).
 
 This shows that God answers for His Son: the One who brought Jonah up from the pit raised Jesus from
 the dead, and the resurrection is His vindication of Jesus as the Christ. So you have the sign the
@@ -174,7 +174,7 @@ you who belong to Christ will be raised after Him (1 Corinthians 15:23).
 > 27 For you will not abandon my soul to Hades, or let your Holy One see corruption.
 
 One sentence, quoted once. Where the Hebrew has <span dir="rtl">שְׁאוֹל</span> (*sheol*), the Greek
-has **ᾅδης** (*hadēs*) — the Septuagint's standing practice, which the Greek Old Testament follows
+has **ᾅδης** (*hadēs*, G86) — the Septuagint's standing practice, which the Greek Old Testament follows
 from Genesis onward.
 
 ### Sheol holds the righteous too
@@ -402,10 +402,10 @@ paragraph by one author, from hostile witnesses with no stake in the convention.
 ### Two statements about which day
 
 **Mark names it.** "The day of Preparation, that is, the day before the Sabbath" (Mark 15:42)
-translates **προσάββατον** (*prosabbaton*, "fore-sabbath"), which occurs once in the New Testament,
+translates **προσάββατον** (*prosabbaton*, G4315, "fore-sabbath"), which occurs once in the New Testament,
 defining the day Jesus died. It anchors the *first* of the three days, the day of the crucifixion
 and burial. Luke says the same without the
-term (23:54), and **παρασκευή** (*paraskeuē*, "Preparation") is used of that day six times across
+term (23:54), and **παρασκευή** (*paraskeuē*, G3904, "Preparation") is used of that day six times across
 the four Gospels.
 
 **Luke counts from the other end.** On the road to Emmaus, on the Sunday itself, two disciples call

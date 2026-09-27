@@ -45,7 +45,7 @@ Daniel supplies the discourse's central term, the abomination of desolation, in 
 Antiochus IV Epiphanes' desecration of the altar in 167 BC (11:31), a coming ruler's desecration in
 a final seven-year period (9:27), and a desolation measured in exact days still future to Daniel
 (12:11). Jesus cites the term without saying which he means. Daniel's seventieth week (9:27) remains
-unstarted, and the distress of 24:15-28 sits inside it.
+unstarted, and the distress of Matthew 24:15-28 sits inside it.
 
 ### Lessons about Jesus
 
@@ -106,7 +106,7 @@ stones and what wonderful buildings!" (Mark 13:1, ESV) — and Jesus answers wit
 "Do you see these great buildings? There will not be left here one stone upon another that will not
 be thrown down" (13:2, ESV). They cross the valley, climb the Mount of Olives, sit down opposite the
 temple, and four of them ask him about it privately. Mark alone names them: "Peter and James and John
-and Andrew" (13:3, ESV). Keep those names; they matter at the end of this study.
+and Andrew" (Mark 13:3, ESV). Keep those names; they matter at the end of this study.
 
 Mark and Luke record one question in two parts — when, and what sign (Mark 13:4; Luke 21:7). Matthew
 records three:
@@ -148,8 +148,8 @@ flowchart LR
 
 ### One conversation, three records
 
-Matthew's disciples asked about the *parousia*
-(παρουσία, *parousia*, Strong's G3952) by name — the word appears at 24:3, 27, 37 and 39, and nowhere
+Matthew's disciples asked about the παρουσία
+(*parousia*, G3952) by name — the word appears at 24:3, 27, 37 and 39, and nowhere
 in Mark's or Luke's version — and Matthew's account is correspondingly the one that runs on into
 chapter 25's parables.
 
@@ -484,8 +484,7 @@ ready.
 ### What "ready" actually means
 
 **"Ready" is easily heard as watchfulness for an arrival, and that is not mainly what the parables
-measure.** Ἕτοιμος ("ready",
-Strong's G2092) turns up at 24:44 and again of the virgins who "were ready" at 25:10 — and only that
+measure.** Ἕτοιμος (*hetoimos*, G2092, "ready") turns up at 24:44 and again of the virgins who "were ready" at 25:10 — and only that
 second parable is about anticipating the moment. The other three are about being answerable. The
 faithful servant is "set over his household, to give them their food at the proper time" (24:45), and
 is blessed if the master "will find so doing when he comes" (24:46) — found *doing the job*, not
@@ -560,7 +559,7 @@ flowchart LR
 ```
 
 Three of the four are lexical matches. Mark 13:35's ὀψέ answers to ὀψία at 14:17; ἀλεκτοροφωνία
-("cockcrow") answers to ἀλέκτωρ at 14:72; and πρωΐ at 15:1 is the identical word in the identical
+("cockcrow", G219) answers to ἀλέκτωρ at 14:72; and πρωΐ at 15:1 is the identical word in the identical
 Louw-Nida sense as 13:35. The midnight watch is positional rather than verbal — μεσονύκτιον occurs
 only once in Mark, at 13:35 — but its slot in the sequence is Gethsemane, and Gethsemane is where the
 command is put to the test by name.
@@ -581,7 +580,7 @@ groves on the Mount of Olives" (*ESV Study Bible*, note on Matthew 26:36) — th
 test happen on the same hill, one at the top and one at the foot. Same men: Mark 13:3 named Peter,
 James, John and Andrew as the ones who asked the
 question, and Mark 14:33 takes Peter, James and John into the garden. Hours, not years, separate the
-command from the failure. Jesus said "lest he come suddenly and find you asleep" (13:36); Mark writes
+command from the failure. Jesus said "lest he come suddenly and find you asleep" (Mark 13:36); Mark writes
 "he came and found them sleeping" (14:37), and then twice more.
 
 Mark is showing his readers what the command costs,
