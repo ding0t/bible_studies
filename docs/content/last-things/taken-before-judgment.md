@@ -3,7 +3,7 @@ title: "Taken Before Judgment: Enoch, Noah, Lot and Elijah"
 category: "prophecy"
 description: "Enoch, Lot and Elijah were taken out before judgment reached them, and Noah was kept through it. Read as types, they illustrate the pretribulational rapture that other texts teach directly."
 tags: ["rapture", "genesis", "2-kings", "2-peter", "luke", "hebrews", "dispensationalism", "person/enoch", "person/noah", "person/lot", "person/elijah", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Genesis 5:21-24"
 bible_references: ["Genesis 5:21-27", "Genesis 7:1", "Genesis 7:6", "Genesis 7:16", "Genesis 19:16", "Genesis 19:22-26", "2 Kings 2:3-11", "Psalm 49:15", "Psalm 73:24", "Romans 5:14", "Luke 17:26-30", "Matthew 24:29", "Matthew 24:37-41", "Matthew 25:34", "1 Corinthians 15:51-52", "1 Thessalonians 1:10", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Hebrews 11:5-7", "2 Peter 2:4-9", "Jude 1:14-15", "Revelation 3:10"]
 date_created: 2026-09-26
