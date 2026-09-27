@@ -130,6 +130,16 @@ What the pop-ups (0.1 and 0.2) left undone.
 - **A validator warning for a bare reference.** Once the sweep is done, a `validate-content.js`
   check warns on a chapter-and-verse with no book that is not a continuation in the same citation,
   so new text cannot drift back.
+- **Pronunciation: prose, card, or neither.** AGENTS.md asks for "the English pronunciation of a
+  word" alongside the original text, but most studies give only the transliteration, and the word
+  card shows the transliteration without a pronunciation. The studies that do give one use the
+  house shape `(*Petros*, PET-ross, G4074)`. Decide whether to keep the rule and add pronunciations
+  where they are missing, move pronunciation into the card (STEPBible's lexicon would have to
+  supply it), or drop the requirement from AGENTS.md.
+- **Iscariot's derivation in `biblical-figures/judas-iscariot.md`.** The page cites Strong's H377 for
+  the "man of Kerioth" reading, and that is what Strong's G2469 says ("probably H0377 and H07149").
+  But H377 is the verb "to be a man", while the Hebrew the page writes, <span dir="rtl">אִישׁ</span>
+  *ish*, is the noun "man", H376. Decide whether the page notes that Strong's points at the verb.
 - **Hebrew meanings.** The word card shows STEPBible's short gloss. TBESH's fuller "Meaning" column
   is left out because its header credits Online Bible's abridged BDB and asks that permission be
   sought. Ask Online Bible, or leave it out for good.
