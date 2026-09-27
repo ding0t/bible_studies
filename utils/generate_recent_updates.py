@@ -14,9 +14,8 @@ stdlib-only (git log via subprocess, hand-rolled frontmatter scalars) on purpose
 in CI without syncing the references/build/ venv (that pyproject pulls in bibleorgsys, pymupdf,
 etc. -- far more than parsing `title`/`description`/`draft` needs). Requires a working tree with
 full git history (`fetch-depth: 0` in CI, already set for the deploy job).
-
-Usage: python3 utils/generate_recent_updates.py
 """
+import argparse
 import os
 import re
 import subprocess
@@ -163,6 +162,9 @@ def replace_section(path: Path, start: str, end: str, section: str) -> bool:
 
 
 def main() -> None:
+    argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    ).parse_args()
     pages = collect_pages()
     changed = []
     if replace_section(FULL_PAGE, FULL_START, FULL_END, render_full_section(pages)):

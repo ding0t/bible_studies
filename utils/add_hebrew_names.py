@@ -1,3 +1,8 @@
+"""Sets name_hebrew, name_transliteration and name_meaning on people in the docs/data/genealogy
+era files from HEBREW_NAMES, overwriting the files in place. Anyone missing from the map gets
+blank Hebrew and meaning, and their English name as the transliteration.
+"""
+import argparse
 import json
 import os
 
@@ -195,5 +200,6 @@ def add_hebrew_names_to_genealogy():
         print(f"✓ Updated {filename}: {updated_count} people with Hebrew names")
 
 if __name__ == '__main__':
+    argparse.ArgumentParser(description=__doc__).parse_args()
     add_hebrew_names_to_genealogy()
     print("\n✓ Hebrew names added to all genealogy files")

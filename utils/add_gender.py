@@ -1,3 +1,7 @@
+"""Sets `gender` on every person in the docs/data/genealogy era files from GENDER_MAP,
+overwriting the files in place. Anyone missing from the map is set to "unknown" and reported.
+"""
+import argparse
 import json
 import os
 
@@ -129,5 +133,6 @@ def add_gender_to_genealogy():
         print(f"✓ Updated {filename}: {updated_count} people with gender")
 
 if __name__ == '__main__':
+    argparse.ArgumentParser(description=__doc__).parse_args()
     add_gender_to_genealogy()
     print("\n✓ Gender added to all genealogy files")

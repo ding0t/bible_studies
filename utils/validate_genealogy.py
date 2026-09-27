@@ -1,3 +1,8 @@
+"""Checks the docs/data/genealogy JSON after a hand edit. Read-only. Exits non-zero only on a
+missing required field; dangling child ids, optional-field gaps and per-variant year coverage are
+warnings, because that non-uniformity is legitimate content the components must guard against.
+"""
+import argparse
 import glob
 import json
 
@@ -19,6 +24,8 @@ VARIANT_SUPPLIED = ['gregorian_year_born', 'gregorian_year_died', 'lifespan_year
 OPTIONAL_FIELDS = ['major_events', 'name_hebrew', 'name_meaning', 'name_transliteration']
 
 # Load all era files
+argparse.ArgumentParser(description=__doc__).parse_args()
+
 files = [
     'docs/data/genealogy/antediluvian.json',
     'docs/data/genealogy/patriarchal.json',

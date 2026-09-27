@@ -33,14 +33,10 @@ re-run.
 
 stdlib-only, same as the other utils/ scripts, so it needs no venv. Requires full git history.
 
-Usage: python3 utils/refresh_frontmatter_provenance.py [--check]
-
-  --check  report what would change and exit 1 if anything would, without writing. For CI or a
-           pre-commit hook.
 """
+import argparse
 import re
 import subprocess
-import sys
 from datetime import date
 from pathlib import Path
 
@@ -187,7 +183,16 @@ def hand_written_pages() -> list[Path]:
 
 
 def main() -> int:
-    check_only = "--check" in sys.argv
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="report what would change and exit 1 if anything would, without writing "
+        "(for CI or a pre-commit hook)",
+    )
+    check_only = parser.parse_args().check
     today = date.today().isoformat()
     dirty = dirty_paths()
     changed = []
