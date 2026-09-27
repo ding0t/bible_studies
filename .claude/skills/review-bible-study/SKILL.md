@@ -353,14 +353,15 @@ that looks obviously off. Report as **Minor**.
 
 **If the study has a Memory verses subsection, check it against
 [key-takeaways.md](../../../docs/content/about/key-takeaways.md#memory-verses).** The standard shape
-is a block quote with the reference linking to Blue Letter Bible, and no explanatory sentence after
-the verse (a bare "See [section]" locator in a study with several parallel sections is the one
-exception). As of 2026-09-19 this is genuinely unconverted across the corpus — most studies use the
-block quote without the link, some use a bulleted `**Reference** — "quote"` line, and a few fold the
-citation into a paragraph — so don't report every unlinked reference as a fresh regression; report
-missing links as **Minor** (known corpus cleanup) and an explanatory sentence tacked onto a verse as
-**Minor** as well, but flag it by name since it's the part of this shape that's a genuine defect
-rather than a pending conversion.
+is a block quote with the reference written plainly, and no explanatory sentence after the verse
+(a bare "See [section]" locator in a study with several parallel sections is the one exception).
+The corpus still mixes shapes -- some studies use a bulleted `**Reference** -- "quote"` line, and a
+few fold the citation into a paragraph -- so report a different shape as **Minor** (known corpus
+cleanup). A reference linked to Blue Letter Bible or another Bible site is also **Minor**: the
+site's pop-up opens every plain reference in place, and the links were removed on 2026-09-27; only a
+deliberate send-off for follow-up study, saying so in its link text, keeps one. An explanatory
+sentence tacked onto a verse is **Minor** as well, but flag it by name since it's the part of this
+shape that's a genuine defect rather than a pending conversion.
 
 **Measure any mermaid diagram in the file** against
 [diagrams.md](../develop-bible-study/diagrams.md). A diagram wider than ~560px is scaled down whole

@@ -5,7 +5,7 @@ description: "What the Key Takeaways section at the top of every study is for, t
 tags: ["study-method", "key-takeaways", "transformation"]
 draft: false
 date_created: 2026-08-02
-date_modified: 2026-09-20
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -100,34 +100,32 @@ One to three verses from the study worth committing to memory, named with refere
 These should already appear, quoted and cited, somewhere in the study's own body. This subsection
 points back to them. It introduces no new quotations.
 
-#### The shape: a linked block quote
+#### The shape: the standard block quote
 
-**Shape: the standard scripture quote block, with the reference itself linking to Blue Letter
-Bible.**
+**Shape: the standard scripture quote block, with the reference written plainly.**
 
 ```
-> ✝️ [Romans 8:1 (ESV)](https://www.blueletterbible.org/esv/Rom/8/1)
+> ✝️ Romans 8:1 (ESV)
 >
 > 1 There is therefore now no condemnation for those who are in Christ Jesus.
 ```
 
-#### Why the reference is a link
+#### Why the reference is not a link
 
 That's the site's existing `> ✝️ Reference (TRANSLATION)` block quote shape (develop-bible-study
-Phase 7), with one addition specific to this subsection: the reference itself becomes a link. A
-memory verse is the one place on a page a reader is meant to come back to on its own, days later,
-without the study's argument around it — a working link straight to the text (in the translation
-actually quoted, to read in context or compare) earns its place here in a way it wouldn't inside the
-walk-through, where the full verse is already quoted and argued from. A 2026-09-19 audit found the
-corpus currently running three different shapes for this subsection at once — the block quote above
-(most studies), a bulleted `**Reference (Translation)** — "quote"` line (a handful), and a bare
-citation folded into a paragraph (about a third) — with no study yet using the BLB link. Converge
-new and edited studies on the block-quote-with-link shape above; leave the mixed corpus as a known
-cleanup rather than a silent inconsistency. **Check the link resolves before publishing** — most of
-what this site quotes (ESV, WEB, ASV, NASB, NIV) is hosted at Blue Letter Bible under a predictable
-`/<version>/<Book>/<chapter>/<verse>` path, but a study occasionally quotes something rarer (the
-Masoretic Text, LXX, a named lexicon's own rendering); don't construct a URL from the pattern and
-assume it works, follow it.
+Phase 7). A memory verse is the one place on a page a reader is meant to come back to on its own,
+days later, without the study's argument around it, so the reader needs the verse's context within
+reach. Every reference on the site now gives them that in place: it opens a pop-up with the verse,
+the verses around it, the passages most often read with it, and the other studies that treat it.
+Until 2026-09-27 this subsection linked the reference to Blue Letter Bible instead; those links were
+removed site-wide when the pop-up arrived. Link out to Blue Letter Bible only when the study means
+to send the reader there for a follow-up study of their own, and say so in the link text.
+
+A 2026-09-19 audit found the corpus running three different shapes for this subsection at once —
+the block quote above (most studies), a bulleted `**Reference (Translation)** — "quote"` line (a
+handful), and a bare citation folded into a paragraph (about a third). Converge new and edited
+studies on the block quote; leave the mixed corpus as a known cleanup rather than a silent
+inconsistency.
 
 #### No commentary after the verse
 
@@ -223,6 +221,8 @@ happens, now as a refinement log rather than a redesign:
   directly, and review-bible-study's Phase 8 now audits for it — this page is the one place the
   *rule* lives, but not the only place a session needs to see it to follow it.
 - **2026-09-19 — Memory verses' shape settled**: the block quote already used by most studies, with
-  the reference linking to Blue Letter Bible, and no explanatory sentence after the verse. See
+  the reference linking to Blue Letter Bible, and no explanatory sentence after the verse. **Revised
+  2026-09-27:** the reference is no longer linked, since every reference now opens the verse in a
+  pop-up. See
   [Memory verses](#memory-verses) above for the shape and the reasoning; the existing corpus is left
   as a known cleanup, not yet converted.

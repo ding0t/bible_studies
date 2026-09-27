@@ -47,6 +47,8 @@ theme:
 # this repo's own index scripts and drafts published silently. See hooks/draft_pages.py.
 hooks:
   - hooks/draft_pages.py
+  # After draft_pages, so the verse pop-up's "in these studies" list never names a draft.
+  - hooks/popups.py
 
 plugins:
   - search
@@ -433,6 +435,13 @@ extra_css:
   # Maps the ten --color-* variables the React tools style themselves from onto
   # mkdocs-material's own, so they follow the site palette and its dark-mode toggle.
   - assets/stylesheets/tools.css
+  - assets/stylesheets/popups.css
+
+# Verse and word pop-ups on every page. The bundle is built by `npm run build:tools` (app/) and
+# its data lives in assets/popups/ -- see app/src/entries/popups.js.
+extra_javascript:
+  - path: assets/js/popups.js
+    type: module
 
 # Link checking. mkdocs --strict already fails on a bad FILE path, but said nothing about a
 # bad #anchor -- a link to a heading that has been renamed or never existed would build clean

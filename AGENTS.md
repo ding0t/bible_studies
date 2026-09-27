@@ -100,7 +100,8 @@ hand-write those three.
   ordinary mkdocs pages with a React bundle mounted into a `<div>`, so they inherit the site's
   sidebar, search, breadcrumbs and palette toggle. **Astro is gone** — there is one site build.
   `app/` is now just the React components, their utils, the build scripts and the tests; esbuild
-  bundles the two entry points in `app/src/entries/` into `docs/content/assets/js/`.
+  bundles the four entry points in `app/src/entries/` (genealogy, timeline, the Scripture Links
+  explorer, and the site-wide verse and word pop-ups) into `docs/content/assets/js/`.
 - **The site is served from `the-way.lewy.au` at its root** — a Cloudflare Workers Custom Domain,
   not `github.io/bible_studies` (stale and orphaned since the September 2026 migration; no longer
   built, no longer the custom domain, no longer even resolving there). Site-absolute URLs therefore
@@ -122,9 +123,9 @@ Hot-reload dev server at http://localhost:8000/. `docs_dir` is `docs/content` (s
 ```bash
 cd app
 npm install
-npm run build:tools  # events.json + esbuild -> docs/content/assets/js/{genealogy,timeline}.js
-                     # (gitignored). Run before `mkdocs serve`, or both tool pages render an
-                     # empty div.
+npm run build:tools  # events.json + esbuild -> docs/content/assets/js/{genealogy,timeline,
+                     # references,popups}.js (gitignored). Run before `mkdocs serve`, or the tool
+                     # pages render an empty div and no reference on any page pops up.
 npm run dev:tools    # same, unminified, with esbuild --watch. Pair with `mkdocs serve`: the
                      # bundles land inside docs_dir, so a rebuild triggers a page reload.
 npm test             # build-events, calendarConvert, bibleReference, chronology
@@ -210,6 +211,7 @@ uv run python cross_study_claims.py --min-studies 4   # chapters several studies
 uv run python commentary_index.py  # regenerate auto cross-ref pages — run after editing a study's bible_references/primary_passage
 uv run python section_index.py     # regenerate category landing pages — run after adding a study or new content section
 uv run python build_study_notes.py # commercial study-Bible db, writes outside this repo — see references/README.md
+uv run python export_popups.py     # verse + word pop-up data -> docs/content/assets/popups/ (committed; re-run when bible-text.db changes)
 ```
 
 **Source catalog drift check** (run from the repo root, stdlib only):
@@ -303,6 +305,21 @@ the workflow manually (`workflow_dispatch`).
   This replaced a two-project split (mkdocs + Astro, stitched at deploy time) that let the halves
   disagree about the site root and silently 404 every tool asset in 2026-08. Keep it that way: a
   second build system is how that class of bug comes back.
+- **Every Bible reference and Strong's tag on a page pops up.** `app/src/entries/popups.js`, loaded
+  site-wide through `extra_javascript`, scans the rendered page (not the markdown) with
+  `app/src/utils/scriptureRefs.js` and opens a card: the verse (WEB), its context, OpenBible
+  cross-references and the studies that treat it; or, for a word, its lexicon entry, counts, every
+  place a rare word occurs, and the studies that discuss it. So **references are written as plain
+  text and never linked** — a link hides a reference from the scanner. Blue Letter Bible links were
+  removed site-wide on 2026-09-27; keep one only as a deliberate send-off for follow-up study.
+  `data-ref="…"` and `data-strongs="…"` spans mark what the text cannot say on its own. The data is
+  in two halves by where it can be built: `references/build/export_popups.py` writes the Bible
+  text, cross-references and lexicon from `bible-text.db` into `docs/content/assets/popups/`
+  (committed, since CI cannot rebuild the database; open-tier sources only, because it ships to the
+  browser), and `hooks/popups.py` writes the study index from frontmatter and page text on every
+  build, after `draft_pages.py`, so a draft never appears in a pop-up. Word counts match on the
+  exact Strong's id, as `bible_concordance` does, so a pop-up agrees with the count a study was
+  checked against.
 - **Content frontmatter is the integration point.** `app/scripts/build-events.js` reads
   `docs/content/**/*.md` frontmatter (as the first half of `build:tools`) to generate
   `docs/data/events.json`, which the timeline bundle imports at build time. `references/build/commentary_index.py` and `section_index.py` also read it to
