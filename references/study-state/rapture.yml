@@ -537,3 +537,16 @@ read_2026-09-26:
     - "'Does the Church ride out with him?' closes on 'the linen the Bema produced', and 'Why this strengthens...' leans on a Bema the reader has not met yet; the Bema is explained under The judgments, further down. Only a larger reorder of 'Two comings' could fix this by placement alone, and that would separate the two-comings argument from the imminence material it follows. Left for the author."
     - "Evaluative outline annotations (e.g. which section is the heart of the case) left to the author."
     - "This pass verifies nothing; accuracy rests on the review/simplify history above."
+
+simplify_2026-09-28:
+  point: >
+    God will send His Son Jesus to catch His Church up bodily to Himself before the tribulation's
+    wrath falls, a sudden and real rescue He has promised in His own word, so that you can meet grief
+    and waiting with comfort. (Unchanged from the page's own line.)
+  words: "4,269 -> under 4,000 (validator Check 23 clear); budget 4,000 default"
+  moves:
+    - "MOVE: '### What Victorinus actually says' (and the Ken Johnson reference) verbatim to the-restrainer.md, after 'Rome, Michael and the gospel'. Inbound links in the-restrainer.md and rapture-in-the-early-church.md repointed."
+    - "TIGHTEN: Conclusion's recap of harpazo / absent signs / wrath cut; closing line kept."
+    - "MERGE: Noah bullet in imminence section shortened to one sentence (point made in Types & Prophecy, one-taken-one-left, taken-before-judgment)."
+    - "MERGE: 'Why one taken, one left' cut to its claim plus link."
+    - "TIGHTEN: harpazo occurrence list cut from eight examples to John 10:12 and John 10:28-29; count of 14 kept (pop-up lists the rest)."

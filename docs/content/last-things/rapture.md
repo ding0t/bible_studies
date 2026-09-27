@@ -70,7 +70,7 @@ Lord, you promised to come again for your own, personally, not as an afterthough
 - [The call to rapture](#the-call-to-rapture). 1 Thessalonians 4:15-18 and 1 Corinthians 15:51-53: the dead raised, the living changed.
 - [The imminence of the rapture](#the-imminence-of-the-rapture). Matthew 24:36-44 as the second coming, the contested turn at verse 36, the letters' sign-free waiting, "one taken, one left", and the ten virgins.
 - [Two comings](#two-comings-sorted-by-their-own-language). The shared vocabulary, the features that sort, whether the Church rides out with Him in Revelation 19, and what the sequence markers say.
-- [The restrainer and his going](#the-restrainer-and-his-going). 2 Thessalonians 2:1-7, "out of the midst", who restrains, and what Victorinus wrote.
+- [The restrainer and his going](#the-restrainer-and-his-going). 2 Thessalonians 2:1-7, "out of the midst", and who restrains.
 - [The tribulation](#the-tribulation). Daniel's seventieth week, 1 Thessalonians 5:9, and the contested Revelation 3:10.
 - [The judgments](#the-judgments). The Bema seat and the Great White Throne, and what *bēma* means.
 - [The marriage of the Lamb](#the-marriage-of-the-lamb). Revelation 19:7-9: where the supper sits and what the bride wears.
@@ -85,12 +85,8 @@ The English word "rapture" doesn't translate anything directly — it comes from
 **Where the word comes from.** In classical and koine Greek, ἁρπάζω is ordinary language for forcible seizure — a wolf snatching prey, a robber seizing goods, a kidnapper taking a person against their will. Its core sense is *sudden, forceful removal*, and that sense carries through every New Testament use.
 
 **How the New Testament uses it.** The word occurs 14 times. Most describe ordinary forceful
-seizure. A wolf snatching sheep (John 10:12). A strong man's house being plundered (Matthew 12:29).
-The word snatched away by the evil one before it takes root (Matthew 13:19). The violent "forcing"
-of the kingdom (Matthew 11:12). A crowd about to seize Jesus to force him into kingship (John 6:15).
-A mob trying to seize Paul (Acts 23:10). Someone snatched from the fire (Jude 1:23). No one can
-*seize* the Father's sheep out of His hand (John 10:28-29) — the same force, turned into a promise
-of security.
+seizure, such as a wolf snatching sheep (John 10:12). No one can *seize* the Father's sheep out of
+His hand (John 10:28-29) — the same force, turned into a promise of security.
 
 But four occurrences describe something more specific: a person suddenly, physically taken up into heaven or the heavenly realm.
 
@@ -148,7 +144,7 @@ This is glorification, the last stage of your salvation, and God will complete i
 
 Matthew 24:36-44 describes Christ's coming after the tribulation. Its word for the coming is παρουσία (*parousia*, G3952) at 24:37 and 39, the word Matthew used at 24:27 for the coming that flashes like lightning at the end of the distress, and Matthew sets the paragraph after 24:29-31. [The Olivet Discourse](olivet-discourse.md) and [One Taken, One Left](one-taken-one-left.md) read it the same way. On verse 36's "nor the Son", and what it does and does not say about Christ's knowledge, see [The Day No One Knows](../jesus/the-day-no-one-knows.md).
 
-- The point of comparison is being *unprepared*, not being removed. The flood generation was "eating and drinking, marrying and giving in marriage… and they were unaware until the flood came" (Matthew 24:38-39). Noah is not the one taken out of the scene here; he is the one sealed into the ark while the water falls on the world around him, which is why this passage models preservation *through* judgment and why the ark is not a picture of the rapture.
+- The point of comparison is being *unprepared* (Matthew 24:38-39). Noah is preserved *through* the flood, which is why the ark is not a picture of the rapture.
 - "You also must be ready" (24:44) — readiness is the point of the passage, and the date stays with the Father.
 
 **Some pretribulational teachers read a turn to the rapture at verse 36, and the reading is contested.** Verse 36 opens Περὶ δὲ (*peri de*, "but concerning"), the phrase Paul uses to turn to a new subject at 1 Thessalonians 5:1. They add that a coming which follows Daniel's abomination by a numbered span of days (Daniel 12:11) could be calculated, where "no one knows" this one. Against that, verses 37 and 39 keep the word *parousia* from 24:27, and the Noah illustration pictures the coming in judgment. This study reads the paragraph as the second coming. Those who take the other view reach the same pretribulational conclusion by it.
@@ -160,9 +156,7 @@ This shows that God keeps the day in His own hand and asks you for readiness: wa
 ### Why "one taken, one left" is not part of this case
 
 "One will be taken and one left" (Matthew 24:40-41) is regularly quoted as proof of a pretribulational
-rapture. It will not carry that weight. Neither verb carries a verdict lexically, and in the Noah
-illustration these two verses complete, the ones swept away are the wicked and the man left standing
-on the earth is Noah. [One Taken, One Left](one-taken-one-left.md) works this through.
+rapture. It will not carry that weight; [One Taken, One Left](one-taken-one-left.md) works this through.
 
 ### The ten virgins
 
@@ -305,25 +299,6 @@ all been proposed — and [The Restrainer](the-restrainer.md) sets out the case 
 
 This shows that God rules the timing of evil in His providence: the lawless one is revealed only "in his time" (2:6), so you need not be shaken or alarmed (2:2).
 
-### What Victorinus actually says
-
-Ken Johnson (Th.D.) argues from what he presents as an ancient Hebrew-language text of 1-2
-Thessalonians, quoted by two church fathers by around AD 180, that the restrainer is named there as
-the Holy Spirit. The publicly available material doesn't name the manuscript, give a catalog
-reference, or identify the two fathers, so the claim itself can't be checked from here. And a Hebrew
-*Vorlage* for letters written to a Gentile-majority congregation in Macedonia is part of no
-established textual-critical tradition, unlike the Peshitta or the Old Latin.
-
-One half of it can be checked, because our notes name Victorinus of Pettau as one of the two
-fathers. Haussleiter's critical edition (CSEL 49, 1916) prints both surviving recensions, and at
-*Commentary on the Apocalypse* 11.4-5 Victorinus quotes 2 Thessalonians 2:7 as **donec de medio
-tollatur**, with Jerome's revision reading **donec de medio fiat**. So "out of the midst" is
-genuinely his phrase. What follows it in his own text is a gloss identifying the restrainer as Roman
-imperial power — *fuisse inter Caesares*, "he was among the Caesars", *qui tunc erat princeps*, "who
-was then the prince." Whatever his Greek or Latin read, Victorinus did not take the restrainer to be
-the Church. His date is a second problem: he died around 304, so he cannot be a witness "by around
-AD 180."
-
 ## The tribulation
 
 The tribulation is a specific seven-year period. It is Daniel's seventieth "week" of years (Daniel
@@ -426,7 +401,7 @@ Whichever of these is correct, the outcome for the believer is the same: Christ 
 
 ## Conclusion
 
-The word Scripture uses for the rapture, ἁρπάζω, describes a real, sudden, physical event everywhere else it is used of someone going to be with God. Read alongside the specific, sequenced signs attached to the second coming but absent from the rapture texts, and alongside Scripture's promise that believers are not destined for the wrath of the tribulation, the pretribulational reading carries real textual weight. Whatever the exact timing, the promise underneath it doesn't move: "and so we will always be with the Lord" (1 Thessalonians 4:17).
+Whatever the exact timing, the promise underneath it doesn't move: "and so we will always be with the Lord" (1 Thessalonians 4:17).
 
 This is the blessed hope: God will send Jesus for you Himself, raise those who have died in Him, and keep you with Him forever, so encourage one another with these words (1 Thessalonians 4:18).
 
@@ -442,7 +417,6 @@ This is the blessed hope: God will send Jesus for you Himself, raise those who h
 - *ESV Study Bible* (Crossway, 2016) — notes on Revelation 3:10, 1 Thessalonians 4:17, 2 Thessalonians 2:6-7, and 2 Corinthians 5:10, consulted as an independent check; source of the corrected Bēma etymology and the acknowledged ambiguity on Revelation 3:10 and the restrainer's identity.
 - *NIV Biblical Theology Study Bible* (Zondervan, 2018) — notes on 1 Thessalonians 4:17 (the *apantēsis* civic-welcome sense) and 2 Thessalonians 2:6-7 (the scholarly proposals for the restrainer), consulted independently of the ESV Study Bible above.
 - Robert L. Thomas, cited in Thomas Ice, [The Holy Spirit and the Pretribulational Rapture](https://www.according2prophecy.org/hsrap.html) — source of the τὸ κατέχον / ὁ κατέχων gender-shift argument at 2 Thessalonians 2:6-7, confirmed against this repo's own Greek text (SBLGNT).
-- Ken Johnson, Th.D., *[Paul's Ancient Hebrew Thessalonian Epistles](https://prophecywatchers.com/product/pauls-ancient-hebrew-thessalonians-epistles-proof-of-a-pre-trib-rapture-by-ken-johnson-shipping-included-usa-only/)* — see [What Victorinus actually says](#what-victorinus-actually-says): the underlying manuscript claim could not be checked from publicly available material, and Victorinus, named as one of the two witnesses, glosses 2 Thessalonians 2:7 as Roman imperial power.
 - [The Trumpet Call of God](trumpet.md) — the trumpet imagery shared between 1 Thessalonians 4:16 and 1 Corinthians 15:52, and this site's model for tracing Revelation's imagery to its Old Testament source.
 - [The Day Is Near](day-is-near.md) — the readiness Matthew 25's parable calls for, worked out in full.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) — the chronological framework behind the seven-year tribulation reckoning above.

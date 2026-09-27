@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Thessalonians 2:1-12"
 bible_references: ["2 Thessalonians 2:1-9", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Philippians 2:15", "2 Corinthians 6:17", "1 Corinthians 5:2", "Colossians 2:14", "1 Corinthians 3:16", "Ephesians 2:21-22", "John 14:16-17", "John 14:26", "John 16:7-8", "John 16:13", "1 John 4:4", "Genesis 6:3", "Matthew 5:13-14", "Revelation 7:9", "Revelation 7:14", "Revelation 13:7", "Revelation 14:6", "Daniel 9:27", "Matthew 24:15", "Matthew 24:21", "Daniel 10:13", "Daniel 12:1", "Jude 9", "Revelation 12:7-8", "Romans 13:4", "Psalm 139:7", "Isaiah 52:11", "Genesis 29:35"]
 date_created: 2026-09-26
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -297,8 +297,8 @@ case at length.
   avenger who carries out God's wrath on the wrongdoer" (Romans 13:4, ESV). But the third
   requirement fails. Rome fell, and the lawless one did not appear. Government does not come out of
   the midst when he is revealed; its authority passes to him, as the beast is given "authority ...
-  over every tribe and people and language and nation" (Revelation 13:7, ESV). Victorinus of Pettau read the restrainer as Rome; [The
-  Rapture of the Church](rapture.md#what-victorinus-actually-says) sets out what he wrote.
+  over every tribe and people and language and nation" (Revelation 13:7, ESV). Victorinus of Pettau read the restrainer as Rome; [What Victorinus actually
+  says](#what-victorinus-actually-says) sets out what he wrote.
 - **The archangel Michael.** This is the strongest alternative, and the *NIV Biblical Theology Study
   Bible* favours it (note on 2:6-7). Michael resists evil powers: he "came to help" against "the
   prince of the kingdom of Persia" (Daniel 10:13, ESV), and "Michael and his angels" fight the dragon
@@ -315,6 +315,25 @@ case at length.
 - **The preaching of the gospel, and Paul.** The gospel is proclaimed in the tribulation (Revelation
   14:6), so it does not come out of the midst when the lawless one is revealed, and Paul's death did
   not bring the lawless one.
+
+### What Victorinus actually says
+
+Ken Johnson (Th.D.) argues from what he presents as an ancient Hebrew-language text of 1-2
+Thessalonians, quoted by two church fathers by around AD 180, that the restrainer is named there as
+the Holy Spirit. The publicly available material doesn't name the manuscript, give a catalog
+reference, or identify the two fathers, so the claim itself can't be checked from here. And a Hebrew
+*Vorlage* for letters written to a Gentile-majority congregation in Macedonia is part of no
+established textual-critical tradition, unlike the Peshitta or the Old Latin.
+
+One half of it can be checked, because our notes name Victorinus of Pettau as one of the two
+fathers. Haussleiter's critical edition (CSEL 49, 1916) prints both surviving recensions, and at
+*Commentary on the Apocalypse* 11.4-5 Victorinus quotes 2 Thessalonians 2:7 as **donec de medio
+tollatur**, with Jerome's revision reading **donec de medio fiat**. So "out of the midst" is
+genuinely his phrase. What follows it in his own text is a gloss identifying the restrainer as Roman
+imperial power — *fuisse inter Caesares*, "he was among the Caesars", *qui tunc erat princeps*, "who
+was then the prince." Whatever his Greek or Latin read, Victorinus did not take the restrainer to be
+the Church. His date is a second problem: he died around 304, so he cannot be a witness "by around
+AD 180."
 
 ### The reading that meets all three
 
@@ -352,6 +371,7 @@ than Satan, and His presence in the church lasts through this age and ends when 
 - Hebrew translations of the New Testament — Franz Delitzsch (ebible-heb) and Salkinson–Ginsburg
   (ebible-hebsg), both nineteenth-century translations from the Greek — at 2 Thessalonians 2:6-7,
   Philippians 2:15 and 2 Corinthians 6:17.
+- Ken Johnson, Th.D., *[Paul's Ancient Hebrew Thessalonian Epistles](https://prophecywatchers.com/product/pauls-ancient-hebrew-thessalonians-epistles-proof-of-a-pre-trib-rapture-by-ken-johnson-shipping-included-usa-only/)* — see [What Victorinus actually says](#what-victorinus-actually-says): the underlying manuscript claim could not be checked from publicly available material, and Victorinus, named as one of the two witnesses, glosses 2 Thessalonians 2:7 as Roman imperial power.
 
 ### On this site
 

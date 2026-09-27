@@ -7,7 +7,7 @@ draft: true
 primary_passage: "1 Thessalonians 4:13-18"
 bible_references: ["1 Thessalonians 4:13-18", "1 Thessalonians 1:10", "1 Thessalonians 5:9", "Acts 17:5-11", "Titus 2:13", "Matthew 24:21", "Revelation 6:14", "Revelation 7:14", "Revelation 15:1"]
 date_created: 2026-09-26
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -267,7 +267,7 @@ the good part "fleeing." So the lines witness to readers after Victorinus, and i
 context "out of the midst" describes flight.
 
 Victorinus's own comment on 2 Thessalonians 2:7 identifies the restrainer with Roman imperial power;
-[What Victorinus actually says](rapture.md#what-victorinus-actually-says) covers it.
+[What Victorinus actually says](the-restrainer.md#what-victorinus-actually-says) covers it.
 
 ## What the evidence adds up to
 
