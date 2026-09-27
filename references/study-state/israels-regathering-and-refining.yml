@@ -1,6 +1,6 @@
 slug: "israels-regathering-and-refining"
 title: "Israel's Regathering and Refining"
-status: draft
+status: review
 target_path: "docs/content/israel-and-church/israels-regathering-and-refining.md"
 primary_passage: "Ezekiel 36:22-28; Zechariah 12:10-13:9"
 point: >
@@ -17,9 +17,128 @@ stages:
       discussion question. Quotations and word studies were verified in the parent (see its state
       file, review blocks). The 1948 caution in the parent's open_questions applies here: 1948 is a
       candidate stage, never a dated fulfilment.
-  next:
-    done: false
+  scoping:
+    done: true
     notes: >
-      Run develop-bible-study for an opening thesis, Key Takeaways and References (NKJV Cultural
-      Backgrounds SB and NIV Cultural Backgrounds SB for the Psalm 14:7 blending; ESV throughout).
-      Provenance frontmatter left unset for refresh_frontmatter_provenance.py at commit time.
+      Genre: prophets (Ezekiel 36-37, Zechariah 10-13, Hosea, Jeremiah, Amos, Isaiah) read forward
+      through Romans 11:26-27; topical in scope. Placement kept at israel-and-church/ (the
+      Israel/church distinction is the locus; tribulation tagged).
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Ezekiel: priest among Judean exiles in Babylon; dated oracles summer 593 BC to April 571 BC;
+        book pivots on Jerusalem's fall in 586 BC (chs 1-25 before, 33-48 after); news arrives 33:21
+        (ESV Study Bible intro). Zechariah: priest, returned with Zerubbabel c. 538 BC, ministry from
+        520 BC (1:1 "second year of Darius"); chs 9-14 possibly later, 5th c. (ESV SB intro). Key
+        consequence: Zechariah promises a gathering (10:8-10) AFTER the return from Babylon, so that
+        return does not exhaust the promise.
+    literary_context:
+      done: true
+      notes: >
+        Ezekiel 36:22-32 is framed by "not for your sake" (vv. 22, 32) with the new heart and Spirit
+        at its centre (ESV SB note on 36:22-32); order gathering (v. 24) then cleansing (v. 25)
+        confirmed by ESV SB note on 36:24-25. Zechariah 12:10-13:9 sits in the "on that day" oracle
+        (12:1-14:21): grace poured out and the pierced one mourned (12:10-14), a fountain for
+        cleansing (13:1), the shepherd struck (13:7, quoted by Jesus at Matt 26:31), the remnant
+        refined (13:8-9).
+    content_word_studies:
+      done: true
+      notes: "Two routine glosses, no fuller method needed."
+      terms:
+        - {word: "צָרַף", language: hebrew, transliteration: tsaraph, strongs_id: H6884, gloss: "smelt, refine (TWOT 1972)"}
+        - {word: "דָּקַר", language: hebrew, transliteration: daqar, strongs_id: H1856, gloss: "pierce, thrust through (TWOT 449); Num 25:8, 1 Sam 31:4, Zech 13:3"}
+  hermeneutics:
+    theological_principle:
+      done: true
+      notes: >
+        God restores Israel by grace for His name's sake; keeps covenant with the nation He chose;
+        refines a remnant through distress and turns it by His Spirit to Jesus, the pierced one;
+        finishes what He starts (Rom 11:29). Consistent with statement-of-faith End times
+        (pretribulational, literal seven-year tribulation, Daniel 9:27).
+    application_draft:
+      done: true
+      notes: "Be Transformed: grace for His name; promises firm, dates loose; pray for a named Jewish friend."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Matthew 26:31", relation: "Jesus quotes Zech 13:7 of Himself"}
+      - {ref: "John 19:37", relation: "quotes Zech 12:10 as fulfilled at the cross"}
+      - {ref: "Revelation 1:7", relation: "places the looking on the pierced one at the return"}
+    divergences_noted: >
+      cross_study_claims.py for Zechariah 12, Zechariah 13, Ezekiel 36: consistent with
+      israel-and-the-church.md, wife-of-the-lamb.md and lords-prayer.md.
+  drafting:
+    done: true
+    file: docs/content/israel-and-church/israels-regathering-and-refining.md
+  review:
+    done: false
+    validated: true
+
+thesis: >
+  For the sake of His holy name, God gathers Israel to her land and then cleanses her, refines a
+  remnant through the time of distress for Jacob, and turns the nation to mourn for Jesus, the one
+  they pierced, so that all Israel will be saved; and the God who keeps His word to Israel is the God
+  you can trust with yours.
+outline:
+  - {section: "Where these promises were spoken", says: "Ezekiel after Jerusalem fell; Zechariah after the first return, still promising a gathering"}
+  - {section: "The prophets, and the order they give", says: "gathered first, cleansed after, one nation in the land; Hosea and Acts 15 read the same sequence"}
+  - {section: "The tribulation, and what it is for", says: "distress that brings Israel to her Messiah; the shepherd struck, the remnant refined, the pierced one mourned"}
+  - {section: "About 1948", says: "what the prophets require, what no text supplies, how the views divide, and the site's judgement"}
+  - {section: "All Israel will be saved", says: "Romans 11:26-27 as the prophets' conclusion, the contested referent, and Paul's blended quotation"}
+word_budget: 4000
+word_budget_reason: ""
+
+evidence:
+  - {id: ezek-33-21-esv, what: "ESV Ezekiel 33:21 (hook)", tool: study_verse, args: {book: Ezek, chapter: 33, verse: 21, work_id: esv-study-bible}, path: "0.text", expect_contains: "The city has been struck down", checked: 2026-09-26}
+  - {id: ezek-37-11-esv, what: "ESV Ezekiel 37:11 (hook)", tool: study_verse, args: {book: Ezek, chapter: 37, verse: 11, work_id: esv-study-bible}, path: "0.text", expect_contains: "Our bones are dried up, and our hope is lost; we are indeed cut off", checked: 2026-09-26}
+  - {id: ezek-37-12-esv, what: "ESV Ezekiel 37:12 (hook)", tool: study_verse, args: {book: Ezek, chapter: 37, verse: 12, work_id: esv-study-bible}, path: "0.text", expect_contains: "I will open your graves and raise you from your graves, O my people. And I will bring you into the land of Israel", checked: 2026-09-26}
+  - {id: ezek-36-22-esv, what: "ESV Ezekiel 36:22", tool: study_verse, args: {book: Ezek, chapter: 36, verse: 22, work_id: esv-study-bible}, path: "0.text", expect_contains: "It is not for your sake, O house of Israel, that I am about to act, but for the sake of my holy name, which you have profaned among the nations to which you came", checked: 2026-09-26}
+  - {id: ezek-36-23-esv, what: "ESV Ezekiel 36:23 (elided quote)", tool: study_verse, args: {book: Ezek, chapter: 36, verse: 23, work_id: esv-study-bible}, path: "0.text", expect_contains: "when through you I vindicate my holiness before their eyes", checked: 2026-09-26}
+  - {id: ezek-36-32-esv, what: "ESV Ezekiel 36:32", tool: study_verse, args: {book: Ezek, chapter: 36, verse: 32, work_id: esv-study-bible}, path: "0.text", expect_contains: "It is not for your sake that I will act, declares the Lord GOD; let that be known to you", checked: 2026-09-26}
+  - {id: zech-1-1-esv, what: "ESV Zechariah 1:1 date", tool: study_verse, args: {book: Zech, chapter: 1, verse: 1, work_id: esv-study-bible}, path: "0.text", expect_contains: "in the second year of Darius", checked: 2026-09-26}
+  - {id: zech-10-8-esv, what: "ESV Zechariah 10:8", tool: study_verse, args: {book: Zech, chapter: 10, verse: 8, work_id: esv-study-bible}, path: "0.text", expect_contains: "I will whistle for them and gather them in, for I have redeemed them", checked: 2026-09-26}
+  - {id: zech-10-10-esv, what: "ESV Zechariah 10:10", tool: study_verse, args: {book: Zech, chapter: 10, verse: 10, work_id: esv-study-bible}, path: "0.text", expect_contains: "I will bring them home from the land of Egypt, and gather them from Assyria", checked: 2026-09-26}
+  - {id: zech-12-10-esv, what: "ESV Zechariah 12:10 (block quote)", tool: study_verse, args: {book: Zech, chapter: 12, verse: 10, work_id: esv-study-bible}, path: "0.text", expect_contains: "a spirit of grace and pleas for mercy, so that, when they look on me, on him whom they have pierced, they shall mourn for him, as one mourns for an only child, and weep bitterly over him, as one weeps over a firstborn", checked: 2026-09-26}
+  - {id: zech-13-1-esv, what: "ESV Zechariah 13:1", tool: study_verse, args: {book: Zech, chapter: 13, verse: 1, work_id: esv-study-bible}, path: "0.text", expect_contains: "there shall be a fountain opened for the house of David and the inhabitants of Jerusalem, to cleanse them from sin and uncleanness", checked: 2026-09-26}
+  - {id: zech-13-7-esv, what: "ESV Zechariah 13:7", tool: study_verse, args: {book: Zech, chapter: 13, verse: 7, work_id: esv-study-bible}, path: "0.text", expect_contains: "Strike the shepherd, and the sheep will be scattered", checked: 2026-09-26}
+  - {id: zech-13-7-man, what: "ESV Zechariah 13:7 'the man who stands next to me'", tool: study_verse, args: {book: Zech, chapter: 13, verse: 7, work_id: esv-study-bible}, path: "0.text", expect_contains: "the man who stands next to me", checked: 2026-09-26}
+  - {id: matt-26-31-esv, what: "Jesus quotes Zech 13:7", tool: study_verse, args: {book: Matt, chapter: 26, verse: 31, work_id: esv-study-bible}, path: "0.text", expect_contains: "I will strike the shepherd", checked: 2026-09-26}
+  - {id: john-19-37-esv, what: "ESV John 19:37", tool: study_verse, args: {book: John, chapter: 19, verse: 37, work_id: esv-study-bible}, path: "0.text", expect_contains: "They will look on him whom they have pierced", checked: 2026-09-26}
+  - {id: rev-1-7-esv, what: "ESV Revelation 1:7", tool: study_verse, args: {book: Rev, chapter: 1, verse: 7, work_id: esv-study-bible}, path: "0.text", expect_contains: "every eye will see him, even those who pierced him", checked: 2026-09-26}
+  - {id: rom-11-26-esv, what: "ESV Romans 11:26 (block)", tool: study_verse, args: {book: Rom, chapter: 11, verse: 26, work_id: esv-study-bible}, path: "0.text", expect_contains: "And in this way all Israel will be saved, as it is written, “The Deliverer will come from Zion, he will banish ungodliness from Jacob”", checked: 2026-09-26}
+  - {id: rom-11-27-esv, what: "ESV Romans 11:27 (block)", tool: study_verse, args: {book: Rom, chapter: 11, verse: 27, work_id: esv-study-bible}, path: "0.text", expect_contains: "and this will be my covenant with them when I take away their sins", checked: 2026-09-26}
+  - {id: amos-9-15-esv, what: "ESV Amos 9:15 (extended quote)", tool: study_verse, args: {book: Amos, chapter: 9, verse: 15, work_id: esv-study-bible}, path: "0.text", expect_contains: "they shall never again be uprooted out of the land that I have given them", checked: 2026-09-26}
+  - {id: tsaraph-twot, what: "צָרַף TWOT 1972 'smelt'", tool: twot_strongs, args: {strongs_id: H6884}, path: "0.gloss", expect_contains: "smelt", checked: 2026-09-26}
+  - {id: daqar-twot, what: "דָּקַר TWOT 449 'pierce'", tool: twot_strongs, args: {strongs_id: H1856}, path: "0.gloss", expect_contains: "pierce", checked: 2026-09-26}
+  - {id: zech-12-10-elay, what: "Hebrew 'to me' (אֵלַי) in Zech 12:10", tool: bible_interlinear, args: {book: Zech, chapter: 12, verse: 10}, path: "text", expect_contains: "look to me whom they pierced", checked: 2026-09-26}
+
+open_questions:
+  - >
+    1948 is a candidate stage, never a dated fulfilment (carried from the parent's open_questions).
+    The "About 1948" section states both the dispensational reading and the Cyrus-return / church
+    readings, and labels the site's judgement as a judgement. Do not edit it into a fulfilment claim.
+  - >
+    Zechariah 13:8-9's timing (first century vs Daniel's seventieth week) is marked contested in the
+    prose; the study takes the future reading, consistent with statement-of-faith End times. No
+    conflict with the statement of faith found.
+  - >
+    Sibling link candidate: last-things/fig-tree-and-this-generation.md (draft) weighs 1948/1967 and
+    Luke 21:24, and last-things/immediately-after.md (draft) discusses "the times of the Gentiles".
+    Not linked because both are drafts; link them from "About 1948" when they publish.
+  - >
+    Parent pointer: when this is published, turn the plain-text mention at the end of "What Romans 11
+    says is still ahead for Israel" in israel-and-the-church.md into a link (see the parent's
+    open_questions).
+  - >
+    The Day Is Near sentence was rewritten from the parent's "every previous attempt on this site to
+    pin prophecy to a calendar has had to be walked back" (unverifiable sweep) to the specific
+    flagged inconsistency day-is-near.md itself prints at #when-is-the-year-6000.
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: Crossway, note: "intros to Ezekiel and Zechariah; notes on Ezek 36:16-38, 36:22-32, 36:24-25; Zech 12:1-14:21, 12:10-14, 13:7-9; Rom 11:26. Contributed: dates, the 'physical return only the beginning' line, the me/him identification, the three views of 'all Israel'."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: Zondervan, note: "Ezek 36:24-27 four elements; Zech 12:10 me/him/him; 13:8-9. Confirmed."}
+  - {type: commentary, title: "NKJV and NIV Cultural Backgrounds Study Bibles", author: Zondervan, note: "Rom 11:26: Jewish tradition of all Israel's future salvation (m. Sanh. 10:1); Paul's paraphrased quotation. Contributed the Jewish-tradition sentence."}
+  - {type: lexicon, title: "TWOT root map", note: "1972 tsaraph, 449 daqar"}
+  - {type: other, title: "bible-text.db", note: "MACULA WLC occurrences of H1856 (Num 25:8, 1 Sam 31:4, Zech 12:10, 13:3 etc.); unfoldingWord interlinear Zech 12:10, 13:9"}
+last_updated: "2026-09-26"
