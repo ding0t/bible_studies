@@ -6,7 +6,7 @@ primary_passage: "Matthew 24:32-35; Mark 13:28-31; Luke 21:29-33"
 genre: "Gospel (prophetic discourse) with a parable"
 word_budget: 4000
 forked_from: "docs/content/last-things/olivet-discourse.md"
-point: "The fig tree parable teaches inference from signs, and 'this generation' is the generation that sees them -- no species code and no year to count from."
+point: "The fig tree parable teaches inference from signs; its budding echoes Israel planted again in her land (a well-grounded, contested resonance); 'this generation' is the generation that sees the signs -- and no year to count from."
 stages:
   forked:
     done: true
@@ -35,6 +35,21 @@ stages:
       End times (pretrib, literal seventieth week). Contemporaries view (NIV BTSB, CBSB) set out as the
       main alternative with its strongest argument (Matthew's eight-for-eight usage) and the cost of
       view 5 named.
+  israel_reading_revisited:
+    done: true
+    notes: >
+      2026-09-27, at the author's request: the fig-as-Israel reading was investigated before being
+      discounted. Findings: disciples saw the cursed fig withered "from the roots" the SAME morning
+      (Mark 11:20; the old text wrongly said "three days earlier"/"watched it wither on Monday");
+      ESVSB Mark 11:13-14 says its "specific reference" is Israel; Mark 11:20 shares xērainō + rhiza
+      with LXX Hosea 9:16, and Hosea closes with Israel re-rooted (14:5-7); Jeremiah's good figs are
+      returned to the land then given a heart (24:6-7), Ezekiel 36's order; Matt 23:39 "until"; 24:15-20
+      presuppose Jews in Judea; the NIV BTSB note the old text cited against the reading assumes the
+      Israel symbolism in Matt/Mark. Against: Jesus names no referent and applies the leaves to
+      "all these things"; Luke's "all the trees"; sykē mostly ordinary; Monday's tree is cursed for
+      ever so is not Tuesday's revived; Hosea 14 uses no fig. Judgment recorded in the study: the echo
+      is well grounded and contested, a step below the stated lesson; a clock (1948+40) has no basis.
+      Consistent with israels-regathering-and-refining.md "About 1948" (candidate stage, undated).
   draft:
     done: true
     notes: >
@@ -45,14 +60,16 @@ stages:
       recased divine pronouns, removed several antithesis constructions, set out the contemporaries
       view fairly. ~3,400 words of prose.
 thesis: >
-  The fig tree teaches Jesus' people to read the signs He named as sure evidence that He is near,
-  and "this generation" is the generation that sees those signs begin; God has fixed the whole
-  sequence and its end, His Son's word guarantees it, and the date belongs to the Father alone.
+  As a fig tree's new leaves tell you summer is near, the signs Jesus named tell His people that He
+  is at the doors; spoken on the day the disciples found Israel's cursed fig tree withered to its
+  roots, the image also carries the prophets' promise that God will plant Israel in her land again;
+  and "this generation" is the generation that sees those signs begin, for God has fixed the
+  sequence, His Son's word guarantees it, and the date belongs to the Father alone.
 outline:
   - "Hook + 24:32-35 quote + thesis"
   - "Key Takeaways -- prophecy of the sequence; Jesus' authority, nearness, deference to the Father"
   - "The Setting -- where the saying falls in the discourse; a fig in leaf that week"
-  - "The Fig Tree, and What It Does Not Say -- fig-as-Israel texts granted; four textual features against a code here; Monday's cursed tree"
+  - "The Fig Tree and Israel -- the lesson Jesus draws; the case for hearing Israel (withered tree + Hosea 9:16 LXX, Jer 24:6-7, Matt 23:39, 24:15-20, NIV BTSB concession); settled vs contested; no clock"
   - "'This Generation' -- 'all these things' fixed by 24:33; contemporaries view with its strength; view 5 argued with its cost; AD 70 and 1948/1967 placed"
   - "Near, at the Very Doors -- God fixed the end and His Son's word guarantees it; the Father keeps the date; stay awake"
   - "Discussion questions; References"
@@ -239,6 +256,52 @@ evidence:
     expect_contains: "all of the preliminary events, including the destruction of Jerusalem"
     checked: 2026-09-26
 
+  - id: mark-11-13-esvsb-israel
+    what: ESVSB says the cursed fig's specific reference is Israel (fig tree section)
+    tool: study_note
+    args: {book: Mark, chapter: 11, verse: 13, work_id: esv-study-bible}
+    expect_contains: "The specific reference, though, is to Israel"
+    checked: 2026-09-27
+
+  - id: mark-11-20-na28-roots
+    what: withered from the roots -- xērainō + rhiza, shared with LXX Hosea 9:16
+    tool: study_verse
+    args: {book: Mark, chapter: 11, verse: 20, work_id: na28-greek-nt}
+    path: "0.text"
+    expect_contains: "ῥιζῶν"
+    checked: 2026-09-27
+
+  - id: hos-9-16-esv
+    what: Hosea's sentence on Ephraim
+    tool: study_verse
+    args: {book: Hos, chapter: 9, verse: 16, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "their root is dried up; they shall bear no fruit"
+    checked: 2026-09-27
+
+  - id: hos-14-5-esv
+    what: Israel rooted again
+    tool: study_verse
+    args: {book: Hos, chapter: 14, verse: 5, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "he shall take root like the trees of Lebanon"
+    checked: 2026-09-27
+
+  - id: jer-24-6-esv
+    what: good figs brought back and planted
+    tool: study_verse
+    args: {book: Jer, chapter: 24, verse: 6, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "I will bring them back to this land"
+    checked: 2026-09-27
+
+  - id: nivbtsb-luke-21-29-symbolic
+    what: NIV BTSB assumes the fig's Israel significance in Matt/Mark
+    tool: study_note
+    args: {book: Luke, chapter: 21, verse: 29, work_id: niv-biblical-theology-study-bible}
+    expect_contains: "symbolic significance (in reference to Israel)"
+    checked: 2026-09-27
+
   - id: matt-24-33-no-subject
     what: 24:33 has no expressed subject (ἐγγύς ἐστιν ἐπὶ θύραις); CSB and LSB footnote "Or it"
     tool: study_note
@@ -274,4 +337,4 @@ open_questions:
     Monday fig tree subsection, or the AD 70 subsection (already covered in olivet-discourse.md).
   - >
     When published, turn the plain-text pointer in olivet-discourse.md ("in preparation") into a link.
-last_updated: "2026-09-26"
+last_updated: "2026-09-27"

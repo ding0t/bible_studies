@@ -1,11 +1,11 @@
 ---
 title: "The Fig Tree and This Generation"
 category: "prophecy"
-description: "Matthew 24:32-35: the fig tree teaches inference from the signs Jesus named, and \"this generation\" is the generation that sees them begin. The sequence is fixed and sure; the date belongs to the Father."
+description: "Matthew 24:32-35: the fig tree teaches reading the signs Jesus named, echoes the prophets' promise of Israel planted again in her land, and gives no year to count from; \"this generation\" is the generation that sees the signs begin."
 tags: ["matthew", "mark", "luke", "tribulation", "dispensationalism", "method/word-study", "lang/greek"]
 draft: true
 primary_passage: "Matthew 24:32-35; Mark 13:28-31; Luke 21:29-33"
-bible_references: ["Matthew 24:2-3", "Matthew 24:15", "Matthew 24:21", "Matthew 24:4-36", "Matthew 24:42-44", "Matthew 25:10", "Matthew 26:2", "Mark 13:3", "Mark 13:28-30", "Luke 21:20-32", "Luke 13:6-9", "Jeremiah 24:5-8", "Jeremiah 8:13", "Hosea 9:10", "Micah 7:1", "Joel 1:7", "Matthew 21:18-22", "Mark 11:12-25", "Matthew 12:39-42", "Matthew 23:36", "John 1:48-50", "James 3:12", "James 5:8-9", "Revelation 6:13", "Isaiah 40:8", "Acts 1:7"]
+bible_references: ["Matthew 24:2-3", "Matthew 24:15", "Matthew 24:21", "Matthew 24:4-36", "Matthew 24:42-44", "Matthew 25:10", "Matthew 26:2", "Mark 13:3", "Mark 13:28-30", "Luke 21:20-32", "Luke 13:6-9", "Jeremiah 24:5-8", "Jeremiah 8:13", "Hosea 9:10", "Micah 7:1", "Matthew 21:18-22", "Mark 11:12-25", "Matthew 12:39-42", "Matthew 23:36", "John 1:48-50", "James 3:12", "James 5:8-9", "Revelation 6:13", "Isaiah 40:8", "Acts 1:7", "Hosea 9:16-17", "Hosea 14:5-7", "Jeremiah 24:6-7", "Ezekiel 36:24-26", "Ezekiel 37:8", "Amos 9:15", "Matthew 23:38-39", "Matthew 24:16", "Matthew 24:20", "Mark 11:20-21", "Luke 21:24"]
 date_created: 2026-09-26
 date_modified: 2026-09-27
 ai_provider_models:
@@ -27,10 +27,11 @@ great glory" (24:30, ESV). Then He pointed at a tree:
 > is near, at the very gates. 34 Truly, I say to you, this generation will not pass away until all
 > these things take place. 35 Heaven and earth will pass away, but my words will not pass away."
 
-**In one sentence:** The fig tree teaches Jesus' people to read the signs He named as sure evidence
-that He is near, and "this generation" is the generation that sees those signs begin; God has fixed
-the whole sequence and its end, His Son's word guarantees it, and the date belongs to the Father
-alone.
+**In one sentence:** As a fig tree's new leaves tell you summer is near, the signs Jesus named tell
+His people that He is at the doors; spoken on the day the disciples found Israel's cursed fig tree
+withered to its roots, the image also carries the prophets' promise that God will plant Israel in her
+land again; and "this generation" is the generation that sees those signs begin, for God has fixed the
+sequence, His Son's word guarantees it, and the date belongs to the Father alone.
 
 ## Key Takeaways
 
@@ -42,7 +43,9 @@ Jesus prophesies that the events of Matthew 24:4-25, from the first birth pains 
 abomination of desolation and the "great tribulation" (24:21), will run to completion within the
 lifetime of the generation that sees them begin, and that His coming follows "immediately" (24:29).
 This site reads that sequence as Daniel's seventieth week, still future, after the church is caught
-up. The fig tree is an illustration from the seasons, and it carries no coded date.
+up. The fig tree teaches reading the season from its signs. Its budding also echoes the prophets'
+promise that Israel will be planted in her land again (Jeremiah 24:6; Hosea 14:5), a promise God
+has made certain and has not dated.
 
 ### Lessons about Jesus
 
@@ -84,8 +87,8 @@ In Jesus' name. Amen.
 
 - [The setting](#the-setting-a-tuesday-on-the-mount-of-olives). Where the saying falls in the
   discourse, and a fig tree in leaf that same week.
-- [The fig tree, and what it does not say](#the-fig-tree-and-what-it-does-not-say). Where Scripture
-  uses the fig of Israel, four features of this text that point elsewhere, and Monday's cursed tree.
+- [The fig tree and Israel](#the-fig-tree-and-israel). The lesson Jesus draws, the case for hearing
+  Israel in it, what is settled and what is contested, and why no clock follows.
 - ["This generation": whose, and of what?](#this-generation-whose-and-of-what) What "all these
   things" covers, the readings of "this generation", and the one this study takes.
 - [Near, at the very doors](#near-at-the-very-doors). What the saying shows about God: a Son whose
@@ -116,69 +119,111 @@ the season for figs" (Mark 11:13, ESV). The disciples were looking at leafing fi
 said "as soon as its branch becomes tender and puts out its leaves, you know that summer is near."
 The word for summer is θέρος (*theros*, G2330).
 
-## The Fig Tree, and What It Does Not Say
+## The Fig Tree and Israel
 
-### The parable, and the popular reading
+### The lesson Jesus draws
 
-All three accounts call this a parable, and Jesus supplies its own interpretation in the second
-sentence. The comparison is between two acts of inference: leaves let you infer summer; "all these
-things" let you infer nearness.
+All three accounts call this a parable, and Jesus interprets it in His next sentence. The comparison
+is between two acts of inference: leaves let you infer summer; "all these things" let you infer that
+He is near. That is the lesson He states, and it governs everything else the tree may carry.
 
-A popular dispensational reading takes the species itself as the coded content: the fig tree stands
-for Israel, its budding is 1948 or 1967, and "this generation" becomes a countable window from that
-date. **The symbolism it appeals to is real**, and that has to be granted before anything is said
-against the reading. Scripture does use the fig tree of Israel. Jeremiah is shown two baskets of figs
-and told "like these good figs, so I will regard as good the exiles from Judah" and, of the bad ones,
-"so will I treat Zedekiah the king of Judah" (Jeremiah 24:5, 8). Hosea has God finding Israel "like
-the first fruit on the fig tree in its first season" (9:10). Jeremiah 8:13 and Micah 7:1 use the
-failed fig harvest for a failed people, and Jesus Himself tells a parable about a fruitless fig tree
-in a vineyard given one more year before it is cut down (Luke 13:6-9).
+There is a plain reason He reached for a fig. It is the tree in that landscape whose leafing marks
+the season: "unlike most Judean trees, fig trees lost their leaves each year; they produced new
+leaves... when summer was coming, before the wheat harvest and well before the grape vintage" (*NIV
+Cultural Backgrounds Study Bible*, note on Luke 21:29-30). In a country of evergreens, the deciduous
+tree is the one that tells you the season has turned.
 
-### Four features of the text itself
+### Why dispensational readers hear Israel in it
 
-Four things stand against reading it that way *here*.
+A common dispensational reading goes further: the fig tree is Israel, and its budding is Israel
+living again as a nation in her land. Critics often dismiss it as reading the Bible through the day's
+headlines, starting from 1948 and working back to the text. It has more Scripture behind it than
+that, and the case deserves setting out at full strength before it is weighed. The prophets use the fig of Israel repeatedly: Jeremiah 8:13 and Micah 7:1 picture a failed
+people as a failed fig harvest, and Jesus Himself told of a fruitless fig tree given one more year
+(Luke 13:6-9). Six features of this week, and of this discourse, bring that symbol close.
 
-**Where Scripture means the fig as Israel, it says so.** Jeremiah's vision is interpreted inside the
-vision: the figs are named as the exiles and as Zedekiah before the chapter ends. Jesus interprets
-this parable too, in the sentence immediately after it, and His interpretation is about inference
-from signs: "when you see all these things, you know that he is near." A reader supplying a referent
-the speaker has just declined to supply is working against the text.
+### The withered tree and Hosea's sentence
 
-**The word is not a cipher in the New Testament.** συκῆ (*sykē*, G4808) occurs sixteen times, and most are
-plainly ordinary: Nathanael sitting under one (John 1:48, 50), James asking whether a fig tree can
-bear olives (3:12), stars falling as a fig tree drops its fruit in a gale (Revelation 6:13). The
-judgment texts are real, and they are a subset of the sixteen.
+**The disciples had seen a fig tree withered that morning.** On the Monday Jesus found a fig tree in
+leaf with no fruit and said, "May no one ever eat fruit from you again" (Mark 11:14, ESV). On the
+Tuesday morning, the day of this discourse, they passed it "withered away to its roots" (Mark 11:20,
+ESV), and Peter said, "Rabbi, look! The fig tree that you cursed has withered" (11:21, ESV). Mark
+wraps that tree around the clearing of the temple (tree cursed, Mark 11:12-14; temple cleared,
+11:15-19; withered tree found, 11:20-25), and the *ESV Study Bible* is plain about its meaning: "The
+specific reference, though, is to Israel, since in the OT the fig tree often serves as a metaphor for
+Israel and its standing before God" (note on Mark 11:13-14). The same men heard "from the fig tree
+learn its lesson" that evening.
 
-**Luke removes the possibility.** Where Matthew and Mark have "the fig tree", Luke has "**the fig
-tree, and all the trees**" (21:29, ESV), and draws the conclusion "the kingdom of God is near"
-(21:31). The *NIV Biblical Theology Study Bible* reads that addition as deliberate: Luke includes
-"all the trees" "probably to shift the focus from the fig tree's symbolic significance (in reference
-to Israel) to planting imagery in general that depicts the natural change of seasons" (note on
-21:29). A code that any tree can carry is not a code.
+**The curse repeats Hosea's sentence on Ephraim.** Hosea sets Israel's beginnings under a fig: "Like
+the first fruit on the fig tree in its first season, I saw your fathers" (Hosea 9:10, ESV). Six
+verses later comes the sentence, "their root is dried up; they shall bear no fruit" (9:16, ESV), and
+then exile: "they shall be wanderers among the nations" (9:17, ESV). The Septuagint of 9:16 reads
+"his roots are dried up; he shall bear no more fruit" (this study's translation), and Jesus' tree is
+cursed never again to bear fruit and found ἐξηραμμένην ἐκ ῥιζῶν (*exērammenēn ek rhizōn*, Mark
+11:20), "withered from the roots": the same verb, ξηραίνω (*xērainō*, G3583, "dry up"), and the
+same noun, ῥίζα (*rhiza*, G4491, "root"). Hosea's book does not end at the curse. It closes with
+the same people rooted again: "he shall take root like the trees of Lebanon... They shall return and
+dwell beneath my shadow" (Hosea 14:5, 7, ESV).
 
-**There is a plain reason Jesus reached for a fig.** It is the visible one in that landscape:
-"unlike most Judean trees, fig trees lost their leaves each year; they produced new leaves... when
-summer was coming, before the wheat harvest and well before the grape vintage" (*NIV Cultural
-Backgrounds Study Bible*, note on Luke 21:29-30). In a country of evergreens, the deciduous tree is
-the one whose leafing tells you the season has turned. That is the whole of what the parable asks it
-to do.
+### The land, the "until", and the signs
 
-The cost of the dating version is not only exegetical. It hands the discourse the one thing Jesus
-withholds at verse 36, a date, and it has already failed in practice: a forty-year generation
-counted from 1948 expired in 1988, and the calculation was simply restarted from 1967.
+**Jeremiah's figs go back to the land.** In Jeremiah's vision the good figs are the exiles from Judah
+(Jeremiah 24:5), and the promise attached to them is a return: "I will bring them back to this land.
+I will build them up, and not tear them down; I will plant them, and not pluck them up. I will give
+them a heart to know that I am the LORD" (24:6-7, ESV). Planted in the land first, given a heart
+after: the order of Ezekiel 36:24-26, where the gathering comes before the new heart.
 
-### The other fig tree: Monday's curse
+**The discourse opens on an "until".** Jesus' last words in the temple were "See, your house is left
+to you desolate. For I tell you, you will not see me again, until you say, 'Blessed is he who comes
+in the name of the Lord'" (Matthew 23:38-39, ESV). The judgment has a stated end, and the end is
+Israel welcoming her Messiah.
 
-There is a better-grounded fig tree three days earlier in the same week. On the Monday, Jesus cursed
-a leafy, fruitless fig tree on the road into Jerusalem (Matthew 21:19), the same day He cleared the
-temple. Mark brackets the two as one unit (tree cursed, 11:12-14; temple cleared, 11:15-19; withered
-tree found, 11:20-25), which the *ESV Study Bible* reads as deliberate, "suggest[ing] a connection
-between the cleansing of the temple and the cursing of the fig tree" (note on Mark 11:12-21), and
-grounds in the Old Testament's use of the fig tree "as a metaphor for Israel and its standing before
-God (e.g., Jer. 8:13; Hos. 9:10, 16; Joel 1:7)" (note on Mark 11:13-14). The men who heard "learn from
-the fig tree" on Tuesday had watched one wither on Monday. The two images point opposite ways:
-Monday's tree is barren and judged, Tuesday's is budding toward summer. What they share is the tree
-and the temple's fate, and "fig tree" carries no single meaning wherever it turns up.
+**The signs require a Jewish people in the land.** The sequence the fig tree points to has people "in
+Judea" fleeing (Matthew 24:16, ESV), a "holy place" where the abomination stands (24:15), and a
+prayer that the flight not fall "on a Sabbath" (24:20, ESV). However those verses are read, a Jewish
+people must be living in Judea for them to happen.
+
+**A commentary that reads Luke against the code concedes the symbol.** The *NIV Biblical Theology
+Study Bible* reads Luke's "and all the trees" as a move "to shift the focus from the fig tree's
+symbolic significance (in reference to Israel)" (note on Luke 21:29). The note assumes that in
+Matthew and Mark the significance is there to be shifted away from.
+
+### What the text settles, and what stays contested
+
+**Two things are settled.** The first is the lesson Jesus draws: leaves are to summer as the signs are
+to His coming, and verse 33 applies the leaves to "all these things". The second is that Israel
+restored to her land belongs to the future Jesus describes. That rests on the prophets (Jeremiah
+24:6; Ezekiel 36:24; Amos 9:15) and on the discourse's own requirements in Matthew 24:15-20, and it
+would stand if the fig tree had never been mentioned.
+
+**Whether the fig tree itself alludes to Israel is contested**, and the case against it is real.
+Jesus' interpretation names no referent. συκῆ (*sykē*, G4808) occurs sixteen times in the New
+Testament and most are ordinary: Nathanael under one (John 1:48, 50), James asking whether a fig
+tree can bear olives (James 3:12), stars falling as a fig tree drops its fruit in a gale (Revelation
+6:13). Luke widens the picture to "the fig tree, and all the trees" (Luke 21:29, ESV). Monday's tree
+was cursed "ever" to bear no fruit and withered from the roots, so Tuesday's budding tree cannot be
+that same tree revived; and Hosea pictures the restoration with lily, cedar, olive and vine
+(14:5-7), with no fig among them.
+
+**This study's judgment: the echo is there, and it is well grounded.** A disciple who had seen Israel's
+barren fig withered to the roots that morning, and who knew Hosea and Jeremiah, would hardly hear
+"learn from the fig tree" without thinking of Israel. A tree in leaf before its fruit also fits the
+order the prophets give: a nation back in its land before it is given a new heart, the way Ezekiel
+saw the bones covered with flesh while "there was no breath in them" (Ezekiel 37:8, ESV). A reader
+who hears Israel's restoration in the budding fig is standing on Scripture. Hold it as a resonance
+the setting supports, a step below the lesson Jesus states in so many words.
+
+### What the fig tree does not supply: a clock
+
+The step the text never takes is from the tree to a calendar: fig tree as Israel, budding as 1948 or
+1967, and "this generation" as a forty-year window from then. The parable's application sets the
+leaves beside "all these things", the signs of verses 4-25, which on this site's reading fall in
+Daniel's seventieth week after the church is caught up. Israel in the land is the stage those signs
+need, and the count Jesus gives begins with the signs themselves. The calendar version has also
+failed in practice: forty years from 1948 ran out in 1988, and the count was restarted from 1967. It
+hands the discourse the one thing Jesus withholds at verse 36. [Israel's Regathering and
+Refining](../israel-and-church/israels-regathering-and-refining.md#about-1948) weighs 1948 against
+the prophets and reaches the same place: a stage that fits their shape, with no text that dates it.
 
 ## "This Generation": Whose, and of What?
 
@@ -242,17 +287,17 @@ that cost smaller, because the demonstrative in verse 34 is defined by the seein
 
 One distinction needs care, because the date-setting reading sounds like this one. It also says "the
 generation that sees"; it identifies what is seen as Israel's return to the land and starts a clock
-there. The difference is whether the text supplies a starting gun, and [the fig
-tree](#the-fig-tree-and-what-it-does-not-say) supplies none: leaves on a tree are the example of an
-inference anyone can make, and a dated event anyone can log is another thing. This reading gives no
-year to count from. The signs of verses 4-25 will be recognisable when they come; nobody is told
-when they start, and Jesus says so Himself at verse 36.
+there. On the reading above, Israel's return is the stage and the signs of verses 4-25 are what is
+seen (see [a clock](#what-the-fig-tree-does-not-supply-a-clock) above). This reading gives no year to
+count from. The signs will be recognisable when they come; nobody is told when they start, and Jesus
+says so Himself at verse 36.
 
 ### AD 70, and where 1948/1967 fit
 
-Where 1948 and 1967 *can* be weighed is Luke's "times of the Gentiles" (21:24), a passage about
-Gentile political control of Jerusalem; see [The times of the
-Gentiles](immediately-after.md#the-times-of-the-gentiles) in *Immediately After*.
+Where 1948 and 1967 *can* be weighed is against the prophets' regathering promises, as above, and
+Luke's "times of the Gentiles" (Luke 21:24), a passage about Gentile political control of Jerusalem;
+see [The times of the Gentiles](immediately-after.md#the-times-of-the-gentiles) in *Immediately
+After*.
 
 None of that unsettles what AD 70 fulfilled. Jesus predicted this temple's destruction: "there will
 not be left here one stone upon another that will not be thrown down" (24:2, ESV). Luke records the
@@ -310,10 +355,12 @@ cannot fail, so you can live today ready to meet Him.
 
 1. Verses 34 and 35 use the same verb, παρέρχομαι, "pass away," and the same emphatic "certainly
    not." What does Jesus claim for His words by setting them beside heaven and earth?
-2. The disciples had watched Jesus curse a leafy, fruitless fig tree the day before (Mark 11:12-14).
-   How would that have shaped what they heard in "from the fig tree learn its lesson"?
-3. Luke's version has "the fig tree, and all the trees" (Luke 21:29). What does that addition do to
-   the reading of the fig tree as a code for Israel?
+2. That morning the disciples had seen the fig tree Jesus cursed "withered away to its roots" (Mark
+   11:20). How would that, and Hosea 9:16, have shaped what they heard in "from the fig tree learn
+   its lesson"?
+3. Jeremiah's good figs are brought back to the land, planted, and then given "a heart to know that I
+   am the LORD" (Jeremiah 24:6-7). What does that order tell you about how God keeps His promises to
+   Israel?
 4. Matthew 23:36 says "all these things will come upon this generation" of Jesus' contemporaries.
    How do you hold that verse together with the "immediately" of Matthew 24:29 when you read 24:34?
 5. James tells the churches "the Judge is standing at the door" (James 5:9), and Jesus says the
