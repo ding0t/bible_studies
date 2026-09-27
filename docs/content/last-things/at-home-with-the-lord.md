@@ -324,13 +324,19 @@ The lake of fire stands apart at the far right. So Larkin, like this study, keep
 final judgment as two separate things. He also labels the ascending arrow off the cross **"the first
 fruits"**, the same 1 Corinthians 15:20-23 argument made above.
 
-**Where it goes beyond what this study will claim.** Larkin draws two contested things as settled.
-The arrow taking the righteous souls out of the underworld is captioned with Ephesians 4:8-10, whose
-descent and captives are disputed (see [Did the descent empty Abraham's side?](#did-the-descent-empty-abrahams-side)).
-And the right-hand third of the chart runs the resurrections and judgments out through the
-tribulation and the thousand years, a further argument this study does not make. So read the chart
-as **the position drawn**: a clear picture of the conclusion, by someone who held it without the
-reservations recorded here.
+**The arrow's conclusion is sound.** Before the cross the righteous dead were comforted at
+Abraham's side (Luke 16:22); Christ rose as "the firstfruits" (1 Corinthians 15:23); and since then
+the believer who dies is "at home with the Lord" (2 Corinthians 5:8) and "with Christ"
+(Philippians 1:23). Those texts carry Larkin's reading properly, and this study holds it with him.
+
+**Where it goes beyond what this study will claim.** The caption is the weak point. Larkin labels
+the arrow with Ephesians 4:8-10, and most commentators on this site's shelf read its descent as the
+incarnation and its captives as the powers Christ conquered (see
+[Did the descent empty Abraham's side?](#did-the-descent-empty-abrahams-side)). The picture is right;
+the verse written beside it is probably the wrong one to prove it. And the right-hand third of the
+chart runs the resurrections and judgments out through the tribulation and the thousand years, a
+further argument this study does not make. So read the chart as **the position drawn**: a clear
+picture of the conclusion, by someone who held it without the reservations recorded here.
 
 ## Discussion questions
 
