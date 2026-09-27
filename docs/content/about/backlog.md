@@ -42,6 +42,7 @@ than a study topic.
 | [5.4](#54-the-olivet-discourse-regrouped-by-the-disciples-questions) | The Olivet Discourse, regrouped by the disciples' questions | Last things |
 | [5.5](#55-the-age-to-come) | The age to come | Last things |
 | [5.6](#56-they-were-given-white-robes) | They were given white robes | Last things |
+| [5.7](#57-heaven-and-earth-by-fire) | Heaven and earth by fire | Last things |
 | [6.1](#61-appointed-times-overarching) | Appointed times (overarching) | Feasts |
 | [6.2](#62-individual-feast-studies) | Individual feast studies | Feasts |
 | [8.1](#81-mirror-the-unfoldingword-sources) | Mirror the unfoldingWord sources | Sources & tooling |
@@ -505,6 +506,32 @@ who wears them, and whether they are God's gift.
   whether the white robes of 3:5, 6:11 and 7:14 are the same clothing, and say how far the link holds.
 - **Other links:** [The Bride of Christ](../israel-and-church/bride-of-christ.md), and
   [The Rapture of the Church](../last-things/rapture.md), which places the Bema and the linen.
+
+### 5.7 Heaven and earth by fire
+
+What happens after the thousand years: Satan's release, the fire from heaven, the great white
+throne, and the passing of the present heaven and earth by fire before the new heaven and new earth.
+No study works through it. *Heaven and Earth Will Pass Away*
+(`last-things/heaven-and-earth-will-pass-away.md`, a draft spun off from the Olivet Discourse)
+places it in two paragraphs ("Where it falls") and stops there.
+
+- **Texts:** 2 Peter 3:7-13 read alongside Revelation 20:7–21:1; Isaiah 65:17 and 66:22; Isaiah
+  51:6; Hebrews 1:10-12 (Psalm 102:25-27); Hebrews 12:26-28 (Haggai 2:6); Romans 8:18-25. Verify
+  each wording against the ESV before quoting.
+- **Order of events:** does the fire of 2 Peter 3:10-12 fall at the same point as Revelation 20:9
+  (fire on Gog and Magog) and 20:11 ("earth and sky fled away"), or are they separate? Say where the
+  text settles the sequence and where it is inferred.
+- **Renewal or replacement:** the open question the sibling draft records. The textual problem at
+  2 Peter 3:10 ("will be found", "will be burned up", "will not be found") bears on it, and so does
+  καινός (*kainos*, G2537) against νέος (*neos*) for "new". Count and check the lexica before
+  claiming a distinction.
+- **The day of the Lord as a period:** the dispensational reading that it opens with the thief-like
+  coming and closes with the dissolution a thousand years later. Check it against the
+  [statement of faith](statement-of-faith.md#end-times), and give the amillennial case.
+- **Links:** [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) (2 Peter 3:7,
+  the seventh day and the eighth), [The Wife of the Lamb](../israel-and-church/wife-of-the-lamb.md)
+  (Revelation 21), and [5.5 The age to come](#55-the-age-to-come), which may belong in the same
+  study.
 
 ## 6. Feasts
 

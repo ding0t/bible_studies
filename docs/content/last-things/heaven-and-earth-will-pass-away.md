@@ -137,7 +137,9 @@ permanence to his own teaching" (note on 24:35). Two earlier texts show how larg
 wear out like a garment ... but my salvation will be forever, and my righteousness will never be
 dismayed" (ESV). The shape is Jesus' shape — heaven and earth set against something of God's that
 lasts — and in Isaiah the thing that lasts is God's own salvation. Isaiah 40:8 says the same of "the
-word of our God" (ESV); the sibling study on "this generation" works through that verse.
+word of our God" (ESV); the sibling study on
+["this generation"](fig-tree-and-this-generation.md#words-that-outlast-creation) works through that
+verse.
 
 **Matthew 5:18.** Jesus had used the phrase once before, of the Law: "until heaven and earth pass
 away, not an iota, not a dot, will pass from the Law until all is accomplished" (ESV). The Greek has
@@ -233,7 +235,10 @@ Revelation places the passing of heaven and earth after the thousand-year reign 
 great white throne (Revelation 20:4-15; 21:1). A dispensational reading, which this site holds (see
 the [statement of faith](../about/statement-of-faith.md#end-times)), therefore takes Peter's "day of
 the Lord" as a period that opens with the sudden, thief-like coming of judgment and closes with the
-dissolution of the heavens a thousand years later. Readers who expect no intervening millennium put
+dissolution of the heavens a thousand years later. [A Day Is a Thousand
+Years](day-is-a-thousand-years.md#day-seven-the-rest-that-is-numbered) makes the case for the
+literal thousand years and traces [what follows them](day-is-a-thousand-years.md#and-the-eighth).
+Readers who expect no intervening millennium put
 the return, the judgment and the new creation together in one event. Peter's own sentence makes
 the point on which both agree: the day that comes like a thief is the same day in which the heavens
 pass away.
