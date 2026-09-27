@@ -317,8 +317,10 @@ the workflow manually (`workflow_dispatch`).
   The pop-up works alongside the prose, never instead of it. Quote what the argument stands on,
   since studies are read aloud and the pop-up shows the WEB, and cite what it only points to
   (develop-bible-study Phase 7).
-  A bare "(5:1)" takes its book from the paragraph, a table's column header, the quotation, the
-  heading, then the page's `primary_passage` (which `hooks/popups.py` writes onto the page); a
+  **Every reference names its book** except a continuation in the same citation ("(Revelation 21:2,
+  9; 22:17)"). The pop-up resolves an older bare "(5:1)" from the paragraph, a table's column header,
+  the quotation, the heading, then the page's `primary_passage` (which `hooks/popups.py` writes onto
+  the page), but an edit that moves the reference before it repoints it silently. A
   Strong's tag also opens from the word in front of it and from that word's later mentions.
   `data-ref="…"` and `data-strongs="…"` spans mark what the text cannot say on its own. The data is
   in two halves by where it can be built: `references/build/export_popups.py` writes the Bible

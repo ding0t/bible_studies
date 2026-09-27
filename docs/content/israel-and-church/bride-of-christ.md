@@ -37,7 +37,7 @@ God used marriage as the picture of His covenant in the Old Testament: "I will b
 forever" (Hosea 2:19), "your Maker is your husband" (Isaiah 54:5), and "as the bridegroom rejoices
 over the bride, so shall your God rejoice over you" (Isaiah 62:5). The New Testament carries this
 image forward and identifies the bridegroom. The bride appears in both closing chapters:
-the new Jerusalem is "prepared as a bride adorned for her husband" (21:2), and the angel names her
+the new Jerusalem is "prepared as a bride adorned for her husband" (Revelation 21:2), and the angel names her
 "the Bride, the wife of the Lamb" (21:9). The Bible's final invitation is hers to give: "The Spirit
 and the Bride say, 'Come'" (22:17, ESV).
 

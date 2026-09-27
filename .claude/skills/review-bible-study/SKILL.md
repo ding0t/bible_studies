@@ -60,10 +60,10 @@ Every quoted verse gets re-queried from source, not read for plausibility.
   claimed, and reads exactly like a correct one until checked.
 - **What each reference and Strong's tag opens.** Every reference and Strong's tag on the page opens a
   pop-up, so a wrong one is a wrong citation the reader is shown. Two cases are particular to the
-  pop-up. A relative "v. 20" or bare "(5:1)" resolves against the last reference or book named in its
-  paragraph, else a table's column header, the quotation's `✝️` line, the section heading, then the
-  page's `primary_passage` (develop-bible-study Phase 7 has the order), so check any that follows a
-  citation of another passage or a person named like a book. And a word written without its
+  pop-up. Every reference must name its book (develop-bible-study Phase 7); a bare "(21:2)" or "v. 20"
+  outside a continuation like "(Revelation 21:2, 9)" resolves against whatever came before it and
+  goes wrong silently when an edit moves that. Report each as **Minor**, or at the severity of the
+  wrong citation it opens. And a word written without its
   Strong's number gets no card; `references/build/strongs_suggest.py <file>` lists those. Report a misresolving reference or a wrong number under the severity
   of the citation it amounts to, and a missing number as **Minor**.
 - **Internal links.** Confirm every relative markdown link's target file and anchor actually exist on
