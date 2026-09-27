@@ -1,12 +1,126 @@
 # Forked 2026-09-26 from last-things/rapture.md (HEAD 0ffe050) by simplify-bible-study during the
 # 2026-09 readability sweep. Text moved verbatim; its quotations and word studies were verified in
-# rapture.md's reviews (see references/study-state/rapture.yml). Needs develop-bible-study for its
-# own opening, thesis and Key Takeaways before publishing.
+# rapture.md's reviews (see references/study-state/rapture.yml). Developed into a complete study
+# 2026-09-27 by develop-bible-study (author pre-approved proceeding without the Phase 7 stop).
 slug: "meet-the-lord-in-the-air"
 status: draft
 target_path: "docs/content/last-things/meet-the-lord-in-the-air.md"
+genre: "epistle (1 Thessalonians 4:13-18), with a Greek word study across the NT and LXX"
+word_budget: 4000
+last_updated: "2026-09-27"
+
+thesis: >
+  Apantesis means going out to meet someone arriving, and what happens after the meeting is set by
+  the occasion; Paul names the occasion as the Lord Jesus coming for His own, promises "we will
+  always be with the Lord," and does not say which way the company travels next, so the word leaves
+  room for Jesus to take His Church to the Father's house first and bring her back with Him at the
+  end of the tribulation.
+
+outline:
+  - "The passage: grieving church (Acts 17:5-10; AD 49-51), 1 Thess 4:13-18 block quote, point = comfort (4:18); parousia (4:15) and apantesis (4:17) named."
+  - "The objection at full strength: Peterson 1930 civic reception; ESVSB and NIV BTSB notes; Gundry 1996 vs Cosby; Acts 28:15-16, Matt 25:6, John 12:12-13 (hypantesis) fit it."
+  - "What the word carries: Brenton LXX 24x/22 verses, all eis (ten) apantesin; greeting/war/rebuke/massacre; Hebrew liqrat; Matt 8:34 hypantesis ending in dismissal; Sinai (Exod 19:16-17, synantesis) as a contested allusion."
+  - "What the civic-sense commentary actually says (moved): NIV CBSB's condition and 'his destination'; John 14:2-3; 4:17 states the company, not the direction."
+  - "The escort, completed later (moved): return at Rev 19:14 via rapture.md; 4:14; Matthew 25 meeting-feast-return."
+  - "Settled and contested: explicit lists; apantesis not a plank in the pretrib case."
+
 stages:
-  scoping: {done: false, notes: "Forked from rapture.md, not yet scoped as its own study."}
-  drafting: {done: false, notes: "Body moved verbatim from rapture.md @ 0ffe050; only in-page anchors retargeted to rapture.md."}
+  scoping: {done: true, notes: "Primary passage 1 Thess 4:13-18; section last-things; category prophecy."}
+  historical_context: {done: true, notes: "ESVSB intro: AD 49-51 from Corinth; Paul forced out (Acts 17:5-10); ESVSB 4:13-18 note: grief over recent deaths."}
+  literary_context: {done: true, notes: "4:13-5:11 unit on the coming; 4:18 comfort is the point; 5:9 closes the section."}
+  word_study: {done: true, notes: "apantesis (NT 3x SBLGNT; LXX Brenton 24 occurrences / 22 verses, lxx-lemmas 41 verses incl. JudgA + Apocrypha); hypantesis (NT 3x: Matt 8:34, 25:1, John 12:13, the Matt ones with SBLGNT variant markers); Hebrew liqrat (H7122) under 1 Sam 4:1, 13:10, 2 Sam 6:20, Jer 41:6."}
+  commentaries: {done: true, notes: "ESVSB 4:16-17 (civic sense, 'may indicate' downward); NIV BTSB 4:17 ('implies ... escorts him to earth'); NIV CBSB 4:17 (conditioned form, 'his destination')."}
+  drafting: {done: true, notes: "Added opening, thesis, Key Takeaways (standard intro line), Study outline, The passage, The objection at full strength, NT range, Sinai, Settled and contested, discussion questions, bibliography. Moved text kept, recased, de-contextualised ('this study' -> rapture.md link; 'the Bema produced' removed)."}
+  validation: {done: true, notes: "npm run validate: only Check 17 provenance warnings (fields omitted by design). mkdocs build --strict passes (draft dropped)."}
+
+corrections_to_moved_text:
+  - "Moved text said the Septuagint uses eis apantesin 'twenty times'. Brenton's Greek has the noun 24 times in 22 verses (1 Sam 30:21 and Jer 28:31 LXX twice each), 19 verses matching the exact string 'εἰς ἀπάντησιν' (1 Sam 9:14 has εἰς τὴν ἀπάντησιν; 1 Sam 25:32, 34 accent ἀπάντησίν). Draft now says 24/22 and gives the lemma-data count (41 verses). rapture.yml's revision_2026-09-06f records 'TWENTY' -- author may want that note corrected."
+  - "Moved text had 'Ishmael goes out eis apantesin weeping'. In the Hebrew/ESV Ishmael weeps; in the LXX (Jer 48:6 Brenton) it is the pilgrims who 'were walking and weeping'. Draft now cites ESV Jer 41:6-7 for the massacre and drops the weeping detail."
+
+evidence:
+  - id: apantesis-nt
+    what: "apantesis occurs 3x in SBLGNT: 1 Thess 4:17, Matt 25:6, Acts 28:15"
+    tool: bible_word
+    args: {lemma: "ἀπάντησις"}
+    expect_min: 3
+    checked: 2026-09-27
+  - id: hypantesis
+    what: "hypantesis G5222: John 12:13, Matt 8:34, Matt 25:1 (NT) + JudgB 11:34"
+    tool: bible_concordance
+    args: {strongs: G5222}
+    expect_min: 4
+    checked: 2026-09-27
+  - id: jer41-6-esv
+    what: "Ishmael came out from Mizpah to meet them (moved-text example, now ESV-quoted)"
+    tool: study_verse
+    args: {book: Jer, chapter: 41, verse: 6, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "came out from Mizpah to meet them"
+    checked: 2026-09-27
+  - id: jer41-7-esv
+    what: "the pilgrims slaughtered in the city"
+    tool: study_verse
+    args: {book: Jer, chapter: 41, verse: 7, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "slaughtered them"
+    checked: 2026-09-27
+  - id: matt8-34-esv
+    what: "all the city came out to meet Jesus ... begged him to leave"
+    tool: study_verse
+    args: {book: Matt, chapter: 8, verse: 34, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "all the city came out to meet Jesus, and when they saw him, they begged him to leave their region"
+    checked: 2026-09-27
+  - id: john12-13-esv
+    what: "crowd went out to meet him (hypantesis)"
+    tool: study_verse
+    args: {book: John, chapter: 12, verse: 13, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "went out to meet him"
+    checked: 2026-09-27
+  - id: exod19-17-esv
+    what: "Moses brought the people out of the camp to meet God"
+    tool: study_verse
+    args: {book: Exod, chapter: 19, verse: 17, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "brought the people out of the camp to meet God"
+    checked: 2026-09-27
+  - id: 1sam13-10-esv
+    what: "Saul went out to meet him and greet him"
+    tool: study_verse
+    args: {book: 1Sam, chapter: 13, verse: 10, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Saul went out to meet him and greet him"
+    checked: 2026-09-27
+  - id: acts28-16-esv
+    what: "And when we came into Rome"
+    tool: study_verse
+    args: {book: Acts, chapter: 28, verse: 16, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "when we came into Rome"
+    checked: 2026-09-27
+  - id: btsb-4-17
+    what: "NIV BTSB note quoted as the firmest statement of the objection"
+    tool: study_note
+    args: {book: 1Thess, chapter: 4, verse: 17, work_id: niv-biblical-theology-study-bible}
+    path: "0.text"
+    expect_contains: "implies that the church, once it has been"
+    checked: 2026-09-27
+
+other_verified_not_replayable:
+  - "Brenton Greek (ebible-grcbrent) grep for ἀπάντησ: 24 verses, 2 of them verb forms (2 Sam 1:15, Ruth 1:16) -> 22 noun verses, 24 noun occurrences; Exod 19:17 reads εἰς συνάντησιν τοῦ Θεοῦ; 1 Sam 4:1 εἰς ἀπάντησιν αὐτοῖς εἰς πόλεμον."
+  - "ESV verified 2026-09-27: 1 Thess 4:13-18, 1:10, 2:19, 3:13, 5:9; Matt 25:1, 6, 10; Acts 28:15; John 12:12; John 14:2-3; 1 Sam 4:1; 2 Sam 6:20; Jer 41:5."
+  - "Bibliography verified by web search 2026-09-27: Peterson ZST 7 (1930); Cosby BBR 4 (1994) 15-33; Gundry BBR 6 (1996) 39-41 (argues parallels closer than Cosby allows); Gundry, The Church and the Tribulation (Zondervan 1973), posttribulational. Articles themselves not read -- characterised from their abstracts only."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", note: "Intro to 1 Thess; notes 4:13, 4:13-18, 4:14, 4:15, 4:16-17, 4:18. Confirmed occasion; contributed the Ex 19:16 trumpet link and the hypantesis parallels (Matt 25:1; John 12:13)."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "4:17 -- strongest statement of the escort-to-earth objection."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", note: "4:17 -- conditioned civic sense (moved text)."}
+  - {type: lexicon, title: "bible-text.db", note: "SBLGNT/MACULA Greek, Brenton LXX Greek, lxx-lemmas, MACULA Hebrew (liqrat)."}
+
 open_questions:
   - "When published, link it from rapture.md (see rapture.yml insight_2026-09-26 open_questions)."
+  - "Cosby and Gundry articles not read in full; their positions are stated from published abstracts. A reviewer with access could confirm and add page references for Peterson."
+  - "Sinai (Exod 19:16-17) is presented as a contested allusion (different noun, synantesis). Keep or cut per author judgment."
+  - "rapture.yml revision_2026-09-06f says the LXX uses eis apantesin 'TWENTY times'; corrected here to 24 in 22 verses (Brenton). Parent prose no longer carries the number after the fork, but check."
+  - "No conflict with statement-of-faith.md (End times: pretribulational, seven-year tribulation, visible return Rev 19:11-16)."
