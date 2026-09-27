@@ -3,7 +3,7 @@ title: "At Home with the Lord"
 category: "prophecy"
 description: "Where the believing dead are between death and the resurrection. Since the ascension a believer who dies goes at once to be with the Lord Jesus, conscious and without the body, and waits there for the body to be raised at His coming. A study of 2 Corinthians 5:1-8."
 tags: ["2-corinthians", "philippians", "1-thessalonians", "1-corinthians", "ephesians", "luke", "revelation", "resurrection", "dispensationalism", "larkin", "method/word-study", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "2 Corinthians 5:1-10"
 bible_references: ["2 Corinthians 1:8-9", "2 Corinthians 1:22", "2 Corinthians 4:16-18", "2 Corinthians 5:1-10", "Philippians 1:21-24", "Philippians 3:21", "Luke 23:43", "Luke 16:19-31", "Ephesians 4:8-10", "Ephesians 1:14", "Colossians 2:15", "Genesis 38:17-20", "Leviticus 23:10", "Acts 18:3", "Revelation 6:9-11", "Revelation 20:13-14", "1 Thessalonians 4:13-18", "1 Corinthians 15:20-23", "1 Corinthians 15:51-53", "2 Peter 2:4", "Jude 6"]
 date_created: 2026-09-26

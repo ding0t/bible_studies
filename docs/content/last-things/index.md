@@ -17,6 +17,14 @@ End-times prophecy, read dispensationally.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __At Home with the Lord__
+
+    ---
+
+    Where the believing dead are between death and the resurrection. Since the ascension a believer who dies goes at once to be with the Lord Jesus, conscious and without the body, and waits there for the body to be raised at His coming. A study of 2 Corinthians 5:1-8.
+
+    [:octicons-arrow-right-24: Read](at-home-with-the-lord.md)
+
 -   __Chronology Anchors: What Can Actually Be Dated, and How Tightly__
 
     ---

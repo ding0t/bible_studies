@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 15:20-23
 - [Biblical Numerology](../../scripture/numerology.md) — 15:4
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 15:51-53
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 15:22

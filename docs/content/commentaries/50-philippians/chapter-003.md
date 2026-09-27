@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 3:21
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 3:4-11
 <!-- commentary-index:auto-end -->

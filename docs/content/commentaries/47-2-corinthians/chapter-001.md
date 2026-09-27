@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 1:8-9
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 1:22
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:22
 <!-- commentary-index:auto-end -->

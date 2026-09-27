@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Rapture of the Church](../../last-things/rapture.md) — 4:15-18 (primary passage)
+- [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 4:13-18
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 4:16-17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 4:16-17
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 4:16-17

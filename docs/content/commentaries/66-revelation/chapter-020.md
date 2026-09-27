@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 20:1-7
+- [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 20:13-14
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 20:1-6
 - [Charting End Times](../../last-things/prophecy-chart.md) — 20:1-6
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 20:1-6

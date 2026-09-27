@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 4:16-18
 - [Know the Truth](../../christian-life/know-the-truth.md) — 4:4
 <!-- commentary-index:auto-end -->

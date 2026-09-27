@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 23:23-25 (primary passage)
+- [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 23:10
 - [Biblical Numerology](../../scripture/numerology.md) — 23:1-44
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 23:2-4
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 23:23-25
