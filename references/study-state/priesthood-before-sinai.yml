@@ -1,12 +1,34 @@
 slug: "priesthood-before-sinai"
 title: "Priesthood before Sinai: Adam, the Firstborn and the Levites"
-status: draft
+status: review
 target_path: "docs/content/jesus/priesthood-before-sinai.md"
 primary_passage: "Numbers 3:5-13"
+supporting_passages: ["Numbers 3:1-4", "Numbers 3:38-51", "Genesis 2:15", "Genesis 3:23-24", "Exodus 13:2", "Exodus 32:26-29", "Hebrews 5:4-5", "Hebrews 7:23-25", "Hebrews 12:23"]
+genre: [law, ot-narrative, epistle, topical]
 point: >
   God has always appointed His own priests: the office passed from Adam in Eden to the household
   heads of Genesis, then to Israel's firstborn and finally to Levi, reassigned by God after each
   failure -- the pattern Hebrews says Jesus' permanent priesthood ends.
+
+thesis: >
+  God has always chosen who serves Him as priest -- the household heads of Genesis, then Israel's
+  firstborn, then the Levites in their place, and on a contested reading Adam before them all -- and
+  every holder failed or died, until God appointed His Son Jesus, who "holds his priesthood
+  permanently, because he continues forever" (Hebrews 7:24, ESV).
+outline:
+  - {section: "Opening + Numbers 3:12-13 quote", says: "'Instead of' means the office already had holders; Numbers 3 is one handover among several"}
+  - {section: "Key Takeaways", says: "Jesus appointed, Jesus the last holder, Jesus makes His people priests; Heb 7:24-25 and 5:4; Think/Attitude/Do; prayer"}
+  - {section: "Study outline", says: "added because the body passed 2,500 words with 6+ sections"}
+  - {section: "Numbers 3 in its setting", says: "Sinai, year two; Nadab and Abihu die (3:4); Levite duties (3:5-10); 22,273 firstborn vs 22,000 Levites, 273 redeemed at five shekels; this shows God decides who draws near"}
+  - {section: "Adam in the garden: a contested reading", says: "case for (avad/shamar pair, cherubim guard, tabernacle's east side guarded by shomerim, three study Bibles); case against (no kohen before Gen 14:18, avad + 'the ground' in 2:5 and 3:23); study holds it as a reading and builds nothing on it alone"}
+  - {section: "Household priests: Noah and the patriarchs", says: "priesthood belongs to headship in Genesis (moved text)"}
+  - {section: "From the firstborn to the Levites", says: "firstborn claimed (Exod 13:2), kingdom of priests (Exod 19:6), golden calf, tachat 'instead of' (Num 3:12; 8:16), Aaron's line (moved text + additions)"}
+  - {section: "What the line sets up for Hebrews", says: "God appoints (Heb 5:4-5); every holder is replaced (Heb 7:11, 23-24); Melchizedek stands outside the line (moved text, tightened)"}
+  - {section: "The priest who continues forever", says: "this shows God keeps the choice of who comes near and answers sin and death in His Son; Heb 7:25; assembly of the firstborn (Heb 12:23); Rev 1:6; lands in second person"}
+  - {section: "Discussion Questions", says: "five: language, context, the hard part (earned vs taken), Christ, transformed"}
+word_budget: 4000
+word_budget_reason: ""
+
 stages:
   forked:
     done: true
@@ -18,9 +40,126 @@ stages:
       addendum_2026-07-29). One line restored from 8860b51 where an earlier pass had dropped text
       ("every Israelite firstborn son's birthright becomes, specifically because of Israel's
       failure and Levi's").
-  todo:
-    done: false
+  scoping:
+    done: true
     notes: >
-      Needs develop-bible-study: its own opening, "In one sentence:" thesis, Key Takeaways,
-      discussion questions, and provenance frontmatter (refresh_frontmatter_provenance.py) before
-      publishing. On publish, link it from the parent's plain-text pointer (Genesis 14 section).
+      Placement decided 2026-09-27: stays in jesus/. Considered scripture/ per the brief, but
+      scripture/ is Bibliology (canon, manuscripts, translation, how to read) and this study is
+      about an office, not about the Bible as a text. The study's thesis ends in Jesus' permanent
+      priesthood (Heb 5:5; 7:23-25), which is Christology -- "who Christ is and what He did".
+      israel-and-church/ was the other candidate (Levites, firstborn) but the Israel material
+      serves the Christological point. Tags carry the other axes (numbers, genesis, exodus,
+      hebrews, priesthood, person/adam, method/word-study, lang/hebrew). Dropped
+      person/melchizedek: he is one point of three in one section, not a subject of the study.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Numbers 1:1 dates the speeches to Sinai, first day of the second month, second year after
+        the exodus. Chapters 1-4 order the camp before departure. ESVSB note on 3:1-4:49: first
+        Levite census counts males from a month old so their number matches the firstborn.
+        Redemption price five shekels per head (3:47) for the 273 surplus firstborn (3:43 vs
+        3:39).
+    literary_context:
+      done: true
+      notes: >
+        Unit is Numbers 3:5-13 (duties 5-10, substitution 11-13), framed by 3:1-4 (Nadab and Abihu
+        die, Eleazar and Ithamar serve) and 3:14-51 (census and redemption). 3:38 places Moses,
+        Aaron and sons on the east side as shomerim of the sanctuary. The frame -- priests dying
+        at the start, a surplus bought back at the end -- was new to this draft and supplies the
+        "every holder is replaced" point from within the primary passage itself.
+    content_word_studies:
+      done: true
+      notes: "avad/shamar/mishmeret verified in parent; tachat and shomerim added here."
+      terms:
+        - {word: "תַּחַת", language: hebrew, transliteration: tachat, strongs_id: H8478, gloss: "instead of, in place of"}
+        - {word: "שֹׁמְרִים", language: hebrew, transliteration: shomerim, strongs_id: H8104, gloss: "keepers, guards (Num 3:38)"}
+        - {word: "כֹּהֵן", language: hebrew, transliteration: kohen, strongs_id: H3548, gloss: "priest; first occurrence Gen 14:18"}
+        - {word: "πρωτοτόκων", language: greek, transliteration: prōtotokōn, strongs_id: G4416, gloss: "firstborn ones (Heb 12:23, genitive plural)"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "The Levitical service is tied to the tabernacle and superseded (Heb 7:11); the transcultural principle is that God appoints who draws near to Him."
+    theological_principle:
+      done: true
+      notes: "God keeps to Himself the choice of who may come near; every appointed priest failed or died; God answers both in His Son Jesus, appointed and living forever."
+    application_draft:
+      done: true
+      notes: "Draw near through Jesus with confidence; intercede for others as priests He has made (Rev 1:6)."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Hebrews 5:4-5", relation: "God appoints; applied to Christ"}
+      - {ref: "Hebrews 7:23-25", relation: "many priests who died vs one who continues forever"}
+      - {ref: "Hebrews 12:23", relation: "assembly of the firstborn"}
+      - {ref: "Revelation 1:6", relation: "Jesus made us priests"}
+    translations_compared: ["ESV", "WEB", "ASV"]
+    divergences_noted: "ESV 'keep guard over him' (Num 3:7) flattens mishmeret; ASV 'charge' keeps it (from parent)."
+    cross_study_check: "cross_study_claims.py 'Numbers 3' and 'Genesis 2' -- only this study and melchizedek-priesthood.md treat Numbers 3; no disagreement."
+  drafting:
+    done: true
+    file: "docs/content/jesus/priesthood-before-sinai.md"
+    notes: >
+      2026-09-27: developed from fork. Added opening with Numbers 3:12-13 block quote, In one
+      sentence, Key Takeaways (house opening line), Study outline, "Numbers 3 in its setting",
+      the case-against and where-this-study-stands subsections for Eden, Exod 19:6, tachat,
+      Nadab/Abihu in the "replaced" point, closing theology section, discussion questions,
+      references. Moved text kept; promoted ### to ##; removed bold lead-ins duplicating
+      headings; recased divine pronouns; removed antitheses ("placed, not self-appointed", "not
+      self-selected", "function of headship, not a distinct office", "not a claim the text itself
+      makes", "reaches for him rather than for this history"); Eden paragraphs relabelled as a
+      contested reading. Body ~2,730 words (whole file after frontmatter).
+  review:
+    done: false
+    validated: true
+    notes: >
+      npm run validate: no errors; only the three provenance warnings (fields omitted per brief).
+      mkdocs build --strict passed (draft dropped from build). Awaiting author read and a
+      review-bible-study pass before draft: false.
+
+open_questions:
+  - "The Eden-as-sanctuary / Adam-as-priest reading is marked contested and given both sides. Beale's The Temple and the Church's Mission (standard academic source for it) is still not available locally -- see melchizedek-priesthood.yml. The case against is argued from the text (Gen 2:5; 3:23; first kohen at 14:18), not from a named scholar; a named opposing commentator would strengthen it."
+  - "Numbers 3:38's shomerim on the east side is offered as a parallel to the cherubim at Eden's east (Gen 3:24). The directional parallel is this study's observation, not drawn from a commentary -- author should judge whether it stays."
+  - "Hebrews 12:23's 'assembly of the firstborn' is read with the ESVSB as Jesus' followers; NIV CBSB notes it may be God's people as a whole (Exod 4:22). The study does not pursue the Israel/church question there; consistent with statement-of-faith, but flag if the author wants the dispensational distinction stated."
+  - "Rabbinic Melchizedek = Shem identification carried over from parent without a primary citation (e.g. b. Nedarim 32b); a citation would help."
+  - "On publish: link this page from the parent's plain-text pointer (melchizedek-priesthood.md line ~155), run refresh_frontmatter_provenance.py, commentary_index.py and section_index.py."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Gen 2:4-25, 2:15-16 (from parent); Num 3:1-4:49, 3:5-10, 3:11-13; Heb 12:23 -- contributed the census purpose, the two Levite duties and the plural firstborn reading"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan, ed. D. A. Carson", note: "Gen 2:15 (from parent), Heb 12:23 -- confirmed"}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan, eds. Walton and Keener", note: "Gen 2:15 -- contributed priestly-terms reading; Heb 12:23 -- contributed the 'God's people as a whole' alternative"}
+  - {type: other, title: "bible-text.db", author: "unfoldingWord UHB/ULT; MACULA Hebrew; WEB; ASV", note: "interlinear Gen 2:5, 2:15, 3:23, Num 3:12, 3:38, Heb 12:23; concordance H3548 in Genesis"}
+
+evidence:
+  - {id: num3-12-esv, what: "ESV Num 3:12 block quote", tool: study_verse, args: {book: Num, chapter: 3, verse: 12, work_id: esv-study-bible}, expect_contains: "I have taken the Levites from among the people of Israel instead of every firstborn", checked: 2026-09-27}
+  - {id: num3-13-esv, what: "ESV Num 3:13 block quote", tool: study_verse, args: {book: Num, chapter: 3, verse: 13, work_id: esv-study-bible}, expect_contains: "They shall be mine: I am the LORD", checked: 2026-09-27}
+  - {id: num3-12-tachat, what: "tachat 'instead of' in Num 3:12", tool: bible_interlinear, args: {book: Num, chapter: 3, verse: 12}, expect_contains: "H8478", checked: 2026-09-27}
+  - {id: num1-1-esv, what: "ESV Num 1:1 date", tool: study_verse, args: {book: Num, chapter: 1, verse: 1, work_id: esv-study-bible}, expect_contains: "on the first day of the second month, in the second year", checked: 2026-09-27}
+  - {id: num3-4-esv, what: "ESV Num 3:4 Nadab and Abihu", tool: study_verse, args: {book: Num, chapter: 3, verse: 4, work_id: esv-study-bible}, expect_contains: "they had no children", checked: 2026-09-27}
+  - {id: num3-10-esv, what: "ESV Num 3:10", tool: study_verse, args: {book: Num, chapter: 3, verse: 10, work_id: esv-study-bible}, expect_contains: "if any outsider comes near, he shall be put to death", checked: 2026-09-27}
+  - {id: num3-39-esv, what: "Levites 22,000", tool: study_verse, args: {book: Num, chapter: 3, verse: 39, work_id: esv-study-bible}, expect_contains: "22,000", checked: 2026-09-27}
+  - {id: num3-43-esv, what: "firstborn 22,273", tool: study_verse, args: {book: Num, chapter: 3, verse: 43, work_id: esv-study-bible}, expect_contains: "22,273", checked: 2026-09-27}
+  - {id: num3-47-esv, what: "five shekels per head", tool: study_verse, args: {book: Num, chapter: 3, verse: 47, work_id: esv-study-bible}, expect_contains: "five shekels per head", checked: 2026-09-27}
+  - {id: num3-38-esv, what: "ESV Num 3:38 east side", tool: study_verse, args: {book: Num, chapter: 3, verse: 38, work_id: esv-study-bible}, expect_contains: "guarding the sanctuary itself", checked: 2026-09-27}
+  - {id: num3-38-shomerim, what: "shamar participle in Num 3:38", tool: bible_interlinear, args: {book: Num, chapter: 3, verse: 38}, expect_contains: "Vqrmpa", checked: 2026-09-27}
+  - {id: gen2-15-esv, what: "ESV Gen 2:15", tool: study_verse, args: {book: Gen, chapter: 2, verse: 15, work_id: esv-study-bible}, expect_contains: "to work it and keep it", checked: 2026-09-27}
+  - {id: gen2-5-esv, what: "ESV Gen 2:5", tool: study_verse, args: {book: Gen, chapter: 2, verse: 5, work_id: esv-study-bible}, expect_contains: "there was no man to work the ground", checked: 2026-09-27}
+  - {id: gen3-23-esv, what: "ESV Gen 3:23", tool: study_verse, args: {book: Gen, chapter: 3, verse: 23, work_id: esv-study-bible}, expect_contains: "to work the ground from which he was taken", checked: 2026-09-27}
+  - {id: gen2-5-adamah, what: "avad + ha'adamah in Gen 2:5", tool: bible_interlinear, args: {book: Gen, chapter: 2, verse: 5}, expect_contains: "H0127", checked: 2026-09-27}
+  - {id: gen3-23-adamah, what: "avad + ha'adamah in Gen 3:23", tool: bible_interlinear, args: {book: Gen, chapter: 3, verse: 23}, expect_contains: "H0127", checked: 2026-09-27}
+  - {id: kohen-genesis, what: "kohen in Genesis: 7 tokens in 6 verses, earliest 14:18 (then 41:45, 41:50, 46:20, 47:22, 47:26)", tool: bible_concordance, args: {strongs: H3548, book: Gen, work_id: macula-hebrew-wlc}, expect_count: 7, checked: 2026-09-27}
+  - {id: exo25-22-esv, what: "ESV Exod 25:22", tool: study_verse, args: {book: Exod, chapter: 25, verse: 22, work_id: esv-study-bible}, expect_contains: "There I will meet with you", checked: 2026-09-27}
+  - {id: exo26-31-esv, what: "cherubim on the veil", tool: study_verse, args: {book: Exod, chapter: 26, verse: 31, work_id: esv-study-bible}, expect_contains: "cherubim skillfully worked into it", checked: 2026-09-27}
+  - {id: exo19-6-esv, what: "ESV Exod 19:6", tool: study_verse, args: {book: Exod, chapter: 19, verse: 6, work_id: esv-study-bible}, expect_contains: "a kingdom of priests and a holy nation", checked: 2026-09-27}
+  - {id: heb5-4-esv, what: "ESV Heb 5:4 memory verse", tool: study_verse, args: {book: Heb, chapter: 5, verse: 4, work_id: esv-study-bible}, expect_contains: "no one takes this honor for himself, but only when called by God, just as Aaron was", checked: 2026-09-27}
+  - {id: heb5-5-esv, what: "ESV Heb 5:5", tool: study_verse, args: {book: Heb, chapter: 5, verse: 5, work_id: esv-study-bible}, expect_contains: "Christ did not exalt himself to be made a high priest, but was appointed", checked: 2026-09-27}
+  - {id: heb7-23-esv, what: "ESV Heb 7:23", tool: study_verse, args: {book: Heb, chapter: 7, verse: 23, work_id: esv-study-bible}, expect_contains: "prevented by death from continuing in office", checked: 2026-09-27}
+  - {id: heb7-24-esv, what: "ESV Heb 7:24 thesis/memory verse", tool: study_verse, args: {book: Heb, chapter: 7, verse: 24, work_id: esv-study-bible}, expect_contains: "he holds his priesthood permanently, because he continues forever", checked: 2026-09-27}
+  - {id: heb7-25-esv, what: "ESV Heb 7:25", tool: study_verse, args: {book: Heb, chapter: 7, verse: 25, work_id: esv-study-bible}, expect_contains: "he always lives to make intercession for them", checked: 2026-09-27}
+  - {id: heb12-23-esv, what: "ESV Heb 12:23", tool: study_verse, args: {book: Heb, chapter: 12, verse: 23, work_id: esv-study-bible}, expect_contains: "the assembly of the firstborn who are enrolled in heaven", checked: 2026-09-27}
+  - {id: heb12-23-plural, what: "prototokon genitive plural", tool: bible_interlinear, args: {book: Heb, chapter: 12, verse: 23}, expect_contains: "πρωτοτόκων", checked: 2026-09-27}
+  - {id: rev1-6-esv, what: "ESV Rev 1:6", tool: study_verse, args: {book: Rev, chapter: 1, verse: 6, work_id: esv-study-bible}, expect_contains: "made us a kingdom, priests to his God and Father", checked: 2026-09-27}
+  - {id: gen2-15-nivcbsb, what: "NIV CBSB Gen 2:15 priestly terms", tool: study_note, args: {book: Gen, chapter: 2, verse: 15, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "priestly terms are used", checked: 2026-09-27}
+  - {id: num3-5-esvsb, what: "ESVSB Num 3:5-10 two duties", tool: study_note, args: {book: Num, chapter: 3, verse: 5, work_id: esv-study-bible}, expect_contains: "guarding the tabernacle from intruders", checked: 2026-09-27}
+
+last_updated: "2026-09-27"
