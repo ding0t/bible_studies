@@ -72,12 +72,12 @@ you come to God through holds His office on God's own sworn promise.
 
 ### Memory verses
 
-> ✝️ [Psalm 110:4 (ESV)](https://www.blueletterbible.org/esv/Psa/110/4)
+> ✝️ Psalm 110:4 (ESV)
 >
 > 4 The LORD has sworn and will not change his mind, "You are a priest forever after the order of
 > Melchizedek."
 
-> ✝️ [Hebrews 7:22-25 (ESV)](https://www.blueletterbible.org/esv/Heb/7/22-25)
+> ✝️ Hebrews 7:22-25 (ESV)
 >
 > 22 This makes Jesus the guarantor of a better covenant. 23 The former priests were many in
 > number, because they were prevented by death from continuing in office, 24 but he holds his

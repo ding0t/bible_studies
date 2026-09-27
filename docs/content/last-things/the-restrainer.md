@@ -47,12 +47,12 @@ within Daniel's seventieth week, the seven years of the tribulation (Daniel 9:27
 
 ### Memory verses
 
-> ✝️ [2 Thessalonians 2:7 (ESV)](https://www.blueletterbible.org/esv/2Th/2/7)
+> ✝️ 2 Thessalonians 2:7 (ESV)
 >
 > 7 For the mystery of lawlessness is already at work. Only he who now restrains it will do so until
 > he is out of the way.
 
-> ✝️ [1 John 4:4 (ESV)](https://www.blueletterbible.org/esv/1Jo/4/4)
+> ✝️ 1 John 4:4 (ESV)
 >
 > 4 Little children, you are from God and have overcome them, for he who is in you is greater than he
 > who is in the world.

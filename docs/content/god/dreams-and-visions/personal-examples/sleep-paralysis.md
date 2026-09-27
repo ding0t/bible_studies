@@ -5,7 +5,7 @@ description: "Personal experience with sleep paralysis and spiritual significanc
 tags: ["dreams", "sleep-paralysis", "spiritual-warfare", "angelic-presence"]
 draft: false
 date_created: 2025-04-24
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -36,6 +36,6 @@ Around 2006 I experienced it most convincingly:
 
 ## Scripture
 
-> ✝️ [1Co 10:13 (ESV)](https://www.blueletterbible.org/esv/1Co/10/13)
+> ✝️ 1Co 10:13 (ESV)
 >
 > No temptation has overtaken you that is not common to man. God is faithful, and he will not let you be tempted beyond your ability, but with the temptation he will also provide the way of escape, that you may be able to endure it.

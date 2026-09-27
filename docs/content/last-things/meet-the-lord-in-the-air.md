@@ -41,12 +41,12 @@ back with Him at the end of the tribulation.
 
 ### Memory verses
 
-> ✝️ [1 Thessalonians 4:17 (ESV)](https://www.blueletterbible.org/esv/1Th/4/17)
+> ✝️ 1 Thessalonians 4:17 (ESV)
 >
 > 17 Then we who are alive, who are left, will be caught up together with them in the clouds to meet
 > the Lord in the air, and so we will always be with the Lord.
 
-> ✝️ [John 14:3 (ESV)](https://www.blueletterbible.org/esv/Joh/14/3)
+> ✝️ John 14:3 (ESV)
 >
 > 3 And if I go and prepare a place for you, I will come again and will take you to myself, that where
 > I am you may be also.

@@ -49,13 +49,13 @@ in heaven) let you judge any ministry, beginning with your own.
 
 ### Memory verses
 
-> ✝️ [Acts 16:18 (ESV)](https://www.blueletterbible.org/esv/Act/16/18)
+> ✝️ Acts 16:18 (ESV)
 >
 > 18 And this she kept doing for many days. Paul, having become greatly annoyed, turned and said to
 > the spirit, "I command you in the name of Jesus Christ to come out of her." And it came out that
 > very hour.
 
-> ✝️ [Luke 10:20 (ESV)](https://www.blueletterbible.org/esv/Luk/10/20)
+> ✝️ Luke 10:20 (ESV)
 >
 > 20 Nevertheless, do not rejoice in this, that the spirits are subject to you, but rejoice that your
 > names are written in heaven.

@@ -50,17 +50,17 @@ since Genesis 13, finally shown.
 
 ### Memory verses
 
-> ✝️ [Genesis 9:1 (ESV)](https://www.blueletterbible.org/esv/Gen/9/1)
+> ✝️ Genesis 9:1 (ESV)
 >
 > 1 And God blessed Noah and his sons and said to them, "Be fruitful and multiply and fill the
 > earth."
 
-> ✝️ [Genesis 15:5 (ESV)](https://www.blueletterbible.org/esv/Gen/15/5)
+> ✝️ Genesis 15:5 (ESV)
 >
 > 5 And he brought him outside and said, "Look toward heaven, and number the stars, if you are able
 > to number them." Then he said to him, "So shall your offspring be."
 
-> ✝️ [Revelation 7:9 (ESV)](https://www.blueletterbible.org/esv/Rev/7/9)
+> ✝️ Revelation 7:9 (ESV)
 >
 > 9 After this I looked, and behold, a great multitude that no one could number, from every nation,
 > from all tribes and peoples and languages, standing before the throne and before the Lamb,

@@ -39,17 +39,17 @@ One view holds that the rapture — the *harpazo*, "catching up" — is a distin
 
 ### Memory verses
 
-> ✝️ [John 14:3 (ESV)](https://www.blueletterbible.org/esv/Joh/14/3)
+> ✝️ John 14:3 (ESV)
 >
 > 3 And if I go and prepare a place for you, I will come again and will take you to myself, that
 > where I am you may be also.
 
-> ✝️ [1 Thessalonians 4:17 (ESV)](https://www.blueletterbible.org/esv/1Th/4/17)
+> ✝️ 1 Thessalonians 4:17 (ESV)
 >
 > 17 Then we who are alive, who are left, will be caught up together with them in the clouds to
 > meet the Lord in the air, and so we will always be with the Lord.
 
-> ✝️ [1 Thessalonians 5:9 (ESV)](https://www.blueletterbible.org/esv/1Th/5/9)
+> ✝️ 1 Thessalonians 5:9 (ESV)
 >
 > 9 For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ.
 
@@ -80,7 +80,7 @@ Lord, you promised to come again for your own, personally, not as an afterthough
 
 ## The word behind "rapture": ἁρπάζω
 
-The English word "rapture" doesn't translate anything directly — it comes from the Latin Vulgate's *rapiemur* ("we will be caught up"), itself a translation of the Greek verb used in [1 Thessalonians 4:17 (ESV)](https://www.blueletterbible.org/esv/1Th/4/17): **ἁρπάζω** (*harpazō*, pronounced har-PAD-zo, Strong's G726), "to seize, snatch, or catch away by force."
+The English word "rapture" doesn't translate anything directly — it comes from the Latin Vulgate's *rapiemur* ("we will be caught up"), itself a translation of the Greek verb used in 1 Thessalonians 4:17 (ESV): **ἁρπάζω** (*harpazō*, pronounced har-PAD-zo, Strong's G726), "to seize, snatch, or catch away by force."
 
 **Where the word comes from.** In classical and koine Greek, ἁρπάζω is ordinary language for forcible seizure — a wolf snatching prey, a robber seizing goods, a kidnapper taking a person against their will. Its core sense is *sudden, forceful removal*, and that sense carries through every New Testament use.
 
@@ -94,10 +94,10 @@ of security.
 
 But four occurrences describe something more specific: a person suddenly, physically taken up into heaven or the heavenly realm.
 
-- **[2 Corinthians 12:2-4 (ESV)](https://www.blueletterbible.org/esv/2Co/12/2-4)** — Paul describes himself (guardedly, in the third person) being "caught up" to the third heaven, into paradise — a real, momentary, involuntary experience, not something he did to himself.
-- **[Acts 8:39 (ESV)](https://www.blueletterbible.org/esv/Act/8/39)** — after baptizing the Ethiopian eunuch, "the Spirit of the Lord carried Philip away" — an abrupt, physical relocation.
-- **[Revelation 12:5 (ESV)](https://www.blueletterbible.org/esv/Rev/12/5)** — the male child (Christ) is "caught up to God and to his throne," His ascension described with the same verb.
-- **[1 Thessalonians 4:17 (ESV)](https://www.blueletterbible.org/esv/1Th/4/17)** — "we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air."
+- **2 Corinthians 12:2-4 (ESV)** — Paul describes himself (guardedly, in the third person) being "caught up" to the third heaven, into paradise — a real, momentary, involuntary experience, not something he did to himself.
+- **Acts 8:39 (ESV)** — after baptizing the Ethiopian eunuch, "the Spirit of the Lord carried Philip away" — an abrupt, physical relocation.
+- **Revelation 12:5 (ESV)** — the male child (Christ) is "caught up to God and to his throne," His ascension described with the same verb.
+- **1 Thessalonians 4:17 (ESV)** — "we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air."
 
 **Conclusion.** Every time ἁρπάζω describes someone going to be with God, it describes a real, sudden, physical event. Paul chose that term in 1 Thessalonians 4:17, and it is the strongest lexical argument that the rapture is what it sounds like: a real, sudden, bodily gathering of the Church.
 
@@ -105,7 +105,7 @@ This shows that God gathers His people with the whole force the word carries: no
 
 ## The promise: Christ returns for his own
 
-> ✝️ [John 14:1-4 (ESV)](https://www.blueletterbible.org/esv/Joh/14/1-4)
+> ✝️ John 14:1-4 (ESV)
 >
 > 1 "Let not your hearts be troubled. Believe in God; believe also in me. 2 In my Father's house are many rooms. If it were not so, would I have told you that I go to prepare a place for you? 3 And if I go and prepare a place for you, **I will come again and will take you to myself, that where I am you may be also.** 4 And you know the way to where I am going."
 
@@ -117,7 +117,7 @@ This shows that God has tied your hope to a person: Jesus Himself is coming for 
 
 Paul is answering a grief. Some Thessalonian believers had died since he taught the church about Christ's return, and the church seemed unsure whether they would share in it. The paragraph opens by naming exactly that concern: "we do not want you to be uninformed... about those who are asleep, that you may not grieve as others do who have no hope" (1 Thessalonians 4:13, ESV).
 
-> ✝️ [1 Thessalonians 4:15-18 (ESV)](https://www.blueletterbible.org/esv/1Th/4/15-18)
+> ✝️ 1 Thessalonians 4:15-18 (ESV)
 >
 > 15 For this we declare to you by a word from the Lord, that we who are alive, who are left until the coming of the Lord, will not precede those who have fallen asleep. 16 For the Lord himself will descend from heaven with a cry of command, with the voice of an archangel, and with the sound of the trumpet of God. And the dead in Christ will rise first. 17 Then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air, and so we will always be with the Lord. 18 Therefore encourage one another with these words.
 
@@ -129,7 +129,7 @@ This shows that God answers grief with the resurrection of the body: those you h
 
 ### The mystery of 1 Corinthians 15:51-53
 
-> ✝️ [1 Corinthians 15:51-53 (ESV)](https://www.blueletterbible.org/esv/1Co/15/51-53)
+> ✝️ 1 Corinthians 15:51-53 (ESV)
 >
 > 51 Behold! I tell you a mystery. We shall not all sleep, but we shall all be changed, 52 in a moment, in the twinkling of an eye, at the last trumpet. For the trumpet will sound, and the dead will be raised imperishable, and we shall be changed. 53 For this perishable body must put on the imperishable, and this mortal body must put on immortality.
 
@@ -142,7 +142,7 @@ This is glorification, the last stage of your salvation, and God will complete i
 
 ## The imminence of the rapture
 
-> ✝️ [Matthew 24:36-44 (ESV)](https://www.blueletterbible.org/esv/Mat/24/36-44)
+> ✝️ Matthew 24:36-44 (ESV)
 >
 > 36 "But concerning that day and hour no one knows, not even the angels of heaven, nor the Son, but the Father only. 37 For as were the days of Noah, so will be the coming of the Son of Man. 38 For as in those days before the flood they were eating and drinking, marrying and giving in marriage, until the day when Noah entered the ark, 39 and they were unaware until the flood came and swept them all away, so will be the coming of the Son of Man. 40 Then two men will be in the field; one will be taken and one left. 41 Two women will be grinding at the mill; one will be taken and one left. 42 Therefore, stay awake, for you do not know on what day your Lord is coming. 43 But know this, that if the master of the house had known in what part of the night the thief was coming, he would have stayed awake and would not have let his house be broken into. 44 Therefore you also must be ready, for the Son of Man is coming at an hour you do not expect."
 
@@ -161,7 +161,7 @@ on the earth is Noah. [The Olivet Discourse](olivet-discourse.md) works this thr
 
 ### The ten virgins
 
-> ✝️ [Matthew 25:1-13 (ESV)](https://www.blueletterbible.org/esv/Mat/25/1-13)
+> ✝️ Matthew 25:1-13 (ESV)
 >
 > 1 "Then the kingdom of heaven will be like ten virgins who took their lamps and went to meet the bridegroom. 2 Five of them were foolish, and five were wise. 3 For when the foolish took their lamps, they took no oil with them, 4 but the wise took flasks of oil with their lamps. 5 As the bridegroom was delayed, they all became drowsy and slept. 6 But at midnight there was a cry, 'Here is the bridegroom! Come out to meet him.' 7 Then all those virgins rose and trimmed their lamps. 8 And the foolish said to the wise, 'Give us some of your oil, for our lamps are going out.' 9 But the wise answered, saying, 'Since there will not be enough for us and for you, go rather to the dealers and buy for yourselves.' 10 And while they were going to buy, the bridegroom came, and those who were ready went in with him to the marriage feast, and the door was shut. 11 Afterward the other virgins came also, saying, 'Lord, lord, open to us.' 12 But he answered, 'Truly, I say to you, I do not know you.' 13 Watch therefore, for you know neither the day nor the hour."
 
@@ -272,7 +272,7 @@ sits](#where-the-supper-sits-and-what-the-bride-is-wearing) works that through.
 
 ## The restrainer and his going
 
-> ✝️ [2 Thessalonians 2:1-7 (ESV)](https://www.blueletterbible.org/esv/2Th/2/1-7)
+> ✝️ 2 Thessalonians 2:1-7 (ESV)
 >
 > 1 Now concerning the coming of our Lord Jesus Christ and our being gathered together to him, we ask you, brothers, 2 not to be quickly shaken in mind or alarmed, either by a spirit or a spoken word, or a letter seeming to be from us, to the effect that the day of the Lord has come. 3 Let no one deceive you in any way. For that day will not come, unless the rebellion comes first, and the man of lawlessness is revealed, the son of destruction, 4 who opposes and exalts himself against every so-called god or object of worship, so that he takes his seat in the temple of God, proclaiming himself to be God. 5 Do you not remember that when I was still with you I told you these things? 6 And you know what is restraining him now so that he may be revealed in his time. 7 For the mystery of lawlessness is already at work. Only he who now restrains it will do so until he is out of the way.
 
@@ -321,19 +321,19 @@ AD 180."
 
 ## The tribulation
 
-The tribulation is a specific seven-year period. It is Daniel's seventieth "week" of years ([Daniel
-9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27); see [The Zadok Calendar](../feasts/zadok-
+The tribulation is a specific seven-year period. It is Daniel's seventieth "week" of years (Daniel
+9:27 (ESV); see [The Zadok Calendar](../feasts/zadok-
 calendar.md) for how this site reckons that kind of chronology). During it God's judgment falls on a
 world that has rejected Him. At its midpoint the man of lawlessness takes his seat in the temple (2 Thessalonians 2:4), the
 abomination of desolation (Matthew 24:15).
 
 Scripture gives two direct reasons to expect the Church to be removed before this period.
 
-**Not destined for wrath.** "For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ" ([1 Thessalonians 5:9 (ESV)](https://www.blueletterbible.org/esv/1Th/5/9)). The tribulation is explicitly God's wrath poured out on the earth — a category Scripture says believers are not appointed to.
+**Not destined for wrath.** "For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ" (1 Thessalonians 5:9, ESV). The tribulation is explicitly God's wrath poured out on the earth — a category Scripture says believers are not appointed to.
 
 This shows that God has already settled your destiny: He appointed you to obtain salvation through your Lord Jesus Christ, and on the reading argued here He will gather you before that week of wrath begins.
 
-**Kept from, not kept through.** To the church in Philadelphia: "I will keep you from the hour of trial that is coming on the whole world, to try those who dwell on the earth" ([Revelation 3:10 (ESV)](https://www.blueletterbible.org/esv/Rev/3/10)). That reads best as a promise to be kept *from* the hour itself, not merely preserved safely inside it.
+**Kept from, not kept through.** To the church in Philadelphia: "I will keep you from the hour of trial that is coming on the whole world, to try those who dwell on the earth" (Revelation 3:10, ESV). That reads best as a promise to be kept *from* the hour itself, not merely preserved safely inside it.
 
 The underlying Greek is contested, though. Standard commentary treats ἐκ τῆς ὥρας ("out of the hour") as ambiguous between "keep you from undergoing" and "keep you through," with serious interpreters on both sides. The reading above is defensible, and the pretribulational case leans on more than this verse.
 
@@ -343,8 +343,8 @@ Scripture describes two distinct judgments, for two distinct groups, at two dist
 
 | Judgment | Who | When | Basis |
 | --- | --- | --- | --- |
-| The Bema seat | Believers | During the tribulation, in heaven | Works tested for reward, not for salvation — [2 Corinthians 5:10 (ESV)](https://www.blueletterbible.org/esv/2Co/5/10); [1 Corinthians 3:11-15 (ESV)](https://www.blueletterbible.org/esv/1Co/3/11-15) |
-| The Great White Throne | The unsaved dead | After the millennium | Judged "according to what they had done," ending in the second death — [Revelation 20:11-15 (ESV)](https://www.blueletterbible.org/esv/Rev/20/11-15) |
+| The Bema seat | Believers | During the tribulation, in heaven | Works tested for reward, not for salvation — 2 Corinthians 5:10 (ESV); 1 Corinthians 3:11-15 (ESV) |
+| The Great White Throne | The unsaved dead | After the millennium | Judged "according to what they had done," ending in the second death — Revelation 20:11-15 (ESV) |
 
 **Bēma** (**βῆμα**) is commonly glossed as "a Greek athletic term for the judge's stand at the games." That gloss is wrong. Every one of its twelve New Testament occurrences is judicial or civic: Pilate's judgment seat (Matthew 27:19; John 19:13), Herod's throne (Acts 12:21), Gallio's tribunal at Corinth (Acts 18:12, 16-17), Festus's tribunal (Acts 25:6, 10, 17), and "the judgment seat of God/Christ" itself (Romans 14:10; 2 Corinthians 5:10). The ESV Study Bible's note on 2 Corinthians 5:10 identifies it as "the tribunal bench in the Roman courtroom, where the governor sat while rendering judicial verdicts".
 
@@ -356,7 +356,7 @@ The Bema is a judgment of reward, not of condemnation. A believer's salvation wa
 
 Revelation puts the wedding at a specific point.
 
-> ✝️ [Revelation 19:7-9 (ESV)](https://www.blueletterbible.org/esv/Rev/19/7-9)
+> ✝️ Revelation 19:7-9 (ESV)
 >
 > 7 Let us rejoice and exult and give him the glory, for the marriage of the Lamb has come, and his
 > Bride has made herself ready; 8 it was granted her to clothe herself with fine linen, bright and

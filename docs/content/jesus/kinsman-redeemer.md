@@ -54,12 +54,12 @@ them brothers" (Hebrews 2:11, ESV). He redeems at a price: "the precious blood o
 
 ### Memory verses
 
-> ✝️ [Ruth 4:14 (ESV)](https://www.blueletterbible.org/esv/Rut/4/14)
+> ✝️ Ruth 4:14 (ESV)
 >
 > 14 Then the women said to Naomi, "Blessed be the LORD, who has not left you this day without a
 > redeemer, and may his name be renowned in Israel!
 
-> ✝️ [1 Peter 1:18-19 (ESV)](https://www.blueletterbible.org/esv/1Pe/1/18-19)
+> ✝️ 1 Peter 1:18-19 (ESV)
 >
 > 18 knowing that you were ransomed from the futile ways inherited from your forefathers, not with
 > perishable things such as silver or gold, 19 but with the precious blood of Christ, like that of a

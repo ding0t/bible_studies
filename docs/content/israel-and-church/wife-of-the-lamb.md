@@ -46,12 +46,12 @@ herself ready" (Revelation 19:7, ESV). Both peoples end in one city, and the ang
 
 ### Memory verses
 
-> ✝️ [Revelation 19:7 (ESV)](https://www.blueletterbible.org/esv/Rev/19/7)
+> ✝️ Revelation 19:7 (ESV)
 >
 > 7 Let us rejoice and exult and give him the glory, for the marriage of the Lamb has come, and his
 > Bride has made herself ready;
 
-> ✝️ [Revelation 22:4 (ESV)](https://www.blueletterbible.org/esv/Rev/22/4)
+> ✝️ Revelation 22:4 (ESV)
 >
 > 4 They will see his face, and his name will be on their foreheads.
 

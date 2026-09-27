@@ -44,7 +44,7 @@ Genesis 2:24, which Paul does quote.
 
 ### Memory verses
 
-> ✝️ [Song of Songs 8:7 (ESV)](https://www.blueletterbible.org/esv/Sng/8/7)
+> ✝️ Song of Songs 8:7 (ESV)
 >
 > 7 Many waters cannot quench love, neither can floods drown it. If a man offered for love all the
 > wealth of his house, he would be utterly despised.

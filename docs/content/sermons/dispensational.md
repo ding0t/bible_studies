@@ -5,7 +5,7 @@ description: "Foundational principles for approaching biblical study with a prop
 tags: ["prophecy", "doctrine", "audience/teaching", "foundations"]
 draft: false
 date_created: 2025-04-24
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -15,7 +15,7 @@ ai_provider_models:
 
 - James Webb telescope looked to see the big bang - what it found was no big bang that undermined 
 all of the evolution theories of man. Yet creation stood firm. Would this tilt man to acknowledge God? 
-No- yet man is still darkened - > ✝️ [Rom 1:20-22 (ESV)](https://www.blueletterbible.org/esv/Rom/1/20-22)
+No- yet man is still darkened - > ✝️ Rom 1:20-22 (ESV)
 
 
 
@@ -26,7 +26,7 @@ Hermeneutics - Spiritual vs Literal
 As an example, take the following. Which is spiritually interpreted as God is outside of human time. 
 Whilst true, it has a literal understanding from Hebrew culture.
 
-- > ✝️ [2Pet 3:8 (ESV)](https://www.blueletterbible.org/esv/2Pet/3/8)
+- > ✝️ 2Pet 3:8 (ESV)
 >
 > 
 

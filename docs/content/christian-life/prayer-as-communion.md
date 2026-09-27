@@ -53,11 +53,11 @@ refusing administration so they could "devote ourselves to prayer" (Acts 6:4), t
 
 ### Memory verses
 
-> ✝️ [Colossians 4:2 (ESV)](https://www.blueletterbible.org/esv/Col/4/2)
+> ✝️ Colossians 4:2 (ESV)
 >
 > 2 Continue steadfastly in prayer, being watchful in it with thanksgiving.
 
-> ✝️ [Philippians 4:6-7 (ESV)](https://www.blueletterbible.org/esv/Php/4/6-7)
+> ✝️ Philippians 4:6-7 (ESV)
 >
 > 6 do not be anxious about anything, but in everything by prayer and supplication with thanksgiving
 > let your requests be made known to God. 7 And the peace of God, which surpasses all understanding,

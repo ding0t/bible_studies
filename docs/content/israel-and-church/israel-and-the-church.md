@@ -56,15 +56,15 @@ branches grafted back "into their own olive tree" (11:24).
 
 ### Memory verses
 
-> ✝️ [Romans 11:29 (ESV)](https://www.blueletterbible.org/esv/Rom/11/29)
+> ✝️ Romans 11:29 (ESV)
 >
 > 29 For the gifts and the calling of God are irrevocable.
 
-> ✝️ [1 Corinthians 10:32 (ESV)](https://www.blueletterbible.org/esv/1Co/10/32)
+> ✝️ 1 Corinthians 10:32 (ESV)
 >
 > 32 Give no offense to Jews or to Greeks or to the church of God,
 
-> ✝️ [Ephesians 2:19 (ESV)](https://www.blueletterbible.org/esv/Eph/2/19)
+> ✝️ Ephesians 2:19 (ESV)
 >
 > 19 So then you are no longer strangers and aliens, but you are fellow citizens with the saints and
 > members of the household of God,

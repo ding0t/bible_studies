@@ -6,7 +6,7 @@ tags: ["status/investigation", "demons", "spiritual-warfare", "ministry", "metho
 draft: false
 bible_references: ["Matthew 12:43-44", "Matthew 12:28", "Ephesians 1:14", "1 Peter 2:9", "1 Corinthians 3:23", "1 John 4:4", "2 Corinthians 5:17-18", "Colossians 1:12-13", "1 Corinthians 6:19-20", "1 Corinthians 6:17", "Mark 5:12", "1 Corinthians 12:1-11", "John 10:20-21", "2 Corinthians 12:7", "James 4:7"]
 date_created: 2024-04-23
-date_modified: 2026-09-13
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-4.8
   - anthropic/claude-opus-5
@@ -77,7 +77,7 @@ accusation. It shows the term describes a claim about someone's state, made by a
 than a fixed clinical category with agreed boundaries.
 
 The clearest data point is a contrast. Paul describes being tormented by a "messenger of Satan" in
-[2 Corinthians 12:7 (ESV)](https://www.blueletterbible.org/esv/2Co/12/7). The verb he reaches for is
+2 Corinthians 12:7 (ESV). The verb he reaches for is
 **κολαφίζω** (*kolaphizō*, "to buffet, strike, harass"), the same word used of Jesus being struck
 during His trial. He does not reach for δαιμονίζομαι. Scripture had the vocabulary to describe a
 believer under demonic attack, right there, in a passage about an apostle. It uses a different word
@@ -85,8 +85,8 @@ entirely.
 
 **Conclusion.** δαιμονίζομαι is Gospel-era vocabulary. It describes those outside the community of
 Jesus' followers, whom He heals as evidence of His authority over the kingdom of darkness. "If it is
-by the Spirit of God that I cast out demons, then the kingdom of God has come upon you", [Matthew
-12:28 (ESV)](https://www.blueletterbible.org/esv/Mat/12/28)). It never appears applied to a
+by the Spirit of God that I cast out demons, then the kingdom of God has come upon you", Matthew
+12:28, ESV). It never appears applied to a
 believer, anywhere in Scripture. The one time Scripture does describe a believer under demonic
 harassment, it deliberately uses different language. The word's own usage does not support a claim
 that "demonized" is a distinct, lesser, believer-compatible condition. That is a redefinition
@@ -108,7 +108,7 @@ Deliverance ministry distinguishes "demonized" from "possessed," but functionall
 
 *There is a place made in a person for the Holy Spirit — but when left empty, it is a place a demon can occupy instead.*
 
-> ✝️ [Matthew 12:43-44 (ESV)](https://www.blueletterbible.org/esv/Mat/12/43-44)
+> ✝️ Matthew 12:43-44 (ESV)
 >
 > 43 "When the unclean spirit has gone out of a person, it passes through waterless places seeking rest, but finds none. 44 Then it says, 'I will return to my house from which I came.' And when it comes, it finds the house empty, swept, and put in order."
 
@@ -117,15 +117,15 @@ empty, swept house is an invitation.
 
 ### We are God's possession
 
-> ✝️ [Ephesians 1:14 (ESV)](https://www.blueletterbible.org/esv/Eph/1/14)
+> ✝️ Ephesians 1:14 (ESV)
 >
 > 14 who is the guarantee of our inheritance until we acquire possession of it, to the praise of his glory.
 
-> ✝️ [1 Peter 2:9 (ESV)](https://www.blueletterbible.org/esv/1Pe/2/9)
+> ✝️ 1 Peter 2:9 (ESV)
 >
 > 9 But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light.
 
-> ✝️ [1 Corinthians 3:23 (ESV)](https://www.blueletterbible.org/esv/1Co/3/23)
+> ✝️ 1 Corinthians 3:23 (ESV)
 >
 > 23 and you are Christ's, and Christ is God's.
 
@@ -133,19 +133,19 @@ empty, swept house is an invitation.
 
 *Know the Spirit who is in you, against the spirit of the world.*
 
-> ✝️ [1 John 4:4 (ESV)](https://www.blueletterbible.org/esv/1Jo/4/4)
+> ✝️ 1 John 4:4 (ESV)
 >
 > 4 Little children, you are from God and have overcome them, for he who is in you is greater than he who is in the world.
 
 *We are a new creation.*
 
-> ✝️ [2 Corinthians 5:17-18 (ESV)](https://www.blueletterbible.org/esv/2Co/5/17-18)
+> ✝️ 2 Corinthians 5:17-18 (ESV)
 >
 > 17 Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come. 18 All this is from God, who through Christ reconciled us to himself and gave us the ministry of reconciliation.
 
 ### We are delivered
 
-> ✝️ [Colossians 1:12-13 (ESV)](https://www.blueletterbible.org/esv/Col/1/12-13)
+> ✝️ Colossians 1:12-13 (ESV)
 >
 > 12 giving thanks to the Father, who has qualified you to share in the inheritance of the saints in light. 13 He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son.
 
@@ -155,13 +155,13 @@ Deliverance, biblically, already happened once for all at conversion. It isn't a
 
 *Not the body.*
 
-> ✝️ [1 Corinthians 6:19-20 (ESV)](https://www.blueletterbible.org/esv/1Co/6/19-20)
+> ✝️ 1 Corinthians 6:19-20 (ESV)
 >
 > 19 Or do you not know that your body is a temple of the Holy Spirit within you, whom you have from God? You are not your own, 20 for you were bought with a price. So glorify God in your body.
 
 *Not the spirit.*
 
-> ✝️ [1 Corinthians 6:17 (ESV)](https://www.blueletterbible.org/esv/1Co/6/17)
+> ✝️ 1 Corinthians 6:17 (ESV)
 >
 > 17 But he who is joined to the Lord becomes one spirit with him.
 
@@ -169,7 +169,7 @@ Deliverance, biblically, already happened once for all at conversion. It isn't a
 physical possession of the pigs, and the spirit's own physical wandering, at the Gerasene demoniac's
 deliverance.*
 
-> ✝️ [Mark 5:12 (ESV)](https://www.blueletterbible.org/esv/Mar/5/12)
+> ✝️ Mark 5:12 (ESV)
 >
 > 12 and they begged him, saying, "Send us to the pigs; let us enter them."
 
@@ -177,7 +177,7 @@ deliverance.*
 
 *These are gifts to edify the church. There is no gift given for exorcising believers.*
 
-> ✝️ [1 Corinthians 12:1-11 (ESV)](https://www.blueletterbible.org/esv/1Co/12/1-11)
+> ✝️ 1 Corinthians 12:1-11 (ESV)
 >
 > Now concerning spiritual gifts, brothers, I do not want you to be uninformed... there are varieties of gifts, but the same Spirit... to another the ability to distinguish between spirits... All these are empowered by one and the same Spirit, who apportions to each one individually as he wills.
 
@@ -200,7 +200,7 @@ for that condition is δαιμονίζομαι. It is Gospel-era vocabulary for 
 believers, and it never once describes someone already in Christ. What Scripture does affirm is that
 a believer can be attacked, harassed, and tempted from the outside (2 Corinthians 12:7). That calls
 for resistance — "Submit yourselves therefore to God. Resist the devil, and he will flee from you"
-([James 4:7 (ESV)](https://www.blueletterbible.org/esv/Jas/4/7)). Deliverance, in the full biblical
+(James 4:7, ESV). Deliverance, in the full biblical
 sense, already happened at the cross. Once for all, for everyone who is in Christ.
 
 ## References

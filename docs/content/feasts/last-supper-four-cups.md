@@ -109,12 +109,12 @@ calls a people His own, means to be with them at His table forever, and that tab
 
 ### Memory verses
 
-> ✝️ [Mark 14:25 (ASV)](https://www.blueletterbible.org/asv/Mar/14/25)
+> ✝️ Mark 14:25 (ASV)
 >
 > 25 Verily I say unto you, I shall no more drink of the fruit of the vine, until that day when I
 > drink it new in the kingdom of God.
 
-> ✝️ [1 Corinthians 11:26 (WEB)](https://www.blueletterbible.org/web/1Co/11/26)
+> ✝️ 1 Corinthians 11:26 (WEB)
 >
 > 26 For as often as you eat this bread and drink this cup, you proclaim the Lord's death until he
 > comes.

@@ -48,7 +48,7 @@ Jesus also treats His own ministry as the moment God's kingdom actually broke in
 
 ### Memory verses
 
-> ✝️ [Matthew 6:9-13 (ESV)](https://www.blueletterbible.org/esv/Mat/6/9-13)
+> ✝️ Matthew 6:9-13 (ESV)
 >
 > 9 Pray then like this: "Our Father in heaven, hallowed be your name.
 > 10 Your kingdom come, your will be done, on earth as it is in heaven.
@@ -56,12 +56,12 @@ Jesus also treats His own ministry as the moment God's kingdom actually broke in
 > 12 and forgive us our debts, as we also have forgiven our debtors.
 > 13 And lead us not into temptation, but deliver us from evil.
 
-> ✝️ [Matthew 6:33 (ESV)](https://www.blueletterbible.org/esv/Mat/6/33)
+> ✝️ Matthew 6:33 (ESV)
 >
 > 33 But seek first the kingdom of God and his righteousness, and all these things will be added
 > to you.
 
-> ✝️ [1 Peter 5:7 (ESV)](https://www.blueletterbible.org/esv/1Pe/5/7)
+> ✝️ 1 Peter 5:7 (ESV)
 >
 > 7 casting all your anxieties on him, because he cares for you.
 

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Proverbs 1-31"
 bible_references: ["Proverbs 1:7", "Proverbs 8:35-36", "Proverbs 9:10", "Proverbs 10:16-17", "Proverbs 11:16", "Proverbs 11:22", "Proverbs 11:28", "Proverbs 15:4", "Proverbs 15:28", "Proverbs 15:31", "Proverbs 16:20", "Proverbs 20:24", "Psalm 37:23", "Psalm 139:1-12", "Isaiah 55:9", "Deuteronomy 31:8", "Romans 8:28"]
 date_created: 2026-09-20
-date_modified: 2026-09-20
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -38,7 +38,7 @@ out of here, and only one of them ends in life.
 
 ### Proverbs 1 — the way of the righteous and the wicked
 
-> ✝️ [Proverbs 1:7 (ESV)](https://www.blueletterbible.org/esv/Pro/1/7)
+> ✝️ Proverbs 1:7 (ESV)
 >
 > 7 The fear of the LORD is the beginning of knowledge; fools despise wisdom and instruction.
 
@@ -49,7 +49,7 @@ out of here, and only one of them ends in life.
 
 ### Proverbs 8 — the blessings of wisdom
 
-> ✝️ [Proverbs 8:35-36 (ESV)](https://www.blueletterbible.org/esv/Pro/8/35-36)
+> ✝️ Proverbs 8:35-36 (ESV)
 >
 > 35 For whoever finds me finds life and obtains favor from the LORD, 36 but he who fails to find me
 > injures himself; all who hate me love death.
@@ -60,7 +60,7 @@ out of here, and only one of them ends in life.
 
 ### Proverbs 9 — the way of wisdom
 
-> ✝️ [Proverbs 9:10 (ESV)](https://www.blueletterbible.org/esv/Pro/9/10)
+> ✝️ Proverbs 9:10 (ESV)
 >
 > 10 The fear of the LORD is the beginning of wisdom, and the knowledge of the Holy One is insight.
 
@@ -75,7 +75,7 @@ From chapter 10 the pleading gives way to the sayings themselves, two lines at a
 
 ### Proverbs 10 — the path to life runs through correction
 
-> ✝️ [Proverbs 10:16-17 (ESV)](https://www.blueletterbible.org/esv/Pro/10/16-17)
+> ✝️ Proverbs 10:16-17 (ESV)
 >
 > 16 The wage of the righteous leads to life, the gain of the wicked to sin. 17 Whoever heeds
 > instruction is on the path to life, but he who rejects reproof leads others astray.
@@ -87,21 +87,21 @@ From chapter 10 the pleading gives way to the sayings themselves, two lines at a
 
 Three verses in this chapter set worldly appearance against what God actually honours.
 
-> ✝️ [Proverbs 11:22 (ESV)](https://www.blueletterbible.org/esv/Pro/11/22)
+> ✝️ Proverbs 11:22 (ESV)
 >
 > 22 Like a gold ring in a pig's snout is a beautiful woman without discretion.
 
 - Such a contrast to the godly woman of Proverbs 31.
 - Do not be deceived by outward appearances.
 
-> ✝️ [Proverbs 11:16 (ESV)](https://www.blueletterbible.org/esv/Pro/11/16)
+> ✝️ Proverbs 11:16 (ESV)
 >
 > 16 A gracious woman gets honor, and violent men get riches.
 
 - A sound counterpart to verse 22: the gracious woman is honoured, and godly honour is implied.
 - Violence may appear to bring riches, but they are worldly and rotten beside that honour.
 
-> ✝️ [Proverbs 11:28 (ESV)](https://www.blueletterbible.org/esv/Pro/11/28)
+> ✝️ Proverbs 11:28 (ESV)
 >
 > 28 Whoever trusts in his riches will fall, but the righteous will flourish like a green leaf.
 
@@ -111,19 +111,19 @@ Three verses in this chapter set worldly appearance against what God actually ho
 
 ### Proverbs 15 — the wise tongue and the wise ear
 
-> ✝️ [Proverbs 15:4 (ESV)](https://www.blueletterbible.org/esv/Pro/15/4)
+> ✝️ Proverbs 15:4 (ESV)
 >
 > 4 A gentle tongue is a tree of life, but perverseness in it breaks the spirit.
 
 The ESV footnotes "gentle" here as *healing* — the tongue that mends rather than the tongue that
 merely softens.
 
-> ✝️ [Proverbs 15:28 (ESV)](https://www.blueletterbible.org/esv/Pro/15/28)
+> ✝️ Proverbs 15:28 (ESV)
 >
 > 28 The heart of the righteous ponders how to answer, but the mouth of the wicked pours out evil
 > things.
 
-> ✝️ [Proverbs 15:31 (ESV)](https://www.blueletterbible.org/esv/Pro/15/31)
+> ✝️ Proverbs 15:31 (ESV)
 >
 > 31 The ear that listens to life-giving reproof will dwell among the wise.
 
@@ -134,7 +134,7 @@ to instruction and reproof.
 
 ### Proverbs 16 — the most excellent way
 
-> ✝️ [Proverbs 16:20 (ESV)](https://www.blueletterbible.org/esv/Pro/16/20)
+> ✝️ Proverbs 16:20 (ESV)
 >
 > 20 Whoever gives thought to the word will discover good, and blessed is he who trusts in the LORD.
 
@@ -146,7 +146,7 @@ to instruction and reproof.
 
 ### Proverbs 20 — how can I understand my way?
 
-> ✝️ [Proverbs 20:24 (ESV)](https://www.blueletterbible.org/esv/Pro/20/24)
+> ✝️ Proverbs 20:24 (ESV)
 >
 > 24 A man's steps are from the LORD; how then can man understand his way?
 
@@ -157,11 +157,11 @@ to instruction and reproof.
 
 Cross-references worth reading alongside it:
 
-- ✝️ [Psalm 37:23 (ESV)](https://www.blueletterbible.org/esv/Psa/37/23) — the steps of a man are
+- ✝️ Psalm 37:23 (ESV) — the steps of a man are
   established by the LORD
-- ✝️ [Isaiah 55:9 (ESV)](https://www.blueletterbible.org/esv/Isa/55/9) — His ways higher than ours
-- ✝️ [Deuteronomy 31:8 (ESV)](https://www.blueletterbible.org/esv/Deu/31/8) — He goes before you
-- ✝️ [Psalm 139:1-12 (ESV)](https://www.blueletterbible.org/esv/Psa/139/1-12) — He knows the way
+- ✝️ Isaiah 55:9 (ESV) — His ways higher than ours
+- ✝️ Deuteronomy 31:8 (ESV) — He goes before you
+- ✝️ Psalm 139:1-12 (ESV) — He knows the way
   before you walk it
-- ✝️ [Romans 8:28 (ESV)](https://www.blueletterbible.org/esv/Rom/8/28) — He works it together for
+- ✝️ Romans 8:28 (ESV) — He works it together for
   good

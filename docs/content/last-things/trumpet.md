@@ -39,12 +39,12 @@ A trumpet blast is never incidental in Scripture. From the thunder at Sinai to t
 
 ### Memory verses
 
-> ✝️ [1 Corinthians 15:52 (ESV)](https://www.blueletterbible.org/esv/1Co/15/52)
+> ✝️ 1 Corinthians 15:52 (ESV)
 >
 > 52 In a moment, in the twinkling of an eye, at the last trumpet. For the trumpet will sound, and
 > the dead will be raised imperishable, and we shall be changed.
 
-> ✝️ [Revelation 11:15 (ESV)](https://www.blueletterbible.org/esv/Rev/11/15)
+> ✝️ Revelation 11:15 (ESV)
 >
 > 15 Then the seventh angel blew his trumpet, and there were loud voices in heaven, saying, "The
 > kingdom of the world has become the kingdom of our Lord and of his Christ, and he shall reign

@@ -126,20 +126,20 @@ someone in real need this week reaches Him, and so does what you decide not to b
 
 ### Memory verses
 
-> ✝️ [Matthew 25:13 (ESV)](https://www.blueletterbible.org/esv/Mat/25/13)
+> ✝️ Matthew 25:13 (ESV)
 >
 > 13 Watch therefore, for you know neither the day nor the hour.
 
 See [The Ten Virgins](#the-ten-virgins-251-13).
 
-> ✝️ [Matthew 25:21 (ESV)](https://www.blueletterbible.org/esv/Mat/25/21)
+> ✝️ Matthew 25:21 (ESV)
 >
 > 21 Well done, good and faithful servant. You have been faithful over a little; I will set you
 > over much.
 
 See [The Talents](#the-talents-2514-30).
 
-> ✝️ [Matthew 25:40 (ESV)](https://www.blueletterbible.org/esv/Mat/25/40)
+> ✝️ Matthew 25:40 (ESV)
 >
 > 40 Truly, I say to you, as you did it to one of the least of these my brothers, you did it to
 > me.

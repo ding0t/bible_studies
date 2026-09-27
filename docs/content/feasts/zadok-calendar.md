@@ -6,7 +6,7 @@ tags: ["zadok", "calendar", "dead-sea-scrolls", "enoch", "jubilees", "chronology
 draft: false
 bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticus 25:8-13", "2 Samuel 8:17", "1 Kings 2:35", "Ezekiel 44:15", "Daniel 9:24-27"]
 date_created: 2026-07-19
-date_modified: 2026-09-20
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -30,7 +30,7 @@ the week from year to year.
 
 On this reckoning, 1 Abib/Nisan — New Year's Day — always falls on a Wednesday, the day the sun,
 moon, and stars ("the greater and lesser lights") were placed in the sky to mark seasons, days, and
-years in the first place ([Genesis 1:14-19 (ESV)](https://www.blueletterbible.org/esv/Gen/1/14-19)).
+years in the first place (Genesis 1:14-19, ESV).
 A solar calendar anchored on the day the sun itself was created is a deliberate feature.
 
 364 days runs about a day and a quarter short of the true solar year. So the system periodically
@@ -48,9 +48,9 @@ dsscalendar.org's own reckoning. A lunisolar calendar instead makes monthly luna
 
 ## Why "Zadok"
 
-Zadok was the high priest under David and Solomon ([2 Samuel 8:17 (ESV)](https://www.blueletterbible.org/esv/2Sa/8/17); [1 Kings 2:35 (ESV)](https://www.blueletterbible.org/esv/1Ki/2/35)), and his descendants became the standard by which later Scripture measures a faithful priesthood. 
+Zadok was the high priest under David and Solomon (2 Samuel 8:17; 1 Kings 2:35, ESV), and his descendants became the standard by which later Scripture measures a faithful priesthood. 
 
-When Ezekiel is shown the future temple, it's specifically "the sons of Zadok" who are named as the priests who stayed faithful and will minister there ([Ezekiel 44:15 (ESV)](https://www.blueletterbible.org/esv/Eze/44/15)). 
+When Ezekiel is shown the future temple, it's specifically "the sons of Zadok" who are named as the priests who stayed faithful and will minister there (Ezekiel 44:15, ESV). 
 
 Centuries later, the community behind the Dead Sea Scrolls at Qumran identified itself with that
 same Zadokite priestly line. It rejected the calendar kept by the Hasmonean-controlled priesthood
@@ -67,14 +67,14 @@ The community also read its own history and future through a much larger version
 pattern: [1 Enoch 91-93](https://dsscalendar.org/e/), the "Apocalypse of Weeks," divides all of
 history into ten 700-year "weeks." That is 7,000 years from creation to a new creation.
 dsscalendar.org organizes its own material around the same framework, with its "Onah" as a 500-year
-subdivision of that scheme. It is also the shape of this site's own reading of [2 Peter
-3:8](https://www.blueletterbible.org/esv/2Pe/3/8) in [The Day is Near](../last-things/day-is-
+subdivision of that scheme. It is also the shape of this site's own reading of 2 Peter
+3:8 in [The Day is Near](../last-things/day-is-
 near.md#when-is-the-year-6000) — six 1,000-year "days" of ordinary history followed by a seventh,
 sabbath-rest millennium.
 
-Nested inside that larger scheme are ordinary Sabbatical (7-year, [Leviticus
-25:1-7](https://www.blueletterbible.org/esv/Lev/25/1-7)) and Jubilee (50-year, [Leviticus 25:8-13
-(ESV)](https://www.blueletterbible.org/esv/Lev/25/8-13)) cycles. The calendar is the scaffolding the
+Nested inside that larger scheme are ordinary Sabbatical (7-year, Leviticus
+25:1-7) and Jubilee (50-year, Leviticus 25:8-13,
+ESV) cycles. The calendar is the scaffolding the
 whole chronology runs on, well beyond a way of tracking days. dsscalendar.org even ties a specific
 messianic claim to that scaffolding. It reads 11Q13, the Melchizedek scroll, as placing the
 Messiah's death exactly one Shemittah after the ninth Jubilee of its scheme.
@@ -83,10 +83,10 @@ Messiah's death exactly one Shemittah after the ninth Jubilee of its scheme.
 
 A few reasons this calendar, rather than the standard rabbinic one, is the one behind this site's `zadok_year` dating:
 
-- **It's priestly, and the calendar was a priestly responsibility.** Israel's priests were the ones charged with tracking the sacred calendar (the priestly courses of [1 Chronicles 24](https://www.blueletterbible.org/esv/1Ch/24/1) presuppose exactly this kind of fixed, calculable rotation) — and it's the Zadokite line Scripture itself names as the one that stayed faithful.
-- **It matches Israel's "appointed times" more naturally.** The feasts of [Leviticus 23 (ESV)](https://www.blueletterbible.org/esv/Lev/23/4) are called *moedim* — fixed, appointed times — and a calendar where every feast lands on the same weekday every single year fits that language more naturally than one where the date has to be recalculated and can shift.
+- **It's priestly, and the calendar was a priestly responsibility.** Israel's priests were the ones charged with tracking the sacred calendar (the priestly courses of 1 Chronicles 24 presuppose exactly this kind of fixed, calculable rotation) — and it's the Zadokite line Scripture itself names as the one that stayed faithful.
+- **It matches Israel's "appointed times" more naturally.** The feasts of Leviticus 23 (ESV) are called *moedim* — fixed, appointed times — and a calendar where every feast lands on the same weekday every single year fits that language more naturally than one where the date has to be recalculated and can shift.
 - **It's what the community closest to the Hebrew text of Scripture used.** The Qumran community preserved the Old Testament with remarkable textual fidelity (see [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md)) and used this calendar as a matter of course — that's not proof by itself, but it's real evidence about what calendar was in live use by people steeped in the text, not a later rabbinic innovation.
-- **It's the calendar the numbers in Daniel and the Apocalypse of Weeks actually run on.** A fixed 364-day/7-year/50-year nested structure is exactly what a chronology of "weeks" of years — Daniel's seventy weeks ([Daniel 9:24-27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/24-27)) among them — needs to work as clean arithmetic, without the extra lunar leap-month adjustments a lunisolar calendar requires.
+- **It's the calendar the numbers in Daniel and the Apocalypse of Weeks actually run on.** A fixed 364-day/7-year/50-year nested structure is exactly what a chronology of "weeks" of years — Daniel's seventy weeks (Daniel 9:24-27, ESV) among them — needs to work as clean arithmetic, without the extra lunar leap-month adjustments a lunisolar calendar requires.
 
 I'll say plainly: this is not the calendar most of modern Judaism or most Christian scholarship uses today, and treating it as settled is overclaiming — it's a minority, largely Second-Temple-sectarian reconstruction, not a consensus position. I use it because the case above persuades me, and because it's the framework the rest of this site's `zadok_year`/`gregorian_year` dating and the [Prophetic Timeline](../../timeline/) tool are already built on.
 

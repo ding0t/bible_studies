@@ -48,12 +48,12 @@ days.
 
 ### Memory verses
 
-> ✝️ [Psalm 90:2 (ESV)](https://www.blueletterbible.org/esv/Psa/90/2)
+> ✝️ Psalm 90:2 (ESV)
 >
 > 2 Before the mountains were brought forth, or ever you had formed the earth and the world, from
 > everlasting to everlasting you are God.
 
-> ✝️ [Psalm 90:12 (ESV)](https://www.blueletterbible.org/esv/Psa/90/12)
+> ✝️ Psalm 90:12 (ESV)
 >
 > 12 So teach us to number our days that we may get a heart of wisdom.
 

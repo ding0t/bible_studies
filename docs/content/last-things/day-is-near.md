@@ -40,17 +40,17 @@ John opens Revelation by pronouncing a blessing on the reader before a single se
 
 ### Memory verses
 
-> ✝️ [2 Peter 3:8 (ESV)](https://www.blueletterbible.org/esv/2Pe/3/8)
+> ✝️ 2 Peter 3:8 (ESV)
 >
 > 8 But do not overlook this one fact, beloved, that with the Lord one day is as a thousand years,
 > and a thousand years as one day.
 
-> ✝️ [Mark 13:32 (ESV)](https://www.blueletterbible.org/esv/Mar/13/32)
+> ✝️ Mark 13:32 (ESV)
 >
 > 32 But concerning that day or that hour, no one knows, not even the angels in heaven, nor the
 > Son, but only the Father.
 
-> ✝️ [James 5:7 (ESV)](https://www.blueletterbible.org/esv/Jas/5/7)
+> ✝️ James 5:7 (ESV)
 >
 > 7 Be patient, therefore, brothers, until the coming of the Lord. See how the farmer waits for the
 > precious fruit of the earth, being patient about it, until it receives the early and the late

@@ -67,12 +67,12 @@ crowd's identification is right.
 
 ### Memory verses
 
-> ✝️ [John 6:35 (ESV)](https://www.blueletterbible.org/esv/Joh/6/35)
+> ✝️ John 6:35 (ESV)
 >
 > Jesus said to them, "I am the bread of life; whoever comes to me shall not hunger, and whoever
 > believes in me shall never thirst."
 
-> ✝️ [John 6:26-27 (ESV)](https://www.blueletterbible.org/esv/Joh/6/26-27)
+> ✝️ John 6:26-27 (ESV)
 >
 > Jesus answered them, "Truly, truly, I say to you, you are seeking me, not because you saw signs, but
 > because you ate your fill of the loaves. Do not work for the food that perishes, but for the food

@@ -52,12 +52,12 @@ lives show the same God acting the same way long before.
 
 ### Memory verses
 
-> ✝️ [Hebrews 11:5 (ESV)](https://www.blueletterbible.org/esv/Heb/11/5)
+> ✝️ Hebrews 11:5 (ESV)
 >
 > 5 By faith Enoch was taken up so that he should not see death, and he was not found, because God had
 > taken him. Now before he was taken he was commended as having pleased God.
 
-> ✝️ [2 Peter 2:9 (ESV)](https://www.blueletterbible.org/esv/2Pe/2/9)
+> ✝️ 2 Peter 2:9 (ESV)
 >
 > 9 then the Lord knows how to rescue the godly from trials, and to keep the unrighteous under
 > punishment until the day of judgment,
@@ -125,9 +125,8 @@ was taken he was commended as having pleased God" (Hebrews 11:5, ESV).
 
 "Took" is <span dir="rtl">לָקַח</span> (*lāqach*, Strong's H3947), the ordinary verb for taking or
 fetching. It is the same verb Scripture uses for Elijah's departure (2 Kings 2:3, 5, 9, 10), and for
-the psalmists' hope beyond death: "for he will receive me" ([Psalm 49:15
-(ESV)](https://www.blueletterbible.org/esv/Psa/49/15)), and "afterward you will receive me to glory"
-([Psalm 73:24 (ESV)](https://www.blueletterbible.org/esv/Psa/73/24)). The ESV renders
+the psalmists' hope beyond death: "for he will receive me" (Psalm 49:15, ESV), and "afterward you will receive me to glory"
+(Psalm 73:24, ESV). The ESV renders
 <span dir="rtl">לָקַח</span> "took" in Genesis and "receive" in both psalms, so the thread joining
 Enoch, Elijah and the psalmists is one an English reader cannot see without checking the underlying
 word. Hebrews uses μετατίθημι (*metatithēmi*, meh-ta-TEE-thay-mee, G3346), "transfer," twice in one
@@ -150,9 +149,8 @@ with those who walk with Him, and that death does not get the last word over the
 ## Noah: preserved through the judgment
 
 Noah is a different pattern. "Go into the ark, you and all your household, for I have seen that you
-are righteous before me in this generation" ([Genesis 7:1 (ESV)](https://www.blueletterbible.org/esv/Gen/7/1)).
-He and his family go *into* the flood, and "the LORD shut him in" ([Genesis 7:16
-(ESV)](https://www.blueletterbible.org/esv/Gen/7/16)). They come out the other side. Peter's word is
+are righteous before me in this generation" (Genesis 7:1, ESV).
+He and his family go *into* the flood, and "the LORD shut him in" (Genesis 7:16, ESV). They come out the other side. Peter's word is
 "preserved": God "did not spare the ancient world, but preserved Noah, a herald of righteousness, with
 seven others" (2 Peter 2:5, ESV). The verb is φυλάσσω (*phylassō*, fee-LAS-soh, G5442), to guard.
 
@@ -172,8 +170,7 @@ faithful to both of His peoples, and saves each in the way He has promised.
 
 Genesis records the angels dragging Lot, his wife and his daughters out of Sodom because Lot himself
 hesitated: "But he lingered. So the men seized him and his wife and his two daughters by the hand, the
-LORD being merciful to him, and they brought him out and set him outside the city" ([Genesis 19:16
-(ESV)](https://www.blueletterbible.org/esv/Gen/19/16)). Then the angel says something that governs
+LORD being merciful to him, and they brought him out and set him outside the city" (Genesis 19:16, ESV). Then the angel says something that governs
 the whole scene: "Escape there quickly, for I can do nothing till you arrive there" (Genesis 19:22,
 ESV). The judgment is ready, and it waits. Lot reaches Zoar, and only then: "Then the LORD rained on Sodom and Gomorrah sulfur and fire from the
 LORD out of heaven" (19:24, ESV).
@@ -190,7 +187,7 @@ Peter names Noah and Lot together as one argument. The *ESV Study Bible* describ
 an argument from the lesser to the greater, written to assure a church troubled by false teachers:
 if God did these things, He will do the greater thing. The conclusion is general: "the Lord knows how
 to rescue the godly from trials, and to keep the unrighteous under punishment until the day of
-judgment" ([2 Peter 2:9 (ESV)](https://www.blueletterbible.org/esv/2Pe/2/9)).
+judgment" (2 Peter 2:9, ESV).
 
 Peter uses two verbs. God "preserved" Noah (φυλάσσω, 2:5) and "rescued" Lot (ῥύομαι, *rhyomai*,
 HROO-oh-my, G4506, 2:7). The rescuing verb is the one Paul uses of Jesus: "Jesus who delivers us from
@@ -206,7 +203,7 @@ favour.
 
 Where Enoch's departure is quiet, Elijah's is public: "as they still went on and talked, behold,
 chariots of fire and horses of fire separated the two of them. And Elijah went up by a whirlwind into
-heaven" ([2 Kings 2:11 (ESV)](https://www.blueletterbible.org/esv/2Ki/2/11)), in full view of
+heaven" (2 Kings 2:11, ESV), in full view of
 Elisha. Elisha had been told the condition: "If you see me as I am being taken from you" (2:10, ESV),
 <span dir="rtl">לֻקָּח</span>, the passive of <span dir="rtl">לָקַח</span>.
 

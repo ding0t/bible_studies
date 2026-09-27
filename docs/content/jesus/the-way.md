@@ -55,12 +55,12 @@ preparing a road for someone else to walk.
 
 ### Memory verses
 
-> ✝️ [John 14:6 (ESV)](https://www.blueletterbible.org/esv/Joh/14/6)
+> ✝️ John 14:6 (ESV)
 >
 > 6 Jesus said to him, "I am the way, and the truth, and the life. No one comes to the Father
 > except through me."
 
-> ✝️ [Acts 24:14 (ESV)](https://www.blueletterbible.org/esv/Act/24/14)
+> ✝️ Acts 24:14 (ESV)
 >
 > 14 But this I confess to you, that according to the Way, which they call a sect, I worship the
 > God of our fathers, believing everything laid down by the Law and written in the Prophets.

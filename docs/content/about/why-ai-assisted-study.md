@@ -5,7 +5,7 @@ description: "How AI is used to research and draft the studies on this site: wha
 tags: ["ai", "study-method", "transparency"]
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-09-07
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -58,7 +58,7 @@ been the best part of this. Connections I would never have found unaided are now
 |---|---|---|
 | **Hallucination** — a fabricated lexical claim, a misquoted verse, a citation to a work that doesn't exist | This is the headline failure mode of language models, and in a Bible study it is not a small error — it is putting words in God's mouth | Research is **grounded in structured Bible databases held in this repo** — original-language text, morphology, Strong's, semantic domains, cross-references, drawn from open-licensed scholarly sources. A language claim has to resolve to a real entry in a real dataset. It is not permitted to come from recollection |
 | **Fluent, confident, wrong** | Machine-generated prose *sounds* authoritative regardless of whether it is correct. Smoothness is not accuracy | Every substantive claim carries a citation, and translations are always named. An untraceable claim is a defect in the page |
-| **Agreement bias** | These tools lean toward building the case you asked for. Ask leadingly and you'll get a confident yes | The study method runs exegesis *before* conclusions and requires the counter-case to be sought. "The one who states his case first seems right, until the other comes and examines him" ([Proverbs 18:17 (ESV)](https://www.blueletterbible.org/esv/Pro/18/17)) |
+| **Agreement bias** | These tools lean toward building the case you asked for. Ask leadingly and you'll get a confident yes | The study method runs exegesis *before* conclusions and requires the counter-case to be sought. "The one who states his case first seems right, until the other comes and examines him" (Proverbs 18:17, ESV) |
 | **Doctrinal flattening** | A model's instincts reflect whatever is most common in its training data, which drifts toward a vague consensus and away from any defined position | Studies are written from a stated position, not a model's default. See the [Statement of Faith](statement-of-faith.md); interpretive commitments are declared up front rather than absorbed silently |
 | **Mishandling others' work** | Scholarship is someone's labour, and lifting it wholesale is theft whoever does the typing | Sources are partitioned by licence. Open-licensed data is used and quoted freely; commercial reference works are cited by name with short, attributed quotations only, never reproduced at length |
 
@@ -155,9 +155,9 @@ the navigation. Volume is not the goal.
 
 **It does not replace prayerful, thoughtful study.** AI speeds up the research; it cannot do the part
 that matters. "Open my eyes, that I may behold wondrous things out of your law"
-([Psalm 119:18 (ESV)](https://www.blueletterbible.org/esv/Psa/119/18)) is not a database query. The
+(Psalm 119:18, ESV) is not a database query. The
 Spirit of truth is the one who guides into truth
-([John 16:13 (ESV)](https://www.blueletterbible.org/esv/Joh/16/13)) — a machine retrieves, He teaches.
+(John 16:13, ESV) — a machine retrieves, He teaches.
 
 **It has no spiritual authority.** AI is not converted, not indwelt, not accountable to anyone, and
 has no discernment — only pattern. It cannot pray, cannot be convicted of sin, and cannot be taught
@@ -175,11 +175,11 @@ sitting with it stays mine, and so does the working out of what it demands.
 ## Checking the work
 
 The Bereans were commended for checking the Apostle Paul himself against the text
-([Acts 17:11 (ESV)](https://www.blueletterbible.org/esv/Act/17/11) — "examining the Scriptures daily
+(Acts 17:11 (ESV) — "examining the Scriptures daily
 to see if these things were so"). If Paul's teaching was fair game for verification, so is this.
 
 **Test everything; hold fast what is good**
-([1 Thessalonians 5:21 (ESV)](https://www.blueletterbible.org/esv/1Th/5/21)). The citations on these
+(1 Thessalonians 5:21, ESV). The citations on these
 studies are there to be followed. If something is wrong,
 [tell me](https://github.com/ding0t/bible_studies/issues).
 
@@ -191,5 +191,5 @@ very good at retrieval and utterly incapable of faith.
 ## Resources
 
 - [AI’s Usefulness and Its Dangers for Preachers, The Gospel Coalition, 2025-10-14](https://www.thegospelcoalition.org/article/ai-usefulness-dangers-preachers/)
-    - [2 Timothy 2:14 (ESV)](https://www.blueletterbible.org/esv/2Ti/2/14)
+    - 2 Timothy 2:14 (ESV)
 

@@ -40,12 +40,12 @@ was to make God's word doubtful.
 
 ### Memory verses
 
-> ✝️ [John 8:31-32 (ESV)](https://www.blueletterbible.org/esv/Jhn/8/31-32)
+> ✝️ John 8:31-32 (ESV)
 >
 > 31 So Jesus said to the Jews who had believed him, "If you abide in my word, you are truly my
 > disciples, 32 and you will know the truth, and the truth will set you free."
 
-> ✝️ [John 17:17 (ESV)](https://www.blueletterbible.org/esv/Jhn/17/17)
+> ✝️ John 17:17 (ESV)
 >
 > 17 Sanctify them in the truth; your word is truth.
 

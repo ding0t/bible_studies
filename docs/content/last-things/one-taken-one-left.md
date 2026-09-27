@@ -50,11 +50,11 @@ coming of the Son of Man" (24:37, ESV). The flood took the world away; "only Noa
 
 ### Memory verses
 
-> ✝️ [Matthew 24:42 (ESV)](https://www.blueletterbible.org/esv/Mat/24/42)
+> ✝️ Matthew 24:42 (ESV)
 >
 > 42 Therefore, stay awake, for you do not know on what day your Lord is coming.
 
-> ✝️ [2 Peter 2:9 (ESV)](https://www.blueletterbible.org/esv/2Pe/2/9)
+> ✝️ 2 Peter 2:9 (ESV)
 >
 > 9 then the Lord knows how to rescue the godly from trials, and to keep the unrighteous under
 > punishment until the day of judgment,

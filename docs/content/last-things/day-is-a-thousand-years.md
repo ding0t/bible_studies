@@ -71,17 +71,17 @@ place in Scripture where the length of that reign is stated.
 
 Three verses in the order the argument runs — the week, the ratio, the rest.
 
-> ✝️ [Genesis 2:3 (ESV)](https://www.blueletterbible.org/esv/Gen/2/3)
+> ✝️ Genesis 2:3 (ESV)
 >
 > 3 So God blessed the seventh day and made it holy, because on it God rested from all his work
 > that he had done in creation.
 
-> ✝️ [2 Peter 3:8 (ESV)](https://www.blueletterbible.org/esv/2Pe/3/8)
+> ✝️ 2 Peter 3:8 (ESV)
 >
 > 8 But do not overlook this one fact, beloved, that with the Lord one day is as a thousand years,
 > and a thousand years as one day.
 
-> ✝️ [Hebrews 4:9 (ESV)](https://www.blueletterbible.org/esv/Heb/4/9)
+> ✝️ Hebrews 4:9 (ESV)
 >
 > 9 So then, there remains a Sabbath rest for the people of God,
 

@@ -51,12 +51,12 @@ not abandoned to Hades, nor did his flesh see corruption" (Acts 2:31).
 
 ### Memory verses
 
-> ✝️ [Matthew 12:40 (ESV)](https://www.blueletterbible.org/esv/Mat/12/40)
+> ✝️ Matthew 12:40 (ESV)
 >
 > 40 For just as Jonah was three days and three nights in the belly of the great fish, so will the
 > Son of Man be three days and three nights in the heart of the earth.
 
-> ✝️ [Revelation 1:18 (ESV)](https://www.blueletterbible.org/esv/Rev/1/18)
+> ✝️ Revelation 1:18 (ESV)
 >
 > 18 and the living one. I died, and behold I am alive forevermore, and I have the keys of Death
 > and Hades.

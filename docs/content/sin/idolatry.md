@@ -5,7 +5,7 @@ description: "Understanding idolatry as a primary sin against God"
 tags: ["idolatry", "doctrine", "repentance"]
 draft: false
 date_created: 2025-04-24
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -15,7 +15,7 @@ ai_provider_models:
 
 Studies exploring the nature of idolatry. The initial question was "Is idolatry the worship of demons?"
 
-> ✝️ [Col 3:5 (ESV)](https://www.blueletterbible.org/esv/Col/3/5)
+> ✝️ Col 3:5 (ESV)
 >
 > 5 Put to death therefore what is earthly in you: sexual immorality, impurity, passion, evil desire, and covetousness, which is idolatry.
 
@@ -27,6 +27,6 @@ is replaced with the emptiness of a thing that we set up as a god that we contro
 
 Our gods are so small they can even be wooden.
 
-> ✝️ [Eze 14:3 (ESV)](https://www.blueletterbible.org/esv/Eze/14/3)
+> ✝️ Eze 14:3 (ESV)
 >
 > 3 "Son of man, these men have taken their idols into their hearts, and set the stumbling block of their iniquity before their faces. Should I indeed let myself be consulted by them?

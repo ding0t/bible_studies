@@ -50,7 +50,7 @@ falls on the Father's prerogative rather than on the Son's limitation.
 
 ### Memory verses
 
-> ✝️ [Acts 1:7 (ESV)](https://www.blueletterbible.org/esv/Act/1/7)
+> ✝️ Acts 1:7 (ESV)
 >
 > 7 He said to them, "It is not for you to know times or seasons that the Father has fixed by his
 > own authority."

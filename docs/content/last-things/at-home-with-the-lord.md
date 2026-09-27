@@ -48,11 +48,11 @@ it.
 
 ### Memory verses
 
-> ✝️ [2 Corinthians 5:8 (ESV)](https://www.blueletterbible.org/esv/2Co/5/8)
+> ✝️ 2 Corinthians 5:8 (ESV)
 >
 > 8 Yes, we are of good courage, and we would rather be away from the body and at home with the Lord.
 
-> ✝️ [Philippians 1:21 (ESV)](https://www.blueletterbible.org/esv/Php/1/21)
+> ✝️ Philippians 1:21 (ESV)
 >
 > 21 For to me to live is Christ, and to die is gain.
 

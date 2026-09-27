@@ -19,7 +19,7 @@ draft: false
 
 !!! quote "Daniels Seventy Weeks"
 
-    ✝️ [Dav 9:24 (ESV)](https://www.blueletterbible.org/esv/Dav/9/24)
+    ✝️ Dan 9:24 (ESV)
     "“Seventy weeks[sevens] are decreed about your people and your holy city, to finish the transgression, to put an end to sin, and to atone for iniquity, to bring in everlasting righteousness, to seal both vision and prophet, and to anoint a most holy place."
     
 
@@ -55,9 +55,9 @@ What attitudes are we taught
 
 Although the Hebrew appears to say seventy seventy at a quick glance. It is two different words.
 
-1. šiḇʿîm [Seventy](https://www.blueletterbible.org/lexicon/h7657/esv/wlc/0-1/)
+1. šiḇʿîm <span data-strongs="H7657">Seventy</span>
     - translated as 'seventy' 58 times, 'three score and x' 33 times
-1. šāḇûaʿ [sevens or weeks](https://www.blueletterbible.org/lexicon/h7620/esv/wlc/0-1/)
+1. šāḇûaʿ <span data-strongs="H7620">sevens or weeks</span>
     - translated 19 times as 'week', 1 time as 'seven'
 
 In this case of prophecy, a week is a week of years, or seven years. 
@@ -65,7 +65,7 @@ So the prophecy refers to 70 lots of seven years.
 
 #### The fulfillment
 
-What is most interesting about this prophecy is the very specific fulfillment of the first 69 weeks. Specifically, where the triumphant entry of Jesus is the exact day prophesied by ✝️ [Dan 9:26 (ESV)](https://www.blueletterbible.org/esv/Dan/9/26) !
+What is most interesting about this prophecy is the very specific fulfillment of the first 69 weeks. Specifically, where the triumphant entry of Jesus is the exact day prophesied by ✝️ Dan 9:26 (ESV) !
 
 #### References
 

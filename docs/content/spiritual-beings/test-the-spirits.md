@@ -5,7 +5,7 @@ description: "Discerning truth from false teaching and testing spiritual claims 
 tags: ["deliverance", "apologetics", "discernment", "doctrine"]
 draft: false
 date_created: 2024-04-24
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -19,7 +19,7 @@ We are to be very careful what teaching we accept.
 
 The book of Jude is wholly dedicated to the matter of contending for the faith. Calling out the false shephersds who deny Christ.
 
-> ✝️ [Jude 1:3-25 (ESV)](https://esv.literalword.com/?q=Jude+1%3A3-25)
+> ✝️ Jude 1:3-25 (ESV)
 >
 > *Judgment on False Teachers*
 >
@@ -41,7 +41,7 @@ The book of Jude is wholly dedicated to the matter of contending for the faith. 
 
 ## A call to test the spirits
 
-> ✝️ [1John 4:1-6 (ESV)](https://esv.literalword.com/?q=1John+4%3A1-6)
+> ✝️ 1 John 4:1-6 (ESV)
 >
 > *Test the Spirits*
 >
@@ -51,7 +51,7 @@ The book of Jude is wholly dedicated to the matter of contending for the faith. 
 
 False prophecies come from a prophets own heart, and from deceiving spirits.
 
-> ✝️ [Ezekiel 13:1-23 (ESV)](https://esv.literalword.com/?q=Ezekiel+13%3A1-23)
+> ✝️ Ezekiel 13:1-23 (ESV)
 >
 > *False Prophets Condemned*
 >

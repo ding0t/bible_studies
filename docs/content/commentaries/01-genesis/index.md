@@ -42,7 +42,7 @@ draft: false
 
 ## Memory verses
 
-> ✝️ [Gen 1:1 (ESV)](https://www.blueletterbible.org/esv/Gen/1/1)
+> ✝️ Gen 1:1 (ESV)
 >
 > 1:1 In the beginning, God created the heavens and the earth.
 >

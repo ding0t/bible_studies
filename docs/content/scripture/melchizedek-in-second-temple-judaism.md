@@ -53,12 +53,12 @@ three, so you can draw near to God through Him.
 
 ### Memory verses
 
-> ✝️ [Psalm 110:4 (ESV)](https://www.blueletterbible.org/esv/Psa/110/4)
+> ✝️ Psalm 110:4 (ESV)
 >
 > 4 The LORD has sworn and will not change his mind, "You are a priest forever after the order of
 > Melchizedek."
 
-> ✝️ [Hebrews 7:25 (ESV)](https://www.blueletterbible.org/esv/Heb/7/25)
+> ✝️ Hebrews 7:25 (ESV)
 >
 > 25 Consequently, he is able to save to the uttermost those who draw near to God through him,
 > since he always lives to make intercession for them.

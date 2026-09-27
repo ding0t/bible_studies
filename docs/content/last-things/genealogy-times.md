@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:35-38", "Ezra 7:1-5", "Ruth 4:18-22", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Acts 13:19-21", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
 date_created: 2026-07-24
-date_modified: 2026-09-20
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -123,9 +123,9 @@ everything downstream.
 
 ### The Cainan question
 
-[Luke 3:36 (ESV)](https://www.blueletterbible.org/esv/Luk/3/36) names a Cainan between Arphaxad
+Luke 3:36 (ESV) names a Cainan between Arphaxad
 and Shelah. MT and SP don't have him; LXX does, with his own full entry (130 years to Shelah's
-birth, 330 more after, 460 total — [Genesis 11:13 LXX](https://www.blueletterbible.org/esv/Gen/11/13)).
+birth, 330 more after, 460 total — Genesis 11:13 LXX).
 This looks at first like Luke following the Greek tradition against the Hebrew, and this study
 previously read it that way. The manuscript evidence points the other direction.
 
@@ -143,7 +143,7 @@ Pseudo-Jonathan, and Codex Bezae.
 fathering ages in Genesis 11, so its whole tendency in this passage is toward the Greek numbers,
 and it still has no Cainan.
 
-**The Septuagint contradicts itself.** [1 Chronicles 1:24](https://www.blueletterbible.org/esv/1Ch/1/24)
+**The Septuagint contradicts itself.** 1 Chronicles 1:24
 runs Arphaxad straight to Shelah with no Cainan, in the Masoretic Text *and* in Brenton's
 Septuagint. A generation present in one Greek book and absent from the Greek parallel is a
 generation with a transmission problem.
@@ -185,9 +185,9 @@ name-giver intended.
 What tips the scales toward the second reading is arithmetic rather than etymology. And the
 arithmetic has to be run separately in each tradition, because the three chains put Methuselah's
 death in three different places relative to the Flood. The Flood itself is fixed the same way in all
-of them: Noah is six hundred when it comes ([Genesis
-7:6](https://www.blueletterbible.org/esv/Gen/7/6),
-[7:11](https://www.blueletterbible.org/esv/Gen/7/11)), so each tradition's Flood year is simply its
+of them: Noah is six hundred when it comes (Genesis
+7:6,
+<span data-ref="Genesis 7:11">7:11</span>), so each tradition's Flood year is simply its
 own Noah's birth year plus 600.
 
 | Tradition | Methuselah born | dies | Flood | Result |
@@ -223,8 +223,8 @@ disagreement about a name's meaning — it's an internal tension inside the text
 itself, and MT and SP resolve it in two structurally different ways.
 
 Genesis 11:26 states Terah was 70 when he fathered Abram (named first, alongside Nahor and Haran —
-birth order not stated). But Genesis 12:4 has Abram leaving Haran at 75, and [Acts 7:4
-(ESV)](https://www.blueletterbible.org/esv/Act/7/4) is explicit that this happened *after* Terah's
+birth order not stated). But Genesis 12:4 has Abram leaving Haran at 75, and Acts 7:4
+(ESV) is explicit that this happened *after* Terah's
 death. Under MT/LXX's stated 205-year total for Terah (born 1876 zadok on MT's own numbers), the
 plain "70 at Abram" reading puts Abram's departure at zadok year 1946+75=2021 — a full 60 years
 *before* Terah actually dies at 2081. That is a real contradiction with Acts 7:4 rather than a
@@ -368,7 +368,7 @@ here.
 
 Genealogical age-data stops at Terah. From here to Solomon, the chronological evidence changes
 character entirely: instead of a systematic formula, Scripture gives one summary figure
-([1 Kings 6:1](https://www.blueletterbible.org/esv/1Ki/6/1): 480 years from the Exodus to
+(1 Kings 6:1: 480 years from the Exodus to
 Solomon's 4th year) and a long list of individual judges' and oppressors' reign-lengths in
 between. Those two kinds of evidence don't agree with each other on a naive reading, and two
 different genealogies, one priestly and one royal, turn out to pull in opposite directions on
@@ -380,44 +380,44 @@ Summing every individually-stated figure in Judges, in the order given:
 
 | Event | Years | Verse |
 | --- | --- | --- |
-| Cushan-Rishathaim oppression | 8 | [Judges 3:8](https://www.blueletterbible.org/esv/Jdg/3/8) |
-| Othniel / land's rest | 40 | [Judges 3:11](https://www.blueletterbible.org/esv/Jdg/3/11) |
-| Eglon (Moab) oppression | 18 | [Judges 3:14](https://www.blueletterbible.org/esv/Jdg/3/14) |
-| Ehud / land's rest | 80 | [Judges 3:30](https://www.blueletterbible.org/esv/Jdg/3/30) |
-| Jabin (Canaan) oppression | 20 | [Judges 4:3](https://www.blueletterbible.org/esv/Jdg/4/3) |
-| Deborah/Barak / land's rest | 40 | [Judges 5:31](https://www.blueletterbible.org/esv/Jdg/5/31) |
-| Midian oppression | 7 | [Judges 6:1](https://www.blueletterbible.org/esv/Jdg/6/1) |
-| Gideon / land's rest | 40 | [Judges 8:28](https://www.blueletterbible.org/esv/Jdg/8/28) |
-| Abimelech | 3 | [Judges 9:22](https://www.blueletterbible.org/esv/Jdg/9/22) |
-| Tola | 23 | [Judges 10:2](https://www.blueletterbible.org/esv/Jdg/10/2) |
-| Jair | 22 | [Judges 10:3](https://www.blueletterbible.org/esv/Jdg/10/3) |
-| Ammon oppression (east, Gilead) | 18 | [Judges 10:8](https://www.blueletterbible.org/esv/Jdg/10/8) |
-| Jephthah | 6 | [Judges 12:7](https://www.blueletterbible.org/esv/Jdg/12/7) |
-| Ibzan | 7 | [Judges 12:9](https://www.blueletterbible.org/esv/Jdg/12/9) |
-| Elon | 10 | [Judges 12:11](https://www.blueletterbible.org/esv/Jdg/12/11) |
-| Abdon | 8 | [Judges 12:14](https://www.blueletterbible.org/esv/Jdg/12/14) |
-| Philistine oppression (west) | 40 | [Judges 13:1](https://www.blueletterbible.org/esv/Jdg/13/1) |
-| Samson (during the Philistine oppression) | 20 | [Judges 15:20](https://www.blueletterbible.org/esv/Jdg/15/20); [16:31](https://www.blueletterbible.org/esv/Jdg/16/31) |
+| Cushan-Rishathaim oppression | 8 | Judges 3:8 |
+| Othniel / land's rest | 40 | Judges 3:11 |
+| Eglon (Moab) oppression | 18 | Judges 3:14 |
+| Ehud / land's rest | 80 | Judges 3:30 |
+| Jabin (Canaan) oppression | 20 | Judges 4:3 |
+| Deborah/Barak / land's rest | 40 | Judges 5:31 |
+| Midian oppression | 7 | Judges 6:1 |
+| Gideon / land's rest | 40 | Judges 8:28 |
+| Abimelech | 3 | Judges 9:22 |
+| Tola | 23 | Judges 10:2 |
+| Jair | 22 | Judges 10:3 |
+| Ammon oppression (east, Gilead) | 18 | Judges 10:8 |
+| Jephthah | 6 | Judges 12:7 |
+| Ibzan | 7 | Judges 12:9 |
+| Elon | 10 | Judges 12:11 |
+| Abdon | 8 | Judges 12:14 |
+| Philistine oppression (west) | 40 | Judges 13:1 |
+| Samson (during the Philistine oppression) | 20 | Judges 15:20; <span data-ref="Judges 16:31">16:31</span> |
 
 That's **410 years** for Judges proper. Now add the rest. The wilderness wandering, 40 years and
-fixed. Roughly 7 years for Joshua's conquest, derived from [Joshua 14:7,
-10](https://www.blueletterbible.org/esv/Jos/14/7): Caleb was 40 at the spies' mission and 85 "45
+fixed. Roughly 7 years for Joshua's conquest, derived from Joshua 14:7,
+10: Caleb was 40 at the spies' mission and 85 "45
 years" later, and 38 of those 45 were the imposed wilderness delay, leaving about 7 for the conquest
-itself. Eli's 40 years judging Israel ([1 Samuel
-4:18](https://www.blueletterbible.org/esv/1Sa/4/18)). An unspecified stretch of Samuel's own
-ministry before the monarchy. Saul's reign. David's 40 ([2 Samuel
-5:4-5](https://www.blueletterbible.org/esv/2Sa/5/4)). And Solomon's 4 years to the temple. The
+itself. Eli's 40 years judging Israel (1 Samuel
+4:18). An unspecified stretch of Samuel's own
+ministry before the monarchy. Saul's reign. David's 40 (2 Samuel
+5:4-5). And Solomon's 4 years to the temple. The
 sequential total comfortably exceeds 480 before Samuel's own years are even counted — by at least
 100 years, likely more. **This is a long-recognized problem, not a new one**, and it has a name in
 the scholarly literature: the "Judges chronology problem."
 
-Saul's own reign-length can't even be read off the Hebrew text as it stands: [1 Samuel
-13:1](https://www.blueletterbible.org/esv/1Sa/13/1) reads, transliterated, "Saul was a son of a
+Saul's own reign-length can't even be read off the Hebrew text as it stands: 1 Samuel
+13:1 reads, transliterated, "Saul was a son of a
 year when he began to reign, and two years he reigned over Israel" — a well-known textual
 lacuna, not a translation choice. A number has dropped out of the Masoretic transmission at
 Saul's age, and "two years" for his whole reign is implausibly short given everything the text
 elsewhere attributes to it. The traditional 40-year figure comes not from Samuel but from
-[Acts 13:21 (ESV)](https://www.blueletterbible.org/esv/Act/13/21), where Paul states it plainly:
+Acts 13:21 (ESV), where Paul states it plainly:
 God "gave them Saul... for forty years." Worth knowing when that number is used: it's patching a
 real gap in the Hebrew manuscript tradition, not resolving an ambiguity within it.
 
@@ -425,13 +425,13 @@ real gap in the Hebrew manuscript tradition, not resolving an ambiguity within i
 
 The standard resolution treats several of these judgeships as **regional rather than national**, and
 therefore overlapping in time rather than strictly sequential. That's not a modern harmonizer's
-convenience — the text says so directly. [Judges 10:7-9
-(ESV)](https://www.blueletterbible.org/esv/Jdg/10/7) states that God "sold them into the hand of the
+convenience — the text says so directly. Judges 10:7-9
+(ESV) states that God "sold them into the hand of the
 Philistines and into the hand of the Ammonites" **in the same breath**, with the Ammonite oppression
 explicitly located "beyond the Jordan... in Gilead" (east) for 18 years, while Philistine pressure
 came from the west. Jephthah, Ibzan, Elon, and Abdon's combined 31 years belong to the eastern,
 Gilead side of that same double-oppression. Samson's 20 years explicitly take place "in the days of
-the Philistines" ([Judges 15:20](https://www.blueletterbible.org/esv/Jdg/15/20)). He judges *during*
+the Philistines" (Judges 15:20). He judges *during*
 the 40-year Philistine oppression. 1 Samuel's own narrative shows Philistine dominance continuing
 well past Samson's death, through Eli's era and into Samuel's early ministry. None of this requires
 inventing an overlap the text doesn't support. It requires taking the text's own geography
@@ -441,8 +441,8 @@ claims to be giving.
 ### Genealogy check #1: the priestly line — broadly consistent with ~480 years
 
 The high priestly line from Aaron to Zadok, David and Solomon's priest, is given twice and
-independently. [1 Chronicles 6:35-38](https://www.blueletterbible.org/esv/1Ch/6/35) gives it, and so
-does [Ezra 7:1-5](https://www.blueletterbible.org/esv/Ezr/7/1), tracing Ezra's own ancestry back to
+independently. 1 Chronicles 6:35-38 gives it, and so
+does Ezra 7:1-5, tracing Ezra's own ancestry back to
 Aaron. The two lists agree exactly: Aaron → Eleazar → Phinehas → Abishua → Bukki → Uzzi → Zerahiah →
 Meraioth → Amariah → Ahitub → Zadok. That's **10 generational steps** from Aaron (who dies in the
 wilderness, so effectively at the Exodus end-point) to Zadok (serving at the very end of David's
@@ -453,10 +453,10 @@ doesn't *prove* 480 years, but it doesn't strain against it either.
 
 ### Genealogy check #2: the Davidic line — in real tension with 480 years
 
-[Ruth 4:18-22](https://www.blueletterbible.org/esv/Rut/4/18) gives David's own ancestry from
+Ruth 4:18-22 gives David's own ancestry from
 Judah's son Perez: Perez → Hezron → Ram → Amminadab → **Nahshon** → Salmon → Boaz → Obed →
-Jesse → David. Nahshon isn't a random name — [Numbers 1:7
-(ESV)](https://www.blueletterbible.org/esv/Num/1/7) names him as the tribal leader of Judah
+Jesse → David. Nahshon isn't a random name — Numbers 1:7
+(ESV) names him as the tribal leader of Judah
 during the wilderness census, firmly placing him in the Exodus generation. From Nahshon to
 David is only **5 generational gaps** (Nahshon-Salmon-Boaz-Obed-Jesse-David). Spread across the
 same 400-480 year span the priestly line tolerates, that's 80-96 years per generation —

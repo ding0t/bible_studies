@@ -51,11 +51,11 @@ again (2 Peter 3:5-7).
 
 ### Memory verses
 
-> ✝️ [Matthew 24:35 (ESV)](https://www.blueletterbible.org/esv/Mat/24/35)
+> ✝️ Matthew 24:35 (ESV)
 >
 > 35 Heaven and earth will pass away, but my words will not pass away.
 
-> ✝️ [2 Peter 3:13 (ESV)](https://www.blueletterbible.org/esv/2Pe/3/13)
+> ✝️ 2 Peter 3:13 (ESV)
 >
 > 13 But according to his promise we are waiting for new heavens and a new earth in which
 > righteousness dwells.

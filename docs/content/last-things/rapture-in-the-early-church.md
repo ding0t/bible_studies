@@ -45,7 +45,7 @@ your hope rests.
 
 ### Memory verses
 
-> ✝️ [1 Thessalonians 4:17-18 (ESV)](https://www.blueletterbible.org/esv/1Th/4/17-18)
+> ✝️ 1 Thessalonians 4:17-18 (ESV)
 >
 > 17 Then we who are alive, who are left, will be caught up together with them in the clouds to meet
 > the Lord in the air, and so we will always be with the Lord. 18 Therefore encourage one another

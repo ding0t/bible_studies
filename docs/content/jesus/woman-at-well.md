@@ -73,12 +73,12 @@ hour when the Father is worshipped neither on Gerizim nor in Jerusalem.
 
 ### Memory verses
 
-> ✝️ [John 4:14 (ESV)](https://www.blueletterbible.org/esv/Joh/4/14)
+> ✝️ John 4:14 (ESV)
 >
 > 14 but whoever drinks of the water that I will give him will never be thirsty again. The water
 > that I will give him will become in him a spring of water welling up to eternal life.
 
-> ✝️ [John 4:23 (ESV)](https://www.blueletterbible.org/esv/Joh/4/23)
+> ✝️ John 4:23 (ESV)
 >
 > 23 But the hour is coming, and is now here, when the true worshipers will worship the Father in
 > spirit and truth, for the Father is seeking such people to worship him.

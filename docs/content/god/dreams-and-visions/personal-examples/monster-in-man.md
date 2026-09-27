@@ -5,7 +5,7 @@ description: "A dream about internal struggle and the human condition"
 tags: ["dreams", "human-nature", "struggle", "april-2008"]
 draft: false
 date_created: 2024-10-06
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -53,6 +53,6 @@ Even knowing the monster-demon had no rule. It was still an overwhelming presenc
 
 ## Scripture
 
-> ✝️ [2Pe 2:9-11 (ESV)](https://www.blueletterbible.org/esv/2Pe/2/9-11)
+> ✝️ 2Pe 2:9-11 (ESV)
 >
 > [2Pe 2:9-11 ESV] 9 then the Lord knows how to rescue the godly from trials, and to keep the unrighteous under punishment until the day of judgment, 10 and especially those who indulge in the lust of defiling passion and despise authority. Bold and willful, they do not tremble as they blaspheme the glorious ones, 11 whereas angels, though greater in might and power, do not pronounce a blasphemous judgment against them before the Lord.

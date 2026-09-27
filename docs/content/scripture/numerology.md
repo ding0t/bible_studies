@@ -46,12 +46,12 @@ about telling those apart.
 
 ### Memory verses
 
-> ✝️ [Deuteronomy 29:29 (ESV)](https://www.blueletterbible.org/esv/Deu/29/29)
+> ✝️ Deuteronomy 29:29 (ESV)
 >
 > 29 The secret things belong to the LORD our God, but the things that are revealed belong to us and
 > to our children forever, that we may do all the words of this law.
 
-> ✝️ [Proverbs 25:2 (ESV)](https://www.blueletterbible.org/esv/Pro/25/2)
+> ✝️ Proverbs 25:2 (ESV)
 >
 > 2 It is the glory of God to conceal things, but the glory of kings is to search things out.
 

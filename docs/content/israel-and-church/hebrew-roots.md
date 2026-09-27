@@ -61,18 +61,18 @@ himself" (Luke 24:27).
 
 ### Memory verses
 
-> ✝️ [Colossians 2:16-17 (ESV)](https://www.blueletterbible.org/esv/Col/2/16-17)
+> ✝️ Colossians 2:16-17 (ESV)
 >
 > 16 Therefore let no one pass judgment on you in questions of food and drink, or with regard to a
 > festival or a new moon or a Sabbath. 17 These are a shadow of the things to come, but the substance
 > belongs to Christ.
 
-> ✝️ [Luke 24:27 (ESV)](https://www.blueletterbible.org/esv/Luk/24/27)
+> ✝️ Luke 24:27 (ESV)
 >
 > 27 And beginning with Moses and all the Prophets, he interpreted to them in all the Scriptures the
 > things concerning himself.
 
-> ✝️ [Romans 15:4 (ESV)](https://www.blueletterbible.org/esv/Rom/15/4)
+> ✝️ Romans 15:4 (ESV)
 >
 > 4 For whatever was written in former days was written for our instruction, that through endurance
 > and through the encouragement of the Scriptures we might have hope.

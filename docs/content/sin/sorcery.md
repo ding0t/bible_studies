@@ -49,14 +49,14 @@ His people to hear from Him — finally, through His Son Jesus.
 
 ### Memory verses
 
-> ✝️ [Deuteronomy 18:14-15 (ESV)](https://www.blueletterbible.org/esv/Deu/18/14-15)
+> ✝️ Deuteronomy 18:14-15 (ESV)
 >
 > 14 for these nations, which you are about to dispossess, listen to fortune-tellers and to
 > diviners. But as for you, the LORD your God has not allowed you to do this. 15 "The LORD your God
 > will raise up for you a prophet like me from among you, from your brothers — it is to him you
 > shall listen —
 
-> ✝️ [Isaiah 8:19 (ESV)](https://www.blueletterbible.org/esv/Isa/8/19)
+> ✝️ Isaiah 8:19 (ESV)
 >
 > 19 And when they say to you, "Inquire of the mediums and the necromancers who chirp and mutter,"
 > should not a people inquire of their God? Should they inquire of the dead on behalf of the living?

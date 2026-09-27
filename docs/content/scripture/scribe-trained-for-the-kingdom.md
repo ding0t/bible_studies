@@ -7,7 +7,7 @@ draft: true
 primary_passage: "Matthew 13:51-52"
 bible_references: ["Matthew 13:10-17", "Isaiah 6:9-10", "Matthew 13:35", "Matthew 13:44-53", "Matthew 9:16-17", "Matthew 12:35", "Matthew 5:17-20", "Matthew 23:34", "Matthew 28:19-20", "Matthew 8:19", "Matthew 27:57", "Matthew 12:14-50", "Matthew 13:39-40", "Mark 2:16", "Acts 19:35", "Acts 23:9", "1 Corinthians 1:20", "Ephesians 3:5-9", "Colossians 1:26", "Daniel 2:27-28", "Ezra 7:6-11", "Psalm 78:2", "2 Timothy 3:16-17", "1 John 2:7-8"]
 date_created: 2026-09-18
-date_modified: 2026-09-20
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -50,17 +50,17 @@ has made them.
 
 ### Memory verses
 
-> ✝️ [Matthew 13:52 (ESV)](https://www.blueletterbible.org/esv/Mat/13/52)
+> ✝️ Matthew 13:52 (ESV)
 >
 > 52 And he said to them, "Therefore every scribe who has been trained for the kingdom of heaven
 > is like a master of a house, who brings out of his treasure what is new and what is old."
 
-> ✝️ [Matthew 5:17 (ESV)](https://www.blueletterbible.org/esv/Mat/5/17)
+> ✝️ Matthew 5:17 (ESV)
 >
 > 17 "Do not think that I have come to abolish the Law or the Prophets; I have not come to
 > abolish them but to fulfill them."
 
-> ✝️ [Ezra 7:10 (WEB)](https://www.blueletterbible.org/web/Ezr/7/10)
+> ✝️ Ezra 7:10 (WEB)
 >
 > 10 For Ezra had set his heart to seek Yahweh's law, and to do it, and to teach statutes and
 > ordinances in Israel.

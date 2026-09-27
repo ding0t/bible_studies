@@ -30,13 +30,13 @@ Creation's testimony to God's "eternal power and divine nature" (Romans 1:20, ES
 
 ### Memory verses
 
-> ✝️ [Romans 1:20 (ESV)](https://www.blueletterbible.org/esv/Rom/1/20)
+> ✝️ Romans 1:20 (ESV)
 >
 > 20 For his invisible attributes, namely, his eternal power and divine nature, have been clearly
 > perceived, ever since the creation of the world, in the things that have been made. So they are
 > without excuse.
 
-> ✝️ [Psalm 19:1 (ESV)](https://www.blueletterbible.org/esv/Psa/19/1)
+> ✝️ Psalm 19:1 (ESV)
 >
 > 1 The heavens declare the glory of God, and the sky above proclaims his handiwork.
 

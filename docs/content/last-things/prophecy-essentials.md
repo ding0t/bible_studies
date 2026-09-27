@@ -53,18 +53,18 @@ each one is checked, not asserted.
 
 ### Memory verses
 
-> ✝️ [Luke 24:27 (ESV)](https://www.blueletterbible.org/esv/Luk/24/27)
+> ✝️ Luke 24:27 (ESV)
 >
 > 27 And beginning with Moses and all the Prophets, he interpreted to them in all the Scriptures
 > the things concerning himself.
 
-> ✝️ [Micah 5:2 (ESV)](https://www.blueletterbible.org/esv/Mic/5/2)
+> ✝️ Micah 5:2 (ESV)
 >
 > 2 But you, O Bethlehem Ephrathah, who are too little to be among the clans of Judah, from you
 > shall come forth for me one who is to be ruler in Israel, whose coming forth is from of old, from
 > ancient days.
 
-> ✝️ [Daniel 9:27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/27)
+> ✝️ Daniel 9:27 (ESV)
 >
 > 27 And he shall make a strong covenant with many for one week, and for half of the week he shall
 > put an end to sacrifice and offering.

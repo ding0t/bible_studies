@@ -54,12 +54,12 @@ prophecy argues from a stated prediction coming true. Both land on the same cros
 
 ### Memory verses
 
-> ✝️ [John 3:14-15 (ESV)](https://www.blueletterbible.org/esv/Joh/3/14-15)
+> ✝️ John 3:14-15 (ESV)
 >
 > 14 And as Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up,
 > 15 that whoever believes in him may have eternal life.
 
-> ✝️ [Numbers 21:8 (ESV)](https://www.blueletterbible.org/esv/Num/21/8)
+> ✝️ Numbers 21:8 (ESV)
 >
 > 8 And the LORD said to Moses, "Make a fiery serpent and set it on a pole, and everyone who is
 > bitten, when he sees it, shall live."

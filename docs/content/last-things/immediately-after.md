@@ -57,13 +57,13 @@ Jesus places its abomination immediately before His own coming (Matthew 24:15, 2
 
 ### Memory verses
 
-> ✝️ [Daniel 9:24 (ESV)](https://www.blueletterbible.org/esv/Dan/9/24)
+> ✝️ Daniel 9:24 (ESV)
 >
 > 24 "Seventy weeks are decreed about your people and your holy city, to finish the transgression, to
 > put an end to sin, and to atone for iniquity, to bring in everlasting righteousness, to seal both
 > vision and prophet, and to anoint a most holy place.
 
-> ✝️ [Matthew 24:30 (ESV)](https://www.blueletterbible.org/esv/Mat/24/30)
+> ✝️ Matthew 24:30 (ESV)
 >
 > 30 Then will appear in heaven the sign of the Son of Man, and then all the tribes of the earth will
 > mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory.

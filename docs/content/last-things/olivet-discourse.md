@@ -57,11 +57,11 @@ Knows](#the-day-no-one-knows).
 
 ### Memory verses
 
-> ✝️ [Matthew 24:35 (ESV)](https://www.blueletterbible.org/esv/Mat/24/35)
+> ✝️ Matthew 24:35 (ESV)
 >
 > 35 Heaven and earth will pass away, but my words will not pass away.
 
-> ✝️ [Mark 13:37 (ESV)](https://www.blueletterbible.org/esv/Mar/13/37)
+> ✝️ Mark 13:37 (ESV)
 >
 > 37 And what I say to you I say to all: Stay awake.
 

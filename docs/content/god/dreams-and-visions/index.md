@@ -34,13 +34,13 @@ Every dream recorded around Jesus's birth protects his life. An angel warns Jose
 
 ### Memory verses
 
-> ✝️ [Deuteronomy 13:3 (ESV)](https://www.blueletterbible.org/esv/Deu/13/3)
+> ✝️ Deuteronomy 13:3 (ESV)
 >
 > 3 you shall not listen to the words of that prophet or that dreamer of dreams. For the LORD your
 > God is testing you, to know whether you love the LORD your God with all your heart and with all
 > your soul.
 
-> ✝️ [Jeremiah 23:28 (ESV)](https://www.blueletterbible.org/esv/Jer/23/28)
+> ✝️ Jeremiah 23:28 (ESV)
 >
 > 28 Let the prophet who has a dream tell the dream, but let him who has my word speak my word
 > faithfully. What has straw in common with wheat? declares the LORD.

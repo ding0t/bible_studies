@@ -58,12 +58,12 @@ appointed time as the true image of God, and brings the week to His rest.
 
 ### Memory verses
 
-> ✝️ [Genesis 1:27 (ESV)](https://www.blueletterbible.org/esv/Gen/1/27)
+> ✝️ Genesis 1:27 (ESV)
 >
 > 27 So God created man in his own image, in the image of God he created him; male and female he
 > created them.
 
-> ✝️ [Colossians 1:15 (ESV)](https://www.blueletterbible.org/esv/Col/1/15)
+> ✝️ Colossians 1:15 (ESV)
 >
 > 15 He is the image of the invisible God, the firstborn of all creation.
 

@@ -71,12 +71,12 @@ is real; the fulfilment claim built on it is not one Scripture makes.
 
 ### Memory verses
 
-> ✝️ [Mark 5:34 (WEB)](https://www.blueletterbible.org/web/Mar/5/34)
+> ✝️ Mark 5:34 (WEB)
 >
 > 34 He said to her, "Daughter, your faith has made you well. Go in peace, and be cured of your
 > disease."
 
-> ✝️ [Leviticus 15:27 (WEB)](https://www.blueletterbible.org/web/Lev/15/27)
+> ✝️ Leviticus 15:27 (WEB)
 >
 > 27 Whoever touches these things shall be unclean, and shall wash his clothes and bathe himself in
 > water, and be unclean until the evening.

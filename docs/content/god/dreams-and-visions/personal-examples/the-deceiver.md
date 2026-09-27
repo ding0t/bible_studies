@@ -5,7 +5,7 @@ description: "A dream about a deceptive evil entity and spiritual discernment"
 tags: ["dreams", "deception", "spiritual-warfare", "discernment", "june-2023"]
 draft: false
 date_created: 2024-10-06
-date_modified: 2026-08-23
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -49,14 +49,14 @@ innocent looking child self. It was a wolf dressed as a sheep. It destroyed all 
 
 ## Scripture
 
-> ✝️ [John 8:44 (ESV)](https://www.blueletterbible.org/esv/John/8/44)
+> ✝️ John 8:44 (ESV)
 >
 > You are of your father the devil, and your will is to do your father’s desires. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he lies, he speaks out of his own character, for he is a liar and the father of lies.
 
-> ✝️ [2Co 11:14 (ESV)](https://www.blueletterbible.org/esv/2Co/11/14)
+> ✝️ 2Co 11:14 (ESV)
 >
 > And no wonder, for even Satan disguises himself as an angel of light.
 
-> ✝️ [Jas 1:15 (ESV)](https://www.blueletterbible.org/esv/Jas/1/15)
+> ✝️ Jas 1:15 (ESV)
 >
 > 15 Then desire when it has conceived gives birth to sin, and sin when it is fully grown brings forth death.

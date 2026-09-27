@@ -55,11 +55,11 @@ up. The fig tree is an illustration from the seasons, and it carries no coded da
 
 ### Memory verses
 
-> ✝️ [Matthew 24:33 (ESV)](https://www.blueletterbible.org/esv/Mat/24/33)
+> ✝️ Matthew 24:33 (ESV)
 >
 > 33 So also, when you see all these things, you know that he is near, at the very gates.
 
-> ✝️ [Matthew 24:35 (ESV)](https://www.blueletterbible.org/esv/Mat/24/35)
+> ✝️ Matthew 24:35 (ESV)
 >
 > 35 Heaven and earth will pass away, but my words will not pass away.
 

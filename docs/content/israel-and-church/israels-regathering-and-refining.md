@@ -51,12 +51,12 @@ Israel is the God you can trust with yours.
 
 ### Memory verses
 
-> ✝️ [Ezekiel 36:26 (ESV)](https://www.blueletterbible.org/esv/Eze/36/26)
+> ✝️ Ezekiel 36:26 (ESV)
 >
 > 26 And I will give you a new heart, and a new spirit I will put within you. And I will remove the
 > heart of stone from your flesh and give you a heart of flesh.
 
-> ✝️ [Zechariah 13:9 (ESV)](https://www.blueletterbible.org/esv/Zec/13/9)
+> ✝️ Zechariah 13:9 (ESV)
 >
 > 9 And I will put this third into the fire, and refine them as one refines silver, and test them as
 > gold is tested. They will call upon my name, and I will answer them. I will say, 'They are my

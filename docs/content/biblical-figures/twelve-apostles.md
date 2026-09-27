@@ -50,11 +50,11 @@ is dissolved into the other.
 
 ### Memory verses
 
-> ✝️ [Mark 3:14 (ESV)](https://www.blueletterbible.org/esv/Mar/3/14)
+> ✝️ Mark 3:14 (ESV)
 >
 > 14 And he appointed twelve (whom he also named apostles) so that they might be with him and he might send them out to preach
 
-> ✝️ [John 15:16 (ESV)](https://www.blueletterbible.org/esv/Joh/15/16)
+> ✝️ John 15:16 (ESV)
 >
 > 16 You did not choose me, but I chose you and appointed you that you should go and bear fruit and that your fruit should abide, so that whatever you ask the Father in my name, he may give it to you.
 

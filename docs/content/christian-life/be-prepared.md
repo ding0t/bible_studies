@@ -31,7 +31,7 @@ Isaiah's, with one word changed: where Isaiah tells Judah to sanctify the LORD o
 Christ. So before this passage tells you anything about answering your neighbour, it tells you who is
 on the throne you are answering from.
 
-> ✝️ [1 Peter 3:13-17 (ESV)](https://www.blueletterbible.org/esv/1pe/3/13-17)
+> ✝️ 1 Peter 3:13-17 (ESV)
 >
 > 13 Now who is there to harm you if you are zealous for what is good? 14 But even if you should
 > suffer for righteousness' sake, you will be blessed. Have no fear of them, nor be troubled,
@@ -72,13 +72,13 @@ to the person who asks rests on the hope He has already given you.
 
 ### Memory verses
 
-> ✝️ [1 Peter 3:15 (ESV)](https://www.blueletterbible.org/esv/1pe/3/15)
+> ✝️ 1 Peter 3:15 (ESV)
 >
 > 15 but in your hearts honor Christ the Lord as holy, always being prepared to make a defense to
 > anyone who asks you for a reason for the hope that is in you; yet do it with gentleness and
 > respect,
 
-> ✝️ [Isaiah 8:13 (ESV)](https://www.blueletterbible.org/esv/isa/8/13)
+> ✝️ Isaiah 8:13 (ESV)
 >
 > 13 But the LORD of hosts, him you shall honor as holy. Let him be your fear, and let him be your
 > dread.
@@ -198,7 +198,7 @@ a person with that Lord looks like when someone asks them a question.
 Verse 14 is already a quotation. "Have no fear of them, nor be troubled" comes from Isaiah 8:12,
 where the prophet is told not to share Judah's panic about the Assyrian threat:
 
-> ✝️ [Isaiah 8:12-13 (ESV)](https://www.blueletterbible.org/esv/isa/8/12-13)
+> ✝️ Isaiah 8:12-13 (ESV)
 >
 > 12 "Do not call conspiracy all that this people calls conspiracy, and do not fear what they fear,
 > nor be in dread. 13 But the LORD of hosts, him you shall honor as holy. Let him be your fear, and
@@ -266,7 +266,7 @@ who has something to say when somebody else does.
 What they ask about is "the hope that is in you." Peter uses the noun ἐλπίς (*elpis*) three times in
 the letter, and the first two tell you what the third means.
 
-> ✝️ [1 Peter 1:3 (ESV)](https://www.blueletterbible.org/esv/1pe/1/3)
+> ✝️ 1 Peter 1:3 (ESV)
 >
 > 3 Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has
 > caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,
@@ -338,7 +338,7 @@ structural work.
 
 The classic text on getting ready is Luke's note about a synagogue in Macedonia:
 
-> ✝️ [Acts 17:11-12 (ESV)](https://www.blueletterbible.org/esv/act/17/11-12)
+> ✝️ Acts 17:11-12 (ESV)
 >
 > 11 Now these Jews were more noble than those in Thessalonica; they received the word with all
 > eagerness, examining the Scriptures daily to see if these things were so. 12 Many of them therefore
@@ -358,7 +358,7 @@ how you ought to answer each person" (Colossians 4:5-6, ESV).
 
 One sentence of Jesus' sounds like the opposite of 1 Peter 3:15:
 
-> ✝️ [Luke 21:14-15 (ESV)](https://www.blueletterbible.org/esv/luk/21/14-15)
+> ✝️ Luke 21:14-15 (ESV)
 >
 > 14 Settle it therefore in your minds not to meditate beforehand how to answer, 15 for I will give
 > you a mouth and wisdom, which none of your adversaries will be able to withstand or contradict.

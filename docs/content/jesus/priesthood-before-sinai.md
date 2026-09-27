@@ -52,13 +52,13 @@ traces the line that study's argument assumes.
 
 ### Memory verses
 
-> ✝️ [Hebrews 7:24-25 (ESV)](https://www.blueletterbible.org/esv/Heb/7/24-25)
+> ✝️ Hebrews 7:24-25 (ESV)
 >
 > 24 but he holds his priesthood permanently, because he continues forever. 25 Consequently, he is
 > able to save to the uttermost those who draw near to God through him, since he always lives to make
 > intercession for them.
 
-> ✝️ [Hebrews 5:4 (ESV)](https://www.blueletterbible.org/esv/Heb/5/4)
+> ✝️ Hebrews 5:4 (ESV)
 >
 > 4 And no one takes this honor for himself, but only when called by God, just as Aaron was.
 

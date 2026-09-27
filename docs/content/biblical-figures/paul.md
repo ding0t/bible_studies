@@ -54,11 +54,11 @@ a common grammar: grace to someone with no natural claim. The text still keeps t
 
 ### Memory verses
 
-> ✝️ [Acts 9:15 (ESV)](https://www.blueletterbible.org/esv/Act/9/15)
+> ✝️ Acts 9:15 (ESV)
 >
 > 15 But the Lord said to him, "Go, for he is a chosen instrument of mine to carry my name before the Gentiles and kings and the children of Israel.
 
-> ✝️ [1 Timothy 1:15-16 (ESV)](https://www.blueletterbible.org/esv/1Ti/1/15-16)
+> ✝️ 1 Timothy 1:15-16 (ESV)
 >
 > 15 The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners, of whom I am the foremost. 16 But I received mercy for this reason, that in me, as the foremost, Jesus Christ might display his perfect patience as an example to those who were to believe in him for eternal life.
 

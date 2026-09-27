@@ -59,11 +59,11 @@ meal unfinished, with a promise to complete it.
 
 ### Memory verses
 
-> ✝️ [Ephesians 5:32 (ESV)](https://www.blueletterbible.org/esv/Eph/5/32)
+> ✝️ Ephesians 5:32 (ESV)
 >
 > 32 This mystery is profound, and I am saying that it refers to Christ and the church.
 
-> ✝️ [Revelation 19:7 (ESV)](https://www.blueletterbible.org/esv/Rev/19/7)
+> ✝️ Revelation 19:7 (ESV)
 >
 > 7 Let us rejoice and exult and give him the glory, for the marriage of the Lamb has come, and his
 > Bride has made herself ready;

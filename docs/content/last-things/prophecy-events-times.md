@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Daniel 9:24-27"
 bible_references: ["1 Kings 16:29", "2 Kings 4:23", "2 Kings 18:13-19:37", "2 Kings 24:10-17", "2 Kings 25:27-30", "Ezra 1:1-4", "Nehemiah 2:1-8", "Joshua 10:12-14", "Amos 8:5", "Amos 8:9", "Hosea 2:11", "Isaiah 1:13-14", "Joel 2:31", "Daniel 9:24-27", "Matthew 21:1-11", "Matthew 27:45", "Mark 15:33", "Luke 23:44-45", "Luke 19:41-44", "Acts 2:20"]
 date_created: 2024-10-20
-date_modified: 2026-09-13
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -33,23 +33,23 @@ exact week of the Triumphal Entry.
 Two conventions matter for everything that follows:
 
 1. **Bible prophecy uses a 360-day year.** The Flood lasted "five months"
-   ([Genesis 7:11](https://www.blueletterbible.org/esv/Gen/7/11);
-   [Genesis 8:3-4](https://www.blueletterbible.org/esv/Gen/8/3-4)), and that same span is elsewhere
+   (Genesis 7:11;
+   Genesis 8:3-4), and that same span is elsewhere
     counted as 150 days — five 30-day months. Revelation counts that same period three different ways
 
    and gets the same number every time: 42 months
-   ([Revelation 11:2](https://www.blueletterbible.org/esv/Rev/11/2)), "time, and times, and half a
+   (Revelation 11:2), "time, and times, and half a
    time," i.e. 3.5 years
-   ([Revelation 12:14](https://www.blueletterbible.org/esv/Rev/12/14)), and 1,260 days
-   ([Revelation 11:3](https://www.blueletterbible.org/esv/Rev/11/3);
-   [Revelation 12:6](https://www.blueletterbible.org/esv/Rev/12/6)) — which only reconciles if a
+   (Revelation 12:14), and 1,260 days
+   (Revelation 11:3;
+   Revelation 12:6) — which only reconciles if a
    prophetic year is a fixed 360 days (12 x 30), not the 365.25-day solar year.
 2. **Watch for a day standing in for a year.** Daniel's seventy weeks
-   ([Daniel 9:24-27](https://www.blueletterbible.org/esv/Dan/9/24-27)) are weeks of *years*, not
+   (Daniel 9:24-27) are weeks of *years*, not
    days — the same day-for-a-year principle God states explicitly to Ezekiel
-   ([Ezekiel 4:6](https://www.blueletterbible.org/esv/Eze/4/6)), and the word itself,
+   (Ezekiel 4:6), and the word itself,
    שָׁבֻעִים (*shavu'im*, "sevens"), is used the same way for a seven-*year* period elsewhere in the
-   Hebrew Bible ([Genesis 29:27-28](https://www.blueletterbible.org/esv/Gen/29/27-28), Jacob's
+   Hebrew Bible (Genesis 29:27-28, Jacob's
    seven years of service to Laban).
 
 ## On calendars
@@ -89,17 +89,17 @@ already shows Israel doing, from the earliest prophets on:
 
 - The Torah's own word for "month," חֹדֶשׁ (*chodesh*), is built from the root for "new" — the
   vocabulary itself is lunar — and commands trumpets and offerings "at the beginnings of your
-  months" ([Numbers 10:10](https://www.blueletterbible.org/esv/Num/10/10);
-  [28:11-15](https://www.blueletterbible.org/esv/Num/28/11)).
+  months" (Numbers 10:10;
+  <span data-ref="Numbers 28:11–15">28:11-15</span>).
 - Pre-exilic prophets treat New Moon and Sabbath as a paired, ordinary observance. Merchants grumble
   that they cannot trade "until the new moon be over... and the Sabbath"
-  ([Amos 8:5 (ESV)](https://www.blueletterbible.org/esv/Amo/8/5), 8th century BC). Isaiah groups
+  (Amos 8:5 (ESV), 8th century BC). Isaiah groups
   "New moon and Sabbath and the calling of convocations" as Judah's normal, if hollow, religious
-  calendar ([Isaiah 1:13-14 (ESV)](https://www.blueletterbible.org/esv/Isa/1/13), 8th century BC).
+  calendar (Isaiah 1:13-14 (ESV), 8th century BC).
   Hosea puts "her feasts, her new moons, her Sabbaths" under judgment as the whole festal calendar
-  ([Hosea 2:11](https://www.blueletterbible.org/esv/Hos/2/11), 8th century BC). Elisha's own
+  (Hosea 2:11, 8th century BC). Elisha's own
   household, a century earlier, assumes visiting a prophet is something you do on "new moon or
-  Sabbath" ([2 Kings 4:23](https://www.blueletterbible.org/esv/2Ki/4/23), 9th century BC) — a
+  Sabbath" (2 Kings 4:23, 9th century BC) — a
   throwaway line that only works if new-moon observance was ordinary, lived practice, not a
   once-off cultic curiosity.
 - The **Babylonian month names still used today** — Nisan, Sivan, Elul, Kislev, Tevet, Adar —
@@ -118,8 +118,8 @@ it's an argument from theology about what *ought* to have been practiced, not a 
 earlier manuscripts or independently attested earlier practice.
 
 What *does* hold up is narrower: Genesis's Flood chronology counts 150 days as "five months"
-([Genesis 7:11](https://www.blueletterbible.org/esv/Gen/7/11);
-[8:3-4](https://www.blueletterbible.org/esv/Gen/8/3-4)) — an ancient, schematic 30-day-month
+(Genesis 7:11;
+<span data-ref="Genesis 8:3–4">8:3-4</span>) — an ancient, schematic 30-day-month
 convention — and that same 360-day scheme resurfaces consistently whenever Scripture does
 *symbolic* prophetic time-arithmetic (Daniel, Revelation, both below). That's real and old. It
 supports treating a stylized 360-day prophetic year as an authentic, ancient counting convention
@@ -148,7 +148,7 @@ Given that, this study runs two different tools for two different jobs, and keep
 
 ### Anchor 1 — The Battle of Qarqar, 853 BC (Ahab)
 
-- **Verse:** [1 Kings 16:29](https://www.blueletterbible.org/esv/1Ki/16/29) gives Ahab's reign, but
+- **Verse:** 1 Kings 16:29 gives Ahab's reign, but
   the Bible never mentions Qarqar — the synchronism comes entirely from outside.
 - **Evidence:** the **Kurkh Monolith**, an inscription of the Assyrian king Shalmaneser III (now in
   the British Museum), records his sixth-year campaign against a coalition at Qarqar on the Orontes
@@ -171,23 +171,23 @@ Given that, this study runs two different tools for two different jobs, and keep
 
 ### Anchor 2 — Sennacherib's invasion of Judah, 701 BC (Hezekiah)
 
-- **Verse:** [2 Kings 18:13-19:37](https://www.blueletterbible.org/esv/2Ki/18/13); paralleled in
+- **Verse:** 2 Kings 18:13-19:37; paralleled in
   Isaiah 36-37 and 2 Chronicles 32.
 - **Evidence:** **Sennacherib's Prism** (the Taylor Prism, British Museum), Sennacherib's own annals
   of the campaign, boasting: "As for Hezekiah, I shut him up like a caged bird in his royal city of
   Jerusalem." The **Lachish reliefs**, also in the British Museum, depict the siege of Lachish
-  itself — the specific city named in [2 Kings 18:14](https://www.blueletterbible.org/esv/2Ki/18/14).
+  itself — the specific city named in 2 Kings 18:14.
 - **Why it's an anchor:** Sennacherib's regnal years synchronize into the same Assyrian absolute
   chronology as Qarqar.
 - **The silence that matters:** the prism boasts of trapping Hezekiah, but never claims to have
   taken Jerusalem itself. That silence is consistent with, not just adjacent to, the biblical claim
   that the siege was broken by disaster in the Assyrian camp rather than a Judean surrender
-  ([2 Kings 19:35-36](https://www.blueletterbible.org/esv/2Ki/19/35)) — an Assyrian king had every
+  (2 Kings 19:35-36) — an Assyrian king had every
   incentive to claim the capture of Jerusalem if it had actually happened.
 
 ### Anchor 3 — Jerusalem's fall and Jehoiachin's first deportation, 597 BC
 
-- **Verse:** [2 Kings 24:10-17](https://www.blueletterbible.org/esv/2Ki/24/10).
+- **Verse:** 2 Kings 24:10-17.
 - **Evidence:** the **Babylonian Chronicle** known as ABC 5 or the "Jerusalem Chronicle" (British
   Museum, BM 21946) records, in the Babylonian court's own terse style, that in Nebuchadnezzar's
   seventh year he besieged "the city of Judah" and "seized the city and captured the king" on the
@@ -206,7 +206,7 @@ Given that, this study runs two different tools for two different jobs, and keep
 
 ### Anchor 4 — Jehoiachin's release, 561 BC
 
-- **Verse:** [2 Kings 25:27-30](https://www.blueletterbible.org/esv/2Ki/25/27) (paralleled in
+- **Verse:** 2 Kings 25:27-30 (paralleled in
   Jeremiah 52:31-34): in the year Evil-Merodach (Amel-Marduk) became king of Babylon, he released
   Jehoiachin and gave him a regular allowance for the rest of his life.
 - **Evidence:** **Jehoiachin's Ration Tablets** (the Weidner tablets), administrative records
@@ -220,7 +220,7 @@ Given that, this study runs two different tools for two different jobs, and keep
 
 ### Anchor 5 — Cyrus's decree, 539/538 BC
 
-- **Verse:** [Ezra 1:1-4](https://www.blueletterbible.org/esv/Ezr/1/1); 2 Chronicles 36:22-23.
+- **Verse:** Ezra 1:1-4; 2 Chronicles 36:22-23.
 - **Evidence:** the **Cyrus Cylinder** (British Museum) records Cyrus's general policy, after taking
   Babylon, of returning exiled peoples "to their settlements" and restoring their sanctuaries — the
   same policy Ezra reports Cyrus applying specifically to the Judean exiles and the temple vessels.
@@ -233,7 +233,7 @@ Given that, this study runs two different tools for two different jobs, and keep
 
 ### Anchor 6 — Artaxerxes I's decree to Nehemiah, 445 BC
 
-- **Verse:** [Nehemiah 2:1-8](https://www.blueletterbible.org/esv/Neh/2/1) — the twentieth year of
+- **Verse:** Nehemiah 2:1-8 — the twentieth year of
   Artaxerxes, month of Nisan, the king grants Nehemiah leave and authority to rebuild Jerusalem.
 - **Evidence:** the **Elephantine papyri**, legal and administrative documents from a Jewish
   military colony in Egypt, include letters dual-dated in the Egyptian and Jewish calendars across
@@ -246,11 +246,11 @@ Given that, this study runs two different tools for two different jobs, and keep
 
 ## The flagship calculation: Daniel's seventy weeks to the Triumphal Entry
 
-[Daniel 9:24-27 (ESV)](https://www.blueletterbible.org/esv/Dan/9/24-27) comes as Gabriel's direct
+Daniel 9:24-27 (ESV) comes as Gabriel's direct
 answer to a specific question: Daniel has just been reading Jeremiah's prophecy of a 70-*year* exile
-([Jeremiah 25:11-12](https://www.blueletterbible.org/esv/Jer/25/11);
-[29:10](https://www.blueletterbible.org/esv/Jer/29/10)) and praying over it ([Daniel
-9:2-19](https://www.blueletterbible.org/esv/Dan/9/2)) when the angel arrives with a longer answer.
+(Jeremiah 25:11-12;
+<span data-ref="Jeremiah 29:10">29:10</span>) and praying over it (Daniel
+9:2-19) when the angel arrives with a longer answer.
 "Seventy sevens" (שָׁבֻעִים שִׁבְעִים) are decreed for Daniel's people and city. Verse 25 gives the
 starting gun: "from the going out of the word (דָּבָר, *dabar*) to restore and build Jerusalem" to
 "an anointed one, a prince" (מָשִׁיחַ נָגִיד, *mashiach nagid*) is 7 weeks plus 62 weeks — 69 weeks
@@ -263,10 +263,10 @@ is the whole crux of the calculation:
 
 | Decree | Date | What it authorized |
 | --- | --- | --- |
-| Cyrus | 538 BC | Rebuild the **temple** ([Ezra 1:1-4](https://www.blueletterbible.org/esv/Ezr/1/1)) |
-| Darius I | 519/518 BC | Confirms/renews Cyrus's temple decree ([Ezra 6:1-12](https://www.blueletterbible.org/esv/Ezr/6/1)) |
-| Artaxerxes I to Ezra | 458 BC | Funds temple worship and appoints judges/teachers ([Ezra 7:11-26](https://www.blueletterbible.org/esv/Ezr/7/11)) |
-| Artaxerxes I to Nehemiah | 445 BC | Rebuild **the city itself** — walls and streets ([Nehemiah 2:1-8](https://www.blueletterbible.org/esv/Neh/2/1)) |
+| Cyrus | 538 BC | Rebuild the **temple** (Ezra 1:1-4) |
+| Darius I | 519/518 BC | Confirms/renews Cyrus's temple decree (Ezra 6:1-12) |
+| Artaxerxes I to Ezra | 458 BC | Funds temple worship and appoints judges/teachers (Ezra 7:11-26) |
+| Artaxerxes I to Nehemiah | 445 BC | Rebuild **the city itself** — walls and streets (Nehemiah 2:1-8) |
 
 Daniel 9:25 specifies rebuilding *the city* ("street" and "moat," or "plaza" and "wall," depending
 on translation) — language that matches Nehemiah's commission, not the three earlier decrees, which
@@ -314,7 +314,7 @@ assumption layered onto the calculation rather than a fact the calculation prove
 
 ### The payoff
 
-[Luke 19:41-44 (ESV)](https://www.blueletterbible.org/esv/Luk/19/41), set at this same Triumphal
+Luke 19:41-44 (ESV), set at this same Triumphal
 Entry, records Jesus weeping over Jerusalem: "would that you, even you, had known on this day the
 things that make for peace!... because you did not know the time of your visitation." That is no
 vague lament. On Daniel's own math, "the time" was calculable decades in advance, from a decree
@@ -340,7 +340,7 @@ kinds of case show up below.
 
 ### Was there an eclipse behind Amos's "sun go down at noon"? (proposed, not certain)
 
-[Amos 8:9 (ESV)](https://www.blueletterbible.org/esv/Amo/8/9) reads, "I will make the sun go down at
+Amos 8:9 (ESV) reads, "I will make the sun go down at
 noon and darken the earth in broad daylight." It is sometimes tied to the Bur-Sagale eclipse of 763
 BC, the same one behind Anchor 1. Amos prophesied under Jeroboam II of Israel, whose reign overlaps
 that date. The fit is suggestive, not established: Amos doesn't name an eclipse, and the verse's
@@ -352,8 +352,8 @@ specific eclipse at all — worth citing as a live possibility, not a fixed poin
 ### Joshua's long day at Gibeon, reinterpreted as an eclipse (contested)
 
 Colin Humphreys and Graeme Waddington — the same pair behind the crucifixion-eclipse work below —
-proposed in a 2017 peer-reviewed paper (*Astronomy & Geophysics*) that [Joshua
-10:12-14](https://www.blueletterbible.org/esv/Jos/10/12) describes an annular solar eclipse at
+proposed in a 2017 peer-reviewed paper (*Astronomy & Geophysics*) that Joshua
+10:12-14 describes an annular solar eclipse at
 Gibeon on 30 October 1207 BC, not a literal halting of the sun and moon's motion. Their argument
 rests partly on the Hebrew verb *dom* ("stand still, stop") sharing a root with an Akkadian term
 used in Babylonian astronomical texts for an eclipse. It is a serious astronomical claim. It sits
@@ -366,9 +366,9 @@ doesn't obviously fit the very verse it's built from.
 
 ### The crucifixion darkness was not — could not have been — a solar eclipse
 
-The darkness at the crucifixion ([Matthew 27:45](https://www.blueletterbible.org/esv/Mat/27/45);
-[Mark 15:33](https://www.blueletterbible.org/esv/Mar/15/33);
-[Luke 23:44-45](https://www.blueletterbible.org/esv/Luk/23/44)) is popularly called an eclipse. That is
+The darkness at the crucifixion (Matthew 27:45;
+Mark 15:33;
+Luke 23:44-45) is popularly called an eclipse. That is
 astronomically impossible: a solar eclipse requires the moon to sit between the earth and sun, which only happens
 at new moon — and the crucifixion took place at Passover, which by definition falls at **full**
 moon (14 Nisan, the middle of the lunar month). Whatever caused three hours of midday darkness that
@@ -389,9 +389,9 @@ A partial lunar eclipse was already in progress as the moon rose over the Mount 
 6:20pm — hours *after* the daytime darkness of the crucifixion, at the moment 14 Nisan was ending
 and 15 Nisan, the Sabbath, was beginning.
 
-They connected this to Peter's Pentecost sermon, which quotes [Joel 2:31
-(ESV)](https://www.blueletterbible.org/esv/Joe/2/31) — "the sun shall be turned to darkness, and the
-moon to blood" — as [Acts 2:20 (ESV)](https://www.blueletterbible.org/esv/Act/2/20). Their proposal
+They connected this to Peter's Pentecost sermon, which quotes Joel 2:31
+(ESV) — "the sun shall be turned to darkness, and the
+moon to blood" — as Acts 2:20 (ESV). Their proposal
 is that Peter's audience had this very eclipse, seven weeks earlier, in living memory.
 
 **That claim has been directly challenged.** Bradley Schaefer replied in the *Quarterly Journal of
@@ -434,7 +434,7 @@ The earliest firm anchor above (Qarqar, 853 BC) doesn't reach back to the Exodus
 have to be extrapolated, and the further back the extrapolation runs the weaker it gets.
 
 - **Solomon's temple foundation** (his 4th year) is dated in the text itself as 480 years after the
-  Exodus ([1 Kings 6:1](https://www.blueletterbible.org/esv/1Ki/6/1)). Using Thiele's Qarqar-anchored
+  Exodus (1 Kings 6:1). Using Thiele's Qarqar-anchored
   figure of ~966 BC for that year gives an Exodus around **1446 BC** — the "early date" view.
   This is *not* itself an anchor: no independent record fixes the Exodus to a specific year, only
   this one internal cross-reference plus a chain of regnal counts back to something that is

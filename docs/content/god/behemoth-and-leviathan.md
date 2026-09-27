@@ -32,12 +32,12 @@ Job's complaint before the whirlwind was that no one could bring him and God int
 
 ### Memory verses
 
-> ✝️ [Job 41:11 (ESV)](https://www.blueletterbible.org/esv/Job/41/11)
+> ✝️ Job 41:11 (ESV)
 >
 > 11 Who has first given to me, that I should repay him? Whatever is under the whole heaven is
 > mine.
 
-> ✝️ [Job 42:5 (ESV)](https://www.blueletterbible.org/esv/Job/42/5)
+> ✝️ Job 42:5 (ESV)
 >
 > 5 I had heard of you by the hearing of the ear, but now my eye sees you.
 
