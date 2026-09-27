@@ -158,7 +158,7 @@ the navigation. Volume is not the goal.
 that matters. "Open my eyes, that I may behold wondrous things out of your law"
 (Psalm 119:18, ESV) is not a database query. The
 Spirit of truth is the one who guides into truth
-(John 16:13, ESV) — a machine retrieves, He teaches.
+(John 16:13) — a machine retrieves, He teaches.
 
 **It has no spiritual authority.** AI is not converted, not indwelt, not accountable to anyone, and
 has no discernment — only pattern. It cannot pray, cannot be convicted of sin, and cannot be taught
@@ -192,5 +192,5 @@ very good at retrieval and utterly incapable of faith.
 ## Resources
 
 - [AI’s Usefulness and Its Dangers for Preachers, The Gospel Coalition, 2025-10-14](https://www.thegospelcoalition.org/article/ai-usefulness-dangers-preachers/)
-    - 2 Timothy 2:14 (ESV)
+    - 2 Timothy 2:14
 

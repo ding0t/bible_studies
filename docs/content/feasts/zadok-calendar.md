@@ -49,7 +49,7 @@ dsscalendar.org's own reckoning. A lunisolar calendar instead makes monthly luna
 
 ## Why "Zadok"
 
-Zadok was the high priest under David and Solomon (2 Samuel 8:17; 1 Kings 2:35, ESV), and his descendants became the standard by which later Scripture measures a faithful priesthood. 
+Zadok was the high priest under David and Solomon (2 Samuel 8:17; 1 Kings 2:35), and his descendants became the standard by which later Scripture measures a faithful priesthood. 
 
 When Ezekiel is shown the future temple, it's specifically "the sons of Zadok" who are named as the priests who stayed faithful and will minister there (Ezekiel 44:15, ESV). 
 
@@ -74,8 +74,8 @@ near.md#when-is-the-year-6000) — six 1,000-year "days" of ordinary history fol
 sabbath-rest millennium.
 
 Nested inside that larger scheme are ordinary Sabbatical (7-year, Leviticus
-25:1-7) and Jubilee (50-year, Leviticus 25:8-13,
-ESV) cycles. The calendar is the scaffolding the
+25:1-7) and Jubilee (50-year, Leviticus 25:8-13)
+cycles. The calendar is the scaffolding the
 whole chronology runs on, well beyond a way of tracking days. dsscalendar.org even ties a specific
 messianic claim to that scaffolding. It reads 11Q13, the Melchizedek scroll, as placing the
 Messiah's death exactly one Shemittah after the ninth Jubilee of its scheme.
@@ -85,7 +85,7 @@ Messiah's death exactly one Shemittah after the ninth Jubilee of its scheme.
 A few reasons this calendar, rather than the standard rabbinic one, is the one behind this site's `zadok_year` dating:
 
 - **It's priestly, and the calendar was a priestly responsibility.** Israel's priests were the ones charged with tracking the sacred calendar (the priestly courses of 1 Chronicles 24 presuppose exactly this kind of fixed, calculable rotation) — and it's the Zadokite line Scripture itself names as the one that stayed faithful.
-- **It matches Israel's "appointed times" more naturally.** The feasts of Leviticus 23 (ESV) are called *moedim* — fixed, appointed times — and a calendar where every feast lands on the same weekday every single year fits that language more naturally than one where the date has to be recalculated and can shift.
+- **It matches Israel's "appointed times" more naturally.** The feasts of Leviticus 23 are called *moedim* — fixed, appointed times — and a calendar where every feast lands on the same weekday every single year fits that language more naturally than one where the date has to be recalculated and can shift.
 - **It's what the community closest to the Hebrew text of Scripture used.** The Qumran community preserved the Old Testament with remarkable textual fidelity (see [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md)) and used this calendar as a matter of course — that's not proof by itself, but it's real evidence about what calendar was in live use by people steeped in the text, not a later rabbinic innovation.
 - **It's the calendar the numbers in Daniel and the Apocalypse of Weeks actually run on.** A fixed 364-day/7-year/50-year nested structure is exactly what a chronology of "weeks" of years — Daniel's seventy weeks (Daniel 9:24-27, ESV) among them — needs to work as clean arithmetic, without the extra lunar leap-month adjustments a lunisolar calendar requires.
 

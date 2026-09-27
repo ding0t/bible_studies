@@ -66,17 +66,17 @@ All things come from the Father and exist for Him, and Paul marks off His role f
 
 The Son is God become flesh, not a created being: John 1:1,14 (ESV) — "In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh and dwelt among us."
 
-He emptied Himself to take on humanity while remaining fully God: Philippians 2:6-8 (ESV).
+He emptied Himself to take on humanity while remaining fully God: Philippians 2:6-8.
 
 His death and bodily resurrection are not one option among many but the substance of the gospel itself: 1 Corinthians 15:3-4 (ESV) — "Christ died for our sins in accordance with the Scriptures... he was raised on the third day in accordance with the Scriptures."
 
-He ascended visibly and will return the same way He left: Acts 1:11 (ESV).
+He ascended visibly and will return the same way He left: Acts 1:11.
 
 ### God the Holy Spirit
 
 - [x] The Holy Spirit is a person, not a force — He indwells, seals, convicts, and empowers every believer.
 
-The Spirit is the promised Helper who teaches and reminds believers of Christ's own words: John 14:26 (ESV). Every believer is sealed by Him as a guarantee of what's to come: Ephesians 1:13-14 (ESV). He convicts the world concerning sin, righteousness, and judgment (John 16:8), and empowers believers to be Christ's witnesses (Acts 1:8, ESV) — a transformation I have watched Him work in named, particular lives, my own among them.
+The Spirit is the promised Helper who teaches and reminds believers of Christ's own words: John 14:26. Every believer is sealed by Him as a guarantee of what's to come: Ephesians 1:13-14. He convicts the world concerning sin, righteousness, and judgment (John 16:8), and empowers believers to be Christ's witnesses (Acts 1:8) — a transformation I have watched Him work in named, particular lives, my own among them.
 
 ---
 
@@ -88,7 +88,7 @@ Understanding the nature of creation is a foundational belief for a wise worldvi
 
 - [x] God created all things out of nothing, by His word, with purpose — not by unguided natural process.
 
-"In the beginning, God created the heavens and the earth" (Genesis 1:1, ESV) is a historical claim, not a poem to be explained away. God spoke, and what He spoke was not assembled from material already lying to hand: Hebrews 11:3 (ESV) — "By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible." Faith is how that is apprehended; it is not how it was done. All things, visible and invisible, were created through Christ and for Him: Colossians 1:16 (ESV).
+"In the beginning, God created the heavens and the earth" (Genesis 1:1, ESV) is a historical claim, not a poem to be explained away. God spoke, and what He spoke was not assembled from material already lying to hand: Hebrews 11:3 (ESV) — "By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible." Faith is how that is apprehended; it is not how it was done. All things, visible and invisible, were created through Christ and for Him: Colossians 1:16.
 
 ### Creation is 6 days
 
@@ -102,7 +102,7 @@ Genesis 1 marks each day with "there was evening and there was morning" — ordi
 
 - [x] Adam's disobedience brought sin and death into the human race; every person since is born under sin's condemnation and needs a savior.
 
-What began as one man's disobedience in the garden (Genesis 3) became the condition of every person since: Romans 5:12 (ESV) — "sin came into the world through one man, and death through sin, and so death spread to all men because all sinned." No one is exempted by their own effort: Romans 3:23 (ESV) — "all have sinned and fall short of the glory of God." Left there, the wage owed is death: Romans 6:23 (ESV). That verse doesn't end there, and neither does this statement — see Salvation, below.
+What began as one man's disobedience in the garden (Genesis 3) became the condition of every person since: Romans 5:12 (ESV) — "sin came into the world through one man, and death through sin, and so death spread to all men because all sinned." No one is exempted by their own effort: Romans 3:23 (ESV) — "all have sinned and fall short of the glory of God." Left there, the wage owed is death: Romans 6:23. That verse doesn't end there, and neither does this statement — see Salvation, below.
 
 ---
 
@@ -112,7 +112,7 @@ Love as our Creator reveals it is not what man arrives at on his own. We would n
 
 - [x] God is love
 
-"God is love" (1 John 4:8,16, ESV) is not a sentiment but a definition — love isn't a rule God happens to keep, it's who He is, and it's the reason there's a gospel at all: John 3:16 (ESV) — "For God so loved the world, that he gave his only Son." What that love looks like in practice is spelled out plainly: 1 Corinthians 13:4-7 (ESV). Jesus made it the identifying mark of His followers, not doctrine alone: John 13:34-35 (ESV) — "By this all people will know that you are my disciples, if you have love for one another."
+"God is love" (1 John 4:8,16, ESV) is not a sentiment but a definition — love isn't a rule God happens to keep, it's who He is, and it's the reason there's a gospel at all: John 3:16 (ESV) — "For God so loved the world, that he gave his only Son." What that love looks like in practice is spelled out plainly: 1 Corinthians 13:4-7. Jesus made it the identifying mark of His followers, not doctrine alone: John 13:34-35 (ESV) — "By this all people will know that you are my disciples, if you have love for one another."
 
 ---
 
@@ -122,7 +122,7 @@ We are called by God to seek wisdom.
 
 - [x] True wisdom begins with reverence for God, not human cleverness, and He gives it freely to those who ask.
 
-"The fear of the LORD is the beginning of wisdom" (Proverbs 9:10, ESV) — wisdom starts with who God is, not with how clever I can be. It's also freely offered, not hoarded for the naturally gifted: James 1:5 (ESV) — "If any of you lacks wisdom, let him ask God, who gives generously to all without reproach." What the world calls foolish — a crucified Messiah — is where God's own wisdom is found: 1 Corinthians 1:18-25 (ESV).
+"The fear of the LORD is the beginning of wisdom" (Proverbs 9:10, ESV) — wisdom starts with who God is, not with how clever I can be. It's also freely offered, not hoarded for the naturally gifted: James 1:5 (ESV) — "If any of you lacks wisdom, let him ask God, who gives generously to all without reproach." What the world calls foolish — a crucified Messiah — is where God's own wisdom is found: 1 Corinthians 1:18-25.
 
 ---
 
@@ -134,7 +134,7 @@ This is the center of everything above. Because of sin, I owed a debt I could no
 
 Salvation is not earned; it's received: Ephesians 2:8-9 (ESV) — "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." Titus 3:5 (ESV) says the same thing from the other direction — "not because of works done by us in righteousness, but according to his own mercy."
 
-Belief, confession, and new life go together: Romans 10:9-10 (ESV). And I hold this exclusively, not as one path among several: John 14:6 (ESV) — "I am the way, and the truth, and the life. No one comes to the Father except through me."
+Belief, confession, and new life go together: Romans 10:9-10. And I hold this exclusively, not as one path among several: John 14:6 (ESV) — "I am the way, and the truth, and the life. No one comes to the Father except through me."
 
 ---
 
@@ -210,7 +210,7 @@ I picture the walk as a house going up on that foundation. God lays each brick: 
 
 The same passage that names the foundation goes on to test what was built on it: 1 Corinthians 3:12-15 (ESV) — gold, silver and precious stones against wood, hay and straw, with fire to "test what sort of work each one has done." Work that survives earns reward; work burned up is loss, "though he himself will be saved, but only as through fire." 2 Corinthians 5:10 (ESV) names the setting: "we must all appear before the judgment seat of Christ." This is a son's work being assessed, not a trial to determine whether he is a son.
 
-That is not the great white throne of Revelation 20:11-15 (ESV), where those who rejected Christ are judged — see End times below. My sin was judged at the cross and will not be raised again; what remains under review is the house.
+That is not the great white throne of Revelation 20:11-15, where those who rejected Christ are judged — see End times below. My sin was judged at the cross and will not be raised again; what remains under review is the house.
 
 ---
 
@@ -230,7 +230,7 @@ Against that, present suffering is real but not the final measure: Romans 8:18 (
 
 - [x] Glorification includes my body — raised imperishable and made like Christ's own risen body.
 
-1 Corinthians 15:42-44 (ESV) sets it out in four contrasts: sown perishable, raised imperishable; sown in dishonour, raised in glory; sown in weakness, raised in power; sown a natural body, raised a spiritual body. The pattern is a specific one: "we shall also bear the image of the man of heaven" (1 Corinthians 15:49), and Philippians 3:20-21 (ESV) names Him — Christ "will transform our lowly body to be like his glorious body."
+1 Corinthians 15:42-44 sets it out in four contrasts: sown perishable, raised imperishable; sown in dishonour, raised in glory; sown in weakness, raised in power; sown a natural body, raised a spiritual body. The pattern is a specific one: "we shall also bear the image of the man of heaven" (1 Corinthians 15:49), and Philippians 3:20-21 (ESV) names Him — Christ "will transform our lowly body to be like his glorious body."
 
 So what I am waiting for is not release from the body but the redemption of it: Romans 8:23 (ESV) — we "groan inwardly as we wait eagerly for adoption as sons, the redemption of our bodies." The change itself is instantaneous: 1 Corinthians 15:51-53 (ESV) — "we shall all be changed, in a moment, in the twinkling of an eye, at the last trumpet." See End times below for where that falls.
 
@@ -254,9 +254,9 @@ I hold a dispensational, pretribulational view of end-times prophecy. The church
 
 What follows is a literal seven-year tribulation, the "one week" of Daniel 9:27 (ESV), a time of judgment on a world that has rejected God.
 
-It ends with Christ's visible, physical return to earth — not a spiritual metaphor but a King coming to reign: Revelation 19:11-16 (ESV).
+It ends with Christ's visible, physical return to earth — not a spiritual metaphor but a King coming to reign: Revelation 19:11-16.
 
-He then reigns for a literal thousand years (Revelation 20:1-6, ESV), after which comes final judgment for all who rejected Him (Revelation 20:11-15, ESV) and the eternal state — a new heaven and a new earth where God dwells with His people forever: Revelation 21:1-4 (ESV). See the [prophecy studies](../last-things/index.md) for the fuller working-out of this.
+He then reigns for a literal thousand years (Revelation 20:1-6), after which comes final judgment for all who rejected Him (Revelation 20:11-15) and the eternal state — a new heaven and a new earth where God dwells with His people forever: Revelation 21:1-4. See the [prophecy studies](../last-things/index.md) for the fuller working-out of this.
 
 ---
 

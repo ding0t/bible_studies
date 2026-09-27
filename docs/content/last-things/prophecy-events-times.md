@@ -247,7 +247,7 @@ Given that, this study runs two different tools for two different jobs, and keep
 
 ## The flagship calculation: Daniel's seventy weeks to the Triumphal Entry
 
-Daniel 9:24-27 (ESV) comes as Gabriel's direct
+Daniel 9:24-27 comes as Gabriel's direct
 answer to a specific question: Daniel has just been reading Jeremiah's prophecy of a 70-*year* exile
 (Jeremiah 25:11-12;
 <span data-ref="Jeremiah 29:10">29:10</span>) and praying over it (Daniel

@@ -80,7 +80,7 @@ Lord, you promised to come again for your own, personally, not as an afterthough
 
 ## The word behind "rapture": ἁρπάζω
 
-The English word "rapture" doesn't translate anything directly — it comes from the Latin Vulgate's *rapiemur* ("we will be caught up"), itself a translation of the Greek verb used in 1 Thessalonians 4:17 (ESV): **ἁρπάζω** (*harpazō*, har-PAD-zo, G726), "to seize, snatch, or catch away by force."
+The English word "rapture" doesn't translate anything directly — it comes from the Latin Vulgate's *rapiemur* ("we will be caught up"), itself a translation of the Greek verb used in 1 Thessalonians 4:17: **ἁρπάζω** (*harpazō*, har-PAD-zo, G726), "to seize, snatch, or catch away by force."
 
 **Where the word comes from.** In classical and koine Greek, ἁρπάζω is ordinary language for forcible seizure — a wolf snatching prey, a robber seizing goods, a kidnapper taking a person against their will. Its core sense is *sudden, forceful removal*, and that sense carries through every New Testament use.
 
@@ -343,7 +343,7 @@ Scripture describes two distinct judgments, for two distinct groups, at two dist
 
 | Judgment | Who | When | Basis |
 | --- | --- | --- | --- |
-| The Bema seat | Believers | During the tribulation, in heaven | Works tested for reward, not for salvation — 2 Corinthians 5:10 (ESV); 1 Corinthians 3:11-15 (ESV) |
+| The Bema seat | Believers | During the tribulation, in heaven | Works tested for reward, not for salvation — 2 Corinthians 5:10; 1 Corinthians 3:11-15 |
 | The Great White Throne | The unsaved dead | After the millennium | Judged "according to what they had done," ending in the second death — Revelation 20:11-15 (ESV) |
 
 **Bēma** (**βῆμα**) is commonly glossed as "a Greek athletic term for the judge's stand at the games." That gloss is wrong. Every one of its twelve New Testament occurrences is judicial or civic: Pilate's judgment seat (Matthew 27:19; John 19:13), Herod's throne (Acts 12:21), Gallio's tribunal at Corinth (Acts 18:12, 16-17), Festus's tribunal (Acts 25:6, 10, 17), and "the judgment seat of God/Christ" itself (Romans 14:10; 2 Corinthians 5:10). The ESV Study Bible's note on 2 Corinthians 5:10 identifies it as "the tribunal bench in the Roman courtroom, where the governor sat while rendering judicial verdicts".

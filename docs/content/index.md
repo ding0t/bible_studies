@@ -42,19 +42,22 @@ through John 14:6 and into the book of Acts.
 These are personal Bible study notes — written to make sure I learn, and shared in case they help
 someone else. The Bible is one integrated message about God's dealings with humanity, and it repays
 close study — study I hope will move the author from milk to solid food
-(Hebrews 5:12-14, ESV).
+(Hebrews 5:12-14).
 
 As personal study notes, they are of course not authoritative. The reader is encouraged to question
 and validate, as the Bereans did
-(Acts 17:11, ESV).
+(Acts 17:11).
 
 One of the tools I use in the development of these studies is AI. That may well put you off — how
 can AI be of use when it is trained on all the wisdom of man? True. But the models question some of
-the positions I take, and that forces me to be prepared to give an account
-(1 Peter 3:14-16, ESV). And in giving account, I
-learn, and train my mind and heart to defend the truth of Christ. Some AI terminology does slip
-through, and it annoys me too. By publishing, I am accountable to review these studies, remember
-what I learned, fix errors I did not pick up earlier, and refine a position left with an itch.
+the positions I take, and that sends me back to Scripture to test them — the same Berean check I ask
+of you, "examining the Scriptures daily to see if these things were so" (Acts 17:11, ESV). The
+Bereans ran that check on an apostle's preaching, so every voice is tested by it, the model's
+objections and my own positions alike. A challenge shows where a case is weak, and Scripture tells
+me to test what I hold (Proverbs 18:17; 1 Thessalonians 5:21). In doing that, I learn, and train my
+mind and heart to defend the truth of Christ. Some AI terminology does slip through, and it annoys
+me too. By publishing, I am accountable to review these studies (2 Timothy 2:15), remember what I
+learned, fix errors I did not pick up earlier, and refine a position left with an itch.
 
 The studies have a focus on:
 
@@ -71,17 +74,17 @@ The studies have a focus on:
 All of these studies point to the one core truth of Jesus and the way.
 
 You are made by God, and He loves you. But every one of us has sinned and fallen short of who He made
-us to be (Romans 3:23, ESV), and that sin separates
-us from Him and earns us death (Romans 6:23, ESV).
+us to be (Romans 3:23), and that sin separates
+us from Him and earns us death (Romans 6:23).
 
 God did not leave it there. He sent His own Son, Jesus Christ, to live the sinless life none of us
 could live, to die on the cross carrying the punishment for our sin, and to rise bodily from the
 grave three days later, defeating death itself
-(1 Corinthians 15:3-4, ESV).
+(1 Corinthians 15:3-4).
 
 You do not earn this by being good enough. It is a gift, received by grace through faith in Christ
-alone (Ephesians 2:8-9, ESV). Whoever calls on the
-name of the Lord will be saved (Romans 10:13, ESV)
+alone (Ephesians 2:8-9). Whoever calls on the
+name of the Lord will be saved (Romans 10:13)
 — that offer is as real for you, today, as it was for anyone.
 
 See my full [Statement of Faith](about/statement-of-faith.md) for how this fits together.
@@ -90,17 +93,17 @@ See my full [Statement of Faith](about/statement-of-faith.md) for how this fits 
 
 Faith in Christ rests on evidence that can be examined. Here is what convinces me.
 
-**Creation testifies.** The order, fine-tuning, and sheer existence of the universe point to a Creator, not an accident — "the heavens declare the glory of God" (Psalm 19:1, ESV), and what can be known of God is plain from what He made (Romans 1:20, ESV). See how I understand the [creation account itself](about/statement-of-faith.md#creation).
+**Creation testifies.** The order, fine-tuning, and sheer existence of the universe point to a Creator, not an accident — "the heavens declare the glory of God" (Psalm 19:1, ESV), and what can be known of God is plain from what He made (Romans 1:20). See how I understand the [creation account itself](about/statement-of-faith.md#creation).
 
 **Archaeology testifies.** Discoveries in the ground keep confirming, not undermining, the biblical record — see [Ancient Texts, Manuscripts, and Inscriptions Validating Scripture](scripture/ancient-texts-manuscripts.md) for specific examples, the Dead Sea Scrolls among them.
 
 **The documents themselves testify.** The Bible is, by a wide margin, the best-attested document to survive from the ancient world — more manuscripts, closer to the original writing, than any other ancient text we treat as reliable history. That case is laid out in the same [manuscript evidence study](scripture/ancient-texts-manuscripts.md).
 
 **Prophecy testifies.** Scripture named the Messiah's birthplace
-(Micah 5:2, ESV), described a death by piercing of
-hands and feet (Psalm 22:16-18, ESV), and said
+(Micah 5:2), described a death by piercing of
+hands and feet (Psalm 22:16-18), and said
 he would suffer and die in the place of others
-(Isaiah 53:5, ESV) — all written centuries before
+(Isaiah 53:5) — all written centuries before
 Jesus was born, in documents datable well before his lifetime.
 
 Psalm 22:16 carries a real textual question, and the study behind this page does not paper over it:
@@ -114,9 +117,9 @@ Daniel pins down the era itself, counting out the years to the Messiah's coming 
 Christ's own ministry. Many such prophecies converge on one person, centuries ahead of the fact —
 which is not what coincidence produces.
 
-**Christianity does not rest on my good works.** I am not saved because I was good enough — no one is. I am saved by the grace of God in Christ, full stop (Ephesians 2:8-9, ESV) — see [Salvation](about/statement-of-faith.md#salvation) for the fuller statement.
+**Christianity does not rest on my good works.** I am not saved because I was good enough — no one is. I am saved by the grace of God in Christ, full stop (Ephesians 2:8-9) — see [Salvation](about/statement-of-faith.md#salvation) for the fuller statement.
 
-**I have seen it myself.** Beyond the evidence, I know the work of Christ and the Holy Spirit because I have seen lives — including my own — actually transformed by it. Anyone who is in Christ is a new creation; the old has gone, the new has come (2 Corinthians 5:17, ESV). That's not theory to me.
+**I have seen it myself.** Beyond the evidence, I know the work of Christ and the Holy Spirit because I have seen lives — including my own — actually transformed by it. Anyone who is in Christ is a new creation; the old has gone, the new has come (2 Corinthians 5:17). That's not theory to me.
 
 ## Interactive tools
 

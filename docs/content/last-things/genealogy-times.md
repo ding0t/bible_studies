@@ -124,7 +124,7 @@ everything downstream.
 
 ### The Cainan question
 
-Luke 3:36 (ESV) names a Cainan between Arphaxad
+Luke 3:36 names a Cainan between Arphaxad
 and Shelah. MT and SP don't have him; LXX does, with his own full entry (130 years to Shelah's
 birth, 330 more after, 460 total — Genesis 11:13 LXX).
 This looks at first like Luke following the Greek tradition against the Hebrew, and this study
@@ -225,7 +225,7 @@ itself, and MT and SP resolve it in two structurally different ways.
 
 Genesis 11:26 states Terah was 70 when he fathered Abram (named first, alongside Nahor and Haran —
 birth order not stated). But Genesis 12:4 has Abram leaving Haran at 75, and Acts 7:4
-(ESV) is explicit that this happened *after* Terah's
+is explicit that this happened *after* Terah's
 death. Under MT/LXX's stated 205-year total for Terah (born 1876 zadok on MT's own numbers), the
 plain "70 at Abram" reading puts Abram's departure at zadok year 1946+75=2021 — a full 60 years
 *before* Terah actually dies at 2081. That is a real contradiction with Acts 7:4 rather than a
@@ -457,7 +457,7 @@ doesn't *prove* 480 years, but it doesn't strain against it either.
 Ruth 4:18-22 gives David's own ancestry from
 Judah's son Perez: Perez → Hezron → Ram → Amminadab → **Nahshon** → Salmon → Boaz → Obed →
 Jesse → David. Nahshon isn't a random name — Numbers 1:7
-(ESV) names him as the tribal leader of Judah
+names him as the tribal leader of Judah
 during the wilderness census, firmly placing him in the Exodus generation. From Nahshon to
 David is only **5 generational gaps** (Nahshon-Salmon-Boaz-Obed-Jesse-David). Spread across the
 same 400-480 year span the priestly line tolerates, that's 80-96 years per generation —
