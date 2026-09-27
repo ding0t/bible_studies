@@ -3,7 +3,7 @@ title: "A Thousand Years in Your Sight"
 category: "prophecy"
 description: "Psalm 90, Moses' prayer for a dying generation: the eternal God who is His people's home, a thousand years as yesterday, seventy years under wrath, and a prayer for steadfast love that Psalm 92 sings back as answered."
 tags: ["psalms", "exodus", "numbers", "2-peter", "sabbath", "last-days", "method/word-study", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Psalm 90:1-17"
 bible_references: ["Psalm 90:1-17", "Psalm 89:46-52", "Psalm 92:1-14", "Psalm 106:45", "Psalm 102:27", "Exodus 32:12-14", "Exodus 34:6", "Numbers 14:29", "Numbers 14:34", "Deuteronomy 33:1", "Genesis 3:19", "Ecclesiastes 6:6", "Isaiah 40:17", "Hebrews 1:8-12", "Hebrews 13:8", "John 1:14", "2 Timothy 1:10", "1 Corinthians 15:58", "2 Peter 3:4", "2 Peter 3:8-9"]
 date_created: 2026-09-26

@@ -3,7 +3,7 @@ title: "Six Days of History"
 category: "prophecy"
 description: "The creation week read as a framework for the millennia of history: light and darkness, the Flood, the seed and the land, the appointed times, the swarming sea, and the image and its counterfeit, with Jesus as the true image of God."
 tags: ["genesis", "creation", "chronology", "revelation", "last-days", "dispensationalism", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Genesis 1:1-31"
 bible_references: ["Genesis 1:1-31", "Genesis 2:1-3", "Genesis 2:7", "Genesis 2:17", "Genesis 4:26", "Genesis 5:5", "Genesis 5:23-24", "Genesis 7:11", "Genesis 7:13", "Genesis 8:2", "Genesis 12:7", "Genesis 15:5", "Genesis 22:17-18", "Exodus 14:22", "Exodus 20:11", "Leviticus 23:2-44", "Psalm 89:36-37", "Isaiah 46:10", "Malachi 4:2", "Matthew 4:19", "Matthew 13:47", "Acts 1:7", "Romans 8:29", "2 Corinthians 3:18", "Galatians 4:4", "Colossians 1:15", "Hebrews 4:9", "Revelation 13:14-18", "Revelation 17:15", "Revelation 20:4"]
 date_created: 2026-09-26
