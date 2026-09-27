@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-09-25
+date_modified: 2026-09-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -19,32 +19,134 @@ just a title, others already have working notes. Organized by the site's own
 [subject sections](our-taxonomy.md), in their published order, so a section only appears here if
 it currently has something queued.
 
-Refer to an item by its number, e.g. "work on 4.1."
+Refer to an item by its number, e.g. "work on 4.3." Section 0 is work on the site itself rather
+than a study topic.
 
 ## Quick reference
 
 | Ref | Topic | Section |
 |---|---|---|
+| [0.1](#01-scripture-pop-up-on-a-verse-reference) | Scripture pop-up on a verse reference | Site features |
+| [0.2](#02-word-study-pop-up-on-an-original-language-word) | Word-study pop-up on an original-language word | Site features |
+| [0.3](#03-key-takeaways-the-remaining-two-parts) | Key Takeaways: the remaining two parts | Site features |
+| [0.4](#04-new-studies-shown-apart-from-updated-ones) | New studies shown apart from updated ones | Site features |
+| [0.5](#05-a-blog) | A blog | Site features |
 | [1.1](#11-extra-biblical-texts) | Extra-biblical texts | Scripture |
 | [1.2](#12-typed-scripture-links) | Typed scripture links | Scripture |
 | [2.1](#21-prophecy-and-jesus) | Prophecy and Jesus | Jesus |
-| [2.2](#22-priest-of-the-order-of-melchizedek) | Priest of the order of Melchizedek | Jesus |
 | [2.3](#23-jesus-attitude-toward-women) | Jesus' attitude toward women | Jesus |
-| [3.1](#31-nephilim) | Nephilim | Spiritual beings |
-| [4.1](#41-assurance-of-salvation) | Assurance of salvation | Salvation |
 | [4.2](#42-on-death) | On death | Salvation |
+| [4.3](#43-faith) | Faith | Salvation |
 | [5.1](#51-tribulation-perspectives) | Tribulation perspectives | Last things |
 | [5.2](#52-end-times) | End times | Last things |
-| [5.3](#53-the-last-trumpet) | The last trumpet | Last things |
+| [5.4](#54-the-olivet-discourse-regrouped-by-the-disciples-questions) | The Olivet Discourse, regrouped by the disciples' questions | Last things |
+| [5.5](#55-the-age-to-come) | The age to come | Last things |
 | [6.1](#61-appointed-times-overarching) | Appointed times (overarching) | Feasts |
 | [6.2](#62-individual-feast-studies) | Individual feast studies | Feasts |
-| [7.1](#71-twelve-disciples) | Twelve disciples | Biblical figures |
 | [8.1](#81-mirror-the-unfoldingword-sources) | Mirror the unfoldingWord sources | Sources & tooling |
 | [9.1](#91-calling-good-evil-and-evil-good) | Calling good evil and evil good | Sin |
 | [9.2](#92-sexual-immorality) | Sexual immorality | Sin |
-| [10.1](#101-know-the-truth) | Know the truth | Christian life |
+| [10.2](#102-where-two-or-three-are-gathered) | Where two or three are gathered | Christian life |
+| [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
+| [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
+
+Finished items move to [Completed](#completed) at the foot of the page and keep their numbers, so
+an old reference still points at the right thing.
 
 ---
+
+## 0. Site features
+
+Work on the site rather than a study. 0.1 and 0.2 share one piece of plumbing with the reader-facing
+reference lookup in [1.2](#12-typed-scripture-links): a static JSON index built at deploy time and
+read by a small script in the page. Build that once and all three sit on it.
+
+### 0.1 Scripture pop-up on a verse reference
+
+Click a Bible reference in a study and the verse opens over the page, so the reader meets Scripture
+itself before the study's comment on it.
+
+- **Text:** the World English Bible, from `bible-text.db`. Only an `open`-tier translation can ship
+  to the browser; the ESV, NIV, NKJV and CSB sit under `quotation-only` in `study-notes.db` and
+  never leave the build machine.
+- **Cross-references:** from the OpenBible set already ingested (`openbible-crossrefs`), capped to
+  the strongest few by vote and labelled as crowd cross-references (see 1.2 on why that label
+  matters).
+- **Also show:** which of our own studies treat the verse. `commentary_index.py` already knows.
+- **How:** most studies link references to Blue Letter Bible today. A build hook can recognise those
+  links and the bare `Book ch:v` pattern and attach the pop-up, with the existing link as the
+  fallback when scripts are off. Versification needs care: a reference is read in the English
+  scheme, and `versification.py` already handles the books that differ.
+- **Size:** index only the verses the site cites, not the whole Bible.
+
+### 0.2 Word-study pop-up on an original-language word
+
+Click a Hebrew, Aramaic or Greek word in a study and get a quick word study without leaving the page.
+It gives the reader, in one place, detail that the studies currently spread unevenly through their
+prose.
+
+| Field | Source in hand |
+|---|---|
+| The word in its own script | `macula-hebrew-wlc`, `macula-greek-sblgnt` |
+| Transliteration and pronunciation | Not held consistently; STEPBible TAHOT/TAGNT (`open-data/stepbible-data`, raw-only today) carries transliteration and is the first place to look |
+| Occurrences in the OT and NT | `bible_concordance` with `count_only` |
+| Common meaning | Lemma glosses in the MACULA data |
+| Louw-Nida / SDBH domain | `morphology.domain_code` |
+| Strong's number and TWOT root | Morphology tables and the TWOT root map |
+
+- **The hard part is marking the words up.** Studies write a word as `<span dir="rtl">…</span>` or
+  inline Greek followed by *(transliteration, H/G number)*, but not uniformly. Keying the pop-up on
+  the Strong's number already written beside most words is the cheapest reliable hook; a sweep can
+  add the number where it is missing.
+- **Counts must come from the build, never from a study's own sentence**, so the pop-up stays right
+  when a study's claim is wrong. That also gives validator checks 18-19 a cross-check.
+
+### 0.3 Key Takeaways: the remaining two parts
+
+The first part is done: every Key Takeaways section now opens with one line saying it follows the
+format, with a link to [Key Takeaways](key-takeaways.md) (2026-09-27, 50 studies).
+
+- **Refresh the format page's example.** [Key Takeaways](key-takeaways.md) names the Melchizedek
+  study as where the format was first built out, and draws its type example from it. The
+  2026-09-25/26 studies ([Know the Truth](../christian-life/know-the-truth.md),
+  [The Restrainer](../last-things/the-restrainer.md)) now show the format better: pick one as the
+  worked example.
+- **Point each prayer to the prayer study.** Add one line above each `### Prayer` heading linking to
+  [Prayer: Communion and the Habit It Sustains](../christian-life/prayer-as-communion.md), the same
+  way the Key Takeaways line was normalised: one fixed wording, applied by script, relative link
+  adjusted per file.
+
+### 0.4 New studies shown apart from updated ones
+
+Updates happen daily, so a new study gets lost among them. Readers, and the author, should be able
+to see what is new this month.
+
+- **The data is already there.** `date_created` is in every hand-written page's frontmatter,
+  derived from git by `refresh_frontmatter_provenance.py`.
+- **One catch:** `date_created` is the first commit, and a study forked or drafted weeks before it
+  is published would count as old on the day it goes live. "New" should mean *first published*:
+  the commit that set `draft: false`. `generate_recent_updates.py` already reads git log and can find
+  that commit.
+- **Ideas to choose from:**
+    - a "New this month" list above "Recently updated" on the
+      [Recent updates](recent-updates.md) page, and a matching block in the homepage teaser;
+    - a small "New" badge on a page for 30 days after publication, added by the build hook;
+    - a "New studies" feed once the blog (0.5) exists.
+
+### 0.5 A blog
+
+A place for shorter posts alongside the studies, built on mkdocs-material's own blog plugin.
+
+- **Setup:** the `blog` plugin is part of mkdocs-material, so no new dependency. Add it to
+  `plugins:` in `mkdocs.yml`, create `docs/content/blog/index.md` and a `posts/` folder, and give
+  it a nav entry through awesome-pages.
+- **Drafts:** the blog plugin honours `draft: true` on posts by itself. Check that
+  `hooks/draft_pages.py` does not also act on posts, or they will be handled twice.
+- **Docs to update:** AGENTS.md says "this site has no blog" in its note on draft handling; that
+  line changes when this lands.
+- **Deploy:** posts live under `docs/`, so the existing path filter already deploys them.
+- **Decide first:** categories, authors, whether posts get the Key Takeaways shape (probably not),
+  and whether a post can be the first draft of a study.
 
 ## 1. Scripture
 
@@ -182,7 +284,7 @@ and lets a cited edge vanish under someone's feet.
 
 #### Deliverables, in order — each one gated on the last proving out
 
-1. **Gap detector.** For a study, take `primary_passage` + `bible_references`, pull typed edges,
+1. **Gap detector.** *Built:* `references/build/study_gaps.py` and the `review_gaps` MCP tool. For a study, take `primary_passage` + `bible_references`, pull typed edges,
    subtract what the study already cites, and report what the tradition connects that we never
    mention. A `query.py` subcommand plus an MCP wrapper, consumed by review-bible-study. No
    database, no visualisation, plain text output.
@@ -210,7 +312,8 @@ because it indexes words rather than references.
 
 #### Prerequisite
 
-Only 46 of 102 content pages carry `primary_passage` and 49 carry `bible_references`. Every step
+75 of 134 hand-written pages now carry `primary_passage` and 80 carry `bible_references` (up from
+46 and 49 of 102; counted 2026-09-27). Every step
 above is bounded by that coverage, so filling it in is the cheapest first move — and it improves the
 existing commentary index immediately.
 
@@ -235,37 +338,12 @@ existing commentary index immediately.
 - Prophet, priest, king
 - Future
 
-### 2.2 Priest of the order of Melchizedek
-
-Christ's priesthood as a distinct order from the Levitical one (Genesis 14, Psalm 110,
-Hebrews 5-7) — not yet scoped beyond that.
-
 ### 2.3 Jesus' attitude toward women
 
 How Jesus treats women across the Gospels, against the norms of his day — not yet scoped beyond
 that.
 
-## 3. Spiritual beings
-
-### 3.1 Nephilim
-
-- What they are
-- Other biblical references that are related — e.g. the Rephaim
-- Did they survive the flood?
-    - Not by strength — Genesis 6-7 is clear that all flesh outside the ark perished
-    - Possibly by genetic pollution recurring after the flood (cf. Numbers 13:33, Deuteronomy
-      2-3, 2 Samuel 21) — worth investigating rather than assuming
-- Are they still around?
-- What extra-biblical Jewish tradition says about the Nephilim — e.g. the Book of Enoch's
-  account, the most extensive we have. It's held by New Testament authors (Jude quotes it
-  directly) as generally true but not as Scripture.
-
 ## 4. Salvation
-
-### 4.1 Assurance of salvation
-
-The question and assurance of salvation: there is no other name by which we may be saved
-(Acts 4:12), and it is not by our works (Ephesians 2:8-9).
 
 ### 4.2 On death
 
@@ -280,7 +358,26 @@ Notes to work through:
 - Moses and Elijah with Jesus at the Transfiguration
 - The parable of the rich man speaking with Abraham and Lazarus (Luke 16:19-31)
 
-Verses to gather and compare as the study takes shape — not started yet.
+**In progress:** *At Home with the Lord* (`last-things/at-home-with-the-lord.md`) is drafted
+(2 Corinthians 5:1-8, the believer with Christ between death and resurrection). Still to fold in
+from the notes above: the thief on the cross, Moses and Elijah at the Transfiguration, and Luke 16.
+
+### 4.3 Faith
+
+What the Bible means by faith, across both Testaments.
+
+- **Words:** Hebrew <span dir="rtl">אָמַן</span> (*ʾaman*, H539), whose hiphil is "believed" at
+  Genesis 15:6, and its noun <span dir="rtl">אֱמוּנָה</span> (*ʾemunah*, H530, faithfulness); Greek
+  πίστις (*pistis*, G4102) and πιστεύω (*pisteuō*, G4100). The Hebrew root carries firmness and
+  reliability, which is why "faith" and "faithfulness" share it.
+- **Anchor texts:** Genesis 15:6 (Abraham believed, and it was counted to him as righteousness);
+  Habakkuk 2:4, which the New Testament quotes three times (Romans 1:17, Galatians 3:11,
+  Hebrews 10:38); and Hebrews 11, read as that chapter's own definition (11:1) followed by its
+  examples.
+- **Questions to work through:** faith and works in Romans 4 beside James 2; whether faith is itself
+  a gift (Ephesians 2:8-9, where the grammar is debated); faith as trust in a Person.
+- **Links:** [Assurance of Salvation](../salvation/assurance-of-salvation.md) and
+  [Know the Truth](../christian-life/know-the-truth.md).
 
 ## 5. Last things
 
@@ -312,9 +409,37 @@ Verses to gather and compare as the study takes shape — not started yet.
 - Objective is the plundering of Israel
 - Who —
 
-### 5.3 The last trumpet
+### 5.4 The Olivet Discourse, regrouped by the disciples' questions
 
-Meaning of the last trumpet in 1 Corinthians 15 and 1 Thessalonians 4.
+[The Olivet Discourse](../last-things/olivet-discourse.md) was cut back and given an outline on
+2026-09-26, and it still does not leave the reader thinking "that is what Jesus was saying".
+
+- **Group by the questions asked.** Matthew 24:3 puts three to Jesus: when will "these things" (the
+  temple's fall, 24:2) be, what will be the sign of His coming, and what will be the sign of the
+  close of the age. Arranged under those three, each answer can be read against the question it
+  answers. Luke 21:7 has only the temple question, which is part of why the parallels differ.
+- **Or group by the events answered.** The temple's fall; the time of distress; the coming of the
+  Son of Man; the hour no one knows. Either way, the reader should reach the end able to say which
+  part of the discourse answers which question.
+- **Which skill:** if the sentences can stay, this is **read-bible-study** (regroup, change no
+  sentence). If the argument itself needs re-ordering, it is a redraft through
+  **develop-bible-study**. Decide after one read against the question grouping.
+- The note that raised this broke off mid-sentence ("at the moment the…"). Finish it before starting.
+
+### 5.5 The age to come
+
+What the New Testament means by "the age to come", and how it relates to the millennium and the
+eternal state.
+
+- **Texts:** Matthew 12:32 ("this age or the age to come"); Ephesians 1:21; Hebrews 6:5 ("the powers
+  of the age to come"); Mark 10:30 and Luke 18:30 (eternal life "in the age to come"); Luke 20:34-35.
+  Verify each wording against the ESV before quoting.
+- **Word:** αἰών (*aiōn*, G165), and the phrase ὁ αἰὼν ὁ μέλλων.
+- **Background:** the Jewish two-age frame, "this world" and "the world to come" (*ʿolam ha-ba*),
+  as in the Mishnah's "all Israel has a share in the world to come" (m. Sanhedrin 10:1). Cite from a
+  primary source.
+- **Links:** [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) (the seventh
+  day as the millennium), and the Olivet Discourse's "close of the age" (Matthew 24:3).
 
 ## 6. Feasts
 
@@ -330,22 +455,11 @@ Meaning of the last trumpet in 1 Corinthians 15 and 1 Thessalonians 4.
 
 - [ ] Passover (Pesach)
 - [ ] Unleavened Bread
-- [ ] Firstfruits
+- [ ] Firstfruits — drafted, in review (`feasts/firstfruits.md`)
 - [ ] Weeks / Pentecost (Shavuot)
-- [ ] Trumpets (Yom Teruah)
+- [x] Trumpets (Yom Teruah) — [published](../feasts/trumpets.md)
 - [ ] Day of Atonement (Yom Kippur)
 - [ ] Tabernacles (Sukkot)
-
-## 7. Biblical figures
-
-### 7.1 Twelve disciples
-
-- Name and meaning
-- Calling order
-- Background
-- Significance
-- Key verse
-- Takeaway / lesson
 
 ## 8. Sources & tooling
 
@@ -401,10 +515,85 @@ The current study is very light.
 
 ## 10. Christian life
 
-### 10.1 Know the truth
+### 10.2 Where two or three are gathered
 
-- What is truth: the Hebrew and Greek words
-- There is truth; how it is expressed in ot and nt, and by jesus
-- Objective truth can be known
-- Truth sets you free from lies and confusion
-- The devil wants you to stay unaware of the truth, and will deceive those who do not hold fast to it
+> ✝️ [Matthew 18:20 (ESV)](https://www.blueletterbible.org/esv/mat/18/20)
+>
+> 20 For where two or three are gathered in my name, there am I among them.
+
+This verse is often quoted as though Jesus needs at least two people present to be with them, or to
+make prayer effective. The study should teach what Jesus actually said.
+
+- **Context first:** 18:20 closes a paragraph about a brother who sins (18:15-20): go to him alone,
+  then with one or two others, then tell it to the church. "Two or three" echoes the law's
+  requirement of two or three witnesses (Deuteronomy 19:15, which Jesus quotes at 18:16). The
+  promise of His presence stands behind the church's judgement in that process.
+- **Word study:** συνάγω (*synagō*, "gather", the root of *synagogue*) and "in my name".
+- **Cultural background:** the Jewish saying that the Divine Presence rests on even two who study
+  the law together (m. Avot 3:2, 3:6). Jesus' promise has the same shape, with Himself in that
+  place. Cite from a primary source.
+- **Pastoral landing:** a believer praying or worshipping alone is not alone. Jesus promised to be
+  with His disciples always (Matthew 28:20), and the Spirit dwells in each believer (1 Corinthians
+  6:19). The call to meet together (Hebrews 10:24-25) stands alongside that. The study should say
+  both.
+
+### 10.3 Religion and the Way
+
+We are called to know Jesus, who is the truth, and so to have assurance of life in Him. Religion as
+self-effort offers a moral code to live by instead.
+
+- **Self-effort and pride:** works as a trap that feeds pride, in the self and in one's religion
+  (Ephesians 2:8-9; Luke 18:9-14, the Pharisee and the tax collector).
+- **What God desires:** a broken and contrite heart (Psalm 51:17); also Isaiah 66:2 and
+  Micah 6:6-8.
+- **Handle the word carefully.** James uses θρησκεία (*thrēskeia*, "religion") positively: pure
+  religion is to visit orphans and widows and keep oneself unstained from the world (James 1:27).
+  So the study cannot rest on the English word "religion". It has to say affirmatively what God asks
+  for.
+- **Links:** [The Way](../jesus/the-way.md) (the name the first believers took),
+  [Assurance of Salvation](../salvation/assurance-of-salvation.md),
+  [Know the Truth](../christian-life/know-the-truth.md), and 10.4.
+
+### 10.4 "I stand at the door and knock"
+
+> ✝️ [Revelation 3:20 (ESV)](https://www.blueletterbible.org/esv/rev/3/20)
+>
+> 20 Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come
+> in to him and eat with him, and he with me.
+
+A study on Jesus seeking His people. He is not meant to stand outside, and the answer is a contrite
+heart that opens the door.
+
+- **Context first:** the verse is addressed to a church, Laodicea (Revelation 3:14-22), whose members
+  thought themselves rich and needing nothing (3:17). It is most often preached as an invitation to
+  the unconverted. Set out both uses and say which the text supports; the context favours a call to
+  a complacent church first.
+- **Word and background:** δειπνέω (*deipneō*, "eat, dine"), a shared evening meal as fellowship;
+  and Laodicea's lukewarm water supply, which the letter's "neither cold nor hot" draws on.
+- **Links:** 10.3 (religion and a contrite heart), and [The Way](../jesus/the-way.md).
+
+## Completed
+
+Kept here so that an old reference like "work on 3.1" still resolves.
+
+| Ref | Item | Now |
+|---|---|---|
+| 2.2 | Priest of the order of Melchizedek | [Jesus, Priest in the Order of Melchizedek](../jesus/melchizedek-priesthood.md) |
+| 3.1 | Nephilim | [The Nephilim](../spiritual-beings/nephilim.md) |
+| 4.1 | Assurance of salvation | [Assurance of Salvation](../salvation/assurance-of-salvation.md) |
+| 5.3 | The last trumpet | [The Trumpet Call of God](../last-things/trumpet.md) |
+| 7.1 | Twelve disciples | [The Twelve: Disciples and Apostles](../biblical-figures/twelve-apostles.md), with a page per apostle |
+| 10.1 | Know the truth | [Know the Truth](../christian-life/know-the-truth.md) |
+| 0.3 (part) | Normalise the Key Takeaways opening line | Done across 50 studies, 2026-09-27 |
+
+
+### They were given white robes
+
+Develop a study on the white robes of the saints. This is not an insignifiancet thing - it is mentioned allot in the bible.
+
+- In what contexts is it mentioned
+- What group of people is it
+- What does it mean 
+- is it the gift given by God
+- what are the parralells; the transfiguration?
+- 
