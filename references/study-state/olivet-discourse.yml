@@ -2,7 +2,7 @@ slug: "olivet-discourse"
 title: "The Olivet Discourse"
 status: published  # corrected 2026-09-26: page frontmatter is draft: false and the page is live
 target_path: "docs/content/last-things/olivet-discourse.md"
-word_budget: 5000  # set 2026-09-26 -- see simplify_2026-09-26.budget_reason
+word_budget: 5200  # raised 2026-09-28 -- see simplify_2026-09-26.budget_reason
 # Two-file study, agreed with user 2026-08-29:
 #   File A (this state file's target_path): occasion, synoptic comparison (same event vs
 #     divergent emphasis), narrative context of each account, temple destruction prophecy +
@@ -478,6 +478,8 @@ simplify_2026-09-26:
     one sign, the day no one knows, and Mark's four watches to Gethsemane. Every remaining section
     serves or supports the point; cutting further would drop question one or the Gethsemane close.
     The insight pass then added ~240 words. Raised to 5,000.
+    2026-09-28 (backlog 5.4): "Which question the flight answers" added ~160 words, taking
+    it to 5,129. Author accepted the size. Raised to 5,200.
   point: >
     The Father has fixed the day by His own authority, and Jesus, whose word about the temple came true
     stone for stone, will come as the one sign nobody needs pointed out -- so His disciples stay awake
