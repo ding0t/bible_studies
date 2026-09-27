@@ -1,12 +1,35 @@
 slug: "melchizedek-in-second-temple-judaism"
 title: "Melchizedek in Second Temple Judaism"
-status: draft
+status: review
 target_path: "docs/content/scripture/melchizedek-in-second-temple-judaism.md"
+
 primary_passage: "Psalm 110:4"
+supporting_passages: ["Genesis 14:17-20", "Psalm 76:2", "Psalm 82:1-8", "Isaiah 61:1", "Luke 4:18-21", "John 10:34-36", "Hebrews 1:13", "Hebrews 5:11", "Hebrews 7:1-27", "Hebrews 10:12-13"]
+genre: [topical, psalm, ot-narrative, epistle]
+
 point: >
-  Before Hebrews was written, Jewish readers of Genesis 14 and Psalm 110 had built three different
-  Melchizedeks -- Qumran's heavenly redeemer (11Q13), Philo's Logos, Josephus's historical king --
-  and Hebrews reads Genesis 14's silences as a designed resemblance to the Son instead.
+  Before Hebrews was written, Jewish readers of Genesis 14 and Psalm 110 had built several different
+  Melchizedeks -- Qumran's heavenly redeemer (11Q13), the Genesis retellings, the Hasmonean
+  priest-kings, Philo's Logos, Josephus's historical king -- and Hebrews reads Genesis 14's silences
+  as a designed resemblance to the Son and Psalm 110's oath as kept in Jesus.
+
+thesis: >
+  Second Temple Jews read Genesis 14 and Psalm 110 as a promise of a coming priest-king and reached
+  for a heavenly deliverer, a divine Word or a righteous king of Jerusalem; Hebrews 7 shows that God
+  kept His sworn oath in His Son Jesus, the one priest "forever" who is all three, so you can draw
+  near to God through Him.
+outline:
+  - {section: "Key Takeaways", says: "Type (made like the Son) and prophecy (the oath); four lessons about Jesus; Ps 110:4 and Heb 7:25"}
+  - {section: "The two texts", says: "Gen 14:18-20 and Ps 110:4, the silences (no genealogy, ambiguous tither) and the one question every later reader answers"}
+  - {section: "Qumran: a heavenly Melchizedek", says: "11Q13's catena (Jubilee, Isa 61, Ps 82, Isa 52, Dan 9) builds an end-times redeemer on the name; caution on elohim; Johnson's chronology attributed"}
+  - {section: "Genesis retold", says: "Genesis Apocryphon fills the gaps (Salem = Jerusalem, tithe from the spoil); Jubilees 13:25 keeps the tithe and loses the man (contested why)"}
+  - {section: "Priest-kings in Jerusalem", says: "1 Macc 14:41 and As. Mos. 6:1: Hasmoneans take the title; their 'forever' has an expiry clause, God's oath has none"}
+  - {section: "Philo and Josephus", says: "Allegory and history"}
+  - {section: "What Hebrews does with the same texts", says: "Reads the silence (made like the Son), reads the oath (indestructible life, once-for-all, intercession), answers what each reader reached for, contested knowledge of 11Q13, the King still to reign"}
+  - {section: "Discussion Questions", says: "Six: language, context, Christ, the hard part, be transformed"}
+word_budget: 4000
+word_budget_reason: ""
+
 stages:
   forked:
     done: true
@@ -16,9 +39,137 @@ stages:
       subsections, incl. "What Hebrews does with this material", moved verbatim with footnote
       11q13 and the "Second Temple and classical sources" references). Verified in the parent; the
       11Q13 catena came from Ken Johnson (BibleFacts) and was cross-checked verse by verse there.
-  todo:
-    done: false
+  scoping:
+    done: true
     notes: >
-      Needs develop-bible-study: opening, thesis, Key Takeaways, discussion questions, provenance
-      frontmatter. Check the Genesis Apocryphon paragraph has a source. On publish, link it from the
-      parent's plain-text pointer (Psalm 110 section).
+      Topical study of the reception of Genesis 14 / Psalm 110 between the Testaments, landing in
+      Hebrews 7. Placement scripture/ (extra-biblical texts). Primary passage kept as Psalm 110:4,
+      the oath every witness is reading.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Gen 14 context and Ps 110 (Davidic royal psalm, title verified) are covered at length in the
+        parent study; summarised here with a link. Salem = Jerusalem via Ps 76:2 (ESV verified) and
+        the Genesis Apocryphon's own gloss. Hasmonean joint office: 1 Macc 14:41 (KJV Apocrypha, on
+        disk) and As. Mos. 6:1 (Charles, on disk); NIV CBSB Gen 14:18 note for the Hasmonean appeal
+        to Melchizedek.
+    literary_context:
+      done: true
+      notes: >
+        Heb 5:11 introduces the Melchizedek material as hard to explain; G3198 occurs 8x, all Heb
+        5:6-7:17. Heb 1:13 uses Ps 110:1 against the angels -- the basis for the contested question
+        whether Hebrews answers angelic-Melchizedek speculation.
+    content_word_studies:
+      done: true
+      notes: "Routine terms only; the fuller word studies live in the parent."
+      terms:
+        - {word: "דְּרוֹר", language: hebrew, transliteration: "derôr", strongs_id: "H1865", gloss: "liberty, release", notes: "7 occurrences in 6 verses: Lev 25:10, Isa 61:1, Jer 34:8, 34:15, 34:17 (x2), Ezek 46:17 (macula-hebrew-wlc). Exod 30:23 in morphhb is the homonym 'flowing (myrrh)'."}
+        - {word: "מַלְכִּי־צֶדֶק", language: hebrew, transliteration: "malkî-ṣedeq", strongs_id: "H4442", gloss: "Melchizedek", notes: "Only Gen 14:18 and Ps 110:4."}
+        - {word: "ἀφωμοιόω", language: greek, transliteration: "aphōmoioō", strongs_id: "G871", gloss: "make like", notes: "Heb 7:3 perfect passive participle; ULT 'made like'."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Extra-biblical readings are witnesses to how Jews read Scripture, never sources of doctrine."
+    theological_principle:
+      done: true
+      notes: >
+        God keeps His sworn oath, and keeps it in a person: Jesus is the priest forever by an
+        indestructible life, whose one offering and continuing intercession let you draw near to God.
+        Consistent with statement-of-faith.md (End times: Christ's return to reign, Rev 19:11-16,
+        20:1-6) -- the Ps 110:2 rule from Zion is placed at the return.
+    application_draft:
+      done: true
+      notes: "Be Transformed: trust God's oath-keeping; hear other readers' longing as a question Jesus answers; draw near through Jesus in prayer."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Hebrews 1:13", relation: "Ps 110:1 used against angels"}
+      - {ref: "Luke 4:18-21", relation: "Isaiah 61:1 fulfilled; the 11Q13 catena's key text"}
+      - {ref: "John 10:34-36", relation: "Psalm 82:6 in Jesus' mouth"}
+    translations_compared: ["ESV", "ULT (interlinear)", "MT"]
+    divergences_noted: "Gen 14:20 Hebrew 'he gave him' leaves the tither unnamed; ESV supplies 'Abram', as Heb 7:4 does."
+  drafting:
+    done: true
+    file: "docs/content/scripture/melchizedek-in-second-temple-judaism.md"
+    notes: >
+      2026-09-27 develop pass: added opening, thesis, Key Takeaways, Study outline, 'The two texts',
+      'Genesis retold' (Genesis Apocryphon now sourced from disk; Jubilees 13:24-25 new), 'Priest-kings
+      in Jerusalem' (new), Hebrews section expanded (oath, intercession, contested knowledge of 11Q13,
+      the King still to reign), Discussion Questions, References. Fixed moved-text errors: Luke 4:19
+      had been quoted as "the acceptable year of the Lord" (KJV wording) under an ESV label -- now ESV
+      "the year of the Lord's favor"; Psalm 82:1 had a hybrid wording -- now ESV; "three threads --
+      Jubilee law, a psalm, two oracles" miscounted -- now "Jubilee law, a psalm and three
+      prophecies"; unsourced Michael comparison cut; divine pronouns recased.
+  review:
+    done: false
+    validated: true # npm run validate: no findings for this file; mkdocs build --strict passed (draft dropped)
+
+evidence:
+  - {id: luke4-19-esv, what: "ESV Luke 4:19 (moved text had KJV wording)", tool: study_verse, args: {book: Luke, chapter: 4, verse: 19, work_id: esv-study-bible}, expect_contains: "to proclaim the year of the Lord's favor", checked: 2026-09-27}
+  - {id: luke4-21-esv, what: "ESV Luke 4:21", tool: study_verse, args: {book: Luke, chapter: 4, verse: 21, work_id: esv-study-bible}, expect_contains: "Today this Scripture has been fulfilled in your hearing", checked: 2026-09-27}
+  - {id: ps82-1-esv, what: "ESV Ps 82:1", tool: study_verse, args: {book: Ps, chapter: 82, verse: 1, work_id: esv-study-bible}, expect_contains: "God has taken his place in the divine council; in the midst of the gods he holds judgment", checked: 2026-09-27}
+  - {id: ps82-7-esv, what: "ESV Ps 82:7", tool: study_verse, args: {book: Ps, chapter: 82, verse: 7, work_id: esv-study-bible}, expect_contains: "like men you shall die", checked: 2026-09-27}
+  - {id: john10-34-esv, what: "ESV John 10:34", tool: study_verse, args: {book: John, chapter: 10, verse: 34, work_id: esv-study-bible}, expect_contains: "Is it not written in your Law, ‘I said, you are gods’?", checked: 2026-09-27}
+  - {id: john10-35-esv, what: "ESV John 10:35", tool: study_verse, args: {book: John, chapter: 10, verse: 35, work_id: esv-study-bible}, expect_contains: "to whom the word of God came", checked: 2026-09-27}
+  - {id: isa52-7-esv, what: "ESV Isa 52:7", tool: study_verse, args: {book: Isa, chapter: 52, verse: 7, work_id: esv-study-bible}, expect_contains: "How beautiful upon the mountains are the feet of him who brings good news", checked: 2026-09-27}
+  - {id: dan9-25-esv, what: "ESV Dan 9:25", tool: study_verse, args: {book: Dan, chapter: 9, verse: 25, work_id: esv-study-bible}, expect_contains: "an anointed one, a prince", checked: 2026-09-27}
+  - {id: gen14-18-esv, what: "ESV Gen 14:18 block quote", tool: study_verse, args: {book: Gen, chapter: 14, verse: 18, work_id: esv-study-bible}, expect_contains: "And Melchizedek king of Salem brought out bread and wine. (He was priest of God Most High.)", checked: 2026-09-27}
+  - {id: gen14-19-esv, what: "ESV Gen 14:19", tool: study_verse, args: {book: Gen, chapter: 14, verse: 19, work_id: esv-study-bible}, expect_contains: "Blessed be Abram by God Most High, Possessor of heaven and earth", checked: 2026-09-27}
+  - {id: gen14-20-esv, what: "ESV Gen 14:20 supplies 'Abram'", tool: study_verse, args: {book: Gen, chapter: 14, verse: 20, work_id: esv-study-bible}, expect_contains: "And Abram gave him a tenth of everything.", checked: 2026-09-27}
+  - {id: gen14-20-heb, what: "Hebrew Gen 14:20 'he gave to him' with no named subject", tool: bible_interlinear, args: {book: Gen, chapter: 14, verse: 20}, path: text, expect_contains: "Then he gave to him a tenth of everything", checked: 2026-09-27}
+  - {id: ps76-2-esv, what: "ESV Ps 76:2 Salem // Zion", tool: study_verse, args: {book: Ps, chapter: 76, verse: 2, work_id: esv-study-bible}, expect_contains: "His abode has been established in Salem, his dwelling place in Zion.", checked: 2026-09-27}
+  - {id: ps110-1-esv, what: "ESV Ps 110:1 Davidic title", tool: study_verse, args: {book: Ps, chapter: 110, verse: 1, work_id: esv-study-bible}, expect_contains: "A Psalm of David.", checked: 2026-09-27}
+  - {id: ps110-2-esv, what: "ESV Ps 110:2", tool: study_verse, args: {book: Ps, chapter: 110, verse: 2, work_id: esv-study-bible}, expect_contains: "The LORD sends forth from Zion your mighty scepter", checked: 2026-09-27}
+  - {id: ps110-4-esv, what: "ESV Ps 110:4", tool: study_verse, args: {book: Ps, chapter: 110, verse: 4, work_id: esv-study-bible}, expect_contains: "The LORD has sworn and will not change his mind, “You are a priest forever after the order of Melchizedek.”", checked: 2026-09-27}
+  - {id: deror-count, what: "derôr H1865: 7 occurrences, incl. Lev 25:10, Isa 61:1", tool: bible_concordance, args: {strongs: H1865, work_id: macula-hebrew-wlc}, expect_min: 7, checked: 2026-09-27}
+  - {id: melchizedek-ot, what: "H4442 only Gen 14:18 and Ps 110:4", tool: bible_concordance, args: {strongs: H4442, work_id: morphhb-wlc}, expect_min: 2, checked: 2026-09-27}
+  - {id: melchizedek-nt-count, what: "G3198 8x, all Hebrews 5:6-7:17", tool: bible_concordance, args: {strongs: G3198, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 8", checked: 2026-09-27}
+  - {id: heb7-3-greek, what: "Heb 7:3 aphomoiomenos 'made like'", tool: bible_interlinear, args: {book: Heb, chapter: 7, verse: 3}, expect_contains: "ἀφωμοιωμένος", checked: 2026-09-27}
+  - {id: heb1-13-esv, what: "ESV Heb 1:13", tool: study_verse, args: {book: Heb, chapter: 1, verse: 13, work_id: esv-study-bible}, expect_contains: "to which of the angels has he ever said", checked: 2026-09-27}
+  - {id: heb5-11-esv, what: "ESV Heb 5:11", tool: study_verse, args: {book: Heb, chapter: 5, verse: 11, work_id: esv-study-bible}, expect_contains: "About this we have much to say, and it is hard to explain, since you have become dull of hearing.", checked: 2026-09-27}
+  - {id: heb6-19-esv, what: "ESV Heb 6:19", tool: study_verse, args: {book: Heb, chapter: 6, verse: 19, work_id: esv-study-bible}, expect_contains: "the inner place behind the curtain", checked: 2026-09-27}
+  - {id: heb6-20-esv, what: "ESV Heb 6:20", tool: study_verse, args: {book: Heb, chapter: 6, verse: 20, work_id: esv-study-bible}, expect_contains: "a high priest forever after the order of Melchizedek", checked: 2026-09-27}
+  - {id: heb7-2-esv, what: "ESV Heb 7:2", tool: study_verse, args: {book: Heb, chapter: 7, verse: 2, work_id: esv-study-bible}, expect_contains: "king of righteousness, and then he is also king of Salem, that is, king of peace", checked: 2026-09-27}
+  - {id: heb7-3-esv, what: "ESV Heb 7:3 block quote", tool: study_verse, args: {book: Heb, chapter: 7, verse: 3, work_id: esv-study-bible}, expect_contains: "but resembling the Son of God he continues a priest forever", checked: 2026-09-27}
+  - {id: heb7-4-esv, what: "ESV Heb 7:4", tool: study_verse, args: {book: Heb, chapter: 7, verse: 4, work_id: esv-study-bible}, expect_contains: "gave a tenth of the spoils", checked: 2026-09-27}
+  - {id: heb7-14-esv, what: "ESV Heb 7:14 (Judah)", tool: study_verse, args: {book: Heb, chapter: 7, verse: 14, work_id: esv-study-bible}, expect_contains: "our Lord was descended from Judah", checked: 2026-09-27}
+  - {id: heb7-16-esv, what: "ESV Heb 7:16", tool: study_verse, args: {book: Heb, chapter: 7, verse: 16, work_id: esv-study-bible}, expect_contains: "by the power of an indestructible life", checked: 2026-09-27}
+  - {id: heb7-21-esv, what: "ESV Heb 7:21", tool: study_verse, args: {book: Heb, chapter: 7, verse: 21, work_id: esv-study-bible}, expect_contains: "but this one was made a priest with an oath by the one who said to him", checked: 2026-09-27}
+  - {id: heb7-22-esv, what: "ESV Heb 7:22", tool: study_verse, args: {book: Heb, chapter: 7, verse: 22, work_id: esv-study-bible}, expect_contains: "This makes Jesus the guarantor of a better covenant.", checked: 2026-09-27}
+  - {id: heb7-24-esv, what: "ESV Heb 7:24", tool: study_verse, args: {book: Heb, chapter: 7, verse: 24, work_id: esv-study-bible}, expect_contains: "but he holds his priesthood permanently, because he continues forever.", checked: 2026-09-27}
+  - {id: heb7-25-esv, what: "ESV Heb 7:25 memory verse", tool: study_verse, args: {book: Heb, chapter: 7, verse: 25, work_id: esv-study-bible}, expect_contains: "he is able to save to the uttermost those who draw near to God through him, since he always lives to make intercession for them", checked: 2026-09-27}
+  - {id: heb7-27-esv, what: "ESV Heb 7:27", tool: study_verse, args: {book: Heb, chapter: 7, verse: 27, work_id: esv-study-bible}, expect_contains: "he did this once for all when he offered up himself", checked: 2026-09-27}
+  - {id: heb10-12-esv, what: "ESV Heb 10:12", tool: study_verse, args: {book: Heb, chapter: 10, verse: 12, work_id: esv-study-bible}, expect_contains: "he sat down at the right hand of God", checked: 2026-09-27}
+  - {id: heb10-13-esv, what: "ESV Heb 10:13", tool: study_verse, args: {book: Heb, chapter: 10, verse: 13, work_id: esv-study-bible}, expect_contains: "waiting from that time until his enemies should be made a footstool for his feet", checked: 2026-09-27}
+  - {id: john1-14-esv, what: "ESV John 1:14", tool: study_verse, args: {book: John, chapter: 1, verse: 14, work_id: esv-study-bible}, expect_contains: "And the Word became flesh and dwelt among us", checked: 2026-09-27}
+  - {id: esvsb-heb7-3, what: "ESVSB: Melchizedek an ordinary man, a type", tool: study_note, args: {book: Heb, chapter: 7, verse: 3, work_id: esv-study-bible}, expect_contains: "Melchizedek as an ordinary man", checked: 2026-09-27}
+  - {id: cbsb-gen14-18-hasmoneans, what: "NIV CBSB: Hasmoneans appealed to Melchizedek", tool: study_note, args: {book: Gen, chapter: 14, verse: 18, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "justified their priestly-royal prerogatives by reference to Melchizedek", checked: 2026-09-27}
+
+# Raw-only sources (not reachable by the evidence tools) -- checked by reading the files directly:
+#   references/open-data/scrollmapper-bible-databases-deuterocanonical/sources/en/
+#     genesis-apocryphon/genesis-apocryphon.md [1:101]-[1:102]: "He came to Salem; i.e., Jerusalem";
+#       "food and drink for Abram and for all the men who were with him"; "he gave to him a tenth of
+#       all the possessions of the king of Elam and his allies". INFO.md: translation by John C.
+#       Reeves (UNC Charlotte course page).
+#     book-of-jubilees/book-of-jubilees.md [13:24]-[13:25]: lacuna, then "for Abram, and for his seed,
+#       a tenth of the first fruits to the Lord ... give it to the priests"; no Melchizedek.
+#     1-maccabees/1-maccabees.md [14:41]: "governor and high priest for ever, until there should arise
+#       a faithful prophet".
+#     assumption-of-moses/assumption-of-moses.md [6:1]: "they shall call themselves priests of the
+#       Most High God".
+
+open_questions:
+  - "Philo (Leg. All. 3.79-82) and Josephus (Ant. 1.10.2) are not held on disk; their paragraphs are the moved text, verified in the parent, and were not re-verified here. Worth fetching public-domain Yonge (Philo) and Whiston (Josephus) into $BIBLE_MEDIA_ROOT/reference if these stay load-bearing."
+  - "11Q13 itself is not on disk. The phrase 'the sons of Heaven and the lot of Melchizedek' traces only to Ken Johnson's recorded study (references/biblefacts/11qmelchizadek.md, raw and uncitable). Check it against a published translation (Wise-Abegg-Cook or Garcia Martinez) before publishing."
+  - "Translator attributions for Jubilees and Assumption of Moses as R. H. Charles are inferred from the wording; the dataset's own INFO does not state them. Genesis Apocryphon translator (Reeves) is stated in its INFO.md; that translation is modern and quoted briefly."
+  - "The Zadok Calendar page attributes the 'one Shemittah after the ninth Jubilee' reading of 11Q13 to dsscalendar.org; this study (moved text) attributes it to Ken Johnson. Both may be right; the author should confirm which source to name."
+  - "Author decision: provenance fields (date_created etc.) were added to the file by something outside this session during drafting; left in place."
+  - "Parent's plain-text pointer (Psalm 110 section) should become a link when this is published."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Heb 7:3 (Melchizedek an ordinary man, a type) -- confirmed the reading; Ps 110:4 (mentions 11QMelchizedek) -- confirmed."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Gen 14:18 -- contributed the Hasmonean appeal to Melchizedek; Heb 7:3 -- argument from silence as a Jewish interpretive move."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Gen 14:18, Ps 110:4, Heb 7:3 -- confirmed."}
+  - {type: other, title: "scrollmapper deuterocanonical dataset", author: "various translators", note: "Genesis Apocryphon (Reeves), Jubilees and Assumption of Moses (Charles), 1 Maccabees (KJV Apocrypha)."}
+  - {type: other, title: "Ken Johnson, BibleFacts 11Q13 study (transcript)", author: "Ken Johnson", note: "Source of the 11Q13 catena in the moved text; raw, not cited directly."}
+last_updated: "2026-09-27"
