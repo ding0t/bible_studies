@@ -20,8 +20,8 @@
   "timeline_variants": {
     "mt": {
       "name": "Masoretic Text",
-      "description": "The default/primary timeline -- also the one docs/data/events.json and this site's zadok_year dating already assume.",
-      "confidence_label": "default",
+      "description": "The site's working chronology, adopted 2026-09-28 (Genesis 5 and 11 as the Masoretic Text gives them, Terah 205, Abram born when Terah was 130). Also the basis of docs/data/events.json and every published zadok_year. Justification: docs/content/god/flood-and-the-king-lists.md, 'Why this site follows the Masoretic numbers' -- Genesis 7:23 rules out the LXX's post-Flood Methuselah; SP and LXX share one secondary text type (Steinmann, JETS 64/1, 2021); their +100 shifts and SP's three Flood-year deaths are harmonizations; SP's Terah 145 reconciles Genesis 11:26 with Acts 7:4 by the same harmonizing habit.",
+      "confidence_label": "working (adopted 2026-09-28)",
       "based_on": [
         "mt"
       ],
@@ -43,24 +43,9 @@
       "based_on": [
         "sp"
       ],
-      "overrides": []
-    },
-    "harmonized_v1": {
-      "name": "Proposed synthesis (working)",
-      "description": "MT as the base, with one targeted SP substitution (Terah) where SP resolves an internal problem MT/LXX leave open. A second substitution (Methuselah) was removed 2026-09-06: it had been adopted to stop Methuselah outliving the Flood, but MT already has him dying in the Flood year exactly (dies AM 1656, Flood AM 1656) -- the 14-year overshoot is an LXX-only problem. Grafting SP's Methuselah onto an MT chain also carried SP's age-at-heir-birth of 67 (vs MT 187), shortening the chain to Noah by 120 years and leaving Methuselah dead 129 years BEFORE the Flood -- breaking the very correspondence it was adopted to protect.",
-      "confidence_label": "most probable (working -- not yet argued in the study)",
-      "based_on": [
-        "mt"
-      ],
-      "overrides": [
-        {
-          "person_id": "terah",
-          "adopts_tradition": "sp",
-          "reason": "SP's 145-year total lines up exactly with Terah dying the same year Abram (specifically) departs Haran at 75 (Genesis 12:4, Acts 7:4), without needing the '130 at Abram's birth' reinterpretation MT/LXX require."
-        }
-      ],
+      "overrides": [],
       "terah_to_abram": 70,
-      "terah_to_abram_reason": "SP's 145-year total plus Genesis 11:26's plain 70 puts Terah's death in Abram's 75th year, satisfying Acts 7:4 and Genesis 12:4 with no reinterpretation of 11:26."
+      "terah_to_abram_reason": "The Samaritan text's own reading: Terah 70 at Abram's birth (Genesis 11:26) plus Abram 75 at departure (Genesis 12:4) equals SP's 145-year total, so Terah dies as Abram leaves (Acts 7:4). Before 2026-09-28 this variant inherited the shared 130, which only the 205-year total needs; that put Abram's birth 15 years before SP's own Terah died and printed the SP Flood 60 years too early (2998 BC instead of 2938 BC)."
     }
   },
   "lineages": {
@@ -149,8 +134,8 @@
   },
   "chronology_scenarios": {
     "_comment": [
-      "TWO ORTHOGONAL AXES. timeline_variants above are MANUSCRIPT traditions (MT / LXX / SP /",
-      "harmonized). The scenarios here are ANCHORING decisions -- where the derived chain is pinned",
+      "TWO ORTHOGONAL AXES. timeline_variants above are MANUSCRIPT traditions (MT / LXX / SP;",
+      "harmonized_v1 retired 2026-09-28). The scenarios here are ANCHORING decisions -- where the derived chain is pinned",
       "to a Gregorian year, and which reading of Nahor's age is taken. A creation date is the product",
       "of one variant and one scenario, never of a variant alone.",
       "",
@@ -164,7 +149,7 @@
     "active": "ussher_published",
     "shared": {
       "terah_to_abram": 130,
-      "terah_to_abram_basis": "Acts 7:4 with Genesis 11:32 and Genesis 12:4 -- Abram left Haran after Terah died, so Terah's 205 years less Abram's 75 puts Abram's birth at Terah 130. Genesis 11:26's 70 names the first son born, not Abram. A variant may override this; harmonized_v1 does.",
+      "terah_to_abram_basis": "Acts 7:4 with Genesis 11:32 and Genesis 12:4 -- Abram left Haran after Terah died, so Terah's 205 years less Abram's 75 puts Abram's birth at Terah 130. Genesis 11:26's 70 names the first son born, not Abram. The sp variant overrides this with 70, because its own 145-year Terah needs no reinterpretation.",
       "abram_birth_to_exodus": 505,
       "abram_birth_to_exodus_basis": "Abram 75 at the call (Genesis 12:4) plus 430 years to the Exodus (Galatians 3:17; Exodus 12:40 in LXX and the Samaritan Pentateuch, 'in Egypt and in Canaan').",
       "shem_birth_basis": "gen_11_10",
@@ -190,7 +175,7 @@
         ],
         "against": [
           "1491 BC is Ussher's Exodus, reached before the Assyrian synchronism was available. The site itself uses 1446 BC in prophecy-events-times.md and ancient-texts-manuscripts.md, so the repo is internally inconsistent on this number.",
-          "Keeps Nahor at 29, which is the Masoretic reading standing alone against three witnesses.",
+          "Keeps Nahor at 29. The SP and Codex Alexandrinus read 79 (Theophilus 75), but that is MT's 29 plus 50 with the years-after reduced by 50 -- the same compensating shift SP makes for Shelah through Serug -- so on Steinmann's reading (JETS 64/1, 2021) it confirms 29 rather than outvoting it.",
           "Year 6000 has already passed, which falsifies the six-days-of-history framework in day-is-a-thousand-years.md and day-is-near.md."
         ]
       },
@@ -210,26 +195,26 @@
           "Narrows the standing day-is-near.md discrepancy from 79 years to 34."
         ],
         "against": [
-          "Keeps Nahor at 29 against SP, Codex Alexandrinus and Theophilus.",
+          "Keeps Nahor at 29 against SP, Codex Alexandrinus and Theophilus -- though that reading is best explained as the SP/LXX +50 harmonization of MT's 29 (see a_double_prime).",
           "Moves every published zadok_year by 45 years.",
           "Zadok 4000 falls at AD 42, outside the Nativity bracket, losing that correspondence."
         ]
       },
       "a_double_prime": {
-        "name": "A'' -- better-attested Nahor on the standard Exodus",
-        "status": "tracked alternate",
+        "name": "A'' -- Nahor 79 on the standard Exodus",
+        "status": "tracked alternate (rationale weakened 2026-09-28)",
         "anchor_exodus_bc": 1446,
         "nahor_age_at_terah_birth": 79,
-        "nahor_source": "Samaritan Pentateuch and LXX Codex Alexandrinus (Theophilus of Antioch gives 75). Masoretic 29 stands alone; Brenton/Vaticanus 179 looks like the familiar +100.",
+        "nahor_source": "Samaritan Pentateuch and LXX Codex Alexandrinus (Theophilus of Antioch gives 75); Brenton/Vaticanus 179 is a further +100. The three agree because SP and LXX descend from one secondary text type (Steinmann, JETS 64/1, 2021: 96 shared secondary readings in Genesis), so they count as one witness, and 79 = MT 29 + 50 with years-after reduced by 50 to keep MT's total 148 -- a harmonization, not independent attestation.",
         "derived_creation_bc_mt": 4009,
         "am_of_ad_2026": 6034,
         "year_6000_falls": "AD 1992",
         "for": [
-          "Takes the better-attested reading at the one place where the Masoretic Text is the lone witness -- the same principle harmonized_v1 already applies elsewhere.",
           "Uses the standard 1446 BC Exodus with no adjustment.",
           "Lands within 5 years of the published 4004 BC epoch, so the correction to existing zadok_years is small."
         ],
         "against": [
+          "Its original rationale -- 'the better-attested reading where MT stands alone' -- does not survive: the agreeing witnesses are one text type, and 79 follows the same +50/-50 compensating pattern SP applies across Genesis 11.",
           "Year 6000 has already passed (AD 1992), so the six-days framework does not survive.",
           "Zadok 4000 falls at 9 BC, outside the Nativity bracket.",
           "Still requires every published zadok_year to be recomputed."
@@ -254,6 +239,14 @@
           "Recorded so the option is visible and its cost is on the record, not as a recommendation."
         ]
       }
+    }
+  },
+  "retired_timeline_variants": {
+    "harmonized_v1": {
+      "retired": "2026-09-28",
+      "was": "MT base with one SP substitution (Terah 145, read with Genesis 11:26's plain 70). Flood 2288 BC, creation 3944 BC on the Ussher anchor.",
+      "why_retired": "The author adopted the Masoretic numbers throughout, Terah included. SP's 145 is read as one more SP harmonization of Genesis 11:26 with 12:4 and Acts 7:4 (Steinmann, JETS 64/1, 2021, 36-37), and MT's 205 with Abram born when Terah was 130 satisfies Acts 7:4 without it. With the substitution dropped the variant was identical to mt, so it was removed. An earlier Methuselah substitution had already been reverted on 2026-09-06 (see genealogy-times.md).",
+      "previous_description": "MT as the base, with one targeted SP substitution (Terah) where SP resolves an internal problem MT/LXX leave open. A second substitution (Methuselah) was removed 2026-09-06: it had been adopted to stop Methuselah outliving the Flood, but MT already has him dying in the Flood year exactly (dies AM 1656, Flood AM 1656) -- the 14-year overshoot is an LXX-only problem. Grafting SP's Methuselah onto an MT chain also carried SP's age-at-heir-birth of 67 (vs MT 187), shortening the chain to Noah by 120 years and leaving Methuselah dead 129 years BEFORE the Flood -- breaking the very correspondence it was adopted to protect."
     }
   }
 }

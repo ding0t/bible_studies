@@ -17,7 +17,6 @@ const VARIANT_META = {
   mt: { label: 'Masoretic Text', color: '#2563eb' },
   lxx: { label: 'Septuagint', color: '#7c3aed' },
   sp: { label: 'Samaritan Pentateuch', color: '#059669' },
-  harmonized_v1: { label: 'Proposed synthesis', color: '#d97706' },
 };
 
 const EPOCH_META = {
@@ -35,7 +34,7 @@ function studyUrl(studyRef) {
 }
 
 export default function MillennialWeek({ events = [] }) {
-  const [activeVariants, setActiveVariants] = useState(['mt', 'harmonized_v1']);
+  const [activeVariants, setActiveVariants] = useState(['mt', 'lxx']);
   const [activeEpochs, setActiveEpochs] = useState(['genealogy', 'millennial_2075']);
   const [showAnchors, setShowAnchors] = useState(true);
   const [showMilestones, setShowMilestones] = useState(true);
@@ -65,7 +64,7 @@ export default function MillennialWeek({ events = [] }) {
         people: mergePeopleWithVariant(genealogyPeople, variantId).filter(
           // == null, not !== null: a person absent from this variant's tradition has undefined
           // year fields rather than null, and undefined slipping through draws a lane bar at
-          // NaN coordinates. Cainan son of Arphaxad is LXX-only, so MT/SP/synthesis hit this.
+          // NaN coordinates. Cainan son of Arphaxad is LXX-only, so MT and SP hit this.
           (p) => p.gregorian_year_born != null && p.gregorian_year_died != null
         ),
       })),

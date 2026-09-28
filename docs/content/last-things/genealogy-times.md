@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:35-38", "Ezra 7:1-5", "Ruth 4:18-22", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Acts 13:19-21", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
 date_created: 2026-07-24
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -60,8 +60,8 @@ apply past Terah, because Genesis stops giving one.
 - **The Septuagint (LXX)**, in the Brenton edition — the pre-Christian Greek translation, whose
   Genesis 5 and 11 numbers diverge from MT's in a strikingly patterned way (below).
 - **The Samaritan Pentateuch (SP)** — preserved independently by the Samaritan community, and
-  the least commonly consulted of the three, but not the least interesting: it resolves the Terah
-  problem MT and LXX both leave open, and it corroborates MT's Methuselah result by an entirely
+  the least commonly consulted of the three, but not the least interesting: it smooths the Terah
+  puzzle MT and LXX read with Acts 7:4, and it corroborates MT's Methuselah result by an entirely
   different set of numbers (both below).
 
 All figures below were queried directly from this repo's `references/build/bible-text.db`
@@ -240,6 +240,8 @@ Terah's death and Abram's departure land on the same year without any harmonizin
 Both resolutions work internally. MT/LXX's requires reading past the plain sense of one verse to
 save the numbers; SP's numbers already match the plain sense of that same verse. That asymmetry
 deserves sitting with, not resolving by picking whichever number is more familiar.
+This site now reads the asymmetry as the mark of a harmonizing scribe and follows the Masoretic
+205; see [Following the Masoretic numbers](#following-the-masoretic-numbers) below.
 
 A translator's note reaches the same place independently. The *NLT Life Application Study Bible*
 carries a textual note at Genesis 11:32 reading "Some ancient versions read 145 years; compare
@@ -280,28 +282,39 @@ the temptation, and it is a real one.
 
 ## Toward a most probable timeline
 
-### Adopting SP for Terah
+### Following the Masoretic numbers
 
-Three real manuscript traditions and a fourth option — synthesizing rather than simply picking
-one — are laid out in `docs/data/genealogy/index.json`'s `timeline_variants`. This study's
-working position, `harmonized_v1`, takes MT as the base (matching this site's existing
-`zadok_year` convention and `docs/data/events.json`) and adopts SP's reading in exactly one
-place:
+**Since 2026-09-28 this site follows the Masoretic Text for every number in Genesis 5 and 11,
+Terah included.** The full case, with the confidence each part carries, is in
+[The Flood and the King Lists](../god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers).
+In brief:
 
-1. **Terah** — because SP's 145-year total resolves the Abram-departure puzzle without requiring
-   Genesis 11:26 to be read against its own stated birth-order.
+- **Scripture's own test.** Only the eight in the ark survive the Flood (Genesis 7:23; 1 Peter
+  3:20). The Septuagint as printed keeps Methuselah alive fourteen years past it, so it cannot be
+  the original there. The Masoretic arithmetic lands his death in the Flood year exactly.
+- **Scribal habits.** Andrew Steinmann's collation of every variant in Genesis (*JETS* 64/1, 2021)
+  finds the fewest secondary readings in the Masoretic and the most in the Septuagint, with the
+  Samaritan and Greek sharing enough secondary readings to mark them as one text type. When those
+  two agree against the Hebrew they count once.
+- **The patterns.** The Septuagint's +100 in Genesis 5 keeps every total unchanged, and the
+  Samaritan has Jared, Methuselah and Lamech all die in its Flood year. Both look like editors
+  solving problems. So does the shared +100 in Genesis 11, which thins out the crowd of long-lived
+  ancestors the Hebrew leaves around Abraham.
+- **Terah.** The Samaritan 145 reconciles Genesis 11:26 with Acts 7:4, which is the same
+  harmonizing habit at work. The Masoretic 205 already satisfies Acts 7:4 once Abram, named first
+  for his importance, is read as born when Terah was 130 ([above](#terah-and-abram-a-puzzle-two-different-ways)).
 
-The substitution is adopted *because* it resolves a demonstrable internal problem in the base
-reading, not because SP is available, older in places, or shorter. That filter is what keeps the
-rest of SP out: the Shelah-through-Serug redistribution pattern and the three-way split at Nahor
-are left alone, because nothing about those numbers resolves a contradiction the way Terah's
-does. Adopting a reading only where it earns its keep is the point of calling this a *proposed
-synthesis* rather than crowning one manuscript the winner.
+This replaced a working synthesis, `harmonized_v1`, that took the Masoretic base and the Samaritan
+Terah on the grounds that the Samaritan figure resolved the Abram puzzle without reinterpretation.
+That ground is real, and it is also exactly what a harmonizing scribe would produce, so it cannot
+count as evidence the reading is original. With the Terah substitution dropped, `harmonized_v1`
+was identical to the Masoretic variant and was retired. The record of why is kept in
+`docs/data/genealogy/index.json` under `retired_timeline_variants`.
 
 ### The Methuselah substitution, reverted
 
 **A second substitution was removed on 2026-09-06, for the following reason.** `harmonized_v1`
-previously took SP's Methuselah as well, on the stated grounds that SP was the only tradition
+(retired 2026-09-28) had also taken SP's Methuselah as well, on the stated grounds that SP was the only tradition
 avoiding a Methuselah who outlives the Flood. That premise was wrong: as the section above now
 shows, MT already has him dying in the Flood year exactly, and the 14-year overshoot is an LXX-only
 defect. The substitution was fixing a problem the base text did not have. It also did real damage,
@@ -321,7 +334,7 @@ and is absolute, so a variant with a longer chain from Adam to Terah puts creati
 Gregorian terms. It does not push the Flood later. Until this correction the generator applied a
 single fixed offset of 4004 years to every variant, which held creation still and slid everything
 downstream — publishing the Septuagint Flood at 1762 BC, several centuries *after* the Masoretic
-one, when its longer genealogies require the opposite. All four variants are now anchored on one
+one, when its longer genealogies require the opposite. Every variant is now anchored on one
 downstream point, the Exodus, and each creation date falls out of its own chain length.
 
 Computed results (`references/build/genealogy_chronology.py`, anchored on the Exodus at 1491 BC,
@@ -331,14 +344,21 @@ Terah to Abram per Acts 7:4, Abram's call to the Exodus per Galatians 3:17):
 | --- | --- | --- | --- |
 | MT | 4004 BC | 1656 / 2348 BC | 2083 / 1921 BC |
 | LXX | 5470 BC | 2242 / 3228 BC | 3549 / 1921 BC |
-| SP | 4305 BC | 1307 / 2998 BC | 2324 / 1981 BC |
-| **harmonized_v1** | **3944 BC** | **1656 / 2288 BC** | **2023 / 1921 BC** |
+| SP | 4245 BC | 1307 / 2938 BC | 2324 / 1921 BC |
+
+The SP row is read on the Samaritan text's own terms, Terah 70 at Abram's birth and 145 at death.
+Before 2026-09-28 the generator gave SP the Masoretic reading of Terah (130 at Abram's birth), which
+the 145-year total does not need, and printed SP creation at 4305 BC and its Flood at 2998 BC.
 
 The gap between MT's and LXX's Flood dates is now 880 years, and it runs the other way: the
 Septuagint puts the Flood *before* Egypt's First Dynasty rather than a millennium after it.
+That holds only for the Septuagint as printed. Without the second Cainan, which
+[the Cainan question](#the-cainan-question) above treats as an insertion, its Flood falls at
+3098 BC, level with Egypt's First Dynasty, and with Nahor's better-attested Greek 79 at 2998 BC,
+after it. [The Flood and the King Lists](../god/flood-and-the-king-lists.md) weighs the three texts.
 "The biblical timeline" is not a single settled number even before archaeology enters the
-picture. Three of the four variants agree on Terah's death because they share the anchor and the
-chain from Terah forward is identical; they diverge only above him, which is the whole point.
+picture. All three variants agree on Terah's death because they share the anchor and the chain
+from Terah forward; they diverge only above him, which is the whole point.
 
 ### Two choices behind the numbers
 
@@ -346,23 +366,23 @@ Two figures behind these numbers are choices rather than manuscript readings, an
 stated in `docs/data/genealogy/index.json` with their scriptural basis rather than buried in
 code. Shem's birth is taken from Genesis 11:10 ("two years after the flood," Shem then 100)
 rather than from Genesis 5:32's summary that Noah fathered three sons after his 500th year; the
-two differ by 2 years and that slack propagates to every date below Shem. And `harmonized_v1`
-alone reads Terah's 70 in Genesis 11:26 plainly, because the Samaritan 145-year total it adopts
-already puts Terah's death in Abram's 75th year — which is the reason that substitution was made
-in the first place.
+two differ by 2 years and that slack propagates to every date below Shem. And the Samaritan
+variant alone reads Terah's 70 in Genesis 11:26 plainly, because its own 145-year total already
+puts Terah's death in Abram's 75th year; the Masoretic and Septuagint variants take Abram's birth
+at Terah 130.
 
 ### What stays open
 
-This is presented as the working answer, not the final one — the state file behind this study
-(`references/study-state/genealogy-times.yml`) tracks it as `harmonized_v1`, open to revision if
-a better-justified case for a different substitution turns up. The Exodus anchor itself is open:
+The manuscript question is settled for this site's purposes (above); the state file behind this
+study (`references/study-state/genealogy-times.yml`) records the decision. The Exodus anchor is
+still open:
 1491 BC is Ussher's, and reproduces the 4004 BC epoch this site already publishes, but the site
 uses 1446 BC elsewhere, which would move Masoretic creation to 3959 BC. That decision is tracked
 in `references/study-state/genealogy-calendar-review.yml`.
 
 **One outstanding item, deliberately not smoothed over yet:** [The Day is
 Near](day-is-near.md#when-is-the-year-6000) uses a different creation epoch again (~3925 BC)
-than any of the four variants above. Reconciling that is future work, tracked but not resolved
+than any of the three variants above. Reconciling that is future work, tracked but not resolved
 here.
 
 ## The Exodus-to-Solomon gap: genealogy as a check on the Judges chronology
@@ -514,9 +534,9 @@ predicted the Flood by its own arithmetic. The pattern around him does, on a lar
 whole genealogy does. It is a real record of real people, shaped by a real author, tracking a
 promise. Twenty-some centuries after its last recorded chapter, that promise is still being kept.
 
-The specific date question — whether creation was 4004, 5470, or 4305 years before Christ on
-this study's three witnesses, or the 3944 BC that `harmonized_v1` implies — stays open, and is
-reported as open above. What doesn't stay open is the shape
+The specific date question has a working answer: creation in 4004 BC on the Masoretic numbers
+and the Ussher anchor, against 5470 and 4245 BC on the other two witnesses, with the Exodus anchor
+still open above. What doesn't stay open is the shape
 of the claim: a single traceable line, named generation by generation, carrying a promise from
 Eden to an empty tomb. The math was always in service of that; it was never the point on its
 own.
@@ -527,7 +547,7 @@ The genealogical reasoning above was worked out without `prophecy-events-times.m
 archaeological anchors (Qarqar, Sennacherib, the Babylonian and Persian records), so that
 anchor-based dating could not bias which manuscript readings looked more probable. Now that the
 genealogical case stands on its own, linking the
-two — checking where `harmonized_v1`'s numbers land relative to Thiele's Qarqar-anchored
+two — checking where the Masoretic numbers land relative to Thiele's Qarqar-anchored
 chronology for the divided monarchy, for instance — is the natural next step, and is tracked as open
 work in the state file.
 

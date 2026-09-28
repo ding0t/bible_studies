@@ -1,6 +1,6 @@
 """Walks the Genesis 5 / Genesis 11 genealogy chain (Adam through Terah) and computes
 zadok_year/gregorian_year born-and-died for every person, once per named timeline_variant
-in docs/data/genealogy/index.json (mt, lxx, sp, harmonized_v1, ...).
+in docs/data/genealogy/index.json (mt, lxx, sp, ...).
 
 This is the generator half of a source-of-truth split: antediluvian.json and the first ten
 records of patriarchal.json hold only raw per-tradition textual facts (age_at_heir_birth,

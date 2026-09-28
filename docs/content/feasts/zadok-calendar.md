@@ -6,7 +6,7 @@ tags: ["zadok", "calendar", "dead-sea-scrolls", "enoch", "jubilees", "chronology
 draft: false
 bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticus 25:8-13", "2 Samuel 8:17", "1 Kings 2:35", "Ezekiel 44:15", "Daniel 9:24-27"]
 date_created: 2026-07-19
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -123,10 +123,13 @@ Gregorian year. 1491 BC is Ussher's own figure, reached before the Assyrian sync
 1446 BC follows from 1 Kings 6:1's 480 years, counted back from Solomon's fourth year, itself fixed
 by the astronomically dated eclipse of 763 BC. That is the date this site already uses in [Prophecy:
 Events and Times](../last-things/prophecy-events-times.md). The *Nahor* column is his age at Terah's
-birth. There the Masoretic 29 stands alone against 79 in both the Samaritan Pentateuch and LXX Codex
-Alexandrinus, with Theophilus of Antioch at 75.
+birth. The Masoretic 29 stands against 79 in both the Samaritan Pentateuch and LXX Codex
+Alexandrinus, with Theophilus of Antioch at 75. That agreement counts as one witness: the
+Samaritan and Greek descend from one text type, and 79 is the Masoretic 29 plus 50 with the years
+after reduced by 50 to keep its total, the same compensating shift the Samaritan makes for Shelah
+through Serug (Andrew Steinmann, *JETS* 64/1, 2021). The site keeps 29.
 
-`a_double_prime_exact` reaches the published epoch while also taking the better Nahor reading, but
+`a_double_prime_exact` reaches the published epoch while also taking the Nahor 79 reading, but
 only by moving Solomon's fourth year from 966 to 961 BC. That is inside the spread of Israelite
 regnal chronology. It is still a five-year adjustment made to land on a number chosen in advance.
 The two correspondences it preserves are therefore artifacts of the adjustment rather than evidence

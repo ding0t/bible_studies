@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 11:10-32"
 bible_references: ["Genesis 5:1-32", "Genesis 7:11", "Genesis 11:10-32", "Genesis 12:4", "Exodus 12:40-41", "1 Kings 6:1", "Acts 7:4", "Galatians 3:17"]
 date_created: 2026-08-22
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -41,7 +41,7 @@ Above Terah the method changes completely. Genesis 5 and 11 give a father's age 
 flowchart LR
     subgraph E["ELASTIC — the count varies by manuscript"]
         direction TB
-        A["Creation<br/>3944-5470 BC<br/>depending on the tradition"] --> B["The Flood"] --> C["Babel"]
+        A["Creation<br/>4004-5470 BC<br/>depending on the tradition"] --> B["The Flood"] --> C["Babel"]
     end
     subgraph R["RIGID — the dates are fixed by anchors"]
         direction TB
@@ -88,33 +88,38 @@ flowchart TD
 
 Anno Mundi year and Gregorian date both move here, and they move together. Figures are from this repo's own generator under the active epoch scenario.
 
-| Event | Masoretic | Septuagint | Samaritan | harmonized_v1 |
-|---|---|---|---|---|
-| Creation | AM 0 · 4004 BC | AM 0 · 5470 BC | AM 0 · 4305 BC | AM 0 · 3944 BC |
-| Enoch born | AM 622 · 3382 BC | AM 1122 · 4348 BC | AM 522 · 3783 BC | AM 622 · 3322 BC |
-| Noah born | AM 1056 · 2948 BC | AM 1642 · 3828 BC | AM 707 · 3598 BC | AM 1056 · 2888 BC |
-| The Flood (Genesis 7:11) | AM 1656 · 2348 BC | AM 2242 · 3228 BC | AM 1307 · 2998 BC | AM 1656 · 2288 BC |
-| Peleg born | AM 1757 · 2247 BC | AM 2773 · 2697 BC | AM 1708 · 2597 BC | AM 1757 · 2187 BC |
-| Terah born | AM 1878 · 2126 BC | AM 3344 · 2126 BC | AM 2179 · 2126 BC | AM 1878 · 2066 BC |
-| **Abram born** | **AM 2008 · 1996 BC** | **AM 3474 · 1996 BC** | **AM 2309 · 1996 BC** | **AM 1948 · 1996 BC** |
+| Event | Masoretic (the site's working chronology) | Septuagint | Samaritan |
+|---|---|---|---|
+| Creation | AM 0 · 4004 BC | AM 0 · 5470 BC | AM 0 · 4245 BC |
+| Enoch born | AM 622 · 3382 BC | AM 1122 · 4348 BC | AM 522 · 3723 BC |
+| Noah born | AM 1056 · 2948 BC | AM 1642 · 3828 BC | AM 707 · 3538 BC |
+| The Flood (Genesis 7:11) | AM 1656 · 2348 BC | AM 2242 · 3228 BC | AM 1307 · 2938 BC |
+| Peleg born | AM 1757 · 2247 BC | AM 2773 · 2697 BC | AM 1708 · 2537 BC |
+| Terah born | AM 1878 · 2126 BC | AM 3344 · 2126 BC | AM 2179 · 2066 BC |
+| **Abram born** | **AM 2008 · 1996 BC** | **AM 3474 · 1996 BC** | **AM 2249 · 1996 BC** |
+
+The site follows the Masoretic numbers. The reasons, and the confidence each carries, are set out
+in [The Flood and the King Lists](../god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers).
+Until 2026-09-28 a fourth path, `harmonized_v1`, took the Samaritan age for Terah; it has been
+retired.
 
 The stretch itself is what varies. Measured in years from creation to Abraham's birth:
 
 ```mermaid
 xychart-beta
     title "Length of the elastic zone — creation to Abraham, in years"
-    x-axis ["harmonized_v1", "Masoretic", "Samaritan", "Septuagint"]
+    x-axis ["Masoretic", "Samaritan", "Septuagint"]
     y-axis "years" 0 --> 3600
-    bar [1948, 2008, 2309, 3474]
+    bar [2008, 2249, 3474]
 ```
 
-The Septuagint's chain is half as long again as the Samaritan's, and three-quarters longer than `harmonized_v1`'s. Which of them preserves the older figures is a text-critical question, not an arithmetical one, and [Genealogy and Times](genealogy-times.md) works through the evidence — including the finding that the Samaritan Pentateuch sides with the Masoretic Text six times to nil in Genesis 5 and with the Septuagint six times to nil in Genesis 11, which is why the two chapters cannot be decided as one block.
+The Septuagint's chain is half as long again as the Samaritan's, and about three-quarters longer than the Masoretic's. Which of them preserves the older figures is a text-critical question, not an arithmetical one, and [Genealogy and Times](genealogy-times.md) works through the evidence — including the finding that the Samaritan Pentateuch sides with the Masoretic Text six times to nil in Genesis 5 and with the Septuagint six times to nil in Genesis 11, which is why the two chapters cannot be decided as one block.
 
 ## The hinge: why they all agree about Abraham
 
 Every tradition puts Abram's birth at 1996 BC, to the year. That is not a coincidence and it is not evidence that the traditions agree — it is the anchoring working as designed. The chain from Abraham forward to the Exodus uses figures none of the traditions dispute: Abram 75 at the call (Genesis 12:4), 430 years to the Exodus (Exodus 12:40-41; Galatians 3:17), and Terah's age at Abram's birth derived from Acts 7:4. So fixing the Exodus fixes Abraham, and every variant inherits that date whatever it does above him.
 
-Terah is the last person for whom Genesis supplies an age at his heir's birth, so he is where the two methods meet. Three of the four traditions even converge on his birth year as well; `harmonized_v1` differs only because it reads Genesis 11:26's seventy plainly, which the Samaritan Terah's 145-year total allows.
+Terah is the last person for whom Genesis supplies an age at his heir's birth, so he is where the two methods meet. The Masoretic and Septuagint also converge on his birth year. The Samaritan puts it 60 years later because it reads Genesis 11:26's seventy plainly, which its own 145-year Terah allows.
 
 ## The rigid zone: Abraham to now
 
@@ -150,7 +155,7 @@ The two open questions are independent. Nothing about choosing a manuscript trad
 
 ## References & Recommended Reading
 
-- [Genealogy and Times](genealogy-times.md) — the manuscript evidence for the elastic zone, and the four timeline variants.
+- [Genealogy and Times](genealogy-times.md) — the manuscript evidence for the elastic zone, and the three timeline variants.
 - [Chronology Anchors](chronology-anchors.md) — the forty-one datable events below Abraham, with tiers and error bars.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) — the calendar these Anno Mundi years are counted in, and the four epoch scenarios.
 - [A Day Is a Thousand Years](day-is-a-thousand-years.md) — the millennial-week reading, and why the epoch question bears on it.

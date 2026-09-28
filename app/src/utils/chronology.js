@@ -10,7 +10,6 @@ import chronology from '../../../docs/data/chronology.json' with { type: 'json' 
 import mtVariant from '../../../docs/data/genealogy/generated/mt.json' with { type: 'json' };
 import lxxVariant from '../../../docs/data/genealogy/generated/lxx.json' with { type: 'json' };
 import spVariant from '../../../docs/data/genealogy/generated/sp.json' with { type: 'json' };
-import harmonizedVariant from '../../../docs/data/genealogy/generated/harmonized_v1.json' with { type: 'json' };
 import genealogyIndex from '../../../docs/data/genealogy/index.json' with { type: 'json' };
 import antediluvian from '../../../docs/data/genealogy/antediluvian.json' with { type: 'json' };
 import patriarchal from '../../../docs/data/genealogy/patriarchal.json' with { type: 'json' };
@@ -25,7 +24,6 @@ export const VARIANTS = {
   mt: mtVariant,
   lxx: lxxVariant,
   sp: spVariant,
-  harmonized_v1: harmonizedVariant,
 };
 
 export const GENEALOGY_INDEX = genealogyIndex;

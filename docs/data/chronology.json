@@ -124,6 +124,20 @@
       "gregorian_year": -1208,
       "evidence": "Earliest extra-biblical mention of Israel as a people in Canaan -- a terminus ante quem for the conquest, not a date for the Exodus itself",
       "study_ref": "studies/prophecy/prophecy-events-times"
+    },
+    {
+      "id": "egypt_dynasty1_aha",
+      "label": "Egypt's First Dynasty begins (accession of Aha, radiocarbon)",
+      "gregorian_year": -3085,
+      "evidence": "Dee et al., Proc. R. Soc. A 469 (2013) 20130395: 3111-3045 BC at 68% (3218-3035 BC at 95%), median 3085 BC. Before the Flood on the MT (2348 BC), SP (2938 BC) and Cainan-free LXX (2998-3098 BC) chronologies; only Brenton's LXX with the second Cainan (3228 BC) precedes it. Radiocarbon estimate, not a synchronism -- a weaker anchor class than the others in this list.",
+      "study_ref": "god/flood-and-the-king-lists"
+    },
+    {
+      "id": "djoser_accession",
+      "label": "Djoser's accession (Old Kingdom, radiocarbon)",
+      "gregorian_year": -2658,
+      "evidence": "Bronk Ramsey et al., Science 328 (2010) 1554-1557: 211 short-lived samples, Bayesian model, accession 2691-2625 BC (midpoint shown). About 310 years before the MT Flood date. Radiocarbon estimate, not a synchronism.",
+      "study_ref": "god/flood-and-the-king-lists"
     }
   ],
   "milestones": [

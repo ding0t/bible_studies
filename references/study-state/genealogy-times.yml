@@ -418,3 +418,11 @@ style_pass_2026_08_22:
     is exactly the class of error a style pass is most likely to introduce -- a new summary sentence
     written for rhythm and not checked against the numbers it summarises.
   not_changed: "Substance untouched. No figure, citation, argument or conclusion was altered other than the corrected 1,466."
+
+decision_2026-09-28_masoretic_chronology:
+  decided_by: author (via coordinator), 2026-09-28
+  decision: >
+    The site follows the Masoretic Text for every number in Genesis 5 and 11, Terah included (205,
+    Abram born at Terah 130). harmonized_v1 (MT + SP Terah 145) retired; working Flood 2288 -> 2348 BC,
+    creation 3944 -> 4004 BC, Abram AM 1948 -> AM 2008 (1996 BC unchanged).
+  justification: "docs/content/god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers"

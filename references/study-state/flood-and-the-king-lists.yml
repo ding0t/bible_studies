@@ -1,10 +1,10 @@
 slug: "flood-and-the-king-lists"
-title: "The Flood and the King Lists: Egypt, Sumer and the Genesis Chronology"
-status: drafting
+title: "The Flood and the King Lists: Which Genesis Numbers to Trust"
+status: published # 2026-09-28, author approved
 target_path: "docs/content/god/flood-and-the-king-lists.md"
-primary_passage: "Genesis 11:10-26"
+primary_passage: "Genesis 5:1-32; Genesis 11:10-26"
 forked_from: "docs/content/god/world-population-declares-gods-creation-and-biblical-truth.md"
-point: "The archaeological conflict with a 2348 BC Flood is largely a Masoretic-numbers problem: the Septuagint's longer genealogies put the Flood before Egypt's First Dynasty, though not before predynastic Egypt or Jericho."
+point: "Tested first by Scripture's own consistency, the Masoretic Text preserves Genesis 5 and 11 best; no defensible reading puts the Flood before Egypt's First Dynasty, so the archaeological conflict is real under every text."  # superseded the fork's LXX-resolves-it point on 2026-09-28
 stages:
   forked:
     done: true
@@ -19,4 +19,142 @@ stages:
       opening, "In one sentence:" thesis, Key Takeaways and discussion questions; draft: true until
       then. When published, turn the plain-text pointer in the parent into a link.
 open_questions: []
-last_updated: "2026-09-26"
+last_updated: "2026-09-28"
+
+review_2026-09-28:
+  reviewer: "review-bible-study skill, full pass on the unfinished fork (draft: true, never developed)"
+  verdict: >
+    NOT READY. Plainly unfinished: no opening, no "In one sentence:" thesis, no Key Takeaways,
+    no discussion questions, an editorial fork note still at the top, and no Scripture quoted at
+    all. Needs develop-bible-study before any further review. No missing content was written here.
+  phase_1_scripture: "No block quotes or inline Scripture quotations to check."
+  phase_2_citations: >
+    NIV Cultural Backgrounds SB note on Gen 11:1 verified verbatim (study_note): "the whole universe
+    in unison spoke to Enlil in one tongue" and "Nothing else in this account parallels the tower of
+    Babel". Bronk Ramsey et al., Science 328 (2010) 1554-1557, 211 measurements, Djoser 2691-2625 BC:
+    consistent with the parent's verified record. Table arithmetic re-run (752/552/322/212 years).
+    Sumerian King List 8 antediluvian kings / 241,200 years matches WB 444. NOT independently
+    verifiable here and inherited from the parent's review: Redford's caution "before Ramesses II"
+    (odd as phrased, since the canon itself dates to Ramesses II), Manetho's "some 5,500 years", and
+    "seven pre-Sargonic rulers attested". Dendrochronology and varves are asserted in the opening and
+    never argued or cited anywhere in the file.
+  phase_3_word_study: "None in the file."
+  phase_4_synthetic_claims: >
+    CRITICAL, FIXED: the MT/LXX pattern paragraph was false. Checked against docs/data/genealogy
+    (morphhb-wlc vs ebible-grcbrent) and Brenton Gen 11:12-13, 11:24: the +100 shift covers Adam,
+    Seth, Enosh, Kenan, Mahalalel, Enoch AND Shelah, Eber, Peleg, Reu, Serug as well as Arpachshad;
+    exceptions are Jared (0), Methuselah (-20), Lamech (+6), Noah, Shem, Terah (0), Nahor (+150),
+    plus the inserted Cainan. The stated motive ("where a 100-year shift would have carried
+    Methuselah's death past the Flood") was wrong twice: a shift at Jared moves his death and the
+    Flood equally, and the LXX's own 167 makes Methuselah outlive the Flood by 14 years
+    (genealogy-times.md table). Rewritten to state the pattern and point to genealogy-times.
+    Also fixed: Sargon "at the Flood" -> "14 years after" (2334 vs 2348); stale "required-rate
+    column above" now links the parent's #the-chronology; the unexplained 2148 BC dispersion labelled
+    as a modeled date. 3228 BC and 880-year gap recomputed clean (LXX Flood-to-Terah's-death 1307 yrs).
+  phase_5_commentary: "NIV CBSB (already cited) confirms the Enmerkar assessment. Nothing independent contradicts."
+  phase_6_context: >
+    Genre/occasion/literary context for Genesis 5 and 11 missing (expected for an undeveloped fork).
+    Footnote fork undisclosed: NLT footnotes Gen 11:10ff "Or the ancestor of", i.e. the gap reading
+    under which the genealogies give no chronology at all. Statement of faith: no conflict
+    (inerrancy is claimed for the original writing; choosing between MT and LXX numbers is a
+    textual-critical question it does not settle). review_gaps: crossref noise only.
+  siblings: >
+    OPEN FOR AUTHOR. (1) The LXX Flood at 3228 BC depends on the inserted second Cainan (130 yrs),
+    which genealogy-times.md "The Cainan question" argues is a later insertion; without him the LXX
+    Flood is c. 3098 BC, level with Dynasty 1 (c. 3100), and with Alexandrinus' Nahor 79 it is
+    c. 2998 BC, after it. The study's point ("before Egypt's First Dynasty") rests on both readings.
+    (2) The site's working chronology (genealogy-times harmonized_v1) keeps an MT Flood at 2288 BC,
+    so this study's LXX resolution runs against the reconstruction the site itself adopts.
+  phase_7_frontmatter: "Added method/textual-criticism tag. Placement in god/ is acceptable; provenance to be refreshed by the author's run."
+  phase_8_style: >
+    validate Check 20 warning (median sentence 23 words, 39% at 35+). Bold lead-ins narrate
+    ("A note on how those Flood dates are derived"); six "rather than" contrasts in ~1,500 words;
+    "actually" x3. Left for the develop pass since the prose will be reframed there.
+  size: "c. 1,520 words against the 4,000 default; fixes added c. 60."
+
+develop_2026-09-28:
+  skill: develop-bible-study, full pass on author instruction
+  author_instruction: >
+    "What makes most logical sense -- when we first trust scripture, and acknowledge which of the
+    texts is most accurate and why." Textual question made the spine; outside evidence only after
+    the recommendation.
+  genre: "OT narrative genealogy (Genesis 5; 11:10-26) with textual criticism; topical"
+  thesis: >
+    Tested first by Scripture's own consistency, the Masoretic Text preserves Genesis 5 and 11 best,
+    because the Septuagint and Samaritan numbers carry the marks of scribes solving problems; and
+    since no defensible reading moves the Flood before Egypt's First Dynasty, the conflict with
+    archaeology is real under every text and cannot be solved by changing manuscripts.
+  thesis_change: >
+    CONCLUSION CHANGED from the fork's point ("LXX puts the Flood before Dynasty 1"). That point
+    rested on Brenton's second Cainan (130 yrs), which genealogy-times.md and Steinmann reject.
+    Author to confirm.
+  outline:
+    - "Three witnesses: what MT/LXX/SP are; the four Flood dates"
+    - "What Scripture says: Gen 7:23 + 1 Pet 3:20 rule out LXX Methuselah; NT uses LXX wording (Heb 11:5, Acts 7:14) but cites no age; Luke 3:36 Cainan contested; Rom 3:2"
+    - "How each text was changed: Steinmann's 860-variant collation; LXX Gen 5 +100/-100; SP three deaths in AM 1307; Gen 11 +100 as fix for MT's crowded family; MT slips"
+    - "Recommendation with confidence levels: settled / strong / contested / gap view / Terah open"
+    - "Test: Egypt and Sumer (Dee 2013, Bronk Ramsey 2010, king-list reliability); no defensible text clears Aha"
+    - "Tree rings and varves: longer than every text; bearing on dating physics, not manuscripts"
+    - "Babel's archaeology (kept, short)"
+    - "What this shows about God"
+  word_budget: 4000
+  words: "c. 4,350 raw wc incl. References and outline; Check 23 silent (under budget as counted)"
+  resources_consulted:
+    - "Andrew E. Steinmann, JETS 64/1 (2021) 25-43 -- read in full (PDF). CONTRIBUTED the spine: secondary-reading counts (MT 58 / SP 272 / LXX 467; shared SP+LXX 96), Gen 5 and 11 analysis, Nahor +50, Terah 205, Eber 430 slip, Goettingen LXX Methuselah 167 and Nahor 79."
+    - "Lita Sanders, ARJ 18 (2025) 183-187 -- abstract only; confirms pro-MT case. Listed in reading, not relied on."
+    - "Henry B. Smith Jr., ICC 2018, 117-132 -- NOT read (403); cited only as the case for LXX, per Steinmann's citation."
+    - "Klein HTR 67 (1974); Hendel 1998 -- cited only as Steinmann cites them; not read."
+    - "Theophilus, To Autolycus 3.24 (ANF 2) and Africanus, Chronography fr. III-VIII (ANF 6) -- read from $BIBLE_MEDIA_ROOT patristics: Theophilus 167 / Flood 2242 / no Cainan / Nahor 75; Africanus 187 / Flood 2262 / no Cainan."
+    - "Dee et al. 2013 Proc R Soc A 469:20130395 -- Aha 3111-3045 BC (68%), 3218-3035 (95%), via search-result abstract text (publisher page 403)."
+    - "Reimer et al. 2020 Radiocarbon 62:725-757 (IntCal20); Bronk Ramsey et al. 2012 Science 338:370-374 (Suigetsu) -- bibliographic details verified by search; the 'beyond twelve thousand years' tree-ring statement is deliberately conservative."
+    - "ESV via study_verse: Gen 5:3-5, 5:24, 5:25-27, 7:6, 7:13, 7:23, 11:10-13, 11:26, 11:32, 12:4, 17:17, 21:5, 25:7; 1 Chr 1:24; Isa 40:8; Luke 3:35-38; Acts 7:4, 7:14; Rom 3:2; Heb 11:5; 1 Pet 3:20. Brenton LXX Gen 5:24, 11:12-14, 11:24. NA28 Luke 3:36."
+    - "ESV Study Bible notes Gen 5:1-32 (gap allowance; SKL reigns), Acts 7:14 (LXX 75); NIV CBSB Gen 11:1 (Enmerkar)."
+    - "bible_variants Gen 5 and Gen 11: no Dead Sea Scroll readings in this corpus."
+  arithmetic_checked: >
+    Via references/build/genealogy_chronology.py functions with ad hoc variants: MT 2348; harmonized
+    2288; LXX Brenton 3228; LXX minus Cainan 3098; minus Cainan with Nahor 79 2998; SP chain with its
+    own Terah (70 + 145) 2938 (generator prints 2998 because it applies terah_to_abram 130 to SP);
+    MT on 1446 Exodus 2303. MT family overlaps (Terah 130): Noah d. AM 2006, Abram b. 2008, Isaac b.
+    2108, Shem d. 2158, Abraham d. 2183, Eber d. 2187. SP Jared/Methuselah/Lamech all d. AM 1307.
+  timelines_added:
+    - "docs/data/chronology.json anchors: egypt_dynasty1_aha (-3085) and djoser_accession (-2658), no study_ref while draft."
+    - "docs/data/genealogy/antediluvian.json methuselah: discrepancy methuselah-167-or-187-witnesses."
+    - "docs/data/genealogy/patriarchal.json: arphaxad gen11-plus-100-harmonization; nahor nahor-plus-50-pattern; terah terah-145-as-harmonization."
+    - "No new timeline_variant: the recommendation is the existing mt variant; the data model cannot drop Cainan from the lxx chain without a code change."
+    - "genealogy-times.md: one plain-text paragraph qualifying 'LXX puts the Flood before Dynasty 1' (no link to this draft, so --strict stays green)."
+  at_publish:
+    - "Add study_ref 'god/flood-and-the-king-lists' to the two chronology.json anchors."
+    - "Frontmatter event: zadok_year 1656 / gregorian_year -2348 (MT Flood). Deliberately NOT added while draft: build-events.js does not filter drafts and would plant a 404 link on the live timeline."
+    - "Turn the plain-text pointers in world-population and genealogy-times into links."
+    - "Run read-bible-study in a separate session; then review-bible-study."
+  open_questions:
+    - "AUTHOR: confirm the changed conclusion (MT; conflict with Egypt unresolved under every text)."
+    - "AUTHOR: Terah 205 (MT, Steinmann) vs 145 (SP, genealogy-times harmonized_v1). Study states the tension and does not switch the site."
+    - "AUTHOR: a_double_prime scenario (Nahor 79) is argued on 'better attested'; Steinmann reads 79 as MT+50 harmonization, i.e. evidence FOR 29."
+    - "SITE BUG to report: SP variant uses shared terah_to_abram 130 with SP's 145 Terah; SP's own-terms Flood is 2938 BC, not 2998."
+    - "Fork candidate: the gap reading of wayyoled (ESV SB; Steinmann BSac 2017) deserves its own study."
+    - "Dendrochronology/varves: young-earth responses not cited; study marks the question unresolved."
+  human_review_weakest: "Essay register in the recommendation and testing sections; the antithesis count is low but the 'What this shows about God' section should be read aloud by the author."
+
+decision_2026-09-28:
+  decided_by: "author, via coordinator"
+  decision: >
+    Masoretic numbers for Genesis 5 and 11 adopted as the site's working chronology, Terah 205
+    included. harmonized_v1 retired (index.json retired_timeline_variants records why). Study
+    conclusion accepted; publish approved (coordinator flips draft).
+  justification_section: "## The recommendation -> ### Why this site follows the Masoretic numbers"
+  steinmann_counts_verified: >
+    860 variants (p. 26), secondary readings MT 58 / SP 272 / LXX 467 (p. 29), SP+LXX shared 96,
+    MT+SP 4, MT+LXX 2 (p. 34, Table 2) -- checked 2026-09-28 against the PDF of JETS 64/1 (2021)
+    fetched from etsjets.org. Note the article's own prose gives LXX 468 once (p. 33, "315 out of
+    468"); the study cites 467 as stated with the other two counts.
+  changes_made:
+    - "index.json: harmonized_v1 removed (-> retired_timeline_variants); mt description marks it the working chronology; sp gets terah_to_abram 70 (fixes SP 2998 -> 2938 BC, creation 4305 -> 4245); shared terah_to_abram_basis and a_double_prime / ussher_published / a_prime Nahor rationale reworded per Steinmann."
+    - "generated/harmonized_v1.json deleted; generated/sp.json regenerated."
+    - "chronology.js, MillennialWeek.jsx (default lanes mt + lxx), chronology.test.js, genealogy_chronology.py docstring."
+    - "chronology.json anchors now carry study_ref god/flood-and-the-king-lists."
+    - "Content: flood study, genealogy-times, combined-timeline, world-population, zadok-calendar, timeline.md, genealogy.md, index.md."
+    - "Frontmatter event added: zadok_year 1656, gregorian_year -2348."
+  not_changed:
+    - "Active epoch scenario (ussher_published, Exodus 1491 BC) -- MT dates and every published zadok_year are unchanged."
+    - "genealogy-times.md pre-existing inconsistency: its Terah section computes from Terah born 1876 (Gen 5:32 basis) while the generator uses 1878 (Gen 11:10 basis)."

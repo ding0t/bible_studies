@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 9:1-19"
 bible_references: ["Genesis 1:20-21", "Genesis 1:28", "Genesis 5:32", "Genesis 6:1", "Genesis 7:11", "Genesis 7:21", "Genesis 8:17", "Genesis 9:1-19", "Genesis 9:28-29", "Genesis 10:1-32", "Genesis 11:1-9", "Genesis 11:10", "Genesis 13:16", "Genesis 15:5", "Genesis 22:17", "Genesis 46:26-27", "Exodus 1:5-7", "Exodus 1:12", "Exodus 8:3", "Exodus 12:37-41", "Leviticus 11:29", "Leviticus 11:41-46", "Numbers 1:2-3", "Numbers 1:45-46", "Deuteronomy 10:22", "2 Samuel 24:9", "1 Chronicles 21:5", "Psalm 105:30", "Jeremiah 33:22", "Ezekiel 47:9", "Acts 7:14", "Acts 17:26", "Romans 1:20", "Galatians 3:16", "Galatians 3:17", "Galatians 3:29", "Hebrews 11:12", "Revelation 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -393,7 +393,7 @@ flowchart TD
     subgraph b["Flood to Abraham"]
       direction TB
       D["AM 1757 · 2247 BC<br/>Peleg born — the earth divided"] --> E["AM 1856 · 2148 BC<br/>Babel — the 70 clans scatter"]
-      E --> F["AM 1948 · 2056 BC<br/>Abraham born"]
+      E --> F["AM 2008 · 1996 BC<br/>Abraham born"]
     end
     subgraph c["Abraham to Christ"]
       direction TB
@@ -418,14 +418,13 @@ leaning on either, and the timeline uses the smaller.
 Three date questions are open. None of them changes the argument.
 
 **The Flood's date is not settled even inside this repo.**
-[Genealogy and Times](../last-things/genealogy-times.md) compares four reconstructions. Running
+[Genealogy and Times](../last-things/genealogy-times.md) compares three reconstructions. Running
 `r = ln(8.2×10⁹ / 6) / t` against each:
 
 | Reconstruction | Flood | Years to AD 2026 | Required rate | Doubling |
 |---|---|---|---|---|
 | Masoretic (Ussher) — this site's `zadok_year` base | 2348 BC | 4,374 | 0.481%/yr | 144 yrs |
-| `harmonized_v1` (MT with one Samaritan reading) | 2288 BC | 4,314 | 0.488%/yr | 142 yrs |
-| Samaritan Pentateuch | 2998 BC | 5,024 | 0.419%/yr | 166 yrs |
+| Samaritan Pentateuch | 2938 BC | 4,964 | 0.424%/yr | 164 yrs |
 | Septuagint | 3228 BC | 5,254 | 0.400%/yr | 173 yrs |
 
 An 880-year spread between the extreme readings moves the required rate by eight hundredths of a
@@ -462,7 +461,7 @@ by event, not to scale:
 ```mermaid
 xychart-beta
     title "World population, log10 scale (biblical chronology, Masoretic)"
-    x-axis ["4004 BC", "3004 BC", "2349 BC", "2348 BC", "2148 BC", "2056 BC", "1446 BC", "1055 BC", "AD 1", "AD 1200", "AD 1800", "AD 1950", "AD 2026"]
+    x-axis ["4004 BC", "3004 BC", "2349 BC", "2348 BC", "2148 BC", "1996 BC", "1446 BC", "1055 BC", "AD 1", "AD 1200", "AD 1800", "AD 1950", "AD 2026"]
     y-axis "log10(people)" 0 --> 10
     line [0.3, 4.6, 8.0, 0.8, 4.0, 4.7, 6.7, 7.5, 8.5, 8.7, 9.0, 9.4, 9.9]
 ```
@@ -537,8 +536,8 @@ Post-Flood benchmarks, each rate computed over the span since the previous row:
 |---|---|---|---|
 | Flood | 1656 / 2348 BC | 6 | — |
 | Babel | ~1856 / ~2148 BC | 10,000 | 3.71%/yr |
-| Abraham born | 1948 / 2056 BC | 50,000 | 1.75%/yr |
-| Exodus | 2558 / 1446 BC | 5,000,000 | 0.75%/yr |
+| Abraham born | 2008 / 1996 BC | 50,000 | 1.06%/yr |
+| Exodus | 2558 / 1446 BC | 5,000,000 | 0.84%/yr |
 | David | 2949 / 1055 BC | 30,000,000 | 0.46%/yr |
 | Christ | 4004 / AD 1 | 300,000,000 | 0.22%/yr |
 | — | 5204 / AD 1200 | 450,000,000 | 0.034%/yr |
@@ -679,8 +678,8 @@ that the biblical chronology can reach known benchmarks at rates humans have ach
 **Archaeology and king lists are the real friction.** Egyptian dynastic records, Mesopotamian king
 lists, dendrochronology and varve sequences show continuous occupation through the window a global
 Flood at 2348 BC and a dispersion at 2148 BC would need. Population arithmetic leaves those objections
-untouched. They are weighed, with the archaeology of Babel, in a separate study in preparation, *The
-Flood and the King Lists*.
+untouched. They are weighed, with the archaeology of Babel, in a separate study, [The
+Flood and the King Lists](flood-and-the-king-lists.md).
 
 #### Consistency is the argument's ceiling
 
@@ -762,6 +761,6 @@ word. So when you look at the crowd, you are looking at a promise kept, and you 
   nationwide census on record and the check that breaks the constant-rate model.
 - [Genealogy and Times](../last-things/genealogy-times.md) and
   [The Zadok Calendar](../feasts/zadok-calendar.md) on this site — the chronology and calendar
-  conventions these dates depend on, including the four Flood-date reconstructions.
+  conventions these dates depend on, including the three Flood-date reconstructions.
 - [What Creation Declares](creation-reveals-the-creator.md) — the companion study, arguing the same
   conclusion from design rather than demography.

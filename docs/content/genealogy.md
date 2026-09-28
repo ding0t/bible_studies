@@ -7,7 +7,7 @@ draft: false
 hide:
   - toc
 date_created: 2026-08-24
-date_modified: 2026-08-24
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -21,7 +21,7 @@ that connect them.
 
 Genesis 5 and 11 survive in three manuscript traditions that disagree about how many years separate
 creation from the Flood and from Abraham, so the dates are switchable: **MT** (Masoretic),
-**LXX** (Septuagint), **SP** (Samaritan Pentateuch), and this site's own proposed synthesis.
+**LXX** (Septuagint) and **SP** (Samaritan Pentateuch). The site follows the Masoretic numbers.
 Abraham onward is unaffected by that choice — Genesis gives no age-at-heir-birth figures past
 Terah. [Genealogy and Times](last-things/genealogy-times.md) sets out the evidence behind each
 tradition, and [Chronology Anchors](last-things/chronology-anchors.md) covers what can be dated

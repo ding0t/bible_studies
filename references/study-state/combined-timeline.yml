@@ -121,3 +121,11 @@ correction_2026_09_06: >
   harmonized_v1's" -- the verified 1.900x near-double relation was an artifact of the bad
   override, not a property of the text. The 1.505x LXX-to-SP ratio, the 19-generation count, the
   three-of-four Terah convergence at 2126 BC and every rigid-zone figure are unaffected.
+
+decision_2026-09-28_masoretic_chronology:
+  decided_by: author (via coordinator), 2026-09-28
+  decision: >
+    The site follows the Masoretic Text for every number in Genesis 5 and 11, Terah included (205,
+    Abram born at Terah 130). harmonized_v1 (MT + SP Terah 145) retired; working Flood 2288 -> 2348 BC,
+    creation 3944 -> 4004 BC, Abram AM 1948 -> AM 2008 (1996 BC unchanged).
+  justification: "docs/content/god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers"

@@ -11,6 +11,7 @@ import {
   getMillennialDay,
   loadGenealogyPeople,
   GENEALOGY_INDEX,
+  VARIANTS,
 } from './chronology.js';
 
 function assert(condition, message) {
@@ -44,7 +45,6 @@ const people = [
 
 const mt = mergePeopleWithVariant(people, 'mt');
 const sp = mergePeopleWithVariant(people, 'sp');
-const harmonized = mergePeopleWithVariant(people, 'harmonized_v1');
 
 const mtMethuselah = mt.find((p) => p.id === 'methuselah');
 const spMethuselah = sp.find((p) => p.id === 'methuselah');
@@ -56,13 +56,12 @@ const spTerah = sp.find((p) => p.id === 'terah');
 assert(mtTerah.lifespan_years === 205, 'MT Terah lifespan is 205 years');
 assert(spTerah.lifespan_years === 145, 'SP Terah lifespan is 145 years');
 
-const harmonizedMethuselah = harmonized.find((p) => p.id === 'methuselah');
-const harmonizedTerah = harmonized.find((p) => p.id === 'terah');
-// harmonized_v1 keeps MT for Methuselah: MT already has him dying in the Flood year (AM 1656),
-// so the former SP override fixed an LXX-only problem while shortening the chain to Noah by 120
-// years and leaving Methuselah dead 129 years before the Flood.
-assert(harmonizedMethuselah.tradition_used === 'mt', 'harmonized_v1 keeps MT for Methuselah');
-assert(harmonizedTerah.tradition_used === 'sp', 'harmonized_v1 adopts SP for Terah');
+// The working chronology is MT throughout (2026-09-28): harmonized_v1, which took SP's Terah,
+// was retired. SP keeps its own reading of Terah (70 at Abram's birth, 145 total), so its Terah
+// dies in the year Abram leaves Haran at 75 (Genesis 12:4; Acts 7:4).
+assert(mtTerah.tradition_used === 'mt' && mtMethuselah.tradition_used === 'mt', 'MT variant uses MT for Methuselah and Terah');
+assert(VARIANTS.harmonized_v1 === undefined, 'the retired harmonized_v1 variant is no longer loaded');
+assert(VARIANTS.sp.creation_bc === 4245, 'SP creation is 4245 BC once SP Terah is read on its own terms (Flood 2938 BC)');
 
 const mtAbraham = mt.find((p) => p.id === 'abraham');
 assert(
@@ -87,6 +86,6 @@ const genealogy = loadGenealogyPeople();
 assert(genealogy.length === 78, 'loadGenealogyPeople merges all six era files (78 people)');
 assert(genealogy.some((p) => p.id === 'adam'), 'Adam is present');
 assert(genealogy.some((p) => p.id === 'jesus' || p.id === 'jesus_christ'), 'Jesus is present');
-assert(Object.keys(GENEALOGY_INDEX.timeline_variants).length === 4, 'four timeline variants are indexed');
+assert(Object.keys(GENEALOGY_INDEX.timeline_variants).length === 3, 'three timeline variants are indexed (mt, lxx, sp)');
 
 console.log('\n✨ All tests passed!\n');
