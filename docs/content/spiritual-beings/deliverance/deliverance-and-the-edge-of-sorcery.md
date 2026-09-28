@@ -208,7 +208,7 @@ relied on at Philippi was Jesus'.
 relationship — "Jesus I know, and Paul I recognize, but who are you?" (Acts 19:15, ESV). Their
 formula was "I adjure you by the Jesus whom Paul proclaims" (19:13, ESV), the name used as a borrowed
 incantation. Luke's placement is pointed: the episode immediately precedes the book-burning, where
-converts "who had practiced magic arts brought their books together and burned them" (19:19, ESV; see
+converts "who had practiced magic arts brought their books together and burned them" (Acts 19:19, ESV; see
 [Sin and Sorcery](../../sin/sorcery.md#ephesus)). A ministry whose confidence rests on method is the
 thing Acts 19 was written to warn about.
 
