@@ -544,6 +544,24 @@ limits = [
   "Not in either SQLite pipeline -- raw files on the media volume, so query.py and the MCP tools cannot see them.",
 ]
 
+[profiles.bible-knowledge-commentary]
+kind = ["commentary"]
+era = "modern"
+language = "en"
+applies_to = ["bible-knowledge-commentary"]
+tier = "quotation-only"
+location = "${media.reference}/The Bible Knowledge Commentary (2 Vols).epub"   # local disk, not ingested
+purpose = "Dispensational verse-by-verse commentary on the whole Bible (Walvoord & Zuck, eds., Dallas Theological Seminary faculty)."
+strengths = [
+  "The dispensational reading stated by its own scholars -- the check to run when a study says 'the dispensational reading holds X', rather than asserting it from memory.",
+  "Keeps Israel, the church and the millennium distinct passage by passage (e.g. Walvoord on Revelation 20-22: the millennium before the new creation, tribes and apostles on the city as two peoples).",
+]
+limits = [
+  "quotation-only: a sentence or two with attribution in a committed file. Name the contributor of the book cited (Revelation is John F. Walvoord), not only the editors.",
+  "One school's commentary, 1983-85. Its dispensational conclusions are the argument under test, not evidence for it -- set it beside a non-dispensational note (ESV Study Bible, NIV BTSB) and mark the difference.",
+  "Not in either SQLite pipeline -- an EPUB on the media volume, so query.py and the MCP tools cannot see it. Unzip it and search the XHTML; each book of the Bible is one large file.",
+]
+
 [profiles.deuterocanon]
 kind = ["witness", "translation"]
 edition = "translation"
