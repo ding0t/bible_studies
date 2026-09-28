@@ -1,0 +1,151 @@
+# Paired study with new-jerusalem.yml. Author asked (2026-09-28) for Rev 21-22 set after the
+# millennium, the great white throne and the Sabbath rest, read as the eighth day, tied to the
+# age to come, with OT and NT roots; two studies if needed (one New Jerusalem, one new heaven
+# and new earth). Fulfils backlog 5.5 (the age to come) and 5.7 (heaven and earth by fire).
+
+slug: "new-heaven-and-new-earth"
+title: "A New Heaven and a New Earth"
+status: review
+target_path: "docs/content/last-things/new-heaven-and-new-earth.md"
+
+primary_passage: "Revelation 20:7-21:8"
+supporting_passages:
+  - "Isaiah 65:17-25; 66:22-23; 43:18-19; 25:8"
+  - "2 Peter 3:7-13; Romans 8:19-23; Hebrews 12:26-28; Psalm 102:25-27"
+  - "Leviticus 23:36, 39; Leviticus 9:1, 23; Genesis 17:12; 2 Peter 2:5; 1 Peter 3:20; John 7:37"
+  - "Matthew 12:32; 19:28; Mark 10:30; Luke 20:34-36; Ephesians 1:21; 2:7; Hebrews 2:5; 6:5; 1 Corinthians 15:24-28"
+genre: [apocalyptic, prophets, topical]
+
+thesis: >-
+  When the thousand-year Sabbath is over and the last judgment is done, God does what He
+  promised through Isaiah: He makes a new heaven and a new earth and comes to live in it with
+  His people, and the Law's eighth days point to it as the first day of a week that is never
+  counted again.
+outline:
+  - section: "Opening"
+    says: "Where the reader is standing: after the millennium, after Gog and Magog, after the great white throne."
+  - section: "Key Takeaways / Study outline"
+    says: "Types & Prophecy (Isa 65:17; the eighth day), Lessons about Jesus, memory verses, Be Transformed, Prayer."
+  - section: "Setting the scene: the last page of the old creation"
+    says: "Rev 20:7-15 in order: Satan released, fire, earth and sky flee, the dead judged, death thrown into the lake; only then 21:1. How 2 Pet 3's fire relates (the day of the Lord as a period). Links heaven-and-earth-will-pass-away for renewal/replacement."
+  - section: "What Isaiah promised"
+    says: "Isa 65:17 bara, chadash; Isa 66:22 'remain'; 65:20's death as the telescoping problem, marked contested (Walvoord 17-19 eternal / 20-25 millennium vs ESV SB three views)."
+  - section: "What John saw (21:1-8)"
+    says: "kainos (and LXX Isa 65:17 same word; Louw-Nida puts neos in the same domain, so the word cannot settle renewal vs replacement); no more sea; skene/skenoo (John 1:14); 'I am making all things new' = LXX Isa 43:19; 'It is done'; heritage and sonship (2 Sam 7:14); 21:8 outside."
+  - section: "The eighth day"
+    says: "Seven, then an eighth that begins again: circumcision, priests' eighth day and the glory (Lev 9:1, 23), the cleansed leper, Shemini Atzeret (itself a shabbaton, Lev 23:39), Noah 'the eighth' (2 Pet 2:5), resurrection on the first day (Barnabas 15; Justin Dial. 138), 2 Enoch 33 'not counting'. John 7:37 invitation on the last/great day -> Rev 21:6; 22:17. Marked as typology; Rev 17:11's beast as 'an eighth' noted as the counterfeit."
+  - section: "The age to come"
+    says: "aion mellon texts; Jewish olam ha-ba (m. Sanh 10:1 citing Isa 60:21); Eph 2:7 and Rev 22:5 plural 'ages'; palingenesia at Matt 19:28 under the Son of Man's throne; 1 Cor 15:24-28 the Son hands over the kingdom yet the throne is 'of God and of the Lamb'. Dispensational synthesis: the age to come opens at His return, the millennium its first stage, the new creation its unending one; marked as synthesis, amillennial alternative given."
+  - section: "Discussion questions / References"
+    says: "Facets per discussion-questions.md."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >-
+      Split into two studies: this one (the new creation, the sequence, the eighth day, the age
+      to come) and new-jerusalem (the city: literal or figurative, bride, Israel/church/nations).
+      Siblings already cover: renewal vs replacement and 2 Pet 3:10 text (heaven-and-earth-will-
+      pass-away, draft); sabbatismos and the thousand-year week (day-is-a-thousand-years); bride
+      homed, sight of His face, latreuo (bride-of-christ component 8; wife-of-the-lamb). Link,
+      do not repeat.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Revelation to seven churches of Asia under Roman pressure; the new-creation vision is
+        consolation and warning (21:7-8). Jewish two-age frame current (m. Sanh 10:1; olam
+        ha-ba). Isaiah 65-66 addressed to returning exiles, new heavens/new earth + new Jerusalem
+        together (NIV CBSB 21:1).
+    literary_context:
+      done: true
+      notes: >-
+        21:1-8 is the transition summary; 21:9-22:5 expands the city (NIV BTSB). Sequence
+        19:11 return -> 20:1-6 thousand years -> 20:7-10 release and fire -> 20:11-15 throne ->
+        21:1 new creation. 20:11 'earth and sky fled away, and no place was found for them'
+        is the hinge.
+    content_word_studies:
+      done: true
+      notes: >-
+        Verified 2026-09-28 (bible-text.db / MACULA SBLGNT; LXX lemmas).
+      terms:
+        - {word: "καινός", language: greek, transliteration: "kainos", strongs_id: "G2537", gloss: "new", notes: "42x NT; 9x Rev in 8 verses (2:17; 3:12 x2; 5:9; 14:3; 21:1 x2; 21:2; 21:5). νέος 0x in Rev. Louw-Nida 58.71 holds both kainos and neos, so the word alone cannot decide renewal vs replacement. LXX Isa 65:17 uses καινός."}
+        - {word: "Ἰδοὺ καινὰ ποιῶ πάντα", language: greek, transliteration: "idou kaina poiō panta", strongs_id: "", gloss: "Behold I make all things new", notes: "LXX Isa 43:19 ἰδοὺ ποιῶ καινά -- same three words."}
+        - {word: "σκηνή / σκηνόω", language: greek, transliteration: "skēnē / skēnoō", strongs_id: "G4633 / G4637", gloss: "tent / to tabernacle", notes: "σκηνόω 5x NT: John 1:14; Rev 7:15; 12:12; 13:6; 21:3. CSB and LSB footnote 21:3 'tent/tabernacle'."}
+        - {word: "ἀπέρχομαι", language: greek, transliteration: "aperchomai", strongs_id: "G565", gloss: "passed away", notes: "21:1 ἀπῆλθαν; 21:4 τὰ πρῶτα ἀπῆλθαν."}
+        - {word: "ὄγδοος", language: greek, transliteration: "ogdoos", strongs_id: "G3590", gloss: "eighth", notes: "5x NT: Luke 1:59; Acts 7:8 (circumcision); 2 Pet 2:5 ὄγδοον Νῶε; Rev 17:11 (the beast, 'an eighth'); Rev 21:20 (eighth stone). LXX Lev 23:36 ἡμέρα ἡ ὀγδόη."}
+        - {word: "שְׁמִינִי", language: hebrew, transliteration: "shemini", strongs_id: "H8066", gloss: "eighth", notes: "Lev 23:36 with עֲצֶרֶת (atzeret, H6116), 'solemn assembly'. Lev 23:39: eighth day is a שַׁבָּתוֹן, 'solemn rest'."}
+        - {word: "בָּרָא / חָדָשׁ", language: hebrew, transliteration: "bara / chadash", strongs_id: "H1254 / H2319", gloss: "create / new", notes: "Isa 65:17 בוֹרֵא שָׁמַיִם חֲדָשִׁים."}
+        - {word: "παλιγγενεσία", language: greek, transliteration: "palingenesia", strongs_id: "G3824", gloss: "regeneration, new world", notes: "2x NT: Matt 19:28; Titus 3:5."}
+        - {word: "ἀποκατάστασις", language: greek, transliteration: "apokatastasis", strongs_id: "G605", gloss: "restoration", notes: "1x NT: Acts 3:21."}
+        - {word: "αἰὼν μέλλων", language: greek, transliteration: "aiōn mellōn", strongs_id: "G165", gloss: "the age to come", notes: "Matt 12:32 ἐν τῷ μέλλοντι; Eph 1:21; Heb 6:5 μέλλοντος αἰῶνος; Mark 10:30 τῷ αἰῶνι τῷ ἐρχομένῳ; Luke 20:35 τοῦ αἰῶνος ἐκείνου; Eph 2:7 ἐν τοῖς αἰῶσιν τοῖς ἐπερχομένοις (plural); Heb 2:5 οἰκουμένη μέλλουσα; Rev 22:5 εἰς τοὺς αἰῶνας τῶν αἰώνων."}
+        - {word: "κατάθεμα", language: greek, transliteration: "katathema", strongs_id: "", gloss: "accursed thing", notes: "Rev 22:3 πᾶν κατάθεμα οὐκ ἔσται ἔτι; LXX Zech 14:11 οὐκ ἔσται ἀνάθεμα ἔτι (Heb חֵרֶם)."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "The promise is transcultural; the eighth-day pattern is typology, not a doctrine by itself."
+    theological_principle:
+      done: true
+      notes: "God finishes creation by living in it with His people; nothing in the new creation will ever need to be counted down again."
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Isa 65:17; 66:22", relation: "promise John sees fulfilled"}
+      - {ref: "Isa 43:19 LXX", relation: "Rev 21:5 wording"}
+      - {ref: "Isa 25:8", relation: "Rev 21:4 tears, death swallowed"}
+      - {ref: "2 Pet 3:10-13", relation: "fire and the new heavens; telescoped day of the Lord (BKC)"}
+      - {ref: "Rom 8:19-23", relation: "creation waiting"}
+      - {ref: "Heb 12:26-28", relation: "shaken removed, unshakeable kingdom"}
+      - {ref: "Lev 9:1, 23", relation: "eighth day, glory appears to all the people"}
+      - {ref: "2 Pet 2:5; 1 Pet 3:20", relation: "Noah the eighth"}
+      - {ref: "John 7:37; Rev 21:6; 22:17", relation: "thirsty come, last great day of Tabernacles"}
+      - {ref: "1 Cor 15:24-28; Rev 22:1, 3", relation: "kingdom handed over; throne of God and of the Lamb"}
+    translations_compared: ["ESV", "CSB", "LSB", "NIV (notes)", "WEB"]
+    divergences_noted: "Rev 21:3 variants (laoi/laos; 'and will be their God' omitted in some mss) -- already handled in wife-of-the-lamb."
+  drafting:
+    done: true
+    file: "docs/content/last-things/new-heaven-and-new-earth.md"
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "Whether John 7:37's 'last day, the great day' is the seventh day (Hoshana Rabbah) or the eighth (Shemini Atzeret) is contested; NIV CBSB says eighth, ESV SB does not say. Mark it."
+  - "Rev 17:11 calls the beast 'an eighth'. Numerology caution: the number is not always the new beginning. Mention once."
+  - "Renewal vs replacement: Walvoord (BKC) 'totally new'; Irenaeus AH 5.36.1 'neither the substance nor the essence of the creation annihilated'; ESV SB undecided. Sibling heaven-and-earth-will-pass-away already holds it open; stay consistent and link."
+  - "Isa 65:20 death in the 'new heavens' passage: telescoping (BKC) vs other readings (ESV SB note lists three). Mark contested."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Rev 21:1, 21:1-8, 21:1-22:5, 21:4, 21:6, 21:7; Isa 65:17-25 (three views); John 7:37. Confirmed covenant formula; contributed the three readings of Isa 65."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Rev 21:1-8 as transition; 21:3 chart Rev 21-22 / Ezek 40-48; Isa 65:17-25 three positions."}
+  - {type: commentary, title: "NIV and NKJV Cultural Backgrounds Study Bibles", author: "Keener/Walton", note: "Rev 21:1 sea (purification/transformation/destruction views); John 7:37 'climactic eighth day'; Rev 22:3 evokes LXX Zech 14:11."}
+  - {type: commentary, title: "The Bible Knowledge Commentary: Revelation", author: "John F. Walvoord", note: "Dispensational. 21:1 new creation follows millennium, 'totally new'; Isa 65:17-19 eternal state, 20-25 millennium (telescoping); 2 Pet 3:10-13 telescopes the day of the Lord; 22:1 Lamb on the throne means 1 Cor 15:24 changes the reign's character, not its end. Catalogued 2026-09-28 as sources.toml profile bible-knowledge-commentary (local disk, raw EPUB)."}
+  - {type: other, title: "Irenaeus, Against Heresies 5.35.2; 5.36.1", author: "ANF vol. 1", note: "New Jerusalem not to be allegorized; creation's substance not annihilated, its fashion passes."}
+  - {type: other, title: "Epistle of Barnabas 15", author: "ANF vol. 1", note: "'a beginning of the eighth day, that is, a beginning of another world'; kept the eighth day, the day Jesus rose."}
+  - {type: other, title: "Justin Martyr, Dialogue with Trypho 138", author: "ANF vol. 1", note: "Noah's eight persons a symbol of the eighth day, when Christ rose."}
+  - {type: other, title: "Mishnah Sanhedrin 10:1", author: "Kulp, Mishnah Yomit (CC-BY); Torat Emet Hebrew (PD)", note: "'All Israel have a portion in the world to come', proof text Isa 60:21."}
+  - {type: other, title: "2 Enoch 33:1", author: "as quoted in day-is-a-thousand-years.md", note: "eighth day, 'a time of not-counting'."}
+evidence:
+  - {id: kainos-rev, what: "kainos 9x in Revelation", tool: bible_concordance, args: {strongs: G2537, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 9", checked: 2026-09-28}
+  - {id: neos-rev, what: "neos absent from Revelation", tool: bible_concordance, args: {strongs: G3501, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 0", checked: 2026-09-28}
+  - {id: skenoo-nt, what: "skenoo 5x NT", tool: bible_concordance, args: {strongs: G4637, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 5", checked: 2026-09-28}
+  - {id: ogdoos-nt, what: "ogdoos 5x NT (incl. 2 Pet 2:5, Rev 17:11)", tool: bible_concordance, args: {strongs: G3590, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 5", checked: 2026-09-28}
+  - {id: meros-rev, what: "meros 4x Revelation", tool: bible_concordance, args: {strongs: G3313, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 4", checked: 2026-09-28}
+  - {id: palingenesia-nt, what: "palingenesia 2x NT", tool: bible_concordance, args: {strongs: G3824, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 2", checked: 2026-09-28}
+  - {id: rev21-1, what: "ESV Rev 21:1", tool: study_verse, args: {book: Rev, chapter: 21, verse: 1, work_id: esv-study-bible}, expect_contains: "the first heaven and the first earth had passed away", checked: 2026-09-28}
+  - {id: rev21-5, what: "ESV Rev 21:5", tool: study_verse, args: {book: Rev, chapter: 21, verse: 5, work_id: esv-study-bible}, expect_contains: "Behold, I am making all things new", checked: 2026-09-28}
+  - {id: rev20-11, what: "ESV Rev 20:11", tool: study_verse, args: {book: Rev, chapter: 20, verse: 11, work_id: esv-study-bible}, expect_contains: "earth and sky fled away, and no place was found for them", checked: 2026-09-28}
+  - {id: isa65-17, what: "ESV Isa 65:17", tool: study_verse, args: {book: Isa, chapter: 65, verse: 17, work_id: esv-study-bible}, expect_contains: "I create new heavens and a new earth", checked: 2026-09-28}
+  - {id: isa66-22, what: "ESV Isa 66:22", tool: study_verse, args: {book: Isa, chapter: 66, verse: 22, work_id: esv-study-bible}, expect_contains: "so shall your offspring and your name remain", checked: 2026-09-28}
+  - {id: lev23-39, what: "ESV Lev 23:39", tool: study_verse, args: {book: Lev, chapter: 23, verse: 39, work_id: esv-study-bible}, expect_contains: "on the eighth day shall be a solemn rest", checked: 2026-09-28}
+  - {id: lev9-23, what: "ESV Lev 9:23", tool: study_verse, args: {book: Lev, chapter: 9, verse: 23, work_id: esv-study-bible}, expect_contains: "the glory of the LORD appeared to all the people", checked: 2026-09-28}
+  - {id: 1cor15-24, what: "ESV 1Cor 15:24", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 24, work_id: esv-study-bible}, expect_contains: "when he delivers the kingdom to God the Father", checked: 2026-09-28}
+  - {id: eph2-7, what: "ESV Eph 2:7", tool: study_verse, args: {book: Eph, chapter: 2, verse: 7, work_id: esv-study-bible}, expect_contains: "in the coming ages", checked: 2026-09-28}
+  - {id: 2cor5-17, what: "ESV 2Cor 5:17", tool: study_verse, args: {book: 2Cor, chapter: 5, verse: 17, work_id: esv-study-bible}, expect_contains: "behold, the new has come", checked: 2026-09-28}
+
+last_updated: "2026-09-28"

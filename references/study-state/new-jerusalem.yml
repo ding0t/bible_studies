@@ -1,0 +1,135 @@
+# Paired study with new-heaven-and-new-earth.yml (author request 2026-09-28). Focus: the city
+# itself -- literal or figurative; why it is called the Bride; keeping the bride from being
+# confused with Israel or the church. Must stay consistent with wife-of-the-lamb.md, whose author
+# decision (2026-09-25) is "one Husband, two covenanted peoples": the church is the Lamb's bride,
+# Israel the LORD's wife restored, both with the nations in one city.
+
+slug: "new-jerusalem"
+title: "The New Jerusalem"
+status: review
+target_path: "docs/content/last-things/new-jerusalem.md"
+
+primary_passage: "Revelation 21:9-22:5"
+supporting_passages:
+  - "Revelation 3:12; 17:1-3, 18; 19:7-9; 21:2; 22:14-15, 19"
+  - "Ezekiel 40:2-3; 43:7; 47:1-12; 48:30-35; Isaiah 54:11-12; 60:1-3, 11, 19-21; 52:1; Zechariah 2:1-5; 14:8-11"
+  - "Genesis 2:8-10; 3:22-24; Exodus 28:17-21; 1 Kings 6:20"
+  - "Hebrews 11:10, 16; 12:22-24; 13:14; Galatians 4:25-26; Philippians 3:20; John 14:2-3"
+genre: [apocalyptic, prophets, topical]
+
+thesis: >-
+  The New Jerusalem is a real city that God builds and brings down to the new earth, and it is
+  called the Bride because the Lamb's wife lives in it and it wears her glory; Israel's names
+  are on its gates, the apostles' on its foundations, the nations walk in its light, and God
+  and the Lamb are its temple.
+outline:
+  - section: "Opening"
+    says: "The angel who showed John the prostitute says 'Come, I will show you the Bride' -- and shows him a city."
+  - section: "Key Takeaways / Study outline"
+    says: "Types & Prophecy (Ezekiel's city, Eden, the Most Holy Place), Lessons about Jesus, memory verses, Be Transformed, Prayer."
+  - section: "One city, three Jerusalems"
+    says: "The present Jerusalem (Gal 4:25), the millennial city (Rev 20:9; Ezek 40-48, with a temple), and the city above that comes down (Gal 4:26; Heb 12:22; Rev 3:12; 21:2). Distinct, so Ezekiel's promises stay Israel's."
+  - section: "A real place"
+    says: "Evidence the text treats it as a place: measured (21:15-17, Ezek 40:3; Zech 2:1-2), entered by gates (22:14), people have a 'share' in it (22:19 meros), nations and kings walk and bring glory into it (21:24-26), dogs outside (22:15), designer and builder God (Heb 11:10), a place prepared (John 14:2). Irenaeus AH 5.35.2 ('nothing is capable of being allegorized'); Tertullian Marc. 3.24. Where symbolism is plainly present (the twelves, the cube) say so."
+  - section: "Why a city is called the Bride"
+    says: "Three readings, marked: (1) the city IS the people (ESV SB 21:2 'the church', NIV BTSB 'represents God's redeemed people'); (2) a real city compared to a bride (Walvoord: 'a city, not a person or group of people'); (3) a real city personified by its people, as Babylon the prostitute 'is the great city' (17:18) and the same angel shows both (17:1; 21:9). This site: (3), consistent with wife-of-the-lamb -- the church is the Lamb's bride and the city bears her name as her home."
+  - section: "Not the church, not Israel: who is inside"
+    says: "Gates: twelve tribes (21:12; Ezek 48:31-34). Foundations: twelve apostles (21:14; Eph 2:20). Nations and kings (21:24-26; Isa 60:3, 11). Heb 12:22-24's roll-call. So the city cannot be a code-word for either the church or Israel. Walvoord: 'The distinction between Israel and the church is thus maintained.' ESV SB reads 'unity of OT and NT believers'. Link wife-of-the-lamb for the bride/wife argument; do not repeat."
+  - section: "A city shaped like the Most Holy Place"
+    says: "Cube (21:16; 1 Kgs 6:20), 12,000 stadia (~2,220 km) and 144 cubits; no temple because God and the Lamb are its temple (21:22) -- against Ezekiel's temple city, which is the millennial one. Breastpiece stones (Ex 28:17-21). Literal measurements with symbolic numbers; say both."
+  - section: "Eden with a city built round it"
+    says: "22:1-5: river (Gen 2:10; Ezek 47; Zech 14:8), tree of life (Gen 3:22-24 reversed), no more curse (22:3; LXX Zech 14:11 ἀνάθεμα), His face, His name, the reign. Link bride-of-christ component 8 for latreuo and sight."
+  - section: "Discussion questions / References"
+    says: "Facets per discussion-questions.md."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "See new-heaven-and-new-earth.yml scoping. The bride/wife word study and the one-Husband/two-peoples resolution live in wife-of-the-lamb; this study treats the city as place and links there."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        'The holy city' was a standard Jewish title for Jerusalem; some expected an exalted
+        earthly Jerusalem, others a hidden heavenly one to be revealed (NIV CBSB 21:2). Ancient
+        cities: patron names on gates, gates shut at night, entrance on one side (NIV CBSB 21:12,
+        13, 25). Babylon/Alexandria walls ~9 miles round.
+    literary_context:
+      done: true
+      notes: >-
+        21:9-22:5 answers 17:1-19:10 (Babylon) point for point: same angel formula 'Come, I will
+        show you' (17:1 / 21:9), 'carried me away in the Spirit' (17:3 wilderness / 21:10
+        mountain), gold and pearl (17:4 / 21:18, 21), 'the woman ... is the great city' (17:18).
+    content_word_studies:
+      done: true
+      notes: "Verified 2026-09-28."
+      terms:
+        - {word: "ὡς νύμφην", language: greek, transliteration: "hōs nymphēn", strongs_id: "G5613 / G3565", gloss: "as a bride", notes: "21:2 simile; 21:9 identification τὴν νύμφην τὴν γυναῖκα τοῦ ἀρνίου then 21:10 shows τὴν πόλιν."}
+        - {word: "πόλις", language: greek, transliteration: "polis", strongs_id: "G4172", gloss: "city", notes: "17:18 ἡ γυνή ... ἐστιν ἡ πόλις ἡ μεγάλη."}
+        - {word: "μέρος", language: greek, transliteration: "meros", strongs_id: "G3313", gloss: "part, share", notes: "Rev 4x: 16:19; 20:6; 21:8; 22:19 ('his share in the tree of life and in the holy city')."}
+        - {word: "ἡ ἄνω Ἰερουσαλήμ", language: greek, transliteration: "hē anō Ierousalēm", strongs_id: "G507", gloss: "the Jerusalem above", notes: "Gal 4:26."}
+        - {word: "τεχνίτης καὶ δημιουργός", language: greek, transliteration: "technitēs kai dēmiourgos", strongs_id: "G5079 / G1217", gloss: "designer and builder", notes: "Heb 11:10."}
+        - {word: "ναός", language: greek, transliteration: "naos", strongs_id: "G3485", gloss: "temple, sanctuary", notes: "21:22 ναὸν οὐκ εἶδον ... ναὸς αὐτῆς ... καὶ τὸ ἀρνίον."}
+        - {word: "יְהוָה שָׁמָּה", language: hebrew, transliteration: "YHWH shammah", strongs_id: "H8033", gloss: "The LORD is there", notes: "Ezek 48:35."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Measurements and jewels: literal place, symbolic numbers (twelves). Say which is which."
+    theological_principle:
+      done: true
+      notes: "God keeps every promise to every people: Israel's names, the apostles' names, the nations' glory, one city with God at its centre."
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Rev 17:1, 3, 18", relation: "Babylon parallel; woman = city"}
+      - {ref: "Ezek 40:2-3; 48:30-35", relation: "mountain, measuring, tribal gates, The LORD is there"}
+      - {ref: "Ezek 47:1-12; Zech 14:8", relation: "river, trees, healing (millennial on BKC; Rev 22 draws on them)"}
+      - {ref: "Isa 54:11-12; 60:1-3, 11, 19-21", relation: "jewelled city; open gates; nations' wealth; LORD as light"}
+      - {ref: "1 Kgs 6:20", relation: "cube = Most Holy Place"}
+      - {ref: "Exod 28:17-21", relation: "breastpiece stones with the tribes' names"}
+      - {ref: "Gen 2:9-10; 3:22-24", relation: "river and tree of life; the way guarded"}
+      - {ref: "Heb 11:10, 16; 12:22-24; 13:14; Gal 4:26; Phil 3:20; John 14:2", relation: "the city above, prepared, awaited"}
+    translations_compared: ["ESV", "LSB", "CSB", "NLT (notes)", "WEB"]
+    divergences_noted: "LSB/NLT footnote 21:16 ~2,220 km, 21:17 ~66 m; NLT footnotes that some gemstone identifications are uncertain."
+  drafting:
+    done: true
+    file: "docs/content/last-things/new-jerusalem.md"
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "Where the city is during the millennium: Pentecost (Things to Come) and others via Walvoord (BKC 21:2) suggest a 'satellite city' over the earth; Walvoord calls it 'an inference rather than a direct revelation'. Tertullian (Marc. 3.24) put the city in the thousand years. Mention as speculation, marked."
+  - "Cube or pyramid: Walvoord leans pyramid; ESV SB, NIV BTSB, NIV CBSB say cube (Most Holy Place). Text says length, width, height equal (21:16)."
+  - "Walvoord reads the bride simile as the city compared to a bride and nothing more; wife-of-the-lamb reads the city as the bride's home. Reconcile in prose; flag to author if the tension matters."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "21:2 'the church redeemed'; 21:10 Ezek 40:2; 21:12-14 'unity of OT and NT believers'; 21:15-17 cube, literal or symbolic; 21:19-21 breastpiece; 21:22 Jesus the temple; 22:1-5 Eden, curse, face."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "21:2 'represents God's redeemed people'; 21:9 'a place that also represents God's people'; chart Rev 21-22 / Ezek 40-48; 22:1-5 Eden restored."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Keener", note: "21:2 Babylon as people of Rome, city includes the people; 21:9 Babylon parallels; 21:12 patrons' names on gates; dimensions article; 21:22 Revelation does not repudiate Ezekiel; 22:3 LXX Zech 14:11."}
+  - {type: commentary, title: "NLT Life Application Study Bible", author: "Tyndale", note: "21:12-14 tribes = OT faithful, apostles = church; 21:15-17 measurements symbolic."}
+  - {type: commentary, title: "The Bible Knowledge Commentary: Revelation", author: "John F. Walvoord", note: "Literal city 'not a person or group of people'; distinction of Israel and church maintained on gates/foundations; dwelling of saints of all ages; satellite-city inference (Pentecost); Ezek 47 / Zech 14 rivers millennial, Rev 22 river eternal; Lamb on the throne and 1 Cor 15:24."}
+  - {type: other, title: "Irenaeus, Against Heresies 5.35.2; 5.36.1-2", author: "ANF vol. 1", note: "Former Jerusalem an image of the new; 'nothing is capable of being allegorized, but all things are stedfast, and true, and substantial'; presbyters' gradation (heaven/paradise/city) -- not used."}
+  - {type: other, title: "Tertullian, Against Marcion 3.24", author: "ANF vol. 3", note: "City 'let down from heaven' for the saints in the thousand years; cites Gal 4:26 and Phil 3:20; Montanist 'new prophecy' sign -- do not lean on it."}
+evidence:
+  - {id: meros-rev, what: "meros 4x Revelation (22:19 share in the city)", tool: bible_concordance, args: {strongs: G3313, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 4", checked: 2026-09-28}
+  - {id: rev21-9, what: "ESV Rev 21:9", tool: study_verse, args: {book: Rev, chapter: 21, verse: 9, work_id: esv-study-bible}, expect_contains: "Come, I will show you the Bride, the wife of the Lamb", checked: 2026-09-28}
+  - {id: rev17-1, what: "ESV Rev 17:1", tool: study_verse, args: {book: Rev, chapter: 17, verse: 1, work_id: esv-study-bible}, expect_contains: "Come, I will show you the judgment of the great prostitute", checked: 2026-09-28}
+  - {id: rev17-18, what: "ESV Rev 17:18", tool: study_verse, args: {book: Rev, chapter: 17, verse: 18, work_id: esv-study-bible}, expect_contains: "the woman that you saw is the great city", checked: 2026-09-28}
+  - {id: rev21-16, what: "ESV Rev 21:16", tool: study_verse, args: {book: Rev, chapter: 21, verse: 16, work_id: esv-study-bible}, expect_contains: "Its length and width and height are equal", checked: 2026-09-28}
+  - {id: rev21-22, what: "ESV Rev 21:22", tool: study_verse, args: {book: Rev, chapter: 21, verse: 22, work_id: esv-study-bible}, expect_contains: "its temple is the Lord God the Almighty and the Lamb", checked: 2026-09-28}
+  - {id: rev22-19, what: "ESV Rev 22:19", tool: study_verse, args: {book: Rev, chapter: 22, verse: 19, work_id: esv-study-bible}, expect_contains: "his share in the tree of life and in the holy city", checked: 2026-09-28}
+  - {id: gal4-26, what: "ESV Gal 4:26", tool: study_verse, args: {book: Gal, chapter: 4, verse: 26, work_id: esv-study-bible}, expect_contains: "the Jerusalem above is free", checked: 2026-09-28}
+  - {id: heb11-10, what: "ESV Heb 11:10", tool: study_verse, args: {book: Heb, chapter: 11, verse: 10, work_id: esv-study-bible}, expect_contains: "whose designer and builder is God", checked: 2026-09-28}
+  - {id: ezek48-35, what: "ESV Ezek 48:35", tool: study_verse, args: {book: Ezek, chapter: 48, verse: 35, work_id: esv-study-bible}, expect_contains: "The LORD Is There", checked: 2026-09-28}
+  - {id: 1kgs6-20, what: "ESV 1Kgs 6:20", tool: study_verse, args: {book: 1Kgs, chapter: 6, verse: 20, work_id: esv-study-bible}, expect_contains: "twenty cubits long, twenty cubits wide, and twenty cubits high", checked: 2026-09-28}
+  - {id: exod28-29, what: "ESV Exod 28:29", tool: study_verse, args: {book: Exod, chapter: 28, verse: 29, work_id: esv-study-bible}, expect_contains: "bear the names of the sons of Israel in the breastpiece of judgment on his heart", checked: 2026-09-28}
+  - {id: zech14-11, what: "ESV Zech 14:11", tool: study_verse, args: {book: Zech, chapter: 14, verse: 11, work_id: esv-study-bible}, expect_contains: "there shall never again be a decree of utter destruction", checked: 2026-09-28}
+  - {id: esvsb-21-2, what: "ESV SB reads the city as the church", tool: study_note, args: {book: Rev, chapter: 21, verse: 2, work_id: esv-study-bible}, expect_contains: "the church redeemed by Jesus Christ", checked: 2026-09-28}
+
+last_updated: "2026-09-28"

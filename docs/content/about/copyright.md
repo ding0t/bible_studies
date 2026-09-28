@@ -5,7 +5,7 @@ description: "Copyright notices for the Bible translations and reference works q
 tags: ["copyright", "permissions", "attribution", "translations"]
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-09-18
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -93,7 +93,8 @@ and carry no authority here; see any study that cites them for the caution state
 Where a study draws on a copyrighted commentary, study Bible, lexicon or dictionary — the *ESV Study
 Bible*, the *NIV* and *NKJV Cultural Backgrounds Study Bible*, the *NIV Biblical Theology Study
 Bible*, the *CSB Ancient Faith Study Bible*, the *NLT Life Application Study Bible*, the *NLT
-Christian Basics Bible*, the *Theological Wordbook of the Old Testament*, or a
+Christian Basics Bible*, the *Theological Wordbook of the Old Testament*, *The Bible Knowledge
+Commentary*, or a
 named monograph — the work is credited in that study's own **References & Recommended Reading**
 section. Such material is used only in brief, attributed quotation or synthesized into original
 prose. The notes, articles, charts and introductions in those editions are separately copyrighted
