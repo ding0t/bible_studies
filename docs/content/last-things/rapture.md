@@ -198,7 +198,7 @@ that it ties 1 Thessalonians 4 to 1 Corinthians 15, and it does, but Matthew 24:
 | **Who comes with him** | the dead in Christ, raised first (1 Thess 4:16) | "his mighty angels" (2 Thess 1:7); the armies of heaven on white horses (Rev 19:14) — **and the Church is plausibly among them**, see below |
 | **Who sees it** | not stated | "every eye" (Rev 1:7); "all the tribes of the earth… will see" (Matt 24:30) |
 | **How the nations react** | not stated | they mourn — **κόψονται**, the same verb and the same phrase "all the tribes of the earth" in both Matt 24:30 and Rev 1:7 |
-| **Signs beforehand** | none; "like a thief" (1 Thess 5:2), "in the twinkling of an eye" (1 Cor 15:52) | sun, moon and stars, "immediately **after the tribulation** of those days" (Matt 24:29) |
+| **Signs beforehand** | none; "in the twinkling of an eye" (1 Cor 15:52), and the day of the Lord that follows comes "like a thief" on those in darkness (1 Thess 5:2-4) | sun, moon and stars, "immediately **after the tribulation** of those days" (Matt 24:29) |
 | **Judgment on the wicked** | absent | flaming fire, vengeance, eternal destruction (2 Thess 1:8-9); the sword and the winepress (Rev 19:15) |
 | **Resurrection and transformation** | central — the dead raised, the living changed, mortality putting on immortality (1 Cor 15:52-53) | absent |
 | **Stated purpose in context** | comfort for the grieving (1 Thess 4:18); "the blessed hope" (Titus 2:13) | "to judge and make war" (Rev 19:11); recompense (2 Thess 1:8) |

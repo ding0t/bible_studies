@@ -6,7 +6,7 @@
 
 slug: "new-jerusalem"
 title: "The New Jerusalem"
-status: review
+status: published
 target_path: "docs/content/last-things/new-jerusalem.md"
 
 primary_passage: "Revelation 21:9-22:5"
@@ -133,3 +133,35 @@ evidence:
   - {id: esvsb-21-2, what: "ESV SB reads the city as the church", tool: study_note, args: {book: Rev, chapter: 21, verse: 2, work_id: esv-study-bible}, expect_contains: "the church redeemed by Jesus Christ", checked: 2026-09-28}
 
 last_updated: "2026-09-28"
+
+review_2026-09-28:
+  reviewer: "review-bible-study skill, separate session from drafting (anthropic/claude-opus-5.5)"
+  scope: "All eight phases. bible-references MCP disconnected; CLIs used (study_notes_query.py, query.py, verify_claims.py, study_gaps.py, strongs_suggest.py, cross_study_claims.py, npm run validate)."
+  verified:
+    - "Every ESV quotation (~70 verses) re-queried from esv-study-bible verses: all verbatim."
+    - "evidence: replay 14/14 ok. meros Rev 4x (16:19; 20:6; 21:8; 22:19). SBLGNT Rev 22:3, 21:22, 22:19, Gal 4:26, Heb 11:10 and Strong's G507/G5079/G1217/G3485/G3313 correct."
+    - "ESV SB 21:2, 21:12-14, 21:15-17; NIV BTSB 21:2, 21:19-21; NIV CBSB 21:2, 21:9-21, 21:22 and dimensions article ('nine miles'); NKJV CBSB John 7:37-39 article; LSB 21:16 footnote -- quotations accurate."
+    - "Walvoord (BKC) quotations on 21:2, 21:9-11, 21:14-16, 21:22-27, 22:1 and 'pyramid' accurate. Irenaeus AH 5.35.2 and Tertullian Marc. 3.24 quotations accurate."
+    - "Internal links and anchors resolve. validate: no warnings. Body ~3,830 words vs 4,000 budget."
+  findings:
+    critical:
+      - "Be Transformed: 'Its name is written on you (Revelation 3:12)' -- 3:12 is a future promise to the one who conquers ('I will write on him')."
+      - "Why a city is called the Bride: Walvoord represented as 'drops the people'; BKC on 21:2 says the city is the dwelling of saints of all ages and rejects church-only bride identification because marriage imagery is used for Yahweh-Israel too. Undisclosed counter-argument to the thesis from the study's main commentary."
+    moderate:
+      - "NIV BTSB filed under reading 1; its note on 21:9-27 says 'a place that also represents God's people' (close to reading 3) and that the city fulfils Ezekiel's temple prophecy."
+      - "One-people reading of 21:9-14 as a single bride not marked (bride-of-christ.md and wife-of-the-lamb.md both mark it). Babylon parallel identifies the woman with the whole city, which the study narrows to the church without saying why."
+      - "John 14:2 used as evidence of a place and in Key Takeaways without marking; wife-of-the-lamb.md calls reading John 14:2 as this city 'an inference'."
+      - "Nations: 'distinct from the city they walk by' (A real city) vs 'Who lives there' and 'every redeemed person in one city'. CSB footnotes a 21:26 variant adding 'in order that they might go in'."
+      - "LXX Zech 14:11 Greek given as 'ouk estai anathema eti'; Brenton prints 'anathema ouk estai eti' (closer to Rev 22:3). lxx-lemmas holds lemmas only, not inflected text. Hebrew is cherem (H2764); Gen 3:17 LXX is epikataratos, so the Gen 3 link is theological (ESV SB 22:3), not lexical."
+    minor:
+      - "Walvoord on the satellite city leans toward it ('clearly does not rest on the earth') -- more than 'reports'."
+      - "Tertullian Marc. 3.24 says Ezekiel knew this city and John beheld it -- he merges the two cities the study separates."
+      - "'Hebrews gives the same roll-call' overstated; Walvoord makes the claim ('itemizes all those mentioned here') -- attribute it."
+      - "Gal 4:25 two fragments spliced; Ezek 48:31 cited for twelve tribal gates (48:31-34); Rev 19:11 rider called 'the Lamb'; Rev 11:8 'great city' = Jerusalem unmarked (Revelation uses 'great city' for Babylon at 16:19; 17:18); 'John takes Ezekiel's trees' sits against Walvoord's 'should not be confused'."
+      - "Missing Strong's: katathema G2652, anathema G331. Isaiah 65:18 in bible_references, never cited. lang/hebrew tag with no Hebrew in the file; Tertullian cited without person/tertullian (tag not yet in corpus). Rev 22:14 CSB footnote variant 'who keep his commands' undisclosed (incidental)."
+  status: "Findings reported to author; no edits made to the study."
+
+fix_2026-09-28:
+  applied: "C1 Rev 3:12 now a promise to the one who conquers; Phil 3:20 quoted 'in heaven'. C2 Walvoord's objection stated fairly and answered briefly (one Husband, two peoples), pointing to wife-of-the-lamb (author: light touch). M3 NIV BTSB cited as mixed. M4 one-people alternative marked. M5 John 14:2 marked inference. M6 nations subsection (Isa 66:22-23, Ps 86:9, Rev 15:4, Dan 7:14, Gen 22:18, Rev 5:9; 21:24-27; 22:2): nations keep names and kings, come and go through open gates; residence not stated (author asked for Scripture). M7 Zech 14:11 from Brenton, cherem H2764, verbal vs theological link separated, ESV SB 22:3 for Gen 3:17. Minors: Ezek 48:31-34, roll-call attributed to Walvoord, 'Christ rides out', Walvoord leans to satellite city, Tertullian merges Ezekiel's city, 'echoes', G2652/G331, Isaiah 65:18 dropped."
+
+published_2026-09-28: "draft: false after the three-study review and fixes; commentary_index.py and section_index.py re-run; mkdocs build --strict clean."

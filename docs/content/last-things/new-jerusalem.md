@@ -3,9 +3,9 @@ title: "The New Jerusalem"
 category: "prophecy"
 description: "Revelation 21:9-22:5: the city God builds and brings down to the new earth. A real place or a figure for the church? Why a city is called the Bride, who lives in it, why it has no temple, and how Eden, Ezekiel and Isaiah come together in it."
 tags: ["revelation", "ezekiel", "isaiah", "hebrews", "galatians", "zechariah", "dispensationalism", "temple", "creation", "person/irenaeus", "method/typology", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Revelation 21:9-22:5"
-bible_references: ["Revelation 21:2", "Revelation 21:9-27", "Revelation 22:1-5", "Revelation 22:14-15", "Revelation 22:17", "Revelation 22:19", "Revelation 3:12", "Revelation 7:15", "Revelation 11:2", "Revelation 11:8", "Revelation 17:1-5", "Revelation 17:18", "Revelation 19:7-8", "Revelation 20:9", "Ezekiel 40:2-3", "Ezekiel 47:1-12", "Ezekiel 48:30-35", "Isaiah 52:1", "Isaiah 54:11-12", "Isaiah 60:3", "Isaiah 60:11", "Isaiah 60:19", "Isaiah 65:18", "Genesis 12:3", "Matthew 23:37", "Exodus 25:9", "Hebrews 11:9", "2 Corinthians 11:2", "Zechariah 2:1-5", "Zechariah 14:8-11", "Genesis 2:9-10", "Genesis 3:17", "Genesis 3:22-24", "Exodus 28:17-21", "Exodus 28:29", "Exodus 33:20", "1 Kings 6:20", "Hebrews 9:7", "Hebrews 11:10", "Hebrews 11:16", "Hebrews 12:22-24", "Hebrews 13:14", "Galatians 4:25-26", "Philippians 3:20", "John 7:37-38", "John 14:2-3", "Ephesians 2:20", "Psalm 46:4"]
+bible_references: ["Revelation 21:2", "Revelation 21:9-27", "Revelation 22:1-5", "Revelation 22:14-15", "Revelation 22:17", "Revelation 22:19", "Revelation 3:12", "Revelation 7:15", "Revelation 11:2", "Revelation 11:8", "Revelation 17:1-5", "Revelation 17:18", "Revelation 19:7-8", "Revelation 20:9", "Isaiah 66:22-23", "Psalm 86:9", "Revelation 15:4", "Revelation 5:9", "Daniel 7:14", "Genesis 22:18", "Ephesians 5:25-27", "Isaiah 54:5", "Zechariah 14:11", "Ezekiel 40:2-3", "Ezekiel 47:1-12", "Ezekiel 48:30-35", "Isaiah 52:1", "Isaiah 54:11-12", "Isaiah 60:3", "Isaiah 60:11", "Isaiah 60:19", "Genesis 12:3", "Matthew 23:37", "Exodus 25:9", "Hebrews 11:9", "2 Corinthians 11:2", "Zechariah 2:1-5", "Zechariah 14:8-11", "Genesis 2:9-10", "Genesis 3:17", "Genesis 3:22-24", "Exodus 28:17-21", "Exodus 28:29", "Exodus 33:20", "1 Kings 6:20", "Hebrews 9:7", "Hebrews 11:10", "Hebrews 11:16", "Hebrews 12:22-24", "Hebrews 13:14", "Galatians 4:25-26", "Philippians 3:20", "John 7:37-38", "John 14:2-3", "Ephesians 2:20", "Psalm 46:4"]
 date_created: 2026-09-28
 date_modified: 2026-09-28
 ai_provider_models:
@@ -57,7 +57,8 @@ priest wore over his heart (Exodus 28:17-21, 29). Its river and tree of life are
 
 - **Jesus is the city's temple and its lamp.** "Its temple is the Lord God the Almighty and the Lamb"
   and "its lamp is the Lamb" (Revelation 21:22-23, ESV).
-- **Jesus prepared it.** "I go to prepare a place for you" (John 14:2, ESV).
+- **Jesus is preparing a place.** "I go to prepare a place for you" (John 14:2, ESV). Reading that
+  place as this city is the dispensational reading, and an inference.
 - **Jesus opens the way back to the tree.** The cherubim guarded "the way to the tree of life"
   (Genesis 3:24, ESV); the Lamb's people "have the right to the tree of life" (Revelation 22:14, ESV).
 
@@ -75,8 +76,9 @@ priest wore over his heart (Exodus 28:17-21, 29). Its river and tree of life are
 
 ### Be Transformed
 
-- **Think.** Your citizenship is already in that city (Philippians 3:20). Its name is written on
-  you (Revelation 3:12).
+- **Think.** "Our citizenship is in heaven" (Philippians 3:20, ESV), and Jesus promises the one
+  who conquers, "I will write on him … the name of the city of my God, the new Jerusalem"
+  (Revelation 3:12, ESV).
 - **Attitude.** Live as a stranger here, the way Abraham lived in tents while "looking forward to the
   city that has foundations" (Hebrews 11:10, ESV).
 - **Do.** Pray this week by name for Israel and for one nation that does not yet know Jesus. Both
@@ -140,9 +142,10 @@ Revelation 21:9-11).
 
 Where the city is during the thousand years, Scripture does not say. Some dispensational writers,
 collected by J. Dwight Pentecost, suggest it hangs above the earth as the home of the resurrected
-saints. Walvoord reports the idea and calls it "an inference rather than a direct revelation of the
-Bible" (*Bible Knowledge Commentary*, on Revelation 21:2). Tertullian placed the city in the thousand years
-itself (*Against Marcion* 3.24). Hold both loosely. Revelation shows the city coming down to the new
+saints. Walvoord leans toward it ("In the Millennium the New Jerusalem clearly does not rest on the
+earth") while calling it "an inference rather than a direct revelation of the Bible" (*Bible
+Knowledge Commentary*, on Revelation 21:2). Tertullian placed the city in the thousand years itself,
+and took it to be the city Ezekiel saw (*Against Marcion* 3.24). Hold both loosely. Revelation shows the city coming down to the new
 earth after the new creation (Revelation 21:1-2).
 
 **This shows that God keeps each promise in its own place.** The earthly Jerusalem keeps Ezekiel's
@@ -150,22 +153,24 @@ promises to Israel, and the city above does not cancel them. Both are His, and H
 
 ## A real city
 
-The *ESV Study Bible* says the city is "the church redeemed by Jesus Christ" (note on Revelation 21:2), and the
-*NIV Biblical Theology Study Bible* says it "represents God's redeemed people" (note on Revelation 21:2). Read
-that way, the gold, the gates and the measurements are a picture of people. The text treats the city
+The *ESV Study Bible* says the city is "the church redeemed by Jesus Christ" (note on Revelation 21:2).
+Read that way, the gold, the gates and the measurements are a picture of people. The *NIV Biblical
+Theology Study Bible* holds both: "a place that also represents God's people, the believing
+community" (note on Revelation 21:9-27). The text treats the city
 as a place, and it does so in at least six ways:
 
 - **It is measured.** The angel "had a measuring rod of gold to measure the city and its gates and
   walls" (Revelation 21:15, ESV), as the man with the measuring reed measured Ezekiel's city (Ezekiel
   40:3) and the man with the line measured Jerusalem (Zechariah 2:1-2).
 - **It has a builder.** God is its τεχνίτης καὶ δημιουργός (*technitēs kai dēmiourgos*, G5079,
-  G1217), "designer and builder" (Hebrews 11:10). Jesus calls it "a place" (John 14:2).
+  G1217), "designer and builder" (Hebrews 11:10), and He "has prepared for them a city" (Hebrews 11:16, ESV).
 - **People go in and out of it.** The blessed "enter the city by the gates" (Revelation 22:14, ESV),
   and "outside are the dogs and sorcerers" (Revelation 22:15, ESV).
 - **People have a share in it.** God can "take away his share in the tree of life and in the holy
   city" (Revelation 22:19, ESV). The "share" is μέρος (*meros*, G3313). A person can have a share in a place.
 - **Others come to it.** "By its light will the nations walk, and the kings of the earth will bring
-  their glory into it" (Revelation 21:24, ESV). The nations are distinct from the city they walk by.
+  their glory into it" (Revelation 21:24, ESV). They walk by its light and bring their glory into
+  it, the way people come to a place.
 - **It comes down.** It descends "out of heaven from God" to the new earth (Revelation 21:2, 10).
 
 Irenaeus read it this way. Writing about AD 180, he said of this city that "nothing is capable of being allegorized, but all things are stedfast, and
@@ -187,11 +192,15 @@ Revelation 21:15-17).
 
 The angel says "the Bride" and shows a city. The readings divide three ways, and this is contested:
 
-1. **The city is the people.** The ESV and NIV Biblical Theology study Bibles, quoted above. The
-   city is a picture of the church, or of all the redeemed.
+1. **The city is the people.** The *ESV Study Bible*, quoted above. The city is a picture of the
+   church, or of all the redeemed. The *NIV Biblical Theology Study Bible* stands between this and
+   reading 3.
 2. **A real city compared to a bride.** Walvoord: "Though the city is compared to a beautifully
    dressed bride, it actually is a city, not a person or group of people" (*Bible Knowledge
-   Commentary*, on Revelation 21:2). "Bride" describes its beauty and its readiness.
+   Commentary*, on Revelation 21:2). "Bride" describes its beauty and its readiness. Walvoord still
+   fills the city with "the saints of all ages," and he declines to make its people "specifically the
+   church saints," because Scripture uses marriage "not only to relate Christ to the church but also
+   Yahweh to Israel."
 3. **A real city named for the people who live in it.** The city and its citizens are spoken of as
    one, the way a city is in the rest of Scripture: "O Jerusalem, Jerusalem, the city that kills the
    prophets" (Matthew 23:37, ESV).
@@ -216,17 +225,19 @@ people are why it has a bride's name.
 ### Who the bride is
 
 On this site the bride is the church. Paul betrothed the church "to one husband, to present you as a
-pure virgin to Christ" (2 Corinthians 11:2, ESV), and her marriage is announced in heaven before the
-Lamb rides out (Revelation 19:7, 11). She is clothed in "fine linen, bright and pure" (Revelation 19:8, ESV),
+pure virgin to Christ" (2 Corinthians 11:2, ESV), and her marriage is announced in heaven before
+Christ rides out (Revelation 19:7, 11). She is clothed in "fine linen, bright and pure" (Revelation 19:8, ESV),
 and the city comes down "prepared as a bride adorned for her husband" (Revelation 21:2, ESV). The city wears
-her dress because it is her home. [The Wife of the
-Lamb](../israel-and-church/wife-of-the-lamb.md#why-the-whole-city-is-called-the-bride) makes that
-case from the Greek and follows the verb "prepare" through John 14:2, Hebrews 11:16 and Revelation
-19:7 and 21:2.
+her dress because it is her home. The New Testament gives the bridal name to one people: Paul to
+the church (2 Corinthians 11:2; Ephesians 5:25-27), John to the one married at Revelation 19:7. Israel
+has her own marriage language, as the LORD's wife (Isaiah 54:5), which answers Walvoord's point: one
+Husband, two covenanted peoples, both at home in one city. [The Wife of the
+Lamb](../israel-and-church/wife-of-the-lamb.md#why-the-whole-city-is-called-the-bride) carries that
+argument in full. Readers who hold one people of God read the whole city, Israel and church
+together, as a single bride.
 
 So the city is a place, the bride is a people, and the city carries the bride's name. Reading 3
-keeps all three statements true. Reading 1 turns the place into the people. Reading 2 keeps the
-place and drops the people. **This shows that God builds a home that fits the people He loves.** The
+keeps all three statements true. **This shows that God builds a home that fits the people He loves.** The
 city is made ready the way the bride makes herself ready.
 
 ## Who lives there
@@ -236,14 +247,14 @@ than one people on it:
 
 - **On the gates**, "the names of the twelve tribes of the sons of Israel" (Revelation 21:12, ESV).
   Ezekiel's city had the same: "the gates of the city being named after the tribes of Israel"
-  (Ezekiel 48:31, ESV).
+  (Ezekiel 48:31, ESV; the full list is 48:31-34).
 - **On the foundations**, "the twelve names of the twelve apostles of the Lamb" (Revelation 21:14,
   ESV), the apostles on whom the church is "built" (Ephesians 2:20, ESV).
 - **Walking in its light**, the nations and their kings, bringing "the glory and the honor of the
   nations" (Revelation 21:24-26, ESV), as Isaiah promised: "nations shall come to your light, and kings to the
   brightness of your rising" (Isaiah 60:3, ESV).
 
-Hebrews gives the same roll-call for "the heavenly Jerusalem": angels, "the assembly of the firstborn
+Walvoord notes that Hebrews names the same company for "the heavenly Jerusalem": angels, "the assembly of the firstborn
 who are enrolled in heaven," God the judge, "the spirits of the righteous made perfect," and Jesus
 (Hebrews 12:22-24, ESV).
 
@@ -254,6 +265,24 @@ Bible* reads the two sets of names as "the unity of OT and NT believers" (note o
 readings put every redeemed person in one city. They differ over whether the names still mark two
 peoples. [The Wife of the Lamb](../israel-and-church/wife-of-the-lamb.md#one-city-and-every-people-in-it)
 argues that they do, from the plural "peoples" of Revelation 21:3 and the olive tree of Romans 11.
+
+### The nations
+
+Scripture keeps the nations as nations to the end. Isaiah ties it to the new creation itself: "as
+the new heavens and the new earth that I make shall remain before me … all flesh shall come to
+worship before me" (Isaiah 66:22-23, ESV). "All the nations you have made shall come and worship
+before you" (Psalm 86:9, ESV), and the song of Revelation repeats it: "All nations will come and
+worship you" (Revelation 15:4, ESV). Daniel's Son of Man receives a kingdom "that all peoples,
+nations, and languages should serve him" (Daniel 7:14, ESV), and God's promise to Abraham was that
+"in your offspring shall all the nations of the earth be blessed" (Genesis 22:18, ESV).
+
+So in the city the nations keep their names and their kings. They "walk" by its light, their kings
+"bring their glory into it," its gates "will never be shut" (Revelation 21:24-25, ESV), and the leaves
+of the tree are "for the healing of the nations" (Revelation 22:2, ESV). They are the redeemed of
+every nation, "ransomed … from every tribe and language and people and nation" (Revelation 5:9, ESV),
+and only "those who are written in the Lamb's book of life" enter (Revelation 21:27, ESV). Scripture
+never says whether they live inside the walls or on the new earth around them. It says they belong
+to the city's light and come and go through gates that never shut.
 
 **This shows that God keeps every promise to every people He made one to.** The tribes are on the
 gates because God swore to Israel. The apostles are on the foundations because Christ built His
@@ -331,7 +360,7 @@ the midst of the garden" (Genesis 2:9, ESV). After the fall God placed cherubim 
 of life" (Genesis 3:24, ESV). In the city the river flows from the throne, and the tree stands on either side
 of it. The psalmist already sang of "a river whose streams make glad the city of God" (Psalm 46:4,
 ESV). Ezekiel's river had fruit trees on both banks that "bear fresh fruit every month … and their
-leaves for healing" (Ezekiel 47:12, ESV). John takes Ezekiel's trees and names them "the tree of
+leaves for healing" (Ezekiel 47:12, ESV). John echoes Ezekiel's trees and names them "the tree of
 life."
 
 The *NKJV Cultural Backgrounds Study Bible* notes that Ezekiel 47 and Zechariah 14, the rivers from
@@ -343,11 +372,14 @@ one who desires take the water of life without price" (Revelation 22:17, ESV).
 ### The curse lifted
 
 "No longer will there be anything accursed" (Revelation 22:3, ESV). The Greek, πᾶν κατάθεμα οὐκ
-ἔσται ἔτι (*pan katathema ouk estai eti*), follows the Greek Old Testament of Zechariah 14:11 about
-Jerusalem, "there shall never again be a decree of utter destruction" (ESV), which reads οὐκ ἔσται
-ἀνάθεμα ἔτι (*ouk estai anathema eti*). Behind both stands Genesis 3:17: "cursed is the ground
-because of you" (ESV). The ground God cursed for Adam's sake is gone, and the new ground carries no
-curse at all.
+ἔσται ἔτι (*pan katathema ouk estai eti*, G2652), follows the Greek Old Testament of Zechariah 14:11
+about Jerusalem, where Brenton's Septuagint prints ἀνάθεμα οὐκ ἔσται ἔτι (*anathema ouk estai eti*,
+G331), "there shall never again be a decree of utter destruction" (Zechariah 14:11, ESV). That link
+is verbal. The Hebrew behind Zechariah is <span dir="rtl">חֵרֶם</span> (*cherem*, H2764), a thing
+devoted to destruction. The second link is theological: Genesis 3:17, "cursed is the ground because
+of you" (ESV), uses a different Greek word, and the *ESV Study Bible* makes the connection (note on
+Revelation 22:3). The ground God cursed for Adam's sake is gone, and the new ground carries no curse
+at all.
 
 ### His face
 

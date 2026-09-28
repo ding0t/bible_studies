@@ -2,10 +2,10 @@
 title: "A New Heaven and a New Earth"
 category: "prophecy"
 description: "Revelation 20:7-21:8 after the thousand years and the great white throne: what Isaiah promised, what John saw, the eighth day of the Law as a type of the new creation, and where the New Testament's 'age to come' fits."
-tags: ["revelation", "isaiah", "2-peter", "leviticus", "hebrews", "dispensationalism", "sabbath", "creation", "resurrection", "enoch", "person/noah", "method/typology", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+tags: ["revelation", "isaiah", "2-peter", "leviticus", "hebrews", "dispensationalism", "sabbath", "creation", "resurrection", "person/noah", "method/typology", "method/word-study", "lang/greek", "lang/hebrew"]
+draft: false
 primary_passage: "Revelation 20:7-21:8"
-bible_references: ["Revelation 20:7-15", "Revelation 21:1-8", "Revelation 22:1-5", "Revelation 22:13", "Revelation 22:17", "Revelation 17:11", "Revelation 7:9", "Revelation 7:15", "Revelation 13:1", "Isaiah 65:17-25", "Isaiah 66:22", "Isaiah 43:19", "Isaiah 25:8", "Isaiah 55:1", "Isaiah 60:21", "Isaiah 61:1-2", "Luke 4:17-19", "Ephesians 1:10", "Revelation 20:5", "Revelation 21:27", "2 Peter 3:5-7", "2 Peter 3:7-13", "2 Peter 2:4-9", "Genesis 8:22", "Genesis 9:11", "Isaiah 54:9", "Isaiah 66:15-16", "Zephaniah 3:8", "Luke 17:26-30", "2 Thessalonians 1:7-8", "Jude 6", "Jude 14-15", "2 Peter 2:5", "1 Peter 3:20", "2 Samuel 7:14", "Leviticus 9:1", "Leviticus 9:23-24", "Leviticus 14:10", "Leviticus 23:36", "Leviticus 23:39-40", "Genesis 17:12", "Exodus 22:30", "Leviticus 26:11-12", "Ezekiel 37:27", "Zechariah 14:16", "Daniel 12:2", "John 1:14", "John 7:37-38", "Matthew 28:1", "Matthew 12:32", "Matthew 19:28", "Mark 10:30", "Luke 1:33", "Luke 20:34-36", "Ephesians 1:21", "Ephesians 2:7", "Hebrews 2:5", "Hebrews 4:9", "Hebrews 6:5", "Hebrews 12:26-28", "1 Corinthians 15:20", "1 Corinthians 15:24-28", "2 Corinthians 5:17", "Romans 8:19-23"]
+bible_references: ["Revelation 20:7-15", "Revelation 21:1-8", "Revelation 22:1-5", "Revelation 22:13", "Revelation 22:17", "Revelation 17:11", "Revelation 7:9", "Revelation 7:15", "Revelation 13:1", "Isaiah 65:17-25", "Isaiah 66:22", "Isaiah 43:19", "Isaiah 25:8", "Isaiah 55:1", "Isaiah 60:21", "Isaiah 61:1-2", "1 Peter 3:21", "Leviticus 12:3", "Romans 8:21", "Hebrews 1:12", "Luke 4:17-19", "Ephesians 1:10", "Revelation 20:5", "Revelation 21:27", "2 Peter 3:6-7", "2 Peter 3:7-13", "2 Peter 2:9", "Genesis 8:22", "Genesis 9:11", "Luke 17:30", "2 Thessalonians 1:7-8", "2 Peter 2:5", "1 Peter 3:20", "2 Samuel 7:14", "Leviticus 9:1", "Leviticus 9:23-24", "Leviticus 14:10", "Leviticus 23:36", "Leviticus 23:39-40", "Genesis 17:12", "Exodus 22:30", "Leviticus 26:11-12", "Ezekiel 37:27", "Zechariah 14:16", "Daniel 12:2", "John 1:14", "John 7:37-38", "Matthew 28:1", "Matthew 12:32", "Matthew 19:28", "Mark 10:30", "Luke 1:33", "Luke 20:34-36", "Ephesians 1:21", "Ephesians 2:7", "Hebrews 2:5", "Hebrews 4:9", "Hebrews 6:5", "Hebrews 12:26-28", "1 Corinthians 15:20", "1 Corinthians 15:24-28", "2 Corinthians 5:17", "Romans 8:19-23"]
 date_created: 2026-09-28
 date_modified: 2026-09-28
 ai_provider_models:
@@ -93,8 +93,7 @@ In Jesus' name. Amen.
 ## Study outline
 
 - [After the thousand years](#after-the-thousand-years). Where Revelation 21:1 stands in the
-  order of events, where Peter's fire falls, and the two judgments by water and by fire, with
-  what 1 Enoch and Josephus expected.
+  order of events, where Peter's fire falls, and which fire falls when.
 - [What Isaiah promised](#what-isaiah-promised). The verb only God performs, and the verse that
   seems to put death in the new creation.
 - [What John saw](#what-john-saw). Revelation 21:1-8, phrase by phrase: new, no sea, God's tent,
@@ -121,9 +120,9 @@ Revelation 20 gives the order, and it is plain. After the thousand years:
    thrown into the lake of fire" (Revelation 20:14, ESV).
 6. "Then I saw a new heaven and a new earth" (Revelation 21:1, ESV).
 
-The first heaven and earth end at the throne. They flee from the face of the Judge (Revelation 20:11), and in
-the next verse John sees them "passed away" (Revelation 21:1). Death goes into the lake before the new
-creation arrives (Revelation 20:14), so there is no death to carry across. John will say so in three words:
+The first heaven and earth end at the throne. They flee from the face of the Judge (Revelation 20:11), and at
+Revelation 21:1 John sees them "passed away." Death goes into the lake before the new
+creation arrives (Revelation 20:14), so there is no death to carry across. John will say so plainly:
 "death shall be no more" (Revelation 21:4, ESV).
 
 ```mermaid
@@ -147,7 +146,7 @@ with the dispensational reading. The first is that Peter's "day of the Lord" (2 
 opens with the thief-like coming and closes with the dissolution a thousand years later. John
 Walvoord calls this telescoping: "the beginning and the end of the day of the Lord are mentioned in
 the same passage" (*Bible Knowledge Commentary*, on Revelation 21:1).
-[Heaven and Earth Will Pass Away](heaven-and-earth-will-pass-away.md#where-it-falls) sets that
+*Heaven and Earth Will Pass Away* (in preparation) sets that
 reading out, and gives the case of those who put the return and the new creation together. The
 second is whether the fire of Revelation 20:9, which falls on Gog and Magog, is the same fire as
 Peter's. Revelation does not say.
@@ -156,21 +155,10 @@ Peter's. Revelation does not say.
 
 Peter sets the two judgments side by side. "The world that then existed was deluged with water and
 perished. But by the same word the heavens and earth that now exist are stored up for fire" (2 Peter
-3:6-7, ESV). The word that formed the earth "out of water and through water" (2 Peter 3:5, ESV)
-judged it once by water and will judge it once by fire.
-
-God closed the first way Himself. "Never again shall there be a flood to destroy the earth" (Genesis
-9:11, ESV), and He bound the seasons to that promise "while the earth remains" (Genesis 8:22, ESV).
-Isaiah uses the oath as the measure of God's faithfulness: "as I swore that the waters of Noah should
-no more go over the earth, so I have sworn that I will not be angry with you" (Isaiah 54:9, ESV). The
-promise holds for as long as this earth remains. Peter's fire falls on the day it stops remaining.
-
-The prophets name fire as the instrument of the last judgment. "By fire will the LORD enter into
-judgment, and by his sword, with all flesh" (Isaiah 66:16, ESV). "In the fire of my jealousy all the
-earth shall be consumed" (Zephaniah 3:8, ESV). Jesus sets the two judgments beside His coming: the
-flood of Noah's day, and Lot's day, when "fire and sulfur rained from heaven and destroyed them all"
-(Luke 17:26-30, ESV). Peter lines up the same three examples: angels held for judgment, the flood,
-and Sodom turned "to ashes" (2 Peter 2:4-6, ESV).
+3:6-7, ESV). God closed the first way Himself: "never again shall there be a flood to destroy the
+earth" (Genesis 9:11, ESV), a promise that holds "while the earth remains" (Genesis 8:22, ESV). The
+next judgment of the whole earth is by fire. *Heaven and Earth Will Pass Away* (in preparation) traces the pairing through the prophets
+and Jesus' words, and sets out what 1 Enoch and Josephus expected.
 
 #### Which fire, and when
 
@@ -184,46 +172,14 @@ it together.
 
 **This shows that God judges the whole world and keeps His own through it.** "The Lord knows how to
 rescue the godly from trials, and to keep the unrighteous under punishment until the day of
-judgment" (2 Peter 2:9, ESV). Noah came through the water as "the eighth" (2 Peter 2:5). [Taken
+judgment" (2 Peter 2:9, ESV). Noah came through the water, one of "eight persons" (1 Peter 3:20, ESV). [Taken
 Before Judgment](taken-before-judgment.md) follows that rescue pattern through Enoch, Noah and Lot.
-
-### What 1 Enoch and Josephus expected
-
-!!! warning "Extra-biblical sources: useful, and not Scripture"
-
-    1 Enoch and Josephus are not Scripture. Jude quotes one prophecy from 1 Enoch, "Behold, the Lord
-    comes with ten thousands of his holy ones" (Jude 14, ESV; 1 Enoch 1:9), and that makes the
-    prophecy Jude quotes true. It does not make the rest of the book inspired. What these works
-    show is what Jews in and before Peter's century expected, so they tell you how his first
-    readers heard 2 Peter 3. Where they agree with Scripture they corroborate it; where they go
-    beyond it, Scripture governs. [A Day Is a Thousand
-    Years](day-is-a-thousand-years.md) sets out the same caution at length.
-
-1 Enoch's "Apocalypse of Weeks" divides history into ten weeks. In the second, "there shall be the
-first end. And in it a man shall be saved" (*1 Enoch* 93:4). That is the flood and Noah, and "first"
-expects another. The tenth week holds it: "the great eternal judgement," and then "the first heaven
-shall depart and pass away, And a new heaven shall appear … And after that there will be many weeks
-without number for ever" (*1 Enoch* 91:15-17). The pattern is the one Revelation 21:1 gives, and
-"weeks without number" is the eighth day's end of counting.
-
-The same book names the two judgments by their elements. After a "great chastisement," unrighteousness
-is "again consummated on the earth," and the wicked "shall be cast into the judgement of fire"
-(*1 Enoch* 91:5-6, 9). The fallen angels are bound "till the day of their judgement," then "led off
-to the abyss of fire" (*1 Enoch* 10:12-13), which Jude echoes: "kept in eternal chains under gloomy
-darkness until the judgment of the great day" (Jude 6, ESV).
-
-Josephus, writing in AD 93 or 94, records the same expectation as far back as Adam. Seth's
-descendants carved their learning on two pillars, "upon Adam's prediction that the world was to be
-destroyed at one time by the force of fire, and at another time by the violence and quantity of
-water" (*Antiquities* 1.2.3). Josephus reports a tradition; Peter writes as an apostle, and ties the
-fire to God's promise of "new heavens and a new earth" (2 Peter 3:13, ESV). So Peter's readers already
-knew the world had been judged once by water and would be judged by fire. Peter tells them what comes
-after the fire.
 
 ### After the Sabbath
 
 This site reads the thousand years as the seventh day of a week of history, the Sabbath of the
-world ([A Day Is a Thousand Years](day-is-a-thousand-years.md#day-seven-the-rest-that-is-numbered)).
+world ([A Day Is a Thousand Years](day-is-a-thousand-years.md#day-seven-the-rest-that-is-numbered);
+compare Hebrews 4:9).
 So Revelation 21 opens on the day after the seventh. **This shows that God rules history as surely as
 He ruled the first week.** He worked, He rested, and He will begin again, and each step comes in the
 order He set.
@@ -277,11 +233,12 @@ times: a new name (Revelation 2:17; 3:12), a new song (Revelation 5:9; 14:3), th
 word for "new," νέος (*neos*, G3501), and it never appears in the book.
 
 Some argue from *kainos* that the new earth is this earth renewed. The Louw-Nida lexicon puts
-*kainos* and *neos* in the same meaning group (58.71), so the word cannot settle it. Irenaeus held renewal. He wrote that "neither the substance nor the essence of the creation" is
-annihilated, only "the fashion of the world passeth away" (*Against Heresies* 5.36.1). Walvoord
+*kainos* and *neos* in the same meaning group (58.71), so the word cannot settle it. Irenaeus held renewal. He wrote that "neither is the substance nor the essence of the creation
+annihilated," only "the fashion of the world passeth away" (*Against Heresies* 5.36.1). Walvoord
 holds a "totally new" creation from the "passed away" of Revelation 21:1 (*Bible Knowledge Commentary*, on that verse).
-Both agree that the old creation ends and the new one is God's work. [Heaven and Earth Will Pass
-Away](heaven-and-earth-will-pass-away.md#renewal-or-replacement) lays out both readings.
+Both agree that the old creation ends and the new one is God's work. *Heaven and Earth Will Pass Away* (in preparation) weighs the texts, among them "the
+creation itself will be set free" (Romans 8:21, ESV) and the heavens "will be changed" (Hebrews
+1:12, ESV), and leans to renewal through judgment.
 
 ### "The sea was no more"
 
@@ -311,6 +268,9 @@ The voice is quoting a promise God made at Sinai. "I will make my dwelling among
 your God, and you shall be my people" (Leviticus 26:11-12, ESV). Ezekiel repeats it for the restored
 nation: "My dwelling place shall be with them" (Ezekiel 37:27, ESV). The Word tented among us for
 thirty-three years. In the new creation God tents with His people and never strikes the tent.
+The tears and the death in verse 4 come from Isaiah: "He will swallow up death forever; and the Lord
+GOD will wipe away tears from all faces" (Isaiah 25:8, ESV).
+
 **This shows that God's goal was always to live with His people.** The tabernacle, the temple and the
 incarnation were each a stage on the way to it. [The Bride of
 Christ](../israel-and-church/bride-of-christ.md) follows the same promise from the Lamb's wife's side.
@@ -357,7 +317,7 @@ The Law counts in sevens, and then several times it adds a day.
 
 | The eighth day | What happens on it |
 |---|---|
-| A son's circumcision (Genesis 17:12) | He enters the covenant |
+| A son's circumcision (Genesis 17:12; Leviticus 12:3) | He enters the covenant |
 | A firstborn ox or sheep (Exodus 22:30) | "On the eighth day you shall give it to me" |
 | The priests' ordination (Leviticus 9:1, 23-24) | Ministry begins; "the glory of the LORD appeared to all the people" |
 | A cleansed leper (Leviticus 14:10, 23) | He is brought back "before the LORD" |
@@ -370,16 +330,21 @@ The Feast of Booths makes the point most clearly. Its last day is <span dir="rtl
 H6116), a "solemn assembly" (Leviticus 23:36). It is also a <span dir="rtl">שַׁבָּתוֹן</span>
 (*shabbaton*, H7677), "a solemn rest" (Leviticus 23:39), the same word the verse uses for the first day. The
 Greek Old Testament renders it ἀνάπαυσις (*anapausis*, G372), "rest." So the eighth day does not end the
-rest. It carries the rest past the count of seven. 2 Enoch, a Jewish work of about the first
-century, calls the eighth "a time of not-counting, endless" (*2 Enoch* 33:1), and [A Day Is a
+rest. It carries the rest past the count of seven. 2 Enoch, a Jewish work usually dated to the
+late first century AD, though the date is disputed, calls the eighth "a time of not-counting, endless" (*2 Enoch* 33:1), and [A Day Is a
 Thousand Years](day-is-a-thousand-years.md#and-the-eighth) traces it there.
 
 ### Noah, and the day Jesus rose
 
 Peter counts the people in the ark: "eight persons, were brought safely through water" (1 Peter 3:20,
-ESV). In his second letter he names Noah ὄγδοον (*ogdoon*, G3590), "the eighth" (2 Peter 2:5), where
-the ESV prints "with seven others." Noah stepped out into a washed world as the eighth of eight.
-Peter sets that flood beside the coming fire in the next chapter (2 Peter 3:6-7).
+ESV). Then he draws the line himself: "Baptism, which corresponds to this, now saves you ... through
+the resurrection of Jesus Christ" (1 Peter 3:21, ESV). "Corresponds" is ἀντίτυπον (*antitypon*,
+G499), "antitype." The eight brought through the water and the believer raised with Christ are one
+pattern in Peter's own words, and he ties it to the resurrection. In his second letter the phrase
+ὄγδοον Νῶε (*ogdoon Nōe*, G3590) is Greek idiom for "Noah, one of eight," which the ESV renders "with
+seven others" (2 Peter 2:5), so the pattern rests on 1 Peter 3:20-21. Noah and his family stepped out
+into a washed world, a people brought through judgment into a new beginning, and Peter sets that
+flood beside the coming fire (2 Peter 3:6-7).
 
 Jesus rose "after the Sabbath, toward the dawn of the first day of the week" (Matthew 28:1, ESV),
 the day after the seventh. Within a century the church was calling it the eighth day. The *Epistle of
@@ -390,7 +355,7 @@ Barnabas*, from the early second century, has God say:
 > Jesus rose again from the dead.
 > — *Epistle of Barnabas* 15 (ANF vol. 1)
 
-Justin Martyr made the same link through Noah. The eight in the ark "were a symbol of the eighth
+Justin Martyr made Peter's link explicit. The eight in the ark "were a symbol of the eighth
 day, wherein Christ appeared when He rose from the dead" (*Dialogue with Trypho* 138).
 
 ### Booths, the millennium and the eighth
@@ -456,7 +421,10 @@ come, and the new heaven and new earth is its unending stage. Paul writes of "th
 (Ephesians 2:7, ESV), and the Greek is plural, ἐν τοῖς αἰῶσιν τοῖς ἐπερχομένοις. Revelation 22:5
 ends with the saints reigning εἰς τοὺς αἰῶνας τῶν αἰώνων, "to the ages of the ages." Readers who
 hold no intervening millennium take the age to come as the eternal state, beginning at the return.
-Both readings put the resurrection at its door (Luke 20:35) and God's people in it forever.
+Both readings put the resurrection at its door (Luke 20:35) and God's people in it forever. Luke
+20:36's "cannot die anymore" describes the resurrected. On the dispensational reading, people who
+enter the kingdom in mortal bodies can still die, which is why Isaiah 65:20 has death in it and
+Revelation 21:4 has none.
 
 ### The Son hands over the kingdom
 
@@ -504,11 +472,6 @@ cannot be shaken" (Hebrews 12:28, ESV).
   eight as a symbol of the eighth day.
 - Irenaeus, *Against Heresies* 5.36.1, *Ante-Nicene Fathers* vol. 1 (public domain) — the creation's
   substance not annihilated.
-- *1 Enoch* 10:12-13; 91:5-9, 15-17; 93:4, in R. H. Charles, *The Book of Enoch* (1917, public
-  domain), from the scrollmapper deuterocanonical dataset
-  (`references/open-data/scrollmapper-bible-databases-deuterocanonical`).
-- Flavius Josephus, *Antiquities of the Jews* 1.2.3, trans. William Whiston (public domain) —
-  Adam's prediction of destruction by fire and by water.
 - *2 Enoch* 33:1, as quoted in [A Day Is a Thousand Years](day-is-a-thousand-years.md).
 - *Mishnah Sanhedrin* 10:1, from **"Mishnah Yomit" translated by Dr. Joshua Kulp, licensed CC-BY**,
   with the Hebrew from the Torat Emet edition (public domain), retrieved through
@@ -535,7 +498,7 @@ cannot be shaken" (Hebrews 12:28, ESV).
 - [A Day Is a Thousand Years](day-is-a-thousand-years.md) — the seventh day as the millennium, and
   the eighth.
 - [Taken Before Judgment](taken-before-judgment.md) — Enoch, Noah and Lot, rescued before judgment.
-- [Heaven and Earth Will Pass Away](heaven-and-earth-will-pass-away.md) — 2 Peter 3, the textual
+- *Heaven and Earth Will Pass Away* (in preparation) — 2 Peter 3, the textual
   problem at 2 Peter 3:10, and renewal or replacement.
 - [The Bride of Christ](../israel-and-church/bride-of-christ.md) and [The Wife of the
   Lamb](../israel-and-church/wife-of-the-lamb.md) — the Lamb's wife, homed in the new creation.

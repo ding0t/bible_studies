@@ -5,7 +5,7 @@
 
 slug: "new-heaven-and-new-earth"
 title: "A New Heaven and a New Earth"
-status: review
+status: published
 target_path: "docs/content/last-things/new-heaven-and-new-earth.md"
 
 primary_passage: "Revelation 20:7-21:8"
@@ -38,8 +38,8 @@ outline:
     says: "aion mellon texts; Jewish olam ha-ba (m. Sanh 10:1 citing Isa 60:21); Eph 2:7 and Rev 22:5 plural 'ages'; palingenesia at Matt 19:28 under the Son of Man's throne; 1 Cor 15:24-28 the Son hands over the kingdom yet the throne is 'of God and of the Lamb'. Dispensational synthesis: the age to come opens at His return, the millennium its first stage, the new creation its unending one; marked as synthesis, amillennial alternative given."
   - section: "Discussion questions / References"
     says: "Facets per discussion-questions.md."
-word_budget: 4600
-word_budget_reason: "Author asked (2026-09-28) for the water-then-fire section with 1 Enoch and Josephus; ~450 words added to a study at ~3,850."
+word_budget: 4100
+word_budget_reason: "4,100 after the 2026-09-28 review fixes: author asked for depth on the Noah type (1 Peter 3:20-21 antitype), plus Luke 20:36 and Isaiah 25:8 sentences the review required. Earlier: the 1 Enoch/Josephus background and most of water-then-fire moved to heaven-and-earth-will-pass-away (author decision); kept a short paragraph, the fire timing and a link."
 
 stages:
   scoping:
@@ -162,3 +162,39 @@ evidence:
   - {id: jude14, what: "ESV Jude 1:14", tool: study_verse, args: {book: Jude, chapter: 1, verse: 14, work_id: esv-study-bible}, expect_contains: "Behold, the Lord comes with ten thousands of his holy ones", checked: 2026-09-28}
 
 last_updated: "2026-09-28"
+
+review_2026-09-28:
+  skill: review-bible-study
+  reviewer_session: "independent session (not the drafting one); bible-references MCP disconnected, CLIs used"
+  file_state: "draft: true; 4,298 validator-counted words against word_budget 4,600"
+  checked:
+    - "Phase 1: all ~90 ESV quotations re-queried from study-notes.db esv-study-bible -- all verbatim (sentence-initial capitalisation only). verify_claims --evidence: 27/27 ok."
+    - "Phase 2: all 8 internal links + 3 anchors resolve; TWOT 278 quote and contributor (TEM = McComiskey) confirmed in TWOT extracted text; Barnabas 15, Justin Dial. 138 verbatim in ANF01; Irenaeus AH 5.36.1 quote drops 'is' ('neither is the substance nor ...'); 1 Enoch 10:12-13, 91:9, 91:15-17, 93:4 verbatim; 91:6 quoted as 'again consummated on the earth' where Charles has 'shall again be consummated on the earth'; Josephus Ant. 1.2.3 verbatim (Whiston PDF); m. Sanh. 10:1 Kulp CC-BY + Torat Emet re-fetched via sefaria.py, matches; BKC Walvoord quotes on 21:1, 21:8, 22:1 and Isa 65:17-19/20-25 split verbatim; NIV CBSB 21:1, 21:7 and NKJV CBSB John 7:37 confirmed; CSB/LSB 21:3 footnotes checked (CSB 'Or tent, or tabernacle'; LSB prints 'tabernacle' for skene and footnotes 'dwell' 'Or tabernacle')."
+    - "Phase 3: concordances re-run (MACULA SBLGNT): kainos Rev 9 (refs as stated); neos Rev 0; skenoo NT 5 (John 1:14; Rev 7:15; 12:12; 13:6; 21:3); ogdoos NT 5; meros Rev 4 (incl. 16:19); palingenesia 2. LN 58.71 holds kainos + neos. LXX Isa 65:17 kainos; LXX Isa 43:19 'Idou ego poio kaina' (same three words, different order, plus ego); LXX Lev 23:39 anapausis; WLC Lev 23:36/39 shemini, atzeret, shabbaton confirmed. SBLGNT 2 Cor 5:17 'idou gegonen kaina', Rev 21:6 'Gegonan', Eph 2:7, Rev 22:5 confirmed."
+    - "Phase 5: NLT Life Application note on Rev 21:1 (not cited by study) confirms new earth after judgment, Isa 65:17/66:22 and 2 Pet 3:7-13 links, sea/beast association; silent on eighth day and millennial sequence."
+    - "Phase 6: review gaps run; cross_study_claims Rev 21 run -- consistent with new-jerusalem, wife-of-the-lamb, bride-of-christ, heaven-and-earth-will-pass-away."
+    - "Phase 7/8: validate clean for this file; provenance --check clean; tags in vocabulary."
+  findings:
+    moderate:
+      - "Line 125: 'in the next verse John sees them passed away' -- 20:11 to 21:1 is five verses (20:12-15 intervene)."
+      - "Line 126: 'John will say so in three words: death shall be no more' -- five words in English and Greek."
+      - "Line 172: 'Peter lines up the same three examples' -- Jesus (Luke 17) gives two, Noah and Lot; Peter adds the angels."
+      - "Lines 209-211: '1 Enoch names the two judgments by their elements' -- quoted 91:5 names no element; misquote of 91:6. 1 Enoch 10:2 ('a deluge is about to come upon the whole earth') names the water."
+      - "Lines 380-381, 187: ogdoon Noe glossed 'the eighth' / 'eighth of eight'; the idiom means 'one of eight' (MACULA gloss 'one of eight'; ESV 'with seven others'). Typology can rest on 1 Pet 3:20 as Justin's does."
+      - "Lines 373-374: 2 Enoch dated 'about the first century' unmarked; the date and the long recension of ch. 33 are contested."
+      - "Lines 440-459: Luke 20:36 'cannot die anymore' of 'that age' beside millennium-as-first-stage and Isa 65:20 death in the millennium; tension unaddressed."
+      - "Isaiah 25:8 (source of Rev 21:4 tears/death) listed in bible_references and state cross_refs, never cited in body; also Romans 8:19-23 and Hebrews 4:9 in frontmatter only."
+    minor:
+      - "Irenaeus and 1 Enoch 91:6 small misquotes (see above); Isa 43:19 word order; CSB/LSB 'footnote both' imprecise; 'with His own hand' (line 79) adds to 21:4; 'thirty-three years' unmarked tradition; Mishnah (c. AD 200) cited for 'Jesus' day'; Josephus (AD 93/94) -> 'Peter's readers already knew' overstated; 'Revelation settles the order' for an inference; Genesis 17:12 under 'The Law counts'; NKJV CBSB cited in body, NIV CBSB in References (both carry the note); BKC 'on Revelation 20:11' listed but unused; 'Where Peter's fire falls' and 'Which fire, and when' say the same thing twice; no pronunciation guides for transliterations; no discussion question on the water-then-fire section; 'most debated line' unsourced superlative."
+  author_decisions:
+    - "Whether to keep the Noah-'eighth' typology on 2 Pet 2:5 or rest it on 1 Pet 3:20 + Justin."
+    - "Whether to merge 'Which fire, and when' into 'Where Peter's fire falls'."
+    - "Whether to name Luke 20:35-36 as describing the resurrected, to square it with Isa 65:20 in the first stage of the age to come."
+  status_after: "no critical findings; fix moderates before draft: false"
+
+fix_2026-09-28:
+  applied: "All Moderate findings of review_2026-09-28: 21:1 wording; 'three words' dropped; three-examples and 1 Enoch 91:5-6 fixes travelled with the moved text (now in heaven-and-earth); Noah type rests on 1 Peter 3:20-21 (antitypon G499, tied by Peter to the resurrection) with 2 Pet 2:5 glossed 'one of eight' (author asked for depth); 2 Enoch date marked disputed; Luke 20:36 sentence; Isaiah 25:8 cited; Romans 8:21 and Heb 1:12 cited via the renewal pointer; Heb 4:9 cited; Lev 12:3 added; Irenaeus quote exact."
+  moved_out: "Water-then-fire background and 1 Enoch/Josephus moved to heaven-and-earth-will-pass-away (author decision)."
+
+published_2026-09-28: "draft: false after the three-study review and fixes; commentary_index.py and section_index.py re-run; mkdocs build --strict clean."
+restore_links_when_heaven_and_earth_publishes: "Four mentions of *Heaven and Earth Will Pass Away* (in preparation) were unlinked because that study is still a draft. Restore: line ~149 -> heaven-and-earth-will-pass-away.md#where-it-falls; ~160 -> #water-then-fire; ~239 -> #renewal-or-replacement; References list -> heaven-and-earth-will-pass-away.md."

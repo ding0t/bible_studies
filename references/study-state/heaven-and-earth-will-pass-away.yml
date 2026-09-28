@@ -333,3 +333,42 @@ open_questions:
   - "Renewal vs replacement of the cosmos (2 Pet 3:10) is presented as open; statement-of-faith says only 'a new heaven and a new earth', so no conflict -- author may want to state a position."
   - "'In the week He was crucified' in the hook: the fig-tree study says 'Tuesday'; kept unspecific here because the day is a reconstruction."
 last_updated: "2026-09-27"
+review_2026-09-28:
+  skill: review-bible-study
+  reviewer: "anthropic/claude-opus-5.5 (subagent; MCP server disconnected, CLIs used)"
+  scope: "Phases 1-8 against draft at 16e291de; study file not edited."
+  checked:
+    - "verify_claims.py --evidence: 39/39 ok. Every ESV quotation re-pulled in full from study-notes.db and compared verbatim: all match."
+    - "2 Pet 3:10: SBLGNT and UGNT print εὑρεθήσεται; NA28 prints οὐχ εὑρεθήσεται; Tischendorf κατακαήσεται. CSB footnotes 'will be burned up' and 'Some Syriac and Coptic mss read will not be found'; LSB 'Some mss burned up'; NLT adds 'one early manuscript reads will be found destroyed'. No ESV footnote rows in study-notes.db. ESV SB note: 'will be found' as divine passive, renewal argued from five grounds."
+    - "G3928 counts (Matt 9, 2Pet 1), LN domains 67.85/13.93, ou me + aorist subjunctive at Matt 24:34-35, G3952 Matt 24:3,27,37,39, G5604 Matt 24:8/1Thess 5:3, 1 Thess date AD 49-51 from Corinth (ESV SB intro): all verified."
+    - "cross_study_claims on Matthew 24, 2 Peter 3, 1 Thessalonians 5; study_gaps; strongs_suggest; npm run validate (no hits); provenance --check (clean); links and anchors on disk."
+  findings:
+    critical:
+      - "Hook (l.19-20): 'Two of the men who heard it wrote letters... Peter took its verb. Paul took its images.' Paul was not among the four (Mark 13:3)."
+      - "Thief trace (l.301, 312; outline l.95): 'Five occurrences across three writers' omits Luke 12:39 (G2812 eschatological uses: Matt 24:43, Luke 12:39, 1 Thess 5:2, 5:4, 2 Pet 3:10, Rev 3:3, 16:15 = 7); 'risen Christ's own letters' holds only Rev 3:3."
+      - "'The two are a single sentence' (l.111, 126, outline l.86, DQ1) — SBLGNT/NA28/ESV all end 24:34 with a full stop; the study's own l.115 says 'consecutive sentences'."
+    moderate:
+      - "'all of the same event' (l.312) and 'same discourse for the same purpose' conflict with rapture.md, which puts 1 Thess 5:2's thief in the rapture column and Matt 24:36-44 in the post-tribulation column; Rev 3:3 is conditional (NIV BTSB: judgment if Sardis will not repent)."
+      - "1 Thess 5:3 sourced to Matt 24:8 only; αἰφνίδιος occurs only at Luke 21:34 and 1 Thess 5:3, with ἐφίστημι and ἐκφεύγω (Luke 21:36) — a closer parallel the study misses; Matt 24:8's pains are the beginning, olivet-discourse.md stresses OT stock image."
+      - "Renewal-or-replacement: renewal side sourced (ESV SB), replacement side anonymous; ESV SB's lead renewal argument rests on the reading NA28 does not print, unstated; NIV BTSB mediating view (both continuity and discontinuity) absent."
+      - "Ps 102:25-27 / Heb 1:10-12 (the Son outlasts a creation that wears out like a garment) and 1 Pet 1:24-25 (Peter applying Isa 40:8 to the gospel) — study_gaps leads that bear directly on the argument."
+    minor:
+      - "Bare references without book name (e.g. l.70 '(3:11)', l.104, 162, 166, 276-278, 283-287, 225)."
+      - "'word for word in all three Synoptics' true in ESV only; Mark/Luke Greek read plural παρελεύσονται (which matches 2 Pet 3:10 exactly)."
+      - "'Revelation places the passing... after... the great white throne' vs Rev 20:11 (flee at the throne) and new-heaven-and-new-earth.md ('puts it at Revelation 20:11')."
+      - "'Jesus had used the phrase once before' — true within Matthew only (Luke 16:17)."
+      - "Unmarked inference l.271 ('already knew the answer Jesus had given'); 1 Thess 5:4 'like thieves' variant (LSB) unmentioned; οὐ μή lacks Strong's tag; mermaid unmeasured (mmdc not installed)."
+  links: "fig-tree-and-this-generation.md (draft) linked 3x (l.110, 141, 353): publish fig-tree first or together. new-heaven-and-new-earth.md (draft) links #where-it-falls and #renewal-or-replacement: both anchors exist; publish this before or with it. new-jerusalem.md does not link this study. olivet-discourse.md l.617 '(in preparation)' pointer still to convert."
+  verdict: "Not ready: three Critical findings block draft: false."
+  words: "3607 / 4000; recommended fixes net roughly +120."
+
+moved_in_2026-09-28:
+  from: "new-heaven-and-new-earth.md (commit feaf4b72), author decision after the three-study review"
+  sections: "### Water, then fire (+ #### Josephus and Seth's pillars) and ### What 1 Enoch and Josephus expected, inserted after ### Point by point in Peter's echo"
+  fixed_in_transit: "1 Enoch 91:6 quoted exactly ('shall again be consummated'); the 'by their elements' line now cites 1 Enoch 10:2 (deluge) beside 91:9 (fire), per the new-heaven review finding 4; Josephus 'already knew' -> 'likely already knew' (review minor)."
+  sources: "1 Enoch 10:2, 12-13; 91:6, 9, 15-17; 93:4 (Charles 1917, scrollmapper raw); Josephus Ant. 1.2.3 (Whiston, verified against Josephus_complete.pdf in media biblefacts/other). ESV quotations carried with their evidence entries in new-heaven-and-new-earth.yml."
+
+fix_2026-09-28:
+  applied: "C1 hook: Paul received the teaching (1 Thess 4:15), not a hearer. C2 thief: seven occurrences incl. Luke 12:39; Rev 3:3 conditional; the rest one day of the Lord in stages (author decision), sourced to BKC Gangel on 2 Pet 3:10; rapture.md table cell corrected to match. C3 'single sentence' -> 'one saying'. M5 labour pains: Isa 13:8, Matt 24:8 'beginning'; Luke 21:34-36 parallel (aiphnidios G160 only Luke 21:34 and 1 Thess 5:3; ephistemi; ekpheugo). M6 Renewal or replacement rewritten from new research (author asked): words of ending vs words of change (Rom 8:21; Heb 1:11-12 allasso G236 = 1 Cor 15:51; 2 Pet 3:6; Matt 19:28; Acts 3:21; Rev 21:5), NA28 'will not be found', Walvoord replacement, NIV BTSB both, Irenaeus; leans renewal through judgment, marked. M7 Heb 1:10-12 / Ps 102 and 1 Pet 1:24-25 added. Minors: Synoptic plural verb, Luke 16:17, 'at' the throne, Acts 1:7 inference softened."
+
+hold_2026-09-28: "Author held publication until fig-tree-and-this-generation.md (linked 3x) is reviewed and published. On publishing this study, restore the four links in new-heaven-and-new-earth.md (see its restore_links_when_heaven_and_earth_publishes) and olivet-discourse.md's '(in preparation)' mention."
