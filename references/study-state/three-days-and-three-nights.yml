@@ -840,7 +840,8 @@ read_2026-09-26:
   longest_section_words: 378 -> 378
   opening: thesis ("In one sentence") ~60 words in -- no slow-opening fix needed.
   changes:
-    - Study outline (added by the simplify pass) converted to the house shape -- one linked bullet per
+    - >-
+      Study outline (added by the simplify pass) converted to the house shape -- one linked bullet per
       line. Annotation text kept; "Can the crucifixion be dated?" annotation gains "and the year" to
       cover its "Does this fix the year?" subsection. Added bullets for "Where that leaves it" and
       "Discussion questions", which the outline had omitted. The "Abraham's side and paradise" bullet

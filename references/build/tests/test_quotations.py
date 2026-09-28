@@ -362,7 +362,7 @@ def test_trace_keeps_crowd_cross_references_out_of_the_evidence(conn):
     assert all(c["method"] for c in r["connections"])
 
 
-def test_gap_detector_selects_sources_by_verse_not_by_chapter(conn):
+def test_gap_detector_selects_sources_by_verse_not_by_chapter(conn, tmp_path):
     """A study citing Matthew 21:18-22 has not taken responsibility for Matthew 21:5 or 21:42, and
     reporting what THOSE verses quote as its omissions is a phantom. Selecting by chapter made every
     quotation-tier hit on olivet-discourse.md a false positive: it flagged Zechariah 9 (quoted at
@@ -370,12 +370,17 @@ def test_gap_detector_selects_sources_by_verse_not_by_chapter(conn):
 
     Suppression stays chapter-level on purpose -- a study treating 21:18-22 does discuss Matthew 21,
     so a link landing anywhere in that chapter is not an omission.
+
+    The frontmatter is the shape olivet-discourse.md had when the bug was found, written to a
+    temporary file. Reading the live study made this test fail when a content edit (5a24371c)
+    dropped Matthew 21:18-22 from it -- a content change is not a regression in the detector.
     """
     import study_gaps
 
-    path = study_gaps.REPO_ROOT / "docs/content/last-things/olivet-discourse.md"
-    if not path.is_file():
-        pytest.skip("study not present")
+    path = tmp_path / "olivet-discourse.md"
+    path.write_text('---\ntitle: "Olivet Discourse"\nprimary_passage: "Matthew 24; Mark 13; Luke 21"\n'
+                    'bible_references: ["Matthew 21:18-22", "Matthew 24:1-51"]\n---\n\nBody.\n',
+                    encoding="utf-8")
     _, cited, _ = study_gaps.study_references(path)
     assert cited[("Matt", 21)] == {18, 19, 20, 21, 22}, "a verse range must not widen to the chapter"
     assert cited[("Matt", 24)] is None, "a bare chapter citation still means the whole chapter"
