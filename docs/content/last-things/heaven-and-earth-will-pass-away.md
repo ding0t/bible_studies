@@ -142,8 +142,8 @@ wear out like a garment ... but my salvation will be forever, and my righteousne
 dismayed" (ESV). The shape is Jesus' shape — heaven and earth set against something of God's that
 lasts — and in Isaiah the thing that lasts is God's own salvation. Isaiah 40:8 says the same of "the
 word of our God" (ESV); the sibling study on
-["this generation"](fig-tree-and-this-generation.md#words-that-outlast-creation) works through that
-verse.
+["this generation"](fig-tree-and-this-generation.md#his-words) sets that verse
+beside Matthew 24:35.
 
 **Matthew 5:18.** Matthew records the phrase once before, of the Law (compare Luke 16:17): "until heaven and earth pass
 away, not an iota, not a dot, will pass from the Law until all is accomplished" (ESV). The Greek has

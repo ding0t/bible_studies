@@ -5,9 +5,9 @@ description: "Matthew 24:32-35: the fig tree teaches reading the signs Jesus nam
 tags: ["matthew", "mark", "luke", "tribulation", "dispensationalism", "method/word-study", "lang/greek"]
 draft: true
 primary_passage: "Matthew 24:32-35; Mark 13:28-31; Luke 21:29-33"
-bible_references: ["Matthew 24:2-3", "Matthew 24:15", "Matthew 24:21", "Matthew 24:4-36", "Matthew 24:42-44", "Matthew 25:10", "Matthew 26:2", "Mark 13:3", "Mark 13:28-30", "Luke 21:20-32", "Luke 13:6-9", "Jeremiah 24:5-8", "Jeremiah 8:13", "Hosea 9:10", "Micah 7:1", "Matthew 21:18-22", "Mark 11:12-25", "Matthew 12:39-42", "Matthew 23:36", "John 1:48-50", "James 3:12", "James 5:8-9", "Revelation 6:13", "Isaiah 40:8", "Acts 1:7", "Hosea 9:16-17", "Hosea 14:5-7", "Jeremiah 24:6-7", "Ezekiel 36:24-26", "Ezekiel 37:8", "Amos 9:15", "Matthew 23:38-39", "Matthew 24:16", "Matthew 24:20", "Mark 11:20-21", "Luke 21:24"]
+bible_references: ["Matthew 24:2-3", "Matthew 24:15", "Matthew 24:21", "Matthew 24:4-36", "Matthew 24:42-44", "Matthew 25:10", "Matthew 26:2", "Mark 13:3", "Mark 13:28-30", "Luke 21:20-32", "Luke 13:6-9", "Jeremiah 24:5-8", "Jeremiah 8:13", "Hosea 9:10", "Micah 7:1", "Matthew 21:18-22", "Mark 11:12-25", "Matthew 12:39-42", "Matthew 23:36", "John 1:48-50", "James 3:12", "James 5:8-9", "Revelation 6:13", "Isaiah 40:8", "Acts 1:7", "Hosea 9:16-17", "Hosea 14:5-7", "Jeremiah 24:6-7", "Ezekiel 36:24-26", "Ezekiel 37:8", "Amos 9:15", "Matthew 23:38-39", "Matthew 24:16", "Matthew 24:20", "Mark 11:20-21", "Luke 21:24", "Matthew 11:16", "Matthew 12:45", "Mark 13:30", "Luke 21:32", "Jeremiah 31:35-36", "Luke 13:6-7"]
 date_created: 2026-09-26
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -29,8 +29,8 @@ great glory" (24:30, ESV). Then He pointed at a tree:
 
 **In one sentence:** As a fig tree's new leaves tell you summer is near, the signs Jesus named tell
 His people that He is at the doors; spoken on the day the disciples found Israel's cursed fig tree
-withered to its roots, the image also carries the prophets' promise that God will plant Israel in her
-land again; and "this generation" is the generation that sees those signs begin, for God has fixed the
+withered to its roots, the image also echoes (contested, and held here a step below the lesson Jesus
+states) the prophets' promise that God will plant Israel in her land again; and "this generation" is the generation that sees those signs begin, for God has fixed the
 sequence, His Son's word guarantees it, and the date belongs to the Father alone.
 
 ## Key Takeaways
@@ -91,8 +91,8 @@ In Jesus' name. Amen.
   Israel in it, what is settled and what is contested, and why no clock follows.
 - ["This generation": whose, and of what?](#this-generation-whose-and-of-what) What "all these
   things" covers, the readings of "this generation", and the one this study takes.
-- [Near, at the very doors](#near-at-the-very-doors). What the saying shows about God: a Son whose
-  words outlast creation, and a Father who holds the date.
+- [Near, at the very doors](#near-at-the-very-doors). Who is near, the Son's words, and a Father who
+  holds the date.
 - [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## The Setting: A Tuesday on the Mount of Olives
@@ -115,7 +115,7 @@ saying; Luke has "until all has taken place" (21:32, ESV).
 
 The season was spring. Passover fell two days after the discourse (Matthew 26:2), and the day before
 the discourse, on the road into Jerusalem, Jesus had seen "in the distance a fig tree in leaf ... for it was not
-the season for figs" (Mark 11:13, ESV). The disciples were looking at leafing fig trees when Jesus
+the season for figs" (Mark 11:13, ESV). Fig trees were coming into leaf that week when Jesus
 said "as soon as its branch becomes tender and puts out its leaves, you know that summer is near."
 The word for summer is θέρος (*theros*, G2330).
 
@@ -138,7 +138,7 @@ tree is the one that tells you the season has turned.
 A common dispensational reading goes further: the fig tree is Israel, and its budding is Israel
 living again as a nation in her land. Critics often dismiss it as reading the Bible through the day's
 headlines, starting from 1948 and working back to the text. It has more Scripture behind it than
-that, and the case deserves setting out at full strength before it is weighed. The prophets use the fig of Israel repeatedly: Jeremiah 8:13 and Micah 7:1 picture a failed
+that. The prophets use the fig of Israel repeatedly: Jeremiah 8:13 and Micah 7:1 picture a failed
 people as a failed fig harvest, and Jesus Himself told of a fruitless fig tree given one more year
 (Luke 13:6-9). Six features of this week, and of this discourse, bring that symbol close.
 
@@ -151,8 +151,9 @@ ESV), and Peter said, "Rabbi, look! The fig tree that you cursed has withered" (
 wraps that tree around the clearing of the temple (tree cursed, Mark 11:12-14; temple cleared,
 11:15-19; withered tree found, 11:20-25), and the *ESV Study Bible* is plain about its meaning: "The
 specific reference, though, is to Israel, since in the OT the fig tree often serves as a metaphor for
-Israel and its standing before God" (note on Mark 11:13-14). The same men heard "from the fig tree
-learn its lesson" that evening.
+Israel and its standing before God" (note on Mark 11:13-14). Matthew tells the same event in one scene,
+with the tree withering "at once" (Matthew 21:19, ESV). The same men heard "from the fig tree learn
+its lesson" that evening.
 
 **The curse repeats Hosea's sentence on Ephraim.** Hosea sets Israel's beginnings under a fig: "Like
 the first fruit on the fig tree in its first season, I saw your fathers" (Hosea 9:10, ESV). Six
@@ -183,7 +184,7 @@ Judea" fleeing (Matthew 24:16, ESV), a "holy place" where the abomination stands
 prayer that the flight not fall "on a Sabbath" (24:20, ESV). However those verses are read, a Jewish
 people must be living in Judea for them to happen.
 
-**A commentary that reads Luke against the code concedes the symbol.** The *NIV Biblical Theology
+**A commentary on Luke assumes the symbol.** The *NIV Biblical Theology
 Study Bible* reads Luke's "and all the trees" as a move "to shift the focus from the fig tree's
 symbolic significance (in reference to Israel)" (note on Luke 21:29). The note assumes that in
 Matthew and Mark the significance is there to be shifted away from.
@@ -198,12 +199,13 @@ would stand if the fig tree had never been mentioned.
 
 **Whether the fig tree itself alludes to Israel is contested**, and the case against it is real.
 Jesus' interpretation names no referent. συκῆ (*sykē*, G4808) occurs sixteen times in the New
-Testament and most are ordinary: Nathanael under one (John 1:48, 50), James asking whether a fig
-tree can bear olives (James 3:12), stars falling as a fig tree drops its fruit in a gale (Revelation
+Testament: seven are the cursed tree, three this parable, two Luke's barren tree (Luke 13:6-7), and
+four are ordinary fig trees: Nathanael under one (John 1:48, 50), James asking whether a fig tree
+can bear olives (James 3:12), stars falling as a fig tree drops its fruit in a gale (Revelation
 6:13). Luke widens the picture to "the fig tree, and all the trees" (Luke 21:29, ESV). Monday's tree
 was cursed "ever" to bear no fruit and withered from the roots, so Tuesday's budding tree cannot be
-that same tree revived; and Hosea pictures the restoration with lily, cedar, olive and vine
-(14:5-7), with no fig among them.
+that same tree revived; and Hosea pictures the restoration with the lily, the trees of Lebanon, the
+olive, grain and the vine (Hosea 14:5-7), with no fig among them.
 
 **This study's judgment: the echo is there, and it is well grounded.** A disciple who had seen Israel's
 barren fig withered to the roots that morning, and who knew Hosea and Jeremiah, would hardly hear
@@ -220,7 +222,7 @@ The step the text never takes is from the tree to a calendar: fig tree as Israel
 leaves beside "all these things", the signs of verses 4-25, which on this site's reading fall in
 Daniel's seventieth week after the church is caught up. Israel in the land is the stage those signs
 need, and the count Jesus gives begins with the signs themselves. The calendar version has also
-failed in practice: forty years from 1948 ran out in 1988, and the count was restarted from 1967. It
+failed in practice: forty years from 1948 ran out in 1988 with no return. It
 hands the discourse the one thing Jesus withholds at verse 36. [Israel's Regathering and
 Refining](../israel-and-church/israels-regathering-and-refining.md#about-1948) weighs 1948 against
 the prophets and reaches the same place: a stage that fits their shape, with no text that dates it.
@@ -231,8 +233,7 @@ the prophets and reaches the same place: a stage that fits their shape, with no 
 
 "Truly, I say to you, this generation will not pass away until all these things take place" (24:34,
 ESV). The *ESV Study Bible* calls this "this difficult passage" and sets out five readings of it
-(note on 24:34), so this is a contested verse, and the case on each side needs setting out. Two
-questions sit inside the sentence and have to be taken separately: **what are "all these things",
+(note on 24:34). Two questions sit inside the sentence and have to be taken separately: **what are "all these things",
 and whose is "this generation"?**
 
 ### "All these things": what the Greek settles
@@ -248,14 +249,15 @@ itself.
 
 ### Whose generation? Where the readings divide
 
-**The second question is where the readings divide.** Matthew uses "this generation" (γενεά αὕτη,
-*genea hautē*) eight other times and every one means his own contemporaries: "an evil and adulterous
-generation" (12:39), the generation judged alongside Nineveh (12:41-42), and one paragraph before
+**The second question is where the readings divide.** Matthew uses γενεά (*genea*, G1074) eight
+times outside the genealogy of chapter 1, five of them as "this generation" (γενεά αὕτη, *genea
+hautē*: Matthew 11:16; 12:41, 42, 45; 23:36), and every one means his own contemporaries: "an evil
+and adulterous generation" (Matthew 12:39), the generation judged alongside Nineveh (12:41-42), and one paragraph before
 this discourse opens, "all these things will come upon this generation" (23:36), said of the men just
 charged with killing the prophets. Louw-Nida codes γενεά here under both a group sense (10.4, 11.4)
 and a time sense (67.144) at once, so the lexicon will not decide it either.
 
-That eight-for-eight record is the strongest argument for the first reading, **Jesus'
+That consistent record is the strongest argument for the first reading, **Jesus'
 contemporaries**. The *NIV Biblical Theology Study Bible*, having tied "all these things" to the
 events before the coming, concludes that Jesus is promising "all of the preliminary events,
 including the destruction of Jerusalem" within about forty years (note on 24:34), and the *NIV
@@ -263,10 +265,12 @@ Cultural Backgrounds Study Bible* observes that the temple fell about forty year
 (note on 24:34). On that reading Matthew's usage holds without exception, and AD 70 is the
 fulfilment.
 
-What the same eight-for-eight record also settles is a negative, and some dispensational writers rest
-real weight on the opposite: **γενεά here does not mean "race"**, as though Jesus were promising the
-Jewish people's survival to the end. Matthew never uses the word that way, and the reading is
-unnecessary.
+Matthew's usage also answers a reading some dispensational writers lean on. The LSB footnotes "Or
+race" at all three parallels (Matthew 24:34; Mark 13:30; Luke 21:32), the NLT "Or this nation," and
+the *ESV Study Bible* lists as its fourth option that γενεά means "race," the Jewish people, "who
+will not pass away until Christ returns" (note on Matthew 24:34). The sense exists in Greek, and
+God's preservation of Israel is taught elsewhere (Jeremiah 31:35-36). In Matthew, though, γενεά
+always names people living at one time, and this study reads verse 34 that way.
 
 ### This study's reading
 
@@ -278,15 +282,13 @@ living at one time, and it leaves verse 29's "immediately" doing honest work.
 
 The contemporaries reading has to carry the tribulation of verse 21, "such as has not been from the
 beginning of the world until now, no, and never will be" (ESV), and the coming that follows it
-"immediately" (24:29), inside AD 70. It also has to explain the parable in the next breath. Leaves
-mean summer is close; signs mean He is near, at the very gates. A reading on which "all these
-things" completed in AD 70 has to explain why He was "at the very gates" nineteen centuries ago. The
+"immediately" (24:29), inside AD 70. If "all these things" were completed in AD 70,
+the coming that verse 29 says follows them "immediately" has now waited nineteen centuries. The
 fifth reading pays its own price, and it should be named: it gives "this generation" a referent in
-the future where Matthew's other eight uses point at the men in front of Jesus. This study judges
+the future where Matthew's other uses point at the men in front of Jesus. This study judges
 that cost smaller, because the demonstrative in verse 34 is defined by the seeing in verse 33.
 
-One distinction needs care, because the date-setting reading sounds like this one. It also says "the
-generation that sees"; it identifies what is seen as Israel's return to the land and starts a clock
+The date-setting reading also says "the generation that sees"; it identifies what is seen as Israel's return to the land and starts a clock
 there. On the reading above, Israel's return is the stage and the signs of verses 4-25 are what is
 seen (see [a clock](#what-the-fig-tree-does-not-supply-a-clock) above). This reading gives no year to
 count from. The signs will be recognisable when they come; nobody is told when they start, and Jesus
@@ -297,43 +299,34 @@ says so Himself at verse 36.
 Where 1948 and 1967 *can* be weighed is against the prophets' regathering promises, as above, and
 Luke's "times of the Gentiles" (Luke 21:24), a passage about Gentile political control of Jerusalem;
 see [The times of the Gentiles](immediately-after.md#the-times-of-the-gentiles) in *Immediately
-After*.
-
-None of that unsettles what AD 70 fulfilled. Jesus predicted this temple's destruction: "there will
-not be left here one stone upon another that will not be thrown down" (24:2, ESV). Luke records the
-prophecy in plain siege language (21:20-24), and it happened, as [The Olivet
-Discourse](olivet-discourse.md#ad-70-question-one-answered-and-documented) documents from Josephus
-and Eusebius. The *NKJV Cultural Backgrounds Study Bible* suggests the two timings in this chapter map
-onto the disciples' own two questions: "the distinction between the specified timing here and the
-unknown timing of v. 36 may relate to the two distinct questions asked in v. 3" (note on 24:34). The
-temple got a datable answer. The coming did not.
+After*. None of that unsettles what AD 70 fulfilled: the temple fell as Jesus said it would (Matthew
+24:2), and [The Olivet Discourse](olivet-discourse.md#ad-70-question-one-answered-and-documented)
+documents it from Josephus and Eusebius. The temple got a datable answer. The coming did not.
 
 ## Near, at the Very Doors
 
 ### Who is near
 
 The Greek of verse 33 has no subject: ἐγγύς ἐστιν ἐπὶ θύραις (*engys estin epi thyrais*), "is near,
-at the doors." The ESV supplies "he", the NIV "it", and the CSB and LSB both footnote the other
-option. Either way the thing near is the coming of the Son of Man, which verse 30 has just described.
+at the doors." The ESV supplies "he" and the NIV "it"; the LSB footnotes "Or it," and the CSB "Or it; that is,
+summer." Read as "it," the saying repeats the parable's own summer; read as "he," it names the One
+whose coming verse 30 has just described.
 θύρα (*thyra*, G2374, "door") is the word James uses when he tells the churches, "the coming of the Lord is
 at hand ... behold, the Judge is standing at the door" (James 5:8-9, ESV), and Matthew uses it again
 a chapter later, in the parable of the ten virgins: "those who were ready went in with him to the
 marriage feast, and the door was shut" (Matthew 25:10, ESV). Near, at the doors, is where someone stands who is about
 to come in.
 
-### Words that outlast creation
+### His words
 
 Verse 35 closes the paragraph: "Heaven and earth will pass away, but my words will not pass away"
-(ESV). The verb is the one verse 34 used of the generation, παρέρχομαι (*parerchomai*, G3928, "pass away"),
-and both verses use the emphatic double negative οὐ μή (*ou mē*): the generation will *certainly not*
-pass away until all these things happen, and His words will *certainly not* pass away at all. The
-*ESV Study Bible* notes that Jesus here "attributes divine authority and permanence to his own
-teaching" (note on 24:35). Isaiah said it of God: "the grass withers, the flower fades, but the word
-of our God will stand forever" (Isaiah 40:8, ESV). Jesus says it of His own words. [Heaven and Earth
-Will Pass Away](heaven-and-earth-will-pass-away.md) follows the verb into Peter and Paul.
+(ESV). The verb is the one verse 34 used of the generation, παρέρχομαι (*parerchomai*, G3928), in a
+second sense: there time running out, here ceasing to exist. Isaiah said of God, "the word of our God
+will stand forever" (Isaiah 40:8, ESV); Jesus says it of His own words. [Heaven and Earth Will Pass
+Away](heaven-and-earth-will-pass-away.md#words-that-outlast-creation) works the saying through.
 
 **This shows that God has fixed the end, and His Son's word guarantees it.** The sequence of verses
-4-31 will run as Jesus said, in the order He said, within the lifetime He said. The prophecy rests on
+4-25 will run as Jesus said, in the order He said, within the lifetime He said. The prophecy rests on
 the deity of Christ: a merely human prophet could not stake his words against heaven and earth.
 
 ### The date the Father keeps
@@ -353,8 +346,7 @@ cannot fail, so you can live today ready to meet Him.
 
 ## Discussion Questions
 
-1. Verses 34 and 35 use the same verb, παρέρχομαι, "pass away," and the same emphatic "certainly
-   not." What does Jesus claim for His words by setting them beside heaven and earth?
+1. Verses 34 and 35 use the same verb, παρέρχομαι, "pass away." What does Jesus claim for His words by setting them beside heaven and earth?
 2. That morning the disciples had seen the fig tree Jesus cursed "withered away to its roots" (Mark
    11:20). How would that, and Hosea 9:16, have shaped what they heard in "from the fig tree learn
    its lesson"?
@@ -377,10 +369,10 @@ cannot fail, so you can live today ready to meet Him.
 - **NIV Biblical Theology Study Bible** (Zondervan) — notes on Matthew 24:34 ("all these things") and
   Luke 21:29 ("all the trees").
 - **NIV Cultural Backgrounds Study Bible** (Zondervan) — notes on Matthew 24:34 and Luke 21:29-30
-  (the deciduous fig in a Judean landscape); **NKJV Cultural Backgrounds Study Bible** (Thomas
-  Nelson) — note on Matthew 24:34 (the two timings and the two questions).
+  (the deciduous fig in a Judean landscape).
 - **CSB Ancient Faith Study Bible** (Holman) and **Legacy Standard Bible** (Lockman / Three Sixteen)
-  — footnotes on Matthew 24:33 ("Or it").
+  — footnotes on Matthew 24:33 ("Or it") and, in the LSB, on Matthew 24:34, Mark 13:30 and Luke 21:32
+  ("Or race"); **NLT Life Application Study Bible** (Tyndale) — footnote on Matthew 24:34.
 - Louw & Nida, *Greek-English Lexicon of the New Testament Based on Semantic Domains* — γενεά
   (10.4, 11.4, 67.144).
 - Original-language data from this project's `bible-text.db` — MACULA Greek (SBLGNT) for συκῆ,

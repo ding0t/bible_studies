@@ -5,9 +5,9 @@ description: "A framework for reading biblical prophecy: why it matters, genuine
 tags: ["hermeneutics", "audience/teaching", "apologetics"]
 draft: false
 primary_passage: "Luke 24:27"
-bible_references: ["Micah 5:2", "Matthew 2:1-6", "2 Samuel 5:2", "Isaiah 53:5", "Isaiah 53:9", "Psalm 22:16-18", "John 19:23-24", "Matthew 27:57-60", "Daniel 9:24-27", "Luke 19:41-44", "Matthew 24:1-2", "Matthew 24:14-15", "Matthew 24:21", "Matthew 24:34", "Mark 13:1-8", "Mark 13:14-27", "Mark 13:32", "1 Thessalonians 4:16-17", "1 Thessalonians 5:9", "Revelation 19:11-16", "Revelation 20:1-6", "Colossians 2:16-17"]
+bible_references: ["Micah 5:2", "Matthew 2:1-6", "2 Samuel 5:2", "Isaiah 53:5", "Isaiah 53:9", "Psalm 22:16-18", "John 19:23-24", "Matthew 27:57-60", "Daniel 9:24-27", "Luke 19:41-44", "Matthew 24:1-2", "Matthew 24:33-34", "Matthew 24:14-15", "Matthew 24:21", "Matthew 24:34", "Mark 13:1-8", "Mark 13:14-27", "Mark 13:32", "1 Thessalonians 4:16-17", "1 Thessalonians 5:9", "Revelation 19:11-16", "Revelation 20:1-6", "Colossians 2:16-17"]
 date_created: 2026-07-24
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -35,8 +35,8 @@ text, and checked against a fulfilment recorded later and independently.
 
 Micah names Bethlehem as the Messiah's birthplace roughly 700 years early. Isaiah and the Psalms
 describe the manner of his death centuries before Rome existed to crucify anyone. Daniel's angel
-gives Israel a countable number of years to "an anointed one". And Jesus predicts Jerusalem's fall
-inside his hearers' own generation. None of this is typology dressed up as prediction -- see
+gives Israel a countable number of years to "an anointed one". And Jesus predicts the temple's fall,
+which came within his hearers' own lifetime. None of this is typology dressed up as prediction -- see
 [Historically fulfilled prophecy](#historically-fulfilled-prophecy-not-by-squinting) below for why
 each one is checked, not asserted.
 
@@ -46,7 +46,7 @@ each one is checked, not asserted.
   and the very week of his public presentation as king, all named centuries before he was born
   (Luke 24:27).
 - He predicted his own generation's defining catastrophe -- Jerusalem's fall -- plainly enough that
-  a first-century reader could act on it, and it happened within that generation, not vaguely
+  a first-century reader could act on it, and it happened within his hearers' lifetime, not vaguely
   "someday" (Luke 19:41-44).
 - The same pattern that already ran to completion once -- a specific word, kept exactly -- is what
   Scripture asks a reader to trust for what hasn't happened yet.
@@ -263,7 +263,7 @@ calculation is genuinely disputed (the exact day) and where it isn't (the shape 
 study doesn't re-derive that math; see [Prophecy yet to come](#prophecy-yet-to-come) below for the
 seventieth week that page stops short of, which is still future.
 
-### Jesus's own prophecy, fulfilled within his hearers' own generation
+### Jesus's own prophecy, fulfilled within his hearers' lifetime
 
 This last case is different in kind from the others: not an Old Testament prediction fulfilled in
 Jesus, but Jesus's own prediction, checked against secular history.
@@ -290,13 +290,18 @@ Roman side, and records the fire and the systematic dismantling of the city that
 rather than ignoring: the Western Wall still stands today, so wasn't the "not one stone" prediction
 falsified? No -- the Western Wall is a *retaining wall* for the platform the temple stood on, not
 part of the temple building itself; the temple structure Jesus and his disciples were looking at
-(Matthew 24:1) was in fact torn down stone by stone, exactly as predicted. Jesus names the timeframe
-himself, later in the same discourse: "Truly, I say to you, this generation will not pass away until
-all these things take place" (Matthew 24:34, ESV) -- and by ordinary reckoning it didn't; the temple
-fell about forty years later, within a single generation's span. (Whether "this generation" in its
-fullest sense also reaches forward to a still-future generation, tied to the still-unfulfilled signs
-earlier in the same chapter, is a real interpretive question this study flags rather than settles --
-see [Prophecy yet to come](#prophecy-yet-to-come) below.)
+(Matthew 24:1) was in fact torn down stone by stone, exactly as predicted. The temple fell about forty
+years after He spoke, while many who had heard Him were still alive.
+
+Later in the same discourse Jesus says, "Truly, I say to you, this generation will not pass away until
+all these things take place" (Matthew 24:34, ESV). This site reads that as a separate promise. "All
+these things" are the signs of Matthew 24:4-25, the same phrase as the verse before, where they are
+what you see before He comes (24:33). Those signs include a tribulation "such as has not been from the
+beginning of the world until now, no, and never will be" (24:21, ESV), followed "immediately" by His
+coming (24:29), so they are still future, and "this generation" is the generation alive when they
+begin. Some read 24:34 as fulfilled in AD 70 instead. [The Fig Tree and This
+Generation](fig-tree-and-this-generation.md#this-generation-whose-and-of-what) sets out both readings
+and the case for this one.
 
 ## The two Gospel accounts of the end of the age
 

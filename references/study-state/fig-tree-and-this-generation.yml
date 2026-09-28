@@ -338,3 +338,53 @@ open_questions:
   - >
     When published, turn the plain-text pointer in olivet-discourse.md ("in preparation") into a link.
 last_updated: "2026-09-27"
+review_2026-09-28:
+  skill: review-bible-study
+  word_count: "~3,970 prose words (excl. outline + references) against word_budget 4000; draft.notes '~3,400' is stale"
+  checked: >
+    All 35 ESV quotations re-pulled from study-notes.db (verbatim match, refs and labels correct);
+    NA28 Matt 24:33-35 and Mark 11:20; Brenton LXX Hos 9:16 (τὰς ῥίζας αὐτοῦ ἐξηράνθη, καρπὸν οὐκ
+    ἔτι μὴ ἐνέγκῃ -- xērainō + rhiza confirmed); MACULA Strong's G2330/G4808/G3583/G4491/G2374/G3928
+    and L-N codes for γενεά at 24:34 (10.4 11.4 67.144, contextual -- 11:16-23:36 are 11.4 only);
+    all six study-Bible notes quoted (ESVSB 24:34, 24:35, Mark 11:13-14; NIV BTSB 24:34, Luke 21:29;
+    NIV/NKJV CBSB 24:34, Luke 21:29-30); footnotes on Matt 24:32-35, Mark 13:28-31, Luke 21:29-33;
+    verify_claims --evidence 32/32 ok; validate clean for this file; internal anchors resolve.
+    Commentary cross-check: Bible Knowledge Commentary (Barbieri) on Matt 24:32-35 CONFIRMS reading 5
+    and "all these things" = tribulation events (it adds Matt 21:43 against the contemporaries view);
+    SILENT on the fig tree as Israel (treats it as a harbinger of summer only).
+  findings:
+    critical:
+      - "Line 251-252: 'this generation (γενεά αὕτη) eight other times' is false. Matthew has γενεά 13x;
+         outside 1:17 there are 8 (11:16, 12:39, 12:41, 12:42, 12:45, 16:4, 17:17, 23:36) but only 5
+         carry the demonstrative (11:16, 12:41, 12:42, 12:45, 23:36). 12:39, quoted as an instance, has
+         no αὕτη. The 'eight-for-eight' refrain (258, 266, 285) inherits the error."
+      - "Line 200-201: συκῆ 16x in NT confirmed, but 'most are ordinary' is false: 9 are the cursed tree
+         (Matt 21:19x2, 21:20, 21:21; Mark 11:13, 20, 21), 2 the Luke 13 parable, 3 this parable; only
+         4 are ordinary (John 1:48, 50; Jas 3:12; Rev 6:13)."
+    moderate:
+      - "Line 266-269: γενεά 'does not mean race' is argued without disclosing LSB footnote 'Or race'
+         (Matt 24:34, Mark 13:30, Luke 21:32), NLT 'Or ... this nation', or ESVSB option (4)."
+      - "Line 316-317 + 281-283: 'Either way the thing near is the coming' overstates. CSB footnote reads
+         'Or it; that is, summer'; NIV 'it'. The 'at the very gates nineteen centuries ago' rebuttal of the
+         contemporaries view depends on 'he', which the study itself says is unexpressed."
+      - "Publish order: links to three drafts -- heaven-and-earth-will-pass-away.md (mutual),
+         immediately-after.md, israels-regathering-and-refining.md (the last not in open_questions)."
+      - "Duplication with heaven-and-earth: 'Words that outlast creation' heading, the οὐ μή sentence
+         (near-verbatim) and the ESVSB 24:35 quote appear in both."
+    minor:
+      - "Bare refs likely to misresolve in pop-up: '(14:5-7)' line 206 (last full ref Luke 21:29) and
+         '(21:20-24)' line 304 (falls to Matthew)."
+      - "Hosea 14:5-7 'cedar' -- ESV has 'trees of Lebanon'; grain omitted."
+      - "Line 118-119 'The disciples were looking at leafing fig trees' asserted from one out-of-season tree."
+      - "Line 223 1948+40=1988 / restart from 1967 unsourced."
+      - "NIV CBSB and NKJV CBSB 24:34 notes are identical text -- cite once."
+      - "γενεά lacks G1074; no pronunciation guides (sibling gives par-ER-kho-my)."
+      - "Matthew 21:18-22 in bible_references but Matthew's same-day withering never mentioned; chronology is Mark's."
+      - "Narrated-argument sentences: 140-141, 233-234, 284, 288."
+      - "Heading 'A commentary that reads Luke against the code concedes the symbol' -- unclear, and 'concedes' overstates a note that holds the symbolism."
+      - "Line 336 'verses 4-31' vs '4-25' elsewhere."
+  ready_to_publish: false
+
+fix_2026-09-28:
+  applied: "C1 genea: 8 uses outside the genealogy, 5 as 'this generation' (11:16; 12:41, 42, 45; 23:36); 'eight-for-eight' wording removed. C2 syke: 16 = 7 cursed tree (Matt 21:19 x2, 20, 21; Mark 11:13, 20, 21) + 3 this parable + 2 Luke 13 + 4 ordinary (reviewer's '9' corrected on re-count). M3 'race': LSB 'Or race' at all three parallels, NLT 'Or this nation', ESV SB option 4 named and answered; Jer 31:35-36 for Israel's preservation. M4 he/it: CSB 'Or it; that is, summer' stated, rebuttal rests on 'immediately' (24:29). M6 'Words that outlast creation' cut to a short 'His words' pointer (author: heaven-and-earth keeps it); heaven-and-earth link repointed to #his-words. AD 70 subsection trimmed to pay for words. Minors: Hosea 14:5-7 (trees of Lebanon, grain), Matt 21:19 'at once', 1988 restart claim dropped, G1074, CB cited once, 4-31 -> 4-25, thesis marks the echo contested, narrated sentences cut."
+  sibling_update: "prophecy-essentials.md no longer reads Matthew 24:34 as fulfilled in AD 70 (author decision); links here."
