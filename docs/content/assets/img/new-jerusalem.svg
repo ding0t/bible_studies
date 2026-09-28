@@ -1,0 +1,289 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1370" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">The New Jerusalem, Revelation 21:10-22:2</title>
+  <desc id="d">Architectural plate in two views. The elevation shows the east face: a cube of transparent gold, equal in length, width and height, standing behind a jasper wall pierced by three pearl gates with an angel over each, on twelve courses of jewelled foundations, seen by John from a high mountain. The plan shows the square city with three gates on each side named for the tribes of Israel, the throne of God and of the Lamb at the centre, and the river of the water of life running along the street with the tree of life on both banks.</desc>
+
+  <defs>
+    <radialGradient id="glory" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fffdf2" stop-opacity="1"/>
+      <stop offset="0.45" stop-color="#fff4c9" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff4c9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbe7a1"/>
+      <stop offset="0.5" stop-color="#eec95c"/>
+      <stop offset="1" stop-color="#d9a93a"/>
+    </linearGradient>
+    <linearGradient id="goldPlan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fcecb3"/>
+      <stop offset="1" stop-color="#e8bf55"/>
+    </linearGradient>
+    <linearGradient id="jasper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c4e6dc"/>
+      <stop offset="1" stop-color="#7fb8a3"/>
+    </linearGradient>
+    <radialGradient id="pearl" cx="40%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#f1eef6"/>
+      <stop offset="0.8" stop-color="#e2ecf2"/>
+      <stop offset="1" stop-color="#d9d2e6"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9f1fb"/>
+      <stop offset="0.5" stop-color="#9fd3ec"/>
+      <stop offset="1" stop-color="#d9f1fb"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9ad98"/>
+      <stop offset="1" stop-color="#8f8470"/>
+    </linearGradient>
+    <marker id="tick" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M5 0 V10" stroke="#5a4a2c" stroke-width="1.5"/>
+    </marker>
+    <g id="angel">
+      <path d="M0 -2 C -9 -12, -17 -4, -14 3 C -9 0, -5 0, 0 2 Z" fill="#fffdf4" stroke="#b08a2e" stroke-width="0.8"/>
+      <path d="M0 -2 C 9 -12, 17 -4, 14 3 C 9 0, 5 0, 0 2 Z" fill="#fffdf4" stroke="#b08a2e" stroke-width="0.8"/>
+      <circle cx="0" cy="-6" r="3.2" fill="#fffdf4" stroke="#b08a2e" stroke-width="0.8"/>
+      <path d="M-3 -2 L3 -2 L4 9 L-4 9 Z" fill="#fffdf4" stroke="#b08a2e" stroke-width="0.8"/>
+    </g>
+    <g id="tree">
+      <circle r="6.5" fill="#4f9a4a" stroke="#2f6b2e" stroke-width="1"/>
+      <circle cx="-2" cy="-2" r="1.3" fill="#e0563a"/>
+      <circle cx="2.5" cy="1" r="1.3" fill="#f2b233"/>
+    </g>
+  </defs>
+
+  <!-- plate -->
+  <rect width="960" height="1370" fill="#faf5e8"/>
+  <rect x="12" y="12" width="936" height="1346" fill="none" stroke="#5a4a2c" stroke-width="1.5"/>
+  <rect x="18" y="18" width="924" height="1334" fill="none" stroke="#5a4a2c" stroke-width="0.6"/>
+
+  <text x="480" y="52" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#3b2f1a" letter-spacing="1">The New Jerusalem</text>
+  <text x="480" y="80" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#5a4a2c">as John describes it in Revelation 21:10–22:2 (ESV)</text>
+
+  <!-- ============ ELEVATION ============ -->
+  <text x="40" y="124" font-size="13" fill="#5a4a2c" letter-spacing="2" font-weight="bold">ELEVATION · EAST FACE</text>
+
+  <circle cx="530" cy="358" r="300" fill="url(#glory)"/>
+  <g stroke="#fff6d2" stroke-width="2" opacity="0.7">
+    <line x1="530" y1="358" x2="530" y2="96"/>
+    <line x1="530" y1="358" x2="300" y2="150"/>
+    <line x1="530" y1="358" x2="760" y2="150"/>
+    <line x1="530" y1="358" x2="250" y2="330"/>
+    <line x1="530" y1="358" x2="810" y2="330"/>
+  </g>
+
+  <!-- mountain and John -->
+  <path d="M30 620 L95 520 L125 540 L150 448 L185 500 L205 490 L275 620 Z" fill="url(#mountain)" stroke="#6e6452" stroke-width="1"/>
+  <g stroke="#3b2f1a" stroke-width="1.6" fill="none">
+    <circle cx="150" cy="432" r="3.2" fill="#3b2f1a"/>
+    <line x1="150" y1="435" x2="150" y2="446"/>
+    <line x1="150" y1="439" x2="157" y2="434"/>
+  </g>
+  <text x="150" y="398" text-anchor="middle" font-size="14" fill="#3b2f1a">John, on “a great,</text>
+  <text x="150" y="415" text-anchor="middle" font-size="14" fill="#3b2f1a">high mountain” (21:10)</text>
+
+  <!-- the city: cube of transparent gold -->
+  <rect x="340" y="168" width="380" height="380" fill="url(#gold)" stroke="#a87d22" stroke-width="1.5"/>
+  <g stroke="#fff4c4" stroke-width="1" opacity="0.55">
+    <line x1="403" y1="168" x2="403" y2="548"/><line x1="467" y1="168" x2="467" y2="548"/>
+    <line x1="530" y1="168" x2="530" y2="548"/><line x1="593" y1="168" x2="593" y2="548"/>
+    <line x1="657" y1="168" x2="657" y2="548"/>
+    <line x1="340" y1="231" x2="720" y2="231"/><line x1="340" y1="295" x2="720" y2="295"/>
+    <line x1="340" y1="358" x2="720" y2="358"/><line x1="340" y1="421" x2="720" y2="421"/>
+  </g>
+  <polygon points="360,168 440,168 340,300 340,196" fill="#ffffff" opacity="0.35"/>
+  <polygon points="560,168 600,168 470,548 430,548" fill="#ffffff" opacity="0.18"/>
+
+  <!-- wall of jasper with pearl gates -->
+  <rect x="340" y="488" width="380" height="60" fill="url(#jasper)" stroke="#4f8a76" stroke-width="1.2"/>
+  <line x1="340" y1="494" x2="720" y2="494" stroke="#e6f5ef" stroke-width="1.2"/>
+  <g stroke="#9b90ad" stroke-width="1.2" fill="url(#pearl)">
+    <path d="M414 548 V521 A21 21 0 0 1 456 521 V548 Z"/>
+    <path d="M509 548 V521 A21 21 0 0 1 551 521 V548 Z"/>
+    <path d="M604 548 V521 A21 21 0 0 1 646 521 V548 Z"/>
+  </g>
+  <use href="#angel" x="435" y="478"/>
+  <use href="#angel" x="530" y="478"/>
+  <use href="#angel" x="625" y="478"/>
+
+  <!-- twelve foundations, first (jasper) at the base -->
+  <g stroke="#3b2f1a" stroke-width="0.3">
+    <rect x="332" y="614" width="396" height="6" fill="#7fb8a3"/>
+    <rect x="332" y="608" width="396" height="6" fill="#2d4f9e"/>
+    <rect x="332" y="602" width="396" height="6" fill="#9fb0c4"/>
+    <rect x="332" y="596" width="396" height="6" fill="#1f8a4c"/>
+    <rect x="332" y="590" width="396" height="6" fill="#8a5a44"/>
+    <rect x="332" y="584" width="396" height="6" fill="#b83a2a"/>
+    <rect x="332" y="578" width="396" height="6" fill="#cdb935"/>
+    <rect x="332" y="572" width="396" height="6" fill="#5fb8b0"/>
+    <rect x="332" y="566" width="396" height="6" fill="#e2a33a"/>
+    <rect x="332" y="560" width="396" height="6" fill="#7cc36a"/>
+    <rect x="332" y="554" width="396" height="6" fill="#d0752e"/>
+    <rect x="332" y="548" width="396" height="6" fill="#8a55b0"/>
+  </g>
+  <line x1="24" y1="620" x2="936" y2="620" stroke="#5a4a2c" stroke-width="1.2"/>
+  <text x="870" y="614" text-anchor="end" font-size="12" font-style="italic" fill="#5a4a2c">the new earth</text>
+
+  <text x="435" y="640" text-anchor="middle" font-size="13" font-style="italic" fill="#3b2f1a">Joseph</text>
+  <text x="530" y="640" text-anchor="middle" font-size="13" font-style="italic" fill="#3b2f1a">Benjamin</text>
+  <text x="625" y="640" text-anchor="middle" font-size="13" font-style="italic" fill="#3b2f1a">Dan</text>
+
+  <!-- dimensions -->
+  <g stroke="#5a4a2c" stroke-width="1">
+    <line x1="340" y1="138" x2="720" y2="138" marker-start="url(#tick)" marker-end="url(#tick)"/>
+    <line x1="340" y1="144" x2="340" y2="164" stroke-dasharray="2 2"/>
+    <line x1="720" y1="144" x2="720" y2="164" stroke-dasharray="2 2"/>
+    <line x1="310" y1="168" x2="310" y2="548" marker-start="url(#tick)" marker-end="url(#tick)"/>
+  </g>
+  <text x="530" y="130" text-anchor="middle" font-size="14" fill="#3b2f1a">12,000 stadia ≈ 2,220 km</text>
+  <text transform="translate(300 358) rotate(-90)" text-anchor="middle" font-size="14" fill="#3b2f1a">length, width and height equal (21:16)</text>
+
+  <!-- callouts -->
+  <g font-size="14" fill="#3b2f1a">
+    <text x="752" y="186">“The glory of God</text>
+    <text x="752" y="203">gives it light” (21:23)</text>
+
+    <text x="752" y="262">City of pure gold,</text>
+    <text x="752" y="279">like clear glass (21:18)</text>
+
+    <text x="752" y="428">An angel at each</text>
+    <text x="752" y="445">gate (21:12)</text>
+
+    <text x="752" y="478">Gates of pearl, each</text>
+    <text x="752" y="495">a single pearl (21:21)</text>
+
+    <text x="752" y="522">Wall of jasper,</text>
+    <text x="752" y="539">144 cubits (21:17-18)</text>
+
+    <text x="752" y="574">Twelve foundations, the</text>
+    <text x="752" y="591">apostles’ names (21:14)</text>
+  </g>
+  <g stroke="#5a4a2c" stroke-width="0.8" fill="none">
+    <polyline points="700,268 746,268"/>
+    <polyline points="637,472 700,436 746,436"/>
+    <polyline points="646,530 700,486 746,486"/>
+    <polyline points="720,516 746,528"/>
+    <polyline points="728,584 746,582"/>
+  </g>
+
+  <text x="530" y="662" text-anchor="middle" font-size="12" font-style="italic" fill="#5a4a2c">east gate names after Ezekiel 48:32</text>
+
+  <line x1="40" y1="684" x2="920" y2="684" stroke="#5a4a2c" stroke-width="0.6" stroke-dasharray="4 4"/>
+
+  <!-- ============ PLAN ============ -->
+  <text x="40" y="712" font-size="13" fill="#5a4a2c" letter-spacing="2" font-weight="bold">PLAN</text>
+
+  <circle cx="330" cy="950" r="190" fill="url(#glory)"/>
+  <rect x="130" y="750" width="400" height="400" fill="url(#goldPlan)" stroke="#7fb8a3" stroke-width="14"/>
+  <rect x="123" y="743" width="414" height="414" fill="none" stroke="#4f8a76" stroke-width="1"/>
+  <circle cx="330" cy="950" r="120" fill="url(#glory)"/>
+
+  <!-- street and river, east and west from the throne -->
+  <rect x="137" y="930" width="386" height="40" fill="#fbf0c6" stroke="#c99a35" stroke-width="0.8"/>
+  <rect x="137" y="942" width="386" height="16" fill="url(#water)"/>
+  <g fill="none" stroke="#3a7fa8" stroke-width="1.6">
+    <path d="M226 946 L220 950 L226 954"/><path d="M176 946 L170 950 L176 954"/>
+    <path d="M434 946 L440 950 L434 954"/><path d="M484 946 L490 950 L484 954"/>
+  </g>
+  <g>
+    <use href="#tree" x="160" y="922"/><use href="#tree" x="190" y="922"/><use href="#tree" x="220" y="922"/><use href="#tree" x="250" y="922"/><use href="#tree" x="280" y="922"/>
+    <use href="#tree" x="380" y="922"/><use href="#tree" x="410" y="922"/><use href="#tree" x="440" y="922"/><use href="#tree" x="470" y="922"/><use href="#tree" x="500" y="922"/>
+    <use href="#tree" x="160" y="978"/><use href="#tree" x="190" y="978"/><use href="#tree" x="220" y="978"/><use href="#tree" x="250" y="978"/><use href="#tree" x="280" y="978"/>
+    <use href="#tree" x="380" y="978"/><use href="#tree" x="410" y="978"/><use href="#tree" x="440" y="978"/><use href="#tree" x="470" y="978"/><use href="#tree" x="500" y="978"/>
+  </g>
+
+  <!-- throne -->
+  <rect x="314" y="934" width="32" height="32" rx="4" fill="#fffdf4" stroke="#a87d22" stroke-width="1.5"/>
+  <path d="M322 958 V944 H338 V958 M322 952 H338" fill="none" stroke="#a87d22" stroke-width="1.5"/>
+
+  <g font-size="14" fill="#3b2f1a" text-anchor="middle">
+    <text x="330" y="885">Throne of God and of the Lamb (22:1)</text>
+    <text x="330" y="1018">River of the water of life down the street,</text>
+    <text x="330" y="1035">the tree of life on either side (22:1-2)</text>
+    <text x="330" y="1100">City and street of pure gold (21:18, 21)</text>
+    <text x="330" y="800">No temple: the Lord God and</text>
+    <text x="330" y="817">the Lamb are its temple (21:22)</text>
+  </g>
+
+  <!-- gates: three on each side (21:13), names after Ezekiel 48:31-34 -->
+  <g fill="url(#pearl)" stroke="#9b90ad" stroke-width="1.2">
+    <circle cx="230" cy="750" r="13"/><circle cx="330" cy="750" r="13"/><circle cx="430" cy="750" r="13"/>
+    <circle cx="230" cy="1150" r="13"/><circle cx="330" cy="1150" r="13"/><circle cx="430" cy="1150" r="13"/>
+    <circle cx="130" cy="850" r="13"/><circle cx="130" cy="950" r="13"/><circle cx="130" cy="1050" r="13"/>
+    <circle cx="530" cy="850" r="13"/><circle cx="530" cy="950" r="13"/><circle cx="530" cy="1050" r="13"/>
+  </g>
+  <g font-size="13" font-style="italic" fill="#3b2f1a">
+    <text x="230" y="731" text-anchor="middle">Reuben</text>
+    <text x="330" y="731" text-anchor="middle">Judah</text>
+    <text x="430" y="731" text-anchor="middle">Levi</text>
+    <text x="554" y="855">Joseph</text>
+    <text x="554" y="955">Benjamin</text>
+    <text x="554" y="1055">Dan</text>
+    <text x="230" y="1180" text-anchor="middle">Simeon</text>
+    <text x="330" y="1180" text-anchor="middle">Issachar</text>
+    <text x="430" y="1180" text-anchor="middle">Zebulun</text>
+    <text x="106" y="855" text-anchor="end">Gad</text>
+    <text x="106" y="955" text-anchor="end">Asher</text>
+    <text x="106" y="1055" text-anchor="end">Naphtali</text>
+  </g>
+
+  <!-- compass -->
+  <g transform="translate(580 772)">
+    <circle r="17" fill="none" stroke="#5a4a2c" stroke-width="1"/>
+    <path d="M0 -14 L5 4 L0 0 L-5 4 Z" fill="#3b2f1a"/>
+    <text y="-22" text-anchor="middle" font-size="12" font-weight="bold" fill="#3b2f1a">N</text>
+  </g>
+
+  <g stroke="#5a4a2c" stroke-width="1">
+    <line x1="130" y1="1202" x2="530" y2="1202" marker-start="url(#tick)" marker-end="url(#tick)"/>
+  </g>
+  <text x="330" y="1222" text-anchor="middle" font-size="14" fill="#3b2f1a">12,000 stadia each side: “the city lies foursquare” (21:16)</text>
+
+  <!-- legend: foundations -->
+  <g font-size="14" fill="#3b2f1a">
+    <text x="640" y="760" font-weight="bold">The twelve foundations</text>
+    <text x="640" y="778" font-size="12" font-style="italic">Revelation 21:19-20, first at the base</text>
+  </g>
+  <g stroke="#3b2f1a" stroke-width="0.5">
+    <rect x="640" y="794" width="22" height="18" fill="#7fb8a3"/>
+    <rect x="640" y="824" width="22" height="18" fill="#2d4f9e"/>
+    <rect x="640" y="854" width="22" height="18" fill="#9fb0c4"/>
+    <rect x="640" y="884" width="22" height="18" fill="#1f8a4c"/>
+    <rect x="640" y="914" width="22" height="18" fill="#8a5a44"/>
+    <rect x="640" y="944" width="22" height="18" fill="#b83a2a"/>
+    <rect x="640" y="974" width="22" height="18" fill="#cdb935"/>
+    <rect x="640" y="1004" width="22" height="18" fill="#5fb8b0"/>
+    <rect x="640" y="1034" width="22" height="18" fill="#e2a33a"/>
+    <rect x="640" y="1064" width="22" height="18" fill="#7cc36a"/>
+    <rect x="640" y="1094" width="22" height="18" fill="#d0752e"/>
+    <rect x="640" y="1124" width="22" height="18" fill="#8a55b0"/>
+  </g>
+  <g font-size="14" fill="#3b2f1a">
+    <text x="674" y="808">1  jasper</text>
+    <text x="674" y="838">2  sapphire</text>
+    <text x="674" y="868">3  agate</text>
+    <text x="674" y="898">4  emerald</text>
+    <text x="674" y="928">5  onyx</text>
+    <text x="674" y="958">6  carnelian</text>
+    <text x="674" y="988">7  chrysolite</text>
+    <text x="674" y="1018">8  beryl</text>
+    <text x="674" y="1048">9  topaz</text>
+    <text x="674" y="1078">10  chrysoprase</text>
+    <text x="674" y="1108">11  jacinth</text>
+    <text x="674" y="1138">12  amethyst</text>
+  </g>
+  <g font-size="12" font-style="italic" fill="#5a4a2c">
+    <text x="640" y="1168">Shown in each stone’s usual colour;</text>
+    <text x="640" y="1184">several ancient identifications</text>
+    <text x="640" y="1200">are uncertain.</text>
+  </g>
+
+  <!-- notes -->
+  <line x1="40" y1="1246" x2="920" y2="1246" stroke="#5a4a2c" stroke-width="0.6"/>
+  <g font-size="12.5" fill="#3b2f1a">
+    <text x="40" y="1270">Wall and gates drawn enlarged. At true scale the 144-cubit wall (about 65 m) would be about 1/34,000 of the city’s</text>
+    <text x="40" y="1287">height. John does not say whether 144 cubits is the wall’s height or its thickness.</text>
+    <text x="40" y="1310">John puts the tribes’ names on the gates (21:12) without assigning them; the assignment shown is Ezekiel’s (48:31-34).</text>
+    <text x="40" y="1333">John puts the throne “in it” (22:3) and the river down the street; its centre and east-west course follow Ezekiel 47:1 and Zechariah 14:8.</text>
+  </g>
+</svg>

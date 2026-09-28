@@ -186,6 +186,10 @@ pattern with meaning (Exodus 25:9). The *ESV Study Bible* allows both: the dimen
 the literal dimensions of the city or may symbolize the perfect life of the people of God" (note on
 Revelation 21:15-17).
 
+Drawn from what the angel measured and John recorded, the city looks like this:
+
+![Architectural drawing of the New Jerusalem. The elevation shows a cube of transparent gold behind a jasper wall with three pearl gates, an angel over each, standing on twelve courses of jewelled foundations, with John on a high mountain. The plan shows three gates on each side named for the tribes, the throne at the centre, and the river running along the street with the tree of life on both banks.](../assets/img/new-jerusalem.svg)
+
 ## Why a city is called the Bride
 
 ### Three readings
