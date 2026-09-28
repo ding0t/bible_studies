@@ -1,6 +1,6 @@
 slug: "immediately-after"
 title: "Immediately After: Daniel's Seventieth Week and the Olivet Discourse"
-status: drafting
+status: published
 target_path: "docs/content/last-things/immediately-after.md"
 primary_passage: "Matthew 24:29-31; Daniel 9:24-27"
 forked_from: "docs/content/last-things/olivet-discourse.md"
@@ -223,3 +223,45 @@ open_questions:
     When published, turn the plain-text pointer in olivet-discourse.md ("a separate study,
     *Immediately After* (in preparation)") into a link.
 last_updated: "2026-09-26"
+review_2026-09-28:
+  skill: review-bible-study
+  verdict: "Not ready to publish alongside fig-tree-and-this-generation.md until the 24:4-14 placement is decided."
+  checked: >
+    verify_claims.py --evidence: 18/18 ok. ESV re-queried (study-notes.db) for every other quotation:
+    Dan 9:1, 19, 25, 26, 27, 2:44; Matt 24:15, 29, 31; Mark 13:24; Luke 4:21, 21:24; Isa 61:2;
+    Rom 11:26; 2 Thess 2:3-4 -- all verbatim. ESV SB notes Dan 9:1-19/9:1-27 (539 BC), 9:27 (three
+    readings), Matt 24:15-31; NIV BTSB Matt 24:29-51 -- quotations accurate. G2112 in Matt =
+    13 (SBLGNT); Mark 13:24 has no eutheos; H7620, H3722, H4899, H5057 confirmed in interlinear.
+    Larkin charts read from the image files: the mountain-peaks quotation is the chart's own legend;
+    seventy-weeks caption details (445 BC, AD 30, AD 70, gap label, church note, Luke 21:24, Zech 14:4,
+    dated 1/25/19) all match -- resolves the 1919 open question. Internal links and anchors resolve; no
+    links to drafts. #the-times-of-the-gentiles exists. validate: no warnings for this file.
+    Phase 5: Bible Knowledge Commentary (not cited by the study).
+  findings:
+    critical:
+      - >
+        Sibling contradiction: study (lines 124-128, 183-184, 196-200; description; state `point`) puts
+        Matt 24:4-14 in the present age with the 69th-70th week gap between 24:14 and 24:15.
+        fig-tree-and-this-generation.md (revised) and prophecy-essentials.md put 24:4-25 in the future
+        seventieth week, "this generation" = those alive when 24:4's signs begin. rapture.md (24:4-31
+        a sequence of signs) agrees with fig-tree; olivet-discourse.md agrees with this study. BKC (Matt
+        24:4-8) takes 4-8 as the first half of the seventieth week and names the 4-14/15 split as an
+        alternative premillennial view. Author decision.
+    moderate:
+      - "Line 46: 'Jesus places its abomination immediately before His own coming' -- 'immediately' follows the distress, the abomination opens it (midpoint, per the study's own diagram)."
+      - "Line 328: atonement 'in the sixty-ninth week's closing event' -- Dan 9:26 says 'after the sixty-two weeks'; the study itself says 'after all sixty-nine' at line 208."
+      - "Lines 233-235: 'cost' of the Messianic reading assumes the covenant-maker brings the abominations; ESV/ULT make the desolator a separate subject and CSB footnotes 'Hb obscure'. Also 9:25 calls the anointed one nagid, which the nearest-antecedent argument omits. BKC's three reasons (seven years, sacrifices, abomination) are a stronger replacement."
+      - "Times of the Gentiles: diagram node C equates it with the church age after AD 70, before week 70; Luke 21:24 runs it to Jerusalem's deliverance, and the study's own Daniel 2 frame and Larkin's chart start it at Babylon (606 BC)."
+    minor:
+      - "Line 20: 'four disciples' is Mark 13:3; Matthew 24:3 says 'the disciples'."
+      - "Line 329: 'cut off for sins not His own' echoes KJV 'not for himself'; ESV reads 'shall have nothing'."
+      - "Lines 278-281: 1948/1967 stated as settled markers and 'the right place to weigh them' without weighing; regathering study calls 1948 a 'candidate stage'."
+      - "Mountain-peaks image has no caption/attribution; Josephus in diagram 1 is uncited in References."
+      - "strongs_suggest: mashiach (line 209) has no Strong's tag (H4899)."
+      - "No link to fig-tree-and-this-generation.md, which it is published with."
+      - "Mermaid widths not measured (mmdc not installed)."
+
+fix_2026-09-28:
+  applied: "C1 gap moved: the week opens at 24:4, AD 70 in the gap per Dan 9:26 and as near fulfilment/type (1 Macc 1:54, 2 Thess 2:4, Grassmick); 'The question on the Mount of Olives' rewritten (near answer Luke 21:20-24; far answer from 24:4; Rev 6 seals; Barbieri); diagram 1 redrawn. M2 abomination/immediately wording. M3 atonement 'just after the sixty-ninth week closed', 1 Cor 15:3. M4 Messiah reading given 9:25 nagid; 'cost' sentence replaced (BKC's three reasons not located in the EPUB, so not attributed). M5 times of the Gentiles 586 BC to the return (Martin); diagram 2 node fixed. Minors: 'His disciples', 1948/1967 marked as judgement with link to israels-regathering, Larkin caption, H4899, links to fig-tree and regathering."
+site_position_2026-09-28: "Author decision: Matthew 24 has a near fulfilment in AD 70 (Rome; Luke 21:20-24 records it; Daniel 9:26 places it between the 69th and 70th weeks) that is also a type of the far one; the far fulfilment is Daniel's seventieth week, opening at Matt 24:4 (birth pains; cf. Rev 6 seals, written c. AD 95 as still future, Rev 4:1) with the abomination at 24:15 as midpoint. The abomination is a repeating pattern: Antiochus 167 BC (1 Macc 1:54), Rome AD 70, the man of lawlessness (2 Thess 2:4). Sources: ESV SB on Matt 24:15 (complete fulfilment in AD 70 and the Antichrist) and Luke 21:5-24 (type); BKC Barbieri on Matt 24:4-8 (first half of the week), Grassmick on Mark 13:14-23 ('near' foreshadowed 'far'), Martin on Luke 21:20-24 (times of the Gentiles 586 BC to the tribulation)."
+published_2026-09-28: "draft: false with fig-tree, heaven-and-earth, immediately-after and israels-regathering together; mkdocs build --strict clean."

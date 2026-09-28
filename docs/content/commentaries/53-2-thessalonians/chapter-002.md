@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:1-12 (primary passage)
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 2:3-4
 - [Know the Truth](../../christian-life/know-the-truth.md) — 2:10-11
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 2:6-7
 - [The Rapture of the Church](../../last-things/rapture.md) — 2:1-7

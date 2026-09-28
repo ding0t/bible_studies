@@ -13,5 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 40:17
+- [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 40:8
+- [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 40:8
 - [The Way](../../jesus/the-way.md) — 40:3
 <!-- commentary-index:auto-end -->

@@ -14,5 +14,6 @@ draft: false
 
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 5:16
 - [The Day Is Near](../../last-things/day-is-near.md) — 5:7-8
+- [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 5:8-9
 - [The Way](../../jesus/the-way.md) — 5:20
 <!-- commentary-index:auto-end -->

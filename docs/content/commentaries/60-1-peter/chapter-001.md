@@ -15,6 +15,7 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 1:18-19
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:3-5
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 1:1
+- [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:24-25
 - [Simon Peter](../../biblical-figures/peter.md) — 1:1
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:19
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:18-19

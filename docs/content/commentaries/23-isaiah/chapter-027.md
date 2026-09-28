@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 27:1
+- [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 27:9
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 27:12-13
 <!-- commentary-index:auto-end -->

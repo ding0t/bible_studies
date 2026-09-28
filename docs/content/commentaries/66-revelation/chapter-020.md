@@ -17,6 +17,8 @@ draft: false
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 20:13-14
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 20:1-6
 - [Charting End Times](../../last-things/prophecy-chart.md) — 20:1-6
+- [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 20:4-15
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 20:1-15
 - [Six Days of History](../../last-things/six-days-of-history.md) — 20:4
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 20:1-6
 - [The Day Is Near](../../last-things/day-is-near.md) — 20:1-7

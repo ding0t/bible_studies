@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 9:24-27 (primary passage)
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 9:24-27 (primary passage)
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 9:24-27
 - [Charting End Times](../../last-things/prophecy-chart.md) — 9:27

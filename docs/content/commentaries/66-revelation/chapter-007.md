@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 7:9
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 7:14
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 7:1-9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 7:15
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 7:15

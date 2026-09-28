@@ -14,6 +14,7 @@ draft: false
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 14:16
 - [Charting End Times](../../last-things/prophecy-chart.md) — 14:4-5
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 14:4
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 14:7
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 14:11
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 14:1-5

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 9:1-6
+- [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 9:24
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 9:22-24
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 9:4
 <!-- commentary-index:auto-end -->

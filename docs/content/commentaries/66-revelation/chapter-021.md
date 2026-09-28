@@ -16,6 +16,8 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 21:3
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 21:1-8
 - [Biblical Numerology](../../scripture/numerology.md) — 21:12-14
+- [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 21:1
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 21:1-4
 - [Sin and Sorcery](../../sin/sorcery.md) — 21:8
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 21:1-9
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 21:2

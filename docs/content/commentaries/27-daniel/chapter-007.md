@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 7:1
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 7:13-14
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 7:14
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 7:13-14
 <!-- commentary-index:auto-end -->

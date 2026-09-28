@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 15:10-11
+- [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 15:14-16
 <!-- commentary-index:auto-end -->

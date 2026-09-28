@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 4:17-19
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 4:16-21
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 4:18-19
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:42
 <!-- commentary-index:auto-end -->

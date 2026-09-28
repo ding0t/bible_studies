@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 13:8
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 13:9-10
 <!-- commentary-index:auto-end -->

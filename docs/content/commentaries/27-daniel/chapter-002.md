@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 2 (primary passage)
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 2:44
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:27-30
 - [Sin and Sorcery](../../sin/sorcery.md) — 2:27-28
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 2:44

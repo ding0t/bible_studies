@@ -1,6 +1,6 @@
 slug: "israels-regathering-and-refining"
 title: "Israel's Regathering and Refining"
-status: review
+status: published
 target_path: "docs/content/israel-and-church/israels-regathering-and-refining.md"
 primary_passage: "Ezekiel 36:22-28; Zechariah 12:10-13:9"
 point: >
@@ -142,3 +142,33 @@ resources_consulted:
   - {type: lexicon, title: "TWOT root map", note: "1972 tsaraph, 449 daqar"}
   - {type: other, title: "bible-text.db", note: "MACULA WLC occurrences of H1856 (Num 25:8, 1 Sam 31:4, Zech 12:10, 13:3 etc.); unfoldingWord interlinear Zech 12:10, 13:9"}
 last_updated: "2026-09-26"
+
+review_2026-09-28:
+  reviewer: anthropic/claude-opus-5.5 (review-bible-study, independent pass; no edits to the study)
+  checked: >
+    Evidence replay 22/22 ok. Every ESV block and inline quotation re-queried from study-notes.db
+    (Ezek 36:23-28, 37:21-22, 20:34-37, Acts 15:14-16, Acts 1:6-7, Zech 13:8-9, Deut 4:30-31,
+    Hos 1:9-10, 5:15, Jer 30:7, Dan 12:1, Isa 11:11, Rom 11:29): all verbatim. ESV SB intros (Ezekiel
+    593/571/586, chs 1-25/33-48; Zechariah 538/520, fifth century) and notes (36:22-32, 36:24-25,
+    12:1-14:21, 12:10-14, 11:26) confirmed. TWOT 1972/449, H1856 concordance (Num 25:8, 1 Sam 31:4,
+    Zech 13:3), SBLGNT Rom 11:26, Brenton Isa 59:20 and Ps 13:7, WLC Isa 59:20 confirmed. NIV/NKJV
+    Cultural Backgrounds and NIV BTSB notes read. Footnotes for Ezek 36:22-28, Zech 12:10-13:9,
+    Rom 11:25-29 read. Independent commentary: Bible Knowledge Commentary (Dyer on Ezekiel, Lindsey on
+    Zechariah, Toussaint on Acts). Links and #about-1948 anchor resolve; validate clean for this file.
+  findings:
+    - "Moderate: BKC (dispensational) lists Ezek 36:24, 37:1-14, Isa 11:11, Amos 9:14-15 as the FINAL regathering after the seven years, with Israel already in the land before it (Ezek 38:8, not cited). 'About 1948' leans on exactly these texts without disclosing that its own tradition assigns them to the millennial start."
+    - "Moderate: Amos 9:15 'never again uprooted' is listed as a requirement 1948 fits, while the study's own reading of Zech 13:8 puts two-thirds perishing in the land after 1948."
+    - "Moderate: Ezek 20:34-37 quoted without v. 38 ('they shall not enter the land of Israel'); the purge precedes entry, which qualifies 'a return in unbelief is the order the prophecy gives'."
+    - "Moderate: 'nineteen centuries' and 'largely secular return' are unsourced modern claims; 1948 itself never stated or sourced."
+    - "Moderate: Acts 15:16 'after this' stated as settled; it is James's wording for Amos 9:11 'In that day', and BKC itself offers the reading as the 'more plausible' of three."
+    - "Moderate: Rom 9:25-26 cited without noting Paul applies Hosea there to Gentiles (9:24)."
+    - "Moderate: Cultural Backgrounds notes say Paul 'might blend' Isa 59:20-21 with Ps 14:7 and Isa 27:9; study says both 'read Paul as blending the two'. ESV SB reasons for view 3 on 11:26 misattributed (study gives its reasons against view 1)."
+    - "Moderate: Zechariah 'after the return' argument does not address later returns (Ezra 458 BC); Zech 10:6-7 Joseph/Ephraim is the stronger point."
+    - "Minor: Deut 4:31 cut mid-sentence without ellipsis; Hos 1:10 quoted without translation label; 'the rest of his line matches Isaiah's Greek word for word' (Paul drops kai); Hebrew Ps 14:7 also reads 'from Zion'; John 19:34 vs 19:35 for eyewitness; bare chapter:verse references; category 'prophecy' vs siblings' 'theology'; no lang/greek tag; narrated-argument sentences."
+    - "Cross-study: jesus/kinsman-redeemer.md says Isa 59:20 is quoted 'in its Greek form' -- this study shows the LXX reads heneken, not ek. Fix the sibling."
+  ready_to_publish: false
+
+fix_2026-09-28:
+  applied: "M1 'What the prophets require' rewritten: Dyer (BKC Ezekiel) places Ezek 36:24, 37:1-14, Isa 11:11, Amos 9:14-15 after the week; Ezek 38:8 is the pre-tribulation text; Matt 24:15-20. M2 Amos 9:15 as the final planting. M3 Ezek 20:38 quoted. M4 'secular' claim removed; 'nineteen centuries' replaced by AD 135 Aelia Capitolina (NIV CBSB Luke 21:24). M5 Acts 15:16 marked contested with Toussaint's third view. M6 Rom 9:24 and link to wife-of-the-lamb. M7 CBSB 'might blend' incl. Isa 27:9; ESV SB view-1 reasons fixed. M8 Zech 10:6-7 house of Joseph, Ezra 7:6. Zech 13:8-9 given Lindsey's 'final and complete fulfillment'. Minors: Deut 4:31, Hosea 1:10 label, Ps 14:7 Hebrew, John 19:35, bare refs, category theology, lang/greek, links to fig-tree and immediately-after; israel-and-the-church link added; kinsman-redeemer 'in its Greek form' removed."
+site_position_2026-09-28: "Author decision: Matthew 24 has a near fulfilment in AD 70 (Rome; Luke 21:20-24 records it; Daniel 9:26 places it between the 69th and 70th weeks) that is also a type of the far one; the far fulfilment is Daniel's seventieth week, opening at Matt 24:4 (birth pains; cf. Rev 6 seals, written c. AD 95 as still future, Rev 4:1) with the abomination at 24:15 as midpoint. The abomination is a repeating pattern: Antiochus 167 BC (1 Macc 1:54), Rome AD 70, the man of lawlessness (2 Thess 2:4). Sources: ESV SB on Matt 24:15 (complete fulfilment in AD 70 and the Antichrist) and Luke 21:5-24 (type); BKC Barbieri on Matt 24:4-8 (first half of the week), Grassmick on Mark 13:14-23 ('near' foreshadowed 'far'), Martin on Luke 21:20-24 (times of the Gentiles 586 BC to the tribulation)."
+published_2026-09-28: "draft: false with fig-tree, heaven-and-earth, immediately-after and israels-regathering together; mkdocs build --strict clean."

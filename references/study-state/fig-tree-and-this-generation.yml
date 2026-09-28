@@ -1,6 +1,6 @@
 slug: "fig-tree-and-this-generation"
 title: "The Fig Tree and This Generation"
-status: drafted
+status: published
 target_path: "docs/content/last-things/fig-tree-and-this-generation.md"
 primary_passage: "Matthew 24:32-35; Mark 13:28-31; Luke 21:29-33"
 genre: "Gospel (prophetic discourse) with a parable"
@@ -388,3 +388,7 @@ review_2026-09-28:
 fix_2026-09-28:
   applied: "C1 genea: 8 uses outside the genealogy, 5 as 'this generation' (11:16; 12:41, 42, 45; 23:36); 'eight-for-eight' wording removed. C2 syke: 16 = 7 cursed tree (Matt 21:19 x2, 20, 21; Mark 11:13, 20, 21) + 3 this parable + 2 Luke 13 + 4 ordinary (reviewer's '9' corrected on re-count). M3 'race': LSB 'Or race' at all three parallels, NLT 'Or this nation', ESV SB option 4 named and answered; Jer 31:35-36 for Israel's preservation. M4 he/it: CSB 'Or it; that is, summer' stated, rebuttal rests on 'immediately' (24:29). M6 'Words that outlast creation' cut to a short 'His words' pointer (author: heaven-and-earth keeps it); heaven-and-earth link repointed to #his-words. AD 70 subsection trimmed to pay for words. Minors: Hosea 14:5-7 (trees of Lebanon, grain), Matt 21:19 'at once', 1988 restart claim dropped, G1074, CB cited once, 4-31 -> 4-25, thesis marks the echo contested, narrated sentences cut."
   sibling_update: "prophecy-essentials.md no longer reads Matthew 24:34 as fulfilled in AD 70 (author decision); links here."
+
+near_far_2026-09-28: "AD 70 named as the discourse's near fulfilment and a pattern of the far one, linking immediately-after."
+site_position_2026-09-28: "Author decision: Matthew 24 has a near fulfilment in AD 70 (Rome; Luke 21:20-24 records it; Daniel 9:26 places it between the 69th and 70th weeks) that is also a type of the far one; the far fulfilment is Daniel's seventieth week, opening at Matt 24:4 (birth pains; cf. Rev 6 seals, written c. AD 95 as still future, Rev 4:1) with the abomination at 24:15 as midpoint. The abomination is a repeating pattern: Antiochus 167 BC (1 Macc 1:54), Rome AD 70, the man of lawlessness (2 Thess 2:4). Sources: ESV SB on Matt 24:15 (complete fulfilment in AD 70 and the Antichrist) and Luke 21:5-24 (type); BKC Barbieri on Matt 24:4-8 (first half of the week), Grassmick on Mark 13:14-23 ('near' foreshadowed 'far'), Martin on Luke 21:20-24 (times of the Gentiles 586 BC to the tribulation)."
+published_2026-09-28: "draft: false with fig-tree, heaven-and-earth, immediately-after and israels-regathering together; mkdocs build --strict clean."

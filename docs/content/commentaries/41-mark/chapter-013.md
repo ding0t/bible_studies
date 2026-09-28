@@ -13,9 +13,12 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 13:32 (primary passage)
+- [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 13:28-31 (primary passage)
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 13 (primary passage)
 - [Andrew](../../biblical-figures/andrew.md) — 13:3
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 13:1-8
+- [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 13:3
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 13:24
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 13:3
 - [The Day Is Near](../../last-things/day-is-near.md) — 13:32-37
 <!-- commentary-index:auto-end -->

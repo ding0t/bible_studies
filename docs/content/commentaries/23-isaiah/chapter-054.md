@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 54:9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 54:5
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 54:5
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 54:5

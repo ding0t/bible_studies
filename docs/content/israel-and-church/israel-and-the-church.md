@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Romans 11:1-29; Ephesians 2:11-22"
 bible_references: ["Romans 9:1-6", "Romans 11:1-5", "Romans 11:17-24", "Romans 10:1", "Isaiah 59:20", "Hebrews 8:8-10", "Jeremiah 9:25-26", "Genesis 17:5", "Acts 18:2", "1 Corinthians 10:18", "1 Corinthians 10:32", "Ephesians 3:1-9", "Colossians 1:25-27", "Daniel 2:27-30", "Revelation 7:1-9", "Zechariah 12:10", "Galatians 6:16", "Galatians 3:29", "Romans 2:28-29", "1 Peter 2:9", "Amos 9:11-15", "Romans 15:8-12", "Isaiah 49:6", "Genesis 12:3"]
 date_created: 2026-07-24
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -200,8 +200,8 @@ gospel, beloved as regards election.
 The gifts and the calling are not withdrawn, because God does not change his mind about them. So you
 can rest on the same character: the God who will not revoke Israel's calling will not revoke yours.
 
-What the prophets say of Israel's regathering, the time of distress for Jacob, and 1948 is being
-developed as a study of its own, *Israel's Regathering and Refining*.
+What the prophets say of Israel's regathering, the time of distress for Jacob, and 1948 is worked
+through in [Israel's Regathering and Refining](israels-regathering-and-refining.md).
 
 ## Jews, Greeks, and the church of God
 

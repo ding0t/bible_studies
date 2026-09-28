@@ -3,7 +3,7 @@ title: "Heaven and Earth Will Pass Away"
 category: "prophecy"
 description: "Matthew 24:35 and what Peter and Paul built on it: Jesus staked His words against the whole creation, and 2 Peter 3 and 1 Thessalonians 5 carry the Olivet Discourse's verbs and images -- parousia, the flood, the thief, labour pains -- into the same command to stay awake."
 tags: ["matthew", "2-peter", "1-thessalonians", "revelation", "dispensationalism", "method/word-study", "method/textual-criticism", "enoch", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Matthew 24:35"
 bible_references: ["Matthew 24:3-44", "Matthew 24:8", "Matthew 5:18", "Mark 13:3", "Mark 13:31", "Luke 21:33", "Isaiah 40:8", "Isaiah 51:6", "Isaiah 65:17", "2 Peter 1:16", "2 Peter 3:1-14", "1 Thessalonians 4:15", "1 Thessalonians 5:1-11", "Acts 1:7", "Revelation 3:3", "Revelation 16:15", "Revelation 20:4-15", "Revelation 21:1", "Romans 8:18-25", "2 Peter 3:5-7", "2 Peter 2:4-9", "Genesis 8:22", "Genesis 9:11", "Isaiah 54:9", "Isaiah 66:16", "Zephaniah 3:8", "Luke 17:26-30", "Jude 6", "Jude 14", "Luke 12:39-40", "Luke 21:34-36", "Isaiah 13:8", "Hebrews 1:10-12", "Psalm 102:25-27", "1 Peter 1:24-25", "Luke 16:17", "1 Corinthians 15:42", "1 Corinthians 15:51", "1 Corinthians 7:31", "Matthew 19:28", "Acts 3:21", "Revelation 21:5"]
 date_created: 2026-09-26

@@ -146,7 +146,7 @@ with the dispensational reading. The first is that Peter's "day of the Lord" (2 
 opens with the thief-like coming and closes with the dissolution a thousand years later. John
 Walvoord calls this telescoping: "the beginning and the end of the day of the Lord are mentioned in
 the same passage" (*Bible Knowledge Commentary*, on Revelation 21:1).
-*Heaven and Earth Will Pass Away* (in preparation) sets that
+[Heaven and Earth Will Pass Away](heaven-and-earth-will-pass-away.md#where-it-falls) sets that
 reading out, and gives the case of those who put the return and the new creation together. The
 second is whether the fire of Revelation 20:9, which falls on Gog and Magog, is the same fire as
 Peter's. Revelation does not say.
@@ -157,7 +157,7 @@ Peter sets the two judgments side by side. "The world that then existed was delu
 perished. But by the same word the heavens and earth that now exist are stored up for fire" (2 Peter
 3:6-7, ESV). God closed the first way Himself: "never again shall there be a flood to destroy the
 earth" (Genesis 9:11, ESV), a promise that holds "while the earth remains" (Genesis 8:22, ESV). The
-next judgment of the whole earth is by fire. *Heaven and Earth Will Pass Away* (in preparation) traces the pairing through the prophets
+next judgment of the whole earth is by fire. [Heaven and Earth Will Pass Away](heaven-and-earth-will-pass-away.md#water-then-fire) traces the pairing through the prophets
 and Jesus' words, and sets out what 1 Enoch and Josephus expected.
 
 #### Which fire, and when
@@ -236,7 +236,7 @@ Some argue from *kainos* that the new earth is this earth renewed. The Louw-Nida
 *kainos* and *neos* in the same meaning group (58.71), so the word cannot settle it. Irenaeus held renewal. He wrote that "neither is the substance nor the essence of the creation
 annihilated," only "the fashion of the world passeth away" (*Against Heresies* 5.36.1). Walvoord
 holds a "totally new" creation from the "passed away" of Revelation 21:1 (*Bible Knowledge Commentary*, on that verse).
-Both agree that the old creation ends and the new one is God's work. *Heaven and Earth Will Pass Away* (in preparation) weighs the texts, among them "the
+Both agree that the old creation ends and the new one is God's work. [Heaven and Earth Will Pass Away](heaven-and-earth-will-pass-away.md#renewal-or-replacement) weighs the texts, among them "the
 creation itself will be set free" (Romans 8:21, ESV) and the heavens "will be changed" (Hebrews
 1:12, ESV), and leans to renewal through judgment.
 
@@ -498,7 +498,7 @@ cannot be shaken" (Hebrews 12:28, ESV).
 - [A Day Is a Thousand Years](day-is-a-thousand-years.md) — the seventh day as the millennium, and
   the eighth.
 - [Taken Before Judgment](taken-before-judgment.md) — Enoch, Noah and Lot, rescued before judgment.
-- *Heaven and Earth Will Pass Away* (in preparation) — 2 Peter 3, the textual
+- [Heaven and Earth Will Pass Away](heaven-and-earth-will-pass-away.md) — 2 Peter 3, the textual
   problem at 2 Peter 3:10, and renewal or replacement.
 - [The Bride of Christ](../israel-and-church/bride-of-christ.md) and [The Wife of the
   Lamb](../israel-and-church/wife-of-the-lamb.md) — the Lamb's wife, homed in the new creation.

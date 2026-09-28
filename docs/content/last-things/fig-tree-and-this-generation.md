@@ -3,7 +3,7 @@ title: "The Fig Tree and This Generation"
 category: "prophecy"
 description: "Matthew 24:32-35: the fig tree teaches reading the signs Jesus named, echoes the prophets' promise of Israel planted again in her land, and gives no year to count from; \"this generation\" is the generation that sees the signs begin."
 tags: ["matthew", "mark", "luke", "tribulation", "dispensationalism", "method/word-study", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Matthew 24:32-35; Mark 13:28-31; Luke 21:29-33"
 bible_references: ["Matthew 24:2-3", "Matthew 24:15", "Matthew 24:21", "Matthew 24:4-36", "Matthew 24:42-44", "Matthew 25:10", "Matthew 26:2", "Mark 13:3", "Mark 13:28-30", "Luke 21:20-32", "Luke 13:6-9", "Jeremiah 24:5-8", "Jeremiah 8:13", "Hosea 9:10", "Micah 7:1", "Matthew 21:18-22", "Mark 11:12-25", "Matthew 12:39-42", "Matthew 23:36", "John 1:48-50", "James 3:12", "James 5:8-9", "Revelation 6:13", "Isaiah 40:8", "Acts 1:7", "Hosea 9:16-17", "Hosea 14:5-7", "Jeremiah 24:6-7", "Ezekiel 36:24-26", "Ezekiel 37:8", "Amos 9:15", "Matthew 23:38-39", "Matthew 24:16", "Matthew 24:20", "Mark 11:20-21", "Luke 21:24", "Matthew 11:16", "Matthew 12:45", "Mark 13:30", "Luke 21:32", "Jeremiah 31:35-36", "Luke 13:6-7"]
 date_created: 2026-09-26
@@ -301,7 +301,11 @@ Luke's "times of the Gentiles" (Luke 21:24), a passage about Gentile political c
 see [The times of the Gentiles](immediately-after.md#the-times-of-the-gentiles) in *Immediately
 After*. None of that unsettles what AD 70 fulfilled: the temple fell as Jesus said it would (Matthew
 24:2), and [The Olivet Discourse](olivet-discourse.md#ad-70-question-one-answered-and-documented)
-documents it from Josephus and Eusebius. The temple got a datable answer. The coming did not.
+documents it from Josephus and Eusebius. It was the discourse's near fulfilment and a pattern of the
+far one: the abomination came under Antiochus in 167 BC, again under Rome, and waits for its last
+form (2 Thessalonians 2:4), as [Immediately
+After](immediately-after.md#the-question-on-the-mount-of-olives) sets out. The temple got a datable
+answer. The coming did not.
 
 ## Near, at the Very Doors
 

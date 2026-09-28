@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 21:1-11
+- [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 21:18-22
 - [The Way](../../jesus/the-way.md) — 21:32
 <!-- commentary-index:auto-end -->

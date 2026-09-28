@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 102:27
+- [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 102:25-27
 <!-- commentary-index:auto-end -->

@@ -65,6 +65,14 @@ End-times prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](day-is-near.md)
 
+-   __The Fig Tree and This Generation__
+
+    ---
+
+    Matthew 24:32-35: the fig tree teaches reading the signs Jesus named, echoes the prophets' promise of Israel planted again in her land, and gives no year to count from; "this generation" is the generation that sees the signs begin.
+
+    [:octicons-arrow-right-24: Read](fig-tree-and-this-generation.md)
+
 -   __Genealogy and Times: From Creation to Christ__
 
     ---
@@ -72,6 +80,22 @@ End-times prophecy, read dispensationally.
     Tracing the covenant line from Adam to Christ through Genesis 5 and 11's genealogies, comparing the Masoretic Text, Septuagint, and Samaritan Pentateuch, closing the Exodus-to-Solomon gap with the priestly and Davidic genealogies, and asking what the names themselves are saying
 
     [:octicons-arrow-right-24: Read](genealogy-times.md)
+
+-   __Heaven and Earth Will Pass Away__
+
+    ---
+
+    Matthew 24:35 and what Peter and Paul built on it: Jesus staked His words against the whole creation, and 2 Peter 3 and 1 Thessalonians 5 carry the Olivet Discourse's verbs and images -- parousia, the flood, the thief, labour pains -- into the same command to stay awake.
+
+    [:octicons-arrow-right-24: Read](heaven-and-earth-will-pass-away.md)
+
+-   __Immediately After: Daniel's Seventieth Week and the Olivet Discourse__
+
+    ---
+
+    Matthew 24:29's "immediately" joins the Son of Man's coming to the end of the great distress; Daniel 9:24-27's own sequence puts the long interval earlier, between the cross and the seventieth week, where the church age runs.
+
+    [:octicons-arrow-right-24: Read](immediately-after.md)
 
 -   __A New Heaven and a New Earth__
 

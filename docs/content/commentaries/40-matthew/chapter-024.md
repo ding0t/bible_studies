@@ -12,8 +12,11 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 24:35 (primary passage)
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 24:29-31 (primary passage)
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 24:37-41 (primary passage)
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 24:36 (primary passage)
+- [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 24:32-35 (primary passage)
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 24 (primary passage)
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 24:44
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 24:44

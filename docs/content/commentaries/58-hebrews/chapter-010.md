@@ -14,6 +14,7 @@ draft: false
 
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 10:25
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 10:1
+- [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 10:1-9
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 10:1-18
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 10:19-22
 - [The Way](../../jesus/the-way.md) — 10:19-20

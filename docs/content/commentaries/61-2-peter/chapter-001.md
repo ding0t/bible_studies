@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:5-11
+- [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:16
 <!-- commentary-index:auto-end -->

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ruth 3:9-13; Ruth 4:1-17"
 bible_references: ["Ruth 1:1", "Ruth 1:16", "Ruth 1:21", "Ruth 2:1", "Ruth 2:12", "Ruth 2:20", "Ruth 3:9-13", "Ruth 4:1-22", "Judges 17:6", "Judges 21:25", "Leviticus 19:9-10", "Leviticus 25:23-25", "Leviticus 25:47-55", "Numbers 35:12", "Deuteronomy 25:5-10", "Deuteronomy 23:3", "Genesis 38:8", "Jeremiah 32:7", "Job 19:25", "Nehemiah 13:1", "Nehemiah 13:23", "Isaiah 54:5", "Isaiah 59:20", "Isaiah 56:3-7", "Romans 11:26", "Romans 3:24", "Galatians 4:4-5", "Hebrews 2:11", "Hebrews 2:17", "1 Peter 1:18-19", "Matthew 1:3", "Matthew 1:5"]
 date_created: 2026-09-21
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -305,7 +305,7 @@ The typology rests on Scripture's own pairings:
   Israel is your Redeemer" (Isaiah 54:5, ESV). Ruth's two roles for Boaz are the two titles Isaiah
   gives the LORD in one verse.
 - **The New Testament applies a *goel* text to Christ.** "A Redeemer will come to Zion" (Isaiah
-  59:20, ESV) is quoted by Paul in its Greek form, "The Deliverer will come from Zion," of the day
+  59:20, ESV) is quoted by Paul, "The Deliverer will come from Zion," of the day
   "all Israel will be saved" (Romans 11:26, ESV).
 - **The Redeemer became kin.** "He is not ashamed to call them brothers" (Hebrews 2:11, ESV); "God
   sent forth his Son, born of woman ... to redeem" (Galatians 4:4-5, ESV).

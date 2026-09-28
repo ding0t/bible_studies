@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 6
+- [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 6
 <!-- commentary-index:auto-end -->

@@ -299,7 +299,8 @@ these things" are the signs of Matthew 24:4-25, the same phrase as the verse bef
 what you see before He comes (24:33). Those signs include a tribulation "such as has not been from the
 beginning of the world until now, no, and never will be" (24:21, ESV), followed "immediately" by His
 coming (24:29), so they are still future, and "this generation" is the generation alive when they
-begin. Some read 24:34 as fulfilled in AD 70 instead. [The Fig Tree and This
+begin. AD 70 was the discourse's near fulfilment and a pattern of that far one, the way Antiochus's
+desecration of 167 BC had been before it. Some read 24:34 as fulfilled in AD 70 instead. [The Fig Tree and This
 Generation](fig-tree-and-this-generation.md#this-generation-whose-and-of-what) sets out both readings
 and the case for this one.
 

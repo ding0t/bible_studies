@@ -325,11 +325,15 @@ timing of end-time events, all disciples are to be vigilant" (note on Mark 13:33
 
 #### The abomination of desolation
 
-Verse 15 turns a corner. Up to verse 14 Jesus has described what the whole age between his going and
-his coming will be like — deception, war, famine, persecution, endurance. From verse 15 he describes
-one particular period of distress, and the *ESV Study Bible* marks the same break: "Jesus moves from
-the general characteristics of this age to describe the 'great tribulation' (vv. 15-28) that will
-precede the coming of the Son of Man (vv. 29-31)" (note on 24:15-31).
+Verse 15 turns a corner inside the answer. Deception, war, famine, persecution and endurance
+(24:4-14) marked the first century and have marked the age since, and the *ESV Study Bible* reads
+them that way: "Jesus moves from the general characteristics of this age to describe the 'great
+tribulation' (vv. 15-28) that will precede the coming of the Son of Man (vv. 29-31)" (note on
+24:15-31). This site reads 24:4-14 as more than that. They are "the beginning of the birth pains"
+(24:8), and in their final form they open Daniel's seventieth week, as the first seals of
+Revelation 6 do; verse 15 is the week's midpoint. AD 70 was the near fulfilment, and a pattern of the
+far one. [Immediately After](immediately-after.md#the-question-on-the-mount-of-olives) sets out the
+case.
 
 The signal is Daniel's: "when you see the abomination of desolation spoken of by the prophet Daniel,
 standing in the holy place" (Matthew 24:15, ESV; near-identical at Mark 13:14). Daniel uses the image
@@ -341,7 +345,8 @@ desecration at the midpoint of a seven-year covenant (9:27), and a desolation me
 Jesus names the term without saying which he means, and the *ESV Study Bible* reads the citation as
 reaching to more than one: the complete fulfilment "will be found in (1) the Roman destruction of the
 temple in A.D. 70 and (2) the image of the Antichrist being set up in the last days" (note on 24:15).
-This study follows that reading — with the weight on the second, since verse 29 has the Son of Man
+This study follows that reading, near and far: Rome in AD 70, as Antiochus had been in 167 BC, and a
+final fulfilment still ahead. The weight falls on the second, since verse 29 has the Son of Man
 arriving *immediately after* the distress this section describes, and that did not happen in 70.
 
 Luke is the reason the first fulfilment can be held with any confidence, because Luke does not use
@@ -409,9 +414,9 @@ flight as AD 70.
 On either reading, God warned His people before judgment fell, down to which way to run, and kept
 that word to the letter. You can trust Him with what He has told you about the last siege.
 
-Where the long interval before verse 15 sits, and why verse 29's "immediately" leaves no gap after
-the distress, is worked through against Daniel 9:24-27 in a separate study, *Immediately After*
-(in preparation).
+Where the long interval before the seventieth week sits, and why verse 29's "immediately" leaves no
+gap after the distress, is worked through against Daniel 9:24-27 in [Immediately
+After](immediately-after.md).
 
 ## Question Two: The One Sign (Matthew 24:29-31)
 
@@ -466,8 +471,8 @@ and the promise of the return.
 
 ## The Day No One Knows
 
-The fig tree (24:32-33) and "this generation" (24:34) are worked through in a separate study, *The
-Fig Tree and This Generation* (in preparation).
+The fig tree (24:32-33) and "this generation" (24:34) are worked through in [The Fig Tree and This
+Generation](fig-tree-and-this-generation.md).
 
 ### "Concerning that day and hour"
 
@@ -614,7 +619,7 @@ begin to take place, straighten up and raise your heads, because your redemption
 (21:28, ESV).
 
 Peter and Paul carried this discourse's verbs and images into 2 Peter 3 and 1 Thessalonians 5; that
-trail is followed in a separate study, *Heaven and Earth Will Pass Away* (in preparation).
+trail is followed in [Heaven and Earth Will Pass Away](heaven-and-earth-will-pass-away.md).
 
 ## Discussion Questions
 
