@@ -14,4 +14,5 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 24:8
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 24:5
+- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 24:12-18
 <!-- commentary-index:auto-end -->

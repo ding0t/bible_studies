@@ -152,6 +152,12 @@ evidence:
   - {id: rev21-23-esv, what: "ESV Rev 21:23 memory verse", tool: study_verse, args: {book: Rev, chapter: 21, verse: 23, work_id: esv-study-bible}, expect_contains: "its lamp is the Lamb", checked: 2026-09-28}
   - {id: ex25-40-esv, what: "ESV Exod 25:40", tool: study_verse, args: {book: Exod, chapter: 25, verse: 40, work_id: esv-study-bible}, expect_contains: "which is being shown you on the mountain", checked: 2026-09-28}
 
+  - {id: lk4-25-esv, what: "Elijah's drought three years and six months", tool: study_verse, args: {book: Luke, chapter: 4, verse: 25, work_id: esv-study-bible}, expect_contains: "three years and six months", checked: 2026-09-28}
+  - {id: lk9-32-esv, what: "the two men who stood with him", tool: study_verse, args: {book: Luke, chapter: 9, verse: 32, work_id: esv-study-bible}, expect_contains: "the two men who stood with him", checked: 2026-09-28}
+  - {id: lk9-31-exodos, what: "departure = exodos", tool: bible_interlinear, args: {book: Luke, chapter: 9, verse: 31}, expect_contains: "ἔξοδον", checked: 2026-09-28}
+  - {id: mal4-5-esv, what: "Moses and Elijah named together", tool: study_verse, args: {book: Mal, chapter: 4, verse: 5, work_id: esv-study-bible}, expect_contains: "I will send you Elijah the prophet", checked: 2026-09-28}
+  - {id: mt17-11-esv, what: "Elijah does come", tool: study_verse, args: {book: Matt, chapter: 17, verse: 11, work_id: esv-study-bible}, expect_contains: "Elijah does come, and he will restore all things", checked: 2026-09-28}
+  - {id: 1k17-1-stand, what: "before whom I stand", tool: study_verse, args: {book: 1Kgs, chapter: 17, verse: 1, work_id: esv-study-bible}, expect_contains: "before whom I stand", checked: 2026-09-28}
 open_questions:
   - "Rev 1:13 robe and sash: priestly (Exodus 28:4; NIVBT allows both) or Danielic (Daniel 10:5, CBSB). Draft marks it contested and argues the priestly reading from 2:1, 2:5."
   - "Rev 11:4 two witnesses: the page leans on the dispensational reading (two individuals, 1,260 days, Jerusalem 11:8) and states the symbolic reading (ESVSB). Consistent with statement-of-faith pretribulation position -- the text itself re-identifies the lampstands in ch. 11, so they need not be the church."
@@ -179,3 +185,12 @@ review_2026-09-28:
     - "1 Samuel 3:3 and the alah/Noah comparison marked as readings; Revelation 4:5 torches with Ezekiel 1:13 (NIVBT) as the alternative allusion."
     - "Closing section rewritten to teach rather than restate the takeaways; negative openers removed."
     - "Plate: lamps at one level labelled as Rashi's reading."
+
+revision_2026-09-28_two_witnesses:
+  by: "author request, applied by the drafting session"
+  changes:
+    - "Zechariah section tidied: lips/spouts/pipes paragraph and repeated closing cut; the two anointed ones set up as the type Revelation 11 takes up."
+    - "Revelation 11 rewritten: the Zechariah allusion (article, 'stand before the Lord of the earth', one lampstand + two trees -> two of each); three readings (witnessing church; Enoch and Elijah with Tertullian De Anima 50 and Hippolytus Christ and Antichrist 43, ANF 3 and 5, patristics corpus on BIBLE_MEDIA_ROOT; Moses and Elijah as this study's reading)."
+    - "Moses-and-Elijah case: powers (Rev 11:6; 1 Kgs 17:1; Exod 7:20; 2 Kgs 1:10), Elijah's 3.5-year drought (Luke 4:25; Jas 5:17), Malachi 4:4-5 and Matthew 17:11, the Transfiguration (Luke 9:30-32, exodos, 'stood with him'), Heb 9:27 objection stated."
+  open:
+    - "Word count now ~4,600 against 4,000. Fork candidate: a last-things study of the two witnesses, leaving a summary here."

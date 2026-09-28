@@ -5,7 +5,7 @@ description: "Exodus 25:31-40 to Revelation 1-2: the golden lampstand God showed
 tags: ["exodus", "leviticus", "numbers", "zechariah", "revelation", "temple", "priesthood", "holy-spirit", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: false
 primary_passage: "Exodus 25:31-40"
-bible_references: ["Exodus 25:31-40", "Exodus 26:35", "Exodus 27:20-21", "Exodus 28:4", "Exodus 37:17-24", "Exodus 40:24-25", "Leviticus 24:1-4", "Leviticus 26:12", "Numbers 8:1-4", "Numbers 17:8", "Numbers 17:10", "1 Samuel 3:3", "1 Kings 7:49", "1 Chronicles 28:15", "1 Chronicles 28:19", "2 Chronicles 4:7", "2 Chronicles 13:11", "Jeremiah 1:11-12", "Jeremiah 52:19", "Zechariah 3:4", "Zechariah 4:1-14", "Daniel 10:5", "Matthew 5:14-16", "John 8:12", "2 Corinthians 6:16", "Hebrews 8:5", "Hebrews 9:2", "Revelation 1:4", "Revelation 1:12-20", "Revelation 2:1-7", "Revelation 4:5", "Revelation 5:6", "Revelation 11:3-8", "Revelation 21:22-23", "Revelation 22:5", "Revelation 1:10", "Exodus 30:7", "Revelation 11:7", "Revelation 13:7", "Deuteronomy 19:15", "Ezekiel 1:13", "Isaiah 22:21"]
+bible_references: ["Exodus 25:31-40", "Exodus 26:35", "Exodus 27:20-21", "Exodus 28:4", "Exodus 37:17-24", "Exodus 40:24-25", "Leviticus 24:1-4", "Leviticus 26:12", "Numbers 8:1-4", "Numbers 17:8", "Numbers 17:10", "1 Samuel 3:3", "1 Kings 7:49", "1 Chronicles 28:15", "1 Chronicles 28:19", "2 Chronicles 4:7", "2 Chronicles 13:11", "Jeremiah 1:11-12", "Jeremiah 52:19", "Zechariah 3:4", "Zechariah 4:1-14", "Daniel 10:5", "Matthew 5:14-16", "John 8:12", "2 Corinthians 6:16", "Hebrews 8:5", "Hebrews 9:2", "Revelation 1:4", "Revelation 1:12-20", "Revelation 2:1-7", "Revelation 4:5", "Revelation 5:6", "Revelation 11:3-8", "Revelation 21:22-23", "Revelation 22:5", "Revelation 1:10", "Exodus 30:7", "Revelation 11:7", "Revelation 13:7", "Deuteronomy 19:15", "Ezekiel 1:13", "Isaiah 22:21", "Zechariah 4:9", "Revelation 11:2", "Revelation 11:10", "Luke 9:28-33", "Matthew 17:10-13", "Malachi 4:4-5", "Luke 4:25", "James 5:17", "1 Kings 17:1", "Exodus 7:20", "2 Kings 1:10", "2 Kings 2:11", "Genesis 5:24", "Hebrews 11:5", "Hebrews 9:27", "Deuteronomy 34:6", "Luke 1:17", "Exodus 24:12-18", "1 Kings 19:8", "John 11:43-44"]
 date_created: 2026-09-28
 date_modified: 2026-09-28
 ai_provider_models:
@@ -49,7 +49,8 @@ what each part is for.)*
   (Revelation 1:20, ESV). Jesus gives the meaning of the lampstands in Revelation Himself.
 - **Zechariah's lampstand is a prophecy with its interpretation attached.** A lampstand fed by olive
   trees, with no priest pouring, means "Not by might, nor by power, but by my Spirit, says the LORD
-  of hosts" (Zechariah 4:6, ESV).
+  of hosts" (Zechariah 4:6, ESV). Its two anointed ones return in Revelation 11 as the two
+  witnesses, whom this study takes to be Moses and Elijah.
 
 ### Lessons about Jesus
 
@@ -105,10 +106,10 @@ In Jesus' name. Amen.
 - [Seven lampstands on Patmos](#seven-lampstands-on-patmos). Revelation 1-2: the churches as
   lampstands, the High Priest's robe, and the warning to Ephesus.
 - [Before the throne and in the city](#before-the-throne-and-in-the-city). The seven torches, the two
-  witnesses, and the city with no lamp.
+  witnesses as Zechariah's olive trees and the case for Moses and Elijah, and the city with no lamp.
 - [What the lampstand shows about God](#what-the-lampstand-shows-about-god). Each connection sorted
   by how firmly Scripture makes it.
-- [Discussion Questions](#discussion-questions). Five, for a group or on your own.
+- [Discussion Questions](#discussion-questions). Six, for a group or on your own.
 
 ## Made after the pattern
 
@@ -268,8 +269,8 @@ gold" (Jeremiah 52:19, ESV).
 
 ### Zechariah's lampstand
 
-In 519 BC the exiles were back in Jerusalem, and the second temple stood half built (Zechariah 1:7).
-In a night of visions an angel woke the prophet Zechariah and showed him a lampstand:
+After the exile, with the second temple half built (Zechariah 4:9), an angel woke the prophet
+Zechariah in the night and showed him a lampstand:
 
 > ✝️ Zechariah 4:2-3 (ESV)
 >
@@ -278,26 +279,18 @@ In a night of visions an angel woke the prophet Zechariah and showed him a lamps
 > top of it. 3 And there are two olive trees by it, one on the right of the bowl and the other on its
 > left."
 
-The oil reaches the lamps through "two golden pipes from which the golden oil is poured out"
-(Zechariah 4:12, ESV), straight from the trees. No priest carries a jar. The Hebrew behind "seven
-lips" is read two ways. The ESV's "lips" and the CSB's "spouts" are wick-openings on each lamp, which
-the *ESV Study Bible* counts as 49 wicks (note on Zechariah 4:2). The WEB and NKJV read "pipes," and
-the NIV "seven channels to the lamps," carrying oil to them. The supply straight from the trees is clear
-on either reading.
+The oil runs from the trees to the lamps through "two golden pipes" (Zechariah 4:12, ESV). No priest
+carries a jar. The angel gives the meaning: "Not by might, nor by power, but by my Spirit, says the
+LORD of hosts" (Zechariah 4:6, ESV). The seven lamps are "the eyes of the LORD, which range through
+the whole earth" (Zechariah 4:10, ESV). God keeps His own light burning, by His Spirit.
 
-The angel gives the meaning to Zerubbabel, the governor rebuilding the temple: "Not by might, nor by
-power, but by my Spirit, says the LORD of hosts" (Zechariah 4:6, ESV). The seven lamps are "the eyes
-of the LORD, which range through the whole earth" (Zechariah 4:10, ESV). The lampstand that shone
-through the night is now called God's watching eyes.
-
-The two trees are "the two anointed ones who stand by the Lord of the whole earth" (Zechariah 4:14,
-ESV); the Hebrew is literally "sons of fresh oil." Most interpreters identify them as Zerubbabel and
-Joshua the high priest, the civil and priestly leaders of the rebuilding (*ESV Study Bible*, note on
-Zechariah 4:14). The *NIV Biblical Theology Study Bible* argues for the prophets Haggai and Zechariah
-instead. The identification is contested; the Spirit supplying the oil is stated.
-
-This shows that God keeps His own light burning. Israel's lamp had needed the people's oil and the
-priest's hand. In Zechariah's vision God pours the oil Himself, by His Spirit.
+Zechariah then asks about the trees, and the angel names them: "These are the two anointed ones who
+stand by the Lord of the whole earth" (Zechariah 4:14, ESV), literally "sons of fresh oil." Who they
+were is contested: Zerubbabel the governor and Joshua the high priest (*ESV Study Bible*, note on
+Zechariah 4:14), or the prophets Haggai and Zechariah (*NIV Biblical Theology Study Bible*). The
+shape of the picture is not contested. God shows two men, anointed by Him, standing before the Lord of
+the whole earth, and through them the Spirit keeps the light burning. That is the type Revelation 11
+takes up (see [Two witnesses in Jerusalem](#two-witnesses-in-jerusalem) below).
 
 ### Ezekiel's temple
 
@@ -400,33 +393,95 @@ angels, but that reading struggles to explain angels sending grace alongside the
 So heaven has its lamps too. The lamps before God's throne are the Holy Spirit, and the lampstands on
 earth are the churches He fills.
 
-### Two lampstands in Jerusalem
+### Two witnesses in Jerusalem
 
-In Revelation 11 two prophets testify in Jerusalem for 1,260 days, and John is told who they are:
-"These are the two olive trees and the two lampstands that stand before the Lord of the earth"
-(Revelation 11:4, ESV). Here the text itself names the lampstands, and it names them as the two
-witnesses. When their testimony is finished, the beast kills them, "and their dead bodies will lie in
-the street of the great city that symbolically is called Sodom and Egypt, where their Lord was
-crucified" (Revelation 11:8, ESV).
+In Revelation 11 the nations "trample the holy city for forty-two months" (Revelation 11:2, ESV), and
+God sends two prophets into it:
 
-Who the witnesses are is contested, and both readings agree that the lampstands are the witnesses.
+> ✝️ Revelation 11:3-4 (ESV)
+>
+> 3 And I will grant authority to my two witnesses, and they will prophesy for 1,260 days, clothed in
+> sackcloth." 4 These are the two olive trees and the two lampstands that stand before the Lord of the
+> earth.
 
-- **The witnessing church.** Revelation 1:20 has already said that lampstands are churches, and the
-  *NIV Biblical Theology* and *Cultural Backgrounds* study Bibles both point back to it here (notes on
-  Revelation 11:4). The beast "will make war on them and conquer them" (Revelation 11:7, ESV), the
-  same verbs used of the saints at Revelation 13:7, which leads the *ESV Study Bible* to suggest the two may
-  symbolise the saints (note on Revelation 11:3-14). Two is the number the law requires for testimony
-  (Deuteronomy 19:15).
-- **Two prophets in Jerusalem.** The chapter gives them a set term of 1,260 days, fire from their mouths,
-  power to shut the sky, a city "where their Lord was crucified," bodies left three and a half days in
-  its street, and a resurrection their enemies watch (Revelation 11:3-12). The *ESV Study Bible* and
-  *NIV Biblical Theology Study Bible* both note that some scholars read them as two individuals at the
-  end of history.
+#### Zechariah's olive trees
 
-This study takes the second reading, and the site's dispensational position fits it: the church has
-been caught up before the tribulation, and God raises these two as His witnesses in Jerusalem during
-it. Like Zechariah's two sons of oil, they stand before the Lord of the earth, and He supplies what
-they burn. God does not leave the world without a witness even in its darkest years.
+This is Zechariah 4, and the wording shows it. The Greek has the article, "*the* two olive trees,"
+the pair the reader already knows. They "stand before the Lord of the earth," as Zechariah's two
+"stand by the Lord of the whole earth" (Zechariah 4:14, ESV). All three study Bibles consulted here
+point back to Zechariah 4 at Revelation 11:4. And the setting matches: Zechariah's pair served God in a
+Jerusalem trodden down by the nations, and so do these two.
+
+John changes one thing. Zechariah saw one lampstand fed by two trees. John sees two trees and two
+lampstands, and both are the witnesses: they are the anointed ones and the light at once. Their power
+comes the way Zechariah's oil did, from God: "I will grant authority to my two witnesses" (Revelation
+11:3, ESV). "Not by might, nor by power, but by my Spirit."
+
+#### Who the two are
+
+The text calls them "these two prophets" (Revelation 11:10, ESV) and gives them a term of 1,260 days,
+fire from their mouths, power to shut the sky, a city "where their Lord was crucified," bodies left
+three and a half days in its street, and a resurrection their enemies watch (Revelation 11:3-12). It
+does not name them. Three readings are held.
+
+- **The witnessing church.** Revelation 1:20 has already made lampstands churches, and the *NIV
+  Biblical Theology* and *Cultural Backgrounds* study Bibles point back to it here. The beast "will
+  make war on them and conquer them" (Revelation 11:7, ESV), the verbs used of the saints at
+  Revelation 13:7, and the *ESV Study Bible* suggests the two may symbolise the saints (note on
+  Revelation 11:3-14).
+- **Enoch and Elijah.** The two men Scripture says did not die: "God took him" (Genesis 5:24, ESV),
+  "so that he should not see death" (Hebrews 11:5, ESV), and Elijah "went up by a whirlwind into
+  heaven" (2 Kings 2:11, ESV). Since "it is appointed for man to die once" (Hebrews 9:27, ESV), they
+  are the two still owed a death. This reading is ancient. Tertullian wrote that Enoch and
+  Elijah "are reserved for the suffering of death, that by their blood they may extinguish Antichrist"
+  (*A Treatise on the Soul* 50), and Hippolytus that "the two prophets Enoch and Elias" will take up
+  half of Daniel's last week, preaching "1,260 days clothed in sackcloth" (*Treatise on Christ and
+  Antichrist* 43).
+- **Moses and Elijah.** This study holds this reading, for the reasons below.
+
+#### The case for Moses and Elijah
+
+**Their powers are Moses' and Elijah's.** The two "have the power to shut the sky, that no rain may
+fall," and "power over the waters to turn them into blood and to strike the earth with every kind of
+plague" (Revelation 11:6, ESV). Elijah shut the sky (1 Kings 17:1). Moses turned the Nile to blood and
+struck Egypt with plagues (Exodus 7:20). Fire consuming their enemies recalls Elijah's fire on the
+king's soldiers (2 Kings 1:10). The *ESV Study Bible*, *NIV Biblical Theology* and *Cultural
+Backgrounds* study Bibles all name Moses and Elijah at Revelation 11:6.
+
+**Elijah's drought is the witnesses' term.** The sky was "shut up three years and six months" in
+Elijah's day (Luke 4:25, ESV; James 5:17). The witnesses prophesy 1,260 days, three and a half years.
+
+**The Old Testament closes by naming the two together.** "Remember the law of my servant Moses...
+Behold, I will send you Elijah the prophet before the great and awesome day of the LORD comes"
+(Malachi 4:4-5, ESV). Jesus said Elijah had come in John the Baptist (Matthew 17:12-13), and in the
+same breath, "Elijah does come, and he will restore all things" (Matthew 17:11, ESV). John came "in
+the spirit and power of Elijah" (Luke 1:17, ESV); a coming of Elijah before the day of the LORD is
+still promised.
+
+**They have already stood with Jesus.** On the mountain of transfiguration "two men were talking with
+him, Moses and Elijah, who appeared in glory and spoke of his departure, which he was about to
+accomplish at Jerusalem" (Luke 9:30-31, ESV). "Departure" is ἔξοδος (*exodos*, G1841). The disciples
+"saw his glory and the two men who stood with him" (Luke 9:32, ESV). Elijah had called the LORD the
+God "before whom I stand" (1 Kings 17:1, ESV). The two who stood with the Lord Jesus on the mountain,
+speaking of what He would accomplish at Jerusalem, match the two who "stand before the Lord of the
+earth" and finish their testimony in the city "where their Lord was crucified" (Revelation 11:4, 8,
+ESV). Both men had also seen God's glory at Sinai (Exodus 24:12-18; 1 Kings 19:8), and both left this
+life unusually: God buried Moses where "no one knows the place" (Deuteronomy 34:6, ESV), and Elijah
+was taken up alive (*NIV Biblical Theology Study Bible*, note on Luke 9:30).
+
+**The objection.** Moses died, and "it is appointed for man to die once" (Hebrews 9:27, ESV); the
+witnesses die in Jerusalem. That is the Enoch reading's strength. Hebrews 9:27 states the rule for
+mankind; those who hold the Moses reading answer that the dead Jesus raised, Lazarus among them
+(John 11:43-44), were raised to a life that would end again, so the rule describes the ordinary course
+and does not settle the question. It is also possible that the witnesses come in
+the spirit and power of Moses and Elijah, as John came in Elijah's. The text names neither man, and
+this reading is held with that marked.
+
+On the dispensational reading of the site's statement of faith, the church has been caught up before
+the tribulation, and God raises these two as His witnesses in Jerusalem during it. Like Zechariah's
+anointed ones, they stand before the Lord of the earth, and He supplies what they burn. God keeps a
+witness in the world through its darkest years, and He sends the two who spoke with His Son about the
+cross to testify in the city where it happened.
 
 ### The city has no lamp
 
@@ -452,7 +507,8 @@ This table sorts the study's connections by how directly Scripture makes each on
 | The lampstands are the churches | Revelation 1:20 | Stated by Jesus |
 | The seven torches before the throne are the seven spirits | Revelation 4:5 | Stated in the vision; the link to the lampstand is an allusion (Zechariah 4 or Ezekiel 1:13) |
 | Zechariah's lampstand runs on the Spirit | Zechariah 4:6 | Stated by the angel |
-| The two witnesses are two lampstands | Revelation 11:4 | Stated; who the witnesses are is contested |
+| The two witnesses are two lampstands and Zechariah's two olive trees | Revelation 11:4; Zechariah 4:3, 14 | Stated; a firm allusion to Zechariah |
+| The two witnesses are Moses and Elijah | Revelation 11:6; Malachi 4:4-5; Luke 9:30-32 | This study's reading; the text names neither. Others read Enoch and Elijah, or the witnessing church |
 | Jesus is dressed as High Priest | Revelation 1:13 (*podērēs*) | Likely; others read the robe as royal (Isaiah 22:21) or as the heavenly man's of Daniel 10:5 |
 | He walks among them as God walked among Israel | Revelation 2:1; Leviticus 26:12 | An echo |
 | Jesus as "the light of the world" fulfils the lampstand | John 8:12 | An echo (spoken in the temple, John 8:20) |
@@ -483,9 +539,12 @@ Lamb is the lamp. Until then He has set your church in the dark to shine.
    of labour say about the whole nation's part in God's house?
 3. In Zechariah 4 the oil flows from the olive trees with no priest pouring it. How does "Not by
    might, nor by power, but by my Spirit" (Zechariah 4:6) change the way you read Exodus 27:20?
-4. Revelation 1:20 calls the churches lampstands, and Revelation 11:4 calls two witnesses lampstands.
+4. Moses and Elijah stood with Jesus and spoke of the departure He would accomplish at Jerusalem (Luke
+   9:30-31). If they are the two witnesses, what does it add that their testimony ends in the city
+   "where their Lord was crucified" (Revelation 11:8)?
+5. Revelation 1:20 calls the churches lampstands, and Revelation 11:4 calls two witnesses lampstands.
    How do you hold those two identifications together?
-5. Jesus warned Ephesus, "I will come to you and remove your lampstand" (Revelation 2:5). What would
+6. Jesus warned Ephesus, "I will come to you and remove your lampstand" (Revelation 2:5). What would
    "the works you did at first" look like in your church this year?
 
 ## References & Recommended Reading
@@ -507,6 +566,9 @@ Lamb is the lamp. Until then He has set your church in the dark to shine.
 - ***Babylonian Talmud*** *Menahot* 28b, via Sefaria — the lampstand's height of eighteen handbreadths,
   in Samuel's name from an elder (Aramaic: <span dir="rtl">גובהה של מנורה שמנה עשר טפחים</span>).
   Paraphrased from the original, not quoted from a translation.
+- **Tertullian**, *A Treatise on the Soul* 50, and **Hippolytus**, *Treatise on Christ and Antichrist*
+  43, in *Ante-Nicene Fathers* vols. 3 and 5, eds. Alexander Roberts and James Donaldson (1885-86,
+  public domain) — Enoch and Elijah as the two witnesses.
 - **Rashi** on Exodus 25:32, trans. M. Rosenbaum and A. M. Silbermann (public domain), via Sefaria — the
   branches "slantwise," their tops level with the centre.
 - Original-language data from this project's `bible-text.db` — unfoldingWord interlinear (UHB/ULT) for

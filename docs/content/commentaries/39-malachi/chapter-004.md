@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:2
+- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 4:4-5
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 4:2
 <!-- commentary-index:auto-end -->

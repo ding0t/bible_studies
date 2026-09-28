@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Sin and Sorcery](../../sin/sorcery.md) — 7:8-13
+- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 7:20
 <!-- commentary-index:auto-end -->
