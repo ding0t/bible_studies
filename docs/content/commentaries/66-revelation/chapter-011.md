@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 11:3-8
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 11:2
 <!-- commentary-index:auto-end -->

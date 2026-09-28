@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 19:15
+- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 19:15
 <!-- commentary-index:auto-end -->

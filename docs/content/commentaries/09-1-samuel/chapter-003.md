@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 3:10
+- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 3:3
 <!-- commentary-index:auto-end -->

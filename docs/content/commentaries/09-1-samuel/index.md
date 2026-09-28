@@ -12,7 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
-- [Chapter 3](chapter-003.md) — 1 study(ies)
+- [Chapter 3](chapter-003.md) — 2 study(ies)
 - [Chapter 4](chapter-004.md) — 1 study(ies)
 - [Chapter 12](chapter-012.md) — 1 study(ies)
 - [Chapter 13](chapter-013.md) — 1 study(ies)

@@ -23,6 +23,7 @@ draft: false
 - [Chapter 13](chapter-013.md) — 2 study(ies)
 - [Chapter 14](chapter-014.md) — 1 study(ies)
 - [Chapter 18](chapter-018.md) — 1 study(ies)
+- [Chapter 22](chapter-022.md) — 1 study(ies)
 - [Chapter 25](chapter-025.md) — 5 study(ies)
 - [Chapter 26](chapter-026.md) — 1 study(ies)
 - [Chapter 27](chapter-027.md) — 3 study(ies)

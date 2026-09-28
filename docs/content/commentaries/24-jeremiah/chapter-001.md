@@ -1,0 +1,16 @@
+---
+title: "Jeremiah 1"
+category: "bible"
+description: "Commentary and cross-referenced studies for Jeremiah chapter 1"
+tags: ["jeremiah"]
+draft: false
+---
+
+# Jeremiah 1
+
+
+<!-- commentary-index:auto-start -->
+## Studies referencing this chapter
+
+- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 1:11-12
+<!-- commentary-index:auto-end -->

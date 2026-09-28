@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 26:11-12
+- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 26:12
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 26:12
 <!-- commentary-index:auto-end -->

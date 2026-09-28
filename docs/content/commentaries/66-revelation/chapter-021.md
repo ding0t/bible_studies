@@ -20,6 +20,8 @@ draft: false
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 21:1-4
 - [Sin and Sorcery](../../sin/sorcery.md) — 21:8
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 21:1-9
+- [The Heavenly Pattern](../../jesus/the-heavenly-pattern/index.md) — 21:3
+- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 21:22-23
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 21:2
 - [The Rapture of the Church](../../last-things/rapture.md) — 21:1-4
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 21:12-14

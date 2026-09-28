@@ -39,6 +39,7 @@ Add new items here. They get a number and move into their section.
 | [2.1](#21-prophecy-and-jesus) | Prophecy and Jesus | Jesus |
 | [2.3](#23-jesus-attitude-toward-women) | Jesus' attitude toward women | Jesus |
 | [2.4](#24-the-feedings-and-the-hardened-hearts) | The feedings and the hardened hearts | Jesus |
+| [2.5](#25-the-heavenly-pattern) | The heavenly pattern (series) | Jesus |
 | [4.2](#42-on-death) | On death | Salvation |
 | [4.3](#43-faith) | Faith | Salvation |
 | [5.1](#51-tribulation-perspectives) | Tribulation perspectives | Last things |
@@ -389,6 +390,109 @@ a new one.
   In the second they are arguing over having no bread, and Jesus asks, "Are your hearts
   hardened?" (Mark 8:17, ESV) and makes them count the baskets from both feedings. Matthew's parallel calls them "you of little faith"
   (Matthew 16:8), which links this item to [4.3](#43-faith).
+
+### 2.5 The heavenly pattern
+
+A series at `jesus/the-heavenly-pattern/` on the furnishings God told Moses to make "after the
+pattern for them, which is being shown you on the mountain" (Exodus 25:40, ESV). There is one page
+per furnishing. Each follows the furnishing from Sinai through Solomon's temple and the prophets to
+Christ and the heavenly sanctuary. Each ends with a table that sorts the connections by how firmly
+Scripture makes them: stated in the New Testament, echoed there, inferred, or later tradition.
+Hebrews sets the limit: "Of these things we cannot now speak in detail" (Hebrews 9:5, ESV).
+
+Each page gets a plate drawn by `utils/sanctuary_plates.py`. The plate is built from a facts table
+that tags every detail as given, inferred or unstated. Unstated details are drawn dashed, with the
+tradition that supplies them named.
+
+**Started.** [The Lampstand](../jesus/the-heavenly-pattern/lampstand.md) and the series
+[index](../jesus/the-heavenly-pattern/index.md) are published (2026-09-28), reviewed and corrected.
+The altar of incense and the ark are drafted with their plates and under review. Still worth doing on
+the lampstand: a read-bible-study pass in a fresh session.
+
+The remaining pages, in the order suggested. Figures marked *(verified)* were checked against the
+text or the concordance when the series was planned; the rest still need checking.
+
+- **Index: "According to the pattern."**
+    - *Tabnit* (<span dir="rtl">תַּבְנִית</span>, H8403) names God's pattern for the sanctuary
+      (Exodus 25:9, 40; 1 Chronicles 28:11-19). It also names the carved "likeness" God forbids
+      (Deuteronomy 4:16-18), the Damascus altar Ahaz had copied (2 Kings 16:10), and the forms of
+      creeping things drawn on the temple walls (Ezekiel 8:10) *(verified)*.
+    - The Greek words for copy: *typos*, *hypodeigma*, *skia* and *antitypa* (Acts 7:44; Hebrews
+      8:5; 9:23-24).
+    - A plate of the whole plan. God gives the instructions from the inside out, starting with the
+      ark (Exodus 25:10), while a worshipper comes in from the gate. The plate shows both routes,
+      with metals keyed: bronze outside, gold inside, silver under the frames.
+    - Two cubits: Ezekiel's longer one (Ezekiel 43:13) and "cubits of the old standard" (2 Chronicles
+      3:3).
+- **The ark and the mercy seat (with the cherubim and the veil).**
+    - At Sinai: 2½ × 1½ × 1½ cubits (Exodus 25:10). The poles were never to be removed (Exodus
+      25:15). God says, "There I will meet with you" (Exodus 25:22). The mercy seat's thickness is
+      not given.
+    - Solomon's cherubim (1 Kings 6:23-27), with the poles still visible (1 Kings 8:8).
+    - What was in the ark. Hebrews 9:4 puts the manna jar, Aaron's rod and the tablets inside it.
+      1 Kings 8:9 says there was nothing in it but the tablets *(verified)*.
+    - Jeremiah 3:16 says the ark "will not come to mind… nor will another be made." The ark is
+      nowhere in Ezekiel *(verified)*. John sees it in heaven (Revelation 11:19).
+    - *Hilastērion* is the Septuagint's word for the mercy seat. It also names the ledges of
+      Ezekiel's altar (Ezekiel 43:14, 17, 20) *(verified)*. Paul calls Christ the *hilastērion*
+      (Romans 3:25), and Hebrews 9:5 uses the word for the mercy seat.
+    - The veil: Exodus 26:31; Matthew 27:51; Hebrews 10:20.
+- **The table and the bread of the Presence.**
+    - At Sinai: 2 × 1 × 1½ cubits (Exodus 25:23). Twelve loaves, set out every Sabbath (Leviticus
+      24:5-9) *(verified)*. *Ma'arakhot* can mean rows or stacks, and the plate has to flag which.
+    - David eats the bread (1 Samuel 21:6), and Jesus cites it (Matthew 12:3-4).
+    - Solomon's ten tables (2 Chronicles 4:8) and David's silver tables (1 Chronicles 28:16)
+      *(verified)*.
+    - Ezekiel's wooden altar is "the table that is before Yahweh" (Ezekiel 41:22) *(verified)*.
+    - John 6:35 as an echo.
+    - The lampstand page's note that the lamps lit the table (Numbers 8:2; Exodus 26:35) connects
+      the two pages.
+- **The altar of incense.**
+    - At Sinai: 1 × 1 × 2 cubits, before the veil, with its horns touched with blood once a year
+      (Exodus 30:1-10).
+    - Hebrews 9:4's *thymiatērion* is the Septuagint's word for a censer (2 Chronicles 26:19;
+      Ezekiel 8:11) *(verified)*. That is why the KJV has "golden censer." The page should argue it
+      both ways.
+    - Later: Uzziah (2 Chronicles 26), Zechariah's service (Luke 1:9-11), Psalm 141:2, and the golden
+      altar before the throne (Revelation 5:8; 8:3-5).
+- **The bronze altar.**
+    - Three sizes: 5 × 5 × 3 cubits at Sinai (Exodus 27:1); 20 × 20 × 10 under Solomon (2 Chronicles
+      4:1) *(verified)*; Ezekiel's stepped altar, with a 12 × 12 hearth, a 14 × 14 ledge and steps
+      facing east (Ezekiel 43:13-17) *(verified)*.
+    - Ahaz's copied altar (2 Kings 16:10-16). "We have an altar" (Hebrews 13:10). The souls under
+      the altar (Revelation 6:9), and which altar that is.
+    - Plate: all three altars at one scale.
+- **The basin and the bronze sea.**
+    - At Sinai the basin has no measurements. It was made from the mirrors of the ministering women
+      (Exodus 38:8), for washing hands and feet "that they not die" (Exodus 30:18-21) *(verified)*.
+    - Solomon's sea: 10 cubits across, 30 around and 5 high, standing on twelve oxen (1 Kings
+      7:23-25) *(verified)*.
+    - Two differences between Kings and Chronicles. The sea holds 2,000 baths (1 Kings 7:26) or
+      3,000 (2 Chronicles 4:5), and has gourds (1 Kings 7:24) or oxen (2 Chronicles 4:3) under the
+      brim *(verified)*.
+    - Ten basins on wheeled stands (1 Kings 7:27-39). The sea "was for the priests to wash in"
+      (2 Chronicles 4:6).
+    - There is no basin in Ezekiel *(verified)*; a river flows from under the threshold instead
+      (Ezekiel 47:1).
+    - John 13:10. The sea of glass (Revelation 4:6; 15:2) and "the sea was no more" (Revelation
+      21:1). Whether the sea of glass answers to the basin is contested.
+- **The house, from tent to city.**
+    - The tent's frames are 10 cubits tall and 1½ wide, 20 on each side, making 30 cubits (Exodus
+      26:16-25) *(verified)*. The width depends on how the corner frames are read, and the plate can
+      show the working.
+    - The silver sockets came from the atonement money (Exodus 30:11-16; 38:25-27).
+    - The Most Holy Place over time: a 10-cubit square (reconstructed), Solomon's 20-cubit cube
+      (1 Kings 6:20), Ezekiel's 20-cubit square (Ezekiel 41:4), and the city's cube (Revelation
+      21:16). The page links to [The New Jerusalem](../last-things/new-jerusalem.md) rather than
+      repeating it.
+- **Optional: the high priest's garments** (Exodus 28). The breastpiece stones lead into the city's
+  foundations (Exodus 28:17-21; Revelation 21:19-20). *Podērēs*, the robe of Revelation 1:13, is
+  already worked out on the lampstand page.
+
+**Settle first.** Ezekiel's temple has sacrifices (Ezekiel 43:18-27). A dispensational reading has
+to say what they are in a future temple, and the [statement of faith](statement-of-faith.md) is
+silent. The author needs to decide before the Ezekiel sections of the altar and house pages are
+written.
 
 ## 4. Salvation
 

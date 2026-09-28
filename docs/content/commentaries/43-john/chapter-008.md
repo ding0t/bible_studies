@@ -14,5 +14,6 @@ draft: false
 
 - [Know the Truth](../../christian-life/know-the-truth.md) — 8:31-47 (primary passage)
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 8:28
+- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 8:12
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 8:58
 <!-- commentary-index:auto-end -->

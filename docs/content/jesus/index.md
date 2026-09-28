@@ -65,6 +65,12 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
 
     [:octicons-arrow-right-24: Read](the-day-no-one-knows.md)
 
+-   __The Heavenly Pattern__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](the-heavenly-pattern/)
+
 -   __The Way__
 
     ---

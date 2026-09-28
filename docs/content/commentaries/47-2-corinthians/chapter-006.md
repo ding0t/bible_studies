@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 6:16
 - [The Restrainer](../../last-things/the-restrainer.md) — 6:17
 <!-- commentary-index:auto-end -->
