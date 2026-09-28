@@ -284,3 +284,23 @@ read_2026-09-26:
     "Not a better shaft, and not an easier walk" (The two words section), and "received as a gift
     rather than earned or reached" (The theological principle). Opening is not slow: bold thesis
     sits ~40 words in. This pass verifies nothing; a full review-bible-study pass is still outstanding.
+
+review_2026-09-28:
+  skill: review-bible-study (run by a subagent; fixes applied in the parent session on the author's instruction)
+  verified_clean: "All ESV/WEB quotations, cited footnotes, Strong's numbers and occurrence counts (pēgē, phrear, antleō, kopiaō, sōtēr, mēti, ten dei verses, 2 Kings 17 five peoples / seven gods, Deut 27:4 MT vs SP)."
+  fixed:
+    - "Thesis: Jeremiah link reframed as analogy (bôr / LXX lakkoi, oryssō, pēgē hydatos zōēs)."
+    - "ego eimi: 24 in John (SBLGNT), 23 after 4:26, 22 on Jesus's lips (9:9 is the healed man); predicate sayings begin at 6:35 (agrees with bread-of-life-feeding-the-multitudes.md)."
+    - "1:39 is ὄψεσθε (future); only 1:46 matches the imperative."
+    - "dei: seven of ten mark divine necessity (ESVSB 4:4 list); ESVSB's geography-and-providence 'both' restored; pop-up count caveat added."
+    - "Darby prints fountain (4:6) / well (4:11)."
+    - "LXX Gen 24 uses both pēgē and phrear for one source; Gen 26:19 phrear of living water -- spring/shaft distinction marked as John's staging."
+    - "mēti: Matt 12:23 counter-reading given."
+    - "Nicodemus 'every variable' and Genesis 29/Exodus 2 drink request corrected."
+    - "Sin named at 4:16-18 (ESVSB 4:18); prayer names Jesus and the Spirit, closes In Jesus' name."
+    - "New: 4:9 paragraph (ESVSB, CSB footnote, ms omission); cultural vs transcultural subsection."
+    - "References trimmed to what the body uses; NLT LASB and Darby added. Divine pronouns capitalised; antitheses reduced; 'labored' restored in ESV quote; Hyrcanus 'ruler'; English-versions section moved after the word table; 'Living water is the Spirit' heading."
+  open:
+    - "4:21-23 'the Jerusalem claim is about to be superseded' vs new-heaven-and-new-earth.md reading Zech 14:16 as millennial Jerusalem worship -- left for the author."
+    - "Not in scope: frontmatter (category prophecy -> theology?, tags person/jesus, samaritan-woman -> person/samaritan-woman, bible_references drift), untagged Strong's (H4726, G5201, G3708, G2872, G4990), discussion-question facets (Christ, language), 4:27-38 treatment, enhancements list."
+    - "The open_questions/review.done fields above are stale (page is published)."
