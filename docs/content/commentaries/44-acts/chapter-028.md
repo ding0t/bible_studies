@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 28:15
+- [The Rapture of the Church](../../last-things/rapture.md) — 28:15
 - [The Way](../../jesus/the-way.md) — 28:22
 <!-- commentary-index:auto-end -->

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 1:10
+- [The Rapture of the Church](../../last-things/rapture.md) — 1:10
 <!-- commentary-index:auto-end -->

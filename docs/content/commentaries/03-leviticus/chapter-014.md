@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 14:10
+- [The Woman at the Well](../../jesus/woman-at-well.md) — 14:6
 <!-- commentary-index:auto-end -->

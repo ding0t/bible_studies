@@ -15,4 +15,5 @@ draft: false
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 2:20
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 2:17
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 2:24-25
+- [The Woman at the Well](../../jesus/woman-at-well.md) — 2:19-21
 <!-- commentary-index:auto-end -->

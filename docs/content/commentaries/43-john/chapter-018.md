@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Know the Truth](../../christian-life/know-the-truth.md) — 18:37-38
+- [The Woman at the Well](../../jesus/woman-at-well.md) — 18:35
 <!-- commentary-index:auto-end -->

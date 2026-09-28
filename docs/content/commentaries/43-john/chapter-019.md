@@ -16,6 +16,5 @@ draft: false
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 19:23-24
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 19:35
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 19:25
-- [The Woman at the Well](../../jesus/woman-at-well.md) — 19:26
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 19:31
 <!-- commentary-index:auto-end -->

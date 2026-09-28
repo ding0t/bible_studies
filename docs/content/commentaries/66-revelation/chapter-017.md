@@ -15,4 +15,5 @@ draft: false
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 17:11
 - [Six Days of History](../../last-things/six-days-of-history.md) — 17:15
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 17:1-5
+- [The Rapture of the Church](../../last-things/rapture.md) — 17:14
 <!-- commentary-index:auto-end -->

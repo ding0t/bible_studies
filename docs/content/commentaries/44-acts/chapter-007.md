@@ -16,5 +16,6 @@ draft: false
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 7:59-60
 - [The Combined Timeline: One Line, Two Zones](../../last-things/combined-timeline.md) — 7:4
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../god/flood-and-the-king-lists.md) — 7:4
+- [The Rapture of the Church](../../last-things/rapture.md) — 7:5
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 7:14
 <!-- commentary-index:auto-end -->

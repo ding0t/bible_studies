@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 2:14
+- [The Rapture of the Church](../../last-things/rapture.md) — 2:13
 <!-- commentary-index:auto-end -->

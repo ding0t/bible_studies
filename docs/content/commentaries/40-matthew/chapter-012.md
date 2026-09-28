@@ -19,5 +19,6 @@ draft: false
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 12:39-42
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 12:28
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 12:48-50
+- [The Woman at the Well](../../jesus/woman-at-well.md) — 12:23
 - [Wisdom](../../wisdom/index.md) — 12:42
 <!-- commentary-index:auto-end -->

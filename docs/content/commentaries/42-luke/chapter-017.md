@@ -17,5 +17,4 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 17:26-30
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 17:26-30
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 17:21
-- [The Rapture of the Church](../../last-things/rapture.md) — 17:28-30
 <!-- commentary-index:auto-end -->

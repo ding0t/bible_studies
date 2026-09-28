@@ -14,4 +14,5 @@ draft: false
 
 - [Know the Truth](../../christian-life/know-the-truth.md) — 17:17
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 17
+- [The Rapture of the Church](../../last-things/rapture.md) — 17:15
 <!-- commentary-index:auto-end -->

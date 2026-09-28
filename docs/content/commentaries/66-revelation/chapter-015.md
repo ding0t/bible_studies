@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 15:4
+- [The Rapture of the Church](../../last-things/rapture.md) — 15:1-6
 <!-- commentary-index:auto-end -->
