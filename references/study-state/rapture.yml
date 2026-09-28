@@ -550,3 +550,37 @@ simplify_2026-09-28:
     - "MERGE: Noah bullet in imminence section shortened to one sentence (point made in Types & Prophecy, one-taken-one-left, taken-before-judgment)."
     - "MERGE: 'Why one taken, one left' cut to its claim plus link."
     - "TIGHTEN: harpazo occurrence list cut from eight examples to John 10:12 and John 10:28-29; count of 14 kept (pop-up lists the rest)."
+
+review_2026-09-28:
+  skill: review-bible-study
+  scope: "full review incl. readability and consistency; report only, nothing fixed yet"
+  verified_clean:
+    - "All ESV block quotes and inline ESV quotes re-queried in study-notes.db (John 14:1-4; 1 Thess 1:10, 3:13, 4:13-18, 5:9; 1 Cor 15:51-53; Matt 24:36-44; 2 Thess 2:1-7; Rev 3:10, 12:5, 17:14, 19:7-9; Titus 2:13; Col 3:4; Acts 8:39): verbatim."
+    - "harpazo G726 = 14 NT occurrences (SBLGNT). ESV Study Bible 2 Cor 5:10 bema quotation verbatim."
+    - "npm run validate: no rapture.md hits. review_gaps: no quotation gaps; 40 crossref leads, none load-bearing."
+  findings_critical:
+    - "bema 'every one of its twelve occurrences is judicial or civic' is false: Acts 7:5 (bema podos, 'a foot's length') is the twelfth, and the list given names only eleven."
+    - "Rev 17:14 'klētoi, eklektoi, pistoi -- three words the NT uses of believers and not of angels' is false: 1 Tim 5:21 'the elect (eklektōn) angels'."
+    - "harpazo conclusion 'every time ... a real, sudden, physical event' contradicts 2 Cor 12:2-3, where Paul twice says 'whether in the body or out of the body I do not know'; Acts 8:39 is a relocation to Azotus, not 'into heaven'; and the 'four occurrences' are five (2 Cor 12:2 and 12:4 both)."
+  findings_moderate:
+    - "Vocabulary table marks apantesis as rapture-only ('Yes'); G529 also occurs at Matt 25:6, in the ten-virgins parable this study quotes, and Acts 28:15. The civic-welcome reading the NIV BTSB is cited for is never discussed in the body."
+    - "Key Takeaways 'quiet gathering' contradicts the body's 'three distinct signals, none of them subtle or secret'."
+    - "Key Takeaways Type uses Luke 17:28-30 ('his own return') as a rapture type while the study and one-taken-one-left.md read the Luke 17 / Matt 24 day as the post-tribulation second coming. taken-before-judgment.md is now published and unlinked."
+    - "'Day of the Lord' = second coming (2 Thess 2 bullet) vs. the features table, where the day of the Lord follows the rapture."
+    - "Bema timing asserted in the table without argument, then used as proof in the marriage section (circular)."
+    - "Broken link: '../feasts/zadok-\\ncalendar.md' split across a line in The tribulation; renders as literal text."
+    - "Intro promises the post-trib view 'its hearing'; it gets one sentence."
+  findings_minor:
+    - "Lowercase divine pronouns in own prose throughout (his own, with him, to him, where he is ...); Church/church and Bride/bride casing inconsistent."
+    - "Features-table 'seven of eight land in one column only' overstates; 'who comes with him' cites 4:16 where 4:14 says it; archangel row lists angelos for 1 Thess 4:16 (the word is archangelos)."
+    - "Rev 15:6 textual variant (lithon/stone) undisclosed under a method/textual-criticism tag."
+    - "Ten-virgins 13-verse ESV quote unused by the argument; 'The imminence of the rapture' heading sits over a passage the study reads as the second coming."
+    - "Seven untagged Greek words (strongs_suggest). Mermaid width not measured (mmdc failed to run in sandbox)."
+  applied_2026-09-28:
+    - "All three critical and all moderate findings fixed; new citations verified in study-notes.db (Dan 9:24; Eph 3:5-6; Rev 6:16, 15:1, 15:6; 1 Cor 4:5; 1 Thess 5:2-3; Matt 25:6; Acts 7:5, 8:40, 28:15; John 17:15; 2 Thess 1:6-7). NIV BTSB 1 Thess 4:17 note confirmed: civic apantesis, church escorts Christ to earth."
+    - "tēreō + ek occurs only at John 17:15 and Rev 3:10 (SBLGNT morphology query)."
+    - "'Dispensational' now carries an argument: intro defines it, and a new 'Whose week it is' sub-section gives the Daniel 9:24 / Ephesians 3:5-6 reason, marked as persuasive only to a reader who holds Israel and the Church distinct."
+    - "Post-tribulation view given four arguments with answers; 2 Thess 1:7 flagged as where that case is strongest."
+    - "Style/structure minors: divine pronouns capitalised (restrainer left lowercase -- contested referent), Church/bride casing, narrated-argument lines cut, antitheses in prayer/KT/bullets reworded, ten-virgins block quote replaced by one line on apantesis, Tribulation split into three sub-headings, outline updated."
+    - "Not done (not in scope): Strong's tags for seven Greek words; bible_references frontmatter (Luke 17:28-30, 2 Peter 2:5-9, Jude 1:14-15 no longer cited in body; several body refs missing); discussion-question facets."
+    - "validate: Check 23 now fires at 4,399 words vs 4,000; Check 20 sentence-length warning. mkdocs build --strict passes."

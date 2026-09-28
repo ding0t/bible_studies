@@ -18,7 +18,7 @@ ai_provider_models:
 
 The *blessed hope* is the Church's expectation of being gathered to Christ before the world's final judgment falls.
 
-One view holds that the rapture — the *harpazo*, "catching up" — is a distinct event from the second coming, separated by the seven-year tribulation; another holds that they are one event described in different terms. This study makes the case for the first, pretribulational and dispensational, as this site reads prophecy elsewhere (see [The Zadok Calendar](../feasts/zadok-calendar.md) and [The Day is Near](day-is-near.md)). The second gets its hearing under [Other end-times views](#other-end-times-views).
+One view holds that the rapture — the *harpazo*, "catching up" — is a distinct event from the second coming, separated by the seven-year tribulation; another holds that they are one event described in different terms. This study makes the case for the first, the pretribulational reading. It follows from reading God's promises to Israel and His purpose for the Church as two distinct threads, which is what "dispensational" means here: Daniel's seventieth week is "decreed about your people and your holy city" (Daniel 9:24, ESV), so it resumes for Israel once the Church has been gathered. [The tribulation](#the-tribulation) sets that out, and [Israel and the Church](../israel-and-church/israel-and-the-church.md) makes the wider case. The one-event reading gets its hearing under [Other end-times views](#other-end-times-views).
 
 **In one sentence:** God will send His Son Jesus to catch His Church up bodily to Himself before the tribulation's wrath falls, a sudden and real rescue He has promised in His own word, so that you can meet grief and waiting with comfort.
 
@@ -28,14 +28,14 @@ One view holds that the rapture — the *harpazo*, "catching up" — is a distin
 
 ### Types & Prophecy
 
-**Type.** Enoch, "taken" bodily before the Flood ever fell (Genesis 5:24; Hebrews 11:5), and Lot, physically removed from Sodom minutes before its judgment (Genesis 19:16, 24), pattern the rapture's own shape — removed *before* judgment, not carried through it like Noah. Peter names Noah and Lot together as one pattern of rescue (2 Peter 2:5-9), and Jesus applies Lot's day directly to his own return (Luke 17:28-30).
+**Type.** Enoch was taken before the Flood (Genesis 5:24; Hebrews 11:5), and Lot was brought out of Sodom before the fire fell (Genesis 19:16, 24): the righteous placed out of reach before judgment, while Noah was kept through it. As types they illustrate what other texts teach directly; [Taken Before Judgment](taken-before-judgment.md) works them through.
 
-**Prophecy.** 1 Thessalonians 4:16-17 is a direct, first-time revelation — Paul explicitly calls it "a word from the Lord" (4:15) and "a mystery" at 1 Corinthians 15:51, not a truth already stated in the Old Testament and merely repeated here.
+**Prophecy.** 1 Thessalonians 4:16-17 is a first-time revelation. Paul gives it as "a word from the Lord" (1 Thessalonians 4:15), and he calls the change of the living "a mystery" (1 Corinthians 15:51), his word for a truth God kept hidden until the apostles' day.
 
 ### Lessons about Jesus
 
-- He comes for his own personally, not by proxy — "I will come again and will take you to myself" (John 14:3).
-- His two returns serve two purposes: a quiet gathering of the Church, and a visible, public arrival with "the armies of heaven" (Revelation 19:11-16). The same person, two comings, two aims.
+- He comes for His own Himself — "I will come again and will take you to myself" (John 14:3).
+- His two comings serve two purposes: gathering the Church to meet Him in the air, and a visible, public arrival with "the armies of heaven" (Revelation 19:11-16). The same person, two comings, two aims.
 
 ### Memory verses
 
@@ -57,11 +57,11 @@ One view holds that the rapture — the *harpazo*, "catching up" — is a distin
 
 - **Think.** Notice any temptation to treat the rapture's *timing* as more settled than Scripture presents it. The counter-argument named below, Revelation 3:10's ambiguity, is a live one, and a conclusion is only as strong as its handling of it.
 - **Attitude.** 1 Thessalonians 4:18's whole point is comfort, not anxious calculation — "encourage one another with these words" is a command to bring grieving people hope, not to trade date-guesses.
-- **Do.** Live daily with the readiness Matthew 25's parable calls for — prepared in advance, not scrambling when the moment comes (Matthew 25:1-13, [The Day Is Near](day-is-near.md)).
+- **Do.** Live daily with the readiness Matthew 25's parable calls for, the oil bought before the bridegroom's cry (Matthew 25:1-13, [The Day Is Near](day-is-near.md)).
 
 ### Prayer
 
-Lord, you promised to come again for your own, personally, not as an afterthought — thank you that the hope of being with you isn't vague reassurance but a specific promise, tied to your own word. Where I've let uncertainty about timing become anxiety instead of the comfort this was meant to be, correct that in me. Keep me ready the way the wise virgins were ready — not idle, not fearful, just prepared — until you come. In Jesus' name. Amen.
+Lord Jesus, you promised to come again and take your own to yourself. Thank you that the hope of being with you is a specific promise, tied to your own word. Where I've let questions about timing turn into anxiety, give me the comfort this promise was meant to bring. Keep me ready the way the wise virgins were ready, with oil in hand and eyes on the door, until you come. In Jesus' name. Amen.
 
 ## Study outline
 
@@ -69,43 +69,43 @@ Lord, you promised to come again for your own, personally, not as an afterthough
 - [The promise](#the-promise-christ-returns-for-his-own). John 14:1-4, Jesus coming for His own.
 - [The call to rapture](#the-call-to-rapture). 1 Thessalonians 4:15-18 and 1 Corinthians 15:51-53: the dead raised, the living changed.
 - [The imminence of the rapture](#the-imminence-of-the-rapture). Matthew 24:36-44 as the second coming, the contested turn at verse 36, the letters' sign-free waiting, "one taken, one left", and the ten virgins.
-- [Two comings](#two-comings-sorted-by-their-own-language). The shared vocabulary, the features that sort, whether the Church rides out with Him in Revelation 19, and what the sequence markers say.
+- [Two comings](#two-comings-sorted-by-their-own-language). The shared vocabulary and the contested *apantēsis*, the features that sort, whether the Church rides out with Him in Revelation 19, and what the sequence markers say.
 - [The restrainer and his going](#the-restrainer-and-his-going). 2 Thessalonians 2:1-7, "out of the midst", and who restrains.
-- [The tribulation](#the-tribulation). Daniel's seventieth week, 1 Thessalonians 5:9, and the contested Revelation 3:10.
+- [The tribulation](#the-tribulation). Whose week Daniel's seventieth is, 1 Thessalonians 5:9, and the contested Revelation 3:10.
 - [The judgments](#the-judgments). The Bema seat and the Great White Throne, and what *bēma* means.
 - [The marriage of the Lamb](#the-marriage-of-the-lamb). Revelation 19:7-9: where the supper sits and what the bride wears.
 - [The whole sequence in one view](#the-whole-sequence-in-one-view). A diagram of the events in order, on earth and in heaven.
-- [Other end-times views](#other-end-times-views). Post-tribulation, mid-tribulation and pre-wrath, and amillennialism.
+- [Other end-times views](#other-end-times-views). Post-tribulation and its four strongest arguments, mid-tribulation and pre-wrath, and amillennialism.
 - [Discussion questions](#discussion-questions). Three, for a group or on your own.
 
 ## The word behind "rapture": ἁρπάζω
 
 The English word "rapture" doesn't translate anything directly — it comes from the Latin Vulgate's *rapiemur* ("we will be caught up"), itself a translation of the Greek verb used in 1 Thessalonians 4:17: **ἁρπάζω** (*harpazō*, har-PAD-zo, G726), "to seize, snatch, or catch away by force."
 
-**Where the word comes from.** In classical and koine Greek, ἁρπάζω is ordinary language for forcible seizure — a wolf snatching prey, a robber seizing goods, a kidnapper taking a person against their will. Its core sense is *sudden, forceful removal*, and that sense carries through every New Testament use.
+**Where the word comes from.** In classical and koine Greek, ἁρπάζω is ordinary language for forcible seizure — a wolf snatching prey, a robber seizing goods, a kidnapper taking a person against their will. Its core sense is *sudden, forceful removal*, and the New Testament keeps that sense.
 
 **How the New Testament uses it.** The word occurs 14 times. Most describe ordinary forceful
 seizure, such as a wolf snatching sheep (John 10:12). No one can *seize* the Father's sheep out of
 His hand (John 10:28-29) — the same force, turned into a promise of security.
 
-But four occurrences describe something more specific: a person suddenly, physically taken up into heaven or the heavenly realm.
+Five occurrences, in four passages, describe something more specific: a person suddenly carried off by God's power.
 
-- **2 Corinthians 12:2-4 (ESV)** — Paul describes himself (guardedly, in the third person) being "caught up" to the third heaven, into paradise — a real, momentary, involuntary experience, not something he did to himself.
-- **Acts 8:39 (ESV)** — after baptizing the Ethiopian eunuch, "the Spirit of the Lord carried Philip away" — an abrupt, physical relocation.
+- **2 Corinthians 12:2-4 (ESV)** — Paul describes himself (guardedly, in the third person) being "caught up" to the third heaven (12:2) and into paradise (12:4): a real, involuntary experience whose manner he leaves open, "whether in the body or out of the body I do not know" (12:2).
+- **Acts 8:39 (ESV)** — after baptizing the Ethiopian eunuch, "the Spirit of the Lord carried Philip away," and Philip "found himself at Azotus" (8:40): an abrupt, physical relocation on earth.
 - **Revelation 12:5 (ESV)** — the male child (Christ) is "caught up to God and to his throne," His ascension described with the same verb.
 - **1 Thessalonians 4:17 (ESV)** — "we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air."
 
-**Conclusion.** Every time ἁρπάζω describes someone going to be with God, it describes a real, sudden, physical event. Paul chose that term in 1 Thessalonians 4:17, and it is the strongest lexical argument that the rapture is what it sounds like: a real, sudden, bodily gathering of the Church.
+**Conclusion.** Every time ἁρπάζω describes God taking a person, the taking is sudden and real, and the person taken does nothing to bring it about. Paul could not say whether his own experience was bodily. 1 Thessalonians 4 settles that question for the rapture from its context: the dead are raised first (4:16) and the living are changed (1 Corinthians 15:51-53). The verb supplies the suddenness and the resurrection supplies the body, so the rapture is what it sounds like: a real, sudden, bodily gathering of the Church.
 
 This shows that God gathers His people with the whole force the word carries: no one can snatch you out of His hand (John 10:28-29), and one day He will snatch you up to be with Jesus Himself.
 
-## The promise: Christ returns for his own
+## The promise: Christ returns for His own
 
 > ✝️ John 14:1-4 (ESV)
 >
 > 1 "Let not your hearts be troubled. Believe in God; believe also in me. 2 In my Father's house are many rooms. If it were not so, would I have told you that I go to prepare a place for you? 3 And if I go and prepare a place for you, **I will come again and will take you to myself, that where I am you may be also.** 4 And you know the way to where I am going."
 
-Christ is coming back *for His own*, personally, to take them where he is — stated as a promise before any sequence of events is worked out. Chuck Missler begins his own treatment of the "blessed hope" here for that reason.
+Christ is coming back *for His own*, personally, to take them where He is — stated as a promise before any sequence of events is worked out. Chuck Missler begins his own treatment of the "blessed hope" here for that reason.
 
 This shows that God has tied your hope to a person: Jesus Himself is coming for you, so your heart need not be troubled (John 14:1).
 
@@ -117,7 +117,7 @@ Paul is answering a grief. Some Thessalonian believers had died since he taught 
 >
 > 15 For this we declare to you by a word from the Lord, that we who are alive, who are left until the coming of the Lord, will not precede those who have fallen asleep. 16 For the Lord himself will descend from heaven with a cry of command, with the voice of an archangel, and with the sound of the trumpet of God. And the dead in Christ will rise first. 17 Then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air, and so we will always be with the Lord. 18 Therefore encourage one another with these words.
 
-- The dead in Christ rise *first* — the rapture includes resurrection, not just the living being taken.
+- The dead in Christ rise *first* — the rapture is a resurrection as well as a catching up of the living.
 - A cry of command, an archangel's voice, a trumpet — three distinct signals, none of them subtle or secret.
 - "Encourage one another with these words" — whatever the mechanics, the pastoral purpose of this text is comfort.
 
@@ -132,7 +132,7 @@ This shows that God answers grief with the resurrection of the body: those you h
 - "I tell you a mystery" — something not previously revealed in the Old Testament, disclosed here for the first time.
 - "In a moment, in the twinkling of an eye" — about as fast as language can describe, reinforcing the sudden, ἁρπάζω-consistent nature of the event.
 - The trumpet appears again, tying this passage to 1 Thessalonians 4 and to [The Trumpet Call of God](trumpet.md).
-- Imperishable, immortal — the goal isn't escape from the body, but its transformation.
+- Imperishable, immortal — the goal is the body transformed.
 
 This is glorification, the last stage of your salvation, and God will complete it in you in the twinkling of an eye.
 
@@ -149,7 +149,7 @@ Matthew 24:36-44 describes Christ's coming after the tribulation. Its word for t
 
 **Some pretribulational teachers read a turn to the rapture at verse 36, and the reading is contested.** Verse 36 opens Περὶ δὲ (*peri de*, "but concerning"), the phrase Paul uses to turn to a new subject at 1 Thessalonians 5:1. They add that a coming which follows Daniel's abomination by a numbered span of days (Daniel 12:11) could be calculated, where "no one knows" this one. Against that, verses 37 and 39 keep the word *parousia* from 24:27, and the Noah illustration pictures the coming in judgment. This study reads the paragraph as the second coming. Those who take the other view reach the same pretribulational conclusion by it.
 
-**The imminence of the rapture comes from setting this chapter beside the letters to the church.** Matthew 24:4-31 gives a sequence of signs before the second coming: the abomination, the distress, the darkened sun. The letters give the church a person to wait for, with no sign in between: "to wait for his Son from heaven, whom he raised from the dead, Jesus who delivers us from the wrath to come" (1 Thessalonians 1:10, ESV), "waiting for our blessed hope, the appearing of the glory of our great God and Savior Jesus Christ" (Titus 2:13, ESV). That contrast is itself an argument for two distinct comings. It also gives Matthew 24:42-44 more force for the church: a coming that follows signs will still find people unprepared, and a coming that follows none calls for readiness every day.
+**The imminence of the rapture comes from setting this chapter beside the letters to the Church.** Matthew 24:4-31 gives a sequence of signs before the second coming: the abomination, the distress, the darkened sun. The letters give the Church a person to wait for, with no sign in between: "to wait for his Son from heaven, whom he raised from the dead, Jesus who delivers us from the wrath to come" (1 Thessalonians 1:10, ESV), "waiting for our blessed hope, the appearing of the glory of our great God and Savior Jesus Christ" (Titus 2:13, ESV). That contrast is itself an argument for two distinct comings. It also gives Matthew 24:42-44 more force for the Church: a coming that follows signs will still find people unprepared, and a coming that follows none calls for readiness every day.
 
 This shows that God keeps the day in His own hand and asks you for readiness: watch for Jesus Himself every day, because He is coming at an hour you do not expect (Matthew 24:44).
 
@@ -160,9 +160,7 @@ rapture. It will not carry that weight; [One Taken, One Left](one-taken-one-left
 
 ### The ten virgins
 
-> ✝️ Matthew 25:1-13 (ESV)
->
-> 1 "Then the kingdom of heaven will be like ten virgins who took their lamps and went to meet the bridegroom. 2 Five of them were foolish, and five were wise. 3 For when the foolish took their lamps, they took no oil with them, 4 but the wise took flasks of oil with their lamps. 5 As the bridegroom was delayed, they all became drowsy and slept. 6 But at midnight there was a cry, 'Here is the bridegroom! Come out to meet him.' 7 Then all those virgins rose and trimmed their lamps. 8 And the foolish said to the wise, 'Give us some of your oil, for our lamps are going out.' 9 But the wise answered, saying, 'Since there will not be enough for us and for you, go rather to the dealers and buy for yourselves.' 10 And while they were going to buy, the bridegroom came, and those who were ready went in with him to the marriage feast, and the door was shut. 11 Afterward the other virgins came also, saying, 'Lord, lord, open to us.' 12 But he answered, 'Truly, I say to you, I do not know you.' 13 Watch therefore, for you know neither the day nor the hour."
+The virgins go out "to meet" the bridegroom: "Here is the bridegroom! Come out to meet him" (Matthew 25:6, ESV). The noun is *apantēsis*, the word Paul uses in 1 Thessalonians 4:17, and [the vocabulary table below](#the-vocabulary-does-not-sort) weighs what that shared word means.
 
 This parable sits third in a run of four that Matthew groups together; [The Parables of the Olivet Discourse](olivet-discourse-parables.md) reads all four against their setting.
 
@@ -181,21 +179,30 @@ out against the corpus, that argument mostly fails, and a different one takes it
 | **ἐπιφάνεια** (*epiphaneia*, G2015, "appearing") | Titus 2:13 | 2 Thess 2:8 | No |
 | **<span data-strongs="G1996">ἐπισυνάγω</span> / ἐπισυναγωγή** ("gather together", G1997) | 2 Thess 2:1 | Matt 24:31; Mark 13:27 | No |
 | **σάλπιγξ** (*salpinx*, G4536, "trumpet") | 1 Thess 4:16; 1 Cor 15:52 | Matt 24:31 | No |
-| **ἄγγελος** ("angel", G32) | 1 Thess 4:16 — an archangel's *voice* | Matt 24:31; 2 Thess 1:7 — angels *sent*, and accompanying | Partly |
+| **ἄγγελος / <span data-strongs="G743">ἀρχάγγελος</span>** ("angel", G32; "archangel") | 1 Thess 4:16 — an archangel's *voice* | Matt 24:31; 2 Thess 1:7 — angels *sent*, and accompanying | Partly |
 | **ἁρπάζω** (*harpazō*, "snatch away") | 1 Thess 4:17 | — | **Yes** |
-| **ἀπάντησις** (*apantēsis*, G529, "meeting") | 1 Thess 4:17 | — | **Yes** |
+| **ἀπάντησις** (*apantēsis*, G529, "meeting") | 1 Thess 4:17 | — (but Matt 25:6, the bridegroom's arrival) | Contested |
 
-Five of the eight terms appear on both sides. The two that are genuinely one-sided both sit in the
-same verse, 1 Thessalonians 4:17 — so the vocabulary argument reduces to a single sentence of Paul's
-rather than a pattern across the corpus. The trumpet is the clearest casualty: this study notes above
-that it ties 1 Thessalonians 4 to 1 Corinthians 15, and it does, but Matthew 24:31 has one too.
+Five of the eight terms appear on both sides. Only *harpazō* is confined to the rapture passages,
+so the vocabulary argument reduces to a single verb in a single sentence of Paul's. The trumpet shows
+it most clearly: it ties 1 Thessalonians 4 to 1 Corinthians 15, and Matthew 24:31 has one too.
+
+*Apantēsis* is the word for going out to meet an arriving dignitary, and it occurs three times: here,
+of the virgins meeting the bridegroom (Matthew 25:6), and of the Roman believers walking out to the
+Forum of Appius to meet Paul (Acts 28:15). A welcoming party went out and escorted the visitor back
+to the city, and the *NIV Biblical Theology Study Bible* concludes from this that the Church, once
+caught up, escorts Christ to earth. That is the post-tribulational reading in one word: the Church
+meets the Lord in the air and returns with Him at once. The word names the meeting and leaves the direction
+afterward to context. In Acts 28 the party does turn back with Paul to Rome; in John 14:3 Jesus says
+where He takes His own: "to myself, that where I am you may be also." This study reads 1
+Thessalonians 4:17 with John 14, and marks the point as contested.
 
 ### The features do sort
 
 | | Rapture passages<br/>1 Thess 4:15-17 · 1 Cor 15:51-53 · John 14:1-3 | Visible-coming passages<br/>Matt 24:29-31 · 2 Thess 1:7-10 · Rev 1:7 · Rev 19:11-16 |
 |---|---|---|
-| **Which way the saints move** | up — "caught up… to meet the Lord **in the air**" (1 Thess 4:17) | not stated of them; angels gather the elect as he descends (Matt 24:31) |
-| **Who comes with him** | the dead in Christ, raised first (1 Thess 4:16) | "his mighty angels" (2 Thess 1:7); the armies of heaven on white horses (Rev 19:14) — **and the Church is plausibly among them**, see below |
+| **Which way the saints move** | up — "caught up… to meet the Lord **in the air**" (1 Thess 4:17) | not stated of them; angels gather the elect as He descends (Matt 24:31) |
+| **Who comes with Him** | the dead in Christ — "God will bring with him those who have fallen asleep" (1 Thess 4:14) | "his mighty angels" (2 Thess 1:7); the armies of heaven on white horses (Rev 19:14) — **and the Church is plausibly among them**, see below |
 | **Who sees it** | not stated | "every eye" (Rev 1:7); "all the tribes of the earth… will see" (Matt 24:30) |
 | **How the nations react** | not stated | they mourn — **κόψονται**, the same verb and the same phrase "all the tribes of the earth" in both Matt 24:30 and Rev 1:7 |
 | **Signs beforehand** | none; "in the twinkling of an eye" (1 Cor 15:52), and the day of the Lord that follows comes "like a thief" on those in darkness (1 Thess 5:2-4) | sun, moon and stars, "immediately **after the tribulation** of those days" (Matt 24:29) |
@@ -203,31 +210,36 @@ that it ties 1 Thessalonians 4 to 1 Corinthians 15, and it does, but Matthew 24:
 | **Resurrection and transformation** | central — the dead raised, the living changed, mortality putting on immortality (1 Cor 15:52-53) | absent |
 | **Stated purpose in context** | comfort for the grieving (1 Thess 4:18); "the blessed hope" (Titus 2:13) | "to judge and make war" (Rev 19:11); recompense (2 Thess 1:8) |
 
-Seven of the eight land in one column only, which is the argument the vocabulary was being asked to
-carry and could not: two events described in overlapping words with almost nothing in common in
-direction, visibility, consequence or purpose. The eighth — who comes with him — is shared, and it
-turns out to be the most interesting row in the table.
+Seven of the eight rows set the columns apart. Two do it by what each side states (signs, purpose);
+five do it by what one side describes and the other never mentions, which is an argument from silence,
+weighed [below](#what-the-sequence-markers-do-and-do-not-say). Together they carry what the vocabulary
+could not: two events described in overlapping words with almost nothing in common in direction,
+visibility, consequence or purpose. The eighth row, who comes with Him, is shared, and the next
+section takes it up.
 
-### Does the Church ride out with him?
+### Does the Church ride out with Him?
 
 "And so we will always be with the Lord" (1 Thessalonians 4:17). **πάντοτε** (*pantote*, G3842) — *always*, with no
-period carved out of it. If the Church is caught up to him before the tribulation, then the Church is
-with him when he returns at the end of it, and the company that rides out in Revelation 19:14 should
+period carved out of it. If the Church is caught up to Him before the tribulation, then the Church is
+with Him when He returns at the end of it, and the company that rides out in Revelation 19:14 should
 include her. Four lines of evidence say it does.
 
-#### The fabric linking the armies and the Bride
+#### The fabric linking the armies and the bride
 
 **The fabric.** The armies wear **βύσσινον λευκὸν καθαρόν**, "fine linen, white and pure" (Revelation 19:14).
 Six verses earlier the bride is granted **βύσσινον λαμπρὸν καθαρόν**, "fine linen, bright and pure"
 (19:8) — two of the three words identical. When John dresses angels he reaches for a different noun:
 the seven angels of Revelation 15:6 wear **λίνον** καθαρὸν λαμπρόν, same participle *ἐνδεδυμένοι*, different
-cloth. So the armies are dressed as the Bride is, not as the angels are.
+cloth. So the armies are dressed as the bride is. (A few manuscripts of 15:6 read λίθον, "stone", for
+λίνον; the SBLGNT and the ESV read linen, and either way the angels' noun differs from the bride's.)
 
 #### The company at the Lamb's war
 
 **The company at the Lamb's war.** Running up to this scene, Revelation 17:14 says of those who
-fight beside him that "those with him are **called and chosen and faithful**" — κλητοὶ καὶ ἐκλεκτοὶ
-καὶ πιστοί, three words the New Testament uses of believers and not of angels.
+fight beside Him that "those with him are **called and chosen and faithful**" — κλητοὶ καὶ ἐκλεκτοὶ
+καὶ πιστοί. The New Testament once calls angels "elect" (1 Timothy 5:21), but "called" and "faithful"
+are its words for believers, and the three together describe people who answered a call and kept
+faith.
 
 #### Paul's own testimony
 
@@ -241,18 +253,18 @@ his saints, and marveled at among all who have believed."
 
 #### Why this strengthens the pretribulational case
 
-**This strengthens the pretribulational case rather than straining it.** The Church can only come
-*with* him if she was already taken *to* him, so a second coming accompanied by the Bride requires a
+**This strengthens the pretribulational case.** The Church can only come
+*with* Him if she was already taken *to* Him, so a second coming accompanied by the bride requires a
 prior gathering — which is the reading argued above. It also explains the one shared row in the
 features table: the two events differ in almost everything, but the same people are present at both,
-on opposite sides of the journey. Caught up to meet him in the air, and riding out behind him in the
-linen the Bema produced.
+on opposite sides of the journey. Caught up to meet Him in the air, and riding out behind Him in the
+linen of the Bema ([The judgments](#the-judgments), below).
 
 This shows that God means *always* in 1 Thessalonians 4:17: once you are caught up to Jesus you stay at His side, and when He appears in glory, you appear with Him (Colossians 3:4).
 
 ### What the sequence markers do and do not say
 
-One asymmetry cuts against the tidy reading, and it belongs here rather than buried. **Only the
+One asymmetry cuts against the tidy reading. **Only the
 visible-coming passages carry an explicit time-stamp.** Matthew 24:29 opens *εὐθέως δὲ μετὰ τὴν
 θλῖψιν τῶν ἡμερῶν ἐκείνων* — "immediately after the tribulation of those days" — placing that coming
 after the tribulation in so many words. 1 Thessalonians
@@ -262,8 +274,8 @@ event itself.
 So the second coming's position is stated; the rapture's is inferred. The inference is drawn from the
 features table above and from 1 Thessalonians 5:9 — a gathering with no signs, no visibility, no
 judgment and a stated purpose of comfort does not fit after the tribulation it never mentions. That
-is an argument from silence about timing rather than a timing statement, which is why careful
-interpreters land in different places on it.
+is an argument from silence about timing, which is why careful interpreters land in different places
+on it.
 
 One sequence marker does run the other way, and it is the strongest of them: Revelation 19 reports
 the marriage of the Lamb as already come **two verses before** heaven opens (19:7-11). [Where the supper
@@ -276,7 +288,7 @@ sits](#where-the-supper-sits-and-what-the-bride-is-wearing) works that through.
 > 1 Now concerning the coming of our Lord Jesus Christ and our being gathered together to him, we ask you, brothers, 2 not to be quickly shaken in mind or alarmed, either by a spirit or a spoken word, or a letter seeming to be from us, to the effect that the day of the Lord has come. 3 Let no one deceive you in any way. For that day will not come, unless the rebellion comes first, and the man of lawlessness is revealed, the son of destruction, 4 who opposes and exalts himself against every so-called god or object of worship, so that he takes his seat in the temple of God, proclaiming himself to be God. 5 Do you not remember that when I was still with you I told you these things? 6 And you know what is restraining him now so that he may be revealed in his time. 7 For the mystery of lawlessness is already at work. Only he who now restrains it will do so until he is out of the way.
 
 - "Our being gathered together to him" — Paul opens by naming the very event 1 Thessalonians 4 described, then uses it as the reference point for everything that follows.
-- "That day will not come unless the rebellion comes first" — this is the second coming ("the day of the Lord"), not the rapture, being tied to specific preceding events.
+- "That day will not come unless the rebellion comes first" — "that day" is the day of the Lord (2:2), which on the reading argued here opens with the tribulation and ends at the second coming, and Paul ties it to events that must come first. The gathering of verse 1 carries no such precondition: in 1 Thessalonians 5:2-4, the paragraph after the catching up of 4:17, the same day comes "like a thief" on those in darkness.
 
 ### What verse 7 actually says about the going
 
@@ -288,12 +300,12 @@ follows Paul's phrase through his letters.
 
 ### Who is the restrainer?
 
-This site reads the restrainer as the Holy Spirit dwelling in the church, the body of believers.
+This site reads the restrainer as the Holy Spirit dwelling in the Church, the body of believers.
 Paul's neuter "what is restraining" (**τὸ κατέχον**, 2:6) and masculine "he who restrains" (**ὁ
 κατέχων**, 2:7) fit the Spirit, who in John's Gospel carries a neuter name and a masculine title (John
-14:26; 16:13). When the church is caught up (1 Thessalonians 4:17), His restraining presence in her
+14:26; 16:13). When the Church is caught up (1 Thessalonians 4:17), His restraining presence in her
 comes to be out of the midst, and the lawless one is revealed. The Spirit still saves in the
-tribulation (Revelation 7:9-14); what ends is His restraining presence in the church. Interpreters
+tribulation (Revelation 7:9-14); what ends is His restraining presence in the Church. Interpreters
 divide over the identification — Rome, human government, the gospel and the archangel Michael have
 all been proposed — and [The Restrainer](the-restrainer.md) sets out the case and answers each.
 
@@ -302,31 +314,37 @@ This shows that God rules the timing of evil in His providence: the lawless one 
 ## The tribulation
 
 The tribulation is a specific seven-year period. It is Daniel's seventieth "week" of years (Daniel
-9:27 (ESV); see [The Zadok Calendar](../feasts/zadok-
-calendar.md) for how this site reckons that kind of chronology). During it God's judgment falls on a
+9:27; see [The Zadok Calendar](../feasts/zadok-calendar.md) for how this site reckons that kind of
+chronology). During it God's judgment falls on a
 world that has rejected Him. At its midpoint the man of lawlessness takes his seat in the temple (2 Thessalonians 2:4), the
 abomination of desolation (Matthew 24:15).
 
-Scripture gives two direct reasons to expect the Church to be removed before this period.
+### Whose week it is
 
-**Not destined for wrath.** "For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ" (1 Thessalonians 5:9, ESV). The tribulation is explicitly God's wrath poured out on the earth — a category Scripture says believers are not appointed to.
+The seventy weeks are "decreed about your people and your holy city" (Daniel 9:24, ESV): Daniel's people, Israel, and Jerusalem. The Church is a body Paul calls a mystery "not made known to the sons of men in other generations" (Ephesians 3:5, ESV), in which Gentiles are "fellow heirs, members of the same body" (3:6). That is the dispensational reason for expecting the Church to be gone before the seventieth week: the weeks were decreed about Israel, the first sixty-nine ran their course before the Church existed, and the last resumes God's dealings with Israel after the Church age closes. The argument rests on whom the prophecy addresses, so it persuades a reader who holds Israel and the Church distinct, as this site does (see [What Scripture means by a mystery](../israel-and-church/israel-and-the-church.md#what-scripture-means-by-a-mystery)). A reader who takes the Church as Israel's continuation will not find it persuasive, which is why the two texts below matter.
+
+### Not destined for wrath
+
+"For God has not destined us for wrath, but to obtain salvation through our Lord Jesus Christ" (1 Thessalonians 5:9, ESV). Revelation describes the tribulation's judgments as "the wrath of the Lamb" (Revelation 6:16) and says that with the last plagues "the wrath of God is finished" (15:1). Whether Paul's "wrath" means that period or final condemnation is debated; his context is the day of the Lord bringing "sudden destruction" (1 Thessalonians 5:3), which points to the end-time day.
 
 This shows that God has already settled your destiny: He appointed you to obtain salvation through your Lord Jesus Christ, and on the reading argued here He will gather you before that week of wrath begins.
 
-**Kept from, not kept through.** To the church in Philadelphia: "I will keep you from the hour of trial that is coming on the whole world, to try those who dwell on the earth" (Revelation 3:10, ESV). That reads best as a promise to be kept *from* the hour itself, not merely preserved safely inside it.
+### Kept from the hour
+
+To the church in Philadelphia: "I will keep you from the hour of trial that is coming on the whole world, to try those who dwell on the earth" (Revelation 3:10, ESV). That reads best as a promise to be kept *from* the hour itself.
 
 The underlying Greek is contested, though. Standard commentary treats ἐκ τῆς ὥρας ("out of the hour") as ambiguous between "keep you from undergoing" and "keep you through," with serious interpreters on both sides. The reading above is defensible, and the pretribulational case leans on more than this verse.
 
 ## The judgments
 
-Scripture describes two distinct judgments, for two distinct groups, at two distinct times.
+Two judgments bear on this study, for two groups, at two times.
 
 | Judgment | Who | When | Basis |
 | --- | --- | --- | --- |
-| The Bema seat | Believers | During the tribulation, in heaven | Works tested for reward, not for salvation — 2 Corinthians 5:10; 1 Corinthians 3:11-15 |
+| The Bema seat | Believers | At Christ's coming for His people (1 Corinthians 4:5); on this reading, in heaven during the tribulation | Works tested for reward, not for salvation — 2 Corinthians 5:10; 1 Corinthians 3:11-15 |
 | The Great White Throne | The unsaved dead | After the millennium | Judged "according to what they had done," ending in the second death — Revelation 20:11-15 (ESV) |
 
-**Bēma** (**βῆμα**) is commonly glossed as "a Greek athletic term for the judge's stand at the games." That gloss is wrong. Every one of its twelve New Testament occurrences is judicial or civic: Pilate's judgment seat (Matthew 27:19; John 19:13), Herod's throne (Acts 12:21), Gallio's tribunal at Corinth (Acts 18:12, 16-17), Festus's tribunal (Acts 25:6, 10, 17), and "the judgment seat of God/Christ" itself (Romans 14:10; 2 Corinthians 5:10). The ESV Study Bible's note on 2 Corinthians 5:10 identifies it as "the tribunal bench in the Roman courtroom, where the governor sat while rendering judicial verdicts".
+**Bēma** (**βῆμα**) is commonly glossed as "a Greek athletic term for the judge's stand at the games." The New Testament uses it for a court. Eleven of its twelve occurrences are judicial or civic: Pilate's judgment seat (Matthew 27:19; John 19:13), Herod's throne (Acts 12:21), Gallio's tribunal at Corinth (Acts 18:12, 16-17), Festus's tribunal (Acts 25:6, 10, 17), and "the judgment seat of God/Christ" itself (Romans 14:10; 2 Corinthians 5:10). The twelfth is the word's plain sense of a step: God gave Abraham "not even a foot's length" of the land (Acts 7:5, ESV). The ESV Study Bible's note on 2 Corinthians 5:10 identifies it as "the tribunal bench in the Roman courtroom, where the governor sat while rendering judicial verdicts".
 
 The Bema is a judgment of reward, not of condemnation. A believer's salvation was settled at the cross; what is evaluated here is what was built on that foundation (1 Corinthians 3:12-13). The Great White Throne is where those never covered by Christ's righteousness are judged by their own deeds, and found wanting.
 
@@ -346,18 +364,19 @@ Revelation puts the wedding at a specific point.
 
 Two verses later heaven opens and the rider on the white horse goes out (Revelation 19:11). So in Revelation's
 own order the marriage **has come** — ἦλθεν, aorist — and the bride **has made herself ready** —
-ἡτοίμασεν, aorist — before the visible return, not after it. Both verbs report completed action. The
+ἡτοίμασεν, aorist — before the visible return. Both verbs report completed action. The
 supper is announced while the King is still in heaven.
 
-That places a requirement on the sequence, and it is the join this study has been making in pieces.
 The bride's garment "is the righteous deeds of the saints." The word is **δικαιώματα**
 (*dikaiōmata*, G1345), which Louw-Nida puts at 88.14, "righteous acts" — the same sense as Revelation 15:4.
-Those deeds are exactly what [the Bema seat](#the-judgments) assesses, and
-this study already places the Bema in heaven during the tribulation years. The bride is therefore
-dressed in the outcome of a judgment that has already happened — which cannot be true if the Church
-is still on earth when the rider appears.
+Those deeds are what [the Bema seat](#the-judgments) assesses. Paul ties the Bema to the Lord's
+coming (1 Corinthians 4:5) without dating it further, so its timing has to be read from passages like
+this one. Here the bride is already dressed in the outcome of that assessment before the rider
+appears, which places the Bema in heaven before the visible return. That is an inference from
+Revelation 19's order, and it is the one this study's sequence rests on; a post-tribulational reader
+places the Bema at the return itself.
 
-One guard against reading that as merit. The linen is not sewn but **ἐδόθη αὐτῇ**, "it was granted
+One guard against reading that as merit. The linen is **ἐδόθη αὐτῇ**, "it was granted
 her" (Revelation 19:8), a divine passive: given, and *consisting of* deeds, at the same time. That is the Bema's
 own logic — reward for what was built on a foundation already laid, never the foundation itself
 (1 Corinthians 3:11-15).
@@ -370,30 +389,34 @@ whole thread, including where the identification is argued rather than assumed.
 
 ## The whole sequence in one view
 
-On the pretribulational reading the events fall in this order. The branch below the rapture is not the Church dividing — it is the whole Church leaving.
+On the pretribulational reading the events fall in this order. The branch below the rapture is the whole Church leaving.
 Two tracks then run in parallel through the tribulation years: one on earth, which the Church has
 been removed from, and one in heaven, where she is. They converge at the second coming, when she
-returns with him.
+returns with Him.
 
 ```mermaid
 flowchart TD
     A["The Church age<br/>continues today"] -->|"no sign to wait on"| B["The rapture<br/>the whole Church<br/>is caught up<br/>1 Thess 4:16-17<br/>1 Cor 15:51-53"]
     B -->|"on earth,<br/>the Church removed"| C["Tribulation begins<br/>seven years<br/>covenant confirmed<br/>Dan 9:27"]
     C --> D["Midpoint<br/>abomination of desolation<br/>Matt 24:15<br/>lawless one seated<br/>in the temple<br/>2 Thess 2:4"]
-    D -->|"after the tribulation<br/>Matt 24:29"| E["The second coming<br/>every eye sees him<br/>Rev 19:11-16; Matt 24:30"]
+    D -->|"after the tribulation<br/>Matt 24:29"| E["The second coming<br/>every eye sees Him<br/>Rev 19:11-16; Matt 24:30"]
     E --> F["The millennium<br/>Christ reigns, 1000 years<br/>Rev 20:1-6"]
     F --> G["Great White Throne<br/>the unsaved judged<br/>Rev 20:11-15"]
     G --> H["Eternity<br/>new heaven, new earth<br/>Rev 21:1-4"]
     B -->|"in heaven,<br/>the Church with Christ"| X["Bema seat<br/>believers' works assessed<br/>2 Cor 5:10; 1 Cor 3:11-15"]
     X -->|"clothed in her<br/>righteous deeds<br/>Rev 19:8"| Y["Marriage of the Lamb<br/>and the supper<br/>Rev 19:7-9"]
-    Y -->|"returns with him<br/>Rev 19:14; Col 3:4"| E
+    Y -->|"returns with Him<br/>Rev 19:14; Col 3:4"| E
 ```
 
 ## Other end-times views
 
 Serious, Bible-believing Christians hold other views.
 
-- **Post-tribulationism** holds that the rapture and the second coming are the same event, occurring together at the end of the tribulation — taking 1 Thessalonians 4 and Matthew 24 as descriptions of one single arrival.
+- **Post-tribulationism** holds that the rapture and the second coming are the same event, at the end of the tribulation, with 1 Thessalonians 4 and Matthew 24 describing one arrival. Its strongest arguments, and where this study answers them:
+    - *The meeting.* *Apantēsis* is a welcoming party that escorts the king back to the city (see [the vocabulary table](#the-vocabulary-does-not-sort)).
+    - *The trumpet and the gathering.* Matthew 24:31 has both, "after the tribulation" (24:29), and so does 1 Thessalonians 4:16-17. The features table above shows how little else the two passages share.
+    - *"Keep you from."* The only other place John writes *tēreō ek* is Jesus' prayer, "I do not ask that you take them out of the world, but that you keep them from the evil one" (John 17:15, ESV): protection while remaining. That is the best case for reading Revelation 3:10 as "kept through", and it is why this study leans on more than that verse.
+    - *Relief at the revelation.* Paul promises the afflicted Thessalonians "relief … when the Lord Jesus is revealed from heaven with his mighty angels" (2 Thessalonians 1:7, ESV), which sounds like the Church's relief coming at the visible return. The pretribulational answer is that the verse sets the time of the persecutors' repayment (1:6), and relief for believers who have already been gathered is not excluded by it; this is the passage where the post-tribulational case is strongest.
 - **Mid-tribulationism** and **pre-wrath** views place the rapture partway through the seven years, typically before the specifically wrath-pouring judgments of Revelation's later chapters, while still holding to a real, distinct catching-up event.
 - **[Amillennialism](https://en.wikipedia.org/wiki/Amillennialism)** rejects a future literal thousand-year reign altogether, reading Revelation 20 symbolically of the present Church age. This affects the millennium more than the rapture question itself, though the two are often held together.
 
@@ -413,7 +436,7 @@ This is the blessed hope: God will send Jesus for you Himself, raise those who h
 
 ## References & Recommended Reading
 
-- Chuck Missler, [Blessed Hope teaching series](https://www.khouse.org/) — starting point for [The promise: Christ returns for his own](#the-promise-christ-returns-for-his-own).
+- Chuck Missler, [Blessed Hope teaching series](https://www.khouse.org/) — starting point for [The promise: Christ returns for His own](#the-promise-christ-returns-for-his-own).
 - *ESV Study Bible* (Crossway, 2016) — notes on Revelation 3:10, 1 Thessalonians 4:17, 2 Thessalonians 2:6-7, and 2 Corinthians 5:10, consulted as an independent check; source of the corrected Bēma etymology and the acknowledged ambiguity on Revelation 3:10 and the restrainer's identity.
 - *NIV Biblical Theology Study Bible* (Zondervan, 2018) — notes on 1 Thessalonians 4:17 (the *apantēsis* civic-welcome sense) and 2 Thessalonians 2:6-7 (the scholarly proposals for the restrainer), consulted independently of the ESV Study Bible above.
 - Robert L. Thomas, cited in Thomas Ice, [The Holy Spirit and the Pretribulational Rapture](https://www.according2prophecy.org/hsrap.html) — source of the τὸ κατέχον / ὁ κατέχων gender-shift argument at 2 Thessalonians 2:6-7, confirmed against this repo's own Greek text (SBLGNT).
