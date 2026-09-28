@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 16:16-18 (primary passage)
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 16:9-10
 - [Sin and Sorcery](../../sin/sorcery.md) — 16:16-18
 - [The Way](../../jesus/the-way.md) — 16:17

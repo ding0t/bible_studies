@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
 bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hebrews 1:2", "Hebrews 4:9", "Revelation 20:1-7", "Genesis 49:1", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:46", "2 Timothy 3:16", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
 date_created: 2026-08-12
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -176,7 +176,7 @@ Peter's source is Psalm 90:4, a prayer of Moses.
 > the night.
 
 Psalm 90's own vocabulary, its place in the Psalter, and the Sabbath psalm (Psalm 92) are traced in
-a separate study, *A Thousand Years in Your Sight* (in preparation).
+a separate study, [A Thousand Years in Your Sight](a-thousand-years-in-your-sight.md).
 
 ### The two changes Peter made to the quotation
 
@@ -370,7 +370,7 @@ ties the Sabbath to a rest still to come, and that Revelation numbers that rest 
 — all of that is in the text. Matching each creation day to a millennium of history is a further
 step: the day-by-day scheme has ancient precedent in the Temple's psalm cycle above, and mapping it
 onto specific millennia is this site's construction. The readings of days one to six are worked through in a separate
-study, *Six Days of History* (in preparation).
+study, [Six Days of History](six-days-of-history.md).
 
 The anchors below use the site's working convention — creation at 4004 BC, Adam at year 0 of the
 world (AM), consistent with [Bible Chronology & Genealogical Time](genealogy-times.md) — and the

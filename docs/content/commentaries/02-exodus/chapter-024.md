@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 24:8
+- [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 24:5
 <!-- commentary-index:auto-end -->

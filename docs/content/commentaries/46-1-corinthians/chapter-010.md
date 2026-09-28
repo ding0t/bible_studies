@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 10:16
+- [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 10:20-21
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 10:18
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 10:16
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 10:32

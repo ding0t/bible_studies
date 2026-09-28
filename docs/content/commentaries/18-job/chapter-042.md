@@ -14,4 +14,5 @@ draft: false
 
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 42:1-6
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 42:10
+- [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 42:17
 <!-- commentary-index:auto-end -->

@@ -18,6 +18,7 @@ draft: false
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 2:15
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 2:16-17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 2:16-17
+- [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 2:15
 - [The Day Is Near](../../last-things/day-is-near.md) — 2:16-17
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:14
 - [Wisdom](../../wisdom/index.md) — 2:3

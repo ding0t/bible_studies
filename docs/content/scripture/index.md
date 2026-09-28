@@ -4,7 +4,7 @@ category: "other"
 description: "The Bible about itself -- canon, manuscripts, translation, and the archaeology behind the text."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-05
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -47,6 +47,14 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
     A practical method for reading Scripture well: what it meant before what it means, in that order
 
     [:octicons-arrow-right-24: Read](how-to-read-the-bible.md)
+
+-   __Melchizedek in Second Temple Judaism__
+
+    ---
+
+    How Jews between the Testaments read Genesis 14 and Psalm 110: Qumran's heavenly redeemer, the Genesis retellings, Hasmonean priest-kings, Philo and Josephus, and how Hebrews 7 answers them.
+
+    [:octicons-arrow-right-24: Read](melchizedek-in-second-temple-judaism.md)
 
 -   __Biblical Numerology__
 

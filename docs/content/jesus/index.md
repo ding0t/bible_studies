@@ -4,7 +4,7 @@ category: "other"
 description: "Who Christ is and what he did, including Old Testament prophecy fulfilled in him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-25
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -48,6 +48,14 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
     A history of the Melchizedek priesthood from Genesis 14 through Second Temple Judaism, and a word-by-word walk through Hebrews' argument that Jesus fulfills it.
 
     [:octicons-arrow-right-24: Read](melchizedek-priesthood.md)
+
+-   __Before Aaron: Who Offered Sacrifice?__
+
+    ---
+
+    Before Sinai the heads of families offered sacrifice for their households, yet Scripture calls none of them a priest. God then appointed Aaron's sons and gave the Levites in place of Israel's firstborn, because priesthood is always His appointment, and He appointed His Son Jesus, who holds His priesthood permanently.
+
+    [:octicons-arrow-right-24: Read](priesthood-before-sinai.md)
 
 -   __The Day No One Knows__
 

@@ -17,4 +17,5 @@ draft: false
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:20
 - [Simon Peter](../../biblical-figures/peter.md) — 2:14-41
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 2:27
+- [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:27
 <!-- commentary-index:auto-end -->

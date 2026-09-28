@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 2:1-3 (primary passage)
+- [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 2:5
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 2:7
 - [Biblical Numerology](../../scripture/numerology.md) — 2:10
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:2-3
@@ -22,4 +23,5 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 2:24
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 2:9-10
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:24
+- [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:7
 <!-- commentary-index:auto-end -->

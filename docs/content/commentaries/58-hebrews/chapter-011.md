@@ -12,8 +12,10 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 11:5
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 11:6
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 11:5-7
+- [The Flood and the King Lists: Which Genesis Numbers to Trust](../../god/flood-and-the-king-lists.md) — 11:5
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 11:9
 - [The Rapture of the Church](../../last-things/rapture.md) — 11:5
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 11:10

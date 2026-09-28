@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 10:13-14
 - [Sin and Sorcery](../../sin/sorcery.md) — 10:13-14
 <!-- commentary-index:auto-end -->

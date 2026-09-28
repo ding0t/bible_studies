@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 28:1
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 28:17-21
 <!-- commentary-index:auto-end -->

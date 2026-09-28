@@ -14,6 +14,8 @@ draft: false
 
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 5 (primary passage)
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 5:21-24 (primary passage)
+- [The Flood and the King Lists: Which Genesis Numbers to Trust](../../god/flood-and-the-king-lists.md) — 5:1-32 (primary passage)
+- [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 5:24
 - [Six Days of History](../../last-things/six-days-of-history.md) — 5:5
 - [The Combined Timeline: One Line, Two Zones](../../last-things/combined-timeline.md) — 5:1-32
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:21-24

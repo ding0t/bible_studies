@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 12:26-28
+- [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 12:23
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 12:22-24
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 12:22-23
 <!-- commentary-index:auto-end -->

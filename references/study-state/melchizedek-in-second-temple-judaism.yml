@@ -1,6 +1,6 @@
 slug: "melchizedek-in-second-temple-judaism"
 title: "Melchizedek in Second Temple Judaism"
-status: review
+status: published # 2026-09-28, author approved
 target_path: "docs/content/scripture/melchizedek-in-second-temple-judaism.md"
 
 primary_passage: "Psalm 110:4"
@@ -102,8 +102,9 @@ stages:
       Jubilee law, a psalm, two oracles" miscounted -- now "Jubilee law, a psalm and three
       prophecies"; unsourced Michael comparison cut; divine pronouns recased.
   review:
-    done: false
-    validated: true # npm run validate: no findings for this file; mkdocs build --strict passed (draft dropped)
+    done: true
+    validated: true # npm run validate 2026-09-28: no findings for this file after review edits
+    notes: "First review pass 2026-09-28; see review_2026-09-28 below."
 
 evidence:
   - {id: luke4-19-esv, what: "ESV Luke 4:19 (moved text had KJV wording)", tool: study_verse, args: {book: Luke, chapter: 4, verse: 19, work_id: esv-study-bible}, expect_contains: "to proclaim the year of the Lord's favor", checked: 2026-09-27}
@@ -144,6 +145,11 @@ evidence:
   - {id: heb10-13-esv, what: "ESV Heb 10:13", tool: study_verse, args: {book: Heb, chapter: 10, verse: 13, work_id: esv-study-bible}, expect_contains: "waiting from that time until his enemies should be made a footstool for his feet", checked: 2026-09-27}
   - {id: john1-14-esv, what: "ESV John 1:14", tool: study_verse, args: {book: John, chapter: 1, verse: 14, work_id: esv-study-bible}, expect_contains: "And the Word became flesh and dwelt among us", checked: 2026-09-27}
   - {id: esvsb-heb7-3, what: "ESVSB: Melchizedek an ordinary man, a type", tool: study_note, args: {book: Heb, chapter: 7, verse: 3, work_id: esv-study-bible}, expect_contains: "Melchizedek as an ordinary man", checked: 2026-09-27}
+  - {id: ps7-7-esv, what: "ESV Ps 7:7 (11Q13's 'return on high'; Hebrew 7:8)", tool: study_verse, args: {book: Ps, chapter: 7, verse: 7, work_id: esv-study-bible}, expect_contains: "over it return on high", checked: 2026-09-28}
+  - {id: ps7-8-esv, what: "ESV Ps 7:8 'The LORD judges the peoples'", tool: study_verse, args: {book: Ps, chapter: 7, verse: 8, work_id: esv-study-bible}, expect_contains: "The LORD judges the peoples", checked: 2026-09-28}
+  - {id: btsb-heb7-3, what: "NIV BTSB Heb 7:3: silence of Genesis, prefiguring (independent cross-check)", tool: study_note, args: {book: Heb, chapter: 7, verse: 3, work_id: niv-biblical-theology-study-bible}, expect_contains: "Melchizedek prefigures superficially", checked: 2026-09-28}
+  - {id: nkjvcbsb-heb7-3, what: "NKJV CBSB Heb 7:3: argument from silence; other Jews saw an angelic Melchizedek", tool: study_note, args: {book: Heb, chapter: 7, verse: 3, work_id: nkjv-cultural-backgrounds-study-bible}, expect_contains: "perhaps angelic", checked: 2026-09-28}
+  - {id: isa61-2-esv, what: "ESV Isa 61:2 'the year of the LORD's favor' (11Q13 II 9 substitutes Melchizedek)", tool: study_verse, args: {book: Isa, chapter: 61, verse: 2, work_id: esv-study-bible}, expect_contains: "to proclaim the year of the LORD's favor", checked: 2026-09-28}
   - {id: cbsb-gen14-18-hasmoneans, what: "NIV CBSB: Hasmoneans appealed to Melchizedek", tool: study_note, args: {book: Gen, chapter: 14, verse: 18, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "justified their priestly-royal prerogatives by reference to Melchizedek", checked: 2026-09-27}
 
 # Raw-only sources (not reachable by the evidence tools) -- checked by reading the files directly:
@@ -160,10 +166,12 @@ evidence:
 #       Most High God".
 
 open_questions:
-  - "Philo (Leg. All. 3.79-82) and Josephus (Ant. 1.10.2) are not held on disk; their paragraphs are the moved text, verified in the parent, and were not re-verified here. Worth fetching public-domain Yonge (Philo) and Whiston (Josephus) into $BIBLE_MEDIA_ROOT/reference if these stay load-bearing."
-  - "11Q13 itself is not on disk. The phrase 'the sons of Heaven and the lot of Melchizedek' traces only to Ken Johnson's recorded study (references/biblefacts/11qmelchizadek.md, raw and uncitable). Check it against a published translation (Wise-Abegg-Cook or Garcia Martinez) before publishing."
+  - "RESOLVED 2026-09-28: Greek of both fetched (First1KGreek, Perseus) and translated; Whiston's Josephus also found on the media volume at biblefacts/other/Josephus_complete.pdf. Was: Philo (Leg. All. 3.79-82) and Josephus (Ant. 1.10.2) are not held on disk; their paragraphs are the moved text, verified in the parent, and were not re-verified here. Worth fetching public-domain Yonge (Philo) and Whiston (Josephus) into $BIBLE_MEDIA_ROOT/reference if these stay load-bearing."
+  - "RESOLVED 2026-09-28: DJD 23 Hebrew consulted (see primary_sources_2026-09-28); 'sons of Heaven' is not in the surviving letters and was removed. Was: 11Q13 itself is not on disk. The phrase 'the sons of Heaven and the lot of Melchizedek' traces only to Ken Johnson's recorded study (references/biblefacts/11qmelchizadek.md, raw and uncitable). Check it against a published translation (Wise-Abegg-Cook or Garcia Martinez) before publishing."
   - "Translator attributions for Jubilees and Assumption of Moses as R. H. Charles are inferred from the wording; the dataset's own INFO does not state them. Genesis Apocryphon translator (Reeves) is stated in its INFO.md; that translation is modern and quoted briefly."
-  - "The Zadok Calendar page attributes the 'one Shemittah after the ninth Jubilee' reading of 11Q13 to dsscalendar.org; this study (moved text) attributes it to Ken Johnson. Both may be right; the author should confirm which source to name."
+  - "RESOLVED 2026-09-28: the Zadok Calendar page names dsscalendar.org as 'the work of Dr. Ken Johnson', so the two attributions agree."
+  - "SUPERSEDED 2026-09-28 by primary_sources_2026-09-28 (DJD 23 Hebrew now consulted). Was: 11Q13's Psalm 7:8-9 (Hebrew; English 7:7-8) and Psalm 82:2 citations, the 'first week of the jubilee after nine jubilees' placement and the Day of Atonement at the end of the tenth jubilee were added in review from Johnson's transcript (references/biblefacts/11qmelchizadek.md, which reads them from a published translation) and match the standard published translations as the reviewer knows them. Confirm against Garcia Martinez or Wise-Abegg-Cook together with the 'sons of Heaven' phrase before publishing."
+  - "RESOLVED 2026-09-28 from the Greek (see primary_sources_2026-09-28). Was: AUTHOR DECISION (Philo): Key Takeaways and 'What the readers were reaching for' say Philo made Melchizedek 'a figure of the divine Word' and pair it with John 1:14, while the Philo section itself says the Melchizedek in Leg. All. 3.79-82 is right reason in the mind. In that passage Philo's logos is primarily reason in the soul; the divine-Logos-as-high-priest material is elsewhere (e.g. De Fuga 108-118). Either narrow the takeaway or cite the passage that supports it."
   - "Author decision: provenance fields (date_created etc.) were added to the file by something outside this session during drafting; left in place."
   - "Parent's plain-text pointer (Psalm 110 section) should become a link when this is published."
 resources_consulted:
@@ -172,4 +180,77 @@ resources_consulted:
   - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Gen 14:18, Ps 110:4, Heb 7:3 -- confirmed."}
   - {type: other, title: "scrollmapper deuterocanonical dataset", author: "various translators", note: "Genesis Apocryphon (Reeves), Jubilees and Assumption of Moses (Charles), 1 Maccabees (KJV Apocrypha)."}
   - {type: other, title: "Ken Johnson, BibleFacts 11Q13 study (transcript)", author: "Ken Johnson", note: "Source of the 11Q13 catena in the moved text; raw, not cited directly."}
-last_updated: "2026-09-27"
+review_2026-09-28:
+  checked: >
+    Every ESV quotation re-queried verbatim (Gen 14:18-20, Ps 76:2, 82:1, 110:4, Luke 4:18-19, 4:21,
+    John 1:14, 10:34-35, Heb 1:13, 5:11, 6:19-20, 7:2-4, 7:21-27, 10:12-13) -- all match; all 39
+    prior evidence entries replay ok. Raw-only deuterocanonical quotations re-read from disk
+    (Genesis Apocryphon 1:101-102, Jubilees 13:24-25, 1 Macc 14:41, As. Mos. 6:1) -- all match.
+    Concordance: H1865 7 occurrences (Lev 25:10, Isa 61:1, Jer 34:8, 15, 17x2, Ezek 46:17), H4442
+    Gen 14:18 + Ps 110:4, G3198 8x Heb 5:6-7:17, G871 hapax in NT -- all as stated. Footnotes for Ps
+    110:4 / Gen 14:18 / Heb 7:3: only LSB 'Lit be sorry' and El Elyon notes, incidental. Commentary
+    cross-check (not cited by the study): NIV BTSB and NKJV CBSB on Heb 7:3 confirm the silence
+    reading and note Jewish angelic readings. Siblings: jesus/melchizedek-priesthood.md consistent
+    (Heb 7:3 as argument from Genesis's silence; points here as 'in preparation'). Statement of faith:
+    consistent (66-book canon, extra-biblical texts cited as history; Christ's return to reign).
+    review_gaps: Ps 110:1 quoted in Mark 12:36 / Matt 22:44 / Acts 2:34 not cited -- optional lead,
+    not added. Tags vs live vocabulary ok; 'second-temple' is new (only use). validate clean.
+  fixed:
+    - "Internal count contradiction: 11Q13 intro said 'a psalm and two prophecies', later 'a psalm and three prophecies'; the scroll uses Ps 82:1-2 and Ps 7:7-8 (English), so both now read 'two psalms and three prophecies'; Ps 7:7-8 added to the Ps 82 paragraph, References catena and bible_references."
+    - "Hebrews section said Qumran wanted a deliverer who would 'bring atonement', never supported in the body: added the scroll's jubilee placement and Day of Atonement at the end of the tenth jubilee."
+    - "Zadok section said the scroll 'does not state it in those terms'; the scroll does give 'first week of the jubilee after nine jubilees'. Reworded so only the AD 32 date is attributed to Johnson."
+    - "Josephus: 'Canaanite' is from Jewish War 6.10.1, not Antiquities 1.10.2; split and cited both. Cut the restated 'writes it as history' sentence."
+    - "Heb 7:2 was cited as saying Jesus is 'king of righteousness'; reworded as Melchizedek's titles belonging to Jesus."
+    - "'made like' in Key Takeaways is the interlinear gloss, not ESV; noted the ESV's 'resembling'. 'with no name attached yet' clarified to 'without Jesus' name attached'."
+    - "Tags: added lang/greek (the study counts G3198 and treats G871)."
+  left_for_author:
+    - "Philo 'divine Word' vs the section's own 'right reason' reading (see open_questions)."
+    - "11Q13 wording ('sons of Heaven', catena details) still rests on Johnson; verify against a published translation."
+    - "Philo and Josephus texts not on disk; paraphrases unverified against source in this repo."
+  size: "3,743 -> 3,820 words incl. frontmatter and references; under the 4,000 budget for counted prose."
+primary_sources_2026-09-28:
+  why: "Author asked that the study stop relying on Ken Johnson's transcript and translate the originals itself."
+  sources:
+    - work: "11Q13 col. II, Hebrew"
+      where: "https://www.marquette.edu/maqom/11QMelchizedek.pdf -- scan of Garcia Martinez & Tigchelaar, DSS Study Edition vol. 2 (Brill 1998) pp. 1206-1209, reproducing DJD 23 (1998) 221-241"
+      licence: "copyrighted edition (Brill/OUP); the scan carries a Title 17 notice. Treated as quotation-only: short phrases with attribution, translations ours. No openly licensed transcription found (bible-text.db dss-* works are biblical scrolls only; nothing on $BIBLE_MEDIA_ROOT; web search found none)."
+      not_on_disk: true
+    - work: "Philo, Leg. All. 3.79-82; De Fuga 108-118 (also searched all tlg0018.tlg001-031 for Melchizedek: only Leg. All. 3.79, 3.82 and De Congressu 99)"
+      where: "https://github.com/OpenGreekAndLatin/First1KGreek data/tlg0018/tlg002, tlg017 (Cohn-Wendland)"
+      licence: "CC BY-SA 4.0"
+    - work: "Josephus, Ant. 1.180 (=1.10.2); BJ 6.438 (=6.10.1)"
+      where: "https://github.com/PerseusDL/canonical-greekLit data/tlg0526/tlg001, tlg004 (Niese); Whiston English on $BIBLE_MEDIA_ROOT/biblefacts/other/Josephus_complete.pdf"
+      licence: "CC BY-SA 4.0 (Perseus); Whiston public domain"
+  # Raw-source checks, not replayable by evidence tooling (sources are off-disk or web-only):
+  findings_11q13:
+    - "II 2-3: Lev 25:13 and Deut 15:2 quoted; Deut 15:2 'shmwt kwl b`l msh yd 'sr ysh' survives."
+    - "II 4: 'pshrw l'hryt hymym `l hshbwyym' -- 'its interpretation, for the last days, concerns the captives' (Isa 61:1's word). pshrw itself restored."
+    - "II 5: 'wmnhlt mlky sdq' -- 'from the inheritance of Melchizedek'; no 'sons of Heaven' in the surviving letters. Johnson's 'the sons of Heaven and the lot of Melchizedek' is not DJD's text."
+    - "II 6: 'ysybmh 'lyhmh wqr' lhmh drwr l`zwb lhmh [ms'] kwl `wwnwtyhmh' -- 'will bring them back to it and proclaim liberty to them, to release them [from the debt] of all their iniquities'. 'debt' restored."
+    - "II 7: 'bshbw` hywbl hr'yshwn 'hr tsh[`t h]ywblym' -- first week of the jubilee after the ni[ne] jubilees; only tav-shin of 'nine' survive."
+    - "II 7-8: 'wy[wm hkp]wrym ... s[wp] h`syry lkpr bw `l kwl bny [`wr w]'nsy gwrl ml[ky] sdq' -- Day of Atonement partly restored; 'tenth' survives; 'sons of [light]' restored; 'men of the lot of Melchizedek' survives."
+    - "II 9: 'lsnt hrswn lmlky sdq' -- Isa 61:2's 'year of favour' with Melchizedek for YHWH; survives whole."
+    - "II 10: 'k'sr ktwb `lyw bsyry dwyd ... 'lwhym [n]sb b`[dt 'l] bqwrb 'lwhym yspwt' -- Ps 82:1 applied 'concerning him' (Melchizedek). Survives except bracketed letters."
+    - "II 10-11: Ps 7:8-9 (MT numbering; English 7:7-8) with 'l for MT yhwh (checked morphhb-wlc Ps 7:9). II 11: Ps 82:2. II 12: 'pshrw `l bly`l w`l rwhy gwrlw'. II 13: 'wmlky sdq yqwm nqm mspty '[l]'."
+    - "II 15-16: Isa 52:7 largely survives. II 18: 'whmbsr hw['h msyh hrw]h k'sr 'mr dn[y'l ...]' -- 'anointed of the spirit' mostly restored, the Daniel 9:25 quotation wholly restored. II 24-25: 'your God' explained; Melchizedek's name there restored."
+  findings_philo: >
+    Leg. 3.79 king of peace and 'his own priest'; 3.80 'houtos de estin ho orthos logos' (right
+    reason) against 'ho tyrannos nous'; 3.82 'hiereus gar esti logos kleron echon ton onta'. De Fuga
+    108 'ton archierea ouk anthropon alla logon theion einai' -- about the Levitical high priest of
+    Lev 21; Melchizedek not named in De Fuga. Philo never identifies Melchizedek with the divine
+    Logos in so many words; Key Takeaways and 'reaching for' narrowed accordingly and De Fuga 108 cited.
+  findings_josephus: >
+    Ant. 1.180: king of Solyma (not Salem), 'semainei de touto basileus dikaios ... hierea genesthai
+    tou theou; ten mentoi Solyma hysteron ekalesen Hierosolyma'. BJ 6.438: 'Chananaion dynastes ho
+    te patrioi glossei klētheis basileus dikaios ... hierasato te toi theoi protos kai to hieron
+    protos deimamenos' -- the name Melchizedek is absent from the Greek; Whiston supplies it in brackets.
+  study_changes:
+    - "Qumran section rewritten on the DJD Hebrew, own translations with editors' brackets kept; 'sons of Heaven' removed; II 9 Melchizedek-for-YHWH substitution added; Ps 82:1 'concerning him' and Ps 7 El-for-YHWH added; Daniel 9:25 now marked as a restoration; 'Melchizedek makes atonement' softened to 'whose day brings atonement'."
+    - "Philo section rewritten from the Greek; De Fuga 108 added; Key Takeaways and Hebrews bullet narrowed."
+    - "Josephus section rewritten from the Greek; section numbers now Niese (Ant. 1.180, BJ 6.438) with Whiston's; Solyma; name absent in BJ noted."
+    - "References rewritten with editions, URLs and licences; footnote 11q13 now cites DJD 23; Isaiah 61:1-2 in bible_references."
+  still_unverified: "11Q13's date ('roughly the mid-first century BC') -- not stated on the pages consulted."
+  author_decisions_2026-09-28:
+    - "Quoting short phrases (with attribution) from the copyrighted DJD 23 / Study Edition text of 11Q13: approved by the author."
+    - "11Q13's date as 'roughly the mid-first century BC': author accepts it as written."
+last_updated: "2026-09-28"

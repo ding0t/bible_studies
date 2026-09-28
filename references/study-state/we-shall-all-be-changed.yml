@@ -1,0 +1,168 @@
+slug: we-shall-all-be-changed
+title: "We Shall All Be Changed"
+status: published # 2026-09-28, author approved
+target_path: docs/content/last-things/we-shall-all-be-changed.md
+origin: >
+  Backlog item "We will all be changed, raised imperishable" (docs/content/about/backlog.md),
+  started 2026-09-28. Asks: the new body promised to believers; link to the last-things studies;
+  check the tie-in with backlog 5.6 (white robes); use/link 4.2 (at-home-with-the-lord.md), which
+  should in turn point here once this is published.
+
+primary_passage: "1 Corinthians 15:35-58"
+supporting_passages: ["1 Corinthians 15:12", "1 Corinthians 15:20-26", "Genesis 2:7", "Isaiah 25:8", "Isaiah 26:19", "Hosea 13:14", "Philippians 3:20-21", "Romans 8:11", "Romans 8:23", "Romans 8:29", "1 John 3:2", "1 Thessalonians 4:16-17", "2 Corinthians 5:1-4", "Luke 24:36-43", "John 20:19-27", "1 Timothy 6:16", "Hebrews 1:12", "Revelation 6:11"]
+genre: [epistle]
+
+thesis: >-
+  At the last trumpet God raises the body that was buried and changes it, and changes the living
+  with it, into a body like the risen Jesus' own -- imperishable, glorious, strong and filled with
+  the Holy Spirit -- so that death, swallowed up, never touches you again.
+outline:
+  - {section: "The question Corinth asked", says: "Greek disdain for bodily resurrection vs Jewish hope; 15:35's two questions set the plan of 15:36-58."}
+  - {section: "The seed: the same body, changed", says: "Continuity -- the body raised is the body sown ('this' x2 in 15:53); Jesus' touchable, wounded, yet changed body (Luke 24, John 20)."}
+  - {section: "Four contrasts", says: "15:42-44 table; phthora/aphtharsia; psychikos/pneumatikos describe what animates the body, not its substance (1 Cor 2:14-15, Rom 8:11)."}
+  - {section: "Two Adams", says: "Gen 2:7 quoted from the LXX; last Adam gives life; symmorphos (Rom 8:29, Phil 3:21) -- glorification completes the image."}
+  - {section: "The mystery: changed in a moment", says: "The living changed with the dead; allasso, atomos, rhipe; last trumpet = 1 Thess 4 (rapture, contested timing marked); endyo + athanasia (God alone has it, 1 Tim 6:16); 2 Cor 5:4 link; white robes distinct."}
+  - {section: "Death swallowed up", says: "Isa 25:8 (lanetsach vs eis nikos), Hos 13:14 (LXX dike vs nikos); sting is sin -- atonement named; victory given."}
+  - {section: "Therefore", says: "15:58 -- labour in the body is not in vain; hope at the graveside."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "last-things/ beside at-home-with-the-lord.md; slug from ESV 'we shall all be changed'."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Ephesus, spring AD 53-55 (ESV SB intro; 1 Cor 16:8). Resurrection denied by some (15:12),
+        likely raised in their letter (7:1; ESV SB note on 15:1-58). Greco-Roman ridicule of bodily
+        afterlife (ESV SB); Jewish hope = restored body (CBSB on Phil 3:21; Dan 12:2; Job 19:26).
+    literary_context:
+      done: true
+      notes: "15:1-34 that; 15:35-58 how. 36-41 how raised; 42-49 what kind; 50-57 when/victory; 58 therefore."
+    content_word_studies:
+      done: true
+      terms:
+        - {word: "σπείρω", language: greek, transliteration: speirō, strongs_id: G4687, gloss: "sow", notes: "4x in 15:42-44"}
+        - {word: "φθορά / ἀφθαρσία", language: greek, transliteration: "phthora / aphtharsia", strongs_id: "G5356 / G861", gloss: "decay / incorruption", notes: "aphtharsia 7x NT, 4 in 1 Cor 15"}
+        - {word: "ψυχικός / πνευματικός", language: greek, transliteration: "psychikos / pneumatikos", strongs_id: "G5591 / G4152", gloss: "natural / spiritual", notes: "psychikos 6x NT incl. 1 Cor 2:14; ESV SB: body animated by the Holy Spirit"}
+        - {word: "σύμμορφος", language: greek, transliteration: symmorphos, strongs_id: G4832, gloss: "conformed", notes: "2x NT: Rom 8:29, Phil 3:21"}
+        - {word: "ἀλλάσσω", language: greek, transliteration: allassō, strongs_id: G236, gloss: "change", notes: "6x NT; of believers only 1 Cor 15:51-52; Heb 1:12 of heavens like a garment"}
+        - {word: "ἄτομος / ῥιπή", language: greek, transliteration: "atomos / rhipē", strongs_id: "G823 / G4493", gloss: "instant / twinkling", notes: "each once in SBLGNT, 1 Cor 15:52"}
+        - {word: "ἐνδύω", language: greek, transliteration: endyō, strongs_id: G1746, gloss: "put on (clothing)", notes: "4x in 1 Cor 15:53-54"}
+        - {word: "ἀθανασία", language: greek, transliteration: athanasia, strongs_id: G110, gloss: "immortality", notes: "3x NT: 1 Cor 15:53, 54; 1 Tim 6:16"}
+        - {word: "לָנֶצַח", language: hebrew, transliteration: lanetsach, strongs_id: H5331, gloss: "forever", notes: "Isa 25:8 MT; Paul eis nikos; LXX makes death the subject (katapinō, thanatos, ischyō)"}
+        - {word: "δίκη", language: greek, transliteration: dikē, strongs_id: G1349, gloss: "punishment", notes: "LXX Hos 13:14 where Paul has nikos (CBSB on 15:55)"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Corinthian Greek objection is local; the promise is Paul's universal 'we' (15:51)."
+    theological_principle:
+      done: true
+      notes: "Glorification of the body: same body, changed, conformed to the risen Christ, by the Spirit, at His coming."
+    application_draft:
+      done: true
+      notes: "15:58 is Paul's own application; graveside hope; weakness belongs to the body sown."
+    statement_of_faith:
+      done: true
+      notes: "Consistent with 'A body like His' (statement-of-faith.md) and its End times pretrib position; no conflict."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "1 Thessalonians 4:16-17", relation: "same event, trumpet, dead raised and living caught up"}
+      - {ref: "Philippians 3:21", relation: "same promise, Christ's glorious body the model"}
+      - {ref: "2 Corinthians 5:4", relation: "same clothing picture; at-home-with-the-lord.md"}
+    translations_compared: ["ESV", "LSB", "WEB", "ULT"]
+    divergences_noted: "LSB footnotes 15:42 'Lit in corruption / in incorruption'. 15:49 variant 'let us bear' (LSB, NLT footnotes) not used in the draft."
+    sibling_check: >
+      cross_study_claims.py "1 Corinthians 15": rapture.md, trumpet.md, taken-before-judgment.md,
+      immediately-after.md all read 15:51-53 as the rapture; trumpet.md separates the trumpet texts.
+      heaven-and-earth-will-pass-away.md uses allassō the same way. No contradiction found.
+  drafting:
+    done: true
+    file: docs/content/last-things/we-shall-all-be-changed.md
+    notes: >
+      Drafted 2026-09-28 without the thesis/outline stop (author asked for the study to be developed
+      in the same request). Not yet read-bible-study'd or reviewed.
+  review:
+    done: true
+    validated: true
+    notes: "review-bible-study pass 2026-09-28; see review_2026-09-28. npm run validate clean for this file except the provenance warning (ai_provider_models: [] until refresh_frontmatter_provenance.py runs)."
+
+job_addition_2026-09-28: >
+  Author asked for Job parallels. Added "### Job asked first" under Death swallowed up: Job 14:14
+  chalipah (clothing-change noun; verb chalaph = Ps 102:26, LXX allasso), Job 19:25-27 goel (19:26
+  marked contested; LXX anastesai), Job 33:24-28 padah/kopher (LXX diaphthora), LXX Job 42:17
+  addition as historical witness (Brenton Greek, our translation).
+open_questions:
+  - >
+    at-home-with-the-lord.md "The body, still owed" should link here -- deferred until this page is
+    published, since a published page linking a draft fails mkdocs build --strict.
+  - >
+    Backlog 5.6 (white robes): Revelation 6:11's robes are given to souls not yet raised, so they are
+    not the resurrection body. The study says so in one paragraph and leaves the robes' meaning to 5.6.
+  - "15:49 textual variant (phoresomen vs phoresōmen, 'we shall' vs 'let us') -- now disclosed in one sentence (review 2026-09-28); not argued further."
+  - "Fork candidate: the resurrection of the unjust (Dan 12:2; John 5:29) -- out of scope."
+
+evidence:
+  - {id: job-14-14-esv, what: "Job 14:14 renewal", tool: study_verse, args: {book: Job, chapter: 14, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "till my renewal should come", checked: 2026-09-28}
+  - {id: job-19-25-esv, what: "Job 19:25 my Redeemer lives", tool: study_verse, args: {book: Job, chapter: 19, verse: 25, work_id: esv-study-bible}, path: "0.text", expect_contains: "I know that my Redeemer lives", checked: 2026-09-28}
+  - {id: job-33-28-esv, what: "Job 33:28 redeemed from the pit", tool: study_verse, args: {book: Job, chapter: 33, verse: 28, work_id: esv-study-bible}, path: "0.text", expect_contains: "He has redeemed my soul from going down into the pit", checked: 2026-09-28}
+  - {id: ps-102-26-esv, what: "Ps 102:26 change them like a robe", tool: study_verse, args: {book: Ps, chapter: 102, verse: 26, work_id: esv-study-bible}, path: "0.text", expect_contains: "You will change them like a robe", checked: 2026-09-28}
+  - {id: chalipah-count, what: "chalipah 12x in WLC (8 of them changes of clothing)", tool: bible_concordance, args: {strongs: H2487, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "12", checked: 2026-09-28}
+  - {id: c15-51-esv, what: "memory verse 15:51", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 51, work_id: esv-study-bible}, path: "0.text", expect_contains: "We shall not all sleep, but we shall all be changed", checked: 2026-09-28}
+  - {id: c15-52-esv, what: "15:52 dead raised imperishable", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 52, work_id: esv-study-bible}, path: "0.text", expect_contains: "the dead will be raised imperishable, and we shall be changed", checked: 2026-09-28}
+  - {id: c15-53-esv, what: "15:53 this perishable body", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 53, work_id: esv-study-bible}, path: "0.text", expect_contains: "this perishable body must put on the imperishable", checked: 2026-09-28}
+  - {id: c15-44-esv, what: "15:44 spiritual body", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 44, work_id: esv-study-bible}, path: "0.text", expect_contains: "It is sown a natural body; it is raised a spiritual body.", checked: 2026-09-28}
+  - {id: phil-3-21-esv, what: "memory verse Phil 3:21", tool: study_verse, args: {book: Phil, chapter: 3, verse: 21, work_id: esv-study-bible}, path: "0.text", expect_contains: "transform our lowly body to be like his glorious body", checked: 2026-09-28}
+  - {id: lk-24-39-esv, what: "Luke 24:39 flesh and bones", tool: study_verse, args: {book: Luke, chapter: 24, verse: 39, work_id: esv-study-bible}, path: "0.text", expect_contains: "a spirit does not have flesh and bones as you see that I have", checked: 2026-09-28}
+  - {id: 1tim-6-16-esv, what: "God alone has immortality", tool: study_verse, args: {book: 1Tim, chapter: 6, verse: 16, work_id: esv-study-bible}, path: "0.text", expect_contains: "who alone has immortality", checked: 2026-09-28}
+  - {id: isa-26-19-esv, what: "Isa 26:19 their bodies shall rise", tool: study_verse, args: {book: Isa, chapter: 26, verse: 19, work_id: esv-study-bible}, path: "0.text", expect_contains: "Your dead shall live; their bodies shall rise.", checked: 2026-09-28}
+  - {id: atomos-count, what: "atomos once in NT", tool: bible_concordance, args: {strongs: G823, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "1", checked: 2026-09-28}
+  - {id: rhipe-count, what: "rhipe once in NT", tool: bible_concordance, args: {strongs: G4493, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "1", checked: 2026-09-28}
+  - {id: athanasia-count, what: "athanasia 3x in NT", tool: bible_concordance, args: {strongs: G110, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "3", checked: 2026-09-28}
+  - {id: symmorphos-count, what: "symmorphos 2x in NT", tool: bible_concordance, args: {strongs: G4832, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "2", checked: 2026-09-28}
+  - {id: allasso-count, what: "allasso 6x in NT (of believers changed only 1 Cor 15:51-52)", tool: bible_concordance, args: {strongs: G236, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "6", checked: 2026-09-28}
+  - {id: rom-5-14-esv, what: "Adam a type of the one to come", tool: study_verse, args: {book: Rom, chapter: 5, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "who was a type of the one who was to come", checked: 2026-09-28}
+  - {id: hos-13-14-esv, what: "Hos 13:14 ESV ransom/plagues/compassion hidden", tool: study_verse, args: {book: Hos, chapter: 13, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "O Death, where are your plagues? O Sheol, where is your sting? Compassion is hidden from my eyes.", checked: 2026-09-28}
+  - {id: hos-13-14-nasb, what: "Hos 13:14 NASB reads the ransom lines as questions", tool: study_verse, args: {book: Hos, chapter: 13, verse: 14, work_id: nasb-1995}, path: "0.text", expect_contains: "Shall I ransom them from the power of Sheol?", checked: 2026-09-28}
+  - {id: isa-25-8-esv, what: "Isa 25:8 swallow up death forever", tool: study_verse, args: {book: Isa, chapter: 25, verse: 8, work_id: esv-study-bible}, path: "0.text", expect_contains: "He will swallow up death forever", checked: 2026-09-28}
+  - {id: gen-2-7-lxx, what: "LXX Gen 2:7 eis psychen zosan (Paul adds protos, Adam)", tool: bible_verse, args: {book: Gen, chapter: 2, verse: 7, translation: ebible-grcbrent}, expect_contains: "ἐγένετο ὁ ἄνθρωπος εἰς ψυχὴν ζῶσαν", checked: 2026-09-28}
+  - {id: isa-25-8-lxx, what: "LXX Isa 25:8 death the one that swallows", tool: bible_verse, args: {book: Isa, chapter: 25, verse: 8, translation: ebible-grcbrent}, expect_contains: "Κατέπιεν ὁ θάνατος ἰσχύσας", checked: 2026-09-28}
+  - {id: hos-13-14-lxx, what: "LXX Hos 13:14 dike where Paul has nikos", tool: bible_verse, args: {book: Hos, chapter: 13, verse: 14, translation: ebible-grcbrent}, expect_contains: "ποῦ ἡ δίκη σου θάνατε", checked: 2026-09-28}
+  - {id: c15-54-passive, what: "Paul's katepothe (passive) eis nikos", tool: bible_verse, args: {book: 1Cor, chapter: 15, verse: 54, translation: sblgnt}, expect_contains: "Κατεπόθη ὁ θάνατος εἰς νῖκος", checked: 2026-09-28}
+  - {id: esvsb-44-47, what: "ESV SB: spiritual body = animated by the Holy Spirit", tool: study_note, args: {book: 1Cor, chapter: 15, verse: 44, work_id: esv-study-bible}, expect_contains: "does not mean an immaterial body but a body animated and empowered by the Holy Spirit", checked: 2026-09-28}
+  - {id: btsb-phil-3-21, what: "BTSB: glorious body not limited by being material", tool: study_note, args: {book: Phil, chapter: 3, verse: 21, work_id: niv-biblical-theology-study-bible}, expect_contains: "not limited by being material", checked: 2026-09-28}
+  - {id: cbsb-phil-3-21, what: "CBSB: resurrection by definition restoration of the body", tool: study_note, args: {book: Phil, chapter: 3, verse: 21, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "by definition meant the restoration of the body", checked: 2026-09-28}
+
+review_2026-09-28:
+  reviewer: "review-bible-study skill (separate agent from the drafter)"
+  checked:
+    - "Phase 1: every ESV quotation re-queried with study_verse (1 Cor 15:3, 12, 20-26, 35-58; 1 Cor 2:14-15; Gen 2:7; Isa 25:6-8; 26:19; Hos 13:14; Dan 12:2-3; Job 19:26; Luke 24:16, 39-43; John 20:19, 27; Rom 5:14; 8:11, 29; Phil 3:21; 1 John 3:2; 1 Thess 4:16-17; 1 Tim 6:16; 2 Cor 5:4; Heb 1:12; Rev 6:11). All verbatim."
+    - "Phase 2/3: counts re-run on macula-greek-sblgnt (speiro 4x in 15:42-44; aphtharsia 7; psychikos 6; symmorphos 2; allasso 6; atomos 1; rhipe 1; endyo 4x in 15:53-54; athanasia 3). LXX Gen 2:7, Isa 25:8, Hos 13:14 (ebible-grcbrent + lxx-lemmas); MT Isa 25:8, Hos 13:14 (macula-hebrew-wlc)."
+    - "Commentary: every ESV SB, NIV CBSB and NIV BTSB attribution checked against study_note; each within a sentence or two."
+    - "Siblings: cross_study_claims.py '1 Corinthians 15' -- rapture.md, trumpet.md, at-home-with-the-lord.md, heaven-and-earth-will-pass-away.md, immediately-after.md, taken-before-judgment.md consistent. Link anchors to rapture.md, trumpet.md, at-home-with-the-lord.md resolve."
+    - "Statement of faith: consistent with 'A body like His' and End times (pretrib stated as this site's reading, contest marked)."
+    - "Phase 5 independent check: BTSB notes on 15:44 and 15:49 (not the notes the study cites) confirm 'spiritual body' = Spirit-created, physical body."
+  fixed:
+    - "Synthetic claim: 'differs from the Hebrew at one word' was false -- Paul's verb is also passive (katepothe); rewritten, and LXX sentence clarified (death is the one that swallows)."
+    - "allasso 'used of believers only in 1 Cor 15:51-52' -- Gal 4:20 has Paul as subject; narrowed to 'of believers being changed', count (6) stated; Heb 1:12 noted as quoting Ps 102:26."
+    - "touto Strong's G3778 -> G5124 (the id the data and pop-up match on)."
+    - "CBSB paraphrases tightened: 'later Greek version' (CBSB says 'one Greek version ... not the Septuagint'); 'flesh and blood' = expression for mere humans, applied by Paul to mortal humanity. BTSB Phil 3:21 now quoted ('not limited by being material')."
+    - "Context gap: Hos 13:14 promise-or-threat reading undisclosed while ESV/NIV/CSB and NASB/LSB/NLT divide on it; one paragraph added marking it contested."
+    - "Undisclosed fork: 15:49 'let us bear' variant (LSB, NLT footnotes) under 'You will bear His image'; one sentence added."
+    - "Bare '15:35' named its book; '(ESV, emphasis added)' on italicised 15:53; John 20:19 grammar; cut 'and it reads well aloud'; Romans 5:14 added to the 'Adam, a type' takeaway."
+    - "Frontmatter: bible_references += Isaiah 26:19, 1 Corinthians 2:14-15, Romans 5:14."
+  left_for_author:
+    - "ai_provider_models: [] -- run utils/refresh_frontmatter_provenance.py before commit."
+    - "Word count 4,436 -> ~4,660 raw (Check 23 does not fire: References/outline excluded). Near budget; simplify-bible-study if it grows."
+    - "Human-judgment tells (essay register in Key Takeaways/prayer) not assessed by the reviewer."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: Crossway, note: "Intro to 1 Cor; notes 15:1-58, 35-58, 42 (+chart), 43, 44-47, 50, 51-53. Contributed the 'spiritual = Spirit-animated' reading and the Greek ridicule background."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: Zondervan, note: "15:36 ('you fool' idiom), 15:37 (rabbinic neck bone), 42-44 (rhetorical repetition), 50 (flesh and blood idiom), 53-54 (Isa 25:8 context), 55 (Greek version with 'victory'; LXX dike). Phil 3:21. Contributed the quotation-form detail."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: Zondervan, note: "15:52 (trumpet texts incl. Matt 24:31, Rev 8-11), 15:53-56 (death sentence carried out at the cross), Phil 3:21 (Gospel evidence for the glorious body). Corrected my first framing of the timing question."}
+  - {type: other, title: "LSB footnotes", author: "Three Sixteen", note: "15:42 literal 'in corruption / in incorruption'."}
+  - {type: lexicon, title: "Macula Greek SBLGNT / Macula Hebrew WLC / LXX lemmas", author: "Clear Bible", note: "counts and lemmas above; LXX Gen 2:7 and Hos 13:14 lemmas."}
+last_updated: "2026-09-28"

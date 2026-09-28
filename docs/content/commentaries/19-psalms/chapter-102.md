@@ -14,4 +14,5 @@ draft: false
 
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 102:27
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 102:25-27
+- [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 102:26
 <!-- commentary-index:auto-end -->

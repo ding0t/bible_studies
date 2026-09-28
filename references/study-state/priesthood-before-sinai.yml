@@ -1,31 +1,33 @@
 slug: "priesthood-before-sinai"
-title: "Priesthood before Sinai: Adam, the Firstborn and the Levites"
-status: review
+title: "Before Aaron: Who Offered Sacrifice?"
+status: published # 2026-09-28, author approved
 target_path: "docs/content/jesus/priesthood-before-sinai.md"
 primary_passage: "Numbers 3:5-13"
 supporting_passages: ["Numbers 3:1-4", "Numbers 3:38-51", "Genesis 2:15", "Genesis 3:23-24", "Exodus 13:2", "Exodus 32:26-29", "Hebrews 5:4-5", "Hebrews 7:23-25", "Hebrews 12:23"]
 genre: [law, ot-narrative, epistle, topical]
 point: >
-  God has always appointed His own priests: the office passed from Adam in Eden to the household
-  heads of Genesis, then to Israel's firstborn and finally to Levi, reassigned by God after each
-  failure -- the pattern Hebrews says Jesus' permanent priesthood ends.
+  Before Sinai the heads of families offered sacrifice but Scripture calls none of them a priest;
+  God then appointed Aaron's sons and gave the Levites in place of the firstborn, because priesthood
+  is always His appointment (Heb 5:4) -- and He appointed His Son Jesus, who holds it forever.
 
 thesis: >
-  God has always chosen who serves Him as priest -- the household heads of Genesis, then Israel's
-  firstborn, then the Levites in their place, and on a contested reading Adam before them all -- and
-  every holder failed or died, until God appointed His Son Jesus, who "holds his priesthood
+  Before Sinai the heads of families offered sacrifice for their households, yet Scripture calls none
+  of them a priest; the title belongs to outsiders such as Melchizedek until God appoints Aaron's sons
+  and gives the Levites to serve them in place of Israel's firstborn, because priesthood is always
+  God's appointment (Hebrews 5:4), and He appointed His Son Jesus, who "holds his priesthood
   permanently, because he continues forever" (Hebrews 7:24, ESV).
 outline:
-  - {section: "Opening + Numbers 3:12-13 quote", says: "'Instead of' means the office already had holders; Numbers 3 is one handover among several"}
-  - {section: "Key Takeaways", says: "Jesus appointed, Jesus the last holder, Jesus makes His people priests; Heb 7:24-25 and 5:4; Think/Attitude/Do; prayer"}
-  - {section: "Study outline", says: "added because the body passed 2,500 words with 6+ sections"}
-  - {section: "Numbers 3 in its setting", says: "Sinai, year two; Nadab and Abihu die (3:4); Levite duties (3:5-10); 22,273 firstborn vs 22,000 Levites, 273 redeemed at five shekels; this shows God decides who draws near"}
-  - {section: "Adam in the garden: a contested reading", says: "case for (avad/shamar pair, cherubim guard, tabernacle's east side guarded by shomerim, three study Bibles); case against (no kohen before Gen 14:18, avad + 'the ground' in 2:5 and 3:23); study holds it as a reading and builds nothing on it alone"}
-  - {section: "Household priests: Noah and the patriarchs", says: "priesthood belongs to headship in Genesis (moved text)"}
-  - {section: "From the firstborn to the Levites", says: "firstborn claimed (Exod 13:2), kingdom of priests (Exod 19:6), golden calf, tachat 'instead of' (Num 3:12; 8:16), Aaron's line (moved text + additions)"}
-  - {section: "What the line sets up for Hebrews", says: "God appoints (Heb 5:4-5); every holder is replaced (Heb 7:11, 23-24); Melchizedek stands outside the line (moved text, tightened)"}
-  - {section: "The priest who continues forever", says: "this shows God keeps the choice of who comes near and answers sin and death in His Son; Heb 7:25; assembly of the firstborn (Heb 12:23); Rev 1:6; lands in second person"}
-  - {section: "Discussion Questions", says: "five: language, context, the hard part (earned vs taken), Christ, transformed"}
+  - {section: "Opening + Numbers 3:12-13 quote", says: "'Instead of' raises the question: who offered sacrifice before Aaron, and was any of them a priest?"}
+  - {section: "Key Takeaways", says: "Jesus appointed, Jesus the last holder, Jesus makes His people priests (Rev 1:6; 1 Pet 2:9)"}
+  - {section: "Study outline", says: "descriptive annotations"}
+  - {section: "Numbers 3 in its setting", says: "Nadab and Abihu; Levites given to Aaron, priesthood Aaron's sons alone (3:9-10; 18:7); 22,273 vs 22,000; 'mine' three times"}
+  - {section: "Before Sinai: fathers at the altar", says: "Noah, Abraham (22:13), Isaac, Jacob (31:54; 46:1), Job offer; kohen x7 in Genesis all outsiders; Jethro"}
+  - {section: "At Sinai: priests before Aaron?", says: "Exod 19:22-24, 24:5 read two ways (NIVBTSB, ESVSB); Exod 19:6 with 1 Pet 2:5, 9"}
+  - {section: "From the firstborn to the Levites", says: "Exod 13:2 claim; golden calf; tachat; Aaron named before the calf"}
+  - {section: "What later tradition added", says: "firstborn (m. Zevachim 14:4), Adam (typology of Gen 2:15, Jubilees 3:27), Enoch (Jubilees 4:25 vs Gen 5:24, Heb 11:5, Jude 14), Melchizedek=Shem (Tg Ps-J, b. Ned 32b, Gen Rab 56:10)"}
+  - {section: "What this sets up for Hebrews", says: "God appoints; every holder dies; Melchizedek the one priest of God Most High in Genesis"}
+  - {section: "The priest who continues forever", says: "Heb 7:25; assembly of the firstborn; Rev 1:6; second person"}
+  - {section: "Discussion Questions", says: "five: silence of kohen, Nadab/Abihu, instead-of exchange, earned vs taken, prayer as royal priesthood"}
 word_budget: 4000
 word_budget_reason: ""
 
@@ -110,7 +112,7 @@ stages:
       makes", "reaches for him rather than for this history"); Eden paragraphs relabelled as a
       contested reading. Body ~2,730 words (whole file after frontmatter).
   review:
-    done: false
+    done: true
     validated: true
     notes: >
       npm run validate: no errors; only the three provenance warnings (fields omitted per brief).
@@ -118,7 +120,7 @@ stages:
       review-bible-study pass before draft: false.
 
 open_questions:
-  - "The Eden-as-sanctuary / Adam-as-priest reading is marked contested and given both sides. Beale's The Temple and the Church's Mission (standard academic source for it) is still not available locally -- see melchizedek-priesthood.yml. The case against is argued from the text (Gen 2:5; 3:23; first kohen at 14:18), not from a named scholar; a named opposing commentator would strengthen it."
+  - "(Resolved by 2026-09-28 reframe: Adam now in the tradition section.) The Eden-as-sanctuary / Adam-as-priest reading is marked contested and given both sides. Beale's The Temple and the Church's Mission (standard academic source for it) is still not available locally -- see melchizedek-priesthood.yml. The case against is argued from the text (Gen 2:5; 3:23; first kohen at 14:18), not from a named scholar; a named opposing commentator would strengthen it."
   - "Numbers 3:38's shomerim on the east side is offered as a parallel to the cherubim at Eden's east (Gen 3:24). The directional parallel is this study's observation, not drawn from a commentary -- author should judge whether it stays."
   - "Hebrews 12:23's 'assembly of the firstborn' is read with the ESVSB as Jesus' followers; NIV CBSB notes it may be God's people as a whole (Exod 4:22). The study does not pursue the Israel/church question there; consistent with statement-of-faith, but flag if the author wants the dispensational distinction stated."
   - "Rabbinic Melchizedek = Shem identification carried over from parent without a primary citation (e.g. b. Nedarim 32b); a citation would help."
@@ -161,5 +163,94 @@ evidence:
   - {id: rev1-6-esv, what: "ESV Rev 1:6", tool: study_verse, args: {book: Rev, chapter: 1, verse: 6, work_id: esv-study-bible}, expect_contains: "made us a kingdom, priests to his God and Father", checked: 2026-09-27}
   - {id: gen2-15-nivcbsb, what: "NIV CBSB Gen 2:15 priestly terms", tool: study_note, args: {book: Gen, chapter: 2, verse: 15, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "priestly terms are used", checked: 2026-09-27}
   - {id: num3-5-esvsb, what: "ESVSB Num 3:5-10 two duties", tool: study_note, args: {book: Num, chapter: 3, verse: 5, work_id: esv-study-bible}, expect_contains: "guarding the tabernacle from intruders", checked: 2026-09-27}
+  - {id: num3-11-esvsb, what: "ESVSB Num 3:11-13 firstborn should have served; golden-calf background", tool: study_note, args: {book: Num, chapter: 3, verse: 12, work_id: esv-study-bible}, expect_contains: "the boys should have served God in the sanctuary", checked: 2026-09-28}
+  - {id: gen2-15-esvsb, what: "ESVSB Gen 2:15-16 priest/guardian quote", tool: study_note, args: {book: Gen, chapter: 2, verse: 15, work_id: esv-study-bible}, expect_contains: "As a priest, he is to maintain the sanctity of the garden as part of a temple complex", checked: 2026-09-28}
+  - {id: gen2-15-nivbtsb, what: "NIVBTSB Gen 2:15 guarding given to cherubim", tool: study_note, args: {book: Gen, chapter: 2, verse: 15, work_id: niv-biblical-theology-study-bible}, expect_contains: "the task of guarding the garden is given to cherubim", checked: 2026-09-28}
+  - {id: gen3-24-shamar, what: "shamar for the cherubim's guarding", tool: bible_interlinear, args: {book: Gen, chapter: 3, verse: 24}, expect_contains: "H8104", checked: 2026-09-28}
+  - {id: num18-7-avad, what: "avad with shamar in Num 18:7", tool: bible_interlinear, args: {book: Num, chapter: 18, verse: 7}, expect_contains: "H5647", checked: 2026-09-28}
+  - {id: gen22-13-esv, what: "Abraham offers the ram", tool: study_verse, args: {book: Gen, chapter: 22, verse: 13, work_id: esv-study-bible}, expect_contains: "offered it up as a burnt offering instead of his son", checked: 2026-09-28}
+  - {id: gen31-54-esv, what: "Jacob offered a sacrifice", tool: study_verse, args: {book: Gen, chapter: 31, verse: 54, work_id: esv-study-bible}, expect_contains: "Jacob offered a sacrifice in the hill country and called his kinsmen to eat bread", checked: 2026-09-28}
+  - {id: gen46-1-esv, what: "Jacob offered sacrifices", tool: study_verse, args: {book: Gen, chapter: 46, verse: 1, work_id: esv-study-bible}, expect_contains: "offered sacrifices to the God of his father Isaac", checked: 2026-09-28}
+  - {id: gen8-20-esv, what: "Noah's burnt offerings", tool: study_verse, args: {book: Gen, chapter: 8, verse: 20, work_id: esv-study-bible}, expect_contains: "offered burnt offerings on the altar", checked: 2026-09-28}
+  - {id: job1-5-esv, what: "Job offers for his children", tool: study_verse, args: {book: Job, chapter: 1, verse: 5, work_id: esv-study-bible}, expect_contains: "offer burnt offerings according to the number of them all", checked: 2026-09-28}
+  - {id: job1-1-esv, what: "Job of Uz", tool: study_verse, args: {book: Job, chapter: 1, verse: 1, work_id: esv-study-bible}, expect_contains: "a man in the land of Uz", checked: 2026-09-28}
+  - {id: gen41-45-esv, what: "Potiphera priest of On", tool: study_verse, args: {book: Gen, chapter: 41, verse: 45, work_id: esv-study-bible}, expect_contains: "Potiphera priest of On", checked: 2026-09-28}
+  - {id: gen14-18-esv, what: "Melchizedek priest of God Most High", tool: study_verse, args: {book: Gen, chapter: 14, verse: 18, work_id: esv-study-bible}, expect_contains: "priest of God Most High", checked: 2026-09-28}
+  - {id: exo18-12-esv, what: "Jethro offers", tool: study_verse, args: {book: Exod, chapter: 18, verse: 12, work_id: esv-study-bible}, expect_contains: "brought a burnt offering and sacrifices to God", checked: 2026-09-28}
+  - {id: kohen-exodus, what: "kohen in Exodus (macula): 11 tokens; before ch. 28 only 2:16, 3:1, 18:1 (Jethro), 19:6, 19:22, 19:24", tool: bible_concordance, args: {strongs: H3548, book: Exod, work_id: macula-hebrew-wlc}, expect_count: 11, checked: 2026-09-28}
+  - {id: exo19-22-esv, what: "priests at Sinai", tool: study_verse, args: {book: Exod, chapter: 19, verse: 22, work_id: esv-study-bible}, expect_contains: "let the priests who come near to the LORD consecrate themselves", checked: 2026-09-28}
+  - {id: exo19-24-esv, what: "priests and people", tool: study_verse, args: {book: Exod, chapter: 19, verse: 24, work_id: esv-study-bible}, expect_contains: "do not let the priests and the people break through", checked: 2026-09-28}
+  - {id: exo24-5-esv, what: "young men offered", tool: study_verse, args: {book: Exod, chapter: 24, verse: 5, work_id: esv-study-bible}, expect_contains: "young men of the people of Israel, who offered burnt offerings and sacrificed peace offerings", checked: 2026-09-28}
+  - {id: exo19-22-nivbtsb, what: "NIVBTSB 'arguably' / 'more likely'", tool: study_note, args: {book: Exod, chapter: 19, verse: 22, work_id: niv-biblical-theology-study-bible}, expect_contains: "more likely anticipates the subsequent role of Aaron and his sons", checked: 2026-09-28}
+  - {id: exo19-22-esvsb, what: "ESVSB 19:22-24 open", tool: study_note, args: {book: Exod, chapter: 19, verse: 22, work_id: esv-study-bible}, expect_contains: "If Aaron’s sons are being referred to here", checked: 2026-09-28}
+  - {id: gen3-24-esv, what: "cherubim to guard the way", tool: study_verse, args: {book: Gen, chapter: 3, verse: 24, work_id: esv-study-bible}, expect_contains: "to guard the way to the tree of life", checked: 2026-09-28}
+  - {id: exo30-34-esv, what: "incense spices", tool: study_verse, args: {book: Exod, chapter: 30, verse: 34, work_id: esv-study-bible}, expect_contains: "stacte, and onycha, and galbanum", checked: 2026-09-28}
+  - {id: gen5-24-esv, what: "Enoch taken", tool: study_verse, args: {book: Gen, chapter: 5, verse: 24, work_id: esv-study-bible}, expect_contains: "Enoch walked with God, and he was not, for God took him", checked: 2026-09-28}
+  - {id: heb11-5-esv, what: "Enoch taken up", tool: study_verse, args: {book: Heb, chapter: 11, verse: 5, work_id: esv-study-bible}, expect_contains: "By faith Enoch was taken up so that he should not see death", checked: 2026-09-28}
+  - {id: jude14-esv, what: "Enoch prophesied", tool: study_verse, args: {book: Jude, chapter: 1, verse: 14, work_id: esv-study-bible}, expect_contains: "Enoch, the seventh from Adam, prophesied", checked: 2026-09-28}
+  - {id: 1pet2-5-esv, what: "holy priesthood", tool: study_verse, args: {book: 1Pet, chapter: 2, verse: 5, work_id: esv-study-bible}, expect_contains: "a holy priesthood, to offer spiritual sacrifices acceptable to God through Jesus Christ", checked: 2026-09-28}
+  - {id: 1pet2-9-esv, what: "royal priesthood", tool: study_verse, args: {book: 1Pet, chapter: 2, verse: 9, work_id: esv-study-bible}, expect_contains: "you are a chosen race, a royal priesthood, a holy nation", checked: 2026-09-28}
+  - {id: num3-9-esv, what: "Levites given to Aaron", tool: study_verse, args: {book: Num, chapter: 3, verse: 9, work_id: esv-study-bible}, expect_contains: "you shall give the Levites to Aaron and his sons", checked: 2026-09-28}
+  - {id: exo32-26-web, what: "WEB Exod 32:26 all the sons of Levi", tool: bible_verse, args: {book: Exod, chapter: 32, verse: 26}, expect_contains: "All the sons of Levi gathered themselves together to him", checked: 2026-09-28}
 
-last_updated: "2026-09-27"
+review_2026-09-28:
+  skill: review-bible-study (first review pass; file still draft)
+  checked: >
+    Phase 1: every ESV quotation re-queried in full via study_verse (Num 1:1; 3:4, 3:10, 3:12-13,
+    3:38, 3:46-47; Gen 2:5, 2:15, 3:23; Exod 19:6, 25:22, 26:31; Heb 5:4-5, 7:23-25, 12:23;
+    Rev 1:6) and WEB/ASV via bible_verse (Gen 8:20; Exod 13:2, 32:26, 32:29; Num 3:7-8 ASV,
+    8:16) -- all verbatim. Phase 2: all five commentary footnotes re-read at source; internal
+    links resolve; strongs_suggest run. Phase 3: avad/shamar/mishmeret/tachat located by
+    interlinear in Gen 2:15, 3:24, Num 3:7-8, 3:12, 3:38, 8:16, 18:7; kohen in Genesis = 7
+    tokens, first 14:18 (evidence replay). Footnotes on Num 3:5-13 read (CSB 3:7 "Or to guard";
+    CSB 3:9 MT/LXX "him"/"me" variant -- incidental, the study cites 8:16 not 3:9). Phase 5:
+    NLT Life Application (Num 3:5-13) and NIV CBSB (Num 3:12), not cited by the study, confirm
+    the firstborn-to-Levite substitution; NLT notes "not all Levites were priests" (see open
+    question). Phase 6: review_gaps, cross_study_claims "Numbers 3", sibling
+    melchizedek-priesthood.md, statement-of-faith (no intersection). Phase 7-8: tags, validate
+    (clean), style read.
+    All 36 evidence entries replay ok.
+  fixed:
+    - "ESVSB Num 3:11-13 misattributed: study had the firstborn serving 'in place of their Egyptian counterparts'; the note says they were spared when Egypt's firstborn died and 'should have served God in the sanctuary'. Reworded; the same note now also credited for the golden-calf link in Exod 32."
+    - "Num 3:46-51: 'God ... paid the remainder in silver' -> 'had the remainder redeemed in silver' (the money came from Israel's firstborn, 3:50)."
+    - "'He says so twice in two verses' -> 'mine' three times (li x3 in Num 3:12-13)."
+    - "'Genesis has no separate priestly class' contradicted Gen 14:18, 41:45, 47:22 -> limited to the line from Noah to Jacob."
+    - "'Abraham and Isaac do the same' (offer burnt offerings) -> build altars and call on the LORD's name (Gen 12:7-8; 26:25 record no offering)."
+    - "'That changes at Sinai' -> between the exodus and Sinai (Exod 13 precedes Sinai)."
+    - "Exodus 28:1 ordering: Aaron's appointment precedes the golden calf; prose no longer implies it came after the Levites."
+    - "Exod 32:26: 'only the sons of Levi' -> 'all the sons of Levi ... and no other tribe is named' (text's own wording)."
+    - "'two priests dead at the altar' -> 'before the LORD' (Num 3:4 says no altar)."
+    - "Melchizedek 'outside Noah's household' (all post-flood people descend from Noah, Gen 9:19) -> no genealogy tying him to Noah's household."
+    - "Unmarked Eden claims marked: description and closing 'from Eden to Aaron' -> from the patriarchs; 'God appoints' Adam line prefixed 'On the Eden reading'; state-file point likewise."
+    - "tachat given H8478; ~18 bare references (3:10, 7:23, 18:7 etc.) given their book names."
+  open_for_author:
+    - "Levites are not priests: Num 3:10 (quoted in the study) restricts priesthood to Aaron's sons and Num 18:3,7 bars Levites from the altar; NLT LASB says 'not all Levites were priests'. The thesis and title treat the Levites (and the firstborn) as holders of 'the priest' office. Consider 'serve at the sanctuary' language or an explicit sentence on the priest/Levite distinction -- touches the thesis, so not changed."
+    - "'Instead of means the office already had holders' and 'the firstborn son's birthright' of priestly service rest on the ESVSB/NLT inference, not on an explicit text; consider marking as the reading of those notes."
+    - "1 Peter 2:5, 9 (royal priesthood, quoting Exod 19:6) is absent though it is the NT's direct application of Exod 19:6 to believers (review_gaps crossref)."
+    - "Rabbinic Melchizedek = Shem still uncited (b. Nedarim 32b; Targum Neofiti Gen 14:18) -- not verifiable locally."
+    - "Parent melchizedek-priesthood.md line ~154 says the priesthood 'passed from Adam' unmarked and points to this study as plain text '(in preparation)' -- update on publish."
+  word_count: "3,053 words whole file (budget 4,000); fixes added ~80 words."
+  ready_to_publish: "After the author decides the Levite/priest wording question."
+
+reframe_2026-09-28:
+  approved_by: "author, via coordinator"
+  summary: >
+    Reframed from "the priesthood passed Adam -> household heads -> firstborn -> Levites" to what
+    Scripture shows: household heads offer sacrifice but are never called kohen; only outsiders
+    (Melchizedek, Potiphera, Egypt's priests, Jethro) carry the title before Sinai; the Exod 19:22-24
+    and 24:5 figures are contested (both sides given); God claims the firstborn and takes the Levites
+    in their place for service, while the priesthood is Aaron's sons alone. Adam, Enoch and
+    firstborn-as-priests moved into one "What later tradition added" section with confidence marked.
+    Title now "Before Aaron: Who Offered Sacrifice?" (slug unchanged). Tags: dropped person/adam,
+    added person/melchizedek. bible_references extended.
+  extra_biblical_verified:
+    - "Jubilees 3:27 and 4:25 read in references/open-data/scrollmapper-bible-databases-deuterocanonical/sources/en/book-of-jubilees/book-of-jubilees.md (R. H. Charles 1913 per docs/content/about/copyright.md)."
+    - "m. Zevachim 14:4 fetched via references/build/sefaria.py, Kulp Mishnah Yomit (CC-BY): 'Before the Tabernacle was set up bamot ... the service was performed by the firstborn.' No study note cites it; cited directly."
+    - "b. Nedarim 32b read via Sefaria (William Davidson, CC-BY-NC -- paraphrased only, not quoted): R. Zechariah in the name of R. Ishmael, God wished the priesthood to come from Shem, citing Gen 14:18; transferred to Abraham."
+    - "Targum Pseudo-Jonathan Gen 14:18 (Etheridge 1862, via Sefaria export Targum Jonathan on Genesis/English/merged.json): 'Malka Zadika, who was Shem bar Noah'."
+    - "Genesis Rabbah 56:10 (Sefaria Community Translation, CC0): 'Shem called it Shalem, as it says And Malchitzedek, the king of Shalem'. Gen. Rab. 44 not in the CC0 translation; not cited."
+  sibling_edit: "melchizedek-priesthood.md (draft: false) line ~153: pointer sentence reworded to the reframe, Adam marked as later tradition, new title; '(in preparation)' kept. Its date_modified will need the provenance run."
+  resolved_open_questions: ["Levite/priest conflation", "firstborn-as-priests unmarked", "1 Peter 2:5, 9 missing", "Shem citation", "parent's unmarked Adam pointer"]
+  remaining: ["Exodus 30:7-8, 34 parallel to Jubilees' incense list is this study's own observation (spices match Exod 30:34)."]
+
+last_updated: "2026-09-28"

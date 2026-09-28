@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 11:14-15
 - [Know the Truth](../../christian-life/know-the-truth.md) — 11:3
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 11:2
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 11:2

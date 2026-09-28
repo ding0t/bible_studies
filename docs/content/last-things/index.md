@@ -201,5 +201,13 @@ End-times prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](trumpet.md)
 
+-   __We Shall All Be Changed__
+
+    ---
+
+    The body God has promised believers. At the last trumpet He raises the body that was buried and changes it, and the living with it, into a body like the risen Jesus' own: imperishable, glorious, powerful and filled with the Holy Spirit. A study of 1 Corinthians 15:35-58.
+
+    [:octicons-arrow-right-24: Read](we-shall-all-be-changed.md)
+
 </div>
 <!-- section-index:auto-end -->

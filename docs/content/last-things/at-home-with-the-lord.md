@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Corinthians 5:1-10"
 bible_references: ["2 Corinthians 1:8-9", "2 Corinthians 1:22", "2 Corinthians 4:16-18", "2 Corinthians 5:1-10", "Philippians 1:21-24", "Philippians 3:21", "Luke 23:43", "Luke 16:19-31", "Ephesians 4:8-10", "Ephesians 1:14", "Colossians 2:15", "Genesis 38:17-20", "Leviticus 23:10", "Acts 18:3", "Revelation 6:9-11", "Revelation 20:13-14", "1 Thessalonians 4:13-18", "1 Corinthians 15:20-23", "1 Corinthians 15:51-53", "2 Peter 2:4", "Jude 6"]
 date_created: 2026-09-26
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -231,7 +231,8 @@ holds the keys (see [what those days achieved](../jesus/three-days-and-three-nig
 The graves are emptied at His coming.
 
 This is the doctrine of the resurrection of the body, and it shows that God counts the body as part
-of the person He redeemed. He leaves nothing of you in the ground for good.
+of the person He redeemed. He leaves nothing of you in the ground for good. What that raised body
+will be is the subject of [We Shall All Be Changed](we-shall-all-be-changed.md).
 
 ## Where were they before?
 
@@ -369,3 +370,5 @@ picture of the conclusion, by someone who held it without the reservations recor
 
 - [Three Days and Three Nights](../jesus/three-days-and-three-nights.md) — where Christ was between
   the cross and the empty tomb, Sheol and Hades, and Luke 16's two conditions.
+- [We Shall All Be Changed](we-shall-all-be-changed.md) — the resurrection body itself, from
+  1 Corinthians 15:35-58: what is raised, what it is like, and when.

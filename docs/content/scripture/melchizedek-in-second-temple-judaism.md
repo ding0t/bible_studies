@@ -2,12 +2,12 @@
 title: "Melchizedek in Second Temple Judaism"
 category: "theology"
 description: "How Jews between the Testaments read Genesis 14 and Psalm 110: Qumran's heavenly redeemer, the Genesis retellings, Hasmonean priest-kings, Philo and Josephus, and how Hebrews 7 answers them."
-tags: ["person/melchizedek", "hebrews", "genesis", "psalms", "dead-sea-scrolls", "jubilees", "second-temple", "priesthood", "method/typology", "lang/hebrew"]
-draft: true
+tags: ["person/melchizedek", "hebrews", "genesis", "psalms", "dead-sea-scrolls", "jubilees", "second-temple", "priesthood", "method/typology", "lang/hebrew", "lang/greek"]
+draft: false
 primary_passage: "Psalm 110:4"
-bible_references: ["Genesis 14:17-20", "Psalm 76:2", "Psalm 110:1-4", "Leviticus 25:8-13", "Deuteronomy 15:2", "Isaiah 61:1", "Luke 4:18-21", "Psalm 82:1-8", "John 10:34-36", "Isaiah 52:7", "Daniel 9:24-27", "John 1:14", "Hebrews 1:5", "Hebrews 1:13", "Hebrews 5:11-14", "Hebrews 6:19-20", "Hebrews 7:1-4", "Hebrews 7:14-16", "Hebrews 7:21-27", "Hebrews 10:12-13", "Revelation 19:11-16", "Revelation 20:4-6"]
+bible_references: ["Genesis 14:17-20", "Psalm 76:2", "Psalm 110:1-4", "Leviticus 25:8-13", "Deuteronomy 15:2", "Isaiah 61:1-2", "Luke 4:18-21", "Psalm 82:1-8", "Psalm 7:7-8", "John 10:34-36", "Isaiah 52:7", "Daniel 9:24-27", "John 1:14", "Hebrews 1:5", "Hebrews 1:13", "Hebrews 5:11-14", "Hebrews 6:19-20", "Hebrews 7:1-4", "Hebrews 7:14-16", "Hebrews 7:21-27", "Hebrews 10:12-13", "Revelation 19:11-16", "Revelation 20:4-6"]
 date_created: 2026-09-26
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -33,7 +33,7 @@ three, so you can draw near to God through Him.
 ### Types & Prophecy
 
 - **The type.** Melchizedek is a man in Genesis 14. Hebrews says he was "made like" the Son of God
-  (ἀφωμοιωμένος, *aphōmoiōmenos*, Hebrews 7:3). The resemblance runs from the Son to Melchizedek:
+  (ἀφωμοιωμένος, *aphōmoiōmenos*, Hebrews 7:3; the ESV has "resembling"). The resemblance runs from the Son to Melchizedek:
   the Son is the original, and Melchizedek is the likeness God placed in the narrative first.
 - **The prophecy.** Psalm 110:4 is a sworn oath: "The LORD has sworn and will not change his mind,
   'You are a priest forever after the order of Melchizedek'" (ESV). Every reader surveyed below
@@ -43,8 +43,8 @@ three, so you can draw near to God through Him.
 
 - **Jesus proclaims the release Qumran waited for.** He read Isaiah 61:1 in Nazareth and said,
   "Today this Scripture has been fulfilled in your hearing" (Luke 4:21, ESV).
-- **Jesus is the Word made flesh.** Philo made Melchizedek a figure of the divine Word. John
-  writes, "The Word became flesh and dwelt among us" (John 1:14, ESV), and Hebrews calls Jesus our
+- **Jesus is the Word made flesh.** Philo read Melchizedek as a figure of reason, and wrote that
+  the high priest "is not a man but divine Word" (*De Fuga* 108, our translation). John writes, "The Word became flesh and dwelt among us" (John 1:14, ESV), and Hebrews calls Jesus our
   high priest forever (Hebrews 6:20).
 - **Jesus is the righteous king of Jerusalem.** He is "king of righteousness" and "king of peace"
   (Hebrews 7:2, ESV) in fact, where Melchizedek was so in name.
@@ -86,7 +86,7 @@ In Jesus' name. Amen.
 
 - [The two texts](#the-two-texts). What Genesis 14 and Psalm 110 say, and the silences they leave.
 - [Qumran: a heavenly Melchizedek](#qumran-a-heavenly-melchizedek). 11Q13 braids Jubilee law,
-  Isaiah, a psalm and Daniel into an end-times redeemer.
+  Isaiah and two psalms into an end-times redeemer.
 - [Genesis retold](#genesis-retold). The Genesis Apocryphon fills a gap; Jubilees leaves one.
 - [Priest-kings in Jerusalem](#priest-kings-in-jerusalem). The Hasmoneans and the language of
   Genesis 14 and Psalm 110.
@@ -134,29 +134,52 @@ question. Who is this priest-king, and when does he come?
 
 A fragmentary Hebrew scroll from Cave 11, 11Q13 ("11QMelchizedek"), dated to roughly the
 mid-first century BC, is a *pesher*: a running commentary that strings several Old Testament texts
-together as one prophecy. It draws on the Jubilee legislation, a psalm and two prophecies, and
-applies all of them to a single end-times figure called Melchizedek.[^11q13]
+together as one prophecy. Its second column quotes the Jubilee legislation, two psalms and Isaiah,
+and applies all of them to a single end-times figure called Melchizedek. Much of the column is
+lost. The translations below are our own, from the Hebrew of the official edition, and words in
+square brackets are the editors' restorations of a gap.[^11q13]
 
-It opens from Leviticus 25:13 and Deuteronomy 15:2 on releasing debts in the Jubilee year. It then
-identifies "the captives" of that legislation with the "captives" of Isaiah 61:1, set free with
-"liberty" (<span dir="rtl">דְּרוֹר</span>, *derôr*). That is the word Leviticus 25:10 uses for the Jubilee's release, and
-it is rare: seven occurrences in the Hebrew Bible, in Leviticus 25:10, Isaiah 61:1, Jeremiah 34
-(four times) and Ezekiel 46:17. The shared Hebrew word does the connecting.
+It opens from Leviticus 25:13, "in [this] year of jubilee [you shall return,] each man to his
+property," and Deuteronomy 15:2, "every creditor shall release what he has lent" (II 2-3). Its
+interpretation "for the last days concerns the captives" (II 4), using Isaiah 61:1's word for them
+(<span dir="rtl">השבויים</span>, *haššəbûyîm*). Melchizedek "will bring them back to it and proclaim liberty to them, to
+release them [from the debt] of all their iniquities" (II 6). "Proclaim liberty"
+(<span dir="rtl">וקרא להמה דרור</span>, *wəqārāʾ lāhēmmāh dərôr*) is Isaiah 61:1's phrase, and
+<span dir="rtl">דְּרוֹר</span> (*derôr*) is also the word Leviticus 25:10 uses for the Jubilee's release. It is rare: seven
+occurrences in the Hebrew Bible, in Leviticus 25:10, Isaiah 61:1, Jeremiah 34 (four times) and
+Ezekiel 46:17. The shared Hebrew word does the connecting.
 
 Isaiah 61:1 is the verse Jesus read aloud in the Nazareth synagogue and applied to Himself: "He
 has sent me to proclaim liberty to the captives ... to proclaim the year of the Lord's favor"
 (Luke 4:18-19, ESV).
 
-11Q13 read Isaiah 61 the same way some decades earlier, with no name attached yet: as a
-Jubilee-shaped release from a debt that turns out to be sin itself. In the scroll, those released
-are assigned to "the sons of Heaven and the lot of Melchizedek."[^11q13]
+11Q13 read Isaiah 61 the same way some decades earlier, without Jesus' name attached: as a Jubilee
+release from "all their iniquities." It even puts Melchizedek where Isaiah 61:2 has the LORD: "it
+is the time of the year of favour for Melchizedek" (<span dir="rtl">לשנת הרצון למלכי צדק</span>, *lišnat hārāṣôn
+ləmalkî-ṣedeq*, II 9). Isaiah reads "the year of the LORD's favor" (Isaiah 61:2, ESV). That line
+of the scroll survives whole.
+
+The scroll also dates the release: "this thing will [happen] in the first week of the jubilee after
+the ni[ne] jubilees, and the D[ay of Atone]ment is the e[nd of] the tenth jubilee, to make atonement
+in it for all the sons of [light and] the men of the lot of Mel[chi]zedek" (II 7-8). Only the first
+two letters of "nine" survive, and the word after "sons of" is lost; the editors supply "light"
+(<span dir="rtl">בני [אור]</span>, *bənê [ʾôr]*). The phrase "the sons of Heaven and the lot of Melchizedek," which
+some popular English versions print, is not in the surviving letters. What survives names the
+people freed as "the men of the lot of Melchizedek."
 
 ### The Psalm 82 judgment scene
 
-The scroll's second half turns to judgment and makes the same composite move with Psalm 82:1:
-"God has taken his place in the divine council; in the midst of the gods he holds judgment" (ESV).
-Both "God" and "gods" there are <span dir="rtl">אֱלֹהִים</span> (*ʾĕlōhîm*, H430). 11Q13 reads the verse as Melchizedek's own
-end-times judgment against Belial and his spirits.
+The scroll's next move rests on Psalm 82:1: "God has taken his place in the divine council; in the
+midst of the gods he holds judgment" (ESV). Both "God" and "gods" there are
+<span dir="rtl">אֱלֹהִים</span> (*ʾĕlōhîm*, H430). 11Q13 introduces the verse "as it is written concerning him in the
+songs of David, who said, '*Elohim* [st]ands in the assem[bly of God]; in the midst of *elohim* he
+judges'" (II 10). "Him" is Melchizedek, named in the line before. So the scroll reads the psalm's
+first *elohim* as Melchizedek himself and the second as the heavenly beings he judges.
+
+It adds Psalm 7:7-8 (7:8-9 in the Hebrew numbering), "return on high; God will judge the peoples,"
+with <span dir="rtl">אל</span> (*ʾēl*, "God") where the Masoretic Text has the LORD. Then it quotes Psalm 82:2, whose
+interpretation "concerns Belial and the spirits of his lot" (II 12). "And Melchizedek will exact
+the vengeance of the judgments of G[od]" (II 13).
 
 Jesus reached for the same psalm. Accused of blasphemy for calling Himself God's Son, He quoted
 Psalm 82:6 back at His accusers: "Is it not written in your Law, 'I said, you are gods'?" (John
@@ -165,14 +188,17 @@ a claim about who God's agent is.
 
 ### A heavenly, composite portrait
 
-11Q13 then adds Isaiah 52:7 ("How beautiful upon the mountains are the feet of him who brings good
-news", ESV) and Daniel 9:25's "an anointed one, a prince" (ESV), identifying the messenger of the
-one prophecy with the anointed one of the other. Jubilee law, a psalm and three prophecies are
-braided into one heavenly figure who proclaims release, judges Belial, and is called
-Melchizedek.[^11q13]
+11Q13 then quotes Isaiah 52:7 almost whole, "how beautiful upon the mountains are the feet of the
+messenger who announces peace" (II 15-16), and identifies the messenger: "the messenger is [the
+anointed of the spir]it, as Dan[iel] said" (II 18). Only the first letters of Daniel's name
+survive. The editors restore Daniel 9:25's "an anointed one, a prince" after it, which fits the
+gap, and the quotation itself is lost. Near the column's end the scroll explains Isaiah 52:7's
+"your God," and the editors restore Melchizedek's name there as well (II 24-25).
 
-That is a far larger role than anything in Genesis or the Psalms. Melchizedek's *name* has become
-the peg for a new eschatological figure.
+So Jubilee law, two psalms and Isaiah, probably with Daniel, are braided into one heavenly figure
+who proclaims release, whose day brings atonement, who judges Belial, and who is called Melchizedek. That is a far
+larger role than anything in Genesis or the Psalms. Melchizedek's *name* has become the peg for a
+new eschatological figure.
 
 ### A different figure from Genesis, read with caution
 
@@ -189,10 +215,11 @@ make its bearer divine.
 ### The Zadok Calendar's reading of 11Q13
 
 This site's reckoning of the Dead Sea Scrolls' 364-day calendar (see [The Zadok
-Calendar](../feasts/zadok-calendar.md)) follows Dr. Ken Johnson, Th.D. (BibleFacts Ministries). He
-reads 11Q13's placement of these events as falling one Shemittah after a ninth Jubilee in that
-calendar's reckoning, landing around AD 32. That is Johnson's application of the site's
-chronology to the scroll. The scroll's fragmentary Hebrew does not state it in those terms.
+Calendar](../feasts/zadok-calendar.md)) follows Dr. Ken Johnson, Th.D. (BibleFacts Ministries). The
+scroll places the release in the first week of the jubilee after nine jubilees (II 7); Johnson reads that
+week, one Shemittah after the ninth Jubilee in this calendar's reckoning, as landing around AD 32.
+The AD date is Johnson's application of the site's chronology to the scroll. The scroll gives no
+year.
 
 ## Genesis retold
 
@@ -240,17 +267,29 @@ change his mind."
 ### Philo: Melchizedek as reason
 
 Philo of Alexandria, writing allegorically for a Greek-speaking Jewish audience, reads Melchizedek
-in *Legum Allegoriae* 3.79-82 as a figure of the divine Logos. He is "king of peace" and God's own
-priest, representing right reason set against the tyrant-mind. This is a
-Middle-Platonic reading. The Melchizedek doing the work in Philo's argument is a philosophical
-principle standing inside a person's mind.
+in *Legum Allegoriae* 3.79-82 as the rightful king of the soul. God made him "king of peace" and
+"His own priest" (3.79). Set against "the tyrant mind" (ὁ τύραννος νοῦς, *ho tyrannos nous*), this
+king "is right reason" (ὁ ὀρθὸς λόγος, *ho orthos logos*, 3.80). "For he is a priest, reason,
+having the One who Is as his portion" (ἱερεὺς γάρ ἐστι λόγος κλῆρον ἔχων τὸν ὄντα, *hiereus gar esti
+logos klēron echōn ton onta*, 3.82). The *logos* in this passage is reason ruling a person's soul.
+Translations of Philo are ours.
+
+Philo does call a high priest the divine Word elsewhere: "we say that the high priest is not a man
+but divine Word" (λόγον θεῖον, *logon theion*, *De Fuga* 108). That passage expounds the Levitical
+high priest of Leviticus 21 and does not name Melchizedek. Readers who call Philo's Melchizedek
+"the Logos" are joining the two passages. Neither passage makes that identification in so many
+words.
 
 ### Josephus: Melchizedek as history
 
-Josephus treats Melchizedek as a historical figure: a Canaanite king of Salem, which he identifies
-with Jerusalem, whose name he glosses "righteous king," and who was made priest of God on account
-of that righteousness (*Antiquities* 1.10.2). He writes the scene as history, for readers he
-assumes will accept it as history.
+Josephus treats Melchizedek as a historical figure. In the *Antiquities* he is king of Solyma,
+whose name "means 'righteous king'; and such he was, by common consent, so that for this reason he
+also became priest of God," and "later he called Solyma Hierosolyma," Jerusalem (*Antiquities*
+1.180, Whiston's 1.10.2). In the *Jewish War* the city's first founder was "a Canaanite chieftain,
+called in his ancestral tongue 'Righteous King', for such indeed he was." He "was the first to
+serve God as priest" and, having first built the temple, named the city Jerusalem (*Jewish War*
+6.438, Whiston's 6.10.1). The *War* never uses the name Melchizedek; Whiston's English supplies it
+in brackets. Translations of Josephus are ours.
 
 ## What Hebrews does with the same texts
 
@@ -304,11 +343,12 @@ Jesus.
 - **Qumran wanted a heavenly deliverer** who would proclaim release and bring atonement. Jesus
   proclaimed Isaiah's liberty and said it was fulfilled (Luke 4:21), and His one offering deals
   with sin itself (Hebrews 7:27).
-- **Philo wanted the divine Word as priest.** "The Word became flesh" (John 1:14, ESV), and that
+- **Philo wanted the divine Word as priest.** His high priest "is not a man but divine Word"
+  (*De Fuga* 108). "The Word became flesh" (John 1:14, ESV), and that
   Word entered "the inner place behind the curtain" as "a high priest forever after the order of
   Melchizedek" (Hebrews 6:19-20, ESV).
-- **Josephus and the Hasmoneans wanted a righteous priest-king in Jerusalem.** Jesus is "king of
-  righteousness" and "king of peace" (Hebrews 7:2, ESV), descended from Judah (7:14), and
+- **Josephus and the Hasmoneans wanted a righteous priest-king in Jerusalem.** Melchizedek's titles,
+  "king of righteousness" and "king of peace" (Hebrews 7:2, ESV), are Jesus' in fact. He is descended from Judah (7:14), and
   appointed by an oath that has no expiry clause.
 
 ### Did Hebrews know this conversation?
@@ -349,26 +389,33 @@ the [statement of faith](../about/statement-of-faith.md) sets out.
 
 ## References & Recommended Reading
 
-- **11Q13 ("11QMelchizedek")**, Dead Sea Scrolls, Cave 11, Qumran. The scroll's text is not held
-  in this site's reference data. The summary above draws on published scholarly summaries and on
-  Dr. Ken Johnson, Th.D., BibleFacts Ministries ([biblefacts.org](https://biblefacts.org)), whose
-  recorded studies on 11Q13 supplied the catena of quotations (Leviticus 25:13 and Deuteronomy
-  15:2, Isaiah 61:1, Psalm 82:1, Isaiah 52:7, Daniel 9:25) and the phrase "the sons of Heaven and
-  the lot of Melchizedek." Each Old Testament verse was cross-checked against this repo's own text
-  database. His chronological reading (one Shemittah after a ninth Jubilee) is his framework
-  applied to the scroll, as on the [Zadok Calendar](../feasts/zadok-calendar.md) page.
+- **11Q13 ("11QMelchizedek")**, column II. Hebrew text as edited by F. García Martínez, E. J. C.
+  Tigchelaar and A. S. van der Woude, *Qumran Cave 11.II* (Discoveries in the Judaean Desert 23;
+  Oxford: Clarendon, 1998), 221-241, pl. XXVII, reproduced in F. García Martínez and E. J. C.
+  Tigchelaar, *The Dead Sea Scrolls Study Edition*, vol. 2 (Leiden: Brill, 1998), 1206-1209,
+  consulted as a scan hosted at [marquette.edu](https://www.marquette.edu/maqom/11QMelchizedek.pdf).
+  Copyrighted edition: short phrases quoted with attribution, restorations marked in brackets as
+  the editors mark them, translations ours. Dr. Ken Johnson, Th.D., BibleFacts Ministries
+  ([biblefacts.org](https://biblefacts.org)), whose recorded studies first drew this site to the
+  scroll, supplies the chronological reading on the [Zadok Calendar](../feasts/zadok-calendar.md)
+  page; the study no longer relies on his wording of the text.
 - **Genesis Apocryphon (1Q20)**, column 22, English translation by John C. Reeves (University of
   North Carolina at Charlotte course materials), as held in the scrollmapper deuterocanonical
   dataset. Quoted briefly with attribution.
 - **Jubilees** 13:22-29 and **Assumption of Moses** 6:1, trans. R. H. Charles; **1 Maccabees**
   14:41, KJV Apocrypha. All as held in the scrollmapper deuterocanonical dataset. Extra-biblical
   witnesses, cited as history and never as Scripture.
-- **Philo of Alexandria**, *Legum Allegoriae* 3.79-82, the Logos reading of Melchizedek, consulted
-  via published English translation and secondary discussion. Not held in this site's reference
-  data.
-- **Flavius Josephus**, *Antiquities of the Jews* 1.10.2, the historical-king reading and the
-  "righteous king" gloss, consulted via the Whiston translation. Not held in this site's reference
-  data.
+- **Philo of Alexandria**, *Legum Allegoriae* 3.79-82 and *De Fuga et Inventione* 108. Greek text of
+  L. Cohn and P. Wendland, *Philonis Alexandrini opera quae supersunt* (1896-1915), in the
+  First1KGreek edition (Open Greek and Latin, CC BY-SA 4.0,
+  [github.com/OpenGreekAndLatin/First1KGreek](https://github.com/OpenGreekAndLatin/First1KGreek),
+  `tlg0018.tlg002`, `tlg0018.tlg017`). Translations ours.
+- **Flavius Josephus**, *Antiquities of the Jews* 1.180 (Whiston 1.10.2) and *Jewish War* 6.438
+  (Whiston 6.10.1). Greek text of B. Niese, *Flavii Iosephi opera* (1885-1895), in the Perseus
+  Digital Library (CC BY-SA 4.0,
+  [github.com/PerseusDL/canonical-greekLit](https://github.com/PerseusDL/canonical-greekLit),
+  `tlg0526.tlg001`, `tlg0526.tlg004`), checked against William Whiston's public-domain English
+  translation. Translations ours.
 - **ESV Study Bible** (Crossway), notes on Hebrews 7:3 and Psalm 110:4; **NIV Cultural Backgrounds
   Study Bible** (Zondervan), notes on Genesis 14:18 and Hebrews 7:3. ESV verse text throughout.
 - Original-language data from this project's `bible-text.db`: unfoldingWord interlinear for Genesis
@@ -381,8 +428,8 @@ the [statement of faith](../about/statement-of-faith.md) sets out.
   Psalm 110 and the whole argument of Hebrews 7-10.
 - [The Zadok Calendar](../feasts/zadok-calendar.md): the 364-day calendar and its Jubilee cycles.
 
-[^11q13]: Summarized from published scholarship on 11Q13 and Ken Johnson's studies of it; see
-    References.
+[^11q13]: 11Q13 column II, Hebrew as edited in DJD 23 (1998); line numbers are the edition's.
+    See References.
 [^1q20]: The dataset numbers this passage 1:101-102; standard editions place it in column 22 of the
     scroll.
 [^cbsb]: NIV Cultural Backgrounds Study Bible (Zondervan), note on Genesis 14:18.

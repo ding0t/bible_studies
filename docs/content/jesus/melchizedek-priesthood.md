@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Hebrews 7:1-28"
 bible_references: ["Genesis 2:15", "Genesis 3:22-24", "Genesis 8:20", "Genesis 14:17-20", "Exodus 13:1-2", "Exodus 32:26-29", "Numbers 3:5-13", "Numbers 8:16-18", "Numbers 18:1-7", "Psalm 110:1-4", "Hebrews 2:17-18", "Hebrews 4:14-16", "Hebrews 5:1-10", "Hebrews 6:13-20", "Hebrews 8:1-13", "Hebrews 9:11-28", "Hebrews 10:1-18", "Zechariah 6:12-13", "2 Chronicles 26:16-21", "Jeremiah 31:31-34", "Leviticus 25:8-13", "Deuteronomy 15:2", "Isaiah 61:1", "Luke 4:18-19", "Psalm 82:1-8", "John 10:34-36", "Isaiah 52:7", "Daniel 9:24-27"]
 date_created: 2026-08-02
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -151,8 +151,9 @@ or eight centuries before Levi is set apart as a priestly tribe at all.
 So before there was a Law or a Levite, God already had a priest-king blessing Abram in His name.
 That is the precedent God would later swear to fulfil in Jesus.
 
-How the priesthood passed from Adam to the household heads of Genesis, then to Israel's firstborn
-and finally to Levi, is traced in a separate study, *Priesthood before Sinai* (in preparation).
+Who offered sacrifice before Aaron — the household heads of Genesis, none of them called a priest,
+then the Levites given in place of Israel's firstborn, with Adam's priesthood a later tradition — is
+traced in a separate study, [Before Aaron: Who Offered Sacrifice?](priesthood-before-sinai.md).
 
 
 ### Name and city: king of righteousness, king of peace
@@ -218,9 +219,9 @@ The king who rules at God's right hand is also the priest who represents His peo
 God promised one person in whom rule and priesthood meet, and in Jesus you have both a King to obey
 and a Priest who brings you to God.
 
-How Second Temple Judaism read Melchizedek — Qumran's heavenly redeemer (11Q13), Philo's Logos
-allegory and Josephus's historical king — is surveyed in a separate study, *Melchizedek in Second
-Temple Judaism* (in preparation).
+How Second Temple Judaism read Melchizedek — Qumran's heavenly redeemer (11Q13), Philo's allegory
+of him as right reason and Josephus's historical king — is surveyed in a separate study,
+[Melchizedek in Second Temple Judaism](../scripture/melchizedek-in-second-temple-judaism.md).
 
 ## Hebrews' argument, traced
 

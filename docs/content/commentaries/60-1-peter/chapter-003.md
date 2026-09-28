@@ -15,6 +15,7 @@ draft: false
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 3:13-17 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 3:21
 - [Biblical Numerology](../../scripture/numerology.md) — 3:20
+- [The Flood and the King Lists: Which Genesis Numbers to Trust](../../god/flood-and-the-king-lists.md) — 3:20
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 3:18-20
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 3:18-19
 <!-- commentary-index:auto-end -->

@@ -15,4 +15,5 @@ draft: false
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 24:27 (primary passage)
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 24:25-27
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 24:7
+- [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 24:36-43
 <!-- commentary-index:auto-end -->

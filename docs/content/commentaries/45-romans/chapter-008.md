@@ -21,4 +21,5 @@ draft: false
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 8:28
 - [Six Days of History](../../last-things/six-days-of-history.md) — 8:29
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 8:15-17
+- [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 8:11
 <!-- commentary-index:auto-end -->

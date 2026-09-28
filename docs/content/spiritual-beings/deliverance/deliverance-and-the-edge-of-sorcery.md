@@ -1,20 +1,20 @@
 ---
 title: "Deliverance and the Edge of Sorcery"
 category: "investigation"
-description: "At Philippi Paul silenced a spirit that was telling the truth and commanded it out in the name of Jesus. Four scriptural tests for where deliverance practice crosses into the inquiry Deuteronomy 18 forbids. A study of Acts 16:16-18."
-tags: ["acts", "demons", "spiritual-warfare", "ministry", "sorcery", "divination", "discernment", "lang/greek"]
-draft: true
+description: "At Philippi Paul silenced a spirit whose words were true in a formal sense and commanded it out in the name of Jesus. Four scriptural tests for where deliverance practice crosses into the inquiry Deuteronomy 18 forbids. A study of Acts 16:16-18."
+tags: ["status/investigation", "acts", "demons", "spiritual-warfare", "ministry", "sorcery", "divination", "discernment", "lang/greek"]
+draft: false
 primary_passage: "Acts 16:16-18"
-bible_references: ["Acts 16:14", "Acts 16:19", "Acts 16:31", "Acts 4:2", "Acts 19:13-20", "Deuteronomy 18:10-11", "Deuteronomy 18:15", "Deuteronomy 13:1-5", "1 Samuel 28:8", "1 Chronicles 10:13-14", "Isaiah 8:19", "Mark 1:25", "Mark 1:32-34", "Luke 4:41", "Mark 5:7-9", "Luke 10:17-20", "1 John 4:1-4", "1 Corinthians 6:19", "Colossians 1:13", "Colossians 2:15", "Hebrews 2:14", "James 4:7", "Ephesians 6:11-12", "1 Peter 5:8", "James 2:19", "1 Timothy 4:1", "2 Corinthians 11:14-15", "Mark 9:17-27", "Luke 8:29", "Jude 8-10", "2 Peter 2:10-11", "Matthew 8:29", "1 Corinthians 10:20-21", "Matthew 12:43"]
+bible_references: ["Acts 16:14", "Acts 16:19", "Acts 16:31", "Acts 4:2", "Acts 19:13-20", "Deuteronomy 18:10-11", "Deuteronomy 18:15", "Deuteronomy 13:1-5", "1 Samuel 28:8", "1 Chronicles 10:13-14", "Isaiah 8:19", "Mark 1:24-25", "Mark 1:32-34", "Luke 4:41", "Mark 5:7-9", "Luke 10:17-20", "1 John 4:1-4", "1 Corinthians 6:19", "Colossians 1:13", "Colossians 2:15", "Hebrews 2:14", "James 4:7", "Ephesians 6:11-12", "1 Peter 5:8", "James 2:19", "1 Timothy 4:1", "2 Corinthians 11:14-15", "Mark 9:17-27", "Luke 8:29", "Jude 8-10", "2 Peter 2:10-11", "Matthew 8:29", "1 Corinthians 10:20-21", "Matthew 12:43"]
 date_created: 2026-09-26
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
 
 # Deliverance and the Edge of Sorcery
 
-At Philippi a slave girl followed Paul through the streets for days, shouting something true: "These
+At Philippi a slave girl followed Paul through the streets for days, shouting words that were true in a formal sense: "These
 men are servants of the Most High God, who proclaim to you the way of salvation" (Acts 16:17, ESV).
 Her owners made money from the spirit that spoke through her. Paul finally turned and spoke to the
 spirit, once, in the name of Jesus Christ, and it left her "that very hour" (16:18, ESV).
@@ -37,8 +37,8 @@ in heaven) let you judge any ministry, beginning with your own.
 
 ### Lessons about Jesus
 
-- **Jesus decides who testifies to Him.** "He would not permit the demons to speak, because they
-  knew him" (Mark 1:34, ESV). A true sentence from an unclean spirit was still refused.
+- **Jesus decides who testifies to Him.** Mark reports that Jesus "would not permit the demons to
+  speak, because they knew him" (Mark 1:34, ESV). A true sentence from an unclean spirit was still refused.
 - **Jesus' name carries His authority, and He gives it to His disciples.** "Lord, even the demons are
   subject to us in your name!" (Luke 10:17, ESV). Paul commanded the spirit at Philippi "in the name
   of Jesus Christ" (Acts 16:18).
@@ -119,7 +119,7 @@ that their hope of gain was gone, they seized Paul and Silas" (16:19, ESV).
 
 ### The girl's craft, in the Septuagint's word
 
-Luke calls her spirit a πνεῦμα πύθωνα (*pneuma pythōna*), "a python spirit" — the Delphic oracle's
+Luke calls her spirit a πνεῦμα πύθωνα (*pneuma pythōna*; *pythōn*, G4436), "a python spirit" — the Delphic oracle's
 name, as [Sin and Sorcery](../../sin/sorcery.md#the-slave-girl-at-philippi) sets out. Her
 fortune-telling is μαντευομένη, from μαντεύομαι (*manteuomai*, G3132; "man-TYOO-oh-my"), "to
 divine." That verb occurs once in the New Testament and twelve times in the Septuagint, and two of
@@ -132,7 +132,8 @@ who knew the Scriptures would hear in Luke's verb the practice the Law forbade.
 
 She kept it up "for many days." Paul was διαπονηθείς (*diaponētheis*, from διαπονέω, G1278), "greatly
 annoyed." Luke uses the same verb at Acts 4:2 of the temple authorities, "greatly annoyed" that the
-apostles were proclaiming the resurrection in Jesus. It names sustained, wearing distress.
+apostles were proclaiming the resurrection in Jesus. Macula glosses it "distressed," and "many
+days" says how long the distress wore on him.
 
 Why Paul was annoyed is not stated, and commentators differ. The ESV Study Bible suggests he did not
 want the girl to appear to be his partner in the gospel; the NIV Biblical Theology Study Bible reads
@@ -146,7 +147,9 @@ alone (note on 16:18).
 
 Acts is narrative, and narrative records what happened without always prescribing it. One scene in
 Philippi could not by itself establish a rule. It does not have to. Jesus did the same thing
-repeatedly, and the Gospels say why: "Be silent, and come out of him!" (Mark 1:25, ESV). The pattern
+repeatedly. To a spirit crying "I know who you are— the Holy One of God" He said, "Be silent, and
+come out of him!" (Mark 1:24-25, ESV), and Mark gives the reason: "because they knew him" (Mark
+1:34, ESV). The pattern
 at Philippi is the Lord's own pattern, carried out by His apostle.
 
 This shows that God guards the witness to His Son. He chooses the voices that proclaim the way of
@@ -160,8 +163,14 @@ salvation, and a spirit of divination is not one of them, even when its words ar
 not permit the demons to speak, because they knew him" (Mark 1:34, ESV); Luke, that "he rebuked them
 and would not allow them to speak, because they knew that he was the Christ" (Luke 4:41, ESV). The
 demons were right, and they were silenced anyway. Paul does the same at Philippi with a spirit whose
-statement about him was theologically exact (Acts 16:17-18). The apostolic pattern includes no
-interview with an unclean spirit for information.
+statement about him was, in the ESV Study Bible's words, "true in a formal sense" (note on 16:18).
+How true is contested. The Greek has no article, ὁδὸν σωτηρίας (*hodon sōtērias*), "a way of
+salvation" (so the WEB, and the LSB's footnote "Lit a way"), and Gentiles called Zeus "the Most High
+God," so the NIV Cultural Backgrounds Study Bible suggests the cry may have made Paul's God simply
+the greatest in a pantheon (note on 16:17). Paul silenced it anyway (Acts 16:18), and that is the
+point: the test holds on either reading, since the spirit Jesus silenced in Mark 1:24 was exact in
+every word. The apostolic pattern includes no interview
+with an unclean spirit for information.
 
 This is where the line falls most clearly. Commanding a spirit to leave in the name of Jesus is
 apostolic practice, plainly attested. Questioning a spirit to obtain knowledge — its name, its legal
@@ -175,8 +184,7 @@ traces the two Hebrew verbs of inquiry behind these verses.
 ### The Gerasene counter-example
 
 The one apparent counter-example is Jesus asking the Gerasene demoniac's spirit its name: "What is
-your name?" "My name is Legion, for we are many" (Mark 5:9, ESV). It deserves to be stated plainly,
-and the case on both sides given.
+your name?" "My name is Legion, for we are many" (Mark 5:9, ESV).
 
 **The case for reading it as a model.** Jesus asked, and the spirit answered. The NIV Cultural
 Backgrounds Study Bible notes that magicians tried to control a spirit by using its name, and reads
@@ -211,10 +219,10 @@ own, and no procedure can reproduce it.
 
 **The test of a spirit is confession.** "Beloved, do not believe every spirit, but test the spirits
 to see whether they are from God.… every spirit that confesses that Jesus Christ has come in the flesh
-is from God" (1 John 4:1-2, ESV). The criterion is doctrinal content. The New Testament never treats
-an impressive phenomenon as evidence of its source, and Deuteronomy 13:1-5 had already ruled that a
-sign coming true settles nothing about where it came from. A shaking body, a changed voice or an
-accurate word are all things a deceiving spirit can supply (2 Corinthians 11:14-15). See also
+is from God" (1 John 4:1-2, ESV). The criterion is doctrinal content. Deuteronomy 13:1-5 had already
+ruled that a sign coming true settles nothing about where it came from. An accurate word is what the
+spirit at Philippi supplied for many days (Acts 16:16-18), and "even Satan disguises himself as an
+angel of light" (2 Corinthians 11:14, ESV). See also
 [Test the Spirits](../test-the-spirits.md).
 
 This shows that God has put discernment within reach of every believer. The test is what a spirit
@@ -250,18 +258,24 @@ therefore to God. Resist the devil, and he will flee from you" (James 4:7, ESV).
 
 ### More than two explanations
 
-Holding indwelling and oppression together matters. It means a believer's distress in a deliverance
-setting has more possible explanations than the two the question usually offers. It may be
-demonic oppression short of indwelling. It may be ordinary suggestion under emotional and social
-pressure. Both are real, and neither requires sorcery to explain it.
+A believer's distress in a deliverance session is usually given one of two explanations: a demon
+indwells them, or the session has crossed into sorcery. The section above rules out the first for a
+Christian. Holding indwelling and oppression apart opens two further explanations, and both are
+real:
 
-That is the honest shape of the answer. The four tests above can be applied by anyone to any
+- **Demonic oppression short of indwelling**, the harassment the New Testament assumes everywhere
+  (Ephesians 6:11-12; 1 Peter 5:8).
+- **Ordinary suggestion** under emotional and social pressure.
+
+Neither requires sorcery to explain it.
+
+The four tests above can be applied by anyone to any
 ministry, including their own, without needing to settle what is happening in someone else's room.
 
 ## What this shows about God
 
 Deuteronomy 18 forbade Israel the diviners and then gave them something better: "The LORD your God
-will raise up for you a prophet like me from among you, from your brothers — it is to him you shall
+will raise up for you a prophet like me from among you, from your brothers—it is to him you shall
 listen" (Deuteronomy 18:15, ESV). God has spoken, and He has spoken in His Son Jesus. Every inquiry
 directed at a spirit is a turn away from the Prophet God raised up.
 
@@ -301,12 +315,22 @@ The claims below are the ones the New Testament states directly, each with the t
 | Jesus cast out demons, and gave His followers authority to do so in His name | Mark 1:34; Luke 10:17-19 |
 | Demons can afflict a person physically | Mark 9:17-27; Luke 8:29 |
 | Demons can speak through a person | Mark 5:7-9; Acts 16:17 |
-| Demons are not to be reviled or spoken of presumptuously | Jude 8-10; 2 Peter 2:10-11 |
+| Even the archangel did not pronounce a blasphemous judgment on the devil, but said, "The Lord rebuke you" | Jude 9 |
 | Demons know who Jesus is and know judgment is coming | Matthew 8:29; James 2:19 |
 | Pagan sacrifice is offered to demons, and believers cannot share both tables | 1 Corinthians 10:20-21 |
 | An unclean spirit driven out seeks rest in "waterless places" | Matthew 12:43 |
 
-The last of these is often built into more than it says. Matthew 12:43 is a single clause inside a
+Jude 8 and 2 Peter 2:10 are often added to the Jude 9 row, and who they speak of is contested. Both
+condemn false teachers who "blaspheme the glorious ones" (ESV). The case for fallen angels: 2 Peter
+2:11 says angels "do not pronounce a blasphemous judgment against them before the Lord," and Jude 8
+sits beside Michael's restraint toward the devil in verse 9; the ESV Study Bible and the NIV
+Biblical Theology Study Bible on 2 Peter 2:10 both read "probably evil angels." The case against:
+the NIV Biblical Theology Study Bible on Jude 8 reads angels in general, set beside the Sodomites'
+contempt for the angels visiting Lot, and the NIV Cultural Backgrounds Study Bible allows earthly
+authorities together with the angelic powers behind them. Jude 9 is the clear text, and it models
+leaving judgment of the devil to the Lord.
+
+The last row is often built into more than it says. Matthew 12:43 is a single clause inside a
 parable about a generation that reforms without being filled. The point of the passage is the empty
 house.
 
@@ -314,7 +338,8 @@ house.
 
 - *ESV Study Bible* (Crossway): notes on Acts 16:11-40, 16:16, 16:18; Mark 5:9. ESV text throughout
   verified against its edition.
-- *NIV Cultural Backgrounds Study Bible* (Zondervan): notes on Acts 16:18, 19:13; Mark 5:9.
+- *NIV Cultural Backgrounds Study Bible* (Zondervan): notes on Acts 16:17, 16:18, 19:13; Mark 5:9.
+- *Legacy Standard Bible* (Lockman, 2021): footnote on Acts 16:17.
 - *NIV Biblical Theology Study Bible* (Zondervan): notes on Acts 16:18; Mark 5:9.
 - SBLGNT (Macula Greek) and unfoldingWord ULT/UGNT interlinear, for Acts 16:16-18 and the occurrences
   of μαντεύομαι and διαπονέω.

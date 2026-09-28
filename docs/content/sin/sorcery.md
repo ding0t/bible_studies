@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Deuteronomy 18:9-22"
 bible_references: ["Genesis 15:16", "Exodus 7:8-13", "Exodus 22:18", "Leviticus 19:31", "Leviticus 20:6", "Leviticus 20:27", "Numbers 23:23", "Deuteronomy 13:1-5", "1 Samuel 28:3-25", "1 Chronicles 10:13-14", "2 Kings 21:6", "2 Kings 23:24", "Isaiah 8:19-20", "Isaiah 44:24-26", "Isaiah 47:9-15", "Daniel 2:27-28", "Micah 5:12", "Nahum 3:4", "Malachi 3:5", "Matthew 2:1-12", "Acts 3:22-23", "Acts 8:9-24", "Acts 13:4-12", "Acts 16:16-18", "Acts 19:11-20", "Galatians 5:19-21", "Revelation 9:21", "Revelation 18:23", "Revelation 21:8", "Revelation 22:15"]
 date_created: 2024-04-24
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -356,7 +356,7 @@ had not yet reached the instinct that treats spiritual power as a purchasable ca
 (*pneuma pythōna*) — literally "a python spirit." Both Cultural Backgrounds Study Bibles identify
 the reference: Python was the serpent Apollo slew at Delphi, and the Delphic priestess, the most
 famous oracle in antiquity, was called the Pythia. The girl's owners were making money from her.
-What she said about Paul was true — "These men are servants of the Most High God, who proclaim to you
+What she said about Paul was true in a formal sense — "These men are servants of the Most High God, who proclaim to you
 the way of salvation" — and Paul, after days of it, silenced her without engaging: "I command you in
 the name of Jesus Christ to come out of her."
 
@@ -378,8 +378,8 @@ destroying an asset, publicly, with the value read out. Luke's next sentence mak
 Lord the thing that grows in the space the books vacated — the same pairing Deuteronomy 18 makes,
 now in narrative.
 
-How these tests apply to deliverance ministry is taken up in a separate study, *Deliverance and the
-Edge of Sorcery* (in preparation).
+How these tests apply to deliverance ministry is taken up in a separate study, [Deliverance and the
+Edge of Sorcery](../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md).
 
 ## Sorcery in Revelation
 
@@ -459,7 +459,7 @@ to Him and listen.
    by their label rather than by their direction?
 5. The Ephesian believers burned books worth fifty thousand days' wages, publicly, after conversion
    (Acts 19:19). What would the equivalent cost you, and what has kept you from it?
-6. Paul silenced a spirit that was telling the truth (Acts 16:17-18). What does that establish about
+6. Paul silenced a spirit whose words were true in a formal sense (Acts 16:17-18). What does that establish about
    which sources of information a Christian should accept?
 
 ## References & Recommended Reading

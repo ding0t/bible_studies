@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 2:16
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 2:15-21
 <!-- commentary-index:auto-end -->

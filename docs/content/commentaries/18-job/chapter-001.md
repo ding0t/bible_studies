@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 1:1
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 1:6
 <!-- commentary-index:auto-end -->

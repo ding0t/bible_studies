@@ -17,6 +17,7 @@ draft: false
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:14
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 1:14
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:14
+- [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 1:14
 - [Philip](../../biblical-figures/philip.md) — 1:43-46
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1
 - [Simon Peter](../../biblical-figures/peter.md) — 1:40-42

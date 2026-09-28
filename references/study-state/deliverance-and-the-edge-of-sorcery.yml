@@ -1,6 +1,6 @@
 slug: "deliverance-and-the-edge-of-sorcery"
 title: "Deliverance and the Edge of Sorcery"
-status: drafting
+status: published # 2026-09-28, author approved
 target_path: "docs/content/spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md"
 
 primary_passage: "Acts 16:16-18"
@@ -91,7 +91,7 @@ stages:
     done: true
     file: "docs/content/spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md"
   review:
-    done: false
+    done: true
     validated: true
     notes: "npm run validate: only the expected provenance-field warnings (fields omitted per brief). mkdocs build --strict passes (draft dropped from build); anchors checked by eye."
 
@@ -129,6 +129,13 @@ evidence:
   - {id: col-1-13-esv, what: "Col 1:13", tool: study_verse, args: {book: Col, chapter: 1, verse: 13, work_id: esv-study-bible}, path: "0.text", expect_contains: "He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son", checked: 2026-09-26}
   - {id: col-2-15-esv, what: "Col 2:15", tool: study_verse, args: {book: Col, chapter: 2, verse: 15, work_id: esv-study-bible}, path: "0.text", expect_contains: "He disarmed the rulers and authorities and put them to open shame, by triumphing over them in him", checked: 2026-09-26}
   - {id: heb-2-14-esv, what: "Heb 2:14", tool: study_verse, args: {book: Heb, chapter: 2, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "that through death he might destroy the one who has the power of death, that is, the devil", checked: 2026-09-26}
+  - {id: acts-16-17-anarthrous, what: "hodon soterias has no article (Acts 16:17)", tool: bible_verse, args: {book: Acts, chapter: 16, verse: 17}, expect_contains: "a way of salvation", checked: 2026-09-28}
+  - {id: mark-1-24-esv, what: "I know who you are -- the Holy One of God", tool: study_verse, args: {book: Mark, chapter: 1, verse: 24, work_id: esv-study-bible}, path: "0.text", expect_contains: "I know who you are— the Holy One of God", checked: 2026-09-28}
+  - {id: 2cor-11-14-esv, what: "2 Cor 11:14", tool: study_verse, args: {book: 2Cor, chapter: 11, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "even Satan disguises himself as an angel of light", checked: 2026-09-28}
+  - {id: python-g4436, what: "puthon once in NT", tool: bible_concordance, args: {strongs: G4436}, expect_count: 1, checked: 2026-09-28}
+  - {id: jude-9-esv, what: "Michael: The Lord rebuke you", tool: study_verse, args: {book: Jude, chapter: 1, verse: 9, work_id: esv-study-bible}, path: "0.text", expect_contains: "he did not presume to pronounce a blasphemous judgment, but said, “The Lord rebuke you.”", checked: 2026-09-28}
+  - {id: 2pet-2-10-esv, what: "blaspheme the glorious ones", tool: study_verse, args: {book: 2Pet, chapter: 2, verse: 10, work_id: esv-study-bible}, path: "0.text", expect_contains: "blaspheme the glorious ones", checked: 2026-09-28}
+  - {id: 2pet-2-11-esv, what: "angels do not pronounce a blasphemous judgment", tool: study_verse, args: {book: 2Pet, chapter: 2, verse: 11, work_id: esv-study-bible}, path: "0.text", expect_contains: "do not pronounce a blasphemous judgment against them before the Lord", checked: 2026-09-28}
   - {id: jas-4-7-esv, what: "James 4:7", tool: study_verse, args: {book: Jas, chapter: 4, verse: 7, work_id: esv-study-bible}, path: "0.text", expect_contains: "Submit yourselves therefore to God. Resist the devil, and he will flee from you", checked: 2026-09-26}
 
 open_questions:
@@ -144,4 +151,45 @@ resources_consulted:
   - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Acts 16:18 (irritation/disruption motive); Mark 5:9 (Legion = sizable host)."}
   - {type: other, title: "NLT Life Application Study Bible", author: "Tyndale", note: "Consulted on Acts 16:14-34 and 19:13-16; nothing cited."}
   - {type: lexicon, title: "Macula Greek SBLGNT / unfoldingWord interlinear; LXX lemmas", author: "", note: "manteuomai and diaponeo occurrences."}
-last_updated: "2026-09-26"
+last_updated: "2026-09-28"
+
+review_2026-09-28:
+  reviewer: "review-bible-study skill (agent), first review pass"
+  checked: |
+    Phase 1: all 34 recorded evidence entries replayed (0 failing); block quotes (Acts 16:16-18,
+    Luke 10:20) and partial quotes re-pulled from ESV in study-notes.db, punctuation included.
+    Phase 2: study-Bible citations re-read (ESV SB 16:11-40, 16:16, 16:18, Mark 5:9; NIV BTSB
+    16:18, Mark 5:9; NIV CBSB 16:18, Mark 5:9) -- all say what the study says. Internal links and
+    anchors exist (sorcery.md #the-slave-girl-at-philippi, #the-word-that-carries-the-argument-inquiry,
+    #ephesus; christians-and-deliverance.md #the-key-term-demonized; test-the-spirits.md).
+    Phase 3: G3132 re-counted 12 LXX + 1 NT (Deut 18:10, 1 Sam 28:8 among them); G1278 NT Acts 4:2,
+    16:18 only. Acts 16 footnotes read: LSB "Lit a way" at 16:17 was undisclosed.
+    Phase 4: synthetic claims listed and checked (Lydia/girl/jailer order; "only counter-example";
+    exhaustive NT claims).
+    Phase 5: NIV CBSB note on 16:17 (not previously cited) complicates "theologically exact".
+    Phase 6: genre/occasion/literary covered; statement-of-faith consistent (Spirit indwells every
+    believer). review_gaps: nothing bearing on the argument (top hit Mark 12:30 < Deut 13 is noise).
+    cross_study_claims "Acts 16": sorcery.md also calls the girl's cry simply "true".
+    Phase 7: tags/category consistent with siblings. Phase 8: validate clean for this file.
+  fixed:
+    - "Moderate: Acts 16:17 statement called 'theologically exact' while the Greek is anarthrous (WEB, which the pop-up shows, reads 'a way of salvation'; LSB fn 'Lit a way') and NIV CBSB reads 'Most High God' as possibly pantheon-relativizing. Now 'true in a formal sense' (ESV SB) with the contest stated; the test rests on Mark 1:24, 34."
+    - "Critical (synthetic): 'The New Testament never treats an impressive phenomenon as evidence of its source' -- false as stated (Acts 2:22; John 20:30-31; Heb 2:4). Cut; Deut 13:1-5 carries the point."
+    - "Moderate: 2 Cor 11:14-15 cited for shaking/changed voice/accurate word; it says none of these. Replaced with Acts 16:16-18 (accurate word) + quoted 2 Cor 11:14."
+    - "Minor: 'the Gospels say why: Be silent...' -- Mark 1:25 gives no reason. Now Mark 1:24-25 + the reason from 1:34; frontmatter Mark 1:25 -> Mark 1:24-25."
+    - "Minor: Key Takeaways quoted Mark 1:34 as 'He would...' (ESV lowercase, mid-verse). Recast."
+    - "Minor: 'sustained, wearing distress' for diaponeo was unsourced; now Macula's gloss plus the 'many days'."
+    - "Minor: Deut 18:15 quote spaced the ESV's unspaced em-dash."
+    - "Minor: pneuma pythona given G4436 (strongs_suggest)."
+    - "Minor style: two narrated-argument sentences cut ('It deserves to be stated plainly...', 'That is the honest shape of the answer.')."
+  for_author:
+    - "sorcery.md (#the-slave-girl-at-philippi) still says flatly 'What she said about Paul was true'; align it with this study's marked-confidence reading? (not edited)."
+    - "'More than two explanations' names two (oppression, suggestion) against an unstated pair; the section's logic is unclear."
+    - "Annex row 'Demons are not to be reviled' rests on Jude 9 directly; the 'glorious ones' of Jude 8 / 2 Pet 2:10 are disputed in identity. Mark it?"
+    - "Category 'investigation' without the status/investigation tag its two siblings carry -- intended?"
+    - "Human-only style checks (Key Takeaways register, prayer, application) not judged."
+  size: "3,564 words incl. frontmatter/annex vs 4,000 budget; fixes net about +90 words."
+  author_decisions_applied_2026-09-28:
+    - "Acts 16:17 'true in a formal sense' kept; Paul silences it anyway (16:18) stated as the point. sorcery.md edited in two places only (line ~359 'was true' -> 'was true in a formal sense'; discussion Q6 likewise). Description and hook of this study aligned."
+    - "'More than two explanations' restructured: names the usual pair (indwelling demon / sorcery), notes the first is ruled out, lists oppression and suggestion as bullets. No new claims."
+    - "Annex row now rests on Jude 9 alone (quoted); Jude 8 / 2 Pet 2:10 'glorious ones' given both sides from ESV SB, NIV BTSB (2 Pet 2:10 and Jude 8), NIV CBSB."
+    - "status/investigation tag added to match siblings."
