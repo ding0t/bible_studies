@@ -38,8 +38,8 @@ outline:
     says: "aion mellon texts; Jewish olam ha-ba (m. Sanh 10:1 citing Isa 60:21); Eph 2:7 and Rev 22:5 plural 'ages'; palingenesia at Matt 19:28 under the Son of Man's throne; 1 Cor 15:24-28 the Son hands over the kingdom yet the throne is 'of God and of the Lamb'. Dispensational synthesis: the age to come opens at His return, the millennium its first stage, the new creation its unending one; marked as synthesis, amillennial alternative given."
   - section: "Discussion questions / References"
     says: "Facets per discussion-questions.md."
-word_budget: 4000
-word_budget_reason: ""
+word_budget: 4600
+word_budget_reason: "Author asked (2026-09-28) for the water-then-fire section with 1 Enoch and Josephus; ~450 words added to a study at ~3,850."
 
 stages:
   scoping:
@@ -129,6 +129,8 @@ resources_consulted:
   - {type: other, title: "Epistle of Barnabas 15", author: "ANF vol. 1", note: "'a beginning of the eighth day, that is, a beginning of another world'; kept the eighth day, the day Jesus rose."}
   - {type: other, title: "Justin Martyr, Dialogue with Trypho 138", author: "ANF vol. 1", note: "Noah's eight persons a symbol of the eighth day, when Christ rose."}
   - {type: other, title: "Mishnah Sanhedrin 10:1", author: "Kulp, Mishnah Yomit (CC-BY); Torat Emet Hebrew (PD)", note: "'All Israel have a portion in the world to come', proof text Isa 60:21."}
+  - {type: other, title: "1 Enoch 10:12-13; 67:13; 91:5-9, 15-17; 93:4", author: "R. H. Charles 1917 (PD), scrollmapper deuterocanonical raw files", note: "Apocalypse of Weeks: flood as 'the first end' (93:4); tenth week eternal judgement, first heaven passes, new heaven, 'many weeks without number' (91:15-17); 'judgement of fire' (91:9); angels bound then 'abyss of fire' (10:12-13). 67:13 waters becoming fire -- read, not used (about the angels' valley). Verified against the raw .md 2026-09-28."}
+  - {type: other, title: "Josephus, Antiquities 1.2.3 (§70)", author: "Whiston (PD)", note: "Adam's prediction: world destroyed 'at one time by the force of fire, and at another time by the violence and quantity of water'. Antiquities finished 13th year of Domitian (20.267), AD 93/94. Verified from Josephus_complete.pdf in media biblefacts/other (unvetted folder -- the text matched Whiston)."}
   - {type: other, title: "2 Enoch 33:1", author: "as quoted in day-is-a-thousand-years.md", note: "eighth day, 'a time of not-counting'."}
 evidence:
   - {id: kainos-rev, what: "kainos 9x in Revelation", tool: bible_concordance, args: {strongs: G2537, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 9", checked: 2026-09-28}
@@ -147,5 +149,16 @@ evidence:
   - {id: 1cor15-24, what: "ESV 1Cor 15:24", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 24, work_id: esv-study-bible}, expect_contains: "when he delivers the kingdom to God the Father", checked: 2026-09-28}
   - {id: eph2-7, what: "ESV Eph 2:7", tool: study_verse, args: {book: Eph, chapter: 2, verse: 7, work_id: esv-study-bible}, expect_contains: "in the coming ages", checked: 2026-09-28}
   - {id: 2cor5-17, what: "ESV 2Cor 5:17", tool: study_verse, args: {book: 2Cor, chapter: 5, verse: 17, work_id: esv-study-bible}, expect_contains: "behold, the new has come", checked: 2026-09-28}
+  - {id: 2pet3-6, what: "ESV 2Pet 3:6", tool: study_verse, args: {book: 2Pet, chapter: 3, verse: 6, work_id: esv-study-bible}, expect_contains: "was deluged with water and perished", checked: 2026-09-28}
+  - {id: 2pet3-7, what: "ESV 2Pet 3:7", tool: study_verse, args: {book: 2Pet, chapter: 3, verse: 7, work_id: esv-study-bible}, expect_contains: "are stored up for fire", checked: 2026-09-28}
+  - {id: gen9-11, what: "ESV Gen 9:11", tool: study_verse, args: {book: Gen, chapter: 9, verse: 11, work_id: esv-study-bible}, expect_contains: "never again shall there be a flood to destroy the earth", checked: 2026-09-28}
+  - {id: isa54-9, what: "ESV Isa 54:9", tool: study_verse, args: {book: Isa, chapter: 54, verse: 9, work_id: esv-study-bible}, expect_contains: "as I swore that the waters of Noah should no more go over the earth", checked: 2026-09-28}
+  - {id: isa66-16, what: "ESV Isa 66:16", tool: study_verse, args: {book: Isa, chapter: 66, verse: 16, work_id: esv-study-bible}, expect_contains: "For by fire will the LORD enter into judgment", checked: 2026-09-28}
+  - {id: zeph3-8, what: "ESV Zeph 3:8", tool: study_verse, args: {book: Zeph, chapter: 3, verse: 8, work_id: esv-study-bible}, expect_contains: "in the fire of my jealousy all the earth shall be consumed", checked: 2026-09-28}
+  - {id: luke17-29, what: "ESV Luke 17:29", tool: study_verse, args: {book: Luke, chapter: 17, verse: 29, work_id: esv-study-bible}, expect_contains: "fire and sulfur rained from heaven and destroyed them all", checked: 2026-09-28}
+  - {id: 2thess1-8, what: "ESV 2Thess 1:8", tool: study_verse, args: {book: 2Thess, chapter: 1, verse: 8, work_id: esv-study-bible}, expect_contains: "in flaming fire", checked: 2026-09-28}
+  - {id: 2pet2-9, what: "ESV 2Pet 2:9", tool: study_verse, args: {book: 2Pet, chapter: 2, verse: 9, work_id: esv-study-bible}, expect_contains: "the Lord knows how to rescue the godly from trials", checked: 2026-09-28}
+  - {id: jude6, what: "ESV Jude 1:6", tool: study_verse, args: {book: Jude, chapter: 1, verse: 6, work_id: esv-study-bible}, expect_contains: "kept in eternal chains under gloomy darkness until the judgment of the great day", checked: 2026-09-28}
+  - {id: jude14, what: "ESV Jude 1:14", tool: study_verse, args: {book: Jude, chapter: 1, verse: 14, work_id: esv-study-bible}, expect_contains: "Behold, the Lord comes with ten thousands of his holy ones", checked: 2026-09-28}
 
 last_updated: "2026-09-28"
