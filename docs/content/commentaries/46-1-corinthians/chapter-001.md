@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:2
+- [Pride](../../sin/pride.md) — 1:28-31
 - [Wisdom](../../wisdom/index.md) — 1:24
 <!-- commentary-index:auto-end -->

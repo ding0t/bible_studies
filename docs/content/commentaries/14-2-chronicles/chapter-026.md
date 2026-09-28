@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 26:16-21
+- [Pride](../../sin/pride.md) — 26:16
 <!-- commentary-index:auto-end -->

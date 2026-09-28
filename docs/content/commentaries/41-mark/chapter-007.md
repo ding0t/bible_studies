@@ -13,4 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 7:24-31
+- [In Humility](../../christian-life/humility.md) — 7:21-23
+- [Pride](../../sin/pride.md) — 7:21-23
 <!-- commentary-index:auto-end -->

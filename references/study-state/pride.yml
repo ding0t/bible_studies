@@ -5,7 +5,7 @@
 
 slug: "pride"
 title: "Pride"
-status: review
+status: published
 target_path: "docs/content/sin/pride.md"
 
 primary_passage: "Proverbs 16:18"
@@ -93,3 +93,22 @@ resources_consulted:
   - {type: other, title: "Origen, De Principiis 1.5.4-5 (ANF 4); Tertullian, Against Marcion 2.10 (ANF 3)", note: "verified in $BIBLE_MEDIA_ROOT/reference/patristics/ante-nicene-fathers/."}
   - {type: lexicon, title: "Abbott-Smith via STEPBible TBESG", note: "hyperephanos, typhoo, alazoneia, physioo."}
 last_updated: "2026-09-28"
+read_2026-09-28:
+  scope: "read-bible-study structure pass (stranger reader, separate session from the draft); no sentence changed"
+  changes:
+    - "Moved '## Did Satan fall through pride?' up to follow '## \"You are gods\"', so the two sections on claiming God's place sit together and 'Mercy to the proud who turn' leads straight into 'The way down'."
+    - "Split '## What pride looks like' into '### Six faces' and '### Pride deceives its owner' (the thesis's 'deceives' clause, buried after the list, now has a heading)."
+    - "Split '## \"You are gods\"' into '### Men who claimed to be gods' and '### Three verses read as \"little gods\"'."
+    - "Study outline reordered to match; 'What pride looks like' annotation extended (descriptive)."
+  sections: "29 -> 33"
+  median_section_words: "82 -> 82"
+  sections_over_400: "0 -> 0"
+  longest_section_words: "287 -> 252"
+  verify: "study_structure.py --verify-against HEAD: clean, removed [], added_unexpected [], added_allowed []"
+  validate: "npm run validate: no warnings for this file"
+  anchors: "all 9 Study outline anchors resolve (python-markdown toc render; draft page is dropped by mkdocs build)"
+  findings_not_fixed_prose:
+    - "'### His glory, and pride's end' opens on a quotation (James 4:6) rather than a topic sentence."
+    - "'### Pride deceives its owner' opens 'And pride deceives its owner.' -- the 'And' was written to follow the list; author may drop it."
+    - "Psalm 82:6 'Who they are is contested' is marked but sits inside a bullet; it cannot take a heading without restructuring the list."
+    - "Not re-verified: this pass checks no quotation, count or citation (review_2026-09-28 is the audit of record)."

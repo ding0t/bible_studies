@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Pride](../../sin/pride.md) — 16:18 (primary passage)
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 16:20
 <!-- commentary-index:auto-end -->

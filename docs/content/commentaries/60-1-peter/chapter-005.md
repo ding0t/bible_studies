@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 5:8
+- [In Humility](../../christian-life/humility.md) — 5:5-7
 <!-- commentary-index:auto-end -->

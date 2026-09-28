@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 3:21
+- [In Humility](../../christian-life/humility.md) — 3:7-8
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 3:4-11
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 3:20
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 3:20-21

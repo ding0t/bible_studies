@@ -4,7 +4,7 @@ category: "other"
 description: "Verse-by-verse commentary, organized by book, with auto-linked studies (see commentary_index.py)."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-09-06
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -191,6 +191,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](30-amos/)
 
+-   __Obadiah__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](31-obadiah/)
+
 -   __Jonah__
 
     ---
@@ -364,6 +370,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](62-1-john/)
+
+-   __3 John__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](64-3-john/)
 
 -   __Jude__
 

@@ -12,5 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [In Humility](../../christian-life/humility.md) — 18:14
+- [Pride](../../sin/pride.md) — 18:9-14
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 18:33
 <!-- commentary-index:auto-end -->

@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -32,6 +32,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     Understanding fasting
 
     [:octicons-arrow-right-24: Read](fasting.md)
+
+-   __In Humility__
+
+    ---
+
+    Humility is living before God as someone who depends on Him for everything, as Jesus lived before His Father all the way to the cross. It shows itself in counting others more significant than yourself, and God lifts it up. A study of Philippians 2:1-11.
+
+    [:octicons-arrow-right-24: Read](humility.md)
 
 -   __Know the Truth__
 

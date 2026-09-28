@@ -8,7 +8,7 @@
 
 slug: "humility"
 title: "In Humility"
-status: review # review_2026-09-28 fixes applied; awaiting author read and read-bible-study pass
+status: published
 target_path: "docs/content/christian-life/humility.md"
 
 primary_passage: "Philippians 2:1-11"
@@ -130,6 +130,17 @@ review_2026-09-28:
     - "Over budget (4,331): 'In yourself' section folded into Before God / Toward others."
   minor_fixed: "antitasso gloss paraphrased; NIVCBSB Col 2:18 paraphrase corrected; H6800 attached to the verb only; 'participation in the Spirit' (ESV); 'God opposes the proud'; servanthood tag dropped; bible_references completed; Luke 22:27 added."
   not_taken: "Matthew 5:5 (praus) gap -- left out for budget."
+
+read_2026-09-28:
+  by: "read-bible-study, subagent (anthropic/claude-opus-5.5), fresh session"
+  measurements: "sections 32 -> 34; median 97 -> 95 words; longest 228 -> 215; over 400: 0 -> 0; walls 0 -> 0"
+  prose_identity: "study_structure.py --verify-against HEAD: clean, no sentence changed"
+  changes:
+    - "Split 'Daily bread' at the Deut 8:14-17 paragraph: new '### Everything you have, you received' makes the folded-in 1 Cor 4:7 / Rom 12:3 / James 4:13-15 material findable."
+    - "New '### What \"emptied himself\" means' over the kenosis paragraph in The mind of Christ (buried corrective, rule 5)."
+    - "'### The King on a donkey' -> '### The gentle King' (section opens with Matt 11:29 before Zech 9:9)."
+    - "Study outline annotations for Before God and Gentle and lowly updated to match; ## anchors unchanged, #humility-for-show kept."
+  not_changed_recommendations: "see report; none blocking"
 
 open_questions:
   - "Fork: pride (sin/pride.md) -- origin in the heart, God opposes the proud, Isa 14 / Ezek 28 as the fall of Satan (contested), 1 Tim 3:6 the condemnation of the devil."

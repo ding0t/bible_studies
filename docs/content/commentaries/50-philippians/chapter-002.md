@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [In Humility](../../christian-life/humility.md) — 2:1-11 (primary passage)
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 2:6-7
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:15
 <!-- commentary-index:auto-end -->

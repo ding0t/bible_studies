@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 4:4-27
+- [Pride](../../sin/pride.md) — 4:29-37
 <!-- commentary-index:auto-end -->

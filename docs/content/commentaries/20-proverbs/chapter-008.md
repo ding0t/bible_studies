@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Pride](../../sin/pride.md) — 8:13
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 8:35-36
 - [Wisdom](../../wisdom/index.md) — 8:35-36
 <!-- commentary-index:auto-end -->

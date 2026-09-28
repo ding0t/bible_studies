@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 10:17-20
+- [Pride](../../sin/pride.md) — 10:15-18
 <!-- commentary-index:auto-end -->

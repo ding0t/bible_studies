@@ -14,6 +14,7 @@ draft: false
 
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 10:35-45 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 10:30
+- [In Humility](../../christian-life/humility.md) — 10:42-45
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 10:46-52
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 10:34
 <!-- commentary-index:auto-end -->

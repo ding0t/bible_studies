@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Know the Truth](../../christian-life/know-the-truth.md) — 2:21
+- [Pride](../../sin/pride.md) — 2:16
 <!-- commentary-index:auto-end -->

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [In Humility](../../christian-life/humility.md) — 23:12
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 23:36
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 23:37
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 23:36-39

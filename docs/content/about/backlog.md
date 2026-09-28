@@ -33,6 +33,7 @@ Add new items here. They get a number and move into their section.
 | [0.3](#03-key-takeaways-the-remaining-two-parts) | Key Takeaways: the remaining two parts | Site features |
 | [0.5](#05-a-blog) | A blog | Site features |
 | [0.6](#06-pop-up-follow-ups) | Pop-up follow-ups | Site features |
+| [0.7](#07-review-the-older-studies) | Review the older studies | Site features |
 | [1.1](#11-extra-biblical-texts) | Extra-biblical texts | Scripture |
 | [1.2](#12-typed-scripture-links) | Typed scripture links | Scripture |
 | [2.1](#21-prophecy-and-jesus) | Prophecy and Jesus | Jesus |
@@ -54,7 +55,6 @@ Add new items here. They get a number and move into their section.
 | [10.2](#102-where-two-or-three-are-gathered) | Where two or three are gathered | Christian life |
 | [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
 | [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
-| [10.5](#105-in-humility) | In humility | Christian life |
 
 Finished items move to [Completed](#completed) at the foot of the page and keep their numbers, so
 an old reference still points at the right thing.
@@ -136,6 +136,49 @@ What the pop-ups (0.1 and 0.2) left undone.
 - **Counts in the studies against the cards.** A study's "only here" or "N times" now sits on the
   same page as a card showing the concordance's number. A one-off pass comparing every stated count
   with the exported data would find the stale ones (see validator checks 18-19).
+
+### 0.7 Review the older studies
+
+About 70 hand-written studies are live, and 16 have had a review-bible-study pass since
+2026-09-24. Nearly every page lists `anthropic/claude-opus-5.5` in its provenance, but that
+records the site-wide sweeps (pop-ups, Key Takeaways) rather than reviews. A review counts when it
+is recorded as a dated `review_` block in the study's state file. Work through the list in batches
+of about four, and record each review in the state file.
+
+- **Priority 1: changed or published since 2026-09-24 with no review since.** Silent doctrinal or
+  chronology drift is the risk here.
+  - [The Rapture of the Church](../last-things/rapture.md): now reads Matthew 24:36-44 as the second coming
+    (2026-09-28). Last reviewed 2026-09-06.
+  - [Genealogy and Times](../last-things/genealogy-times.md): rewritten in the change to follow the
+    Masoretic numbers.
+  - [Chronology Anchors](../last-things/chronology-anchors.md): 4,600 words the timeline rests on,
+    never reviewed.
+  - [At Home with the Lord](../last-things/at-home-with-the-lord.md),
+    [Taken Before Judgment](../last-things/taken-before-judgment.md),
+    [Six Days of History](../last-things/six-days-of-history.md) and
+    [A Thousand Years in Your Sight](../last-things/a-thousand-years-in-your-sight.md): published
+    2026-09-27 without a review.
+  - [One Taken, One Left](../last-things/one-taken-one-left.md): never reviewed. The Olivet and
+    rapture studies both point readers to it.
+  - [The Olivet Discourse](../last-things/olivet-discourse.md): regrouped 2026-09-28. Last reviewed
+    2026-09-04.
+  - [The Bride of Christ](../israel-and-church/bride-of-christ.md): 10,000 words, heavily edited
+    since its 2026-09-23 review.
+- **Priority 2: long, and never reviewed by any model.**
+  - [Bible Translations & Source Texts](../scripture/translations.md): the `source_profile` data was distilled from it,
+    so an error here reaches every study's choice of translation.
+  - [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md) and
+    [Biblical Numerology](../scripture/numerology.md).
+  - [The Woman at the Well](../jesus/woman-at-well.md) and
+    [The Woman Who Touched the Fringe](../jesus/woman-with-the-issue-of-blood.md).
+  - [Paul](../biblical-figures/paul.md) and the ten short apostle pages.
+  - [Fasting](../christian-life/fasting.md), written with Sonnet 4.5. The humility study links to it.
+- **Priority 3: reviewed before 2026-09-24 and stable since.** The Way, Melchizedek Priesthood, The
+  Trumpet Call of God, The Twelve, Assurance of Salvation, The Last Supper's Four Cups, Three Days
+  and Three Nights, The Lord's Prayer, Prayer as Communion.
+- **Not reviews.** [Sin and Sexual Immorality](../sin/sexual-immorality.md) (28 words) and
+  [Sin and Idolatry](../sin/idolatry.md) (185 words) are stubs and need a develop pass. For the first, see
+  [9.2](#92-sexual-immorality). The pride study links to Idolatry.
 
 ## 1. Scripture
 
@@ -646,28 +689,6 @@ heart that opens the door.
   and Laodicea's lukewarm water supply, which the letter's "neither cold nor hot" draws on.
 - **Links:** 10.3 (religion and a contrite heart), and [The Way](../jesus/the-way.md).
 
-### 10.5 In humility
-
-A study on what it means to be humble before God and toward others, and how that differs from
-looking pious.
-
-- **Toward others:** "in humility count others more significant than yourselves" (Philippians 2:3,
-  ESV), and the call to be mature in understanding (1 Corinthians 14:20; the KJV's "in understanding
-  be men").
-- **Christ the example:** the self-emptying of Philippians 2:5-8, "gentle and lowly in heart"
-  (Matthew 11:29), and the washing of the disciples' feet (John 13:1-17). Gather the Scripture that
-  presents His humility as the pattern.
-- **Humble, and not pious:** ταπεινοφροσύνη (*tapeinophrosynē*, G5012, "humility") occurs 7 times,
-  and twice it is false humility, the self-abasement of the ascetics at Colossae (Colossians 2:18,
-  23). Set that against the real thing.
-- **The opposite, pride:** how to recognise it, and where it comes from. Pride comes "out of the
-  heart" in Jesus' list (Mark 7:21-22), and "God opposes the proud" (James 4:6; 1 Peter 5:5). Treat
-  it as a pervasive, deep sin. Mark as contested any reading of Isaiah 14 or Ezekiel 28 as the fall
-  of Satan.
-- **Three directions:** humility in yourself, toward others, and before God (Micah 6:8; Isaiah
-  57:15). Hebrew <span dir="rtl">עָנָו</span> (*ʿanav*, H6035), said of Moses at Numbers 12:3.
-- **Links:** 10.3 (a contrite heart), and other studies that touch it.
-
 ## Completed
 
 Kept here so that an old reference like "work on 3.1" still resolves.
@@ -686,3 +707,4 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 0.4 | New studies shown apart from updated ones | [New this month](recent-updates.md#new) on Recent updates and the homepage, dated from the commit that took each page out of draft, and a "New" line under the title and icon in the nav for 30 days, 2026-09-28. The feed idea moved to [0.5](#05-a-blog) |
 | 5.4 | The Olivet Discourse, regrouped by the disciples' questions | [The Olivet Discourse](../last-things/olivet-discourse.md) regrouped under the question each part answers, a section on which question the flight to the mountains answers (marked contested), and "one taken, one left" pointed at [One Taken, One Left](../last-things/one-taken-one-left.md) from both it and the rapture study, 2026-09-28 |
 | 5.8 | We will all be changed, raised imperishable | [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) (1 Corinthians 15:35-58), linked from At Home with the Lord (4.2); the white robes of 5.6 treated as a separate gift, 2026-09-28 |
+| 10.5 | In humility | [In Humility](../christian-life/humility.md) (Philippians 2:1-11), rooted in dependence on God; its counterpart [Pride](../sin/pride.md), with "You are gods" and the Isaiah 14 / Ezekiel 28 question marked contested, 2026-09-28 |

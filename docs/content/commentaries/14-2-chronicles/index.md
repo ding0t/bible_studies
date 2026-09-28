@@ -13,6 +13,7 @@ draft: false
 ## Chapters with linked studies
 
 - [Chapter 7](chapter-007.md) — 1 study(ies)
-- [Chapter 26](chapter-026.md) — 1 study(ies)
+- [Chapter 26](chapter-026.md) — 2 study(ies)
+- [Chapter 32](chapter-032.md) — 1 study(ies)
 - [Chapter 36](chapter-036.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

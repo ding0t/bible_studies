@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Pride](../../sin/pride.md) — 14:11-15
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 14:15-17
 <!-- commentary-index:auto-end -->

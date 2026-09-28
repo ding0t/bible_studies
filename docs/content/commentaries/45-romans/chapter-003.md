@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Pride](../../sin/pride.md) — 3:24-27
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../god/flood-and-the-king-lists.md) — 3:2
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 3:24
 - [The Way](../../jesus/the-way.md) — 3:16-17

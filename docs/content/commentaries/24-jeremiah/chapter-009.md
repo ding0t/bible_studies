@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 9:25-26
+- [Pride](../../sin/pride.md) — 9:23-24
 <!-- commentary-index:auto-end -->

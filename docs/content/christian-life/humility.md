@@ -3,7 +3,7 @@ title: "In Humility"
 category: "spiritual-disciplines"
 description: "Humility is living before God as someone who depends on Him for everything, as Jesus lived before His Father all the way to the cross. It shows itself in counting others more significant than yourself, and God lifts it up. A study of Philippians 2:1-11."
 tags: ["philippians", "colossians", "james", "1-peter", "micah", "humility", "pride", "discipleship", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Philippians 2:1-11"
 bible_references: ["Philippians 4:2", "Philippians 1:17", "Philippians 2:12-13", "Philippians 3:7-8", "Numbers 12:1-8", "Matthew 11:28-30", "Zechariah 9:9", "Matthew 21:5", "John 13:1-17", "Mark 10:42-45", "Luke 22:24-27", "Isaiah 45:22-23", "Romans 14:11", "Isaiah 57:15", "Isaiah 61:1", "Luke 4:18", "Isaiah 66:2", "Micah 6:8", "Proverbs 3:34", "Proverbs 11:2", "James 4:6-10", "James 4:13-15", "1 Peter 5:5-7", "Matthew 23:12", "Luke 14:11", "Luke 18:14", "Deuteronomy 8:2-3", "Deuteronomy 8:14-17", "Exodus 16:19-20", "Matthew 6:11", "Romans 12:3", "Romans 12:16", "1 Corinthians 4:7", "1 Corinthians 8:1", "1 Corinthians 14:20", "Matthew 18:1-4", "Ephesians 4:2", "Colossians 3:12", "Colossians 2:16-23", "Matthew 6:1", "Mark 7:21-23", "Genesis 3:5"]
 date_created: 2026-09-28
@@ -85,10 +85,10 @@ In Jesus' name. Amen.
 
 - [What the words mean](#what-the-words-mean). A word for "low," and the Hebrew word for the poor who
   have only God to rely on.
-- [Before God](#before-god). The root: dependence on God, where He dwells, and whom He lifts up.
+- [Before God](#before-god). The root: dependence on God, everything you have as received, where He dwells, and whom He lifts up.
 - [The mind of Christ](#the-mind-of-christ). Philippians 2:1-11, where the command's words come back
   in what Jesus did.
-- [Gentle and lowly](#gentle-and-lowly). The Gospels' picture: the King on a donkey, and the towel.
+- [Gentle and lowly](#gentle-and-lowly). The Gospels' picture: the gentle King, and the towel.
 - [Toward others](#toward-others). The fruit: what the letters ask of a church.
 - [Humility for show](#humility-for-show). The same Greek word, used at Colossae of a proud religion.
 - [The opposite: pride](#the-opposite-pride). Self-sufficiency, and a pointer to the fuller study.
@@ -157,6 +157,8 @@ God humbled them by making them depend on Him one day at a time. Manna could not
 (Exodus 16:19-20). Jesus put the same lesson in the prayer He taught: "Give us this day our daily
 bread" (Matthew 6:11, ESV). See [The Lord's Prayer](lords-prayer.md) and [Bread of
 Life](../jesus/bread-of-life-feeding-the-multitudes.md#daily-bread).
+
+### Everything you have, you received
 
 The same chapter names the opposite. When Israel was full, the danger was that "your heart be lifted
 up, and you forget the LORD your God," and say, "My power and the might of my hand have gotten me
@@ -286,6 +288,8 @@ on Philippians 2:7).
 And His humility took the form of obedience: "he humbled himself by becoming obedient." Before it was
 service to us, it was dependence on His Father.
 
+### What "emptied himself" means
+
 "Emptied himself" has been read to mean that the Son gave up His divine nature or some of its powers.
 Verse 7 says how He emptied Himself: "by taking the form of a servant." The *ESV Study Bible* says
 Paul is not saying Christ became less than God (note on Philippians 2:7). He added a human nature and
@@ -310,7 +314,7 @@ gain I had, I counted as loss for the sake of Christ" (Philippians 3:7, ESV).
 
 ## Gentle and lowly
 
-### The King on a donkey
+### The gentle King
 
 Jesus once described His own heart, and He chose these two words:
 

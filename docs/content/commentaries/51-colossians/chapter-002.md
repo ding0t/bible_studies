@@ -19,6 +19,8 @@ draft: false
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 2:16-17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 2:16-17
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 2:15
+- [In Humility](../../christian-life/humility.md) — 2:16-23
+- [Pride](../../sin/pride.md) — 2:18
 - [The Day Is Near](../../last-things/day-is-near.md) — 2:16-17
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:14
 - [Wisdom](../../wisdom/index.md) — 2:3

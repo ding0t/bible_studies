@@ -4,7 +4,7 @@ category: "other"
 description: "Sin, temptation, and the pattern of redemption in Scripture."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-08-23
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -23,6 +23,14 @@ Sin, temptation, and the pattern of redemption in Scripture.
     Understanding idolatry as a primary sin against God
 
     [:octicons-arrow-right-24: Read](idolatry.md)
+
+-   __Pride__
+
+    ---
+
+    Pride is self-sufficiency: living as though you need no one above you, and at its root wanting God's place. It comes out of the heart, it deceives the one who has it, and God sets Himself against it. The way down is to humble yourself and boast in the cross of Jesus.
+
+    [:octicons-arrow-right-24: Read](pride.md)
 
 -   __Sin and Sexual Immorality__
 

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 4:8-10
+- [In Humility](../../christian-life/humility.md) — 4:2
 - [Know the Truth](../../christian-life/know-the-truth.md) — 4:14-15
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:30
 <!-- commentary-index:auto-end -->

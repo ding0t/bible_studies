@@ -3,7 +3,7 @@ title: "Pride"
 category: "sin"
 description: "Pride is self-sufficiency: living as though you need no one above you, and at its root wanting God's place. It comes out of the heart, it deceives the one who has it, and God sets Himself against it. The way down is to humble yourself and boast in the cross of Jesus."
 tags: ["proverbs", "daniel", "isaiah", "ezekiel", "james", "pride", "humility", "satan", "method/word-study", "lang/hebrew", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Proverbs 16:18"
 bible_references: ["Daniel 4:29-37", "Genesis 3:5", "Deuteronomy 8:11-17", "Isaiah 2:10-12", "Isaiah 14:11", "Proverbs 8:13", "Proverbs 6:16-17", "Proverbs 16:5", "Proverbs 29:23", "Proverbs 3:34", "Obadiah 1:3-4", "Mark 7:21-23", "2 Chronicles 26:16", "2 Chronicles 32:25-26", "1 Corinthians 4:7", "1 Corinthians 4:18", "1 Corinthians 8:1", "1 Timothy 3:6", "Luke 18:9-14", "James 4:6", "James 4:13-16", "1 John 2:16", "3 John 1:9", "Acts 12:21-23", "Acts 14:11-15", "Ezekiel 28:2", "2 Thessalonians 2:3-8", "1 John 3:2", "2 Chronicles 26:19-21", "Psalm 82:1-8", "John 10:33-36", "2 Peter 1:4", "Colossians 2:18", "Luke 1:51-52", "Revelation 18:7-8", "Isaiah 14:4-21", "Ezekiel 28:11-19", "Luke 10:15-18", "Revelation 12:9", "Jeremiah 9:23-24", "1 Corinthians 1:28-31", "Romans 3:24-27", "Galatians 6:14"]
 date_created: 2026-09-28
@@ -88,13 +88,13 @@ In Jesus' name. Amen.
 - [What the words mean](#what-the-words-mean). Hebrew words for height and presumption, and Greek
   words for showing off, smoke and swelling.
 - [Where pride comes from](#where-pride-comes-from). The heart, success, and gifts.
-- [What pride looks like](#what-pride-looks-like). Six faces of pride in Scripture.
+- [What pride looks like](#what-pride-looks-like). Six faces, and how pride deceives its owner.
 - ["You are gods"](#you-are-gods). Every claim to be divine that Scripture records, and the verses
   some use to call believers gods.
-- [Why God opposes the proud](#why-god-opposes-the-proud). His glory, pride's end, and His mercy to
-  those who turn.
 - [Did Satan fall through pride?](#did-satan-fall-through-pride) Isaiah 14 and Ezekiel 28, with the
   case on both sides.
+- [Why God opposes the proud](#why-god-opposes-the-proud). His glory, pride's end, and His mercy to
+  those who turn.
 - [The way down](#the-way-down). The cross, and boasting in the Lord.
 - [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
@@ -182,6 +182,8 @@ overseer, "or he may become puffed up with conceit and fall into the condemnatio
 
 ## What pride looks like
 
+### Six faces
+
 Scripture gives pride faces you can recognise.
 
 - **Comparison.** "God, I thank you that I am not like other men" (Luke 18:11, ESV). Jesus told the
@@ -199,11 +201,15 @@ Scripture gives pride faces you can recognise.
 - **Religious show.** Pride can dress as humility. At Colossae, a man practising self-denial was
   "puffed up without reason" (Colossians 2:18, ESV). See [In Humility](../christian-life/humility.md#humility-for-show).
 
+### Pride deceives its owner
+
 And pride deceives its owner. Edom lived in the high rocks and said, "Who will bring me down to the
 ground?" (Obadiah 1:3, ESV). God answered: "from there I will bring you down" (Obadiah 1:4, ESV).
 Edom's pride was the reason Edom could not see what was coming.
 
 ## "You are gods"
+
+### Men who claimed to be gods
 
 Scripture records people claiming to be divine, or letting others call them so, and it answers every
 one.
@@ -218,6 +224,8 @@ The apostles show the humble answer. At Lystra the crowd cried, "The gods have c
 likeness of men!" and brought oxen to sacrifice. Paul and Barnabas tore their clothes and ran into the
 crowd: "Men, why are you doing these things? We also are men, of like nature with you" (Acts
 14:11, 15, ESV).
+
+### Three verses read as "little gods"
 
 Some teach today that believers are "little gods," usually from three verses. Read in context, none
 of them says so.
@@ -239,26 +247,6 @@ of them says so.
 The believer's glory is real. You are God's child and will be like Christ (1 John 3:2). It is given,
 and it is always creature-glory. A teaching that makes you a god has returned to the serpent's offer
 in Genesis 3:5.
-
-## Why God opposes the proud
-
-### His glory, and pride's end
-
-"God opposes the proud but gives grace to the humble" (James 4:6, ESV), quoting Proverbs 3:34.
-"Everyone who is arrogant in heart is an abomination to the LORD" (Proverbs 16:5, ESV).
-
-The proud person claims a height that belongs to God, and so he claims something untrue. God guards
-His glory, and in guarding it He guards the truth. It is also His kindness, because pride destroys
-the one who holds it: "One's pride will bring him low" (Proverbs 29:23, ESV). The day of the LORD will
-finish the work: "the LORD alone will be exalted in that day" (Isaiah 2:11, ESV).
-
-### Mercy to the proud who turn
-
-God opposes the proud, and He also receives them when they come down. Hezekiah's heart grew proud
-after God healed him, "But Hezekiah humbled himself for the pride of his heart ... so that the wrath of
-the LORD did not come upon them in the days of Hezekiah" (2 Chronicles 32:26, ESV). Nebuchadnezzar
-lifted his eyes to heaven, and God gave him back his reason and his kingdom (Daniel 4:34, 36). The
-tax collector who beat his breast "went down to his house justified" (Luke 18:14, ESV).
 
 ## Did Satan fall through pride?
 
@@ -342,6 +330,26 @@ establish it, so no doctrine should rest on it alone. What Scripture says plainl
 serpent's temptation was "you will be like God" (Genesis 3:5), the conceited man falls into "the
 condemnation of the devil" (1 Timothy 3:6), and "that ancient serpent, who is called the devil and
 Satan" will be thrown down (Revelation 12:9, ESV). The proud person walks the devil's road.
+
+## Why God opposes the proud
+
+### His glory, and pride's end
+
+"God opposes the proud but gives grace to the humble" (James 4:6, ESV), quoting Proverbs 3:34.
+"Everyone who is arrogant in heart is an abomination to the LORD" (Proverbs 16:5, ESV).
+
+The proud person claims a height that belongs to God, and so he claims something untrue. God guards
+His glory, and in guarding it He guards the truth. It is also His kindness, because pride destroys
+the one who holds it: "One's pride will bring him low" (Proverbs 29:23, ESV). The day of the LORD will
+finish the work: "the LORD alone will be exalted in that day" (Isaiah 2:11, ESV).
+
+### Mercy to the proud who turn
+
+God opposes the proud, and He also receives them when they come down. Hezekiah's heart grew proud
+after God healed him, "But Hezekiah humbled himself for the pride of his heart ... so that the wrath of
+the LORD did not come upon them in the days of Hezekiah" (2 Chronicles 32:26, ESV). Nebuchadnezzar
+lifted his eyes to heaven, and God gave him back his reason and his kingdom (Daniel 4:34, 36). The
+tax collector who beat his breast "went down to his house justified" (Luke 18:14, ESV).
 
 ## The way down
 

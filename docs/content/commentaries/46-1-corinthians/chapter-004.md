@@ -12,6 +12,8 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [In Humility](../../christian-life/humility.md) — 4:7
+- [Pride](../../sin/pride.md) — 4:7
 - [The Way](../../jesus/the-way.md) — 4:17
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 4:8
 <!-- commentary-index:auto-end -->

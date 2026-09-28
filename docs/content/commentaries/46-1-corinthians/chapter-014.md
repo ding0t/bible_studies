@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [In Humility](../../christian-life/humility.md) — 14:20
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 14:8
 <!-- commentary-index:auto-end -->

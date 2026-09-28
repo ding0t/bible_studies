@@ -14,5 +14,6 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 14:15-24
 - [Biblical Numerology](../../scripture/numerology.md) — 14:28
+- [In Humility](../../christian-life/humility.md) — 14:11
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 14:5
 <!-- commentary-index:auto-end -->

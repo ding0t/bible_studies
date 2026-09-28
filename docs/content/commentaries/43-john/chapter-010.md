@@ -17,4 +17,5 @@ draft: false
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 10:22
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 10:34-36
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 10:34-36
+- [Pride](../../sin/pride.md) — 10:33-36
 <!-- commentary-index:auto-end -->

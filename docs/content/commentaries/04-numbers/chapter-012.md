@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 12:6-8
+- [In Humility](../../christian-life/humility.md) — 12:1-8
 <!-- commentary-index:auto-end -->
