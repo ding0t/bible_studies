@@ -940,7 +940,7 @@ const GenealogyViewer = () => {
               <div style={{ 
                 marginBottom: '20px', 
                 padding: '12px 16px', 
-                backgroundColor: colors.indigo.light, 
+                backgroundColor: theme.calloutBg,
                 borderLeft: `4px solid ${colors.indigo[600]}`,
                 borderRadius: '4px'
               }}>
@@ -1033,10 +1033,13 @@ const GenealogyViewer = () => {
                 <div style={{ backgroundColor: theme.cardBg, padding: '16px', borderRadius: '8px', border: `1px solid ${theme.border}` }}>
                   <ul style={{ listStyle: 'none', padding: 0 }}>
                     {selectedPerson.children.map(childId => {
+                      // Same unresolved-id case getChildren filters out, but here the child is
+                      // still worth listing -- Leah's Reuben, Simeon and Levi have no record.
                       const child = getPerson(childId);
+                      const name = child?.name ?? childId.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
                       return (
                         <li key={childId} style={{ marginBottom: '8px' }}>
-                          <strong>{child.name}</strong>{child.lifespan_years == null ? '' : ` (${child.lifespan_years} years)`}
+                          <strong>{name}</strong>{child?.lifespan_years == null ? '' : ` (${child.lifespan_years} years)`}
                         </li>
                       );
                     })}
