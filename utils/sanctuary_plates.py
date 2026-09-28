@@ -353,7 +353,7 @@ ALTAR_DESC = (
     "the size of the horns is dashed as not given. Beside it, what Exodus states and what it leaves "
     "unstated. Below, a plan of the tent with the altar before the veil, in line with the ark behind "
     "it, the lampstand on the south and the table on the north, and the Day of Atonement incense "
-    "carried inside the veil; the four ingredients of the holy incense in equal parts, seasoned with "
+    "carried inside the veil from an altar the text does not name; the four ingredients of the holy incense in equal parts, seasoned with "
     "salt; and a strip following the altar from the tabernacle through Solomon's temple, King "
     "Uzziah, the priest Zechariah and the golden altar before the throne in Revelation 8 and 9, to "
     "the New Jerusalem, which has no temple.")
@@ -428,8 +428,8 @@ def build_incense_altar():
   <circle cx="{veil_x + 10 * bs}" cy="{by + tent_h - 18}" r="8" fill="url(#gold)" stroke="#9a7424"/>
   <text x="{veil_x + 10 * bs}" y="{by + tent_h - 32}" font-size="11" fill="{INK}" text-anchor="middle">lampstand (south)</text>
   <text x="{bx + tent_w + 10}" y="{axis + 4}" font-size="11" fill="{MUTED}">east: entrance</text>
-  <path d="M{veil_x + 2 * bs - 10} {axis - 12} Q{veil_x} {axis - 44} {bx + 5 * bs + 20} {axis - 14}" fill="none" stroke="#a9a1bb" stroke-width="2" {DASH} marker-end="url(#arrow)"/>
-  {wrap("Dashed arrow: once a year the high priest took incense inside the veil, so that its cloud covered the mercy seat (Leviticus 16:12-13). Solomon’s altar is “the altar that belonged to the inner sanctuary” (1 Kings 6:22), and Hebrews 9:4 speaks of the Most Holy Place “having” it. The tent’s 30 × 10 cubits are worked out from Exodus 26, not stated.", bx, by + tent_h + 22, 64, 11, MUTED, italic=True)}'''
+  <path d="M{veil_x + 18} {axis + 34} Q{veil_x} {axis - 44} {bx + 5 * bs + 20} {axis - 14}" fill="none" stroke="#a9a1bb" stroke-width="2" {DASH} marker-end="url(#arrow)"/>
+  {wrap("Dashed arrow: once a year the high priest took coals “from the altar before the LORD” and incense inside the veil, so that its cloud covered the mercy seat (Leviticus 16:12-13); which altar is not said. Solomon’s altar is “the altar that belonged to the inner sanctuary” (1 Kings 6:22). Worked out, not stated: the tent’s 30 × 10 cubits (Exodus 26), the veil’s line, and the altar’s exact place in front of it.", bx, by + tent_h + 22, 64, 11, MUTED, italic=True)}'''
 
     # Panel C: the incense, four spices in equal parts (Exodus 30:34-35).
     ix, iy = 560, by
@@ -604,7 +604,7 @@ def build_ark():
         ('', 'Seen in the temple in heaven', 'Revelation 11:19', True),
     ]
     strip = stage_strip(stages, mini_ark, 1400, W, 'Where the ark went',
-                        'Dashed: seen in a vision. In the order of the Old Testament books, Jeremiah 3:16 is the last to name the ark.')
+                        'Dashed: seen in a vision. In English Bible order, Jeremiah 3:16 is the last Old Testament book to name the ark.')
 
     body = f'''
   <text x="{cx}" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="{INK}">What Moses was told to make</text>
