@@ -8,7 +8,7 @@
 
 slug: "humility"
 title: "In Humility"
-status: review
+status: review # review_2026-09-28 fixes applied; awaiting author read and read-bible-study pass
 target_path: "docs/content/christian-life/humility.md"
 
 primary_passage: "Philippians 2:1-11"
@@ -20,10 +20,14 @@ supporting_passages: ["Matthew 11:29", "John 13:1-17", "Mark 10:42-45", "Zechari
 genre: [epistle, gospel, topical]
 
 thesis: >-
-  Humility is the mind of Christ Jesus, who was God and humbled Himself to death on a cross, and whom
-  the Father exalted; so you are to see yourself truly before God, count others more significant than
-  yourself, and leave your lifting up to Him, who dwells with the lowly, gives grace to the humble, and
-  sees through the humility people put on for show.
+  Humility is living before God as someone who depends on Him for everything, the way Jesus lived
+  before His Father all the way to the cross; it shows itself in counting others more significant than
+  yourself, and God, who dwells with the lowly and opposes the proud, lifts it up in His time.
+# Reframed 2026-09-28 at the author's direction: dependence on God is the root (Deut 8:3 manna /
+# daily bread, cf. lords-prayer.md and bread-of-life); humility toward others is its fruit; pride is
+# self-sufficiency (Deut 8:17; Gen 3:5). Outline order changed to words -> before God -> Christ ->
+# Gospels -> toward others -> for show -> pride; "In yourself" folded into "Before God" and "Toward
+# others".
 outline:
   - section: "Opening"
     says: "Two women in Philippi could not agree (Phil 4:2); Paul answered with Christ (2:5-11)."
@@ -111,6 +115,21 @@ stages:
   review:
     done: false
     validated: true # npm run validate clean (provenance fields pending commit); mkdocs build --strict passes
+
+review_2026-09-28:
+  by: "review-bible-study, subagent (anthropic/claude-opus-5.5)"
+  verified_clean: "every ESV quotation; tapeinophrosyne 7, physioo 7 (6 in 1 Cor), kenodoxia / ethelothreskia / hyperephania once each, tapeinos 8, tapeinoo 14; Micah 6:8 verb only here, root at Prov 11:2; Prov 3:34 Ketiv/Qere; study-Bible attributions; statement-of-faith line 69."
+  critical_fixed:
+    - "'Only the NASB 2020' shows the word at Col 2:18 -- false (KJV 'voluntary humility'; KJV and WEB 'humility' at 2:23). Table gains KJV and NLT rows; claim reworded."
+    - "'Every time the letters name humility ... aimed at other people' contradicted by Jas 4:10 / 1 Pet 5:6. Limited to the noun's four commands."
+    - "'A slave's word' unsourced; Abbott-Smith says 'slighting'. Reframed with the LXX (Prov 3:34; Isa 66:2) as the bridge."
+  moderate_fixed:
+    - "Phil 2 table: one same verb, two shared roots; 'word for word' removed."
+    - "'Four verses later' -> five; 'a few verses later' -> 'in the next chapter'."
+    - "Matt 11:30 'This one carries it' replaced with the verse's own words."
+    - "Over budget (4,331): 'In yourself' section folded into Before God / Toward others."
+  minor_fixed: "antitasso gloss paraphrased; NIVCBSB Col 2:18 paraphrase corrected; H6800 attached to the verb only; 'participation in the Spirit' (ESV); 'God opposes the proud'; servanthood tag dropped; bible_references completed; Luke 22:27 added."
+  not_taken: "Matthew 5:5 (praus) gap -- left out for budget."
 
 open_questions:
   - "Fork: pride (sin/pride.md) -- origin in the heart, God opposes the proud, Isa 14 / Ezek 28 as the fall of Satan (contested), 1 Tim 3:6 the condemnation of the devil."

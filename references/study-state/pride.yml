@@ -16,9 +16,14 @@ supporting_passages: ["Daniel 4:29-37", "Exodus 15:7", "Proverbs 8:13", "Obadiah
 genre: [wisdom, prophets, topical]
 
 thesis: >-
-  Pride is claiming for yourself the height and glory that belong to God; it comes out of the heart,
-  it blinds the one who has it, and God sets Himself against it, so the only way down from it is to
-  humble yourself before Him and boast in the cross of Jesus.
+  Pride is self-sufficiency, living as though everything you have is your own doing, and at its root
+  it wants God's place; it comes out of the heart, it deceives the one who has it, and God sets Himself
+  against it, so the way down is to humble yourself before Him and boast in the cross of Jesus.
+# Reframed 2026-09-28 at the author's direction (the opposite of humility-as-dependence). The earlier
+# "majesty in the wrong hands" definition rested on ga'on alone and was contradicted by its range.
+# New section "You are gods" added at the author's request, kept because Scripture answers the same
+# claim repeatedly (Ezek 28:2; Acts 12:22-23; Acts 14:15; 2 Thess 2:4) and the proof texts (Ps 82:6;
+# John 10:34; 2 Pet 1:4) can be read in context.
 outline:
   - section: "Opening"
     says: "Nebuchadnezzar on the roof (Dan 4:30) and his confession (4:37)."
@@ -61,6 +66,23 @@ stages:
     divergences_noted: "Isa 14:12 helel: ESV 'Day Star', LSB footnote 'Heb Helel; lit shining one', KJV 'Lucifer' via the Vulgate."
   drafting: {done: true, file: "docs/content/sin/pride.md"}
   review: {done: false, validated: true}
+
+review_2026-09-28:
+  by: "review-bible-study, subagent (anthropic/claude-opus-5.5)"
+  verified_clean: "every ESV quotation; ga'on 49, govah 17, zadon 11, helel only Isa 14:12, hyperephania only Mark 7:22 (NT), typhoo 3; Abbott-Smith glosses; Origen and Tertullian quotations in ANF; NIV BTSB / NIVCBSB / ESVSB wording."
+  critical_fixed:
+    - "ga'on 'means two things' false (positive exaltation Isa 4:2, Ps 47:4; Jordan thicket Jer 12:5; 'arrogance' at Prov 8:13). Rewritten as a word for height whose value depends on who is lifted."
+    - "ESVSB cited for a middle path it only reports ('Some have seen'). Now reported as such; the conclusion is the study's own."
+  moderate_fixed:
+    - "Origen: Ezek 28 = angel over Tyre; Isa 14 = devil, paired with Luke 10:18; Rufinus noted."
+    - "'second century' -> 'early third century'."
+    - "Added ESVSB 'second Adam' reading, Ezek 28:14 'with a cherub' fork (LXX meta tou cheroub; CSB footnote), and the oracle distinction."
+    - "Luke 10:15 (heaven / Hades of Isa 14:13, 15) added to the echo, both ways."
+    - "NLT Life Application cited for the Satan reading."
+    - "'wrap in smoke' no longer argued from etymology; blindness rests on Obadiah."
+    - "The cross named: justification by grace, redemption (Rom 3:24, 27)."
+  minor_fixed: "1 Cor 4:18 ESV 'arrogant'; 1 Tim 3:6 paraphrase; worth-template in Lessons about Jesus; References trimmed to notes used; bible_references completed."
+  open: "Dispensational commentaries' treatment of Isa 14 / Ezek 28 not in the repo; not named."
 
 open_questions:
   - "1 Tim 3:6 genitive: condemnation the devil received vs. judgement brought by the devil (NIV BTSB). Study takes the first as 'most natural', marked."
