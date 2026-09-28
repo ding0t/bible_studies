@@ -5,7 +5,7 @@ description: "An exegetical study of John 4:1-42: the two Greek words English fl
 tags: ["john", "samaritan-woman", "living-water", "method/word-study", "lang/greek", "person/jesus", "holy-spirit", "worship", "method/textual-criticism"]
 draft: false
 primary_passage: "John 4:1-42"
-bible_references: ["John 3:22-30", "John 7:37-39", "John 1:39", "John 1:46", "John 8:58", "John 19:26", "Jeremiah 2:13", "Jeremiah 17:13", "Zechariah 14:8", "Isaiah 12:3", "Isaiah 44:3", "Ezekiel 47:1-6", "Genesis 24:10-27", "Genesis 29:1-12", "Exodus 2:15-21", "Deuteronomy 18:15-18", "Deuteronomy 27:4", "Deuteronomy 11:29", "2 Kings 17:24-41", "Genesis 33:18-20", "Joshua 24:32", "Exodus 3:14", "Luke 14:5", "Revelation 9:1-2"]
+bible_references: ["John 3:22-30", "John 7:37-39", "John 1:39", "John 1:46", "John 8:58", "Jeremiah 2:13", "Jeremiah 17:13", "Zechariah 14:8", "Isaiah 12:3", "Isaiah 44:3", "Ezekiel 47:1-6", "Genesis 24:10-27", "Genesis 29:1-12", "Exodus 2:15-21", "Deuteronomy 18:15-18", "Deuteronomy 27:4", "Deuteronomy 11:29", "2 Kings 17:24-41", "Genesis 33:18-20", "Joshua 24:32", "Exodus 3:14", "Luke 14:5", "Revelation 9:1-2", "John 3:9", "John 2:19-21", "Matthew 5:35", "Zechariah 14:16", "Revelation 21:22", "John 2:8-9", "John 8:22", "John 8:24-28", "John 9:9", "John 18:35", "Matthew 12:23", "Genesis 24:42-45", "Genesis 26:19", "Leviticus 14:6"]
 date_created: 2025-04-25
 date_modified: 2026-09-28
 ai_provider_models:
@@ -341,8 +341,13 @@ worship; He answers *how*. Two of John's ten uses of δεῖ sit four verses apa
 Verse 21 removes both mountains, and verse 22 still awards the
 Jewish claim outright — "you worship what you do not know; we worship what we know, for salvation is
 from the Jews", where the "you" is plural, addressed to Samaritans generally rather than to her. The
-Samaritan claim is wrong, the Jerusalem claim is about to be superseded, and the hour that supersedes
-it "is now here" (4:23).
+Samaritan claim is wrong, and the Jerusalem claim is right about the past: salvation came through
+the Jews. What changes is the ground of access. From "now" (4:23) the Father is reached through the
+Son, whose body is the temple (John 2:21), and not by standing on the right mountain. That does not
+end Jerusalem's future. Jesus still calls it "the city of the great King" (Matthew 5:35), and the
+prophets see the nations going up there to worship the King in person (Zechariah 14:16). The place
+stays; it stops being the way in, and in the end the city's temple is "the Lord God the Almighty and
+the Lamb" (Revelation 21:22).
 
 "God is spirit" (**πνεῦμα ὁ θεός**) grounds it: God is present wherever He is sought, so worship goes
 wherever His worshippers are. Whether "in spirit and truth" means the human spirit or the Holy Spirit is left
