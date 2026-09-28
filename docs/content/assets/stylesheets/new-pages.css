@@ -1,0 +1,11 @@
+/* The line hooks/new_pages.py writes under a new page's title. Material's own variables, so it
+   follows the palette toggle. */
+.md-typeset .page-new {
+  margin-top: -0.6em;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+}
+
+.md-typeset .page-new .twemoji {
+  color: var(--md-accent-fg-color);
+}

@@ -49,6 +49,13 @@ hooks:
   - hooks/draft_pages.py
   # After draft_pages, so the verse pop-up's "in these studies" list never names a draft.
   - hooks/popups.py
+  # Marks a page new for 30 days after it is first published. See hooks/new_pages.py.
+  - hooks/new_pages.py
+
+# The tooltip on the icon hooks/new_pages.py puts beside a new page in the navigation.
+extra:
+  status:
+    new: New this month
 
 plugins:
   - search
@@ -436,6 +443,7 @@ extra_css:
   # mkdocs-material's own, so they follow the site palette and its dark-mode toggle.
   - assets/stylesheets/tools.css
   - assets/stylesheets/popups.css
+  - assets/stylesheets/new-pages.css
 
 # Verse and word pop-ups on every page. The bundle is built by `npm run build:tools` (app/) and
 # its data lives in assets/popups/ -- see app/src/entries/popups.js.

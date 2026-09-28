@@ -215,17 +215,73 @@ Two of these studies are charts you can drive rather than pages you read.
 
 </div>
 
+## New this month
+
+<!-- new-pages-teaser:auto-start -->
+<div class="grid cards" markdown>
+
+-   __A New Heaven and a New Earth__
+
+    ---
+
+    Revelation 20:7-21:8 after the thousand years and the great white throne: what Isaiah promised, what John saw, the eighth day of the Law as a type of the new creation, and where the New Testament's 'age to come' fits.
+
+    :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](last-things/new-heaven-and-new-earth.md)
+
+-   __Before Aaron: Who Offered Sacrifice?__
+
+    ---
+
+    Before Sinai the heads of families offered sacrifice for their households, yet Scripture calls none of them a priest. God then appointed Aaron's sons and gave the Levites in place of Israel's firstborn, because priesthood is always His appointment, and He appointed His Son Jesus, who holds His priesthood permanently.
+
+    :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](jesus/priesthood-before-sinai.md)
+
+-   __Deliverance and the Edge of Sorcery__
+
+    ---
+
+    At Philippi Paul silenced a spirit whose words were true in a formal sense and commanded it out in the name of Jesus. Four scriptural tests for where deliverance practice crosses into the inquiry Deuteronomy 18 forbids. A study of Acts 16:16-18.
+
+    :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md)
+
+-   __Heaven and Earth Will Pass Away__
+
+    ---
+
+    Matthew 24:35 and what Peter and Paul built on it: Jesus staked His words against the whole creation, and 2 Peter 3 and 1 Thessalonians 5 carry the Olivet Discourse's verbs and images -- parousia, the flood, the thief, labour pains -- into the same command to stay awake.
+
+    :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](last-things/heaven-and-earth-will-pass-away.md)
+
+-   __Immediately After: Daniel's Seventieth Week and the Olivet Discourse__
+
+    ---
+
+    Matthew 24:29's "immediately" joins the Son of Man's coming to the end of the great distress; Daniel 9:24-27's own sequence puts the long interval earlier, between the cross and the seventieth week, where the church age runs.
+
+    :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](last-things/immediately-after.md)
+
+-   __Israel's Regathering and Refining__
+
+    ---
+
+    God gathers Israel to the land for His holy name's sake, then cleanses her; refines a remnant through the time of distress for Jacob; and turns the nation to mourn for Jesus, the one they pierced. Ezekiel 36 and Zechariah 12-13, with 1948 weighed carefully.
+
+    :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](israel-and-church/israels-regathering-and-refining.md)
+
+</div>
+<!-- new-pages-teaser:auto-end -->
+
 ## Recently updated
 
 <!-- recent-updates-teaser:auto-start -->
-- **[Know the Truth](christian-life/know-the-truth.md)** — :material-new-box: New 2026-09-26
-- **[Prayer: Communion and the Habit It Sustains](christian-life/prayer-as-communion.md)** — :material-update: Updated 2026-09-26
-- **[Sin and Sorcery](sin/sorcery.md)** — :material-update: Updated 2026-09-26
-- **[Three Days and Three Nights](jesus/three-days-and-three-nights.md)** — :material-update: Updated 2026-09-26
-- **[Jesus, Priest in the Order of Melchizedek](jesus/melchizedek-priesthood.md)** — :material-update: Updated 2026-09-26
+- **[A Day Is a Thousand Years](last-things/day-is-a-thousand-years.md)** — :material-update: Updated 28 September 2026
+- **[Backlog](about/backlog.md)** — :material-update: Updated 28 September 2026
+- **[Copyright & Scripture Permissions](about/copyright.md)** — :material-update: Updated 28 September 2026
+- **[Genealogy Viewer](genealogy.md)** — :material-update: Updated 28 September 2026
+- **[Prophetic Timeline](timeline.md)** — :material-update: Updated 28 September 2026
 <!-- recent-updates-teaser:auto-end -->
 
-See the full [Recently Updated](about/recent-updates.md) list for more.
+See the full [Recently Updated](about/recent-updates.md) page for more.
 
 ## Recommended bible resources
 

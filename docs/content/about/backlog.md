@@ -31,7 +31,6 @@ Add new items here. They get a number and move into their section.
 | Ref | Topic | Section |
 |---|---|---|
 | [0.3](#03-key-takeaways-the-remaining-two-parts) | Key Takeaways: the remaining two parts | Site features |
-| [0.4](#04-new-studies-shown-apart-from-updated-ones) | New studies shown apart from updated ones | Site features |
 | [0.5](#05-a-blog) | A blog | Site features |
 | [0.6](#06-pop-up-follow-ups) | Pop-up follow-ups | Site features |
 | [1.1](#11-extra-biblical-texts) | Extra-biblical texts | Scripture |
@@ -84,23 +83,6 @@ format, with a link to [Key Takeaways](key-takeaways.md) (2026-09-27, 50 studies
   way the Key Takeaways line was normalised: one fixed wording, applied by script, relative link
   adjusted per file.
 
-### 0.4 New studies shown apart from updated ones
-
-Updates happen daily, so a new study gets lost among them. Readers, and the author, should be able
-to see what is new this month.
-
-- **The data is already there.** `date_created` is in every hand-written page's frontmatter,
-  derived from git by `refresh_frontmatter_provenance.py`.
-- **One catch:** `date_created` is the first commit, and a study forked or drafted weeks before it
-  is published would count as old on the day it goes live. "New" should mean *first published*:
-  the commit that set `draft: false`. `generate_recent_updates.py` already reads git log and can find
-  that commit.
-- **Ideas to choose from:**
-    - a "New this month" list above "Recently updated" on the
-      [Recent updates](recent-updates.md) page, and a matching block in the homepage teaser;
-    - a small "New" badge on a page for 30 days after publication, added by the build hook;
-    - a "New studies" feed once the blog (0.5) exists.
-
 ### 0.5 A blog
 
 A place for shorter posts alongside the studies, built on mkdocs-material's own blog plugin.
@@ -113,6 +95,8 @@ A place for shorter posts alongside the studies, built on mkdocs-material's own 
 - **Docs to update:** AGENTS.md says "this site has no blog" in its note on draft handling; that
   line changes when this lands.
 - **Deploy:** posts live under `docs/`, so the existing path filter already deploys them.
+- **A "New studies" feed**, left over from 0.4. `docs/data/published.json` already holds every
+  page's first-published date, so the feed needs no new git work.
 - **Decide first:** categories, authors, whether posts get the Key Takeaways shape (probably not),
   and whether a post can be the first draft of a study.
 
@@ -489,9 +473,9 @@ who wears them, and whether they are God's gift.
 
 What happens after the thousand years: Satan's release, the fire from heaven, the great white
 throne, and the passing of the present heaven and earth by fire before the new heaven and new earth.
-No study works through it. *Heaven and Earth Will Pass Away*
-(`last-things/heaven-and-earth-will-pass-away.md`, a draft spun off from the Olivet Discourse)
-places it in two paragraphs ("Where it falls") and stops there.
+No study works through it.
+[Heaven and Earth Will Pass Away](../last-things/heaven-and-earth-will-pass-away.md) (spun off from
+the Olivet Discourse, published 2026-09-28) places it in two paragraphs ("Where it falls") and stops there.
 
 - **Texts:** 2 Peter 3:7-13 read alongside Revelation 20:7–21:1; Isaiah 65:17 and 66:22; Isaiah
   51:6; Hebrews 1:10-12 (Psalm 102:25-27); Hebrews 12:26-28 (Haggai 2:6); Romans 8:18-25. Verify
@@ -699,5 +683,6 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 0.1 | Scripture pop-up on a verse reference | Every reference on the site opens the verse, its context, cross-references and the studies that treat it, 2026-09-27. Blue Letter Bible links removed |
 | 0.2 | Word-study pop-up on an original-language word | Every Strong's tag, and the word in front of it, opens a word card: lexicon, counts, where it occurs, renderings, and the studies that discuss it, 2026-09-27. Follow-ups in [0.6](#06-pop-up-follow-ups) |
 | 0.3 (part) | Normalise the Key Takeaways opening line | Done across 50 studies, 2026-09-27 |
+| 0.4 | New studies shown apart from updated ones | [New this month](recent-updates.md#new) on Recent updates and the homepage, dated from the commit that took each page out of draft, and a "New" line under the title and icon in the nav for 30 days, 2026-09-28. The feed idea moved to [0.5](#05-a-blog) |
 | 5.4 | The Olivet Discourse, regrouped by the disciples' questions | [The Olivet Discourse](../last-things/olivet-discourse.md) regrouped under the question each part answers, a section on which question the flight to the mountains answers (marked contested), and "one taken, one left" pointed at [One Taken, One Left](../last-things/one-taken-one-left.md) from both it and the rapture study, 2026-09-28 |
 | 5.8 | We will all be changed, raised imperishable | [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) (1 Corinthians 15:35-58), linked from At Home with the Lord (4.2); the white robes of 5.6 treated as a separate gift, 2026-09-28 |

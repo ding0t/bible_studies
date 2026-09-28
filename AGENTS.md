@@ -281,7 +281,7 @@ python3 utils/validate_genealogy.py       # run after hand-editing docs/data/gen
                                           # coverage are reported as warnings, because that
                                           # non-uniformity is legitimate content the components
                                           # must guard against rather than a data error.
-python3 utils/generate_recent_updates.py  # regenerate the Recently Updated page/teaser from git log; runs automatically in CI, so a manual run is only needed to preview locally
+python3 utils/generate_recent_updates.py  # regenerate New this month / Recently Updated (page + homepage) and docs/data/published.json from git log; runs automatically in CI, so a manual run is only needed to preview locally
 python3 utils/refresh_frontmatter_provenance.py  # fill date_created/date_modified/ai_provider_models on hand-written pages from git history -- run BEFORE committing a new or revised page and stage its edit with yours (--check reports drift without writing)
 ```
 
@@ -390,11 +390,17 @@ the workflow manually (`workflow_dispatch`).
   pipeline and is not covered by `references/README.md`'s license tiers. Treat it as a lead to
   chase down in a primary source, never as a citable reference in a study.
 - **`utils/generate_recent_updates.py` derives "recently updated" purely from git log** (no
-  hand-maintained date frontmatter field) and writes into two marker pairs: the full list on
-  `docs/content/about/recent-updates.md` and a 5-item teaser on the homepage
+  hand-maintained date frontmatter field) and writes into four marker pairs: "New this month" and
+  "Recently updated" on `docs/content/about/recent-updates.md`, and a teaser of each on the homepage
   (`docs/content/index.md`). It runs automatically in CI right before `mkdocs build`, so the page
   is fresh on every deploy without anyone needing to remember to regenerate it — unlike
-  `commentary_index.py`/`section_index.py`, which are manual, this one isn't.
+  `commentary_index.py`/`section_index.py`, which are manual, this one isn't. **"New" means first
+  published**: the commit that set `draft: false` (or the first commit, if the page was never a
+  draft), never `date_created`, which would date a study drafted for weeks from its first draft.
+  It also writes those dates to `docs/data/published.json` (committed), and `hooks/new_pages.py`
+  reads that file to put a "New" line under a new page's title and material's `status: new` icon
+  beside it in the nav, for the same 30-day window. The hook reads the file, never git, so
+  `mkdocs serve` stays fast; run the script to refresh the badges locally.
 - **`utils/refresh_frontmatter_provenance.py` is the other git-derived writer**, and unlike
   `generate_recent_updates.py` it is *manual* — it writes into the frontmatter of the ~93
   hand-written pages (`date_created`, `date_modified`, `ai_provider_models`), so running it in CI

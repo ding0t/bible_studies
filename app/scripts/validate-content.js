@@ -737,6 +737,10 @@ function validateFile(filePath) {
     let headingLine = 0;
     let words = 0;
     let inFence = false;
+    // Skipped: sections between <!-- ...:auto-start/end --> markers. A script writes them (the
+    // Recently Updated card grids, the commentary index), so they are lists, not an author's
+    // prose, and a card's indented description line would otherwise count as a paragraph.
+    let inAuto = false;
 
     const flush = () => {
       if (heading && words > 600) {
@@ -756,6 +760,9 @@ function validateFile(filePath) {
       const trimmed = line.trim();
       if (trimmed.startsWith('```')) { inFence = !inFence; continue; }
       if (inFence) continue;
+      if (/^<!--\s*[\w-]+:auto-start\s*-->/.test(trimmed)) { inAuto = true; continue; }
+      if (/^<!--\s*[\w-]+:auto-end\s*-->/.test(trimmed)) { inAuto = false; continue; }
+      if (inAuto) continue;
       if (/^#{2,4}\s/.test(trimmed)) {
         flush();
         heading = trimmed.replace(/^#+\s*/, '');
