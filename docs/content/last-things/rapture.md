@@ -97,6 +97,12 @@ Five occurrences, in four passages, describe something more specific: a person s
 
 **Conclusion.** Every time ἁρπάζω describes God taking a person, the taking is sudden and real, and the person taken does nothing to bring it about. Paul could not say whether his own experience was bodily. 1 Thessalonians 4 settles that question for the rapture from its context: the dead are raised first (4:16) and the living are changed (1 Corinthians 15:51-53). The verb supplies the suddenness and the resurrection supplies the body, so the rapture is what it sounds like: a real, sudden, bodily gathering of the Church.
 
+Each half of that sentence has its own study. [We Shall All Be Changed](we-shall-all-be-changed.md)
+works through 1 Corinthians 15:35-58 on the body the dead are raised in and the living are changed
+into. [At Home with the Lord](at-home-with-the-lord.md) covers where the believing dead are until
+that trumpet sounds. [The Bride of Christ](../israel-and-church/bride-of-christ.md) covers the
+Church as the one gathered: a betrothed bride taken to the place prepared for her.
+
 This shows that God gathers His people with the whole force the word carries: no one can snatch you out of His hand (John 10:28-29), and one day He will snatch you up to be with Jesus Himself.
 
 ## The promise: Christ returns for His own
