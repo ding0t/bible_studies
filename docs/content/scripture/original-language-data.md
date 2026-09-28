@@ -6,7 +6,7 @@ tags: ["lang/hebrew", "lang/greek", "method/textual-criticism", "sources", "data
 draft: false
 bible_references: ["Genesis 1:1", "John 1:1"]
 date_created: 2026-09-05
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -54,6 +54,19 @@ page: **annotation is only ever as good as the text it sits on, and none of thes
 A single medieval manuscript, a modern reconstruction, an ancient translation and a heap of fragments
 each carry a different kind of uncertainty, and a study that leans hard on a word should say which
 one it is standing on.
+
+Where to get each text:
+
+- **WLC** — maintained today as the Unicode/XML Leningrad Codex (UXLC) at
+  [tanach.us](https://tanach.us/); the tagged form this site uses is
+  [Open Scriptures' morphhb](https://github.com/openscriptures/morphhb)
+- **SBLGNT** — [sblgnt.com](https://sblgnt.com/), from the Society of Biblical Literature and
+  Logos; data files at [LogosBible/SBLGNT](https://github.com/LogosBible/SBLGNT)
+- **Brenton Septuagint** — the Greek text at [eBible.org](https://ebible.org/find/details.php?id=grcbrent)
+- **UHB / UGNT** — [unfoldingWord Hebrew Bible](https://git.door43.org/unfoldingWord/hbo_uhb) and
+  [unfoldingWord Greek New Testament](https://git.door43.org/unfoldingWord/el-x-koine_ugnt) on Door43
+- **Dead Sea Scrolls** — the Eep Talstra Centre's transcription at
+  [ETCBC/dss](https://github.com/ETCBC/dss)
 
 ## The layers, and what MACULA is
 
@@ -164,6 +177,10 @@ null means "not annotated", never "no such relation". And the domain codes come 
 grant to Clear specifically, so they are the one part to cite carefully rather than treat as plain
 CC BY.
 
+**Links.** [Clear Bible](https://clear.bible/) · data: [MACULA Hebrew](https://github.com/Clear-Bible/macula-hebrew),
+[MACULA Greek](https://github.com/Clear-Bible/macula-greek) · semantic domains:
+[MARBLE](https://semanticdictionary.org/)
+
 ### Open Scriptures Hebrew Bible (morphhb)
 
 The Westminster Leningrad Codex marked up in OSIS XML with lemma and morphology, maintained as an
@@ -176,6 +193,10 @@ so other datasets can attach to it.
 
 **Weaknesses.** Text and tagging only — no syntax, no semantic domains. For anything beyond the word
 itself you need MACULA.
+
+**Links.** [Open Scriptures](https://openscriptures.org/) · data:
+[openscriptures/morphhb](https://github.com/openscriptures/morphhb) · browse:
+[hb.openscriptures.org](https://hb.openscriptures.org/)
 
 ### STEPBible — Tyndale House, Cambridge
 
@@ -190,6 +211,9 @@ licence, not a courtesy.
 rather than queried. Anyone concluding a word is unattested should remember that this source cannot
 be seen by the query tools.
 
+**Links.** [Tyndale House](https://www.tyndalehouse.com/) · [STEPBible](https://www.stepbible.org/)
+· data: [STEPBible/STEPBible-Data](https://github.com/STEPBible/STEPBible-Data)
+
 ### BHSA — Eep Talstra Centre, VU Amsterdam
 
 Decades of Hebrew linguistic analysis over the Biblia Hebraica Stuttgartensia, distributed in the
@@ -202,6 +226,10 @@ hierarchy, not just clause role.
 and would be off the table if this site ever monetised. Catalogued and licence-checked but not wired
 into any query tool, because MACULA already covers subject, role, construct state and coreference.
 It is reserved for an argument that specifically needs what MACULA cannot give.
+
+**Links.** [Eep Talstra Centre for Bible and Computer](https://etcbc.nl/) · data:
+[ETCBC/bhsa](https://github.com/ETCBC/bhsa) · browse and query:
+[SHEBANQ](https://shebanq.ancient-data.org/)
 
 ### unfoldingWord — UHB, UGNT, ULT
 
@@ -217,6 +245,11 @@ NA28 or SBLGNT, and it differs from this project's default SBLGNT in roughly one
 John 1:34 it reads Υἱὸς where SBLGNT has ἐκλεκτός. All four are **CC BY-SA**, the only ShareAlike
 sources this site uses, which constrains what a derived dataset could be published under.
 
+**Links.** [unfoldingWord](https://www.unfoldingword.org/) · data on Door43:
+[UHB](https://git.door43.org/unfoldingWord/hbo_uhb),
+[UGNT](https://git.door43.org/unfoldingWord/el-x-koine_ugnt),
+[ULT](https://git.door43.org/unfoldingWord/en_ult)
+
 ### Strong's numbers
 
 James Strong's concordance of 1890, long out of copyright, digitised many times over.
@@ -227,6 +260,9 @@ carries Strong's numbers, which is what lets them be joined together at all.
 **Weaknesses.** It is a Victorian concordance. Its glosses reflect the lexicography of its day, and
 its numbering occasionally splits or merges what modern lexicons treat differently. Sound as an
 identifier, unreliable as a definition — a distinction studies on this site are expected to keep.
+
+**Links.** Data: [openscriptures/strongs](https://github.com/openscriptures/strongs), Open
+Scriptures' digitisation of both the Hebrew and Greek dictionaries
 
 ## One verse, every layer
 
