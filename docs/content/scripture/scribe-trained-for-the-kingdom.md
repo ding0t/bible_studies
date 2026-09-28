@@ -7,7 +7,7 @@ draft: true
 primary_passage: "Matthew 13:51-52"
 bible_references: ["Matthew 13:10-17", "Isaiah 6:9-10", "Matthew 13:35", "Matthew 13:44-53", "Matthew 9:16-17", "Matthew 12:35", "Matthew 5:17-20", "Matthew 23:34", "Matthew 28:19-20", "Matthew 8:19", "Matthew 27:57", "Matthew 12:14-50", "Matthew 13:39-40", "Mark 2:16", "Acts 19:35", "Acts 23:9", "1 Corinthians 1:20", "Ephesians 3:5-9", "Colossians 1:26", "Daniel 2:27-28", "Ezra 7:6-11", "Psalm 78:2", "2 Timothy 3:16-17", "1 John 2:7-8"]
 date_created: 2026-09-18
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -295,7 +295,7 @@ There the new and the old cannot be mixed. Here they sit on the same shelf. The 
 difference.
 
 παλαιός occurs **exactly three times in Matthew**: 9:16, 9:17, and 13:52 — verified against the
-SBLGNT morphology, and there are no others. καινός occurs four times: 9:17, 13:52, 26:29, and
+SBLGNT morphology, and there are no others. καινός (*kainos*, G2537) occurs four times: 9:17, 13:52, 26:29, and
 27:60. So the two occurrences that matter are in these two passages, and the Macula annotation
 assigns them different senses. At 9:16-17 both adjectives carry the domain of condition —
 *worn out* against *unused*. At 13:52 both carry the domain of time — *of a former period*

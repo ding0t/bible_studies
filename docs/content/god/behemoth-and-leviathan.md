@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Job 40:15-24; Job 41:1-34"
 bible_references: ["Job 3:8", "Job 7:12", "Job 9:32-33", "Job 38:4-8", "Job 40:15-24", "Job 41:1-34", "Job 42:1-6", "Genesis 1:2", "Genesis 1:21", "Genesis 2:7", "Psalm 18:8", "Psalm 74:12-15", "Psalm 104:24-26", "Isaiah 27:1", "Ezekiel 29:3", "Romans 1:19-20", "Romans 11:33-36", "1 Timothy 2:5"]
 date_created: 2026-08-23
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -211,7 +211,7 @@ The setting reinforces it. These verses sit inside an inventory of the creature'
 
 Two things cut the other way.
 
-The Septuagint softened one clause the Hebrew leaves bare. At Job 41:11 (English 41:19) the Greek reads ἐκ στόματος αὐτοῦ ἐκπορεύονται ὡς λαμπάδες καιόμεναι — "out of his mouth proceed *as it were* burning torches" — inserting a ὡς that the Hebrew does not have. The next verse keeps the smoke as a flat assertion (καπνὸς καμίνου καιομένης, "smoke of a furnace burning"), so the ancient translator was not systematically defusing the passage. One of the six unmarked clauses did read to him as a comparison.
+The Septuagint softened one clause the Hebrew leaves bare. At Job 41:11 (English 41:19) the Greek reads ἐκ στόματος αὐτοῦ ἐκπορεύονται ὡς λαμπάδες καιόμεναι — "out of his mouth proceed *as it were* burning torches" — inserting a ὡς (*hōs*, G5613, "as") that the Hebrew does not have. The next verse keeps the smoke as a flat assertion (καπνὸς καμίνου καιομένης, "smoke of a furnace burning"), so the ancient translator was not systematically defusing the passage. One of the six unmarked clauses did read to him as a comparison.
 
 Psalm 18:8 describes God in nearly the same words — "smoke went up from his nostrils, and devouring fire from his mouth; glowing coals flamed forth from him" (ESV) — using the same Hebrew terms for smoke, nostril, fire, mouth and coals. God has no nostrils, so this vocabulary carries figurative freight somewhere in Scripture. What distinguishes Job 41 is density and setting: one compressed line inside a storm theophany there, six unmarked clauses inside an anatomical catalogue here.
 

@@ -389,7 +389,7 @@ Several of the words chapter 7 leans on occur nowhere else in the New Testament.
 priestly *office* is exclusive to Hebrews 7 in the entire New Testament; every other reference to
 priests in the New Testament uses the concrete noun ἱερεύς (*hiereus*, G2409, "priest," the person
 holding the office). The distinction matters to the argument: verse 12 speaks of the *priesthood*
-itself being "changed" (μετατίθημι), the way one arrangement is swapped for another — the author
+itself being "changed" (μετατίθημι, *metatithēmi*, G3346), the way one arrangement is swapped for another — the author
 is arguing about an institution, not merely about which individuals occupy it.
 
 ### τάξις: a fixed order or rank

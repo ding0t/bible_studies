@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 21:4-9; John 3:14-15"
 bible_references: ["John 3:1-21", "John 3:16", "John 8:28", "John 12:32-34", "John 20:30-31", "2 Kings 18:1-4", "Isaiah 11:10", "Isaiah 52:13", "Genesis 3:14-15", "2 Corinthians 5:21", "Romans 8:3", "Hebrews 4:15", "Numbers 11:1-3", "Numbers 16:46-48", "Numbers 14:39-45", "Exodus 16:2-5", "Numbers 20:22-29", "Numbers 21:21-35", "Deuteronomy 8:15", "Revelation 12:9", "Isaiah 6:2", "Isaiah 6:6"]
 date_created: 2026-07-22
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -29,7 +29,7 @@ about him.
 
 ### Types & Prophecy
 
-**Type.** The bronze serpent is a **τύπος** of Christ crucified, and Jesus is the one who identifies
+**Type.** The bronze serpent is a **τύπος** (*typos*, G5179) of Christ crucified, and Jesus is the one who identifies
 it (John 3:14) — a type the reader is not left to spot. Point for point: the object is made in the
 likeness of the thing killing the people, yet carries none of its venom; it is raised on a pole
 where the whole camp can see it; it heals by being looked at, with no offering, payment, or ritual

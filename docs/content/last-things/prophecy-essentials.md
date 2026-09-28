@@ -379,7 +379,7 @@ locates it on Daniel's timeline.
 This site's own position, argued at length in [The Rapture of the Church](rapture.md): the Church is
 gathered to Christ *before* the tribulation begins, not partway through it or at its end alongside
 the visible second coming. The case there rests on three things. The Greek word behind "rapture" —
-**ἁρπάζω**, *harpazo*, "seized" or "caught away", used elsewhere only of real, physical, sudden
+**ἁρπάζω** (*harpazo*, G726), "seized" or "caught away", used elsewhere only of real, physical, sudden
 removals to heaven. The absence of any preceding sign for this event specifically, unlike the second
 coming's named sequence. And Scripture's own promise that believers are "not destined for wrath" (1
 Thessalonians 5:9). That page also gives post-tribulational, mid-tribulational, and pre-wrath views

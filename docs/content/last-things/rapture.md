@@ -179,7 +179,7 @@ out against the corpus, that argument mostly fails, and a different one takes it
 | **παρουσία** (*parousia*, G3952, "arrival, presence") | 1 Thess 4:15; 1 Cor 15:23; 2 Thess 2:1 | Matt 24:27, 37, 39; 2 Thess 2:8 | No |
 | **ἀποκάλυψις** (*apokalypsis*, G602, "unveiling") | 1 Cor 1:7; 1 Pet 1:7, 13 | 2 Thess 1:7 | No |
 | **ἐπιφάνεια** (*epiphaneia*, G2015, "appearing") | Titus 2:13 | 2 Thess 2:8 | No |
-| **ἐπισυνάγω / ἐπισυναγωγή** ("gather together", G1997) | 2 Thess 2:1 | Matt 24:31; Mark 13:27 | No |
+| **<span data-strongs="G1996">ἐπισυνάγω</span> / ἐπισυναγωγή** ("gather together", G1997) | 2 Thess 2:1 | Matt 24:31; Mark 13:27 | No |
 | **σάλπιγξ** (*salpinx*, G4536, "trumpet") | 1 Thess 4:16; 1 Cor 15:52 | Matt 24:31 | No |
 | **ἄγγελος** ("angel", G32) | 1 Thess 4:16 — an archangel's *voice* | Matt 24:31; 2 Thess 1:7 — angels *sent*, and accompanying | Partly |
 | **ἁρπάζω** (*harpazō*, "snatch away") | 1 Thess 4:17 | — | **Yes** |
@@ -210,7 +210,7 @@ turns out to be the most interesting row in the table.
 
 ### Does the Church ride out with him?
 
-"And so we will always be with the Lord" (1 Thessalonians 4:17). **πάντοτε** — *always*, with no
+"And so we will always be with the Lord" (1 Thessalonians 4:17). **πάντοτε** (*pantote*, G3842) — *always*, with no
 period carved out of it. If the Church is caught up to him before the tribulation, then the Church is
 with him when he returns at the end of it, and the company that rides out in Revelation 19:14 should
 include her. Four lines of evidence say it does.
@@ -232,7 +232,7 @@ fight beside him that "those with him are **called and chosen and faithful**" �
 #### Paul's own testimony
 
 **Paul says it directly.** "When Christ who is your life appears, then you also will appear **with
-him** in glory" (Colossians 3:4) — one verb, φανερόω, for both, and **σὺν αὐτῷ** joining them. And
+him** in glory" (Colossians 3:4) — one verb, φανερόω (*phaneroō*, G5319), for both, and **σὺν αὐτῷ** joining them. And
 he prays for hearts blameless "at the coming of our Lord Jesus **with all his saints**" (1
 Thessalonians 3:13). That phrase can mean angels; Zechariah 14:5 and Jude 14 both use "holy ones"
 that way, and 3:13 may be echoing Zechariah. But in these two letters Paul's substantive *οἱ ἅγιοι*

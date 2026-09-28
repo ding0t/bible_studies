@@ -5,7 +5,7 @@ description: "What the Key Takeaways section at the top of every study is for, t
 tags: ["study-method", "key-takeaways", "transformation"]
 draft: false
 date_created: 2026-08-02
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -48,7 +48,7 @@ taken in and never acted on isn't the renewal Paul describes; it's information.
 > except through me."
 
 Jesus doesn't only claim to teach the truth — he claims to *be*, first, **the way** (**ὁδός**,
-*hodos*), a road meant to be walked, not just a fact meant to be known. Scripture calls the
+*hodos*, G3598), a road meant to be walked, not just a fact meant to be known. Scripture calls the
 Christian life "walking" throughout the New Testament (Ephesians 4:1, Colossians 2:6, 1 John 2:6)
 precisely because truth that stays in the head hasn't done what it's for yet.
 

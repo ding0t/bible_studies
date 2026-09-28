@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:37-41; Luke 17:26-37"
 bible_references: ["Matthew 24:3", "Matthew 24:29-31", "Matthew 24:37-42", "Luke 17:11", "Luke 17:20-37", "Genesis 7:1", "Genesis 7:23", "Genesis 19:26", "Isaiah 10:21", "Matthew 13:30", "Matthew 13:40-43", "Matthew 13:49", "Matthew 25:31-34", "Matthew 25:46", "2 Peter 2:5-9", "John 14:3", "Matthew 1:20-24", "Deuteronomy 28:26", "1 Samuel 17:44", "Psalm 79:1-2", "Ezekiel 39:17-20", "1 Thessalonians 4:13-18", "1 Thessalonians 5:9", "2 Thessalonians 2:6-7"]
 date_created: 2026-09-26
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -129,7 +129,7 @@ verdict; the verdict comes from context.
 
 *Paralambanō* is used positively elsewhere, including by Jesus: "I will come again and will take you
 to myself, that where I am you may be also" (John 14:3, ESV). The semantic-domain annotation shows the
-two uses parting company. John 14:3's παραλήμψομαι is coded Louw-Nida **34.53**, the *receive or
+two uses parting company. John 14:3's παραλήμψομαι (*paralēmpsomai*, from παραλαμβάνω, G3880) is coded Louw-Nida **34.53**, the *receive or
 welcome into one's company* sense that domain 34 (Association) covers, sharing its slot with δέχομαι,
 προσδέχομαι and προσλαμβάνομαι. The two occurrences at Matthew 24:40-41 are coded **15.168**, physical
 movement: carrying someone off.
@@ -233,7 +233,7 @@ they enter the kingdom alive (25:34). The church is already with the Lord by the
 
 The case for a pretribulational rapture rests on other texts: 1 Thessalonians 4:13-18, John 14:1-4,
 and the restrainer of 2 Thessalonians 2:6-7. It is made at length in [The Rapture of the
-Church](rapture.md) and [The Restrainer](the-restrainer.md). Paul's word there is ἁρπάζω, "caught
+Church](rapture.md) and [The Restrainer](the-restrainer.md). Paul's word there is ἁρπάζω (*harpazō*, G726), "caught
 up": "we who are alive, who are left, will be caught up together with them in the clouds to meet the
 Lord in the air" (1 Thessalonians 4:17, ESV). That hope stands on those texts whichever way this
 saying is read.

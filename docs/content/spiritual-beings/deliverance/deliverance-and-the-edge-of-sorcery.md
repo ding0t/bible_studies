@@ -247,7 +247,7 @@ Much contemporary deliverance teaching says a Christian can be "demonized"
 ([Contemporary Deliverance in Christianity](contemporary-deliverance.md) collects examples). The
 answer this site holds, argued from the word itself in
 [Christians and Deliverance Ministry](christians-and-deliverance.md#the-key-term-demonized), is no.
-The New Testament never uses δαιμονίζομαι of a Christian. It says the believer's body is a temple of
+The New Testament never uses δαιμονίζομαι (*daimonizomai*, G1139, "to be demonized") of a Christian. It says the believer's body is a temple of
 the Holy Spirit (1 Corinthians 6:19), that God "has delivered us from the domain of darkness and
 transferred us to the kingdom of his beloved Son" (Colossians 1:13, ESV), and that "he who is in you
 is greater than he who is in the world" (1 John 4:4, ESV).

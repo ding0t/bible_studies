@@ -9,7 +9,7 @@ bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Cori
 zadok_year: 4036
 gregorian_year: 33
 date_created: 2026-07-19
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -264,7 +264,7 @@ Jewish kind, with "until the kingdom of God comes" as its stated condition.
   blessing itself — *borei pri hagafen*, "who creates the fruit of the vine." Jesus phrases the vow
   in the meal's own liturgical vocabulary.
 - **"New"** (καινός, *kainos*, G2537). The claim usually made here is that καινός means new *in
-  kind* while νέος means new *in time*. The corpus does not support the split that cleanly. MACULA's Louw-Nida tagging in this project's `bible-text.db` puts Matthew
+  kind* while νέος (*neos*, G3501) means new *in time*. The corpus does not support the split that cleanly. MACULA's Louw-Nida tagging in this project's `bible-text.db` puts Matthew
   26:29 and 1 Corinthians 11:25 in domain **58.71** (class and character — "new in kind"), but
   Mark 14:25 and Luke 22:20 in domain **67.115**, a *time* domain, and Mark 2:22 carries both codes
   at once. What the word does carry
@@ -388,7 +388,7 @@ renders Exodus 6:7's fourth promise **λήψομαι ἐμαυτῷ ὑμᾶς �
 for a people." Both are a future of λαμβάνω, both take ὑμᾶς as object, and both carry the reflexive
 ἐμαυτ-, "to myself."
 
-Translations split on παραλαμβάνω — ESV has "take you to myself," WEB, ASV and KJV "receive" — but
+Translations split on παραλαμβάνω (*paralambanō*, G3880) — ESV has "take you to myself," WEB, ASV and KJV "receive" — but
 it is the same verb whichever English word a translator picks.
 
 παραλαμβάνω is a compound of λαμβάνω rather than the identical verb, and John gives no citation

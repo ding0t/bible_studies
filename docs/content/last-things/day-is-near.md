@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-13"
 bible_references: ["Revelation 1:3", "James 5:7-8", "Mark 13:32-37", "Matthew 24:3-14", "Exodus 20:11", "Hebrews 4:1-13", "Revelation 20:1-7", "Acts 1:9-11", "Genesis 1:14-19", "Colossians 2:16-17"]
 date_created: 2024-05-29
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -28,7 +28,7 @@ John opens Revelation by pronouncing a blessing on the reader before a single se
 
 ### Types & Prophecy
 
-**Type.** The seventh-day Sabbath is a **τύπος**-shaped pattern of a future rest, not merely a weekly ritual. Paul says as much directly: Sabbath observance is "a shadow of the things to come, but the substance belongs to Christ" (Colossians 2:16-17, ESV). Hebrews 4 builds on the same pattern -- God's own rest on the seventh day of creation (Genesis 2:2-3; Exodus 20:11) still stands open as something "the people of God" enter (Hebrews 4:9). What the type shows: history itself may follow the same six-then-seventh shape the creation week already set, with a final, Sabbath-like rest waiting at its far end.
+**Type.** The seventh-day Sabbath is a **<span data-strongs="G5179">τύπος</span>**-shaped pattern of a future rest, not merely a weekly ritual. Paul says as much directly: Sabbath observance is "a shadow of the things to come, but the substance belongs to Christ" (Colossians 2:16-17, ESV). Hebrews 4 builds on the same pattern -- God's own rest on the seventh day of creation (Genesis 2:2-3; Exodus 20:11) still stands open as something "the people of God" enter (Hebrews 4:9). What the type shows: history itself may follow the same six-then-seventh shape the creation week already set, with a final, Sabbath-like rest waiting at its far end.
 
 **Prophecy.** Distinct from that pattern is a direct verbal promise: "This Jesus, who was taken up from you into heaven, will come in the same way as you saw him go into heaven" (Acts 1:11, ESV). This is not a resemblance later readers noticed -- it is two angels stating in plain words, at the moment of the ascension itself, that Christ's return is coming and will be visible and bodily like his departure was.
 

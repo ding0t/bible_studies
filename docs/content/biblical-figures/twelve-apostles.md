@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 10:1-4; Mark 3:13-19; Luke 6:12-16; Acts 1:13"
 bible_references: ["John 1:35-51", "Matthew 4:18-22", "Luke 5:1-11", "Mark 6:7-13", "Matthew 19:28", "Revelation 21:12-14", "Ephesians 2:20", "Acts 1:15-26", "Matthew 10:5-6", "Mark 14:50", "Luke 22:24", "John 15:16", "John 12:20-22", "Titus 3:5"]
 date_created: 2026-08-08
-date_modified: 2026-09-27
+date_modified: 2026-09-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -306,15 +306,15 @@ supplies — where a meaning is uncertain, it is marked so.
 | # | Name | Original | Meaning | Background |
 |---|---|---|---|---|
 | 1 | Simon Peter | <span lang="grc">Σίμων Πέτρος</span> | *Simon* from Hebrew <span dir="rtl">שִׁמְעוֹן</span> (*Shimʿon*, H8095), "he has heard"; *Peter* / Aramaic *Cephas*, "rock" | Fisherman, Bethsaida and Capernaum |
-| 2 | Andrew | <span lang="grc">Ἀνδρέας</span> | A Greek name, from <span lang="grc">ἀνήρ</span> *anēr*, "man" — "manly" | Fisherman; Peter's brother; first a disciple of John the Baptist |
-| 3 | James son of Zebedee | <span lang="grc">Ἰάκωβος</span> | Jacob, <span dir="rtl">יַעֲקֹב</span> (*Yaʿaqob*, H3290), "heel-grabber, supplanter" | Fisherman; first apostle martyred (Acts 12:2) |
-| 4 | John | <span lang="grc">Ἰωάννης</span> | <span dir="rtl">יוֹחָנָן</span> (*Yochanan*, H3110), "Yahweh has been gracious" | Fisherman; James's brother; both named Sons of Thunder |
-| 5 | Philip | <span lang="grc">Φίλιππος</span> | A Greek name — *philos* + *hippos*, "lover of horses" | Bethsaida, same town as Andrew and Peter |
-| 6 | Bartholomew | <span lang="grc">Βαρθολομαῖος</span> | Aramaic *bar-Talmai*, "son of Talmai" — a patronymic, not a personal name | Traditionally identified with Nathanael of Cana (see below) |
-| 7 | Thomas | <span lang="grc">Θωμᾶς</span> | Aramaic <span dir="rtl">תְּאוֹמָא</span> (*teʾoma*), "twin"; Greek *Didymus* means the same (John 11:16) | Unrecorded; whose twin is never said |
-| 8 | Matthew | <span lang="grc">Μαθθαῖος</span> | <span dir="rtl">מַתִּתְיָה</span> (*Mattityah*, H4993), "gift of Yahweh"; also called Levi, "attached" | Tax collector (<span lang="grc">τελώνης</span>, *telōnēs*) under Rome |
+| 2 | Andrew | <span lang="grc" data-strongs="G406">Ἀνδρέας</span> | A Greek name, from <span lang="grc" data-strongs="G435">ἀνήρ</span> *anēr*, "man" — "manly" | Fisherman; Peter's brother; first a disciple of John the Baptist |
+| 3 | James son of Zebedee | <span lang="grc" data-strongs="G2385">Ἰάκωβος</span> | Jacob, <span dir="rtl">יַעֲקֹב</span> (*Yaʿaqob*, H3290), "heel-grabber, supplanter" | Fisherman; first apostle martyred (Acts 12:2) |
+| 4 | John | <span lang="grc" data-strongs="G2491">Ἰωάννης</span> | <span dir="rtl">יוֹחָנָן</span> (*Yochanan*, H3110), "Yahweh has been gracious" | Fisherman; James's brother; both named Sons of Thunder |
+| 5 | Philip | <span lang="grc" data-strongs="G5376">Φίλιππος</span> | A Greek name — *philos* + *hippos*, "lover of horses" | Bethsaida, same town as Andrew and Peter |
+| 6 | Bartholomew | <span lang="grc" data-strongs="G918">Βαρθολομαῖος</span> | Aramaic *bar-Talmai*, "son of Talmai" — a patronymic, not a personal name | Traditionally identified with Nathanael of Cana (see below) |
+| 7 | Thomas | <span lang="grc" data-strongs="G2381">Θωμᾶς</span> | Aramaic <span dir="rtl">תְּאוֹמָא</span> (*teʾoma*), "twin"; Greek *Didymus* means the same (John 11:16) | Unrecorded; whose twin is never said |
+| 8 | Matthew | <span lang="grc" data-strongs="G3156">Μαθθαῖος</span> | <span dir="rtl">מַתִּתְיָה</span> (*Mattityah*, H4993), "gift of Yahweh"; also called Levi, "attached" | Tax collector (<span lang="grc" data-strongs="G5057">τελώνης</span>, *telōnēs*) under Rome |
 | 9 | James son of Alphaeus | <span lang="grc">Ἰάκωβος</span> | As above; *Alphaeus* is of uncertain derivation | Nothing recorded beyond the lists |
-| 10 | Thaddaeus / Judas son of James | <span lang="grc">Θαδδαῖος</span> | **Uncertain.** Strong's declines to derive it | Speaks once (John 14:22) |
+| 10 | Thaddaeus / Judas son of James | <span lang="grc" data-strongs="G2280">Θαδδαῖος</span> | **Uncertain.** Strong's declines to derive it | Speaks once (John 14:22) |
 | 11 | Simon the Zealot | <span lang="grc">Καναναῖος</span> / <span lang="grc">Ζηλωτής</span> | Aramaic <span dir="rtl">קַנְאָן</span> (*qanʾan*), "zealous" — **not** "Canaanite" | Zealot, or of zealot temperament |
 | 12 | Judas Iscariot | <span lang="grc">Ἰούδας Ἰσκαριώτης</span> | *Judah*, "praised"; *Iscariot* probably *ish-Qeriyoth*, "man of Kerioth" | Kept the money box (John 12:6); betrayed Jesus |
 
