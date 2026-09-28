@@ -22,6 +22,10 @@ it currently has something queued.
 Refer to an item by its number, e.g. "work on 4.3." Section 0 is work on the site itself rather
 than a study topic.
 
+## new
+
+Add new items here. They get a number and move into their section.
+
 ## Quick reference
 
 | Ref | Topic | Section |
@@ -45,11 +49,13 @@ than a study topic.
 | [6.1](#61-appointed-times-overarching) | Appointed times (overarching) | Feasts |
 | [6.2](#62-individual-feast-studies) | Individual feast studies | Feasts |
 | [8.1](#81-mirror-the-unfoldingword-sources) | Mirror the unfoldingWord sources | Sources & tooling |
+| [8.2](#82-chronology-follow-ups) | Chronology follow-ups | Sources & tooling |
 | [9.1](#91-calling-good-evil-and-evil-good) | Calling good evil and evil good | Sin |
 | [9.2](#92-sexual-immorality) | Sexual immorality | Sin |
 | [10.2](#102-where-two-or-three-are-gathered) | Where two or three are gathered | Christian life |
 | [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
 | [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
+| [10.5](#105-in-humility) | In humility | Christian life |
 
 Finished items move to [Completed](#completed) at the foot of the page and keep their numbers, so
 an old reference still points at the right thing.
@@ -372,8 +378,9 @@ Notes to work through:
 - Moses and Elijah with Jesus at the Transfiguration
 - The parable of the rich man speaking with Abraham and Lazarus (Luke 16:19-31)
 
-**In progress:** *At Home with the Lord* (`last-things/at-home-with-the-lord.md`) is drafted
-(2 Corinthians 5:1-8, the believer with Christ between death and resurrection). Still to fold in
+**In progress:** [At Home with the Lord](../last-things/at-home-with-the-lord.md) is published
+(2 Corinthians 5:1-8, the believer with Christ between death and resurrection), and the body that
+follows is [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) (5.8). Still to fold in
 from the notes above: the thief on the cross, Moses and Elijah at the Transfiguration, and Luke 16.
 
 ### 4.3 Faith
@@ -473,6 +480,10 @@ who wears them, and whether they are God's gift.
   whether the white robes of 3:5, 6:11 and 7:14 are the same clothing, and say how far the link holds.
 - **Other links:** [The Bride of Christ](../israel-and-church/bride-of-christ.md), and
   [The Rapture of the Church](../last-things/rapture.md), which places the Bema and the linen.
+- **Not the resurrection body.** [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md#the-white-robes-are-a-different-gift)
+  notes that the robes of 6:11 are given to souls not yet raised, so they cannot be the body of
+  1 Corinthians 15. Both are clothing (ἐνδύω, "put on", 1 Corinthians 15:53-54) and both are God's
+  gift; this study says what the robes are.
 
 ### 5.7 Heaven and earth by fire
 
@@ -514,7 +525,9 @@ places it in two paragraphs ("Where it falls") and stops there.
 
 - [ ] Passover (Pesach)
 - [ ] Unleavened Bread
-- [ ] Firstfruits — drafted, in review (`feasts/firstfruits.md`)
+- [ ] Firstfruits — drafted, in review (`feasts/firstfruits.md`). When it is published, add it back
+  to "On this site" in [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md), which
+  dropped the link because a published page cannot link a draft
 - [ ] Weeks / Pentecost (Shavuot)
 - [x] Trumpets (Yom Teruah) — [published](../feasts/trumpets.md)
 - [ ] Day of Atonement (Yom Kippur)
@@ -552,6 +565,24 @@ that currently say these are not mirrored: the permanence note on
 `references/README.md`, and `references/study-state/unfoldingword-wireup.yml`.
 
 Roughly 140MB in total; `en_ult` is nearly all of it and `en_uhg` is 3.6MB.
+
+### 8.2 Chronology follow-ups
+
+Left over from moving the site's chronology to the Masoretic numbers on 2026-09-28 (see
+[The Flood and the King Lists](../god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers)).
+
+- **Terah's birth year.** [Genealogy and Times](../last-things/genealogy-times.md) works Terah's
+  puzzle from 1876 BC; the generator (`references/build/genealogy_chronology.py`) uses 1878. Find
+  which is right and make the other agree.
+- **Stale source paths.** Existing references in `docs/data/chronology.json` point at
+  `studies/prophecy/...`, which no longer exists. Repoint them at the current pages.
+- **Steinmann's count.** The Flood study cites 467 secondary readings in the Septuagint
+  (Steinmann, *JETS* 64/1, 2021, pp. 26, 29, 34); his own prose says 468 once (p. 33). Note the
+  discrepancy in the study or confirm which figure his table supports.
+- **Genealogy and Times is over budget:** 4,804 words against 4,000, with no Study outline
+  (validator Checks 22-23). Run simplify-bible-study, then add the outline.
+- **The Flood study skipped two passes.** It was published straight after its develop pass. Run
+  read-bible-study (in a fresh session) and review-bible-study on it.
 
 ## 9. Sin
 
@@ -631,6 +662,28 @@ heart that opens the door.
   and Laodicea's lukewarm water supply, which the letter's "neither cold nor hot" draws on.
 - **Links:** 10.3 (religion and a contrite heart), and [The Way](../jesus/the-way.md).
 
+### 10.5 In humility
+
+A study on what it means to be humble before God and toward others, and how that differs from
+looking pious.
+
+- **Toward others:** "in humility count others more significant than yourselves" (Philippians 2:3,
+  ESV), and the call to be mature in understanding (1 Corinthians 14:20; the KJV's "in understanding
+  be men").
+- **Christ the example:** the self-emptying of Philippians 2:5-8, "gentle and lowly in heart"
+  (Matthew 11:29), and the washing of the disciples' feet (John 13:1-17). Gather the Scripture that
+  presents His humility as the pattern.
+- **Humble, and not pious:** ταπεινοφροσύνη (*tapeinophrosynē*, G5012, "humility") occurs 7 times,
+  and twice it is false humility, the self-abasement of the ascetics at Colossae (Colossians 2:18,
+  23). Set that against the real thing.
+- **The opposite, pride:** how to recognise it, and where it comes from. Pride comes "out of the
+  heart" in Jesus' list (Mark 7:21-22), and "God opposes the proud" (James 4:6; 1 Peter 5:5). Treat
+  it as a pervasive, deep sin. Mark as contested any reading of Isaiah 14 or Ezekiel 28 as the fall
+  of Satan.
+- **Three directions:** humility in yourself, toward others, and before God (Micah 6:8; Isaiah
+  57:15). Hebrew <span dir="rtl">עָנָו</span> (*ʿanav*, H6035), said of Moses at Numbers 12:3.
+- **Links:** 10.3 (a contrite heart), and other studies that touch it.
+
 ## Completed
 
 Kept here so that an old reference like "work on 3.1" still resolves.
@@ -647,3 +700,4 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 0.2 | Word-study pop-up on an original-language word | Every Strong's tag, and the word in front of it, opens a word card: lexicon, counts, where it occurs, renderings, and the studies that discuss it, 2026-09-27. Follow-ups in [0.6](#06-pop-up-follow-ups) |
 | 0.3 (part) | Normalise the Key Takeaways opening line | Done across 50 studies, 2026-09-27 |
 | 5.4 | The Olivet Discourse, regrouped by the disciples' questions | [The Olivet Discourse](../last-things/olivet-discourse.md) regrouped under the question each part answers, a section on which question the flight to the mountains answers (marked contested), and "one taken, one left" pointed at [One Taken, One Left](../last-things/one-taken-one-left.md) from both it and the rapture study, 2026-09-28 |
+| 5.8 | We will all be changed, raised imperishable | [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) (1 Corinthians 15:35-58), linked from At Home with the Lord (4.2); the white robes of 5.6 treated as a separate gift, 2026-09-28 |
