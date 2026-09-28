@@ -293,13 +293,17 @@ const LETTER = '\\u0386-\\u03FF\\u1F00-\\u1FFF\\u05D0-\\u05EA\\uFB1D-\\uFB4F';
 const WORD = `[${SCRIPT}]*[${LETTER}][${SCRIPT}]*`;
 const WORDS = new RegExp(WORD, 'gu');
 const LEMMA = new RegExp(`(${WORD}(?:\\s+${WORD})*)\\s*\\([^()]*$`, 'u');
+const OPENING = new RegExp(`\\((${WORD}),[^()]*$`, 'u');
 
 // The word or phrase a study is about to gloss: text ending "ἀρραβών (*arrabōn*, " gives the span
-// of ἀρραβών. Only an unclosed parenthesis counts, so a word glossed earlier in the sentence is
-// never mistaken for the one this tag belongs to.
+// of ἀρραβών, and so does "the pledge (ἀρραβών, *arrabōn*, ", where the English leads and the
+// Greek opens the gloss. Only an unclosed parenthesis counts, so a word glossed earlier in the
+// sentence is never mistaken for the one this tag belongs to.
 export function lemmaBefore(text) {
   const m = LEMMA.exec(text);
-  return m ? { start: m.index, end: m.index + m[1].length } : null;
+  if (m) return { start: m.index, end: m.index + m[1].length };
+  const o = OPENING.exec(text);
+  return o ? { start: o.index + 1, end: o.index + 1 + o[1].length } : null;
 }
 
 // A running-text ἀρραβὼν is the ἀρραβών tagged above it: Greek accents and breathings, Hebrew

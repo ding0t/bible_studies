@@ -186,7 +186,9 @@ function linkWord(tag, id, tagged) {
   let between = '';
   for (let node = tag.previousSibling; node; node = node.previousSibling) {
     if (node.nodeType === Node.ELEMENT_NODE && ORIGINAL.test(node.textContent) && !refs.has(node)) {
-      if (/^\s*\([^()]*$/.test(between)) claim(node, id, tagged);
+      // **ἀρραβών** (… before the gloss, or (**ἀρραβών**, … opening it.
+      const opens = /\($/.test(node.previousSibling?.textContent ?? '') && /^,[^()]*$/.test(between);
+      if (/^\s*\([^()]*$/.test(between) || opens) claim(node, id, tagged);
       return;
     }
     if (node.nodeType === Node.TEXT_NODE && node.data.includes('(')) {

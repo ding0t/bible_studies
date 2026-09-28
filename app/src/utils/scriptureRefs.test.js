@@ -97,6 +97,8 @@ test('the word a tag glosses is the one before the open parenthesis', () => {
   assert.equal(at('from קָנָה ('), 'קָנָה');
   assert.equal(at('μονή (monē) occurs twice ('), null);
   assert.equal(at('plain English ('), null);
+  assert.equal(at('it **remains** (μένω, menō, '), 'μένω');
+  assert.equal(at('(μένω, menō) and then plain English ('), null);
 });
 
 test('a word matches its accented and final-sigma forms, not a differently pointed word', () => {
