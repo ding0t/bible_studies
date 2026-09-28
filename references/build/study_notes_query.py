@@ -246,21 +246,22 @@ def _clip(text: str, limit: int | None) -> tuple[str, bool, int]:
 
 
 def lookup_verse(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
-                 work_id: str | None = None) -> list[dict]:
-    """One verse's text from the commercial translations (ESV, NIV, NKJV, CSB, NASB, LSB, NA28).
+                 work_id: str | None = None, verse_end: int | None = None) -> list[dict]:
+    """A verse's text from the commercial translations (ESV, NIV, NKJV, CSB, NASB, LSB, NA28).
 
     This is the quotation-verification path: bible-text.db has none of these translations, so a
     study quoting the ESV can only be checked here. Verse text is never truncated -- see module
-    docstring.
+    docstring. `verse_end` returns verse..verse_end in the same chapter as one result, so a
+    passage costs one query rather than one per verse.
     """
     _require_indexed(book, chapter)
     sql = ("SELECT work_id, book, chapter, verse, text FROM verses "
-           "WHERE book=? AND chapter=? AND verse=?")
-    params: list = [book, chapter, verse]
+           "WHERE book=? AND chapter=? AND verse BETWEEN ? AND ?")
+    params: list = [book, chapter, verse, max(verse, verse_end or verse)]
     if work_id:
         sql += " AND work_id=?"
         params.append(work_id)
-    sql += " ORDER BY work_id"
+    sql += " ORDER BY work_id, verse"
     meta = _work_meta(conn)
     return [_stamp(dict(r), meta) for r in conn.execute(sql, params)]
 

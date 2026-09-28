@@ -38,6 +38,13 @@ def test_john_6_34_esv_reads_sir(conn):
     assert "Lord, give us this bread" not in rows[0]["text"]
 
 
+def test_verse_end_returns_the_range_in_order(conn):
+    """A passage in one query: passage_brief relies on this to carry commercial text past 12 verses."""
+    rows = snq.lookup_verse(conn, "Rev", 21, 1, work_id="esv-study-bible", verse_end=27)
+    assert [r["verse"] for r in rows] == list(range(1, 28))
+    assert "no temple in the city" in rows[21]["text"]
+
+
 # --- P2: the wrong query is unrepresentable --------------------------------
 
 @pytest.mark.parametrize("table,sql,params", [

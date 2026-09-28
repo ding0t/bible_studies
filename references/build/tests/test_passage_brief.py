@@ -7,6 +7,7 @@ things that fail silently cannot. So the tests concentrate on those:
 - a translation only present in the commercial database is routed there, not reported missing
 - an unreachable source leaves a *marked* gap, never a quiet empty section
 - MACULA's Strong's spellings actually resolve to TWOT roots
+- a book given by name resolves, and a failed lookup carries its message
 """
 import pytest
 
@@ -179,3 +180,47 @@ def test_deut_32_8_variant_carries_extant_words():
     readings = brief["textual_variants"]["8"]["readings"]
     assert readings
     assert all("extant_words" in r for r in readings)
+
+
+# --- book names and failed lookups -----------------------------------------
+
+@pytest.mark.parametrize("given,expected", [
+    ("Rev", "Rev"), ("rev", "Rev"), ("Revelation", "Rev"), ("1 Corinthians", "1Cor"),
+    ("1Cor", "1Cor"), ("Psalms", "Ps"), ("Song of Songs", "Song"), ("Nonsense", None),
+])
+def test_resolve_book(given, expected):
+    assert pb.resolve_book(given) == expected
+
+
+def test_full_book_name_is_resolved_not_silently_emptied():
+    """Passing "Revelation" once returned empty text sections with only an error count."""
+    brief = pb.passage_brief("Revelation", 21, 1, 2, translations=["WEB"], include=["text"])
+    assert brief["reference"] == "Rev 21:1-2"
+    assert len(brief["text"]["WEB"]["verses"]) == 2
+    assert brief["diagnostics"]["errors"] == {}
+
+
+def test_unknown_book_is_refused():
+    out = pb.passage_brief("Revelations of Nobody", 1, 1, include=["text"])
+    assert "not a book name" in out["error"]
+
+
+def test_failed_lookup_carries_its_message(monkeypatch):
+    real = pb.build_requests
+
+    def with_a_bad_request(*args, **kwargs):
+        return real(*args, **kwargs) + [{"id": "bogus", "tool": "no_such_tool", "args": {}}]
+
+    monkeypatch.setattr(pb, "build_requests", with_a_bad_request)
+    brief = pb.passage_brief("John", 6, 34, translations=["WEB"], include=["text"])
+    assert "unknown tool" in brief["diagnostics"]["errors"]["bogus"]
+    assert "diagnostics.errors" in brief["diagnostics"]["error_warning"]
+
+
+@needs_study_notes
+def test_commercial_text_covers_the_whole_range():
+    """The ESV used to stop at MAX_DETAIL_VERSES while the note said text covered the range."""
+    brief = pb.passage_brief("Rev", 21, 1, 27, translations=["ESV", "WEB"], include=["text"])
+    assert brief["diagnostics"]["truncated"] is True
+    assert len(brief["text"]["ESV"]["verses"]) == 27
+    assert len(brief["text"]["WEB"]["verses"]) == 27

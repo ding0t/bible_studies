@@ -28,11 +28,21 @@ useful line in the output for an Old Testament passage, and it costs one indexed
 Bounded on purpose
 ------------------
 A twenty-verse passage with full per-verse detail would be unreadable and slow. Text covers the
-whole range; per-verse detail (interlinear, variants, trace, notes) covers at most
-MAX_DETAIL_VERSES, and the brief says so rather than silently truncating.
+whole range in every translation, open and commercial alike; per-verse detail (interlinear,
+variants, trace, notes) covers at most MAX_DETAIL_VERSES, and the brief says so rather than
+silently truncating.
+
+Failures are reported, never absorbed
+-------------------------------------
+A book name is resolved to its OSIS code before anything runs ("Revelation" -> "Rev"), and one
+that resolves to nothing is refused outright. Any lookup that still errors has its message
+carried into diagnostics["errors"]. Before both of these, passing "Revelation" returned an ESV
+section with no verses and only an error count to explain it -- an empty section that read like
+an answer.
 """
 from __future__ import annotations
 
+import book_map
 import research_batch
 import study_notes_query
 import twot_lookup
@@ -42,6 +52,24 @@ DEFAULT_STUDY_WORKS = ["esv-study-bible"]  # the quotation-verification path
 MAX_DETAIL_VERSES = 12
 MAX_TWOT_LOOKUPS = 25
 SECTIONS = ("addressing", "historical", "text", "words", "crossrefs", "variants", "notes")
+
+
+_OSIS_CODES = {code.lower(): code for code in book_map.BOOK_NUM_TO_OSIS.values()}
+
+
+def resolve_book(book: str) -> str | None:
+    """The OSIS code for a book given as a code or a full name, or None if it is neither.
+
+    Every database here keys on OSIS codes, and a full name does not error: bible_passage returns
+    no verses with a warning and study_verse raises, so an unresolved name reaches the brief as
+    empty sections.
+    """
+    key = " ".join(book.split())
+    if key.lower() in _OSIS_CODES:
+        return _OSIS_CODES[key.lower()]
+    num = (book_map.REFERENCE_NAME_TO_NUM.get(key)
+           or book_map.REFERENCE_NAME_TO_NUM.get(key.title()))
+    return book_map.BOOK_NUM_TO_OSIS[f"{num:02d}"] if num else None
 
 
 def _study_work_ids() -> set[str]:
@@ -111,10 +139,9 @@ def build_requests(book: str, chapter: int, verse_start: int, verse_end: int | N
                              "args": {"book": book, "chapter": chapter, "verse_start": verse_start,
                                       "verse_end": end, "translation": work_id}})
             else:
-                for v in verses:
-                    reqs.append({"id": f"text:{name}:{v}", "tool": "study_verse",
-                                 "args": {"book": book, "chapter": chapter, "verse": v,
-                                          "work_id": work_id}})
+                reqs.append({"id": f"text:{name}", "tool": "study_verse",
+                             "args": {"book": book, "chapter": chapter, "verse": verse_start,
+                                      "verse_end": end, "work_id": work_id}})
 
     if "words" in include:
         for v in verses:
@@ -203,6 +230,13 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
     if unknown:
         return {"error": f"unknown section(s) {unknown}; known: {list(SECTIONS)}"}
 
+    osis = resolve_book(book)
+    if osis is None:
+        return {"error": f"{book!r} is not a book name or OSIS code this corpus knows "
+                         f"(expected e.g. Gen, 1Kgs, Matt, 1Cor, Rev, or a full name like "
+                         f"'Revelation' or '1 Corinthians')."}
+    book = osis
+
     all_verses = _verse_span(chapter, verse_start, verse_end)
     verses = all_verses[:MAX_DETAIL_VERSES]
     study_ids = _study_work_ids()
@@ -247,8 +281,8 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
             if source == "bible-text":
                 text[name] = _ok(results, f"text:{name}")
             else:
-                rows = [r for v in verses for r in (_ok(results, f"text:{name}:{v}") or [])]
-                text[name] = {"work_id": work_id, "tier": "quotation-only", "verses": rows}
+                text[name] = {"work_id": work_id, "tier": "quotation-only",
+                              "verses": _ok(results, f"text:{name}") or []}
         brief["text"] = text
     if "words" in include:
         brief["words"] = {
@@ -270,11 +304,14 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
 
     unavailable = sorted({r.get("source") or r.get("tool")
                           for r in results.values() if r["status"] == "unavailable"})
+    errors = {rid: r.get("error", r["status"]) for rid, r in results.items()
+              if r["status"] in ("error", "timed_out")}
     brief["diagnostics"] = {
         "requests": batch["summary"],
         "detail_verses": verses,
         "truncated": len(all_verses) > len(verses),
         "unavailable_sources": unavailable,
+        "errors": errors,
     }
     if brief["diagnostics"]["truncated"]:
         brief["diagnostics"]["note"] = (
@@ -284,6 +321,10 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
         brief["diagnostics"]["warning"] = (
             "Some sources could not be reached; their sections are empty. That is a gap in this "
             "brief, not evidence about the text -- do not fill it from memory.")
+    if errors:
+        brief["diagnostics"]["error_warning"] = (
+            f"{len(errors)} lookup(s) failed; diagnostics.errors gives each message. The sections "
+            "they feed are incomplete -- fix the request rather than filling them from memory.")
     return brief
 
 

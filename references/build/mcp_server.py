@@ -522,14 +522,16 @@ def study_status() -> dict:
 
 
 @mcp.tool()
-def study_verse(book: str, chapter: int, verse: int, work_id: str | None = None) -> object:
+def study_verse(book: str, chapter: int, verse: int, work_id: str | None = None,
+                verse_end: int | None = None) -> object:
     """Verse text from the commercial translations: ESV, NIV, NKJV, CSB, NASB, LSB, NA28 Greek.
 
     **This is the only place these translations exist** -- bible-text.db has none of them, so a
     study quoting the ESV can only be verified here. Verify rather than recalling: a study once
     rendered John 6:34 as 'Lord, give us this bread' where the ESV reads 'Sir'. Omit work_id to
-    compare every translation at once. Verse text is never truncated."""
-    return _study_notes(study_notes_query.lookup_verse, book, chapter, verse, work_id)
+    compare every translation at once. Give verse_end for a range within the chapter. Verse text
+    is never truncated."""
+    return _study_notes(study_notes_query.lookup_verse, book, chapter, verse, work_id, verse_end)
 
 
 @mcp.tool()
