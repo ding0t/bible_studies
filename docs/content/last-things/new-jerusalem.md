@@ -190,6 +190,11 @@ Drawn from what the angel measured and John recorded, the city looks like this:
 
 ![Architectural drawing of the New Jerusalem. The elevation shows a cube of transparent gold behind a jasper wall with three pearl gates, an angel over each, standing on twelve courses of jewelled foundations, with John on a high mountain. The plan shows three gates on each side named for the tribes, the throne at the centre, and the river running along the street with the tree of life on both banks.](../assets/img/new-jerusalem.svg)
 
+Centred on today's Jerusalem for scale, its footprint would reach from Athens to Ur, and Patmos, where
+John saw it, would lie inside:
+
+![Map of the eastern Mediterranean and Middle East with a gold square about 2,220 km on each side centred on present-day Jerusalem, reaching from Athens and Istanbul to Ur and taking in Patmos, Ephesus, Cairo, Damascus, Nineveh, Babylon and Medina. A side view below shows the city's 2,220 km height against the curve of the earth, far above the orbit of the International Space Station.](../assets/img/new-jerusalem-scale.svg)
+
 ## Why a city is called the Bride
 
 ### Three readings
