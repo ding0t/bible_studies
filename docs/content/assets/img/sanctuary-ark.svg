@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1540" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">The ark of the covenant, Exodus 25:10-22</title>
+  <desc id="d">Plate in four parts. The ark of the covenant of Exodus 25 in side elevation, drawn to scale at two and a half by one and a half cubits: a gold chest with a molding, rings at its feet holding the poles, the tablets inside, and the mercy seat on top with a cherub at each end whose wings spread over it, the cherubim drawn as outlines because their form is not given. Beside it, what Exodus states and what it leaves unstated. Below, Solomon's inner sanctuary, a twenty-cubit cube, with two olivewood cherubim ten cubits high whose wings reach from wall to wall over the ark; what was kept in and before the ark; and a strip following the ark from Sinai through the wilderness, the Jordan, its capture, Uzzah, Solomon's temple and King Josiah, to Jeremiah's word that it would not be made again and John's sight of it in the temple in heaven.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbe7a1"/><stop offset="0.5" stop-color="#eec95c"/><stop offset="1" stop-color="#d9a93a"/>
+    </linearGradient>
+    <radialGradient id="flame" cx="50%" cy="65%" r="60%">
+      <stop offset="0" stop-color="#fff3b0"/><stop offset="0.6" stop-color="#f7b733" stop-opacity="0.9"/><stop offset="1" stop-color="#f08a24" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glory" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fffdf2"/><stop offset="0.45" stop-color="#fff0b8"/><stop offset="1" stop-color="#fff0b8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="smoke" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#b9b2c9" stop-opacity="0.9"/><stop offset="1" stop-color="#d9d4e3" stop-opacity="0"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#e0a526"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="1540" fill="#faf5e8"/>
+  <rect x="12" y="12" width="936" height="1516" fill="none" stroke="#5a4a2c" stroke-width="1.5"/>
+  <rect x="18" y="18" width="924" height="1504" fill="none" stroke="#5a4a2c" stroke-width="0.6"/>
+
+  <text x="480.0" y="58" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#3b2f1a" letter-spacing="1">The Ark of the Covenant</text>
+  <text x="480.0" y="84" text-anchor="middle" font-size="14" fill="#7a6d57" font-style="italic">“There I will meet with you, and from above the mercy seat … I will speak with you” (Exodus 25:22, ESV)</text>
+
+  <text x="280" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#3b2f1a">What Moses was told to make</text>
+  
+  <circle cx="280" cy="380.0" r="46" fill="url(#glory)"/>
+  <rect x="130.0" y="440.0" width="300.0" height="180.0" fill="url(#gold)" stroke="#9a7424" stroke-width="1.2"/>
+  <rect x="126.0" y="438.0" width="308.0" height="8" fill="url(#gold)" stroke="#9a7424" stroke-width="0.9"/>
+  <rect x="130.0" y="428.0" width="300.0" height="10" fill="#f6dc86" stroke="#7a6d57" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="60.0" y1="598" x2="500.0" y2="598" stroke="#b08a2e" stroke-width="7" stroke-linecap="round"/>
+  <line x1="20.0" y1="598" x2="60.0" y2="598" stroke="#b08a2e" stroke-width="7" stroke-dasharray="5 4"/>
+  <line x1="500.0" y1="598" x2="540.0" y2="598" stroke="#b08a2e" stroke-width="7" stroke-dasharray="5 4"/>
+  <circle cx="154.0" cy="598" r="8" fill="none" stroke="#9a7424" stroke-width="3"/>
+  <circle cx="406.0" cy="598" r="8" fill="none" stroke="#9a7424" stroke-width="3"/>
+  <path d="M149.0 428.0 L151.0 367.5 Q156.0 345.5 161.0 367.5 L163.0 428.0 Z" fill="none" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/><circle cx="159.0" cy="351.0" r="8.8" fill="none" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/><path d="M156.0 367.5 Q215.0 309.0 274 320.0" fill="none" stroke="#b08a2e" stroke-width="2.4"/>
+  <path d="M397.0 428.0 L399.0 367.5 Q404.0 345.5 409.0 367.5 L411.0 428.0 Z" fill="none" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/><circle cx="401.0" cy="351.0" r="8.8" fill="none" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/><path d="M404.0 367.5 Q345.0 309.0 286 320.0" fill="none" stroke="#b08a2e" stroke-width="2.4"/>
+  <rect x="246" y="480.0" width="30" height="44" rx="12" fill="none" stroke="#7a6d57" stroke-dasharray="5 4"/>
+  <rect x="284" y="480.0" width="30" height="44" rx="12" fill="none" stroke="#7a6d57" stroke-dasharray="5 4"/>
+  <text x="280" y="542.0" font-size="10.5" fill="#3b2f1a" text-anchor="middle">the testimony (inside)</text>
+  <text x="440.0" y="350.0" font-size="11" fill="#7a6d57" font-style="italic">cherubim: form not given</text>
+  <text x="440.0" y="432.0" font-size="11" fill="#7a6d57" font-style="italic">mercy seat: thickness not given</text>
+  <text x="440.0" y="586" font-size="11" fill="#3b2f1a">ring at a foot, pole through it</text>
+  <text x="20.0" y="586" font-size="10.5" fill="#7a6d57" font-style="italic">poles: length not given</text>
+  <line x1="60" y1="620" x2="500" y2="620" stroke="#5a4a2c" stroke-width="0.8"/>
+  <line x1="130.0" y1="642" x2="430.0" y2="642" stroke="#7a6d57" stroke-width="1"/><line x1="130.0" y1="637" x2="130.0" y2="647" stroke="#7a6d57" stroke-width="1"/><line x1="430.0" y1="637" x2="430.0" y2="647" stroke="#7a6d57" stroke-width="1"/><text x="280.0" y="662" font-size="11.5" fill="#3b2f1a" text-anchor="middle">2½ cubits</text>
+  <line x1="560.0" y1="440.0" x2="560.0" y2="620" stroke="#7a6d57" stroke-width="1"/><line x1="555.0" y1="440.0" x2="565.0" y2="440.0" stroke="#7a6d57" stroke-width="1"/><line x1="555.0" y1="620" x2="565.0" y2="620" stroke="#7a6d57" stroke-width="1"/><text x="548.0" y="534.0" font-size="11.5" fill="#3b2f1a" text-anchor="end">1½ cubits</text>
+  <line x1="60" y1="690" x2="180" y2="690" stroke="#3b2f1a" stroke-width="2"/><line x1="60" y1="685" x2="60" y2="695" stroke="#3b2f1a"/><line x1="180" y1="685" x2="180" y2="695" stroke="#3b2f1a"/><text x="120.0" y="708" text-anchor="middle" font-size="11.5" fill="#3b2f1a">1 cubit (about 45 cm)</text><text x="198" y="686.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Drawn to scale from Exodus 25:10, 17. The cherubim</text><text x="198" y="700.9" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">and the mercy seat’s thickness are outlines.</text>
+  <text x="626" y="140" font-family="Georgia, serif" font-size="19" fill="#3b2f1a">What the text gives</text>
+  <circle cx="632" cy="166" r="5" fill="#b08a2e"/><text x="646" y="170" font-size="11.5" fill="#3b2f1a">stated: drawn solid</text>
+  <circle cx="632" cy="186" r="5" fill="#faf5e8" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/><text x="646" y="190" font-size="11.5" fill="#7a6d57">not stated: dashed, or a tradition named</text>
+  <line x1="626" y1="206" x2="920" y2="206" stroke="#5a4a2c" stroke-width="0.6"/>
+  <text x="626" y="236" font-size="12" fill="#3b2f1a" font-weight="bold">Exodus 25:10-22; 37:1-9</text>
+  <circle cx="632" cy="258" r="5" fill="#b08a2e"/>
+  <text x="646" y="262.0" font-size="13" fill="#3b2f1a" text-anchor="start">Acacia wood, 2½ × 1½ × 1½ cubits</text>
+  <text x="646" y="279.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:10</text>
+  <circle cx="632" cy="302" r="5" fill="#b08a2e"/>
+  <text x="646" y="306.0" font-size="13" fill="#3b2f1a" text-anchor="start">Pure gold inside and out, with a</text><text x="646" y="323.6" font-size="13" fill="#3b2f1a" text-anchor="start">gold molding around</text>
+  <text x="646" y="340.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:11</text>
+  <circle cx="632" cy="363" r="5" fill="#b08a2e"/>
+  <text x="646" y="367.0" font-size="13" fill="#3b2f1a" text-anchor="start">Four gold rings on its four feet,</text><text x="646" y="384.6" font-size="13" fill="#3b2f1a" text-anchor="start">two on each side</text>
+  <text x="646" y="401.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:12</text>
+  <circle cx="632" cy="424" r="5" fill="#b08a2e"/>
+  <text x="646" y="428.0" font-size="13" fill="#3b2f1a" text-anchor="start">Poles of gold-covered acacia, never</text><text x="646" y="445.6" font-size="13" fill="#3b2f1a" text-anchor="start">taken out</text>
+  <text x="646" y="462.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:13-15</text>
+  <circle cx="632" cy="485" r="5" fill="#b08a2e"/>
+  <text x="646" y="489.0" font-size="13" fill="#3b2f1a" text-anchor="start">The testimony put inside it</text>
+  <text x="646" y="506.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:16, 21</text>
+  <circle cx="632" cy="529" r="5" fill="#b08a2e"/>
+  <text x="646" y="533.0" font-size="13" fill="#3b2f1a" text-anchor="start">Mercy seat of pure gold, 2½ × 1½</text><text x="646" y="550.5" font-size="13" fill="#3b2f1a" text-anchor="start">cubits</text>
+  <text x="646" y="567.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:17</text>
+  <circle cx="632" cy="590" r="5" fill="#b08a2e"/>
+  <text x="646" y="594.0" font-size="13" fill="#3b2f1a" text-anchor="start">Two cherubim of hammered gold, one</text><text x="646" y="611.5" font-size="13" fill="#3b2f1a" text-anchor="start">piece with the mercy seat</text>
+  <text x="646" y="628.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:18-19</text>
+  <circle cx="632" cy="651" r="5" fill="#b08a2e"/>
+  <text x="646" y="655.0" font-size="13" fill="#3b2f1a" text-anchor="start">Wings spread above, faces to each</text><text x="646" y="672.5" font-size="13" fill="#3b2f1a" text-anchor="start">other and toward the mercy seat</text>
+  <text x="646" y="689.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:20</text>
+  <circle cx="632" cy="712" r="5" fill="#faf5e8" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <text x="646" y="716.0" font-size="13" fill="#7a6d57" text-anchor="start">Thickness of the mercy seat</text>
+  <text x="646" y="733.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">not given</text>
+  <circle cx="632" cy="756" r="5" fill="#faf5e8" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <text x="646" y="760.0" font-size="13" fill="#7a6d57" text-anchor="start">Size and form of the cherubim</text>
+  <text x="646" y="777.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">not given; drawn as outlines</text>
+  <circle cx="632" cy="800" r="5" fill="#faf5e8" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <text x="646" y="804.0" font-size="13" fill="#7a6d57" text-anchor="start">“Feet” or “corners”</text>
+  <text x="646" y="821.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">ASV, ESV: feet; KJV: corners</text>
+
+  <line x1="40" y1="840" x2="920" y2="840" stroke="#5a4a2c" stroke-width="0.6"/>
+  
+  <text x="60" y="886" font-family="Georgia, serif" font-size="19" fill="#3b2f1a">Under Solomon’s cherubim</text>
+  <text x="60" y="908.0" font-size="11.5" fill="#7a6d57" text-anchor="start">1 Kings 6:20, 23-27; 8:6-8. A 20-cubit cube. Two olivewood</text><text x="60" y="923.5" font-size="11.5" fill="#7a6d57" text-anchor="start">cherubim, each 10 cubits high, with wings of 5 cubits that</text><text x="60" y="939.0" font-size="11.5" fill="#7a6d57" text-anchor="start">reach wall to wall and touch in the middle.</text>
+  <rect x="70" y="950" width="240" height="240" fill="#f3ead2" stroke="#5a4a2c" stroke-width="1.2"/>
+  <line x1="70" y1="1076.0" x2="190" y2="1076.0" stroke="#b08a2e" stroke-width="3"/><line x1="190" y1="1076.0" x2="310" y2="1076.0" stroke="#b08a2e" stroke-width="3"/>
+  <path d="M120 1190 L123 1082.0 Q130 1066.0 137 1082.0 L140 1190 Z" fill="none" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/><path d="M240 1190 L243 1082.0 Q250 1066.0 257 1082.0 L260 1190 Z" fill="none" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <rect x="175.0" y="1172.0" width="30.0" height="18.0" fill="url(#gold)" stroke="#9a7424"/>
+  <text x="190" y="1166.0" font-size="10.5" fill="#3b2f1a" text-anchor="middle">ark</text>
+  <line x1="324" y1="950" x2="324" y2="1190" stroke="#7a6d57" stroke-width="1"/><line x1="319" y1="950" x2="329" y2="950" stroke="#7a6d57" stroke-width="1"/><line x1="319" y1="1190" x2="329" y2="1190" stroke="#7a6d57" stroke-width="1"/><text x="336" y="1074.0" font-size="11.5" fill="#3b2f1a" text-anchor="start">20 cubits</text>
+  <line x1="420" y1="1070" x2="420" y2="1190" stroke="#7a6d57" stroke-width="1"/><line x1="415" y1="1070" x2="425" y2="1070" stroke="#7a6d57" stroke-width="1"/><line x1="415" y1="1190" x2="425" y2="1190" stroke="#7a6d57" stroke-width="1"/><text x="432" y="1134.0" font-size="11.5" fill="#3b2f1a" text-anchor="start">10 cubits</text>
+  <text x="60" y="1216.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">At this scale the ark is 2½ cubits long. The cherubim’s</text><text x="60" y="1230.8" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">bodies are outlines; only their height and wings are</text><text x="60" y="1245.7" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">given.</text>
+  
+  <text x="610" y="886" font-family="Georgia, serif" font-size="19" fill="#3b2f1a">In the ark, and before it</text>
+  <rect x="620" y="950" width="90" height="54" fill="none" stroke="#9a7424" stroke-width="2"/>
+  <rect x="640" y="960" width="22" height="34" rx="9" fill="#d9d2c0" stroke="#7a6d57"/>
+  <rect x="666" y="960" width="22" height="34" rx="9" fill="#d9d2c0" stroke="#7a6d57"/>
+  <path d="M780 994 q-12 -26 0 -34 l14 0 q12 8 0 34 Z" fill="url(#gold)" stroke="#7a6d57" stroke-dasharray="5 4"/>
+  <line x1="830" y1="996" x2="842" y2="936" stroke="#8a6a3a" stroke-width="3" stroke-dasharray="5 4"/>
+  <circle cx="842" cy="938" r="4" fill="#f3d6e0"/><circle cx="837" cy="954" r="3.5" fill="#f3d6e0"/>
+  <text x="665" y="1024" font-size="11" fill="#3b2f1a" text-anchor="middle">the tablets</text>
+  <text x="665" y="1038" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Exodus 25:16; 40:20</text>
+  <text x="810" y="1024" font-size="11" fill="#3b2f1a" text-anchor="middle">manna jar, Aaron’s staff</text>
+  <text x="810" y="1038" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">“before the testimony”</text>
+  <text x="810" y="1051" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Exodus 16:34; Numbers 17:10</text>
+  <text x="610" y="1080.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Hebrews 9:4 speaks of the ark “in which was” the</text><text x="610" y="1094.8" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">jar, the staff and the tablets. In Solomon’s day</text><text x="610" y="1109.7" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">“there was nothing in the ark except the two tablets</text><text x="610" y="1124.5" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">of stone” (1 Kings 8:9, ESV).</text>
+
+  <line x1="40" y1="1288" x2="920" y2="1288" stroke="#5a4a2c" stroke-width="0.6"/>
+  <text x="480.0" y="1320" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#3b2f1a">Where the ark went</text>
+  <text x="480.0" y="1338" text-anchor="middle" font-size="11" fill="#7a6d57" font-style="italic">Dashed: seen in a vision. In English Bible order, Jeremiah 3:16 is the last Old Testament book to name the ark.</text>
+  <rect x="88.66666666666666" y="1384" width="36" height="20" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="78.66666666666666" y1="1398" x2="134.66666666666666" y2="1398" fill="none" stroke="#b08a2e" stroke-width="2.2"/><path d="M90.66666666666666 1382 q4 -18 14 -14 M122.66666666666666 1382 q-4 -18 -14 -14" fill="none" stroke="#b08a2e" stroke-width="2.2"/>
+  <text x="106.66666666666666" y="1456.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Placed in the</text><text x="106.66666666666666" y="1472.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">tabernacle</text>
+  <text x="106.66666666666666" y="1490.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Exodus 40:20-21</text>
+  <rect x="182.0" y="1384" width="36" height="20" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="172.0" y1="1398" x2="228.0" y2="1398" fill="none" stroke="#b08a2e" stroke-width="2.2"/><path d="M184.0 1382 q4 -18 14 -14 M216.0 1382 q-4 -18 -14 -14" fill="none" stroke="#b08a2e" stroke-width="2.2"/>
+  <text x="200.0" y="1456.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Went before</text><text x="200.0" y="1472.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">them</text>
+  <text x="200.0" y="1490.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Numbers 10:33</text>
+  <text x="153.33333333333334" y="1388" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="275.3333333333333" y="1384" width="36" height="20" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="265.3333333333333" y1="1398" x2="321.3333333333333" y2="1398" fill="none" stroke="#b08a2e" stroke-width="2.2"/><path d="M277.3333333333333 1382 q4 -18 14 -14 M309.3333333333333 1382 q-4 -18 -14 -14" fill="none" stroke="#b08a2e" stroke-width="2.2"/>
+  <text x="293.3333333333333" y="1456.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Led across the</text><text x="293.3333333333333" y="1472.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Jordan</text>
+  <text x="293.3333333333333" y="1490.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Joshua 3:3</text>
+  <text x="246.66666666666666" y="1388" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="368.66666666666663" y="1384" width="36" height="20" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="358.66666666666663" y1="1398" x2="414.66666666666663" y2="1398" fill="none" stroke="#b08a2e" stroke-width="2.2"/><path d="M370.66666666666663 1382 q4 -18 14 -14 M402.66666666666663 1382 q-4 -18 -14 -14" fill="none" stroke="#b08a2e" stroke-width="2.2"/>
+  <text x="386.66666666666663" y="1456.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Captured</text>
+  <text x="386.66666666666663" y="1473.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">1 Samuel 4:11</text>
+  <text x="339.99999999999994" y="1388" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="462.0" y="1384" width="36" height="20" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="452.0" y1="1398" x2="508.0" y2="1398" fill="none" stroke="#b08a2e" stroke-width="2.2"/><path d="M464.0 1382 q4 -18 14 -14 M496.0 1382 q-4 -18 -14 -14" fill="none" stroke="#b08a2e" stroke-width="2.2"/>
+  <text x="480.0" y="1456.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Uzzah struck</text>
+  <text x="480.0" y="1473.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">2 Samuel 6:7</text>
+  <text x="433.3333333333333" y="1388" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="555.3333333333333" y="1384" width="36" height="20" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="545.3333333333333" y1="1398" x2="601.3333333333333" y2="1398" fill="none" stroke="#b08a2e" stroke-width="2.2"/><path d="M557.3333333333333 1382 q4 -18 14 -14 M589.3333333333333 1382 q-4 -18 -14 -14" fill="none" stroke="#b08a2e" stroke-width="2.2"/>
+  <text x="573.3333333333333" y="1456.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Brought into</text><text x="573.3333333333333" y="1472.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">the temple</text>
+  <text x="573.3333333333333" y="1490.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">1 Kings 8:6</text>
+  <text x="526.6666666666666" y="1388" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="648.6666666666666" y="1384" width="36" height="20" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="638.6666666666666" y1="1398" x2="694.6666666666666" y2="1398" fill="none" stroke="#b08a2e" stroke-width="2.2"/><path d="M650.6666666666666 1382 q4 -18 14 -14 M682.6666666666666 1382 q-4 -18 -14 -14" fill="none" stroke="#b08a2e" stroke-width="2.2"/>
+  <text x="666.6666666666666" y="1456.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Josiah: put it</text><text x="666.6666666666666" y="1472.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">in the house</text>
+  <text x="666.6666666666666" y="1490.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">2 Chronicles 35:3</text>
+  <text x="620.0" y="1388" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <circle cx="760.0" cy="1380" r="26" fill="url(#glory)"/>
+  <text x="760.0" y="1456.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">“It shall not</text><text x="760.0" y="1472.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">be made again”</text>
+  <text x="760.0" y="1490.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Jeremiah 3:16</text>
+  <text x="713.3333333333334" y="1388" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="835.3333333333333" y="1384" width="36" height="20" fill="none" stroke="#b08a2e" stroke-width="2.2" stroke-dasharray="5 4"/><line x1="825.3333333333333" y1="1398" x2="881.3333333333333" y2="1398" fill="none" stroke="#b08a2e" stroke-width="2.2" stroke-dasharray="5 4"/><path d="M837.3333333333333 1382 q4 -18 14 -14 M869.3333333333333 1382 q-4 -18 -14 -14" fill="none" stroke="#b08a2e" stroke-width="2.2" stroke-dasharray="5 4"/>
+  <text x="853.3333333333333" y="1456.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Seen in the</text><text x="853.3333333333333" y="1472.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">temple in</text><text x="853.3333333333333" y="1489.8" font-size="12.5" fill="#3b2f1a" text-anchor="middle">heaven</text>
+  <text x="853.3333333333333" y="1507.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Revelation 11:19</text>
+  <text x="806.6666666666666" y="1388" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+</svg>

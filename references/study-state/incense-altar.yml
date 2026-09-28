@@ -1,0 +1,155 @@
+# Second page of the series jesus/the-heavenly-pattern/ (after lampstand.md). Same template:
+# one furnishing traced Sinai -> Solomon -> NT -> heaven, a generated plate, a tier table.
+
+slug: "incense-altar"
+title: "The Golden Altar of Incense"
+status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/jesus/the-heavenly-pattern/incense-altar.md"
+
+primary_passage: "Exodus 30:1-10"
+supporting_passages:
+  - "Exodus 30:34-38"
+  - "Exodus 37:25-29"
+  - "Exodus 40:5, 26-27"
+  - "Leviticus 10:1-3"
+  - "Leviticus 16:12-13"
+  - "Numbers 16:46-48"
+  - "1 Kings 6:20-22"
+  - "2 Chronicles 26:16-21"
+  - "Psalm 141:2"
+  - "Malachi 1:11"
+  - "Luke 1:8-13"
+  - "Hebrews 9:3-4"
+  - "Revelation 5:8"
+  - "Revelation 6:9-11"
+  - "Revelation 8:3-5"
+  - "Revelation 9:13"
+  - "Revelation 14:18"
+  - "Revelation 16:7"
+genre: [law, ot-narrative, psalm, gospel, epistle, apocalyptic, topical]
+
+thesis: >
+  God set a golden altar before the veil, facing the mercy seat, where the priest burned His own
+  incense every morning and evening as he tended the lamps; Scripture itself says what that incense
+  is -- the prayers of God's people (Psalm 141:2; Revelation 5:8) -- and in heaven the same altar
+  receives the saints' prayers and sends fire back to the earth, so the prayers of the saints are
+  heard before God's throne and answered in what He does.
+outline:
+  - section: "Hook + In one sentence + Key Takeaways + Study outline"
+    says: "Luke 1:10-11: the people praying outside at the hour of incense, an angel at the right side of the altar, 'your prayer has been heard'."
+  - section: "Made after the pattern (Exodus 30:1-10)"
+    says: "Every main dimension given (1 x 1 x 2 cubits), so the plate is to scale; horns of one piece; molding; rings ambiguous (two in all or two a side); placed before the veil facing the mercy seat 'where I will meet with you'."
+  - section: "His incense and His fire"
+    says: "The recipe is holy and forbidden for private use (30:34-38); Nadab and Abihu's unauthorized fire (Lev 10:1-3); Aaron's censer between the dead and the living (Num 16:46-48); Uzziah struck at the altar (2 Chr 26:16-21). God sets how He is approached."
+  - section: "Morning and evening, with the lamps"
+    says: "qetoret tamid at the hour the lamps are tended (30:7-8), ties to the lampstand page; blood on its horns once a year (30:10); the incense cloud over the mercy seat on the Day of Atonement (Lev 16:12-13)."
+  - section: "Outside the veil, belonging to the inner room"
+    says: "1 Kings 6:22 'the altar that belonged to the inner sanctuary'; Hebrews 9:4 'having' (echousa); thymiaterion as altar or censer (LXX censer at 2 Chr 26:19; Ezek 8:11; LSB footnote 'Or censer'). Both cases given."
+  - section: "Incense is prayer"
+    says: "Psalm 141:2; Luke 1:9-13 (hour of incense, prayer heard); Malachi 1:11 incense among the nations. The OT's own reading before Revelation states it."
+  - section: "The golden altar before the throne"
+    says: "Tier 1: Rev 5:8 bowls of incense 'which are the prayers of the saints'. Rev 8:3-5 incense added to the prayers, fire thrown to earth, trumpets follow; 9:13 voice from its horns; 6:9 souls under 'the altar' (which altar contested; ESVSB one altar in heaven serving both); 16:7 'the altar saying'. Link how-god-answers-prayer.md and at-home-with-the-lord.md."
+  - section: "What the altar shows about God"
+    says: "Tier table. Christ's intercession (Heb 7:25) marked as an inference (NIVBT 'may prefigure'); prayer through the priest God appointed; your prayers rise and are answered."
+  - section: "Discussion questions; References"
+    says: ""
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Chosen with the ark 2026-09-28 as the next Revelation-referenced furnishings. Tier 1 anchor: Revelation 5:8 interprets the incense itself."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Exodus 30 places the altar's instructions after the priesthood chapters (28-29), not with
+        the other furniture (25-27). Solomon's was cedar overlaid with gold (1 Kings 6:20-22).
+        Uzziah (792-740 BC, ESVSB) struck with leprosy at it (2 Chronicles 26:16-21). In Jesus' day
+        the offering priest was chosen by lot, likely once in a lifetime (CBSB on Luke 1:9).
+    literary_context:
+      done: true
+      notes: >
+        Revelation's heavenly altar opens the trumpet cycle (8:2-5) and answers the martyrs' cry of
+        6:10; 9:13 and 16:7 keep it speaking through the judgments.
+    content_word_studies:
+      done: true
+      notes: >
+        Exodus 30:1 mizbeach miqtar qetoret (H4196, H4729, H7004) "an altar, a place of burning of
+        incense". qetoret 60x in WLC. Exodus 30:8 "between the evenings" and qetoret tamid. Exodus
+        30:6 "before the kapporet ... where I will meet with you" (niphal ya'ad H3259). Exodus 30:4
+        ring count ambiguous: ESV/CSB/NASB two in all; NIV two on each side. Hebrews 9:4
+        thymiaterion (G2369) + echousa "having"; LXX uses thymiaterion for a censer at 2 Chr 26:19,
+        Ezek 8:11; LSB footnote "Or censer". libanotos (G3031) "censer" only Rev 8:3, 5 in NT.
+        thymiama (G2368) 6x NT: Luke 1:10, 11; Rev 5:8; 8:3, 4; 18:13. 1 Kings 6:22 "the altar that
+        was to the debir" (l:H1687). thusiasterion (G2379) 8x in Revelation: 6:9; 8:3 (2x); 8:5;
+        9:13; 11:1; 14:18; 16:7; "golden" only at 8:3 and 9:13.
+      terms:
+        - {word: "קְטֹרֶת", language: hebrew, transliteration: "qetoret", strongs_id: "H7004", gloss: "incense"}
+        - {word: "מִקְטָר", language: hebrew, transliteration: "miqtar", strongs_id: "H4729", gloss: "place of burning"}
+        - {word: "θυμιατήριον", language: greek, transliteration: "thymiatērion", strongs_id: "G2369", gloss: "altar of incense or censer"}
+        - {word: "θυμίαμα", language: greek, transliteration: "thymiama", strongs_id: "G2368", gloss: "incense"}
+        - {word: "λιβανωτός", language: greek, transliteration: "libanōtos", strongs_id: "G3031", gloss: "censer"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: ""
+    theological_principle:
+      done: true
+      notes: ""
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Revelation 5:8", relation: "Tier 1: incense = prayers of the saints"}
+      - {ref: "Psalm 141:2", relation: "OT's own likening of prayer to incense"}
+      - {ref: "Luke 1:10", relation: "people praying at the hour of incense"}
+      - {ref: "christian-life/how-god-answers-prayer.md", relation: "sibling study reads Rev 8:3-5 as answered prayer; consistent"}
+      - {ref: "last-things/at-home-with-the-lord.md", relation: "sibling study treats the martyrs under the altar (Rev 6:9)"}
+    translations_compared: ["ESV", "CSB", "NASB", "NIV", "LSB footnotes"]
+    divergences_noted: "Exodus 30:4 ring count; Hebrews 9:4 altar or censer."
+  drafting:
+    done: true
+    file: "docs/content/jesus/the-heavenly-pattern/incense-altar.md"
+  review:
+    done: false
+    validated: false
+
+evidence:
+  - {id: rev5-8-esv, what: "incense = prayers", tool: study_verse, args: {book: Rev, chapter: 5, verse: 8, work_id: esv-study-bible}, expect_contains: "golden bowls full of incense, which are the prayers of the saints", checked: 2026-09-28}
+  - {id: rev8-3-esv, what: "golden altar before the throne", tool: study_verse, args: {book: Rev, chapter: 8, verse: 3, work_id: esv-study-bible}, expect_contains: "on the golden altar before the throne", checked: 2026-09-28}
+  - {id: ex30-2-esv, what: "dimensions", tool: study_verse, args: {book: Exod, chapter: 30, verse: 2, work_id: esv-study-bible}, expect_contains: "two cubits shall be its height", checked: 2026-09-28}
+  - {id: ex30-6-esv, what: "placement", tool: study_verse, args: {book: Exod, chapter: 30, verse: 6, work_id: esv-study-bible}, expect_contains: "in front of the mercy seat that is above the testimony, where I will meet with you", checked: 2026-09-28}
+  - {id: heb9-4-thym, what: "Heb 9:4 thymiaterion", tool: bible_interlinear, args: {book: Heb, chapter: 9, verse: 4}, expect_contains: "θυμιατήριον", checked: 2026-09-28}
+  - {id: 1k6-22-debir, what: "altar belonging to the debir", tool: bible_interlinear, args: {book: 1Kgs, chapter: 6, verse: 22}, expect_contains: "H1687", checked: 2026-09-28}
+  - {id: libanotos-2, what: "censer word only Rev 8:3, 5", tool: bible_concordance, args: {strongs: G3031, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 2", checked: 2026-09-28}
+
+open_questions:
+  - "Link christian-life/how-god-answers-prayer.md (Revelation 8:3-5 as answered prayer) once it is published; removed because a published page cannot link a draft."
+  - "Which altar is Revelation 6:9's? ESVSB: one heavenly altar serving both functions; NIVBT: incense or burnt-offering altar; CBSB: where blood was poured (bronze). Mark contested."
+  - "Leviticus 16:12 'the altar before the LORD' -- the coals' source; NIVBT on Lev 10:1 implies the bronze altar. Do not build on it."
+  - "Christ's intercession (Heb 7:25; Rom 8:34) is the commentators' link (NIVBT on Exod 30:1 'may prefigure'), not a NT statement about this altar. Tier 3."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Exod 30:1-10, 30:6-8; Lev 10:1-3; Lev 16:11-17; Num 16:41-50; 2 Chr 26:16-20; Ps 141:1-2; Mal 1:11; Heb 9:4 (echousa = 'belonged to'); Rev 5:8-10; 6:9-11; 8:3-5 (one altar in heaven); 9:13-14."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Exod 30:1 (incense as prayer; 'may prefigure Christ's heavenly intercession'); Heb 9:4; Rev 6:9; Rev 5:8."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Lev 10:1; Num 16:46; Luke 1:9-10; Heb 9:4; Rev 5:8; 6:9; 9:13."}
+last_updated: "2026-09-28"
+
+review_2026-09-28:
+  by: "review-bible-study (subagent), applied by the drafting session on the author's instruction"
+  fixed:
+    - "Removed the false 'where any one was taken into human hands, the result was death' (Uzziah lived as a leper); added Korah's 250 (Numbers 16:35)."
+    - "The angel/Aaron censer comparison now marked as reversed (Aaron's turned wrath away; the angel's brings it down)."
+    - "Trumpets-as-answer marked as the ESVSB's strong inference; 6:11 'rest a little longer' and ESVSB's 6:15-17 start given."
+    - "Plate: Day-of-Atonement arrow no longer starts at the incense altar (Lev 16:12 'the altar before the LORD'); altar position and veil line flagged as worked out."
+    - "Exodus 30:37-38 penalty quoted exactly; heading 'A recipe reserved for God'."
+    - "Christ's intercession labelled 'read in by later interpreters' (series tier vocabulary) in takeaways and table."
+    - "Hebrews 9:4: KJV and NKJV 'censer' named; 'That is where Scripture puts it' replaced by Exodus 30:6; 40:26."
+    - "Revelation 6:9: ESVSB 6:9-11 'where sacrificial blood would pool' and NIVBT's either-altar added."
+    - "'Daily worshipper' corrected to priest; 'No temple in the city'; 'by the walls' -> 'sides'; opening reworked (block-quote share warning cleared)."
+    - "Tags: 1-kings, 2-chronicles, malachi. G2192 on echousa; thymiama glossed. Language question added (six questions)."
+  not_applied:
+    - "Philo/Josephus usage of thymiaterion for the incense altar: not in any repo source, left out until verified."

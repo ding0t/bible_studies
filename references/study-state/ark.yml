@@ -1,0 +1,157 @@
+# Third page of the series jesus/the-heavenly-pattern/ (after lampstand.md, incense-altar.md).
+
+slug: "ark"
+title: "The Ark of the Covenant"
+status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/jesus/the-heavenly-pattern/ark.md"
+
+primary_passage: "Exodus 25:10-22"
+supporting_passages:
+  - "Exodus 16:33-34"
+  - "Exodus 37:1-9"
+  - "Exodus 40:20-21"
+  - "Leviticus 16:2, 13-16"
+  - "Numbers 7:89"
+  - "Numbers 10:33-36"
+  - "Numbers 17:10"
+  - "Joshua 3:3-4"
+  - "1 Samuel 4:3-4, 11, 21-22"
+  - "1 Samuel 5:3-4"
+  - "2 Samuel 6:6-7"
+  - "1 Kings 6:23-28"
+  - "1 Kings 8:6-11"
+  - "1 Chronicles 28:2"
+  - "2 Chronicles 35:3"
+  - "Psalm 99:1"
+  - "Psalm 132:7-8"
+  - "Jeremiah 3:16-17"
+  - "Romans 3:23-26"
+  - "Hebrews 9:4-7"
+  - "Revelation 11:19"
+genre: [law, ot-narrative, psalm, prophets, epistle, apocalyptic, topical]
+
+thesis: >
+  The ark was the footstool of God's throne on earth: a gold chest holding His covenant, under a lid
+  of pure gold where the high priest sprinkled blood once a year and from above which God spoke.
+  Israel lost it and Scripture never says how, but Paul names Jesus the hilasterion -- the mercy
+  seat itself, which God put forward in public where the old one was hidden behind the veil -- and
+  John sees the ark of God's covenant in the temple in heaven.
+outline:
+  - section: "Hook + In one sentence + Key Takeaways + Study outline"
+    says: "Revelation 11:19: heaven's temple opened and the ark seen -- centuries after it vanished from the record on earth."
+  - section: "Made after the pattern (Exodus 25:10-22)"
+    says: "The first thing God describes. aron is the everyday word for a chest (Joseph's coffin Gen 50:26; Joash's collection chest 2 Kgs 12:10); Noah's ark is a different word (tevah, also Moses' basket); English and Greek (kibotos) use one word for both. Poles never removed. Plate to scale."
+  - section: "The mercy seat and the cherubim"
+    says: "kapporet 27x, all in Exodus-Numbers plus 1 Chr 28:11; TWOT 1023c 'propitiatory', related to kipper (ESVSB 'may be related' -- mark); LXX hilasterion. 'There I will meet with you' (25:22; Num 7:89). Enthroned on the cherubim (1 Sam 4:4; Ps 99:1); footstool (1 Chr 28:2; Ps 132:7); throne vs footstool contested (CBSB)."
+  - section: "Blood on the lid"
+    says: "Lev 16:2 not at any time; incense cloud; blood sprinkled on and before the mercy seat seven times (16:14-15); Heb 9:7 once a year, not without blood. The covenant inside, the blood on top: the juxtaposition is textual, the meaning an interpretation -- mark."
+  - section: "The ark on the move"
+    says: "Went before them (Num 10:33-36); Jordan (Josh 3:3-4, 2,000 cubits); treated as a charm and captured (1 Sam 4:3, 11, 21-22); Dagon (1 Sam 5:3-4); Uzzah (2 Sam 6:6-7); into the temple, cloud fills (1 Kgs 8:6-11). God's presence is holy and not a tool."
+  - section: "What was in it"
+    says: "Tablets inside (Exod 25:16; 40:20); jar and rod 'before the testimony' (Exod 16:34; Num 17:10); Heb 9:4 'in which'; 1 Kgs 8:9 only tablets (ESVSB: had once contained). Both texts given."
+  - section: "Lost"
+    says: "Named last in narrative at 2 Chr 35:3 (Josiah); never in 2 Kings' account of the fall (only the chest of 12:10-11); no mention in Ezra-Nehemiah or any prophet but Jer 3:16 (concordance). Jer 3:16-17: not remembered, not made again, Jerusalem called the throne. None in Ezekiel's temple. 2 Maccabees 2:4-8 (Jeremiah hid it) cited as tradition, not Scripture. Dispensational note on Jer 3:17 'in those days'."
+  - section: "The mercy seat God put forward"
+    says: "Rom 3:25 hilasterion 'put forward' (public) -- propitiation named; Heb 9:5 same word; Heb 4:16 throne of grace (echo). John 20:12 two angels at head and feet held as a later reading (tier 3)."
+  - section: "Seen in heaven"
+    says: "Rev 11:19 the ark of His covenant in His temple; the pattern's original; then Rev 21:22 no temple. Link new-jerusalem.md."
+  - section: "What the ark shows about God"
+    says: "Tier table; God meets His people over blood; propitiation in Jesus; approach with confidence."
+  - section: "Discussion questions; References"
+    says: ""
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Chosen with the altar of incense 2026-09-28. Revelation 11:19 anchors it; Romans 3:25 and Hebrews 9:5 give the NT reading of the mercy seat."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        The ark is the first furnishing described (Exod 25:10) and the only one in the Most Holy
+        Place (ESVSB, NIVBT). Its route: Sinai, the wilderness, the Jordan, Shiloh (1 Sam 3:3),
+        capture, Kiriath-jearim, Jerusalem, Solomon's temple. Last narrative mention 2 Chr 35:3.
+    literary_context:
+      done: true
+      notes: "Rev 11:19 closes the trumpet cycle and opens chs 12-14 (ESVSB)."
+    content_word_studies:
+      done: true
+      notes: >
+        aron (H0727 in MACULA tagging) 202x: Gen 50:26 coffin; 2 Kgs 12:10-11 and 2 Chr 24:8-11
+        collection chest; otherwise the ark. By book: Exod 26, Lev 1, Num 6, Deut 8, Josh 30,
+        Judg 1, 1 Sam 40, 2 Sam 21, 1 Kgs 12 (last 8:21), 1 Chr 34, 2 Chr 18 (last 35:3), Ps 1
+        (132:8), Jer 1 (3:16). tevah (H8392): Noah's ark and Moses' basket (Exod 2:3, 5) only.
+        kapporet (H3727) 27x: Exodus, Leviticus 16, Numbers 7:89, 1 Chr 28:11; TWOT 1023c
+        "propitiatory". hilasterion (G2435): LXX Exod 25:17-22 etc, Lev 16, Num 7:89, Ezek 43:14,
+        17, 20 (altar ledges), Amos 9:1; NT Rom 3:25, Heb 9:5. kibotos (G2787) NT 6x: Noah (Matt
+        24:38; Luke 17:27; Heb 11:7; 1 Pet 3:20), covenant ark (Heb 9:4; Rev 11:19); LXX Genesis
+        28x. Exod 25:12 pa'amot "feet" (ASV, ESV) / "corners" (KJV).
+      terms:
+        - {word: "אֲרוֹן", language: hebrew, transliteration: "aron", strongs_id: "H727", gloss: "chest"}
+        - {word: "כַּפֹּרֶת", language: hebrew, transliteration: "kapporet", strongs_id: "H3727", gloss: "mercy seat, atonement cover"}
+        - {word: "כְּרוּב", language: hebrew, transliteration: "keruv", strongs_id: "H3742", gloss: "cherub"}
+        - {word: "תֵּבָה", language: hebrew, transliteration: "tevah", strongs_id: "H8392", gloss: "Noah's ark; Moses' basket"}
+        - {word: "ἱλαστήριον", language: greek, transliteration: "hilastērion", strongs_id: "G2435", gloss: "mercy seat, propitiation"}
+        - {word: "κιβωτός", language: greek, transliteration: "kibōtos", strongs_id: "G2787", gloss: "ark, chest"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: ""
+    theological_principle:
+      done: true
+      notes: ""
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Romans 3:25", relation: "Tier 1: Christ as hilasterion"}
+      - {ref: "Hebrews 9:5", relation: "same word for the mercy seat"}
+      - {ref: "Revelation 11:19", relation: "the ark seen in heaven"}
+      - {ref: "2 Maccabees 2:4-8", relation: "extra-biblical tradition that Jeremiah hid the tabernacle, ark and incense altar (KJV Apocrypha, public domain, references/open-data scrollmapper deuterocanonical)"}
+    translations_compared: ["ESV", "ASV", "KJV", "LSB footnotes", "CSB footnotes"]
+    divergences_noted: "Exod 25:12 feet/corners; kapporet 'mercy seat' vs 'atonement cover' (NIV) vs 'propitiatory seat' (LSB footnote)."
+  drafting:
+    done: true
+    file: "docs/content/jesus/the-heavenly-pattern/ark.md"
+  review:
+    done: false
+    validated: false
+
+evidence:
+  - {id: rev11-19-esv, what: "ark seen in heaven", tool: study_verse, args: {book: Rev, chapter: 11, verse: 19, work_id: esv-study-bible}, expect_contains: "the ark of his covenant was seen within his temple", checked: 2026-09-28}
+  - {id: rom3-25-esv, what: "propitiation", tool: study_verse, args: {book: Rom, chapter: 3, verse: 25, work_id: esv-study-bible}, expect_contains: "whom God put forward as a propitiation by his blood", checked: 2026-09-28}
+  - {id: jer3-16-esv, what: "not made again", tool: study_verse, args: {book: Jer, chapter: 3, verse: 16, work_id: esv-study-bible}, expect_contains: "it shall not be made again", checked: 2026-09-28}
+  - {id: kapporet-27, what: "kapporet 27x", tool: bible_concordance, args: {strongs: H3727, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "\"count\": 27", checked: 2026-09-28}
+  - {id: aron-ezek-0, what: "no ark in Ezekiel", tool: bible_concordance, args: {strongs: H0727, book: Ezek, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "\"count\": 0", checked: 2026-09-28}
+  - {id: aron-gen-coffin, what: "aron = Joseph's coffin", tool: bible_concordance, args: {strongs: H0727, book: Gen, work_id: macula-hebrew-wlc}, expect_contains: "coffin", checked: 2026-09-28}
+  - {id: twot-kapporet, what: "TWOT 1023c propitiatory", tool: twot_strongs, args: {strongs_id: H3727}, expect_contains: "1023c", checked: 2026-09-28}
+  - {id: 1k6-23-esv, what: "Solomon's cherubim 10 cubits", tool: study_verse, args: {book: 1Kgs, chapter: 6, verse: 23, work_id: esv-study-bible}, expect_contains: "each ten cubits high", checked: 2026-09-28}
+
+open_questions:
+  - "Throne or footstool: CBSB says extra-biblical evidence favours footstool with the cherubim's wings as the seat. Give both."
+  - "Jeremiah 3:16-17 in a dispensational reading ('in those days', the nations gathered to Jerusalem as the LORD's throne) -- check statement-of-faith End times for consistency; likely consistent with a millennial Jerusalem."
+  - "John 20:12 (angels at head and feet) is a devotional reading of the mercy seat, not an NT statement. Tier 3 or leave out."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Exod 25:10-22, 17-22 (kapporet 'may be related' to kipper); Lev 16; 1 Sam 4:3-4, 21-22 (Ichabod, galah 'exiled'); 2 Sam 6:6-11; 1 Kgs 8:9 (had once contained jar and rod); Ps 99:1; Jer 3:16; Rom 3:25 (propitiation not only expiation); Rev 11:19."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Exod 25:10 (footstool); Lev 16:2; Jer 3:16 (ark may no longer have existed); Rom 3:25 (hilasterion = atonement cover); Heb 9:5."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Exod 25:16 (throne vs footstool); Rom 3:25; Heb 9:5; Rev 11:19 (Jewish belief the ark was hidden and would be restored)."}
+  - {type: other, title: "2 Maccabees 2:4-8", author: "KJV Apocrypha (public domain), scrollmapper deuterocanonical", note: "Jeremiah hides the tabernacle, ark and altar of incense in a cave. Tradition only."}
+last_updated: "2026-09-28"
+
+review_2026-09-28:
+  by: "review-bible-study (subagent), applied by the drafting session on the author's instruction"
+  fixed:
+    - "hilasterion: Paul's use of the mercy seat's word stated; 'the mercy seat itself' marked probable and debated, with NIV 'sacrifice of atonement', LSB and CSB footnotes as the alternative; Ezekiel 43 ledges restored."
+    - "proetheto: Romans 1:13 'intended', Ephesians 1:9 'set forth' (ESV), and the LXX bread-of-the-Presence use (Exodus 40:23; Leviticus 24:8) given."
+    - "Heavenly original grounded in Hebrews 8:5; Revelation 11:19 shows the ark in the heavenly sanctuary."
+    - "CBSB 'may evoke' Sinai restored; Numbers 4:15 citation narrowed, poles from Exodus 25:14."
+    - "Thesis hedged: footstool or throne. Expiation view stated in its own terms; ESVSB and NIVBT 'among other things' as the answer."
+    - "ESVSB on 2 Chronicles 35:3-6 (ark moved under Manasseh/Amon or during repairs) and NIVBT on Jeremiah 3:16 (already gone?) added; Jeremiah 52:17-23 silence added."
+    - "'any prophet' -> 'prophetic books from Isaiah to Malachi'; 2 Maccabees labelled KJV; 'they' disambiguated; 'It could not be used'; Leviticus 16:34 cited; H3722 on kipper; bible_references completed."
+    - "Plate strip: 'In English Bible order' (in Hebrew order 2 Chronicles 35:3 is last)."
+  kept:
+    - "Tag 'atonement' is new to the corpus; kept deliberately (propitiation is the page's doctrine)."
