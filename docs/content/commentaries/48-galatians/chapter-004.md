@@ -13,6 +13,8 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:6-7
+- [Six Days of History](../../last-things/six-days-of-history.md) — 4:4
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 4:4-5
+- [The New Jerusalem](../../last-things/new-jerusalem.md) — 4:25-26
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 4:5
 <!-- commentary-index:auto-end -->

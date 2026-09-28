@@ -14,4 +14,5 @@ draft: false
 
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 3:21
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 3:4-11
+- [The New Jerusalem](../../last-things/new-jerusalem.md) — 3:20
 <!-- commentary-index:auto-end -->

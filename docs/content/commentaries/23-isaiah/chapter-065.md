@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 65:17-25
 - [Know the Truth](../../christian-life/know-the-truth.md) — 65:16
 <!-- commentary-index:auto-end -->

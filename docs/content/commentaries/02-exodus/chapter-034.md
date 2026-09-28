@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 34:6
 - [Know the Truth](../../christian-life/know-the-truth.md) — 34:6
 <!-- commentary-index:auto-end -->

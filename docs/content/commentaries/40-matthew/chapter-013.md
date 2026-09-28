@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 13:30
+- [Six Days of History](../../last-things/six-days-of-history.md) — 13:47
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 13:10-17
 <!-- commentary-index:auto-end -->

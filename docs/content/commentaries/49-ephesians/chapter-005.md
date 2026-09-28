@@ -14,5 +14,6 @@ draft: false
 
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:22-33 (primary passage)
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 5:25
+- [The New Jerusalem](../../last-things/new-jerusalem.md) — 5:25-27
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 5:31
 <!-- commentary-index:auto-end -->

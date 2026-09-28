@@ -13,9 +13,11 @@ draft: false
 ## Studies referencing this chapter
 
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 23:23-25 (primary passage)
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 23:36
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 23:10
 - [Biblical Numerology](../../scripture/numerology.md) — 23:1-44
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 23:2-4
+- [Six Days of History](../../last-things/six-days-of-history.md) — 23:2-44
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 23:23-25
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 23:4
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 23:32

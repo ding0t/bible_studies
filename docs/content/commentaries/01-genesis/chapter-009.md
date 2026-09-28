@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 9:1-19 (primary passage)
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 9:11
 <!-- commentary-index:auto-end -->

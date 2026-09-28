@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 28:1
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 28:1
 <!-- commentary-index:auto-end -->

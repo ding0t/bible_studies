@@ -12,8 +12,10 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 22:1-5
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 22:20
 - [Sin and Sorcery](../../sin/sorcery.md) — 22:15
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 22:17
+- [The New Jerusalem](../../last-things/new-jerusalem.md) — 22:1-5
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 22:17
 <!-- commentary-index:auto-end -->

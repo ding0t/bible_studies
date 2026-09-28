@@ -13,9 +13,11 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 8:23
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 8:21
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 8:3
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 8:1
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 8:26-27
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 8:28
+- [Six Days of History](../../last-things/six-days-of-history.md) — 8:29
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 8:15-17
 <!-- commentary-index:auto-end -->

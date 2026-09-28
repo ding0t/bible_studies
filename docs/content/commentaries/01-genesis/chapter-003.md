@@ -12,8 +12,10 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 3:19
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 3:14-15
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 3:15
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 3:22-24
 - [Know the Truth](../../christian-life/know-the-truth.md) — 3:1
+- [The New Jerusalem](../../last-things/new-jerusalem.md) — 3:17
 <!-- commentary-index:auto-end -->

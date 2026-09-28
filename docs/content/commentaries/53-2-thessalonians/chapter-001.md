@@ -1,0 +1,16 @@
+---
+title: "2 Thessalonians 1"
+category: "bible"
+description: "Commentary and cross-referenced studies for 2 Thessalonians chapter 1"
+tags: ["2-thessalonians"]
+draft: false
+---
+
+# 2 Thessalonians 1
+
+
+<!-- commentary-index:auto-start -->
+## Studies referencing this chapter
+
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:7-8
+<!-- commentary-index:auto-end -->

@@ -16,5 +16,6 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 4:2
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 4:1-4
 - [Simon Peter](../../biblical-figures/peter.md) — 4:18-20
+- [Six Days of History](../../last-things/six-days-of-history.md) — 4:19
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 4:18-22
 <!-- commentary-index:auto-end -->

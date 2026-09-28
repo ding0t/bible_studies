@@ -21,6 +21,7 @@ draft: false
 - [Philip](../../biblical-figures/philip.md) — 1:13
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:14
 - [Simon the Zealot](../../biblical-figures/simon-the-zealot.md) — 1:13
+- [Six Days of History](../../last-things/six-days-of-history.md) — 1:7
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 1:13
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:9-11
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 1:7

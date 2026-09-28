@@ -14,4 +14,5 @@ draft: false
 
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 5:12-21
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 5:2
+- [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 5:14
 <!-- commentary-index:auto-end -->

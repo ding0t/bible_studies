@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 25:6-8
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 25:8
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 25:6-9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 25:6-8
 <!-- commentary-index:auto-end -->

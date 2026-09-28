@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 2:5
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:17-18
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 2:11
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 2:14-15

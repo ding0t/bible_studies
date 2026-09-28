@@ -14,6 +14,8 @@ draft: false
 
 - [Andrew](../../biblical-figures/andrew.md) — 1:35-42 (primary passage)
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 1:45-51 (primary passage)
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:14
+- [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 1:14
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:14
 - [Philip](../../biblical-figures/philip.md) — 1:43-46
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1

@@ -13,9 +13,11 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:11-22 (primary passage)
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 2:7
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 2:1-10
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 2:12-13
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 2:18
+- [The New Jerusalem](../../last-things/new-jerusalem.md) — 2:20
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:21-22
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 2:20
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:19

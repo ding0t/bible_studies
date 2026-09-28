@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 40:1
+- [The New Jerusalem](../../last-things/new-jerusalem.md) — 40:2-3
 <!-- commentary-index:auto-end -->

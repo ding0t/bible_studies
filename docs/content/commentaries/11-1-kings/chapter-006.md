@@ -15,4 +15,5 @@ draft: false
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 6:1 (primary passage)
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 6:1
 - [The Combined Timeline: One Line, Two Zones](../../last-things/combined-timeline.md) — 6:1
+- [The New Jerusalem](../../last-things/new-jerusalem.md) — 6:20
 <!-- commentary-index:auto-end -->

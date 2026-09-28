@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 5:1-10 (primary passage)
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 5:17
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 5:21
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 5:17
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:17-18

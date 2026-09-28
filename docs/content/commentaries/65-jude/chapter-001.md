@@ -14,6 +14,7 @@ draft: false
 
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 1:8
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:9
+- [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 1:14-15
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 1:1
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 1:6-7
 - [The Rapture of the Church](../../last-things/rapture.md) — 1:14-15

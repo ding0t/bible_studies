@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:33
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:4
 - [The Way](../../jesus/the-way.md) — 1:76-79
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 1:78-79

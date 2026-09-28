@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 37:27
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 37:27
 <!-- commentary-index:auto-end -->

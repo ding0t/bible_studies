@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 1:10
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:12
 <!-- commentary-index:auto-end -->

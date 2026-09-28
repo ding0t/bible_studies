@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 12:2
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 12:1-11
 - [The Restrainer](../../last-things/the-restrainer.md) — 12:1
 <!-- commentary-index:auto-end -->

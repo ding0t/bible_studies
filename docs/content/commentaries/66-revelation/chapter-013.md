@@ -13,5 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 13:18 (primary passage)
+- [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 13:1
+- [Six Days of History](../../last-things/six-days-of-history.md) — 13:14-18
 - [The Restrainer](../../last-things/the-restrainer.md) — 13:7
 <!-- commentary-index:auto-end -->
