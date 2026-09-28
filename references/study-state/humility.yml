@@ -1,0 +1,126 @@
+# Backlog 10.5 "In humility" (docs/content/about/backlog.md). Author's notes: humble before God and
+# toward others, and how that differs from looking pious; Phil 2:3 and 1 Cor 14:20 (KJV "in
+# understanding be men"); Christ the example (Phil 2:5-8, Matt 11:29, John 13:1-17); tapeinophrosyne
+# 7x, twice false humility (Col 2:18, 23); pride as the opposite (Mark 7:21-22, James 4:6, 1 Pet 5:5),
+# Isa 14 / Ezek 28 as the fall of Satan marked contested; three directions (Micah 6:8; Isa 57:15);
+# anav at Num 12:3. Author, mid-session 2026-09-28: "feel free to spin off a counter study under
+# sin/pride if needed" -- pride forked to sin/pride.md (state file pride.yml).
+
+slug: "humility"
+title: "In Humility"
+status: review
+target_path: "docs/content/christian-life/humility.md"
+
+primary_passage: "Philippians 2:1-11"
+supporting_passages: ["Matthew 11:29", "John 13:1-17", "Mark 10:42-45", "Zechariah 9:9", "Matthew 21:5",
+  "Numbers 12:1-8", "Micah 6:8", "Isaiah 57:15", "Isaiah 66:2", "Proverbs 3:34", "James 4:6-10",
+  "1 Peter 5:5-7", "Romans 12:3", "Romans 12:16", "1 Corinthians 4:7", "1 Corinthians 14:20",
+  "Matthew 18:1-4", "Ephesians 4:2", "Colossians 3:12", "Colossians 2:16-23", "Mark 7:21-23",
+  "Luke 14:11", "Luke 18:14", "Matthew 23:12", "Deuteronomy 8:2-3", "Isaiah 45:23"]
+genre: [epistle, gospel, topical]
+
+thesis: >-
+  Humility is the mind of Christ Jesus, who was God and humbled Himself to death on a cross, and whom
+  the Father exalted; so you are to see yourself truly before God, count others more significant than
+  yourself, and leave your lifting up to Him, who dwells with the lowly, gives grace to the humble, and
+  sees through the humility people put on for show.
+outline:
+  - section: "Opening"
+    says: "Two women in Philippi could not agree (Phil 4:2); Paul answered with Christ (2:5-11)."
+  - section: "What the words mean"
+    says: "tapeinos = low, a slave's word in Greek usage (Abbott-Smith), made a virtue in the NT; tapeinophrosyne = lowly-mindedness, 7x, twice false; Hebrew anav/ani = the poor and afflicted who depend on God; Moses at Num 12:3 (LXX praus) does not defend himself, and God does."
+  - section: "The mind of Christ (Phil 2:1-11)"
+    says: "2:3's command is repeated in Christ's action: count (hegeomai 2:3/2:6), empty glory / emptied (kenodoxia 2:3, ekenosen 2:7), humility / humbled (2:3/2:8); form of a slave; obedience to the cross; 'therefore' God exalted Him, with Isa 45:23's homage to the LORD given to Jesus."
+  - section: "Gentle and lowly: the Gospels' picture"
+    says: "Matt 11:29 praus kai tapeinos; Zech 9:9 fulfilled at Matt 21:5; John 13 foot washing, a slave's task, 'I have given you an example'; Mark 10:45."
+  - section: "Before God"
+    says: "Isa 57:15 and 66:2 God dwells with the crushed and lowly; Micah 6:8 walk humbly (tsana, contested: humbly / prudently); James 4:6-10 and 1 Pet 5:5-7 quote Prov 3:34 LXX; humble yourself, He exalts -- Jesus says it three times (Matt 23:12; Luke 14:11; 18:14); Deut 8:2-3 God humbles to teach dependence; casting anxieties is humility as trust."
+  - section: "In yourself: thinking truly"
+    says: "tapeino-PHRON-: humility is a way of thinking; Rom 12:3 hyperphronein / phronein / sophronein; 1 Cor 4:7 what do you have that you did not receive; humble like a child (Matt 18:4) and grown up in thinking (1 Cor 14:20)."
+  - section: "Toward others"
+    says: "Phil 2:3-4; Eph 4:2; Col 3:12; 1 Pet 5:5 clothe yourselves; Rom 12:16 associate with the lowly; John 13:14 wash one another's feet; Paul counts his own gains loss (Phil 3:7-8, hegeomai again)."
+  - section: "Humility for show"
+    says: "Col 2:18, 23: the same word, used of ascetic practice that ranks believers; the man is 'puffed up' (physioo, 6 of its 7 NT uses are 1 Corinthians); ethelothreskia 'self-made religion' (only here); 'no value in stopping the indulgence of the flesh'. Translation note: ESV's 'asceticism' hides the word; NIV/NKJV 'false humility'; NASB 2020 'humility'."
+  - section: "The opposite: pride"
+    says: "Short: Mark 7:22 pride comes from the heart; God opposes the proud; pointer to sin/pride.md."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Filed under christian-life/ (practical theology). Pride forked to sin/pride.md at the author's suggestion; this study keeps a short pride section pointing there."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Philippians: Paul in prison (1:13); a Roman colony; disunity (Euodia and Syntyche, 4:2, 'agree'
+        = to auto phronein, same verb as 2:2, 2:5); rivals preaching from eritheia (1:17, same word as
+        2:3). Greco-Roman status culture: persons of status barely ate with servants, let alone acted as
+        one (NIV Cultural Backgrounds on Phil 2:7). Foot washing a servile task (ESVSB, NIVCBSB on John
+        13:5). Colossae: ascetic/visionary teaching with angel veneration; fasting used to seek
+        revelations (NIVCBSB on Col 2:18).
+    literary_context:
+      done: true
+      notes: >-
+        Phil 2:1-4 exhortation -> 2:5-11 Christ -> 2:12-18 'therefore' work out; Timothy (2:19-24) and
+        Epaphroditus (2:25-30, hegeomai 2:25) as examples; Paul himself 3:7-8 (hegeomai x3). Col 2:16-23
+        warnings -> 3:1-17 new life, where tapeinophrosyne is put on as a garment (3:12). James 4:1-10
+        quarrels -> humble yourselves. 1 Pet 5:1-7 elders/younger -> all of you. Num 12:1-8 Miriam and
+        Aaron's challenge; the narrator's note on Moses sits between the accusation and God's answer.
+        1 Cor 14:20 sits in the tongues/prophecy argument: 'children' = valuing a showy gift over
+        building others up (ESVSB, NIV BTSB).
+    content_word_studies:
+      done: true
+      notes: "Verified against macula-greek-sblgnt / macula-hebrew-wlc and STEPBible TBESG/TBESH (Abbott-Smith for Greek)."
+      terms:
+        - {word: "ταπεινοφροσύνη", language: greek, transliteration: "tapeinophrosynē", strongs_id: "G5012", gloss: "lowliness of mind, humility", notes: "7x: Acts 20:19; Eph 4:2; Phil 2:3; Col 2:18, 23; 3:12; 1 Pet 5:5. Abbott-Smith: rare outside NT, found in a bad sense in Josephus (BJ 4.9.2) and Epictetus."}
+        - {word: "ταπεινός", language: greek, transliteration: "tapeinos", strongs_id: "G5011", gloss: "low, lowly", notes: "8x NT. Abbott-Smith: 'in cl. usually in a slighting sense ... in NT in an honourable sense'. Matt 11:29; Jas 4:6; 1 Pet 5:5."}
+        - {word: "ταπεινόω", language: greek, transliteration: "tapeinoō", strongs_id: "G5013", gloss: "to humble", notes: "14x NT. The 'humbles himself / will be exalted' saying: Matt 23:12; Luke 14:11; 18:14. Phil 2:8; Jas 4:10; 1 Pet 5:6; Matt 18:4."}
+        - {word: "κενοδοξία", language: greek, transliteration: "kenodoxia", strongs_id: "G2754", gloss: "empty glory, conceit", notes: "only Phil 2:3; shares keno- with ekenosen (G2758) Phil 2:7."}
+        - {word: "ἡγέομαι", language: greek, transliteration: "hēgeomai", strongs_id: "G2233", gloss: "count, regard", notes: "Phil 2:3, 2:6, 2:25, 3:7, 3:8 x2."}
+        - {word: "φυσιόω", language: greek, transliteration: "physioō", strongs_id: "G5448", gloss: "puff up", notes: "7x NT: 1 Cor 4:6, 18, 19; 5:2; 8:1; 13:4; Col 2:18."}
+        - {word: "ἐθελοθρησκία", language: greek, transliteration: "ethelothrēskia", strongs_id: "G1479", gloss: "self-made religion", notes: "only Col 2:23."}
+        - {word: "ὑπερηφανία", language: greek, transliteration: "hyperēphania", strongs_id: "G5243", gloss: "pride, haughtiness", notes: "NT only Mark 7:22."}
+        - {word: "πραΰς", language: greek, transliteration: "praus", strongs_id: "G4239", gloss: "gentle, meek", notes: "LXX renders anav at Num 12:3 with praus; Matt 11:29; 21:5 (Zech 9:9 LXX)."}
+        - {word: "עָנָו", language: hebrew, transliteration: "ʿanav", strongs_id: "H6035", gloss: "poor, humble, afflicted, meek", notes: "Num 12:3; Prov 3:34 Qere (Ketiv aniyim). Overlaps ani H6041."}
+        - {word: "צָנַע", language: hebrew, transliteration: "tsanaʿ", strongs_id: "H6800", gloss: "to be modest / humble (contested: prudent, circumspect)", notes: "verb only Mic 6:8; root once more as adjective at Prov 11:2. NIV BTSB: new philological evidence argues for 'prudently'; LSB footnote 'Or circumspectly'."}
+        - {word: "דַּכָּא", language: hebrew, transliteration: "dakka", strongs_id: "H1793", gloss: "crushed, contrite", notes: "Isa 57:15; Ps 34:18 (Heb 34:19)."}
+        - {word: "שָׁפָל", language: hebrew, transliteration: "shaphal", strongs_id: "H8217", gloss: "low, lowly", notes: "Isa 57:15 twice."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Foot washing as a rite is cultural; the act it models (taking the lowest task for another) transcends. Fasting itself is commended elsewhere; Col 2 condemns its use to rank believers and seek visions."
+    theological_principle:
+      done: true
+      notes: "See thesis. Statement of faith line 69 ('He emptied Himself to take on humanity while remaining fully God: Philippians 2:6-8') -- consistent; the study follows ESVSB against a kenotic surrender of divine attributes."
+    application_draft:
+      done: true
+      notes: "Be Transformed: think truly (1 Cor 4:7); leave your lifting up to God (Num 12); take an unwanted task and tell no one (John 13)."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Isaiah 45:23", relation: "Phil 2:10-11 applies the LORD's oath to Jesus; bible_trace silent (split across two verses), cite directly. Rom 14:11 quotes it of God."}
+      - {ref: "Proverbs 3:34", relation: "James 4:6 and 1 Pet 5:5 quote the LXX, changing kyrios to ho theos; bible_trace silent."}
+      - {ref: "Zechariah 9:9", relation: "Matt 21:5 -- trace: quotation of Isa 62:11 + allusion to Zech 9:9, corroborated."}
+    translations_compared: ["ESV", "NIV", "NKJV", "CSB", "NASB 1995", "NASB 2020", "LSB", "NLT", "KJV"]
+    divergences_noted: "Col 2:18, 23 tapeinophrosyne: ESV 'asceticism', CSB 'ascetic practices'/'false humility', NIV & NKJV 'false humility', NASB95/LSB 'self-abasement', NASB 2020 'humility', NLT 'pious self-denial'. Micah 6:8: all 'humbly'; LSB footnote 'Or circumspectly'; NIV BTSB 'prudently'."
+  drafting:
+    done: true
+    file: "docs/content/christian-life/humility.md"
+  review:
+    done: false
+    validated: true # npm run validate clean (provenance fields pending commit); mkdocs build --strict passes
+
+open_questions:
+  - "Fork: pride (sin/pride.md) -- origin in the heart, God opposes the proud, Isa 14 / Ezek 28 as the fall of Satan (contested), 1 Tim 3:6 the condemnation of the devil."
+  - "1 Pet 5:5 enkombōsasthe ('clothe yourselves', tie on like an apron) as an echo of John 13:4's towel: suggested by some, not verified; left out."
+  - "Phil 2:7 ekenōsen as an echo of Isa 53:12 ('poured out his soul'): NIV Cultural Backgrounds notes it and notes Paul's language differs; left out, too thin to carry weight."
+resources_consulted:
+  - {type: lexicon, title: "Abbott-Smith, Manual Greek Lexicon of the NT, via STEPBible TBESG (CC BY)", note: "tapeinos slighting in classical Greek, honourable in NT; tapeinophrosyne rare outside NT, bad sense in Josephus and Epictetus; physioo; ethelothreskia."}
+  - {type: lexicon, title: "STEPBible TBESH (CC BY)", note: "anav, ani, shaphal, kana glosses."}
+  - {type: commentary, title: "ESV Study Bible", note: "Confirmed: Phil 2:3-4 conceit = vainglory; 2:7 not a surrender of divine attributes; Col 2:18 'asceticism translates the Greek word for humility'; John 13 foot washing a slave's task; Num 12:3 anav focus on attitude."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "Contributed: Micah 6:8 'humbly' contested, 'prudently' argued; Col 2:18 self-appointed referees."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", note: "Contributed: Phil 2:7 status behaviour in antiquity; Col 2:18 fasting to seek revelations; 1 Cor 14:20 'like children' demeaning."}
+  - {type: other, title: "LSB footnotes", note: "Col 2:18 'Or humility'; Micah 6:8 'Or circumspectly'; Matt 11:29 'Lit lowly'."}
+last_updated: "2026-09-28"

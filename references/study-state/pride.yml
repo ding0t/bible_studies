@@ -1,0 +1,73 @@
+# Forked from humility.yml (backlog 10.5) at the author's suggestion, 2026-09-28: "feel free to spin
+# off a counter study under sin/pride if needed". Backlog notes for pride: recognise it, where it
+# comes from (Mark 7:21-22), God opposes the proud (James 4:6; 1 Pet 5:5), a pervasive deep sin;
+# mark as contested any reading of Isaiah 14 or Ezekiel 28 as the fall of Satan.
+
+slug: "pride"
+title: "Pride"
+status: review
+target_path: "docs/content/sin/pride.md"
+
+primary_passage: "Proverbs 16:18"
+supporting_passages: ["Daniel 4:29-37", "Exodus 15:7", "Proverbs 8:13", "Obadiah 1:3-4", "Mark 7:21-23",
+  "Genesis 3:5", "Deuteronomy 8:11-17", "2 Chronicles 26:16", "2 Chronicles 32:25-26", "1 Timothy 3:6",
+  "Luke 18:9-14", "James 4:13-16", "Acts 12:21-23", "Isaiah 14:4-16", "Ezekiel 28:1-19", "Luke 10:18",
+  "1 Corinthians 1:28-31", "Jeremiah 9:23-24"]
+genre: [wisdom, prophets, topical]
+
+thesis: >-
+  Pride is claiming for yourself the height and glory that belong to God; it comes out of the heart,
+  it blinds the one who has it, and God sets Himself against it, so the only way down from it is to
+  humble yourself before Him and boast in the cross of Jesus.
+outline:
+  - section: "Opening"
+    says: "Nebuchadnezzar on the roof (Dan 4:30) and his confession (4:37)."
+  - section: "What the words mean"
+    says: "ga'on = God's majesty (Exod 15:7) and man's pride (Prov 16:18); govah, zadon; hyperephanos 'showing oneself above', typhoo 'wrap in smoke', physioo, alazoneia."
+  - section: "Where pride comes from"
+    says: "the heart (Mark 7:21-23); 'like God' (Gen 3:5); success (Deut 8; Uzziah); gifts and knowledge (1 Cor; 1 Tim 3:6)."
+  - section: "What pride looks like"
+    says: "comparison, planning without God, putting self first, taking God's glory, haughty eyes, religious show; it blinds (Obadiah)."
+  - section: "Why God opposes the proud"
+    says: "pride is a lie about glory; its end (Prov 29:23; Isa 2:11); mercy to the proud who turn (Hezekiah, Nebuchadnezzar, tax collector)."
+  - section: "Did Satan fall through pride?"
+    says: "contested: case for (language beyond a man; Origen, Tertullian; Luke 10:18 echo; 1 Tim 3:6) and against (named kings; ANE imagery; context); ESVSB/NIV BTSB middle path; no doctrine rests on it."
+  - section: "The way down"
+    says: "boast in the Lord (1 Cor 1:28-31; Rom 3:27; Gal 6:14); humble yourself (Jas 4:10) -> humility.md."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping: {done: true, notes: "Filed under sin/. Sibling of christian-life/humility.md, which keeps a short pride section pointing here."}
+  exegesis:
+    historical_context: {done: true, notes: "Isa 14 taunt over the king of Babylon (14:4); Ezek 28 two oracles on Tyre's prince/king; Dan 4 Nebuchadnezzar; ANE imagery (helel = Venus, Ugaritic; northern divine mountain, Canaanite) per NIVCBSB and ESVSB."}
+    literary_context: {done: true, notes: "Isa 14:16 'Is this the man'; Ezek 28:2 'you are but a man'; 1 Tim 3:6 inside overseer qualifications."}
+    content_word_studies:
+      done: true
+      notes: "macula-hebrew-wlc counts: ga'on H1347 49x; govah H1363 17x; zadon H2087 11x; helel H1966 only Isa 14:12. Greek glosses from Abbott-Smith (STEPBible TBESG)."
+      terms:
+        - {word: "גָּאוֹן", language: hebrew, transliteration: "gaʾon", strongs_id: "H1347", gloss: "majesty; pride", notes: "Exod 15:7 God's majesty; Prov 16:18, 8:13 pride."}
+        - {word: "ὑπερήφανος", language: greek, transliteration: "hyperēphanos", strongs_id: "G5244", gloss: "showing oneself above others (Abbott-Smith)"}
+        - {word: "τυφόω", language: greek, transliteration: "typhoō", strongs_id: "G5187", gloss: "wrap in smoke; becloud with pride (Abbott-Smith)", notes: "1 Tim 3:6; 6:4; 2 Tim 3:4."}
+  hermeneutics:
+    cultural_vs_transcultural: {done: true, notes: ""}
+    theological_principle: {done: true, notes: "See thesis. Statement of faith silent on Satan's fall; no conflict."}
+    application_draft: {done: true, notes: "Boast in knowing the LORD; suspect yourself; ask someone where they see pride in you."}
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Luke 10:18", relation: "echo of Isa 14:12 LXX (ek tou ouranou + fall); bible_trace silent; ESVSB cf. Isa 14:12. Stated as an echo at most."}
+    translations_compared: ["ESV", "LSB", "CSB", "NLT"]
+    divergences_noted: "Isa 14:12 helel: ESV 'Day Star', LSB footnote 'Heb Helel; lit shining one', KJV 'Lucifer' via the Vulgate."
+  drafting: {done: true, file: "docs/content/sin/pride.md"}
+  review: {done: false, validated: true}
+
+open_questions:
+  - "1 Tim 3:6 genitive: condemnation the devil received vs. judgement brought by the devil (NIV BTSB). Study takes the first as 'most natural', marked."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", note: "Isa 14:12-15 and Ezek 28:11-19 'poetic allusion' middle path; Luke 10:18 cf. Isa 14:12."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "Isa 14 argues for creaturely pride; application to Satan 'not inappropriate'; 1 Tim 3:6 alternative sense."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", note: "helel = Venus, Ugaritic; Prov 11:2 Papyrus Insinger (not used)."}
+  - {type: other, title: "Origen, De Principiis 1.5.4-5 (ANF 4); Tertullian, Against Marcion 2.10 (ANF 3)", note: "verified in $BIBLE_MEDIA_ROOT/reference/patristics/ante-nicene-fathers/."}
+  - {type: lexicon, title: "Abbott-Smith via STEPBible TBESG", note: "hyperephanos, typhoo, alazoneia, physioo."}
+last_updated: "2026-09-28"
