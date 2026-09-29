@@ -21,6 +21,7 @@ CLI examples:
     uv run python query.py works
 """
 import argparse
+import re
 import sqlite3
 import unicodedata
 from pathlib import Path
@@ -144,6 +145,58 @@ def _strongs_filter(strongs: str) -> tuple[str, list]:
             list(languages))
 
 
+# The same number is stored three ways, one per source: MACULA Hebrew zero-pads it ("0530"),
+# the Westminster Leningrad morphology prefixes the particles it carries ("b/530", "c/d/530") and
+# spaces a sense letter ("2530 a"), and MACULA and the LXX append the letter bare ("0539a"). An exact
+# string match on "530" found none of the first and only a third of the second, so H530 counted 0
+# in MACULA and 15 of 34 in the WLC while the pop-up, which parses the id, said 49.
+_STORED_STRONGS = re.compile(r"(?:[a-z]/)*0*(\d+)(?: ?([a-zA-Z]))?")
+
+
+def parse_strongs_id(raw: str | None) -> tuple[int, str] | None:
+    """(number, sense letter or "") for a stored strongs_id, or None for a compound
+    ("1537+4053", "1886a|0725") -- one word carrying several numbers is left out of every count,
+    as export_popups.py leaves it out of the pop-up's."""
+    m = _STORED_STRONGS.fullmatch(raw or "")
+    return (int(m[1]), m[2] or "") if m else None
+
+
+def _strongs_rows(conn: sqlite3.Connection, strongs: str, columns: str, where: list[str],
+                  params: list) -> list[dict]:
+    """Morphology rows carrying one Strong's number, however each source stores it.
+
+    A plain query ("H539") counts plain rows only, and falls back to a work's lettered rows when
+    that work has no plain ones -- the rule export_popups.py applies, because MACULA's letters are
+    not always senses of the plain word (0539a is "foster-father", a sense of H539; 0001b is the
+    Aramaic emphatic ending, nothing to do with H1). A lettered query ("H539a") matches that letter.
+    """
+    wanted = parse_strongs_id(strongs.lstrip("GHgh"))
+    if wanted is None:
+        raise ValueError(f"not a Strong's number: {strongs!r}")
+    number, letter = wanted
+    # a cheap substring prefilter; the parse below makes it exact
+    where = ["strongs_id LIKE ?", *where]
+    params = [f"%{number}%", *params]
+    language_clause, language_params = _strongs_filter(strongs)
+    if language_clause:
+        where.append(language_clause)
+        params.extend(language_params)
+    matched = []
+    for row in conn.execute(
+            f"SELECT {columns}, strongs_id AS _stored FROM morphology WHERE {' AND '.join(where)} "
+            f"ORDER BY work_id, book, chapter, verse", params):
+        parsed = parse_strongs_id(row["_stored"])
+        if parsed and parsed[0] == number and (not letter or parsed[1].lower() == letter.lower()):
+            matched.append((parsed[1], dict(row)))
+    if not letter:
+        with_plain = {r["work_id"] for sense, r in matched if not sense}
+        matched = [(sense, r) for sense, r in matched
+                   if not sense or r["work_id"] not in with_plain]
+    for _, r in matched:
+        del r["_stored"]
+    return [r for _, r in matched]
+
+
 _PUNCT = "·,.;:!?()[]{}\u2019\u2018\u201c\u201d\u00b7\u037e\u2014\u2013-\u02bc\u1fbd"
 
 
@@ -201,23 +254,19 @@ def lookup_word(conn: sqlite3.Connection, strongs: str | None = None, lemma: str
     """Every occurrence of a Strong's number or lemma, across the Greek/Hebrew morphology sources."""
     if not strongs and not lemma:
         raise ValueError("word lookup needs strongs or lemma")
+    columns = "work_id, book, chapter, verse, surface_form, lemma, strongs_id, gloss, domain_code"
     where, params = [], []
-    if strongs:
-        where.append("strongs_id = ?")
-        params.append(strongs.lstrip("GH"))
-        language_clause, language_params = _strongs_filter(strongs)
-        if language_clause:
-            where.append(language_clause)
-            params.extend(language_params)
     if lemma:
         where.append("lemma = ?")
         params.append(lemma)
     if book:
         where.append("book = ?")
         params.append(book)
+    if strongs:
+        return _strongs_rows(conn, strongs, columns, where, params)
     rows = conn.execute(
-        f"SELECT work_id, book, chapter, verse, surface_form, lemma, strongs_id, gloss, domain_code "
-        f"FROM morphology WHERE {' AND '.join(where)} ORDER BY work_id, book, chapter, verse",
+        f"SELECT {columns} FROM morphology WHERE {' AND '.join(where)} "
+        f"ORDER BY work_id, book, chapter, verse",
         params,
     ).fetchall()
     return [dict(r) for r in rows]
@@ -251,28 +300,17 @@ def lookup_concordance(conn: sqlite3.Connection, strongs: str, book: str | None 
     never going to be read -- a high-frequency word's full list can run past a caller's own
     output limit (G932 unrestricted is 581 rows; even NT-only it's 162), while the count is
     always one row."""
-    where, params = ["strongs_id = ?"], [strongs.lstrip("GH")]
-    language_clause, language_params = _strongs_filter(strongs)
-    if language_clause:
-        where.append(language_clause)
-        params.extend(language_params)
+    where, params = [], []
     if book:
         where.append("book = ?")
         params.append(book)
     if work_id:
         where.append("work_id = ?")
         params.append(work_id)
+    rows = _strongs_rows(conn, strongs, "work_id, book, chapter, verse, gloss", where, params)
     if count_only:
-        (count,) = conn.execute(
-            f"SELECT COUNT(*) FROM morphology WHERE {' AND '.join(where)}", params,
-        ).fetchone()
-        return [{"strongs_id": strongs, "book": book, "work_id": work_id, "count": count}]
-    rows = conn.execute(
-        f"SELECT work_id, book, chapter, verse, gloss FROM morphology "
-        f"WHERE {' AND '.join(where)} ORDER BY work_id, book, chapter, verse",
-        params,
-    ).fetchall()
-    return [dict(r) for r in rows]
+        return [{"strongs_id": strongs, "book": book, "work_id": work_id, "count": len(rows)}]
+    return rows
 
 
 def lookup_domain(conn: sqlite3.Connection, code: str) -> list[dict]:

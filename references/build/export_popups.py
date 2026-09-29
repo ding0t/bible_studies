@@ -124,8 +124,8 @@ def clean_gloss(gloss: str) -> str:
 
 
 def usage(conn, work_id: str) -> tuple[Counter, dict[int, Counter], dict[int, list]]:
-    """Occurrences and contextual glosses per Strong's number, matched the way bible_concordance
-    matches -- on the exact id -- so a pop-up agrees with the count a study was checked against.
+    """Occurrences and contextual glosses per Strong's number, parsed by query.parse_strongs_id as
+    bible_concordance parses it, so a pop-up agrees with the count a study was checked against.
     MACULA's lettered ids are not always senses of the plain word (0539a is "foster-father", a
     sense of H539; 0001b is the Aramaic emphatic ending, glossed "king", nothing to do with H1), so
     they count only for a number that has no plain rows at all.
@@ -138,10 +138,10 @@ def usage(conn, work_id: str) -> tuple[Counter, dict[int, Counter], dict[int, li
     for row in conn.execute(
             "SELECT strongs_id, gloss, book, chapter, verse FROM morphology "
             "WHERE work_id=? AND strongs_id != '' ORDER BY rowid", (work_id,)):
-        m = re.fullmatch(r"(\d+)([a-zA-Z]?)", row["strongs_id"] or "")
-        if not m:
+        parsed = query.parse_strongs_id(row["strongs_id"])
+        if not parsed:
             continue
-        number, is_plain = int(m[1]), not m[2]
+        number, is_plain = parsed[0], not parsed[1]
         (plain if is_plain else lettered)[number] += 1
         if row["gloss"]:
             glosses[is_plain][number][clean_gloss(row["gloss"])] += 1

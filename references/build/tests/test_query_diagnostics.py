@@ -83,3 +83,32 @@ def test_septuagint_is_reachable_by_strongs_number(conn):
     testaments -- and the Septuagint is the Old Testament as the New Testament's authors read it."""
     rows = query.lookup_concordance(conn, "G1242")
     assert sum(1 for r in rows if r["work_id"] == "lxx-lemmas") > 100
+
+
+def test_hebrew_strongs_matches_however_each_source_stores_it(conn):
+    # MACULA stores ʾemunah as "0530" and the WLC morphology as "530", "b/530", "c/d/530". An exact
+    # string match counted 0 and 15; the pop-up, which parses the id, said 49.
+    def count(strongs, work_id):
+        return query.lookup_concordance(conn, strongs, work_id=work_id, count_only=True)[0]["count"]
+
+    assert count("H530", "macula-hebrew-wlc") == 49
+    assert count("H530", "morphhb-wlc") == 34
+    first = query.lookup_concordance(conn, "H0530", work_id="macula-hebrew-wlc")
+    assert ("Exod", 17, 12) in {(r["book"], r["chapter"], r["verse"]) for r in first}
+
+
+def test_lettered_strongs_counts_only_when_asked_for(conn):
+    # 0539a is "foster-father": a plain H539 query leaves it out, as the pop-up does, and a
+    # lettered query returns it alone.
+    rows = query.lookup_word(conn, strongs="H539")
+    assert {r["strongs_id"] for r in rows if r["work_id"] == "macula-hebrew-wlc"} == {"0539"}
+    lettered = query.lookup_concordance(conn, "H539a", work_id="macula-hebrew-wlc")
+    assert lettered and len(lettered) < 96
+
+
+def test_parse_strongs_id_leaves_compounds_out():
+    assert query.parse_strongs_id("c/d/530") == (530, "")
+    assert query.parse_strongs_id("2530 a") == (2530, "a")
+    assert query.parse_strongs_id("0539a") == (539, "a")
+    assert query.parse_strongs_id("1537+4053") is None
+    assert query.parse_strongs_id("1886a|0725") is None
