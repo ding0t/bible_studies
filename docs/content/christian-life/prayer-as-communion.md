@@ -1,11 +1,11 @@
 ---
 title: "Prayer: Communion and the Habit It Sustains"
 category: "prayer"
-description: "Prayer as relationship before routine -- the Spirit-given cry of 'Abba, Father' that makes the habit possible, who prayer is addressed to, how Jesus and the apostles actually prayed, what to pray about, what prayer permits God to do, a pattern to pray by, and how to teach a household to pray."
-tags: ["matthew", "luke", "acts", "revelation", "daniel", "ephesians", "colossians", "1-timothy", "james", "galatians", "hebrews", "psalms", "discipleship", "method/word-study", "lang/greek"]
+description: "Prayer as relationship before routine -- the Spirit-given cry of 'Abba, Father' that makes the habit possible, who prayer is addressed to, how Jesus and the apostles actually prayed, what to pray about, what prayer permits God to do, why to keep asking, a pattern to pray by, and how to teach a household to pray."
+tags: ["matthew", "luke", "acts", "revelation", "daniel", "ephesians", "colossians", "1-timothy", "1-thessalonians", "james", "galatians", "hebrews", "psalms", "discipleship", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "Colossians 4:2"
-bible_references: ["Colossians 4:2", "Acts 1:14", "Acts 2:42", "Acts 6:4", "Acts 4:23-31", "Acts 12:5", "Romans 12:12", "Philippians 4:6-7", "1 Timothy 2:1-4", "Matthew 6:5-15", "Luke 11:1-13", "Luke 5:16", "Luke 6:12", "Luke 9:18", "Luke 4:42", "Mark 1:35-37", "Matthew 14:23", "John 6:15", "Matthew 26:36-39", "Luke 22:41", "Luke 22:39-46", "Galatians 4:6-7", "Acts 4:25-29", "Acts 7:59", "Philippians 1:9-11", "Nehemiah 1:5", "1 Chronicles 29:9", "Hebrews 5:7", "John 17", "John 16:23-24", "Acts 7:59-60", "Revelation 22:20", "2 Corinthians 12:8-9", "1 Corinthians 1:2", "Ephesians 2:18", "Romans 8:26-27", "Ephesians 1:15-19", "Ephesians 3:14-19", "Daniel 6:10", "Deuteronomy 6:6-7", "Ephesians 6:4", "Psalm 78:4-7", "Matthew 6:10", "2 Chronicles 7:14", "Psalm 37:4", "Psalm 66:18-19", "Proverbs 28:9", "John 15:7", "James 4:7-10", "1 John 3:22", "1 John 5:14-15", "Exodus 32:11-14", "Daniel 9:2-3", "Daniel 9:18", "1 Samuel 3:10", "Romans 12:1-2", "Colossians 4:12", "Matthew 26:39-42", "1 Chronicles 29:10-11", "Psalm 103:1-2", "Psalm 100:4", "Proverbs 30:8-9", "1 Samuel 12:23", "Job 42:10", "Psalm 139:23-24", "1 John 1:9", "Acts 21:14", "Romans 8:15-16", "Psalm 42:1-2", "Matthew 11:28-30", "Psalm 16:11", "Exodus 20:11", "Psalm 146:6", "Psalm 2", "Colossians 1:9-10", "Philippians 1:9", "Romans 15:30-32", "Ephesians 6:19-20", "Colossians 4:3-4", "2 Thessalonians 3:1-2", "Hebrews 10:19-22", "Hebrews 4:14-16", "Hebrews 7:25", "Hebrews 11:6", "Romans 8:34", "1 Timothy 2:5-6"]
+bible_references: ["Colossians 4:2", "Acts 1:14", "Acts 2:42", "Acts 6:4", "Acts 4:23-31", "Acts 12:5", "Romans 12:12", "Philippians 4:6-7", "1 Timothy 2:1-4", "Matthew 6:5-15", "Luke 11:1-13", "Luke 5:16", "Luke 6:12", "Luke 9:18", "Luke 4:42", "Mark 1:35-37", "Matthew 14:23", "John 6:15", "Matthew 26:36-39", "Luke 22:41", "Luke 22:39-46", "Galatians 4:6-7", "Acts 4:25-29", "Acts 7:59", "Philippians 1:9-11", "Nehemiah 1:5", "1 Chronicles 29:9", "Hebrews 5:7", "John 17", "John 16:23-24", "Acts 7:59-60", "Revelation 22:20", "2 Corinthians 12:8-9", "1 Corinthians 1:2", "Ephesians 2:18", "Romans 8:26-27", "Ephesians 1:15-19", "Ephesians 3:14-19", "Daniel 6:10", "Deuteronomy 6:6-7", "Ephesians 6:4", "Psalm 78:4-7", "Matthew 6:10", "2 Chronicles 7:14", "Psalm 37:4", "Psalm 66:18-19", "Proverbs 28:9", "John 15:7", "James 4:7-10", "1 John 3:22", "1 John 5:14-15", "Exodus 32:11-14", "Daniel 9:2-3", "Daniel 9:18", "1 Samuel 3:10", "Romans 12:1-2", "Colossians 4:12", "Matthew 26:39-42", "1 Chronicles 29:10-11", "Psalm 103:1-2", "Psalm 100:4", "Proverbs 30:8-9", "1 Samuel 12:23", "Job 42:10", "Psalm 139:23-24", "1 John 1:9", "Acts 21:14", "Romans 8:15-16", "Psalm 42:1-2", "Matthew 11:28-30", "Psalm 16:11", "Exodus 20:11", "Psalm 146:6", "Psalm 2", "Colossians 1:9-10", "Philippians 1:9", "Romans 15:30-32", "Ephesians 6:19-20", "Colossians 4:3-4", "2 Thessalonians 3:1-2", "Hebrews 10:19-22", "Hebrews 4:14-16", "Hebrews 7:25", "Hebrews 11:6", "Romans 8:34", "1 Timothy 2:5-6", "1 Thessalonians 5:16-18", "1 Thessalonians 1:2", "Romans 1:9", "Nehemiah 2:4-5", "Luke 18:1-8", "Luke 17:20-37", "Matthew 26:44"]
 date_created: 2024-10-06
 date_modified: 2026-09-29
 ai_provider_models:
@@ -76,7 +76,8 @@ refusing administration so they could "devote ourselves to prayer" (Acts 6:4), t
   knows what you need before you ask him" (Matthew 6:8), and Jesus says that as a reason *to* pray.
 - **Do.** Develop the habit: pray as you walk, and before a meeting. Thank God for who He is and
   what He has done. Pray for strength. Fix a time and a place. Daniel had a window and three set
-  hours (Daniel 6:10); Jesus had a desolate place before dawn (Mark 1:35).
+  hours (Daniel 6:10); Jesus had a desolate place before dawn (Mark 1:35). When an answer is slow,
+  keep asking: Jesus told a parable so that you "ought always to pray and not lose heart" (Luke 18:1).
 
 ### Prayer
 
@@ -110,8 +111,9 @@ In Jesus' name. Amen.
 5. **[Personal and corporate](#personal-and-corporate)** — the shut door of Matthew 6:6, and the church praying together in Acts.
 6. **[What to pray about](#what-to-pray-about)** — 1 Timothy 2:1's four words.
 7. **[What prayer permits God to do](#what-prayer-permits-god-to-do)** — a will aligned, then God acting.
-8. **[A pattern to pray by](#a-pattern-to-pray-by)** — six steps.
-9. **[Teaching a household to pray](#teaching-a-household-to-pray)** — Deuteronomy 6:6-7, and five habits for a family.
+8. **[Keep asking, and keep talking](#keep-asking-and-keep-talking)** — "pray without ceasing", the friend at midnight, and the widow who kept coming.
+9. **[A pattern to pray by](#a-pattern-to-pray-by)** — six steps.
+10. **[Teaching a household to pray](#teaching-a-household-to-pray)** — Deuteronomy 6:6-7, and five habits for a family.
 
 ## Communion before discipline
 
@@ -143,16 +145,15 @@ days you feel nothing.
 
 That is language about wanting. Psalm 42 is a lament, and it still speaks of thirst for God.
 
-### The order, and why it runs both ways
+### Wanting to pray, and keeping at it anyway
 
-**Jesus offers rest.** "Come to me, all who labor and are heavy laden, and I will give you rest… For
-my yoke is easy, and my burden is light" (Matthew 11:28-30).
+**Scripture gives you a reason to want prayer before it tells you to keep at it.** "In your presence
+there is fullness of joy" (Psalm 16:11). Jesus's invitation is an offer of rest: "Come to me, all who
+labor and are heavy laden, and I will give you rest… For my yoke is easy, and my burden is light"
+(Matthew 11:28-30). The command comes too (Colossians 4:2), and it is far easier to keep once you
+know that what it commands is time with Someone who gives rest.
 
-**Get the relationship right and the habit becomes sustainable.** Scripture commands prayer
-(Colossians 4:2), and it also gives a reason to want it: "In your presence there is fullness of joy"
-(Psalm 16:11).
-
-**The traffic runs both ways.** Appetite makes a habit sustainable; the habit is what carries you
+**Each one carries the other.** Appetite makes a habit sustainable; the habit is what carries you
 across the stretches where appetite fails — and everyone has those. Jesus got up before dawn and
 walked out of town to a desolate place. That is what a love does when it is inconvenient, which is
 also the point at which love and discipline stop being distinguishable.
@@ -175,9 +176,9 @@ both have access in one Spirit to the Father" (Ephesians 2:18). To the Father, t
 the Spirit. That is the normal Christian posture in prayer, and it is the posture of Paul's own
 recorded prayers, which are addressed to the Father (Ephesians 1:16-17; 3:14).
 
-### The access has a basis, and what "access" actually means
+### The way in was opened by Jesus's blood
 
-**The access has a basis, and Hebrews states it.**
+**You can come because the way has been opened, and Hebrews says how.**
 
 > ✝️ Hebrews 10:19-22 (ESV)
 >
@@ -192,11 +193,10 @@ from it is an instruction to pray: **draw near**. Hebrews 4:16 gives the same in
 promise attached — "let us then with confidence draw near to the throne of grace, that we may
 receive mercy and find grace to help in time of need."
 
-Paul's word at Ephesians 2:18 is **προσαγωγή** (*prosagōgē*, G4318), and Louw-Nida files it in the domain
-of **communication**. It is the word for being brought in and presented to someone, the
-way a stranger is introduced at court. And Hebrews' word for what you do next is
-**προσέρχομαι** (*proserchomai*, G4334), "draw near", which MACULA tags at 11:6 with two domains,
-movement and **association**: coming close to a person.
+Paul's word for "access" at Ephesians 2:18 is **προσαγωγή** (*prosagōgē*, pros-ag-oh-GAY, G4318):
+being brought in and presented to someone, the way a stranger is introduced at court. Hebrews' word
+for what you do next is **προσέρχομαι** (*proserchomai*, pros-ER-kho-my, G4334), "draw near":
+coming close to a person.
 
 So the blood and the curtain are the reason the conversation is possible. Prayer is talking to a
 Father you were brought to at that cost. "Confidence" is the word both passages reach for —
@@ -207,7 +207,7 @@ That cost is the **atonement**: the Father opened the way to Himself through the
 Jesus, who "always lives to make intercession" for you (Hebrews 7:25). So you may come to Him today
 with confidence, as one already welcomed.
 
-### Prayer to Jesus, the Spirit's part, and the practical answer
+### You may pray to Jesus too, and the Spirit helps you pray
 
 **Prayer addressed to Jesus is also in the New Testament, and is never corrected.** Stephen dies
 praying to Him: "Lord Jesus, receive my spirit" (Acts 7:59), which is Psalm 31:5 redirected to
@@ -227,6 +227,9 @@ So the practical answer: **make the Father your habit and your default, because 
 taught; speak to the Son freely, because Scripture does.**
 
 ## How Jesus prayed
+
+The Gospels show Jesus's prayer life by reporting what He did. Six things they record, each in the
+text's own words:
 
 | | |
 |---|---|
@@ -250,6 +253,9 @@ on the verse:
 | Keeps the customary sense | Loses it |
 |---|---|
 | **ESV** "he *would* withdraw"; **NIV** and **NKJV** "*often* withdrew"; **CSB** "he *often* withdrew"; **BSB** "*frequently* withdrew" | **KJV**, **ASV**, **WEB** "he withdrew himself… and prayed" — a simple past, and the habit is gone |
+
+So whichever Bible is open in front of you, Luke 5:16 describes something Jesus kept doing: this was
+His routine.
 
 ### He went to trouble to be alone
 
@@ -282,15 +288,11 @@ around Him access to Him while it lasted.
 
 ### What He went for
 
-He went to be with His Father, and John 17 is the one long record of what
-that sounded like from the inside. The solitude is the arrangement of someone protecting the
-relationship He most wanted, from the demands of everyone who wanted Him. That is the same order the
-study opened with: communion first, and the habit built to serve it. **He made time**, and the
-withdrawing always cost something He could otherwise have been doing.
-
-The Son of God got up in the dark and walked out of a town that wanted Him, repeatedly, for years,
-in order to talk to His Father. He arranged His life around prayer. If the Son made that much time for
-the Father, make time for Him too.
+He went to be with His Father, and John 17 is the one long record of what that sounded like from
+the inside. The solitude protected the relationship He most wanted from the demands of everyone who
+wanted Him: communion first, and the habit built to serve it. The Son of God got up in the dark and
+walked out of a town that wanted Him, repeatedly, for years, in order to talk to His Father. If the
+Son made that much time for the Father, make time for Him too.
 
 ## How the apostles prayed, and what they taught
 
@@ -322,8 +324,7 @@ Philippians 1:9) he asks four times for **ἐπίγνωσις** (*epignōsis*, G
 **σοφία** (*sophia*, G4678, wisdom), and once each for **σύνεσις** (understanding, G4907),
 **ἀποκάλυψις** (revelation, G602) and **αἴσθησις** (discernment, G144).
 
-ἐπίγνωσις is built on γνῶσις (*gnōsis*, G1108), and many read the longer word as fuller, personal
-knowledge; that is debated, and the prefix alone does not prove it. What the texts do say is whose
+Many read ἐπίγνωσις as fuller, personal knowledge; that is debated. What the texts do say is whose
 knowledge: Ephesians 1:17-18 asks for "the Spirit of wisdom and of revelation in the knowledge of
 him, having the eyes of your hearts enlightened", and Colossians 1:9 for "the knowledge of his will
 in all spiritual wisdom and understanding". Set beside how most of us pray, he asks mostly for changed
@@ -470,6 +471,79 @@ outcome with a Father whose will is always wiser than yours.
 
 *How God answers prayer — heard at once, answered by varied routes and on His own timetable, and
 kept — is being developed as a separate study.*
+
+## Keep asking, and keep talking
+
+Handing the outcome to God still leaves room to ask again. In Gethsemane Jesus "prayed for the third
+time, saying the same words again" (Matthew 26:44). Scripture gives three pictures of what keeping at
+it looks like.
+
+### Pray without ceasing
+
+> ✝️ 1 Thessalonians 5:16-18 (ESV)
+>
+> 16 Rejoice always, 17 pray without ceasing, 18 give thanks in all circumstances; for this is the
+> will of God in Christ Jesus for you.
+
+"Without ceasing" is **ἀδιαλείπτως** (*adialeiptōs*, ah-dee-ah-LIPE-tose, G89), and Paul uses the same
+word for his own habit: he mentions the Romans "without ceasing" (Romans 1:9) and the Thessalonians
+"constantly" (1 Thessalonians 1:2). Paul also travelled, made tents and slept, so it means praying
+again and again through the day, with no long gaps. The *NIV Cultural Backgrounds Study Bible* puts it as
+"Not every moment but constantly, repeatedly" (note on 1 Thessalonians 5:17).
+
+Nehemiah shows what that sounds like. Asked by the king what he wanted, "I prayed to the God of
+heaven. And I said to the king…" (Nehemiah 2:4-5). The prayer fitted between a question and its
+answer.
+
+**Try:** hang short prayers on things you already do every day. Waking up, the kettle, the car, a
+meal, the moment before a hard conversation, turning off the light. A sentence each is enough.
+
+### The friend at midnight: ask boldly
+
+Jesus tells of a man who knocks on a friend's door at midnight for three loaves. The friend is in bed
+with the door shut, and gets up anyway:
+
+> ✝️ Luke 11:8 (ESV)
+>
+> 8 I tell you, though he will not get up and give him anything because he is his friend, yet because
+> of his impudence he will rise and give him whatever he needs.
+
+"Impudence" is **ἀναίδεια** (*anaideia*, an-EYE-day-ah, G335), found only here in the New Testament.
+Elsewhere in Greek it means shamelessness, and the LSB's footnote gives "Lit shamelessness"; the CSB
+footnotes "Or persistence". The *ESV Study Bible* weighs both and concludes that "a kind of shameless
+persistence" is possibly intended (note on Luke 11:8). Either way the argument runs from lesser to
+greater, and Jesus draws it Himself: "how much more will the heavenly Father give the Holy Spirit to
+those who ask him!" (Luke 11:13). If a sleepy neighbour gets up, your Father will.
+
+Then comes "ask… seek… knock" (Luke 11:9). All three are present-tense commands in Greek, which many
+read as *keep* asking, seeking, knocking; the tense alone cannot prove that, but the parable already
+has.
+
+### The widow: do not lose heart
+
+Luke tells you the point of this parable before he tells it: "he told them a parable to the effect
+that they ought always to pray and not lose heart" (Luke 18:1). A widow keeps coming to a judge "who
+neither feared God nor respected man" (Luke 18:2) until he grants her justice to be rid of her. Then
+Jesus turns it round:
+
+> ✝️ Luke 18:7-8 (ESV)
+>
+> 7 And will not God give justice to his elect, who cry to him day and night? Will he delay long over
+> them? 8 I tell you, he will give justice to them speedily. Nevertheless, when the Son of Man comes,
+> will he find faith on earth?
+
+The *ESV Study Bible* reads this as the same lesser-to-greater argument (note on Luke 18:1-8): if an
+unjust judge gives way, how much more a just God. The parable follows Jesus's
+teaching about His return (Luke 17:20-37), so the prayer in view is the long cry of God's people for
+things to be put right. Jesus's closing question names what persistent prayer is: the shape faith
+takes while it waits.
+
+This shows that God wants to be asked again. He is a Father more willing than a friend woken at
+midnight and a Judge more just than one who fears nobody. So when an answer is slow, you may keep
+bringing the same request, and you are doing what Jesus told you to do.
+
+**Try:** keep a short written list of what you are asking for, with the date. Pray it daily. When
+an answer comes, write it next to the request, and read that column on the days you want to give up.
 
 ## A pattern to pray by
 
@@ -641,7 +715,9 @@ several generations ahead.
    in a week of yours, and what would you have to give up to pay it?
 4. **The hard part.** Jesus taught His disciples to pray to the Father; Stephen died praying to
    Jesus and was not corrected. How do you hold both, and does the way you pray reflect it?
-5. **Be transformed.** Of 1 Timothy 2:1's four words — supplication, prayer, intercession, thanksgiving —
+5. **Keep asking.** Jesus praised a neighbour's shameless knocking and a widow who would not go
+   away. What have you stopped asking God for, and why did you stop?
+6. **Be transformed.** Of 1 Timothy 2:1's four words — supplication, prayer, intercession, thanksgiving —
    which is thinnest in your own praying, and what would it take this week to make it less thin?
 
 ## References & Recommended Reading

@@ -4,7 +4,7 @@
 slug: prayer-as-communion
 state_file: references/study-state/prayer.yml
 target_path: docs/content/christian-life/prayer-as-communion.md
-word_budget: 4450
+word_budget: 5050
 word_budget_reason: >
   Set 2026-09-26 by the readability-sweep simplify pass, after forking two tangents
   (how-god-answers-prayer.md, supplication.md), merging duplicated material into lords-prayer.md
@@ -12,6 +12,9 @@ word_budget_reason: >
   outcomes the author specified in prayer.yml `origin` (personal vs corporate, how and what to pray,
   the Lord's Prayer as pattern, Jesus's prayer life, the apostles, whom to pray to, what prayer
   permits God to do, attitude, teaching a family); each remaining ## section carries one of them.
+  Raised 4450 -> 5050 on 2026-09-29 when the author asked for the persistence gap to be filled
+  ('Keep asking, and keep talking': 1 Thessalonians 5:17, Luke 11:5-13, Luke 18:1-8), about 700
+  words, partly offset by tightening elsewhere.
   Reaching 4,000 would mean deleting one of those outcomes (the likeliest candidates were Moses and
   Daniel, or the Paul-circumstances test), which is the author's call rather than a sweep's.
 
@@ -27,4 +30,18 @@ review_2026-09-29:
     - "~20 thesis-antithesis constructions rewritten; three 'after success' points merged; flourishes cut; emphasis inside quotations removed or marked; bare references given book names; Strong's added (G4334, G2614, G1108, G1783); 'temple veil' corrected; Luke 5:16 quoted in full."
     - "Six bible_references never cited in the body removed (1 Thess 5:17-18; James 4:2-3; 5:16; Eph 3:12; Rom 5:2; Eph 6:18)."
   not_done:
-    - "Persistence parables (Luke 11:5-8; 18:1-8) and 'pray without ceasing' flagged as absent; not added (would grow the study)."
+    - "Persistence parables (Luke 11:5-8; 18:1-8) and 'pray without ceasing' flagged as absent; not added (would grow the study). Added 2026-09-29 at the author's request -- see revision_2026-09-29."
+revision_2026-09-29:
+  request: "Fix up wording and gaps. This needs to be a very approachable and practical study."
+  done:
+    - "New ## Keep asking, and keep talking: 1 Thessalonians 5:16-18 (adialeiptos G89, 4 NT occurrences, all Paul), Nehemiah 2:4-5, Luke 11:5-13 (anaideia G335, NT hapax; ESVSB/LSB/CSB footnotes), Luke 18:1-8 (ESVSB lesser-to-greater note), Matthew 26:44. Each subsection ends in a Try."
+    - "Headings renamed to say what the section says: 'Wanting to pray, and keeping at it anyway'; 'The way in was opened by Jesus's blood'; 'You may pray to Jesus too, and the Spirit helps you pray'. No in-page or inbound links pointed at the old anchors."
+    - "Lead-in added to How Jesus prayed; closing line after the Luke 5:16 translation table; Louw-Nida/MACULA domain detail in the access section replaced by pronunciations."
+    - "Study outline, Key Takeaways Do, a sixth discussion question and bible_references updated."
+evidence:
+  - tool: bible_concordance
+    args: {strongs: G89, work_id: macula-greek-sblgnt}
+    expect_count: 4
+  - tool: bible_concordance
+    args: {strongs: G335, work_id: macula-greek-sblgnt}
+    expect_count: 1
