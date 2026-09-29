@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 5:22-23
+- [Faith](../../salvation/faith.md) — 5:4
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:1-4
 - [Sin and Sorcery](../../sin/sorcery.md) — 5:19-21
 <!-- commentary-index:auto-end -->

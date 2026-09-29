@@ -10,7 +10,7 @@
 
 slug: "faith"
 title: "Faith"
-status: review
+status: published
 target_path: "docs/content/salvation/faith.md"
 
 primary_passage: "Habakkuk 2:4"
@@ -129,3 +129,22 @@ resources_consulted:
   - {type: other, title: "MACULA Hebrew (WLC), MACULA Greek (SBLGNT), morphhb, LXX lemmas", author: "", note: "counts and forms above."}
   - {type: other, title: "Tacitus, Annals 14.27", author: "", note: "Laodicea recovered from the AD 60 earthquake by its own resources (via ESV SB note)."}
 last_updated: "2026-09-29"
+
+review_2026-09-29:
+  by: "review-bible-study (agent pass)"
+  checked: >-
+    All ESV quotations re-queried from study-notes.db (esv-study-bible): every one verbatim. Counts
+    re-run against MACULA: H6075 2 (Hab 2:4, Num 14:44); H530 49 in macula-hebrew-wlc (stored as
+    '0530' -- bible_concordance with strongs=H530 + work_id=macula-hebrew-wlc returns 0, a tool
+    zero-padding quirk), first Exod 17:12; H539 first Gen 15:6; G4102 242, G4100 241; G3640 5;
+    G1365 2. Rev 3:20 ἕστηκα V-RAI / κρούω V-PAI confirmed. Hab 2:4 footnotes (CSB 'Hb obscure',
+    'Or faithfulness'; LSB 'Or faithfulness') and LXX ἐκ πίστεώς μου confirmed. ESV SB, NIV BTSB and
+    NIV CBSB notes checked against what the study attributes to them.
+  fixed:
+    - "2 Cor 1:9 Greek given as πεποιθότες ἐφ᾽ ἑαυτοῖς; SBLGNT has πεποιθότες ὦμεν ἐφ᾽ ἑαυτοῖς -- restored ὦμεν."
+    - "Key Takeaways said the Hebrew word for believing 'is the word amen'; changed to 'comes from the same root as amen' (hiphil of אָמַן H539 vs adverb אָמֵן H543)."
+  open:
+    - "Heb 12:2 'our faith' -- Greek has τῆς πίστεως, 'our' is ESV-supplied; the study's 'Jesus begins and completes your faith' leans on it."
+    - "Eph 2:8 marked 'debated' here while assurance-of-salvation.md treats touto as settled (whole transaction incl. faith) -- author to reconcile."
+    - "Psalm 95 (quoted by Heb 3-4) never named; review_gaps quotation hit."
+    - "Tacitus, Annals 14.27 not in the repo; cited via study Bibles only (ESV SB does not name Tacitus)."

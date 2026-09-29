@@ -15,5 +15,6 @@ draft: false
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 14:29
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 14:39-45
 - [Biblical Numerology](../../scripture/numerology.md) — 14:33-34
+- [Faith](../../salvation/faith.md) — 14:11
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 14:36-37
 <!-- commentary-index:auto-end -->

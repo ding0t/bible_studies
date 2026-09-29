@@ -15,6 +15,7 @@ draft: false
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 11:1-29 (primary passage)
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 11:11-24 (primary passage)
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 11:33-36
+- [Faith](../../salvation/faith.md) — 11:6
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 11:25-26
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 11:26-27
 - [Know the Truth](../../christian-life/know-the-truth.md) — 11:1

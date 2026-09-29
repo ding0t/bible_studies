@@ -16,6 +16,7 @@ draft: false
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 2:5
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 2:7
 - [Biblical Numerology](../../scripture/numerology.md) — 2:10
+- [Faith](../../salvation/faith.md) — 2:2
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:2-3
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:15
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 2:22-24

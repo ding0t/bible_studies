@@ -14,6 +14,7 @@ draft: false
 
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 17:26-37 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 17:30
+- [Faith](../../salvation/faith.md) — 17:5-10
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 17:26-30
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 17:20-37
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 17:26-30

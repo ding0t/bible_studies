@@ -41,7 +41,6 @@ Add new items here. They get a number and move into their section.
 | [2.4](#24-the-feedings-and-the-hardened-hearts) | The feedings and the hardened hearts | Jesus |
 | [2.5](#25-the-heavenly-pattern) | The heavenly pattern (series) | Jesus |
 | [4.2](#42-on-death) | On death | Salvation |
-| [4.3](#43-faith) | Faith | Salvation |
 | [5.1](#51-tribulation-perspectives) | Tribulation perspectives | Last things |
 | [5.2](#52-end-times) | End times | Last things |
 | [5.5](#55-the-age-to-come) | The age to come | Last things |
@@ -389,7 +388,7 @@ a new one.
   the first they are straining against the wind when Jesus comes to them on the water (Mark 6:48).
   In the second they are arguing over having no bread, and Jesus asks, "Are your hearts
   hardened?" (Mark 8:17, ESV) and makes them count the baskets from both feedings. Matthew's parallel calls them "you of little faith"
-  (Matthew 16:8), which links this item to [4.3](#43-faith).
+  (Matthew 16:8), which links this item to [Faith](../salvation/faith.md#why-did-you-doubt).
 
 ### 2.5 The heavenly pattern
 
@@ -517,28 +516,6 @@ Notes to work through:
 (2 Corinthians 5:1-8, the believer with Christ between death and resurrection), and the body that
 follows is [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) (5.8). Still to fold in
 from the notes above: the thief on the cross, Moses and Elijah at the Transfiguration, and Luke 16.
-
-### 4.3 Faith
-
-What the Bible means by faith, across both Testaments.
-
-- **Where the study should land:** faith is not a work of our own strength. Faith "like a grain of
-  mustard seed" is enough (Matthew 17:20; Luke 17:6), because what matters is **who** the faith is
-  in. That is what Jesus meant when He called His disciples "you of little faith", as when Peter
-  began to sink after walking on the water (Matthew 14:31). ὀλιγόπιστος (*oligopistos*, G3640)
-  occurs five times, all on Jesus' lips: Matthew 6:30, 8:26, 14:31, 16:8 and Luke 12:28.
-- **Words:** Hebrew <span dir="rtl">אָמַן</span> (*ʾaman*, H539), whose hiphil is "believed" at
-  Genesis 15:6, and its noun <span dir="rtl">אֱמוּנָה</span> (*ʾemunah*, H530, faithfulness); Greek
-  πίστις (*pistis*, G4102) and πιστεύω (*pisteuō*, G4100). The Hebrew root carries firmness and
-  reliability, which is why "faith" and "faithfulness" share it.
-- **Anchor texts:** Genesis 15:6 (Abraham believed, and it was counted to him as righteousness);
-  Habakkuk 2:4, which the New Testament quotes three times (Romans 1:17, Galatians 3:11,
-  Hebrews 10:38); and Hebrews 11, read as that chapter's own definition (11:1) followed by its
-  examples.
-- **Questions to work through:** faith and works in Romans 4 beside James 2; whether faith is itself
-  a gift (Ephesians 2:8-9, where the grammar is debated); faith as trust in a Person.
-- **Links:** [Assurance of Salvation](../salvation/assurance-of-salvation.md) and
-  [Know the Truth](../christian-life/know-the-truth.md).
 
 ## 5. Last things
 
@@ -795,7 +772,8 @@ heart that opens the door.
   a complacent church first.
 - **Word and background:** δειπνέω (*deipneō*, "eat, dine"), a shared evening meal as fellowship;
   and Laodicea's lukewarm water supply, which the letter's "neither cold nor hot" draws on.
-- **Links:** 10.3 (religion and a contrite heart), and [The Way](../jesus/the-way.md).
+- **Links:** 10.3 (religion and a contrite heart), [The Way](../jesus/the-way.md), and
+  [Faith](../salvation/faith.md#the-door-at-laodicea), which reads the verse as the door faith opens.
 
 ## Completed
 
@@ -806,6 +784,7 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 2.2 | Priest of the order of Melchizedek | [Jesus, Priest in the Order of Melchizedek](../jesus/melchizedek-priesthood.md) |
 | 3.1 | Nephilim | [The Nephilim](../spiritual-beings/nephilim.md) |
 | 4.1 | Assurance of salvation | [Assurance of Salvation](../salvation/assurance-of-salvation.md) |
+| 4.3 | Faith | [Faith](../salvation/faith.md) |
 | 5.3 | The last trumpet | [The Trumpet Call of God](../last-things/trumpet.md) |
 | 7.1 | Twelve disciples | [The Twelve: Disciples and Apostles](../biblical-figures/twelve-apostles.md), with a page per apostle |
 | 10.1 | Know the truth | [Know the Truth](../christian-life/know-the-truth.md) |

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 10:25
+- [Faith](../../salvation/faith.md) — 10:38-39
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 10:1
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 10:1-9
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 10:1-18

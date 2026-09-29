@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 3:1-66
+- [Faith](../../salvation/faith.md) — 3:22-23
 <!-- commentary-index:auto-end -->

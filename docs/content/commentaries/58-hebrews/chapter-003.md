@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Faith](../../salvation/faith.md) — 3:19
 - [The Way](../../jesus/the-way.md) — 3:10
 <!-- commentary-index:auto-end -->

@@ -14,5 +14,6 @@ draft: false
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 55:1
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 55:1-3
+- [Faith](../../salvation/faith.md) — 55:1
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 55:9
 <!-- commentary-index:auto-end -->

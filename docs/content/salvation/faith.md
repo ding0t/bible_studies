@@ -3,12 +3,13 @@ title: "Faith"
 category: "theology"
 description: "Faith is leaning your whole weight on God and on what He has finished in Jesus. Pride is the same trust pointed at yourself, and it has two faces: refusing God's promise, and trying to earn it. A study of Habakkuk 2:4 and the one other place its word for pride appears."
 tags: ["habakkuk", "numbers", "hebrews", "romans", "galatians", "luke", "revelation", "faith", "grace", "humility", "pride", "justification", "method/word-study", "lang/hebrew", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Habakkuk 2:4"
-bible_references: ["Numbers 14:11", "Numbers 14:39-45", "Deuteronomy 1:32", "Deuteronomy 1:41-43", "Hebrews 3:19", "Hebrews 4:1-10", "Genesis 15:6", "Exodus 17:12", "Isaiah 7:9", "Deuteronomy 32:4", "Luke 18:9-14", "2 Corinthians 1:9", "Philippians 3:3-9", "Romans 4:4-5", "Romans 4:16", "Romans 11:6", "Galatians 3:2-3", "Galatians 5:4", "John 6:28-29", "Luke 17:5-10", "Matthew 17:20", "Matthew 14:28-31", "Mark 9:22-24", "James 2:21-24", "Ephesians 2:8-10", "Revelation 3:14-22", "Hosea 12:8", "Isaiah 55:1", "Lamentations 3:22-23", "Hebrews 12:2", "Romans 1:17", "Galatians 3:11", "Hebrews 10:38-39", "John 19:30"]
+bible_references: ["Numbers 14:11", "Numbers 14:39-45", "Deuteronomy 1:32", "Deuteronomy 1:41-43", "Hebrews 3:19", "Hebrews 4:1-10", "Genesis 15:6", "Exodus 17:12", "Isaiah 7:9", "Deuteronomy 32:4", "Luke 18:9-14", "2 Corinthians 1:9", "Philippians 3:3-9", "Romans 4:4-5", "Romans 4:16", "Romans 11:6", "Galatians 3:2-3", "Galatians 5:4", "John 6:28-29", "Luke 17:5-10", "Matthew 17:20", "Matthew 14:28-31", "Mark 9:22-24", "James 2:21-24", "Ephesians 2:8-10", "Revelation 3:14-22", "Hosea 12:8", "Isaiah 55:1", "Lamentations 3:22-23", "Hebrews 12:2", "Romans 1:17", "Galatians 3:11", "Hebrews 10:38-39", "John 19:30", "Genesis 2:2", "Habakkuk 1:6", "Habakkuk 2:3", "Hebrews 10:14", "Revelation 3:19", "2 Timothy 2:13", "Exodus 16:19-20", "Matthew 6:11", "Psalm 95:7-11", "Hebrews 3:7-8", "Romans 8:30", "Philippians 1:6"]
 date_created: 2026-09-29
 date_modified: 2026-09-29
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Faith
@@ -22,7 +23,7 @@ The next morning they changed their minds. "Here we are. We will go up to the pl
 has promised, for we have sinned" (Numbers 14:40, ESV). Moses told them the LORD was not with them.
 "But they presumed to go up" (Numbers 14:44, ESV), and they were beaten back to Hormah.
 
-On Monday they would not go with God. On Tuesday they went without Him. Both days they trusted
+One day they would not go with God. The next morning they went without Him. Both days they trusted
 themselves.
 
 **In one sentence:** Faith is leaning your whole weight on God and on what He has finished in Jesus;
@@ -40,7 +41,7 @@ believe; help my unbelief."
   perfected for all time those who are being sanctified" (Hebrews 10:14, ESV). Faith rests on a work
   that needs nothing added.
 - **Jesus is the Amen.** He names Himself "the Amen, the faithful and true witness" (Revelation 3:14,
-  ESV). The Hebrew word for believing is the word *amen*. When you believe, you say amen to Him.
+  ESV). The Hebrew word for believing comes from the same root as *amen*. When you believe, you say amen to Him.
 - **Jesus reaches for the sinking.** Peter cried "Lord, save me," and "Jesus immediately reached out
   his hand and took hold of him" (Matthew 14:30-31, ESV).
 - **Jesus stands at the door and knocks.** He speaks to a church that said it needed nothing, and He
@@ -134,8 +135,7 @@ God's own character is the same word. "The Rock, his work is perfect... A God of
 faith, you will not be firm at all" (Isaiah 7:9, ESV). Both halves are *ʾaman*. If you will not lean
 on God, you will have nothing firm to stand on.
 
-So faith in Scripture is simple. It is putting your weight on God, because He is the one thing that
-will hold it. The Greek New Testament carries this into πίστις (*pistis*, G4102, "faith") and
+Faith in Scripture is putting your weight on God, because He is the one thing that will hold it. The Greek New Testament carries this into πίστις (*pistis*, G4102, "faith") and
 πιστεύω (*pisteuō*, G4100, "believe"), which appear 242 and 241 times.
 
 ## The proud and the righteous
@@ -154,18 +154,19 @@ come" (Habakkuk 2:3, ESV). Then He gave the heart of His answer:
 > faith.
 
 The New Testament quotes this verse three times as its text for faith (Romans 1:17; Galatians 3:11;
-Hebrews 10:38). Paul quotes only the second half. God set the two halves side by side. There are two kinds of people in this verse: the one who is swollen with himself, and
-the one who lives by leaning on God.
+Hebrews 10:38). Paul quotes only the second half. God set the two halves side by side. There are
+two kinds of people in this verse: the one who is swollen with himself, and the one who lives by
+leaning on God.
 
 In context, the swollen soul is Babylon and its king, whose pride the rest of the chapter judges in
 five woes (Habakkuk 2:6-20). The ESV Study Bible sums up the contrast: a proud person relies on
-himself; a righteous person relies on God. That is this study's subject in one line.
+himself; a righteous person relies on God.
 
 ### What is contested here
 
 The first half of the verse is hard Hebrew. The CSB's translators footnote it "Hb obscure," and
-translations differ over how to read it. The Greek Old Testament reads it differently again, and Hebrews quotes that form: "if he shrinks
-back, my soul has no pleasure in him" (Hebrews 10:38, ESV).
+translations differ over how to read it. The Greek Old Testament reads it differently again, and
+Hebrews quotes that form: "if he shrinks back, my soul has no pleasure in him" (Hebrews 10:38, ESV).
 
 The second half is also read two ways. *ʾEmunah* can mean "faith" or "faithfulness," and the CSB and
 LSB footnote "Or faithfulness." The Greek Old Testament has "by *my* faithfulness," which would make
@@ -181,9 +182,9 @@ The Hebrew word behind "puffed up" is <span dir="rtl">עָפַל</span> (*ʿapha
 to swell. It appears twice in the Hebrew Bible. The first is Habakkuk 2:4. The second is Numbers
 14:44: "they presumed to go up."
 
-The NIV Biblical Theology Study Bible makes the same link in its note on Habakkuk. The man whose soul
-is swollen in Habakkuk is the man who presumes at Kadesh. Scripture's other picture of that word is
-the story this study opened with.
+The NIV Biblical Theology Study Bible points to Numbers 14:44 to explain "puffed up" in its note on
+Habakkuk 2:4. Read together, the two uses show what the word looks like in action: the swollen soul
+of Habakkuk is the people who presumed at Kadesh, the story this study opened with.
 
 ### Two days, one sin
 
@@ -208,9 +209,11 @@ the centre, and it is still unbelief.
 
 ### Rest from your works
 
-The letter to the Hebrews reads the Kadesh generation as a warning to Christians. "So we see that they
-were unable to enter because of unbelief" (Hebrews 3:19, ESV). Then it tells you what believing looks
-like:
+The letter to the Hebrews reads the wilderness generation as a warning to Christians, and its text is
+Psalm 95: "Today, if you hear his voice, do not harden your hearts" (Psalm 95:7-8, ESV, quoted at
+Hebrews 3:7-8). The psalm ends with God's oath, "They shall not enter my rest" (Psalm 95:11, ESV).
+Hebrews gives the reason: "So we see that they were unable to enter because of unbelief" (Hebrews
+3:19, ESV). Then it tells you what believing looks like:
 
 > ✝️ Hebrews 4:9-10 (ESV)
 >
@@ -225,13 +228,14 @@ same way: by trusting that the work is finished and stopping your own. Jesus sai
 
 ### The same Greek phrase
 
-Pride is faith aimed at yourself. The New Testament says so in so many words. Jesus told the parable
+Pride is faith aimed at yourself. Jesus told the parable
 of the Pharisee and the tax collector "to some who trusted in themselves that they were righteous"
 (Luke 18:9, ESV). The Greek is πεποιθότας ἐφ᾽ ἑαυτοῖς (*pepoithotas eph' heautois*): having put
 their confidence on themselves. The verb is πείθω (*peithō*, G3982), "to trust."
 
-Paul uses the same phrase about the worst season of his ministry. In Asia he "despaired of life itself" (2 Corinthians 1:8, ESV). "But that was to make us rely not on ourselves but on God who raises the dead" (2 Corinthians
-1:9, ESV). The Greek is again πεποιθότες ἐφ᾽ ἑαυτοῖς. God let Paul come to the end of himself so
+Paul uses the same phrase about the worst season of his ministry. In Asia he "despaired of life
+itself" (2 Corinthians 1:8, ESV). "But that was to make us rely not on ourselves but on God who
+raises the dead" (2 Corinthians 1:9, ESV). The Greek is again πεποιθότες ὦμεν ἐφ᾽ ἑαυτοῖς. God let Paul come to the end of himself so
 that he would put his weight on God.
 
 The Pharisee had faith. It rested on himself. The tax collector stood far off, beat his breast and
@@ -270,7 +274,11 @@ to be complete. Paul answered:
 They were trying to earn a better salvation than the one they had been given. Paul's verdict is
 severe: "You are severed from Christ, you who would be justified by the law; you have fallen away
 from grace" (Galatians 5:4, ESV). Whatever you add to Christ as the ground of your standing with God,
-you are leaning on it instead of Him.
+you are leaning on it instead of Him. Readers differ over what "fallen away from grace" means for a
+true believer. Paul's point in the verse is that law and grace cannot both be the ground you stand
+on. This site's [statement of faith](../about/statement-of-faith.md) holds that those God justifies,
+He also glorifies (Romans 8:30), and that "he who began a good work in you will bring it to
+completion" (Philippians 1:6, ESV).
 
 Paul had a longer list to add than anyone. He was "circumcised on the eighth day... a Hebrew of
 Hebrews; as to the law, a Pharisee... as to righteousness under the law, blameless" (Philippians
@@ -299,9 +307,9 @@ accounts with God.
 there,' and it will move" (Matthew 17:20, ESV). A mustard seed is tiny. What moves the mountain is
 God, and a tiny faith in a great God is enough, because the weight is on Him.
 
-This matters for anyone who worries that their faith is too weak. A faith you had to build up to a
-certain size before God would act would be one more work to earn with. He asks
-you to lean on Him, and He does the lifting.
+If you worry that your faith is too weak, look at what Jesus measured. A faith you had to build up
+to a certain size before God would act would be one more work to earn with. He asks you to lean on
+Him, and He does the lifting.
 
 ### "Why did you doubt?"
 
@@ -317,7 +325,7 @@ come, Jesus said "Come," and Peter walked on the water toward Jesus.
 
 Peter's faith got him out of the boat. What went wrong was where he looked: "when he saw the wind."
 The word for "doubt," διστάζω (*distazō*, G1365), is used twice in the New Testament, here and at
-Matthew 28:17. It means to waver, to be pulled two ways. Peter's weight shifted from Jesus to the
+Matthew 28:17. It means to waver or hesitate. Peter's weight shifted from Jesus to the
 storm. And even then, Jesus caught him "immediately." His faithfulness held when Peter's faith
 failed. "If we are faithless, he remains faithful— for he cannot deny himself" (2 Timothy 2:13, ESV).
 
@@ -334,12 +342,15 @@ anything, have compassion on us and help us" (Mark 9:22, ESV). Jesus threw the "
 This is faith at its most honest. The father believes, and he knows his belief is not enough, so he
 asks Jesus for that too. Jesus healed the boy. He did not wait for the father's faith to be complete.
 
-Your faith is also Christ's work. Hebrews calls Jesus "the founder and perfecter of our faith"
-(Hebrews 12:2, ESV). Whether Ephesians 2:8 calls faith itself "the gift of God" is debated, because
-"this" in "this is not your own doing" could point to faith or to the whole of salvation; the
-[Assurance of Salvation](assurance-of-salvation.md#the-grammar-of-not-your-own-doing) study sets out
-the grammar. Either way the verse ends "so that no one may boast" (Ephesians 2:9, ESV), and Hebrews
-12:2 says Jesus begins and completes your faith.
+Your faith is held up by Christ, too. In Ephesians 2:8 "this is not your own doing" uses a neuter
+"this" (*touto*), and "faith" is feminine, so "this" points back to the whole of "by grace you have
+been saved through faith": grace, faith and all, as "the gift of God." The [Assurance of
+Salvation](assurance-of-salvation.md#the-grammar-of-not-your-own-doing) study sets out the grammar.
+The verse ends "so that no one may boast" (Ephesians 2:9, ESV). Hebrews tells you where to look while
+you run: "looking to Jesus, the founder and perfecter of our faith" (Hebrews 12:2, ESV). The Greek
+has "the faith," and the ESV supplies "our"; the CSB has "the source and perfecter of our faith."
+Either way, Jesus is the one who begins faith and brings it to its end, and He ran that race Himself
+to the cross.
 
 ## Faith that works
 
@@ -379,9 +390,10 @@ church that has stopped leaning on Him.
 > may be rich, and white garments so that you may clothe yourself and the shame of your nakedness may
 > not be seen, and salve to anoint your eyes, so that you may see.
 
-Laodicea was a banking city with a textile trade and a medical school that made eye salve. When an
-earthquake damaged it in AD 60, the city declined help from Rome and rebuilt from its own resources
-(Tacitus, *Annals* 14.27; ESV Study Bible). The church had caught the city's spirit. "I need nothing"
+Laodicea was a banking city with a textile trade, a medical establishment, and eye salve made in
+the region (NIV Cultural Backgrounds Study Bible). An earthquake damaged it in AD 60, and the city
+rebuilt without help from Rome. Tacitus records that it recovered by its own resources, with no help
+from Rome (*Annals* 14.27), and the ESV Study Bible says it declined imperial relief. The church had caught the city's spirit. "I need nothing"
 echoes proud Ephraim: "Ah, but I am rich; I have found wealth for myself" (Hosea 12:8, ESV). It is
 Habakkuk's puffed-up soul in a church pew.
 
@@ -410,10 +422,12 @@ verse is on the [backlog](../about/backlog.md#104-i-stand-at-the-door-and-knock)
 
 ### Every morning
 
-You open the door more than once. The Laodiceans were believers who had drifted into
-self-sufficiency, and every believer can. Faith is a daily leaning. Manna came every morning and
-would not keep (Exodus 16:19-20), and Jesus taught you to ask for "this day" (Matthew 6:11). The writer of
-Lamentations, traditionally Jeremiah, sat in the ruins of Jerusalem and wrote:
+You open the door more than once. Whether everyone in the Laodicean church was truly saved is
+debated: "I will spit you out of my mouth" (Revelation 3:16, ESV) is severe, and "Those whom I love,
+I reprove and discipline" (Revelation 3:19, ESV) is family language. Either way, a church can drift
+into self-sufficiency, and so can any believer. Faith is a daily leaning. Manna came every morning
+and would not keep (Exodus 16:19-20), and Jesus taught you to ask for "this day" (Matthew 6:11). The
+writer of Lamentations, traditionally Jeremiah, sat in the ruins of Jerusalem and wrote:
 
 > ✝️ Lamentations 3:22-23 (ESV)
 >
@@ -422,8 +436,8 @@ Lamentations, traditionally Jeremiah, sat in the ruins of Jerusalem and wrote:
 
 "Faithfulness" there is *ʾemunah*. God's firmness is new every morning, so your leaning can be too.
 Each day Jesus is at the door. Each day you can say what the father said, and what Kadesh never
-said: "I cannot do this on my own. I trust you. Help me." That is the whole of faith. It is humble
-because it brings nothing, and it is enough because it rests on Him.
+said: "I cannot do this on my own. I trust you. Help me." Faith like that is humble because it
+brings nothing, and it is enough because it rests on Him.
 
 ## Discussion questions
 
@@ -456,7 +470,7 @@ because it brings nothing, and it is enough because it rests on Him.
 - **Macula Hebrew (WLC)** and **Macula Greek (SBLGNT)** — occurrence data for אָמַן, אֱמוּנָה, עָפַל,
   πίστις, πιστεύω, ὀλιγόπιστος and διστάζω, and the forms at Luke 18:9, 2 Corinthians 1:9 and
   Revelation 3:20.
-- **Septuagint lemmas** and the **Brenton Septuagint** — the Greek of Habakkuk 2:4.
+- **Septuagint lemmas** (Open Scriptures Septuagint Project) — the Greek of Habakkuk 2:4.
 
 ### On this site
 

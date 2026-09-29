@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Faith](../../salvation/faith.md) — 2:13
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:12
 <!-- commentary-index:auto-end -->

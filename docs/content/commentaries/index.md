@@ -222,6 +222,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](34-nahum/)
 
+-   __Habakkuk__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](35-habakkuk/)
+
 -   __Zephaniah__
 
     ---
