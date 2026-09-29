@@ -14,4 +14,5 @@ draft: false
 
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 5:8
 - [In Humility](../../christian-life/humility.md) — 5:5-7
+- [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 5:7
 <!-- commentary-index:auto-end -->

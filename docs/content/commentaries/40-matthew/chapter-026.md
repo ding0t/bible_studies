@@ -19,4 +19,5 @@ draft: false
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 26:36-39
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 26:29
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 26:2
+- [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 26:41
 <!-- commentary-index:auto-end -->

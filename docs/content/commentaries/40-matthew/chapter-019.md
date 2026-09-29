@@ -14,6 +14,5 @@ draft: false
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 19:28
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 19:28
-- [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 19:23-24
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 19:28
 <!-- commentary-index:auto-end -->

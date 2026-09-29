@@ -1,13 +1,13 @@
 ---
 title: "The Lord's Prayer: What Jesus Taught Us About How to Pray"
 category: "prayer"
-description: "An exegetical study of Matthew 6:9-13 and Luke 11:2-4 -- cultural background, Old Testament roots, word studies, and the pattern Jesus gave his disciples for prayer."
+description: "Line by line through the prayer Jesus gave His disciples in Matthew 6:9-13 and Luke 11:2-4 -- what each petition asks, the words and background behind it, and how to pray it today."
 tags: ["lords-prayer", "sermon-on-the-mount", "matthew", "luke", "jesus-teaching", "method/word-study"]
 draft: false
 primary_passage: "Matthew 6:9-13; Luke 11:2-4"
-bible_references: ["Matthew 6:5-15", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Luke 17:21", "Matthew 25:34", "Acts 1:6", "Matthew 19:23-24"]
+bible_references: ["Matthew 6:5-15", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Exodus 16:19-26", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Luke 17:21", "Matthew 25:34", "Acts 1:6-7", "Matthew 26:41", "Revelation 3:10", "Ephesians 4:32", "1 Peter 5:7"]
 date_created: 2026-07-22
-date_modified: 2026-09-27
+date_modified: 2026-09-29
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -16,23 +16,9 @@ ai_provider_models:
 
 # The Lord's Prayer: What Jesus Taught Us About How to Pray
 
-## The two accounts
-
-The prayer traditionally called "the Lord's Prayer" appears twice in the Gospels, in noticeably different settings and noticeably different lengths.
-
-> ✝️ Matthew 6:9-13 (ESV)
->
-> 9 Pray then like this: "Our Father in heaven, hallowed be your name.
-> 10 Your kingdom come, your will be done, on earth as it is in heaven.
-> 11 Give us this day our daily bread,
-> 12 and forgive us our debts, as we also have forgiven our debtors.
-> 13 And lead us not into temptation, but deliver us from evil.
-
-> ✝️ Luke 11:2-4 (ESV)
->
-> 2 And he said to them, "When you pray, say: "Father, hallowed be your name. Your kingdom come.
-> 3 Give us each day our daily bread,
-> 4 and forgive us our sins, for we ourselves forgive everyone who is indebted to us. And lead us not into temptation.""
+The disciples watched Jesus pray, and when He finished one of them asked, "Lord, teach us to pray"
+(Luke 11:1, ESV). What He gave them is short enough to learn by heart, and each line of it teaches
+something about who God is and what you may ask Him for.
 
 **In one sentence:** Jesus teaches His disciples to pray as a child to a Father, putting God's name, kingdom, and will ahead of their own needs, and trusting Him plainly for daily bread, mutual forgiveness, and deliverance from evil in this time before His kingdom fully arrives.
 
@@ -42,9 +28,12 @@ The prayer traditionally called "the Lord's Prayer" appears twice in the Gospels
 
 ### Lessons about Jesus
 
-Jesus intensifies, rather than invents, Israel's address of God as Father, placing "Father" as the prayer's very first word before a single request is made -- relationship precedes request. This shows that Jesus is not teaching a technique but a relationship: prayer's shape follows from who God already is to the one praying, not from anything the one praying must first accomplish.
-
-Jesus also treats His own ministry as the moment God's kingdom actually broke in: "if it is by the Spirit of God that I cast out demons, then the kingdom of God has come upon you" (Matthew 12:28, ESV). The King who taught His disciples to ask "your kingdom come" had, in that same breath of ministry, already begun to reign. His disciples pray from within a kingdom Jesus Himself inaugurated, toward the day its reign is finished and visible to everyone.
+- **He puts "Father" first.** Israel already called God Father; Jesus makes it the prayer's very
+  first word, before a single request. Relationship comes before request: you pray to someone who
+  is already your Father.
+- **He brought the kingdom He taught you to pray for.** "If it is by the Spirit of God that I cast
+  out demons, then the kingdom of God has come upon you" (Matthew 12:28, ESV). You pray from within
+  a kingdom Jesus Himself began, toward the day its reign is finished and visible to everyone.
 
 ### Memory verses
 
@@ -67,270 +56,269 @@ Jesus also treats His own ministry as the moment God's kingdom actually broke in
 
 ### Be Transformed
 
-- **Think.** Before you ask God for anything today, spend one sentence naming who He is to you --
-  Father, not benefactor -- because relationship comes before request in the prayer Jesus gave. Let
-  that same confidence in His character answer your questions about testing and evil: whatever your
-  own answer to *peirasmos* and *tou ponerou* below, you can ask for protection from real testing
-  while still trusting, per James 1:13, that He is never its source.
+- **Think.** Before you ask God for anything today, spend one sentence naming who He is to you: your
+  Father, who knows what you need before you ask (Matthew 6:8). Relationship comes before request in
+  the prayer Jesus gave. When you pray about testing and evil, trust, per James 1:13, that He is
+  never the one who tempts you.
 - **Attitude.** Notice where your own prayers actually start. If they start with your own list,
   reorder just one prayer this week to put God's name, kingdom, and will ahead of your needs, the
-  way Jesus's own model does. And let go of needing an audience or a word count -- sincerity and
-  brevity, not performance, are what this prayer's own form teaches.
-- **Do.** Name one place where you are praying for guaranteed security instead of daily trust --
-  what would "give us this day" look like there instead? And name someone you are currently
-  withholding forgiveness from: this prayer, prayed honestly, asks you to extend what you're asking
-  to receive.
+  way Jesus's own model does. And let go of needing an audience or a word count: this prayer is
+  short, and it is prayed to a Father who sees in secret.
+- **Do.** Name one place where you want guaranteed security for months ahead, and ask God for today's
+  share of it instead. And name someone you are currently withholding forgiveness from: this
+  prayer, prayed honestly, asks you to extend what you're asking to receive.
 
 ### Prayer
 
 Father, You are the one whose name is holy and whose kingdom is coming -- already begun in Jesus, and not yet finished. Let Your will matter more to me today than my own comfort. Give me what I need for today, no more and no less, and let me forgive as freely as You have forgiven me. Keep me from the testing that would turn me from You, and deliver me from the evil one. In Jesus' name. Amen.
 
-## One teaching, or two?
-
-Before drawing any lessons from the content, a prior question has to be settled: are these two records of one event, or two separate occasions on which Jesus taught essentially the same prayer?
-
-**One teaching, or two?** The weight of the evidence favors two distinct occasions, not one event remembered two different ways:
-
-- **Luke supplies a concrete, specific trigger that Matthew doesn't have.** Luke 11:1 opens: "Now Jesus was praying in a certain place, and when he finished, one of his disciples said to him, 'Lord, teach us to pray, as John taught his disciples.'" (ESV) That's a real narrative occasion -- the disciples had just watched Jesus pray, and one of them asked for what John the Baptist had apparently already given his own followers: a distinctive, identifying prayer. (Luke 5:33 already shows John's disciples known for a particular pattern of fasting and prayer.)
-
-    In Second Temple Judaism, a rabbi giving his disciples their own prayer was a normal way of marking out a school of disciples as *his*. This is a specific, plausible historical moment, not a generic frame.
-- **Matthew's version carries no such setup.** It sits inside a continuous block of teaching (the Sermon on the Mount) as one example among others, introduced simply as "Pray then like this" (6:9) -- part of Jesus's ongoing instruction, not a response to a particular question.
-- **The wording itself differs by more than memory alone would explain.** Luke's version is shorter throughout -- and, as the word study below shows, shorter still once later scribal harmonization toward Matthew's fuller wording is filtered out. Two independent deliveries of the same core teaching, adapted somewhat to two different audiences, fits the evidence better than one utterance transmitted two different ways.
-- **Each Gospel places the prayer to make a different point** (see Literary Context below) -- consistent with an itinerant rabbi repeating a core teaching at different points in a multi-year ministry to make different points to different audiences, which was normal teaching practice, not a duplicated event.
-
-(Source-critical scholarship working from the two-source/Q hypothesis often treats this instead as one traditional saying preserved in two redactional forms. That's a live alternative worth naming, but the reading above -- that Luke's own narrative claim of a distinct occasion should be taken as historical rather than explained away -- is preferred here.)
-
-## Historical and cultural context
-
-### Matthew and Luke as writers
-
-**The Gospels themselves.** Matthew, traditionally the tax-collector-turned-apostle, wrote a Gospel arranged topically around five major discourses for a largely Jewish-Christian audience steeped in the Hebrew Scriptures -- which fits the Sermon on the Mount being an anthology of Jesus's teaching gathered under one heading rather than a single unbroken speech. Luke, a physician and companion of Paul, explicitly says he is writing "an orderly account" for Theophilus after "having followed all things closely" (Luke 1:1-4) -- an account structured, in its middle section (9:51-19:27), around Jesus's journey toward Jerusalem.
-
-### Second Temple prayer customs
-
-**Second Temple prayer customs.** Matthew 6:5's "hypocrites" who "love to stand and pray in the
-synagogues and at the street corners, that they may be seen by others" reflects a real practical
-opportunity. First-century Judaism observed fixed daily prayer times — the *Shema* and the *Amidah*,
-recited morning and afternoon. Anyone wanting to be seen praying could simply arrange to be
-somewhere visible when the hour came.
-
-Jesus is not inventing a hypothetical hypocrite. He is naming an exploitable feature of ordinary
-Jewish piety.
-
-### "Vain repetitions... as the Gentiles do" (Matt 6:7)
-
-**"Vain repetitions... as the Gentiles do" (Matt 6:7).** The verb here, *battalogeo* (βατταλογέω), is rare enough that its precise sense (a babbling or heaping-up of empty phrases) is inferred partly from context. The concrete referent is pagan prayer practice: piling up names and formulas to compel a capricious god to listen. Elijah's taunt of the prophets of Baal, who "cried aloud and cut themselves... and raved" from morning to noon trying to get Baal's attention (1 Kings 18:26-29), is the kind of frantic, repetitive religious noise Jesus is contrasting his own brief model prayer against.
-
-### A rabbi's own prayer, given to his disciples
-
-**A rabbi's own prayer, given to his disciples.** Luke 11:1's comparison to John -- "as John taught his disciples" (ESV) -- points to a known pattern: a teacher's distinctive prayer functioned as a mark of belonging to his school. The disciples aren't asking for prayer technique in the abstract; they're asking to be given *their* prayer, the way John's followers had one.
-
-### A widely-noted liturgical parallel
-
-**A widely-noted (though not independently re-verified here) liturgical parallel.** Many New Testament scholars -- following Joachim Jeremias's influential study of the prayer -- have pointed out that the opening lines track closely with the *Kaddish*, an Aramaic synagogue prayer: "Magnified and sanctified be his great name... may he establish his kingdom in your lifetime and in your days." The structural echo with "hallowed be your name... your kingdom come" is real and often cited, though this study did not independently verify the Kaddish's own wording against a primary source this time round (see Open Questions in the working state file) -- it's reported here as established scholarly comparison, not as independently confirmed.
-
-## Word studies
-
-### Πάτερ: relationship before request
-
-**Πάτερ (*Patēr*, "Father," G3962).** Matthew's fuller "our Father who is in heaven" and Luke's bare "Father" both address God with intimate, familial language -- but this isn't Jesus inventing the idea from nothing. Israel already addressed God corporately as Father: "you, O LORD, are our Father, our Redeemer from of old is your name" (Isaiah 63:16, ESV); "we are the clay, and you are our potter" (Isaiah 64:8); compare also Deuteronomy 32:6 and Malachi 2:10. What Jesus intensifies is placing that address as the prayer's very first word, before any petition follows -- relationship precedes request.
-
-### ἁγιασθήτω: asking God to sanctify His own name
-
-**ἁγιασθήτω (*hagiasthētō*, "let it be hallowed/sanctified," G37).** Grammatically this is a third-person aorist passive imperative -- a request that God himself act, not an instruction to speak more reverently. The underlying Old Testament concept is Hebrew *qadash* (קָדַשׁ, TWOT root 1990, "be set apart, sacred"), and the closest conceptual parallel is Ezekiel 36:23, where God says he himself will vindicate ("sanctify") his own name, profaned among the nations, by acting on Israel's behalf. The petition asks God to do for his own name what only he can do -- not merely for us to speak it more carefully.
-
-### βασιλεία: "your kingdom come"
-
-**βασιλεία (*basileia*, "kingdom," G932) -- "your kingdom come."** This term carries enough theological weight, and enough already/not-yet tension, to warrant the fuller diachronic-then-synchronic treatment rather than a bare gloss.
-
-#### An act of reigning, from Daniel's kingdom to David's prayer
-
-*Diachronic.* In Classical Greek, *basileia* denotes kingship or reign — the abstract exercise of
-royal sovereignty — with "realm" or "territory" as a secondary, derived sense. The Septuagint mostly
-renders Hebrew *malkuth* and Aramaic *malku* the same way. Both come from the root *mlk*, "to
-reign". It is an act of ruling, not primarily a plot of land.
-
-Daniel's visions supply the clearest Old Testament background for a *future, God-established*
-kingdom. "The God of heaven will set up a kingdom that shall never be destroyed... it shall break in
-pieces all these kingdoms and bring them to an end, and it shall stand forever" (Daniel 2:44, ESV).
-Confirmed against the Aramaic: *malku* (H4437) is used both for the eternal kingdom God sets up and,
-in the same verse, for the human kingdoms it supersedes.
-
-David's own temple-dedication prayer supplies a second background text, and a strikingly relevant
-one. "Yours, O LORD, is the greatness and the power and the glory and the victory and the majesty...
-yours is the kingdom [*mamlakah*, H4467], O LORD, and you are exalted as head above all" (1
-Chronicles 29:11, ESV, verified against the Hebrew).
-
-That wording is close enough to the disputed doxology appended to Matthew 6:13 — "for thine is the
-kingdom, and the power, and the glory" (KJV) — to suggest where the doxology came from. It is not part of
-Matthew's original text (see the textual note above), but it was almost certainly drawing on this
-Old Testament liturgical prayer rather than invented from nothing.
-
-#### One kingdom, already arrived and not yet complete
-
-*Synchronic.* Concordanced across the whole New Testament, *basileia* occurs 162 times and clusters
-heavily in the Synoptics. Matthew alone accounts for over a third, mostly in his own distinctive
-phrase "kingdom of heaven" (32x, unique to Matthew).
-
-Checked directly against the Greek text, Matthew uses "kingdom of heaven" and "kingdom of God"
-interchangeably for the identical statement within one verse — Matt 19:23 "kingdom of heaven", 19:24
-"kingdom of God", the same saying about a rich man. So "heaven" is a reverential Jewish
-circumlocution for the divine name. It is not a different, more spiritual kingdom.
-
-The wider usage holds a real already/not-yet tension rather than settling on one pole. Jesus states
-plainly that the kingdom has *already* arrived in his ministry: "But if it is by the Spirit of God
-that I cast out demons, then the kingdom of God has come upon you" (*ephthasen*, aorist, "has
-arrived" — Matt 12:28, ESV; Luke 11:20 has the identical clause with "the finger of God" in place of
-"the Spirit of God," both verified). And again, "the kingdom of God is in the
-midst of you" (Luke 17:21).
-
-Yet the same Gospels look to a still-future consummation: "inherit the kingdom prepared for you from
-the foundation of the world" (Matt 25:34). Even after the resurrection the apostles can ask, "Lord,
-will you at this time restore the kingdom to Israel?" (Acts 1:6) — and be corrected only on the
-timing, not the substance of the expectation.
-
-#### The full and final establishment of God's reign
-
-*Conclusion.* "Your kingdom come" (*elthetō hē basileia sou*, aorist active imperative) asks for
-God's reign to be established in full. The next clause states the same request a second way — "your
-will be done, on earth as it is in heaven" — and the two lines are best read as synonymous
-parallelism.
-
-Jesus's own ministry already means the kingdom has broken in (Matt 12:28). Its visible, universal,
-earthly consummation remains future (Matt 25:34; Daniel 2:44; Acts 1:6-7). So this petition is
-prayed from within the "already", toward the "not yet".
-
-That reading fits both halves of the New Testament evidence without discarding either, and it is
-consistent with a dispensational preference for a future, literal establishment of God's kingdom on
-earth. The King has already come and inaugurated his reign. His disciples still rightly pray, and
-still wait, for that reign's full and visible arrival.
-
-#### An active verb: the kingdom itself arrives
-
-*The verb matters here too, not just the noun.* Checked directly against the Greek morphology
-tagging for all three "Thou-petitions" in Matthew 6:9-10.
-
-"Hallowed be your name" (*hagiasthētō*) is aorist **passive** imperative. "Your will be done"
-(*genēthētō*) is likewise a passive-toned aorist imperative. Both avoid naming God directly as the
-one acting — a "divine passive", the common reverential Jewish idiom for describing God's action
-without a grammatical subject.
-
-"Your kingdom **come**" (*elthetō*) breaks that pattern. It is aorist **active** imperative, with
-the kingdom itself as the subject that arrives, rather than something acted upon by an unnamed
-agent.
-
-The aorist aspect asks for the kingdom's arrival as a complete, whole event. That fits the "not yet"
-consummation half of the tension above, rather than a request for continuous incremental
-encroachment.
-
-#### The most securely attested of the two petitions
-
-One more thing about this clause. *Elthetō hē basileia sou* is one of only two lines surviving
-word-for-word in Luke's shorter, earliest-attested text, alongside "hallowed be your name". "Your
-will be done, on earth as it is in heaven" is Matthew-only in the earliest manuscripts (see the
-textual note above). So "your kingdom come" is the more securely double-attested of the two "Thou"
-petitions about God's future action.
-
-### ἐπιούσιος: the single rarest word in the New Testament
-
-**ἐπιούσιος (*epiousios*, "daily," G1967) — the single rarest word in the New Testament.**
-Concordanced across the entire Greek New Testament, it occurs in exactly two verses: Matthew 6:11
-and its parallel, Luke 11:3. Nowhere else.
-
-It is so rare that Origen remarked it looked coined by the Gospel writers themselves. Jerome
-rendered it two different ways in the same Vulgate — *supersubstantialem* ("super-substantial") in
-Matthew, *cotidianum* ("daily") in Luke. That is evidence of genuine ancient uncertainty, not modern
-scholarly overreach.
-
-The live options are four. "Daily", the traditional gloss. "For today", from *epi* + *ousa*. "For
-the coming day", from *epi* + a form of "tomorrow". Or "necessary for existence", from *epi* +
-*ousia*, "substance".
-
-All four converge on the same practical force: asking God for today's or tomorrow's sufficiency, not
-for stockpiled abundance.
-
-The Old Testament background supports that either way. Manna could not be hoarded beyond its day,
-except the day before Sabbath (Exodus 16:4, 19-20) — a built-in, enforced day-by-day dependence. And
-Proverbs 30:8's wisdom prayer, "feed me with the food that is needful for me" (literally "the bread
-of my portion", Hebrew *lechem chuqqi*, TWOT root 728a), asks for sufficiency rather than either
-poverty or riches. A different word, the same shape of request.
-
-### ὀφειλήματα / ἁμαρτίας: debts, sins, and the sabbatical background
-
-**ὀφειλήματα / ἁμαρτίας (*opheilēmata* / *hamartias*, "debts" / "sins," G3783 / G266) and the sabbatical background.** Matthew has Jesus ask forgiveness for "debts" (*opheilēmata*, G3783) -- financial language used as a metaphor for sin. Luke's parallel instead uses "sins" (*hamartias*, G266) for what's forgiven, but keeps the debt-root word (*opheilonti*, G3784, "indebted") for what we forgive others -- Luke unpacks Matthew's financial metaphor into its plain theological sense while keeping the debt-language on the human side of the comparison. This isn't an abstract image invented for the prayer: Israel practiced an actual sabbatical-year debt release (*shemittah*, Deuteronomy 15:1-2), a real, periodic, covenant-mandated cancellation of debts that could not otherwise be repaid. The prayer borrows a category its hearers lived under literally.
-
-### πειρασμόν: the tension with James 1:13
-
-**πειρασμόν ("temptation/testing," *peirasmos*, G3986) — checked against James 1:13-14.** This word
-creates a real interpretive tension, and it needs naming rather than passing over. James 1:13 states
-plainly, "God cannot be tempted with evil, and he himself tempts no one." So how can Jesus have us
-ask God not to "lead us into temptation"?
-
-Two harmonising readings are current. First, *peirasmos* elsewhere in the New Testament carries the
-sense "trial" or "testing" rather than "enticement to sin" — compare Revelation 3:10's "hour of
-trial". On that reading the petition asks to be spared severe testing, and makes no claim that God
-causes sin.
-
-Second, "lead us not into" may be a Semitic idiom for "do not let us fall into". Scripture elsewhere
-attributes an outcome to God's agency in a permissive rather than a causative sense, as with the
-"hardening" of Pharaoh's heart.
-
-Either resolves the tension with James without forcing a contradiction. This study does not
-adjudicate between them.
-
-### τοῦ πονηροῦ: evil, or the evil one?
-
-**τοῦ πονηροῦ (*tou ponērou*, "of the evil / the evil one," G4190).** The Greek genitive here is grammatically ambiguous between neuter ("evil," the abstract quality) and masculine ("the evil one," a person -- i.e., Satan). Elsewhere in the New Testament, the identical phrase *ho ponēros* clearly denotes Satan (Matthew 13:19, 13:38; John 17:15; 1 John 2:13-14, 3:12, 5:18-19) -- which inclines many interpreters toward "deliver us from the evil one" over the more generic "deliver us from evil," though English translations split on this rendering and either is grammatically defensible.
-
-### Two textual notes
-
-#### The doxology in Matthew 6:13
-
-**A textual note on the doxology.** The familiar liturgical ending -- "For thine is the kingdom, and the power, and the glory, for ever. Amen" (KJV) -- is a textual question, not merely a translational one. Checking the Greek text directly (SBLGNT) against several English translations confirms the doxology has no corresponding Greek words in the earliest manuscript tradition at Matthew 6:13; it's present in the WEB translation but absent from the ASV, which follows the same older manuscript tradition as most modern critical Greek texts. The doxology is attested from the Didache onward as a liturgical addition, not as part of what Matthew originally wrote -- which is why most modern translations, including the ESV quoted above, print it only as a footnote. Luke's account never had a doxology in any manuscript tradition.
-
-#### Luke's shorter, earlier text
-
-A related textual finding. Luke's account in the earliest manuscripts is shorter even than the
-ESV/WEB text above suggests. Some manuscript traditions — reflected in translations leaning on the
-Byzantine/Majority text, such as YLT — expanded Luke 11:2 with Matthew's fuller wording: "our Father
-who is in heaven... your will be done, as in heaven, so on earth."
-
-The earlier and shorter reading, reflected in the ASV and followed by the ESV quoted above, has
-simply "Father, hallowed be your name. Your kingdom come."
-
-So this is a clear case of later scribes harmonising Luke's distinct, shorter wording toward
-Matthew's. Luke did not originally match Matthew word for word.
-
-## Literary context: why each Gospel places it differently
-
-Matthew 6:9-13 sits inside 6:1-18, a set of three parallel warnings against practicing righteousness -- almsgiving, prayer, fasting -- "to be seen by others." Each follows the same pattern: don't do it for show; do it in secret; your Father who sees in secret will reward you. The model prayer is Matthew's example of *how* to pray correctly within that pattern, framed on both sides by warnings against ostentatious public prayer (6:5-6) and pagan verbal excess (6:7-8). Matthew immediately follows the prayer with a coda that singles out just the forgiveness petition for further comment (6:14-15) -- a sign that this clause, above the others, was thought to need reinforcing.
-
-Luke 11:2-4 sits in Luke's travel narrative, right after the Mary-and-Martha episode (10:38-42, contrasting anxious activity with attentive devotion) and opening with Jesus's own practice of prayer prompting the disciples' request. Luke continues directly from the prayer into the Friend at Midnight parable (11:5-8) and the "ask, seek, knock" teaching (11:9-13), which climaxes: "how much more will the heavenly Father give the Holy Spirit to those who ask him!" Luke's governing point for this whole unit is bold, persistent asking -- not, as in Matthew, a contrast with hypocritical prayer styles.
-
-Same core content, two different governing points in two different Gospels. That's a strong argument, independent of the historical-occasion question above, for reading each account first in its own literary setting before harmonizing the two into one composite text.
-
-## Theological principle
-
-Jesus teaches that prayer is the address of a child to a Father whose name, kingdom, and will take priority over the child's own needs -- and that once that priority is fixed, asking for ordinary daily provision, mutual forgiveness, and protection from testing is not presumption but the expected, uncomplicated pattern of a trusting relationship. It requires neither public display (Matt 6:5-6) nor verbal accumulation (6:7-8) to be heard.
-
-The particulars are first-century and Jewish -- the exact Aramaic and Greek wording, the fixed synagogue prayer-hours Jesus contrasts himself against, the sabbatical debt-economy behind "debts" as a metaphor for sin. What carries into every culture is the shape underneath them: God's name, kingdom, and will named before any personal request; provision asked for one day at a time rather than stockpiled; forgiveness sought and extended in a single breath; protection from evil asked in humility rather than presumption. The prayer gives a template for prayer's priorities, not a formula that must be recited word for word to "count" -- which is itself Matt 6:7's own warning, turned back on the prayer that follows it.
-
-This isn't built on the Lord's Prayer alone. The same priority order -- God's kingdom before personal need -- is stated directly a few verses later in the same sermon: "seek first the kingdom of God and his righteousness, and all these things will be added to you" (Matthew 6:33). The same forgiveness reciprocity is taught elsewhere without qualification: "...forgiving one another, as God in Christ forgave you" (Ephesians 4:32, ESV; compare Colossians 3:13). The same confidence about provision is taught elsewhere too: "casting all your anxieties on him, because he cares for you" (1 Peter 5:7; compare Philippians 4:6).
+## Study outline
+
+- **[Where Jesus taught it](#where-jesus-taught-it)** — Luke's occasion, Matthew's setting, and
+  what each Gospel does with the prayer.
+- **The prayer, line by line** — each petition, the word behind it, and a line to pray it with:
+  [Our Father in heaven](#our-father-in-heaven) ·
+  [Hallowed be your name](#hallowed-be-your-name) ·
+  [Your kingdom come, your will be done](#your-kingdom-come-your-will-be-done) ·
+  [Our daily bread](#give-us-this-day-our-daily-bread) ·
+  [Forgive us our debts](#forgive-us-our-debts) ·
+  [Lead us not into temptation](#lead-us-not-into-temptation-but-deliver-us-from-evil).
+- **[What the prayer teaches](#what-the-prayer-teaches)** — the shape underneath the words, and
+  where else Scripture teaches it.
+- **[Annex: the two Gospel accounts](#annex-the-two-gospel-accounts)** —
+  [why some Bibles end differently](#why-some-bibles-end-differently) (the doxology and Luke's
+  shorter text), and [one occasion or two?](#one-occasion-or-two)
+
+## Where Jesus taught it
+
+### Luke: the disciples asked
+
+> ✝️ Luke 11:1-4 (ESV)
+>
+> 1 Now Jesus was praying in a certain place, and when he finished, one of his disciples said to
+> him, "Lord, teach us to pray, as John taught his disciples."
+> 2 And he said to them, "When you pray, say: "Father, hallowed be your name. Your kingdom come.
+> 3 Give us each day our daily bread,
+> 4 and forgive us our sins, for we ourselves forgive everyone who is indebted to us. And lead us not into temptation.""
+
+The disciples had just watched Jesus pray, and one of them asked for what John the Baptist had
+apparently already given his own followers: a distinctive, identifying prayer. Luke 5:33 already
+shows John's disciples known for fasting often and offering prayers. The *ESV Study Bible* reads the
+request the same way, as a prayer "that they can pray as his disciples" (note on Luke 11:1). They
+are asking to be given *their* prayer, the way John's followers had one.
+
+Luke continues directly from the prayer into the Friend at Midnight parable (Luke 11:5-8) and the
+"ask, seek, knock" teaching (Luke 11:9-13), which climaxes: "how much more will the heavenly Father
+give the Holy Spirit to those who ask him!" (Luke 11:13, ESV). Luke's point for this whole unit is
+bold, persistent asking. [Prayer as Communion](prayer-as-communion.md#keep-asking-and-keep-talking)
+works through those two parables.
+
+### Matthew: prayer without an audience
+
+Matthew 6:9-13 sits inside Matthew 6:1-18, three parallel warnings against practicing righteousness
+"to be seen by others": almsgiving, prayer, fasting. Each follows the same pattern: don't do it for
+show; do it in secret; your Father who sees in secret will reward you.
+
+The first warning targets hypocrites who "love to stand and pray in the synagogues and at the street
+corners, that they may be seen by others" (Matthew 6:5, ESV). Public prayer "in the morning,
+afternoon, and evening" was common (*ESV Study Bible*, note on Matthew 6:5-15), so anyone wanting to
+be seen praying could simply arrange to be somewhere visible when the hour came. Jesus is naming an
+exploitable feature of ordinary Jewish piety.
+
+The second targets the Gentiles, who "heap up empty phrases" and "think that they will be heard for
+their many words" (Matthew 6:7, ESV). The verb, **βατταλογέω** (*battalogeō*, bat-tah-log-EH-oh,
+G945), occurs only here in the New Testament, so its exact sense (babbling, heaping up empty
+phrases) is inferred partly from context. The concrete referent is pagan prayer: piling up names
+and formulas to compel a capricious god to listen, like the prophets of Baal who "cried aloud and cut
+themselves… and raved" from morning past noon (1 Kings 18:26-29). Jesus sets His own brief prayer
+against that noise.
+
+Matthew then follows the prayer with a coda on just one petition, forgiveness (Matthew 6:14-15), a
+sign that this clause was thought to need reinforcing.
+
+## The prayer, line by line
+
+Matthew's fuller form is the one most people know, so the sections below follow it.
+
+> ✝️ Matthew 6:9-13 (ESV)
+>
+> 9 Pray then like this: "Our Father in heaven, hallowed be your name.
+> 10 Your kingdom come, your will be done, on earth as it is in heaven.
+> 11 Give us this day our daily bread,
+> 12 and forgive us our debts, as we also have forgiven our debtors.
+> 13 And lead us not into temptation, but deliver us from evil.
+
+### Our Father in heaven
+
+**Πάτερ** (*Patēr*, PAH-tair, "Father," G3962). Matthew's "our Father in heaven" and Luke's bare
+"Father" both address God with family language. Israel already addressed God corporately as Father:
+"you, O LORD, are our Father, our Redeemer from of old is your name" (Isaiah 63:16, ESV); "we are the
+clay, and you are our potter" (Isaiah 64:8); compare also Deuteronomy 32:6 and Malachi 2:10. What
+Jesus intensifies is placing that address as the prayer's very first word, before any petition
+follows. This shows that God is a Father before He is anything you ask of Him: relationship
+precedes request.
+
+**Pray it:** *"Father, before I ask You for anything, I thank You that I am Yours."*
+
+### Hallowed be your name
+
+**ἁγιασθήτω** (*hagiasthētō*, hah-gee-as-THAY-toh, "let it be hallowed," G37). It is a request that
+God Himself act, and the underlying Old Testament idea is Hebrew <span dir="rtl">קָדַשׁ</span>
+(*qadash*, kah-DAHSH, H6942, TWOT root 1990, "be set apart, sacred"). The closest parallel is
+Ezekiel 36:23, where God says He Himself will vindicate ("sanctify") His own name, profaned among the
+nations, by acting on Israel's behalf. So the petition asks God to do for His own name what only He
+can do, and to make you someone who honours it.
+
+**Pray it:** *"Father, show Your holiness where I live and work today, and let nothing I do dishonour
+Your name."*
+
+### Your kingdom come, your will be done
+
+**βασιλεία** (*basileia*, bah-see-LAY-ah, "kingdom," G932). It is an act of ruling, a reign, more than
+a plot of land. Daniel's visions supply the clearest Old Testament background for a *future,
+God-established* kingdom: "The God of heaven will set up a kingdom that shall never be destroyed… it
+shall break in pieces all these kingdoms and bring them to an end, and it shall stand forever" (Daniel
+2:44, ESV).
+
+The New Testament holds that kingdom as already here and not yet complete. Jesus states plainly that
+it has *already* arrived in His ministry: "But if it is by the Spirit of God that I cast out demons,
+then the kingdom of God has come upon you" (Matthew 12:28, ESV; Luke 11:20 has "the finger of God").
+And again, "the kingdom of God is in the midst of you" (Luke 17:21). Yet the same Gospels look to a
+still-future consummation: "inherit the kingdom prepared for you from the foundation of the world"
+(Matthew 25:34). Even after the resurrection the apostles can ask, "Lord, will you at this time
+restore the kingdom to Israel?" (Acts 1:6), and be corrected only on the timing (Acts 1:7).
+
+"Your kingdom come" asks for God's reign to be established in full. The next clause states the same
+request a second way, "your will be done, on earth as it is in heaven." So this petition is prayed
+from within the "already", toward the "not yet". That is consistent with a dispensational
+preference for a future, literal establishment of God's kingdom on earth. The King has already come
+and inaugurated His reign. His disciples still rightly pray, and still wait, for that reign's full
+and visible arrival. Until then, praying "your will be done" hands your own will over to His, as
+Jesus did in Gethsemane: "not as I will, but as you will" (Matthew 26:39, ESV).
+
+(The fuller word study behind this section, on *basileia*, "kingdom of heaven" and the grammar of
+the petition, is being developed as a separate study.)
+
+**Pray it:** *"Father, bring Your kingdom, and bring Jesus back. Until then, where my will and Yours
+disagree today, let Yours be done."*
+
+### Give us this day our daily bread
+
+**ἐπιούσιος** (*epiousios*, ep-ee-OO-see-os, "daily," G1967). Across the Greek New Testament it occurs
+in exactly two verses, Matthew 6:11 and its parallel Luke 11:3, and it is barely found anywhere
+outside them. Origen remarked it looked coined by the Gospel writers themselves. Jerome rendered it
+two different ways in the same Vulgate: *supersubstantialem* ("super-substantial") in Matthew,
+*cotidianum* ("daily") in Luke. The uncertainty over its meaning is ancient.
+
+The live options are "daily", "for today", "for the coming day", or "necessary for existence". All
+of them ask God for today's or tomorrow's sufficiency, not a stockpile. The Old Testament background
+fits that shape. Manna could not be hoarded beyond its day, except the day before the Sabbath
+(Exodus 16:4, 19-26): a built-in, day-by-day dependence. And Proverbs 30:8's prayer, "feed me with
+the food that is needful for me" (literally "the bread of my portion", Hebrew *lechem chuqqi*, TWOT
+root 728a), asks for enough, without either poverty or riches. This shows that God wants to be asked
+again tomorrow, and that He means to provide.
+
+**Pray it:** *"Father, give me what I need for today. I trust You with tomorrow."*
+
+### Forgive us our debts
+
+**ὀφειλήματα** (*opheilēmata*, oh-fay-LAY-mah-tah, "debts," G3783). Matthew has Jesus ask forgiveness
+for "debts", financial language used for sin. Luke's parallel uses "sins" (**ἁμαρτίας**, *hamartias*,
+hah-mar-TEE-as, G266) for what God forgives, but keeps the debt word (*opheilonti*, G3784, "indebted")
+for what we forgive others. Israel practised an actual sabbatical-year debt release (*shemittah*,
+Deuteronomy 15:1-2), a periodic, covenant-mandated cancellation of debts that could not otherwise be
+repaid, so the prayer borrows a category its hearers lived under.
+
+Matthew then makes the link explicit: "if you forgive others their trespasses, your heavenly Father
+will also forgive you, but if you do not forgive others their trespasses, neither will your Father
+forgive your trespasses" (Matthew 6:14-15, ESV). Forgiveness received and forgiveness given belong in
+one breath: "forgiving one another, as God in Christ forgave you" (Ephesians 4:32, ESV).
+
+**Pray it:** *"Father, forgive me for ______. And I let go of what ______ owes me, as You have let go of
+what I owed You."*
+
+### Lead us not into temptation, but deliver us from evil
+
+**πειρασμός** (*peirasmos*, pay-ras-MOS, "temptation, testing," G3986). James 1:13 states plainly,
+"God cannot be tempted with evil, and he himself tempts no one." So how can Jesus have you ask God
+not to "lead us into temptation"?
+
+The word covers both "trial" or "testing" and "enticement to sin"; compare Revelation 3:10's "hour
+of trial". The *ESV Study Bible* reads the petition as "Allow us to be spared from difficult
+circumstances that would tempt us to sin" (note on Matthew 6:13), and points to Jesus's own words in
+Gethsemane: "pray that you may not enter into temptation" (Matthew 26:41, ESV). Some take "lead us
+not into" as a Semitic idiom for "do not let us fall into". Either reading keeps James 1:13 intact:
+God is never the source of your temptation, and He is the one you ask to keep you out of it.
+
+**τοῦ πονηροῦ** (*tou ponērou*, too pon-ay-ROO, "evil / the evil one," G4190). The Greek can mean
+"evil" in general or "the evil one", Satan. Elsewhere the same phrase plainly denotes Satan (Matthew
+13:19, 38; 1 John 2:13-14; 3:12; 5:18-19), which inclines many interpreters toward "deliver us from
+the evil one". English translations split on it (the ESV and NASB have "evil"; the NIV, CSB and WEB
+"the evil one"), and either is grammatically defensible. Either way, the prayer ends by admitting you
+cannot keep yourself, and asking the Father who can.
+
+**Pray it:** *"Father, keep me out of what I cannot stand up to today, and guard me from the evil one."*
+
+## What the prayer teaches
+
+Jesus teaches that prayer is the address of a child to a Father whose name, kingdom, and will take
+priority over the child's own needs, and that once that priority is fixed, asking for daily
+provision, mutual forgiveness, and protection from testing is the expected pattern of a trusting
+relationship. It requires neither public display (Matthew 6:5-6) nor verbal accumulation (Matthew
+6:7-8) to be heard.
+
+The particulars are first-century and Jewish: the Aramaic and Greek wording, the synagogue
+prayer-hours, the sabbatical debt-economy behind "debts". What carries into every culture is the
+shape underneath them: God's name, kingdom, and will named before any personal request; provision
+asked for one day at a time; forgiveness sought and extended together; protection from evil asked in
+humility. It is a template for prayer's priorities. You do not have to recite it word for word for
+it to "count", which is Matthew 6:7's own warning, turned back on the prayer that follows it.
+
+The rest of the New Testament teaches the same shape. The priority order is stated a few verses
+later in the same sermon: "seek first the kingdom of God and his righteousness, and all these things
+will be added to you" (Matthew 6:33). Forgiveness is taught the same way in Ephesians 4:32 and
+Colossians 3:13, and confidence about provision in 1 Peter 5:7 and Philippians 4:6.
+
+To use the prayer as a pattern for your own words, step by step, see
+[A pattern to pray by](prayer-as-communion.md#a-pattern-to-pray-by) in Prayer as Communion.
+
+## Annex: the two Gospel accounts
+
+### Why some Bibles end differently
+
+The familiar ending, "For thine is the kingdom, and the power, and the glory, for ever. Amen" (KJV),
+has no corresponding Greek words at Matthew 6:13 in the earliest manuscripts. It is printed in the
+WEB and absent from the ASV, and the ESV prints it only as a footnote. It is attested from the
+*Didache* onward as a liturgical addition, and it is almost certainly drawn from David's prayer:
+"Yours is the kingdom, O LORD, and you are exalted as head above all" (1 Chronicles 29:11, ESV).
+
+Luke's text was expanded the same way. Some manuscript traditions, followed by the WEB and YLT,
+fill out Luke 11:2 with Matthew's wording ("Our Father in heaven… May your will be done"). The
+earlier, shorter reading, followed by the ASV and the ESV quoted above, has simply "Father, hallowed
+be your name. Your kingdom come." Later scribes harmonised Luke toward Matthew.
+
+### One occasion or two?
+
+Luke gives a concrete occasion that Matthew lacks, the wording differs, and each Gospel uses the
+prayer to make a different point. That fits a teacher repeating a core teaching at different points
+in a multi-year ministry. Source-critical scholarship often treats the two instead as one saying
+preserved in two forms; this study takes Luke's narrative claim of a distinct occasion as historical.
+Either way, read each account first in its own setting before blending the two.
 
 ## Discussion questions
 
-1. Does it change how you understand the Lord's Prayer to see it as something Jesus likely taught more than once, to different audiences, rather than a single fixed liturgical formula given once?
-2. The prayer places three petitions about God (name, kingdom, will) before any petition about us. What would it look like to actually pray in that order, rather than starting with your own list of needs?
+1. Which line of this prayer is hardest for you to pray honestly right now, and why?
+2. The prayer places three petitions about God (name, kingdom, will) before any petition about us. What would it look like to actually pray in that order, starting with God before your own list of needs?
 3. Jesus says the kingdom has already arrived in His ministry (Matthew 12:28), yet the prayer still asks for it to come. Where does "your kingdom come" already feel true in your life, and where does it still feel entirely future?
-4. "Daily bread" assumes asking again tomorrow rather than asking once for a surplus. Where in your own life is it harder to trust for "today" than to want assurance for the whole future at once?
-5. Matthew links being forgiven to forgiving others so tightly that he repeats it right after the prayer (6:14-15). Is there someone you're currently withholding forgiveness from that this prayer, prayed honestly, would confront?
-6. How do you personally read "lead us not into temptation" in light of James 1:13's insistence that God does not tempt anyone to sin?
+4. "Daily bread" assumes asking again tomorrow. Where in your own life is it harder to trust God for "today" than to want assurance for the whole future at once?
+5. Matthew links being forgiven to forgiving others so tightly that he repeats it right after the prayer (Matthew 6:14-15). Is there someone you're currently withholding forgiveness from that this prayer, prayed honestly, would confront?
+6. How do you read "lead us not into temptation" in light of James 1:13's insistence that God tempts no one? How does Jesus's "pray that you may not enter into temptation" (Matthew 26:41) help?
 
 ## References & Recommended Reading
 
 - ESV Bible (Crossway) -- primary translation quoted throughout, per this repo's translation conventions.
+- *ESV Study Bible* (Crossway) -- notes on Matthew 6:5-15, Matthew 6:13 and Luke 11:1, cited above.
 - World English Bible (WEB), American Standard Version (ASV, 1901), and Young's Literal Translation (YLT) -- used for direct textual/translation comparison, especially the Matthew 6:13 doxology and the Luke 11:2 shorter-text question.
-- MACULA Greek Linguistic Datasets (SBLGNT) and MACULA Hebrew Linguistic Datasets (WLC), queried via this repo's `references/build/bible-text.db` -- source of all morphology, Strong's numbers, and Louw-Nida domain codes cited above.
-- *Theological Wordbook of the Old Testament* (TWOT), ed. R. Laird Harris, Gleason L. Archer Jr., and Bruce K. Waltke (Moody Publishers) -- root entries for *ab*/"father" (root 4a), *qadash*/"be set apart" (root 1990), *lechem*/"bread" (root 1105a), and *choq*/"something prescribed" (root 728a), consulted via this repo's committed TWOT Strong's-number map.
-- Joachim Jeremias, *The Lord's Prayer* (Fortress Press, 1964) -- the classic study behind the Kaddish/Amidah liturgical-parallel observation cited above.
+- MACULA Greek Linguistic Datasets (SBLGNT) and MACULA Hebrew Linguistic Datasets (WLC), queried via this repo's `references/build/bible-text.db` -- source of all morphology, Strong's numbers, and occurrence counts cited above.
+- *Theological Wordbook of the Old Testament* (TWOT), ed. R. Laird Harris, Gleason L. Archer Jr., and Bruce K. Waltke (Moody Publishers) -- root entries for *qadash*/"be set apart" (root 1990) and *choq*/"something prescribed" (root 728a), consulted via this repo's committed TWOT Strong's-number map.
 - Origen and Jerome on *epiousios* -- the ancient uncertainty over this word's derivation (including Jerome's two different Vulgate renderings of the same Greek word in Matthew and Luke) is widely discussed in NT lexical scholarship; consult a critical Matthew or Luke commentary (e.g., W. D. Davies and Dale C. Allison's *Matthew* [ICC], or Joel B. Green's *Luke* [NICNT]) for the fuller textual history.

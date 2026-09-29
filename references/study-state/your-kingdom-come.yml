@@ -1,0 +1,22 @@
+slug: your-kingdom-come
+title: "Your Kingdom Come: The Kingdom Already Here and Not Yet Complete"
+status: draft
+target_path: docs/content/last-things/your-kingdom-come.md
+primary_passage: "Matthew 6:10"
+point: >
+  The kingdom Jesus taught His disciples to pray for is God's reign: already broken in through His
+  ministry (Matthew 12:28), still awaiting its full, visible, earthly establishment (Daniel 2:44;
+  Matthew 25:34; Acts 1:6-7).
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked 2026-09-29 by the simplify pass on docs/content/christian-life/lords-prayer.md (at commit
+      ee39e313). Moved verbatim: the whole βασιλεία word study (five subsections) and the Kaddish
+      paragraph. Two edits on the way: "within one verse" -> "in two adjacent verses" (Matt 19:23-24),
+      and "see the textual note above" now links the parent. The false "most securely attested"
+      subsection was NOT moved. Counts (162; 55 Matthew; kingdom of heaven 32) re-verified in
+      lords-prayer.yml review_2026-09-29. Needs develop-bible-study for opening, thesis, Key Takeaways,
+      discussion questions, plain-language rewrite (diachronic/synchronic, divine passive), and the
+      Kaddish hedge replaced with the NIV Cultural Backgrounds Study Bible note on Matt 6:9-10.
+  published: {done: false}

@@ -323,4 +323,77 @@ review_2026-09-19:
     reader, not a mechanical fix. npm run validate clean (only the pre-existing block-quote-share
     warning remains, present before this review too). read_structure: 33 sections, median 112
     words, 0 over target, 0 walls.
-last_updated: "2026-07-22"
+last_updated: "2026-09-29"
+word_budget: 4000
+word_budget_note: "Default. After simplify_2026-09-29 the study counts 2,692 words (Check 23 method)."
+
+review_2026-09-29:
+  request: "Run a review and read and simplify over the Lord's Prayer study. As per the prayer as communion -- the study is to be accessible and practical."
+  phase1_scripture_accuracy: >
+    All 25 ESV quotations re-queried against study-notes.db (esv-study-bible): verbatim. Added
+    quotations (Matt 6:8 paraphrase, 6:14-15, 26:39, 26:41) verified before commit. NIV/CSB/NASB
+    Matt 6:13 renderings checked for the tou ponērou sentence (NIV and CSB "the evil one", ESV and
+    NASB "evil").
+  critical:
+    - "epiousios called 'the single rarest word in the New Testament' -- false: battalogeō (G945, Matt 6:7) is a NT hapax; epiousios occurs twice. Now 'barely found anywhere outside them'."
+    - "'Your kingdom come' called one of only two lines surviving word-for-word in Luke -- false: Luke 11:4 and Matt 6:13a share καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν. Section removed (also dropped from the fork)."
+    - "Luke textual note grouped the WEB with the ESV's short text; the WEB prints the long, harmonised Luke 11:2 (verified via query.py). Rewritten: WEB and YLT long, ASV and ESV short."
+  moderate:
+    - "Prayer hours 'Shema and Amidah, morning and afternoon' replaced with the ESVSB note on Matt 6:5-15 (morning, afternoon, evening)."
+    - "Pharaoh's hardening offered as a plain permissive example (contested; Exod 9:12) -- cut; ESVSB note on Matt 6:13 and Matt 26:41 added."
+    - "Kaddish 'not independently re-verified' hedge -- moved to the fork; the NIV Cultural Backgrounds Study Bible note on Matt 6:9-10 gives the earliest form and can replace the hedge in the fork's develop pass."
+    - "No pronunciations on Greek words -- added. Jargon (diachronic/synchronic, Thou-petitions, divine passive, genitive, Q, Byzantine) removed or glossed."
+  minor:
+    - "KJV 'Vain repetitions' heading unlabeled -- replaced by ESV 'heap up empty phrases'."
+    - "Matt 19:23-24 'within one verse' -> 'two adjacent verses' (in the fork)."
+    - "John 17:15 dropped from the 'clearly Satan' list (same ambiguity as Matt 6:13)."
+    - "Manna Sabbath exception now cites Exod 16:19-26."
+    - "Unchecked 'Luke never had a doxology in any manuscript' claim cut."
+    - "Strong's tags added: G945, H6942 (strongs_suggest)."
+  phase3_counts: "G1967 = 2 (Matt 6:11; Luke 11:3); G945 = 1; G932 = 162 NT, 55 Matthew; basileia + ouranos collocation = 32, all Matthew."
+  phase5_commentary: "ESVSB (Matt 6:5-15, 6:9, 6:13; Luke 11:1) and NIV Cultural Backgrounds (Matt 6:9-10): confirm the Luke 11:1 'distinctive prayer' reading, God-first ordering, tou ponērou ambiguity, doxology as later addition; complicate the prayer-hours claim (fixed) and the Pharaoh illustration (cut)."
+  phase6_context: "review_gaps: no quotation gaps, crossref leads only. cross_study_claims Matthew 6: consistent with prayer-as-communion.md and humility.md."
+
+simplify_2026-09-29:
+  point: "Jesus teaches His disciples to pray as children to a Father: His name, kingdom and will first, then today's bread, forgiveness as we forgive, and protection from evil."
+  words: {before: 4124, after: 2692, budget: 4000}
+  forks:
+    - "docs/content/last-things/your-kingdom-come.md (draft) -- the basileia word study (Classical/LXX background, Daniel 2:44, 1 Chr 29:11 and the doxology, the kingdom-of-heaven counts and circumlocution, already/not-yet, the active-verb section) and the Kaddish paragraph, moved verbatim from ee39e313. The parent keeps a ~350-word already/not-yet summary."
+  merges:
+    - "Luke 11:1 occasion (told three times: one-or-two bullets, 'A rabbi's own prayer', literary context) -> 'Luke: the disciples asked'."
+    - "Second Temple customs + Matt 6:7 + Matthew's literary context -> 'Matthew: prayer without an audience'."
+    - "Matt 6:14-15 coda moved into 'Forgive us our debts'."
+    - "Two textual notes -> 'Why some Bibles end differently'; 1 Chr 29:11 moved there."
+    - "Lessons about Jesus: already/not-yet paragraph reduced to one bullet (body carries it)."
+  deleted:
+    - "'Matthew and Luke as writers' (tangent)."
+    - "'The most securely attested of the two petitions' (false claim)."
+  restructured: "Body now walks the prayer line by line (Our Father / Hallowed / Kingdom and will / Daily bread / Debts / Temptation and evil), each with its word study and a 'Pray it' line. Passage blocks moved out of the opening (Check 14 block-quote share cleared); Study outline added (Check 22 cleared)."
+  added_by_author_request:
+    - "'Pray it' line per petition (6), a short opening hook, one discussion question replaced (the one-or-two-occasions question -> 'which line is hardest to pray honestly'), Q6 extended with Matt 26:41, a pointer to prayer-as-communion.md#a-pattern-to-pray-by and #keep-asking-and-keep-talking, 'your will be done' tied to Matt 26:39."
+  read_pass_note: "The line-by-line regrouping is the read-bible-study move, applied in the same session as the rewrite. AGENTS.md asks for read-bible-study to run in a different session from the drafting one; a fresh read pass is still owed."
+
+evidence:
+  - tool: bible_concordance
+    args: {strongs: G1967, work_id: macula-greek-sblgnt}
+    expect_count: 2
+  - tool: bible_concordance
+    args: {strongs: G945, work_id: macula-greek-sblgnt}
+    expect_count: 1
+  - tool: bible_concordance
+    args: {strongs: G932, work_id: macula-greek-sblgnt}
+    expect_count: 162
+
+open_questions_2026-09-29:
+  - "Link from lords-prayer.md to last-things/your-kingdom-come.md once the fork is published (currently a plain-text pointer, since a published page linking a draft fails mkdocs build --strict)."
+
+read_2026-09-29:
+  session: "Fresh session (did not draft or simplify the file) -- the separate read pass the simplify block said was still owed."
+  measurements: {sections_before: 21, sections_after: 22, median_words: 115, longest_words: 357, over_400: 0, walls: 0}
+  changes:
+    - "'Why some Bibles end differently' (was a ## between the last petition and 'What the prayer teaches') and 'One occasion or two?' (was the last ### under 'Where Jesus taught it') moved, verbatim, into a new '## Annex: the two Gospel accounts' after 'What the prayer teaches' and before Discussion questions (structural-readability rule 11). The petitions now run straight into the synthesis, and the setting section ends on Matthew's forgiveness coda."
+    - "Study outline: 'What the prayer teaches' bullet moved up; annex bullet added linking #annex-the-two-gospel-accounts, #why-some-bibles-end-differently, #one-occasion-or-two. Descriptive annotations only."
+  prose_identity: "Checked against a pre-pass copy of the working tree (HEAD predates the rewrite). Every non-heading line outside the Study outline is identical as a multiset (217 lines). study_structure._prose_diff flags only the outline's wrapped bullet-continuation lines."
+  anchors: "All 11 in-page hrefs resolve against rendered heading ids."
+  validate: "npm run validate -- no warnings for lords-prayer.md."
+  verifies_nothing: "Structure only; accuracy rests on review_2026-09-29."
