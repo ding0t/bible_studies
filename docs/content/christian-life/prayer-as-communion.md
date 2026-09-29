@@ -39,17 +39,11 @@ refusing administration so they could "devote ourselves to prayer" (Acts 6:4), t
 - **He prayed as a habit.** Luke 5:16 uses a *periphrastic imperfect*, the form Greek uses for
   repeated or customary action: "he *would* withdraw to desolate places and pray" (emphasis added). See
   [below](#why-that-second-row-says-would).
-- **He deliberately prayed alone, at cost.** Before dawn and out of town, so that the disciples had
-  to hunt him down (Mark 1:35-37); by himself on the mountain after feeding the five thousand
-  (Matthew 14:23); apart even while the disciples were with him (Luke 9:18); and a stone's throw
-  from his closest friends in Gethsemane (Luke 22:41).
+- **He deliberately prayed alone, at cost** (Mark 1:35-37; Matthew 14:23; Luke 9:18; Luke 22:41).
 - **He prayed before decisions.** All night on the mountain before naming the twelve (Luke 6:12).
-- **He prayed the Father's will be done, even through the hardest thing asked of Him**, and the
-  prayer includes a request that was not granted: "remove this cup from me. Nevertheless, not my
-  will, but yours, be done"
-  (Luke 22:42). Hebrews says He "was heard because of his reverence" (Hebrews 5:7). The cup stayed,
-  and the *ESV Study Bible* reads the answer as the resurrection, Jesus saved "out of" death (note on
-  Hebrews 5:7).
+- **He prayed the Father's will be done, even through the hardest thing asked of Him**: "remove
+  this cup from me. Nevertheless, not my will, but yours, be done" (Luke 22:42). He "was heard
+  because of his reverence" (Hebrews 5:7); see [below](#what-prayer-permits-your-will-handed-over).
 - **He is praying for you now.** "He always lives to make intercession for them" (Hebrews 7:25), and
   He does it "at the right hand of God" (Romans 8:34).
 
@@ -204,7 +198,7 @@ Father you were brought to at that cost. "Confidence" is the word both passages 
 about a welcome.
 
 That cost is the **atonement**: the Father opened the way to Himself through the blood of His Son
-Jesus, who "always lives to make intercession" for you (Hebrews 7:25). So you may come to Him today
+Jesus. So you may come to Him today
 with confidence, as one already welcomed.
 
 ### You may pray to Jesus too, and the Spirit helps you pray
@@ -242,20 +236,10 @@ text's own words:
 
 ### Why that second row says "would"
 
-A simple past, "he withdrew, he prayed," would report one afternoon. Luke writes **ἦν ὑποχωρῶν καὶ προσευχόμενος**: the verb "to be" followed by two
-participles. Greek uses that construction — a **periphrastic imperfect** — to mark action as ongoing
-or repeated. Literally "he was withdrawing and praying," which in natural
-English becomes "he would withdraw."
-
-The English versions split on whether they keep it, which is useful to know before building anything
-on the verse:
-
-| Keeps the customary sense | Loses it |
-|---|---|
-| **ESV** "he *would* withdraw"; **NIV** and **NKJV** "*often* withdrew"; **CSB** "he *often* withdrew"; **BSB** "*frequently* withdrew" | **KJV**, **ASV**, **WEB** "he withdrew himself… and prayed" — a simple past, and the habit is gone |
-
-So whichever Bible is open in front of you, Luke 5:16 describes something Jesus kept doing: this was
-His routine.
+Luke writes **ἦν ὑποχωρῶν καὶ προσευχόμενος**, a **periphrastic imperfect**: the form Greek uses to
+mark action as ongoing or repeated, literally "he was withdrawing and praying." The ESV, NIV, NKJV,
+CSB and BSB keep that sense ("would", "often", "frequently" withdrew), and the KJV, ASV and WEB's
+simple past loses it. Whichever Bible is open in front of you, Luke 5:16 describes His routine.
 
 ### He went to trouble to be alone
 
@@ -282,16 +266,14 @@ falls on His face alone (Matthew 26:36-39). Luke measures the last stage: "about
 (Luke 22:41).
 
 Three times the place is **ἔρημος** (*erēmos*, G2048), a desolate or wilderness place — Mark 1:35,
-Luke 4:42, Luke 5:16, somewhere He had to travel to. That is what makes
-the solitude legible as a decision: it cost Him sleep, it cost Him distance, and it cost the people
-around Him access to Him while it lasted.
+Luke 4:42, Luke 5:16, somewhere He had to travel to, at a cost in sleep
+and distance.
 
 ### What He went for
 
 He went to be with His Father, and John 17 is the one long record of what that sounded like from
 the inside. The solitude protected the relationship He most wanted from the demands of everyone who
-wanted Him: communion first, and the habit built to serve it. The Son of God got up in the dark and
-walked out of a town that wanted Him, repeatedly, for years, in order to talk to His Father. If the
+wanted Him: communion first, and the habit built to serve it. If the
 Son made that much time for the Father, make time for Him too.
 
 ## How the apostles prayed, and what they taught
@@ -320,9 +302,8 @@ speak boldly through the threat (Acts 4:29).
 
 **Paul's recorded prayers for churches ask for wisdom and knowledge**, and
 his own vocabulary is the evidence. In three of them (Ephesians 1:16-19; Colossians 1:9-10;
-Philippians 1:9) he asks four times for **ἐπίγνωσις** (*epignōsis*, G1922, knowledge), twice for
-**σοφία** (*sophia*, G4678, wisdom), and once each for **σύνεσις** (understanding, G4907),
-**ἀποκάλυψις** (revelation, G602) and **αἴσθησις** (discernment, G144).
+Philippians 1:9) he asks four times for **ἐπίγνωσις** (*epignōsis*, G1922, knowledge) and twice for
+**σοφία** (*sophia*, G4678, wisdom).
 
 Many read ἐπίγνωσις as fuller, personal knowledge; that is debated. What the texts do say is whose
 knowledge: Ephesians 1:17-18 asks for "the Spirit of wisdom and of revelation in the knowledge of
@@ -444,8 +425,7 @@ he "perceived in the books" what God had declared through Jeremiah about the sev
 not present our pleas before you because of our righteousness, but because of your great mercy"
 (Daniel 9:18).
 
-That is the shape: finding out what God has said He wants, and asking Him for it. Samuel's answer
-is the whole posture in five words: "Speak, for your servant hears" (1 Samuel 3:10).
+That is the shape: finding out what God has said He wants, and asking Him for it. 
 
 ### What prayer permits: your will, handed over
 
@@ -462,8 +442,7 @@ perfectly and the cup stayed. Hebrews says Jesus "was heard" by the one "able to
 (Hebrews 5:7), and the *ESV Study Bible* reads that answer as the resurrection (note on Hebrews 5:7). The measure of a prayer life is whose will
 it is being conformed to.
 
-Prayer changes circumstances often enough that Scripture tells you to ask. It also changes the
-person praying, and on the evidence above that is one of the main ways God works through it.
+
 
 This shows that God's purpose in your praying includes your **sanctification**: He conforms your will
 to His and acts through the surrendered will. So you can bring Him every request and leave the
@@ -548,8 +527,7 @@ an answer comes, write it next to the request, and read that column on the days 
 ## A pattern to pray by
 
 All of the above reduces to a shape small enough to hold in your head. It is the Lord's Prayer's own
-order, with thanksgiving and intercession placed where the rest of the New Testament puts them. This
-site has a full exegetical study of the petitions themselves at [The Lord's Prayer](lords-prayer.md).
+order, with thanksgiving and intercession placed where the rest of the New Testament puts them. 
 Each step below has a suggested opening — words to start with — and someone in Scripture who prayed
 that way.
 
@@ -576,10 +554,8 @@ flowchart TD
 
 ### Toward Him, before anything is asked
 
-These three have one job: to get your eyes onto God before you look at yourself. They are the
-attitude the rest of it is prayed in — God named for who He
-is, thanked for what He has already done, and His will put ahead of yours while you still have the
-option of preferring your own.
+These three get your eyes onto God before you look at yourself: God named for who He is, thanked
+for what He has already done, and His will put ahead of yours.
 
 **1. Recognise who you are speaking to.** *"Our Father in heaven, hallowed be your name."* Two
 things at once, correcting opposite errors: He is a **Father**, so you come as a child; and His name
@@ -623,8 +599,7 @@ acting ([the pattern](#what-prayer-permits-god-to-do)). Ask what He wants before
 
 ### Then bring yourself, and everyone else
 
-Having fixed your eyes on God in the first three, you bring your own needs and other people's into a
-frame that has already been set. The needs are the same size; now they are said to someone you have
+Now bring your own needs and other people's. They are the same size, said now to someone you have
 just spent three movements remembering.
 
 **4. Ask for today.** *"Give us this day our daily bread."* Real needs, plainly said, for
@@ -640,10 +615,9 @@ today. This is **δέησις** ([What to pray about](#what-to-pray-about)).
 
 **5. Name other people.** **ἔντευξις** (*enteuxis*, G1783), intercession, which is what Paul's
 recorded prayers for churches consist of almost entirely (Ephesians 1:16-19; 3:14-19; Philippians
-1:9-11; Colossians 1:9-10). Two of the four open by asking that they would **know God better**
-(Ephesians 1:17; Colossians 1:9); the others ask first for love that abounds (Philippians 1:9) and
-for inner strength (Ephesians 3:16). Their
-circumstances belong here too, and he attaches a purpose to each, and so should you.
+1:9-11; Colossians 1:9-10). They ask first for knowing God (Ephesians 1:17;
+Colossians 1:9), for love that abounds (Philippians 1:9) and for inner strength (Ephesians 3:16).
+Circumstances belong here too, each with its purpose ([above](#what-paul-asks-others-to-pray-for-him)).
 
 > **Try:** *"For ______ by name: that they would know you better, and for ______ that they are
 > carrying."*
@@ -693,11 +667,9 @@ several generations ahead.
 - **Use Paul's four words.** A child can do all of 1 Timothy 2:1: something I need, something I want
   to say, someone else by name, something to say thank you for. Naming the four stops family prayer
   collapsing into requests.
-- **Use fixed times as scaffolding.** Daniel's three set hours (Daniel 6:10) and Jesus's before-dawn
-  habit are both structure. Structure is what carries a practice through the stretches when nobody
-  feels like it.
-- **Let them hear you pray for them, by name.** Paul's letters show what praying for people sounds
-  like, and they often ask that people would know God better (Ephesians 1:17-18).
+- **Use fixed times as scaffolding**, as Daniel's three set hours (Daniel 6:10) and Jesus's
+  before-dawn habit were.
+- **Let them hear you pray for them, by name**, as Paul prayed for his churches (Ephesians 1:17-18).
 - **Let a child's prayer run its course.** Leave corrections for later. Ephesians 6:4 warns fathers
   specifically about provoking children, and early prayers grow when they are welcomed.
 

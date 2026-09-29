@@ -4,7 +4,7 @@
 slug: prayer-as-communion
 state_file: references/study-state/prayer.yml
 target_path: docs/content/christian-life/prayer-as-communion.md
-word_budget: 5050
+word_budget: 4700
 word_budget_reason: >
   Set 2026-09-26 by the readability-sweep simplify pass, after forking two tangents
   (how-god-answers-prayer.md, supplication.md), merging duplicated material into lords-prayer.md
@@ -14,7 +14,8 @@ word_budget_reason: >
   permits God to do, attitude, teaching a family); each remaining ## section carries one of them.
   Raised 4450 -> 5050 on 2026-09-29 when the author asked for the persistence gap to be filled
   ('Keep asking, and keep talking': 1 Thessalonians 5:17, Luke 11:5-13, Luke 18:1-8), about 700
-  words, partly offset by tightening elsewhere.
+  words, partly offset by tightening elsewhere. Then simplify_2026-09-29 brought it to 4,681 and the
+  budget was set to 4700: the persistence section is the reason it sits above 4450.
   Reaching 4,000 would mean deleting one of those outcomes (the likeliest candidates were Moses and
   Daniel, or the Paul-circumstances test), which is the author's call rather than a sweep's.
 
@@ -45,3 +46,18 @@ evidence:
   - tool: bible_concordance
     args: {strongs: G335, work_id: macula-greek-sblgnt}
     expect_count: 1
+simplify_2026-09-29:
+  point: "God has adopted you and opened the way to Himself through Jesus, so prayer is a child's daily conversation with the Father, kept up and persisted in as Jesus did, in which He aligns your will with His and acts."
+  words: {before: 5022, after: 4681, budget: 4700}
+  forks: []
+  merges:
+    - "Gethsemane / ESVSB resurrection note kept in 'What prayer permits'; Lessons bullet points to it."
+    - "'Know God better' kept in Paul's prayers; step 5 and household bullet shortened to a clause."
+    - "Lessons bullet on praying alone reduced to citations; 'He went to trouble to be alone' carries the scenes."
+    - "'Got up in the dark' sentence cut from 'What He went for'; fixed-times bullet shortened; Samuel 1 Sam 3:10 kept in step 3 only; Lord's Prayer link cut from pattern intro."
+  tightened:
+    - "Deleted 'Prayer changes circumstances…' paragraph (duplicated the sanctification paragraph)."
+    - "Hebrews 7:25 repeat cut from atonement paragraph; erēmos closer shortened; both pattern group intros trimmed."
+    - "Paul's vocabulary list reduced to epignosis x4 and sophia x2."
+    - "Luke 5:16 grammar section and eight-version table reduced to one paragraph."
+  verify: "study_structure.py --verify-against HEAD: added_unexpected holds only the shortened sentences and two in-page pointers."
