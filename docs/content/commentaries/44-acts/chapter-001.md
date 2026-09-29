@@ -30,5 +30,6 @@ draft: false
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 1:7
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 1:6
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:9-12
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 1:9
 - [Thomas](../../biblical-figures/thomas.md) — 1:13
 <!-- commentary-index:auto-end -->

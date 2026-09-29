@@ -17,4 +17,5 @@ draft: false
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 7:3
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 7:1-4
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 7:25
+- [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 7:25
 <!-- commentary-index:auto-end -->

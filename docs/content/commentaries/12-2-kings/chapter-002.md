@@ -13,5 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 2:3-11
-- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 2:11
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 2:11
 <!-- commentary-index:auto-end -->

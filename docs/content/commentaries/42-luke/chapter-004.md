@@ -19,5 +19,5 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 4:18-19
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 4:18-21
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:42
-- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 4:25
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 4:25
 <!-- commentary-index:auto-end -->

@@ -19,7 +19,9 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 21:1
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 21:1-4
 - [Sin and Sorcery](../../sin/sorcery.md) — 21:8
+- [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 21:22
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 21:1-9
+- [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 21:22
 - [The Heavenly Pattern](../../jesus/the-heavenly-pattern/index.md) — 21:3
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 21:22-23
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 21:2

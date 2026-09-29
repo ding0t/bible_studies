@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-09-28
+date_modified: 2026-09-29
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -404,10 +404,14 @@ Each page gets a plate drawn by `utils/sanctuary_plates.py`. The plate is built 
 that tags every detail as given, inferred or unstated. Unstated details are drawn dashed, with the
 tradition that supplies them named.
 
-**Started.** [The Lampstand](../jesus/the-heavenly-pattern/lampstand.md) and the series
-[index](../jesus/the-heavenly-pattern/index.md) are published (2026-09-28), reviewed and corrected.
-The altar of incense and the ark are drafted with their plates and under review. Still worth doing on
-the lampstand: a read-bible-study pass in a fresh session.
+**Started.** Published, reviewed and corrected, each with its plate: [The
+Lampstand](../jesus/the-heavenly-pattern/lampstand.md) and the series
+[index](../jesus/the-heavenly-pattern/index.md) (2026-09-28), [The Ark of the
+Covenant](../jesus/the-heavenly-pattern/ark.md) and [The Golden Altar of
+Incense](../jesus/the-heavenly-pattern/incense-altar.md) (2026-09-29). The lampstand's Revelation 11
+material became its own study, [The Two Witnesses](../last-things/two-witnesses.md). Still worth doing:
+a read-bible-study pass on each in a fresh session, and restoring the altar page's link to How God
+Answers Prayer once that study is published.
 
 The remaining pages, in the order suggested. Figures marked *(verified)* were checked against the
 text or the concordance when the series was planned; the rest still need checking.
@@ -424,7 +428,7 @@ text or the concordance when the series was planned; the rest still need checkin
       with metals keyed: bronze outside, gold inside, silver under the frames.
     - Two cubits: Ezekiel's longer one (Ezekiel 43:13) and "cubits of the old standard" (2 Chronicles
       3:3).
-- **The ark and the mercy seat (with the cherubim and the veil).**
+- **The ark and the mercy seat.** Published as [The Ark of the Covenant](../jesus/the-heavenly-pattern/ark.md); planning notes kept below.
     - At Sinai: 2½ × 1½ × 1½ cubits (Exodus 25:10). The poles were never to be removed (Exodus
       25:15). God says, "There I will meet with you" (Exodus 25:22). The mercy seat's thickness is
       not given.
@@ -447,7 +451,7 @@ text or the concordance when the series was planned; the rest still need checkin
     - John 6:35 as an echo.
     - The lampstand page's note that the lamps lit the table (Numbers 8:2; Exodus 26:35) connects
       the two pages.
-- **The altar of incense.**
+- **The altar of incense.** Published as [The Golden Altar of Incense](../jesus/the-heavenly-pattern/incense-altar.md); planning notes kept below.
     - At Sinai: 1 × 1 × 2 cubits, before the veil, with its horns touched with blood once a year
       (Exodus 30:1-10).
     - Hebrews 9:4's *thymiatērion* is the Septuagint's word for a censer (2 Chronicles 26:19;

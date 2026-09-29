@@ -3,11 +3,11 @@ title: "The Ark of the Covenant"
 category: "theology"
 description: "Exodus 25:10-22 to Revelation 11:19: the gold chest that held God's covenant under the mercy seat where blood was sprinkled once a year, the ark Israel carried, lost and never remade, the mercy seat Paul names in Jesus, and the ark John sees in the temple in heaven."
 tags: ["exodus", "leviticus", "1-samuel", "1-kings", "jeremiah", "romans", "hebrews", "revelation", "temple", "priesthood", "atonement", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Exodus 25:10-22"
 bible_references: ["Exodus 25:10-22", "Exodus 16:33-34", "Exodus 40:20-21", "Leviticus 16:2", "Leviticus 16:12-16", "Numbers 7:89", "Numbers 10:33-36", "Numbers 17:10", "Joshua 3:3-4", "1 Samuel 4:3-4", "1 Samuel 4:11", "1 Samuel 4:21-22", "1 Samuel 5:3-4", "2 Samuel 6:6-7", "1 Kings 6:23-28", "1 Kings 8:6-11", "1 Chronicles 28:2", "2 Chronicles 35:3", "Psalm 99:1", "Psalm 132:7-8", "Jeremiah 3:16-17", "Genesis 50:26", "2 Kings 12:9", "Romans 1:13", "Romans 3:23-26", "Ephesians 1:9", "Hebrews 4:16", "Hebrews 9:4-7", "Revelation 11:19", "Revelation 21:22", "Exodus 19:16", "Exodus 2:3", "2 Kings 25:13-17", "Numbers 4:15", "Hebrews 8:5", "Exodus 25:9", "Exodus 25:40", "1 Kings 8:8", "Leviticus 16:34", "Jeremiah 3:6", "Jeremiah 52:17-23", "Ezekiel 43:14", "Exodus 40:23", "Leviticus 24:8", "Romans 1:18"]
 date_created: 2026-09-28
-date_modified: 2026-09-28
+date_modified: 2026-09-29
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

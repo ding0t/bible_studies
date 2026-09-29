@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 17:10
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 17:8
 <!-- commentary-index:auto-end -->

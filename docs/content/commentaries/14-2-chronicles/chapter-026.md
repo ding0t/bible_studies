@@ -14,4 +14,5 @@ draft: false
 
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 26:16-21
 - [Pride](../../sin/pride.md) — 26:16
+- [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 26:16-21
 <!-- commentary-index:auto-end -->

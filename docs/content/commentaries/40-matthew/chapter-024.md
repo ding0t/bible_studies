@@ -30,4 +30,5 @@ draft: false
 - [The Rapture of the Church](../../last-things/rapture.md) — 24:36-44
 - [The Restrainer](../../last-things/the-restrainer.md) — 24:15
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 24:29-31
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 24:15
 <!-- commentary-index:auto-end -->

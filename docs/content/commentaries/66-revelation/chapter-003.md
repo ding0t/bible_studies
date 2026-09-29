@@ -17,4 +17,5 @@ draft: false
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 3:10
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 3:12
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:10
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 3:14
 <!-- commentary-index:auto-end -->

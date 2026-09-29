@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 4:18
+- [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 4:3-4
 <!-- commentary-index:auto-end -->

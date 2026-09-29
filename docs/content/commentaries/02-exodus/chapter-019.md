@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 19:6
+- [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 19:16
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 19:16-19
 <!-- commentary-index:auto-end -->

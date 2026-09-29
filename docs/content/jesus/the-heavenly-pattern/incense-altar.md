@@ -3,11 +3,11 @@ title: "The Golden Altar of Incense"
 category: "theology"
 description: "Exodus 30:1-10 to Revelation 8: the small gold altar before the veil where incense rose to God every morning and evening, the fire only God could supply, and the altar before His throne where the prayers of the saints rise and are answered."
 tags: ["exodus", "leviticus", "numbers", "1-kings", "2-chronicles", "psalms", "malachi", "luke", "hebrews", "revelation", "temple", "priesthood", "prayer", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Exodus 30:1-10"
 bible_references: ["Exodus 30:1-10", "Exodus 30:34-38", "Exodus 37:25-29", "Exodus 40:26-27", "Leviticus 10:1-3", "Leviticus 16:12-13", "Numbers 16:46-48", "1 Kings 6:20-22", "2 Chronicles 26:16-21", "Psalm 141:2", "Malachi 1:11", "Luke 1:8-13", "Hebrews 7:25", "Hebrews 9:3-4", "Revelation 5:8", "Revelation 6:9-11", "Revelation 8:3-5", "Revelation 9:13", "Revelation 14:18", "Revelation 16:7", "Revelation 21:22", "Revelation 22:4", "Numbers 16:35", "Revelation 6:15-17", "Exodus 25:22"]
 date_created: 2026-09-28
-date_modified: 2026-09-28
+date_modified: 2026-09-29
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

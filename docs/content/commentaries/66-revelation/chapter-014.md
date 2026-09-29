@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 14:18
 - [The Restrainer](../../last-things/the-restrainer.md) — 14:6
 <!-- commentary-index:auto-end -->

@@ -25,5 +25,6 @@ draft: false
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 15:51-52
 - [The Rapture of the Church](../../last-things/rapture.md) — 15:51-53
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 15:51-53
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 15:51
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 15:4
 <!-- commentary-index:auto-end -->

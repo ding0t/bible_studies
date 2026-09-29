@@ -201,6 +201,14 @@ End-times prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](trumpet.md)
 
+-   __The Two Witnesses__
+
+    ---
+
+    Revelation 11:1-14: two prophets who testify in Jerusalem for 1,260 days, drawn from Zechariah's olive trees and clothed in the powers of Moses and Elijah, killed where their Lord was crucified, raised and taken up. Who they are, when they come, and what their story shows about God.
+
+    [:octicons-arrow-right-24: Read](two-witnesses.md)
+
 -   __We Shall All Be Changed__
 
     ---

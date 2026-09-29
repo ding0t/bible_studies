@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 25:8-9"
 bible_references: ["Exodus 25:8-9", "Exodus 25:40", "1 Chronicles 28:11-19", "Acts 7:44", "Hebrews 8:5", "Hebrews 9:5", "Hebrews 9:23-24", "Revelation 21:3", "Revelation 21:22"]
 date_created: 2026-09-28
-date_modified: 2026-09-28
+date_modified: 2026-09-29
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -30,8 +30,15 @@ after the list of furnishings: "Of these things we cannot now speak in detail" (
 
 ## The furnishings
 
+- [The Ark of the Covenant](ark.md) — the gold chest under the mercy seat, lost on earth, named in
+  Jesus as the propitiation, and seen in the temple in heaven.
+- [The Golden Altar of Incense](incense-altar.md) — the altar before the veil where incense rose with
+  the lamps, and the altar before the throne where the saints' prayers rise.
 - [The Lampstand](lampstand.md) — one almond tree of hammered gold, kept burning every night, and the
   seven lampstands Jesus walks among in Revelation.
 
-*In preparation: the ark and mercy seat, the table, the altar of incense, the bronze altar, the basin
-and sea, and the house itself from tent to city.*
+*In preparation: the table, the bronze altar, the basin and sea, and the house itself from tent to
+city.*
+
+Related: [The Two Witnesses](../../last-things/two-witnesses.md) takes up Zechariah's two olive trees
+from the lampstand page.

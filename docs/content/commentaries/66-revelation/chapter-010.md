@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 10:7
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 10:8-11
 <!-- commentary-index:auto-end -->

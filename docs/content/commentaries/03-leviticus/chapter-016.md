@@ -1,0 +1,17 @@
+---
+title: "Leviticus 16"
+category: "bible"
+description: "Commentary and cross-referenced studies for Leviticus chapter 16"
+tags: ["leviticus"]
+draft: false
+---
+
+# Leviticus 16
+
+
+<!-- commentary-index:auto-start -->
+## Studies referencing this chapter
+
+- [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 16:2
+- [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 16:12-13
+<!-- commentary-index:auto-end -->

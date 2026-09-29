@@ -1,0 +1,160 @@
+# Forked from jesus/the-heavenly-pattern/lampstand.md (2026-09-29) at the author's request: the
+# Revelation 11 argument outgrew that page's budget. The lampstand page keeps a short summary and links
+# here once this is published (a published page cannot link a draft).
+
+slug: "two-witnesses"
+title: "The Two Witnesses"
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/last-things/two-witnesses.md"
+
+primary_passage: "Revelation 11:1-14"
+supporting_passages:
+  - "Revelation 10:8-11"
+  - "Revelation 11:15"
+  - "Revelation 12:6, 14"
+  - "Revelation 13:5-7"
+  - "Zechariah 4:2-14"
+  - "Daniel 7:21, 25"
+  - "Daniel 9:27"
+  - "Daniel 12:7"
+  - "Malachi 4:4-5"
+  - "Luke 9:28-33"
+  - "Matthew 17:10-13"
+  - "Luke 4:25"
+  - "James 5:17"
+  - "1 Kings 17:1"
+  - "2 Kings 1:8-10"
+  - "Exodus 7:17-20"
+  - "Jeremiah 5:14"
+  - "Ezekiel 37:5-10"
+  - "Esther 9:22"
+  - "1 Kings 19:18"
+  - "Deuteronomy 19:15"
+  - "Luke 21:24"
+  - "2 Thessalonians 2:4"
+  - "Genesis 5:24; Hebrews 11:5; 2 Kings 2:11; Hebrews 9:27"
+genre: [apocalyptic, prophets, topical]
+
+thesis: >
+  During Daniel's seventieth week, while the nations trample Jerusalem, God sends two prophets whom
+  Revelation draws from Zechariah's two anointed olive trees and clothes in the powers of Moses and
+  Elijah; they testify for 1,260 days, are killed in the city where their Lord was crucified, and are
+  raised and taken up in a cloud before their enemies' eyes, so God keeps a witness in the world's
+  darkest hour, and the witnesses' story follows their Lord's.
+outline:
+  - section: "Hook + In one sentence + Key Takeaways + Study outline"
+    says: "Revelation 11:3-4: two witnesses, 1,260 days, sackcloth, the olive trees and lampstands."
+  - section: "Where the passage sits"
+    says: "John recommissioned to 'prophesy again' (10:11); interlude between the sixth and seventh trumpets; the second woe (11:14) gives way to the kingdom (11:15)."
+  - section: "The measured temple and the trampled city (11:1-2)"
+    says: "Measuring = protection and ownership (Ezek 40:3; Zech 2:1-2); temple read by dispensationalists as a rebuilt tribulation temple (ESVSB, NIVBT), consistent with 2 Thess 2:4, Matt 24:15 and the-restrainer.md; symbolic reading given; trampling 42 months and Luke 21:24."
+  - section: "One period counted three ways"
+    says: "42 months / 1,260 days / time, times and half a time (Rev 11:2-3; 12:6, 14; 13:5; Dan 7:25; 12:7; 9:27); 360-day year (prophecy-events-times.md). Which half the witnesses occupy: case for each, contested; Victorinus puts them first."
+  - section: "Two witnesses in sackcloth, Zechariah's olive trees (11:3-4)"
+    says: "martys in Revelation (Jesus 1:5; 3:14; Antipas 2:13; 11:3; 17:6); the law's two witnesses (Deut 19:15); sackcloth; Zechariah 4 allusion in brief, linking lampstand.md."
+  - section: "Fire, drought and plagues (11:5-6)"
+    says: "Jer 5:14 and 2 Kgs 1:10; Elijah's three-and-a-half-year drought (Luke 4:25; Jas 5:17); Moses' waters to blood (Exod 7:17-20)."
+  - section: "Who the two are"
+    says: "Four readings: the witnessing church; Enoch and Elijah (4 Ezra 6:26; Tertullian, Hippolytus); Elijah and Jeremiah (Victorinus: 'all our ancients'); Moses and Elijah (Victorinus reports 'many think'). The case for Moses and Elijah: powers, drought length, Malachi 4:4-5 and Matthew 17:11, the Transfiguration (Luke 9:30-32), Horeb, unusual departures; the Hebrews 9:27 objection and answer."
+  - section: "Killed, left unburied, raised, taken up (11:7-13)"
+    says: "The beast from the abyss (first mention; Dan 7:21); the great city 'spiritually' Sodom and Egypt where their Lord was crucified; Purim inverted (Esth 9:22); breath of life and stood on their feet (Ezek 37:5, 10); 'Come up here' and the cloud; earthquake, 7,000 (1 Kgs 19:18), the rest give glory to God (contested: fear or repentance). Their story follows their Lord's."
+  - section: "What the two witnesses show about God"
+    says: "Tier table; God keeps a witness; faithful unto death; vindication. Application for the church now through Antipas (2:13) and Jesus the faithful witness."
+  - section: "Discussion questions; References"
+    says: ""
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Forked from the lampstand page 2026-09-29 at the author's request; author holds Moses and Elijah and asked that the Enoch reading be given."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Revelation 10-11 is the interlude between the sixth and seventh trumpets. Statement of faith:
+        pretribulational rapture, literal seven-year tribulation (Daniel 9:27). Sibling studies place
+        the temple seating/abomination at the week's midpoint (the-restrainer.md, immediately-after.md,
+        olivet-discourse.md) and read 42 months = 1,260 days on a 360-day year
+        (prophecy-events-times.md, chronology-anchors.md). feasts/trumpets.md rejects a new-moon
+        witnesses link; do not make it.
+    literary_context:
+      done: true
+      notes: "10:11 'prophesy again' sets up 11:3; 11:14 closes the second woe; 11:15 the seventh trumpet."
+    content_word_studies:
+      done: true
+      notes: >
+        martys (G3144) in Revelation: 1:5, 2:13, 3:14, 11:3, 17:6. pneumatikos (G4153) at 11:8
+        'spiritually/symbolically'. 11:11 pneuma zoes ... eiselthen ... estesan epi tous podas: Ezek
+        37:5, 10 (NIVBT). bible_trace finds only incidental shared phrases (Ezek 34:10; Num 14:14;
+        Zech 14:12) -- Revelation paraphrases; the allusions are established by commentary and
+        wording, not the tool. exodos (G1841) Luke 9:31.
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: ""
+    theological_principle:
+      done: true
+      notes: ""
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Zechariah 4:3, 14", relation: "the olive trees and 'stand before the Lord of the earth'"}
+      - {ref: "Ezekiel 37:5, 10", relation: "breath entered, stood on their feet"}
+      - {ref: "Daniel 7:21", relation: "made war with the saints and prevailed (11:7; 13:7)"}
+      - {ref: "Esther 9:22", relation: "gifts sent: Purim inverted (CBSB)"}
+      - {ref: "1 Kings 19:18", relation: "7,000 (CBSB: remnant echo)"}
+    translations_compared: ["ESV", "WEB", "CSB footnotes", "LSB footnotes"]
+    divergences_noted: "11:8 pneumatikos: ESV 'symbolically', CSB footnote 'spiritually'; 11:11 'breath' or 'spirit' (CSB footnote)."
+  drafting:
+    done: true
+    file: "docs/content/last-things/two-witnesses.md"
+  review:
+    done: false
+    validated: false
+
+evidence:
+  - {id: rev11-4-esv, what: "olive trees and lampstands", tool: study_verse, args: {book: Rev, chapter: 11, verse: 4, work_id: esv-study-bible}, expect_contains: "These are the two olive trees and the two lampstands that stand before the Lord of the earth", checked: 2026-09-29}
+  - {id: rev11-11-esv, what: "breath of life, stood on their feet", tool: study_verse, args: {book: Rev, chapter: 11, verse: 11, work_id: esv-study-bible}, expect_contains: "a breath of life from God entered them, and they stood up on their feet", checked: 2026-09-29}
+  - {id: ezek37-10-esv, what: "Ezekiel's breath and standing", tool: study_verse, args: {book: Ezek, chapter: 37, verse: 10, work_id: esv-study-bible}, expect_contains: "they lived and stood on their feet", checked: 2026-09-29}
+  - {id: martys-rev-5, what: "martys 5x in Revelation", tool: bible_concordance, args: {strongs: G3144, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 5", checked: 2026-09-29}
+  - {id: rev11-8-pneum, what: "pneumatikos at 11:8", tool: bible_interlinear, args: {book: Rev, chapter: 11, verse: 8}, expect_contains: "πνευματικῶς", checked: 2026-09-29}
+  - {id: lk4-25-esv, what: "Elijah's drought length", tool: study_verse, args: {book: Luke, chapter: 4, verse: 25, work_id: esv-study-bible}, expect_contains: "three years and six months", checked: 2026-09-29}
+  - {id: lk9-32-esv, what: "the two men who stood with him", tool: study_verse, args: {book: Luke, chapter: 9, verse: 32, work_id: esv-study-bible}, expect_contains: "the two men who stood with him", checked: 2026-09-29}
+  - {id: esth9-22-esv, what: "Purim gifts", tool: study_verse, args: {book: Esth, chapter: 9, verse: 22, work_id: esv-study-bible}, expect_contains: "days for sending gifts of food to one another", checked: 2026-09-29}
+  - {id: rev2-13-esv, what: "Antipas my faithful witness", tool: study_verse, args: {book: Rev, chapter: 2, verse: 13, work_id: esv-study-bible}, expect_contains: "Antipas my faithful witness, who was killed among you", checked: 2026-09-29}
+
+open_questions:
+  - "Which half of the week the witnesses occupy: contested. Victorinus (ANF 7) puts their 3.5 years first and Antichrist's 'as much again'. Hippolytus says 'the half' without, in the section read, saying which."
+  - "Do the survivors of 11:13 repent or only fear? NIVBT gives both; CBSB leans repentance."
+  - "CBSB attributes the Enoch-Elijah view also to Jerome; Jerome is not in the repo's patristics corpus -- cite through CBSB, not directly."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Rev 11:1-2 (dispensational temple), 11:3-14 (saints; 'some scholars' individuals), 11:4, 11:5-6 (Elijah, Moses), 11:7-10 (great city), 11:11-14; Dan 12:5-13; Rev 12:6; 13:5."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Rev 11:1-14 overview and OT background chart; 11:3 'modeled after Moses and Elijah'; 11:4; 11:5 (Jer 5:14); 11:7 (Dan 7:21); 11:9; 11:11 (Ezek 37); 11:12; 11:13."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Rev 11:3-6 (4 Ezra; Hippolytus, Tertullian, Jerome; Elijah and Moses expected); 11:5; 11:8; 11:10 (Esther 9:19); 11:13 (1 Kgs 19:18)."}
+  - {type: other, title: "2 Esdras (4 Ezra) 6:26", author: "KJV Apocrypha, scrollmapper deuterocanonical (raw)", note: "'the men that are received ... who have not tasted death from their birth'."}
+  - {type: other, title: "Tertullian, A Treatise on the Soul 50", author: "ANF 3 (public domain), $BIBLE_MEDIA_ROOT/reference/patristics", note: "Enoch and Elijah reserved for death, to extinguish Antichrist by their blood."}
+  - {type: other, title: "Hippolytus, Treatise on Christ and Antichrist 43-44", author: "ANF 5 (public domain)", note: "Enoch and Elias take up half of the last week, 1,260 days in sackcloth; two advents, two forerunners."}
+  - {type: other, title: "Victorinus of Pettau, Commentary on the Apocalypse on 11:3-5", author: "ANF 7 (public domain)", note: "'Many think that there is Elisha, or Moses, with Elijah; but both of these died'; 'all our ancients' held Jeremiah; witnesses' 3.5 years then Antichrist's 'as much again'."}
+last_updated: "2026-09-29"
+
+review_2026-09-29:
+  by: "review-bible-study (subagent), applied by the drafting session on the author's instruction"
+  fixed:
+    - "Malachi: only Elijah is sent; Moses named for his law. Deuteronomy 18:15 and Acts 3:22 added as the source of a Moses-like expectation (applied to Jesus)."
+    - "'When the beast has authority' removed from the closing section (it settled the first/second-half question the body leaves open)."
+    - "Fifth reason credited to NIVBT on Luke 9:30 with its 'figures modeled upon them' hedge; study Bibles' readings of 11:6 attributed individually (ESVSB reads the powers for the church)."
+    - "Hippolytus cited as 43-47 (forerunners in 46; 'the half of the week whereof Daniel spake' in 47)."
+    - "Hedges restored: NIVBT 'possibly' on sackcloth; CBSB on 11:13 'can carry' repentance and the 7,000 inversion; celebrants (earth-dwellers) separated from the city that gives glory."
+    - "4 Ezra 6:26 marked as naming no one; ESV 'And' restored at 11:7 and 11:13; Jeremiah 1:5 marked as Victorinus's wording."
+    - "Other readings given their best evidence: Jeremiah (no recorded death; Jer 5:14 via CBSB; Jer 15:19), Enoch (Jude 14-15), the church (ESVSB king-and-priest; CBSB deviations). 'Spirit and power' made a fifth reading (Luke 1:17; NIVBT; CBSB)."
+    - "Moses-and-Elijah case now says which reasons separate Moses (plagues, transfiguration); Hebrews 9:27 answered from 1 Corinthians 15:51, which also weakens the Enoch reading's 'owed a death'."
+    - "1 Kings 18:1 'third year' noted against Luke 4:25/James 5:17; NIVBT on 11:8 (nature, not location) added; exodos gloss cut; 'legally complete' marked as a reading; person/jeremiah tag."
+    - "Moses and Elijah section split with sub-headings (validator Check 21)."
+  kept:
+    - "Line 24's closing quotation mark after 'sackcloth.' is in the ESV (the speech opens at 11:1); not a stray."

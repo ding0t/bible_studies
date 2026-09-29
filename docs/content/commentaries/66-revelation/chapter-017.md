@@ -16,4 +16,5 @@ draft: false
 - [Six Days of History](../../last-things/six-days-of-history.md) — 17:15
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 17:1-5
 - [The Rapture of the Church](../../last-things/rapture.md) — 17:14
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 17:6
 <!-- commentary-index:auto-end -->

@@ -4,7 +4,7 @@
 
 slug: "lampstand"
 title: "The Lampstand"
-status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
 target_path: "docs/content/jesus/the-heavenly-pattern/lampstand.md"
 
 primary_passage: "Exodus 25:31-40"

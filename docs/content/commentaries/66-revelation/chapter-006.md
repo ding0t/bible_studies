@@ -15,6 +15,7 @@ draft: false
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 6:9-11
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 6:1-12
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 6:13
+- [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 6:9-11
 - [The Rapture of the Church](../../last-things/rapture.md) — 6:16-17
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 6:11
 <!-- commentary-index:auto-end -->

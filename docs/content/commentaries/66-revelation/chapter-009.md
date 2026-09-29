@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Sin and Sorcery](../../sin/sorcery.md) — 9:21
+- [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 9:13
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 9:1-2
 <!-- commentary-index:auto-end -->

@@ -17,5 +17,6 @@ draft: false
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 12:1
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 12:1-11
 - [The Restrainer](../../last-things/the-restrainer.md) — 12:1
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 12:7
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 12:2-3
 <!-- commentary-index:auto-end -->

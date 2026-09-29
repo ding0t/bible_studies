@@ -20,5 +20,6 @@ draft: false
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 1:4
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:7
 - [The Rapture of the Church](../../last-things/rapture.md) — 1:7
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 1:5
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:18
 <!-- commentary-index:auto-end -->

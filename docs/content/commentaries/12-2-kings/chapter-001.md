@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 1:10
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 1:8-10
 <!-- commentary-index:auto-end -->

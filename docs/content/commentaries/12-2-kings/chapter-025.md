@@ -14,4 +14,5 @@ draft: false
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 25:8-9
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 25:27-30
+- [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 25:13-17
 <!-- commentary-index:auto-end -->

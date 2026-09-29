@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 2:1-5
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 2:1-2
 <!-- commentary-index:auto-end -->

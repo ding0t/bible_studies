@@ -2,7 +2,7 @@
 
 slug: "ark"
 title: "The Ark of the Covenant"
-status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
 target_path: "docs/content/jesus/the-heavenly-pattern/ark.md"
 
 primary_passage: "Exodus 25:10-22"

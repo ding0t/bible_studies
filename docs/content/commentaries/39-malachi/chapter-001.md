@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 1:1
+- [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 1:11
 <!-- commentary-index:auto-end -->

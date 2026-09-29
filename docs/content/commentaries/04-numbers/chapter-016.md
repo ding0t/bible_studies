@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 16:46-48
+- [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 16:46-48
 <!-- commentary-index:auto-end -->

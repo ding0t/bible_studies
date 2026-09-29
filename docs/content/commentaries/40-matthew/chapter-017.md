@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 17:10-13
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 17:10-13
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 17:23
 <!-- commentary-index:auto-end -->

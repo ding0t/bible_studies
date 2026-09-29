@@ -17,4 +17,5 @@ draft: false
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 21:12-15
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 21:33
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 21:20-24
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 21:24
 <!-- commentary-index:auto-end -->

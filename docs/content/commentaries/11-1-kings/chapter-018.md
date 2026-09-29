@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 18:26-29
+- [The Two Witnesses](../../last-things/two-witnesses.md) — 18:1
 <!-- commentary-index:auto-end -->

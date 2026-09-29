@@ -18,6 +18,7 @@ draft: false
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 1:14
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 1:14
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:15-19
+- [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 1:9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:13-14
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 1:5
 <!-- commentary-index:auto-end -->
