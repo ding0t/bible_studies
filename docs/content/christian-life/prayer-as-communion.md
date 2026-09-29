@@ -332,6 +332,8 @@ people, and specifically for people who **know God better**.
 This shows what God is most ready to give: Himself, known. So ask first that you, and the people you
 name, would know Him better.
 
+### What Paul asks others to pray for him
+
 **Paul still prays about circumstances.** When he asks churches to pray for *him*, the requests are
 almost entirely circumstantial: that he
 would "be delivered from the unbelievers in Judea" and "come to you with joy" (Romans 15:31-32);
