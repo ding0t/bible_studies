@@ -8,7 +8,8 @@ primary_passage: "Matthew 6:10"
 bible_references: ["Matthew 6:10", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 19:23-24", "Matthew 12:28", "Luke 11:20", "Luke 17:21", "Matthew 25:34", "Acts 1:6-7", "Luke 11:2"]
 date_created: 2026-09-29
 date_modified: 2026-09-29
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Your Kingdom Come: The Kingdom Already Here and Not Yet Complete
