@@ -1,0 +1,131 @@
+# Backlog 4.3 "Faith" (docs/content/about/backlog.md). Author's notes: faith is not a work of our own
+# strength; mustard-seed faith is enough because what matters is who the faith is in; oligopistos 5x
+# on Jesus' lips; aman / emunah / pistis / pisteuo; Gen 15:6, Hab 2:4 (quoted 3x), Heb 11; Rom 4 beside
+# James 2; whether faith is a gift (Eph 2:8-9); faith as trust in a Person.
+# Author, 2026-09-29: tie to humility and pride. Humility = faith as reliance on God's all-sufficient,
+# complete work. Pride = trying to add to that sufficiency by works, "earn a better salvation", or work
+# toward a salvation we don't deserve, not understanding grace freely given. Tie to "I stand at the
+# door" (backlog 10.4, not yet written): Jesus waiting for us to say "I cannot do this on my own,
+# please help me, I trust you", daily, always. Work on unique insights.
+
+slug: "faith"
+title: "Faith"
+status: review
+target_path: "docs/content/salvation/faith.md"
+
+primary_passage: "Habakkuk 2:4"
+supporting_passages: ["Numbers 14:11", "Numbers 14:39-45", "Deuteronomy 1:32", "Deuteronomy 1:41-43",
+  "Hebrews 3:19", "Hebrews 4:1-10", "Genesis 15:6", "Exodus 17:12", "Isaiah 7:9", "Deuteronomy 32:4",
+  "Luke 18:9-14", "2 Corinthians 1:9", "Philippians 3:3-9", "Romans 4:4-5", "Romans 4:16", "Romans 11:6",
+  "Galatians 3:2-3", "Galatians 5:4", "John 6:28-29", "Luke 17:5-10", "Matthew 17:20", "Matthew 14:28-31",
+  "Mark 9:22-24", "James 2:21-24", "Ephesians 2:8-10", "Revelation 3:14-22", "Hosea 12:8", "Isaiah 55:1",
+  "Lamentations 3:22-23", "Hebrews 12:2", "Romans 1:17", "Galatians 3:11", "Hebrews 10:38-39"]
+genre: [prophets, ot-narrative, epistle, gospel, apocalyptic, topical]
+
+thesis: >-
+  Faith is leaning your whole weight on God and on what He has finished in Jesus; pride is the same
+  trust pointed at yourself, and it shows two faces, refusing God's promise and then trying to earn
+  it, so the humble answer, every day, is to open the door to Jesus and say, "I believe; help my
+  unbelief."
+outline:
+  - section: "Opening"
+    says: "Kadesh: one day Israel would not go up, the next day they went up without God (Num 14)."
+  - section: "What the words mean"
+    says: "aman = firm, leaned on; first 'believe' in the Bible is Gen 15:6 (in the LORD); first emunah is Moses' hands held steady by others (Exod 17:12); Isa 7:9 pun; God is the God of emunah (Deut 32:4) and Jesus is 'the Amen' (Rev 3:14). Faith says amen to God."
+  - section: "The proud and the righteous (Hab 2:4)"
+    says: "The verse the NT quotes three times for faith opens with the puffed-up soul. Context: Babylon, and a prophet told to wait. Text of 2:4a difficult (CSB 'Hb obscure'); LXX 'my faith(fulness)'."
+  - section: "Kadesh: pride's two faces"
+    says: "'uppal' occurs twice: Hab 2:4 and Num 14:44. Unbelief (14:11) then presumption (14:40-44, 'we have sinned... we will go up'). Hebrews reads it as unbelief and calls faith entering God's rest, resting from our works (Heb 3:19; 4:10)."
+  - section: "Trusting in yourself"
+    says: "Luke 18:9 and 2 Cor 1:9 use the same Greek, trust in ourselves. Paul's list (Phil 3:4-9). Wages vs gift (Rom 4:4-5; 11:6). Adding works: Gal 3:3, 5:4. John 6:28-29 works -> the work of believing. Luke 17:5-10 faith and unworthy servants side by side."
+  - section: "Small faith in a great God"
+    says: "Mustard seed: the object carries the weight. Peter: 'little faith' = looking at the wind; distazo 2x. Jesus' hand. Mark 9:24. Jesus founder and perfecter of faith (Heb 12:2); Eph 2:8 debate marked, pointer to Assurance."
+  - section: "Faith that works (James 2)"
+    says: "Both quote Gen 15:6. Paul: how God counts righteous (Gen 15); James: the faith that is alive shows (Gen 22). Created for good works (Eph 2:10)."
+  - section: "The door at Laodicea"
+    says: "The Amen speaks to a church that said 'I need nothing' (Rev 3:17; Hos 12:8; refused earthquake aid). Buy without money (Isa 55:1). hestēka perfect, krouō present. Opening the door = hearing and admitting need. Church first, then any one. Daily: mercies new every morning, great is your emunah (Lam 3:23)."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Topical study anchored on Hab 2:4 (the one verse that sets pride and faith side by side) with Num 14 as its only lexical partner. Section: salvation/ (exists, has assurance-of-salvation.md)."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Habakkuk: late 7th c. BC, Babylon rising (1:6); the prophet told to write the vision and wait
+        (2:2-3); 2:4's puffed-up soul is Babylon/its king primarily (ESV SB). Numbers 14: Kadesh, after
+        the spies' report. Laodicea: banking, textiles, eye salve; rebuilt without imperial aid after
+        the AD 60 earthquake (Tacitus, Annals 14.27; ESV SB, NIV BTSB).
+    literary_context:
+      done: true
+      notes: >-
+        Hab 2:4 is the heart of God's answer (2:2-20), followed by five woes on the proud. Num 14:39-45
+        follows the sentence of 40 years (14:26-35). Heb 3:7-4:11 expounds Ps 95 on the Kadesh
+        generation. Rev 3:20 closes the seventh letter, to a church, before the throne vision.
+    content_word_studies:
+      done: true
+      notes: "Verified against MACULA/morphhb and study-notes.db 2026-09-29."
+      terms:
+        - {word: "אָמַן", language: hebrew, transliteration: "ʾaman", strongs_id: "H539", gloss: "be firm; hiphil believe", notes: "105 in MACULA WLC; first Gen 15:6 hiphil + be-YHWH; Isa 7:9 hiphil/niphal pun."}
+        - {word: "אֱמוּנָה", language: hebrew, transliteration: "ʾemunah", strongs_id: "H530", gloss: "firmness, faithfulness", notes: "49 in MACULA WLC; first Exod 17:12 (Moses' hands, steady); Deut 32:4 of God; Hab 2:4; Lam 3:23."}
+        - {word: "עָפַל", language: hebrew, transliteration: "ʿaphal", strongs_id: "H6075", gloss: "swell, be presumptuous", notes: "2 occurrences: Hab 2:4 (pual), Num 14:44 (hiphil). NIV BTSB note on Hab 2:4 makes the Num 14:44 link."}
+        - {word: "πίστις / πιστεύω", language: greek, transliteration: "pistis / pisteuō", strongs_id: "G4102 / G4100", gloss: "faith / believe", notes: "242 / 241 in MACULA SBLGNT."}
+        - {word: "πείθω (perfect)", language: greek, transliteration: "pepoitha", strongs_id: "G3982", gloss: "trust, be confident", notes: "Luke 18:9 πεποιθότας ἐφ᾽ ἑαυτοῖς; 2 Cor 1:9 πεποιθότες ... ἐφ᾽ ἑαυτοῖς; Phil 3:3-4."}
+        - {word: "ὀλιγόπιστος", language: greek, transliteration: "oligopistos", strongs_id: "G3640", gloss: "of little faith", notes: "5x: Matt 6:30; 8:26; 14:31; 16:8; Luke 12:28."}
+        - {word: "διστάζω", language: greek, transliteration: "distazō", strongs_id: "G1365", gloss: "doubt, waver", notes: "2x: Matt 14:31; 28:17."}
+        - {word: "Ἀμήν", language: greek, transliteration: "Amēn", strongs_id: "G281", gloss: "amen, truly", notes: "Title of Jesus at Rev 3:14; cf. Isa 65:16 'God of amen' (ESV 'God of truth')."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Laodicea's wealth/aid refusal is local; 'I need nothing' is the transcultural posture. Kadesh is narrative: Hebrews supplies the evaluation, so the principle is taught explicitly, not invented from the story."
+    theological_principle:
+      done: true
+      notes: "Justification is by grace through faith apart from works (Rom 3:28; 4:4-5; Eph 2:8-9); pride is self-trust (Luke 18:9); unbelief and self-effort share that root (Num 14 read by Heb 3-4). Consistent with statement-of-faith.md Salvation (grace alone, faith alone, Christ alone)."
+    application_draft:
+      done: true
+      notes: "Daily prayer of Mark 9:24; open the door (Rev 3:20); rest from works (Heb 4:10)."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Num 14:44", relation: "only other occurrence of ʿaphal (Hab 2:4)"}
+      - {ref: "2 Cor 1:9", relation: "same phrase as Luke 18:9, trust in ourselves"}
+      - {ref: "Isa 55:1", relation: "buy without money behind Rev 3:18 (ESV SB, NIV BTSB)"}
+      - {ref: "Hos 12:8", relation: "'I am rich' behind Rev 3:17 (NIV BTSB, NIV CBSB)"}
+    translations_compared: ["ESV", "CSB", "LSB", "NLT", "LXX"]
+    divergences_noted: "Hab 2:4: 'faith' vs 'faithfulness' (CSB/LSB footnotes 'Or faithfulness'); CSB footnote 'Hb obscure' on 2:4a; LXX 'by my faith', Heb 10:38 'my righteous one'."
+  drafting:
+    done: true
+    file: "docs/content/salvation/faith.md"
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "Fork candidate: Hebrews 11 walk-through (the chapter's own definition and examples) -- left out for budget."
+  - "Fork candidate: 2 Chronicles 20:20 repeats Isaiah 7:9's believe/established pun -- not verified or used."
+  - "Rev 3:20 has its own backlog item (10.4); this study treats it only as the door faith opens. When 10.4 is written, link both ways."
+
+evidence:
+  - {id: aphal-num, what: "ʿaphal (H6075): Hab 2:4 and Num 14:44, twice", tool: bible_concordance, args: {strongs: H6075}, expect_contains: "they.presumed", checked: 2026-09-29}
+  - {id: distazo-2, what: "distazō (G1365) twice, Matt 14:31 and 28:17", tool: bible_concordance, args: {strongs: G1365, work_id: macula-greek-sblgnt}, expect_contains: "doubted", checked: 2026-09-29}
+  - {id: hab2-4-esv, what: "ESV Hab 2:4", tool: study_verse, args: {book: Hab, chapter: 2, verse: 4, work_id: esv-study-bible}, expect_contains: "his soul is puffed up; it is not upright within him, but the righteous shall live by his faith", checked: 2026-09-29}
+  - {id: num14-44-esv, what: "ESV Num 14:44", tool: study_verse, args: {book: Num, chapter: 14, verse: 44, work_id: esv-study-bible}, expect_contains: "But they presumed to go up", checked: 2026-09-29}
+  - {id: num14-40-esv, what: "ESV Num 14:40", tool: study_verse, args: {book: Num, chapter: 14, verse: 40, work_id: esv-study-bible}, expect_contains: "for we have sinned", checked: 2026-09-29}
+  - {id: luke18-9-grk, what: "Luke 18:9 trusting in themselves", tool: bible_interlinear, args: {book: Luke, chapter: 18, verse: 9}, expect_contains: "ἑαυτοῖς", checked: 2026-09-29}
+  - {id: 2cor1-9-esv, what: "ESV 2 Cor 1:9", tool: study_verse, args: {book: 2Cor, chapter: 1, verse: 9, work_id: esv-study-bible}, expect_contains: "rely not on ourselves but on God who raises the dead", checked: 2026-09-29}
+  - {id: exod17-12-esv, what: "ESV Exod 17:12 steady", tool: study_verse, args: {book: Exod, chapter: 17, verse: 12, work_id: esv-study-bible}, expect_contains: "So his hands were steady until the going down of the sun", checked: 2026-09-29}
+  - {id: rev3-17-esv, what: "ESV Rev 3:17", tool: study_verse, args: {book: Rev, chapter: 3, verse: 17, work_id: esv-study-bible}, expect_contains: "I am rich, I have prospered, and I need nothing", checked: 2026-09-29}
+  - {id: mark9-24-esv, what: "ESV Mark 9:24", tool: study_verse, args: {book: Mark, chapter: 9, verse: 24, work_id: esv-study-bible}, expect_contains: "I believe; help my unbelief!", checked: 2026-09-29}
+  - {id: heb4-10-esv, what: "ESV Heb 4:10", tool: study_verse, args: {book: Heb, chapter: 4, verse: 10, work_id: esv-study-bible}, expect_contains: "has also rested from his works as God did from his", checked: 2026-09-29}
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Hab 2:4 (proud relies on himself, righteous on God: confirmed thesis); Num 14:39-45; Rev 3:14-22 (earthquake, aid refused); Rev 3:17-18 (Isa 55:1 link); Rev 3:19-20 (master of the house)."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Hab 2:4 cites Num 14:44 for 'puffed up' -- corroborated the lexical link found independently; Rev 3:17 (Hos 12:8); Rev 3:20 addressed to complacent church members first. Contributed Hos 12:8."}
+  - {type: commentary, title: "NIV / NKJV Cultural Backgrounds Study Bible", author: "Zondervan / Thomas Nelson", note: "Rev 3:17-20: banking, textiles, eye salve; meal as covenant fellowship."}
+  - {type: other, title: "CSB and LSB footnotes at Hab 2:4", author: "", note: "'Or faithfulness'; CSB 'Hb obscure' -- contributed the need to mark 2:4a as difficult."}
+  - {type: other, title: "MACULA Hebrew (WLC), MACULA Greek (SBLGNT), morphhb, LXX lemmas", author: "", note: "counts and forms above."}
+  - {type: other, title: "Tacitus, Annals 14.27", author: "", note: "Laodicea recovered from the AD 60 earthquake by its own resources (via ESV SB note)."}
+last_updated: "2026-09-29"
