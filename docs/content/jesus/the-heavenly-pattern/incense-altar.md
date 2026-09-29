@@ -276,6 +276,8 @@ my name, and a pure offering. For my name will be great among the nations" (Mala
 
 This shows that God has always received the prayers of His people as an offering. The incense was the
 priest's; the prayer belonged to everyone standing in the court.
+[Prayer as Communion](../../christian-life/prayer-as-communion.md) takes up what that prayer is and how
+Jesus and the apostles prayed.
 
 ## The golden altar before the throne
 
@@ -403,6 +405,8 @@ opened, and your prayer rises before Him.
 
 - [The Heavenly Pattern](index.md) — the series this page belongs to.
 - [The Lampstand](lampstand.md) — the altar's partner in the daily service.
+- [Prayer as Communion](../../christian-life/prayer-as-communion.md) — what prayer is, and how Jesus
+  and the apostles prayed.
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — the martyrs under the altar.
 - [Jesus, Priest in the Order of Melchizedek](../melchizedek-priesthood.md) — the priest who lives
   to intercede.
