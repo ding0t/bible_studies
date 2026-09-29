@@ -90,7 +90,10 @@ def title_from_slug(slug: str) -> str:
 
 def build_index(dir_path: Path) -> str | None:
     rel = dir_path.relative_to(CONTENT_DIR)
-    cards = []
+    # A series (a subdirectory with its own index.md) is a larger body of work than any one page
+    # beside it, so its card leads the grid. Sorted alphabetically among the pages, a series landed
+    # mid-grid with no description and read as an afterthought (jesus/the-heavenly-pattern, 2026-09).
+    series_cards, page_cards = [], []
 
     for child in sorted(dir_path.iterdir()):
         if child.name.startswith(".") or child.name == "index.md":
@@ -99,15 +102,26 @@ def build_index(dir_path: Path) -> str | None:
             child_index = child / "index.md"
             if not child_index.exists():
                 continue  # not generated/authored yet -- nothing to link to
+            fm = load_frontmatter(child_index) or {}
+            if fm.get("draft") is True:
+                continue
             child_rel = str((rel / child.name)).replace("\\", "/")
+            title = title_from_slug(child.name.split("-", 1)[-1] if child.name[:2].isdigit() else child.name)
             blurb = SECTION_BLURBS.get(child_rel, "")
-            cards.append(render_section_card(title_from_slug(child.name.split("-", 1)[-1] if child.name[:2].isdigit() else child.name), blurb, f"{child.name}/"))
+            # A hand-written series index is the authority for its own card. A generated one (a
+            # commentary book, a section_index page) carries only placeholder frontmatter -- "Commentary
+            # on Exodus", "01 Genesis" -- so it keeps the slug title and SECTION_BLURBS.
+            if "-index:auto-start" not in child_index.read_text(encoding="utf-8"):
+                title = fm.get("title") or title
+                blurb = blurb or (fm.get("description") or "").strip()
+            series_cards.append(render_section_card(title, blurb, f"{child.name}/"))
         elif child.suffix == ".md":
             fm = load_frontmatter(child)
             if fm is None or fm.get("draft") is True:
                 continue
-            cards.append(render_page_card(fm, child.name))
+            page_cards.append(render_page_card(fm, child.name))
 
+    cards = series_cards + page_cards
     if not cards:
         return f"{SECTION_START}\n*No published content in this section yet.*\n{SECTION_END}"
     return f"{SECTION_START}\n<div class=\"grid cards\" markdown>\n\n" + "\n\n".join(cards) + "\n\n</div>\n{SECTION_END}".replace("{SECTION_END}", SECTION_END)

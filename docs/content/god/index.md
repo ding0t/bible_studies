@@ -17,6 +17,14 @@ God's nature and character, creation, and the ways he makes himself known.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __Dreams and Visions: Godly and Otherwise__
+
+    ---
+
+    How God has spoken through dreams and visions, and how to tell those from the counterfeits.
+
+    [:octicons-arrow-right-24: Browse](dreams-and-visions/)
+
 -   __Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41__
 
     ---
@@ -32,14 +40,6 @@ God's nature and character, creation, and the ways he makes himself known.
     An exegetical study of Romans 1:19-23 on what creation alone reveals about God, with a look at young-earth arguments from design, the fossil record, and the early universe.
 
     [:octicons-arrow-right-24: Read](creation-reveals-the-creator.md)
-
--   __Dreams And Visions__
-
-    ---
-
-    How God has spoken through dreams and visions, and how to tell those from the counterfeits.
-
-    [:octicons-arrow-right-24: Browse](dreams-and-visions/)
 
 -   __The Flood and the King Lists: Which Genesis Numbers to Trust__
 

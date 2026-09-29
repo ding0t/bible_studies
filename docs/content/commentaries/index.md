@@ -114,6 +114,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
 
     [:octicons-arrow-right-24: Browse](16-nehemiah/)
 
+-   __Esther__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](17-esther/)
+
 -   __Job__
 
     ---

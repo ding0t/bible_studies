@@ -1,0 +1,6 @@
+# Series first: The Heavenly Pattern is a multi-page series, and sorted alphabetically it fell
+# between two single studies in the sidebar. "..." keeps every other page in alphabetical order.
+nav:
+  - index.md
+  - The Heavenly Pattern: the-heavenly-pattern
+  - ...

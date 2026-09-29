@@ -1,7 +1,7 @@
 ---
 title: "The Heavenly Pattern"
 category: "theology"
-description: "The furnishings God told Moses to make after the pattern shown him on the mountain, traced from Sinai through Solomon's temple, Zechariah and Ezekiel to Christ, the church and the heavenly sanctuary of Hebrews and Revelation, with a drawing of each from what Scripture states."
+description: "A series on the tabernacle furnishings God showed Moses on the mountain and the heavenly sanctuary they copied, where Christ serves as High Priest (Hebrews 8-10): each traced from Sinai to Revelation, with a drawing made from what Scripture states."
 tags: ["exodus", "hebrews", "revelation", "temple", "priesthood", "method/typology", "method/word-study", "lang/hebrew"]
 draft: false
 primary_passage: "Exodus 25:8-9"

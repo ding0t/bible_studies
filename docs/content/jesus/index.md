@@ -17,6 +17,14 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __The Heavenly Pattern__
+
+    ---
+
+    A series on the tabernacle furnishings God showed Moses on the mountain and the heavenly sanctuary they copied, where Christ serves as High Priest (Hebrews 8-10): each traced from Sinai to Revelation, with a drawing made from what Scripture states.
+
+    [:octicons-arrow-right-24: Browse](the-heavenly-pattern/)
+
 -   __As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man__
 
     ---
@@ -64,12 +72,6 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
     "Nor the Son" — what Mark 13:32 and Matthew 24:36 do and do not say about Christ's knowledge. The textual variant, the two natures, the Father's prerogative, and whether Jesus was quoting a Jewish wedding idiom.
 
     [:octicons-arrow-right-24: Read](the-day-no-one-knows.md)
-
--   __The Heavenly Pattern__
-
-    ---
-
-    [:octicons-arrow-right-24: Browse](the-heavenly-pattern/)
 
 -   __The Way__
 
