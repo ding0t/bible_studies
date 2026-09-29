@@ -7,17 +7,18 @@ draft: true
 primary_passage: "1 Timothy 2:1"
 bible_references: ["1 Timothy 2:1", "2 Corinthians 10:2", "Galatians 4:12", "Acts 8:34", "Acts 21:39", "Acts 26:3", "Luke 9:38", "2 Corinthians 8:4", "Luke 1:13", "Romans 10:1", "1 Timothy 5:5", "Hebrews 5:7", "Ephesians 6:18", "Philippians 4:6"]
 date_created: 2026-09-26
-date_modified: 2026-09-27
+date_modified: 2026-09-29
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
 
 # Supplication: Begging, Turned Upward
 
-### Four words, four domains
+### Four words for prayer
 
-Paul gives four distinct words in one sentence, and they are not synonyms piled up for emphasis:
-Louw-Nida assigns each its own semantic domain.
+Paul gives four words in one sentence. Louw-Nida lists each as its own entry, all four within one
+domain, communication (33). The *ESV Study Bible* reads them as terms piled up "for their cumulative
+impact" (note on 1 Timothy 2:1), a call to every sort of prayer for every sort of person.
 
 > ✝️ 1 Timothy 2:1-2 (ESV)
 >
