@@ -13,6 +13,11 @@ import {
   GENEALOGY_INDEX,
   VARIANTS,
 } from './chronology.js';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const CONTENT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../../docs/content');
 
 function assert(condition, message) {
   if (!condition) {
@@ -87,5 +92,89 @@ assert(genealogy.length === 78, 'loadGenealogyPeople merges all six era files (7
 assert(genealogy.some((p) => p.id === 'adam'), 'Adam is present');
 assert(genealogy.some((p) => p.id === 'jesus' || p.id === 'jesus_christ'), 'Jesus is present');
 assert(Object.keys(GENEALOGY_INDEX.timeline_variants).length === 3, 'three timeline variants are indexed (mt, lxx, sp)');
+
+console.log('\n6. Timeline agrees with Chronology Anchors:');
+// The timeline's anchor rows are a copy of the table on chronology-anchors.md. A study edited
+// without the data, or the data without the study, is exactly the drift this site keeps finding.
+const anchorsMd = fs.readFileSync(path.join(CONTENT, 'last-things/chronology-anchors.md'), 'utf8');
+const tableRows = anchorsMd
+  .split('\n')
+  .filter((l) => /^\| \d+ \|/.test(l))
+  .map((l) =>
+    l
+      .split('|')
+      .slice(1, -1)
+      .map((c) => c.trim().replace(/\*/g, ''))
+  );
+const parseYear = (s) => {
+  const m = s.match(/^(AD )?(\d+)( BC)?$/);
+  return m[3] ? -Number(m[2]) : Number(m[2]);
+};
+assert(
+  tableRows.length === CHRONOLOGY.anchor_table.length,
+  `anchor_table has one entry per table row (${tableRows.length})`
+);
+for (const [n, , , date, tier, err, zadok] of tableRows) {
+  const e = CHRONOLOGY.anchor_table.find((a) => a.n === Number(n));
+  const same =
+    e &&
+    e.gregorian_year === parseYear(date) &&
+    e.tier === tier &&
+    e.error === err &&
+    e.zadok_year === Number(zadok);
+  assert(same, `row ${n} (${date}) matches the page`);
+  assert(
+    gregorianToAm(e.gregorian_year, 'genealogy') === e.zadok_year,
+    `row ${n}'s Zadok year is its date on the site's epoch`
+  );
+}
+
+console.log('\n7. Every timeline link opens a published study:');
+const refs = new Set(
+  [
+    ...CHRONOLOGY.epochs,
+    ...CHRONOLOGY.anchors,
+    ...CHRONOLOGY.anchor_table,
+    ...CHRONOLOGY.milestones,
+    ...CHRONOLOGY.genesis_markers,
+    ...CHRONOLOGY.future_sequence.events,
+  ]
+    .map((x) => x.study_ref)
+    .filter(Boolean)
+);
+for (const ref of refs) {
+  const file = path.join(CONTENT, `${ref}.md`);
+  const exists = fs.existsSync(file);
+  assert(
+    exists && !/^draft: true$/m.test(fs.readFileSync(file, 'utf8')),
+    `${ref} exists and is published`
+  );
+}
+
+console.log('\n8. The undated future sequence keeps its stated lengths:');
+const fut = Object.fromEntries(CHRONOLOGY.future_sequence.events.map((e) => [e.id, e]));
+assert(
+  fut.covenant.at === 0 && fut.second_coming.at === 7,
+  'the seventieth week runs seven years from the covenant (Daniel 9:27)'
+);
+assert(fut.abomination.at === 3.5, 'the abomination falls at its midpoint, day 1,260');
+assert(
+  Math.round((fut.days_1290.at - fut.abomination.at) * 360) === 1290,
+  '1,290 days counted from the abomination (Daniel 12:11)'
+);
+assert(
+  Math.round((fut.days_1335.at - fut.abomination.at) * 360) === 1335,
+  '1,335 days counted from the abomination (Daniel 12:12)'
+);
+assert(
+  fut.millennium.end - fut.millennium.at === 1000,
+  'the millennium is a thousand years (Revelation 20)'
+);
+assert(
+  CHRONOLOGY.future_sequence.events.every(
+    (e) => e.gregorian_year === undefined && e.am_year === undefined
+  ),
+  'no future event carries a calendar date'
+);
 
 console.log('\n✨ All tests passed!\n');

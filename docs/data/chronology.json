@@ -79,85 +79,47 @@
   ],
   "anchors": [
     {
-      "id": "qarqar",
-      "label": "Battle of Qarqar (Ahab)",
-      "gregorian_year": -853,
-      "evidence": "Kurkh Monolith (Shalmaneser III), synchronized via the Assyrian Eponym Canon's Bur-Sagale eclipse (763 BC)",
-      "study_ref": "last-things/prophecy-events-times"
-    },
-    {
-      "id": "sennacherib",
-      "label": "Sennacherib's invasion of Judah (Hezekiah)",
-      "gregorian_year": -701,
-      "evidence": "Sennacherib's Prism (Taylor Prism) and the Lachish reliefs, British Museum",
-      "study_ref": "last-things/prophecy-events-times"
-    },
-    {
-      "id": "jerusalem_fall_597",
-      "label": "Jerusalem's fall, Jehoiachin's first deportation",
-      "gregorian_year": -597,
-      "evidence": "Babylonian Chronicle ABC 5 (\"Jerusalem Chronicle\"), BM 21946",
-      "study_ref": "last-things/prophecy-events-times"
-    },
-    {
       "id": "jehoiachin_release",
       "label": "Jehoiachin's release (Evil-Merodach)",
       "gregorian_year": -561,
       "evidence": "Jehoiachin's Ration Tablets (Weidner tablets), excavated Babylon",
-      "study_ref": "last-things/prophecy-events-times"
-    },
-    {
-      "id": "cyrus_decree",
-      "label": "Cyrus's decree",
-      "gregorian_year": -538,
-      "evidence": "Cyrus Cylinder; fall of Babylon dated by the Nabonidus Chronicle (539 BC)",
-      "study_ref": "last-things/prophecy-events-times"
-    },
-    {
-      "id": "artaxerxes_decree",
-      "label": "Artaxerxes I's decree to Nehemiah (his 20th year)",
-      "gregorian_year": -444,
-      "evidence": "Elephantine papyri fix Artaxerxes I's regnal years independently. His 20th year is 445 BC on an accession-year count and 444 BC on the Tishri count that Nehemiah 1:1 (Chislev) and 2:1 (Nisan) in the same year imply; this site follows 444 (Hoehner), chosen to fit the AD 33 crucifixion -- see chronology-anchors.md entry 20.",
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "last-things/prophecy-events-times",
+      "core": false
     },
     {
       "id": "merneptah_stele",
       "label": "Merneptah Stele (\"Israel\" in Canaan)",
       "gregorian_year": -1208,
       "evidence": "Earliest extra-biblical mention of Israel as a people in Canaan -- a terminus ante quem for the conquest, not a date for the Exodus itself",
-      "study_ref": "last-things/prophecy-events-times"
+      "study_ref": "last-things/prophecy-events-times",
+      "core": false
     },
     {
       "id": "egypt_dynasty1_aha",
       "label": "Egypt's First Dynasty begins (accession of Aha, radiocarbon)",
       "gregorian_year": -3085,
       "evidence": "Dee et al., Proc. R. Soc. A 469 (2013) 20130395: 3111-3045 BC at 68% (3218-3035 BC at 95%), median 3085 BC. Before the Flood on the MT (2303 BC), SP (2893 BC) and Cainan-free LXX (2953-3053 BC) chronologies, all on the 1446 BC Exodus anchor; only Brenton's LXX with the second Cainan (3183 BC) precedes it. Radiocarbon estimate, not a synchronism -- a weaker anchor class than the others in this list.",
-      "study_ref": "god/flood-and-the-king-lists"
+      "study_ref": "god/flood-and-the-king-lists",
+      "core": false
     },
     {
       "id": "djoser_accession",
       "label": "Djoser's accession (Old Kingdom, radiocarbon)",
       "gregorian_year": -2658,
       "evidence": "Bronk Ramsey et al., Science 328 (2010) 1554-1557: 211 short-lived samples, Bayesian model, accession 2691-2625 BC (midpoint shown). About 355 years before the MT Flood date (2303 BC). Radiocarbon estimate, not a synchronism.",
-      "study_ref": "god/flood-and-the-king-lists"
+      "study_ref": "god/flood-and-the-king-lists",
+      "core": false
     }
   ],
   "milestones": [
     {
       "id": "exodus_early_date",
-      "label": "The Exodus (early-date view)",
+      "label": "The Exodus (1 Kings 6:1)",
       "gregorian_year": -1446,
       "kind": "pivot",
       "note": "1 Kings 6:1's 480 years before Solomon's 4th year, counted back from Thiele's Qarqar-anchored 966 BC. This site's creation epoch is anchored here: AM 2513 on the Masoretic chain, so creation falls at 3959 BC. Not itself an anchor -- no independent record fixes the Exodus to a year, and a late-date Exodus in the 1200s BC is also held in scholarship.",
-      "study_ref": "last-things/prophecy-events-times"
-    },
-    {
-      "id": "solomon_temple_foundation",
-      "label": "Solomon's temple foundation (4th year)",
-      "gregorian_year": -966,
-      "kind": "pivot",
-      "note": "Thiele's Qarqar-anchored reconstruction, AM 2993 on this site's epoch; roughly 46 years later than Ussher's unanchored 1012 BC for the same event.",
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "last-things/prophecy-events-times",
+      "core": true
     },
     {
       "id": "daniel_terminus_hoehner",
@@ -168,20 +130,13 @@
       "study_ref": "last-things/prophecy-events-times"
     },
     {
-      "id": "crucifixion",
-      "label": "The Crucifixion",
-      "gregorian_year": 33,
-      "kind": "prophecy",
-      "note": "Friday 3 April AD 33, this site's date. Only two Fridays in Pilate's prefecture carry Nisan 14 -- 7 April AD 30 and 3 April AD 33 -- and the year rests on Luke 3:1 read naturally, supported by Sejanus and by Daniel 9, which excludes AD 30 on either reckoning of the decree. AD 30 stays defensible if Tiberius's fifteenth year is counted from AD 13.",
-      "study_ref": "last-things/chronology-anchors"
-    },
-    {
       "id": "year_6000",
       "label": "Year 6000",
       "am_year": 6000,
       "kind": "framework",
       "note": "The close of Day 6 and threshold of the millennial Day 7, reading 2 Peter 3:8 with the creation week. AD 2042 on this site's chronology (creation 3959 BC), give or take the five years Solomon's fourth year carries. A chronological consequence, not a date for Christ's return: Jesus kept the day and hour hidden (Mark 13:32; Acts 1:7), and nothing in Scripture says the transitions are sharp.",
-      "study_ref": "last-things/day-is-a-thousand-years"
+      "study_ref": "last-things/day-is-a-thousand-years",
+      "core": true
     },
     {
       "id": "millennial_reign_start",
@@ -191,5 +146,784 @@
       "note": "The start of Day 7 (Rev 20:2-7) -- Satan bound, the thousand-year reign begins.",
       "study_ref": "last-things/day-is-near"
     }
-  ]
+  ],
+  "anchor_table_note": "Mirrors the table in docs/content/last-things/chronology-anchors.md row for row (number, date, tier, error bar, Zadok year). app/src/utils/chronology.test.js fails if the two disagree. 'core' rows show on the whole-week view; the rest appear when the view narrows.",
+  "anchor_table": [
+    {
+      "n": 1,
+      "id": "anchor_01",
+      "label": "Temple begun, Solomon's 4th year",
+      "scripture": "1 Kings 6:1",
+      "gregorian_year": -966,
+      "tier": "Anchored",
+      "error": "±5",
+      "zadok_year": 2993,
+      "core": true,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "1 Kings 6:1's fourth year of Solomon, reached through Thiele's reconstruction of the regnal years from the Assyrian synchronisms. The Exodus 480 years earlier (1446 BC) anchors this site's creation epoch."
+    },
+    {
+      "n": 2,
+      "id": "anchor_02",
+      "label": "Temple completed, 11th year",
+      "scripture": "1 Kings 6:38",
+      "gregorian_year": -959,
+      "tier": "Anchored",
+      "error": "±5",
+      "zadok_year": 3000,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors"
+    },
+    {
+      "n": 3,
+      "id": "anchor_03",
+      "label": "Solomon dies; kingdom divides",
+      "scripture": "1 Kings 11:42-43",
+      "gregorian_year": -931,
+      "tier": "Anchored",
+      "error": "±5",
+      "zadok_year": 3028,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors"
+    },
+    {
+      "n": 4,
+      "id": "anchor_04",
+      "label": "Shishak invades, Rehoboam's 5th year",
+      "scripture": "1 Kings 14:25-26",
+      "gregorian_year": -925,
+      "tier": "Anchored",
+      "error": "±3",
+      "zadok_year": 3034,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Dated by 1 Kings 14:25 counted from Solomon's death in 931 BC; the identification of Shishak with Shoshenq I is widely held, and the Bubastite Portal at Karnak lists the campaign's towns without a date."
+    },
+    {
+      "n": 5,
+      "id": "anchor_05",
+      "label": "Ahab at Qarqar",
+      "scripture": null,
+      "gregorian_year": -853,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3106,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Kurkh Monolith (Shalmaneser III), synchronized via the Assyrian Eponym Canon's Bur-Sagale eclipse (763 BC). Ahab is named as 'Ahab the Israelite'."
+    },
+    {
+      "n": 6,
+      "id": "anchor_06",
+      "label": "Jehu pays tribute to Shalmaneser III",
+      "scripture": null,
+      "gregorian_year": -841,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3118,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Black Obelisk of Shalmaneser III, his 18th year: 'Jehu son of Omri' pays tribute."
+    },
+    {
+      "n": 7,
+      "id": "anchor_07",
+      "label": "Bur-Sagale eclipse",
+      "scripture": null,
+      "gregorian_year": -763,
+      "tier": "Fixed",
+      "error": "0",
+      "zadok_year": 3196,
+      "core": true,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "A solar eclipse in the Assyrian eponym list, computable to the day (15 June 763 BC). It turns the eponym list into an absolute chronology, and every Assyrian-Israelite synchronism inherits its precision."
+    },
+    {
+      "n": 8,
+      "id": "anchor_08",
+      "label": "Samaria falls, Hoshea's 9th year",
+      "scripture": "2 Kings 17:6",
+      "gregorian_year": -722,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3237,
+      "core": true,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "2 Kings 17:6 and the Babylonian Chronicle credit Shalmaneser V; Sargon II claims the capture in his own inscriptions."
+    },
+    {
+      "n": 9,
+      "id": "anchor_09",
+      "label": "Sennacherib besieges Jerusalem",
+      "scripture": "2 Kings 18:13",
+      "gregorian_year": -701,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3258,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Sennacherib's Prism (Taylor Prism) and the Lachish reliefs, British Museum. Sennacherib names Hezekiah."
+    },
+    {
+      "n": 10,
+      "id": "anchor_10",
+      "label": "Carchemish; Nebuchadnezzar accedes",
+      "scripture": "Jeremiah 46:2; Daniel 1:1",
+      "gregorian_year": -605,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3354,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Babylonian Chronicle BM 21946 (ABC 5): Nebuchadnezzar defeats Egypt at Carchemish and accedes the same year."
+    },
+    {
+      "n": 11,
+      "id": "anchor_11",
+      "label": "Jehoiachin deported",
+      "scripture": "2 Kings 24:12",
+      "gregorian_year": -597,
+      "tier": "Fixed",
+      "error": "0",
+      "zadok_year": 3362,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Babylonian Chronicle ABC 5 (\"Jerusalem Chronicle\"), BM 21946: captured 2 Adar, Nebuchadnezzar's 7th year (16 March 597 BC). 2 Kings 24:12 counts it as his 8th, Jeremiah 52:28 as his 7th."
+    },
+    {
+      "n": 12,
+      "id": "anchor_12",
+      "label": "Jerusalem falls; temple burned",
+      "scripture": "2 Kings 25:8-9",
+      "gregorian_year": -586,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3373,
+      "core": true,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "587 or 586 BC. No Babylonian chronicle survives for the year, so it is argued from biblical synchronisms; this site follows Thiele's 586."
+    },
+    {
+      "n": 13,
+      "id": "anchor_13",
+      "label": "Ezekiel's temple vision",
+      "scripture": "Ezekiel 40:1",
+      "gregorian_year": -573,
+      "tier": "Anchored",
+      "error": "±1",
+      "zadok_year": 3386,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Ezekiel 40:1, the 25th year of the exile, 'at the beginning of the year'. Whether that is 10 Nisan or 10 Tishri (the Day of Atonement) is contested."
+    },
+    {
+      "n": 14,
+      "id": "anchor_14",
+      "label": "Babylon falls to Cyrus",
+      "scripture": "Daniel 5:30-31",
+      "gregorian_year": -539,
+      "tier": "Fixed",
+      "error": "0",
+      "zadok_year": 3420,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Nabonidus Chronicle: Babylon entered 16 Tishri (12 October) 539 BC."
+    },
+    {
+      "n": 15,
+      "id": "anchor_15",
+      "label": "Cyrus's decree",
+      "scripture": "Ezra 1:1; 2 Chronicles 36:22-23",
+      "gregorian_year": -538,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3421,
+      "core": true,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Cyrus Cylinder; fall of Babylon dated by the Nabonidus Chronicle (539 BC). Ezra 1:1, Cyrus's first year."
+    },
+    {
+      "n": 16,
+      "id": "anchor_16",
+      "label": "Temple foundation laid",
+      "scripture": "Ezra 3:8",
+      "gregorian_year": -536,
+      "tier": "Anchored",
+      "error": "±2",
+      "zadok_year": 3423,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors"
+    },
+    {
+      "n": 17,
+      "id": "anchor_17",
+      "label": "Work resumes, Darius's 2nd year",
+      "scripture": "Ezra 4:24; Haggai 1:1",
+      "gregorian_year": -520,
+      "tier": "Fixed",
+      "error": "0",
+      "zadok_year": 3439,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Haggai 1:1: 1 Elul in Darius's 2nd year, 29 August 520 BC."
+    },
+    {
+      "n": 18,
+      "id": "anchor_18",
+      "label": "Second temple completed",
+      "scripture": "Ezra 6:15",
+      "gregorian_year": -515,
+      "tier": "Fixed",
+      "error": "0",
+      "zadok_year": 3444,
+      "core": true,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Ezra 6:15: 3 Adar in Darius's 6th year, March 515 BC."
+    },
+    {
+      "n": 19,
+      "id": "anchor_19",
+      "label": "Ezra returns, Artaxerxes' 7th year",
+      "scripture": "Ezra 7:7-8",
+      "gregorian_year": -458,
+      "tier": "Anchored",
+      "error": "±1",
+      "zadok_year": 3501,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Artaxerxes I's 7th year (Ezra 7:7-8). A minority places Ezra under Artaxerxes II (398 BC)."
+    },
+    {
+      "n": 20,
+      "id": "anchor_20",
+      "label": "Decree to restore Jerusalem, 20th year",
+      "scripture": "Nehemiah 2:1",
+      "gregorian_year": -444,
+      "tier": "Anchored",
+      "error": "±1",
+      "zadok_year": 3515,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Elephantine papyri fix Artaxerxes I's regnal years independently. His 20th year is 445 BC on an accession-year count and 444 BC on the Tishri count that Nehemiah 1:1 (Chislev) and 2:1 (Nisan) in the same year imply; this site follows 444 (Hoehner), chosen to fit the AD 33 crucifixion -- see chronology-anchors.md entry 20."
+    },
+    {
+      "n": 21,
+      "id": "anchor_21",
+      "label": "Malachi, the last writing prophet",
+      "scripture": "Malachi 1:1",
+      "gregorian_year": -430,
+      "tier": "Bracketed",
+      "error": "460-400 BC",
+      "zadok_year": 3529,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors"
+    },
+    {
+      "n": 22,
+      "id": "anchor_22",
+      "label": "Alexander breaks Persia at Gaugamela",
+      "scripture": "Daniel 8:5-7, 20-21; 11:3",
+      "gregorian_year": -331,
+      "tier": "Fixed",
+      "error": "0",
+      "zadok_year": 3628,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Battle of Gaugamela, 1 October 331 BC. Daniel 8:20-21 names the ram as Media and Persia and the goat as Greece."
+    },
+    {
+      "n": 23,
+      "id": "anchor_23",
+      "label": "Alexander dies; the horn is broken",
+      "scripture": "Daniel 8:8, 22; 11:4",
+      "gregorian_year": -323,
+      "tier": "Fixed",
+      "error": "0",
+      "zadok_year": 3636,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Alexander dies at Babylon in June 323 BC, aged 32: the great horn broken (Daniel 8:8)."
+    },
+    {
+      "n": 24,
+      "id": "anchor_24",
+      "label": "Four kingdoms settled at Ipsus",
+      "scripture": "Daniel 8:22; 11:4",
+      "gregorian_year": -301,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3658,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Battle of Ipsus settles the four kingdoms of Alexander's successors (Daniel 8:22; 11:4)."
+    },
+    {
+      "n": 25,
+      "id": "anchor_25",
+      "label": "Antiochus III takes Judea at Panium",
+      "scripture": "Daniel 11:15-16",
+      "gregorian_year": -200,
+      "tier": "Fixed",
+      "error": "±2",
+      "zadok_year": 3759,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors"
+    },
+    {
+      "n": 26,
+      "id": "anchor_26",
+      "label": "Antiochus IV Epiphanes accedes",
+      "scripture": "Daniel 8:9, 23; 11:21",
+      "gregorian_year": -175,
+      "tier": "Fixed",
+      "error": "0",
+      "zadok_year": 3784,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors"
+    },
+    {
+      "n": 27,
+      "id": "anchor_27",
+      "label": "Onias III deposed; priesthood sold",
+      "scripture": "Daniel 11:22",
+      "gregorian_year": -171,
+      "tier": "Anchored",
+      "error": "±1",
+      "zadok_year": 3788,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors"
+    },
+    {
+      "n": 28,
+      "id": "anchor_28",
+      "label": "Temple desecrated; the abomination set up",
+      "scripture": "Daniel 11:31; 8:11-13",
+      "gregorian_year": -167,
+      "tier": "Fixed",
+      "error": "0",
+      "zadok_year": 3792,
+      "core": true,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "1 Maccabees 1:54, 59: 15 and 25 Kislev in the 145th Seleucid year (December 167 BC)."
+    },
+    {
+      "n": 29,
+      "id": "anchor_29",
+      "label": "Temple rededicated — Hanukkah",
+      "scripture": "Daniel 8:14; John 10:22",
+      "gregorian_year": -164,
+      "tier": "Fixed",
+      "error": "0",
+      "zadok_year": 3795,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "1 Maccabees 4:52-54: 25 Kislev, 148th year (December 164 BC), 'at the very season and on the very day'. The Feast of Dedication of John 10:22."
+    },
+    {
+      "n": 30,
+      "id": "anchor_30",
+      "label": "Sabbatical year — siege of Beth-zur",
+      "scripture": "1 Maccabees 6:49, 53",
+      "gregorian_year": -163,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3796,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "1 Maccabees 6:49, 53: Beth-zur surrenders for want of food in a sabbatical year."
+    },
+    {
+      "n": 31,
+      "id": "anchor_31",
+      "label": "Hasmonean independence under Simon",
+      "scripture": null,
+      "gregorian_year": -142,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3817,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors"
+    },
+    {
+      "n": 32,
+      "id": "anchor_32",
+      "label": "Sabbatical year — Antiochus VII's siege",
+      "scripture": "Josephus, *Ant.* 13.234",
+      "gregorian_year": -135,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3824,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Josephus, Antiquities 13.234: the siege eased by a sabbatical year."
+    },
+    {
+      "n": 33,
+      "id": "anchor_33",
+      "label": "Pompey takes Jerusalem; Rome rules Judea",
+      "scripture": null,
+      "gregorian_year": -63,
+      "tier": "Fixed",
+      "error": "0",
+      "zadok_year": 3896,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors"
+    },
+    {
+      "n": 34,
+      "id": "anchor_34",
+      "label": "Herod appointed king by Rome",
+      "scripture": null,
+      "gregorian_year": -40,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3919,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors"
+    },
+    {
+      "n": 35,
+      "id": "anchor_35",
+      "label": "Sabbatical year — Herod takes Jerusalem",
+      "scripture": "Josephus, *Ant.* 14.475",
+      "gregorian_year": -37,
+      "tier": "Fixed",
+      "error": "±1",
+      "zadok_year": 3922,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Josephus, Antiquities 14.475: Herod takes Jerusalem in a sabbatical year."
+    },
+    {
+      "n": 36,
+      "id": "anchor_36",
+      "label": "Herod begins the temple",
+      "scripture": "Josephus, *Ant.* 15.380",
+      "gregorian_year": -20,
+      "tier": "Bracketed",
+      "error": "20-16 BC",
+      "zadok_year": 3939,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors"
+    },
+    {
+      "n": 37,
+      "id": "anchor_37",
+      "label": "Nativity",
+      "scripture": "Matthew 2:1; Luke 2",
+      "gregorian_year": -5,
+      "tier": "Bracketed",
+      "error": "6-4 BC",
+      "zadok_year": 3954,
+      "core": true,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Matthew 2:1 and 2:16 against Herod's death; Luke 3:23 pulls later. The bracket holds both."
+    },
+    {
+      "n": 38,
+      "id": "anchor_38",
+      "label": "Herod dies",
+      "scripture": "Josephus",
+      "gregorian_year": -4,
+      "tier": "Anchored",
+      "error": "±1",
+      "zadok_year": 3955,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Josephus's eclipse and Passover markers for Herod's death; 4 BC is the majority view, and a minority argues for 1 BC."
+    },
+    {
+      "n": 39,
+      "id": "anchor_39",
+      "label": "Temple \"forty-six years\" Passover",
+      "scripture": "John 2:20",
+      "gregorian_year": 28,
+      "tier": "Bracketed",
+      "error": "AD 27-30",
+      "zadok_year": 3986,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "John 2:20's 'forty-six years', counted from Herod's start (20/19 BC) or from the sanctuary's completion (18/17 BC)."
+    },
+    {
+      "n": 40,
+      "id": "anchor_40",
+      "label": "John's ministry begins",
+      "scripture": "Luke 3:1-2",
+      "gregorian_year": 29,
+      "tier": "Anchored",
+      "error": "±1",
+      "zadok_year": 3987,
+      "core": false,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Luke 3:1-2: the fifteenth year of Tiberius, August AD 28 to August AD 29 counted from his accession in AD 14."
+    },
+    {
+      "n": 41,
+      "id": "anchor_41",
+      "label": "Crucifixion and Resurrection",
+      "scripture": "the Gospels",
+      "gregorian_year": 33,
+      "tier": "Anchored",
+      "error": "0",
+      "zadok_year": 3991,
+      "core": true,
+      "study_ref": "last-things/chronology-anchors",
+      "evidence": "Friday 3 April AD 33, this site's date. Only two Fridays in Pilate's prefecture carry Nisan 14 -- 7 April AD 30 and 3 April AD 33 -- and the year rests on Luke 3:1 read naturally, supported by Sejanus and by Daniel 9, which excludes AD 30 on either reckoning of the decree. AD 30 stays defensible if Tiberius's fifteenth year is counted from AD 13."
+    }
+  ],
+  "genesis_markers_note": "Placed by Anno Mundi on the Masoretic chain, so their Gregorian year follows the epoch (creation 3959 BC). Derived from docs/data/genealogy/generated/mt.json and the Genesis intervals shown.",
+  "genesis_markers": [
+    {
+      "id": "creation",
+      "am_year": 0,
+      "label": "Creation",
+      "scripture": "Genesis 1:1",
+      "core": true,
+      "note": "AM 0 on the Masoretic chain.",
+      "study_ref": "last-things/combined-timeline"
+    },
+    {
+      "id": "adam_dies",
+      "am_year": 930,
+      "label": "Adam dies",
+      "scripture": "Genesis 5:5",
+      "core": false,
+      "note": "930 years old, inside the first thousand-year day.",
+      "study_ref": "last-things/combined-timeline"
+    },
+    {
+      "id": "enoch_taken",
+      "am_year": 987,
+      "label": "Enoch taken",
+      "scripture": "Genesis 5:23-24",
+      "core": false,
+      "note": "Born AM 622, taken at 365.",
+      "study_ref": "last-things/combined-timeline"
+    },
+    {
+      "id": "flood",
+      "am_year": 1656,
+      "label": "The Flood",
+      "scripture": "Genesis 7:11",
+      "core": true,
+      "note": "Noah's 600th year.",
+      "study_ref": "last-things/combined-timeline"
+    },
+    {
+      "id": "babel",
+      "am_year": 1757,
+      "label": "Babel: the earth divided in Peleg's days",
+      "scripture": "Genesis 10:25; 11:1-9",
+      "core": false,
+      "note": "Genesis gives only 'in his days'; Peleg lived AM 1757-1996. The population study models the dispersion about 200 years after the Flood.",
+      "study_ref": "last-things/combined-timeline",
+      "am_end": 1996
+    },
+    {
+      "id": "abram_born",
+      "am_year": 2008,
+      "label": "Abram born",
+      "scripture": "Genesis 11:26, 32; 12:4; Acts 7:4",
+      "core": false,
+      "note": "Terah 130 at Abram's birth, which Acts 7:4 requires on the Masoretic 205.",
+      "study_ref": "last-things/combined-timeline"
+    },
+    {
+      "id": "abram_called",
+      "am_year": 2083,
+      "label": "Abram's call, leaving Haran",
+      "scripture": "Genesis 12:1-4",
+      "core": true,
+      "note": "Abram 75; the 430 years of Galatians 3:17 run from here to the Exodus.",
+      "study_ref": "last-things/combined-timeline"
+    },
+    {
+      "id": "isaac_born",
+      "am_year": 2108,
+      "label": "Isaac born",
+      "scripture": "Genesis 21:5",
+      "core": false,
+      "note": "Abraham 100.",
+      "study_ref": "last-things/combined-timeline"
+    },
+    {
+      "id": "jacob_to_egypt",
+      "am_year": 2298,
+      "label": "Jacob goes down to Egypt",
+      "scripture": "Genesis 47:9",
+      "core": false,
+      "note": "Jacob 130 (born AM 2168, Isaac 60, Genesis 25:26); 215 years before the Exodus.",
+      "study_ref": "last-things/combined-timeline"
+    },
+    {
+      "id": "conquest",
+      "am_year": 2553,
+      "label": "Israel crosses the Jordan",
+      "scripture": "Joshua 4:19; Numbers 14:33-34",
+      "core": false,
+      "note": "Forty years after the Exodus.",
+      "study_ref": "last-things/combined-timeline"
+    }
+  ],
+  "future_sequence": {
+    "note": "UNDATED. Scripture gives the lengths (Daniel 9:27; Revelation 11-13; Daniel 12:11-12; Revelation 20) and withholds the start (Mark 13:32; Acts 1:7), so the axis counts years of 360 days from the covenant of Daniel 9:27 and carries no Gregorian or Anno Mundi date. The order follows this site's studies: The Rapture of the Church (the sequence diagram), Immediately After, Two Witnesses, The Trumpet Call of God and The Restrainer. certainty: 'stated' = the text gives it; 'site-reading' = this site's pretribulational, dispensational reading; 'contested' = where it falls is not stated and readings differ.",
+    "events": [
+      {
+        "id": "rapture",
+        "track": "church",
+        "at": -0.5,
+        "label": "The rapture",
+        "refs": "1 Thessalonians 4:16-17; 1 Corinthians 15:51-53",
+        "certainty": "site-reading",
+        "study_ref": "last-things/rapture",
+        "note": "Before the week begins, on this site's pretribulational reading. Scripture gives no interval between the rapture and the covenant, so its place on this axis is schematic."
+      },
+      {
+        "id": "bema",
+        "track": "church",
+        "at": -0.5,
+        "end": 7,
+        "label": "The Bema: believers' works assessed",
+        "refs": "2 Corinthians 5:10; 1 Corinthians 3:11-15",
+        "certainty": "site-reading",
+        "study_ref": "last-things/rapture",
+        "note": "In heaven while the week runs on earth (the parallel track in The Rapture of the Church)."
+      },
+      {
+        "id": "marriage_of_lamb",
+        "track": "church",
+        "at": 6.9,
+        "label": "The marriage of the Lamb",
+        "refs": "Revelation 19:7-9",
+        "certainty": "stated",
+        "study_ref": "last-things/rapture",
+        "note": "Announced in Revelation 19:7-9, immediately before the rider on the white horse (19:11)."
+      },
+      {
+        "id": "covenant",
+        "track": "earth",
+        "at": 0,
+        "label": "Covenant confirmed: the seventieth week begins",
+        "refs": "Daniel 9:27",
+        "certainty": "stated",
+        "study_ref": "last-things/immediately-after",
+        "note": "'He shall make a strong covenant with many for one week' -- seven years of 360 days. This is day 0 of the axis."
+      },
+      {
+        "id": "judgments",
+        "track": "earth",
+        "at": 0,
+        "end": 7,
+        "label": "Seals, trumpets and bowls",
+        "refs": "Revelation 6; 8-9; 11:15-19; 16",
+        "certainty": "contested",
+        "study_ref": "last-things/trumpet",
+        "note": "Revelation gives the order of the three cycles; where each falls within the seven years is not stated, and readings differ. Shown across the whole week for that reason."
+      },
+      {
+        "id": "two_witnesses",
+        "track": "earth",
+        "at": 0,
+        "end": 7,
+        "label": "The two witnesses, 1,260 days",
+        "refs": "Revelation 11:3-13",
+        "certainty": "contested",
+        "study_ref": "last-things/two-witnesses",
+        "note": "1,260 days, in either the first or the second half of the week. Scripture does not say which, and both are held."
+      },
+      {
+        "id": "abomination",
+        "track": "earth",
+        "at": 3.5,
+        "label": "Midpoint: the abomination of desolation",
+        "refs": "Daniel 9:27; Matthew 24:15; 2 Thessalonians 2:4",
+        "certainty": "stated",
+        "study_ref": "last-things/the-restrainer",
+        "note": "'For half of the week he shall put an end to sacrifice and offering' (Daniel 9:27). Day 1,260."
+      },
+      {
+        "id": "great_tribulation",
+        "track": "earth",
+        "at": 3.5,
+        "end": 7,
+        "label": "Great tribulation: the beast's 42 months",
+        "refs": "Matthew 24:21-22; Revelation 13:5; 11:2; 12:6, 14",
+        "certainty": "site-reading",
+        "study_ref": "last-things/immediately-after",
+        "note": "42 months = 1,260 days = 'a time, and times, and half a time', read as the second half of the week."
+      },
+      {
+        "id": "second_coming",
+        "track": "earth",
+        "at": 7,
+        "label": "The second coming",
+        "refs": "Matthew 24:29-31; Revelation 19:11-16",
+        "certainty": "stated",
+        "study_ref": "last-things/immediately-after",
+        "note": "'Immediately after the tribulation of those days' (Matthew 24:29). The Church returns with Him (Revelation 19:14; Colossians 3:4). Armageddon and the beast's end follow (Revelation 16:16; 19:19-20)."
+      },
+      {
+        "id": "days_1290",
+        "track": "earth",
+        "at": 7.0833,
+        "label": "1,290 days from the abomination",
+        "refs": "Daniel 12:11",
+        "certainty": "contested",
+        "study_ref": "last-things/olivet-discourse",
+        "note": "Thirty days past the week's end. What the extra thirty days mark is not stated; readings include the cleansing of the temple and the judgment of the nations."
+      },
+      {
+        "id": "days_1335",
+        "track": "earth",
+        "at": 7.2083,
+        "label": "1,335 days: \"Blessed is he who waits\"",
+        "refs": "Daniel 12:12",
+        "certainty": "contested",
+        "study_ref": "last-things/olivet-discourse",
+        "note": "Seventy-five days past the week's end; its content is not stated."
+      },
+      {
+        "id": "millennium",
+        "track": "earth",
+        "at": 7,
+        "end": 1007,
+        "label": "The millennium: Christ reigns, Satan bound",
+        "refs": "Revelation 20:1-6",
+        "certainty": "stated",
+        "study_ref": "last-things/day-is-near",
+        "note": "'A thousand years', named six times in Revelation 20:2-7."
+      },
+      {
+        "id": "satan_released",
+        "track": "earth",
+        "at": 1007,
+        "label": "Satan released for a little while",
+        "refs": "Revelation 20:3, 7-10",
+        "certainty": "stated",
+        "study_ref": "last-things/day-is-near",
+        "note": "After the thousand years; the length of 'a little while' is not given."
+      },
+      {
+        "id": "great_white_throne",
+        "track": "earth",
+        "at": 1007.2,
+        "label": "The Great White Throne",
+        "refs": "Revelation 20:11-15",
+        "certainty": "stated",
+        "study_ref": "last-things/rapture",
+        "note": "The dead judged by what they had done."
+      },
+      {
+        "id": "new_creation",
+        "track": "earth",
+        "at": 1007.4,
+        "label": "New heaven and new earth",
+        "refs": "Revelation 21:1-4",
+        "certainty": "stated",
+        "study_ref": "last-things/rapture",
+        "note": "God dwells with His people; the eternal state."
+      }
+    ]
+  }
 }

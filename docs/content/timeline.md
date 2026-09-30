@@ -26,6 +26,12 @@ AD 2042. Archaeology (Qarqar, Sennacherib, Cyrus and others) fixes the Gregorian
 Solomon independently of the genealogies. [Chronology Anchors](last-things/chronology-anchors.md)
 sets out what can be dated and how tightly, and why the site anchors where it does.
 
+Pick a period to zoom in (from Creation to the Flood down to the years Jesus was on earth) or type
+any range of years, and the list under the chart shows every event in view. The address bar keeps
+the period (for example `/timeline/#christ`), so a view can be shared. Two further periods,
+Daniel's seventieth week and the millennium, are drawn on their own undated axis: Scripture gives
+their lengths and their order, and keeps their start hidden.
+
 The Septuagint, the Samaritan Pentateuch and dsscalendar.org's epoch reckon differently, and can be
 switched on below for comparison. [Genealogy and Times](last-things/genealogy-times.md) and [The
 Flood and the King Lists](god/flood-and-the-king-lists.md) give the reasons the site follows the
