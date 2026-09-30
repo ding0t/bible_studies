@@ -8,7 +8,8 @@ primary_passage: "1 Kings 6:1"
 bible_references: ["Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:3-15", "1 Chronicles 6:50-53", "Ezra 7:1-5", "Ruth 4:18-22", "Acts 13:19-21"]
 date_created: 2026-09-30
 date_modified: 2026-09-30
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Four Hundred and Eighty Years: From the Exodus to Solomon's Temple
