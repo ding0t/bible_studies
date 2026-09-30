@@ -1,0 +1,149 @@
+# Fasting -- written 2026-01-24 with Sonnet 4.5 before the develop-bible-study skill existed, never
+# reviewed until 2026-10-01. No research trail exists for its original drafting; the stages below
+# record only what the 2026-10-01 review and rewrite actually did.
+# Backlog: "Fix the fasting study -- When to fast 'Break spiritual strongholds' is reading like
+# deliverance ministry -- needs a rewrite" (Priority 2); also listed under "commonly misquoted
+# scripture".
+
+slug: "fasting"
+title: "Fasting"
+status: published
+target_path: "docs/content/christian-life/fasting.md"
+
+primary_passage: "Matthew 6:16-18"
+supporting_passages: ["Leviticus 16:29-31", "Isaiah 58:1-12", "Psalm 35:13", "Ezra 8:21-23",
+  "1 Kings 21:27-29", "Daniel 10:2-14", "Joel 2:12-13", "Jonah 3:5-10", "2 Samuel 12:16-23",
+  "Matthew 4:1-4", "Deuteronomy 8:2-3", "Matthew 9:14-15", "Acts 13:1-3", "Acts 14:23",
+  "Mark 9:14-29", "Matthew 17:14-21", "2 Corinthians 10:3-5", "Zechariah 7:5", "Zechariah 8:19"]
+genre: [topical, law, prophets, gospel, acts]
+
+thesis: >-
+  Fasting is humbling yourself before God, going without food to seek Him in repentance, grief,
+  need and decision; it has no power of its own, because God hears the humble out of His own mercy,
+  and Christians fast in the days while Jesus, the Bridegroom, is away.
+outline:
+  - section: "What the words mean"
+    says: "tsum/tsom (21/26x); the Law's own term is anah + nefesh 'afflict/humble yourselves' (Lev 16:29), paralleled with fasting at Isa 58:3, Ps 35:13, Ezra 8:21, and God/angel naming fasts as humbling (1 Kgs 21:29; Dan 10:12). nesteuo 20x, nesteia 5x; 'the Fast' = Day of Atonement (Acts 27:9)."
+  - section: "Fasting in the Old Testament"
+    says: "One commanded fast (Lev 16). Occasions: repentance, grief, need, intercession, direction (Judg 20:26-28), meeting with God. Elijah's 40 days not called a fast. 'Who knows?' (2 Sam 12:22; Jonah 3:9): God is free and hears out of mercy (Joel 2:13)."
+  - section: "The fast God chooses"
+    says: "Isa 58:3-9: fasting while oppressing workers refused; the chosen fast frees the oppressed. Zech 7:5; Jer 14:10-12; m. Yoma 8:9."
+  - section: "Jesus and fasting"
+    says: "Matt 4:1-4 recapitulates Deut 8:2-3; the Word answered the devil, the fast showed dependence. Matt 6:16-18 in secret; Luke 18:12 the Pharisee. Matt 9:15 bridegroom (mourn/fast)."
+  - section: "Fasting in the church"
+    says: "Acts 13:2-3; 14:23 fasting before decisions/commissioning; Anna (Luke 2:37); Didache 1.3, 7.4, 8.1. Church Age: no commanded fast, Heb 9:12; bridegroom absent; Zech 8:19 dispensational reading marked against the general one."
+  - section: "Verses often misused about fasting"
+    says: "Mark 9:29 / Matt 17:21 variants (NA28/SBLGNT/Tisch vs Byz/TR), same addition at Acts 10:30 and 1 Cor 7:5; context = faith (Mark 9:19-24; Matt 17:20). Isa 58:6 yokes are social oppression. 2 Cor 10:4 ochyroma = arguments (10:5), hapax. Dan 10: heard on day one; text never links fast to the heavenly conflict. NT resisting the devil: James 4:7-10; 1 Pet 5:9."
+  - section: "Practical application"
+    says: "Cultural vs lasting; When to fast (seven occasions, each with texts); How to fast (Daniel fast correction, Dan 1:12 vs 10:3); cautions."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "christian-life/ (practical theology), category spiritual-disciplines like humility.md. Deliverance material kept to the misuse section, with a link to spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md rather than argued here."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Day of Atonement (Lev 16:29-31; 23:27-32); exilic fasts of 4th/5th/7th/10th months (ESVSB on Zech 8:19); Pharisaic Mon/Thu fasts (NIV CBSB on Luke 18:12; m. Ta'anit 1:6; Didache 8.1); Yom Kippur prohibitions m. Yoma 8:1 (Kulp, CC-BY). Isaiah 58 left undated in the prose (authorship/date contested; not needed for the argument)."
+    literary_context:
+      done: true
+      notes: "Mark 9:14-29 read whole (9:19 faithless generation, 9:23-24 belief, 9:25 rebuke, 9:28-29); Matt 17:19-20 little faith; 2 Cor 10:1-11 Paul vs opponents (ESVSB); Dan 10:2-14 and 10:20; Isa 58:1-9 whole unit; Deut 8:2-3 behind Matt 4:4."
+    content_word_studies:
+      done: true
+      notes: "Counts from macula-hebrew-wlc / macula-greek-sblgnt; TWOT via twot_lookup."
+      terms:
+        - {word: "צוּם", language: hebrew, transliteration: "tsum", strongs_id: "H6684", gloss: "to fast", notes: "21x; TWOT 1890 'abstain from food'. The old draft's 'to cover the mouth' has no lexical support and was removed."}
+        - {word: "צוֹם", language: hebrew, transliteration: "tsom", strongs_id: "H6685", gloss: "a fast", notes: "26x. Old draft's 'over 50 times' was wrong (21+26 = 47)."}
+        - {word: "עָנָה + נֶפֶשׁ", language: hebrew, transliteration: "anah nefesh", strongs_id: "H6031 + H5315", gloss: "afflict/humble oneself", notes: "Lev 16:29, 31; Isa 58:3, 5; Ps 35:13; hitpael of anah at Ezra 8:21 and Dan 10:12."}
+        - {word: "νηστεύω", language: greek, transliteration: "nēsteuō", strongs_id: "G3522", gloss: "to fast", notes: "20x SBLGNT."}
+        - {word: "νηστεία", language: greek, transliteration: "nēsteia", strongs_id: "G3521", gloss: "fasting", notes: "5x SBLGNT: Luke 2:37; Acts 14:23; 27:9; 2 Cor 6:5; 11:27. ESV renders 2 Cor 6:5 'hunger', 11:27 'often without food' -- involuntary hardship likely."}
+        - {word: "ὀχύρωμα", language: greek, transliteration: "ochyrōma", strongs_id: "G3794", gloss: "stronghold", notes: "1x NT (2 Cor 10:4); 10:5 defines as arguments and lofty opinions."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Cultural: sackcloth/ashes, set weekdays, Yom Kippur halakhah. Lasting: humbling before God, repentance, secrecy, neighbour-love in the same act (Isa 58), trusting God's mercy for the outcome."
+    theological_principle:
+      done: true
+      notes: "God hears the humble out of His own compassion (Joel 2:13; 1 Kgs 21:29; Dan 10:12); fasting has no leverage (2 Sam 12:22; Jonah 3:9). Church-age fasting answers to the Bridegroom's absence (Matt 9:15)."
+  statement_of_faith:
+    done: true
+    notes: "Consistent with Justification (fasting not meritorious) and Reward for the believer (Matt 6:18 reward before the Father). The statement's Sanctification note -- discernment grows from knowing Christ more than from a study of counterfeits -- is why the misuse section argues each verse from its own context rather than cataloguing deliverance teaching. No conflict found."
+
+evidence:
+  - {id: tsum-21, what: "tsum 21x", tool: bible_concordance, args: {strongs: H6684, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "\"count\": 21", checked: 2026-10-01}
+  - {id: tsom-26, what: "tsom 26x", tool: bible_concordance, args: {strongs: H6685, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "\"count\": 26", checked: 2026-10-01}
+  - {id: nesteuo-20, what: "nesteuo 20x", tool: bible_concordance, args: {strongs: G3522, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 20", checked: 2026-10-01}
+  - {id: nesteia-5, what: "nesteia 5x", tool: bible_concordance, args: {strongs: G3521, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 5", checked: 2026-10-01}
+  - {id: ochyroma-1, what: "ochyroma once in NT", tool: bible_concordance, args: {strongs: G3794, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 1", checked: 2026-10-01}
+  - {id: twot-tsum, what: "TWOT 1890 abstain from food", tool: twot_strongs, args: {strongs_id: H6684}, expect_contains: "1890", checked: 2026-10-01}
+  - {id: mk9-29-esv, what: "ESV Mark 9:29 prayer alone", tool: study_verse, args: {book: Mark, chapter: 9, verse: 29, work_id: esv-study-bible}, expect_contains: "cannot be driven out by anything but prayer.", checked: 2026-10-01}
+  - {id: mk9-29-fn, what: "CSB/NLT footnote the fasting addition", tool: study_note, args: {book: Mark, chapter: 9, verse: 29, note_type: footnote}, expect_contains: "fasting", checked: 2026-10-01}
+  - {id: mt17-21-lsb, what: "LSB: early mss omit Matt 17:21", tool: study_note, args: {book: Matt, chapter: 17, verse: 21, note_type: footnote}, expect_contains: "Early mss omit this v", checked: 2026-10-01}
+  - {id: lev16-29-esv, what: "afflict yourselves", tool: study_verse, args: {book: Lev, chapter: 16, verse: 29, work_id: esv-study-bible}, expect_contains: "you shall afflict yourselves and shall do no work", checked: 2026-10-01}
+  - {id: isa58-3-esv, what: "hook quote", tool: study_verse, args: {book: Isa, chapter: 58, verse: 3, work_id: esv-study-bible}, expect_contains: "Why have we fasted, and you see it not?", checked: 2026-10-01}
+  - {id: dan10-12-esv, what: "humbled yourself, heard from the first day", tool: study_verse, args: {book: Dan, chapter: 10, verse: 12, work_id: esv-study-bible}, expect_contains: "from the first day that you set your heart to understand and humbled yourself before your God", checked: 2026-10-01}
+  - {id: 1k21-29-esv, what: "Ahab humbled himself", tool: study_verse, args: {book: 1Kgs, chapter: 21, verse: 29, work_id: esv-study-bible}, expect_contains: "Have you seen how Ahab has humbled himself before me?", checked: 2026-10-01}
+  - {id: 2co10-5-esv, what: "strongholds = arguments", tool: study_verse, args: {book: 2Cor, chapter: 10, verse: 5, work_id: esv-study-bible}, expect_contains: "We destroy arguments and every lofty opinion", checked: 2026-10-01}
+  - {id: joel2-12-esv, what: "memory verse wording (old draft misquoted)", tool: study_verse, args: {book: Joel, chapter: 2, verse: 12, work_id: esv-study-bible}, expect_contains: "with fasting, with weeping, and with mourning", checked: 2026-10-01}
+  - {id: acts27-9-esvsb, what: "the Fast = Day of Atonement", tool: study_note, args: {book: Acts, chapter: 27, verse: 9, work_id: esv-study-bible}, expect_contains: "The Fast refers to the Day of Atonement", checked: 2026-10-01}
+
+review_2026-10-01:
+  reviewer: "anthropic/claude-opus-5.5 (review-bible-study), at the author's direction via the backlog item"
+  checked: >-
+    Every quotation re-queried against study-notes.db (ESV, NIV, LSB, CSB, NLT) or bible-text.db
+    (KJV, SBLGNT, Tischendorf, Byzantine 2013, TR); Mark 9:29, Matt 17:21, Acts 10:30, 1 Cor 7:5
+    across the Greek texts; concordance counts for tsum, tsom, nesteuo, nesteia, ochyroma; TWOT;
+    translator footnotes for Mark 9:29, Matt 9:15, 17:20-21, Acts 10:30; commentary cross-check
+    (ESVSB, NIV BTSB, NIV CBSB); Mishnah via sefaria.py (Kulp CC-BY); Didache Greek from
+    $BIBLE_MEDIA_ROOT patristics; style guide; statement of faith; validator.
+  findings_fixed:
+    critical:
+      - "Joel 2:12-13 and Zechariah 7:5 quoted without a translation label, and neither matched the ESV (Joel: 'with fasting, weeping, and mourning ... rend your heart'; Zech: 'was it actually for Me')."
+      - "Leviticus 16:29 'deny yourselves' is the NIV's rendering, presented in a paragraph that otherwise followed the ESV; the Hebrew gloss is now given with both."
+      - "tsum glossed 'to cover the mouth' -- no lexical support (TWOT 1890 'abstain from food')."
+      - "'Spiritual warfare' given as a Church Age purpose of fasting on the strength of the Mark 9:29 variant, and 'Break spiritual strongholds' listed in When to Fast; Jesus' wilderness fast said to 'prepare Him for spiritual warfare'. No text teaches either (author's backlog item). Rewritten."
+    moderate:
+      - "'over 50 times' for tsum: verb 21 + noun 26 = 47."
+      - "Ezra 8:21-23 cited for 'seeking guidance for decisions'; the text is a fast for a safe journey. Guidance now rests on Judges 20:26-28 and Acts 13:2-3; 14:23."
+      - "Zechariah 8:19 listed under 'questioning motives'; it promises fasts turned to feasts."
+      - "Elijah's 'fast' (1 Kings 19:8): the text says he went in the strength of the angel's food."
+      - "'Daniel fast - vegetables and water' conflated Daniel 1:12 (not a fast) with Daniel 10:3."
+      - "2 Corinthians 6:5 and 11:27 presented as Paul's fasting; ESV renders 'hunger' / 'often without food' in a hardship list."
+      - "Jewish practice paragraph (sunrise-to-sunset, 25-hour fast, synagogue services) unsourced; replaced with m. Yoma 8:1, m. Ta'anit 1:6, Didache 8.1, NIV CBSB on Luke 18:12."
+      - "No primary_passage / bible_references: study was invisible to commentary_index.py and review_gaps."
+      - "Context coverage: cultural-vs-transcultural never drawn; no hook, no Key Takeaways, no discussion questions, no prayer; outline-shaped bullets throughout."
+    minor:
+      - "Tags: 'communion' collides with its Lord's Supper use in last-supper-four-cups.md; 'devotion' used nowhere else; 'faith' dropped. Now fasting, prayer, humility, repentance, book tags, method/lang facets."
+      - "Description 'Understanding fasting' said nothing."
+  commentary_cross_check:
+    - "Isaiah 58:3-12 central claim (fasting as leverage refused; true fast = justice): NIV BTSB confirms ('self-affliction in order to get favors from God')."
+    - "Mark 9:29 (the failure is about the disciples' relationship to Jesus; prayer realigns): NIV BTSB and ESVSB confirm; neither mentions fasting."
+    - "Leviticus 16:29 afflict = self-denial connected with fasting (Ps 35:13; Isa 58:3; Ezra 8:21): ESVSB confirms -- same three texts the study uses."
+    - "Zechariah 8:19 dispensational (future, Judah) reading: ESVSB silent on timing ('the days ahead'); both readings marked in the prose."
+  review_gaps: "Not runnable before the fix (no frontmatter passages); frontmatter now added."
+  cross_study: "humility.md (Colossians 2:18 fasting as false humility) consistent and linked. No sibling treats Mark 9:29."
+  size: "Check 23 count 1,251 before, 3,905 after, budget 4,000."
+  left_for_author:
+    - "Zechariah 8:19 is given a dispensational reading marked as one reading among two; confirm you want it stated that way."
+    - "The misuse section is the site's first worked 'commonly misquoted scripture' entry for fasting; the backlog list may want to link to #verses-often-misused-about-fasting."
+    - "christian-life/index.md card still shows the old description; run references/build/section_index.py to refresh."
+    - "Provenance fields not refreshed (run utils/refresh_frontmatter_provenance.py before committing)."
+    - "Human-review tells (essay register in Key Takeaways/prayer, writing around the theology) need the author's read."
+
+read_2026-10-01:
+  reader: "anthropic/claude-opus-5.5 (read-bible-study), separate session from the review rewrite"
+  baseline: "working-tree snapshot taken after the review rewrite (HEAD is the pre-rewrite file)"
+  measurements: "sections 36 -> 39; median 93 -> 93 words; longest 316 -> 240; over 400: 0 -> 0; walls 0 -> 0"
+  prose_identity: >-
+    No body sentence changed. The only diff lines are the Study outline's 'Fasting in the church'
+    bullet, updated to name the two new sub-sections (its wrapped continuation line registers in
+    study_structure.py's check as prose; the bullet itself is the pass's permitted outline edit).
+  changes:
+    - "Mark 9:29 section (316 words) split at its turn from textual evidence to the story: new '### Mark 9:14-29 in context: the disciples' little faith', so the conclusion a skimming reader wants is not buried under the manuscript discussion."
+    - "'Antioch and the elders' held Anna and the Didache under a heading that named neither: new '### Anna and the *Didache*'."
+    - "'In the Church Age' held the contested Zechariah 8:19 reading (dispensational vs general) inside a 205-word run: new '### Zechariah 8:19: Judah's fasts turned to feasts' so the marked-contested reading is findable."
+  left_alone: "'The fast God chooses' (216 words, Isaiah 58 then Zechariah/Jeremiah/Mishnah) reads cleanly as one unit; its anchor is linked from the Isaiah 58:6 misuse section."
+  validate: "npm run validate: no fasting.md warnings"
+  verifies_nothing: "Structure only; accuracy rests on review_2026-10-01 above."

@@ -29,7 +29,7 @@ Prayer, fasting, and the disciplines of walking with Christ.
 
     ---
 
-    Understanding fasting
+    Fasting in Scripture is humbling yourself before God: going without food to seek Him in repentance, grief, need and decision, while the Bridegroom is away. What the Bible shows fasting doing, what it never promises, and the verses most often misused about it.
 
     [:octicons-arrow-right-24: Read](fasting.md)
 

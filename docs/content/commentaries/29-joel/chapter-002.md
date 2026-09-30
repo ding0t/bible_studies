@@ -14,6 +14,7 @@ draft: false
 
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 2:32
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 2:28-29
+- [Fasting](../../christian-life/fasting.md) — 2:12-13
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 2:1
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:31
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 2:30-31

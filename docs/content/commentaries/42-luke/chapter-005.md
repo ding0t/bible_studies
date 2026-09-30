@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Fasting](../../christian-life/fasting.md) — 5:33-35
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 5:27-32
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 5:16
 - [Simon Peter](../../biblical-figures/peter.md) — 5:1-11

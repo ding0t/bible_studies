@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 34:6
+- [Fasting](../../christian-life/fasting.md) — 34:28
 - [Know the Truth](../../christian-life/know-the-truth.md) — 34:6
 <!-- commentary-index:auto-end -->

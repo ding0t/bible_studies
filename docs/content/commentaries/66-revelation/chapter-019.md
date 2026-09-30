@@ -17,6 +17,7 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 19:6-9
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 19:11-16
 - [Charting End Times](../../last-things/prophecy-chart.md) — 19:7-9
+- [Fasting](../../christian-life/fasting.md) — 19:7-9
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 19:11-16
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 19:11-16
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 19:7-8

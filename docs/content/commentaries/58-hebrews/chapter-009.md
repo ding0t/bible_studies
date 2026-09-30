@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 9:15
+- [Fasting](../../christian-life/fasting.md) — 9:11-12
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 9:11-28
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 9:4-7
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 9:14

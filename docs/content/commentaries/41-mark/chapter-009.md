@@ -14,6 +14,7 @@ draft: false
 
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 9:17-27
 - [Faith](../../salvation/faith.md) — 9:22-24
+- [Fasting](../../christian-life/fasting.md) — 9:14-29
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 9:2-8
 - [John son of Zebedee](../../biblical-figures/john.md) — 9:2-8
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 9:31

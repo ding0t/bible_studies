@@ -15,5 +15,6 @@ draft: false
 - [Chapter 7](chapter-007.md) — 1 study(ies)
 - [Chapter 14](chapter-014.md) — 1 study(ies)
 - [Chapter 17](chapter-017.md) — 1 study(ies)
+- [Chapter 20](chapter-020.md) — 1 study(ies)
 - [Chapter 21](chapter-021.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

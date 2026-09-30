@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Fasting](../../christian-life/fasting.md) — 16:29-31
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 16:2
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 16:12-13
 <!-- commentary-index:auto-end -->

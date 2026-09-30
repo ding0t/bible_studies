@@ -13,7 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 6:1 (primary passage)
-- [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 6:1
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 6:23-28
 - [The Combined Timeline: One Line, Two Zones](../../last-things/combined-timeline.md) — 6:1
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 6:20-22
