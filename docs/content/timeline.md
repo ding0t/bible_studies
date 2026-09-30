@@ -7,7 +7,7 @@ draft: false
 hide:
   - toc
 date_created: 2026-08-24
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -16,20 +16,21 @@ ai_provider_models:
 # The Millennial Week
 
 A day is as a thousand years ([2 Peter 3:8](last-things/day-is-a-thousand-years.md)): from creation
-to the millennial reign, laid out across seven thousand-year "days" — with the genealogy,
-archaeology, and prophecy that fill them shown as comparable paths, not a single settled timeline.
+to the millennial reign, laid out across seven thousand-year "days", with the genealogy,
+archaeology and prophecy that fill them.
 
-The horizontal axis is **Anno Mundi**, years since creation. Genesis 5 and 11's genealogies survive
-in three manuscript traditions — Masoretic Text, Septuagint, Samaritan Pentateuch — that disagree on
-how many of those years separate creation from the Flood and from Abraham's father Terah; this
-site follows the Masoretic path. Archaeology (Qarqar, Sennacherib,
-Cyrus, and others) fixes real Gregorian years independent of any of that. And the millennial-week
-framework itself implies a third, slightly later creation epoch again.
+The horizontal axis is **Anno Mundi**, years since creation, on this site's one chronology line:
+the Masoretic numbers of Genesis 5 and 11, pinned to the Gregorian calendar by an Exodus in 1446 BC,
+which puts creation at 3959 BC, the Flood at 2303 BC, the cross at AM 3991 and the year 6000 at
+AD 2042. Archaeology (Qarqar, Sennacherib, Cyrus and others) fixes the Gregorian years below
+Solomon independently of the genealogies. [Chronology Anchors](last-things/chronology-anchors.md)
+sets out what can be dated and how tightly, and why the site anchors where it does.
 
-Toggle the paths and epochs below to see them diverge and converge on the same axis, rather than
-picking one number and hiding the disagreement. [Chronology Anchors](last-things/chronology-anchors.md)
-sets out what can be dated independently and how tightly, and
-[Genealogy and Times](last-things/genealogy-times.md) works through the manuscript traditions.
+The Septuagint, the Samaritan Pentateuch and dsscalendar.org's epoch reckon differently, and can be
+switched on below for comparison. [Genealogy and Times](last-things/genealogy-times.md) and [The
+Flood and the King Lists](god/flood-and-the-king-lists.md) give the reasons the site follows the
+Masoretic numbers. The year 6000 is where the arithmetic lands, not a date for Christ's return:
+He kept the day and hour hidden (Mark 13:32).
 
 <div id="timeline-root" markdown="0"></div>
 

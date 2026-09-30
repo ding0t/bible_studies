@@ -181,20 +181,24 @@ The ages by the Zadok calendar, in thousand-year days from creation (AM).
 
 ```mermaid
 flowchart TD
-    A["Days 1-2 · AM 0-2000<br/>Creation"] --> B["Days 3-4 · AM 2000-4000<br/>AD 33 crucifixion<br/>AD 75 — AM 4000"]
-    B --> C["Days 5-6 · AM 4000-6000<br/>AD 2025, where we are"]
-    C --> D["Day 7 · AM 6000-7000<br/>AD 2075 — AM 6000"]
+    A["Days 1-2 · AM 0-2000<br/>Creation, 3959 BC"] --> B["Days 3-4 · AM 2000-4000<br/>AD 33 crucifixion, AM 3991<br/>AD 42 — AM 4000"]
+    B --> C["Days 5-6 · AM 4000-6000<br/>AD 2026, AM 5984, where we are"]
+    C --> D["Day 7 · AM 6000-7000<br/>AD 2042 — AM 6000"]
 ```
 
-**A flagged inconsistency, not smoothed over.** This timeline's own arithmetic — year 6000 = 2075 AD
-— implies a creation epoch of roughly 3925 BC. That differs from the 3959 BC epoch used by [The
-Zadok Calendar](../feasts/zadok-calendar.md) and `references/build/genealogy_chronology.py`. It
-differs again from the Masoretic, Septuagint and Samaritan Pentateuch genealogical totals compared
-in [Bible Chronology & Genealogical Time](genealogy-times.md).
+**The dates are this site's one chronology line.** Creation at 3959 BC comes from the Masoretic
+numbers of Genesis 5 and 11, counted forward to an Exodus in 1446 BC, which 1 Kings 6:1's 480 years
+fix from Solomon's fourth year. [Chronology Anchors](chronology-anchors.md) and [The Flood and the
+King Lists](../god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers) give the
+reasons for each step. Until 2026-10-01 this study used dsscalendar.org's reckoning, which puts
+year 6000 in AD 2075; that epoch is 34 years later and comes from dsscalendar.org's week boundaries, where the site's
+rests on the Masoretic numbers and 1 Kings 6:1, so the site no longer dates by it.
 
-That page and [Prophecy: Events and Times](prophecy-events-times.md) already flag this study's date
-as the outlier. This section is the matching flag from this study's own side. It is not a resolution
-— reconciling the numbers is tracked as open, unfinished work.
+AD 2042 is where the arithmetic lands, and it carries the five years of uncertainty in Solomon's
+fourth year. It is not a date for Christ's return. Scripture does not say the six days began at
+Adam's creation or that their edges are sharp, and Jesus kept the day and hour hidden (Mark 13:32;
+Acts 1:7). [A Day Is a Thousand Years](day-is-a-thousand-years.md#why-nobody-has-got-the-date-right)
+sets out why every such calculation so far has failed as a date.
 
 ## Signs of the end of the age
 
@@ -238,17 +242,15 @@ The escalation moves from the world's suffering (vv. 4-8) to the disciples' own 
 
 **In the same way** translates **ὃν τρόπον** (*hon tropon*) -- **τρόπος** (*tropos*, G5158) means manner, fashion, way of doing something, not a span of time. Grammatically, the angels' promise is a claim about *how* Christ returns (visibly, bodily, matching how he departed) rather than *when* -- exactly what the parallel Mark 13:32 passage above says stays hidden. Reading "same way" as implying "same timing" reaches past what the Greek word itself claims; **τρόπος** is not a time-word, and treating it as one bends the text to answer a question it doesn't address.
 
-That said, this site's own working chronology ([Charting End Times](prophecy-chart.md), still under
-construction) has floated 2032 as a possible near-term milestone. It is built from the
-six-then-seventh framework above, not from Acts 1:11. And 2032 is not a conclusion this passage
-supports, nor a settled conclusion anywhere else on this site. It is a number to watch, held with
-real uncertainty. It is not a date to set a calendar by.
+The six-then-seventh framework above does not supply the *when* either. On this site's chronology
+the six thousand years close in AD 2042, but that is arithmetic about the shape of history, drawn
+from Genesis and 1 Kings rather than from Acts 1:11. It is not a date to set a calendar by.
 
 ## Discussion questions
 
 1. James commands believers to have the same patience (*makrothymeō*) 2 Peter says God himself already has (3:9). Does it change how "be patient" lands, to know it's not a standard God holds you to without holding it himself?
 2. Mark 13:32 names the Father alone as knowing the day and hour. How do you hold that together with everything else Scripture says about who Jesus is?
-3. This study is explicit about which parts are exegesis (what a text says) and which parts are typological extension or open speculation (the 6,000-year date, 2032). Did that distinction change how persuasive any particular section felt to you?
+3. This study is explicit about which parts are exegesis (what a text says) and which parts are typological extension or open speculation (the 6,000-year date). Did that distinction change how persuasive any particular section felt to you?
 4. Matthew 24:14 names the gospel reaching all nations, not a political or natural sign, as the stated condition before "the end will come." Does that redirect where you'd look for evidence the end is near?
 
 ## References & Recommended Reading
@@ -261,5 +263,5 @@ real uncertainty. It is not a date to set a calendar by.
 - *NIV Cultural Backgrounds Study Bible* (Zondervan, ed. Walton & Keener) -- note on 2 Peter 3:8, that Jewish writers of Peter's day already applied the thousand-year day to the days of creation.
 - Dr. Ken Johnson, Th.D., [dsscalendar.org](https://dsscalendar.org) -- primary source for 1 Enoch's "Apocalypse of Weeks" six-then-seventh chronology referenced above; see [The Zadok Calendar](../feasts/zadok-calendar.md) for the fuller treatment.
 - [A Day Is a Thousand Years](day-is-a-thousand-years.md) -- the companion study, and the full treatment of 2 Peter 3:8, Psalm 90:4, and the Second Temple, rabbinic and patristic witnesses to the thousand-year day summarised above.
-- [The Zadok Calendar](../feasts/zadok-calendar.md), [Bible Chronology & Genealogical Time](genealogy-times.md), and [Prophecy: Events and Times](prophecy-events-times.md) -- this site's related chronology studies; see especially the creation-epoch discrepancy both flag against this study's own timeline.
-- [Charting End Times](prophecy-chart.md) -- this site's still-under-construction working timeline, source of the 2032 date referenced above.
+- [The Zadok Calendar](../feasts/zadok-calendar.md), [Bible Chronology & Genealogical Time](genealogy-times.md), [Chronology Anchors](chronology-anchors.md) and [Prophecy: Events and Times](prophecy-events-times.md) -- this site's chronology studies, the source of the dates used here.
+- [Charting End Times](prophecy-chart.md) -- Clarence Larkin's seven-thousand-year chart, the same framework in diagram form.

@@ -112,3 +112,7 @@ evidence:
   - {id: heb4-9-esv, what: "ESV Hebrews 4:9", tool: study_verse, args: {book: Heb, chapter: 4, verse: 9, work_id: esv-study-bible}, expect_contains: "there remains a Sabbath rest for the people of God", checked: 2026-09-27}
   - {id: esvsb-gen1-24-31, what: "ESV SB: day six the longest section, the peak", tool: study_note, args: {book: Gen, chapter: 1, verse: 24, work_id: esv-study-bible, note_type: study_note}, expect_contains: "day 6 is the peak of interest", checked: 2026-09-27}
   - {id: esvsb-gen1-1, what: "ESV SB: 1:1-2:3 structured into seven sections", tool: study_note, args: {book: Gen, chapter: 1, verse: 1, work_id: esv-study-bible, note_type: study_note}, expect_contains: "Structured into seven sections", checked: 2026-09-27}
+
+chronology_alignment_2026-10-01: >
+  Creation 3959 BC. Solomon's temple begun AM 2993 and finished AM 3000 on this epoch (noted as carrying Solomon's +/-5, not leaned on). Nativity paragraph updated as in the parent study. The site's single chronology line, and the reason for each date, is recorded in
+  references/study-state/chronology-anchors.yml under chronology_line.

@@ -151,3 +151,7 @@ revision_2026-09-06:
     corpus went 8 to 7.
   verification: "Mark 13:32, Acts 1:7 and 2 Pet 3:9 re-checked against study-notes.db before being quoted. mkdocs --strict clean, both new links resolve in the built page, validate clean."
   last_updated: "2026-09-06"
+
+chronology_alignment_2026-10-01: >
+  Moved from dsscalendar.org's epoch (year 6000 = AD 2075) to the site's line (creation 3959 BC, AM 4000 = AD 42, year 6000 = AD 2042), stated as a chronological result and not a date for the return. Removed the '2032 from Charting End Times' paragraph: that date left prophecy-chart.md on 2026-08-07, so the citation was false. The site's single chronology line, and the reason for each date, is recorded in
+  references/study-state/chronology-anchors.yml under chronology_line.

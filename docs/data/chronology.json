@@ -1,10 +1,12 @@
 {
   "metadata": {
-    "description": "Editorial chronology scaffolding for the Millennial Week timeline: the 7 thousand-year 'days' (2 Peter 3:8), the competing creation epochs, externally-anchored history, and prophetic milestones. Hand-authored from this repo's own studies -- not machine-generated like docs/data/genealogy/generated/*.json.",
+    "description": "Editorial chronology scaffolding for the Millennial Week timeline: the 7 thousand-year 'days' (2 Peter 3:8), this site's creation epoch (with one comparison epoch), externally-anchored history, and prophetic milestones. Hand-authored from this repo's own studies -- not machine-generated like docs/data/genealogy/generated/*.json. The site works to ONE chronology line: the Masoretic numbers of Genesis 5 and 11 on a 1446 BC Exodus (creation 3959 BC). Every date here should agree with docs/content/last-things/chronology-anchors.md; the justifications are recorded in references/study-state/chronology-anchors.yml (decisions_2026-10-01) and genealogy-times.yml.",
     "sources": [
-      "docs/content/studies/prophecy/day-is-near.md",
-      "docs/content/studies/prophecy/prophecy-events-times.md",
-      "docs/content/studies/prophecy/genealogy-times.md"
+      "docs/content/last-things/chronology-anchors.md",
+      "docs/content/last-things/day-is-a-thousand-years.md",
+      "docs/content/last-things/day-is-near.md",
+      "docs/content/last-things/prophecy-events-times.md",
+      "docs/content/last-things/genealogy-times.md"
     ]
   },
   "millennial_days": [
@@ -62,17 +64,17 @@
   "epochs": [
     {
       "id": "genealogy",
-      "name": "Genealogical epoch (Masoretic chain, Exodus 1446 BC)",
+      "name": "This site (Masoretic, Exodus 1446 BC)",
       "am0_gregorian": -3959,
       "note": "Zadok year 0 = 3959 BC, counted as elapsed years since creation, so AM 3959 is AD 1 (there is no year zero). This is the epoch every published zadok_year uses: the a_prime scenario in docs/data/genealogy/index.json, active since 2026-10-01 (4004 BC, Ussher's 1491 BC Exodus, before that). Since 2026-08-22 the four genealogy variants in docs/data/genealogy/index.json each derive their OWN creation year from a shared Exodus anchor -- see each generated file's creation_bc -- so this value is the Masoretic variant's epoch, not a shared one.",
-      "study_ref": "studies/prophecy/genealogy-times"
+      "study_ref": "last-things/chronology-anchors"
     },
     {
       "id": "millennial_2075",
-      "name": "Millennial-week epoch (day-is-near.md)",
+      "name": "dsscalendar.org epoch (comparison only)",
       "am0_gregorian": -3926,
-      "note": "Backed out from day-is-near.md's claim that AM 6000 = AD 2075, which is also dsscalendar.org's figure. dsscalendar.org counts the creation year as AM 1 rather than AM 0, so AM 0 here is 3926 BC and the creation year is 3925 BC. Was -3925 until 2026-08-22, when the year-zero gap was added to amToGregorian; without the shift the corrected arithmetic would have rendered AM 6000 as AD 2076 and broken the claim this epoch exists to encode. About 34 years later than the genealogical epoch above (79 before 2026-10-01, when that epoch moved from 4004 to 3959 BC) -- an unreconciled discrepancy this site's studies flag rather than paper over.",
-      "study_ref": "studies/prophecy/day-is-near"
+      "note": "Comparison only; this site does not date by it. dsscalendar.org's week boundaries put AM 6000 in AD 2075, which backs out to AM 0 = 3926 BC (it counts the creation year as AM 1, so its creation year is 3925 BC). The Day Is Near used it until 2026-10-01. About 34 years later than this site's epoch, and not derived from the Masoretic numbers or from 1 Kings 6:1, which is why the site follows the genealogical epoch instead. See feasts/zadok-calendar.md, 'Where year 0 sits'.",
+      "study_ref": "feasts/zadok-calendar"
     }
   ],
   "anchors": [
@@ -81,49 +83,49 @@
       "label": "Battle of Qarqar (Ahab)",
       "gregorian_year": -853,
       "evidence": "Kurkh Monolith (Shalmaneser III), synchronized via the Assyrian Eponym Canon's Bur-Sagale eclipse (763 BC)",
-      "study_ref": "studies/prophecy/prophecy-events-times"
+      "study_ref": "last-things/prophecy-events-times"
     },
     {
       "id": "sennacherib",
       "label": "Sennacherib's invasion of Judah (Hezekiah)",
       "gregorian_year": -701,
       "evidence": "Sennacherib's Prism (Taylor Prism) and the Lachish reliefs, British Museum",
-      "study_ref": "studies/prophecy/prophecy-events-times"
+      "study_ref": "last-things/prophecy-events-times"
     },
     {
       "id": "jerusalem_fall_597",
       "label": "Jerusalem's fall, Jehoiachin's first deportation",
       "gregorian_year": -597,
       "evidence": "Babylonian Chronicle ABC 5 (\"Jerusalem Chronicle\"), BM 21946",
-      "study_ref": "studies/prophecy/prophecy-events-times"
+      "study_ref": "last-things/prophecy-events-times"
     },
     {
       "id": "jehoiachin_release",
       "label": "Jehoiachin's release (Evil-Merodach)",
       "gregorian_year": -561,
       "evidence": "Jehoiachin's Ration Tablets (Weidner tablets), excavated Babylon",
-      "study_ref": "studies/prophecy/prophecy-events-times"
+      "study_ref": "last-things/prophecy-events-times"
     },
     {
       "id": "cyrus_decree",
       "label": "Cyrus's decree",
       "gregorian_year": -538,
       "evidence": "Cyrus Cylinder; fall of Babylon dated by the Nabonidus Chronicle (539 BC)",
-      "study_ref": "studies/prophecy/prophecy-events-times"
+      "study_ref": "last-things/prophecy-events-times"
     },
     {
       "id": "artaxerxes_decree",
-      "label": "Artaxerxes I's decree to Nehemiah",
-      "gregorian_year": -445,
-      "evidence": "Elephantine papyri fix Artaxerxes I's regnal years independently",
-      "study_ref": "studies/prophecy/prophecy-events-times"
+      "label": "Artaxerxes I's decree to Nehemiah (his 20th year)",
+      "gregorian_year": -444,
+      "evidence": "Elephantine papyri fix Artaxerxes I's regnal years independently. His 20th year is 445 BC on an accession-year count and 444 BC on the Tishri count that Nehemiah 1:1 (Chislev) and 2:1 (Nisan) in the same year imply; this site follows 444 (Hoehner), chosen to fit the AD 33 crucifixion -- see chronology-anchors.md entry 20.",
+      "study_ref": "last-things/chronology-anchors"
     },
     {
       "id": "merneptah_stele",
       "label": "Merneptah Stele (\"Israel\" in Canaan)",
       "gregorian_year": -1208,
       "evidence": "Earliest extra-biblical mention of Israel as a people in Canaan -- a terminus ante quem for the conquest, not a date for the Exodus itself",
-      "study_ref": "studies/prophecy/prophecy-events-times"
+      "study_ref": "last-things/prophecy-events-times"
     },
     {
       "id": "egypt_dynasty1_aha",
@@ -146,56 +148,40 @@
       "label": "The Exodus (early-date view)",
       "gregorian_year": -1446,
       "kind": "pivot",
-      "note": "1 Kings 6:1's 480 years before Solomon's 4th year, pivoted from Thiele's Qarqar-anchored ~966 BC. Not itself an anchor -- a late-date Exodus in the 1200s BC is also held in scholarship.",
-      "study_ref": "studies/prophecy/prophecy-events-times"
+      "note": "1 Kings 6:1's 480 years before Solomon's 4th year, counted back from Thiele's Qarqar-anchored 966 BC. This site's creation epoch is anchored here: AM 2513 on the Masoretic chain, so creation falls at 3959 BC. Not itself an anchor -- no independent record fixes the Exodus to a year, and a late-date Exodus in the 1200s BC is also held in scholarship.",
+      "study_ref": "last-things/prophecy-events-times"
     },
     {
       "id": "solomon_temple_foundation",
       "label": "Solomon's temple foundation (4th year)",
       "gregorian_year": -966,
       "kind": "pivot",
-      "note": "Thiele's Qarqar-anchored reconstruction; roughly 46 years earlier than Ussher's unanchored 1012 BC for the same event.",
-      "study_ref": "studies/prophecy/prophecy-events-times"
-    },
-    {
-      "id": "daniel_terminus_anderson",
-      "label": "Daniel's 70 weeks terminus (Anderson)",
-      "gregorian_year": 32,
-      "kind": "prophecy",
-      "note": "Sir Robert Anderson's 173,880-day count from Artaxerxes' decree (445 BC) lands 10 Nisan, 6 April AD 32 -- days before the Triumphal Entry.",
-      "study_ref": "studies/prophecy/prophecy-events-times"
+      "note": "Thiele's Qarqar-anchored reconstruction, AM 2993 on this site's epoch; roughly 46 years later than Ussher's unanchored 1012 BC for the same event.",
+      "study_ref": "last-things/chronology-anchors"
     },
     {
       "id": "daniel_terminus_hoehner",
-      "label": "Daniel's 70 weeks terminus (Hoehner)",
+      "label": "Daniel's 69 weeks from 444 BC (Hoehner)",
       "gregorian_year": 33,
       "kind": "prophecy",
-      "note": "Harold Hoehner's reworked count lands 10 Nisan, 30 March AD 33, corrected so the crucifixion falls on a Friday Passover.",
-      "study_ref": "studies/prophecy/prophecy-events-times"
+      "note": "Harold Hoehner's count: 173,880 days from 1 Nisan 444 BC lands on 10 Nisan, 30 March AD 33 -- the reckoning this site follows. Sir Robert Anderson's earlier count from 445 BC reached AD 32, a year in which Nisan 14 does not fall on a Friday.",
+      "study_ref": "last-things/prophecy-events-times"
     },
     {
       "id": "crucifixion",
       "label": "The Crucifixion",
       "gregorian_year": 33,
       "kind": "prophecy",
-      "note": "AD 30, 32, and 33 all have advocates; this site's flagship calculation favors AD 33 (Hoehner) for weekday consistency with a Friday Passover.",
-      "study_ref": "studies/prophecy/prophecy-events-times"
-    },
-    {
-      "id": "passover_lunar_eclipse",
-      "label": "Lunar eclipse over Jerusalem at Passover",
-      "gregorian_year": 33,
-      "kind": "corroboration",
-      "note": "Humphreys & Waddington (Nature, 1983): the only Passover lunar eclipse visible from Jerusalem in an eleven-year window, AD 26-36 -- a hard astronomical fact independent of how vivid it looked (contested by Schaefer, 1990).",
-      "study_ref": "studies/prophecy/prophecy-events-times"
+      "note": "Friday 3 April AD 33, this site's date. Only two Fridays in Pilate's prefecture carry Nisan 14 -- 7 April AD 30 and 3 April AD 33 -- and the year rests on Luke 3:1 read naturally, supported by Sejanus and by Daniel 9, which excludes AD 30 on either reckoning of the decree. AD 30 stays defensible if Tiberius's fifteenth year is counted from AD 13.",
+      "study_ref": "last-things/chronology-anchors"
     },
     {
       "id": "year_6000",
       "label": "Year 6000",
       "am_year": 6000,
       "kind": "framework",
-      "note": "The close of Day 6 / the threshold of the millennial Day 7, per day-is-near.md's reading of 2 Peter 3:8. Lands in a different Gregorian year on every epoch/variant rail -- that spread is the point of this timeline.",
-      "study_ref": "studies/prophecy/day-is-near"
+      "note": "The close of Day 6 and threshold of the millennial Day 7, reading 2 Peter 3:8 with the creation week. AD 2042 on this site's chronology (creation 3959 BC), give or take the five years Solomon's fourth year carries. A chronological consequence, not a date for Christ's return: Jesus kept the day and hour hidden (Mark 13:32; Acts 1:7), and nothing in Scripture says the transitions are sharp.",
+      "study_ref": "last-things/day-is-a-thousand-years"
     },
     {
       "id": "millennial_reign_start",
@@ -203,7 +189,7 @@
       "am_year": 6000,
       "kind": "framework",
       "note": "The start of Day 7 (Rev 20:2-7) -- Satan bound, the thousand-year reign begins.",
-      "study_ref": "studies/prophecy/day-is-near"
+      "study_ref": "last-things/day-is-near"
     }
   ]
 }

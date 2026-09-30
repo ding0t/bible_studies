@@ -6,7 +6,7 @@ tags: ["chart", "timeline", "dispensationalism", "larkin"]
 draft: false
 bible_references: ["Genesis 1:1-2:3", "Exodus 20:11", "Colossians 2:16-17", "Hebrews 4:9", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 19:7-9", "Revelation 20:1-6", "Zechariah 14:4-5"]
 date_created: 2024-05-29
-date_modified: 2026-09-06
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -53,10 +53,9 @@ flowchart TD
 This site's own position, as against Larkin's chart: the *shape* -- six ordinary ages followed by a
 Sabbath-like millennium -- is argued at length in [The Day Is Near](day-is-near.md). The specific
 *calendar dates* Larkin prints (Eden at 4000 BC, Solomon at 1000 BC, and so on) are not this site's
-settled chronology. [The Day Is Near](day-is-near.md#when-is-the-year-6000) leaves its own
-creation-epoch arithmetic as an open discrepancy against
-[The Zadok Calendar](../feasts/zadok-calendar.md) and [Bible Chronology & Genealogical
-Time](genealogy-times.md); Larkin's numbers don't settle it.
+settled chronology. This site's dates follow the Masoretic numbers on a 1446 BC Exodus: creation
+at 3959 BC and the year 6000 in AD 2042, with the reasons in [Chronology
+Anchors](chronology-anchors.md) and [The Day Is Near](day-is-near.md#when-is-the-year-6000).
 
 ## The relation of Jew, Gentile, and Church
 

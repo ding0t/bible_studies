@@ -5,7 +5,7 @@ description: "Archaeological sites that validate Scripture"
 tags: ["method/archaeology", "biblical-sites", "jerusalem", "excavations", "apologetics"]
 draft: false
 date_created: 2026-01-24
-date_modified: 2026-08-23
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-4.5
@@ -508,7 +508,7 @@ This study examines significant archaeological sites that corroborate biblical a
 
 **Archaeological Consensus:** Church of the Holy Sepulchre is more archaeologically credible due to correct dating and location outside 1st-century walls.
 
-**Time Period:** AD 30 or 33 (date of crucifixion)
+**Time Period:** AD 33 (date of crucifixion; AD 30 is the other candidate)
 
 ---
 

@@ -13,10 +13,13 @@ const AM_MAX = 7000;
 const BASE_WIDTH = 1600;
 const ROW_HEIGHT = 26;
 
+// The site works to one chronology line -- the Masoretic numbers on the genealogical epoch
+// (Exodus 1446 BC, creation 3959 BC) -- so only that line is on by default. The others stay
+// available as comparisons, labelled as such.
 const VARIANT_META = {
-  mt: { label: 'Masoretic Text', color: '#2563eb' },
-  lxx: { label: 'Septuagint', color: '#7c3aed' },
-  sp: { label: 'Samaritan Pentateuch', color: '#059669' },
+  mt: { label: 'Masoretic Text (this site)', color: '#2563eb' },
+  lxx: { label: 'Septuagint (compare)', color: '#7c3aed' },
+  sp: { label: 'Samaritan Pentateuch (compare)', color: '#059669' },
 };
 
 const EPOCH_META = {
@@ -34,8 +37,8 @@ function studyUrl(studyRef) {
 }
 
 export default function MillennialWeek({ events = [] }) {
-  const [activeVariants, setActiveVariants] = useState(['mt', 'lxx']);
-  const [activeEpochs, setActiveEpochs] = useState(['genealogy', 'millennial_2075']);
+  const [activeVariants, setActiveVariants] = useState(['mt']);
+  const [activeEpochs, setActiveEpochs] = useState(['genealogy']);
   const [showAnchors, setShowAnchors] = useState(true);
   const [showMilestones, setShowMilestones] = useState(true);
   const [showGenealogy, setShowGenealogy] = useState(true);
@@ -437,8 +440,9 @@ export default function MillennialWeek({ events = [] }) {
 
       <p style={{ fontSize: '0.8rem', color: theme.textMuted, marginTop: '1rem' }}>
         Axis is Anno Mundi (years since creation, AM 0–7000) — the "a day is a thousand years" frame
-        (2 Peter 3:8). Toggle chronology paths and creation epochs to see where the Flood, the Exodus,
-        Christ, and Year 6000 land under each.
+        (2 Peter 3:8). Shown on this site's chronology: the Masoretic numbers, creation 3959 BC. Turn on
+        the Septuagint, the Samaritan Pentateuch or the dsscalendar.org epoch to compare where the Flood,
+        the Exodus, Christ and Year 6000 would land on theirs.
       </p>
     </div>
   );

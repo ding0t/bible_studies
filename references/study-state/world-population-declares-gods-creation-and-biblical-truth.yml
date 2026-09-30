@@ -408,3 +408,7 @@ decision_2026-09-28_masoretic_chronology:
     Abram born at Terah 130). harmonized_v1 (MT + SP Terah 145) retired; working Flood 2288 -> 2348 BC,
     creation 3944 -> 4004 BC, Abram AM 1948 -> AM 2008 (1996 BC unchanged).
   justification: "docs/content/god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers"
+
+chronology_alignment_2026-10-01: >
+  Recomputed on the 1446 BC Exodus (Flood 2303 BC; 0.486%/yr, doubling 143 years). David's census moved from 1055 BC -- before David's birth in 1041 BC -- to c. 975 BC, late in his reign: Exodus-to-David rate 0.38%/yr, David-to-Christ 0.24%/yr, headroom 1.16%/yr. Peleg note corrected to the generator's Genesis 11:10 basis. The site's single chronology line, and the reason for each date, is recorded in
+  references/study-state/chronology-anchors.yml under chronology_line.

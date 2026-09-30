@@ -172,20 +172,20 @@ astronomically dated eclipse of 763 BC. 1491 BC is Ussher's own figure, reached 
 synchronism was available. 1412 BC corresponds to no standard reckoning I have been able to trace.
 This site uses 1446 BC.
 
-### An unresolved inconsistency
+### Where this site departs from dsscalendar.org
 
-**Which leaves an inconsistency.** This page cites dsscalendar.org
-as its primary source for the calendar's structure, and follows it there. It does not follow it on
-the epoch: the `zadok_year` in every study's frontmatter, in `docs/data/events.json` and on the
-[Prophetic Timeline](../../timeline/) uses 3959 BC (Ussher's 4004 BC until 2026-10-01), which puts
-the present 34 years later than dsscalendar.org's own reckoning does. The two are not reconciled,
-and the difference matters most where it is most tempting to ignore it: they place the
-six-thousandth year 33 years apart, in AD 2042 and AD 2075.
+**This page follows dsscalendar.org on the calendar's structure and departs from it on the epoch.**
+Every `zadok_year` on the site, in `docs/data/events.json` and on the
+[Prophetic Timeline](../../timeline/) counts from 3959 BC (Ussher's 4004 BC until 2026-10-01),
+which puts the present 34 years later than dsscalendar.org's reckoning does, and places the
+six-thousandth year in AD 2042 where dsscalendar.org has AD 2075. The site's epoch is derived: the
+Masoretic numbers of Genesis 5 and 11 counted to an Exodus that 1 Kings 6:1 fixes at 1446 BC.
+dsscalendar.org's comes from its own week boundaries. The site works to the derived line
+throughout, [The Day Is Near](../last-things/day-is-near.md#when-is-the-year-6000) included.
 
-Resolving this is open work, tracked in
-`references/study-state/genealogy-calendar-review.yml`. The relevant figures now live in
-`docs/data/genealogy/index.json` under `chronology_scenarios`, with the scriptural basis for each,
-so changing the epoch is a single edit rather than a code change.
+The figures, with the scriptural basis for each, are in `docs/data/genealogy/index.json` under
+`chronology_scenarios`, and the decision is recorded in
+`references/study-state/chronology-anchors.yml` (`decisions_2026-10-01`).
 
 ## Resources
 

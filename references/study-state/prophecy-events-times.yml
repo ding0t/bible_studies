@@ -178,3 +178,7 @@ resources_consulted:
   - {type: other, title: "Solar eclipse of 1207 BC helps to date pharaohs (Astronomy & Geophysics 58, 2017)", author: "Colin J. Humphreys and W. G. Waddington", note: "reinterprets Joshua 10's 'sun stood still' as an annular eclipse at Gibeon; in tension with the text's own stated effect (a LENGTHENED day, not a darkened one)"}
   - {type: other, title: "The Star of Bethlehem: The Legacy of the Magi", author: "Michael R. Molnar", note: "6 BC Jupiter-occultation theory; noted only briefly, not pursued -- no scholarly consensus and tension with Herod's 4 BC death for the rival 3-2 BC conjunction theory"}
 last_updated: "2026-07-24"
+
+chronology_alignment_2026-10-01: >
+  The AD 33 lunar eclipse is no longer called 'a third independent line converging on AD 33'; it bears on the year only through Acts 2:20, which is contested, so it is left out of the case as chronology-anchors.md does. The Nehemiah decree is 445/444 BC with 444 followed (Hoehner). The ~3925 BC 'unreconciled discrepancy' is resolved. The site's single chronology line, and the reason for each date, is recorded in
+  references/study-state/chronology-anchors.yml under chronology_line.

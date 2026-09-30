@@ -493,22 +493,23 @@ because they are days.
 ## Why nobody has got the date right
 
 Everyone who has run this arithmetic has landed on a year in his own near future or recent past,
-and every one of those years has passed.
+and every one of those years that has arrived has passed without the end.
 
 | Who | Epoch | Year 6000 lands at |
 |---|---|---|
 | Hippolytus (early third century) | Nativity at AM 5500, on a Septuagint chronology | c. AD 500 |
 | Ussher (this site's convention until 2026-10-01) | Creation at 4004 BC | AD 1997 |
-| [The Day Is Near](day-is-near.md#when-is-the-year-6000), following dsscalendar.org | Creation at ~3925 BC | AD 2075 |
-| This site's convention: the Masoretic chain on a 1446 BC Exodus | Creation at 3959 BC | AD 2042 |
+| **This site:** the Masoretic chain on a 1446 BC Exodus | Creation at 3959 BC | AD 2042 |
+| dsscalendar.org (Ken Johnson) | Creation at ~3925 BC | AD 2075 |
 | Seder Olam / the Hebrew calendar | Creation at 3761 BC | AD 2240 |
 
-The modern spread is not well founded, because it depends on a creation epoch that the
-manuscript evidence does not settle. The Masoretic, Septuagint and Samaritan genealogies in
-Genesis 5 and 11 differ by centuries — the Masoretic and Septuagint Flood dates alone are 586
-years apart — and [Bible Chronology & Genealogical Time](genealogy-times.md) works through why.
-A start date uncertain by six hundred years cannot produce an end date good to the year. And
-nothing in Scripture says the six days began at Adam's creation, or that the transitions are sharp.
+The spread comes from the creation epoch: the manuscript traditions of Genesis 5 and 11 put the
+Flood up to 880 years apart ([Bible Chronology & Genealogical Time](genealogy-times.md)). This site
+works to one line, the Masoretic numbers on a 1446 BC Exodus ([The Flood and the King
+Lists](../god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers);
+[Chronology Anchors](chronology-anchors.md)), which puts the year 6000 in AD 2042, give or take
+five years. That is a chronological result, and it is not a date for the end: nothing in Scripture
+says the six days began at Adam's creation, or that the transitions are sharp.
 
 ### Scripture's own refusal of a date
 
@@ -563,8 +564,8 @@ Jesus (4:3, 10). The One who fixed the week will finish it, so you can rest in H
    disagreed about almost everything else carry when reading 2 Peter 3:8?
 3. If "the last days" began at the incarnation rather than in some still-future crisis, what does
    that do to the way "the last days" is normally used in preaching about current events?
-4. Every calculated year 6000 so far has passed. Does that discredit the framework, refine it, or
-   only discredit the calculating?
+4. Every year 6000 calculated before this century has passed. Does that discredit the framework,
+   refine it, or only discredit the calculating?
 
 ## References & Recommended Reading
 

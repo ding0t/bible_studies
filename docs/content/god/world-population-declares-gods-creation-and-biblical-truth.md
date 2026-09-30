@@ -397,7 +397,7 @@ flowchart TD
     end
     subgraph c["Abraham to Christ"]
       direction TB
-      G["AM 2513 · 1446 BC<br/>Exodus — about 2 million leave Egypt"] --> H["AM 2904 · 1055 BC<br/>David — 1.3 million fighting men"]
+      G["AM 2513 · 1446 BC<br/>Exodus — about 2 million leave Egypt"] --> H["AM 2984 · c. 975 BC<br/>David's census — 1.3 million fighting men"]
       H --> I["AM 3959 · AD 1<br/>Christ — world about 300 million"]
     end
     subgraph d["Christ to now"]
@@ -414,6 +414,7 @@ David's figure comes from Joab's census: "in Israel there were 800,000 valiant m
 sword, and the men of Judah were 500,000" (2 Samuel 24:9, ESV). The parallel at 1 Chronicles 21:5
 gives 1,100,000 and 470,000 — the two texts disagree by about 20%, which is a caution against
 leaning on either, and the timeline uses the smaller.
+The census falls late in David's reign (c. 1010-970 BC), so the timeline places it at c. 975 BC.
 
 Three date questions are open. None of them changes the argument.
 
@@ -462,7 +463,7 @@ by event, not to scale:
 ```mermaid
 xychart-beta
     title "World population, log10 scale (biblical chronology, Masoretic)"
-    x-axis ["3959 BC", "2959 BC", "2304 BC", "2303 BC", "2103 BC", "1951 BC", "1446 BC", "1055 BC", "AD 1", "AD 1200", "AD 1800", "AD 1950", "AD 2026"]
+    x-axis ["3959 BC", "2959 BC", "2304 BC", "2303 BC", "2103 BC", "1951 BC", "1446 BC", "975 BC", "AD 1", "AD 1200", "AD 1800", "AD 1950", "AD 2026"]
     y-axis "log10(people)" 0 --> 10
     line [0.3, 4.6, 8.0, 0.8, 4.0, 4.7, 6.7, 7.5, 8.5, 8.7, 9.0, 9.4, 9.9]
 ```
@@ -539,8 +540,8 @@ Post-Flood benchmarks, each rate computed over the span since the previous row:
 | Babel | ~1856 / ~2103 BC | 10,000 | 3.71%/yr |
 | Abraham born | 2008 / 1951 BC | 50,000 | 1.06%/yr |
 | Exodus | 2513 / 1446 BC | 5,000,000 | 0.91%/yr |
-| David | 2904 / 1055 BC | 30,000,000 | 0.46%/yr |
-| Christ | 3959 / AD 1 | 300,000,000 | 0.22%/yr |
+| David's census | 2984 / c. 975 BC | 30,000,000 | 0.38%/yr |
+| Christ | 3959 / AD 1 | 300,000,000 | 0.24%/yr |
 | — | 5158 / AD 1200 | 450,000,000 | 0.034%/yr |
 | — | 5608 / AD 1650 | 500,000,000 | 0.023%/yr |
 | — | 5808 / AD 1850 | 1,265,000,000 | 0.46%/yr |
@@ -555,7 +556,7 @@ to reach them. Measured from six people at the Flood in each case:
 | Target | Span from 2303 BC | Required rate | Working |
 |---|---|---|---|
 | 5 million by the Exodus (1446 BC) | 857 years | 1.59%/yr | ln(5,000,000/6) / 857 = 13.63 / 857 |
-| 30 million by David (1055 BC) | 1,248 years | 1.24%/yr | ln(30,000,000/6) / 1,248 = 15.42 / 1,248 |
+| 30 million by David's census (c. 975 BC) | 1,328 years | 1.16%/yr | ln(30,000,000/6) / 1,328 = 15.42 / 1,328 |
 | 300 million by Christ (AD 1) | 2,304 years | 0.77%/yr | ln(300,000,000/6) / 2,304 = 17.73 / 2,304 |
 | 8.2 billion by AD 2026 | 4,329 years | 0.486%/yr | ln(8,200,000,000/6) / 4,329 = 21.04 / 4,329 |
 

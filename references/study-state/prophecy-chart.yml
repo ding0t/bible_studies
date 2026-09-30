@@ -40,3 +40,7 @@ open_questions:
 resources_consulted:
   - {type: other, title: "Clarence Larkin, Dispensational Truth (1918/1920)", note: "source of both chart images already committed to docs/content/assets/img/larkin/"}
 last_updated: "2026-08-04"
+
+chronology_alignment_2026-10-01: >
+  The paragraph on Larkin's dates now gives the site's line (creation 3959 BC, year 6000 in AD 2042). The site's single chronology line, and the reason for each date, is recorded in
+  references/study-state/chronology-anchors.yml under chronology_line.

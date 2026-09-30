@@ -144,10 +144,9 @@ But no ancient writer walks the six days through history the way the sections be
 what follows as typology: a pattern observed in the text, offered for reflection, and answerable to
 Scripture at every point.**
 
-It is also no calendar. The anchors below use the site's working epoch, creation at 3959 BC. On
-that epoch the six thousand years run out in AD 2042; on Ussher's 4004 BC, which this site used
-until 2026-10-01, they ran out in AD 1997. [The Day Is Near](day-is-near.md#when-is-the-year-6000)
-works from a different epoch and reaches AD 2075, and the parent study sets out
+It is also no calendar. The anchors below use the site's working epoch, creation at 3959 BC,
+which [Chronology Anchors](chronology-anchors.md) derives from the Masoretic numbers and a 1446 BC
+Exodus. On that epoch the six thousand years run out in AD 2042, and the parent study sets out
 [why nobody has got the date right](day-is-a-thousand-years.md#why-nobody-has-got-the-date-right).
 Jesus said, "It is not for you to know times or seasons that the Father has fixed by his own
 authority" (Acts 1:7, ESV). The framework gives the shape of history. The Father keeps the date.
@@ -232,9 +231,10 @@ walked His people onto dry ground to receive them.
 Leviticus 23 uses six times across four verses for the feasts of the LORD (23:2, 4, 37, 44). Day
 four is when God installs the machinery the festival calendar runs on.
 
-The fourth millennium is when Israel starts running on it. The Temple is founded in its opening
-decades (Solomon's fourth year, c. 967 BC, AM ~3037), and with the Temple come the *mo'adim* kept in
-their appointed order. The throne established in the same period is described in exactly day four's
+The fourth millennium is when Israel starts running on it. The Temple stands at its threshold: begun
+in Solomon's fourth year (966 BC, AM 2993) and finished seven years later (1 Kings 6:38), in AM 3000
+on this site's epoch. That fit carries the five years of uncertainty in Solomon's dates, so it is
+noted here and not leaned on. With the Temple come the *mo'adim* kept in their appointed order. The throne established in the same period is described in exactly day four's
 terms — sun, moon and stars together. Of David's line: "His offspring shall endure forever, his
 throne as long as the sun before me… Like the moon it shall be established forever, a faithful
 witness in the skies" (Psalm 89:36-37). Abraham's offspring had already been numbered against the
@@ -243,9 +243,10 @@ the millennium closes with the greater light: "the sun of righteousness shall ri
 its wings" (Malachi 4:2) — in the closing chapter of Malachi, the last book of the Christian Old
 Testament, at the end of the fourth day.
 
-On the working epoch, AM 4000 falls at 4 BC, close to the traditional date of Jesus' birth. The
-parent study explains why that fit is partly an artifact of how Ussher set his epoch. Scripture's
-own statement is the firmer one: "when the fullness of time had come, God sent forth his Son"
+On the working epoch Christ is born about AM 3954 and crucified in AM 3991, in the closing decades
+of the fourth day; AM 4000 itself falls in AD 42. Ussher's epoch put AM 4000 at 4 BC, the
+traditional date of Jesus' birth, and the parent study explains why that fit was partly an artifact.
+Scripture's own statement is the firmer one: "when the fullness of time had come, God sent forth his Son"
 (Galatians 4:4, ESV). God appointed the time as He appointed the lights.
 
 ### Day five — the swarming sea

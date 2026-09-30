@@ -402,10 +402,8 @@ was settled on 2026-10-01: 1446 BC, from 1 Kings 6:1's 480 years counted back fr
 fourth year, which puts Masoretic creation at 3959 BC. Ussher's 1491 BC, and the 4004 BC epoch it
 produces, were used until then; `docs/data/genealogy/index.json` keeps both as tracked alternates.
 
-**One outstanding item, deliberately not smoothed over yet:** [The Day is
-Near](day-is-near.md#when-is-the-year-6000) uses a different creation epoch again (~3925 BC)
-than any of the three variants above. Reconciling that is future work, tracked but not resolved
-here.
+[The Day is Near](day-is-near.md#when-is-the-year-6000) used dsscalendar.org's creation epoch
+(~3925 BC) until 2026-10-01 and now follows this one, so the site's studies share one line.
 
 The genealogical reasoning above was worked out without `prophecy-events-times.md`'s external
 archaeological anchors (Qarqar, Sennacherib, the Babylonian and Persian records), so that

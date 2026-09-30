@@ -283,6 +283,44 @@ decisions_2026-10-01:
   key_takeaways: "Rewritten: Luke fixes the year; Daniel's 476 years reach AD 32 or 33 by reckoning and never AD 30; the day-level agreement is stated as following from the 444 BC choice. The Verdict now says Daniel 9 supports the year by excluding AD 30 on either reckoning, which the Daniel 9:25 section already says. No remaining conflict with the Verdict or the 444 BC section."
   prophecy_essentials: "The 445 BC / 'fixed by the Elephantine papyri' sentence now names Artaxerxes' twentieth year, gives Hoehner's AD 33 from 444 BC as the site's reckoning, and Anderson's AD 32 from 445 BC."
 
+chronology_line:
+  adopted: 2026-10-01
+  principle: >
+    The site works to ONE chronology line and every study, data file and tool agrees with it.
+    Alternatives are shown only as labelled comparisons (the Prophetic Timeline's toggles, the
+    tables of other reckonings), never as the date a study argues from. A study that needs a
+    different date says so and records why in its state file.
+  register:
+    - {event: "Genesis 5 and 11 numbers", value: "Masoretic Text throughout, Terah 205 (Abram born at Terah 130)", why: "Genesis 7:23 rules out the LXX Methuselah; SP/LXX share one secondary text type (Steinmann, JETS 64/1, 2021); their +100 and Terah 145 read as harmonizations", source: "god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers; genealogy-times.yml decision_2026-09-28_masoretic_chronology"}
+    - {event: "Solomon's 4th year", value: "966 BC (+/-5)", why: "Thiele, via Qarqar 853 / Jehu 841 and the 763 BC Bur-Sagale eclipse; ESV SB 1 Kgs 6:1 note 'around the year 966 B.C.'", source: "chronology-anchors.md entry 1"}
+    - {event: "Exodus", value: "1446 BC = AM 2513", why: "1 Kings 6:1's 480th year counted back from 966 BC; the Masoretic chain puts the Exodus at AM 2513 (Abram AM 2008 + 75 + 430, Galatians 3:17)", source: "index.json chronology_scenarios.a_prime"}
+    - {event: "Creation", value: "3959 BC = AM 0", why: "1446 + 2513", source: "genealogy_chronology.py"}
+    - {event: "Flood", value: "2303 BC = AM 1656", why: "Masoretic chain", source: "generated/mt.json"}
+    - {event: "Abram born", value: "1951 BC = AM 2008", why: "Terah 130 (Acts 7:4 with Genesis 11:32, 12:4)", source: "patriarchal.json"}
+    - {event: "Nativity", value: "6-4 BC (5 BC in the table), about AM 3954", why: "Matthew 2:1, 16 against Herod's death in 4 BC (majority view; 1 BC is the minority)", source: "chronology-anchors.md entries 37-38"}
+    - {event: "Decree of Nehemiah 2:1", value: "444 BC", why: "Tishri count implied by Nehemiah 1:1 and 2:1; chosen to fit AD 33 (Hoehner) -- a dependency, not independent evidence; ESV SB has 445", source: "chronology-anchors.md entry 20"}
+    - {event: "Crucifixion", value: "Friday 3 April AD 33 = AM 3991", why: "Luke 3:1 read naturally, with Sejanus and Daniel 9 (which excludes AD 30 on either decree year); the Passover lunar eclipse is NOT counted", source: "chronology-anchors.md 'Settling the crucifixion year'"}
+    - {event: "Year 6000", value: "AD 2042 (+/-5)", why: "arithmetic on the line above; explicitly not a date for the return (Mark 13:32; Acts 1:7)", source: "day-is-a-thousand-years.md; day-is-near.md"}
+  not_followed:
+    - "Ussher 4004 BC / Exodus 1491 BC: puts Solomon's temple at 1012 BC by 1 Kings 6:1, against the Assyrian synchronisms. Site epoch until 2026-10-01."
+    - "dsscalendar.org 3925 BC / year 6000 in AD 2075: taken from its week boundaries, not derived from the Masoretic numbers or 1 Kings 6:1. The Day Is Near used it until 2026-10-01."
+    - "Anderson's AD 32 terminus from 445 BC: Nisan 14 in AD 32 is not a Friday."
+  aligned_2026-10-01: >
+    Brought onto the line: day-is-near.md (was AD 2075; stale '2032 from Charting End Times' removed --
+    that date left prophecy-chart.md on 2026-08-07), day-is-a-thousand-years.md (this site's row now
+    the working line; 'every year 6000 has passed' qualified), six-days-of-history.md (Temple finished
+    AM 3000 on this epoch, noted as carrying the +/-5; Nativity paragraph), prophecy-events-times.md
+    (the eclipse no longer counted as 'a third independent line'; decree 445/444 with 444 followed),
+    prophecy-chart.md, zadok-calendar.md (dsscalendar departure stated as a decision, not an open
+    inconsistency), genealogy-times.md, world-population (David's census moved from 1055 BC, before
+    David's birth, to c. 975 BC; rates recomputed), archaeological-sites.md (Garden Tomb period AD 33),
+    docs/data/chronology.json and the Prophetic Timeline (one line by default, comparisons labelled,
+    study links repointed from the dead studies/prophecy/ paths, Anderson and eclipse milestones
+    removed, decree anchor 444 BC).
+  still_open:
+    - "The pre-David Judah line in conquest-judges.json is placeholder (Rahab born after the conquest; Perez's entry to Egypt 70 years before Jacob's). The Four Hundred and Eighty Years draft is the place to settle it."
+    - "Sabbatical-cycle reconstruction (Wacholder or Zuckermann) not named in the table."
+
 evidence:
   - {id: ez40-1-esv, what: "Ezekiel 40:1 block quote; 'beginning of the year', no month named", tool: study_verse, args: {book: Ezek, chapter: 40, verse: 1, work_id: esv-study-bible}, expect_contains: "In the twenty-fifth year of our exile, at the beginning of the year, on the tenth day of the month", checked: 2026-10-01}
   - {id: ez40-1-esvsb, what: "ESV SB dates Ezekiel 40:1 to April 573 (Nisan, not the Day of Atonement)", tool: study_note, args: {book: Ezek, chapter: 40, verse: 1, work_id: esv-study-bible}, expect_contains: "April 573 B.C.", checked: 2026-10-01}

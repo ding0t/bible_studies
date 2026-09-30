@@ -232,7 +232,7 @@ Given that, this study runs two different tools for two different jobs, and keep
 - **Why it's an anchor:** ties Daniel 5's setting, and the empire transition it depicts, to the same
   precisely-dated Neo-Babylonian chronology as anchors 3-4.
 
-### Anchor 6 — Artaxerxes I's decree to Nehemiah, 445 BC
+### Anchor 6 — Artaxerxes I's decree to Nehemiah, 445/444 BC
 
 - **Verse:** Nehemiah 2:1-8 — the twentieth year of
   Artaxerxes, month of Nisan, the king grants Nehemiah leave and authority to rebuild Jerusalem.
@@ -243,7 +243,10 @@ Given that, this study runs two different tools for two different jobs, and keep
   running his affairs — consistent with his being active a generation earlier under Nehemiah, and
   ruling out a later Artaxerxes.
 - **Why it's an anchor:** without this, "the twentieth year of Artaxerxes" is just a number; the
-  papyri are what let it convert to 445 BC specifically.
+  papyri are what let it convert to a Gregorian year. That year is 445 BC counted from Nisan, and
+  444 BC on the Tishri count that Nehemiah 1:1 (Chislev) and 2:1 (Nisan), both in the same
+  twentieth year, imply. This site follows 444 BC with Hoehner (below and in [Chronology
+  Anchors](chronology-anchors.md), entry 20).
 
 ## The flagship calculation: Daniel's seventy weeks to the Triumphal Entry
 
@@ -267,7 +270,7 @@ is the whole crux of the calculation:
 | Cyrus | 538 BC | Rebuild the **temple** (Ezra 1:1-4) |
 | Darius I | 519/518 BC | Confirms/renews Cyrus's temple decree (Ezra 6:1-12) |
 | Artaxerxes I to Ezra | 458 BC | Funds temple worship and appoints judges/teachers (Ezra 7:11-26) |
-| Artaxerxes I to Nehemiah | 445 BC | Rebuild **the city itself** — walls and streets (Nehemiah 2:1-8) |
+| Artaxerxes I to Nehemiah | 445/444 BC | Rebuild **the city itself** — walls and streets (Nehemiah 2:1-8) |
 
 Daniel 9:25 specifies rebuilding *the city* ("street" and "moat," or "plaza" and "wall," depending
 on translation) — language that matches Nehemiah's commission, not the three earlier decrees, which
@@ -406,18 +409,15 @@ twilight sky. His comparison: trying to spot an eight-watt red bulb next to a se
 So a "blood moon" vivid enough to be *remarked on* seven weeks later overstates what was visible.
 
 **What to take from this, carefully.** Waddington's search found AD 33 as the *only* year in
-an eleven-year window with a Passover lunar eclipse visible from Jerusalem at all. That is a hard
-astronomical fact, true regardless of how vivid it looked, and it is a third independent line
-converging on AD 33 alongside Hoehner's weekday-based dating above.
+an eleven-year window with a Passover lunar eclipse visible from Jerusalem at all. The eclipse is a
+hard astronomical fact. It bears on the crucifixion year only through Acts 2:20: if Peter was
+pointing at that eclipse, it favours AD 33. That link is the contested part. Schaefer's critique
+leaves the eclipse standing and the vivid "blood moon" doubtful, and Peter is quoting Joel about
+what *will* happen before the day of the Lord.
 
-But two claims are in play, and they are not the same. "An eclipse occurred that week." And "the
-crowd at Pentecost was talking about a vivid blood moon." Schaefer's critique leaves only the first
-standing.
-
-[Chronology Anchors](chronology-anchors.md#settling-the-crucifixion-year) goes further and declines
-to use the eclipse at all. Peter is quoting Joel about what *will* happen, not reporting the
-previous Friday's sky. So treat the convergence as suggestive, not as independent proof stacked on
-top of the Daniel calculation.
+So this site does not count the eclipse as evidence for the year.
+[Chronology Anchors](chronology-anchors.md#settling-the-crucifixion-year) settles AD 33 on Luke 3:1,
+with Sejanus and Daniel 9 in support, and leaves the eclipse out of the case.
 
 ### The Star of Bethlehem (noted, not pursued here)
 
@@ -447,10 +447,9 @@ have to be extrapolated, and the further back the extrapolation runs the weaker 
 - **The Flood and Creation** have no anchor at all — every date proposed for them (Ussher's 4004 BC
   and 2349 BC, and this site's 3959 BC and 2303 BC, among them) comes purely from summing genealogies in Genesis 5 and 11, and different
   manuscript traditions (the Masoretic Text vs. the Septuagint) give meaningfully different totals
-  for those same genealogies. [The Day is Near](day-is-near.md#when-is-the-year-6000)'s own
-  timeline implies yet a third creation epoch (roughly 3925 BC) from a different set of assumptions
-  again — that gap between pages on this site is a real, unreconciled discrepancy, not a rounding
-  error, and is flagged here rather than papered over with a single confident number.
+  for those same genealogies. This site works to one line, the Masoretic numbers on the 1446 BC
+  Exodus above, and [Chronology Anchors](chronology-anchors.md) records why; the other traditions'
+  totals are set out in [Genealogy and Times](genealogy-times.md) for comparison.
 
 ## Israel and the Church
 
