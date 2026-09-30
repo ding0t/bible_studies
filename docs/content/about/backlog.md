@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-09-29
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -147,8 +147,9 @@ of about four, and record each review in the state file.
 
 - **Priority 1: changed or published since 2026-09-24 with no review since.** Silent doctrinal or
   chronology drift is the risk here.
-  - [Chronology Anchors](../last-things/chronology-anchors.md): 4,600 words the timeline rests on,
-    never reviewed.
+  - [Chronology Anchors](../last-things/chronology-anchors.md): 4,600 words the timeline rests on.
+    Reviewed 2026-08-22 alongside Combined Timeline (that day's edits only), then restructured
+    2026-09-20 without review. Reviewed again 2026-10-01; findings await the author.
   - [At Home with the Lord](../last-things/at-home-with-the-lord.md),
     [Taken Before Judgment](../last-things/taken-before-judgment.md),
     [Six Days of History](../last-things/six-days-of-history.md) and

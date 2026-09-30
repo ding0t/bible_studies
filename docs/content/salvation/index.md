@@ -4,8 +4,9 @@ category: "other"
 description: "Grace, redemption, assurance, and what happens at death."
 draft: false
 date_created: 2026-08-24
-date_modified: 2026-09-29
+date_modified: 2026-09-30
 ai_provider_models:
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
