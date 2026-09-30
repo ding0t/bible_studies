@@ -65,8 +65,6 @@ resources_consulted:
   - {type: other, title: "Edwin R. Thiele, The Mysterious Numbers of the Hebrew Kings", note: "Regnal reconstruction behind entries 1-9 and the accession-year convention."}
   - {type: other, title: "Babylonian Chronicle BM 21946; Nabonidus Chronicle; Assyrian Eponym List (Bur-Sagale); Kurkh Monolith; Black Obelisk; Taylor Prism; Bubastite Portal", note: "The contemporary documents behind every Fixed entry."}
 
-last_updated: "2026-08-22"
-
 published:
   date: "2026-08-22"
   draft_flag: "flipped to false"
@@ -170,3 +168,113 @@ revision_2026-09-06:
     years..."), the rest synthesised, and the article added to References & Recommended Reading with
     a note on where its route differs from this page's.
   last_updated: "2026-09-06"
+
+record_correction_2026-10-01: >
+  The backlog (0.7, Priority 1) said this page was "never reviewed". That was wrong: review_2026_08_22
+  above is a full review_ block. Its scope was narrower than its name suggests, though. It reviewed
+  combined-timeline.md plus "the substantial edits made the same day" to this page. Its Phase 3 did
+  not reopen the Greek, and its Phase 1 checked combined-timeline's citations, not this page's block
+  quotes. The page was then restructured (2026-09-20) and edited (2026-09-27/28) with no review
+  after that. The backlog line now says so (edited in the working tree only, because backlog.md
+  carries the author's own uncommitted edit).
+
+review_2026-10-01:
+  skill: review-bible-study
+  trigger: "Backlog 0.7 Priority 1 -- changed 2026-09-28, not reviewed since the 2026-09-20 restructure; check against the 2026-09-28 Masoretic decision (genealogy-times.yml decision_2026-09-28_masoretic_chronology)."
+  status: "Findings reported to the author. None applied to the study in this pass."
+  verified_clean:
+    - "All 41 Zadok cells recomputed: every a_prime cell = 3959 BC epoch, every active cell = 4004 BC epoch (no year 0). 41 rows, tiers 27/10/4, 31 at 0 or +/-1 -- the page's own counts hold as written."
+    - "genealogy_chronology.py (active ussher_published): MT creation 4004 BC, Flood AM 1656 = 2348 BC, Terah d. AM 2083, Exodus 1491 BC; a_prime 3959 BC at Exodus 1446. The page's two epochs match the script and genealogy-times.md. The page states no Flood or Terah figure, so it cannot disagree on those."
+    - "Arithmetic: 69x7x360 = 173,880 d = 476.07 solar yrs; 444 BC -> AD 33, 445 BC -> AD 32; 360/365.2422 = 0.98565; 490 prophetic = 482.97 solar; 1,150 d = 3.15 yrs; 2,300 d = 6.30 yrs; 14 Dec 164 BC less 1,150 d = c. 20 Oct 167 BC; sabbatical gaps 28/98/126 all multiples of 7; forward run 2 BC, AD 6, 13, 20, 27, 34 correct across the missing year 0; 120 cycles x 1 yr = 120; 430 vs 215."
+    - "Weekdays (Julian JDN): 7 Apr AD 30 Fri, 3 Apr AD 33 Fri, 6 Apr AD 32 Sun (Anderson's Palm Sunday). Tiberius yr 15 = Aug 28-Aug 29 from 19 Aug 14. Pilate AD 26-36 = 11 years, so 9 excluded."
+    - "ESV quotations verbatim against study-notes.db: Ezekiel 40:1, Daniel 8:20-22, Daniel 8:14, Mark 15:42, John 19:12, John 2:12-13 fragments, Luke 3:23, Matthew 2:1, Acts 2:20. NA28 John 2:20 matches the page's Greek; οἰκοδομήθη is aorist passive indicative (interlinear IAP3S)."
+    - "Study-note quotations: ESV SB Luke 3:1 'probably A.D. 29 (plus or minus a year)'; NIV BTSB AD 28-29. The ESV SB crucifixion article is not in the database (epub on the media volume, per revision_2026-09-06) and was not re-read in this pass."
+    - "1 Maccabees read from the raw-only scrollmapper deuterocanonical source (KJV Apocrypha): 1:54 (15 Casleu, 145th year), 1:59 (25th), 4:52-54 (25 Casleu, 148th year, 'what time and what day'), 6:20 (150th year), 6:49/53 (year of rest / seventh year), 13:41 (170th year). All dates the page draws from it hold."
+    - "External anchors against the study Bibles (ESV SB unless named). SETTLED: Qarqar 853 (1 Kgs 20 note, 'Ahab the Israelite'); Jehu 841 (2 Kgs 8 note, Shalmaneser's 18th year; Black Obelisk, 2 Kgs 10 note); Sennacherib 701 (2 Kgs 18:13 note); Carchemish 605 (Jer 46:2, Dan 1:1 notes); Jehoiachin 15/16 March 597 (2 Kgs 24:8-17 note); Babylon 539; Cyrus 538 (Ezra 1:1 note); Darius yr 2 = 29 Aug 520 (Hag 1:1 note); temple 515 (Ezra 6:15, and 458 is '57 years after the temple dedication'); Ezra 458 (Ezra 7:7 note); Gallio 51-52 (Acts 18:12 note). Bur-Sagale 763, Gaugamela, Alexander, Ipsus, Antiochus IV, Pompey and Herod 40/37 are standard, but no local source covers them. CONTESTED: Samaria 722 (Sargon II claims it; 2 Kgs 17:6 note); Shishak 925 (identification 'often' made; the year comes from the biblical synchronism; NIV CB 'most likely 926'); Jerusalem's fall ('587 or 586', 2 Kgs 24 note; ESV SB elsewhere uses 587); Nehemiah 2:1 (ESV SB: Nisan 445); Herod's death 4 BC; Onias 171; Panium 200/198; the crucifixion year. Thiele: no copy is available, so his figures were checked only where the study Bibles repeat them (931, 966)."
+  findings_critical:
+    - "STALE ENTRY NUMBERS. The table was renumbered, but the prose was not: 'Nativity bracket (#22)' is #37, '\"Forty-six years\" (#24)' is #39, and the 444 BC decree is 'chosen for consistency with entry 26' where it means #41 (entry 26 is Antiochus IV)."
+    - "KEY TAKEAWAYS CONTRADICTS THE VERDICT. 'Two independent chains land on the same year' (Daniel 9 and Luke 3:1). The Verdict says the 444 BC decree 'follows from this choice rather than standing behind it', and this file's open_questions says the same, so that the two 'cannot be mistaken for independent confirmation'. The takeaway makes exactly that mistake."
+    - "THE ACTIVE COLUMN CONTRADICTS 1 KINGS 6:1, THE PAGE'S OWN PRIMARY PASSAGE. The active scenario (ussher_published) puts the Exodus at 1491 BC = AM 2513, and its 480th year is AM 2992 = 1012 BC. The column places Thiele's 966 BC temple at AM 3038, which is 525 years after its own Exodus. Only a_prime (Exodus 1446, temple AM 2993) is consistent with both the Masoretic chain and the rail. The page never names 1491 BC. Two of its claims hold only for a_prime: the opening says everything before Abraham is 'measured backward from' the rail, and the +/-5 section says it 'propagates to creation unchanged'. The same mix of anchors is on combined-timeline.md, where the active column puts the 1446 BC Exodus at AM 2558. genealogy-times.md and flood-and-the-king-lists.md anchor the Masoretic chain at 1491 (Flood 2348) and say the Exodus anchor is still open. The numbers agree with the 2026-09-28 decision; the page mixes two Exodus dates without saying so. This is the author's epoch decision (index.json already flags it), so it is surfaced here, not resolved."
+    - "MISQUOTE. Matthew 2:16 is quoted as 'two years old and under'. The ESV reads 'two years old or under'."
+    - "EZEKIEL 40:1 AND THE DAY OF ATONEMENT. The heading and the prose say the vision is dated to the Day of Atonement ('the tenth day of the seventh month'). The verse says 'at the beginning of the year', not the seventh month. The ESV SB note dates it to April 573 BC, and the NLT footnote to 28 April 573 BC: 10 Nisan, not 10 Tishri. The Tishri/jubilee reading can be defended, but it is contested and not marked as such. 'A twenty-fifth year sits at the midpoint of a fifty-year cycle' also assumes, without saying so, that year 1 of the exile was year 1 of a jubilee cycle."
+    - "'TWO ENTRIES ARE DATABLE TO THE DAY' (the desecration and the rededication) is false by the page's own evidence. It also gives Bur-Sagale 15 June 763, Jehoiachin 2 Adar / 16 March 597, Babylon 16 Tishri / 12 October 539 and Friday 3 April AD 33 to the day, and Ezra 6:15 and Haggai 1:1 carry day dates too."
+    - "SEVENTY YEARS: '586 BC to 516 BC from the temple's destruction to its completion' contradicts entry 18 (515 BC, Ezra 6:15 on 3 Adar of Darius's 6th year). 586 to 515 is 71 years; the span is 70 only from 587, or to 516."
+    - "WRONG SOURCE: BM 21946 is cited for entries 10, 11 and 12. The chronicle covers 605 to 594 BC and does not reach the fall of Jerusalem (#12). No Babylonian chronicle does; the 587/586 date is argued from biblical synchronisms."
+  findings_moderate:
+    - "'1 Maccabees NOT held in this repo's bible-text.db, so cited by reference without local verification' (References, and this file's open_questions). The first half is true. The conclusion is false: 1 Maccabees is in references/open-data/scrollmapper-bible-databases-deuterocanonical (raw-only), and every date the page takes from it has now been checked. This is the same mistake as the Tobit precedent."
+    - "TIER OVERSTATED at #4 Shishak. The Bubastite Portal neither dates the campaign nor names Rehoboam; the year comes from 1 Kings 14:25 with Thiele's 931, which makes it Anchored under the page's own definition. Also at #41, the crucifixion: the year is argued, and the Verdict calls AD 30 defensible, so it is Anchored (the day follows once the year is chosen). Correcting both changes the tier counts to 25/12/4 but leaves the count at a year or less unchanged at 31."
+    - "Jerusalem's fall at 586 is not marked as contested. The ESV SB has '587 or 586' and uses 587 elsewhere. The +/-1 bar covers the range, but the prose never says so."
+    - "Accession-year explanation at #11 ('Judah's scribes did not'). This is stated as settled, but it is one of several explanations. The review_gaps quotation lead makes the point stronger than the study does: Jeremiah 52:28 (ESV) dates the same deportation to Nebuchadnezzar's 'seventh year', agreeing with BM 21946, while 2 Kings 24:12 says 'eighth'. Scripture itself carries both counts. The page never cites Jeremiah 52."
+    - "'Forty-six years' bracket (#39) does not follow from its own arithmetic. Herod's 18th year counted from 40 BC is 23/22 BC, and adding 46 gives AD 24/25, outside the stated AD 27-30. AD 30 comes only from the naos-completion reading, not from Herod's start. Josephus's War 1.401 gives the 15th year and is not mentioned."
+    - "The Cultural Backgrounds counter-case is understated. Both CB volumes (Luke 3:1) date Tiberius's shared rule to AD 13, not 'around AD 11-13'. They say 'scholars often date' the fifteenth year to 'Sept. of AD 27 and Oct. of AD 28', which is a stated scholarly dating, stronger than the page's 'a reckoning ... available'."
+    - "The Passover count is not shown for AD 33. From a late AD 29 start, crucifixion in AD 33 needs Passovers in 30, 31, 32 and 33: four, so the feast at 5:1 or an unnamed fourth has to be one. The page says the three named Passovers 'carry the ministry ... to AD 33'. John 2:20's reading 1 (first Passover AD 27) also falls before Luke 3:1's earliest start on the accession count."
+    - "Paul's chronology is argued in the wrong direction. The ESV SB's own chart (Acts 9 note) puts Galatians 1:18 at AD 36/37, so conversion falls about 33/34. That is tight after an AD 33 crucifixion, and the same compression is often argued in favour of AD 30. The page's 'comfortable after AD 33, unexplained gap after AD 30' presents the contested direction as settled, although it does call the line weak."
+    - "'2 Chronicles 36:21 implies 490 years of breach'. This is a common inference, stated without a confidence marker."
+    - "The sabbatical table does not say whose reconstruction its years follow (the listed years appear to be Wacholder's, with Zuckermann's a year earlier; not checked against either). 'Three independent notices sit on one unbroken cycle' is partly circular, since placing each notice in a year already assumes the cycle."
+    - "Sibling: last-things/prophecy-essentials.md says a 445 BC decree 'lands within days of the week Jesus rode into Jerusalem'. That is Anderson's AD 32 terminus, the year this page excludes. Which page to change is the author's call."
+  findings_minor:
+    - "strongs_suggest: ἱερόν (G2411) and ἔτεσιν (G2094) at line 224 are untagged, so they open no pop-up."
+    - "Validator: two `worth ___` warnings (lines 247, 274) and Check 22 (no Study outline; 3,292 words across 7 top-level sections)."
+    - "'what the review notes call an attracted date' uses internal jargon the reader cannot look up. 'The only intertestamental event the New Testament dates by name' is an unverified exhaustiveness claim. 'the reign of a king' in the prayer: Bur-Sagale dates an eponym year."
+    - "Divine pronoun: '\"after this\" he went to Capernaum' (line 249) is the author's own prose about Jesus, so 'He'."
+    - "Contrast rhythm: 8 'rather than' plus 4 other contrast shapes in about 3,000 read words, about 1 per 250. That is close to the 1-per-210 drift mark, and human-review.md leaves the judgement to the author."
+    - "review_gaps parallels not cited: 2 Chronicles 12:2 (Shishak, 'fifth year of King Rehoboam'), Isaiah 36:1 (Sennacherib), Jeremiah 52:12-13. Jeremiah 52:28 is raised above as Moderate."
+  context_coverage: "Genre covered (reference table plus argued verdict). Historical occasion covered per entry. Literary context covered for Daniel 8 and 11 (the angel's own interpretation) and partial elsewhere. Original language partial (John 2:20 only). Cultural vs transcultural covered (regnal reckoning). Principle taught elsewhere: partial. 'God keeps appointments in datable time' appears only in the prayer; no section finishes 'this shows that God ___'. Statement of faith: consistent (Daniel 9:27's week is kept intact); no tension."
+  commentary_cross_check: "ESV SB and NIV CB notes not cited by the page for these verses. CONFIRMS: 966 BC for 1 Kings 6:1 (ESV SB, which also ties it to a 1446 Exodus taken 'at face value'); 597, 605, 539, 538, 520, 515 and 458. COMPLICATES: Ezekiel 40:1 (April, not Tishri); Nehemiah 2:1 (445); the fall of Jerusalem (587 or 586); Luke 3:1 (CB's AD 27-28); Paul's conversion (33/34)."
+  gaps_not_drafted:
+    - "Key Takeaways has only Lessons about Jesus and Prayer. Missing: Types & Prophecy (Daniel 8 and 9 are the page's clearest material for it), Memory verses, Be Transformed (Think / Attitude / Do)."
+    - "No Discussion Questions."
+    - "The prayer does not close 'In Jesus' name. Amen.' (AGENTS.md)."
+    - "No Study outline (Check 22)."
+  size: >
+    The request put the study at about 4,600 words of prose, over the 4,000 budget. By the validator's
+    own measure (Check 23: prose before References, with tables and block quotes excluded) it is
+    2,997 words, under budget, which is why Check 23 does not fire. The raw count is 4,825 for the
+    whole body and 4,525 before References; the 41-row table alone is about 1,160 words. The fixes
+    above net roughly +150 to +250 words (contested-date markers, Jeremiah 52:28, the Passover
+    count), and the missing Key Takeaways parts and questions would add more. Within budget by
+    Check 23. Record a size note for simplify-bible-study only if the author counts the table
+    against the budget.
+  evidence: "Recorded in the top-level evidence block below (verify_claims.py reads only that)."
+
+evidence:
+  - {id: ez40-1-esv, what: "Ezekiel 40:1 block quote; 'beginning of the year', no month named", tool: study_verse, args: {book: Ezek, chapter: 40, verse: 1, work_id: esv-study-bible}, expect_contains: "In the twenty-fifth year of our exile, at the beginning of the year, on the tenth day of the month", checked: 2026-10-01}
+  - {id: ez40-1-esvsb, what: "ESV SB dates Ezekiel 40:1 to April 573 (Nisan, not the Day of Atonement)", tool: study_note, args: {book: Ezek, chapter: 40, verse: 1, work_id: esv-study-bible}, expect_contains: "April 573 B.C.", checked: 2026-10-01}
+  - {id: dan8-20-esv, what: "Daniel 8:20 block quote", tool: study_verse, args: {book: Dan, chapter: 8, verse: 20, work_id: esv-study-bible}, expect_contains: "these are the kings of Media and Persia", checked: 2026-10-01}
+  - {id: dan8-21-esv, what: "Daniel 8:21 block quote", tool: study_verse, args: {book: Dan, chapter: 8, verse: 21, work_id: esv-study-bible}, expect_contains: "And the goat is the king of Greece. And the great horn between his eyes is the first king.", checked: 2026-10-01}
+  - {id: dan8-22-esv, what: "Daniel 8:22 block quote", tool: study_verse, args: {book: Dan, chapter: 8, verse: 22, work_id: esv-study-bible}, expect_contains: "four kingdoms shall arise from his nation, but not with his power", checked: 2026-10-01}
+  - {id: dan8-14-esv, what: "Daniel 8:14 block quote", tool: study_verse, args: {book: Dan, chapter: 8, verse: 14, work_id: esv-study-bible}, expect_contains: "For 2,300 evenings and mornings. Then the sanctuary shall be restored to its rightful state.", checked: 2026-10-01}
+  - {id: mk15-42-esv, what: "Mark 15:42 inline quote", tool: study_verse, args: {book: Mark, chapter: 15, verse: 42, work_id: esv-study-bible}, expect_contains: "the day of Preparation, that is, the day before the Sabbath", checked: 2026-10-01}
+  - {id: jn19-12-esv, what: "John 19:12 inline quote", tool: study_verse, args: {book: John, chapter: 19, verse: 12, work_id: esv-study-bible}, expect_contains: "you are not Caesar", checked: 2026-10-01}
+  - {id: jn2-12-esv, what: "John 2:12 'for a few days'", tool: study_verse, args: {book: John, chapter: 2, verse: 12, work_id: esv-study-bible}, expect_contains: "they stayed there for a few days", checked: 2026-10-01}
+  - {id: jn2-13-esv, what: "John 2:13 Passover at hand", tool: study_verse, args: {book: John, chapter: 2, verse: 13, work_id: esv-study-bible}, expect_contains: "The Passover of the Jews was at hand", checked: 2026-10-01}
+  - {id: jn2-20-na28, what: "John 2:20 Greek as printed on the page", tool: study_verse, args: {book: John, chapter: 2, verse: 20, work_id: na28-greek-nt}, expect_contains: "ἓξ ἔτεσιν", note: "The page matches NA28 word for word, but NA28 in study-notes.db stores the acute as oxia (U+1F75) where the page has NFC tonos, so a longer substring fails on encoding alone. verify_claims.py does not normalize.", checked: 2026-10-01}
+  - {id: jn2-20-aorist, what: "οἰκοδομήθη is aorist passive indicative", tool: bible_interlinear, args: {book: John, chapter: 2, verse: 20}, expect_contains: "IAP3", checked: 2026-10-01}
+  - {id: lk3-23-esv, what: "Luke 3:23 inline quote", tool: study_verse, args: {book: Luke, chapter: 3, verse: 23, work_id: esv-study-bible}, expect_contains: "about thirty years of age", checked: 2026-10-01}
+  - {id: mt2-1-esv, what: "Matthew 2:1 inline quote", tool: study_verse, args: {book: Matt, chapter: 2, verse: 1, work_id: esv-study-bible}, expect_contains: "in the days of Herod the king", checked: 2026-10-01}
+  - {id: mt2-16-esv, what: "Matthew 2:16 reads 'or under' -- the page misquotes it as 'and under'", tool: study_verse, args: {book: Matt, chapter: 2, verse: 16, work_id: esv-study-bible}, expect_contains: "two years old or under", checked: 2026-10-01}
+  - {id: acts2-20-esv, what: "Acts 2:20 'the moon to blood'", tool: study_verse, args: {book: Acts, chapter: 2, verse: 20, work_id: esv-study-bible}, expect_contains: "the moon to blood", checked: 2026-10-01}
+  - {id: lk3-1-esvsb, what: "ESV SB Luke 3:1 quotation", tool: study_note, args: {book: Luke, chapter: 3, verse: 1, work_id: esv-study-bible}, expect_contains: "probably A.D. 29 (plus or minus a year)", checked: 2026-10-01}
+  - {id: lk3-1-nivbt, what: "NIV BTSB Luke 3:1 at AD 28-29", tool: study_note, args: {book: Luke, chapter: 3, verse: 1, work_id: niv-biblical-theology-study-bible}, expect_contains: "AD 28–29", checked: 2026-10-01}
+  - {id: lk3-1-nivcb, what: "NIV CB Luke 3:1 counter-case: AD 13, and AD 27-28 as a common dating", tool: study_note, args: {book: Luke, chapter: 3, verse: 1, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "between Sept. of AD 27 and Oct. of AD 28", checked: 2026-10-01}
+  - {id: 1kgs6-1-esvsb, what: "ESV SB 1 Kings 6:1: 966 BC, 1446 Exodus at face value", tool: study_note, args: {book: 1Kgs, chapter: 6, verse: 1, work_id: esv-study-bible}, expect_contains: "around the year 966 B.C.", checked: 2026-10-01}
+  - {id: 2kgs24-12-esv, what: "2 Kings 24:12 'eighth year'", tool: study_verse, args: {book: 2Kgs, chapter: 24, verse: 12, work_id: esv-study-bible}, expect_contains: "in the eighth year of his reign", checked: 2026-10-01}
+  - {id: jer52-28-esv, what: "Jeremiah 52:28 dates the same deportation to the 'seventh year' (the Babylonian count)", tool: study_verse, args: {book: Jer, chapter: 52, verse: 28, work_id: esv-study-bible}, expect_contains: "in the seventh year, 3,023 Judeans", checked: 2026-10-01}
+  - {id: 2kgs24-597-esvsb, what: "Jehoiachin's surrender 15/16 March 597", tool: study_note, args: {book: 2Kgs, chapter: 24, verse: 12, work_id: esv-study-bible}, expect_contains: "fifteenth or sixteenth of March 597 B.C.", checked: 2026-10-01}
+  - {id: 2kgs24-fall-esvsb, what: "Jerusalem's fall contested, 587 or 586", tool: study_note, args: {book: 2Kgs, chapter: 24, work_id: esv-study-bible}, expect_contains: "587 or 586 B.C.", checked: 2026-10-01}
+  - {id: 2kgs17-6-esvsb, what: "Samaria c. 722; Sargon II's rival claim", tool: study_note, args: {book: 2Kgs, chapter: 17, verse: 6, work_id: esv-study-bible}, expect_contains: "Sargon II", checked: 2026-10-01}
+  - {id: 2kgs18-13-esvsb, what: "Sennacherib's campaign 701", tool: study_note, args: {book: 2Kgs, chapter: 18, verse: 13, work_id: esv-study-bible}, expect_contains: "Syria-Palestine in 701", checked: 2026-10-01}
+  - {id: 1kgs20-qarqar, what: "Qarqar 853, 'Ahab the Israelite'", tool: study_note, args: {book: 1Kgs, chapter: 20, work_id: esv-study-bible}, expect_contains: "Qarqar on the Orontes River in 853", checked: 2026-10-01}
+  - {id: 2kgs8-841, what: "Shalmaneser III's 18th year = 841", tool: study_note, args: {book: 2Kgs, chapter: 8, work_id: esv-study-bible}, expect_contains: "eighteenth year (841)", checked: 2026-10-01}
+  - {id: 1kgs14-25-esvsb, what: "Shishak = Sheshonq I is an identification, 'often' made", tool: study_note, args: {book: 1Kgs, chapter: 14, verse: 25, work_id: esv-study-bible}, expect_contains: "has often been identified with the pharaoh Sheshonq I", checked: 2026-10-01}
+  - {id: 2chr12-2-esv, what: "Chronicles parallel: fifth year of Rehoboam", tool: study_verse, args: {book: 2Chr, chapter: 12, verse: 2, work_id: esv-study-bible}, expect_contains: "In the fifth year of King Rehoboam", checked: 2026-10-01}
+  - {id: jer46-2-esvsb, what: "Carchemish 605", tool: study_note, args: {book: Jer, chapter: 46, verse: 2, work_id: esv-study-bible}, expect_contains: "605 B.C.", checked: 2026-10-01}
+  - {id: ezra1-1-esvsb, what: "Cyrus's decree 538", tool: study_note, args: {book: Ezra, chapter: 1, verse: 1, work_id: esv-study-bible}, expect_contains: "The year of the decree is 538 B.C.", checked: 2026-10-01}
+  - {id: hag1-1-esvsb, what: "Darius year 2 = 29 Aug 520", tool: study_note, args: {book: Hag, chapter: 1, verse: 1, work_id: esv-study-bible}, expect_contains: "August 29, 520 B.C.", checked: 2026-10-01}
+  - {id: ezra6-15-esv, what: "Temple finished 3 Adar, Darius yr 6 (515) -- against the prose's 516", tool: study_verse, args: {book: Ezra, chapter: 6, verse: 15, work_id: esv-study-bible}, expect_contains: "third day of the month of Adar, in the sixth year", checked: 2026-10-01}
+  - {id: ezra7-7-esvsb, what: "Ezra's return 458", tool: study_note, args: {book: Ezra, chapter: 7, verse: 7, work_id: esv-study-bible}, expect_contains: "458 B.C.", checked: 2026-10-01}
+  - {id: neh2-1-esvsb, what: "ESV SB puts Nehemiah 2:1 at Nisan 445, not 444", tool: study_note, args: {book: Neh, chapter: 2, verse: 1, work_id: esv-study-bible}, expect_contains: "March/April of 445 B.C.", checked: 2026-10-01}
+  - {id: acts18-12-esvsb, what: "Gallio 51-52", tool: study_note, args: {book: Acts, chapter: 18, verse: 12, work_id: esv-study-bible}, expect_contains: "Gallio served in this role A.D. 51", checked: 2026-10-01}
+  - {id: 2chr36-21-esv, what: "2 Chronicles 36:21 seventy years of Sabbath rest", tool: study_verse, args: {book: 2Chr, chapter: 36, verse: 21, work_id: esv-study-bible}, expect_contains: "to fulfill seventy years", checked: 2026-10-01}
+
+last_updated: "2026-10-01"
