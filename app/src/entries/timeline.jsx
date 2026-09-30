@@ -4,14 +4,14 @@
 import { createRoot } from 'react-dom/client';
 import events from '../../../docs/data/events.json' with { type: 'json' };
 import ErrorBoundary from '../components/ErrorBoundary';
-import MillennialWeek from '../components/MillennialWeek';
+import ChronologyExplorer from '../components/chronology/ChronologyExplorer';
 
 const container = document.getElementById('timeline-root');
 
 if (container) {
   createRoot(container).render(
     <ErrorBoundary componentName="Prophetic Timeline">
-      <MillennialWeek events={events} />
+      <ChronologyExplorer events={events} />
     </ErrorBoundary>
   );
 }

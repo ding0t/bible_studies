@@ -733,7 +733,10 @@
       "scripture": "Genesis 5:5",
       "core": false,
       "note": "930 years old, inside the first thousand-year day.",
-      "study_ref": "last-things/combined-timeline"
+      "study_ref": "last-things/combined-timeline",
+      "people": [
+        "adam"
+      ]
     },
     {
       "id": "enoch_taken",
@@ -742,7 +745,10 @@
       "scripture": "Genesis 5:23-24",
       "core": false,
       "note": "Born AM 622, taken at 365.",
-      "study_ref": "last-things/combined-timeline"
+      "study_ref": "last-things/combined-timeline",
+      "people": [
+        "enoch"
+      ]
     },
     {
       "id": "flood",
@@ -751,7 +757,11 @@
       "scripture": "Genesis 7:11",
       "core": true,
       "note": "Noah's 600th year.",
-      "study_ref": "last-things/combined-timeline"
+      "study_ref": "last-things/combined-timeline",
+      "people": [
+        "noah",
+        "shem"
+      ]
     },
     {
       "id": "babel",
@@ -761,7 +771,10 @@
       "core": false,
       "note": "Genesis gives only 'in his days'; Peleg lived AM 1757-1996. The population study models the dispersion about 200 years after the Flood.",
       "study_ref": "last-things/combined-timeline",
-      "am_end": 1996
+      "am_end": 1996,
+      "people": [
+        "peleg"
+      ]
     },
     {
       "id": "abram_born",
@@ -2385,7 +2398,7 @@
     },
     {
       "id": "abraham_death",
-      "label": "Abraham: Death",
+      "label": "Abraham dies",
       "am": 2183,
       "description": "Died and was gathered to his people, lived 175 years (Genesis 25:7-8)",
       "people": [
@@ -2427,7 +2440,7 @@
     },
     {
       "id": "isaac_death",
-      "label": "Isaac: Death",
+      "label": "Isaac dies",
       "am": 2288,
       "description": "Died in Mamre at age 180 (Genesis 35:28-29)",
       "people": [
@@ -2546,7 +2559,7 @@
     },
     {
       "id": "hezron_birth",
-      "label": "Hezron: Birth",
+      "label": "Hezron born",
       "am": 2272,
       "description": "Son of Perez. Genesis 46:12 lists Hezron among those who went down to Egypt with Jacob's household, so he was born before the migration, not in Egypt; Ruth 4:18/Matthew 1:3 give no age or reign data, and the span from Perez to Nahshon (the Exodus generation, Numbers 1:7) depends on the disputed length of the sojourn itself (chronology-anchors.md notes a single reading of Exodus 12:40 moves the total by 215 years) -- so this study spaces Hezron, Ram and Amminadab evenly across that window rather than inventing false precision.",
       "people": [
@@ -2555,7 +2568,7 @@
     },
     {
       "id": "ram_birth",
-      "label": "Ram: Birth",
+      "label": "Ram born",
       "am": 2330,
       "description": "Son of Hezron (Ruth 4:19, Matthew 1:3). Spaced evenly between Perez and Nahshon -- see Hezron's Birth note.",
       "people": [
@@ -2564,7 +2577,7 @@
     },
     {
       "id": "amminadab_birth",
-      "label": "Amminadab: Birth",
+      "label": "Amminadab born",
       "am": 2389,
       "description": "Son of Ram. Spaced evenly between Perez and Nahshon -- see Hezron's Birth note. Numbers 1:7 names his son Nahshon, not Amminadab himself, as the one leading Judah in the wilderness census.",
       "people": [
@@ -2573,7 +2586,7 @@
     },
     {
       "id": "nahshon_birth",
-      "label": "Nahshon: Birth",
+      "label": "Nahshon born",
       "am": 2447,
       "description": "Son of Amminadab",
       "people": [
@@ -2593,7 +2606,7 @@
     },
     {
       "id": "salmon_birth",
-      "label": "Salmon: Birth",
+      "label": "Salmon born",
       "gregorian": -1377,
       "description": "Son of Nahshon. Ruth 4:20-21/Matthew 1:4-5 name this generation but give no independent chronology, and the gap between Nahshon (Exodus generation, Numbers 1:7) and Boaz (whose own date is fixed by the tightly-narrated Ruth 4 birth of Obed) is far longer than one human lifetime -- so this study spaces Salmon evenly across that window rather than inventing false precision, the same telescoping documented in this study's Genealogy and Times (the Davidic-line check) and later applied again to Matthew's Abiud-to-Jacob list.",
       "people": [
@@ -2624,7 +2637,7 @@
     },
     {
       "id": "boaz_birth",
-      "label": "Boaz: Birth",
+      "label": "Boaz born",
       "gregorian": -1197,
       "description": "Son of Salmon and Rahab. Birth year not independently given; fixed here by working back from Obed's real birth (below) rather than from Salmon's own uncertain date -- see Salmon's Birth note.",
       "people": [
@@ -2663,7 +2676,7 @@
     },
     {
       "id": "jesse_birth",
-      "label": "Jesse: Birth",
+      "label": "Jesse born",
       "gregorian": -1093,
       "description": "Son of Obed",
       "people": [
@@ -2801,7 +2814,7 @@
     },
     {
       "id": "rehoboam_birth",
-      "label": "Rehoboam: Birth",
+      "label": "Rehoboam born",
       "gregorian": -972,
       "description": "Son of Solomon and Naamah the Ammonitess",
       "people": [
@@ -2810,7 +2823,7 @@
     },
     {
       "id": "abijah_coronation",
-      "label": "Abijah: Coronation",
+      "label": "Abijah becomes king",
       "gregorian": -913,
       "description": "Became king of Judah (1 Kings 14:31, 15:1)",
       "people": [
@@ -2828,7 +2841,7 @@
     },
     {
       "id": "asa_coronation",
-      "label": "Asa: Coronation",
+      "label": "Asa becomes king",
       "gregorian": -911,
       "description": "Became king at age 20 (1 Kings 15:9-11)",
       "people": [
@@ -2855,7 +2868,7 @@
     },
     {
       "id": "jehoshaphat_coronation",
-      "label": "Jehoshaphat: Coronation",
+      "label": "Jehoshaphat becomes king",
       "gregorian": -872,
       "description": "Became king of Judah (1 Kings 15:24)",
       "people": [
@@ -2873,7 +2886,7 @@
     },
     {
       "id": "jehoram_coronation",
-      "label": "Jehoram: Coronation",
+      "label": "Jehoram becomes king",
       "gregorian": -853,
       "description": "Became king of Judah (2 Kings 8:16)",
       "people": [
@@ -2882,7 +2895,7 @@
     },
     {
       "id": "ahaziah_coronation",
-      "label": "Ahaziah: Coronation",
+      "label": "Ahaziah becomes king",
       "gregorian": -841,
       "description": "Became king at age 22 (2 Kings 8:26)",
       "people": [
@@ -2910,7 +2923,7 @@
     },
     {
       "id": "joash_coronation",
-      "label": "Joash: Coronation",
+      "label": "Joash becomes king",
       "gregorian": -835,
       "description": "Crowned king at age 7 after the priest Jehoiada overthrew Athaliah (2 Kings 11:4-21)",
       "people": [
@@ -2939,7 +2952,7 @@
     },
     {
       "id": "uzziah_coronation",
-      "label": "Uzziah: Coronation",
+      "label": "Uzziah becomes king",
       "gregorian": -792,
       "description": "Became king at age 16 (2 Kings 15:1-3)",
       "people": [
@@ -2957,7 +2970,7 @@
     },
     {
       "id": "jotham_coronation",
-      "label": "Jotham: Coronation",
+      "label": "Jotham becomes king",
       "gregorian": -750,
       "description": "Became king of Judah (2 Kings 15:32-35)",
       "people": [
@@ -2966,7 +2979,7 @@
     },
     {
       "id": "ahaz_coronation",
-      "label": "Ahaz: Coronation",
+      "label": "Ahaz becomes king",
       "gregorian": -735,
       "description": "Became king of Judah (2 Kings 16:1-2)",
       "people": [
@@ -2984,7 +2997,7 @@
     },
     {
       "id": "hezekiah_coronation",
-      "label": "Hezekiah: Coronation",
+      "label": "Hezekiah becomes king",
       "gregorian": -715,
       "description": "Became king of Judah at age 25 (2 Kings 18:1-2)",
       "people": [
@@ -3011,7 +3024,7 @@
     },
     {
       "id": "manasseh_coronation",
-      "label": "Manasseh: Coronation",
+      "label": "Manasseh becomes king",
       "gregorian": -697,
       "description": "Became king at age 12 (2 Kings 21:1)",
       "people": [
@@ -3038,7 +3051,7 @@
     },
     {
       "id": "amon_coronation",
-      "label": "Amon: Coronation",
+      "label": "Amon becomes king",
       "gregorian": -642,
       "description": "Became king at age 22 (2 Kings 21:19)",
       "people": [
@@ -3107,7 +3120,7 @@
     },
     {
       "id": "abiud_birth",
-      "label": "Abiud: Birth",
+      "label": "Abiud born",
       "gregorian": -500,
       "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
@@ -3116,7 +3129,7 @@
     },
     {
       "id": "eliakim_3_birth",
-      "label": "Eliakim: Birth",
+      "label": "Eliakim born",
       "gregorian": -448,
       "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
@@ -3125,7 +3138,7 @@
     },
     {
       "id": "azor_birth",
-      "label": "Azor: Birth",
+      "label": "Azor born",
       "gregorian": -397,
       "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
@@ -3134,7 +3147,7 @@
     },
     {
       "id": "sadoc_birth",
-      "label": "Sadoc: Birth",
+      "label": "Sadoc born",
       "gregorian": -345,
       "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
@@ -3143,7 +3156,7 @@
     },
     {
       "id": "achim_birth",
-      "label": "Achim: Birth",
+      "label": "Achim born",
       "gregorian": -293,
       "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
@@ -3152,7 +3165,7 @@
     },
     {
       "id": "eliud_birth",
-      "label": "Eliud: Birth",
+      "label": "Eliud born",
       "gregorian": -242,
       "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
@@ -3161,7 +3174,7 @@
     },
     {
       "id": "eleazar_2_birth",
-      "label": "Eleazar: Birth",
+      "label": "Eleazar born",
       "gregorian": -190,
       "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
@@ -3170,7 +3183,7 @@
     },
     {
       "id": "matthan_birth",
-      "label": "Matthan: Birth",
+      "label": "Matthan born",
       "gregorian": -138,
       "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
@@ -3179,7 +3192,7 @@
     },
     {
       "id": "jacob_2_birth",
-      "label": "Jacob: Birth",
+      "label": "Jacob born",
       "gregorian": -87,
       "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
@@ -3188,7 +3201,7 @@
     },
     {
       "id": "joseph_birth",
-      "label": "Joseph: Birth",
+      "label": "Joseph born",
       "gregorian": -35,
       "description": "Son of Jacob; carpenter (Matthew 1:16, 13:55). Birth year not given in Scripture; estimated here so he is a young man at his betrothal.",
       "people": [
@@ -3250,7 +3263,7 @@
     },
     {
       "id": "mary_birth",
-      "label": "Mary: Birth",
+      "label": "Mary born",
       "gregorian": -22,
       "description": "Born in Nazareth or Jerusalem. Birth year not given in Scripture; estimated here consistent with typical betrothal age.",
       "people": [

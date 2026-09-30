@@ -607,6 +607,9 @@ function init() {
   if (!root) return;
   scan(root);
   document.body.append(card);
+  // The interactive tools render after this scan; they pass their own late-rendered panels here so
+  // the references in them pop up like any other.
+  window.theWayPopups = { scan: (node) => node && scan(node) };
 
   document.addEventListener('click', (event) => {
     const node = targetOf(event);
