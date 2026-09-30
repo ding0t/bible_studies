@@ -1,11 +1,11 @@
 ---
 title: "Chronology Anchors: What Can Actually Be Dated, and How Tightly"
 category: "prophecy"
-description: "Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its year in both candidate Zadok epochs. The fixed rail the rest of the biblical timeline hangs from."
+description: "Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its Zadok year. The fixed rail the rest of the biblical timeline hangs from."
 tags: ["chronology", "genealogy", "archaeology", "method/archaeology", "status/investigation"]
 draft: false
 primary_passage: "1 Kings 6:1"
-bible_references: ["1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20"]
+bible_references: ["1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20"]
 date_created: 2026-08-22
 date_modified: 2026-09-30
 ai_provider_models:
@@ -28,7 +28,7 @@ This is the reference table the genealogy work depends on. For the elastic stret
 
 ### Lessons about Jesus
 
-Two independent chains land on the same year for the crucifixion. Daniel's seventy weeks, counted in prophetic years from the decree of Nehemiah 2:1, runs 69 × 7 × 360 = 173,880 days — 476 solar years, reaching AD 33 from a 444 BC decree. Separately, Luke 3:1 dates John's ministry to the fifteenth year of Tiberius (AD 28/29), and a ministry spanning the Passovers John records reaches the same place. A prophecy given in Babylon and a Roman regnal date preserved by a physician converge on one Friday.
+Luke fixes the year of the cross, and Daniel's prophecy lands beside it. Luke 3:1 dates John's ministry to the fifteenth year of Tiberius (AD 28/29), and the Passovers John records carry Jesus' ministry to Friday, 3 April AD 33. Daniel's sixty-nine weeks, counted in prophetic years from the decree of Nehemiah 2:1, run 69 × 7 × 360 = 173,880 days, or 476 solar years: from Artaxerxes' twentieth year that reaches AD 32 on one reckoning of his reign and AD 33 on the other, and never AD 30. This page takes the decree at 444 BC to fit the Friday Luke fixes, so the agreement to the day follows from that choice, while the agreement to within a year holds on either reckoning. A prophecy given in Babylon and a Roman regnal date preserved by a physician converge on the same Passover.
 
 ### Prayer
 
@@ -51,56 +51,56 @@ No entry below is Elastic. That tier begins at Abraham and runs backward, and it
 
 ## The anchor table
 
-Zadok years are given under two of the epoch scenarios tracked in
-`docs/data/genealogy/index.json`: **`active`**, the `ussher_published` scenario at creation
-4004 BC that every published `zadok_year` on this site uses, and **`a_prime`**, the same
-Masoretic chain re-anchored on an Exodus of 1446 BC, giving creation 3959 BC. The two differ by
-45 years throughout. Both scenarios, the two further alternates, and the arguments each way are
-set out in [The Zadok Calendar](../feasts/zadok-calendar.md#where-year-0-sits).
+Zadok years count from creation at 3959 BC. That epoch is the Masoretic chain of Genesis 5 and 11
+anchored on an Exodus of 1446 BC, which 1 Kings 6:1's 480 years give when counted back from
+entry 1 (the `a_prime` scenario in `docs/data/genealogy/index.json`, this site's epoch since
+2026-10-01). Until then the site counted from Ussher's 4004 BC, anchored on an Exodus of 1491 BC,
+which by the same verse would put entry 1 at 1012 BC. The alternates, and the arguments each way,
+are set out in [The Zadok Calendar](../feasts/zadok-calendar.md#where-year-0-sits).
 
-| # | Event | Scripture | Date | Tier | ± | Zadok `a_prime` | Zadok `active` |
-|---|---|---|---|---|---|---|---|
-| 1 | Temple begun, Solomon's 4th year | 1 Kings 6:1 | 966 BC | Anchored | ±5 | 2993 | 3038 |
-| 2 | Temple completed, 11th year | 1 Kings 6:38 | 959 BC | Anchored | ±5 | 3000 | 3045 |
-| 3 | Solomon dies; kingdom divides | 1 Kings 11:42-43 | 931 BC | Anchored | ±5 | 3028 | 3073 |
-| 4 | Shishak invades, Rehoboam's 5th year | 1 Kings 14:25-26 | 925 BC | Anchored | ±3 | 3034 | 3079 |
-| 5 | Ahab at Qarqar | — | 853 BC | Fixed | ±1 | 3106 | 3151 |
-| 6 | Jehu pays tribute to Shalmaneser III | — | 841 BC | Fixed | ±1 | 3118 | 3163 |
-| 7 | **Bur-Sagale eclipse** | — | **763 BC** | **Fixed** | **0** | 3196 | 3241 |
-| 8 | Samaria falls, Hoshea's 9th year | 2 Kings 17:6 | 722 BC | Fixed | ±1 | 3237 | 3282 |
-| 9 | Sennacherib besieges Jerusalem | 2 Kings 18:13 | 701 BC | Fixed | ±1 | 3258 | 3303 |
-| 10 | Carchemish; Nebuchadnezzar accedes | Jeremiah 46:2; Daniel 1:1 | 605 BC | Fixed | ±1 | 3354 | 3399 |
-| 11 | Jehoiachin deported | 2 Kings 24:12 | 597 BC | Fixed | 0 | 3362 | 3407 |
-| 12 | Jerusalem falls; temple burned | 2 Kings 25:8-9 | 586 BC | Fixed | ±1 | 3373 | 3418 |
-| 13 | Ezekiel's temple vision | Ezekiel 40:1 | 573 BC | Anchored | ±1 | 3386 | 3431 |
-| 14 | Babylon falls to Cyrus | Daniel 5:30-31 | 539 BC | Fixed | 0 | 3420 | 3465 |
-| 15 | Cyrus's decree | Ezra 1:1; 2 Chronicles 36:22-23 | 538 BC | Fixed | ±1 | 3421 | 3466 |
-| 16 | Temple foundation laid | Ezra 3:8 | 536 BC | Anchored | ±2 | 3423 | 3468 |
-| 17 | Work resumes, Darius's 2nd year | Ezra 4:24; Haggai 1:1 | 520 BC | Fixed | 0 | 3439 | 3484 |
-| 18 | Second temple completed | Ezra 6:15 | 515 BC | Fixed | 0 | 3444 | 3489 |
-| 19 | Ezra returns, Artaxerxes' 7th year | Ezra 7:7-8 | 458 BC | Anchored | ±1 | 3501 | 3546 |
-| 20 | Decree to restore Jerusalem, 20th year | Nehemiah 2:1 | 444 BC | Anchored | ±1 | 3515 | 3560 |
-| 21 | Malachi, the last writing prophet | Malachi 1:1 | 430 BC | Bracketed | 460-400 BC | 3529 | 3574 |
-| 22 | Alexander breaks Persia at Gaugamela | Daniel 8:5-7, 20-21; 11:3 | 331 BC | Fixed | 0 | 3628 | 3673 |
-| 23 | Alexander dies; the horn is broken | Daniel 8:8, 22; 11:4 | 323 BC | Fixed | 0 | 3636 | 3681 |
-| 24 | Four kingdoms settled at Ipsus | Daniel 8:22; 11:4 | 301 BC | Fixed | ±1 | 3658 | 3703 |
-| 25 | Antiochus III takes Judea at Panium | Daniel 11:15-16 | 200 BC | Fixed | ±2 | 3759 | 3804 |
-| 26 | Antiochus IV Epiphanes accedes | Daniel 8:9, 23; 11:21 | 175 BC | Fixed | 0 | 3784 | 3829 |
-| 27 | Onias III deposed; priesthood sold | Daniel 11:22 | 171 BC | Anchored | ±1 | 3788 | 3833 |
-| 28 | **Temple desecrated; the abomination set up** | Daniel 11:31; 8:11-13 | **167 BC** | **Fixed** | **0** | 3792 | 3837 |
-| 29 | **Temple rededicated — Hanukkah** | Daniel 8:14; John 10:22 | **164 BC** | **Fixed** | **0** | 3795 | 3840 |
-| 30 | Sabbatical year — siege of Beth-zur | 1 Maccabees 6:49, 53 | 163 BC | Fixed | ±1 | 3796 | 3841 |
-| 31 | Hasmonean independence under Simon | — | 142 BC | Fixed | ±1 | 3817 | 3862 |
-| 32 | Sabbatical year — Antiochus VII's siege | Josephus, *Ant.* 13.234 | 135 BC | Fixed | ±1 | 3824 | 3869 |
-| 33 | Pompey takes Jerusalem; Rome rules Judea | — | 63 BC | Fixed | 0 | 3896 | 3941 |
-| 34 | Herod appointed king by Rome | — | 40 BC | Fixed | ±1 | 3919 | 3964 |
-| 35 | Sabbatical year — Herod takes Jerusalem | Josephus, *Ant.* 14.475 | 37 BC | Fixed | ±1 | 3922 | 3967 |
-| 36 | Herod begins the temple | Josephus, *Ant.* 15.380 | 20 BC | Bracketed | 20-16 BC | 3939 | 3984 |
-| 37 | Nativity | Matthew 2:1; Luke 2 | 5 BC | Bracketed | 6-4 BC | 3954 | 3999 |
-| 38 | Herod dies | Josephus | 4 BC | Anchored | ±1 | 3955 | 4000 |
-| 39 | Temple "forty-six years" Passover | John 2:20 | AD 28 | Bracketed | AD 27-30 | 3986 | 4031 |
-| 40 | John's ministry begins | Luke 3:1-2 | AD 29 | Anchored | ±1 | 3987 | 4032 |
-| 41 | **Crucifixion and Resurrection** | the Gospels | **AD 33** | **Anchored** | **0** | 3991 | 4036 |
+| # | Event | Scripture | Date | Tier | ± | Zadok |
+|---|---|---|---|---|---|---|
+| 1 | Temple begun, Solomon's 4th year | 1 Kings 6:1 | 966 BC | Anchored | ±5 | 2993 |
+| 2 | Temple completed, 11th year | 1 Kings 6:38 | 959 BC | Anchored | ±5 | 3000 |
+| 3 | Solomon dies; kingdom divides | 1 Kings 11:42-43 | 931 BC | Anchored | ±5 | 3028 |
+| 4 | Shishak invades, Rehoboam's 5th year | 1 Kings 14:25-26 | 925 BC | Anchored | ±3 | 3034 |
+| 5 | Ahab at Qarqar | — | 853 BC | Fixed | ±1 | 3106 |
+| 6 | Jehu pays tribute to Shalmaneser III | — | 841 BC | Fixed | ±1 | 3118 |
+| 7 | **Bur-Sagale eclipse** | — | **763 BC** | **Fixed** | **0** | 3196 |
+| 8 | Samaria falls, Hoshea's 9th year | 2 Kings 17:6 | 722 BC | Fixed | ±1 | 3237 |
+| 9 | Sennacherib besieges Jerusalem | 2 Kings 18:13 | 701 BC | Fixed | ±1 | 3258 |
+| 10 | Carchemish; Nebuchadnezzar accedes | Jeremiah 46:2; Daniel 1:1 | 605 BC | Fixed | ±1 | 3354 |
+| 11 | Jehoiachin deported | 2 Kings 24:12 | 597 BC | Fixed | 0 | 3362 |
+| 12 | Jerusalem falls; temple burned | 2 Kings 25:8-9 | 586 BC | Fixed | ±1 | 3373 |
+| 13 | Ezekiel's temple vision | Ezekiel 40:1 | 573 BC | Anchored | ±1 | 3386 |
+| 14 | Babylon falls to Cyrus | Daniel 5:30-31 | 539 BC | Fixed | 0 | 3420 |
+| 15 | Cyrus's decree | Ezra 1:1; 2 Chronicles 36:22-23 | 538 BC | Fixed | ±1 | 3421 |
+| 16 | Temple foundation laid | Ezra 3:8 | 536 BC | Anchored | ±2 | 3423 |
+| 17 | Work resumes, Darius's 2nd year | Ezra 4:24; Haggai 1:1 | 520 BC | Fixed | 0 | 3439 |
+| 18 | Second temple completed | Ezra 6:15 | 515 BC | Fixed | 0 | 3444 |
+| 19 | Ezra returns, Artaxerxes' 7th year | Ezra 7:7-8 | 458 BC | Anchored | ±1 | 3501 |
+| 20 | Decree to restore Jerusalem, 20th year | Nehemiah 2:1 | 444 BC | Anchored | ±1 | 3515 |
+| 21 | Malachi, the last writing prophet | Malachi 1:1 | 430 BC | Bracketed | 460-400 BC | 3529 |
+| 22 | Alexander breaks Persia at Gaugamela | Daniel 8:5-7, 20-21; 11:3 | 331 BC | Fixed | 0 | 3628 |
+| 23 | Alexander dies; the horn is broken | Daniel 8:8, 22; 11:4 | 323 BC | Fixed | 0 | 3636 |
+| 24 | Four kingdoms settled at Ipsus | Daniel 8:22; 11:4 | 301 BC | Fixed | ±1 | 3658 |
+| 25 | Antiochus III takes Judea at Panium | Daniel 11:15-16 | 200 BC | Fixed | ±2 | 3759 |
+| 26 | Antiochus IV Epiphanes accedes | Daniel 8:9, 23; 11:21 | 175 BC | Fixed | 0 | 3784 |
+| 27 | Onias III deposed; priesthood sold | Daniel 11:22 | 171 BC | Anchored | ±1 | 3788 |
+| 28 | **Temple desecrated; the abomination set up** | Daniel 11:31; 8:11-13 | **167 BC** | **Fixed** | **0** | 3792 |
+| 29 | **Temple rededicated — Hanukkah** | Daniel 8:14; John 10:22 | **164 BC** | **Fixed** | **0** | 3795 |
+| 30 | Sabbatical year — siege of Beth-zur | 1 Maccabees 6:49, 53 | 163 BC | Fixed | ±1 | 3796 |
+| 31 | Hasmonean independence under Simon | — | 142 BC | Fixed | ±1 | 3817 |
+| 32 | Sabbatical year — Antiochus VII's siege | Josephus, *Ant.* 13.234 | 135 BC | Fixed | ±1 | 3824 |
+| 33 | Pompey takes Jerusalem; Rome rules Judea | — | 63 BC | Fixed | 0 | 3896 |
+| 34 | Herod appointed king by Rome | — | 40 BC | Fixed | ±1 | 3919 |
+| 35 | Sabbatical year — Herod takes Jerusalem | Josephus, *Ant.* 14.475 | 37 BC | Fixed | ±1 | 3922 |
+| 36 | Herod begins the temple | Josephus, *Ant.* 15.380 | 20 BC | Bracketed | 20-16 BC | 3939 |
+| 37 | Nativity | Matthew 2:1; Luke 2 | 5 BC | Bracketed | 6-4 BC | 3954 |
+| 38 | Herod dies | Josephus | 4 BC | Anchored | ±1 | 3955 |
+| 39 | Temple "forty-six years" Passover | John 2:20 | AD 28 | Bracketed | AD 27-30 | 3986 |
+| 40 | John's ministry begins | Luke 3:1-2 | AD 29 | Anchored | ±1 | 3987 |
+| 41 | **Crucifixion and Resurrection** | the Gospels | **AD 33** | **Anchored** | **0** | 3991 |
 
 Twenty-five Fixed, twelve Anchored, four Bracketed. Tier and precision are not the same axis: thirty-one entries carry an error bar of a year or less, which includes seven Anchored entries at ±1 or better and excludes one Fixed entry at ±2.
 
@@ -116,7 +116,7 @@ Twenty-five Fixed, twelve Anchored, four Bracketed. Tier and precision are not t
 
 **Jehoiachin's deportation, 16 March 597 BC (#11).** Babylonian Chronicle BM 21946 dates the capture of Jerusalem to 2 Adar of Nebuchadnezzar's seventh year. Second Kings 24:12 calls it his eighth. Scripture carries both counts: Jeremiah 52:28 dates the same deportation to Nebuchadnezzar's "seventh year" (ESV), in agreement with the chronicle. The usual explanation is accession-year reckoning — Babylonian scribes counted a king's partial first year as his "accession year" and began year one the following spring, and 2 Kings counts that partial year as year one. Some reconstructions attribute the gap to a year counted from Tishri instead. On either explanation the difference is one of convention, and it recurs wherever Scripture and a Mesopotamian record date the same event.
 
-### Ezekiel's vision, dated to the Day of Atonement
+### Ezekiel's vision, dated to the beginning of the year
 
 **Ezekiel's vision, 573 BC (#13).** Dated to the twenty-fifth year of the exile, "at the beginning of the year, on the tenth day of the month."
 
@@ -124,7 +124,7 @@ Twenty-five Fixed, twelve Anchored, four Bracketed. Tier and precision are not t
 >
 > 1 In the twenty-fifth year of our exile, at the beginning of the year, on the tenth day of the month, in the fourteenth year after the city was struck down, on that very day, the hand of the LORD was upon me, and he brought me to the city.
 
-The tenth day of the seventh month is the Day of Atonement, which Leviticus 25:9 names as the day the jubilee trumpet sounds, and a twenty-fifth year sits at the midpoint of a fifty-year cycle. Ezekiel's temple vision appears to be dated *to* a jubilee by the text itself. This is the clearest case on the site of what the review notes call an **attracted** date — Scripture attaching an event to a cycle — as distinct from a modern reader snapping an undated event to the nearest one.
+The verse names no month, and "the beginning of the year" is read two ways. Taken as the first month, Nisan (Exodus 12:2), the date is 10 Nisan, April 573 BC, the day the Passover lamb was chosen (Exodus 12:3); the *ESV Study Bible* and the NLT date the vision that way. Taken as the start of the year in the seventh month, the tenth day is the Day of Atonement, which Leviticus 25:9 names as the day the jubilee trumpet sounds, and Ezekiel's temple vision would then be dated to a jubilee by the text itself. Which month is meant is contested, and this page does not settle it. If the second reading holds, the vision is an **attracted** date — Scripture attaching an event to a cycle — as distinct from a modern reader snapping an undated event to the nearest one.
 
 ### Jeremiah's seventy years, closed twice
 
@@ -268,7 +268,7 @@ a few days," and *then* "the Passover of the Jews was at hand" (2:12-13).
 
 ### Verdict: Friday, 3 April AD 33
 
-**Verdict: Friday 3 April AD 33.** The date itself is astronomically exact once the year is chosen; the year rests on Luke 3:1 read naturally, supported by Sejanus and Daniel 9. AD 30 stays defensible for anyone who takes Tiberius's fifteenth year from the co-regency, and this study records that rather than dismissing it. Entry 20's 444 BC decree follows from this choice rather than standing behind it.
+**Verdict: Friday 3 April AD 33.** The date itself is astronomically exact once the year is chosen; the year rests on Luke 3:1 read naturally, supported by Sejanus and by Daniel 9, which excludes AD 30 on either reckoning of the decree. AD 30 stays defensible for anyone who takes Tiberius's fifteenth year from the co-regency, and this study records that rather than dismissing it. Entry 20's 444 BC decree follows from this choice rather than standing behind it.
 
 ### The ±5-year uncertainty and what it propagates to
 

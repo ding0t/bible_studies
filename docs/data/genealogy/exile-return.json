@@ -5,9 +5,9 @@
       "id": "jehoiakim",
       "name": "Jehoiakim",
       "title": "King of Judah, Evil King, Pre-Exile",
-      "zadok_year_born": 3370,
+      "zadok_year_born": 3325,
       "gregorian_year_born": -634,
-      "zadok_year_died": 3406,
+      "zadok_year_died": 3361,
       "gregorian_year_died": -598,
       "lifespan_years": 36,
       "parent_id": "josiah",
@@ -30,19 +30,19 @@
       "major_events": [
         {
           "event": "Coronation",
-          "zadok_year": 3395,
+          "zadok_year": 3350,
           "gregorian_year": -609,
           "description": "Made king by Pharaoh Necho after Jehoahaz's brief reign; renamed from Eliakim (2 Kings 23:34-36)"
         },
         {
           "event": "Nebuchadnezzar's Siege",
-          "zadok_year": 3399,
+          "zadok_year": 3354,
           "gregorian_year": -605,
           "description": "Babylon besieged Jerusalem after Carchemish; became vassal (2 Kings 24:1, Daniel 1:1)"
         },
         {
           "event": "Death",
-          "zadok_year": 3406,
+          "zadok_year": 3361,
           "gregorian_year": -598,
           "description": "Died as Nebuchadnezzar's forces approached; succeeded by his son Jehoiachin (2 Kings 24:6)"
         }
@@ -62,9 +62,9 @@
       "id": "jehoiachin",
       "name": "Jehoiachin (Coniah)",
       "title": "King of Judah, Exiled King",
-      "zadok_year_born": 3388,
+      "zadok_year_born": 3343,
       "gregorian_year_born": -616,
-      "zadok_year_died": 3448,
+      "zadok_year_died": 3403,
       "gregorian_year_died": -556,
       "lifespan_years": 60,
       "parent_id": "jehoiakim",
@@ -88,19 +88,19 @@
       "major_events": [
         {
           "event": "Coronation",
-          "zadok_year": 3406,
+          "zadok_year": 3361,
           "gregorian_year": -598,
           "description": "Became king at age 18; reigned only 3 months (2 Kings 24:8)"
         },
         {
           "event": "Exile to Babylon",
-          "zadok_year": 3407,
+          "zadok_year": 3362,
           "gregorian_year": -597,
           "description": "Captured by Nebuchadnezzar and deported to Babylon (2 Kings 24:12-16, 2 Chronicles 36:9-10); Babylonian Chronicle BM 21946 dates the capture to 16 March 597 BC"
         },
         {
           "event": "Release from Prison",
-          "zadok_year": 3443,
+          "zadok_year": 3398,
           "gregorian_year": -561,
           "description": "Released by Evil-Merodach in the 37th year of his exile; given a seat above the other exiled kings (2 Kings 25:27-30). Scripture does not record the year of his death."
         }
@@ -121,9 +121,9 @@
       "id": "shealtiel",
       "name": "Shealtiel",
       "title": "Son of Jehoiachin, Father of Zerubbabel",
-      "zadok_year_born": 3414,
+      "zadok_year_born": 3369,
       "gregorian_year_born": -590,
-      "zadok_year_died": 3479,
+      "zadok_year_died": 3434,
       "gregorian_year_died": -525,
       "lifespan_years": 65,
       "parent_id": "jehoiachin",
@@ -145,7 +145,7 @@
       "major_events": [
         {
           "event": "Birth in Exile",
-          "zadok_year": 3414,
+          "zadok_year": 3369,
           "gregorian_year": -590,
           "description": "Born in Babylon during the exile (1 Chronicles 3:17); exact year not given in Scripture -- estimated here"
         }
@@ -165,9 +165,9 @@
       "id": "zerubbabel",
       "name": "Zerubbabel",
       "title": "Governor of Judah, Temple Rebuilder",
-      "zadok_year_born": 3441,
+      "zadok_year_born": 3396,
       "gregorian_year_born": -563,
-      "zadok_year_died": 3499,
+      "zadok_year_died": 3454,
       "gregorian_year_died": -505,
       "lifespan_years": 58,
       "parent_id": "shealtiel",
@@ -190,19 +190,19 @@
       "major_events": [
         {
           "event": "Return from Exile",
-          "zadok_year": 3466,
+          "zadok_year": 3421,
           "gregorian_year": -538,
           "description": "Led first group of exiles back to Judah under Cyrus's decree (Ezra 1:8, 2:2)"
         },
         {
           "event": "Foundation of Temple",
-          "zadok_year": 3468,
+          "zadok_year": 3423,
           "gregorian_year": -536,
           "description": "Laid foundation of second Temple (Ezra 3:8-13)"
         },
         {
           "event": "Completion of Temple",
-          "zadok_year": 3489,
+          "zadok_year": 3444,
           "gregorian_year": -515,
           "description": "Second Temple completed and dedicated (Ezra 6:14-18)"
         }

@@ -88,9 +88,9 @@ const GenealogyViewer = () => {
   // Solomon's death (931 BC) onward is anchored to docs/content/last-things/chronology-anchors.md;
   // conquest-judges.json above that point is still the site's unresolved "elastic" pre-Solomon zone.
   const eraBands = [
-    { name: 'Antediluvian', start: -4004, end: -2348, color: 'rgba(99, 102, 241, 0.08)' },
-    { name: 'Patriarchal', start: -2348, end: -1450, color: 'rgba(16, 185, 129, 0.08)' },
-    { name: 'Conquest & Judges', start: -1450, end: -931, color: 'rgba(245, 158, 11, 0.08)' },
+    { name: 'Antediluvian', start: -3959, end: -2303, color: 'rgba(99, 102, 241, 0.08)' },
+    { name: 'Patriarchal', start: -2303, end: -1406, color: 'rgba(16, 185, 129, 0.08)' },
+    { name: 'Conquest & Judges', start: -1406, end: -931, color: 'rgba(245, 158, 11, 0.08)' },
     { name: 'Divided Kingdom', start: -931, end: -609, color: 'rgba(239, 68, 68, 0.08)' },
     { name: 'Exile & Return', start: -609, end: -515, color: 'rgba(139, 92, 246, 0.08)' },
     { name: 'Second Temple', start: -515, end: 33, color: 'rgba(14, 165, 233, 0.08)' },

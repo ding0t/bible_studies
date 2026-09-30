@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 11:10-32"
 bible_references: ["Genesis 5:1-32", "Genesis 7:11", "Genesis 11:10-32", "Genesis 12:4", "Exodus 12:40-41", "1 Kings 6:1", "Acts 7:4", "Galatians 3:17"]
 date_created: 2026-08-22
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -41,11 +41,11 @@ Above Terah the method changes completely. Genesis 5 and 11 give a father's age 
 flowchart LR
     subgraph E["ELASTIC — the count varies by manuscript"]
         direction TB
-        A["Creation<br/>4004-5470 BC<br/>depending on the tradition"] --> B["The Flood"] --> C["Babel"]
+        A["Creation<br/>3959-5425 BC<br/>depending on the tradition"] --> B["The Flood"] --> C["Babel"]
     end
     subgraph R["RIGID — the dates are fixed by anchors"]
         direction TB
-        D["Abraham<br/>1996 BC<br/>all traditions agree"] --> F["Exodus"] --> G["Solomon's temple"] --> H["Exile and return"] --> I["Christ"]
+        D["Abraham<br/>1951 BC<br/>all traditions agree"] --> F["Exodus"] --> G["Solomon's temple"] --> H["Exile and return"] --> I["Christ"]
     end
     E --> R
     J["763 BC eclipse<br/>Assyrian eponym list"] -.->|"anchors everything<br/>by working backward"| R
@@ -66,7 +66,7 @@ flowchart TD
     end
     subgraph hinge["The hinge"]
       direction TB
-      D["Abraham<br/>every tradition agrees on 1996 BC"]
+      D["Abraham<br/>every tradition agrees on 1951 BC"]
     end
     subgraph rigid["Rigid — anchored to datable events"]
       direction TB
@@ -86,17 +86,17 @@ flowchart TD
 
 ## The elastic zone: creation to Abraham
 
-Anno Mundi year and Gregorian date both move here, and they move together. Figures are from this repo's own generator under the active epoch scenario.
+Anno Mundi year and Gregorian date both move here, and they move together. Figures are from this repo's own generator under the active epoch scenario, `a_prime` (the Exodus at 1446 BC).
 
 | Event | Masoretic (the site's working chronology) | Septuagint | Samaritan |
 |---|---|---|---|
-| Creation | AM 0 · 4004 BC | AM 0 · 5470 BC | AM 0 · 4245 BC |
-| Enoch born | AM 622 · 3382 BC | AM 1122 · 4348 BC | AM 522 · 3723 BC |
-| Noah born | AM 1056 · 2948 BC | AM 1642 · 3828 BC | AM 707 · 3538 BC |
-| The Flood (Genesis 7:11) | AM 1656 · 2348 BC | AM 2242 · 3228 BC | AM 1307 · 2938 BC |
-| Peleg born | AM 1757 · 2247 BC | AM 2773 · 2697 BC | AM 1708 · 2537 BC |
-| Terah born | AM 1878 · 2126 BC | AM 3344 · 2126 BC | AM 2179 · 2066 BC |
-| **Abram born** | **AM 2008 · 1996 BC** | **AM 3474 · 1996 BC** | **AM 2249 · 1996 BC** |
+| Creation | AM 0 · 3959 BC | AM 0 · 5425 BC | AM 0 · 4200 BC |
+| Enoch born | AM 622 · 3337 BC | AM 1122 · 4303 BC | AM 522 · 3678 BC |
+| Noah born | AM 1056 · 2903 BC | AM 1642 · 3783 BC | AM 707 · 3493 BC |
+| The Flood (Genesis 7:11) | AM 1656 · 2303 BC | AM 2242 · 3183 BC | AM 1307 · 2893 BC |
+| Peleg born | AM 1757 · 2202 BC | AM 2773 · 2652 BC | AM 1708 · 2492 BC |
+| Terah born | AM 1878 · 2081 BC | AM 3344 · 2081 BC | AM 2179 · 2021 BC |
+| **Abram born** | **AM 2008 · 1951 BC** | **AM 3474 · 1951 BC** | **AM 2249 · 1951 BC** |
 
 The site follows the Masoretic numbers. The reasons, and the confidence each carries, are set out
 in [The Flood and the King Lists](../god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers).
@@ -117,34 +117,36 @@ The Septuagint's chain is half as long again as the Samaritan's, and about three
 
 ## The hinge: why they all agree about Abraham
 
-Every tradition puts Abram's birth at 1996 BC, to the year. That is not a coincidence and it is not evidence that the traditions agree — it is the anchoring working as designed. The chain from Abraham forward to the Exodus uses figures none of the traditions dispute: Abram 75 at the call (Genesis 12:4), 430 years to the Exodus (Exodus 12:40-41; Galatians 3:17), and Terah's age at Abram's birth derived from Acts 7:4. So fixing the Exodus fixes Abraham, and every variant inherits that date whatever it does above him.
+Every tradition puts Abram's birth at 1951 BC, to the year. That is not a coincidence and it is not evidence that the traditions agree — it is the anchoring working as designed. The chain from Abraham forward to the Exodus uses figures none of the traditions dispute: Abram 75 at the call (Genesis 12:4), 430 years to the Exodus (Exodus 12:40-41; Galatians 3:17), and Terah's age at Abram's birth derived from Acts 7:4. So fixing the Exodus fixes Abraham, and every variant inherits that date whatever it does above him.
 
 Terah is the last person for whom Genesis supplies an age at his heir's birth, so he is where the two methods meet. The Masoretic and Septuagint also converge on his birth year. The Samaritan puts it 60 years later because it reads Genesis 11:26's seventy plainly, which its own 145-year Terah allows.
 
 ## The rigid zone: Abraham to now
 
-Below the hinge the Gregorian dates stop moving. The manuscript question has no purchase here, because these dates come from contemporary documents and astronomy rather than from genealogy. Only the Anno Mundi *label* varies, and only by which epoch scenario is active — a 45-year shift applied uniformly, not a stretch.
+Below the hinge the Gregorian dates stop moving. The manuscript question has no purchase here, because these dates come from contemporary documents and astronomy rather than from genealogy. The Anno Mundi figures follow from the Exodus: 1 Kings 6:1's 480 years counted back from Solomon's fourth year put it at 1446 BC, which is AM 2513 on the Masoretic chain.
 
-| Event | Date | AM (`active`) | AM (`a_prime`) |
-|---|---|---|---|
-| Exodus | 1446 BC | 2558 | 2513 |
-| Solomon's temple begun | 966 BC | 3038 | 2993 |
-| Jerusalem falls | 586 BC | 3418 | 3373 |
-| Cyrus's decree | 538 BC | 3466 | 3421 |
-| Second temple completed | 515 BC | 3489 | 3444 |
-| Temple rededicated | 164 BC | 3840 | 3795 |
-| Crucifixion and Resurrection | AD 33 | 4036 | 3991 |
-| Today | AD 2026 | 6029 | 5984 |
+| Event | Date | AM |
+|---|---|---|
+| Exodus | 1446 BC | 2513 |
+| Solomon's temple begun | 966 BC | 2993 |
+| Jerusalem falls | 586 BC | 3373 |
+| Cyrus's decree | 538 BC | 3421 |
+| Second temple completed | 515 BC | 3444 |
+| Temple rededicated | 164 BC | 3795 |
+| Crucifixion and Resurrection | AD 33 | 3991 |
+| Today | AD 2026 | 5984 |
+
+Until 2026-10-01 the site used Ussher's 1491 BC Exodus and creation at 4004 BC, which labelled every row above 45 years higher. That anchor put Solomon's temple at 1012 BC by 1 Kings 6:1, against the 966 BC the Assyrian synchronisms fix, so the site moved to the 1446 BC Exodus.
 
 Forty-one events with their evidence, tiers and error bars are in [Chronology Anchors](chronology-anchors.md). Thirty-one of them carry an error bar of a year or less.
 
 ## What is settled and what is open
 
-**Settled.** The order of events, throughout. The Gregorian dates below Abraham, to within a year for most of them. The crucifixion at Friday 3 April AD 33. The sabbatical cycle, anchored on three attested sabbatical years whose intervals are exact multiples of seven.
+**Settled.** The order of events, throughout. The Gregorian dates below Abraham, to within a year for most of them. The crucifixion at Friday 3 April AD 33. The sabbatical cycle, anchored on three attested sabbatical years whose intervals are exact multiples of seven. The epoch, since 2026-10-01: the Masoretic chain on the 1446 BC Exodus (`a_prime`), with the three alternates recorded in `docs/data/genealogy/index.json` and set out in [The Zadok Calendar](../feasts/zadok-calendar.md#where-year-0-sits).
 
-**Open, and tracked rather than guessed.** Which manuscript tradition preserves the older figures in Genesis 5 and 11 — the evidence splits by chapter. And which epoch scenario the site should use, which shifts every Anno Mundi label without moving a single Gregorian date below Abraham. Four scenarios are recorded in `docs/data/genealogy/index.json` with the arguments each way, and [The Zadok Calendar](../feasts/zadok-calendar.md#where-year-0-sits) sets them out.
+**Open, and tracked rather than guessed.** Which manuscript tradition preserves the older figures in Genesis 5 and 11 — the evidence splits by chapter.
 
-The two open questions are independent. Nothing about choosing a manuscript tradition settles the epoch, and nothing about the epoch touches the manuscript evidence.
+The manuscript question and the epoch are independent. Nothing about choosing a manuscript tradition settles the epoch, and nothing about the epoch touches the manuscript evidence.
 
 ## Discussion questions
 

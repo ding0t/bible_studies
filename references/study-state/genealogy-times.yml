@@ -428,6 +428,15 @@ decision_2026-09-28_masoretic_chronology:
     creation 3944 -> 4004 BC, Abram AM 1948 -> AM 2008 (1996 BC unchanged).
   justification: "docs/content/god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers"
 
+decision_2026-10-01_exodus_anchor:
+  decided_by: author, 2026-10-01
+  decision: >
+    The Exodus anchor moves from 1491 BC (ussher_published) to 1446 BC (a_prime), from 1 Kings 6:1
+    counted back from Solomon's fourth year at 966 BC. Masoretic creation 4004 -> 3959 BC, Flood
+    2348 -> 2303 BC, Abram AM 2008 = 1951 BC, Terah dies 1876 BC. The Zadok 4000 = 4 BC Nativity
+    correspondence is dropped (AM 4000 is now AD 42).
+  record: "references/study-state/chronology-anchors.yml, decisions_2026-10-01"
+
 review_2026-09-30:
   skill: review-bible-study
   trigger: "Backlog 0.7 Priority 1 -- rewritten for the Masoretic numbers 2026-09-28, last reviewed 2026-08-22."

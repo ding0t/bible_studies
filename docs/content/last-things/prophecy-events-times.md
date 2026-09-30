@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Daniel 9:24-27"
 bible_references: ["1 Kings 16:29", "2 Kings 4:23", "2 Kings 18:13-19:37", "2 Kings 24:10-17", "2 Kings 25:27-30", "Ezra 1:1-4", "Nehemiah 2:1-8", "Joshua 10:12-14", "Amos 8:5", "Amos 8:9", "Hosea 2:11", "Isaiah 1:13-14", "Joel 2:31", "Daniel 9:24-27", "Matthew 21:1-11", "Matthew 27:45", "Mark 15:33", "Luke 23:44-45", "Luke 19:41-44", "Acts 2:20"]
 date_created: 2024-10-20
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -445,7 +445,7 @@ have to be extrapolated, and the further back the extrapolation runs the weaker 
   1200s BC tied to a different identification of the Pharaoh of the oppression; this study isn't
   taking a side, just naming that the disagreement exists and isn't resolved by anchor evidence.)
 - **The Flood and Creation** have no anchor at all — every date proposed for them (Ussher's 4004 BC
-  and 2349 BC among them) comes purely from summing genealogies in Genesis 5 and 11, and different
+  and 2349 BC, and this site's 3959 BC and 2303 BC, among them) comes purely from summing genealogies in Genesis 5 and 11, and different
   manuscript traditions (the Masoretic Text vs. the Septuagint) give meaningfully different totals
   for those same genealogies. [The Day is Near](day-is-near.md#when-is-the-year-6000)'s own
   timeline implies yet a third creation epoch (roughly 3925 BC) from a different set of assumptions

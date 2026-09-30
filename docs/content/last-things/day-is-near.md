@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-13"
 bible_references: ["Revelation 1:3", "James 5:7-8", "Mark 13:32-37", "Matthew 24:3-14", "Exodus 20:11", "Hebrews 4:1-13", "Revelation 20:1-7", "Acts 1:9-11", "Genesis 1:14-19", "Colossians 2:16-17"]
 date_created: 2024-05-29
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -187,7 +187,7 @@ flowchart TD
 ```
 
 **A flagged inconsistency, not smoothed over.** This timeline's own arithmetic — year 6000 = 2075 AD
-— implies a creation epoch of roughly 3925 BC. That differs from the 4004 BC epoch used by [The
+— implies a creation epoch of roughly 3925 BC. That differs from the 3959 BC epoch used by [The
 Zadok Calendar](../feasts/zadok-calendar.md) and `references/build/genealogy_chronology.py`. It
 differs again from the Masoretic, Septuagint and Samaritan Pentateuch genealogical totals compared
 in [Bible Chronology & Genealogical Time](genealogy-times.md).

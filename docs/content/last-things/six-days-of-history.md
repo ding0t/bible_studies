@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 1:1-31"
 bible_references: ["Genesis 1:1-31", "Genesis 2:1-3", "Genesis 2:7", "Genesis 2:17", "Genesis 4:26", "Genesis 5:5", "Genesis 5:23-24", "Genesis 7:11", "Genesis 7:13", "Genesis 8:2", "Genesis 12:7", "Genesis 15:5", "Genesis 22:17-18", "Exodus 14:22", "Exodus 20:11", "Leviticus 23:2-44", "Psalm 89:36-37", "Isaiah 46:10", "Malachi 4:2", "Matthew 4:19", "Matthew 13:47", "Acts 1:7", "Romans 8:29", "2 Corinthians 3:18", "Galatians 4:4", "Colossians 1:15", "Hebrews 4:9", "Revelation 13:14-18", "Revelation 17:15", "Revelation 20:4"]
 date_created: 2026-09-26
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -144,8 +144,9 @@ But no ancient writer walks the six days through history the way the sections be
 what follows as typology: a pattern observed in the text, offered for reflection, and answerable to
 Scripture at every point.**
 
-It is also no calendar. The anchors below use the site's working epoch, creation at 4004 BC. On
-that epoch the six thousand years ran out in AD 1997. [The Day Is Near](day-is-near.md#when-is-the-year-6000)
+It is also no calendar. The anchors below use the site's working epoch, creation at 3959 BC. On
+that epoch the six thousand years run out in AD 2042; on Ussher's 4004 BC, which this site used
+until 2026-10-01, they ran out in AD 1997. [The Day Is Near](day-is-near.md#when-is-the-year-6000)
 works from a different epoch and reaches AD 2075, and the parent study sets out
 [why nobody has got the date right](day-is-a-thousand-years.md#why-nobody-has-got-the-date-right).
 Jesus said, "It is not for you to know times or seasons that the Father has fixed by his own
@@ -153,7 +154,7 @@ authority" (Acts 1:7, ESV). The framework gives the shape of history. The Father
 
 ### The days and the millennia
 
-The anchors use the site's working convention — creation at 4004 BC, Adam at year 0 of the world
+The anchors use the site's working convention — creation at 3959 BC, Adam at year 0 of the world
 (AM), consistent with [Bible Chronology & Genealogical Time](genealogy-times.md) — and the dates
 inside the first two millennia come straight from the age-data in Genesis 5 and 11.
 

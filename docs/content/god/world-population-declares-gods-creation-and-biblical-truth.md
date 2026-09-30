@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 9:1-19"
 bible_references: ["Genesis 1:20-21", "Genesis 1:28", "Genesis 5:32", "Genesis 6:1", "Genesis 7:11", "Genesis 7:21", "Genesis 8:17", "Genesis 9:1-19", "Genesis 9:28-29", "Genesis 10:1-32", "Genesis 11:1-9", "Genesis 11:10", "Genesis 13:16", "Genesis 15:5", "Genesis 22:17", "Genesis 46:26-27", "Exodus 1:5-7", "Exodus 1:12", "Exodus 8:3", "Exodus 12:37-41", "Leviticus 11:29", "Leviticus 11:41-46", "Numbers 1:2-3", "Numbers 1:45-46", "Deuteronomy 10:22", "2 Samuel 24:9", "1 Chronicles 21:5", "Psalm 105:30", "Jeremiah 33:22", "Ezekiel 47:9", "Acts 7:14", "Acts 17:26", "Romans 1:20", "Galatians 3:16", "Galatians 3:17", "Galatians 3:29", "Hebrews 11:12", "Revelation 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -21,7 +21,7 @@ question with an arithmetic answer: what average growth rate gets you from one t
 time the Bible's own genealogies allow, and is that rate anything a human population has ever
 achieved?
 
-**It is 0.481% per year — a doubling every 144 years.** Israel in Egypt, by Scripture's own figures,
+**It is 0.486% per year — a doubling every 143 years.** Israel in Egypt, by Scripture's own figures,
 grew five times faster. The world in the 1960s grew four times faster.
 
 **In one sentence:** God blessed the human race with a command to fill the earth, re-issued it to
@@ -365,18 +365,18 @@ their figure is like-for-like.
 The headline number falls straight out of the first:
 
 ```text
-    r = ln(8,200,000,000 / 6) / 4,374        6 survivors, Flood 2348 BC → AD 2026
-      = ln(1,366,666,667) / 4,374
-      = 21.036 / 4,374
-      = 0.004809  →  0.481% per year
+    r = ln(8,200,000,000 / 6) / 4,329        6 survivors, Flood 2303 BC → AD 2026
+      = ln(1,366,666,667) / 4,329
+      = 21.036 / 4,329
+      = 0.004859  →  0.486% per year
 
-    T₂ = 0.693 / 0.004809 = 144 years
+    T₂ = 0.693 / 0.004859 = 143 years
 ```
 
 ### The chronology
 
 Dates use this site's Zadok-year convention — year 0 is Adam's creation, and
-`zadok_year = gregorian_year + 4004`, so the Flood at Zadok 1656 is 2348 BC. See
+Zadok year 0 is 3959 BC (the Masoretic chain on a 1446 BC Exodus), so the Flood at Zadok 1656 is 2303 BC. See
 [The Zadok Calendar](../feasts/zadok-calendar.md) for the calendar and
 [Genealogy and Times](../last-things/genealogy-times.md) for how the Genesis 5 and 11 figures were
 read out of the Masoretic Text, Septuagint and Samaritan Pentateuch and turned into these years.
@@ -387,23 +387,23 @@ Population anchors, each given as a Zadok year (AM, from creation) beside its Gr
 flowchart TD
     subgraph a["Creation to Flood"]
       direction TB
-      A["AM 0 · 4004 BC<br/>Adam and Eve — 2 people"] --> B["AM 1655 · 2349 BC<br/>Eve of the Flood<br/>modelled 100 million<br/>band 30–900 million, no biblical figure"]
-      B --> C["AM 1656 · 2348 BC<br/>The Flood — 8 survive,<br/>6 of childbearing age"]
+      A["AM 0 · 3959 BC<br/>Adam and Eve — 2 people"] --> B["AM 1655 · 2304 BC<br/>Eve of the Flood<br/>modelled 100 million<br/>band 30–900 million, no biblical figure"]
+      B --> C["AM 1656 · 2303 BC<br/>The Flood — 8 survive,<br/>6 of childbearing age"]
     end
     subgraph b["Flood to Abraham"]
       direction TB
-      D["AM 1757 · 2247 BC<br/>Peleg born — the earth divided"] --> E["AM 1856 · 2148 BC<br/>Babel — the 70 clans scatter"]
-      E --> F["AM 2008 · 1996 BC<br/>Abraham born"]
+      D["AM 1757 · 2202 BC<br/>Peleg born — the earth divided"] --> E["AM 1856 · 2103 BC<br/>Babel — the 70 clans scatter"]
+      E --> F["AM 2008 · 1951 BC<br/>Abraham born"]
     end
     subgraph c["Abraham to Christ"]
       direction TB
-      G["AM 2558 · 1446 BC<br/>Exodus — about 2 million leave Egypt"] --> H["AM 2949 · 1055 BC<br/>David — 1.3 million fighting men"]
-      H --> I["AM 4004 · AD 1<br/>Christ — world about 300 million"]
+      G["AM 2513 · 1446 BC<br/>Exodus — about 2 million leave Egypt"] --> H["AM 2904 · 1055 BC<br/>David — 1.3 million fighting men"]
+      H --> I["AM 3959 · AD 1<br/>Christ — world about 300 million"]
     end
     subgraph d["Christ to now"]
       direction TB
-      J["AM 5804 · AD 1800 — 1 billion"] --> K["AM 5954 · AD 1950 — 2.5 billion"]
-      K --> L["AM 6030 · AD 2026 — 8.2 billion"]
+      J["AM 5758 · AD 1800 — 1 billion"] --> K["AM 5908 · AD 1950 — 2.5 billion"]
+      K --> L["AM 5984 · AD 2026 — 8.2 billion"]
     end
     a --> b
     b --> c
@@ -423,34 +423,35 @@ Three date questions are open. None of them changes the argument.
 
 | Reconstruction | Flood | Years to AD 2026 | Required rate | Doubling |
 |---|---|---|---|---|
-| Masoretic (Ussher) — this site's `zadok_year` base | 2348 BC | 4,374 | 0.481%/yr | 144 yrs |
-| Samaritan Pentateuch | 2938 BC | 4,964 | 0.424%/yr | 164 yrs |
-| Septuagint | 3228 BC | 5,254 | 0.400%/yr | 173 yrs |
+| Masoretic — this site's `zadok_year` base | 2303 BC | 4,329 | 0.486%/yr | 143 yrs |
+| Samaritan Pentateuch | 2893 BC | 4,919 | 0.428%/yr | 162 yrs |
+| Septuagint | 3183 BC | 5,209 | 0.404%/yr | 172 yrs |
 
 An 880-year spread between the extreme readings moves the required rate by eight hundredths of a
 percentage point. The manuscript dispute is chronologically large and demographically negligible.
 
 **Peleg's birth carries two years of slack.** Genesis 11:10 puts Arpachshad's birth "two years after
 the flood," while Genesis 5:32 has Noah at 500 when his sons are born; this repo's generated
-chronology chains from the 500, so Peleg's birth falls 99 or 101 years post-Flood.
+chronology chains from Genesis 11:10, so Peleg's birth falls 101 years post-Flood, or 99 on the
+Genesis 5:32 reading.
 
 **Babel is a range.** Genesis 10:25 says only that the earth was divided "in his days," and Peleg
-lived 239 years — so anywhere from 2247 to 2008 BC. The *ESV Study Bible*'s map caption dates the
+lived 239 years — so anywhere from 2202 to 1963 BC. The *ESV Study Bible*'s map caption dates the
 Table of Nations to c. 2200 BC. The model below places the dispersion at roughly 200 years
-post-Flood (c. 2148 BC), inside that window.
+post-Flood (c. 2103 BC), inside that window.
 
 ### The shape of the curve
 
-The 0.481% average constrains the curve; it does not describe it. A *constant* 0.481% from six
+The 0.486% average constrains the curve; it does not describe it. A *constant* 0.486% from six
 people gives:
 
 ```text
-    N = 6 · e^(0.004809 × 2,348)     2348 BC → AD 1
-      = 6 · e^11.29
-      = 480,000 people worldwide at the birth of Christ
+    N = 6 · e^(0.004859 × 2,303)     2303 BC → AD 1
+      = 6 · e^11.19
+      = 435,000 people worldwide at the birth of Christ
 ```
 
-The Han census of AD 2 registered 57,671,400 people in China alone — 120 times that, in one country.
+The Han census of AD 2 registered 57,671,400 people in China alone — 130 times that, in one country.
 A single smooth exponential from the ark to the present is off by two orders of magnitude at the
 midpoint.
 
@@ -461,7 +462,7 @@ by event, not to scale:
 ```mermaid
 xychart-beta
     title "World population, log10 scale (biblical chronology, Masoretic)"
-    x-axis ["4004 BC", "3004 BC", "2349 BC", "2348 BC", "2148 BC", "1996 BC", "1446 BC", "1055 BC", "AD 1", "AD 1200", "AD 1800", "AD 1950", "AD 2026"]
+    x-axis ["3959 BC", "2959 BC", "2304 BC", "2303 BC", "2103 BC", "1951 BC", "1446 BC", "1055 BC", "AD 1", "AD 1200", "AD 1800", "AD 1950", "AD 2026"]
     y-axis "log10(people)" 0 --> 10
     line [0.3, 4.6, 8.0, 0.8, 4.0, 4.7, 6.7, 7.5, 8.5, 8.7, 9.0, 9.4, 9.9]
 ```
@@ -508,8 +509,8 @@ Seventy clans also have to be viable when they scatter:
 
 At 100 years post-Flood, around Peleg's birth, seventy independent groups would average a dozen
 people each — below what an isolated founding population sustains. The defensible floor for the
-dispersion is 150 to 200 years after the Flood, where the ESV Study Bible's c. 2200 BC placement also
-lands. The model uses 200 years and 10,000 people, requiring `ln(10,000/6) / 200 = 3.71%/yr` — under
+dispersion is 150 to 200 years after the Flood (2153 to 2103 BC); the ESV Study Bible's c. 2200 BC
+placement falls about fifty years before that, near Peleg's birth. The model uses 200 years and 10,000 people, requiring `ln(10,000/6) / 200 = 3.71%/yr` — under
 what Genesis 10's own family sizes imply.
 
 #### The flat middle: a 2,240-year doubling time
@@ -534,29 +535,29 @@ Post-Flood benchmarks, each rate computed over the span since the previous row:
 
 | Anchor | Zadok / Gregorian | Population | Rate over preceding span |
 |---|---|---|---|
-| Flood | 1656 / 2348 BC | 6 | — |
-| Babel | ~1856 / ~2148 BC | 10,000 | 3.71%/yr |
-| Abraham born | 2008 / 1996 BC | 50,000 | 1.06%/yr |
-| Exodus | 2558 / 1446 BC | 5,000,000 | 0.84%/yr |
-| David | 2949 / 1055 BC | 30,000,000 | 0.46%/yr |
-| Christ | 4004 / AD 1 | 300,000,000 | 0.22%/yr |
-| — | 5204 / AD 1200 | 450,000,000 | 0.034%/yr |
-| — | 5654 / AD 1650 | 500,000,000 | 0.023%/yr |
-| — | 5854 / AD 1850 | 1,265,000,000 | 0.46%/yr |
-| — | 5954 / AD 1950 | 2,499,000,000 | 0.68%/yr |
-| Now | 6030 / AD 2026 | 8,200,000,000 | 1.56%/yr |
+| Flood | 1656 / 2303 BC | 6 | — |
+| Babel | ~1856 / ~2103 BC | 10,000 | 3.71%/yr |
+| Abraham born | 2008 / 1951 BC | 50,000 | 1.06%/yr |
+| Exodus | 2513 / 1446 BC | 5,000,000 | 0.91%/yr |
+| David | 2904 / 1055 BC | 30,000,000 | 0.46%/yr |
+| Christ | 3959 / AD 1 | 300,000,000 | 0.22%/yr |
+| — | 5158 / AD 1200 | 450,000,000 | 0.034%/yr |
+| — | 5608 / AD 1650 | 500,000,000 | 0.023%/yr |
+| — | 5808 / AD 1850 | 1,265,000,000 | 0.46%/yr |
+| — | 5908 / AD 1950 | 2,499,000,000 | 0.68%/yr |
+| Now | 5984 / AD 2026 | 8,200,000,000 | 1.56%/yr |
 
 From Abraham forward these are the standard historical estimates, not outputs of the model: the
 Population Reference Bureau's benchmark series, cross-checked against the ranges in the
 historical-estimates literature. The model's claim on that stretch is only that the biblical chronology has room
 to reach them. Measured from six people at the Flood in each case:
 
-| Target | Span from 2348 BC | Required rate | Working |
+| Target | Span from 2303 BC | Required rate | Working |
 |---|---|---|---|
-| 5 million by the Exodus (1446 BC) | 902 years | 1.51%/yr | ln(5,000,000/6) / 902 = 13.63 / 902 |
-| 30 million by David (1055 BC) | 1,293 years | 1.19%/yr | ln(30,000,000/6) / 1,293 = 15.42 / 1,293 |
-| 300 million by Christ (AD 1) | 2,349 years | 0.75%/yr | ln(300,000,000/6) / 2,349 = 17.73 / 2,349 |
-| 8.2 billion by AD 2026 | 4,374 years | 0.481%/yr | ln(8,200,000,000/6) / 4,374 = 21.04 / 4,374 |
+| 5 million by the Exodus (1446 BC) | 857 years | 1.59%/yr | ln(5,000,000/6) / 857 = 13.63 / 857 |
+| 30 million by David (1055 BC) | 1,248 years | 1.24%/yr | ln(30,000,000/6) / 1,248 = 15.42 / 1,248 |
+| 300 million by Christ (AD 1) | 2,304 years | 0.77%/yr | ln(300,000,000/6) / 2,304 = 17.73 / 2,304 |
+| 8.2 billion by AD 2026 | 4,329 years | 0.486%/yr | ln(8,200,000,000/6) / 4,329 = 21.04 / 4,329 |
 
 Every one of those sits below the 2.39%/yr Scripture's own Egyptian episode records, and below the
 world's observed peak of roughly 2.1% in the 1960s. At the Egyptian rate, six people reach 8.2
@@ -578,7 +579,7 @@ Run the identical arithmetic on a biblical chronology, keeping the same formula,
 rates, and from AD 1 onward PRB's own benchmark figures unchanged. Both columns below are carried to
 AD 2026, which is why the total differs slightly from PRB's published 2022 figure:
 
-| Era | PRB (190,000 years) | Biblical model (6,030 years) |
+| Era | PRB (190,000 years) | Biblical model (5,985 years) |
 |---|---|---|
 | Before AD 1 | 55.0 billion | 10.4 billion |
 | AD 1 to present | 62.6 billion | 62.6 billion |
@@ -610,7 +611,7 @@ same 1.0-1.2%/yr band:
 Somewhere between 78 million and 1.8 billion people lived and died before the Flood — enough to
 matter morally, and not enough to move a 73-billion total by more than a few percent.
 
-**Compressing human history from 190,000 years to 6,030 removes 184,000 years and about 45 billion
+**Compressing human history from 190,000 years to 5,985 removes 184,000 years and about 45 billion
 births** — a third of the total, where the ratio of timespans would suggest 99%. Deep time is
 demographically cheap. Births are generated by *population*, not by *duration*, and a world of five
 million hunter-gatherers produces very few of them however long it runs. PRB's own table says so:
@@ -620,18 +621,18 @@ births ever.
 ### Running the clock backwards
 
 The demographic argument is strongest in reverse. Take the rate the biblical chronology needs,
-0.481%/yr, a doubling every century and a half, and run it over the timespan conventional prehistory
+0.486%/yr, a doubling every century and a half, and run it over the timespan conventional prehistory
 assumes:
 
 ```text
     log₁₀ N = log₁₀ 2 + (r · t) / ln 10
-            = 0.301 + (0.004809 × 200,000) / 2.303
-            = 0.301 + 417.7
-            = 418        →  10^418 people
+            = 0.301 + (0.004859 × 200,000) / 2.303
+            = 0.301 + 422.0
+            = 422        →  10^422 people
 ```
 
 For scale: the observable universe contains roughly 10<sup>80</sup> atoms, and packed at the density
-of human bodies it would hold about 10<sup>82</sup> people. The population figure exceeds that by 336
+of human bodies it would hold about 10<sup>82</sup> people. The population figure exceeds that by 340
 orders of magnitude. Extend the same rate over a million years and the exponent passes 2,000.
 
 Conventional demography has an answer to this reductio.
@@ -649,11 +650,11 @@ So the comparison is between two shapes:
 
 | | Biblical chronology | Deep-time chronology |
 |---|---|---|
-| Span from 2 (or 6) people to 8.2 billion | ~4,400 years | ~200,000 years |
-| Required average rate | 0.481%/yr | 0.011%/yr |
-| Doubling time | 144 years | 6,263 years |
+| Span from 2 (or 6) people to 8.2 billion | ~4,300 years | ~200,000 years |
+| Required average rate | 0.486%/yr | 0.011%/yr |
+| Doubling time | 143 years | 6,263 years |
 | Against rates humans are observed to achieve | 1/5 of Israel's in Egypt; 1/4 of the 1960s peak | 1/200 of either |
-| What has to be explained | Why growth was near-zero for 1,600 of the 4,400 years | Why growth was near-zero for 97% of the span and then was not |
+| What has to be explained | Why growth was near-zero for 1,600 of the 4,300 years | Why growth was near-zero for 97% of the span and then was not |
 
 The biblical model needs no rate humanity has not demonstrably achieved, and its flat stretch
 (AD 1-1650) is documented history. The deep-time model needs 190,000 years of near-perfect stasis
@@ -677,7 +678,7 @@ that the biblical chronology can reach known benchmarks at rates humans have ach
 
 **Archaeology and king lists are the real friction.** Egyptian dynastic records, Mesopotamian king
 lists, dendrochronology and varve sequences show continuous occupation through the window a global
-Flood at 2348 BC and a dispersion at 2148 BC would need. Population arithmetic leaves those objections
+Flood at 2303 BC and a dispersion at 2103 BC would need. Population arithmetic leaves those objections
 untouched. They are weighed, with the archaeology of Babel, in a separate study, [The
 Flood and the King Lists](flood-and-the-king-lists.md).
 

@@ -2,168 +2,168 @@
   "variant_id": "lxx",
   "name": "Septuagint (Brenton)",
   "generated_by": "references/build/genealogy_chronology.py -- do not hand-edit",
-  "creation_bc": 5470,
-  "anchor_exodus_bc": 1491,
+  "creation_bc": 5425,
+  "anchor_exodus_bc": 1446,
   "people": {
     "adam": {
       "tradition_used": "lxx",
       "zadok_year_born": 0,
       "zadok_year_died": 930,
       "lifespan_years": 930,
-      "gregorian_year_born": -5470,
-      "gregorian_year_died": -4540
+      "gregorian_year_born": -5425,
+      "gregorian_year_died": -4495
     },
     "seth": {
       "tradition_used": "lxx",
       "zadok_year_born": 230,
       "zadok_year_died": 1142,
       "lifespan_years": 912,
-      "gregorian_year_born": -5240,
-      "gregorian_year_died": -4328
+      "gregorian_year_born": -5195,
+      "gregorian_year_died": -4283
     },
     "enosh": {
       "tradition_used": "lxx",
       "zadok_year_born": 435,
       "zadok_year_died": 1340,
       "lifespan_years": 905,
-      "gregorian_year_born": -5035,
-      "gregorian_year_died": -4130
+      "gregorian_year_born": -4990,
+      "gregorian_year_died": -4085
     },
     "cainan": {
       "tradition_used": "lxx",
       "zadok_year_born": 625,
       "zadok_year_died": 1535,
       "lifespan_years": 910,
-      "gregorian_year_born": -4845,
-      "gregorian_year_died": -3935
+      "gregorian_year_born": -4800,
+      "gregorian_year_died": -3890
     },
     "mahalalel": {
       "tradition_used": "lxx",
       "zadok_year_born": 795,
       "zadok_year_died": 1690,
       "lifespan_years": 895,
-      "gregorian_year_born": -4675,
-      "gregorian_year_died": -3780
+      "gregorian_year_born": -4630,
+      "gregorian_year_died": -3735
     },
     "jared": {
       "tradition_used": "lxx",
       "zadok_year_born": 960,
       "zadok_year_died": 1922,
       "lifespan_years": 962,
-      "gregorian_year_born": -4510,
-      "gregorian_year_died": -3548
+      "gregorian_year_born": -4465,
+      "gregorian_year_died": -3503
     },
     "enoch": {
       "tradition_used": "lxx",
       "zadok_year_born": 1122,
       "zadok_year_died": 1487,
       "lifespan_years": 365,
-      "gregorian_year_born": -4348,
-      "gregorian_year_died": -3983
+      "gregorian_year_born": -4303,
+      "gregorian_year_died": -3938
     },
     "methuselah": {
       "tradition_used": "lxx",
       "zadok_year_born": 1287,
       "zadok_year_died": 2256,
       "lifespan_years": 969,
-      "gregorian_year_born": -4183,
-      "gregorian_year_died": -3214
+      "gregorian_year_born": -4138,
+      "gregorian_year_died": -3169
     },
     "lamech_antediluvian": {
       "tradition_used": "lxx",
       "zadok_year_born": 1454,
       "zadok_year_died": 2207,
       "lifespan_years": 753,
-      "gregorian_year_born": -4016,
-      "gregorian_year_died": -3263
+      "gregorian_year_born": -3971,
+      "gregorian_year_died": -3218
     },
     "noah": {
       "tradition_used": "lxx",
       "zadok_year_born": 1642,
       "zadok_year_died": 2592,
       "lifespan_years": 950,
-      "gregorian_year_born": -3828,
-      "gregorian_year_died": -2878
+      "gregorian_year_born": -3783,
+      "gregorian_year_died": -2833
     },
     "shem": {
       "tradition_used": "lxx",
       "zadok_year_born": 2144,
       "zadok_year_died": 2744,
       "lifespan_years": 600,
-      "gregorian_year_born": -3326,
-      "gregorian_year_died": -2726
+      "gregorian_year_born": -3281,
+      "gregorian_year_died": -2681
     },
     "arphaxad": {
       "tradition_used": "lxx",
       "zadok_year_born": 2244,
       "zadok_year_died": 2779,
       "lifespan_years": 535,
-      "gregorian_year_born": -3226,
-      "gregorian_year_died": -2691
+      "gregorian_year_born": -3181,
+      "gregorian_year_died": -2646
     },
     "cainan_gen11": {
       "tradition_used": "lxx",
       "zadok_year_born": 2379,
       "zadok_year_died": 2839,
       "lifespan_years": 460,
-      "gregorian_year_born": -3091,
-      "gregorian_year_died": -2631
+      "gregorian_year_born": -3046,
+      "gregorian_year_died": -2586
     },
     "shelah": {
       "tradition_used": "lxx",
       "zadok_year_born": 2509,
       "zadok_year_died": 2969,
       "lifespan_years": 460,
-      "gregorian_year_born": -2961,
-      "gregorian_year_died": -2501
+      "gregorian_year_born": -2916,
+      "gregorian_year_died": -2456
     },
     "eber": {
       "tradition_used": "lxx",
       "zadok_year_born": 2639,
       "zadok_year_died": 3043,
       "lifespan_years": 404,
-      "gregorian_year_born": -2831,
-      "gregorian_year_died": -2427
+      "gregorian_year_born": -2786,
+      "gregorian_year_died": -2382
     },
     "peleg": {
       "tradition_used": "lxx",
       "zadok_year_born": 2773,
       "zadok_year_died": 3112,
       "lifespan_years": 339,
-      "gregorian_year_born": -2697,
-      "gregorian_year_died": -2358
+      "gregorian_year_born": -2652,
+      "gregorian_year_died": -2313
     },
     "reu": {
       "tradition_used": "lxx",
       "zadok_year_born": 2903,
       "zadok_year_died": 3242,
       "lifespan_years": 339,
-      "gregorian_year_born": -2567,
-      "gregorian_year_died": -2228
+      "gregorian_year_born": -2522,
+      "gregorian_year_died": -2183
     },
     "serug": {
       "tradition_used": "lxx",
       "zadok_year_born": 3035,
       "zadok_year_died": 3365,
       "lifespan_years": 330,
-      "gregorian_year_born": -2435,
-      "gregorian_year_died": -2105
+      "gregorian_year_born": -2390,
+      "gregorian_year_died": -2060
     },
     "nahor": {
       "tradition_used": "lxx",
       "zadok_year_born": 3165,
       "zadok_year_died": 3469,
       "lifespan_years": 304,
-      "gregorian_year_born": -2305,
-      "gregorian_year_died": -2001
+      "gregorian_year_born": -2260,
+      "gregorian_year_died": -1956
     },
     "terah": {
       "tradition_used": "lxx",
       "zadok_year_born": 3344,
       "zadok_year_died": 3549,
       "lifespan_years": 205,
-      "gregorian_year_born": -2126,
-      "gregorian_year_died": -1921
+      "gregorian_year_born": -2081,
+      "gregorian_year_died": -1876
     }
   }
 }

@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-29
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -37,7 +37,7 @@ End-times prophecy, read dispensationally.
 
     ---
 
-    Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its year in both candidate Zadok epochs. The fixed rail the rest of the biblical timeline hangs from.
+    Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its Zadok year. The fixed rail the rest of the biblical timeline hangs from.
 
     [:octicons-arrow-right-24: Read](chronology-anchors.md)
 
@@ -77,7 +77,7 @@ End-times prophecy, read dispensationally.
 
     ---
 
-    Tracing the covenant line from Adam to Christ through Genesis 5 and 11's genealogies, comparing the Masoretic Text, Septuagint, and Samaritan Pentateuch, closing the Exodus-to-Solomon gap with the priestly and Davidic genealogies, and asking what the names themselves are saying
+    Tracing the covenant line from Adam to Christ through Genesis 5 and 11's genealogies, comparing the Masoretic Text, Septuagint, and Samaritan Pentateuch, and asking what the names themselves are saying
 
     [:octicons-arrow-right-24: Read](genealogy-times.md)
 

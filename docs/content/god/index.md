@@ -4,7 +4,7 @@ category: "other"
 description: "God's nature and character, creation, and the ways he makes himself known."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-29
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -45,7 +45,7 @@ God's nature and character, creation, and the ways he makes himself known.
 
     ---
 
-    Genesis 5 and 11 survive in three versions whose numbers put the Flood anywhere from 2348 to 3228 BC. Weighing the Masoretic Text, Septuagint and Samaritan Pentateuch by Scripture's own consistency first, and only then against Egypt's king lists, radiocarbon, tree rings and varves.
+    Genesis 5 and 11 survive in three versions whose numbers put the Flood anywhere from 2303 to 3183 BC. Weighing the Masoretic Text, Septuagint and Samaritan Pentateuch by Scripture's own consistency first, and only then against Egypt's king lists, radiocarbon, tree rings and varves.
 
     [:octicons-arrow-right-24: Read](flood-and-the-king-lists.md)
 

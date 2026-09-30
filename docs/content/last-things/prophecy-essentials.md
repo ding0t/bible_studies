@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 24:27"
 bible_references: ["Micah 5:2", "Matthew 2:1-6", "2 Samuel 5:2", "Isaiah 53:5", "Isaiah 53:9", "Psalm 22:16-18", "John 19:23-24", "Matthew 27:57-60", "Daniel 9:24-27", "Luke 19:41-44", "Matthew 24:1-2", "Matthew 24:33-34", "Matthew 24:14-15", "Matthew 24:21", "Matthew 24:34", "Mark 13:1-8", "Mark 13:14-27", "Mark 13:32", "1 Thessalonians 4:16-17", "1 Thessalonians 5:9", "Revelation 19:11-16", "Revelation 20:1-6", "Colossians 2:16-17"]
 date_created: 2026-07-24
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -256,8 +256,10 @@ are real and checkable.
 
 This is worked out in full in [Prophecy, calendar, and the anchors of biblical
 history](prophecy-events-times.md), with independently-dated Persian court records as the anchor. A
-decree dated to 445 BC (Nehemiah 2:1-8, fixed by the Elephantine papyri), run through Daniel 9:25's
-stated 69 "weeks" of years, lands within days of the week Jesus rode into Jerusalem as king. Not a
+decree in Artaxerxes' twentieth year (Nehemiah 2:1-8), a reign the Elephantine papyri date
+independently, run through Daniel 9:25's stated 69 "weeks" of years, lands within days of the week
+Jesus rode into Jerusalem as king: AD 33 on Harold Hoehner's reckoning from 444 BC, which this site
+follows (Sir Robert Anderson's from 445 BC reaches AD 32). Not a
 different century. Not off by a generation. That page gives the full case, including where the
 calculation is genuinely disputed (the exact day) and where it isn't (the shape of the result). This
 study doesn't re-derive that math; see [Prophecy yet to come](#prophecy-yet-to-come) below for the

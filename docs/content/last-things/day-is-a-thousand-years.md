@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
 bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hebrews 1:2", "Hebrews 4:9", "Revelation 20:1-7", "Genesis 49:1", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:46", "2 Timothy 3:16", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
 date_created: 2026-08-12
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -372,7 +372,7 @@ step: the day-by-day scheme has ancient precedent in the Temple's psalm cycle ab
 onto specific millennia is this site's construction. The readings of days one to six are worked through in a separate
 study, [Six Days of History](six-days-of-history.md).
 
-The anchors below use the site's working convention — creation at 4004 BC, Adam at year 0 of the
+The anchors below use the site's working convention — creation at 3959 BC, Adam at year 0 of the
 world (AM), consistent with [Bible Chronology & Genealogical Time](genealogy-times.md) — and the
 dates inside the first two millennia come straight from the age-data in Genesis 5 and 11.
 
@@ -386,11 +386,11 @@ dates inside the first two millennia come straight from the age-data in Genesis 
 | 6 | Beasts; man in God's image, given dominion (1:24-31) | AM 5000-6000 | Man's dominion at full stretch — and its counterfeit image |
 | 7 | God rests, blesses, sanctifies (2:1-3) | AM 6000-7000 | Revelation 20's thousand years |
 
-On the 4004 BC epoch, AM 4000 falls at 4 BC. That is the traditional date of the Nativity, and it
-is one of the reasons the framework has held people's attention for so long: Christ arrives at the
-exact hinge of the week, the midpoint of the six working days. The fit is real, and it is also
-partly an artifact — Ussher fixed his epoch partly by working backwards from Herod's death in
-4 BC, so the roundness is not independent confirmation. On a different epoch it moves.
+On the site's epoch Christ is born about AM 3954 and crucified in AM 3991, at the close of the
+fourth millennium, the day of the lights for appointed times. Ussher's 4004 BC epoch, used here
+until 2026-10-01, put AM 4000 exactly at 4 BC, the traditional Nativity, and that fit has held
+attention for centuries. It was partly an artifact — Ussher fixed his epoch partly by working back
+from Herod's death in 4 BC — so it was never independent confirmation.
 
 
 ### Day seven — the rest that is numbered
@@ -498,9 +498,9 @@ and every one of those years has passed.
 | Who | Epoch | Year 6000 lands at |
 |---|---|---|
 | Hippolytus (early third century) | Nativity at AM 5500, on a Septuagint chronology | c. AD 500 |
-| Ussher / this site's convention | Creation at 4004 BC | AD 1997 |
+| Ussher (this site's convention until 2026-10-01) | Creation at 4004 BC | AD 1997 |
 | [The Day Is Near](day-is-near.md#when-is-the-year-6000), following dsscalendar.org | Creation at ~3925 BC | AD 2075 |
-| The Masoretic chain re-anchored on a 1446 BC Exodus | Creation at 3959 BC | AD 2042 |
+| This site's convention: the Masoretic chain on a 1446 BC Exodus | Creation at 3959 BC | AD 2042 |
 | Seder Olam / the Hebrew calendar | Creation at 3761 BC | AD 2240 |
 
 The modern spread is not well founded, because it depends on a creation epoch that the

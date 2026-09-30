@@ -2,30 +2,32 @@
  * Calendar conversion utilities
  *
  * Zadok year = ELAPSED YEARS SINCE CREATION. Adam's creation is Zadok year 0, and the
- * creation year itself is 4004 BC on this site's working epoch (see
+ * creation year itself is 3959 BC on this site's working epoch (see
  * docs/content/feasts/zadok-calendar.md, "Where year 0 sits", for the epoch and the two
  * live alternatives).
  *
  * Gregorian years are signed with NO YEAR ZERO, matching how historians write BC/AD:
- *   negative => that many BC   (-4004 is 4004 BC)
+ *   negative => that many BC   (-3959 is 3959 BC)
  *   positive => that many AD   (1 is AD 1)
  *   zero     => invalid, and rejected
  *
  * The absence of a year zero is why this is not a plain subtraction. Before 2026-08-22 it
- * was, which put every AD conversion one year out: Zadok 4004 rendered as year 0 rather
- * than AD 1, and AD 2026 rendered as Zadok 6030 rather than 6029. The genealogy data
+ * was, which put every AD conversion one year out: on the 4004 BC epoch then in use, Zadok
+ * 4004 rendered as year 0 rather than AD 1, and AD 2026 as Zadok 6030 rather than 6029. The genealogy data
  * (docs/data/genealogy/generated/, Adam at zadok_year_born 0) and
  * docs/content/last-things/chronology-anchors.md both already used the corrected
  * convention, so this brings the converter into line with them rather than the reverse.
  */
 
-// Zadok year of AD 1. Creation (Zadok 0) is 4004 BC, and the years 4004 BC through 1 BC are
-// 4004 distinct years, so 4004 years elapse before AD 1 begins.
+// Zadok year of AD 1. Creation (Zadok 0) is 3959 BC, and the years 3959 BC through 1 BC are
+// 3959 distinct years, so 3959 years elapse before AD 1 begins. This is the a_prime scenario
+// (Masoretic chain, Exodus 1446 BC) in docs/data/genealogy/index.json; it was 4004 until
+// 2026-10-01. Keep it equal to that file's calendar_offset and chronology.json's genealogy epoch.
 //
-// Note the encoding is NEGATED-BC, not astronomical: -4004 here means 4004 BC. Astronomical
-// (ISO 8601) numbering would make -4004 mean 4005 BC, because it has a year 0 equal to 1 BC.
+// Note the encoding is NEGATED-BC, not astronomical: -3959 here means 3959 BC. Astronomical
+// (ISO 8601) numbering would make -3959 mean 3960 BC, because it has a year 0 equal to 1 BC.
 // Do not feed these values to a date library that assumes ISO.
-export const ZADOK_TO_GREGORIAN_OFFSET = 4004;
+export const ZADOK_TO_GREGORIAN_OFFSET = 3959;
 
 /**
  * Convert Zadok year to Gregorian year.
@@ -115,17 +117,17 @@ export function yearDifference(year1, year2) {
 
 // Example conversions:
 /*
-  zadokToGregorian(0)    = -4004  // creation, 4004 BC
-  zadokToGregorian(1656) = -2348  // the Flood, 2348 BC
-  zadokToGregorian(4003) = -1     // 1 BC
-  zadokToGregorian(4004) = 1      // AD 1 -- there is no year zero to pass through
-  zadokToGregorian(4036) = 33     // AD 33, the crucifixion
-  zadokToGregorian(6029) = 2026   // AD 2026
+  zadokToGregorian(0)    = -3959  // creation, 3959 BC
+  zadokToGregorian(1656) = -2303  // the Flood, 2303 BC
+  zadokToGregorian(3958) = -1     // 1 BC
+  zadokToGregorian(3959) = 1      // AD 1 -- there is no year zero to pass through
+  zadokToGregorian(3991) = 33     // AD 33, the crucifixion
+  zadokToGregorian(5984) = 2026   // AD 2026
 
-  gregorianToZadok(-4004) = 0
-  gregorianToZadok(-1)    = 4003
-  gregorianToZadok(1)     = 4004
-  gregorianToZadok(1948)  = 5951  // Israel founded
-  gregorianToZadok(2026)  = 6029
+  gregorianToZadok(-3959) = 0
+  gregorianToZadok(-1)    = 3958
+  gregorianToZadok(1)     = 3959
+  gregorianToZadok(1948)  = 5906  // Israel founded
+  gregorianToZadok(2026)  = 5984
   gregorianToZadok(0)     = null  // no year zero exists
 */

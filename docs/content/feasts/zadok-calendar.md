@@ -6,7 +6,7 @@ tags: ["zadok", "calendar", "dead-sea-scrolls", "enoch", "jubilees", "chronology
 draft: false
 bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticus 25:8-13", "2 Samuel 8:17", "1 Kings 2:35", "Ezekiel 44:15", "Daniel 9:24-27"]
 date_created: 2026-07-19
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -97,17 +97,17 @@ The calendar structure above says nothing about *when* the count starts. That is
 question, and this site's answer to it has until now lived only as a constant in two code files
 rather than being stated anywhere a reader could check.
 
-### Three candidate epochs, 79 years apart
+### The candidate epochs, 84 years apart
 
 **Zadok year 0 is Adam's creation, and the Zadok year is absolute — a count of elapsed years since
 that point.** Converting it to a BC/AD date requires a creation epoch, and Scripture supplies the
-intervals for one without supplying the epoch itself. Three candidates are in play on this site,
-and they disagree by 79 years:
+intervals for one without supplying the epoch itself. Five candidates are recorded on this site,
+and they span 84 years:
 
 | Scenario | Exodus anchor | Nahor | Creation | AD 2026 | Year 6000 |
 |---|---|---|---|---|---|
-| **`ussher_published`** — active | 1491 BC | 29 | **4004 BC** | AM 6029 | AD 1997 |
-| `a_prime` | 1446 BC | 29 | 3959 BC | AM 5984 | AD 2042 |
+| **`a_prime`** — active since 2026-10-01 | 1446 BC | 29 | **3959 BC** | AM 5984 | AD 2042 |
+| `ussher_published` — active until 2026-10-01 | 1491 BC | 29 | 4004 BC | AM 6029 | AD 1997 |
 | `a_double_prime` | 1446 BC | 79 | 4009 BC | AM 6034 | AD 1992 |
 | `a_double_prime_exact` | 1441 BC | 79 | 4004 BC | AM 6029 | AD 1997 |
 | dsscalendar.org | — | — | 3925 BC | AM 5951 | AD 2075 |
@@ -121,15 +121,17 @@ comparison on every run. Only the active one drives published dates.
 **Two parameters separate them.** The *Exodus anchor* is where the derived chain gets pinned to a
 Gregorian year. 1491 BC is Ussher's own figure, reached before the Assyrian synchronism existed.
 1446 BC follows from 1 Kings 6:1's 480 years, counted back from Solomon's fourth year, itself fixed
-by the astronomically dated eclipse of 763 BC. That is the date this site already uses in [Prophecy:
-Events and Times](../last-things/prophecy-events-times.md). The *Nahor* column is his age at Terah's
+by the astronomically dated eclipse of 763 BC. That is the date this site uses, in [Prophecy:
+Events and Times](../last-things/prophecy-events-times.md) and, since 2026-10-01, for every
+`zadok_year`: under 1491 BC, 1 Kings 6:1 put Solomon's temple at 1012 BC, against the 966 BC
+the Assyrian synchronisms fix. The *Nahor* column is his age at Terah's
 birth. The Masoretic 29 stands against 79 in both the Samaritan Pentateuch and LXX Codex
 Alexandrinus, with Theophilus of Antioch at 75. That agreement counts as one witness: the
 Samaritan and Greek descend from one text type, and 79 is the Masoretic 29 plus 50 with the years
 after reduced by 50 to keep its total, the same compensating shift the Samaritan makes for Shelah
 through Serug (Andrew Steinmann, *JETS* 64/1, 2021). The site keeps 29.
 
-`a_double_prime_exact` reaches the published epoch while also taking the Nahor 79 reading, but
+`a_double_prime_exact` reaches the former 4004 BC epoch while also taking the Nahor 79 reading, but
 only by moving Solomon's fourth year from 966 to 961 BC. That is inside the spread of Israelite
 regnal chronology. It is still a five-year adjustment made to land on a number chosen in advance.
 The two correspondences it preserves are therefore artifacts of the adjustment rather than evidence
@@ -146,7 +148,7 @@ exact. Week 1 runs 1-700 AM = 3925-3226 BC. Week 6 runs 3501-4200 AM = 425 BC-AD
 2075. The one-year gap against the table above is a difference of convention, not of epoch.
 
 And the conversion is not a plain subtraction, because there is no year zero between 1 BC and
-AD 1. AM 4003 is 1 BC, AM 4004 is AD 1, and AD 2026 is AM 6029. Both of this site's converters
+AD 1. AM 3958 is 1 BC, AM 3959 is AD 1, and AD 2026 is AM 5984. Both of this site's converters
 subtracted straight through the gap until August 2026, rendering every AD year one too early;
 they now skip it, and three studies whose `zadok_year` had inherited the error have been
 corrected by a year.
@@ -168,20 +170,21 @@ respectively. Of those, 1446 BC is the one that follows from 1 Kings 6:1's 480 y
 from Solomon's fourth year. That year is itself fixed by the Assyrian synchronism resting on the
 astronomically dated eclipse of 763 BC. 1491 BC is Ussher's own figure, reached before that
 synchronism was available. 1412 BC corresponds to no standard reckoning I have been able to trace.
+This site uses 1446 BC.
 
 ### An unresolved inconsistency
 
 **Which leaves an inconsistency.** This page cites dsscalendar.org
 as its primary source for the calendar's structure, and follows it there. It does not follow it on
 the epoch: the `zadok_year` in every study's frontmatter, in `docs/data/events.json` and on the
-[Prophetic Timeline](../../timeline/) uses Ussher's 4004 BC, which puts the present 79 years later
-than dsscalendar.org's own reckoning does. The two are not reconciled, and the difference matters
-most where it is most tempting to ignore it: on the 4004 BC epoch the six-thousandth year has
-already passed, in 1997.
+[Prophetic Timeline](../../timeline/) uses 3959 BC (Ussher's 4004 BC until 2026-10-01), which puts
+the present 34 years later than dsscalendar.org's own reckoning does. The two are not reconciled,
+and the difference matters most where it is most tempting to ignore it: they place the
+six-thousandth year 33 years apart, in AD 2042 and AD 2075.
 
 Resolving this is open work, tracked in
 `references/study-state/genealogy-calendar-review.yml`. The relevant figures now live in
-`docs/data/genealogy/index.json` under `chronology_anchor`, with the scriptural basis for each,
+`docs/data/genealogy/index.json` under `chronology_scenarios`, with the scriptural basis for each,
 so changing the epoch is a single edit rather than a code change.
 
 ## Resources

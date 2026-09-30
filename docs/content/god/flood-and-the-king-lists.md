@@ -1,15 +1,15 @@
 ---
 title: "The Flood and the King Lists: Which Genesis Numbers to Trust"
 category: "theology"
-description: "Genesis 5 and 11 survive in three versions whose numbers put the Flood anywhere from 2348 to 3228 BC. Weighing the Masoretic Text, Septuagint and Samaritan Pentateuch by Scripture's own consistency first, and only then against Egypt's king lists, radiocarbon, tree rings and varves."
+description: "Genesis 5 and 11 survive in three versions whose numbers put the Flood anywhere from 2303 to 3183 BC. Weighing the Masoretic Text, Septuagint and Samaritan Pentateuch by Scripture's own consistency first, and only then against Egypt's king lists, radiocarbon, tree rings and varves."
 tags: ["chronology", "genealogy", "apologetics", "genesis", "babel", "young-earth", "septuagint", "method/archaeology", "method/textual-criticism"]
 draft: false
 zadok_year: 1656
-gregorian_year: -2348
+gregorian_year: -2303
 primary_passage: "Genesis 5:1-32; Genesis 11:10-26"
 bible_references: ["Genesis 5:3-5", "Genesis 5:24-27", "Genesis 7:6", "Genesis 7:11", "Genesis 7:23", "Genesis 11:1-9", "Genesis 11:26", "Genesis 11:32", "Genesis 12:4", "Genesis 17:17", "Genesis 21:5", "Genesis 25:7", "1 Chronicles 1:24", "Isaiah 40:8", "Luke 3:36-38", "Acts 7:4", "Acts 7:14", "Romans 3:2", "Hebrews 11:5", "1 Peter 3:20"]
 date_created: 2026-09-26
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -20,7 +20,7 @@ Genesis 5 and 11 give the age of each father when his heir was born, from Adam t
 up and you have a date for the Flood. The numbers survive in three versions: the Hebrew Masoretic
 Text, the Septuagint (the Greek translation made in Egypt before Christ) and the Samaritan
 Pentateuch. Those three put the Flood as far apart as
-2348 BC and 3228 BC. Egypt's First Dynasty, dated by radiocarbon to about 3085 BC, falls on
+2303 BC and 3183 BC. Egypt's First Dynasty, dated by radiocarbon to about 3085 BC, falls on
 opposite sides of those two dates.
 
 **In one sentence:** Tested first by Scripture's own consistency, the Masoretic Text preserves
@@ -116,14 +116,15 @@ Adding each tradition's numbers, anchored as this site anchors them, gives three
 
 | Reading | Flood (year of the world) | Flood (BC) |
 |---|---|---|
-| Masoretic Text | AM 1656 | 2348 BC |
-| Samaritan Pentateuch | AM 1307 | 2938 BC |
-| Septuagint (Brenton's edition, with the second Cainan) | AM 2242 | 3228 BC |
+| Masoretic Text | AM 1656 | 2303 BC |
+| Samaritan Pentateuch | AM 1307 | 2893 BC |
+| Septuagint (Brenton's edition, with the second Cainan) | AM 2242 | 3183 BC |
 
 The Samaritan year of the world is lowest while its BC date is middling, because the BC date depends
 only on the years *after* the Flood (Genesis 11), and there the Samaritan text runs long. The Samaritan
 date reads Terah on that text's own terms, 70 at Abram's birth and 145 at death. Before 2026-09-28
-the site's generator gave the Samaritan chain the Masoretic reading of Terah and printed 2998 BC.
+the site's generator gave the Samaritan chain the Masoretic reading of Terah and printed 2998 BC
+(on the 1491 BC Exodus then in use).
 
 ## What Scripture says about its own numbers
 
@@ -246,8 +247,8 @@ and each should be read at its own level:
   scribe would produce. Steinmann reads it that way, with Abram named first in Genesis 11:26 for
   his importance and born when Terah was 130. The difference is 60 years.
 
-On the Hebrew numbers the Flood falls in AM 1656: 2348 BC on this site's anchor (an Exodus at
-1491 BC), or 2303 BC if the Exodus is placed at 1446 BC.
+On the Hebrew numbers the Flood falls in AM 1656: 2303 BC on this site's anchor (an Exodus at
+1446 BC), or 2348 BC on Ussher's 1491 BC Exodus.
 
 ### Why this site follows the Masoretic numbers
 
@@ -271,9 +272,10 @@ the world now follow it. The reasons, with their confidence:
 - **Acts 7:4 and Terah (strong).** Stephen says Abram left Haran after Terah died. The Masoretic
   205 satisfies that with Abram born when Terah was 130; the Samaritan 145 satisfies it by
   harmonizing. The site therefore retired its earlier synthesis, `harmonized_v1`, which had
-  taken the Samaritan Terah, and moved its working Flood date from 2288 BC back to 2348 BC.
+  taken the Samaritan Terah, and moved its working Flood date from 2288 BC back to 2348 BC (both on the 1491 BC Exodus then in
+  use; 2303 BC since the anchor moved to 1446 BC).
 
-The Exodus anchor (1491 or 1446 BC) is a separate decision, still open in
+The Exodus anchor is a separate decision, settled on 2026-10-01 at 1446 BC from 1 Kings 6:1; see
 [Genealogy and Times](../last-things/genealogy-times.md#what-stays-open).
 
 ## Testing it against Egypt and Sumer
@@ -282,13 +284,13 @@ Only now does the outside evidence come in, to test the reading already chosen.
 
 **On the Hebrew numbers, Egypt's early dynasties run straight through the Flood.**
 
-| Event | Date | Against a 2348 BC Flood |
+| Event | Date | Against a 2303 BC Flood |
 |---|---|---|
-| Egypt, accession of Aha (First Dynasty) | 3111–3045 BC (radiocarbon, 68%) | about 740 years earlier |
-| Sumerian Early Dynastic I | c. 2900 BC | about 550 years earlier |
-| Djoser's accession (step pyramid) | 2691–2625 BC (radiocarbon) | about 310 years earlier |
-| Khufu's Great Pyramid | c. 2560 BC | about 210 years earlier |
-| Sargon of Akkad | c. 2334 BC | 14 years after |
+| Egypt, accession of Aha (First Dynasty) | 3111–3045 BC (radiocarbon, 68%) | about 780 years earlier |
+| Sumerian Early Dynastic I | c. 2900 BC | about 600 years earlier |
+| Djoser's accession (step pyramid) | 2691–2625 BC (radiocarbon) | about 355 years earlier |
+| Khufu's Great Pyramid | c. 2560 BC | about 255 years earlier |
+| Sargon of Akkad | c. 2334 BC | about 30 years earlier |
 
 The radiocarbon dates carry the weight. Michael Dee and colleagues (*Proceedings of the Royal Society
 A* 469, 2013) put Aha's accession at 3111–3045 BC (3218–3035 BC at 95%). Christopher Bronk Ramsey
@@ -316,11 +318,11 @@ Memphis, and radiocarbon dates it independently of Manetho.
 
 | Reading | Flood | Against Aha (3111–3045 BC) |
 |---|---|---|
-| Septuagint, Brenton's edition, with Cainan | 3228 BC | before |
-| Septuagint without Cainan, Nahor 179 | 3098 BC | level with |
-| Septuagint without Cainan, Nahor 79 (Göttingen) | 2998 BC | after |
-| Samaritan Pentateuch | 2938 BC | after |
-| Masoretic Text | 2348 BC | after |
+| Septuagint, Brenton's edition, with Cainan | 3183 BC | before |
+| Septuagint without Cainan, Nahor 179 | 3053 BC | level with |
+| Septuagint without Cainan, Nahor 79 (Göttingen) | 2953 BC | after |
+| Samaritan Pentateuch | 2893 BC | after |
+| Masoretic Text | 2303 BC | after |
 
 The older claim that the Septuagint puts the Flood before Egypt's First Dynasty depends on the 130
 years of the second Cainan. With him removed, even the Greek puts the Flood level with Aha or after

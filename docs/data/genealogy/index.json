@@ -1,10 +1,10 @@
 {
   "metadata": {
     "version": "3.0.0",
-    "last_updated": "2026-07-24",
-    "description": "Complete biblical genealogy from Adam to Jesus with dual-calendar dating (Zadok Year 0 = 4004 BC), relational data, lineage tracking, and classification system. Data organized by biblical era for improved maintainability.",
-    "calendar_offset": 4004,
-    "calendar_info": "Zadok Year 0 corresponds to -4004 Gregorian (4004 BC). Add 4004 to Zadok year to get Gregorian year.",
+    "last_updated": "2026-10-01",
+    "description": "Complete biblical genealogy from Adam to Jesus with dual-calendar dating (Zadok Year 0 = 3959 BC), relational data, lineage tracking, and classification system. Data organized by biblical era for improved maintainability.",
+    "calendar_offset": 3959,
+    "calendar_info": "Zadok Year 0 corresponds to -3959 Gregorian (3959 BC), the a_prime scenario (Masoretic chain, Exodus 1446 BC), active since 2026-10-01. Subtract 3959 from a Zadok year to get a signed Gregorian year, adding one for AD results since there is no year zero (Zadok 3959 = AD 1). Until 2026-10-01 the offset was 4004 (ussher_published).",
     "chronology_note": "Adam through Terah (antediluvian.json fully, patriarchal.json's first 10 records) now carry raw per-tradition (mt/lxx/sp) textual data instead of hand-set zadok_year_born/died -- see timeline_variants below and references/build/genealogy_chronology.py, which generates docs/data/genealogy/generated/<variant>.json. Abraham onward is unaffected; Genesis gives no age-at-heir-birth data past Terah.",
     "computed_by": "references/build/genealogy_chronology.py",
     "total_people": 78,
@@ -78,42 +78,42 @@
     "antediluvian": {
       "name": "Antediluvian Age",
       "description": "From creation of Adam to the Great Flood",
-      "date_range": "Zadok 0-1656 (Gregorian -4004 to -2348)",
+      "date_range": "Zadok 0-1656 (Gregorian -3959 to -2303)",
       "people_count": 13,
       "file": "antediluvian.json"
     },
     "patriarchal": {
       "name": "Patriarchal Age",
       "description": "From post-Flood patriarchs through the Egyptian sojourn to the Conquest",
-      "date_range": "Zadok 1656-2554 (Gregorian -2348 to -1450)",
+      "date_range": "Zadok 1656-2553 (Gregorian -2303 to -1406)",
       "people_count": 19,
       "file": "patriarchal.json"
     },
     "conquest_judges": {
       "name": "Conquest & Judges Period",
       "description": "From the Conquest of Canaan through the Judges to establishment of the monarchy",
-      "date_range": "Zadok 2554-3073 (Gregorian -1450 to -931)",
+      "date_range": "Zadok 2553-3028 (Gregorian -1406 to -931)",
       "people_count": 14,
       "file": "conquest-judges.json"
     },
     "divided_kingdom": {
       "name": "Divided Kingdom",
       "description": "From the division of Solomon's kingdom through the fall of Judah to exile",
-      "date_range": "Zadok 3073-3395 (Gregorian -931 to -609)",
+      "date_range": "Zadok 3028-3350 (Gregorian -931 to -609)",
       "people_count": 15,
       "file": "divided-kingdom.json"
     },
     "exile_return": {
       "name": "Exile & Return",
       "description": "The Babylonian exile through the return and rebuilding of the temple",
-      "date_range": "Zadok 3395-3489 (Gregorian -609 to -515)",
+      "date_range": "Zadok 3350-3444 (Gregorian -609 to -515)",
       "people_count": 4,
       "file": "exile-return.json"
     },
     "second_temple": {
       "name": "Second Temple Period",
       "description": "From post-exile Jerusalem through Jesus",
-      "date_range": "Zadok 3489-4036 (Gregorian -515 to 33)",
+      "date_range": "Zadok 3444-3991 (Gregorian -515 to 33)",
       "people_count": 12,
       "file": "second-temple.json"
     }
@@ -146,7 +146,7 @@
       "Full reasoning, options and flexibility for each parameter: the decision register in",
       "references/study-state/genealogy-calendar-review.yml."
     ],
-    "active": "ussher_published",
+    "active": "a_prime",
     "shared": {
       "terah_to_abram": 130,
       "terah_to_abram_basis": "Acts 7:4 with Genesis 11:32 and Genesis 12:4 -- Abram left Haran after Terah died, so Terah's 205 years less Abram's 75 puts Abram's birth at Terah 130. Genesis 11:26's 70 names the first son born, not Abram. The sp variant overrides this with 70, because its own 145-year Terah needs no reinterpretation.",
@@ -161,8 +161,8 @@
     },
     "scenarios": {
       "ussher_published": {
-        "name": "Ussher, as currently published",
-        "status": "ACTIVE",
+        "name": "Ussher, as published until 2026-10-01",
+        "status": "tracked alternate (ACTIVE until 2026-10-01)",
         "anchor_exodus_bc": 1491,
         "nahor_age_at_terah_birth": 29,
         "nahor_source": "Masoretic Text",
@@ -170,7 +170,7 @@
         "am_of_ad_2026": 6029,
         "year_6000_falls": "AD 1997",
         "for": [
-          "Reproduces every zadok_year already published, docs/data/events.json and the prophetic timeline. Zero republishing.",
+          "Reproduced every zadok_year published before 2026-10-01, when the site moved to a_prime.",
           "Zadok 4000 lands at 4 BC, inside the 6-4 BC Nativity bracket, so the 'four thousand years to Christ' correspondence holds."
         ],
         "against": [
@@ -181,7 +181,8 @@
       },
       "a_prime": {
         "name": "A' -- Masoretic chain on the standard Exodus",
-        "status": "tracked alternate",
+        "status": "ACTIVE (since 2026-10-01)",
+        "adopted": "2026-10-01, by the author, following the chronology-anchors.md review (references/study-state/chronology-anchors.yml, review_2026-10-01): under ussher_published the 1491 BC Exodus put Solomon's temple at 1012 BC by 1 Kings 6:1, contradicting the 966 BC the Assyrian synchronisms fix and the site's own anchor table.",
         "anchor_exodus_bc": 1446,
         "nahor_age_at_terah_birth": 29,
         "nahor_source": "Masoretic Text",
@@ -196,8 +197,8 @@
         ],
         "against": [
           "Keeps Nahor at 29 against SP, Codex Alexandrinus and Theophilus -- though that reading is best explained as the SP/LXX +50 harmonization of MT's 29 (see a_double_prime).",
-          "Moves every published zadok_year by 45 years.",
-          "Zadok 4000 falls at AD 42, outside the Nativity bracket, losing that correspondence."
+          "Moved every published zadok_year by 45 years (done 2026-10-01).",
+          "Zadok 4000 falls at AD 42, outside the Nativity bracket, so the 'four thousand years to Christ' correspondence is dropped. The author judged it carries no weight: a round number produced by an anchor choice is not evidence for that choice (the same reasoning that rules out a_double_prime_exact)."
         ]
       },
       "a_double_prime": {
@@ -211,7 +212,7 @@
         "year_6000_falls": "AD 1992",
         "for": [
           "Uses the standard 1446 BC Exodus with no adjustment.",
-          "Lands within 5 years of the published 4004 BC epoch, so the correction to existing zadok_years is small."
+          "Lands within 5 years of the 4004 BC epoch published until 2026-10-01."
         ],
         "against": [
           "Its original rationale -- 'the better-attested reading where MT stands alone' -- does not survive: the agreeing witnesses are one text type, and 79 follows the same +50/-50 compensating pattern SP applies across Genesis 11.",

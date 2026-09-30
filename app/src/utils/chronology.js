@@ -4,7 +4,7 @@
  * "Anno Mundi" (AM) years are years-since-creation -- numerically identical to this
  * repo's existing `zadok_year` convention (see calendarConvert.js), just renamed here
  * because more than one epoch now maps AM to a Gregorian year (see chronology.json's
- * `epochs`), whereas calendarConvert.js's ZADOK_TO_GREGORIAN_OFFSET is fixed at 4004.
+ * `epochs`), whereas calendarConvert.js's ZADOK_TO_GREGORIAN_OFFSET is fixed at 3959.
  */
 import chronology from '../../../docs/data/chronology.json' with { type: 'json' };
 import mtVariant from '../../../docs/data/genealogy/generated/mt.json' with { type: 'json' };

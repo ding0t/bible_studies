@@ -327,21 +327,21 @@ In brief:
 Zadok year 0 is Adam's creation, so each variant is anchored on one downstream point, the Exodus,
 and its creation date falls out of its own chain length.
 
-Computed results (`references/build/genealogy_chronology.py`, anchored on the Exodus at 1491 BC,
+Computed results (`references/build/genealogy_chronology.py`, anchored on the Exodus at 1446 BC,
 Terah to Abram per Acts 7:4, Abram's call to the Exodus per Galatians 3:17):
 
 | Variant | Creation | Flood (zadok / Gregorian) | Terah's death (zadok / Gregorian) |
 | --- | --- | --- | --- |
-| MT | 4004 BC | 1656 / 2348 BC | 2083 / 1921 BC |
-| LXX | 5470 BC | 2242 / 3228 BC | 3549 / 1921 BC |
-| SP | 4245 BC | 1307 / 2938 BC | 2324 / 1921 BC |
+| MT | 3959 BC | 1656 / 2303 BC | 2083 / 1876 BC |
+| LXX | 5425 BC | 2242 / 3183 BC | 3549 / 1876 BC |
+| SP | 4200 BC | 1307 / 2893 BC | 2324 / 1876 BC |
 
 The gap between MT's and LXX's Flood dates is now 880 years, and it runs the other way: the
 Septuagint puts the Flood *before* Egypt's First Dynasty (c. 3100 BC), where the Masoretic puts it
-some seven centuries after.
+some eight centuries after.
 That holds only for the Septuagint as printed. Without the second Cainan, which
 [the Cainan question](#the-cainan-question) above treats as an insertion, its Flood falls at
-3098 BC, level with Egypt's First Dynasty, and with the Göttingen Septuagint's 79 for Nahor at 2998 BC,
+3053 BC, level with Egypt's First Dynasty, and with the Göttingen Septuagint's 79 for Nahor at 2953 BC,
 after it. [The Flood and the King Lists](../god/flood-and-the-king-lists.md) weighs the three texts.
 "The biblical timeline" is not a single settled number even before archaeology enters the
 picture. All three variants agree on Terah's death because they share the anchor and the chain
@@ -397,11 +397,10 @@ at Terah 130.
 ### What stays open
 
 The manuscript question is settled for this site's purposes (above); the state file behind this
-study (`references/study-state/genealogy-times.yml`) records the decision. The Exodus anchor is
-still open:
-1491 BC is Ussher's, and reproduces the 4004 BC epoch this site already publishes, but the site
-uses 1446 BC elsewhere, which would move Masoretic creation to 3959 BC. That decision is tracked
-in `references/study-state/genealogy-calendar-review.yml`.
+study (`references/study-state/genealogy-times.yml`) records the decision. The Exodus anchor
+was settled on 2026-10-01: 1446 BC, from 1 Kings 6:1's 480 years counted back from Solomon's
+fourth year, which puts Masoretic creation at 3959 BC. Ussher's 1491 BC, and the 4004 BC epoch it
+produces, were used until then; `docs/data/genealogy/index.json` keeps both as tracked alternates.
 
 **One outstanding item, deliberately not smoothed over yet:** [The Day is
 Near](day-is-near.md#when-is-the-year-6000) uses a different creation epoch again (~3925 BC)

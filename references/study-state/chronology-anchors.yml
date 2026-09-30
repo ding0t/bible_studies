@@ -52,7 +52,7 @@ settled_questions:
 open_questions:
   - "Entry 20's 444 BC decree follows FROM the AD 33 choice rather than supporting it. Stated on the page so the two cannot be mistaken for independent confirmation. If the crucifixion year ever moves, this must move with it."
   - "Solomon's 4th year carries +/-5 yrs and everything above it inherits that. Small beside the genealogy uncertainties, but it does propagate to creation."
-  - "The Zadok columns show two of the tracked epoch scenarios -- `active` (ussher_published, creation 4004 BC) and `a_prime` (creation 3959 BC) -- because the epoch question is still open. Columns were labelled A'/A'' until publication; renamed to the scenario ids in docs/data/genealogy/index.json so the page and the data agree, since `a_double_prime` is 4009 BC and was NOT what the 4004 column held. Collapse to one column only after the epoch is decided."
+  - "RESOLVED 2026-10-01: the epoch was decided (a_prime, creation 3959 BC, Exodus 1446 BC), so the table collapsed to one Zadok column as planned. See decisions_2026-10-01."
   - "1 Maccabees is not in bible-text.db, but it is in the raw-only deuterocanonical source (references/open-data/scrollmapper-bible-databases-deuterocanonical). Every date the page takes from it was checked there on 2026-10-01 (see review_2026-10-01)."
   - "Sabbatical-cycle anchoring carries the Wacholder/Zuckermann one-year dispute. The three attested years used here are internally consistent; the absolute placement is +/-1."
 
@@ -256,6 +256,32 @@ review_2026-10-01:
     Check 23. Record a size note for simplify-bible-study only if the author counts the table
     against the budget.
   evidence: "Recorded in the top-level evidence block below (verify_claims.py reads only that)."
+
+decisions_2026-10-01:
+  decided_by: author, 2026-10-01, on the recommendations in review_2026-10-01
+  epoch: >
+    The site moved from ussher_published (Exodus 1491, creation 4004 BC) to a_prime (Exodus 1446,
+    creation 3959 BC). The author: the Nativity need not sit on Zadok 4000. Done site-wide:
+    index.json active scenario and era ranges; genealogy_chronology.py regenerated (MT creation
+    3959 BC, Flood 2303 BC, LXX 5425/3183, SP 4200/2893); calendarConvert.js offset 3959 and its
+    tests; chronology.json genealogy epoch; GenealogyViewer era bands; the six era files (rail
+    records from David onward keep their BC year and move 45 AM back; Genesis- and Exodus-dated
+    records keep their AM and move 45 years later); three frontmatter zadok/gregorian pairs and
+    events.json; prose on combined-timeline, genealogy-times, flood-and-the-king-lists,
+    world-population (headline 0.481% -> 0.486%/yr, doubling 144 -> 143 years, every derived table
+    recomputed), zadok-calendar, day-is-a-thousand-years, six-days-of-history, day-is-near,
+    prophecy-events-times. This page's table is now one Zadok column.
+  found_while_switching: >
+    patriarchal.json still had Abraham at AM 1948 (Terah 70), although the 2026-09-28 Masoretic
+    decision puts him at AM 2008 (Terah 130). Abraham through Tamar moved +60 AM with the switch;
+    the EXTRAPOLATED Hezron, Ram and Amminadab were re-spaced evenly between Perez (AM 2213) and
+    Nahshon (AM 2447, 66 at the Exodus), by the same equal-spacing rule they were built with.
+    NOT FIXED, pre-existing: Rahab and Salmon are born after the conquest (Rahab 1351 BC); Perez's
+    'Entry to Egypt' event (AM 2228) is 70 years before Jacob's (AM 2298). The pre-David Judah line
+    is placeholder data that the four-hundred-and-eighty-years draft is the place to resolve.
+  ezekiel_40_1: "Both readings of 'the beginning of the year' given (10 Nisan per ESV SB and NLT; 10 Tishri / Day of Atonement / jubilee), marked contested; the 'midpoint of a fifty-year cycle' argument and 'clearest case on the site' dropped. Exodus 12:2-3 added to bible_references."
+  key_takeaways: "Rewritten: Luke fixes the year; Daniel's 476 years reach AD 32 or 33 by reckoning and never AD 30; the day-level agreement is stated as following from the 444 BC choice. The Verdict now says Daniel 9 supports the year by excluding AD 30 on either reckoning, which the Daniel 9:25 section already says. No remaining conflict with the Verdict or the 444 BC section."
+  prophecy_essentials: "The 445 BC / 'fixed by the Elephantine papyri' sentence now names Artaxerxes' twentieth year, gives Hoehner's AD 33 from 444 BC as the site's reckoning, and Anderson's AD 32 from 445 BC."
 
 evidence:
   - {id: ez40-1-esv, what: "Ezekiel 40:1 block quote; 'beginning of the year', no month named", tool: study_verse, args: {book: Ezek, chapter: 40, verse: 1, work_id: esv-study-bible}, expect_contains: "In the twenty-fifth year of our exile, at the beginning of the year, on the tenth day of the month", checked: 2026-10-01}
