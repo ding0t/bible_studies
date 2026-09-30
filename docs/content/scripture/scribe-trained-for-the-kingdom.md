@@ -5,9 +5,9 @@ description: "Matthew 13:52 — Jesus makes a scribe out of a disciple, stocks h
 tags: ["matthew", "discipleship", "study-method", "old-testament", "method/word-study", "lang/greek", "audience/teaching"]
 draft: true
 primary_passage: "Matthew 13:51-52"
-bible_references: ["Matthew 13:10-17", "Isaiah 6:9-10", "Matthew 13:35", "Matthew 13:44-53", "Matthew 9:16-17", "Matthew 12:35", "Matthew 5:17-20", "Matthew 23:34", "Matthew 28:19-20", "Matthew 8:19", "Matthew 27:57", "Matthew 12:14-50", "Matthew 13:39-40", "Mark 2:16", "Acts 19:35", "Acts 23:9", "1 Corinthians 1:20", "Ephesians 3:5-9", "Colossians 1:26", "Daniel 2:27-28", "Ezra 7:6-11", "Psalm 78:2", "2 Timothy 3:16-17", "1 John 2:7-8"]
+bible_references: ["Matthew 13:10-17", "Isaiah 6:9-10", "Matthew 13:35", "Matthew 13:44-53", "Matthew 9:16-17", "Matthew 12:35", "Matthew 5:17-20", "Matthew 23:34", "Matthew 28:19-20", "Matthew 8:19", "Matthew 27:57", "Matthew 12:14-50", "Matthew 13:39-40", "Ephesians 3:5-9", "Colossians 1:26", "Daniel 2:27-28", "Ezra 7:6-11", "Psalm 78:2", "2 Timothy 3:16-17", "1 John 2:7-8"]
 date_created: 2026-09-18
-date_modified: 2026-09-28
+date_modified: 2026-10-01
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -37,17 +37,19 @@ has made them.
 
 ### Lessons about Jesus
 
-- **Jesus makes scribes.** The participle is passive — μαθητευθείς, *"having been discipled."*
-  The training in this verse is something done to the man. Jesus is the one who does it, and He
-  does it for people who started the day as fishermen and a tax collector.
+- **Jesus makes scribes.** The participle is passive — μαθητευθείς, *"having been discipled"* —
+  and the chapter says whose work the understanding is: "to you it has been given" (13:11, ESV).
+  Jesus is the one who gives it, and He gives it to people who started the day as fishermen
+  and a tax collector.
 - **Jesus gives His disciples the whole of what God has said.** The storeroom holds new stock
   and old stock together. He had already put it plainly: "I have not come to abolish them but to
   fulfill them" (Matthew 5:17, ESV).
 - **Jesus puts His disciples in the master's chair.** Matthew uses οἰκοδεσπότης, "master of a
-  house," seven times, and in five of the other six the master stands for God or for Christ
-  Himself: the sower whom Jesus identifies as "the Son of Man" (13:37, ESV), the vineyard owner
-  of 20:1, 20:11 and 21:33, and Jesus in 10:25. At 13:52 the master of the house is the
-  disciple.
+  house," seven times. Twice the text itself makes the master Jesus: in 10:25, and in 13:27,
+  where the master is the sower Jesus names "the Son of Man" (13:37, ESV). The vineyard owner
+  of 21:33 is God by strong implication, since he sends "his son" (21:37, ESV); the owner of
+  20:1 and 20:11 is God on the usual reading, which the parable leaves to its hearers. At 13:52
+  the master of the house is the disciple.
 
 ### Memory verses
 
@@ -68,9 +70,9 @@ has made them.
 
 ### Be Transformed
 
-- **Think.** Your understanding of Scripture is something God has worked in you — take the passive
-  seriously. Thank Him for it by name this week, and go on asking Him for more of it, the way the
-  disciples kept coming back to Jesus for the explanations (13:36; 15:15).
+- **Think.** Your understanding of Scripture is something God has worked in you — take "it has
+  been given" (13:11) seriously. Thank Him for it by name this week, and go on asking Him for
+  more of it, the way the disciples kept coming back to Jesus for the explanations (13:36; 15:15).
 - **Attitude.** Stop ranking the old stock below the new. If you have quietly settled into the New
   Testament and left the Old for other people, the householder in this verse has half a storeroom.
   Read a prophet this month.
@@ -89,9 +91,24 @@ You have given. In Jesus' name. Amen.
 
 ---
 
+## Study outline
+
+- [Where the verse sits](#where-the-verse-sits). The disciples' "yes" and the "therefore" that
+  answers it.
+- [What a scribe was](#what-a-scribe-was). Ezra's office, the first-century profession, and the
+  two scribes in Matthew who belong to Jesus.
+- [The householder's storeroom](#the-householders-storeroom). A stocked room, a habitual
+  bringing-out, new and old on one shelf.
+- ["Has been trained"](#has-been-trained-the-passive). Who does the discipling.
+- ["For the kingdom of heaven"](#for-the-kingdom-of-heaven-the-hardest-two-words). A dative the
+  Greek leaves open.
+- [Why the new was new](#why-the-new-was-new-reading-this-dispensationally). The mystery disclosed
+  on the day of rejection.
+- [What Jesus is making](#what-jesus-is-making). A stocked disciple sent to spend it.
+
 ## Who is writing, and to whom
 
-### Authorship tradition
+### Matthew the tax collector
 
 The early church is unanimous that the tax collector wrote this Gospel. Papias of Hierapolis names
 him around AD 135 and Irenaeus of Lyons around 175, and no competing tradition survives (*ESV Study
@@ -99,7 +116,7 @@ Bible*, introduction to Matthew). That matters for this verse in particular. Mat
 promise that Jesus makes scribes, and Matthew had no scribal training — Jesus called him off a tax
 booth (9:9), from the one profession in Galilee more despised than the scribes were respected.
 
-### Audience: Jewish readers
+### Written for readers who knew the Law
 
 He writes for readers who know the Law and the Prophets. He quotes the Old Testament constantly,
 opens with a genealogy running back to "the son of Abraham" (1:1, ESV), and writes "the kingdom
@@ -111,7 +128,7 @@ the inside.
 
 ## Where the verse sits
 
-### The parable discourse context
+### Given to the disciples, withheld from the crowd
 
 Matthew 13 is the third of the five long discourses that give this Gospel its shape. The whole
 chapter is parables, and the chapter tells you why. The disciples ask Jesus outright: "Why do
@@ -128,8 +145,7 @@ parables sort hearers who were already sorted.
 
 "Secrets" translates μυστήρια (*mystēria*, G3466). The ESV Study Bible glosses these as the mysteries
 of how the kingdom of heaven would operate, revealed to the disciples and withheld from the
-unresponsive crowd. Matthew then quotes Psalm 78:2 and calls it fulfilled: "I will utter what
-has been hidden since the foundation of the world" (13:35, ESV). Six verses on, Jesus tells the
+unresponsive crowd. Six verses on, Jesus tells the
 Twelve that prophets and righteous people longed to see what they were seeing (13:17).
 
 ### Why 13:52 follows 13:51
@@ -138,11 +154,8 @@ So by verse 51 the disciples are holding something. Jesus asks whether they have
 They say yes. Then comes Διὰ τοῦτο, *"therefore"* — and the therefore reaches back to their
 yes. Because you have understood, here is what you now are.
 
-### The Nazareth contrast
-
-Two verses later Jesus walks into Nazareth, and the town that raised Him asks, "Where did this
-man get this wisdom?" (13:54, ESV), takes offence, and gets no mighty works. The verse about
-the stocked storeroom sits directly against a village with an empty one.
+Verse 52 is itself a parable in miniature ("is like a master of a house"), and is read like
+any parable, for the point its first hearers would catch.
 
 ## What a scribe was
 
@@ -166,6 +179,8 @@ to study), <span dir="rtl">וְלַעֲשֹׂת</span> (*vela'asot*, and to do),
 <span dir="rtl">וּלְלַמֵּד</span> (*ulelammed*, and to teach). Ezra studied the Law, obeyed
 it, and taught it — and the Greek Bible calls him a γραμματεύς for doing so.
 
+### A first-century profession
+
 By the first century the office had hardened into a profession. The *NIV Cultural Backgrounds
 Study Bible* notes at Matthew 5:20 that while the term could stretch to cover village clerks
 who drew up legal documents, in the Gospels it normally means men who were literate, formally
@@ -173,34 +188,14 @@ trained in the Law of Moses, and teaching it to others. These were respected men
 worked by citation. The same commentary observes at Matthew 7:29 that a teacher of the period
 avoided speaking on his own authority and reached for earlier authorities wherever he could.
 
-### A trade, not a school of thought
-
-"Scribes and Pharisees" runs together so often in the Gospels that the two can read as a matched
-pair of parties. They are different kinds of word. **Pharisee** and **Sadducee** name schools;
-**scribe** names a job, and men from the schools held it.
-
-Mark says so in three words. οἱ γραμματεῖς τῶν Φαρισαίων — "the scribes **of the Pharisees**"
-(Mark 2:16, ESV). Luke says it with the technical term for a faction: "some of the scribes of the
-Pharisees' **party**" (Acts 23:9, ESV), where "party" renders μέρος (*meros*, G3313), the word for a faction. A man could
-be a scribe of one party or another, which is only possible if being a scribe is not itself a
-party.
-
-The trade also existed outside Judaism entirely, and Luke uses the same noun for it. When the
-riot at Ephesus is quieted, the man who does it is ὁ γραμματεύς — the city's chief
-administrative officer, a pagan Greek official of Artemis's temple-keeping city (Acts 19:35).
-The ESV renders him "the town clerk." Same word as Matthew's scribes; the annotation gives it a
-different semantic domain (37.94, civil officials) from the 53.94 it gives the Jewish scribes.
-
-Across the whole Greek New Testament γραμματεύς occurs **62 times**: 58 of a Jewish expert in the
-Law, 1 of that Ephesian clerk, and 3 in a plain "scholar" sense — Matthew 13:52, Matthew 23:34,
-and Paul's "Where is the scribe?" in a list of the wise and the debaters of this age
-(1 Corinthians 1:20, ESV).
-
 So the word carries the sense of a credentialed professional: literate, trained, employed to
 know a text and rule from it. The **student** word in Greek is μαθητής (*mathētēs*, G3101), and it is a
 different word. That is what makes verse 52 the sentence it is — Jesus puts the two together.
 γραμματεὺς μαθητευθείς. The professional who is also an apprentice. A man with a qualification,
 sitting under someone else's teaching.
+
+Why "scribes and Pharisees" pairs a trade with a school is taken up in a separate study,
+*Scribes and Pharisees: a trade and a school*.
 
 ### The 22 Matthew occurrences
 
@@ -233,9 +228,10 @@ Those two verses are exactly the two where the scribe belongs to Jesus.
 θησαυρός (*thēsauros*, "thay-sow-ROSS", G2344) is the word behind English *thesaurus*, and it carries
 two senses: the valuables, and the room they are kept in.
 
-Matthew uses it nine times. Eight of them mean the valuables — the magi's treasures (2:11),
-treasure in heaven (6:20), the heart's treasure (6:21), the treasure hidden in a field eight
-verses before ours (13:44). The Macula annotation puts 13:52 alone in a different semantic
+Matthew uses it nine times. Seven of them mean the valuables — treasure in heaven (6:20), the
+heart's treasure (6:21), the treasure hidden in a field eight verses before ours (13:44). The
+annotation tags the magi's treasures (2:11) both as valuables and as the chests that held them.
+It puts 13:52 alone in a different semantic
 domain, one that contains just two words: θησαυρός and ταμεῖον, "storehouse" — the word Jesus
 uses for the private room you shut the door of to pray (6:6).
 
@@ -268,10 +264,9 @@ it the same semantic domain it gives 12:35. The second is the sentence ours is b
 > evil treasure brings forth evil.
 
 Same verb, ἐκβάλλει. Same noun, θησαυρός. Same preposition, ἐκ. Matthew builds 13:52 out of the
-same three words as 12:35, in a different order, with the kingdom's contents poured in. (This
-repo's derived cross-reference tooling returns no link between the two verses — it finds
-quotations and shared rare vocabulary, and this is neither. The parallel is my own observation,
-offered for the reader to check in the Greek above.)
+same three words as 12:35, in a different order, with the kingdom's contents poured in. (The
+parallel is my own observation, offered for the reader to check in the Greek above; the
+cross-reference data does not link the two verses.)
 
 Matthew 12:35 comes with a diagnosis attached. Jesus says it while telling the Pharisees that
 "out of the abundance of the heart the mouth speaks" (12:34, ESV). What a man brings out
@@ -296,10 +291,10 @@ difference.
 
 παλαιός occurs **exactly three times in Matthew**: 9:16, 9:17, and 13:52 — verified against the
 SBLGNT morphology, and there are no others. καινός (*kainos*, G2537) occurs four times: 9:17, 13:52, 26:29, and
-27:60. So the two occurrences that matter are in these two passages, and the Macula annotation
-assigns them different senses. At 9:16-17 both adjectives carry the domain of condition —
-*worn out* against *unused*. At 13:52 both carry the domain of time — *of a former period*
-against *of a recent one*.
+27:60. Both passages use both adjectives, and the Macula annotation assigns them different
+senses in each. At 9:16-17 both carry a Louw-Nida domain of nature and kind (58) — new as a
+different kind of thing from the old. At 13:52 both carry the domain of time (67) — *of a former
+period* against *of a recent one*.
 
 The wineskins are old because they have perished. The stock in the storeroom is old because it
 has been there longer. Jesus is making two different points with the same pair of words, and
@@ -311,23 +306,20 @@ Law through Moses, spoke through the prophets, and every one of those is still s
 said it Himself in the same Gospel: "not an iota, not a dot, will pass from the Law until all
 is accomplished" (5:18, ESV). The God who speaks keeps what He has spoken.
 
-**What the new and old are.** The commentaries consulted here converge. The *ESV Study Bible*
-takes the disciples to understand both the "new" revelation from Jesus and how it fulfils the
-"old" promises in the Old Testament. Both *Cultural Backgrounds Study Bibles* say the old
-treasures of the Old Testament can be employed in light of the newer and fuller message of the
-kingdom. The *NIV Biblical Theology Study Bible* frames it as continuity between the old and new
-eras with fresh items added. The *NLT Life Application Study Bible* adds the sharpest
-observation of the four: the professional teachers of the law were trapped in the old and blind
-to the new.
+#### The commentaries' reading, and a merism
 
-Confidence, marked: that reading is the settled one across every commentary consulted, and I
-hold it. A live alternative reads καινὰ καὶ παλαιά as a merism — a figure meaning simply
+**What the new and old are.** The commentaries consulted here converge: the "new" revelation
+from Jesus fulfils the "old" promises of the Old Testament (*ESV Study Bible*), which are read in
+light of the fuller message of the kingdom (both *Cultural Backgrounds Study Bibles*), with
+continuity between the eras and fresh items added (*NIV Biblical Theology Study Bible*). The *NLT
+Life Application Study Bible* adds that the professional teachers of the law were trapped in the
+old and blind to the new.
+
+That reading is the settled one across every commentary consulted, and I hold it. A live
+alternative reads καινὰ καὶ παλαιά as a merism — a figure meaning simply
 *everything*, so that the point falls on the householder's abundance and generosity. Nothing in
 the application changes either way; a storeroom of every vintage is still a storeroom to be
 spent.
-
-One detail I will record without building on it: Jesus says *new and old*, in that order, where
-a stocktake would run the other way. No source consulted here comments on it.
 
 ## "Has been trained": the passive
 
@@ -348,9 +340,16 @@ Matthew's Gospel opens this word in the passive and closes it in the active. In 
 disciple is made; in 28:19 the made disciple is sent to make others — "Go therefore and make
 disciples of all nations" (ESV). Everything between those two verses is the training.
 
+How much the passive itself carries is contested. The passive of this verb can mean simply
+"became a disciple": the ESV renders the same form at 27:57 "was a disciple of Jesus," the NIV,
+CSB and NASB render 13:52 "has become a disciple," and the Macula annotation files both verses
+with ἀκολουθέω, "follow," away from the "make disciples" of 28:19. The grammar allows the
+reading that someone did the discipling without requiring it. Verse 11 settles who did.
+
 **This shows that God is the teacher of His own people.** The understanding the Twelve claimed
-in verse 51 had been handed to them in verse 11 — "to you it has been given" — and the grammar
-of verse 52 keeps saying so. Whatever you understand of Scripture, Someone taught it to you.
+in verse 51 had been handed to them in verse 11 — "to you it has been given" — and the ESV's
+"has been trained" in verse 52 keeps that in view.
+Whatever you understand of Scripture, Someone taught it to you.
 The right response to it is thanks.
 
 ## "For the kingdom of heaven": the hardest two words
@@ -373,8 +372,6 @@ Fourteen versions produce eleven wordings and seven different relations:
 | instructed **concerning** the kingdom | NKJV |
 | discipled **in regard to** the reign | YLT |
 
-Seven relations: *for*, *of*, *in*, *to*, *unto*, *concerning*, *in regard to*. Each committee is
-supplying one the apostle left open.
 "Trained **for**" makes the kingdom the purpose of the training. "Disciple **of**" makes the
 kingdom the subject matter. "Disciple **in**" makes the kingdom the place where it happened.
 All three are available in the Greek, and the Greek declines to pick.
@@ -383,9 +380,8 @@ Read the verse with the dative left open and it says something larger than any s
 rendering: the kingdom is what he was taught, why he was taught, and where the teaching
 happened, all at once.
 
-(YLT and the NKJV appear in that table as witnesses to a translation decision. This site uses
-neither as a source for what a verse means — see [How to Read the Bible](how-to-read-the-bible.md)
-and the reasoning in Fee and Stuart, listed below.)
+(This site cites YLT and the NKJV only as witnesses to a translation decision — see
+[How to Read the Bible](how-to-read-the-bible.md) and Fee and Stuart, below.)
 
 ## Why the new was new: reading this dispensationally
 
@@ -407,8 +403,10 @@ Paul (19 times) or Revelation (4). Jesus says the word once, and He says it here
 works out what the word means, tracing it back to the Aramaic <span dir="rtl">רָז</span> (*raz*, H7328)
 of Daniel 2: something God alone knows, which stays unknown until He says it, and which is then
 plain. Hidden, then disclosed. Matthew says the same thing about these parables in his own voice
-eight verses on — Jesus "will utter what has been hidden since the foundation of the world"
+later in the chapter — Jesus "will utter what has been hidden since the foundation of the world"
 (13:35, ESV), which Matthew quotes from Psalm 78:2 and calls fulfilled.
+
+### Given on the day of the rejection
 
 Now put that beside what Matthew 12 has just finished doing. The Pharisees conspire to destroy
 Jesus (12:14). The crowds ask, "Can this be the Son of David?" and the Pharisees answer that He
@@ -418,18 +416,18 @@ forgiven (12:31), refuses them a sign beyond Jonah's (12:39), and redefines His 
 of the house and sat beside the sea" (13:1, ESV). Matthew dates the parable discourse to the day
 of the rejection.
 
-### What the dispensational reading concludes
+### The kingdom's shape in the interval
 
-**What the dispensational reading concludes from that.** The King has been formally refused, and
+The King has been formally refused, and
 the kingdom's arrival in glory is therefore deferred. What Jesus discloses in these parables
 is the shape the kingdom takes in the interval — sown among four soils, growing with
 weeds in it until a harvest at "the end of the age" (13:39-40), netted good and bad together
 until angels do the sorting (13:47-50). An interval the Old Testament prophets had not been
 shown. Hence a mystery, and hence the "new" stock in verse 52.
 
-### Confidence, marked
+### How firmly each step holds
 
-**Confidence.** Two different things are stacked here and they hold differently. That μυστήριον
+Two different things are stacked here and they hold differently. That μυστήριον
 means withheld-then-revealed is lexical and settled; Daniel 2, Colossians 1:26 and Ephesians 3:5
 all say it in so many words. That Matthew 13 therefore describes a distinct administration of the
 kingdom between the rejection and the return is a **systematic** reading. It is this site's, and
@@ -439,21 +437,14 @@ know which of the two they are being handed.
 
 ### What it does to the storeroom
 
-**What it does to the storeroom.** Whichever way that question falls, verse 52 refuses to let the
-disciple drop either half. The old stock is God's word to Israel, and Jesus has just said not an
-iota of it will pass (5:18). The new stock is what He disclosed that afternoon. This site's study
+Whichever way that question falls, verse 52 refuses to let the
+disciple drop either half. The old stock is God's word to Israel. The new stock is what He disclosed that afternoon. This site's study
 of Romans 11 puts the same shape in a heading:
 [two mysteries, "and neither cancels the other"](../israel-and-church/israel-and-the-church.md#two-mysteries-and-neither-cancels-the-other).
 
 **This shows that God adds without subtracting.** He had more to say than He had yet said, and
 when He said it He did not take back a word of what He had said before. That is why the picture is
 a storeroom: it has room for everything He has ever said.
-
-One resonance, and it is only that. The framework takes its name from
-οἰκονομία (*oikonomia*, G3622), the "administration" of Ephesians 3:9 — literally household-management.
-Jesus calls the trained disciple an οἰκοδεσπότης, a house-master. Both words are built on οἶκος,
-the household. Paul is describing how God runs His house; Jesus is describing who keeps the
-store in it.
 
 ## What Jesus is making
 
@@ -465,16 +456,23 @@ its home. A **householder** with a stocked **storeroom** — a store filled befo
 Who **brings out**, in the present tense, **new and old** — spending what God gave him, all of
 it, on the household in front of him.
 
-The disciples heard this in the hour they first said they had understood. Jesus told them what
-understanding is for.
-
-It is for the household. The householder in this picture does not open his storeroom to admire
+Understanding is for the household. The householder in this picture does not open his storeroom to admire
 the shelves; he carries things out to be eaten. Matthew closes his Gospel with the same
 movement, now as a command: "teaching them to observe all that I have commanded you" (28:20,
 ESV). Paul says the same to Timothy, and the whole of the storeroom is in his sentence — "All
 Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and
 for training in righteousness, that the man of God may be complete, equipped for every good
 work" (2 Timothy 3:16-17, ESV).
+
+### What stays in Galilee and what carries over
+
+Parts of this picture belong to its first hearers. The scribe as a trained profession and the
+household storeroom are first-century furniture. So is the Twelve's own place: they heard the
+new stock spoken aloud, what Paul calls "revealed to his holy apostles and prophets by the
+Spirit" (Ephesians 3:5, ESV), a position no later disciple holds. Your store is filled from
+what they received and wrote down. The rest of the verse carries over whole: Jesus still does
+the discipling, the store still holds both Testaments, and it is still stocked to be spent.
+Matthew's close, quoted above, hands it on to every disciple the Eleven would make.
 
 **This shows that God equips the people He sends.** He does not commission and then leave a
 person to find supplies. He fills the store first, He does the filling Himself, and then He
@@ -483,9 +481,10 @@ front of someone this week with something in your hands — because He put it th
 
 ## Discussion questions
 
-1. μαθητευθείς is passive: the scribe *has been discipled*. Every English version keeps the
-   passive. What would the verse claim if Jesus had used the active — "every scribe who has
-   trained himself for the kingdom"?
+1. μαθητευθείς is passive: the scribe *has been discipled*. The ESV keeps the passive; the
+   NIV and NASB read "has become a disciple." What would the verse claim if Jesus had used the
+   active — "every scribe who has trained himself for the kingdom"? And if Jesus did the
+   training, what does that say about Him?
 
 2. The disciples say "Yes" in verse 51, and Jesus's "therefore" in verse 52 hangs on that yes.
    Read 13:10-17 and 13:36 alongside it. What had actually happened to these men that made the

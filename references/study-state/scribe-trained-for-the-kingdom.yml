@@ -1,6 +1,6 @@
 slug: "scribe-trained-for-the-kingdom"
 title: "The Scribe Trained for the Kingdom"
-status: review
+status: reviewed
 target_path: "docs/content/scripture/scribe-trained-for-the-kingdom.md"
 
 primary_passage: "Matthew 13:51-52"
@@ -191,6 +191,9 @@ stages:
 
 open_questions:
   - >
+    Pending link: when docs/content/scripture/scribes-and-pharisees.md is published, turn the
+    plain-text pointer at the end of "Greek γραμματεύς and Hebrew סֹפֵר" into a link.
+  - >
     Whether καινὰ καὶ παλαιά specifies the CONTENT of the store (new revelation and old
     promise, as the ESV Study Bible, both Cultural Backgrounds Study Bibles and the NIV
     Biblical Theology Study Bible all take it) or simply signals ABUNDANCE — a
@@ -215,7 +218,7 @@ resources_consulted:
   - {type: other, title: "CSB Ancient Faith Study Bible footnote at Matthew 13:52", author: "Holman", note: "'Or every scribe' — the translation committee's own record that γραμματεύς/'teacher of the law' is a judgement call."}
   - {type: other, title: "Fee & Stuart, How to Read the Bible for All Its Worth", author: "Gordon D. Fee and Douglas Stuart", note: "Parable lens — one main point, resist allegorising incidental details. Applied to keep the household from being decoded."}
 
-last_updated: "2026-09-15"
+last_updated: "2026-10-01"
 
 review_2026-09-15:
   reviewer_note: >
@@ -342,6 +345,43 @@ additions_2026-09-16:
     - "Remaining Minor findings from review_2026-09-15."
     - "ai_provider_models still hand-seeded; re-run refresh_frontmatter_provenance.py after commit."
 
+review_close_2026-10-01:
+  scope: >
+    Closed every item left open by review_2026-09-15 / fixes_2026-09-16 / additions_2026-09-16.
+    No commit and no provenance run (both left to the author). verify_claims.py --evidence:
+    3/3 ok before the edits.
+  applied:
+    - "MODERATE 6 — new sub-section 'What stays in Galilee and what carries over' (end of 'What Jesus is making'): the scribal profession, the storeroom and the Twelve's apostolic position (Eph 3:5, ESV verified) marked cultural/unrepeatable; Jesus as discipler, both Testaments, stocked-to-be-spent marked transcultural."
+    - "MODERATE 7 — oikodespotes bullet: 10:25 and 13:27->13:37 stated as explicit; 21:33 as strong implication (21:37 'his son', ESV verified; ESVSB 21:33-46 reads the parable as God taking the kingdom); 20:1/20:11 as the usual reading the parable leaves open (ESVSB 20:1 note is silent on the owner's identity). Macula: 7 occurrences, all 57.14."
+    - "Minor genre — one sentence naming 13:52 as a parable in miniature, read for its first hearers' point."
+    - "Minor 2:11 — re-queried: thesauros 9x in Matthew; 2:11 carries 6.140 + 65.10, 13:52 alone 7.32 (shared only with tameion). Text now says seven mean the valuables and names 2:11's double tag."
+    - "Minor condition-gloss — palaios 9:16/9:17 58.75, 13:52 67.97; kainos 9:17 58.71, 13:52 67.115. Prose now names Louw-Nida 58 (nature/kind) and 67 (time) instead of 'condition — worn out'."
+    - "Minor count-sounding sentence — 'the two occurrences that matter' replaced with 'Both passages use both adjectives'."
+    - "Minor Nazareth — 13:54 now 'His hometown'; heading 'The hometown contrast' (no inbound anchors found)."
+    - "Minor discussion-question facet — Q1 now asks what Jesus doing the training says about Him."
+    - "Minor skim hits — 'Confidence, marked:' and 'One detail I will record without building on it:' removed; three bold run-ins duplicating their own H3 headings in the dispensational section removed."
+  new_finding:
+    severity: moderate
+    claim: 'Discussion Q1 "Every English version keeps the passive"; Key Takeaway "The training in this verse is something done to the man"; "the grammar of verse 52 keeps saying so".'
+    finding: >
+      FALSE as a count and OVERSTATED as grammar. NIV, CSB, NASB 1995/2020, LSB and NLT all read
+      "has become a disciple" (study_verse, all works). The ESV renders the same aorist passive at
+      27:57 "was a disciple of Jesus". Macula puts 13:52 and 27:57 in 36.31 with akoloutheo
+      "follow", apart from 28:19/Acts 14:21 at 36.37. The passive of this verb can be
+      intransitive. Fixed: Q1 corrected; the Key Takeaway now rests the agency claim on 13:11
+      ("to you it has been given"); a four-sentence confidence note added to the passive section;
+      the 'Think' bullet re-pointed at 13:11. The theological claim stands on 13:11 unchanged.
+  still_for_the_author:
+    - "The Galilee/carries-over paragraph says the Twelve's position is one 'no later disciple holds' (foundational revelation, Eph 3:5; cf. 2:20). Confirm that sits where you want it."
+    - "ai_provider_models still hand-seeded; run refresh_frontmatter_provenance.py before the commit that ships these edits."
+    - "references/build/tests/test_study_structure.py::test_unchanged_file_is_clean_against_head compares this file to HEAD, so it will fail until these edits are committed — content coupled into a code test, same class as the one removed 2026-09-20."
+  size: "5,461 -> 5,742 raw words (+281); validator 4,421 against 4,000 budget. simplify-bible-study next."
+  validator: "npm run validate: no errors on this file; warnings = Check 22 (no Study outline) and Check 23 (over budget)."
+  ready_to_publish: >
+    Content-ready after the author's read of the new confidence note and Galilee section. Nothing
+    Critical or Moderate remains open. Recommended order: simplify-bible-study, then provenance
+    refresh + commit, then draft: false.
+
 # Replayable evidence -- re-run with:
 #   cd references/build && uv run python verify_claims.py scribe-trained-for-the-kingdom --evidence
 # Each entry is a tool call from research_batch.REGISTRY plus what its answer must contain, so a
@@ -369,3 +409,135 @@ evidence:
     path: text
     expect_contains: "skilled scribe in the law of Moses"
     checked: 2026-09-18
+
+  - id: mathetheuo-passive-intransitive
+    what: the NIV renders 13:52's aorist passive intransitively ("has become a disciple")
+    tool: study_verse
+    args: {book: Matt, chapter: 13, verse: 52, work_id: niv-biblical-theology-study-bible}
+    path: "0.text"
+    expect_contains: "who has become a disciple in the kingdom of heaven"
+    checked: 2026-10-01
+
+  - id: oikodespotes-in-matthew
+    what: οἰκοδεσπότης occurs seven times in Matthew
+    tool: bible_word
+    args: {lemma: "οἰκοδεσπότης", book: Matt}
+    expect_count: 7
+    checked: 2026-10-01
+
+simplify_2026-10-01:
+  status: applied 2026-10-01 -- author approved items 1-9; optional second fork declined
+  budget: 4000   # default; no word_budget set
+  words_before: 4421   # validator Check 23
+  point: >
+    Jesus, who alone gives understanding (13:11), has made His disciples scribes of the kingdom
+    whose storeroom holds everything God has said, old and new, and He sends them to spend it on
+    others. (Agrees with the file's own "In one sentence" line.)
+  map:   # prose words per study_structure.py; serves / supports / tangent
+    - {section: "intro + In one sentence", words: 110, verdict: serves}
+    - {section: "Key Takeaways (Lessons, Be Transformed, Prayer)", words: 320, verdict: serves}
+    - {section: "Authorship tradition", words: 80, verdict: supports, note: "tax collector made a scribe"}
+    - {section: "Audience: Jewish readers", words: 101, verdict: supports}
+    - {section: "The parable discourse context", words: 161, verdict: serves}
+    - {section: "Why 13:52 follows 13:51", words: 71, verdict: serves}
+    - {section: "The hometown contrast", words: 46, verdict: tangent}
+    - {section: "Greek grammateus and Hebrew sofer", words: 215, verdict: supports}
+    - {section: "A trade, not a school of thought", words: 323, verdict: "tangent (paras 1-4); last para serves"}
+    - {section: "The 22 Matthew occurrences", words: 194, verdict: serves}
+    - {section: "thesauros = storeroom", words: 212, verdict: serves}
+    - {section: "ekballei = he keeps bringing out", words: 271, verdict: supports}
+    - {section: "New and old: time, not condition", words: 463, verdict: serves}
+    - {section: "Has been trained: the passive", words: 236, verdict: serves}
+    - {section: "For the kingdom of heaven: the dative", words: 179, verdict: serves}
+    - {section: "Why the new was new (intro + Mystery + Concludes + Confidence)", words: 483, verdict: supports}
+    - {section: "What it does to the storeroom", words: 175, verdict: "serves; oikonomia resonance para is tangent"}
+    - {section: "What Jesus is making", words: 212, verdict: serves}
+    - {section: "What stays in Galilee and what carries over", words: 176, verdict: serves}
+    - {section: "Discussion questions", words: 199, verdict: serves}
+  repeated_ideas:
+    - "13:35 / Psalm 78:2 'hidden since the foundation of the world': parable-discourse context AND Mystery in Matthew 13 -- does its work in Mystery."
+    - "Matthew 5:18 'not an iota': 'This shows that God does not discard His own words' AND 'What it does to the storeroom' -- does its work in the first."
+    - "The 'yes' -> 'therefore' link: 'Why 13:52 follows 13:51' AND 'What Jesus is making' ('The disciples heard this in the hour...')."
+    - "The seven relations: sentence above the dative table AND 'Seven relations: for, of, in...' below it."
+    - "What 'new' is: commentary survey in 'New and old' AND the dispensational conclusion ('hence the new stock')."
+    - "13:11 'to you it has been given': Key Takeaways, Be Transformed, discourse context, passive section -- Key Takeaways copies are summary by design; leave."
+  recommendation:
+    - {action: fork, section: "A trade, not a school of thought, paras 1-4", saves: 255, reason: "Its own point (grammateus names a profession, held by men of the parties and by a pagan civic officer; 'scribes and Pharisees' pairs a trade with a school). Working title 'Scribes and Pharisees: a trade and a school'. Keep the last paragraph (grammateus mathēteutheis) and fold it into 'Greek grammateus and Hebrew sofer'. Author requested this section on 2026-09-16 -- their call."}
+    - {action: tighten, section: "oikonomia resonance para in 'What it does to the storeroom'", saves: 70, reason: "Self-labelled 'only a resonance'; the glossary entry already carries oikonomia."}
+    - {action: merge, section: "13:35 / Psalm 78:2 in 'The parable discourse context'", saves: 35, reason: "Same citation does the argument's work in 'Mystery in Matthew 13'."}
+    - {action: merge, section: "second 5:18 in 'What it does to the storeroom'", saves: 20, reason: "Already quoted three paragraphs earlier under 'God does not discard His own words'."}
+    - {action: tighten, section: "New and old: commentary survey + new-before-old para", saves: 85, reason: "Four-commentary paragraph shortens to one sentence keeping every citation; the word-order paragraph rests nothing and is already recorded in open_questions."}
+    - {action: tighten, section: "ekballei: cross-reference-tooling parenthesis", saves: 35, reason: "Keep 'the parallel is my own observation', drop the explanation of what the tooling finds."}
+    - {action: tighten, section: "The hometown contrast", saves: 46, reason: "Tangent; the point stands without the Nazareth foil."}
+    - {action: merge+tighten, section: "Dative: 'Seven relations' list sentence + YLT/NKJV parenthesis", saves: 40, reason: "List repeats the sentence above the table; the policy parenthesis can keep its link in one sentence."}
+    - {action: merge, section: "What Jesus is making: 'The disciples heard this in the hour...' two sentences", saves: 22, reason: "Restates 'Why 13:52 follows 13:51'; shorten to 'Understanding is for the household.'"}
+  optional_not_counted:
+    - "Fork the Matthew 12 -> 13 hinge + 'What the dispensational reading concludes' + 'Confidence, marked' (~295) as 'The day the King was refused'. NOT recommended by default: it removes the parent's only dispensational account of why the 'new' is new, which AGENTS.md asks studies to carry."
+  projected_words: "~3,810 with all items (~610 saved); ~4,065 without the fork, still just over budget."
+  study_outline_draft:   # descriptive annotations only; evaluative ones are the author's
+    - "Where the verse sits -- the disciples' 'yes' and the 'therefore' that answers it"
+    - "What a scribe was -- Ezra's office, the first-century profession, and the two scribes in Matthew who belong to Jesus"
+    - "The householder's storeroom -- a stocked room, a habitual bringing-out, new and old on one shelf"
+    - "'Has been trained' -- who does the discipling"
+    - "'For the kingdom of heaven' -- a dative the Greek leaves open"
+    - "Why the new was new -- the mystery disclosed on the day of rejection"
+    - "What Jesus is making -- a stocked disciple sent to spend it"
+  fork_pending_link: "If the trade fork is approved, the parent's pointer stays plain text until the fork is published (draft links fail --strict); add to open_questions then."
+  applied:
+    words_after: 3922   # Check 23 count; 499 saved (estimates above totalled ~610 and ran high)
+    fork: >
+      docs/content/scripture/scribes-and-pharisees.md (draft: true; state file
+      references/study-state/scribes-and-pharisees.yml). Paras 1-4 of "A trade, not a school of
+      thought" moved verbatim (252 words). The γραμματεὺς μαθητευθείς paragraph moved verbatim to
+      the end of "Greek γραμματεύς and Hebrew סֹפֵר", followed by a plain-text pointer (no link while
+      the fork is a draft). Mark 2:16, Acts 19:35, Acts 23:9 and 1 Corinthians 1:20 moved from this
+      file's bible_references to the fork's.
+    items_2_to_9: "all applied as listed; '## Study outline' inserted after Key Takeaways (anchors checked against python-markdown toc ids)."
+    shortened_sentences:   # the only lines needing a second reader
+      - old: "The *ESV Study Bible* takes the disciples to understand both the \"new\" revelation from Jesus and how it fulfils the \"old\" promises in the Old Testament. Both *Cultural Backgrounds Study Bibles* say the old treasures of the Old Testament can be employed in light of the newer and fuller message of the kingdom. The *NIV Biblical Theology Study Bible* frames it as continuity between the old and new eras with fresh items added. The *NLT Life Application Study Bible* adds the sharpest observation of the four: the professional teachers of the law were trapped in the old and blind to the new."
+        new: "The commentaries consulted here converge: the \"new\" revelation from Jesus fulfils the \"old\" promises of the Old Testament (*ESV Study Bible*), which are read in light of the fuller message of the kingdom (both *Cultural Backgrounds Study Bibles*), with continuity between the eras and fresh items added (*NIV Biblical Theology Study Bible*). The *NLT Life Application Study Bible* adds that the professional teachers of the law were trapped in the old and blind to the new."
+      - old: "(This repo's derived cross-reference tooling returns no link between the two verses -- it finds quotations and shared rare vocabulary, and this is neither. The parallel is my own observation, offered for the reader to check in the Greek above.)"
+        new: "(The parallel is my own observation, offered for the reader to check in the Greek above; the cross-reference data does not link the two verses.)"
+      - old: "(YLT and the NKJV appear in that table as witnesses to a translation decision. This site uses neither as a source for what a verse means -- see How to Read the Bible and the reasoning in Fee and Stuart, listed below.)"
+        new: "(This site cites YLT and the NKJV only as witnesses to a translation decision -- see How to Read the Bible and Fee and Stuart, below.)"
+      - old: "The old stock is God's word to Israel, and Jesus has just said not an iota of it will pass (5:18)."
+        new: "The old stock is God's word to Israel."
+      - old: "The disciples heard this in the hour they first said they had understood. Jesus told them what understanding is for. / It is for the household."
+        new: "Understanding is for the household."
+    new_lines: "the Study outline (7 items) and the pointer: 'Why \"scribes and Pharisees\" pairs a trade with a school is taken up in a separate study, *Scribes and Pharisees: a trade and a school*.'"
+    verified: >
+      study_structure._prose_diff against the pre-simplify working copy: every removed line belongs
+      to items 1-9 and every added_unexpected line is a shortened sentence above, the outline or the
+      pointer. (--verify-against HEAD also shows the uncommitted review_close_2026-10-01 edits, so
+      it cannot isolate this pass until those are committed.) verify_claims.py --evidence: 5/5 ok.
+      npm run validate: no warnings on this file. mkdocs build --strict: this file adds no warning
+      (the build fails on four pre-existing ones: lords-prayer -> your-kingdom-come draft link and
+      three redirect targets).
+    for_review: >
+      Pre-existing, not introduced here: "Mystery in Matthew 13" says Matthew makes the
+      hidden-then-disclosed point "eight verses on" at 13:35 -- 13:35 is 24 verses after 13:11, so
+      the "eight" needs checking.
+
+
+read_2026-10-01:
+  skill: read-bible-study
+  rule: change no sentence -- headings only; no ## heading touched, so the Study outline's anchors are unchanged
+  before: {sections: 34, median_words: 104, longest_words: 403, over_target: 1, walls: 0}
+  after: {sections: 37, median_words: 121, longest_words: 261, over_target: 0, walls: 0}
+  added_headings:
+    - "### A first-century profession -- splits 'Greek γραμματεύς and Hebrew סֹפֵר' (311) at 'By the first century...'; mirrors the outline's 'Ezra's office, the first-century profession'"
+    - "#### The commentaries' reading, and a merism -- splits 'New and old' (403, the only section over target) so the contested merism reading is findable"
+    - "### Given on the day of the rejection -- splits 'Mystery in Matthew 13' (249) at the Matthew 12 hinge, a separate step in the argument"
+  renamed_headings:   # function names -> content names
+    - "Authorship tradition -> Matthew the tax collector"
+    - "Audience: Jewish readers -> Written for readers who knew the Law"
+    - "The parable discourse context -> Given to the disciples, withheld from the crowd"
+    - "What the dispensational reading concludes -> The kingdom's shape in the interval"
+    - "Confidence, marked -> How firmly each step holds"
+  verified: >
+    study_structure.py --verify-against 11b5002c (git stash create of the working tree before this
+    pass): clean, no sentence changed, no added lines. npm run validate: no warnings on this file.
+    No inbound anchor links from other pages. This pass verifies nothing about accuracy.
+  for_the_author:
+    - "The Study outline has no entry for '## Who is writing, and to whom' -- the only teaching ## section it omits. Left alone (outline lines count as prose)."
+    - "'The commentaries' reading, and a merism' now sits directly above a paragraph opening with the bold lead-in '**What the new and old are.**' -- slightly redundant; dropping the lead-in is a sentence edit, so the author's call."

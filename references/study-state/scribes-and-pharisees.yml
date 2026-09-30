@@ -1,0 +1,37 @@
+slug: "scribes-and-pharisees"
+title: "Scribes and Pharisees: a Trade and a School"
+status: forked
+target_path: "docs/content/scripture/scribes-and-pharisees.md"
+
+primary_passage: "Mark 2:16"
+supporting_passages:
+  - "Acts 23:9"
+  - "Acts 19:35"
+  - "Matthew 13:52"
+  - "Matthew 23:34"
+  - "1 Corinthians 1:20"
+genre: [gospel, narrative]
+
+stages:
+  forked:
+    done: true
+    notes: >
+      Forked 2026-10-01 by the simplify pass on docs/content/scripture/scribe-trained-for-the-kingdom.md
+      (working copy on top of commit 36464d6d; the parent's review edits were uncommitted at the
+      time). Moved verbatim: the first four paragraphs of the H3 "A trade, not a school of thought"
+      (the Pharisee/Sadducee-vs-scribe distinction; Mark 2:16 and Acts 23:9 with μέρος G3313; Acts
+      19:35 the Ephesian town clerk, Louw-Nida 37.94 vs 53.94; the 62-occurrence NT distribution
+      58/1/3). Only edit on the way: the heading promoted from ### to ##. The section's fifth
+      paragraph (γραμματεὺς μαθητευθείς) stayed in the parent. Every fact was re-queried in the
+      parent's additions_2026-09-16 (new_section_a) block, so the word study is verified and is not
+      to be redrafted. Needs develop-bible-study for an opening and "In one sentence" thesis, Key
+      Takeaways, discussion questions, a References section (MACULA/SBLGNT, ESV), and a first
+      mention that says what "the annotation" is (the moved text relies on the parent having
+      introduced the Macula dataset).
+
+open_questions:
+  - >
+    Once published, the parent's plain-text pointer ("taken up in a separate study, *Scribes and
+    Pharisees: a trade and a school*") should become a link to this page.
+
+last_updated: "2026-10-01"
