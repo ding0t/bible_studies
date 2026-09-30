@@ -53,7 +53,7 @@ open_questions:
   - "Entry 20's 444 BC decree follows FROM the AD 33 choice rather than supporting it. Stated on the page so the two cannot be mistaken for independent confirmation. If the crucifixion year ever moves, this must move with it."
   - "Solomon's 4th year carries +/-5 yrs and everything above it inherits that. Small beside the genealogy uncertainties, but it does propagate to creation."
   - "The Zadok columns show two of the tracked epoch scenarios -- `active` (ussher_published, creation 4004 BC) and `a_prime` (creation 3959 BC) -- because the epoch question is still open. Columns were labelled A'/A'' until publication; renamed to the scenario ids in docs/data/genealogy/index.json so the page and the data agree, since `a_double_prime` is 4009 BC and was NOT what the 4004 column held. Collapse to one column only after the epoch is decided."
-  - "1 Maccabees is NOT in this repo's bible-text.db (the apocrypha-bearing works carry 66 books only). Maccabean entries cite it by reference without local verification — flagged rather than hidden."
+  - "1 Maccabees is not in bible-text.db, but it is in the raw-only deuterocanonical source (references/open-data/scrollmapper-bible-databases-deuterocanonical). Every date the page takes from it was checked there on 2026-10-01 (see review_2026-10-01)."
   - "Sabbatical-cycle anchoring carries the Wacholder/Zuckermann one-year dispute. The three attested years used here are internally consistent; the absolute placement is +/-1."
 
 resources_consulted:
@@ -226,6 +226,26 @@ review_2026-10-01:
     - "No Discussion Questions."
     - "The prayer does not close 'In Jesus' name. Amen.' (AGENTS.md)."
     - "No Study outline (Check 22)."
+  applied_2026-09-30: >
+    Fixed on the page: entry numbers (#37, #39, entry 41); Matthew 2:16 'or under'; 'The two entries
+    Daniel dwells on are both datable to the day'; seventy years now 586-515 'within a year', and the
+    490 marked as an interpretation; BM 21946 limited to entries 10-11; 1 Maccabees sourcing; #4 and
+    #41 moved to Anchored (tier counts 25/12/4, still 31 at a year or less); a 'Where the date itself
+    is disputed' paragraph marking Samaria, Jerusalem's fall, Nehemiah 2:1, Herod's death, the
+    crucifixion and Shishak; ESV SB's 445 noted at #20; Jeremiah 52:28 added to the accession-year
+    discussion and bible_references (commentary_index.py re-run; only Jeremiah 52's two pages
+    committed, since the run also picked up unrelated drift from other studies' edits); forty-six
+    years arithmetic, with War 1.401; the Cultural Backgrounds counter-case restated as they give it;
+    the four-Passover requirement for AD 33; Paul's chronology is now contested and dropped from the
+    verdict's support; G2411 and G2094 tagged; 'He' at John 2:12; both `worth ___` hits; prayer
+    closes 'In Jesus' name. Amen.' Provenance refreshed; validate clean except Check 22; mkdocs build
+    --strict passes, and the new #john-220-neutral-between-both-years link resolves.
+  awaiting_author:
+    - "Which Exodus the active Zadok column rests on (1491 vs 1446) -- the 1 Kings 6:1 contradiction, the opening 'measured backward' claim and the '+/-5 propagates to creation' section all depend on it."
+    - "Ezekiel 40:1 -- Day of Atonement heading and jubilee reading vs the April 573 (Nisan) dating."
+    - "Key Takeaways 'two independent chains' vs the Verdict's dependency statement."
+    - "prophecy-essentials.md 445 BC / AD 32 line."
+    - "Not fixed, needs a source: whose sabbatical reconstruction the table's years follow."
   size: >
     The request put the study at about 4,600 words of prose, over the 4,000 budget. By the validator's
     own measure (Check 23: prose before References, with tables and block quotes excluded) it is
