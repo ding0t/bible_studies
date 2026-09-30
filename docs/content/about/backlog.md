@@ -139,18 +139,14 @@ What the pop-ups (0.1 and 0.2) left undone.
 
 ### 0.7 Review the older studies
 
-About 70 hand-written studies are live, and 16 have had a review-bible-study pass since
-2026-09-24. Nearly every page lists `anthropic/claude-opus-5.5` in its provenance, but that
+About 70 hand-written studies are live, and 18 have had a review-bible-study pass since
+2026-09-24 (The Rapture of the Church on 2026-09-28, Genealogy and Times on 2026-09-30). Nearly every page lists `anthropic/claude-opus-5.5` in its provenance, but that
 records the site-wide sweeps (pop-ups, Key Takeaways) rather than reviews. A review counts when it
 is recorded as a dated `review_` block in the study's state file. Work through the list in batches
 of about four, and record each review in the state file.
 
 - **Priority 1: changed or published since 2026-09-24 with no review since.** Silent doctrinal or
   chronology drift is the risk here.
-  - [The Rapture of the Church](../last-things/rapture.md): now reads Matthew 24:36-44 as the second coming
-    (2026-09-28). Last reviewed 2026-09-06.
-  - [Genealogy and Times](../last-things/genealogy-times.md): rewritten in the change to follow the
-    Masoretic numbers.
   - [Chronology Anchors](../last-things/chronology-anchors.md): 4,600 words the timeline rests on,
     never reviewed.
   - [At Home with the Lord](../last-things/at-home-with-the-lord.md),

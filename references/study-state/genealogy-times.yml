@@ -426,3 +426,31 @@ decision_2026-09-28_masoretic_chronology:
     Abram born at Terah 130). harmonized_v1 (MT + SP Terah 145) retired; working Flood 2288 -> 2348 BC,
     creation 3944 -> 4004 BC, Abram AM 1948 -> AM 2008 (1996 BC unchanged).
   justification: "docs/content/god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers"
+
+review_2026-09-30:
+  skill: review-bible-study
+  trigger: "Backlog 0.7 Priority 1 -- rewritten for the Masoretic numbers 2026-09-28, last reviewed 2026-08-22."
+  verified_clean:
+    - "ESV Acts 13:21, Judges 10:7-8, 15:20 verbatim (study-notes.db). NA28 Luke 3:36 prints Kainam. Brenton LXX 1 Chr 1:24 'Arphaxad, Sala' -- no Cainan. NLT footnote at Gen 11:32 verbatim."
+    - "Methuselah table recomputed: MT 687/1656/1656, SP 587/1307/1307, LXX 1287/2256/2242. SP graft figures (936, 1536, 1407, 129) and Adam/Noah 6 vs 126 recomputed."
+    - "Variant results table matches genealogy_chronology.py output (4004/5470/4245 BC; Flood 1656/2242/1307; Terah d. 2083/3549/2324). Judges sum 410 recomputed. Opening 1,466-year spread still holds."
+  findings_critical:
+    - "Priestly line cited as 1 Chronicles 6:35-38 -- Hebrew versification; English 6:35-38 is Heman's Levite line. Aaron-Zadok is 6:3-8 and 6:50-53."
+    - "Ezra 7:1-5 said to 'agree exactly' with 1 Chr 6. It runs Zadok<-Ahitub<-Amariah<-Azariah<-Meraioth: its Zadok is the later one (father of Shallum, 1 Chr 6:12) and it omits six generations (6:7-10), David's Zadok among them."
+    - "Ibzan, Elon and Abdon placed on the 'eastern, Gilead side' -- Judges 12:8-15 makes them Bethlehem, Zebulun and Ephraim. Only Jephthah is Gileadite."
+    - "LXX Methuselah overshoot attributed to 'redistributed splits above Methuselah'. Those shift his birth and the Flood equally; the 14 is Methuselah 167 (MT 187) + Lamech 188 (MT 182)."
+    - "'constant offset nine times running' where the pattern holds for six; Methuselah's 187/167 called the 'standard' +100 treatment."
+    - "Terah section used 1876/2081 against the page's own table and Shem-from-Gen-11:10 rule (1878/2083)."
+    - "Gen 5 and 11 'the only two places' giving a father's age at an heir's birth -- Gen 21:5 and 25:26 cited 20 lines later."
+  findings_moderate:
+    - "'SP sides with LXX in all six disputed fathering ages' -- seven disputed, six agree (not Nahor). 'Four consecutive' SP-pattern patriarchs -- five, not consecutive (Eber breaks it)."
+    - "Matthew 1:17 discussion referred to as 'above' twice; it is below."
+    - "Commentary cross-check: ESV Study Bible and NIV BTSB notes on Gen 11:32 both favour the SP 145 -- complicate the site's MT 205 position. The Terah section argued for 145 then switched without saying the question is contested."
+    - "Heading 'Israel and the Church, and the anchors deferred until last' did not describe its section."
+    - "Steinmann (x2) and Jacobus cited in text, absent from References; 'Nahor's better-attested Greek 79' unsourced (it is the Gottingen reading, per flood-and-the-king-lists.md)."
+  findings_minor:
+    - "'any other ancient source' exhaustiveness; 'six names in a row' (Kenan breaks it); First Dynasty gap 'a millennium' (about 750 years); 'remarkably clean', 'Worth knowing', apologia heading 'this isn't invented'."
+    - "No Key Takeaways, Study outline, discussion questions or prayer -- not added (study over budget; decide after simplify)."
+  applied_2026-09-30: "All critical, moderate and minor text findings fixed; Terah section now marks the question contested and quotes both study Bibles; Ezra 7 recast as evidence of telescoping, supporting the Ruth argument; bible_references updated (1 Chr 6:3-15, 6:50-53); References gain Steinmann 2017/2021, Jacobus 2009, ESV SB, NIV BTSB."
+  size: "4,872 words (References excluded) vs budget 4,000 -- fixes net about +150. Simplify candidates: ~1,000 words of data-change history (Methuselah substitution reverted, dated notes in Deriving the Gregorian dates, harmonized_v1 paragraph) belong here or in index.json; the Exodus-to-Solomon section (~1,300 words) is a fork candidate."
+  validate: "No errors; Check 22 (no Study outline) and Check 23 (over budget) warnings."

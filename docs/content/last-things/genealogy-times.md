@@ -5,9 +5,9 @@ description: "Tracing the covenant line from Adam to Christ through Genesis 5 an
 tags: ["genealogy", "chronology", "creation", "method/word-study", "method/textual-criticism"]
 draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
-bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:35-38", "Ezra 7:1-5", "Ruth 4:18-22", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Acts 13:19-21", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
+bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:3-15", "1 Chronicles 6:50-53", "Ezra 7:1-5", "Ruth 4:18-22", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Acts 13:19-21", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
 date_created: 2026-07-24
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -23,8 +23,8 @@ through.
 
 Jesus's genealogy is recorded twice (Matthew 1, Luke 3), and Luke's runs all the way back to Adam.
 That claim is only as strong as the data behind it, so the work here is done directly from source.
-Genesis 5 and 11:10-26 are the only two places in the Old Testament giving a father's age at his
-heir's birth rather than just a name. Both are read here in all three witnesses. Those are the
+Genesis 5 and 11:10-26 are the only places in the Old Testament that give a father's age at his
+heir's birth generation after generation. Both are read here in all three witnesses. Those are the
 Masoretic Text, the Hebrew that underlies most English Bibles; the Septuagint, the Greek translation
 made by Jewish scholars around the third century BC and the version the New Testament writers most
 often quote; and the Samaritan Pentateuch, preserved independently of both. All three are pulled
@@ -85,17 +85,16 @@ doesn't add up). Every number here passed that check.
 | Lamech | 182 / 595 / **777** | 188 / 565 / **753** | **53 / 600 / 653** |
 | Noah (age at Shem/Ham/Japheth) | 500 | 500 | 500 |
 
-The pattern for six of these nine (Adam through Mahalalel, and Enoch) is remarkably clean: LXX
-adds exactly 100 years to the age-at-heir-birth figure and subtracts the same 100 from
-years-after, so the *total* lifespan is identical across MT, LXX, and SP every time. That's a
-systematic shift, almost certainly deliberate on someone's part, not manuscript noise — noise
-doesn't reproduce a constant offset nine times running with a matching total.
+For six of these nine (Adam through Mahalalel, and Enoch) LXX adds exactly 100 years to the
+age-at-heir-birth figure and subtracts the same 100 from years-after, so the *total* lifespan is
+identical across MT, LXX, and SP every time. A constant offset six times over, with the total kept
+each time, is a deliberate shift on someone's part. Copying errors do not produce it.
 
 Jared, Methuselah, and Lamech break that pattern, each differently. Jared is untouched by the
-LXX shift (MT and LXX agree exactly) but SP shortens both his age and his total. Methuselah gets
-the standard MT/LXX same-total treatment (969 both) but SP shortens the *total*, not just the
-split. Lamech is the strangest: all three traditions give a different total (777 / 753
-/ 653) — no clean two-agree-one-differs pattern at all.
+LXX shift (MT and LXX agree exactly) but SP shortens both his age and his total. Methuselah keeps
+his 969 total in MT and LXX, but LXX moves his fathering age *down* 20 years (167 for 187), and SP
+shortens the total itself. Lamech is the strangest: all three traditions give a different total
+(777 / 753 / 653), with no two agreeing against the third.
 
 ### Genesis 11:10-26: Shem to Terah
 
@@ -112,10 +111,10 @@ split. Lamech is the strangest: all three traditions give a different total (777
 | Nahor | 29 / 119 / 148 | 179 / 125 / 304 | 79 / 69 / 148 |
 | Terah | 70 / 135 / 205 | 70 / 135 / 205 | 70 / **75 / 145** |
 
-A different, equally consistent pattern shows up from Shelah through Serug: SP takes LXX's
+A different, equally consistent pattern runs from Arphaxad through Serug: SP takes LXX's
 higher age-at-heir-birth figure but keeps *MT's total*, by shortening years-after to compensate.
-Four consecutive patriarchs do this identically — that's a real editorial signature, not
-coincidence. Eber breaks it (SP just matches LXX outright, total included). Nahor breaks it a
+Five patriarchs (Arphaxad, Shelah, Peleg, Reu, Serug) do this identically, which is an editorial
+signature. Eber breaks the run (SP just matches LXX outright, total included). Nahor breaks it a
 third way (three different ages, though SP's total still matches MT's). And Terah —
 the last one, and the most consequential — breaks it in the direction that matters most for
 everything downstream.
@@ -140,9 +139,9 @@ Cainan in chronological order: the Samaritan Pentateuch (c. 100 BC), Josephus, T
 Theophilus of Antioch, Julius Africanus, *Seder 'Olam Rabbah*, 𝔓⁷⁵, Targum Neofiti, Targum
 Pseudo-Jonathan, and Codex Bezae.
 
-**The Samaritan silence is the loudest.** SP sides with LXX against MT in all six disputed
-fathering ages in Genesis 11, so its whole tendency in this passage is toward the Greek numbers,
-and it still has no Cainan.
+**The Samaritan silence is the loudest.** Seven fathering ages in Genesis 11 are disputed, and SP
+sides with LXX against MT in six of them (all but Nahor's). Its whole tendency in this passage is
+toward the Greek numbers, and it still has no Cainan.
 
 **The Septuagint contradicts itself.** 1 Chronicles 1:24
 runs Arphaxad straight to Shelah with no Cainan, in the Masoretic Text *and* in Brenton's
@@ -151,8 +150,8 @@ generation with a transmission problem.
 
 **The numbers give it away.** LXX Genesis 11:12-13 gives Cainan 130 years before Shelah's birth
 and 330 after. Those are exactly the figures LXX gives Shelah before and after fathering Eber
-in the next two verses. Nowhere else in Genesis 5 or 11 — in MT, LXX, SP or any other ancient
-source — does a father share both numbers with his son. The entry reads as a duplicated block
+in the next two verses. Nowhere else in Genesis 5 or 11, in MT, LXX or SP, does a father share
+both numbers with his son. The entry reads as a duplicated block
 with the name swapped.
 
 **And the insertion has an obvious trigger.** Luke 3:37 names the antediluvian Cainan one line
@@ -208,9 +207,11 @@ than 969. Both ends move, and they move together: his death lands in AM 1307,
 again the Flood year. Two traditions that disagree about nearly every number in the chapter
 agree about this one relationship.
 
-LXX alone breaks it, and by a specific 14 years. It keeps the 969 total but redistributes the
-splits above Methuselah, pushing his birth to AM 1287 and his death to AM 2256 against a Flood
-at AM 2242. A man whose name may mean "his death shall send [judgment]" then outlives that
+LXX alone breaks it, and by a specific 14 years. Its extra hundreds above Methuselah move his
+birth and the Flood together, so they change nothing here. The 14 comes from the two fathering
+ages after his birth: Methuselah fathers Lamech at 167 (MT 187) and Lamech fathers Noah at 188
+(MT 182), a net 14 years less between Methuselah's birth and the Flood. His 969 years then carry
+him to AM 2256 against a Flood at AM 2242. A man whose name may mean "his death shall send [judgment]" then outlives that
 judgment by fourteen years. This is a real problem, long noted — but it belongs to the
 Septuagint, not to the Hebrew, and it appears in the same tradition that carries the spurious
 Cainan discussed [above](#the-cainan-question). If the eschatological reading of the name is
@@ -226,27 +227,26 @@ itself, and MT and SP resolve it in two structurally different ways.
 Genesis 11:26 states Terah was 70 when he fathered Abram (named first, alongside Nahor and Haran —
 birth order not stated). But Genesis 12:4 has Abram leaving Haran at 75, and Acts 7:4
 is explicit that this happened *after* Terah's
-death. Under MT/LXX's stated 205-year total for Terah (born 1876 zadok on MT's own numbers), the
-plain "70 at Abram" reading puts Abram's departure at zadok year 1946+75=2021 — a full 60 years
-*before* Terah actually dies at 2081. That is a real contradiction with Acts 7:4 rather than a
-rounding issue. It is why the standard harmonization reinterprets Genesis 11:26. Abram is listed
-first by covenant significance rather than birth order, and was actually the youngest of the three
-sons, born when Terah was 130. Run it again: 1876+130=2006, +75=2081. Now it lines up exactly with
-Terah's actual death year.
+death. Under MT/LXX's stated 205-year total for Terah (born zadok year 1878 on MT's own numbers),
+the plain "70 at Abram" reading puts Abram's departure at 1948+75=2023, a full 60 years *before*
+Terah dies in 2083. That is a real contradiction with Acts 7:4. It is why the standard
+harmonization reinterprets Genesis 11:26: Abram is listed first for his covenant importance and
+was the youngest of the three sons, born when Terah was 130. Run it again: 1878+130=2008, +75=2083,
+exactly Terah's death year.
 
-SP's total for Terah is 145, not 205. Run the *same plain 70-year reading* Genesis 11:26 states
-outright, with no reinterpretation and no assumption about birth order, and 70 + 75 = 145 exactly.
-Terah's death and Abram's departure land on the same year without any harmonizing move at all.
-Both resolutions work internally. MT/LXX's requires reading past the plain sense of one verse to
-save the numbers; SP's numbers already match the plain sense of that same verse. That asymmetry
-deserves sitting with, not resolving by picking whichever number is more familiar.
-This site now reads the asymmetry as the mark of a harmonizing scribe and follows the Masoretic
-205; see [Following the Masoretic numbers](#following-the-masoretic-numbers) below.
+SP's total for Terah is 145. Run the plain 70-year reading Genesis 11:26 states outright, with no
+assumption about birth order, and 70 + 75 = 145 exactly. Terah's death and Abram's departure land
+on the same year with no harmonizing move at all. MT's resolution reads past the plain sense of
+one verse to save the numbers; SP's numbers already match it.
 
-A translator's note reaches the same place independently. The *NLT Life Application Study Bible*
-carries a textual note at Genesis 11:32 reading "Some ancient versions read 145 years; compare
-11:26 and 12:4" — pointing the reader at exactly the two verses this puzzle turns on, and treating
-the 145-year total as the reading that reconciles them.
+**Which is original is contested, and the study Bibles lean the other way from this site.** The
+NLT footnotes Genesis 11:32 "Some ancient versions read 145 years; compare 11:26 and 12:4" (*NLT
+Life Application Study Bible*). The *ESV Study Bible* suggests Stephen "was following an
+alternative text (represented today in the Samaritan Pentateuch)", and the *NIV Biblical Theology
+Study Bible* says the 205 "may be due to a mistake by an early copyist." This site reads the same
+fit as the mark of a harmonizing scribe, because a reading that removes a difficulty this neatly is
+what a scribe produces, and follows the Masoretic 205; see
+[Following the Masoretic numbers](#following-the-masoretic-numbers) below.
 
 ## Word studies: what the names actually say
 
@@ -274,9 +274,9 @@ than trusting the chain as a whole:
 
 So six of the nine names hold up on their own lexical merits. One, Methuselah, is a real and
 motivated ambiguity rather than a coin-flip. Two, Kenan and Lamech, have no lexical footing for the
-reading the popular chain wants from them. That doesn't wreck the pattern — six solid, theologically
-resonant names in a row (appointed, [frail] man, praise of God, shall come down, dedicated, comfort)
-is still a real feature of the text, not manufactured. But claiming a complete nine-word sentence
+reading the popular chain wants from them. That doesn't wreck the pattern: six solid, theologically
+resonant names out of nine (appointed, [frail] man, praise of God, shall come down, dedicated, comfort)
+is still a real feature of the text. But claiming a complete nine-word sentence
 requires filling two genuine gaps with unattested glosses. Rounding "suggestive" up to "complete" is
 the temptation, and it is a real one.
 
@@ -351,10 +351,11 @@ Before 2026-09-28 the generator gave SP the Masoretic reading of Terah (130 at A
 the 145-year total does not need, and printed SP creation at 4305 BC and its Flood at 2998 BC.
 
 The gap between MT's and LXX's Flood dates is now 880 years, and it runs the other way: the
-Septuagint puts the Flood *before* Egypt's First Dynasty rather than a millennium after it.
+Septuagint puts the Flood *before* Egypt's First Dynasty (c. 3100 BC), where the Masoretic puts it
+some seven centuries after.
 That holds only for the Septuagint as printed. Without the second Cainan, which
 [the Cainan question](#the-cainan-question) above treats as an insertion, its Flood falls at
-3098 BC, level with Egypt's First Dynasty, and with Nahor's better-attested Greek 79 at 2998 BC,
+3098 BC, level with Egypt's First Dynasty, and with the Göttingen Septuagint's 79 for Nahor at 2998 BC,
 after it. [The Flood and the King Lists](../god/flood-and-the-king-lists.md) weighs the three texts.
 "The biblical timeline" is not a single settled number even before archaeology enters the
 picture. All three variants agree on Terah's death because they share the anchor and the chain
@@ -439,21 +440,21 @@ lacuna, not a translation choice. A number has dropped out of the Masoretic tran
 Saul's age, and "two years" for his whole reign is implausibly short given everything the text
 elsewhere attributes to it. The traditional 40-year figure comes not from Samuel but from
 Acts 13:21 (ESV), where Paul states it plainly:
-God "gave them Saul... for forty years." Worth knowing when that number is used: it's patching a
-real gap in the Hebrew manuscript tradition, not resolving an ambiguity within it.
+God "gave them Saul... for forty years." So the 40 used here comes from Paul and fills a gap in the
+Hebrew manuscript tradition.
 
-### The textual basis for overlap — this isn't invented
+### The text's own basis for overlap
 
-The standard resolution treats several of these judgeships as **regional rather than national**, and
-therefore overlapping in time rather than strictly sequential. That's not a modern harmonizer's
-convenience — the text says so directly. Judges 10:7-9
-(ESV) states that God "sold them into the hand of the
-Philistines and into the hand of the Ammonites" **in the same breath**, with the Ammonite oppression
-explicitly located "beyond the Jordan... in Gilead" (east) for 18 years, while Philistine pressure
-came from the west. Jephthah, Ibzan, Elon, and Abdon's combined 31 years belong to the eastern,
-Gilead side of that same double-oppression. Samson's 20 years explicitly take place "in the days of
-the Philistines" (Judges 15:20). He judges *during*
-the 40-year Philistine oppression. 1 Samuel's own narrative shows Philistine dominance continuing
+The standard resolution treats several of these judgeships as **regional**, and therefore
+overlapping in time. The text supplies the grounds. Judges 10:7-8 (ESV) states that God "sold them
+into the hand of the Philistines and into the hand of the Ammonites" **in the same breath**, with
+the Ammonite oppression located "beyond the Jordan... which is in Gilead" (east) for 18 years,
+while Philistine pressure came from the west. Jephthah the Gileadite answers the eastern half
+(Judges 11:1; 12:7). The judges after him are westerners, Ibzan of Bethlehem, Elon the Zebulunite
+and Abdon of Pirathon in Ephraim (Judges 12:8-15), so their 25 years may run alongside the
+Philistine forty; the text does not say whether they do. Samson's 20 years explicitly take place
+"in the days of the Philistines" (Judges 15:20 ESV). He judges *during* the 40-year Philistine
+oppression. 1 Samuel's own narrative shows Philistine dominance continuing
 well past Samson's death, through Eli's era and into Samuel's early ministry. None of this requires
 inventing an overlap the text doesn't support. It requires taking the text's own geography
 seriously, instead of defaulting to a single linear national timeline the book of Judges never
@@ -461,16 +462,20 @@ claims to be giving.
 
 ### Genealogy check #1: the priestly line — broadly consistent with ~480 years
 
-The high priestly line from Aaron to Zadok, David and Solomon's priest, is given twice and
-independently. 1 Chronicles 6:35-38 gives it, and so
-does Ezra 7:1-5, tracing Ezra's own ancestry back to
-Aaron. The two lists agree exactly: Aaron → Eleazar → Phinehas → Abishua → Bukki → Uzzi → Zerahiah →
-Meraioth → Amariah → Ahitub → Zadok. That's **10 generational steps** from Aaron (who dies in the
-wilderness, so effectively at the Exodus end-point) to Zadok (serving at the very end of David's
-reign and the start of Solomon's). Over roughly 400-480 years, that's 40-48 years per generation —
-on the high side for a strict father-to-son succession, but not implausible for a priestly office
-where a man might not become high priest, or father his own heir, particularly young. This genealogy
-doesn't *prove* 480 years, but it doesn't strain against it either.
+The high priestly line from Aaron to Zadok, David and Solomon's priest, is given twice in
+1 Chronicles, and the two lists agree: Aaron → Eleazar → Phinehas → Abishua → Bukki → Uzzi →
+Zerahiah → Meraioth → Amariah → Ahitub → Zadok (1 Chronicles 6:3-8; 6:50-53). That's **10
+generational steps** from Aaron, a man of the Exodus generation, to Zadok (serving at the end of
+David's reign and the start of Solomon's). Over roughly 400-480 years, that's 40-48 years per
+generation. That is high for a strict father-to-son succession, though possible in an office where
+the heir need not be a firstborn son fathered young. This genealogy doesn't *prove* 480 years, but
+it doesn't strain against it either.
+
+Ezra 7:1-5 traces Ezra's own ancestry back to Aaron through the same names, and shows how freely a
+priestly list could compress. It runs Zadok ← Ahitub ← Amariah ← Azariah ← Meraioth. Its Zadok is
+the later one, father of Shallum (1 Chronicles 6:12), and between Meraioth and that Azariah it
+leaves out six generations, David's Zadok among them (1 Chronicles 6:7-10). Ezra was not wrong
+about his descent. A line that proves descent is free to skip.
 
 ### Genealogy check #2: the Davidic line — in real tension with 480 years
 
@@ -484,10 +489,9 @@ same 400-480 year span the priestly line tolerates, that's 80-96 years per gener
 not plausible for ordinary human fathering, by a wide margin.
 
 This doesn't mean Ruth's genealogy is wrong; it means it's very likely **telescoped** — skipping
-generations the way ancient genealogies regularly do (this site's own Matthew 1:17 discussion
-above is a directly comparable case: three known kings dropped to hit a structuring number).
-Telescoping in an official succession line, especially one this short, is a well-attested
-biblical pattern, not a special plea invented to save this one case.
+generations the way ancient genealogies regularly do. Ezra 7 does it above; Matthew 1 does it
+[below](#two-genealogies-two-different-jobs), dropping three known kings to reach a structuring
+number. Telescoping is a well-attested biblical pattern, and Ruth's list is short enough to need it.
 
 ### Where this leaves the reconstruction
 
@@ -497,8 +501,7 @@ requires accepting that Ruth's list omits names. Put that together with the judg
 above, and the most defensible reading has two parts. **1 Kings 6:1's 480 years is plausible as a
 real total**, achieved by real regional overlap among the judges rather than strict national
 sequence. That overlap is textually supported. And Ruth's five-generation genealogy for David almost
-certainly telescopes rather than recording every link. That is the same compression this study
-already had to reckon with in Matthew's genealogy, applied one book earlier. Nothing here fixes an
+certainly telescopes, the same compression Ezra 7 shows in the priestly line. Nothing here fixes an
 exact year-by-year allocation of which judge overlaps which by how much; that level of precision
 isn't recoverable from what the text actually states, and claiming otherwise would overshoot the
 evidence in the same way summing the numbers naively does.
@@ -541,7 +544,7 @@ of the claim: a single traceable line, named generation by generation, carrying 
 Eden to an empty tomb. The math was always in service of that; it was never the point on its
 own.
 
-## Israel and the Church, and the anchors deferred until last
+## The external anchors, deferred until last
 
 The genealogical reasoning above was worked out without `prophecy-events-times.md`'s external
 archaeological anchors (Qarqar, Sennacherib, the Babylonian and Persian records), so that
@@ -560,6 +563,13 @@ work in the state file.
   `references/build/twot_lookup.py`, for every word study above
 - ***NLT Life Application Study Bible*** (Tyndale) — the textual note at Genesis 11:32 recording
   the 145-year reading for Terah and cross-referencing 11:26 and 12:4
+- ***ESV Study Bible*** (Crossway) and ***NIV Biblical Theology Study Bible*** (Zondervan), notes on
+  Genesis 11:32 — both favour the Samaritan 145 for Terah
+- Andrew E. Steinmann, "Challenging the Authenticity of Cainan, Son of Arpachshad," *JETS* 60/4
+  (2017): 697–711, and "A Comparison of the Text of Genesis in Three Traditions: Masoretic Text,
+  Samaritan Pentateuch, Septuagint," *JETS* 64/1 (2021): 25–43
+- Helen R. Jacobus, on Cainan as original to the Hebrew, *Journal for the Study of the
+  Pseudepigrapha* 18 (2009)
 - James C. VanderKam, *Calendars in the Dead Sea Scrolls: Measuring Time* — on the broader
   Second Temple textual environment these traditions come from
 - [The Zadok Calendar](../feasts/zadok-calendar.md), [The Day is Near](day-is-near.md), and
