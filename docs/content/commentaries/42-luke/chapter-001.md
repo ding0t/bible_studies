@@ -19,4 +19,5 @@ draft: false
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:17
 - [The Way](../../jesus/the-way.md) — 1:76-79
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 1:78-79
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 1:32-33
 <!-- commentary-index:auto-end -->

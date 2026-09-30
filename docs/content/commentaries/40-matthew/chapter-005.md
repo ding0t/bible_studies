@@ -17,4 +17,5 @@ draft: false
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 5:14-16
 - [The Restrainer](../../last-things/the-restrainer.md) — 5:13-14
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 5:35
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 5:3
 <!-- commentary-index:auto-end -->

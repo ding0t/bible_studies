@@ -18,4 +18,5 @@ draft: false
 - [Simon Peter](../../biblical-figures/peter.md) — 2:14-41
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 2:27
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:27
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 2:30-35
 <!-- commentary-index:auto-end -->

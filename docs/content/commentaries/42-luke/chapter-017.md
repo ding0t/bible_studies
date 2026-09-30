@@ -19,4 +19,5 @@ draft: false
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 17:20-37
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 17:26-30
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 17:21
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 17:20-21
 <!-- commentary-index:auto-end -->

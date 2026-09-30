@@ -17,4 +17,5 @@ draft: false
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:27-30
 - [Sin and Sorcery](../../sin/sorcery.md) — 2:27-28
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 2:44
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 2:44
 <!-- commentary-index:auto-end -->

@@ -21,4 +21,5 @@ draft: false
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 1:9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:13-14
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 1:5
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 1:20
 <!-- commentary-index:auto-end -->

@@ -1,6 +1,6 @@
 slug: your-kingdom-come
 title: "Your Kingdom Come: The Kingdom Already Here and Not Yet Complete"
-status: draft
+status: published
 target_path: docs/content/last-things/your-kingdom-come.md
 primary_passage: "Matthew 6:10"
 point: >
@@ -19,4 +19,395 @@ stages:
       lords-prayer.yml review_2026-09-29. Needs develop-bible-study for opening, thesis, Key Takeaways,
       discussion questions, plain-language rewrite (diachronic/synchronic, divine passive), and the
       Kaddish hedge replaced with the NIV Cultural Backgrounds Study Bible note on Matt 6:9-10.
+  exegesis:
+    done: true
+    notes: >
+      2026-10-01 develop pass. Genre: gospel (Sermon on the Mount prayer). Literary context: kingdom
+      frames the sermon (Matt 4:17; 5:3; 6:10; 6:33); Luke 11:2 keeps the petition verbatim.
+      Re-verified from source: G932 = 162 NT / 55 Matt (count_only, macula-greek-sblgnt); "kingdom
+      of heaven" (G932 + ouranos at +2) = 32, all Matthew. Morph codes: hagiasthete V-APM-3S,
+      elthetw V-2AAM-3S, genethetw V-AOM-3S (passive-deponent form, so "divine passive" marked as
+      clearer for hagiasthete), ephthasen V-AAI-3S. Dan 2:44 has 3x H4437 (one God's kingdom, two
+      human); 1 Chr 29:11 mamlakah H4467; Luke 17:21 entos G1787; Acts 1:6 apokathistaneis G600.
+  hermeneutics:
+    done: true
+    notes: >
+      Already (Matt 12:28 / Luke 11:20 + Exod 8:19; Luke 17:21) and not-yet (Matt 25:34; Acts 1:6-7;
+      Dan 2:44; Rev 11:15; Rev 19:11-16; 20:1-6). Statement-of-faith "End times" consistent. The
+      already/not-yet framing is closest to progressive dispensationalism; classic dispensationalism
+      (offer/postponement) and amillennial (ESV Study Bible note on Matt 6:10) set out as contested.
+  cross_reference:
+    done: true
+    notes: >
+      Siblings checked: israels-regathering-and-refining.md reads Acts 1:6-7 the same way ("corrected
+      when, let whether stand") -- linked. lords-prayer.md consistent. Every ESV quotation verified
+      with study_verse (esv-study-bible): Matt 6:9-10, 4:17, 6:33, 12:28, 19:23-24, 25:34; Luke 11:2,
+      15:18, 17:21, 12:32; Dan 2:44; 1 Chr 29:11; Exod 8:19; Acts 1:6-7; Rev 11:15; Matt 13:11.
+  drafting:
+    done: true
+    file: docs/content/last-things/your-kingdom-come.md
+    notes: >
+      Added opening from Matt 6:9-10, In one sentence, Key Takeaways (Prophecy, Lessons about Jesus,
+      Memory verses, Be Transformed, Prayer), Study outline, context section, plain-language
+      rewrite of diachronic/synchronic and divine passive, Kaddish hedge replaced with NIV CBSB note
+      on Matt 6:9-10 (one quoted sentence + paraphrase, plus dating caution), contested section on
+      already/not-yet, discussion questions, references. ~2,500 words counted (References and
+      Study outline excluded). lords-prayer.md "Your kingdom come" parenthetical replaced with a
+      forward link. npm run validate: no warnings for either file. mkdocs build --strict passes
+      with draft:false; FAILS with draft:true because lords-prayer.md now links to a draft page.
+  review:
+    done: false
+    validated: true
+    notes: >
+      Left draft:true -- skill requires author review, a review-bible-study pass, and a
+      read-bible-study pass in a separate session before publishing. Review done
+      (review_2026-10-01); read pass done (readability_2026-10-01); author review outstanding. Do not ship the
+      lords-prayer.md link before (or without) flipping this study to draft:false.
   published: {done: false}
+thesis: >
+  "Your kingdom come" asks God to finish what He began in Jesus: His reign broke into the world when
+  Jesus drove out demons by the Spirit of God (Matthew 12:28), and you pray toward the day He
+  establishes it in full, visibly and on earth (Daniel 2:44; Matthew 25:34; Acts 1:6-7).
+genre: [gospel]
+word_budget: 4000
+outline:
+  - {section: "Where Jesus puts this petition", says: "Kingdom frames the sermon; the Kaddish parallel; Jesus adds Himself"}
+  - {section: "What kingdom means", says: "basileia = reign; Daniel 2:44; kingdom of heaven = kingdom of God"}
+  - {section: "Already here", says: "Matt 12:28, finger of God, Luke 17:21 (entos contested)"}
+  - {section: "Not yet complete", says: "Matt 25:34, Acts 1:6-7, Revelation 19-20; three views of how the two fit"}
+  - {section: "How the petition is phrased", says: "one active verb: the kingdom arrives; God's to bring"}
+open_questions:
+  - "Author: the already/not-yet framing sits with progressive dispensationalism. Is that the site's position, or should the study lean classic (offer/postponement)?"
+  - "RESOLVED 2026-10-01 review: LXX checked against lxx-lemmas; 'regularly' (54/69 malkut, 29/39 malku verse-level)."
+  - "Kaddish first-century wording: only the NIV CBSB note consulted; no primary Jewish liturgical source."
+resources_consulted:
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", note: "Matt 6:9-10 (Kaddish), 12:28 (Spirit as end-time sign), Acts 1:6 (restoration hope). Contributed all three."}
+  - {type: commentary, title: "ESV Study Bible", note: "Matt 6:10: present kingdom as Christ's reign in church, increasingly seen. Contributed the amillennial/Reformed position in the contested section."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "Matt 6:10 'come more completely'. Confirmed."}
+  - {type: other, title: "CSB Ancient Faith / NLT footnotes on Luke 17:21", note: "'within you' alternative. Contributed the contested-rendering note."}
+review_2026-10-01:
+  reviewer: independent review-bible-study pass (separate agent from the drafter)
+  checked: >
+    Phase 1: all 20 ESV quotations re-queried via study_verse (esv-study-bible) -- all verbatim,
+    references and labels correct. Phase 2: NIV CBSB notes on Matt 6:9-10, 12:28, Acts 1:6 re-read
+    (quotation exact; paraphrases fair); ESV SB Matt 6:10 and NIV BTSB Matt 6:10 confirm their
+    attributions; CSB/NLT footnotes on Luke 17:21 confirmed ("Or within you"; NLT adds "or is in
+    your grasp"). Internal links and anchors resolve. No footnotes on Matt 6:9-10 in any work.
+    Phase 3: macula-greek-sblgnt G932 = 162 NT / 55 Matt; G932 + G3772 within 3 words = 32, all
+    Matthew. Louw-Nida for G932: 145 x 37.64 (rule), 17 x 1.82 (realm); Matt 6:10 = 37.64. Morph:
+    hagiasthete V-APM-3S, eltheto V-2AAM-3S, genetheto V-AOM-3S, ephthasen V-AAI-3S, entos ADV G1787,
+    apokathistaneis V-PAI-2S G600. 1 Chr 29:11 = H4467. LXX (lxx-lemmas, verse-level co-occurrence
+    with macula-hebrew-wlc, versification not aligned): of MT verses with H4438 whose LXX verse
+    exists, 54/69 contain basileia; H4437 29/39; Dan 2:44 LXX has basileia 3x. Supports "regularly",
+    not "always". LXX 1 Chr 29:11 has basileus, not basileia. Phase 5: ESV SB Luke 17:21 confirms
+    "in the midst" on the same Pharisee-context ground; NIV CBSB Matt 6:9-10 itself frames the
+    kingdom as "already/not yet". Phase 6: review_gaps -- only crossref leads, no quotation gaps.
+    cross_study_claims on Luke 17 and Matt 12: consistent with lords-prayer.md and siblings.
+    Statement of faith End times: consistent. strongs_suggest: gamma-ginomai untagged (fixed).
+  findings:
+    critical:
+      - "Dan 2:44 malku split was backwards: MACULA positions 13 and 20 are God's kingdom, 32 (plural) the human kingdoms -- two for God's, one for the human, not the reverse. Fixed."
+    moderate:
+      - "Kaddish paraphrase dropped the note's own qualifier ('for believers in Jesus the kingdom is already/not yet'); fixed. Dating caution asserted an unsourced fact ('prayer books written centuries after') and 'widely recognised'; replaced with what the source says ('came to be prayed daily', article Kingdom at Matt 4:17) and an explicit likely-not-proven hedge; 'already knew' -> 'probably knew' in outline, prose and Q2."
+      - "basileia 'in ordinary Greek ... realm grew out of that' was an unsourced diachronic claim; replaced with synchronic NT data (Louw-Nida 145/17) plus the NIV CBSB Kingdom article. LXX claim softened to 'regularly'. Heading renamed 'Reign first, then realm'."
+    minor:
+      - "'almost certainly' (doxology from 1 Chr 29:11) -> 'probably': no source consulted says so. lords-prayer.md line ~292 still says 'almost certainly' (not edited -- other agent's file)."
+      - "Divine passive stated as fact; hedged to 'many scholars hold' (the reverence motive is debated)."
+      - "Be Transformed: Think now names Jesus as King and when the kingdom comes in full; Attitude lands on the Father's good pleasure (Luke 12:32). Already-here section gained a second-person landing."
+      - "Added ESV SB Luke 17:21 note as independent support for 'in the midst of you'."
+  size: "~2,650 words counted (References and Study outline excluded) of 4,000 budget; review fixes net about +150."
+  validate: "npm run validate: no warnings for this file."
+  for_author:
+    - "Which already/not-yet view you hold (classic vs progressive dispensational) -- framing left as contested per instruction."
+    - "The Kaddish still rests on one study Bible; a primary liturgical source would settle the dating."
+    - "Human reading of register (Key Takeaways, prayer) still needed -- agent can count, not judge."
+readability_2026-10-01:
+  pass: read-bible-study (separate session from drafter and reviewer); structure only, no sentence changed
+  measurements: "sections 19 -> 22 (with prose 16 -> 18); median 121 -> 124 words; longest 299 -> 261; over 400: 0 -> 0; walls: 0 -> 0"
+  prose_identity: "clean -- study_structure.py --verify-against a git stash-create snapshot of the pre-pass working file (HEAD holds the old forked version); removed [], added_unexpected []"
+  changes:
+    - "'In the synagogue' -> 'In the synagogue: the Kaddish' (heading names its content)."
+    - "Split 'Reign first, then realm' (299 words, three subjects) at the Daniel 2:44 lead-in: new '### Daniel's kingdom and David's prayer' for the Dan 2:44 and 1 Chr 29:11 backgrounds."
+    - "'Already here' given two sub-headings: 'By the Spirit, by the finger of God' (Matt 12:28 / Luke 11:20 / Exod 8:19) and '\"In the midst of you\" (Luke 17:21)', so the contested entos rendering is visible. The section's closing 'This shows that God...' landing now sits under the second."
+    - "'How the already and the not yet fit together' promoted ### -> ##: it weighs both preceding sections, not only 'Not yet complete'. Its anchor is unchanged; the Study outline already describes it in the Already/Not yet bullet."
+  for_author:
+    - "Line 123 (\"disciples. What Jesus added was Himself...\") is an overlong source line -- wrap it when next editing (not changed: prose-line identity)."
+  validate: "npm run validate: no warnings for this file."
+  verifies_nothing: "Structural pass only; accuracy rests on review_2026-10-01."
+last_updated: "2026-10-01"
+position_recommendation_2026-10-01:
+  asked_by: >
+    Author: "I am not amillennial because of all the allegories you then need to assume. But do find a
+    sound position." Question: land a recommendation between classic and progressive dispensationalism
+    (or a sound mediating position), argued from the text across both Testaments.
+  method: >
+    Separate agent; no content file edited. Every ESV text below verified with study_verse
+    (esv-study-bible). Greek from macula-greek-sblgnt via query.py; Rev 5:10 from na28-greek-nt.
+    Commentary: ESV Study Bible, NIV Biblical Theology SB, NIV Cultural Backgrounds SB (study_note);
+    Bible Knowledge Commentary read raw from $BIBLE_MEDIA_ROOT/reference EPUB (Toussaint on Acts,
+    Barbieri on Matthew, Walvoord on Revelation); ANF vol. 1 (Justin, Irenaeus; open tier).
+  recommendation: >
+    Jesus reigns now as the risen Messiah at the Father's right hand over a real, present kingdom
+    (Colossians 1:13; Ephesians 1:20-22; Matthew 28:18), but He takes up David's throne, reigning over a
+    restored Israel and the nations on the earth, only at His return (Luke 1:32-33; Matthew 19:28;
+    25:31; Revelation 3:21; Acts 3:21), because the kingdom offered to Israel was refused and its
+    earthly establishment deferred until Israel welcomes Him (Matthew 23:39; Acts 3:19-21;
+    Romans 11:25-29).
+  label: >
+    Revised (normative) dispensationalism, the position of the Bible Knowledge Commentary authors,
+    with two points conceded to progressive dispensationalism: the present age is Christ's own
+    kingdom in its first, hidden stage (Matthew 13:11, 41; Colossians 1:13), and "kingdom of heaven"
+    and "kingdom of God" name one kingdom (Matthew 19:23-24, already argued in this study). It keeps
+    classic dispensationalism's offer-and-postponement and its future Davidic throne; it drops the older
+    Scofield-era split between a "kingdom of heaven" and a "kingdom of God", which this study's own
+    exegesis of Matthew 19:23-24 already rules out. One-line form for the study: "Christ reigns now
+    from His Father's throne; He reigns from David's throne when He returns."
+  textual_case:
+    - point: "Jesus dates His sitting on His own throne to His return."
+      verses: "Matthew 25:31; Matthew 19:28; Luke 22:29-30"
+      evidence: >
+        Matt 25:31 "When the Son of Man comes in his glory ... then he will sit on his glorious throne"
+        (ESV): hotan + aorist subjunctive elthē, then tote + future indicative kathisei (G2523). Matt
+        19:28 likewise hotan kathisē "in the new world" (palingenesia, G3824), with the Twelve on twelve
+        thrones "judging the twelve tribes of Israel". The throne is future, glorious, and tied to Israel's
+        tribes. Confidence: high (the tenses are not in dispute).
+    - point: "Jesus distinguishes 'my throne' from 'my Father's throne', and puts Himself on the second now."
+      verses: "Revelation 3:21"
+      evidence: >
+        "I will grant him to sit with me on my throne, as I also conquered and sat down with my Father on
+        his throne" (ESV). Greek en tō thronō mou ... ekathisa meta tou patros mou en tō thronō autou:
+        same verb (kathizō, G2523) both times, two possessives. The present session is on the Father's
+        throne; the believer's shared throne is future (dōsō, future). ESV Study Bible (note on 3:21)
+        concedes "Premillennialists also see this as a promise of reigning with Christ in the millennium";
+        NIV BTSB (note on 3:21) reads the two as one ("Jesus shares his Father's throne as Messianic
+        king"). Confidence: moderate-high -- the distinction is in the text; whether it is meant as a
+        distinction of thrones or only of possessors is the point contested.
+    - point: "The Davidic promise names a reign over the house of Jacob, which is not yet happening."
+      verses: "2 Samuel 7:12-16; Luke 1:32-33; Romans 11:25-26; Psalm 89 (via BKC)"
+      evidence: >
+        2 Sam 7:13, 16: "I will establish the throne of his kingdom forever ... Your throne shall be
+        established forever." Luke 1:32-33: "the throne of his father David, and he will reign over the
+        house of Jacob forever" (ESV). The house of Jacob is at present under "a partial hardening ...
+        until the fullness of the Gentiles has come in" (Rom 11:25, ESV). A throne whose defined realm
+        is Israel is not yet exercised over Israel. Confidence: high on the observation; the inference
+        (therefore not yet occupied) is where progressive dispensationalists answer that the reign is
+        inaugurated now and extended to Israel later.
+    - point: "Heaven holds the Messiah until the restoration the prophets spoke of; the disciples' question about Israel's kingdom stands."
+      verses: "Acts 1:6-7; Acts 3:19-21; Matthew 17:11; Malachi 4:6 (LXX 3:23)"
+      evidence: >
+        Acts 1:6 apokathistaneis (G600); Acts 3:21 "whom heaven must receive until the time for restoring
+        all the things about which God spoke by the mouth of his holy prophets" -- apokatastaseōs (G605,
+        only NT occurrence), the noun of the same verb. G600 occurs 8 times in the NT (macula-greek-sblgnt);
+        in the LXX it is used of returning Israel to the land (Jer 16:15; Hos 11:11) and of Elijah's
+        restoring work (Mal 3:23 LXX = English 4:6; cf. Matt 17:11). ESV Study Bible on Acts 3:21 --
+        not a dispensational source -- reads it as "when Christ will return and his kingdom will be
+        established on earth"; NIV CBSB on 3:21 says restoration of God's people "may be the primary
+        focus here; see Ac 1:6". Jesus answered only the timing (Acts 1:7). Confidence: high.
+    - point: "The kingdom was offered to Israel, refused, and its earthly arrival made to wait on Israel's welcome."
+      verses: "Matthew 4:17; 10:5-7; 15:24; 11:14; 23:37-39; Acts 3:19-20; Luke 19:11-27"
+      evidence: >
+        The Twelve sent "nowhere among the Gentiles ... but ... to the lost sheep of the house of Israel"
+        with "The kingdom of heaven is at hand" (Matt 10:5-7, ESV). "If you are willing to accept it, he is
+        Elijah" (11:14) puts a condition on the forerunner. "You will not see me again, until you say,
+        'Blessed is he who comes in the name of the Lord'" (23:39): heōs an + aorist subjunctive, the
+        return keyed to Israel's confession of Psalm 118:26 (ESV Study Bible on 23:39: He "will once
+        again come to his people ... when they are finally ready to receive him"). After the resurrection
+        Peter renews it: "Repent ... that he may send the Christ appointed for you, Jesus" (Acts 3:19-20).
+        Toussaint (BKC on Acts 3:19-21) answers "in the affirmative" whether Israel's repentance would
+        have brought the kingdom, on the hopōs + subjunctive purpose clauses. The nobleman goes "into a far
+        country to receive for himself a kingdom and then return" (Luke 19:12), told "because they
+        supposed that the kingdom of God was to appear immediately" (19:11); the citizens say "We do not
+        want this man to reign over us" (19:14). ESV SB on 19:12: the kingdom he receives is "the land
+        from which he started out". Confidence: moderate-high. That the offer was sincere is textual;
+        how a divinely foreknown refusal "postpones" is a theological question the texts do not answer.
+    - point: "Daniel and Psalm 2 split the one kingdom across two stages: conferred in heaven, exercised on earth."
+      verses: "Daniel 7:13-14, 26-27; Daniel 2:44; Psalm 2:6-9 with Acts 13:33 and Revelation 19:15; Mark 14:62; Zechariah 14:4, 9"
+      evidence: >
+        The son of man "came to the Ancient of Days" and "to him was given dominion ... and a kingdom"
+        (Dan 7:13-14, ESV) -- a heavenly investiture; only after the court removes the last beast's
+        dominion (7:26) is "the kingdom ... under the whole heaven" given to "the people of the saints of
+        the Most High" (7:27). Psalm 2:7 is applied to the resurrection (Acts 13:33), Psalm 2:9's "rod of
+        iron" to the return (Rev 19:15). Mark 14:62 puts the two side by side: "seated at the right hand
+        of Power, and coming with the clouds of heaven". Zech 14:9 ("the LORD will be king over all the
+        earth") follows His feet standing on the Mount of Olives (14:4). Confidence: high that the texts
+        run in two stages; this is common ground with progressive dispensationalism.
+    - point: "There is a present kingdom of the Son, and Matthew 13 names its form."
+      verses: "Colossians 1:13; Matthew 13:11, 38-41; Revelation 1:9; 5:10; Matthew 12:28"
+      evidence: >
+        "transferred us to the kingdom of his beloved Son" (Col 1:13, ESV; metestēsen, aorist). The
+        weeds grow in the world until the harvest, and "the Son of Man will send his angels, and they will
+        gather out of his kingdom all causes of sin" (Matt 13:41) -- the present field is already called
+        His kingdom. Rev 5:10 has both halves in one verse: "you have made them a kingdom and priests
+        ... and they shall reign on the earth" (NA28 basileusousin, future; a present-tense variant
+        exists and is not decisive). This is the ground on which strict classic dispensationalism
+        (present age wholly outside the kingdom) is weakest, and why the recommendation keeps a real
+        present kingdom. Confidence: high.
+    - point: "The Son's reign runs past His coming to a handover at the end."
+      verses: "1 Corinthians 15:23-28; Revelation 20:4-6; Revelation 11:15"
+      evidence: >
+        "each in his own order: Christ the firstfruits, then at his coming those who belong to Christ.
+        Then comes the end" (1 Cor 15:23-24): epeita ... eita, sequence words leaving room for an interval.
+        "he must reign until" (15:25, dei basileuein, present infinitive) is compatible with the reign
+        beginning at the ascension (progressive) or at the parousia (revised); this site's
+        new-heaven-and-new-earth.md already places the handover at Revelation 20:14. Rev 20:4-6: "reigned
+        with Christ for a thousand years" after the beast (19:20). Confidence: moderate on 1 Cor 15:25's
+        starting point; high on the order.
+  ancient_witness: >
+    Justin Martyr, Dialogue with Trypho 80 (ANF 1, open tier): "I and others, who are right-minded
+    Christians on all points, are assured that there will be a resurrection of the dead, and a thousand
+    years in Jerusalem, which will then be built, adorned, and enlarged, [as] the prophets Ezekiel and
+    Isaiah and others declare." He concedes in the same chapter that "many who belong to the pure and
+    pious faith, and are true Christians, think otherwise." Irenaeus, Against Heresies 5.33.3 (ANF 1):
+    the patriarchal blessing "belongs unquestionably to the times of the kingdom, when the righteous
+    shall bear rule upon their rising from the dead". Both read the promises of land, city and reign
+    as earthly and future -- the convergence of Scripture's terms, Jewish expectation (NIV CBSB on Acts
+    1:6: tribes, house of David, temple) and second-century reception that the memory note on ancient
+    witness weights. They do not settle the Acts 2 question (whether the right hand is David's throne).
+  counter_evidence:
+    - text: "Acts 2:30-36 (with Psalm 110:1; Psalm 132:11)"
+      strength: "The strongest text for progressive dispensationalism, and a serious one."
+      case: >
+        Peter cites the oath "that he would set one of his descendants on his throne" (2:30), then the
+        resurrection (2:31-32), then "exalted at the right hand of God" (2:33) with Psalm 110:1 (2:34-35),
+        and concludes "God has made him both Lord and Christ" (2:36). The chain runs oath -> resurrection
+        -> session -> Christ, so the session looks like the oath's fulfilment.
+      answer: >
+        (1) What Peter draws from the oath is the resurrection: David "foresaw and spoke about the
+        resurrection of the Christ" (2:31, ESV) -- a dead descendant cannot sit on any throne forever.
+        (2) The verbs and places differ: 2:30 kathisai (G2523) epi ton thronon autou; 2:34 Kathou (kathēmai,
+        G2521) ek dexiōn mou. Peter never says the right hand is David's throne. (3) Jesus names the
+        right hand His Father's throne (Rev 3:21) and dates His own to His coming (Matt 25:31). (4) Psalm
+        110:1 itself is an interval text: "Sit at my right hand, until I make your enemies your
+        footstool"; Heb 10:12-13 describes the session as "waiting (ekdechomenos) from that time until".
+        Toussaint, Bible Knowledge Commentary on Acts 15:16: "He is now seated at the right hand of God
+        ... When He returns He will sit on David's throne." Residual weight: "made him ... Christ" means
+        Jesus is already installed as the Davidic Messiah; the recommendation grants that (He reigns now
+        as Messiah) and withholds only the identification of the right hand with David's throne.
+        Confidence in the answer: moderate. This is the one place a careful reader could go the other way.
+    - text: "Psalm 110:2 'Rule in the midst of your enemies!'; Ephesians 1:20-22; Matthew 28:18"
+      strength: "Real; shows present messianic rule."
+      answer: >
+        Conceded in full. The recommendation's first clause is that Jesus reigns now. What these texts
+        do not name is David's throne, Israel's restoration, or Zion on earth.
+    - text: "Matthew 21:43 'the kingdom of God will be taken away from you and given to a people producing its fruits'"
+      strength: "Moderate; the favourite amillennial text, and ambiguous for dispensationalists."
+      answer: >
+        21:45 identifies the "you": "the chief priests and the Pharisees ... perceived that he was speaking
+        about them". ethnei (G1484) is singular and anarthrous. Barbieri (BKC on 21:40-46) sets out two
+        readings -- the church, or a future repentant generation of Israel (Rom 11:26-27) -- and prefers
+        the second. The text itself does not name the recipient. Either reading leaves Romans 11:29
+        ("the gifts and the calling of God are irrevocable") standing. Mark as contested.
+    - text: "Acts 15:14-18 (Amos 9:11-12)"
+      strength: "Contested among premillennialists."
+      answer: >
+        Already handled in israels-regathering-and-refining.md: the ESV SB (on 15:16-18) reads Gentile
+        inclusion as the time Amos foresaw; Toussaint (BKC) reads James as showing agreement with the
+        prophets without claiming fulfilment, noting "After this" for Amos's "in that day" and that
+        anastrepsō means a literal return. Either way the tent of David is rebuilt at a return.
+    - text: "Luke 17:20-21 'the kingdom of God is in the midst of you'"
+      strength: "Supports the 'already'; no threat to the recommendation."
+      answer: >
+        The same speech turns at once to "the days of the Son of Man" and "the Son of Man ... in his day"
+        like lightning (17:22-24). Present in the King; visible at His day.
+  confidence_summary:
+    settled: "Future earthly kingdom with Israel restored (Acts 1:6-7; 3:21; Rom 11:25-29; Rev 20:4-6); a real present kingdom of the Son (Col 1:13); Jesus reigning now at the right hand (Eph 1:20-22)."
+    strong: "David's throne taken up at the return (Matt 19:28; 25:31; Luke 1:32-33; Rev 3:21); genuine offer to Israel, earthly arrival deferred (Matt 10:5-7; 23:39; Acts 3:19-21; Luke 19:11-27)."
+    contested: "Whether Acts 2:30-36 identifies the right hand with David's throne (the recommendation says no, with moderate confidence); the recipient of Matt 21:43; the timing in Acts 15:16."
+  repo_consistency:
+    agree:
+      - "statement-of-faith.md (End times): pretribulational, literal millennium, Christ returning 'a King coming to reign' -- consistent; the recommendation locates David's throne in that reign."
+      - "scripture/scribe-trained-for-the-kingdom.md 'What the dispensational reading concludes': 'The King has been formally refused, and the kingdom's arrival in glory is therefore deferred' -- the same position; that study already commits to it as 'this site's'. (File is modified in the working tree -- another agent's; not touched.)"
+      - "israel-and-church/israels-regathering-and-refining.md: Acts 1:6-7 'corrected when, let whether stand'; Acts 15 contested both ways -- consistent."
+      - "israel-and-church/israel-and-the-church.md: two mysteries (Eph 3; Rom 11:25), 'neither cancels the other'; oikonomia -- consistent."
+      - "last-things/new-heaven-and-new-earth.md: 1 Cor 15:24 handover at the end of the thousand years, quoting Walvoord (BKC) -- consistent."
+      - "glossary.md#dispensationalism: promises to Israel not transferred to the Church -- consistent."
+      - "jesus/melchizedek-priesthood.md: 'The king who rules at God's right hand is also the priest' -- consistent (present rule at the right hand is granted)."
+    needs_a_note:
+      - "last-things/your-kingdom-come.md, 'How the already and the not yet fit together', last paragraph: 'The \"already here, not yet complete\" language of this study sits most naturally with the second' (progressive). This is the one conflict: it leans the site toward progressive dispensationalism against scribe-trained-for-the-kingdom.md. Proposed edit below."
+      - "christian-life/lords-prayer.md ~line 195: 'The King has already come and inaugurated His reign.' Compatible if read as present reign at the right hand; optional clarifying tweak: 'inaugurated His reign from the Father's right hand'. Low priority."
+  proposed_edit:
+    target: "docs/content/last-things/your-kingdom-come.md -- section '## How the \"already\" and the \"not yet\" fit together'"
+    instructions: >
+      Keep the opening sentence and the three bullets (the progressive bullet gains a clause naming
+      Acts 2:30-36 as its main text). Replace the final paragraph ("The first two keep ... everything still
+      future.") with the '### Where this study lands' subsection below. Net about +380 words (study ~2,650
+      -> ~3,030 of a 4,000 budget). Every quotation below is ESV verified 2026-10-01 via study_verse.
+      Add to bible_references: Luke 1:32-33, Luke 19:11-12, Matthew 25:31, Revelation 3:21, Acts 3:19-21,
+      Matthew 23:39, Colossians 1:13, Acts 2:30-35, Romans 11:25-29, Matthew 13:41. Add the BKC to
+      References (Toussaint on Acts). Update the Study outline bullet to mention where the study lands.
+      Resolve open_questions[0] once the author approves.
+    progressive_bullet_replacement: |
+      - **Progressive dispensationalism** holds that the kingdom promised to David was inaugurated at
+        Jesus' first coming, with Jesus now reigning on David's throne at the Father's right hand
+        (reading Acts 2:30-36 that way), and will be completed on the earth, including Israel's
+        restoration, at His second.
+    new_subsection: |
+      ### Where this study lands
+
+      **Jesus reigns now, from His Father's throne.** God raised Him and "seated him at his right hand
+      in the heavenly places" (Ephesians 1:20, ESV), and He has "all authority in heaven and on earth"
+      (Matthew 28:18, ESV). The Father "has delivered us from the domain of darkness and transferred us
+      to the kingdom of his beloved Son" (Colossians 1:13, ESV). The kingdom you pray toward already has
+      you in it, and its King is on the throne.
+
+      **He takes David's throne when He returns.** Jesus dates it Himself: "When the Son of Man comes in
+      his glory, and all the angels with him, then he will sit on his glorious throne" (Matthew 25:31,
+      ESV; compare Matthew 19:28). He names two thrones in one sentence: "I will grant him to sit with me
+      on my throne, as I also conquered and sat down with my Father on his throne" (Revelation 3:21,
+      ESV). Gabriel promised Mary a Son who "will reign over the house of Jacob forever" (Luke 1:33,
+      ESV), and Peter says heaven "must receive" Him "until the time for restoring all the things about
+      which God spoke by the mouth of his holy prophets long ago" (Acts 3:21, ESV). *Restoring* there is
+      the noun of the verb the apostles used in Acts 1:6. Jesus told the story of a nobleman who "went
+      into a far country to receive for himself a kingdom and then return" (Luke 19:12, ESV): the
+      kingdom is given where He has gone, and exercised where He comes back.
+
+      **The kingdom was offered to Israel, and its arrival on earth waits for Israel's welcome.** Jesus
+      sent the Twelve only "to the lost sheep of the house of Israel" with "The kingdom of heaven is at
+      hand" (Matthew 10:6-7, ESV). Refused, He told Jerusalem, "you will not see me again, until you say,
+      'Blessed is he who comes in the name of the Lord'" (Matthew 23:39, ESV). After the resurrection Peter
+      made the offer again: "Repent therefore, and turn back ... that he may send the Christ appointed
+      for you, Jesus" (Acts 3:19-20, ESV). Paul says the answer is certain: "all Israel will be saved,"
+      because "the gifts and the calling of God are irrevocable" (Romans 11:26, 29, ESV).
+
+      **Contested: is the right hand David's throne?** Peter moves from God's oath to set David's
+      descendant "on his throne" (Acts 2:30, ESV) to Jesus "exalted at the right hand of God" (Acts
+      2:33), and progressive dispensationalists read the two as one throne. The case is serious. Peter
+      draws the resurrection from the oath -- David "foresaw and spoke about the resurrection of the
+      Christ" (Acts 2:31, ESV) -- and the right hand from Psalm 110:1, and Jesus calls that seat His
+      Father's throne (Revelation 3:21). Stanley Toussaint reads Acts the same way: Christ "is now seated
+      at the right hand of God," and "When He returns He will sit on David's throne" (*Bible Knowledge
+      Commentary*, on Acts 15:16). This study holds that reading with moderate confidence.
+
+      So the present age is what Jesus called "the secrets of the kingdom of heaven" (Matthew 13:11,
+      ESV): His kingdom already, sown in the world and growing among weeds until the Son of Man gathers
+      "out of his kingdom all causes of sin" at the end of the age (Matthew 13:41, ESV). David's throne,
+      Israel's restoration and the reign on the earth are still to come (Revelation 20:4-6). **This shows
+      that God reigns now through His Son and will keep every word He swore to David.** When you pray
+      "your kingdom come," you are asking the Father to send Jesus back to sit on that throne.
+    style_notes: >
+      Checked against the house rules: divine pronouns capitalised in prose, lowercase inside ESV quotes;
+      every reference names its book and is unlinked; one "this shows that God" landing and a
+      second-person close; contested point marked with both sides. The one contrast kept ("Peter draws
+      the resurrection from the oath") answers a reading the reader is likely to arrive holding. Run
+      npm run validate after applying (Checks 10, 11, 20, 21).
+  for_author:
+    - "Approve or reject the recommendation. If approved, the proposed_edit replaces the 'sits most naturally with the second' sentence, which is the only statement on the site leaning progressive."
+    - "Acts 2:30-36 is the text to read yourself before deciding; the answer above is sound but not decisive."
+    - "Consider whether statement-of-faith.md End times should gain one line ('Christ now reigns at the Father's right hand and will sit on David's throne at His return') so the two stay in step, per AGENTS.md."
+  applied:
+    date: "2026-10-01"
+    approved_by: author (relayed by coordinator)
+    changes: >
+      Progressive bullet reworded (names Acts 2:30-36); "sits most naturally with the second" paragraph
+      replaced by '### Where this study lands', split into five #### sub-headings (Now: the Father's
+      throne / At His return: David's throne / Offered to Israel, and waiting for Israel / Contested: is
+      the right hand David's throne? / The present age) because the unbroken 606-word run failed
+      validator Check 21. Prose otherwise as in new_subsection above, except the Contested paragraph's
+      dash replaced with "since", Acts 2:33 given its (ESV) label, and G605 glossed in Greek. Study
+      outline bullet extended with "and where this study lands". 14 bible_references added. BKC
+      (Toussaint on Acts 15:16) added to References. draft: true left; no commit; provenance script
+      not run.
+    verified: "Every added ESV quotation re-checked against study_verse results from this session (Eph 1:20; Matt 28:18; Col 1:13; Matt 25:31; Rev 3:21; Luke 1:33; Acts 3:21; Luke 19:12; Matt 10:6-7; 23:39; Acts 3:19-20; Rom 11:26, 29; Acts 2:30, 31, 33; Matt 13:11, 41). Toussaint quotation checked against the BKC EPUB text."
+    validate: "npm run validate: no warnings or errors for this file (Check 21 error fixed by the sub-headings)."
+    size: "~3,290 words (body, excluding Study outline and References; simple whitespace count) of 4,000 budget."
+    open_question_resolved: "open_questions[0] (classic vs progressive) -- answered by this recommendation."

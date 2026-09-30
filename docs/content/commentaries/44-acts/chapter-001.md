@@ -32,4 +32,5 @@ draft: false
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:9-12
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:9
 - [Thomas](../../biblical-figures/thomas.md) — 1:13
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 1:6-7
 <!-- commentary-index:auto-end -->

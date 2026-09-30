@@ -217,5 +217,13 @@ End-times prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](we-shall-all-be-changed.md)
 
+-   __Your Kingdom Come: The Kingdom Already Here and Not Yet Complete__
+
+    ---
+
+    The second petition of the Lord's Prayer: what basileia means, from Daniel's everlasting kingdom to Jesus's ministry, and why the kingdom He brought is already here and still to come.
+
+    [:octicons-arrow-right-24: Read](your-kingdom-come.md)
+
 </div>
 <!-- section-index:auto-end -->

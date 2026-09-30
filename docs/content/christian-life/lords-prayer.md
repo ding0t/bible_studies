@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 6:9-13; Luke 11:2-4"
 bible_references: ["Matthew 6:5-15", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Exodus 16:19-26", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Luke 17:21", "Matthew 25:34", "Acts 1:6-7", "Matthew 26:41", "Revelation 3:10", "Ephesians 4:32", "1 Peter 5:7"]
 date_created: 2026-07-22
-date_modified: 2026-09-29
+date_modified: 2026-10-01
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -196,8 +196,8 @@ and inaugurated His reign. His disciples still rightly pray, and still wait, for
 and visible arrival. Until then, praying "your will be done" hands your own will over to His, as
 Jesus did in Gethsemane: "not as I will, but as you will" (Matthew 26:39, ESV).
 
-(The fuller word study behind this section, on *basileia*, "kingdom of heaven" and the grammar of
-the petition, is being developed as a separate study.)
+The fuller study of this petition, on *basileia*, "kingdom of heaven" and the grammar of the
+request, is [Your Kingdom Come](../last-things/your-kingdom-come.md).
 
 **Pray it:** *"Father, bring Your kingdom, and bring Jesus back. Until then, where my will and Yours
 disagree today, let Yours be done."*
@@ -289,7 +289,7 @@ To use the prayer as a pattern for your own words, step by step, see
 The familiar ending, "For thine is the kingdom, and the power, and the glory, for ever. Amen" (KJV),
 has no corresponding Greek words at Matthew 6:13 in the earliest manuscripts. It is printed in the
 WEB and absent from the ASV, and the ESV prints it only as a footnote. It is attested from the
-*Didache* onward as a liturgical addition, and it is almost certainly drawn from David's prayer:
+*Didache* onward as a liturgical addition, and it is probably drawn from David's prayer:
 "Yours is the kingdom, O LORD, and you are exalted as head above all" (1 Chronicles 29:11, ESV).
 
 Luke's text was expanded the same way. Some manuscript traditions, followed by the WEB and YLT,

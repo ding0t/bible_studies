@@ -20,4 +20,5 @@ draft: false
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 3:12
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:10
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 3:14
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 3:21
 <!-- commentary-index:auto-end -->

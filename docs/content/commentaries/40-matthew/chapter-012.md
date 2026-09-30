@@ -21,4 +21,5 @@ draft: false
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 12:48-50
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 12:23
 - [Wisdom](../../wisdom/index.md) — 12:42
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 12:28
 <!-- commentary-index:auto-end -->

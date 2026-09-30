@@ -22,4 +22,5 @@ draft: false
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 11:26
 - [The Way](../../jesus/the-way.md) — 11:33
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 11:26
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 11:25-29
 <!-- commentary-index:auto-end -->

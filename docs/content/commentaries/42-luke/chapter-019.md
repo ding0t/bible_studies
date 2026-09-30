@@ -16,4 +16,5 @@ draft: false
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 19:41-44
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 19:41-44
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 19:11-27
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 19:11-12
 <!-- commentary-index:auto-end -->

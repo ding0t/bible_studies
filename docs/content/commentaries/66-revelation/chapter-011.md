@@ -16,4 +16,5 @@ draft: false
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 11:19
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 11:3-8
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 11:2
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 11:15
 <!-- commentary-index:auto-end -->

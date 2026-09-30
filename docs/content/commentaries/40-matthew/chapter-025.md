@@ -23,4 +23,5 @@ draft: false
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 25:19
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 25:1-46
 - [The Rapture of the Church](../../last-things/rapture.md) — 25:1-13
+- [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 25:34
 <!-- commentary-index:auto-end -->
