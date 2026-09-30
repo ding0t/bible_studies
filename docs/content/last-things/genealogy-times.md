@@ -1,11 +1,11 @@
 ---
 title: "Genealogy and Times: From Creation to Christ"
 category: "prophecy"
-description: "Tracing the covenant line from Adam to Christ through Genesis 5 and 11's genealogies, comparing the Masoretic Text, Septuagint, and Samaritan Pentateuch, closing the Exodus-to-Solomon gap with the priestly and Davidic genealogies, and asking what the names themselves are saying"
+description: "Tracing the covenant line from Adam to Christ through Genesis 5 and 11's genealogies, comparing the Masoretic Text, Septuagint, and Samaritan Pentateuch, and asking what the names themselves are saying"
 tags: ["genealogy", "chronology", "creation", "method/word-study", "method/textual-criticism"]
 draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
-bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:3-15", "1 Chronicles 6:50-53", "Ezra 7:1-5", "Ruth 4:18-22", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Acts 13:19-21", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
+bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
 date_created: 2026-07-24
 date_modified: 2026-09-30
 ai_provider_models:
@@ -22,15 +22,13 @@ introduced deliberately.** Which somebody, and in which direction, is the questi
 through.
 
 Jesus's genealogy is recorded twice (Matthew 1, Luke 3), and Luke's runs all the way back to Adam.
-That claim is only as strong as the data behind it, so the work here is done directly from source.
 Genesis 5 and 11:10-26 are the only places in the Old Testament that give a father's age at his
 heir's birth generation after generation. Both are read here in all three witnesses. Those are the
 Masoretic Text, the Hebrew that underlies most English Bibles; the Septuagint, the Greek translation
 made by Jewish scholars around the third century BC and the version the New Testament writers most
-often quote; and the Samaritan Pentateuch, preserved independently of both. All three are pulled
-straight from this site's own primary-source database. The raw data and the reasoning here feed
+often quote; and the Samaritan Pentateuch, preserved independently of both. The reasoning here feeds
 [docs/data/genealogy](https://github.com/ding0t/bible_studies/tree/main/docs/data/genealogy)'s
-structured files; this page is where the *why* behind those numbers lives.
+structured files.
 
 Two things are true at once, and neither collapses into the other. The genealogy is a real
 chronological record, precise enough to argue over and
@@ -38,6 +36,19 @@ capable of being wrong in transmission — and it is also a theologically shaped
 tracking a single promised line (Genesis 3:15's "seed of the woman") through named individuals
 whose names themselves carry meaning. Getting the math right and hearing what the names say are
 not competing projects.
+
+## Study outline
+
+- **How Genesis gives this data** — the fathering-age formula of Genesis 5 and 11, and where it stops.
+- **The three witnesses** — the Masoretic, Septuagint and Samaritan numbers side by side, and the
+  patterns in how they differ.
+- **Case studies** — the second Cainan, Methuselah's death and the Flood, and Terah's age at Abram's
+  departure.
+- **Word studies** — which of the Genesis 5 names hold up in the lexicon.
+- **Toward a most probable timeline** — why the site follows the Masoretic numbers, the dates that
+  result, and what stays open.
+- **What this means for prophecy and Christ** — Matthew's and Luke's genealogies, and the promise
+  carried through named people.
 
 ## How Genesis actually gives this data
 
@@ -54,13 +65,11 @@ apply past Terah, because Genesis stops giving one.
 
 ## The three witnesses
 
-- **The Masoretic Text (MT)** — the standard Hebrew text underlying most English translations,
-  and the one this site's own `zadok_year` numbering already assumes (see
+- **The Masoretic Text (MT)** — the one this site's own `zadok_year` numbering already assumes (see
   [The Zadok Calendar](../feasts/zadok-calendar.md) for the calendar side of that convention).
-- **The Septuagint (LXX)**, in the Brenton edition — the pre-Christian Greek translation, whose
-  Genesis 5 and 11 numbers diverge from MT's in a strikingly patterned way (below).
-- **The Samaritan Pentateuch (SP)** — preserved independently by the Samaritan community, and
-  the least commonly consulted of the three, but not the least interesting: it smooths the Terah
+- **The Septuagint (LXX)**, in the Brenton edition, whose Genesis 5 and 11 numbers diverge from
+  MT's in a patterned way (below).
+- **The Samaritan Pentateuch (SP)** — the least commonly consulted of the three: it smooths the Terah
   puzzle MT and LXX read with Acts 7:4, and it corroborates MT's Methuselah result by an entirely
   different set of numbers (both below).
 
@@ -304,38 +313,10 @@ In brief:
   harmonizing habit at work. The Masoretic 205 already satisfies Acts 7:4 once Abram, named first
   for his importance, is read as born when Terah was 130 ([above](#terah-and-abram-a-puzzle-two-different-ways)).
 
-This replaced a working synthesis, `harmonized_v1`, that took the Masoretic base and the Samaritan
-Terah on the grounds that the Samaritan figure resolved the Abram puzzle without reinterpretation.
-That ground is real, and it is also exactly what a harmonizing scribe would produce, so it cannot
-count as evidence the reading is original. With the Terah substitution dropped, `harmonized_v1`
-was identical to the Masoretic variant and was retired. The record of why is kept in
-`docs/data/genealogy/index.json` under `retired_timeline_variants`.
-
-### The Methuselah substitution, reverted
-
-**A second substitution was removed on 2026-09-06, for the following reason.** `harmonized_v1`
-(retired 2026-09-28) had also taken SP's Methuselah as well, on the stated grounds that SP was the only tradition
-avoiding a Methuselah who outlives the Flood. That premise was wrong: as the section above now
-shows, MT already has him dying in the Flood year exactly, and the 14-year overshoot is an LXX-only
-defect. The substitution was fixing a problem the base text did not have. It also did real damage,
-because adopting a tradition's record for one man takes *all* of his numbers, not the one under
-discussion. SP's Methuselah fathers Lamech at 67 rather than MT's 187. The graft therefore shortened
-the chain from Adam to Noah by 120 years, moving Noah's birth to AM 936 and the Flood to AM 1536.
-Methuselah's own death moved to AM 1407, leaving him dead 129 years *before* the Flood. The
-correspondence the substitution existed to protect was destroyed by making it. It also pulled Adam's
-death (AM 930) to within six years of Noah's birth, close enough to read as an overlap on the
-timeline chart, when MT separates them by 126 years and no antediluvian patriarch except Noah is
-born after Adam dies.
-
 ### Deriving the Gregorian dates
 
-**How the Gregorian dates are derived, corrected 2026-08-22.** Zadok year 0 is Adam's creation
-and is absolute, so a variant with a longer chain from Adam to Terah puts creation *earlier* in
-Gregorian terms. It does not push the Flood later. Until this correction the generator applied a
-single fixed offset of 4004 years to every variant, which held creation still and slid everything
-downstream — publishing the Septuagint Flood at 1762 BC, several centuries *after* the Masoretic
-one, when its longer genealogies require the opposite. Every variant is now anchored on one
-downstream point, the Exodus, and each creation date falls out of its own chain length.
+Zadok year 0 is Adam's creation, so each variant is anchored on one downstream point, the Exodus,
+and its creation date falls out of its own chain length.
 
 Computed results (`references/build/genealogy_chronology.py`, anchored on the Exodus at 1491 BC,
 Terah to Abram per Acts 7:4, Abram's call to the Exodus per Galatians 3:17):
@@ -345,10 +326,6 @@ Terah to Abram per Acts 7:4, Abram's call to the Exodus per Galatians 3:17):
 | MT | 4004 BC | 1656 / 2348 BC | 2083 / 1921 BC |
 | LXX | 5470 BC | 2242 / 3228 BC | 3549 / 1921 BC |
 | SP | 4245 BC | 1307 / 2938 BC | 2324 / 1921 BC |
-
-The SP row is read on the Samaritan text's own terms, Terah 70 at Abram's birth and 145 at death.
-Before 2026-09-28 the generator gave SP the Masoretic reading of Terah (130 at Abram's birth), which
-the 145-year total does not need, and printed SP creation at 4305 BC and its Flood at 2998 BC.
 
 The gap between MT's and LXX's Flood dates is now 880 years, and it runs the other way: the
 Septuagint puts the Flood *before* Egypt's First Dynasty (c. 3100 BC), where the Masoretic puts it
@@ -386,125 +363,16 @@ Near](day-is-near.md#when-is-the-year-6000) uses a different creation epoch agai
 than any of the three variants above. Reconciling that is future work, tracked but not resolved
 here.
 
-## The Exodus-to-Solomon gap: genealogy as a check on the Judges chronology
+The genealogical reasoning above was worked out without `prophecy-events-times.md`'s external
+archaeological anchors (Qarqar, Sennacherib, the Babylonian and Persian records), so that
+anchor-based dating could not bias which manuscript readings looked more probable. Now that the
+genealogical case stands on its own, linking the
+two — checking where the Masoretic numbers land relative to Thiele's Qarqar-anchored
+chronology for the divided monarchy, for instance — is the natural next step, and is tracked as open
+work in the state file.
 
-Genealogical age-data stops at Terah. From here to Solomon, the chronological evidence changes
-character entirely: instead of a systematic formula, Scripture gives one summary figure
-(1 Kings 6:1: 480 years from the Exodus to
-Solomon's 4th year) and a long list of individual judges' and oppressors' reign-lengths in
-between. Those two kinds of evidence don't agree with each other on a naive reading, and two
-different genealogies, one priestly and one royal, turn out to pull in opposite directions on
-how to resolve it.
-
-### The problem: the numbers don't add up to 480
-
-Summing every individually-stated figure in Judges, in the order given:
-
-| Event | Years | Verse |
-| --- | --- | --- |
-| Cushan-Rishathaim oppression | 8 | Judges 3:8 |
-| Othniel / land's rest | 40 | Judges 3:11 |
-| Eglon (Moab) oppression | 18 | Judges 3:14 |
-| Ehud / land's rest | 80 | Judges 3:30 |
-| Jabin (Canaan) oppression | 20 | Judges 4:3 |
-| Deborah/Barak / land's rest | 40 | Judges 5:31 |
-| Midian oppression | 7 | Judges 6:1 |
-| Gideon / land's rest | 40 | Judges 8:28 |
-| Abimelech | 3 | Judges 9:22 |
-| Tola | 23 | Judges 10:2 |
-| Jair | 22 | Judges 10:3 |
-| Ammon oppression (east, Gilead) | 18 | Judges 10:8 |
-| Jephthah | 6 | Judges 12:7 |
-| Ibzan | 7 | Judges 12:9 |
-| Elon | 10 | Judges 12:11 |
-| Abdon | 8 | Judges 12:14 |
-| Philistine oppression (west) | 40 | Judges 13:1 |
-| Samson (during the Philistine oppression) | 20 | Judges 15:20; <span data-ref="Judges 16:31">16:31</span> |
-
-That's **410 years** for Judges proper. Now add the rest. The wilderness wandering, 40 years and
-fixed. Roughly 7 years for Joshua's conquest, derived from Joshua 14:7,
-10: Caleb was 40 at the spies' mission and 85 "45
-years" later, and 38 of those 45 were the imposed wilderness delay, leaving about 7 for the conquest
-itself. Eli's 40 years judging Israel (1 Samuel
-4:18). An unspecified stretch of Samuel's own
-ministry before the monarchy. Saul's reign. David's 40 (2 Samuel
-5:4-5). And Solomon's 4 years to the temple. The
-sequential total comfortably exceeds 480 before Samuel's own years are even counted — by at least
-100 years, likely more. **This is a long-recognized problem, not a new one**, and it has a name in
-the scholarly literature: the "Judges chronology problem."
-
-Saul's own reign-length can't even be read off the Hebrew text as it stands: 1 Samuel
-13:1 reads, transliterated, "Saul was a son of a
-year when he began to reign, and two years he reigned over Israel" — a well-known textual
-lacuna, not a translation choice. A number has dropped out of the Masoretic transmission at
-Saul's age, and "two years" for his whole reign is implausibly short given everything the text
-elsewhere attributes to it. The traditional 40-year figure comes not from Samuel but from
-Acts 13:21 (ESV), where Paul states it plainly:
-God "gave them Saul... for forty years." So the 40 used here comes from Paul and fills a gap in the
-Hebrew manuscript tradition.
-
-### The text's own basis for overlap
-
-The standard resolution treats several of these judgeships as **regional**, and therefore
-overlapping in time. The text supplies the grounds. Judges 10:7-8 (ESV) states that God "sold them
-into the hand of the Philistines and into the hand of the Ammonites" **in the same breath**, with
-the Ammonite oppression located "beyond the Jordan... which is in Gilead" (east) for 18 years,
-while Philistine pressure came from the west. Jephthah the Gileadite answers the eastern half
-(Judges 11:1; 12:7). The judges after him are westerners, Ibzan of Bethlehem, Elon the Zebulunite
-and Abdon of Pirathon in Ephraim (Judges 12:8-15), so their 25 years may run alongside the
-Philistine forty; the text does not say whether they do. Samson's 20 years explicitly take place
-"in the days of the Philistines" (Judges 15:20 ESV). He judges *during* the 40-year Philistine
-oppression. 1 Samuel's own narrative shows Philistine dominance continuing
-well past Samson's death, through Eli's era and into Samuel's early ministry. None of this requires
-inventing an overlap the text doesn't support. It requires taking the text's own geography
-seriously, instead of defaulting to a single linear national timeline the book of Judges never
-claims to be giving.
-
-### Genealogy check #1: the priestly line — broadly consistent with ~480 years
-
-The high priestly line from Aaron to Zadok, David and Solomon's priest, is given twice in
-1 Chronicles, and the two lists agree: Aaron → Eleazar → Phinehas → Abishua → Bukki → Uzzi →
-Zerahiah → Meraioth → Amariah → Ahitub → Zadok (1 Chronicles 6:3-8; 6:50-53). That's **10
-generational steps** from Aaron, a man of the Exodus generation, to Zadok (serving at the end of
-David's reign and the start of Solomon's). Over roughly 400-480 years, that's 40-48 years per
-generation. That is high for a strict father-to-son succession, though possible in an office where
-the heir need not be a firstborn son fathered young. This genealogy doesn't *prove* 480 years, but
-it doesn't strain against it either.
-
-Ezra 7:1-5 traces Ezra's own ancestry back to Aaron through the same names, and shows how freely a
-priestly list could compress. It runs Zadok ← Ahitub ← Amariah ← Azariah ← Meraioth. Its Zadok is
-the later one, father of Shallum (1 Chronicles 6:12), and between Meraioth and that Azariah it
-leaves out six generations, David's Zadok among them (1 Chronicles 6:7-10). Ezra was not wrong
-about his descent. A line that proves descent is free to skip.
-
-### Genealogy check #2: the Davidic line — in real tension with 480 years
-
-Ruth 4:18-22 gives David's own ancestry from
-Judah's son Perez: Perez → Hezron → Ram → Amminadab → **Nahshon** → Salmon → Boaz → Obed →
-Jesse → David. Nahshon isn't a random name — Numbers 1:7
-names him as the tribal leader of Judah
-during the wilderness census, firmly placing him in the Exodus generation. From Nahshon to
-David is only **5 generational gaps** (Nahshon-Salmon-Boaz-Obed-Jesse-David). Spread across the
-same 400-480 year span the priestly line tolerates, that's 80-96 years per generation —
-not plausible for ordinary human fathering, by a wide margin.
-
-This doesn't mean Ruth's genealogy is wrong; it means it's very likely **telescoped** — skipping
-generations the way ancient genealogies regularly do. Ezra 7 does it above; Matthew 1 does it
-[below](#two-genealogies-two-different-jobs), dropping three known kings to reach a structuring
-number. Telescoping is a well-attested biblical pattern, and Ruth's list is short enough to need it.
-
-### Where this leaves the reconstruction
-
-Two genealogical checks point in different directions. The priestly line is compatible with
-something close to 1 Kings 6:1's 480 years. The royal line, taken at face value, is not. It all but
-requires accepting that Ruth's list omits names. Put that together with the judges-overlap evidence
-above, and the most defensible reading has two parts. **1 Kings 6:1's 480 years is plausible as a
-real total**, achieved by real regional overlap among the judges rather than strict national
-sequence. That overlap is textually supported. And Ruth's five-generation genealogy for David almost
-certainly telescopes, the same compression Ezra 7 shows in the priestly line. Nothing here fixes an
-exact year-by-year allocation of which judge overlaps which by how much; that level of precision
-isn't recoverable from what the text actually states, and claiming otherwise would overshoot the
-evidence in the same way summing the numbers naively does.
+The span from the Exodus to Solomon's temple, where the genealogies stop and 1 Kings 6:1's 480
+years take over, is the subject of a separate study, *Four Hundred and Eighty Years*, in draft.
 
 ## What this means for prophecy and Christ
 
@@ -537,22 +405,8 @@ predicted the Flood by its own arithmetic. The pattern around him does, on a lar
 whole genealogy does. It is a real record of real people, shaped by a real author, tracking a
 promise. Twenty-some centuries after its last recorded chapter, that promise is still being kept.
 
-The specific date question has a working answer: creation in 4004 BC on the Masoretic numbers
-and the Ussher anchor, against 5470 and 4245 BC on the other two witnesses, with the Exodus anchor
-still open above. What doesn't stay open is the shape
-of the claim: a single traceable line, named generation by generation, carrying a promise from
-Eden to an empty tomb. The math was always in service of that; it was never the point on its
-own.
-
-## The external anchors, deferred until last
-
-The genealogical reasoning above was worked out without `prophecy-events-times.md`'s external
-archaeological anchors (Qarqar, Sennacherib, the Babylonian and Persian records), so that
-anchor-based dating could not bias which manuscript readings looked more probable. Now that the
-genealogical case stands on its own, linking the
-two — checking where the Masoretic numbers land relative to Thiele's Qarqar-anchored
-chronology for the divided monarchy, for instance — is the natural next step, and is tracked as open
-work in the state file.
+The shape of the claim is settled: a single traceable line, named generation by generation,
+carrying a promise from Eden to an empty tomb. The math was always in service of that.
 
 ## References & Recommended Reading
 

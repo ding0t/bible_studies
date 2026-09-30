@@ -225,6 +225,7 @@ schema_and_data_status:
        significance."
 
 open_questions:
+  - "Link the plain-text pointer (after Toward a most probable timeline) to four-hundred-and-eighty-years.md once that fork is published -- a published page cannot link a draft. Added 2026-09-30 by simplify-bible-study."
   - "JSON schema for docs/data/genealogy/*.json not yet designed -- needs per-tradition
      (mt/lxx/sp) age_at_first_son, years_after, lifespan_total fields, verse citations per
      figure, and a discrepancy_notes field. Current schema is MT-only and doesn't label it as
@@ -454,3 +455,18 @@ review_2026-09-30:
   applied_2026-09-30: "All critical, moderate and minor text findings fixed; Terah section now marks the question contested and quotes both study Bibles; Ezra 7 recast as evidence of telescoping, supporting the Ruth argument; bible_references updated (1 Chr 6:3-15, 6:50-53); References gain Steinmann 2017/2021, Jacobus 2009, ESV SB, NIV BTSB."
   size: "4,872 words (References excluded) vs budget 4,000 -- fixes net about +150. Simplify candidates: ~1,000 words of data-change history (Methuselah substitution reverted, dated notes in Deriving the Gregorian dates, harmonized_v1 paragraph) belong here or in index.json; the Exodus-to-Solomon section (~1,300 words) is a fork candidate."
   validate: "No errors; Check 22 (no Study outline) and Check 23 (over budget) warnings."
+
+simplify_2026-09-30:
+  skill: simplify-bible-study
+  point: "Genesis 5 and 11 give a real, checkable chronology whose manuscript traditions differ by a deliberate pattern; the Masoretic numbers hold up best, and the genealogy exists to carry God's promise by name from Adam to Christ."
+  words: "4,872 -> see validate after (budget 4,000)"
+  fork: "Exodus-to-Solomon gap (6 sections) -> docs/content/last-things/four-hundred-and-eighty-years.md (draft: true)."
+  cut: "Methuselah-substitution-reverted section, harmonized_v1 paragraph, 'corrected 2026-08-22' paragraph, pre-2026-09-28 SP note -- history already recorded in this file (Methuselah revert ~line 300; decision_2026-09-28_masoretic_chronology)."
+  merged: "External-anchors section folded into What stays open (anchor #what-stays-open kept, linked from flood-and-the-king-lists.md); duplicate SP-Terah note under the results table dropped in favour of Two choices; witness glosses no longer repeated in their bullets."
+  shortened:
+    - "Opening: 'All three are pulled straight from this site's own primary-source database. The raw data and the reasoning here feed [docs/data/genealogy]'s structured files; this page is where the why behind those numbers lives.' -> 'The reasoning here feeds [docs/data/genealogy]'s structured files.' ('That claim is only as strong as the data...' deleted.)"
+    - "LXX bullet: 'the pre-Christian Greek translation, whose Genesis 5 and 11 numbers diverge from MT's in a strikingly patterned way' -> 'whose Genesis 5 and 11 numbers diverge from MT's in a patterned way'. MT and SP bullets lose their repeated glosses."
+    - "'How the Gregorian dates are derived, corrected 2026-08-22...' paragraph -> 'Zadok year 0 is Adam's creation, so each variant is anchored on one downstream point, the Exodus, and its creation date falls out of its own chain length.'"
+    - "Closing: 'The specific date question has a working answer: ... What doesn't stay open is the shape of the claim: ... The math was always in service of that; it was never the point on its own.' -> 'The shape of the claim is settled: a single traceable line, named generation by generation, carrying a promise from Eden to an empty tomb. The math was always in service of that.'"
+  added: "Study outline (Check 22); plain-text pointer to the fork."
+  verify: "study_structure.py --verify-against HEAD: added_unexpected holds only the shortened sentences, pointer and outline."
