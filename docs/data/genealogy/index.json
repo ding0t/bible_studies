@@ -3,8 +3,7 @@
     "version": "3.0.0",
     "last_updated": "2026-10-01",
     "description": "Complete biblical genealogy from Adam to Jesus with dual-calendar dating (Zadok Year 0 = 3959 BC), relational data, lineage tracking, and classification system. Data organized by biblical era for improved maintainability.",
-    "calendar_offset": 3959,
-    "calendar_info": "Zadok Year 0 corresponds to -3959 Gregorian (3959 BC), the a_prime scenario (Masoretic chain, Exodus 1446 BC), active since 2026-10-01. Subtract 3959 from a Zadok year to get a signed Gregorian year, adding one for AD results since there is no year zero (Zadok 3959 = AD 1). Until 2026-10-01 the offset was 4004 (ussher_published).",
+    "calendar_info": "Zadok Year 0 is creation. The Gregorian year of each Zadok year comes from the site epoch set once in docs/data/chronology.json (epochs[id=genealogy], am0_gregorian: -3959 since 2026-10-01; -4004 before) and is converted by app/src/utils/chronology.js, with no year zero.",
     "chronology_note": "Adam through Terah (antediluvian.json fully, patriarchal.json's first 10 records) now carry raw per-tradition (mt/lxx/sp) textual data instead of hand-set zadok_year_born/died -- see timeline_variants below and references/build/genealogy_chronology.py, which generates docs/data/genealogy/generated/<variant>.json. Abraham onward is unaffected; Genesis gives no age-at-heir-birth data past Terah.",
     "computed_by": "references/build/genealogy_chronology.py",
     "total_people": 78,
@@ -15,7 +14,8 @@
       "divided-kingdom.json": "Rehoboam to Josiah (15 people)",
       "exile-return.json": "Jehoiakim to Zerubbabel (4 people)",
       "second-temple.json": "Abiud to Jesus (12 people)"
-    }
+    },
+    "eras_note": "Era bounds are Anno Mundi (am_start, am_end); the Gregorian years follow from the site epoch in docs/data/chronology.json, so they are not stored here."
   },
   "timeline_variants": {
     "mt": {
@@ -78,44 +78,50 @@
     "antediluvian": {
       "name": "Antediluvian Age",
       "description": "From creation of Adam to the Great Flood",
-      "date_range": "Zadok 0-1656 (Gregorian -3959 to -2303)",
       "people_count": 13,
-      "file": "antediluvian.json"
+      "file": "antediluvian.json",
+      "am_start": 0,
+      "am_end": 1656
     },
     "patriarchal": {
       "name": "Patriarchal Age",
       "description": "From post-Flood patriarchs through the Egyptian sojourn to the Conquest",
-      "date_range": "Zadok 1656-2553 (Gregorian -2303 to -1406)",
       "people_count": 19,
-      "file": "patriarchal.json"
+      "file": "patriarchal.json",
+      "am_start": 1656,
+      "am_end": 2553
     },
     "conquest_judges": {
       "name": "Conquest & Judges Period",
       "description": "From the Conquest of Canaan through the Judges to establishment of the monarchy",
-      "date_range": "Zadok 2553-3028 (Gregorian -1406 to -931)",
       "people_count": 14,
-      "file": "conquest-judges.json"
+      "file": "conquest-judges.json",
+      "am_start": 2553,
+      "am_end": 3028
     },
     "divided_kingdom": {
       "name": "Divided Kingdom",
       "description": "From the division of Solomon's kingdom through the fall of Judah to exile",
-      "date_range": "Zadok 3028-3350 (Gregorian -931 to -609)",
       "people_count": 15,
-      "file": "divided-kingdom.json"
+      "file": "divided-kingdom.json",
+      "am_start": 3028,
+      "am_end": 3350
     },
     "exile_return": {
       "name": "Exile & Return",
       "description": "The Babylonian exile through the return and rebuilding of the temple",
-      "date_range": "Zadok 3350-3444 (Gregorian -609 to -515)",
       "people_count": 4,
-      "file": "exile-return.json"
+      "file": "exile-return.json",
+      "am_start": 3350,
+      "am_end": 3444
     },
     "second_temple": {
       "name": "Second Temple Period",
       "description": "From post-exile Jerusalem through Jesus",
-      "date_range": "Zadok 3444-3991 (Gregorian -515 to 33)",
       "people_count": 12,
-      "file": "second-temple.json"
+      "file": "second-temple.json",
+      "am_start": 3444,
+      "am_end": 3991
     }
   },
   "queries": {

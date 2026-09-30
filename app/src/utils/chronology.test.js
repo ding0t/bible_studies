@@ -10,6 +10,8 @@ import {
   mergePeopleWithVariant,
   getMillennialDay,
   loadGenealogyPeople,
+  loadEvents,
+  eventsForPerson,
   GENEALOGY_INDEX,
   VARIANTS,
 } from './chronology.js';
@@ -188,5 +190,51 @@ assert((pdays['6 Sivan'].start - pdays['16 Nisan'].start) / 24 === 49, 'Firstfru
 const nights = CHRONOLOGY.passion_sequence.three_days.filter((b) => b.kind === 'night').length;
 const dayCount = CHRONOLOGY.passion_sequence.three_days.filter((b) => b.kind === 'day').length;
 assert(nights === 2 && dayCount === 3, 'three days touched and two nights, as Three Days and Three Nights counts them');
+
+console.log('\n10. One set of facts:');
+// Each fact is stored once. These checks are what keep a future epoch change a one-line edit.
+const allEvents = loadEvents();
+const personIds = new Set(loadGenealogyPeople().map((p) => p.id));
+assert(
+  allEvents.every((e) => e.people.every((id) => personIds.has(id))),
+  'every person an event names exists in the genealogy'
+);
+assert(
+  CHRONOLOGY.life_events.every((e) => !(('am' in e) && ('gregorian' in e))),
+  'no life event stores both calendars'
+);
+assert(
+  CHRONOLOGY.life_events.every((e) => e.undated || 'am' in e || 'gregorian' in e),
+  'every life event is dated once, or marked undated'
+);
+const eventIds = allEvents.map((e) => `${e.source}:${e.id}`);
+assert(new Set(eventIds).size === eventIds.length, 'no event id is used twice within a collection');
+const perPersonDupes = [];
+for (const id of personIds) {
+  const seen = new Set();
+  for (const e of eventsForPerson(id)) {
+    const key = `${e.am}|${e.label.toLowerCase()}`;
+    if (seen.has(key)) perPersonDupes.push(`${id}: ${e.label}`);
+    seen.add(key);
+  }
+}
+assert(perPersonDupes.length === 0, `no person has the same event twice (${perPersonDupes.join('; ')})`);
+const allPeople = loadGenealogyPeople();
+assert(
+  allPeople.every((p) => p.zadok_year_born == null || gregorianToAm(p.gregorian_year_born, 'genealogy') === p.zadok_year_born),
+  "each person's two calendars are derived from one, and agree"
+);
+assert(
+  allPeople.every((p) => p.zadok_year_born == null || p.zadok_year_died == null || p.zadok_year_died - p.zadok_year_born === p.lifespan_years),
+  'every lifespan equals death minus birth'
+);
+const jacob = allPeople.find((p) => p.id === 'jacob');
+assert(jacob.zadok_year_died - jacob.zadok_year_born === 147, 'Jacob dies at 147 (Genesis 47:28)');
+assert(jacob.zadok_year_died === 2298 + 17, 'Jacob dies seventeen years after entering Egypt (Genesis 47:28)');
+const sarah = allPeople.find((p) => p.id === 'sarah');
+assert(sarah.lifespan_years === 127 && sarah.zadok_year_born === 2008 + 10, 'Sarah is ten years younger than Abraham and dies at 127 (Genesis 17:17; 23:1)');
+const abrahamEvents = eventsForPerson('abraham').map((e) => e.id);
+assert(abrahamEvents.includes('abram_called') && abrahamEvents.includes('isaac_born'), "Abraham's call and Isaac's birth are the Genesis markers, not copies of them");
+assert(eventsForPerson('jesus').some((e) => e.source === 'passion' && e.id === 'crucified'), "Jesus's crucifixion is the AD 33 sequence's event, not a copy");
 
 console.log('\n✨ All tests passed!\n');

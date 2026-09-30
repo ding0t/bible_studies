@@ -902,9 +902,7 @@
       "name": "Abraham",
       "title": "Father of Nations, Covenant Patriarch",
       "zadok_year_born": 2008,
-      "gregorian_year_born": -1951,
       "zadok_year_died": 2183,
-      "gregorian_year_died": -1776,
       "lifespan_years": 175,
       "parent_id": "terah",
       "spouse_id": "sarah",
@@ -926,56 +924,6 @@
         "Covenant",
         "Promise"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2008,
-          "gregorian_year": -1951,
-          "description": "Son of Terah (Genesis 11:26)"
-        },
-        {
-          "event": "Call by God",
-          "zadok_year": 2083,
-          "gregorian_year": -1876,
-          "description": "God called Abram to leave homeland (Genesis 12:1)"
-        },
-        {
-          "event": "Covenant Established",
-          "zadok_year": 2084,
-          "gregorian_year": -1875,
-          "description": "Made covenant with Abram, promised offspring (Genesis 12:2-3)"
-        },
-        {
-          "event": "Birth of Ishmael",
-          "zadok_year": 2095,
-          "gregorian_year": -1864,
-          "description": "Ishmael born to Hagar (Genesis 16:16)"
-        },
-        {
-          "event": "Name Changed to Abraham",
-          "zadok_year": 2108,
-          "gregorian_year": -1851,
-          "description": "Abram's name changed to Abraham; covenant renewed (Genesis 17:5)"
-        },
-        {
-          "event": "Birth of Isaac",
-          "zadok_year": 2108,
-          "gregorian_year": -1851,
-          "description": "Isaac born to Sarah at age 100 (Genesis 21:5)"
-        },
-        {
-          "event": "Binding of Isaac",
-          "zadok_year": 2123,
-          "gregorian_year": -1836,
-          "description": "Abraham tested; offered Isaac; type of crucifixion (Genesis 22:1-19)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 2183,
-          "gregorian_year": -1776,
-          "description": "Died and was gathered to his people, lived 175 years (Genesis 25:7-8)"
-        }
-      ],
       "bible_references": [
         "Genesis 11:26",
         "Genesis 12:1-3",
@@ -996,10 +944,8 @@
       "id": "sarah",
       "name": "Sarah",
       "title": "Wife of Abraham, Mother of Isaac",
-      "zadok_year_born": 2017,
-      "gregorian_year_born": -1942,
-      "zadok_year_died": 2183,
-      "gregorian_year_died": -1776,
+      "zadok_year_born": 2018,
+      "zadok_year_died": 2145,
       "lifespan_years": 127,
       "parent_id": null,
       "spouse_id": "abraham",
@@ -1019,26 +965,6 @@
         "Promised Son",
         "Barren Womb"
       ],
-      "major_events": [
-        {
-          "event": "Call with Abraham",
-          "zadok_year": 2084,
-          "gregorian_year": -1875,
-          "description": "Journeyed with Abraham from Ur to Canaan"
-        },
-        {
-          "event": "Birth of Isaac",
-          "zadok_year": 2108,
-          "gregorian_year": -1851,
-          "description": "Bore Isaac at age 90, fulfilling covenant (Genesis 21:2)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 2183,
-          "gregorian_year": -1776,
-          "description": "Died in Hebron, lived 127 years (Genesis 23:1)"
-        }
-      ],
       "bible_references": [
         "Genesis 11:29",
         "Genesis 12:5",
@@ -1056,9 +982,7 @@
       "name": "Isaac",
       "title": "Son of Promise, Covenant Heir",
       "zadok_year_born": 2108,
-      "gregorian_year_born": -1851,
       "zadok_year_died": 2288,
-      "gregorian_year_died": -1671,
       "lifespan_years": 180,
       "parent_id": "abraham",
       "spouse_id": "rebekah",
@@ -1080,38 +1004,6 @@
         "Covenant",
         "Binding"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2108,
-          "gregorian_year": -1851,
-          "description": "Born to Abraham and Sarah (Genesis 21:1-3)"
-        },
-        {
-          "event": "Binding of Isaac",
-          "zadok_year": 2123,
-          "gregorian_year": -1836,
-          "description": "Offered as sacrifice by Abraham; type of resurrection (Genesis 22:1-19)"
-        },
-        {
-          "event": "Marriage to Rebekah",
-          "zadok_year": 2148,
-          "gregorian_year": -1811,
-          "description": "Took Rebekah as bride; loved her (Genesis 24:67)"
-        },
-        {
-          "event": "Birth of Jacob and Esau",
-          "zadok_year": 2168,
-          "gregorian_year": -1791,
-          "description": "Twin sons born; Jacob received the birthright (Genesis 25:24-34)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 2288,
-          "gregorian_year": -1671,
-          "description": "Died in Mamre at age 180 (Genesis 35:28-29)"
-        }
-      ],
       "bible_references": [
         "Genesis 21:1-3",
         "Genesis 22:1-19",
@@ -1130,9 +1022,7 @@
       "name": "Rebekah",
       "title": "Wife of Isaac, Mother of Jacob",
       "zadok_year_born": 2040,
-      "gregorian_year_born": -1919,
       "zadok_year_died": 2208,
-      "gregorian_year_died": -1751,
       "lifespan_years": 168,
       "parent_id": null,
       "spouse_id": "isaac",
@@ -1152,20 +1042,6 @@
         "Matriarch",
         "Divine Guidance"
       ],
-      "major_events": [
-        {
-          "event": "Marriage to Isaac",
-          "zadok_year": 2148,
-          "gregorian_year": -1811,
-          "description": "Became Isaac's wife (Genesis 24:51-67)"
-        },
-        {
-          "event": "Birth of Twins",
-          "zadok_year": 2168,
-          "gregorian_year": -1791,
-          "description": "Bore Jacob and Esau (Genesis 25:21-26)"
-        }
-      ],
       "bible_references": [
         "Genesis 24:15-67",
         "Genesis 25:21-26"
@@ -1180,9 +1056,7 @@
       "name": "Jacob (Israel)",
       "title": "Son of Isaac, Father of Twelve Tribes",
       "zadok_year_born": 2168,
-      "gregorian_year_born": -1791,
-      "zadok_year_died": 2348,
-      "gregorian_year_died": -1611,
+      "zadok_year_died": 2315,
       "lifespan_years": 147,
       "parent_id": "isaac",
       "spouse_id": "rachel",
@@ -1214,44 +1088,6 @@
         "Covenant",
         "Wrestler with God"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2168,
-          "gregorian_year": -1791,
-          "description": "Twin son of Isaac; obtained birthright (Genesis 25:24-34)"
-        },
-        {
-          "event": "Dream at Bethel",
-          "zadok_year": 2188,
-          "gregorian_year": -1771,
-          "description": "Saw ladder to heaven; covenant renewed (Genesis 28:10-22)"
-        },
-        {
-          "event": "Marriage to Rachel",
-          "zadok_year": 2198,
-          "gregorian_year": -1761,
-          "description": "Served Laban 7 years for Rachel (Genesis 29:18-30)"
-        },
-        {
-          "event": "Wrestling at Peniel",
-          "zadok_year": 2248,
-          "gregorian_year": -1711,
-          "description": "Wrestled with God; name changed to Israel (Genesis 32:24-32)"
-        },
-        {
-          "event": "Reunion with Esau",
-          "zadok_year": 2248,
-          "gregorian_year": -1711,
-          "description": "Reconciliation with brother Esau (Genesis 33:1-15)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 2348,
-          "gregorian_year": -1611,
-          "description": "Died in Egypt; lived 147 years (Genesis 47:28)"
-        }
-      ],
       "bible_references": [
         "Genesis 25:24-34",
         "Genesis 28:10-22",
@@ -1270,10 +1106,8 @@
       "name": "Rachel",
       "title": "Wife of Jacob, Mother of Joseph and Benjamin",
       "zadok_year_born": 2178,
-      "gregorian_year_born": -1781,
       "zadok_year_died": 2258,
-      "gregorian_year_died": -1701,
-      "lifespan_years": 97,
+      "lifespan_years": 80,
       "parent_id": null,
       "spouse_id": "jacob",
       "children": [
@@ -1284,33 +1118,13 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "ACTUAL",
+      "data_classification": "CALCULATED",
       "significance_level": 2,
       "era": "Patriarchal",
       "prophetic_role": "Mother of Messiah's Line",
       "tags": [
         "Matriarch",
         "Beloved Wife"
-      ],
-      "major_events": [
-        {
-          "event": "Marriage to Jacob",
-          "zadok_year": 2198,
-          "gregorian_year": -1761,
-          "description": "Became Jacob's wife after 7 years service (Genesis 29:18-30)"
-        },
-        {
-          "event": "Birth of Joseph",
-          "zadok_year": 2208,
-          "gregorian_year": -1751,
-          "description": "Bore Joseph after years of barrenness (Genesis 30:22-24)"
-        },
-        {
-          "event": "Birth of Benjamin",
-          "zadok_year": 2258,
-          "gregorian_year": -1701,
-          "description": "Died giving birth to Benjamin (Genesis 35:16-19)"
-        }
       ],
       "bible_references": [
         "Genesis 29:18-30",
@@ -1327,10 +1141,8 @@
       "name": "Judah",
       "title": "Son of Jacob, Father of Judean Line",
       "zadok_year_born": 2193,
-      "gregorian_year_born": -1766,
       "zadok_year_died": 2321,
-      "gregorian_year_died": -1638,
-      "lifespan_years": 129,
+      "lifespan_years": 128,
       "parent_id": "jacob",
       "spouse_id": "leah",
       "children": [
@@ -1341,7 +1153,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "ACTUAL",
+      "data_classification": "CALCULATED",
       "significance_level": 1,
       "era": "Patriarchal",
       "prophetic_role": "Scepter Bearer, Messiah Tribe",
@@ -1349,26 +1161,6 @@
         "Patriarch",
         "Judean Line",
         "Scepter"
-      ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2193,
-          "gregorian_year": -1766,
-          "description": "Fourth son of Jacob; praise given to God (Genesis 29:35)"
-        },
-        {
-          "event": "Encounter with Tamar",
-          "zadok_year": 2213,
-          "gregorian_year": -1746,
-          "description": "Fathered Perez through Tamar (Genesis 38:1-30)"
-        },
-        {
-          "event": "Blessing from Jacob",
-          "zadok_year": 2348,
-          "gregorian_year": -1611,
-          "description": "Received scepter promise; Messiah foretold (Genesis 49:8-12)"
-        }
       ],
       "bible_references": [
         "Genesis 29:35",
@@ -1386,10 +1178,8 @@
       "name": "Leah",
       "title": "Wife of Jacob, Mother of Judah",
       "zadok_year_born": 2173,
-      "gregorian_year_born": -1786,
       "zadok_year_died": 2268,
-      "gregorian_year_died": -1691,
-      "lifespan_years": 97,
+      "lifespan_years": 95,
       "parent_id": null,
       "spouse_id": "jacob",
       "children": [
@@ -1402,26 +1192,12 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "ACTUAL",
+      "data_classification": "CALCULATED",
       "significance_level": 2,
       "era": "Patriarchal",
       "prophetic_role": "Mother of Judah",
       "tags": [
         "Matriarch"
-      ],
-      "major_events": [
-        {
-          "event": "Marriage to Jacob",
-          "zadok_year": 2198,
-          "gregorian_year": -1761,
-          "description": "Given to Jacob instead of Rachel (Genesis 29:16-30)"
-        },
-        {
-          "event": "Birth of Judah",
-          "zadok_year": 2193,
-          "gregorian_year": -1766,
-          "description": "Bore the son through whom Messiah came"
-        }
       ],
       "bible_references": [
         "Genesis 29:16-35"
@@ -1436,9 +1212,7 @@
       "name": "Perez",
       "title": "Son of Judah, Ancestor of David",
       "zadok_year_born": 2213,
-      "gregorian_year_born": -1746,
       "zadok_year_died": 2293,
-      "gregorian_year_died": -1666,
       "lifespan_years": 80,
       "parent_id": "judah",
       "spouse_id": "tamar",
@@ -1458,20 +1232,6 @@
         "Breach",
         "David's Ancestor"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2213,
-          "gregorian_year": -1746,
-          "description": "Twin son born to Judah and Tamar (Genesis 38:27-30)"
-        },
-        {
-          "event": "Entry to Egypt",
-          "zadok_year": 2228,
-          "gregorian_year": -1731,
-          "description": "Went to Egypt with Jacob and family (Genesis 46:12)"
-        }
-      ],
       "bible_references": [
         "Genesis 38:27-30",
         "Genesis 46:12",
@@ -1488,9 +1248,7 @@
       "name": "Tamar",
       "title": "Wife of Er and Judah, Mother of Perez",
       "zadok_year_born": 2190,
-      "gregorian_year_born": -1769,
       "zadok_year_died": 2270,
-      "gregorian_year_died": -1689,
       "lifespan_years": 80,
       "parent_id": null,
       "spouse_id": "judah",
@@ -1508,20 +1266,6 @@
       "tags": [
         "Woman of Faith",
         "Redeemer Type"
-      ],
-      "major_events": [
-        {
-          "event": "Marriage to Er",
-          "zadok_year": 2210,
-          "gregorian_year": -1749,
-          "description": "Married Er, Judah's firstborn (Genesis 38:6)"
-        },
-        {
-          "event": "Levirate Marriage",
-          "zadok_year": 2213,
-          "gregorian_year": -1746,
-          "description": "Secured her right through Judah; bore Perez (Genesis 38:1-30)"
-        }
       ],
       "bible_references": [
         "Genesis 38:1-30",

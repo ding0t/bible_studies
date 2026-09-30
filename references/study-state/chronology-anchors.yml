@@ -322,6 +322,33 @@ chronology_line:
     - "The pre-David Judah line in conquest-judges.json is placeholder (Rahab born after the conquest; Perez's entry to Egypt 70 years before Jacob's). The Four Hundred and Eighty Years draft is the place to settle it."
     - "Sabbatical-cycle reconstruction (Wacholder or Zuckermann) not named in the table."
 
+data_model_2026-10-01:
+  what: >
+    One set of facts behind both tools. Each person stores one calendar (zadok_year_* for Genesis-dated
+    people -- Adam to Nahshon and Elisheba -- gregorian_year_* for Salmon onward); each event is stored
+    once in docs/data/chronology.json (life_events plus the Genesis markers, anchor table, milestones and
+    AD 33 sequence), tagged with the people it involves; app/src/utils/chronology.js (loadEvents,
+    eventsForPerson, loadGenealogyPeople) derives the other calendar and each person's event list. The
+    epoch lives only in chronology.json; calendarConvert.js reads it, and index.json's eras store Anno
+    Mundi bounds only. utils/validate_genealogy.py fails on a person storing both calendars, an event list
+    back in an era file, or a lifespan that disagrees with birth and death; chronology.test.js section 10
+    checks the same from the app side.
+  verified: "Before/after snapshot of every person's derived dates under all three variants: identical except the fixes below. genealogy_chronology.py output unchanged."
+  fixes_found_by_consolidating:
+    - "Jacob died at 180 in the data; Genesis 47:28 gives 147, seventeen years after entering Egypt (AM 2298 -> 2315)."
+    - "Sarah died in Abraham's death year; Genesis 23:1 gives 127, and Genesis 17:17 makes her ten years younger than Abraham (born AM 2018, died 2145)."
+    - "Rachel, Leah and Judah carried lifespans marked ACTUAL that Scripture does not give; now CALCULATED from their stored dates."
+    - "Solomon's temple begun 965 and dedicated 958 BC on his record; the anchor table's 966 and 959 BC kept."
+    - "Hezekiah's record had Sennacherib's siege in 702 BC; the anchor table's 701 BC kept."
+    - "Rehoboam's 'Kingdom Divided' and 'Reign' in 950 BC dropped; the division is anchor 3, 931 BC."
+    - "Rahab's faith and rescue at Jericho moved from AM 2644 (91 years after the conquest) to AM 2553, the conquest year."
+    - "Perez's 'Entry to Egypt' (AM 2228, 70 years before Jacob's) merged into the Genesis marker at AM 2298."
+    - "Solomon's 'Divine Appearance' in his birth year and 'Request for Wisdom' are one event, 1 Kings 3:4-15, early in his reign (c. 970 BC)."
+    - "Abram renamed Abraham at 99 (Genesis 17:1, 5): AM 2107, not 2108."
+    - "Ahaziah killed by Jehu in 841 BC, the year he reigned (2 Kings 8:26; 9:27), not 840."
+    - "Cain's and Abel's events had placeholder dates of AM 0; Genesis gives no year, so they are undated."
+    - "Solomon's 'Reign of Peace' dropped as a description, not an event."
+
 evidence:
   - {id: ez40-1-esv, what: "Ezekiel 40:1 block quote; 'beginning of the year', no month named", tool: study_verse, args: {book: Ezek, chapter: 40, verse: 1, work_id: esv-study-bible}, expect_contains: "In the twenty-fifth year of our exile, at the beginning of the year, on the tenth day of the month", checked: 2026-10-01}
   - {id: ez40-1-esvsb, what: "ESV SB dates Ezekiel 40:1 to April 573 (Nisan, not the Day of Atonement)", tool: study_note, args: {book: Ezek, chapter: 40, verse: 1, work_id: esv-study-bible}, expect_contains: "April 573 B.C.", checked: 2026-10-01}

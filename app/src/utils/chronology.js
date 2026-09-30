@@ -28,16 +28,104 @@ export const VARIANTS = {
 
 export const GENEALOGY_INDEX = genealogyIndex;
 
-/** The full 77-person genealogy, Adam through Jesus, merged from the six era files. */
+// The site's epoch. Every derived year below goes through it, so moving the epoch is one edit in
+// chronology.json and nothing else.
+const SITE_EPOCH = 'genealogy';
+const AD33 = 33;
+
+// Each record stores ONE date -- am (Anno Mundi) for anything Genesis dates, gregorian for anything
+// dated from Solomon onward -- and the other is derived here. Storing both is what turned the
+// 2026-10-01 epoch change into a 374-number rewrite.
+function bothCalendars(am, gregorian) {
+  if (typeof am === 'number') return { am, gregorian: amToGregorian(am, SITE_EPOCH) };
+  if (typeof gregorian === 'number') return { am: gregorianToAm(gregorian, SITE_EPOCH), gregorian };
+  return { am: null, gregorian: null };
+}
+
+let eventsCache = null;
+
+/**
+ * Every dated event on the site, from one place: the Genesis markers, the anchor table, the other
+ * archaeological anchors, the prophecy milestones, the AD 33 sequence and the life events. Each is
+ * stored once; `people` names everyone it involves. Undated events (Scripture gives no year) carry
+ * am and gregorian of null.
+ */
+export function loadEvents() {
+  if (eventsCache) return eventsCache;
+  const out = [];
+  const add = (source, e, dates, extra = {}) =>
+    out.push({
+      ...e,
+      ...extra,
+      source,
+      id: e.id,
+      label: e.label,
+      people: e.people ?? [],
+      refs: e.refs ?? e.scripture ?? null,
+      ...dates,
+    });
+  for (const e of chronology.genesis_markers) add('genesis', e, bothCalendars(e.am_year));
+  for (const e of chronology.anchor_table) add('anchor', e, bothCalendars(null, e.gregorian_year));
+  for (const e of chronology.anchors) add('archaeology', e, bothCalendars(null, e.gregorian_year));
+  for (const e of chronology.milestones) add('milestone', e, bothCalendars(e.am_year, e.gregorian_year));
+  for (const e of chronology.passion_sequence.events) add('passion', e, bothCalendars(null, AD33), { hour: e.at });
+  for (const e of chronology.life_events) add('life', e, e.undated ? bothCalendars() : bothCalendars(e.am, e.gregorian));
+  eventsCache = out;
+  return out;
+}
+
+/** Events involving one person, in order; undated ones first, in the order they were recorded. */
+export function eventsForPerson(personId) {
+  return loadEvents()
+    .filter((e) => e.people.includes(personId))
+    .sort((a, b) => (a.am ?? -Infinity) - (b.am ?? -Infinity) || (a.hour ?? 0) - (b.hour ?? 0));
+}
+
+let peopleCache = null;
+
+/**
+ * The full genealogy, Adam through Jesus, merged from the six era files, with both calendars filled
+ * in from the one each record stores and `major_events` assembled from the shared event list.
+ * People with no stored year (Adam to Terah) get theirs from the generated variant files instead;
+ * see mergePeopleWithVariant.
+ */
 export function loadGenealogyPeople() {
-  return [
+  if (peopleCache) return peopleCache;
+  peopleCache = [
     ...antediluvian.people,
     ...patriarchal.people,
     ...conquestJudges.people,
     ...dividedKingdom.people,
     ...exileReturn.people,
     ...secondTemple.people,
-  ];
+  ].map((p) => {
+    const born = bothCalendars(p.zadok_year_born, p.gregorian_year_born);
+    const died = bothCalendars(p.zadok_year_died, p.gregorian_year_died);
+    const events = eventsForPerson(p.id);
+    return {
+      ...p,
+      ...(born.am != null && {
+        zadok_year_born: born.am,
+        gregorian_year_born: born.gregorian,
+      }),
+      ...(died.am != null && {
+        zadok_year_died: died.am,
+        gregorian_year_died: died.gregorian,
+      }),
+      major_events: events.length
+        ? events.map((e) => ({
+            event: e.label,
+            zadok_year: e.am,
+            gregorian_year: e.gregorian,
+            description: e.description ?? e.note ?? e.evidence ?? '',
+            refs: e.refs,
+            source: e.source,
+            id: e.id,
+          }))
+        : undefined,
+    };
+  });
+  return peopleCache;
 }
 
 export function getEpoch(epochId) {

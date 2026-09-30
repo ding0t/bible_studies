@@ -5,9 +5,7 @@
       "id": "rehoboam",
       "name": "Rehoboam",
       "title": "King of Judah, Son of Solomon",
-      "zadok_year_born": 2987,
       "gregorian_year_born": -972,
-      "zadok_year_died": 3046,
       "gregorian_year_died": -913,
       "lifespan_years": 59,
       "parent_id": "solomon",
@@ -27,32 +25,6 @@
         "King",
         "Foolish Counsel"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2987,
-          "gregorian_year": -972,
-          "description": "Son of Solomon and Naamah the Ammonitess"
-        },
-        {
-          "event": "Coronation",
-          "zadok_year": 3028,
-          "gregorian_year": -931,
-          "description": "Became king of Judah; took foolish counsel (1 Kings 12:1-20)"
-        },
-        {
-          "event": "Kingdom Divided",
-          "zadok_year": 3009,
-          "gregorian_year": -950,
-          "description": "Northern tribes rebelled; formed Israel under Jeroboam (1 Kings 12:16-33)"
-        },
-        {
-          "event": "Reign",
-          "zadok_year": 3009,
-          "gregorian_year": -950,
-          "description": "Reigned 17 years over Judah (1 Kings 14:21)"
-        }
-      ],
       "bible_references": [
         "1 Kings 12-14",
         "2 Chronicles 10-12",
@@ -67,9 +39,7 @@
       "id": "abijah",
       "name": "Abijah",
       "title": "King of Judah, Son of Rehoboam",
-      "zadok_year_born": 3026,
       "gregorian_year_born": -933,
-      "zadok_year_died": 3048,
       "gregorian_year_died": -911,
       "lifespan_years": 22,
       "parent_id": "rehoboam",
@@ -88,20 +58,6 @@
       "tags": [
         "King"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3046,
-          "gregorian_year": -913,
-          "description": "Became king of Judah (1 Kings 14:31, 15:1)"
-        },
-        {
-          "event": "War with Jeroboam",
-          "zadok_year": 3038,
-          "gregorian_year": -921,
-          "description": "Fought Jeroboam; God delivered Judah (2 Chronicles 13:1-20)"
-        }
-      ],
       "bible_references": [
         "1 Kings 14:31",
         "1 Kings 15:1-8",
@@ -117,9 +73,7 @@
       "id": "asa",
       "name": "Asa",
       "title": "King of Judah, Reformer",
-      "zadok_year_born": 3028,
       "gregorian_year_born": -931,
-      "zadok_year_died": 3089,
       "gregorian_year_died": -870,
       "lifespan_years": 61,
       "parent_id": "abijah",
@@ -139,26 +93,6 @@
         "King",
         "Reformer"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3048,
-          "gregorian_year": -911,
-          "description": "Became king at age 20 (1 Kings 15:9-11)"
-        },
-        {
-          "event": "Religious Reforms",
-          "zadok_year": 3040,
-          "gregorian_year": -919,
-          "description": "Removed idols and high places; restored worship (2 Chronicles 14:2-5)"
-        },
-        {
-          "event": "Victory over Cushites",
-          "zadok_year": 3050,
-          "gregorian_year": -909,
-          "description": "Defeated great army; miracle from God (2 Chronicles 14:9-12)"
-        }
-      ],
       "bible_references": [
         "1 Kings 15:9-24",
         "2 Chronicles 14-16",
@@ -173,9 +107,7 @@
       "id": "jehoshaphat",
       "name": "Jehoshaphat",
       "title": "King of Judah, Judge and Reformer",
-      "zadok_year_born": 3052,
       "gregorian_year_born": -907,
-      "zadok_year_died": 3111,
       "gregorian_year_died": -848,
       "lifespan_years": 59,
       "parent_id": "asa",
@@ -195,20 +127,6 @@
         "King",
         "Judge"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3087,
-          "gregorian_year": -872,
-          "description": "Became king of Judah (1 Kings 15:24)"
-        },
-        {
-          "event": "Judicial System",
-          "zadok_year": 3084,
-          "gregorian_year": -875,
-          "description": "Sent judges throughout Judah (2 Chronicles 17:7-9)"
-        }
-      ],
       "bible_references": [
         "1 Kings 15:24",
         "1 Kings 22:41-50",
@@ -224,9 +142,7 @@
       "id": "jehoram",
       "name": "Jehoram",
       "title": "King of Judah, Son of Jehoshaphat",
-      "zadok_year_born": 3074,
       "gregorian_year_born": -885,
-      "zadok_year_died": 3118,
       "gregorian_year_died": -841,
       "lifespan_years": 44,
       "parent_id": "jehoshaphat",
@@ -245,14 +161,6 @@
       "tags": [
         "King"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3106,
-          "gregorian_year": -853,
-          "description": "Became king of Judah (2 Kings 8:16)"
-        }
-      ],
       "bible_references": [
         "2 Kings 8:16-24",
         "2 Chronicles 21:1-20",
@@ -267,9 +175,7 @@
       "id": "ahaziah",
       "name": "Ahaziah",
       "title": "King of Judah, Son of Jehoram",
-      "zadok_year_born": 3096,
       "gregorian_year_born": -863,
-      "zadok_year_died": 3119,
       "gregorian_year_died": -840,
       "lifespan_years": 23,
       "parent_id": "jehoram",
@@ -286,20 +192,6 @@
       "tags": [
         "King"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3118,
-          "gregorian_year": -841,
-          "description": "Became king at age 22 (2 Kings 8:26)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 3119,
-          "gregorian_year": -840,
-          "description": "Killed by Jehu; reigned only 1 year (2 Kings 9:24-28)"
-        }
-      ],
       "bible_references": [
         "2 Kings 8:24-9:29",
         "2 Chronicles 22:1-9"
@@ -313,9 +205,7 @@
       "id": "joash",
       "name": "Joash (Jehoash)",
       "title": "King of Judah, Boy King Hidden from Athaliah",
-      "zadok_year_born": 3117,
       "gregorian_year_born": -842,
-      "zadok_year_died": 3163,
       "gregorian_year_died": -796,
       "lifespan_years": 46,
       "parent_id": "ahaziah",
@@ -335,32 +225,6 @@
         "King",
         "Reformer"
       ],
-      "major_events": [
-        {
-          "event": "Hidden from Athaliah",
-          "zadok_year": 3118,
-          "gregorian_year": -841,
-          "description": "Hidden in the temple by his aunt Jehosheba for six years while Athaliah usurped the throne (2 Kings 11:1-3)"
-        },
-        {
-          "event": "Coronation",
-          "zadok_year": 3124,
-          "gregorian_year": -835,
-          "description": "Crowned king at age 7 after the priest Jehoiada overthrew Athaliah (2 Kings 11:4-21)"
-        },
-        {
-          "event": "Temple Repairs",
-          "zadok_year": 3143,
-          "gregorian_year": -816,
-          "description": "Ordered repair of the temple, funded by a chest for freewill offerings (2 Kings 12:4-16)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 3163,
-          "gregorian_year": -796,
-          "description": "Reigned 40 years; assassinated by his own servants after turning to idolatry late in his reign (2 Kings 12:19-21, 2 Chronicles 24:17-25)"
-        }
-      ],
       "bible_references": [
         "2 Kings 11-12",
         "2 Chronicles 22:10-24:27",
@@ -375,9 +239,7 @@
       "id": "amaziah",
       "name": "Amaziah",
       "title": "King of Judah, Son of Joash",
-      "zadok_year_born": 3138,
       "gregorian_year_born": -821,
-      "zadok_year_died": 3192,
       "gregorian_year_died": -767,
       "lifespan_years": 54,
       "parent_id": "joash",
@@ -396,14 +258,6 @@
       "tags": [
         "King"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3163,
-          "gregorian_year": -796,
-          "description": "Became king of Judah (2 Kings 14:1)"
-        }
-      ],
       "bible_references": [
         "2 Kings 14:1-20",
         "2 Chronicles 25:1-28"
@@ -417,9 +271,7 @@
       "id": "uzziah",
       "name": "Uzziah (Azariah)",
       "title": "King of Judah, Powerful King",
-      "zadok_year_born": 3151,
       "gregorian_year_born": -808,
-      "zadok_year_died": 3219,
       "gregorian_year_died": -740,
       "lifespan_years": 68,
       "parent_id": "amaziah",
@@ -438,20 +290,6 @@
       "tags": [
         "King"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3167,
-          "gregorian_year": -792,
-          "description": "Became king at age 16 (2 Kings 15:1-3)"
-        },
-        {
-          "event": "Military Victories",
-          "zadok_year": 3179,
-          "gregorian_year": -780,
-          "description": "Defeated Philistines, Arabs, Meunites (2 Chronicles 26:6-8)"
-        }
-      ],
       "bible_references": [
         "2 Kings 15:1-7",
         "2 Chronicles 26:1-23",
@@ -466,9 +304,7 @@
       "id": "jotham",
       "name": "Jotham",
       "title": "King of Judah, Righteous King",
-      "zadok_year_born": 3184,
       "gregorian_year_born": -775,
-      "zadok_year_died": 3227,
       "gregorian_year_died": -732,
       "lifespan_years": 43,
       "parent_id": "uzziah",
@@ -487,14 +323,6 @@
       "tags": [
         "King"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3209,
-          "gregorian_year": -750,
-          "description": "Became king of Judah (2 Kings 15:32-35)"
-        }
-      ],
       "bible_references": [
         "2 Kings 15:32-38",
         "2 Chronicles 27:1-9",
@@ -509,9 +337,7 @@
       "id": "ahaz",
       "name": "Ahaz",
       "title": "King of Judah, Unfaithful King",
-      "zadok_year_born": 3204,
       "gregorian_year_born": -755,
-      "zadok_year_died": 3244,
       "gregorian_year_died": -715,
       "lifespan_years": 40,
       "parent_id": "jotham",
@@ -530,20 +356,6 @@
       "tags": [
         "King"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3224,
-          "gregorian_year": -735,
-          "description": "Became king of Judah (2 Kings 16:1-2)"
-        },
-        {
-          "event": "Immanuel Prophecy",
-          "zadok_year": 3224,
-          "gregorian_year": -735,
-          "description": "Isaiah prophesied of Immanuel; sign: virgin will conceive (Isaiah 7:10-14)"
-        }
-      ],
       "bible_references": [
         "2 Kings 16:1-20",
         "2 Chronicles 28:1-27",
@@ -559,9 +371,7 @@
       "id": "hezekiah",
       "name": "Hezekiah",
       "title": "King of Judah, Reformer and Healer",
-      "zadok_year_born": 3219,
       "gregorian_year_born": -740,
-      "zadok_year_died": 3273,
       "gregorian_year_died": -686,
       "lifespan_years": 54,
       "parent_id": "ahaz",
@@ -581,32 +391,6 @@
         "King",
         "Reformer"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3244,
-          "gregorian_year": -715,
-          "description": "Became king of Judah at age 25 (2 Kings 18:1-2)"
-        },
-        {
-          "event": "Religious Reforms",
-          "zadok_year": 3243,
-          "gregorian_year": -716,
-          "description": "Removed idols and high places; cleansed Temple (2 Kings 18:4)"
-        },
-        {
-          "event": "Sennacherib's Siege",
-          "zadok_year": 3257,
-          "gregorian_year": -702,
-          "description": "Assyrian army defeated by angel of God (2 Kings 19:35-36, Isaiah 36-37)"
-        },
-        {
-          "event": "Healing and Extended Life",
-          "zadok_year": 3259,
-          "gregorian_year": -700,
-          "description": "Healed of terminal illness; life extended 15 years (2 Kings 20:1-11)"
-        }
-      ],
       "bible_references": [
         "2 Kings 18-20",
         "2 Chronicles 29-32",
@@ -622,9 +406,7 @@
       "id": "manasseh",
       "name": "Manasseh",
       "title": "King of Judah, Wicked Then Repentant",
-      "zadok_year_born": 3250,
       "gregorian_year_born": -709,
-      "zadok_year_died": 3317,
       "gregorian_year_died": -642,
       "lifespan_years": 67,
       "parent_id": "hezekiah",
@@ -644,26 +426,6 @@
         "King",
         "Repentant"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3262,
-          "gregorian_year": -697,
-          "description": "Became king at age 12 (2 Kings 21:1)"
-        },
-        {
-          "event": "Evil Reign",
-          "zadok_year": 3272,
-          "gregorian_year": -687,
-          "description": "Did evil; idolatry and wickedness (2 Kings 21:1-18)"
-        },
-        {
-          "event": "Captivity and Repentance",
-          "zadok_year": 3308,
-          "gregorian_year": -651,
-          "description": "Captured by Assyrians; repented; God restored him (2 Chronicles 33:10-13)"
-        }
-      ],
       "bible_references": [
         "2 Kings 21:1-18",
         "2 Chronicles 33:1-20",
@@ -678,9 +440,7 @@
       "id": "amon",
       "name": "Amon",
       "title": "King of Judah, Wicked King",
-      "zadok_year_born": 3295,
       "gregorian_year_born": -664,
-      "zadok_year_died": 3319,
       "gregorian_year_died": -640,
       "lifespan_years": 24,
       "parent_id": "manasseh",
@@ -700,20 +460,6 @@
         "King",
         "Wicked"
       ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3317,
-          "gregorian_year": -642,
-          "description": "Became king at age 22 (2 Kings 21:19)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 3319,
-          "gregorian_year": -640,
-          "description": "Reigned only 2 years; murdered by servants (2 Kings 21:19-26)"
-        }
-      ],
       "bible_references": [
         "2 Kings 21:19-26",
         "2 Chronicles 33:21-25",
@@ -728,9 +474,7 @@
       "id": "josiah",
       "name": "Josiah",
       "title": "King of Judah, Great Reformer",
-      "zadok_year_born": 3311,
       "gregorian_year_born": -648,
-      "zadok_year_died": 3350,
       "gregorian_year_died": -609,
       "lifespan_years": 39,
       "parent_id": "amon",
@@ -750,32 +494,6 @@
       "tags": [
         "King",
         "Great Reformer"
-      ],
-      "major_events": [
-        {
-          "event": "Coronation",
-          "zadok_year": 3319,
-          "gregorian_year": -640,
-          "description": "Became king at age 8; did right (2 Kings 22:1)"
-        },
-        {
-          "event": "Discovery of Law Book",
-          "zadok_year": 3341,
-          "gregorian_year": -618,
-          "description": "Book of the Law discovered during Temple repairs (2 Kings 22:8)"
-        },
-        {
-          "event": "Religious Reforms",
-          "zadok_year": 3341,
-          "gregorian_year": -618,
-          "description": "Removed all idols; kept Passover (2 Kings 23:1-30)"
-        },
-        {
-          "event": "Death in Battle",
-          "zadok_year": 3350,
-          "gregorian_year": -609,
-          "description": "Died fighting Egyptian Pharaoh Necho (2 Kings 23:29)"
-        }
       ],
       "bible_references": [
         "2 Kings 22-23",

@@ -6,9 +6,7 @@
       "name": "Hezron",
       "title": "Son of Perez, Founder of Judean Houses",
       "zadok_year_born": 2272,
-      "gregorian_year_born": -1687,
       "zadok_year_died": 2366,
-      "gregorian_year_died": -1593,
       "lifespan_years": 94,
       "parent_id": "perez",
       "spouse_id": null,
@@ -28,20 +26,6 @@
       "tags": [
         "Patriarch"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2272,
-          "gregorian_year": -1687,
-          "description": "Son of Perez. Genesis 46:12 lists Hezron among those who went down to Egypt with Jacob's household, so he was born before the migration, not in Egypt; Ruth 4:18/Matthew 1:3 give no age or reign data, and the span from Perez to Nahshon (the Exodus generation, Numbers 1:7) depends on the disputed length of the sojourn itself (chronology-anchors.md notes a single reading of Exodus 12:40 moves the total by 215 years) -- so this study spaces Hezron, Ram and Amminadab evenly across that window rather than inventing false precision."
-        },
-        {
-          "event": "Egyptian Sojourn",
-          "zadok_year": 2272,
-          "gregorian_year": -1687,
-          "description": "Went down to Egypt with Jacob's household and lived there during the sojourn (Genesis 46:12)"
-        }
-      ],
       "bible_references": [
         "Genesis 46:12",
         "Ruth 4:18",
@@ -57,9 +41,7 @@
       "name": "Ram",
       "title": "Son of Hezron, Ancestor of David",
       "zadok_year_born": 2330,
-      "gregorian_year_born": -1629,
       "zadok_year_died": 2417,
-      "gregorian_year_died": -1542,
       "lifespan_years": 87,
       "parent_id": "hezron",
       "spouse_id": null,
@@ -77,14 +59,6 @@
       "tags": [
         "Patriarch"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2330,
-          "gregorian_year": -1629,
-          "description": "Son of Hezron (Ruth 4:19, Matthew 1:3). Spaced evenly between Perez and Nahshon -- see Hezron's Birth note."
-        }
-      ],
       "bible_references": [
         "Ruth 4:19",
         "Matthew 1:3-4"
@@ -99,9 +73,7 @@
       "name": "Amminadab",
       "title": "Son of Ram, Prince of Judah",
       "zadok_year_born": 2389,
-      "gregorian_year_born": -1570,
       "zadok_year_died": 2475,
-      "gregorian_year_died": -1484,
       "lifespan_years": 86,
       "parent_id": "ram",
       "spouse_id": null,
@@ -120,14 +92,6 @@
         "Patriarch",
         "Prince of Judah"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2389,
-          "gregorian_year": -1570,
-          "description": "Son of Ram. Spaced evenly between Perez and Nahshon -- see Hezron's Birth note. Numbers 1:7 names his son Nahshon, not Amminadab himself, as the one leading Judah in the wilderness census."
-        }
-      ],
       "bible_references": [
         "Ruth 4:19",
         "Matthew 1:4"
@@ -142,9 +106,7 @@
       "name": "Nahshon",
       "title": "Son of Amminadab, Prince of Judah",
       "zadok_year_born": 2447,
-      "gregorian_year_born": -1512,
       "zadok_year_died": 2531,
-      "gregorian_year_died": -1428,
       "lifespan_years": 84,
       "parent_id": "amminadab",
       "spouse_id": "elisheba",
@@ -163,26 +125,6 @@
         "Patriarch",
         "First into Red Sea"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2447,
-          "gregorian_year": -1512,
-          "description": "Son of Amminadab"
-        },
-        {
-          "event": "Exodus Leadership",
-          "zadok_year": 2513,
-          "gregorian_year": -1446,
-          "description": "Prince of Judah; led people in wilderness (Numbers 1:7, 7:12). 1446 BC (AM 2513) is the Exodus anchor of this site's active Zadok epoch (a_prime, creation 3959 BC) -- see chronology-anchors.md and zadok-calendar.md#where-year-0-sits. Dies 2531/-1428, within the 40-year wilderness period, before the conquest generation change of Numbers 14:29-35."
-        },
-        {
-          "event": "Marriage to Elisheba",
-          "zadok_year": 2465,
-          "gregorian_year": -1494,
-          "description": "Married Aaron's sister (Exodus 6:23)"
-        }
-      ],
       "bible_references": [
         "Exodus 6:23",
         "Numbers 1:7",
@@ -199,9 +141,7 @@
       "name": "Elisheba",
       "title": "Wife of Nahshon, Sister of Aaron",
       "zadok_year_born": 2443,
-      "gregorian_year_born": -1516,
       "zadok_year_died": 2525,
-      "gregorian_year_died": -1434,
       "lifespan_years": 82,
       "parent_id": null,
       "spouse_id": "nahshon",
@@ -219,14 +159,6 @@
       "tags": [
         "Matriarch"
       ],
-      "major_events": [
-        {
-          "event": "Marriage to Nahshon",
-          "zadok_year": 2465,
-          "gregorian_year": -1494,
-          "description": "Became wife of Judah's prince (Exodus 6:23)"
-        }
-      ],
       "bible_references": [
         "Exodus 6:23"
       ],
@@ -239,9 +171,7 @@
       "id": "salmon",
       "name": "Salmon",
       "title": "Son of Nahshon, Father of Boaz",
-      "zadok_year_born": 2582,
       "gregorian_year_born": -1377,
-      "zadok_year_died": 2666,
       "gregorian_year_died": -1293,
       "lifespan_years": 84,
       "parent_id": "nahshon",
@@ -261,20 +191,6 @@
         "Patriarch",
         "Conquest Generation"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2582,
-          "gregorian_year": -1377,
-          "description": "Son of Nahshon. Ruth 4:20-21/Matthew 1:4-5 name this generation but give no independent chronology, and the gap between Nahshon (Exodus generation, Numbers 1:7) and Boaz (whose own date is fixed by the tightly-narrated Ruth 4 birth of Obed) is far longer than one human lifetime -- so this study spaces Salmon evenly across that window rather than inventing false precision, the same telescoping documented in this study's Genealogy and Times (the Davidic-line check) and later applied again to Matthew's Abiud-to-Jacob list."
-        },
-        {
-          "event": "Marriage to Rahab",
-          "zadok_year": 2644,
-          "gregorian_year": -1315,
-          "description": "Married Canaanite woman redeemed through faith (Joshua 2, 6:22-25)"
-        }
-      ],
       "bible_references": [
         "Ruth 4:20-21",
         "Matthew 1:4-5",
@@ -289,9 +205,7 @@
       "id": "rahab",
       "name": "Rahab",
       "title": "Woman of Jericho, Mother of Boaz",
-      "zadok_year_born": 2608,
       "gregorian_year_born": -1351,
-      "zadok_year_died": 2688,
       "gregorian_year_died": -1271,
       "lifespan_years": 80,
       "parent_id": null,
@@ -311,26 +225,6 @@
         "Woman of Faith",
         "Harlot Redeemed"
       ],
-      "major_events": [
-        {
-          "event": "Faith in God",
-          "zadok_year": 2644,
-          "gregorian_year": -1315,
-          "description": "Protected Hebrew spies; demonstrated faith in God (Joshua 2:1-21)"
-        },
-        {
-          "event": "Salvation from Jericho",
-          "zadok_year": 2644,
-          "gregorian_year": -1315,
-          "description": "Saved alive from destruction; entered Israel (Joshua 6:22-25)"
-        },
-        {
-          "event": "Marriage to Salmon",
-          "zadok_year": 2644,
-          "gregorian_year": -1315,
-          "description": "Married prince of Judah (Matthew 1:5). Her own date, like Salmon's, is fixed only by even spacing across the telescoped Nahshon-to-Boaz gap -- see Salmon's Birth note."
-        }
-      ],
       "bible_references": [
         "Joshua 2:1-21",
         "Joshua 6:22-25",
@@ -347,9 +241,7 @@
       "id": "boaz",
       "name": "Boaz",
       "title": "Mighty Man of Valor, Kinsman Redeemer",
-      "zadok_year_born": 2762,
       "gregorian_year_born": -1197,
-      "zadok_year_died": 2846,
       "gregorian_year_died": -1113,
       "lifespan_years": 84,
       "parent_id": "salmon",
@@ -370,32 +262,6 @@
         "Redeemer",
         "Man of Valor"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2762,
-          "gregorian_year": -1197,
-          "description": "Son of Salmon and Rahab. Birth year not independently given; fixed here by working back from Obed's real birth (below) rather than from Salmon's own uncertain date -- see Salmon's Birth note."
-        },
-        {
-          "event": "Meeting Ruth",
-          "zadok_year": 2822,
-          "gregorian_year": -1137,
-          "description": "Observed Ruth gleaning; showed kindness (Ruth 2:1-13)"
-        },
-        {
-          "event": "Redemption of Ruth",
-          "zadok_year": 2822,
-          "gregorian_year": -1137,
-          "description": "Redeemed Ruth as kinsman redeemer; type of Christ (Ruth 3-4)"
-        },
-        {
-          "event": "Marriage to Ruth",
-          "zadok_year": 2822,
-          "gregorian_year": -1137,
-          "description": "Married Ruth and continued Judean line (Ruth 4:10-13)"
-        }
-      ],
       "bible_references": [
         "Ruth 2-4",
         "Matthew 1:5",
@@ -410,9 +276,7 @@
       "id": "ruth",
       "name": "Ruth",
       "title": "Woman of Moab, Ancestress of David and Jesus",
-      "zadok_year_born": 2784,
       "gregorian_year_born": -1175,
-      "zadok_year_died": 2866,
       "gregorian_year_died": -1093,
       "lifespan_years": 82,
       "parent_id": null,
@@ -433,26 +297,6 @@
         "Foreigner",
         "Moabite"
       ],
-      "major_events": [
-        {
-          "event": "Faithfulness to Naomi",
-          "zadok_year": 2804,
-          "gregorian_year": -1155,
-          "description": "Refused to leave Naomi; committed to Israel and God (Ruth 1:16-17)"
-        },
-        {
-          "event": "Gleaning in Field",
-          "zadok_year": 2822,
-          "gregorian_year": -1137,
-          "description": "Worked in Boaz's field; found favor (Ruth 2:1-13)"
-        },
-        {
-          "event": "Redemption and Marriage",
-          "zadok_year": 2822,
-          "gregorian_year": -1137,
-          "description": "Redeemed by Boaz; became wife and mother of David's line (Ruth 3-4)"
-        }
-      ],
       "bible_references": [
         "Ruth 1-4",
         "Matthew 1:5",
@@ -468,9 +312,7 @@
       "id": "obed",
       "name": "Obed",
       "title": "Son of Boaz and Ruth, Father of Jesse",
-      "zadok_year_born": 2824,
       "gregorian_year_born": -1135,
-      "zadok_year_died": 2908,
       "gregorian_year_died": -1051,
       "lifespan_years": 84,
       "parent_id": "boaz",
@@ -489,20 +331,6 @@
       "tags": [
         "Patriarch"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2824,
-          "gregorian_year": -1135,
-          "description": "Son of Boaz and Ruth (Ruth 4:17)"
-        },
-        {
-          "event": "Called Naomi's Redeemer",
-          "zadok_year": 2824,
-          "gregorian_year": -1135,
-          "description": "Fulfilled kinsman redeemer role; perpetuated David's line (Ruth 4:17)"
-        }
-      ],
       "bible_references": [
         "Ruth 4:17",
         "Matthew 1:5",
@@ -517,9 +345,7 @@
       "id": "jesse",
       "name": "Jesse",
       "title": "Father of David, Root of Jesse",
-      "zadok_year_born": 2866,
       "gregorian_year_born": -1093,
-      "zadok_year_died": 2950,
       "gregorian_year_died": -1009,
       "lifespan_years": 84,
       "parent_id": "obed",
@@ -545,26 +371,6 @@
         "Patriarch",
         "David's Father"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2866,
-          "gregorian_year": -1093,
-          "description": "Son of Obed"
-        },
-        {
-          "event": "Birth of David",
-          "zadok_year": 2918,
-          "gregorian_year": -1041,
-          "description": "Fathered David, youngest son (1 Samuel 16:10-13)"
-        },
-        {
-          "event": "David's Anointing",
-          "zadok_year": 2934,
-          "gregorian_year": -1025,
-          "description": "Samuel anointed David as king in Jesse's house (1 Samuel 16:1-13)"
-        }
-      ],
       "bible_references": [
         "Ruth 4:17-22",
         "1 Samuel 16:1-13",
@@ -580,9 +386,7 @@
       "id": "david",
       "name": "David",
       "title": "King of Israel, Man After God's Heart, Ancestor of Jesus",
-      "zadok_year_born": 2918,
       "gregorian_year_born": -1041,
-      "zadok_year_died": 2988,
       "gregorian_year_died": -971,
       "lifespan_years": 70,
       "parent_id": "jesse",
@@ -609,74 +413,6 @@
         "Psalmist",
         "Man After God's Heart"
       ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2918,
-          "gregorian_year": -1041,
-          "description": "Youngest son of Jesse, born in Bethlehem (1 Samuel 16:1-13)"
-        },
-        {
-          "event": "Anointing as King",
-          "zadok_year": 2934,
-          "gregorian_year": -1025,
-          "description": "Samuel anointed David; Spirit came upon him (1 Samuel 16:1-13)"
-        },
-        {
-          "event": "Victory over Goliath",
-          "zadok_year": 2941,
-          "gregorian_year": -1018,
-          "description": "Defeated Philistine giant with faith in God (1 Samuel 17:1-54)"
-        },
-        {
-          "event": "Friendship with Jonathan",
-          "zadok_year": 2941,
-          "gregorian_year": -1018,
-          "description": "Bond with Saul's son; covenant of love (1 Samuel 18:1-4)"
-        },
-        {
-          "event": "Years of Exile",
-          "zadok_year": 2943,
-          "gregorian_year": -1016,
-          "description": "Fled from Saul for approximately 10 years"
-        },
-        {
-          "event": "Coronation as King",
-          "zadok_year": 2948,
-          "gregorian_year": -1011,
-          "description": "Became king of Judah at age 30; later king of all Israel (2 Samuel 2:1-7, 5:1-5)"
-        },
-        {
-          "event": "Captured Jerusalem",
-          "zadok_year": 2952,
-          "gregorian_year": -1007,
-          "description": "Made Jerusalem capital; brought Ark of Covenant (2 Samuel 5:6-12, 6:1-19)"
-        },
-        {
-          "event": "Davidic Covenant",
-          "zadok_year": 2958,
-          "gregorian_year": -1001,
-          "description": "Covenant: throne established forever; Messiah from his line (2 Samuel 7:1-17)"
-        },
-        {
-          "event": "Marriage to Bathsheba",
-          "zadok_year": 2965,
-          "gregorian_year": -994,
-          "description": "Took Bathsheba; born son Solomon who continued throne (2 Samuel 11-12)"
-        },
-        {
-          "event": "Psalms and Prophecy",
-          "zadok_year": 2951,
-          "gregorian_year": -1008,
-          "description": "Wrote Psalms; prophesied about Messiah (e.g., Psalm 22, 110)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 2988,
-          "gregorian_year": -971,
-          "description": "Died at age 70; buried in City of David (1 Kings 2:10)"
-        }
-      ],
       "bible_references": [
         "1 Samuel 16-31",
         "2 Samuel 1-24",
@@ -695,9 +431,7 @@
       "id": "bathsheba",
       "name": "Bathsheba",
       "title": "Wife of David, Mother of Solomon",
-      "zadok_year_born": 2933,
       "gregorian_year_born": -1026,
-      "zadok_year_died": 3009,
       "gregorian_year_died": -950,
       "lifespan_years": 76,
       "parent_id": null,
@@ -718,20 +452,6 @@
         "Redeemed",
         "Mother of Heir"
       ],
-      "major_events": [
-        {
-          "event": "Marriage to David",
-          "zadok_year": 2965,
-          "gregorian_year": -994,
-          "description": "Became David's wife; mother of Solomon (2 Samuel 11-12)"
-        },
-        {
-          "event": "Birth of Solomon",
-          "zadok_year": 2968,
-          "gregorian_year": -991,
-          "description": "Bore Solomon, heir to David's throne (2 Samuel 12:25)"
-        }
-      ],
       "bible_references": [
         "2 Samuel 11-12",
         "1 Kings 1-2",
@@ -746,9 +466,7 @@
       "id": "solomon",
       "name": "Solomon",
       "title": "King of Israel, Builder of Temple, Wisdom",
-      "zadok_year_born": 2968,
       "gregorian_year_born": -991,
-      "zadok_year_died": 3028,
       "gregorian_year_died": -931,
       "lifespan_years": 60,
       "parent_id": "david",
@@ -768,56 +486,6 @@
         "King",
         "Wisest Man",
         "Temple Builder"
-      ],
-      "major_events": [
-        {
-          "event": "Birth",
-          "zadok_year": 2968,
-          "gregorian_year": -991,
-          "description": "Second son of David and Bathsheba (2 Samuel 12:25)"
-        },
-        {
-          "event": "Divine Appearance",
-          "zadok_year": 2968,
-          "gregorian_year": -991,
-          "description": "God appeared to Solomon; loved by God (2 Samuel 12:25)"
-        },
-        {
-          "event": "Coronation",
-          "zadok_year": 2988,
-          "gregorian_year": -971,
-          "description": "Became king after David's death at age 20 (1 Kings 1:11-48)"
-        },
-        {
-          "event": "Request for Wisdom",
-          "zadok_year": 2994,
-          "gregorian_year": -965,
-          "description": "Asked God for wisdom; granted both wisdom and riches (1 Kings 3:4-15)"
-        },
-        {
-          "event": "Temple Construction",
-          "zadok_year": 2994,
-          "gregorian_year": -965,
-          "description": "Built magnificent Temple in Jerusalem; took 7 years (1 Kings 5-8)"
-        },
-        {
-          "event": "Dedication of Temple",
-          "zadok_year": 3001,
-          "gregorian_year": -958,
-          "description": "Dedicated Temple; God's glory filled it (1 Kings 8:1-66)"
-        },
-        {
-          "event": "Reign of Peace",
-          "zadok_year": 2993,
-          "gregorian_year": -966,
-          "description": "Kingdom at peace; wisdom renowned throughout world (1 Kings 4:29-34)"
-        },
-        {
-          "event": "Death",
-          "zadok_year": 3028,
-          "gregorian_year": -931,
-          "description": "Died; kingdom divided at his death (1 Kings 11:42-43)"
-        }
       ],
       "bible_references": [
         "2 Samuel 12:25",

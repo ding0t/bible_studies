@@ -84,7 +84,10 @@
       "gregorian_year": -561,
       "evidence": "Jehoiachin's Ration Tablets (Weidner tablets), excavated Babylon",
       "study_ref": "last-things/prophecy-events-times",
-      "core": false
+      "core": false,
+      "people": [
+        "jehoiachin"
+      ]
     },
     {
       "id": "merneptah_stele",
@@ -119,7 +122,10 @@
       "kind": "pivot",
       "note": "1 Kings 6:1's 480 years before Solomon's 4th year, counted back from Thiele's Qarqar-anchored 966 BC. This site's creation epoch is anchored here: AM 2513 on the Masoretic chain, so creation falls at 3959 BC. Not itself an anchor -- no independent record fixes the Exodus to a year, and a late-date Exodus in the 1200s BC is also held in scholarship.",
       "study_ref": "last-things/prophecy-events-times",
-      "core": true
+      "core": true,
+      "people": [
+        "nahshon"
+      ]
     },
     {
       "id": "daniel_terminus_hoehner",
@@ -160,7 +166,10 @@
       "zadok_year": 2993,
       "core": true,
       "study_ref": "last-things/chronology-anchors",
-      "evidence": "1 Kings 6:1's fourth year of Solomon, reached through Thiele's reconstruction of the regnal years from the Assyrian synchronisms. The Exodus 480 years earlier (1446 BC) anchors this site's creation epoch."
+      "evidence": "1 Kings 6:1's fourth year of Solomon, reached through Thiele's reconstruction of the regnal years from the Assyrian synchronisms. The Exodus 480 years earlier (1446 BC) anchors this site's creation epoch.",
+      "people": [
+        "solomon"
+      ]
     },
     {
       "n": 2,
@@ -172,7 +181,10 @@
       "error": "±5",
       "zadok_year": 3000,
       "core": false,
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "last-things/chronology-anchors",
+      "people": [
+        "solomon"
+      ]
     },
     {
       "n": 3,
@@ -184,7 +196,11 @@
       "error": "±5",
       "zadok_year": 3028,
       "core": false,
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "last-things/chronology-anchors",
+      "people": [
+        "solomon",
+        "rehoboam"
+      ]
     },
     {
       "n": 4,
@@ -262,7 +278,10 @@
       "zadok_year": 3258,
       "core": false,
       "study_ref": "last-things/chronology-anchors",
-      "evidence": "Sennacherib's Prism (Taylor Prism) and the Lachish reliefs, British Museum. Sennacherib names Hezekiah."
+      "evidence": "Sennacherib's Prism (Taylor Prism) and the Lachish reliefs, British Museum. Sennacherib names Hezekiah.",
+      "people": [
+        "hezekiah"
+      ]
     },
     {
       "n": 10,
@@ -275,7 +294,10 @@
       "zadok_year": 3354,
       "core": false,
       "study_ref": "last-things/chronology-anchors",
-      "evidence": "Babylonian Chronicle BM 21946 (ABC 5): Nebuchadnezzar defeats Egypt at Carchemish and accedes the same year."
+      "evidence": "Babylonian Chronicle BM 21946 (ABC 5): Nebuchadnezzar defeats Egypt at Carchemish and accedes the same year.",
+      "people": [
+        "jehoiakim"
+      ]
     },
     {
       "n": 11,
@@ -288,7 +310,10 @@
       "zadok_year": 3362,
       "core": false,
       "study_ref": "last-things/chronology-anchors",
-      "evidence": "Babylonian Chronicle ABC 5 (\"Jerusalem Chronicle\"), BM 21946: captured 2 Adar, Nebuchadnezzar's 7th year (16 March 597 BC). 2 Kings 24:12 counts it as his 8th, Jeremiah 52:28 as his 7th."
+      "evidence": "Babylonian Chronicle ABC 5 (\"Jerusalem Chronicle\"), BM 21946: captured 2 Adar, Nebuchadnezzar's 7th year (16 March 597 BC). 2 Kings 24:12 counts it as his 8th, Jeremiah 52:28 as his 7th.",
+      "people": [
+        "jehoiachin"
+      ]
     },
     {
       "n": 12,
@@ -340,7 +365,10 @@
       "zadok_year": 3421,
       "core": true,
       "study_ref": "last-things/chronology-anchors",
-      "evidence": "Cyrus Cylinder; fall of Babylon dated by the Nabonidus Chronicle (539 BC). Ezra 1:1, Cyrus's first year."
+      "evidence": "Cyrus Cylinder; fall of Babylon dated by the Nabonidus Chronicle (539 BC). Ezra 1:1, Cyrus's first year.",
+      "people": [
+        "zerubbabel"
+      ]
     },
     {
       "n": 16,
@@ -352,7 +380,10 @@
       "error": "±2",
       "zadok_year": 3423,
       "core": false,
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "last-things/chronology-anchors",
+      "people": [
+        "zerubbabel"
+      ]
     },
     {
       "n": 17,
@@ -378,7 +409,10 @@
       "zadok_year": 3444,
       "core": true,
       "study_ref": "last-things/chronology-anchors",
-      "evidence": "Ezra 6:15: 3 Adar in Darius's 6th year, March 515 BC."
+      "evidence": "Ezra 6:15: 3 Adar in Darius's 6th year, March 515 BC.",
+      "people": [
+        "zerubbabel"
+      ]
     },
     {
       "n": 19,
@@ -617,7 +651,12 @@
       "zadok_year": 3954,
       "core": true,
       "study_ref": "last-things/chronology-anchors",
-      "evidence": "Matthew 2:1 and 2:16 against Herod's death; Luke 3:23 pulls later. The bracket holds both."
+      "evidence": "Matthew 2:1 and 2:16 against Herod's death; Luke 3:23 pulls later. The bracket holds both.",
+      "people": [
+        "joseph",
+        "mary",
+        "jesus"
+      ]
     },
     {
       "n": 38,
@@ -681,7 +720,11 @@
       "scripture": "Genesis 1:1",
       "core": true,
       "note": "AM 0 on the Masoretic chain.",
-      "study_ref": "last-things/combined-timeline"
+      "study_ref": "last-things/combined-timeline",
+      "people": [
+        "eve",
+        "adam"
+      ]
     },
     {
       "id": "adam_dies",
@@ -727,7 +770,11 @@
       "scripture": "Genesis 11:26, 32; 12:4; Acts 7:4",
       "core": false,
       "note": "Terah 130 at Abram's birth, which Acts 7:4 requires on the Masoretic 205.",
-      "study_ref": "last-things/combined-timeline"
+      "study_ref": "last-things/combined-timeline",
+      "people": [
+        "abraham",
+        "terah"
+      ]
     },
     {
       "id": "abram_called",
@@ -736,7 +783,11 @@
       "scripture": "Genesis 12:1-4",
       "core": true,
       "note": "Abram 75; the 430 years of Galatians 3:17 run from here to the Exodus.",
-      "study_ref": "last-things/combined-timeline"
+      "study_ref": "last-things/combined-timeline",
+      "people": [
+        "abraham",
+        "sarah"
+      ]
     },
     {
       "id": "isaac_born",
@@ -745,7 +796,12 @@
       "scripture": "Genesis 21:5",
       "core": false,
       "note": "Abraham 100.",
-      "study_ref": "last-things/combined-timeline"
+      "study_ref": "last-things/combined-timeline",
+      "people": [
+        "abraham",
+        "sarah",
+        "isaac"
+      ]
     },
     {
       "id": "jacob_to_egypt",
@@ -754,7 +810,11 @@
       "scripture": "Genesis 47:9",
       "core": false,
       "note": "Jacob 130 (born AM 2168, Isaac 60, Genesis 25:26); 215 years before the Exodus.",
-      "study_ref": "last-things/combined-timeline"
+      "study_ref": "last-things/combined-timeline",
+      "people": [
+        "perez",
+        "hezron"
+      ]
     },
     {
       "id": "conquest",
@@ -1353,7 +1413,10 @@
         "refs": "Matthew 21:1-11; Mark 11:1-11; Luke 19:28-44; John 12:12-19",
         "certainty": "contested",
         "study_ref": "last-things/prophecy-events-times",
-        "note": "Monday 30 March, 10 Nisan, on Harold Hoehner's count of Daniel's sixty-nine weeks, which this site follows; 10 Nisan is the day the Passover lamb was chosen (Exodus 12:3). Tradition keeps Sunday 29 March. John 12:1, 12 puts it the day after Jesus reached Bethany 'six days before the Passover'."
+        "note": "Monday 30 March, 10 Nisan, on Harold Hoehner's count of Daniel's sixty-nine weeks, which this site follows; 10 Nisan is the day the Passover lamb was chosen (Exodus 12:3). Tradition keeps Sunday 29 March. John 12:1, 12 puts it the day after Jesus reached Bethany 'six days before the Passover'.",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "temple_cleansed",
@@ -1363,7 +1426,10 @@
         "refs": "Mark 11:12-19; Matthew 21:12-17",
         "certainty": "contested",
         "study_ref": "last-things/chronology-anchors",
-        "note": "Mark places it on the day after the entry (11:12, 15). John records an earlier clearing at the first Passover of the ministry (John 2:13-22)."
+        "note": "Mark places it on the day after the entry (11:12, 15). John records an earlier clearing at the first Passover of the ministry (John 2:13-22).",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "olivet",
@@ -1373,7 +1439,10 @@
         "refs": "Matthew 24-25; Mark 13; Luke 21",
         "certainty": "contested",
         "study_ref": "last-things/olivet-discourse",
-        "note": "On the Mount of Olives, opposite the temple, in the last days before the Passover (Mark 13:3; 14:1). The exact day is not given."
+        "note": "On the Mount of Olives, opposite the temple, in the last days before the Passover (Mark 13:3; 14:1). The exact day is not given.",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "plot",
@@ -1383,7 +1452,10 @@
         "refs": "Mark 14:1-2, 10-11; Matthew 26:1-5, 14-16",
         "certainty": "stated",
         "study_ref": "last-things/chronology-anchors",
-        "note": "Mark 14:1 dates it two days before the Passover and the Feast of Unleavened Bread."
+        "note": "Mark 14:1 dates it two days before the Passover and the Feast of Unleavened Bread.",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "supper",
@@ -1394,7 +1466,10 @@
         "refs": "Mark 14:12-25; Luke 22:7-23; John 13:1-30; 1 Corinthians 11:23-26",
         "certainty": "site-reading",
         "study_ref": "feasts/last-supper-four-cups",
-        "note": "Thursday evening, as Nisan 14 began. The Synoptics call the meal the Passover (Mark 14:12); John has the priests still to eat theirs the next day (John 18:28). How the two relate is debated; Three Days and Three Nights places the meal at the start of Nisan 14, and the four-cups study reads it through the Seder's cups."
+        "note": "Thursday evening, as Nisan 14 began. The Synoptics call the meal the Passover (Mark 14:12); John has the priests still to eat theirs the next day (John 18:28). How the two relate is debated; Three Days and Three Nights places the meal at the start of Nisan 14, and the four-cups study reads it through the Seder's cups.",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "gethsemane",
@@ -1406,7 +1481,10 @@
         "certainty": "stated",
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "The same night, across the Kidron.",
-        "summary": true
+        "summary": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "trials",
@@ -1418,7 +1496,10 @@
         "certainty": "stated",
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "Through the night; the council meets 'as soon as it was morning' (Mark 15:1). John 19:14 gives 'about the sixth hour' at Pilate's judgment, which is harmonised with Mark's third hour in more than one way.",
-        "summary": true
+        "summary": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "crucified",
@@ -1430,7 +1511,10 @@
         "certainty": "stated",
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "Crucified at the third hour, about 9 am (Mark 15:25); darkness from the sixth to the ninth hour (15:33); He dies at the ninth hour, about 3 pm (15:34-37). 'Christ, our Passover lamb, has been sacrificed' (1 Corinthians 5:7).",
-        "summary": true
+        "summary": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "burial",
@@ -1442,7 +1526,10 @@
         "certainty": "stated",
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "'The day of Preparation, that is, the day before the Sabbath' (Mark 15:42), and the bodies not to remain on the cross on the Sabbath (John 19:31).",
-        "summary": true
+        "summary": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "tomb",
@@ -1453,7 +1540,10 @@
         "refs": "Matthew 12:40; 27:62-66",
         "certainty": "stated",
         "study_ref": "jesus/three-days-and-three-nights",
-        "note": "Guarded from the Sabbath (Matthew 27:62-66). 'After three days' and 'until the third day' are used by the chief priests a sentence apart (27:63-64): inclusive reckoning."
+        "note": "Guarded from the Sabbath (Matthew 27:62-66). 'After three days' and 'until the third day' are used by the chief priests a sentence apart (27:63-64): inclusive reckoning.",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "women_rest",
@@ -1463,7 +1553,10 @@
         "refs": "Luke 23:56",
         "certainty": "stated",
         "study_ref": "jesus/three-days-and-three-nights",
-        "note": "Having prepared spices, they rest 'according to the commandment'."
+        "note": "Having prepared spices, they rest 'according to the commandment'.",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "spices",
@@ -1473,7 +1566,10 @@
         "refs": "Mark 16:1",
         "certainty": "stated",
         "study_ref": "jesus/three-days-and-three-nights",
-        "note": "After sunset on Saturday, when the Sabbath was past."
+        "note": "After sunset on Saturday, when the Sabbath was past.",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "empty_tomb",
@@ -1484,7 +1580,10 @@
         "certainty": "stated",
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "'Very early on the first day of the week, when the sun had risen' (Mark 16:2); 'while it was still dark' (John 20:1). The Gospels record the discovery, not the moment of rising.",
-        "summary": true
+        "summary": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "emmaus",
@@ -1495,7 +1594,10 @@
         "refs": "Luke 24:13-35",
         "certainty": "stated",
         "study_ref": "jesus/three-days-and-three-nights",
-        "note": "Luke 24:21, counted on the Sunday itself: Friday one, Saturday two, Sunday three."
+        "note": "Luke 24:21, counted on the Sunday itself: Friday one, Saturday two, Sunday three.",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "upper_room",
@@ -1505,7 +1607,10 @@
         "refs": "Luke 24:36-49; John 20:19-23",
         "certainty": "stated",
         "study_ref": "jesus/three-days-and-three-nights",
-        "note": "The evening of the first day of the week (John 20:19)."
+        "note": "The evening of the first day of the week (John 20:19).",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "forty_days",
@@ -1516,7 +1621,10 @@
         "refs": "Acts 1:3; 1 Corinthians 15:5-7",
         "certainty": "stated",
         "study_ref": "jesus/three-days-and-three-nights",
-        "note": "'Appearing to them during forty days and speaking about the kingdom of God' (Acts 1:3)."
+        "note": "'Appearing to them during forty days and speaking about the kingdom of God' (Acts 1:3).",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "ascension",
@@ -1526,7 +1634,10 @@
         "refs": "Acts 1:9-11; Luke 24:50-51",
         "certainty": "site-reading",
         "study_ref": "last-things/day-is-near",
-        "note": "Thursday 14 May if the forty days are counted from the resurrection as day one. Acts gives 'during forty days', so the day is approximate."
+        "note": "Thursday 14 May if the forty days are counted from the resurrection as day one. Acts gives 'during forty days', so the day is approximate.",
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "waiting",
@@ -1537,7 +1648,10 @@
         "refs": "Acts 1:4, 12-14",
         "certainty": "stated",
         "study_ref": "last-things/day-is-near",
-        "note": "'Wait for the promise of the Father' (Acts 1:4)."
+        "note": "'Wait for the promise of the Father' (Acts 1:4).",
+        "people": [
+          "mary"
+        ]
       },
       {
         "id": "pentecost_spirit",
@@ -1559,7 +1673,10 @@
         "study_ref": "feasts/last-supper-four-cups",
         "note": "'Before the Feast of the Passover', during supper (John 13:1-2).",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "bread_cup",
@@ -1571,7 +1688,10 @@
         "study_ref": "feasts/last-supper-four-cups",
         "note": "The cup 'after supper' (Luke 22:20) is where the Seder's third cup falls; see the four-cups study.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "judas_out",
@@ -1583,7 +1703,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "John marks the hour only as night (13:30).",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "hymn",
@@ -1595,7 +1718,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "Across the Kidron valley to the garden.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "gethsemane_prayer",
@@ -1608,7 +1734,10 @@
         "note": "'Could you not watch one hour?' (Mark 14:37): the prayer is measured in hours.",
         "timing": "approx",
         "detail": true,
-        "end": 143.9
+        "end": 143.9,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "arrest",
@@ -1620,7 +1749,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "Judas comes with a crowd from the chief priests; the disciples flee.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "annas",
@@ -1632,7 +1764,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "Questioned first by Annas, father-in-law of Caiaphas.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "caiaphas",
@@ -1645,7 +1780,10 @@
         "note": "False witnesses; the high priest's question and Jesus' answer from Daniel 7:13 and Psalm 110:1.",
         "timing": "approx",
         "detail": true,
-        "end": 149
+        "end": 149,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "denials",
@@ -1658,7 +1796,10 @@
         "note": "In the courtyard through the night. 'Cockcrow' is the Roman watch before dawn (Mark 13:35).",
         "timing": "approx",
         "detail": true,
-        "end": 147.5
+        "end": 147.5,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "council",
@@ -1670,7 +1811,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "'As soon as it was morning' (Mark 15:1); 'when day came' (Luke 22:66).",
         "timing": "stated",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "pilate",
@@ -1682,7 +1826,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "'It was early' (John 18:28). The accusers stay outside the praetorium so as to eat the Passover.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "herod",
@@ -1694,7 +1841,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "Herod was in Jerusalem for the feast.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "scourged",
@@ -1707,7 +1857,10 @@
         "note": "",
         "timing": "approx",
         "detail": true,
-        "end": 152.75
+        "end": 152.75,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "sentenced",
@@ -1719,7 +1872,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "John gives 'about the sixth hour' here (19:14), Mark the third hour for the crucifixion (15:25); the two are harmonised in more than one way, and the difference is noted rather than resolved.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "simon",
@@ -1731,7 +1887,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "Out of the city to Golgotha.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "third_hour",
@@ -1743,7 +1902,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "'It was the third hour when they crucified him' (Mark 15:25).",
         "timing": "stated",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "thief",
@@ -1755,7 +1917,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "Where Jesus and the thief were that day is taken up in Three Days and Three Nights.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "mother",
@@ -1767,7 +1932,11 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "His mother given to the beloved disciple.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "mary",
+          "jesus"
+        ]
       },
       {
         "id": "darkness",
@@ -1780,7 +1949,10 @@
         "note": "From the sixth hour to the ninth.",
         "timing": "stated",
         "detail": true,
-        "end": 159
+        "end": 159,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "forsaken",
@@ -1792,7 +1964,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "At the ninth hour.",
         "timing": "stated",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "finished",
@@ -1804,7 +1979,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "About the ninth hour, the afternoon the Passover lambs were slain.",
         "timing": "stated",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "curtain",
@@ -1816,7 +1994,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "pierced",
@@ -1828,7 +2009,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "'Not one of his bones will be broken' (John 19:36; Exodus 12:46), the Passover lamb's rule.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "joseph",
@@ -1840,7 +2024,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "'When evening had come, since it was the day of Preparation' (Mark 15:42).",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "laid",
@@ -1853,7 +2040,10 @@
         "note": "Nicodemus brings myrrh and aloes; the women see where He is laid.",
         "timing": "approx",
         "detail": true,
-        "end": 162
+        "end": 162,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "set_out",
@@ -1865,7 +2055,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "Toward the dawn of the first day of the week.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "angel",
@@ -1877,7 +2070,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "The guards become like dead men. The order of the morning's events is harmonised in more than one way.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "risen",
@@ -1889,7 +2085,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "'When the sun had risen' (Mark 16:2).",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "peter_john",
@@ -1901,7 +2100,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "The linen cloths lying there.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "magdalene",
@@ -1913,7 +2115,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "'I have seen the Lord.'",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "women_meet",
@@ -1925,7 +2130,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "guards",
@@ -1937,7 +2145,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "toward_evening",
@@ -1949,7 +2160,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "Known in the breaking of the bread.",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       },
       {
         "id": "to_simon",
@@ -1961,7 +2175,10 @@
         "study_ref": "jesus/three-days-and-three-nights",
         "note": "",
         "timing": "approx",
-        "detail": true
+        "detail": true,
+        "people": [
+          "jesus"
+        ]
       }
     ],
     "feasts": [
@@ -2052,5 +2269,1126 @@
     ],
     "three_days_note": "Three days touched, two nights. The night of the Preparation is the one He was alive for. The Friday reading takes Matthew 12:40 by inclusive reckoning, the convention Matthew 27:63-64 shows in use; a Wednesday reading gives three nights and has to absorb Mark 15:42 and Luke 24:21. This site holds Friday.",
     "detail_note": "Events marked detail show in the hour-by-hour views. timing 'stated' means the Gospels give the hour; 'approx' means the order is given and the hour is placed within it. Events marked summary stand for a run of detail events and show only in the wider views."
-  }
+  },
+  "life_events_note": "Events from the lives of the people in docs/data/genealogy, each stored once and tagged with every person it involves (people). An event already in the anchor table, the Genesis markers, the milestones or the AD 33 sequence is not repeated here; it carries the person's id instead. Each carries one date: am (Genesis-dated) or gregorian (dated from Solomon onward), never both, or undated where Scripture gives no year. app/src/utils/chronology.js derives the other calendar.",
+  "life_events": [
+    {
+      "id": "fall",
+      "label": "The Fall",
+      "refs": "Genesis 3",
+      "undated": true,
+      "description": "Deceived by serpent, ate forbidden fruit (Genesis 3:1-6)",
+      "note": "Genesis gives no year; it precedes Cain's birth.",
+      "people": [
+        "eve",
+        "adam"
+      ]
+    },
+    {
+      "id": "cain_born",
+      "label": "Cain born",
+      "refs": "Genesis 4:1",
+      "undated": true,
+      "description": "First-born son (Genesis 4:1)",
+      "note": "Genesis gives no year.",
+      "people": [
+        "cain",
+        "adam",
+        "eve"
+      ]
+    },
+    {
+      "id": "abel_killed",
+      "label": "Abel killed by Cain",
+      "refs": "Genesis 4:8",
+      "undated": true,
+      "description": "Killed brother in jealousy (Genesis 4:8)",
+      "note": "Before Seth is born in AM 130 (Genesis 4:25; 5:3).",
+      "people": [
+        "cain",
+        "abel"
+      ]
+    },
+    {
+      "id": "cain_marked",
+      "label": "Cain cursed and marked",
+      "refs": "Genesis 4:10-16",
+      "undated": true,
+      "description": "Marked by God, banished east of Eden (Genesis 4:15)",
+      "note": "Genesis gives no year.",
+      "people": [
+        "cain"
+      ]
+    },
+    {
+      "id": "abel_born",
+      "label": "Abel born",
+      "refs": "Genesis 4:2",
+      "undated": true,
+      "description": "Second son (Genesis 4:2)",
+      "note": "Genesis gives no year.",
+      "people": [
+        "abel",
+        "adam",
+        "eve"
+      ]
+    },
+    {
+      "id": "offerings",
+      "label": "Cain's and Abel's offerings",
+      "refs": "Genesis 4:3-5; Hebrews 11:4",
+      "undated": true,
+      "description": "Brought firstlings of flock; accepted by God (Genesis 4:4)",
+      "note": "Genesis gives no year.",
+      "people": [
+        "abel"
+      ]
+    },
+    {
+      "id": "abraham_covenant_established",
+      "label": "Covenant Established",
+      "am": 2084,
+      "description": "Made covenant with Abram, promised offspring (Genesis 12:2-3)",
+      "people": [
+        "abraham"
+      ]
+    },
+    {
+      "id": "abraham_birth_of_ishmael",
+      "label": "Birth of Ishmael",
+      "am": 2095,
+      "description": "Ishmael born to Hagar (Genesis 16:16)",
+      "people": [
+        "abraham"
+      ]
+    },
+    {
+      "id": "abraham_name_changed_to_abraham",
+      "label": "Abram renamed Abraham; the covenant of circumcision",
+      "am": 2107,
+      "description": "Abram's name changed to Abraham; covenant renewed (Genesis 17:5)",
+      "people": [
+        "abraham"
+      ],
+      "refs": "Genesis 17"
+    },
+    {
+      "id": "binding",
+      "label": "The binding of Isaac",
+      "refs": "Genesis 22:1-19",
+      "am": 2123,
+      "description": "Abraham tested; offered Isaac; type of crucifixion (Genesis 22:1-19)",
+      "people": [
+        "abraham",
+        "isaac"
+      ]
+    },
+    {
+      "id": "abraham_death",
+      "label": "Abraham: Death",
+      "am": 2183,
+      "description": "Died and was gathered to his people, lived 175 years (Genesis 25:7-8)",
+      "people": [
+        "abraham"
+      ]
+    },
+    {
+      "id": "sarah_death",
+      "label": "Sarah dies at 127",
+      "am": 2145,
+      "description": "Died in Hebron, lived 127 years (Genesis 23:1)",
+      "people": [
+        "sarah"
+      ],
+      "refs": "Genesis 23:1-2"
+    },
+    {
+      "id": "isaac_rebekah",
+      "label": "Isaac marries Rebekah",
+      "refs": "Genesis 24; 25:20",
+      "am": 2148,
+      "description": "Took Rebekah as bride; loved her (Genesis 24:67)",
+      "people": [
+        "isaac",
+        "rebekah"
+      ]
+    },
+    {
+      "id": "jacob_esau_born",
+      "label": "Jacob and Esau born",
+      "refs": "Genesis 25:19-26",
+      "am": 2168,
+      "description": "Twin sons born; Jacob received the birthright (Genesis 25:24-34)",
+      "people": [
+        "isaac",
+        "rebekah",
+        "jacob"
+      ]
+    },
+    {
+      "id": "isaac_death",
+      "label": "Isaac: Death",
+      "am": 2288,
+      "description": "Died in Mamre at age 180 (Genesis 35:28-29)",
+      "people": [
+        "isaac"
+      ]
+    },
+    {
+      "id": "jacob_dream_at_bethel",
+      "label": "Dream at Bethel",
+      "am": 2188,
+      "description": "Saw ladder to heaven; covenant renewed (Genesis 28:10-22)",
+      "people": [
+        "jacob"
+      ]
+    },
+    {
+      "id": "jacob_marries",
+      "label": "Jacob marries Leah and Rachel",
+      "refs": "Genesis 29:15-30",
+      "am": 2198,
+      "description": "Served Laban 7 years for Rachel (Genesis 29:18-30)",
+      "people": [
+        "jacob",
+        "rachel",
+        "leah"
+      ]
+    },
+    {
+      "id": "jacob_wrestling_at_peniel",
+      "label": "Wrestling at Peniel",
+      "am": 2248,
+      "description": "Wrestled with God; name changed to Israel (Genesis 32:24-32)",
+      "people": [
+        "jacob"
+      ]
+    },
+    {
+      "id": "jacob_reunion_with_esau",
+      "label": "Reunion with Esau",
+      "am": 2248,
+      "description": "Reconciliation with brother Esau (Genesis 33:1-15)",
+      "people": [
+        "jacob"
+      ]
+    },
+    {
+      "id": "jacob_death",
+      "label": "Jacob dies in Egypt at 147",
+      "am": 2315,
+      "description": "Died in Egypt; lived 147 years (Genesis 47:28)",
+      "people": [
+        "jacob"
+      ],
+      "refs": "Genesis 47:28; 49:33"
+    },
+    {
+      "id": "rachel_birth_of_joseph",
+      "label": "Birth of Joseph",
+      "am": 2208,
+      "description": "Bore Joseph after years of barrenness (Genesis 30:22-24)",
+      "people": [
+        "rachel"
+      ]
+    },
+    {
+      "id": "rachel_birth_of_benjamin",
+      "label": "Birth of Benjamin",
+      "am": 2258,
+      "description": "Died giving birth to Benjamin (Genesis 35:16-19)",
+      "people": [
+        "rachel"
+      ]
+    },
+    {
+      "id": "judah_born",
+      "label": "Judah born",
+      "refs": "Genesis 29:35",
+      "am": 2193,
+      "description": "Fourth son of Jacob; praise given to God (Genesis 29:35)",
+      "people": [
+        "judah",
+        "leah"
+      ]
+    },
+    {
+      "id": "perez_born",
+      "label": "Judah and Tamar; Perez born",
+      "refs": "Genesis 38",
+      "am": 2213,
+      "description": "Fathered Perez through Tamar (Genesis 38:1-30)",
+      "people": [
+        "judah",
+        "perez",
+        "tamar"
+      ]
+    },
+    {
+      "id": "jacob_blesses",
+      "label": "Jacob blesses his sons, and dies",
+      "refs": "Genesis 47:28; 49",
+      "am": 2315,
+      "description": "Received scepter promise; Messiah foretold (Genesis 49:8-12)",
+      "people": [
+        "judah",
+        "jacob"
+      ]
+    },
+    {
+      "id": "tamar_marriage_to_er",
+      "label": "Marriage to Er",
+      "am": 2210,
+      "description": "Married Er, Judah's firstborn (Genesis 38:6)",
+      "people": [
+        "tamar"
+      ]
+    },
+    {
+      "id": "hezron_birth",
+      "label": "Hezron: Birth",
+      "am": 2272,
+      "description": "Son of Perez. Genesis 46:12 lists Hezron among those who went down to Egypt with Jacob's household, so he was born before the migration, not in Egypt; Ruth 4:18/Matthew 1:3 give no age or reign data, and the span from Perez to Nahshon (the Exodus generation, Numbers 1:7) depends on the disputed length of the sojourn itself (chronology-anchors.md notes a single reading of Exodus 12:40 moves the total by 215 years) -- so this study spaces Hezron, Ram and Amminadab evenly across that window rather than inventing false precision.",
+      "people": [
+        "hezron"
+      ]
+    },
+    {
+      "id": "ram_birth",
+      "label": "Ram: Birth",
+      "am": 2330,
+      "description": "Son of Hezron (Ruth 4:19, Matthew 1:3). Spaced evenly between Perez and Nahshon -- see Hezron's Birth note.",
+      "people": [
+        "ram"
+      ]
+    },
+    {
+      "id": "amminadab_birth",
+      "label": "Amminadab: Birth",
+      "am": 2389,
+      "description": "Son of Ram. Spaced evenly between Perez and Nahshon -- see Hezron's Birth note. Numbers 1:7 names his son Nahshon, not Amminadab himself, as the one leading Judah in the wilderness census.",
+      "people": [
+        "amminadab"
+      ]
+    },
+    {
+      "id": "nahshon_birth",
+      "label": "Nahshon: Birth",
+      "am": 2447,
+      "description": "Son of Amminadab",
+      "people": [
+        "nahshon"
+      ]
+    },
+    {
+      "id": "nahshon_elisheba",
+      "label": "Nahshon and Elisheba",
+      "refs": "Exodus 6:23",
+      "am": 2465,
+      "description": "Married Aaron's sister (Exodus 6:23)",
+      "people": [
+        "nahshon",
+        "elisheba"
+      ]
+    },
+    {
+      "id": "salmon_birth",
+      "label": "Salmon: Birth",
+      "gregorian": -1377,
+      "description": "Son of Nahshon. Ruth 4:20-21/Matthew 1:4-5 name this generation but give no independent chronology, and the gap between Nahshon (Exodus generation, Numbers 1:7) and Boaz (whose own date is fixed by the tightly-narrated Ruth 4 birth of Obed) is far longer than one human lifetime -- so this study spaces Salmon evenly across that window rather than inventing false precision, the same telescoping documented in this study's Genealogy and Times (the Davidic-line check) and later applied again to Matthew's Abiud-to-Jacob list.",
+      "people": [
+        "salmon"
+      ]
+    },
+    {
+      "id": "salmon_rahab",
+      "label": "Salmon marries Rahab",
+      "refs": "Matthew 1:5; Ruth 4:20-21",
+      "gregorian": -1315,
+      "description": "Married Canaanite woman redeemed through faith (Joshua 2, 6:22-25)",
+      "people": [
+        "salmon",
+        "rahab"
+      ]
+    },
+    {
+      "id": "rahab_spared",
+      "label": "Rahab spared at Jericho",
+      "refs": "Joshua 2; 6:22-25; Hebrews 11:31",
+      "am": 2553,
+      "description": "Protected Hebrew spies; demonstrated faith in God (Joshua 2:1-21)",
+      "note": "Jericho falls in the first year of the conquest, forty years after the Exodus.",
+      "people": [
+        "rahab"
+      ]
+    },
+    {
+      "id": "boaz_birth",
+      "label": "Boaz: Birth",
+      "gregorian": -1197,
+      "description": "Son of Salmon and Rahab. Birth year not independently given; fixed here by working back from Obed's real birth (below) rather than from Salmon's own uncertain date -- see Salmon's Birth note.",
+      "people": [
+        "boaz"
+      ]
+    },
+    {
+      "id": "boaz_ruth",
+      "label": "Boaz redeems and marries Ruth",
+      "refs": "Ruth 2-4",
+      "gregorian": -1137,
+      "description": "Observed Ruth gleaning; showed kindness (Ruth 2:1-13)",
+      "people": [
+        "boaz",
+        "ruth"
+      ]
+    },
+    {
+      "id": "ruth_faithfulness_to_naomi",
+      "label": "Faithfulness to Naomi",
+      "gregorian": -1155,
+      "description": "Refused to leave Naomi; committed to Israel and God (Ruth 1:16-17)",
+      "people": [
+        "ruth"
+      ]
+    },
+    {
+      "id": "obed_born",
+      "label": "Obed born",
+      "refs": "Ruth 4:13-17",
+      "gregorian": -1135,
+      "description": "Son of Boaz and Ruth (Ruth 4:17)",
+      "people": [
+        "obed"
+      ]
+    },
+    {
+      "id": "jesse_birth",
+      "label": "Jesse: Birth",
+      "gregorian": -1093,
+      "description": "Son of Obed",
+      "people": [
+        "jesse"
+      ]
+    },
+    {
+      "id": "david_born",
+      "label": "David born",
+      "refs": "2 Samuel 5:4",
+      "gregorian": -1041,
+      "description": "Fathered David, youngest son (1 Samuel 16:10-13)",
+      "people": [
+        "jesse",
+        "david"
+      ]
+    },
+    {
+      "id": "david_anointed",
+      "label": "Samuel anoints David",
+      "refs": "1 Samuel 16:1-13",
+      "gregorian": -1025,
+      "description": "Samuel anointed David as king in Jesse's house (1 Samuel 16:1-13)",
+      "people": [
+        "jesse",
+        "david"
+      ]
+    },
+    {
+      "id": "david_victory_over_goliath",
+      "label": "Victory over Goliath",
+      "gregorian": -1018,
+      "description": "Defeated Philistine giant with faith in God (1 Samuel 17:1-54)",
+      "people": [
+        "david"
+      ]
+    },
+    {
+      "id": "david_friendship_with_jonathan",
+      "label": "Friendship with Jonathan",
+      "gregorian": -1018,
+      "description": "Bond with Saul's son; covenant of love (1 Samuel 18:1-4)",
+      "people": [
+        "david"
+      ]
+    },
+    {
+      "id": "david_years_of_exile",
+      "label": "Years of Exile",
+      "gregorian": -1016,
+      "description": "Fled from Saul for approximately 10 years",
+      "people": [
+        "david"
+      ]
+    },
+    {
+      "id": "david_coronation_as_king",
+      "label": "Coronation as King",
+      "gregorian": -1011,
+      "description": "Became king of Judah at age 30; later king of all Israel (2 Samuel 2:1-7, 5:1-5)",
+      "people": [
+        "david"
+      ]
+    },
+    {
+      "id": "david_captured_jerusalem",
+      "label": "Captured Jerusalem",
+      "gregorian": -1007,
+      "description": "Made Jerusalem capital; brought Ark of Covenant (2 Samuel 5:6-12, 6:1-19)",
+      "people": [
+        "david"
+      ]
+    },
+    {
+      "id": "david_davidic_covenant",
+      "label": "Davidic Covenant",
+      "gregorian": -1001,
+      "description": "Covenant: throne established forever; Messiah from his line (2 Samuel 7:1-17)",
+      "people": [
+        "david"
+      ]
+    },
+    {
+      "id": "david_bathsheba",
+      "label": "David and Bathsheba",
+      "refs": "2 Samuel 11-12",
+      "gregorian": -994,
+      "description": "Took Bathsheba; born son Solomon who continued throne (2 Samuel 11-12)",
+      "people": [
+        "david",
+        "bathsheba"
+      ]
+    },
+    {
+      "id": "david_psalms_and_prophecy",
+      "label": "Psalms and Prophecy",
+      "gregorian": -1008,
+      "description": "Wrote Psalms; prophesied about Messiah (e.g., Psalm 22, 110)",
+      "people": [
+        "david"
+      ]
+    },
+    {
+      "id": "solomon_reigns",
+      "label": "David dies; Solomon reigns",
+      "refs": "1 Kings 1-2; 2:10-12",
+      "gregorian": -971,
+      "description": "Died at age 70; buried in City of David (1 Kings 2:10)",
+      "people": [
+        "david",
+        "solomon"
+      ]
+    },
+    {
+      "id": "solomon_born",
+      "label": "Solomon born",
+      "refs": "2 Samuel 12:24-25",
+      "gregorian": -991,
+      "description": "Bore Solomon, heir to David's throne (2 Samuel 12:25)",
+      "people": [
+        "bathsheba",
+        "solomon"
+      ]
+    },
+    {
+      "id": "gibeon",
+      "label": "God appears at Gibeon; Solomon asks for wisdom",
+      "refs": "1 Kings 3:4-15",
+      "gregorian": -970,
+      "description": "God appeared to Solomon; loved by God (2 Samuel 12:25)",
+      "note": "Early in his reign (1 Kings 3:1-4).",
+      "people": [
+        "solomon"
+      ]
+    },
+    {
+      "id": "rehoboam_birth",
+      "label": "Rehoboam: Birth",
+      "gregorian": -972,
+      "description": "Son of Solomon and Naamah the Ammonitess",
+      "people": [
+        "rehoboam"
+      ]
+    },
+    {
+      "id": "abijah_coronation",
+      "label": "Abijah: Coronation",
+      "gregorian": -913,
+      "description": "Became king of Judah (1 Kings 14:31, 15:1)",
+      "people": [
+        "abijah"
+      ]
+    },
+    {
+      "id": "abijah_war_with_jeroboam",
+      "label": "War with Jeroboam",
+      "gregorian": -921,
+      "description": "Fought Jeroboam; God delivered Judah (2 Chronicles 13:1-20)",
+      "people": [
+        "abijah"
+      ]
+    },
+    {
+      "id": "asa_coronation",
+      "label": "Asa: Coronation",
+      "gregorian": -911,
+      "description": "Became king at age 20 (1 Kings 15:9-11)",
+      "people": [
+        "asa"
+      ]
+    },
+    {
+      "id": "asa_religious_reforms",
+      "label": "Religious Reforms",
+      "gregorian": -919,
+      "description": "Removed idols and high places; restored worship (2 Chronicles 14:2-5)",
+      "people": [
+        "asa"
+      ]
+    },
+    {
+      "id": "asa_victory_over_cushites",
+      "label": "Victory over Cushites",
+      "gregorian": -909,
+      "description": "Defeated great army; miracle from God (2 Chronicles 14:9-12)",
+      "people": [
+        "asa"
+      ]
+    },
+    {
+      "id": "jehoshaphat_coronation",
+      "label": "Jehoshaphat: Coronation",
+      "gregorian": -872,
+      "description": "Became king of Judah (1 Kings 15:24)",
+      "people": [
+        "jehoshaphat"
+      ]
+    },
+    {
+      "id": "jehoshaphat_judicial_system",
+      "label": "Judicial System",
+      "gregorian": -875,
+      "description": "Sent judges throughout Judah (2 Chronicles 17:7-9)",
+      "people": [
+        "jehoshaphat"
+      ]
+    },
+    {
+      "id": "jehoram_coronation",
+      "label": "Jehoram: Coronation",
+      "gregorian": -853,
+      "description": "Became king of Judah (2 Kings 8:16)",
+      "people": [
+        "jehoram"
+      ]
+    },
+    {
+      "id": "ahaziah_coronation",
+      "label": "Ahaziah: Coronation",
+      "gregorian": -841,
+      "description": "Became king at age 22 (2 Kings 8:26)",
+      "people": [
+        "ahaziah"
+      ]
+    },
+    {
+      "id": "ahaziah_death",
+      "label": "Ahaziah killed by Jehu",
+      "gregorian": -841,
+      "description": "Killed by Jehu; reigned only 1 year (2 Kings 9:24-28)",
+      "people": [
+        "ahaziah"
+      ],
+      "refs": "2 Kings 9:27-29"
+    },
+    {
+      "id": "joash_hidden_from_athaliah",
+      "label": "Hidden from Athaliah",
+      "gregorian": -841,
+      "description": "Hidden in the temple by his aunt Jehosheba for six years while Athaliah usurped the throne (2 Kings 11:1-3)",
+      "people": [
+        "joash"
+      ]
+    },
+    {
+      "id": "joash_coronation",
+      "label": "Joash: Coronation",
+      "gregorian": -835,
+      "description": "Crowned king at age 7 after the priest Jehoiada overthrew Athaliah (2 Kings 11:4-21)",
+      "people": [
+        "joash"
+      ]
+    },
+    {
+      "id": "joash_temple_repairs",
+      "label": "Temple Repairs",
+      "gregorian": -816,
+      "description": "Ordered repair of the temple, funded by a chest for freewill offerings (2 Kings 12:4-16)",
+      "people": [
+        "joash"
+      ]
+    },
+    {
+      "id": "amaziah_reigns",
+      "label": "Joash killed; Amaziah reigns",
+      "refs": "2 Kings 12:20-21",
+      "gregorian": -796,
+      "description": "Reigned 40 years; assassinated by his own servants after turning to idolatry late in his reign (2 Kings 12:19-21, 2 Chronicles 24:17-25)",
+      "people": [
+        "joash",
+        "amaziah"
+      ]
+    },
+    {
+      "id": "uzziah_coronation",
+      "label": "Uzziah: Coronation",
+      "gregorian": -792,
+      "description": "Became king at age 16 (2 Kings 15:1-3)",
+      "people": [
+        "uzziah"
+      ]
+    },
+    {
+      "id": "uzziah_military_victories",
+      "label": "Military Victories",
+      "gregorian": -780,
+      "description": "Defeated Philistines, Arabs, Meunites (2 Chronicles 26:6-8)",
+      "people": [
+        "uzziah"
+      ]
+    },
+    {
+      "id": "jotham_coronation",
+      "label": "Jotham: Coronation",
+      "gregorian": -750,
+      "description": "Became king of Judah (2 Kings 15:32-35)",
+      "people": [
+        "jotham"
+      ]
+    },
+    {
+      "id": "ahaz_coronation",
+      "label": "Ahaz: Coronation",
+      "gregorian": -735,
+      "description": "Became king of Judah (2 Kings 16:1-2)",
+      "people": [
+        "ahaz"
+      ]
+    },
+    {
+      "id": "ahaz_immanuel_prophecy",
+      "label": "Immanuel Prophecy",
+      "gregorian": -735,
+      "description": "Isaiah prophesied of Immanuel; sign: virgin will conceive (Isaiah 7:10-14)",
+      "people": [
+        "ahaz"
+      ]
+    },
+    {
+      "id": "hezekiah_coronation",
+      "label": "Hezekiah: Coronation",
+      "gregorian": -715,
+      "description": "Became king of Judah at age 25 (2 Kings 18:1-2)",
+      "people": [
+        "hezekiah"
+      ]
+    },
+    {
+      "id": "hezekiah_religious_reforms",
+      "label": "Religious Reforms",
+      "gregorian": -716,
+      "description": "Removed idols and high places; cleansed Temple (2 Kings 18:4)",
+      "people": [
+        "hezekiah"
+      ]
+    },
+    {
+      "id": "hezekiah_healing_and_extended_life",
+      "label": "Healing and Extended Life",
+      "gregorian": -700,
+      "description": "Healed of terminal illness; life extended 15 years (2 Kings 20:1-11)",
+      "people": [
+        "hezekiah"
+      ]
+    },
+    {
+      "id": "manasseh_coronation",
+      "label": "Manasseh: Coronation",
+      "gregorian": -697,
+      "description": "Became king at age 12 (2 Kings 21:1)",
+      "people": [
+        "manasseh"
+      ]
+    },
+    {
+      "id": "manasseh_evil_reign",
+      "label": "Evil Reign",
+      "gregorian": -687,
+      "description": "Did evil; idolatry and wickedness (2 Kings 21:1-18)",
+      "people": [
+        "manasseh"
+      ]
+    },
+    {
+      "id": "manasseh_captivity_and_repentance",
+      "label": "Captivity and Repentance",
+      "gregorian": -651,
+      "description": "Captured by Assyrians; repented; God restored him (2 Chronicles 33:10-13)",
+      "people": [
+        "manasseh"
+      ]
+    },
+    {
+      "id": "amon_coronation",
+      "label": "Amon: Coronation",
+      "gregorian": -642,
+      "description": "Became king at age 22 (2 Kings 21:19)",
+      "people": [
+        "amon"
+      ]
+    },
+    {
+      "id": "josiah_reigns",
+      "label": "Amon killed; Josiah reigns",
+      "refs": "2 Kings 21:23-24",
+      "gregorian": -640,
+      "description": "Reigned only 2 years; murdered by servants (2 Kings 21:19-26)",
+      "people": [
+        "amon",
+        "josiah"
+      ]
+    },
+    {
+      "id": "josiah_discovery_of_law_book",
+      "label": "Discovery of Law Book",
+      "gregorian": -618,
+      "description": "Book of the Law discovered during Temple repairs (2 Kings 22:8)",
+      "people": [
+        "josiah"
+      ]
+    },
+    {
+      "id": "josiah_religious_reforms",
+      "label": "Religious Reforms",
+      "gregorian": -618,
+      "description": "Removed all idols; kept Passover (2 Kings 23:1-30)",
+      "people": [
+        "josiah"
+      ]
+    },
+    {
+      "id": "josiah_dies",
+      "label": "Josiah killed at Megiddo; Jehoahaz, then Jehoiakim",
+      "refs": "2 Kings 23:29-35",
+      "gregorian": -609,
+      "description": "Died fighting Egyptian Pharaoh Necho (2 Kings 23:29)",
+      "people": [
+        "josiah",
+        "jehoiakim"
+      ]
+    },
+    {
+      "id": "jehoiachin_reigns",
+      "label": "Jehoiakim dies; Jehoiachin reigns",
+      "refs": "2 Kings 24:6-8",
+      "gregorian": -598,
+      "description": "Died as Nebuchadnezzar's forces approached; succeeded by his son Jehoiachin (2 Kings 24:6)",
+      "people": [
+        "jehoiakim",
+        "jehoiachin"
+      ]
+    },
+    {
+      "id": "shealtiel_birth_in_exile",
+      "label": "Birth in Exile",
+      "gregorian": -590,
+      "description": "Born in Babylon during the exile (1 Chronicles 3:17); exact year not given in Scripture -- estimated here",
+      "people": [
+        "shealtiel"
+      ]
+    },
+    {
+      "id": "abiud_birth",
+      "label": "Abiud: Birth",
+      "gregorian": -500,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "people": [
+        "abiud"
+      ]
+    },
+    {
+      "id": "eliakim_3_birth",
+      "label": "Eliakim: Birth",
+      "gregorian": -448,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "people": [
+        "eliakim_3"
+      ]
+    },
+    {
+      "id": "azor_birth",
+      "label": "Azor: Birth",
+      "gregorian": -397,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "people": [
+        "azor"
+      ]
+    },
+    {
+      "id": "sadoc_birth",
+      "label": "Sadoc: Birth",
+      "gregorian": -345,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "people": [
+        "sadoc"
+      ]
+    },
+    {
+      "id": "achim_birth",
+      "label": "Achim: Birth",
+      "gregorian": -293,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "people": [
+        "achim"
+      ]
+    },
+    {
+      "id": "eliud_birth",
+      "label": "Eliud: Birth",
+      "gregorian": -242,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "people": [
+        "eliud"
+      ]
+    },
+    {
+      "id": "eleazar_2_birth",
+      "label": "Eleazar: Birth",
+      "gregorian": -190,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "people": [
+        "eleazar_2"
+      ]
+    },
+    {
+      "id": "matthan_birth",
+      "label": "Matthan: Birth",
+      "gregorian": -138,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "people": [
+        "matthan"
+      ]
+    },
+    {
+      "id": "jacob_2_birth",
+      "label": "Jacob: Birth",
+      "gregorian": -87,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "people": [
+        "jacob_2"
+      ]
+    },
+    {
+      "id": "joseph_birth",
+      "label": "Joseph: Birth",
+      "gregorian": -35,
+      "description": "Son of Jacob; carpenter (Matthew 1:16, 13:55). Birth year not given in Scripture; estimated here so he is a young man at his betrothal.",
+      "people": [
+        "joseph"
+      ]
+    },
+    {
+      "id": "joseph_espousal_to_mary",
+      "label": "Espousal to Mary",
+      "gregorian": -6,
+      "description": "Betrothed to Mary of Nazareth (Matthew 1:18)",
+      "people": [
+        "joseph"
+      ]
+    },
+    {
+      "id": "joseph_dream_of_angel",
+      "label": "Dream of Angel",
+      "gregorian": -6,
+      "description": "Angel revealed Mary's pregnancy; told him Jesus's purpose (Matthew 1:20-21)",
+      "people": [
+        "joseph"
+      ]
+    },
+    {
+      "id": "flight",
+      "label": "The flight to Egypt",
+      "refs": "Matthew 2:13-18",
+      "gregorian": -5,
+      "description": "Fled with Jesus to Egypt to escape Herod (Matthew 2:13-15)",
+      "people": [
+        "joseph",
+        "mary",
+        "jesus"
+      ]
+    },
+    {
+      "id": "nazareth",
+      "label": "Return to Nazareth after Herod's death",
+      "refs": "Matthew 2:19-23; Luke 2:39-40",
+      "gregorian": -4,
+      "description": "Settled in Nazareth after Herod's death; raised Jesus in carpenter's trade (Matthew 2:19-23)",
+      "people": [
+        "joseph",
+        "jesus"
+      ]
+    },
+    {
+      "id": "temple_at_12",
+      "label": "Jesus in the temple at twelve",
+      "refs": "Luke 2:41-52",
+      "gregorian": 8,
+      "description": "Present at the Passover visit when Jesus was 12 (Luke 2:41-50); Scripture never mentions him again, and he is notably absent when Jesus is crucified (John 19:26-27 entrusts Mary to John instead) -- the traditional inference is that Joseph died sometime before Jesus's public ministry. Death year not recorded; estimated here.",
+      "note": "Joseph's last appearance in the Gospels.",
+      "people": [
+        "joseph",
+        "jesus"
+      ]
+    },
+    {
+      "id": "mary_birth",
+      "label": "Mary: Birth",
+      "gregorian": -22,
+      "description": "Born in Nazareth or Jerusalem. Birth year not given in Scripture; estimated here consistent with typical betrothal age.",
+      "people": [
+        "mary"
+      ]
+    },
+    {
+      "id": "annunciation",
+      "label": "The annunciation, and Jesus conceived",
+      "refs": "Luke 1:26-38; Matthew 1:18-25",
+      "gregorian": -6,
+      "description": "Angel Gabriel announced she would bear the Son of God (Luke 1:26-38)",
+      "people": [
+        "mary",
+        "jesus"
+      ]
+    },
+    {
+      "id": "presentation",
+      "label": "Jesus presented in the temple",
+      "refs": "Luke 2:22-38",
+      "gregorian": -5,
+      "description": "Presented Jesus in Temple; prophecy of sword piercing soul (Luke 2:22-35)",
+      "people": [
+        "mary",
+        "jesus"
+      ]
+    },
+    {
+      "id": "cana",
+      "label": "The wedding at Cana",
+      "refs": "John 2:1-11",
+      "gregorian": 29,
+      "description": "Present at Jesus's first sign; told the servants 'Do whatever he tells you' (John 2:1-12)",
+      "people": [
+        "mary"
+      ]
+    },
+    {
+      "id": "magi",
+      "label": "The wise men",
+      "refs": "Matthew 2:1-12",
+      "gregorian": -5,
+      "description": "Magi visited bearing gifts; Jesus presented as King to nations (Matthew 2:1-12)",
+      "people": [
+        "jesus"
+      ]
+    },
+    {
+      "id": "jesus_circumcision",
+      "label": "Circumcision",
+      "gregorian": -5,
+      "description": "Circumcised on eighth day; named Jesus (Luke 2:21)",
+      "people": [
+        "jesus"
+      ]
+    },
+    {
+      "id": "baptism",
+      "label": "Jesus baptised; the ministry begins",
+      "refs": "Matthew 3:13-17; Mark 1:9-11; Luke 3:21-23",
+      "gregorian": 29,
+      "description": "Baptized in Jordan; Spirit descended as dove; Father's voice confirmed (Matthew 3:13-17, Mark 1:9-11, Luke 3:21-22)",
+      "people": [
+        "jesus"
+      ]
+    },
+    {
+      "id": "jesus_temptation_in_wilderness",
+      "label": "Temptation in Wilderness",
+      "gregorian": 29,
+      "description": "Tempted by Satan for 40 days; overcome through God's word (Matthew 4:1-11, Mark 1:12-13, Luke 4:1-13)",
+      "people": [
+        "jesus"
+      ]
+    },
+    {
+      "id": "jesus_call_of_first_disciples",
+      "label": "Call of First Disciples",
+      "gregorian": 29,
+      "description": "Called Simon Peter, Andrew, James, John as disciples (John 1:35-51)",
+      "people": [
+        "jesus"
+      ]
+    },
+    {
+      "id": "jesus_sermon_on_the_mount",
+      "label": "Sermon on the Mount",
+      "gregorian": 30,
+      "description": "Preached blessings and teachings of Kingdom (Matthew 5-7)",
+      "people": [
+        "jesus"
+      ]
+    },
+    {
+      "id": "jesus_miracles_and_healings",
+      "label": "Miracles and Healings",
+      "gregorian": 30,
+      "description": "Cast out demons, healed sick, raised dead, calmed storms (Matthew 8-9, Mark 1-5, Luke 5-9)",
+      "people": [
+        "jesus"
+      ]
+    },
+    {
+      "id": "jesus_choosing_the_twelve",
+      "label": "Choosing the Twelve",
+      "gregorian": 30,
+      "description": "Selected 12 apostles as foundation of Church (Matthew 10:1-4, Mark 3:13-19, Luke 6:12-16)",
+      "people": [
+        "jesus"
+      ]
+    },
+    {
+      "id": "jesus_transfiguration",
+      "label": "Transfiguration",
+      "gregorian": 32,
+      "description": "Revealed glory before Peter, James, John; Law and Prophets testified (Matthew 17:1-8, Mark 9:2-8, Luke 9:28-36)",
+      "people": [
+        "jesus"
+      ]
+    },
+    {
+      "id": "jesus_teaching_on_kingdom",
+      "label": "Teaching on Kingdom",
+      "gregorian": 32,
+      "description": "Taught in parables about Kingdom; ultimate authority revealed (Matthew 13, 18-25, Mark 4, 10-14, Luke 8, 15-18)",
+      "people": [
+        "jesus"
+      ]
+    },
+    {
+      "id": "jesus_reign_at_god_s_right_hand",
+      "label": "Reign at God's Right Hand",
+      "gregorian": 33,
+      "description": "Exalted; all authority given; intercedes for saints; awaits return (Philippians 2:9-11, Colossians 3:1, Hebrews 1:3, 10:12-13, Revelation 3:21)",
+      "people": [
+        "jesus"
+      ]
+    }
+  ]
 }

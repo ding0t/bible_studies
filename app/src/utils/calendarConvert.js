@@ -19,15 +19,18 @@
  * convention, so this brings the converter into line with them rather than the reverse.
  */
 
+import chronology from '../../../docs/data/chronology.json' with { type: 'json' };
+
 // Zadok year of AD 1. Creation (Zadok 0) is 3959 BC, and the years 3959 BC through 1 BC are
 // 3959 distinct years, so 3959 years elapse before AD 1 begins. This is the a_prime scenario
 // (Masoretic chain, Exodus 1446 BC) in docs/data/genealogy/index.json; it was 4004 until
-// 2026-10-01. Keep it equal to that file's calendar_offset and chronology.json's genealogy epoch.
+// 2026-10-01. It is read from chronology.json's genealogy epoch, the one place the epoch is set,
+// so this converter and chronology.js's amToGregorian cannot drift apart.
 //
 // Note the encoding is NEGATED-BC, not astronomical: -3959 here means 3959 BC. Astronomical
 // (ISO 8601) numbering would make -3959 mean 3960 BC, because it has a year 0 equal to 1 BC.
 // Do not feed these values to a date library that assumes ISO.
-export const ZADOK_TO_GREGORIAN_OFFSET = 3959;
+export const ZADOK_TO_GREGORIAN_OFFSET = -chronology.epochs.find((e) => e.id === 'genealogy').am0_gregorian;
 
 /**
  * Convert Zadok year to Gregorian year.

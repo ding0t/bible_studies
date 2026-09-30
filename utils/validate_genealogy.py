@@ -21,7 +21,13 @@ import json
 # new field -- that is the point of them.
 REQUIRED_FIELDS = ['id', 'name', 'parent_id', 'children', 'tags', 'bible_references', 'lineages']
 VARIANT_SUPPLIED = ['gregorian_year_born', 'gregorian_year_died', 'lifespan_years']
-OPTIONAL_FIELDS = ['major_events', 'name_hebrew', 'name_meaning', 'name_transliteration']
+OPTIONAL_FIELDS = ['name_hebrew', 'name_meaning', 'name_transliteration']
+# Since 2026-10-01 a person stores ONE calendar (zadok_year_* for Genesis-dated people, gregorian_year_*
+# for those dated from Solomon onward) and app/src/utils/chronology.js derives the other; events live
+# once each in docs/data/chronology.json (life_events and the other collections), tagged with people.
+# Both calendars on one person, or a major_events list in an era file, is the duplication that made
+# the epoch change a 374-number rewrite, so either is an error.
+ONE_CALENDAR = [('zadok_year_born', 'gregorian_year_born'), ('zadok_year_died', 'gregorian_year_died')]
 
 # Load all era files
 argparse.ArgumentParser(description=__doc__).parse_args()
@@ -104,6 +110,35 @@ if missing_children:
 else:
     print('[OK] All children ids resolve to a person')
 
+# One calendar per person, and no event lists in the era files.
+duplicated = [
+    (pid, a) for pid, person in sorted(all_people.items())
+    for a, b in ONE_CALENDAR if a in person and b in person
+]
+stray_events = [pid for pid, person in sorted(all_people.items()) if 'major_events' in person]
+if duplicated or stray_events:
+    print(f'\n[FAIL] {len(duplicated)} person record(s) store both calendars; {len(stray_events)} carry major_events')
+    for pid, f in duplicated[:10]:
+        print(f'  {pid}: {f} and its other-calendar twin')
+    for pid in stray_events[:10]:
+        print(f'  {pid}: move major_events into docs/data/chronology.json life_events')
+    exit_code = 1
+else:
+    print('[OK] Every person stores one calendar; events live in docs/data/chronology.json')
+
+# Lifespan agrees with the stored birth and death.
+bad_span = [
+    (pid, person['zadok_year_died'] - person['zadok_year_born'], person.get('lifespan_years'))
+    for pid, person in sorted(all_people.items())
+    if isinstance(person.get('zadok_year_born'), int) and isinstance(person.get('zadok_year_died'), int)
+    and person['zadok_year_died'] - person['zadok_year_born'] != person.get('lifespan_years')
+]
+if bad_span:
+    print(f'\n[FAIL] {len(bad_span)} lifespan(s) disagree with birth and death')
+    for pid, span, life in bad_span:
+        print(f'  {pid}: died - born = {span}, lifespan_years = {life}')
+    exit_code = 1
+
 # Check required fields. These are the ones the viewer reads without a guard being reasonable --
 # a person with no name or no children list is a data error, not an era difference.
 missing_required = [
@@ -135,7 +170,7 @@ for f in OPTIONAL_FIELDS:
 print('\n[INFO] Chronology-variant year coverage')
 needs_variant = sorted(
     pid for pid, person in all_people.items()
-    if any(f not in person for f in VARIANT_SUPPLIED)
+    if 'zadok_year_born' not in person and 'gregorian_year_born' not in person
 )
 for path in sorted(glob.glob('docs/data/genealogy/generated/*.json')):
     variant = json.load(open(path, encoding='utf-8'))

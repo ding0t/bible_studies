@@ -5,6 +5,7 @@ import {
   gregorianToAm,
   mergePeopleWithVariant,
   loadGenealogyPeople,
+  loadEvents,
   GENEALOGY_INDEX,
 } from '../utils/chronology';
 
@@ -218,24 +219,16 @@ export default function MillennialWeek({ events = [], initialPeriod = null }) {
       if (typeof e.zadok_year === 'number')
         out.push({ ...e, id: e.slug, label: e.title, layer: 'event', am: e.zadok_year });
     }
-    const mt = variantLanes.find((l) => l.variantId === 'mt') ?? variantLanes[0];
-    for (const p of mt?.people ?? []) {
-      for (const [i, ev] of (p.major_events ?? []).entries()) {
-        if (typeof ev.zadok_year !== 'number') continue;
-        out.push({
-          id: `${p.id}-${i}`,
-          label: `${p.name}: ${ev.event ?? ev.name ?? ev.description ?? 'event'}`,
-          layer: 'life',
-          am: ev.zadok_year,
-          scripture: ev.scripture ?? ev.reference ?? null,
-          note: ev.description ?? null,
-        });
-      }
+    // Life events are stored once each, tagged with their people (loadEvents); the ones the
+    // other layers already show (anchors, Genesis markers, AD 33) are not repeated here.
+    for (const e of loadEvents()) {
+      if (e.source !== 'life' || e.am == null) continue;
+      out.push({ ...e, layer: 'life', am: e.am, scripture: e.refs, note: e.description ?? e.note ?? null });
     }
     return out
       .map((m) => ({ ...m, amTo: m.amTo ?? m.am }))
       .filter((m) => m.am != null && !Number.isNaN(m.am));
-  }, [primaryEpoch, events, variantLanes]);
+  }, [primaryEpoch, events]);
 
   const visibleMarkers = useMemo(
     () =>
