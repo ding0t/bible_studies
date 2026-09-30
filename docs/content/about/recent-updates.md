@@ -4,7 +4,7 @@ category: "other"
 description: "A running list of the studies and pages on this site that have been newly published or most recently revised."
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-09-28
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -26,6 +26,38 @@ when it is revised.
 
 <!-- new-pages:auto-start -->
 <div class="grid cards" markdown>
+
+-   __Faith__
+
+    ---
+
+    Faith is leaning your whole weight on God and on what He has finished in Jesus. Pride is the same trust pointed at yourself, and it has two faces: refusing God's promise, and trying to earn it. A study of Habakkuk 2:4 and the one other place its word for pride appears.
+
+    :material-new-box: Published 29 September 2026 · [:octicons-arrow-right-24: Read](../salvation/faith.md)
+
+-   __The Ark of the Covenant__
+
+    ---
+
+    Exodus 25:10-22 to Revelation 11:19: the gold chest that held God's covenant under the mercy seat where blood was sprinkled once a year, the ark Israel carried, lost and never remade, the mercy seat Paul names in Jesus, and the ark John sees in the temple in heaven.
+
+    :material-new-box: Published 29 September 2026 · [:octicons-arrow-right-24: Read](../jesus/the-heavenly-pattern/ark.md)
+
+-   __The Golden Altar of Incense__
+
+    ---
+
+    Exodus 30:1-10 to Revelation 8: the small gold altar before the veil where incense rose to God every morning and evening, the fire only God could supply, and the altar before His throne where the prayers of the saints rise and are answered.
+
+    :material-new-box: Published 29 September 2026 · [:octicons-arrow-right-24: Read](../jesus/the-heavenly-pattern/incense-altar.md)
+
+-   __The Two Witnesses__
+
+    ---
+
+    Revelation 11:1-14: two prophets who testify in Jerusalem for 1,260 days, drawn from Zechariah's olive trees and clothed in the powers of Moses and Elijah, killed where their Lord was crucified, raised and taken up. Who they are, when they come, and what their story shows about God.
+
+    :material-new-box: Published 29 September 2026 · [:octicons-arrow-right-24: Read](../last-things/two-witnesses.md)
 
 -   __A New Heaven and a New Earth__
 
@@ -67,6 +99,14 @@ when it is revised.
 
     :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](../last-things/immediately-after.md)
 
+-   __In Humility__
+
+    ---
+
+    Humility is living before God as someone who depends on Him for everything, as Jesus lived before His Father all the way to the cross. It shows itself in counting others more significant than yourself, and God lifts it up. A study of Philippians 2:1-11.
+
+    :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](../christian-life/humility.md)
+
 -   __Israel's Regathering and Refining__
 
     ---
@@ -83,6 +123,14 @@ when it is revised.
 
     :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](../scripture/melchizedek-in-second-temple-judaism.md)
 
+-   __Pride__
+
+    ---
+
+    Pride is self-sufficiency: living as though you need no one above you, and at its root wanting God's place. It comes out of the heart, it deceives the one who has it, and God sets Himself against it. The way down is to humble yourself and boast in the cross of Jesus.
+
+    :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](../sin/pride.md)
+
 -   __The Fig Tree and This Generation__
 
     ---
@@ -95,9 +143,17 @@ when it is revised.
 
     ---
 
-    Genesis 5 and 11 survive in three versions whose numbers put the Flood anywhere from 2348 to 3228 BC. Weighing the Masoretic Text, Septuagint and Samaritan Pentateuch by Scripture's own consistency first, and only then against Egypt's king lists, radiocarbon, tree rings and varves.
+    Genesis 5 and 11 survive in three versions whose numbers put the Flood anywhere from 2303 to 3183 BC. Weighing the Masoretic Text, Septuagint and Samaritan Pentateuch by Scripture's own consistency first, and only then against Egypt's king lists, radiocarbon, tree rings and varves.
 
-    :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](../god/flood-and-the-king-lists.md)
+    :material-new-box: Published 28 September 2026, revised 30 September 2026 · [:octicons-arrow-right-24: Read](../god/flood-and-the-king-lists.md)
+
+-   __The Lampstand__
+
+    ---
+
+    Exodus 25:31-40 to Revelation 1-2: the golden lampstand God showed Moses, hammered from one talent of gold as an almond tree in flower and kept burning every night, and the seven lampstands the risen Jesus walks among as High Priest of His churches.
+
+    :material-new-box: Published 28 September 2026, revised 29 September 2026 · [:octicons-arrow-right-24: Read](../jesus/the-heavenly-pattern/lampstand.md)
 
 -   __The New Jerusalem__
 
@@ -137,7 +193,7 @@ when it is revised.
 
     Matthew 24:40-41 and Luke 17:34-37: Noah was the one left when the flood took the rest, and Luke's vultures answer "taken where?" The one taken is removed in judgment at the Son of Man's return; the one left is kept for His kingdom.
 
-    :material-new-box: Published 27 September 2026 · [:octicons-arrow-right-24: Read](../last-things/one-taken-one-left.md)
+    :material-new-box: Published 27 September 2026, revised 28 September 2026 · [:octicons-arrow-right-24: Read](../last-things/one-taken-one-left.md)
 
 -   __Six Days of History__
 
@@ -145,7 +201,7 @@ when it is revised.
 
     The creation week read as a framework for the millennia of history: light and darkness, the Flood, the seed and the land, the appointed times, the swarming sea, and the image and its counterfeit, with Jesus as the true image of God.
 
-    :material-new-box: Published 27 September 2026 · [:octicons-arrow-right-24: Read](../last-things/six-days-of-history.md)
+    :material-new-box: Published 27 September 2026, revised 30 September 2026 · [:octicons-arrow-right-24: Read](../last-things/six-days-of-history.md)
 
 -   __Taken Before Judgment: Enoch, Noah, Lot and Elijah__
 
@@ -241,7 +297,7 @@ when it is revised.
 
     What the Hebrew and Greek sources behind this site actually are, what an annotation layer like MACULA adds on top of a text, and what the vocabulary means — lemma, morphology, Strong's number, semantic domain, alignment — with one verse shown at every layer.
 
-    :material-new-box: Published 5 September 2026, revised 27 September 2026 · [:octicons-arrow-right-24: Read](../scripture/original-language-data.md)
+    :material-new-box: Published 5 September 2026, revised 28 September 2026 · [:octicons-arrow-right-24: Read](../scripture/original-language-data.md)
 
 -   __The Bride of Christ__
 
@@ -305,7 +361,7 @@ when it is revised.
 
     The creation week as the shape of history: what 2 Peter 3:8 says, what Second Temple Judaism and the early church already did with it, how each thousand-year day has run, and why 'the last days' means the last days of that week.
 
-    :material-update: Updated 28 September 2026 · [:octicons-arrow-right-24: Read](../last-things/day-is-a-thousand-years.md)
+    :material-update: Updated 30 September 2026 · [:octicons-arrow-right-24: Read](../last-things/day-is-a-thousand-years.md)
 
 -   __Backlog__
 
@@ -313,7 +369,55 @@ when it is revised.
 
     A public working list of study topics and research items still to be developed, organized by the site's own subject sections.
 
-    :material-update: Updated 28 September 2026 · [:octicons-arrow-right-24: Read](backlog.md)
+    :material-update: Updated 30 September 2026 · [:octicons-arrow-right-24: Read](backlog.md)
+
+-   __Chronology Anchors: What Can Actually Be Dated, and How Tightly__
+
+    ---
+
+    Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its Zadok year. The fixed rail the rest of the biblical timeline hangs from.
+
+    :material-update: Updated 30 September 2026 · [:octicons-arrow-right-24: Read](../last-things/chronology-anchors.md)
+
+-   __Prophetic Timeline__
+
+    ---
+
+    The millennial week charted: creation to the millennial reign across seven thousand-year days, with every person in the genealogy from Adam to Jesus, the dated anchors of history, and AD 33 hour by hour.
+
+    :material-update: Updated 30 September 2026 · [:octicons-arrow-right-24: Read](../timeline.md)
+
+-   __The Combined Timeline: One Line, Two Zones__
+
+    ---
+
+    Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,646 years at creation and converge on Abraham to the year.
+
+    :material-update: Updated 30 September 2026 · [:octicons-arrow-right-24: Read](../last-things/combined-timeline.md)
+
+-   __The Woman Who Touched the Fringe: Uncleanness Running Backwards__
+
+    ---
+
+    Twelve years unclean, she touched Jesus in a crowd and the flow of defilement reversed — plus what Matthew and Luke saw that Mark did not: she grabbed the tassel God commanded Israel to wear
+
+    :material-update: Updated 30 September 2026 · [:octicons-arrow-right-24: Read](../jesus/woman-with-the-issue-of-blood.md)
+
+-   __What World Population Declares: Biblical Chronology and the Arithmetic of Growth__
+
+    ---
+
+    God's first command to humanity was to multiply. This study traces that command from Genesis 1:28 through Noah and Israel in Egypt, then runs the Bible's own population figures against exponential growth models — how many people are alive, how many have ever been born, and what 6,000 years of history requires demographically.
+
+    :material-update: Updated 30 September 2026 · [:octicons-arrow-right-24: Read](../god/world-population-declares-gods-creation-and-biblical-truth.md)
+
+-   __Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41__
+
+    ---
+
+    An exegetical study of Job 40:15-41:34 — two real, mighty animals God parades before Job, neither of which matches anything alive today. What the Hebrew says about their habitat and their fire, why the hippopotamus and crocodile identifications fail, and where the creatures may be attested outside Scripture.
+
+    :material-update: Updated 28 September 2026 · [:octicons-arrow-right-24: Read](../god/behemoth-and-leviathan.md)
 
 -   __Copyright & Scripture Permissions__
 
@@ -323,37 +427,21 @@ when it is revised.
 
     :material-update: Updated 28 September 2026 · [:octicons-arrow-right-24: Read](copyright.md)
 
--   __Genealogy Viewer__
+-   __Key Takeaways__
 
     ---
 
-    Interactive family tree from Adam to Jesus — lifespans in both Gregorian and Zadok calendars, Hebrew name studies, lineage paths, and who was alive at the same time as whom.
+    What the Key Takeaways section at the top of every study is for, the five things it draws out, and the two verses it's built on.
 
-    :material-update: Updated 28 September 2026 · [:octicons-arrow-right-24: Read](../genealogy.md)
+    :material-update: Updated 28 September 2026 · [:octicons-arrow-right-24: Read](key-takeaways.md)
 
--   __Prophetic Timeline__
-
-    ---
-
-    The millennial week charted: creation to the millennial reign across seven thousand-year days, with the Masoretic, Septuagint and Samaritan genealogy paths shown against dated archaeology.
-
-    :material-update: Updated 28 September 2026 · [:octicons-arrow-right-24: Read](../timeline.md)
-
--   __The Combined Timeline: One Line, Two Zones__
+-   __The Twelve: Disciples and Apostles__
 
     ---
 
-    Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,646 years at creation and converge on Abraham to the year.
+    The four lists of the Twelve compared position by position: the fixed groups of four hiding inside them, why the number had to be twelve, and the difference between a disciple and an apostle.
 
-    :material-update: Updated 28 September 2026 · [:octicons-arrow-right-24: Read](../last-things/combined-timeline.md)
-
--   __What World Population Declares: Biblical Chronology and the Arithmetic of Growth__
-
-    ---
-
-    God's first command to humanity was to multiply. This study traces that command from Genesis 1:28 through Noah and Israel in Egypt, then runs the Bible's own population figures against exponential growth models — how many people are alive, how many have ever been born, and what 6,000 years of history requires demographically.
-
-    :material-update: Updated 28 September 2026 · [:octicons-arrow-right-24: Read](../god/world-population-declares-gods-creation-and-biblical-truth.md)
+    :material-update: Updated 28 September 2026 · [:octicons-arrow-right-24: Read](../biblical-figures/twelve-apostles.md)
 
 -   __AI in These Studies__
 
@@ -387,22 +475,6 @@ when it is revised.
 
     :material-update: Updated 27 September 2026 · [:octicons-arrow-right-24: Read](../biblical-figures/bartholomew.md)
 
--   __Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41__
-
-    ---
-
-    An exegetical study of Job 40:15-41:34 — two real, mighty animals God parades before Job, neither of which matches anything alive today. What the Hebrew says about their habitat and their fire, why the hippopotamus and crocodile identifications fail, and where the creatures may be attested outside Scripture.
-
-    :material-update: Updated 27 September 2026 · [:octicons-arrow-right-24: Read](../god/behemoth-and-leviathan.md)
-
--   __Chronology Anchors: What Can Actually Be Dated, and How Tightly__
-
-    ---
-
-    Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its year in both candidate Zadok epochs. The fixed rail the rest of the biblical timeline hangs from.
-
-    :material-update: Updated 27 September 2026 · [:octicons-arrow-right-24: Read](../last-things/chronology-anchors.md)
-
 -   __James son of Alphaeus__
 
     ---
@@ -435,14 +507,6 @@ when it is revised.
 
     :material-update: Updated 27 September 2026 · [:octicons-arrow-right-24: Read](../biblical-figures/judas-iscariot.md)
 
--   __Key Takeaways__
-
-    ---
-
-    What the Key Takeaways section at the top of every study is for, the five things it draws out, and the two verses it's built on.
-
-    :material-update: Updated 27 September 2026 · [:octicons-arrow-right-24: Read](key-takeaways.md)
-
 -   __Matthew (Levi)__
 
     ---
@@ -450,14 +514,6 @@ when it is revised.
     The tax collector who left the booth mid-shift, threw a party for his disreputable colleagues, and then wrote himself into his own Gospel with the job title still attached.
 
     :material-update: Updated 27 September 2026 · [:octicons-arrow-right-24: Read](../biblical-figures/matthew.md)
-
--   __Paul: Apostle to the Gentiles__
-
-    ---
-
-    The man who persecuted the church became the one Jesus sent specifically to the Gentiles -- what Scripture actually claims about the connection between his conversion and theirs, and where it stops short of calling him a type.
-
-    :material-update: Updated 27 September 2026 · [:octicons-arrow-right-24: Read](../biblical-figures/paul.md)
 
 </div>
 <!-- recent-updates:auto-end -->

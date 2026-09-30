@@ -6,7 +6,7 @@ import argparse
 import glob
 import json
 
-# Fields the genealogy viewer reads off a person. Split by where they come from, because the
+# Fields the timeline's genealogy rows and person panel read off a person. Split by where they come from, because the
 # viewer's three worst bugs to date all came from assuming this data is uniform when it is not:
 #
 #   * a children id naming someone with no record (fixed f655c51)

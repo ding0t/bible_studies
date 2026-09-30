@@ -5,7 +5,7 @@ Thank you for wanting to contribute! This guide covers the current site structur
 ## Site structure
 
 - **Content** (studies, commentaries, resources) — plain markdown in `docs/content/`, built with [mkdocs-material](https://squidfunnel.github.io/mkdocs-material/). This is what you're editing for a new study.
-- **Interactive tools** (timeline, genealogy viewer) — an Astro app in `app/`. Separate codebase, separate dev workflow; only touch this if you're changing the timeline/genealogy tools themselves, not writing content.
+- **Interactive tools** (the Prophetic Timeline, which includes the genealogy) — React components in `app/`, bundled by esbuild into the mkdocs site. Separate codebase, separate dev workflow; only touch this if you're changing the timeline/genealogy tools themselves, not writing content.
 - Both get built and stitched together into one site by `.github/workflows/deploy.yml` on push to `main`.
 
 ## For study files

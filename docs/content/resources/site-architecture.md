@@ -5,7 +5,7 @@ description: "The tech behind this site: mkdocs with React tools bundled in, the
 tags: ["architecture", "mkdocs", "mermaid", "tech-stack"]
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-09-04
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -27,7 +27,7 @@ flowchart TD
 
     content -->|build-events.js scans frontmatter| events["events.json"]
     genjson["genealogy JSON files"] --> bundles
-    events --> bundles["esbuild bundles<br/>genealogy.js, timeline.js"]
+    events --> bundles["esbuild bundles<br/>timeline.js"]
     bundles -->|written into<br/>docs/content/assets/js| assets["tool bundles<br/>as ordinary site assets"]
 
     content -->|mkdocs build| site["site<br/>every page, tools included"]

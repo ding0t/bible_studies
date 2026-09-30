@@ -73,6 +73,8 @@ plugins:
   # See docs/content/about/our-taxonomy.md and docs/dev/taxonomy-migration.md.
   - redirects:
       redirect_maps:
+        # The Genealogy Viewer was folded into the Prophetic Timeline on 2026-10-01.
+        'genealogy.md': 'timeline.md#view=family'
         'resources/github.md': 'resources/public-data-sources.md'
         'bible/commentaries/01-genesis/chapter-001.md': 'commentaries/01-genesis/chapter-001.md'
         'bible/commentaries/01-genesis/chapter-002.md': 'commentaries/01-genesis/chapter-002.md'

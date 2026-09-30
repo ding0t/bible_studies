@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-09-27
+date_modified: 2026-09-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -246,12 +246,11 @@ Directories carry the subject and tags carry everything else — method, languag
 
 ### What are the timeline and genealogy pages?
 
-Two interactive charts rather than pages of prose. The
-[Timeline](timeline.md) sets creation through to the millennial reign against the millennial-week
-framework, showing the Masoretic, Septuagint and Samaritan chronologies side by side so you can see
-where they disagree. The [Genealogy](genealogy.md) is a family tree from Adam to Jesus — lifespans,
-Hebrew name meanings, and who was alive at the same time as whom, which is more surprising than it
-sounds.
+One interactive chart rather than pages of prose. The [Timeline](timeline.md) sets creation
+through to the millennial reign against the millennial-week framework, with a row for every person
+in the genealogy from Adam to Jesus: lifespans, Hebrew name meanings, family, and who was alive at
+the same time as whom, which is more surprising than it sounds. It zooms from the whole of history
+down to AD 33 hour by hour, and a family-tree view shows the same people by descent.
 
 ### Can I quote or reuse this?
 

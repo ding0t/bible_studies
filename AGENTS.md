@@ -95,13 +95,24 @@ hand-write those three.
 - Environment: primary dev platform is macOS (previously Windows 11 + WSL2 — may still see references to that in older notes).
 - Markup language: markdown
 - Site generator: **mkdocs-material** serves all prose content (`docs/content/`, `docs_dir` in
-  `mkdocs.yml`), the site home page, and **both interactive tools**. As of 2026-08-24 the prophetic
-  timeline (`docs/content/timeline.md`) and the genealogy viewer (`docs/content/genealogy.md`) are
-  ordinary mkdocs pages with a React bundle mounted into a `<div>`, so they inherit the site's
-  sidebar, search, breadcrumbs and palette toggle. **Astro is gone** — there is one site build.
-  `app/` is now just the React components, their utils, the build scripts and the tests; esbuild
-  bundles the four entry points in `app/src/entries/` (genealogy, timeline, the Scripture Links
+  `mkdocs.yml`), the site home page, and **the interactive tools**. The Prophetic Timeline
+  (`docs/content/timeline.md`) is an ordinary mkdocs page with a React bundle mounted into a
+  `<div>`, so it inherits the site's sidebar, search, breadcrumbs and palette toggle. Since
+  2026-10-01 it also carries the genealogy (a row per person, a person panel, a family-tree view);
+  the separate Genealogy Viewer is gone and `/genealogy/` redirects to `/timeline/#view=family`.
+  **Astro is gone** — there is one site build. `app/` is now just the React components
+  (`app/src/components/chronology/` for the timeline), their utils, the build scripts and the tests;
+  esbuild bundles the three entry points in `app/src/entries/` (the timeline, the Scripture Links
   explorer, and the site-wide verse and word pop-ups) into `docs/content/assets/js/`.
+- **One set of chronology facts.** `docs/data/chronology.json` holds every dated event once (anchor
+  table, Genesis markers, milestones, the AD 33 sequence, life events), each tagged with the people
+  it involves; the genealogy era files hold people, each storing ONE calendar (`zadok_year_*` for
+  Genesis-dated people, `gregorian_year_*` from Salmon on). `app/src/utils/chronology.js`
+  (`loadEvents`, `eventsForPerson`, `loadGenealogyPeople`) derives the other calendar and each
+  person's events, and the epoch is set only in `chronology.json`. `utils/validate_genealogy.py`
+  and `app/src/utils/chronology.test.js` fail on a duplicated calendar, an event list back in an
+  era file, a lifespan that disagrees with its dates, or a timeline row that disagrees with
+  Chronology Anchors.
 - **The site is served from `the-way.lewy.au` at its root** — a Cloudflare Workers Custom Domain,
   not `github.io/bible_studies` (stale and orphaned since the September 2026 migration; no longer
   built, no longer the custom domain, no longer even resolving there). Site-absolute URLs therefore
@@ -134,7 +145,7 @@ npm run lint         # eslint src/  (npm run format for prettier)
 
 The tools style themselves from ten `--color-*` CSS variables with light-mode fallbacks (the
 `theme` object in each component). `docs/content/assets/stylesheets/tools.css` maps those onto
-mkdocs-material's own variables, which is what makes the genealogy viewer follow the site's
+mkdocs-material's own variables, which is what makes the timeline follow the site's
 dark-mode toggle without any component change. Add a colour there, not as a hex in a component.
 
 The suites are plain `node:test` files, so a single one runs directly — `node --test

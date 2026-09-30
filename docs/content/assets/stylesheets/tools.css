@@ -1,7 +1,7 @@
-/* Theme bridge for the interactive tools (genealogy viewer, and the timeline once it migrates).
+/* Theme bridge for the interactive tools (the Prophetic Timeline, which now carries the genealogy).
  *
  * The React components style themselves inline from ten CSS custom properties, each written as
- * var(--color-x, <light-mode fallback>) -- see the `theme` object in GenealogyViewer.jsx and
+ * var(--color-x, <light-mode fallback>) -- see the `theme` object in app/src/components/chronology/shared.js and
  * MillennialWeek.jsx. Those ten used to be defined by Astro's BaseLayout, which carried its own
  * palette and its own dark-mode toggle. Now mkdocs-material owns the page, so they are defined
  * here in terms of material's own variables instead.
@@ -47,14 +47,12 @@
  * component keeps its own max-width and centring, so this raises the ceiling rather than forcing
  * full width.
  */
-.md-main:has(#genealogy-root) .md-grid,
-.md-main:has(#timeline-root) .md-grid {
+.md-main:has(.md-main:has(#timeline-root) .md-grid {
   max-width: 100%;
 }
 
 /* The tools render their own controls and headings; they don't need the article's top padding
  * fighting the card layout underneath. */
-#genealogy-root,
 #timeline-root {
   margin-top: 1rem;
 }
@@ -77,9 +75,6 @@
  * so the controls that DO set a colour deliberately -- white text on a saturated chip, say --
  * keep it; this only fills the gaps.
  */
-#genealogy-root button,
-#genealogy-root select,
-#genealogy-root input,
 #timeline-root button,
 #timeline-root select,
 #timeline-root input {
@@ -87,9 +82,6 @@
   font-family: inherit;
 }
 
-#genealogy-root select,
-#genealogy-root input,
-#genealogy-root option,
 #timeline-root select,
 #timeline-root input,
 #timeline-root option {
@@ -97,7 +89,6 @@
 }
 
 /* Placeholder text needs the muted token explicitly; it does not follow `color: inherit`. */
-#genealogy-root input::placeholder,
 #timeline-root input::placeholder {
   color: var(--color-text-muted);
   opacity: 1;

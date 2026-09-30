@@ -50,11 +50,3 @@ He kept the day and hour hidden (Mark 13:32).
 <div id="timeline-root" markdown="0"></div>
 
 <script type="module" src="/assets/js/timeline.js"></script>
-
-## Biblical Genealogy
-
-Explore the full genealogy from Adam to Jesus in detail — family trees, lifespans across the
-Gregorian and Zadok calendars, Hebrew name studies, and the same MT/LXX/SP chronology
-paths shown above, per person.
-
-[:octicons-arrow-right-24: Open the Genealogy Viewer](genealogy.md)
