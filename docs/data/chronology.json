@@ -925,5 +925,1132 @@
         "note": "God dwells with His people; the eternal state."
       }
     ]
+  },
+  "passion_sequence": {
+    "note": "AD 33 on this site's chronology: Friday 3 April (Julian) is Nisan 14, the crucifixion. Hours are counted from midnight at the start of Saturday 28 March; the Hebrew day runs from about 6 pm to 6 pm (Genesis 1:5; Leviticus 23:32), and clock times are the Gospels' hours (the third hour about 9 am). The three days and nights follow Three Days and Three Nights: three days touched, two nights, the third night being what the Friday reading has to absorb through inclusive reckoning (Matthew 27:63-64). Julian day labels are counted from 3 April; Hebrew dates assume a thirty-day Nisan and a twenty-nine-day Iyyar.",
+    "days": [
+      {
+        "k": 9,
+        "hebrew": "9 Nisan",
+        "start": 18,
+        "end": 42,
+        "daylight": "Sunday 29 March"
+      },
+      {
+        "k": 10,
+        "hebrew": "10 Nisan",
+        "start": 42,
+        "end": 66,
+        "daylight": "Monday 30 March"
+      },
+      {
+        "k": 11,
+        "hebrew": "11 Nisan",
+        "start": 66,
+        "end": 90,
+        "daylight": "Tuesday 31 March"
+      },
+      {
+        "k": 12,
+        "hebrew": "12 Nisan",
+        "start": 90,
+        "end": 114,
+        "daylight": "Wednesday 1 April"
+      },
+      {
+        "k": 13,
+        "hebrew": "13 Nisan",
+        "start": 114,
+        "end": 138,
+        "daylight": "Thursday 2 April"
+      },
+      {
+        "k": 14,
+        "hebrew": "14 Nisan",
+        "start": 138,
+        "end": 162,
+        "daylight": "Friday 3 April"
+      },
+      {
+        "k": 15,
+        "hebrew": "15 Nisan",
+        "start": 162,
+        "end": 186,
+        "daylight": "Saturday 4 April",
+        "sabbath": true
+      },
+      {
+        "k": 16,
+        "hebrew": "16 Nisan",
+        "start": 186,
+        "end": 210,
+        "daylight": "Sunday 5 April"
+      },
+      {
+        "k": 17,
+        "hebrew": "17 Nisan",
+        "start": 210,
+        "end": 234,
+        "daylight": "Monday 6 April"
+      },
+      {
+        "k": 18,
+        "hebrew": "18 Nisan",
+        "start": 234,
+        "end": 258,
+        "daylight": "Tuesday 7 April"
+      },
+      {
+        "k": 19,
+        "hebrew": "19 Nisan",
+        "start": 258,
+        "end": 282,
+        "daylight": "Wednesday 8 April"
+      },
+      {
+        "k": 20,
+        "hebrew": "20 Nisan",
+        "start": 282,
+        "end": 306,
+        "daylight": "Thursday 9 April"
+      },
+      {
+        "k": 21,
+        "hebrew": "21 Nisan",
+        "start": 306,
+        "end": 330,
+        "daylight": "Friday 10 April"
+      },
+      {
+        "k": 22,
+        "hebrew": "22 Nisan",
+        "start": 330,
+        "end": 354,
+        "daylight": "Saturday 11 April",
+        "sabbath": true
+      },
+      {
+        "k": 23,
+        "hebrew": "23 Nisan",
+        "start": 354,
+        "end": 378,
+        "daylight": "Sunday 12 April"
+      },
+      {
+        "k": 24,
+        "hebrew": "24 Nisan",
+        "start": 378,
+        "end": 402,
+        "daylight": "Monday 13 April"
+      },
+      {
+        "k": 25,
+        "hebrew": "25 Nisan",
+        "start": 402,
+        "end": 426,
+        "daylight": "Tuesday 14 April"
+      },
+      {
+        "k": 26,
+        "hebrew": "26 Nisan",
+        "start": 426,
+        "end": 450,
+        "daylight": "Wednesday 15 April"
+      },
+      {
+        "k": 27,
+        "hebrew": "27 Nisan",
+        "start": 450,
+        "end": 474,
+        "daylight": "Thursday 16 April"
+      },
+      {
+        "k": 28,
+        "hebrew": "28 Nisan",
+        "start": 474,
+        "end": 498,
+        "daylight": "Friday 17 April"
+      },
+      {
+        "k": 29,
+        "hebrew": "29 Nisan",
+        "start": 498,
+        "end": 522,
+        "daylight": "Saturday 18 April",
+        "sabbath": true
+      },
+      {
+        "k": 30,
+        "hebrew": "30 Nisan",
+        "start": 522,
+        "end": 546,
+        "daylight": "Sunday 19 April"
+      },
+      {
+        "k": 31,
+        "hebrew": "1 Iyyar",
+        "start": 546,
+        "end": 570,
+        "daylight": "Monday 20 April"
+      },
+      {
+        "k": 32,
+        "hebrew": "2 Iyyar",
+        "start": 570,
+        "end": 594,
+        "daylight": "Tuesday 21 April"
+      },
+      {
+        "k": 33,
+        "hebrew": "3 Iyyar",
+        "start": 594,
+        "end": 618,
+        "daylight": "Wednesday 22 April"
+      },
+      {
+        "k": 34,
+        "hebrew": "4 Iyyar",
+        "start": 618,
+        "end": 642,
+        "daylight": "Thursday 23 April"
+      },
+      {
+        "k": 35,
+        "hebrew": "5 Iyyar",
+        "start": 642,
+        "end": 666,
+        "daylight": "Friday 24 April"
+      },
+      {
+        "k": 36,
+        "hebrew": "6 Iyyar",
+        "start": 666,
+        "end": 690,
+        "daylight": "Saturday 25 April",
+        "sabbath": true
+      },
+      {
+        "k": 37,
+        "hebrew": "7 Iyyar",
+        "start": 690,
+        "end": 714,
+        "daylight": "Sunday 26 April"
+      },
+      {
+        "k": 38,
+        "hebrew": "8 Iyyar",
+        "start": 714,
+        "end": 738,
+        "daylight": "Monday 27 April"
+      },
+      {
+        "k": 39,
+        "hebrew": "9 Iyyar",
+        "start": 738,
+        "end": 762,
+        "daylight": "Tuesday 28 April"
+      },
+      {
+        "k": 40,
+        "hebrew": "10 Iyyar",
+        "start": 762,
+        "end": 786,
+        "daylight": "Wednesday 29 April"
+      },
+      {
+        "k": 41,
+        "hebrew": "11 Iyyar",
+        "start": 786,
+        "end": 810,
+        "daylight": "Thursday 30 April"
+      },
+      {
+        "k": 42,
+        "hebrew": "12 Iyyar",
+        "start": 810,
+        "end": 834,
+        "daylight": "Friday 1 May"
+      },
+      {
+        "k": 43,
+        "hebrew": "13 Iyyar",
+        "start": 834,
+        "end": 858,
+        "daylight": "Saturday 2 May",
+        "sabbath": true
+      },
+      {
+        "k": 44,
+        "hebrew": "14 Iyyar",
+        "start": 858,
+        "end": 882,
+        "daylight": "Sunday 3 May"
+      },
+      {
+        "k": 45,
+        "hebrew": "15 Iyyar",
+        "start": 882,
+        "end": 906,
+        "daylight": "Monday 4 May"
+      },
+      {
+        "k": 46,
+        "hebrew": "16 Iyyar",
+        "start": 906,
+        "end": 930,
+        "daylight": "Tuesday 5 May"
+      },
+      {
+        "k": 47,
+        "hebrew": "17 Iyyar",
+        "start": 930,
+        "end": 954,
+        "daylight": "Wednesday 6 May"
+      },
+      {
+        "k": 48,
+        "hebrew": "18 Iyyar",
+        "start": 954,
+        "end": 978,
+        "daylight": "Thursday 7 May"
+      },
+      {
+        "k": 49,
+        "hebrew": "19 Iyyar",
+        "start": 978,
+        "end": 1002,
+        "daylight": "Friday 8 May"
+      },
+      {
+        "k": 50,
+        "hebrew": "20 Iyyar",
+        "start": 1002,
+        "end": 1026,
+        "daylight": "Saturday 9 May",
+        "sabbath": true
+      },
+      {
+        "k": 51,
+        "hebrew": "21 Iyyar",
+        "start": 1026,
+        "end": 1050,
+        "daylight": "Sunday 10 May"
+      },
+      {
+        "k": 52,
+        "hebrew": "22 Iyyar",
+        "start": 1050,
+        "end": 1074,
+        "daylight": "Monday 11 May"
+      },
+      {
+        "k": 53,
+        "hebrew": "23 Iyyar",
+        "start": 1074,
+        "end": 1098,
+        "daylight": "Tuesday 12 May"
+      },
+      {
+        "k": 54,
+        "hebrew": "24 Iyyar",
+        "start": 1098,
+        "end": 1122,
+        "daylight": "Wednesday 13 May"
+      },
+      {
+        "k": 55,
+        "hebrew": "25 Iyyar",
+        "start": 1122,
+        "end": 1146,
+        "daylight": "Thursday 14 May"
+      },
+      {
+        "k": 56,
+        "hebrew": "26 Iyyar",
+        "start": 1146,
+        "end": 1170,
+        "daylight": "Friday 15 May"
+      },
+      {
+        "k": 57,
+        "hebrew": "27 Iyyar",
+        "start": 1170,
+        "end": 1194,
+        "daylight": "Saturday 16 May",
+        "sabbath": true
+      },
+      {
+        "k": 58,
+        "hebrew": "28 Iyyar",
+        "start": 1194,
+        "end": 1218,
+        "daylight": "Sunday 17 May"
+      },
+      {
+        "k": 59,
+        "hebrew": "29 Iyyar",
+        "start": 1218,
+        "end": 1242,
+        "daylight": "Monday 18 May"
+      },
+      {
+        "k": 60,
+        "hebrew": "1 Sivan",
+        "start": 1242,
+        "end": 1266,
+        "daylight": "Tuesday 19 May"
+      },
+      {
+        "k": 61,
+        "hebrew": "2 Sivan",
+        "start": 1266,
+        "end": 1290,
+        "daylight": "Wednesday 20 May"
+      },
+      {
+        "k": 62,
+        "hebrew": "3 Sivan",
+        "start": 1290,
+        "end": 1314,
+        "daylight": "Thursday 21 May"
+      },
+      {
+        "k": 63,
+        "hebrew": "4 Sivan",
+        "start": 1314,
+        "end": 1338,
+        "daylight": "Friday 22 May"
+      },
+      {
+        "k": 64,
+        "hebrew": "5 Sivan",
+        "start": 1338,
+        "end": 1362,
+        "daylight": "Saturday 23 May",
+        "sabbath": true
+      },
+      {
+        "k": 65,
+        "hebrew": "6 Sivan",
+        "start": 1362,
+        "end": 1386,
+        "daylight": "Sunday 24 May"
+      },
+      {
+        "k": 66,
+        "hebrew": "7 Sivan",
+        "start": 1386,
+        "end": 1410,
+        "daylight": "Monday 25 May"
+      }
+    ],
+    "events": [
+      {
+        "id": "entry",
+        "track": "jesus",
+        "at": 58,
+        "label": "The Triumphal Entry",
+        "refs": "Matthew 21:1-11; Mark 11:1-11; Luke 19:28-44; John 12:12-19",
+        "certainty": "contested",
+        "study_ref": "last-things/prophecy-events-times",
+        "note": "Monday 30 March, 10 Nisan, on Harold Hoehner's count of Daniel's sixty-nine weeks, which this site follows; 10 Nisan is the day the Passover lamb was chosen (Exodus 12:3). Tradition keeps Sunday 29 March. John 12:1, 12 puts it the day after Jesus reached Bethany 'six days before the Passover'."
+      },
+      {
+        "id": "temple_cleansed",
+        "track": "jesus",
+        "at": 82,
+        "label": "The temple cleared",
+        "refs": "Mark 11:12-19; Matthew 21:12-17",
+        "certainty": "contested",
+        "study_ref": "last-things/chronology-anchors",
+        "note": "Mark places it on the day after the entry (11:12, 15). John records an earlier clearing at the first Passover of the ministry (John 2:13-22)."
+      },
+      {
+        "id": "olivet",
+        "track": "jesus",
+        "at": 112,
+        "label": "The Olivet Discourse",
+        "refs": "Matthew 24-25; Mark 13; Luke 21",
+        "certainty": "contested",
+        "study_ref": "last-things/olivet-discourse",
+        "note": "On the Mount of Olives, opposite the temple, in the last days before the Passover (Mark 13:3; 14:1). The exact day is not given."
+      },
+      {
+        "id": "plot",
+        "track": "jesus",
+        "at": 108,
+        "label": "\"Two days before the Passover\": the plot, and Judas",
+        "refs": "Mark 14:1-2, 10-11; Matthew 26:1-5, 14-16",
+        "certainty": "stated",
+        "study_ref": "last-things/chronology-anchors",
+        "note": "Mark 14:1 dates it two days before the Passover and the Feast of Unleavened Bread."
+      },
+      {
+        "id": "supper",
+        "track": "jesus",
+        "at": 139,
+        "end": 142,
+        "label": "The Last Supper",
+        "refs": "Mark 14:12-25; Luke 22:7-23; John 13:1-30; 1 Corinthians 11:23-26",
+        "certainty": "site-reading",
+        "study_ref": "feasts/last-supper-four-cups",
+        "note": "Thursday evening, as Nisan 14 began. The Synoptics call the meal the Passover (Mark 14:12); John has the priests still to eat theirs the next day (John 18:28). How the two relate is debated; Three Days and Three Nights places the meal at the start of Nisan 14, and the four-cups study reads it through the Seder's cups."
+      },
+      {
+        "id": "gethsemane",
+        "track": "jesus",
+        "at": 143,
+        "end": 145,
+        "label": "Gethsemane and the arrest",
+        "refs": "Mark 14:26-52; John 18:1-12",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "The same night, across the Kidron.",
+        "summary": true
+      },
+      {
+        "id": "trials",
+        "track": "jesus",
+        "at": 145,
+        "end": 152,
+        "label": "Trials: Annas, Caiaphas, the council, Pilate, Herod",
+        "refs": "Mark 14:53-15:15; Luke 22:54-23:25; John 18:13-19:16",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Through the night; the council meets 'as soon as it was morning' (Mark 15:1). John 19:14 gives 'about the sixth hour' at Pilate's judgment, which is harmonised with Mark's third hour in more than one way.",
+        "summary": true
+      },
+      {
+        "id": "crucified",
+        "track": "jesus",
+        "at": 153,
+        "end": 159,
+        "label": "Crucified: the third hour to the ninth",
+        "refs": "Mark 15:25, 33-37",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Crucified at the third hour, about 9 am (Mark 15:25); darkness from the sixth to the ninth hour (15:33); He dies at the ninth hour, about 3 pm (15:34-37). 'Christ, our Passover lamb, has been sacrificed' (1 Corinthians 5:7).",
+        "summary": true
+      },
+      {
+        "id": "burial",
+        "track": "jesus",
+        "at": 160,
+        "end": 162,
+        "label": "Burial before sunset",
+        "refs": "Mark 15:42-47; John 19:31, 38-42",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "'The day of Preparation, that is, the day before the Sabbath' (Mark 15:42), and the bodies not to remain on the cross on the Sabbath (John 19:31).",
+        "summary": true
+      },
+      {
+        "id": "tomb",
+        "track": "jesus",
+        "at": 162,
+        "end": 197,
+        "label": "In the tomb",
+        "refs": "Matthew 12:40; 27:62-66",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Guarded from the Sabbath (Matthew 27:62-66). 'After three days' and 'until the third day' are used by the chief priests a sentence apart (27:63-64): inclusive reckoning."
+      },
+      {
+        "id": "women_rest",
+        "track": "jesus",
+        "at": 177,
+        "label": "The women rest on the Sabbath",
+        "refs": "Luke 23:56",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Having prepared spices, they rest 'according to the commandment'."
+      },
+      {
+        "id": "spices",
+        "track": "jesus",
+        "at": 187,
+        "label": "Spices bought, the Sabbath past",
+        "refs": "Mark 16:1",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "After sunset on Saturday, when the Sabbath was past."
+      },
+      {
+        "id": "empty_tomb",
+        "track": "jesus",
+        "at": 197,
+        "label": "The tomb found empty at dawn",
+        "refs": "Mark 16:1-8; Matthew 28:1-10; Luke 24:1-12; John 20:1-18",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "'Very early on the first day of the week, when the sun had risen' (Mark 16:2); 'while it was still dark' (John 20:1). The Gospels record the discovery, not the moment of rising.",
+        "summary": true
+      },
+      {
+        "id": "emmaus",
+        "track": "jesus",
+        "at": 207,
+        "end": 211,
+        "label": "Emmaus: \"the third day since these things happened\"",
+        "refs": "Luke 24:13-35",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Luke 24:21, counted on the Sunday itself: Friday one, Saturday two, Sunday three."
+      },
+      {
+        "id": "upper_room",
+        "track": "jesus",
+        "at": 212,
+        "label": "He appears to the disciples",
+        "refs": "Luke 24:36-49; John 20:19-23",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "The evening of the first day of the week (John 20:19)."
+      },
+      {
+        "id": "forty_days",
+        "track": "jesus",
+        "at": 198,
+        "end": 1134,
+        "label": "Forty days of appearances",
+        "refs": "Acts 1:3; 1 Corinthians 15:5-7",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "'Appearing to them during forty days and speaking about the kingdom of God' (Acts 1:3)."
+      },
+      {
+        "id": "ascension",
+        "track": "jesus",
+        "at": 1144,
+        "label": "The Ascension, about the fortieth day",
+        "refs": "Acts 1:9-11; Luke 24:50-51",
+        "certainty": "site-reading",
+        "study_ref": "last-things/day-is-near",
+        "note": "Thursday 14 May if the forty days are counted from the resurrection as day one. Acts gives 'during forty days', so the day is approximate."
+      },
+      {
+        "id": "waiting",
+        "track": "church",
+        "at": 1146,
+        "end": 1376,
+        "label": "The disciples wait in Jerusalem, praying",
+        "refs": "Acts 1:4, 12-14",
+        "certainty": "stated",
+        "study_ref": "last-things/day-is-near",
+        "note": "'Wait for the promise of the Father' (Acts 1:4)."
+      },
+      {
+        "id": "pentecost_spirit",
+        "track": "church",
+        "at": 1377,
+        "label": "The Spirit poured out; Peter preaches; about 3,000 baptised",
+        "refs": "Acts 2:1-41",
+        "certainty": "stated",
+        "study_ref": "last-things/day-is-near",
+        "note": "'When the day of Pentecost arrived' (Acts 2:1), at the third hour of the day (2:15). Peter quotes Joel 2:28-32."
+      },
+      {
+        "id": "feet",
+        "track": "jesus",
+        "at": 139,
+        "label": "He washes the disciples' feet",
+        "refs": "John 13:1-17",
+        "certainty": "stated",
+        "study_ref": "feasts/last-supper-four-cups",
+        "note": "'Before the Feast of the Passover', during supper (John 13:1-2).",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "bread_cup",
+        "track": "jesus",
+        "at": 140,
+        "label": "Bread and cup: \"my blood of the covenant\"",
+        "refs": "Mark 14:22-25; Luke 22:19-20; 1 Corinthians 11:23-26",
+        "certainty": "stated",
+        "study_ref": "feasts/last-supper-four-cups",
+        "note": "The cup 'after supper' (Luke 22:20) is where the Seder's third cup falls; see the four-cups study.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "judas_out",
+        "track": "jesus",
+        "at": 140.5,
+        "label": "Judas goes out: \"and it was night\"",
+        "refs": "John 13:21-30",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "John marks the hour only as night (13:30).",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "hymn",
+        "track": "jesus",
+        "at": 142,
+        "label": "A hymn, and out to the Mount of Olives",
+        "refs": "Mark 14:26; John 18:1",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Across the Kidron valley to the garden.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "gethsemane_prayer",
+        "track": "jesus",
+        "at": 142.5,
+        "label": "Gethsemane: \"not what I will, but what you will\"",
+        "refs": "Mark 14:32-42; Luke 22:39-46",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "'Could you not watch one hour?' (Mark 14:37): the prayer is measured in hours.",
+        "timing": "approx",
+        "detail": true,
+        "end": 143.9
+      },
+      {
+        "id": "arrest",
+        "track": "jesus",
+        "at": 144,
+        "label": "The kiss, and the arrest",
+        "refs": "Mark 14:43-50; John 18:2-12",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Judas comes with a crowd from the chief priests; the disciples flee.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "annas",
+        "track": "jesus",
+        "at": 145,
+        "label": "Before Annas",
+        "refs": "John 18:12-14, 19-24",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Questioned first by Annas, father-in-law of Caiaphas.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "caiaphas",
+        "track": "jesus",
+        "at": 146,
+        "label": "Before Caiaphas: \"I am\"",
+        "refs": "Mark 14:53-65; Matthew 26:57-68",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "False witnesses; the high priest's question and Jesus' answer from Daniel 7:13 and Psalm 110:1.",
+        "timing": "approx",
+        "detail": true,
+        "end": 149
+      },
+      {
+        "id": "denials",
+        "track": "jesus",
+        "at": 146.5,
+        "label": "Peter's three denials; the rooster crows",
+        "refs": "Mark 14:66-72; Luke 22:54-62",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "In the courtyard through the night. 'Cockcrow' is the Roman watch before dawn (Mark 13:35).",
+        "timing": "approx",
+        "detail": true,
+        "end": 147.5
+      },
+      {
+        "id": "council",
+        "track": "jesus",
+        "at": 150,
+        "label": "The council at daybreak",
+        "refs": "Mark 15:1; Luke 22:66-71",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "'As soon as it was morning' (Mark 15:1); 'when day came' (Luke 22:66).",
+        "timing": "stated",
+        "detail": true
+      },
+      {
+        "id": "pilate",
+        "track": "jesus",
+        "at": 150.5,
+        "label": "Before Pilate: \"Are you the King of the Jews?\"",
+        "refs": "John 18:28-38; Mark 15:2-5",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "'It was early' (John 18:28). The accusers stay outside the praetorium so as to eat the Passover.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "herod",
+        "track": "jesus",
+        "at": 151.25,
+        "label": "Sent to Herod Antipas, and back",
+        "refs": "Luke 23:6-12",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Herod was in Jerusalem for the feast.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "scourged",
+        "track": "jesus",
+        "at": 151.75,
+        "label": "Barabbas released; Jesus scourged and crowned with thorns",
+        "refs": "Mark 15:6-20; John 19:1-5",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "",
+        "timing": "approx",
+        "detail": true,
+        "end": 152.75
+      },
+      {
+        "id": "sentenced",
+        "track": "jesus",
+        "at": 152.75,
+        "label": "\"Behold your King!\": handed over to be crucified",
+        "refs": "John 19:13-16; Mark 15:15",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "John gives 'about the sixth hour' here (19:14), Mark the third hour for the crucifixion (15:25); the two are harmonised in more than one way, and the difference is noted rather than resolved.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "simon",
+        "track": "jesus",
+        "at": 152.8,
+        "label": "Simon of Cyrene carries the cross",
+        "refs": "Mark 15:20-22; Luke 23:26-32",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Out of the city to Golgotha.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "third_hour",
+        "track": "jesus",
+        "at": 153,
+        "label": "Crucified at the third hour",
+        "refs": "Mark 15:24-25",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "'It was the third hour when they crucified him' (Mark 15:25).",
+        "timing": "stated",
+        "detail": true
+      },
+      {
+        "id": "thief",
+        "track": "jesus",
+        "at": 154.5,
+        "label": "\"Today you will be with me in paradise\"",
+        "refs": "Luke 23:39-43",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Where Jesus and the thief were that day is taken up in Three Days and Three Nights.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "mother",
+        "track": "jesus",
+        "at": 155,
+        "label": "\"Woman, behold, your son\"",
+        "refs": "John 19:25-27",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "His mother given to the beloved disciple.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "darkness",
+        "track": "jesus",
+        "at": 156,
+        "label": "Darkness over the land",
+        "refs": "Mark 15:33; Luke 23:44-45",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "From the sixth hour to the ninth.",
+        "timing": "stated",
+        "detail": true,
+        "end": 159
+      },
+      {
+        "id": "forsaken",
+        "track": "jesus",
+        "at": 158.9,
+        "label": "\"My God, my God, why have you forsaken me?\"",
+        "refs": "Mark 15:34; Psalm 22:1",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "At the ninth hour.",
+        "timing": "stated",
+        "detail": true
+      },
+      {
+        "id": "finished",
+        "track": "jesus",
+        "at": 159,
+        "label": "\"It is finished\"; \"Father, into your hands\"; He dies",
+        "refs": "John 19:28-30; Luke 23:46; Mark 15:37",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "About the ninth hour, the afternoon the Passover lambs were slain.",
+        "timing": "stated",
+        "detail": true
+      },
+      {
+        "id": "curtain",
+        "track": "jesus",
+        "at": 159.1,
+        "label": "The temple curtain torn; the earthquake; the centurion",
+        "refs": "Mark 15:38-39; Matthew 27:51-54",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "pierced",
+        "track": "jesus",
+        "at": 160,
+        "label": "Legs broken; His side pierced",
+        "refs": "John 19:31-37",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "'Not one of his bones will be broken' (John 19:36; Exodus 12:46), the Passover lamb's rule.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "joseph",
+        "track": "jesus",
+        "at": 160.5,
+        "label": "Joseph of Arimathea asks for the body",
+        "refs": "Mark 15:42-45; John 19:38",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "'When evening had come, since it was the day of Preparation' (Mark 15:42).",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "laid",
+        "track": "jesus",
+        "at": 161,
+        "label": "Laid in the tomb; the stone rolled",
+        "refs": "Mark 15:46-47; John 19:39-42",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Nicodemus brings myrrh and aloes; the women see where He is laid.",
+        "timing": "approx",
+        "detail": true,
+        "end": 162
+      },
+      {
+        "id": "set_out",
+        "track": "jesus",
+        "at": 197,
+        "label": "The women set out \"while it was still dark\"",
+        "refs": "John 20:1; Matthew 28:1; Luke 24:1",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Toward the dawn of the first day of the week.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "angel",
+        "track": "jesus",
+        "at": 197.25,
+        "label": "Earthquake; the angel rolls back the stone",
+        "refs": "Matthew 28:2-4",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "The guards become like dead men. The order of the morning's events is harmonised in more than one way.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "risen",
+        "track": "jesus",
+        "at": 198,
+        "label": "\"He is not here, for he has risen\"",
+        "refs": "Mark 16:2-8; Matthew 28:5-8; Luke 24:1-8",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "'When the sun had risen' (Mark 16:2).",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "peter_john",
+        "track": "jesus",
+        "at": 198.5,
+        "label": "Peter and John run to the tomb",
+        "refs": "John 20:2-10; Luke 24:12",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "The linen cloths lying there.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "magdalene",
+        "track": "jesus",
+        "at": 199,
+        "label": "Jesus appears to Mary Magdalene",
+        "refs": "John 20:11-18",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "'I have seen the Lord.'",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "women_meet",
+        "track": "jesus",
+        "at": 199.25,
+        "label": "He meets the women: \"Greetings\"",
+        "refs": "Matthew 28:8-10",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "guards",
+        "track": "jesus",
+        "at": 200,
+        "label": "The guards report; the bribe",
+        "refs": "Matthew 28:11-15",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "toward_evening",
+        "track": "jesus",
+        "at": 209.5,
+        "label": "\"Stay with us, for it is toward evening\"",
+        "refs": "Luke 24:28-32",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "Known in the breaking of the bread.",
+        "timing": "approx",
+        "detail": true
+      },
+      {
+        "id": "to_simon",
+        "track": "jesus",
+        "at": 210.5,
+        "label": "\"The Lord has risen indeed, and has appeared to Simon!\"",
+        "refs": "Luke 24:33-35; 1 Corinthians 15:5",
+        "certainty": "stated",
+        "study_ref": "jesus/three-days-and-three-nights",
+        "note": "",
+        "timing": "approx",
+        "detail": true
+      }
+    ],
+    "feasts": [
+      {
+        "id": "passover",
+        "at": 156,
+        "end": 162,
+        "label": "Passover lambs slain (Nisan 14)",
+        "refs": "Exodus 12:6; Leviticus 23:5",
+        "note": "'Between the two evenings' of Nisan 14 (Exodus 12:6): the afternoon Jesus died."
+      },
+      {
+        "id": "unleavened",
+        "at": 162,
+        "end": 330,
+        "label": "Unleavened Bread (Nisan 15-21)",
+        "refs": "Leviticus 23:6-8",
+        "note": "Seven days; the first is a holy convocation. That Sabbath was 'a high day' (John 19:31)."
+      },
+      {
+        "id": "high_sabbath",
+        "at": 162,
+        "end": 186,
+        "label": "Sabbath, first day of Unleavened Bread: \"a high day\"",
+        "refs": "John 19:31; Leviticus 23:7",
+        "note": "The weekly Sabbath and the first day of the feast fall together in AD 33."
+      },
+      {
+        "id": "firstfruits",
+        "at": 198,
+        "label": "Firstfruits: the sheaf waved (Nisan 16)",
+        "refs": "Leviticus 23:10-11; 1 Corinthians 15:20, 23",
+        "note": "'On the day after the Sabbath the priest shall wave it' (Leviticus 23:11). Which Sabbath was disputed in the Second Temple period: the first day of Unleavened Bread, putting the sheaf on Nisan 16, or the weekly Sabbath, putting it on the Sunday. In AD 33 the first day of Unleavened Bread was itself the weekly Sabbath, so both readings give Sunday 5 April, the morning the tomb was found empty."
+      },
+      {
+        "id": "omer",
+        "at": 186,
+        "end": 1386,
+        "label": "The counting of the omer: fifty days",
+        "refs": "Leviticus 23:15-16",
+        "note": "'Seven full weeks... fifty days to the day after the seventh Sabbath.'"
+      },
+      {
+        "id": "weeks",
+        "at": 1362,
+        "end": 1386,
+        "label": "Feast of Weeks (Pentecost), 6 Sivan",
+        "refs": "Leviticus 23:15-21; Deuteronomy 16:9-12; Acts 2:1",
+        "note": "The fiftieth day from Firstfruits: Sunday 24 May AD 33. The Hebrew date assumes a thirty-day Nisan and a twenty-nine-day Iyyar."
+      }
+    ],
+    "three_days": [
+      {
+        "label": "Day 1 (part)",
+        "at": 150,
+        "end": 162,
+        "kind": "day",
+        "note": "Crucified, dead at about the ninth hour, buried before sunset."
+      },
+      {
+        "label": "Night 1",
+        "at": 162,
+        "end": 174,
+        "kind": "night",
+        "note": "In the tomb."
+      },
+      {
+        "label": "Day 2",
+        "at": 174,
+        "end": 186,
+        "kind": "day",
+        "note": "In the tomb; the Sabbath."
+      },
+      {
+        "label": "Night 2",
+        "at": 186,
+        "end": 198,
+        "kind": "night",
+        "note": "In the tomb; the Sabbath past."
+      },
+      {
+        "label": "Day 3 (part)",
+        "at": 197,
+        "end": 201,
+        "kind": "day",
+        "note": "The tomb empty at dawn."
+      }
+    ],
+    "three_days_note": "Three days touched, two nights. The night of the Preparation is the one He was alive for. The Friday reading takes Matthew 12:40 by inclusive reckoning, the convention Matthew 27:63-64 shows in use; a Wednesday reading gives three nights and has to absorb Mark 15:42 and Luke 24:21. This site holds Friday.",
+    "detail_note": "Events marked detail show in the hour-by-hour views. timing 'stated' means the Gospels give the hour; 'approx' means the order is given and the hour is placed within it. Events marked summary stand for a run of detail events and show only in the wider views."
   }
 }

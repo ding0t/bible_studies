@@ -138,6 +138,7 @@ const refs = new Set(
     ...CHRONOLOGY.milestones,
     ...CHRONOLOGY.genesis_markers,
     ...CHRONOLOGY.future_sequence.events,
+    ...CHRONOLOGY.passion_sequence.events,
   ]
     .map((x) => x.study_ref)
     .filter(Boolean)
@@ -176,5 +177,16 @@ assert(
   ),
   'no future event carries a calendar date'
 );
+
+console.log('\n9. AD 33 passion sequence:');
+const pdays = Object.fromEntries(CHRONOLOGY.passion_sequence.days.map((d) => [d.hebrew, d]));
+assert(pdays['14 Nisan'].daylight === 'Friday 3 April', 'Nisan 14 is Friday 3 April, the crucifixion');
+assert(pdays['15 Nisan'].sabbath && pdays['15 Nisan'].daylight === 'Saturday 4 April', 'Nisan 15, the first day of Unleavened Bread, is the Sabbath');
+assert(pdays['16 Nisan'].daylight === 'Sunday 5 April', 'Firstfruits, Nisan 16, is Sunday 5 April');
+assert(pdays['6 Sivan'].daylight === 'Sunday 24 May', 'Pentecost, the fiftieth day, is Sunday 24 May');
+assert((pdays['6 Sivan'].start - pdays['16 Nisan'].start) / 24 === 49, 'Firstfruits to Pentecost is fifty days counted inclusively (Leviticus 23:15-16)');
+const nights = CHRONOLOGY.passion_sequence.three_days.filter((b) => b.kind === 'night').length;
+const dayCount = CHRONOLOGY.passion_sequence.three_days.filter((b) => b.kind === 'day').length;
+assert(nights === 2 && dayCount === 3, 'three days touched and two nights, as Three Days and Three Nights counts them');
 
 console.log('\n✨ All tests passed!\n');

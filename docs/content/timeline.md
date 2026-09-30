@@ -27,7 +27,10 @@ Solomon independently of the genealogies. [Chronology Anchors](last-things/chron
 sets out what can be dated and how tightly, and why the site anchors where it does.
 
 Pick a period to zoom in (from Creation to the Flood down to the years Jesus was on earth) or type
-any range of years, and the list under the chart shows every event in view. The address bar keeps
+any range of years, and the list under the chart shows every event in view. AD 33 can be followed
+day by day and hour by hour: Passion Week, Thursday night's betrayal and trials, the crucifixion
+from the third hour to the ninth, the three days and nights, the resurrection morning, and the
+fifty days to Pentecost, each set against the Hebrew day and the appointed feast it fell on. The address bar keeps
 the period (for example `/timeline/#christ`), so a view can be shared. Two further periods,
 Daniel's seventieth week and the millennium, are drawn on their own undated axis: Scripture gives
 their lengths and their order, and keeps their start hidden.
