@@ -17,5 +17,6 @@ draft: false
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 3:14-19
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 3:1
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:5-6
+- [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 3:5-9
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 3:15
 <!-- commentary-index:auto-end -->

@@ -73,6 +73,22 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
 
     [:octicons-arrow-right-24: Read](original-language-data.md)
 
+-   __The Scribe Trained for the Kingdom__
+
+    ---
+
+    Matthew 13:52 — Jesus makes a scribe out of a disciple, stocks his storeroom with everything God has said, and sends him to spend it
+
+    [:octicons-arrow-right-24: Read](scribe-trained-for-the-kingdom.md)
+
+-   __Scribes and Pharisees: a Trade and a School__
+
+    ---
+
+    γραμματεύς names a profession, held by men of the Pharisees' party and by the town clerk of Ephesus, while Pharisee and Sadducee name schools. Matthew pairs the two to name Israel's teachers of the Law, and Jesus trains and sends scribes of His own.
+
+    [:octicons-arrow-right-24: Read](scribes-and-pharisees.md)
+
 -   __Bible Translations & Source Texts__
 
     ---

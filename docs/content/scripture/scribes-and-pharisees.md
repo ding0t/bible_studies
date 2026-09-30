@@ -3,7 +3,7 @@ title: "Scribes and Pharisees: a Trade and a School"
 category: "bible"
 description: "γραμματεύς names a profession, held by men of the Pharisees' party and by the town clerk of Ephesus, while Pharisee and Sadducee name schools. Matthew pairs the two to name Israel's teachers of the Law, and Jesus trains and sends scribes of His own."
 tags: ["scribes", "pharisees", "sadducees", "matthew", "discipleship", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Mark 2:16"
 bible_references: ["Mark 2:16", "Luke 5:30", "Acts 23:6-9", "Acts 19:35", "1 Corinthians 1:20", "Ezra 7:6-11", "Acts 5:17", "Acts 15:5", "Acts 26:5", "Philippians 3:5", "Matthew 5:20", "Matthew 23:1-36", "Luke 11:42-52", "Mark 12:38", "Mark 1:22", "John 7:15", "Matthew 13:52", "Matthew 23:34", "Mark 7:3", "Nehemiah 8:8", "Luke 11:53", "Acts 22:3"]
 date_created: 2026-10-01

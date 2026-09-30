@@ -14,5 +14,6 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 8:11
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 8:29
+- [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 8:19
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 8:17
 <!-- commentary-index:auto-end -->

@@ -19,6 +19,7 @@ draft: false
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:9-10
 - [Six Days of History](../../last-things/six-days-of-history.md) — 1:15
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:22
+- [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 1:26
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 1:15-17
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 1:13
 <!-- commentary-index:auto-end -->

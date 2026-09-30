@@ -14,4 +14,5 @@ draft: false
 
 - [Know the Truth](../../christian-life/know-the-truth.md) — 2:21
 - [Pride](../../sin/pride.md) — 2:16
+- [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 2:7-8
 <!-- commentary-index:auto-end -->

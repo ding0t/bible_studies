@@ -16,4 +16,5 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 3:16-17
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 3:16-17
 - [Know the Truth](../../christian-life/know-the-truth.md) — 3:7
+- [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 3:16-17
 <!-- commentary-index:auto-end -->

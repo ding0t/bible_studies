@@ -3,7 +3,7 @@ title: "The Scribe Trained for the Kingdom"
 category: "bible"
 description: "Matthew 13:52 — Jesus makes a scribe out of a disciple, stocks his storeroom with everything God has said, and sends him to spend it"
 tags: ["matthew", "discipleship", "study-method", "old-testament", "method/word-study", "lang/greek", "audience/teaching"]
-draft: true
+draft: false
 primary_passage: "Matthew 13:51-52"
 bible_references: ["Matthew 13:10-17", "Isaiah 6:9-10", "Matthew 13:35", "Matthew 13:44-53", "Matthew 9:16-17", "Matthew 12:35", "Matthew 5:17-20", "Matthew 23:34", "Matthew 28:19-20", "Matthew 8:19", "Matthew 27:57", "Matthew 12:14-50", "Matthew 13:39-40", "Ephesians 3:5-9", "Colossians 1:26", "Daniel 2:27-28", "Ezra 7:6-11", "Psalm 78:2", "2 Timothy 3:16-17", "1 John 2:7-8"]
 date_created: 2026-09-18
@@ -195,7 +195,7 @@ different word. That is what makes verse 52 the sentence it is — Jesus puts th
 sitting under someone else's teaching.
 
 Why "scribes and Pharisees" pairs a trade with a school is taken up in a separate study,
-*Scribes and Pharisees: a trade and a school*.
+[Scribes and Pharisees: a Trade and a School](scribes-and-pharisees.md).
 
 ### The 22 Matthew occurrences
 

@@ -1,6 +1,6 @@
 slug: "scribe-trained-for-the-kingdom"
 title: "The Scribe Trained for the Kingdom"
-status: reviewed
+status: published
 target_path: "docs/content/scripture/scribe-trained-for-the-kingdom.md"
 
 primary_passage: "Matthew 13:51-52"
@@ -191,7 +191,7 @@ stages:
 
 open_questions:
   - >
-    Pending link: when docs/content/scripture/scribes-and-pharisees.md is published, turn the
+    RESOLVED 2026-10-01: both studies published; pointer now links. Was: when scribes-and-pharisees.md is published, turn the
     plain-text pointer at the end of "Greek γραμματεύς and Hebrew סֹפֵר" into a link.
   - >
     Whether καινὰ καὶ παλαιά specifies the CONTENT of the store (new revelation and old
