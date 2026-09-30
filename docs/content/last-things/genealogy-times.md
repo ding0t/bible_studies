@@ -37,6 +37,8 @@ tracking a single promised line (Genesis 3:15's "seed of the woman") through nam
 whose names themselves carry meaning. Getting the math right and hearing what the names say are
 not competing projects.
 
+**In one sentence:** Genesis 5 and 11 give a real chronology whose Masoretic numbers hold up best of the three witnesses, and the line they count carries God's promise by name from Adam to His Son Jesus, so you can trust the God who kept it one generation at a time to keep His promises to you.
+
 ## Study outline
 
 - **How Genesis gives this data** — the fathering-age formula of Genesis 5 and 11, and where it stops.
@@ -45,10 +47,11 @@ not competing projects.
 - **Case studies** — the second Cainan, Methuselah's death and the Flood, and Terah's age at Abram's
   departure.
 - **Word studies** — which of the Genesis 5 names hold up in the lexicon.
-- **Toward a most probable timeline** — why the site follows the Masoretic numbers, the dates that
+- **Toward a most probable timeline** — why the site follows the Masoretic numbers, and the dates that
   result, and what stays open.
 - **What this means for prophecy and Christ** — Matthew's and Luke's genealogies, and the promise
   carried through named people.
+- **Annex: dating choices and open work** — the two data choices behind the dates, and the open items still tracked.
 
 ## How Genesis actually gives this data
 
@@ -216,6 +219,8 @@ than 969. Both ends move, and they move together: his death lands in AM 1307,
 again the Flood year. Two traditions that disagree about nearly every number in the chapter
 agree about this one relationship.
 
+#### The Septuagint: Methuselah outlives the Flood
+
 LXX alone breaks it, and by a specific 14 years. Its extra hundreds above Methuselah move his
 birth and the Flood together, so they change nothing here. The 14 comes from the two fathering
 ages after his birth: Methuselah fathers Lamech at 167 (MT 187) and Lamech fathers Noah at 188
@@ -233,6 +238,8 @@ This is the most consequential single data point in the whole survey, because it
 disagreement about a name's meaning — it's an internal tension inside the text of Genesis
 itself, and MT and SP resolve it in two structurally different ways.
 
+#### Two resolutions: the Masoretic 205 and the Samaritan 145
+
 Genesis 11:26 states Terah was 70 when he fathered Abram (named first, alongside Nahor and Haran —
 birth order not stated). But Genesis 12:4 has Abram leaving Haran at 75, and Acts 7:4
 is explicit that this happened *after* Terah's
@@ -247,6 +254,8 @@ SP's total for Terah is 145. Run the plain 70-year reading Genesis 11:26 states 
 assumption about birth order, and 70 + 75 = 145 exactly. Terah's death and Abram's departure land
 on the same year with no harmonizing move at all. MT's resolution reads past the plain sense of
 one verse to save the numbers; SP's numbers already match it.
+
+#### Contested: the study Bibles and this site's reading
 
 **Which is original is contested, and the study Bibles lean the other way from this site.** The
 NLT footnotes Genesis 11:32 "Some ancient versions read 145 years; compare 11:26 and 12:4" (*NLT
@@ -338,6 +347,42 @@ after it. [The Flood and the King Lists](../god/flood-and-the-king-lists.md) wei
 picture. All three variants agree on Terah's death because they share the anchor and the chain
 from Terah forward; they diverge only above him, which is the whole point.
 
+## What this means for prophecy and Christ
+
+### Two genealogies, two different jobs
+
+None of the above is only an arithmetic exercise. Two genealogies of Jesus survive (Matthew 1:1-17,
+Luke 3:23-38), and they're doing visibly different jobs. Matthew's is explicitly structured,
+"fourteen generations" three times over (Matthew 1:17), and to hit that count it compresses the
+king-list of Judah, skipping three known kings between Joram and Uzziah (compare Matthew 1:8 with 1
+Chronicles 3:11-12). That's not sloppiness; ancient genealogies routinely telescoped names for a
+structuring purpose without being understood as lying about lineage. It also means Matthew's list,
+unlike Genesis 5 and 11, was never trying to support a year count at all — it's making a royal,
+covenantal argument (this is David's heir), not a chronological one. Luke's list runs the other
+direction, all the way back past Abraham to "the son of Adam, the son of God" (Luke 3:38). That
+ending is the argument. Luke is setting up the same connection Paul makes explicitly. Jesus is the
+second Adam, undoing in obedience what the first Adam did in disobedience (Romans 5:12-21; 1
+Corinthians 15:22, 45). The genealogy exists, in Luke's hands, to make a theological claim stick to
+a real, traceable human line. It works precisely because that line is real.
+
+### The promise carried through named people
+
+That is the frame the chronological work sits inside. The line from Adam to Christ is tracked
+because of a promise, not because a date is owed. Genesis 3:15 said the woman's seed would come, and
+would matter. That promise runs through actual named people, whose own names turn out, more often
+than not, to be saying something true about what is coming. Seth, *appointed*, in place of a
+murdered brother. Enoch, *dedicated*, taken without dying, a preview that death isn't the last word
+for those who walk with God (Hebrews 11:5). Noah, *comfort*, the one who carries the appointed line
+through judgment rather than being consumed by it. Methuselah's own name may or may not have
+predicted the Flood by its own arithmetic. The pattern around him does, on a larger scale, what the
+whole genealogy does. It is a real record of real people, shaped by a real author, tracking a
+promise. Twenty-some centuries after its last recorded chapter, that promise is still being kept.
+
+The shape of the claim is settled: a single traceable line, named generation by generation,
+carrying a promise from Eden to an empty tomb. The math was always in service of that.
+
+## Annex: dating choices and open work
+
 ### Two choices behind the numbers
 
 Two figures behind these numbers are choices rather than manuscript readings, and both are now
@@ -373,40 +418,6 @@ work in the state file.
 
 The span from the Exodus to Solomon's temple, where the genealogies stop and 1 Kings 6:1's 480
 years take over, is the subject of a separate study, *Four Hundred and Eighty Years*, in draft.
-
-## What this means for prophecy and Christ
-
-### Two genealogies, two different jobs
-
-None of the above is only an arithmetic exercise. Two genealogies of Jesus survive (Matthew 1:1-17,
-Luke 3:23-38), and they're doing visibly different jobs. Matthew's is explicitly structured,
-"fourteen generations" three times over (Matthew 1:17), and to hit that count it compresses the
-king-list of Judah, skipping three known kings between Joram and Uzziah (compare Matthew 1:8 with 1
-Chronicles 3:11-12). That's not sloppiness; ancient genealogies routinely telescoped names for a
-structuring purpose without being understood as lying about lineage. It also means Matthew's list,
-unlike Genesis 5 and 11, was never trying to support a year count at all — it's making a royal,
-covenantal argument (this is David's heir), not a chronological one. Luke's list runs the other
-direction, all the way back past Abraham to "the son of Adam, the son of God" (Luke 3:38). That
-ending is the argument. Luke is setting up the same connection Paul makes explicitly. Jesus is the
-second Adam, undoing in obedience what the first Adam did in disobedience (Romans 5:12-21; 1
-Corinthians 15:22, 45). The genealogy exists, in Luke's hands, to make a theological claim stick to
-a real, traceable human line. It works precisely because that line is real.
-
-### The promise carried through named people
-
-That is the frame the chronological work sits inside. The line from Adam to Christ is tracked
-because of a promise, not because a date is owed. Genesis 3:15 said the woman's seed would come, and
-would matter. That promise runs through actual named people, whose own names turn out, more often
-than not, to be saying something true about what is coming. Seth, *appointed*, in place of a
-murdered brother. Enoch, *dedicated*, taken without dying, a preview that death isn't the last word
-for those who walk with God (Hebrews 11:5). Noah, *comfort*, the one who carries the appointed line
-through judgment rather than being consumed by it. Methuselah's own name may or may not have
-predicted the Flood by its own arithmetic. The pattern around him does, on a larger scale, what the
-whole genealogy does. It is a real record of real people, shaped by a real author, tracking a
-promise. Twenty-some centuries after its last recorded chapter, that promise is still being kept.
-
-The shape of the claim is settled: a single traceable line, named generation by generation,
-carrying a promise from Eden to an empty tomb. The math was always in service of that.
 
 ## References & Recommended Reading
 

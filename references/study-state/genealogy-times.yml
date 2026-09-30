@@ -470,3 +470,18 @@ simplify_2026-09-30:
     - "Closing: 'The specific date question has a working answer: ... What doesn't stay open is the shape of the claim: ... The math was always in service of that; it was never the point on its own.' -> 'The shape of the claim is settled: a single traceable line, named generation by generation, carrying a promise from Eden to an empty tomb. The math was always in service of that.'"
   added: "Study outline (Check 22); plain-text pointer to the fork."
   verify: "study_structure.py --verify-against HEAD: added_unexpected holds only the shortened sentences, pointer and outline."
+
+read_2026-09-30:
+  skill: read-bible-study
+  sections: "23 -> 27; median 151 -> 151 words; longest 382 -> 288; over 400: 0 -> 0"
+  changes:
+    - "Added the 'In one sentence:' thesis before the Study outline."
+    - "Methuselah: split the arithmetic at 'LXX alone breaks it' under '#### The Septuagint: Methuselah outlives the Flood'."
+    - "Terah: '#### Two resolutions: the Masoretic 205 and the Samaritan 145' and '#### Contested: the study Bibles and this site's reading', matching the Cainan section's shape."
+    - "Moved 'Two choices behind the numbers' and 'What stays open' (anchor kept for flood-and-the-king-lists.md) into '## Annex: dating choices and open work' after the Christ section; outline gains an annex bullet."
+  verify: "study_structure.py --verify-against HEAD: clean, removed [], added_unexpected [], added_allowed = the thesis only. mkdocs build --strict passes; inbound anchors resolve."
+  gaps_not_drafted: "No Key Takeaways, Discussion Questions or closing prayer."
+  for_author:
+    - "Genesis 5 and Genesis 11 tables open their sections with no claim leading in (rule 6); a one-line lead-in would need new prose."
+    - "Opening paragraph 2 ends on method ('The reasoning here feeds docs/data/genealogy's structured files') -- rule 9, report only."
+    - "Outline's timeline bullet still says 'and what stays open', which now lives in the annex; left verbatim to keep the prose-identity check clean."
