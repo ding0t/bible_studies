@@ -1,16 +1,42 @@
 slug: "scribes-and-pharisees"
 title: "Scribes and Pharisees: a Trade and a School"
-status: forked
+status: drafting
 target_path: "docs/content/scripture/scribes-and-pharisees.md"
 
 primary_passage: "Mark 2:16"
 supporting_passages:
-  - "Acts 23:9"
+  - "Luke 5:30"
+  - "Acts 23:6-9"
   - "Acts 19:35"
+  - "1 Corinthians 1:20"
+  - "Ezra 7:6-11"
+  - "Acts 5:17"
+  - "Acts 15:5"
+  - "Acts 26:5"
+  - "Philippians 3:5"
+  - "Matthew 5:20"
+  - "Matthew 23:1-36"
+  - "Luke 11:42-52"
+  - "Mark 12:38"
+  - "Mark 1:22"
+  - "John 7:15"
   - "Matthew 13:52"
   - "Matthew 23:34"
-  - "1 Corinthians 1:20"
-genre: [gospel, narrative]
+genre: [gospel, acts, topical]
+
+thesis: >
+  Scribe names a trade, the trained work of knowing and teaching a written law, and Pharisee names a
+  school of how to read and keep that Law; Matthew joins the two to name the whole teaching
+  establishment of Israel, and Jesus, who never trained under either, makes scribes of His own
+  disciples and sends them out.
+outline:
+  - {section: "Scribe names a trade", says: "Mark 2:16, Luke 5:30 and Acts 23:9 attach scribes to a party; Acts 19:35 has a pagan one; MACULA/Louw-Nida introduced; 63 occurrences (62 outside John 8:3)"}
+  - {section: "What a scribe did", says: "Ezra 7:6, 10-11 as the model; Sirach 38:24-39:11 as an extra-biblical witness to the profession c. 180 BC"}
+  - {section: "Pharisee and Sadducee name schools", says: "hairesis in Acts; Josephus War 2.162 and Ant. 13.297; contested etymologies; scribes who were not Pharisees (inference)"}
+  - {section: "Why Matthew pairs them", says: "Matthew 5:20 and 23 against Luke 11's split woes and Mark 12:38; pairing names the teaching establishment (marked as a reading)"}
+  - {section: "Jesus's own scribes", says: "Mark 1:22, John 7:15; Matthew 13:52; Matthew 23:34 vs Luke 11:49; what this shows about God, landed on the reader"}
+word_budget: 4000
+word_budget_reason: ""
 
 stages:
   forked:
@@ -22,16 +48,182 @@ stages:
       (the Pharisee/Sadducee-vs-scribe distinction; Mark 2:16 and Acts 23:9 with μέρος G3313; Acts
       19:35 the Ephesian town clerk, Louw-Nida 37.94 vs 53.94; the 62-occurrence NT distribution
       58/1/3). Only edit on the way: the heading promoted from ### to ##. The section's fifth
-      paragraph (γραμματεὺς μαθητευθείς) stayed in the parent. Every fact was re-queried in the
-      parent's additions_2026-09-16 (new_section_a) block, so the word study is verified and is not
-      to be redrafted. Needs develop-bible-study for an opening and "In one sentence" thesis, Key
-      Takeaways, discussion questions, a References section (MACULA/SBLGNT, ESV), and a first
-      mention that says what "the annotation" is (the moved text relies on the parent having
-      introduced the Macula dataset).
+      paragraph (γραμματεὺς μαθητευθείς) stayed in the parent.
+  developed:
+    done: true
+    notes: >
+      2026-10-01 develop-bible-study pass. Built out opening, In one sentence, Key Takeaways (Lessons
+      about Jesus, Memory verses, Be Transformed, Prayer; no Types & Prophecy -- none earned), Study
+      outline, five teaching sections, discussion questions, References. Forked prose kept; the fork's
+      H2 "A trade, not a school of thought" renamed "Scribe names a trade" (antithesis heading) and
+      split into H3s. Re-verified every forked claim from source (see findings). Draft left
+      draft: true; provenance script not run (instructed), so ai_provider_models is still [] and
+      validate warns on it.
+  findings: >
+    (1) COUNT CORRECTION. The fork said γραμματεύς occurs 62 times. bible_concordance G1122 on
+    macula-greek-sblgnt returns 63. The 63rd is John 8:3 (pericope adulterae), whose lemma is stored
+    with a different Unicode accent (tonos vs oxia), so the parent's lemma='γραμματεύς' SQL query
+    missed it. Domain split of all 63: 53.94 x59 (incl. John 8:3), 27.22 x3 (Matt 13:52, 23:34, 1 Cor
+    1:20), 37.94 x1 (Acts 19:35). The study now says 63, and 58/1/3 of the 62 outside John 7:53-8:11.
+    The parent study (scribe-trained-for-the-kingdom.md) does not print 62 in its current text as far
+    as checked (its 22-in-Matthew count is unaffected) -- flag for its review anyway.
+    (2) TEXTUAL VARIANT at Mark 2:16: CSB footnote "Other mss read scribes and Pharisees"; NKJV follows
+    that reading. SBLGNT (with apparatus marks), NA28 and UGNT all print τῶν Φαρισαίων. Added a short
+    note; argument does not rest on Mark alone (Luke 5:30 οἱ γραμματεῖς αὐτῶν; Acts 23:9 μέρους).
+    (3) αἵρεσις (G139, LN 11.50) used of Sadducees (Acts 5:17) and Pharisees (Acts 15:5; 26:5); never of
+    scribes. Acts 26:5 ἀκριβεστάτην αἵρεσιν matches Josephus BJ 2.162 μετὰ ἀκριβείας ... αἵρεσιν.
+    (4) Matthew: γραμματεύς and Φαρισαῖος share a verse 10 times (5:20; 12:38; 15:1; 23:2, 13, 15, 23,
+    25, 27, 29) -- 7 in ch. 23. Mark 3 verses, Luke 5, John 1 (8:3), Acts 1. No verse has γραμματεύς
+    with Σαδδουκαῖος.
+    (5) Luke 11:42-52 splits woes: Pharisees (42-44), lawyers νομικός G3544 (46-52). νομικός 9x NT, 6 in
+    Luke. Matthew 23:34 "I send ... scribes" vs Luke 11:49 "the Wisdom of God said ... apostles".
+    (6) Sirach 38:24 Greek γραμματεύς (lxx-lemmas Sir 38:24 pos 2); KJV Apocrypha renders "learned man".
+    Text read raw from scrollmapper deuterocanonical (raw-only source).
+    (7) Etymology: Abbott-Smith (TBESG) gives Aram. פְּרִישָׁא; Middle LSJ "Separatist, from pharash";
+    TBESH H6567 פָּרַשׁ "to make distinct, declare, distinguish, separate"; Neh 8:8 מְפֹרָשׁ = H6567
+    (MACULA). Marked contested in prose. Sadducee < Zadok (Abbott-Smith cites 2 Sam 15:24), marked
+    debated.
+
+evidence:
+  - {id: mk216-esv, what: "scribes of the Pharisees (ESV)", tool: study_verse, args: {book: Mark, chapter: 2, verse: 16, work_id: esv-study-bible}, expect_contains: "And the scribes of the Pharisees", checked: 2026-10-01}
+  - {id: mk216-na28, what: "NA28 reads τῶν Φαρισαίων (expectation trimmed: NA28 stores ί with a different accent codepoint than typed)", tool: study_verse, args: {book: Mark, chapter: 2, verse: 16, work_id: na28-greek-nt}, expect_contains: "τῶν Φαρισα", checked: 2026-10-01}
+  - {id: lk530-esv, what: "the Pharisees and their scribes", tool: study_verse, args: {book: Luke, chapter: 5, verse: 30, work_id: esv-study-bible}, expect_contains: "the Pharisees and their scribes", checked: 2026-10-01}
+  - {id: ac239-esv, what: "scribes of the Pharisees' party", tool: study_verse, args: {book: Acts, chapter: 23, verse: 9, work_id: esv-study-bible}, expect_contains: "some of the scribes of the Pharisees' party", checked: 2026-10-01}
+  - {id: ac238-esv, what: "Sadducees deny resurrection", tool: study_verse, args: {book: Acts, chapter: 23, verse: 8, work_id: esv-study-bible}, expect_contains: "the Sadducees say that there is no resurrection, nor angel, nor spirit", checked: 2026-10-01}
+  - {id: ac1935-esv, what: "town clerk", tool: study_verse, args: {book: Acts, chapter: 19, verse: 35, work_id: esv-study-bible}, expect_contains: "the town clerk had quieted the crowd", checked: 2026-10-01}
+  - {id: 1co120-esv, what: "Where is the scribe?", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 20, work_id: esv-study-bible}, expect_contains: "Where is the scribe?", checked: 2026-10-01}
+  - {id: ezr76-esv, what: "scribe skilled in the Law of Moses", tool: study_verse, args: {book: Ezra, chapter: 7, verse: 6, work_id: esv-study-bible}, expect_contains: "He was a scribe skilled in the Law of Moses", checked: 2026-10-01}
+  - {id: ezr710-esv, what: "study, do, teach", tool: study_verse, args: {book: Ezra, chapter: 7, verse: 10, work_id: esv-study-bible}, expect_contains: "to study the Law of the LORD, and to do it and to teach", checked: 2026-10-01}
+  - {id: ezr711-esv, what: "Ezra the priest, the scribe", tool: study_verse, args: {book: Ezra, chapter: 7, verse: 11, work_id: esv-study-bible}, expect_contains: "Ezra the priest, the scribe", checked: 2026-10-01}
+  - {id: ac517-esv, what: "party of the Sadducees", tool: study_verse, args: {book: Acts, chapter: 5, verse: 17, work_id: esv-study-bible}, expect_contains: "the party of the Sadducees", checked: 2026-10-01}
+  - {id: ac265-esv, what: "strictest party", tool: study_verse, args: {book: Acts, chapter: 26, verse: 5, work_id: esv-study-bible}, expect_contains: "according to the strictest party of our religion I have lived as a Pharisee", checked: 2026-10-01}
+  - {id: php35-esv, what: "as to the law, a Pharisee", tool: study_verse, args: {book: Phil, chapter: 3, verse: 5, work_id: esv-study-bible}, expect_contains: "as to the law, a Pharisee", checked: 2026-10-01}
+  - {id: mk73-esv, what: "tradition of the elders", tool: study_verse, args: {book: Mark, chapter: 7, verse: 3, work_id: esv-study-bible}, expect_contains: "holding to the tradition of the elders", checked: 2026-10-01}
+  - {id: neh88-esv, what: "clearly", tool: study_verse, args: {book: Neh, chapter: 8, verse: 8, work_id: esv-study-bible}, expect_contains: "from the Law of God, clearly", checked: 2026-10-01}
+  - {id: mt520-esv, what: "exceeds scribes and Pharisees", tool: study_verse, args: {book: Matt, chapter: 5, verse: 20, work_id: esv-study-bible}, expect_contains: "unless your righteousness exceeds that of the scribes and Pharisees", checked: 2026-10-01}
+  - {id: mt232-esv, what: "Moses' seat", tool: study_verse, args: {book: Matt, chapter: 23, verse: 2, work_id: esv-study-bible}, expect_contains: "The scribes and the Pharisees sit on Moses' seat", checked: 2026-10-01}
+  - {id: mt233-esv, what: "preach but do not practice", tool: study_verse, args: {book: Matt, chapter: 23, verse: 3, work_id: esv-study-bible}, expect_contains: "For they preach, but do not practice", checked: 2026-10-01}
+  - {id: lk1146-esv, what: "woe to you lawyers also", tool: study_verse, args: {book: Luke, chapter: 11, verse: 46, work_id: esv-study-bible}, expect_contains: "Woe to you lawyers also!", checked: 2026-10-01}
+  - {id: lk1149-esv, what: "Wisdom of God said", tool: study_verse, args: {book: Luke, chapter: 11, verse: 49, work_id: esv-study-bible}, expect_contains: "Therefore also the Wisdom of God said, ‘I will send them prophets and apostles", checked: 2026-10-01}
+  - {id: mk1238-esv, what: "Beware of the scribes", tool: study_verse, args: {book: Mark, chapter: 12, verse: 38, work_id: esv-study-bible}, expect_contains: "Beware of the scribes", checked: 2026-10-01}
+  - {id: mk122-esv, what: "not as the scribes", tool: study_verse, args: {book: Mark, chapter: 1, verse: 22, work_id: esv-study-bible}, expect_contains: "as one who had authority, and not as the scribes", checked: 2026-10-01}
+  - {id: jn715-esv, what: "never studied", tool: study_verse, args: {book: John, chapter: 7, verse: 15, work_id: esv-study-bible}, expect_contains: "when he has never studied?", checked: 2026-10-01}
+  - {id: mt1352-esv, what: "scribe trained for the kingdom", tool: study_verse, args: {book: Matt, chapter: 13, verse: 52, work_id: esv-study-bible}, expect_contains: "every scribe who has been trained for the kingdom of heaven", checked: 2026-10-01}
+  - {id: mt2334-esv, what: "I send you prophets and wise men and scribes", tool: study_verse, args: {book: Matt, chapter: 23, verse: 34, work_id: esv-study-bible}, expect_contains: "Therefore I send you prophets and wise men and scribes", checked: 2026-10-01}
+  - {id: g1122-63, what: "grammateus 63x in MACULA SBLGNT (incl. John 8:3)", tool: bible_concordance, args: {strongs: G1122, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 63", checked: 2026-10-01}
+  - {id: g1122-matt-22, what: "grammateus 22x in Matthew", tool: bible_concordance, args: {strongs: G1122, book: Matt, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 22", checked: 2026-10-01}
+  - {id: g3544-9, what: "nomikos 9x NT", tool: bible_concordance, args: {strongs: G3544, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 9", checked: 2026-10-01}
+  - {id: g3544-luke-6, what: "nomikos 6x in Luke", tool: bible_concordance, args: {strongs: G3544, book: Luke, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 6", checked: 2026-10-01}
+  - {id: ac239-meros, what: "μέρος G3313 at Acts 23:9", tool: bible_verse, args: {book: Acts, chapter: 23, verse: 9, translation: sblgnt}, expect_contains: "τοῦ μέρους τῶν Φαρισαίων", checked: 2026-10-01}
+  - {id: ac265-hairesis, what: "ἀκριβεστάτην αἵρεσιν", tool: bible_verse, args: {book: Acts, chapter: 26, verse: 5, translation: sblgnt}, expect_contains: "ἀκριβεστάτην αἵρεσιν", checked: 2026-10-01}
+  - {id: neh88-parash, what: "מְפֹרָשׁ is H6567", tool: bible_verse, args: {book: Neh, chapter: 8, verse: 8, translation: morphhb-wlc}, expect_contains: "6567", checked: 2026-10-01}
+
+  - {id: lk1153-esv, what: "Luke pairs scribes and Pharisees right after the split woes", tool: study_verse, args: {book: Luke, chapter: 11, verse: 53, work_id: esv-study-bible}, expect_contains: "the scribes and the Pharisees began to press him hard", checked: 2026-10-01}
+  - {id: ezr712-esv, what: "letter addresses Ezra the priest, the scribe", tool: study_verse, args: {book: Ezra, chapter: 7, verse: 12, work_id: esv-study-bible}, expect_contains: "to Ezra the priest, the scribe of the Law of the God of heaven", checked: 2026-10-01}
+  - {id: ac223-esv, what: "strict manner of the law", tool: study_verse, args: {book: Acts, chapter: 22, verse: 3, work_id: esv-study-bible}, expect_contains: "according to the strict manner of the law of our fathers", checked: 2026-10-01}
+  - {id: php39-esv, what: "righteousness from God that depends on faith", tool: study_verse, args: {book: Phil, chapter: 3, verse: 9, work_id: esv-study-bible}, expect_contains: "the righteousness from God that depends on faith", checked: 2026-10-01}
+  - {id: jn546-esv, what: "he wrote of me", tool: study_verse, args: {book: John, chapter: 5, verse: 46, work_id: esv-study-bible}, expect_contains: "for he wrote of me", checked: 2026-10-01}
+  - {id: mk216-csb-fn, what: "CSB footnote: other mss read scribes and Pharisees", tool: study_note, args: {book: Mark, chapter: 2, verse: 16, note_type: footnote, work_id: csb-ancient-faith-study-bible}, expect_contains: "Other mss read scribes and Pharisees", checked: 2026-10-01}
+  - {id: mt232-esvsb, what: "ESV SB: two distinct groups with overlap", tool: study_note, args: {book: Matt, chapter: 23, verse: 2, work_id: esv-study-bible}, expect_contains: "two distinct groups, though there was some overlap between them", checked: 2026-10-01}
 
 open_questions:
   - >
     Once published, the parent's plain-text pointer ("taken up in a separate study, *Scribes and
-    Pharisees: a trade and a school*") should become a link to this page.
+    Pharisees: a trade and a school*") should become a link to this page. Both are drafts; left as
+    plain text per instruction.
+  - >
+    Josephus and Sirach are not replayable by the evidence tools: Josephus was checked against the
+    Perseus Greek (tlg0526.tlg004 grc2 §2.162; tlg0526.tlg001 grc2 §13.297, fetched 2026-10-01) and
+    Whiston's English on $BIBLE_MEDIA_ROOT/biblefacts/other/Josephus_complete.pdf; Sirach read raw from
+    references/open-data/scrollmapper-bible-databases-deuterocanonical/sources/en/book-of-sirach/.
+  - >
+    "Sadducees' scribes" is stated as an inference only (scribes placed with chief priests: Matt 2:4;
+    Mark 14:1; 15:31). No text names a scribe as a Sadducee.
+  - >
+    Author: the Matthew 23:34 / Luke 11:49 comparison is presented as Jesus speaking in the place of
+    God's Wisdom, marked as an inference. Confirm you are comfortable with that framing.
+  - >
+    Word count ~2,975 by a whole-section count excluding References and Study outline (quotes and
+    Key Takeaways included) -- under the 4,000 budget, above the brief's 2,500 aim.
+
+resources_consulted:
+  - {type: other, title: "MACULA Greek (SBLGNT) / SBLGNT / UGNT / NA28", note: "counts, domains, Mark 2:16 reading"}
+  - {type: other, title: "MACULA Hebrew (WLC); lxx-lemmas", note: "Ezra 7:6 sofer; Neh 8:8 H6567; γραμματεύς at 2Esd 7:6, 11 and Sir 38:24"}
+  - {type: lexicon, title: "Abbott-Smith, Manual Greek Lexicon; Middle LSJ (STEPBible TBESG)", note: "Φαρισαῖος from Aram. פְּרִישָׁא; 'Separatist'; Σαδδουκαῖος < Zadok"}
+  - {type: lexicon, title: "STEPBible TBESH", note: "H6567 פָּרַשׁ make distinct, declare, separate"}
+  - {type: commentary, title: "ESV Study Bible", note: "Matt 3:7, 23:2 (distinct groups with overlap -- confirmed), 23:13-36; John 1:24. Confirmed; contributed the 23:2 wording quoted."}
+  - {type: commentary, title: "NIV / NKJV Cultural Backgrounds Study Bible", note: "Mark 2:16 (Pharisees meticulous interpreters, so some teachers of the law were Pharisees -- confirmed); Matt 23:2 Moses' seat"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "Matt 3:7; Acts 23:9"}
+  - {type: other, title: "CSB Ancient Faith Study Bible footnote, Mark 2:16", note: "contributed: the 'scribes and Pharisees' variant, which changed the draft (added text note)"}
+  - {type: other, title: "Josephus, BJ 2.162; AJ 13.297 (Niese via Perseus; Whiston)", note: "Pharisees as akribeia school; tradition of the fathers vs Sadducees"}
+  - {type: other, title: "Sirach 38:24-39:11 (KJV Apocrypha)", note: "extra-biblical witness to the scribal profession"}
+
+review_2026-10-01:
+  reviewer: independent review-bible-study pass (separate agent from the drafter)
+  checked: >
+    Every ESV quotation re-queried in study-notes.db (all verbatim); Mark 2:16 across ESV, CSB, NIV,
+    NASB, LSB, NKJV, NA28, SBLGNT, UGNT, Byz, TR, KJV; CSB footnote; G1122 63 (59 x 53.94 incl. John
+    8:3, 3 x 27.22 Matt 13:52 / 23:34 / 1 Cor 1:20, 1 x 37.94 Acts 19:35) and 22 in Matthew;
+    G1122+G5330 same-verse counts Matt 10 (7 in ch. 23), Mark 3, Luke 5 (5:21, 30; 6:7; 11:53;
+    15:2), John 1, Acts 1; no G1122+G4523 verse; G3544 9x, 6 in Luke; G139 at Acts 5:17, 15:5, 26:5
+    (also 24:5, 14; 28:22 of Christians); G3313 LN 11.8 at Acts 23:6, 9; lxx-lemmas γραμματεύς at
+    2Esd 7:6, 11 and Sir 38:24; H5608a Ezra 7:6, H6567 Neh 8:8; TBESG Abbott-Smith (Aram. פְּרִישָׁא,
+    Sadducee < 2 Sam 15:24); Middle LSJ "Separatist" (found in TFLSJ, not TBESG); Sirach 38:24-39:6 KJV
+    raw text; Josephus War 2.162 and Ant 13.297 in Whiston (Josephus_complete.pdf) and Niese Greek
+    (Perseus grc2, re-fetched); Life 12 in Whiston. ESV SB note on Matt 23:2 and 23:13-36; NIV BTSB
+    and NLT LASB on Matt 23:34 (independent commentary check). review_gaps: no quotation gaps.
+    validate: only the expected ai_provider_models warning. Statement of faith: 66-book canon
+    (Sirach disclaimer consistent); Justification "credited, not achieved" consistent with the
+    revised Be Transformed.
+  findings_and_fixes: >
+    MODERATE (false synthetic claim) "Luke's parallel keeps the two groups apart ... Luke separates
+    the trade from the school; Matthew joins them" -- Luke pairs the two nouns in 5 verses, one of
+    them (11:53) closing the very scene. Rewritten: Luke divides the woes, then names both at 11:53,
+    so his lawyers are the scribes; Matthew keeps the pair in all six woes that name their hearers.
+    MINOR: "Six woes follow" -- Matthew 23 has seven (ESV SB counts seven); six name scribes and
+    Pharisees, 23:16 "blind guides". Fixed. MINOR: "Mark says so in three words" -- the Greek phrase
+    is four. Fixed. MINOR: "Where Luke has 'apostles', Matthew has 'scribes'" overprecise (two terms
+    vs three); "the scribes Jesus sends are His disciples" was unattributed -- now set against NLT
+    LASB (early-church leaders) and NIV BTSB (adds John the Baptist and Jesus). MINOR: Josephus
+    "same two words" -- Josephus has the noun ἀκρίβεια, Acts 26:5 the adjective; now cites Acts 22:3
+    where Luke's Paul uses the same noun. MINOR: Josephus "a Pharisee by his own account" given its
+    source (Life 12) and his own wording. MINOR: Ezra 7:11 is the narrator's heading, not the
+    letter; now quotes the letter itself (7:12). MINOR: μέρος "technical term for a faction"
+    softened (LN 11.8, literally "part", same word as Acts 23:6). MINOR: Middle LSJ misattributed
+    to TBESG (it is in TFLSJ), and the "separation from impurity and those careless of the Law"
+    gloss was unsourced; replaced with the LSJ's own sense. MINOR: Be Transformed "Think" ended in
+    two unanchored sentences ("tools"; "Righteousness comes from Jesus") -- now anchored in
+    Philippians 3:7-9 and names credited righteousness. MINOR: "What this shows about God" --
+    "the Word the Law spoke of" mixed John 1 and Moses; now John 5:46. MINOR: bible_references
+    lacked Mark 7:3, Nehemiah 8:8; added with Luke 11:53 and Acts 22:3. MINOR: named Byz/TR as the
+    source of the Mark 2:16 variant. References updated (TFLSJ, Life 12, NIV BTSB 23:34, NLT LASB).
+  not_changed_for_author: >
+    (a) New singleton tags scribes / pharisees / sadducees -- keep or drop. (b) αἵρεσις is also
+    Luke's word for the Christians (Acts 24:5, 14; 28:22); the study says only "scribes are never
+    called an αἵρεσις", which is true, but the Christian usage would strengthen "school". Not added
+    (add-nothing on size). (c) Matthew 23:2-3 "Jesus affirms the office" is the common reading; an
+    ironic reading exists and is unmarked. (d) Antithesis density low (about 3 in ~3,000 words);
+    no Check-21 run over 600 words; register of Key Takeaways, prayer and application left to the
+    author's ear per human-review.md.
+  size: "~3,790 words by wc incl. frontmatter and references (budget 4,000); review fixes net about +230."
+
+read_2026-10-01:
+  scope: "read-bible-study structure pass (stranger reader, separate session from drafter and reviewer); no sentence changed"
+  changes:
+    - "Split H3 'What Josephus says' at 'Josephus also says what divided the schools:' -- first half renamed 'Josephus on the school of precision' (War 2.162, akribeia/Acts 22:3), second half under new H3 'What divided the schools' (Ant. 13.297, Mark 7:3, Acts 23:8). Two ideas under one heading."
+    - "Split H3 'How Luke and Mark tell it' at 'Mark's parallel warns...' -- first half renamed 'How Luke divides the woes'; the closing paragraph, which answers the H2's own question, now under new H3 'What Matthew's pairing names' instead of buried at the end of a Luke subsection."
+    - "Renamed H3 'Sixty-three occurrences' -> 'Sixty-three occurrences, three senses' (the section is the 58/1/3 distribution, not only the count)."
+  unchanged: "All H2s, In one sentence, Key Takeaways and Study outline untouched; outline anchors all target H2s, so still valid. No inbound links to the renamed H3 anchors anywhere in docs/content."
+  sections: "35 -> 37"
+  median_section_words: "88 -> 88"
+  sections_over_400: "0 -> 0"
+  longest_section_words: "240 -> 180"
+  verify: "study_structure.py --verify-against e1dcd196 (git stash create of the uncommitted tree): clean, removed [], added_unexpected [], added_allowed []"
+  validate: "npm run validate: only the expected ai_provider_models warning for this file"
+  findings_not_fixed_prose:
+    - "'What this shows about God' is the study's conclusion (Ezra -> Jesus -> disciples) but sits as an H3 inside 'Jesus's own scribes'. Promoting it to H2 would want a Study outline bullet; left for the author."
+    - "'What Matthew's pairing names' opens with Mark 12:38 before reaching Matthew; its topic sentence ('Matthew wrote for readers who knew the Law...') is second. Reordering would edit prose."
+    - "'What divided the schools' now opens 'Josephus also says what divided the schools:', which repeats the heading; harmless, but the author may trim."
+    - "Not re-verified: this pass checks no quotation, count or citation (review-bible-study ran 2026-10-01)."
 
 last_updated: "2026-10-01"
