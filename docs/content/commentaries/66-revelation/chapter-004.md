@@ -17,4 +17,5 @@ draft: false
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 4:5
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 4:1
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 4:1
+- [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 4:11
 <!-- commentary-index:auto-end -->

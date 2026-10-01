@@ -14,4 +14,5 @@ draft: false
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 6:16
 - [Pride](../../sin/pride.md) — 6:14
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 6:1
 <!-- commentary-index:auto-end -->

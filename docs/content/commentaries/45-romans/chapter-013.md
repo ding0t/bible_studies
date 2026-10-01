@@ -14,4 +14,5 @@ draft: false
 
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 13:12
 - [The Restrainer](../../last-things/the-restrainer.md) — 13:4
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 13:4
 <!-- commentary-index:auto-end -->

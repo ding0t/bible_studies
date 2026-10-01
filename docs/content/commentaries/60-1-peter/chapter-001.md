@@ -20,4 +20,5 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:19
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:18-19
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 1:4
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 1:3
 <!-- commentary-index:auto-end -->

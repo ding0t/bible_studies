@@ -24,5 +24,6 @@ draft: false
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 10:35-36
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 10:40-42
 - [Thomas](../../biblical-figures/thomas.md) — 10:3
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 10:3
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 10:5-7
 <!-- commentary-index:auto-end -->

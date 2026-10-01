@@ -26,4 +26,5 @@ draft: false
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 1:35-51
 - [The Way](../../jesus/the-way.md) — 1:23
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 1:39
+- [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 1:1-3
 <!-- commentary-index:auto-end -->

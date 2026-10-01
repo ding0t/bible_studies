@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-09-30
+date_modified: 2026-10-01
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -25,6 +25,48 @@ than a study topic.
 ## new
 
 Add new items here. They get a number and move into their section.
+
+### Forgiveness
+
+- what is biblical forgiveness
+- avoiding errors and guilt in forgivness as a christian
+- when forgivenes sis not warranted biblically
+- love is differnt to forgiveness
+
+### Fixes found by the 2026-10-01 reviews
+
+- [Christians and Deliverance Ministry](../spiritual-beings/deliverance/christians-and-deliverance.md)
+  puts δαιμονίζομαι in John 10:20, where the Greek is δαιμόνιον ἔχει; the verb is in 10:21. Its
+  κολαφίζω argument ("Scripture had the vocabulary ... It uses a different word entirely") rests on
+  one occurrence; the verb is used five times, four of literal blows.
+- [As the Snake Was Lifted Up](../jesus/as-the-snake-was-lifted.md) states the manner reading of
+  οὕτως in John 3:16 as settled; the CSB, LSB and NLT footnotes split both ways. Mark it contested,
+  as [Verses Quoted Well](../scripture/verses-quoted-well.md) does.
+
+### Memory verses - in hebrew
+
+- a couple of key verses to learn in original hebrew, like gen 1:1 
+
+### learn hebrew
+
+- expand the material for aleph beth - do the first week, the words, the link to the videos
+- make sure you have some material on learning the alphabet etc, basics
+
+### Tribulation period
+
+all the events in order for the period of daniels 70th week, the time of jacobs trouble
+
+- what this period purpose is
+- where is the church
+- where is israel
+- will there be saints in the tribulation
+
+### Fix the fasting study 
+
+
+When to fast "Break spiritual strongholds" is reading like deliverance ministry
+
+- needs a rewrite
 
 ## Quick reference
 
@@ -52,7 +94,6 @@ Add new items here. They get a number and move into their section.
 | [8.2](#82-chronology-follow-ups) | Chronology follow-ups | Sources & tooling |
 | [9.1](#91-calling-good-evil-and-evil-good) | Calling good evil and evil good | Sin |
 | [9.2](#92-sexual-immorality) | Sexual immorality | Sin |
-| [10.2](#102-where-two-or-three-are-gathered) | Where two or three are gathered | Christian life |
 | [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
 | [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
 
@@ -714,28 +755,6 @@ The current study is very light.
 
 ## 10. Christian life
 
-### 10.2 Where two or three are gathered
-
-> ✝️ [Matthew 18:20 (ESV)](https://www.blueletterbible.org/esv/mat/18/20)
->
-> 20 For where two or three are gathered in my name, there am I among them.
-
-This verse is often quoted as though Jesus needs at least two people present to be with them, or to
-make prayer effective. The study should teach what Jesus actually said.
-
-- **Context first:** 18:20 closes a paragraph about a brother who sins (18:15-20): go to him alone,
-  then with one or two others, then tell it to the church. "Two or three" echoes the law's
-  requirement of two or three witnesses (Deuteronomy 19:15, which Jesus quotes at 18:16). The
-  promise of His presence stands behind the church's judgement in that process.
-- **Word study:** συνάγω (*synagō*, "gather", the root of *synagogue*) and "in my name".
-- **Cultural background:** the Jewish saying that the Divine Presence rests on even two who study
-  the law together (m. Avot 3:2, 3:6). Jesus' promise has the same shape, with Himself in that
-  place. Cite from a primary source.
-- **Pastoral landing:** a believer praying or worshipping alone is not alone. Jesus promised to be
-  with His disciples always (Matthew 28:20), and the Spirit dwells in each believer (1 Corinthians
-  6:19). The call to meet together (Hebrews 10:24-25) stands alongside that. The study should say
-  both.
-
 ### 10.3 Religion and the Way
 
 We are called to know Jesus, who is the truth, and so to have assurance of life in Him. Religion as
@@ -792,3 +811,6 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 5.4 | The Olivet Discourse, regrouped by the disciples' questions | [The Olivet Discourse](../last-things/olivet-discourse.md) regrouped under the question each part answers, a section on which question the flight to the mountains answers (marked contested), and "one taken, one left" pointed at [One Taken, One Left](../last-things/one-taken-one-left.md) from both it and the rapture study, 2026-09-28 |
 | 5.8 | We will all be changed, raised imperishable | [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) (1 Corinthians 15:35-58), linked from At Home with the Lord (4.2); the white robes of 5.6 treated as a separate gift, 2026-09-28 |
 | 10.5 | In humility | [In Humility](../christian-life/humility.md) (Philippians 2:1-11), rooted in dependence on God; its counterpart [Pride](../sin/pride.md), with "You are gods" and the Isaiah 14 / Ezekiel 28 question marked contested, 2026-09-28 |
+| 10.2 | Where two or three are gathered | [Where Two or Three Are Gathered](../israel-and-church/where-two-or-three-are-gathered.md) (Matthew 18:15-20), filed under the church because the passage is about the church dealing with a brother's sin; gives a verdict on each church use of the verse, with prayer alone and together, 2026-10-01 |
+| new | Commonly misquoted scripture | [Verses Often Misquoted](../scripture/verses-often-misquoted.md): 1 Peter 3:15, Matthew 18:20, John 8:32, 1 Corinthians 15:44, Mark 9:29 and "demonized" (Mark 5:15), each linked to its study, 2026-10-01 |
+| new | Well used scripture | [Verses Quoted Well](../scripture/verses-quoted-well.md): Genesis 1:1 (with the Hebrew and pronunciation), John 3:16 and Hebrews 11:1, 2026-10-01 |

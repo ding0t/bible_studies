@@ -20,4 +20,5 @@ draft: false
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 1:20-24
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:18-25
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:3
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 1:23
 <!-- commentary-index:auto-end -->

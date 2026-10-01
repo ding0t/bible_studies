@@ -1,0 +1,98 @@
+slug: verses-quoted-well
+title: "Verses Quoted Well"
+status: published
+target_path: docs/content/scripture/verses-quoted-well.md
+
+primary_passage: "Genesis 1:1; John 3:16; Hebrews 11:1"
+supporting_passages:
+  - "John 1:1-3"
+  - "Psalm 33:6"
+  - "Hebrews 11:3"
+  - "Revelation 4:11"
+  - "John 3:14-19"
+  - "1 John 4:9-10"
+  - "Romans 5:8"
+  - "Hebrews 10:35-39"
+  - "Hebrews 11:6"
+  - "Hebrews 11:39-12:2"
+  - "Hebrews 1:3"
+  - "Hebrews 3:14"
+genre: [topical, ot-narrative, gospel, epistle]
+
+thesis: >
+  Genesis 1:1, John 3:16 and Hebrews 11:1 survive being quoted alone because each states its
+  paragraph's point in one sentence; read in their paragraphs they show more of the same God --
+  Creator through His Son, Giver of His Son, and Keeper of His promises.
+outline:
+  - {section: "Key Takeaways", says: "the three truths and what they show of God"}
+  - {section: "Why these travel well", says: "a verse that is its paragraph's thesis sentence keeps its meaning when quoted alone"}
+  - {section: "Genesis 1:1", says: "bara, Elohim, merism; heading or first act; John 1:1-3"}
+  - {section: "John 3:16", says: "houtos points back to the serpent; kosmos; monogenes; propitiation"}
+  - {section: "Hebrews 11:1", says: "hypostasis and elenchos; the chapter's definition; Jesus the perfecter"}
+  - {section: "Discussion questions", says: "language, context, Christ, the hard part, the reader"}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      From backlog "new" item "Well used scripture" (John 3:16, Heb 11:1, Gen 1:1): why each is used
+      well, its meaning, tags, link to study. Companion to verses-often-misquoted.md, filed in
+      scripture/. Gen 1:1 given in Hebrew with pronunciation, which also serves the backlog's
+      "memory verses in Hebrew" item in part.
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Per entry; inherited from linked studies."
+    literary_context:
+      done: true
+      notes: >
+        John 3:16 opens Οὕτως γάρ, continuing 3:14-15 (as-the-snake-was-lifted.md). Hebrews 11:1
+        defines the faith of 10:38-39 and heads the chapter (NIV CBSB: definition then thesis).
+        Genesis 1:1: summary heading or first event (ESV SB gives both, prefers first event via
+        Heb 11:3, Rev 4:11).
+    content_word_studies:
+      done: true
+      terms:
+        - {word: "בָּרָא", language: hebrew, transliteration: bara, strongs_id: H1254, gloss: "create", notes: "ESV SB: always God as subject in the OT."}
+        - {word: "אֱלֹהִים", language: hebrew, transliteration: Elohim, strongs_id: H430, gloss: "God", notes: "plural form, singular verb bara (Vqp3ms per UHB)."}
+        - {word: "οὕτως", language: greek, transliteration: houtōs, strongs_id: G3779, gloss: "thus, in this way"}
+        - {word: "μονογενής", language: greek, transliteration: monogenēs, strongs_id: G3439, gloss: "only, unique", notes: "John 1:14, 18; 3:16, 18 in SBLGNT John."}
+        - {word: "ὑπόστασις", language: greek, transliteration: hypostasis, strongs_id: G5287, gloss: "assurance, substance", notes: "5x SBLGNT: 2 Cor 9:4; 11:17; Heb 1:3; 3:14; 11:1. LSB fn 'Or substance'."}
+        - {word: "ἔλεγχος", language: greek, transliteration: elenchos, strongs_id: G1650, gloss: "conviction, proof", notes: "LSB fn 'Or evidence'. MACULA also maps 2 Tim 3:16 to G1650 -- no exhaustiveness claim made."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: ""
+    theological_principle:
+      done: true
+      notes: "God made everything through His Son; God gave that Son for the rebel world; faith rests on that God's promises."
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "John 1:1-3", relation: "'In the beginning' -- the Word through whom all was made"}
+      - {ref: "1 John 4:9-10", relation: "only Son sent; propitiation"}
+      - {ref: "Hebrews 12:2", relation: "Jesus the founder and perfecter of faith"}
+    translations_compared: ["ESV", "LSB footnotes", "CSB footnotes"]
+    divergences_noted: "Heb 11:1 hypostasis 'assurance'/'substance'; elenchos 'conviction'/'evidence'."
+  drafting:
+    done: true
+    file: docs/content/scripture/verses-quoted-well.md
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "John 3:16 houtos: manner vs degree is contested; presented both sides, no position forced."
+  - "Elohim plural as a hint of plurality in the Godhead: contested; marked as such."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: Crossway, note: "Gen 1:1 (bara always God as subject; two readings of v1; Elohim plural form), John 3:16 ('most famous summary of the gospel'; world vs Israel), Heb 11:1 (hypostasis; not blind trust). Confirmed and contributed the Gen 1:1 two-views framing."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: Zondervan, note: "Heb 11:1 -- 'faith' 24 times in ch. 11; 10:36-39 introduces faith and endurance. Contributed."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: Zondervan, note: "Heb 11:1 as definition then thesis (v2), rhetorical anaphora 'by faith'."}
+  - {type: other, title: "LSB and CSB footnotes", note: "Heb 11:1 alternate renderings."}
+  - {type: other, title: "bible-text.db", author: "MACULA SBLGNT, unfoldingWord UHB/ULT", note: "Counts and interlinear."}
+last_updated: "2026-10-01"

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Six Days of History](../../last-things/six-days-of-history.md) — 1:1-31 (primary passage)
+- [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 1:1 (primary passage)
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 1:1-31
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 1:2
 - [Biblical Numerology](../../scripture/numerology.md) — 1:1

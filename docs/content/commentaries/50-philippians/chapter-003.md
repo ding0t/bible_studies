@@ -18,5 +18,6 @@ draft: false
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 3:4-11
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 3:5
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 3:20
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 3:21
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 3:20-21
 <!-- commentary-index:auto-end -->

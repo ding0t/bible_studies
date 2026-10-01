@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:21
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 5:19-20
 <!-- commentary-index:auto-end -->

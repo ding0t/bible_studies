@@ -14,4 +14,5 @@ draft: false
 
 - [Faith](../../salvation/faith.md) — 3:19
 - [The Way](../../jesus/the-way.md) — 3:10
+- [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 3:14
 <!-- commentary-index:auto-end -->

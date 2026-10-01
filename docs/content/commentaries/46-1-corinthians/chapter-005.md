@@ -16,4 +16,6 @@ draft: false
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:7-8
 - [The Restrainer](../../last-things/the-restrainer.md) — 5:2
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 5:7
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 5:4
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 5:4-5
 <!-- commentary-index:auto-end -->

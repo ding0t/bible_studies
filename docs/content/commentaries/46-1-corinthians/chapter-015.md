@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 15:44 (primary passage)
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 15:35-58 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 15:20
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 15:58

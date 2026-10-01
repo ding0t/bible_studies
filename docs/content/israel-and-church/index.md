@@ -4,7 +4,7 @@ category: "other"
 description: "The covenants, the distinction between Israel and the Church, and the Hebrew roots of the faith."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-28
+date_modified: 2026-10-01
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -48,6 +48,14 @@ The covenants, the distinction between Israel and the Church, and the Hebrew roo
     God gathers Israel to the land for His holy name's sake, then cleanses her; refines a remnant through the time of distress for Jacob; and turns the nation to mourn for Jesus, the one they pierced. Ezekiel 36 and Zechariah 12-13, with 1948 weighed carefully.
 
     [:octicons-arrow-right-24: Read](israels-regathering-and-refining.md)
+
+-   __Where Two or Three Are Gathered__
+
+    ---
+
+    Matthew 18:20 is often said in church as though Jesus comes, or prayer gains power, once two or more are present. In context it closes Jesus' teaching on going after a brother who has sinned. What the verse promises, which uses of it are fair, and why a believer praying alone is not alone.
+
+    [:octicons-arrow-right-24: Read](where-two-or-three-are-gathered.md)
 
 -   __The Wife of the Lamb__
 

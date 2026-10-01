@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 5:25-34 (primary passage)
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 5:15 (primary passage)
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:12
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 5:7-9
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 5:37

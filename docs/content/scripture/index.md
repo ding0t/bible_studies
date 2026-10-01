@@ -4,7 +4,7 @@ category: "other"
 description: "The Bible about itself -- canon, manuscripts, translation, and the archaeology behind the text."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-28
+date_modified: 2026-10-01
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -96,6 +96,22 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
     The English translations, Hebrew Masoretic witnesses, and Greek New Testament/Septuagint texts this project relies on — strengths, cautions, publication history, and which ones are actually queryable in this repo's own database versus cited from general knowledge.
 
     [:octicons-arrow-right-24: Read](translations.md)
+
+-   __Verses Often Misquoted__
+
+    ---
+
+    Six well-known verses read back into their paragraphs: how each is usually quoted, what it says in context, and the study on this site that works it through. Read where they stand, each gives you more of Jesus than its slogan does.
+
+    [:octicons-arrow-right-24: Read](verses-often-misquoted.md)
+
+-   __Verses Quoted Well__
+
+    ---
+
+    Genesis 1:1, John 3:16 and Hebrews 11:1 keep their meaning when quoted alone, because each is its paragraph's own thesis sentence. Why they travel well, what their key words mean, and what their context adds.
+
+    [:octicons-arrow-right-24: Read](verses-quoted-well.md)
 
 </div>
 <!-- section-index:auto-end -->

@@ -17,4 +17,5 @@ draft: false
 - [Faith](../../salvation/faith.md) — 12:2
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 12:22-24
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 12:22-23
+- [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 12:2
 <!-- commentary-index:auto-end -->

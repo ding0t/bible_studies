@@ -17,4 +17,6 @@ draft: false
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 4:1
 - [Know the Truth](../../christian-life/know-the-truth.md) — 4:6
 - [The Restrainer](../../last-things/the-restrainer.md) — 4:4
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:4
+- [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 4:9-10
 <!-- commentary-index:auto-end -->

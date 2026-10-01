@@ -16,4 +16,6 @@ draft: false
 - [Faith](../../salvation/faith.md) — 14:28-31
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 14:23
 - [Simon Peter](../../biblical-figures/peter.md) — 14:28-31
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 14:23
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 14:23
 <!-- commentary-index:auto-end -->

@@ -17,4 +17,5 @@ draft: false
 - [John son of Zebedee](../../biblical-figures/john.md) — 4:13
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:23-31
 - [The Way](../../jesus/the-way.md) — 4:12
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 4:24-31
 <!-- commentary-index:auto-end -->

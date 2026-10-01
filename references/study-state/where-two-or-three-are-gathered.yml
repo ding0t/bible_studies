@@ -1,0 +1,117 @@
+slug: where-two-or-three-are-gathered
+title: "Where Two or Three Are Gathered"
+status: published
+target_path: docs/content/israel-and-church/where-two-or-three-are-gathered.md
+
+primary_passage: "Matthew 18:15-20"
+supporting_passages:
+  - "Matthew 18:1-14"
+  - "Matthew 18:21-35"
+  - "Leviticus 19:17"
+  - "Deuteronomy 19:15"
+  - "Matthew 16:18-19"
+  - "John 20:22-23"
+  - "Matthew 1:23"
+  - "Matthew 28:20"
+  - "1 Corinthians 5:4-5, 11-13"
+  - "2 Corinthians 2:6-8"
+  - "Galatians 6:1"
+  - "2 Thessalonians 3:14-15"
+  - "1 Timothy 5:19-20"
+  - "Luke 17:3-4"
+genre: [gospel]
+
+thesis: >
+  In Matthew 18:15-20 Jesus gives His church a way to go after a brother who has sinned -- alone,
+  then with witnesses, then together -- and promises that when it gathers in His name to do it, He,
+  God with us, stands among them; so you can confront sin as love, and pray alone knowing He is with
+  you, because His presence never waited for a second person.
+outline:
+  - {section: "Key Takeaways", says: "Jesus as Immanuel present in discipline; discipline as pursuit"}
+  - {section: "Study outline", says: "map"}
+  - {section: "The paragraph and its use", says: "quote 18:15-20; the small-meeting use and what it leaves out"}
+  - {section: "Where it sits in Matthew 18", says: "child, stumbling, lost sheep before; forgiveness after; the shepherd's pursuit frames it"}
+  - {section: "Three steps", says: "elenchō from Lev 19:17 and 1QS; 'against you' variant; witnesses of Deut 19:15; ekklesia; Gentile and tax collector"}
+  - {section: "Binding and loosing", says: "future perfect periphrastic; translations divide; heaven's authority over the decision"}
+  - {section: "Two or three in my name", says: "pragma; contested breadth; Shekhinah idiom; Immanuel frame 1:23-18:20-28:20"}
+  - {section: "How the apostles practised it", says: "1 Cor 5; 2 Cor 2; Gal 6:1; 2 Thess 3; 1 Tim 5"}
+  - {section: "Then and now", says: "what transfers; what this passage is not a licence for"}
+  - {section: "Discussion questions", says: "five facets"}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Brief is backlog 10.2 (Christian life): answer the use of 18:20 in prayer and worship as if
+      Jesus needs two or more, or prayer works better with more; word study synagō and 'in my name';
+      Avot 3:2 and 3:6 from a primary source; land both 'alone is not alone' (Matt 28:20; 1 Cor 6:19)
+      and Heb 10:24-25. Author (2026-10-01): give an explicit verdict -- fair where it is fair, out of
+      context where it is. First draft was filed in israel-and-church/ from the 'new' bullet alone;
+      placed in israel-and-church/ (ecclesiology): author ruled placement follows what the verse means,
+      and the exegesis makes it about the church dealing with sin; prayer is the corrected misuse.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Reproof before witnesses was established Jewish practice: Lev 19:17 (yakach, LXX elenchō);
+        1QS 5:24-6:1 (Community Rule) requires reproof 'in truth, humility and loving-kindness' and
+        forbids bringing a matter before the Many without prior reproof before witnesses (Abegg
+        transcription, ETCBC Text-Fabric 2.0, extracted 2026-10-01; 5:26 partly reconstructed).
+        NIV CBSB: synagogues doubled as courts; exclusion attested in DSS and later rabbis.
+    literary_context:
+      done: true
+      notes: >
+        Fourth discourse (ESV SB: 18:1-35 life in the kingdom community). 18:1-5 child; 6-9
+        stumbling; 10-14 lost sheep, 'not the will of my Father ... that one of these little ones
+        should perish' (ESV omits v11); 15-20 brother who sins; 21-35 forgiveness, unforgiving
+        servant, 18:35.
+    content_word_studies:
+      done: true
+      terms:
+        - {word: "ἐλέγχω", language: greek, transliteration: elenchō, strongs_id: G1651, gloss: "reprove, show the fault", notes: "Matt 18:15 aorist imperative; LXX Lev 19:17 ἐλεγμῷ ἐλέγξεις renders הוֹכֵחַ תּוֹכִיחַ (yakach H3198); 1QS להוכיח same root."}
+        - {word: "κερδαίνω", language: greek, transliteration: kerdainō, strongs_id: G2770, gloss: "gain"}
+        - {word: "ἐκκλησία", language: greek, transliteration: ekklēsia, strongs_id: G1577, gloss: "assembly, church", notes: "Gospels: Matt 16:18; 18:17 (2x) only; Mark/Luke/John 0 (SBLGNT, bible_concordance)."}
+        - {word: "ἐθνικός / τελώνης", language: greek, transliteration: "ethnikos / telōnēs", strongs_id: "G1482 / G5057", gloss: "Gentile / tax collector"}
+        - {word: "δέω / λύω", language: greek, transliteration: "deō / lyō", strongs_id: "G1210 / G3089", gloss: "bind / loose", notes: "ἔσται δεδεμένα: LSB fn 'Gr fut. pft. pass.'; NASB/LSB/CSB 'shall/will have been bound'; ESV/NIV 'shall/will be bound'; CSB fn offers 'will be bound'."}
+        - {word: "πρᾶγμα", language: greek, transliteration: pragma, strongs_id: G4229, gloss: "matter, case"}
+        - {word: "συμφωνέω", language: greek, transliteration: symphōneō, strongs_id: G4856, gloss: "agree"}
+        - {word: "συνάγω", language: greek, transliteration: synagō, strongs_id: G4863, gloss: "gather", notes: "24x in Matthew (SBLGNT); of opponents at 22:34, 26:3, 26:57, 27:62, 28:12. εἰς τὸ ἐμὸν ὄνομα = construction of 28:19 εἰς τὸ ὄνομα."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Steps and goal transfer; synagogue-court setting is the cultural frame. Not a rule requiring a victim of crime or abuse to confront alone -- application, marked as such."
+    theological_principle:
+      done: true
+      notes: "The Son, Immanuel, is present with and authorises His church when it pursues a sinning brother for restoration; the Father's will is that none of His little ones perish."
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Leviticus 19:17", relation: "source of reproof command; LXX elenchō shared with Matt 18:15 (bible_trace: leads tier only)"}
+      - {ref: "Deuteronomy 19:15", relation: "quoted in 18:16 (leads tier only -- paraphrased quotation)"}
+      - {ref: "1 Corinthians 5:4", relation: "assembled in the name of the Lord Jesus with His power -- same promise applied"}
+      - {ref: "2 Corinthians 2:6-8", relation: "restoration after discipline"}
+    translations_compared: ["ESV", "NASB 1995/2020", "LSB", "CSB", "NIV", "NLT"]
+    divergences_noted: "18:15 'against you' (CSB/NLT/LSB footnotes; NIV BTSB: best mss omit). 18:18 future perfect."
+  drafting:
+    done: true
+    file: docs/content/israel-and-church/where-two-or-three-are-gathered.md
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "Fork candidate: forgiveness in Matthew 18:21-35 -- overlaps the backlog's Forgiveness item."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: Crossway, note: "Notes on 18:1-35, 18:15-20, 16:19. Confirmed restoration goal; contributed the 16:19 -> 18:18 extension."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: Zondervan, note: "18:15-35 restoration not retribution; 'against you' variant; 18:17 removal is not no-contact; 18:20 two or three = witnesses. Contributed."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: Zondervan, note: "Private reproof in Jewish ethics; synagogue as court; binding/loosing as judicial; Avot 3:2; 18:19 witnesses pray. Contributed."}
+  - {type: commentary, title: "NLT Life Application Study Bible", author: Tyndale, note: "18:15-17 limits; 18:19 general prayer reading."}
+  - {type: other, title: "1QS (Community Rule) 5:23-6:2", author: "Abegg/Bowley/Cook transcription, ETCBC dss Text-Fabric 2.0 (CC BY-NC)", note: "Own translation."}
+  - {type: other, title: "Mishnah Avot 3:2, 3:6", author: "Joshua Kulp, Mishnah Yomit, Sefaria (CC-BY)", note: "3:6 counts ten, five, three, two, one -- verified via Sefaria API 2026-10-01"}
+  - {type: other, title: "bible-text.db", author: "MACULA SBLGNT/WLC, unfoldingWord ULT/UGNT, LXX lemmas", note: "interlinear, counts, trace"}
+last_updated: "2026-10-01"

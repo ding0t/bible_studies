@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 9:29 (primary passage)
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 9:17-27
 - [Faith](../../salvation/faith.md) — 9:22-24
 - [Fasting](../../christian-life/fasting.md) — 9:14-29

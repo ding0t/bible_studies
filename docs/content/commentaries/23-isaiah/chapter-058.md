@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Fasting](../../christian-life/fasting.md) — 58:1-12
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 58:3-7
 <!-- commentary-index:auto-end -->

@@ -20,4 +20,6 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 26:29
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 26:2
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 26:41
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 26:67
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 26:57
 <!-- commentary-index:auto-end -->

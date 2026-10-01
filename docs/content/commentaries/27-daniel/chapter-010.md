@@ -15,4 +15,5 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 10:2-14
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 10:5
 - [The Restrainer](../../last-things/the-restrainer.md) — 10:13
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 10:12
 <!-- commentary-index:auto-end -->

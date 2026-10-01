@@ -19,4 +19,6 @@ draft: false
 - [Faith](../../salvation/faith.md) — 6:11
 - [In Humility](../../christian-life/humility.md) — 6:11
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 6:5-15
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 6:16-18
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 6:6
 <!-- commentary-index:auto-end -->

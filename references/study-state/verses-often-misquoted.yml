@@ -1,0 +1,99 @@
+slug: verses-often-misquoted
+title: "Verses Often Misquoted"
+status: published
+target_path: docs/content/scripture/verses-often-misquoted.md
+
+primary_passage: "1 Peter 3:15; Matthew 18:20; John 8:32; 1 Corinthians 15:44; Mark 9:29; Mark 5:15"
+supporting_passages:
+  - "Matthew 18:15-19"
+  - "Deuteronomy 19:15"
+  - "1 Corinthians 5:4"
+  - "Isaiah 8:13"
+  - "John 8:31-36"
+  - "1 Corinthians 15:42-45"
+  - "Luke 24:39"
+  - "Romans 8:11"
+  - "Mark 9:19-24"
+  - "Matthew 17:20"
+  - "Isaiah 58:6"
+  - "2 Corinthians 12:7"
+  - "Colossians 1:13"
+  - "Matthew 23:4"
+genre: [topical, epistle, gospel]
+
+thesis: >
+  Each of these verses means what it meant in its own paragraph, and read there every one gives you
+  more of Jesus than its slogan does; the slogans that lay burdens on believers lay burdens Jesus
+  never laid.
+outline:
+  - {section: "Key Takeaways", says: "Christ is Lord, present, freeing, raising; the burdens are not His"}
+  - {section: "How to read a quoted verse", says: "the paragraph decides; two kinds of misuse -- promise shrunk, burden added"}
+  - {section: "Promises made smaller", says: "1 Pet 3:15, Matt 18:20, John 8:32, 1 Cor 15:44 -- each slogan promises less than the verse"}
+  - {section: "Burdens added", says: "Mark 9:29 (fasting), Mark 5:15 (demonized) -- slogans that bind the conscience"}
+  - {section: "Discussion questions", says: "language, context, Christ, the hard part, the reader"}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      From backlog "new" item "commonly misquoted scripture" (be prepared, two or three gathered,
+      raised spiritual body, fasting, demonized, "..."). Author's framing: misquoted Scripture used
+      to bind is spiritual abuse. Added John 8:32 under the "..." because know-the-truth.md and the
+      ESV Study Bible both flag it as quoted out of context. Filed in scripture/ (how Scripture is
+      read), companion to verses-quoted-well.md. Each entry: verse, common use, meaning in context,
+      keywords, link to the full study.
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Per entry; inherited from linked studies except Matthew 18, worked fresh here."
+    literary_context:
+      done: true
+      notes: >
+        Matthew 18:15-20 is one unit: sin against a brother, private then one or two others
+        (Deut 19:15 'two or three witnesses'), then the church; binding/loosing (18:18); v19 'agree
+        about any pragma'; v20 'two or three gathered in my name'. Followed by Peter's question on
+        forgiveness (18:21-35). ESV SB, NIV BTSB, NIV CBSB all read v20 in the discipline setting.
+    content_word_studies:
+      done: true
+      terms:
+        - {word: "πρᾶγμα", language: greek, transliteration: pragma, strongs_id: G4229, gloss: "matter, case", notes: "Matt 18:19; 1 Cor 6:1 uses it of a lawsuit between believers (ULT 'a dispute')."}
+        - {word: "συνάγω", language: greek, transliteration: synagō, strongs_id: G4863, gloss: "gather"}
+        - {word: "δαιμονίζομαι", language: greek, transliteration: daimonizomai, strongs_id: G1139, gloss: "be demon-possessed", notes: "13x SBLGNT (bible_concordance count_only). ESV Mark 5:15 'demon-possessed'."}
+        - {word: "ἁγιάζω", language: greek, transliteration: hagiazō, strongs_id: G37, gloss: "sanctify"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Mishnah Avot 3:2 (Shekhinah among two who study Torah) is later than Matthew; used as the idiom, not a source."
+    theological_principle:
+      done: true
+      notes: "Jesus says of Himself what was said of the Shekhinah: deity and presence with His church as it deals with sin."
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "1 Corinthians 5:4", relation: "assembled in the name of the Lord Jesus, with His power, in a discipline case"}
+      - {ref: "Matthew 28:20", relation: "the general promise of presence the small-meeting use is really drawing on"}
+    translations_compared: ["ESV", "KJV", "ULT"]
+    divergences_noted: "Mark 9:29 'and fasting' (KJV/TR) absent in ESV/NA28/SBLGNT; ULT notes it."
+  drafting:
+    done: true
+    file: docs/content/scripture/verses-often-misquoted.md
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "Matthew 18:15-20 has no full study on this site. Candidate fork: church discipline as love (18:15 'you have gained your brother') through to forgiveness (18:21-35)."
+  - "Backlog also flags the fasting study's 'break spiritual strongholds' section as reading like deliverance ministry; this page links only to its misused-verses section."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: Crossway, note: "Notes on Matt 18:16-20 (discipline setting, deity in v20), John 8:32 ('frequently quoted out of context'), 1 Pet 3:15-17. Confirmed."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: Zondervan, note: "Matt 18:20 two or three = witnesses of v16; heaven in accord with discipline. Confirmed."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: Zondervan, note: "Matt 18:19-20 -- contributed the Avot 3:2 parallel and that the prayer principle is broader. Contributed."}
+  - {type: commentary, title: "NLT Life Application Study Bible", author: Tyndale, note: "Reads 18:19 as prayer generally -- the other side of the contested point."}
+  - {type: other, title: "Mishnah Avot 3:2", author: "Joshua Kulp, Mishnah Yomit (Sefaria, CC-BY)", note: "Verified via Sefaria API 2026-10-01."}
+  - {type: other, title: "bible-text.db", author: "MACULA SBLGNT, unfoldingWord ULT/UGNT, KJV", note: "Counts and interlinear."}
+last_updated: "2026-10-01"

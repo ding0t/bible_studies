@@ -15,4 +15,5 @@ draft: false
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 12:1-2 (primary passage)
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 12:5
 - [Pride](../../sin/pride.md) — 12:21-23
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 12:5
 <!-- commentary-index:auto-end -->

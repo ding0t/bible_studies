@@ -16,4 +16,5 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 5:8-9
 - [In Humility](../../christian-life/humility.md) — 5:5-7
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 5:7
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 5:9
 <!-- commentary-index:auto-end -->

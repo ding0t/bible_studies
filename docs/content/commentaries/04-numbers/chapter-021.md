@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 21:4-9 (primary passage)
+- [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 21:8-9
 <!-- commentary-index:auto-end -->

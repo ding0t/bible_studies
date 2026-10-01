@@ -19,4 +19,5 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 9:15
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 9:15
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 9:16-17
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 9:9-11
 <!-- commentary-index:auto-end -->

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Faith](../../salvation/faith.md) — 2:4 (primary passage)
+- [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 2:4
 <!-- commentary-index:auto-end -->

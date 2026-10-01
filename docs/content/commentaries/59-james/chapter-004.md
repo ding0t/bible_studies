@@ -18,4 +18,5 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 4:6-10
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:7-10
 - [Pride](../../sin/pride.md) — 4:6
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:7
 <!-- commentary-index:auto-end -->

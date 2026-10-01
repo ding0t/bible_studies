@@ -16,4 +16,6 @@ draft: false
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 6:19
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 6:20
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 6:17
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 6:1
+- [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 6:1
 <!-- commentary-index:auto-end -->

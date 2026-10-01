@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 3:13-17 (primary passage)
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 3:15 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 3:21
 - [Biblical Numerology](../../scripture/numerology.md) — 3:20
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../god/flood-and-the-king-lists.md) — 3:20
