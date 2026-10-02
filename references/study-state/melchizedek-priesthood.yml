@@ -665,7 +665,7 @@ review_2026-08-02_fixes:
     before these fixes (proverbs commentary page, homepage frontmatter) -- nothing new introduced.
   status: fixes applied, not yet committed -- awaiting user instruction on committing this round.
 
-word_budget: 4650  # set 2026-09-26 -- see simplify_2026-09-26.budget_reason
+word_budget: 4900  # raised 2026-10-02 -- see simplify_2026-10-02.budget_reason
 
 simplify_2026-09-26:
   words_before: 6672
@@ -766,3 +766,98 @@ read_2026-09-26:
   left_for_author:
     - "Check 18, line 416: an 'only occurrence' claim beside Greek text. Re-run the count (review-bible-study)."
     - "Frontmatter ai_provider_models gained anthropic/claude-opus-5.5 in the working tree before this pass. This pass did not write it."
+
+rewrite_2026-10-02:
+  why: >
+    Author: "good arguments but hard to read; I found it difficult to understand the significance of
+    the Melchizedek order versus the dissection of Melchizedek as a single king." Diagnosis: the
+    title's key term ("order") was defined only in a two-line word study ~380 lines in; Hebrews
+    7:3, 7:8 and 7:15 (the verses that define the order) were never quoted; the study never said
+    what a priest is or supplied the knowledge a first-century Jewish reader assumed; Genesis 14
+    was read for its own sake before the reader knew which details mattered. Word budget suspended
+    by the author for the rewrite.
+  thesis: >
+    God swore an oath that Jesus would be a priest forever in the order of Melchizedek, and Jesus
+    holds that priesthood now -- by an indestructible life, in the true heavenly sanctuary, through
+    a single sacrifice that never has to be repeated -- so you can draw near to God through Him
+    with confidence. (Unchanged.)
+  outline:
+    - "What a priest is: Hebrews 1:1-3 names prophet, priest and king; 5:1-4 defines a priest; seven things the first readers already knew; the problem -- Jesus is from Judah (7:14; 8:4)."
+    - "What 'the order of Melchizedek' means: taxis = the basis of a priesthood; Hebrews glosses it as likeness (7:15); two marks, no inherited claim (7:6, Ezra 2:62) and no end (7:3, 8, 16); Melchizedek made like the Son (7:3, cf. 2:17, 4:15); is he still a priest (contested, four readings); a line of succession is Levi's pattern (Adam-to-Shem teaching answered); every claim comes from Gen 14 + Ps 110 (Heb 2:3; 3:7; 9:8; 10:15)."
+    - "The two texts: Genesis 14 trimmed to what Hebrews uses (genealogy overclaim fixed); Psalm 110."
+    - "Hebrews' argument traced: authorship (Heb 2:3 vs Gal 1:12 marked contested); chs 2-6; 7:1-10 the man; 7:11-19 the order; 7:20-28 the oath; chs 8-10 -- word studies folded into the verses they explain."
+    - "Theological principle, discussion questions, references."
+  new_sources:
+    - "Eusebius, Church History 1.3.8 (NPNF2 vol. 1, McGiffert) -- anointed prophets/priests/kings as 'Christs in type'; local patristics corpus."
+    - "ESV Study Bible note on Hebrews 7:3 -- Melchizedek an ordinary man; 'without genealogy' = not given in Scripture, in contrast to Levitical priests; rejects Christophany."
+  verified_this_session:
+    - "ESV via study_verse: Heb 1:1-3; 2:3-4, 17; 3:7; 4:15; 5:1-4; 6:17-20; 7:1-28; 8:3-4; 9:6-8; 10:15; Ex 3:1; 18:12; 20:19; Num 3:10; 6:23-27; 18:21; Ezra 2:61-63; Mal 2:7; Ps 110:1; Gen 11:10-11; Gal 1:12; Lev 8:12; 1 Kgs 19:16; Deut 18:18."
+    - "Greek via interlinear: 7:3 (agenealogetos G35, aphomoioo G871, menei ... eis to dienekes G1336), 7:6 (me genealogoumenos ex auton), 7:8 (martyroumenos hoti ze), 7:15 (kata ten homoioteta G3665)."
+    - "Counts via bible_concordance: G35 once in the whole corpus (Heb 7:3); G871 NT once (Heb 7:3); G3665 Heb 4:15, 7:15; G3666 in Heb only 2:17; G5010 in Heb 5:6, 5:10, 6:20, 7:11 x2, 7:17 (old text omitted 5:10); G2420 NT only Heb 7:11, 12, 24; G179, G531, G1450 NT hapax; G2909 12x in Heb; G4639 7x NT, 2x Heb; G1336 Heb 7:3; 10:1, 12, 14; G2178 Heb 7:27; 9:12; 10:10 + Rom 6:10, 1 Cor 15:6."
+  not_cited:
+    - "Ken Johnson (references/biblefacts/) teaches an Adam-to-Shem Melchizedekian succession. Raw unvetted input: the study answers the idea from Scripture and the primary sources already cited in priesthood-before-sinai.md, and does not cite Johnson. 2 Enoch 69-73 (Methuselah-Nir-Melchizedek handover) not in references/ -- not cited."
+  status: drafted in place, uncommitted, awaiting author review
+
+review_and_read_2026-10-02:
+  how: "review-bible-study and read-bible-study run as parallel report-only subagents on the rewrite; findings applied in the main session after author approval."
+  review_errors_fixed:
+    - "E1 Genesis calls Potiphera and Egypt's priests kohen (41:45, 50; 46:20; 47:22, 26) -> 'priest of God Most High'. Introduced by the rewrite."
+    - "E2 'seven or eight centuries' -> 'some four centuries' (Gal 3:17's 430 years). Inherited from published version."
+    - "E3 kreitton list had 6:9, which is G2908; removed. G2909 = 12 in Hebrews. Inherited."
+    - "E4 1 Pet 3:18 has hapax, not ephapax; rewritten (Rom 6:10 ephapax; 1 Pet 3:18 'suffered once'). Inherited."
+    - "E5 'pattern shown you on the mountain' is ESV Heb 8:5, relabelled."
+    - "E6 NIV CBSB: execration texts mention Jerusalem (not 'Salem')."
+    - "E7 NIV CBSB: compound El Elyon not in Ugaritic; Abram makes the Yahweh identification -- now marked contested. 'chief priest of its god' softened to the note's wording."
+    - "E8 Zech 6:13 priest on/by the throne marked debated."
+    - "E9-E11 four-readings fairness: 7:15 'another' contrasts Aaron, so reading 2 now argued from 7:3-4; 'Readers' for 'Christians'; Targum Ps-J + b. Nedarim 32b named; reading 1 supported from 7:17 martyreitai; table row for 7:8 adds Ps 110:4; 'the man died' marked as this reading's conclusion; 'had no register' -> 'Scripture gives no register'."
+    - "E12 Jethro paragraph rewritten to claim only what Exodus says."
+  suggestions_applied: "S1 link to second-temple 'Did Hebrews know this conversation?'; S2 temple/date hedges; S3 Eusebius 1.3.7-8; S4 Ps 110:4 wording; S5 two antitheses outside quotes and two long sentences; S6 Be Transformed labels; S7 bible_references; S8 Strong's G3140 G3845 G473 H8004 and aparabatos root-fallacy softened; S9 Romans 8:34."
+  new_sentence: "End of 'An order is the basis of a priesthood': Melchizedek's order answers both questions -- God makes the priest, and the priest serves forever."
+  restructure: "Problem heading added; likeness heading renamed to the two marks; 'Is Melchizedek still a priest?' moved after 7:1-10; 'Where Hebrews gets all this' now opens the two-texts section; succession rebuttal, Before Aaron pointer and authorship moved to '## Annex: Succession and authorship'; 8-10 split into 8:1-5 and 9:24-10:18; chapter 7 headings renamed; outline updated."
+  verify: "validate: only Check 23 (5146 vs 4650). mkdocs build --strict passes; all outline anchors and the second-temple anchor resolve. study_structure: 41 sections, median 153, longest 395, 0 over target, 0 walls. ESV for Rom 8:34 and 1 Pet 3:18 checked."
+  next: "simplify-bible-study for duplication (7:22-25, 7:13-14, 7:23-24, 4:16, 2:17 quoted repeatedly) and the word budget; then refresh_frontmatter_provenance.py before commit."
+
+simplify_2026-10-02:
+  words_before: 5146
+  words_after: 4861
+  budget: 4650 -> 4900
+  budget_reason: >
+    The rewrite added "What a priest is" (~320 words: three offices, Hebrews 5:1-4 definition, the
+    table of what the first readers knew, the problem of a priest from Judah) at the author's
+    request, to supply the assumed knowledge whose absence caused the original confusion. After
+    every merge and tightening the author approved, 4,861 remain. Author chose to raise the budget
+    over forking the authorship paragraph or cutting the succession annex (2026-10-02).
+  point: "Unchanged from the thesis: God swore Jesus a priest forever in Melchizedek's order, held by appointment and an indestructible life, so you can draw near with confidence."
+  forks: none
+  merges: "M1 7:13-14/8:4 kept in 'The problem' only; M2 7:11 full quote kept in 7:11-19 only; M3 7:16 full quote kept in the two-marks block only; M4 7:6 quote kept in two-marks only; M5 4:16 and 7:25 reduced to citations in 'Confidence'; M6 tabernacle type explained in 'Copy and shadow' only; M7 'made like' tie-in in 'Struck from the die' cut to a citation; M8 7:4 kept in reading 3 only; M9 aparabatos points to 7:23-24; M10 annex 7:23-24 block quote and second Before Aaron pointer removed; M11 'Confirmed elsewhere' keeps only Rom 6:10, 1 Pet 3:18, Rom 8:34."
+  tightened: "T1 opening signpost deleted; T2 Heb 4:14 cited not quoted; T3 'Under the Law, Judah's king could not be a priest' deleted (said in 'The problem'); T4 7:1-10 hand-off shortened; T5 2:17 cited."
+  shortened_sentences:
+    - old: 'He "had to be made like his brothers in every respect" (Hebrews 2:17, ESV).'
+      new: "He was made like His brothers (Hebrews 2:17)."
+    - old: 'Hebrews 7:11 sets two orders side by side: "what further need would there have been for another priest to arise after the order of Melchizedek, rather than one named after the order of Aaron?" (ESV).'
+      new: 'Hebrews 7:11 sets two orders side by side: "the order of Melchizedek" and "the order of Aaron" (ESV).'
+    - old: 'A second type sits alongside it. The earthly tabernacle is a "copy and shadow" of a heavenly original (Hebrews 8:5), built to the τύπος ("pattern") shown to Moses at Sinai (Exodus 25:40).'
+      new: 'A second type sits alongside it: the earthly tabernacle, a "copy and shadow" of a heavenly original (Hebrews 8:5).'
+    - old: 'It returns to the title in chapter 4: "Since we have a great high priest ... confession" (Hebrews 4:14, ESV). And it turns that into an invitation:'
+      new: "It returns to the title in Hebrews 4:14 and turns it into an invitation:"
+    - old: 'Melchizedek, "who does not have his descent from them, received tithes from Abraham" (Hebrews 7:6, ESV).'
+      new: "Melchizedek received tithes from Abraham (Hebrews 7:6)."
+    - old: "Then come the two marks already seen: no genealogy (Hebrews 7:3, 6) and a life with no recorded end (Hebrews 7:3, 8)."
+      new: "Hebrews 7:3 and 7:8 carry the order's two marks, seen above."
+    - old: "A priest from Judah. Hebrews 7:13-14 then names the problem: Jesus is from Judah, a tribe that never served at the altar."
+      new: "A priest from Judah. Hebrews 7:13-14 then names the problem stated at the start of this study."
+    - old: 'An indestructible life. Hebrews 7:16 gives the answer: Jesus "has become a priest, not on the basis ... indestructible life" (ESV).'
+      new: "An indestructible life. Hebrews 7:16 gives the answer, quoted above."
+    - old: "Both senses land on the same point. Levi's priests were many because death kept handing the office on, and Jesus' office is never handed on."
+      new: "Both senses land on the point of Hebrews 7:23-24."
+    - old: 'Christ could not have served in the earthly tabernacle: "if he were on earth, he would not be a priest at all" (Hebrews 8:4, ESV). That is Hebrews 7:13-14 again.'
+      new: "Christ could not have served in the earthly tabernacle (Hebrews 8:4)."
+    - old: 'Melchizedek works the same way. The Son is the original, and Melchizedek was "made like" Him (Hebrews 7:3).'
+      new: "Melchizedek works the same way (Hebrews 7:3)."
+    - old: 'So you are told to "with confidence draw near to the throne of grace" (Hebrews 4:16, ESV). Jesus'' priesthood cannot be transferred or interrupted, so "he is able to save to the uttermost those who draw near to God through him, since he always lives to make intercession for them" (Hebrews 7:25, ESV).'
+      new: "So you are told to draw near with confidence (Hebrews 4:16). Jesus' priesthood cannot be transferred or interrupted, so He is able to save to the uttermost those who draw near through Him (Hebrews 7:25)."
+    - old: 'And the pattern ... is the one Hebrews assigns to Levi: [block quote 7:23-24] A chain of mortal priests, each valid until death, is the "many" of verse 23. Melchizedek''s order is defined by the single priest of verse 24.'
+      new: 'And the pattern ... is the one Hebrews assigns to Levi (Hebrews 7:23-24). A chain of mortal priests, each valid until death, is the "many" of Hebrews 7:23. Melchizedek''s order is defined by the single priest of Hebrews 7:24.'
+    - old: '2. He was the Son of God appearing before the incarnation. ... the one he resembles. Hebrews 7:4 calls him "this man."'
+      new: "(final sentence deleted; reading 3 keeps Hebrews 7:4)"
+  verify: "Sentence diff against the pre-simplify copy (HEAD is the pre-rewrite text, so --verify-against HEAD is not meaningful here): added sentences are only the shortened ones above, plus two splitter artefacts where deleted paragraphs joined neighbours. validate: no warning for this file (4861 <= 4900). mkdocs build --strict passes."

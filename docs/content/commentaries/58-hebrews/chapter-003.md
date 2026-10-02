@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Faith](../../salvation/faith.md) — 3:19
+- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 3:7
 - [The Way](../../jesus/the-way.md) — 3:10
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 3:14
 <!-- commentary-index:auto-end -->

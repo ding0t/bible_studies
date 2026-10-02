@@ -18,7 +18,6 @@ draft: false
 - [Charting End Times](../../last-things/prophecy-chart.md) — 9:27
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 9:2
 - [Fasting](../../christian-life/fasting.md) — 9:3
-- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 9:24-27
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 9:24-27
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 9:2-3
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 9:24-27

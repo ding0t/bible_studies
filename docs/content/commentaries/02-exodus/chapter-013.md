@@ -13,7 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 13:2
-- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 13:1-2
 - [Passover: When I See the Blood](../../feasts/passover.md) — 13:14-15
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 13:3-10
 <!-- commentary-index:auto-end -->

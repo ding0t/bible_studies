@@ -13,6 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 14:18
-- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 14:17-20
+- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 14:17-22
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 14:17-20
 <!-- commentary-index:auto-end -->

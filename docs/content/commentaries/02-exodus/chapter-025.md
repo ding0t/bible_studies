@@ -15,6 +15,7 @@ draft: false
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 25:10-22 (primary passage)
 - [The Heavenly Pattern](../../jesus/the-heavenly-pattern/index.md) — 25:8-9 (primary passage)
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 25:31-40 (primary passage)
+- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 25:40
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 25:22
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 25:9
 <!-- commentary-index:auto-end -->

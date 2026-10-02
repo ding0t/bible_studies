@@ -18,7 +18,6 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 2:10
 - [Faith](../../salvation/faith.md) — 2:2
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:2-3
-- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:15
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 2:22-24
 - [Six Days of History](../../last-things/six-days-of-history.md) — 2:1-3
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 2:24

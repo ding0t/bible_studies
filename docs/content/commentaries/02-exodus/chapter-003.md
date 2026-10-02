@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 3:1
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 3:14
 <!-- commentary-index:auto-end -->

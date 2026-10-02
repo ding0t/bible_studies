@@ -12,7 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 82:1-8
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 82:1-8
 - [Pride](../../sin/pride.md) — 82:1-8
 <!-- commentary-index:auto-end -->

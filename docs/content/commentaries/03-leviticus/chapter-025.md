@@ -14,7 +14,6 @@ draft: false
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 25:8-10
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 25:9
-- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 25:8-13
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 25:8-13
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 25:9
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 25:23-25

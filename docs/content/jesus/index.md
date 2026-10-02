@@ -53,7 +53,7 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
 
     ---
 
-    A history of the Melchizedek priesthood from Genesis 14 through Second Temple Judaism, and a word-by-word walk through Hebrews' argument that Jesus fulfills it.
+    What a priest is, what 'the order of Melchizedek' means, and how Hebrews reads Genesis 14 and Psalm 110 to show that Jesus holds that priesthood forever.
 
     [:octicons-arrow-right-24: Read](melchizedek-priesthood.md)
 

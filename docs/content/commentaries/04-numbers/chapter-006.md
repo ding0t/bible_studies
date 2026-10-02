@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 6:23-27
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 6:27
 <!-- commentary-index:auto-end -->

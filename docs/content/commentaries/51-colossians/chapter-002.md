@@ -20,6 +20,7 @@ draft: false
 - [Charting End Times](../../last-things/prophecy-chart.md) — 2:16-17
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 2:15
 - [In Humility](../../christian-life/humility.md) — 2:16-23
+- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:17
 - [Pride](../../sin/pride.md) — 2:18
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 2:16-17
 - [The Appointed Times](../../feasts/feasts.md) — 2:16-17

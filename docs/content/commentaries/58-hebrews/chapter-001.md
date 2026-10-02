@@ -16,6 +16,7 @@ draft: false
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:12
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 1:8-12
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:10-12
+- [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 1:1-3
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 1:5
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 1:3
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 1:12
