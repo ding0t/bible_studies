@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-29
+date_modified: 2026-10-02
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5

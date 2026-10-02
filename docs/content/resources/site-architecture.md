@@ -5,9 +5,10 @@ description: "The tech behind this site: mkdocs with React tools bundled in, the
 tags: ["architecture", "mkdocs", "mermaid", "tech-stack"]
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-09-30
+date_modified: 2026-10-02
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
