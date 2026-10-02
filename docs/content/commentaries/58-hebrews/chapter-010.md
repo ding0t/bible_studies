@@ -19,6 +19,7 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 10:1-18
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 10:12-13
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 10:19-22
+- [The Appointed Times](../../feasts/feasts.md) — 10:1
 - [The Way](../../jesus/the-way.md) — 10:19-20
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 10:35-39
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 10:24-25

@@ -1,0 +1,50 @@
+slug: "feasts"
+title: "The Appointed Times"
+status: review
+target_path: "docs/content/feasts/feasts.md"
+series: "references/study-state/feasts-series-2026-10.yml (study 1 of the series)"
+
+primary_passage: "Leviticus 23:1-44"
+genre: [law, topical]
+
+thesis: >-
+  God set seven appointed times in Israel's year to meet with His people; Jesus fulfilled the four
+  spring feasts at His first coming, and the three fall feasts look ahead to His return and kingdom;
+  so Christians learn them as shadows whose substance is Christ.
+word_budget: 4000
+
+stages:
+  scoping: {done: true, notes: "Rewrite in place of the 131-word stub (path kept for inbound links and the existing studies/feasts redirect). Removed the external blog quote."}
+  exegesis: {done: true, notes: "moed H4150 223x OT, 49x Lev (Genesis 1:14 'seasons'; Leviticus 1:1 'tent of meeting'); miqra H4744 11x in Lev, all in ch. 23. Sabbath first (23:3). Three pilgrim feasts (Deut 16:16)."}
+  hermeneutics: {done: true, notes: "Spring fulfilments stated by NT (1 Cor 5:7; 15:20, 23; Acts 2:1); Unleavened applied ethically (1 Cor 5:8). Fall: Trumpets inferred (defer to trumpets.md); Atonement sacrifice fulfilled (Heb 9:7-12), national day inferred from Zech 12:10-13:1 / Rom 11:26-27; Tabernacles prophesied (Zech 14:16). Summer gap = church age marked as illustration only. Firstfruits date: which Sabbath left open, matching firstfruits.md."}
+  cross_reference: {done: true, notes: "ESV SB Lev 23 notes, Col 2:17 note; NIV BTSB Lev 23:2 chart. Consistent with statement-of-faith End times and trumpets.md."}
+  drafting: {done: true, file: "docs/content/feasts/feasts.md"}
+  review: {done: true, validated: true, notes: "review-bible-study 2026-10-02; see review_2026-10-02"}
+
+open_questions:
+  - "draft: false kept because the page was already published and hebrew-roots.md links it; the rewrite goes live on the next commit, so the author should read it before committing."
+  - "Series list names Passover, Unleavened Bread, Firstfruits, Weeks, Atonement, Tabernacles without links until each is published (a published page cannot link a draft)."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Lev 23:1-3, 23:1-44, 23:1-25:55; Col 2:17"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Lev 23:2 appointed festivals chart"}
+review_2026-10-02:
+  checked:
+    - "Scripture: all 27 ESV quotations re-queried from study-notes.db (esv-study-bible); every one verbatim, references and labels correct."
+    - "Word counts (macula): H4150 223x OT / 49x Lev (morphhb-wlc gives 204/45 -- tokenisation differs; page states no count); first occurrence Gen 1:14 confirmed. H4744 11x in Lev, all ch. 23 (vv. 2,3,4,7,8,21,24,27,35,36,37). G4637 5x SBLGNT (John 1:14; Rev 7:15; 12:12; 13:6; 21:3). G4639 7x SBLGNT. G4633 at Rev 21:3 confirmed."
+    - "Calendar table vs Lev 23:5-43: dates, verse ranges and eighth day all correct."
+    - "ESV SB attributions (Lev 23:1-3 'meet with the Lord'; Col 2:17) and NIV BTSB Lev 23:2 chart confirmed. ESV SB Lev 23:1-44 note confirms the three pilgrim feasts and Sabbath foundation; Col 2:17 note confirms freedom from festal obligation."
+    - "No ESV footnotes on Lev 23 in study-notes.db."
+    - "Consistency: statement-of-faith End times, trumpets.md (Trumpets typology inferred), firstfruits.md (date left open; AD 33 collapse), hebrew-roots.md, jesus/three-days-and-three-nights.md."
+  fixed:
+    - "Critical (Phase 4): 'These are stated, not inferred ... rose ... as the firstfruits' claimed the NT dates the resurrection to Firstfruits. It names Christ the firstfruits; the day is a reconstruction (firstfruits.md, chronology-anchors AD 33). Rewritten to mark it."
+    - "Discussion Q3 said the NT ties Firstfruits to the day Jesus rose; narrowed to Passover and Pentecost."
+    - "Be Transformed Think: 'The four spring feasts were fulfilled on their days' -> 'Passover and Pentecost'."
+  for_author:
+    - "Prayer still says died/rose/poured out 'each on the day you had set' -- defensible on the AD 33 reconstruction but the prayer is the author's call."
+    - "Unleavened Bread listed under 'names the fulfilment of each spring feast' though 1 Cor 5:8 applies it ethically; three-days-and-three-nights.md shows it as not named of Christ. In-one-sentence says Jesus fulfilled 'the four spring feasts'."
+    - "Lessons about Jesus line 'The spring feasts were fulfilled on their days' gives only Passover and Pentecost as examples."
+    - "Rev 21:3 'He will dwell' is also skēnoō (G4637), the John 1:14 verb; page mentions only skēnē."
+    - "Barley/wheat named in the table are not in Lev 23 (Exod 9:31; 34:22; Ruth 2:23); NIV BTSB chart supports barley."
+    - "hebrew-roots.md links feasts.md with the stale title 'Jewish Feasts and Prophecy' (not edited; out of scope)."
+    - "review_gaps: Numbers 28-29 (the offerings for each feast, quoted by Lev 23) never cited -- fair for an overview; a lead for the per-feast studies."
+last_updated: "2026-10-02"

@@ -1,6 +1,6 @@
 slug: firstfruits
 title: "Firstfruits: The Sheaf Waved on the Third Day"
-status: draft
+status: review
 target_path: docs/content/feasts/firstfruits.md
 
 primary_passage: "Leviticus 23:9-14"
@@ -171,7 +171,7 @@ corrections_during_drafting:
     by itself produce a Sunday -- which reading is taken still decides it. Line rewritten to say
     exactly that.
 
-last_updated: "2026-09-07"
+last_updated: "2026-10-02"
 
 revision_2026-09-07b:
   what: "Discussion questions rebuilt against the new discussion-questions.md facet table."
@@ -245,3 +245,85 @@ review_2026-09-07:
   agent_note: "The widened Check 10 caught this reviewer's own 'worth ___' filler again -- the fourth time in one session, each within minutes of writing it."
   frontmatter: 'bible_references +3 (Num 28:26, Exod 34:22, Num 15:20-21); tags gained "numbers".'
   last_updated: "2026-09-07"
+
+thesis: >-
+  God made Israel's whole harvest wait on one sheaf lifted before Him "on the day after the Sabbath,"
+  and Paul names the risen Jesus by that offering's own word, ἀπαρχή, so His resurrection is the
+  first sheaf of a harvest that includes you.
+word_budget: 4000
+outline:
+  - "What the statute commands: one sheaf (omer), barley, waved (nuph), nothing eaten until it is (Lev 23:14)."
+  - "The first one kept: Joshua 5:10-12 -- manna stops, land's grain eaten; the sheaf implied, not narrated."
+  - "The disputed date: no textual variant; festival vs weekly readings; the LXX renders the phrase two ways (23:11 vs 23:15). Left open."
+  - "AD 33: Nisan 15 on the weekly Sabbath, so the two main readings converge on the Sunday of the empty tomb."
+  - "Christ the firstfruits: ἀπαρχή shared with LXX Lev 23:10; release (Lev 23:14) beyond the commentaries' foretaste."
+  - "What the firstfruits guarantees: Rom 8:23, Jas 1:18, Rom 11:16 + Num 15:20-21; firstborn of/from the dead."
+
+evidence:
+  - {id: lev23-9-16-esv, what: "ESV Lev 23:11 block quote + date formula", tool: study_verse, args: {book: Lev, chapter: 23, verse: 11, work_id: esv-study-bible}, expect_contains: "On the day after the Sabbath the priest shall wave it", checked: 2026-10-02}
+  - {id: lev23-14-esv, what: "ESV Lev 23:14 memory verse", tool: study_verse, args: {book: Lev, chapter: 23, verse: 14, work_id: esv-study-bible}, expect_contains: "until you have brought the offering of your God", checked: 2026-10-02}
+  - {id: josh5-11-esv, what: "ESV Josh 5:11 parched grain", tool: study_verse, args: {book: Josh, chapter: 5, verse: 11, work_id: esv-study-bible}, expect_contains: "unleavened cakes and parched grain", checked: 2026-10-02}
+  - {id: num33-3-esv, what: "'the day after the Passover' = 15th of first month (bears on Josh 5:11 timing)", tool: study_verse, args: {book: Num, chapter: 33, verse: 3, work_id: esv-study-bible}, expect_contains: "on the fifteenth day of the first month. On the day after the Passover", checked: 2026-10-02}
+  - {id: ruth2-23-esv, what: "barley then wheat order", tool: study_verse, args: {book: Ruth, chapter: 2, verse: 23, work_id: esv-study-bible}, expect_contains: "the end of the barley and wheat harvests", checked: 2026-10-02}
+  - {id: rev1-5-esv, what: "Rev 1:5 reads 'of the dead', not Col 1:18's 'from the dead'", tool: study_verse, args: {book: Rev, chapter: 1, verse: 5, work_id: esv-study-bible}, expect_contains: "the firstborn of the dead", checked: 2026-10-02}
+  - {id: col1-18-esv, what: "Col 1:18 firstborn from the dead", tool: study_verse, args: {book: Col, chapter: 1, verse: 18, work_id: esv-study-bible}, expect_contains: "the firstborn from the dead", checked: 2026-10-02}
+  - {id: jas1-1-esv, what: "James' addressees", tool: study_verse, args: {book: Jas, chapter: 1, verse: 1, work_id: esv-study-bible}, expect_contains: "To the twelve tribes in the Dispersion", checked: 2026-10-02}
+  - {id: john19-31-esv, what: "high day", tool: study_verse, args: {book: John, chapter: 19, verse: 31, work_id: esv-study-bible}, expect_contains: "for that Sabbath was a high day", checked: 2026-10-02}
+  - {id: nivbtsb-lev23-11, what: "NIV BTSB sheaf gloss + its two weekly-Sabbath options + 'ambiguity may be intentional'", tool: study_note, args: {book: Lev, chapter: 23, verse: 11, work_id: niv-biblical-theology-study-bible}, expect_contains: "the day after the Sabbath day at the end of the days of Unleavened Bread", checked: 2026-10-02}
+  - {id: nivbtsb-lev23-10, what: "barley point and Ruth 1:22 / 2:23 come from NIV BTSB, not Cultural Backgrounds", tool: study_note, args: {book: Lev, chapter: 23, verse: 10, work_id: niv-biblical-theology-study-bible}, expect_contains: "Barley, not wheat", checked: 2026-10-02}
+  - {id: nkjvcb-lev7-30, what: "tenuphah quotation", tool: study_note, args: {book: Lev, chapter: 7, verse: 30, work_id: nkjv-cultural-backgrounds-study-bible}, expect_contains: "lifted up toward the heavens in presentation and dedication to God and then lowered into the hands of the priest", checked: 2026-10-02}
+  - {id: esvsb-1cor15-20, what: "ESV SB aparche gloss", tool: study_note, args: {book: 1Cor, chapter: 15, verse: 20, work_id: esv-study-bible}, expect_contains: "a first sample of an agricultural crop that indicates the nature and quality of the rest", checked: 2026-10-02}
+  - {id: cb-1cor15-20, what: "CB 'rest of the harvest was certain'", tool: study_note, args: {book: 1Cor, chapter: 15, verse: 20, work_id: nkjv-cultural-backgrounds-study-bible}, expect_contains: "once the harvest had begun, the rest of the harvest was certain", checked: 2026-10-02}
+
+review_2026-10-02:
+  reviewer: "review-bible-study, full pass, plus conversion to current house format (feasts series, study 4). Agent; author-bias caveat partly applies (same model family drafted it)."
+  checked:
+    - "Phase 1: all 12 ESV block/inline quotations re-verified verbatim against esv-study-bible (Lev 23:9-16, Josh 5:10-12, 1 Cor 15:20-23, Rom 8:23, 11:16, Jas 1:18, Num 15:20-21, John 12:24, Num 28:26, Exod 34:22, Col 1:18, John 19:31). Rev 1:5 FAILED (see fixes)."
+    - "Phase 2: commentary quotations re-verified (ESV SB 1 Cor 15:20 and festal chart; NIV BTSB Lev 23:11; NKJV CB Lev 7:30, 1 Cor 15:20, Josh 5:11 caption; CSB AFSB footnote Lev 23:10). All internal links and anchors resolve."
+    - "Phase 3: ἀπαρχή 9 in SBLGNT (Rom 8:23; 11:16; 16:5; 1 Cor 15:20, 23; 16:15; 2 Thess 2:13; Jas 1:18; Rev 14:4); Brenton 23:11 τῆς πρώτης vs 23:15 τῶν σαββάτων confirmed; verify_claims 5/5 ok. Lev 23 footnotes read: none bears on the argument (CSB 'Or Sabbaths' at 23:15 only)."
+    - "Phase 5: NLT Life Application (not cited) confirms the release reading again: 'not to eat ... until they had made this offering'."
+    - "Phase 6: review_gaps -- Num 29 / Lev 25 formula parallels only; no gap bears on the argument."
+  fixes_applied:
+    - "Phase 4: 'Paul uses ἀπαρχή nine times' -- false; 9 NT, 7 Pauline (Jas 1:18 and Rev 14:4 are not Paul). Rewritten."
+    - "Phase 1: 'the firstborn from the dead' attributed to Col 1:18 AND Rev 1:5; Rev 1:5 ESV reads 'of the dead'. Split."
+    - "Phase 2: barley/wheat agricultural point and the Ruth harvest order credited to 'the Cultural Backgrounds volumes'; it is the NIV BTSB note at Lev 23:10. Reattributed; Ruth 1:22 alone does not mark the order, 2:23 added."
+    - "Phase 2: NIV BTSB at 23:11 was said to reach 'the same place' as the LXX split; its two options are BOTH weekly-Sabbath readings (Sabbath within Unleavened Bread week vs at its end). Rewritten to say so."
+    - "Phase 4: 'in the crucifixion year, uniquely, both readings land on the same Sunday' -- any year Nisan 15 falls on a Sabbath does this. 'uniquely' removed."
+    - "Phase 4: 'the one appointed time in the chapter located by a day of the week' -- Weeks is also given no day of the month, and on the festival reading Firstfruits IS a month date. Rewritten."
+    - "Phase 4: hook said Firstfruits is 'the one with no story attached' -- Trumpets has none either. Rewritten affirmatively (Exod 12:14, Lev 23:43)."
+    - "Phase 4: AD 33 convergence now states its scope -- it holds for the two readings in the table, not for the end-of-festival-week reading NIV BTSB records."
+    - "Phase 4: Joshua 5 never mentions the sheaf; 'the first one ever kept' now says the offering is implied by Lev 23:14, not narrated."
+    - "Phase 6 / siblings: John 19:31 'high day' was stated as settled ('It also explains'); three-days-and-three-nights.md treats the phrase as open. Now marked as the usual reading with a link to the sibling's counter-case."
+    - "'morning' of the waving (twice) -- a Mishnaic detail the state file says the study will not reconstruct. Now 'day'."
+    - "'four verses later' (23:11 -> 23:15) replaces 'five verses later'."
+    - "Rom 11:16 / Num 15:20-21: 'the whole batch released by it' overread the statute; now 'the whole lump holy because of it' (Paul's own term)."
+    - "Stale link title 'Jewish Feasts and Prophecy' -> 'The Appointed Times'."
+  format_changes:
+    - "**In one sentence:** thesis added after the hook; hook links the series overview."
+    - "Key Takeaways: Types & Prophecy as bullets; Lessons about Jesus as labelled bullets; Be Transformed Think now lands the resurrection hope; prayer names 'your Son Jesus' and closes 'In Jesus' name. Amen.'"
+    - "## Study outline added (validator Check 22 cleared)."
+    - "Capitalised He/Him/His/Himself for God in own prose (was all lowercase); quotations untouched. 'the Spirit' -> 'the Holy Spirit' in own prose."
+    - "Antithesis count cut: ~12 'X, not Y' shapes rewritten affirmatively; the foretaste-vs-release contrast kept under rule 5's narrow exception (the reader arrives holding the commentaries' reading)."
+    - "Named theology added: God at the front of Israel's harvest (Lev 23:10 'the land that I give you'); God keeping His calendar; union with Christ (1 Cor 15:22)."
+    - "Narrated-argument sentences cut ('Here is the observation that...', 'Say it once without the title...', 'it is easy to read past')."
+    - "Discussion Q2 replaced (old one was rhetorical -- the study answers it); Q3/Q4/Q5 given named texts."
+    - "References: On this site leads with The Appointed Times; NIV BTSB / CB entries corrected to what each actually supplied."
+  left_for_author:
+    - "MODERATE: Joshua 5:11 eats parched grain 'the day after the Passover', which Num 33:3 makes the 15th; the festival reading waves the sheaf on the 16th. The study does not address this; it bears on the open Pharisee/Sadducee question."
+    - "MODERATE: the table's 'Held by' column (Pharisees / Sadducees, Samaritans, Qumran) is uncited, and Qumran's calendar is usually given as the end-of-festival-week reading (omer on 26 I), the third reading, not the plain weekly one. Needs a source (m. Menahot 10:3 for the Boethusian dispute; 11QT / 4Q320 for Qumran) or softening."
+    - "MINOR: 'Presented upward, received back down -- which is a fair description of what happens to the offering this feast turned out to prefigure' leaves the reader to supply what (resurrection? ascension?)."
+    - "MINOR: bible_references still carries Exod 23:19, 34:26, Deut 16:9, 1 Cor 5:7, Rev 14:4, John 20:1 which the prose never cites."
+    - "HUMAN-REVIEW: essay register and theology-naming in Be Transformed / prayer are author judgement calls."
+  word_count: "~2,950 by validator measure (wc 3,174 excl. frontmatter, outline, references); budget 4,000."
+  validate: "no warnings for this file"
+  build: "mkdocs build --strict passes (page excluded as draft)"
+  publish_time: "Flip draft:false; restore the Firstfruits link in last-things/we-shall-all-be-changed.md (backlog 6.2); update feasts.md 'The series' list (Firstfruits is listed as in preparation);"
+
+author_decisions_2026-10-02:
+  applied:
+    - "Joshua 5:11 paragraph added to the disputed-date section (Numbers 33:3 = 15th; fits weekly reading if the 14th was a Sabbath, festival reading only if 'Passover' = the 15th); question left open."
+    - "Readings table: 'Held by' now Pharisees/rabbinic (festival) and Boethusians (weekly), sourced to Mishnah Menahot 10:3 paraphrased from the Hebrew (Torat Emet: 'ein ketsirat ha-omer be-motsaei yom tov'); Sefaria CC0 English bracket reverses it, so not quoted. Samaritans and Qumran removed as holders (unverified; Qumran's 26th is a third reading)."
+    - "Cut the tenuphah 'prefigure' clause."
+    - "Removed uncited refs: Exodus 23:19, 34:26, Deuteronomy 16:9, 1 Corinthians 5:7, John 20:1. Added Leviticus 23:14."
+    - "Revelation 14:4 added to 'What the firstfruits guarantees' (fits cleanly: 'redeemed from mankind as firstfruits for God and the Lamb')."
+    - "Prayer names the resurrection of the body."

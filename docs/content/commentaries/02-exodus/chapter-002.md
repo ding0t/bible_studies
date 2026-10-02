@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 2:16
+- [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 2:24
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 2:3
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 2:15-21
 <!-- commentary-index:auto-end -->

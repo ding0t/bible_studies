@@ -118,4 +118,64 @@ resources_consulted:
   - {type: other, title: "The Seven Festivals of the Messiah", author: "Eddie Chumney (confirmed via PDF title page, not guessed)", note: "Owned PDF, /Volumes/media/bible/resources/The-Seven-Festivals-of-the-Messiah.pdf. Not committed to this repo. Source for the three-trumpets typology, Yom HaDin/wedding-of-the-Messiah traditional names, and the 12-step betrothal-custom background. Quoted briefly with attribution per the copyright guardrail, not reproduced at length."}
   - {type: other, title: "Mishnah Rosh Hashanah 4", author: "traditional/rabbinic, trans. Sefaria Community Translation (CC0)", note: "Verified directly via references/build/sefaria.py rather than secondary summary -- new-moon witness procedure (4:4) and the tekiah-teruah-tekiah shofar sequence (4:9)."}
   - {type: lexicon, title: "bible-text.db (macula-hebrew-wlc) + twot_strongs_map.json", author: "this repo's build pipeline", note: "Primary word-study source for teruah/H8643 and its root ruaʿ/TWOT #2135 -- queried directly via query.py rather than by hand."}
-last_updated: "2026-07-19"
+last_updated: "2026-10-02"
+
+thesis: >-
+  Yom Teruah is a day of rest and shouting at the seventh new moon, a memorial in which God's
+  people sound out before Him and He remembers them; the New Testament never names the feast, so
+  its link to "the last trumpet" stays a suggestive inference, while its call to readiness for the
+  Lord's coming is plain.
+outline:
+  - "The day in Israel's calendar: first of the autumn three; the only Lev 23 feast on a new moon (date known only within two days); Num 29:1 'yom teruah'; shabbaton."
+  - "Teruah: the word (36 occurrences, shout/alarm/joy); Lev 23:24 names no instrument (MT, 11Q1, 4Q24) -- LXX supplies 'trumpets'; Num 10:9-10 explains zikkaron + teruah: God remembers His people (covenant faithfulness)."
+  - "How Israel kept it: Mishnah RH 1:1 (four new years), 1:7 + 4:4 (witnesses), 3:3 + 4:9 (shofar); Ezek 40:1 only biblical 'rosh hashanah'; ceremonial-law line, Col 2:17."
+  - "Typology: Chumney's first/last/great trumpet scheme; what 1 Cor 15:51-52 and Matt 24:31 state; three checked links (PRE 31, Ps 81:3 keseh, 20th-c. sources); held as suggestive, pretrib position does not rest on it."
+  - "What the feast teaches: God remembers; God summons (Joel 2:1, 12, 15; Ezek 33); the Lord is coming (1 Thess 4:16; Matt 24:42)."
+word_budget: 4000
+
+review_2026-10-02:
+  skill: review-bible-study, then brought to house format (feasts series study 6; conventions from feasts-series-2026-10.yml)
+  word_count: "~3,150 body words excluding References (was ~1,600)"
+  scripture_checked: >-
+    Every quotation re-verified against study-notes.db (ESV) or bible-text.db: Lev 23:23-25, Num
+    10:2-10, Num 29:1, 1 Cor 15:51-53, Matt 24:30-36, 42-44, 1 Thess 4:16-17, Exod 2:24, Exod 12:2,
+    Exod 19:19, Joel 2:1, 12-15, Ezek 21:22, Ezek 33:3-6, Ezek 40:1, Ps 81:3, Isa 27:13, Lev 25:9,
+    2 Cor 1:20, Col 2:17, Zech 12:10; WEB Matt 24:31; KJV/ASV/WEB/YLT Lev 23:24; MT + DSS Lev 23:24.
+  fixes_applied:
+    - "Lev 23:23-25 block quote labelled 23-25 but omitted v23; restored and moved to the ✝️-first shape."
+    - "'Ezekiel 21:27' (Hebrew numbering) opened 'I will overturn' in English; corrected to Ezekiel 21:22."
+    - "'marked by sound rather than by rest' contradicted Lev 23:24's shabbaton; removed, rest now stated."
+    - "'The text itself names this day Yom Teruah' (Lev 23): the phrase is Num 29:1; Lev 23:24 has zikkaron teruah."
+    - "'Day of Atonement ten days later' -> on the tenth day of the month (nine days after)."
+    - "'Every English translation... the Hebrew doesn't say trumpet' framed as translators obscuring; now: Lev 23:24 names no instrument, the LXX (mnemosynon salpingon) supplied 'trumpets' and English follows it; YLT 'a memorial of shouting' as cross-check."
+    - "Matt 24:36 'does parallel' Yom Teruah's uncertain start was the study's own endorsement of Chumney's 'hidden day' argument, unattributed; now attributed and weighed (Ps 81:3 keseh = 'full moon' in ESV/NIV/CSB/NASB/NKJV; Matt 24:36's day is the coming of 24:30-31, which Chumney assigns to Yom Kippur)."
+    - "Joel 2:1 was called 'a summons to repentance'; 2:1 is an alarm, the repentance call is 2:12-15; both now cited."
+    - "Chumney citation located: scheme is in his Shavuot chapter (pp. 89-92) and Rosh HaShanah chapter (p. 131-132), not only 'ch. Rosh HaShanah'."
+    - "References listed 'Yom HaDin, wedding-of-the-Messiah' as 'discussed above' -- never discussed; removed."
+    - "Theology named: Num 10:9-10 zikkaron = God remembers His people (covenant faithfulness, Exod 2:24)."
+  format_changes: "H1, In one sentence, Key Takeaways (5 subsections, Think/Attitude/Do, prayer ending In Jesus' name. Amen.), Study outline, discussion questions rewritten to facets, On this site links (feasts.md, trumpet.md, rapture.md, we-shall-all-be-changed.md), tags + bible_references extended."
+  commentary_cross_check: "ESV Study Bible note on Lev 23:23-25 (call to prepare for the most sacred month) -- confirms. NIV BTSB on 23:24 ('probably' a shofar) -- confirms instrument is inferred. NIV/NKJV Cultural Backgrounds (multiple new years) -- confirms."
+  sibling_check: "last-things/trumpet.md and we-shall-all-be-changed.md agree (last trumpet contested, pretrib held, Matt 24:31 read toward Israel's regathering). trumpet.md line ~130 says the ram's horn 'specifically announced the Day of Atonement' -- Lev 25:9 is the jubilee year only; flagged for author, not edited."
+  statement_of_faith: "Consistent with End times (pretribulational rapture). The typology is presented as fitting that position and not as its basis."
+  open_for_author:
+    - "Chumney citation: keep as the named source of the weighed typology (recommendation) or drop. Evidence of weakness: attributes the ram's-horn tradition to 'Pirkei Avot' (it is Pirkei de-Rabbi Eliezer 31, 8th-9th c.), which itself identifies the future horn with Isaiah 27:13's GREAT trumpet; 'first-century' claim rests on Gaster and Kieval (20th c.); his Talmud RH 16b citation for resurrection on Rosh HaShanah not checked."
+    - "Human-review tells (antithesis, essay register in applying sections, writing around the theology) need the author's read."
+  validate: "Passes; one warning on this file (Check 18, 'occurs once' for rosh hashanah) -- verified: ebible-heb has the phrase only at Ezek 40:1."
+  build: "mkdocs build --strict passes; in-page and cross-page anchors resolve."
+
+evidence:
+  - {what: "teruah occurrences", tool: bible_concordance, args: {strongs: H8643, work_id: macula-hebrew-wlc}, expect_count: 36}
+  - {what: "Lev 23:24 Hebrew names no instrument", tool: bible_verse, args: {book: Lev, chapter: 23, verse: 24, translation: ebible-heb}, expect_contains: "זכרון תרועה"}
+  - {what: "Num 29:1 yom teruah", tool: bible_verse, args: {book: Num, chapter: 29, verse: 1, translation: ebible-heb}, expect_contains: "יום תרועה"}
+  - {what: "Ezek 21:22 ESV shouting (MT 21:27)", tool: study_verse, args: {book: Ezek, chapter: 21, verse: 22, work_id: esv-study-bible}, expect_contains: "lift up the voice with shouting"}
+  - {what: "keseh = full moon", tool: study_verse, args: {book: Ps, chapter: 81, verse: 3, work_id: esv-study-bible}, expect_contains: "at the full moon"}
+  - {what: "Num 10:10 reminder", tool: study_verse, args: {book: Num, chapter: 10, verse: 10, work_id: esv-study-bible}, expect_contains: "a reminder of you before your God"}
+
+chumney_removed_2026-10-02:
+  decision: "Author: drop Chumney references and hold to authoritative sources (his framework teaches believers = lost northern tribes; see memory chumney_hebrew_roots_position)."
+  applied: >-
+    'The scheme' now describes the three-trumpets typology as a popular reading without naming him;
+    the two-horns, hidden-day and named-trumpets checks rest on primary sources only (Pirkei de-Rabbi
+    Eliezer 31; Psalm 81:3 keseh with ESV/NIV/CSB/NASB/NKJV; 1 Corinthians 15:52 and Mishnah Rosh
+    Hashanah 3:3, 4:9 checked for any 'last' shofar -- none). Gaster/Kieval bullet replaced. Chumney
+    removed from References. The resource entry above is kept as the record of what was checked.

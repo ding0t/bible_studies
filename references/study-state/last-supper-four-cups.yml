@@ -394,3 +394,68 @@ read_2026-09-26:
   findings_not_fixed: >
     Untouched prose still uses lowercase he/his for God and Jesus (already noted by the insight
     pass) -- a pronoun pass changes sentences, so it is out of scope here.
+
+addition_2026-10-01:
+  request: "Author asked whether Psalm 118 was the last song Jesus sang (traditional Passover hymn); chose an addition to this study."
+  section: "Literary context > 'The hymn they sang: Psalm 118' (after 'So which cup is Jesus declining?')"
+  sources: >-
+    Mishnah Pesachim 10:6 (Hillel: first half to Psalm 114:8) and 10:7 ('finishes Hallel' over the
+    fourth cup), Sefaria Community Translation CC0 via references/build/sefaria.py. ESV Study Bible
+    note on Psalm 118 ('the last psalm Jesus sang'). hymneo G5214 4x NT (Matthew 26:30, Mark 14:26,
+    Acts 16:25, Hebrews 2:12). All Scripture quoted in WEB to match the page's stated base
+    translation, checked against bible-text.db.
+  confidence: "Marked as a strong inference: Gospels do not name the hymn; Mishnah c. AD 200."
+  ties_to_thesis: "Psalm 118:26 'Blessed is he who comes' = Matthew 23:39 condition of Israel seeing Him again; waits on that day like the fourth cup."
+  budget: "Page now 4,474 words vs default 4,000 (Check 23); was under before the addition. Decision left to the author."
+
+review_2026-10-01:
+  scope: >
+    Full review-bible-study pass after the Psalm 118 addition, with emphasis on the new subsection.
+    Phase 1 all WEB/ASV quotations re-pulled from bible-text.db (Psalm 118:17, 22-27, 29; Matthew
+    21:9, 21:42, 23:39, 26:26-30; Acts 4:11, 16:25; Hebrews 2:12, 9:15; John 18:12; plus every older
+    inline/block quote) -- all verbatim. Mishnah Pesachim 10:1, 10:6, 10:7 re-fetched via sefaria.py
+    (Sefaria Community Translation, CC0) -- all three quotations verbatim, including 10:6's
+    "flint stone into a water-spring" (the Mishnah's wording for Psalm 114:8, not WEB's). ESV Study
+    Bible Psalm 118 note: "was the last psalm Jesus sang" is a verbatim substring. G5214 hymneo: 4
+    NT occurrences (Matthew 26:30, Mark 14:26, Acts 16:25, Hebrews 2:12) -- claim holds. Psalm
+    118:27 has no NT quotation link -- "never quotes verse 27 of Jesus" holds. ESV John 14:3 "take
+    you to myself" confirmed. Phase 5 run for the first time (open since 2026-08-14).
+  fixed:
+    - "Literary context > which cup: 'having sung a hymn' (MACULA gloss, matches no labeled translation) -> 'when they had sung a hymn' (WEB Matthew 26:30 / ASV Mark 14:26)."
+    - "Frontmatter bible_references: added John 19:28-30 (discussed in Theological principle; a supporting passage in this file) and Mark 2:22 (cited in the kainos word study)."
+    - "Bare references given their book: Jeremiah 31:33, Leviticus 17:11 (KT Type -- the covenant); Revelation 19:9, 21:3 (KT Still outstanding); Jeremiah 31:31 (word study; Two limits); Leviticus 17:10 (Blood handed over); John 6:60 (Capernaum)."
+  phase5_commentary: >
+    ESV Study Bible (Matthew 26:29) and NIV Biblical Theology Study Bible (Mark 14:25) CONFIRM the
+    forward-looking messianic-banquet reading (both cite Isaiah 25:6 / Revelation 19:9). ESV Study
+    Bible on Matthew 26:30 COMPLICATES the Psalm 118 claim: "Perhaps the Hallel (Psalms 113-118), or
+    perhaps the last great Hallel psalm (Psalm 136)." Its Psalm 118 note states it as fact; its
+    Matthew note offers an alternative. Third-cup identification: ESV silent.
+  findings_not_applied:
+    - "MODERATE: Psalm 118 confidence -- outline says 'almost certainly', body 'strong inference', Q5 'very likely'; ESVSB's own Matthew 26:30 note offers Psalm 136. Undisclosed alternative."
+    - "MODERATE: 'The psalm He sang ... is the greeting Israel will give Him when He returns' stated as settled; ESVSB says Jesus 'may imply' it (Ps 118 note). Consistent with SoF End times, but unmarked."
+    - "MODERATE (covered by author's pending item a): m. Pes. 10:7 has Hallel finished over the poured fourth cup, which sits against 'the one that goes undrunk' unless the page says the cup was poured but Jesus abstained."
+    - "MINOR: discussion Q2 and Q4 are evidence-weighting/method questions (discussion-questions.md rule 1); no language-facet question."
+    - "MINOR: 'walked to Gethsemane singing' / 'on His way to be arrested' -- Matthew 26:30 has them sing, then go out."
+    - "MINOR: 'This shows that Jesus walked ...' -- the 'this shows that God ___' closer has Jesus as subject and never reaches the second person."
+    - "MINOR: ~45 lowercase divine pronouns in older prose (he/his/himself for God and Jesus) against the house rule; defer until after simplify, since cuts remove many."
+    - "MINOR: review_gaps -- Hebrews 8:8-12 quotes Jeremiah 31:31-34 in full and bears on 'Two limits'; not cited. Hebrews 2:12 quotes Psalm 22:22 (unnoted, incidental)."
+    - "MINOR: em-dash density (55 lines)."
+    - "MINOR: CSB footnote at Mark 14:25 'Or drink new wine; lit drink it new' -- incidental to the kainos bullet."
+  size: "4,484 words by Check 23 after fixes (+10) vs 4,000 budget. See simplify recommendation (not applied)."
+  not_run: "commentary_index.py not re-run for the bible_references change (it writes other files); author to run before/with commit."
+
+simplify_applied_2026-10-02:
+  decision: "Author chose the fork path from the 2026-10-01 simplify recommendation."
+  forked_to: "docs/content/jesus/psalm-118-road-to-gethsemane.md (draft)"
+  applied: >-
+    Hymn section replaced by 'The hymn, and the cup left on the table' (~170 words, merged with the
+    silence paragraph from 'So which cup'): Mishnah 10:7 Hallel finished over the mixed fourth cup
+    (author's pending item a), ESV SB Psalm 118 note and its Matthew 26:30 alternative (Psalm 136),
+    Psalm 118:26 / Matthew 23:39 marked as this site's reading (review findings 1-3). Opening thesis
+    paragraph trimmed; Key Takeaways bold lead-ins removed; Still outstanding cut; Lessons bullet 2
+    deleted; Reading order folded into How many cups; textual note made a paragraph; memorial and
+    blood-handed-over merged; Exodus 6:7 and Jeremiah merged; Bride of Christ pointer cut; Louw-Nida
+    detail tightened; Theological principle quotes made citations; Application bullet 3 deleted;
+    discussion questions rebuilt (method questions removed, language and hymn questions added, page
+    order). Seder glossed at first use. Validator: no warnings (under 4,000).
+  not_applied: "Pronoun capitalisation sweep (review finding 7); Hebrews 8:8-12 citation (finding 8)."

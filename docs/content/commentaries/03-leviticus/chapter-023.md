@@ -13,6 +13,8 @@ draft: false
 ## Studies referencing this chapter
 
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 23:23-25 (primary passage)
+- [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 23:9-14 (primary passage)
+- [The Appointed Times](../../feasts/feasts.md) — 23:1-44 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 23:36
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 23:10
 - [Biblical Numerology](../../scripture/numerology.md) — 23:1-44

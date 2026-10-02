@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 23:39
 - [In Humility](../../christian-life/humility.md) — 23:12
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 23:1-36
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 23:36

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 13:1
+- [The Appointed Times](../../feasts/feasts.md) — 13:1
 <!-- commentary-index:auto-end -->

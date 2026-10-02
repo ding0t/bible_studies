@@ -21,6 +21,7 @@ draft: false
 - [Philip](../../biblical-figures/philip.md) — 1:43-46
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1
 - [Simon Peter](../../biblical-figures/peter.md) — 1:40-42
+- [The Appointed Times](../../feasts/feasts.md) — 1:14
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:11
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 1:48-50
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 1:35-51

@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 15:20-21
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 15:37-41
 <!-- commentary-index:auto-end -->

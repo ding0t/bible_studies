@@ -15,6 +15,7 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 1:13
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 1:12-13
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 1:13
+- [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 1:18
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 1:25-27
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:9-10
 - [Six Days of History](../../last-things/six-days-of-history.md) — 1:15

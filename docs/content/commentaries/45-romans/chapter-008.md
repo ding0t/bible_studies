@@ -17,6 +17,7 @@ draft: false
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 8:3
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 8:1
 - [Faith](../../salvation/faith.md) — 8:30
+- [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 8:23
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 8:18-25
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 8:26-27
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 8:28

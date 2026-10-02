@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Colossians 2:16-17"
 bible_references: ["2 Timothy 3:16-17", "2 Timothy 3:8", "Luke 24:25-27", "Matthew 5:17-18", "Hebrews 10:1", "1 Corinthians 5:7-8", "Leviticus 23:2-4", "Deuteronomy 6:4-7", "Genesis 2:2-3", "Psalm 119:105", "Romans 15:4", "Acts 17:11", "Galatians 5:1-4", "Acts 15:10-11", "Jude 1:9", "Jude 1:14-15", "Deuteronomy 34:5-7"]
 date_created: 2025-05-21
-date_modified: 2026-09-27
+date_modified: 2026-10-02
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -276,7 +276,7 @@ for on the Emmaus road. It loses the thing Paul says you still need for enduranc
   distinct; read alongside the Cautions section above.
 - [Jesus, Priest in the Order of Melchizedek](../jesus/melchizedek-priesthood.md) — a single Old
   Testament type worked through in full.
-- [Jewish Feasts and Prophecy](../feasts/feasts.md) and [The Zadok Calendar](../feasts/zadok-calendar.md)
+- [The Appointed Times](../feasts/feasts.md) and [The Zadok Calendar](../feasts/zadok-calendar.md)
   — the fuller treatment of the appointed feasts and the calendar behind them.
 - [Bible Prophecy Essentials](../last-things/prophecy-essentials.md) — fulfilled prophecy verified
   against source rather than assumed.

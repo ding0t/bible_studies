@@ -18,5 +18,6 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 10:34-36
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 10:34-36
 - [Pride](../../sin/pride.md) — 10:33-36
+- [The Appointed Times](../../feasts/feasts.md) — 10:22-23
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 10:21
 <!-- commentary-index:auto-end -->

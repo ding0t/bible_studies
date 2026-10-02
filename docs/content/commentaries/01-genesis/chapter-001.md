@@ -18,6 +18,7 @@ draft: false
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 1:2
 - [Biblical Numerology](../../scripture/numerology.md) — 1:1
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1
+- [The Appointed Times](../../feasts/feasts.md) — 1:14
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:14-19
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 1:14-19
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:5

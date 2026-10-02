@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 1:6
+- [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 1:5
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 1:7
 - [John son of Zebedee](../../biblical-figures/john.md) — 1:9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:4
