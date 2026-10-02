@@ -4,7 +4,7 @@ category: "other"
 description: "Studies of particular people in Scripture."
 draft: false
 date_created: 2026-08-08
-date_modified: 2026-08-29
+date_modified: 2026-10-02
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -23,6 +23,22 @@ the subject, not the illustration.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __The Twelve: Disciples and Apostles__
+
+    ---
+
+    The four lists of the Twelve compared position by position: the fixed groups of four hiding inside them, why the number had to be twelve, and the difference between a disciple and an apostle.
+
+    [:octicons-arrow-right-24: Read](twelve-apostles.md)
+
+-   __Simon Peter__
+
+    ---
+
+    The fisherman Jesus renamed at first meeting: what 'Cephas' meant before Peter had done anything to deserve it, and why he heads all four lists of the Twelve.
+
+    [:octicons-arrow-right-24: Read](peter.md)
+
 -   __Andrew__
 
     ---
@@ -30,22 +46,6 @@ the subject, not the illustration.
     The apostle who is introduced three times and is bringing someone to Jesus on each occasion — including the boy with the loaves and the Greeks who came asking.
 
     [:octicons-arrow-right-24: Read](andrew.md)
-
--   __Bartholomew (Nathanael)__
-
-    ---
-
-    An apostle whose name is a patronymic, not a personal name — and the cumulative case, laid out honestly, for identifying him with Nathanael of Cana.
-
-    [:octicons-arrow-right-24: Read](bartholomew.md)
-
--   __James son of Alphaeus__
-
-    ---
-
-    An apostle who heads a group of four in all four lists and never speaks, acts, or is described — and why the identifications commonly proposed for him do not hold up.
-
-    [:octicons-arrow-right-24: Read](james-son-of-alphaeus.md)
 
 -   __James son of Zebedee__
 
@@ -63,38 +63,6 @@ the subject, not the illustration.
 
     [:octicons-arrow-right-24: Read](john.md)
 
--   __Judas Iscariot__
-
-    ---
-
-    The apostle who is last in every list: what his name probably means, what the money box reveals, and how to handle the two accounts of his death honestly.
-
-    [:octicons-arrow-right-24: Read](judas-iscariot.md)
-
--   __Matthew (Levi)__
-
-    ---
-
-    The tax collector who left the booth mid-shift, threw a party for his disreputable colleagues, and then wrote himself into his own Gospel with the job title still attached.
-
-    [:octicons-arrow-right-24: Read](matthew.md)
-
--   __Paul: Apostle to the Gentiles__
-
-    ---
-
-    The man who persecuted the church became the one Jesus sent specifically to the Gentiles -- what Scripture actually claims about the connection between his conversion and theirs, and where it stops short of calling him a type.
-
-    [:octicons-arrow-right-24: Read](paul.md)
-
--   __Simon Peter__
-
-    ---
-
-    The fisherman Jesus renamed at first meeting: what 'Cephas' meant before Peter had done anything to deserve it, and why he heads all four lists of the Twelve.
-
-    [:octicons-arrow-right-24: Read](peter.md)
-
 -   __Philip__
 
     ---
@@ -103,21 +71,13 @@ the subject, not the illustration.
 
     [:octicons-arrow-right-24: Read](philip.md)
 
--   __Simon the Zealot__
+-   __Bartholomew (Nathanael)__
 
     ---
 
-    The apostle whose only description is a political label — and why 'Simon the Canaanite' in older translations is a mistranslation worth correcting.
+    An apostle whose name is a patronymic, not a personal name — and the cumulative case, laid out honestly, for identifying him with Nathanael of Cana.
 
-    [:octicons-arrow-right-24: Read](simon-the-zealot.md)
-
--   __Thaddaeus (Judas son of James)__
-
-    ---
-
-    The apostle with two names and one recorded question — asked in the upper room, and answered with a promise about where God intends to live.
-
-    [:octicons-arrow-right-24: Read](thaddaeus.md)
+    [:octicons-arrow-right-24: Read](bartholomew.md)
 
 -   __Thomas__
 
@@ -127,13 +87,53 @@ the subject, not the illustration.
 
     [:octicons-arrow-right-24: Read](thomas.md)
 
--   __The Twelve: Disciples and Apostles__
+-   __Matthew (Levi)__
 
     ---
 
-    The four lists of the Twelve compared position by position: the fixed groups of four hiding inside them, why the number had to be twelve, and the difference between a disciple and an apostle.
+    The tax collector who left the booth mid-shift, threw a party for his disreputable colleagues, and then wrote himself into his own Gospel with the job title still attached.
 
-    [:octicons-arrow-right-24: Read](twelve-apostles.md)
+    [:octicons-arrow-right-24: Read](matthew.md)
+
+-   __James son of Alphaeus__
+
+    ---
+
+    An apostle who heads a group of four in all four lists and never speaks, acts, or is described — and why the identifications commonly proposed for him do not hold up.
+
+    [:octicons-arrow-right-24: Read](james-son-of-alphaeus.md)
+
+-   __Thaddaeus (Judas son of James)__
+
+    ---
+
+    The apostle with two names and one recorded question — asked in the upper room, and answered with a promise about where God intends to live.
+
+    [:octicons-arrow-right-24: Read](thaddaeus.md)
+
+-   __Simon the Zealot__
+
+    ---
+
+    The apostle whose only description is a political label — and why 'Simon the Canaanite' in older translations is a mistranslation worth correcting.
+
+    [:octicons-arrow-right-24: Read](simon-the-zealot.md)
+
+-   __Judas Iscariot__
+
+    ---
+
+    The apostle who is last in every list: what his name probably means, what the money box reveals, and how to handle the two accounts of his death honestly.
+
+    [:octicons-arrow-right-24: Read](judas-iscariot.md)
+
+-   __Paul: Apostle to the Gentiles__
+
+    ---
+
+    The man who persecuted the church became the one Jesus sent specifically to the Gentiles -- what Scripture actually claims about the connection between his conversion and theirs, and where it stops short of calling him a type.
+
+    [:octicons-arrow-right-24: Read](paul.md)
 
 </div>
 <!-- section-index:auto-end -->

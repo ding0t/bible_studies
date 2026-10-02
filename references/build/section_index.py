@@ -88,14 +88,30 @@ def title_from_slug(slug: str) -> str:
     return slug.replace("-", " ").title()
 
 
+def nav_rank(dir_path: Path):
+    """Sort key that follows the directory's awesome-pages `.pages` nav, so the card grid and the
+    sidebar list a section in the same order (feasts/ runs in calendar order, the Twelve in the
+    order of Matthew 10). Names the nav omits take the position of its "..." entry, or go last,
+    and keep alphabetical order among themselves because the sort is stable."""
+    pages = dir_path / ".pages"
+    if not pages.exists():
+        return lambda name: 0
+    nav = (yaml.safe_load(pages.read_text(encoding="utf-8")) or {}).get("nav") or []
+    names = [next(iter(e.values())) if isinstance(e, dict) else e for e in nav]
+    rank = {name: i for i, name in enumerate(names)}
+    rest = rank.get("...", len(names))
+    return lambda name: rank.get(name, rest)
+
+
 def build_index(dir_path: Path) -> str | None:
     rel = dir_path.relative_to(CONTENT_DIR)
+    rank = nav_rank(dir_path)
     # A series (a subdirectory with its own index.md) is a larger body of work than any one page
     # beside it, so its card leads the grid. Sorted alphabetically among the pages, a series landed
     # mid-grid with no description and read as an afterthought (jesus/the-heavenly-pattern, 2026-09).
     series_cards, page_cards = [], []
 
-    for child in sorted(dir_path.iterdir()):
+    for child in sorted(sorted(dir_path.iterdir()), key=lambda c: rank(c.name)):
         if child.name.startswith(".") or child.name == "index.md":
             continue
         if child.is_dir():

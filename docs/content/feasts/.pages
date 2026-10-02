@@ -1,0 +1,17 @@
+# Calendar order, Leviticus 23: the hub study, then each appointed time in the order of the year.
+# The Last Supper study follows Passover because it is the Passover meal Jesus ate. The Zadok
+# Calendar is about reckoning the calendar itself, so it closes the section. "..." keeps any new
+# page visible (alphabetically, at the end) until it is placed here.
+nav:
+  - index.md
+  - feasts.md
+  - passover.md
+  - last-supper-four-cups.md
+  - unleavened-bread.md
+  - firstfruits.md
+  - weeks.md
+  - trumpets.md
+  - day-of-atonement.md
+  - tabernacles.md
+  - zadok-calendar.md
+  - ...

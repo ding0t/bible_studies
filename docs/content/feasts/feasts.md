@@ -135,13 +135,13 @@ months" (Exodus 12:2, ESV).
 
 | Feast | When | Leviticus 23 | What Israel remembered or offered |
 |---|---|---|---|
-| Passover | 1st month, 14th day | 23:5 | The lamb whose blood spared Israel in Egypt |
-| Unleavened Bread | 1st month, 15th-21st | 23:6-8 | The hurried exodus, bread without leaven |
-| Firstfruits | "The day after the Sabbath" (which Sabbath is debated) | 23:9-14 | The first sheaf of the barley harvest |
-| Weeks (Pentecost) | Fifty days later | 23:15-22 | The wheat harvest, two loaves |
-| Trumpets | 7th month, 1st day | 23:23-25 | A day of trumpet blasts and rest |
-| Day of Atonement | 7th month, 10th day | 23:26-32 | Atonement for the people; "you shall afflict yourselves" |
-| Booths (Tabernacles) | 7th month, 15th-21st, and an eighth day | 23:33-43 | Living in booths to remember the wilderness |
+| [Passover](passover.md) | 1st month, 14th day | 23:5 | The lamb whose blood spared Israel in Egypt |
+| [Unleavened Bread](unleavened-bread.md) | 1st month, 15th-21st | 23:6-8 | The hurried exodus, bread without leaven |
+| [Firstfruits](firstfruits.md) | "The day after the Sabbath" (which Sabbath is debated) | 23:9-14 | The first sheaf of the barley harvest |
+| [Weeks (Pentecost)](weeks.md) | Fifty days later | 23:15-22 | The wheat harvest, two loaves |
+| [Trumpets](trumpets.md) | 7th month, 1st day | 23:23-25 | A day of trumpet blasts and rest |
+| [Day of Atonement](day-of-atonement.md) | 7th month, 10th day | 23:26-32 | Atonement for the people; "you shall afflict yourselves" |
+| [Booths (Tabernacles)](tabernacles.md) | 7th month, 15th-21st, and an eighth day | 23:33-43 | Living in booths to remember the wilderness |
 
 Three of them were pilgrim feasts: "Three times a year all your males shall appear before the LORD
 your God ... at the Feast of Unleavened Bread, at the Feast of Weeks, and at the Feast of Booths"
@@ -179,16 +179,20 @@ Unleavened Bread as the life that follows from it.
 
 - **Passover.** "Christ, our Passover lamb, has been sacrificed" (1 Corinthians 5:7, ESV). John notes
   that no bone of Jesus was broken, "that the Scripture might be fulfilled" (John 19:36, ESV), the
-  rule for the Passover lamb (Exodus 12:46). Jesus died at Passover. See
-  ["I Will Not Drink Again"](last-supper-four-cups.md) for the meal He ate that night.
+  rule for the Passover lamb (Exodus 12:46). Jesus died at Passover.
+  [Passover: When I See the Blood](passover.md) studies the feast, and
+  ["I Will Not Drink Again"](last-supper-four-cups.md) the meal He ate that night.
 - **Unleavened Bread.** Paul goes straight on: "Let us therefore celebrate the festival, not with the
   old leaven ... but with the unleavened bread of sincerity and truth" (1 Corinthians 5:8, ESV). He
   applies the feast to the church's life: those whom the Lamb redeemed put away malice and evil.
+  [Unleavened Bread: A New Lump](unleavened-bread.md) follows that application.
 - **Firstfruits.** "Christ the firstfruits, then at his coming those who belong to Christ" (1
   Corinthians 15:23, ESV). The first sheaf of the harvest was a pledge of the rest; Christ's
-  resurrection is the pledge of yours.
+  resurrection is the pledge of yours. [Firstfruits: The Sheaf Waved on the Third Day](firstfruits.md)
+  works through the statute and its disputed date.
 - **Weeks.** "When the day of Pentecost arrived" (Acts 2:1, ESV), the Holy Spirit came on the
   disciples and "there were added that day about three thousand souls" (Acts 2:41, ESV). The harvest feast became the first harvest of the church.
+  [Weeks: Fifty Days to Pentecost](weeks.md) traces the count from the sheaf to the loaves.
 
 The New Testament states each of these links, and it dates two of them. **God kept His calendar to
 the day:** the Lamb died at Passover, and the Holy Spirit came at Weeks. Jesus rose "after the
@@ -217,12 +221,15 @@ marked for each.
   ESV). Paul expects it: "all Israel will be saved ... when I take away their sins" (Romans 11:26-27,
   ESV). Reading that day as the fulfilment of Yom Kippur is an inference from the shared themes of
   mourning and cleansing; the events themselves are prophesied.
+  [The Day of Atonement: Once a Year, Once for All](day-of-atonement.md) sets out both halves.
 - **Tabernacles: prophesied.** Zechariah 14:16 says the nations will keep the Feast of Booths in the
   kingdom. John says the Word "became flesh and dwelt among us" (John 1:14, ESV), using
   σκηνόω (*skēnoō*, G4637), to pitch a tent. At Booths Jesus stood up and cried, "If anyone thirsts,
   let him come to me and drink" (John 7:37, ESV). The last word belongs to Revelation: "the dwelling
   place of God is with man. He will dwell with them" (Revelation 21:3, ESV). "Dwelling place" is
   σκηνή (*skēnē*, G4633), a tent, and "He will dwell" is *skēnoō* again, the verb of John 1:14.
+  [Tabernacles: God Dwelling with His People](tabernacles.md) follows the feast from the wilderness
+  to the kingdom.
 
 Some teachers read the summer gap between Weeks and Trumpets as the church age, the long harvest
 between Pentecost and the trumpet. It fits the dispensational shape of the calendar, and Scripture
@@ -249,16 +256,17 @@ wait for the appointments He has not yet kept.**
 
 ## The series
 
-Each appointed time has, or will have, its own study in this section:
+Each appointed time has its own study in this section, listed in the order of the year:
 
 - [Passover: When I See the Blood](passover.md)
+    - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](last-supper-four-cups.md),
+      the Passover meal Jesus ate the night He was betrayed
 - [Unleavened Bread: A New Lump](unleavened-bread.md)
 - [Firstfruits: The Sheaf Waved on the Third Day](firstfruits.md)
 - [Weeks: Fifty Days to Pentecost](weeks.md)
 - [Feast of Trumpets: Yom Teruah](trumpets.md)
 - [The Day of Atonement: Once a Year, Once for All](day-of-atonement.md)
 - [Tabernacles: God Dwelling with His People](tabernacles.md)
-- ["I Will Not Drink Again": The Last Supper and the Cups of Passover](last-supper-four-cups.md)
 - [The Zadok Calendar](zadok-calendar.md), on reckoning the calendar itself
 
 ## Discussion questions
@@ -287,7 +295,7 @@ Each appointed time has, or will have, its own study in this section:
 
 ### On this site
 
-- [Feast of Trumpets: Yom Teruah](trumpets.md)
+- The seven feast studies, listed under [The series](#the-series)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](last-supper-four-cups.md)
 - [The Zadok Calendar](zadok-calendar.md)
 - [Hebrew Roots](../israel-and-church/hebrew-roots.md)
