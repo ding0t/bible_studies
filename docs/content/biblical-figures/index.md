@@ -7,6 +7,7 @@ date_created: 2026-08-08
 date_modified: 2026-10-02
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 

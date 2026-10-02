@@ -15,6 +15,7 @@ draft: false
 - [Passover: When I See the Blood](../../feasts/passover.md) — 16:1-7
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 16:13-15
 - [The Appointed Times](../../feasts/feasts.md) — 16:16
+- [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 16:3
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 16:3-4
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 16:9-12
 <!-- commentary-index:auto-end -->

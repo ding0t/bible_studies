@@ -261,6 +261,8 @@ Each appointed time has its own study in this section, listed in the order of th
 - [Passover: When I See the Blood](passover.md)
     - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](last-supper-four-cups.md),
       the Passover meal Jesus ate the night He was betrayed
+    - [The Lord's Supper: Do This in Remembrance of Me](lords-supper.md), the memorial He made of
+      it for His church
 - [Unleavened Bread: A New Lump](unleavened-bread.md)
 - [Firstfruits: The Sheaf Waved on the Third Day](firstfruits.md)
 - [Weeks: Fifty Days to Pentecost](weeks.md)
@@ -297,6 +299,7 @@ Each appointed time has its own study in this section, listed in the order of th
 
 - The seven feast studies, listed under [The series](#the-series)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](last-supper-four-cups.md)
+- [The Lord's Supper: Do This in Remembrance of Me](lords-supper.md)
 - [The Zadok Calendar](zadok-calendar.md)
 - [Hebrew Roots](../israel-and-church/hebrew-roots.md)
 - [Statement of Faith](../about/statement-of-faith.md)

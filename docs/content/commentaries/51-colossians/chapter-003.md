@@ -14,5 +14,6 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 3:4
 - [In Humility](../../christian-life/humility.md) — 3:12
+- [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 3:1-2
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:4
 <!-- commentary-index:auto-end -->

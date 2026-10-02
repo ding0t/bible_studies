@@ -42,6 +42,14 @@ The biblical feasts, their Old Testament instruction, and New Testament fulfillm
 
     [:octicons-arrow-right-24: Read](last-supper-four-cups.md)
 
+-   __The Lord's Supper: Do This in Remembrance of Me__
+
+    ---
+
+    The memorial meal Jesus gave His church, as the Passover was Israel's: what it remembers, what it teaches, how it makes many one body, what went wrong at Corinth, how to come to it, and the cup Jesus will drink new with His people at the marriage supper of the Lamb.
+
+    [:octicons-arrow-right-24: Read](lords-supper.md)
+
 -   __Unleavened Bread: A New Lump__
 
     ---

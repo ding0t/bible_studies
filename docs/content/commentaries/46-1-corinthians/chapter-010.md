@@ -16,5 +16,6 @@ draft: false
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 10:20-21
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 10:18
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 10:16
+- [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:1-4
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 10:32
 <!-- commentary-index:auto-end -->

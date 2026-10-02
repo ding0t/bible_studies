@@ -1,0 +1,143 @@
+slug: "lords-supper"
+title: "The Lord's Supper"
+status: published # 2026-10-02, author approved
+target_path: "docs/content/feasts/lords-supper.md"
+
+primary_passage: "1 Corinthians 11:17-34"
+supporting_passages:
+  - "1 Corinthians 10:14-22"
+  - "Luke 22:14-20"
+  - "Matthew 26:26-29"
+  - "Mark 14:22-25"
+  - "Acts 2:42-46"
+  - "Acts 20:7"
+  - "Luke 24:30-35"
+  - "Hebrews 10:1-4"
+  - "Numbers 10:10"
+  - "Leviticus 24:7"
+  - "Revelation 1:10"
+genre: [epistle, gospel, acts, topical]
+
+thesis: >
+  The Lord's Supper is the meal Jesus gave His church to remember His death, to share in His body
+  and blood, to show that we who eat one bread are one body, and to proclaim His death until He
+  comes; so you come to it examined, reconciled to your brothers and sisters, and waiting for one
+  another and for Him.
+outline:
+  - section: "What the meal is called"
+    says: "The Lord's supper (kyriakos, only here and 'the Lord's day', Rev 1:10), the breaking of bread (Acts 2:42; 20:7; Luke 24:35), the Eucharist (eucharisteo, 1 Cor 11:24; Didache 9; Justin). Points to the four-cups study for the night itself."
+  - section: "What Paul handed on (1 Cor 11:23-26)"
+    says: "Received and delivered: the words of institution as the church's tradition, with their two commands to remember."
+  - section: "Four things the Supper does"
+    says: "Remember (anamnesis: Luke 22:19, 1 Cor 11:24-25 against Heb 10:3's yearly 'reminder of sins'); share (koinonia, 1 Cor 10:16, with the altar and the table of demons, 10:18-21); be one body (10:17; Didache 9:4); proclaim until He comes (katangello, 11:26). SVG 1."
+  - section: "What went wrong at Corinth (11:17-22)"
+    says: "Banquet by rank in a host's house; the rich eat first, the poor go hungry; 'it is not the Lord's supper that you eat.' SVG 2 (reconstruction, marked)."
+  - section: "Coming in a worthy manner (11:27-32)"
+    says: "anaxios (NT hapax) describes the manner of eating; examine yourself (dokimazo); discern the body (diakrino; two readings, and the 11:29 variant adding 'unworthily' and 'Lord's'); the judgment word chain; discipline so as not to be condemned."
+  - section: "Wait for one another (11:33-34)"
+    says: "Paul's remedy; Didache 14 on reconciliation before breaking bread."
+  - section: "'This is my body': how Christians have read it"
+    says: "Contested; the four main positions set out fairly (ESVSB note on 11:24; Justin 1 Apol. 66 claimed by all sides). Site position to be supplied by the author."
+  - section: "Theological principle / Until He comes"
+    says: "Church-age ordinance between the cross and the kingdom table; links to four-cups for the undrunk cup."
+word_budget: 4000
+word_budget_reason: ""
+
+graphics_plan:
+  - id: svg-1
+    file: "docs/content/assets/img/lords-supper-four-directions.svg"
+    shows: "The Supper's four directions: back (remember His death), up (share in Christ), around (one bread, one body), ahead (proclaim until He comes) -- each with its verse and Greek word."
+  - id: svg-2
+    file: "docs/content/assets/img/lords-supper-corinth-house.svg"
+    shows: "Floor plan of a wealthy Corinthian house: triclinium with three couches (9-12 reclining, host's food and wine) beside the atrium (up to 40, latecomers, little food). Labelled with 1 Cor 11:21-22, 33. Marked as a reconstruction from the NIV CBSB 'Banquets in Corinth' article."
+  - id: svg-3 (optional)
+    file: "docs/content/assets/img/lords-supper-one-loaf.svg"
+    shows: "Didache 9:4 beside 1 Cor 10:17: scattered grain on the hills gathered into one loaf, one body. Could fold into svg-1 instead."
+  constraints: "Content column ~560px (diagrams.md). Design viewBox ~640 wide, text >= 15 units so it renders >= 13px. Fixed colours with own background (an <img> SVG cannot read the site's dark-mode variables). title + desc for accessibility; full alt text in the markdown, as new-jerusalem.md does."
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      2026-10-02. Author asked for a dedicated Lord's Supper study after a coverage check found
+      last-supper-four-cups.md covers the institution and the deferred fourth cup well but not
+      1 Cor 11:17-34, 10:16-17's one-body teaching, anamnesis, the presence question or practice.
+      Author: the four-cups study should then focus on the "I will not drink again" aspect.
+      Placement israel-and-church/ (ecclesiology: the church's ordinances).
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        1 Corinthians written from Ephesus, spring AD 53-55 (ESVSB intro; 16:8). 11:2-14:40 is
+        disorder in corporate worship (ESVSB). 11:17-34 learned by oral report (11:18). NIV CBSB
+        'Banquets in Corinth': status governed banquet seating and food; churches met in wealthy
+        homes; average wealthy home reclined 9-12 on three couches in the triclinium, up to ~40 in
+        the atrium; 'whatever the particulars' the wealthy minority (1:26) hosted. Latecomers may
+        be labourers/slaves (NIV CBSB on 11:21). The Passover the Supper was modelled on was an
+        intimate family meal centred on redemption.
+    literary_context:
+      done: true
+      notes: >
+        10:14-22 (flee idolatry: the cup/table of the Lord vs of demons, Israel 'participants in
+        the altar') precedes; 11:2-16 head coverings; 11:17-34 the Supper; 12-14 gifts and the body.
+        11:23 'received ... delivered' is tradition language (NIV CBSB; cf. 15:3). Paul's remedy
+        is 11:33 'wait for one another'.
+    content_word_studies:
+      done: true
+      notes: "All verified via bible_concordance / interlinear 2026-10-02."
+      terms:
+        - {word: "ἀνάμνησις", language: greek, transliteration: "anamnēsis", strongs_id: "G364", gloss: "remembrance, reminder", notes: "NT only Luke 22:19; 1 Cor 11:24, 25; Heb 10:3 (sacrifices a yearly 'reminder of sins'). LXX Lev 24:7 (memorial portion on the showbread), Num 10:10 (trumpets over offerings 'for remembrance before your God'), Ps 38/70 titles. Whether the remembrance is Godward or manward is contested -- mark it."}
+        - {word: "κοινωνία", language: greek, transliteration: "koinōnia", strongs_id: "G2842", gloss: "participation, sharing", notes: "19x NT. 1 Cor 10:16 twice. ESVSB: align with Jesus, share His sufferings, benefit from His death; contrast 10:18-21."}
+        - {word: "κυριακός", language: greek, transliteration: "kyriakos", strongs_id: "G2960", gloss: "belonging to the Lord", notes: "NT only 1 Cor 11:20 and Rev 1:10."}
+        - {word: "καταγγέλλω", language: greek, transliteration: "katangellō", strongs_id: "G2605", gloss: "proclaim", notes: "1 Cor 2:1; 9:14; 11:26 -- Paul's word for preaching the gospel."}
+        - {word: "ἀναξίως", language: greek, transliteration: "anaxiōs", strongs_id: "G371", gloss: "unworthily", notes: "NT only 1 Cor 11:27; an adverb (manner of eating)."}
+        - {word: "διακρίνω", language: greek, transliteration: "diakrinō", strongs_id: "G1252", gloss: "discern, judge rightly", notes: "1 Cor 11:29 and 11:31; wordplay with krima (11:29), krinō, katakrinō (11:32)."}
+        - {word: "εὐχαριστέω", language: greek, transliteration: "eucharisteō", strongs_id: "G2168", gloss: "give thanks", notes: "1 Cor 11:24; source of 'Eucharist' (Didache 9; Justin 1 Apol. 66)."}
+        - {word: "κλάσις", language: greek, transliteration: "klasis", strongs_id: "G2800", gloss: "breaking", notes: "NT only Luke 24:35; Acts 2:42."}
+  hermeneutics:
+    cultural_vs_transcultural: {done: false, notes: ""}
+    theological_principle: {done: false, notes: ""}
+    application_draft: {done: false, notes: ""}
+  cross_reference:
+    done: false
+    cross_refs:
+      - {ref: "1 Cor 11:29 variant", relation: "later mss add 'unworthily' and 'of the Lord' (CSB AFSB, NLT footnotes); shorter text 'the body' leaves the church-body reading open"}
+    translations_compared: ["ESV"]
+    divergences_noted: ""
+  drafting: {done: true, file: "docs/content/feasts/lords-supper.md"}
+  review: {done: false, validated: false}
+
+open_questions:
+  - "AUTHOR DECISION: the statement of faith has no position on the ordinances. How should the study land on 'This is my body' -- memorial, spiritual presence, or set out the views and leave it open? (ESVSB note on 11:24 lists Roman Catholic, Lutheran, some Anglican real presence, and most Protestants symbolic plus spiritual presence.)"
+  - "After this study publishes: refocus last-supper-four-cups.md on 'I will not drink again' and point its general communion material (Application, Be Transformed 'next communion') here. Author request 2026-10-02."
+  - "Sibling check (cross_study_claims.py) for 1 Corinthians 10-11 and Luke 22 before drafting."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", note: "intro to 1 Corinthians; notes on 10:16, 10:17, 11:17-34, 11:19-30"}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", note: "notes on 11:17-27; article 'Banquets in Corinth' (triclinium 9-12, atrium up to 40)"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "note on 11:29: both Jesus' body and the church; present discipline"}
+  - {type: other, title: "Didache 9 and 14", author: "ANF vol. 7", note: "eucharistic prayer, scattered grain made one loaf; Lord's day breaking of bread after reconciliation; baptized only"}
+  - {type: other, title: "Justin Martyr, First Apology 66", author: "ANF vol. 1", note: "'Eucharistia'; believers baptized and living as Christ enjoined; ANF editor notes Calvinists, Lutherans and Romanists all claim the passage"}
+last_updated: "2026-10-02"
+
+author_direction_2026-10-02: >
+  "Treat [what the Supper does] as per the other moed. It is a type. A thing to remember and teach.
+  It keeps us grounded, eyes set on truth. The cup not taken reminds us we are to finish with the
+  Lord, likely at the wedding banquet. Link other study work. Back all with scripture ... not
+  tradition." Applied: placed in feasts/ beside Passover and the four-cups study; structure follows
+  passover.md (memorial -> children's question -> New Testament); Didache and Justin dropped as
+  support; "This is my body" handled from Scripture's own sign language (Exod 12:11; 1 Cor 10:4;
+  John 10:9) and the meal's three biblical names (remembrance, proclamation, participation), with
+  the churches' disagreement marked contested in one sentence and no tradition cited. Graphics:
+  three-tables (Passover -> Supper -> marriage supper) and the Corinth house reconstruction; the
+  Didache one-loaf graphic dropped with the Didache.
+evidence_notes:
+  - "anaxios G371: bible_concordance SBLGNT returns only 1 Cor 11:27 (2026-10-02) -- the 'nowhere else in the NT' claim (validator Check 18)."
+  - "anamnesis G364: SBLGNT Luke 22:19; 1 Cor 11:24, 25; Heb 10:3 -- 'four times'."
+  - "kyriakos G2960: SBLGNT 1 Cor 11:20; Rev 1:10 -- 'only twice'."
+  - "katangello G2605 in 1 Cor: 2:1; 9:14; 11:26."
+  - "zikkaron H2146 at Exod 12:14 (ULT interlinear); LXX mnemosynon G3422 at Exod 12:14; 13:9."
+  - "All ESV quotations checked with study_verse 2026-10-02."
+on_publish:
+  - "Flip draft: false; run refresh_frontmatter_provenance.py; add lords-supper.md to feasts/.pages after last-supper-four-cups.md; add it to The Appointed Times' series list under Passover and its On this site list; run section_index.py and commentary_index.py. (Linking a draft from a published page fails mkdocs build --strict, so these wait.)"
+  - "Then refocus last-supper-four-cups.md on 'I will not drink again' and point its general communion material here."

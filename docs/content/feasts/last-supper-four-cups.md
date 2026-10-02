@@ -130,7 +130,7 @@ and keep us at the table until the day He drinks it new with us. In Jesus' name.
 - [Word study](#word-study-fruit-of-the-vine-new-and-covenant). "Fruit of the vine," "new" and "covenant" in the Greek.
 - [The cup he hands them](#the-cup-he-hands-them-the-blood-of-the-new-covenant). Exodus 24, John 6, and the three promises the blood of the new covenant secures, with two limits on that alignment.
 - [The fourth promise](#the-fourth-promise-i-will-take-you-to-me-for-a-people). Exodus 6:7's "take you to myself," its echo in Jeremiah 31 and John 14:3, and the move from covenant formula to wedding.
-- [Theological principle](#theological-principle) and [Application](#application). What the unfinished meal teaches, and what carries over to communion today.
+- [Theological principle](#theological-principle) and [Application](#application). What the unfinished meal teaches. What the Lord's Supper means for the church today is studied in [The Lord's Supper](lords-supper.md).
 - [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## Historical context: the four cups of Passover
@@ -285,7 +285,8 @@ is the blood that makes atonement by reason of the life"* (Leviticus 17:11, WEB)
 from among his people" as the penalty for eating it (Leviticus 17:10, WEB). So a cup identified as covenant
 blood and handed over to be drunk offers the life that atones, on the inside. Paul's word for what
 happens at that cup is **κοινωνία** (*koinōnia*, G2842) — the cup of blessing is "a sharing of the blood of
-Christ" (1 Corinthians 10:16, WEB).
+Christ" (1 Corinthians 10:16, WEB). [The Lord's Supper: Do This in Remembrance of Me](lords-supper.md)
+follows that memorial into the church's life.
 
 ### "Eat my flesh, drink my blood": the Capernaum echo
 
@@ -444,7 +445,9 @@ cross does not meet.
 ## Application
 
 - **Culturally bound:** the number and liturgical placement of the Seder's cups is Jewish festal
-  custom. The New Testament legislates none of it for believers observing the Lord's Supper.
+  custom. The New Testament legislates none of it for believers observing the Lord's Supper. What it
+  does teach about that meal (remembrance, proclamation, one body, and coming in a worthy manner) is
+  in [The Lord's Supper](lords-supper.md).
 - **Transcultural:** Jesus's meal points forward, deliberately, to something not yet arrived. That
   already/not-yet shape runs through the New Testament's whole picture of the kingdom and is taught
   directly elsewhere (Isaiah 25, Matthew 8:11, Luke 14:15-24, Revelation 19).

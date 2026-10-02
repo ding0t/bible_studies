@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 940" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Three tables: the Passover, the Lord's Supper and the marriage supper of the Lamb</title>
+  <desc id="d">Three panels stacked top to bottom. The Passover in Egypt, a memorial day (Exodus 12:14). An arrow labelled "Christ, our Passover lamb, has been sacrificed" (1 Corinthians 5:7) leads to the Lord's Supper: "Do this in remembrance of me" (Luke 22:19) and "you proclaim the Lord's death until he comes" (1 Corinthians 11:26). An arrow labelled "until it is fulfilled in the kingdom of God" (Luke 22:16) leads to the marriage supper of the Lamb: "Blessed are those who are invited" (Revelation 19:9), where Jesus drinks the cup new with His people (Matthew 26:29).</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#6b5a3e"/>
+    </marker>
+  </defs>
+  <rect width="600" height="940" fill="#faf6ec"/>
+
+  <text x="300" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#3b2f1e">Three tables</text>
+
+  <!-- 1 Passover -->
+  <rect x="20" y="60" width="560" height="210" rx="14" fill="#f3e6cf" stroke="#a67c3d" stroke-width="2"/>
+  <!-- doorframe with blood -->
+  <g transform="translate(470,95)">
+    <rect x="0" y="0" width="80" height="12" fill="#8b1e1e"/>
+    <rect x="0" y="12" width="12" height="120" fill="#8b1e1e"/>
+    <rect x="68" y="12" width="12" height="120" fill="#8b1e1e"/>
+    <rect x="12" y="12" width="56" height="120" fill="#e8d6b4"/>
+  </g>
+  <text x="44" y="98" font-size="22" font-weight="bold" fill="#5a3d14">1 · The Passover</text>
+  <text x="44" y="124" font-size="17" fill="#6b5a3e" font-style="italic">Looking back to Egypt</text>
+  <text x="44" y="164" font-size="18" fill="#2b2418">“This day shall be for you</text>
+  <text x="44" y="188" font-size="18" fill="#2b2418">a memorial day”</text>
+  <text x="44" y="212" font-size="16" fill="#6b5a3e">Exodus 12:14</text>
+  <text x="44" y="248" font-size="17" fill="#2b2418">Israel remembers how God brought them out.</text>
+
+  <!-- arrow 1 -->
+  <line x1="300" y1="272" x2="300" y2="332" stroke="#6b5a3e" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="318" y="296" font-size="16" fill="#3b2f1e" font-style="italic">“Christ, our Passover lamb,</text>
+  <text x="318" y="316" font-size="16" fill="#3b2f1e" font-style="italic">has been sacrificed” · 1 Cor 5:7</text>
+
+  <!-- 2 Lord's Supper -->
+  <rect x="20" y="340" width="560" height="240" rx="14" fill="#f6dede" stroke="#8b1e1e" stroke-width="2"/>
+  <!-- bread and cup -->
+  <g transform="translate(468,380)">
+    <ellipse cx="34" cy="70" rx="34" ry="18" fill="#c9954a" stroke="#7a5420" stroke-width="2"/>
+    <line x1="34" y1="52" x2="34" y2="88" stroke="#7a5420" stroke-width="2"/>
+    <path d="M58 0 h40 l-6 34 a14 14 0 0 1 -28 0 z" fill="#8b1e1e"/>
+    <rect x="76" y="46" width="4" height="26" fill="#6b5a3e"/>
+    <rect x="64" y="72" width="28" height="5" fill="#6b5a3e"/>
+  </g>
+  <text x="44" y="378" font-size="22" font-weight="bold" fill="#6e1414">2 · The Lord's Supper</text>
+  <text x="44" y="404" font-size="17" fill="#7a3b3b" font-style="italic">Now: looking back and ahead</text>
+  <text x="44" y="444" font-size="18" fill="#2b2418">“Do this in remembrance of me”</text>
+  <text x="44" y="468" font-size="16" fill="#7a3b3b">Luke 22:19</text>
+  <text x="44" y="506" font-size="18" fill="#2b2418">“You proclaim the Lord's death</text>
+  <text x="44" y="530" font-size="18" fill="#2b2418">until he comes”</text>
+  <text x="44" y="554" font-size="16" fill="#7a3b3b">1 Corinthians 11:26</text>
+
+  <!-- arrow 2 -->
+  <line x1="300" y1="582" x2="300" y2="642" stroke="#6b5a3e" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="318" y="606" font-size="16" fill="#3b2f1e" font-style="italic">“until it is fulfilled in</text>
+  <text x="318" y="626" font-size="16" fill="#3b2f1e" font-style="italic">the kingdom of God” · Luke 22:16</text>
+
+  <!-- 3 Marriage supper -->
+  <rect x="20" y="650" width="560" height="250" rx="14" fill="#fbf0c8" stroke="#b8902a" stroke-width="2"/>
+  <!-- crowned cup -->
+  <g transform="translate(476,690)">
+    <path d="M10 0 l10 18 l12 -18 l12 18 l10 -18 l4 28 h-52 z" fill="#d9a93a" stroke="#8a6a14" stroke-width="1.5"/>
+    <path d="M8 40 h56 l-8 40 a20 20 0 0 1 -40 0 z" fill="#d9a93a" stroke="#8a6a14" stroke-width="1.5"/>
+    <rect x="33" y="98" width="6" height="26" fill="#8a6a14"/>
+    <rect x="20" y="124" width="32" height="6" fill="#8a6a14"/>
+  </g>
+  <text x="44" y="688" font-size="22" font-weight="bold" fill="#6a4f0c">3 · The marriage supper</text>
+  <text x="44" y="714" font-size="22" font-weight="bold" fill="#6a4f0c">of the Lamb</text>
+  <text x="44" y="740" font-size="17" fill="#7a6420" font-style="italic">In the kingdom: still ahead</text>
+  <text x="44" y="780" font-size="18" fill="#2b2418">“Blessed are those who are invited”</text>
+  <text x="44" y="804" font-size="16" fill="#7a6420">Revelation 19:9</text>
+  <text x="44" y="842" font-size="18" fill="#2b2418">“when I drink it new with you</text>
+  <text x="44" y="866" font-size="18" fill="#2b2418">in my Father's kingdom”</text>
+  <text x="44" y="890" font-size="16" fill="#7a6420">Matthew 26:29</text>
+
+  <text x="300" y="928" text-anchor="middle" font-size="14" fill="#6b5a3e">Scripture quotations: ESV</text>
+</svg>

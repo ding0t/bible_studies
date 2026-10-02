@@ -18,5 +18,6 @@ draft: false
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 10:34-36
 - [Pride](../../sin/pride.md) — 10:33-36
 - [The Appointed Times](../../feasts/feasts.md) — 10:22-23
+- [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:9
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 10:21
 <!-- commentary-index:auto-end -->

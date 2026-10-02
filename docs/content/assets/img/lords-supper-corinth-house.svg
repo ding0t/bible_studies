@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">A supper arranged by rank: a wealthy house in Corinth (reconstruction)</title>
+  <desc id="d">Floor plan of a wealthy Roman house. The triclinium, the dining room, holds three couches in a U around a table with nine to twelve guests reclining and the host's food and wine: "each one goes ahead with his own meal" (1 Corinthians 11:21). The larger atrium around a central pool holds up to about forty, including latecomers arriving from work: "one goes hungry" and "humiliate those who have nothing" (1 Corinthians 11:21-22). Paul's remedy: "wait for one another" (1 Corinthians 11:33). The layout follows the NIV Cultural Backgrounds Study Bible and is a reconstruction.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4a5560"/>
+    </marker>
+    <pattern id="tiles" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#efe7d6"/>
+      <path d="M0 0 H16 M0 0 V16" stroke="#e2d6bd" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="800" fill="#faf6ec"/>
+
+  <text x="300" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#3b2f1e">A supper arranged by rank</text>
+  <text x="300" y="64" text-anchor="middle" font-size="16" fill="#6b5a3e" font-style="italic">A wealthy house in Corinth · a reconstruction</text>
+
+  <!-- house outline -->
+  <rect x="20" y="84" width="560" height="380" fill="url(#tiles)" stroke="#5a4a2c" stroke-width="5"/>
+
+  <!-- triclinium -->
+  <rect x="34" y="98" width="220" height="220" fill="#f6dede" stroke="#5a4a2c" stroke-width="4"/>
+  <rect x="254" y="190" width="4" height="60" fill="#efe7d6"/>
+  <!-- couches in a U -->
+  <rect x="50" y="114" width="188" height="34" rx="6" fill="#a8574a"/>
+  <rect x="50" y="148" width="34" height="130" rx="6" fill="#a8574a"/>
+  <rect x="204" y="148" width="34" height="130" rx="6" fill="#a8574a"/>
+  <!-- table with food -->
+  <rect x="104" y="170" width="80" height="70" rx="8" fill="#c9954a" stroke="#7a5420" stroke-width="2"/>
+  <circle cx="126" cy="192" r="9" fill="#e8c26a"/>
+  <circle cx="160" cy="194" r="9" fill="#8b1e1e"/>
+  <circle cx="142" cy="220" r="9" fill="#e8c26a"/>
+  <!-- reclining guests -->
+  <g fill="#6e1414">
+    <circle cx="80" cy="131" r="8"/><circle cx="118" cy="131" r="8"/><circle cx="156" cy="131" r="8"/><circle cx="194" cy="131" r="8"/>
+    <circle cx="67" cy="172" r="8"/><circle cx="67" cy="210" r="8"/><circle cx="67" cy="248" r="8"/>
+    <circle cx="221" cy="172" r="8"/><circle cx="221" cy="210" r="8"/><circle cx="221" cy="248" r="8"/>
+  </g>
+  <text x="144" y="300" text-anchor="middle" font-size="17" font-weight="bold" fill="#6e1414">TRICLINIUM</text>
+
+  <!-- atrium -->
+  <rect x="272" y="98" width="294" height="352" fill="#e6ecef" stroke="#5a4a2c" stroke-width="4"/>
+  <rect x="364" y="210" width="110" height="80" fill="#9cc3d8" stroke="#5f8aa3" stroke-width="2"/>
+  <text x="419" y="256" text-anchor="middle" font-size="14" fill="#2f5466">pool</text>
+  <g fill="#7d8a94">
+    <circle cx="300" cy="126" r="7"/><circle cx="330" cy="122" r="7"/><circle cx="364" cy="130" r="7"/><circle cx="400" cy="122" r="7"/><circle cx="440" cy="128" r="7"/><circle cx="480" cy="122" r="7"/><circle cx="520" cy="130" r="7"/><circle cx="548" cy="122" r="7"/>
+    <circle cx="296" cy="168" r="7"/><circle cx="326" cy="182" r="7"/><circle cx="300" cy="214" r="7"/><circle cx="330" cy="240" r="7"/><circle cx="298" cy="268" r="7"/><circle cx="326" cy="300" r="7"/><circle cx="300" cy="334" r="7"/>
+    <circle cx="512" cy="172" r="7"/><circle cx="544" cy="198" r="7"/><circle cx="510" cy="230" r="7"/><circle cx="546" cy="262" r="7"/><circle cx="514" cy="296" r="7"/><circle cx="546" cy="330" r="7"/>
+    <circle cx="364" cy="330" r="7"/><circle cx="400" cy="342" r="7"/><circle cx="440" cy="330" r="7"/><circle cx="478" cy="344" r="7"/>
+    <circle cx="380" cy="384" r="7"/><circle cx="414" cy="396" r="7"/><circle cx="450" cy="384" r="7"/><circle cx="486" cy="396" r="7"/>
+  </g>
+  <text x="419" y="186" text-anchor="middle" font-size="17" font-weight="bold" fill="#3f4b55">ATRIUM</text>
+
+  <!-- entrance and latecomers -->
+  <rect x="396" y="447" width="46" height="8" fill="#efe7d6"/>
+  <rect x="396" y="458" width="46" height="10" fill="#faf6ec"/>
+  <rect x="396" y="450" width="46" height="9" fill="#efe7d6"/>
+  <line x1="419" y1="500" x2="419" y2="430" stroke="#4a5560" stroke-width="3" marker-end="url(#arr)"/>
+  <circle cx="404" cy="510" r="7" fill="#7d8a94"/><circle cx="430" cy="518" r="7" fill="#7d8a94"/>
+  <text x="446" y="498" font-size="15" fill="#3f4b55" font-style="italic">latecomers</text>
+  <text x="446" y="516" font-size="15" fill="#3f4b55" font-style="italic">from work</text>
+
+  <!-- captions -->
+  <text x="34" y="500" font-size="18" font-weight="bold" fill="#6e1414">Dining room</text>
+  <text x="34" y="524" font-size="16" fill="#2b2418">9–12 guests reclining,</text>
+  <text x="34" y="546" font-size="16" fill="#2b2418">the host's food and wine</text>
+  <text x="34" y="580" font-size="16" fill="#2b2418" font-style="italic">“each one goes ahead</text>
+  <text x="34" y="602" font-size="16" fill="#2b2418" font-style="italic">with his own meal”</text>
+  <text x="34" y="624" font-size="15" fill="#6e1414">1 Corinthians 11:21</text>
+
+  <text x="314" y="566" font-size="18" font-weight="bold" fill="#3f4b55">Atrium</text>
+  <text x="314" y="590" font-size="16" fill="#2b2418">up to about 40</text>
+  <text x="314" y="616" font-size="16" fill="#2b2418" font-style="italic">“one goes hungry”</text>
+  <text x="314" y="640" font-size="16" fill="#2b2418" font-style="italic">“those who have nothing”</text>
+  <text x="314" y="662" font-size="15" fill="#3f4b55">1 Corinthians 11:21-22</text>
+
+  <!-- remedy -->
+  <rect x="20" y="690" width="560" height="62" rx="12" fill="#e7efdc" stroke="#5b7a3a" stroke-width="2"/>
+  <text x="300" y="718" text-anchor="middle" font-size="18" fill="#2f4a17"><tspan font-weight="bold">Paul's remedy:</tspan> “wait for one another”</text>
+  <text x="300" y="741" text-anchor="middle" font-size="15" fill="#2f4a17">1 Corinthians 11:33</text>
+
+  <text x="300" y="784" text-anchor="middle" font-size="13" fill="#6b5a3e">Room sizes after the NIV Cultural Backgrounds Study Bible. Scripture: ESV.</text>
+</svg>

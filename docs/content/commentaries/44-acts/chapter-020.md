@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 20:7
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 20:6
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 20:16
 <!-- commentary-index:auto-end -->

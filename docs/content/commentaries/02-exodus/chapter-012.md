@@ -19,6 +19,7 @@ draft: false
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 12:14
 - [The Appointed Times](../../feasts/feasts.md) — 12:2
 - [The Combined Timeline: One Line, Two Zones](../../last-things/combined-timeline.md) — 12:40-41
+- [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 12:11
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 12:2
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 12:37-41
 <!-- commentary-index:auto-end -->

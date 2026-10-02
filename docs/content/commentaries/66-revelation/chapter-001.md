@@ -20,6 +20,7 @@ draft: false
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:3
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 1:7
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 1:4
+- [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 1:10
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:7
 - [The Rapture of the Church](../../last-things/rapture.md) — 1:7
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:5

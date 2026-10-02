@@ -20,6 +20,7 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 19:7-9
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 19:11-16
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 19:11-16
+- [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 19:7-9
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 19:7-8
 - [The Rapture of the Church](../../last-things/rapture.md) — 19:11-16
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 19:11-16

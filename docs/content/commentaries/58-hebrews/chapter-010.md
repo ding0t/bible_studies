@@ -21,6 +21,7 @@ draft: false
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 10:19-22
 - [The Appointed Times](../../feasts/feasts.md) — 10:1
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 10:11-22
+- [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:3
 - [The Way](../../jesus/the-way.md) — 10:19-20
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 10:35-39
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 10:24-25
