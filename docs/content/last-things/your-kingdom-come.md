@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 6:10"
 bible_references: ["Matthew 6:9-10", "Luke 11:2", "Matthew 4:17", "Matthew 5:3", "Matthew 6:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 19:23-24", "Luke 15:18", "Matthew 12:28", "Luke 11:20", "Exodus 8:19", "Luke 17:20-21", "Matthew 25:34", "Acts 1:6-7", "Revelation 11:15", "Revelation 19:11-16", "Revelation 20:1-6", "Matthew 13:11", "Luke 12:32", "Luke 1:32-33", "Luke 19:11-12", "Matthew 25:31", "Matthew 19:28", "Revelation 3:21", "Acts 3:19-21", "Matthew 23:39", "Matthew 10:5-7", "Colossians 1:13", "Ephesians 1:20", "Matthew 28:18", "Acts 2:30-35", "Romans 11:25-29", "Matthew 13:41"]
 date_created: 2026-09-29
-date_modified: 2026-10-01
+date_modified: 2026-10-02
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -115,10 +115,33 @@ note says the Jewish prayer asked for God's future reign to change the world, an
 presumably meant His petition the same way, with one difference: for His followers the kingdom is
 already here and not yet complete.
 
+#### Its words: Ezekiel's promise, Daniel's praise
+
+The prayer book confirms the wording. The Kaddish is still said in Aramaic and opens:
+<span dir="rtl">יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא</span> (*yitgaddal ve-yitqaddash shemeh
+rabba*) ... <span dir="rtl">וְיַמְלִיךְ מַלְכוּתֵהּ</span> (*ve-yamlikh malkhuteh*): "Exalted and
+sanctified be His great Name in the world which He created according to His will and may He rule
+His kingdom. In your lifetime and in your days..." (Siddur Ashkenaz, Half Kaddish, Metsudah
+translation by Avrohom Davis, via Sefaria). Its first two verbs are God's own promise in Ezekiel
+38:23, <span dir="rtl">וְהִתְגַּדִּלְתִּי וְהִתְקַדִּשְׁתִּי</span> (*ve-hitgaddilti
+ve-hitqaddishti*): "So I will show my greatness and my holiness and make myself known in the eyes of
+many nations" (ESV). The congregation answers, "May His great Name be blessed forever and for all
+eternity," which echoes Daniel's Aramaic praise in Daniel 2:20: "Blessed be the name of God forever
+and ever" (ESV). So the prayer asks God to keep a promise He made through Ezekiel: to show Himself
+great and holy before every nation by bringing His reign.
+
+#### How old it is
+
 How early that wording is remains uncertain. The same study Bible calls the Kaddish a prayer that
 "came to be prayed daily" (article "Kingdom," at Matthew 4:17) and cites no first-century text for
-it, and this study has not checked a Jewish liturgical source directly. Treat the parallel as
-likely, resting on the shared order: God's name hallowed first, then His kingdom asked for.
+it. The earliest dated witness is the congregation's response. The Babylonian Talmud, compiled
+around AD 500, has Rabbi Yose, a second-century teacher, describe Israel entering "synagogues and
+study halls" to answer "May His great name be blessed" (Berakhot 3a). It also says the world endures
+by that response "recited after the study of aggada," the teaching drawn from Scripture's stories
+(Sotah 49a; both William Davidson translation, via Sefaria). The response was therefore in synagogue
+use by the second century. No surviving text gives the full first-century wording, so treat the
+parallel as likely, resting on the shared order: God's name hallowed first, then His kingdom asked
+for.
 
 So "hallowed be your name... your kingdom come" would probably have sounded familiar to the
 disciples. What Jesus added was Himself. The kingdom the synagogue prayed toward had, in His words, "come upon you"
@@ -346,6 +369,14 @@ disagree today, let Yours be done."*
 - *NIV Cultural Backgrounds Study Bible* (Zondervan, ed. John H. Walton and Craig S. Keener) — notes
   on Matthew 6:9-10 (the Kaddish), Matthew 12:28 and Acts 1:6, and the article "Kingdom" at
   Matthew 4:17, cited above.
+- *Siddur Ashkenaz*, Half Kaddish (Weekday Shacharit), in the Metsudah translation by Avrohom Davis
+  (1981, CC-BY), via [Sefaria](https://www.sefaria.org/Siddur_Ashkenaz%2C_Weekday%2C_Shacharit%2C_Pesukei_Dezimra%2C_Half_Kaddish)
+  — the Aramaic text and English of the Kaddish quoted above. The note linking its opening words to
+  Ezekiel 38:23 is the Metsudah siddur's, citing the *Levush* and the Vilna Gaon's siddur.
+- Babylonian Talmud, Berakhot 3a and Sotah 49a, William Davidson Edition (Koren/Steinsaltz, CC-BY-NC),
+  via [Sefaria](https://www.sefaria.org/Berakhot.3a) — the congregation's "May His great name be
+  blessed" in the synagogue and study hall. Shabbat 119b gives a third-century saying about the same
+  response.
 - *ESV Study Bible* (Crossway) — note on Matthew 6:10, cited above for the amillennial and Reformed
   reading; note on Luke 17:21, on "in the midst of you".
 - *NIV Biblical Theology Study Bible* (Zondervan) — note on Matthew 6:10, which likewise reads the

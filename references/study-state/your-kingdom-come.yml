@@ -79,12 +79,15 @@ outline:
 open_questions:
   - "Author: the already/not-yet framing sits with progressive dispensationalism. Is that the site's position, or should the study lean classic (offer/postponement)?"
   - "RESOLVED 2026-10-01 review: LXX checked against lxx-lemmas; 'regularly' (54/69 malkut, 29/39 malku verse-level)."
-  - "Kaddish first-century wording: only the NIV CBSB note consulted; no primary Jewish liturgical source."
+  - "RESOLVED 2026-10-01: Kaddish now rests on the siddur text (Metsudah, Sefaria) and Talmud b. Ber 3a / Sotah 49a for second-century use of the response. First-century full wording remains unattested; the study says so."
 resources_consulted:
   - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", note: "Matt 6:9-10 (Kaddish), 12:28 (Spirit as end-time sign), Acts 1:6 (restoration hope). Contributed all three."}
   - {type: commentary, title: "ESV Study Bible", note: "Matt 6:10: present kingdom as Christ's reign in church, increasingly seen. Contributed the amillennial/Reformed position in the contested section."}
   - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "Matt 6:10 'come more completely'. Confirmed."}
   - {type: other, title: "CSB Ancient Faith / NLT footnotes on Luke 17:21", note: "'within you' alternative. Contributed the contested-rendering note."}
+  - {type: other, title: "Siddur Ashkenaz, Half Kaddish (Metsudah, Avrohom Davis 1981, CC-BY)", author: "Sefaria", note: "Aramaic and English of the Kaddish opening and response; its note ties yitgaddal ve-yitqaddash to Ezek 38:23 (Levush, Siddur HaGra). Sefaria's Singer 1915 (PD) and Daat Hebrew (PD) versions are listed but did not return this section. NKJV CBSB Kaddish notes checked: same Keener text as NIV CBSB, not independent."}
+  - {type: other, title: "Babylonian Talmud, Berakhot 3a, Sotah 49a, Shabbat 119b (William Davidson Edition, CC-BY-NC)", author: "Sefaria", note: "R. Yose: Israel answers yehe shemeh ha-gadol mevorakh in synagogues and study halls (Ber 3a; the Aramaic does not name the Kaddish, the translation's gloss does). Sotah 49a: world endures on the yehe shemeh rabba of aggada. Shab 119b: R. Yehoshua ben Levi on answering it. Sifrei Devarim 306 checked: it is the Barekhu response, not the Kaddish -- not used."}
+  - {type: other, title: "Daniel 2:20 (WLC Aramaic)", note: "lehevē shemēh di-elāhā mevārakh min-ʿalmā ve-ʿad-ʿalmā -- the Kaddish response's echo. Own comparison; no consulted source states it."}
 review_2026-10-01:
   reviewer: independent review-bible-study pass (separate agent from the drafter)
   checked: >
@@ -119,7 +122,7 @@ review_2026-10-01:
   validate: "npm run validate: no warnings for this file."
   for_author:
     - "Which already/not-yet view you hold (classic vs progressive dispensational) -- framing left as contested per instruction."
-    - "The Kaddish still rests on one study Bible; a primary liturgical source would settle the dating."
+    - "DONE 2026-10-01: primary liturgical (siddur) and Talmudic sources added. They date the response to the 2nd century; the full first-century wording stays unproven."
     - "Human reading of register (Key Takeaways, prayer) still needed -- agent can count, not judge."
 readability_2026-10-01:
   pass: read-bible-study (separate session from drafter and reviewer); structure only, no sentence changed
@@ -134,6 +137,11 @@ readability_2026-10-01:
     - "Line 123 (\"disciples. What Jesus added was Himself...\") is an overlong source line -- wrap it when next editing (not changed: prose-line identity)."
   validate: "npm run validate: no warnings for this file."
   verifies_nothing: "Structural pass only; accuracy rests on review_2026-10-01."
+evidence:
+  - {id: ezek38-23-esv, what: "Kaddish opening echoes Ezekiel", tool: study_verse, args: {book: Ezek, chapter: 38, verse: 23, work_id: esv-study-bible}, expect_contains: "So I will show my greatness and my holiness", checked: 2026-10-01}
+  - {id: ezek38-23-wlc, what: "hitgaddilti ve-hitqaddishti", tool: bible_verse, args: {book: Ezek, chapter: 38, verse: 23, translation: WLC}, expect_contains: "וְ/הִתְגַּדִּלְתִּי", checked: 2026-10-01}
+  - {id: dan2-20-esv, what: "Kaddish response echoes Daniel", tool: study_verse, args: {book: Dan, chapter: 2, verse: 20, work_id: esv-study-bible}, expect_contains: "Blessed be the name of God forever and ever", checked: 2026-10-01}
+  - {id: kaddish-cbsb, what: "CBSB earliest form of Kaddish", tool: study_note, args: {book: Matt, chapter: 6, verse: 9, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "may he cause his kingdom to reign", checked: 2026-10-01}
 last_updated: "2026-10-01"
 position_recommendation_2026-10-01:
   asked_by: >
