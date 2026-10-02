@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Passover: When I See the Blood](../../feasts/passover.md) — 5:6
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:9
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 5:8
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 5:6

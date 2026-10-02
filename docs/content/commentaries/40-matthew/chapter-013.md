@@ -17,5 +17,6 @@ draft: false
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 13:52
 - [Six Days of History](../../last-things/six-days-of-history.md) — 13:47
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 13:10-17
+- [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 13:33
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 13:11
 <!-- commentary-index:auto-end -->

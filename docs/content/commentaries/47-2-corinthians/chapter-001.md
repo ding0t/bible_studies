@@ -16,4 +16,5 @@ draft: false
 - [Faith](../../salvation/faith.md) — 1:9
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 1:22
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:22
+- [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 1:12
 <!-- commentary-index:auto-end -->

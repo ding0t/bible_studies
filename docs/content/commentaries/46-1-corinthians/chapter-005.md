@@ -12,8 +12,10 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 5:6-8 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 5:7
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:7-8
+- [Passover: When I See the Blood](../../feasts/passover.md) — 5:7-8
 - [The Appointed Times](../../feasts/feasts.md) — 5:7-8
 - [The Restrainer](../../last-things/the-restrainer.md) — 5:2
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 5:7

@@ -17,4 +17,5 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 31:32
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 31:35-36
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 31:32
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 31:33
 <!-- commentary-index:auto-end -->

@@ -12,12 +12,14 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 2:1-41 (primary passage)
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 2:17
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 2:42
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:20
 - [Simon Peter](../../biblical-figures/peter.md) — 2:14-41
 - [The Appointed Times](../../feasts/feasts.md) — 2:1
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 2:27
+- [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 2:27
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:27
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 2:30-35
 <!-- commentary-index:auto-end -->

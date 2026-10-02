@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Way](../../jesus/the-way.md) — 11:19-26
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 11:15
 <!-- commentary-index:auto-end -->

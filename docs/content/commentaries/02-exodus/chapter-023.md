@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 23:20
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 23:16
 <!-- commentary-index:auto-end -->

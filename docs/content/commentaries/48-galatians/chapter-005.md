@@ -16,4 +16,5 @@ draft: false
 - [Faith](../../salvation/faith.md) — 5:4
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:1-4
 - [Sin and Sorcery](../../sin/sorcery.md) — 5:19-21
+- [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 5:2-3
 <!-- commentary-index:auto-end -->

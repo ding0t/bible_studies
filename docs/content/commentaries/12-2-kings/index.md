@@ -20,7 +20,7 @@ draft: false
 - [Chapter 17](chapter-017.md) — 2 study(ies)
 - [Chapter 18](chapter-018.md) — 2 study(ies)
 - [Chapter 21](chapter-021.md) — 1 study(ies)
-- [Chapter 23](chapter-023.md) — 1 study(ies)
+- [Chapter 23](chapter-023.md) — 2 study(ies)
 - [Chapter 24](chapter-024.md) — 2 study(ies)
 - [Chapter 25](chapter-025.md) — 3 study(ies)
 <!-- commentary-index:auto-end -->

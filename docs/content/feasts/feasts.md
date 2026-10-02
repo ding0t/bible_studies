@@ -251,8 +251,10 @@ wait for the appointments He has not yet kept.**
 
 Each appointed time has, or will have, its own study in this section:
 
-- Passover, Unleavened Bread and Weeks (in preparation)
+- [Passover: When I See the Blood](passover.md)
+- [Unleavened Bread: A New Lump](unleavened-bread.md)
 - [Firstfruits: The Sheaf Waved on the Third Day](firstfruits.md)
+- [Weeks: Fifty Days to Pentecost](weeks.md)
 - [Feast of Trumpets: Yom Teruah](trumpets.md)
 - Day of Atonement and Tabernacles (in preparation)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](last-supper-four-cups.md)

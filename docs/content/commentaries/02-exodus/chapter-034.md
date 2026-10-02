@@ -17,4 +17,5 @@ draft: false
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 34:22
 - [Know the Truth](../../christian-life/know-the-truth.md) — 34:6
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 34:6-7
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 34:22
 <!-- commentary-index:auto-end -->

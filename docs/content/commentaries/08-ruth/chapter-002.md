@@ -15,4 +15,5 @@ draft: false
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 2:23
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 2:12
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 2:1
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 2:23
 <!-- commentary-index:auto-end -->

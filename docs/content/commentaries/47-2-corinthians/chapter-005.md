@@ -19,5 +19,6 @@ draft: false
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:17-18
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:5
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:10
+- [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 5:21
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 5:1-4
 <!-- commentary-index:auto-end -->

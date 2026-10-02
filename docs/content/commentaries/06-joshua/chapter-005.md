@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 5:10-12
+- [Passover: When I See the Blood](../../feasts/passover.md) — 5:10
 <!-- commentary-index:auto-end -->

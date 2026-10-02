@@ -7,6 +7,7 @@ date_created: 2026-07-19
 date_modified: 2026-10-02
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -41,6 +42,14 @@ The biblical feasts, their Old Testament instruction, and New Testament fulfillm
 
     [:octicons-arrow-right-24: Read](last-supper-four-cups.md)
 
+-   __Passover: When I See the Blood__
+
+    ---
+
+    Passover is the night God judged Egypt and spared every house marked with a lamb's blood. What the feast commanded, what "pass over" means, how Israel kept it, and how the New Testament names Jesus as the Passover lamb, chosen, slain at the feast and without a broken bone.
+
+    [:octicons-arrow-right-24: Read](passover.md)
+
 -   __Feast of Trumpets: Yom Teruah__
 
     ---
@@ -48,6 +57,22 @@ The biblical feasts, their Old Testament instruction, and New Testament fulfillm
     Leviticus 23:23-25's Yom Teruah, the day of shouting at the seventh new moon: what teruah means, why the day is a memorial before God, how Israel kept it, and how far the trumpets-rapture typology can be carried by what Scripture states.
 
     [:octicons-arrow-right-24: Read](trumpets.md)
+
+-   __Unleavened Bread: A New Lump__
+
+    ---
+
+    The seven days after Passover, when Israel ate bread without leaven and cleared every trace of it from their houses. What the feast remembered, what leaven does and does not picture in Scripture, and how Paul applies the feast to a church that Christ's sacrifice has already made unleavened.
+
+    [:octicons-arrow-right-24: Read](unleavened-bread.md)
+
+-   __Weeks: Fifty Days to Pentecost__
+
+    ---
+
+    The Feast of Weeks counted fifty days from the first sheaf to the first loaves of the wheat harvest. What the feast commanded, why its loaves were leavened, the tradition that tied it to Sinai, and the day God poured out the Holy Spirit on it.
+
+    [:octicons-arrow-right-24: Read](weeks.md)
 
 -   __The Zadok Calendar__
 

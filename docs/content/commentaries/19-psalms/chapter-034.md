@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 34:12-16
+- [Passover: When I See the Blood](../../feasts/passover.md) — 34:20
 <!-- commentary-index:auto-end -->

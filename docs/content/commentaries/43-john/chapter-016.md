@@ -16,4 +16,5 @@ draft: false
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 16:23-24
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 16:30
 - [The Restrainer](../../last-things/the-restrainer.md) — 16:7-8
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 16:7
 <!-- commentary-index:auto-end -->

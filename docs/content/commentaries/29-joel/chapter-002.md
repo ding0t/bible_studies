@@ -19,4 +19,5 @@ draft: false
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:31
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 2:30-31
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 2:1-11
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 2:28-32
 <!-- commentary-index:auto-end -->

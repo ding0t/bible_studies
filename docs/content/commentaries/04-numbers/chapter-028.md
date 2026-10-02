@@ -13,4 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 28:26
+- [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 28:17-25
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 28:26
 <!-- commentary-index:auto-end -->

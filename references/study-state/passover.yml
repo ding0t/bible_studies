@@ -1,0 +1,45 @@
+slug: "passover"
+title: "Passover: When I See the Blood"
+status: review
+target_path: "docs/content/feasts/passover.md"
+series: "references/study-state/feasts-series-2026-10.yml (study 2)"
+primary_passage: "Exodus 12:1-28; Exodus 12:43-49; Leviticus 23:5"
+genre: [ot-narrative, law, gospel, epistle]
+thesis: >-
+  At the first Passover God judged Egypt and spared every household under a lamb's blood; Israel kept
+  it as a memorial, and the New Testament names Jesus as the Passover lamb, chosen, slain at the feast,
+  without a broken bone; His blood is the sign over you and the judgment you deserve fell on Him.
+word_budget: 4000
+evidence_checked:
+  - "pesach H6453 49x; pasach H6452 4x (Exodus 12:13, 23, 27; Isaiah 31:5, beside ganan 'cover', natsal, malat)"
+  - "hyssopos G5301 2x NT (John 19:29; Hebrews 9:19)"
+  - "ESV text of every quotation, study-notes.db"
+  - "Chronology consistent with docs/data/chronology.json (Triumphal Entry 10 Nisan; Last Supper as Nisan 14 began; lambs slain Nisan 14 afternoon) and last-things/chronology-anchors.md verdict Friday 3 April AD 33"
+contested_marked:
+  - "pass over = pass by vs stand guard (Isaiah 31:5, Exodus 12:23): both given"
+  - "Synoptic/John Passover-date question: ESV SB harmonisation vs this site's reading (three-days-and-three-nights.md)"
+  - "10 Nisan choosing of the lamb = Triumphal Entry: dependent on the chronology, John does not draw it"
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", note: "Exodus 12:1-28, 3-4, 7, 13; John 19:14; John 19:36"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "Exodus 12:13, 23"}
+last_updated: "2026-10-02"
+review_2026-10-02:
+  by: "review-bible-study (subagent pass)"
+  checked:
+    - "Every quotation re-queried from study-notes.db esv-study-bible (Exodus 12:3-14, 22-27, 43-49; 13:14-15; Numbers 9:10-12; Deuteronomy 16:6; Joshua 5:10; 2 Kings 23:21-22; 2 Chronicles 30:1; Isaiah 31:5; Psalm 34:20; Luke 22:15; John 1:29, 36; 12:1-13; 18:28; 19:14, 29, 32-33, 36; Romans 5:8-9; 1 Corinthians 5:7; Hebrews 11:28; 1 Peter 1:18-19; Revelation 5:6): all verbatim."
+    - "Counts: H6453 49x (macula-hebrew-wlc; morphhb-wlc 48); H6452 4x in macula (Exodus 12:13, 23, 27; Isaiah 31:5) -- morphhb adds 1 Kings 18:21, 26 and 2 Samuel 4:4; 5:6 in the 'limp/lame' sense, so 'four times in this sense' holds; G5301 2x NT (John 19:29; Hebrews 9:19), LXX Exodus 12:22 also hyssopos."
+    - "Chronology: matches chronology.json (Triumphal Entry Monday 30 March = 10 Nisan, Hoehner; Last Supper as Nisan 14 began; lambs slain Nisan 14 afternoon), chronology-anchors.md verdict anchor resolves, three-days-and-three-nights.md diagram (Passover meal in the night of Nisan 14)."
+    - "ESV SB notes 12:3-4 (symmetry), 19:14 (Thursday Passover harmonisation), 19:36 (Ps 34:20; Ex 12:46; Num 9:12): represented accurately."
+    - "Siblings: last-supper-four-cups.md, feasts.md, unleavened-bread.md, chronology-anchors.md: consistent. Statement of faith (Romans 3:23-26 propitiation by blood): consistent."
+    - "No Chumney citation present."
+  fixed:
+    - "Revelation 5:6 placement 'at the centre of the throne' (NIV wording) beside an ESV label -> ESV's 'between the throne and the four living creatures'."
+    - "Pass-over two readings were unattributed; now grounded in the Septuagint (Exodus 12:23 pareleusetai 'pass by'; 12:13, 27 skepaso 'shelter'), verified in Brenton; reference added."
+    - "'does not leave the connection to inference' (negative definition) -> affirmative."
+    - "Hebrews 9:19 removed from bible_references (never cited in the text)."
+  judgment_calls:
+    - "Exodus 13:15 'Israel's firstborn lived because a substitute died': 13:15 speaks of ongoing redemption of the firstborn (by price, Numbers 18:15-16), so the sentence fuses the Passover night with the later statute."
+    - "Hyssop echo could note that LXX Exodus 12:22 uses the same word as John 19:29 (verified)."
+    - "review_gaps: Isaiah 53:7 (lamb to the slaughter) is the obvious OT lead behind John 1:29 and is not mentioned; Psalm 118 (John 12:13) has its own forked study."
+    - "NIV BTSB 12:23 note (cited in References) is about the destroyer, which the study does not use."
+    - "Exodus 12:22 quotation stops mid-sentence without an ellipsis (wording correct)."

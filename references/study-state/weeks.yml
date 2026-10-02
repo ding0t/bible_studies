@@ -1,0 +1,124 @@
+# State file created 2026-10-02 during the first review-bible-study pass. The study was drafted
+# (feasts series, study 5) without a per-study state file, so the exegesis/hermeneutics stages
+# below are NOT a research trail kept while drafting -- they record only what this review
+# re-verified from source. Series conventions: references/study-state/feasts-series-2026-10.yml.
+
+slug: "weeks"
+title: "Weeks: Fifty Days to Pentecost"
+status: review # draft: true; reviewed, awaiting author read
+target_path: "docs/content/feasts/weeks.md"
+
+primary_passage: "Leviticus 23:15-22; Acts 2:1-41"
+supporting_passages:
+  - "Leviticus 2:11-12"
+  - "Leviticus 23:10"
+  - "Deuteronomy 16:9-12, 16"
+  - "Exodus 19:1, 16-18"
+  - "Exodus 23:16; 34:22"
+  - "Numbers 28:26"
+  - "Acts 1:3-9"
+  - "Romans 8:23"
+  - "Ephesians 1:13-14"
+genre: [law, acts, epistle]
+
+thesis: >-
+  The Feast of Weeks counted fifty days from the first sheaf to the first loaves of the wheat
+  harvest, a day of joy shared with the poor and the stranger; fifty days after Jesus rose, on that
+  very feast, the exalted Christ poured out the Holy Spirit and the harvest of the church began; so
+  the Holy Spirit in you is God's firstfruits of everything He will finish.
+outline:
+  - {section: "The feast", says: "names, the count, the offerings, the joy that reached the outsider"}
+  - {section: "Leavened loaves", says: "Leviticus 2:12 explains the leavened firstfruits; Jew/Gentile reading held as illustration"}
+  - {section: "Weeks and Sinai", says: "the Sinai link is tradition (Jubilees, Talmud), Luke never states it"}
+  - {section: "The day of Pentecost", says: "Acts 1-2, the fifty days, the beginning of the church"}
+  - {section: "Firstfruits of the Spirit", says: "Romans 8:23 / Ephesians 1:14 -- the Spirit as pledge of the rest"}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Series brief: backlog.md section 6.2."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Verified in review: ESV Study Bible note on Exodus 19:1-3 puts Sinai arrival about seven weeks after the exodus, coinciding with Weeks."
+    literary_context:
+      done: true
+      notes: "Leviticus 23:22 gleaning law follows the feast directly (ESV SB note 23:15-22 makes the same point)."
+    content_word_studies:
+      done: true
+      notes: "Counts re-run 2026-10-02."
+      terms:
+        - {word: "שָׁבוּעַ / שָׁבֻעוֹת", language: hebrew, transliteration: "shavuaʿ / shavuʿot", strongs_id: "H7620", gloss: "week(s)", notes: "20 occurrences in macula-hebrew-wlc (40 unrestricted = two morphology sources). Form שָׁבֻעוֹת matches Deut 16:10 WLC. Study states no count."}
+        - {word: "πεντηκοστή", language: greek, transliteration: "pentēkostē", strongs_id: "G4005", gloss: "fiftieth / Pentecost", notes: "3x in SBLGNT: Acts 2:1; 20:16; 1 Cor 16:8 -- matches study."}
+        - {word: "ἀπαρχή", language: greek, transliteration: "aparchē", strongs_id: "G536", gloss: "firstfruits", notes: "Romans 8:23. LXX uses ἀπαρχή for the sheaf (Lev 23:10) but πρωτογένημα for the Weeks loaves (Lev 23:17, 20; Hebrew בִּכּוּרִים). Study previously said Paul used 'this feast's word' -- corrected."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Gleaning law applied as generosity (Be Transformed 'Do'); feast observance itself not imposed."
+    theological_principle:
+      done: true
+      notes: "God keeps His calendar; the Spirit is the pledge of the full harvest (Rom 8:23; Eph 1:14)."
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Leviticus 7:13", relation: "thanksgiving offering also came with leavened loaves -- why 'every other offering' wording was removed"}
+      - {ref: "Jubilees 6:17-19; 1:1", relation: "covenant renewal (6:17, Noahic) and 'celebrated it anew on this mountain' (6:19) -- the Sinai link proper"}
+      - {ref: "b. Pesachim 68b", relation: "R. Elazar: Atzeret is 'the day on which the Torah was given'"}
+    translations_compared: ["ESV", "WEB", "LXX", "WLC"]
+    divergences_noted: "No ESV footnotes on Leviticus 23 or Acts 2."
+  drafting:
+    done: true
+    file: "docs/content/feasts/weeks.md"
+  review:
+    done: true
+    validated: true
+
+evidence:
+  - {id: pentekoste-3, what: "pentēkostē 3x NT", tool: bible_concordance, args: {strongs: G4005, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 3", checked: 2026-10-02}
+  - {id: lev2-12-esv, what: "leavened firstfruits kept off the altar", tool: study_verse, args: {book: Lev, chapter: 2, verse: 12, work_id: esv-study-bible}, expect_contains: "but they shall not be offered on the altar for a pleasing aroma", checked: 2026-10-02}
+  - {id: lev23-17-esv, what: "two loaves baked with leaven", tool: study_verse, args: {book: Lev, chapter: 23, verse: 17, work_id: esv-study-bible}, expect_contains: "they shall be baked with leaven, as firstfruits to the LORD", checked: 2026-10-02}
+  - {id: lev7-13-esv, what: "thanksgiving offering also leavened", tool: study_verse, args: {book: Lev, chapter: 7, verse: 13, work_id: esv-study-bible}, expect_contains: "with loaves of leavened bread", checked: 2026-10-02}
+  - {id: rom8-23-esv, what: "firstfruits of the Spirit", tool: study_verse, args: {book: Rom, chapter: 8, verse: 23, work_id: esv-study-bible}, expect_contains: "who have the firstfruits of the Spirit", checked: 2026-10-02}
+  - {id: acts2-33-esv, what: "memory verse", tool: study_verse, args: {book: Acts, chapter: 2, verse: 33, work_id: esv-study-bible}, expect_contains: "he has poured out this that you yourselves are seeing and hearing", checked: 2026-10-02}
+  - {id: ex19-1-esv, what: "third new moon", tool: study_verse, args: {book: Exod, chapter: 19, verse: 1, work_id: esv-study-bible}, expect_contains: "On the third new moon after the people of Israel had gone out of the land of Egypt", checked: 2026-10-02}
+
+open_questions:
+  - "'Fifty days after Jesus rose' is stated in the study's own voice; it depends on the AD 33 reconstruction (feasts.md marks the sheaf-on-resurrection-morning as reconstruction) and on inclusive counting (Pentecost is 49 days after the sheaf Sunday). Author to decide whether to mark it."
+  - "Acts 2:34-35 quotes Psalm 110:1 (the 'right hand' behind Acts 2:33); review_gaps flags it -- optional mention."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Lev 23:15-22, Exod 19:1-3, Acts 2:1, 2:1-13"}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Acts 2:1 covenant renewal -- verified"}
+  - {type: commentary, title: "NKJV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Acts 2:1 (independent check; same note text as NIV CBSB)"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Acts 2:1-47"}
+  - {type: other, title: "Jubilees (R. H. Charles 1913)", author: "", note: "raw file references/open-data/scrollmapper-bible-databases-deuterocanonical/sources/en/book-of-jubilees/book-of-jubilees.md"}
+  - {type: other, title: "Babylonian Talmud Pesachim 68b, William Davidson Edition (CC-BY-NC)", author: "Sefaria", note: "sefaria.py --chapter 136; same version precedent as your-kingdom-come.md and about/copyright.md"}
+
+review_2026-10-02:
+  checked:
+    - "All 30+ ESV quotations re-queried via study_verse (esv-study-bible): verbatim, references and labels correct."
+    - "G4005 3x (Acts 2:1; 20:16; 1 Cor 16:8) confirmed; H7620 spelling confirmed (20x WLC, not claimed in study)."
+    - "Leviticus 2:11-12 / 23:17, 20 leavened-loaves argument holds; 'every other offering' wording contradicted Lev 7:13 (and unleavened-bread.md) -- fixed."
+    - "Jubilees 6:17 verbatim; 6:17 is about the Noahic covenant, so 6:19 ('on this mountain') added for the Sinai link."
+    - "Pesachim 68b 'the day on which the Torah was given' verbatim (R. Elazar)."
+    - "Stated-vs-inferred: Sinai link marked as tradition/echo; Jew-and-Gentile loaves marked as illustration -- both fine."
+    - "Mermaid diagram renders 456px (viewBox 4 4 456 466). Timeline link ../../timeline/#pentecost valid (period id 'pentecost' in shared.js)."
+    - "Siblings: feasts.md, firstfruits.md, unleavened-bread.md, prophecy-chart.md, statement-of-faith.md -- consistent after fixes."
+  fixed:
+    - "Romans 8:23 'this feast's word' -> ἀπαρχή is the LXX word of the sheaf (Lev 23:10), not of the Weeks loaves; matches firstfruits.md."
+    - "'At every other offering leaven was forbidden' -> 'Leaven was forbidden on the altar' (Lev 7:13)."
+    - "Jubilees citation extended to 6:19 for the Sinai link."
+    - "'gathered from Jew and Gentile' at Pentecost -> Gentiles via Acts 11:15 / Cornelius (Acts 2:5, 11 are Jews and proselytes)."
+    - "Frontmatter bible_references: + Lev 23:10, Deut 16:16, Acts 10:44-48; Acts 2:41-42 -> 2:41."
+  open: "see open_questions"
+
+last_updated: "2026-10-02"
+post_review_2026-10-02: >-
+  Judgment call 1 applied: "fifty days after Jesus rose" now "the fiftieth day, counted from the
+  Sunday Jesus rose", with the dependency on the AD 33 dating stated beside the timeline link
+  (chronology-anchors + firstfruits). Call 2 applied: Acts 2:34-35 / Psalm 110:1 named. Calls 3-4 left.

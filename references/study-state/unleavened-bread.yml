@@ -1,0 +1,44 @@
+slug: "unleavened-bread"
+title: "Unleavened Bread: A New Lump"
+status: review
+target_path: "docs/content/feasts/unleavened-bread.md"
+series: "references/study-state/feasts-series-2026-10.yml (study 3)"
+primary_passage: "Leviticus 23:6-8; Exodus 12:15-20; 1 Corinthians 5:6-8"
+thesis: >-
+  Unleavened Bread followed Passover for seven days, remembering the hasty exodus and clearing the old
+  leaven from Israel's houses; Paul applies it to a church Christ's sacrifice has already made
+  unleavened: redemption first, holiness following.
+word_budget: 4000
+evidence_checked:
+  - "matstsah H4682 53x; seor H7603 5x (Ex 12:15, 19; 13:7; Lev 2:11; Deut 16:4); chamets H2557 11x; zyme G2219 13x; azymos G106 9x; eilikrineia G1505 3x (1 Cor 5:8; 2 Cor 1:12; 2:17)"
+  - "Exodus 12:15 'remove' = tashbitu, hiphil of shavat H7673 (ULT interlinear)"
+  - "Leaven offered: Lev 7:13, 23:17; banned from altar Lev 2:11; kingdom parable Matt 13:33 (ESV SB: positive use)"
+  - "ESV text of every quotation, study-notes.db"
+contested_marked:
+  - "Unleavened bread as a type of Christ's sinlessness/burial: illustration only; NT applies the feast to the church"
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", note: "Ex 12:14-20, 12:15; Matt 13:33; 1 Cor 5:6-7"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "Ex 12:15; 1 Cor 5:7"}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", note: "1 Cor 5:7"}
+last_updated: "2026-10-02"
+review_2026-10-02:
+  skill: review-bible-study (full pass, subagent)
+  checked:
+    - "Every ESV quotation re-queried from study-notes.db (Exod 12:15-20, 39; 13:7-8; Lev 2:11; 7:13; 23:5-8, 11, 17; Num 28:17-25; Deut 16:3-4; Matt 13:33; 16:6-12; Mark 8:15; Luke 12:1; 22:1; Acts 2:27; 12:3; 20:6; 1 Cor 5:1-13; 6:11; 2 Cor 5:21; Gal 5:2-9; Heb 4:15; 1 Pet 2:22): all verbatim, references and labels correct"
+    - "Counts re-run: H4682 53 (macula-hebrew-wlc; morphhb 52), H7603 5 (refs as stated), H2557 11 (macula; morphhb 12), G2219 13, G106 9, G1505 3 (1 Cor 5:8; 2 Cor 1:12; 2:17) -- all as stated"
+    - "Exod 12:15 tashbitu = hiphil impf 2mp of shavat H7673 (ULT interlinear); LSB footnote 'Lit cause to cease' corroborates"
+    - "1 Cor 5:7 este = present indicative (IPA2P), as stated"
+    - "Leaven-not-sin-in-itself: Lev 2:11 / 7:13 / 23:17 / Matt 13:33 verified; ESV SB 13:33 note matches paraphrase"
+    - "Commercial cross-check 1 Cor 5:7: NIV BTSB and NKJV Cultural Backgrounds confirm (BTSB: old leaven = the sinner to be removed; believers already made holy)"
+    - "Siblings: feasts.md, passover.md (died Nisan 14), firstfruits.md (date dispute), where-two-or-three (restorative discipline), statement-of-faith Sanctification -- consistent"
+  fixes:
+    - "1 Cor 5 context: added 5:13 (purge) and 5:5 (restorative aim) so the 'old leaven' is first the unrepentant man"
+    - "'Notice the order.' narrated-argument tell cut"
+    - "'The doctrine has a name.' now names it: sanctification"
+    - "Acts 2:27 marked as quoting Psalm 16:10 (review_gaps quotation)"
+    - "'sheaf waved during its week' overclaim (firstfruits.md records a view placing it after the week) replaced with Lev 23:11 wording"
+    - "bible_references: 1 Cor 5:1-8 -> 5:1-13; added Psalm 16:10, Leviticus 23:11"
+  open_judgment_calls:
+    - "'Not sin in itself' heading / 'Leaven is not evil by nature' -- contrast kept (reader arrives holding leaven=sin)"
+    - "ἐστε has no Strong's tag (strongs_suggest: G2075/εἰμί)"
+    - "Lev 23:8 block quote ends with the ESV's closing quotation mark (verbatim; looks stray)"

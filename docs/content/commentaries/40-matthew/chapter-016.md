@@ -15,5 +15,6 @@ draft: false
 - [Simon Peter](../../biblical-figures/peter.md) — 16:13-20 (primary passage)
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 16:5-12
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 16:21
+- [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 16:6-12
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 16:18-19
 <!-- commentary-index:auto-end -->

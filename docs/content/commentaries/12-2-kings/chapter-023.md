@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Passover: When I See the Blood](../../feasts/passover.md) — 23:21-22
 - [Sin and Sorcery](../../sin/sorcery.md) — 23:24
 <!-- commentary-index:auto-end -->

@@ -22,5 +22,6 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:21-22
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 2:20
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:19
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 2:14-16
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 2:10
 <!-- commentary-index:auto-end -->

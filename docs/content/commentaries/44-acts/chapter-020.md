@@ -1,0 +1,17 @@
+---
+title: "Acts 20"
+category: "bible"
+description: "Commentary and cross-referenced studies for Acts chapter 20"
+tags: ["acts"]
+draft: false
+---
+
+# Acts 20
+
+
+<!-- commentary-index:auto-start -->
+## Studies referencing this chapter
+
+- [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 20:6
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 20:16
+<!-- commentary-index:auto-end -->

@@ -17,4 +17,5 @@ draft: false
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 2:9
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:9
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:9
+- [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 2:22
 <!-- commentary-index:auto-end -->

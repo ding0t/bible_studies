@@ -16,4 +16,5 @@ draft: false
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 32:26-29
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 32:26-29
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 32:11-14
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 32:28
 <!-- commentary-index:auto-end -->

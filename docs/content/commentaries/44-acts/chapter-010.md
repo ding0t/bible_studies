@@ -16,4 +16,5 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 10:30
 - [Simon Peter](../../biblical-figures/peter.md) — 10:1-48
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 10:40
+- [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 10:44-48
 <!-- commentary-index:auto-end -->
