@@ -5,7 +5,7 @@ description: "Leviticus 23:23-25's Yom Teruah, the day of shouting at the sevent
 tags: ["leviticus", "prophecy", "lang/hebrew", "method/word-study", "method/typology", "rosh-hashanah", "trumpet", "rapture"]
 draft: false
 primary_passage: "Leviticus 23:23-25"
-bible_references: ["Leviticus 23:23-25", "Numbers 29:1-6", "Numbers 10:1-10", "Leviticus 25:9", "Psalm 81:3", "Ezekiel 40:1", "Exodus 2:24", "Exodus 19:19", "Isaiah 27:13", "1 Corinthians 15:51-53", "1 Thessalonians 4:16-17", "Matthew 24:30-31", "Matthew 24:36", "Matthew 24:42-44", "Joel 2:1", "Joel 2:15"]
+bible_references: ["Leviticus 23:23-25", "Numbers 29:1-6", "Numbers 10:1-10", "Leviticus 25:9", "Psalm 81:3", "Ezekiel 40:1", "Exodus 2:24", "Exodus 19:19", "Numbers 23:21", "Psalm 47:5-7", "Psalm 89:15", "Proverbs 30:27", "Daniel 12:1-2", "Jude 9", "Isaiah 27:13", "1 Corinthians 15:51-53", "1 Thessalonians 4:16-17", "Matthew 24:30-31", "Matthew 24:36", "Matthew 24:42-44", "Joel 2:1", "Joel 2:15"]
 date_created: 2025-08-10
 date_modified: 2026-10-02
 ai_provider_models:
@@ -17,6 +17,7 @@ ai_provider_models:
 
 # Feast of Trumpets: Yom Teruah
 
+![A ram's horn on an outlined moon: Trumpets, awaiting His return](../assets/img/feasts/trumpets.svg){ align=right width="96" }
 On the first day of the seventh month Israel stopped work and filled the day with sound. Leviticus
 calls it "a memorial" of that sound, and Numbers calls it "a day of shouting." It is the fifth of
 the seven [appointed times](feasts.md) and the first of the three in the autumn.
@@ -43,13 +44,17 @@ plain, and it is yours: be ready, because the Lord Himself is coming for His peo
   trumpet will be blown" to bring Israel's exiles home to worship at Jerusalem. Paul says the dead
   will be raised and the living changed "at the last trumpet" (1 Corinthians 15:52, ESV).
 - **Type, inferred.** Reading Yom Teruah as a picture of that last trumpet, and so of the rapture,
-  is typology from shared vocabulary. No New Testament text names the feast. The case is weighed
+  is typology from shared vocabulary. No New Testament text names the feast. The closest fit is
+  1 Thessalonians 4:16, which pairs a cry of command with a trumpet as the feast pairs a shout with
+  the horn. The case is weighed
   [below](#the-trumpets-typology-what-is-stated-what-is-inferred), and it stays unsettled.
 
 ### Lessons about Jesus
 
-- **He is the one the trumpet announces.** "The Lord himself will descend from heaven ... with the
-  sound of the trumpet of God" (1 Thessalonians 4:16, ESV). Jesus comes in person for His church.
+- **He is the King the shout announces.** Israel hailed God as King with the teruah (Psalm 47:5).
+  "The Lord himself will descend from heaven with a cry of command, with the voice of an archangel,
+  and with the sound of the trumpet of God" (1 Thessalonians 4:16, ESV). Jesus comes in person for
+  His church.
 - **He set readiness in place of a date.** "Therefore you also must be ready, for the Son of Man is
   coming at an hour you do not expect" (Matthew 24:44, ESV).
 
@@ -86,11 +91,13 @@ In Jesus' name. Amen.
 - [The day in Israel's calendar](#the-day-in-israels-calendar). Where Yom Teruah sits in
   Leviticus 23, and why it is the one feast that falls on a new moon.
 - [Teruah: a shout before God](#teruah-a-shout-before-god). The word the day is named for, the
-  instrument the Hebrew does not name, and why the sound is a memorial.
+  instrument the Hebrew does not name, why the sound is a memorial, and the shout that hailed
+  Israel's King.
 - [How Israel kept it](#how-israel-kept-it). The Mishnah's record of the witnesses, the new year
   and the shofar, and what of it binds the church.
 - [The trumpets typology: what is stated, what is inferred](#the-trumpets-typology-what-is-stated-what-is-inferred).
-  The "first, last and great trumpet" scheme, and where each link comes from.
+  The "first, last and great trumpet" scheme, the shout and trumpet of 1 Thessalonians 4:16, and
+  where each link comes from.
 - [What the feast teaches](#what-the-feast-teaches). God remembers, God summons, and the Lord is
   coming.
 - [Discussion questions](#discussion-questions). Five, for a group or on your own.
@@ -169,6 +176,25 @@ promise He has made. Numbers 10:10 speaks of every appointed feast and every new
 stands out because Leviticus names the whole day for that sound. Later Jewish tradition calls it Yom
 HaZikkaron, the Day of Remembrance, and Leviticus 23:24's own vocabulary carries that name.
 
+### The shout of a King
+
+The teruah was also how Israel hailed its King. Balaam, hired to curse Israel, blesses it instead:
+"The LORD their God is with them, and the shout of a king is among them" (Numbers 23:21, ESV). The
+"shout" is <span dir="rtl">תְּרוּעַת</span> (*teruat*), the same word. Psalm 47 sets the shout and
+the horn around God's throne: "God has gone up with a shout, the LORD with the sound of a trumpet"
+(Psalm 47:5, ESV), where the shout is teruah and the trumpet is shofar, "for God is the King of all
+the earth" (Psalm 47:7, ESV). "Blessed are the people who know the festal shout" (Psalm 89:15, ESV)
+uses teruah again.
+
+So the day's first meaning has three strands, each from Moses' own books. The shout gathers God's
+people and sets them moving (Numbers 10:2-7). It puts them before Him to be remembered (Numbers
+10:9-10). And it hails Him as King (Numbers 23:21). The earliest record of how the day was prayed
+orders its liturgy under the same three heads: verses on God's kingship (*malkhuyot*), on His
+remembrance (*zikhronot*) and on the shofar (*shofarot*), with the shofar sounded after each
+(Mishnah Rosh Hashanah 4:5-6). No psalm names the day. Reading Psalm 47 as the day's own liturgy is
+a scholarly proposal and stays unproven; the settled point is that Israel greeted its King with the
+sound the day is named for.
+
 ## How Israel kept it
 
 The Mishnah, compiled about AD 200, records how the day was kept late in the Second Temple period
@@ -231,6 +257,35 @@ Jesus states the trumpet of His coming: "he will send out his angels with a loud
 they will gather his elect from the four winds" (Matthew 24:31, ESV). Neither passage names Yom
 Teruah, Rosh Hashanah or Yom Kippur, and neither gives a day of the year.
 
+### The shout in 1 Thessalonians 4:16
+
+Of the New Testament trumpet texts, 1 Thessalonians 4:16 sits closest to the feast's own word,
+because it has a shout as well as a trumpet. The Lord descends "with a cry of command, with the
+voice of an archangel, and with the sound of the trumpet of God" (ESV).
+
+- **The cry of command.** κέλευσμα (*keleusma*, KEH-loo-smah, G2752) occurs once in the New
+  Testament. Its one use in the Septuagint is Proverbs 30:27, where locusts with no king march out
+  ἀφ᾽ ἑνὸς κελεύσματος, "at one command," in good order (the ESV, from the Hebrew, has "yet all of
+  them march in rank"). It is the word of command that sets ranks moving, the job Numbers 10:5 gives
+  the teruah: "When you blow an alarm, the camps that are on the east side shall set out" (ESV).
+  Paul does not say whose cry it is. Some read the Lord's own voice, others the archangel's, and the
+  Greek leaves both open.
+- **The voice of an archangel.** The only archangel Scripture names is Michael (Jude 9). In Daniel
+  12:1-2 Michael "shall arise" in the time when "many of those who sleep in the dust of the earth
+  shall awake" (ESV). Paul names no one, so the identification is likely and unstated.
+- **The trumpet of God.** The ESV Study Bible's note on 1 Thessalonians 4:16-17 lists Psalm 47:5
+  among the trumpets that proclaimed the Lord's presence. There God goes up with teruah and shofar;
+  the Septuagint has ἐν φωνῇ σάλπιγγος (*en phōnē salpingos*), "with the sound of a trumpet" (Psalm
+  46:6 LXX). In Paul the Lord comes down with cry, voice and trumpet, and the church goes up "to
+  meet" Him. That noun, ἀπάντησις (*apantēsis*), the same note explains as the welcome a city gave an
+  arriving dignitary.
+
+Paul quotes none of these texts and names no feast. The match is one of function: the day Israel
+kept with a shout that gathered the camp, set it marching and hailed its King pictures what
+1 Thessalonians 4:16 says the Lord will do for His church. That fit rests on Paul's own account of
+the sounds, which makes it closer than the "last trumpet" link below. It is still typology, and it
+gives no date.
+
 ### Where each link comes from
 
 The links are built from three sources, and each can be checked.
@@ -269,7 +324,9 @@ source consulted here makes it, and the two share only the number two.
 
 ## What the feast teaches
 
-The day shows three things about God, and each reaches you.
+For Israel the day was a meeting God set at the seventh new moon. The people stopped work, gathered,
+and shouted before their King so that He would remember them, nine days before the Day of Atonement.
+That shows three things about God, and each reaches you.
 
 **God remembers His people.** The shout of Yom Teruah went up "that you may be remembered before the
 LORD your God" (Numbers 10:9, ESV). That is the covenant faithfulness of God: He binds Himself to a
@@ -283,9 +340,12 @@ trumpet in Zion; sound an alarm on my holy mountain! ... for the day of the LORD
 trumpet so the people can take warning (Ezekiel 33:3-6). A trumpet from God is mercy, sounded before
 the day so you can be ready for it.
 
-**The Lord is coming for His people.** Here Scripture speaks without any typology. "The Lord himself
-will descend from heaven ... with the sound of the trumpet of God. And the dead in Christ will rise
-first" (1 Thessalonians 4:16, ESV). Israel kept a day it could not date to the hour. The church waits
+**The King is coming for His people.** Israel shouted to hail its King (Numbers 23:21; Psalm 47:5).
+At the rapture the shout comes from heaven: "The Lord himself will descend from heaven with a cry of
+command, with the voice of an archangel, and with the sound of the trumpet of God. And the dead in
+Christ will rise first" (1 Thessalonians 4:16, ESV). Whatever is made of the feast's link to it,
+Scripture states this outright. The command that sets God's people moving raises the dead first,
+and then the living are caught up to meet their King. Israel kept a day it could not date to the hour. The church waits
 for a day no one can date at all: "you do not know on what day your Lord is coming" (Matthew 24:42,
 ESV). So live awake, and let the sound of the trumpet be the thing you are listening for.
 
@@ -304,15 +364,17 @@ ESV). So live awake, and let the sound of the trumpet be the thing you are liste
 
 ## References & Recommended Reading
 
-- **Mishnah Rosh Hashanah 1:1; 3:3; 4:4; 4:9**, Sefaria Community Translation (CC0), fetched with
+- **Mishnah Rosh Hashanah 1:1; 3:3; 4:4-6; 4:9**, Sefaria Community Translation (CC0), fetched with
   `references/build/sefaria.py`.
 - ***Pirkei de-Rabbi Eliezer* 31**, trans. Gerald Friedlander (London, 1916; public domain), via
   Sefaria.
 - ***Theological Wordbook of the Old Testament*** — root 2135 (<span dir="rtl">רוּעַ</span>), with
   *teruah* at 2135b; *zikkaron* at 551b.
 - ***ESV Study Bible***, note on Leviticus 23:23-25; ***NIV Biblical Theology Study Bible***, note on
-  Leviticus 23:24 — consulted, each cited for a phrase.
-- Hebrew text and word data from this project's `bible-text.db` (MACULA Hebrew, WLC); the Dead Sea
+  Leviticus 23:24 — consulted, each cited for a phrase; ***ESV Study Bible***, note on
+  1 Thessalonians 4:16-17 (Psalm 47:5; *apantēsis*).
+- Hebrew and Greek text and word data from this project's `bible-text.db` (MACULA Hebrew, WLC;
+  MACULA Greek, SBLGNT; the Septuagint lemmas for Psalm 46:6 and Proverbs 30:27); the Dead Sea
   Scrolls readings from its 11Q1 and 4Q24 transcriptions.
 
 ### On this site

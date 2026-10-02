@@ -170,6 +170,11 @@ evidence:
   - {what: "Ezek 21:22 ESV shouting (MT 21:27)", tool: study_verse, args: {book: Ezek, chapter: 21, verse: 22, work_id: esv-study-bible}, expect_contains: "lift up the voice with shouting"}
   - {what: "keseh = full moon", tool: study_verse, args: {book: Ps, chapter: 81, verse: 3, work_id: esv-study-bible}, expect_contains: "at the full moon"}
   - {what: "Num 10:10 reminder", tool: study_verse, args: {book: Num, chapter: 10, verse: 10, work_id: esv-study-bible}, expect_contains: "a reminder of you before your God"}
+  - {what: "Num 23:21 teruat melekh", tool: bible_verse, args: {book: Num, chapter: 23, verse: 21, translation: ebible-heb}, expect_contains: "ותרועת מלך"}
+  - {what: "Ps 47:5 teruah + shofar", tool: bible_verse, args: {book: Ps, chapter: 47, verse: 5, translation: ebible-heb}, expect_contains: "בתרועה"}
+  - {what: "Ps 89:15 festal shout = teruah", tool: bible_verse, args: {book: Ps, chapter: 89, verse: 15, translation: ebible-heb}, expect_contains: "יודעי תרועה"}
+  - {what: "keleusma once in the NT (1 Thess 4:16); bible_word G2752 also returns LXX Prov 30:27 as its only LXX use", tool: bible_concordance, args: {strongs: G2752, work_id: macula-greek-sblgnt}, expect_count: 1}
+  - {what: "Ps 47:5 ESV", tool: study_verse, args: {book: Ps, chapter: 47, verse: 5, work_id: esv-study-bible}, expect_contains: "God has gone up with a shout"}
 
 chumney_removed_2026-10-02:
   decision: "Author: drop Chumney references and hold to authoritative sources (his framework teaches believers = lost northern tribes; see memory chumney_hebrew_roots_position)."
@@ -179,3 +184,13 @@ chumney_removed_2026-10-02:
     Eliezer 31; Psalm 81:3 keseh with ESV/NIV/CSB/NASB/NKJV; 1 Corinthians 15:52 and Mishnah Rosh
     Hashanah 3:3, 4:9 checked for any 'last' shofar -- none). Gaster/Kieval bullet replaced. Chumney
     removed from References. The resource entry above is kept as the record of what was checked.
+
+shout_of_the_king_2026-10-02:
+  request: "Author: capture the earlier meaning/purpose of the moed, check readability, link to the cry of command / archangel's voice at the rapture."
+  added:
+    - "'### The shout of a King' (after 'Why the sound is a memorial'): teruah as acclamation of Israel's King (Num 23:21; Ps 47:5, 7; Ps 89:15); the day's first meaning in three strands from Moses (gather/move Num 10:2-7, remembered Num 10:9-10, King Num 23:21), matched by Mishnah RH 4:5-6's malkhuyot/zikhronot/shofarot. Ps 47-as-the-day's-liturgy marked as an unproven scholarly proposal."
+    - "'### The shout in 1 Thessalonians 4:16' (typology section): keleusma G2752 (NT once; LXX once, Prov 30:27 locusts march 'at one command') matched to Num 10:5's teruah that sets the camps moving; whose cry is left open; archangel = Michael likely, unstated (Jude 9; Dan 12:1-2); ESVSB note on 1 Thess 4:16-17 cites Ps 47:5 and glosses apantesis as a dignitary's welcome. Held as typology of function, closer than the 'last trumpet' link, no date."
+    - "'What the feast teaches': opens with the moed's purpose for Israel; third point now 'The King is coming for His people' with the full 1 Thess 4:16 quotation."
+    - "Key Takeaways (Types, Lessons about Jesus), Study outline, bible_references, References updated to match."
+  verified: "All quotations against study-notes.db (ESV) / bible-text.db (WLC, SBLGNT, LXX lemmas); Mishnah RH 4:5-6 via sefaria.py (Sefaria Community Translation, CC0)."
+  readability: "study_structure.py: 25 sections, median 109 words, longest 366 (What the feast teaches), 0 over target, 0 walls. validate: only Check 18 'occurs once' warnings (rosh hashanah, keleusma) -- both verified. Under word_budget (Check 23 silent). mkdocs build --strict passes."
