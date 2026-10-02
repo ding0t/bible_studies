@@ -4,7 +4,7 @@ category: "other"
 description: "The Bible about itself -- canon, manuscripts, translation, and the archaeology behind the text."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-01
+date_modified: 2026-10-02
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
