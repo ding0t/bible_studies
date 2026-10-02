@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">The appointed times of the LORD through Israel's year</title>
+<defs><path id="season0" d="M235.1 573.6 A221.5 221.5 0 0 1 388.9 307.1"/><path id="season1" d="M396.4 305.1 A221.5 221.5 0 0 1 662.9 458.9"/><path id="season2" d="M618.0 682.2 A233.5 233.5 0 0 0 676.6 463.5"/><path id="season3" d="M225.5 584.4 A233.5 233.5 0 0 0 612.2 688.0"/></defs>
+<desc id="d">A wheel of the Hebrew year, beginning with Nisan on the left and running clockwise: twelve months with their Hebrew names and approximate Gregorian months, ringed by the seasons. Around the outside, each of the seven feasts of Leviticus 23 is drawn as a moon with its picture, joined by a line to its day. The spring feasts are full gold moons, fulfilled at Christ's first coming: Passover, a blood-marked doorway (1 Corinthians 5:7); Unleavened Bread, a pierced flat loaf (1 Corinthians 5:8); Firstfruits, a barley sheaf (1 Corinthians 15:20); Weeks, two loaves (Acts 2:1). The seventh-month feasts await His return: Trumpets, a ram's horn, an outlined moon; the Day of Atonement, the mercy seat with blood, a half moon because the sacrifice is finished (Hebrews 9:12) and Israel's national day is ahead (Zechariah 12:10); Tabernacles, a booth of branches under a star, an outlined moon (Zechariah 14:16). A solid line joins the fulfilled feasts; a dashed line runs across the summer harvest to the feasts still to come.</desc>
+<rect width="900" height="1000" fill="#faf6ec"/>
+<text x="450" y="52" text-anchor="middle" font-size="30" font-weight="bold" fill="#3b2f1e">The appointed times of the LORD</text>
+<text x="450" y="84" text-anchor="middle" font-size="18" font-style="italic" fill="#6b5a3e">Leviticus 23 · Israel's year, from “the beginning of months” (Exodus 12:2)</text>
+<text x="34" y="150" font-size="20" font-weight="bold" fill="#7a5a14">Spring</text>
+<text x="34" y="174" font-size="16" fill="#6b5a3e">fulfilled at His first coming</text>
+<text x="866" y="150" text-anchor="end" font-size="20" font-weight="bold" fill="#7a5a14">The seventh month</text>
+<text x="866" y="174" text-anchor="end" font-size="16" fill="#6b5a3e">awaiting His return</text>
+<path d="M207.4 580.5 A250 250 0 0 1 381.1 279.7 L392.9 321.0 A207 207 0 0 0 249.1 570.1 Z" fill="#dfe8c4" stroke="#faf6ec" stroke-width="2"/>
+<text font-size="15" fill="#3b2f1e"><textPath href="#season0" startOffset="50%" text-anchor="middle"><tspan font-weight="bold">Spring</tspan> · barley, then wheat harvest</textPath></text>
+<path d="M389.5 277.4 A250 250 0 0 1 690.3 451.1 L649.0 462.9 A207 207 0 0 0 399.9 319.1 Z" fill="#f2deb0" stroke="#faf6ec" stroke-width="2"/>
+<text font-size="15" fill="#3b2f1e"><textPath href="#season1" startOffset="50%" text-anchor="middle"><tspan font-weight="bold">Summer</tspan> · dry season: grapes and figs</textPath></text>
+<path d="M692.6 459.5 A250 250 0 0 1 629.8 693.7 L598.9 663.8 A207 207 0 0 0 650.9 469.9 Z" fill="#ecd2b8" stroke="#faf6ec" stroke-width="2"/>
+<text font-size="15" fill="#3b2f1e"><textPath href="#season2" startOffset="50%" text-anchor="middle"><tspan font-weight="bold">Autumn</tspan> · ingathering, early rain</textPath></text>
+<path d="M623.7 699.8 A250 250 0 0 1 209.7 588.9 L251.0 577.1 A207 207 0 0 0 593.8 668.9 Z" fill="#d6e0e4" stroke="#faf6ec" stroke-width="2"/>
+<text font-size="15" fill="#3b2f1e"><textPath href="#season3" startOffset="50%" text-anchor="middle"><tspan font-weight="bold">Winter</tspan> · the rains; the grain grows</textPath></text>
+<path d="M252.0 573.1 A205 205 0 0 1 252.0 466.9 L349.5 493.1 A104 104 0 0 0 349.5 546.9 Z" fill="#f1e3c2" stroke="#a67c3d" stroke-width="1"/>
+<text x="292.0" y="506.0" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">ניסן</text>
+<text x="292.0" y="526.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">1 · Nisan</text>
+<text x="292.0" y="543.0" text-anchor="middle" font-size="12" fill="#6b5a3e">Mar–Apr</text>
+<path d="M252.0 466.9 A205 205 0 0 1 305.0 375.0 L376.5 446.5 A104 104 0 0 0 349.5 493.1 Z" fill="#f7efdc" stroke="#a67c3d" stroke-width="1"/>
+<text x="313.2" y="427.0" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">אייר</text>
+<text x="313.2" y="447.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">2 · Iyyar</text>
+<text x="313.2" y="464.0" text-anchor="middle" font-size="12" fill="#6b5a3e">Apr–May</text>
+<path d="M305.0 375.0 A205 205 0 0 1 396.9 322.0 L423.1 419.5 A104 104 0 0 0 376.5 446.5 Z" fill="#f1e3c2" stroke="#a67c3d" stroke-width="1"/>
+<text x="371.0" y="369.2" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">סיון</text>
+<text x="371.0" y="389.2" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">3 · Sivan</text>
+<text x="371.0" y="406.2" text-anchor="middle" font-size="12" fill="#6b5a3e">May–Jun</text>
+<path d="M396.9 322.0 A205 205 0 0 1 503.1 322.0 L476.9 419.5 A104 104 0 0 0 423.1 419.5 Z" fill="#f7efdc" stroke="#a67c3d" stroke-width="1"/>
+<text x="450.0" y="348.0" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">תמוז</text>
+<text x="450.0" y="368.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">4 · Tammuz</text>
+<text x="450.0" y="385.0" text-anchor="middle" font-size="12" fill="#6b5a3e">Jun–Jul</text>
+<path d="M503.1 322.0 A205 205 0 0 1 595.0 375.0 L523.5 446.5 A104 104 0 0 0 476.9 419.5 Z" fill="#f7efdc" stroke="#a67c3d" stroke-width="1"/>
+<text x="529.0" y="369.2" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">אב</text>
+<text x="529.0" y="389.2" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">5 · Av</text>
+<text x="529.0" y="406.2" text-anchor="middle" font-size="12" fill="#6b5a3e">Jul–Aug</text>
+<path d="M595.0 375.0 A205 205 0 0 1 648.0 466.9 L550.5 493.1 A104 104 0 0 0 523.5 446.5 Z" fill="#f7efdc" stroke="#a67c3d" stroke-width="1"/>
+<text x="586.8" y="427.0" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">אלול</text>
+<text x="586.8" y="447.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">6 · Elul</text>
+<text x="586.8" y="464.0" text-anchor="middle" font-size="12" fill="#6b5a3e">Aug–Sep</text>
+<path d="M648.0 466.9 A205 205 0 0 1 648.0 573.1 L550.5 546.9 A104 104 0 0 0 550.5 493.1 Z" fill="#f1e3c2" stroke="#a67c3d" stroke-width="1"/>
+<text x="608.0" y="506.0" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">תשרי</text>
+<text x="608.0" y="526.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">7 · Tishri</text>
+<text x="608.0" y="543.0" text-anchor="middle" font-size="12" fill="#6b5a3e">Sep–Oct</text>
+<path d="M648.0 573.1 A205 205 0 0 1 595.0 665.0 L523.5 593.5 A104 104 0 0 0 550.5 546.9 Z" fill="#f7efdc" stroke="#a67c3d" stroke-width="1"/>
+<text x="586.8" y="585.0" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">חשון</text>
+<text x="586.8" y="605.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">8 · Heshvan</text>
+<text x="586.8" y="622.0" text-anchor="middle" font-size="12" fill="#6b5a3e">Oct–Nov</text>
+<path d="M595.0 665.0 A205 205 0 0 1 503.1 718.0 L476.9 620.5 A104 104 0 0 0 523.5 593.5 Z" fill="#f7efdc" stroke="#a67c3d" stroke-width="1"/>
+<text x="529.0" y="642.8" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">כסלו</text>
+<text x="529.0" y="662.8" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">9 · Kislev</text>
+<text x="529.0" y="679.8" text-anchor="middle" font-size="12" fill="#6b5a3e">Nov–Dec</text>
+<path d="M503.1 718.0 A205 205 0 0 1 396.9 718.0 L423.1 620.5 A104 104 0 0 0 476.9 620.5 Z" fill="#f7efdc" stroke="#a67c3d" stroke-width="1"/>
+<text x="450.0" y="664.0" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">טבת</text>
+<text x="450.0" y="684.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">10 · Tevet</text>
+<text x="450.0" y="701.0" text-anchor="middle" font-size="12" fill="#6b5a3e">Dec–Jan</text>
+<path d="M396.9 718.0 A205 205 0 0 1 305.0 665.0 L376.5 593.5 A104 104 0 0 0 423.1 620.5 Z" fill="#f7efdc" stroke="#a67c3d" stroke-width="1"/>
+<text x="371.0" y="642.8" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">שבט</text>
+<text x="371.0" y="662.8" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">11 · Shevat</text>
+<text x="371.0" y="679.8" text-anchor="middle" font-size="12" fill="#6b5a3e">Jan–Feb</text>
+<path d="M305.0 665.0 A205 205 0 0 1 252.0 573.1 L349.5 546.9 A104 104 0 0 0 376.5 593.5 Z" fill="#f7efdc" stroke="#a67c3d" stroke-width="1"/>
+<text x="313.2" y="585.0" text-anchor="middle" font-size="19" fill="#3b2f1e" direction="rtl">אדר</text>
+<text x="313.2" y="605.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b2f1e">12 · Adar</text>
+<text x="313.2" y="622.0" text-anchor="middle" font-size="12" fill="#6b5a3e">Feb–Mar</text>
+<circle cx="450" cy="520" r="98" fill="#efe2c4" stroke="#a67c3d" stroke-width="1.5"/>
+<text x="450" y="498" text-anchor="middle" font-size="26" fill="#3b2f1e" direction="rtl">מועדי יהוה</text>
+<text x="450" y="526" text-anchor="middle" font-size="15" fill="#3b2f1e">moʿade YHWH</text>
+<text x="450" y="546" text-anchor="middle" font-size="13" font-style="italic" fill="#6b5a3e">“my appointed feasts”</text>
+<text x="450" y="564" text-anchor="middle" font-size="13" fill="#6b5a3e">Leviticus 23:2</text>
+<path d="M197.2 732.1 A330 330 0 0 1 237.9 267.2" fill="none" stroke="#a67c3d" stroke-width="4"/>
+<path d="M237.9 267.2 A330 330 0 0 1 735.8 355.0" fill="none" stroke="#a67c3d" stroke-width="2.5" stroke-dasharray="3 7" stroke-linecap="round"/>
+<path d="M735.8 355.0 A330 330 0 0 1 735.8 685.0" fill="none" stroke="#a67c3d" stroke-width="2.5" stroke-dasharray="10 6"/>
+<path id="summer" d="M293.8 213.5 A344 344 0 0 1 701.6 285.4" fill="none"/>
+<text font-size="15" font-style="italic" fill="#6b5a3e"><textPath href="#summer" startOffset="50%" text-anchor="middle">the summer harvest · gleanings left for the poor (Lev 23:22)</textPath></text>
+<line x1="197.1" y1="526.6" x2="229.4" y2="705.1" stroke="#6b5a3e" stroke-width="1.3"/>
+<circle cx="197.1" cy="526.6" r="3.5" fill="#3b2f1e"/>
+<g transform="translate(197.2 732.1)">
+    <circle r="42" fill="#e8c46a" stroke="#a67c3d" stroke-width="2.5"/>
+    <g transform="scale(1.167)">
+      <rect x="-14" y="-16" width="28" height="40" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.5"/>
+      <rect x="-20" y="-24" width="40" height="8" rx="1" fill="#8b1e1e"/>
+      <rect x="-20" y="-16" width="6" height="40" fill="#8b1e1e"/>
+      <rect x="14" y="-16" width="6" height="40" fill="#8b1e1e"/>
+      <line x1="-26" y1="24.5" x2="26" y2="24.5" stroke="#3b2f1e" stroke-width="2"/>
+      <path d="M-4 -30 q4 -4 8 0" fill="none" stroke="#5e7d3a" stroke-width="2"/>
+    </g>
+  </g>
+<text x="197.2" y="794.1" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b2f1e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Passover</text>
+<text x="197.2" y="811.1" text-anchor="middle" font-size="13" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Nisan 14</text>
+<text x="197.2" y="827.1" text-anchor="middle" font-size="13" font-style="italic" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">1 Cor 5:7</text>
+<line x1="197.0" y1="522.2" x2="166.4" y2="570.0" stroke="#6b5a3e" stroke-width="1.3"/>
+<circle cx="197.0" cy="522.2" r="3.5" fill="#3b2f1e"/>
+<g transform="translate(125.0 577.3)">
+    <circle r="42" fill="#e8c46a" stroke="#a67c3d" stroke-width="2.5"/>
+    <g transform="scale(1.167)">
+      <circle r="24" fill="#e9cf98" stroke="#3b2f1e" stroke-width="1.5"/>
+      <path d="M-18 -8 h36 M-20 0 h40 M-18 8 h36" stroke="#b9894a" stroke-width="2" opacity=".55"/>
+      <circle cx="-12" cy="-12" r="1.4" fill="#3b2f1e"/><circle cx="-7" cy="-12" r="1.4" fill="#3b2f1e"/><circle cx="-2" cy="-12" r="1.4" fill="#3b2f1e"/><circle cx="3" cy="-12" r="1.4" fill="#3b2f1e"/><circle cx="8" cy="-12" r="1.4" fill="#3b2f1e"/><circle cx="-16" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="-11" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="-6" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="-1" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="4" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="9" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="14" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="-16" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="-11" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="-6" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="-1" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="4" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="9" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="14" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="-12" cy="12" r="1.4" fill="#3b2f1e"/><circle cx="-7" cy="12" r="1.4" fill="#3b2f1e"/><circle cx="-2" cy="12" r="1.4" fill="#3b2f1e"/><circle cx="3" cy="12" r="1.4" fill="#3b2f1e"/><circle cx="8" cy="12" r="1.4" fill="#3b2f1e"/>
+    </g>
+  </g>
+<text x="125.0" y="639.3" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b2f1e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Unleavened</text>
+<text x="125.0" y="658.3" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b2f1e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Bread</text>
+<text x="125.0" y="675.3" text-anchor="middle" font-size="13" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Nisan 15–21</text>
+<text x="125.0" y="691.3" text-anchor="middle" font-size="13" font-style="italic" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">1 Cor 5:8</text>
+<line x1="197.1" y1="513.4" x2="179.4" y2="421.5" stroke="#6b5a3e" stroke-width="1.3"/>
+<circle cx="197.1" cy="513.4" r="3.5" fill="#3b2f1e"/>
+<g transform="translate(139.9 407.1)">
+    <circle r="42" fill="#e8c46a" stroke="#a67c3d" stroke-width="2.5"/>
+    <g transform="scale(1.167)">
+      <path d="M0 26 L-3.8 8 L-15 -20" fill="none" stroke="#b08d3a" stroke-width="2"/><path d="M0 26 L-2.0 8 L-8 -25" fill="none" stroke="#b08d3a" stroke-width="2"/><path d="M0 26 L0.0 8 L0 -27" fill="none" stroke="#b08d3a" stroke-width="2"/><path d="M0 26 L2.0 8 L8 -25" fill="none" stroke="#b08d3a" stroke-width="2"/><path d="M0 26 L3.8 8 L15 -20" fill="none" stroke="#b08d3a" stroke-width="2"/><ellipse cx="-15" cy="-24" rx="3" ry="7" transform="rotate(-24 -15 -24)" fill="#d9b350" stroke="#8a6a24" stroke-width="1"/><ellipse cx="-8" cy="-29" rx="3" ry="7" transform="rotate(-13 -8 -29)" fill="#d9b350" stroke="#8a6a24" stroke-width="1"/><ellipse cx="0" cy="-31" rx="3" ry="7" transform="rotate(0 0 -31)" fill="#d9b350" stroke="#8a6a24" stroke-width="1"/><ellipse cx="8" cy="-29" rx="3" ry="7" transform="rotate(13 8 -29)" fill="#d9b350" stroke="#8a6a24" stroke-width="1"/><ellipse cx="15" cy="-24" rx="3" ry="7" transform="rotate(24 15 -24)" fill="#d9b350" stroke="#8a6a24" stroke-width="1"/>
+      <rect x="-6" y="6" width="12" height="5" rx="1.5" fill="#8b1e1e"/>
+    </g>
+  </g>
+<text x="139.9" y="469.1" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b2f1e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Firstfruits</text>
+<text x="139.9" y="486.1" text-anchor="middle" font-size="13" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">after the Sabbath</text>
+<text x="139.9" y="502.1" text-anchor="middle" font-size="13" font-style="italic" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">1 Cor 15:20</text>
+<line x1="289.1" y1="324.8" x2="264.9" y2="299.4" stroke="#6b5a3e" stroke-width="1.3"/>
+<circle cx="289.1" cy="324.8" r="3.5" fill="#3b2f1e"/>
+<g transform="translate(237.9 267.2)">
+    <circle r="42" fill="#e8c46a" stroke="#a67c3d" stroke-width="2.5"/>
+    <g transform="scale(1.167)">
+      <g transform="translate(-11 2) rotate(-18)"><ellipse rx="15" ry="10" fill="#d8a95e" stroke="#3b2f1e" stroke-width="1.5"/><path d="M-8 -5 l4 9 M-1 -7 l4 10 M6 -5 l3 8" stroke="#8a5a24" stroke-width="1.6" fill="none"/></g>
+      <g transform="translate(12 6) rotate(14)"><ellipse rx="15" ry="10" fill="#d8a95e" stroke="#3b2f1e" stroke-width="1.5"/><path d="M-8 -5 l4 9 M-1 -7 l4 10 M6 -5 l3 8" stroke="#8a5a24" stroke-width="1.6" fill="none"/></g>
+      <path d="M-22 18 h44" stroke="#3b2f1e" stroke-width="1.5"/>
+    </g>
+  </g>
+<text x="237.9" y="329.2" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b2f1e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Weeks</text>
+<text x="237.9" y="346.2" text-anchor="middle" font-size="13" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">fifty days on</text>
+<text x="237.9" y="362.2" text-anchor="middle" font-size="13" font-style="italic" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Acts 2:1</text>
+<line x1="694.9" y1="456.7" x2="699.4" y2="376.0" stroke="#6b5a3e" stroke-width="1.3"/>
+<circle cx="694.9" cy="456.7" r="3.5" fill="#3b2f1e"/>
+<g transform="translate(735.8 355.0)">
+    <circle r="42" fill="#faf6ec" stroke="#a67c3d" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <g transform="scale(1.167)">
+      <g transform="translate(-3 5) scale(.9)">
+      <path d="M-26 14 C -14 18, 2 14, 12 -2 C 16 -9, 18 -16, 24 -22 L 28 -14 C 22 -10, 20 -2, 16 6 C 6 22, -12 24, -26 18 Z"
+            fill="#c9a46a" stroke="#3b2f1e" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M-26 14 v4" stroke="#3b2f1e" stroke-width="3"/>
+      <path d="M-6 17 q2 -5 0 -9 M4 13 q3 -5 1 -10" stroke="#9c7a44" stroke-width="1.2" fill="none"/>
+      </g>
+      <path d="M24 -24 q4 5 0 10 M28 -28 q7 8 0 18" fill="none" stroke="#3b2f1e" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+  </g>
+<text x="735.8" y="417.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b2f1e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Trumpets</text>
+<text x="735.8" y="434.0" text-anchor="middle" font-size="13" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Tishri 1</text>
+<text x="735.8" y="450.0" text-anchor="middle" font-size="13" font-style="italic" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">1 Thess 4:16?</text>
+<line x1="701.8" y1="495.8" x2="738.0" y2="520.0" stroke="#6b5a3e" stroke-width="1.3"/>
+<circle cx="701.8" cy="495.8" r="3.5" fill="#3b2f1e"/>
+<g transform="translate(780.0 520.0)">
+    <circle r="42" fill="#faf6ec" stroke="#a67c3d" stroke-width="2.5" stroke-dasharray="6 4"/><path d="M0 -42 A42 42 0 0 0 0 42 Z" fill="#e8c46a"/><path d="M0 -42 A42 42 0 0 0 0 42" fill="none" stroke="#a67c3d" stroke-width="2.5"/>
+    <g transform="scale(1.167)">
+      <path d="M-20 0 C -24 -10, -16 -22, -3 -24 C -10 -16, -10 -8, -4 0 Z" fill="#f6e3a8" stroke="#3b2f1e" stroke-width="1.3"/>
+      <path d="M20 0 C 24 -10, 16 -22, 3 -24 C 10 -16, 10 -8, 4 0 Z" fill="#f6e3a8" stroke="#3b2f1e" stroke-width="1.3"/>
+      <rect x="-25" y="0" width="50" height="6" rx="1" fill="#f6e3a8" stroke="#3b2f1e" stroke-width="1.3"/>
+      <rect x="-22" y="6" width="44" height="18" fill="#c99a3c" stroke="#3b2f1e" stroke-width="1.3"/>
+      <circle cx="-6" cy="3" r="1.8" fill="#8b1e1e"/><circle cx="0" cy="3" r="1.8" fill="#8b1e1e"/><circle cx="6" cy="3" r="1.8" fill="#8b1e1e"/>
+    </g>
+  </g>
+<text x="780.0" y="582.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b2f1e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Atonement</text>
+<text x="780.0" y="599.0" text-anchor="middle" font-size="13" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Tishri 10</text>
+<text x="780.0" y="615.0" text-anchor="middle" font-size="13" font-style="italic" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Heb 9:12; Zech 12:10</text>
+<line x1="703.0" y1="517.8" x2="699.4" y2="664.0" stroke="#6b5a3e" stroke-width="1.3"/>
+<circle cx="703.0" cy="517.8" r="3.5" fill="#3b2f1e"/>
+<g transform="translate(735.8 685.0)">
+    <circle r="42" fill="#faf6ec" stroke="#a67c3d" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <g transform="scale(1.167)">
+      <path d="M-20 -8 V24 M20 -8 V24 M-20 24 H20" stroke="#7a5a32" stroke-width="3" fill="none"/>
+      <path d="M-20 4 H20" stroke="#7a5a32" stroke-width="1.5" opacity=".6"/>
+      <ellipse cx="-22" cy="-12" rx="7" ry="3" transform="rotate(25 -22 -12)" fill="#5e7d3a"/><ellipse cx="-16" cy="-9" rx="7" ry="3" transform="rotate(-25 -16 -9)" fill="#5e7d3a"/><ellipse cx="-10" cy="-12" rx="7" ry="3" transform="rotate(25 -10 -12)" fill="#5e7d3a"/><ellipse cx="-4" cy="-9" rx="7" ry="3" transform="rotate(-25 -4 -9)" fill="#5e7d3a"/><ellipse cx="2" cy="-12" rx="7" ry="3" transform="rotate(25 2 -12)" fill="#5e7d3a"/><ellipse cx="8" cy="-9" rx="7" ry="3" transform="rotate(-25 8 -9)" fill="#5e7d3a"/><ellipse cx="14" cy="-12" rx="7" ry="3" transform="rotate(25 14 -12)" fill="#5e7d3a"/><ellipse cx="20" cy="-9" rx="7" ry="3" transform="rotate(-25 20 -9)" fill="#5e7d3a"/>
+      <path d="M0 -30 l2.4 5 5.4 .8 -3.9 3.8 .9 5.4 -4.8 -2.6 -4.8 2.6 .9 -5.4 -3.9 -3.8 5.4 -.8z" fill="#e8c46a" stroke="#3b2f1e" stroke-width=".8"/>
+    </g>
+  </g>
+<text x="735.8" y="747.0" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b2f1e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Tabernacles</text>
+<text x="735.8" y="764.0" text-anchor="middle" font-size="13" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Tishri 15–21</text>
+<text x="735.8" y="780.0" text-anchor="middle" font-size="13" font-style="italic" fill="#6b5a3e" paint-order="stroke" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round">Zech 14:16</text>
+<line x1="40" y1="888" x2="860" y2="888" stroke="#a67c3d" stroke-width="1"/>
+<g transform="translate(60 922)"><circle r="18" fill="#e8c46a" stroke="#a67c3d" stroke-width="2"/></g>
+<text x="90" y="928" font-size="15" fill="#3b2f1e">Fulfilled at His first coming</text>
+<g transform="translate(335 922)"><circle r="18" fill="#faf6ec" stroke="#a67c3d" stroke-width="2" stroke-dasharray="4 3"/><path d="M0 -18 A18 18 0 0 0 0 18 Z" fill="#e8c46a" stroke="#a67c3d" stroke-width="2"/></g>
+<text x="365" y="928" font-size="15" fill="#3b2f1e">Sacrifice done; Israel's day ahead</text>
+<g transform="translate(660 922)"><circle r="18" fill="#faf6ec" stroke="#a67c3d" stroke-width="2" stroke-dasharray="4 3"/></g>
+<text x="690" y="928" font-size="15" fill="#3b2f1e">Awaiting His return</text>
+<text x="450" y="976" text-anchor="middle" font-size="13" font-style="italic" fill="#6b5a3e">Every month began at the new moon. A full moon marks a feast the New Testament ties to His first coming; a “?” marks a link that is inferred.</text>
+</svg>

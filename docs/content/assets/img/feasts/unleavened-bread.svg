@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100" role="img" aria-labelledby="t">
+  <title id="t">Unleavened Bread: fulfilled at his first coming</title>
+  <g transform="translate(0.0 0.0)">
+    <circle r="46" fill="#e8c46a" stroke="#a67c3d" stroke-width="2.5"/>
+    <g transform="scale(1.278)">
+      <circle r="24" fill="#e9cf98" stroke="#3b2f1e" stroke-width="1.5"/>
+      <path d="M-18 -8 h36 M-20 0 h40 M-18 8 h36" stroke="#b9894a" stroke-width="2" opacity=".55"/>
+      <circle cx="-12" cy="-12" r="1.4" fill="#3b2f1e"/><circle cx="-7" cy="-12" r="1.4" fill="#3b2f1e"/><circle cx="-2" cy="-12" r="1.4" fill="#3b2f1e"/><circle cx="3" cy="-12" r="1.4" fill="#3b2f1e"/><circle cx="8" cy="-12" r="1.4" fill="#3b2f1e"/><circle cx="-16" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="-11" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="-6" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="-1" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="4" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="9" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="14" cy="-4" r="1.4" fill="#3b2f1e"/><circle cx="-16" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="-11" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="-6" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="-1" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="4" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="9" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="14" cy="4" r="1.4" fill="#3b2f1e"/><circle cx="-12" cy="12" r="1.4" fill="#3b2f1e"/><circle cx="-7" cy="12" r="1.4" fill="#3b2f1e"/><circle cx="-2" cy="12" r="1.4" fill="#3b2f1e"/><circle cx="3" cy="12" r="1.4" fill="#3b2f1e"/><circle cx="8" cy="12" r="1.4" fill="#3b2f1e"/>
+    </g>
+  </g>
+</svg>

@@ -14,6 +14,7 @@ ai_provider_models:
 
 # Tabernacles: God Dwelling with His People
 
+![A booth of branches under a star on an outlined moon: Tabernacles, awaiting His return](../assets/img/feasts/tabernacles.svg){ align=right width="96" }
 At the end of the harvest Israel moved out of its houses for a week. "You shall dwell in booths for
 seven days ... that your generations may know that I made the people of Israel dwell in booths when
 I brought them out of the land of Egypt: I am the LORD your God" (Leviticus 23:42-43, ESV). It was

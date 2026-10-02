@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100" role="img" aria-labelledby="t">
+  <title id="t">Tabernacles: awaiting his return</title>
+  <g transform="translate(0.0 0.0)">
+    <circle r="46" fill="#faf6ec" stroke="#a67c3d" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <g transform="scale(1.278)">
+      <path d="M-20 -8 V24 M20 -8 V24 M-20 24 H20" stroke="#7a5a32" stroke-width="3" fill="none"/>
+      <path d="M-20 4 H20" stroke="#7a5a32" stroke-width="1.5" opacity=".6"/>
+      <ellipse cx="-22" cy="-12" rx="7" ry="3" transform="rotate(25 -22 -12)" fill="#5e7d3a"/><ellipse cx="-16" cy="-9" rx="7" ry="3" transform="rotate(-25 -16 -9)" fill="#5e7d3a"/><ellipse cx="-10" cy="-12" rx="7" ry="3" transform="rotate(25 -10 -12)" fill="#5e7d3a"/><ellipse cx="-4" cy="-9" rx="7" ry="3" transform="rotate(-25 -4 -9)" fill="#5e7d3a"/><ellipse cx="2" cy="-12" rx="7" ry="3" transform="rotate(25 2 -12)" fill="#5e7d3a"/><ellipse cx="8" cy="-9" rx="7" ry="3" transform="rotate(-25 8 -9)" fill="#5e7d3a"/><ellipse cx="14" cy="-12" rx="7" ry="3" transform="rotate(25 14 -12)" fill="#5e7d3a"/><ellipse cx="20" cy="-9" rx="7" ry="3" transform="rotate(-25 20 -9)" fill="#5e7d3a"/>
+      <path d="M0 -30 l2.4 5 5.4 .8 -3.9 3.8 .9 5.4 -4.8 -2.6 -4.8 2.6 .9 -5.4 -3.9 -3.8 5.4 -.8z" fill="#e8c46a" stroke="#3b2f1e" stroke-width=".8"/>
+    </g>
+  </g>
+</svg>

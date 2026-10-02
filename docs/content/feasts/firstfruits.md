@@ -16,6 +16,7 @@ ai_provider_models:
 
 # Firstfruits: The Sheaf Waved on the Third Day
 
+![A barley sheaf on a full gold moon: Firstfruits, fulfilled at His first coming](../assets/img/feasts/firstfruits.svg){ align=right width="96" }
 Firstfruits is the third of the seven [appointed times](feasts.md) of Leviticus 23. Passover is "a
 memorial day" for the exodus (Exodus 12:14), and Booths recalls the wilderness (Leviticus 23:43).
 Firstfruits is given no memory to keep. It has a farmer, a handful of barley, and a prohibition:

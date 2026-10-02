@@ -14,6 +14,7 @@ ai_provider_models:
 
 # The Day of Atonement: Once a Year, Once for All
 
+![The mercy seat sprinkled with blood on a half-gold moon: the sacrifice fulfilled, Israel's day ahead](../assets/img/feasts/day-of-atonement.svg){ align=right width="96" }
 One day a year, one man went behind the veil. "Tell Aaron your brother not to come at any time into
 the Holy Place inside the veil, before the mercy seat that is on the ark, so that he may not die"
 (Leviticus 16:2, ESV). On the tenth day of the seventh month he went in with blood, and came out

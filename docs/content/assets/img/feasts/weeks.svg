@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100" role="img" aria-labelledby="t">
+  <title id="t">Weeks: fulfilled at his first coming</title>
+  <g transform="translate(0.0 0.0)">
+    <circle r="46" fill="#e8c46a" stroke="#a67c3d" stroke-width="2.5"/>
+    <g transform="scale(1.278)">
+      <g transform="translate(-11 2) rotate(-18)"><ellipse rx="15" ry="10" fill="#d8a95e" stroke="#3b2f1e" stroke-width="1.5"/><path d="M-8 -5 l4 9 M-1 -7 l4 10 M6 -5 l3 8" stroke="#8a5a24" stroke-width="1.6" fill="none"/></g>
+      <g transform="translate(12 6) rotate(14)"><ellipse rx="15" ry="10" fill="#d8a95e" stroke="#3b2f1e" stroke-width="1.5"/><path d="M-8 -5 l4 9 M-1 -7 l4 10 M6 -5 l3 8" stroke="#8a5a24" stroke-width="1.6" fill="none"/></g>
+      <path d="M-22 18 h44" stroke="#3b2f1e" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

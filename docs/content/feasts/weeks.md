@@ -14,6 +14,7 @@ ai_provider_models:
 
 # Weeks: Fifty Days to Pentecost
 
+![Two loaves on a full gold moon: Weeks, fulfilled at His first coming](../assets/img/feasts/weeks.svg){ align=right width="96" }
 The Feast of Weeks began with counting. "You shall count seven full weeks from the day after the
 Sabbath, from the day that you brought the sheaf of the wave offering. You shall count fifty days"
 (Leviticus 23:15-16, ESV). On the fiftieth day, counted from the Sunday Jesus rose, His disciples

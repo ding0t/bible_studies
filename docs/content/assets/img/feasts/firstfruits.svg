@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100" role="img" aria-labelledby="t">
+  <title id="t">Firstfruits: fulfilled at his first coming</title>
+  <g transform="translate(0.0 0.0)">
+    <circle r="46" fill="#e8c46a" stroke="#a67c3d" stroke-width="2.5"/>
+    <g transform="scale(1.278)">
+      <path d="M0 26 L-3.8 8 L-15 -20" fill="none" stroke="#b08d3a" stroke-width="2"/><path d="M0 26 L-2.0 8 L-8 -25" fill="none" stroke="#b08d3a" stroke-width="2"/><path d="M0 26 L0.0 8 L0 -27" fill="none" stroke="#b08d3a" stroke-width="2"/><path d="M0 26 L2.0 8 L8 -25" fill="none" stroke="#b08d3a" stroke-width="2"/><path d="M0 26 L3.8 8 L15 -20" fill="none" stroke="#b08d3a" stroke-width="2"/><ellipse cx="-15" cy="-24" rx="3" ry="7" transform="rotate(-24 -15 -24)" fill="#d9b350" stroke="#8a6a24" stroke-width="1"/><ellipse cx="-8" cy="-29" rx="3" ry="7" transform="rotate(-13 -8 -29)" fill="#d9b350" stroke="#8a6a24" stroke-width="1"/><ellipse cx="0" cy="-31" rx="3" ry="7" transform="rotate(0 0 -31)" fill="#d9b350" stroke="#8a6a24" stroke-width="1"/><ellipse cx="8" cy="-29" rx="3" ry="7" transform="rotate(13 8 -29)" fill="#d9b350" stroke="#8a6a24" stroke-width="1"/><ellipse cx="15" cy="-24" rx="3" ry="7" transform="rotate(24 15 -24)" fill="#d9b350" stroke="#8a6a24" stroke-width="1"/>
+      <rect x="-6" y="6" width="12" height="5" rx="1.5" fill="#8b1e1e"/>
+    </g>
+  </g>
+</svg>

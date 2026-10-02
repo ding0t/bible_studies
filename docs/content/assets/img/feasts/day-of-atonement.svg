@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100" role="img" aria-labelledby="t">
+  <title id="t">Atonement: sacrifice done; israel's day ahead</title>
+  <g transform="translate(0.0 0.0)">
+    <circle r="46" fill="#faf6ec" stroke="#a67c3d" stroke-width="2.5" stroke-dasharray="6 4"/><path d="M0 -46 A46 46 0 0 0 0 46 Z" fill="#e8c46a"/><path d="M0 -46 A46 46 0 0 0 0 46" fill="none" stroke="#a67c3d" stroke-width="2.5"/>
+    <g transform="scale(1.278)">
+      <path d="M-20 0 C -24 -10, -16 -22, -3 -24 C -10 -16, -10 -8, -4 0 Z" fill="#f6e3a8" stroke="#3b2f1e" stroke-width="1.3"/>
+      <path d="M20 0 C 24 -10, 16 -22, 3 -24 C 10 -16, 10 -8, 4 0 Z" fill="#f6e3a8" stroke="#3b2f1e" stroke-width="1.3"/>
+      <rect x="-25" y="0" width="50" height="6" rx="1" fill="#f6e3a8" stroke="#3b2f1e" stroke-width="1.3"/>
+      <rect x="-22" y="6" width="44" height="18" fill="#c99a3c" stroke="#3b2f1e" stroke-width="1.3"/>
+      <circle cx="-6" cy="3" r="1.8" fill="#8b1e1e"/><circle cx="0" cy="3" r="1.8" fill="#8b1e1e"/><circle cx="6" cy="3" r="1.8" fill="#8b1e1e"/>
+    </g>
+  </g>
+</svg>

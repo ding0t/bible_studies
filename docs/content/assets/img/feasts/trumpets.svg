@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100" role="img" aria-labelledby="t">
+  <title id="t">Trumpets: awaiting his return</title>
+  <g transform="translate(0.0 0.0)">
+    <circle r="46" fill="#faf6ec" stroke="#a67c3d" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <g transform="scale(1.278)">
+      <g transform="translate(-3 5) scale(.9)">
+      <path d="M-26 14 C -14 18, 2 14, 12 -2 C 16 -9, 18 -16, 24 -22 L 28 -14 C 22 -10, 20 -2, 16 6 C 6 22, -12 24, -26 18 Z"
+            fill="#c9a46a" stroke="#3b2f1e" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M-26 14 v4" stroke="#3b2f1e" stroke-width="3"/>
+      <path d="M-6 17 q2 -5 0 -9 M4 13 q3 -5 1 -10" stroke="#9c7a44" stroke-width="1.2" fill="none"/>
+      </g>
+      <path d="M24 -24 q4 5 0 10 M28 -28 q7 8 0 18" fill="none" stroke="#3b2f1e" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

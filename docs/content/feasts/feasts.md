@@ -150,24 +150,12 @@ wheat harvests, and three in the seventh month, at the end of the agricultural y
 and Trumpets lies the long summer harvest, and Leviticus places one law there, to leave the edges of
 the field "for the poor and for the sojourner" (Leviticus 23:22, ESV).
 
-The diagram below sets the seven in order, with how the New Testament connects each to Christ:
-stated, applied, inferred or prophesied, as the next two sections explain.
+The wheel below sets the seven in Israel's year, beginning with Nisan on the left. Each feast is a
+moon, since every month began at the new moon: full for the four spring feasts, which the New
+Testament ties to His first coming, half for the Day of Atonement, whose sacrifice is finished and whose national day is
+ahead, and outlined for the two still waiting. The next two sections give the case for each.
 
-```mermaid
-flowchart TD
-    subgraph spring["Spring · fulfilled at the first coming"]
-      direction TB
-      P["Passover · 14th of the 1st month<br/>Christ our Passover lamb — stated"] --> U["Unleavened Bread · 15th–21st<br/>a church made unleavened — applied"]
-      U --> F["Firstfruits<br/>Christ raised, the firstfruits — stated"]
-      F --> W["Weeks · fifty days on<br/>the Holy Spirit given — stated"]
-    end
-    subgraph fall["Seventh month · waiting for His return"]
-      direction TB
-      T["Trumpets · 1st<br/>the last trumpet? — inferred"] --> A["Day of Atonement · 10th<br/>Israel mourns the pierced one — inferred"]
-      A --> B["Tabernacles · 15th–21st<br/>the nations keep Booths — prophesied"]
-    end
-    spring -->|"the summer harvest"| fall
-```
+![A wheel of the Hebrew year, beginning with Nisan on the left and running clockwise through twelve months with their Hebrew names and approximate Gregorian months, ringed by the seasons: spring's barley and wheat harvest, the dry summer, autumn's ingathering and early rain, and the winter rains. Around the outside each feast is a moon with its picture, joined to its day. The spring feasts are full gold moons, fulfilled at His first coming: Passover, a blood-marked doorway (1 Corinthians 5:7); Unleavened Bread, a pierced flat loaf (1 Corinthians 5:8); Firstfruits, a barley sheaf (1 Corinthians 15:20); Weeks, two loaves (Acts 2:1). A dashed line crosses the summer harvest to the seventh month, awaiting His return: Trumpets, a ram's horn, an outlined moon (1 Thessalonians 4:16, inferred); the Day of Atonement, the mercy seat sprinkled with blood, a half moon (Hebrews 9:12; Zechariah 12:10); Tabernacles, a booth of branches under a star, an outlined moon (Zechariah 14:16).](../assets/img/feasts/feasts-year-wheel.svg)
 
 The [Prophetic Timeline](../timeline.md) plots the spring feasts against the days of AD 33: open
 [Passion week](../../timeline/#passion-week) or [Passover to Pentecost](../../timeline/#pentecost).
@@ -234,6 +222,19 @@ marked for each.
 Some teachers read the summer gap between Weeks and Trumpets as the church age, the long harvest
 between Pentecost and the trumpet. It fits the dispensational shape of the calendar, and Scripture
 never says it. Hold it as an illustration.
+
+The same teachers often fill the days inside the seventh month. The nine days between Trumpets and
+Atonement (Leviticus 23:24, 27), which later Jewish liturgy calls the Days of Awe, become the
+tribulation, and the week of a Jewish wedding (Genesis 29:27; Judges 14:12) becomes seven years in
+heaven for the church, ending in "the marriage supper of the Lamb" (Revelation 19:9, ESV). The order
+these readings give is the order Scripture gives. The tribulation is Daniel's seventieth "week"
+(Daniel 9:27, ESV), seven years. Revelation announces that "the marriage of the Lamb has come, and
+his Bride has made herself ready" (Revelation 19:7, ESV) before heaven opens on the rider called
+Faithful and True (Revelation 19:11). That order comes from Daniel and Revelation, and the calendar
+does not carry it: nine days do not measure seven years on any reckoning, Leviticus gives the days
+between the feasts no content, and no text sets the marriage supper at a feast. **What the seventh
+month does show is the shape God has promised:** a summons, then Israel's cleansing, then God
+dwelling with His people in the kingdom.
 
 ## Shadow and substance
 

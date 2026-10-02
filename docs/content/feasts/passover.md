@@ -14,6 +14,7 @@ ai_provider_models:
 
 # Passover: When I See the Blood
 
+![A blood-marked doorway on a full gold moon: Passover, fulfilled at His first coming](../assets/img/feasts/passover.svg){ align=right width="96" }
 On the night God judged Egypt, the difference between a house of mourning and a house of safety was
 blood on a doorframe. "The blood shall be a sign for you, on the houses where you are. And when I see
 the blood, I will pass over you" (Exodus 12:13, ESV).

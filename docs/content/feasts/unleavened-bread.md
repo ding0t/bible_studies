@@ -14,6 +14,7 @@ ai_provider_models:
 
 # Unleavened Bread: A New Lump
 
+![A pierced flat loaf on a full gold moon: Unleavened Bread, fulfilled at His first coming](../assets/img/feasts/unleavened-bread.svg){ align=right width="96" }
 Israel left Egypt with dough that had no time to rise. "They baked unleavened cakes of the dough that
 they had brought out of Egypt, for it was not leavened, because they were thrust out of Egypt and
 could not wait" (Exodus 12:39, ESV). God made that night's bread a feast, and kept it for seven days

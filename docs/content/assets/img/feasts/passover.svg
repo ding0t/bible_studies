@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100" role="img" aria-labelledby="t">
+  <title id="t">Passover: fulfilled at his first coming</title>
+  <g transform="translate(0.0 0.0)">
+    <circle r="46" fill="#e8c46a" stroke="#a67c3d" stroke-width="2.5"/>
+    <g transform="scale(1.278)">
+      <rect x="-14" y="-16" width="28" height="40" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.5"/>
+      <rect x="-20" y="-24" width="40" height="8" rx="1" fill="#8b1e1e"/>
+      <rect x="-20" y="-16" width="6" height="40" fill="#8b1e1e"/>
+      <rect x="14" y="-16" width="6" height="40" fill="#8b1e1e"/>
+      <line x1="-26" y1="24.5" x2="26" y2="24.5" stroke="#3b2f1e" stroke-width="2"/>
+      <path d="M-4 -30 q4 -4 8 0" fill="none" stroke="#5e7d3a" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
