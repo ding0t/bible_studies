@@ -1,0 +1,84 @@
+slug: "great-commission"
+title: "Go and Make Disciples: His Mission, His Timing, Your Part"
+status: review
+target_path: "docs/content/christian-life/great-commission.md"
+
+primary_passage: "Matthew 28:16-20; Matthew 24:14"
+supporting_passages:
+  - "Matthew 24:9-15; Mark 13:9-10; Revelation 14:6-7"
+  - "Acts 1:6-8; Acts 17:31; Matthew 24:36"
+  - "2 Peter 3:8-13; Acts 3:19-21"
+  - "Ezekiel 3:17-19; 33:7-9; Acts 20:26-27"
+  - "Matthew 16:18; Acts 2:47; 1 Corinthians 3:5-9; John 6:44"
+  - "Revelation 5:9; 7:9; Colossians 1:6, 23"
+  - "Romans 10:14-15; 1 Corinthians 9:16; 3 John 5-8; Philippians 1:5"
+  - "1 Thessalonians 4:11-12; Colossians 4:5-6; 1 Peter 3:15; Ephesians 4:11-12"
+  - "Romans 8:1; Matthew 11:28-30"
+genre: [gospel, apocalyptic, epistle, prophets, topical]
+
+thesis: >-
+  The risen Jesus commands His church to make disciples of all nations, under His authority and in
+  His presence, and that command is a joy to obey; the day of His return is fixed by the Father,
+  Matthew 24:14 is Jesus' promise of what God will see done before the end, and the Lord Himself
+  adds to His church, so you share the gospel as a forgiven child with no debt of guilt to pay.
+outline:
+  - section: "Hook, In one sentence, Key Takeaways, Study outline"
+    says: "Names the slogan ('He can't come back until we finish') and the guilt it lays."
+  - section: "The commission"
+    says: "Matthew 28:16-20: His authority, the one imperative matheteusate (G3100, 4x NT), 'go' as a real command, the promise of His presence; binding on the church."
+  - section: "Matthew 24:14: a promise about the end"
+    says: "Future passive 'will be proclaimed'; its place in the Olivet sequence (24:9-15, inside Daniel's seventieth week per immediately-after.md and olivet-discourse.md); Revelation 14:6; Colossians 1:6, 23; other readings stated; the rapture is signless (rapture.md). Verdict on the slogan."
+  - section: "Hastening the day?"
+    says: "2 Peter 3:9-12 contested: ESV SB says evangelism hastens from a human perspective; context ties it to holiness, the day is fixed (Acts 17:31), delay is God's patience. Acts 1:7-8: times are the Father's, witness is ours by the Spirit's power."
+  - section: "Blood on your hands?"
+    says: "Ezekiel's watchman is a prophetic office to Israel; Paul applies it to his own ministry (Acts 20:26-27); the principle of faithful speech carries, the guilt-lever does not."
+  - section: "Whose mission is it?"
+    says: "The Lord builds and adds and gives the growth; the outcome is certain (Rev 5:9, 7:9); each serves as assigned (1 Cor 3:5), including senders (3 John 8) and quiet lives (1 Thess 4:11-12); guilt resolved at Romans 8:1, linking run-the-race and assurance-of-salvation."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >-
+      Raised by the author 2026-10-01 while editing run-the-race: constant pressure to fulfil the
+      Great Commission, 'Jesus won't come until all the world has heard', missions guilt a large
+      burden in evangelical churches. Author chose a dedicated study. Placement christian-life/.
+  exegesis:
+    historical_context: {done: true, notes: "Commission given to the Eleven in Galilee (28:16). Olivet Discourse private to disciples (24:3)."}
+    literary_context: {done: true, notes: "Matthew 24:9-14 follows the birth pains (24:4-8) and precedes the abomination (24:15). Site position (immediately-after.md, olivet-discourse.md): 24:4-8 opens the seventieth week, 24:15 its midpoint."}
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "μαθητεύω", language: greek, transliteration: "mathēteuō", strongs_id: "G3100", gloss: "make a disciple", notes: "4x NT: Matthew 13:52, 27:57, 28:19; Acts 14:21. Aorist imperative at 28:19, the only finite verb; go/baptizing/teaching participles."}
+        - {word: "πορευθέντες", language: greek, transliteration: "poreuthentes", strongs_id: "G4198", gloss: "having gone / go", notes: "Aorist participle before the imperative; every translation checked (ESV, NIV, CSB, NASB95/20, LSB, NKJV, NLT) renders 'go' as a command."}
+        - {word: "κηρυχθήσεται", language: greek, transliteration: "kērychthēsetai", strongs_id: "G2784", gloss: "will be proclaimed", notes: "Future passive indicative, Matthew 24:14."}
+        - {word: "οἰκουμένη", language: greek, transliteration: "oikoumenē", strongs_id: "G3625", gloss: "inhabited earth", notes: "LSB 'Lit inhabited earth'; CSB 'Or in all the inhabited earth'."}
+        - {word: "σπεύδω", language: greek, transliteration: "speudō", strongs_id: "G4692", gloss: "hasten, be eager for", notes: "2 Peter 3:12; CSB footnote 'Or and speed the coming'."}
+  hermeneutics:
+    cultural_vs_transcultural: {done: true, notes: "Commission binds the church through the age (28:20 'to the end of the age'); Ezekiel's watchman office is specific to the prophet."}
+    theological_principle: {done: true, notes: "See thesis. Consistent with statement-of-faith.md End times (pretribulational; rapture before the seventieth week) and salvation by grace."}
+    application_draft: {done: true, notes: "Pray, give, send, speak where you are; serve as assigned; drop the guilt."}
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Revelation 14:6", relation: "gospel proclaimed to every nation within the tribulation sequence"}
+      - {ref: "Colossians 1:6, 23", relation: "Paul already speaks of the gospel in 'the whole world' / 'all creation under heaven'"}
+    translations_compared: ["ESV", "NIV", "CSB", "NASB95", "NASB20", "LSB", "NKJV", "NLT", "NA28"]
+    divergences_noted: "None on 28:19 'go'. 24:14 'world' footnoted as 'inhabited earth' (LSB, CSB)."
+  drafting: {done: true, file: "docs/content/christian-life/great-commission.md"}
+  review: {done: false, validated: false}
+
+open_questions:
+  - "Author's position (2026-10-01): 'Jesus won't come until the gospel is heard by all' is a likely misinterpretation of the Great Commission. Study states that verdict and gives the hastening case (ESV SB on 2 Peter 3:12) fairly."
+  - "day-is-near.md checked at the author's request: no contradiction of the pretrib position, since 24:14's telos is the end of the age at the visible return. Its phrase 'a finished evangelistic task as the last named condition' frames 24:14 as the church's task; author to decide whether to soften. Not edited. Original note: day-is-near.md Be Transformed and discussion question 4 frame Matthew 24:14 as the church's labour and 'the stated condition before the end will come'. Possible tension with this study and rapture.md's imminence; surfaced to the author, not edited."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Matthew 24:1-14, 24:14 (church-age indicator reading), 28:19 (one imperative), 2 Peter 3:12 (hastening from a human perspective), Ezekiel 3:16-21. Contributed the strongest case for the hastening reading."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Matthew 24:14 (AD 70 fulfilment possible; Col 1:23; Rom 15:19), 28:19, 2 Peter 3:12."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "2 Peter 3:12: Jewish dispute whether the end was fixed or could be hastened by Israel's repentance."}
+  - {type: commentary, title: "NLT Life Application Study Bible", author: "Tyndale", note: "Ezekiel 3:18 applied to all believers -- the guilt-lever reading, for balance."}
+  - {type: lexicon, title: "MACULA Greek (SBLGNT), unfoldingWord ULT interlinear", author: "bible-text.db", note: "counts and parsing above"}
+
+last_updated: "2026-10-01"

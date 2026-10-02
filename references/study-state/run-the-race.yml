@@ -1,0 +1,177 @@
+slug: "run-the-race"
+title: "Run the Race: Come to Me, All Who Are Weary"
+status: review
+target_path: "docs/content/christian-life/run-the-race.md"
+
+primary_passage: "Matthew 11:28-30; Hebrews 12:1-3"
+supporting_passages:
+  - "Matthew 11:19-27"
+  - "Matthew 12:1-14"
+  - "Matthew 13:1-23; Mark 4:13-20; Luke 8:11-15"
+  - "Matthew 23:4-5; Luke 11:46"
+  - "Jeremiah 6:16"
+  - "Isaiah 40:28-31"
+  - "Isaiah 50:4-7; Luke 9:51"
+  - "Hebrews 10:23-25, 32-36; 12:5, 12"
+  - "Hebrews 3:12-13; 4:15-16"
+  - "Philippians 3:12-14; 4:6-8"
+  - "Proverbs 3:5-6; 4:20-23"
+  - "Matthew 6:1, 11, 16, 34; 4:4; Deuteronomy 8:3"
+  - "Luke 21:34; Luke 18:12; John 4:6; Mark 8:3; Matthew 15:32"
+  - "Sirach 51:23-27 (extra-biblical)"
+genre: [gospel, epistle, prophets, wisdom, parable, topical]
+
+thesis: >-
+  Jesus calls the weary to come to Him and gives them rest by yoking them to Himself, the gentle
+  and lowly Son; the Christian runs the long race on that same rest, looking to Jesus, fed by His
+  word, kept in prayer and stirred up by one another, and grows weary again when other loads are
+  taken back up: works done to be seen, discipline used to earn, and the cares of this age that
+  choke the word.
+outline:
+  - section: "Hook, passages, In one sentence, Key Takeaways, Study outline"
+    says: "Weariness is common among believers; the two passages answer it together."
+  - section: "Come to me"
+    says: "Matthew 11:28-30 in context: the Son who alone reveals the Father offers the rest Israel refused at Jeremiah 6:16, against the Pharisees' loads (phortizo only here and Luke 11:46); rest is given, then found under His yoke."
+  - section: "Why believers grow weary"
+    says: "Hebrews' readers had endured and were now drooping, drifting and skipping the assembly; weariness itself is not sin (John 4:6), and Jesus feeds the crowd lest they faint on the way (ekluo, Mark 8:3)."
+  - section: "Run with endurance, looking to Jesus"
+    says: "Hebrews 12:1-3 walked through: lay aside, run with hypomone, look away to Jesus founder and perfecter, consider Him so you do not grow weary; Isaiah 40:31 LXX puts waiting, running and not growing weary in one verse; the flint face is the Servant's (Isaiah 50:7, Luke 9:51) and Philippians 3:12 roots our pressing on in Christ's prior grip."
+  - section: "What feeds the runner"
+    says: "The backlog's three, with verdicts: meeting together (Hebrews 10:24-25, 3:13), prayer as communion and daily bread, living on the word (Deuteronomy 8:3, Isaiah 50:4) — Acts 2:42 holds all three."
+  - section: "What weighs the runner down"
+    says: "Works done to be seen (Matthew 6:1, 23:5), fasting to earn (Luke 18:12), and the Sower's cares of this age (Mark 4:19, Luke 8:14, Luke 21:34); guard your heart (Proverbs 4:23) and God's peace guards it (Philippians 4:7)."
+  - section: "Discussion questions; References"
+    says: "Facets: language, context, Christ, the hard part (thorny soil), transformed."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >-
+      From backlog.md "### Run the race - come to me all who are weary". Author's brief: rest at
+      Christ's invitation, His burden lighter than salvation by works; why Christians grow weary;
+      run with endurance, face like flint, take hold of that for which Christ took hold of me.
+      Proposed helps: meeting/encouraging, prayer as communion and daily bread, living on the
+      word. Proposed hindrances: works to be seen pious, fasting to work toward life, news and
+      world's troubles (cares choking the seed), all that stole the word in the Sower. Proverbs:
+      guard heart and mind, trust Him. Placement christian-life/. Give fair/out-of-context verdicts
+      on the author's phrases (flint, take hold).
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Matthew 11 sits in mounting opposition (ESV SB on 11:1-12:50). Yoke a Jewish metaphor for
+        the law / kingdom (ESV SB, NIV CBSB on 11:29). Hebrews addressed to believers who had
+        endured persecution (10:32-34) and were tempted to drift/shrink back (2:1; 10:25, 35-39);
+        athletic imagery of stripping to run (NIV CBSB on 12:1).
+    literary_context:
+      done: true
+      notes: >-
+        Matthew 11:19 "wisdom is justified by her deeds"; 11:25-27 the Son reveals the Father;
+        11:28-30 the invitation; 12:1 "At that time" (same phrase as 11:25) grainfields on the
+        Sabbath, disciples hungry; 12:7 mercy not sacrifice; 13:1 "That same day" the Sower. So
+        rest -> Sabbath controversy -> Sower runs as one sequence. Hebrews 12:1-3 hinges ch. 11
+        (faith) to 12:4-13 (discipline/endurance); ekluo 12:3 picks up in the Proverbs 3:11
+        quotation at 12:5; 12:12 drooping hands.
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "κοπιάω", language: greek, transliteration: "kopiaō", strongs_id: "G2872", gloss: "labour to weariness", notes: "23x NT (SBLGNT). John 4:6 of Jesus wearied. Isaiah 40:31 LXX 'run and not grow weary'."}
+        - {word: "φορτίζω", language: greek, transliteration: "phortizō", strongs_id: "G5412", gloss: "load, burden", notes: "2x NT: Matthew 11:28, Luke 11:46 (lawyers load people)."}
+        - {word: "φορτίον", language: greek, transliteration: "phortion", strongs_id: "G5413", gloss: "burden, cargo", notes: "Matthew 11:30 vs Matthew 23:4; also Luke 11:46 x2, Galatians 6:5, Acts 27:10."}
+        - {word: "ἀναπαύω / ἀνάπαυσις", language: greek, transliteration: "anapauō / anapausis", strongs_id: "G373 / G372", gloss: "give rest / rest", notes: "anapausis 5x NT; 11:28 'I will give rest', 11:29 'you will find rest'."}
+        - {word: "ζυγός", language: greek, transliteration: "zygos", strongs_id: "G2218", gloss: "yoke", notes: "Acts 15:10, Galatians 5:1 yoke of law; 1 Timothy 6:1 slavery; Revelation 6:5 scales."}
+        - {word: "χρηστός", language: greek, transliteration: "chrēstos", strongs_id: "G5543", gloss: "kind, good, easy", notes: "7x NT."}
+        - {word: "ἐλαφρός", language: greek, transliteration: "elaphros", strongs_id: "G1645", gloss: "light", notes: "2x NT: Matthew 11:30; 2 Corinthians 4:17."}
+        - {word: "מַרְגּוֹעַ", language: hebrew, transliteration: "margoaʿ", strongs_id: "H4771", gloss: "rest, place of repose", notes: "Only Jeremiah 6:16 (macula-hebrew-wlc). LXX reads ἁγνισμόν 'purification'; Matthew 11:29 follows the Hebrew."}
+        - {word: "ὑπομονή / ὑπομένω", language: greek, transliteration: "hypomonē / hypomenō", strongs_id: "G5281 / G5278", gloss: "endurance / endure", notes: "Hebrews: hypomone 10:36, 12:1; hypomeno 10:32, 12:2, 12:3, 12:7. Isaiah 40:31 LXX hypomenontes = Hebrew qoye (wait for)."}
+        - {word: "ὄγκος", language: greek, transliteration: "onkos", strongs_id: "G3591", gloss: "weight, bulk", notes: "NT hapax, Hebrews 12:1."}
+        - {word: "εὐπερίστατος", language: greek, transliteration: "euperistatos", strongs_id: "G2139", gloss: "easily entangling", notes: "NT hapax, Hebrews 12:1."}
+        - {word: "ἀφοράω", language: greek, transliteration: "aphoraō", strongs_id: "G872", gloss: "look away to, fix eyes on", notes: "2x NT: Hebrews 12:2, Philippians 2:23."}
+        - {word: "κάμνω", language: greek, transliteration: "kamnō", strongs_id: "G2577", gloss: "grow weary, be sick", notes: "2x NT: Hebrews 12:3; James 5:15."}
+        - {word: "ἐκλύω", language: greek, transliteration: "eklyō", strongs_id: "G1590", gloss: "faint, give out", notes: "5x NT: Galatians 6:9; Hebrews 12:3, 5; Mark 8:3; Matthew 15:32 (crowd would faint on the way)."}
+        - {word: "μέριμνα", language: greek, transliteration: "merimna", strongs_id: "G3308", gloss: "care, anxiety", notes: "6x NT: Sower x3 (Matthew 13:22, Mark 4:19, Luke 8:14), Luke 21:34, 2 Corinthians 11:28, 1 Peter 5:7."}
+        - {word: "καταλαμβάνω", language: greek, transliteration: "katalambanō", strongs_id: "G2638", gloss: "lay hold of, grasp", notes: "3x in Philippians 3:12-13; passive 'I was grasped by Christ Jesus'."}
+        - {word: "חַלָּמִישׁ", language: hebrew, transliteration: "ḥallāmîš", strongs_id: "H2496", gloss: "flint", notes: "Isaiah 50:7 Servant sets face like flint."}
+        - {word: "יָעֵף", language: hebrew, transliteration: "yāʿēp", strongs_id: "H3287", gloss: "weary", notes: "Isaiah 50:4 sustain the weary with a word; cognate verb H3286 in Isaiah 40:31."}
+        - {word: "נָצַר", language: hebrew, transliteration: "nāṣar", strongs_id: "H5341", gloss: "guard, keep", notes: "Proverbs 4:23 with מִשְׁמָר (H4929) 'above all guarding'."}
+        - {word: "φρουρέω", language: greek, transliteration: "phroureō", strongs_id: "G5432", gloss: "guard as a garrison", notes: "Philippians 4:7 God's peace guards; 1 Peter 1:5 guarded by God's power."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Yoke/Pharisaic halakhah and stadium imagery are first-century; the invitation and the gaze on Jesus transcend."
+    theological_principle:
+      done: true
+      notes: "See thesis. Consistent with statement-of-faith.md line 193 (Hebrews 12:1-2 as direction of gaze) and salvation by grace not works; assurance-of-salvation.md holds security, so the thorny-soil question is marked contested and pointed there."
+    application_draft:
+      done: true
+      notes: "Gather, pray, take in the word daily; drop the performance; ration the cares-of-this-age intake (news) — marked as application of Mark 4:19, not exegesis."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Jeremiah 6:16", relation: "source of 'find rest for your souls'; Matthew follows MT margoa against LXX hagnismon"}
+      - {ref: "Sirach 51:23-27", relation: "Wisdom's invitation 'put your neck under the yoke ... much rest' (NIV CBSB on Matthew 11:29, which miscites it as Jeremiah 6:16)"}
+      - {ref: "Isaiah 40:31 LXX", relation: "hypomeno + trecho + kopiao in one verse; vocabulary echo, not a quotation in Hebrews"}
+      - {ref: "Isaiah 50:4, 7; Luke 9:51", relation: "Servant sustains the weary with a word; sets face like flint; Jesus sets face to Jerusalem"}
+    translations_compared: ["ESV", "WEB", "LXX", "MT", "LSB footnotes"]
+    divergences_noted: "LSB footnote Matthew 11:29 'Lit lowly'; Hebrews 12:3 'Lit souls' (ESV 'fainthearted'); Mark 4:19 'Or age' (ESV 'world')."
+  drafting:
+    done: true
+    file: "docs/content/christian-life/run-the-race.md"
+  review:
+    done: false
+    validated: true # npm run validate clean for this file, mkdocs build --strict passes, cross_study_claims Matthew 11 / Hebrews 12 show no conflict (2026-10-01)
+    review_2026-10-01:
+      checked: >-
+        Every ESV quotation re-queried from study-notes.db (esv-study-bible verses): all verbatim, all
+        references correct. Concordance (macula-greek-sblgnt / macula-hebrew-wlc) re-run: phortizo 2x NT
+        (Matt 11:28, Luke 11:46; LXX adds Ezek 16:33), margoa only Jer 6:16, onkos and euperistatos 1x
+        (absent from LXX lemmas too), ekluo 5x NT, hypomone 2x and hypomeno 4x in Hebrews, katalambano
+        3x in Phil 3:12-13, kamno 2x NT -- all as stated. LXX Isa 40:31 has hypomeno, trecho, kopiao;
+        LXX Jer 6:16 has hagnismos -- confirmed. Sirach 51:23, 26-27 checked against KJVA raw text --
+        verbatim. NIV CBSB Matt 11:29 note confirmed citing the Sirach saying as "(Jer 6:16)" (NKJV CBSB
+        same). LSB footnotes confirmed: Matt 11:29 "Lit lowly", Mark 4:19 "Or age", Heb 12:3 "Lit
+        souls" (also Matt 11:28 "Or who work to exhaustion"). ESV SB notes on Matt 11:28, Heb 12:1,
+        Luke 8:14 say what the study attributes. Commentary cross-check: NLT LASB Matt 11:28-30 and
+        Heb 12:1-4 confirm the legalism reading and the gaze-on-Jesus principle. review_gaps: no
+        missed quotation of substance. Statement of faith (Salvation, Justification, line 193, 205)
+        and assurance-of-salvation.md: consistent; thorny-ground question marked contested.
+      fixed:
+        - "Sirach 51 speaker: study said the sage 'used Wisdom's voice'; in 51:13-30 the sage speaks of wisdom ('her'). Reworded."
+        - "Matthew 13:1 'that same day' ties to 12:46-50, not to the Sabbath quarrels or 11:28; reworded as narrative sequence."
+        - "Discussion Q1 phortizo 'only' scoped to the New Testament (LXX Ezek 16:33)."
+        - "Added citations: Matthew 6:4 (sees in secret), Hosea 6:6, Proverbs 3:11; bible_references gains these and 1 John 5:3."
+      open:
+        - "Heb 12:2 anti: CSB and NLT footnote 'Or instead of the joy'; study and Q3 argue from 'for the joy' undisclosed."
+        - "Heb 10:24 'consider' (katanoeo) and 12:3 'consider' (analogizomai) are different verbs; Heb 3:1 is the katanoeo link to Jesus."
+        - "Heb 12:3 SBLGNT reads eis heautous ('against themselves'); NLT footnotes it. Incidental."
+        - "Servant pronoun inconsistent: 'taught him' (Takeaways) vs 'He was taught ... He sustained' (Living on the word)."
+        - "'Why believers grow weary' answers 'what' (symptoms) more than 'why'; 'the years went on and Jesus had not returned' is unsourced inference."
+        - "Etymological glosses (hypomone 'staying under', ekluo 'come loose', merimna 'divided mind', chrestos 'well fitted', phroureo 'at a gate') lean on roots."
+        - "Brief asks for all the Sower's hindrances; study treats only thorns at length."
+
+open_questions:
+  - "Fork candidate: the Sabbath-rest thread (Matthew 12:1-14 to Hebrews 4:9-10) deserves its own study; only touched here."
+  - "Fork candidate: a full Parable of the Sower study; this one uses only the thorns."
+  - "Hebrews 12:1 'cloud of witnesses': spectators or testifiers — contested; ESV SB and NIV BTSB lean testifiers."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Matthew 11:28, 29; Hebrews 12:1-3; Luke 8:14; Philippians 3:12; Isaiah 50:4-9. Confirmed legalism context; contributed the Luke 8:14 'do not persevere to maturity' reading and the caution on spectators."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Matthew 11:29 yoke of the kingdom/law, 'only God would call it my yoke'; Sirach 51 parallel (miscited). Hebrews 12:1 stripping to run, weights as vices."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Hebrews 12:1-3 hinge; endure-words three times in vv. 1-3."}
+  - {type: commentary, title: "NLT Life Application Study Bible", author: "Tyndale", note: "Hebrews 12:1 application includes curbing constant message-checking/media — independent support for the news application."}
+  - {type: other, title: "Sirach 51:23-27, KJV Apocrypha", author: "scrollmapper deuterocanonical (raw, open)", note: "quoted"}
+  - {type: lexicon, title: "MACULA Greek/Hebrew, unfoldingWord ULT interlinear, LXX lemmas", author: "bible-text.db", note: "all counts above"}
+
+author_decisions_2026-10-01:
+  - "Hebrews 12:2 anti: keep 'for the joy' with no footnote. Author: prefer one reading where the other adds no value. The text supports it -- prokeimai describes both the joy set before Him and the race set before us (12:1)."
+  - "Review rec 3 applied: 'What wears a believer down' now lists causes from Hebrews (suffering prolonged 10:32/12:4, waiting 10:37, sin left in place 3:13/12:1, hardship misread as rejection 12:5-6, drifting/absence 2:1/10:25); new 'Never good enough' subsection (9:9, 9:14, 10:1-3, 10:14, 10:22, 1 John 3:20) resting on assurance-of-salvation.md, per the author."
+  - "Review rec 4 applied: all three soils treated (Luke 8:12-14, Mark 4:17-19); 'The hard part: which hearers believed?' sits directly after them and links assurance-of-salvation.md#when-someone-walks-away (John 10:28, 1 John 2:19, Hebrews 10:39), per the author's request that it be read near assurance. News application moved after it."
+  - "Trimmed to stay under budget: 'Matthew shows it at once', 'Then comes the remedy', 'A runner alone drops out unseen...', 'Bodies get tired...' (review rec 3 register tells), James 5:15 aside."
+  - "Author request: church as a cause of weariness. Added 'When the church wears you out' (Hebrews 12:14-15; Psalm 55:12-14; John 13:18/Psalm 41:9; Acts 15:39; Philippians 4:2; 2 Timothy 4:10-17; Acts 20:29-30; 2 Peter 2:1; Matthew 7:15-16; 1 John 4:1; 1 Peter 2:23; Colossians 3:13; Romans 12:19; John 10:11-13). Tares: Matthew 13:38 'the field is the world'; ESV SB and NIV BTSB both read it as the kingdom in the world, so the study says the church application is a common misreading and keeps the harvest comfort. Pushes the page to 4,413 words (validator Check 23); budget decision left to the author."
+  - "Fork candidate recommended: 'Hurt by the Church' -- wolves, false teachers, betrayal by friends, falling out, the tares misapplication, church discipline (where-two-or-three-are-gathered.md) vs bearing with one another, and forgiveness (ties to the backlog Forgiveness item). Would let this section shrink to a short pointer."
+  - "Spin-off written: docs/content/christian-life/hurt-by-the-church.md. 'When the church wears you out' cut to a short paragraph linking it. Page now 4,116 words (Check 23); budget decision left to the author."
+  - "Still open from review: rec 2 ('consider' link is English-only), 5 (root-leaning glosses), 6 (Servant pronoun capitals), 7 (Heb 12:3 variant), 8 (anapausis tag)."
+last_updated: "2026-10-01"

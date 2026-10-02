@@ -1,0 +1,78 @@
+slug: "hurt-by-the-church"
+title: "Hurt by the Church: Wolves, Weeds and the Good Shepherd"
+status: review
+target_path: "docs/content/christian-life/hurt-by-the-church.md"
+
+primary_passage: "Ezekiel 34:1-16; John 10:11-13; Acts 20:28-31"
+supporting_passages:
+  - "Psalm 55:12-14, 20-22; Psalm 41:9; John 13:18; John 1:11; John 6:66-68; Mark 14:50"
+  - "Acts 15:37-39; Philippians 4:2-3; 2 Timothy 4:10-17; John 21:15-17"
+  - "Colossians 3:13; Ephesians 4:31-32; Matthew 18:15, 21-22; Luke 17:3-4; 1 Corinthians 6:7; Galatians 6:1-2"
+  - "3 John 9-11; 1 Peter 5:2-4; Matthew 20:25-28; Exodus 1:13-14; Leviticus 25:43; Romans 13:3-4"
+  - "Matthew 7:15-16; Matthew 10:16; 1 John 4:1-3; Galatians 1:6-9; 2 Peter 2:1-3; 2 Timothy 4:3-4; Titus 1:10-11; Jude 3-4, 12; Romans 16:17-18; 2 Timothy 3:5"
+  - "Matthew 13:24-30, 36-43; 1 Corinthians 5:11-13"
+  - "Hebrews 10:25; 12:14-15; Psalm 34:18; Matthew 12:20"
+genre: [topical, gospel, epistle, prophets, psalm, parable]
+
+thesis: >-
+  Jesus was betrayed by a friend, deserted by His disciples and opposed by the shepherds of His own
+  people, so He knows church hurt from the inside; Scripture tells the difference between a brother
+  who fails you, a shepherd who harms you, a wolf who preys on you and the weeds of the world, and
+  answers each differently -- forgive and restore the brother, expose the shepherd and the wolf,
+  judge inside the church and leave the world to the harvest -- while the Good Shepherd Himself
+  seeks, binds up and keeps His sheep, so you can stay with His people.
+outline:
+  - section: "Hook, In one sentence, Key Takeaways, Study outline"
+    says: "Church hurt is real and Scripture names it; the four kinds are answered differently."
+  - section: "Jesus was hurt by His own"
+    says: "John 1:11; Psalm 41:9 at John 13:18; Mark 14:50; John 6:66-68; Psalm 55 and its 'cast your burden'."
+  - section: "Brothers who fail you"
+    says: "Acts 15:38-39, Philippians 4:2, 2 Timothy 4:10, 16; bear with, forgive, go to him, restore (Mark, Peter). Forgiveness in depth is a separate backlog item."
+  - section: "Shepherds who harm"
+    says: "Ezekiel 34 (perek, H6531: Egypt's slavery, forbidden between brothers in Leviticus 25, used of Israel's shepherds); 3 John 9-10; katakyrieuo (G2634) in Matthew 20:25 and 1 Peter 5:3; God Himself shepherds; crimes go to the authorities (Romans 13:4)."
+  - section: "Wolves and false teachers"
+    says: "lykos (G3074) 6x NT: outside persecutors and inside deceivers; the tests (fruit, confession of Christ, the gospel received, motive); watch, avoid, contend."
+  - section: "Weeds in the field"
+    says: "Matthew 13:38 the field is the world (ESV SB, NIV BTSB); 1 Corinthians 5:12-13 the church judges insiders; verdict on applying the tares to the church."
+  - section: "Staying with His people"
+    says: "Hebrews 10:25, 12:15; leaving a church and leaving the church; Psalm 34:18; Matthew 12:20; John 6:68."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping: {done: true, notes: "Spin-off from run-the-race.md 'When the church wears you out', at the author's request 2026-10-01: people are hard, hurt by those trusted to encourage, false teachers, wolves, tares among the wheat."}
+  exegesis:
+    historical_context: {done: true, notes: "Acts 20 Miletus farewell to Ephesian elders; 3 John a church leader refusing apostolic authority; Ezekiel 34 exilic oracle against Judah's leaders."}
+    literary_context: {done: true, notes: "Matthew 13:36-43 Jesus' own interpretation; Ezekiel 34:1-10 indictment then 11-16 restoration; John 10 follows the Pharisees casting out the healed blind man (John 9:34)."}
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "פֶּרֶךְ", language: hebrew, transliteration: "perek", strongs_id: "H6531", gloss: "harshness, ruthlessness", notes: "6x: Exodus 1:13, 14; Leviticus 25:43, 46, 53; Ezekiel 34:4 (macula-hebrew-wlc)."}
+        - {word: "κατακυριεύω", language: greek, transliteration: "katakyrieuō", strongs_id: "G2634", gloss: "lord it over, domineer", notes: "4x: Matthew 20:25; Mark 10:42; Acts 19:16; 1 Peter 5:3."}
+        - {word: "λύκος", language: greek, transliteration: "lykos", strongs_id: "G3074", gloss: "wolf", notes: "6x: Matthew 7:15; 10:16; Luke 10:3; John 10:12 (2x); Acts 20:29."}
+        - {word: "ζιζάνιον", language: greek, transliteration: "zizanion", strongs_id: "G2215", gloss: "darnel, weeds", notes: "8x, all Matthew 13."}
+  hermeneutics:
+    cultural_vs_transcultural: {done: true, notes: "Shepherd imagery and Ezekiel's oracle are Israel's; the principle about leaders who use the flock carries (1 Peter 5:2-3). Civil law on abuse is modern context; Romans 13:4 supplies the principle."}
+    theological_principle: {done: true, notes: "See thesis. Consistent with statement-of-faith.md; no conflict found."}
+    application_draft: {done: true, notes: "Name what happened; respond to the kind of hurt; report crimes; forgive the brother; keep gathering."}
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "1 Corinthians 5:12-13", relation: "church judges insiders, God outsiders: the corrective to applying the tares to the church"}
+      - {ref: "Leviticus 25:43", relation: "perek forbidden between Israelites; Ezekiel 34:4 shepherds did it to the flock"}
+    translations_compared: ["ESV"]
+    divergences_noted: ""
+  drafting: {done: true, file: "docs/content/christian-life/hurt-by-the-church.md"}
+  review: {done: false, validated: true}  # validate clean, mkdocs --strict passes, all ESV quotes verified 2026-10-01
+
+open_questions:
+  - "Forgiveness in depth (when repentance is required, forgiveness and trust, love and forgiveness) belongs to the backlog 'Forgiveness' item; this study only touches it."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Matthew 13:38 (kingdom in the world rather than within the church); Ezekiel 34:1-16; Hebrews 12:15 (root of bitterness, Deuteronomy 29:18); 1 Corinthians 5; 3 John 9-10."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Matthew 13:38 (not a mixed church but the entire human community)."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Ezekiel 34:4 (remedial duties of the shepherd)."}
+  - {type: lexicon, title: "MACULA Greek (SBLGNT) and Hebrew (WLC)", author: "bible-text.db", note: "counts above"}
+
+last_updated: "2026-10-01"
