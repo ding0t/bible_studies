@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 103:1-2
+- [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 103:12
 <!-- commentary-index:auto-end -->

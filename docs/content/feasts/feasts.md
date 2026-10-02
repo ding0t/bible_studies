@@ -256,7 +256,8 @@ Each appointed time has, or will have, its own study in this section:
 - [Firstfruits: The Sheaf Waved on the Third Day](firstfruits.md)
 - [Weeks: Fifty Days to Pentecost](weeks.md)
 - [Feast of Trumpets: Yom Teruah](trumpets.md)
-- Day of Atonement and Tabernacles (in preparation)
+- [The Day of Atonement: Once a Year, Once for All](day-of-atonement.md)
+- [Tabernacles: God Dwelling with His People](tabernacles.md)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](last-supper-four-cups.md)
 - [The Zadok Calendar](zadok-calendar.md), on reckoning the calendar itself
 

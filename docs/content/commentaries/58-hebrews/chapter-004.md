@@ -22,6 +22,7 @@ draft: false
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:9
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 4:16
 - [The Day Is Near](../../last-things/day-is-near.md) — 4:1-13
+- [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 4:16
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 4:9-11
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 4:15
 <!-- commentary-index:auto-end -->

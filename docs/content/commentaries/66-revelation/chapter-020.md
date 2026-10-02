@@ -21,6 +21,7 @@ draft: false
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 20:1-15
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 20:4-6
 - [Six Days of History](../../last-things/six-days-of-history.md) — 20:4
+- [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 20:1-6
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 20:1-6
 - [The Day Is Near](../../last-things/day-is-near.md) — 20:1-7
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 20:9

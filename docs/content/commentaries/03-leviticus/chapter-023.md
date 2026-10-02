@@ -15,7 +15,9 @@ draft: false
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 23:23-25 (primary passage)
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 23:9-14 (primary passage)
 - [Passover: When I See the Blood](../../feasts/passover.md) — 23:5 (primary passage)
+- [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 23:33-43 (primary passage)
 - [The Appointed Times](../../feasts/feasts.md) — 23:1-44 (primary passage)
+- [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 23:26-32 (primary passage)
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 23:6-8 (primary passage)
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 23:15-22 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 23:36

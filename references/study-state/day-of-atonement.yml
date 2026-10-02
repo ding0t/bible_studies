@@ -1,0 +1,56 @@
+slug: "day-of-atonement"
+title: "The Day of Atonement: Once a Year, Once for All"
+status: review
+target_path: "docs/content/feasts/day-of-atonement.md"
+series: "references/study-state/feasts-series-2026-10.yml (study 7)"
+primary_passage: "Leviticus 16:1-34; Leviticus 23:26-32; Hebrews 9:6-28"
+thesis: >-
+  Once a year the high priest carried blood to the mercy seat and sent Israel's sins away on a goat so
+  the holy God could keep dwelling among His people; Jesus has done this once for all with His own
+  blood in heaven; Israel's national day of mourning and cleansing still waits for His return.
+word_budget: 4000
+evidence_checked:
+  - "kipper H3722 102x OT, 49x Leviticus, 16x Leviticus 16; kapporet H3727 27x; azazel H5799 4x all Lev 16; hilasterion G2435 2x NT (Heb 9:5; Rom 3:25) and LXX Lev 16:14 (lxx-lemmas)"
+  - "Lev 16:29 te'annu et-nafshoteikhem (ULT interlinear)"
+  - "ESV text of every quotation, study-notes.db"
+  - "Diagram renders 456px wide (mmdc)"
+contested_marked:
+  - "Azazel meaning (NIV BTSB three readings; LSB, CSB footnotes)"
+  - "Zechariah 12:10-13:1 / Romans 11:26-27 as Yom Kippur's fulfilment: inferred; events prophesied"
+  - "Heb 9:28 'appear a second time' and the high priest coming out: order of the day, not drawn explicitly by Hebrews"
+links: "ark.md (hilasterion), israels-regathering-and-refining.md (Zech 12), fasting.md (afflict yourselves)"
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", note: "Lev 16:1-2, 16:1-34, 16:3-10; Rom 3:25 (propitiation)"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "Lev 16:8 Azazel"}
+  - {type: other, title: "CSB Ancient Faith / LSB footnotes", note: "Lev 16:8"}
+last_updated: "2026-10-02"
+review_2026-10-02:
+  scope: "review-bible-study, full pass (phases 1-8)"
+  checked:
+    - "ESV text of every quotation re-queried from study-notes.db (Lev 16:1-34, 23:27-32, 25:9; Acts 27:9; Ps 103:12; Isa 53:6; Heb 7:26-27, 9:5-28, 10:17-22, 13:11-12; Matt 27:51; Rom 3:25-26, 11:26-27; 1 John 2:2; Zech 12:10, 13:1)"
+    - "kipper H3722 macula-hebrew-wlc: 102 OT, 49 Lev, 16 Lev 16 (morphhb-wlc gives 47 in Lev; macula is the source cited); kapporet H3727 27; TWOT 1023 / 1023c same root"
+    - "azazel H5799: 4x, Lev 16:8, 10 (2x), 26"
+    - "hilasterion G2435: NT 2x (Heb 9:5, Rom 3:25); LXX Lev 16:2, 13, 14 (2x), 15 (2x)"
+    - "Lev 16:29 Hebrew matches WLC; ULT 'humble your lives'; NLT footnote 'Or must fast'"
+    - "ESVSB Lev 16:1-2 and Rom 3:25, NIV BTSB Lev 16:8, CSB AF and LSB 16:8 footnotes all say what the study says"
+    - "Commentary cross-check: NIV Cultural Backgrounds Heb 9:28 confirms the high-priest-reappearance comparison as 'some scholars' (study marks it as the order of the day); NIV BTSB Zech 12:10 silent on Yom Kippur, reads John 19:34-37 as fulfilment at the cross and Rev 1:7 at the return"
+    - "Siblings consistent: feasts.md (same stated/inferred split, same verses), fasting.md (te'annu et-nafshotekhem), israels-regathering-and-refining.md, statement-of-faith.md Justification (Rom 3:23-26) and End times"
+  fixed:
+    - "Lev 16:6 quotation spliced two clauses without ellipsis; requoted as two fragments"
+    - "Azazel references now list 16:10 twice, matching 'four times'"
+    - "LXX hilasterion: 'at Leviticus 16:14' widened to 16:2, 13-15"
+    - "Rom 3:25 mercy-seat reading marked as debated, matching ark.md"
+    - "Cut 'One more detail:' filler; capitalised 'Day of Atonement'"
+  judgment_calls:
+    - "Mermaid arrows imply sequence: the Hebrews column runs blood-in-heaven -> outside the gate, the reverse of the Passion; Leviticus column puts 'bodies burned' before 'he comes out' (text: v24 before v27); live goat <-> Heb 10:17 is the study's own pairing"
+    - "John 19:37 (and Rev 1:7) apply Zech 12:10 to Jesus; the study assumes the identification without citing them"
+    - "Heb 9:28 'those eagerly waiting' are Hebrews' believers; placing it under 'The day still ahead for Israel' may blur church/Israel"
+    - "Numbers 29:7-11 and Hebrews 4:16 in bible_references but never cited in the body"
+    - "Heb 10:17 quotes Jer 31:34; Jeremiah 31 not named (review_gaps)"
+  status_after: "draft: true kept; no commit"
+post_review_2026-10-02: >-
+  Applied all five judgment calls from review: diagram Leviticus column put in 16:24-before-16:27
+  order, Hebrews column unlinked (~~~) with the live-goat pairing now "Sin put away by His sacrifice"
+  (Heb 9:26) and verses cited; John 19:37 and Revelation 1:7 cited for Zech 12:10; Heb 9:28 marked as
+  a promise to believers before turning to Israel; Heb 4:16 cited in Attitude, Num 29:7-11 dropped;
+  Heb 10:17 marked as quoting Jer 31:34. Diagram 456px; validator clean.

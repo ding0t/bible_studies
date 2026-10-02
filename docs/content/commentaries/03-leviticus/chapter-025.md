@@ -16,6 +16,7 @@ draft: false
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 25:9
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 25:8-13
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 25:8-13
+- [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 25:9
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 25:23-25
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 25:8-12
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 25:8-13

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Faith](../../salvation/faith.md) — 12:8
+- [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 12:9
 <!-- commentary-index:auto-end -->

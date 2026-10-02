@@ -15,7 +15,7 @@ draft: false
 - [Chapter 1](chapter-001.md) — 9 study(ies)
 - [Chapter 2](chapter-002.md) — 4 study(ies)
 - [Chapter 3](chapter-003.md) — 1 study(ies)
-- [Chapter 4](chapter-004.md) — 9 study(ies)
+- [Chapter 4](chapter-004.md) — 10 study(ies)
 - [Chapter 5](chapter-005.md) — 8 study(ies)
 - [Chapter 6](chapter-006.md) — 9 study(ies)
 - [Chapter 7](chapter-007.md) — 1 study(ies)
@@ -38,6 +38,6 @@ draft: false
 - [Chapter 24](chapter-024.md) — 19 study(ies)
 - [Chapter 25](chapter-025.md) — 12 study(ies)
 - [Chapter 26](chapter-026.md) — 10 study(ies)
-- [Chapter 27](chapter-027.md) — 6 study(ies)
+- [Chapter 27](chapter-027.md) — 7 study(ies)
 - [Chapter 28](chapter-028.md) — 9 study(ies)
 <!-- commentary-index:auto-end -->

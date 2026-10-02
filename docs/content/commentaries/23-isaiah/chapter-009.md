@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 9:7
+- [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 9:2
 <!-- commentary-index:auto-end -->

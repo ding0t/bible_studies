@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 8:8
+- [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 8:14-18
 <!-- commentary-index:auto-end -->

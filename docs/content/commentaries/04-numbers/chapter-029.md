@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 29:1-6
+- [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 29:12-38
 <!-- commentary-index:auto-end -->

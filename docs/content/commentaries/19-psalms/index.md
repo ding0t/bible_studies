@@ -77,7 +77,7 @@ What types are seen as shadows of a truth.
 - [Chapter 99](chapter-099.md) — 1 study(ies)
 - [Chapter 100](chapter-100.md) — 1 study(ies)
 - [Chapter 102](chapter-102.md) — 3 study(ies)
-- [Chapter 103](chapter-103.md) — 1 study(ies)
+- [Chapter 103](chapter-103.md) — 2 study(ies)
 - [Chapter 104](chapter-104.md) — 1 study(ies)
 - [Chapter 105](chapter-105.md) — 1 study(ies)
 - [Chapter 106](chapter-106.md) — 1 study(ies)

@@ -21,5 +21,6 @@ draft: false
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 19:25
 - [Passover: When I See the Blood](../../feasts/passover.md) — 19:14
 - [The Appointed Times](../../feasts/feasts.md) — 19:36
+- [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 19:37
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 19:31
 <!-- commentary-index:auto-end -->

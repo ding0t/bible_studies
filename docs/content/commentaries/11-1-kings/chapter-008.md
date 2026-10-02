@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 8:2
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 8:6-11
 <!-- commentary-index:auto-end -->

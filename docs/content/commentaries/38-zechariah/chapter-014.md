@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 14:16-19 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 14:16
 - [Charting End Times](../../last-things/prophecy-chart.md) — 14:4-5
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 14:4

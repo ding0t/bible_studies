@@ -14,5 +14,6 @@ draft: false
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 53:5
 - [Passover: When I See the Blood](../../feasts/passover.md) — 53:7
+- [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 53:6
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 53:4
 <!-- commentary-index:auto-end -->

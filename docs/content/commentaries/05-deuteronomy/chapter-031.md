@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 31:8
+- [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 31:10-13
 <!-- commentary-index:auto-end -->

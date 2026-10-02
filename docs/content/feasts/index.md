@@ -18,6 +18,14 @@ The biblical feasts, their Old Testament instruction, and New Testament fulfillm
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __The Day of Atonement: Once a Year, Once for All__
+
+    ---
+
+    Yom Kippur, the one day the high priest carried blood behind the veil to the mercy seat and sent Israel's sins away on a goat. What Leviticus 16 commanded, what the two goats meant, how Hebrews reads the day as Christ's once-for-all sacrifice, and the national day of mourning and cleansing the prophets still foresee for Israel.
+
+    [:octicons-arrow-right-24: Read](day-of-atonement.md)
+
 -   __The Appointed Times__
 
     ---
@@ -49,6 +57,14 @@ The biblical feasts, their Old Testament instruction, and New Testament fulfillm
     Passover is the night God judged Egypt and spared every house marked with a lamb's blood. What the feast commanded, what "pass over" means, how Israel kept it, and how the New Testament names Jesus as the Passover lamb, chosen, slain at the feast and without a broken bone.
 
     [:octicons-arrow-right-24: Read](passover.md)
+
+-   __Tabernacles: God Dwelling with His People__
+
+    ---
+
+    The Feast of Booths gathered Israel at the end of the harvest to live in shelters and rejoice before the LORD. What the feast commanded and remembered, what Jesus said at it about living water and light, and Zechariah's picture of every nation keeping it when the LORD is king over all the earth.
+
+    [:octicons-arrow-right-24: Read](tabernacles.md)
 
 -   __Feast of Trumpets: Yom Teruah__
 

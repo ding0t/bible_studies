@@ -58,12 +58,12 @@ studies:
   - order: 7
     slug: day-of-atonement
     path: docs/content/feasts/day-of-atonement.md
-    status: reviewed-ready
+    status: published
     passages: "Leviticus 16; Leviticus 23:26-32; Numbers 29:7-11; Hebrews 9:6-14, 24-28; 10:1-18; Zechariah 12:10-13:1; Romans 11:26-27"
   - order: 8
     slug: tabernacles
     path: docs/content/feasts/tabernacles.md
-    status: reviewed-ready
+    status: published
     passages: "Leviticus 23:33-43; Deuteronomy 16:13-15; Nehemiah 8:13-18; Zechariah 14:16-19; John 1:14; John 7:2, 37-39; 8:12; Revelation 7:9-17; 21:3"
   - order: 9
     slug: series-close
@@ -79,6 +79,7 @@ progress:
   - "2026-10-02: Chumney removed from trumpets.md (author: hold to authoritative sources). Firstfruits recommendations applied. Overview mermaid diagram (293px, rendered) and timeline links (#passion-week, #pentecost) added to feasts.md."
   - "2026-10-02: Chumney check (lost-tribes framework confirmed pp. 53-54; trumpets.md disclaimer made specific); Firstfruits open points investigated; Unleavened Bread drafted (validate clean)."
   - "2026-10-02: subagent passes done -- feasts.md reviewed (Firstfruits-date overclaim fixed); firstfruits.md reviewed + house format (draft, ready for author); trumpets.md reviewed + house format (published page, uncommitted). Open: Joshua 5:11 date question (firstfruits), Qumran column source (firstfruits), trumpet.md Leviticus 25:9 wording (last-things), Chumney b. RH 16b unchecked."
+  - "2026-10-02: Day of Atonement and Tabernacles published; all seven feast studies live."
   - "2026-10-02: Weeks, Day of Atonement, Tabernacles reviewed; Passover, Unleavened Bread, Weeks published (series list in feasts.md linked). Atonement and Tabernacles reviewed, awaiting author decision to publish."
   - "2026-10-02: existing studies (firstfruits, trumpets, feasts.md review) sent to subagents; Passover drafted (validate clean, strict build passes)."
   - "2026-10-02: last-supper-four-cups simplified (fork path); Psalm 118 material forked to jesus/psalm-118-road-to-gethsemane.md (draft)."

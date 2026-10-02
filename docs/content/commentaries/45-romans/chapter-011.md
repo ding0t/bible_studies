@@ -21,6 +21,7 @@ draft: false
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 11:26-27
 - [Know the Truth](../../christian-life/know-the-truth.md) — 11:1
 - [The Appointed Times](../../feasts/feasts.md) — 11:25-27
+- [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 11:25-27
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 11:26
 - [The Way](../../jesus/the-way.md) — 11:33
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 11:26

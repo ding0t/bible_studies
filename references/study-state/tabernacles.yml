@@ -1,0 +1,56 @@
+slug: "tabernacles"
+title: "Tabernacles: God Dwelling with His People"
+status: reviewed
+target_path: "docs/content/feasts/tabernacles.md"
+series: "references/study-state/feasts-series-2026-10.yml (study 8)"
+primary_passage: "Leviticus 23:33-43; John 7:37-39; Zechariah 14:16-19"
+thesis: >-
+  Booths gathered Israel after the harvest to live in shelters and rejoice, remembering God's
+  wilderness shelter; Jesus, the Word who tabernacled among us, offered the living water of the Spirit
+  at this feast; the prophets see every nation keeping it when the LORD is king over all the earth.
+word_budget: 4000
+evidence_checked:
+  - "sukkot H5521 31x; skenopegia G4634 1x (John 7:2); skene G4633 20x; skenoo G4637 5x (John 1:14; Rev 7:15; 12:12; 13:6; 21:3)"
+  - "Numbers 29:13-32 bulls 13,12,11,10,9,8,7 = 70; 29:36 one bull on day eight (ESV)"
+  - "b. Sukkah 55b (William Davidson): R. Elazar, 70 bulls = 70 nations, one bull = Israel"
+  - "m. Sukkah 4:9 water libation; 5:1 'never seen rejoicing'; 5:2-3 lamps in the Women's Court (Kulp, CC-BY; Sefaria CC0 version empty for Sukkah)"
+  - "ESV text of every quotation, study-notes.db"
+contested_marked:
+  - "Water and light ceremonies as the backdrop of John 7:37 and 8:12: Mishnah later than John; John silent"
+  - "Revelation 7 palm/shelter/water as feast echoes; Revelation 21:3 stated"
+  - "Millennial offerings at Booths (Zech 14): left open"
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", note: "John 7:37; John 8:12; Zech 14:16"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", note: "John 7:37 water rite; Zech 14:16"}
+  - {type: commentary, title: "NKJV Cultural Backgrounds Study Bible", note: "John 7:37-39 water-drawing ceremony"}
+last_updated: "2026-10-02"
+review_2026-10-02:
+  checked:
+    - "ESV text of every quotation re-queried from study-notes.db (Lev 23:34-43; Exod 23:16; Num 29:12-38; Deut 16:13-15; 31:10-13; Hos 12:9; 1 Kgs 8:2; Ezra 3:4; Neh 8:14-18; John 1:14; 7:2-14, 37-39; 8:12-20; Isa 9:2; 12:3; Zech 14:8-19; Rev 7:9-17; 21:3): all verbatim"
+    - "Concordance: H5521 31 (macula-hebrew-wlc, lemma incl. singular); G4634 NT only John 7:2 (LXX Deut 16:16; 31:10; Zech 14:16, 18, 19); G4633 20; G4637 5 (John 1:14; Rev 7:15; 12:12; 13:6; 21:3)"
+    - "Numbers 29: 13+12+11+10+9+8+7 = 70 bulls; one bull day eight (29:36)"
+    - "m. Sukkah 4:9, 5:1, 5:2, 5:3 re-fetched via sefaria.py, Kulp (CC-BY): quotations verbatim"
+    - "b. Sukkah 55b (Davidson, chapter 110:9): 'the seventy nations of the world' verbatim; one bull = Israel"
+    - "Notes: ESV SB Zech 14:16 (broadens to those beyond Israel's bounds; cites Ezek 46:9-12); NIV BTSB John 7:37 (water rite); NIV CBSB John 8:12 (lighting ceremony) confirms"
+    - "Siblings: feasts.md, trumpets.md, day-of-atonement.md, new-jerusalem.md (Ezek 40-48 read as millennial), statement-of-faith End times: consistent"
+  fixed:
+    - "'the prophets see' -> 'Zechariah sees' (intro, In one sentence, description): only Zechariah has the nations keeping Booths"
+    - "'the one feast Scripture names as kept in that age' false on the site's own reading of Ezek 40-48: Ezek 45:21-25 keeps Passover and the seventh-month feast; reworded"
+    - "KT 'Fulfilment, named' -> 'by shared vocabulary': John 1:14 does not name the feast (series stated/inferred convention)"
+    - "Revelation table/sentence: 'never names the feast, so the first three are echoes' -> all four; Rev 21:3 row relabelled"
+    - "Mishnah AD 200 sentence was a non sequitur; caveat restored (post-temple record)"
+    - "'the Scripture behind it includes Isaiah 12:3' was unmarked; now John does not name it, Zech 14:8 and Isa 12:3 as candidates"
+    - "Isaiah 9:2 'light God promised' now cites Matthew 4:14-16 for the application to Jesus"
+    - "Discussion Q1 quoted 'tabernacled' as if text; now ESV 'dwelt'"
+    - "bible_references += Matthew 4:14-16, Ezekiel 45:21-25"
+  judgment_calls_open:
+    - "Zech 14 millennial reading is marked as the site's but gives no case for the other side (NIV BTSB Zech 14:16 reads the feast as fulfilled in Christ, Col 2:16-17)"
+    - "Davidson Talmud is CC-BY-NC; series convention says open-licence Jewish sources only (brief quote permitted under restricted-nc)"
+    - "John 7:38 punctuation fork (whose heart: believer's or Christ's; NLT footnote) undisclosed; argument does not turn on it"
+    - "Neh 8:17 'had not done so' sits beside Ezra 3:4 keeping Booths with no comment"
+    - "σκηνή listed in References but never used in prose"
+post_review_2026-10-02: >-
+  Judgment call 1 applied: Zechariah 14 reading marked contested, with the NIV BTSB "in Christ" view
+  and Col 2:17 given before the site's millennial reading and its reasons (place, "year after year",
+  no-rain penalty, Zech 14:9). Call 6 applied (style phrases). Calls 2 (Davidson CC-BY-NC quote, kept,
+  precedent in copyright.md), 3, 4, 5 left for the author.

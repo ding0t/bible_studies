@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Fasting](../../christian-life/fasting.md) — 27:9
+- [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 27:9
 <!-- commentary-index:auto-end -->

@@ -27,6 +27,7 @@ draft: false
 - [Chapter 40](chapter-040.md) — 4 study(ies)
 - [Chapter 43](chapter-043.md) — 1 study(ies)
 - [Chapter 44](chapter-044.md) — 1 study(ies)
+- [Chapter 45](chapter-045.md) — 1 study(ies)
 - [Chapter 47](chapter-047.md) — 3 study(ies)
 - [Chapter 48](chapter-048.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

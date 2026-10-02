@@ -19,6 +19,7 @@ draft: false
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 4:20
 - [Simon Peter](../../biblical-figures/peter.md) — 4:18-20
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:19
+- [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 4:14-16
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 4:18-22
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 4:17
 <!-- commentary-index:auto-end -->
