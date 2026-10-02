@@ -21,4 +21,5 @@ draft: false
 - [Know the Truth](../../christian-life/know-the-truth.md) — 3:1
 - [Pride](../../sin/pride.md) — 3:5
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 3:17
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 3:1-5
 <!-- commentary-index:auto-end -->

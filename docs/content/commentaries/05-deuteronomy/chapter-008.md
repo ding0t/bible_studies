@@ -17,4 +17,5 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 8:2-3
 - [In Humility](../../christian-life/humility.md) — 8:2-3
 - [Pride](../../sin/pride.md) — 8:11-17
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:3
 <!-- commentary-index:auto-end -->

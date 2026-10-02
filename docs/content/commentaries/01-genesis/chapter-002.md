@@ -24,5 +24,6 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 2:24
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 2:9-10
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:24
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 2:16-17
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:7
 <!-- commentary-index:auto-end -->

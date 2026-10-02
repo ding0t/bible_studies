@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:28-29
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 2:24
 <!-- commentary-index:auto-end -->

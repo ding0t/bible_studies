@@ -101,7 +101,7 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
 
     ---
 
-    Six well-known verses read back into their paragraphs: how each is usually quoted, what it says in context, and the study on this site that works it through. Read where they stand, each gives you more of Jesus than its slogan does.
+    Eight well-known church sayings read back into their paragraphs: how each is usually quoted, what it says in context, and where to read more. The pattern goes back to Eden's "Did God actually say?" Read where they stand, each verse gives you more of Jesus than its slogan does.
 
     [:octicons-arrow-right-24: Read](verses-often-misquoted.md)
 

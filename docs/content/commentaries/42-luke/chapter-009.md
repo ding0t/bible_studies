@@ -19,4 +19,5 @@ draft: false
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 9:28-33
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 9:28-33
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 9:22
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 9:23-24
 <!-- commentary-index:auto-end -->

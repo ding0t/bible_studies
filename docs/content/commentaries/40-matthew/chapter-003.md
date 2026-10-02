@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Way](../../jesus/the-way.md) — 3:3
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 3:17
 <!-- commentary-index:auto-end -->

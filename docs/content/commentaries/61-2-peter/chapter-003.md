@@ -19,4 +19,5 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 3:1-14
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 3:7-13
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 3:3-13
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 3:16
 <!-- commentary-index:auto-end -->

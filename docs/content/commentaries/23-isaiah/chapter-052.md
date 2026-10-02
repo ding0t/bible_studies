@@ -17,4 +17,5 @@ draft: false
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 52:7
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 52:1
 - [The Restrainer](../../last-things/the-restrainer.md) — 52:11
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 52:5
 <!-- commentary-index:auto-end -->

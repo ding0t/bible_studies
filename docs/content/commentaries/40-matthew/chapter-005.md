@@ -19,5 +19,6 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 5:13-14
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 5:17-20
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 5:35
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 5:33-37
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 5:3
 <!-- commentary-index:auto-end -->

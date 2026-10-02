@@ -96,4 +96,27 @@ resources_consulted:
   - {type: commentary, title: "NLT Life Application Study Bible", author: Tyndale, note: "Reads 18:19 as prayer generally -- the other side of the contested point."}
   - {type: other, title: "Mishnah Avot 3:2", author: "Joshua Kulp, Mishnah Yomit (Sefaria, CC-BY)", note: "Verified via Sefaria API 2026-10-01."}
   - {type: other, title: "bible-text.db", author: "MACULA SBLGNT, unfoldingWord ULT/UGNT, KJV", note: "Counts and interlinear."}
+revisions:
+  - date: "2026-10-01"
+    brief: 'backlog.md "### Edits to docs/content/scripture/verses-often-misquoted.md"'
+    changes: >-
+      One-line "have you heard" teaser opening the page. New "Did God actually say?" section:
+      Genesis 2:16-17 vs 3:1-4 (serpent inflates the ban, woman adds "touch", serpent contradicts;
+      NIV BTSB on 3:3 for who added "touch"), Satan's accurate Psalm 91 quotation at Matthew 4:6
+      (linked to how-to-read-the-bible.md, not repeated; Luke 4:10 keeps "to guard you", so no
+      omission argument), 2 Peter 3:16. New entry Mark 8:34 "Take up your cross" under Promises
+      made smaller: Mark 8:31-35 context, aparneomai/airo, Luke 9:23 daily, Luke 14:27 bastazo as
+      the source of "cross to bear", John 19:17, Galatians 2:20; verdict fair when suffered for
+      following Jesus, out of context for any hardship. No full study exists for it yet.
+      Author's brief said Satan quoted Scripture in "stones to bread"; corrected to the temple
+      temptation (in the stones temptation Jesus quotes Deuteronomy 8:3). Matthew 18:20 entry
+      already made the author's point; left unchanged. Author's "another one..." filled with Exodus 20:7 at the author's request:
+      nasa (lift/carry) + lashav (H7723, emptiness/falsehood), same pair in Psalm 24:4, lashav for the
+      false witness of Deuteronomy 5:20; Leviticus 19:12 oath; Numbers 6:27 the name put on Israel;
+      Jeremiah 14:14; James 2:7; Romans 2:24 (Isaiah 52:5); Matthew 5:37. ESV SB and NIV BTSB both
+      read it primarily as false oaths. "Promises made smaller" renamed "Verses made smaller" (no
+      inbound links to the old anchor). Wilderness subsection added to "Did God actually say?":
+      Matthew 3:17 vs 4:3, 6 "If you are the Son of God" (NIV CBSB on 4:6 makes the same link),
+      Psalm 91 at the temple; omission argument deliberately not made (Luke 4:10 keeps "to guard
+      you"). Trimmed to 4,000 words.
 last_updated: "2026-10-01"

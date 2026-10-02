@@ -16,4 +16,5 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 14:28
 - [In Humility](../../christian-life/humility.md) — 14:11
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 14:5
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 14:27
 <!-- commentary-index:auto-end -->

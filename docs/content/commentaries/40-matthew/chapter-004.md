@@ -21,5 +21,6 @@ draft: false
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:19
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 4:14-16
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 4:18-22
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:1-11
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 4:17
 <!-- commentary-index:auto-end -->
