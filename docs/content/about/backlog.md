@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-01
+date_modified: 2026-10-02
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -26,48 +26,6 @@ than a study topic.
 
 Add new items here. They get a number and move into their section.
 
-### Forgiveness
-
-- what is biblical forgiveness
-- avoiding errors and guilt in forgivness as a christian
-- when forgivenes sis not warranted biblically
-- love is differnt to forgiveness
-
-### Fixes found by the 2026-10-01 reviews
-
-- [Christians and Deliverance Ministry](../spiritual-beings/deliverance/christians-and-deliverance.md)
-  puts δαιμονίζομαι in John 10:20, where the Greek is δαιμόνιον ἔχει; the verb is in 10:21. Its
-  κολαφίζω argument ("Scripture had the vocabulary ... It uses a different word entirely") rests on
-  one occurrence; the verb is used five times, four of literal blows.
-- [As the Snake Was Lifted Up](../jesus/as-the-snake-was-lifted.md) states the manner reading of
-  οὕτως in John 3:16 as settled; the CSB, LSB and NLT footnotes split both ways. Mark it contested,
-  as [Verses Quoted Well](../scripture/verses-quoted-well.md) does.
-
-### Memory verses - in hebrew
-
-- a couple of key verses to learn in original hebrew, like gen 1:1 
-
-### learn hebrew
-
-- expand the material for aleph beth - do the first week, the words, the link to the videos
-- make sure you have some material on learning the alphabet etc, basics
-
-### Tribulation period
-
-all the events in order for the period of daniels 70th week, the time of jacobs trouble
-
-- what this period purpose is
-- where is the church
-- where is israel
-- will there be saints in the tribulation
-
-### Fix the fasting study 
-
-
-When to fast "Break spiritual strongholds" is reading like deliverance ministry
-
-- needs a rewrite
-
 ## Quick reference
 
 | Ref | Topic | Section |
@@ -76,8 +34,10 @@ When to fast "Break spiritual strongholds" is reading like deliverance ministry
 | [0.5](#05-a-blog) | A blog | Site features |
 | [0.6](#06-pop-up-follow-ups) | Pop-up follow-ups | Site features |
 | [0.7](#07-review-the-older-studies) | Review the older studies | Site features |
+| [0.8](#08-fixes-found-by-reviews) | Fixes found by reviews | Site features |
 | [1.1](#11-extra-biblical-texts) | Extra-biblical texts | Scripture |
 | [1.2](#12-typed-scripture-links) | Typed scripture links | Scripture |
+| [1.3](#13-learning-hebrew) | Learning Hebrew | Scripture |
 | [2.1](#21-prophecy-and-jesus) | Prophecy and Jesus | Jesus |
 | [2.3](#23-jesus-attitude-toward-women) | Jesus' attitude toward women | Jesus |
 | [2.4](#24-the-feedings-and-the-hardened-hearts) | The feedings and the hardened hearts | Jesus |
@@ -88,14 +48,16 @@ When to fast "Break spiritual strongholds" is reading like deliverance ministry
 | [5.5](#55-the-age-to-come) | The age to come | Last things |
 | [5.6](#56-they-were-given-white-robes) | They were given white robes | Last things |
 | [5.7](#57-heaven-and-earth-by-fire) | Heaven and earth by fire | Last things |
-| [6.1](#61-appointed-times-overarching) | Appointed times (overarching) | Feasts |
-| [6.2](#62-individual-feast-studies) | Individual feast studies | Feasts |
+| [5.9](#59-the-tribulation-period) | The tribulation period | Last things |
 | [8.1](#81-mirror-the-unfoldingword-sources) | Mirror the unfoldingWord sources | Sources & tooling |
 | [8.2](#82-chronology-follow-ups) | Chronology follow-ups | Sources & tooling |
 | [9.1](#91-calling-good-evil-and-evil-good) | Calling good evil and evil good | Sin |
 | [9.2](#92-sexual-immorality) | Sexual immorality | Sin |
 | [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
 | [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
+| [10.6](#106-run-the-race) | Run the race | Christian life |
+| [10.7](#107-forgiveness) | Forgiveness | Christian life |
+| [10.8](#108-fasting-a-rewrite) | Fasting: a rewrite | Christian life |
 
 Finished items move to [Completed](#completed) at the foot of the page and keep their numbers, so
 an old reference still points at the right thing.
@@ -180,8 +142,9 @@ What the pop-ups (0.1 and 0.2) left undone.
 
 ### 0.7 Review the older studies
 
-About 70 hand-written studies are live, and 18 have had a review-bible-study pass since
-2026-09-24 (The Rapture of the Church on 2026-09-28, Genealogy and Times on 2026-09-30). Nearly every page lists `anthropic/claude-opus-5.5` in its provenance, but that
+About 70 hand-written studies are live, and 19 have had a review-bible-study pass since
+2026-09-24 (The Rapture of the Church on 2026-09-28, Genealogy and Times on 2026-09-30,
+Melchizedek on 2026-10-02 after its rewrite). Nearly every page lists `anthropic/claude-opus-5.5` in its provenance, but that
 records the site-wide sweeps (pop-ups, Key Takeaways) rather than reviews. A review counts when it
 is recorded as a dated `review_` block in the study's state file. Work through the list in batches
 of about four, and record each review in the state file.
@@ -211,12 +174,27 @@ of about four, and record each review in the state file.
     [The Woman Who Touched the Fringe](../jesus/woman-with-the-issue-of-blood.md).
   - [Paul](../biblical-figures/paul.md) and the ten short apostle pages.
   - [Fasting](../christian-life/fasting.md), written with Sonnet 4.5. The humility study links to it.
-- **Priority 3: reviewed before 2026-09-24 and stable since.** The Way, Melchizedek Priesthood, The
-  Trumpet Call of God, The Twelve, Assurance of Salvation, The Last Supper's Four Cups, Three Days
+    It needs a rewrite first; see [10.8](#108-fasting-a-rewrite).
+- **Priority 3: reviewed before 2026-09-24 and stable since.** The Way, The Trumpet Call of God, The Twelve, Assurance of Salvation, The Last Supper's Four Cups, Three Days
   and Three Nights, The Lord's Prayer, Prayer as Communion.
 - **Not reviews.** [Sin and Sexual Immorality](../sin/sexual-immorality.md) (28 words) and
   [Sin and Idolatry](../sin/idolatry.md) (185 words) are stubs and need a develop pass. For the first, see
   [9.2](#92-sexual-immorality). The pride study links to Idolatry.
+
+### 0.8 Fixes found by reviews
+
+Errors found in passing that no one has fixed yet.
+
+- [Christians and Deliverance Ministry](../spiritual-beings/deliverance/christians-and-deliverance.md)
+  puts δαιμονίζομαι in John 10:20, where the Greek is δαιμόνιον ἔχει; the verb is in 10:21. Its
+  κολαφίζω argument ("Scripture had the vocabulary ... It uses a different word entirely") rests on
+  one occurrence; the verb is used five times, four of literal blows. (Review of 2026-10-01.)
+- [As the Snake Was Lifted Up](../jesus/as-the-snake-was-lifted.md) states the manner reading of
+  οὕτως in John 3:16 as settled; the CSB, LSB and NLT footnotes split both ways. Mark it contested,
+  as [Verses Quoted Well](../scripture/verses-quoted-well.md) does. (Review of 2026-10-01.)
+- **Paul is missing from the Biblical Figures sidebar.** `biblical-figures/.pages` lists the Twelve
+  and has no `...`, so `paul.md` is left out of the nav; his card still shows on the section page.
+  Add `- paul.md` after the Twelve, or `- ...`. (Found 2026-10-02.)
 
 ## 1. Scripture
 
@@ -394,6 +372,15 @@ existing commentary index immediately.
 - A graph database. At this scale SQLite with an `edge_type` column is sufficient; a graph store
   would have to earn its place later.
 - A hand-built theme taxonomy, when semantic domains and the existing tag facets already exist.
+
+### 1.3 Learning Hebrew
+
+- **Memory verses in Hebrew.** A few key verses to learn in the original, like Genesis 1:1, which
+  [Verses Quoted Well](../scripture/verses-quoted-well.md) already gives with its Hebrew and
+  pronunciation.
+- **The aleph-bet.** Expand the material on [Hebrew Learning
+  Resources](../resources/hebrew-learning-resources.md): the first week, the words, and the link to
+  the videos. Make sure there is material on the basics, such as learning the alphabet.
 
 ## 2. Jesus
 
@@ -661,27 +648,17 @@ the Olivet Discourse, published 2026-09-28) places it in two paragraphs ("Where 
   (Revelation 21), and [5.5 The age to come](#55-the-age-to-come), which may belong in the same
   study.
 
-## 6. Feasts
+### 5.9 The tribulation period
 
-### 6.1 Appointed times (overarching)
+All the events of Daniel's seventieth week, the time of Jacob's trouble, in order.
 
-- The seasons — spring and fall feasts, and the pattern of the Leviticus 23 sequence
-- The meaning of each feast
-- Where each has already been fulfilled (first coming) vs. what's still awaited (second coming)
-- Plan: one overarching study covering the whole appointed-times pattern, then a dedicated study
-  per feast (6.2)
-
-### 6.2 Individual feast studies
-
-- [ ] Passover (Pesach)
-- [ ] Unleavened Bread
-- [ ] Firstfruits — drafted, in review (`feasts/firstfruits.md`). When it is published, add it back
-  to "On this site" in [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md), which
-  dropped the link because a published page cannot link a draft
-- [ ] Weeks / Pentecost (Shavuot)
-- [x] Trumpets (Yom Teruah) — [published](../feasts/trumpets.md)
-- [ ] Day of Atonement (Yom Kippur)
-- [ ] Tabernacles (Sukkot)
+- What the period is for
+- Where the church is
+- Where Israel is
+- Whether there will be saints in the tribulation
+- **Links:** [5.1](#51-tribulation-perspectives) and [5.2](#52-end-times),
+  [The Rapture of the Church](../last-things/rapture.md) and
+  [The Restrainer](../last-things/the-restrainer.md).
 
 ## 8. Sources & tooling
 
@@ -774,7 +751,7 @@ self-effort offers a moral code to live by instead.
 
 ### 10.4 "I stand at the door and knock"
 
-> ✝️ [Revelation 3:20 (ESV)](https://www.blueletterbible.org/esv/rev/3/20)
+> ✝️ Revelation 3:20 (ESV)
 >
 > 20 Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come
 > in to him and eat with him, and he with me.
@@ -791,13 +768,43 @@ heart that opens the door.
 - **Links:** 10.3 (religion and a contrite heart), [The Way](../jesus/the-way.md), and
   [Faith](../salvation/faith.md#the-door-at-laodicea), which reads the verse as the door faith opens.
 
+### 10.6 Run the race
+
+**Drafted** as `christian-life/run-the-race.md` (still a draft, so not linked until it is
+published). Check the draft against these notes before it is published.
+
+We come to Christ at His invitation, for rest. His burden is light, far lighter than the burden of
+salvation through works (Matthew 11:28-30). So why do Christians grow weary? How do we run the race
+with endurance (Hebrews 12:1), set our faces like flint (Isaiah 50:7), and press on to take hold of
+that for which Christ took hold of us (Philippians 3:12)?
+
+- **What keeps us running:** meeting together and encouraging each other; prayer, as communion and
+  daily bread; living on the word.
+- **What does not:** doing works to be seen as pious; fasting to earn life; taking in all the news
+  and troubles of the world, the cares of life that choke the seed. In short, everything that took
+  the word away in the parable of the sower.
+- **Proverbs:** guard your heart and mind (Proverbs 4:23), and trust Him.
+
+### 10.7 Forgiveness
+
+- What biblical forgiveness is
+- Avoiding error and false guilt about forgiveness as a Christian
+- When forgiveness is not warranted biblically
+- How love differs from forgiveness
+
+### 10.8 Fasting: a rewrite
+
+In [Fasting](../christian-life/fasting.md), the "Break spiritual strongholds" part of *When to
+fast* reads like deliverance ministry. The study needs a rewrite before its review in
+[0.7](#07-review-the-older-studies).
+
 ## Completed
 
 Kept here so that an old reference like "work on 3.1" still resolves.
 
 | Ref | Item | Now |
 |---|---|---|
-| 2.2 | Priest of the order of Melchizedek | [Jesus, Priest in the Order of Melchizedek](../jesus/melchizedek-priesthood.md) |
+| 2.2 | Priest of the order of Melchizedek | [Jesus, Priest in the Order of Melchizedek](../jesus/melchizedek-priesthood.md); rewritten 2026-10-02 to say what a priest is and what "the order" means before the evidence |
 | 3.1 | Nephilim | [The Nephilim](../spiritual-beings/nephilim.md) |
 | 4.1 | Assurance of salvation | [Assurance of Salvation](../salvation/assurance-of-salvation.md) |
 | 4.3 | Faith | [Faith](../salvation/faith.md) |
@@ -814,3 +821,7 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 10.2 | Where two or three are gathered | [Where Two or Three Are Gathered](../israel-and-church/where-two-or-three-are-gathered.md) (Matthew 18:15-20), filed under the church because the passage is about the church dealing with a brother's sin; gives a verdict on each church use of the verse, with prayer alone and together, 2026-10-01 |
 | new | Commonly misquoted scripture | [Verses Often Misquoted](../scripture/verses-often-misquoted.md): 1 Peter 3:15, Matthew 18:20, John 8:32, 1 Corinthians 15:44, Mark 9:29 and "demonized" (Mark 5:15), each linked to its study, 2026-10-01 |
 | new | Well used scripture | [Verses Quoted Well](../scripture/verses-quoted-well.md): Genesis 1:1 (with the Hebrew and pronunciation), John 3:16 and Hebrews 11:1, 2026-10-01 |
+| 6.1 | Appointed times (overarching) | [The Appointed Times](../feasts/feasts.md), linking each feast to its own study; the Feasts section ordered by the calendar, 2026-10-02 |
+| 6.2 | Individual feast studies | [Passover](../feasts/passover.md), [Unleavened Bread](../feasts/unleavened-bread.md), [Firstfruits](../feasts/firstfruits.md), [Weeks](../feasts/weeks.md), [Trumpets](../feasts/trumpets.md), [Day of Atonement](../feasts/day-of-atonement.md) and [Tabernacles](../feasts/tabernacles.md), all published by 2026-10-02 |
+| 6.3 | The Lord's Supper | [The Lord's Supper: Do This in Remembrance of Me](../feasts/lords-supper.md), with two graphics; the [four-cups study](../feasts/last-supper-four-cups.md) now points its general communion material there, 2026-10-02 |
+| new | Edits to Verses Often Misquoted | [Verses Often Misquoted](../scripture/verses-often-misquoted.md) opens on common church sayings, adds "Did God actually say?" (the garden, the wilderness, the church), "Take up your cross" and a link to How to Read the Bible, 2026-10-02 |
