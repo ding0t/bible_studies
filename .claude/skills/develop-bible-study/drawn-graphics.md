@@ -12,7 +12,7 @@ Pick the kind before drawing. Each answers a different question and has its own 
 | **Sequence** | *When?* Events on a line of time, spans, the order of a series | `seven-thousand-years`, `seventy-weeks`, `two-stages-of-his-coming`, `end-of-the-ages`, `after-the-thousand-years`, the tribulation charts |
 | **Relationship** | *How does it fit together?* Nesting, correspondence, comparison, one thing inside or beside another | `weeks-within-weeks`, `eighth-day`, `six-days-three-ages`, `taken-before-judgment`, Larkin's "Jew, Gentile and Church" |
 | **Pattern** | *What was it?* An object or place drawn as the text specifies it, to its measures | `sanctuary-lampstand`, `sanctuary-ark`, `sanctuary-incense-altar`, `new-jerusalem`, `new-jerusalem-scale` |
-| **Imagery** | *What did they see?* A scene the text describes vividly, dramatised, with every detail in place | `tribulation/sea-to-blood` |
+| **Imagery** | *What did they see?* A scene the text describes vividly, dramatised, with every detail in place | `tribulation/sea-to-blood`, `tribulation/four-horsemen` |
 
 **Sequence** charts descend from Clarence Larkin's dispensational charts (*Dispensational Truth*,
 1918; expanded 1920). **Pattern** takes its name from Scripture: Moses was to make the lampstand
@@ -116,6 +116,10 @@ and make the detail the drama. The reader should be able to check every element 
   and depth; layered paths at partial opacity for fire and smoke; repeated wave paths for water.
   Avoid `filter` effects unless the render check shows them working, and keep a plate under about
   150 KB. No raster images, no external fonts.
+- **A contested figure stays faceless and carries its dispute on the plate.** The first horseman
+  may be conquest, a false christ or Christ; `four-horsemen` draws him as a silhouette like the
+  others and puts the readings in a dashed note beside him. Draw what the text gives him, a bow
+  and a crown, and say what it leaves out (no arrows are named).
 - **Composition.** One focal point per scene. The scene first, with its numbered key directly
   below, then any comparison panels, then the closing verse. Callout circles sit on the scene edge
   or in open space, never over a detail they would hide.

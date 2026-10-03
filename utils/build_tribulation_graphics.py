@@ -849,6 +849,239 @@ def sea_to_blood():
     return "\n".join(out)
 
 
+# ---------------------------------------------------------------------------------------------
+# 6. The four horsemen: an Imagery plate (drawn-graphics.md). Riders are faceless silhouettes: the
+# first rider's identity is contested, and the plates draw no face for any figure.
+
+# A galloping horse facing right, drawn in a 180 x 110 box with its hooves near y = 100.
+HORSE = ("M132 44 C136 32 142 20 148 12 L150 2 L155 9 C162 12 170 20 176 28 C177 32 172 34 166 31 "
+         "L158 30 C154 36 150 42 150 50 C154 56 166 70 180 80 L182 86 L176 88 C164 80 152 72 144 66 "
+         "C142 76 146 88 146 98 L140 100 C136 90 132 80 128 72 C112 74 94 76 78 74 C80 84 88 92 88 100 "
+         "L82 102 C76 92 70 84 62 76 C52 80 34 90 20 94 L16 90 C30 82 42 74 48 64 C40 60 34 54 32 48 "
+         "C24 50 12 60 4 62 C8 52 18 40 30 36 C46 32 70 36 92 36 C108 36 122 38 132 44 Z")
+MANE = "M148 12 C140 18 134 30 128 42 C136 36 142 26 150 18 Z"
+
+
+def horse(x, y, fill, edge, s=1.0):
+    return (f'<g transform="translate({x} {y}) scale({s})">'
+            f'<path d="{HORSE}" fill="{fill}" stroke="{edge}" stroke-width="1.6" stroke-linejoin="round"/>'
+            f'<path d="{MANE}" fill="{edge}" opacity="0.55"/></g>')
+
+
+def rider(x, y, ink, s=1.0, arm=(-30,), dashed=False):
+    """A faceless rider seated at (x, y) on the horse's back; arm angle in degrees from horizontal."""
+    dash = ' stroke-dasharray="4 3"' if dashed else ""
+    a = math.radians(arm[0])
+    hx, hy = x + 8 + 26 * math.cos(a), y - 34 - 26 * math.sin(a)
+    return (f'<g transform="translate(0 0)" stroke="{ink}" stroke-linecap="round" fill="none"{dash}>'
+            f'<path d="M{x} {y} L{x + 6} {y - 40}" stroke-width="{9 * s}"/>'
+            f'<path d="M{x + 6} {y - 32} L{hx:.1f} {hy:.1f}" stroke-width="{5 * s}"/>'
+            f'<path d="M{x} {y} L{x + 10} {y + 18}" stroke-width="{6 * s}"/>'
+            f'<circle cx="{x + 8}" cy="{y - 52}" r="{8 * s}" fill="{ink}" stroke="none"/></g>'), (hx, hy)
+
+
+def dust(x0, y0, n=6, colour="#ffffff", opacity=0.25):
+    return [f'<path d="M{x0 - i * 22} {y0 - (i % 3) * 6} q-12 -6 -24 0" fill="none" stroke="{colour}" '
+            f'stroke-width="2.2" opacity="{opacity - i * 0.03:.2f}"/>' for i in range(n)]
+
+
+def four_horsemen():
+    bands = [
+        dict(n=1, name="THE WHITE HORSE", word="λευκός", strongs="G3022", gloss="white", ref="6:1-2",
+             sky=("#4a3f2a", "#e9d9a6"), horse=("#f5f1e6", "#7d7464"), ink="#2b2420", arm=10,
+             lines=["“a bow” · τόξον (G5115)", "“a crown was given to him” · στέφανος", "“conquering, and to conquer”"],
+             note="Who he is: contested. Conquest (ESV and NIV study notes); a false christ, as in Matthew 24:5; Christ, from 19:11. No arrows are named."),
+        dict(n=2, name="THE BRIGHT RED HORSE", word="πυρρός", strongs="G4450", gloss="fiery red", ref="6:3-4",
+             sky=("#2a1210", "#c4471c"), horse=("#b3241c", "#5a120e"), ink="#1c1310", arm=55,
+             lines=["“permitted to take peace from the earth”", "“that people should slay one another”",
+                    "“a great sword” · μάχαιρα μεγάλη"], note=""),
+        dict(n=3, name="THE BLACK HORSE", word="μέλας", strongs="G3189", gloss="black", ref="6:5-6",
+             sky=("#2f2f33", "#9a9690"), horse=("#1e1b1d", "#8a8070"), ink="#0f0d0e", arm=0,
+             lines=["“a pair of scales in his hand” · ζυγός", "“A quart of wheat for a denarius,",
+                    "and three quarts of barley for a denarius,", "and do not harm the oil and wine!”"],
+             note="A χοῖνιξ (choinix) is about a quart; a denarius a day’s wage (LSB, CSB footnotes)."),
+        dict(n=4, name="THE PALE HORSE", word="χλωρός", strongs="G5515", gloss="pale", ref="6:7-8",
+             sky=("#1d2420", "#8fa088"), horse=("#b9c3a6", "#5f6b55"), ink="#16201a", arm=-20,
+             lines=["“its rider’s name was Death” · Θάνατος", "“and Hades followed him”",
+                    "“authority over a fourth of the earth”"],
+             note="χλωρός: “greenish gray” (CSB footnote), the colour of corpses (ESV Study Bible). How Hades follows, on foot or horse, is not stated."),
+    ]
+    top, bh = 250, 210
+    h = top + len(bands) * bh + 560
+    out = svg_open(
+        h,
+        "The four horsemen",
+        "An illustrated plate of Revelation 6:1-8. Across the top, the scroll with seven seals, the "
+        "first four broken as the Lamb opens them, and the four living creatures each calling "
+        "'Come!'. Then four bands, one for each rider, each galloping under a sky in its own colour: "
+        "the white horse, its rider with a bow and a crown given to him, going out conquering, with a "
+        "dashed note that his identity is contested; the bright red horse, its rider given a great "
+        "sword and permission to take peace from the earth; the black horse, its rider holding a pair "
+        "of scales, with a quart of wheat or three of barley for a day's wage and the oil and wine "
+        "untouched; and the pale horse, its rider named Death, with Hades following, drawn dashed "
+        "because how he follows is not stated. Each band gives the Greek colour word. Below, a fourth "
+        "of the earth shaded, with the four means of death, sword, famine, pestilence and wild beasts, "
+        "beside Ezekiel 14:21's four judgments; and the horses' colours compared with Zechariah 1:8 "
+        "and 6:2-3. At the foot, 'was given' four times in eight verses: every rider rides by "
+        "permission.",
+    )
+    defs = ['<defs>']
+    for b in bands:
+        defs.append(f'<linearGradient id="fh-sky{b["n"]}" x1="0" y1="0" x2="1" y2="1">'
+                    f'<stop offset="0" stop-color="{b["sky"][0]}"/><stop offset="1" stop-color="{b["sky"][1]}"/>'
+                    f'</linearGradient>')
+        defs.append(f'<clipPath id="fh-band{b["n"]}"><rect x="30" y="0" width="390" height="{bh - 14}" rx="4"/></clipPath>')
+    defs.append('</defs>')
+    out.append("".join(defs))
+    out += heading("The Four Horsemen", "Revelation 6:1-8 · the first four seals")
+
+    # The scroll and its seals.
+    sy = 140
+    out.append(f'<rect x="150" y="{sy}" width="420" height="44" rx="6" fill="#efe2bf" stroke="{GOLD_EDGE}" stroke-width="1.5"/>')
+    out.append(f'<ellipse cx="150" cy="{sy + 22}" rx="12" ry="24" fill="#e2d0a2" stroke="{GOLD_EDGE}" stroke-width="1.5"/>')
+    out.append(f'<ellipse cx="570" cy="{sy + 22}" rx="12" ry="24" fill="#e2d0a2" stroke="{GOLD_EDGE}" stroke-width="1.5"/>')
+    for i in range(7):
+        cx = 205 + i * 52
+        broken = i < 4
+        out.append(f'<circle cx="{cx}" cy="{sy + 22}" r="13" fill="{RED if broken else "#a3302a"}" '
+                   f'stroke="#5a120e" stroke-width="1.4" opacity="{0.55 if broken else 1}"/>')
+        if broken:
+            out.append(f'<path d="M{cx - 9} {sy + 13} L{cx + 2} {sy + 23} L{cx - 4} {sy + 26} L{cx + 9} {sy + 33}" '
+                       f'stroke="{PAPER}" stroke-width="2.2" fill="none"/>')
+            out.append(text(cx, sy + 60, str(i + 1), 12.5, "middle", "bold", fill=RED))
+    out.append(text(W / 2, sy - 14, "“the Lamb opened one of the seven seals” (6:1) · four living creatures, each: “Come!” Ἔρχου",
+                    12.5, "middle", italic=True, fill=MUTED))
+    out.append(text(W / 2, sy + 82, "the first “with a voice like thunder” (6:1)", 12, "middle", italic=True, fill=MUTED))
+
+    # The four riders.
+    for k, b in enumerate(bands):
+        y0 = top + k * bh
+        out.append(f'<g transform="translate(0 {y0})">')
+        out.append(f'<g clip-path="url(#fh-band{b["n"]})">')
+        out.append(f'<rect x="30" y="0" width="390" height="{bh - 14}" fill="url(#fh-sky{b["n"]})"/>')
+        out.append(f'<path d="M30 {bh - 40} Q150 {bh - 52} 260 {bh - 42} T420 {bh - 46} V{bh} H30 Z" fill="#000" opacity="0.28"/>')
+        out += dust(150, bh - 50, colour="#ffffff", opacity=0.35)
+        hs = 1.18
+        hx, hy = 130, bh - 34 - 100 * hs
+        if b["n"] == 4:   # Hades, following: a dashed shadow, its manner not stated
+            out.append(f'<g opacity="0.55">{horse(hx - 112, hy + 14, "none", "#0d0d0d", 0.95)}</g>'.replace(
+                'stroke-linejoin="round"', 'stroke-linejoin="round" stroke-dasharray="5 4"'))
+            out.append(text(hx - 60, bh - 22, "Hades", 13, "middle", "bold", fill="#e8ecdf", italic=True))
+        out.append(horse(hx, hy, b["horse"][0], b["horse"][1], hs))
+        r, hand = rider(hx + 96 * hs, hy + 38 * hs, b["ink"], s=1.1, arm=(b["arm"],))
+        out.append(r)
+        hxh, hyh = hand
+        if b["n"] == 1:
+            out.append(f'<path d="M{hxh + 2} {hyh - 26} Q{hxh + 22} {hyh} {hxh + 2} {hyh + 26}" stroke="#5b4632" stroke-width="3" fill="none"/>')
+            out.append(f'<path d="M{hxh + 2} {hyh - 26} L{hxh + 2} {hyh + 26}" stroke="#5b4632" stroke-width="1"/>')
+            cxr, cyr = hx + 96 * hs + 8, hy + 38 * hs - 52
+            out.append(f'<ellipse cx="{cxr}" cy="{cyr - 7}" rx="11" ry="4" fill="none" stroke="{GOLD}" stroke-width="3.5"/>')
+            for d in (-8, -3, 3, 8):
+                out.append(f'<path d="M{cxr + d} {cyr - 9} l2 -6" stroke="{GOLD}" stroke-width="2.4"/>')
+        elif b["n"] == 2:
+            out.append(f'<path d="M{hxh} {hyh} L{hxh + 30} {hyh - 52}" stroke="#d9d9d9" stroke-width="5" stroke-linecap="round"/>')
+            out.append(f'<path d="M{hxh - 7} {hyh + 4} L{hxh + 7} {hyh - 4}" stroke="{GOLD_EDGE}" stroke-width="4"/>')
+        elif b["n"] == 3:
+            bx, by = hxh + 14, hyh - 4
+            out.append(f'<path d="M{hxh} {hyh} L{bx} {by - 12}" stroke="#c9c2b4" stroke-width="2"/>')
+            out.append(f'<path d="M{bx - 24} {by - 12} H{bx + 24}" stroke="#d8cfb8" stroke-width="2.5"/>')
+            for sx in (bx - 24, bx + 24):
+                out.append(f'<path d="M{sx} {by - 12} L{sx - 8} {by + 8} M{sx} {by - 12} L{sx + 8} {by + 8}" stroke="#d8cfb8" stroke-width="1.2"/>')
+                out.append(f'<path d="M{sx - 11} {by + 8} Q{sx} {by + 18} {sx + 11} {by + 8} Z" fill="#d8cfb8"/>')
+            # One measure of wheat, three of barley, beside a coin; oil and wine untouched.
+            gx, gy = 338, 30
+            out.append(f'<circle cx="{gx}" cy="{gy}" r="9" fill="#c9c9c9" stroke="#6b6b6b"/>')
+            out.append(text(gx, gy + 4, "1", 10, "middle", "bold"))
+            out.append(f'<rect x="{gx + 18}" y="{gy - 10}" width="14" height="18" rx="3" fill="#d9b55a" stroke="#8a6a2a"/>')
+            out.append(text(gx + 25, gy + 22, "wheat", 9.5, "middle", fill="#f3eee2"))
+            for j in range(3):
+                out.append(f'<rect x="{gx + 44 + j * 12}" y="{gy - 10}" width="10" height="18" rx="3" fill="#c7a873" stroke="#7a6038"/>')
+            out.append(text(gx + 61, gy + 22, "barley", 9.5, "middle", fill="#f3eee2"))
+            for j, (lab, col) in enumerate((("oil", "#c9a53a"), ("wine", "#6e1d33"))):
+                jx = gx + 22 + j * 34
+                out.append(f'<path d="M{jx} {gy + 34} q-10 8 -8 26 h16 q2 -18 -8 -26 z" fill="{col}" stroke="#2a2420" stroke-width="1"/>')
+                out.append(text(jx, gy + 72, lab, 9.5, "middle", fill="#f3eee2"))
+        out.append('</g>')
+        out.append(f'<rect x="30" y="0" width="390" height="{bh - 14}" rx="4" fill="none" stroke="{INK}" stroke-width="2"/>')
+        # Text column.
+        tx = 436
+        out += callout(b["n"], tx + 10, 18, r=12)
+        out.append(text(tx + 30, 23, b["name"], 14, weight="bold", spacing="1"))
+        out.append(text(tx + 30, 42, f'{b["word"]} ({b["strongs"]}), “{b["gloss"]}” · Rev {b["ref"]}', 12, italic=True, fill=MUTED))
+        y = 66
+        for ln in b["lines"]:
+            out.append(text(tx, y, ln, 12.5))
+            y += 18
+        if b["note"]:
+            words, rows, cur = b["note"].split(), [], ""
+            for w_ in words:
+                if len(cur) + len(w_) > 40:
+                    rows.append(cur)
+                    cur = w_
+                else:
+                    cur = (cur + " " + w_).strip()
+            rows.append(cur)
+            nh = 10 + 16 * len(rows)
+            out.append(f'<rect x="{tx - 4}" y="{y - 8}" width="258" height="{nh}" rx="4" fill="none" stroke="{MUTED}" stroke-dasharray="5 4"/>')
+            for i, rr in enumerate(rows):
+                out.append(text(tx + 4, y + 8 + i * 16, rr, 11.5, italic=True, fill=MUTED))
+        out.append('</g>')
+
+    # A fourth of the earth, and Ezekiel's four judgments.
+    py = top + len(bands) * bh + 30
+    out.append(text(30, py, "“A FOURTH OF THE EARTH” · REVELATION 6:8", 13, weight="bold", fill=MUTED, spacing="1.2"))
+    ex, ey, er = 110, py + 92, 62
+    out.append(f'<circle cx="{ex}" cy="{ey}" r="{er}" fill="{BLUE_TINT}" stroke="{INK}" stroke-width="1.5"/>')
+    out.append(f'<path d="M{ex} {ey} L{ex} {ey - er} A{er} {er} 0 0 1 {ex + er} {ey} Z" fill="#8a9a78" stroke="{INK}" stroke-width="1.5"/>')
+    out.append(text(ex + 26, ey - 22, "¼", 18, "middle", "bold"))
+    means = [("sword", "ῥομφαία"), ("famine", "λιμός"), ("pestilence", "θάνατος, lit. “death”"),
+             ("wild beasts", "θηρία")]
+    for i, (m, g) in enumerate(means):
+        out.append(text(200, py + 42 + i * 24, f"{i + 1}. {m}", 13, weight="bold"))
+        out.append(text(300, py + 42 + i * 24, g, 12, italic=True, fill=MUTED))
+    out.append(text(200, py + 148, "Ezekiel 14:21: “my four disastrous acts of judgment,", 12, italic=True))
+    out.append(text(200, py + 164, "sword, famine, wild beasts, and pestilence”", 12, italic=True))
+    out.append(text(200, py + 186, "The reach grows: seals a fourth, trumpets a third, bowls all (Revelation 8:7-12; 16:3).",
+                    11.5, italic=True, fill=MUTED))
+
+    # The colours before John.
+    cy0 = py + 210
+    out.append(text(30, cy0, "THE HORSES BEFORE JOHN", 13, weight="bold", fill=MUTED, spacing="1.2"))
+    sw = {"white": "#f5f1e6", "red": "#b3241c", "sorrel": "#a0522d", "black": "#1e1b1d",
+          "dappled": "url(#fh-dapple)", "pale": "#b9c3a6"}
+    out.append('<defs><pattern id="fh-dapple" width="10" height="10" patternUnits="userSpaceOnUse">'
+               '<rect width="10" height="10" fill="#d7d2c4"/><circle cx="3" cy="3" r="2.2" fill="#6b6458"/>'
+               '<circle cx="8" cy="7" r="1.6" fill="#6b6458"/></pattern></defs>')
+    rows = [("Zechariah 1:8", "patrolling the earth", ["red", "red", "sorrel", "white"]),
+            ("Zechariah 6:2-3", "chariots to the four winds", ["red", "black", "white", "dappled"]),
+            ("Revelation 6:2-8", "riders loosed by the seals", ["white", "red", "black", "pale"])]
+    for i, (ref, what, cols) in enumerate(rows):
+        y = cy0 + 30 + i * 52
+        out.append(text(30, y + 6, ref, 13, weight="bold"))
+        out.append(text(30, y + 23, what, 12, italic=True, fill=MUTED))
+        for j, c in enumerate(cols):
+            x = 250 + j * 108
+            out.append(f'<rect x="{x}" y="{y - 12}" width="96" height="28" rx="4" fill="{sw[c]}" stroke="{INK}" stroke-width="1.2"/>')
+            dark = c in ("red", "sorrel", "black")
+            label = "red, ridden" if (i == 0 and j == 0) else c
+            out.append(text(x + 48, y + 6, label, 11 if len(label) > 10 else 12.5, "middle", "bold",
+                            fill=PAPER if dark else INK))
+
+    # Close: every power here is given.
+    vy = cy0 + 210
+    out.append(f'<path d="M80 {vy - 26} H{W - 80}" stroke="{INK}" stroke-width="0.8"/>')
+    out.append(text(W / 2, vy, "ἐδόθη, “was given”: four times in eight verses (6:2, 4, 4, 8)", 14.5, "middle", "bold"))
+    out.append(text(W / 2, vy + 22, "The Lamb opens every seal, and every rider rides by permission.", 13.5, "middle", italic=True))
+    ly = h - 70
+    c, _ = card(40, ly, 230, ["The text states it"], "", size=13)
+    out += c
+    c, _ = card(295, ly, 330, ["Not stated, or a contested reading"], "", dashed=True, size=13)
+    out += c
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def lines_at_local(x, y, rows, size=13, lh=17):
     return [text(x, y + i * lh, r, size, italic=True) for i, r in enumerate(rows)]
 
@@ -857,7 +1090,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for name, fn in (("seventieth-week", seventieth_week), ("judgments-unfolded", judgments_unfolded),
                      ("week-in-days", week_in_days), ("church-and-saints", church_and_saints),
-                     ("sea-to-blood", sea_to_blood)):
+                     ("sea-to-blood", sea_to_blood), ("four-horsemen", four_horsemen)):
         (OUT / f"{name}.svg").write_text(fn() + "\n", encoding="utf-8")
         print(f"wrote {name}.svg")
 

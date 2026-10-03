@@ -294,6 +294,8 @@ text does not date them, and the chart draws them dashed. One objection deserves
 seal's darkened sun and falling stars (Revelation 6:12-13) are the signs Jesus puts "immediately after
 the tribulation" (Matthew 24:29, ESV), so some readers set the sixth seal at the end of the week.
 
+[![The four horsemen of Revelation 6:1-8. Across the top, the scroll with seven seals, the first four broken as the Lamb opens them, and each of the four living creatures calling "Come!". Four bands follow, each rider galloping under a sky in his horse's colour: the white horse, its rider with a bow and a crown given to him, going out conquering, with a dashed note that his identity is contested; the bright red horse, its rider given a great sword to take peace from the earth; the black horse, its rider holding a pair of scales, a quart of wheat or three of barley for a day's wage, the oil and wine untouched; and the pale horse, its rider named Death, with Hades following, drawn dashed because how he follows is not stated. Below, a fourth of the earth with sword, famine, pestilence and wild beasts, beside Ezekiel 14:21; Zechariah's horses (Zechariah 1:8; 6:2-3) compared with John's; and "was given" four times in eight verses: every rider rides by permission.](../assets/img/tribulation/four-horsemen.svg)](../assets/img/tribulation/four-horsemen.svg)
+
 The fifth seal shows the martyrs under the altar, each given a white robe and told to rest "a little
 longer, until the number of their fellow servants and their brothers should be complete" (Revelation
 6:11, ESV). The sixth shakes the sky. Then, before the four winds are let loose on the earth, an angel orders a halt
