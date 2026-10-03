@@ -22,6 +22,7 @@ draft: false
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 4:13-18
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 4:17
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:16-18
+- [The End of the Age](../../last-things/end-of-the-age.md) — 4:17
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 4:13-18
 - [The Restrainer](../../last-things/the-restrainer.md) — 4:17
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 4:16-17

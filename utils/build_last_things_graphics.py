@@ -1,11 +1,12 @@
-"""Draw the Larkin-style charts for the last-things/ studies other than the tribulation study.
+"""Draw the Larkin-style charts for the last-things/ studies other than the tribulation study, and
+for the Zadok calendar page their chronology runs on (written to assets/img/feasts/).
 
 Same hand as utils/build_tribulation_graphics.py (both draw with utils/lib/larkin.py) and the same
 confidence code: a solid outline is dated or stated by the text, a dashed one is this site's
 inference. Each chart follows the study it sits in; if the study changes its reading, change the
 chart here and re-run from the repo root:
 
-    python3 utils/build_last_things_graphics.py            # all six
+    python3 utils/build_last_things_graphics.py            # all of them
     python3 utils/build_last_things_graphics.py seventy-weeks
 
 seven_thousand_years() reads its dates from docs/data/chronology.json, the site's one chronology,
@@ -766,6 +767,429 @@ def meeting_the_lord():
     return "\n".join(out)
 
 
+# ---------------------------------------------------------------------------------------------
+# 7. The end of the ages: one break expected, two points given (end-of-the-age.md)
+
+
+def end_of_the_ages():
+    h = 1060
+    out = svg_open(
+        h,
+        "The end of the ages",
+        "Two timelines. The first is the Jewish two-age frame of 1 Enoch 16:1 and 2 Esdras 7:43: this "
+        "age and the age to come, divided by one judgment. The second is the New Testament's: a red span "
+        "marked 'the end of the ages' opens at the cross, where Hebrews 9:26 and 1 Corinthians 10:11 say "
+        "it has already come, and closes at Christ's return after Daniel's seventieth week, the 'close "
+        "of the age' of Matthew 13:39-43 and 24:3. Between them runs the church age, under Matthew "
+        "28:20's promise, 'I am with you all the days, to the end of the age.' A dashed arc rises from "
+        "the end of the church age to the clouds, the rapture, placed by inference; a solid arc comes "
+        "down at the end of the week, the return. Beyond the return is the age to come: the thousand "
+        "years, dashed as its first stage by inference, and the new creation. Cards below sort the "
+        "texts by where they fall: at the cross, in the days between, and at His return.",
+    )
+    out += heading("The End of the Ages", "Opened at the cross, closed at His return")
+
+    # A. The frame Jesus inherited: one break.
+    out.append(text(W / 2, 138, "AS JEWISH TEACHING EXPECTED IT", 13, "middle", "bold", fill=MUTED,
+                    spacing="2"))
+    split = W / 2
+    out.append(f'<rect x="40" y="172" width="{split - 40}" height="30" fill="{EARTH_TINT}" stroke="{INK}"/>')
+    out.append(text((40 + split) / 2, 192, "THIS AGE", 14, "middle", "bold", spacing="1.5"))
+    out.append(f'<rect x="{split}" y="172" width="{W - 40 - split}" height="30" fill="{GOLD_TINT}" stroke="{GOLD_EDGE}"/>')
+    out.append(text((split + W - 40) / 2, 192, "THE AGE TO COME", 14, "middle", "bold", spacing="1.5"))
+    out.append(f'<path d="M{split} 160 V214" stroke="{RED}" stroke-width="3"/>')
+    out.append(text(split, 154, "Messiah · the judgment", 13, "middle", italic=True, fill=RED))
+    out.append(text(W / 2, 232, "One line, one break · 1 Enoch 16:1 · 2 Esdras 7:43", 12.5, "middle",
+                    italic=True, fill=MUTED))
+    out.append(f'<path d="M{W / 2 - 220} 256 H{W / 2 + 220}" stroke="{INK}" stroke-width="0.6"/>')
+
+    # B. What the New Testament says happened: the break opens and closes.
+    out.append(text(W / 2, 286, "AS THE NEW TESTAMENT TELLS IT", 13, "middle", "bold", fill=MUTED,
+                    spacing="2"))
+    x0, xc, xrap, xr, xm, x1 = 30, 140, 370, 470, 580, 690
+    gy = 550
+    out += banner((x0 + xr) / 2, 306, xr - x0 - 40, "THIS AGE", fill=INK)
+    out += banner((xr + x1) / 2, 306, x1 - xr - 40, "THE AGE TO COME", fill=GOLD_EDGE, size=12.5)
+
+    # The span the study is about.
+    sy = 372
+    out.append(f'<path d="M{xc} {sy} H{xr}" stroke="{RED}" stroke-width="3"/>')
+    out.append(f'<path d="M{xc} {sy - 9} V{sy + 9} M{xr} {sy - 9} V{sy + 9}" stroke="{RED}" stroke-width="2"/>')
+    out.append(text((xc + xr) / 2 - 40, sy - 10, "THE END OF THE AGES", 14, "middle", "bold", fill=RED,
+                    spacing="1.5"))
+    out.append(text(xc + 4, sy + 24, "“has come”", 13, italic=True, fill=RED))
+    out.append(text(xr - 4, sy + 24, "“the close of the age”", 13, "end", italic=True, fill=RED, extra=HALO))
+
+    # Heaven: the cloud the church is caught up to, and from which He returns.
+    out += cloud((xrap + xr) / 2, 482, 140)
+    out.append(text((xrap + xr) / 2, 504, "with the Lord", 12.5, "middle", italic=True, fill=GOLD_EDGE))
+
+    # The line of time.
+    out.append(f'<rect x="{x0}" y="{gy}" width="{xc - x0}" height="30" fill="{EARTH_TINT}" stroke="{INK}"/>')
+    out.append(text((x0 + xc) / 2, gy + 20, "AGES PAST", 13, "middle", "bold"))
+    out.append(f'<rect x="{xc}" y="{gy}" width="{xrap - xc}" height="30" fill="{GOLD}" stroke="{GOLD_EDGE}"/>')
+    out.append(text((xc + xrap) / 2, gy + 20, "THE CHURCH AGE", 13.5, "middle", "bold", spacing="1"))
+    out.append(f'<rect x="{xrap}" y="{gy}" width="{xr - xrap}" height="30" fill="{RED_TINT}" stroke="{INK}"/>')
+    out.append(text((xrap + xr) / 2, gy + 20, "70TH WEEK", 13, "middle", "bold"))
+    out.append(f'<rect x="{xr}" y="{gy}" width="{xm - xr}" height="30" fill="{GOLD_TINT}" stroke="{GOLD_EDGE}" '
+               f'stroke-dasharray="5 4"/>')
+    out.append(text((xr + xm) / 2, gy + 20, "1,000 YEARS", 12.5, "middle", "bold"))
+    out.append(f'<rect x="{xm}" y="{gy}" width="{x1 - xm}" height="30" fill="{CARD}" stroke="{GOLD_EDGE}"/>')
+    out.append(text((xm + x1) / 2, gy + 20, "NEW CREATION", 11.5, "middle", "bold"))
+    out.append(f'<path d="M{x0 - 6} {gy + 31} H{x1 + 6}" stroke="{INK}" stroke-width="1.5"/>')
+    out.append(text((xrap + xr) / 2, gy + 48, "Daniel 9:27", 12, "middle", italic=True, fill=MUTED))
+    out.append(text((xr + x1) / 2, gy + 48, "Rev 20:4-6 · 21:1", 12, "middle", italic=True, fill=MUTED))
+
+    # The cross, where Hebrews dates the opening.
+    out.append(f'<path d="M{xc} {gy - 58} V{gy - 4} M{xc - 14} {gy - 44} H{xc + 14}" stroke="{INK}" '
+               f'stroke-width="5" stroke-linecap="round"/>')
+    out.append(text(xc + 22, gy - 34, "once for all", 13, italic=True))
+
+    # Up, dashed (the rapture's timing is inferred); down, solid (Matthew 24:29 states it).
+    out.append(f'<path d="M{xrap - 6} {gy - 4} C{xrap - 30} {gy - 30} {xrap - 18} 500 {xrap + 14} 488" '
+               f'fill="none" stroke="{GOLD_EDGE}" stroke-width="3" stroke-dasharray="7 5"/>')
+    out.append(arrow_head(xrap + 16, 487, -20, 12, GOLD_EDGE))
+    out.append(f'<path d="M{xr - 12} 488 C{xr + 18} 496 {xr + 16} {gy - 30} {xr + 2} {gy - 6}" '
+               f'fill="none" stroke="{GOLD_EDGE}" stroke-width="4"/>')
+    out.append(arrow_head(xr + 2, gy - 2, 100, 13, GOLD_EDGE))
+    out.append(text(xr + 22, 492, "He returns", 13, weight="bold", fill=GOLD_EDGE))
+    out.append(text(xr + 22, 509, "Matt 24:29-31", 12, italic=True, fill=MUTED))
+
+    # Matthew 28:20, under the line: solid on earth, dashed where the church is with Him.
+    ay = gy + 76
+    out.append(f'<path d="M{xc} {ay} H{xrap}" stroke="{BLUE}" stroke-width="3"/>')
+    out.append(f'<path d="M{xrap} {ay} H{xr}" stroke="{BLUE}" stroke-width="3" stroke-dasharray="7 5"/>')
+    out.append(f'<path d="M{xc} {ay - 8} V{ay + 8} M{xr} {ay - 8} V{ay + 8}" stroke="{BLUE}" stroke-width="2"/>')
+    out.append(text((xc + xr) / 2, ay + 24, "“I am with you all the days, to the end of the age”", 13.5,
+                    "middle", italic=True, fill=BLUE))
+    out.append(text((xc + xr) / 2, ay + 42, "Matthew 28:20 (lit.) · then “always with the Lord” (1 Thess 4:17)",
+                    12.5, "middle", fill=MUTED))
+
+    # Where each text falls.
+    cy0 = ay + 78
+    cols = [
+        (30, "AT THE CROSS", [
+            (["The end of the ages", "has come"], "Heb 9:26 · 1 Cor 10:11", False),
+            (["“In these last days”", "God has spoken"], "Heb 1:2", False),
+            (["Rescued from the", "present evil age"], "Gal 1:4", False),
+        ]),
+        (257, "ALL THE DAYS BETWEEN", [
+            (["Jesus with His", "disciples every day"], "Matt 28:20", False),
+            (["Weeds and wheat", "grow together"], "Matt 13:30", False),
+            (["The church caught up", "before the week"], "1 Thess 4:17 · Rev 3:10", True),
+        ]),
+        (484, "AT HIS RETURN", [
+            (["Daniel’s end:", "the week closes"], "Dan 9:27 · 12:4, 13", True),
+            (["The harvest: angels", "separate the wicked"], "Matt 13:39-43, 49", False),
+            (["“Your coming and the", "end of the age”"], "Matt 24:3", False),
+        ]),
+    ]
+    cw = 206
+    for cx, head, cards in cols:
+        out.append(text(cx + cw / 2, cy0, head, 13, "middle", "bold", fill=GOLD_EDGE, spacing="1.5"))
+        y = cy0 + 12
+        for lines, ref, dashed in cards:
+            c, ch = card(cx, y, cw, lines, ref, dashed=dashed, size=13.5)
+            out += c
+            y += ch + 10
+    ly = h - 96
+    out += legend_row(40, ly, span=False)
+    out += lines_at(W / 2, ly + 52, ["The end began when Jesus offered Himself, and it closes when He comes back."],
+                    13.5, anchor="middle", italic=True)
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+# ---------------------------------------------------------------------------------------------
+# 8. Six days, three ages: the Talmud's two readings of the world-week (day-is-a-thousand-years.md)
+
+
+def six_days_three_ages():
+    h = 900
+    out = svg_open(
+        h,
+        "Six days, three ages",
+        "The Talmud reads the six thousand years two ways on one page, b. Sanhedrin 97a. The top row "
+        "is the week: six days of a thousand years and a seventh that is all Sabbath, from Psalm 92:1 "
+        "and Psalm 90:4. The second row is the school of Elijah's three ages of two thousand years: "
+        "chaos, Torah, and the days of Messiah. b. Avodah Zarah 9a starts the age of Torah when Abraham "
+        "was 52, which on its own count is 2,000 years after creation, with Sinai at 2,448, and notes "
+        "that years had already passed from the days of Messiah without His coming. Two rabbis on the "
+        "same page give the world's ruin as a thousand years (Isaiah 2:11) or two thousand (Hosea 6:2). "
+        "A dashed row below places Abram's call and the cross on this site's own chronology, where the "
+        "cross falls a few years before the four-thousandth year.",
+    )
+    out += heading("Six Days, Three Ages", "b. Sanhedrin 97a reads the world-week two ways")
+    x0, x1 = 40, 680
+    dw = (x1 - x0) / 7
+
+    def xa(am):
+        return x0 + am / 1000 * dw
+
+    # Row 1: the week.
+    y1 = 150
+    out.append(text(x0, y1 - 14, "THE WEEK OF HISTORY", 13, weight="bold", fill=MUTED, spacing="1.5"))
+    for i in range(7):
+        fill, stroke = (GOLD, GOLD_EDGE) if i == 6 else (EARTH_TINT if i % 2 == 0 else CARD, INK)
+        out.append(f'<rect x="{x0 + i * dw:.1f}" y="{y1}" width="{dw:.1f}" height="34" fill="{fill}" stroke="{stroke}"/>')
+        out.append(text(x0 + (i + 0.5) * dw, y1 + 22, f"DAY {i + 1}", 13, "middle", "bold"))
+    out.append(text(x0 + 6.5 * dw, y1 + 54, "all Shabbat", 12.5, "middle", italic=True, fill=GOLD_EDGE))
+    out.append(text(x0, y1 + 54, "“a day, i.e., one thousand years” · Psalm 92:1; 90:4", 12.5,
+                    italic=True, fill=MUTED))
+
+    # Row 2: the three ages.
+    y2 = 260
+    out.append(text(x0, y2 - 14, "THE SCHOOL OF ELIJAH: THREE AGES", 13, weight="bold", fill=MUTED,
+                    spacing="1.5"))
+    ages = [("CHAOS", EARTH_TINT, INK), ("TORAH", BLUE_TINT, BLUE), ("DAYS OF MESSIAH", GOLD_TINT, GOLD_EDGE)]
+    for i, (lab, fill, stroke) in enumerate(ages):
+        out.append(f'<rect x="{x0 + 2 * i * dw:.1f}" y="{y2}" width="{2 * dw:.1f}" height="34" fill="{fill}" stroke="{stroke}"/>')
+        out.append(text(x0 + (2 * i + 1) * dw, y2 + 16, lab, 13.5, "middle", "bold", fill=stroke))
+        out.append(text(x0 + (2 * i + 1) * dw, y2 + 29, "2,000 years", 11.5, "middle", fill=MUTED))
+    out.append(f'<rect x="{x0 + 6 * dw:.1f}" y="{y2}" width="{dw:.1f}" height="34" fill="none" stroke="{GOLD_EDGE}" stroke-dasharray="5 4"/>')
+    out.append(text(x1, y2 - 14, "b. Sanhedrin 97a · b. Avodah Zarah 9a", 12.5, "end", italic=True, fill=MUTED))
+
+    # Avodah Zarah 9a's own count: the age of Torah starts at Abraham, 448 years before Sinai.
+    ym = y2 + 34
+    for am, lab, sub, anchor in [(2000, "Abraham, aged 52", "“the souls … in Haran”", "end"),
+                                 (2448, "Sinai", "AM 2448", "start")]:
+        x = xa(am)
+        out.append(f'<path d="M{x:.1f} {ym} V{ym + 70}" stroke="{BLUE}" stroke-width="2"/>')
+        out.append(f'<circle cx="{x:.1f}" cy="{ym}" r="4" fill="{BLUE}"/>')
+        dx = -6 if anchor == "end" else 6
+        out.append(text(x + dx, ym + 56, lab, 13, anchor, "bold", fill=BLUE))
+        out.append(text(x + dx, ym + 72, sub, 12, anchor, italic=True, fill=MUTED))
+    # The baraita's lament over the third age.
+    xb0, xb1 = xa(4000), xa(4600)
+    out.append(f'<path d="M{xb0:.1f} {ym + 30} H{xb1:.1f}" stroke="{RED}" stroke-width="3" stroke-dasharray="7 5"/>')
+    out.append(f'<path d="M{xb0:.1f} {ym + 22} V{ym + 38}" stroke="{RED}" stroke-width="2"/>')
+    out.append(arrow_head(xb1 + 4, ym + 30, 0, 10, RED))
+    out += lines_at(xb0, ym + 56, ["“such and such years have", "already passed … and the", "Messiah has not yet arrived”"],
+                    12.5, italic=True, fill=RED)
+
+    # Row 3: two more voices on the same page.
+    y3 = 470
+    out.append(text(x0, y3 - 14, "ON THE SAME PAGE: HOW LONG THE RUIN?", 13, weight="bold", fill=MUTED,
+                    spacing="1.5"))
+    c, ch = card(x0, y3, 305, ["Rav Ketina: one thousand", "years, “on that day”"], "Isaiah 2:11 · b. Sanhedrin 97a")
+    out += c
+    c, _ = card(x0 + 335, y3, 305, ["Abaye: two thousand years,", "“after two days”"], "Hosea 6:2 · b. Sanhedrin 97a")
+    out += c
+
+    # Row 4: this site's chronology, dashed (a Christian reading laid over the rabbinic frame).
+    y4 = y3 + ch + 80
+    out.append(text(x0, y4 - 40, "THE SAME FRAME ON THIS SITE'S CHRONOLOGY", 13, weight="bold", fill=MUTED,
+                    spacing="1.5"))
+    ev = {lab: am for am, lab in chronology_events()}
+    out.append(f'<rect x="{x0}" y="{y4}" width="{x1 - x0}" height="30" fill="{CARD}" stroke="{INK}" stroke-dasharray="5 4"/>')
+    for k in range(1, 7):
+        out.append(f'<path d="M{x0 + k * dw:.1f} {y4} v30" stroke="{MUTED}" stroke-width="0.8"/>')
+    out.append(f'<path d="M{xa(4000):.1f} {y4 - 6} v42" stroke="{RED}" stroke-width="2.5"/>')
+    out.append(text(xa(4000) + 8, y4 + 54, "AM 4000", 12.5, weight="bold", fill=RED))
+    for key, y_lab, anchor in [("Abram called", y4 - 10, "start"), ("The cross", y4 + 54, "end")]:
+        am = ev[key]
+        x = xa(am)
+        out.append(f'<circle cx="{x:.1f}" cy="{y4 + 15}" r="5" fill="{INK}"/>')
+        dx = 6 if anchor == "start" else -8
+        out.append(text(x + dx, y_lab, f"{key} · AM {am} · {am_label(am)}", 12.5, anchor, weight="bold",
+                        extra=HALO))
+    out += lines_at(x0, y4 + 90, [
+        "Read from docs/data/chronology.json. The Talmud's ages use its own count (Sinai at 2,448);",
+        "this site's Masoretic count places Abram's call later and the cross a few years before 4,000.",
+    ], 12.5, italic=True, fill=MUTED)
+
+    ly = h - 110
+    c, _ = card(x0, ly, 230, ["The source states it"], "", size=13)
+    out += c
+    c, _ = card(x0 + 255, ly, 300, ["A reading laid over the source"], "", dashed=True, size=13)
+    out += c
+    out += lines_at(W / 2, ly + 62, ["The week is Scripture’s shape (Exodus 20:11). The ages are the rabbis’ reading of it."],
+                    13.5, anchor="middle", italic=True)
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+# ---------------------------------------------------------------------------------------------
+# 9. The eighth day: seven complete something, the eighth begins it (new-heaven-and-new-earth.md)
+
+
+def eighth_day():
+    rows = [
+        ("A son’s circumcision", "enters the covenant", "Gen 17:12 · Lev 12:3", False),
+        ("A firstborn ox or sheep", "“you shall give it to me”", "Exodus 22:30", False),
+        ("The priests’ ordination", "the glory of the LORD appears", "Lev 9:1, 23-24", False),
+        ("A cleansed leper", "brought back “before the LORD”", "Lev 14:10, 23", False),
+        ("The Feast of Booths", "“a solemn rest”", "Lev 23:36, 39", False),
+        ("The day Jesus rose", "the first day after the Sabbath", "Matt 28:1 · Barnabas 15", True),
+        ("The week of history", "a new heaven and a new earth", "Rev 20:2-7; 21:1", True),
+    ]
+    rh = 70
+    top = 150
+    h = top + len(rows) * rh + 300
+    out = svg_open(
+        h,
+        "The eighth day",
+        "Seven rows, each with seven small squares followed by a larger gold eighth. Five come from the "
+        "Law: circumcision, the firstborn, the priests' ordination, the cleansed leper and the Feast of "
+        "Booths, where seven days complete something and the eighth begins what the seven were for. Two "
+        "are dashed as readings: the day Jesus rose, the first day after the Sabbath, which the Epistle "
+        "of Barnabas calls the eighth day; and this site's week of history, seven thousand-year days "
+        "followed by the new heaven and new earth. Below, eight figures stand for Noah's household, the "
+        "eight persons brought through water, which Peter makes the pattern of baptism and the "
+        "resurrection (1 Peter 3:20-21).",
+    )
+    out += heading("The Eighth Day", "Seven complete it; the eighth begins what the seven were for")
+    sq, gap = 20, 5
+    xs = 235
+    out.append(text(xs + 3.5 * (sq + gap), top - 12, "SEVEN DAYS", 12.5, "middle", "bold", fill=MUTED, spacing="1.5"))
+    x8 = xs + 7 * (sq + gap) + 14
+    out.append(text(x8 + 22, top - 12, "THE EIGHTH", 12.5, "middle", "bold", fill=GOLD_EDGE, spacing="1.5"))
+    for i, (name, what, ref, dashed) in enumerate(rows):
+        y = top + i * rh
+        if i % 2 == 0:
+            out.append(f'<rect x="30" y="{y - 8}" width="{W - 60}" height="{rh - 6}" fill="{EARTH_TINT}" opacity="0.45"/>')
+        out.append(text(40, y + 14, name, 14, weight="bold"))
+        out.append(text(40, y + 32, ref, 12.5, italic=True, fill=MUTED))
+        dash = ' stroke-dasharray="4 3"' if dashed else ""
+        for k in range(7):
+            out.append(f'<rect x="{xs + k * (sq + gap)}" y="{y + 2}" width="{sq}" height="{sq}" fill="{CARD}" '
+                       f'stroke="{INK}" stroke-width="1.2"{dash}/>')
+        out.append(f'<rect x="{x8}" y="{y - 4}" width="44" height="38" rx="4" fill="{GOLD}" stroke="{GOLD_EDGE}" '
+                   f'stroke-width="1.6"{dash}/>')
+        out.append(text(x8 + 22, y + 21, "8", 18, "middle", "bold"))
+        out.append(text(x8 + 54, y + 21, what, 12.5))
+    ny = top + len(rows) * rh + 20
+    out.append(f'<path d="M40 {ny} H{W - 40}" stroke="{INK}" stroke-width="0.8"/>')
+    out.append(text(W / 2, ny + 30, "“EIGHT PERSONS … BROUGHT SAFELY THROUGH WATER”", 13.5, "middle", "bold",
+                    spacing="1"))
+    out.append(text(W / 2, ny + 48, "1 Peter 3:20-21 · baptism “corresponds to this”, through the resurrection",
+                    12.5, "middle", italic=True, fill=MUTED))
+    out.append(waves(150, 570, ny + 112, color=WATER))
+    for k in range(8):
+        out.append(person(200 + k * 46, ny + 104, 1.0, GOLD_EDGE if k == 0 else INK))
+    out.append(text(200, ny + 132, "Noah", 12, "middle", italic=True, fill=GOLD_EDGE))
+    ly = h - 104
+    c, _ = card(40, ly, 230, ["The Law sets the day"], "", size=13)
+    out += c
+    c, _ = card(295, ly, 300, ["A reading of the pattern"], "", dashed=True, size=13)
+    out += c
+    out += lines_at(W / 2, ly + 62, ["The eighth day carries the rest past the count of seven (Leviticus 23:39)."],
+                    13.5, anchor="middle", italic=True)
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+# ---------------------------------------------------------------------------------------------
+# 10. Weeks within weeks: the Zadok calendar's nested sevens (feasts/zadok-calendar.md)
+
+
+def weeks_within_weeks():
+    h = 1210
+    out = svg_open(
+        h,
+        "Weeks within weeks",
+        "The Zadok calendar's nested sevens. At the top, the 364-day year: four quarters, each of three "
+        "30-day months and one Tekufah day, 91 days or 13 weeks, so the year is exactly 52 weeks and 1 "
+        "Abib always falls on a Wednesday. Below, a ladder: the week of seven days, the year of 52 weeks, "
+        "the sabbatical of seven years (Leviticus 25:1-7), and the jubilee, forty-nine years and then "
+        "the fiftieth (Leviticus 25:8-10). There the count divides. On the Rabbis' count the jubilee "
+        "stands alone and a cycle is 50 years; on Rabbi Yehuda's, and in the book of Jubilees, the "
+        "fiftieth year also begins the next cycle and a cycle is 49 (b. Nedarim 61a; b. Arakhin 12b; "
+        "Jubilees 50:4). Ten jubilees make 500 or 490 years, forty make 2,000 or 1,960, and so on. "
+        "dsscalendar.org's 500-year Onah and 140-jubilee wheel are dashed as its own construction; "
+        "Daniel's 490 years and the Talmud's 2,000-year ages and 85 jubilees are solid.",
+    )
+    out += heading("Weeks Within Weeks", "The Zadok calendar’s nested sevens, and where the count divides")
+    x0, x1 = 40, 680
+
+    # A. The year.
+    ya = 140
+    out.append(text(x0, ya, "THE YEAR · 364 DAYS · 52 WEEKS", 13, weight="bold", fill=MUTED, spacing="1.5"))
+    qw = (x1 - x0) / 4
+    tw = 10
+    mw = (qw - tw) / 3
+    for q in range(4):
+        qx = x0 + q * qw
+        for m in range(3):
+            n = q * 3 + m + 1
+            out.append(f'<rect x="{qx + m * mw:.1f}" y="{ya + 14}" width="{mw:.1f}" height="36" fill="{CARD if n % 2 else EARTH_TINT}" stroke="{INK}"/>')
+            out.append(text(qx + (m + 0.5) * mw, ya + 31, f"{n}", 13, "middle", "bold"))
+            out.append(text(qx + (m + 0.5) * mw, ya + 45, "30", 10.5, "middle", fill=MUTED))
+        out.append(f'<rect x="{qx + 3 * mw:.1f}" y="{ya + 14}" width="{tw}" height="36" fill="{GOLD}" stroke="{GOLD_EDGE}"/>')
+        out.append(f'<path d="M{qx + 2:.1f} {ya + 62} H{qx + qw - 2:.1f}" stroke="{INK}" stroke-width="1"/>')
+        out.append(text(qx + qw / 2, ya + 80, "91 days = 13 weeks", 12, "middle", fill=MUTED))
+    out.append(text(x0, ya + 104, "1 Abib, month 1, always a Wednesday (Genesis 1:14-19)", 12.5, italic=True))
+    out.append(text(x1, ya + 104, "gold: the 4 Tekufah days", 12.5, "end", italic=True, fill=GOLD_EDGE))
+    out.append(text(W / 2, ya + 124, "1 Enoch 72-82 · Jubilees 6", 12, "middle", italic=True, fill=MUTED))
+
+    # B. The ladder up to the jubilee: one column, sources state every rung.
+    yb = ya + 170
+    out.append(text(x0, yb, "THE LADDER", 13, weight="bold", fill=MUTED, spacing="1.5"))
+    rungs = [
+        (["Week", "7 days"], "Genesis 2:2-3 · Exodus 20:11"),
+        (["Year", "52 weeks"], "1 Enoch 72-82 · Jubilees 6"),
+        (["Sabbatical", "7 years; the seventh is a rest"], "Leviticus 25:1-7"),
+        (["Jubilee", "7 × 7 = 49 years, then “the fiftieth year”"], "Leviticus 25:8-10"),
+    ]
+    cw = 400
+    cx = (W - cw) / 2
+    y = yb + 14
+    for lines, ref in rungs:
+        c, ch = card(cx, y, cw, lines, ref)
+        out += c
+        y += ch
+        out.append(f'<path d="M{W / 2} {y} v18" stroke="{INK}" stroke-width="1.5"/>')
+        out.append(arrow_head(W / 2, y + 20, 90, 9))
+        y += 22
+    # The fork.
+    fy = y + 4
+    out.append(f'<rect x="{x0}" y="{fy}" width="{x1 - x0}" height="64" rx="6" fill="{RED_TINT}" stroke="{RED}"/>')
+    out.append(text(W / 2, fy + 24, "DOES THE FIFTIETH YEAR ALSO BEGIN THE NEXT COUNT?", 14, "middle", "bold", fill=RED))
+    out.append(text(W / 2, fy + 45, "Leviticus does not say. The Talmud records both answers.", 13, "middle", italic=True))
+    lx, rx, colw = x0, W / 2 + 10, (x1 - x0) / 2 - 10
+    hy = fy + 92
+    out += banner(lx + colw / 2, hy - 18, colw - 40, "NO · A 50-YEAR CYCLE", fill=BLUE, size=12.5)
+    out += banner(rx + colw / 2, hy - 18, colw - 40, "YES · A 49-YEAR CYCLE", fill=GOLD_EDGE, size=12.5)
+    left = [
+        (["The Rabbis"], "b. Nedarim 61a · Rosh Hashanah 9a", False),
+        (["10 jubilees = 500 years:", "the “Onah”"], "dsscalendar.org only", True),
+        (["40 jubilees = 2,000 years:", "an age"], "the ages of b. Sanhedrin 97a", False),
+        (["85 jubilees = 4,250 years"], "b. Sanhedrin 97b", False),
+        (["140 jubilees = 7,000 years"], "dsscalendar.org’s Enoch wheel", True),
+    ]
+    right = [
+        (["Rabbi Yehuda; Jubilees"], "b. Arakhin 12b · Jubilees 50:4", False),
+        (["10 jubilees = 490 years:", "seventy weeks"], "Daniel 9:24 · 11Q13", False),
+        (["40 jubilees = 1,960 years"], "no ancient scheme found", True),
+        (["50 jubilees = 2,450 years:", "Adam to the Jordan"], "Jubilees 50:4", False),
+    ]
+    for col, items in ((lx, left), (rx, right)):
+        y = hy + 20
+        for lines, ref, dashed in items:
+            c, ch = card(col, y, colw, lines, ref, dashed=dashed, stroke=BLUE if col == lx else GOLD_EDGE)
+            out += c
+            y += ch + 10
+    ly = h - 104
+    c, _ = card(x0, ly, 230, ["A source states it"], "", size=13)
+    out += c
+    c, _ = card(x0 + 255, ly, 330, ["A modern construction or reading"], "", dashed=True, size=13)
+    out += c
+    out += lines_at(W / 2, ly + 62, ["This site counts in fifties with dsscalendar.org, and holds it as a choice."],
+                    13.5, anchor="middle", italic=True)
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+FEAST_OUT = ROOT / "docs" / "content" / "assets" / "img" / "feasts"
+FEAST_CHARTS = {
+    "weeks-within-weeks": weeks_within_weeks,
+}
+
+
 CHARTS = {
     "seven-thousand-years": seven_thousand_years,
     "two-stages-of-his-coming": two_stages,
@@ -773,13 +1197,18 @@ CHARTS = {
     "after-the-thousand-years": after_thousand,
     "taken-before-judgment": taken_before_judgment,
     "meeting-the-lord": meeting_the_lord,
+    "end-of-the-ages": end_of_the_ages,
+    "six-days-three-ages": six_days_three_ages,
+    "eighth-day": eighth_day,
 }
 
 
 def main():
-    OUT.mkdir(parents=True, exist_ok=True)
-    for name in sys.argv[1:] or CHARTS:
-        (OUT / f"{name}.svg").write_text(CHARTS[name]() + "\n", encoding="utf-8")
+    every = {**{n: (f, OUT) for n, f in CHARTS.items()}, **{n: (f, FEAST_OUT) for n, f in FEAST_CHARTS.items()}}
+    for name in sys.argv[1:] or every:
+        draw, out_dir = every[name]
+        out_dir.mkdir(parents=True, exist_ok=True)
+        (out_dir / f"{name}.svg").write_text(draw() + "\n", encoding="utf-8")
         print(f"wrote {name}.svg")
 
 

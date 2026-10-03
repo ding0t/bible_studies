@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">Six days, three ages</title>
+<desc id="d">The Talmud reads the six thousand years two ways on one page, b. Sanhedrin 97a. The top row is the week: six days of a thousand years and a seventh that is all Sabbath, from Psalm 92:1 and Psalm 90:4. The second row is the school of Elijah's three ages of two thousand years: chaos, Torah, and the days of Messiah. b. Avodah Zarah 9a starts the age of Torah when Abraham was 52, which on its own count is 2,000 years after creation, with Sinai at 2,448, and notes that years had already passed from the days of Messiah without His coming. Two rabbis on the same page give the world's ruin as a thousand years (Isaiah 2:11) or two thousand (Hosea 6:2). A dashed row below places Abram's call and the cross on this site's own chronology, where the cross falls a few years before the four-thousandth year.</desc>
+<rect width="720" height="900" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="884" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="872" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">SIX DAYS, THREE AGES</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">b. Sanhedrin 97a reads the world-week two ways</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<text x="40.0" y="136.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.5">THE WEEK OF HISTORY</text>
+<rect x="40.0" y="150" width="91.4" height="34" fill="#efe4d0" stroke="#3b2f1e"/>
+<text x="85.7" y="172.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">DAY 1</text>
+<rect x="131.4" y="150" width="91.4" height="34" fill="#fffdf7" stroke="#3b2f1e"/>
+<text x="177.1" y="172.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">DAY 2</text>
+<rect x="222.9" y="150" width="91.4" height="34" fill="#efe4d0" stroke="#3b2f1e"/>
+<text x="268.6" y="172.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">DAY 3</text>
+<rect x="314.3" y="150" width="91.4" height="34" fill="#fffdf7" stroke="#3b2f1e"/>
+<text x="360.0" y="172.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">DAY 4</text>
+<rect x="405.7" y="150" width="91.4" height="34" fill="#efe4d0" stroke="#3b2f1e"/>
+<text x="451.4" y="172.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">DAY 5</text>
+<rect x="497.1" y="150" width="91.4" height="34" fill="#fffdf7" stroke="#3b2f1e"/>
+<text x="542.9" y="172.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">DAY 6</text>
+<rect x="588.6" y="150" width="91.4" height="34" fill="#e8c46a" stroke="#a67c3d"/>
+<text x="634.3" y="172.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">DAY 7</text>
+<text x="634.3" y="204.0" font-size="12.5" fill="#a67c3d" text-anchor="middle" font-style="italic">all Shabbat</text>
+<text x="40.0" y="204.0" font-size="12.5" fill="#6b5a3e" font-style="italic">“a day, i.e., one thousand years” · Psalm 92:1; 90:4</text>
+<text x="40.0" y="246.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.5">THE SCHOOL OF ELIJAH: THREE AGES</text>
+<rect x="40.0" y="260" width="182.9" height="34" fill="#efe4d0" stroke="#3b2f1e"/>
+<text x="131.4" y="276.0" font-size="13.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">CHAOS</text>
+<text x="131.4" y="289.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">2,000 years</text>
+<rect x="222.9" y="260" width="182.9" height="34" fill="#e3e9f2" stroke="#2f4f7f"/>
+<text x="314.3" y="276.0" font-size="13.5" fill="#2f4f7f" text-anchor="middle" font-weight="bold">TORAH</text>
+<text x="314.3" y="289.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">2,000 years</text>
+<rect x="405.7" y="260" width="182.9" height="34" fill="#f6ecd0" stroke="#a67c3d"/>
+<text x="497.1" y="276.0" font-size="13.5" fill="#a67c3d" text-anchor="middle" font-weight="bold">DAYS OF MESSIAH</text>
+<text x="497.1" y="289.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">2,000 years</text>
+<rect x="588.6" y="260" width="91.4" height="34" fill="none" stroke="#a67c3d" stroke-dasharray="5 4"/>
+<text x="680.0" y="246.0" font-size="12.5" fill="#6b5a3e" text-anchor="end" font-style="italic">b. Sanhedrin 97a · b. Avodah Zarah 9a</text>
+<path d="M222.9 294 V364" stroke="#2f4f7f" stroke-width="2"/>
+<circle cx="222.9" cy="294" r="4" fill="#2f4f7f"/>
+<text x="216.9" y="350.0" font-size="13" fill="#2f4f7f" text-anchor="end" font-weight="bold">Abraham, aged 52</text>
+<text x="216.9" y="366.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">“the souls … in Haran”</text>
+<path d="M263.8 294 V364" stroke="#2f4f7f" stroke-width="2"/>
+<circle cx="263.8" cy="294" r="4" fill="#2f4f7f"/>
+<text x="269.8" y="350.0" font-size="13" fill="#2f4f7f" font-weight="bold">Sinai</text>
+<text x="269.8" y="366.0" font-size="12" fill="#6b5a3e" font-style="italic">AM 2448</text>
+<path d="M405.7 324 H460.6" stroke="#8b1e1e" stroke-width="3" stroke-dasharray="7 5"/>
+<path d="M405.7 316 V332" stroke="#8b1e1e" stroke-width="2"/>
+<path d="M464.6 324.0 L455.6 328.3 L455.6 319.7 Z" fill="#8b1e1e"/>
+<text x="405.7" y="350.0" font-size="12.5" fill="#8b1e1e" font-style="italic">“such and such years have</text>
+<text x="405.7" y="367.0" font-size="12.5" fill="#8b1e1e" font-style="italic">already passed … and the</text>
+<text x="405.7" y="384.0" font-size="12.5" fill="#8b1e1e" font-style="italic">Messiah has not yet arrived”</text>
+<text x="40.0" y="456.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.5">ON THE SAME PAGE: HOW LONG THE RUIN?</text>
+<rect x="40.0" y="470.0" width="305.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="48.0" y="488.4" font-size="14" fill="#3b2f1e" font-weight="bold">Rav Ketina: one thousand</text>
+<text x="48.0" y="505.4" font-size="14" fill="#3b2f1e">years, “on that day”</text>
+<text x="48.0" y="522.5" font-size="12.5" fill="#6b5a3e" font-style="italic">Isaiah 2:11 · b. Sanhedrin 97a</text>
+<rect x="375.0" y="470.0" width="305.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="383.0" y="488.4" font-size="14" fill="#3b2f1e" font-weight="bold">Abaye: two thousand years,</text>
+<text x="383.0" y="505.4" font-size="14" fill="#3b2f1e">“after two days”</text>
+<text x="383.0" y="522.5" font-size="12.5" fill="#6b5a3e" font-style="italic">Hosea 6:2 · b. Sanhedrin 97a</text>
+<text x="40.0" y="571.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.5">THE SAME FRAME ON THIS SITE'S CHRONOLOGY</text>
+<rect x="40" y="611" width="640" height="30" fill="#fffdf7" stroke="#3b2f1e" stroke-dasharray="5 4"/>
+<path d="M131.4 611 v30" stroke="#6b5a3e" stroke-width="0.8"/>
+<path d="M222.9 611 v30" stroke="#6b5a3e" stroke-width="0.8"/>
+<path d="M314.3 611 v30" stroke="#6b5a3e" stroke-width="0.8"/>
+<path d="M405.7 611 v30" stroke="#6b5a3e" stroke-width="0.8"/>
+<path d="M497.1 611 v30" stroke="#6b5a3e" stroke-width="0.8"/>
+<path d="M588.6 611 v30" stroke="#6b5a3e" stroke-width="0.8"/>
+<path d="M405.7 605 v42" stroke="#8b1e1e" stroke-width="2.5"/>
+<text x="413.7" y="665.0" font-size="12.5" fill="#8b1e1e" font-weight="bold">AM 4000</text>
+<circle cx="230.4" cy="626" r="5" fill="#3b2f1e"/>
+<text x="236.4" y="601.0" font-size="12.5" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Abram called · AM 2083 · 1876 BC</text>
+<circle cx="404.9" cy="626" r="5" fill="#3b2f1e"/>
+<text x="396.9" y="665.0" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">The cross · AM 3991 · AD 33</text>
+<text x="40.0" y="701.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Read from docs/data/chronology.json. The Talmud's ages use its own count (Sinai at 2,448);</text>
+<text x="40.0" y="718.0" font-size="12.5" fill="#6b5a3e" font-style="italic">this site's Masoretic count places Abram's call later and the cross a few years before 4,000.</text>
+<rect x="40.0" y="790.0" width="230.0" height="27" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="48.0" y="808.5" font-size="13" fill="#3b2f1e" font-weight="bold">The source states it</text>
+<rect x="295.0" y="790.0" width="300.0" height="27" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="303.0" y="808.5" font-size="13" fill="#3b2f1e" font-weight="bold">A reading laid over the source</text>
+<text x="360.0" y="852.0" font-size="13.5" fill="#3b2f1e" text-anchor="middle" font-style="italic">The week is Scripture’s shape (Exodus 20:11). The ages are the rabbis’ reading of it.</text>
+<text x="696.0" y="878.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

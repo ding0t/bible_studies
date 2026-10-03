@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-02
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -45,7 +45,6 @@ Add new items here. They get a number and move into their section.
 | [4.2](#42-on-death) | On death | Salvation |
 | [5.1](#51-tribulation-perspectives) | Tribulation perspectives | Last things |
 | [5.2](#52-end-times) | End times | Last things |
-| [5.5](#55-the-age-to-come) | The age to come | Last things |
 | [5.6](#56-they-were-given-white-robes) | They were given white robes | Last things |
 | [5.7](#57-heaven-and-earth-by-fire) | Heaven and earth by fire | Last things |
 | [5.9](#59-the-tribulation-period) | The tribulation period | Last things |
@@ -572,21 +571,6 @@ from the notes above: the thief on the cross, Moses and Elijah at the Transfigur
 - Objective is the plundering of Israel
 - Who —
 
-### 5.5 The age to come
-
-What the New Testament means by "the age to come", and how it relates to the millennium and the
-eternal state.
-
-- **Texts:** Matthew 12:32 ("this age or the age to come"); Ephesians 1:21; Hebrews 6:5 ("the powers
-  of the age to come"); Mark 10:30 and Luke 18:30 (eternal life "in the age to come"); Luke 20:34-35.
-  Verify each wording against the ESV before quoting.
-- **Word:** αἰών (*aiōn*, G165), and the phrase ὁ αἰὼν ὁ μέλλων.
-- **Background:** the Jewish two-age frame, "this world" and "the world to come" (*ʿolam ha-ba*),
-  as in the Mishnah's "all Israel has a share in the world to come" (m. Sanhedrin 10:1). Cite from a
-  primary source.
-- **Links:** [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) (the seventh
-  day as the millennium), and the Olivet Discourse's "close of the age" (Matthew 24:3).
-
 ### 5.6 They were given white robes
 
 White garments on God's people run through Scripture, explicitly and significantly, and Revelation
@@ -645,8 +629,7 @@ the Olivet Discourse, published 2026-09-28) places it in two paragraphs ("Where 
   [statement of faith](statement-of-faith.md#end-times), and give the amillennial case.
 - **Links:** [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) (2 Peter 3:7,
   the seventh day and the eighth), [The Wife of the Lamb](../israel-and-church/wife-of-the-lamb.md)
-  (Revelation 21), and [5.5 The age to come](#55-the-age-to-come), which may belong in the same
-  study.
+  (Revelation 21), and [The End of the Age](../last-things/end-of-the-age.md) (5.5, completed).
 
 ### 5.9 The tribulation period
 
@@ -825,3 +808,4 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 6.2 | Individual feast studies | [Passover](../feasts/passover.md), [Unleavened Bread](../feasts/unleavened-bread.md), [Firstfruits](../feasts/firstfruits.md), [Weeks](../feasts/weeks.md), [Trumpets](../feasts/trumpets.md), [Day of Atonement](../feasts/day-of-atonement.md) and [Tabernacles](../feasts/tabernacles.md), all published by 2026-10-02 |
 | 6.3 | The Lord's Supper | [The Lord's Supper: Do This in Remembrance of Me](../feasts/lords-supper.md), with two graphics; the [four-cups study](../feasts/last-supper-four-cups.md) now points its general communion material there, 2026-10-02 |
 | new | Edits to Verses Often Misquoted | [Verses Often Misquoted](../scripture/verses-often-misquoted.md) opens on common church sayings, adds "Did God actually say?" (the garden, the wilderness, the church), "Take up your cross" and a link to How to Read the Bible, 2026-10-02 |
+| 5.5 | The age to come | The age to come in [A New Heaven and a New Earth](../last-things/new-heaven-and-new-earth.md#the-age-to-come); the line between the ages in [The End of the Age](../last-things/end-of-the-age.md) (Matthew's συντέλεια, opened at the cross and closed at the return), with cross-links and a scope line on each, and the Zadok calendar's 49- or 50-year jubilee question, 2026-10-03 |

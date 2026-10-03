@@ -6,7 +6,7 @@ tags: ["zadok", "calendar", "dead-sea-scrolls", "enoch", "jubilees", "chronology
 draft: false
 bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticus 25:8-13", "2 Samuel 8:17", "1 Kings 2:35", "Ezekiel 44:15", "Daniel 9:24-27"]
 date_created: 2026-07-19
-date_modified: 2026-09-30
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -66,12 +66,22 @@ The calendar itself predates the Qumran community. The clearest early exposition
 
 The community also read its own history and future through a much larger version of the same "week"
 pattern: [1 Enoch 91-93](https://dsscalendar.org/e/), the "Apocalypse of Weeks," divides all of
-history into ten 700-year "weeks." That is 7,000 years from creation to a new creation.
-dsscalendar.org organizes its own material around the same framework, with its "Onah" as a 500-year
-subdivision of that scheme. It is also the shape of this site's own reading of 2 Peter
-3:8 in [The Day is Near](../last-things/day-is-
-near.md#when-is-the-year-6000) — six 1,000-year "days" of ordinary history followed by a seventh,
-sabbath-rest millennium.
+history into ten "weeks", with "many weeks without number for ever" after them (1 Enoch 91:17, trans.
+R. H. Charles). Enoch numbers the weeks without giving their length. dsscalendar.org reads each as
+700 years, which makes 7,000 years from creation to a new creation.
+
+dsscalendar.org also divides its scheme into ages of 2,000 years, each made of four 500-year
+"Onahs" of ten 50-year jubilees. The 2,000-year age has an ancient witness: the Talmud's six thousand
+years in three ages of two thousand (b. *Sanhedrin* 97a; b. *Avodah Zarah* 9a), set out in
+[A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md#the-talmud-the-world-runs-on-a-sabbatical-cycle).
+The 500-year Onah is dsscalendar.org's own unit. The Hebrew <span dir="rtl">עוֹנָה</span> (*onah*,
+H5772) occurs once in the Hebrew Bible, as a wife's "marital rights" (Exodus 21:10, ESV), and I have
+found no ancient source that uses it for a span of 500 years.
+
+The same week of thousand-year days is the shape of this site's own reading of 2 Peter 3:8 in
+[The Day is Near](../last-things/day-is-near.md#when-is-the-year-6000): six 1,000-year "days" of
+ordinary history followed by a seventh, sabbath-rest millennium. Where the New Testament draws the
+line between this age and the next is [The End of the Age](../last-things/end-of-the-age.md).
 
 Nested inside that larger scheme are ordinary Sabbatical (7-year, Leviticus
 25:1-7) and Jubilee (50-year, Leviticus 25:8-13)
@@ -161,6 +171,26 @@ And **140 jubilees of 50 years each**. That last figure settles, for its scheme,
 Leviticus 25:8-10 leaves open between a 49-year and a 50-year cycle: 140 × 50 = 7,000 exactly, where
 49-year cycles would not divide the total at all.
 
+**The ambiguity is old, and Leviticus leaves it open.** Everyone agrees on the text: "count seven weeks
+of years … forty-nine years", then "consecrate the fiftieth year … It shall be a jubilee for you"
+(Leviticus 25:8, 10, ESV). The question is where the next count starts once the jubilee year ends.
+The Talmud records both answers. The Rabbis hold that "the year following the Jubilee Year is
+considered the first year of the next seven-year cycle", a 50-year cycle. Rabbi Yehuda holds that "the
+fiftieth year is counted for here and for there", as the jubilee and as year one of the next cycle,
+"and therefore each Jubilee cycle is only forty-nine years" (b. *Nedarim* 61a; b. *Arakhin* 12b,
+William Davidson Edition). The book of Jubilees counts in 49s: "forty-nine jubilees from the days of
+Adam until this day, and one week and two years", with forty more years to the Jordan (Jubilees 50:4,
+trans. R. H. Charles), which is 2,450 years.
+
+The choice changes every larger number. Forty jubilees make 2,000 years on the Rabbis' count and
+1,960 on Rabbi Yehuda's. Ten make 500 or 490, and 490 is Daniel's seventy weeks (Daniel 9:24), the
+span usually read behind the "tenth jubilee" of the Melchizedek scroll (11Q13). When Elijah tells Rav
+Yehuda the world will last "no fewer than eighty-five Jubilee cycles, or 4,250 years" (b. *Sanhedrin*
+97b), the Talmud is counting in fifties. This site follows dsscalendar.org's 50 and holds it as a
+choice, since Scripture does not settle it.
+
+[![The Zadok calendar's nested sevens. The 364-day year in four quarters of three 30-day months and a Tekufah day, 91 days or 13 weeks each. Then a ladder: the week, the year of 52 weeks, the sabbatical of seven years (Leviticus 25:1-7) and the jubilee, forty-nine years and then the fiftieth (Leviticus 25:8-10). There the count divides: the Rabbis' 50-year cycle, under which ten jubilees make dsscalendar.org's 500-year Onah and forty make the Talmud's 2,000-year age; and Rabbi Yehuda's and the book of Jubilees' 49-year cycle, under which ten jubilees make Daniel's 490 years and fifty run from Adam to the Jordan. dsscalendar.org's constructions are dashed.](../assets/img/feasts/weeks-within-weeks.svg)](../assets/img/feasts/weeks-within-weeks.svg)
+
 ### Where the Exodus falls
 
 **The three differ only in where they anchor the Exodus.** Walking the Masoretic genealogy from Adam
@@ -195,3 +225,6 @@ The figures, with the scriptural basis for each, are in `docs/data/genealogy/ind
 - The book of Jubilees, chapter 6.
 - [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md) — for the Dead Sea Scrolls' broader significance.
 - [The Day is Near](../last-things/day-is-near.md) — this site's 7,000-year, six-days-plus-a-sabbath-millennium reading that this calendar's larger week-of-weeks scheme supports.
+- [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) — the thousand-year days and the Talmud's three ages of two thousand years.
+- [The End of the Age](../last-things/end-of-the-age.md) — the New Testament's line between this age and the next.
+- R. H. Charles, trans., *The Book of Jubilees* (1913), 50:4; b. *Nedarim* 61a, b. *Arakhin* 12b and b. *Sanhedrin* 97b, William Davidson Edition (Sefaria, CC-BY-NC).

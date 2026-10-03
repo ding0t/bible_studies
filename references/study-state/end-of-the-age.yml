@@ -1,0 +1,145 @@
+# Backlog 5.5 (the age to come), developed on its hinge: "the end of the age". The age-to-come
+# texts (Matt 12:32, Mark 10:30, Luke 20:34-36, Eph 1:21, Heb 6:5, m. Sanh 10:1) are already
+# treated in new-heaven-and-new-earth.md "The age to come", whose state file records that it
+# fulfils 5.5. This study takes what that one leaves out: the synteleia phrase, the close of
+# THIS age, and why the NT says the end of the ages both has come and is still coming.
+slug: "end-of-the-age"
+title: "The End of the Age"
+status: published # 2026-10-03, at the author's request; review-bible-study and read-bible-study passes not yet run
+target_path: "docs/content/last-things/end-of-the-age.md"
+
+primary_passage: "Matthew 13:36-43; Matthew 24:3; Matthew 28:20"
+supporting_passages:
+  - "Matthew 13:24-30, 47-50"
+  - "Hebrews 9:26-28"
+  - "1 Corinthians 10:11"
+  - "Daniel 9:27; 12:4, 13"
+  - "Galatians 1:4"
+  - "Romans 12:2"
+  - "Matthew 12:32; Luke 20:34-36; Hebrews 6:5"
+  - "1 Thessalonians 4:17"
+genre: [gospel, parable, epistle, prophets, topical]
+
+thesis: "Jesus took Daniel's word for the end and named three things by it: the harvest that separates the righteous from the wicked, His own coming, and the limit of His promise to be with you every day; the apostles say that end began at the cross, so you live between its opening and its close."
+outline:
+  - {section: "Two ages", says: "Jewish one-break frame (1 Enoch 16:1; 2 Esdras 7:43, 8:1); age to come handed to new-heaven-and-new-earth.md"}
+  - {section: "Daniel's word for the end", says: "synteleia 6x NT (Matt 5, Heb 1); Dan 12:4 et qets = heos kairou synteleias in both Greek versions; OG Daniel 23x; Matt 24:15 sends the disciples to Daniel"}
+  - {section: "The harvest at the close of the age", says: "Matt 13:39-43, 47-50: angels separate, wicked first (13:30), righteous shine (Dan 12:3)"}
+  - {section: "Your coming and the end of the age", says: "24:3 one article, paired not proven identical; 24:14-31 sequence; close = end of Daniel's 70th week (dispensational, alternative given)"}
+  - {section: "All the days", says: "28:20 lit. all the days; divine presence; contested: pretrib church vs promise to end of age, both cases"}
+  - {section: "The end has already come", says: "Heb 9:26-28 hapax / ek deuterou; 1 Cor 10:11 perfect; Heb 1:2; chart"}
+  - {section: "Living in this age", says: "Gal 1:4 redemption from the age; Titus 2:12; Rom 12:2 aion -- only CSB 'this age'"}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Backlog 5.5 asked for "the age to come"; user asked for "the end of the age". Sibling
+      new-heaven-and-new-earth.md already carries a full "The age to come" section (two ages,
+      m. Sanh 10:1, Matt 12:32, Mark 10:30, Luke 20:35-36, Eph 1:21, Heb 6:5, palingenesia,
+      millennium as first stage, 1 Cor 15:24-28). Do not repeat it; link to it. This study owns
+      the synteleia texts and the present age.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Second Temple two-age frame. Primary texts on disk (open-data deuterocanonical, Charles
+        1913 / KJV Apocrypha): 1 Enoch 16:1 "until the day of the consummation, the great
+        judgement in which the age shall be consummated" (Book of Watchers, pre-Christian);
+        2 Esdras 7:43 (KJV numbering; = 4 Ezra 7:113 in modern editions) "the day of doom shall be
+        the end of this time, and the beginning of the immortality for to come"; 2 Esdras 8:1
+        "The most High hath made this world for many, but the world to come for few" (c. AD 100,
+        after Jesus -- witness to the frame, not its source). Testament of Levi "end of the ages"
+        (scrollmapper chapters 3:44, 4:11 = conventional T.Levi 10:2, 14:1) -- Christian
+        interpolations in context ("Saviour of the world, Christ"), so not usable as pre-Christian
+        evidence. Mishnah m. Sanh 10:1 already cited by sibling. CBSB on Heb 9:26: Jews divided
+        history into many ages, most basically present age / age to come. CBSB on Matt 13:39:
+        harvest as end-of-age image elsewhere (2 Baruch 70:2).
+    literary_context:
+      done: true
+      notes: >
+        Matthew alone has the phrase (5x) and places it at three hinges: the kingdom parables
+        explained privately to disciples (13:36-52; weeds and net, both with angels separating at
+        the end); the disciples' question on the Mount of Olives (24:3), opening the 5th
+        discourse; and the last sentence of the Gospel (28:20). 13:30 "gather the weeds first".
+        24:15 points the reader to Daniel; 24:29-31 the coming "immediately after the
+        tribulation", angels gathering. Hebrews 9:26 sits in the once-for-all argument
+        (9:25-28): first appearing at the synteleia of the ages to put away sin, second appearing
+        to save. 1 Cor 10:11: Israel's wilderness history written "for our instruction, on whom
+        the end of the ages has come".
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "συντέλεια", language: greek, transliteration: "synteleia", strongs_id: "G4930", gloss: "completion, consummation, close", range_of_meanings: ["bringing to completion", "end point of a period"], notes: "6x NT (macula-greek-sblgnt): Matt 13:39, 40, 49; 24:3; 28:20; Heb 9:26. Matthew 5 + Hebrews 1. LSB footnotes Matt 13:39 and 24:3 'Or consummation'. LXX 87x (lxx-lemmas); 6x in Greek Daniel: 9:27 (x2), 11:36, 12:4, 12:13 (x2). Brenton's Greek (Theodotion's Daniel, the text the church read): 12:4 ἕως καιροῦ συντελείας 'until the time of the end'; 12:13 εἰς συντέλειαν ἡμερῶν; 9:27 ἕως τῆς συντελείας καιροῦ συντέλεια δοθήσεται. So the disciples' word in 24:3 is Daniel's word for the end of the seventieth week and the end of days."}
+        - {word: "αἰών", language: greek, transliteration: "aiōn", strongs_id: "G165", gloss: "age, era; world (as a time-span)", notes: "122x NT (macula-greek-sblgnt). Rom 12:2 τῷ αἰῶνι τούτῳ -- ESV/NIV/NASB/LSB/NKJV/WEB/ASV 'this world', CSB alone 'this age'. Gal 1:4 τοῦ αἰῶνος τοῦ ἐνεστῶτος πονηροῦ 'the present evil age'. 2 Cor 4:4 'god of this world' (aiōn). Titus 2:12 'in the present age'. Heb 9:26 and 1 Cor 10:11 plural τῶν αἰώνων."}
+        - {word: "τὰ τέλη τῶν αἰώνων", language: greek, transliteration: "ta telē tōn aiōnōn", strongs_id: "G5056", gloss: "the ends of the ages", notes: "1 Cor 10:11, plural τέλη, perfect κατήντηκεν 'has arrived'. CSB AFSB footnote: 'Or goals of the ages, or culmination of the ages'."}
+        - {word: "קֵץ", language: hebrew, transliteration: "qets", strongs_id: "H7093", gloss: "end", notes: "Dan 12:4 עַד־עֵת קֵץ 'until the time of the end'; 12:13 לֵךְ לַקֵּץ ... לְקֵץ הַיָּמִין 'go your way till the end ... at the end of the days'. Behind Theodotion's synteleia. (Concordance count not taken -- morphhb id form returned 0; make no count claim.)"}
+        - {word: "πάσας τὰς ἡμέρας", language: greek, transliteration: "pasas tas hēmeras", strongs_id: "", gloss: "all the days", notes: "Matt 28:20; LSB and CSB AFSB footnote 'Lit all the days'. ESV 'always'."}
+        - {word: "παρουσία", language: greek, transliteration: "parousia", strongs_id: "G3952", gloss: "coming, arrival", notes: "Matt 24:3 τῆς σῆς παρουσίας καὶ συντελείας τοῦ αἰῶνος -- one article over both nouns: the disciples ask one question about two linked things. Impersonal nouns, so Sharp's rule does not prove identity; say 'paired under one article', not 'the same event'."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Two-age frame is Jewish background Jesus adopts and Paul/Hebrews modify: the end has begun (cross) before it is complete (return)."
+    theological_principle:
+      done: true
+      notes: >
+        God has fixed an end to this age and has already begun it in His Son's sacrifice; He will
+        complete it by His Son's return and harvest; until then the risen Jesus is with His people
+        every day. Statement of faith (End times): pretrib rapture, literal 7-year tribulation
+        (Dan 9:27), visible return (Rev 19:11-16). Consistent: the synteleia in 24:3 is Daniel's
+        end of the seventieth week; the harvest of 13:39-43 falls at the return after the
+        tribulation (matches one-taken-one-left.md: wicked removed first, 13:30). TENSION to mark
+        as contested: Matt 28:20 runs "to the end of the age", yet on a pretrib reading the church
+        is caught up seven years before it. Dispensational answers: (a) the promise is kept more
+        fully, not broken -- "always (pantote) with the Lord" (1 Thess 4:17); (b) disciple-making
+        continues through the tribulation (Matt 24:14). Non-dispensational readers take 28:20 as
+        evidence the church is on earth until the return. Give both.
+    application_draft:
+      done: false
+      notes: "Romans 12:2: do not be conformed to this AGE -- you belong to the age that is coming; Matt 28:20 every day; 1 Cor 10:11 Scripture written for you."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Daniel 9:27; 12:4, 13 (Theodotion)", relation: "source of synteleia as 'the end'"}
+      - {ref: "Matthew 24:15, 29-31", relation: "Daniel's abomination; the return and angelic gathering"}
+      - {ref: "Hebrews 1:2", relation: "'in these last days he has spoken to us by his Son'"}
+      - {ref: "Galatians 1:4", relation: "rescued from the present evil age"}
+      - {ref: "1 Thessalonians 4:17", relation: "'always with the Lord'"}
+    translations_compared: ["ESV", "NIV", "CSB", "NASB", "LSB", "NKJV", "WEB", "ASV", "NLT"]
+    divergences_noted: "Rom 12:2 aiōn: only CSB 'this age'. Matt 13:39/24:3: LSB fn 'consummation'; NLT fn 'Or the age'. Matt 28:20: LSB/CSB fn 'Lit all the days'."
+  drafting:
+    done: true
+    file: "docs/content/last-things/end-of-the-age.md"
+    chart: "docs/content/assets/img/last-things/end-of-the-ages.svg (utils/build_last_things_graphics.py end-of-the-ages)"
+  review:
+    done: false
+    validated: true # npm run validate: provenance only, then filled; mkdocs build --strict passes
+
+open_questions:
+  - "SHIP TOGETHER: new-heaven-and-new-earth.md, day-is-a-thousand-years.md and feasts/zadok-calendar.md now link to end-of-the-age.md (cross-linking pass 2026-10-03). Commit them in the same commit that flips this study to draft: false. Verified: mkdocs build --strict does NOT catch a published page linking a draft (draft_pages drops the file and the link renders as a raw href to end-of-the-age.md), despite what AGENTS.md and hooks/draft_pages.py say."
+  - "Scope lines added 2026-10-03: this study = the line between the ages; new-heaven = the age to come; day-is-a-thousand-years = length of the ages, 'last days'; zadok-calendar = calendar, jubilees, 49/50, onah caveat. Charts: end-of-the-ages (here), six-days-three-ages, eighth-day, weeks-within-weeks."
+  - "Fork candidate: Daniel's 'time of the end' (qets) across Daniel 8-12 -- not this study."
+  - "Backlog 5.5: close it once this publishes -- age to come covered by new-heaven-and-new-earth.md, the end of the age by this study."
+  - "Author check: 'All the days' contested section -- pretrib church vs promise to the end of the age. Held with moderate confidence; consistent with statement-of-faith End times, but flag in case author wants it framed differently."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Matt 13:39-40 harvest at return; 24:3 near/far intertwined; Heb 9:25-26 end of ages inaugurated, awaits consummation (confirmed); 1 Cor 10:11."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Heb 9:26 'decisive start' at incarnation/death/exaltation; Matt 28:20 end of history at return; 1 Cor 10:11 last days begun."}
+  - {type: commentary, title: "NIV/NKJV Cultural Backgrounds Study Bible", author: "Keener/Walton", note: "Contributed: Jewish many-ages schemes (Heb 9:26); harvest image in 2 Baruch 70:2 (Matt 13:39); only God omnipresent, so 28:20 presents Jesus as divine."}
+  - {type: other, title: "LSB 2021 / CSB Ancient Faith footnotes", author: "", note: "'Or consummation' (Matt 13:39; 24:3); 'Lit all the days' (Matt 28:20); 'Or goals of the ages' (1 Cor 10:11)."}
+  - {type: other, title: "1 Enoch (Charles 1913); 2 Esdras (KJV Apocrypha)", author: "", note: "Raw files under references/open-data/scrollmapper-bible-databases-deuterocanonical/sources/en/."}
+evidence:
+  - {id: synteleia-nt, what: "synteleia 6x NT: Matt 13:39, 40, 49; 24:3; 28:20; Heb 9:26", tool: bible_concordance, args: {strongs: G4930, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "6", checked: 2026-10-03}
+  - {id: aion-nt, what: "aion 122x SBLGNT", tool: bible_concordance, args: {strongs: G165, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "122", checked: 2026-10-03}
+  - {id: dan12-4-th, what: "Theodotion Dan 12:4 heos kairou synteleias", tool: bible_verse, args: {book: Dan, chapter: 12, verse: 4, translation: ebible-grcbrent}, expect_contains: "ἕως καιροῦ συντελείας", checked: 2026-10-03}
+  - {id: m24-3-gk, what: "one article over parousia and synteleia", tool: bible_verse, args: {book: Matt, chapter: 24, verse: 3, translation: sblgnt}, expect_contains: "τῆς σῆς παρουσίας", checked: 2026-10-03}
+  - {id: m28-20-esv, what: "ESV Matt 28:20", tool: study_verse, args: {book: Matt, chapter: 28, verse: 20, work_id: esv-study-bible}, expect_contains: "I am with you always, to the end of the age", checked: 2026-10-03}
+  - {id: heb9-26-esv, what: "ESV Heb 9:26", tool: study_verse, args: {book: Heb, chapter: 9, verse: 26, work_id: esv-study-bible}, expect_contains: "once for all at the end of the ages", checked: 2026-10-03}
+  - {id: 1cor10-11-esv, what: "ESV 1 Cor 10:11", tool: study_verse, args: {book: 1Cor, chapter: 10, verse: 11, work_id: esv-study-bible}, expect_contains: "on whom the end of the ages has come", checked: 2026-10-03}
+  - {id: rom12-2-csb, what: "CSB Rom 12:2 'this age'", tool: study_verse, args: {book: Rom, chapter: 12, verse: 2, work_id: csb-ancient-faith-study-bible}, expect_contains: "Do not be conformed to this age", checked: 2026-10-03}
+  - {id: m13-39-esv, what: "ESV Matt 13:39", tool: study_verse, args: {book: Matt, chapter: 13, verse: 39, work_id: esv-study-bible}, expect_contains: "The harvest is the end of the age", checked: 2026-10-03}
+# Not replayable through the registry: Old Greek Daniel synteleia 23x (references/open-data/greek-resources/LxxLemmas/DanOG.js,
+# incl. 9:27 x4, 12:4, 12:13 x2); Theodotion 6x (DanTh.js; also lxx-lemmas Dan via bible_concordance).
+last_updated: "2026-10-03"

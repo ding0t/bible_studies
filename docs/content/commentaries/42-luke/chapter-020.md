@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 20:34-36
+- [The End of the Age](../../last-things/end-of-the-age.md) — 20:34-36
 <!-- commentary-index:auto-end -->

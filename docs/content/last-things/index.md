@@ -65,6 +65,14 @@ End-times prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](day-is-near.md)
 
+-   __The End of the Age__
+
+    ---
+
+    Matthew's five uses of 'the end of the age', the Greek word he shares with Daniel, and why Hebrews and Paul say the end of the ages has already come: it opened at the cross and closes at Christ's return, and Jesus is with you every day in between.
+
+    [:octicons-arrow-right-24: Read](end-of-the-age.md)
+
 -   __The Fig Tree and This Generation__
 
     ---

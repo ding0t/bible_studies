@@ -19,6 +19,7 @@ draft: false
 - [The Appointed Times](../../feasts/feasts.md) — 9:7-12
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 9:4-7
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 9:14
+- [The End of the Age](../../last-things/end-of-the-age.md) — 9:26-28
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 9:3-4
 - [The Heavenly Pattern](../../jesus/the-heavenly-pattern/index.md) — 9:5
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 9:2

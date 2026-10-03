@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The End of the Age](../../last-things/end-of-the-age.md) — 28:20 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 28:1
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 28:1
 - [The Appointed Times](../../feasts/feasts.md) — 28:1

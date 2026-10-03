@@ -114,6 +114,12 @@ living as though the seventh day were not coming. In Jesus' name. Amen.
 
 ## Study outline
 
+This study covers the length and shape of that week: its thousand-year days, the Talmud's three ages
+of two thousand years, and "the last days". The line the New Testament draws between this age and
+the next is [The End of the Age](end-of-the-age.md); the eighth day beyond the week is
+[A New Heaven and a New Earth](new-heaven-and-new-earth.md); the calendar and jubilees the years are
+counted in are [The Zadok Calendar](../feasts/zadok-calendar.md).
+
 - [The verse, in its own argument](#the-verse-in-its-own-argument). 2 Peter 3:3-9, the scoffers' premise, and the chiasm of verse 8.
 - [Where Peter got it](#where-peter-got-it). Psalm 90:4 and the two changes Peter made to it.
 - [What Peter's readers already believed](#what-peters-readers-already-believed). Jubilees, the Talmud, the Temple psalms and 2 Enoch on the thousand-year day.
@@ -243,7 +249,13 @@ then from Psalm 90:4, quoted in full as the warrant for equating one day with a 
 (b. *Sanhedrin* 97a). The same page records the school of Elijah's division of the six thousand
 into two thousand years of chaos, two thousand of Torah, and two thousand of the days of Messiah
 — a baraita repeated at b. *Avodah Zarah* 9a, where the Gemara notes that whoever taught it would
-insert the years elapsed in his own day.
+insert the years elapsed in his own day. The same page starts the age of Torah with Abraham at 52,
+when he and Sarah gathered "the souls that they had gotten in Haran" (Genesis 12:5), and not at
+Sinai, which on its count fell 2,448 years after creation. The jubilee arithmetic these counts rest
+on, and the open question of whether a jubilee cycle is 49 years or 50, is set out in
+[The Zadok Calendar](../feasts/zadok-calendar.md#the-enoch-wheels-140-jubilees).
+
+[![The Talmud's two readings of the world-week. Above, six days of a thousand years and a seventh that is all Sabbath (Psalm 92:1; 90:4). Below, the school of Elijah's three ages of two thousand years, chaos, Torah and the days of Messiah, with the age of Torah starting at Abraham aged 52 and Sinai at year 2,448 on the Talmud's own count, and the lament that years had passed from the days of Messiah without His coming (b. Sanhedrin 97a; b. Avodah Zarah 9a). Rav Ketina and Abaye give the world's ruin as one thousand or two thousand years (Isaiah 2:11; Hosea 6:2). A dashed row places Abram's call and the cross on this site's chronology, the cross a few years before the four-thousandth year.](../assets/img/last-things/six-days-three-ages.svg)](../assets/img/last-things/six-days-three-ages.svg)
 
 The chain is the one the church later used:
 seven-day week → seven-year Sabbatical cycle → seven-millennium world-week, with Psalm 90:4
@@ -453,7 +465,8 @@ that "a time of not-counting"; Barnabas called it "a beginning of another world"
 to the day Christ rose. The pattern of eighth days in the Law points the same way — circumcision on
 the eighth day (Genesis 17:12), the closing assembly on the eighth day of Tabernacles (Leviticus
 23:36) — a day that is both after the seven and the start of something that is not counted in
-sevens at all.
+sevens at all. [A New Heaven and a New Earth](new-heaven-and-new-earth.md#the-eighth-day) works
+through the eighth day and the new creation it points to.
 
 ## The last days are the last of the days
 
@@ -482,7 +495,8 @@ about an event happening as he speaks. And of Christ: "he was foreknown before t
 the world but was made manifest in the last times for the sake of you" (1 Peter 1:20).
 
 This shows that God has already begun the end. In sending Jesus He opened the last days, and you
-are living in them.
+are living in them. The New Testament's other phrase for the same span, "the end of the ages"
+(Hebrews 9:26; 1 Corinthians 10:11), is traced in [The End of the Age](end-of-the-age.md#the-end-has-already-come).
 
 ### The last two of the six days
 
@@ -624,3 +638,6 @@ Jesus (4:3, 10). The One who fixed the week will finish it, so you can rest in H
   the sabbatical calendar it runs on.
 - [Bible Prophecy Essentials](prophecy-essentials.md) — where the millennium sits in the wider
   dispensational order of events.
+- [The End of the Age](end-of-the-age.md) — the close of this age, Matthew's συντέλεια, opened at
+  the cross and closed at Christ's return.
+- [A New Heaven and a New Earth](new-heaven-and-new-earth.md) — the eighth day, and the age to come.

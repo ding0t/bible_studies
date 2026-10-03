@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The End of the Age](../../last-things/end-of-the-age.md) — 13:36-43 (primary passage)
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 13:51-52 (primary passage)
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 13:30
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 13:52

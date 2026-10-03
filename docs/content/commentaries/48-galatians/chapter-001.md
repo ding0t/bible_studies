@@ -16,4 +16,5 @@ draft: false
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 1:19
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 1:12
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 1:11-24
+- [The End of the Age](../../last-things/end-of-the-age.md) — 1:4
 <!-- commentary-index:auto-end -->

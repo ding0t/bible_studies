@@ -21,6 +21,7 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 9:3
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 9:24-27
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 9:2-3
+- [The End of the Age](../../last-things/end-of-the-age.md) — 9:27
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 9:24-27
 - [The Rapture of the Church](../../last-things/rapture.md) — 9:27
 - [The Restrainer](../../last-things/the-restrainer.md) — 9:27

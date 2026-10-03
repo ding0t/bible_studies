@@ -322,6 +322,8 @@ The Law counts in sevens, and then several times it adds a day.
 
 Each time, seven days complete something and the eighth begins what the seven were for.
 
+[![Seven rows of seven small squares, each followed by a gold eighth: a son's circumcision, a firstborn animal, the priests' ordination, a cleansed leper and the Feast of Booths from the Law, then, dashed as readings of the pattern, the day Jesus rose, the first day after the Sabbath, which Barnabas calls the eighth day, and the week of history followed by the new heaven and new earth. Below, Noah's household, the eight persons brought through water whom Peter makes the pattern of baptism and the resurrection (1 Peter 3:20-21).](../assets/img/last-things/eighth-day.svg)](../assets/img/last-things/eighth-day.svg)
+
 The Feast of Booths makes the point most clearly. Its last day is <span dir="rtl">הַשְּׁמִינִי</span>
 (*hashemini*, H8066), "the eighth," and it is called an <span dir="rtl">עֲצֶרֶת</span> (*atzeret*,
 H6116), a "solemn assembly" (Leviticus 23:36). It is also a <span dir="rtl">שַׁבָּתוֹן</span>
@@ -385,6 +387,9 @@ beginning that God makes, and it does not run down.
 Jesus rose on the first day of that week. So your resurrection is already dated on God's calendar.
 
 ## The age to come
+
+This section covers the age on the far side of the line. The line itself, the New Testament's "end of
+the age" and why Hebrews says it has already begun, is [The End of the Age](end-of-the-age.md).
 
 ### Two ages
 
@@ -494,6 +499,8 @@ cannot be shaken" (Hebrews 12:28, ESV).
 - [The New Jerusalem](new-jerusalem.md) — the city that comes down into the new creation.
 - [A Day Is a Thousand Years](day-is-a-thousand-years.md) — the seventh day as the millennium, and
   the eighth.
+- [The End of the Age](end-of-the-age.md) — the close of this age: Matthew's harvest, the
+  disciples' question, and the end that opened at the cross.
 - [Taken Before Judgment](taken-before-judgment.md) — Enoch, Noah and Lot, rescued before judgment.
 - [Heaven and Earth Will Pass Away](heaven-and-earth-will-pass-away.md) — 2 Peter 3, the textual
   problem at 2 Peter 3:10, and renewal or replacement.

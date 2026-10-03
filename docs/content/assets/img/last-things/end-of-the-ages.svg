@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1060" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">The end of the ages</title>
+<desc id="d">Two timelines. The first is the Jewish two-age frame of 1 Enoch 16:1 and 2 Esdras 7:43: this age and the age to come, divided by one judgment. The second is the New Testament's: a red span marked 'the end of the ages' opens at the cross, where Hebrews 9:26 and 1 Corinthians 10:11 say it has already come, and closes at Christ's return after Daniel's seventieth week, the 'close of the age' of Matthew 13:39-43 and 24:3. Between them runs the church age, under Matthew 28:20's promise, 'I am with you all the days, to the end of the age.' A dashed arc rises from the end of the church age to the clouds, the rapture, placed by inference; a solid arc comes down at the end of the week, the return. Beyond the return is the age to come: the thousand years, dashed as its first stage by inference, and the new creation. Cards below sort the texts by where they fall: at the cross, in the days between, and at His return.</desc>
+<rect width="720" height="1060" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1044" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1032" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE END OF THE AGES</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Opened at the cross, closed at His return</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<text x="360.0" y="138.0" font-size="13" fill="#6b5a3e" text-anchor="middle" font-weight="bold" letter-spacing="2">AS JEWISH TEACHING EXPECTED IT</text>
+<rect x="40" y="172" width="320.0" height="30" fill="#efe4d0" stroke="#3b2f1e"/>
+<text x="200.0" y="192.0" font-size="14" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THIS AGE</text>
+<rect x="360.0" y="172" width="320.0" height="30" fill="#f6ecd0" stroke="#a67c3d"/>
+<text x="520.0" y="192.0" font-size="14" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE AGE TO COME</text>
+<path d="M360.0 160 V214" stroke="#8b1e1e" stroke-width="3"/>
+<text x="360.0" y="154.0" font-size="13" fill="#8b1e1e" text-anchor="middle" font-style="italic">Messiah · the judgment</text>
+<text x="360.0" y="232.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">One line, one break · 1 Enoch 16:1 · 2 Esdras 7:43</text>
+<path d="M140.0 256 H580.0" stroke="#3b2f1e" stroke-width="0.6"/>
+<text x="360.0" y="286.0" font-size="13" fill="#6b5a3e" text-anchor="middle" font-weight="bold" letter-spacing="2">AS THE NEW TESTAMENT TELLS IT</text>
+<path d="M40.0 306 H460.0 L450.0 319.0 L460.0 332 H40.0 L50.0 319.0 Z" fill="#3b2f1e"/>
+<text x="250.0" y="324.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THIS AGE</text>
+<path d="M480.0 306 H680.0 L670.0 319.0 L680.0 332 H480.0 L490.0 319.0 Z" fill="#a67c3d"/>
+<text x="580.0" y="323.5" font-size="12.5" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE AGE TO COME</text>
+<path d="M140 372 H470" stroke="#8b1e1e" stroke-width="3"/>
+<path d="M140 363 V381 M470 363 V381" stroke="#8b1e1e" stroke-width="2"/>
+<text x="265.0" y="362.0" font-size="14" fill="#8b1e1e" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE END OF THE AGES</text>
+<text x="144.0" y="396.0" font-size="13" fill="#8b1e1e" font-style="italic">“has come”</text>
+<text x="466.0" y="396.0" font-size="13" fill="#8b1e1e" text-anchor="end" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">“the close of the age”</text>
+<g fill="#ffffff" stroke="#a67c3d" stroke-width="1.2"><circle cx="372.6" cy="459.4" r="22.6"/><circle cx="404.2" cy="453.8" r="28.2"/><circle cx="435.8" cy="459.4" r="22.6"/><circle cx="467.4" cy="453.8" r="28.2"/></g>
+<rect x="363.5" y="461.7" width="112.9" height="20.3" fill="#ffffff"/>
+<path d="M356.8 482 H483.2" stroke="#a67c3d" stroke-width="1.2"/>
+<text x="420.0" y="504.0" font-size="12.5" fill="#a67c3d" text-anchor="middle" font-style="italic">with the Lord</text>
+<rect x="30" y="550" width="110" height="30" fill="#efe4d0" stroke="#3b2f1e"/>
+<text x="85.0" y="570.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">AGES PAST</text>
+<rect x="140" y="550" width="230" height="30" fill="#e8c46a" stroke="#a67c3d"/>
+<text x="255.0" y="570.0" font-size="13.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1">THE CHURCH AGE</text>
+<rect x="370" y="550" width="100" height="30" fill="#f1dcd4" stroke="#3b2f1e"/>
+<text x="420.0" y="570.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">70TH WEEK</text>
+<rect x="470" y="550" width="110" height="30" fill="#f6ecd0" stroke="#a67c3d" stroke-dasharray="5 4"/>
+<text x="525.0" y="570.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1,000 YEARS</text>
+<rect x="580" y="550" width="110" height="30" fill="#fffdf7" stroke="#a67c3d"/>
+<text x="635.0" y="570.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">NEW CREATION</text>
+<path d="M24 581 H696" stroke="#3b2f1e" stroke-width="1.5"/>
+<text x="420.0" y="598.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Daniel 9:27</text>
+<text x="580.0" y="598.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Rev 20:4-6 · 21:1</text>
+<path d="M140 492 V546 M126 506 H154" stroke="#3b2f1e" stroke-width="5" stroke-linecap="round"/>
+<text x="162.0" y="516.0" font-size="13" fill="#3b2f1e" font-style="italic">once for all</text>
+<path d="M364 546 C340 520 352 500 384 488" fill="none" stroke="#a67c3d" stroke-width="3" stroke-dasharray="7 5"/>
+<path d="M386.0 487.0 L377.6 495.6 L374.1 485.8 Z" fill="#a67c3d"/>
+<path d="M458 488 C488 496 486 520 472 544" fill="none" stroke="#a67c3d" stroke-width="4"/>
+<path d="M472.0 548.0 L468.5 535.5 L479.6 537.5 Z" fill="#a67c3d"/>
+<text x="492.0" y="492.0" font-size="13" fill="#a67c3d" font-weight="bold">He returns</text>
+<text x="492.0" y="509.0" font-size="12" fill="#6b5a3e" font-style="italic">Matt 24:29-31</text>
+<path d="M140 626 H370" stroke="#2f4f7f" stroke-width="3"/>
+<path d="M370 626 H470" stroke="#2f4f7f" stroke-width="3" stroke-dasharray="7 5"/>
+<path d="M140 618 V634 M470 618 V634" stroke="#2f4f7f" stroke-width="2"/>
+<text x="305.0" y="650.0" font-size="13.5" fill="#2f4f7f" text-anchor="middle" font-style="italic">“I am with you all the days, to the end of the age”</text>
+<text x="305.0" y="668.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">Matthew 28:20 (lit.) · then “always with the Lord” (1 Thess 4:17)</text>
+<text x="133.0" y="704.0" font-size="13" fill="#a67c3d" text-anchor="middle" font-weight="bold" letter-spacing="1.5">AT THE CROSS</text>
+<rect x="30.0" y="716.0" width="206.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="38.0" y="734.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">The end of the ages</text>
+<text x="38.0" y="751.5" font-size="13.5" fill="#3b2f1e">has come</text>
+<text x="38.0" y="768.5" font-size="12.0" fill="#6b5a3e" font-style="italic">Heb 9:26 · 1 Cor 10:11</text>
+<rect x="30.0" y="787.0" width="206.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="38.0" y="805.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">“In these last days”</text>
+<text x="38.0" y="822.5" font-size="13.5" fill="#3b2f1e">God has spoken</text>
+<text x="38.0" y="839.5" font-size="12.0" fill="#6b5a3e" font-style="italic">Heb 1:2</text>
+<rect x="30.0" y="858.0" width="206.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="38.0" y="876.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">Rescued from the</text>
+<text x="38.0" y="893.5" font-size="13.5" fill="#3b2f1e">present evil age</text>
+<text x="38.0" y="910.5" font-size="12.0" fill="#6b5a3e" font-style="italic">Gal 1:4</text>
+<text x="360.0" y="704.0" font-size="13" fill="#a67c3d" text-anchor="middle" font-weight="bold" letter-spacing="1.5">ALL THE DAYS BETWEEN</text>
+<rect x="257.0" y="716.0" width="206.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="265.0" y="734.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">Jesus with His</text>
+<text x="265.0" y="751.5" font-size="13.5" fill="#3b2f1e">disciples every day</text>
+<text x="265.0" y="768.5" font-size="12.0" fill="#6b5a3e" font-style="italic">Matt 28:20</text>
+<rect x="257.0" y="787.0" width="206.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="265.0" y="805.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">Weeds and wheat</text>
+<text x="265.0" y="822.5" font-size="13.5" fill="#3b2f1e">grow together</text>
+<text x="265.0" y="839.5" font-size="12.0" fill="#6b5a3e" font-style="italic">Matt 13:30</text>
+<rect x="257.0" y="858.0" width="206.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="265.0" y="876.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">The church caught up</text>
+<text x="265.0" y="893.5" font-size="13.5" fill="#3b2f1e">before the week</text>
+<text x="265.0" y="910.5" font-size="12.0" fill="#6b5a3e" font-style="italic">1 Thess 4:17 · Rev 3:10</text>
+<text x="587.0" y="704.0" font-size="13" fill="#a67c3d" text-anchor="middle" font-weight="bold" letter-spacing="1.5">AT HIS RETURN</text>
+<rect x="484.0" y="716.0" width="206.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="492.0" y="734.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">Daniel’s end:</text>
+<text x="492.0" y="751.5" font-size="13.5" fill="#3b2f1e">the week closes</text>
+<text x="492.0" y="768.5" font-size="12.0" fill="#6b5a3e" font-style="italic">Dan 9:27 · 12:4, 13</text>
+<rect x="484.0" y="787.0" width="206.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="492.0" y="805.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">The harvest: angels</text>
+<text x="492.0" y="822.5" font-size="13.5" fill="#3b2f1e">separate the wicked</text>
+<text x="492.0" y="839.5" font-size="12.0" fill="#6b5a3e" font-style="italic">Matt 13:39-43, 49</text>
+<rect x="484.0" y="858.0" width="206.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="492.0" y="876.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">“Your coming and the</text>
+<text x="492.0" y="893.5" font-size="13.5" fill="#3b2f1e">end of the age”</text>
+<text x="492.0" y="910.5" font-size="12.0" fill="#6b5a3e" font-style="italic">Matt 24:3</text>
+<rect x="40.0" y="964.0" width="150.0" height="27" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="48.0" y="982.5" font-size="13" fill="#3b2f1e" font-weight="bold">The text dates it</text>
+<rect x="215.0" y="964.0" width="210.0" height="27" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="223.0" y="982.5" font-size="13" fill="#3b2f1e" font-weight="bold">Placed by its order</text>
+<text x="360.0" y="1016.0" font-size="13.5" fill="#3b2f1e" text-anchor="middle" font-style="italic">The end began when Jesus offered Himself, and it closes when He comes back.</text>
+<text x="696.0" y="1038.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>
