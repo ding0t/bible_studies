@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1650" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
 <title id="t">The four horsemen</title>
-<desc id="d">An illustrated plate of Revelation 6:1-8. Across the top, the scroll with seven seals, the first four broken as the Lamb opens them, and the four living creatures each calling 'Come!'. Then four bands, one for each rider, each galloping under a sky in its own colour: the white horse, its rider with a bow and a crown given to him, going out conquering, with a dashed note that his identity is contested; the bright red horse, its rider given a great sword and permission to take peace from the earth; the black horse, its rider holding a pair of scales, with a quart of wheat or three of barley for a day's wage and the oil and wine untouched; and the pale horse, its rider named Death, with Hades following, drawn dashed because how he follows is not stated. Each band gives the Greek colour word. Below, a fourth of the earth shaded, with the four means of death, sword, famine, pestilence and wild beasts, beside Ezekiel 14:21's four judgments; and the horses' colours compared with Zechariah 1:8 and 6:2-3. At the foot, 'was given' four times in eight verses: every rider rides by permission.</desc>
+<desc id="d">An illustrated plate of Revelation 6:1-8. Across the top, the scroll with seven seals, the first four broken as the Lamb opens them, and the four living creatures each calling 'Come!'. Then four bands, one for each rider, headed with one word from the passage, Conquest, War, Famine and Death, the first three with their parallel in Jesus' Olivet list (false christs, wars, famines; Matthew 24:5-7). Each rider gallops under a sky in his horse's colour: the white horse, its rider with a bow and a crown given to him, going out conquering, with a dashed note that his identity is contested; the bright red horse, its rider given a great sword and permission to take peace from the earth; the black horse, its rider holding a pair of scales, with a quart of wheat or three of barley for a day's wage and the oil and wine untouched; and the pale horse, its rider named Death, with Hades following, drawn dashed because how he follows is not stated. Each band gives the Greek colour word. Below, a fourth of the earth shaded, with the four means of death, sword, famine, pestilence and wild beasts, beside Ezekiel 14:21's four judgments; and the horses' colours compared with Zechariah 1:8 and 6:2-3. At the foot, 'was given' four times in eight verses: every rider rides by permission.</desc>
 <rect width="720" height="1650" fill="#faf6ec"/>
 <rect x="8" y="8" width="704" height="1634" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
 <rect x="14" y="14" width="692" height="1622" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
@@ -50,18 +50,19 @@
 <path d="M236.8 37.0 l2 -6" stroke="#e8c46a" stroke-width="2.4"/>
 </g>
 <rect x="30" y="0" width="390" height="196" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2"/>
-<circle cx="446" cy="18" r="12" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
-<text x="446.0" y="22.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1</text>
-<text x="466.0" y="23.0" font-size="14" fill="#3b2f1e" font-weight="bold" letter-spacing="1">THE WHITE HORSE</text>
-<text x="466.0" y="42.0" font-size="12" fill="#6b5a3e" font-style="italic">λευκός (G3022), “white” · Rev 6:1-2</text>
-<text x="436.0" y="66.0" font-size="12.5" fill="#3b2f1e">“a bow” · τόξον (G5115)</text>
-<text x="436.0" y="84.0" font-size="12.5" fill="#3b2f1e">“a crown was given to him” · στέφανος</text>
-<text x="436.0" y="102.0" font-size="12.5" fill="#3b2f1e">“conquering, and to conquer”</text>
-<rect x="432" y="112" width="258" height="74" rx="4" fill="none" stroke="#6b5a3e" stroke-dasharray="5 4"/>
-<text x="440.0" y="128.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Who he is: contested. Conquest (ESV and</text>
-<text x="440.0" y="144.0" font-size="11.5" fill="#6b5a3e" font-style="italic">NIV study notes); a false christ, as in</text>
-<text x="440.0" y="160.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Matthew 24:5; Christ, from 19:11. No</text>
-<text x="440.0" y="176.0" font-size="11.5" fill="#6b5a3e" font-style="italic">arrows are named.</text>
+<circle cx="446" cy="20" r="12" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="446.0" y="24.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1</text>
+<text x="466.0" y="28.0" font-size="21" fill="#3b2f1e" font-weight="bold" letter-spacing="2">CONQUEST</text>
+<text x="466.0" y="45.0" font-size="11" fill="#6b5a3e" font-weight="bold" letter-spacing="1">THE WHITE HORSE</text>
+<text x="436.0" y="63.0" font-size="12" fill="#6b5a3e" font-style="italic">λευκός (G3022), “white” · Rev 6:1-2</text>
+<text x="436.0" y="79.0" font-size="12" fill="#8b1e1e" font-style="italic">Olivet: false christs (Matt 24:5)</text>
+<text x="436.0" y="100.0" font-size="12.5" fill="#3b2f1e">“a bow” · τόξον (G5115)</text>
+<text x="436.0" y="117.0" font-size="12.5" fill="#3b2f1e">“a crown was given to him” · στέφανος</text>
+<text x="436.0" y="134.0" font-size="12.5" fill="#3b2f1e">“conquering, and to conquer”</text>
+<rect x="432" y="143" width="258" height="53" rx="4" fill="none" stroke="#6b5a3e" stroke-dasharray="5 4"/>
+<text x="440.0" y="157.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Who he is: contested. Conquest (ESV, NIV</text>
+<text x="440.0" y="172.0" font-size="11.5" fill="#6b5a3e" font-style="italic">notes); a false christ (Matt 24:5); Christ</text>
+<text x="440.0" y="187.0" font-size="11.5" fill="#6b5a3e" font-style="italic">(19:11). No arrows named.</text>
 </g>
 <g transform="translate(0 460)">
 <g clip-path="url(#fh-band2)">
@@ -79,13 +80,15 @@
 <path d="M250.35726272065705 53.26211692278991 L264.35726272065705 45.26211692278991" stroke="#a67c3d" stroke-width="4"/>
 </g>
 <rect x="30" y="0" width="390" height="196" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2"/>
-<circle cx="446" cy="18" r="12" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
-<text x="446.0" y="22.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">2</text>
-<text x="466.0" y="23.0" font-size="14" fill="#3b2f1e" font-weight="bold" letter-spacing="1">THE BRIGHT RED HORSE</text>
-<text x="466.0" y="42.0" font-size="12" fill="#6b5a3e" font-style="italic">πυρρός (G4450), “fiery red” · Rev 6:3-4</text>
-<text x="436.0" y="66.0" font-size="12.5" fill="#3b2f1e">“permitted to take peace from the earth”</text>
-<text x="436.0" y="84.0" font-size="12.5" fill="#3b2f1e">“that people should slay one another”</text>
-<text x="436.0" y="102.0" font-size="12.5" fill="#3b2f1e">“a great sword” · μάχαιρα μεγάλη</text>
+<circle cx="446" cy="20" r="12" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="446.0" y="24.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">2</text>
+<text x="466.0" y="28.0" font-size="21" fill="#3b2f1e" font-weight="bold" letter-spacing="2">WAR</text>
+<text x="466.0" y="45.0" font-size="11" fill="#6b5a3e" font-weight="bold" letter-spacing="1">THE BRIGHT RED HORSE</text>
+<text x="436.0" y="63.0" font-size="12" fill="#6b5a3e" font-style="italic">πυρρός (G4450), “fiery red” · Rev 6:3-4</text>
+<text x="436.0" y="79.0" font-size="12" fill="#8b1e1e" font-style="italic">Olivet: wars (Matt 24:6-7)</text>
+<text x="436.0" y="100.0" font-size="12.5" fill="#3b2f1e">“permitted to take peace from the earth”</text>
+<text x="436.0" y="117.0" font-size="12.5" fill="#3b2f1e">“that people should slay one another”</text>
+<text x="436.0" y="134.0" font-size="12.5" fill="#3b2f1e">“a great sword” · μάχαιρα μεγάλη</text>
 </g>
 <g transform="translate(0 670)">
 <g clip-path="url(#fh-band3)">
@@ -119,18 +122,19 @@
 <text x="114.0" y="94.0" font-size="9.5" fill="#f3eee2" text-anchor="middle">wine</text>
 </g>
 <rect x="30" y="0" width="390" height="196" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2"/>
-<circle cx="446" cy="18" r="12" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
-<text x="446.0" y="22.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">3</text>
-<text x="466.0" y="23.0" font-size="14" fill="#3b2f1e" font-weight="bold" letter-spacing="1">THE BLACK HORSE</text>
-<text x="466.0" y="42.0" font-size="12" fill="#6b5a3e" font-style="italic">μέλας (G3189), “black” · Rev 6:5-6</text>
-<text x="436.0" y="66.0" font-size="12.5" fill="#3b2f1e">“a pair of scales in his hand” · ζυγός</text>
-<text x="436.0" y="84.0" font-size="12.5" fill="#3b2f1e">“A quart of wheat for a denarius,</text>
-<text x="436.0" y="102.0" font-size="12.5" fill="#3b2f1e">and three quarts of barley for a denarius,</text>
-<text x="436.0" y="120.0" font-size="12.5" fill="#3b2f1e">and do not harm the oil and wine!”</text>
-<rect x="432" y="130" width="258" height="58" rx="4" fill="none" stroke="#6b5a3e" stroke-dasharray="5 4"/>
-<text x="440.0" y="146.0" font-size="11.5" fill="#6b5a3e" font-style="italic">A χοῖνιξ (choinix) is about a quart; a</text>
-<text x="440.0" y="162.0" font-size="11.5" fill="#6b5a3e" font-style="italic">denarius a day’s wage (LSB, CSB</text>
-<text x="440.0" y="178.0" font-size="11.5" fill="#6b5a3e" font-style="italic">footnotes).</text>
+<circle cx="446" cy="20" r="12" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="446.0" y="24.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">3</text>
+<text x="466.0" y="28.0" font-size="21" fill="#3b2f1e" font-weight="bold" letter-spacing="2">FAMINE</text>
+<text x="466.0" y="45.0" font-size="11" fill="#6b5a3e" font-weight="bold" letter-spacing="1">THE BLACK HORSE</text>
+<text x="436.0" y="63.0" font-size="12" fill="#6b5a3e" font-style="italic">μέλας (G3189), “black” · Rev 6:5-6</text>
+<text x="436.0" y="79.0" font-size="12" fill="#8b1e1e" font-style="italic">Olivet: famines (Matt 24:7)</text>
+<text x="436.0" y="100.0" font-size="12.5" fill="#3b2f1e">“a pair of scales in his hand” · ζυγός</text>
+<text x="436.0" y="117.0" font-size="12.5" fill="#3b2f1e">“A quart of wheat for a denarius,</text>
+<text x="436.0" y="134.0" font-size="12.5" fill="#3b2f1e">and three quarts of barley for a denarius,</text>
+<text x="436.0" y="151.0" font-size="12.5" fill="#3b2f1e">and do not harm the oil and wine!”</text>
+<rect x="432" y="160" width="258" height="38" rx="4" fill="none" stroke="#6b5a3e" stroke-dasharray="5 4"/>
+<text x="440.0" y="174.0" font-size="11.5" fill="#6b5a3e" font-style="italic">χοῖνιξ ≈ a quart; denarius = a day’s wage</text>
+<text x="440.0" y="189.0" font-size="11.5" fill="#6b5a3e" font-style="italic">(LSB, CSB footnotes).</text>
 </g>
 <g transform="translate(0 880)">
 <g clip-path="url(#fh-band4)">
@@ -148,18 +152,18 @@
 <g fill="#16201a" stroke="#16201a" stroke-linecap="round" stroke-linejoin="round"><path d="M222.2 54.199999999999996 C200.2 58.599999999999994 182.6 71.8 171.6 89.4 C187.0 85.0 200.2 87.2 213.4 96.0 Z" stroke="none" opacity="0.85"/><path d="M213.4 96.0 C211.2 78.4 217.8 58.599999999999994 224.4 52.0 L234.3 54.199999999999996 C235.4 69.6 233.2 85.0 228.8 96.0 Z" stroke="none"/><path d="M220.0 96.0 L235.4 111.4 L228.8 133.4" fill="none" stroke-width="7.700000000000001"/><path d="M228.8 60.8 L257.7 71.3" fill="none" stroke-width="6.050000000000001"/><circle cx="228.8" cy="40.99999999999999" r="9.350000000000001" stroke="none"/></g>
 </g>
 <rect x="30" y="0" width="390" height="196" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2"/>
-<circle cx="446" cy="18" r="12" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
-<text x="446.0" y="22.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">4</text>
-<text x="466.0" y="23.0" font-size="14" fill="#3b2f1e" font-weight="bold" letter-spacing="1">THE PALE HORSE</text>
-<text x="466.0" y="42.0" font-size="12" fill="#6b5a3e" font-style="italic">χλωρός (G5515), “pale” · Rev 6:7-8</text>
-<text x="436.0" y="66.0" font-size="12.5" fill="#3b2f1e">“its rider’s name was Death” · Θάνατος</text>
-<text x="436.0" y="84.0" font-size="12.5" fill="#3b2f1e">“and Hades followed him”</text>
-<text x="436.0" y="102.0" font-size="12.5" fill="#3b2f1e">“authority over a fourth of the earth”</text>
-<rect x="432" y="112" width="258" height="74" rx="4" fill="none" stroke="#6b5a3e" stroke-dasharray="5 4"/>
-<text x="440.0" y="128.0" font-size="11.5" fill="#6b5a3e" font-style="italic">χλωρός: “greenish gray” (CSB footnote),</text>
-<text x="440.0" y="144.0" font-size="11.5" fill="#6b5a3e" font-style="italic">the colour of corpses (ESV Study Bible).</text>
-<text x="440.0" y="160.0" font-size="11.5" fill="#6b5a3e" font-style="italic">How Hades follows, on foot or horse, is</text>
-<text x="440.0" y="176.0" font-size="11.5" fill="#6b5a3e" font-style="italic">not stated.</text>
+<circle cx="446" cy="20" r="12" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="446.0" y="24.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">4</text>
+<text x="466.0" y="28.0" font-size="21" fill="#3b2f1e" font-weight="bold" letter-spacing="2">DEATH</text>
+<text x="466.0" y="45.0" font-size="11" fill="#6b5a3e" font-weight="bold" letter-spacing="1">THE PALE HORSE</text>
+<text x="436.0" y="63.0" font-size="12" fill="#6b5a3e" font-style="italic">χλωρός (G5515), “pale” · Rev 6:7-8</text>
+<text x="436.0" y="79.0" font-size="12" fill="#8b1e1e" font-style="italic">named in the text (6:8)</text>
+<text x="436.0" y="100.0" font-size="12.5" fill="#3b2f1e">“its rider’s name was Death” · Θάνατος</text>
+<text x="436.0" y="117.0" font-size="12.5" fill="#3b2f1e">“and Hades followed him”</text>
+<text x="436.0" y="134.0" font-size="12.5" fill="#3b2f1e">“authority over a fourth of the earth”</text>
+<rect x="432" y="143" width="258" height="38" rx="4" fill="none" stroke="#6b5a3e" stroke-dasharray="5 4"/>
+<text x="440.0" y="157.0" font-size="11.5" fill="#6b5a3e" font-style="italic">“Greenish gray” (CSB fn), corpse-coloured</text>
+<text x="440.0" y="172.0" font-size="11.5" fill="#6b5a3e" font-style="italic">(ESV SB). How Hades follows is not stated.</text>
 </g>
 <text x="30.0" y="1120.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.2">“A FOURTH OF THE EARTH” · REVELATION 6:8</text>
 <circle cx="110" cy="1212" r="62" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1.5"/>

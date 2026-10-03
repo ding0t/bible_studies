@@ -950,24 +950,24 @@ def dust(x0, y0, n=6, colour="#ffffff", opacity=0.25):
 
 def four_horsemen():
     bands = [
-        dict(n=1, name="THE WHITE HORSE", word="λευκός", strongs="G3022", gloss="white", ref="6:1-2",
+        dict(n=1, one="CONQUEST", parallel="Olivet: false christs (Matt 24:5)", name="THE WHITE HORSE", word="λευκός", strongs="G3022", gloss="white", ref="6:1-2",
              sky=("#4a3f2a", "#e9d9a6"), horse=("#f5f1e6", "#7d7464"), ink="#2b2420", arm=10,
              lines=["“a bow” · τόξον (G5115)", "“a crown was given to him” · στέφανος", "“conquering, and to conquer”"],
-             note="Who he is: contested. Conquest (ESV and NIV study notes); a false christ, as in Matthew 24:5; Christ, from 19:11. No arrows are named."),
-        dict(n=2, name="THE BRIGHT RED HORSE", word="πυρρός", strongs="G4450", gloss="fiery red", ref="6:3-4",
+             note="Who he is: contested. Conquest (ESV, NIV notes); a false christ (Matt 24:5); Christ (19:11). No arrows named."),
+        dict(n=2, one="WAR", parallel="Olivet: wars (Matt 24:6-7)", name="THE BRIGHT RED HORSE", word="πυρρός", strongs="G4450", gloss="fiery red", ref="6:3-4",
              sky=("#2a1210", "#c4471c"), horse=("#b3241c", "#5a120e"), ink="#1c1310", arm=22,
              lines=["“permitted to take peace from the earth”", "“that people should slay one another”",
                     "“a great sword” · μάχαιρα μεγάλη"], note=""),
-        dict(n=3, name="THE BLACK HORSE", word="μέλας", strongs="G3189", gloss="black", ref="6:5-6",
+        dict(n=3, one="FAMINE", parallel="Olivet: famines (Matt 24:7)", name="THE BLACK HORSE", word="μέλας", strongs="G3189", gloss="black", ref="6:5-6",
              sky=("#2f2f33", "#9a9690"), horse=("#1e1b1d", "#8a8070"), ink="#0f0d0e", arm=0,
              lines=["“a pair of scales in his hand” · ζυγός", "“A quart of wheat for a denarius,",
                     "and three quarts of barley for a denarius,", "and do not harm the oil and wine!”"],
-             note="A χοῖνιξ (choinix) is about a quart; a denarius a day’s wage (LSB, CSB footnotes)."),
-        dict(n=4, name="THE PALE HORSE", word="χλωρός", strongs="G5515", gloss="pale", ref="6:7-8",
+             note="χοῖνιξ ≈ a quart; denarius = a day’s wage (LSB, CSB footnotes)."),
+        dict(n=4, one="DEATH", parallel="named in the text (6:8)", name="THE PALE HORSE", word="χλωρός", strongs="G5515", gloss="pale", ref="6:7-8",
              sky=("#1d2420", "#8fa088"), horse=("#b9c3a6", "#5f6b55"), ink="#16201a", arm=-20,
              lines=["“its rider’s name was Death” · Θάνατος", "“and Hades followed him”",
                     "“authority over a fourth of the earth”"],
-             note="χλωρός: “greenish gray” (CSB footnote), the colour of corpses (ESV Study Bible). How Hades follows, on foot or horse, is not stated."),
+             note="“Greenish gray” (CSB fn), corpse-coloured (ESV SB). How Hades follows is not stated."),
     ]
     top, bh = 250, 210
     h = top + len(bands) * bh + 560
@@ -976,7 +976,9 @@ def four_horsemen():
         "The four horsemen",
         "An illustrated plate of Revelation 6:1-8. Across the top, the scroll with seven seals, the "
         "first four broken as the Lamb opens them, and the four living creatures each calling "
-        "'Come!'. Then four bands, one for each rider, each galloping under a sky in its own colour: "
+        "'Come!'. Then four bands, one for each rider, headed with one word from the passage, Conquest, "
+        "War, Famine and Death, the first three with their parallel in Jesus' Olivet list (false "
+        "christs, wars, famines; Matthew 24:5-7). Each rider gallops under a sky in his horse's colour: "
         "the white horse, its rider with a bow and a crown given to him, going out conquering, with a "
         "dashed note that his identity is contested; the bright red horse, its rider given a great "
         "sword and permission to take peace from the earth; the black horse, its rider holding a pair "
@@ -1068,26 +1070,30 @@ def four_horsemen():
         out.append(f'<rect x="30" y="0" width="390" height="{bh - 14}" rx="4" fill="none" stroke="{INK}" stroke-width="2"/>')
         # Text column.
         tx = 436
-        out += callout(b["n"], tx + 10, 18, r=12)
-        out.append(text(tx + 30, 23, b["name"], 14, weight="bold", spacing="1"))
-        out.append(text(tx + 30, 42, f'{b["word"]} ({b["strongs"]}), “{b["gloss"]}” · Rev {b["ref"]}', 12, italic=True, fill=MUTED))
-        y = 66
+        # One word for each rider, taken from the passage; the Olivet parallel is this site's reading
+        # (tribulation.md, "The seals and the sealed"), so it is set apart in red italic.
+        out += callout(b["n"], tx + 10, 20, r=12)
+        out.append(text(tx + 30, 28, b["one"], 21, weight="bold", spacing="2"))
+        out.append(text(tx + 30, 45, b["name"], 11, weight="bold", fill=MUTED, spacing="1"))
+        out.append(text(tx, 63, f'{b["word"]} ({b["strongs"]}), “{b["gloss"]}” · Rev {b["ref"]}', 12, italic=True, fill=MUTED))
+        out.append(text(tx, 79, b["parallel"], 12, italic=True, fill=RED))
+        y = 100
         for ln in b["lines"]:
             out.append(text(tx, y, ln, 12.5))
-            y += 18
+            y += 17
         if b["note"]:
             words, rows, cur = b["note"].split(), [], ""
             for w_ in words:
-                if len(cur) + len(w_) > 40:
+                if len(cur) + len(w_) > 42:
                     rows.append(cur)
                     cur = w_
                 else:
                     cur = (cur + " " + w_).strip()
             rows.append(cur)
-            nh = 10 + 16 * len(rows)
+            nh = 8 + 15 * len(rows)
             out.append(f'<rect x="{tx - 4}" y="{y - 8}" width="258" height="{nh}" rx="4" fill="none" stroke="{MUTED}" stroke-dasharray="5 4"/>')
             for i, rr in enumerate(rows):
-                out.append(text(tx + 4, y + 8 + i * 16, rr, 11.5, italic=True, fill=MUTED))
+                out.append(text(tx + 4, y + 6 + i * 15, rr, 11.5, italic=True, fill=MUTED))
         out.append('</g>')
 
     # A fourth of the earth, and Ezekiel's four judgments.
