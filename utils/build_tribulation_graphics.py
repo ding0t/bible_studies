@@ -853,31 +853,94 @@ def sea_to_blood():
 # 6. The four horsemen: an Imagery plate (drawn-graphics.md). Riders are faceless silhouettes: the
 # first rider's identity is contested, and the plates draw no face for any figure.
 
-# A galloping horse facing right, drawn in a 180 x 110 box with its hooves near y = 100.
-HORSE = ("M132 44 C136 32 142 20 148 12 L150 2 L155 9 C162 12 170 20 176 28 C177 32 172 34 166 31 "
-         "L158 30 C154 36 150 42 150 50 C154 56 166 70 180 80 L182 86 L176 88 C164 80 152 72 144 66 "
-         "C142 76 146 88 146 98 L140 100 C136 90 132 80 128 72 C112 74 94 76 78 74 C80 84 88 92 88 100 "
-         "L82 102 C76 92 70 84 62 76 C52 80 34 90 20 94 L16 90 C30 82 42 74 48 64 C40 60 34 54 32 48 "
-         "C24 50 12 60 4 62 C8 52 18 40 30 36 C46 32 70 36 92 36 C108 36 122 38 132 44 Z")
-MANE = "M148 12 C140 18 134 30 128 42 C136 36 142 26 150 18 Z"
+
+# An anatomical galloping horse. Local frame: facing right, ~210 x 125, ground near y = 120.
+BODY = ("M146 54 C150 62 146 74 136 80 C124 86 108 86 92 85 C80 84 70 82 62 80 "
+        "C54 80 44 74 36 66 C30 60 28 50 32 44 C36 37 46 34 56 35 C68 36 78 41 92 42 "
+        "C104 42 112 38 118 34 C126 30 136 34 142 42 Z")
+NECK = ("M114 40 C120 28 132 14 146 6 C152 2 158 0 162 2 L168 22 C164 30 158 38 152 46 "
+        "C150 52 148 56 146 58 C136 52 124 46 114 40 Z")
+HEAD = ("M158 -2 C164 -4 172 0 178 8 C184 16 190 24 194 30 C196 34 194 38 188 38 "
+        "C182 38 176 36 172 33 C168 30 166 26 164 22 C160 16 156 8 158 -2 Z")
+EARS = "M158 -1 L156 -12 L162 -3 Z M163 -2 L164 -12 L167 -1 Z"
+MANE = ("M160 0 C150 2 138 8 128 18 C122 24 117 30 113 38 C108 36 104 30 104 24 "
+        "C110 26 114 22 118 16 C112 16 108 12 108 8 C116 10 122 8 128 4 C122 2 120 -2 122 -4 "
+        "C134 -2 146 -4 160 0 Z")
+TAIL = ("M36 44 C26 40 14 40 2 46 C-8 52 -16 62 -22 74 C-14 70 -6 66 0 66 C-8 74 -12 84 -12 94 "
+        "C-2 84 8 74 16 66 C22 60 28 54 34 52 Z")
+# (x, y, width) joints: shoulder/stifle, elbow/gaskin, knee/hock, fetlock, hoof.
+LEGS_NEAR = [
+    [(138, 66, 16), (150, 84, 11), (170, 96, 8), (188, 102, 6), (198, 106, 7)],    # fore, reaching
+    [(56, 66, 22), (44, 88, 13), (30, 100, 8), (12, 112, 6), (2, 118, 7)],          # hind, driving back
+]
+LEGS_FAR = [
+    [(128, 70, 14), (130, 90, 10), (142, 104, 7), (130, 114, 5), (122, 118, 6)],   # fore, folded
+    [(66, 70, 20), (78, 92, 12), (72, 106, 7), (88, 116, 5), (98, 120, 6)],        # hind, under
+]
+MUSCLE = ["M136 44 C130 54 128 64 132 74", "M58 40 C70 46 72 60 64 74", "M96 46 C98 60 96 72 92 84"]
 
 
-def horse(x, y, fill, edge, s=1.0):
-    return (f'<g transform="translate({x} {y}) scale({s})">'
-            f'<path d="{HORSE}" fill="{fill}" stroke="{edge}" stroke-width="1.6" stroke-linejoin="round"/>'
-            f'<path d="{MANE}" fill="{edge}" opacity="0.55"/></g>')
+def _leg(points, colour):
+    out = []
+    for (x0, y0, w0), (x1, y1, w1) in zip(points, points[1:]):
+        out.append(f'<path d="M{x0} {y0} L{x1} {y1}" stroke="{colour}" stroke-width="{(w0 + w1) / 2:.1f}" '
+                   f'stroke-linecap="round"/>')
+    hx, hy, hw = points[-1]
+    out.append(f'<path d="M{hx - 5} {hy - 3} L{hx + 6} {hy - 1} L{hx + 5} {hy + 5} L{hx - 6} {hy + 4} Z" '
+               f'fill="#1a1512"/>')
+    return "".join(out)
+
+
+def _shade(hex_colour, f):
+    h = hex_colour.lstrip("#")
+    r, g, b = (int(h[i:i + 2], 16) for i in (0, 2, 4))
+    return "#%02x%02x%02x" % tuple(max(0, min(255, int(c * f))) for c in (r, g, b))
+
+
+def horse(x, y, fill, edge, s=1.0, ghost=False):
+    """An anatomical galloping horse; (x, y) is the local origin. ghost: Hades' dashed shadow."""
+    if ghost:
+        fill, edge = "#0d0d0d", "#0d0d0d"
+    far = _shade(fill, 0.72)
+    op = ' opacity="0.42"' if ghost else ""
+    parts = [f'<g transform="translate({x} {y}) scale({s})"{op}>']
+    parts += [_leg(l, far) for l in LEGS_FAR]
+    parts.append(f'<path d="{TAIL}" fill="{_shade(edge, 1.0)}" opacity="0.9"/>')
+    for d in (NECK, BODY, HEAD):
+        dash = ' stroke-dasharray="6 4"' if ghost else ""
+        parts.append(f'<path d="{d}" fill="{fill}" stroke="{edge}" stroke-width="1.4" stroke-linejoin="round"{dash}/>')
+    parts += [_leg(l, fill) for l in LEGS_NEAR]
+    parts.append(f'<path d="{EARS}" fill="{fill}" stroke="{edge}" stroke-width="1.2"/>')
+    parts.append(f'<path d="{MANE}" fill="{edge}" opacity="0.8"/>')
+    if not ghost:
+        for d in MUSCLE:
+            parts.append(f'<path d="{d}" fill="none" stroke="{edge}" stroke-width="1.2" opacity="0.35"/>')
+        parts.append('<circle cx="174" cy="12" r="2.2" fill="#140f0c"/>')
+        parts.append('<path d="M186 30 l4 1" stroke="#140f0c" stroke-width="1.6"/>')
+    parts.append('</g>')
+    return "".join(parts)
+
+
+SEAT = (100, 36)   # local point the rider sits on
 
 
 def rider(x, y, ink, s=1.0, arm=(-30,), dashed=False):
-    """A faceless rider seated at (x, y) on the horse's back; arm angle in degrees from horizontal."""
-    dash = ' stroke-dasharray="4 3"' if dashed else ""
+    """A faceless cloaked rider seated at (x, y). Returns (svg, hand point)."""
     a = math.radians(arm[0])
-    hx, hy = x + 8 + 26 * math.cos(a), y - 34 - 26 * math.sin(a)
-    return (f'<g transform="translate(0 0)" stroke="{ink}" stroke-linecap="round" fill="none"{dash}>'
-            f'<path d="M{x} {y} L{x + 6} {y - 40}" stroke-width="{9 * s}"/>'
-            f'<path d="M{x + 6} {y - 32} L{hx:.1f} {hy:.1f}" stroke-width="{5 * s}"/>'
-            f'<path d="M{x} {y} L{x + 10} {y + 18}" stroke-width="{6 * s}"/>'
-            f'<circle cx="{x + 8}" cy="{y - 52}" r="{8 * s}" fill="{ink}" stroke="none"/></g>'), (hx, hy)
+    sx, sy = x + 8 * s, y - 32 * s                     # shoulder
+    hx, hy = sx + 28 * s * math.cos(a), sy - 28 * s * math.sin(a)
+    torso = (f"M{x - 6 * s} {y} C{x - 8 * s} {y - 16 * s} {x - 2 * s} {y - 34 * s} {x + 4 * s} {y - 40 * s} "
+             f"L{x + 13 * s} {y - 38 * s} C{x + 14 * s} {y - 24 * s} {x + 12 * s} {y - 10 * s} {x + 8 * s} {y} Z")
+    cloak = (f"M{x + 2 * s} {y - 38 * s} C{x - 18 * s} {y - 34 * s} {x - 34 * s} {y - 22 * s} {x - 44 * s} {y - 6 * s} "
+             f"C{x - 30 * s} {y - 10 * s} {x - 18 * s} {y - 8 * s} {x - 6 * s} {y} Z")
+    leg = f"M{x} {y} L{x + 14 * s} {y + 14 * s} L{x + 8 * s} {y + 34 * s}"
+    svg = (f'<g fill="{ink}" stroke="{ink}" stroke-linecap="round" stroke-linejoin="round">'
+           f'<path d="{cloak}" stroke="none" opacity="0.85"/>'
+           f'<path d="{torso}" stroke="none"/>'
+           f'<path d="{leg}" fill="none" stroke-width="{7 * s}"/>'
+           f'<path d="M{sx} {sy} L{hx:.1f} {hy:.1f}" fill="none" stroke-width="{5.5 * s}"/>'
+           f'<circle cx="{x + 8 * s}" cy="{y - 50 * s}" r="{8.5 * s}" stroke="none"/></g>')
+    return svg, (hx, hy)
 
 
 def dust(x0, y0, n=6, colour="#ffffff", opacity=0.25):
@@ -892,7 +955,7 @@ def four_horsemen():
              lines=["“a bow” · τόξον (G5115)", "“a crown was given to him” · στέφανος", "“conquering, and to conquer”"],
              note="Who he is: contested. Conquest (ESV and NIV study notes); a false christ, as in Matthew 24:5; Christ, from 19:11. No arrows are named."),
         dict(n=2, name="THE BRIGHT RED HORSE", word="πυρρός", strongs="G4450", gloss="fiery red", ref="6:3-4",
-             sky=("#2a1210", "#c4471c"), horse=("#b3241c", "#5a120e"), ink="#1c1310", arm=55,
+             sky=("#2a1210", "#c4471c"), horse=("#b3241c", "#5a120e"), ink="#1c1310", arm=22,
              lines=["“permitted to take peace from the earth”", "“that people should slay one another”",
                     "“a great sword” · μάχαιρα μεγάλη"], note=""),
         dict(n=3, name="THE BLACK HORSE", word="μέλας", strongs="G3189", gloss="black", ref="6:5-6",
@@ -961,25 +1024,25 @@ def four_horsemen():
         out.append(f'<rect x="30" y="0" width="390" height="{bh - 14}" fill="url(#fh-sky{b["n"]})"/>')
         out.append(f'<path d="M30 {bh - 40} Q150 {bh - 52} 260 {bh - 42} T420 {bh - 46} V{bh} H30 Z" fill="#000" opacity="0.28"/>')
         out += dust(150, bh - 50, colour="#ffffff", opacity=0.35)
-        hs = 1.18
-        hx, hy = 130, bh - 34 - 100 * hs
+        hs = 1.0
+        hx, hy = 120, bh - 30 - 120 * hs
         if b["n"] == 4:   # Hades, following: a dashed shadow, its manner not stated
-            out.append(f'<g opacity="0.55">{horse(hx - 112, hy + 14, "none", "#0d0d0d", 0.95)}</g>'.replace(
-                'stroke-linejoin="round"', 'stroke-linejoin="round" stroke-dasharray="5 4"'))
+            out.append(horse(hx - 128, hy + 6, "#0d0d0d", "#0d0d0d", 0.95, ghost=True))
             out.append(text(hx - 60, bh - 22, "Hades", 13, "middle", "bold", fill="#e8ecdf", italic=True))
         out.append(horse(hx, hy, b["horse"][0], b["horse"][1], hs))
-        r, hand = rider(hx + 96 * hs, hy + 38 * hs, b["ink"], s=1.1, arm=(b["arm"],))
+        seat_x, seat_y = hx + SEAT[0] * hs, hy + SEAT[1] * hs
+        r, hand = rider(seat_x, seat_y, b["ink"], s=1.1, arm=(b["arm"],))
         out.append(r)
         hxh, hyh = hand
         if b["n"] == 1:
             out.append(f'<path d="M{hxh + 2} {hyh - 26} Q{hxh + 22} {hyh} {hxh + 2} {hyh + 26}" stroke="#5b4632" stroke-width="3" fill="none"/>')
             out.append(f'<path d="M{hxh + 2} {hyh - 26} L{hxh + 2} {hyh + 26}" stroke="#5b4632" stroke-width="1"/>')
-            cxr, cyr = hx + 96 * hs + 8, hy + 38 * hs - 52
+            cxr, cyr = seat_x + 8.8, seat_y - 55 + 5
             out.append(f'<ellipse cx="{cxr}" cy="{cyr - 7}" rx="11" ry="4" fill="none" stroke="{GOLD}" stroke-width="3.5"/>')
             for d in (-8, -3, 3, 8):
                 out.append(f'<path d="M{cxr + d} {cyr - 9} l2 -6" stroke="{GOLD}" stroke-width="2.4"/>')
         elif b["n"] == 2:
-            out.append(f'<path d="M{hxh} {hyh} L{hxh + 30} {hyh - 52}" stroke="#d9d9d9" stroke-width="5" stroke-linecap="round"/>')
+            out.append(f'<path d="M{hxh} {hyh} L{hxh + 36} {hyh - 32}" stroke="#d9d9d9" stroke-width="5" stroke-linecap="round"/>')
             out.append(f'<path d="M{hxh - 7} {hyh + 4} L{hxh + 7} {hyh - 4}" stroke="{GOLD_EDGE}" stroke-width="4"/>')
         elif b["n"] == 3:
             bx, by = hxh + 14, hyh - 4
@@ -989,7 +1052,7 @@ def four_horsemen():
                 out.append(f'<path d="M{sx} {by - 12} L{sx - 8} {by + 8} M{sx} {by - 12} L{sx + 8} {by + 8}" stroke="#d8cfb8" stroke-width="1.2"/>')
                 out.append(f'<path d="M{sx - 11} {by + 8} Q{sx} {by + 18} {sx + 11} {by + 8} Z" fill="#d8cfb8"/>')
             # One measure of wheat, three of barley, beside a coin; oil and wine untouched.
-            gx, gy = 338, 30
+            gx, gy = 58, 22
             out.append(f'<circle cx="{gx}" cy="{gy}" r="9" fill="#c9c9c9" stroke="#6b6b6b"/>')
             out.append(text(gx, gy + 4, "1", 10, "middle", "bold"))
             out.append(f'<rect x="{gx + 18}" y="{gy - 10}" width="14" height="18" rx="3" fill="#d9b55a" stroke="#8a6a2a"/>')
