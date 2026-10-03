@@ -249,6 +249,8 @@ direction of travel: the judgments grow. The seals reach "a fourth of the earth"
 the trumpets "a third" of earth, sea, waters, lights and mankind (Revelation 8:7-12; 9:15, ESV), and at
 the second bowl "every living thing died that was in the sea" (Revelation 16:3, ESV).
 
+[![The sea turned to blood. Above, the second trumpet: under a darkened sky something like a great mountain, burning with fire, falls into the sea; a third of the sea becomes blood, three of nine sea creatures lie dead and two of six ships are wrecked, each detail numbered and quoted from Revelation 8:8-9, with a note that the text does not say which third. Below, the source, Egypt's Nile turned wholly to blood with its fish dead (Exodus 7:20-21), beside the second bowl, the whole sea like the blood of a corpse and every living thing in it dead (Revelation 16:3). A strip shows the reach growing from one river to a third of the sea to the whole sea, under the angel of the waters' words, "Just are you, O Holy One" (Revelation 16:5).](../assets/img/tribulation/sea-to-blood.svg)](../assets/img/tribulation/sea-to-blood.svg)
+
 ### The interludes are heaven's explanations
 
 Between the sixth and seventh seals, and again between the sixth and seventh trumpets, John is shown

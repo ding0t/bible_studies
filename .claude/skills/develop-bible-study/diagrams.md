@@ -170,23 +170,8 @@ None of this is a reason to open a diagram-fixing project. Fix the one in front 
 brings you to its file, and don't add a thirteenth. `npm run validate` does **not** check diagram
 width — it cannot without a browser — so nothing catches this but you.
 
-## Drawn charts: the Larkin-style SVGs
+## Drawn graphics
 
-When a sequence, a span or a count needs more than mermaid can carry, draw it as an SVG from a
-stdlib script in `utils/` with the shared hand in `utils/lib/larkin.py` (see
-`build_tribulation_graphics.py` and `build_last_things_graphics.py`). The width budget above applies
-just as much: keep the viewBox 720 wide and portrait, so 13-15 unit lettering still reads at ~560px,
-and let height grow instead of width. Three habits from the first eleven charts:
-
-- **Mark the confidence on the chart itself.** A solid outline is what the text dates or states, a
-  dashed one is placed by inference, and a contested point shows both readings (the recapitulation
-  inset, the two witnesses' "which half?"). A chart without the code reads as more certain than the
-  study it sits in.
-- **Read data, never retype it.** The seven-thousand-years chart reads `docs/data/chronology.json`,
-  and the Revelation word counts sit beside their `evidence:` entries, so the chart cannot drift
-  from the source it draws.
-- **Render and look before shipping.** `qlmanage -t -s 1400 -o <dir> <file>.svg` makes a PNG on
-  macOS. Every chart so far needed at least one pass for a label colliding with a line.
-
-Embed with a link to the file itself, `[![alt](path)](path)`, so a reader can open it full size, and
-write the alt text as a description of what the chart says, as the `<desc>` inside it does.
+When mermaid cannot carry it, draw an SVG. [drawn-graphics.md](drawn-graphics.md) sets out the four
+kinds (sequence, relationship, pattern and imagery), the rules they share (720 wide, one hand,
+solid for stated and dashed for inferred, read data, render and look) and the rules for each kind.

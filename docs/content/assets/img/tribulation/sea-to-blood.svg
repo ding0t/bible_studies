@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1330" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">The sea turned to blood</title>
+<desc id="d">An illustrated plate in three parts. Above, the second trumpet (Revelation 8:8-9): under a darkened sky something like a great mountain, burning with fire, falls into the sea; a third of the sea is blood, three of nine sea creatures lie dead and two of six ships are wrecked. Numbered callouts quote each detail, and a dashed line notes that the text does not say which third of the sea, or where the dead creatures and wrecked ships lie. Below left, the source: the first plague of Egypt (Exodus 7:20-21), the whole Nile turned to blood, its fish dead. Below right, the second bowl (Revelation 16:3): the whole sea like the blood of a corpse and every living thing in it dead; no ships are drawn because the verse names none. A strip compares the reach of the three: one river, a third of the sea, the whole sea. At the foot, the angel of the waters: 'Just are you, O Holy One' (Revelation 16:5-6).</desc>
+<rect width="720" height="1330" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1314" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1302" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<defs><linearGradient id="sb-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f1a1c"/><stop offset="0.65" stop-color="#5a2a1e"/><stop offset="1" stop-color="#e0662a" stop-opacity="0.85"/></linearGradient><radialGradient id="sb-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffd27a" stop-opacity="0.95"/><stop offset="0.45" stop-color="#e0662a" stop-opacity="0.55"/><stop offset="1" stop-color="#e0662a" stop-opacity="0"/></radialGradient><linearGradient id="sb-sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4f7396"/><stop offset="1" stop-color="#2d4b6b"/></linearGradient><linearGradient id="sb-blood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8261f"/><stop offset="1" stop-color="#9b1b1b"/></linearGradient><linearGradient id="sb-corpse" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6a1a1a"/><stop offset="1" stop-color="#4a0f12"/></linearGradient><clipPath id="sb-scene"><rect x="30" y="150" width="660" height="420" rx="4"/></clipPath></defs>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE SEA TURNED TO BLOOD</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Egypt’s first plague, the second trumpet, the second bowl</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<text x="30.0" y="140.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.5">THE SECOND TRUMPET · REVELATION 8:8-9</text>
+<g clip-path="url(#sb-scene)">
+<rect x="30" y="150" width="660" height="210" fill="url(#sb-sky)"/>
+<rect x="30" y="360" width="440.0" height="210" fill="url(#sb-sea)"/>
+<rect x="470.0" y="360" width="220.0" height="210" fill="url(#sb-blood)"/>
+<path d="M36 374 q7 -4 14 0 t14 0 M82 374 q7 -4 14 0 t14 0 M128 374 q7 -4 14 0 t14 0 M174 374 q7 -4 14 0 t14 0 M220 374 q7 -4 14 0 t14 0 M266 374 q7 -4 14 0 t14 0 M312 374 q7 -4 14 0 t14 0 M358 374 q7 -4 14 0 t14 0 M404 374 q7 -4 14 0 t14 0" fill="none" stroke="#ffffff" stroke-width="1.3" opacity="0.22"/>
+<path d="M54 396 q7 -4 14 0 t14 0 M100 396 q7 -4 14 0 t14 0 M146 396 q7 -4 14 0 t14 0 M192 396 q7 -4 14 0 t14 0 M238 396 q7 -4 14 0 t14 0 M284 396 q7 -4 14 0 t14 0 M330 396 q7 -4 14 0 t14 0 M376 396 q7 -4 14 0 t14 0 M422 396 q7 -4 14 0 t14 0" fill="none" stroke="#ffffff" stroke-width="1.3" opacity="0.22"/>
+<path d="M36 418 q7 -4 14 0 t14 0 M82 418 q7 -4 14 0 t14 0 M128 418 q7 -4 14 0 t14 0 M174 418 q7 -4 14 0 t14 0 M220 418 q7 -4 14 0 t14 0 M266 418 q7 -4 14 0 t14 0 M312 418 q7 -4 14 0 t14 0 M358 418 q7 -4 14 0 t14 0 M404 418 q7 -4 14 0 t14 0" fill="none" stroke="#ffffff" stroke-width="1.3" opacity="0.22"/>
+<path d="M54 440 q7 -4 14 0 t14 0 M100 440 q7 -4 14 0 t14 0 M146 440 q7 -4 14 0 t14 0 M192 440 q7 -4 14 0 t14 0 M238 440 q7 -4 14 0 t14 0 M284 440 q7 -4 14 0 t14 0 M330 440 q7 -4 14 0 t14 0 M376 440 q7 -4 14 0 t14 0 M422 440 q7 -4 14 0 t14 0" fill="none" stroke="#ffffff" stroke-width="1.3" opacity="0.22"/>
+<path d="M36 462 q7 -4 14 0 t14 0 M82 462 q7 -4 14 0 t14 0 M128 462 q7 -4 14 0 t14 0 M174 462 q7 -4 14 0 t14 0 M220 462 q7 -4 14 0 t14 0 M266 462 q7 -4 14 0 t14 0 M312 462 q7 -4 14 0 t14 0 M358 462 q7 -4 14 0 t14 0 M404 462 q7 -4 14 0 t14 0" fill="none" stroke="#ffffff" stroke-width="1.3" opacity="0.22"/>
+<path d="M54 484 q7 -4 14 0 t14 0 M100 484 q7 -4 14 0 t14 0 M146 484 q7 -4 14 0 t14 0 M192 484 q7 -4 14 0 t14 0 M238 484 q7 -4 14 0 t14 0 M284 484 q7 -4 14 0 t14 0 M330 484 q7 -4 14 0 t14 0 M376 484 q7 -4 14 0 t14 0 M422 484 q7 -4 14 0 t14 0" fill="none" stroke="#ffffff" stroke-width="1.3" opacity="0.22"/>
+<path d="M36 506 q7 -4 14 0 t14 0 M82 506 q7 -4 14 0 t14 0 M128 506 q7 -4 14 0 t14 0 M174 506 q7 -4 14 0 t14 0 M220 506 q7 -4 14 0 t14 0 M266 506 q7 -4 14 0 t14 0 M312 506 q7 -4 14 0 t14 0 M358 506 q7 -4 14 0 t14 0 M404 506 q7 -4 14 0 t14 0" fill="none" stroke="#ffffff" stroke-width="1.3" opacity="0.22"/>
+<path d="M54 528 q7 -4 14 0 t14 0 M100 528 q7 -4 14 0 t14 0 M146 528 q7 -4 14 0 t14 0 M192 528 q7 -4 14 0 t14 0 M238 528 q7 -4 14 0 t14 0 M284 528 q7 -4 14 0 t14 0 M330 528 q7 -4 14 0 t14 0 M376 528 q7 -4 14 0 t14 0 M422 528 q7 -4 14 0 t14 0" fill="none" stroke="#ffffff" stroke-width="1.3" opacity="0.22"/>
+<path d="M36 550 q7 -4 14 0 t14 0 M82 550 q7 -4 14 0 t14 0 M128 550 q7 -4 14 0 t14 0 M174 550 q7 -4 14 0 t14 0 M220 550 q7 -4 14 0 t14 0 M266 550 q7 -4 14 0 t14 0 M312 550 q7 -4 14 0 t14 0 M358 550 q7 -4 14 0 t14 0 M404 550 q7 -4 14 0 t14 0" fill="none" stroke="#ffffff" stroke-width="1.3" opacity="0.22"/>
+<path d="M476.0 374 q7 -4 14 0 t14 0 M522.0 374 q7 -4 14 0 t14 0 M568.0 374 q7 -4 14 0 t14 0 M614.0 374 q7 -4 14 0 t14 0" fill="none" stroke="#ffd0c0" stroke-width="1.3" opacity="0.18"/>
+<path d="M494.0 396 q7 -4 14 0 t14 0 M540.0 396 q7 -4 14 0 t14 0 M586.0 396 q7 -4 14 0 t14 0 M632.0 396 q7 -4 14 0 t14 0" fill="none" stroke="#ffd0c0" stroke-width="1.3" opacity="0.18"/>
+<path d="M476.0 418 q7 -4 14 0 t14 0 M522.0 418 q7 -4 14 0 t14 0 M568.0 418 q7 -4 14 0 t14 0 M614.0 418 q7 -4 14 0 t14 0" fill="none" stroke="#ffd0c0" stroke-width="1.3" opacity="0.18"/>
+<path d="M494.0 440 q7 -4 14 0 t14 0 M540.0 440 q7 -4 14 0 t14 0 M586.0 440 q7 -4 14 0 t14 0 M632.0 440 q7 -4 14 0 t14 0" fill="none" stroke="#ffd0c0" stroke-width="1.3" opacity="0.18"/>
+<path d="M476.0 462 q7 -4 14 0 t14 0 M522.0 462 q7 -4 14 0 t14 0 M568.0 462 q7 -4 14 0 t14 0 M614.0 462 q7 -4 14 0 t14 0" fill="none" stroke="#ffd0c0" stroke-width="1.3" opacity="0.18"/>
+<path d="M494.0 484 q7 -4 14 0 t14 0 M540.0 484 q7 -4 14 0 t14 0 M586.0 484 q7 -4 14 0 t14 0 M632.0 484 q7 -4 14 0 t14 0" fill="none" stroke="#ffd0c0" stroke-width="1.3" opacity="0.18"/>
+<path d="M476.0 506 q7 -4 14 0 t14 0 M522.0 506 q7 -4 14 0 t14 0 M568.0 506 q7 -4 14 0 t14 0 M614.0 506 q7 -4 14 0 t14 0" fill="none" stroke="#ffd0c0" stroke-width="1.3" opacity="0.18"/>
+<path d="M494.0 528 q7 -4 14 0 t14 0 M540.0 528 q7 -4 14 0 t14 0 M586.0 528 q7 -4 14 0 t14 0 M632.0 528 q7 -4 14 0 t14 0" fill="none" stroke="#ffd0c0" stroke-width="1.3" opacity="0.18"/>
+<path d="M476.0 550 q7 -4 14 0 t14 0 M522.0 550 q7 -4 14 0 t14 0 M568.0 550 q7 -4 14 0 t14 0 M614.0 550 q7 -4 14 0 t14 0" fill="none" stroke="#ffd0c0" stroke-width="1.3" opacity="0.18"/>
+<path d="M300 150 Q430 190 530 236" stroke="#3a2a26" stroke-width="46" stroke-linecap="round" fill="none" opacity="0.45"/>
+<path d="M330 158 Q440 196 534 240" stroke="#e0662a" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.7"/>
+<circle cx="560" cy="262" r="120" fill="url(#sb-glow)"/>
+<path d="M498 302 L520 242 L542 258 L564 210 L588 248 L606 232 L626 300 Z" fill="#3b2a22" stroke="#1c1310" stroke-width="2" transform="rotate(-14 560 262)"/>
+<path d="M503 258 C501 241.0 512 237.6 514 224 C517 237.6 527 241.0 525 258 Q514 265 503 258 Z" fill="#f08a2c" opacity="0.92"/>
+<path d="M509 258 C508 247.8 513 244.4 514 236.92000000000002 C515 244.4 520 247.8 519 258 Q514 262 509 258 Z" fill="#ffe08a"/>
+<path d="M527 240 C525 218.0 536 213.6 538 196 C541 213.6 551 218.0 549 240 Q538 247 527 240 Z" fill="#f08a2c" opacity="0.92"/>
+<path d="M533 240 C532 226.8 537 222.4 538 212.72 C539 222.4 544 226.8 543 240 Q538 244 533 240 Z" fill="#ffe08a"/>
+<path d="M551 210 C549 184.0 560 178.8 562 158 C565 178.8 575 184.0 573 210 Q562 217 551 210 Z" fill="#f08a2c" opacity="0.92"/>
+<path d="M557 210 C556 194.4 561 189.2 562 177.76 C563 189.2 568 194.4 567 210 Q562 214 557 210 Z" fill="#ffe08a"/>
+<path d="M575 234 C573 214.0 584 210.0 586 194 C589 210.0 599 214.0 597 234 Q586 241 575 234 Z" fill="#f08a2c" opacity="0.92"/>
+<path d="M581 234 C580 222.0 585 218.0 586 209.2 C587 218.0 592 222.0 591 234 Q586 238 581 234 Z" fill="#ffe08a"/>
+<path d="M597 230 C595 212.0 606 208.4 608 194 C611 208.4 621 212.0 619 230 Q608 237 597 230 Z" fill="#f08a2c" opacity="0.92"/>
+<path d="M603 230 C602 219.2 607 215.6 608 207.68 C609 215.6 614 219.2 613 230 Q608 234 603 230 Z" fill="#ffe08a"/>
+<path d="M489 288 C487 275.0 498 272.4 500 262 C503 272.4 513 275.0 511 288 Q500 295 489 288 Z" fill="#f08a2c" opacity="0.92"/>
+<path d="M495 288 C494 280.2 499 277.6 500 271.88 C501 277.6 506 280.2 505 288 Q500 292 495 288 Z" fill="#ffe08a"/>
+<path d="M611 284 C609 270.0 620 267.2 622 256 C625 267.2 635 270.0 633 284 Q622 291 611 284 Z" fill="#f08a2c" opacity="0.92"/>
+<path d="M617 284 C616 275.6 621 272.8 622 266.64 C623 272.8 628 275.6 627 284 Q622 288 617 284 Z" fill="#ffe08a"/>
+<circle cx="530" cy="192" r="22" fill="#2a2120" opacity="0.42"/>
+<circle cx="556" cy="166" r="28" fill="#2a2120" opacity="0.35"/>
+<circle cx="586" cy="142" r="34" fill="#2a2120" opacity="0.28"/>
+<circle cx="620" cy="120" r="38" fill="#2a2120" opacity="0.21"/>
+<path d="M490 360 q20 -40 40 -6 q14 -34 32 0 q18 -38 36 -4 q16 -30 34 4" fill="none" stroke="#ffe3d6" stroke-width="3" opacity="0.8"/>
+<g transform="translate(84 222) rotate(-16)"><rect x="0" y="-3.5" width="74" height="7" rx="3" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.2"/><path d="M72 -4 Q86 -6 96 -20 V20 Q86 6 72 4 Z" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.4"/><path d="M-6 -6 h8 v12 h-8 z" fill="#a67c3d"/></g>
+<path d="M176 186 a26 26 0 0 1 0 29" fill="none" stroke="#f6e3b8" stroke-width="1.6" opacity="0.7" transform="rotate(-16 180 200)"/>
+<path d="M180 180 a40 40 0 0 1 0 44" fill="none" stroke="#f6e3b8" stroke-width="1.6" opacity="0.5" transform="rotate(-16 180 200)"/>
+<path d="M184 174 a54 54 0 0 1 0 59" fill="none" stroke="#f6e3b8" stroke-width="1.6" opacity="0.3" transform="rotate(-16 180 200)"/>
+<text x="130.0" y="252.0" font-size="12.5" fill="#f6e3b8" text-anchor="middle" font-style="italic">the second angel’s trumpet</text>
+<g transform="translate(90 374) rotate(0) scale(0.9)"><path d="M0 -10 V-44" stroke="#5b4632" stroke-width="2"/><path d="M1 -42 Q16 -28 1 -14 Z" fill="#efe6d2" stroke="#5b4632" stroke-width="1"/><path d="M-1 -38 Q-12 -27 -1 -16 Z" fill="#efe6d2" stroke="#5b4632" stroke-width="1"/><path d="M-22 -10 H22 L15 0 H-15 Z" fill="#5b4632"/></g>
+<g transform="translate(200 374) rotate(0) scale(0.9)"><path d="M0 -10 V-44" stroke="#5b4632" stroke-width="2"/><path d="M1 -42 Q16 -28 1 -14 Z" fill="#efe6d2" stroke="#5b4632" stroke-width="1"/><path d="M-1 -38 Q-12 -27 -1 -16 Z" fill="#efe6d2" stroke="#5b4632" stroke-width="1"/><path d="M-22 -10 H22 L15 0 H-15 Z" fill="#5b4632"/></g>
+<g transform="translate(310 374) rotate(0) scale(0.9)"><path d="M0 -10 V-44" stroke="#5b4632" stroke-width="2"/><path d="M1 -42 Q16 -28 1 -14 Z" fill="#efe6d2" stroke="#5b4632" stroke-width="1"/><path d="M-1 -38 Q-12 -27 -1 -16 Z" fill="#efe6d2" stroke="#5b4632" stroke-width="1"/><path d="M-22 -10 H22 L15 0 H-15 Z" fill="#5b4632"/></g>
+<g transform="translate(410 374) rotate(0) scale(0.9)"><path d="M0 -10 V-44" stroke="#5b4632" stroke-width="2"/><path d="M1 -42 Q16 -28 1 -14 Z" fill="#efe6d2" stroke="#5b4632" stroke-width="1"/><path d="M-1 -38 Q-12 -27 -1 -16 Z" fill="#efe6d2" stroke="#5b4632" stroke-width="1"/><path d="M-22 -10 H22 L15 0 H-15 Z" fill="#5b4632"/></g>
+<g transform="translate(520 382) rotate(28) scale(0.9)"><path d="M0 -10 V-26" stroke="#5b4632" stroke-width="2"/><path d="M0 -26 l9 -6" stroke="#5b4632" stroke-width="2"/><path d="M-22 -10 H22 L15 0 H-15 Z" fill="#5b4632"/></g>
+<g transform="translate(640 382) rotate(28) scale(0.9)"><path d="M0 -10 V-26" stroke="#5b4632" stroke-width="2"/><path d="M0 -26 l9 -6" stroke="#5b4632" stroke-width="2"/><path d="M-22 -10 H22 L15 0 H-15 Z" fill="#5b4632"/></g>
+<g transform="translate(80 440) scale(-1.0 1.0)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><circle cx="7" cy="-2" r="1.6" fill="#2d4b6b"/></g>
+<g transform="translate(170 500) scale(-1.0 1.0)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><circle cx="7" cy="-2" r="1.6" fill="#2d4b6b"/></g>
+<g transform="translate(250 430) scale(-1.0 1.0)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><circle cx="7" cy="-2" r="1.6" fill="#2d4b6b"/></g>
+<g transform="translate(330 520) scale(-1.0 1.0)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><circle cx="7" cy="-2" r="1.6" fill="#2d4b6b"/></g>
+<g transform="translate(400 460) scale(-1.0 1.0)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><circle cx="7" cy="-2" r="1.6" fill="#2d4b6b"/></g>
+<g transform="translate(120 540) scale(-1.0 1.0)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#d9e3ea" stroke="#2d4b6b" stroke-width="1.2"/><circle cx="7" cy="-2" r="1.6" fill="#2d4b6b"/></g>
+<g transform="translate(520 420) scale(1.0 -1.0)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<g transform="translate(600 470) scale(1.0 -1.0)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<g transform="translate(660 410) scale(1.0 -1.0)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<path d="M470.0 360 V570" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.8"/>
+</g>
+<rect x="30" y="150" width="660" height="420" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2"/>
+<circle cx="60" cy="196" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="60.0" y="200.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="612" cy="200" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="612.0" y="204.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="668" cy="548" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="668.0" y="552.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">3</text>
+<circle cx="640" cy="440" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="640.0" y="444.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">4</text>
+<circle cx="672" cy="388" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="672.0" y="392.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">5</text>
+<circle cx="44" cy="600" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="604.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1</text>
+<text x="62.0" y="604.0" font-size="13" fill="#3b2f1e">“The second angel blew his trumpet”</text>
+<text x="690.0" y="604.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 8:8</text>
+<circle cx="44" cy="624" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="628.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">2</text>
+<text x="62.0" y="628.0" font-size="13" fill="#3b2f1e">“something like a great mountain, burning with fire” · ὡς, “like”: John’s comparison</text>
+<text x="690.0" y="628.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 8:8</text>
+<circle cx="44" cy="648" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="652.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">3</text>
+<text x="62.0" y="652.0" font-size="13" fill="#3b2f1e">“a third of the sea became blood”</text>
+<text x="690.0" y="652.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 8:8</text>
+<circle cx="44" cy="672" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="676.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">4</text>
+<text x="62.0" y="676.0" font-size="13" fill="#3b2f1e">“A third of the living creatures in the sea died”</text>
+<text x="690.0" y="676.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 8:9</text>
+<circle cx="44" cy="696" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="700.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">5</text>
+<text x="62.0" y="700.0" font-size="13" fill="#3b2f1e">“a third of the ships were destroyed”</text>
+<text x="690.0" y="700.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 8:9</text>
+<path d="M34 722 h26" stroke="#3b2f1e" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="62.0" y="726.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Not stated: which third of the sea, or where the dead and the wrecks lie.</text>
+<text x="30.0" y="764.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.2">THE SOURCE · EXODUS 7:20-21</text>
+<text x="370.0" y="764.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.2">THE SECOND BOWL · REVELATION 16:3</text>
+<clipPath id="sb-nile"><rect x="30" y="776" width="320" height="250" rx="4"/></clipPath>
+<rect x="30" y="776" width="320" height="250" rx="4" fill="#e9d9b4"/>
+<g clip-path="url(#sb-nile)">
+<path d="M150 776 C90 836 240 886 180 936 S140 1006 200 1026" stroke="#9b1b1b" stroke-width="46" fill="none"/>
+<path d="M150 776 C90 836 240 886 180 936 S140 1006 200 1026" stroke="#c23a2c" stroke-width="20" fill="none" opacity="0.6"/>
+<path d="M280 816 L226 894" stroke="#5b4632" stroke-width="5" stroke-linecap="round"/>
+<text x="286.0" y="812.0" font-size="12" fill="#3b2f1e" font-style="italic">the staff</text>
+<g transform="translate(142 834) scale(0.85 -0.85)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<g transform="translate(196 916) scale(0.85 -0.85)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<g transform="translate(168 986) scale(0.85 -0.85)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<text x="70.0" y="1010.0" font-size="12" fill="#6b5a3e" font-weight="bold" letter-spacing="2">EGYPT</text>
+</g>
+<rect x="30" y="776" width="320" height="250" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2"/>
+<text x="38.0" y="1048.0" font-size="12.5" fill="#3b2f1e" font-style="italic">“all the water in the Nile turned into blood”</text>
+<text x="38.0" y="1065.0" font-size="12.5" fill="#3b2f1e" font-style="italic">“the fish in the Nile died, and the Nile stank”</text>
+<rect x="370" y="776" width="320" height="250" rx="4" fill="url(#sb-corpse)" stroke="#3b2f1e" stroke-width="2"/>
+<path d="M376 846 q7 -4 14 0 t14 0 M422 846 q7 -4 14 0 t14 0 M468 846 q7 -4 14 0 t14 0 M514 846 q7 -4 14 0 t14 0 M560 846 q7 -4 14 0 t14 0 M606 846 q7 -4 14 0 t14 0 M652 846 q7 -4 14 0 t14 0" fill="none" stroke="#c98a7a" stroke-width="1.3" opacity="0.2"/>
+<path d="M394 868 q7 -4 14 0 t14 0 M440 868 q7 -4 14 0 t14 0 M486 868 q7 -4 14 0 t14 0 M532 868 q7 -4 14 0 t14 0 M578 868 q7 -4 14 0 t14 0 M624 868 q7 -4 14 0 t14 0" fill="none" stroke="#c98a7a" stroke-width="1.3" opacity="0.2"/>
+<path d="M376 890 q7 -4 14 0 t14 0 M422 890 q7 -4 14 0 t14 0 M468 890 q7 -4 14 0 t14 0 M514 890 q7 -4 14 0 t14 0 M560 890 q7 -4 14 0 t14 0 M606 890 q7 -4 14 0 t14 0 M652 890 q7 -4 14 0 t14 0" fill="none" stroke="#c98a7a" stroke-width="1.3" opacity="0.2"/>
+<path d="M394 912 q7 -4 14 0 t14 0 M440 912 q7 -4 14 0 t14 0 M486 912 q7 -4 14 0 t14 0 M532 912 q7 -4 14 0 t14 0 M578 912 q7 -4 14 0 t14 0 M624 912 q7 -4 14 0 t14 0" fill="none" stroke="#c98a7a" stroke-width="1.3" opacity="0.2"/>
+<path d="M376 934 q7 -4 14 0 t14 0 M422 934 q7 -4 14 0 t14 0 M468 934 q7 -4 14 0 t14 0 M514 934 q7 -4 14 0 t14 0 M560 934 q7 -4 14 0 t14 0 M606 934 q7 -4 14 0 t14 0 M652 934 q7 -4 14 0 t14 0" fill="none" stroke="#c98a7a" stroke-width="1.3" opacity="0.2"/>
+<path d="M394 956 q7 -4 14 0 t14 0 M440 956 q7 -4 14 0 t14 0 M486 956 q7 -4 14 0 t14 0 M532 956 q7 -4 14 0 t14 0 M578 956 q7 -4 14 0 t14 0 M624 956 q7 -4 14 0 t14 0" fill="none" stroke="#c98a7a" stroke-width="1.3" opacity="0.2"/>
+<path d="M376 978 q7 -4 14 0 t14 0 M422 978 q7 -4 14 0 t14 0 M468 978 q7 -4 14 0 t14 0 M514 978 q7 -4 14 0 t14 0 M560 978 q7 -4 14 0 t14 0 M606 978 q7 -4 14 0 t14 0 M652 978 q7 -4 14 0 t14 0" fill="none" stroke="#c98a7a" stroke-width="1.3" opacity="0.2"/>
+<path d="M394 1000 q7 -4 14 0 t14 0 M440 1000 q7 -4 14 0 t14 0 M486 1000 q7 -4 14 0 t14 0 M532 1000 q7 -4 14 0 t14 0 M578 1000 q7 -4 14 0 t14 0 M624 1000 q7 -4 14 0 t14 0" fill="none" stroke="#c98a7a" stroke-width="1.3" opacity="0.2"/>
+<path d="M376 1022 q7 -4 14 0 t14 0 M422 1022 q7 -4 14 0 t14 0 M468 1022 q7 -4 14 0 t14 0 M514 1022 q7 -4 14 0 t14 0 M560 1022 q7 -4 14 0 t14 0 M606 1022 q7 -4 14 0 t14 0 M652 1022 q7 -4 14 0 t14 0" fill="none" stroke="#c98a7a" stroke-width="1.3" opacity="0.2"/>
+<path d="M500.0 792 Q530.0 824 560.0 792 Z" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.5" transform="rotate(32 530.0 802)"/>
+<path d="M548.0 816 Q560.0 842 556.0 846" stroke="#7a1414" stroke-width="9" fill="none" stroke-linecap="round"/>
+<g transform="translate(430 886) scale(0.85 -0.85)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<g transform="translate(520 926) scale(0.85 -0.85)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<g transform="translate(620 896) scale(0.85 -0.85)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<g transform="translate(460 976) scale(0.85 -0.85)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<g transform="translate(580 991) scale(0.85 -0.85)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<g transform="translate(640 956) scale(0.85 -0.85)"><path d="M-14 0 L-22 -7 L-22 7 Z" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><ellipse cx="0" cy="0" rx="14" ry="6.5" fill="#c9c2b4" stroke="#6b6458" stroke-width="1.2"/><path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="#6b6458" stroke-width="1.4"/></g>
+<text x="378.0" y="1048.0" font-size="12.5" fill="#3b2f1e" font-style="italic">“like the blood of a corpse” · ὡς again</text>
+<text x="378.0" y="1065.0" font-size="12.5" fill="#3b2f1e" font-style="italic">“every living thing died that was in the sea”</text>
+<text x="680.0" y="1014.0" font-size="11.5" fill="#e8c9c0" text-anchor="end" font-style="italic">no ships: the verse names none</text>
+<text x="360.0" y="1118.0" font-size="13" fill="#6b5a3e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE REACH GROWS</text>
+<rect x="80" y="1136" width="100" height="50" fill="#e9d9b4" stroke="#3b2f1e"/>
+<clipPath id="sb-reach"><rect x="80" y="1136" width="100" height="50"/></clipPath>
+<path d="M110 1136 C90 1156 160 1162 140 1186" stroke="#9b1b1b" stroke-width="12" fill="none" clip-path="url(#sb-reach)"/>
+<rect x="80" y="1136" width="100" height="50" fill="none" stroke="#3b2f1e"/>
+<text x="130.0" y="1206.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">one river, all of it</text>
+<text x="130.0" y="1222.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Exodus 7:20</text>
+<path d="M255.0 1161.0 L244.2 1166.2 L244.2 1155.8 Z" fill="#8b1e1e"/>
+<rect x="310.0" y="1136" width="100" height="50" fill="#4f7396" stroke="#3b2f1e"/>
+<rect x="376.7" y="1136" width="33.3" height="50" fill="#9b1b1b"/>
+<rect x="310.0" y="1136" width="100" height="50" fill="none" stroke="#3b2f1e"/>
+<text x="360.0" y="1206.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">a third of the sea</text>
+<text x="360.0" y="1222.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Revelation 8:8</text>
+<path d="M485.0 1161.0 L474.2 1166.2 L474.2 1155.8 Z" fill="#8b1e1e"/>
+<rect x="540" y="1136" width="100" height="50" fill="#4f7396" stroke="#3b2f1e"/>
+<rect x="540.0" y="1136" width="100.0" height="50" fill="#4a0f12"/>
+<rect x="540" y="1136" width="100" height="50" fill="none" stroke="#3b2f1e"/>
+<text x="590.0" y="1206.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">the whole sea</text>
+<text x="590.0" y="1222.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Revelation 16:3</text>
+<path d="M80 1232 H640" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="1254.0" font-size="14" fill="#3b2f1e" text-anchor="middle" font-style="italic">“Just are you, O Holy One … for you brought these judgments.”</text>
+<text x="360.0" y="1274.0" font-size="12" fill="#6b5a3e" text-anchor="middle">the angel in charge of the waters · Revelation 16:5 (ESV)</text>
+<text x="696.0" y="1308.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

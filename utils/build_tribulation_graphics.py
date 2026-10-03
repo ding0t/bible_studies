@@ -607,10 +607,257 @@ def church_and_saints():
     return "\n".join(out)
 
 
+# ---------------------------------------------------------------------------------------------
+# 5. The sea turned to blood: an Imagery plate (drawn-graphics.md). Every numbered detail is in the
+# text; where the text is silent (which third, where the ships lie) the plate says so.
+
+BLOOD = "#9b1b1b"
+CORPSE = "#4a0f12"
+SEA = "#4f7396"
+SEA_DEEP = "#2d4b6b"
+EMBER = "#e0662a"
+
+
+def fish(cx, cy, s=1.0, dead=False, flip=False):
+    """A fish facing right (or left if flip). Dead: belly up, grey, an x for an eye."""
+    body = "#c9c2b4" if dead else "#d9e3ea"
+    edge = "#6b6458" if dead else "#2d4b6b"
+    sx = -s if flip else s
+    sy = -s if dead else s
+    eye = (f'<path d="M5 -4 l4 4 m0 -4 l-4 4" stroke="{edge}" stroke-width="1.4"/>' if dead
+           else f'<circle cx="7" cy="-2" r="1.6" fill="{edge}"/>')
+    return (f'<g transform="translate({cx} {cy}) scale({sx} {sy})">'
+            f'<path d="M-14 0 L-22 -7 L-22 7 Z" fill="{body}" stroke="{edge}" stroke-width="1.2"/>'
+            f'<ellipse cx="0" cy="0" rx="14" ry="6.5" fill="{body}" stroke="{edge}" stroke-width="1.2"/>'
+            f'{eye}</g>')
+
+
+def ship(cx, cy, s=1.0, wrecked=False):
+    """A sailing ship on (cx, cy); wrecked: heeled over, mast snapped, low in the water."""
+    rot = 28 if wrecked else 0
+    dy = 8 if wrecked else 0
+    hull = "#5b4632"
+    sail = "#efe6d2"
+    mast = (f'<path d="M0 -10 V-26" stroke="{hull}" stroke-width="2"/>'
+            f'<path d="M0 -26 l9 -6" stroke="{hull}" stroke-width="2"/>' if wrecked else
+            f'<path d="M0 -10 V-44" stroke="{hull}" stroke-width="2"/>'
+            f'<path d="M1 -42 Q16 -28 1 -14 Z" fill="{sail}" stroke="{hull}" stroke-width="1"/>'
+            f'<path d="M-1 -38 Q-12 -27 -1 -16 Z" fill="{sail}" stroke="{hull}" stroke-width="1"/>')
+    return (f'<g transform="translate({cx} {cy + dy}) rotate({rot}) scale({s})">{mast}'
+            f'<path d="M-22 -10 H22 L15 0 H-15 Z" fill="{hull}"/></g>')
+
+
+def wave_lines(x0, x1, y0, y1, step=22, colour="#ffffff", opacity=0.25):
+    out = []
+    for i, y in enumerate(range(int(y0), int(y1), step)):
+        x = x0 + (i % 2) * 18
+        parts = []
+        while x + 30 < x1:
+            parts.append(f"M{x} {y} q7 -4 14 0 t14 0")
+            x += 46
+        out.append(f'<path d="{" ".join(parts)}" fill="none" stroke="{colour}" stroke-width="1.3" '
+                   f'opacity="{opacity}"/>')
+    return out
+
+
+def callout(n, x, y, r=11):
+    return [f'<circle cx="{x}" cy="{y}" r="{r}" fill="{PAPER}" stroke="{INK}" stroke-width="1.6"/>',
+            text(x, y + 4.5, str(n), 13, "middle", "bold")]
+
+
+def sea_to_blood():
+    h = 1330
+    out = svg_open(
+        h,
+        "The sea turned to blood",
+        "An illustrated plate in three parts. Above, the second trumpet (Revelation 8:8-9): under a "
+        "darkened sky something like a great mountain, burning with fire, falls into the sea; a third "
+        "of the sea is blood, three of nine sea creatures lie dead and two of six ships are wrecked. "
+        "Numbered callouts quote each detail, and a dashed line notes that the text does not say which "
+        "third of the sea, or where the dead creatures and wrecked ships lie. Below left, the source: "
+        "the first plague of Egypt (Exodus 7:20-21), the whole Nile turned to blood, its fish dead. "
+        "Below right, the second bowl (Revelation 16:3): the whole sea like the blood of a corpse and "
+        "every living thing in it dead; no ships are drawn because the verse names none. A strip "
+        "compares the reach of the three: one river, a third of the sea, the whole sea. At the foot, "
+        "the angel of the waters: 'Just are you, O Holy One' (Revelation 16:5-6).",
+    )
+    out.append(
+        '<defs>'
+        '<linearGradient id="sb-sky" x1="0" y1="0" x2="0" y2="1">'
+        '<stop offset="0" stop-color="#1f1a1c"/><stop offset="0.65" stop-color="#5a2a1e"/>'
+        f'<stop offset="1" stop-color="{EMBER}" stop-opacity="0.85"/></linearGradient>'
+        '<radialGradient id="sb-glow" cx="0.5" cy="0.5" r="0.5">'
+        '<stop offset="0" stop-color="#ffd27a" stop-opacity="0.95"/>'
+        f'<stop offset="0.45" stop-color="{EMBER}" stop-opacity="0.55"/>'
+        f'<stop offset="1" stop-color="{EMBER}" stop-opacity="0"/></radialGradient>'
+        '<linearGradient id="sb-sea" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="0" stop-color="{SEA}"/><stop offset="1" stop-color="{SEA_DEEP}"/></linearGradient>'
+        '<linearGradient id="sb-blood" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="0" stop-color="#b8261f"/><stop offset="1" stop-color="{BLOOD}"/></linearGradient>'
+        '<linearGradient id="sb-corpse" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="0" stop-color="#6a1a1a"/><stop offset="1" stop-color="{CORPSE}"/></linearGradient>'
+        '<clipPath id="sb-scene"><rect x="30" y="150" width="660" height="420" rx="4"/></clipPath>'
+        '</defs>'
+    )
+    out += heading("The Sea Turned to Blood", "Egypt’s first plague, the second trumpet, the second bowl")
+
+    # A. The second trumpet.
+    out.append(text(30, 140, "THE SECOND TRUMPET · REVELATION 8:8-9", 13, weight="bold", fill=MUTED,
+                    spacing="1.5"))
+    sx0, sx1, top, hz, bot = 30, 690, 150, 360, 570
+    third = sx1 - (sx1 - sx0) / 3
+    out.append('<g clip-path="url(#sb-scene)">')
+    out.append(f'<rect x="{sx0}" y="{top}" width="{sx1 - sx0}" height="{hz - top}" fill="url(#sb-sky)"/>')
+    out.append(f'<rect x="{sx0}" y="{hz}" width="{third - sx0}" height="{bot - hz}" fill="url(#sb-sea)"/>')
+    out.append(f'<rect x="{third}" y="{hz}" width="{sx1 - third}" height="{bot - hz}" fill="url(#sb-blood)"/>')
+    out += wave_lines(sx0 + 6, third, hz + 14, bot, colour="#ffffff", opacity=0.22)
+    out += wave_lines(third + 6, sx1, hz + 14, bot, colour="#ffd0c0", opacity=0.18)
+    # The falling mountain: a glow, a trail of fire and smoke, the burning mass, the splash.
+    mx, my = 560, 262
+    out.append(f'<path d="M300 150 Q430 190 {mx - 30} {my - 26}" stroke="#3a2a26" stroke-width="46" '
+               f'stroke-linecap="round" fill="none" opacity="0.45"/>')
+    out.append(f'<path d="M330 158 Q440 196 {mx - 26} {my - 22}" stroke="{EMBER}" stroke-width="16" '
+               f'stroke-linecap="round" fill="none" opacity="0.7"/>')
+    out.append(f'<circle cx="{mx}" cy="{my}" r="120" fill="url(#sb-glow)"/>')
+    out.append(f'<path d="M{mx - 62} {my + 40} L{mx - 40} {my - 20} L{mx - 18} {my - 4} L{mx + 4} {my - 52} '
+               f'L{mx + 28} {my - 14} L{mx + 46} {my - 30} L{mx + 66} {my + 38} Z" fill="#3b2a22" '
+               f'stroke="#1c1310" stroke-width="2" transform="rotate(-14 {mx} {my})"/>')
+    for fx, fy, fh in [(-46, -12, 34), (-22, -30, 44), (2, -60, 52), (26, -36, 40), (48, -40, 36),
+                       (-60, 18, 26), (62, 14, 28)]:
+        bx, by = mx + fx, my + fy + 8
+        out.append(f'<path d="M{bx - 11} {by} C{bx - 13} {by - fh * 0.5} {bx - 2} {by - fh * 0.6} {bx} {by - fh} '
+                   f'C{bx + 3} {by - fh * 0.6} {bx + 13} {by - fh * 0.5} {bx + 11} {by} Q{bx} {by + 7} {bx - 11} {by} Z" '
+                   f'fill="#f08a2c" opacity="0.92"/>')
+        out.append(f'<path d="M{bx - 5} {by} C{bx - 6} {by - fh * 0.3} {bx - 1} {by - fh * 0.4} {bx} {by - fh * 0.62} '
+                   f'C{bx + 1} {by - fh * 0.4} {bx + 6} {by - fh * 0.3} {bx + 5} {by} Q{bx} {by + 4} {bx - 5} {by} Z" '
+                   f'fill="#ffe08a"/>')
+    for k, (dx, dy, r) in enumerate([(-30, -70, 22), (-4, -96, 28), (26, -120, 34), (60, -142, 38)]):
+        out.append(f'<circle cx="{mx + dx}" cy="{my + dy}" r="{r}" fill="#2a2120" opacity="{0.42 - k * 0.07:.2f}"/>')
+    out.append(f'<path d="M{mx - 70} {hz} q20 -40 40 -6 q14 -34 32 0 q18 -38 36 -4 q16 -30 34 4" '
+               f'fill="none" stroke="#ffe3d6" stroke-width="3" opacity="0.8"/>')
+    # The trumpet, with no figure: the text names an angel and a sound.
+    out.append(f'<g transform="translate(84 222) rotate(-16)">'
+               f'<rect x="0" y="-3.5" width="74" height="7" rx="3" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1.2"/>'
+               f'<path d="M72 -4 Q86 -6 96 -20 V20 Q86 6 72 4 Z" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1.4"/>'
+               f'<path d="M-6 -6 h8 v12 h-8 z" fill="{GOLD_EDGE}"/></g>')
+    for k, r in enumerate((26, 40, 54)):
+        out.append(f'<path d="M{176 + k * 4} {186 - k * 6} a{r} {r} 0 0 1 0 {r * 1.1:.0f}" fill="none" '
+                   f'stroke="#f6e3b8" stroke-width="1.6" opacity="{0.7 - k * 0.2:.1f}" transform="rotate(-16 180 200)"/>')
+    out.append(text(130, 252, "the second angel’s trumpet", 12.5, "middle", italic=True, fill="#f6e3b8"))
+    # Ships: six, two wrecked. Creatures: nine, three dead.
+    for x, wrecked in [(90, False), (200, False), (310, False), (410, False), (520, True), (640, True)]:
+        out.append(ship(x, hz + 14, 0.9, wrecked))
+    for x, y in [(80, 440), (170, 500), (250, 430), (330, 520), (400, 460), (120, 540)]:
+        out.append(fish(x, y, 1.0, flip=x % 2 == 0))
+    for x, y in [(520, 420), (600, 470), (660, 410)]:
+        out.append(fish(x, y, 1.0, dead=True))
+    out.append(f'<path d="M{third} {hz} V{bot}" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="6 5" opacity="0.8"/>')
+    out.append('</g>')
+    out.append(f'<rect x="{sx0}" y="{top}" width="{sx1 - sx0}" height="{bot - top}" rx="4" fill="none" stroke="{INK}" stroke-width="2"/>')
+    for n, x, y in [(1, 60, 196), (2, 612, 200), (3, 668, 548), (4, 640, 440), (5, 672, 388)]:
+        out += callout(n, x, y)
+
+    # The key to the scene.
+    ky = bot + 34
+    keys = [
+        ("“The second angel blew his trumpet”", "Revelation 8:8"),
+        ("“something like a great mountain, burning with fire” · ὡς, “like”: John’s comparison", "Revelation 8:8"),
+        ("“a third of the sea became blood”", "Revelation 8:8"),
+        ("“A third of the living creatures in the sea died”", "Revelation 8:9"),
+        ("“a third of the ships were destroyed”", "Revelation 8:9"),
+    ]
+    for i, (q, ref) in enumerate(keys):
+        y = ky + i * 24
+        out += callout(i + 1, 44, y - 4, r=9)
+        out.append(text(62, y, q, 13))
+        out.append(text(sx1, y, ref, 12, "end", italic=True, fill=MUTED))
+    ny = ky + len(keys) * 24 + 2
+    out.append(f'<path d="M{sx0 + 4} {ny - 4} h26" stroke="{INK}" stroke-width="1.5" stroke-dasharray="6 5"/>')
+    out.append(text(62, ny, "Not stated: which third of the sea, or where the dead and the wrecks lie.", 12.5,
+                    italic=True, fill=MUTED))
+
+    # B. The source and the bowl, side by side at one size.
+    py0 = ny + 50
+    pw, ph = 320, 250
+    lx, rx = 30, 370
+    out.append(text(lx, py0 - 12, "THE SOURCE · EXODUS 7:20-21", 13, weight="bold", fill=MUTED, spacing="1.2"))
+    out.append(text(rx, py0 - 12, "THE SECOND BOWL · REVELATION 16:3", 13, weight="bold", fill=MUTED, spacing="1.2"))
+    out.append(f'<clipPath id="sb-nile"><rect x="{lx}" y="{py0}" width="{pw}" height="{ph}" rx="4"/></clipPath>')
+    out.append(f'<rect x="{lx}" y="{py0}" width="{pw}" height="{ph}" rx="4" fill="#e9d9b4"/>')
+    out.append('<g clip-path="url(#sb-nile)">')
+    river = (f"M{lx + 120} {py0} C{lx + 60} {py0 + 60} {lx + 210} {py0 + 110} {lx + 150} {py0 + 160} "
+             f"S{lx + 110} {py0 + 230} {lx + 170} {py0 + ph}")
+    out.append(f'<path d="{river}" stroke="{BLOOD}" stroke-width="46" fill="none"/>')
+    out.append(f'<path d="{river}" stroke="#c23a2c" stroke-width="20" fill="none" opacity="0.6"/>')
+    out.append(f'<path d="M{lx + 250} {py0 + 40} L{lx + 196} {py0 + 118}" stroke="#5b4632" stroke-width="5" stroke-linecap="round"/>')
+    out.append(text(lx + 256, py0 + 36, "the staff", 12, italic=True, fill=INK))
+    for x, y in [(lx + 112, py0 + 58), (lx + 166, py0 + 140), (lx + 138, py0 + 210)]:
+        out.append(fish(x, y, 0.85, dead=True))
+    out.append(text(lx + 40, py0 + ph - 16, "EGYPT", 12, weight="bold", fill=MUTED, spacing="2"))
+    out.append('</g>')
+    out.append(f'<rect x="{lx}" y="{py0}" width="{pw}" height="{ph}" rx="4" fill="none" stroke="{INK}" stroke-width="2"/>')
+    out += lines_at_local(lx + 8, py0 + ph + 22, ["“all the water in the Nile turned into blood”",
+                                                  "“the fish in the Nile died, and the Nile stank”"], 12.5)
+    out.append(f'<rect x="{rx}" y="{py0}" width="{pw}" height="{ph}" rx="4" fill="url(#sb-corpse)" stroke="{INK}" stroke-width="2"/>')
+    out += wave_lines(rx + 6, rx + pw, py0 + 70, py0 + ph, colour="#c98a7a", opacity=0.2)
+    bx, by = rx + pw / 2, py0 + 26
+    out.append(f'<path d="M{bx - 30} {by - 10} Q{bx} {by + 22} {bx + 30} {by - 10} Z" fill="{GOLD}" '
+               f'stroke="{GOLD_EDGE}" stroke-width="1.5" transform="rotate(32 {bx} {by})"/>')
+    out.append(f'<path d="M{bx + 18} {by + 14} Q{bx + 30} {by + 40} {bx + 26} {py0 + 70}" stroke="#7a1414" '
+               f'stroke-width="9" fill="none" stroke-linecap="round"/>')
+    for x, y in [(rx + 60, py0 + 110), (rx + 150, py0 + 150), (rx + 250, py0 + 120), (rx + 90, py0 + 200),
+                 (rx + 210, py0 + 215), (rx + 270, py0 + 180)]:
+        out.append(fish(x, y, 0.85, dead=True))
+    out += lines_at_local(rx + 8, py0 + ph + 22, ["“like the blood of a corpse” · ὡς again",
+                                                  "“every living thing died that was in the sea”"], 12.5)
+    out.append(text(rx + pw - 10, py0 + ph - 12, "no ships: the verse names none", 11.5, "end", italic=True,
+                    fill="#e8c9c0"))
+
+    # C. The reach grows.
+    gy = py0 + ph + 92
+    out.append(text(W / 2, gy, "THE REACH GROWS", 13, "middle", "bold", fill=MUTED, spacing="2"))
+    cols = [(130, "one river, all of it", "Exodus 7:20"), (W / 2, "a third of the sea", "Revelation 8:8"),
+            (W - 130, "the whole sea", "Revelation 16:3")]
+    for i, (cx, lab, ref) in enumerate(cols):
+        y = gy + 18
+        if i == 0:
+            out.append(f'<rect x="{cx - 50}" y="{y}" width="100" height="50" fill="#e9d9b4" stroke="{INK}"/>')
+            out.append(f'<clipPath id="sb-reach"><rect x="{cx - 50}" y="{y}" width="100" height="50"/></clipPath>')
+            out.append(f'<path d="M{cx - 20} {y} C{cx - 40} {y + 20} {cx + 30} {y + 26} {cx + 10} {y + 50}" '
+                       f'stroke="{BLOOD}" stroke-width="12" fill="none" clip-path="url(#sb-reach)"/>')
+            out.append(f'<rect x="{cx - 50}" y="{y}" width="100" height="50" fill="none" stroke="{INK}"/>')
+        else:
+            frac = 1 / 3 if i == 1 else 1
+            out.append(f'<rect x="{cx - 50}" y="{y}" width="100" height="50" fill="{SEA}" stroke="{INK}"/>')
+            fill = BLOOD if i == 1 else CORPSE
+            out.append(f'<rect x="{cx + 50 - 100 * frac:.1f}" y="{y}" width="{100 * frac:.1f}" height="50" fill="{fill}"/>')
+            out.append(f'<rect x="{cx - 50}" y="{y}" width="100" height="50" fill="none" stroke="{INK}"/>')
+        out.append(text(cx, y + 70, lab, 13, "middle", "bold"))
+        out.append(text(cx, y + 86, ref, 12, "middle", italic=True, fill=MUTED))
+        if i < 2:
+            out.append(arrow_head(cx + (W / 2 - 130) / 2 + 10, y + 25, 0, 12, RED))
+
+    # The verdict the vision gives, in heaven's words.
+    vy = gy + 136
+    out.append(f'<path d="M80 {vy - 22} H{W - 80}" stroke="{INK}" stroke-width="0.8"/>')
+    out.append(text(W / 2, vy, "“Just are you, O Holy One … for you brought these judgments.”", 14, "middle",
+                    italic=True))
+    out.append(text(W / 2, vy + 20, "the angel in charge of the waters · Revelation 16:5 (ESV)", 12, "middle",
+                    fill=MUTED))
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+def lines_at_local(x, y, rows, size=13, lh=17):
+    return [text(x, y + i * lh, r, size, italic=True) for i, r in enumerate(rows)]
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for name, fn in (("seventieth-week", seventieth_week), ("judgments-unfolded", judgments_unfolded),
-                     ("week-in-days", week_in_days), ("church-and-saints", church_and_saints)):
+                     ("week-in-days", week_in_days), ("church-and-saints", church_and_saints),
+                     ("sea-to-blood", sea_to_blood)):
         (OUT / f"{name}.svg").write_text(fn() + "\n", encoding="utf-8")
         print(f"wrote {name}.svg")
 
