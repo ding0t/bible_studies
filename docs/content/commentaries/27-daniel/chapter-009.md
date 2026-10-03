@@ -14,6 +14,7 @@ draft: false
 
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 9:24-27 (primary passage)
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 9:24-27 (primary passage)
+- [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 9:24-27 (primary passage)
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 9:24-27
 - [Charting End Times](../../last-things/prophecy-chart.md) — 9:27
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 9:2

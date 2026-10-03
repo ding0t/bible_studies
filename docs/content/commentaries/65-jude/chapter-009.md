@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 9
 - [The Restrainer](../../last-things/the-restrainer.md) — 9
 <!-- commentary-index:auto-end -->

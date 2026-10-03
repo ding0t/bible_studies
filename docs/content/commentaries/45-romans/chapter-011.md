@@ -23,6 +23,7 @@ draft: false
 - [The Appointed Times](../../feasts/feasts.md) — 11:25-27
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 11:25-27
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 11:26
+- [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 11:25-26
 - [The Way](../../jesus/the-way.md) — 11:33
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 11:26
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 11:25-29

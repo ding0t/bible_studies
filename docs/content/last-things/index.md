@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-02
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -141,7 +141,7 @@ End-times prophecy, read dispensationally.
 
     ---
 
-    Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- plus a mermaid diagram of the same framework.
+    Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- with the seven thousand years redrawn on this site's chronology.
 
     [:octicons-arrow-right-24: Read](prophecy-chart.md)
 
@@ -192,6 +192,14 @@ End-times prophecy, read dispensationally.
     The restrainer of 2 Thessalonians 2:6-7 is the Holy Spirit dwelling in the church. While the church stands in the midst of the world, lawlessness is held back; when she is caught up, the lawless one is revealed.
 
     [:octicons-arrow-right-24: Read](the-restrainer.md)
+
+-   __The Tribulation: Daniel's Seventieth Week, Year by Year__
+
+    ---
+
+    The seven years of Daniel 9:27 drawn out in four charts: what the week is for, the seals, trumpets and bowls in order, what happens at the midpoint, and where the church, Israel and the tribulation saints are while it runs.
+
+    [:octicons-arrow-right-24: Read](tribulation.md)
 
 -   __The Trumpet Call of God__
 

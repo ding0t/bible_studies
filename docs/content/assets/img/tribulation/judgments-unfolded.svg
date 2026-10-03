@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 2008" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">The judgments unfolded</title>
+<desc id="d">A cascading chart of Revelation's three series of judgments. The seven seals run down the left: the white, red, black and pale horses, the martyrs under the altar, the great earthquake, and the seventh seal, silence in heaven, when seven trumpets are given (Revelation 8:1-2). From the seventh seal a bracket opens the seven trumpets in the middle column: hail and fire, a burning mountain, Wormwood, the lights struck, the locusts, the army from the Euphrates, and the seventh trumpet proclaiming the kingdom (Revelation 11:15). From the seventh trumpet a bracket opens the seven bowls on the right, after chapters 12 to 14, which step back to show the woman, the dragon and the beasts: sores, the sea, the rivers, the sun, the beast's throne, the Euphrates dried, and the seventh bowl poured into the air with the cry 'It is done!' (Revelation 16:17). The pauses are marked: chapter 7 between the sixth and seventh seals, 10:1-11:14 between the sixth and seventh trumpets, and between the sixth and seventh bowls a single verse, Jesus' warning 'Behold, I am coming like a thief!' (Revelation 16:15). Three circles show the reach growing: a fourth of the earth under the seals (Revelation 6:8), a third under the trumpets (Revelation 8:7-12; 9:15), every living thing in the sea under the bowls (Revelation 16:3). An inset shows the other reading, in which the three series retell one period. The King comes at the foot (Revelation 19:11-16).</desc>
+<rect width="720" height="2008" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1992" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1980" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE JUDGMENTS UNFOLDED</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Each seventh opens the next seven (Revelation 8:1-2; 11:15; 15:1)</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<rect x="252" y="140" width="444" height="300" rx="8" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1"/>
+<text x="474.0" y="168.0" font-size="14" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.5">HOW FAR EACH SERIES REACHES</text>
+<circle cx="326" cy="226" r="34" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2"/>
+<path d="M326 226 L326 192 A34 34 0 0 1 360.0 226.0 Z" fill="#a3ad92" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="326.0" y="280.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold">a fourth</text>
+<text x="326.0" y="299.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">of the earth</text>
+<text x="326.0" y="315.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">Revelation 6:8</text>
+<circle cx="474" cy="226" r="34" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2"/>
+<path d="M474 226 L474 192 A34 34 0 0 1 503.4 243.0 Z" fill="#e8c46a" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="474.0" y="280.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold">a third</text>
+<text x="474.0" y="299.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">earth, sea, mankind</text>
+<text x="474.0" y="315.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">Revelation 8:7-12; 9:15</text>
+<circle cx="622" cy="226" r="34" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="622" cy="226" r="34" fill="#8b1e1e" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="622.0" y="280.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold">every</text>
+<text x="622.0" y="299.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">living thing in the sea</text>
+<text x="622.0" y="315.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">Revelation 16:3</text>
+<text x="474.0" y="352.0" font-size="13.5" fill="#3b2f1e" text-anchor="middle" font-style="italic">“…seven plagues, which are the last, for with</text>
+<text x="474.0" y="370.0" font-size="13.5" fill="#3b2f1e" text-anchor="middle" font-style="italic">them the wrath of God is finished” (Revelation 15:1, ESV)</text>
+<text x="474.0" y="400.0" font-size="13.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">“They did not repent”: 9:20, 21; 16:9, 11</text>
+<path d="M29.0 216 H235.0 L225.0 229.0 L235.0 242 H29.0 L39.0 229.0 Z" fill="#3b2f1e"/>
+<text x="132.0" y="234.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">SEVEN SEALS</text>
+<text x="132.0" y="262.0" font-size="13" fill="#6b5a3e" text-anchor="middle" font-style="italic">Revelation 6:1–8:1</text>
+<path d="M82.0 300.0 L79.1 304.2 L80.2 309.2 L75.9 311.9 L75.0 317.0 L69.9 317.9 L67.2 322.2 L62.2 321.1 L58.0 324.0 L53.8 321.1 L48.8 322.2 L46.1 317.9 L41.0 317.0 L40.1 311.9 L35.8 309.2 L36.9 304.2 L34.0 300.0 L36.9 295.8 L35.8 290.8 L40.1 288.1 L41.0 283.0 L46.1 282.1 L48.8 277.8 L53.8 278.9 L58.0 276.0 L62.2 278.9 L67.2 277.8 L69.9 282.1 L75.0 283.0 L75.9 288.1 L80.2 290.8 L79.1 295.8 Z" fill="#f7f4ea" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="58.0" y="305.0" font-size="14" fill="#3b2f1e" text-anchor="middle" font-weight="bold">I</text>
+<text x="88.0" y="294.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">White horse</text>
+<text x="88.0" y="311.0" font-size="13.5" fill="#3b2f1e">a rider with a bow</text>
+<text x="88.0" y="327.0" font-size="12" fill="#6b5a3e" font-style="italic">6:1-2</text>
+<path d="M82.0 370.0 L79.1 374.2 L80.2 379.2 L75.9 381.9 L75.0 387.0 L69.9 387.9 L67.2 392.2 L62.2 391.1 L58.0 394.0 L53.8 391.1 L48.8 392.2 L46.1 387.9 L41.0 387.0 L40.1 381.9 L35.8 379.2 L36.9 374.2 L34.0 370.0 L36.9 365.8 L35.8 360.8 L40.1 358.1 L41.0 353.0 L46.1 352.1 L48.8 347.8 L53.8 348.9 L58.0 346.0 L62.2 348.9 L67.2 347.8 L69.9 352.1 L75.0 353.0 L75.9 358.1 L80.2 360.8 L79.1 365.8 Z" fill="#a8322d" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="58.0" y="375.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold">II</text>
+<text x="88.0" y="364.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Red horse</text>
+<text x="88.0" y="381.0" font-size="13.5" fill="#3b2f1e">peace taken away</text>
+<text x="88.0" y="397.0" font-size="12" fill="#6b5a3e" font-style="italic">6:3-4</text>
+<path d="M82.0 440.0 L79.1 444.2 L80.2 449.2 L75.9 451.9 L75.0 457.0 L69.9 457.9 L67.2 462.2 L62.2 461.1 L58.0 464.0 L53.8 461.1 L48.8 462.2 L46.1 457.9 L41.0 457.0 L40.1 451.9 L35.8 449.2 L36.9 444.2 L34.0 440.0 L36.9 435.8 L35.8 430.8 L40.1 428.1 L41.0 423.0 L46.1 422.1 L48.8 417.8 L53.8 418.9 L58.0 416.0 L62.2 418.9 L67.2 417.8 L69.9 422.1 L75.0 423.0 L75.9 428.1 L80.2 430.8 L79.1 435.8 Z" fill="#2b2622" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="58.0" y="445.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold">III</text>
+<text x="88.0" y="434.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Black horse</text>
+<text x="88.0" y="451.0" font-size="13.5" fill="#3b2f1e">famine, scales</text>
+<text x="88.0" y="467.0" font-size="12" fill="#6b5a3e" font-style="italic">6:5-6</text>
+<path d="M82.0 510.0 L79.1 514.2 L80.2 519.2 L75.9 521.9 L75.0 527.0 L69.9 527.9 L67.2 532.2 L62.2 531.1 L58.0 534.0 L53.8 531.1 L48.8 532.2 L46.1 527.9 L41.0 527.0 L40.1 521.9 L35.8 519.2 L36.9 514.2 L34.0 510.0 L36.9 505.8 L35.8 500.8 L40.1 498.1 L41.0 493.0 L46.1 492.1 L48.8 487.8 L53.8 488.9 L58.0 486.0 L62.2 488.9 L67.2 487.8 L69.9 492.1 L75.0 493.0 L75.9 498.1 L80.2 500.8 L79.1 505.8 Z" fill="#a3ad92" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="58.0" y="515.0" font-size="14" fill="#3b2f1e" text-anchor="middle" font-weight="bold">IV</text>
+<text x="88.0" y="504.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Pale horse</text>
+<text x="88.0" y="521.0" font-size="13.5" fill="#3b2f1e">Death and Hades</text>
+<text x="88.0" y="537.0" font-size="12" fill="#6b5a3e" font-style="italic">6:7-8</text>
+<path d="M82.0 580.0 L79.1 584.2 L80.2 589.2 L75.9 591.9 L75.0 597.0 L69.9 597.9 L67.2 602.2 L62.2 601.1 L58.0 604.0 L53.8 601.1 L48.8 602.2 L46.1 597.9 L41.0 597.0 L40.1 591.9 L35.8 589.2 L36.9 584.2 L34.0 580.0 L36.9 575.8 L35.8 570.8 L40.1 568.1 L41.0 563.0 L46.1 562.1 L48.8 557.8 L53.8 558.9 L58.0 556.0 L62.2 558.9 L67.2 557.8 L69.9 562.1 L75.0 563.0 L75.9 568.1 L80.2 570.8 L79.1 575.8 Z" fill="#8b1e1e" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="58.0" y="585.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold">V</text>
+<text x="88.0" y="574.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Under the altar</text>
+<text x="88.0" y="591.0" font-size="13.5" fill="#3b2f1e">“How long?”</text>
+<text x="88.0" y="607.0" font-size="12" fill="#6b5a3e" font-style="italic">6:9-11</text>
+<path d="M82.0 650.0 L79.1 654.2 L80.2 659.2 L75.9 661.9 L75.0 667.0 L69.9 667.9 L67.2 672.2 L62.2 671.1 L58.0 674.0 L53.8 671.1 L48.8 672.2 L46.1 667.9 L41.0 667.0 L40.1 661.9 L35.8 659.2 L36.9 654.2 L34.0 650.0 L36.9 645.8 L35.8 640.8 L40.1 638.1 L41.0 633.0 L46.1 632.1 L48.8 627.8 L53.8 628.9 L58.0 626.0 L62.2 628.9 L67.2 627.8 L69.9 632.1 L75.0 633.0 L75.9 638.1 L80.2 640.8 L79.1 645.8 Z" fill="#8b1e1e" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="58.0" y="655.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold">VI</text>
+<text x="88.0" y="644.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Great earthquake</text>
+<text x="88.0" y="661.0" font-size="13.5" fill="#3b2f1e">sky rolled up</text>
+<text x="88.0" y="677.0" font-size="12" fill="#6b5a3e" font-style="italic">6:12-17</text>
+<path d="M82.0 792.0 L79.1 796.2 L80.2 801.2 L75.9 803.9 L75.0 809.0 L69.9 809.9 L67.2 814.2 L62.2 813.1 L58.0 816.0 L53.8 813.1 L48.8 814.2 L46.1 809.9 L41.0 809.0 L40.1 803.9 L35.8 801.2 L36.9 796.2 L34.0 792.0 L36.9 787.8 L35.8 782.8 L40.1 780.1 L41.0 775.0 L46.1 774.1 L48.8 769.8 L53.8 770.9 L58.0 768.0 L62.2 770.9 L67.2 769.8 L69.9 774.1 L75.0 775.0 L75.9 780.1 L80.2 782.8 L79.1 787.8 Z" fill="#8b1e1e" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="58.0" y="797.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold">VII</text>
+<text x="88.0" y="786.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Silence in heaven</text>
+<text x="88.0" y="803.0" font-size="13.5" fill="#3b2f1e">trumpets given</text>
+<text x="88.0" y="819.0" font-size="12" fill="#6b5a3e" font-style="italic">8:1-2</text>
+<rect x="30" y="699.0" width="204" height="46" rx="4" fill="#e3e9f2" stroke="#2f4f7f" stroke-dasharray="4 3"/>
+<text x="40.0" y="718.0" font-size="13" fill="#2f4f7f" font-weight="bold">Interlude · ch. 7</text>
+<text x="40.0" y="736.0" font-size="12.5" fill="#2f4f7f">the sealed; the multitude</text>
+<path d="M257.0 692 H463.0 L453.0 705.0 L463.0 718 H257.0 L267.0 705.0 Z" fill="#a67c3d"/>
+<text x="360.0" y="710.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">SEVEN TRUMPETS</text>
+<text x="360.0" y="738.0" font-size="13" fill="#6b5a3e" text-anchor="middle" font-style="italic">Revelation 8:2–11:19</text>
+<circle cx="286" cy="792" r="23" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.4"/>
+<path d="M271 794 L292 789 L301 782 L301 802 L292 795 Z" fill="#a67c3d"/>
+<text x="276.0" y="809.0" font-size="11" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1</text>
+<text x="316.0" y="786.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Hail and fire</text>
+<text x="316.0" y="803.0" font-size="13.5" fill="#3b2f1e">a third of the earth</text>
+<text x="316.0" y="819.0" font-size="12" fill="#6b5a3e" font-style="italic">8:7</text>
+<circle cx="286" cy="862" r="23" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.4"/>
+<path d="M271 864 L292 859 L301 852 L301 872 L292 865 Z" fill="#a67c3d"/>
+<text x="276.0" y="879.0" font-size="11" fill="#3b2f1e" text-anchor="middle" font-weight="bold">2</text>
+<text x="316.0" y="856.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Burning mountain</text>
+<text x="316.0" y="873.0" font-size="13.5" fill="#3b2f1e">a third of the sea</text>
+<text x="316.0" y="889.0" font-size="12" fill="#6b5a3e" font-style="italic">8:8-9</text>
+<circle cx="286" cy="932" r="23" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.4"/>
+<path d="M271 934 L292 929 L301 922 L301 942 L292 935 Z" fill="#a67c3d"/>
+<text x="276.0" y="949.0" font-size="11" fill="#3b2f1e" text-anchor="middle" font-weight="bold">3</text>
+<text x="316.0" y="926.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Wormwood</text>
+<text x="316.0" y="943.0" font-size="13.5" fill="#3b2f1e">a third of the waters</text>
+<text x="316.0" y="959.0" font-size="12" fill="#6b5a3e" font-style="italic">8:10-11</text>
+<circle cx="286" cy="1002" r="23" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.4"/>
+<path d="M271 1004 L292 999 L301 992 L301 1012 L292 1005 Z" fill="#a67c3d"/>
+<text x="276.0" y="1019.0" font-size="11" fill="#3b2f1e" text-anchor="middle" font-weight="bold">4</text>
+<text x="316.0" y="996.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Lights struck</text>
+<text x="316.0" y="1013.0" font-size="13.5" fill="#3b2f1e">a third of sun, moon</text>
+<text x="316.0" y="1029.0" font-size="12" fill="#6b5a3e" font-style="italic">8:12</text>
+<circle cx="286" cy="1072" r="23" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.4"/>
+<path d="M271 1074 L292 1069 L301 1062 L301 1082 L292 1075 Z" fill="#a67c3d"/>
+<text x="276.0" y="1089.0" font-size="11" fill="#3b2f1e" text-anchor="middle" font-weight="bold">5</text>
+<text x="316.0" y="1066.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Locusts · woe 1</text>
+<text x="316.0" y="1083.0" font-size="13.5" fill="#3b2f1e">five months' torment</text>
+<text x="316.0" y="1099.0" font-size="12" fill="#6b5a3e" font-style="italic">9:1-11</text>
+<circle cx="286" cy="1142" r="23" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.4"/>
+<path d="M271 1144 L292 1139 L301 1132 L301 1152 L292 1145 Z" fill="#a67c3d"/>
+<text x="276.0" y="1159.0" font-size="11" fill="#3b2f1e" text-anchor="middle" font-weight="bold">6</text>
+<text x="316.0" y="1136.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Army · woe 2</text>
+<text x="316.0" y="1153.0" font-size="13.5" fill="#3b2f1e">a third of mankind</text>
+<text x="316.0" y="1169.0" font-size="12" fill="#6b5a3e" font-style="italic">9:13-21</text>
+<circle cx="286" cy="1284" r="23" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.4"/>
+<path d="M271 1286 L292 1281 L301 1274 L301 1294 L292 1287 Z" fill="#a67c3d"/>
+<text x="276.0" y="1301.0" font-size="11" fill="#3b2f1e" text-anchor="middle" font-weight="bold">7</text>
+<text x="316.0" y="1278.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Seventh trumpet</text>
+<text x="316.0" y="1295.0" font-size="13.5" fill="#3b2f1e">the kingdom proclaimed</text>
+<text x="316.0" y="1311.0" font-size="12" fill="#6b5a3e" font-style="italic">11:15-19</text>
+<rect x="258" y="1191.0" width="204" height="46" rx="4" fill="#e3e9f2" stroke="#2f4f7f" stroke-dasharray="4 3"/>
+<text x="268.0" y="1210.0" font-size="13" fill="#2f4f7f" font-weight="bold">Interlude · 10:1–11:14</text>
+<text x="268.0" y="1228.0" font-size="12.5" fill="#2f4f7f">little scroll; two witnesses</text>
+<path d="M485.0 1166 H691.0 L681.0 1179.0 L691.0 1192 H485.0 L495.0 1179.0 Z" fill="#8b1e1e"/>
+<text x="588.0" y="1184.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">SEVEN BOWLS</text>
+<text x="588.0" y="1212.0" font-size="13" fill="#6b5a3e" text-anchor="middle" font-style="italic">Revelation 15:1–16:21</text>
+<rect x="486" y="1238" width="204" height="46" rx="4" fill="#e3e9f2" stroke="#2f4f7f" stroke-dasharray="4 3"/>
+<text x="496.0" y="1257.0" font-size="13" fill="#2f4f7f" font-weight="bold">Before the bowls · chs. 12–14</text>
+<text x="496.0" y="1275.0" font-size="12.5" fill="#2f4f7f">steps back: woman, dragon, beasts</text>
+<rect x="486" y="1749.0" width="204" height="36" rx="4" fill="#f6ecd0" stroke="#a67c3d"/>
+<text x="496.0" y="1765.0" font-size="12.5" fill="#a67c3d" font-weight="bold">16:15 · the one pause:</text>
+<text x="496.0" y="1780.0" font-size="12" fill="#3b2f1e" font-style="italic">“Behold, I am coming like a thief!”</text>
+<circle cx="514" cy="1356" r="23" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.4"/>
+<path d="M499 1352 H529 A15 13 0 0 1 499 1352 Z" fill="#8a6a3a" stroke="#3b2f1e" stroke-width="1"/>
+<path d="M507 1349 q4 -6 0 -10 M517 1349 q4 -6 0 -10" fill="none" stroke="#8b1e1e" stroke-width="1.3"/>
+<text x="514.0" y="1375.0" font-size="10" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1</text>
+<text x="544.0" y="1350.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Sores</text>
+<text x="544.0" y="1367.0" font-size="13.5" fill="#3b2f1e">on those with the mark</text>
+<text x="544.0" y="1383.0" font-size="12" fill="#6b5a3e" font-style="italic">16:2</text>
+<circle cx="514" cy="1426" r="23" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.4"/>
+<path d="M499 1422 H529 A15 13 0 0 1 499 1422 Z" fill="#7a1c1c" stroke="#3b2f1e" stroke-width="1"/>
+<path d="M507 1419 q4 -6 0 -10 M517 1419 q4 -6 0 -10" fill="none" stroke="#8b1e1e" stroke-width="1.3"/>
+<text x="514.0" y="1445.0" font-size="10" fill="#3b2f1e" text-anchor="middle" font-weight="bold">2</text>
+<text x="544.0" y="1420.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">The sea</text>
+<text x="544.0" y="1437.0" font-size="13.5" fill="#3b2f1e">every living thing died</text>
+<text x="544.0" y="1453.0" font-size="12" fill="#6b5a3e" font-style="italic">16:3</text>
+<circle cx="514" cy="1496" r="23" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.4"/>
+<path d="M499 1492 H529 A15 13 0 0 1 499 1492 Z" fill="#9b2b2b" stroke="#3b2f1e" stroke-width="1"/>
+<path d="M507 1489 q4 -6 0 -10 M517 1489 q4 -6 0 -10" fill="none" stroke="#8b1e1e" stroke-width="1.3"/>
+<text x="514.0" y="1515.0" font-size="10" fill="#3b2f1e" text-anchor="middle" font-weight="bold">3</text>
+<text x="544.0" y="1490.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Rivers, springs</text>
+<text x="544.0" y="1507.0" font-size="13.5" fill="#3b2f1e">turned to blood</text>
+<text x="544.0" y="1523.0" font-size="12" fill="#6b5a3e" font-style="italic">16:4-7</text>
+<circle cx="514" cy="1566" r="23" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.4"/>
+<path d="M499 1562 H529 A15 13 0 0 1 499 1562 Z" fill="#d9a531" stroke="#3b2f1e" stroke-width="1"/>
+<path d="M507 1559 q4 -6 0 -10 M517 1559 q4 -6 0 -10" fill="none" stroke="#8b1e1e" stroke-width="1.3"/>
+<text x="514.0" y="1585.0" font-size="10" fill="#3b2f1e" text-anchor="middle" font-weight="bold">4</text>
+<text x="544.0" y="1560.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">The sun</text>
+<text x="544.0" y="1577.0" font-size="13.5" fill="#3b2f1e">scorching heat</text>
+<text x="544.0" y="1593.0" font-size="12" fill="#6b5a3e" font-style="italic">16:8-9</text>
+<circle cx="514" cy="1636" r="23" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.4"/>
+<path d="M499 1632 H529 A15 13 0 0 1 499 1632 Z" fill="#2b2622" stroke="#3b2f1e" stroke-width="1"/>
+<path d="M507 1629 q4 -6 0 -10 M517 1629 q4 -6 0 -10" fill="none" stroke="#8b1e1e" stroke-width="1.3"/>
+<text x="514.0" y="1655.0" font-size="10" fill="#3b2f1e" text-anchor="middle" font-weight="bold">5</text>
+<text x="544.0" y="1630.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Beast's throne</text>
+<text x="544.0" y="1647.0" font-size="13.5" fill="#3b2f1e">darkness</text>
+<text x="544.0" y="1663.0" font-size="12" fill="#6b5a3e" font-style="italic">16:10-11</text>
+<circle cx="514" cy="1706" r="23" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.4"/>
+<path d="M499 1702 H529 A15 13 0 0 1 499 1702 Z" fill="#2f4f7f" stroke="#3b2f1e" stroke-width="1"/>
+<path d="M507 1699 q4 -6 0 -10 M517 1699 q4 -6 0 -10" fill="none" stroke="#8b1e1e" stroke-width="1.3"/>
+<text x="514.0" y="1725.0" font-size="10" fill="#3b2f1e" text-anchor="middle" font-weight="bold">6</text>
+<text x="544.0" y="1700.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Euphrates dried</text>
+<text x="544.0" y="1717.0" font-size="13.5" fill="#3b2f1e">kings gather</text>
+<text x="544.0" y="1733.0" font-size="12" fill="#6b5a3e" font-style="italic">16:12-16</text>
+<circle cx="514" cy="1828" r="23" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.4"/>
+<path d="M499 1824 H529 A15 13 0 0 1 499 1824 Z" fill="#7d7d86" stroke="#3b2f1e" stroke-width="1"/>
+<path d="M507 1821 q4 -6 0 -10 M517 1821 q4 -6 0 -10" fill="none" stroke="#8b1e1e" stroke-width="1.3"/>
+<text x="514.0" y="1847.0" font-size="10" fill="#3b2f1e" text-anchor="middle" font-weight="bold">7</text>
+<text x="544.0" y="1822.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Into the air</text>
+<text x="544.0" y="1839.0" font-size="13.5" fill="#3b2f1e">“It is done!”</text>
+<text x="544.0" y="1855.0" font-size="12" fill="#6b5a3e" font-style="italic">16:17-21</text>
+<path d="M58 768 V766 H252" fill="none" stroke="#3b2f1e" stroke-width="2"/>
+<path d="M252 766 V1314" stroke="#3b2f1e" stroke-width="2"/>
+<path d="M252 1314 H260" stroke="#3b2f1e" stroke-width="2"/>
+<path d="M264.0 792.0 L255.0 796.3 L255.0 787.7 Z" fill="#3b2f1e"/>
+<path d="M252 792 H260" stroke="#3b2f1e" stroke-width="2"/>
+<text x="98.0" y="760.0" font-size="12" fill="#6b5a3e" font-style="italic">opens the trumpets</text>
+<path d="M286 1260 V1258 H480" fill="none" stroke="#3b2f1e" stroke-width="2"/>
+<path d="M480 1258 V1858" stroke="#3b2f1e" stroke-width="2"/>
+<path d="M480 1858 H488" stroke="#3b2f1e" stroke-width="2"/>
+<path d="M492.0 1356.0 L483.0 1360.3 L483.0 1351.7 Z" fill="#3b2f1e"/>
+<path d="M480 1356 H488" stroke="#3b2f1e" stroke-width="2"/>
+<text x="326.0" y="1252.0" font-size="12" fill="#6b5a3e" font-style="italic">opens the bowls</text>
+<rect x="30" y="872" width="204" height="330" rx="6" fill="#fffdf7" stroke="#6b5a3e" stroke-dasharray="5 4"/>
+<text x="132.0" y="896.0" font-size="13" fill="#6b5a3e" text-anchor="middle" font-weight="bold" letter-spacing="1.5">ANOTHER READING</text>
+<text x="132.0" y="916.0" font-size="13.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">recapitulation</text>
+<text x="42.0" y="957.0" font-size="13" fill="#3b2f1e" font-weight="bold">Seals</text>
+<rect x="114" y="945" width="104" height="14" fill="#3b2f1e" opacity="0.75"/>
+<text x="42.0" y="999.0" font-size="13" fill="#3b2f1e" font-weight="bold">Trumpets</text>
+<rect x="114" y="987" width="104" height="14" fill="#a67c3d" opacity="0.75"/>
+<text x="42.0" y="1041.0" font-size="13" fill="#3b2f1e" font-weight="bold">Bowls</text>
+<rect x="114" y="1029" width="104" height="14" fill="#8b1e1e" opacity="0.75"/>
+<path d="M218 934 V1054" stroke="#3b2f1e" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="218.0" y="1072.0" font-size="12" fill="#3b2f1e" text-anchor="middle" font-style="italic">the end</text>
+<text x="42.0" y="1100.0" font-size="12.5" fill="#3b2f1e">Three tellings of one</text>
+<text x="42.0" y="1115.0" font-size="12.5" fill="#3b2f1e">period, each reaching</text>
+<text x="42.0" y="1130.0" font-size="12.5" fill="#3b2f1e">the end (6:12-17;</text>
+<text x="42.0" y="1145.0" font-size="12.5" fill="#3b2f1e">11:15-18; 16:17-21).</text>
+<text x="42.0" y="1160.0" font-size="12.5" fill="#3b2f1e">This study follows the</text>
+<text x="42.0" y="1175.0" font-size="12.5" fill="#3b2f1e">cascade: each seventh</text>
+<text x="42.0" y="1190.0" font-size="12.5" fill="#3b2f1e">holds the next seven.</text>
+<rect x="252" y="1898" width="444" height="62" rx="6" fill="#e8c46a" stroke="#a67c3d" stroke-width="2"/>
+<text x="474.0" y="1925.0" font-size="17" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE KING COMES</text>
+<text x="474.0" y="1946.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-style="italic">Babylon fallen (17–18) · Revelation 19:11-16</text>
+<path d="M514 1858 V1894" stroke="#3b2f1e" stroke-width="2"/>
+<path d="M514.0 1896.0 L509.7 1887.0 L518.3 1887.0 Z" fill="#3b2f1e"/>
+<text x="696.0" y="1986.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

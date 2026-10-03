@@ -15,4 +15,5 @@ draft: false
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 13:1
 - [The Appointed Times](../../feasts/feasts.md) — 13:1
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 13:1
+- [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 13:8-9
 <!-- commentary-index:auto-end -->

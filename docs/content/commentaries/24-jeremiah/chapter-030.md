@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 30:7
+- [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 30:7
 <!-- commentary-index:auto-end -->

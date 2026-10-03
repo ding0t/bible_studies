@@ -24,6 +24,7 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:16-18
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 4:13-18
 - [The Restrainer](../../last-things/the-restrainer.md) — 4:17
+- [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 4:16-17
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 4:16-17
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 4:16-17
 <!-- commentary-index:auto-end -->

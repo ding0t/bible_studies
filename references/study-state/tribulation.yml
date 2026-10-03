@@ -1,0 +1,189 @@
+slug: "tribulation"
+title: "The Tribulation: Daniel's Seventieth Week, Year by Year"
+status: published
+target_path: "docs/content/last-things/tribulation.md"
+
+primary_passage: "Daniel 9:24-27; Revelation 6:1-19:21"
+supporting_passages:
+  - "Daniel 12:1-12"
+  - "Jeremiah 30:7"
+  - "Matthew 24:15-31"
+  - "2 Thessalonians 2:3-8"
+  - "Revelation 3:10"
+  - "Revelation 7:1-17"
+  - "Revelation 11:1-3"
+  - "Revelation 12:6-17"
+  - "Revelation 13:5-8"
+  - "Zechariah 12:10; 13:8-9"
+  - "Romans 11:25-26"
+  - "1 Thessalonians 5:9"
+genre: [apocalyptic, prophets, topical]
+
+thesis: >-
+  Daniel's seventieth week is seven years in which God keeps His word to Israel, judges a world
+  that has refused His Son, and still saves a multitude no one can number; Revelation shows the
+  whole week from the throne room, where on this site's reading the church already is.
+outline:
+  - section: "Seven years, counted from Daniel"
+    says: "The week is the last of Daniel's seventy, decreed about Israel and Jerusalem; Jeremiah and Daniel name it, Jesus quotes Daniel 12:1 for it, and Revelation counts its halves three ways."
+  - section: "What the week is for"
+    says: "Three purposes, each from a text: Israel brought to repentance, the earth-dwellers judged, a multitude saved."
+  - section: "Revelation's map of the week"
+    says: "Rev 1:19 and 4:1 divide the book; the seventh seal opens into the trumpets and the seventh trumpet into the bowls, and the judgments escalate a fourth, a third, all."
+  - section: "The first half"
+    says: "Seals and trumpets: the Lamb opens every one, the 144,000 are sealed, and the unrepentant refuse twice."
+  - section: "The midpoint"
+    says: "The abomination, the dragon thrown down, the woman's flight and the beast's forty-two months all start here."
+  - section: "The second half"
+    says: "The bowls finish the wrath, Babylon falls, the kings gather, and the King comes."
+  - section: "Who is where"
+    says: "Church (the ekklesia count), Israel (sealed, sheltered, refined), tribulation saints (martyred, robed) and the earth-dwellers; contested points marked."
+  - section: "What the week shows about God"
+    says: "He is just, patient, faithful to Israel and saving to the last; so you may..."
+word_budget: 4900
+word_budget_reason: >-
+  Covers Daniel's week and all of Revelation 6-19, with the event catalogue carried by four charts.
+  Raised from 4,500 on 2026-10-03 when the review's fixes added the disclosures it required: who "he"
+  is in Daniel 9:27, the sixth-seal objection, the witnesses under the cascade, the multitude seen
+  ahead, the interludes corrected, and Theodotion named. A simplify-bible-study pass is the next
+  step if the author wants it back under 4,500.
+
+diagrams:
+  generator: "utils/build_tribulation_graphics.py"
+  files:
+    - "docs/content/assets/img/tribulation/seventieth-week.svg"
+    - "docs/content/assets/img/tribulation/judgments-unfolded.svg"
+    - "docs/content/assets/img/tribulation/week-in-days.svg"
+    - "docs/content/assets/img/tribulation/church-and-saints.svg"
+  convention: >-
+    Solid outline = the text dates the event; dashed = placed by its order in Revelation, an
+    inference. The legend says so on every chart that uses it.
+
+stages:
+  scoping:
+    done: true
+    notes: "Backlog 5.9 is the brief: events in order, purpose, where the church is, where Israel is, whether there are saints in the tribulation."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Daniel 9 in Darius' first year, after Jeremiah's seventy years (Dan 9:1-2). Revelation to seven churches of Asia under pressure, John on Patmos (Rev 1:9). Sibling studies already cover both settings (immediately-after.md, trumpet.md)."
+    literary_context:
+      done: true
+      notes: "Rev 1:19 three-part commission; 4:1 'after this' (meta tauta) opens the heaven vision. Seals 6:1-8:1; trumpets 8:2-11:19; interludes 7, 10:1-11:14, 12-14; bowls 15-16; Babylon 17-18; return 19."
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "θλῖψις", language: greek, transliteration: "thlipsis", strongs_id: "G2347", gloss: "tribulation, distress", notes: "5x in Revelation (macula-sblgnt): 1:9; 2:9, 10, 22; 7:14. Only 7:14 has the article twice: ἐκ τῆς θλίψεως τῆς μεγάλης, 'the great tribulation'."}
+        - {word: "צָרָה", language: hebrew, transliteration: "tsarah", strongs_id: "H6869", gloss: "distress, trouble", notes: "עֵת צָרָה in both Jer 30:7 and Dan 12:1. Theodotion's Dan 12:1 (Brenton, ebible-grcbrent) reads θλίψις οἵα οὐ γέγονεν; Matt 24:21 θλῖψις μεγάλη οἵα οὐ γέγονεν -- Jesus' phrasing follows Daniel's Greek."}
+        - {word: "ἐκκλησία", language: greek, transliteration: "ekklēsia", strongs_id: "G1577", gloss: "church, assembly", notes: "20x in Revelation: 19 in chs 1-3, then 22:16. None in 4:1-22:15."}
+        - {word: "ἅγιοι", language: greek, transliteration: "hagioi", strongs_id: "G40", gloss: "saints, holy ones", notes: "Substantive 'saints' 13x, all in chs 5-20: 5:8; 8:3, 4; 11:18; 13:7, 10; 14:12; 16:6; 17:6; 18:20, 24; 19:8; 20:9. G40 total 25 in Rev."}
+        - {word: "ὀργή", language: greek, transliteration: "orgē", strongs_id: "G3709", gloss: "wrath", notes: "6x in Rev, first at 6:16-17: 6:16, 17; 11:18; 14:10; 16:19; 19:15."}
+        - {word: "θυμός", language: greek, transliteration: "thymos", strongs_id: "G2372", gloss: "fury", notes: "10x in Rev, first at 12:12 -- the devil's wrath -- then God's from 14:10 on."}
+        - {word: "τηρέω ἐκ", language: greek, transliteration: "tēreō ek", strongs_id: "G5083", gloss: "keep from / out of", notes: "Rev 3:10 τηρήσω ἐκ τῆς ὥρας. NIV BTSB: either 'keep you from undergoing' or 'keep you through'; cf. John 17:15. Contested; marked so."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "The judgments are future; the promises and the call to repent and endure are for every reader (Rev 1:3; 22:7)."
+    theological_principle:
+      done: true
+      notes: "God's wrath and mercy run together through the week: He judges the unrepentant, keeps His covenant with Israel, and saves to the end."
+    application_draft:
+      done: true
+      notes: "Assurance (1 Thess 5:9); urgency of the gospel now (Rev 9:20-21; 16:9, 11 'did not repent'); worship of the Lamb who opens the seals."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Daniel 12:1 / Matthew 24:21", relation: "Jesus' 'great tribulation such as has not been' follows Theodotion's Greek of Daniel 12:1 (the Old Greek Daniel is not in bible-text.db)"}
+      - {ref: "Jeremiah 30:7 / Daniel 12:1", relation: "same Hebrew phrase עֵת צָרָה, both followed by deliverance"}
+      - {ref: "Daniel 9:27 / Matthew 24:15 / 2 Thessalonians 2:4", relation: "midpoint abomination"}
+      - {ref: "Revelation 11:2-3; 12:6, 14; 13:5 / Daniel 7:25; 12:7", relation: "42 months = 1,260 days = time, times, half a time"}
+    translations_compared: ["ESV", "Theodotion Daniel (Brenton)", "SBLGNT", "NASB", "LSB", "NIV", "NLT"]
+    divergences_noted: ""
+    sibling_check: "rapture.md (The tribulation, Kept from the hour), the-restrainer.md, two-witnesses.md (which half is undecided), trumpet.md (escalation fourth -> third), immediately-after.md (gap). No contradictions; this study keeps two-witnesses' 'either half' open."
+  drafting:
+    done: true
+    file: "docs/content/last-things/tribulation.md"
+  review:
+    done: false
+    validated: false
+
+evidence:
+  - {id: ekklesia-rev-20, what: "ekklesia 20x in Revelation", tool: bible_concordance, args: {strongs: G1577, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 20", checked: 2026-10-02}
+  - {id: thlipsis-rev-5, what: "thlipsis 5x in Revelation", tool: bible_concordance, args: {strongs: G2347, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 5", checked: 2026-10-02}
+  - {id: metanoeo-rev-12, what: "metanoeo 12x in Revelation", tool: bible_concordance, args: {strongs: G3340, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 12", checked: 2026-10-02}
+  - {id: orge-rev-6, what: "orge 6x in Revelation, first 6:16", tool: bible_concordance, args: {strongs: G3709, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 6", checked: 2026-10-02}
+  - {id: thymos-rev-10, what: "thymos 10x in Revelation, first 12:12", tool: bible_concordance, args: {strongs: G2372, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 10", checked: 2026-10-02}
+  - {id: jer30-7-esv, what: "time of distress for Jacob", tool: study_verse, args: {book: Jer, chapter: 30, verse: 7, work_id: esv-study-bible}, expect_contains: "a time of distress for Jacob; yet he shall be saved out of it", checked: 2026-10-02}
+  - {id: rev7-14-esv, what: "out of the great tribulation", tool: study_verse, args: {book: Rev, chapter: 7, verse: 14, work_id: esv-study-bible}, expect_contains: "These are the ones coming out of the great tribulation", checked: 2026-10-02}
+  - {id: rev3-10-esv, what: "keep you from the hour of trial", tool: study_verse, args: {book: Rev, chapter: 3, verse: 10, work_id: esv-study-bible}, expect_contains: "I will keep you from the hour of trial", checked: 2026-10-02}
+  - {id: rev16-3-esv, what: "every living thing died", tool: study_verse, args: {book: Rev, chapter: 16, verse: 3, work_id: esv-study-bible}, expect_contains: "every living thing died that was in the sea", checked: 2026-10-02}
+  - {id: dan12-12-esv, what: "1,335 days", tool: study_verse, args: {book: Dan, chapter: 12, verse: 12, work_id: esv-study-bible}, expect_contains: "Blessed is he who waits and arrives at the 1,335 days", checked: 2026-10-02}
+
+open_questions:
+  - "Fork candidate: the 24 elders as the raptured church (Rev 4:4; 5:9-10 textual variant 'us'/'them'). Left out; a study of its own."
+  - "Fork candidate: Babylon of Rev 17-18 identified. Mentioned only as an event."
+  - "Fork candidate: Psalm 83 / Ezekiel 38 wars and their place relative to the week (backlog 5.2)."
+  - "Placement of seals and trumpets within the first half is inference from order; charts draw them dashed."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Rev 3:10 note gives both readings and names the pretribulation one; Rev 6:12-17 note: Joel/Malachi background. Confirmed the contested status of 3:10."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Rev 3:10: phrase means either 'keep from undergoing' or 'keep through'; John 17:15. Rev 6:17 'stand' answered by 7:9 'standing' -- contributed that link."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Rev 6:17 adapts Joel 2:11 and Mal 3:2. Contributed."}
+  - {type: commentary, title: "NLT Life Application Study Bible", author: "Tyndale", note: "Rev 8:1: seventh seal reveals trumpets, seventh trumpet the bowls (telescoping) -- confirmed."}
+last_updated: "2026-10-02"
+
+review_2026-10-03:
+  skill: review-bible-study (all eight phases, adversarial; no edits to the study)
+  reviewer: "anthropic/claude-opus-5.5 (subagent; did not draft the study)"
+  size: {readable_words_check23: 4481, budget: 4500, net_words_if_all_fixes_applied: "about 0 (adds ~+100 offset by named cuts ~-100)"}
+  checked:
+    - "Phase 1: every ESV quotation re-queried from study-notes.db (esv-study-bible) -- Dan 9:24-27; 12:1-12; 7:25; Jer 30:7; Zech 12:10; 13:8-9; Joel 2:11; Hab 3:2; Matt 24:5-30; Rom 11:25-26; 1 Thess 1:10; 5:9; 2 Thess 2:3-8; 2 Pet 3:9; Rev 1:3, 19; 3:10; 4:1; 6:1-17; 7:1-17; 8:1-2; 9:20-21; 11:2-3; 12:6-14; 13:5-8; 14:6; 15:1-3; 16:3-19; 19:11-16; 22:17. All verbatim except the phrase attributed to Rev 13:8."
+    - "Phase 3: macula-greek-sblgnt concordance, full lists -- G1577 20 (19 in chs 1-3 + 22:16); G2347 5; G40 25 total, 13 plural 'saints' in 5:8-20:9; G3709 6, first 6:16; G2372 10, first 12:12; G3340 12 (8 in chs 2-3, 4 in 9:20-21; 16:9, 11, all negated). Rev 7:14 SBLGNT ἐκ τῆς θλίψεως τῆς μεγάλης (article twice) confirmed; 6:17 σταθῆναι / 7:9 ἑστῶτες both ἵστημι confirmed. עֵת צָרָה in Jer 30:7 and Dan 12:1 confirmed (ebible-heb)."
+    - "Dan 12:1 Greek: ebible-grcbrent reads καιρὸς θλίψεως, θλίψις οἵα οὐ γέγονεν -- surface match with Matt 24:21 θλῖψις μεγάλη οἵα οὐ γέγονεν, but Brenton prints Theodotion's Daniel; the Old Greek is not in bible-text.db (lxx-lemmas has no Daniel). The 'OG' label in content_word_studies is wrong."
+    - "Phase 4: all four SVGs and utils/build_tribulation_graphics.py (rendered with qlmanage). Counts in church_and_saints() match the concordance; 1,290/1,335 arithmetic correct."
+    - "Phase 5: NKJV Cultural Backgrounds (uncited) -- confirms Rev 7:14 ~ Dan 12:1/Matt 24:21 and the 360-day reading of 12:6; complicates seal placement (Rev 6:1-8 note: such sufferings run through the present era, Matt 24:6, 8) and Dan 9:27 (Antiochus IV background). No contradiction of the thesis."
+    - "Phase 6: review_gaps (Dan 11, 1 Cor 15 leads only); cross_study_claims for Dan 9, Rev 3, 7, 12, Matt 24; statement-of-faith End times consistent."
+    - "npm run validate: only the expected ai_provider_models warning ('[]' parsed as an entry '[')."
+  findings:
+    critical:
+      - "Line 28 'Revelation gives it twelve chapters' -- the study's own range, 6:1-19:21, is fourteen."
+      - "seventieth-week.svg puts the multitude 'out of the great tribulation' (Rev 7:9-14) in year 3, while the prose (line 141) defines the great tribulation as the second half."
+      - "Line 245 'Between the sixth and seventh of each series' -- false for the bowls; chs 12-14 come after the seventh trumpet and before the first bowl (the chart itself draws it there). Same claim in the judgments-unfolded alt text."
+      - "Line 423 / church-and-saints.svg: metanoeo 'in the letters it is a call, eight times' -- 2:21 is narrative about Jezebel, and 2:21b (οὐ θέλει μετανοῆσαι) is already a refusal."
+    moderate:
+      - "Matt 24:21 follows Theodotion's Greek of Dan 12:1, not 'the Septuagint' unqualified; name the version and mark the OG difference."
+      - "Seals in the first half: the sixth seal's cosmic signs (6:12-13) match Matt 24:29, which the master chart itself puts at the end; the inference needs this objection stated."
+      - "Two witnesses 'either half' conflicts with the cascade: if 11:3 fills the second half, the seventh trumpet and all seven bowls fall after day 2,520. Master chart also places the witnesses card in the first half."
+      - "Dashed/solid misclassified: 'A time of distress for Jacob' (Jer 30:7 dates nothing) should be dashed; beast's 42 months solid but holy city's 42 months dashed with the same basis; 'Woe 3' label on the seventh trumpet is inference."
+      - "Dan 9:27's 'he' never identified (coming prince vs Messiah) though the whole framework depends on it; Antiochene background (Dan 11:31) unmentioned."
+      - "Line 184 quotes 'those who dwell on the earth' for Rev 13:8, which reads 'all who dwell on earth'."
+      - "'What the week shows about God': He is just / He is patient never reach the second person; 'So this is for you now.' is a signpost."
+    minor:
+      - "Missing 'tribulation' tag (used by 7 sibling studies); 'antichrist' is a one-off tag."
+      - "'before any harm comes to the earth' (7:3) overstates; seals 1-6 have already harmed it."
+      - "'Four times the judgments end with' -- two endings, four verbs."
+      - "'a temple standing in Jerusalem' and 'Dispensational writers often assign...' stated without confidence mark or citation."
+      - "'The backlog question this study was written to answer' leaks process; 'both deserve to be stated at strength', 'This cascade is the reading followed here' narrate."
+      - "Discussion Q4 asks about evidence-weighting method."
+      - "Chart 'The church before Christ's judgment seat' (2 Cor 5:10) appears nowhere in the prose."
+      - "τηρήσω ἐκ (Rev 3:10) carries no Strong's tag (G5083)."
+  note: "two-witnesses.md and trumpet.md (both draft: false) now embed week-in-days.svg and judgments-unfolded.svg, so chart fixes ripple to live pages."
+  status: findings reported; nothing fixed
+fixes_applied_2026-10-03:
+  by: "anthropic/claude-opus-5.5 (the drafting session, after the author approved the full list)"
+  critical:
+    - "fourteen chapters (Revelation 6-19)"
+    - "Multitude of Rev 7:9-17 shown ahead: present participle ἐρχόμενοι (V-PNP, SBLGNT); ESV/CSB 'coming out', NASB/LSB/NKJV 'who come out', NIV 'have come out', NLT 'died in' (footnote: Greek 'who came out of'). 7:17 = 21:4 (final-state language); 15:2 and 14:1 are further proleptic scenes. Master chart card moved to the second half with a dotted 'John sees them here, ch. 7' line; prose sentence added."
+    - "Interludes corrected: ch. 7 (17 vv.) between seals 6-7; 10:1-11:14 (25 vv.) between trumpets 6-7; chs. 12-14 before the bowls, stepping back to 12:5 (the ascension); between bowls 6-7 only 16:15 (ESV prints it in parentheses). Cascade chart relabelled and given a 16:15 marker; Armageddon section now cites 16:15 rather than quoting it twice."
+    - "μετανοέω: letters 'a call and a warning', 2:21 already refused ('she refuses to repent', ESV); chart draws one 2:21 dot hollow; 'four times' corrected to 'twice' (two passages) in Be Transformed and DQ5."
+  moderate:
+    - "Theodotion named for Dan 12:1 in prose, References and this file."
+    - "Sixth-seal objection (Rev 6:12-13 ~ Matt 24:29) stated."
+    - "Witnesses: cascade favours the first half (Rev 11:7-15); master chart and ruler updated."
+    - "Outlines: Jacob's distress, war in heaven and 'woe to you' now dashed; trampled city's 42 months solid like the beast's; 'Woe 3' relabelled 'Seventh trumpet'."
+    - "Daniel 9:27 'he' contested (Messiah vs coming prince), linked to Immediately After; Antiochus IV and Dan 11:31 (167 BC) added."
+    - "'those who dwell on the earth' no longer cited to 13:8."
+    - "'He is just' and 'He is patient' now land in the second person; 'So this is for you now.' cut."
+  minor:
+    - "tags: + tribulation, - antichrist; 'before the four winds are let loose'; temple marked as this site's reading; dispensational guess on Dan 12:11-12 replaced by the NIV CBSB's 'no satisfactory explanation' and the stated assumption about 12:12's start; process sentences cut; DQ4 now about the text; judgment seat in the prose; τηρέω G5083 tagged; 144,000 qualified with a link to Israel and the Church; genre and occasion stated in the opening."
+  not_done: "The sentence-length warning (validator check 20) stands; a read-bible-study or simplify pass would address it."

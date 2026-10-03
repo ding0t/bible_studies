@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 876" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">The week in days</title>
+<desc id="d">A ruler of Daniel's seventieth week, 2,520 days, split at day 1,260. Under the second half run the spans Scripture counts: the woman nourished in the wilderness 1,260 days (Revelation 12:6); a time, times and half a time (Daniel 7:25; 12:7; Revelation 12:14); the beast's forty-two months (Revelation 13:5); the holy city trampled forty-two months (Revelation 11:2). The two witnesses' 1,260 days (Revelation 11:3) are drawn dashed over either half, since the text does not say which. Two of Daniel's counts run from the abomination past the end of the week: 1,290 days (Daniel 12:11), thirty days beyond it, and 1,335 days (Daniel 12:12), forty-five more, drawn on an enlarged scale after a break. A note gives the arithmetic: forty-two months of thirty days and three and a half years of 360 days are both 1,260 days.</desc>
+<rect width="720" height="876" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="860" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="848" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE WEEK IN DAYS</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">One span, counted three ways, and Daniel's two extra counts</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<path d="M40 160 V152 H600 V160" fill="none" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="320.0" y="144.0" font-size="14" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.5">ONE WEEK · SEVEN YEARS · DANIEL 9:27</text>
+<rect x="40" y="178" width="280" height="34" fill="#f6ecd0" stroke="#3b2f1e"/>
+<rect x="320" y="178" width="280" height="34" fill="#f1dcd4" stroke="#3b2f1e"/>
+<text x="180.0" y="200.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold">First half</text>
+<text x="460.0" y="200.0" font-size="15" fill="#8b1e1e" text-anchor="middle" font-weight="bold">“Great tribulation”</text>
+<path d="M603 202 l4 -14 M608 202 l4 -14" stroke="#6b5a3e" stroke-width="1.2"/>
+<rect x="600.0" y="188" width="80.0" height="14" fill="#faf6ec" stroke="#6b5a3e" stroke-dasharray="3 2"/>
+<text x="647.4" y="164.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">+75 days,</text>
+<text x="647.4" y="176.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">drawn larger</text>
+<text x="40.0" y="232.0" font-size="13" fill="#8b1e1e" font-weight="bold">day 1</text>
+<text x="315.0" y="232.0" font-size="13" fill="#8b1e1e" text-anchor="end" font-weight="bold">1,260</text>
+<text x="600.0" y="232.0" font-size="13" fill="#8b1e1e" text-anchor="middle" font-weight="bold">2,520</text>
+<path d="M320 166 V706" stroke="#8b1e1e" stroke-width="2.5"/>
+<text x="326.0" y="256.0" font-size="13" fill="#8b1e1e" font-style="italic">The abomination · Daniel 9:27; Matthew 24:15</text>
+<path d="M320.0 306 H600.0" stroke="#3b2f1e" stroke-width="5"/>
+<path d="M320.0 298 V314 M600.0 298 V314" stroke="#3b2f1e" stroke-width="2"/>
+<text x="324.0" y="294.0" font-size="14" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1,260 days · the woman sheltered</text>
+<text x="324.0" y="327.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Revelation 12:6</text>
+<path d="M320.0 368 H600.0" stroke="#3b2f1e" stroke-width="5"/>
+<path d="M320.0 360 V376 M600.0 360 V376" stroke="#3b2f1e" stroke-width="2"/>
+<text x="324.0" y="356.0" font-size="14" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">A time, times and half a time</text>
+<text x="324.0" y="389.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Daniel 7:25; 12:7; Revelation 12:14</text>
+<path d="M320.0 430 H600.0" stroke="#3b2f1e" stroke-width="5"/>
+<path d="M320.0 422 V438 M600.0 422 V438" stroke="#3b2f1e" stroke-width="2"/>
+<text x="324.0" y="418.0" font-size="14" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">42 months · the beast's authority</text>
+<text x="324.0" y="451.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Revelation 13:5</text>
+<path d="M320.0 492 H600.0" stroke="#3b2f1e" stroke-width="5"/>
+<path d="M320.0 484 V500 M600.0 484 V500" stroke="#3b2f1e" stroke-width="2"/>
+<text x="324.0" y="480.0" font-size="14" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">42 months · the holy city trampled</text>
+<text x="324.0" y="513.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Revelation 11:2</text>
+<path d="M40.0 554 H304" stroke="#2f4f7f" stroke-width="5" stroke-dasharray="7 5"/>
+<path d="M336 554 H600.0" stroke="#2f4f7f" stroke-width="5" stroke-dasharray="7 5"/>
+<path d="M40.0 546 V562 M600.0 546 V562" stroke="#2f4f7f" stroke-width="2"/>
+<text x="320.0" y="559.0" font-size="14" fill="#2f4f7f" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">or</text>
+<text x="40.0" y="542.0" font-size="14" fill="#2f4f7f" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1,260 days · the two witnesses: which half?</text>
+<text x="40.0" y="575.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Revelation 11:3 · unstated; the cascade favours the first</text>
+<path d="M320.0 616 H640.4" stroke="#8b1e1e" stroke-width="5"/>
+<path d="M320.0 608 V624 M640.4 608 V624" stroke="#8b1e1e" stroke-width="2"/>
+<text x="324.0" y="604.0" font-size="14" fill="#8b1e1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1,290 days from the abomination</text>
+<text x="324.0" y="637.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Daniel 12:11 · thirty days past the end</text>
+<path d="M320.0 678 H680.0" stroke="#8b1e1e" stroke-width="5"/>
+<path d="M320.0 670 V686 M680.0 670 V686" stroke="#8b1e1e" stroke-width="2"/>
+<text x="324.0" y="666.0" font-size="14" fill="#8b1e1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1,335 days · “Blessed is he who waits”</text>
+<text x="324.0" y="699.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Daniel 12:12 · forty-five days more</text>
+<rect x="40" y="728" width="640" height="96" rx="6" fill="#fffdf7" stroke="#3b2f1e"/>
+<text x="360.0" y="756.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold">42 months × 30 days = 1,260 days = 3½ years × 360 days</text>
+<text x="360.0" y="780.0" font-size="13.5" fill="#3b2f1e" text-anchor="middle">The three measures agree only on a 360-day prophetic year.</text>
+<text x="360.0" y="802.0" font-size="13.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">Daniel does not say what the extra 30 and 45 days hold.</text>
+<text x="696.0" y="854.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

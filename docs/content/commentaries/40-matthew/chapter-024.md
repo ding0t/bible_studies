@@ -29,6 +29,7 @@ draft: false
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 24:3
 - [The Rapture of the Church](../../last-things/rapture.md) — 24:36-44
 - [The Restrainer](../../last-things/the-restrainer.md) — 24:15
+- [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 24:8
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 24:29-31
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 24:15
 <!-- commentary-index:auto-end -->
