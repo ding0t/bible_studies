@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Peter 3:13-17"
 bible_references: ["1 Peter 3:13-17", "1 Peter 3:8-12", "1 Peter 3:18", "1 Peter 1:1", "1 Peter 1:3", "1 Peter 1:4", "1 Peter 1:5", "1 Peter 1:17", "1 Peter 1:21", "1 Peter 2:3", "1 Peter 2:11", "1 Peter 2:12", "1 Peter 2:18", "1 Peter 3:2", "1 Peter 4:3-4", "1 Peter 4:16", "Isaiah 8:12-13", "Psalm 34:12-16", "Acts 17:10-12", "Acts 21:20", "Acts 22:1", "Acts 25:16", "Colossians 4:5-6", "Luke 21:12-15", "Luke 6:15", "Titus 2:14", "Galatians 5:22-23", "Galatians 1:14", "1 Corinthians 9:3", "2 Corinthians 7:11", "Philippians 1:7", "Philippians 1:16", "2 Timothy 4:16", "Matthew 24:44", "Matthew 25:10"]
 date_created: 2024-05-24
-date_modified: 2026-09-27
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -45,6 +45,11 @@ on the throne you are answering from.
 Christ as its object. He then tells frightened believers that the answer they owe their neighbours
 grows out of that enthronement. So your courage rests on who is Lord in your heart, and your reply
 to the person who asks rests on the hope He has already given you.
+
+**Put simply:** when someone asks you why you have hope, be able to tell them, gently and in a few
+honest sentences, that Jesus rose from the dead and God is keeping a future for you that nobody can
+take away (1 Peter 1:3-5). You do not have to start the conversation or win the argument. You have
+to know who your Lord is, so that you have something to say when you are asked.
 
 ## Key Takeaways
 
@@ -115,7 +120,6 @@ to the person who asks rests on the hope He has already given you.
 - [The command in verse 15](#the-command-in-verse-15). The one imperative, *sanctify*; Isaiah 8:13 with Christ in the place of the LORD of hosts; the τὸν θεόν variant.
 - [The answer you are asked for](#the-answer-you-are-asked-for). Ἀπολογία's eight uses, and the hope Peter has already defined in chapter 1.
 - [Fear, given a new object](#fear-given-a-new-object). Φόβος five times in the letter, gentleness as fruit of the Spirit, and the good conscience.
-- [What the English translations keep](#what-the-english-translations-keep). Where the ESV, NIV, WEB and LSB differ at verses 15-16.
 - [How readiness is actually built](#how-readiness-is-actually-built). The Bereans, Luke 21:14-15 set beside Peter, and ἕτοιμος.
 - [When the answer costs you](#when-the-answer-costs-you). Verse 17's "if God should will it," and verse 18's substitution.
 - [Discussion questions](#discussion-questions).
@@ -138,11 +142,8 @@ neighbours and relatives and masters, not yet magistrates. Peter has already tol
 exactly this: "when they speak against you as evildoers, they may see your good deeds and glorify
 God" (2:12).
 
-That setting shapes who the "defense" of verse 15 is aimed at. Peter says παντὶ τῷ αἰτοῦντι
-(*panti tō aitounti*) — "to everyone who asks you." The question comes from someone standing close
-enough to notice.
-
-The word keeps its courtroom reach, though. The *NIV Cultural Backgrounds Study Bible* notes at 3:15
+So the person asking in verse 15 is usually someone standing close enough to notice. The word
+for the answer keeps its courtroom reach, though. The *NIV Cultural Backgrounds Study Bible* notes at 3:15
 that a defence is something Peter's readers "may eventually need even in court," pointing to 4:5-6
 and 4:15-16. Both are in view. The neighbour's question is where it starts.
 
@@ -162,8 +163,7 @@ Israel to Jesus, and Peter never pauses to defend the move.
 
 Verse 13 has a word with an edge on it. "If you are zealous for what is good" translates ζηλωταὶ τοῦ
 ἀγαθοῦ — literally "zealots of the good." Ζηλωτής (*zēlōtēs*) is the word Luke uses as a nickname for
-one of the Twelve: "Simon who was called the Zealot" (Luke 6:15). It is the same word, though a
-concordance files its six common-noun uses under G2207 and Simon's title under G2208. In the New
+one of the Twelve: "Simon who was called the Zealot" (Luke 6:15). In the New
 Testament it describes people burning about something: the Jerusalem believers "all zealous for the law" (Acts 21:20), Paul
 on his own past (Galatians 1:14), and the people Christ purifies for Himself, "zealous for good
 works" (Titus 2:14).
@@ -207,9 +207,7 @@ where the prophet is told not to share Judah's panic about the Assyrian threat:
 Isaiah's two verses work as a pair. Stop fearing what everyone else fears — then fear this instead.
 The Hebrew verb in 8:13 is <span dir="rtl">תַקְדִּישׁוּ</span> (*taqdishu*, H6942), a hiphil of
 <span dir="rtl">קָדַשׁ</span> (*qadash*), "to treat as holy." The Septuagint renders the clause
-κύριον αὐτὸν ἁγιάσατε — "the Lord, Him, sanctify." This site's data for the Septuagint at Isaiah
-8:13 is a lemma list (κύριος / αὐτός / ἁγιάζω) rather than the inflected text, so the accented form
-above is the standard printed reading and not something this repo can attest word by word. The Greek
+κύριον αὐτὸν ἁγιάσατε — "the Lord, Him, sanctify." The Greek
 also drops <span dir="rtl">צְבָאוֹת</span> (*tsevaʾot*,
 "hosts") altogether: it reads "the Lord," where the Hebrew reads "the LORD of hosts."
 
@@ -234,11 +232,9 @@ your hearts," and the King James the same, because the Byzantine manuscript trad
 where the earlier manuscripts read τὸν Χριστόν. The CSB footnotes it plainly: "Other mss read set
 God."
 
-The critical editions — SBLGNT, NA28 and the unfoldingWord Greek New Testament — all print τὸν
-Χριστόν, and modern translations follow them. **If the Byzantine reading were original, the Isaiah
-substitution disappears and verse 15 simply repeats Isaiah.** The Christological argument above
-rests on the reading the earlier manuscripts carry, which is the reading behind the
-ESV, NIV, CSB, NASB and LSB alike. It does not rest on it alone — verse 16 has "your good behavior in
+The critical editions (SBLGNT, NA28) print τὸν Χριστόν, and the ESV, NIV, CSB, NASB and LSB follow
+them. **If the Byzantine reading were original, verse 15 would simply repeat Isaiah.** The argument
+above does not rest on this verse alone — verse 16 has "your good behavior in
 Christ," and the letter has already called Him "the Lord" in 1 Peter 2:3 — but this verse is where it is
 sharpest.
 
@@ -246,15 +242,16 @@ sharpest.
 
 ### A courtroom word, handed to a neighbour
 
-Ἀπολογία (*apologia*, G627) is where the English word *apologetics* comes from, and it means a defence
-made in reply to a charge. It appears eight times in the Greek New Testament: Acts 22:1, Acts 25:16,
-1 Corinthians 9:3, 2 Corinthians 7:11, Philippians 1:7, Philippians 1:16, 2 Timothy 4:16, and here.
-Three of those eight sit in an actual courtroom. Paul uses it standing on the steps of the Antonia
-fortress (Acts 22:1). Festus uses it of a Roman defendant's right to face his accusers (Acts 25:16).
-Paul uses it again of his first hearing: "at my first defense no one came to stand by me" (2 Timothy
-4:16). The rest carry the forensic overtone without the court — Paul's "defense of the gospel" from
-prison (Philippians 1:7, 16), his reply to those who examine him (1 Corinthians 9:3), the
-Corinthians clearing themselves (2 Corinthians 7:11).
+Verse 15 uses two words for the conversation, one for each side of it. The neighbour asks you for a
+λόγος (*logos*, G3056), an explanation. In older English that is "an account," as in "give an account
+of yourself": *tell me why you live like this.* What you hand back is an ἀπολογία (*apologia*, G627),
+a reply. So "be prepared to give an account" means be ready to explain your hope when someone asks
+you to.
+
+Ἀπολογία is where the English word *apologetics* comes from, and it means a defence made in reply to
+a charge. Elsewhere in the New Testament it is Paul's word on the steps of the Antonia fortress
+(Acts 22:1) and at his first hearing in Rome: "at my first defense no one came to stand by me"
+(2 Timothy 4:16).
 
 Peter takes that word and aims it at the neighbour over the fence. The one asking is "everyone who
 asks you," and the verb is αἰτέω (*aiteō*, G154), to ask or request. Your answer is a reply, given when it
@@ -289,9 +286,8 @@ nobody in Cappadocia could cancel.
 are commended. Conduct yourselves "with fear" through your exile, because you call on a Father who
 judges impartially (1:17). Servants, submit to your masters "with all respect" (2:18). Wives, let
 husbands see "your respectful and pure conduct" (3:2). And make your defence "with gentleness and
-fear" — a clause the Greek editions place at the head of 3:16, which the ESV, NIV and WEB all print
-at the end of 3:15 instead. The NLT footnotes the difference at 3:16: "Some English translations put
-this sentence in verse 15."
+fear" (3:16 in the Greek; the end of 3:15 in most English Bibles), which the ESV and NIV render
+"respect". That is a fair rendering, but it hides that Peter wrote the same word he uses in 3:14.
 
 The fifth is 3:14, and it is the one Peter forbids: τὸν δὲ φόβον αὐτῶν μὴ φοβηθῆτε — "do not fear
 their fear." Peter does not tell frightened people to stop being afraid. He moves the fear. Take it
@@ -312,25 +308,6 @@ Then verse 16: "having a good conscience, so that, when you are slandered, those
 behavior in Christ may be put to shame." Συνείδησις ἀγαθή (*syneidēsis agathē*) is what makes the
 slander fail. An accusation needs somewhere to stick. A clean life gives it nowhere, and the shame
 eventually lands back on the accuser.
-
-## What the English Translations Keep
-
-English versions divide over two features of the Greek: the object of "sanctify" in verse 15, and
-whether Peter's repeated φόβος stays one word.
-
-| Feature | Greek | ESV | NIV | WEB | LSB |
-|---|---|---|---|---|---|
-| Object of "sanctify" (v15) | τὸν Χριστόν (critical text) | "Christ the Lord" | "revere Christ as Lord" | "the Lord God" (Byzantine) | "Christ as Lord" |
-| φόβος repeated (v14; v16 in the Greek, v15 in most English) | φόβον / φόβου | "respect" | "respect" | "fear" | "fear" |
-
-Peter uses the same noun for the fear he forbids in verse 14 and the fear he commands in verse 16,
-and that repetition carries his argument: he moves the fear from one object to another. "Respect" is
-a fair rendering of φόβος in a sentence about how you speak to people, and the ESV and NIV both
-choose it. It hides the repetition, though, so an English reader sees two different ideas where
-Peter wrote one word twice. The WEB and LSB keep "fear" and the connection stays visible.
-
-Read a second, more literal version alongside your main one when a word looks like it is doing
-structural work.
 
 ## How Readiness Is Actually Built
 
