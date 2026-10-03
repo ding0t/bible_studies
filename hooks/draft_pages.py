@@ -20,10 +20,11 @@ without publishing it.
 
 Two consequences worth knowing before adding a `draft: true` page:
 
-- A published page that markdown-links a draft will fail `mkdocs build --strict` with a broken
-  link, because the target is no longer in the build. That is the correct outcome -- a public page
-  should not link to something the public cannot read -- but it turns a silent leak into a loud
-  build failure, so expect it.
+- A published page that markdown-links a draft still builds clean under `mkdocs build --strict`:
+  the target is gone from the build, no warning is raised, and the link is emitted as a raw
+  href to the draft's .md file, which 404s on the live site (verified 2026-10-03). Nothing in the
+  build catches it, so do not link a draft from a published page; ship the linking edit in the
+  same commit that sets the draft to `draft: false`.
 - A draft `index.md` takes its directory's landing page with it. If the directory still has
   published children they remain reachable by URL and nav, so prefer finishing a section's index
   over leaving it drafted.

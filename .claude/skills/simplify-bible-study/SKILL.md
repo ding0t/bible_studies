@@ -98,8 +98,9 @@ Present this to the author and wait. Which tangents are worth their own study is
   whose `stages` notes say where the text came from (file and commit). Move the text verbatim. Its
   word studies and quotations were verified where they came from, so don't redraft them here. The
   new study goes through develop-bible-study later to get its own opening and Key Takeaways.
-- **The pointer.** A published page that links to a draft fails `mkdocs build --strict`, so leave
-  the link out until the fork is published. Until then the pointer is plain text, or nothing.
+- **The pointer.** A published page that links to a draft builds clean and ships a dead link: the
+  draft is dropped, `mkdocs build --strict` raises nothing, and the live page gets a raw `.md` href
+  that 404s. So leave the link out until the fork is published. Until then the pointer is plain text, or nothing.
   Record the pending link in the parent's state file under `open_questions`.
 - **Merges and tightening.** Edit in place.
 - Fix anything that pointed at removed text: in-page anchors, "see above" references, Key

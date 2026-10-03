@@ -355,10 +355,13 @@ the workflow manually (`workflow_dispatch`).
   the page itself. Drafts therefore looked unpublished while being fully reachable; three were live
   on `the-way.lewy.au` that way before it was spotted (2026-09-01). The hook drops draft pages at
   `on_files` during `mkdocs build`/`gh-deploy` and keeps them under `mkdocs serve`, so local preview
-  still works. Two consequences: a published page that links to a draft now **fails
-  `mkdocs build --strict`** (correctly — a public page shouldn't link to something the public can't
-  read), and a draft `index.md` takes its directory's landing page down with it, so finish a
-  section index rather than drafting it. `build-events.js` still does **not** filter drafts, so a
+  still works. Two consequences: a published page that links to a draft **builds clean under
+  `mkdocs build --strict` and ships a dead link** — the draft is dropped, no warning is raised, and
+  the link renders as a raw `href="<draft>.md"` that 404s on the live site (verified 2026-10-03 with
+  `end-of-the-age.md`). Nothing catches it, so never link a draft from a published page: commit the
+  linking edits in the same commit that flips the draft to `draft: false`. And a draft `index.md`
+  takes its directory's landing page down with it, so finish a section index rather than drafting
+  it. `build-events.js` still does **not** filter drafts, so a
   `draft: true` study with `gregorian_year` frontmatter can still plant a timeline entry.
 - **Two SQLite pipelines under `references/`, deliberately isolated by trust tier**:
   `bible-text.db` (open/restricted-nc sources; gitignored but built *inside* the repo tree) vs.
