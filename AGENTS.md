@@ -154,7 +154,7 @@ scripts/build-events.test.js`, or `node src/utils/chronology.test.js` for the `s
 
 `npm run validate` (`app/scripts/validate-content.js`, run from `app/`) is the content linter, and
 **it is not wired into CI** — the deploy workflow runs `npm test` only, so validate has to be run
-by hand after editing content. It applies 23 checks in six groups:
+by hand after editing content. It applies 24 checks in seven groups:
 
 - **Checks 1–9, structural**: frontmatter (required fields, tag quoting, draft status), image paths,
   scripture quote blocks opening with `> ✝️ Reference (TRANSLATION)` as their first line (the
@@ -190,6 +190,11 @@ by hand after editing content. It applies 23 checks in six groups:
   the Study outline are not counted, since both are consulted rather than read). Warning;
   the fix is the **simplify-bible-study** skill's recommendation, or a raised budget with its
   reason recorded in the state file.
+- **Check 24, a published page linking to a draft** — an **error**. `hooks/draft_pages.py` drops
+  drafts from the build without a warning, so the link ships as a 404 that `mkdocs build --strict`
+  cannot see. Fix it by removing the link or by publishing the target in the same commit. Image
+  lines (alt text) are excluded from the prose measurements in Checks 20-23: alt text is
+  described for a screen reader and never read aloud.
 - **Checks 18–19, claims that go stale silently.** An exhaustiveness claim ("only occurrence",
   "nowhere else") sharing a line with Greek or Hebrew characters — the cheapest sentence in a study
   to write and the most expensive to verify, so routinely written unverified; one shipped saying

@@ -91,6 +91,50 @@ function getLastCommitDates() {
   return lastCommitDatesCache;
 }
 
+// Check 24: a published page linking to a draft. hooks/draft_pages.py drops drafts from
+// `mkdocs build`, and the link survives as a raw href to the .md file -- with no warning, even under
+// --strict (verified 2026-10-03 with end-of-the-age.md). The live page ships a 404 and nothing else in
+// the build can see it, so this is an error, not a warning: there is no legitimate case.
+// Draft detection accepts `true` quoted or bare, matching _is_draft in hooks/draft_pages.py.
+export function isDraftFrontmatter(frontmatter) {
+  return /^draft:\s*["']?true["']?\s*$/m.test(frontmatter);
+}
+
+// Relative markdown links in bodyContent whose target resolves to a file in `drafts` (a Set of
+// absolute paths). A directory link ("section/") means its index.md, as mkdocs serves it.
+export function linksToDrafts(bodyContent, fileDir, drafts) {
+  const prose = bodyContent.replace(/```[\s\S]*?```/g, '');
+  const found = new Set();
+  const re = /\]\(([^)\s]+?)(?:\s+"[^"]*")?\)/g;
+  let m;
+  while ((m = re.exec(prose)) !== null) {
+    let target = m[1].split('#')[0];
+    if (!target || /^[a-z]+:/i.test(target) || target.startsWith('/')) continue;
+    if (target.endsWith('/')) target += 'index.md';
+    if (!target.endsWith('.md')) continue;
+    if (drafts.has(path.resolve(fileDir, target))) found.add(m[1]);
+  }
+  return [...found];
+}
+
+let draftPages = null;
+function getDraftPages() {
+  if (draftPages) return draftPages;
+  draftPages = new Set();
+  const walk = (dir) => {
+    for (const name of fs.readdirSync(dir)) {
+      const full = path.join(dir, name);
+      if (fs.statSync(full).isDirectory()) walk(full);
+      else if (name.endsWith('.md')) {
+        const fm = fs.readFileSync(full, 'utf-8').match(/^---\r?\n([\s\S]*?)\r?\n---/);
+        if (fm && isDraftFrontmatter(fm[1])) draftPages.add(path.resolve(full));
+      }
+    }
+  };
+  walk(CONTENT_DIR);
+  return draftPages;
+}
+
 function log(type, file, message) {
   const relativePath = path.relative(process.cwd(), file);
   if (type === 'error') {
@@ -490,6 +534,10 @@ function validateFile(filePath) {
     if (/:auto-end\s*-->/.test(rawLine)) { inGenerated = false; continue; }
     if (inGenerated) continue;
     if (/^\s*[>|#]/.test(rawLine)) { inItem = false; continue; }
+    // An image line is alt text for a graphic: described for a screen reader, never read aloud.
+    // The ~100-word alt text the drawn graphics carry was counted as one long sentence and as words
+    // against the budget, pushing tribulation.md over 4,900 by its new plate alone (2026-10-03).
+    if (/^\s*\[?!\[/.test(rawLine)) { inItem = false; continue; }
     // Footnote definitions are reference apparatus, not prose. A block of them reads as one
     // enormous sentence and was inflating trumpet.md by a phantom 104-word "sentence".
     if (/^\s*\[\^[^\]]+\]:/.test(rawLine)) { inItem = true; continue; }
@@ -594,6 +642,17 @@ function validateFile(filePath) {
     });
   }
 
+  // Check 24 (see linksToDrafts above).
+  if (!isDraftFrontmatter(frontmatter)) {
+    for (const link of linksToDrafts(bodyContent, path.dirname(filePath), getDraftPages())) {
+      log(
+        'error',
+        filePath,
+        `Links to a draft page (${link}). mkdocs drops drafts without a warning, even under --strict, and this link would ship as a 404. Remove it, or commit it in the same commit that sets the target to draft: false.`
+      );
+    }
+  }
+
   // Check 17: the provenance fields -- date_created, date_modified, ai_provider_models -- on the
   // hand-written pages. They are written by utils/refresh_frontmatter_provenance.py from git
   // history; this check exists because a date typed into frontmatter goes stale the moment
@@ -661,7 +720,7 @@ function validateFile(filePath) {
     const sections = (body.match(/^## /gm) || []).length;
     const words = body
       .split('\n')
-      .filter((l) => !/^(\||```|\s{4}|>|#)/.test(l))
+      .filter((l) => !/^(\||```|\s{4}|>|#|\[?!\[)/.test(l)) // tables, code, quotes, headings, image alt text
       .join(' ')
       .split(/\s+/)
       .filter(Boolean).length;
@@ -694,7 +753,7 @@ function validateFile(filePath) {
       .split(/^## References\b/m)[0]
       .replace(/^## Study outline\s*$[\s\S]*?(?=^## )/m, '')
       .split('\n')
-      .filter((l) => !/^(\||```|\s{4}|>|#)/.test(l))
+      .filter((l) => !/^(\||```|\s{4}|>|#|\[?!\[)/.test(l)) // tables, code, quotes, headings, image alt text
       .join(' ')
       .split(/\s+/)
       .filter(Boolean).length;
@@ -772,6 +831,7 @@ function validateFile(filePath) {
       }
       if (!heading) continue;
       if (trimmed.startsWith('|') || trimmed.startsWith('>')) continue;
+      if (/^\[?!\[/.test(trimmed)) continue; // image alt text, as in Check 20
       if (/^([-*+]\s|\d+\.\s)/.test(trimmed)) continue;
       words += trimmed.split(/\s+/).filter(Boolean).length;
     }

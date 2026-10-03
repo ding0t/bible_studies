@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
-import { countWordsToThesis } from './validate-content.js';
+import { countWordsToThesis, isDraftFrontmatter, linksToDrafts } from './validate-content.js';
 
 // Check 14 measures how long a study's opening makes a reader wait for its point, by finding
 // the first bold run. The regex IS the check, and it shipped wrong: the inner class excluded
@@ -83,4 +83,28 @@ test('importing the module spawns no subprocess', () => {
     false,
     'importing validate-content.js spawned git -- check 17 is computing at module scope again'
   );
+});
+
+test('linksToDrafts finds relative links to draft pages, by file, anchor and directory', () => {
+  const dir = '/site/last-things';
+  const drafts = new Set(['/site/last-things/end-of-the-age.md', '/site/salvation/index.md']);
+  const body = [
+    'See [the end](end-of-the-age.md#the-end-has-already-come) and [again](end-of-the-age.md).',
+    'A section [landing](../salvation/) and a published [page](rapture.md).',
+    'Outside links are ignored: [web](https://example.com/end-of-the-age.md).',
+    '```',
+    '[in a code fence](end-of-the-age.md)',
+    '```',
+  ].join('\n');
+  assert.deepEqual(linksToDrafts(body, dir, drafts), [
+    'end-of-the-age.md#the-end-has-already-come',
+    'end-of-the-age.md',
+    '../salvation/',
+  ]);
+});
+
+test('isDraftFrontmatter accepts true bare or quoted, as hooks/draft_pages.py does', () => {
+  assert.equal(isDraftFrontmatter('title: "x"\ndraft: true'), true);
+  assert.equal(isDraftFrontmatter('draft: "true"'), true);
+  assert.equal(isDraftFrontmatter('draft: false'), false);
 });
