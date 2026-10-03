@@ -5,9 +5,9 @@ description: "Leviticus 23:23-25's Yom Teruah, the day of shouting at the sevent
 tags: ["leviticus", "prophecy", "lang/hebrew", "method/word-study", "method/typology", "rosh-hashanah", "trumpet", "rapture"]
 draft: false
 primary_passage: "Leviticus 23:23-25"
-bible_references: ["Leviticus 23:23-25", "Numbers 29:1-6", "Numbers 10:1-10", "Leviticus 25:9", "Psalm 81:3", "Ezekiel 40:1", "Exodus 2:24", "Exodus 19:19", "Numbers 23:21", "Psalm 47:5-7", "Psalm 89:15", "Proverbs 30:27", "Daniel 12:1-2", "Jude 9", "Isaiah 27:13", "1 Corinthians 15:51-53", "1 Thessalonians 4:16-17", "Matthew 24:30-31", "Matthew 24:36", "Matthew 24:42-44", "Joel 2:1", "Joel 2:15"]
+bible_references: ["Leviticus 23:23-25", "Numbers 29:1-6", "Numbers 10:1-10", "Leviticus 25:9", "Psalm 81:3", "Ezekiel 40:1", "Exodus 2:24", "Exodus 19:16-20", "Exodus 24:12", "Numbers 23:21", "Psalm 47:5-7", "Psalm 89:15", "Proverbs 30:27", "Daniel 12:1-2", "Jude 9", "Isaiah 27:13", "1 Corinthians 15:51-53", "1 Thessalonians 4:16-17", "Revelation 1:10-13", "Revelation 4:1", "Revelation 11:12-15", "Matthew 24:30-31", "Matthew 24:36", "Matthew 24:42-44", "Joel 2:1", "Joel 2:15"]
 date_created: 2025-08-10
-date_modified: 2026-10-02
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -96,8 +96,9 @@ In Jesus' name. Amen.
 - [How Israel kept it](#how-israel-kept-it). The Mishnah's record of the witnesses, the new year
   and the shofar, and what of it binds the church.
 - [The trumpets typology: what is stated, what is inferred](#the-trumpets-typology-what-is-stated-what-is-inferred).
-  The "first, last and great trumpet" scheme, the shout and trumpet of 1 Thessalonians 4:16, and
-  where each link comes from.
+  The "first, last and great trumpet" scheme, the shout and trumpet of 1 Thessalonians 4:16, the
+  voice like a trumpet and the call "Come up here" in Revelation 1, 4 and 11, and where each link
+  comes from.
 - [What the feast teaches](#what-the-feast-teaches). God remembers, God summons, and the Lord is
   coming.
 - [Discussion questions](#discussion-questions). Five, for a group or on your own.
@@ -285,6 +286,41 @@ kept with a shout that gathered the camp, set it marching and hailed its King pi
 1 Thessalonians 4:16 says the Lord will do for His church. That fit rests on Paul's own account of
 the sounds, which makes it closer than the "last trumpet" link below. It is still typology, and it
 gives no date.
+
+### The voice like a trumpet in Revelation
+
+Revelation adds a second pattern beside Paul's, and it begins at Sinai. When the LORD came down on
+the mountain "the sound of the trumpet grew louder and louder" (Exodus 19:19, ESV), and then "the
+LORD called Moses to the top of the mountain, and Moses went up" (Exodus 19:20, ESV). The trumpet
+sounds, and God calls His servant up to Him.
+
+- **The voice of Jesus.** On Patmos John "heard behind me a loud voice like a trumpet" (Revelation
+  1:10, ESV), turned to see it, and saw "one like a son of man" (Revelation 1:13, ESV). The Greek,
+  φωνὴν μεγάλην ὡς σάλπιγγος, is a comparison: the voice is Jesus' own, and no trumpet is blown. Its
+  three words, loud, voice and trumpet, are Sinai's (Exodus 19:16, 19 in the Septuagint); with the
+  feast it shares only σάλπιγξ (*salpinx*, G4536). "The Lord's day" in the same verse is κυριακῇ
+  ἡμέρᾳ, which the *ESV Study Bible* and the *NIV Biblical Theology Study Bible* both read as Sunday,
+  the day Jesus rose. It gives the feast no date.
+- **"Come up here."** The same voice returns: "the first voice, which I had heard speaking to me like
+  a trumpet, said, 'Come up here, and I will show you what must take place after this'" (Revelation
+  4:1, ESV). The *NIV Cultural Backgrounds Study Bible* hears in it God's summons of Moses up the
+  mountain (Exodus 19:20, 24; 24:12). John goes up through a door open in heaven, and from the
+  throne room he watches the judgments of the book unfold.
+- **Called up, then the seventh trumpet.** The two witnesses, raised after three and a half days,
+  "heard a loud voice from heaven saying to them, 'Come up here!' And they went up to heaven in a
+  cloud" (Revelation 11:12, ESV). Ἀνάβατε ὧδε is the plural of the command to John. Three verses on,
+  "the seventh angel blew his trumpet," and heaven proclaims "The kingdom of the world has become the
+  kingdom of our Lord and of his Christ" (Revelation 11:15, ESV). The voice of 11:12 is called loud
+  and is not likened to a trumpet; here the trumpet follows the summons.
+
+Twice, then, Revelation joins a voice from heaven, a call upward and a trumpet, in the order Sinai
+set and Paul follows: "the trumpet of God," then "caught up... to meet the Lord in the air"
+(1 Thessalonians 4:16-17, ESV). Dispensational readers take Revelation 4:1 as a picture of the
+church caught up before the judgments, which is where it falls in the book, and the two witnesses as
+a second picture of God's people taken up in full view. That is typology, and it is marked as such
+here: John is called up to receive visions, the witnesses are two prophets, and none of the three
+texts names the feast or a day of the year. What Revelation adds is a second witness beside Paul:
+when the voice like a trumpet sounds, God calls His people up to Himself.
 
 ### Where each link comes from
 
