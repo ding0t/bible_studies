@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Thessalonians 4:15-18"
 bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "Genesis 5:21-24", "Hebrews 11:5", "Genesis 19:15-16", "Genesis 19:24", "Revelation 7:9-14", "Colossians 3:4", "Revelation 19:14", "Matthew 24:29-31", "Matthew 25:6", "1 Thessalonians 1:10", "1 Thessalonians 3:13", "1 Thessalonians 4:13-14", "1 Thessalonians 5:2-4", "2 Thessalonians 1:6-10", "Titus 2:13", "Revelation 1:7", "Revelation 6:16-17", "Revelation 15:1-6", "Revelation 17:14", "Revelation 19:7-9", "Daniel 9:24", "Ephesians 3:5-6", "John 17:15", "Acts 7:5", "Acts 28:15", "1 Timothy 5:21", "1 Corinthians 4:5"]
 date_created: 2024-04-23
-date_modified: 2026-09-28
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -341,6 +341,10 @@ To the church in Philadelphia: "I will keep you from the hour of trial that is c
 
 The underlying Greek is contested, though. Standard commentary treats ἐκ τῆς ὥρας ("out of the hour") as ambiguous between "keep you from undergoing" and "keep you through," with serious interpreters on both sides. The reading above is defensible, and the pretribulational case leans on more than this verse.
 
+One more piece of evidence can be counted. ἐκκλησία (*ekklēsia*, G1577, "church") occurs twenty times in Revelation, nineteen of them in chapters 1-3 and the last in Revelation 22:16; ἅγιοι (*hagioi*, G40, "saints") occurs thirteen times, all in chapters 5-20. The chart shows both, because each side of the debate reads one of the two rows.
+
+[![Church and saints in Revelation: a dot for each occurrence of four Greek words by chapter. Church appears nineteen times in chapters 1 to 3 and once in 22:16; saints thirteen times in chapters 5 to 20; tribulation five times; repent eight times in the letters as a call or warning, once already refused, and four times in chapters 9 and 16 as refusal.](../assets/img/tribulation/church-and-saints.svg)](../assets/img/tribulation/church-and-saints.svg)
+
 ## The judgments
 
 Two judgments bear on this study, for two groups, at two times.
@@ -394,6 +398,11 @@ the new Jerusalem. [The Bride of Christ](../israel-and-church/bride-of-christ.md
 whole thread, including where the identification is argued rather than assumed.
 
 ## The whole sequence in one view
+
+[![Two stages of His coming: a dashed arc rises from the end of the church age to meet the Lord in the air; in heaven above the seven years are the judgment seat of Christ and the marriage of the Lamb; a solid arc descends at the end of the week to the earth; a table compares the two comings.](../assets/img/last-things/two-stages-of-his-coming.svg)](../assets/img/last-things/two-stages-of-his-coming.svg)
+
+*Select the chart to open it full size. The rising arc is dashed because the rapture's timing is
+inferred; the descending arc is solid because Matthew 24:29 states it.*
 
 On the pretribulational reading the events fall in this order. The branch below the rapture is the whole Church leaving.
 Two tracks then run in parallel through the tribulation years: one on earth, which the Church has

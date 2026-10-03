@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5:21-24"
 bible_references: ["Genesis 5:21-27", "Genesis 7:1", "Genesis 7:6", "Genesis 7:16", "Genesis 19:16", "Genesis 19:22-26", "2 Kings 2:3-11", "Psalm 49:15", "Psalm 73:24", "Romans 5:14", "Luke 17:26-30", "Matthew 24:29", "Matthew 24:37-41", "Matthew 25:34", "1 Corinthians 15:51-52", "1 Thessalonians 1:10", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Hebrews 11:5-7", "2 Peter 2:4-9", "Jude 1:14-15", "Revelation 3:10"]
 date_created: 2026-09-26
-date_modified: 2026-09-27
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -214,6 +214,8 @@ falling behind him in the narrative. He illustrates the manner of the rapture, a
 Enoch, Lot and the flood illustrate its timing.
 
 ## What the pattern shows, and where it stops
+
+[![Taken before judgment, four panels: Enoch taken alive 669 years before the flood he announced; Noah kept through the flood in the ark; Lot brought out to Zoar before the fire fell on Sodom; Elijah taken up by a whirlwind in full view; and a closing note on what they picture on this site's reading.](../assets/img/last-things/taken-before-judgment.svg)](../assets/img/last-things/taken-before-judgment.svg)
 
 ### The objection from Noah
 

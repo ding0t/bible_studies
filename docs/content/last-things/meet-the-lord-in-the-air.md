@@ -7,7 +7,7 @@ draft: true
 primary_passage: "1 Thessalonians 4:13-18"
 bible_references: ["1 Thessalonians 4:13-18", "1 Thessalonians 1:10", "1 Thessalonians 2:19", "1 Thessalonians 5:9", "Matthew 8:34", "Matthew 25:1", "Matthew 25:6", "Matthew 25:10", "John 12:12-13", "John 14:2-3", "Acts 17:5-10", "Acts 28:15-16", "Exodus 19:16-17", "1 Samuel 4:1", "1 Samuel 13:10", "2 Samuel 6:20", "Jeremiah 41:6-7", "Revelation 19:14"]
 date_created: 2026-09-26
-date_modified: 2026-09-27
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -248,6 +248,8 @@ marriage feast, and brings her back with Him when He comes to reign. The same Je
 the wrath to come" (1 Thessalonians 1:10, ESV), so you can wait for Him with joy.
 
 ## Settled and contested
+
+[![Meeting the Lord in the air: the word apantesis and its four Septuagint outcomes; the civic custom of Acts 28:15, going out from Rome and returning with Paul; and two readings of 1 Thessalonians 4:17, the posttribulational escort straight down, and the pretribulational journey to the Father's house with the return at the end of the week.](../assets/img/last-things/meeting-the-lord.svg)](../assets/img/last-things/meeting-the-lord.svg)
 
 **Settled from the text:**
 

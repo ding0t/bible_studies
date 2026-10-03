@@ -1,12 +1,12 @@
 ---
 title: "Charting End Times"
 category: "prophecy"
-description: "Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- plus a mermaid diagram of the same framework."
+description: "Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- with the seven thousand years redrawn on this site's chronology."
 tags: ["chart", "timeline", "dispensationalism", "larkin"]
 draft: false
 bible_references: ["Genesis 1:1-2:3", "Exodus 20:11", "Colossians 2:16-17", "Hebrews 4:9", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 19:7-9", "Revelation 20:1-6", "Zechariah 14:4-5"]
 date_created: 2024-05-29
-date_modified: 2026-09-30
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -21,9 +21,8 @@ dispensational framework this site argues for in prose across
 [The Day Is Near](day-is-near.md). Some of this material -- the whole sweep from creation to the
 millennium, or how Jew, Gentile, and Church relate across that sweep -- is easier to see laid out
 than to read paragraph by paragraph. Larkin's own charts are reproduced below; his *Dispensational
-Truth* (1918/1920) is in the public domain in the United States. A mermaid diagram follows each one,
-translating the same framework into a form this site's pages can link into directly, section by
-section.
+Truth* (1918/1920) is in the public domain in the United States. After the first comes this site's own
+redrawing of it on the site's chronology; after the second, a mermaid diagram of the same framework.
 
 ## The seven thousand years of human history
 
@@ -38,25 +37,19 @@ Christ), and **Grace**, his name for the Church age -- with the seventh day as *
 explicitly tied to the weekly Sabbath pattern (Exodus 20:11; Hebrews 4:9; Colossians 2:16-17), and an
 eighth, open-ended "day" for the New Earth beyond it.
 
-The seven thousand years on Larkin's framework, with an eighth day beyond them.
-
-```mermaid
-flowchart TD
-    A["Day 1 · 1st millennium<br/>Eden — conscience begins"] --> B["Day 2 · 2nd millennium<br/>Enoch — taken before the Flood"]
-    B --> C["Day 3 · 3rd millennium<br/>Abraham — the promise"]
-    C --> D["Day 4 · 4th millennium<br/>Solomon — Law, kingdom at its height"]
-    D --> E["Day 5 · 5th millennium<br/>Christ — first coming, Grace and Church begin"]
-    E --> F["Day 6 · 6th millennium<br/>Dark Ages to today — Church age continues"]
-    F --> G["Day 7 · 7th millennium<br/>Millennium — Christ reigns 1,000 years<br/>Rev 20:1-6"]
-    G --> H["Day 8 · unending<br/>New Earth — the eternal state"]
-```
-
 This site's own position, as against Larkin's chart: the *shape* -- six ordinary ages followed by a
 Sabbath-like millennium -- is argued at length in [The Day Is Near](day-is-near.md). The specific
 *calendar dates* Larkin prints (Eden at 4000 BC, Solomon at 1000 BC, and so on) are not this site's
 settled chronology. This site's dates follow the Masoretic numbers on a 1446 BC Exodus: creation
 at 3959 BC and the year 6000 in AD 2042, with the reasons in [Chronology
 Anchors](chronology-anchors.md) and [The Day Is Near](day-is-near.md#when-is-the-year-6000).
+
+The same seven days redrawn on this site's chronology, each event placed by its year, with the theme
+[Six Days of History](six-days-of-history.md) reads in each day:
+
+[![The seven thousand years on this site's chronology: seven bands of a thousand years each, from creation in 3959 BC through the Flood, the Exodus in 1446 BC, the temple, the cross in AD 33, to the year 6000 in AD 2042, then the thousand years of Revelation 20 and an eighth day beyond.](../assets/img/last-things/seven-thousand-years.svg)](../assets/img/last-things/seven-thousand-years.svg)
+
+*Select the chart to open it full size.*
 
 ## The relation of Jew, Gentile, and Church
 

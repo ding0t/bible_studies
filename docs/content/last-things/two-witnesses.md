@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 11:1-14"
 bible_references: ["Revelation 11:1-14", "Revelation 10:8-11", "Revelation 11:15", "Revelation 1:5", "Revelation 2:13", "Revelation 3:14", "Revelation 4:1", "Revelation 12:6", "Revelation 12:11", "Revelation 12:14", "Revelation 13:5-7", "Revelation 17:6", "Zechariah 2:1-2", "Zechariah 4:3", "Zechariah 4:6", "Zechariah 4:14", "Ezekiel 37:5-10", "Ezekiel 40:3", "Daniel 7:21", "Daniel 7:25", "Daniel 9:27", "Daniel 12:7", "Malachi 4:4-5", "Deuteronomy 19:15", "Deuteronomy 34:5-6", "Exodus 7:17-20", "Exodus 24:12-18", "1 Kings 17:1", "1 Kings 19:8", "1 Kings 19:18", "2 Kings 1:8-10", "2 Kings 2:11", "Genesis 5:24", "Hebrews 11:5", "Hebrews 9:27", "Jeremiah 1:5", "Jeremiah 5:14", "Esther 9:22", "Luke 4:25", "James 5:17", "Luke 9:28-33", "Matthew 17:10-13", "Luke 1:17", "Luke 21:24", "Matthew 24:15", "2 Thessalonians 2:4", "Acts 1:9", "John 11:43-44", "Deuteronomy 18:15-18", "Acts 3:22", "Jude 1:14-15", "1 Kings 18:1", "1 Corinthians 15:51", "2 Kings 3:14", "Jeremiah 15:19", "Revelation 1:6", "Revelation 5:10", "Revelation 17:18"]
 date_created: 2026-09-29
-date_modified: 2026-09-29
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -162,6 +162,8 @@ Revelation measures this time three ways and gets one span:
 | 12:6 | The woman is nourished in the wilderness | 1,260 days |
 | 12:14 | The woman is nourished | "a time, and times, and half a time" |
 | 13:5 | The beast exercises authority | 42 months |
+
+[![The week in days: a ruler of the seventieth week, 2,520 days split at day 1,260, with Revelation's spans under the second half, the two witnesses' 1,260 days drawn dashed over either half, and Daniel's 1,290 and 1,335 days running past the end.](../assets/img/tribulation/week-in-days.svg)](../assets/img/tribulation/week-in-days.svg)
 
 Forty-two months of thirty days is 1,260 days, and "a time, and times, and half a time" is three and a
 half years. Daniel uses the same phrase for the time the saints are given into the little horn's hand

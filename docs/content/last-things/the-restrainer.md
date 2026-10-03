@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Thessalonians 2:1-12"
 bible_references: ["2 Thessalonians 2:1-9", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Philippians 2:15", "2 Corinthians 6:17", "1 Corinthians 5:2", "Colossians 2:14", "1 Corinthians 3:16", "Ephesians 2:21-22", "John 14:16-17", "John 14:26", "John 16:7-8", "John 16:13", "1 John 4:4", "Genesis 6:3", "Matthew 5:13-14", "Revelation 7:9", "Revelation 7:14", "Revelation 13:7", "Revelation 14:6", "Daniel 9:27", "Matthew 24:15", "Matthew 24:21", "Daniel 10:13", "Daniel 12:1", "Jude 9", "Revelation 12:7-8", "Romans 13:4", "Psalm 139:7", "Isaiah 52:11", "Genesis 29:35"]
 date_created: 2026-09-26
-date_modified: 2026-09-28
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -256,6 +256,8 @@ says only that the revealing cannot come first.
 So the order is this: the church in the midst, restraining; the church caught up; the seven years,
 with the lawless one revealed and seated in the temple at their midpoint; and his end "by the
 appearance of his coming" (2 Thessalonians 2:8, ESV).
+
+[![Daniel's seventieth week: the church caught up from the church age and the restrainer taken out of the way, then seven years in three lanes, heaven, the earth and Israel, with the abomination at the midpoint and the King coming at the end.](../assets/img/tribulation/seventieth-week.svg)](../assets/img/tribulation/seventieth-week.svg)
 
 ## The Spirit in the tribulation
 

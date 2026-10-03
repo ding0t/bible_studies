@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
 bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hebrews 1:2", "Hebrews 4:9", "Revelation 20:1-7", "Genesis 49:1", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:46", "2 Timothy 3:16", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
 date_created: 2026-08-12
-date_modified: 2026-09-30
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -385,6 +385,8 @@ dates inside the first two millennia come straight from the age-data in Genesis 
 | 5 | Waters swarm; birds fly (1:20-23) | AM 4000-5000 | The gospel over the sea of the nations; the church multiplying |
 | 6 | Beasts; man in God's image, given dominion (1:24-31) | AM 5000-6000 | Man's dominion at full stretch — and its counterfeit image |
 | 7 | God rests, blesses, sanctifies (2:1-3) | AM 6000-7000 | Revelation 20's thousand years |
+
+[![The seven thousand years on this site's chronology: seven bands of a thousand years, each with its theme from Genesis 1 and its events placed by year, from creation in 3959 BC to the year 6000 in AD 2042, then the thousand years and an eighth day.](../assets/img/last-things/seven-thousand-years.svg)](../assets/img/last-things/seven-thousand-years.svg)
 
 On the site's epoch Christ is born about AM 3954 and crucified in AM 3991, at the close of the
 fourth millennium, the day of the lights for appointed times. Ussher's 4004 BC epoch, used here

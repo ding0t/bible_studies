@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 20:7-21:8"
 bible_references: ["Revelation 20:7-15", "Revelation 21:1-8", "Revelation 22:1-5", "Revelation 22:13", "Revelation 22:17", "Revelation 17:11", "Revelation 7:9", "Revelation 7:15", "Revelation 13:1", "Isaiah 65:17-25", "Isaiah 66:22", "Isaiah 43:19", "Isaiah 25:8", "Isaiah 55:1", "Isaiah 60:21", "Isaiah 61:1-2", "1 Peter 3:21", "Leviticus 12:3", "Romans 8:21", "Hebrews 1:12", "Luke 4:17-19", "Ephesians 1:10", "Revelation 20:5", "Revelation 21:27", "2 Peter 3:6-7", "2 Peter 3:7-13", "2 Peter 2:9", "Genesis 8:22", "Genesis 9:11", "Luke 17:30", "2 Thessalonians 1:7-8", "2 Peter 2:5", "1 Peter 3:20", "2 Samuel 7:14", "Leviticus 9:1", "Leviticus 9:23-24", "Leviticus 14:10", "Leviticus 23:36", "Leviticus 23:39-40", "Genesis 17:12", "Exodus 22:30", "Leviticus 26:11-12", "Ezekiel 37:27", "Zechariah 14:16", "Daniel 12:2", "John 1:14", "John 7:37-38", "Matthew 28:1", "Matthew 12:32", "Matthew 19:28", "Mark 10:30", "Luke 1:33", "Luke 20:34-36", "Ephesians 1:21", "Ephesians 2:7", "Hebrews 2:5", "Hebrews 4:9", "Hebrews 6:5", "Hebrews 12:26-28", "1 Corinthians 15:20", "1 Corinthians 15:24-28", "2 Corinthians 5:17", "Romans 8:19-23"]
 date_created: 2026-09-28
-date_modified: 2026-09-28
+date_modified: 2026-10-03
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -125,13 +125,10 @@ Revelation 21:1 John sees them "passed away." Death goes into the lake before th
 creation arrives (Revelation 20:14), so there is no death to carry across. John will say so plainly:
 "death shall be no more" (Revelation 21:4, ESV).
 
-```mermaid
-flowchart TD
-    A["The thousand years<br/>Rev 20:1-6"] --> B["Satan released · fire from heaven<br/>Rev 20:7-10"]
-    B --> C["Great white throne<br/>earth and sky flee · Rev 20:11"]
-    C --> D["Death and Hades into the lake<br/>Rev 20:14"]
-    D --> E["New heaven and new earth<br/>Rev 21:1"]
-```
+[![After the thousand years, in four lanes: Satan, the dead, earth and sky, and fire. At His coming Satan is bound, the first resurrection, the earth stands, and flaming fire on the living nations; the thousand years; Satan released, Gog and Magog, fire from heaven, the devil into the lake; at the great white throne the rest of the dead judged, earth and sky flee, and Peter's fire placed there on this site's reading; Death and Hades into the lake; then the eighth day.](../assets/img/last-things/after-the-thousand-years.svg)](../assets/img/last-things/after-the-thousand-years.svg)
+
+*Select the chart to open it full size. The dashed card is this site's reading, set out under
+[Where Peter's fire falls](#where-peters-fire-falls).*
 
 ### Where Peter's fire falls
 
