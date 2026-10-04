@@ -1,0 +1,278 @@
+/* Printable memory verse cards -- rendered by hooks/memory_verses.py.
+ *
+ * Every size is in sheet millimetres: --mm is 1/210 of the sheet's width, resolved against the
+ * sheet as a size container. Printed, the sheet is 210 mm wide and --mm is exactly 1 mm; on
+ * screen the same sheet shrinks to the column and stays an exact scale model of the page.
+ * The geometry (10 mm margins, 17 mm foot, 2 x 4 cards of 95 x 67.5 mm) must match _CUTS_X and
+ * _CUTS_Y in the hook, which draw the crop marks.
+ *
+ * Sheets are paper: white and dark ink in both site palettes, so the preview is what prints. */
+
+.mv-deck {
+  --mm: calc(100cqw / 210);
+  --mv-ink: #1d1b19;
+  --mv-muted: #6b665f;
+  --mv-rule: #b9b4ab;
+  --mv-hebrew: #8a5300;
+  --mv-greek: #1f4e8c;
+  --mv-serif: "Noto Serif", Georgia, "Times New Roman", serif;
+}
+
+/* ---- Controls ---------------------------------------------------------------------------- */
+
+.mv-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.6rem 1.6rem;
+  margin: 1rem 0 1.4rem;
+  font-size: 0.75rem;
+}
+.mv-controls fieldset { border: 0; margin: 0; padding: 0; }
+.mv-controls legend {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.2rem;
+}
+.mv-controls label { display: block; cursor: pointer; }
+.mv-controls small { color: var(--md-default-fg-color--light); }
+.mv-controls .md-button { margin: 0; }
+
+.mv-flash { display: none; }
+.mv-deck:has(.mv-opt-flash:checked) .mv-cards { display: none; }
+.mv-deck:has(.mv-opt-flash:checked) .mv-flash { display: block; }
+.mv-deck:not(:has(.mv-opt-gloss:checked)) .mv-gloss { display: none; }
+.mv-deck:not(:has(.mv-opt-web:checked)) .mv-en-second { display: none; }
+
+/* ---- Sheet ------------------------------------------------------------------------------- */
+
+.mv-sheet {
+  container-type: inline-size;
+  position: relative;
+  width: min(100%, 210mm);
+  aspect-ratio: 210 / 297;
+  margin: 0 auto 1.6rem;
+  background: #fff;
+  color: var(--mv-ink);
+  box-shadow: 0 0.1rem 0.6rem rgb(0 0 0 / 0.18);
+  overflow: hidden;
+  font-family: var(--mv-serif);
+  line-height: 1.25;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+.mv-grid {
+  position: absolute;
+  left: calc(10 * var(--mm));
+  top: calc(10 * var(--mm));
+  width: calc(190 * var(--mm));
+  height: calc(270 * var(--mm));
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  border-top: calc(0.25 * var(--mm)) dashed var(--mv-rule);
+  border-left: calc(0.25 * var(--mm)) dashed var(--mv-rule);
+}
+/* Mirror the columns on the backs: flipped on the long edge, left becomes right. */
+.mv-back .mv-grid { direction: rtl; }
+
+.mv-tick { position: absolute; }
+.mv-tick::before, .mv-tick::after { content: ""; position: absolute; background: var(--mv-muted); }
+.mv-tick-x { left: calc(var(--at) * var(--mm)); top: 0; bottom: 0; }
+.mv-tick-x::before, .mv-tick-x::after { width: calc(0.2 * var(--mm)); height: calc(4.5 * var(--mm)); }
+.mv-tick-x::before { top: calc(4 * var(--mm)); }
+.mv-tick-x::after { top: calc(281.5 * var(--mm)); }
+.mv-tick-y { top: calc(var(--at) * var(--mm)); left: 0; right: 0; }
+.mv-tick-y::before, .mv-tick-y::after { height: calc(0.2 * var(--mm)); width: calc(4.5 * var(--mm)); }
+.mv-tick-y::before { left: calc(4 * var(--mm)); }
+.mv-tick-y::after { right: calc(4 * var(--mm)); }
+
+.mv-scissors {
+  position: absolute;
+  left: calc(11 * var(--mm));
+  top: calc(5.5 * var(--mm));
+  font-size: calc(3.4 * var(--mm));
+  color: var(--mv-muted);
+  line-height: 1;
+}
+
+.mv-sheet-foot {
+  position: absolute;
+  left: calc(10 * var(--mm));
+  right: calc(10 * var(--mm));
+  top: calc(287.5 * var(--mm));
+  display: flex;
+  justify-content: space-between;
+  gap: calc(4 * var(--mm));
+  font-family: system-ui, sans-serif;
+  font-size: calc(1.9 * var(--mm));
+  color: var(--mv-muted);
+}
+
+/* ---- Card -------------------------------------------------------------------------------- */
+
+.mv-card {
+  --k: 1;
+  direction: ltr;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: calc(2.2 * var(--k) * var(--mm));
+  padding: calc(4 * var(--mm)) calc(5 * var(--mm));
+  border-right: calc(0.25 * var(--mm)) dashed var(--mv-rule);
+  border-bottom: calc(0.25 * var(--mm)) dashed var(--mv-rule);
+  overflow: hidden;
+  min-width: 0;
+}
+.mv-dense1 { --k: 0.84; }
+.mv-dense2 { --k: 0.7; }
+
+.mv-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: calc(1.2 * var(--mm));
+  border-bottom: calc(0.3 * var(--mm)) solid currentcolor;
+  font-size: calc(3.1 * var(--mm));
+  color: var(--mv-hebrew);
+}
+.mv-full:has([lang="grc"]) .mv-head { color: var(--mv-greek); }
+.mv-head span {
+  font-family: system-ui, sans-serif;
+  font-size: calc(2.1 * var(--mm));
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.mv-words {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: calc(1.4 * var(--k) * var(--mm)) calc(2.4 * var(--k) * var(--mm));
+}
+.mv-word { display: inline-flex; flex-direction: column; align-items: center; text-align: center; }
+.mv-orig { font-size: calc(5.4 * var(--k) * var(--mm)); line-height: 1.35; }
+[lang="he"] .mv-orig, .mv-incipit[lang="he"] {
+  font-family: "Noto Serif Hebrew", "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
+}
+[lang="grc"] .mv-orig { font-size: calc(4.4 * var(--k) * var(--mm)); }
+.mv-translit {
+  direction: ltr;
+  font-style: italic;
+  font-size: calc(2.5 * var(--k) * var(--mm));
+}
+.mv-translit b { font-weight: 600; text-decoration: underline; text-underline-offset: 0.18em; }
+.mv-gloss {
+  direction: ltr;
+  font-family: system-ui, sans-serif;
+  font-size: calc(1.9 * var(--k) * var(--mm));
+  color: var(--mv-muted);
+}
+
+.mv-en {
+  margin: 0;
+  font-size: calc(3 * var(--k) * var(--mm));
+  line-height: 1.3;
+}
+.mv-en:first-of-type { margin-top: auto; }
+.mv-en-second { font-size: calc(2.5 * var(--k) * var(--mm)); color: var(--mv-muted); }
+.mv-en cite {
+  font-style: normal;
+  font-family: system-ui, sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 0.08em;
+  color: var(--mv-muted);
+}
+
+.mv-num {
+  position: absolute;
+  right: calc(2.5 * var(--mm));
+  bottom: calc(1.8 * var(--mm));
+  font-family: system-ui, sans-serif;
+  font-size: calc(1.8 * var(--mm));
+  color: var(--mv-rule);
+}
+
+/* ---- Flashcard front ---------------------------------------------------------------------- */
+
+.mv-prompt { align-items: center; justify-content: center; text-align: center; gap: calc(1.6 * var(--mm)); }
+.mv-theme {
+  font-family: system-ui, sans-serif;
+  font-size: calc(2.2 * var(--mm));
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--mv-muted);
+}
+.mv-ref { font-size: calc(7 * var(--mm)); line-height: 1.1; }
+.mv-incipit { font-size: calc(5 * var(--mm)); color: var(--mv-hebrew); line-height: 1.3; }
+.mv-incipit[lang="grc"] { color: var(--mv-greek); }
+.mv-incipit small { display: block; font-size: calc(2.4 * var(--mm)); font-style: italic; color: var(--mv-muted); }
+.mv-cue {
+  margin: 0;
+  max-width: 92%;
+  font-size: calc(2.6 * var(--mm));
+  letter-spacing: 0.14em;
+  color: var(--mv-muted);
+}
+.mv-review {
+  display: flex;
+  gap: calc(2.2 * var(--mm));
+  margin-top: calc(1.5 * var(--mm));
+  font-family: system-ui, sans-serif;
+  font-size: calc(1.8 * var(--mm));
+  color: var(--mv-muted);
+}
+.mv-review span { display: flex; flex-direction: column; align-items: center; gap: calc(0.6 * var(--mm)); }
+.mv-review i {
+  width: calc(2.8 * var(--mm));
+  height: calc(2.8 * var(--mm));
+  border: calc(0.25 * var(--mm)) solid var(--mv-muted);
+  border-radius: 50%;
+}
+.mv-review em { font-style: normal; align-self: end; }
+
+/* ---- Blank card --------------------------------------------------------------------------- */
+
+.mv-blank .mv-head { color: var(--mv-rule); }
+.mv-lines {
+  flex: 1;
+  background: repeating-linear-gradient(
+    transparent 0 calc(6.6 * var(--mm)),
+    var(--mv-rule) calc(6.6 * var(--mm)) calc(6.8 * var(--mm)));
+}
+
+/* ---- Print -------------------------------------------------------------------------------- */
+
+@page memory-cards {
+  size: A4 portrait;
+  margin: 0;
+}
+
+@media print {
+  body:has(.mv-deck) :is(.md-header, .md-tabs, .md-sidebar, .md-footer, .md-top, .md-source-file,
+    .md-path, .md-content__button, .mv-controls),
+  body:has(.mv-deck) .md-content__inner > :not(.mv-deck) {
+    display: none !important;
+  }
+  /* The whole body, not only the sheets: Chrome opens a page in the default size for whatever
+     precedes the first named-page box, even when all of it is hidden. */
+  body:has(.mv-deck) { page: memory-cards; }
+  body:has(.mv-deck) :is(.md-main__inner, .md-content, .md-content__inner, .md-grid) {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+  }
+  .mv-sheet {
+    width: 210mm;
+    /* Short of 297 mm so a few px of offset above the sheet cannot spill a blank page after it;
+       nothing is drawn below the foot line at 290 mm. */
+    height: 292mm;
+    aspect-ratio: auto;
+    margin: 0;
+    box-shadow: none;
+  }
+  .mv-sheet + .mv-sheet { break-before: page; }
+}

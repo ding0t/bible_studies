@@ -1,0 +1,89 @@
+{
+ "sources": {
+  "hebrew": "STEPBible TAHOT (Translators Amalgamated Hebrew OT), CC BY, STEPBible.org",
+  "greek": "STEPBible TAGNT (Translators Amalgamated Greek NT), CC BY, STEPBible.org",
+  "WEB": "World English Bible, public domain",
+  "ESV": "ESV® Bible, © 2001 by Crossway. Used by permission. All rights reserved."
+ },
+ "verses": [
+  {
+   "ref": "Genesis 1:1",
+   "theme": "Creation",
+   "set": "foundations",
+   "language": "hebrew",
+   "words": [
+    {
+     "w": "בְּרֵאשִׁית",
+     "t": [
+      "be",
+      "re",
+      "shit"
+     ],
+     "s": 2,
+     "g": "in beginning"
+    },
+    {
+     "w": "בָּרָא",
+     "t": [
+      "ba",
+      "ra'"
+     ],
+     "s": 1,
+     "g": "he created"
+    },
+    {
+     "w": "אֱלֹהִים",
+     "t": [
+      "'e",
+      "lo",
+      "him"
+     ],
+     "s": 2,
+     "g": "God"
+    },
+    {
+     "w": "אֵת",
+     "t": [
+      "'et"
+     ],
+     "s": null,
+     "g": "obj."
+    },
+    {
+     "w": "הַשָּׁמַיִם",
+     "t": [
+      "ha",
+      "sha",
+      "ma",
+      "yim"
+     ],
+     "s": 2,
+     "g": "the heavens"
+    },
+    {
+     "w": "וְאֵת",
+     "t": [
+      "ve",
+      "'et"
+     ],
+     "s": 1,
+     "g": "and obj."
+    },
+    {
+     "w": "הָאָרֶץ",
+     "t": [
+      "ha",
+      "'a",
+      "retz"
+     ],
+     "s": 1,
+     "g": "the earth"
+    }
+   ],
+   "translations": {
+    "ESV": "In the beginning, God created the heavens and the earth.",
+    "WEB": "In the beginning, God created the heavens and the earth."
+   }
+  }
+ ]
+}

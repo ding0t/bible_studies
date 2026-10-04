@@ -4,7 +4,7 @@ category: "other"
 description: "External sources, tools, and datasets this project draws on."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-09-05
+date_modified: 2026-10-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -40,6 +40,14 @@ External sources, tools, and datasets this project draws on.
     Sefaria and other sources for Jewish literature (Mishnah, Talmud) relevant to understanding a passage's Second Temple / rabbinic background
 
     [:octicons-arrow-right-24: Read](jewish-sources.md)
+
+-   __Memory Verse Cards__
+
+    ---
+
+    Printable A4 sheets of Scripture memory cards: the Hebrew or Greek with transliteration and gloss, the ESV and the WEB.
+
+    [:octicons-arrow-right-24: Read](memory-verses.md)
 
 -   __Patristic Sources__
 

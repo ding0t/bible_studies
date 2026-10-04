@@ -1,0 +1,19 @@
+# Memory verse cards, printed from docs/content/resources/memory-verses.md.
+#
+# Add a verse here, then from references/build run:
+#     uv run python export_memory_verses.py
+# which looks up the Hebrew or Greek words, their transliteration and gloss, and each translation
+# below, and writes docs/data/memory-verses.json (committed -- CI cannot rebuild the databases).
+#
+#   ref    Full book name, chapter:verse or chapter:verse-verse within one chapter, numbered as
+#          English Bibles number it.
+#   theme  A one- or two-word heading for the card.
+#   set    Optional. A page shows one set with <!-- memory-verses: <set> -->, or every verse with
+#          <!-- memory-verses -->. Cards print in the order they appear here.
+
+translations = ["ESV", "WEB"]
+
+[[verse]]
+ref = "Genesis 1:1"
+theme = "Creation"
+set = "foundations"

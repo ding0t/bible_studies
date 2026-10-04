@@ -230,6 +230,8 @@ uv run python commentary_index.py  # regenerate auto cross-ref pages — run aft
 uv run python section_index.py     # regenerate category landing pages — run after adding a study or new content section
 uv run python build_study_notes.py # commercial study-Bible db, writes outside this repo — see references/README.md
 uv run python export_popups.py     # verse + word pop-up data -> docs/content/assets/popups/ (committed; re-run when bible-text.db changes)
+uv run python export_memory_verses.py  # docs/data/memory-verses.toml -> .json for the printable cards (hooks/memory_verses.py);
+                                       # re-run after adding a verse -- needs study-notes.db for the ESV
 ```
 
 **Source catalog drift check** (run from the repo root, stdlib only):
