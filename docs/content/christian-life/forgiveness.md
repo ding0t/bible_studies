@@ -90,7 +90,7 @@ In Jesus' name. Amen.
   received by those who refuse.
 - [What Matthew 6:15 warns a believer about](#what-matthew-615-warns-a-believer-about). Two readings,
   and what both keep secure.
-- [Two movements of forgiveness](#two-movements-of-forgiveness). Mark 11:25 and Luke 17:3-4, how they fit, and where Christians differ.
+- [Two movements of forgiveness](#two-movements-of-forgiveness). Mark 11:25 and Luke 17:3-4, how they fit, where Christians differ, and restoring the repentant.
 - [When the offender keeps on](#when-the-offender-keeps-on). Confront, release, love, and guard.
 - [When Matthew 6:15 is used as a weapon](#when-matthew-615-is-used-as-a-weapon). Four ways the
   verse is bent to silence the wronged, and what it does ask.
@@ -330,6 +330,15 @@ view requires you to pretend nothing happened, or to restore trust to someone wh
 The difference is mostly a question of words, and this study uses both terms carefully: *release*
 for what you do before God, *forgive* for what you grant to the one who repents.
 
+### Go first, and restore the one who repents
+
+If you are the one who did wrong, go first. "If you ... remember that your brother has something
+against you, leave your gift there before the altar and go. First be reconciled to your brother"
+(Matthew 5:23-24, ESV). And when a brother who wronged you repents, do not keep him at arm's length
+until he is crushed. Paul told the Corinthians to "turn to forgive and comfort him, or he may be
+overwhelmed by excessive sorrow ... so that we would not be outwitted by Satan" (2 Corinthians 2:7,
+11, ESV).
+
 ## When the offender keeps on
 
 Sometimes the one who wronged you has not turned, and is still doing the thing. Scripture gives you
@@ -465,15 +474,6 @@ forgave them in the same breath.
 Trust is rebuilt over time by changed behaviour, and it can take years. A forgiven thief can still
 be kept away from the till, and a forgiven abuser away from the people they harmed (see
 [Guard](#guard)).
-
-### Go first, and restore the one who repents
-
-If you are the one who did wrong, go first. "If you ... remember that your brother has something
-against you, leave your gift there before the altar and go. First be reconciled to your brother"
-(Matthew 5:23-24, ESV). And when a brother who wronged you repents, do not keep him at arm's length
-until he is crushed. Paul told the Corinthians to "turn to forgive and comfort him, or he may be
-overwhelmed by excessive sorrow ... so that we would not be outwitted by Satan" (2 Corinthians 2:7,
-11, ESV).
 
 ## The freedom of forgiving
 
