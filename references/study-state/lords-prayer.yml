@@ -440,3 +440,43 @@ review_2026-10-04:
     anchors), day-of-atonement, hurt-by-the-church, rapture#kept-from-the-hour -- all published,
     mkdocs build clean for this page. Origen citation left unverified (De Oratione not in corpus).
     Companion page started via develop-bible-study (state file teaching-the-lords-prayer.yml).
+review_2026-10-04b:
+  scope: >
+    Post-commit review of the lines added in 868b67d9 only (review-bible-study Phases 1, 2, 4, 8,
+    plus sibling consistency). Earlier text not re-audited.
+  checked: >
+    ESV (study-notes.db, esv-study-bible) verbatim for every new quotation: Gal 4:4-6, John 1:12,
+    John 12:28, Matt 26:39, Matt 4:1, 4:4, Luke 23:34, Heb 4:15, Isa 63:16, Isa 64:8, Eccl 5:2,
+    Ps 27:10, Ezek 36:20, 1 Pet 3:15, John 17:6, 17:15, Matt 6:14-15, 6:31-32, John 6:35,
+    Hab 3:17-18, Phil 4:12, Col 2:14, Matt 18:22, 24, 32-33, Luke 22:31-32, 1 Cor 10:13,
+    John 14:13, Eph 4:32 -- all match. ESV Study Bible note on Matt 18:24 confirms "about 20 years'
+    wages". 1 Pet 3:15 hagiasate and Matt 6:9 hagiasthētō both G37 (interlinear). Cyprian, On the
+    Lord's Prayer 8 and 12 (ANF 5) and Didache 8:2-3 (ANF 7) verbatim against the patristics corpus.
+    All 15 internal links resolve, anchors exist, every target draft: false; the draft companion
+    page is not linked. Consistent with forgiveness.md (How God forgives; both Matt 6:15 readings;
+    Luke 23:34 caution) and prayer-as-communion.md (plural grammar; adoption/Spirit's cry).
+    npm run validate: no warnings for this file.
+  critical: []
+  moderate:
+    - "L38-43 'He lived every line of it ... The only line He never needed was forgive us our debts': exhaustiveness claim. L344-346 says Jesus went INTO the testing the petition asks to be spared (Matt 4:1), so 'lead us not into temptation' is a second line He did not pray for Himself; and the forgiving half rests on Luke 23:34, which the study itself marks textually uncertain. Discussion Q3 (L427) repeats the claim. Suggest: 'He lived the prayer He taught' and drop 'the only line'."
+  minor:
+    - "L239 'He will come again to reign on it' stated plainly; a future earthly reign is contested (amillennial readings). Mark it, e.g. 'which the dispensational reading, this site's own, expects'."
+    - "L266 'The same sermon comments on this petition at length' presents a reading as fact; Matt 6:25-34 never refers back to 6:11. Suggest 'reads as a sermon on this petition'."
+    - "L271 'gives the bread it cannot live on alone' garbles Matt 4:4."
+    - "L320 'Peter asked how often he must forgive: seventy-seven times' attributes Jesus' answer to Peter; also 'seventy times seven' is a recognised alternative (CSB/NLT footnotes)."
+    - "L175 'the whole Trinity is in the first word' is a Galatians-derived inference stated as if in Matthew's text; soften to 'stands behind'."
+    - "L193 antithesis construction (does not ask X. It shows Y)."
+    - "L212 hagiasate lacks a pronunciation (AGENTS.md rule)."
+    - "L74 / L392 Didache 'about AD 100' and 'earliest church manual': date is debated (c. 50-150); say 'probably'."
+    - "L426 Discussion Q2 asks the reader to run the house method; borderline method question per discussion-questions.md. No question touches a Greek word."
+    - "'Jesus's' (L336, L433) vs 'Jesus'' (new text) inconsistent."
+  size: "Validator Check 23 silent (under 4,400 budget). Suggested fixes are net ~0 words."
+
+fixes_2026-10-04b:
+  applied: >
+    All findings of review_2026-10-04b, author-approved: "He lived the prayer He taught" (the
+    "only line" overclaim removed, Q3 reworded); future reign marked as the dispensational reading
+    with the amillennial alternative named; "reads like this petition preached"; Matt 4:4 sentence
+    repaired; Matt 18:22 answer attributed to Jesus; Trinity "stands behind" the first word; X-not-Y
+    sentence cut; hagiasate pronunciation; Didache "probably about AD 100"; Q2 replaced with an
+    epiousios question; "Jesus'" standardised; John 6:35 "the next day".

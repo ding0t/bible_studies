@@ -22,9 +22,9 @@ thesis: >
 outline:
   - {section: "Key Takeaways", says: "Lessons about Jesus (He taught by praying first), memory verse, Be Transformed, a family prayer."}
   - {section: "Why a household teaches this prayer", says: "Deut 6:6-7 and Ps 78:4-7 put teaching in ordinary time; Luke 11:1 shows prayer learned by watching; Didache 8:3 shows the church praying it three times a day. Links prayer-as-communion#teaching-a-household-to-pray."}
-  - {section: "How to use this guide", says: "One line a week for six weeks; each week has the line, what it shows about God in one sentence a child can say, a Bible story, a question for children, a question for adults, a household practice, a verse to learn, and where to go deeper."}
+  - {section: "How to use this guide", says: "One line a week for seven weeks; each week has the line, what it shows about God in one sentence a child can say, a Bible story, a question for children, a question for adults, a household practice, a verse to learn, and where to go deeper."}
   - {section: "Week 1 -- Our Father in heaven", says: "Adoption through Jesus; 'our' makes it a family prayer. Story: the prodigal's father (Luke 15:20). Deeper: lords-prayer#our-father-in-heaven, prayer-as-communion, assurance-of-salvation."}
-  - {section: "Week 2 -- Hallowed be your name", says: "God's name is who He is (Exodus 34:6-7); a family carries it (Ezek 36:20). Story: Daniel's window (Daniel 6:10). Deeper: lords-prayer#hallowed-be-your-name."}
+  - {section: "Week 2 -- Hallowed be your name", says: "God's name is who He is (Exodus 34:6-7); a family carries it (Ezek 36:20). Story: God shows Moses His name (Exodus 34:5-7). Deeper: lords-prayer#hallowed-be-your-name."}
   - {section: "Week 3 -- Your kingdom come, your will be done", says: "Jesus is King and is coming back; 'your will' hands ours over. Story: Gethsemane (Matt 26:39). Deeper: your-kingdom-come, rapture."}
   - {section: "Week 4 -- Our daily bread", says: "The Father provides one day at a time. Story: manna (Exodus 16). Practice: specific thanks at meals, sharing. Deeper: bread-of-life-feeding-the-multitudes, humility#daily-bread."}
   - {section: "Week 5 -- Forgive us our debts", says: "Jesus paid the debt; we forgive because we are forgiven. Story: the unforgiving servant (Matt 18:21-35). Practice: family words for asking and granting forgiveness. Deeper: forgiveness, day-of-atonement, hurt-by-the-church."}
@@ -84,3 +84,43 @@ resources_consulted:
   - {type: other, title: "Didache 8:2-3", author: "ANF 7 (public domain)", note: "Verified in $BIBLE_MEDIA_ROOT/reference/patristics/ante-nicene-fathers/anf07.txt: 'Thrice in the day thus pray.'"}
   - {type: other, title: "Cyprian, On the Lord's Prayer 8, 12", author: "ANF 5 (public domain)", note: "Verified in anf05.txt."}
 last_updated: "2026-10-04"
+
+review_2026-10-04:
+  reviewer: "review-bible-study (agent, separate session from drafting)"
+  checked: >
+    All 33 ESV quotations re-queried in study-notes.db (esv-study-bible verses): every one verbatim
+    and correctly referenced. Didache 8:3 "Thrice in the day thus pray." verified anf07.txt l.35821.
+    52 words Matt 6:9-13 ("Our Father".."evil") and 9 first-person plurals recounted: correct.
+    patria G3965 (177 occurrences) derived from pater: confirmed (NIV Cultural Backgrounds note on
+    Eph 3:15). Exod 16:19-26 range correct. All 11 link targets exist, draft: false; all anchors
+    match headings. validate: provenance warning only. review_gaps: Deut 8:3 (quoted at Matt 4:4)
+    the one gap of substance. Commentary cross-check on Deut 6:7 (ESV SB, NIV BTSB): merism and
+    repetition confirmed; "these words" are the commandments.
+  findings:
+    moderate:
+      - "L292-293 doxology stated flatly ('added early, from 1 Chr 29:11'; 'Matthew did not write it'); parent says 'probably drawn' and grounds it in manuscripts and Didache 8:2. Mark confidence to match."
+      - "L109-111 'Pray it over your children' promised as 'one of Paul's prayers'; Week 4 (Phil 4:19, 4:11) and Week 6 (2 Thess 3:3) are statements, not prayers. Week 7 has none. Reword the label or swap texts (2 Thess 3:5; 1 Thess 5:23)."
+      - "L51 'Teaching your children to pray is a command' -- Deut 6:7 commands teaching 'these words' (the commandments); prayer is an application. L21-22 thesis likewise credits Deut 6 with 'one line at a time ... prayed before it is explained'."
+      - "L82-98 restates prayer-as-communion#teaching-a-household-to-pray (Deut 6 merism, Luke 11:1, Daniel scaffolding, Eph 6:4 at L315) and hardens its 'suggests short and frequent' into 'so the teaching is short and frequent'. No contradiction."
+    minor:
+      - "L204-205 'fed five thousand and said I am the bread of life' -- John 6:35 is the next day at Capernaum."
+      - "L158 Ezek 36:20: the profaning is the exile itself (v20), caused by conduct (vv17-19); compress less."
+      - "L232 seventy-seven: CSB/NLT footnote the alternative; L188 Rev 22:20 quote marks malformed; L17 Luke 11:1 truncated mid-sentence without ellipsis."
+      - "Week 6 misses Matt 4:1 'led up by the Spirit ... to be tempted', the line's own hard question; Week 4 misses Deut 8:3 (manna, quoted at Matt 4:4)."
+      - "Week 7 lacks story, verse to learn, Pray-it-over, Go deeper promised at L102-112; 'Amen' given no Hebrew."
+      - "L133 'Notice that' narrated tell; L110-111 'his prayers follow the same priorities Jesus taught' unsupported."
+      - "bible_references omits Luke 15:11-32, Ezek 36:20, John 6:35, Phil 4:11, Heb 4:15-16, John 17:15, Jas 1:13, Matt 6:15, 1 Chr 29:11; 'family' is a new singleton tag; ai_provider_models empty -- run refresh_frontmatter_provenance.py."
+      - "State file outline stale: says six weeks and Week 2 story Daniel 6:10; page has seven and Exodus 34."
+  verdict: "Ready to publish after the four Moderate fixes; no Critical findings."
+
+fixes_2026-10-04:
+  applied: >
+    All four Moderate and the Minor findings of review_2026-10-04, author-approved. Doxology now
+    hedged ("probably", earliest mss lack it, Didache shorter form). "Pray it over your children"
+    now uses actual prayers or a recorded act of prayer: Acts 27:35 (Week 4), 1 Thess 5:23 with the
+    5:24 and 2 Thess 3:3 promises held separately (Week 6), Eph 3:20-21 (Week 7, new); the
+    "same priorities" claim removed. Deut 6:7 presented as application; Deut 6:20-21 added for
+    the ask-then-explain order. "Why a household" cut to Ps 78:4 + link + Didache. John 6:35 now
+    "the next day"; Ezek 36:17-20; Matt 4:1; Deut 8:3; Matthew 18:22 footnote; Luke 11:1 complete;
+    Rev 22:20 rendered as promise/answer; amen H543 added; "Notice that" and the gospel-centre
+    overclaim cut; frontmatter references completed. Outline above corrected (seven weeks; Exodus 34).

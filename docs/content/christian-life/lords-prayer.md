@@ -35,12 +35,11 @@ something about who God is and what you may ask Him for.
 - **He brought the kingdom He taught you to pray for.** "If it is by the Spirit of God that I cast
   out demons, then the kingdom of God has come upon you" (Matthew 12:28, ESV). You pray from within
   a kingdom Jesus Himself began, toward the day its reign is finished and visible to everyone.
-- **He lived every line of it.** He prayed "Father, glorify your name" (John 12:28). He prayed "not
+- **He lived the prayer He taught.** He prayed "Father, glorify your name" (John 12:28). He prayed "not
   as I will, but as you will" (Matthew 26:39). Hungry in the wilderness, He lived "by every word
   that comes from the mouth of God" (Matthew 4:4). On the cross He prayed for the men killing Him,
   "Father, forgive them" (Luke 23:34, a sentence some early manuscripts lack). And He was tested "in every respect… as we are, yet without
-  sin" (Hebrews 4:15). The only line He never needed was "forgive us our debts", and He died to
-  pay those.
+  sin" (Hebrews 4:15). And He died to pay the debts it asks the Father to forgive.
 
 ### Memory verses
 
@@ -71,7 +70,7 @@ something about who God is and what you may ask Him for.
   are praying for your household, your church and the brother who wronged you. And let go of
   needing an audience or a word count: this prayer is short, and it is prayed to a Father who sees
   in secret.
-- **Do.** Pray it together. The earliest church manual outside the New Testament told believers to
+- **Do.** Pray it together. An early church manual, probably from about AD 100, told believers to
   pray it three times a day (*Didache* 8:3). Take one line a week at a family meal: what it shows
   about God, and one thing to ask Him for in its words. And name someone you are withholding
   forgiveness from; this prayer, prayed honestly, asks you to extend what you are asking to receive.
@@ -172,7 +171,7 @@ becomes one of the children it is for. "To all who did receive him, who believed
 gave the right to become children of God" (John 1:12, ESV). That is **adoption**: "God sent forth
 his Son… so that we might receive adoption as sons. And because you are sons, God has sent the
 Spirit of his Son into our hearts, crying, 'Abba! Father!'" (Galatians 4:4-6, ESV). The Son makes
-you a child, and the Spirit gives you the word. So the whole Trinity is in the first word of the
+you a child, and the Spirit gives you the word. So the whole Trinity stands behind the first word of the
 prayer: you pray to the Father, as one adopted through the Son, with the Spirit's own cry.
 [Prayer as Communion](prayer-as-communion.md#a-given-willingness-the-spirits-own-cry) works this
 through, and [Assurance of Salvation](../salvation/assurance-of-salvation.md) answers how you can
@@ -190,8 +189,7 @@ asked for in Matthew 6:7-8. You come close, and you come with reverence.
 
 **When "father" is a hard word.** For anyone whose earthly father was absent or harmful, the
 Psalms give a promise: "my father and my mother have forsaken me, but the LORD will take me in"
-(Psalm 27:10, ESV). The prayer does not ask you to picture God as your father was. It shows you the
-Father your father should have been.
+(Psalm 27:10, ESV). The prayer shows you the Father your father should have been.
 
 **Pray it:** *"Father, thank You that because of Jesus we are Yours."*
 
@@ -209,7 +207,7 @@ my holy name, in that people said of them, 'These are the people of the LORD, an
 go out of his land'" (Ezekiel 36:20, ESV). The nations judged God by His people. A family that
 carries His name is read the same way by its neighbours, so this petition lands on the one praying
 it. Peter uses the same verb for the believer's own part: "in your hearts honor Christ the Lord as
-holy" (1 Peter 3:15, ESV), **ἁγιάσατε** (*hagiasate*, G37).
+holy" (1 Peter 3:15, ESV), **ἁγιάσατε** (*hagiasate*, hah-gee-AH-sah-teh, G37).
 
 This shows that God guards His own name and has made it known in His Son: "I have manifested your
 name to the people whom you gave me" (John 17:6, ESV). Cyprian read the petition this way: "not
@@ -236,8 +234,9 @@ corrected only on the timing of restoring "the kingdom to Israel" (Acts 1:6-7).
 
 "Your kingdom come" asks for God's reign to be established in full, and the next clause states the
 same request a second way, "your will be done, on earth as it is in heaven." This shows that God
-has not given up the earth: the King has come once, and He will come again to reign on it, which is
-the future, literal kingdom the dispensational reading expects. Until then, praying "your will be
+has not given up the earth. The King has come once, and on the dispensational reading this site
+holds He will come again to reign on it, a future, literal kingdom; amillennial readers take the
+reign as present and spiritual. Until then, praying "your will be
 done" hands your own will over to His, as Jesus did in Gethsemane: "not as I will, but as you will"
 (Matthew 26:39, ESV).
 
@@ -263,13 +262,13 @@ the food that is needful for me" (literally "the bread of my portion", Hebrew *l
 root 728a), asks for enough, without either poverty or riches. This shows that God wants to be asked
 again tomorrow, and that He means to provide.
 
-The same sermon comments on this petition at length. A few verses on, Jesus says: "do not be
+The same sermon goes on to read like this petition preached. A few verses on, Jesus says: "do not be
 anxious, saying, 'What shall we eat?'… your heavenly Father knows that you need them all" (Matthew
-6:31-32, ESV). The birds and the lilies of Matthew 6:25-30 are the daily-bread petition preached.
+6:31-32, ESV). The birds and the lilies of Matthew 6:25-30 make the same point.
 And Jesus lived it first: hungry after forty days, He answered the tempter that "Man shall not live
 by bread alone, but by every word that comes from the mouth of God" (Matthew 4:4, ESV). The Father
-who feeds the body also gives the bread it cannot live on alone. In John 6 Jesus feeds five
-thousand and then says, "I am the bread of life" (John 6:35, ESV); [Bread of
+who feeds the body also gives the word it lives by. In John 6 Jesus feeds five
+thousand and the next day says, "I am the bread of life" (John 6:35, ESV); [Bread of
 Life](../jesus/bread-of-life-feeding-the-multitudes.md#daily-bread) traces the line from the manna
 to Him, and [In Humility](humility.md#daily-bread) shows why depending on God one day at a time is
 itself humbling.
@@ -317,8 +316,8 @@ received and forgiveness given belong in one breath: "forgiving one another, as 
 forgave you" (Ephesians 4:32, ESV).
 
 In a household this petition is prayed most days. Brothers and sisters, husbands and wives, sin
-against each other, and Peter asked how often he must forgive: "seventy-seven times" (Matthew
-18:22, ESV). Forgiving releases the debt; it does not require pretending the wrong was small or
+against each other, and when Peter asked how often he must forgive, Jesus answered,
+"seventy-seven times" (Matthew 18:22, ESV). Forgiving releases the debt; it does not require pretending the wrong was small or
 trusting someone who is still doing harm. For hurt that comes from other believers, see [Hurt by
 the Church](hurt-by-the-church.md).
 
@@ -333,7 +332,7 @@ not to "lead us into temptation"?
 
 The word covers both "trial" or "testing" and "enticement to sin"; compare Revelation 3:10's "hour
 of trial". The *ESV Study Bible* reads the petition as "Allow us to be spared from difficult
-circumstances that would tempt us to sin" (note on Matthew 6:13), and points to Jesus's own words in
+circumstances that would tempt us to sin" (note on Matthew 6:13), and points to Jesus' own words in
 Gethsemane: "pray that you may not enter into temptation" (Matthew 26:41, ESV). Some take "lead us
 not into" as a Semitic idiom for "do not let us fall into". Either reading keeps James 1:13 intact:
 God is never the source of your temptation, and He is the one you ask to keep you out of it.
@@ -389,7 +388,7 @@ After the cross the same prayer is prayed in Jesus' name. "Whatever you ask in m
 do, that the Father may be glorified in the Son" (John 14:13, ESV). You pray to the Father as His
 adopted child, through the Son who opened the way, with the Spirit who cries "Abba" in you
 (Galatians 4:6). The church kept praying it in that way from the start: the *Didache*, a church
-manual of about AD 100, gives the prayer and then says, "Thrice in the day thus pray" (*Didache*
+manual probably from about AD 100, gives the prayer and then says, "Thrice in the day thus pray" (*Didache*
 8:3, ANF 7).
 
 To use the prayer as a pattern for your own words, step by step, see
@@ -423,14 +422,14 @@ Either way, read each account first in its own setting before blending the two.
 ## Discussion questions
 
 1. Which line of this prayer is hardest for you to pray honestly right now, and why?
-2. Take each line in turn and finish the sentence "this shows that God ___". Which answer surprised you?
-3. Jesus lived every line of this prayer except "forgive us our debts". Where do you see Him praying or living each one, and why could He not pray that line?
+2. The Greek word behind "daily" (*epiousios*) occurs only in this prayer, and every proposed meaning asks for enough for today or tomorrow. What would change in your own asking if you prayed for "enough for today"?
+3. Jesus lived the prayer He taught. Where do you see Him praying or living each line, and which lines could He not pray for Himself?
 4. Who gives you the right to call God "Father" (John 1:12; Galatians 4:4-6)? How does it change the prayer that the word is "our" and not "my"?
 5. The prayer places three petitions about God (name, kingdom, will) before any petition about us. What would it look like to actually pray in that order, starting with God before your own list of needs?
 6. Jesus says the kingdom has already arrived in His ministry (Matthew 12:28), yet the prayer still asks for it to come. Where does "your kingdom come" already feel true in your life, and where does it still feel entirely future?
 7. "Daily bread" assumes asking again tomorrow. Where in your own life is it harder to trust God for "today" than to want assurance for the whole future at once?
 8. Matthew links being forgiven to forgiving others so tightly that he repeats it right after the prayer (Matthew 6:14-15). Is there someone you're currently withholding forgiveness from that this prayer, prayed honestly, would confront?
-9. How do you read "lead us not into temptation" in light of James 1:13's insistence that God tempts no one? How does Jesus's "pray that you may not enter into temptation" (Matthew 26:41) help?
+9. How do you read "lead us not into temptation" in light of James 1:13's insistence that God tempts no one? How does Jesus' "pray that you may not enter into temptation" (Matthew 26:41) help?
 
 ## References & Recommended Reading
 

@@ -5,23 +5,23 @@ description: "A seven-week household guide to the Lord's Prayer, one line a week
 tags: ["lords-prayer", "prayer", "audience/teaching", "family"]
 draft: true
 primary_passage: "Matthew 6:9-13; Deuteronomy 6:6-7"
-bible_references: ["Luke 11:1", "Psalm 78:4", "Ephesians 6:4", "2 Timothy 3:15", "Daniel 6:10", "Luke 15:20", "John 1:12", "Ephesians 3:14-15", "Exodus 34:6", "Psalm 34:3", "2 Thessalonians 1:11-12", "Matthew 26:39", "Revelation 22:20", "Colossians 1:9-13", "Exodus 16:4-18", "Philippians 4:19", "Matthew 18:21-35", "Ephesians 4:32", "Colossians 1:14", "Matthew 4:1-11", "1 Corinthians 10:13", "2 Thessalonians 3:3", "2 Corinthians 1:20"]
+bible_references: ["Luke 11:1", "Deuteronomy 6:20-21", "Deuteronomy 8:3", "Luke 15:11-32", "Ezekiel 36:17-20", "John 6:22-35", "Acts 27:35", "Philippians 4:11", "Hebrews 4:15-16", "John 17:15", "1 Thessalonians 5:23-24", "Ephesians 3:20-21", "James 1:13", "Matthew 6:15", "1 Chronicles 29:11", "1 Corinthians 3:6", "Psalm 78:4", "Ephesians 6:4", "2 Timothy 3:15", "Luke 15:20", "John 1:12", "Ephesians 3:14-15", "Exodus 34:6", "Psalm 34:3", "2 Thessalonians 1:11-12", "Matthew 26:39", "Revelation 22:20", "Colossians 1:9-13", "Exodus 16:4-18", "Philippians 4:19", "Matthew 18:21-35", "Ephesians 4:32", "Colossians 1:14", "Matthew 4:1-11", "1 Corinthians 10:13", "2 Thessalonians 3:3", "2 Corinthians 1:20"]
 date_created: 2026-10-04
 date_modified: 2026-10-04
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Teaching the Lord's Prayer at Home
 
 Jesus' disciples learned to pray by watching Him do it. "Jesus was praying in a certain place, and
-when he finished, one of his disciples said to him, 'Lord, teach us to pray'" (Luke 11:1, ESV). A
+when he finished, one of his disciples said to him, 'Lord, teach us to pray, as John taught his disciples'" (Luke 11:1, ESV). A
 household learns the same way. This guide takes the prayer He gave them one line a week, for
 children and adults together.
 
-**In one sentence:** A household learns the Lord's Prayer the way Deuteronomy 6 says every word of
-God is learned, in the ordinary hours of the day and one line at a time, prayed together before it
-is explained, so that children and parents come to know who the Father is and ask Him for what they
-need.
+**In one sentence:** A household learns the Lord's Prayer by praying it together in the ordinary
+hours of the day, one line at a time, the way Deuteronomy 6 puts God's words into family life, so
+that children and parents come to know who the Father is and ask Him for what they need.
 
 The theology and the Greek behind each line are in [The Lord's Prayer](lords-prayer.md). This page
 is for using it at home.
@@ -48,10 +48,12 @@ what each part is for.)*
 
 ### Be Transformed
 
-- **Think.** Teaching your children to pray is a command given to parents (Deuteronomy 6:7;
-  Ephesians 6:4), and the Father is the one who answers. You plant and water; He gives the growth.
-- **Attitude.** Pray before you explain. Let the children hear the prayer from you many times before
-  they are asked to understand it, as Timothy knew the Scriptures "from childhood" (2 Timothy 3:15).
+- **Think.** Parents are told to teach their children God's words (Deuteronomy 6:7; Ephesians
+  6:4), and the prayer Jesus gave is among them. You plant and water; the Father gives the growth
+  (1 Corinthians 3:6).
+- **Attitude.** Pray before you explain. In Deuteronomy 6:20-21 the child asks what God's commands
+  mean and the parent answers; let the prayer be familiar enough that your children ask, as Timothy
+  knew the Scriptures "from childhood" (2 Timothy 3:15).
 - **Do.** Pick one fixed time this week, a meal or bedtime, and pray the Lord's Prayer aloud
   together there every day. Then begin Week 1.
 
@@ -65,8 +67,8 @@ of their lives. In Jesus' name. Amen.
 
 ## Study outline
 
-- **[Why a household teaches this prayer](#why-a-household-teaches-this-prayer)** — Deuteronomy 6,
-  Psalm 78, and the early church's three times a day.
+- **[Why a household teaches this prayer](#why-a-household-teaches-this-prayer)** — Psalm 78 and
+  the early church's three times a day.
 - **[How to use this guide](#how-to-use-this-guide)** — what each week contains.
 - **The seven weeks** — [Our Father](#week-1-our-father-in-heaven) ·
   [Hallowed](#week-2-hallowed-be-your-name) · [Kingdom and will](#week-3-your-kingdom-come-your-will-be-done) ·
@@ -79,23 +81,16 @@ of their lives. In Jesus' name. Amen.
 
 ## Why a household teaches this prayer
 
-God put the teaching of His words inside the ordinary day: "when you sit in your house, and when
-you walk by the way, and when you lie down, and when you rise" (Deuteronomy 6:7, ESV). Those four
-cover the whole day, so the teaching is short and frequent. Psalm 78 gives the reason: "We will not
-hide them from their children, but tell to the coming generation the glorious deeds of the LORD"
-(Psalm 78:4, ESV). Paul puts the same charge on fathers: "bring them up in the discipline and
-instruction of the Lord" (Ephesians 6:4, ESV).
+Deuteronomy 6 puts the teaching of God's words inside the ordinary day, and Psalm 78:4 gives the
+reason: "We will not hide them from their children, but tell to the coming generation the glorious
+deeds of the LORD" (ESV). [Teaching a household to
+pray](prayer-as-communion.md#teaching-a-household-to-pray) in Prayer as Communion works through
+those passages and five practices for the wider habit; this guide applies them to one prayer.
 
-The church has always used this prayer for that. The *Didache*, a church manual from about AD 100,
-gives the Lord's Prayer and then says, "Thrice in the day thus pray" (*Didache* 8:3, ANF 7). Daniel
-had kept three set times centuries before: "He got down on his knees three times a day and prayed and
-gave thanks before his God" (Daniel 6:10, ESV). A set time is scaffolding. It holds the habit up
-until the habit can stand.
-
-This shows that God means to be known by children, and that He gives parents the work of introducing
-them. [Teaching a household to
-pray](prayer-as-communion.md#teaching-a-household-to-pray) in Prayer as Communion gives five
-practices for the wider habit; this guide applies them to one prayer.
+The church used this prayer for that from early on. The *Didache*, a church manual probably from
+about AD 100, gives the Lord's Prayer and then says, "Thrice in the day thus pray" (*Didache* 8:3,
+ANF 7). A set time holds the habit up until the habit can stand. This shows that God means to be
+known by children, and that He gives parents the work of introducing them.
 
 ## How to use this guide
 
@@ -106,9 +101,8 @@ Take one line a week, and pray the whole prayer together every day while you do.
 - **A question for children** and **a question for adults**.
 - **At home**: one thing to do as a household that week.
 - **A verse to learn.**
-- **Pray it over your children**: one of Paul's prayers for his churches that matches the line. Paul
-  prayed for people the way a parent prays for children, and his prayers follow the same priorities
-  Jesus taught.
+- **Pray it over your children**: one of Paul's prayers for his churches, set beside the line. Paul
+  prayed for his churches the way a parent prays for children.
 - **Go deeper**: the studies on this site for the adults.
 
 Seven weeks is a pace, and a family can stay on a line for longer. The point is that each line gets
@@ -130,8 +124,8 @@ teaches us to talk to.
 Luke 15 correct it?
 
 **At home.** Before anyone asks God for anything this week, each person finishes the sentence "Father,
-thank You that You…". Notice that the prayer says *our*, *us* or *we* nine times and never *my* or *me*,
-so pray it as a family even when you pray it alone.
+thank You that You…". The prayer says *our*, *us* or *we* nine times and never *my* or *me*, so pray
+it as a family even when you pray it alone.
 
 **Learn:** "To all who did receive him, who believed in his name, he gave the right to become
 children of God" (John 1:12, ESV).
@@ -155,7 +149,8 @@ the Bible talks about God's name, it means everything He has told us He is.
 **For children:** What does it mean to "hallow" something? (To treat it as special and holy.) How can
 the way we talk to each other make people think better or worse of God?
 
-**For adults:** Ezekiel 36:20 says Israel's conduct made the nations think less of God. What would
+**For adults:** In Ezekiel 36:17-20 Israel's conduct brought exile, and the exile made the nations
+think less of God. What would
 your neighbours learn about God from your household this week?
 
 **At home.** Learn Exodus 34:6 together as "God's name". At the end of each day, ask: where did we
@@ -185,7 +180,8 @@ pray Jesus' words from Gethsemane over it?
 **At home.** When a family decision comes up this week, pray "Your will be done" over it together
 before deciding. End each day's prayer with the Bible's last prayer, "Come, Lord Jesus!"
 
-**Learn:** "Surely I am coming soon." Amen. Come, Lord Jesus! (Revelation 22:20, ESV).
+**Learn:** Jesus' promise and the church's answer: "Surely I am coming soon." / "Amen. Come, Lord
+Jesus!" (Revelation 22:20, ESV).
 
 **Pray it over your children.** Paul asked that the Colossians "be filled with the knowledge of his
 will in all spiritual wisdom and understanding" (Colossians 1:9, ESV), and thanked the Father who
@@ -201,8 +197,10 @@ Come](../last-things/your-kingdom-come.md), [The Rapture of the Church](../last-
 **Story.** The manna (Exodus 16). God said, "I am about to rain bread from heaven for you, and the
 people shall go out and gather a day's portion every day" (Exodus 16:4, ESV). Those who gathered
 much "had nothing left over, and whoever gathered little had no lack" (Exodus 16:18, ESV), and manna
-kept overnight went bad, except before the Sabbath (Exodus 16:19-26). Then tell how Jesus fed five
-thousand and said, "I am the bread of life" (John 6:35, ESV).
+kept overnight went bad, except before the Sabbath (Exodus 16:19-26). Moses later told Israel why:
+"that he might make you know that man does not live by bread alone, but man lives by every word that
+comes from the mouth of the LORD" (Deuteronomy 8:3, ESV). Then tell how Jesus fed five thousand, and
+the next day said, "I am the bread of life" (John 6:35, ESV).
 
 **For children:** Why do you think God sent manna one day at a time instead of a whole year at once?
 What did we eat today that came from God?
@@ -216,8 +214,10 @@ someone outside the house.
 **Learn:** "And my God will supply every need of yours according to his riches in glory in Christ
 Jesus" (Philippians 4:19, ESV).
 
-**Pray it over your children.** Pray Philippians 4:19 over them by name, and pray for them to learn
-what Paul learned, contentment "in whatever situation" (Philippians 4:11, ESV).
+**Pray it over your children.** In a storm at sea, with everyone aboard afraid, Paul "took bread, and
+giving thanks to God in the presence of all he broke it and began to eat" (Acts 27:35, ESV). Give
+thanks for your children's food in front of them the same way, and ask that they learn what Paul
+learned, to be content "in whatever situation" (Philippians 4:11, ESV).
 
 **Go deeper:** [Give us this day our daily bread](lords-prayer.md#give-us-this-day-our-daily-bread),
 [Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md#daily-bread), [In
@@ -229,7 +229,8 @@ Humility](humility.md#daily-bread).
 other.*
 
 **Story.** The unforgiving servant (Matthew 18:21-35). Peter asked how many times he must forgive,
-and Jesus said "seventy-seven times" (Matthew 18:22, ESV). Then He told of a servant forgiven a debt
+and Jesus said "seventy-seven times" (Matthew 18:22, ESV; the CSB and NLT footnote "seventy times
+seven"). Then He told of a servant forgiven a debt
 he could never pay, who would not forgive a small one. The king asked him, "should not you have had
 mercy on your fellow servant, as I had mercy on you?" (Matthew 18:33, ESV).
 
@@ -258,7 +259,8 @@ Debts](forgiveness.md), [Hurt by the Church](hurt-by-the-church.md).
 
 **What it shows about God:** *God is stronger than the devil, and He keeps His children.*
 
-**Story.** Jesus in the wilderness (Matthew 4:1-11). Hungry after forty days, Jesus answered every
+**Story.** Jesus in the wilderness (Matthew 4:1-11). "Jesus was led up by the Spirit into the
+wilderness to be tempted by the devil" (Matthew 4:1, ESV). Hungry after forty days, Jesus answered every
 temptation with Scripture, until He said, "Be gone, Satan!" and "the devil left him, and behold,
 angels came and were ministering to him" (Matthew 4:10-11, ESV). Jesus went into the test and won,
 and He helps us in ours (Hebrews 4:15-16).
@@ -275,9 +277,12 @@ verse to say, a place to go, a person to tell. Praise one another when you take 
 temptation he will also provide the way of escape, that you may be able to endure it" (1
 Corinthians 10:13, ESV).
 
-**Pray it over your children.** "But the Lord is faithful. He will establish you and guard you
-against the evil one" (2 Thessalonians 3:3, ESV). Jesus prayed the same for His disciples, "that you
-keep them from the evil one" (John 17:15, ESV).
+**Pray it over your children.** "Now may the God of peace himself sanctify you completely, and may
+your whole spirit and soul and body be kept blameless at the coming of our Lord Jesus Christ"
+(1 Thessalonians 5:23, ESV). Then hold on to the promises: "He who calls you is faithful; he will
+surely do it" (1 Thessalonians 5:24, ESV), and "He will establish you and guard you against the evil
+one" (2 Thessalonians 3:3, ESV). Jesus prayed the same for His disciples, "that you keep them from
+the evil one" (John 17:15, ESV).
 
 **Go deeper:** [Lead us not into
 temptation](lords-prayer.md#lead-us-not-into-temptation-but-deliver-us-from-evil), [Forty days in
@@ -287,13 +292,15 @@ the wilderness](fasting.md#forty-days-in-the-wilderness).
 
 **What it shows about God:** *Every promise God makes is "Yes" in Jesus.*
 
-This week, pray the whole prayer slowly each day and stop after each line for one sentence in your
-own words. Learn the ending many churches use, "For yours is the kingdom and the power and the
-glory, forever." It was added early, from David's prayer in 1 Chronicles 29:11, and it is
-Scripture's own praise even though Matthew did not write it ([Why some Bibles end
+**The prayer.** This week, pray the whole prayer slowly each day and stop after each line for one
+sentence in your own words. Learn the ending many churches use, "For yours is the kingdom and the
+power and the glory, forever." The earliest manuscripts of Matthew do not have it, but the
+*Didache* already prays a shorter form of it, and it is probably drawn from David's prayer in
+1 Chronicles 29:11 ([Why some Bibles end
 differently](lords-prayer.md#why-some-bibles-end-differently)).
 
-"Amen" means "it is so". Paul says why we can say it: "all the promises of God find their Yes in
+**Amen.** The word is Hebrew, <span dir="rtl">אָמֵן</span> (*amen*, ah-MANE, H543), and means "it is
+so, truly". Israel answered God's words with it (Deuteronomy 27:15-26). Paul says why we can say it: "all the promises of God find their Yes in
 him. That is why it is through him that we utter our Amen to God for his glory" (2 Corinthians
 1:20, ESV). We say Amen because of Jesus.
 
@@ -303,12 +310,22 @@ him. That is why it is through him that we utter our Amen to God for his glory" 
 
 **At home.** Keep the set time you started in Week 1. Let each child lead the prayer on one day.
 
+**Learn:** the whole prayer, Matthew 6:9-13.
+
+**Pray it over your children.** Paul closed his prayer for the Ephesians, "Now to him who is able to
+do far more abundantly than all that we ask or think, according to the power at work within us, to
+him be glory in the church and in Christ Jesus throughout all generations, forever and ever. Amen"
+(Ephesians 3:20-21, ESV). *All generations* includes the ones at your table.
+
+**Go deeper:** [What the prayer teaches](lords-prayer.md#what-the-prayer-teaches), [A pattern to pray
+by](prayer-as-communion.md#a-pattern-to-pray-by).
+
 ## Different ages
 
 **Little children** learn the words by hearing them. Pray the prayer aloud every day; let them join in
 as they can, and teach them the one-sentence "what it shows about God" line for each week. A three-
-or four-year-old who can say "God is our Father, because Jesus made us His children" has learned
-the gospel's centre.
+or four-year-old who can say "God is our Father, because Jesus made us His children" is already
+saying the gospel.
 
 **School-age children** can take the story, the question and the verse. Let them retell the story in
 their own words before you add anything. Let their prayers run their course; corrections can wait
@@ -334,6 +351,7 @@ Prayer](lords-prayer.md) answers both; read those sections with them and ask wha
 
 - ESV Bible (Crossway) -- translation quoted throughout.
 - *Didache* 8:3, from *Ante-Nicene Fathers* vol. 7 (public domain).
+- CSB and NLT footnotes on Matthew 18:22, consulted via this site's study-notes database.
 - [The Lord's Prayer](lords-prayer.md) -- the exegesis, word studies and sources behind each week.
 - [Prayer as Communion](prayer-as-communion.md) -- the wider habit of prayer and teaching a
   household to pray.
