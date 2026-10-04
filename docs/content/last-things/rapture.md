@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Thessalonians 4:15-18"
 bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "Genesis 5:21-24", "Hebrews 11:5", "Genesis 19:15-16", "Genesis 19:24", "Revelation 7:9-14", "Colossians 3:4", "Revelation 19:14", "Matthew 24:29-31", "Matthew 25:6", "1 Thessalonians 1:10", "1 Thessalonians 3:13", "1 Thessalonians 4:13-14", "1 Thessalonians 5:2-4", "2 Thessalonians 1:6-10", "Titus 2:13", "Revelation 1:7", "Revelation 6:16-17", "Revelation 15:1-6", "Revelation 17:14", "Revelation 19:7-9", "Daniel 9:24", "Ephesians 3:5-6", "John 17:15", "Acts 7:5", "Acts 28:15", "1 Timothy 5:21", "1 Corinthians 4:5"]
 date_created: 2024-04-23
-date_modified: 2026-10-03
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -57,7 +57,7 @@ One view holds that the rapture — the *harpazo*, "catching up" — is a distin
 
 - **Think.** Notice any temptation to treat the rapture's *timing* as more settled than Scripture presents it. The counter-argument named below, Revelation 3:10's ambiguity, is a live one, and a conclusion is only as strong as its handling of it.
 - **Attitude.** 1 Thessalonians 4:18's whole point is comfort, not anxious calculation — "encourage one another with these words" is a command to bring grieving people hope, not to trade date-guesses.
-- **Do.** Live daily with the readiness Matthew 25's parable calls for, the oil bought before the bridegroom's cry (Matthew 25:1-13, [The Day Is Near](day-is-near.md)).
+- **Do.** Live daily with the readiness Matthew 25's parable calls for, the oil bought before the bridegroom's cry (Matthew 25:1-13, [The Parables of the Olivet Discourse](olivet-discourse-parables.md#the-ten-virgins-251-13)).
 
 ### Prayer
 
@@ -456,5 +456,5 @@ This is the blessed hope: God will send Jesus for you Himself, raise those who h
 - *NIV Biblical Theology Study Bible* (Zondervan, 2018) — notes on 1 Thessalonians 4:17 (the *apantēsis* civic-welcome sense) and 2 Thessalonians 2:6-7 (the scholarly proposals for the restrainer), consulted independently of the ESV Study Bible above.
 - Robert L. Thomas, cited in Thomas Ice, [The Holy Spirit and the Pretribulational Rapture](https://www.according2prophecy.org/hsrap.html) — source of the τὸ κατέχον / ὁ κατέχων gender-shift argument at 2 Thessalonians 2:6-7, confirmed against this repo's own Greek text (SBLGNT).
 - [The Trumpet Call of God](trumpet.md) — the trumpet imagery shared between 1 Thessalonians 4:16 and 1 Corinthians 15:52, and this site's model for tracing Revelation's imagery to its Old Testament source.
-- [The Day Is Near](day-is-near.md) — the readiness Matthew 25's parable calls for, worked out in full.
+- [The Parables of the Olivet Discourse](olivet-discourse-parables.md) — the readiness Matthew 25's parable calls for, worked out in full.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) — the chronological framework behind the seven-year tribulation reckoning above.

@@ -23,7 +23,6 @@ draft: false
 - [Six Days of History](../../last-things/six-days-of-history.md) — 20:4
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 20:1-6
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 20:1-6
-- [The Day Is Near](../../last-things/day-is-near.md) — 20:1-7
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 20:9
 - [The Rapture of the Church](../../last-things/rapture.md) — 20:1-6
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 20:4

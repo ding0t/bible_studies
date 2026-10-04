@@ -5,9 +5,9 @@ description: "The creation week as the shape of history: what 2 Peter 3:8 says, 
 tags: ["sabbath", "creation", "last-days", "chronology", "dispensationalism", "talmud", "jubilees", "enoch", "2-peter", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
-bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hebrews 1:2", "Hebrews 4:9", "Revelation 20:1-7", "Genesis 49:1", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:46", "2 Timothy 3:16", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
+bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hebrews 1:2", "Hebrews 4:1-13", "Revelation 20:1-7", "Genesis 49:1", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:46", "2 Timothy 3:16", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
 date_created: 2026-08-12
-date_modified: 2026-10-03
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -133,13 +133,7 @@ counted in are [The Zadok Calendar](../feasts/zadok-calendar.md).
 
 ## The verse, in its own argument
 
-2 Peter is one side of an argument, and we see the other side only through Peter's reply. It names its writer in the
-first line, "Simeon Peter, a servant and apostle of Jesus Christ" (1:1), addresses a general
-readership rather than one congregation, and is written by a man who expects to die shortly
-(1:14) and has sent these readers one letter already (3:1). The *ESV Study Bible* places it
-around AD 64-67, from Rome, probably to the churches of Asia Minor that received 1 Peter, while
-noting that neither the recipients nor the false teachers of chapter 2 can be identified with
-certainty.
+2 Peter is one side of an argument, and we see the other side only through Peter's reply.
 
 > ✝️ 2 Peter 3:3-9 (ESV)
 >
@@ -249,9 +243,7 @@ then from Psalm 90:4, quoted in full as the warrant for equating one day with a 
 (b. *Sanhedrin* 97a). The same page records the school of Elijah's division of the six thousand
 into two thousand years of chaos, two thousand of Torah, and two thousand of the days of Messiah
 — a baraita repeated at b. *Avodah Zarah* 9a, where the Gemara notes that whoever taught it would
-insert the years elapsed in his own day. The same page starts the age of Torah with Abraham at 52,
-when he and Sarah gathered "the souls that they had gotten in Haran" (Genesis 12:5), and not at
-Sinai, which on its count fell 2,448 years after creation. The jubilee arithmetic these counts rest
+insert the years elapsed in his own day. The jubilee arithmetic these counts rest
 on, and the open question of whether a jubilee cycle is 49 years or 50, is set out in
 [The Zadok Calendar](../feasts/zadok-calendar.md#the-enoch-wheels-140-jubilees).
 
@@ -343,6 +335,8 @@ Three verbs carry it: <span dir="rtl">וַיְכַל</span> (*vaykhal*, "he comp
 "he set apart as holy," H6942). God blesses creatures on day five and man on day six; he sanctifies
 only the seventh day. A day is the first holy thing in Scripture.
 
+Exodus 20:11 uses two different Hebrew roots for God's rest: <span dir="rtl">וַיָּנַח</span> (*vayyanach*, "he rested," from <span dir="rtl">נוּחַ</span>, *nuach*, H5117) describes the act, and <span dir="rtl">שַׁבָּת</span> (*shabbat*, "Sabbath," H7676) names the day set apart because of it.
+
 This shows that God made creation to end in rest with Him. The first thing He made holy was the day
 He rested, and Hebrews says a Sabbath rest "remains" for His people (4:9). The week you live in is
 moving toward a day He has already blessed.
@@ -384,20 +378,6 @@ step: the day-by-day scheme has ancient precedent in the Temple's psalm cycle ab
 onto specific millennia is this site's construction. The readings of days one to six are worked through in a separate
 study, [Six Days of History](six-days-of-history.md).
 
-The anchors below use the site's working convention — creation at 3959 BC, Adam at year 0 of the
-world (AM), consistent with [Bible Chronology & Genealogical Time](genealogy-times.md) — and the
-dates inside the first two millennia come straight from the age-data in Genesis 5 and 11.
-
-| Day | Genesis | Millennium | What runs in it |
-|---|---|---|---|
-| 1 | Light divided from darkness (1:3-5) | AM 0-1000 | Adam; the fall; the two lines; Adam dies AM 930, Enoch taken AM 987 |
-| 2 | Waters divided above and below (1:6-8) | AM 1000-2000 | The Flood at AM 1656 — that division undone and remade; Babel |
-| 3 | Dry land; seed and fruit (1:9-13) | AM 2000-3000 | Abraham, the land, the *seed*; Israel through the sea onto dry ground |
-| 4 | Sun, moon, stars for appointed times (1:14-19) | AM 3000-4000 | Temple, throne, feasts, prophets; closes with the Sun of Righteousness |
-| 5 | Waters swarm; birds fly (1:20-23) | AM 4000-5000 | The gospel over the sea of the nations; the church multiplying |
-| 6 | Beasts; man in God's image, given dominion (1:24-31) | AM 5000-6000 | Man's dominion at full stretch — and its counterfeit image |
-| 7 | God rests, blesses, sanctifies (2:1-3) | AM 6000-7000 | Revelation 20's thousand years |
-
 [![The seven thousand years on this site's chronology: seven bands of a thousand years, each with its theme from Genesis 1 and its events placed by year, from creation in 3959 BC to the year 6000 in AD 2042, then the thousand years and an eighth day.](../assets/img/last-things/seven-thousand-years.svg)](../assets/img/last-things/seven-thousand-years.svg)
 
 On the site's epoch Christ is born about AM 3954 and crucified in AM 3991, at the close of the
@@ -417,14 +397,20 @@ from Herod's death in 4 BC — so it was never independent confirmation.
 Hebrews 4 uses **κατάπαυσις** (*katapausis*, G2663, "rest") throughout — verses 1, 3, 5, 10, 11 —
 and switches once, at verse 9, to **σαββατισμός** (*sabbatismos*, G4520), "Sabbath-keeping," a word
 that appears nowhere else in the New Testament. The switch names the rest specifically as a
-*Sabbath* rest and ties the argument back to Genesis 2:2, which the author quotes at 4:4. The word study in [The Day Is
-Near](day-is-near.md#the-pattern-of-six-days-and-a-seventh) works this through in more detail.
+*Sabbath* rest and ties the argument back to Genesis 2:2, which the author quotes at 4:4.
+
+Hebrews 4 continues the author's exposition of Psalm 95 (Hebrews 3:7-11; 4:3, 7), whose own word for what the wilderness generation forfeited by unbelief is "rest".
+
+Here is what Hebrews 4 argues on its own terms. This rest is available to believers *now* — "we who
+have believed enter that rest" (4:3). It is entered by faith rather than by further works (4:2-3,
+10). And it still requires present diligence, "strive to enter" (4:11), because the possibility of
+failing to reach it through the same disobedience Israel showed remains real.
 
 Hebrews leaves the rest open. Revelation numbers it.
 
-Revelation is apocalyptic, and that genre asks the reader to look for the Old Testament imagery
-first. So the thrones of 20:4 are read here against Daniel 7:9, and the bound dragon against
-Genesis 3's serpent, named "that ancient serpent" in the verse itself. In John's sequence, Christ
+Revelation is apocalyptic, so its Old Testament imagery comes first: the thrones of 20:4 are read
+against Daniel 7:9, and the bound dragon against Genesis 3's serpent, "that ancient serpent" in the
+verse itself. In John's sequence, Christ
 returns on a white horse (Revelation 19:11) and the beast and the false prophet are thrown into the lake of
 fire (19:20). Chapter 20 opens with the dragon, the third of them, seized and confined, and closes
 with him joining the other two (20:10) before the great white throne (20:11-15). The thousand years sit inside that sequence, after the
@@ -460,12 +446,7 @@ with Him (Revelation 20:4, 6). If you are His, "blessed and holy" (20:6) is spok
 ### And the eighth
 
 The seventh day of Genesis has no evening. Revelation's account of what follows the thousand years
-is a new heaven and a new earth (21:1) in a city with no night at all (21:25; 22:5). 2 Enoch called
-that "a time of not-counting"; Barnabas called it "a beginning of another world" and connected it
-to the day Christ rose. The pattern of eighth days in the Law points the same way — circumcision on
-the eighth day (Genesis 17:12), the closing assembly on the eighth day of Tabernacles (Leviticus
-23:36) — a day that is both after the seven and the start of something that is not counted in
-sevens at all. [A New Heaven and a New Earth](new-heaven-and-new-earth.md#the-eighth-day) works
+is a new heaven and a new earth (21:1) in a city with no night at all (21:25; 22:5). [A New Heaven and a New Earth](new-heaven-and-new-earth.md#the-eighth-day) works
 through the eighth day and the new creation it points to.
 
 ## The last days are the last of the days
@@ -536,7 +517,7 @@ reached the same conclusion from the other side: "May those who calculate the en
 cursed, as they would say once the end of days that they calculated arrived and the Messiah did not
 come, that he will no longer come at all" (b. *Sanhedrin* 97b).
 
-The two things fit together. The week tells you the shape of history and
+The week tells you the shape of history and
 that it has an end; it withholds the date. That is the same combination Jesus gives in the Olivet
 Discourse — signs enough to know the season, and a stated refusal to give the day — and it is the
 combination Peter gives here, moving from the ratio in verse 8 straight to patience in verse 9 and
@@ -560,12 +541,6 @@ seventh day at creation (Genesis 2:1-3), long before there was a Sinai or a nati
 covenant with, and Exodus 20:11 grounds the commandment in that fact rather than the other way
 round. What carries over is the pattern and its destination — six of labour, then rest, with the
 rest still open (Hebrews 4:9).
-
-The same line runs through this study's two halves. The shape is transcultural: history is
-week-shaped and ends in God's rest. The arithmetic is not — it depends on a manuscript tradition,
-a creation epoch, and a set of assumptions about where the days begin, none of which Scripture
-settles. Hold the first tightly and the second loosely, and the framework does what it was given
-for.
 
 God has set His rest as the destination of history, and Hebrews says it is entered by faith in
 Jesus (4:3, 10). The One who fixed the week will finish it, so you can rest in Him now.

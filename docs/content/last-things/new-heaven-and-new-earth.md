@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 20:7-21:8"
 bible_references: ["Revelation 20:7-15", "Revelation 21:1-8", "Revelation 22:1-5", "Revelation 22:13", "Revelation 22:17", "Revelation 17:11", "Revelation 7:9", "Revelation 7:15", "Revelation 13:1", "Isaiah 65:17-25", "Isaiah 66:22", "Isaiah 43:19", "Isaiah 25:8", "Isaiah 55:1", "Isaiah 60:21", "Isaiah 61:1-2", "1 Peter 3:21", "Leviticus 12:3", "Romans 8:21", "Hebrews 1:12", "Luke 4:17-19", "Ephesians 1:10", "Revelation 20:5", "Revelation 21:27", "2 Peter 3:6-7", "2 Peter 3:7-13", "2 Peter 2:9", "Genesis 8:22", "Genesis 9:11", "Luke 17:30", "2 Thessalonians 1:7-8", "2 Peter 2:5", "1 Peter 3:20", "2 Samuel 7:14", "Leviticus 9:1", "Leviticus 9:23-24", "Leviticus 14:10", "Leviticus 23:36", "Leviticus 23:39-40", "Genesis 17:12", "Exodus 22:30", "Leviticus 26:11-12", "Ezekiel 37:27", "Zechariah 14:16", "Daniel 12:2", "John 1:14", "John 7:37-38", "Matthew 28:1", "Matthew 12:32", "Matthew 19:28", "Mark 10:30", "Luke 1:33", "Luke 20:34-36", "Ephesians 1:21", "Ephesians 2:7", "Hebrews 2:5", "Hebrews 4:9", "Hebrews 6:5", "Hebrews 12:26-28", "1 Corinthians 15:20", "1 Corinthians 15:24-28", "2 Corinthians 5:17", "Romans 8:19-23"]
 date_created: 2026-09-28
-date_modified: 2026-10-03
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -331,7 +331,7 @@ H6116), a "solemn assembly" (Leviticus 23:36). It is also a <span dir="rtl">שַ
 Greek Old Testament renders it ἀνάπαυσις (*anapausis*, G372), "rest." So the eighth day does not end the
 rest. It carries the rest past the count of seven. 2 Enoch, a Jewish work usually dated to the
 late first century AD, though the date is disputed, calls the eighth "a time of not-counting, endless" (*2 Enoch* 33:1), and [A Day Is a
-Thousand Years](day-is-a-thousand-years.md#and-the-eighth) traces it there.
+Thousand Years](day-is-a-thousand-years.md#2-enoch-and-then-an-eighth) traces it there.
 
 ### Noah, and the day Jesus rose
 

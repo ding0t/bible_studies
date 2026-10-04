@@ -6,7 +6,7 @@ tags: ["chart", "timeline", "dispensationalism", "larkin"]
 draft: false
 bible_references: ["Genesis 1:1-2:3", "Exodus 20:11", "Colossians 2:16-17", "Hebrews 4:9", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 19:7-9", "Revelation 20:1-6", "Zechariah 14:4-5"]
 date_created: 2024-05-29
-date_modified: 2026-10-03
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -18,7 +18,7 @@ ai_provider_models:
 Clarence Larkin (1850-1924) drew a series of large, hand-lettered charts working out the same
 dispensational framework this site argues for in prose across
 [Bible Prophecy Essentials](prophecy-essentials.md), [The Rapture of the Church](rapture.md), and
-[The Day Is Near](day-is-near.md). Some of this material -- the whole sweep from creation to the
+[A Day Is a Thousand Years](day-is-a-thousand-years.md). Some of this material -- the whole sweep from creation to the
 millennium, or how Jew, Gentile, and Church relate across that sweep -- is easier to see laid out
 than to read paragraph by paragraph. Larkin's own charts are reproduced below; his *Dispensational
 Truth* (1918/1920) is in the public domain in the United States. After the first comes this site's own
@@ -31,18 +31,18 @@ redrawing of it on the site's chronology; after the second, a mermaid diagram of
 Larkin maps the creation week itself (Genesis 1:1-2:3) onto human history: six "days," each a
 thousand years, followed by a seventh -- the same "day as a thousand years" reading (2 Peter 3:8)
 worked out in full, loose ends included, in
-[The Day Is Near](day-is-near.md#when-is-the-year-6000). Larkin's own labels divide the
+[A Day Is a Thousand Years](day-is-a-thousand-years.md#six-days-of-history). Larkin's own labels divide the
 six days into three broad eras -- **Conscience** (Eden to the Law, Genesis-Exodus), **Law** (Moses to
 Christ), and **Grace**, his name for the Church age -- with the seventh day as **the Millennium**,
 explicitly tied to the weekly Sabbath pattern (Exodus 20:11; Hebrews 4:9; Colossians 2:16-17), and an
 eighth, open-ended "day" for the New Earth beyond it.
 
 This site's own position, as against Larkin's chart: the *shape* -- six ordinary ages followed by a
-Sabbath-like millennium -- is argued at length in [The Day Is Near](day-is-near.md). The specific
+Sabbath-like millennium -- is argued at length in [A Day Is a Thousand Years](day-is-a-thousand-years.md). The specific
 *calendar dates* Larkin prints (Eden at 4000 BC, Solomon at 1000 BC, and so on) are not this site's
 settled chronology. This site's dates follow the Masoretic numbers on a 1446 BC Exodus: creation
 at 3959 BC and the year 6000 in AD 2042, with the reasons in [Chronology
-Anchors](chronology-anchors.md) and [The Day Is Near](day-is-near.md#when-is-the-year-6000).
+Anchors](chronology-anchors.md) and [A Day Is a Thousand Years](day-is-a-thousand-years.md#six-days-of-history).
 
 The same seven days redrawn on this site's chronology, each event placed by its year, with the theme
 [Six Days of History](six-days-of-history.md) reads in each day:
@@ -92,8 +92,8 @@ on it.
 - [Bible Prophecy Essentials](prophecy-essentials.md) -- the framework these charts summarize.
 - [The Rapture of the Church](rapture.md) -- the tribulation, the judgments, and the millennium,
   argued in full.
-- [The Day Is Near](day-is-near.md) -- the six-then-seventh chronological pattern behind the "seven
-  thousand years" chart, including its open chronology discrepancy.
+- [A Day Is a Thousand Years](day-is-a-thousand-years.md) -- the six-then-seventh chronological pattern behind the "seven
+  thousand years" chart.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) and [Bible Chronology & Genealogical
   Time](genealogy-times.md) -- this site's chronology studies, which Larkin's printed dates above
   are checked against.

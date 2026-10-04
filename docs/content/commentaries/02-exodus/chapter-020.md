@@ -19,5 +19,4 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 20:19
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 20:11
 - [Six Days of History](../../last-things/six-days-of-history.md) — 20:11
-- [The Day Is Near](../../last-things/day-is-near.md) — 20:11
 <!-- commentary-index:auto-end -->

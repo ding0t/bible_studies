@@ -709,3 +709,23 @@ read_2026-09-26:
 chronology_alignment_2026-10-01: >
   Creation 3959 BC; Nativity c. AM 3954 and cross AM 3991 at the close of day four, AM 4000 = AD 42, the 4 BC fit recorded as Ussher's. 'Why nobody has got the date right' now names the site's line and keeps the refusal of a date. The site's single chronology line, and the reason for each date, is recorded in
   references/study-state/chronology-anchors.yml under chronology_line.
+
+simplify_2026-10-04:
+  point: >
+    God measured history before He set it running: six thousand-year days of labour and a seventh of
+    rest, Christ's thousand-year reign. The framework gives history its shape but not a date.
+  words: {before: 4238, after: "~3880 (no Check 23 warning)", budget: 4000}
+  context: "Over budget after day-is-near's simplify pass (2026-10-03) moved its Hebrews 4 / Exodus 20:11 material here."
+  applied:
+    - "Six days of history: cut the anchors-convention paragraph and day/millennium table (verbatim in six-days-of-history.md); kept the caveat, SVG and Ussher paragraph"
+    - "And the eighth: cut 2 Enoch / Barnabas / eighth-days-in-the-Law sentences; pointer to new-heaven-and-new-earth#the-eighth-day kept. new-heaven-and-new-earth.md's 2 Enoch link repointed to #2-enoch-and-then-an-eighth"
+    - "Sabbath's two layers: cut the paragraph recapping 'Why nobody has got the date right'"
+    - "The verse, in its own argument: cut the authorship/date detail (ESV Study Bible AD 64-67)"
+    - "The Talmud: cut Abraham-at-52 / Sinai-2,448 sentence (still in the SVG alt text)"
+    - "Psalm 95 sentence shortened; Revelation genre lead-in shortened; 'The two things fit together.' cut"
+  declined: ["deleting the Exodus 20:11 nuach/shabbat sentence (only home on the site)", "fork of The Sabbath's two layers"]
+  shortened_sentences:
+    - {old: "2 Peter is one side of an argument... (plus authorship/date sentences)", new: "2 Peter is one side of an argument, and we see the other side only through Peter's reply."}
+    - {old: "Hebrews 4 continues the author's exposition of Psalm 95 (already quoted at Hebrews 3:7-11, and again here at 4:3 and 4:7) -- \"rest\" isn't a theme imported into the chapter, it's the word Psalm 95 itself uses for what the wilderness generation forfeited by unbelief.", new: "Hebrews 4 continues the author's exposition of Psalm 95 (Hebrews 3:7-11; 4:3, 7), whose own word for what the wilderness generation forfeited by unbelief is \"rest\"."}
+    - {old: "Revelation is apocalyptic, and that genre asks the reader to look for the Old Testament imagery first. So the thrones of 20:4 are read here against Daniel 7:9, and the bound dragon against Genesis 3's serpent, named \"that ancient serpent\" in the verse itself.", new: "Revelation is apocalyptic, so its Old Testament imagery comes first: the thrones of 20:4 are read against Daniel 7:9, and the bound dragon against Genesis 3's serpent, \"that ancient serpent\" in the verse itself."}
+  verified: "study_structure --verify-against HEAD: added lines are the moved-in text, the shortened sentences and rewrapped lines only; validate: no warnings on this file; mkdocs build --strict clean"

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
 date_created: 2026-07-24
-date_modified: 2026-09-30
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -402,8 +402,9 @@ was settled on 2026-10-01: 1446 BC, from 1 Kings 6:1's 480 years counted back fr
 fourth year, which puts Masoretic creation at 3959 BC. Ussher's 1491 BC, and the 4004 BC epoch it
 produces, were used until then; `docs/data/genealogy/index.json` keeps both as tracked alternates.
 
-[The Day is Near](day-is-near.md#when-is-the-year-6000) used dsscalendar.org's creation epoch
-(~3925 BC) until 2026-10-01 and now follows this one, so the site's studies share one line.
+[The Day is Near](day-is-near.md) used dsscalendar.org's creation epoch (~3925 BC) until
+2026-10-01; the site's year-6000 arithmetic now lives in [A Day Is a Thousand
+Years](day-is-a-thousand-years.md#six-days-of-history), on this line.
 
 The genealogical reasoning above was worked out without `prophecy-events-times.md`'s external
 archaeological anchors (Qarqar, Sennacherib, the Babylonian and Persian records), so that

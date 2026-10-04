@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ezekiel 36:22-28; Zechariah 12:10-13:9"
 bible_references: ["Ezekiel 33:21", "Ezekiel 36:22-28", "Ezekiel 36:32", "Ezekiel 37:11-12", "Ezekiel 37:15-22", "Ezekiel 20:34-37", "Zechariah 1:1", "Zechariah 10:8-10", "Zechariah 10:6-7", "Ezekiel 38:8", "Ezekiel 20:38", "Ezra 7:6", "Romans 9:24", "Amos 9:11", "Isaiah 27:9", "John 19:35", "Zechariah 12:10", "Zechariah 13:1", "Zechariah 13:3", "Zechariah 13:7-9", "Amos 9:15", "Isaiah 11:11", "Isaiah 59:20", "Psalm 14:7", "Hosea 1:9-10", "Hosea 5:15", "Deuteronomy 4:30-31", "Jeremiah 30:7", "Daniel 12:1", "Numbers 25:8", "1 Samuel 31:4", "Matthew 26:31", "John 19:37", "Acts 1:6-7", "Acts 15:14-16", "Romans 9:25-26", "Romans 11:26-27", "Romans 11:29", "John 19:34", "Revelation 1:7"]
 date_created: 2026-09-26
-date_modified: 2026-09-28
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -335,10 +335,9 @@ Romans 9-11.
 
 **The judgement this site makes:** 1948 fits the shape the prophets describe, and calling it a stage
 toward their fulfilment is defensible. Calling it a dated fulfilment claims more than the text
-gives. This site's own chronology studies show the cost of a calendar: [The Day Is
-Near](../last-things/day-is-near.md#when-is-the-year-6000) flags that its own year-6000 arithmetic
-disagrees with the creation dates used elsewhere on the site, and [A Day Is a Thousand
-Years](../last-things/day-is-a-thousand-years.md) sets several of those dates side by side.
+gives. This site's own chronology studies show the cost of a calendar: [A Day Is a Thousand
+Years](../last-things/day-is-a-thousand-years.md#why-nobody-has-got-the-date-right) sets several
+creation dates side by side and shows why every year-6000 calculation so far has failed as a date.
 
 **This shows that God keeps the times in His own authority** and gives you the promise to live by.
 

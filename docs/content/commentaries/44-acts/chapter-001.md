@@ -25,7 +25,7 @@ draft: false
 - [Simon the Zealot](../../biblical-figures/simon-the-zealot.md) — 1:13
 - [Six Days of History](../../last-things/six-days-of-history.md) — 1:7
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 1:13
-- [The Day Is Near](../../last-things/day-is-near.md) — 1:9-11
+- [The Day Is Near](../../last-things/day-is-near.md) — 1:6-11
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 1:7
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 1:7
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 1:6-7

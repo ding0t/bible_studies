@@ -24,7 +24,6 @@ draft: false
 - [Pride](../../sin/pride.md) — 2:18
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 2:16-17
 - [The Appointed Times](../../feasts/feasts.md) — 2:16-17
-- [The Day Is Near](../../last-things/day-is-near.md) — 2:16-17
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:14
 - [Wisdom](../../wisdom/index.md) — 2:3
 <!-- commentary-index:auto-end -->

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 24:27"
 bible_references: ["Micah 5:2", "Matthew 2:1-6", "2 Samuel 5:2", "Isaiah 53:5", "Isaiah 53:9", "Psalm 22:16-18", "John 19:23-24", "Matthew 27:57-60", "Daniel 9:24-27", "Luke 19:41-44", "Matthew 24:1-2", "Matthew 24:33-34", "Matthew 24:14-15", "Matthew 24:21", "Matthew 24:34", "Mark 13:1-8", "Mark 13:14-27", "Mark 13:32", "1 Thessalonians 4:16-17", "1 Thessalonians 5:9", "Revelation 19:11-16", "Revelation 20:1-6", "Colossians 2:16-17"]
 date_created: 2026-07-24
-date_modified: 2026-10-03
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -77,7 +77,7 @@ each one is checked, not asserted.
   have to continue.
 - **Attitude.** Jesus's own instruction for a future no one can calculate the timing of isn't
   anxiety -- it's readiness (Matthew 24:42-44, already studied in depth in
-  [The Day Is Near](day-is-near.md)). The same posture applies to everything below that hasn't
+  [The Olivet Discourse](olivet-discourse.md#what-ready-actually-means)). The same posture applies to everything below that hasn't
   happened yet.
 - **Do.** If the fulfilled cases below hold up under checking -- and they're presented so a skeptical
   reader can check them -- that's something worth handing to someone who doesn't yet believe, not
@@ -361,7 +361,7 @@ seventieth week that didn't follow immediately:
 **Week** translates <span dir="rtl">שָׁבוּעַ</span> (*shavu'a*, H7620, "seven") -- the same word Daniel's angel used for
 the first 69, already shown by that page's own case to run on literal years, not days. Nearly two thousand years now separate week 69 from week 70. The text names no duration for that
 gap. This site reads it as the still-continuing church age, following [The Zadok
-Calendar](../feasts/zadok-calendar.md) and [The Day Is Near](day-is-near.md) — an age the Old
+Calendar](../feasts/zadok-calendar.md) and [A Day Is a Thousand Years](day-is-a-thousand-years.md) — an age the Old
 Testament prophets did not foresee, which is Paul's point in calling it a "mystery" (Ephesians
 3:4-6). This seventieth week -- a coming leader confirming
 a covenant, sacrifice halted at its midpoint, "the abomination of desolation" Jesus names directly in
@@ -393,7 +393,7 @@ which view is correct.
 
 After the tribulation, Christ returns visibly -- not the quiet, personal gathering of the rapture, but
 "the armies of heaven... following him on white horses" (Revelation 19:11-16) -- and reigns on earth
-for a literal thousand years (Revelation 20:1-6). [The Day Is Near](day-is-near.md) traces this forward. It begins with the creation week's own
+for a literal thousand years (Revelation 20:1-6). [A Day Is a Thousand Years](day-is-a-thousand-years.md) traces this forward. It begins with the creation week's own
 six-days-then-a-seventh pattern. It runs through the Sabbath as "a shadow of the things to come"
 (Colossians 2:16-17) and Hebrews 4's still-open Sabbath rest. It ends at Revelation 20's numbered
 thousand years.
@@ -449,6 +449,7 @@ into any single piece of it above.
 - [Prophecy, calendar, and the anchors of biblical history](prophecy-events-times.md) -- Daniel's 69
   weeks to the Triumphal Entry, with the external Persian-era anchors behind it.
 - [The Rapture of the Church](rapture.md) -- the pretribulational rapture case in full.
-- [The Day Is Near](day-is-near.md) -- the millennium, the Olivet Discourse's "day and hour," and the
-  six-then-seventh chronological pattern.
+- [The Day Is Near](day-is-near.md) -- the Olivet Discourse's "day and hour," and how to wait for it.
+- [A Day Is a Thousand Years](day-is-a-thousand-years.md) -- the millennium and the six-then-seventh
+  chronological pattern.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) -- this site's chronological framework.

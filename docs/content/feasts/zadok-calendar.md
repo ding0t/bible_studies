@@ -6,7 +6,7 @@ tags: ["zadok", "calendar", "dead-sea-scrolls", "enoch", "jubilees", "chronology
 draft: false
 bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticus 25:8-13", "2 Samuel 8:17", "1 Kings 2:35", "Ezekiel 44:15", "Daniel 9:24-27"]
 date_created: 2026-07-19
-date_modified: 2026-10-03
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -79,7 +79,7 @@ H5772) occurs once in the Hebrew Bible, as a wife's "marital rights" (Exodus 21:
 found no ancient source that uses it for a span of 500 years.
 
 The same week of thousand-year days is the shape of this site's own reading of 2 Peter 3:8 in
-[The Day is Near](../last-things/day-is-near.md#when-is-the-year-6000): six 1,000-year "days" of
+[A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md#six-days-of-history): six 1,000-year "days" of
 ordinary history followed by a seventh, sabbath-rest millennium. Where the New Testament draws the
 line between this age and the next is [The End of the Age](../last-things/end-of-the-age.md).
 
@@ -211,7 +211,7 @@ which puts the present 34 years later than dsscalendar.org's reckoning does, and
 six-thousandth year in AD 2042 where dsscalendar.org has AD 2075. The site's epoch is derived: the
 Masoretic numbers of Genesis 5 and 11 counted to an Exodus that 1 Kings 6:1 fixes at 1446 BC.
 dsscalendar.org's comes from its own week boundaries. The site works to the derived line
-throughout, [The Day Is Near](../last-things/day-is-near.md#when-is-the-year-6000) included.
+throughout, [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md#six-days-of-history) included.
 
 The figures, with the scriptural basis for each, are in `docs/data/genealogy/index.json` under
 `chronology_scenarios`, and the decision is recorded in
@@ -224,7 +224,6 @@ The figures, with the scriptural basis for each, are in `docs/data/genealogy/ind
 - 1 Enoch 72-82 ("Book of the Luminaries") and 91-93 ("Apocalypse of Weeks").
 - The book of Jubilees, chapter 6.
 - [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md) — for the Dead Sea Scrolls' broader significance.
-- [The Day is Near](../last-things/day-is-near.md) — this site's 7,000-year, six-days-plus-a-sabbath-millennium reading that this calendar's larger week-of-weeks scheme supports.
-- [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) — the thousand-year days and the Talmud's three ages of two thousand years.
+- [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) — the thousand-year days and the Talmud's three ages of two thousand years: this site's 7,000-year, six-days-plus-a-sabbath-millennium reading that this calendar's larger week-of-weeks scheme supports.
 - [The End of the Age](../last-things/end-of-the-age.md) — the New Testament's line between this age and the next.
 - R. H. Charles, trans., *The Book of Jubilees* (1913), 50:4; b. *Nedarim* 61a, b. *Arakhin* 12b and b. *Sanhedrin* 97b, William Davidson Edition (Sefaria, CC-BY-NC).

@@ -155,3 +155,20 @@ revision_2026-09-06:
 chronology_alignment_2026-10-01: >
   Moved from dsscalendar.org's epoch (year 6000 = AD 2075) to the site's line (creation 3959 BC, AM 4000 = AD 42, year 6000 = AD 2042), stated as a chronological result and not a date for the return. Removed the '2032 from Charting End Times' paragraph: that date left prophecy-chart.md on 2026-08-07, so the citation was false. The site's single chronology line, and the reason for each date, is recorded in
   references/study-state/chronology-anchors.yml under chronology_line.
+
+simplify_2026-10-03:
+  point: >
+    The day is near but its date belongs to the Father alone, so wait for Jesus the way God waits
+    for you: patiently, and at work.
+  words: {before: 3018, after: 1262, budget: 4000, method: "prose outside block quotes, headings, tables and References"}
+  why: >
+    Not over budget. Duplicated by newer studies: A Day Is a Thousand Years now holds 2 Peter 3:8,
+    Psalm 90, the ancient witnesses, the six-then-seventh pattern, Hebrews 4, Revelation 20 and the
+    year-6000 arithmetic; The Olivet Discourse holds Matthew 24:4-14. The old Signs section also read
+    24:14 as the church's present task, against Olivet Discourse / Immediately After / End of the Age
+    / Tribulation, which place 24:4-14 in its final form in Daniel's seventieth week.
+  removed_sections: ["The pattern of six days and a seventh", "The millennial reign", "When is the year 6000?"]
+  trimmed: ["A day like a thousand years (scoffers paragraph + pointer)", "Signs of the end of the age (author-approved pointer prose)", "In the same way (2042 paragraph)", "Key Takeaways Type paragraph", "Discussion questions 3-4", "Do bullet's Matthew 24:14 clause"]
+  moved_verbatim_to_day_is_a_thousand_years: ["Exodus 20:11 nuach/shabbat sentence (TWOT clause dropped, already there)", "Hebrews 4 Psalm 95 sentence", "Hebrews 4 'on its own terms' paragraph"]
+  inbound_links_repointed: ["zadok-calendar x3", "prophecy-chart x5", "genealogy-times", "israels-regathering-and-refining", "prophecy-essentials x3", "rapture x2 (Matthew 25 readiness -> olivet-discourse-parables; Day Is Near never treated Matthew 25)"]
+  verified: "study_structure --verify-against HEAD: added_unexpected = shortened sentences + two pointers only; validate: no warnings on this file; mkdocs build --strict clean"
