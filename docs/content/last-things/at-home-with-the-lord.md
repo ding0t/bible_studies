@@ -10,6 +10,7 @@ date_created: 2026-09-26
 date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5.5
+  - anthropic/claude-sonnet-5.5
 ---
 
 # At Home with the Lord

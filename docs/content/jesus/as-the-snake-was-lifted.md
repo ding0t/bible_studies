@@ -12,6 +12,7 @@ ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
+  - anthropic/claude-sonnet-5.5
 ---
 
 # As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man

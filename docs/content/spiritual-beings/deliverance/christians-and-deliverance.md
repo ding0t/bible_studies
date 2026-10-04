@@ -12,6 +12,7 @@ ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
+  - anthropic/claude-sonnet-5.5
 ---
 
 # Deliverance ministry
