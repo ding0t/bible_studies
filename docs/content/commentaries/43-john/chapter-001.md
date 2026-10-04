@@ -16,6 +16,7 @@ draft: false
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 1:45-51 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:14
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 1:14
+- [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 1:11
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:14
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 1:14
 - [Passover: When I See the Blood](../../feasts/passover.md) — 1:29

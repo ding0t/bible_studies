@@ -1,6 +1,6 @@
 slug: "hurt-by-the-church"
 title: "Hurt by the Church: Wolves, Weeds and the Good Shepherd"
-status: review
+status: published
 target_path: "docs/content/christian-life/hurt-by-the-church.md"
 
 primary_passage: "Ezekiel 34:1-16; John 10:11-13; Acts 20:28-31"
@@ -64,10 +64,28 @@ stages:
     translations_compared: ["ESV"]
     divergences_noted: ""
   drafting: {done: true, file: "docs/content/christian-life/hurt-by-the-church.md"}
-  review: {done: false, validated: true}  # validate clean, mkdocs --strict passes, all ESV quotes verified 2026-10-01
+  review:
+    done: true
+    date: 2026-10-04
+    validated: true
+    notes: >-
+      review-bible-study pass. All ESV quotations re-verified against study-notes.db (none wrong).
+      Counts re-run: perek H6531 6x, katakyrieuo G2634 4x, lykos G3074 6x, zizanion G2215 8x (all
+      Matthew 13) -- all correct. Fixed: Leviticus 25:53 forbids a foreign master, not an
+      Israelite (perek sentence reworded); John 10:12 wolf does not "get in" (now "come for the
+      flock"); "Jesus' next words" after John 9:34 were 9:35-41, not 10:1 (reworded, John 9:34-35
+      in frontmatter); unverifiable "sharpest words" superlative on Ezekiel 34 removed (Jeremiah
+      23:1-4 is its parallel per ESV SB); Ezekiel 34:4 charge includes what they did; "Jesus'
+      word" -> "the same word"; Hebrews 4:15 thesis made affirmative. Commentary cross-check
+      (NLT Life Application, Ezekiel 34; ESV SB / NIV BTSB Matthew 13:38) confirms. No ESV
+      footnotes on Ezekiel 34, John 10 or Acts 20. No statement-of-faith conflict; mild emphasis
+      tension with "Walking in the Way" (discernment through knowing Christ vs listed tests).
+      Publish blocker: links to run-the-race.md, still draft (validator Check 24 error once this
+      page is draft: false).
 
 open_questions:
-  - "Forgiveness in depth (when repentance is required, forgiveness and trust, love and forgiveness) belongs to the backlog 'Forgiveness' item; this study only touches it."
+  - "Forgiveness in depth (when repentance is required, forgiveness and trust, love and forgiveness) is now its own study, forgiveness.md (published 2026-10-04), linked from The road back and On this site."
+  - "run-the-race.md link removed from On this site at publish (2026-10-04): Run the Race is still a draft (validator Check 24). Re-add it when Run the Race publishes."
 
 resources_consulted:
   - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Matthew 13:38 (kingdom in the world rather than within the church); Ezekiel 34:1-16; Hebrews 12:15 (root of bitterness, Deuteronomy 29:18); 1 Corinthians 5; 3 John 9-10."}
@@ -75,4 +93,4 @@ resources_consulted:
   - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Ezekiel 34:4 (remedial duties of the shepherd)."}
   - {type: lexicon, title: "MACULA Greek (SBLGNT) and Hebrew (WLC)", author: "bible-text.db", note: "counts above"}
 
-last_updated: "2026-10-01"
+last_updated: "2026-10-04"

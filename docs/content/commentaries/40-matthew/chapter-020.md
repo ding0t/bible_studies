@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 20:25-28
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 20:20-23
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 20:1-16
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 20:19

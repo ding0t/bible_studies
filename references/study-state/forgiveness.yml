@@ -58,7 +58,7 @@ stages:
       is not universal for those who never admit their wrong; they give account to the Judge.
       hurt-by-the-church.md promises this study ("How forgiveness relates to repentance and to trust
       (Luke 17:3-4) needs a study of its own") -- that line now links here. hurt-by-the-church.md is
-      itself still draft: true, so this study does not link back to it; add the back-link when it publishes.
+      published 2026-10-04 alongside this study, and On this site links back to it.
   exegesis:
     historical_context:
       done: true
@@ -120,7 +120,25 @@ stages:
     file: "docs/content/christian-life/forgiveness.md"
   review:
     done: true
-    validated: true # npm run validate + mkdocs build --strict, 2026-10-04; author approved. review-bible-study / read-bible-study not yet run
+    validated: true # npm run validate + mkdocs build --strict, 2026-10-04; author approved. read-bible-study not yet run
+    note: "review-bible-study 2026-10-04"
+    review_2026-10-04: >-
+      Independent adversarial review (pre-approved fixes applied). Every ESV quotation re-queried with
+      study_verse; study-note quotations (ESVSB Matt 6:12, 6:14-15, 18:24, 18:35, Luke 17:3-4; NIV
+      BTSB and NIV CBSB Matt 6:12, 18:24) re-checked; Luke 23:34 and Matt 6:15 footnotes confirmed.
+      Counts re-derived: G863 = 143 (SBLGNT); H5545 = 46 (WLC), God the forgiver or divine passive in
+      each; Gen 50:17 uses nasa (H5375). Fixed: Leviticus 4:20 reads "they shall be forgiven" in the
+      ESV, so the "he shall be forgiven" quote now cites 4:26; "all four of these verses" -> three
+      (6:12, 14, 15); Ephesians 4:32 was attributed to Jesus twice -> Paul; discussion Q3 and the
+      Acts 2 paragraph overclaimed that the Pentecost crowd were the men Jesus prayed for -> Acts 2:36
+      "whom you crucified" plus the Acts 3:17 ignorance echo; "a few days later" (Acts 3, unsupported)
+      removed; Joseph "did not trust them until" Gen 42:21 -> he kept testing (Gen 44-45); three
+      chat-register lines addressing the requester ("You asked the right question", "your question")
+      rewritten; opheilemata/paraptomata pronunciation stress corrected (agrees with lords-prayer.md);
+      Amida "daily" -> "regularly prayed" per the cited note; Romans 12:20 marked as quoting Proverbs
+      25:21; Matthew 5:1-2 cited for the disciple audience. Commentary cross-check: NIV BTSB Luke 17:3
+      and NLT LAS Mark 11:25 confirm the two-movement reading. Statement of faith (Salvation,
+      Justification): consistent. Weapon section judged exegetically fair; 6:15's real warning kept.
 
 open_questions:
   - "Fork candidate: aphesis and the jubilee (Lev 25 LXX; Luke 4:18) -- release as the shape of forgiveness. Left out of this study."

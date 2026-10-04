@@ -14,6 +14,7 @@ draft: false
 
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 6:19-20
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 6:19
+- [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 6:7
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 6:20
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 6:17
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 6:11

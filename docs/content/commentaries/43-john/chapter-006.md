@@ -18,6 +18,7 @@ draft: false
 - [Andrew](../../biblical-figures/andrew.md) — 6:8-9
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 6:37-40
 - [Faith](../../salvation/faith.md) — 6:28-29
+- [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 6:66-68
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 6:70-71
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 6:15
 <!-- commentary-index:auto-end -->

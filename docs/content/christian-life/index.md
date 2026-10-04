@@ -49,6 +49,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
 
     [:octicons-arrow-right-24: Read](humility.md)
 
+-   __Hurt by the Church: Wolves, Weeds and the Good Shepherd__
+
+    ---
+
+    People in church get hurt by the people they trusted. Scripture names four kinds of hurt: brothers who fail you, shepherds who harm, wolves who prey, and the weeds of the world. It answers each one differently, and it points every one of them to the Good Shepherd who stays.
+
+    [:octicons-arrow-right-24: Read](hurt-by-the-church.md)
+
 -   __Know the Truth__
 
     ---

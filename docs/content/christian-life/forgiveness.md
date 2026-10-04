@@ -39,9 +39,10 @@ revenge, without bitterness, and without being made to trust again.
   aside, nailing it to the cross" (Colossians 2:14, ESV). The forgiveness you receive cost Him His
   life.
 - **Jesus offered forgiveness before anyone asked.** "While we were still sinners, Christ died for
-  us" (Romans 5:8, ESV). On the cross He prayed for the men who put Him there (Luke 23:34).
-- **Jesus forgives everyone who comes.** Seven weeks later Peter preached to the people who had
-  called for His death, and told them to "repent ... for the forgiveness of your sins" (Acts 2:38,
+  us" (Romans 5:8, ESV). On the cross He prayed for the men who put Him there (Luke 23:34, a verse some early manuscripts
+  lack).
+- **Jesus forgives everyone who comes.** Seven weeks later Peter preached to the city that had
+  crucified Him, and told them to "repent ... for the forgiveness of your sins" (Acts 2:38,
   ESV). About three thousand did.
 - **Jesus entrusted Himself to the Judge.** "When he suffered, he did not threaten, but continued
   entrusting himself to him who judges justly" (1 Peter 2:23, ESV). That is the road He walked
@@ -53,9 +54,11 @@ revenge, without bitterness, and without being made to trust again.
 >
 > 32 Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you.
 
-> ✝️ Luke 17:3 (ESV)
+> ✝️ Luke 17:3-4 (ESV)
 >
 > 3 Pay attention to yourselves! If your brother sins, rebuke him, and if he repents, forgive him,
+> 4 and if he sins against you seven times in the day, and turns to you seven times, saying, 'I
+> repent,' you must forgive him.
 
 ### Be Transformed
 
@@ -106,13 +109,13 @@ forgiven our debtors" (Matthew 6:12, ESV). Of six requests, this is the one Jesu
 
 The people He is speaking to call God "your heavenly Father" (Matthew 6:14). This is family speech.
 The prayer opens "Our Father in heaven" (Matthew 6:9, ESV), and Jesus addresses disciples who
-already belong to Him. That fact matters when we come to verse 15.
+already belong to Him (Matthew 5:1-2). That fact matters when we come to verse 15.
 
 ### What the first hearers heard
 
 Debt was the language of their economy and their law. Every seventh year, the Law of Moses
 required "every creditor shall release what he has lent to his neighbor" (Deuteronomy 15:2, ESV).
-Jewish teachers also spoke of sins as debts owed to God, and the daily Amida prayer asked Him for
+Jewish teachers also spoke of sins as debts owed to God, and the regularly prayed Amida asked Him for
 forgiveness (*NIV Cultural Backgrounds Study Bible*, note on Matthew 6:12). So when Jesus said
 "debts," His hearers understood a creditor, an amount owed, and a release.
 
@@ -125,7 +128,7 @@ released his debtors.
 
 ### Release
 
-The verb in all four of these verses is ἀφίημι (*aphiēmi*, ah-FEE-ay-mee, G863). It means to let go.
+The verb in all three of these verses is ἀφίημι (*aphiēmi*, ah-FEE-ay-mee, G863). It means to let go.
 The New Testament uses it 143 times, and most of them have nothing to do with sin. Peter and Andrew
 "left their nets" (Matthew 4:20, ESV): <span data-strongs="G863">ἀφέντες</span>, they let them go. In the parable of the unforgiving
 servant the king "released him and forgave him the debt" (Matthew 18:27, ESV), and "forgave" is
@@ -136,8 +139,8 @@ He absorbs the loss himself.
 
 ### Debt and trespass
 
-Verse 12 calls sins ὀφειλήματα (*opheilēmata*, oh-FAY-lay-mah-tah, G3783), "debts." Verses 14-15
-call them παραπτώματα (*paraptōmata*, pah-RAP-toh-mah-tah, G3900), "trespasses," a false step off
+Verse 12 calls sins ὀφειλήματα (*opheilēmata*, oh-fay-LAY-mah-tah, G3783), "debts." Verses 14-15
+call them παραπτώματα (*paraptōmata*, pah-rap-TOH-mah-tah, G3900), "trespasses," a false step off
 the path. The two words show the two sides of sin. A trespass is what I did. A debt is what I now
 owe because I did it.
 
@@ -153,7 +156,7 @@ gift, given to someone who cannot pay.
 
 The Old Testament's word for "forgive" is <span dir="rtl">סָלַח</span> (*salach*, sah-LAKH, H5545).
 It occurs 46 times in the Hebrew Bible, and in every one the forgiver is the LORD, either named or
-implied by a passive ("he shall be forgiven," Leviticus 4:20). People in the Old Testament do
+implied by a passive ("he shall be forgiven," Leviticus 4:26). People in the Old Testament do
 release debts and spare enemies; Joseph's brothers ask him to "forgive" using another verb,
 <span dir="rtl">נָשָׂא</span> (*nasa*, H5375, "lift, carry away") (Genesis 50:17). But *salach*
 belongs to God. "If you, O LORD, should mark iniquities, O Lord, who could stand? But with you there
@@ -164,10 +167,9 @@ only God does in full. A disciple can forgive because God forgave first.
 
 ## How God forgives
 
-You asked the right question of this passage: is forgiveness given to someone who has turned from
-the wrong, or to someone who goes on doing it? Scripture answers it first about God, because
-Jesus' own words make His forgiveness the pattern for ours ("as God in Christ forgave you,"
-Ephesians 4:32, ESV). God's forgiveness has three parts.
+Is forgiveness given to someone who has turned from the wrong, or to someone who goes on doing it?
+Scripture answers it first about God, because Paul makes God's forgiveness the pattern for ours ("as
+God in Christ forgave you," Ephesians 4:32, ESV). God's forgiveness has three parts.
 
 ### Paid and offered before anyone asked
 
@@ -200,9 +202,10 @@ to preach "repentance for the forgiveness of sins ... to all nations, beginning 
 (Luke 24:47, ESV).
 
 Watch who Peter preaches to. He tells the crowd in Jerusalem, "this Jesus whom you crucified"
-(Acts 2:36, ESV). These are people Jesus prayed for on the cross. They were "cut to the heart," and
+(Acts 2:36, ESV). Peter holds them responsible for the cross. They were "cut to the heart," and
 Peter answered, "Repent and be baptized every one of you in the name of Jesus Christ for the
-forgiveness of your sins" (Acts 2:37-38, ESV). A few days later he said it again: "I know that you
+forgiveness of your sins" (Acts 2:37-38, ESV). At the temple he said it again, in words that echo
+the prayer from the cross: "I know that you
 acted in ignorance ... Repent therefore, and turn back, that your sins may be blotted out" (Acts
 3:17, 19, ESV).
 
@@ -280,8 +283,8 @@ ESV). You were forgiven first. Forgiving others is what that forgiveness does in
 
 ## Two movements of forgiveness
 
-Two sayings of Jesus sit side by side, and they answer your question about the repentant and the
-unrepentant.
+Two sayings of Jesus, one in Mark and one in Luke, show how a disciple forgives the repentant and
+the unrepentant.
 
 ### Release before God
 
@@ -326,8 +329,8 @@ for what you do before God, *forgive* for what you grant to the one who repents.
 
 ## When the offender keeps on
 
-You may be asking about someone who has not turned, and who is still doing the thing. Scripture
-gives you four things to do, and they can all be true at once.
+Sometimes the one who wronged you has not turned, and is still doing the thing. Scripture gives you
+four things to do, and they can all be true at once.
 
 ### Confront
 
@@ -350,7 +353,7 @@ justly.
 ### Love and pray
 
 "Love your enemies and pray for those who persecute you, so that you may be sons of your Father who
-is in heaven" (Matthew 5:44-45, ESV). "If your enemy is hungry, feed him" (Romans 12:20, ESV). Love
+is in heaven" (Matthew 5:44-45, ESV). "If your enemy is hungry, feed him" (Romans 12:20, ESV, quoting Proverbs 25:21). Love
 is owed to everyone, the unrepentant included. It seeks their good, and the highest good you can
 pray for them is that they repent and are forgiven by God.
 
@@ -367,8 +370,9 @@ breath, of friends who abandoned him: "May it not be charged against them!" (2 T
 Paul handed Alexander to the Lord, did not seek revenge, and still warned Timothy to keep his
 distance.
 
-Joseph tested his brothers before he revealed himself, and he did not trust them until he heard
-them say, "In truth we are guilty concerning our brother" (Genesis 42:21, ESV). Jesus sends His
+Joseph tested his brothers before he revealed himself. He heard them say, "In truth we are guilty
+concerning our brother" (Genesis 42:21, ESV), and still tested them again before he made himself
+known (Genesis 44-45). Jesus sends His
 people out "as sheep in the midst of wolves, so be wise as serpents and innocent as doves" (Matthew
 10:16, ESV).
 
@@ -395,8 +399,8 @@ The verse is real and its warning is real. Here is how the demand bends it.
 God does not forgive the unrepentant. Salvation is offered to all, and received by those who turn;
 it is not universal (Exodus 34:7; Luke 13:3; 1 Peter 4:5). Yet the demand tells a victim to grant
 full forgiveness and restored fellowship to someone who has not turned, on pain of hell. That is a
-heavier standard than God's own. Jesus said "as God in Christ forgave you" (Ephesians 4:32, ESV),
-and God's forgiveness is received through repentance.
+heavier standard than God's own. Paul says to forgive "as God in Christ forgave you" (Ephesians 4:32,
+ESV), and God's forgiveness is received through repentance.
 
 ### It moves the burden onto the wrong person
 
@@ -479,10 +483,11 @@ with nothing held back.
 
 1. The Gospels' word for forgive, *aphiēmi*, is the same word for leaving nets on a beach. What does
    picturing forgiveness as "letting go" of a debt change about how you think of it?
-2. Matthew 6:14-15 is the only request in the Lord's Prayer that Jesus stops to explain. Why might
+2. Forgiveness is the only request in the Lord's Prayer that Jesus stops to explain (Matthew 6:14-15). Why might
    forgiveness need explaining more than daily bread did?
-3. Jesus prayed for the men crucifying Him, and many of them were forgiven only when they repented at
-   Pentecost (Acts 2:36-38). What does that show about how Jesus forgives?
+3. Jesus prayed for those who crucified Him, and at Pentecost Peter told Jerusalem, "this Jesus whom
+   you crucified," and called them to repent (Acts 2:36-38). What does that show about how Jesus
+   forgives?
 4. Mark 11:25 names no condition, and Luke 17:3 says "if he repents." How do you hold those two
    sayings together?
 5. Paul handed Alexander to the Lord and still told Timothy, "Beware of him" (2 Timothy 4:14-15).
@@ -510,6 +515,8 @@ with nothing held back.
 ### On this site
 
 - [The Lord's Prayer](lords-prayer.md) — the prayer Matthew 6:14-15 explains.
+- [Hurt by the Church](hurt-by-the-church.md) — forgiveness and restoration when the wound came from
+  God's people.
 - [Where Two or Three Are Gathered](../israel-and-church/where-two-or-three-are-gathered.md) —
   Matthew 18:15-20, the process for confronting a brother.
 - [Statement of Faith](../about/statement-of-faith.md) — salvation and justification.

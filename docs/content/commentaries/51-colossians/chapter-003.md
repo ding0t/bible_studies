@@ -14,6 +14,7 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 3:4
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 3:13
+- [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 3:13
 - [In Humility](../../christian-life/humility.md) — 3:12
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 3:1-2
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:4

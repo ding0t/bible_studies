@@ -17,6 +17,7 @@ draft: false
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 10:3
 - [Biblical Numerology](../../scripture/numerology.md) — 10:2-4
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 10:16
+- [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 10:16
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 10:3
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 10:4
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 10:3

@@ -15,6 +15,7 @@ draft: false
 - [John son of Zebedee](../../biblical-figures/john.md) — 21:20-24 (primary passage)
 - [Simon Peter](../../biblical-figures/peter.md) — 21:15-19 (primary passage)
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 21:2
+- [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 21:15-17
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 21:17
 - [Thomas](../../biblical-figures/thomas.md) — 21:2
 <!-- commentary-index:auto-end -->

@@ -31,6 +31,7 @@ draft: false
 - [Chapter 31](chapter-031.md) — 1 study(ies)
 - [Chapter 35](chapter-035.md) — 1 study(ies)
 - [Chapter 40](chapter-040.md) — 5 study(ies)
+- [Chapter 42](chapter-042.md) — 1 study(ies)
 - [Chapter 43](chapter-043.md) — 1 study(ies)
 - [Chapter 44](chapter-044.md) — 2 study(ies)
 - [Chapter 45](chapter-045.md) — 1 study(ies)

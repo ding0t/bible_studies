@@ -3,9 +3,9 @@ title: "Hurt by the Church: Wolves, Weeds and the Good Shepherd"
 category: "spiritual-disciplines"
 description: "People in church get hurt by the people they trusted. Scripture names four kinds of hurt: brothers who fail you, shepherds who harm, wolves who prey, and the weeds of the world. It answers each one differently, and it points every one of them to the Good Shepherd who stays."
 tags: ["ezekiel", "john", "acts", "psalms", "2-timothy", "3-john", "matthew", "church", "church-discipline", "reconciliation", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Ezekiel 34:1-16; John 10:11-13; Acts 20:28-31"
-bible_references: ["Psalm 55:12-14", "Psalm 55:20-22", "Psalm 41:9", "John 13:18", "John 1:11", "John 6:66-68", "Mark 14:50", "John 9:34", "John 10:1-11", "Isaiah 42:3", "Leviticus 25:46", "Leviticus 25:53", "Acts 15:37-39", "Philippians 4:2-3", "2 Timothy 4:10-17", "John 21:15-17", "Colossians 3:13", "Ephesians 4:31-32", "Matthew 18:15", "Matthew 18:21-22", "Luke 17:3-4", "1 Corinthians 6:7", "Galatians 6:1-2", "3 John 9-11", "1 Peter 5:2-4", "Matthew 20:25-28", "Exodus 1:13-14", "Leviticus 25:43", "Romans 13:3-4", "Matthew 7:15-16", "Matthew 10:16", "1 John 4:1-3", "Galatians 1:6-9", "2 Peter 2:1-3", "2 Timothy 4:3-4", "Titus 1:10-11", "Jude 3-4", "Jude 12", "Romans 16:17-18", "2 Timothy 3:5", "Matthew 13:24-30", "Matthew 13:36-43", "1 Corinthians 5:11-13", "Hebrews 10:25", "Hebrews 12:14-15", "Psalm 34:18", "Matthew 12:20", "Hebrews 4:15"]
+bible_references: ["Psalm 55:12-14", "Psalm 55:20-22", "Psalm 41:9", "John 13:18", "John 1:11", "John 6:66-68", "Mark 14:50", "John 9:34-35", "John 10:1-11", "Isaiah 42:3", "Leviticus 25:46", "Leviticus 25:53", "Acts 15:37-39", "Philippians 4:2-3", "2 Timothy 4:10-17", "John 21:15-17", "Colossians 3:13", "Ephesians 4:31-32", "Matthew 18:15", "Matthew 18:21-22", "Luke 17:3-4", "1 Corinthians 6:7", "Galatians 6:1-2", "3 John 9-11", "1 Peter 5:2-4", "Matthew 20:25-28", "Exodus 1:13-14", "Leviticus 25:43", "Romans 13:3-4", "Matthew 7:15-16", "Matthew 10:16", "1 John 4:1-3", "Galatians 1:6-9", "2 Peter 2:1-3", "2 Timothy 4:3-4", "Titus 1:10-11", "Jude 3-4", "Jude 12", "Romans 16:17-18", "2 Timothy 3:5", "Matthew 13:24-30", "Matthew 13:36-43", "1 Corinthians 5:11-13", "Hebrews 10:25", "Hebrews 12:14-15", "Psalm 34:18", "Matthew 12:20", "Hebrews 4:15"]
 date_created: 2026-10-02
 date_modified: 2026-10-04
 ai_provider_models:
@@ -72,8 +72,8 @@ sheep, so you can stay with His people.
 
 - **Think.** Name what happened to you accurately: a brother who failed you, a shepherd who misused
   you, or a wolf who preyed on you. Scripture answers each one differently.
-- **Attitude.** Hand the judgment to God. "May it not be charged against them! But the Lord stood by
-  me and strengthened me" (2 Timothy 4:16-17, ESV).
+- **Attitude.** Hand the judgment to God. "Alexander the coppersmith did me great harm; the Lord will
+  repay him according to his deeds" (2 Timothy 4:14, ESV).
 - **Do.** If a brother wronged you, go to him (Matthew 18:15). If a leader committed a crime, report
   it to the authorities. If you have stopped gathering, find one believer you trust this week and
   tell them where you are.
@@ -118,7 +118,7 @@ wound. The friend "stretched out his hand against his friends; he violated his c
 was smooth as butter, yet war was in his heart" (Psalm 55:20-21, ESV). The psalm does not stop at the
 wound. It turns: "Cast your burden on the LORD, and he will sustain you" (Psalm 55:22, ESV).
 
-**This shows that God does not ask you to carry church hurt to a Saviour who has never felt it.** "We
+**This shows that God gives you a Saviour who has felt church hurt Himself.** "We
 do not have a high priest who is unable to sympathize with our weaknesses" (Hebrews 4:15, ESV).
 
 ## Brothers who fail you
@@ -157,15 +157,15 @@ charged against them!" (2 Timothy 4:16, ESV). How forgiveness relates to repenta
 
 ### Ezekiel 34
 
-God's sharpest words against religious leaders are Ezekiel 34. "Ah, shepherds of Israel who have been
-feeding yourselves! Should not shepherds feed the sheep?" (Ezekiel 34:2, ESV). The charge is what
-they did not do: "The weak you have not strengthened, the sick you have not healed, the injured you
+Ezekiel 34 is God's indictment of Israel's leaders, whom He calls shepherds. "Ah, shepherds of Israel who have been
+feeding yourselves! Should not shepherds feed the sheep?" (Ezekiel 34:2, ESV). The charge lists what
+they failed to do, and then what they did: "The weak you have not strengthened, the sick you have not healed, the injured you
 have not bound up, the strayed you have not brought back, the lost you have not sought, and with
 force and harshness you have ruled them" (Ezekiel 34:4, ESV).
 
 "Harshness" is <span dir="rtl">פֶּרֶךְ</span> (*perek*, H6531). It occurs six times. Twice it is
 Egypt's slavery: "they ruthlessly made the people of Israel work as slaves" (Exodus 1:13, ESV). Three
-times it is the law forbidding an Israelite to treat a brother that way: "You shall not rule over him
+times it is the law forbidding anyone, Israelite or foreign master, to rule an Israelite that way: "You shall not rule over him
 ruthlessly but shall fear your God" (Leviticus 25:43, ESV). The sixth is Ezekiel 34:4. Israel's
 shepherds ruled God's flock the way Pharaoh ruled slaves.
 
@@ -180,14 +180,14 @@ want to and puts them out of the church" (3 John 9-10, ESV). John's response was
 come, I will bring up what he is doing."
 
 Jesus forbade that kind of rule. "The rulers of the Gentiles lord it over them ... It shall not be so
-among you" (Matthew 20:25-26, ESV). Peter uses Jesus' word when he instructs elders: shepherd the
+among you" (Matthew 20:25-26, ESV). Peter uses the same word when he instructs elders: shepherd the
 flock "not domineering over those in your charge, but being examples to the flock" (1 Peter 5:3,
 ESV). Κατακυριεύω (*katakyrieuō*, G2634) is "lord it over" in Matthew 20:25 and "domineering" in
 1 Peter 5:3.
 
 When a leader's harm is a crime, the church is not the only authority God has given. The governing
 authority "is God's servant for your good ... he does not bear the sword in vain" (Romans 13:4, ESV).
-Reporting abuse to the police is obedience to that.
+Reporting abuse to the police puts it before the servant God appointed to punish wrongdoing.
 
 ## Wolves and false teachers
 
@@ -195,7 +195,7 @@ Reporting abuse to the police is obedience to that.
 
 λύκος (*lykos*, G3074), "wolf", occurs six times in the New Testament. In two, the wolves are outside:
 Jesus sends His disciples "as sheep in the midst of wolves" (Matthew 10:16, ESV; Luke 10:3). In the
-others they get in. "Beware of false prophets, who come to you in sheep's clothing but inwardly are
+other four they come for the flock. "Beware of false prophets, who come to you in sheep's clothing but inwardly are
 ravenous wolves" (Matthew 7:15, ESV). The hired hand flees when "the wolf snatches them and scatters
 them" (John 10:12, ESV). And Paul warned the Ephesian elders:
 
@@ -265,8 +265,8 @@ grow beside good in the world until He comes, and He will sort it, so you do not
 ### Leaving a church and leaving the church
 
 Scripture tells you to avoid wolves and those who cause divisions (Romans 16:17). Diotrephes put
-faithful people out of a church (3 John 10), and the man born blind was cast out by the leaders of
-the synagogue (John 9:34), and Jesus' next words were about the good shepherd (John 10:1-11). Being put out of
+faithful people out of a church (3 John 10). The Pharisees cast out the man born blind (John 9:34);
+Jesus went and found him (John 9:35), then spoke to those leaders about the good shepherd (John 10:1-11). Being put out of
 a congregation by those who misuse their office does not put you out of Christ's flock. Sometimes
 leaving a particular church is right.
 
@@ -314,8 +314,8 @@ under the Good Shepherd who will never leave you.**
 
 ### On this site
 
-- [Run the Race: Come to Me, All Who Are Weary](run-the-race.md) — the weariness church hurt
-  produces.
+- [Forgive Us Our Debts](forgiveness.md) — what forgiving someone who hurt you asks of you, and what
+  it does not.
 - [Where Two or Three Are Gathered](../israel-and-church/where-two-or-three-are-gathered.md) —
   going to a brother who has sinned, and church discipline.
 - [Scribes and Pharisees](../scripture/scribes-and-pharisees.md) — the religious leaders Jesus

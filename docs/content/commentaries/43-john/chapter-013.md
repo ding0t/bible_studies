@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 13:18
 - [In Humility](../../christian-life/humility.md) — 13:1-17
 - [John son of Zebedee](../../biblical-figures/john.md) — 13:23
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 13:21-30

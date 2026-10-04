@@ -17,6 +17,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 17:5-10
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 17:3-4
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 17:26-30
+- [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 17:3-4
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 17:20-37
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 17:26-30
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 17:21

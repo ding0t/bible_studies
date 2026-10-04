@@ -14,6 +14,7 @@ draft: false
 
 - [The End of the Age](../../last-things/end-of-the-age.md) — 13:36-43 (primary passage)
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 13:51-52 (primary passage)
+- [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 13:24-30
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 13:30
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 13:52
 - [Six Days of History](../../last-things/six-days-of-history.md) — 13:47

@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 7:15-16
 - [The Way](../../jesus/the-way.md) — 7:13-14
 <!-- commentary-index:auto-end -->
