@@ -155,7 +155,7 @@ of about four, and record each review in the state file.
     [Six Days of History](../last-things/six-days-of-history.md) and
     [A Thousand Years in Your Sight](../last-things/a-thousand-years-in-your-sight.md): published
     2026-09-27 without a review.
-  - [One Taken, One Left](../last-things/one-taken-one-left.md): never reviewed. The Olivet and
+  - [One Taken, One Left](../last-things/one-taken-one-left.md): reviewed and fixed 2026-10-04; previously never reviewed. The Olivet and
     rapture studies both point readers to it.
   - [The Olivet Discourse](../last-things/olivet-discourse.md): regrouped 2026-09-28. Last reviewed
     2026-09-04.

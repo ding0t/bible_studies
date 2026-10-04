@@ -1,6 +1,6 @@
 slug: "one-taken-one-left"
 title: "One Taken, One Left"
-status: review
+status: published
 target_path: "docs/content/last-things/one-taken-one-left.md"
 primary_passage: "Matthew 24:37-41; Luke 17:26-37"
 supporting_passages: ["Genesis 7:1", "Genesis 7:23", "Matthew 13:30-49", "Matthew 25:31-46", "John 14:3", "1 Thessalonians 4:17"]
@@ -223,3 +223,34 @@ resources_consulted:
   - {type: commentary, title: "Legacy Standard Bible footnotes", note: "Luke 17:36 early mss omit; 17:37 'Or eagles'."}
   - {type: lexicon, title: "TWOT via twot_strongs", note: "2307 / 2307a"}
 last_updated: "2026-09-26"
+review_2026-10-04:
+  scope: full review-bible-study pass (phases 1-8); first review of this study; findings reported to author, nothing edited yet
+  words: 2809 (budget 4000); estimated fixes add about 250
+  verified_clean:
+    - every ESV quotation re-queried (Matt 1:20, 24; 13:30, 41-43, 49; 24:3, 29-31, 37-42; 25:34, 46; Luke 17:11, 20-22, 32-37; John 14:3; Gen 7:1, 7:23; Isa 10:21; Deut 28:26; Ezek 39:17; 1 Thess 4:17, 5:9; 2 Pet 2:5, 9)
+    - Louw-Nida codes: paralambano 34.53 at Matt 1:20, 1:24, John 14:3 and 15.168 at Matt 24:40-41; aphiemi 15.48 at Matt 24:40-41; LXX Gen 7:23 katelepheth (kataleipo); G1996 at Matt 24:31 and Luke 17:37
+    - NIV CBSB Matt 24:41 quotation verbatim; ESV SB Matt 24:40-41 and Luke 17:34-35 notes; NIV BTSB Luke 17:34; LSB footnote on Luke 17:36; KJV prints 17:36
+    - links resolve; npm run validate no warnings; no review_gaps quotation-kind gaps; TWOT root 2307 = H7604
+  findings:
+    moderate:
+      - "The lexicon already leans toward the reading the context gives" and "carrying someone off" for 15.168 are not what the data shows. 15.168 is take-along: Matthew's other uses include Joseph taking the child and mother to Egypt (2:13-14, 20-21), Jesus taking Peter, James and John up the mountain (17:1) and into Gethsemane (26:37), the spirit taking seven others (12:45), the devil taking Jesus (4:5, 8) and the soldiers taking Him (27:27). The verb is neutral, as the study first says, and several companion uses are benevolent.
+      - The same proverb is at Matthew 24:28 ("Wherever the corpse is, there the vultures will gather"), directly after the lightning verse (24:27) and before 24:29, where the NIV BTSB reads it as the public nature of the coming. The study treats it only as Luke's answer to "Where?" and says Matthew does not record the question, but never mentions Matthew has the proverb.
+      - Luke's ἀετός is "eagle" (LSB footnote "Or eagles"; NKJV CBSB "eagles will be gathered"). The study's argument rests on "vultures"; one sentence (Job 39:27-30, where the eagle is "where the slain are, there is he") would show the carrion sense holds either way.
+      - The answer to the second argument (Luke's righteous leave before the fire) turns to Lot's wife, which does not meet it. The sibling taken-before-judgment.md now has the answer: Lot is brought out of Sodom, Noah is shut in on the earth ("left," sha'ar; "preserved," "brought safely through"), and neither is taken from the earth.
+      - No answer is given to the third argument (the gathering at 24:31 is nine verses earlier); the paragraph answers the first two and moves on.
+    minor:
+      - "Eleven verses after the coming in glory" counts from 24:29; the coming is 24:30 (ten) and the gathering 24:31 (nine).
+      - G1996 occurs eight times (Matt 23:37 twice, 24:31; Mark 1:33, 13:27; Luke 12:1, 13:34, 17:37), mostly benevolent; "one coming, two gatherings" does not discriminate between the readings and should say the verb is neutral.
+      - Matt 13:30 ends "gather the wheat into my barn"; the study says only that the wicked are removed and the righteous remain. The wheat is gathered too (the other reading's use of the verse).
+      - The pretribulational reading of John 14:3 (Key Takeaways) is stated flatly; mark it as the dispensational reading.
+      - Deut 28:26, 1 Sam 17:44, Ps 79:2 and Ezek 39:17 say "birds of the air/heavens"; they do not say vultures.
+      - TWOT 2307a (the noun) cannot be re-checked in this tool (it lists only root 2307); strongs_suggest lists the Strong's numbers for שְׁאָר, δέχομαι G1209, προσδέχομαι G4327, προσλαμβάνομαι G4355, καταλείπω G2641 as untagged.
+      - Memory verse 2 Peter 2:9 opens "then" and ends on the ESV's comma (same as taken-before-judgment.md).
+      - Style: validate clean; 4 "not" and no "rather than" in about 1,950 body words, so antithesis density is low. "Each point has weight, and each has an answer" announces.
+      - State file status is still "review" though the study is live.
+  commentary_cross_check: NLT LASB (not cited by the study) on Luke 17:26-35 says those who follow Christ "will be taken to be with him": complicates the study's reading at Luke (the study already records the ESV SB and NIV BTSB doing the same). NIV CBSB and ESV SB (first option) confirm at Matt 24:40-41.
+  siblings: rapture.md (24:36-44 is the second coming, "one taken, one left" not part of the case), olivet-discourse.md (table: absent in Mark, parallel at Luke 17:34-35) and taken-before-judgment.md (Noah left, preserved, brought through) agree. No contradiction found.
+review_2026-10-04_fixes:
+  applied: domain-data paragraph rewritten (15.168 is take-along, with Matthew's benevolent and hostile uses; no "leans toward" claim); arithmetic corrected to ten verses after 24:30; Matthew 24:28 proverb added with the NIV BTSB reading; eagles footnote (G105, Job 39:27-30); carrion-bird citations reworded to "birds of the air/every sort" with only verified quotations; the three arguments for the other reading now answered in turn (verb, Luke's righteous using Noah left/preserved/brought through and Lot brought out, the gathering at 24:31 with the neutral episynago, 8 uses); NLT LASB recorded as reading Luke the other way; Matt 13:30 wheat gathered into the barn; John 14:3 marked as the dispensational reading; Strong's tags G1209, G4327, G4355, G2641, H7605; link to taken-before-judgment.md#what-scripture-calls-noah; status set to published.
+  left_as_is: memory verse 2 Peter 2:9 (hinge text, same decision as taken-before-judgment.md); TWOT 2307a (noun letter not re-checkable in the tool, kept as the study had it).
+  words_after: about 3,360 (budget 4,000)

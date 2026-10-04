@@ -5,9 +5,9 @@ description: "Matthew 24:40-41 and Luke 17:34-37: Noah was the one left when the
 tags: ["matthew", "luke", "genesis", "rapture", "dispensationalism", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Matthew 24:37-41; Luke 17:26-37"
-bible_references: ["Matthew 24:3", "Matthew 24:29-31", "Matthew 24:37-42", "Luke 17:11", "Luke 17:20-37", "Genesis 7:1", "Genesis 7:23", "Genesis 19:26", "Isaiah 10:21", "Matthew 13:30", "Matthew 13:40-43", "Matthew 13:49", "Matthew 25:31-34", "Matthew 25:46", "2 Peter 2:5-9", "John 14:3", "Matthew 1:20-24", "Deuteronomy 28:26", "1 Samuel 17:44", "Psalm 79:1-2", "Ezekiel 39:17-20", "1 Thessalonians 4:13-18", "1 Thessalonians 5:9", "2 Thessalonians 2:6-7"]
+bible_references: ["Matthew 24:3", "Matthew 24:27-28", "Matthew 24:29-31", "Matthew 24:37-42", "Luke 17:11", "Luke 17:20-37", "Genesis 7:1", "Genesis 7:23", "Genesis 19:26", "Isaiah 10:21", "Matthew 13:30", "Matthew 13:40-43", "Matthew 13:49", "Matthew 25:31-34", "Matthew 25:46", "2 Peter 2:5-9", "John 14:3", "Matthew 1:20-24", "Deuteronomy 28:26", "1 Samuel 17:44", "Psalm 79:1-2", "Ezekiel 39:17-20", "Job 39:27-30", "1 Peter 3:20", "1 Thessalonians 4:13-18", "1 Thessalonians 5:9", "2 Thessalonians 2:6-7"]
 date_created: 2026-09-26
-date_modified: 2026-09-28
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -44,8 +44,8 @@ coming of the Son of Man" (24:37, ESV). The flood took the world away; "only Noa
   without error.
 - **Jesus keeps what is His.** The one left is the one He preserves through the judgment, as God
   preserved Noah (2 Peter 2:5).
-- **Jesus comes for His church first.** "I will come again and will take you to myself" (John 14:3,
-  ESV) is His promise to the disciples, and Paul describes the church caught up to meet Him (1
+- **Jesus comes for His church first.** On the dispensational reading, "I will come again and will
+  take you to myself" (John 14:3, ESV) is His promise to the disciples, and Paul describes the church caught up to meet Him (1
   Thessalonians 4:17).
 
 ### Memory verses
@@ -85,8 +85,8 @@ In Jesus' name. Amen.
   senses of "take."
 - [Noah was the one left](#noah-was-the-one-left). Genesis 7:23, the remnant, and Matthew's weeds
   gathered first.
-- [Luke's answer to "where?"](#lukes-answer-to-where). Vultures, a battlefield, and the shared
-  millstone.
+- [Luke's answer to "where?"](#lukes-answer-to-where). The proverb in Luke and in Matthew, a
+  battlefield, and the shared millstone.
 - [The case for the other reading](#the-case-for-the-other-reading). Three arguments that "taken"
   means rescued, and the answers.
 - [Where the rapture fits](#where-the-rapture-fits). The dispensational placement, and the texts the
@@ -104,8 +104,8 @@ tribulation to its end: "Immediately after the tribulation of those days" the he
 the events to the timing. No one knows the day (24:36). It will come the way the flood came (24:37-39).
 Two will be in the field (24:40-41). "Therefore, stay awake" (24:42, ESV).
 
-So in Matthew the saying sits between the flood and the command to watch, and eleven verses after the
-coming in glory that ends the tribulation. The parent study, [The Olivet Discourse](olivet-discourse.md),
+So in Matthew the saying sits between the flood and the command to watch, and ten verses after the
+coming in glory (24:30) that ends the tribulation. The parent study, [The Olivet Discourse](olivet-discourse.md),
 works through that whole sequence.
 
 **Luke.** Earlier, "on the way to Jerusalem" between Samaria and Galilee (Luke 17:11, ESV), the
@@ -130,15 +130,18 @@ verdict; the verdict comes from context.
 *Paralambanō* is used positively elsewhere, including by Jesus: "I will come again and will take you
 to myself, that where I am you may be also" (John 14:3, ESV). The semantic-domain annotation shows the
 two uses parting company. John 14:3's παραλήμψομαι (*paralēmpsomai*, from παραλαμβάνω, G3880) is coded Louw-Nida **34.53**, the *receive or
-welcome into one's company* sense that domain 34 (Association) covers, sharing its slot with δέχομαι,
-προσδέχομαι and προσλαμβάνομαι. The two occurrences at Matthew 24:40-41 are coded **15.168**, physical
-movement: carrying someone off.
+welcome into one's company* sense that domain 34 (Association) covers, sharing its slot with δέχομαι (G1209),
+προσδέχομαι (G4327) and προσλαμβάνομαι (G4355). The two occurrences at Matthew 24:40-41 are coded **15.168**, physical
+movement, the sense of taking someone along with oneself.
 
 Joseph is told "do not fear to take Mary as your wife" (Matthew 1:20) and then "took his wife" (1:24),
 both παραλαμβάνω, both 34.53. The sense John 14:3 draws on is the one used of a man receiving his
-bride. The sense Matthew 24:40-41 draws on is the one used of being carried off. The lexicographers
-separated them without reference to anyone's eschatology, so the lexicon already leans toward the
-reading the context gives. That marital sense at John 14:3 belongs to a much larger pattern, worked
+bride. The sense at Matthew 24:40-41 is take-along, and Matthew uses it of
+companions and captors alike: Joseph takes the child and his mother to Egypt (2:13-14), Jesus takes
+Peter, James and John up the mountain (17:1) and into Gethsemane (26:37), and the soldiers take Jesus
+(27:27). The lexicographers coded the two senses apart without reference to anyone's eschatology.
+The data shows that the verb at 24:40-41 is the take-along verb and not the welcome-into-company
+verb of John 14:3, and leaves the direction of the taking to the context. That marital sense at John 14:3 belongs to a much larger pattern, worked
 out in [The Bride of Christ](../israel-and-church/bride-of-christ.md).
 
 ## Noah was the one left
@@ -151,10 +154,13 @@ off by the flood. The man left on the earth, preserved through the judgment, is 
 Genesis says so in one word. After the flood, "They were blotted out from the earth. Only Noah was
 left, and those who were with him in the ark" (Genesis 7:23, ESV). The Hebrew verb is
 <span dir="rtl">שָׁאַר</span> (*shaʾar*, sha-AR, H7604, "remain, be left," TWOT 2307). Its noun is
-<span dir="rtl">שְׁאָר</span> (*sheʾar*, sheh-AR, TWOT 2307a), the prophets' word for the remnant: "A
+<span dir="rtl">שְׁאָר</span> (*sheʾar*, sheh-AR, H7605, TWOT 2307a), the prophets' word for the remnant: "A
 remnant will return, the remnant of Jacob, to the mighty God" (Isaiah 10:21, ESV). The Septuagint
-renders it with καταλείπω, "leave behind." In Scripture's first judgment of
-the whole world, being left is how God saves.
+renders it with καταλείπω (*kataleipō*, G2641), "leave behind." In Scripture's first judgment of
+the whole world, being left is how God saves. Peter's own verbs for Noah are "preserved" (2 Peter
+2:5, ESV) and "brought safely through water" (1 Peter 3:20, ESV), and
+[Taken Before Judgment](taken-before-judgment.md#what-scripture-calls-noah) sets out the verbs for
+Noah, Enoch, Lot and Elijah side by side.
 
 Read as the continuation it grammatically is, "taken" is removal in judgment and "left" is survival.
 God chose Noah before the rain: "I have seen that you are righteous before me in this generation"
@@ -169,8 +175,9 @@ causes of sin and all law-breakers" (13:41, ESV), and then "the righteous will s
 the kingdom of their Father" (13:43, ESV). The parable of the net says the same: "The angels will come
 out and separate the evil from the righteous" (13:49, ESV).
 
-At the end of the age in Matthew, the wicked are removed from among the righteous, and the righteous
-remain for the kingdom. The sheep and goats close the discourse the same way. The King says to those
+At the end of the age in Matthew, the wicked are removed from among the righteous, and the wheat is
+gathered into the barn, the kingdom of their Father (13:30, 43). The weeds are gathered out of the
+kingdom and the wheat into it. The sheep and goats close the discourse the same way. The King says to those
 on His right, "inherit the kingdom prepared for you from the foundation of the world" (25:34, ESV),
 and the others "go away into eternal punishment" (25:46, ESV). This shows that God judges as a
 shepherd who knows His own. He parts people who stood side by side, and He makes no mistakes.
@@ -181,12 +188,24 @@ Luke uses the same verb pair at 17:34-35, and there the disciples ask the questi
 record: "Where, Lord?" Jesus answers, "Where the corpse is, there the vultures will gather" (Luke
 17:37, ESV).
 
-Vultures over a corpse is battlefield imagery, standard in both Greco-Roman writing and Scripture for
-the aftermath of slaughter (Deuteronomy 28:26; 1 Samuel 17:44; Psalm 79:1-2; Ezekiel 39:17-20). The
+Carrion birds over a corpse are battlefield imagery, standard in both Greco-Roman writing and
+Scripture for the aftermath of slaughter: "birds of the air" (Deuteronomy 28:26, ESV), "birds of
+every sort" (Ezekiel 39:17, ESV), and the same picture at 1 Samuel 17:44 and Psalm 79:1-2. The Greek
+is ἀετός (*aetos*, G105), "eagle," and the *Legacy Standard Bible* footnotes "Or eagles"; Job
+39:27-30 describes the eagle in the same terms, "where the slain are, there is he" (39:30, ESV), so
+the carrion sense holds on either rendering. The
 *NIV Cultural Backgrounds Study Bible* makes the same observation from ancient sources (note on Luke
 17:37). And Luke's verb for the vultures gathering is ἐπισυναχθήσονται, from ἐπισυνάγω (*episynagō*,
-eh-pee-soon-AH-goh, G1996), the verb of the angels gathering the elect at Matthew 24:31. One coming,
-two gatherings.
+eh-pee-soon-AH-goh, G1996), the verb of the angels gathering the elect at Matthew 24:31. The verb is neutral (eight uses, including a crowd at Luke 12:1 and Jesus gathering Jerusalem's
+children at Luke 13:34), so it ties the two gatherings to one coming and leaves open who is gathered.
+
+The same proverb stands in Matthew, in a different place: "Wherever the corpse is, there the vultures
+will gather" (Matthew 24:28, ESV). It follows "as the lightning comes from the east and shines as far
+as the west, so will be the coming of the Son of Man" (24:27, ESV) and comes before the tribulation
+ends at 24:29. The *NIV Biblical Theology Study Bible* reads the proverb as the public nature of the
+coming, each verse reinforcing the other (note on Luke 17:37). In Luke it answers "Where?" and in
+Matthew it stands beside the lightning. It works in both as a picture of a judgment that no one can
+miss.
 
 The mill detail is domestic and specific. Galilean homes commonly shared a courtyard, and women of
 different households worked a common millstone together. The *NIV Cultural Backgrounds Study Bible*
@@ -212,14 +231,30 @@ them all" (17:29, ESV). In both, the righteous are removed first.
 **The gathering of 24:31 is close by.** The angels have just gathered the elect, so the taken ones may
 be the gathered ones.
 
-Each point has weight, and each has an answer. The switch from *airō* to *paralambanō* is real, and
-the domain data above shows Matthew's *paralambanō* sitting in the carrying-off sense. Lot's departure
-is real, but the one Luke tells the disciples to remember is Lot's wife (17:32), who looked back and
-became a pillar of salt (Genesis 19:26). And the question "where?" is the disciples' own. Jesus answers it with a corpse and
-vultures. This study reads "taken" as judgment, with the *NIV Cultural Backgrounds Study Bible* and
-the first option of the *ESV Study Bible*. The main point stands on either reading, as the *NIV
-Biblical Theology Study Bible* says: the return of Jesus separates the saved from the condemned,
-finally.
+**The verb.** The switch from *airō* to *paralambanō* is real. The domain data above puts Matthew's
+*paralambanō* in the take-along sense, which Matthew uses of Jesus taking the three up the mountain
+and of the soldiers taking Jesus, so the change of verb does not by itself say who takes whom, or to
+what.
+
+**Luke's righteous.** Lot is brought out of Sodom and Noah is shut into the ark, and neither leaves
+the earth: Noah is "left" (Genesis 7:23), "preserved" (2 Peter 2:5) and "brought safely through
+water" (1 Peter 3:20). In both stories the righteous move to safety on the earth and the judgment then
+takes everyone else: "the flood came and swept them all away" (Matthew 24:39, ESV), "fire and sulfur
+rained from heaven and destroyed them all" (Luke 17:29, ESV). On that pattern the ones taken are the
+ones the judgment takes. Luke follows Lot's departure with a warning, "Remember Lot's wife" (17:32,
+ESV), who looked back and became a pillar of salt (Genesis 19:26).
+
+**The gathering.** The elect are gathered at 24:31, and nine verses later one is taken and one left.
+This study reads the gathered of 24:31 and the left of 24:40-41 as the same righteous, seen from two
+sides: gathered to the King and left in the land to enter the kingdom (25:34). The *ESV Study Bible*'s
+second option reads the taken as the gathered, and the neutral verb does not decide between them.
+
+The question "where?" is the disciples' own, and Jesus answers it with a corpse and vultures. This
+study reads "taken" as judgment, with the *NIV Cultural Backgrounds Study Bible* and the first
+option of the *ESV Study Bible*. The *NLT Life Application Study Bible* reads Luke 17:26-35 the other
+way, that those who follow Christ "will be taken to be with him." The main point stands on either
+reading, as the *NIV Biblical Theology Study Bible* says: the return of Jesus separates the saved
+from the condemned, finally.
 
 ## Where the rapture fits
 
