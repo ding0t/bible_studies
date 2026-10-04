@@ -34,7 +34,7 @@ Add new items here. They get a number and move into their section.
 | [0.5](#05-a-blog) | A blog | Site features |
 | [0.6](#06-pop-up-follow-ups) | Pop-up follow-ups | Site features |
 | [0.7](#07-review-the-older-studies) | Review the older studies | Site features |
-| [0.8](#08-fixes-found-by-reviews) | Fixes found by reviews | Site features |
+| [0.9](#09-drafts-awaiting-publication) | Drafts awaiting publication | Site features |
 | [1.1](#11-extra-biblical-texts) | Extra-biblical texts | Scripture |
 | [1.2](#12-typed-scripture-links) | Typed scripture links | Scripture |
 | [1.3](#13-learning-hebrew) | Learning Hebrew | Scripture |
@@ -47,7 +47,6 @@ Add new items here. They get a number and move into their section.
 | [5.2](#52-end-times) | End times | Last things |
 | [5.6](#56-they-were-given-white-robes) | They were given white robes | Last things |
 | [5.7](#57-heaven-and-earth-by-fire) | Heaven and earth by fire | Last things |
-| [5.9](#59-the-tribulation-period) | The tribulation period | Last things |
 | [8.1](#81-mirror-the-unfoldingword-sources) | Mirror the unfoldingWord sources | Sources & tooling |
 | [8.2](#82-chronology-follow-ups) | Chronology follow-ups | Sources & tooling |
 | [9.1](#91-calling-good-evil-and-evil-good) | Calling good evil and evil good | Sin |
@@ -55,7 +54,6 @@ Add new items here. They get a number and move into their section.
 | [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
 | [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
 | [10.6](#106-run-the-race) | Run the race | Christian life |
-| [10.8](#108-fasting-a-rewrite) | Fasting: a rewrite | Christian life |
 
 Finished items move to [Completed](#completed) at the foot of the page and keep their numbers, so
 an old reference still points at the right thing.
@@ -171,28 +169,30 @@ of about four, and record each review in the state file.
   - [The Woman at the Well](../jesus/woman-at-well.md) and
     [The Woman Who Touched the Fringe](../jesus/woman-with-the-issue-of-blood.md).
   - [Paul](../biblical-figures/paul.md) and the ten short apostle pages.
-  - [Fasting](../christian-life/fasting.md), written with Sonnet 4.5. The humility study links to it.
-    It needs a rewrite first; see [10.8](#108-fasting-a-rewrite).
+  - [Fasting](../christian-life/fasting.md) was rewritten and reviewed 2026-10-01, so it drops off
+    this list.
 - **Priority 3: reviewed before 2026-09-24 and stable since.** The Way, The Trumpet Call of God, The Twelve, Assurance of Salvation, The Last Supper's Four Cups, Three Days
   and Three Nights, The Lord's Prayer, Prayer as Communion.
 - **Not reviews.** [Sin and Sexual Immorality](../sin/sexual-immorality.md) (28 words) and
   [Sin and Idolatry](../sin/idolatry.md) (185 words) are stubs and need a develop pass. For the first, see
   [9.2](#92-sexual-immorality). The pride study links to Idolatry.
 
-### 0.8 Fixes found by reviews
+### 0.9 Drafts awaiting publication
 
-Errors found in passing that no one has fixed yet.
+Files with `draft: true`, which the build drops. Each needs its remaining passes and a decision to
+publish. This list names them by file path and links none, because a published page may not link a draft
+(validator Check 24).
 
-- [Christians and Deliverance Ministry](../spiritual-beings/deliverance/christians-and-deliverance.md)
-  puts δαιμονίζομαι in John 10:20, where the Greek is δαιμόνιον ἔχει; the verb is in 10:21. Its
-  κολαφίζω argument ("Scripture had the vocabulary ... It uses a different word entirely") rests on
-  one occurrence; the verb is used five times, four of literal blows. (Review of 2026-10-01.)
-- [As the Snake Was Lifted Up](../jesus/as-the-snake-was-lifted.md) states the manner reading of
-  οὕτως in John 3:16 as settled; the CSB, LSB and NLT footnotes split both ways. Mark it contested,
-  as [Verses Quoted Well](../scripture/verses-quoted-well.md) does. (Review of 2026-10-01.)
-- **Paul is missing from the Biblical Figures sidebar.** `biblical-figures/.pages` lists the Twelve
-  and has no `...`, so `paul.md` is left out of the nav; his card still shows on the section page.
-  Add `- paul.md` after the Twelve, or `- ...`. (Found 2026-10-02.)
+- Run the Race (`christian-life/run-the-race.md`): 5,534 words; see [10.6](#106-run-the-race).
+- Great Commission (`christian-life/great-commission.md`): 3,289 words.
+- Supplication: Begging, Turned Upward (`christian-life/supplication.md`): 589 words, a stub.
+- How God Answers Prayer (`christian-life/how-god-answers-prayer.md`): 1,314 words. Publishing it
+  restores the altar page's link in [2.5](#25-the-heavenly-pattern).
+- Psalm 118 on the Road to Gethsemane (`jesus/psalm-118-road-to-gethsemane.md`): 1,449 words.
+- The Rapture in the Early Church (`last-things/rapture-in-the-early-church.md`) (3,443 words) and
+  Meet the Lord in the Air (`last-things/meet-the-lord-in-the-air.md`) (3,138 words).
+- Four Hundred and Eighty Years (`last-things/four-hundred-and-eighty-years.md`): 1,393 words,
+  forked from Genealogy and Times; see [8.2](#82-chronology-follow-ups).
 
 ## 1. Scripture
 
@@ -630,18 +630,6 @@ the Olivet Discourse, published 2026-09-28) places it in two paragraphs ("Where 
   the seventh day and the eighth), [The Wife of the Lamb](../israel-and-church/wife-of-the-lamb.md)
   (Revelation 21), and [The End of the Age](../last-things/end-of-the-age.md) (5.5, completed).
 
-### 5.9 The tribulation period
-
-All the events of Daniel's seventieth week, the time of Jacob's trouble, in order.
-
-- What the period is for
-- Where the church is
-- Where Israel is
-- Whether there will be saints in the tribulation
-- **Links:** [5.1](#51-tribulation-perspectives) and [5.2](#52-end-times),
-  [The Rapture of the Church](../last-things/rapture.md) and
-  [The Restrainer](../last-things/the-restrainer.md).
-
 ## 8. Sources & tooling
 
 Not study topics — work on the material the studies rest on.
@@ -688,8 +676,9 @@ Left over from moving the site's chronology to the Masoretic numbers on 2026-09-
 - **Steinmann's count.** The Flood study cites 467 secondary readings in the Septuagint
   (Steinmann, *JETS* 64/1, 2021, pp. 26, 29, 34); his own prose says 468 once (p. 33). Note the
   discrepancy in the study or confirm which figure his table supports.
-- **Genealogy and Times is over budget:** 4,804 words against 4,000, with no Study outline
-  (validator Checks 22-23). Run simplify-bible-study, then add the outline.
+- **Genealogy and Times:** simplified, restructured and given its Study outline on 2026-09-30. The
+  file is still 4,825 words, so re-run validator Check 23 and either trim further or record a
+  raised `word_budget` and its reason in the state file.
 - **The Flood study skipped two passes.** It was published straight after its develop pass. Run
   read-bible-study (in a fresh session) and review-bible-study on it.
 
@@ -767,12 +756,6 @@ that for which Christ took hold of us (Philippians 3:12)?
   the word away in the parable of the sower.
 - **Proverbs:** guard your heart and mind (Proverbs 4:23), and trust Him.
 
-### 10.8 Fasting: a rewrite
-
-In [Fasting](../christian-life/fasting.md), the "Break spiritual strongholds" part of *When to
-fast* reads like deliverance ministry. The study needs a rewrite before its review in
-[0.7](#07-review-the-older-studies).
-
 ## Completed
 
 Kept here so that an old reference like "work on 3.1" still resolves.
@@ -802,3 +785,7 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | new | Edits to Verses Often Misquoted | [Verses Often Misquoted](../scripture/verses-often-misquoted.md) opens on common church sayings, adds "Did God actually say?" (the garden, the wilderness, the church), "Take up your cross" and a link to How to Read the Bible, 2026-10-02 |
 | 5.5 | The age to come | The age to come in [A New Heaven and a New Earth](../last-things/new-heaven-and-new-earth.md#the-age-to-come); the line between the ages in [The End of the Age](../last-things/end-of-the-age.md) (Matthew's συντέλεια, opened at the cross and closed at the return), with cross-links and a scope line on each, and the Zadok calendar's 49- or 50-year jubilee question, 2026-10-03 |
 | 10.7 | Forgiveness | [Forgive Us Our Debts](../christian-life/forgiveness.md), on Matthew 6:14-15: God's forgiveness paid and offered to all and received by those who repent, releasing a debt to God (Mark 11:25) and forgiving the one who repents (Luke 17:3-4), the offender who keeps on, Matthew 6:15 used as a weapon, and what forgiveness is not, 2026-10-04 |
+| 5.9 | The tribulation period | [The Tribulation: Daniel's Seventieth Week, Year by Year](../last-things/tribulation.md): what the week is for, the seals, trumpets and bowls in order, the midpoint, and where the church, Israel and the tribulation saints are, with four charts, 2026-10-03 |
+| 10.8 | Fasting: a rewrite | [Fasting](../christian-life/fasting.md) rewritten so "When to fast" no longer reads as deliverance ministry (2 Corinthians 10:4's strongholds are arguments), then reviewed, 2026-10-01 |
+| new | Hurt by the Church | [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../christian-life/hurt-by-the-church.md), published with its review and a readability pass, 2026-10-04 |
+| 0.8 | Fixes found by reviews | [Christians and Deliverance Ministry](../spiritual-beings/deliverance/christians-and-deliverance.md) now quotes John 10:20-21 correctly (δαιμόνιον ἔχει in 10:20, the participle in 10:21) and treats κολαφίζω as suggestive rather than decisive; [As the Snake Was Lifted Up](../jesus/as-the-snake-was-lifted.md) marks the οὕτως reading contested; Paul added to the Biblical Figures sidebar, 2026-10-04 |
