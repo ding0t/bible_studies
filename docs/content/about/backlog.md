@@ -151,7 +151,7 @@ of about four, and record each review in the state file.
     Reviewed 2026-08-22 alongside Combined Timeline (that day's edits only), then restructured
     2026-09-20 without review. Reviewed again 2026-10-01; findings await the author.
   - [At Home with the Lord](../last-things/at-home-with-the-lord.md) (reviewed and fixed 2026-10-04),
-    [Taken Before Judgment](../last-things/taken-before-judgment.md),
+    [Taken Before Judgment](../last-things/taken-before-judgment.md) (reviewed and fixed 2026-10-04),
     [Six Days of History](../last-things/six-days-of-history.md) and
     [A Thousand Years in Your Sight](../last-things/a-thousand-years-in-your-sight.md): published
     2026-09-27 without a review.

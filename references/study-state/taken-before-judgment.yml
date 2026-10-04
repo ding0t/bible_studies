@@ -3,7 +3,7 @@
 # rapture.md's reviews (see references/study-state/rapture.yml). Developed into a complete study
 # 2026-09-27 by develop-bible-study (author approved skipping the Phase 7 thesis/outline stop).
 slug: "taken-before-judgment"
-status: draft
+status: published
 target_path: "docs/content/last-things/taken-before-judgment.md"
 last_updated: 2026-09-27
 genre: "topical typology spanning OT narrative (Genesis 5, 7, 19; 2 Kings 2) and NT epistle/Gospel use (Hebrews 11, 2 Peter 2, Jude, Luke 17)"
@@ -126,3 +126,32 @@ open_questions:
   - "When published, link it from rapture.md (see rapture.yml insight_2026-09-26 open_questions)."
   - "rapture.md Key Takeaways (line ~29) says Enoch was taken 'before the Flood ever fell'; this study adds that Genesis puts 669 years between them. Not a contradiction, but the author may want the parent's wording to match."
   - "The objection section answers the posttrib reading of Revelation 3:10 only by pointing to rapture.md; a fuller treatment of tēreō ek would be its own study (fork candidate)."
+review_2026-10-04:
+  scope: full review-bible-study pass (phases 1-8); findings reported to author, nothing edited yet
+  words: 3054 (budget 4000); estimated fixes add about 150
+  verified_clean:
+    - every ESV quotation re-queried (Gen 5:21-28, 7:1, 7:6, 7:16, 19:16, 19:22-24; Heb 11:5; 2 Kgs 2:10-11; Ps 49:15, 73:24; Luke 17:26-30; Matt 24:29, 37-39; 25:34; 1 Cor 15:51-52; 1 Thess 1:10, 4:17, 5:9; 2 Pet 2:5-9; Jude 14-15; Rev 3:10; Rom 5:14)
+    - Genesis 5 arithmetic on the Masoretic numbers (65/300; 187, 182, 600 = 969; 669 years Enoch to flood); Enoch seventh from Adam; μετατίθημι twice plus μετάθεσις in Heb 11:5; φυλάσσω 2 Pet 2:5, ῥύομαι 2 Pet 2:7 and 1 Thess 1:10; εὐαρεστέω in LXX Gen 5:22, 24
+    - ESV SB, NIV BTSB, NIV CBSB notes on Gen 5:22-24 and 2 Pet 2:4-10; internal links and image resolve; npm run validate: no warnings; review_gaps: no quotation-kind gaps
+  findings:
+    moderate:
+      - Objection section says Luke 17:27, 29 "removes Noah and Lot from the scene before the judgment falls", and the Lot section says "in both, the righteous are placed out of reach first". Luke has Noah enter the ark and then the flood come; Gen 7:16 shuts him in as it falls. That contradicts the study's own Noah section, rapture.md ("Noah is preserved through the flood") and one-taken-one-left.md, and if Noah is placed out of reach first it argues for his being a rapture picture too.
+      - Matt 24:37-39 is assigned to the post-tribulation return (24:29) and then to "the separation that opens the kingdom (25:34)". 24:37 does follow 24:29; 25:34 is a different scene (sheep and goats). The Noah-as-remnant mapping is the dispensational reading and is not marked as such.
+      - The 669-year arithmetic uses Masoretic numbers without saying so. Brenton's LXX gives Enoch 165, Methuselah 167, Lamech 188 (a 755-year gap, Methuselah dying 14 years after the flood). god/flood-and-the-king-lists.md argues the LXX figure fails Gen 7:23, so name the text and link it.
+      - Key Takeaways says each of the four is "a living person removed bodily"; Lot is relocated and Noah is not removed, and the body itself splits manner (Elijah) from timing (Enoch, Lot, flood).
+    minor:
+      - The shared verb lāqach (H3947, 1,888 occurrences) is called "the thread joining Enoch, Elijah and the psalmists"; present as a possible echo (NLT LASB cross-references Gen 5:24 to Ps 73:24) and give the count. Discussion question 1 rests on it.
+      - "Genesis uses the same form twice (5:22, 5:24)" is true of wayyithallēkh exactly, but ESV SB lists the same stem at 3:8, 6:9, 17:1, 24:40, 48:15; Noah's "walked with God" (6:9) is not mentioned although the study contrasts Enoch and Noah.
+      - "ESV SB describes 2 Peter 2:4-10 ... to assure a church troubled by false teachers" paraphrases; the note says an argument proving God's certain judgment on the false teachers (2:5 note: God will protect the godly).
+      - Missing Strong's tags (strongs_suggest): μετάθεσις G3331, ῥυόμενον G4506, לֻקָּח H3947; wayyithallēkh not in MACULA.
+      - Memory verse 2 Peter 2:9 opens "then" (the conclusion of a conditional) and ends on a comma; it does not stand alone.
+      - Discussion questions touch language, context, Lot, the hard part and transformed; no Christ question although Lessons about Jesus is a section.
+      - Style: validate clean; "the objection deserves its full weight" and "this study makes a modest claim, and marks it" announce rather than do; "That is the God your Lord Jesus is coming from" is unclear.
+      - State file status still reads draft though the study is live.
+  siblings: rapture.md line 153 and one-taken-one-left.md agree with the Noah section and disagree with the Luke 17 line in the objection section.
+  commentary_cross_check: NIV CBSB on Gen 5:24 confirms the study's reference note (Genesis does not say where Enoch went) and complicates "taken out of the earth"-as-heaven only mildly; NIV BTSB confirms Enoch does not die.
+review_2026-10-04_fixes:
+  applied: new "What Scripture calls Noah" subsection (verb table: Enoch lqh/metetethe, Elijah luqqah/wayya'al, Lot wayyotzi'uhu/errusato, Noah wayyishsha'er/ephylaxen/diesothesan di' hydatos); Gen 7:7, 10, 13, 16, 23 sequence (entry, seven days, flood; shut in; only Noah left); eight NT mentions of Noah (G3575: Matt 24:37-38, Luke 3:36, 17:26-27, Heb 11:7, 1 Pet 3:20, 2 Pet 2:5); prophets (Isa 54:9, Ezek 14:14/20, Isa 26:20 alluding to Gen 7:16 with the same sagar + ba'ad, per ESV SB); objection answer no longer says Luke removes Noah; Matt 25:34 marked as the dispensational placement; Masoretic numbers named with link to god/flood-and-the-king-lists.md; Key Takeaways Types reworded (Enoch and Elijah bodily, Lot timing, Noah second pattern); lqh count 966 (macula-hebrew-wlc) with NLT LASB cross-reference, framed as possible echo; Noah's walked-with-God (Gen 6:9) noted; ESV SB 2 Pet 2:4-10a paraphrase corrected; Strong's tags G3331, G4506, H3947 added; Q3 now a Christ question; announcement sentences cut; status set to published.
+  correction: the first review draft said lqh occurs 1,888 times; that count summed two Hebrew sources (macula and morphhb) and double-counts. The single-source count is 966.
+  left_as_is: memory verse 2 Pet 2:9 (opens "then", ends on the ESV's comma; kept because it is the study's hinge text); tēreō ek / Rev 3:10 stays a fork candidate.
+  words_after: about 3,700 (budget 4,000)
