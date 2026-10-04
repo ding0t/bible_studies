@@ -216,3 +216,34 @@ resources_consulted:
   - {type: commentary, title: "NIV Biblical Theology Study Bible", author: Zondervan, note: "notes 5:1-10, 5:3-4, 5:5. Contributed the alternative reading of 'naked' (Corinthian desire for permanent disembodiment) and the two senses of arrabōn."}
   - {type: lexicon, title: "Macula Greek SBLGNT / ULT interlinear", author: unfoldingWord / Clear Bible, note: "lemma, gloss, occurrence counts for ἐνδημέω, ἐκδημέω, ἀρραβών; πρὸς τὸν κύριον at 5:8; ἀναλῦσαι at Phil 1:23."}
 last_updated: "2026-09-26"
+review_2026-10-04:
+  scope: full review-bible-study pass (phases 1-8); findings reported to author, nothing edited yet
+  words: 3647 (budget 4000)
+  verified_clean:
+    - every ESV quotation re-queried against study-notes.db (2 Cor 1:8-9, 4:16, 5:1-9; Phil 1:21-24, 3:21; 1 Thess 4:13-18; 1 Cor 15:23, 52-53; Luke 16:22-26, 23:43; Lev 23:10; Eph 4:8-10; Rev 6:11)
+    - G1736/G1553 three each, all 2 Cor 5:6, 8, 9; G728 six rows (3 NT + 3 LXX); evidence replay 22 ok, 0 failing
+    - ESV SB, NIV BTSB, CSB footnote claims on Eph 4:8-9 and 2 Cor 5:3, 5:8; ESV SB intro (fourth letter, AD 55/56, opponents)
+    - Larkin chart labels (Paradise "now empty", Hell "still occupied", Great Gulf, Tartarus, first fruits, Eph 4:8-10)
+    - internal links and anchors resolve; npm run validate shows no warnings for this file
+  findings:
+    moderate:
+      - Luke 23:43 is used as a post-ascension "at home with the Lord" proof (Lessons about Jesus, the martyrs section, Be Transformed "that same day") while the study's own two-compartment reading puts the thief in Paradise = Abraham's side, which Larkin's chart labels "now empty". The study never reconciles them and never cites 2 Cor 12:2-4 (paradise = third heaven; review_gaps surfaces it) or the sibling three-days-and-three-nights.md section that does.
+      - The one-sentence thesis and description say "Since the ascension" flatly, while the body marks the before/after-ascension change as contested (two-compartment vs Abraham's side as heaven). Confidence marker missing where the thesis is stated.
+      - "Most commentators on this site's shelf" read Eph 4:8-10 as incarnation/powers. ESV SB and NIV BTSB do; NIV Cultural Backgrounds and NLT Life Application leave Hades open (lower regions "could mean the place of the dead"). Say "two of four" or cite the open ones.
+    minor:
+      - Unlabeled translation: Rev 6:9-11 quote (wording is ESV, no label), 1 Thess 4:14, 16-17 and 1 Cor 15:53 in "The body, still owed", and the short quotes of 2 Cor 5:8 and Phil 1:23 under Lessons about Jesus.
+      - "The tent is his own trade" is an unmarked inference; Acts 18:3 only says he made tents.
+      - 1 Thess 4:14 "God will bring with him" read as the souls coming with Christ is one reading (the other is resurrection); not marked contested.
+      - 2 Cor 5:3 textual variant (CSB footnote "Other mss read when we have put on", ἐνδυσάμενοι/ἐκδυσάμενοι) is not mentioned although the "naked" section turns on that verse. Eph 4:9 "first descended" variant likewise.
+      - Larkin prose: lake of fire is bottom right on the chart, not "far right".
+      - Phase 5: independent commentary (NIV Cultural Backgrounds on 5:8) confirms; ESV SB on Luke 23:43 says paradise is heaven, which complicates the study's Paradise-as-compartment reading.
+      - Discussion questions: facets covered, proportions fine. Be Transformed uses Think/Attitude/Do. Memory verses shape correct.
+  style: no validate hits; no Hebrew bold; diagram width not measured (flowchart, 3 short subgraphs).
+  siblings: cross_study_claims on Luke 23 and 2 Cor 5 found no direct contradiction, but three-days-and-three-nights.md says "Luke 23:43 was spoken before it [the ascension]" and offers two readings, which this study does not carry.
+  commentary_cross_check: 5:8 confirms (NIV CBSB); Luke 23:43 complicates (ESV SB, NIV BTSB read paradise as heaven/new creation).
+  size_impact: fixes add about 120 words, room under the 4000 budget.
+review_2026-10-04_fixes:
+  applied: thesis and description hedged on the ascension timing; new "The thief and Paradise" subsection (sequence reading, 2 Cor 12:2-3 and Rev 2:7 as post-ascension paradise, ESV SB heaven reading as the alternative); Christ's-body inference (Luke 24:39, John 20:27 vs Rev 1:16, 5:6, Matt 17:2, Phil 3:21) marked as inference; Eph 4:8-10 count corrected to two incarnation / two open; translation labels added; 1 Thess 4:14 reading marked; tent claim softened; lake-of-fire position corrected.
+  words_after: about 4160 including frontmatter and references (was 3647); validate clean
+  decided_2026-10-04: Jewish sources skipped for this study (later than the NT, silent on the ascension, adds no evidence for the contested points); belongs in three-days-and-three-nights.md if anywhere.
+  deferred: Jewish-tradition support for the two-compartment / Paradise picture (to be sourced through references/build/sefaria.py with a named CC0/CC-BY version, never from memory); 2 Cor 5:3 and Eph 4:9 textual variants

@@ -1,13 +1,13 @@
 ---
 title: "At Home with the Lord"
 category: "prophecy"
-description: "Where the believing dead are between death and the resurrection. Since the ascension a believer who dies goes at once to be with the Lord Jesus, conscious and without the body, and waits there for the body to be raised at His coming. A study of 2 Corinthians 5:1-8."
+description: "Where the believing dead are between death and the resurrection. A believer who dies goes at once to be with the Lord Jesus, conscious and without the body, and waits there for the body to be raised at His coming; the historic dispensational reading dates that arrangement from the ascension. A study of 2 Corinthians 5:1-8."
 tags: ["2-corinthians", "philippians", "1-thessalonians", "1-corinthians", "ephesians", "luke", "revelation", "resurrection", "dispensationalism", "larkin", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "2 Corinthians 5:1-10"
 bible_references: ["2 Corinthians 1:8-9", "2 Corinthians 1:22", "2 Corinthians 4:16-18", "2 Corinthians 5:1-10", "Philippians 1:21-24", "Philippians 3:21", "Luke 23:43", "Luke 16:19-31", "Ephesians 4:8-10", "Ephesians 1:14", "Colossians 2:15", "Genesis 38:17-20", "Leviticus 23:10", "Acts 18:3", "Revelation 6:9-11", "Revelation 20:13-14", "1 Thessalonians 4:13-18", "1 Corinthians 15:20-23", "1 Corinthians 15:51-53", "2 Peter 2:4", "Jude 6"]
 date_created: 2026-09-26
-date_modified: 2026-09-28
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -19,10 +19,11 @@ utterly burdened beyond our strength that we despaired of life itself" (2 Corint
 when he writes about the tent coming down, he is writing about his own death, and he writes it with
 courage.
 
-**In one sentence:** Since the ascension, a believer who dies goes at once to be at home with the
-Lord Jesus, conscious and without the body, and waits there for the resurrection of the body at His
-coming; God keeps the whole person, the soul with His Son now and the body for the day He raises
-it.
+**In one sentence:** A believer who dies goes at once to be at home with the Lord Jesus, conscious
+and without the body, and waits there for the resurrection of the body at His coming; God keeps the
+whole person, the soul with His Son now and the body for the day He raises it. Paul states the
+destination plainly. That the arrangement began at the ascension is the historic dispensational
+reading, and it is contested (see [Where were they before?](#where-were-they-before)).
 
 ## Key Takeaways
 
@@ -40,9 +41,9 @@ it.
 ### Lessons about Jesus
 
 - **Jesus is where His people go.** Paul's hope at death is a Person: "at home with the Lord"
-  (2 Corinthians 5:8), "to depart and be with Christ" (Philippians 1:23).
-- **Jesus promised it on the cross.** To a dying thief: "today you will be with me in paradise"
-  (Luke 23:43, ESV).
+  (2 Corinthians 5:8, ESV), "to depart and be with Christ" (Philippians 1:23, ESV).
+- **Jesus promised His company on the cross.** To a dying thief: "today you will be with me in
+  paradise" (Luke 23:43, ESV).
 - **Jesus will raise the body.** He "will transform our lowly body to be like his glorious body"
   (Philippians 3:21, ESV).
 
@@ -58,7 +59,7 @@ it.
 
 ### Be Transformed
 
-- **Think.** A Christian who dies is with Jesus that same day. The body in the grave is kept by God
+- **Think.** A Christian who dies is with Jesus at once. The body in the grave is kept by God
   and will be raised.
 - **Attitude.** Grieve with hope. Paul wrote so that "you may not grieve as others do who have no
   hope" (1 Thessalonians 4:13, ESV).
@@ -113,8 +114,7 @@ Spirit-filled apostle. He answers that his weakness is where God's power shows. 
 close to death: "we felt that we had received the sentence of death. But that was to make us rely
 not on ourselves but on God who raises the dead" (1:9, ESV).
 
-The tent is his own trade. He made tents at Corinth (Acts 18:3), and a Corinthian reader knew what
-it was to strike one.
+Paul made tents at Corinth (Acts 18:3), and a Corinthian reader knew what it was to strike one.
 
 ### The paragraph
 
@@ -196,11 +196,13 @@ and on both readings verse 8 puts the believer with the Lord at death.
 **Revelation shows that state still running long after the ascension.** The martyrs under the fifth
 seal are conscious, vocal and *waiting*: "they were each given a white robe and told to rest a
 little longer, until the number of their fellow servants and their brothers should be complete"
-(Revelation 6:9-11). They are with God and they are not yet raised.
+(Revelation 6:11, ESV). They are with God and they are not yet raised.
 
 The ESV Study Bible's note on 2 Corinthians 5:8 draws the same line: at death Paul expects to go
 "immediately into the presence of Christ" and to remain there until the day of resurrection. Jesus
-promised the thief the same day: "today you will be with me in paradise" (Luke 23:43, ESV).
+promised the thief His company the same day: "today you will be with me in paradise" (Luke 23:43,
+ESV). Where that Paradise was then, and where it is now, is taken up in
+[The thief and Paradise](#the-thief-and-paradise).
 
 This shows that God receives a believer at death into the company of His Son Jesus, at once. No
 believer waits alone.
@@ -208,12 +210,14 @@ believer waits alone.
 ## The body, still owed
 
 **The raising is a separate, future, bodily event.** "The dead in Christ will rise first. Then we who
-are alive… will be caught up together with them in the clouds" (1 Thessalonians 4:16-17). What rises
+are alive… will be caught up together with them in the clouds" (1 Thessalonians 4:16-17, ESV). What rises
 is a body: "this perishable body must put on the imperishable, and this mortal body must put on
-immortality" (1 Corinthians 15:53).
+immortality" (1 Corinthians 15:53, ESV).
 
-Notice the order in 1 Thessalonians 4:14. God will "bring *with* him those who have fallen asleep,"
-and *then* the dead rise. The person comes with Christ. The body comes out of the ground.
+Notice the order in 1 Thessalonians 4:14. God will "bring *with* him those who have fallen asleep"
+(ESV), and then, in 4:16, the dead rise. The person comes with Christ. The body comes out of the
+ground. Some read "bring with him" as the raising itself; this study reads it with the sequence
+that 4:16 then spells out.
 
 So Scripture names three states:
 
@@ -226,7 +230,16 @@ So Scripture names three states:
 **Christ's own case is the exception that establishes the rule.** His tomb was empty. The tombs of
 those who belong to Him are still full. That is what "firstfruits" claims: "Christ the firstfruits,
 then at his coming those who belong to Christ" (1 Corinthians 15:23). He has already passed into the
-third row of that table. Nobody else has. His three days in death settled where the dead go and who
+third row of that table. Nobody else has. His body also shows where the ascension falls. Before it,
+the risen Lord offered the marks: "See my hands and my feet... a spirit does not have flesh and
+bones" (Luke 24:39, ESV), and to Thomas, "see my hands; and put out your hand, and place it in my
+side" (John 20:27, ESV). After it, John sees One whose "face was like the sun shining in full
+strength" (Revelation 1:16, ESV) and, in the same book, "a Lamb standing, as though it had been
+slain" (Revelation 5:6, ESV). The glory had been shown once in advance, at the transfiguration
+(Matthew 17:2), and it is His in the book of Revelation. This is an inference, and a modest one: it
+makes the ascension a threshold in Christ's own state, and Paul calls the body we will receive "like
+his glorious body" (Philippians 3:21, ESV). It does not by itself move the dead from one place to
+another. His three days in death settled where the dead go and who
 holds the keys (see [what those days achieved](../jesus/three-days-and-three-nights.md#what-those-days-achieved)).
 The graves are emptied at His coming.
 
@@ -269,11 +282,33 @@ serious commentators contest them.**
 - **The captives.** The *ESV Study Bible* judges them "most likely demons." The *NIV Biblical
   Theology Study Bible* has "the spiritual powers Christ conquered by the cross," pointing at
   Colossians 2:15, and says the passage "probably does not refer to Christ's descent into Hades."
+- **Open on the descent.** The *NIV Cultural Backgrounds Study Bible* allows that "lower, earthly
+  regions" could mean "the place of the dead" or the incarnation, and the *NLT Life Application Study
+  Bible* lists the earth, the grave or Hades. Two notes read the descent as the incarnation and two
+  leave it open.
 
 So the answer here is a qualified one. That the righteous dead are now with Christ is taught plainly
 in 2 Corinthians 5:8 and Philippians 1:23. The two-compartment reading has a natural moment for the
 change. But Ephesians 4:8 is a weaker witness to it than it is usually made to carry. The verse most
-often quoted for the emptying of Abraham's side is one its own commentators mostly read another way.
+often quoted for the emptying of Abraham's side is one that two of the four notes read as the
+incarnation, and the other two do not settle.
+
+### The thief and Paradise
+
+**On the two-compartment reading Luke 23:43 and the present state are both true, because they fall
+at different times.** Jesus told the thief, "today you will be with me in paradise" (Luke 23:43,
+ESV). On that reading Paradise on the Friday was Abraham's side, and the thief was with Christ there.
+The word παράδεισος occurs twice more in the New Testament, both after the ascension and both in
+heaven: Paul was "caught up into paradise," which he also calls "the third heaven" (2 Corinthians
+12:2-3, ESV, written about AD 55), and the tree of life stands "in the paradise of God" (Revelation
+2:7, ESV). One before the ascension, two after, in different places: Paradise moved. The text does
+not say how or when, and this is the evidence for the move that does not lean on Ephesians 4:8.
+
+**The other reading has nothing to move.** The *ESV Study Bible* takes Paradise at Luke 23:43 as
+"another name for heaven," so the thief went where Paul went. Both readings end with the believer
+who dies with Christ. They differ on whether anything changed at the ascension, which is why the
+thesis marks that timing as contested. The same question, at greater length, is in
+[Three Days and Three Nights](../jesus/three-days-and-three-nights.md#which-paradise-did-jesus-and-the-thief-go-to).
 
 ## The whole arrangement in one view
 
@@ -321,7 +356,7 @@ Larkin's labels carry the whole reading. **"Paradise"** is "the abode of the sou
 'righteous dead' until Christ's resurrection — **it is now empty**"; **"Hell"** is "the abode of the
 souls of the 'wicked dead' — **still occupied**"; between them "**The Great Gulf**, Luke 16:19-31."
 Below both sit *Tartarus*, "the prison of the fallen angels" (2 Peter 2:4; Jude 6), and the abyss.
-The lake of fire stands apart at the far right. So Larkin, like this study, keeps Hades and the
+The lake of fire stands apart at the bottom right. So Larkin, like this study, keeps Hades and the
 final judgment as two separate things. He also labels the ascending arrow off the cross **"the first
 fruits"**, the same 1 Corinthians 15:20-23 argument made above.
 
@@ -331,8 +366,9 @@ the believer who dies is "at home with the Lord" (2 Corinthians 5:8) and "with C
 (Philippians 1:23). Those texts carry Larkin's reading properly, and this study holds it with him.
 
 **Where it goes beyond what this study will claim.** The caption is the weak point. Larkin labels
-the arrow with Ephesians 4:8-10, and most commentators on this site's shelf read its descent as the
-incarnation and its captives as the powers Christ conquered (see
+the arrow with Ephesians 4:8-10, and the *ESV Study Bible* and *NIV Biblical Theology Study Bible* read its
+descent as the incarnation and its captives as the powers Christ conquered, while two others leave
+the descent open (see
 [Did the descent empty Abraham's side?](#did-the-descent-empty-abrahams-side)). The picture is right;
 the verse written beside it is probably the wrong one to prove it. And the right-hand third of the
 chart runs the resurrections and judgments out through the tribulation and the thousand years, a
