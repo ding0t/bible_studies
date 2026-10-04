@@ -177,6 +177,8 @@ prayer: you pray to the Father, as one adopted through the Son, with the Spirit'
 through, and [Assurance of Salvation](../salvation/assurance-of-salvation.md) answers how you can
 know you are His.
 
+#### A Father near, above, and better than ours
+
 **Our.** The word is plural, and so is every first-person word that follows: give *us*, forgive
 *us*, lead *us*. Cyprian of Carthage made the point in the 250s: "we say not 'My Father, which art
 in heaven,' nor 'Give me this day my daily bread'… Our prayer is public and common" (*On the
@@ -262,6 +264,8 @@ the food that is needful for me" (literally "the bread of my portion", Hebrew *l
 root 728a), asks for enough, without either poverty or riches. This shows that God wants to be asked
 again tomorrow, and that He means to provide.
 
+#### The Father who feeds, in plenty and in want
+
 The same sermon goes on to read like this petition preached. A few verses on, Jesus says: "do not be
 anxious, saying, 'What shall we eat?'… your heavenly Father knows that you need them all" (Matthew
 6:31-32, ESV). The birds and the lilies of Matthew 6:25-30 make the same point.
@@ -301,6 +305,8 @@ and the king released it. This shows that God forgives at His own cost: the
 atonement Jesus made on the cross is what stands behind every "forgive us" you pray. [Forgive Us
 Our Debts](forgiveness.md#how-god-forgives) works this through, and [The Day of
 Atonement](../feasts/day-of-atonement.md) shows the picture Israel was given of it.
+
+#### Forgiven, and forgiving others
 
 **Does God's forgiveness depend on mine?** Matthew makes the link explicit: "if you forgive others
 their trespasses, your heavenly Father will also forgive you, but if you do not forgive others their
@@ -343,6 +349,8 @@ God is never the source of your temptation, and He is the one you ask to keep yo
 the evil one". English translations split on it (the ESV and NASB have "evil"; the NIV, CSB and WEB
 "the evil one"), and either is grammatically defensible. Either way, the prayer ends by admitting you
 cannot keep yourself, and asking the Father who can.
+
+#### Christ's testing and God's faithfulness
 
 **Jesus went in first.** "Jesus was led up by the Spirit into the wilderness to be tempted by the
 devil" (Matthew 4:1, ESV). He entered the testing this petition asks to be spared, and came out

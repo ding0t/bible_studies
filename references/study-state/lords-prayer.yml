@@ -480,3 +480,20 @@ fixes_2026-10-04b:
     repaired; Matt 18:22 answer attributed to Jesus; Trinity "stands behind" the first word; X-not-Y
     sentence cut; hagiasate pronunciation; Didache "probably about AD 100"; Q2 replaced with an
     epiousios question; "Jesus'" standardised; John 6:35 "the next day".
+
+read_2026-10-04:
+  skill: read-bible-study (separate session from drafting/review)
+  before: {sections: 22, with_prose: 17, median_words: 169, longest_words: 496, over_target: 4, walls: 0}
+  after: {sections: 26, with_prose: 21, median_words: 181, longest_words: 344, over_target: 0, walls: 0}
+  changes: >
+    Four #### sub-headings added at natural breaks in the petition sections; bold run-in labels
+    kept as-is (converting them to headings would rewrap their paragraph lines, which the
+    prose-identity check reads as changed sentences). Our Father in heaven 432 -> 251 + "A Father
+    near, above, and better than ours" 181 (Our / In heaven / hard word). Give us this day our daily
+    bread 433 -> 172 + "The Father who feeds, in plenty and in want" 261. Forgive us our debts
+    472 -> 211 + "Forgiven, and forgiving others" 261. Lead us not into temptation 496 -> 233 +
+    "Christ's testing and God's faithfulness" 263. All ### headings unchanged, so every inbound
+    anchor still resolves (checked against a built page; no dangling in-page hrefs). Study outline
+    unchanged: its ### grouping still matches.
+  verify_against_HEAD: "clean: true -- no sentence changed (removed [], added_unexpected [])"
+  validate: no warnings for this file

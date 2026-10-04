@@ -124,3 +124,27 @@ fixes_2026-10-04:
     "the next day"; Ezek 36:17-20; Matt 4:1; Deut 8:3; Matthew 18:22 footnote; Luke 11:1 complete;
     Rev 22:20 rendered as promise/answer; amen H543 added; "Notice that" and the gospel-centre
     overclaim cut; frontmatter references completed. Outline above corrected (seven weeks; Exodus 34).
+
+read_2026-10-04:
+  pass: read-bible-study (structure only; separate session from the draft, not the author)
+  before: {sections: 18, median_words: 135, longest_words: 320, over_400: 0, walls: 0}
+  after:  {sections: 18, median_words: 135, longest_words: 320, over_400: 0, walls: 0}
+  stranger_read: >
+    The seven weeks already share one shape and label order: What it shows about God, Story,
+    For children, For adults, At home, Learn, Pray it over your children, Go deeper. Week 7 keeps
+    that order, with "The prayer" and "Amen" filling the Story slot, so no label was reordered.
+    Every week is 203-320 words, one screen at a table. The structural problem was "Different
+    ages": it told a parent how to pitch each week's parts to a toddler, a child or a teenager,
+    but sat after Week 7, where it is found only once the seven weeks are over.
+  changes:
+    - "Moved '## Different ages' up to '### Different ages' inside 'How to use this guide', right after the list of each week's parts it refers to. Heading text, so the #different-ages anchor, unchanged; no inbound links exist."
+    - "Study outline: Different ages bullet folded into the How to use bullet (descriptive link); new descriptive bullet for Questions for parents. Edited bullets kept to one line each."
+  verify_against_HEAD: >
+    added_unexpected: none. removed: ["and teenagers."] -- the wrapped continuation line of the
+    old Study outline bullet for Different ages, not study prose (study_structure.py ignores a
+    list item's first line but reads its indented continuation as prose). No sentence of the
+    study changed.
+  validate: "npm run validate passes; no warning reported for this file."
+  findings_for_author:
+    - "Label punctuation is mixed: Story./At home./Pray it over your children. take a full stop; What it shows about God:/For children:/For adults:/Learn:/Go deeper: take a colon. Unifying it changes prose lines, so left for the author."
+    - "'How to use this guide' promises 'A story' each week; Week 7 has none (The prayer + Amen take that slot). Fine as content, but the list could say so."

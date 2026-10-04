@@ -69,15 +69,14 @@ of their lives. In Jesus' name. Amen.
 
 - **[Why a household teaches this prayer](#why-a-household-teaches-this-prayer)** — Psalm 78 and
   the early church's three times a day.
-- **[How to use this guide](#how-to-use-this-guide)** — what each week contains.
+- **[How to use this guide](#how-to-use-this-guide)** — what each week contains, and [how to pitch it](#different-ages) to little children, school-age children and teenagers.
 - **The seven weeks** — [Our Father](#week-1-our-father-in-heaven) ·
   [Hallowed](#week-2-hallowed-be-your-name) · [Kingdom and will](#week-3-your-kingdom-come-your-will-be-done) ·
   [Daily bread](#week-4-give-us-this-day-our-daily-bread) ·
   [Forgive](#week-5-forgive-us-our-debts) ·
   [Temptation and evil](#week-6-lead-us-not-into-temptation-but-deliver-us-from-evil) ·
   [The whole prayer](#week-7-the-whole-prayer-and-amen).
-- **[Different ages](#different-ages)** — what to expect of little children, school-age children
-  and teenagers.
+- **[Questions for parents](#questions-for-parents)** — five questions to look back on the seven weeks.
 
 ## Why a household teaches this prayer
 
@@ -107,6 +106,22 @@ Take one line a week, and pray the whole prayer together every day while you do.
 
 Seven weeks is a pace, and a family can stay on a line for longer. The point is that each line gets
 a week of attention before the next.
+
+### Different ages
+
+**Little children** learn the words by hearing them. Pray the prayer aloud every day; let them join in
+as they can, and teach them the one-sentence "what it shows about God" line for each week. A three-
+or four-year-old who can say "God is our Father, because Jesus made us His children" is already
+saying the gospel.
+
+**School-age children** can take the story, the question and the verse. Let them retell the story in
+their own words before you add anything. Let their prayers run their course; corrections can wait
+(Ephesians 6:4).
+
+**Teenagers** are ready for the hard questions, and taking them seriously is part of teaching them.
+Two arise from this prayer. How can we ask God not to lead us into temptation when "he himself tempts
+no one" (James 1:13, ESV)? And does Matthew 6:15 mean God's forgiveness depends on ours? [The Lord's
+Prayer](lords-prayer.md) answers both; read those sections with them and ask what they make of it.
 
 ## Week 1: Our Father in heaven
 
@@ -319,22 +334,6 @@ him be glory in the church and in Christ Jesus throughout all generations, forev
 
 **Go deeper:** [What the prayer teaches](lords-prayer.md#what-the-prayer-teaches), [A pattern to pray
 by](prayer-as-communion.md#a-pattern-to-pray-by).
-
-## Different ages
-
-**Little children** learn the words by hearing them. Pray the prayer aloud every day; let them join in
-as they can, and teach them the one-sentence "what it shows about God" line for each week. A three-
-or four-year-old who can say "God is our Father, because Jesus made us His children" is already
-saying the gospel.
-
-**School-age children** can take the story, the question and the verse. Let them retell the story in
-their own words before you add anything. Let their prayers run their course; corrections can wait
-(Ephesians 6:4).
-
-**Teenagers** are ready for the hard questions, and taking them seriously is part of teaching them.
-Two arise from this prayer. How can we ask God not to lead us into temptation when "he himself tempts
-no one" (James 1:13, ESV)? And does Matthew 6:15 mean God's forgiveness depends on ours? [The Lord's
-Prayer](lords-prayer.md) answers both; read those sections with them and ask what they make of it.
 
 ## Questions for parents
 
