@@ -1,0 +1,86 @@
+slug: teaching-the-lords-prayer-at-home
+title: "Teaching the Lord's Prayer at Home"
+status: review
+target_path: docs/content/christian-life/teaching-the-lords-prayer-at-home.md
+
+primary_passage: "Matthew 6:9-13; Deuteronomy 6:6-7"
+supporting_passages:
+  - "Luke 11:1"
+  - "Psalm 78:4-7"
+  - "Ephesians 6:4"
+  - "2 Timothy 1:5; 3:15"
+  - "Exodus 16:4-21"
+  - "Matthew 18:21-35"
+  - "Matthew 4:1-11"
+  - "1 Corinthians 10:13"
+genre: [topical]
+
+thesis: >
+  A household learns the Lord's Prayer the way Deuteronomy 6 says every word of God is learned:
+  in the ordinary hours of the day, one line at a time, prayed together before it is explained,
+  so that children and parents come to know who the Father is and ask Him for what they need.
+outline:
+  - {section: "Key Takeaways", says: "Lessons about Jesus (He taught by praying first), memory verse, Be Transformed, a family prayer."}
+  - {section: "Why a household teaches this prayer", says: "Deut 6:6-7 and Ps 78:4-7 put teaching in ordinary time; Luke 11:1 shows prayer learned by watching; Didache 8:3 shows the church praying it three times a day. Links prayer-as-communion#teaching-a-household-to-pray."}
+  - {section: "How to use this guide", says: "One line a week for six weeks; each week has the line, what it shows about God in one sentence a child can say, a Bible story, a question for children, a question for adults, a household practice, a verse to learn, and where to go deeper."}
+  - {section: "Week 1 -- Our Father in heaven", says: "Adoption through Jesus; 'our' makes it a family prayer. Story: the prodigal's father (Luke 15:20). Deeper: lords-prayer#our-father-in-heaven, prayer-as-communion, assurance-of-salvation."}
+  - {section: "Week 2 -- Hallowed be your name", says: "God's name is who He is (Exodus 34:6-7); a family carries it (Ezek 36:20). Story: Daniel's window (Daniel 6:10). Deeper: lords-prayer#hallowed-be-your-name."}
+  - {section: "Week 3 -- Your kingdom come, your will be done", says: "Jesus is King and is coming back; 'your will' hands ours over. Story: Gethsemane (Matt 26:39). Deeper: your-kingdom-come, rapture."}
+  - {section: "Week 4 -- Our daily bread", says: "The Father provides one day at a time. Story: manna (Exodus 16). Practice: specific thanks at meals, sharing. Deeper: bread-of-life-feeding-the-multitudes, humility#daily-bread."}
+  - {section: "Week 5 -- Forgive us our debts", says: "Jesus paid the debt; we forgive because we are forgiven. Story: the unforgiving servant (Matt 18:21-35). Practice: family words for asking and granting forgiveness. Deeper: forgiveness, day-of-atonement, hurt-by-the-church."}
+  - {section: "Week 6 -- Lead us not into temptation, deliver us from evil", says: "Jesus was tested and won; God gives the way of escape. Story: the wilderness (Matt 4:1-11). Practice: plan a way of escape. Deeper: fasting#forty-days-in-the-wilderness, rapture#kept-from-the-hour."}
+  - {section: "Week 7 -- The whole prayer, and Amen", says: "Pray it together at set times; the doxology and what Amen means."}
+  - {section: "Different ages", says: "Little ones memorise and say one sentence; school-age hear the story and answer; teenagers take the hard questions (James 1:13; Matt 6:15) from the main study."}
+  - {section: "Questions for parents", says: "Discussion questions for the adults leading."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Companion to christian-life/lords-prayer.md, requested 2026-10-04 (review_2026-10-04 option 2).
+      Exegesis of Matthew 6:9-13 / Luke 11:2-4 is NOT redone here: it lives in
+      references/study-state/lords-prayer.yml and the published study, which this page links
+      petition by petition. This page's own exegesis is the household-teaching passages.
+      Builds on prayer-as-communion.md#teaching-a-household-to-pray without repeating it.
+  exegesis:
+    historical_context:
+      done: false
+      notes: ""
+    literary_context:
+      done: false
+      notes: ""
+    content_word_studies:
+      done: false
+      notes: ""
+      terms: []
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: false
+      notes: "Wisdom lens: Proverbs 22:6 is an observation, not a promise -- if used, say so."
+    theological_principle:
+      done: false
+      notes: ""
+
+drafting:
+  done: true
+  date: "2026-10-04"
+  words: 2860
+  notes: >
+    Thesis and outline approved by the author 2026-10-04. Added on the author's prompt to consider
+    Paul's prayers: each week carries a "Pray it over your children" line from Paul's prayers for
+    his churches (Eph 3:14-15 with patria G3965; 2 Thess 1:12; Col 1:9, 13, 14; Phil 4:11, 19;
+    2 Thess 3:3). All ESV quotations verified against study-notes.db; counts verified by script
+    (52 words in ESV Matt 6:9-13 'Our Father'..'evil'; 9 first-person plurals). Every link targets
+    a published page and an existing heading. validate: provenance warnings only (ai_provider_models
+    fills on first commit). read_structure: 18 sections, median 160, 0 over target, 0 walls.
+    Still owed: review-bible-study and a read-bible-study pass in a separate session before
+    draft: false; then link it from lords-prayer.md in the same commit that publishes it.
+
+open_questions:
+  - "Fork candidate (author raised 2026-10-04): a study of Paul's prayers in the epistles as the Lord's Prayer prayed for others. Verified anchors per petition: Father Eph 3:14-15 (patria/pater) with Gal 4:6, Rom 8:15; Name 2 Thess 1:11-12; Kingdom/will Col 1:9, 13 and 2 Cor 12:8-9 (the thorn, a request answered no); Bread Phil 4:11-13, 19; Forgive Col 1:14; Evil one 2 Thess 3:3, 1 Thess 5:23-24. Other prayers to cover: Eph 1:15-23; Phil 1:9-11; 1 Thess 3:11-13; Rom 15:5-6, 13; Philem 4-6. prayer-as-communion.md already treats what Paul asks for (epignosis) and what he asked for himself -- the new study must not repeat those sections."
+resources_consulted:
+  - {type: other, title: "Didache 8:2-3", author: "ANF 7 (public domain)", note: "Verified in $BIBLE_MEDIA_ROOT/reference/patristics/ante-nicene-fathers/anf07.txt: 'Thrice in the day thus pray.'"}
+  - {type: other, title: "Cyprian, On the Lord's Prayer 8, 12", author: "ANF 5 (public domain)", note: "Verified in anf05.txt."}
+last_updated: "2026-10-04"

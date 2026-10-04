@@ -324,8 +324,8 @@ review_2026-09-19:
     warning remains, present before this review too). read_structure: 33 sections, median 112
     words, 0 over target, 0 walls.
 last_updated: "2026-09-29"
-word_budget: 4000
-word_budget_note: "Default. After simplify_2026-09-29 the study counts 2,692 words (Check 23 method)."
+word_budget: 4400
+word_budget_note: "Raised 2026-10-04 from the 4,000 default at the author's request for theological and pastoral depth to teach a family (review_2026-10-04). 4,334 words after that pass; per-petition depth is handed to sibling studies by link, and household teaching lives in a separate companion page."
 
 review_2026-09-29:
   request: "Run a review and read and simplify over the Lord's Prayer study. As per the prayer as communion -- the study is to be accessible and practical."
@@ -397,3 +397,46 @@ read_2026-09-29:
   anchors: "All 11 in-page hrefs resolve against rendered heading ids."
   validate: "npm run validate -- no warnings for lords-prayer.md."
   verifies_nothing: "Structure only; accuracy rests on review_2026-09-29."
+
+review_2026-10-04:
+  request: "The per-component study is good but not deep enough pastorally or theologically to teach my family through it well."
+  scope: >
+    Depth review, not a re-audit: accuracy was fully reviewed 2026-09-29. Checked the study against
+    AGENTS.md's "this shows that God ___" / named-doctrine rule, the prayer's own grammar, its
+    Matthew 6 literary context, and sibling studies. ESV verified (study-notes.db) for every verse
+    recommended below: Gal 4:4-6, Rom 8:15, John 1:12, Ps 27:10, Ezek 36:20-22, Matt 6:31-32,
+    Matt 18:24, 32-33, Col 2:13-14, Luke 23:34, Matt 4:1, 1 Cor 10:13, Heb 4:15-16, John 17:15,
+    Isa 64:8. Greek checked: 1 Pet 3:15 hagiasate (G37, same verb as hagiasthetō); Col 2:14
+    cheirographon (G5498), a different word from opheilēma.
+  moderate:
+    - "Doctrine named nowhere: adoption, atonement/the cross, grace, the Spirit's role in prayer. 'Our Father' rests on Israel's corporate address (Isa 63:16) and never says how anyone becomes a child who may pray it (John 1:12; Gal 4:4-6; Rom 8:15)."
+    - "Forgive us our debts never says what God did to cancel the debt (Col 2:13-14; Matt 18:23-35), never addresses whether Matt 6:14-15 makes forgiveness conditional, and does not link the site's own forgiveness.md, whose primary_passage is Matt 6:14-15."
+    - "The prayer's first-person forms are all plural (9 in Matt 6:9-13 ESV, no singular); every 'Pray it' line and the closing Prayer are singular. For family use this inverts the prayer's own grammar."
+    - "Matthew 6:19-34 (anxiety, 'your heavenly Father knows that you need them all', 6:32) is the sermon's own comment on daily bread; the study cites only 6:33."
+    - "Hallowed: cites Ezek 36:23 but not 36:20-22, where Israel's conduct profaned the name -- the half that lands on the one praying."
+    - "Temptation: no link to Jesus' own testing (Matt 4:1), His intercession (John 17:15), or God's promise answering the petition (1 Cor 10:13; Heb 4:15-16)."
+    - "Lessons about Jesus has two bullets; Jesus lives every petition (John 17; Gethsemane; Matt 4; Luke 23:34 -- textually contested, mark it)."
+    - "Pastoral hard cases absent: 'Father' for someone with an absent or harmful father (Ps 27:10); daily bread when it does not come."
+    - "Discussion questions are all adult-introspective; none asks what a line shows about God, none about Christ."
+  minor:
+    - "Isa 64:8 quoted from 'we are the clay' -- omits 'you are our Father', the words it is cited for."
+    - "Origen on epiousios cited without a work (On Prayer 27.7 -- verify; no patristics source in sources.toml, check BIBLE_MEDIA_ROOT corpus)."
+  size: "2,692 words / 4,000 budget. Recommended additions ~1,200-1,500 in the study; family-teaching material would exceed budget and is recommended as a companion page."
+  outcome: >
+    Author chose option 2 (deepen + companion) and asked that existing studies be linked. Applied:
+    Our Father gains "Who may say it" (John 1:12, Gal 4:4-6, adoption, Trinity), "Our" (Cyprian,
+    On the Lord's Prayer 8, ANF 5 -- verified in the patristics corpus), "In heaven" (Eccl 5:2),
+    "When father is a hard word" (Ps 27:10); Hallowed gains Ezek 36:20, 1 Pet 3:15 hagiasate, John
+    17:6, Cyprian 12; Kingdom trimmed (Luke 17:21 dropped, already in your-kingdom-come) and given
+    its God-sentence; Daily bread gains Matt 6:31-32, Matt 4:4, John 6:35, Hab 3:17-18, Phil 4:12;
+    Forgive gains Col 2:14, Matt 18:22-33, the conditional question with both readings; Temptation
+    gains Matt 4:1, Heb 4:15, John 17:15, Luke 22:31-32, 1 Cor 10:13, Rev 3:10 marked contested.
+    Lessons about Jesus +1 bullet (Luke 23:34 marked as textually uncertain -- CSB/LSB/NLT footnotes
+    confirm). Be Transformed and Prayer made plural and household-facing; Didache 8:2-3 (ANF 7)
+    added for thrice-daily practice and the doxology's shorter first form. Isa 64:8 quote now
+    includes "you are our Father". 3 discussion questions added (God, Christ, adoption). Links
+    added: fasting#in-secret, fasting#forty-days-in-the-wilderness, prayer-as-communion (2 anchors),
+    assurance-of-salvation, bread-of-life#daily-bread, humility#daily-bread, forgiveness (2
+    anchors), day-of-atonement, hurt-by-the-church, rapture#kept-from-the-hour -- all published,
+    mkdocs build clean for this page. Origen citation left unverified (De Oratione not in corpus).
+    Companion page started via develop-bible-study (state file teaching-the-lords-prayer.yml).
