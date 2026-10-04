@@ -120,7 +120,7 @@ stages:
     file: "docs/content/christian-life/forgiveness.md"
   review:
     done: true
-    validated: true # npm run validate + mkdocs build --strict, 2026-10-04; author approved. read-bible-study not yet run
+    validated: true # npm run validate + mkdocs build --strict, 2026-10-04; author approved. read-bible-study run 2026-10-04 (see read)
     note: "review-bible-study 2026-10-04"
     review_2026-10-04: >-
       Independent adversarial review (pre-approved fixes applied). Every ESV quotation re-queried with
@@ -139,6 +139,17 @@ stages:
       25:21; Matthew 5:1-2 cited for the disciple audience. Commentary cross-check: NIV BTSB Luke 17:3
       and NLT LAS Mark 11:25 confirm the two-movement reading. Statement of faith (Salvation,
       Justification): consistent. Weapon section judged exegetically fair; 6:15's real warning kept.
+  read:
+    done: true
+    note: >-
+      read-bible-study 2026-10-04 (fresh session, structure only; study_structure.py --verify-against
+      HEAD: no sentence changed). "How they fit, and where Christians differ" split into "How they
+      fit" and "Where Christians differ" (the contested reading gets its own heading); "It is
+      something you can also receive" renamed "Go first, and restore the one who repents" to name
+      its content; "The freedom of it" promoted from a sub-section of "What forgiveness is not" to
+      "## The freedom of forgiving", the study's close. Study outline updated to match (new bullet,
+      Two movements annotation extended). Left for the author: the negative headings under "What
+      forgiveness is not" and "Not received by those who refuse".
 
 open_questions:
   - "Fork candidate: aphesis and the jubilee (Lev 25 LXX; Luke 4:18) -- release as the shape of forgiveness. Left out of this study."

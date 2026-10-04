@@ -83,6 +83,17 @@ stages:
       Publish blocker: links to run-the-race.md, still draft (validator Check 24 error once this
       page is draft: false).
 
+  read:
+    done: true
+    date: 2026-10-04
+    notes: >-
+      read-bible-study pass (fresh session). Already well structured: 0 sections over 400 words,
+      longest 235 (Weeds in the field). Shepherds who harm: "Ezekiel 34" -> "Ezekiel 34: ruled
+      with harshness"; "In the church" -> "Diotrephes and domineering"; the Romans 13 paragraph on
+      reporting a crime given its own sub-heading "When the harm is a crime" (it was buried under
+      Diotrephes and is the Be Transformed "Do" item). No inbound anchor links affected.
+      study_structure.py --verify-against HEAD: no sentence changed.
+
 open_questions:
   - "Forgiveness in depth (when repentance is required, forgiveness and trust, love and forgiveness) is now its own study, forgiveness.md (published 2026-10-04), linked from The road back and On this site."
   - "run-the-race.md link removed from On this site at publish (2026-10-04): Run the Race is still a draft (validator Check 24). Re-add it when Run the Race publishes."

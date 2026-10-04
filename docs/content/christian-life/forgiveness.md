@@ -90,12 +90,13 @@ In Jesus' name. Amen.
   received by those who refuse.
 - [What Matthew 6:15 warns a believer about](#what-matthew-615-warns-a-believer-about). Two readings,
   and what both keep secure.
-- [Two movements of forgiveness](#two-movements-of-forgiveness). Mark 11:25 and Luke 17:3-4.
+- [Two movements of forgiveness](#two-movements-of-forgiveness). Mark 11:25 and Luke 17:3-4, how they fit, and where Christians differ.
 - [When the offender keeps on](#when-the-offender-keeps-on). Confront, release, love, and guard.
 - [When Matthew 6:15 is used as a weapon](#when-matthew-615-is-used-as-a-weapon). Four ways the
   verse is bent to silence the wronged, and what it does ask.
 - [What forgiveness is not](#what-forgiveness-is-not). The pastoral section: false guilt, and what
   forgiving does not require of you.
+- [The freedom of forgiving](#the-freedom-of-forgiving). The close: handing the account to the Father.
 - [Discussion questions](#discussion-questions). Seven, for a group or on your own.
 
 ## Matthew 6:14-15 in its place
@@ -304,12 +305,14 @@ Judaism forgiving three times was thought honourable (note on Luke 17:3-4); Jesu
 in a day, and to Peter "seventy-seven times" (Matthew 18:22, ESV). No count closes the door to a
 brother who turns back.
 
-### How they fit, and where Christians differ
+### How they fit
 
 Put together, the two match the way God forgives. God paid the debt and offered release before
 anyone asked; He grants forgiveness and fellowship to those who repent. You release the debt to God
 at once, whether or not the other person ever repents; you grant forgiveness, spoken and restored,
 when they do.
+
+### Where Christians differ
 
 Christians disagree about what to *call* the first movement, and the disagreement is fair:
 
@@ -463,7 +466,7 @@ Trust is rebuilt over time by changed behaviour, and it can take years. A forgiv
 be kept away from the till, and a forgiven abuser away from the people they harmed (see
 [Guard](#guard)).
 
-### It is something you can also receive
+### Go first, and restore the one who repents
 
 If you are the one who did wrong, go first. "If you ... remember that your brother has something
 against you, leave your gift there before the altar and go. First be reconciled to your brother"
@@ -472,7 +475,7 @@ until he is crushed. Paul told the Corinthians to "turn to forgive and comfort h
 overwhelmed by excessive sorrow ... so that we would not be outwitted by Satan" (2 Corinthians 2:7,
 11, ESV).
 
-### The freedom of it
+## The freedom of forgiving
 
 Forgiving is a release for the one who forgives as well. You stop carrying an account that was never
 yours to collect. You give it to your Father, who sees, who judges justly, and who forgave you a debt

@@ -95,8 +95,8 @@ In Jesus' name. Amen.
   the psalm He fulfilled.
 - [Brothers who fail you](#brothers-who-fail-you). Quarrels and desertion among real believers, and
   the road back.
-- [Shepherds who harm](#shepherds-who-harm). Ezekiel 34, Diotrephes, and the word Jesus and Peter
-  used for domineering.
+- [Shepherds who harm](#shepherds-who-harm). Ezekiel 34, Diotrephes, the word Jesus and Peter
+  used for domineering, and when the harm is a crime.
 - [Wolves and false teachers](#wolves-and-false-teachers). Who the wolves are, how Scripture tells
   you to test them, and what to do.
 - [Weeds in the field](#weeds-in-the-field). Matthew 13 read as Jesus explained it, and what it
@@ -155,7 +155,7 @@ charged against them!" (2 Timothy 4:16, ESV). How forgiveness relates to repenta
 
 ## Shepherds who harm
 
-### Ezekiel 34
+### Ezekiel 34: ruled with harshness
 
 Ezekiel 34 is God's indictment of Israel's leaders, whom He calls shepherds. "Ah, shepherds of Israel who have been
 feeding yourselves! Should not shepherds feed the sheep?" (Ezekiel 34:2, ESV). The charge lists what
@@ -172,7 +172,7 @@ shepherds ruled God's flock the way Pharaoh ruled slaves.
 God's answer is to take the flock back: "I will rescue my sheep from their mouths ... I myself will
 search for my sheep and will seek them out" (Ezekiel 34:10-11, ESV).
 
-### In the church
+### Diotrephes and domineering
 
 The New Testament has its own example. Diotrephes, "who likes to put himself first," talked "wicked
 nonsense" against the apostle, refused to welcome travelling believers, "and also stops those who
@@ -184,6 +184,8 @@ among you" (Matthew 20:25-26, ESV). Peter uses the same word when he instructs e
 flock "not domineering over those in your charge, but being examples to the flock" (1 Peter 5:3,
 ESV). Κατακυριεύω (*katakyrieuō*, G2634) is "lord it over" in Matthew 20:25 and "domineering" in
 1 Peter 5:3.
+
+### When the harm is a crime
 
 When a leader's harm is a crime, the church is not the only authority God has given. The governing
 authority "is God's servant for your good ... he does not bear the sword in vain" (Romans 13:4, ESV).
