@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 50:17-21
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 50:26
 <!-- commentary-index:auto-end -->

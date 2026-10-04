@@ -19,6 +19,7 @@ draft: false
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 2:16-17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 2:16-17
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 2:15
+- [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 2:13-14
 - [In Humility](../../christian-life/humility.md) — 2:16-23
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:17
 - [Pride](../../sin/pride.md) — 2:18

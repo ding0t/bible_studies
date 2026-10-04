@@ -15,6 +15,7 @@ draft: false
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 2:3
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 2:5
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 2:9
+- [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 2:23
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:9
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:9
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 2:22

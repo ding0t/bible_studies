@@ -1,0 +1,192 @@
+slug: "forgiveness"
+title: "Forgive Us Our Debts"
+status: published
+target_path: "docs/content/christian-life/forgiveness.md"
+
+primary_passage: "Matthew 6:14-15"
+supporting_passages:
+  - "Matthew 6:12"
+  - "Mark 11:25"
+  - "Luke 17:3-4"
+  - "Matthew 18:15-35"
+  - "Luke 23:34"
+  - "Acts 2:36-38"
+  - "Acts 3:17-19"
+  - "Ephesians 4:31-32"
+  - "Colossians 2:13-14"
+  - "Colossians 3:13"
+  - "Romans 12:17-21"
+  - "1 Peter 2:23"
+  - "1 Peter 4:5"
+  - "2 Timothy 4:14-16"
+genre: [gospel, topical]
+
+thesis: >-
+  God forgives by cancelling a debt we could never pay, paid by His Son Jesus and offered before
+  anyone asks, and that forgiveness is received by everyone who repents; a disciple who has received
+  it forgives the same way: releasing every debt to God at once, granting forgiveness and restored
+  fellowship when the offender repents, and leaving the unrepentant to the Judge without vengeance,
+  bitterness or a demand to trust.
+outline:
+  - section: "Matthew 6:14-15 in its place"
+    says: "The only petition Jesus comments on; spoken to disciples who call God Father; forgiveness is a debt released."
+  - section: "The words"
+    says: "aphiemi (release), opheilema (debt), paraptoma (trespass), charizomai (give freely); in the Hebrew Bible salach always has God as the forgiver."
+  - section: "How God forgives"
+    says: "Paid and offered before asked (Rom 5:8; 2 Cor 5:19; Luke 23:34); received through repentance and faith (Luke 24:47; Acts 2:38; 3:19); not received by those who refuse it (Exod 34:7; Deut 29:19-20; 1 John 1:8-10; 1 Pet 4:5)."
+  - section: "What 6:15 warns a believer about"
+    says: "Contested: Father's family forgiveness (ESVSB, NIV BTSB) vs unforgiveness exposing an unchanged heart (Matt 18:35); both keep justification secure; Eph 4:32 gives the order of grace."
+  - section: "Two movements of forgiveness"
+    says: "Mark 11:25 release before God without a stated condition; Luke 17:3-4 granted forgiveness on repentance, without count. Contested whether the first is forgiveness proper; both sides given."
+  - section: "When the offender keeps on"
+    says: "Confront, release vengeance to God (Rom 12:19; 1 Pet 2:23; 4:5), love and pray, guard yourself (2 Tim 4:14-15; Joseph). Love is owed to all; restored trust is earned."
+  - section: "When Matthew 6:15 is used as a weapon"
+    says: "Author-requested: 'forgive or lose your salvation' demands more of the victim than God asks of the unrepentant; moves the burden off the offender; misreads Matt 18:29-35 (the condemned servant refused a debtor who pleaded); redefines forgiveness as silence and trust. What the verse truly asks."
+  - section: "What forgiveness is not"
+    says: "Pastoral: not forgetting, not feeling nothing, not excusing, not removing consequences, not trust; anger can be without sin; it may need doing again."
+word_budget: 4500
+word_budget_reason: "Backlog 10.7 sets four questions (what forgiveness is, false guilt, when not warranted, love vs forgiveness) and the author added two mid-session (1 Peter 4:5: forgiveness is not universal; Matthew 6:15 used as spiritual abuse). Draft is 4,359 words; simplify-bible-study can still recommend a fork."
+
+stages:
+  scoping:
+    done: true
+    notes: >-
+      Backlog 10.7 (Forgiveness): what biblical forgiveness is; avoiding error and false guilt;
+      when forgiveness is not warranted; how love differs from forgiveness. User brief 2026-10-04:
+      repentant debtor vs ongoing offender; Christ's forgiveness unconditional in offer, received by
+      the repentant; cover the pastoral angle. Mid-session the user added 1 Peter 4:5 -- forgiveness
+      is not universal for those who never admit their wrong; they give account to the Judge.
+      hurt-by-the-church.md promises this study ("How forgiveness relates to repentance and to trust
+      (Luke 17:3-4) needs a study of its own") -- that line now links here. hurt-by-the-church.md is
+      itself still draft: true, so this study does not link back to it; add the back-link when it publishes.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Sermon on the Mount, Galilee, to disciples with crowds listening (Matt 5:1-2; 7:28). Debt
+        language: sabbatical/jubilee debt release (Deut 15:1-2); Jewish teachers spoke of sins as
+        debts before God (NIV/NKJV Cultural Backgrounds notes on Matt 6:12). Talent ~20 years' wages
+        (ESVSB Matt 18:24); 10,000 = the largest Greek numeral (NIV BTSB). Jewish custom of private
+        reproof and repentance with restitution (Cultural Backgrounds on Luke 17:3); forgiving three
+        times considered honourable (ESVSB on Luke 17:3-4).
+    literary_context:
+      done: true
+      notes: >-
+        Matt 6:1-18 three acts of piety (giving, prayer, fasting). 6:14-15 is a coda (gar, "for")
+        explaining one petition, 6:12 -- the only petition Jesus comments on. Same structure in Mark
+        11:25 (prayer + forgive). Matt 18 develops it: confront (15-17), seventy-seven times (21-22),
+        unforgiving servant (23-35) whose closing line echoes 6:15.
+    content_word_studies:
+      done: true
+      notes: >-
+        6:12 SBLGNT aorist aphekamen ("have forgiven", ESV/NASB) vs TR present (WEB "forgive").
+        6:15 variant: SBLGNT omits "their trespasses" after "men" (CSB footnote: other mss add); ESV
+        includes it. Luke 23:34 is textually uncertain (CSB/LSB/NLT footnotes: some early mss omit);
+        UGNT includes; mark it and lean on Acts 7:60 which is secure.
+      terms:
+        - {word: "ἀφίημι", language: greek, transliteration: "aphiēmi", strongs_id: "G863", gloss: "let go, release, leave, forgive", notes: "143x SBLGNT. Matt 4:20 left nets; Matt 18:27 debt released."}
+        - {word: "ὀφείλημα", language: greek, transliteration: "opheilēma", strongs_id: "G3783", gloss: "debt"}
+        - {word: "παράπτωμα", language: greek, transliteration: "paraptōma", strongs_id: "G3900", gloss: "trespass, false step"}
+        - {word: "χαρίζομαι", language: greek, transliteration: "charizomai", strongs_id: "G5483", gloss: "give freely, forgive, cancel a debt", notes: "Eph 4:32 x2; Luke 7:42 cancelled debt; Col 2:13"}
+        - {word: "μετανοέω", language: greek, transliteration: "metanoeō", strongs_id: "G3340", gloss: "repent", notes: "Luke 17:3, 4"}
+        - {word: "סָלַח", language: hebrew, transliteration: "salach", strongs_id: "H5545", gloss: "forgive, pardon", notes: "46 occurrences (macula-hebrew-wlc), every one with God as forgiver or divine passive."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Debt-release economics is the then-and-there frame; the principle (sin as unpayable debt, released by the creditor) transcends it."
+    theological_principle:
+      done: true
+      notes: >-
+        Statement of faith check: Justification "neither improves nor erodes with my performance."
+        6:15 read as loss of justification would conflict. Both readings presented (family/fellowship
+        forgiveness; unforgiveness as evidence of an unchanged heart) keep justification secure, so
+        no conflict. Salvation section: grace alone through faith alone -- repentance presented as
+        receiving, not paying. Consistent.
+    application_draft:
+      done: true
+      notes: "Pastoral section on false guilt; when the offender keeps on; abuse and safety."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Mark 11:25", relation: "parallel teaching: forgive while praying, no condition named"}
+      - {ref: "Luke 17:3-4", relation: "forgive the one who repents, without limit"}
+      - {ref: "Matthew 18:21-35", relation: "unpayable debt parable; 18:35 echoes 6:15"}
+      - {ref: "Ephesians 4:32; Colossians 3:13", relation: "order of grace: forgiven, therefore forgive"}
+      - {ref: "1 Peter 4:5; 2:23", relation: "unrepentant give account; entrust to Judge (user-added)"}
+    translations_compared: ["ESV", "NASB", "WEB", "SBLGNT", "UGNT"]
+    divergences_noted: "Matt 6:12 tense (ESV/NASB aorist vs WEB present); Matt 6:15 'their trespasses' variant; Luke 23:34 variant."
+  drafting:
+    done: true
+    file: "docs/content/christian-life/forgiveness.md"
+  review:
+    done: true
+    validated: true # npm run validate + mkdocs build --strict, 2026-10-04; author approved. review-bible-study / read-bible-study not yet run
+
+open_questions:
+  - "Fork candidate: aphesis and the jubilee (Lev 25 LXX; Luke 4:18) -- release as the shape of forgiveness. Left out of this study."
+  - "Fork candidate: the unforgivable sin (Matt 12:31-32) and 'sin that leads to death' (1 John 5:16). Not covered."
+  - "Classic dispensational reading of Matt 6:12/14-15 (Sermon as kingdom ethic; Eph 4:32 as the order of grace) -- tried to verify the Scofield Reference Bible note (1917) and could not reach the text (studylight 403; biblestudytools shows only 'debts: sin'). The study states the textual observation about Eph 4:32 without attributing a dispensational source. Author may supply one."
+  - "Named books on conditional vs unconditional forgiveness (e.g. Jay Adams, Chris Brauns) not consulted, so not cited. Positions are argued from Scripture only."
+
+evidence:
+  - id: matt-6-14-esv
+    what: ESV Matthew 6:14
+    tool: study_verse
+    args: {book: Matt, chapter: 6, verse: 14, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "your heavenly Father will also forgive you"
+    checked: 2026-10-04
+  - id: matt-6-15-esv
+    what: ESV Matthew 6:15
+    tool: study_verse
+    args: {book: Matt, chapter: 6, verse: 15, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "neither will your Father forgive your trespasses"
+    checked: 2026-10-04
+  - id: luke-17-3-esv
+    what: ESV Luke 17:3, forgiveness on repentance
+    tool: study_verse
+    args: {book: Luke, chapter: 17, verse: 3, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "if he repents, forgive him"
+    checked: 2026-10-04
+  - id: mark-11-25-esv
+    what: ESV Mark 11:25, forgive while praying
+    tool: study_verse
+    args: {book: Mark, chapter: 11, verse: 25, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "forgive, if you have anything against anyone"
+    checked: 2026-10-04
+  - id: 1pet-4-5-esv
+    what: ESV 1 Peter 4:5, the unrepentant give account
+    tool: study_verse
+    args: {book: 1Pet, chapter: 4, verse: 5, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "they will give account to him who is ready to judge the living and the dead"
+    checked: 2026-10-04
+  - id: 2tim-4-15-esv
+    what: ESV 2 Timothy 4:15, beware of him
+    tool: study_verse
+    args: {book: 2Tim, chapter: 4, verse: 15, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Beware of him yourself"
+    checked: 2026-10-04
+  - id: deut-29-20-esv
+    what: ESV Deuteronomy 29:20, the LORD will not be willing to forgive
+    tool: study_verse
+    args: {book: Deut, chapter: 29, verse: 20, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "The LORD will not be willing to forgive him"
+    checked: 2026-10-04
+  # salach H5545: 46 occurrences in macula-hebrew-wlc, each with God as forgiver or a divine
+  # passive -- checked by eye over the verse list on 2026-10-04 (no single-number tool answer
+  # for "subject is God", so not replayable as evidence).
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Notes on Matt 6:12, 6:14-15 (fellowship, not justification), 18:24 (talent), 18:35 (unforgiving heart shows unforgiven heart), Luke 17:3-4 (forgive three times honourable), Luke 23:34, 1 Pet 4:5. Contributed the fellowship reading and the 18:35 evidence reading."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Matt 6:12 'just as', not 'to the same extent as'; Matt 18:24 myrios largest numeral; Luke 23:34 ignorance theme through Acts 3:17."}
+  - {type: commentary, title: "NIV / NKJV Cultural Backgrounds Study Bible", author: "Keener & Walton", note: "Matt 6:12 sins as debts in Jewish teaching, Amida sixth benediction; Luke 17:3 private reproof, repentance includes restitution; Luke 23:34 executed men expected to confess; Matt 18:24 Herod's revenue ~800 talents."}
+  - {type: commentary, title: "NLT Life Application Study Bible", author: "Tyndale", note: "Read; confirmed, contributed nothing new."}
+  - {type: other, title: "CSB Ancient Faith / LSB / NLT footnotes", note: "Variants at Matt 6:15, Mark 11:26, Luke 17:3, Luke 23:34."}
+  - {type: lexicon, title: "MACULA Greek (SBLGNT) and Hebrew (WLC) morphology", note: "Counts and glosses."}
+last_updated: "2026-10-04"

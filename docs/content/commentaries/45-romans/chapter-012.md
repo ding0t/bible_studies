@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 12:17-21
 - [In Humility](../../christian-life/humility.md) — 12:3
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 12:12
 - [The End of the Age](../../last-things/end-of-the-age.md) — 12:2

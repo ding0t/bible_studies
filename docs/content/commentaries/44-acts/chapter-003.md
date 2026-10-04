@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 3:17-19
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 3:21
 - [John son of Zebedee](../../biblical-figures/john.md) — 3:1-11
 - [Sin and Sorcery](../../sin/sorcery.md) — 3:22-23

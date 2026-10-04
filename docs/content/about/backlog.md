@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-03
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -55,7 +55,6 @@ Add new items here. They get a number and move into their section.
 | [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
 | [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
 | [10.6](#106-run-the-race) | Run the race | Christian life |
-| [10.7](#107-forgiveness) | Forgiveness | Christian life |
 | [10.8](#108-fasting-a-rewrite) | Fasting: a rewrite | Christian life |
 
 Finished items move to [Completed](#completed) at the foot of the page and keep their numbers, so
@@ -768,13 +767,6 @@ that for which Christ took hold of us (Philippians 3:12)?
   the word away in the parable of the sower.
 - **Proverbs:** guard your heart and mind (Proverbs 4:23), and trust Him.
 
-### 10.7 Forgiveness
-
-- What biblical forgiveness is
-- Avoiding error and false guilt about forgiveness as a Christian
-- When forgiveness is not warranted biblically
-- How love differs from forgiveness
-
 ### 10.8 Fasting: a rewrite
 
 In [Fasting](../christian-life/fasting.md), the "Break spiritual strongholds" part of *When to
@@ -809,3 +801,4 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 6.3 | The Lord's Supper | [The Lord's Supper: Do This in Remembrance of Me](../feasts/lords-supper.md), with two graphics; the [four-cups study](../feasts/last-supper-four-cups.md) now points its general communion material there, 2026-10-02 |
 | new | Edits to Verses Often Misquoted | [Verses Often Misquoted](../scripture/verses-often-misquoted.md) opens on common church sayings, adds "Did God actually say?" (the garden, the wilderness, the church), "Take up your cross" and a link to How to Read the Bible, 2026-10-02 |
 | 5.5 | The age to come | The age to come in [A New Heaven and a New Earth](../last-things/new-heaven-and-new-earth.md#the-age-to-come); the line between the ages in [The End of the Age](../last-things/end-of-the-age.md) (Matthew's συντέλεια, opened at the cross and closed at the return), with cross-links and a scope line on each, and the Zadok calendar's 49- or 50-year jubilee question, 2026-10-03 |
+| 10.7 | Forgiveness | [Forgive Us Our Debts](../christian-life/forgiveness.md), on Matthew 6:14-15: God's forgiveness paid and offered to all and received by those who repent, releasing a debt to God (Mark 11:25) and forgiving the one who repents (Luke 17:3-4), the offender who keeps on, Matthew 6:15 used as a weapon, and what forgiveness is not, 2026-10-04 |

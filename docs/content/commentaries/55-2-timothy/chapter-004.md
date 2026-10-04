@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 4:16
+- [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 4:14-16
 <!-- commentary-index:auto-end -->

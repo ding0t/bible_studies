@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 29:29
+- [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 29:19-20
 <!-- commentary-index:auto-end -->

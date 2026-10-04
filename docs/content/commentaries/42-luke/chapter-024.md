@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 24:27 (primary passage)
+- [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 24:47
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 24:25-27
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 24:30-35
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 24:7

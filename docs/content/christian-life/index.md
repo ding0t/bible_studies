@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-02
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -32,6 +32,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     Fasting in Scripture is humbling yourself before God: going without food to seek Him in repentance, grief, need and decision, while the Bridegroom is away. What the Bible shows fasting doing, what it never promises, and the verses most often misused about it.
 
     [:octicons-arrow-right-24: Read](fasting.md)
+
+-   __Forgive Us Our Debts__
+
+    ---
+
+    God forgives by cancelling a debt you could never pay, and the forgiveness is received by everyone who repents. A study of Matthew 6:14-15: what biblical forgiveness is, how it differs from love and from trust, what to do when the one who wronged you keeps on, and how to forgive without false guilt.
+
+    [:octicons-arrow-right-24: Read](forgiveness.md)
 
 -   __In Humility__
 

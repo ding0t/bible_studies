@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-03
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -61,7 +61,7 @@ End-times prophecy, read dispensationally.
 
     ---
 
-    Why the timing of Christ's return is deliberately hidden, and the six-then-seventh pattern -- creation week, Sabbath, Hebrews' rest, the millennium -- this site reads through 2 Peter 3's 'a day is as a thousand years.'
+    Why the timing of Christ's return is deliberately hidden, and how to wait for it: with the patience God Himself shows (James 5:7; 2 Peter 3:9), awake and at work (Mark 13:32-37).
 
     [:octicons-arrow-right-24: Read](day-is-near.md)
 
