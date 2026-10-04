@@ -19,6 +19,7 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 14:1-3
 - [Know the Truth](../../christian-life/know-the-truth.md) — 14:6
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 14:3
+- [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 14:13
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 14:2-3
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 14:3
 - [The Rapture of the Church](../../last-things/rapture.md) — 14:1-4

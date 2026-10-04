@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 6:6-7 (primary passage)
 - [Biblical Numerology](../../scripture/numerology.md) — 6:4
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 6:4-7
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 6:6-7

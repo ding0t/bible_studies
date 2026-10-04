@@ -19,6 +19,7 @@ draft: false
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 1:25-27
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:9-10
 - [Six Days of History](../../last-things/six-days-of-history.md) — 1:15
+- [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 1:9-13
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:22
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 1:26
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 1:13

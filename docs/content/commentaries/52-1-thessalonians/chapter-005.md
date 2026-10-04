@@ -18,6 +18,7 @@ draft: false
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 5:9
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 5:16-18
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 5:9
+- [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 5:23-24
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 5:1-4
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:9
 - [The Restrainer](../../last-things/the-restrainer.md) — 5:9

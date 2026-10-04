@@ -21,8 +21,10 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 4:14-16
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:14-16
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:9
+- [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 4:15-16
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 4:16
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 4:16
+- [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 4:15
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 4:9-11
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 4:15
 <!-- commentary-index:auto-end -->

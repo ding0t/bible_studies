@@ -71,7 +71,8 @@ something about who God is and what you may ask Him for.
   needing an audience or a word count: this prayer is short, and it is prayed to a Father who sees
   in secret.
 - **Do.** Pray it together. An early church manual, probably from about AD 100, told believers to
-  pray it three times a day (*Didache* 8:3). Take one line a week at a family meal: what it shows
+  pray it three times a day (*Didache* 8:3). Take one line a week at a family meal
+  ([Teaching the Lord's Prayer at Home](teaching-the-lords-prayer-at-home.md)): what it shows
   about God, and one thing to ask Him for in its words. And name someone you are withholding
   forgiveness from; this prayer, prayed honestly, asks you to extend what you are asking to receive.
 
@@ -400,7 +401,9 @@ manual probably from about AD 100, gives the prayer and then says, "Thrice in th
 8:3, ANF 7).
 
 To use the prayer as a pattern for your own words, step by step, see
-[A pattern to pray by](prayer-as-communion.md#a-pattern-to-pray-by) in Prayer as Communion.
+[A pattern to pray by](prayer-as-communion.md#a-pattern-to-pray-by) in Prayer as Communion. To teach it
+to a household one line a week, see [Teaching the Lord's Prayer at
+Home](teaching-the-lords-prayer-at-home.md).
 
 ## Annex: the two Gospel accounts
 

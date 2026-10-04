@@ -15,6 +15,7 @@ draft: false
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 3:1-9
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 3:1-8
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 3:14-19
+- [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 3:20-21
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 3:1
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:5-6
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 3:5-9

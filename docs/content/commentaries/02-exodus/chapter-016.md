@@ -16,6 +16,7 @@ draft: false
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 16:4-21
 - [Faith](../../salvation/faith.md) — 16:19-20
 - [In Humility](../../christian-life/humility.md) — 16:19-20
+- [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 16:4-18
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 16:33-34
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 16:4
 <!-- commentary-index:auto-end -->

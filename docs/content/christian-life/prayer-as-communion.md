@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Colossians 4:2"
 bible_references: ["Colossians 4:2", "Acts 1:14", "Acts 2:42", "Acts 6:4", "Acts 4:23-31", "Acts 12:5", "Romans 12:12", "Philippians 4:6-7", "1 Timothy 2:1-4", "Matthew 6:5-15", "Luke 11:1-13", "Luke 5:16", "Luke 6:12", "Luke 9:18", "Luke 4:42", "Mark 1:35-37", "Matthew 14:23", "John 6:15", "Matthew 26:36-39", "Luke 22:41", "Luke 22:39-46", "Galatians 4:6-7", "Acts 4:25-29", "Acts 7:59", "Philippians 1:9-11", "Nehemiah 1:5", "1 Chronicles 29:9", "Hebrews 5:7", "John 17", "John 16:23-24", "Acts 7:59-60", "Revelation 22:20", "2 Corinthians 12:8-9", "1 Corinthians 1:2", "Ephesians 2:18", "Romans 8:26-27", "Ephesians 1:15-19", "Ephesians 3:14-19", "Daniel 6:10", "Deuteronomy 6:6-7", "Ephesians 6:4", "Psalm 78:4-7", "Matthew 6:10", "2 Chronicles 7:14", "Psalm 37:4", "Psalm 66:18-19", "Proverbs 28:9", "John 15:7", "James 4:7-10", "1 John 3:22", "1 John 5:14-15", "Exodus 32:11-14", "Daniel 9:2-3", "Daniel 9:18", "1 Samuel 3:10", "Romans 12:1-2", "Colossians 4:12", "Matthew 26:39-42", "1 Chronicles 29:10-11", "Psalm 103:1-2", "Psalm 100:4", "Proverbs 30:8-9", "1 Samuel 12:23", "Job 42:10", "Psalm 139:23-24", "1 John 1:9", "Acts 21:14", "Romans 8:15-16", "Psalm 42:1-2", "Matthew 11:28-30", "Psalm 16:11", "Exodus 20:11", "Psalm 146:6", "Psalm 2", "Colossians 1:9-10", "Philippians 1:9", "Romans 15:30-32", "Ephesians 6:19-20", "Colossians 4:3-4", "2 Thessalonians 3:1-2", "Hebrews 10:19-22", "Hebrews 4:14-16", "Hebrews 7:25", "Hebrews 11:6", "Romans 8:34", "1 Timothy 2:5-6", "1 Thessalonians 5:16-18", "1 Thessalonians 1:2", "Romans 1:9", "Nehemiah 2:4-5", "Luke 18:1-8", "Luke 17:20-37", "Matthew 26:44"]
 date_created: 2024-10-06
-date_modified: 2026-09-29
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -672,6 +672,9 @@ several generations ahead.
 - **Let them hear you pray for them, by name**, as Paul prayed for his churches (Ephesians 1:17-18).
 - **Let a child's prayer run its course.** Leave corrections for later. Ephesians 6:4 warns fathers
   specifically about provoking children, and early prayers grow when they are welcomed.
+
+[Teaching the Lord's Prayer at Home](teaching-the-lords-prayer-at-home.md) applies these to one
+prayer, a line a week.
 
 ## Discussion questions
 

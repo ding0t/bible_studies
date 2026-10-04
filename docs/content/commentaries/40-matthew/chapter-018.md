@@ -17,5 +17,7 @@ draft: false
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 18:15-17
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 18:15
 - [In Humility](../../christian-life/humility.md) — 18:1-4
+- [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 18:21-35
+- [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 18:21-35
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 18:23-35
 <!-- commentary-index:auto-end -->

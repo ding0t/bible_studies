@@ -29,7 +29,7 @@ End-times prophecy, read dispensationally.
 
     ---
 
-    Where the believing dead are between death and the resurrection. Since the ascension a believer who dies goes at once to be with the Lord Jesus, conscious and without the body, and waits there for the body to be raised at His coming. A study of 2 Corinthians 5:1-8.
+    Where the believing dead are between death and the resurrection. A believer who dies goes at once to be with the Lord Jesus, conscious and without the body, and waits there for the body to be raised at His coming; the historic dispensational reading dates that arrangement from the ascension. A study of 2 Corinthians 5:1-8.
 
     [:octicons-arrow-right-24: Read](at-home-with-the-lord.md)
 

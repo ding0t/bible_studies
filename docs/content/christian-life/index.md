@@ -81,5 +81,13 @@ Prayer, fasting, and the disciplines of walking with Christ.
 
     [:octicons-arrow-right-24: Read](prayer-as-communion.md)
 
+-   __Teaching the Lord's Prayer at Home__
+
+    ---
+
+    A seven-week household guide to the Lord's Prayer, one line a week: what each line shows about God, a Bible story, questions for children and adults, a practice for the home, a verse to learn, and Paul's prayers to pray over your children.
+
+    [:octicons-arrow-right-24: Read](teaching-the-lords-prayer-at-home.md)
+
 </div>
 <!-- section-index:auto-end -->

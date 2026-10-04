@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 3:23
+- [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 3:6
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:11-15
 - [The Restrainer](../../last-things/the-restrainer.md) — 3:16
 <!-- commentary-index:auto-end -->

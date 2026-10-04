@@ -21,4 +21,6 @@ draft: false
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 6:66-68
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 6:70-71
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 6:15
+- [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 6:22-35
+- [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 6:35
 <!-- commentary-index:auto-end -->
