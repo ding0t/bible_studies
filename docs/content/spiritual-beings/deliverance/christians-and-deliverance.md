@@ -6,7 +6,7 @@ tags: ["status/investigation", "demons", "spiritual-warfare", "ministry", "metho
 draft: false
 bible_references: ["Matthew 12:43-44", "Matthew 12:28", "Ephesians 1:14", "1 Peter 2:9", "1 Corinthians 3:23", "1 John 4:4", "2 Corinthians 5:17-18", "Colossians 1:12-13", "1 Corinthians 6:19-20", "1 Corinthians 6:17", "Mark 5:12", "1 Corinthians 12:1-11", "John 10:20-21", "2 Corinthians 12:7", "James 4:7"]
 date_created: 2024-04-23
-date_modified: 2026-09-27
+date_modified: 2026-10-04
 ai_provider_models:
   - anthropic/claude-opus-4.8
   - anthropic/claude-opus-5
@@ -71,18 +71,21 @@ itself uses it, not from etymology alone.
 - Describes someone who is *not* a follower of Jesus — never a disciple, never anyone already among His own.
 - Never appears again after the Gospels. Acts and the Epistles discuss spiritual conflict at length — using entirely different vocabulary — but never once reach for this word.
 
-The one instance outside the healing narratives is worth pausing on. In John 10:20-21 a hostile
-crowd says of Jesus Himself, "He is δαιμονίζομαι and is insane." Others reply, "these are not the
-sayings of one who is δαιμονίζομαι — can a demon open the eyes of the blind?" That is a false
-accusation. It shows the term describes a claim about someone's state, made by an onlooker, rather
-than a fixed clinical category with agreed boundaries.
+The one instance outside the healing narratives is worth pausing on. In John 10:20 a hostile
+crowd says of Jesus Himself, "He has a demon, and is insane; why listen to him?" (ESV; the Greek is
+δαιμόνιον ἔχει, "has a demon"). Others reply in 10:21, "These are not the words of one who is
+oppressed by a demon. Can a demon open the eyes of the blind?" (ESV). The verb δαιμονίζομαι is in
+that reply, as a participle (δαιμονιζομένου). The crowd's accusation is false. It shows that the
+term serves as a claim about someone's state, made by an onlooker, and carries no fixed clinical
+category with agreed boundaries.
 
-The clearest data point is a contrast. Paul describes being tormented by a "messenger of Satan" in
-2 Corinthians 12:7 (ESV). The verb he reaches for is
-**κολαφίζω** (*kolaphizō*, G2852, "to buffet, strike, harass"), the same word used of Jesus being struck
-during His trial. He does not reach for δαιμονίζομαι. Scripture had the vocabulary to describe a
-believer under demonic attack, right there, in a passage about an apostle. It uses a different word
-entirely.
+A contrast points the same way, though one occurrence is thin evidence. Paul describes a "messenger
+of Satan" sent to harass him in 2 Corinthians 12:7 (ESV). The verb he uses is
+**κολαφίζω** (*kolaphizō*, G2852, "to buffet, strike"). It occurs five times in the New Testament,
+and the other four describe human blows or beatings: Jesus struck at His trial (Matthew 26:67; Mark
+14:65), Paul's own treatment (1 Corinthians 4:11) and a slave beaten (1 Peter 2:20). Paul chose a
+word for blows over δαιμονίζομαι when he described a believer's affliction by a demonic messenger.
+That fits the conclusion below, and a single verse suggests it more than it proves it.
 
 **Conclusion.** δαιμονίζομαι is Gospel-era vocabulary. It describes those outside the community of
 Jesus' followers, whom He heals as evidence of His authority over the kingdom of darkness. "If it is
