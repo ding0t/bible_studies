@@ -5,7 +5,7 @@ description: "Where the believing dead are between death and the resurrection. A
 tags: ["2-corinthians", "philippians", "1-thessalonians", "1-corinthians", "ephesians", "luke", "revelation", "resurrection", "dispensationalism", "larkin", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "2 Corinthians 5:1-10"
-bible_references: ["2 Corinthians 1:8-9", "2 Corinthians 1:22", "2 Corinthians 4:16-18", "2 Corinthians 5:1-10", "Philippians 1:21-24", "Philippians 3:21", "Luke 23:43", "Luke 16:19-31", "Ephesians 4:8-10", "Ephesians 1:14", "Colossians 2:15", "Genesis 38:17-20", "Leviticus 23:10", "Acts 18:3", "Revelation 6:9-11", "Revelation 20:13-14", "1 Thessalonians 4:13-18", "1 Corinthians 15:20-23", "1 Corinthians 15:51-53", "2 Peter 2:4", "Jude 6"]
+bible_references: ["2 Corinthians 1:8-9", "2 Corinthians 1:22", "2 Corinthians 4:16-18", "2 Corinthians 5:1-10", "Philippians 1:21-24", "Philippians 3:21", "Luke 23:43", "Luke 16:19-31", "Ephesians 4:8-10", "Ephesians 1:14", "Colossians 2:15", "Genesis 38:17-20", "Leviticus 23:10", "Acts 18:3", "Revelation 6:9-11", "Revelation 20:13-14", "1 Thessalonians 4:13-18", "1 Corinthians 15:20-23", "1 Corinthians 15:51-53", "2 Peter 2:4", "Jude 6", "Jude 14-15", "Isaiah 24:21-22", "Genesis 6:1-4", "Numbers 21:8-9", "2 Kings 18:4"]
 date_created: 2026-09-26
 date_modified: 2026-10-05
 ai_provider_models:
@@ -104,7 +104,7 @@ In Jesus' name. Amen.
   Ephesians 4:8-10, which is contested.
 - [The whole arrangement in one view](#the-whole-arrangement-in-one-view). A diagram.
 - [Larkin's own chart](#larkins-own-chart). The classic dispensational picture, as historical
-  witness.
+  witness, and Tartarus, Peter's word for the prison of the angels.
 - [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
 ## The passage in its letter
@@ -382,6 +382,8 @@ is the reason many readers picture it at all. It stands at the top of this study
 original, as historical witness: it states the classic dispensational position more completely than
 a summary can.
 
+### What his labels say
+
 Larkin's labels carry the whole reading. **"Paradise"** is "the abode of the souls of the
 'righteous dead' until Christ's resurrection — **it is now empty**"; **"Hell"** is "the abode of the
 souls of the 'wicked dead' — **still occupied**"; between them "**The Great Gulf**, Luke 16:19-31."
@@ -389,6 +391,32 @@ Below both sit *Tartarus*, "the prison of the fallen angels" (2 Peter 2:4; Jude 
 The lake of fire stands apart at the bottom right. So Larkin, like this study, keeps Hades and the
 final judgment as two separate things. He also labels the ascending arrow off the cross **"the first
 fruits"**, the same 1 Corinthians 15:20-23 argument made above.
+
+### Tartarus, the prison of the angels
+
+**Tartarus is Peter's word, and this study takes his distinction as given.** Where the ESV has
+"cast them into hell" (2 Peter 2:4), Peter wrote one verb, **ταρταρόω** (*tartaroō*, tar-tar-OH-oh,
+G5020), "consign to Tartarus." Jude describes the same place without naming it: angels "kept in
+eternal chains under gloomy darkness until the judgment of the great day" (Jude 6, ESV). So
+Scripture sets these angels apart from the dead in Hades: a prison of their own, for a sin of their
+own, held for a judgment still to come. The Hebrew Bible has no name for that prison. Its nearest
+picture is Isaiah 24:21-22, where the LORD punishes "the host of heaven" and they are "shut up in a
+prison, and after many days they will be punished" (ESV). Larkin's line into Tartarus from Genesis
+6:1-4 takes the "sons of God" there as angels, a contested reading that Jude 6-7 is usually cited
+for. 1 Enoch, which Jude quotes (Jude 14-15), names Tartarus and binds the rebel angels in darkness
+until the judgment (1 Enoch 10:4-6, 12-13; 20:2; 21:10). It shows what Peter's and Jude's first
+readers already pictured. It is background and carries no doctrinal weight.
+
+The word itself is older than Peter. Greek poets put a pit below Hades where defeated rebel powers
+lay chained in darkness (Hesiod, *Theogony* 713-735). The memory is likely older than the poets. A
+story of heavenly rebels bound beneath the earth fits Genesis 6 and Isaiah 24 well enough that the
+Greek telling may preserve a distorted memory of what God did, much as the bronze serpent Moses
+lifted up (Numbers 21:8-9) became an object of worship until Hezekiah broke it in pieces (2 Kings
+18:4). That connection cannot be proved, and it is held here as a likelihood. What is certain is
+Peter's use: he took the one word his readers knew for that prison and told them God put the angels
+there.
+
+### Where the study follows him, and where it stops
 
 **The arrow's conclusion is sound.** Before the cross the righteous dead were comforted at
 Abraham's side (Luke 16:22); Christ rose as "the firstfruits" (1 Corinthians 15:23); and since then
@@ -431,6 +459,10 @@ picture of the conclusion, by someone who held it without the reservations recor
   the Ages* (1918; expanded 1920). Public domain — see [copyright](../about/copyright.md#public-domain-charts).
   Reproduced above as a statement of the classic dispensational position, with the points this study
   does not follow named alongside it.
+- **1 Enoch** 10:4-6, 12-13; 20:2; 21:10 — English text in this repo's open deuterocanonical
+  collection (R. H. Charles's wording). Second Temple background, cited for what Jude's and Peter's
+  readers knew.
+- **Hesiod**, *Theogony* 713-735 — the Greek poets' Tartarus, cited for the word Peter used.
 
 ### On this site
 
