@@ -16,6 +16,7 @@ so the chart cannot drift from Chronology Anchors. Run it again after that file 
 import datetime
 import json
 import math
+import re
 import sys
 from pathlib import Path
 
@@ -1714,6 +1715,50 @@ def the_underworld():
     return "\n".join(out)
 
 
+# Details of the redrawn chart, each set beside the section of the study it pictures, so the reader
+# meets the part of the picture with the words about it. A detail is the whole chart under a
+# narrower viewBox, so it can never drift from the full one.
+UNDERWORLD_DETAILS = {
+    "larkin-underworld-with-christ": (
+        (110, 150, 300, 500), 1.3, "The souls go down to Paradise, and the righteous rise with Christ",
+        "Detail of the redrawn Underworld chart. From the hill of the three crosses the soul of the "
+        "penitent thief (Luke 23:43) and the soul of Christ go down to Paradise, and Christ's soul "
+        "returns to His body. The righteous souls Christ took out of the underworld rise from "
+        "Paradise past the crosses, marked with 2 Corinthians 5:8, Philippians 1:23, 2 Corinthians "
+        "12:2-4 and Revelation 2:7."),
+    "larkin-underworld-resurrection": (
+        (320, 14, 320, 540), 1.3, "The first fruits, then the harvest",
+        "Detail of the redrawn Underworld chart. Christ rises from the tomb as the first fruits "
+        "(1 Corinthians 15:20-23; Leviticus 23:10). On the right the souls of the righteous return "
+        "for their bodies (1 Thessalonians 4:14), and the righteous dead rise out of the grave as "
+        "the Harvest: translation and first-resurrection saints, 'the dead in Christ shall rise "
+        "first' (1 Thessalonians 4:15-17; 1 Corinthians 15:51-53). Seven years later the Gleanings "
+        "rise, the tribulation saints (Revelation 20:4)."),
+    "larkin-underworld-gulf": (
+        (100, 515, 400, 215), 1.6, "Paradise and Hell, either side of the Great Gulf",
+        "Detail of the redrawn Underworld chart. Paradise, 'the abode of the souls of the righteous "
+        "dead until Christ's resurrection; it is now empty' (Luke 16:22), and Hell, 'the abode of the "
+        "souls of the wicked dead; still occupied' (Luke 16:23; Revelation 20:13), either side of the "
+        "Great Gulf (Luke 16:19-31). A dotted line arcs over the gulf: seen and heard across, none "
+        "may cross (Luke 16:23-26)."),
+    "larkin-underworld-caption": (
+        (285, 20, 145, 230), 1.8, "Larkin's caption for the first fruits",
+        "Detail of the redrawn Underworld chart. Beside the stream of righteous souls rising with "
+        "Christ as 'the first fruits', Larkin wrote Ephesians 4:8-10 (Psalm 68:18) and Revelation "
+        "1:18. The Ephesians caption is boxed with a dashed line, as the one this study does not "
+        "follow; in blue beside it are 1 Corinthians 15:20-23 and Leviticus 23:10."),
+}
+
+
+def underworld_detail(name):
+    (x, y, w, h), scale, title, desc = UNDERWORLD_DETAILS[name]
+    svg = the_underworld()
+    svg = re.sub(r'viewBox="0 0 \d+ \d+"', f'viewBox="{x} {y} {w} {h}" width="{w * scale:.0f}" '
+                 f'height="{h * scale:.0f}"', svg, count=1)
+    svg = re.sub(r'<title id="t">.*?</title>', f'<title id="t">{esc(title)}</title>', svg, count=1)
+    return re.sub(r'<desc id="d">.*?</desc>', f'<desc id="d">{esc(desc)}</desc>', svg, count=1, flags=re.S)
+
+
 FEAST_OUT = ROOT / "docs" / "content" / "assets" / "img" / "feasts"
 FEAST_CHARTS = {
     "weeks-within-weeks": weeks_within_weeks,
@@ -1731,6 +1776,7 @@ CHARTS = {
     "six-days-three-ages": six_days_three_ages,
     "eighth-day": eighth_day,
     "larkin-underworld": the_underworld,
+    **{n: (lambda n=n: underworld_detail(n)) for n in UNDERWORLD_DETAILS},
 }
 
 

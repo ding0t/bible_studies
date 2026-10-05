@@ -26,6 +26,20 @@ whole person, the soul with His Son now and the body for the day He raises it. P
 destination plainly. That the arrangement began at the ascension is the historic dispensational
 reading, and it is contested (see [Where were they before?](#where-were-they-before)).
 
+Clarence Larkin's chart of the underworld (1920) draws the whole arrangement this study weighs. The
+redrawn version keeps his labels in black and adds, in blue, the verses this study rests each point
+on. Details from it stand beside the sections they picture, and
+[Larkin's own chart](#larkins-own-chart) says where the study follows him and where it parts from
+him.
+
+=== "Redrawn"
+
+    [![Larkin's The Underworld, redrawn: Paradise and Hell as compartments of Hades either side of the Great Gulf, a dotted line over it marking that each side is seen and heard across and never crossed (Luke 16:23-26), Tartarus and the Abyss below them and the lake of fire apart, holding the Beast with seven lion-mouthed heads and ten crowned horns and the two-horned lamb of a False Prophet (Revelation 13:1-2, 11); from the three crosses the souls of the penitent thief and of Christ go down to Paradise and the impenitent thief's soul to Hell, and the righteous souls rise with Christ as the first fruits; on the right the Harvest, the Gleanings seven years later and the Tares a thousand years after that. Blue references added from this study: Luke 16:22 and 23:43 for Paradise, Luke 16:23 and Revelation 20:13 for Hell, 2 Corinthians 5:8, Philippians 1:23, 2 Corinthians 12:2-4 and Revelation 2:7 for the righteous now with Christ, 1 Corinthians 15:20-23 and Leviticus 23:10 for the first fruits, 1 Thessalonians 4:14 for the souls returning, 1 Corinthians 15:51-53 for the harvest, and Revelation 20:5 for the rest of the dead; Larkin's Ephesians 4:8-10 caption is boxed with a dashed line](../assets/img/last-things/larkin-underworld.svg)](../assets/img/last-things/larkin-underworld.svg)
+
+=== "Larkin's original (1920)"
+
+    ![Larkin: The Underworld — Paradise and Hell as compartments of Hades, divided by the Great Gulf, with the righteous dead taken out at Christ's resurrection](../assets/img/larkin/the-underworld.gif)
+
 ## Key Takeaways
 
 *(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
@@ -177,6 +191,10 @@ Yet 2 Corinthians 5:4 says what he wants most: to be "further clothed, so that w
 swallowed up by life." Being with Christ without a body is better than here. The resurrection is
 better still.
 
+[![Detail of the redrawn chart: from the hill of the three crosses the soul of the penitent thief (Luke 23:43) and the soul of Christ go down to Paradise, and the righteous souls rise from Paradise with Christ, marked 2 Corinthians 5:8, Philippians 1:23, 2 Corinthians 12:2-4 and Revelation 2:7](../assets/img/last-things/larkin-underworld-with-christ.svg)](../assets/img/last-things/larkin-underworld-with-christ.svg)
+
+*From the chart: the thief goes with Christ to Paradise (Luke 23:43), and the righteous rise to be with Christ (2 Corinthians 5:8; Philippians 1:23).*
+
 ### "Naked" in verse 3: a contested word
 
 **What Paul means by being "found naked" (5:3) and "unclothed" (5:4) is disputed.**
@@ -220,6 +238,10 @@ Notice the order in 1 Thessalonians 4:14. God will "bring *with* him those who h
 ground. Some read "bring with him" as the raising itself; this study reads it with the sequence
 that 4:16 then spells out.
 
+[![Detail of the redrawn chart: Christ rises from the tomb as the first fruits; on the right the souls of the righteous come down for their bodies (1 Thessalonians 4:14) and the righteous dead rise out of the grave as the Harvest, 'the dead in Christ shall rise first' (1 Thessalonians 4:15-17; 1 Corinthians 15:51-53), with the Gleanings seven years later](../assets/img/last-things/larkin-underworld-resurrection.svg)](../assets/img/last-things/larkin-underworld-resurrection.svg)
+
+*From the chart: Christ the firstfruits first, then the souls come with Him and the bodies rise out of the grave (1 Thessalonians 4:14-16).*
+
 So Scripture names three states:
 
 | | The body | Where the person is |
@@ -258,6 +280,10 @@ works through that passage. It holds the historic dispensational reading: one Ha
 compartments, comfort at Abraham's side and torment across the chasm. The commentaries on this
 site's shelf mostly take Abraham's side as heaven already. The question is contested.
 
+[![Detail of the redrawn chart: Paradise, now empty, and Hell, still occupied, either side of the Great Gulf, with a dotted line over the gulf marking that each side is seen and heard across and none may cross (Luke 16:23-26)](../assets/img/last-things/larkin-underworld-gulf.svg)](../assets/img/last-things/larkin-underworld-gulf.svg)
+
+*From the chart: the two-compartment reading as Larkin drew it, each side in sight of the other and the chasm fixed between (Luke 16:23-26).*
+
 On the two-compartment reading, something changed at the ascension. Before it, the righteous dead
 were comforted at Abraham's side. After it, they are "at home with the Lord." When did Abraham's
 side empty?
@@ -272,6 +298,10 @@ This is the place where the two-compartment reading's evidence is thinnest.
 > men." 9 (In saying, "He ascended," what does it mean but that he had also descended into the lower
 > regions, the earth? 10 He who descended is the one who also ascended far above all the heavens,
 > that he might fill all things.)
+
+[![Detail of the redrawn chart: beside the first fruits Larkin wrote Ephesians 4:8-10 (Psalm 68:18) and Revelation 1:18; the Ephesians caption is boxed with a dashed line, with 1 Corinthians 15:20-23 and Leviticus 23:10 in blue beside it](../assets/img/last-things/larkin-underworld-caption.svg)](../assets/img/last-things/larkin-underworld-caption.svg)
+
+*From the chart: Larkin's caption for the first fruits, boxed dashed as the proof-text weighed here.*
 
 Read as a descent into Hades that returns leading the Old Testament saints upward, this is the
 proof-text for the emptying of Abraham's side. **Both halves of that reading are contested, and
@@ -348,18 +378,9 @@ The body still waits for the third.
 ## Larkin's own chart
 
 Clarence Larkin drew this arrangement in *Dispensational Truth* (1918; expanded 1920), and his chart
-is the reason many readers picture it at all. It is reproduced here as historical witness: it states
-the classic dispensational position more completely than a summary can. The redrawn chart keeps
-Larkin's labels in black and adds, in blue, the verses this study rests each point on; the original
-scan is in the second tab.
-
-=== "Redrawn"
-
-    [![Larkin's The Underworld, redrawn: Paradise and Hell as compartments of Hades either side of the Great Gulf, a dotted line over it marking that each side is seen and heard across and never crossed (Luke 16:23-26), Tartarus and the Abyss below them and the lake of fire apart, holding the Beast with seven lion-mouthed heads and ten crowned horns and the two-horned lamb of a False Prophet (Revelation 13:1-2, 11); from the three crosses the souls of the penitent thief and of Christ go down to Paradise and the impenitent thief's soul to Hell, and the righteous souls rise with Christ as the first fruits; on the right the Harvest, the Gleanings seven years later and the Tares a thousand years after that. Blue references added from this study: Luke 16:22 and 23:43 for Paradise, Luke 16:23 and Revelation 20:13 for Hell, 2 Corinthians 5:8, Philippians 1:23, 2 Corinthians 12:2-4 and Revelation 2:7 for the righteous now with Christ, 1 Corinthians 15:20-23 and Leviticus 23:10 for the first fruits, 1 Thessalonians 4:14 for the souls returning, 1 Corinthians 15:51-53 for the harvest, and Revelation 20:5 for the rest of the dead; Larkin's Ephesians 4:8-10 caption is boxed with a dashed line](../assets/img/last-things/larkin-underworld.svg)](../assets/img/last-things/larkin-underworld.svg)
-
-=== "Larkin's original (1920)"
-
-    ![Larkin: The Underworld — Paradise and Hell as compartments of Hades, divided by the Great Gulf, with the righteous dead taken out at Christ's resurrection](../assets/img/larkin/the-underworld.gif)
+is the reason many readers picture it at all. It stands at the top of this study, redrawn and in the
+original, as historical witness: it states the classic dispensational position more completely than
+a summary can.
 
 Larkin's labels carry the whole reading. **"Paradise"** is "the abode of the souls of the
 'righteous dead' until Christ's resurrection — **it is now empty**"; **"Hell"** is "the abode of the
