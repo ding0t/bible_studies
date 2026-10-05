@@ -261,7 +261,7 @@ objects and features*, and three entries sit in it:
 At Luke 16:22 the annotation tags **both** words — κόλπος and Ἀβραάμ — with the same code, 1.16:
 one name for one location. Luke 16's own vocabulary is spatial: two conditions, a fixed chasm between them, and each visible from the other.
 
-### The reading this study holds, and the disagreement
+### Two compartments of one Hades, and the commentaries that disagree
 
 **The traditional reading takes those as two compartments of one Hades**, the righteous dead held in
 comfort at Abraham's side and the unrighteous in torment, separated but within sight. It is the
@@ -300,6 +300,8 @@ is "caught up to the third heaven" and "caught up into paradise" (2 Corinthians 
 tree of life stands "in the paradise of God" (Revelation 2:7). Both were written after the
 ascension. Luke 23:43 was spoken before it. That gap is the whole question.
 
+### "I have not yet ascended" (John 20:17)
+
 **And John sharpens it three days later:**
 
 > ✝️ John 20:17 (ESV)
@@ -313,6 +315,8 @@ cling" and the *NIV Biblical Theology Study Bible*'s "Stop clinging to me" both 
 a rule about contact: minutes later the other women "took hold of his feet" (Matthew 28:9), and a
 week after that Thomas is invited to put his hand in Jesus's side (John 20:27). Mary was holding on,
 and was told to let go. **ἀναβέβηκα** is a perfect: the ascension had not happened.
+
+### Paradise moved, or paradise is the Father's presence
 
 Two readings follow.
 

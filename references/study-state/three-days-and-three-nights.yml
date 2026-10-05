@@ -863,3 +863,41 @@ read_2026-09-26:
       (already noted under insight_2026-09-26).
     - Pre-existing items from the simplify pass still open -- the 9-vs-8 "on the third day" count and
       Check 18.
+
+read_2026-10-05:
+  pass: read-bible-study (stranger reader; structure only)
+  sections: 28 -> 30
+  median_section_words: 148 -> 134
+  sections_over_400: 1 -> 0
+  longest_section_words: 451 -> 335
+  why_now: >-
+    The 2026-09-26 pass left "Which paradise did Jesus and the thief go to?" at 378 words; the Larkin
+    figure and caption added since took it to 451, the only section over target.
+  changes:
+    - >-
+      Split "Which paradise..." at its two natural breaks: `### "I have not yet ascended" (John 20:17)`
+      before "And John sharpens it", and `### Paradise moved, or paradise is the Father's presence`
+      before "Two readings follow." (92 / 103 / 256 words). The ## anchor that
+      at-home-with-the-lord.md links to is unchanged.
+    - >-
+      Renamed "### The reading this study holds, and the disagreement" (names its function) to
+      "### Two compartments of one Hades, and the commentaries that disagree" (names its content).
+      No inbound anchor links to the old heading.
+  verify: >-
+    study_structure.py --verify-against HEAD: clean -- removed, added_allowed and added_unexpected
+    all empty; no sentence changed. npm run validate: only the pre-existing Check 18 warning
+    (prosabbaton "occurs once"). refresh_frontmatter_provenance.py: no change needed (date_modified
+    already 2026-10-05).
+  for_author:
+    - >-
+      "What those days achieved": the contested 1 Peter 3:19 paragraph sits mid-section under a bold
+      lead. Giving it its own heading (structural-readability rule 5) means moving it below the
+      section's closing "This shows that God..." paragraph, which changes how the section ends. That
+      is the author's call, so it was left in place.
+    - >-
+      Divine pronouns for Jesus are still lowercase in much of the study's own prose ("his own burial",
+      "he was going"), while the newer sentences capitalise them. This is still open from 2026-09-26.
+      The prayer now closes "In Jesus' name. Amen.", so that item is done.
+    - >-
+      Material added since the 2026-09-07 review (the two Larkin figures and their captions, commit
+      e604b509 and before) has had no review-bible-study pass.
