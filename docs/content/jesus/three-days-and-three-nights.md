@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 12:40"
 bible_references: ["Matthew 12:40", "Jonah 1:17", "Matthew 16:21", "Matthew 17:23", "Matthew 20:19", "Luke 9:22", "Luke 18:33", "Luke 24:7", "Luke 24:21", "Luke 24:46", "Acts 10:40", "1 Corinthians 15:4", "Mark 8:31", "Mark 9:31", "Mark 10:34", "Mark 15:42", "Luke 23:54", "John 19:31", "John 19:14", "John 19:42", "Matthew 27:62", "Genesis 1:5", "Leviticus 23:32", "Mark 16:1-2", "Matthew 28:1", "John 20:1", "Matthew 27:62-64", "Mark 15:42-46", "Luke 23:50-56", "John 19:38-42", "Jonah 2:2-6", "Matthew 12:39-41", "Leviticus 23:5-11", "1 Corinthians 5:7", "1 Corinthians 15:20-23", "Psalm 16:10", "Acts 2:27", "Acts 2:29-31", "Luke 23:43", "Luke 16:19-31", "Genesis 37:35", "2 Corinthians 12:2-4", "Revelation 2:7", "John 20:17", "Matthew 28:9", "1 Peter 3:18-19", "Hebrews 2:14-15", "Revelation 1:18", "Revelation 20:13-14", "1 Samuel 28:13-19"]
 date_created: 2026-09-06
-date_modified: 2026-09-27
+date_modified: 2026-10-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -270,6 +270,10 @@ Testament genuinely receives the righteous (Genesis 37:35), Luke 16 places the w
 ᾅδης with a chasm *inside* it rather than between earth and heaven, and Hades is a place Revelation
 later empties and destroys.
 
+[![Detail of Clarence Larkin's chart of the underworld, redrawn: Paradise, now empty, and Hell, still occupied, either side of the Great Gulf, with a dotted line over the gulf marking that each side is seen and heard across and none may cross (Luke 16:23-26)](../assets/img/last-things/larkin-underworld-gulf.svg)](../assets/img/last-things/larkin-underworld-gulf.svg)
+
+*From Larkin's chart, redrawn: the two-compartment reading this study holds, each side in sight of the other and the chasm fixed between (Luke 16:23-26). The whole chart is in [At Home with the Lord](../last-things/at-home-with-the-lord.md).*
+
 **The commentaries on this site's shelf mostly read it otherwise.**
 The *ESV Study Bible* takes Abraham's side as "the fellowship of other believers already in heaven"
 and the chasm as "the unbridgeable gulf between heaven and hell"; the *NIV Biblical Theology Study
@@ -321,6 +325,10 @@ Two readings follow.
   moment of death, while his body rose on the Sunday and ascended forty days later. On this reading
   Luke 23:43 and Revelation 2:7 name the same place throughout.
 
+[![Detail of Clarence Larkin's chart of the underworld, redrawn: from the hill of the three crosses the soul of the penitent thief (Luke 23:43) and the soul of Christ go down to Paradise, Christ's soul returns to His body, and the righteous souls rise from Paradise with Christ](../assets/img/last-things/larkin-underworld-with-christ.svg)](../assets/img/last-things/larkin-underworld-with-christ.svg)
+
+*From Larkin's chart, redrawn: the first reading, drawn. The thief and Christ go down to Paradise on the Friday, and the righteous rise with Him.*
+
 This study holds the first, on the strength of the section above, and John 20:17 fits both. What
 neither reading permits is the popular third one, that Jesus was somehow untouchable until he had
 been to heaven. Matthew 28:9 rules it out in the same twenty-four hours.
@@ -356,8 +364,9 @@ This shows that God overcame death through the death of His Son: Jesus, our Pass
 death and came out holding its keys. So you need not live in the fear of death that Hebrews 2:15
 calls slavery; the One who holds the keys of Death and Hades is the One who died for you.
 
-Where the believing dead are now, between death and the resurrection, is a separate study in
-preparation.
+Where the believing dead are now, between death and the resurrection, is the subject of
+[At Home with the Lord](../last-things/at-home-with-the-lord.md), which sets Larkin's whole chart of
+the underworld beside its argument.
 
 ---
 
@@ -553,3 +562,5 @@ with this study's conclusion as well as where they support it.
   worked through to the same week.
 - [The Day No One Knows](the-day-no-one-knows.md) — the other place a single sentence of Jesus about
   time is read more precisely than it was meant.
+- [At Home with the Lord](../last-things/at-home-with-the-lord.md) — where the believing dead are
+  now, with Clarence Larkin's chart of the underworld redrawn.

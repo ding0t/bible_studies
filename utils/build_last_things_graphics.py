@@ -1715,6 +1715,390 @@ def the_underworld():
     return "\n".join(out)
 
 
+# ---------------------------------------------------------------------------------------------
+# 12. Sown and raised: the body God has promised (we-shall-all-be-changed.md)
+#
+# One plate in five panels, one for each question 1 Corinthians 15:35-58 answers, in the study's
+# order: how (the seed), what kind (four contrasts), whose image (two Adams), when (the last
+# trumpet), and death swallowed up. Each panel is also cut out as a detail and set beside its
+# section. Quotations are the ESV as the study quotes it; a dashed outline is a reading the study
+# marks contested or a variant.
+
+SOIL = "#cdb48a"
+SOIL_DARK = "#a88a5c"
+GRAIN = "#d9b25a"
+STALK = "#8a9a4a"
+DIM = "#b9ab90"
+BODY_PANELS = []        # top of each panel and the plate's height, as sown_and_raised() last laid them out
+BODY_GAP = 50
+
+
+def panel_head(y, label, ask):
+    return banner(W / 2, y, 380, label) + [text(W / 2, y + 50, ask, 14, "middle", italic=True, fill=MUTED)]
+
+
+def kernel(cx, cy, s=1.0, fill=GRAIN, rot=-20):
+    return (f'<g transform="translate({cx} {cy}) rotate({rot}) scale({s})">'
+            f'<ellipse rx="13" ry="8" fill="{fill}" stroke="{INK}" stroke-width="1.2"/>'
+            f'<path d="M-9 0 Q0 -2 9 0" fill="none" stroke="{GOLD_EDGE}" stroke-width="1.2"/></g>')
+
+
+def wheat(cx, base, top, full=True, droop=0):
+    """A wheat stalk from base up to top. full=False is a thin, empty ear; droop bends the head."""
+    hx = cx + droop
+    out = [f'<path d="M{cx} {base} C{cx} {base - (base - top) * 0.5} {cx + droop * 0.2} {top + 30} {hx} {top}" '
+           f'fill="none" stroke="{STALK}" stroke-width="{3 if full else 2}"/>']
+    if full:
+        mid = base - (base - top) * 0.45
+        out.append(f'<path d="M{cx} {mid} q-26 -10 -34 -36 q16 10 34 22" fill="{STALK}" opacity="0.9"/>'
+                   f'<path d="M{cx} {mid + 26} q26 -8 36 -34 q-18 10 -36 20" fill="{STALK}" opacity="0.9"/>')
+    n, gap = (7, 7) if full else (4, 5)
+    ang = math.degrees(math.atan2(droop, 30)) if droop else 0
+    grains = []
+    for i in range(n):
+        y = -i * gap
+        for side in (-1, 1):
+            grains.append(f'<ellipse cx="{side * 4.5}" cy="{y - 4}" rx="{4.2 if full else 2.6}" ry="{6.5 if full else 4}" '
+                          f'transform="rotate({side * 18} {side * 4.5} {y - 4})" fill="{GRAIN if full else DIM}" '
+                          f'stroke="{GOLD_EDGE if full else MUTED}" stroke-width="0.8"/>')
+            if full:
+                grains.append(f'<path d="M{side * 6} {y - 9} l{side * 9} -16" stroke="{GOLD_EDGE}" stroke-width="0.7"/>')
+    out.append(f'<g transform="translate({hx} {top}) rotate({ang})">{"".join(grains)}</g>')
+    return "".join(out)
+
+
+def star(cx, cy, r, fill, stroke, rays=False):
+    pts = []
+    for k in range(10):
+        a = math.radians(-90 + k * 36)
+        rr = r if k % 2 == 0 else r * 0.45
+        pts.append(f"{cx + rr * math.cos(a):.1f},{cy + rr * math.sin(a):.1f}")
+    out = ""
+    if rays:
+        out = "".join(f'<path d="M{cx + (r + 3) * math.cos(math.radians(a)):.1f} {cy + (r + 3) * math.sin(math.radians(a)):.1f} '
+                      f'L{cx + (r + 9) * math.cos(math.radians(a)):.1f} {cy + (r + 9) * math.sin(math.radians(a)):.1f}" '
+                      f'stroke="{GOLD_EDGE}" stroke-width="1.4"/>' for a in range(-72, 288, 36))
+    return out + f'<polygon points="{" ".join(pts)}" fill="{fill}" stroke="{stroke}" stroke-width="1.2"/>'
+
+
+def glow(cx, cy, r, gid):
+    return (f'<defs><radialGradient id="{gid}"><stop offset="0" stop-color="{GOLD}" stop-opacity="0.85"/>'
+            f'<stop offset="1" stop-color="{GOLD}" stop-opacity="0"/></radialGradient></defs>'
+            f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="url(#{gid})"/>')
+
+
+def flame(cx, base, h=26):
+    return (f'<path d="M{cx} {base} c-12 0 -14 -12 -8 -20 c2 6 6 6 6 2 c0 -6 -2 -10 2 -{h - 6} '
+            f'c4 8 12 12 12 24 c0 8 -6 14 -12 14 z" fill="{GOLD}" stroke="{FIRE}" stroke-width="1.3"/>'
+            f'<path d="M{cx} {base - 2} c-5 0 -6 -6 -3 -10 c1 3 3 3 3 0 c3 4 6 6 6 9 c0 2 -3 4 -6 1 z" fill="{FIRE}" opacity="0.8"/>')
+
+
+def breath(cx, cy):
+    return "".join(f'<path d="M{cx - 16} {cy + k * 8} q6 -6 12 0 t12 0 t12 0" fill="none" stroke="{MUTED}" '
+                   f'stroke-width="1.6" stroke-linecap="round"/>' for k in (-1, 0, 1))
+
+
+def open_tomb(cx, base):
+    return (f'<path d="M{cx - 46} {base} Q{cx - 44} {base - 52} {cx} {base - 56} Q{cx + 44} {base - 52} {cx + 46} {base} Z" '
+            f'fill="#8a7a5c" stroke="{INK}" stroke-width="1.3"/>'
+            f'<path d="M{cx - 12} {base} v-22 a12 12 0 0 1 24 0 v22 z" fill="{DARK}"/>'
+            f'<circle cx="{cx + 34}" cy="{base - 13}" r="13" fill="{CARD}" stroke="{INK}" stroke-width="1.3"/>')
+
+
+def trumpet(cx, cy):
+    return (f'<path d="M{cx - 70} {cy - 3} H{cx + 20} L{cx + 52} {cy - 18} V{cy + 18} L{cx + 20} {cy + 3} H{cx - 70} Z" '
+            f'fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1.4"/>'
+            f'<rect x="{cx - 78}" y="{cy - 5}" width="9" height="10" rx="2" fill="{GOLD}" stroke="{GOLD_EDGE}"/>'
+            + "".join(f'<path d="M{cx + 60 + k * 9} {cy - 14 - k * 5} q{8 + k * 3} {14 + k * 5} 0 {28 + k * 10}" fill="none" '
+                      f'stroke="{GOLD_EDGE}" stroke-width="1.5" stroke-linecap="round"/>' for k in range(3)))
+
+
+def grave(cx, base):
+    return f'<path d="M{cx - 26} {base} Q{cx} {base - 20} {cx + 26} {base} Z" fill="{SOIL_DARK}" stroke="{INK}" stroke-width="1.1"/>'
+
+
+def sown_and_raised():
+    out = []
+    head = dict(
+        title=
+"Sown and raised: the body God has promised",
+        desc="A plate in five panels on 1 Corinthians 15:35-58. "
+        "1, The seed (15:36-38): a bare kernel is sown in the soil and dies, and God gives it a body as He "
+        "has chosen, a full wheat plant growing from the same seed, as 'this perishable body' puts on the "
+        "imperishable (15:53). Beneath, Jesus' risen body shows both halves: the same body, His hands and "
+        "feet, flesh and bones, eating fish, the wounds still there (Luke 24:39-43; John 20:27), and "
+        "changed, not recognised on the road and standing among them with the doors locked (Luke 24:16; "
+        "John 20:19). "
+        "2, Four contrasts (15:42-44): sown perishable, raised imperishable; sown in dishonour, raised in "
+        "glory; sown in weakness, raised in power; sown a natural body, raised a spiritual body, each with "
+        "its Greek. 'Spiritual' says what animates the body, the Holy Spirit (Romans 8:11), and the body "
+        "is still flesh and bones (Luke 24:39). "
+        "3, Two Adams (15:45-49): the first man Adam, from the earth, a man of dust, became a living being "
+        "(Genesis 2:7); the last Adam, from heaven, became a life-giving spirit, beside an open tomb. First "
+        "the natural, then the spiritual. We have borne the image of the man of dust; we shall bear the "
+        "image of the man of heaven, with the variant 'let us bear' in two early manuscripts marked "
+        "dashed. "
+        "4, Changed in a moment (15:50-53): at the last trumpet, in a moment, in the twinkling of an eye, "
+        "the dead rise from their graves imperishable and the living are changed, at one sound. The "
+        "perishable puts on the imperishable and the mortal puts on immortality, which God alone has "
+        "(1 Timothy 6:16). A dashed note marks the timing as contested. "
+        "5, Death swallowed up (15:54-57): the law gives sin its power, and sin is death's sting; Christ "
+        "died for our sins (15:3), and the chain is broken there. Death is swallowed up in victory "
+        "(Isaiah 25:8); O death, where is your sting? (Hosea 13:14). The plate closes with 15:57: thanks be "
+        "to God, who gives us the victory through our Lord Jesus Christ.",
+    )
+    out += heading("We Shall All Be Changed", "Sown and raised · 1 Corinthians 15:35-58")
+    p1 = 110
+
+    # 1. The seed: how are the dead raised?
+    out += panel_head(p1, "1 · THE SEED", "“How are the dead raised?” (1 Corinthians 15:35)")
+    gy, sy = p1 + 260, p1 + 330
+    out.append(f'<rect x="30" y="{gy}" width="{W - 60}" height="{sy - gy}" fill="{SOIL}"/>')
+    out.append("".join(f'<circle cx="{40 + (k * 53) % 640}" cy="{gy + 12 + (k * 29) % 56}" r="1.4" fill="{SOIL_DARK}"/>'
+                       for k in range(40)))
+    out.append(f'<path d="M30 {gy} H{W - 30}" stroke="{INK}" stroke-width="1.6"/>')
+    kx, px = 170, 540
+    out.append(kernel(kx, gy + 34, 1.2))
+    out += lines_at(kx, gy - 64, ["SOWN"], 15, anchor="middle", weight="bold", spacing="1.5")
+    out += lines_at(kx, gy - 40, ["“a bare kernel”", "1 Cor 15:37"], 13, anchor="middle", italic=True)
+    out.append(text(kx, gy + 62, "“unless it dies” (15:36)", 12, "middle", italic=True))
+    # The plant grows from the same seed: its husk stays in the ground, rooted.
+    out.append(kernel(px, gy + 34, 1.2, fill=SOIL_DARK))
+    out.append("".join(f'<path d="M{px} {gy + 38} q{dx * 0.5} 10 {dx} {dy}" fill="none" stroke="{SOIL_DARK}" stroke-width="1.4"/>'
+                       for dx, dy in ((-30, 24), (-14, 30), (6, 32), (22, 26), (34, 18))))
+    out.append(wheat(px, gy + 30, p1 + 132))
+    out += lines_at(px + 92, gy - 64, ["RAISED"], 15, anchor="middle", weight="bold", spacing="1.5")
+    out += lines_at(px + 92, gy - 40, ["“the body", "that is to be”", "1 Cor 15:37"], 13, anchor="middle", italic=True)
+    out.append(f'<path d="M{kx + 40} {gy - 96} C{kx + 100} {p1 + 126} {px - 120} {p1 + 126} {px - 34} {gy - 110}" '
+               f'fill="none" stroke="{GOLD_EDGE}" stroke-width="3"/>')
+    out.append(arrow_head(px - 32, gy - 107, 55, 12, GOLD_EDGE))
+    out += lines_at((kx + px) / 2, p1 + 82, ["“God gives it a body", "as he has chosen”", "1 Cor 15:38"], 13.5,
+                    anchor="middle", italic=True)
+    out.append(f'<path d="M{kx + 20} {gy + 34} H{px - 22}" stroke="{INK}" stroke-width="1.4" stroke-dasharray="6 4"/>')
+    out.append(text((kx + px) / 2, gy + 28, "the same seed: “this perishable body” (15:53)", 12.5, "middle",
+                    weight="bold"))
+    cy0 = sy + 34
+    out.append(text(W / 2, cy0, "Jesus’ risen body shows both halves", 14, "middle", "bold"))
+    c, ch = card(40, cy0 + 12, 310, ["The same body", "“See my hands and my feet…", "Touch me, and see” (Luke 24:39)",
+                                      "ate broiled fish before them", "the wounds still there"],
+                 "Luke 24:39-43 · John 20:27", size=13)
+    out += c
+    c, _ = card(370, cy0 + 12, 310, ["Changed", "not recognised on the road", "stood among them, “the doors",
+                                      "being locked”"], "Luke 24:16 · John 20:19", size=13)
+    out += c
+    p2 = cy0 + 12 + ch + BODY_GAP
+    out.append(f'<path d="M30 {p2 - 24} H{W - 30}" stroke="{MUTED}" stroke-width="0.8"/>')
+
+    # 2. Four contrasts: what kind of body?
+    out += panel_head(p2, "2 · FOUR CONTRASTS", "“With what kind of body do they come?” (1 Corinthians 15:35)")
+    r0, rh = p2 + 104, 58
+    out.append(f'<rect x="40" y="{p2 + 66}" width="290" height="{38 + 4 * rh}" rx="8" fill="{EARTH_TINT}" stroke="{INK}"/>')
+    out.append(f'<rect x="390" y="{p2 + 66}" width="290" height="{38 + 4 * rh}" rx="8" fill="{GOLD_TINT}" stroke="{INK}"/>')
+    out.append(text(185, p2 + 92, "SOWN", 15, "middle", "bold", spacing="1.5"))
+    out.append(text(535, p2 + 92, "RAISED", 15, "middle", "bold", spacing="1.5", fill=GOLD_EDGE))
+    rows = [
+        ("perishable", "ἐν φθορᾷ · phthora, decay", "imperishable", "ἐν ἀφθαρσίᾳ · aphtharsia"),
+        ("in dishonour", "ἐν ἀτιμίᾳ · atimia", "in glory", "ἐν δόξῃ · doxa"),
+        ("in weakness", "ἐν ἀσθενείᾳ · astheneia", "in power", "ἐν δυνάμει · dynamis"),
+        ("a natural body", "σῶμα ψυχικόν · psychikon", "a spiritual body", "σῶμα πνευματικόν · pneumatikon"),
+    ]
+    for i, (a, ag, b, bg) in enumerate(rows):
+        y = r0 + i * rh
+        gx0, gx1, gc = 72, 422, y + 18
+        if i == 0:
+            out.append(f'<circle cx="{gx0}" cy="{gc}" r="12" fill="{DIM}" stroke="{MUTED}" stroke-width="1.2"/>'
+                       f'<path d="M{gx0 - 6} {gc - 9} l5 7 l-3 5 l6 6 M{gx0 + 7} {gc - 8} l-4 6 l4 3" fill="none" stroke="{INK}" stroke-width="1"/>')
+            out.append(f'<circle cx="{gx1}" cy="{gc}" r="12" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1.4"/>'
+                       f'<circle cx="{gx1}" cy="{gc}" r="7" fill="none" stroke="{GOLD_EDGE}" stroke-width="1"/>')
+        elif i == 1:
+            out.append(star(gx0, gc, 12, "none", MUTED))
+            out.append(star(gx1, gc, 12, GOLD, GOLD_EDGE, rays=True))
+        elif i == 2:
+            out.append(wheat(gx0, gc + 16, gc - 8, full=False, droop=12))
+            out.append(f'<g transform="translate({gx1} {gc + 16}) scale(0.42) translate({-gx1} {-gc - 16})">'
+                       f'{wheat(gx1, gc + 16, gc - 52)}</g>')
+        else:
+            out.append(breath(gx0 - 2, gc))
+            out.append(flame(gx1, gc + 14))
+        out.append(text(100, y + 16, a, 15, weight="bold"))
+        out.append(text(100, y + 35, ag, 12.5, italic=True, fill=MUTED))
+        out.append(text(450, y + 16, b, 15, weight="bold"))
+        out.append(text(450, y + 35, bg, 12.5, italic=True, fill=MUTED))
+        out.append(f'<path d="M336 {y + 16} H380" stroke="{GOLD_EDGE}" stroke-width="2.5"/>')
+        out.append(arrow_head(384, y + 16, 0, 9, GOLD_EDGE))
+    out.append(text(360, r0 - 18, "“sown … raised”", 12, "middle", italic=True, fill=MUTED))
+    out.append(text(W / 2, r0 + 4 * rh + 18, "1 Corinthians 15:42-44, ESV", 12, "middle", italic=True, fill=MUTED))
+    c, nh = bracket_note(40, r0 + 4 * rh + 30, 640, [
+        "“Spiritual body”: a body the Holy Spirit gives life to",
+        "ψυχικός (from ψυχή, life) and πνευματικός (from πνεῦμα, Spirit) both say what animates",
+        "the body. It is raised flesh and bones (Luke 24:39), given life “through his Spirit",
+        "who dwells in you” (Romans 8:11).",
+    ], size=13)
+    out += c
+    p3 = r0 + 4 * rh + 30 + nh + BODY_GAP
+    out.append(f'<path d="M30 {p3 - 24} H{W - 30}" stroke="{MUTED}" stroke-width="0.8"/>')
+
+    # 3. Two Adams: whose image?
+    out += panel_head(p3, "3 · TWO ADAMS", "Whose image will you bear? (1 Corinthians 15:45-49)")
+    lx, rx, gb = 185, 535, p3 + 172
+    out.append(text(lx, p3 + 90, "THE FIRST MAN ADAM", 14.5, "middle", "bold", spacing="1"))
+    out.append(text(rx, p3 + 90, "THE LAST ADAM", 14.5, "middle", "bold", spacing="1", fill=GOLD_EDGE))
+    out.append(f'<path d="M{lx - 60} {gb} Q{lx} {gb - 44} {lx + 60} {gb} Z" fill="{SOIL}" stroke="{INK}" stroke-width="1.2"/>')
+    out.append("".join(f'<circle cx="{lx - 40 + (k * 17) % 80}" cy="{gb - 6 - (k * 7) % 22}" r="1.3" fill="{SOIL_DARK}"/>' for k in range(16)))
+    out.append(f'<path d="M{lx - 70} {p3 + 118} q20 4 34 18 q8 10 26 10" fill="none" stroke="{MUTED}" stroke-width="1.6" '
+               f'stroke-dasharray="1 4" stroke-linecap="round"/>')
+    out.append(arrow_head(lx - 6, p3 + 146, 20, 8, MUTED))
+    out.append(text(lx - 74, p3 + 112, "“the breath of life”", 11.5, italic=True, fill=MUTED))
+    out.append(glow(rx, gb - 30, 70, "bd-tomb"))
+    out.append(open_tomb(rx, gb))
+    out += lines_at(lx, gb + 26, ["“from the earth, a man of dust”", "“became a living being”",
+                                  "received life · Genesis 2:7"], 13, anchor="middle")
+    out += lines_at(rx, gb + 26, ["“from heaven”", "“a life-giving spirit”", "raised · gives life"], 13, anchor="middle")
+    out.append(text(W / 2, gb + 86, "1 Corinthians 15:45, 47", 12, "middle", italic=True, fill=MUTED))
+    out += lines_at(W / 2, p3 + 116, ["first the natural,", "then the spiritual", "(15:46)"], 12, anchor="middle", italic=True)
+    out.append(f'<path d="M318 {p3 + 160} H392" stroke="{GOLD_EDGE}" stroke-width="2.5"/>')
+    out.append(arrow_head(398, p3 + 160, 0, 10, GOLD_EDGE))
+    iy = gb + 104
+    c, _ = card(40, iy, 300, ["We have borne", "“the image of the man of dust”"], "1 Cor 15:49", size=13)
+    out += c
+    c, _ = card(380, iy, 300, ["We shall also bear", "“the image of the man of heaven”"], "1 Cor 15:49", size=13,
+                fill=GOLD_TINT)
+    out += c
+    out.append(f'<path d="M344 {iy + 30} H372" stroke="{GOLD_EDGE}" stroke-width="2.5"/>')
+    out.append(arrow_head(376, iy + 30, 0, 9, GOLD_EDGE))
+    c, _ = bracket_note(380, iy + 82, 300, ["Two early manuscripts read", "“let us also bear”"], dashed=True,
+                        size=12, bold_first=False)
+    out += c
+    out += lines_at(40, iy + 98, ["σύμμορφος, sharing the form of:", "“conformed to the image of his Son”",
+                                  "(Romans 8:29); “like his glorious", "body” (Philippians 3:21)"], 12.5, italic=True)
+    out.append(text(W / 2, iy + 182, "“As in Adam all die, so also in Christ shall all be made alive” (1 Corinthians 15:22)",
+                    13, "middle", italic=True))
+    p4 = iy + 182 + BODY_GAP
+    out.append(f'<path d="M30 {p4 - 24} H{W - 30}" stroke="{MUTED}" stroke-width="0.8"/>')
+
+    # 4. Changed in a moment: when?
+    out += panel_head(p4, "4 · CHANGED IN A MOMENT", "When? “At the last trumpet” (1 Corinthians 15:52)")
+    tg = p4 + 290
+    out.append(glow(W / 2, p4 + 108, 110, "bd-trump"))
+    out.append(trumpet(W / 2 - 4, p4 + 104))
+    out.append(text(W / 2, p4 + 146, "“the trumpet will sound”", 13, "middle", italic=True))
+    out.append(f'<path d="M60 {p4 + 172} V{p4 + 164} H{W - 60} V{p4 + 172}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    out.append(f'<path d="M{W / 2} {p4 + 152} V{p4 + 164}" stroke="{INK}" stroke-width="1.2"/>')
+    out.append(text(W / 2, p4 + 188, "in a moment (ἄτομος) · in the twinkling of an eye (ῥιπή) · one sound, one instant",
+                    12.5, "middle", weight="bold"))
+    out.append(f'<rect x="30" y="{tg}" width="{W - 60}" height="22" fill="{SOIL}"/>'
+               f'<path d="M30 {tg} H{W - 30}" stroke="{INK}" stroke-width="1.5"/>')
+    for k, x in enumerate((110, 190, 270)):
+        out.append(grave(x, tg))
+        out.append(f'<path d="M{x} {tg - 14} V{tg - 40}" stroke="{GOLD_EDGE}" stroke-width="1.4" stroke-dasharray="3 3"/>')
+        out.append(arrow_head(x, tg - 42, -90, 7, GOLD_EDGE))
+        out.append(glow(x, tg - 64, 22, f"bd-dead{k}"))
+        out.append(person(x, tg - 46, 0.85))
+    for k, x in enumerate((450, 530, 610)):
+        out.append(glow(x, tg - 18, 24, f"bd-alive{k}"))
+        out.append(person(x, tg, 0.95))
+    out += lines_at(190, tg + 44, ["“the dead will be raised", "imperishable”"], 13, anchor="middle", italic=True)
+    out += lines_at(530, tg + 44, ["“and we shall be changed”", "the living, with them"], 13, anchor="middle", italic=True)
+    out.append(text(W / 2, tg + 80, "1 Corinthians 15:52 · 1 Thessalonians 4:16-17", 12, "middle", italic=True, fill=MUTED))
+    c, ch = bracket_note(40, tg + 92, 640, [
+        "Put on, as clothes (ἐνδύω)",
+        "“this perishable body must put on the imperishable, and this mortal body must put on",
+        "immortality” (15:53). Immortality (ἀθανασία) is God’s, who “alone has immortality”",
+        "(1 Timothy 6:16), and He clothes you in it.",
+    ], size=13, fill=GOLD_TINT)
+    out += c
+    c, dh = bracket_note(40, tg + 104 + ch, 640, [
+        "When the trumpet sounds is contested",
+        "This site reads it with 1 Thessalonians 4:16-17 as the rapture, before the tribulation;",
+        "others take it as the trumpet of Matthew 24:31, at His return after it. The body is the same.",
+    ], dashed=True, size=13)
+    out += c
+    p5 = tg + 104 + ch + dh + BODY_GAP
+    out.append(f'<path d="M30 {p5 - 24} H{W - 30}" stroke="{MUTED}" stroke-width="0.8"/>')
+
+    # 5. Death swallowed up: the chain of law, sin and death, broken at the cross.
+    out += panel_head(p5, "5 · DEATH SWALLOWED UP", "“O death, where is your sting?” (1 Corinthians 15:55)")
+    by = p5 + 124
+    boxes = [(40, "THE LAW"), (280, "SIN"), (520, "DEATH")]
+    for x, label in boxes:
+        out.append(f'<rect x="{x}" y="{by}" width="160" height="44" rx="6" fill="{CARD}" stroke="{INK}" stroke-width="1.6"/>')
+        out.append(text(x + 80, by + 28, label, 15, "middle", "bold", spacing="1.5"))
+    for x0, x1, rows_ in ((200, 280, ["“the power of sin", "is the law”"]), (440, 520, ["“the sting of", "death is sin”"])):
+        out.append(f'<path d="M{x0 + 4} {by + 22} H{x1 - 8}" stroke="{INK}" stroke-width="2"/>')
+        out.append(arrow_head(x1 - 2, by + 22, 0, 9))
+        out += lines_at((x0 + x1) / 2, by - 24, rows_, 11.5, lh=13, anchor="middle", italic=True)
+    out.append(text(W / 2, by - 46, "1 Corinthians 15:56", 12, "middle", italic=True, fill=MUTED))
+    # The cross takes the sin; the link from sin to death is broken there.
+    cxx, cyy = 360, by + 132
+    out.append(f'<path d="M{cxx} {cyy - 40} V{cyy + 30} M{cxx - 20} {cyy - 22} H{cxx + 20}" stroke="{INK}" stroke-width="6"/>')
+    out.append(f'<path d="M{cxx} {by + 46} V{cyy - 44}" stroke="{RED}" stroke-width="1.5" stroke-dasharray="3 3"/>')
+    out.append(f'<path d="M472 {by + 10} L488 {by + 34} M488 {by + 10} L472 {by + 34}" stroke="{RED}" stroke-width="3"/>')
+    out += lines_at(cxx + 34, cyy - 6, ["“Christ died for our sins”", "1 Corinthians 15:3"], 13, italic=True)
+    out += lines_at(600, by + 70, ["swallowed up"], 13, anchor="middle", weight="bold", fill=GOLD_EDGE)
+    out += lines_at(600, by + 90, ["“Death is swallowed", "up in victory”", "15:54, from Isaiah 25:8", "",
+                                   "“O death, where", "is your sting?”", "15:55, from Hosea 13:14"], 12.5, lh=15, anchor="middle", italic=True)
+    out += lines_at(40, by + 80, ["“The last enemy to be", "destroyed is death”", "1 Corinthians 15:26"], 12.5, lh=15, italic=True)
+    vy = by + 200
+    out.append(f'<rect x="60" y="{vy}" width="600" height="46" rx="8" fill="{GOLD_TINT}" stroke="{GOLD_EDGE}" stroke-width="1.4"/>')
+    out.append(text(W / 2, vy + 20, "“thanks be to God, who gives us the victory", 14.5, "middle", italic=True))
+    out.append(text(W / 2, vy + 38, "through our Lord Jesus Christ” (1 Corinthians 15:57)", 14.5, "middle", italic=True))
+    ly = vy + 72
+    c, _ = card(60, ly, 170, ["Stated in the text"], "", size=13)
+    out += c
+    c, _ = card(250, ly, 260, ["Contested, or a variant reading"], "", dashed=True, size=13)
+    out += c
+    out.append(text(530, ly + 19, "Quotations: ESV", 12.5, italic=True, fill=MUTED))
+    h = ly + 76
+    BODY_PANELS[:] = [p1, p2, p3, p4, p5, h]
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(svg_open(h, head["title"], head["desc"]) + out)
+
+
+BODY_DETAILS = {
+    f"changed-{slug}": (i, title, desc) for i, (slug, title, desc) in enumerate([
+        ("seed", "The seed: the same body, changed",
+         "Panel 1 of Sown and raised: a bare kernel sown in the soil (1 Corinthians 15:37) and a full wheat "
+         "plant God gives from the same seed (15:38), with Jesus' risen body the same (Luke 24:39-43; John "
+         "20:27) and changed (Luke 24:16; John 20:19)."),
+        ("contrasts", "Four contrasts: sown and raised",
+         "Panel 2 of Sown and raised: sown perishable, raised imperishable; in dishonour, in glory; in "
+         "weakness, in power; a natural body, a spiritual body (1 Corinthians 15:42-44), each with its "
+         "Greek, and a note that 'spiritual' names what animates the body (Romans 8:11; Luke 24:39)."),
+        ("adams", "Two Adams: whose image you will bear",
+         "Panel 3 of Sown and raised: the first man Adam, a man of dust who became a living being "
+         "(Genesis 2:7), and the last Adam, from heaven, a life-giving spirit, beside an open tomb; we have "
+         "borne the image of the man of dust and shall bear the image of the man of heaven (1 Corinthians "
+         "15:45-49)."),
+        ("moment", "Changed in a moment, at the last trumpet",
+         "Panel 4 of Sown and raised: at the last trumpet, in a moment, the dead rise from their graves "
+         "imperishable and the living are changed (1 Corinthians 15:52); the perishable puts on the "
+         "imperishable and the mortal immortality (15:53). The timing is marked contested."),
+        ("swallowed", "Death swallowed up",
+         "Panel 5 of Sown and raised: the law gives sin its power and sin is death's sting (1 Corinthians "
+         "15:56); Christ died for our sins (15:3) and the chain is broken there; death is swallowed up in "
+         "victory (Isaiah 25:8; Hosea 13:14), and God gives us the victory through our Lord Jesus Christ "
+         "(15:57)."),
+    ])
+}
+
+
+def body_detail(name):
+    i, title, desc = BODY_DETAILS[name]
+    svg = sown_and_raised()
+    top = BODY_PANELS[i] - 12
+    bottom = BODY_PANELS[i + 1] - (30 if i < 4 else 88)
+    return plate_detail(svg, (0, top, W, bottom - top), 1.0, title, desc)
+
+
+def plate_detail(svg, box, scale, title, desc):
+    x, y, w, h = box
+    svg = re.sub(r'viewBox="0 0 \d+ \d+"', f'viewBox="{x} {y} {w} {h}" width="{w * scale:.0f}" '
+                 f'height="{h * scale:.0f}"', svg, count=1)
+    svg = re.sub(r'<title id="t">.*?</title>', f'<title id="t">{esc(title)}</title>', svg, count=1)
+    return re.sub(r'<desc id="d">.*?</desc>', f'<desc id="d">{esc(desc)}</desc>', svg, count=1, flags=re.S)
+
+
 # Details of the redrawn chart, each set beside the section of the study it pictures, so the reader
 # meets the part of the picture with the words about it. A detail is the whole chart under a
 # narrower viewBox, so it can never drift from the full one.
@@ -1751,12 +2135,8 @@ UNDERWORLD_DETAILS = {
 
 
 def underworld_detail(name):
-    (x, y, w, h), scale, title, desc = UNDERWORLD_DETAILS[name]
-    svg = the_underworld()
-    svg = re.sub(r'viewBox="0 0 \d+ \d+"', f'viewBox="{x} {y} {w} {h}" width="{w * scale:.0f}" '
-                 f'height="{h * scale:.0f}"', svg, count=1)
-    svg = re.sub(r'<title id="t">.*?</title>', f'<title id="t">{esc(title)}</title>', svg, count=1)
-    return re.sub(r'<desc id="d">.*?</desc>', f'<desc id="d">{esc(desc)}</desc>', svg, count=1, flags=re.S)
+    box, scale, title, desc = UNDERWORLD_DETAILS[name]
+    return plate_detail(the_underworld(), box, scale, title, desc)
 
 
 FEAST_OUT = ROOT / "docs" / "content" / "assets" / "img" / "feasts"
@@ -1777,6 +2157,8 @@ CHARTS = {
     "eighth-day": eighth_day,
     "larkin-underworld": the_underworld,
     **{n: (lambda n=n: underworld_detail(n)) for n in UNDERWORLD_DETAILS},
+    "sown-and-raised": sown_and_raised,
+    **{n: (lambda n=n: body_detail(n)) for n in BODY_DETAILS},
 }
 
 

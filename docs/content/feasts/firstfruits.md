@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:9-14"
 bible_references: ["Leviticus 23:9-14", "Leviticus 23:15-16", "Leviticus 23:5-8", "Leviticus 23:43", "Leviticus 7:30", "Joshua 5:10-12", "Numbers 33:3", "Leviticus 23:14", "Exodus 12:14", "1 Corinthians 15:20-23", "Romans 8:23", "Romans 11:16", "James 1:1", "James 1:18", "Revelation 14:4", "Colossians 1:18", "Revelation 1:5", "John 12:24", "John 19:31", "Matthew 28:1", "Ruth 1:22", "Ruth 2:23", "Numbers 28:26", "Exodus 34:22", "Numbers 15:20-21"]
 date_created: 2026-09-07
-date_modified: 2026-10-02
+date_modified: 2026-10-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -315,6 +315,11 @@ securing the rest. It is why the New Testament can also call Jesus "the firstbor
 (Colossians 1:18, ESV) and "the firstborn of the dead" (Revelation 1:5, ESV). Both titles say *first
 of more*.
 
+The rest of the harvest receives a body like His. [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md)
+draws that body from 1 Corinthians 15, the seed sown and the plant God gives, and
+[At Home with the Lord](../last-things/at-home-with-the-lord.md) shows where the believing dead wait
+for it, with the sheaf and the harvest set out on Larkin's chart of the underworld.
+
 ## Discussion questions
 
 1. **The language.** The Septuagint calls the sheaf of Leviticus 23:10 an **ἀπαρχή**, and Paul uses
@@ -372,6 +377,10 @@ of more*.
   what the New Testament says Jesus fulfilled.
 - [Three Days and Three Nights](../jesus/three-days-and-three-nights.md) — the interval this feast
   closes, and where the Leviticus 23 sequence is set out alongside Passover and Unleavened Bread.
+- [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) — the body the harvest
+  receives, from 1 Corinthians 15:35-58.
+- [At Home with the Lord](../last-things/at-home-with-the-lord.md) — where the believing dead wait
+  between death and the harvest.
 - [Chronology Anchors](../last-things/chronology-anchors.md#settling-the-crucifixion-year) — where
   the AD 33 reconstruction used above is argued.
 - [The Zadok Calendar](zadok-calendar.md) — the 364-day priestly calendar, on which every appointed

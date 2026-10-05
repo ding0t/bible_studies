@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Corinthians 15:35-58"
 bible_references: ["1 Corinthians 15:12", "1 Corinthians 15:20-26", "Genesis 2:7", "Isaiah 25:8", "Isaiah 26:19", "Hosea 13:14", "Job 14:7-14", "Job 19:25-27", "Job 33:24-28", "Job 42:17", "Psalm 102:26", "Acts 2:27", "1 Corinthians 2:14-15", "Romans 5:14", "Philippians 3:20-21", "Romans 8:11", "Romans 8:23", "Romans 8:29", "1 John 3:2", "1 Thessalonians 4:16-17", "2 Corinthians 5:1-4", "Luke 24:36-43", "John 20:19-27", "1 Timothy 6:16", "Hebrews 1:12", "Revelation 6:11", "Daniel 12:2-3", "Job 19:25-27"]
 date_created: 2026-09-28
-date_modified: 2026-10-02
+date_modified: 2026-10-05
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -98,6 +98,13 @@ and give us courage at every graveside, because death has already lost. In Jesus
   first, and why death's sting is sin.
 - [Therefore](#therefore). What Paul tells you to do with this now.
 
+The whole answer is drawn as one plate, in five panels, one for each of Paul's questions. Each
+panel stands again beside the section it pictures.
+
+??? abstract "The plate: sown and raised"
+
+    [![Sown and raised, a plate in five panels on 1 Corinthians 15:35-58: the seed sown and the plant God gives; four contrasts of the body sown and the body raised; the first man Adam and the last Adam; the dead raised and the living changed at the last trumpet; and the chain of law, sin and death broken at the cross, closing with 1 Corinthians 15:57](../assets/img/last-things/sown-and-raised.svg)](../assets/img/last-things/sown-and-raised.svg)
+
 ## The question Corinth asked
 
 ### The occasion
@@ -166,6 +173,10 @@ stood among the disciples with "the doors being locked" (John 20:19, ESV). The *
 Theology Study Bible* draws on exactly these passages to explain Philippians 3:21's "glorious
 body": physical and touchable, and "not limited by being material."
 
+[![The seed: a bare kernel sown in the soil and a full wheat plant God gives from the same seed (1 Corinthians 15:36-38, 53); below, Jesus' risen body the same (Luke 24:39-43; John 20:27) and changed (Luke 24:16; John 20:19)](../assets/img/last-things/changed-seed.svg)](../assets/img/last-things/changed-seed.svg)
+
+*From the plate: the kernel and the plant are one seed, and Jesus' risen body was the same body, changed.*
+
 This shows that God keeps what He made. He raises the body He formed from the dust, and it stays
 yours. The person you are rises in the body you had, made new.
 
@@ -216,6 +227,10 @@ Romans 8:11 names the agent: "he who raised Christ Jesus from the dead will also
 mortal bodies through his Spirit who dwells in you" (ESV). The Holy Spirit who lives in you now is
 the one who will raise you.
 
+[![Four contrasts: sown perishable, raised imperishable; in dishonour, in glory; in weakness, in power; a natural body, a spiritual body (1 Corinthians 15:42-44), each with its Greek, and a note that both adjectives name what animates the body (Romans 8:11; Luke 24:39)](../assets/img/last-things/changed-contrasts.svg)](../assets/img/last-things/changed-contrasts.svg)
+
+*From the plate: the four contrasts of 1 Corinthians 15:42-44, sown and raised.*
+
 ### What "glory" and "power" promise
 
 The *ESV Study Bible* reads "dishonor … glory" of outward appearance, and says the raised body will
@@ -264,6 +279,10 @@ Adam was head of the old. "As in Adam all die, so also in Christ shall all be ma
 The word for "conformed" in Romans 8:29 and "like" in Philippians 3:21 is the same, σύμμορφος
 (*symmorphos*, G4832), "sharing the form of." Paul uses it only in these two verses. One is the
 purpose God set before time; the other is the day it is done to your body.
+
+[![Two Adams: the first man Adam, from the earth, a man of dust who became a living being (Genesis 2:7), and the last Adam, from heaven, a life-giving spirit, beside the open tomb; we have borne the image of the man of dust and shall bear the image of the man of heaven (1 Corinthians 15:45-49), with the variant reading of 15:49 marked dashed](../assets/img/last-things/changed-adams.svg)](../assets/img/last-things/changed-adams.svg)
+
+*From the plate: the image you have borne, and the image you will bear.*
 
 This is the doctrine of glorification, and it shows that God finishes His work. The image of God in
 which Adam was made (Genesis 1:27) is restored in Christ and completed in your body at His coming.
@@ -317,6 +336,10 @@ one place the change at Christ's visible return after the tribulation. [The Trum
 reads the three trumpet texts one at a time and argues that "last" need not mean the same trumpet
 in each. On every reading the body is the same: raised imperishable, and the living changed with
 the dead.
+
+[![Changed in a moment: at the last trumpet, in a moment, the dead rise from their graves imperishable and the living are changed with them (1 Corinthians 15:52; 1 Thessalonians 4:16-17); the perishable puts on the imperishable and the mortal immortality (15:53); a dashed note marks the timing as contested](../assets/img/last-things/changed-moment.svg)](../assets/img/last-things/changed-moment.svg)
+
+*From the plate: one trumpet, one instant, the dead raised and the living changed.*
 
 ### Putting on immortality
 
@@ -422,6 +445,10 @@ Jesus took that sentence. "Christ died for our sins in accordance with the Scrip
 *given*: "thanks be to God, who gives us the victory through our Lord Jesus Christ" (1 Corinthians
 15:57, ESV). The *NIV Biblical Theology Study Bible* says the same: God carried out the death
 sentence when Jesus died in the place of sinners, and so broke death's power.
+
+[![Death swallowed up: the law gives sin its power and sin is death's sting (1 Corinthians 15:56); the cross, where Christ died for our sins (15:3), breaks the link from sin to death; death is swallowed up in victory (15:54, from Isaiah 25:8), and God gives the victory through our Lord Jesus Christ (15:57)](../assets/img/last-things/changed-swallowed.svg)](../assets/img/last-things/changed-swallowed.svg)
+
+*From the plate: the chain of law, sin and death, broken at the cross.*
 
 This shows that God removes death's cause along with death. Your sins were paid for at the cross, so death has nothing left to charge you with. When your body is raised, death has lost its
 last hold on you. "The last enemy to be destroyed is death" (1 Corinthians 15:26, ESV).

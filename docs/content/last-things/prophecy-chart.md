@@ -1,12 +1,12 @@
 ---
 title: "Charting End Times"
 category: "prophecy"
-description: "Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- with the seven thousand years redrawn on this site's chronology."
+description: "Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, the relation of Jew, Gentile, and Church, and the underworld -- with the seven thousand years redrawn on this site's chronology and the underworld redrawn with this site's verses."
 tags: ["chart", "timeline", "dispensationalism", "larkin"]
 draft: false
-bible_references: ["Genesis 1:1-2:3", "Exodus 20:11", "Colossians 2:16-17", "Hebrews 4:9", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 19:7-9", "Revelation 20:1-6", "Zechariah 14:4-5"]
+bible_references: ["Genesis 1:1-2:3", "Exodus 20:11", "Colossians 2:16-17", "Hebrews 4:9", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 19:7-9", "Revelation 20:1-6", "Zechariah 14:4-5", "Luke 16:19-31", "Luke 23:43", "2 Corinthians 5:8", "Philippians 1:23", "Ephesians 4:8-10"]
 date_created: 2024-05-29
-date_modified: 2026-10-04
+date_modified: 2026-10-05
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -22,7 +22,8 @@ dispensational framework this site argues for in prose across
 millennium, or how Jew, Gentile, and Church relate across that sweep -- is easier to see laid out
 than to read paragraph by paragraph. Larkin's own charts are reproduced below; his *Dispensational
 Truth* (1918/1920) is in the public domain in the United States. After the first comes this site's own
-redrawing of it on the site's chronology; after the second, a mermaid diagram of the same framework.
+redrawing of it on the site's chronology; after the second, a mermaid diagram of the same framework;
+and the third, of the underworld, stands beside its redrawing.
 
 ## The seven thousand years of human history
 
@@ -84,12 +85,37 @@ on Daniel's seventy-weeks timeline), Larkin's chart is a summary of arguments ma
 on this site: a map for orienting yourself in those studies, not a standalone proof of any one claim
 on it.
 
+## The underworld
+
+=== "Larkin's original (1920)"
+
+    ![Larkin: The Underworld — Paradise and Hell as compartments of Hades, divided by the Great Gulf, with the righteous dead taken out at Christ's resurrection](../assets/img/larkin/the-underworld.gif)
+
+=== "Redrawn"
+
+    [![Larkin's The Underworld, redrawn: Paradise and Hell as compartments of Hades either side of the Great Gulf, a dotted line over it marking that each side is seen and heard across and never crossed (Luke 16:23-26), Tartarus and the Abyss below them and the lake of fire apart; from the three crosses the souls of the penitent thief and of Christ go down to Paradise and the impenitent thief's soul to Hell, and the righteous souls rise with Christ as the first fruits; on the right the Harvest, the Gleanings seven years later and the Tares a thousand years after that. Larkin's labels in black, this site's verses in blue, and his Ephesians 4:8-10 caption boxed with a dashed line](../assets/img/last-things/larkin-underworld.svg)](../assets/img/last-things/larkin-underworld.svg)
+
+Larkin's third chart turns from the ages to the dead: where the soul goes between death and the
+resurrection. Paradise and Hell sit either side of the Great Gulf of Luke 16, with Tartarus, the
+abyss and the lake of fire below them. The righteous rise from Paradise with Christ as "the first
+fruits," and on the right the resurrections run out through the tribulation and the thousand years.
+
+This site's own position, as against Larkin's chart: [At Home with the Lord](at-home-with-the-lord.md)
+holds its conclusion, that the believing dead are now with Christ (2 Corinthians 5:8; Philippians
+1:23), and names its caption, Ephesians 4:8-10, as the weak point, because two of the four study
+Bibles consulted there read that descent as the incarnation. The two-compartment reading of Hades is
+itself contested, and [Three Days and Three Nights](../jesus/three-days-and-three-nights.md#abrahams-side-paradise-and-the-great-chasm)
+sets out the case for it and the disagreement. The redrawn chart keeps Larkin's labels in black and
+adds, in blue, the verses At Home with the Lord rests each point on.
+
 ## References & Recommended Reading
 
 - Clarence Larkin, *Dispensational Truth, or God's Plan and Purpose in the Ages* (Rev. Clarence
-  Larkin Est., 1918/1920) -- source of both charts reproduced above; public domain in the United
-  States.
+  Larkin Est., 1918/1920) -- source of all three charts reproduced above; public domain in the
+  United States.
 - [Bible Prophecy Essentials](prophecy-essentials.md) -- the framework these charts summarize.
+- [At Home with the Lord](at-home-with-the-lord.md) -- where the believing dead are now, with the
+  underworld chart set beside the argument section by section.
 - [The Rapture of the Church](rapture.md) -- the tribulation, the judgments, and the millennium,
   argued in full.
 - [A Day Is a Thousand Years](day-is-a-thousand-years.md) -- the six-then-seventh chronological pattern behind the "seven
