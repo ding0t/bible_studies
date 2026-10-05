@@ -45,6 +45,12 @@ _REF = re.compile(r"^(?P<book>.+?)\s+(?P<chapter>\d+):(?P<start>\d+)(?:-(?P<end>
 _CANTILLATION = re.compile("[֑-ֽ֯]")
 _HEBREW_SEPARATORS = re.compile(r"[/\\׃׀]")
 _GREEK_WORD = re.compile(r"^(?P<word>.+?)\s*\((?P<translit>[^)]*)\)$")
+# TAHOT capitalises the divine name as a name, and its vowels are the Qere perpetuum (Adonai's), so
+# the capital says nothing about how "Yahweh" was stressed -- which no source records.
+_DIVINE_NAME = re.compile(r"H306[89]")
+# Speech opened in an earlier verse or closed in a later one leaves an unpaired mark on a
+# one-verse card: Deuteronomy 6:4 and John 3:16 open with a quotation mark that never closes.
+_UNPAIRED_OPEN = re.compile(r"^[“‘](?!.*[”’]\W*$)")
 
 
 def parse_ref(ref: str) -> dict:
@@ -102,6 +108,8 @@ def hebrew_words(rows: list[tuple[str, list[str]]], poetic: bool = False) -> lis
         if not text:
             continue
         syllables, stress = hebrew_syllables(cols[2], poetic)
+        if _DIVINE_NAME.search(cols[4]):
+            stress = None
         words.append({"w": unicodedata.normalize("NFC", text), "t": syllables, "s": stress,
                       "g": clean_gloss(cols[3])})
     return words
@@ -133,13 +141,25 @@ def greek_words(rows: list[tuple[str, list[str]]]) -> list[dict]:
         m = _GREEK_WORD.match(cols[1].strip())
         if not m:
             continue
-        words.append({"w": unicodedata.normalize("NFC", m["word"]), "t": [m["translit"]], "s": None,
+        translit = m["translit"]
+        word = m["word"].replace("¶", "")
+        # TAGNT writes eta with iota subscript as 'ēa' (archēa for ἀρχῇ) but omega with it as plain
+        # 'ō'; read both the same way.
+        if "\u0345" in unicodedata.normalize("NFD", word):
+            translit = translit.replace("ēa", "ē")
+        words.append({"w": unicodedata.normalize("NFC", word), "t": [translit], "s": None,
                       "g": clean_gloss(cols[2])})
     return words
 
 
 def clean_gloss(gloss: str) -> str:
-    return re.sub(r"\s+", " ", re.sub(r"[/<>\[\]{}]", " ", gloss)).strip()
+    """'to <the>/ him' -> 'to him'; 'wound[s]/ his' -> 'wounds his'. Angle brackets hold English
+    the translator supplied, which the word itself does not carry; square ones an optional ending.
+    A gloss that is all supplied ('<the>' for an article, '<obj.>' for אֵת) keeps it."""
+    if re.sub(r"<[^>]*>|[\s/]", "", gloss):
+        gloss = re.sub(r"<[^>]*>", "", gloss)
+    gloss = re.sub(r"[<>\[\]{}]", "", gloss).replace("/", " ")
+    return re.sub(r"\s+", " ", gloss).strip()
 
 
 def web_text(conn, ref: dict) -> str:
@@ -154,7 +174,7 @@ def web_text(conn, ref: dict) -> str:
 def esv_text(conn, ref: dict) -> str | None:
     rows = study_notes_query.lookup_verse(conn, ref["osis"], ref["chapter"], ref["start"], ESV,
                                           verse_end=ref["end"])
-    return " ".join(r["text"].strip() for r in rows) or None
+    return _UNPAIRED_OPEN.sub("", " ".join(r["text"].strip() for r in rows)) or None
 
 
 def main() -> None:

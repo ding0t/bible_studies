@@ -67,7 +67,7 @@
       "'et"
      ],
      "s": 1,
-     "g": "and obj."
+     "g": "and"
     },
     {
      "w": "הָאָרֶץ",
@@ -83,6 +83,976 @@
    "translations": {
     "ESV": "In the beginning, God created the heavens and the earth.",
     "WEB": "In the beginning, God created the heavens and the earth."
+   }
+  },
+  {
+   "ref": "John 1:1",
+   "theme": "The Word",
+   "set": "foundations",
+   "language": "greek",
+   "words": [
+    {
+     "w": "Ἐν",
+     "t": [
+      "En"
+     ],
+     "s": null,
+     "g": "In the"
+    },
+    {
+     "w": "ἀρχῇ",
+     "t": [
+      "archē"
+     ],
+     "s": null,
+     "g": "beginning"
+    },
+    {
+     "w": "ἦν",
+     "t": [
+      "ēn"
+     ],
+     "s": null,
+     "g": "was"
+    },
+    {
+     "w": "ὁ",
+     "t": [
+      "ho"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "λόγος,",
+     "t": [
+      "logos"
+     ],
+     "s": null,
+     "g": "Word,"
+    },
+    {
+     "w": "καὶ",
+     "t": [
+      "kai"
+     ],
+     "s": null,
+     "g": "and"
+    },
+    {
+     "w": "ὁ",
+     "t": [
+      "ho"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "λόγος",
+     "t": [
+      "logos"
+     ],
+     "s": null,
+     "g": "Word"
+    },
+    {
+     "w": "ἦν",
+     "t": [
+      "ēn"
+     ],
+     "s": null,
+     "g": "was"
+    },
+    {
+     "w": "πρὸς",
+     "t": [
+      "pros"
+     ],
+     "s": null,
+     "g": "with"
+    },
+    {
+     "w": "τὸν",
+     "t": [
+      "ton"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "θεόν,",
+     "t": [
+      "theon"
+     ],
+     "s": null,
+     "g": "God,"
+    },
+    {
+     "w": "καὶ",
+     "t": [
+      "kai"
+     ],
+     "s": null,
+     "g": "and"
+    },
+    {
+     "w": "θεὸς",
+     "t": [
+      "theos"
+     ],
+     "s": null,
+     "g": "God"
+    },
+    {
+     "w": "ἦν",
+     "t": [
+      "ēn"
+     ],
+     "s": null,
+     "g": "was"
+    },
+    {
+     "w": "ὁ",
+     "t": [
+      "ho"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "λόγος.",
+     "t": [
+      "logos"
+     ],
+     "s": null,
+     "g": "Word."
+    }
+   ],
+   "translations": {
+    "ESV": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "WEB": "In the beginning was the Word, and the Word was with God, and the Word was God."
+   }
+  },
+  {
+   "ref": "Genesis 15:6",
+   "theme": "Faith",
+   "set": "foundations",
+   "language": "hebrew",
+   "words": [
+    {
+     "w": "וְהֶאֱמִן",
+     "t": [
+      "ve",
+      "he",
+      "'e",
+      "min"
+     ],
+     "s": 3,
+     "g": "and he believed"
+    },
+    {
+     "w": "בַּיהוָה",
+     "t": [
+      "ba",
+      "yah",
+      "weh"
+     ],
+     "s": null,
+     "g": "in Yahweh"
+    },
+    {
+     "w": "וַיַּחְשְׁבֶהָ",
+     "t": [
+      "vai",
+      "yach",
+      "she",
+      "ve",
+      "ha"
+     ],
+     "s": 3,
+     "g": "and he credited it"
+    },
+    {
+     "w": "לּוֹ",
+     "t": [
+      "lo"
+     ],
+     "s": null,
+     "g": "to him"
+    },
+    {
+     "w": "צְדָקָה",
+     "t": [
+      "tze",
+      "da",
+      "kah"
+     ],
+     "s": 2,
+     "g": "righteousness"
+    }
+   ],
+   "translations": {
+    "ESV": "And he believed the LORD, and he counted it to him as righteousness.",
+    "WEB": "He believed in Yahweh, who credited it to him for righteousness."
+   }
+  },
+  {
+   "ref": "Ephesians 2:8-9",
+   "theme": "Grace",
+   "set": "foundations",
+   "language": "greek",
+   "words": [
+    {
+     "w": "Τῇ",
+     "t": [
+      "Tē"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "γὰρ",
+     "t": [
+      "gar"
+     ],
+     "s": null,
+     "g": "For"
+    },
+    {
+     "w": "χάριτί",
+     "t": [
+      "chariti"
+     ],
+     "s": null,
+     "g": "by grace"
+    },
+    {
+     "w": "ἐστε",
+     "t": [
+      "este"
+     ],
+     "s": null,
+     "g": "you are"
+    },
+    {
+     "w": "σεσῳσμένοι",
+     "t": [
+      "sesōsmenoi"
+     ],
+     "s": null,
+     "g": "saved"
+    },
+    {
+     "w": "διὰ",
+     "t": [
+      "dia"
+     ],
+     "s": null,
+     "g": "through"
+    },
+    {
+     "w": "πίστεως,",
+     "t": [
+      "pisteōs"
+     ],
+     "s": null,
+     "g": "faith,"
+    },
+    {
+     "w": "καὶ",
+     "t": [
+      "kai"
+     ],
+     "s": null,
+     "g": "and"
+    },
+    {
+     "w": "τοῦτο",
+     "t": [
+      "touto"
+     ],
+     "s": null,
+     "g": "this"
+    },
+    {
+     "w": "οὐκ",
+     "t": [
+      "ouk"
+     ],
+     "s": null,
+     "g": "not"
+    },
+    {
+     "w": "ἐξ",
+     "t": [
+      "ex"
+     ],
+     "s": null,
+     "g": "of"
+    },
+    {
+     "w": "ὑμῶν,",
+     "t": [
+      "humōn"
+     ],
+     "s": null,
+     "g": "yourselves,"
+    },
+    {
+     "w": "θεοῦ",
+     "t": [
+      "theou"
+     ],
+     "s": null,
+     "g": "it is of God"
+    },
+    {
+     "w": "τὸ",
+     "t": [
+      "to"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "δῶρον,",
+     "t": [
+      "dōron"
+     ],
+     "s": null,
+     "g": "gift,"
+    },
+    {
+     "w": "οὐκ",
+     "t": [
+      "ouk"
+     ],
+     "s": null,
+     "g": "not"
+    },
+    {
+     "w": "ἐξ",
+     "t": [
+      "ex"
+     ],
+     "s": null,
+     "g": "as a result of"
+    },
+    {
+     "w": "ἔργων,",
+     "t": [
+      "ergōn"
+     ],
+     "s": null,
+     "g": "works,"
+    },
+    {
+     "w": "ἵνα",
+     "t": [
+      "ina"
+     ],
+     "s": null,
+     "g": "so that"
+    },
+    {
+     "w": "μή",
+     "t": [
+      "mē"
+     ],
+     "s": null,
+     "g": "not"
+    },
+    {
+     "w": "τις",
+     "t": [
+      "tis"
+     ],
+     "s": null,
+     "g": "anyone"
+    },
+    {
+     "w": "καυχήσηται.",
+     "t": [
+      "kauchēsētai"
+     ],
+     "s": null,
+     "g": "may boast."
+    }
+   ],
+   "translations": {
+    "ESV": "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.",
+    "WEB": "for by grace you have been saved through faith, and that not of yourselves; it is the gift of God, not of works, that no one would boast."
+   }
+  },
+  {
+   "ref": "Isaiah 53:5",
+   "theme": "The Servant",
+   "set": "foundations",
+   "language": "hebrew",
+   "words": [
+    {
+     "w": "וְהוּא",
+     "t": [
+      "ve",
+      "hu'"
+     ],
+     "s": 1,
+     "g": "and he"
+    },
+    {
+     "w": "מְחֹלָל",
+     "t": [
+      "me",
+      "cho",
+      "lal"
+     ],
+     "s": 2,
+     "g": "was pierced"
+    },
+    {
+     "w": "מִפְּשָׁעֵנוּ",
+     "t": [
+      "mi",
+      "pe",
+      "sha",
+      "'e",
+      "nu"
+     ],
+     "s": 3,
+     "g": "from transgressions our"
+    },
+    {
+     "w": "מְדֻכָּא",
+     "t": [
+      "me",
+      "du",
+      "ka'"
+     ],
+     "s": 2,
+     "g": "was crushed"
+    },
+    {
+     "w": "מֵעֲוֹנֹתֵינוּ",
+     "t": [
+      "me",
+      "'a",
+      "vo",
+      "no",
+      "tei",
+      "nu"
+     ],
+     "s": 4,
+     "g": "from iniquities our"
+    },
+    {
+     "w": "מוּסַר",
+     "t": [
+      "mu",
+      "sar"
+     ],
+     "s": 1,
+     "g": "the chastening of"
+    },
+    {
+     "w": "שְׁלוֹמֵנוּ",
+     "t": [
+      "she",
+      "lo",
+      "me",
+      "nu"
+     ],
+     "s": 2,
+     "g": "peace our"
+    },
+    {
+     "w": "עָלָיו",
+     "t": [
+      "'a",
+      "lav"
+     ],
+     "s": 1,
+     "g": "was on him"
+    },
+    {
+     "w": "וּבַחֲבֻרָתוֹ",
+     "t": [
+      "u",
+      "va",
+      "cha",
+      "vu",
+      "ra",
+      "to"
+     ],
+     "s": 5,
+     "g": "and by wounds his"
+    },
+    {
+     "w": "נִרְפָּא־",
+     "t": [
+      "nir",
+      "pa'-"
+     ],
+     "s": null,
+     "g": "it was healed"
+    },
+    {
+     "w": "לָנוּ",
+     "t": [
+      "la",
+      "nu"
+     ],
+     "s": 0,
+     "g": "to us"
+    }
+   ],
+   "translations": {
+    "ESV": "But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his wounds we are healed.",
+    "WEB": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed."
+   }
+  },
+  {
+   "ref": "Romans 6:23",
+   "theme": "The Gift",
+   "set": "foundations",
+   "language": "greek",
+   "words": [
+    {
+     "w": "τὰ",
+     "t": [
+      "ta"
+     ],
+     "s": null,
+     "g": "The"
+    },
+    {
+     "w": "γὰρ",
+     "t": [
+      "gar"
+     ],
+     "s": null,
+     "g": "for"
+    },
+    {
+     "w": "ὀψώνια",
+     "t": [
+      "opsōnia"
+     ],
+     "s": null,
+     "g": "wages"
+    },
+    {
+     "w": "τῆς",
+     "t": [
+      "tēs"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "ἁμαρτίας",
+     "t": [
+      "hamartias"
+     ],
+     "s": null,
+     "g": "of sin"
+    },
+    {
+     "w": "θάνατος,",
+     "t": [
+      "thanatos"
+     ],
+     "s": null,
+     "g": "is death,"
+    },
+    {
+     "w": "τὸ",
+     "t": [
+      "to"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "δὲ",
+     "t": [
+      "de"
+     ],
+     "s": null,
+     "g": "but"
+    },
+    {
+     "w": "χάρισμα",
+     "t": [
+      "charisma"
+     ],
+     "s": null,
+     "g": "the gift"
+    },
+    {
+     "w": "τοῦ",
+     "t": [
+      "tou"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "θεοῦ",
+     "t": [
+      "theou"
+     ],
+     "s": null,
+     "g": "of God"
+    },
+    {
+     "w": "ζωὴ",
+     "t": [
+      "zōē"
+     ],
+     "s": null,
+     "g": "life"
+    },
+    {
+     "w": "αἰώνιος",
+     "t": [
+      "aiōnios"
+     ],
+     "s": null,
+     "g": "eternal"
+    },
+    {
+     "w": "ἐν",
+     "t": [
+      "en"
+     ],
+     "s": null,
+     "g": "in"
+    },
+    {
+     "w": "Χριστῷ",
+     "t": [
+      "Christō"
+     ],
+     "s": null,
+     "g": "Christ"
+    },
+    {
+     "w": "Ἰησοῦ",
+     "t": [
+      "Iēsou"
+     ],
+     "s": null,
+     "g": "Jesus"
+    },
+    {
+     "w": "τῷ",
+     "t": [
+      "tō"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "κυρίῳ",
+     "t": [
+      "kuriō"
+     ],
+     "s": null,
+     "g": "Lord"
+    },
+    {
+     "w": "ἡμῶν.",
+     "t": [
+      "hēmōn"
+     ],
+     "s": null,
+     "g": "of us."
+    }
+   ],
+   "translations": {
+    "ESV": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.",
+    "WEB": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord."
+   }
+  },
+  {
+   "ref": "Deuteronomy 6:4",
+   "theme": "The Shema",
+   "set": "foundations",
+   "language": "hebrew",
+   "words": [
+    {
+     "w": "שְׁמַע",
+     "t": [
+      "she",
+      "ma'"
+     ],
+     "s": 1,
+     "g": "hear"
+    },
+    {
+     "w": "יִשְׂרָאֵל",
+     "t": [
+      "yis",
+      "ra",
+      "'el"
+     ],
+     "s": 2,
+     "g": "O Israel"
+    },
+    {
+     "w": "יְהוָה",
+     "t": [
+      "yah",
+      "weh"
+     ],
+     "s": null,
+     "g": "Yahweh"
+    },
+    {
+     "w": "אֱלֹהֵינוּ",
+     "t": [
+      "'e",
+      "lo",
+      "hei",
+      "nu"
+     ],
+     "s": 2,
+     "g": "God our"
+    },
+    {
+     "w": "יְהוָה",
+     "t": [
+      "yah",
+      "weh"
+     ],
+     "s": null,
+     "g": "Yahweh"
+    },
+    {
+     "w": "אֶחָד",
+     "t": [
+      "'e",
+      "chad"
+     ],
+     "s": 1,
+     "g": "is one"
+    }
+   ],
+   "translations": {
+    "ESV": "Hear, O Israel: The LORD our God, the LORD is one.",
+    "WEB": "Hear, Israel: Yahweh is our God. Yahweh is one."
+   }
+  },
+  {
+   "ref": "John 3:16",
+   "theme": "God's Love",
+   "set": "foundations",
+   "language": "greek",
+   "words": [
+    {
+     "w": "οὕτως",
+     "t": [
+      "houtōs"
+     ],
+     "s": null,
+     "g": "Thus"
+    },
+    {
+     "w": "γὰρ",
+     "t": [
+      "gar"
+     ],
+     "s": null,
+     "g": "for"
+    },
+    {
+     "w": "ἠγάπησεν",
+     "t": [
+      "ēgapēsen"
+     ],
+     "s": null,
+     "g": "loved"
+    },
+    {
+     "w": "ὁ",
+     "t": [
+      "ho"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "θεὸς",
+     "t": [
+      "theos"
+     ],
+     "s": null,
+     "g": "God"
+    },
+    {
+     "w": "τὸν",
+     "t": [
+      "ton"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "κόσμον,",
+     "t": [
+      "kosmon"
+     ],
+     "s": null,
+     "g": "world,"
+    },
+    {
+     "w": "ὥστε",
+     "t": [
+      "hōste"
+     ],
+     "s": null,
+     "g": "that"
+    },
+    {
+     "w": "τὸν",
+     "t": [
+      "ton"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "υἱὸν",
+     "t": [
+      "huion"
+     ],
+     "s": null,
+     "g": "Son"
+    },
+    {
+     "w": "τὸν",
+     "t": [
+      "ton"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "μονογενῆ",
+     "t": [
+      "monogenē"
+     ],
+     "s": null,
+     "g": "only begotten"
+    },
+    {
+     "w": "ἔδωκεν,",
+     "t": [
+      "edōken"
+     ],
+     "s": null,
+     "g": "He gave,"
+    },
+    {
+     "w": "ἵνα",
+     "t": [
+      "ina"
+     ],
+     "s": null,
+     "g": "so that"
+    },
+    {
+     "w": "πᾶς",
+     "t": [
+      "pas"
+     ],
+     "s": null,
+     "g": "everyone"
+    },
+    {
+     "w": "ὁ",
+     "t": [
+      "ho"
+     ],
+     "s": null,
+     "g": "who"
+    },
+    {
+     "w": "πιστεύων",
+     "t": [
+      "pisteuōn"
+     ],
+     "s": null,
+     "g": "is believing"
+    },
+    {
+     "w": "εἰς",
+     "t": [
+      "eis"
+     ],
+     "s": null,
+     "g": "in"
+    },
+    {
+     "w": "αὐτὸν",
+     "t": [
+      "auton"
+     ],
+     "s": null,
+     "g": "Him"
+    },
+    {
+     "w": "μὴ",
+     "t": [
+      "mē"
+     ],
+     "s": null,
+     "g": "not"
+    },
+    {
+     "w": "ἀπόληται",
+     "t": [
+      "apolētai"
+     ],
+     "s": null,
+     "g": "may perish"
+    },
+    {
+     "w": "ἀλλ᾽",
+     "t": [
+      "all᾽"
+     ],
+     "s": null,
+     "g": "but"
+    },
+    {
+     "w": "ἔχῃ",
+     "t": [
+      "echē"
+     ],
+     "s": null,
+     "g": "may have"
+    },
+    {
+     "w": "ζωὴν",
+     "t": [
+      "zōēn"
+     ],
+     "s": null,
+     "g": "life"
+    },
+    {
+     "w": "αἰώνιον.",
+     "t": [
+      "aiōnion"
+     ],
+     "s": null,
+     "g": "eternal."
+    }
+   ],
+   "translations": {
+    "ESV": "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.",
+    "WEB": "For God so loved the world, that he gave his only born Son, that whoever believes in him should not perish, but have eternal life."
    }
   }
  ]

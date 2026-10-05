@@ -17,3 +17,38 @@ translations = ["ESV", "WEB"]
 ref = "Genesis 1:1"
 theme = "Creation"
 set = "foundations"
+
+[[verse]]
+ref = "John 1:1"
+theme = "The Word"
+set = "foundations"
+
+[[verse]]
+ref = "Genesis 15:6"
+theme = "Faith"
+set = "foundations"
+
+[[verse]]
+ref = "Ephesians 2:8-9"
+theme = "Grace"
+set = "foundations"
+
+[[verse]]
+ref = "Isaiah 53:5"
+theme = "The Servant"
+set = "foundations"
+
+[[verse]]
+ref = "Romans 6:23"
+theme = "The Gift"
+set = "foundations"
+
+[[verse]]
+ref = "Deuteronomy 6:4"
+theme = "The Shema"
+set = "foundations"
+
+[[verse]]
+ref = "John 3:16"
+theme = "God's Love"
+set = "foundations"

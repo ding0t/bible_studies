@@ -46,3 +46,9 @@ def test_a_range_spans_its_verses():
 def test_an_unknown_book_is_refused():
     with pytest.raises(ValueError):
         mv.parse_ref("Hezekiah 1:1")
+
+
+def test_glosses_drop_supplied_english_unless_it_is_the_whole_gloss():
+    assert mv.clean_gloss("to <the>/ him") == "to him"
+    assert mv.clean_gloss("and/ by/ wound[s]/ his") == "and by wounds his"
+    assert mv.clean_gloss("<the>") == "the"

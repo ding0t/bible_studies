@@ -44,8 +44,19 @@ _NOTICE = "ESV® © 2001 Crossway, used by permission · WEB public domain · TA
 _data: dict = {"verses": [], "sources": {}}
 
 
+def _json_path(config) -> Path:
+    return Path(config.config_file_path).parent / "docs" / "data" / "memory-verses.json"
+
+
+def on_serve(server, config, builder):  # noqa: ARG001 - hook signature
+    # Outside docs_dir, so `mkdocs serve` would otherwise show stale cards after an export.
+    server.watch(str(_json_path(config)))
+    return server
+
+
 def on_config(config):
-    path = Path(config.config_file_path).parent / "docs" / "data" / "memory-verses.json"
+    path = _json_path(config)
+    _data.update({"verses": [], "sources": {}})
     try:
         _data.update(json.loads(path.read_text(encoding="utf-8")))
     except FileNotFoundError:
@@ -185,4 +196,4 @@ def _same(a: str, b: str) -> bool:
 def _density(verse: dict) -> str:
     """Long verses step the type down so they still fit a 95 x 67.5 mm card."""
     size = len(verse["words"]) + sum(len(t) for t in verse["translations"].values()) / 25
-    return " mv-dense2" if size > 40 else " mv-dense1" if size > 22 else ""
+    return " mv-dense2" if size > 34 else " mv-dense1" if size > 22 else ""
