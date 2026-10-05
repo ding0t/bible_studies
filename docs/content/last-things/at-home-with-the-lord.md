@@ -98,7 +98,7 @@ In Jesus' name. Amen.
 - [Two verbs for home](#two-verbs-for-home). ἐνδημέω and ἐκδημέω, and the Spirit as God's pledge.
 - [Away from the body, at home with the Lord](#away-from-the-body-at-home-with-the-lord). The
   believer at death: with Christ, conscious, waiting. Includes the contested "naked" of verse 3.
-- [The body, still owed](#the-body-still-owed). The resurrection as a separate, future, bodily
+- [The body God has promised](#the-body-god-has-promised). The resurrection as a separate, future, bodily
   event, and three states side by side.
 - [Where were they before?](#where-were-they-before) The two-compartment reading of Hades, and
   Ephesians 4:8-10, which is contested.
@@ -174,7 +174,8 @@ thing" (5:5), and He has put His own Spirit down as security.
 ## Away from the body, at home with the Lord
 
 Whatever changed for the righteous dead at the ascension, it changed their *address*. Their bodies
-still wait for the resurrection of believers, which has not happened yet. The body is still owed.
+still wait for the resurrection of believers, which has not happened yet. God has promised the
+body, and He will give it.
 
 **Paul expects to be without the body at death, and he wants more than that state.**
 "Away from the body and at home with the Lord" is the gain. To the Philippians he calls it "far
@@ -226,7 +227,7 @@ ESV). Where that Paradise was then, and where it is now, is taken up in
 This shows that God receives a believer at death into the company of His Son Jesus, at once. No
 believer waits alone.
 
-## The body, still owed
+## The body God has promised
 
 **The raising is a separate, future, bodily event.** "The dead in Christ will rise first. Then we who
 are alive… will be caught up together with them in the clouds" (1 Thessalonians 4:16-17, ESV). What rises

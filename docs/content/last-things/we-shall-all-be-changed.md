@@ -352,7 +352,7 @@ clothes you in what is His.
 
 Paul uses the same clothing picture in 2 Corinthians 5:4. He longs "not that we would be unclothed,
 but that we would be further clothed, so that what is mortal may be swallowed up by life" (ESV).
-[At Home with the Lord](at-home-with-the-lord.md#the-body-still-owed) traces the other half of this
+[At Home with the Lord](at-home-with-the-lord.md#the-body-god-has-promised) traces the other half of this
 promise: a believer who dies goes at once to be with the Lord Jesus, and waits there for this body.
 
 ### The white robes are a different gift
