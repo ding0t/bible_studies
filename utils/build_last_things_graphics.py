@@ -15,11 +15,12 @@ so the chart cannot drift from Chronology Anchors. Run it again after that file 
 
 import datetime
 import json
+import math
 import sys
 from pathlib import Path
 
 from lib.larkin import (W, PAPER, INK, MUTED, CARD, RED, RED_TINT, GOLD, GOLD_EDGE, GOLD_TINT, BLUE,
-                        BLUE_TINT, EARTH_TINT, HALO, text, svg_open, heading, banner, cloud, arrow_head,
+                        BLUE_TINT, EARTH_TINT, HALO, esc, text, svg_open, heading, banner, cloud, arrow_head,
                         card, legend_row, credit)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1184,6 +1185,535 @@ def weeks_within_weeks():
     return "\n".join(out)
 
 
+# ---------------------------------------------------------------------------------------------
+# 11. Larkin's "The Underworld", redrawn (at-home-with-the-lord.md, "Larkin's own chart")
+#
+# A redraw of the 1920 plate, not a chart of this site's reading: every label is Larkin's, in his
+# order, and the study says where it parts from him. The dome is two concentric half-ellipses, the
+# earth's surface over the underworld's, and the grave is the band between them.
+
+UW_CX, UW_CY = 325, 1120
+UW_EARTH = (338, 820)
+UW_DOME = (300, 780)
+UW_MID = (319, 800)
+UW_OUTER = (329, 810)                   # "the wicked dead" runs along the grave's outer half
+UW_INNER = (308, 790)                   # and "the righteous dead" along its inner half
+UW_FLOOR = 965
+UW_GRAVE_END = 31                       # degrees: the grave runs from Eden round to here
+DARK = "#2a2018"
+LAND = "#7f9a6a"
+ADDED = BLUE                            # a reference this site adds to Larkin's point
+
+# Each stream is shaded by who travels it, and each realm in the shade of those it holds, so a
+# flow can be followed by colour from where it starts to where it ends.
+FLOWS = {
+    "christ": ("#ecd08a", "Christ"),
+    "righteous": ("#d8e8c8", "The righteous"),
+    "wicked": ("#efc6b8", "The wicked"),
+    "angels": ("#d9d3ea", "The fallen angels"),
+}
+REALM = {"paradise": "#eef5e6", "hell": "#f7e1d9", "tartarus": "#ece9f5", "lake": "#f0cdbf",
+         "grave": EARTH_TINT, "hill": "#8a7a5c"}
+
+
+def uw_point(t_deg, r):
+    t = math.radians(t_deg)
+    return UW_CX + r[0] * math.cos(t), UW_CY - r[1] * math.sin(t)
+
+
+def uw_t_at_x(x, r):
+    return math.degrees(math.acos((x - UW_CX) / r[0]))
+
+
+def uw_y(x, r):
+    return uw_point(uw_t_at_x(x, r), r)[1]
+
+
+def uw_arc(t0, t1, r):
+    """The ellipse from t0 to t1 as an SVG arc, over the top when t0 > t1."""
+    (x0, y0), (x1, y1) = uw_point(t0, r), uw_point(t1, r)
+    return f"M{x0:.1f} {y0:.1f} A{r[0]} {r[1]} 0 0 {1 if t0 > t1 else 0} {x1:.1f} {y1:.1f}"
+
+
+def along(pid, d, lines, size=10.5):
+    """Lettering run along a path, centred on it. A line reads "bold|plain~added": the part before
+    "|" is set bold, the part after "~" in ADDED, for a reference this site supplies."""
+    out = [f'<defs><path id="{pid}" d="{d}"/></defs>']
+    lh = size * 1.15
+    for i, ln in enumerate(lines):
+        dy = (i - (len(lines) - 1) / 2) * lh + size * 0.35
+        main, _, added = ln.partition("~")
+        bold, _, rest = main.partition("|") if "|" in main else ("", "", main)
+        body = ((f'<tspan font-weight="bold">{esc(bold)}</tspan>' if bold else "") + esc(rest)
+                + (f'<tspan fill="{ADDED}" font-style="italic">{esc(added)}</tspan>' if added else ""))
+        out.append(f'<text font-size="{size}" fill="{INK}" dy="{dy:.1f}"><textPath href="#{pid}" '
+                   f'startOffset="50%" text-anchor="middle">{body}</textPath></text>')
+    return out
+
+
+def ribbon(pid, d, w, flow, lines=(), label_d=None, size=10.5, mask=None):
+    """Larkin's stream: a band ruled on both edges, shaded by who travels it. `mask` is a clip that
+    hides the part inside the realms it leaves or enters, so it opens into them with no seam."""
+    m = f' clip-path="url(#{mask})"' if mask else ""
+    out = [f'<g{m}><path d="{d}" fill="none" stroke="{INK}" stroke-width="{w + 2.6}"/>'
+           f'<path d="{d}" fill="none" stroke="{FLOWS[flow][0]}" stroke-width="{w}"/></g>']
+    if lines:
+        out += along(pid, label_d or d, lines, size)
+    return out
+
+
+LEOPARD = "#c99a4c"
+MANE = "#8a5a24"
+# Revelation 13:1, "ten horns and seven heads, with ten diadems on its horns": the horns on each
+# head, read left to right. The text does not say how they are shared out, only that there are ten.
+BEAST_HORNS = [2, 1, 2, 1, 1, 2, 1]
+
+
+def beast_from_sea(cx, base, s=1.0):
+    """The beast of Revelation 13:1-2, facing left: a leopard's body, a bear's feet, seven heads each
+    with a lion's mouth, and ten horns each crowned."""
+    assert len(BEAST_HORNS) == 7 and sum(BEAST_HORNS) == 10
+
+    def P(x, y):
+        return f"{cx + x * s:.1f} {base + y * s:.1f}"
+
+    out = [f'<path d="M{P(44, -20)} q{14 * s:.1f} {4 * s:.1f} {16 * s:.1f} {-10 * s:.1f} '
+           f'q{2 * s:.1f} {-8 * s:.1f} {-6 * s:.1f} {-10 * s:.1f}" fill="none" stroke="{INK}" '
+           f'stroke-width="{3.6 * s:.1f}" stroke-linecap="round"/>'
+           f'<path d="M{P(44, -20)} q{14 * s:.1f} {4 * s:.1f} {16 * s:.1f} {-10 * s:.1f} '
+           f'q{2 * s:.1f} {-8 * s:.1f} {-6 * s:.1f} {-10 * s:.1f}" fill="none" stroke="{LEOPARD}" '
+           f'stroke-width="{2 * s:.1f}" stroke-linecap="round"/>']
+    # A bear's feet: short heavy legs ending in broad clawed paws.
+    for x in (-22, -11, 22, 34):
+        out.append(f'<path d="M{P(x - 4, -14)} V{base - 3 * s:.1f} H{cx + (x + 4) * s:.1f} V{base - 14 * s:.1f}" '
+                   f'fill="{LEOPARD}" stroke="{INK}" stroke-width="1"/>')
+        out.append(f'<ellipse cx="{cx + (x - 1) * s:.1f}" cy="{base - 2 * s:.1f}" rx="{6.5 * s:.1f}" '
+                   f'ry="{2.8 * s:.1f}" fill="{MANE}" stroke="{INK}" stroke-width="1"/>')
+        out.append("".join(f'<path d="M{P(x - 7 + 2.5 * k, -1)} l{-1.5 * s:.1f} {2.5 * s:.1f}" '
+                           f'stroke="{INK}" stroke-width="0.9"/>' for k in range(3)))
+    # A leopard's body, spotted.
+    out.append(f'<path d="M{P(30, -32)} C{P(42, -32)} {P(48, -24)} {P(45, -16)} C{P(41, -10)} {P(30, -12)} '
+               f'{P(20, -12)} L{P(-14, -12)} C{P(-25, -12)} {P(-31, -17)} {P(-31, -24)} C{P(-31, -32)} '
+               f'{P(-22, -36)} {P(-12, -36)} C{P(0, -35)} {P(18, -33)} {P(30, -32)} Z" fill="{LEOPARD}" '
+               f'stroke="{INK}" stroke-width="1.2"/>')
+    spots = [(-18, -28), (-8, -31), (2, -27), (12, -31), (22, -27), (32, -26), (-12, -20), (6, -19),
+             (26, -18), (38, -21), (-24, -22), (16, -23)]
+    out.append("".join(f'<circle cx="{cx + x * s:.1f}" cy="{base + y * s:.1f}" r="{1.6 * s:.1f}" '
+                       f'fill="none" stroke="{DARK}" stroke-width="{1.1 * s:.1f}"/>' for x, y in spots))
+    # Seven necks fanned from the shoulders, each head a lion's: mane, open jaw, eye; its horns crowned.
+    sx, sy = -24, -32
+    for i, horns in enumerate(BEAST_HORNS):
+        a = math.radians(205 - i * 25)
+        ux, uy = math.cos(a), -math.sin(a)
+        reach = 31 if i % 2 else 25
+        hx, hy = sx + reach * ux, sy + reach * uy
+        out.append(f'<path d="M{P(sx, sy)} L{P(hx, hy)}" stroke="{INK}" stroke-width="{4.6 * s:.1f}" '
+                   f'stroke-linecap="round"/><path d="M{P(sx, sy)} L{P(hx, hy)}" stroke="{LEOPARD}" '
+                   f'stroke-width="{2.8 * s:.1f}" stroke-linecap="round"/>')
+        out.append(f'<circle cx="{cx + hx * s:.1f}" cy="{base + hy * s:.1f}" r="{5 * s:.1f}" fill="{MANE}" '
+                   f'stroke="{INK}" stroke-width="0.9"/>')
+        out.append(f'<circle cx="{cx + (hx + ux) * s:.1f}" cy="{base + (hy + uy) * s:.1f}" r="{3.6 * s:.1f}" '
+                   f'fill="{LEOPARD}" stroke="{INK}" stroke-width="0.8"/>')
+        # The jaw opens on the side away from the shoulders: a dark wedge, toothed at its lips.
+        jx, jy = hx + 2.6 * ux, hy + 2.6 * uy
+        px, py = -uy, ux
+        out.append(f'<path d="M{P(jx, jy)} L{P(jx + 5 * ux + 3 * px, jy + 5 * uy + 3 * py)} '
+                   f'L{P(jx + 5 * ux - 3 * px, jy + 5 * uy - 3 * py)} Z" fill="{RED}" stroke="{INK}" stroke-width="0.6"/>')
+        for k in range(horns):
+            spread = 0 if horns == 1 else (-0.45 if k == 0 else 0.45)
+            ha = -math.pi / 2 + 0.55 * ux + spread
+            tx, ty = hx + 4 * math.cos(ha), hy + 4 * math.sin(ha)
+            ex, ey = tx + 6 * math.cos(ha), ty + 6 * math.sin(ha)
+            out.append(f'<path d="M{P(tx, ty)} L{P(ex, ey)}" stroke="{INK}" stroke-width="{1.4 * s:.1f}" '
+                       f'stroke-linecap="round"/>')
+            # Each horn's diadem: a small three-pointed crown at the tip.
+            out.append(f'<path d="M{P(ex - 1.8, ey)} l{0.6 * s:.1f} {-2.4 * s:.1f} l{0.6 * s:.1f} {1.4 * s:.1f} '
+                       f'l{0.6 * s:.1f} {-1.4 * s:.1f} l{0.6 * s:.1f} {1.4 * s:.1f} l{0.6 * s:.1f} {-1.4 * s:.1f} '
+                       f'l{0.6 * s:.1f} {2.4 * s:.1f} Z" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="0.5"/>')
+        out.append(f'<circle cx="{cx + (hx + 1.2 * ux - 1.4 * px) * s:.1f}" cy="{base + (hy + 1.2 * uy - 1.4 * py) * s:.1f}" '
+                   f'r="{0.8 * s:.1f}" fill="{INK}"/>')
+    return "".join(out)
+
+
+def lamb_false_prophet(cx, base, s=1.0):
+    """The beast from the earth of Revelation 13:11, the false prophet of 19:20, facing left: a lamb
+    with two horns, speaking with a dragon's fire."""
+    def P(x, y):
+        return f"{cx + x * s:.1f} {base + y * s:.1f}"
+
+    out = []
+    for x in (-11, -5, 8, 14):
+        out.append(f'<path d="M{P(x, -12)} V{base - 1.5 * s:.1f}" stroke="{INK}" stroke-width="{2 * s:.1f}"/>'
+                   f'<path d="M{P(x - 1.4, -1.5)} h{2.8 * s:.1f} v{1.5 * s:.1f} h{-2.8 * s:.1f} Z" fill="{INK}"/>')
+    wool = [(-12, -20), (-5, -25), (3, -26), (11, -24), (17, -19), (12, -14), (2, -13), (-8, -14)]
+    out.append(f'<ellipse cx="{cx + 2 * s:.1f}" cy="{base - 19 * s:.1f}" rx="{17 * s:.1f}" ry="{8.5 * s:.1f}" '
+               f'fill="{CARD}" stroke="{INK}" stroke-width="1.1"/>')
+    out.append("".join(f'<circle cx="{cx + x * s:.1f}" cy="{base + y * s:.1f}" r="{4.2 * s:.1f}" fill="{CARD}" '
+                       f'stroke="{INK}" stroke-width="0.9"/>' for x, y in wool))
+    out.append(f'<ellipse cx="{cx + 2 * s:.1f}" cy="{base - 19 * s:.1f}" rx="{14 * s:.1f}" ry="{6.5 * s:.1f}" fill="{CARD}"/>')
+    out.append(f'<path d="M{P(-12, -22)} L{P(-17, -27)}" stroke="{INK}" stroke-width="{5 * s:.1f}" stroke-linecap="round"/>'
+               f'<path d="M{P(-12, -22)} L{P(-17, -27)}" stroke="{CARD}" stroke-width="{3.4 * s:.1f}" stroke-linecap="round"/>')
+    out.append(f'<ellipse cx="{cx - 21 * s:.1f}" cy="{base - 29 * s:.1f}" rx="{6.5 * s:.1f}" ry="{4.6 * s:.1f}" '
+               f'fill="{CARD}" stroke="{INK}" stroke-width="1"/>')
+    out.append(f'<ellipse cx="{cx - 15.5 * s:.1f}" cy="{base - 29.5 * s:.1f}" rx="{3 * s:.1f}" ry="{1.6 * s:.1f}" '
+               f'fill="{CARD}" stroke="{INK}" stroke-width="0.8" transform="rotate(25 {cx - 15.5 * s:.1f} {base - 29.5 * s:.1f})"/>')
+    # Two horns like a lamb's: short and curled.
+    for x0 in (-23, -19):
+        out.append(f'<path d="M{P(x0, -33)} q{-1 * s:.1f} {-5 * s:.1f} {3 * s:.1f} {-6 * s:.1f}" fill="none" '
+                   f'stroke="{INK}" stroke-width="{1.5 * s:.1f}" stroke-linecap="round"/>')
+    out.append(f'<circle cx="{cx - 23 * s:.1f}" cy="{base - 30 * s:.1f}" r="{0.8 * s:.1f}" fill="{INK}"/>')
+    # "It spoke like a dragon": fire from the lamb's mouth.
+    out.append(f'<path d="M{P(-27, -27.5)} q{-6 * s:.1f} {-3 * s:.1f} {-11 * s:.1f} {-1 * s:.1f} '
+               f'q{4 * s:.1f} {1 * s:.1f} {3 * s:.1f} {3 * s:.1f} q{-3 * s:.1f} {0 * s:.1f} {-5 * s:.1f} {2 * s:.1f} '
+               f'q{6 * s:.1f} {1 * s:.1f} {13 * s:.1f} {-2.5 * s:.1f} Z" fill="{FIRE}" stroke="{RED}" stroke-width="0.6"/>')
+    return "".join(out)
+
+
+def dragon(cx, cy):
+    """The dragon bound in the abyss (Revelation 20:1-3): coiled, wings raised, head turned up."""
+    scale = "#9b7a4a"
+    body = (f"M{cx - 50} {cy + 46} C{cx - 70} {cy + 14} {cx - 14} {cy + 4} {cx - 2} {cy + 24} "
+            f"S{cx + 44} {cy + 56} {cx + 50} {cy + 14} S{cx + 26} {cy - 30} {cx} {cy - 22}")
+    wing = lambda x, y, d: (f'<path d="M{x} {y} L{x + 30 * d} {y - 50} L{x + 22 * d} {y - 26} '
+                            f'L{x + 44 * d} {y - 36} L{x + 30 * d} {y - 12} L{x + 50 * d} {y - 10} Z" '
+                            f'fill="#7a5a34" stroke="{scale}" stroke-width="1.2"/>')
+    return (wing(cx + 22, cy + 30, 1) + wing(cx + 4, cy + 28, -1)
+            + f'<path d="{body}" fill="none" stroke="{scale}" stroke-width="10" stroke-linecap="round"/>'
+            + f'<path d="{body}" fill="none" stroke="#5a4226" stroke-width="2" stroke-dasharray="3 6"/>'
+            + f'<path d="M{cx + 2} {cy - 18} L{cx - 22} {cy - 34} L{cx - 30} {cy - 24} L{cx - 18} {cy - 22} '
+              f'L{cx - 28} {cy - 14} L{cx - 4} {cy - 12} Z" fill="{scale}"/>'
+            + f'<circle cx="{cx - 14}" cy="{cy - 25}" r="2" fill="{GOLD}"/>')
+
+
+def the_underworld():
+    h = 1125
+    out = svg_open(
+        h,
+        "The Underworld, after Clarence Larkin",
+        "A redrawing of Clarence Larkin's chart 'The Underworld' from Dispensational Truth (1918; "
+        "expanded 1920), with his labels. A dome stands for the underworld, and the band over it is "
+        "'The Grave', running from Eden, where Abel is the first laid in it, past the Flood, where the "
+        "'Sons of God' (Genesis 6:1-4) go down to Tartarus. Inside the dome, 'Paradise', 'the abode of "
+        "the souls of the righteous dead until Christ's resurrection; it is now empty', and 'Hell', "
+        "'the abode of the souls of the wicked dead; still occupied', sit either side of 'The Great "
+        "Gulf' (Luke 16:19-31), which opens down into the Abyss or Bottomless Pit, where a dragon lies "
+        "bound. Below them are Tartarus, 'prison of the fallen angels' (2 Peter 2:4; Jude 6), and 'The "
+        "Lake of Fire', 'Gehenna, the final hell' (Matthew 25:41; Revelation 19:20; 20:10, 14-15), with "
+        "the Beast and the False Prophet in it, drawn as Revelation 13 describes them: the Beast like a "
+        "leopard with a bear's feet and seven heads, each with a lion's mouth, carrying ten horns each "
+        "crowned with a diadem (13:1-2); the False Prophet a lamb with two horns, speaking with a "
+        "dragon's fire (13:11). A dotted line arcs over the Gulf from Hell to Paradise: seen and heard "
+        "across, none may cross (Luke 16:23-26); whether Luke 16:19-31 is a parable or an account of the "
+        "far side of death is debated. On the hill above stand three crosses. The soul of the "
+        "penitent thief and the soul of Christ go down to Paradise; the impenitent thief's soul goes to "
+        "Hell; Christ's soul returns to His body, and the righteous souls Christ took out of the "
+        "underworld rise with Him as 'the First Fruits' (Ephesians 4:8-10; Psalm 68:18; Revelation "
+        "1:18). On the right, the souls of the righteous return for their bodies and rise as 'The "
+        "Harvest', the translation and first-resurrection saints (1 Thessalonians 4:15-17); seven "
+        "years later 'The Gleanings', the tribulation saints (Revelation 20:4); a thousand years after "
+        "that the wicked souls go for their bodies and rise as 'The Tares', the second resurrection "
+        "(Revelation 20:11-15), with the fallen angels brought to judgment (Jude 6). 'The Sinner's "
+        "Doom' comes back down into the lake of fire. Each stream is shaded by who travels it: gold "
+        "for Christ, green for the righteous, red for the wicked, lavender for the fallen angels. "
+        "References in blue are added from the study "
+        "'At Home with the Lord': Luke 16:22 and 23:43 for Paradise, Luke 16:23 and Revelation 20:13 "
+        "for Hell, 2 Corinthians 5:8, Philippians 1:23, 2 Corinthians 12:2-4 and Revelation 2:7 for "
+        "the righteous now with Christ, 1 Corinthians 15:20-23 and Leviticus 23:10 for the first "
+        "fruits, 1 Thessalonians 4:14 for the souls returning, 1 Corinthians 15:51-53 for the harvest, "
+        "and Revelation 20:5 for the rest of the dead. Larkin's Ephesians 4:8-10 caption is boxed with "
+        "a dashed line, as the one the study does not follow.",
+    )
+    defs = [f'<pattern id="uw-stip" width="7" height="7" patternUnits="userSpaceOnUse">'
+            f'<circle cx="1.5" cy="1.5" r="0.8" fill="{MUTED}"/><circle cx="5" cy="5" r="0.6" fill="{MUTED}"/>'
+            f'</pattern><clipPath id="uw-floor"><rect x="14" y="14" width="{W - 28}" height="{UW_FLOOR - 14}"/></clipPath>']
+    head = len(out)
+
+    out.append(text(34, 50, "THE", 22, weight="bold", spacing="1.5"))
+    out.append(text(34, 76, "UNDERWORLD", 22, weight="bold", spacing="1.5"))
+    out.append(f'<path d="M34 85 H228" stroke="{INK}" stroke-width="1.5"/>')
+    out += lines_at(34, 106, ["Clarence Larkin, Dispensational Truth (1920)", "redrawn, with the study’s verses added"],
+                    12.5, italic=True, fill=MUTED)
+
+    # Every realm a stream can open into. Each is drawn at inset 0; a stream is clipped to the
+    # outside of the same shape inset by most of its outline, so where it crosses the outline it
+    # covers it, and the join reads as an opening.
+    g0, g1 = 147, UW_GRAVE_END
+    hx, hy = UW_CX, UW_CY - UW_EARTH[1]
+    row0, row1 = 600, 716
+    par, gulf, hell = (122, 276), (286, 364), (374, 480)
+    tar, lake = (50, 248, 790), (410, 596, 786)
+
+    def grave_d(i=0):
+        outer, inner = (UW_EARTH[0] - i, UW_EARTH[1] - i), (UW_DOME[0] + i, UW_DOME[1] + i)
+        (ox0, oy0), (ix0, iy0), (ix1, iy1) = uw_point(g0, outer), uw_point(g0, inner), uw_point(g1, inner)
+        return (f"{uw_arc(g0, g1, outer)} L{ix1:.1f} {iy1:.1f} A{inner[0]} {inner[1]} 0 0 0 {ix0:.1f} {iy0:.1f} "
+                f"A{19 - i} {19 - i} 0 0 1 {ox0:.1f} {oy0:.1f} Z")
+
+    def hill_d(i=0):
+        return (f"M{hx - 95 + i} {hy + 22 - i} C{hx - 80 + i} {hy - 22 + i} {hx - 40} {hy - 34 + i} {hx} {hy - 36 + i} "
+                f"C{hx + 40} {hy - 34 + i} {hx + 85 - i} {hy - 22 + i} {hx + 100 - i} {hy + 22 - i} Z")
+
+    def box_d(x0, x1, i=0):
+        return f"M{x0 + i} {row0 + i} H{x1 - i} V{row1 - i} H{x0 + i} Z"
+
+    def domed(x0, x1, top, i=0):
+        x0, x1, top = x0 + i, x1 - i, top + i
+        return (f"M{x0} {UW_FLOOR - 12} V{top + 50} Q{x0} {top} {x0 + 60} {top} H{x1 - 60} "
+                f"Q{x1} {top} {x1} {top + 50} V{UW_FLOOR - 12} Z")
+
+    shapes = {
+        "grave": grave_d, "hill": hill_d,
+        "paradise": lambda i=0: box_d(*par, i), "hell": lambda i=0: box_d(*hell, i),
+        "tartarus": lambda i=0: domed(*tar, i), "lake": lambda i=0: domed(*lake, i),
+    }
+    masks = {}
+
+    def realm(name):
+        d = shapes[name]()
+        if name in ("paradise", "hell"):
+            x0, x1 = par if name == "paradise" else hell
+            return (f'<rect x="{x0}" y="{row0}" width="{x1 - x0}" height="{row1 - row0}" rx="12" '
+                    f'fill="{REALM[name]}" stroke="{INK}" stroke-width="1.6"/>')
+        return f'<path d="{d}" fill="{REALM[name]}" stroke="{INK}" stroke-width="1.6"/>'
+
+    def opening(*names):
+        cid = "uw-out-" + "-".join(names)
+        if cid not in masks:
+            holes = " ".join(shapes[n](1.4) for n in names)
+            masks[cid] = (f'<clipPath id="{cid}"><path clip-rule="evenodd" '
+                          f'd="M0 0 H{W} V{h} H0 Z {holes}"/></clipPath>')
+        return cid
+
+    # The underworld, and the grave over it from Eden round to where the wicked dead rise.
+    out.append(f'<g clip-path="url(#uw-floor)"><ellipse cx="{UW_CX}" cy="{UW_CY}" rx="{UW_DOME[0]}" '
+               f'ry="{UW_DOME[1]}" fill="url(#uw-stip)" stroke="{INK}" stroke-width="1.6"/></g>')
+    out.append(f'<path d="M14 {UW_FLOOR} H{W - 14}" stroke="{INK}" stroke-width="1.6"/>')
+    out.append(realm("grave"))
+    ox0, oy0 = uw_point(g0, UW_EARTH)
+    rt, hv, gl, ta, an, dm = 470, 497, 545, 596, 655, 686
+    out += along("uw-grave", uw_arc(133, 115, UW_MID), ["THE GRAVE"], 19)
+    out[-1] = out[-1].replace('<text ', '<text font-weight="bold" letter-spacing="3" ')
+    out += along("uw-rdead", uw_arc(uw_t_at_x(488, UW_INNER), uw_t_at_x(550, UW_INNER), UW_INNER),
+                 ["The righteous dead|"], 9.5)
+    out += along("uw-wdead", uw_arc(uw_t_at_x(gl + 11, UW_OUTER), uw_t_at_x(ta - 15, UW_OUTER), UW_OUTER),
+                 ["The wicked dead|"], 9)
+
+    # Eden, Abel the first in the grave, and the Flood.
+    ex, ey = ox0 + 2, oy0 + 36
+    out.append(f'<circle cx="{ex:.1f}" cy="{ey:.1f}" r="22" fill="{BLUE_TINT}" stroke="{INK}" stroke-width="1.4"/>'
+               f'<path d="M{ex - 14:.1f} {ey - 6:.1f} q8 -10 16 -4 q6 6 -2 12 q-10 4 -14 -8 z '
+               f'M{ex + 4:.1f} {ey + 8:.1f} q8 -4 12 2 q-4 8 -12 -2 z" fill="{LAND}"/>')
+    out.append(text(ex, ey - 28, "EDEN", 11, "middle", "bold", spacing="1"))
+    ax, ay = uw_point(141, UW_MID)
+    out.append(text(ax + 2, ay + 4, "Abel", 10.5, "middle", italic=True, extra=f'transform="rotate(-58 {ax + 2:.1f} {ay + 4:.1f})"'))
+    fx, fy = uw_point(134, UW_EARTH)
+    out.append(f'<g transform="translate({fx:.1f} {fy - 4:.1f}) rotate(-40)">'
+               f'<path d="M-16 0 H16 L11 9 H-11 Z" fill="{MUTED}" stroke="{INK}"/>'
+               f'<rect x="-8" y="-8" width="16" height="8" fill="{CARD}" stroke="{INK}"/>'
+               f'<path d="M-10 -8 L0 -14 L10 -8" fill="none" stroke="{INK}"/></g>')
+    out += lines_at(fx - 8, fy - 30, ["THE FLOOD"], 10.5, weight="bold", anchor="middle")
+    out += lines_at(fx - 36, fy - 6, ["Sons of God", "Gen 6:1-4"], 10.5, anchor="end", italic=True, extra=HALO)
+
+    # The realms of the dead.
+    out.append(realm("paradise"))
+    pm = (par[0] + par[1]) / 2
+    out.append(text(pm, row0 + 28, "“PARADISE”", 16, "middle", "bold", spacing="1"))
+    out += lines_at(pm, row0 + 42, ["The abode of the souls of", "the “righteous dead” until",
+                                    "Christ’s resurrection."], 11.5, anchor="middle")
+    out.append(text(pm, row0 + 90, "Luke 16:22", 10.5, "middle", italic=True, fill=ADDED))
+    out.append(text(pm, row0 + 108, "It is now EMPTY", 11.5, "middle", "bold"))
+    out.append(realm("hell"))
+    out.append(flames(hell[0] + 6, hell[1] - 10, row1 - 2, 18))
+    hm = (hell[0] + hell[1]) / 2
+    out.append(text(hm, row0 + 28, "“HELL”", 16, "middle", "bold", spacing="1"))
+    out += lines_at(hm, row0 + 42, ["The abode of the", "souls of the", "“wicked dead”"], 11.5, anchor="middle", extra=HALO)
+    out.append(text(hm, row0 + 90, "Luke 16:23 · Rev 20:13", 9.5, "middle", italic=True, fill=ADDED, extra=HALO))
+    out.append(text(hm, row0 + 108, "Still occupied", 11.5, "middle", "bold", extra=HALO))
+    out.append(realm("tartarus"))
+    tm = (tar[0] + tar[1]) / 2
+    out.append(text(tm, tar[2] + 70, "“TARTARUS”", 15, "middle", "bold", spacing="1"))
+    out += lines_at(tm, tar[2] + 92, ["Prison of the", "“fallen angels”"], 12, anchor="middle")
+    out.append(text(tm, tar[2] + 132, "2 Peter 2:4 · Jude 6", 11, "middle", italic=True))
+    out.append(realm("lake"))
+    lm = (lake[0] + lake[1]) / 2
+    out.append(text(lm, lake[2] + 30, "“THE LAKE OF FIRE”", 13.5, "middle", "bold"))
+    out += lines_at(lm, lake[2] + 46, ["“Gehenna,” the final hell", "Matt 25:41",
+                                       "Rev 19:20; 20:10, 14-15"], 11, lh=14.5, anchor="middle", italic=True)
+    out.append(flames(lake[0] + 8, lake[1] - 10, UW_FLOOR - 26, 18))
+    out.append(beast_from_sea(470, 938, 0.84))
+    out.append(lamb_false_prophet(567, 938, 1.05))
+    out.append(flames(lake[0] + 4, lake[1] - 6, UW_FLOOR - 13, 12))
+    out.append(text(462, 950, "The Beast", 10.5, "middle", "bold", extra=HALO))
+    out.append(text(558, 950, "False Prophet", 10.5, "middle", "bold", extra=HALO))
+
+    # The fallen angels, out of Tartarus to judgment. They pass behind the gulf, which is drawn next.
+    fa = 740
+    out += ribbon("uw-fa", f"M150 {tar[2] + 24} V{fa + 14} Q150 {fa} 164 {fa} H{an - 14} Q{an} {fa} {an} {fa - 14} V14",
+                  16, "angels", mask=opening("tartarus"))
+    out += along("uw-fa1", f"M164 {fa} H{gulf[0]}", ["Fallen angels to judgment"], 9)
+    out += along("uw-fa2", f"M{gulf[1]} {fa} H{an - 14}", ["Fallen angels to judgment"], 9)
+    out += along("uw-fa3", f"M{an} {fa - 40} V14", ["Fallen angels to judgment · Jude 6"], 9.5)
+    out.append(arrow_head(150, tar[2] - 8, -90, 8))
+
+    # The gulf, opening down into the abyss.
+    neck0, neck1, jar_top = 306, 344, 780
+    jar = (256, 394)
+    out.append(f'<path d="M{jar[0]} {UW_FLOOR} V{jar_top + 40} Q{jar[0]} {jar_top} {neck0} {jar_top} V{jar_top - 14} '
+               f'H{neck1} V{jar_top} Q{jar[1]} {jar_top} {jar[1]} {jar_top + 40} V{UW_FLOOR} Z" fill="{DARK}" stroke="{INK}" stroke-width="1.6"/>')
+    for i in range(5):
+        out.append(f'<path d="M{jar[0] + 6} {jar_top + 46 + i * 30} q16 -10 32 0 t32 0 t32 0 t32 0" fill="none" '
+                   f'stroke="#5a4a36" stroke-width="1.4"/>')
+    out.append(dragon(318, 852))
+    out.append(text(325, 926, "ABYSS", 13, "middle", "bold", fill=PAPER, spacing="1.5"))
+    out.append(text(325, 945, "Bottomless Pit", 11.5, "middle", fill=PAPER, italic=True))
+    out.append(f'<path d="M{gulf[0]} {row0} H{gulf[1]} V{jar_top - 32} Q{gulf[1]} {jar_top - 22} {neck1} {jar_top - 22} '
+               f'V{jar_top - 14} H{neck0} V{jar_top - 22} Q{gulf[0]} {jar_top - 22} {gulf[0]} {jar_top - 32} Z" '
+               f'fill="{CARD}" stroke="{INK}" stroke-width="1.6"/>')
+    # Across the gulf: seen and heard, never crossed (Luke 16:23-26). Dotted, as a line of sight and
+    # speech, so that nobody reads it as a way through.
+    out.append(f'<path d="M{par[1] - 8} {row0 - 2} Q325 {row0 - 34} {hell[0] + 8} {row0 - 2}" fill="none" '
+               f'stroke="{INK}" stroke-width="1.8" stroke-dasharray="0.1 4.5" stroke-linecap="round"/>')
+    out += [arrow_head(par[1] - 7, row0, 115, 7), arrow_head(hell[0] + 7, row0, 65, 7)]
+    out.append(f'<path d="M321 {row0 - 24} v-12 M329 {row0 - 24} v-12" stroke="{RED}" stroke-width="1.8"/>')
+    out += lines_at(344, row0 - 60, ["seen and heard across,", "none may cross"], 9.5, lh=11, anchor="middle",
+                    italic=True, extra=HALO)
+    out.append(text(344, row0 - 38, "Luke 16:23-26", 9.5, "middle", italic=True, fill=ADDED, extra=HALO))
+    out += lines_at(325, row0 + 26, ["THE", "GREAT", "GULF"], 14, lh=18, anchor="middle", weight="bold")
+    out.append(text(325, row0 + 90, "Luke 16:19-31", 10.5, "middle", italic=True))
+
+    # The hill and the tomb. Souls go down out of the hill's foot into the earth; Christ rises out of
+    # its top.
+    out.append(realm("hill"))
+    out.append(f'<path d="M{hx + 4} {hy - 12} v-12 a10 10 0 0 1 20 0 v12 z" fill="{DARK}"/>'
+               f'<circle cx="{hx - 6}" cy="{hy - 16}" r="9" fill="{CARD}" stroke="{INK}" stroke-width="1.2"/>')
+    pc, cc, ic = hx - 58, hx - 12, hx + 72
+    up1, up2 = hx + 14, hx + 36
+    into = row0 + 24
+    out += ribbon("uw-ps", f"M148 {into} C148 470 {pc - 14} 400 {pc} 300", 17, "righteous",
+                  ["The soul of penitent thief to Paradise~ · Luke 23:43"], mask=opening("hill", "paradise"))
+    out += ribbon("uw-cs", f"M182 {into} C182 480 {cc - 8} 410 {cc} 300", 17, "christ",
+                  ["The soul of Christ went to Paradise"], mask=opening("hill", "paradise"))
+    out += ribbon("uw-cr", f"M216 {into} C216 500 {cc + 22} 430 {cc + 22} 300", 17, "christ",
+                  ["Return of Christ’s soul to His body"], mask=opening("hill", "paradise"))
+    out += ribbon("uw-ff", f"M{up1} 300 V14", 17, "christ", ["First fruits of the resurrection"],
+                  label_d=f"M{up1} {hy - 34} V14", mask=opening("hill"))
+    out += ribbon("uw-to", f"M252 {into} C252 500 {up2} 480 {up2} 390 V14", 19, "righteous",
+                  ["The righteous souls Christ took out of the underworld~ · 2 Cor 5:8 · Phil 1:23 · 2 Cor 12:2-4 · Rev 2:7"],
+                  size=10, mask=opening("paradise"))
+    out += ribbon("uw-is", f"M{ic} 300 C{ic + 6} 400 440 470 440 {into}", 17, "wicked",
+                  ["The impenitent thief’s soul went to Hell"], mask=opening("hill", "hell"))
+    for x in (148, 182, 440):
+        out.append(arrow_head(x, row0 + 9, 90, 7))
+    out.append(arrow_head(216, row0 - 30, -90, 8))
+    out.append(arrow_head(252, row0 - 30, -90, 8))
+    out.append(arrow_head(up1, 40, -90, 7))
+    out.append(arrow_head(up2, 40, -90, 7))
+
+    for name, x in (("penitent", pc), ("christ", cc), ("impenitent", ic)):
+        top, foot = (hy - 120, hy - 30) if name == "christ" else (hy - 104, hy - 16)
+        out.append(f'<path d="M{x} {top} V{foot} M{x - 15} {top + 18} H{x + 15}" stroke="{INK}" stroke-width="5.5"/>')
+    out += lines_at(pc - 17, hy - 92, ["Penitent", "thief"], 10.5, anchor="end", weight="bold")
+    out.append(text(cc + 12, hy - 128, "CHRIST", 12.5, "end", "bold", spacing="1"))
+    out += lines_at(ic + 10, hy - 122, ["Impenitent", "thief"], 10.5, lh=12, anchor="middle", weight="bold")
+
+    # Larkin's "body to grave", each thief's body down into the earth beside his cross.
+    for x0, side in ((pc - 6, -1), (ic + 6, 1)):
+        x1 = x0 + 26 * side
+        out.append(f'<path d="M{x0} {hy - 24} L{x1} {hy + 22}" stroke="{INK}" stroke-width="1.3"/>')
+        out.append(arrow_head(x1, hy + 26, 90 - 29 * side, 7))
+        ang = 61 if side > 0 else -61
+        lx, ly = (x0 + 13, hy - 20) if side > 0 else (x1 - 10, hy + 18)
+        out.append(text(lx, ly, "body to grave", 9.5, italic=True, extra=f'{HALO} transform="rotate({ang} {lx} {ly})"'))
+
+    out.append(text(up1 - 22, 156, "THE “FIRST FRUITS”", 11, "start", "bold", spacing="0.5",
+                    extra=f'transform="rotate(-90 {up1 - 22} 156)"'))
+    out.append(text(up1 - 36, 156, "1 Cor 15:20-23 · Lev 23:10", 10, italic=True, fill=ADDED,
+                    extra=f'transform="rotate(-90 {up1 - 36} 156)"'))
+    ex1 = up2 + 20
+    out += [text(ex1, 160, "Eph 4:8-10 (Psa 68:18)", 10.5, italic=True, extra=f'transform="rotate(-90 {ex1} 160)"'),
+            text(ex1 + 13, 160, "Rev 1:18", 10.5, italic=True, extra=f'transform="rotate(-90 {ex1 + 13} 160)"')]
+    # The caption this study does not follow (see "Did the descent empty Abraham's side?").
+    out.append(f'<rect x="{ex1 - 12}" y="38" width="16" height="128" rx="3" fill="none" stroke="{INK}" '
+               f'stroke-width="1" stroke-dasharray="4 3"/>')
+
+    # The resurrections, up the right-hand side, each out of the grave: the harvest, the gleanings
+    # seven years on, the tares a thousand years after that.
+    def base(x, w, sink=24):
+        return uw_y(x, UW_EARTH) + sink, uw_y(x - w / 2, UW_EARTH)
+
+    rt_y, _ = base(rt, 14)
+    out += ribbon("uw-rt", f"M{rt} 14 V{rt_y}", 14, "righteous",
+                  ["Souls of the righteous returning for their bodies~ · 1 Thess 4:14"],
+                  label_d=f"M{rt} 30 V{rt_y - 30}", size=10, mask=opening("grave"))
+    out.append(arrow_head(rt, uw_y(rt, UW_EARTH) + 8, 90, 7))
+    hv_y, hv_top = base(hv, 27)
+    out += ribbon("uw-hv", f"M{hv} {hv_y} V14", 27, "righteous",
+                  ["“The Harvest”|  1 Thess 4:15-17 · Translation saints",
+                   "First resurrection saints · “The dead in Christ shall rise first”~ · 1 Cor 15:51-53"],
+                  label_d=f"M{hv} {hv_top} V14", size=10, mask=opening("grave"))
+    gl_y, gl_top = base(gl, 19)
+    out += ribbon("uw-gl", f"M{gl} {gl_y} V14", 19, "righteous", ["“The Gleanings”|  Rev 20:4 · Tribulation saints"],
+                  label_d=f"M{gl} {gl_top} V14", mask=opening("grave"))
+    _, ta_top = base(ta, 27)
+    out += ribbon("uw-ta", f"M{ta} 690 V14", 27, "wicked",
+                  ["“The Tares”|  Rev 20:11-15 · The second resurrection — the wicked dead",
+                   "“The rest of the dead live not until the end of 1000 years”~ Rev 20:5"],
+                  label_d=f"M{ta} {ta_top} V14", size=10, mask=opening("grave"))
+    out += ribbon("uw-ws", f"M{hell[1] - 14} 664 C520 664 552 660 576 626", 22, "wicked",
+                  ["Wicked souls going", "for their bodies"], label_d=f"M{hell[1]} 664 C516 664 540 662 560 648",
+                  size=8.5, mask=opening("hell", "grave"))
+    for x in (hv, gl, ta):
+        out.append(arrow_head(x, 40, -90, 7))
+
+    # The sinner's doom, back down into the lake of fire.
+    dd = 768
+    out += ribbon("uw-dm", f"M{dm} 14 V{dd - 14} Q{dm} {dd} {dm - 14} {dd} H{lm + 14} Q{lm} {dd} {lm} {dd + 14} V{lake[2] + 24}",
+                  16, "wicked", mask=opening("lake"))
+    out += along("uw-dm1", f"M{lm + 20} {dd} H{dm - 20}", ["The sinner’s doom"], 9.5)
+    out += along("uw-dm2", f"M{dm} {dd - 40} V14", ["The sinner’s doom"], 9.5)
+    out.append(arrow_head(lm, lake[2] + 14, 90, 9))
+    out.append(arrow_head(dm, 40, 90, 7))
+
+    # The sons of God, from the Flood down to Tartarus.
+    sx, sy = uw_point(136, UW_MID)
+    out += ribbon("uw-sg", f"M{sx:.1f} {sy:.1f} C{sx + 4:.1f} {sy + 120:.1f} 98 700 104 {tar[2] + 24}", 12, "angels",
+                  mask=opening("grave", "tartarus"))
+    out.append(arrow_head(105, tar[2] + 14, 88, 9))
+
+    # The years between the resurrections.
+    out.append(f'<path d="M{hv + 15} 60 H{gl - 11} M{gl + 11} 60 H{ta - 15}" stroke="{INK}" stroke-width="1"/>')
+    out += [arrow_head(hv + 15, 60, 180, 6), arrow_head(gl - 11, 60, 0, 6),
+            arrow_head(gl + 11, 60, 180, 6), arrow_head(ta - 15, 60, 0, 6)]
+    out += lines_at((hv + gl) / 2, 80, ["7", "years"], 8.5, lh=11, anchor="middle", weight="bold")
+    out += lines_at((gl + ta) / 2, 80, ["1000", "years"], 8.5, lh=11, anchor="middle", weight="bold")
+
+    # The key: who travels each stream, then whose words are whose.
+    ky = UW_FLOOR + 26
+    out.append(text(34, ky, "The streams:", 12.5, weight="bold"))
+    x = 128
+    for colour, label in FLOWS.values():
+        out.append(f'<rect x="{x}" y="{ky - 11}" width="26" height="13" fill="{colour}" stroke="{INK}" stroke-width="1"/>')
+        out.append(text(x + 32, ky, label, 12.5))
+        x += 50 + len(label) * 6.6
+    out.append(text(34, ky + 22, "Black: Larkin’s labels and references.", 12.5, weight="bold"))
+    out.append(text(286, ky + 22, "Blue: the verses the study beside it rests each point on.", 12.5,
+                    italic=True, fill=ADDED))
+    out.append(f'<rect x="34" y="{ky + 32}" width="34" height="14" rx="3" fill="none" stroke="{INK}" '
+               f'stroke-dasharray="4 3"/>')
+    out.append(text(76, ky + 44, "Dashed: Larkin’s caption the study does not follow (Ephesians 4:8-10).",
+                    12.5, italic=True, fill=MUTED))
+    out.append(f'<path d="M36 {ky + 61} H66" stroke="{INK}" stroke-width="1.8" stroke-dasharray="0.1 4.5" '
+               f'stroke-linecap="round"/>')
+    out.append(text(76, ky + 66, "Dotted: seen and heard across the gulf, never crossed (Luke 16:23-26). Whether",
+                    12.5, italic=True, fill=MUTED))
+    out.append(text(76, ky + 83, "Luke 16:19-31 is a parable or an account of the far side of death is debated.",
+                    12.5, italic=True, fill=MUTED))
+    out.append(credit(h))
+    out.append("</svg>")
+    out.insert(head, f'<defs>{"".join(defs)}{"".join(masks.values())}</defs>')
+    return "\n".join(out)
+
+
 FEAST_OUT = ROOT / "docs" / "content" / "assets" / "img" / "feasts"
 FEAST_CHARTS = {
     "weeks-within-weeks": weeks_within_weeks,
@@ -1200,6 +1730,7 @@ CHARTS = {
     "end-of-the-ages": end_of_the_ages,
     "six-days-three-ages": six_days_three_ages,
     "eighth-day": eighth_day,
+    "larkin-underworld": the_underworld,
 }
 
 

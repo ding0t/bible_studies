@@ -484,6 +484,9 @@ markdown_extensions:
   # allow inclusion of files outside docs
   - pymdownx.snippets
   - pymdownx.details
+  # content tabs, e.g. a redrawn chart beside its original scan
+  - pymdownx.tabbed:
+      alternate_style: true
   # use pretty task lists
   - pymdownx.tasklist:
       custom_checkbox: true

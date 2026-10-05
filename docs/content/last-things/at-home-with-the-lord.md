@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Corinthians 5:1-10"
 bible_references: ["2 Corinthians 1:8-9", "2 Corinthians 1:22", "2 Corinthians 4:16-18", "2 Corinthians 5:1-10", "Philippians 1:21-24", "Philippians 3:21", "Luke 23:43", "Luke 16:19-31", "Ephesians 4:8-10", "Ephesians 1:14", "Colossians 2:15", "Genesis 38:17-20", "Leviticus 23:10", "Acts 18:3", "Revelation 6:9-11", "Revelation 20:13-14", "1 Thessalonians 4:13-18", "1 Corinthians 15:20-23", "1 Corinthians 15:51-53", "2 Peter 2:4", "Jude 6"]
 date_created: 2026-09-26
-date_modified: 2026-10-04
+date_modified: 2026-10-05
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
@@ -349,9 +349,17 @@ The body still waits for the third.
 
 Clarence Larkin drew this arrangement in *Dispensational Truth* (1918; expanded 1920), and his chart
 is the reason many readers picture it at all. It is reproduced here as historical witness: it states
-the classic dispensational position more completely than a summary can.
+the classic dispensational position more completely than a summary can. The redrawn chart keeps
+Larkin's labels in black and adds, in blue, the verses this study rests each point on; the original
+scan is in the second tab.
 
-![Larkin: The Underworld — Paradise and Hell as compartments of Hades, divided by the Great Gulf, with the righteous dead taken out at Christ's resurrection](../assets/img/larkin/the-underworld.gif)
+=== "Redrawn"
+
+    [![Larkin's The Underworld, redrawn: Paradise and Hell as compartments of Hades either side of the Great Gulf, a dotted line over it marking that each side is seen and heard across and never crossed (Luke 16:23-26), Tartarus and the Abyss below them and the lake of fire apart, holding the Beast with seven lion-mouthed heads and ten crowned horns and the two-horned lamb of a False Prophet (Revelation 13:1-2, 11); from the three crosses the souls of the penitent thief and of Christ go down to Paradise and the impenitent thief's soul to Hell, and the righteous souls rise with Christ as the first fruits; on the right the Harvest, the Gleanings seven years later and the Tares a thousand years after that. Blue references added from this study: Luke 16:22 and 23:43 for Paradise, Luke 16:23 and Revelation 20:13 for Hell, 2 Corinthians 5:8, Philippians 1:23, 2 Corinthians 12:2-4 and Revelation 2:7 for the righteous now with Christ, 1 Corinthians 15:20-23 and Leviticus 23:10 for the first fruits, 1 Thessalonians 4:14 for the souls returning, 1 Corinthians 15:51-53 for the harvest, and Revelation 20:5 for the rest of the dead; Larkin's Ephesians 4:8-10 caption is boxed with a dashed line](../assets/img/last-things/larkin-underworld.svg)](../assets/img/last-things/larkin-underworld.svg)
+
+=== "Larkin's original (1920)"
+
+    ![Larkin: The Underworld — Paradise and Hell as compartments of Hades, divided by the Great Gulf, with the righteous dead taken out at Christ's resurrection](../assets/img/larkin/the-underworld.gif)
 
 Larkin's labels carry the whole reading. **"Paradise"** is "the abode of the souls of the
 'righteous dead' until Christ's resurrection — **it is now empty**"; **"Hell"** is "the abode of the
