@@ -5,7 +5,7 @@ description: "How Scripture compares to other ancient works on manuscript eviden
 tags: ["method/archaeology", "method/textual-criticism", "manuscripts", "inscriptions", "dead-sea-scrolls", "apologetics"]
 draft: false
 date_created: 2026-01-24
-date_modified: 2026-09-27
+date_modified: 2026-10-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -164,6 +164,10 @@ before. That is the claim the artifacts below are evidence for.
 ### Ancient Manuscripts
 
 #### 1. The Dead Sea Scrolls (c. 250 BC - AD 68)
+
+![A column of Hebrew handwriting on parchment from the Great Isaiah Scroll, containing Isaiah 53](../assets/img/archaeology/dead-sea-scrolls-isaiah-53.jpg){ loading=lazy }
+*Isaiah 53 in the Great Isaiah Scroll (1QIsaᵃ) from Qumran Cave 1, copied in the second century BC and now in the Israel Museum, Jerusalem. Image: [Ardon Bar Hama](https://commons.wikimedia.org/wiki/File:Great_Isaiah_Scroll_Ch53.jpg), public domain, via Wikimedia Commons.*
+
 **Location:** Qumran, near the Dead Sea
 **Discovery Date:** 1947-1956
 **Significance:** The most significant biblical manuscript discovery in history
@@ -192,6 +196,10 @@ before. That is the claim the artifacts below are evidence for.
 ---
 
 #### 2. The Ketef Hinnom Silver Scrolls (c. 600 BC)
+
+![Two narrow strips of tarnished silver, unrolled, in a museum case](../assets/img/archaeology/ketef-hinnom-silver-scrolls.jpg){ loading=lazy }
+*The two Ketef Hinnom silver scrolls, unrolled, in the Israel Museum. Each carries a form of the priestly blessing of Numbers 6:24-26. Photo: [Bachrach44](https://commons.wikimedia.org/wiki/File:Ketef_hinom_scrolls.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.*
+
 **Location:** Jerusalem
 **Discovery Date:** 1979
 **Significance:** Oldest known biblical text
@@ -215,6 +223,10 @@ before. That is the claim the artifacts below are evidence for.
 ### Ancient Inscriptions and Monuments
 
 #### 3. The Mesha Stele (Moabite Stone) (c. 840 BC)
+
+![A round-topped black basalt stele with lines of inscription, parts of its surface smooth where it has been restored](../assets/img/archaeology/mesha-stele.jpg){ loading=lazy }
+*The Mesha Stele in the Louvre. It was smashed in 1869 and rebuilt from the surviving fragments and a paper squeeze taken beforehand; the smooth areas are the restored parts. Image: [Tangopaso](https://commons.wikimedia.org/wiki/File:Mesha_stele_(Louvre,_AO_5066).jpg), public domain, via Wikimedia Commons.*
+
 **Location:** Moab (modern Jordan)
 **Discovery Date:** 1868
 **Significance:** Confirms Israelite-Moabite conflicts
@@ -240,6 +252,10 @@ before. That is the claim the artifacts below are evidence for.
 ---
 
 #### 4. The Tel Dan Inscription (c. 841 BC)
+
+![Broken fragments of a dark basalt stele with incised Aramaic letters](../assets/img/archaeology/tel-dan-stele.jpg){ loading=lazy }
+*The Tel Dan Stele in the Israel Museum. Its phrase *bytdwd*, "house of David," is the earliest mention of David's name outside the Bible. Photo: [Oren Rozen](https://commons.wikimedia.org/wiki/File:JRSLM_300116_Tel_Dan_Stele_01.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Tel Dan, northern Israel
 **Discovery Date:** 1993-1994
 **Significance:** First archaeological evidence of King David outside the Bible
@@ -264,6 +280,10 @@ before. That is the claim the artifacts below are evidence for.
 ---
 
 #### 5. The Cyrus Cylinder (c. 539 BC)
+
+![A barrel-shaped clay cylinder covered in cuneiform, on a museum stand](../assets/img/archaeology/cyrus-cylinder.jpg){ loading=lazy }
+*The Cyrus Cylinder, British Museum. It names no Jews; it records Cyrus returning displaced peoples and their gods to their cities, the policy behind his decree in Ezra 1:1-4. Photo: [Mike Peel](https://commons.wikimedia.org/wiki/File:Cyrus_Cylinder_2.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Babylon
 **Discovery Date:** 1879
 **Significance:** Confirms Persian policy of returning exiles
@@ -289,6 +309,10 @@ before. That is the claim the artifacts below are evidence for.
 ---
 
 #### 6. The Babylonian Chronicles (Various dates 7th-6th centuries BC)
+
+![A reddish clay tablet densely written in cuneiform](../assets/img/archaeology/babylonian-chronicle-jerusalem.jpg){ loading=lazy }
+*The Babylonian Chronicle tablet for 605-594 BC, British Museum. It records Nebuchadnezzar seizing "the city of Judah" in 597 BC and appointing a king of his own choice there (2 Kings 24:10-17). Photo: [Osama Shukir Muhammed Amin](https://commons.wikimedia.org/wiki/File:The_cuneiform_inscription_highlights_the_conquest_of_Jerusalem_and_the_surrender_of_Jehoiakim,_king_of_Judah,_in_597_BCE._From_Babylon,_Iraq.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Babylon
 **Discovery Date:** Late 19th century
 **Significance:** Confirms Babylonian conquests and biblical chronology
@@ -316,6 +340,10 @@ before. That is the claim the artifacts below are evidence for.
 ---
 
 #### 7. The Lachish Letters (c. 588-586 BC)
+
+![Black-and-white photograph of both sides of a pottery shard written in ink in Old Hebrew script](../assets/img/archaeology/lachish-letter-4.jpg){ loading=lazy }
+*Lachish Letter 4. Its writer is watching for the fire-signals of Lachish "because we cannot see Azekah," the moment Jeremiah 34:7 describes. Photo: [Wellcome Collection](https://commons.wikimedia.org/wiki/File:Lachish,Tell_ed_Duweir,_Letter_4_Wellcome_L0005980.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), via Wikimedia Commons.*
+
 **Location:** Lachish, Israel
 **Discovery Date:** 1935-1938
 **Significance:** Correspondence during Babylonian siege
@@ -341,6 +369,10 @@ before. That is the claim the artifacts below are evidence for.
 ---
 
 #### 8. The Taylor Prism (Sennacherib's Prism) (c. 690 BC)
+
+![A tall six-sided clay prism covered in small cuneiform](../assets/img/archaeology/taylor-prism.jpg){ loading=lazy }
+*The Taylor Prism, British Museum. Sennacherib boasts of shutting Hezekiah up in Jerusalem "like a bird in a cage" and claims no capture of the city (2 Kings 19:32-36). Photo: [Gary Todd](https://commons.wikimedia.org/wiki/File:Taylor_Prism,_British_Museum.jpg), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons.*
+
 **Location:** Nineveh, Assyria
 **Discovery Date:** 1830
 **Significance:** Assyrian account of Hezekiah's siege
@@ -368,6 +400,10 @@ before. That is the claim the artifacts below are evidence for.
 ---
 
 #### 9. The Siloam Inscription (c. 701 BC)
+
+![A pale limestone panel with six lines of Old Hebrew script, displayed in a museum](../assets/img/archaeology/siloam-inscription.jpg){ loading=lazy }
+*The Siloam Inscription, cut from the wall of Hezekiah's Tunnel and now in the Istanbul Archaeology Museums. It records the two tunnelling crews breaking through to each other (2 Kings 20:20). Photo: [Yong Woo Park](https://commons.wikimedia.org/wiki/File:Siloam_Inscription_from_Hezekiahs_Tunnel_Istanbul_Archaeology_Museums.jpg), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons.*
+
 **Location:** Hezekiah's Tunnel, Jerusalem
 **Discovery Date:** 1880
 **Significance:** Hebrew inscription describing tunnel construction
@@ -391,6 +427,10 @@ before. That is the claim the artifacts below are evidence for.
 ---
 
 #### 10. The Amarna Letters (c. 1360-1332 BC)
+
+![A small clay tablet covered in cuneiform on a clear stand](../assets/img/archaeology/amarna-letter-gezer.jpg){ loading=lazy }
+*An Amarna letter from Yapahu, ruler of Gezer, asking the pharaoh for help against the Habiru. Photo: [Osama Shukir Muhammed Amin](https://commons.wikimedia.org/wiki/File:Amarna_letter._Letter_from_Yapahu_(ruler_of_Gezer)_to_the_Egyptian_pharaoh_Amenhotep_III_or_son_Akhenaten.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Amarna, Egypt
 **Discovery Date:** 1887
 **Significance:** Diplomatic correspondence mentioning Canaan
@@ -418,6 +458,13 @@ before. That is the claim the artifacts below are evidence for.
 ---
 
 #### 11. The Merneptah Stele (c. 1208 BC)
+
+![A tall granite stele topped with carved figures of gods and a pharaoh above many lines of hieroglyphs](../assets/img/archaeology/merneptah-stele.jpg){ loading=lazy }
+*The Merneptah Stele in the Egyptian Museum, Cairo. Photo: [Webscribe](https://commons.wikimedia.org/wiki/File:Merenptah_Israel_Stele_Cairo.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.*
+
+![Close-up of carved hieroglyphs on grey stone](../assets/img/archaeology/merneptah-stele-israel.jpg){ loading=lazy }
+*Line 27 of the stele: "Israel is laid waste, his seed is not." The name carries the sign Egyptian scribes used for a people, so Israel was already a people in Canaan by about 1208 BC. Photo: [Darer101](https://commons.wikimedia.org/wiki/File:Closeup_of_the_Merenptah_Stele,_mentioning_ysr%E1%BB%89%EA%9C%A3r_(%22Israel%22).jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Thebes, Egypt
 **Discovery Date:** 1896
 **Significance:** Earliest extra-biblical mention of "Israel"
@@ -446,6 +493,10 @@ before. That is the claim the artifacts below are evidence for.
 ### Seals and Bullae (Seal Impressions)
 
 #### 12. Bullae with Biblical Names
+
+![A small clay seal impression showing a winged sun between lines of Old Hebrew letters](../assets/img/archaeology/hezekiah-bulla.jpg){ loading=lazy }
+*A seal impression of King Hezekiah, on loan to the Israel Museum from a private collection. It reads like the impression excavated on the Ophel in 2015, but this one has no recorded findspot, so the excavated piece is the stronger evidence. Photo: [Tamir Zegman](https://commons.wikimedia.org/wiki/File:%D7%98%D7%91%D7%99%D7%A2%D7%AA_%D7%97%D7%95%D7%AA%D7%9D_%D7%94%D7%9E%D7%9C%D7%9A_%D7%97%D7%96%D7%A7%D7%99%D7%94%D7%95.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Various sites in Israel
 **Discovery Dates:** Various
 **Significance:** Seal impressions of people mentioned in the Bible
@@ -476,6 +527,10 @@ before. That is the claim the artifacts below are evidence for.
 ### Early New Testament Manuscripts
 
 #### 13. Papyrus P52 (John Rylands Fragment) (c. AD 125-150)
+
+![A small torn scrap of papyrus with seven partial lines of Greek capitals, beside a colour calibration strip](../assets/img/archaeology/p52.jpg){ loading=lazy }
+*Papyrus 52, John Rylands Library, Manchester: John 18:31-33 on a scrap about the size of a credit card. Photo: [John Rylands Library, University of Manchester](https://commons.wikimedia.org/wiki/File:JRL19071950.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Egypt (found); now in Manchester, UK
 **Discovery Date:** Acquired 1920, identified 1934
 **Significance:** Earliest known NT manuscript fragment
@@ -500,6 +555,10 @@ before. That is the claim the artifacts below are evidence for.
 ---
 
 #### 14. Papyrus P46 (Chester Beatty II) (c. AD 175-225)
+
+![A papyrus leaf with ragged edges, covered in lines of Greek capitals](../assets/img/archaeology/p46.jpg){ loading=lazy }
+*A leaf of Papyrus 46 held by the University of Michigan, with 2 Corinthians 11:33-12:9, where Paul tells of being caught up into paradise. Image: [University of Michigan](https://commons.wikimedia.org/wiki/File:P46.jpg), public domain, via Wikimedia Commons.*
+
 **Location:** Egypt
 **Discovery Date:** 1930s
 **Significance:** Earliest extensive collection of Paul's letters
@@ -528,6 +587,10 @@ before. That is the claim the artifacts below are evidence for.
 ---
 
 #### 15. Papyrus P66 (Bodmer II) (c. AD 175-200)
+
+![A papyrus page of Greek capitals with a page number at the top](../assets/img/archaeology/p66.jpg){ loading=lazy }
+*A page of Papyrus 66, Bodmer Library, Geneva, the oldest near-complete copy of John's Gospel. Image: [Bodmer Library](https://commons.wikimedia.org/wiki/File:Papyrus66.jpg), public domain, via Wikimedia Commons.*
+
 **Location:** Egypt
 **Discovery Date:** 1950s
 **Significance:** Early, nearly complete Gospel of John
@@ -556,6 +619,10 @@ P52, P46, and P66 above are three of the 83 known New Testament manuscripts date
 ---
 
 #### 16. Codex Sinaiticus (c. AD 330-360)
+
+![A parchment page laid out in narrow columns of Greek capitals](../assets/img/archaeology/codex-sinaiticus.jpg){ loading=lazy }
+*Codex Sinaiticus at Matthew 6:4-32, including the Lord's Prayer. British Library. Image: [British Library](https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus_Matthew_6,4-32.JPG), public domain, via Wikimedia Commons.*
+
 **Location:** St. Catherine's Monastery, Sinai
 **Discovery Date:** 1844-1859 (Constantin von Tischendorf)
 **Significance:** Oldest complete New Testament
@@ -577,6 +644,10 @@ P52, P46, and P66 above are three of the 83 known New Testament manuscripts date
 ---
 
 #### 17. Codex Vaticanus (c. AD 300-325)
+
+![A parchment page in three columns of Greek capitals, with a decorated headpiece and a note in the margin](../assets/img/archaeology/codex-vaticanus.jpg){ loading=lazy }
+*Codex Vaticanus at the end of 2 Thessalonians and the opening of Hebrews, Vatican Library. The note in the margin at Hebrews 1:3 is a later scribe's rebuke of one who had altered the text: "Fool and knave, leave the old reading, don't change it!" Image: [Vatican Library](https://commons.wikimedia.org/wiki/File:Codex_Vaticanus_B,_2Thess._3,11-18,_Hebr._1,1-2,2.jpg), public domain, via Wikimedia Commons.*
+
 **Location:** Vatican Library
 **Known Since:** At least 1475 in Vatican catalog
 **Significance:** Oldest nearly complete Bible
@@ -598,6 +669,10 @@ P52, P46, and P66 above are three of the 83 known New Testament manuscripts date
 ### New Testament Inscriptions
 
 #### 18. The Pontius Pilate Stone (c. AD 26-36)
+
+![A weathered limestone block with a partial Latin inscription](../assets/img/archaeology/pilate-stone.jpg){ loading=lazy }
+*The Pilate Stone, naming "Pontius Pilatus, prefect of Judaea." The original is in the Israel Museum; a cast stands at Caesarea Maritima, where it was found in 1961. Photo: [Marion Doss](https://commons.wikimedia.org/wiki/File:Pilate_Inscription.JPG), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), via Wikimedia Commons.*
+
 **Location:** Caesarea Maritima
 **Discovery Date:** 1961
 **Significance:** Only archaeological evidence of Pontius Pilate
@@ -623,6 +698,10 @@ P52, P46, and P66 above are three of the 83 known New Testament manuscripts date
 ---
 
 #### 19. The Caiaphas Ossuary (c. 1st century AD)
+
+![An ornately carved limestone bone box decorated with rosettes, in a museum case](../assets/img/archaeology/caiaphas-ossuary.jpg){ loading=lazy }
+*The ossuary inscribed "Joseph son of Caiaphas," found in a Jerusalem burial cave in 1990 and now in the Israel Museum (Matthew 26:57; John 18:13). Photo: [Avi Deror](https://commons.wikimedia.org/wiki/File:Ossuary_of_the_high_priest_Joseph_Caiaphas_P1180839.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.*
+
 **Location:** Jerusalem
 **Discovery Date:** 1990
 **Significance:** Possible burial box of High Priest who tried Jesus
@@ -685,6 +764,10 @@ References John's baptism and execution by Herod Antipas
 ---
 
 #### 21. Tacitus' Annals (c. AD 116)
+
+![Three lines of medieval Latin handwriting](../assets/img/archaeology/tacitus-annals-mediceus.jpg){ loading=lazy }
+*Annals 15.44 in the eleventh-century Codex Mediceus II, Florence, the manuscript all later copies of this part of the Annals descend from. These lines name the Christians and "Christus," executed "while Tiberius was emperor, by the procurator Pontius Pilate." Image: [1902 facsimile](https://commons.wikimedia.org/wiki/File:MII_(cropped)-Tacitus-chrestianos_appellabantur.png), public domain, via Wikimedia Commons.*
+
 **Author:** Cornelius Tacitus (Roman historian)
 **Significance:** Roman historical record of Christ and Christianity
 

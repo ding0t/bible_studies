@@ -5,15 +5,19 @@ description: "earlynewtestament.com — English translations of the 83 earliest 
 tags: ["manuscripts", "papyri", "new-testament", "method/textual-criticism"]
 draft: false
 date_created: 2026-07-20
-date_modified: 2026-09-05
+date_modified: 2026-10-06
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
 # Early New Testament Manuscripts
 
 [earlynewtestament.com](http://www.earlynewtestament.com/index.htm), maintained by Craig Davis, is an English-translation project covering the 83 known New Testament papyri and fragments dated to AD 300 or earlier — that is, everything older than the great uncial codices (*Sinaiticus* and *Vaticanus*, both c. AD 350). Content is organized [by New Testament book](http://www.earlynewtestament.com/Manuscriptlist.htm) (Matthew through Revelation), with each manuscript given its standard papyrus number (P1, P4, P52, etc.) and an English translation of exactly what survives on the fragment — not a reconstruction of the whole book.
+
+![A small torn scrap of papyrus with seven partial lines of Greek capitals, beside a colour calibration strip](../assets/img/archaeology/p52.jpg){ loading=lazy }
+*Papyrus 52 (John 18:31-33), one of the 83 papyri the site translates. Photo: [John Rylands Library, University of Manchester](https://commons.wikimedia.org/wiki/File:JRL19071950.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
 
 ## Why it's useful here
 
