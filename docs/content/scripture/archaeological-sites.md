@@ -19,6 +19,10 @@ This study examines significant archaeological sites that corroborate biblical a
 
 The cities of the plain, four burned and Zoar spared, have a study of their own: [The Cities of the Plain](cities-of-the-plain.md).
 
+Every numbered site below is on this map, with the Sea of Galilee and Jerusalem drawn larger.
+
+[![Map of the numbered sites. The land of Israel: Jericho (1), Hazor (2), Megiddo (3), Gezer (5), Lachish (8), Nazareth (9), Jacob's Well (13) and Caesarea Maritima (17). The Aegean: Corinth, Athens and Ephesus (17). Galilee inset: Capernaum (10), the two proposed Bethsaidas, et-Tell and el-Araj, as dashed rings (11), Magdala (12) and the Galilee boat's findspot (14). Jerusalem inset with the Old City walls, Temple Mount and valleys: City of David (4), Hezekiah's Tunnel from the Gihon to the Pool of Siloam (6), Pool of Bethesda (7), Temple Mount and Western Wall (15), and the Holy Sepulchre and Garden Tomb as dashed rings (16)](../assets/img/archaeology/archaeological-sites-map.svg)](../assets/img/archaeology/archaeological-sites-map.svg)
+
 ## Old Testament Sites
 
 ### Conquest and Settlement Period Sites

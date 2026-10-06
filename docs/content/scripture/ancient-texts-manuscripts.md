@@ -159,6 +159,11 @@ before. That is the claim the artifacts below are evidence for.
 
 ## The catalogue
 
+Each numbered entry is placed where it was found. Codex Vaticanus is the exception: it is drawn in
+Rome, where it is kept, because where it was copied is unknown.
+
+[![Map of where each numbered text was found. The ancient Near East: Babylon (5, 6), Nineveh (8), Amarna (10), Thebes (11), St Catherine's Monastery in Sinai (16), Rome as a double ring for Codex Vaticanus (17), and a dashed ring over the Nile valley for the papyri P52, P46 and P66 (13 to 15), whose findspots are unrecorded. The land of Israel: Qumran (1), Dhiban (3), Tel Dan (4), Lachish (7) and Caesarea (18). Jerusalem inset: Ketef Hinnom (2), the Siloam Inscription (9), the bullae from the Ophel and City of David (12), and the Caiaphas tomb in the Peace Forest as a dashed ring, placed approximately (19)](../assets/img/archaeology/ancient-texts-map.svg)](../assets/img/archaeology/ancient-texts-map.svg)
+
 ## Old Testament Texts and Inscriptions
 
 ### Ancient Manuscripts
