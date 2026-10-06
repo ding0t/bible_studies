@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 1:13-14
+- [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 1:9
 <!-- commentary-index:auto-end -->

@@ -16,6 +16,7 @@ draft: false
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 5:17
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 5:21
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 5:17
+- [Charting End Times](../../last-things/prophecy-chart.md) — 5:8
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:17-18
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 5:18-21
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:5

@@ -20,6 +20,7 @@ draft: false
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 17:3-4
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 17:20-37
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 17:26-30
+- [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 17:28-32
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 17:21
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 17:3
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 17:20-21

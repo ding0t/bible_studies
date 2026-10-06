@@ -14,5 +14,6 @@ draft: false
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:7-8
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 1:11-12
+- [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 1:7-8
 - [The Rapture of the Church](../../last-things/rapture.md) — 1:6-10
 <!-- commentary-index:auto-end -->

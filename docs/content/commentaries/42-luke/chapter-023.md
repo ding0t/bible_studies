@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 23:43
+- [Charting End Times](../../last-things/prophecy-chart.md) — 23:43
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 23:34
 - [Know the Truth](../../christian-life/know-the-truth.md) — 23:46
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 23:44-45

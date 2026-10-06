@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 14:4
+- [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 14:10
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 14:18
 - [The Restrainer](../../last-things/the-restrainer.md) — 14:6
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 14:1-7

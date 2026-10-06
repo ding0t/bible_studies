@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 34:5-7
+- [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 34:3
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 34:5-6
 <!-- commentary-index:auto-end -->

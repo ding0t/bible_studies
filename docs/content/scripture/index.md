@@ -4,7 +4,7 @@ category: "other"
 description: "The Bible about itself -- canon, manuscripts, translation, and the archaeology behind the text."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-02
+date_modified: 2026-10-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -32,6 +32,14 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
     Archaeological sites that validate Scripture
 
     [:octicons-arrow-right-24: Read](archaeological-sites.md)
+
+-   __The Cities of the Plain__
+
+    ---
+
+    Four cities overthrown by fire and one spared: what Genesis says about Sodom, Gomorrah, Admah, Zeboiim and Zoar, how the rest of Scripture keeps the difference, Zoar on the sixth-century Madaba mosaic, the burned southern sites, and the sulphur balls.
+
+    [:octicons-arrow-right-24: Read](cities-of-the-plain.md)
 
 -   __Early New Testament Manuscripts__
 

@@ -33,9 +33,9 @@ draft: false
 - [Chapter 25](chapter-025.md) — 1 study(ies)
 - [Chapter 27](chapter-027.md) — 1 study(ies)
 - [Chapter 28](chapter-028.md) — 1 study(ies)
-- [Chapter 29](chapter-029.md) — 2 study(ies)
+- [Chapter 29](chapter-029.md) — 3 study(ies)
 - [Chapter 31](chapter-031.md) — 2 study(ies)
 - [Chapter 32](chapter-032.md) — 1 study(ies)
 - [Chapter 33](chapter-033.md) — 1 study(ies)
-- [Chapter 34](chapter-034.md) — 2 study(ies)
+- [Chapter 34](chapter-034.md) — 3 study(ies)
 <!-- commentary-index:auto-end -->

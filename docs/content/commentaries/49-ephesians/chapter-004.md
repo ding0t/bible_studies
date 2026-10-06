@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 4:8-10
+- [Charting End Times](../../last-things/prophecy-chart.md) — 4:8-10
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 4:26
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 4:31-32
 - [In Humility](../../christian-life/humility.md) — 4:2

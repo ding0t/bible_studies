@@ -803,6 +803,18 @@
       ]
     },
     {
+      "id": "sodom_overthrown",
+      "am_year": 2107,
+      "label": "Sodom and Gomorrah overthrown; Zoar spared",
+      "scripture": "Genesis 17:1; 18:10-14; 19:24-29; 21:5",
+      "core": false,
+      "note": "Abraham 99: the overthrow falls in the year before Isaac's birth (Genesis 18:10, 14). The excavated southern sites carry earlier conventional dates (Bab edh-Dhra c. 2350 BC); the study gives both.",
+      "study_ref": "scripture/cities-of-the-plain",
+      "people": [
+        "abraham"
+      ]
+    },
+    {
       "id": "isaac_born",
       "am_year": 2108,
       "label": "Isaac born",

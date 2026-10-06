@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-04
+date_modified: 2026-10-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -149,7 +149,7 @@ End-times prophecy, read dispensationally.
 
     ---
 
-    Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, and the relation of Jew, Gentile, and Church -- with the seven thousand years redrawn on this site's chronology.
+    Clarence Larkin's classic dispensational charts -- the seven thousand years of human history, the relation of Jew, Gentile, and Church, and the underworld -- with the seven thousand years redrawn on this site's chronology and the underworld redrawn with this site's verses.
 
     [:octicons-arrow-right-24: Read](prophecy-chart.md)
 

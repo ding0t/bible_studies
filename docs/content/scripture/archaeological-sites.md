@@ -5,7 +5,7 @@ description: "Archaeological sites that validate Scripture"
 tags: ["method/archaeology", "biblical-sites", "jerusalem", "excavations", "apologetics"]
 draft: false
 date_created: 2026-01-24
-date_modified: 2026-09-30
+date_modified: 2026-10-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -17,11 +17,17 @@ ai_provider_models:
 
 This study examines significant archaeological sites that corroborate biblical accounts. Each entry includes relevant Scripture references, historical dating, and findings from excavations.
 
+The cities of the plain, four burned and Zoar spared, have a study of their own: [The Cities of the Plain](cities-of-the-plain.md).
+
 ## Old Testament Sites
 
 ### Conquest and Settlement Period Sites
 
 #### 1. Jericho (Tell es-Sultan)
+
+![Black-and-white photograph of a deep excavation trench through ancient mud-brick and stone walls, with a mountain behind](../assets/img/archaeology/jericho-excavation.jpg){ loading=lazy }
+*Excavated walls at Tell es-Sultan in an early twentieth-century photograph, with the Mount of Temptation behind. Image: [Matson Collection, Library of Congress](https://commons.wikimedia.org/wiki/File:Ancient_Jericho_excavation._The_city_wall_showing_Mt._Temptation_LOC_matpc.04114.jpg), public domain, via Wikimedia Commons.*
+
 **Location:** West Bank
 **Excavation:** Various expeditions 1907-present
 **Biblical Period:** c. 1400 BC (conquest)
@@ -48,6 +54,10 @@ This study examines significant archaeological sites that corroborate biblical a
 ---
 
 #### 2. Hazor
+
+![Excavated stone foundations on top of a mound, partly covered with black sheeting](../assets/img/archaeology/hazor.jpg){ loading=lazy }
+*Excavations on the upper city of Tel Hazor. Photo: [Bukvoed](https://commons.wikimedia.org/wiki/File:Tel-Hazor-1801.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), via Wikimedia Commons.*
+
 **Location:** Northern Israel
 **Excavation:** 1950s-present (Yigael Yadin, Amnon Ben-Tor)
 **Biblical Period:** Various (conquest through monarchy)
@@ -76,6 +86,10 @@ This study examines significant archaeological sites that corroborate biblical a
 ---
 
 #### 3. Megiddo (Armageddon)
+
+![Aerial photograph of an excavated mound above a patchwork of green and brown fields](../assets/img/archaeology/megiddo-aerial.jpg){ loading=lazy }
+*Tel Megiddo from the air, above the Jezreel Valley. Photo: [Avram Graicer](https://commons.wikimedia.org/wiki/File:TEL_MEGIDO_AERIAL_A.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Northern Israel (Jezreel Valley)
 **Excavation:** 1903-present
 **Biblical Period:** Multiple periods (Bronze Age through biblical times)
@@ -108,6 +122,10 @@ This study examines significant archaeological sites that corroborate biblical a
 ### United and Divided Kingdom Sites
 
 #### 4. The City of David (Jerusalem)
+
+![A steep slope faced with courses of rough stone, beneath a modern building](../assets/img/archaeology/city-of-david-stepped-stone.jpg){ loading=lazy }
+*The Stepped Stone Structure on the eastern slope of the City of David. Photo: [Avi Deror](https://commons.wikimedia.org/wiki/File:City_of_David_-_The_Stepped_Stone_Stracture_IMG_5833.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.*
+
 **Location:** Jerusalem (original Jebusite city south of Temple Mount)
 **Excavation:** Ongoing (19th century-present)
 **Biblical Period:** c. 1000 BC - present
@@ -138,6 +156,10 @@ This study examines significant archaeological sites that corroborate biblical a
 ---
 
 #### 5. Gezer
+
+![Stone foundations of a city gate with paired chambers either side of a central passage, in a grassy landscape](../assets/img/archaeology/gezer-gate.jpg){ loading=lazy }
+*The six-chambered gate at Gezer, built to the same plan as the gates at Hazor and Megiddo (1 Kings 9:15). Its attribution to Solomon is debated by archaeologists who date it a century later. Photo: [Mboesch](https://commons.wikimedia.org/wiki/File:Tel-gezer-solomons-gate-b.JPG), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Central Israel
 **Excavation:** 1902-present
 **Biblical Period:** Bronze Age through biblical times
@@ -166,6 +188,13 @@ This study examines significant archaeological sites that corroborate biblical a
 ### Jerusalem Water Systems
 
 #### 6. Hezekiah's Tunnel and the Pool of Siloam
+
+![A narrow, winding rock-cut tunnel with water running along its floor](../assets/img/archaeology/hezekiahs-tunnel.jpg){ loading=lazy }
+*Water from the Gihon Spring still runs through Hezekiah's Tunnel. Photo: [Davidbena](https://commons.wikimedia.org/wiki/File:Hezekiah%27s_Tunnel_enlightened.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
+![Broad stone steps descending beside a modern wall](../assets/img/archaeology/pool-of-siloam.jpg){ loading=lazy }
+*Steps of the Second Temple-period Pool of Siloam, uncovered in 2004 (John 9:7). Photo: [Ian Scott](https://commons.wikimedia.org/wiki/File:Pool_of_Siloam_(3734427511).jpg), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), via Wikimedia Commons.*
+
 **Location:** Jerusalem (City of David)
 **Discovery Date:** 1838 (modern rediscovery); Pool rediscovered 2004
 **Biblical Period:** 8th century BC construction; 1st century AD use
@@ -201,6 +230,10 @@ This study examines significant archaeological sites that corroborate biblical a
 ---
 
 #### 7. Pool of Bethesda
+
+![Deep excavated ruins of stone walls and arches below a modern street level](../assets/img/archaeology/pool-of-bethesda.jpg){ loading=lazy }
+*Excavations at the Pool of Bethesda, with Roman and Byzantine ruins built over the pools of John 5:2. Photo: [Carole Raddato](https://commons.wikimedia.org/wiki/File:Excavations_at_the_Pool_of_Bethesda_showing_the_ruins_of_the_Temple_of_Serapis_with_a_column_from_an_early_Christian_church,_Aelia_Capitolina_(15522624480).jpg), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), via Wikimedia Commons.*
+
 **Location:** Jerusalem, near Sheep Gate (northeast of Temple Mount)
 **Discovery:** Excavated 19th-20th centuries
 **Biblical Period:** Second Temple period (Jesus' ministry)
@@ -230,6 +263,13 @@ This study examines significant archaeological sites that corroborate biblical a
 ### Destruction and Exile Sites
 
 #### 8. Lachish
+
+![A stone-paved road climbing a mound to the reconstructed walls of a city gate](../assets/img/archaeology/lachish-gate.jpg){ loading=lazy }
+*The approach to the city gate at Tel Lachish. Photo: [Wilson44691](https://commons.wikimedia.org/wiki/File:LachishFrontGate.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.*
+
+![A carved stone wall panel showing soldiers and siege engines](../assets/img/archaeology/lachish-relief.jpg){ loading=lazy }
+*Part of the Lachish Relief from Sennacherib's palace at Nineveh, now in the British Museum, which shows the Assyrian siege and capture of Lachish in 701 BC. Photo: [Mike Peel](https://commons.wikimedia.org/wiki/File:Lachish_Relief,_British_Museum_4.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Shephelah region, southwest of Jerusalem
 **Excavation:** 1930s-present
 **Biblical Period:** Multiple periods (conquest through exile)
@@ -264,6 +304,10 @@ This study examines significant archaeological sites that corroborate biblical a
 ### Sites from Jesus' Life and Ministry
 
 #### 9. Nazareth Village and First-Century House
+
+![A small doorway cut into rock with a large round stone beside it](../assets/img/archaeology/nazareth-sisters-tomb.jpg){ loading=lazy }
+*A rock-cut tomb with its rolling stone beneath the Sisters of Nazareth Convent. The same site holds a house its excavator, Ken Dark, dates to the first century, a separate find from the 2009 house. Photo: [Bahnfrend](https://commons.wikimedia.org/wiki/File:Sisters_of_Nazareth_Convent_(Nazareth)_archaeological_site,_2019_(06).jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Nazareth, Galilee
 **Discovery Date:** 2009 (first-century house)
 **Biblical Period:** First century AD (Jesus' childhood)
@@ -292,6 +336,13 @@ This study examines significant archaeological sites that corroborate biblical a
 ---
 
 #### 10. Capernaum - The House of Peter
+
+![Ruins of a white limestone synagogue with standing columns](../assets/img/archaeology/capernaum-synagogue.jpg){ loading=lazy }
+*The white limestone synagogue at Capernaum, built in the fourth or fifth century AD on black basalt foundations that many identify with the synagogue where Jesus taught (Mark 1:21). Image: [Berthold Werner](https://commons.wikimedia.org/wiki/File:Kafarnaum_BW_20.jpg), public domain, via Wikimedia Commons.*
+
+![Low basalt walls of an excavated house beneath a modern concrete structure](../assets/img/archaeology/capernaum-house-of-peter.jpg){ loading=lazy }
+*The house venerated as Peter's, under the modern church at Capernaum (Mark 1:29). Photo: [Fallaner](https://commons.wikimedia.org/wiki/File:Holy_Land_2016_P0456_Capernaum_ruins_of_Saint_Peters_House_under_Saint_Peter_Church.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Northern shore of Sea of Galilee
 **Excavation:** 1968-present (Franciscan excavations)
 **Biblical Period:** First century AD
@@ -321,6 +372,10 @@ This study examines significant archaeological sites that corroborate biblical a
 ---
 
 #### 11. Bethsaida (Et-Tell or El-Araj)
+
+![Rough basalt walls of a city gate with a standing stone](../assets/img/archaeology/bethsaida.jpg){ loading=lazy }
+*The city gate at et-Tell, one of the two sites proposed for Bethsaida. Photo: [Chmee2](https://commons.wikimedia.org/wiki/File:Ruins_of_Bethsaida_village_in_summer_2011_(7).JPG), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via Wikimedia Commons.*
+
 **Location:** Northern shore of Sea of Galilee
 **Excavation:** Ongoing (two candidate sites debated)
 **Biblical Period:** First century AD
@@ -347,6 +402,10 @@ This study examines significant archaeological sites that corroborate biblical a
 ---
 
 #### 12. Magdala (Migdal)
+
+![A carved stone block showing a seven-branched menorah between columns, lit in a museum](../assets/img/archaeology/magdala-stone.jpg){ loading=lazy }
+*A replica of the Magdala Stone at Kibbutz Ginosar. The original, found in Magdala's first-century synagogue, carries one of the earliest carvings of the temple menorah. Photo: [Oren Rozen](https://commons.wikimedia.org/wiki/File:Ginosar_090926_Magdala_Stone.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
 **Location:** Western shore of Sea of Galilee
 **Discovery Date:** 2009 (synagogue discovered during hotel construction)
 **Biblical Period:** First century AD
@@ -376,6 +435,10 @@ This study examines significant archaeological sites that corroborate biblical a
 ---
 
 #### 13. Jacob's Well
+
+![A well head with a winch and bucket in a chapel hung with icons](../assets/img/archaeology/jacobs-well.jpg){ loading=lazy }
+*Jacob's Well in the crypt of the Greek Orthodox church at Nablus (John 4:6). Photo: [Granke](https://commons.wikimedia.org/wiki/File:Jacob%27s_well.jpg), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons.*
+
 **Location:** Nablus (ancient Shechem), West Bank
 **Status:** Still exists and produces water today
 **Biblical Period:** Patriarchal era / Jesus' ministry
@@ -403,6 +466,10 @@ This study examines significant archaeological sites that corroborate biblical a
 ---
 
 #### 14. The Galilee Boat ("Jesus Boat")
+
+![The dark wooden hull of an ancient boat held in a metal frame in a museum](../assets/img/archaeology/galilee-boat.jpg){ loading=lazy }
+*The first-century Galilee Boat at the Yigal Allon Centre, Kibbutz Ginosar. Photo: [Yong Woo Park](https://commons.wikimedia.org/wiki/File:Ancient_Sea_of_Galilee_Boat_1st_Century_AD_at_Yigal_Allon_Centre_Ginosar_Israel.jpg), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons.*
+
 **Location:** Discovered in Sea of Galilee (during drought), now in museum
 **Discovery Date:** 1986
 **Biblical Period:** First century AD
@@ -434,6 +501,10 @@ This study examines significant archaeological sites that corroborate biblical a
 ### Jerusalem - Crucifixion and Resurrection Sites
 
 #### 15. The Temple Mount and Western Wall
+
+![The Western Wall and its plaza, with the gold Dome of the Rock behind](../assets/img/archaeology/western-wall.jpg){ loading=lazy }
+*The Western Wall and its plaza, with the Dome of the Rock on the Temple Mount platform behind. Photo: [Someone35](https://commons.wikimedia.org/wiki/File:Western_wall_and_its_square,_jerusalem.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.*
+
 **Location:** Jerusalem
 **Status:** Continuously documented and visible
 **Biblical Period:** Second Temple period (516 BC - AD 70)
@@ -471,6 +542,13 @@ This study examines significant archaeological sites that corroborate biblical a
 ---
 
 #### 16. Golgotha and Tomb Sites
+
+![A tall stone shrine under the dome of a church rotunda](../assets/img/archaeology/holy-sepulchre-edicule.jpg){ loading=lazy }
+*The Edicule in the Church of the Holy Sepulchre, built over the tomb venerated since the fourth century as Jesus' tomb. Photo: [Gary Todd](https://commons.wikimedia.org/wiki/File:Church_of_the_Holy_Sepulchre_The_Aedicule,_Which_Contains_the_Holy_Sepulchre_Itself_(43300439691).jpg), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons.*
+
+![A rock-cut tomb entrance in a cliff face, in a garden](../assets/img/archaeology/garden-tomb.jpg){ loading=lazy }
+*The Garden Tomb, north of the Damascus Gate. Its tomb dates from the Iron Age, as described below. Photo: [Gary Todd](https://commons.wikimedia.org/wiki/File:Jerusalem_Garden_Tomb_(43300924231).jpg), [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons.*
+
 **Location:** Jerusalem
 **Identification:** Two traditional sites debated
 **Biblical Period:** AD 30-33 (crucifixion and resurrection)
@@ -516,6 +594,13 @@ This study examines significant archaeological sites that corroborate biblical a
 ### Paul's Missionary Journey Sites
 
 #### 17. Theatres and Public Buildings in Biblical Cities
+
+![A large semicircular stone theatre built into a hillside, seen from the upper seats](../assets/img/archaeology/ephesus-theatre.jpg){ loading=lazy }
+*The Great Theatre at Ephesus, seating about 25,000, where the crowd rushed in shouting for Artemis (Acts 19:28-29). Photo: [Furkan Akkurt](https://commons.wikimedia.org/wiki/File:Great_Theatre_of_Ephesus_2024.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
+![Black-and-white photograph of a bare rocky hill with a Greek temple below it](../assets/img/archaeology/areopagus.jpg){ loading=lazy }
+*The Areopagus (Mars Hill), Athens, in a nineteenth-century photograph (Acts 17:19-22). Image: [Dimitris Constantin, Library of Congress](https://commons.wikimedia.org/wiki/File:Areopagus._Mars_Hill._Temple_of_Theseus_-_D._Constantin._LCCN94513428.jpg), public domain, via Wikimedia Commons.*
+
 **Locations:** Various Mediterranean cities
 **Biblical Context:** Places Paul preached and encountered opposition
 

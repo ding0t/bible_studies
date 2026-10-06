@@ -1,0 +1,151 @@
+slug: "cities-of-the-plain"
+title: "The Cities of the Plain"
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/scripture/cities-of-the-plain.md"
+
+primary_passage: "Genesis 19:15-30"
+supporting_passages:
+  - "Genesis 13:10-13"
+  - "Genesis 14:1-10"
+  - "Genesis 18:20-33"
+  - "Deuteronomy 29:23"
+  - "Deuteronomy 34:3"
+  - "Isaiah 1:9"
+  - "Isaiah 13:19-20"
+  - "Isaiah 15:5"
+  - "Jeremiah 48:34"
+  - "Jeremiah 49:18"
+  - "Jeremiah 50:40"
+  - "Hosea 11:8"
+  - "Amos 4:11"
+  - "Zephaniah 2:9"
+  - "Ezekiel 16:49-50"
+  - "Matthew 11:23-24"
+  - "Luke 17:28-32"
+  - "2 Peter 2:6-9"
+  - "Jude 7"
+genre: [ot-narrative, prophets, topical]
+
+thesis: >-
+  God overthrew four cities of the plain and spared the fifth, little Zoar, for Lot's sake, and
+  the record keeps that difference for two thousand years -- the four never rebuilt, Zoar still a
+  town in Isaiah's day, Josephus' day and on a sixth-century church floor -- because the Judge of
+  all the earth judges exactly and keeps the people He has promised to keep.
+outline:
+  - section: "In one sentence / Key Takeaways"
+    says: "The thesis; what the archaeology can and cannot carry."
+  - section: "Five cities in one valley"
+    says: "Genesis 13-14: the kikkar of the Jordan, the five kings, Bela that is Zoar, the bitumen pits by the Salt Sea."
+  - section: "The overthrow and the little one"
+    says: "Genesis 18-19: Abraham's intercession, Lot's plea for a 'little one' (mitsar -> Tsoar), 'I can do nothing till you arrive', sulfur and fire, Lot's wife, the smoke Abraham saw."
+  - section: "Four never rebuilt, one lived on"
+    says: "Deuteronomy 29:23 names four; the prophets make 'no one shall dwell there' a byword; Zoar reappears as a living Moabite town (Deuteronomy 34:3; Isaiah 15:5; Jeremiah 48:34) and in Josephus."
+  - section: "Zoar on a church floor: the Madaba Map"
+    says: "The c. AD 560 mosaic in St George's, Madaba: 'Balak also Segor, now Zoara' among palms, and the sanctuary of St Lot, excavated above Ghor es-Safi."
+  - section: "Where were the burned cities?"
+    says: "Southern case (Bab edh-Dhra, Numeira: burned, never resettled) and northern case (Tall el-Hammam); each has a dating problem; the 2021 airburst paper was retracted in 2025. Marked contested."
+  - section: "The sulphur balls"
+    says: "Wyatt's 1989 claim vs the geology of the Lisan Formation (Bishop, Turchyn & Sivan 2013): the nodules formed in place; the text's brimstone stands on the text."
+  - section: "What the overthrow shows about God"
+    says: "Genesis 18:25; 19:29; 2 Peter 2:6-9; Jude 7; Luke 17:28-32; Hosea 11:8 -- exact judgment, remembered mercy, an example and a warning that land on the reader."
+  - section: "Discussion questions / References"
+    says: ""
+word_budget: 4500
+word_budget_reason: >-
+  An archaeology survey with about eighteen captioned photographs; image captions and credit lines
+  count toward the budget and add roughly 500 words that a text-only study would not carry.
+
+stages:
+  scoping:
+    done: true
+    notes: "Author asked for its own study with many good pictures, after archaeological-sites.md was given images. Filed in scripture/ (biblical archaeology); category archaeology."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Genesis 13-19 set in the patriarchal period; ESV Study Bible dates the destruction c. 2067/1901 BC
+        (early/late chronology). Valley of Siddim = Salt Sea (Genesis 14:3); bitumen pits (14:10).
+        Location of the cities unknown; most study Bibles lean to the south/southeast of the Dead Sea
+        (ESV SB, NIV BTSB on 13:10); CBSB says no certain identification. CSB/LSB footnote: kikkar 'Lit circle'.
+    literary_context:
+      done: true
+      notes: >-
+        Genesis 18:16-33 (intercession) frames 19:1-29; 19:29 summarises: God remembered Abraham.
+        The judgment waits on Lot reaching Zoar (19:22-24), already treated in last-things/taken-before-judgment.md --
+        link rather than repeat.
+    content_word_studies:
+      done: true
+      notes: "Counts verified with bible_concordance (macula-hebrew-wlc / macula-greek-sblgnt)."
+      terms:
+        - {word: "מִצְעָר", language: hebrew, transliteration: "mitsar", strongs_id: "H4705", gloss: "a little thing", notes: "Genesis 19:20 twice; wordplay on the town's name."}
+        - {word: "צוֹעַר", language: hebrew, transliteration: "Tsoar", strongs_id: "H6820", gloss: "Zoar, 'little'", notes: "10 occurrences in 9 verses (19:30 twice): Genesis 13:10; 14:2, 8; 19:22, 23, 30; Deuteronomy 34:3; Isaiah 15:5; Jeremiah 48:34. Josephus Ant. 1.204 glosses it 'a small thing'."}
+        - {word: "גָּפְרִית", language: hebrew, transliteration: "gophrit", strongs_id: "H1614", gloss: "sulfur, brimstone", notes: "7 verses: Genesis 19:24; Deuteronomy 29:22(Heb)/23(Eng); Job 18:15; Psalm 11:6; Isaiah 30:33; 34:9; Ezekiel 38:22."}
+        - {word: "מַהְפֵּכָה", language: hebrew, transliteration: "mahpekah", strongs_id: "H4114", gloss: "overthrow", notes: "6 verses, all the Sodom formula: Deuteronomy 29:22(Heb); Isaiah 1:7; 13:19; Jeremiah 49:18; 50:40; Amos 4:11. Isaiah 1:7 'as overthrown by foreigners' is the one not naming Sodom."}
+        - {word: "הֲפֵכָה", language: hebrew, transliteration: "hafekah", strongs_id: "H2018", gloss: "overthrow", notes: "Only Genesis 19:29."}
+        - {word: "τεφρόω", language: greek, transliteration: "tephroo", strongs_id: "G5077", gloss: "reduce to ashes", notes: "Only 2 Peter 2:6 in the NT."}
+        - {word: "כִּכָּר", language: hebrew, transliteration: "kikkar", strongs_id: "H3603", gloss: "circle; round plain", notes: "Genesis 13:10-12; 19:17, 25, 28-29."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Narrative; doctrine stated explicitly elsewhere (Genesis 18:25; 2 Peter 2:6-9; Jude 7; Luke 17:28-32)."
+    theological_principle:
+      done: true
+      notes: "God judges exactly (four overthrown, the one asked for spared) and remembers His promises (19:29); the overthrow stands as a permanent example (Jude 7; 2 Peter 2:6)."
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Wisdom of Solomon 10:6-7", relation: "Second Temple: 'the five cities' (Pentapolis) and a smoking waste still testifying; pillar of salt a monument"}
+      - {ref: "Josephus, War 4.482-485", relation: "Dead Sea 'extended as far as Zoar in Arabia'; traces of the five cities still seen"}
+      - {ref: "Josephus, Ant. 1.203-204", relation: "pillar of salt 'I have seen it'; the town 'to this day called Zoar'"}
+      - {ref: "Josephus, Ant. 14.18", relation: "Zoar listed among twelve Moabite/Nabataean cities with Medaba"}
+    translations_compared: ["ESV", "CSB", "LSB", "NIV"]
+    divergences_noted: "kikkar: ESV 'Jordan Valley', CSB/LSB footnote 'Lit circle'."
+  drafting:
+    done: true
+    file: "docs/content/scripture/cities-of-the-plain.md"
+  review:
+    done: false # self-check only; no review-bible-study pass yet
+    validated: true
+
+images:
+  folder: "docs/content/assets/img/cities-of-the-plain/"
+  note: >-
+    18 freely licensed images from Wikimedia Commons, self-hosted; licence and author per file in
+    the publish script output (CC BY-SA 2.0/3.0/4.0, CC BY 3.0, public domain). No freely licensed
+    photograph of the Lisan sulphur nodules exists on Commons (searched 2026-10-06).
+
+author_positions:
+  - "Author favours Joel Kramer's (Expedition Bible) southern five-site model: Bab edh-Dhra, Numeira, Feifa, Khanazir burned and never resettled; es-Safi (Zoar) spared and continued. Lead with it as the main case."
+  - "Author finds the in-sediment (bacterial) origin of the Lisan sulphur nodules unpersuasive against Genesis 19:24. Discussed 2026-10-06; section to present both cases, distinguishing nodules in lake-bed gypsum from any sulphur found in the cities' own burn layers."
+
+open_questions:
+  - "Kramer's sulphur burn demonstration (samples from the four burned sites burn; Zoar's does not): where exactly were samples taken, and was any lab analysis published?"
+  - "Feifa and Khanazir: walled towns or cemeteries/enclosures? Excavation status to verify before calling them cities."
+  - "Madaba Map discovery date: 1884 (found) vs 1896-97 (published during rebuilding of St George's) -- verify before stating."
+  - "Wisdom 10:6 says fire fell on 'the five cities'; Genesis 19:21 and Deuteronomy 29:23 exempt Zoar. Say so where Wisdom is quoted."
+  - "Fork candidate: the sin of Sodom (Ezekiel 16:49-50 with Jude 7) is its own study."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Dates c. 2067/1901 BC; location unknown, possibly SE of Dead Sea; Lot's wife engulfed."}
+  - {type: commentary, title: "NIV/NKJV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Location uncertain; mechanism speculation (tars, sulfur, earthquake) -- not adopted."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Probably near the south end of the Dead Sea."}
+  - {type: other, title: "Josephus, Jewish War and Antiquities", author: "trans. William Whiston (public domain, Project Gutenberg)", note: "War 4.482-485; Ant. 1.203-204; 14.18."}
+  - {type: other, title: "Wisdom of Solomon 10:6-7", author: "KJV Apocrypha via scrollmapper deuterocanonical (open-data)", note: ""}
+  - {type: other, title: "Madaba Mosaic Map legends", author: "ToposText", note: "'Balak also Segor, now Zoara'; 'The (place) of Saint Lot'; c. AD 550-565."}
+  - {type: other, title: "Bishop, Turchyn & Sivan, 'Fire and brimstone: the microbially mediated formation of elemental sulfur nodules...', PLoS ONE 8 (2013) e75883", author: "", note: "Lisan Formation nodules formed by bacterial sulfate reduction."}
+  - {type: other, title: "Retraction Note, Scientific Reports (24 April 2025)", author: "", note: "2021 Tall el-Hammam airburst paper retracted."}
+  - {type: other, title: "Rast & Schaub excavations, Bab edh-Dhra (1975-81); Numeira", author: "", note: "EB destructions; dates c. 2350 (Bab edh-Dhra), c. 2600 (Numeira); Udd proposes lower."}
+evidence:
+  - {id: zoar-occurrences, what: "Zoar H6820 occurs 10 times in 9 verses (Genesis 19:30 twice)", tool: bible_concordance, args: {strongs: H6820, work_id: macula-hebrew-wlc}, expect_min: 10}
+  - {id: mahpekah-six, what: "mahpekah H4114 in 6 verses, 5 naming Sodom (Isaiah 1:7 the sixth)", tool: bible_concordance, args: {strongs: H4114, work_id: macula-hebrew-wlc}, expect_min: 6}
+  - {id: gophrit-seven, what: "gophrit H1614 in 7 OT verses", tool: bible_concordance, args: {strongs: H1614, work_id: macula-hebrew-wlc}, expect_min: 7}
+  - {id: hafekah-once, what: "hafekah H2018 only at Genesis 19:29", tool: bible_concordance, args: {strongs: H2018, work_id: macula-hebrew-wlc}, expect_min: 1}
+  - {id: theion-seven, what: "theion G2303: Luke 17:29 and six times in Revelation", tool: bible_concordance, args: {strongs: G2303, work_id: macula-greek-sblgnt}, expect_min: 7}
+  - {id: dt29-23-four, what: "Deuteronomy 29:23 names Sodom, Gomorrah, Admah, Zeboiim and not Zoar", tool: study_verse, args: {book: Deut, chapter: 29, verse: 23, work_id: esv-study-bible}, expect_contains: "Sodom and Gomorrah, Admah, and Zeboiim"}
+publish_together:
+  - "docs/data/chronology.json sodom_overthrown (study_ref scripture/cities-of-the-plain) -- chronology.test.js fails while the study is a draft, and CI runs npm test"
+  - "A link from scripture/archaeological-sites.md to this study -- validator Check 24 errors on a published page linking a draft"
+last_updated: "2026-10-06"

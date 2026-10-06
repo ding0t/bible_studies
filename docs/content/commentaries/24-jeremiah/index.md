@@ -30,5 +30,8 @@ draft: false
 - [Chapter 32](chapter-032.md) — 1 study(ies)
 - [Chapter 33](chapter-033.md) — 1 study(ies)
 - [Chapter 46](chapter-046.md) — 1 study(ies)
+- [Chapter 48](chapter-048.md) — 1 study(ies)
+- [Chapter 49](chapter-049.md) — 1 study(ies)
+- [Chapter 50](chapter-050.md) — 1 study(ies)
 - [Chapter 52](chapter-052.md) — 3 study(ies)
 <!-- commentary-index:auto-end -->

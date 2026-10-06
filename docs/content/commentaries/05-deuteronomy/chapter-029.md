@@ -14,4 +14,5 @@ draft: false
 
 - [Biblical Numerology](../../scripture/numerology.md) — 29:29
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 29:19-20
+- [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 29:23
 <!-- commentary-index:auto-end -->

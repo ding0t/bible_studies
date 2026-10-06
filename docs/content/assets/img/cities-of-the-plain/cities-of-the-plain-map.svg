@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1604" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">The cities of the plain: the southern case</title>
+<desc id="d">Map of the Dead Sea and its shores, with the shallow southern basin and the Lisan peninsula. Settled places are solid dots: Jericho, Bethel, Hebron, En-gedi, Masada, Mount Sodom, Mount Nebo and Madaba, where the sixth-century mosaic map shows Zoar. es-Safi, Byzantine Zoara and on this study's reading biblical Zoar, is a gold ring at the south-east corner. Dashed red rings mark the four southern sites Joel Kramer proposes for the burned cities: Bab edh-Dhra (Sodom), Numeira (Gomorrah), Feifa (Admah) and Khanazir (Zeboiim), all Early Bronze Age towns that burned and were never lived in again. A dashed grey ring marks Tall el-Hammam, the northern proposal. A table pairs each city with its proposed site. A note gives the date of the overthrow on this site's chronology, AM 2107 or 1852 BC, against the earlier conventional dates of the excavated sites.</desc>
+<rect width="720" height="1604" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1588" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1576" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE CITIES OF THE PLAIN</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Four overthrown, one spared (Genesis 19:21-25; Deuteronomy 29:23)</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<rect x="40" y="120" width="640" height="1018.3" fill="#efe4d0" stroke="#3b2f1e" stroke-width="1"/>
+<polygon points="428.6,307.6 375.2,334.4 360.0,405.8 337.1,504.1 321.9,584.5 314.3,673.8 306.7,745.2 306.7,834.6 314.3,923.9 337.1,995.3 360.0,1031.1 382.9,1013.2 398.1,941.7 405.7,870.3 428.6,781.0 451.4,691.7 466.7,584.5 474.3,477.3 466.7,370.1 451.4,307.6" fill="#9fb8d3" stroke="#5b7fa6" stroke-width="1.5"/>
+<polygon points="447.6,718.4 405.7,700.6 367.6,709.5 344.8,745.2 352.4,798.8 382.9,843.5 421.0,852.4 436.2,816.7" fill="#efe4d0" stroke="#5b7fa6" stroke-width="1.2"/>
+<polyline points="436.2,120.0 443.8,173.6 436.2,227.2 443.8,271.8 440.0,307.6" fill="none" stroke="#5b7fa6" stroke-width="2.5"/>
+<text x="382.9" y="777.0" font-size="13" fill="#6b5a3e" text-anchor="middle" font-style="italic">Lisan</text>
+<text x="398.1" y="504.1" font-size="16" fill="#2f4f7f" text-anchor="middle" font-weight="bold" letter-spacing="3">SALT SEA</text>
+<text x="398.1" y="522.1" font-size="12" fill="#2f4f7f" text-anchor="middle" font-style="italic">(Genesis 14:3)</text>
+<text x="459.4" y="164.7" font-size="12.5" fill="#2f4f7f" font-style="italic">Jordan</text>
+<text x="497.1" y="950.7" font-size="12.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">the plain</text>
+<path d="M97.1 521.9 Q243.8 541.9 380.5 806.7" fill="none" stroke="#6b5a3e" stroke-width="1.2" stroke-dasharray="2 4"/>
+<text x="54.0" y="651.9" font-size="12" fill="#6b5a3e" font-style="italic">Abraham looks toward Sodom:</text>
+<text x="54.0" y="666.9" font-size="12" fill="#6b5a3e" font-style="italic">“the smoke of the land went up</text>
+<text x="54.0" y="681.9" font-size="12" fill="#6b5a3e" font-style="italic">like the smoke of a furnace”</text>
+<text x="54.0" y="696.9" font-size="12" fill="#6b5a3e" font-style="italic">(Genesis 19:27-28)</text>
+<circle cx="363.0" cy="217.4" r="4.5" fill="#3b2f1e"/>
+<text x="351.0" y="222.4" font-size="13.5" fill="#3b2f1e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Jericho</text>
+<circle cx="537.5" cy="245.0" r="7" fill="#f1dcd4" stroke="#6b5a3e" stroke-width="2" stroke-dasharray="3 2.5"/>
+<text x="549.5" y="250.0" font-size="13.5" fill="#3b2f1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Tall el-Hammam</text>
+<circle cx="629.7" cy="355.8" r="4.5" fill="#3b2f1e"/>
+<text x="641.7" y="360.8" font-size="13.5" fill="#3b2f1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Madaba</text>
+<circle cx="577.9" cy="309.4" r="4.5" fill="#3b2f1e"/>
+<text x="589.9" y="314.4" font-size="13.5" fill="#3b2f1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Mount Nebo</text>
+<circle cx="193.9" cy="164.7" r="4.5" fill="#3b2f1e"/>
+<text x="205.9" y="169.7" font-size="13.5" fill="#3b2f1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Bethel</text>
+<circle cx="97.1" cy="521.9" r="4.5" fill="#3b2f1e"/>
+<text x="109.1" y="526.9" font-size="13.5" fill="#3b2f1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Hebron (Mamre)</text>
+<circle cx="323.4" cy="583.6" r="4.5" fill="#3b2f1e"/>
+<text x="311.4" y="588.6" font-size="13.5" fill="#3b2f1e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">En-gedi</text>
+<circle cx="294.5" cy="713.1" r="4.5" fill="#3b2f1e"/>
+<text x="282.5" y="718.1" font-size="13.5" fill="#3b2f1e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Masada</text>
+<circle cx="325.7" cy="941.7" r="4.5" fill="#3b2f1e"/>
+<text x="313.7" y="946.7" font-size="13.5" fill="#3b2f1e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Mount Sodom</text>
+<circle cx="432.4" cy="767.6" r="7" fill="#f1dcd4" stroke="#c4471c" stroke-width="2" stroke-dasharray="3 2.5"/>
+<text x="444.4" y="772.6" font-size="13.5" fill="#8b1e1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Bab edh-Dhra</text>
+<circle cx="428.6" cy="879.2" r="7" fill="#f1dcd4" stroke="#c4471c" stroke-width="2" stroke-dasharray="3 2.5"/>
+<text x="440.6" y="884.2" font-size="13.5" fill="#8b1e1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Numeira</text>
+<circle cx="382.9" cy="964.1" r="8" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.5"/><circle cx="382.9" cy="964.1" r="3" fill="#a67c3d"/>
+<text x="394.9" y="969.1" font-size="13.5" fill="#a67c3d" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">es-Safi (Zoar)</text>
+<circle cx="352.4" cy="1044.5" r="7" fill="#f1dcd4" stroke="#c4471c" stroke-width="2" stroke-dasharray="3 2.5"/>
+<text x="364.4" y="1049.5" font-size="13.5" fill="#8b1e1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Feifa</text>
+<circle cx="337.1" cy="1093.6" r="7" fill="#f1dcd4" stroke="#c4471c" stroke-width="2" stroke-dasharray="3 2.5"/>
+<text x="349.1" y="1098.6" font-size="13.5" fill="#8b1e1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Khanazir</text>
+<rect x="52" y="1028.2548986769434" width="232" height="96" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1"/>
+<circle cx="68.0" cy="1048.3" r="4.5" fill="#3b2f1e"/>
+<text x="84.0" y="1053.3" font-size="13" fill="#3b2f1e">Identification settled</text>
+<circle cx="68.0" cy="1069.3" r="8" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.5"/><circle cx="68.0" cy="1069.3" r="3" fill="#a67c3d"/>
+<text x="84.0" y="1074.3" font-size="13" fill="#3b2f1e">Zoar: Byzantine Zoara</text>
+<circle cx="68.0" cy="1090.3" r="7" fill="#f1dcd4" stroke="#c4471c" stroke-width="2" stroke-dasharray="3 2.5"/>
+<text x="84.0" y="1095.3" font-size="13" fill="#3b2f1e">Proposed: southern case</text>
+<circle cx="68.0" cy="1111.3" r="7" fill="#f1dcd4" stroke="#6b5a3e" stroke-width="2" stroke-dasharray="3 2.5"/>
+<text x="84.0" y="1116.3" font-size="13" fill="#3b2f1e">Proposed: northern case</text>
+<text x="40.0" y="1178.3" font-size="14" fill="#3b2f1e" font-weight="bold" letter-spacing="1.5">THE SOUTHERN CASE (JOEL KRAMER)</text>
+<rect x="40" y="1190.2548986769434" width="640" height="26" fill="#fffdf7" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="48.0" y="1208.3" font-size="14" fill="#3b2f1e" font-weight="bold">Sodom</text>
+<text x="198.0" y="1208.3" font-size="14" fill="#8b1e1e">Bab edh-Dhra?</text>
+<text x="348.0" y="1208.3" font-size="14" fill="#3b2f1e" font-style="italic">burned; never resettled</text>
+<rect x="40" y="1220.2548986769434" width="640" height="26" fill="#fffdf7" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="48.0" y="1238.3" font-size="14" fill="#3b2f1e" font-weight="bold">Gomorrah</text>
+<text x="198.0" y="1238.3" font-size="14" fill="#8b1e1e">Numeira?</text>
+<text x="348.0" y="1238.3" font-size="14" fill="#3b2f1e" font-style="italic">burned; never resettled</text>
+<rect x="40" y="1250.2548986769434" width="640" height="26" fill="#fffdf7" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="48.0" y="1268.3" font-size="14" fill="#3b2f1e" font-weight="bold">Admah</text>
+<text x="198.0" y="1268.3" font-size="14" fill="#8b1e1e">Feifa?</text>
+<text x="348.0" y="1268.3" font-size="14" fill="#3b2f1e" font-style="italic">burned; never resettled</text>
+<rect x="40" y="1280.2548986769434" width="640" height="26" fill="#fffdf7" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="48.0" y="1298.3" font-size="14" fill="#3b2f1e" font-weight="bold">Zeboiim</text>
+<text x="198.0" y="1298.3" font-size="14" fill="#8b1e1e">Khanazir?</text>
+<text x="348.0" y="1298.3" font-size="14" fill="#3b2f1e" font-style="italic">burned; never resettled</text>
+<rect x="40" y="1310.2548986769434" width="640" height="26" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="48.0" y="1328.3" font-size="14" fill="#3b2f1e" font-weight="bold">Zoar (Bela)</text>
+<text x="198.0" y="1328.3" font-size="14" fill="#a67c3d">es-Safi</text>
+<text x="348.0" y="1328.3" font-size="14" fill="#3b2f1e" font-style="italic">spared; Byzantine Zoara</text>
+<rect x="40.0" y="1366.3" width="640.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="48.0" y="1384.7" font-size="13.5" fill="#3b2f1e" font-weight="bold">Settled: Zoar outlived the overthrow.</text>
+<text x="48.0" y="1401.7" font-size="13.5" fill="#3b2f1e">Isaiah 15:5 and Jeremiah 48:34 name it as a Moabite town; Josephus (Antiquities 1.204)</text>
+<text x="48.0" y="1418.7" font-size="13.5" fill="#3b2f1e">says it is “to this day called Zoar”; the Madaba Map (c. AD 560) draws it among palms.</text>
+<rect x="40.0" y="1441.3" width="640.0" height="78" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="48.0" y="1459.7" font-size="13.5" fill="#3b2f1e" font-weight="bold">Contested: which ruins are Sodom and Gomorrah.</text>
+<text x="48.0" y="1476.7" font-size="13.5" fill="#3b2f1e">This site's chronology places the overthrow in AM 2107, 1852 BC, Abraham's 99th year.</text>
+<text x="48.0" y="1493.7" font-size="13.5" fill="#3b2f1e">The excavators date Bab edh-Dhra's end c. 2350 BC and Numeira's earlier; lowered</text>
+<text x="48.0" y="1510.7" font-size="13.5" fill="#3b2f1e">datings bring them nearer. The northern site, Tall el-Hammam, ends c. 1650 BC.</text>
+<text x="696.0" y="1582.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>
