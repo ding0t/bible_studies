@@ -539,6 +539,16 @@ Every numbered site below is on this map, with the Sea of Galilee and Jerusalem 
 - Matthew 21:12-13 - Jesus cleanses Temple (second time)
 - Acts 3:1-10 - Peter and John heal lame man at Beautiful Gate
 
+![A heap of large broken limestone blocks lying on an ancient paved street at the foot of the Temple Mount's western wall, below the stub of Robinson's Arch](../assets/img/archaeology/temple-mount-fallen-stones.jpg){ loading=lazy }
+*Herodian stones thrown down from the Temple Mount in AD 70, lying where they fell on the first-century street below Robinson's Arch. The excavators left them in place. Photo: [Davidbena](https://commons.wikimedia.org/wiki/File:Temple_Mount_wall,_broken_stones.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
+Jesus spoke these words as He left the temple, and the disciples' question about them opened the Olivet Discourse (Matthew 24:3). These stones are the prophecy fulfilled:
+
+> ✝️ Matthew 24:2 (ESV)
+>
+> 2 But he answered them, “You see all these, do you not? Truly, I say to you, there will not be
+> left here one stone upon another that will not be thrown down.”
+
 **Fulfillment:** Destroyed August AD 70 by Romans under Titus, exactly as Jesus prophesied. Josephus records soldiers literally prying apart stones to get gold that melted in the fire.
 
 **Time Period:** Second Temple period (516 BC - AD 70)
