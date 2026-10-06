@@ -549,7 +549,7 @@ Jesus spoke these words as He left the temple, and the disciples' question about
 > 2 But he answered them, “You see all these, do you not? Truly, I say to you, there will not be
 > left here one stone upon another that will not be thrown down.”
 
-**Fulfillment:** Destroyed August AD 70 by Romans under Titus, exactly as Jesus prophesied. Josephus records soldiers literally prying apart stones to get gold that melted in the fire.
+**Fulfillment:** Destroyed August AD 70 by Romans under Titus, exactly as Jesus prophesied. Josephus records that Titus then ordered "the entire city and temple" demolished, sparing three towers and part of the western wall, and that the rest was "so thoroughly laid even with the ground by those that dug it up to the foundation, that there was left nothing to make those that came thither believe it had ever been inhabited" (*Jewish War* 7.1.1, Whiston translation). The often-repeated story of soldiers prying the stones apart for gold that had melted between them is a later retelling; Josephus does not tell it.
 
 **Time Period:** Second Temple period (516 BC - AD 70)
 
