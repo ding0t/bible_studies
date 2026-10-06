@@ -23,29 +23,28 @@ supporting_passages: ["Numbers 14:11", "Numbers 14:39-45", "Deuteronomy 1:32", "
 genre: [prophets, ot-narrative, epistle, gospel, apocalyptic, topical]
 
 thesis: >-
-  Faith is leaning your whole weight on God and on what He has finished in Jesus; pride is the same
-  trust pointed at yourself, and it shows two faces, refusing God's promise and then trying to earn
-  it, so the humble answer, every day, is to open the door to Jesus and say, "I believe; help my
-  unbelief."
+  Faith is leaning your whole weight on God and on what He has finished in Jesus; Scripture surrounds
+  you with people who did it, weak in themselves and made strong by the One they trusted, so imitate
+  their faith, and every morning say to Jesus, "I believe; help my unbelief."
 outline:
   - section: "Opening"
-    says: "Kadesh: one day Israel would not go up, the next day they went up without God (Num 14)."
+    says: "Jehoshaphat: 'we are powerless... our eyes are on you' (2 Chr 20:12); the battle is God's; 'Believe... and you will be established' (20:20)."
   - section: "What the words mean"
-    says: "aman = firm, leaned on; first 'believe' in the Bible is Gen 15:6 (in the LORD); first emunah is Moses' hands held steady by others (Exod 17:12); Isa 7:9 pun; God is the God of emunah (Deut 32:4) and Jesus is 'the Amen' (Rev 3:14). Faith says amen to God."
-  - section: "The proud and the righteous (Hab 2:4)"
-    says: "The verse the NT quotes three times for faith opens with the puffed-up soul. Context: Babylon, and a prophet told to wait. Text of 2:4a difficult (CSB 'Hb obscure'); LXX 'my faith(fulness)'."
-  - section: "Kadesh: pride's two faces"
-    says: "'uppal' occurs twice: Hab 2:4 and Num 14:44. Unbelief (14:11) then presumption (14:40-44, 'we have sinned... we will go up'). Hebrews reads it as unbelief and calls faith entering God's rest, resting from our works (Heb 3:19; 4:10)."
-  - section: "Trusting in yourself"
-    says: "Luke 18:9 and 2 Cor 1:9 use the same Greek, trust in ourselves. Paul's list (Phil 3:4-9). Wages vs gift (Rom 4:4-5; 11:6). Adding works: Gal 3:3, 5:4. John 6:28-29 works -> the work of believing. Luke 17:5-10 faith and unworthy servants side by side."
+    says: "aman = firm, leaned on; Gen 15:6; emunah first at Exod 17:12; Isa 7:9 pun, repeated at 2 Chr 20:20."
+  - section: "The righteous shall live by faith (Hab 2:4)"
+    says: "Context: Babylon, and a prophet told to wait. NT quotes it 3x; Hebrews quotes it then writes ch. 11. Contested readings marked."
+  - section: "Imitate their faith"
+    says: "Heb 6:12, 13:7 (mimetai/mimeisthe); 11:34 made strong out of weakness (passive). Abraham and Sarah (Rom 4:17-21 enedynamothe passive; Heb 11:11, 19); David and Jehoshaphat (1 Sam 17:45-47; 2 Chr 20:15); Daniel 3:17-18 and 6:23 (Aramaic heymin); the centurion (Matt 8:8-10). What they share: weak where they trusted, looking at God."
   - section: "Small faith in a great God"
-    says: "Mustard seed: the object carries the weight. Peter: 'little faith' = looking at the wind; distazo 2x. Jesus' hand. Mark 9:24. Jesus founder and perfecter of faith (Heb 12:2); Eph 2:8 debate marked, pointer to Assurance."
-  - section: "Faith that works (James 2)"
-    says: "Both quote Gen 15:6. Paul: how God counts righteous (Gen 15); James: the faith that is alive shows (Gen 22). Created for good works (Eph 2:10)."
-  - section: "The door at Laodicea"
-    says: "The Amen speaks to a church that said 'I need nothing' (Rev 3:17; Hos 12:8; refused earthquake aid). Buy without money (Isa 55:1). hestēka perfect, krouō present. Opening the door = hearing and admitting need. Church first, then any one. Daily: mercies new every morning, great is your emunah (Lam 3:23)."
-word_budget: 4000
-word_budget_reason: ""
+    says: "Mustard seed; Peter; Mark 9:24; Eph 2:8 and Heb 12:2."
+  - section: "Resting on a finished work"
+    says: "Heb 3-4 rest; Rom 4:4-5, 4:16, 11:6; 2 Cor 1:9 (God who raises the dead); tax collector; John 6:29."
+  - section: "Faith that works"
+    says: "James 2 beside Romans 4."
+  - section: "The door, every morning"
+    says: "The Amen (Rev 3:14); buy without money (Isa 55:1); Rev 3:20; Lam 3:23."
+word_budget: 4600
+word_budget_reason: "Raised 2026-10-06 at the author's direction: the four pairs of examples, the centurion and Canaanite woman with the kynarion word study, and the little-faith / 1 Peter 5:7 paragraph were all requested additions; James 2 was cut to make room."
 
 stages:
   scoping:
@@ -104,8 +103,8 @@ stages:
     validated: false
 
 open_questions:
-  - "Fork candidate: Hebrews 11 walk-through (the chapter's own definition and examples) -- left out for budget."
-  - "Fork candidate: 2 Chronicles 20:20 repeats Isaiah 7:9's believe/established pun -- not verified or used."
+  - "Fork candidate: a full Hebrews 11 walk-through. Five of its lives are now treated in 'Imitate their faith'; the rest (Abel, Enoch, Noah, Moses, Rahab, 11:35-38) remain."
+  - "Fork candidate: 'Faith that works' (James 2:14-24 beside Romans 4; Gen 15 vs Gen 22) -- cut 2026-10-06 because the examples already show faith acting; one sentence (James 2:22) kept in 'What they share'. Text recoverable from git history before this commit."
   - "Rev 3:20 has its own backlog item (10.4); this study treats it only as the door faith opens. When 10.4 is written, link both ways."
 
 evidence:
@@ -113,7 +112,36 @@ evidence:
   - {id: distazo-2, what: "distazō (G1365) twice, Matt 14:31 and 28:17", tool: bible_concordance, args: {strongs: G1365, work_id: macula-greek-sblgnt}, expect_contains: "doubted", checked: 2026-09-29}
   - {id: hab2-4-esv, what: "ESV Hab 2:4", tool: study_verse, args: {book: Hab, chapter: 2, verse: 4, work_id: esv-study-bible}, expect_contains: "his soul is puffed up; it is not upright within him, but the righteous shall live by his faith", checked: 2026-09-29}
   - {id: num14-44-esv, what: "ESV Num 14:44", tool: study_verse, args: {book: Num, chapter: 14, verse: 44, work_id: esv-study-bible}, expect_contains: "But they presumed to go up", checked: 2026-09-29}
-  - {id: num14-40-esv, what: "ESV Num 14:40", tool: study_verse, args: {book: Num, chapter: 14, verse: 40, work_id: esv-study-bible}, expect_contains: "for we have sinned", checked: 2026-09-29}
+  - {id: num14-40-esv, what: "ESV Num 14:40 (now quoted in sin/pride.md)", tool: study_verse, args: {book: Num, chapter: 14, verse: 40, work_id: esv-study-bible}, expect_contains: "for we have sinned", checked: 2026-09-29}
+  - {id: rom4-20-esv, what: "ESV Rom 4:20-21", tool: study_verse, args: {book: Rom, chapter: 4, verse: 20, work_id: esv-study-bible}, expect_contains: "he grew strong in his faith as he gave glory to God", checked: 2026-10-06}
+  - {id: rom4-20-grk, what: "Rom 4:20 enedynamothe, passive", tool: bible_interlinear, args: {book: Rom, chapter: 4, verse: 20}, expect_contains: "ἐνεδυναμώθη", checked: 2026-10-06}
+  - {id: heb11-34-grk, what: "Heb 11:34 edynamothesan apo astheneias", tool: bible_interlinear, args: {book: Heb, chapter: 11, verse: 34}, expect_contains: "ἐδυναμώθησαν", checked: 2026-10-06}
+  - {id: heb13-7-esv, what: "ESV Heb 13:7", tool: study_verse, args: {book: Heb, chapter: 13, verse: 7, work_id: esv-study-bible}, expect_contains: "imitate their faith", checked: 2026-10-06}
+  - {id: heb6-12-esv, what: "ESV Heb 6:12", tool: study_verse, args: {book: Heb, chapter: 6, verse: 12, work_id: esv-study-bible}, expect_contains: "imitators of those who through faith and patience inherit the promises", checked: 2026-10-06}
+  - {id: heb11-11-esv, what: "ESV Heb 11:11", tool: study_verse, args: {book: Heb, chapter: 11, verse: 11, work_id: esv-study-bible}, expect_contains: "since she considered him faithful who had promised", checked: 2026-10-06}
+  - {id: 2chr20-12-esv, what: "ESV 2 Chr 20:12", tool: study_verse, args: {book: 2Chr, chapter: 20, verse: 12, work_id: esv-study-bible}, expect_contains: "We do not know what to do, but our eyes are on you", checked: 2026-10-06}
+  - {id: 2chr20-20-heb, what: "2 Chr 20:20 aman hiphil/niphal pair", tool: bible_interlinear, args: {book: 2Chr, chapter: 20, verse: 20}, expect_contains: "וְ⁠תֵ֣אָמֵ֔נוּ", checked: 2026-10-06}
+  - {id: dan3-18-esv, what: "ESV Dan 3:18", tool: study_verse, args: {book: Dan, chapter: 3, verse: 18, work_id: esv-study-bible}, expect_contains: "But if not", checked: 2026-10-06}
+  - {id: dan6-23-aram, what: "Dan 6:23 heymin (H540)", tool: bible_interlinear, args: {book: Dan, chapter: 6, verse: 23}, expect_contains: "הֵימִ֥ן", checked: 2026-10-06}
+  - {id: matt8-10-esv, what: "ESV Matt 8:10", tool: study_verse, args: {book: Matt, chapter: 8, verse: 10, work_id: esv-study-bible}, expect_contains: "with no one in Israel have I found such faith", checked: 2026-10-06}
+  - {id: matt15-28-esv, what: "ESV Matt 15:28", tool: study_verse, args: {book: Matt, chapter: 15, verse: 28, work_id: esv-study-bible}, expect_contains: "O woman, great is your faith! Be it done for you as you desire", checked: 2026-10-06}
+  - {id: matt15-27-esv, what: "ESV Matt 15:27", tool: study_verse, args: {book: Matt, chapter: 15, verse: 27, work_id: esv-study-bible}, expect_contains: "Yes, Lord, yet even the dogs eat the crumbs", checked: 2026-10-06}
+  - {id: matt15-25-grk, what: "Matt 15:25 prosekynei", tool: bible_interlinear, args: {book: Matt, chapter: 15, verse: 25}, expect_contains: "προσεκύνει", checked: 2026-10-06}
+  - {id: kynarion-4, what: "kynarion G2952: Matt 15:26-27, Mark 7:27-28", tool: bible_concordance, args: {strongs: G2952, work_id: macula-greek-sblgnt}, expect_contains: "Mark", checked: 2026-10-06}
+  - {id: kyon-5, what: "kyon G2965: five NT uses (Matt 7:6, Luke 16:21, Phil 3:2, 2 Pet 2:22, Rev 22:15)", tool: bible_concordance, args: {strongs: G2965, work_id: macula-greek-sblgnt}, expect_contains: "Phil", checked: 2026-10-06}
+  - {id: matt15-27-kyrion, what: "Matt 15:27 kynaria ... kyrion (masters) beside Kyrie", tool: bible_interlinear, args: {book: Matt, chapter: 15, verse: 27}, expect_contains: "κυρίων", checked: 2026-10-06}
+  - {id: mark7-28-esv, what: "ESV Mark 7:28", tool: study_verse, args: {book: Mark, chapter: 7, verse: 28, work_id: esv-study-bible}, expect_contains: "the dogs under the table eat the children's crumbs", checked: 2026-10-06}
+  - {id: heb11-39-esv, what: "ESV Heb 11:39", tool: study_verse, args: {book: Heb, chapter: 11, verse: 39, work_id: esv-study-bible}, expect_contains: "though commended through their faith, did not receive what was promised", checked: 2026-10-06}
+  - {id: heb11-35-esv, what: "ESV Heb 11:35", tool: study_verse, args: {book: Heb, chapter: 11, verse: 35, work_id: esv-study-bible}, expect_contains: "Some were tortured, refusing to accept release", checked: 2026-10-06}
+  - {id: matt17-20-esv, what: "ESV Matt 17:20 opens with the rebuke", tool: study_verse, args: {book: Matt, chapter: 17, verse: 20, work_id: esv-study-bible}, expect_contains: "Because of your little faith", checked: 2026-10-06}
+  - {id: 2pet2-22-esv, what: "ESV 2 Pet 2:22 (fifth kyon)", tool: study_verse, args: {book: 2Pet, chapter: 2, verse: 22, work_id: esv-study-bible}, expect_contains: "The dog returns to its own vomit", checked: 2026-10-06}
+  - {id: 1sam17-48-esv, what: "ESV 1 Sam 17:48", tool: study_verse, args: {book: 1Sam, chapter: 17, verse: 48, work_id: esv-study-bible}, expect_contains: "David ran quickly toward the battle line", checked: 2026-10-06}
+  - {id: 1pet5-7-esv, what: "ESV 1 Pet 5:6-7", tool: study_verse, args: {book: 1Pet, chapter: 5, verse: 7, work_id: esv-study-bible}, expect_contains: "casting all your anxieties on him, because he cares for you", checked: 2026-10-06}
+  - {id: 1pet5-7-grk, what: "1 Pet 5:7 participle epiripsantes", tool: bible_interlinear, args: {book: 1Pet, chapter: 5, verse: 7}, expect_contains: "ἐπιρίψαντες", checked: 2026-10-06}
+  - {id: matt8-26-esv, what: "ESV Matt 8:26", tool: study_verse, args: {book: Matt, chapter: 8, verse: 26, work_id: esv-study-bible}, expect_contains: "Why are you afraid, O you of little faith?", checked: 2026-10-06}
+  - {id: luke7-6-esv, what: "ESV Luke 7:6", tool: study_verse, args: {book: Luke, chapter: 7, verse: 6, work_id: esv-study-bible}, expect_contains: "for I am not worthy to have you come under my roof", checked: 2026-10-06}
+  - {id: mark7-29-esv, what: "ESV Mark 7:29", tool: study_verse, args: {book: Mark, chapter: 7, verse: 29, work_id: esv-study-bible}, expect_contains: "For this statement you may go your way", checked: 2026-10-06}
+  - {id: 1sam17-47-esv, what: "ESV 1 Sam 17:47", tool: study_verse, args: {book: 1Sam, chapter: 17, verse: 47, work_id: esv-study-bible}, expect_contains: "For the battle is the LORD's", checked: 2026-10-06}
   - {id: luke18-9-grk, what: "Luke 18:9 trusting in themselves", tool: bible_interlinear, args: {book: Luke, chapter: 18, verse: 9}, expect_contains: "ἑαυτοῖς", checked: 2026-09-29}
   - {id: 2cor1-9-esv, what: "ESV 2 Cor 1:9", tool: study_verse, args: {book: 2Cor, chapter: 1, verse: 9, work_id: esv-study-bible}, expect_contains: "rely not on ourselves but on God who raises the dead", checked: 2026-09-29}
   - {id: exod17-12-esv, what: "ESV Exod 17:12 steady", tool: study_verse, args: {book: Exod, chapter: 17, verse: 12, work_id: esv-study-bible}, expect_contains: "So his hands were steady until the going down of the sun", checked: 2026-09-29}
@@ -128,7 +156,7 @@ resources_consulted:
   - {type: other, title: "CSB and LSB footnotes at Hab 2:4", author: "", note: "'Or faithfulness'; CSB 'Hb obscure' -- contributed the need to mark 2:4a as difficult."}
   - {type: other, title: "MACULA Hebrew (WLC), MACULA Greek (SBLGNT), morphhb, LXX lemmas", author: "", note: "counts and forms above."}
   - {type: other, title: "Tacitus, Annals 14.27", author: "", note: "Laodicea recovered from the AD 60 earthquake by its own resources (via ESV SB note)."}
-last_updated: "2026-09-29"
+last_updated: "2026-10-06"
 
 review_2026-09-29:
   by: "review-bible-study (agent pass)"
@@ -148,3 +176,30 @@ review_2026-09-29:
     - "Eph 2:8 marked 'debated' here while assurance-of-salvation.md treats touto as settled (whole transaction incl. faith) -- author to reconcile."
     - "Psalm 95 (quoted by Heb 3-4) never named; review_gaps quotation hit."
     - "Tacitus, Annals 14.27 not in the repo; cited via study Bibles only (ESV SB does not name Tacitus)."
+
+revision_2026-10-06:
+  by: "develop-bible-study (agent), at the author's direction"
+  brief: >-
+    Author: "Faith study needs to shine on examples of faith. That we may imitate those who are good
+    examples. Where faith is not a work of your own strength. The greatness is who we trust in." Also:
+    remove duplication with sin/pride.md and stop defining faith by what it is not.
+  moved_to_pride: "Kadesh two faces + ʿaphal link (was 'Kadesh: pride's two faces'); Galatians 3:3/5:4 and Phil 3 (was 'Adding to grace'); Laodicea's self-sufficiency, Tacitus, Hos 12:8 (was 'A church that needed nothing')."
+  cut: "'Pride is faith aimed at yourself'; Pharisee half of Luke 18 (pride keeps it); Luke 17:5-10 paragraph (budget); mustard-seed foil sentence; 'what Kadesh never said'."
+  added: "Jehoshaphat opening; 'Imitate their faith' section (Heb 6:12, 13:7, 11:34; Abraham/Sarah, David/Jehoshaphat, Daniel 3 and 6, centurion); 2 Chr 20:20 pun closed the old fork candidate."
+  commentaries: >-
+    ESV SB 2 Chr 20:1-30 (God alone acts; Judah prays, trusts, worships) and 20:20-23 (based on Isa
+    7:9); ESV SB Dan 3:18 (power certain, plan uncertain); ESV SB + NIV BTSB Heb 11:34 (fire = Dan 3);
+    ESV SB Heb 11:34 (weakness, cf. 4:15); NIV BTSB Rom 4:20 -- CONTRIBUTED Abraham's laughter (Gen
+    17:17), so the study now marks his faith as uneven; ESV SB Matt 8:10 (Messiah, marked 'suggests').
+  added_2: "At the author's question, 'Two outsiders Jesus praised' (Matt 8:5-13 / Luke 7:1-10; Matt 15:21-28 / Mark 7:24-30) and 'What Jesus praised' (five attributes). kynarion: author asked to note the different word and that the woman took it as the household dog. Now argued from kynarion vs kyon (G2965, 5x, all outside/unclean dogs), her reply (masters' table; Mark 'under the table'), and Jesus' acceptance (Mark 7:29); NIV BTSB/CBSB insult reading kept as the minority view."
+  added_3: "Author asked whether 'little faith' is pride. Verdict: not in Jesus' usage (all five oligopistos sayings address fear/anxiety, followed by provision); the link is Peter's (1 Pet 5:6-7, casting participle on humble yourselves; ESV SB 'worry is a form of pride'). Faith: little-faith paragraph + 1 Pet 5:6-7. Pride: short paragraph in The way down, marked as Peter's connection."
+  review_2026-10-06: >-
+    Subagent review-bible-study pass: all ~90 ESV quotations verbatim; counts and Greek/Aramaic forms
+    confirmed. Fixed: 'Five of these lives' -> four pairs; Heb 11:13 misapplied to unrescued saints ->
+    Heb 11:35-39; kynarion reading now marked probable and contested with NIV BTSB given fairly, 2 Pet
+    2:22 added as fifth kyon; Matt 17:20's 'Because of your little faith' addressed; 'same words' ->
+    'same truth'; contrast aside at Exod 17 cut; Daniel added to 'What they share'. Duplication cut:
+    Jehoshaphat repeat, Heb 12:2 consolidated after 12:1, 'God who raises the dead' x5 -> x2, Eph 2:8
+    grammar -> Assurance pointer, Laodicea audience/salvation debate -> backlog pointer, manna -> Lord's
+    Prayer pointer, Rom 4:20 in Be Transformed, refrain dropped from the one-sentence line. 'Faith that
+    works' section cut (see open_questions).

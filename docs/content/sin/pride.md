@@ -2,12 +2,12 @@
 title: "Pride"
 category: "sin"
 description: "Pride is self-sufficiency: living as though you need no one above you, and at its root wanting God's place. It comes out of the heart, it deceives the one who has it, and God sets Himself against it. The way down is to humble yourself and boast in the cross of Jesus."
-tags: ["proverbs", "daniel", "isaiah", "ezekiel", "james", "pride", "humility", "satan", "method/word-study", "lang/hebrew", "lang/greek"]
+tags: ["proverbs", "daniel", "isaiah", "ezekiel", "james", "numbers", "galatians", "revelation", "pride", "humility", "satan", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: false
 primary_passage: "Proverbs 16:18"
-bible_references: ["Daniel 4:29-37", "Genesis 3:5", "Deuteronomy 8:11-17", "Isaiah 2:10-12", "Isaiah 14:11", "Proverbs 8:13", "Proverbs 6:16-17", "Proverbs 16:5", "Proverbs 29:23", "Proverbs 3:34", "Obadiah 1:3-4", "Mark 7:21-23", "2 Chronicles 26:16", "2 Chronicles 32:25-26", "1 Corinthians 4:7", "1 Corinthians 4:18", "1 Corinthians 8:1", "1 Timothy 3:6", "Luke 18:9-14", "James 4:6", "James 4:13-16", "1 John 2:16", "3 John 1:9", "Acts 12:21-23", "Acts 14:11-15", "Ezekiel 28:2", "2 Thessalonians 2:3-8", "1 John 3:2", "2 Chronicles 26:19-21", "Psalm 82:1-8", "John 10:33-36", "2 Peter 1:4", "Colossians 2:18", "Luke 1:51-52", "Revelation 18:7-8", "Isaiah 14:4-21", "Ezekiel 28:11-19", "Luke 10:15-18", "Revelation 12:9", "Jeremiah 9:23-24", "1 Corinthians 1:28-31", "Romans 3:24-27", "Galatians 6:14"]
+bible_references: ["Daniel 4:29-37", "Genesis 3:5", "Deuteronomy 8:11-17", "Isaiah 2:10-12", "Isaiah 14:11", "Proverbs 8:13", "Proverbs 6:16-17", "Proverbs 16:5", "Proverbs 29:23", "Proverbs 3:34", "Obadiah 1:3-4", "Mark 7:21-23", "2 Chronicles 26:16", "2 Chronicles 32:25-26", "1 Corinthians 4:7", "1 Corinthians 4:18", "1 Corinthians 8:1", "1 Timothy 3:6", "Luke 18:9-14", "James 4:6", "James 4:13-16", "1 John 2:16", "3 John 1:9", "Acts 12:21-23", "Acts 14:11-15", "Ezekiel 28:2", "2 Thessalonians 2:3-8", "1 John 3:2", "2 Chronicles 26:19-21", "Psalm 82:1-8", "John 10:33-36", "2 Peter 1:4", "Colossians 2:18", "Luke 1:51-52", "Revelation 18:7-8", "Isaiah 14:4-21", "Ezekiel 28:11-19", "Luke 10:15-18", "Revelation 12:9", "Jeremiah 9:23-24", "1 Corinthians 1:28-31", "Romans 3:24-27", "Galatians 6:14", "1 Peter 5:5-7", "Numbers 13:33", "Numbers 14:1-4", "Numbers 14:11", "Numbers 14:39-45", "Deuteronomy 1:41-43", "Habakkuk 2:4", "Galatians 3:3", "Galatians 5:4", "Philippians 3:4-9", "Romans 8:30", "Philippians 1:6", "Revelation 3:14-18", "Hosea 12:8"]
 date_created: 2026-09-28
-date_modified: 2026-09-28
+date_modified: 2026-10-06
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -87,8 +87,10 @@ In Jesus' name. Amen.
 - [What pride is](#what-pride-is). Self-sufficiency, and the wish to stand where God stands.
 - [What the words mean](#what-the-words-mean). Hebrew words for height and presumption, and Greek
   words for showing off, smoke and swelling.
-- [Where pride comes from](#where-pride-comes-from). The heart, success, and gifts.
-- [What pride looks like](#what-pride-looks-like). Six faces, and how pride deceives its owner.
+- [Where pride comes from](#where-pride-comes-from). The heart, success (Uzziah, and the church at
+  Laodicea), and gifts.
+- [What pride looks like](#what-pride-looks-like). Six faces; Kadesh and Galatia, where pride tries to
+  earn what God gives; and how pride deceives its owner.
 - ["You are gods"](#you-are-gods). Every claim to be divine that Scripture records, and the verses
   some use to call believers gods.
 - [Did Satan fall through pride?](#did-satan-fall-through-pride) Isaiah 14 and Ezekiel 28, with the
@@ -100,8 +102,7 @@ In Jesus' name. Amen.
 
 ## What pride is
 
-Humility is dependence on God (see [In Humility](../christian-life/humility.md)). Pride is the
-reverse. Moses warned Israel what it would sound like once they were settled and full:
+Moses warned Israel what pride would sound like once they were settled and full:
 
 > ✝️ Deuteronomy 8:14, 17 (ESV)
 >
@@ -173,6 +174,20 @@ houses" (Deuteronomy 8:12, ESV). King Uzziah is the example. God helped him, and
 when he was strong, he grew proud, to his destruction" (2 Chronicles 26:16, ESV). He walked into the
 temple to burn incense, a priest's work, and left it a leper (2 Chronicles 26:19-21).
 
+A whole church lived like its prosperous city. Laodicea was a banking city with a textile trade, a
+medical establishment, and eye salve made in the region (NIV Cultural Backgrounds Study Bible). An
+earthquake damaged it in AD 60, and Tacitus records that it recovered by its own resources, with no
+help from Rome (*Annals* 14.27); the ESV Study Bible says it declined imperial relief. Jesus quotes
+the church back to itself:
+
+> ✝️ Revelation 3:17 (ESV)
+>
+> 17 For you say, I am rich, I have prospered, and I need nothing, not realizing that you are
+> wretched, pitiable, poor, blind, and naked.
+
+"I need nothing" echoes proud Ephraim: "Ah, but I am rich; I have found wealth for myself" (Hosea
+12:8, ESV).
+
 ### Gifts and knowledge
 
 Spiritual gifts and Bible knowledge are no protection. Corinth was rich in both, and Paul calls some
@@ -201,9 +216,50 @@ Scripture gives pride faces you can recognise.
 - **Religious show.** Pride can dress as humility. At Colossae, a man practising self-denial was
   "puffed up without reason" (Colossians 2:18, ESV). See [In Humility](../christian-life/humility.md#humility-for-show).
 
+### Earning what God gives
+
+Pride can wear the face of repentance. At Kadesh, after the spies came back, Israel would not go up
+into the land, and God said to Moses, "how long will they not believe in me, in spite of all the
+signs that I have done among them?" (Numbers 14:11, ESV). The next morning they changed their minds.
+"Here we are. We will go up to the place that the LORD has promised, for we have sinned" (Numbers
+14:40, ESV). Moses remembered what they said: "We ourselves will go up and fight" (Deuteronomy 1:41,
+ESV). He told them the LORD was not with them. "But they presumed to go up" (Numbers 14:44, ESV), and
+they were beaten back to Hormah.
+
+"Presumed" is <span dir="rtl">עָפַל</span> (*ʿaphal*, ah-FAHL, H6075), to swell. It appears twice in
+the Hebrew Bible, here and at Habakkuk 2:4, "his soul is puffed up," and the NIV Biblical Theology
+Study Bible points to Numbers 14:44 to explain that verse. One day Israel would not go with God. The
+next morning they went without Him. Both days they trusted themselves, and that gives pride two faces
+before a promise of God. At Kadesh the unbelief was fear of the sons of Anak and of falling "by the sword" (Numbers 13:33;
+14:3, ESV); in a
+believer today the same two faces can sound like this:
+
+- **It will not believe.** "It's too good to be true. God could not save someone like me."
+- **It tries to earn it.** "I have sinned, so now I'll make up for it. I will go up and fight."
+
+The second face confesses sin and gets busy, and it still has the self at the centre.
+
+The Galatians had believed the gospel. Then teachers came and told them they needed circumcision too,
+to be complete. Paul answered: "Are you so foolish? Having begun by the Spirit, are you now being
+perfected by the flesh?" (Galatians 3:3, ESV). His verdict is severe: "You are severed from Christ,
+you who would be justified by the law; you have fallen away from grace" (Galatians 5:4, ESV).
+Whatever you add to Christ as the ground of your standing with God, you are leaning on it instead of
+Him. Readers differ over what "fallen away from grace" means for a true believer. Paul's point in the
+verse is that law and grace cannot both be the ground you stand on. This site's [statement of
+faith](../about/statement-of-faith.md) holds that those God justifies, He also glorifies (Romans
+8:30), and that "he who began a good work in you will bring it to completion" (Philippians 1:6, ESV).
+
+Paul had a longer list to add than anyone. He was "circumcised on the eighth day... a Hebrew of
+Hebrews; as to the law, a Pharisee... as to righteousness under the law, blameless" (Philippians
+3:5-6, ESV). He counted it all loss to "be found in him, not having a righteousness of my own that
+comes from the law, but that which comes through faith in Christ" (Philippians 3:9, ESV). It was
+the most impressive list a man could bring to God, and he let go of it. The
+[Faith](../salvation/faith.md#resting-on-a-finished-work) study follows the trust that receives
+instead.
+
 ### Pride deceives its owner
 
-And pride deceives its owner. Edom lived in the high rocks and said, "Who will bring me down to the
+Pride deceives its owner. Edom lived in the high rocks and said, "Who will bring me down to the
 ground?" (Obadiah 1:3, ESV). God answered: "from there I will bring you down" (Obadiah 1:4, ESV).
 Edom's pride was the reason Edom could not see what was coming.
 
@@ -348,8 +404,7 @@ finish the work: "the LORD alone will be exalted in that day" (Isaiah 2:11, ESV)
 God opposes the proud, and He also receives them when they come down. Hezekiah's heart grew proud
 after God healed him, "But Hezekiah humbled himself for the pride of his heart ... so that the wrath of
 the LORD did not come upon them in the days of Hezekiah" (2 Chronicles 32:26, ESV). Nebuchadnezzar
-lifted his eyes to heaven, and God gave him back his reason and his kingdom (Daniel 4:34, 36). The
-tax collector who beat his breast "went down to his house justified" (Luke 18:14, ESV).
+lifted his eyes to heaven, and God gave him back his reason and his kingdom (Daniel 4:34, 36).
 
 ## The way down
 
@@ -362,14 +417,19 @@ The answer to pride is a different thing to boast in.
 > him you are in Christ Jesus, who became to us wisdom from God, righteousness and sanctification and
 > redemption, 31 so that, as it is written, "Let the one who boasts, boast in the Lord."
 
-At the cross Jesus bore the sin of the proud and paid for it, and God justifies the ungodly as a
-gift. That is why "our boasting" is "excluded" (Romans 3:27, ESV): we are "justified by his grace as a
+At the cross Jesus bore the sin of the proud and paid for it. That is why "our boasting" is "excluded" (Romans 3:27, ESV): we are "justified by his grace as a
 gift, through the redemption that is in Christ Jesus" (Romans 3:24, ESV). Nothing in your salvation is
 your own doing, so pride has nothing left to stand on. And everything you need, you have "in Christ
 Jesus" (1 Corinthians 1:30), so you are free to boast in Him: "far be it from me to boast except in
 the cross of our Lord Jesus Christ" (Galatians 6:14, ESV).
 
-The practice is humility: humble yourself before the Lord, and He will lift you up (James 4:10). The
+The practice is humility: humble yourself before the Lord, and He will lift you up (James 4:10).
+Peter shows one way it is done: "Humble yourselves, therefore, under the mighty hand of God so that at
+the proper time he may exalt you, casting all your anxieties on him, because he cares for you" (1
+Peter 5:6-7, ESV). "Casting" hangs on "humble yourselves," and the ESV Study Bible draws the
+conclusion that worry is a form of pride: it carries what belongs to God. That is Peter's connection.
+When Jesus said "you of little faith" to anxious disciples, He named their fear and provided for
+them; the [Faith](../salvation/faith.md#why-did-you-doubt) study follows those five sayings. The
 fuller study of it, and of Jesus who humbled Himself to the cross, is [In
 Humility](../christian-life/humility.md).
 
@@ -391,11 +451,12 @@ Humility](../christian-life/humility.md).
 
 ## References & Recommended Reading
 
-- **ESV Study Bible** (Crossway) — notes on Isaiah 14:12-15, Ezekiel 28:11-19, Luke 10:18, Psalm 82:6
-  and 2 Peter 1:4.
-- **NIV Biblical Theology Study Bible** (Zondervan) — notes on Psalm 82:6, Isaiah 14:12-15 and
-  1 Timothy 3:6.
-- **NIV Cultural Backgrounds Study Bible** (Zondervan) — notes on Psalm 82:6 and Isaiah 14:12.
+- **ESV Study Bible** (Crossway) — notes on Isaiah 14:12-15, Ezekiel 28:11-19, Luke 10:18, Psalm 82:6,
+  2 Peter 1:4 and 1 Peter 5:7 (worry as a form of pride).
+- **NIV Biblical Theology Study Bible** (Zondervan) — notes on Psalm 82:6, Isaiah 14:12-15,
+  1 Timothy 3:6, Habakkuk 2:4 (the link to Numbers 14:44) and Revelation 3:17 (Hosea 12:8).
+- **NIV Cultural Backgrounds Study Bible** (Zondervan) — notes on Psalm 82:6, Isaiah 14:12 and
+  Revelation 3:17-18 (Laodicea's banking, textiles and eye salve).
 - **NLT Life Application Study Bible** (Tyndale) — notes on Isaiah 14:12-14 and Ezekiel 28:12-19.
 - **CSB Ancient Faith Study Bible** (Holman) — translator footnote at Ezekiel 28:14.
 - **Origen, *De Principiis*** 1.5.4-5, in *Ante-Nicene Fathers* vol. 4 (public domain).
@@ -403,11 +464,13 @@ Humility](../christian-life/humility.md).
 - **G. Abbott-Smith, *A Manual Greek Lexicon of the New Testament***, via STEPBible's TBESG (CC BY) —
   ὑπερήφανος, ὑπερηφανία, τυφόω, φυσιόω and ἀλαζονεία.
 - **Macula Hebrew (WLC)** and **Macula Greek (SBLGNT)** — occurrence data for גָּאוֹן, גֹּבַהּ,
-  זָדוֹן and הֵילֵל, and for the Greek of Mark 7:22, Luke 10:15-18 and 1 Timothy 3:6.
+  זָדוֹן, הֵילֵל and עָפַל, and for the Greek of Mark 7:22, Luke 10:15-18 and 1 Timothy 3:6.
 - **Septuagint lemmas** — the Greek of Isaiah 14:12-15 and Ezekiel 28:14.
+- **Tacitus, *Annals* 14.27** — Laodicea's recovery from the AD 60 earthquake without Roman aid.
 
 ### On this site
 
 - [In Humility](../christian-life/humility.md) — the virtue that answers pride, and Jesus who humbled
   Himself.
 - [Sin and Idolatry](idolatry.md) — the heart that sets up something in God's place.
+- [Faith](../salvation/faith.md) — leaning your whole weight on God, and the people who did.

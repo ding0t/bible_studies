@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-04
+date_modified: 2026-10-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -738,7 +738,7 @@ heart that opens the door.
 - **Word and background:** δειπνέω (*deipneō*, "eat, dine"), a shared evening meal as fellowship;
   and Laodicea's lukewarm water supply, which the letter's "neither cold nor hot" draws on.
 - **Links:** 10.3 (religion and a contrite heart), [The Way](../jesus/the-way.md), and
-  [Faith](../salvation/faith.md#the-door-at-laodicea), which reads the verse as the door faith opens.
+  [Faith](../salvation/faith.md#the-door-every-morning), which reads the verse as the door faith opens.
 
 ### 10.6 Run the race
 
