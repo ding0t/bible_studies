@@ -39,8 +39,6 @@ outline:
     says: "Mustard seed; Peter; Mark 9:24; Eph 2:8 and Heb 12:2."
   - section: "Resting on a finished work"
     says: "Heb 3-4 rest; Rom 4:4-5, 4:16, 11:6; 2 Cor 1:9 (God who raises the dead); tax collector; John 6:29."
-  - section: "Faith that works"
-    says: "James 2 beside Romans 4."
   - section: "The door, every morning"
     says: "The Amen (Rev 3:14); buy without money (Isa 55:1); Rev 3:20; Lam 3:23."
 word_budget: 4600
@@ -203,3 +201,7 @@ revision_2026-10-06:
     grammar -> Assurance pointer, Laodicea audience/salvation debate -> backlog pointer, manna -> Lord's
     Prayer pointer, Rom 4:20 in Be Transformed, refrain dropped from the one-sentence line. 'Faith that
     works' section cut (see open_questions).
+
+review_2026-10-07:
+  by: "review-bible-study (subagent), applied by agent"
+  fixed: "James 2:22 quoted in full and confined to Abraham; 1 Pet 5:7 trimmed to a sentence + pointer to humility.md (which treats it in full), and 'humble yourself by handing' claim removed; Matt 17:20 'your unbelief' variant noted (CSB footnote); 'five times, four occasions, once to Peter alone'; 'Peter seems to have learned it'; kynarion paragraph: unsourced diminutive claim cut, ESV SB concession and NIV CBSB 'not a direct label' given; kyon 'street dogs, or the word used as an insult'; Eph 2:10 clause cut; Faith-that-works outline entry removed."

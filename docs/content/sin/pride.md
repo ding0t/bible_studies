@@ -5,9 +5,9 @@ description: "Pride is self-sufficiency: living as though you need no one above 
 tags: ["proverbs", "daniel", "isaiah", "ezekiel", "james", "numbers", "galatians", "revelation", "pride", "humility", "satan", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: false
 primary_passage: "Proverbs 16:18"
-bible_references: ["Daniel 4:29-37", "Genesis 3:5", "Deuteronomy 8:11-17", "Isaiah 2:10-12", "Isaiah 14:11", "Proverbs 8:13", "Proverbs 6:16-17", "Proverbs 16:5", "Proverbs 29:23", "Proverbs 3:34", "Obadiah 1:3-4", "Mark 7:21-23", "2 Chronicles 26:16", "2 Chronicles 32:25-26", "1 Corinthians 4:7", "1 Corinthians 4:18", "1 Corinthians 8:1", "1 Timothy 3:6", "Luke 18:9-14", "James 4:6", "James 4:13-16", "1 John 2:16", "3 John 1:9", "Acts 12:21-23", "Acts 14:11-15", "Ezekiel 28:2", "2 Thessalonians 2:3-8", "1 John 3:2", "2 Chronicles 26:19-21", "Psalm 82:1-8", "John 10:33-36", "2 Peter 1:4", "Colossians 2:18", "Luke 1:51-52", "Revelation 18:7-8", "Isaiah 14:4-21", "Ezekiel 28:11-19", "Luke 10:15-18", "Revelation 12:9", "Jeremiah 9:23-24", "1 Corinthians 1:28-31", "Romans 3:24-27", "Galatians 6:14", "1 Peter 5:5-7", "Numbers 13:33", "Numbers 14:1-4", "Numbers 14:11", "Numbers 14:39-45", "Deuteronomy 1:41-43", "Habakkuk 2:4", "Galatians 3:3", "Galatians 5:4", "Philippians 3:4-9", "Romans 8:30", "Philippians 1:6", "Revelation 3:14-18", "Hosea 12:8"]
+bible_references: ["Daniel 4:29-37", "Genesis 3:5", "Deuteronomy 8:11-17", "Isaiah 2:10-12", "Isaiah 14:11", "Proverbs 8:13", "Proverbs 6:16-17", "Proverbs 16:5", "Proverbs 29:23", "Proverbs 3:34", "Obadiah 1:3-4", "Mark 7:21-23", "2 Chronicles 26:16", "2 Chronicles 32:25-26", "1 Corinthians 4:7", "1 Corinthians 4:18", "1 Corinthians 8:1", "1 Timothy 3:6", "Luke 18:9-14", "James 4:6", "James 4:13-16", "1 John 2:16", "3 John 1:9", "Acts 12:21-23", "Acts 14:11-15", "Ezekiel 28:2", "2 Thessalonians 2:3-8", "1 John 3:2", "2 Chronicles 26:19-21", "Psalm 82:1-8", "John 10:33-36", "2 Peter 1:4", "Colossians 2:18", "Luke 1:51-52", "Revelation 18:7-8", "Isaiah 14:4-21", "Ezekiel 28:11-19", "Luke 10:15-18", "Revelation 12:9", "Jeremiah 9:23-24", "1 Corinthians 1:28-31", "Romans 3:24-27", "Galatians 6:14", "1 Peter 5:7", "Numbers 13:33", "Numbers 14:1-4", "Numbers 14:11", "Numbers 14:39-45", "Deuteronomy 1:41-43", "Habakkuk 2:4", "Galatians 3:3", "Galatians 5:4", "Philippians 3:4-9", "Romans 8:30", "Philippians 1:6", "Revelation 3:14-18", "Hosea 12:8"]
 date_created: 2026-09-28
-date_modified: 2026-10-06
+date_modified: 2026-10-07
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -231,8 +231,8 @@ the Hebrew Bible, here and at Habakkuk 2:4, "his soul is puffed up," and the NIV
 Study Bible points to Numbers 14:44 to explain that verse. One day Israel would not go with God. The
 next morning they went without Him. Both days they trusted themselves, and that gives pride two faces
 before a promise of God. At Kadesh the unbelief was fear of the sons of Anak and of falling "by the sword" (Numbers 13:33;
-14:3, ESV); in a
-believer today the same two faces can sound like this:
+14:3, ESV). In a believer today the same refusal of the promise, and the same reach to earn it, can
+sound like this:
 
 - **It will not believe.** "It's too good to be true. God could not save someone like me."
 - **It tries to earn it.** "I have sinned, so now I'll make up for it. I will go up and fight."
@@ -252,8 +252,9 @@ faith](../about/statement-of-faith.md) holds that those God justifies, He also g
 Paul had a longer list to add than anyone. He was "circumcised on the eighth day... a Hebrew of
 Hebrews; as to the law, a Pharisee... as to righteousness under the law, blameless" (Philippians
 3:5-6, ESV). He counted it all loss to "be found in him, not having a righteousness of my own that
-comes from the law, but that which comes through faith in Christ" (Philippians 3:9, ESV). It was
-the most impressive list a man could bring to God, and he let go of it. The
+comes from the law, but that which comes through faith in Christ" (Philippians 3:9, ESV). By his
+own reckoning it was a longer list than anyone's ("I have more," Philippians 3:4, ESV), and he let go
+of it. The
 [Faith](../salvation/faith.md#resting-on-a-finished-work) study follows the trust that receives
 instead.
 
@@ -424,11 +425,10 @@ Jesus" (1 Corinthians 1:30), so you are free to boast in Him: "far be it from me
 the cross of our Lord Jesus Christ" (Galatians 6:14, ESV).
 
 The practice is humility: humble yourself before the Lord, and He will lift you up (James 4:10).
-Peter shows one way it is done: "Humble yourselves, therefore, under the mighty hand of God so that at
-the proper time he may exalt you, casting all your anxieties on him, because he cares for you" (1
-Peter 5:6-7, ESV). "Casting" hangs on "humble yourselves," and the ESV Study Bible draws the
-conclusion that worry is a form of pride: it carries what belongs to God. That is Peter's connection.
-When Jesus said "you of little faith" to anxious disciples, He named their fear and provided for
+Peter ties humbling yourself to "casting all your anxieties on him, because he cares for you" (1
+Peter 5:7, ESV), and the ESV Study Bible draws from it that worry is a form of pride, carrying what
+belongs to God; the [humility](../christian-life/humility.md#humble-yourself-and-he-will-lift-you-up)
+study treats the passage in full. That link is Peter's and the commentator's. When Jesus said "you of little faith" to anxious disciples, He named their fear and provided for
 them; the [Faith](../salvation/faith.md#why-did-you-doubt) study follows those five sayings. The
 fuller study of it, and of Jesus who humbled Himself to the cross, is [In
 Humility](../christian-life/humility.md).

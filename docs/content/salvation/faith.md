@@ -5,9 +5,9 @@ description: "Faith is leaning your whole weight on God and on what He has finis
 tags: ["habakkuk", "hebrews", "romans", "2-chronicles", "1-samuel", "daniel", "matthew", "mark", "luke", "revelation", "faith", "grace", "humility", "justification", "method/word-study", "lang/hebrew", "lang/aramaic", "lang/greek"]
 draft: false
 primary_passage: "Habakkuk 2:4; Hebrews 11:1-40"
-bible_references: ["2 Chronicles 20:1-22", "Genesis 15:6", "Exodus 17:12", "Isaiah 7:9", "Deuteronomy 32:4", "Romans 1:17", "Galatians 3:11", "Hebrews 10:38-39", "Habakkuk 1:6", "Habakkuk 2:3", "Hebrews 6:12", "Hebrews 13:7", "Hebrews 12:1-2", "Romans 4:16-21", "Genesis 17:17", "Hebrews 11:11", "Hebrews 11:17-19", "1 Samuel 17:45-47", "Daniel 3:17-18", "Daniel 6:23", "Matthew 8:5-13", "Luke 7:1-10", "Matthew 15:21-28", "Mark 7:24-30", "Matthew 17:20", "Matthew 14:28-31", "Mark 9:22-24", "Ephesians 2:8-10", "Psalm 95:7-11", "Hebrews 3:7-8", "Hebrews 3:19", "Hebrews 4:9-10", "Genesis 2:2", "John 19:30", "Romans 4:4-5", "Romans 11:6", "2 Corinthians 1:8-9", "Luke 18:13-14", "John 6:28-29", "James 2:22", "Genesis 22:2", "1 Samuel 17:48", "Hebrews 11:35-39", "Matthew 7:6", "Luke 16:21", "Philippians 3:2", "2 Peter 2:22", "Revelation 22:15", "Revelation 3:14-22", "Isaiah 55:1", "Lamentations 3:22-23", "Matthew 6:11", "2 Timothy 2:13", "Matthew 6:30", "Matthew 8:26", "Matthew 16:8-10", "Luke 12:28", "1 Peter 5:6-7", "Hebrews 10:14"]
+bible_references: ["2 Chronicles 20:1-22", "Genesis 15:6", "Exodus 17:12", "Isaiah 7:9", "Deuteronomy 32:4", "Romans 1:17", "Galatians 3:11", "Hebrews 10:38-39", "Habakkuk 1:6", "Habakkuk 2:3", "Hebrews 6:12", "Hebrews 13:7", "Hebrews 12:1-2", "Romans 4:16-21", "Genesis 17:17", "Hebrews 11:11", "Hebrews 11:17-19", "1 Samuel 17:45-47", "Daniel 3:17-18", "Daniel 6:23", "Matthew 8:5-13", "Luke 7:1-10", "Matthew 15:21-28", "Mark 7:24-30", "Matthew 17:20", "Matthew 14:28-31", "Mark 9:22-24", "Ephesians 2:8-9", "Psalm 95:7-11", "Hebrews 3:7-8", "Hebrews 3:19", "Hebrews 4:9-10", "Genesis 2:2", "John 19:30", "Romans 4:4-5", "Romans 11:6", "2 Corinthians 1:8-9", "Luke 18:13-14", "John 6:28-29", "James 2:22", "Genesis 22:2", "1 Samuel 17:48", "Hebrews 11:35-39", "Matthew 7:6", "Luke 16:21", "Philippians 3:2", "2 Peter 2:22", "Revelation 22:15", "Revelation 3:14-22", "Isaiah 55:1", "Lamentations 3:22-23", "Matthew 6:11", "2 Timothy 2:13", "Matthew 6:30", "Matthew 8:26", "Matthew 16:8-10", "Luke 12:28", "1 Peter 5:7", "Hebrews 10:14"]
 date_created: 2026-09-29
-date_modified: 2026-10-06
+date_modified: 2026-10-07
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -326,7 +326,7 @@ answer her a word" (Matthew 15:23, ESV). The disciples asked Him to send her awa
 
 #### Little dogs under the table
 
-The usual New Testament word for "dog" is κύων (*kyōn*, G2965), and its five uses are the dogs of the street and the outside: the dogs that licked Lazarus's
+The usual New Testament word for "dog" is κύων (*kyōn*, G2965), and its five uses are street dogs, or the word used as an insult: the dogs that licked Lazarus's
 sores (Luke 16:21), "Do not give dogs what is holy" (Matthew 7:6, ESV), "Look out for the dogs"
 (Philippians 3:2, ESV), the dog that "returns to its own vomit" (2 Peter 2:22, ESV), and the dogs
 outside the city (Revelation 22:15). Here Jesus says κυνάριον (*kynarion*, G2952), a diminutive,
@@ -343,11 +343,12 @@ table: a crumb from it was enough to free her daughter. Jesus accepted her readi
 statement you may go your way; the demon has left your daughter" (Mark 7:29, ESV).
 
 **The household-dog reading is probable, and it is contested.** The NIV Biblical Theology Study
-Bible says that among Jews dogs "were not household pets but wild scavengers," and the NIV Cultural
-Backgrounds Study Bible notes how harsh "dog" was as an insult; a diminutive in the Greek of the day
-can also carry little sense of "little." On that reading the saying keeps its sting and her answer
-turns it. The case for the household dog is the word Jesus chose, the table she placed the dogs
-under, and the answer He gave her.
+Bible says that among Jews dogs "were not household pets but wild scavengers," and the ESV Study
+Bible grants the same of Palestine's dogs before turning to the diminutive. On that reading the
+saying keeps its sting and her answer turns it. The NIV Cultural Backgrounds Study Bible notes how
+harsh "dog" was as an insult, while observing that it is not used as a direct label here. The case
+for the household dog is the word Jesus chose, the table she placed the dogs under, and the answer
+He gave her.
 
 ### What Jesus praised
 
@@ -375,9 +376,9 @@ Gentiles with no claim on Israel's Messiah. Each looked at God: the God who give
 the LORD of hosts, the faithful one who promised, the God who is able to deliver, the Lord whose word is enough and whose crumbs are enough.
 
 And each then went where God sent: Abraham to Moriah (Genesis 22:2), David running toward the battle
-line (1 Samuel 17:48), Jehoshaphat out to the wilderness of Tekoa (2 Chronicles 20:20). James calls
-that faith "active along with his works" (James 2:22, ESV). The works add nothing to what God has
-done; they are what leaning on Him looks like.
+line (1 Samuel 17:48), Jehoshaphat out to the wilderness of Tekoa (2 Chronicles 20:20). James says
+of Abraham at Moriah that his "faith was active along with his works, and faith was completed by his
+works" (James 2:22, ESV). Leaning on God shows itself in going where He sends.
 
 ## Small faith in a great God
 
@@ -385,7 +386,8 @@ done; they are what leaning on Him looks like.
 
 The disciples had just failed to heal a boy, and asked why. Jesus answered, "Because of your little
 faith. For truly, I say to you, if you have faith like a grain of mustard seed, you will say to this
-mountain, 'Move from here to there,' and it will move" (Matthew 17:20, ESV). He rebukes little faith
+mountain, 'Move from here to there,' and it will move" (Matthew 17:20, ESV). Some manuscripts read
+"your unbelief" (CSB footnote); in the text the ESV follows, He rebukes little faith
 and praises seed-sized faith in one breath, so the likeliest reading is that He is measuring where
 their faith rested. A mustard seed is tiny. What moves the mountain is God, and a tiny faith in a
 great God is enough, because the weight is on Him.
@@ -395,8 +397,8 @@ planted in. He asks you to lean on Him, and He does the lifting.
 
 ### "Why did you doubt?"
 
-Jesus called His disciples ὀλιγόπιστοι (*oligopistoi*, G3640), "you of little faith," five times,
-and each time they were afraid or anxious: about food and clothing (Matthew 6:30; Luke 12:28), in a
+Jesus called His disciples ὀλιγόπιστοι (*oligopistoi*, G3640), "you of little faith," five times
+in the Gospels, on four occasions, once to Peter alone. Each time they were afraid or anxious: about food and clothing (Matthew 6:30; Luke 12:28), in a
 storm (Matthew 8:26), sinking (Matthew 14:31), and over forgotten bread soon after He had fed
 five thousand and then four thousand (Matthew 16:8-10). The ESV Study Bible reads the word as faith in short supply, still
 present. Each time Jesus names it and then provides: He promises to clothe them, calms the sea,
@@ -416,10 +418,10 @@ Matthew 28:17. It means to waver or hesitate. Peter's weight shifted from Jesus 
 storm. And even then, Jesus caught him "immediately." His faithfulness held when Peter's faith
 failed. "If we are faithless, he remains faithful— for he cannot deny himself" (2 Timothy 2:13, ESV).
 
-Peter learned it. Years later he wrote, "Humble yourselves, therefore, under the mighty hand of God so
-that at the proper time he may exalt you, casting all your anxieties on him, because he cares for
-you" (1 Peter 5:6-7, ESV). "Casting" hangs on "humble yourselves": you humble yourself by handing God
-what you were carrying, because He cares for you. The answer to little faith is to look at Him.
+Peter seems to have learned it. Years later he wrote of "casting all your anxieties on him, because
+he cares for you" (1 Peter 5:7, ESV), the passage the
+[humility](../christian-life/humility.md#humble-yourself-and-he-will-lift-you-up) study treats in
+full. The answer to little faith is to look at Him.
 
 ### "Help my unbelief"
 
@@ -436,8 +438,7 @@ asks Jesus for that too. Jesus healed the boy on the faith the father had.
 
 Your faith is held up by Christ, too. Grace, faith and all are "the gift of God" (Ephesians 2:8,
 ESV), as the [Assurance of Salvation](assurance-of-salvation.md#the-grammar-of-not-your-own-doing)
-study shows from the grammar, and the next verses add, "we are his workmanship, created in Christ
-Jesus for good works" (Ephesians 2:10, ESV).
+study shows from the grammar.
 
 ## Resting on a finished work
 
