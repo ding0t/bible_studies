@@ -5,9 +5,9 @@ description: "The body God has promised believers. At the last trumpet He raises
 tags: ["1-corinthians", "philippians", "romans", "1-john", "genesis", "isaiah", "hosea", "resurrection", "glorification", "rapture", "person/adam", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "1 Corinthians 15:35-58"
-bible_references: ["1 Corinthians 15:12", "1 Corinthians 15:20-26", "Genesis 2:7", "Isaiah 25:8", "Isaiah 26:19", "Hosea 13:14", "Job 14:7-14", "Job 19:25-27", "Job 33:24-28", "Job 42:17", "Psalm 102:26", "Acts 2:27", "1 Corinthians 2:14-15", "Romans 5:14", "Philippians 3:20-21", "Romans 8:11", "Romans 8:23", "Romans 8:29", "1 John 3:2", "1 Thessalonians 4:16-17", "2 Corinthians 5:1-4", "Luke 24:36-43", "John 20:19-27", "1 Timothy 6:16", "Hebrews 1:12", "Revelation 6:11", "Daniel 12:2-3", "Job 19:25-27"]
+bible_references: ["1 Corinthians 15:12", "1 Corinthians 15:20-26", "Genesis 2:7", "Isaiah 25:8", "Isaiah 26:19", "Hosea 13:14", "Job 14:7-14", "Job 19:25-27", "Job 33:24-28", "Job 42:17", "Psalm 102:26", "Acts 2:27", "1 Corinthians 2:14-15", "Romans 5:14", "Philippians 3:20-21", "Romans 8:11", "Romans 8:23", "Romans 8:29", "1 John 3:2", "1 Thessalonians 4:16-17", "2 Corinthians 5:1-4", "Luke 24:36-43", "John 20:19-27", "1 Timothy 6:16", "Hebrews 1:12", "Revelation 6:11", "Daniel 12:2-3", "Job 19:25-27", "1 Corinthians 15:8", "Acts 26:13", "Revelation 1:16", "Luke 24:26", "1 Timothy 3:16", "Acts 1:3", "Matthew 17:2"]
 date_created: 2026-09-28
-date_modified: 2026-10-05
+date_modified: 2026-10-07
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -163,6 +163,8 @@ objection by claiming an indestructible neck bone would seed the new body (note 
 15:37). Paul needs no bone. God "gives it a body as he has chosen" (1 Corinthians 15:38). The
 continuity rests on God's choice and God's power.
 
+### In the forty days
+
 **Jesus' own body shows both halves.** It was the same body. "See my hands and my feet, that it is
 I myself. Touch me, and see. For a spirit does not have flesh and bones as you see that I have"
 (Luke 24:39, ESV). He ate broiled fish in front of them (Luke 24:42-43). He told Thomas to put his
@@ -173,12 +175,29 @@ stood among the disciples with "the doors being locked" (John 20:19, ESV). The *
 Theology Study Bible* draws on exactly these passages to explain Philippians 3:21's "glorious
 body": physical and touchable, and "not limited by being material."
 
-[![The seed: a bare kernel sown in the soil and a full wheat plant God gives from the same seed (1 Corinthians 15:36-38, 53); below, Jesus' risen body the same (Luke 24:39-43; John 20:27) and changed (Luke 24:16; John 20:19)](../assets/img/last-things/changed-seed.svg)](../assets/img/last-things/changed-seed.svg)
+[![The seed: a bare kernel sown in the soil and a full wheat plant God gives from the same seed (1 Corinthians 15:36-38, 53); below, Jesus' risen body in the forty days the same (Luke 24:39-43; John 20:27) and changed (Luke 24:16; John 20:19)](../assets/img/last-things/changed-seed.svg)](../assets/img/last-things/changed-seed.svg)
 
-*From the plate: the kernel and the plant are one seed, and Jesus' risen body was the same body, changed.*
+*From the plate: the kernel and the plant are one seed, and in the forty days before the ascension Jesus' risen body was the same body, changed.*
 
 This shows that God keeps what He made. He raises the body He formed from the dust, and it stays
 yours. The person you are rises in the body you had, made new.
+
+### After the ascension
+
+**The forty days show His risen body before the ascension.** Afterwards Scripture shows a glory those
+days never did. Paul, who counts the Damascus road among the resurrection appearances (1 Corinthians
+15:8), saw "a light from heaven, brighter than the sun" (Acts 26:13, ESV), and John saw a face "like
+the sun shining in full strength" (Revelation 1:16, ESV). The *ESV Study Bible* places Christ's
+glory "at his resurrection and then more fully at his ascension" (note on Luke 24:26), and the
+"glorious body" of Philippians 3:21 is the ascended Lord's.
+
+**How the ascension bears on His body is contested.** Either the body was further glorified when He
+was "taken up in glory" (1 Timothy 3:16, ESV), or it was raised glorious (1 Corinthians 15:43) and
+the glory was held back through forty days of "many proofs" (Acts 1:3, ESV), as it once shone
+through the same body at the transfiguration (Matthew 17:2). Revelation 1 is a vision in symbols
+and cannot settle it. [At Home with the Lord](at-home-with-the-lord.md#the-body-god-has-promised)
+leans to the first. Either way, the pattern for your body is Christ as He is now: "we shall be like
+him, because we shall see him as he is" (1 John 3:2, ESV).
 
 ## Four contrasts
 

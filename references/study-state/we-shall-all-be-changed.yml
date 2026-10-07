@@ -166,3 +166,15 @@ resources_consulted:
   - {type: other, title: "LSB footnotes", author: "Three Sixteen", note: "15:42 literal 'in corruption / in incorruption'."}
   - {type: lexicon, title: "Macula Greek SBLGNT / Macula Hebrew WLC / LXX lemmas", author: "Clear Bible", note: "counts and lemmas above; LXX Gen 2:7 and Hos 13:14 lemmas."}
 last_updated: "2026-09-28"
+
+revision_2026-10-07:
+  by: "agent, at the author's question (is the forty-day body the 'glorious body'?)"
+  added: >-
+    New subsection "After the ascension" (with "In the forty days" heading added above the Luke/John material): the forty days show the risen body before the
+    ascension; afterwards Acts 26:13 (Paul, counted in 1 Cor 15:8) and Rev 1:16 show a glory
+    those days never did; ESV SB on Luke 24:26 ("at his resurrection and then more fully at his
+    ascension"). Contested: further glorified at the ascension (1 Tim 3:16) vs raised
+    glorious with glory veiled for the proofs (1 Cor 15:43; Acts 1:3; Matt 17:2). Rev 1 marked as
+    symbolic vision (ESV SB, NIV BTSB on 1:14). Points to at-home-with-the-lord, which already reads
+    the ascension as a threshold. Plate panel relabelled "Jesus' risen body in the forty days".
+  evidence_checked: "All ESV quotations re-queried 2026-10-07 from esv-study-bible: Acts 26:13; Rev 1:16; 1 Tim 3:16; 1 Cor 15:43; Acts 1:3; 1 John 3:2; Phil 3:21."
