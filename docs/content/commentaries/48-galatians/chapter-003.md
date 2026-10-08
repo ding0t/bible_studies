@@ -18,4 +18,5 @@ draft: false
 - [Pride](../../sin/pride.md) — 3:3
 - [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 3:17
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 3:16
+- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 3:17
 <!-- commentary-index:auto-end -->

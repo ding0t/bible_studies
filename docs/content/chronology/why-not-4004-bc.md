@@ -5,7 +5,7 @@ description: "Archbishop Ussher's creation date was printed in Bible margins for
 tags: ["archaeology", "method/archaeology", "1-kings", "2-kings", "lang/hebrew"]
 draft: false
 primary_passage: "1 Kings 15:25-28"
-bible_references: ["1 Kings 6:1", "1 Kings 14:20-21", "1 Kings 15:1-2", "1 Kings 15:9-10", "1 Kings 15:33", "1 Kings 16:8-10", "1 Kings 16:23", "1 Kings 16:29", "1 Kings 22:41-42", "1 Kings 22:51", "2 Kings 3:1", "2 Kings 1:17", "2 Kings 8:17", "2 Kings 8:25-26", "2 Kings 9:24-27", "2 Kings 15:5", "2 Kings 25:27", "Psalm 119:160", "Galatians 4:4"]
+bible_references: ["1 Kings 6:1", "1 Kings 14:20-21", "1 Kings 15:1-2", "1 Kings 15:9-10", "1 Kings 15:33", "1 Kings 16:8-10", "1 Kings 16:23", "1 Kings 16:29", "1 Kings 22:41-42", "1 Kings 22:51", "2 Kings 3:1", "2 Kings 1:17", "2 Kings 8:17", "2 Kings 8:25-26", "2 Kings 9:24-27", "2 Kings 15:5", "2 Kings 25:27", "Genesis 15:13-16", "Genesis 46:11", "Exodus 1:7", "Exodus 1:12", "Exodus 6:16-20", "Exodus 7:7", "Exodus 12:40-41", "Numbers 26:59", "Acts 7:6", "Galatians 3:17", "Psalm 119:160", "Galatians 4:4"]
 date_created: 2026-10-08
 date_modified: 2026-10-08
 ai_provider_models:
@@ -64,6 +64,19 @@ Your Son Jesus. Thank You that the sum of Your word is truth, even where my sums
 Teach me to read what You gave the way You gave it, without bending it to my habits, and to trust
 You where I cannot yet count. In Jesus' name. Amen.
 
+## Study outline
+
+- **[Ussher's method](#what-ussher-did).** [His three steps](#what-ussher-did) back from Babylon,
+  and [the two that still stand](#two-of-his-three-steps-still-stand).
+- **[Where the years came from](#scripture-counts-the-same-years-twice).** How Kings counts a
+  reign, Ussher's 424 years against Thiele's 380, and [the Assyrian check](#the-assyrian-check).
+- **[Who else says so](#others-have-reached-the-same-answer).** Rodger Young's 2018 correction of
+  Ussher, and those who still defend 4004 BC.
+- **[What stays open](#what-is-still-contested).** Thiele's loose ends, the 480 years, the
+  Septuagint's 440, and [how long Israel was in Egypt](#how-long-was-israel-in-egypt).
+- **[What changed](#what-moved-when-the-site-corrected-it).** The dates that moved, and
+  [what the correction shows about God's word](#the-sum-of-your-word-is-truth).
+
 ## What Ussher did
 
 Ussher worked backward from a date he could fix outside the Bible. Second Kings ends with
@@ -88,7 +101,9 @@ them for part of the text.
 
 **Step 3 is this site's own count.** The Masoretic chain from Adam to the Exodus gives AM 2513
 here too, and [Genealogy and Times](genealogy-times.md) works through why the site follows the
-Masoretic numbers. **The starting date stands as well**: 562 BC is still the accepted year of
+Masoretic numbers. It takes one contested fork, the length of Israel's stay in Egypt, which
+[How long was Israel in Egypt?](#how-long-was-israel-in-egypt) sets out below. **The starting date
+stands as well**: 562 BC is still the accepted year of
 Amel-Marduk's accession.
 
 Step 2 depends on reading 1 Kings 6:1's 480 years as elapsed years. That is contested (see below),
@@ -200,6 +215,29 @@ edition 1983). Its fixed points carry the kings back to Solomon's fourth year at
 synchronisms Kings gives fit Assyria's independent record once they are counted the way Kings
 counts them.
 
+## Others have reached the same answer
+
+Rodger Young, who has carried Thiele's work forward with Leslie McFall, followed Ussher step by step
+in "Ussher Explained and Corrected" (*Bible and Spade* 31.2, 2018). He reaches this study's verdict
+by the same route. He accepts Ussher's count from Adam to the Exodus, AM 2513. He notes that
+Ussher's BC dates "are measured upward from the chronology of the divided kingdom," so an error
+there moves every date above it. He puts the start of the temple in spring 967 BC, "45 years later
+than Ussher's date". And he explains the gap by the Nadab pattern: Israel's scribes counted a new
+king's first part-year twice, a method Valerius Coucke identified in the 1920s and Thiele found
+independently.
+
+Young's 967 BC and this site's 966 differ by a year, and so do his 479 elapsed years and this
+site's 480. The two differences cancel, and both put the Exodus in 1446 BC. Young prints no creation
+date, but his figures with Ussher's AM 2513 give 3959 BC, the date this site uses. He closes by
+asking Ussher's defenders "to accept these corrections to his otherwise magnificent work."
+
+Not all of them have. Floyd Nolen Jones's *Chronology of the Old Testament* keeps 4004 BC, though
+Young notes that Jones already follows Thiele in telling accession-year counting from
+non-accession counting. Danny Faulkner of Answers in Genesis doubts Ussher's exact day and holds
+that "Ussher's approximate date of creation still is 4000 BC". He names "regnal dating of monarchs"
+and a longer sojourn in Egypt as open questions (*Answers Research Journal* 9, 2016). Outside specialist work on the kings, 4004 BC is still
+widely taken as "the" Bible date, which is the confusion Lloyd's margins began.
+
 ## What is still contested
 
 Three questions remain open, and none of them brings back 1012 BC.
@@ -217,7 +255,52 @@ Three questions remain open, and none of them brings back 1012 BC.
   year". This site follows the Masoretic 480.
 
 Each of these bears on the Exodus and creation dates. None bears on the temple, which the Assyrian
-record fixes on its own.
+record fixes on its own. A fourth question sits inside step 3, the part of Ussher's chain this site
+shares, and it moves creation further than any of them.
+
+## How long was Israel in Egypt?
+
+Exodus gives the stay as 430 years, and the ancient texts attach that number to different things.
+
+> ✝️ Exodus 12:40 (ESV)
+>
+> 40 The time that the people of Israel lived in Egypt was 430 years.
+
+The Septuagint reads "in the land of Egypt and in the land of Canaan". The Samaritan Pentateuch
+reads "the dwelling of the sons of Israel and their fathers" in "the land of Canaan and the land of
+Egypt". Paul counts the 430 years from the promise to Abraham: "the law, which came 430 years
+afterward" (Galatians 3:17, ESV). Josephus gives 430 years from Abraham's arrival in Canaan and 215
+from Jacob's move to Egypt (*Antiquities* 2.15.2). On that reading Israel was in Egypt 215 years.
+This is the **short sojourn**, taken by Ussher and by this site. The **long sojourn** reads the
+Hebrew of Exodus 12:40 as 430 years in Egypt itself, and Genesis 15:13 and Acts 7:6 speak of four
+hundred years of affliction in a land not theirs.
+
+Two kinds of evidence pull opposite ways.
+
+- **The family line favours the short stay.** Kohath went down to Egypt with his father Levi
+  (Genesis 46:11). Kohath lived 133 years, his son Amram 137, and Amram's son Moses was 80 at the
+  Exodus (Exodus 6:18, 20; 7:7). Even if each son was born in his father's last year, that allows
+  at most 350 years from the move to Egypt to the Exodus. Moses' mother was "Jochebed the daughter
+  of Levi, who was born to Levi in Egypt" (Numbers 26:59, ESV). A 430-year stay needs this line to
+  skip generations, as [Four Hundred and Eighty Years](four-hundred-and-eighty-years.md) shows
+  Ruth's and Ezra's lists do.
+- **Population favours the long stay.** [What World Population
+  Declares](../god/world-population-declares-gods-creation-and-biblical-truth.md#the-rate-the-census-implies)
+  works out the growth from seventy people to the two million or so implied by the census of
+  Numbers 1:46. Over 430 years that takes 2.39% a year, the population doubling every 29 years.
+  Over 215 years it takes 4.77% a year, a doubling every 15 years. Read the census as clans or
+  military units, as some do, and seventy reaching 20,000 in 215 years takes 2.63% a year. Exodus
+  presents the growth as extraordinary in itself: Israel "multiplied and grew exceedingly strong"
+  (Exodus 1:7, ESV), and "the more they were oppressed, the more they multiplied" (Exodus 1:12,
+  ESV).
+
+Population makes the short stay harder without ruling it out, and the family line does the same to
+the long stay. This site follows the short sojourn because two of the three ancient texts state it
+outright and Paul counts that way. It remains contested.
+
+The choice moves dates more than anything else in this study. On the long sojourn the Exodus falls
+in AM 2728, Abram is born in 2166 BC, and creation moves to 4174 BC, which puts the six-thousandth
+year in AD 1827.
 
 ## What moved when the site corrected it
 
@@ -268,6 +351,8 @@ own way.
 4. The correction came from an Assyrian eclipse record kept by scribes who served other gods. What do you make of God's providence running through a record like that?
 5. Where in your own reading of Scripture have you been adding up the numbers your way rather than
    the writer's?
+6. Moses' family line points to a short stay in Egypt, and Israel's growth points to a long one.
+   How do you hold a question Scripture leaves open without forcing an answer?
 
 ## References & Recommended Reading
 
@@ -280,6 +365,20 @@ own way.
   the 763 BC eclipse, Ahab at Qarqar and Jehu's tribute. Fuller treatment in
   [Chronology Anchors](chronology-anchors.md) and [Prophecy: Events and
   Times](../last-things/prophecy-events-times.md).
+- **Rodger C. Young, "Ussher Explained and Corrected"**, *Bible and Spade* 31.2 (2018), from p. 47,
+  Associates for Biblical Research ([PDF](https://rcyoung.org/articles/ussher.pdf)) — Ussher's
+  method followed step by step, and the correction through the divided kingdom.
+- **Floyd Nolen Jones, *Chronology of the Old Testament: A Return to the Basics*** — a modern
+  defence of 4004 BC that updates Ussher's *Annals*.
+- **Danny R. Faulkner, "Comments on Ussher's Date of Creation"**, *Answers Research Journal* 9
+  (2016) ([online](https://answersresearchjournal.org/comments-usshers-date-of-creation/)) — names
+  the long sojourn as able to "move the creation date back to 4200 BC".
+- **Flavius Josephus, *Antiquities of the Jews*** 2.15.2 — 215 years from Jacob's move to Egypt to
+  the Exodus.
+- **Septuagint** (Brenton) and **Samaritan Pentateuch**, Exodus 12:40, checked in `bible-text.db`;
+  the *CSB Ancient Faith Study Bible* footnote there records the variant.
+- [What World Population Declares](../god/world-population-declares-gods-creation-and-biblical-truth.md)
+  — the growth rates each length of stay requires.
 - **Dunham Bible Museum, "KJV @400"** — the 1701 marginal dates under William Lloyd.
 - ***ESV Study Bible*** (Crossway) and ***NIV Biblical Theology Study Bible*** (Zondervan), notes
   on 1 Kings 6:1 — the early and late Exodus readings.

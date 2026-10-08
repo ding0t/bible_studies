@@ -22,4 +22,5 @@ draft: false
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 12:11
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 12:2
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 12:37-41
+- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 12:40-41
 <!-- commentary-index:auto-end -->

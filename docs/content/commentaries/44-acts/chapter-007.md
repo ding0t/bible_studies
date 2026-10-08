@@ -20,4 +20,5 @@ draft: false
 - [The Heavenly Pattern](../../jesus/the-heavenly-pattern/index.md) — 7:44
 - [The Rapture of the Church](../../last-things/rapture.md) — 7:5
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 7:14
+- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 7:6
 <!-- commentary-index:auto-end -->

@@ -133,3 +133,25 @@ review_2026-10-08:
     - "prophecy-events-times.md:169 'simply summed ... without correcting for co-regencies' (already in open_questions)."
   validate: "npm run validate: no errors or warnings for this file."
   word_count: "approx 2,830 of 4,000 budget after fixes (+~75 net)."
+additions_2026-10-08:
+  notes: >
+    Added "Others have reached the same answer" (Rodger C. Young, "Ussher Explained and Corrected",
+    Bible and Spade 31.2, 2018: accepts AM 2513, temple spring 967 BC "45 years later than
+    Ussher's date", Coucke/Thiele non-accession reckoning, closing appeal quoted; read from the
+    rcyoung.org PDF) with Jones (4004 BC defended) and Faulkner (ARJ 9, 2016, quotations verified
+    against the page). Added "How long was Israel in Egypt?": ESV Exodus 12:40, Galatians 3:17,
+    Numbers 26:59, Exodus 1:7, 1:12 verified in study-notes.db; LXX (Brenton Greek) and SP text of
+    Exodus 12:40 checked in bible-text.db; CSB Ancient Faith footnote "LXX, Sam add and in
+    Canaan". Kohath 133 + Amram 137 + Moses 80 = at most 350 years (Exodus 6:18, 20; 7:7).
+    Growth rates from world-population study (2.39%/yr over 430, 4.77%/yr over 215); 2.63%/yr
+    for 70 -> 20,000 in 215 years computed here, ln(285.7)/215. Long sojourn: Exodus AM 2728,
+    Abram 2166 BC, creation 4174 BC, AM 6000 in AD 1827. Josephus Antiquities 2.15.2 (215 years)
+    cited from the standard Whiston numbering; Josephus is not in this repo's sources, so it was
+    not re-checked here. Combined Timeline's "figures none of the traditions dispute" corrected.
+open_questions_2026-10-08:
+  - >
+    world-population-declares-gods-creation-and-biblical-truth.md leads with the 430-year (long)
+    sojourn ("four centuries earlier", headline rate 2.39%/yr) while the site's chronology uses
+    the short sojourn (215 years). Its own caveat names the dispute; whether it should lead with
+    the site's reading is the author's call.
+

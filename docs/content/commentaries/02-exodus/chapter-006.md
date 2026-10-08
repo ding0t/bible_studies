@@ -14,4 +14,5 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 6:6-7
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 6:7
+- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 6:16-20
 <!-- commentary-index:auto-end -->
