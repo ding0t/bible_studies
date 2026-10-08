@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1059" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1076" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
 <title id="t">Two ways to make a sulphur ball</title>
 <desc id="d">Two cross-sections of the same ground beside the Dead Sea: Lisan marl, the old lake bed, with a gypsum bed inside it and gravel below; an Early Bronze Age town on top with its burn layer; and the ground falling away to the lake. Left, if the sulphur fell from heaven (Genesis 19:24): burning balls fall on the town and lie in its burn layer, and a ball that falls into the lake floats, is put out, and drifts to the shore of Abraham's day, as a burning ball did when Joel Kramer dropped one into the Dead Sea. Right, if bacteria grew it: rust-rimmed nodules sit inside the gypsum bed, and some have washed out onto the slope as the marl erodes. Both panels are dashed as proposals. A table gives the two tests: the layer each ball lies in, and its sulphur isotopes, where bacterial sulphur is 27–29 parts per thousand lighter than the gypsum around it. A third row lists what fits both: found only below the old waterline, burns blue, plentiful where the marl erodes. Cards record the balls' size, about 50 to 70 mm, and that 2 nodules from one bed at Masada are all that has been analysed. The plate closes with Genesis 19:24.</desc>
-<rect width="720" height="1059" fill="#faf6ec"/>
-<rect x="8" y="8" width="704" height="1043" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
-<rect x="14" y="14" width="692" height="1031" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<rect width="720" height="1076" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1060" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1048" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
 <defs><linearGradient id="skyfire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3c9a0"/><stop offset="1" stop-color="#e9eef3"/></linearGradient><linearGradient id="skycalm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9eef3"/><stop offset="1" stop-color="#faf6ec"/></linearGradient></defs>
 <text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">TWO WAYS TO MAKE A SULPHUR BALL</text>
 <text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">and the two tests that tell them apart (Genesis 19:24)</text>
@@ -221,42 +221,43 @@
 <rect x="40" y="568" width="640" height="24" fill="#3b2f1e"/>
 <text x="178.0" y="585.0" font-size="13" fill="#faf6ec" font-weight="bold">If it fell</text>
 <text x="433.0" y="585.0" font-size="13" fill="#faf6ec" font-weight="bold">If bacteria grew it</text>
-<rect x="40" y="592" width="640" height="69" fill="#fffdf7" stroke="#3b2f1e" stroke-width="0.8"/>
+<rect x="40" y="592" width="640" height="86" fill="#fffdf7" stroke="#3b2f1e" stroke-width="0.8"/>
 <text x="48.0" y="612.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Where it lies</text>
 <text x="178.0" y="612.0" font-size="13.5" fill="#3b2f1e">On the cities, in the burn</text>
-<text x="178.0" y="629.0" font-size="13.5" fill="#3b2f1e">layer, or along the shore</text>
-<text x="178.0" y="646.0" font-size="13.5" fill="#3b2f1e">of Abraham's day</text>
+<text x="178.0" y="629.0" font-size="13.5" fill="#3b2f1e">layer, or in lake sediment of</text>
+<text x="178.0" y="646.0" font-size="13.5" fill="#3b2f1e">Abraham's day, washed ashore</text>
+<text x="178.0" y="663.0" font-size="13.5" fill="#3b2f1e">or sunk; much now dry ground</text>
 <text x="433.0" y="612.0" font-size="13.5" fill="#3b2f1e">Inside the Lisan gypsum,</text>
 <text x="433.0" y="629.0" font-size="13.5" fill="#3b2f1e">or on slopes below it</text>
 <text x="433.0" y="646.0" font-size="13.5" fill="#3b2f1e">where the marl has eroded</text>
-<rect x="40" y="661" width="640" height="69" fill="#fffdf7" stroke="#3b2f1e" stroke-width="0.8"/>
-<text x="48.0" y="681.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Its isotopes</text>
-<text x="178.0" y="681.0" font-size="13.5" fill="#3b2f1e">No fixed relation to the</text>
-<text x="178.0" y="698.0" font-size="13.5" fill="#3b2f1e">gypsum around it</text>
-<text x="433.0" y="681.0" font-size="13.5" fill="#3b2f1e">27–29 parts per thousand</text>
-<text x="433.0" y="698.0" font-size="13.5" fill="#3b2f1e">lighter than its gypsum</text>
-<text x="433.0" y="715.0" font-size="13.5" fill="#3b2f1e">(measured at Masada)</text>
-<rect x="40.0" y="734.0" width="640.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
-<text x="48.0" y="752.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">Fits both, so it decides nothing</text>
-<text x="48.0" y="769.5" font-size="13.5" fill="#3b2f1e">Found only below the old waterline (the Lisan beds are the old lake floor).</text>
-<text x="48.0" y="786.5" font-size="13.5" fill="#3b2f1e">Burns with a blue flame (any sulphur does). Plentiful where the marl erodes.</text>
-<rect x="40.0" y="814.0" width="312.0" height="95" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
-<text x="48.0" y="832.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">The balls</text>
-<text x="48.0" y="849.5" font-size="13.5" fill="#3b2f1e">Kramer's burn about 50–70 mm</text>
-<text x="48.0" y="866.5" font-size="13.5" fill="#3b2f1e">across: golf ball to tennis</text>
-<text x="48.0" y="883.5" font-size="13.5" fill="#3b2f1e">ball. In the ground “all over</text>
-<text x="48.0" y="900.5" font-size="13.5" fill="#3b2f1e">the place … literally millions”.</text>
-<rect x="368.0" y="814.0" width="312.0" height="95" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
-<text x="376.0" y="832.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">What has been tested</text>
-<text x="376.0" y="849.5" font-size="13.5" fill="#3b2f1e">2 nodules, one gypsum bed,</text>
-<text x="376.0" y="866.5" font-size="13.5" fill="#3b2f1e">Masada (Bishop, Turchyn and</text>
-<text x="376.0" y="883.5" font-size="13.5" fill="#3b2f1e">Sivan, 2013). No analysis of</text>
-<text x="376.0" y="900.5" font-size="13.5" fill="#3b2f1e">Kramer's balls is published.</text>
-<rect x="160" y="931" width="34" height="18" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
-<text x="202.0" y="945.0" font-size="12.5" fill="#3b2f1e">measured or stated</text>
-<rect x="370" y="931" width="34" height="18" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
-<text x="412.0" y="945.0" font-size="12.5" fill="#3b2f1e">proposed, or not decisive</text>
-<text x="360.0" y="981.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">“the LORD rained on Sodom and Gomorrah sulfur and fire</text>
-<text x="360.0" y="1002.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">from the LORD out of heaven” (Genesis 19:24, ESV)</text>
-<text x="696.0" y="1037.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+<rect x="40" y="678" width="640" height="69" fill="#fffdf7" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="48.0" y="698.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Its isotopes</text>
+<text x="178.0" y="698.0" font-size="13.5" fill="#3b2f1e">No fixed relation to the</text>
+<text x="178.0" y="715.0" font-size="13.5" fill="#3b2f1e">gypsum around it</text>
+<text x="433.0" y="698.0" font-size="13.5" fill="#3b2f1e">27–29 parts per thousand</text>
+<text x="433.0" y="715.0" font-size="13.5" fill="#3b2f1e">lighter than its gypsum</text>
+<text x="433.0" y="732.0" font-size="13.5" fill="#3b2f1e">(measured at Masada)</text>
+<rect x="40.0" y="751.0" width="640.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="48.0" y="769.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">Fits both, so it decides nothing</text>
+<text x="48.0" y="786.5" font-size="13.5" fill="#3b2f1e">Found only below the old waterline (the Lisan beds are the old lake floor).</text>
+<text x="48.0" y="803.5" font-size="13.5" fill="#3b2f1e">Burns with a blue flame (any sulphur does). Plentiful where the marl erodes.</text>
+<rect x="40.0" y="831.0" width="312.0" height="95" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="48.0" y="849.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">The balls</text>
+<text x="48.0" y="866.5" font-size="13.5" fill="#3b2f1e">Kramer's burn about 50–70 mm</text>
+<text x="48.0" y="883.5" font-size="13.5" fill="#3b2f1e">across: golf ball to tennis</text>
+<text x="48.0" y="900.5" font-size="13.5" fill="#3b2f1e">ball. In the ground “all over</text>
+<text x="48.0" y="917.5" font-size="13.5" fill="#3b2f1e">the place … literally millions”.</text>
+<rect x="368.0" y="831.0" width="312.0" height="95" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="376.0" y="849.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">What has been tested</text>
+<text x="376.0" y="866.5" font-size="13.5" fill="#3b2f1e">2 nodules, one gypsum bed,</text>
+<text x="376.0" y="883.5" font-size="13.5" fill="#3b2f1e">Masada (Bishop, Turchyn and</text>
+<text x="376.0" y="900.5" font-size="13.5" fill="#3b2f1e">Sivan, 2013). No analysis of</text>
+<text x="376.0" y="917.5" font-size="13.5" fill="#3b2f1e">Kramer's balls is published.</text>
+<rect x="160" y="948" width="34" height="18" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="202.0" y="962.0" font-size="12.5" fill="#3b2f1e">measured or stated</text>
+<rect x="370" y="948" width="34" height="18" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="412.0" y="962.0" font-size="12.5" fill="#3b2f1e">proposed, or not decisive</text>
+<text x="360.0" y="998.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">“the LORD rained on Sodom and Gomorrah sulfur and fire</text>
+<text x="360.0" y="1019.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">from the LORD out of heaven” (Genesis 19:24, ESV)</text>
+<text x="696.0" y="1054.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
 </svg>

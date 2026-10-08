@@ -337,7 +337,8 @@ def sulphur_balls():
     py = 186
     table_y = py + PH + 40
     rows = [
-        ("Where it lies", ["On the cities, in the burn", "layer, or along the shore", "of Abraham's day"],
+        ("Where it lies", ["On the cities, in the burn", "layer, or in lake sediment of",
+                           "Abraham's day, washed ashore", "or sunk; much now dry ground"],
          ["Inside the Lisan gypsum,", "or on slopes below it", "where the marl has eroded"]),
         ("Its isotopes", ["No fixed relation to the", "gypsum around it"],
          [f"{ISOTOPE_GAP} parts per thousand", "lighter than its gypsum", "(measured at Masada)"]),

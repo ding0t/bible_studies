@@ -424,8 +424,11 @@ because hard nodules are left lying on the surface as the marl washes away from 
 [![Two cross-sections of the same ground beside the Dead Sea: Lisan marl, the old lake bed, with a gypsum bed inside it and gravel below, an Early Bronze Age town on top with its burn layer, and the ground falling away to the lake. Left, if the sulphur fell from heaven: burning balls fall on the town and lie in its burn layer, and a ball that falls into the lake floats, goes out, and drifts to the shore of Abraham's day. Right, if bacteria grew it: rust-rimmed nodules sit inside the gypsum bed, and some have washed out onto the slope. A table gives the two tests, the layer each ball lies in and its sulphur isotopes, and a dashed card lists what fits both. Cards record the balls' size, about 50 to 70 mm, and that two nodules from one bed at Masada are all that has been analysed. The plate closes with Genesis 19:24.](../assets/img/cities-of-the-plain/sulphur-balls-two-tests.svg)](../assets/img/cities-of-the-plain/sulphur-balls-two-tests.svg)
 
 Two tests would settle it. The first is the layer. Sulphur that fell on the cities and was put out
-lies on them and in their burn layers, or along the shore of Abraham's day. Sulphur grown by
-bacteria lies inside the far older Lisan gypsum, or on the slope below it where the marl has eroded.
+lies on them and in their burn layers, or in lake sediment of Abraham's day: washed up on its shore if
+it floated, or on its floor if it sank. Much of that old shore and floor is dry ground now, since the
+sea has fallen more than 40 metres since the 1960s alone, so either way the balls end up near today's
+shoreline. Sulphur grown by bacteria lies inside the far older Lisan gypsum, or on the slope below it
+where the marl has eroded.
 The second is the isotopes. A ball grown from the gypsum around it carries the gap of 27 to 29 parts
 per thousand; sulphur that came from elsewhere carries its source's value, with no fixed relation to
 the gypsum it lies in. Both tests are routine. No published analysis of Kramer's balls was found for
