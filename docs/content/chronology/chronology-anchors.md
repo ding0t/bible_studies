@@ -463,5 +463,8 @@ Sabbatical and jubilee cycles are used on this page only where Scripture attache
 - **1 Maccabees** — 1:54, 1:59, 4:52-59 (the desecration and rededication dates) and 1 Maccabees 6:49, 53 (the sabbatical year at Beth-zur). Not in `bible-text.db`; every date cited here was checked against the KJV Apocrypha text in this repo's deuterocanonical source (`references/open-data/scrollmapper-bible-databases-deuterocanonical`).
 - **Josephus, *Antiquities*** 13.234 and 14.475 — the two later attested sabbatical years; 15.380 for Herod's temple works.
 - **Ben Zion Wacholder** and **Benedict Zuckermann** — the two competing reconstructions of the sabbatical cycle, differing by one year.
+- [The Prophetic Timeline](/timeline/#kingdom-exile) — every row of the anchor table plotted, with
+  [the years Jesus was on earth](/timeline/#christ) and [Passion week](/timeline/#passion-week)
+  in their own views.
 - [Genealogy and Times](genealogy-times.md) — the elastic zone before Abraham, and the manuscript variants.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) — the 364-day calendar these Zadok years are counted in.

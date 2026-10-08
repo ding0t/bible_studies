@@ -253,8 +253,8 @@ On the Hebrew numbers the Flood falls in AM 1656: 2303 BC on this site's anchor 
 ### Why this site follows the Masoretic numbers
 
 **On 2026-09-28 this site adopted the Masoretic Text for every number in Genesis 5 and 11, Terah
-included, as its working chronology.** The timeline, the genealogy viewer and every published year of
-the world now follow it. The reasons, with their confidence:
+included, as its working chronology.** The [timeline](/timeline/#creation-flood), its family tree
+and every published year of the world now follow it. The reasons, with their confidence:
 
 - **Scripture's own test (settled).** Genesis 7:23 and 1 Peter 3:20 leave no one alive after the
   Flood outside the ark. The Septuagint as printed keeps Methuselah alive fourteen years past it.
@@ -423,3 +423,5 @@ text has not been changed.
 - ***NIV Cultural Backgrounds Study Bible*** (Zondervan), note on Genesis 11:1.
 - [Genealogy and Times](genealogy-times.md) — the manuscript tables, the Cainan
   question and the Methuselah arithmetic this study relies on.
+- [The Prophetic Timeline](/timeline/#creation-flood) — the Flood on this line, with the
+  Septuagint and Samaritan readings switchable for comparison.

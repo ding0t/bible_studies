@@ -439,7 +439,10 @@ Years](four-hundred-and-eighty-years.md).
   Second Temple textual environment these traditions come from
 - [The Zadok Calendar](../feasts/zadok-calendar.md), [The Day is Near](../last-things/day-is-near.md), and
   [Prophecy Events and Times](../last-things/prophecy-events-times.md) — this site's other chronology studies,
-  including the still-open creation-epoch discrepancy noted above
+  including the dsscalendar.org epoch The Day is Near used until 2026-10-01 (noted above)
+- [The Prophetic Timeline](/timeline/#creation-flood) — these years plotted from creation to the
+  Flood, with a row for each person; its [Family tree view](/timeline/#view=family) shows the same
+  people by descent
 - `docs/data/genealogy/index.json`, `antediluvian.json`, `patriarchal.json` — the structured
   source data this study explains
 - `references/build/genealogy_chronology.py` — the validator/generator computing the table

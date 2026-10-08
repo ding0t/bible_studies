@@ -82,7 +82,9 @@ You where I cannot yet count. In Jesus' name. Amen.
 Ussher worked backward from a date he could fix outside the Bible. Second Kings ends with
 Jehoiachin released from prison by "Evil-merodach king of Babylon, in the year that he began to
 reign" (2 Kings 25:27, ESV). Babylonian, Greek and Roman sources put that accession, Amel-Marduk's,
-in 562 BC. From there Ussher had three steps to take:
+in 562 BC. The release itself came in the twelfth month of that year (2 Kings 25:27), early in
+561 BC, which is where the [timeline](/timeline/#kingdom-exile) marks it. From there Ussher had
+three steps to take:
 
 1. **The kings, from the exile back to the temple.** He added up the reign lengths of the kings of
    Judah and reached the fourth year of Solomon at 1012 BC.
@@ -181,10 +183,20 @@ separate house. And Jotham the king's son was over the household, governing the 
 
 Ussher knew this. Added straight through, the kings of Judah from the temple to the fall of
 Jerusalem total about 430 years. He allowed for a few overlapping reigns and brought it down to
-424, from 1012 to 588 BC. Thiele's reconstruction gives 380, from 966 to 586 BC, so forty-four of
-Ussher's years are overlaps and part-years that he still counted as elapsed time. The other two of
-the forty-six sit at the far end, where Ussher put Jerusalem's fall in 588 BC and the
-reconstruction puts it in 586.
+424, from 1012 to 588 BC. Thiele's reconstruction gives 380, from 966 to 586 BC, and both ends of
+that span are rows in this site's [anchor table](chronology-anchors.md#the-anchor-table).
+
+- **586 BC, Jerusalem falls (row 12, Fixed).** The temple burned in Nebuchadnezzar's nineteenth
+  year (2 Kings 25:8), and [the Babylonian Chronicle and the astronomical tablet VAT
+  4956](chronology-anchors.md#nebuchadnezzars-years-the-chronicle-and-vat-4956-fix) put that year
+  at 587/586 BC.
+- **966 BC, the temple begun (row 1, Anchored, ±5).** Kings reaches it through the reigns, and
+  [Tyre's king list](chronology-anchors.md#tyres-king-list-solomons-temple-from-a-second-direction-check)
+  reaches 968 or 967 BC by a route through Phoenicia that never touches the kings of Judah.
+
+Forty-four of Ussher's years, then, are overlaps and part-years that he still counted as elapsed
+time. The other two of the forty-six sit at the far end, where Ussher put Jerusalem's fall in
+588 BC, two years before the date the Babylonian records fix.
 
 ## The Assyrian check
 
@@ -192,9 +204,11 @@ Ussher had no outside record of the kings to test his total against. Assyrian cu
 deciphered only in the 1850s, two centuries after he wrote.
 
 The Assyrians named each year after an official, the eponym, and kept the list. One entry, in the
-eponymy of Bur-Sagale, records a solar eclipse. Astronomers can date it to 15 June 763 BC, and that
-one fixed point turns the whole list into a calendar of known years. Two of its kings then meet
-Israel's:
+eponymy of Bur-Sagale, records a solar eclipse. Astronomers can date it to [15 June 763
+BC](chronology-anchors.md#the-bur-sagale-eclipse), and that one fixed point turns the whole list
+into a calendar of known years. Two of its kings then meet Israel's, rows 5 and 6 of the anchor
+table ([both monuments are pictured
+there](chronology-anchors.md#qarqar-and-jehu-the-assyrian-synchronisms-fix)):
 
 - **853 BC.** Shalmaneser III's Kurkh Monolith lists "Ahab the Israelite" among the kings who
   fought him at Qarqar. Ahab is alive in 853.
@@ -385,5 +399,7 @@ own way.
 - [Genealogy and Times](genealogy-times.md) and [The Combined
   Timeline](combined-timeline.md) — the count from Adam to the Exodus, and the whole line in one
   view.
+- [The Prophetic Timeline](/timeline/#kingdom-exile) — the kings, the Assyrian synchronisms and
+  the exile plotted on the corrected line.
 - **ESV Bible** (Crossway) — all scripture verified against `study-notes.db`; the Septuagint
   reading of 1 Kings 6:1 checked against `bible-text.db`.

@@ -24,7 +24,11 @@ the Masoretic numbers of Genesis 5 and 11, pinned to the Gregorian calendar by a
 which puts creation at 3959 BC, the Flood at 2303 BC, the cross at AM 3991 and the year 6000 at
 AD 2042. Archaeology (Qarqar, Sennacherib, Cyrus and others) fixes the Gregorian years below
 Solomon independently of the genealogies. [Chronology Anchors](chronology/chronology-anchors.md)
-sets out what can be dated and how tightly, and why the site anchors where it does.
+sets out what can be dated and how tightly, and why the site anchors where it does. [Four Hundred
+and Eighty Years](chronology/four-hundred-and-eighty-years.md) counts back from the temple to the
+Exodus, and [Why Not 4004 BC?](chronology/why-not-4004-bc.md) explains why this line sits
+forty-five years after Ussher's. Every study behind these dates is in
+[Chronology](chronology/index.md).
 
 Pick a period to zoom in (from Creation to the Flood down to the years Jesus was on earth) or type
 any range of years, and the list under the chart shows every event in view. AD 33 can be followed

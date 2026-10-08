@@ -157,6 +157,7 @@ The manuscript question and the epoch are independent. Nothing about choosing a 
 
 ## References & Recommended Reading
 
+- [The Prophetic Timeline](/timeline/) — this line drawn as a chart, with the Septuagint and Samaritan readings switchable for comparison.
 - [Genealogy and Times](genealogy-times.md) — the manuscript evidence for the elastic zone, and the three timeline variants.
 - [Chronology Anchors](chronology-anchors.md) — the forty-one datable events below Abraham, with tiers and error bars.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) — the calendar these Anno Mundi years are counted in, and the four epoch scenarios.
