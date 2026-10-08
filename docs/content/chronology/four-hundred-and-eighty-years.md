@@ -122,7 +122,12 @@ Saul's age, and "two years" for his whole reign is implausibly short given every
 elsewhere attributes to it. The traditional 40-year figure comes not from Samuel but from
 Acts 13:21 (ESV), where Paul states it plainly:
 God "gave them Saul... for forty years." So the 40 used here comes from Paul and fills a gap in the
-Hebrew manuscript tradition.
+Hebrew manuscript tradition. One verse earlier, the KJV has Paul give Israel judges
+"about the space of four hundred and fifty years" (Acts 13:20, KJV), which would leave no room
+for 480. That reading follows the later Greek manuscripts, which put the 450 years after "after that";
+the earlier ones, followed by the ESV, put it before, so the 450 years cover the stay in Egypt, the
+wilderness and the conquest: "All this took about 450 years. And after that he gave them judges
+until Samuel the prophet" (Acts 13:20, ESV).
 
 ## The text's own basis for overlap
 
@@ -200,7 +205,11 @@ evidence in the same way summing the numbers naively does.
 ## References & Recommended Reading
 
 - **ESV Bible** (Crossway) — 1 Kings 6:1, Judges 10:7-8, 15:20 and 21:25, Joshua 21:45 and
-  Acts 13:21 quoted from the ESV, verified against `study-notes.db`.
+  Acts 13:20-21 quoted from the ESV, verified against `study-notes.db`.
+- **King James Version** and **SBL Greek New Testament** (`bible-text.db`) — the KJV's
+  reading of Acts 13:20, and the transposition SBLGNT marks in that verse.
+- ***ESV Study Bible*** (Crossway), note on Acts 13:20 — the 450 years as Egypt, wilderness and
+  conquest.
 - **Hebrew text of 1 Samuel 13:1** (Westminster Leningrad Codex, via `bible-text.db`) — the
   missing numbers in Saul's regnal formula.
 - [Genealogy and Times](genealogy-times.md) — the parent study this one was forked from, covering

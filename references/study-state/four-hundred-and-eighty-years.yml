@@ -25,8 +25,10 @@ stages:
       sentence of the reviewed body changed. ESV quotations verified against study-notes.db:
       1 Kings 6:1, Judges 10:7-8, 15:20, 21:25, Joshua 21:45, Acts 13:21, Matthew 1:5-6, 1:17.
       Published, and linked from genealogy-times.md. Moved to chronology/ the same day.
-  open_questions:
-    - >
-      Acts 13:19-21 is in bible_references but only verse 21 is used. The ESV puts "about 450
-      years" over the stay in Egypt, the wilderness and the conquest (verse 20); the KJV puts it
-      over the judges. Worth a sentence, since a KJV reader will meet 450 years of judges.
+  acts_13_20_2026-10-08:
+    done: true
+    notes: >
+      Added after the Acts 13:21 paragraph: the KJV's "about the space of four hundred and fifty
+      years" of judges follows the later Greek order (TR: after "after that"); SBLGNT marks the
+      transposition and puts the 450 before it, as the ESV renders ("All this took about 450
+      years"). ESV Study Bible note on 13:20 reads it as Egypt + wilderness + conquest.
