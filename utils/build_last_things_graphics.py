@@ -2177,186 +2177,135 @@ def counting_back_from_babylon():
     assert s_exodus - s_temple == 480, "the site's Exodus no longer sits 480 years above its temple"
     assert u_creation - u_exodus == s_creation - s_exodus, "the two Genesis chains no longer match"
     chain = u_creation - u_exodus
-    flood, abram = genesis_am("flood"), genesis_am("abram_born")
+    scen = json.loads(GENEALOGY_INDEX.read_text(encoding="utf-8"))["chronology_scenarios"]["scenarios"]
+    u_6000, s_6000 = scen["ussher_published"]["year_6000_falls"], scen["a_prime"]["year_6000_falls"]
 
-    top_bc, k, y0 = 4030, 0.26, 214
-
-    def y(bc):
-        return y0 + (top_bc - bc) * k
-
-    ux0, ux1 = 150, 272        # Ussher's column
-    sx0, sx1 = 372, 494        # this site's column
-    gx0, gx1 = 596, 696        # the gap gauge: 0-50 years
-    gk = (gx1 - gx0) / 50
-    bottom = y(EVIL_MERODACH_BC)
-    h = int(bottom) + 368
-
-    events = [  # (label, Ussher BC, site BC, solid on the site's side?)
-        ("Creation", u_creation, s_creation, False),
-        ("The Flood", u_creation - flood, s_creation - flood, False),
-        ("Abram born", u_creation - abram, s_creation - abram, False),
-        ("The Exodus", u_exodus, s_exodus, False),
-        ("Temple begun", USSHER_TEMPLE_BC, s_temple, True),
-        ("Jerusalem falls", USSHER_FALL_BC, s_fall, True),
+    # The ladder, in the order Ussher worked: a node is a date, a link is the span counted to the next.
+    # Each node: (name, source, Ussher BC, site BC, Ussher's date fixed by an outside record?, site's?)
+    nodes = [
+        ("The anchor", ["Evil-merodach's accession", "2 Kings 25:27"], EVIL_MERODACH_BC, EVIL_MERODACH_BC, True, True),
+        ("Jerusalem falls", ["2 Kings 25:8-9"], USSHER_FALL_BC, s_fall, True, True),
+        ("Temple begun", ["Solomon's 4th year"], USSHER_TEMPLE_BC, s_temple, False, True),
+        ("The Exodus", [""], u_exodus, s_exodus, False, False),
+        ("Creation", [""], u_creation, s_creation, False, False),
     ]
-    gaps = [(lab, u - s, s) for lab, u, s, _ in events] + [("Evil-merodach", 0, EVIL_MERODACH_BC)]
+    # Each link: (step, name, source, Ussher's rows, site's rows, Ussher's fill, site's fill)
+    u_kings, s_kings = USSHER_TEMPLE_BC - USSHER_FALL_BC, s_temple - s_fall
+    links = [
+        (None, "The exile", "back to Jerusalem's fall", [f"{USSHER_FALL_BC - EVIL_MERODACH_BC} years"],
+         [f"{s_fall - EVIL_MERODACH_BC} years"], CARD, CARD),
+        ("1", "The kings of Judah", "reign lengths in Kings",
+         [f"{u_kings} years", f"{JUDAH_STRAIGHT_SUM} added up, less", f"{JUDAH_STRAIGHT_SUM - u_kings} for overlaps"],
+         [f"{s_kings} years", "Thiele, checked", "against Assyria"], RED_TINT, BLUE_TINT),
+        ("2", "“The 480th year”", "1 Kings 6:1", [f"{u_exodus - USSHER_TEMPLE_BC} years"],
+         [f"{s_exodus - s_temple} years"], GOLD_TINT, GOLD_TINT),
+        ("3", "Genesis 5 and 11", "Adam to the Exodus", [f"{chain:,} years"], [f"{chain:,} years"],
+         EARTH_TINT, EARTH_TINT),
+    ]
 
+    lx, ux, sx, gx = 28, 262, 432, 606       # left labels, Ussher column, site column, gap column
+    cw = 150                                  # column width
+    node_h, link_h = 40, 74
+    top = 168
+    rows_h = len(nodes) * node_h + len(links) * link_h
+    h = top + rows_h + 206
+
+    gaps = [u - s for _, _, u, s, _, _ in nodes]
     out = svg_open(
         h,
         "Counting back from Babylon",
-        f"Two columns on one scale of years. Both start from the same anchor, Evil-merodach's accession "
-        f"in {EVIL_MERODACH_BC} BC (2 Kings 25:27), and count upward. Ussher's column: {USSHER_FALL_BC - EVIL_MERODACH_BC} "
-        f"years back to Jerusalem's fall in {USSHER_FALL_BC} BC; step 1, the kings of Judah, "
-        f"{USSHER_FALL_BC - USSHER_TEMPLE_BC} years to the temple in {USSHER_TEMPLE_BC} BC; step 2, 1 Kings 6:1's "
-        f"480th year, to the Exodus in {u_exodus} BC; step 3, Genesis 5 and 11, {chain:,} years to creation "
-        f"in {u_creation} BC. This site's column: {s_fall - EVIL_MERODACH_BC} years to {s_fall} BC, {s_temple - s_fall} "
-        f"years of kings to {s_temple} BC, 480 years to {s_exodus} BC, and the same {chain:,} years to "
-        f"{s_creation} BC. Lines join each event across the columns. A gauge on the right plots the gap: "
-        f"0 at the anchor, 2 at Jerusalem's fall, {USSHER_TEMPLE_BC - s_temple} at the temple, then "
-        f"{u_exodus - s_exodus} unchanged to creation. Below, the {USSHER_TEMPLE_BC - s_temple} years are "
-        f"taken apart: 2 at Jerusalem's fall and {(USSHER_TEMPLE_BC - USSHER_FALL_BC) - (s_temple - s_fall)} "
-        f"in the kings, where Ussher allowed for some overlapping reigns and Thiele's reconstruction "
-        f"for more.",
+        f"A ladder read from the top, in the order Ussher worked, comparing his chain with this site's link "
+        f"by link. Both start from the same anchor, Evil-merodach's accession in {EVIL_MERODACH_BC} BC "
+        f"(2 Kings 25:27). The exile: {USSHER_FALL_BC - EVIL_MERODACH_BC} years back to Jerusalem's fall in "
+        f"{USSHER_FALL_BC} BC for Ussher, {s_fall - EVIL_MERODACH_BC} years to {s_fall} BC here; gap 2. Step 1, "
+        f"the kings of Judah: {u_kings} years for Ussher ({JUDAH_STRAIGHT_SUM} added up, less "
+        f"{JUDAH_STRAIGHT_SUM - u_kings} for overlaps), {s_kings} here after Thiele; the temple at "
+        f"{USSHER_TEMPLE_BC} BC against {s_temple} BC, gap {gaps[2]}. Step 2, 1 Kings 6:1's 480th year: "
+        f"{u_exodus - USSHER_TEMPLE_BC} years for Ussher, 480 here; the Exodus at {u_exodus} BC against "
+        f"{s_exodus} BC, gap {gaps[3]}. Step 3, Genesis 5 and 11: {chain:,} years in both; creation at "
+        f"{u_creation} BC against {s_creation} BC, gap {gaps[4]}. The year 6000 falls in {u_6000} on Ussher's "
+        f"line and {s_6000} on this site's. The links are not drawn to scale.",
     )
     out += heading("Counting Back from Babylon",
-                   "Two chains from one anchor, on one scale of years")
+                   "Ussher's chain and this site's, link by link from one anchor")
 
-    out.append(text((ux0 + ux1) / 2, 132, "USSHER, 1650", 14, "middle", "bold", spacing="1.2"))
-    out.append(text((sx0 + sx1) / 2, 132, "THIS SITE", 14, "middle", "bold", spacing="1.2"))
-    out.append(text((ux0 + ux1) / 2, 150, "counted upward ↑", 12.5, "middle", fill=MUTED, italic=True))
-    out.append(text((sx0 + sx1) / 2, 150, "counted upward ↑", 12.5, "middle", fill=MUTED, italic=True))
-    out.append(text((gx0 + gx1) / 2, 132, "THE GAP", 14, "middle", "bold", spacing="1.2"))
-    out.append(text((gx0 + gx1) / 2, 150, "Ussher minus", 12, "middle", fill=MUTED, italic=True))
-    out.append(text((gx0 + gx1) / 2, 165, "this site, years", 12, "middle", fill=MUTED, italic=True))
+    hy = top - 26
+    out.append(text(ux + cw / 2, hy, "USSHER, 1650", 14, "middle", "bold", spacing="1.2"))
+    out.append(text(sx + cw / 2, hy, "THIS SITE", 14, "middle", "bold", spacing="1.2"))
+    out.append(text(gx + 43, hy, "GAP", 14, "middle", "bold", spacing="1.2"))
+    out.append(text(gx + 43, hy + 15, "in years", 12, "middle", fill=MUTED, italic=True))
+    out.append(text(lx, hy, "Read down: each link", 12.5, fill=MUTED, italic=True))
+    out.append(text(lx, hy + 15, "is counted back from the one above", 12.5, fill=MUTED, italic=True))
 
-    def column(x0, x1, segs, step_marks):
-        o = []
-        for i, (b0, b1, fill, rows) in enumerate(segs):
-            ya, yb = y(b0), y(b1)
-            o.append(f'<rect x="{x0}" y="{ya:.1f}" width="{x1 - x0}" height="{yb - ya:.1f}" fill="{fill}" '
-                     f'stroke="{INK}" stroke-width="1.2"/>')
-            if rows:
-                ty = ya + 22
-                for j, r in enumerate(rows):
-                    o.append(text((x0 + x1) / 2, ty + j * 16, r, 12.5 if j else 13, "middle",
-                                  "bold" if j == 0 else None))
-            if step_marks and step_marks[i]:
-                o.append(f'<circle cx="{x0}" cy="{ya + 17:.1f}" r="10" fill="{INK}"/>')
-                o.append(text(x0, ya + 22, step_marks[i], 13, "middle", "bold", fill=PAPER))
-        return o
+    y = top
+    for i, (name, src, u, s, u_fixed, s_fixed) in enumerate(nodes):
+        cy = y + node_h / 2
+        out.append(f'<path d="M24 {cy:.1f} H{W - 24}" stroke="{INK}" stroke-width="0.4" stroke-dasharray="1 3"/>')
+        out.append(text(lx, cy - 1 if src[0] else cy + 5, name, 14.5, weight="bold", extra=HALO))
+        for j, line in enumerate(l for l in src if l):
+            out.append(text(lx, cy + 14 + j * 14, line, 12, fill=MUTED, italic=True))
+        for x, bc, fixed, color in ((ux, u, u_fixed, INK), (sx, s, s_fixed, BLUE if s != u else INK)):
+            dash = "" if fixed else ' stroke-dasharray="5 3"'
+            out.append(f'<rect x="{x + 20}" y="{y + 5}" width="{cw - 40}" height="{node_h - 10}" rx="15" '
+                       f'fill="{PAPER}" stroke="{RED if i == 0 else INK}" stroke-width="{2 if i == 0 else 1.3}"{dash}/>')
+            out.append(text(x + cw / 2, cy + 5.5, f"{bc} BC", 15, "middle", "bold", fill=RED if i == 0 else color))
+        gap = gaps[i]
+        big = gap == max(gaps)
+        out.append(text(gx, cy + 6, str(gap), 19 if big else 15, weight="bold", fill=RED if gap else INK))
+        if gap:
+            out.append(f'<rect x="{gx + 30}" y="{cy - 5}" width="{gap * 1.2:.1f}" height="10" fill="{RED_TINT}" '
+                       f'stroke="{RED}" stroke-width="1"/>')
+        y += node_h
+        if i == len(links):
+            break
+        step, lname, lsrc, urows, srows, ufill, sfill = links[i]
+        ly0 = y + 3
+        lh = link_h - 6
+        if step:
+            out.append(f'<circle cx="{lx + 10}" cy="{ly0 + lh / 2 - 5:.1f}" r="10" fill="{INK}"/>')
+            out.append(text(lx + 10, ly0 + lh / 2, step, 13, "middle", "bold", fill=PAPER))
+        tx = lx + (28 if step else 0)
+        out.append(text(tx, ly0 + lh / 2 - 2, lname, 13.5, weight="bold"))
+        out.append(text(tx, ly0 + lh / 2 + 14, lsrc, 12, fill=MUTED, italic=True))
+        for x, rows, fill in ((ux, urows, ufill), (sx, srows, sfill)):
+            mx = x + cw / 2
+            out.append(f'<rect x="{mx - 58}" y="{ly0}" width="116" height="{lh}" fill="{fill}" stroke="{INK}" stroke-width="1"/>')
+            out.append(arrow_head(mx, ly0 + lh + 3, 90, 8))
+            ty = ly0 + lh / 2 - (len(rows) - 1) * 7.5 + 5
+            for j, r in enumerate(rows):
+                out.append(text(mx, ty + j * 15, r, 13.5 if j == 0 else 12, "middle", "bold" if j == 0 else None,
+                                extra=HALO))
+        change = gaps[i + 1] - gaps[i]
+        ctext = "no change" if change == 0 else f"{change:+d}".replace("-", "−")
+        out.append(text(gx, ly0 + lh / 2 + 5, ctext, 15 if abs(change) > 9 else 13,
+                        weight="bold" if change else None, fill=RED if change > 0 else MUTED, italic=change == 0))
+        if abs(change) > 9:
+            out += lines_at(gx, ly0 + lh / 2 + 22, ["the gap", "enters here"], 12, italic=True, fill=RED)
+        y += link_h
 
-    u_kings = USSHER_FALL_BC - USSHER_TEMPLE_BC
-    out += column(ux0, ux1, [
-        (u_creation, u_exodus, EARTH_TINT, ["GENESIS 5, 11", f"{chain:,} years", "Adam to the", "Exodus"]),
-        (u_exodus, USSHER_TEMPLE_BC, GOLD_TINT, ["1 KINGS 6:1", "“480th year”", f"{u_exodus - USSHER_TEMPLE_BC} elapsed"]),
-        (USSHER_TEMPLE_BC, USSHER_FALL_BC, RED_TINT, ["THE KINGS", f"{-u_kings} years", f"{JUDAH_STRAIGHT_SUM} added up,",
-                                                       f"{JUDAH_STRAIGHT_SUM + u_kings} off for", "overlaps"]),
-        (USSHER_FALL_BC, EVIL_MERODACH_BC, CARD, []),
-    ], ["3", "2", "1", None])
-    out += column(sx0, sx1, [
-        (s_creation, s_exodus, EARTH_TINT, ["GENESIS 5, 11", f"{chain:,} years", "the same", "count"]),
-        (s_exodus, s_temple, GOLD_TINT, ["1 KINGS 6:1", "480 years"]),
-        (s_temple, s_fall, BLUE_TINT, ["THE KINGS", f"{s_temple - s_fall} years", "Thiele, fixed", "by Assyria"]),
-        (s_fall, EVIL_MERODACH_BC, CARD, []),
-    ], None)
+    # The year 6000, which is where the gap is felt on the rest of the site.
+    fy = y + 14
+    out.append(f'<path d="M24 {fy - 4} H{W - 24}" stroke="{INK}" stroke-width="0.8"/>')
+    out.append(text(lx, fy + 22, "The year 6000", 14.5, weight="bold"))
+    out.append(text(lx, fy + 37, "A Day Is a Thousand Years", 12, fill=MUTED, italic=True))
+    out.append(text(ux + cw / 2, fy + 26, u_6000, 15, "middle", "bold"))
+    out.append(text(sx + cw / 2, fy + 26, s_6000, 15, "middle", "bold", fill=BLUE))
+    out.append(text(gx, fy + 26, "past / future", 12.5, italic=True, fill=MUTED))
 
-    # Genesis markers drawn inside both columns: same AM, so the same distance down from creation.
-    for lab, am in (("The Flood", flood), ("Abram born", abram)):
-        for x0, x1, c in ((ux0, ux1, u_creation), (sx0, sx1, s_creation)):
-            yy = y(c - am)
-            out.append(f'<path d="M{x0} {yy:.1f} H{x1}" stroke="{INK}" stroke-width="0.8" stroke-dasharray="3 3"/>')
-            out.append(text((x0 + x1) / 2, yy - 5, f"AM {am:,}", 11.5, "middle", fill=MUTED, extra=HALO))
-
-    # Connectors across the gutter, with the event name above each and its two dates outside.
-    for lab, u, s, solid in events + [("Evil-merodach", EVIL_MERODACH_BC, EVIL_MERODACH_BC, True)]:
-        yu, ys = y(u), y(s)
-        is_anchor = lab == "Evil-merodach"
-        # Jerusalem's fall sits 7 units above the anchor, so its labels step up a line on leaders.
-        lift = 16 if lab == "Jerusalem falls" else 0
-        color = RED if is_anchor else INK
-        out.append(f'<path d="M{ux1} {yu:.1f} L{sx0} {ys:.1f}" stroke="{color}" stroke-width="{2.4 if is_anchor else 1.2}"/>')
-        name_y = max(yu, ys) + 17 if is_anchor else min(yu, ys) - 6 - lift
-        out.append(text((ux1 + sx0) / 2, name_y, lab, 12.5, "middle", "bold", fill=color, extra=HALO))
-        u_dash = "" if (is_anchor or lab == "Jerusalem falls") else ' stroke-dasharray="4 3"'
-        s_dash = "" if (solid or is_anchor) else ' stroke-dasharray="4 3"'
-        out.append(f'<path d="M{ux0 - 34} {yu - lift:.1f} L{ux0 - 14} {yu - lift:.1f} L{ux0} {yu:.1f}" fill="none" '
-                   f'stroke="{color}" stroke-width="1.2"{u_dash}/>')
-        out.append(f'<path d="M{sx1} {ys:.1f} L{sx1 + 14} {ys - lift:.1f} L{sx1 + 34} {ys - lift:.1f}" fill="none" '
-                   f'stroke="{color}" stroke-width="1.2"{s_dash}/>')
-        out.append(text(ux0 - 38, yu - lift + 4.5, f"{u} BC", 13, "end",
-                        "bold" if u in (u_creation, USSHER_TEMPLE_BC) else None, fill=color, extra=HALO))
-        out.append(text(sx1 + 38, ys - lift + 4.5, f"{s} BC", 13, "start",
-                        "bold" if s in (s_creation, s_temple) else None, fill=color, extra=HALO))
-
-    out.append(text((ux1 + sx0) / 2, bottom + 36, "THE ANCHOR · 2 Kings 25:27 · Babylonian sources", 12,
-                    "middle", fill=RED, italic=True))
-
-    # The gap gauge: Ussher minus this site at each event, plotted on the site's date.
-    out.append(f'<rect x="{gx0}" y="{y(top_bc - 10):.1f}" width="{gx1 - gx0}" height="{bottom - y(top_bc - 10):.1f}" '
-               f'fill="{CARD}" stroke="{INK}" stroke-width="0.8"/>')
-    for g in (10, 20, 30, 40):
-        gx = gx0 + g * gk
-        out.append(f'<path d="M{gx:.1f} {y(top_bc - 10):.1f} V{bottom:.1f}" stroke="{INK}" stroke-width="0.3"/>')
-    for g in (0, 25, 50):
-        out.append(text(gx0 + g * gk, bottom + 36, str(g), 11.5, "middle", fill=MUTED))
-    pts = sorted(((s, gap) for _, gap, s in gaps), reverse=True)
-    area = " ".join(f"L{gx0 + gap * gk:.1f} {y(s):.1f}" for s, gap in pts)
-    out.append(f'<path d="M{gx0} {y(pts[0][0]):.1f} {area} L{gx0} {bottom:.1f} Z" fill="{RED_TINT}"/>')
-    for (sa, ga), (sb, gb) in zip(pts, pts[1:]):
-        # Where inside the kings the 44 years entered is not known, so that leg is drawn dashed.
-        dash = ' stroke-dasharray="5 4"' if (sa == s_temple and sb == s_fall) else ""
-        out.append(f'<path d="M{gx0 + ga * gk:.1f} {y(sa):.1f} L{gx0 + gb * gk:.1f} {y(sb):.1f}" '
-                   f'stroke="{RED}" stroke-width="2.2"{dash}/>')
-    for s, gap in pts:
-        out.append(f'<circle cx="{gx0 + gap * gk:.1f}" cy="{y(s):.1f}" r="3.5" fill="{RED}" stroke="{PAPER}"/>')
-    # Label where the gap changes: creation (45), the temple (46), the fall (2), the anchor (0).
-    for s, gap, dy in ((s_creation, u_creation - s_creation, 4.5), (s_temple, USSHER_TEMPLE_BC - s_temple, 4.5),
-                       (s_fall, USSHER_FALL_BC - s_fall, -8), (EVIL_MERODACH_BC, 0, 16)):
-        lx = gx0 + gap * gk + (-6 if gap > 25 else 6)
-        out.append(text(lx, y(s) + dy, str(gap), 13, "end" if gap > 25 else "start", "bold", fill=RED, extra=HALO))
-    mid = (y(s_temple) + y(s_fall)) / 2
-    out += lines_at(gx0 + 8 + 30 * gk, mid - 8, ["the gap", "enters", "here"], 12, anchor="middle",
-                    italic=True, fill=RED, extra=HALO)
-    out += lines_at((gx0 + gx1) / 2, y(2700), ["carried up", "unchanged"], 12, anchor="middle", italic=True,
-                    fill=MUTED, extra=HALO)
-
-    # The forty-six years taken apart, as a bridge from Ussher's temple to the site's.
-    py = bottom + 76
-    temple_gap = USSHER_TEMPLE_BC - s_temple
-    fall_gap = USSHER_FALL_BC - s_fall
-    kings_gap = temple_gap - fall_gap
-    out.append(text(W / 2, py + 4, f"THE {temple_gap} YEARS AT THE TEMPLE, TAKEN APART", 15, "middle", "bold", spacing="1"))
-    bx0, bk = 300, 7.0
-    rows = [
-        (f"Ussher: {USSHER_FALL_BC} + {-u_kings} =", USSHER_TEMPLE_BC, USSHER_TEMPLE_BC, INK, f"{USSHER_TEMPLE_BC} BC"),
-        (f"Jerusalem's fall, {USSHER_FALL_BC} → {s_fall}", USSHER_TEMPLE_BC, USSHER_TEMPLE_BC - fall_gap, RED, f"−{fall_gap}"),
-        (f"The kings, {-u_kings} → {s_temple - s_fall}", USSHER_TEMPLE_BC - fall_gap, s_temple, RED, f"−{kings_gap}"),
-        (f"This site: {s_fall} + {s_temple - s_fall} =", s_temple, s_temple, BLUE, f"{s_temple} BC"),
-    ]
-    for i, (lab, a, b, color, val) in enumerate(rows):
-        ry = py + 24 + i * 30
-        out.append(text(bx0 - 12, ry + 15, lab, 13, "end"))
-        xa = bx0 + (USSHER_TEMPLE_BC - a) * bk
-        xb = bx0 + (USSHER_TEMPLE_BC - b) * bk
-        if a == b:
-            out.append(f'<path d="M{xa:.1f} {ry} V{ry + 22}" stroke="{color}" stroke-width="4"/>')
-            out.append(text(xa + 8, ry + 16, val, 13.5, weight="bold", fill=color))
-        else:
-            out.append(f'<rect x="{xa:.1f}" y="{ry + 3}" width="{xb - xa:.1f}" height="16" fill="{RED_TINT}" '
-                       f'stroke="{RED}" stroke-width="1.2"/>')
-            out.append(text(xb + 8, ry + 16, val, 13.5, weight="bold", fill=color))
-    ny = py + 24 + 4 * 30 + 6
+    ny = fy + 56
     note, nh = bracket_note(28, ny, W - 56, [
-        f"Above the temple both chains count the same numbers, so the gap is carried up: {u_exodus - s_exodus} at",
-        f"the Exodus (Ussher reads the 480th year as 479 elapsed) and {u_creation - s_creation} at creation. On this",
-        "site's line the six-thousandth year moves from AD 1997 to AD 2042.",
+        f"At the temple: {USSHER_TEMPLE_BC} − {s_temple} = {gaps[2]} years = {gaps[1]} at Jerusalem's fall + "
+        f"{u_kings - s_kings} in the kings.",
+        f"Above it both chains count the same numbers, less the one year Ussher's reading of the",
+        f"480th year takes back, so the Exodus and creation sit {gaps[4]} years apart. Links not to scale.",
     ], bold_first=False, size=13)
     out += note
-    ly = ny + nh + 14
-    out.append(f'<path d="M40 {ly} H80" stroke="{INK}" stroke-width="1.4"/>')
-    out.append(text(88, ly + 4.5, "fixed by an outside record", 13))
-    out.append(f'<path d="M300 {ly} H340" stroke="{INK}" stroke-width="1.4" stroke-dasharray="4 3"/>')
-    out.append(text(348, ly + 4.5, "reached by adding Scripture's numbers", 13))
+    ly = ny + nh + 22
+    out.append(f'<rect x="40" y="{ly - 11}" width="44" height="16" rx="8" fill="{PAPER}" stroke="{INK}" stroke-width="1.3"/>')
+    out.append(text(92, ly + 2, "date fixed by an outside record", 13))
+    out.append(f'<rect x="352" y="{ly - 11}" width="44" height="16" rx="8" fill="{PAPER}" stroke="{INK}" '
+               f'stroke-width="1.3" stroke-dasharray="5 3"/>')
+    out.append(text(404, ly + 2, "reached by adding Scripture's numbers", 13))
     out.append(credit(h))
     out.append("</svg>")
     return "\n".join(out)
@@ -2406,7 +2355,7 @@ def one_stretch_counted_twice():
     def x(bc):
         return x0 + (left_bc - bc) * k
 
-    h = 1070
+    h = 1040
     out = svg_open(
         h,
         "One stretch, counted twice",
@@ -2434,24 +2383,23 @@ def one_stretch_counted_twice():
         out.append(text(x(bc), axis_y - 9, f"{bc}", 11.5, "middle", fill=MUTED))
     out.append(text(x_end, axis_y + 18, "years BC", 11.5, "end", fill=MUTED, italic=True))
 
-    rows_top = 160
+    rows_top = 190
     row_h = 112
     body_bottom = rows_top + 4 * row_h
 
-    # Marker lines run through the bar bands only, so they never cross a row's title.
-    for bc, lab, sub, drop in ((division, "Kingdom divides", "1 Kings 12", 0),
-                               (qarqar, "Ahab at Qarqar", "Kurkh Monolith", 34),
-                               (jehu, "Jehu's revolt", "2 Kings 9:24, 27 · Black Obelisk", 0)):
+    # Each marker is labelled once, at the top beside the axis. Its line runs through the bar bands
+    # only, so it never crosses a row's title.
+    for bc, lab, ly, anchor in ((division, "Kingdom divides, 931 · 1 Kings 12", 152, "start"),
+                                (qarqar, f"Ahab at Qarqar, {qarqar} · Kurkh Monolith", 152, "end"),
+                                (jehu, f"Jehu's revolt, {jehu} · 2 Kings 9:24, 27 · Black Obelisk", 170, "end")):
         color = RED if bc != division else INK
         sw = 2 if bc == jehu else 1.2
+        out.append(text(x(bc) + (4 if anchor == "start" else -4), ly, lab, 12, anchor, "bold", fill=color, extra=HALO))
+        if bc != division:
+            out.append(f'<path d="M{x(bc):.1f} {ly - 10} V{rows_top + 24}" stroke="{color}" stroke-width="{sw}"/>')
         for i in range(4):
             by = rows_top + i * row_h + 64
             out.append(f'<path d="M{x(bc):.1f} {by - 40} V{by + 34}" stroke="{color}" stroke-width="{sw}"/>')
-        out.append(f'<path d="M{x(bc):.1f} {body_bottom - 14} V{body_bottom + 2 + drop}" stroke="{color}" stroke-width="{sw}"/>')
-        anchor = "start" if bc == division else "end"
-        dx = 5 if bc == division else -5
-        out.append(text(x(bc) + dx, body_bottom + 16 + drop, lab, 12.5, anchor, "bold", fill=color, extra=HALO))
-        out.append(text(x(bc) + dx, body_bottom + 31 + drop, sub, 11.5, anchor, fill=MUTED, italic=True, extra=HALO))
 
     def names(spans, ny, tiers=3):
         """Names above their bars, stepping up a tier where they would touch."""
@@ -2485,7 +2433,11 @@ def one_stretch_counted_twice():
                          f'stroke="{INK}" stroke-width="1"/>')
                 if n >= 8:
                     o.append(text(x(bc - n / 2), by + 16, str(n), 12.5, "middle", "bold"))
-            spans.append((r[0], x(bc), x(bc - max(n, 0.5))))
+                spans.append((r[0], x(bc), x(bc - n)))
+            else:
+                # Zimri's seven days: too short to draw, so named below the bar instead.
+                o.append(f'<path d="M{x(bc):.1f} {by + 22} V{by + 30}" stroke="{MUTED}" stroke-width="0.8"/>')
+                o.append(text(x(bc), by + 42, f"{r[0]}, 7 days", 11.5, "middle", fill=MUTED, italic=True))
             bc -= n
         over = total - elapsed
         o.append(f'<rect x="{x(jehu):.1f}" y="{by - 3}" width="{over * k:.1f}" height="28" fill="{RED}" '
@@ -2496,29 +2448,28 @@ def one_stretch_counted_twice():
         return o
 
     def calendar_row(ry, reigns, fill, judah):
+        """One lane: each reign from accession to death, and a red band on a first year that was also
+        the predecessor's last, which Kings counts in both reigns."""
         o = [text(x0 - 40, ry, "ON THE CALENDAR", 13, weight="bold", spacing="0.8"),
              text(x0 - 40, ry + 15, "Thiele's reconstruction, whole years", 12, fill=MUTED, italic=True)]
-        by = ry + 64
-        spans = []
-        for i, r in enumerate(reigns):
+        by = ry + 66
+        spans, bands = [], []
+        for r in reigns:
             name, n, _, start, end = r[:5]
             if not n:
                 continue
-            lane = by + (12 if i % 2 else 0)
-            doubled = r[5] if judah else True
-            width = (start - end) * k
-            if width:
-                o.append(f'<rect x="{x(start):.1f}" y="{lane}" width="{width:.1f}" height="12" fill="{fill}" '
-                         f'stroke="{INK}" stroke-width="1" stroke-dasharray="4 2"/>')
-            if doubled:
-                o.append(f'<rect x="{x(end):.1f}" y="{lane}" width="{k:.1f}" height="12" fill="{RED}"/>')
-            spans.append((name, x(start), x(end) + (k if doubled else 0)))
+            if start > end:
+                o.append(f'<rect x="{x(start):.1f}" y="{by}" width="{(start - end) * k:.1f}" height="16" '
+                         f'fill="{fill}" stroke="{INK}" stroke-width="1" stroke-dasharray="4 2"/>')
+            if r[5] if judah else True:
+                bands.append(f'<rect x="{x(start + 1):.1f}" y="{by - 4}" width="{k:.1f}" height="24" fill="{RED}"/>')
+            spans.append((name, x(start + 1), x(end)))
+        o += bands
         if judah:
             a_end, j_start = JUDAH_REIGNS[2][4], JUDAH_REIGNS[3][3]
-            out_y = by - 2
-            o.append(f'<rect x="{x(j_start):.1f}" y="{out_y}" width="{(j_start - a_end) * k:.1f}" height="28" '
-                     f'fill="none" stroke="{RED}" stroke-width="1.6"/>')
-        o += names(spans, by - 6)
+            o.append(f'<rect x="{x(j_start):.1f}" y="{by - 6}" width="{(j_start - a_end) * k:.1f}" height="28" '
+                     f'fill="none" stroke="{RED}" stroke-width="1.8"/>')
+        o += names(spans, by - 10)
         return o
 
     y1 = rows_top
@@ -2530,18 +2481,18 @@ def one_stretch_counted_twice():
         out.append(f'<path d="M24 {y1 + i * row_h - 14} H{W - 24}" stroke="{INK}" stroke-width="0.5"/>')
 
     # The arithmetic.
-    ty = body_bottom + 96
+    ty = body_bottom + 30
     out.append(text(W / 2, ty, "THE ARITHMETIC", 15, "middle", "bold", spacing="1"))
     sums = [
         ("Israel", f"{israel_total} on paper", f"− {israel_doubled} first years that were also a predecessor's last", f"= {elapsed}"),
-        ("Judah", f"{judah_total} on paper", f"− {coreg} Jehoshaphat beside Asa  − {judah_doubled} years counted twice", f"= {elapsed}"),
+        ("Judah", f"{judah_total} on paper", f"− {coreg} beside Asa, − {judah_doubled} first years (Jehoram, Ahaziah)", f"= {elapsed}"),
         ("Assyria's check", "2 + 12 on paper", "Ahaziah and Joram, − 2 shared years", f"= {qarqar - jehu}"),
     ]
     for i, (who, a, b, c) in enumerate(sums):
         ry = ty + 28 + i * 26
         out.append(text(40, ry, who, 13.5, weight="bold"))
         out.append(text(166, ry, a, 13.5))
-        out.append(text(282, ry, b, 13.5, fill=RED))
+        out.append(text(272, ry, b, 13.5, fill=RED))
         out.append(text(W - 40, ry, c, 14.5, "end", "bold"))
     out.append(text(40, ty + 28 + 3 * 26, f"{division} to {jehu} BC is {elapsed} years. "
                     f"Qarqar ({qarqar}) to Jehu ({jehu}) is {qarqar - jehu}.", 12.5, fill=MUTED, italic=True))
@@ -2568,14 +2519,14 @@ def one_stretch_counted_twice():
     ], 12.5, anchor="middle", italic=True)
 
     ly = dy + 160
-    out.append(f'<rect x="40" y="{ly - 10}" width="34" height="12" fill="{BLUE_TINT}" stroke="{INK}"/>')
+    out.append(f'<rect x="40" y="{ly - 10}" width="34" height="12" fill="{CARD}" stroke="{INK}"/>')
     out.append(text(82, ly, "the text's number", 12.5))
-    out.append(f'<rect x="210" y="{ly - 10}" width="34" height="12" fill="{BLUE_TINT}" stroke="{INK}" stroke-dasharray="4 2"/>')
+    out.append(f'<rect x="210" y="{ly - 10}" width="34" height="12" fill="{CARD}" stroke="{INK}" stroke-dasharray="4 2"/>')
     out.append(text(252, ly, "placed by reconstruction", 12.5))
     out.append(f'<rect x="420" y="{ly - 10}" width="12" height="12" fill="{RED}"/>')
-    out.append(text(440, ly, "a year counted twice", 12.5))
-    out.append(f'<rect x="590" y="{ly - 10}" width="24" height="12" fill="none" stroke="{RED}" stroke-width="1.6"/>')
-    out.append(text(620, ly, "co-regency", 12.5))
+    out.append(text(440, ly, "a first year counted twice", 12.5))
+    out.append(f'<rect x="608" y="{ly - 10}" width="24" height="12" fill="none" stroke="{RED}" stroke-width="1.6"/>')
+    out.append(text(638, ly, "co-regency", 12.5))
     out.append(credit(h))
     out.append("</svg>")
     return "\n".join(out)

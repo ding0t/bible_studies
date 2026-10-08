@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-06
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
