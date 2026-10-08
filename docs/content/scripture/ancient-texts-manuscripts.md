@@ -5,7 +5,7 @@ description: "How Scripture compares to other ancient works on manuscript eviden
 tags: ["method/archaeology", "method/textual-criticism", "manuscripts", "inscriptions", "dead-sea-scrolls", "apologetics"]
 draft: false
 date_created: 2026-01-24
-date_modified: 2026-10-06
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -876,6 +876,7 @@ substantially what its authors wrote is not.
 - [Early New Testament Manuscripts](early-new-testament-manuscripts.md) — English translations of the 83 earliest known New Testament papyri, all dated AD 300 or earlier
 - [Bible Translations and Source Texts](translations.md) — which manuscript traditions stand behind the English versions
 - [Archaeological Sites](archaeological-sites.md) — the sites, as distinct from the texts
+- [Chronology Anchors](../chronology/chronology-anchors.md#outside-witnesses) — which of these inscriptions fix a year, which check one, and which only confirm the people and events
 - [How to Read the Bible](how-to-read-the-bible.md) — the method this site applies to the text once its reliability is granted
 
 ---

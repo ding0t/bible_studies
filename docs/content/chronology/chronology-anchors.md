@@ -5,7 +5,7 @@ description: "Forty-one events from Solomon's temple to the Resurrection, each w
 tags: ["genealogy", "archaeology", "method/archaeology", "status/investigation"]
 draft: false
 primary_passage: "1 Kings 6:1"
-bible_references: ["1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20"]
+bible_references: ["Joshua 10:12-14", "1 Kings 5:1-12", "1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Chronicles 12:2", "2 Kings 1:1", "2 Kings 3:4-5", "2 Kings 9:24-27", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20"]
 date_created: 2026-08-22
 date_modified: 2026-10-08
 ai_provider_models:
@@ -33,6 +33,22 @@ Luke fixes the year of the cross, and Daniel's prophecy lands beside it. Luke 3:
 ### Prayer
 
 Lord of the times and seasons, you set the eclipse in the sky that dates the reign of a king who never knew you, and you kept your word to the day. Thank you that the years are yours, that Cyrus signed his decree in your service, and that you were not late. Teach me to trust the God who keeps appointments I cannot see, and to wait as one who knows the calendar belongs to you. In Jesus' name. Amen.
+
+## Study outline
+
+- **[How the tiers work](#how-the-tiers-work)** and **[the anchor table](#the-anchor-table).**
+  Forty-one events from Solomon's temple to the Resurrection, each marked Fixed, Anchored or
+  Bracketed.
+- **[The entries that carry the rest](#the-entries-that-carry-the-rest).** The Bur-Sagale eclipse,
+  Jehoiachin's deportation, Ezekiel's vision, Jeremiah's seventy years, the 444 BC decree, and the
+  Nativity and Passover brackets.
+- **[Outside witnesses](#outside-witnesses).** The monuments and tablets behind the dates, with
+  pictures: Merneptah, Gibeon, Tyre, Shishak, Qarqar and Jehu, the Moabite Stone and Tel Dan,
+  Sennacherib, and Nebuchadnezzar.
+- **[The four hundred silent years](#the-four-hundred-silent-years).** Daniel's kingdoms, the
+  desecration and rededication, the 2,300 evenings and mornings, and the sabbatical cycle.
+- **[Settling the crucifixion year](#settling-the-crucifixion-year).** AD 30 against AD 33, test by
+  test, ending at Friday 3 April AD 33.
 
 ## How the tiers work
 
@@ -142,6 +158,142 @@ The verse names no month, and "the beginning of the year" is read two ways. Take
 ### The "forty-six years" Passover bracket
 
 **"Forty-six years," AD 27-30 (#39).** Josephus puts Herod's start on the temple in his eighteenth year (*Antiquities* 15.380), which is 20/19 BC counting his reign from 37 BC; *Jewish War* 1.401 gives the fifteenth year instead. Adding the forty-six years of John 2:20 to that start gives a first Passover in AD 27 or 28. Counting instead from the sanctuary's completion in 18/17 BC gives AD 29/30 ([below](#john-220-neutral-between-both-years)). The bracket spans both readings, and its width of this bracket is what leaves the ministry's length open between roughly three and five years.
+
+## Outside witnesses
+
+The Fixed rows in the anchor table rest on records written by Israel's neighbours, who had no
+interest in the Bible's dates. This section shows those records, and adds the ones that check a
+date from another direction. Each does one of five jobs. It **fixes** a year on its own, **checks**
+a date the table reaches some other way, **confirms** people and events without giving a year,
+sets a **limit**, or offers a **rival** date. Fuller descriptions of most of these objects are in
+[Ancient Texts, Manuscripts, and Inscriptions](../scripture/ancient-texts-manuscripts.md).
+
+### Merneptah's stele: Israel in Canaan by about 1208 BC (limit)
+
+![A tall granite stele topped with carved figures of gods and a pharaoh above many lines of hieroglyphs](../assets/img/archaeology/merneptah-stele.jpg){ loading=lazy }
+*The Merneptah Stele, Egyptian Museum, Cairo. Image details and credit in [Ancient Texts](../scripture/ancient-texts-manuscripts.md#11-the-merneptah-stele-c-1208-bc).*
+
+Pharaoh Merneptah's victory hymn, from his fifth year, lists "Israel" among the peoples he claims to
+have crushed in Canaan, written with the sign for a people rather than a city. It is the earliest
+mention of Israel outside the Bible. It gives no date for the Exodus or the conquest. It says only
+that Israel was a people in the land by about 1208 BC, which both the early Exodus (1446 BC) and the
+late one (the 1200s) allow.
+
+### The eclipse at Gibeon: 30 October 1207 BC? (rival, contested)
+
+Colin Humphreys and Graeme Waddington proposed in 2017 that Joshua's long day (Joshua 10:12-14) was
+an annular eclipse visible from Gibeon on 30 October 1207 BC. If they are right, the conquest
+belongs in the late 1200s and the Exodus about forty years before it, two centuries after this
+site's 1446 BC. The proposal sits awkwardly with the passage, which describes a day made longer,
+not darker; [Prophecy Events and
+Times](../last-things/prophecy-events-times.md#joshuas-long-day-at-gibeon-reinterpreted-as-an-eclipse-contested)
+weighs it. It is listed here because it is the one astronomical date anyone has offered before
+Solomon, and it points away from this page's line.
+
+### Tyre's king list: Solomon's temple from a second direction (check)
+
+Josephus quotes the Tyrian annals, as Menander of Ephesus had translated them. Solomon's temple was
+begun in the twelfth year of Hiram, Solomon's ally (1 Kings 5:1-12), and Carthage was founded 143
+years and eight months later (*Against Apion* 1.17-18). This route to the temple runs through
+Phoenicia and never touches Assyria or the kings of Judah. Its result depends on which ancient date
+for Carthage is used. Pompeius Trogus's 825 BC puts the temple in 968 or 967 BC, a year or two from
+the table's 966; Rodger Young sets out that case ("Solomon and the Kings of Tyre", *Bible and
+Spade*, Summer 2017). Timaeus's 814 BC puts it eleven years later. Either way the answer is within
+a dozen years of 966 BC and nowhere near Ussher's 1012.
+
+### Shishak's campaign list (check)
+
+![Weathered sandstone blocks above a doorway at Karnak, carved with hieroglyphs and royal cartouches](../assets/img/archaeology/bubastite-portal.jpg){ loading=lazy }
+*The Bubastite Portal at Karnak, with the cartouches of Shoshenq I. His list of conquered towns is
+carved on the wall beside it. Photo: [Markh](https://commons.wikimedia.org/wiki/File:Bubastis_portal_at_Karnak.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.*
+
+Shishak came up against Jerusalem "in the fifth year of King Rehoboam" (1 Kings 14:25, ESV; 2
+Chronicles 12:2). Shoshenq I, the pharaoh behind the name, carved a list of the towns he took on
+this portal at Karnak, and the list includes towns of Judah and Israel. The check runs partly in a
+circle. Egypt's dates for this dynasty are uncertain by a decade or so, and Egyptologists use the
+biblical synchronism at 925 BC to refine them. So the campaign confirms the event and its order,
+and the table holds it at ±3 years.
+
+### Qarqar and Jehu: the Assyrian synchronisms (fix)
+
+![A tall round-topped stone stele carved with an Assyrian king in profile, covered in lines of cuneiform](../assets/img/archaeology/kurkh-monolith.jpg){ loading=lazy }
+*The Kurkh Monolith of Shalmaneser III, British Museum. Its account of the battle of Qarqar names
+"Ahab the Israelite". Photo: [Osama Shukir Muhammed Amin](https://commons.wikimedia.org/wiki/File:Kurkh_stele_of_Shalmaneser_III._From_Diyarbak%C4%B1r,_southern_Turkey._British_Museum.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
+
+![A carved stone relief of a man kneeling with his face to the ground before an Assyrian king holding a cup](../assets/img/archaeology/black-obelisk-jehu.jpg){ loading=lazy }
+*Jehu, or his envoy, bowing before Shalmaneser III on the Black Obelisk, British Museum. The caption
+calls him "Jehu son of Omri". Photo: [Steven G. Johnson](https://commons.wikimedia.org/wiki/File:Jehu-on-Obelisk-of-Shalmaneser_(cropped).jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.*
+
+These two are rows 5 and 6 of the table. Shalmaneser III dates both by his own regnal years, and the
+Bur-Sagale eclipse turns his years into BC dates. Ahab was alive at Qarqar in 853 BC, and Jehu was
+king by 841. Scripture's twelve years between them, counted as Kings counts them, fit exactly; [Why
+Not 4004 BC?](why-not-4004-bc.md#the-assyrian-check) works the arithmetic. Neither monument is
+mentioned in the Bible, and between them they fix the divided monarchy to the year.
+
+### The Moabite Stone and the Tel Dan Stele (confirm)
+
+![A round-topped black basalt stele with lines of inscription, parts of its surface smooth where it has been restored](../assets/img/archaeology/mesha-stele.jpg){ loading=lazy }
+*The Mesha Stele (Moabite Stone), Louvre. Image details and credit in [Ancient
+Texts](../scripture/ancient-texts-manuscripts.md#3-the-mesha-stele-moabite-stone-c-840-bc).*
+
+King Mesha of Moab set up this stone about 840 BC. He says that "Omri was king of Israel" and
+oppressed Moab many days, that his son did the same, and that Mesha threw Israel off. Second Kings
+tells the same story from Israel's side: "after the death of Ahab, Moab rebelled against Israel"
+(2 Kings 1:1, ESV; 3:4-5). Mesha also says Israel held the land of Medeba through Omri's days and
+half his son's, "forty years". That figure is longer than Omri's twelve years and half of Ahab's
+twenty-two, and it reads as a round number, or one that counts the dynasty down to Ahab's sons. The
+stone confirms the dynasty and the order of events, and gives no year.
+
+![Broken fragments of a dark basalt stele with incised Aramaic letters](../assets/img/archaeology/tel-dan-stele.jpg){ loading=lazy }
+*The Tel Dan Stele, Israel Museum. Image details and credit in [Ancient
+Texts](../scripture/ancient-texts-manuscripts.md#4-the-tel-dan-inscription-c-841-bc).*
+
+The Tel Dan Stele, set up by an Aramean king, almost certainly Hazael, claims to have killed a king
+of Israel and a king of "the house of David". The names are broken and partly restored, usually as
+Joram and Ahaziah, the two kings Jehu killed in 841 BC (2 Kings 9:24-27). If that restoration is
+right, the stele and the Black Obelisk both put the same upheaval in the same few years, from two
+different foreign courts. It confirms the event and gives no year of its own.
+
+### Sennacherib's prism (fix)
+
+![A tall six-sided clay prism covered in small cuneiform](../assets/img/archaeology/taylor-prism.jpg){ loading=lazy }
+*The Taylor Prism of Sennacherib, British Museum. Image details and credit in [Ancient
+Texts](../scripture/ancient-texts-manuscripts.md#8-the-taylor-prism-sennacheribs-prism-c-690-bc).*
+
+Sennacherib's annals say he shut Hezekiah up in Jerusalem "like a bird in a cage" in his third
+campaign, 701 BC on the eponym list. Second Kings puts the invasion in "the fourteenth year of King
+Hezekiah" (2 Kings 18:13, ESV). This is row 9 of the table, and Hezekiah's reign is where Thiele's
+system needed adjusting ([Why Not 4004 BC?](why-not-4004-bc.md#what-is-still-contested)).
+
+### Nebuchadnezzar's years: the Chronicle and VAT 4956 (fix)
+
+![A reddish clay tablet densely written in cuneiform](../assets/img/archaeology/babylonian-chronicle-jerusalem.jpg){ loading=lazy }
+*The Babylonian Chronicle for Nebuchadnezzar's early years, British Museum. Image details and credit
+in [Ancient Texts](../scripture/ancient-texts-manuscripts.md#6-the-babylonian-chronicles-various-dates-7th-6th-centuries-bc).*
+
+The Babylonian Chronicle dates Jerusalem's surrender to the second day of Adar in Nebuchadnezzar's
+seventh year, 16 March 597 BC (row 11). A second Babylonian tablet fixes his years by the sky.
+VAT 4956, in the Vorderasiatisches Museum in Berlin, is an astronomical diary for his 37th year. It
+records about thirty positions of the moon and planets that can still be computed, and they fit
+568/567 BC and no other year. That puts his accession in 605 BC and his nineteenth year, when the
+temple burned (2 Kings 25:8), in 587/586 BC. A minority has challenged the tablet's reading. The
+challenge has not persuaded the scholars who edit these texts, and the Chronicle gives the same
+years without it.
+
+| Witness | Date | Job |
+|---|---|---|
+| Merneptah Stele | c. 1208 BC | Limit: Israel in Canaan |
+| Gibeon eclipse (Humphreys) | 1207 BC? | Rival: a late conquest |
+| Tyre's king list (Josephus) | temple 968-957 BC | Check on 966 BC |
+| Bubastite Portal (Shoshenq I) | 925 BC | Check, partly circular |
+| Kurkh Monolith; Black Obelisk | 853; 841 BC | Fix |
+| Moabite Stone; Tel Dan Stele | c. 840 BC | Confirm |
+| Taylor Prism (Sennacherib) | 701 BC | Fix |
+| Babylonian Chronicle; VAT 4956 | 597; 568/567 BC | Fix |
+
+Before Solomon there is no outside record that fixes a year. The Exodus, the patriarchs and the
+genealogies are dated by Scripture's own intervals, counted back from the temple, and the records
+above are why the temple itself can be trusted to within a few years.
 
 ## The four hundred silent years
 
@@ -294,6 +446,20 @@ Sabbatical and jubilee cycles are used on this page only where Scripture attache
 - **Kurkh Monolith** and the **Black Obelisk of Shalmaneser III** — Ahab at Qarqar, and Jehu's tribute.
 - **Sennacherib's Annals (Taylor Prism)** — the 701 BC campaign, naming Hezekiah.
 - **Bubastite Portal, Karnak** — Shoshenq I's campaign list.
+- **Josephus, *Against Apion*** 1.17-18, quoting Menander of Ephesus — the Tyrian king list,
+  Solomon's temple in Hiram's twelfth year, 143 years and eight months before Carthage.
+- **Rodger C. Young, "Solomon and the Kings of Tyre"**, *Bible and Spade* (Summer 2017) — the Tyrian
+  list worked against 966/967 BC.
+- **VAT 4956** (Vorderasiatisches Museum, Berlin), published in A. J. Sachs and H. Hunger,
+  *Astronomical Diaries and Related Texts from Babylonia*, vol. 1 (1988), as no. -567 — Nebuchadnezzar's
+  37th year, 568/567 BC.
+- **Mesha Stele** (Louvre AO 5066) and **Tel Dan Stele** (Israel Museum) — the Omride dynasty and
+  the events of 841 BC, from Moab and Aram.
+- **Merneptah Stele** (Egyptian Museum, Cairo) — Israel in Canaan by about 1208 BC.
+- **Colin J. Humphreys and W. Graeme Waddington, "Solar eclipse of 1207 BC helps to date
+  pharaohs"**, *Astronomy & Geophysics* 58.5 (2017) — the Gibeon eclipse proposal.
+- [Ancient Texts, Manuscripts, and Inscriptions](../scripture/ancient-texts-manuscripts.md) — fuller
+  descriptions and credits for the inscriptions pictured here.
 - **1 Maccabees** — 1:54, 1:59, 4:52-59 (the desecration and rededication dates) and 1 Maccabees 6:49, 53 (the sabbatical year at Beth-zur). Not in `bible-text.db`; every date cited here was checked against the KJV Apocrypha text in this repo's deuterocanonical source (`references/open-data/scrollmapper-bible-databases-deuterocanonical`).
 - **Josephus, *Antiquities*** 13.234 and 14.475 — the two later attested sabbatical years; 15.380 for Herod's temple works.
 - **Ben Zion Wacholder** and **Benedict Zuckermann** — the two competing reconstructions of the sabbatical cycle, differing by one year.

@@ -390,3 +390,23 @@ evidence:
   - {id: 2chr36-21-esv, what: "2 Chronicles 36:21 seventy years of Sabbath rest", tool: study_verse, args: {book: 2Chr, chapter: 36, verse: 21, work_id: esv-study-bible}, expect_contains: "to fulfill seventy years", checked: 2026-10-01}
 
 last_updated: "2026-10-01"
+word_budget: 5200
+word_budget_reason: >
+  The "Outside witnesses" section (2026-10-08) adds about 1,300 words of reference material: one
+  short entry per inscription, most with a picture. It is consulted entry by entry more than read
+  straight through, and splitting it off would separate each record from the table row it supports.
+outside_witnesses_2026-10-08:
+  notes: >
+    Added at the author's request ("the moabite stone ... cross reference to the archaeology study
+    ... add the other checks and any pictures"). ESV verified in study-notes.db: 1 Kings 14:25,
+    2 Kings 1:1, 2 Kings 18:13. Tyrian figures (Hiram's 12th year; 143 years 8 months to Carthage)
+    confirmed against Against Apion via Perseus/Wikipedia search; the 825 vs 814 BC Carthage dates
+    are the standard Trogus and Timaeus figures. VAT 4956 (about 30 computable observations,
+    568/567 BC) from published summaries; Sachs-Hunger 1988 edition cited and not re-read here.
+    Mesha "forty years" and "Omri king of Israel" from the standard translations of the stele,
+    and not re-read here. New images from Wikimedia Commons, with licences checked through the
+    Commons API: kurkh-monolith.jpg (Osama Shukir Muhammed Amin, CC BY-SA 4.0),
+    black-obelisk-jehu.jpg (Steven G. Johnson, CC BY-SA 3.0), bubastite-portal.jpg (Markh,
+    CC BY-SA 3.0). The rest are reused from scripture/ancient-texts-manuscripts.md, which carries
+    their credits.
+
