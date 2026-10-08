@@ -392,3 +392,17 @@ fix_2026-09-28:
 near_far_2026-09-28: "AD 70 named as the discourse's near fulfilment and a pattern of the far one, linking immediately-after."
 site_position_2026-09-28: "Author decision: Matthew 24 has a near fulfilment in AD 70 (Rome; Luke 21:20-24 records it; Daniel 9:26 places it between the 69th and 70th weeks) that is also a type of the far one; the far fulfilment is Daniel's seventieth week, opening at Matt 24:4 (birth pains; cf. Rev 6 seals, written c. AD 95 as still future, Rev 4:1) with the abomination at 24:15 as midpoint. The abomination is a repeating pattern: Antiochus 167 BC (1 Macc 1:54), Rome AD 70, the man of lawlessness (2 Thess 2:4). Sources: ESV SB on Matt 24:15 (complete fulfilment in AD 70 and the Antichrist) and Luke 21:5-24 (type); BKC Barbieri on Matt 24:4-8 (first half of the week), Grassmick on Mark 13:14-23 ('near' foreshadowed 'far'), Martin on Luke 21:20-24 (times of the Gentiles 586 BC to the tribulation)."
 published_2026-09-28: "draft: false with fig-tree, heaven-and-earth, immediately-after and israels-regathering together; mkdocs build --strict clean."
+simplify_2026-10-08:
+  point: "As the fig tree's new leaves tell you summer is near, the signs Jesus named tell His people He is at the doors; \"this generation\" is the generation that sees those signs begin; the date is the Father's."
+  focus: "Author: this study is the deeper treatment olivet-discourse.md hands off for 24:32-34 (fig tree + this generation). Keep the fig-tree/Israel material (it is the fig-tree half of the hand-off); thin what lies past 24:34 (24:35, 24:36, AD 70), which other studies cover. No fork."
+  words: "body (Setting..Discussion, prose only) 3098 -> 2704; whole study ~3970 -> ~3570; budget 4000"
+  cuts: "critics/headlines foil; evergreens restatement; Matt 21:19; ESV word-for-word sentence; Ezek 36 ordering sentence (kept at Ezek 37:8); NIV BTSB Luke 21:29 paragraph (Six->Five features); sykē occurrence breakdown; 'one verse apart' sentence; date-setting duplicate in This study's reading; Matt 25:10 aside; Isaiah 40:8 in His words (kept in Lessons); deity-of-Christ sentence; Acts 1:7; Antiochus/2 Thess 2:4 pattern detail (Immediately After carries it)"
+  moved: "1948/1967 + times-of-the-Gentiles sentence from the AD 70 section to the end of the clock section ('as above' dropped)"
+  shortened:
+    - "'It has more Scripture behind it than that.' -> 'It has Scripture behind it.'"
+    - "sykē: '...occurs sixteen times in the New Testament, and four are ordinary fig trees (John 1:48, 50; James 3:12; Revelation 6:13).'"
+    - "'None of that unsettles what AD 70 fulfilled: the temple fell...' -> 'The temple fell...'"
+    - "'...a pattern of the far one: the abomination came under Antiochus... (2 Thessalonians 2:4), as Immediately After sets out' -> '...a pattern of the far one, as Immediately After sets out'"
+    - "In one sentence: dropped the Israel-echo clause and 'for God has fixed the sequence, His Son's word guarantees it'"
+  frontmatter: "removed Matthew 25:10 and Acts 1:7 from bible_references; NIV BTSB reference entry no longer lists Luke 21:29"
+  checks: "word-diff shows only shortened/moved text added; npm run validate clean for this file; mkdocs build --strict clean"
