@@ -13,5 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 16:29
-- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../last-things/why-not-4004-bc.md) — 16:8-10
+- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 16:8-10
 <!-- commentary-index:auto-end -->

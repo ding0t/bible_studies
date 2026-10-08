@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 9:1-19"
 bible_references: ["Genesis 1:20-21", "Genesis 1:28", "Genesis 5:32", "Genesis 6:1", "Genesis 7:11", "Genesis 7:21", "Genesis 8:17", "Genesis 9:1-19", "Genesis 9:28-29", "Genesis 10:1-32", "Genesis 11:1-9", "Genesis 11:10", "Genesis 13:16", "Genesis 15:5", "Genesis 22:17", "Genesis 46:26-27", "Exodus 1:5-7", "Exodus 1:12", "Exodus 8:3", "Exodus 12:37-41", "Leviticus 11:29", "Leviticus 11:41-46", "Numbers 1:2-3", "Numbers 1:45-46", "Deuteronomy 10:22", "2 Samuel 24:9", "1 Chronicles 21:5", "Psalm 105:30", "Jeremiah 33:22", "Ezekiel 47:9", "Acts 7:14", "Acts 17:26", "Romans 1:20", "Galatians 3:16", "Galatians 3:17", "Galatians 3:29", "Hebrews 11:12", "Revelation 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-09-30
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -378,7 +378,7 @@ The headline number falls straight out of the first:
 Dates use this site's Zadok-year convention — year 0 is Adam's creation, and
 Zadok year 0 is 3959 BC (the Masoretic chain on a 1446 BC Exodus), so the Flood at Zadok 1656 is 2303 BC. See
 [The Zadok Calendar](../feasts/zadok-calendar.md) for the calendar and
-[Genealogy and Times](../last-things/genealogy-times.md) for how the Genesis 5 and 11 figures were
+[Genealogy and Times](../chronology/genealogy-times.md) for how the Genesis 5 and 11 figures were
 read out of the Masoretic Text, Septuagint and Samaritan Pentateuch and turned into these years.
 
 Population anchors, each given as a Zadok year (AM, from creation) beside its Gregorian date.
@@ -419,7 +419,7 @@ The census falls late in David's reign (c. 1010-970 BC), so the timeline places 
 Three date questions are open. None of them changes the argument.
 
 **The Flood's date is not settled even inside this repo.**
-[Genealogy and Times](../last-things/genealogy-times.md) compares three reconstructions. Running
+[Genealogy and Times](../chronology/genealogy-times.md) compares three reconstructions. Running
 `r = ln(8.2×10⁹ / 6) / t` against each:
 
 | Reconstruction | Flood | Years to AD 2026 | Required rate | Doubling |
@@ -681,7 +681,7 @@ that the biblical chronology can reach known benchmarks at rates humans have ach
 lists, dendrochronology and varve sequences show continuous occupation through the window a global
 Flood at 2303 BC and a dispersion at 2103 BC would need. Population arithmetic leaves those objections
 untouched. They are weighed, with the archaeology of Babel, in a separate study, [The
-Flood and the King Lists](flood-and-the-king-lists.md).
+Flood and the King Lists](../chronology/flood-and-the-king-lists.md).
 
 #### Consistency is the argument's ceiling
 
@@ -761,7 +761,7 @@ word. So when you look at the crowd, you are looking at a promise kept, and you 
   populations against the published ranges.
 - **Han dynasty census of AD 2** — 57,671,400 individuals across 12,366,470 households, the earliest
   nationwide census on record and the check that breaks the constant-rate model.
-- [Genealogy and Times](../last-things/genealogy-times.md) and
+- [Genealogy and Times](../chronology/genealogy-times.md) and
   [The Zadok Calendar](../feasts/zadok-calendar.md) on this site — the chronology and calendar
   conventions these dates depend on, including the three Flood-date reconstructions.
 - [What Creation Declares](creation-reveals-the-creator.md) — the companion study, arguing the same

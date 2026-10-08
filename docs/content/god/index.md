@@ -4,7 +4,7 @@ category: "other"
 description: "God's nature and character, creation, and the ways he makes himself known."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-30
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -40,14 +40,6 @@ God's nature and character, creation, and the ways he makes himself known.
     An exegetical study of Romans 1:19-23 on what creation alone reveals about God, with a look at young-earth arguments from design, the fossil record, and the early universe.
 
     [:octicons-arrow-right-24: Read](creation-reveals-the-creator.md)
-
--   __The Flood and the King Lists: Which Genesis Numbers to Trust__
-
-    ---
-
-    Genesis 5 and 11 survive in three versions whose numbers put the Flood anywhere from 2303 to 3183 BC. Weighing the Masoretic Text, Septuagint and Samaritan Pentateuch by Scripture's own consistency first, and only then against Egypt's king lists, radiocarbon, tree rings and varves.
-
-    [:octicons-arrow-right-24: Read](flood-and-the-king-lists.md)
 
 -   __What World Population Declares: Biblical Chronology and the Arithmetic of Growth__
 

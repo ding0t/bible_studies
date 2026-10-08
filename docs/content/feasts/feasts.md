@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:1-44"
 bible_references: ["Leviticus 23:1-4", "Leviticus 23:22", "Leviticus 23:27-28", "Leviticus 23:42-44", "Leviticus 1:1", "Genesis 1:14", "Exodus 12:2", "Exodus 12:14", "Deuteronomy 16:16", "Colossians 2:16-17", "Hebrews 10:1", "Romans 14:5-6", "Galatians 4:9-11", "1 Corinthians 5:7-8", "John 19:36", "1 Corinthians 15:20-23", "Acts 2:1", "Acts 2:41", "Matthew 28:1", "Exodus 12:46", "Leviticus 23:11", "Hebrews 9:7-12", "Zechariah 12:10", "Zechariah 13:1", "Romans 11:25-27", "Zechariah 14:16", "John 1:14", "John 7:2", "John 7:37-39", "Revelation 21:3", "Luke 2:41", "John 2:13", "John 7:10", "John 10:22-23"]
 date_created: 2025-08-10
-date_modified: 2026-10-02
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -186,7 +186,7 @@ The New Testament states each of these links, and it dates two of them. **God ke
 the day:** the Lamb died at Passover, and the Holy Spirit came at Weeks. Jesus rose "after the
 Sabbath, toward the dawn of the first day of the week" (Matthew 28:1, ESV). That this was the morning
 the first sheaf was waved is a reconstruction; it holds on the
-[AD 33 dating](../last-things/chronology-anchors.md#settling-the-crucifixion-year), where both
+[AD 33 dating](../chronology/chronology-anchors.md#settling-the-crucifixion-year), where both
 readings of "the day after the Sabbath" (Leviticus 23:11) fall on that Sunday.
 
 ## The fall feasts and the second coming

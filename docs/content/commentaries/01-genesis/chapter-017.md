@@ -16,5 +16,5 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 17:12
 - [Faith](../../salvation/faith.md) — 17:17
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 17:5
-- [The Flood and the King Lists: Which Genesis Numbers to Trust](../../god/flood-and-the-king-lists.md) — 17:17
+- [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 17:17
 <!-- commentary-index:auto-end -->

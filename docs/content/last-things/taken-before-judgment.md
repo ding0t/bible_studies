@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5:21-24"
 bible_references: ["Genesis 5:21-27", "Genesis 6:9", "Genesis 7:1", "Genesis 7:4-10", "Genesis 7:16", "Genesis 7:23", "Genesis 19:16", "Genesis 19:22-26", "2 Kings 2:3-11", "Psalm 49:15", "Psalm 73:24", "Isaiah 26:19-21", "Isaiah 54:9", "Ezekiel 14:14-20", "1 Peter 3:20", "Romans 5:14", "Luke 17:26-30", "Matthew 24:29", "Matthew 24:37-41", "Matthew 25:34", "1 Corinthians 15:51-52", "1 Thessalonians 1:10", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Hebrews 11:5-7", "2 Peter 2:4-9", "Jude 1:14-15", "Revelation 3:10"]
 date_created: 2026-09-26
-date_modified: 2026-10-04
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
@@ -138,7 +138,7 @@ judgment was taken before it came.
 
 On the Masoretic numbers, Enoch fathered Methuselah at 65 (Genesis 5:21) and was taken at 365, when Methuselah was 300. Methuselah fathered Lamech at 187, Lamech fathered Noah at 182, and
 Noah was 600 when the flood came (5:25, 28; 7:6). That puts the flood in the 969th year of
-Methuselah's life, the year he died (5:27), and 669 years after Enoch was taken. The Septuagint's numbers differ, and [The Flood and the King Lists](../god/flood-and-the-king-lists.md) explains why this site works from the Masoretic. On the Masoretic numbers, Genesis does not time Enoch's removal to the flood. What it records is a man who walked with God, was taken alive, and
+Methuselah's life, the year he died (5:27), and 669 years after Enoch was taken. The Septuagint's numbers differ, and [The Flood and the King Lists](../chronology/flood-and-the-king-lists.md) explains why this site works from the Masoretic. On the Masoretic numbers, Genesis does not time Enoch's removal to the flood. What it records is a man who walked with God, was taken alive, and
 was not on the earth when the judgment he had announced fell on it. This shows that God keeps company
 with those who walk with Him, and that death does not get the last word over them.
 

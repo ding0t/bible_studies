@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../last-things/why-not-4004-bc.md) — 22:41-42
+- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 22:41-42
 <!-- commentary-index:auto-end -->

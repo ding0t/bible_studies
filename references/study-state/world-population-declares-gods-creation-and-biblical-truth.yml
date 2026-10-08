@@ -132,7 +132,7 @@ open_questions:
   - >
     PENDING LINK (2026-09-26 simplify): the "Archaeology and the king lists" pointer in "Where this
     argument is weak" names the fork *The Flood and the King Lists* in plain text. When
-    god/flood-and-the-king-lists.md is published, turn it into a link.
+    chronology/flood-and-the-king-lists.md is published, turn it into a link.
   - >
     Two arithmetic claims in the user's supplied working summary were re-derived and found
     WRONG; the study uses the corrected figures. (1) "Halving founders costs ~16 years" --
@@ -179,7 +179,7 @@ resources_consulted:
   - {type: commentary, title: "NLT Life Application Study Bible", author: "Tyndale", note: "Same Exod 12:40 textual note; and a note on Num 1:20-48 doing exactly the 70-to-2-million growth arithmetic this study formalizes."}
   - {type: lexicon, title: "MACULA Hebrew Linguistic Datasets (WLC)", author: "Clear Bible, CC BY 4.0", note: "Morphology and lemma data for Gen 9:7, Exod 1:7; and the exhaustive occurrence list for sharats (H8317) behind the 14-occurrences/2-human finding."}
   - {type: lexicon, title: "Theological Wordbook of the Old Testament (TWOT)", author: "Harris, Archer & Waltke", note: "Root numbers and glosses: parah 1809, ravah 2103, sharats 2467, chol 623a."}
-  - {type: other, title: "This repo's own genealogy chronology", note: "docs/data/genealogy/generated/{mt,lxx}.json and docs/content/last-things/genealogy-times.md -- Zadok-year dates for Adam through Terah in MT and LXX, and the four timeline variants (MT 2348 BC, harmonized_v1 2468 BC, SP 2697 BC, LXX 1762 BC) used for the Flood-date sensitivity table."}
+  - {type: other, title: "This repo's own genealogy chronology", note: "docs/data/genealogy/generated/{mt,lxx}.json and docs/content/chronology/genealogy-times.md -- Zadok-year dates for Adam through Terah in MT and LXX, and the four timeline variants (MT 2348 BC, harmonized_v1 2468 BC, SP 2697 BC, LXX 1762 BC) used for the Flood-date sensitivity table."}
   - {type: other, title: "docs/content/feasts/zadok-calendar.md and app/src/utils/calendarConvert.js", note: "Zadok year 0 = 4004 BC; zadok_year = gregorian_year + 4004."}
 
 review_2026_08_22:
@@ -282,7 +282,7 @@ revision_2026_08_22b:
     the c. 5500 BC Byzantine Anno Mundi epoch -- and the Flood to c. 3200 BC. The convention appears
     to invert the LXX's actual effect. Required-rate figures in the study's table are unaffected
     (each computed from its own stated span). Next session: audit
-    docs/content/last-things/genealogy-times.md and docs/content/feasts/zadok-calendar.md, plus
+    docs/content/chronology/genealogy-times.md and docs/content/feasts/zadok-calendar.md, plus
     references/build/genealogy_chronology.py and app/src/utils/calendarConvert.js, before changing
     any published number.
   verification: "npm run validate 0 findings; mkdocs build --strict passes; em-dash density 0.28/sentence; negative-definition rhythm still 0."
@@ -313,7 +313,7 @@ simplify_2026-09-26:
     humanity has repeatedly exceeded -- so the short chronology needs no demographic special pleading.
   point_check: "Agrees with the file's opening thesis and closing section; no conflict."
   forks:
-    - path: docs/content/god/flood-and-the-king-lists.md
+    - path: docs/content/chronology/flood-and-the-king-lists.md
       point: >
         The archaeological conflict with a 2348 BC Flood is largely a Masoretic-numbers problem: the
         Septuagint's longer genealogies put the Flood before Egypt's First Dynasty, though not before
@@ -407,7 +407,7 @@ decision_2026-09-28_masoretic_chronology:
     The site follows the Masoretic Text for every number in Genesis 5 and 11, Terah included (205,
     Abram born at Terah 130). harmonized_v1 (MT + SP Terah 145) retired; working Flood 2288 -> 2348 BC,
     creation 3944 -> 4004 BC, Abram AM 1948 -> AM 2008 (1996 BC unchanged).
-  justification: "docs/content/god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers"
+  justification: "docs/content/chronology/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers"
 
 chronology_alignment_2026-10-01: >
   Recomputed on the 1446 BC Exodus (Flood 2303 BC; 0.486%/yr, doubling 143 years). David's census moved from 1055 BC -- before David's birth in 1041 BC -- to c. 975 BC, late in his reign: Exodus-to-David rate 0.38%/yr, David-to-Christ 0.24%/yr, headroom 1.16%/yr. Peleg note corrected to the generator's Genesis 11:10 basis. The site's single chronology line, and the reason for each date, is recorded in

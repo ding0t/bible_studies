@@ -12,7 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 2:1-7
+- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 2:1-7
 - [Fasting](../../christian-life/fasting.md) — 2:37
 - [The Appointed Times](../../feasts/feasts.md) — 2:41
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 2:52

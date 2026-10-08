@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "description": "Editorial chronology scaffolding for the Millennial Week timeline: the 7 thousand-year 'days' (2 Peter 3:8), this site's creation epoch (with one comparison epoch), externally-anchored history, and prophetic milestones. Hand-authored from this repo's own studies -- not machine-generated like docs/data/genealogy/generated/*.json. The site works to ONE chronology line: the Masoretic numbers of Genesis 5 and 11 on a 1446 BC Exodus (creation 3959 BC). Every date here should agree with docs/content/last-things/chronology-anchors.md; the justifications are recorded in references/study-state/chronology-anchors.yml (decisions_2026-10-01) and genealogy-times.yml.",
+    "description": "Editorial chronology scaffolding for the Millennial Week timeline: the 7 thousand-year 'days' (2 Peter 3:8), this site's creation epoch (with one comparison epoch), externally-anchored history, and prophetic milestones. Hand-authored from this repo's own studies -- not machine-generated like docs/data/genealogy/generated/*.json. The site works to ONE chronology line: the Masoretic numbers of Genesis 5 and 11 on a 1446 BC Exodus (creation 3959 BC). Every date here should agree with docs/content/chronology/chronology-anchors.md; the justifications are recorded in references/study-state/chronology-anchors.yml (decisions_2026-10-01) and genealogy-times.yml.",
     "sources": [
-      "docs/content/last-things/chronology-anchors.md",
+      "docs/content/chronology/chronology-anchors.md",
       "docs/content/last-things/day-is-a-thousand-years.md",
       "docs/content/last-things/day-is-near.md",
       "docs/content/last-things/prophecy-events-times.md",
-      "docs/content/last-things/genealogy-times.md"
+      "docs/content/chronology/genealogy-times.md"
     ]
   },
   "millennial_days": [
@@ -67,7 +67,7 @@
       "name": "This site (Masoretic, Exodus 1446 BC)",
       "am0_gregorian": -3959,
       "note": "Zadok year 0 = 3959 BC, counted as elapsed years since creation, so AM 3959 is AD 1 (there is no year zero). This is the epoch every published zadok_year uses: the a_prime scenario in docs/data/genealogy/index.json, active since 2026-10-01 (4004 BC, Ussher's 1491 BC Exodus, before that). Since 2026-08-22 the four genealogy variants in docs/data/genealogy/index.json each derive their OWN creation year from a shared Exodus anchor -- see each generated file's creation_bc -- so this value is the Masoretic variant's epoch, not a shared one.",
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors"
     },
     {
       "id": "millennial_2075",
@@ -102,7 +102,7 @@
       "label": "Egypt's First Dynasty begins (accession of Aha, radiocarbon)",
       "gregorian_year": -3085,
       "evidence": "Dee et al., Proc. R. Soc. A 469 (2013) 20130395: 3111-3045 BC at 68% (3218-3035 BC at 95%), median 3085 BC. Before the Flood on the MT (2303 BC), SP (2893 BC) and Cainan-free LXX (2953-3053 BC) chronologies, all on the 1446 BC Exodus anchor; only Brenton's LXX with the second Cainan (3183 BC) precedes it. Radiocarbon estimate, not a synchronism -- a weaker anchor class than the others in this list.",
-      "study_ref": "god/flood-and-the-king-lists",
+      "study_ref": "chronology/flood-and-the-king-lists",
       "core": false
     },
     {
@@ -110,7 +110,7 @@
       "label": "Djoser's accession (Old Kingdom, radiocarbon)",
       "gregorian_year": -2658,
       "evidence": "Bronk Ramsey et al., Science 328 (2010) 1554-1557: 211 short-lived samples, Bayesian model, accession 2691-2625 BC (midpoint shown). About 355 years before the MT Flood date (2303 BC). Radiocarbon estimate, not a synchronism.",
-      "study_ref": "god/flood-and-the-king-lists",
+      "study_ref": "chronology/flood-and-the-king-lists",
       "core": false
     }
   ],
@@ -153,7 +153,7 @@
       "study_ref": "last-things/day-is-near"
     }
   ],
-  "anchor_table_note": "Mirrors the table in docs/content/last-things/chronology-anchors.md row for row (number, date, tier, error bar, Zadok year). app/src/utils/chronology.test.js fails if the two disagree. 'core' rows show on the whole-week view; the rest appear when the view narrows.",
+  "anchor_table_note": "Mirrors the table in docs/content/chronology/chronology-anchors.md row for row (number, date, tier, error bar, Zadok year). app/src/utils/chronology.test.js fails if the two disagree. 'core' rows show on the whole-week view; the rest appear when the view narrows.",
   "anchor_table": [
     {
       "n": 1,
@@ -165,7 +165,7 @@
       "error": "±5",
       "zadok_year": 2993,
       "core": true,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "1 Kings 6:1's fourth year of Solomon, reached through Thiele's reconstruction of the regnal years from the Assyrian synchronisms. The Exodus 480 years earlier (1446 BC) anchors this site's creation epoch.",
       "people": [
         "solomon"
@@ -181,7 +181,7 @@
       "error": "±5",
       "zadok_year": 3000,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "people": [
         "solomon"
       ]
@@ -196,7 +196,7 @@
       "error": "±5",
       "zadok_year": 3028,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "people": [
         "solomon",
         "rehoboam"
@@ -212,7 +212,7 @@
       "error": "±3",
       "zadok_year": 3034,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Dated by 1 Kings 14:25 counted from Solomon's death in 931 BC; the identification of Shishak with Shoshenq I is widely held, and the Bubastite Portal at Karnak lists the campaign's towns without a date."
     },
     {
@@ -225,7 +225,7 @@
       "error": "±1",
       "zadok_year": 3106,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Kurkh Monolith (Shalmaneser III), synchronized via the Assyrian Eponym Canon's Bur-Sagale eclipse (763 BC). Ahab is named as 'Ahab the Israelite'."
     },
     {
@@ -238,7 +238,7 @@
       "error": "±1",
       "zadok_year": 3118,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Black Obelisk of Shalmaneser III, his 18th year: 'Jehu son of Omri' pays tribute."
     },
     {
@@ -251,7 +251,7 @@
       "error": "0",
       "zadok_year": 3196,
       "core": true,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "A solar eclipse in the Assyrian eponym list, computable to the day (15 June 763 BC). It turns the eponym list into an absolute chronology, and every Assyrian-Israelite synchronism inherits its precision."
     },
     {
@@ -264,7 +264,7 @@
       "error": "±1",
       "zadok_year": 3237,
       "core": true,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "2 Kings 17:6 and the Babylonian Chronicle credit Shalmaneser V; Sargon II claims the capture in his own inscriptions."
     },
     {
@@ -277,7 +277,7 @@
       "error": "±1",
       "zadok_year": 3258,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Sennacherib's Prism (Taylor Prism) and the Lachish reliefs, British Museum. Sennacherib names Hezekiah.",
       "people": [
         "hezekiah"
@@ -293,7 +293,7 @@
       "error": "±1",
       "zadok_year": 3354,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Babylonian Chronicle BM 21946 (ABC 5): Nebuchadnezzar defeats Egypt at Carchemish and accedes the same year.",
       "people": [
         "jehoiakim"
@@ -309,7 +309,7 @@
       "error": "0",
       "zadok_year": 3362,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Babylonian Chronicle ABC 5 (\"Jerusalem Chronicle\"), BM 21946: captured 2 Adar, Nebuchadnezzar's 7th year (16 March 597 BC). 2 Kings 24:12 counts it as his 8th, Jeremiah 52:28 as his 7th.",
       "people": [
         "jehoiachin"
@@ -325,7 +325,7 @@
       "error": "±1",
       "zadok_year": 3373,
       "core": true,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "587 or 586 BC. No Babylonian chronicle survives for the year, so it is argued from biblical synchronisms; this site follows Thiele's 586."
     },
     {
@@ -338,7 +338,7 @@
       "error": "±1",
       "zadok_year": 3386,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Ezekiel 40:1, the 25th year of the exile, 'at the beginning of the year'. Whether that is 10 Nisan or 10 Tishri (the Day of Atonement) is contested."
     },
     {
@@ -351,7 +351,7 @@
       "error": "0",
       "zadok_year": 3420,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Nabonidus Chronicle: Babylon entered 16 Tishri (12 October) 539 BC."
     },
     {
@@ -364,7 +364,7 @@
       "error": "±1",
       "zadok_year": 3421,
       "core": true,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Cyrus Cylinder; fall of Babylon dated by the Nabonidus Chronicle (539 BC). Ezra 1:1, Cyrus's first year.",
       "people": [
         "zerubbabel"
@@ -380,7 +380,7 @@
       "error": "±2",
       "zadok_year": 3423,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "people": [
         "zerubbabel"
       ]
@@ -395,7 +395,7 @@
       "error": "0",
       "zadok_year": 3439,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Haggai 1:1: 1 Elul in Darius's 2nd year, 29 August 520 BC."
     },
     {
@@ -408,7 +408,7 @@
       "error": "0",
       "zadok_year": 3444,
       "core": true,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Ezra 6:15: 3 Adar in Darius's 6th year, March 515 BC.",
       "people": [
         "zerubbabel"
@@ -424,7 +424,7 @@
       "error": "±1",
       "zadok_year": 3501,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Artaxerxes I's 7th year (Ezra 7:7-8). A minority places Ezra under Artaxerxes II (398 BC)."
     },
     {
@@ -437,7 +437,7 @@
       "error": "±1",
       "zadok_year": 3515,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Elephantine papyri fix Artaxerxes I's regnal years independently. His 20th year is 445 BC on an accession-year count and 444 BC on the Tishri count that Nehemiah 1:1 (Chislev) and 2:1 (Nisan) in the same year imply; this site follows 444 (Hoehner), chosen to fit the AD 33 crucifixion -- see chronology-anchors.md entry 20."
     },
     {
@@ -450,7 +450,7 @@
       "error": "460-400 BC",
       "zadok_year": 3529,
       "core": false,
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors"
     },
     {
       "n": 22,
@@ -462,7 +462,7 @@
       "error": "0",
       "zadok_year": 3628,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Battle of Gaugamela, 1 October 331 BC. Daniel 8:20-21 names the ram as Media and Persia and the goat as Greece."
     },
     {
@@ -475,7 +475,7 @@
       "error": "0",
       "zadok_year": 3636,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Alexander dies at Babylon in June 323 BC, aged 32: the great horn broken (Daniel 8:8)."
     },
     {
@@ -488,7 +488,7 @@
       "error": "±1",
       "zadok_year": 3658,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Battle of Ipsus settles the four kingdoms of Alexander's successors (Daniel 8:22; 11:4)."
     },
     {
@@ -501,7 +501,7 @@
       "error": "±2",
       "zadok_year": 3759,
       "core": false,
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors"
     },
     {
       "n": 26,
@@ -513,7 +513,7 @@
       "error": "0",
       "zadok_year": 3784,
       "core": false,
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors"
     },
     {
       "n": 27,
@@ -525,7 +525,7 @@
       "error": "±1",
       "zadok_year": 3788,
       "core": false,
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors"
     },
     {
       "n": 28,
@@ -537,7 +537,7 @@
       "error": "0",
       "zadok_year": 3792,
       "core": true,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "1 Maccabees 1:54, 59: 15 and 25 Kislev in the 145th Seleucid year (December 167 BC)."
     },
     {
@@ -550,7 +550,7 @@
       "error": "0",
       "zadok_year": 3795,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "1 Maccabees 4:52-54: 25 Kislev, 148th year (December 164 BC), 'at the very season and on the very day'. The Feast of Dedication of John 10:22."
     },
     {
@@ -563,7 +563,7 @@
       "error": "±1",
       "zadok_year": 3796,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "1 Maccabees 6:49, 53: Beth-zur surrenders for want of food in a sabbatical year."
     },
     {
@@ -576,7 +576,7 @@
       "error": "±1",
       "zadok_year": 3817,
       "core": false,
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors"
     },
     {
       "n": 32,
@@ -588,7 +588,7 @@
       "error": "±1",
       "zadok_year": 3824,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Josephus, Antiquities 13.234: the siege eased by a sabbatical year."
     },
     {
@@ -601,7 +601,7 @@
       "error": "0",
       "zadok_year": 3896,
       "core": false,
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors"
     },
     {
       "n": 34,
@@ -613,7 +613,7 @@
       "error": "±1",
       "zadok_year": 3919,
       "core": false,
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors"
     },
     {
       "n": 35,
@@ -625,7 +625,7 @@
       "error": "±1",
       "zadok_year": 3922,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Josephus, Antiquities 14.475: Herod takes Jerusalem in a sabbatical year."
     },
     {
@@ -638,7 +638,7 @@
       "error": "20-16 BC",
       "zadok_year": 3939,
       "core": false,
-      "study_ref": "last-things/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors"
     },
     {
       "n": 37,
@@ -650,7 +650,7 @@
       "error": "6-4 BC",
       "zadok_year": 3954,
       "core": true,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Matthew 2:1 and 2:16 against Herod's death; Luke 3:23 pulls later. The bracket holds both.",
       "people": [
         "joseph",
@@ -668,7 +668,7 @@
       "error": "±1",
       "zadok_year": 3955,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Josephus's eclipse and Passover markers for Herod's death; 4 BC is the majority view, and a minority argues for 1 BC."
     },
     {
@@ -681,7 +681,7 @@
       "error": "AD 27-30",
       "zadok_year": 3986,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "John 2:20's 'forty-six years', counted from Herod's start (20/19 BC) or from the sanctuary's completion (18/17 BC)."
     },
     {
@@ -694,7 +694,7 @@
       "error": "±1",
       "zadok_year": 3987,
       "core": false,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Luke 3:1-2: the fifteenth year of Tiberius, August AD 28 to August AD 29 counted from his accession in AD 14."
     },
     {
@@ -707,7 +707,7 @@
       "error": "0",
       "zadok_year": 3991,
       "core": true,
-      "study_ref": "last-things/chronology-anchors",
+      "study_ref": "chronology/chronology-anchors",
       "evidence": "Friday 3 April AD 33, this site's date. Only two Fridays in Pilate's prefecture carry Nisan 14 -- 7 April AD 30 and 3 April AD 33 -- and the year rests on Luke 3:1 read naturally, supported by Sejanus and by Daniel 9, which excludes AD 30 on either reckoning of the decree. AD 30 stays defensible if Tiberius's fifteenth year is counted from AD 13."
     }
   ],
@@ -720,7 +720,7 @@
       "scripture": "Genesis 1:1",
       "core": true,
       "note": "AM 0 on the Masoretic chain.",
-      "study_ref": "last-things/combined-timeline",
+      "study_ref": "chronology/combined-timeline",
       "people": [
         "eve",
         "adam"
@@ -733,7 +733,7 @@
       "scripture": "Genesis 5:5",
       "core": false,
       "note": "930 years old, inside the first thousand-year day.",
-      "study_ref": "last-things/combined-timeline",
+      "study_ref": "chronology/combined-timeline",
       "people": [
         "adam"
       ]
@@ -745,7 +745,7 @@
       "scripture": "Genesis 5:23-24",
       "core": false,
       "note": "Born AM 622, taken at 365.",
-      "study_ref": "last-things/combined-timeline",
+      "study_ref": "chronology/combined-timeline",
       "people": [
         "enoch"
       ]
@@ -757,7 +757,7 @@
       "scripture": "Genesis 7:11",
       "core": true,
       "note": "Noah's 600th year.",
-      "study_ref": "last-things/combined-timeline",
+      "study_ref": "chronology/combined-timeline",
       "people": [
         "noah",
         "shem"
@@ -770,7 +770,7 @@
       "scripture": "Genesis 10:25; 11:1-9",
       "core": false,
       "note": "Genesis gives only 'in his days'; Peleg lived AM 1757-1996. The population study models the dispersion about 200 years after the Flood.",
-      "study_ref": "last-things/combined-timeline",
+      "study_ref": "chronology/combined-timeline",
       "am_end": 1996,
       "people": [
         "peleg"
@@ -783,7 +783,7 @@
       "scripture": "Genesis 11:26, 32; 12:4; Acts 7:4",
       "core": false,
       "note": "Terah 130 at Abram's birth, which Acts 7:4 requires on the Masoretic 205.",
-      "study_ref": "last-things/combined-timeline",
+      "study_ref": "chronology/combined-timeline",
       "people": [
         "abraham",
         "terah"
@@ -796,7 +796,7 @@
       "scripture": "Genesis 12:1-4",
       "core": true,
       "note": "Abram 75; the 430 years of Galatians 3:17 run from here to the Exodus.",
-      "study_ref": "last-things/combined-timeline",
+      "study_ref": "chronology/combined-timeline",
       "people": [
         "abraham",
         "sarah"
@@ -821,7 +821,7 @@
       "scripture": "Genesis 21:5",
       "core": false,
       "note": "Abraham 100.",
-      "study_ref": "last-things/combined-timeline",
+      "study_ref": "chronology/combined-timeline",
       "people": [
         "abraham",
         "sarah",
@@ -835,7 +835,7 @@
       "scripture": "Genesis 47:9",
       "core": false,
       "note": "Jacob 130 (born AM 2168, Isaac 60, Genesis 25:26); 215 years before the Exodus.",
-      "study_ref": "last-things/combined-timeline",
+      "study_ref": "chronology/combined-timeline",
       "people": [
         "perez",
         "hezron"
@@ -848,7 +848,7 @@
       "scripture": "Joshua 4:19; Numbers 14:33-34",
       "core": false,
       "note": "Forty years after the Exodus.",
-      "study_ref": "last-things/combined-timeline"
+      "study_ref": "chronology/combined-timeline"
     }
   ],
   "future_sequence": {
@@ -1450,7 +1450,7 @@
         "label": "The temple cleared",
         "refs": "Mark 11:12-19; Matthew 21:12-17",
         "certainty": "contested",
-        "study_ref": "last-things/chronology-anchors",
+        "study_ref": "chronology/chronology-anchors",
         "note": "Mark places it on the day after the entry (11:12, 15). John records an earlier clearing at the first Passover of the ministry (John 2:13-22).",
         "people": [
           "jesus"
@@ -1476,7 +1476,7 @@
         "label": "\"Two days before the Passover\": the plot, and Judas",
         "refs": "Mark 14:1-2, 10-11; Matthew 26:1-5, 14-16",
         "certainty": "stated",
-        "study_ref": "last-things/chronology-anchors",
+        "study_ref": "chronology/chronology-anchors",
         "note": "Mark 14:1 dates it two days before the Passover and the Feast of Unleavened Bread.",
         "people": [
           "jesus"

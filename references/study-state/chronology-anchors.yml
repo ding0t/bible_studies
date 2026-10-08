@@ -1,7 +1,7 @@
 slug: "chronology-anchors"
 title: "Chronology Anchors: What Can Actually Be Dated, and How Tightly"
 status: published
-target_path: "docs/content/last-things/chronology-anchors.md"
+target_path: "docs/content/chronology/chronology-anchors.md"
 
 primary_passage: "1 Kings 6:1"
 genre: [topical, ot-narrative, prophets]
@@ -33,7 +33,7 @@ stages:
     cultural_vs_transcultural: {done: true, notes: "Accession-year vs non-accession regnal reckoning explained once at entry 11 (2 Kgs 24:12 vs BM 21946) and reused; it is a scribal convention difference, not an error in either source."}
     theological_principle: {done: true, notes: "God keeps appointments in datable time. The rail exists to be checkable, not to be impressive."}
   cross_reference: {done: true, translations_compared: ["ESV"], divergences_noted: "none bearing on dates"}
-  drafting: {done: true, file: "docs/content/last-things/chronology-anchors.md"}
+  drafting: {done: true, file: "docs/content/chronology/chronology-anchors.md"}
   review: {done: true, validated: true}
 
 settled_questions:
@@ -291,7 +291,7 @@ chronology_line:
     tables of other reckonings), never as the date a study argues from. A study that needs a
     different date says so and records why in its state file.
   register:
-    - {event: "Genesis 5 and 11 numbers", value: "Masoretic Text throughout, Terah 205 (Abram born at Terah 130)", why: "Genesis 7:23 rules out the LXX Methuselah; SP/LXX share one secondary text type (Steinmann, JETS 64/1, 2021); their +100 and Terah 145 read as harmonizations", source: "god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers; genealogy-times.yml decision_2026-09-28_masoretic_chronology"}
+    - {event: "Genesis 5 and 11 numbers", value: "Masoretic Text throughout, Terah 205 (Abram born at Terah 130)", why: "Genesis 7:23 rules out the LXX Methuselah; SP/LXX share one secondary text type (Steinmann, JETS 64/1, 2021); their +100 and Terah 145 read as harmonizations", source: "chronology/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers; genealogy-times.yml decision_2026-09-28_masoretic_chronology"}
     - {event: "Solomon's 4th year", value: "966 BC (+/-5)", why: "Thiele, via Qarqar 853 / Jehu 841 and the 763 BC Bur-Sagale eclipse; ESV SB 1 Kgs 6:1 note 'around the year 966 B.C.'", source: "chronology-anchors.md entry 1"}
     - {event: "Exodus", value: "1446 BC = AM 2513", why: "1 Kings 6:1's 480th year counted back from 966 BC; the Masoretic chain puts the Exodus at AM 2513 (Abram AM 2008 + 75 + 430, Galatians 3:17)", source: "index.json chronology_scenarios.a_prime"}
     - {event: "Creation", value: "3959 BC = AM 0", why: "1446 + 2513", source: "genealogy_chronology.py"}

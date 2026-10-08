@@ -2,11 +2,11 @@
 title: "The Combined Timeline: One Line, Two Zones"
 category: "prophecy"
 description: "Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,646 years at creation and converge on Abraham to the year."
-tags: ["chronology", "genealogy", "creation", "method/textual-criticism", "status/investigation"]
+tags: ["genealogy", "creation", "method/textual-criticism", "status/investigation"]
 draft: false
 primary_passage: "Genesis 11:10-32"
 bible_references: ["Genesis 5:1-32", "Genesis 7:11", "Genesis 11:10-32", "Genesis 12:4", "Exodus 12:40-41", "1 Kings 6:1", "Acts 7:4", "Galatians 3:17"]
-date_created: 2026-08-22
+date_created: 2026-10-08
 date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
@@ -99,7 +99,7 @@ Anno Mundi year and Gregorian date both move here, and they move together. Figur
 | **Abram born** | **AM 2008 · 1951 BC** | **AM 3474 · 1951 BC** | **AM 2249 · 1951 BC** |
 
 The site follows the Masoretic numbers. The reasons, and the confidence each carries, are set out
-in [The Flood and the King Lists](../god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers).
+in [The Flood and the King Lists](flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers).
 Until 2026-09-28 a fourth path, `harmonized_v1`, took the Samaritan age for Terah; it has been
 retired.
 
@@ -160,6 +160,6 @@ The manuscript question and the epoch are independent. Nothing about choosing a 
 - [Genealogy and Times](genealogy-times.md) — the manuscript evidence for the elastic zone, and the three timeline variants.
 - [Chronology Anchors](chronology-anchors.md) — the forty-one datable events below Abraham, with tiers and error bars.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) — the calendar these Anno Mundi years are counted in, and the four epoch scenarios.
-- [A Day Is a Thousand Years](day-is-a-thousand-years.md) — the millennial-week reading, and why the epoch question bears on it.
+- [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) — the millennial-week reading, and why the epoch question bears on it.
 - `docs/data/genealogy/` — the source data. Per-tradition textual facts in `antediluvian.json` and `patriarchal.json`, anchoring decisions in `index.json`, and derived years in `generated/`, all produced by `references/build/genealogy_chronology.py`.
 - **ESV Bible** (Crossway) — all scripture verified against `study-notes.db`.

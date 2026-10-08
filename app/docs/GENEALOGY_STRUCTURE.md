@@ -80,7 +80,7 @@ All parent-child relationships are preserved across era boundaries:
 - **Date Range**: Zadok 3489-4036 (Gregorian -515 to 33 AD)
 - **Description**: Post-exile Jerusalem through Jesus Christ. Dates from David onward (see
   conquest-judges.json's Solomon record through here) are anchored to real history per
-  `docs/content/last-things/chronology-anchors.md`, not the ~25-year-per-generation placeholder
+  `docs/content/chronology/chronology-anchors.md`, not the ~25-year-per-generation placeholder
   spacing used further up the file set.
 - **Key Figures**: Joseph, Mary, Jesus
 - **File**: second-temple.json

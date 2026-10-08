@@ -2,14 +2,14 @@
 title: "The Flood and the King Lists: Which Genesis Numbers to Trust"
 category: "theology"
 description: "Genesis 5 and 11 survive in three versions whose numbers put the Flood anywhere from 2303 to 3183 BC. Weighing the Masoretic Text, Septuagint and Samaritan Pentateuch by Scripture's own consistency first, and only then against Egypt's king lists, radiocarbon, tree rings and varves."
-tags: ["chronology", "genealogy", "apologetics", "genesis", "babel", "young-earth", "septuagint", "method/archaeology", "method/textual-criticism"]
+tags: ["genealogy", "apologetics", "genesis", "babel", "young-earth", "septuagint", "method/archaeology", "method/textual-criticism"]
 draft: false
 zadok_year: 1656
 gregorian_year: -2303
 primary_passage: "Genesis 5:1-32; Genesis 11:10-26"
 bible_references: ["Genesis 5:3-5", "Genesis 5:24-27", "Genesis 7:6", "Genesis 7:11", "Genesis 7:23", "Genesis 11:1-9", "Genesis 11:26", "Genesis 11:32", "Genesis 12:4", "Genesis 17:17", "Genesis 21:5", "Genesis 25:7", "1 Chronicles 1:24", "Isaiah 40:8", "Luke 3:36-38", "Acts 7:4", "Acts 7:14", "Romans 3:2", "Hebrews 11:5", "1 Peter 3:20"]
-date_created: 2026-09-26
-date_modified: 2026-09-30
+date_created: 2026-10-08
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -28,9 +28,9 @@ Genesis 5 and 11 best, because the Septuagint and Samaritan numbers carry the ma
 solving problems; and since no defensible reading moves the Flood before Egypt's First Dynasty,
 the conflict with archaeology is real under every text and cannot be solved by changing manuscripts.
 
-This study grew out of [What World Population Declares](world-population-declares-gods-creation-and-biblical-truth.md),
+This study grew out of [What World Population Declares](../god/world-population-declares-gods-creation-and-biblical-truth.md),
 which relies on the same chronology for its growth-rate arithmetic. The manuscript tables behind it
-are in [Genealogy and Times](../last-things/genealogy-times.md).
+are in [Genealogy and Times](genealogy-times.md).
 
 ## Key Takeaways
 
@@ -111,7 +111,7 @@ Three witnesses carry those numbers:
 - **The Samaritan Pentateuch (SP)** is the Hebrew Torah of the Samaritan community, a branch that
   Sidney Jellicoe dates no earlier than Hasmonean times (second century BC).
 
-The full tables are in [Genealogy and Times](../last-things/genealogy-times.md#the-three-witnesses).
+The full tables are in [Genealogy and Times](genealogy-times.md#the-three-witnesses).
 Adding each tradition's numbers, anchored as this site anchors them, gives three Flood dates:
 
 | Reading | Flood (year of the world) | Flood (BC) |
@@ -143,7 +143,7 @@ dies in AM 1656, the year of the Flood. In the Samaritan text he dies in AM 1307
 year. In the Septuagint he fathers Lamech at 167 where the Hebrew has 187, and the chain carries his
 death to AM 2256, fourteen years *after* the Flood. A text in which Methuselah outlives the Flood
 contradicts Genesis 7:23, so on this point it cannot be what Moses wrote. The arithmetic is set out
-in [Genealogy and Times](../last-things/genealogy-times.md#methuselah-the-name-the-number-and-the-flood).
+in [Genealogy and Times](genealogy-times.md#methuselah-the-name-the-number-and-the-flood).
 
 The early church noticed. Theophilus of Antioch (*To Autolycus* 3.24, c. AD 180) copies the Greek
 numbers with 167 and totals the years to the Flood at 2242. Julius Africanus (*Chronography*,
@@ -162,7 +162,7 @@ number: "the son of Cainan, the son of Arphaxad" (ESV). Only the Septuagint has 
 Genesis 11. His presence in Luke is itself contested. The earliest manuscript of Luke, 𝔓⁷⁵, lacks
 him, and so does Codex Bezae; 1 Chronicles 1:24 runs "Shem, Arpachshad, Shelah" (ESV) in the Hebrew
 and the Greek alike; and the Septuagint gives him exactly the two numbers it gives Shelah. Theophilus
-and Africanus, both working from the Greek, omit him. [Genealogy and Times](../last-things/genealogy-times.md#the-cainan-question)
+and Africanus, both working from the Greek, omit him. [Genealogy and Times](genealogy-times.md#the-cainan-question)
 concludes that he entered Luke by a copying slip and was then written into Greek Genesis to match,
 with the case on both sides.
 
@@ -229,7 +229,7 @@ and each should be read at its own level:
 
 - **Settled.** The Septuagint of Genesis 5 as printed cannot be original, because of Methuselah. The
   second Cainan is secondary on the balance of the evidence (NA28 still prints him at Luke 3:36, and
-  Helen Jacobus has argued he is original; see [Genealogy and Times](../last-things/genealogy-times.md#the-contested-counter-and-the-working-position)).
+  Helen Jacobus has argued he is original; see [Genealogy and Times](genealogy-times.md#the-contested-counter-and-the-working-position)).
 - **Strong.** In Genesis 5, the Hebrew and Samaritan agree on six of nine fathering ages. The
   Greek's +100 on those six keeps every total unchanged, the fingerprint of an editor.
 - **Contested.** In Genesis 11, the Samaritan and Greek agree on six +100s against the Hebrew.
@@ -276,7 +276,7 @@ the world now follow it. The reasons, with their confidence:
   use; 2303 BC since the anchor moved to 1446 BC).
 
 The Exodus anchor is a separate decision, settled on 2026-10-01 at 1446 BC from 1 Kings 6:1; see
-[Genealogy and Times](../last-things/genealogy-times.md#what-stays-open).
+[Genealogy and Times](genealogy-times.md#what-stays-open).
 
 ## Testing it against Egypt and Sumer
 
@@ -421,5 +421,5 @@ text has not been changed.
 - **Sumerian King List**, Weld-Blundell Prism (WB 444, Ashmolean Museum); **Thorkild Jacobsen,**
   *The Sumerian King List* (Oriental Institute, 1939).
 - ***NIV Cultural Backgrounds Study Bible*** (Zondervan), note on Genesis 11:1.
-- [Genealogy and Times](../last-things/genealogy-times.md) — the manuscript tables, the Cainan
+- [Genealogy and Times](genealogy-times.md) — the manuscript tables, the Cainan
   question and the Methuselah arithmetic this study relies on.

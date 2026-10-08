@@ -5,7 +5,7 @@ description: "The English translations, Hebrew Masoretic witnesses, and Greek Ne
 tags: ["translations", "versions", "lang/hebrew", "lang/greek", "septuagint", "masoretic", "method/textual-criticism"]
 draft: false
 date_created: 2025-06-07
-date_modified: 2026-09-27
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -367,7 +367,7 @@ one to read.)
 
 **What checks out here.** The genealogical divergence is real and queryable in this repo: at Genesis
 5:3 Brenton's Septuagint reads *τριάκοντα καὶ διακόσια* — 230 years to Seth's birth — where the
-Hebrew reads 130. [Genealogy and the Age of the Earth](../last-things/genealogy-times.md) tables all
+Hebrew reads 130. [Genealogy and the Age of the Earth](../chronology/genealogy-times.md) tables all
 three traditions generation by generation. And on the one verse of Genesis 5 the scrolls actually
 preserve, his dates column holds: 4Q2 at Genesis 5:13 reads *eight hundred and forty*, siding with
 the Masoretic against the Septuagint's 740.

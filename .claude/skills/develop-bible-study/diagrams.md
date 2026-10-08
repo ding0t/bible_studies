@@ -137,7 +137,7 @@ now renders at 100%:
 | Was | Now | File |
 |---|---|---|
 | 2790 (20%) | 346 (100%) | `god/world-population-declares-gods-creation-and-biblical-truth.md` |
-| 2390 (24%) | 346 (100%) | `last-things/combined-timeline.md` |
+| 2390 (24%) | 346 (100%) | `chronology/combined-timeline.md` |
 | 2190 (26%) | 552 (100%) | `last-things/rapture.md` |
 | 1990 (28%) | 276 (100%) | `last-things/prophecy-chart.md` |
 | 1390 (41%) | 249 (100%) | `last-things/day-is-near.md` |
@@ -153,7 +153,7 @@ The 2026-09-04 table, for the twelve fixed then:
 | 3725 (15%) | 1178 (48%) | `about/about-our-datasets.md` |
 | 3265 (17%) | 276 (100%) | `last-things/olivet-discourse.md` |
 | 2084 (27%) | 558 (100%) | `resources/site-architecture.md` |
-| 1975 (29%) | 826 (68%) | `last-things/combined-timeline.md` |
+| 1975 (29%) | 826 (68%) | `chronology/combined-timeline.md` |
 | 1910 (29%) | 518 (100%) | `last-things/prophecy-chart.md` |
 | 1638 (34%) | 269 (100%) | `israel-and-church/bride-of-christ.md` |
 | 1407 (40%) | 276 (100%) | `last-things/rapture.md` |

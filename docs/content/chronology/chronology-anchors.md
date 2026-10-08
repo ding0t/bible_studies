@@ -2,11 +2,11 @@
 title: "Chronology Anchors: What Can Actually Be Dated, and How Tightly"
 category: "prophecy"
 description: "Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its Zadok year. The fixed rail the rest of the biblical timeline hangs from."
-tags: ["chronology", "genealogy", "archaeology", "method/archaeology", "status/investigation"]
+tags: ["genealogy", "archaeology", "method/archaeology", "status/investigation"]
 draft: false
 primary_passage: "1 Kings 6:1"
 bible_references: ["1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20"]
-date_created: 2026-08-22
+date_created: 2026-10-08
 date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
@@ -215,7 +215,7 @@ the terminus a year later for exactly this reason: on Anderson's own numbers an 
 falls on the wrong day of the week for a Friday Passover. A date that satisfies the arithmetic of
 Daniel 9 but puts the crucifixion on a weekday the Gospels exclude is not a candidate; it is a
 calculation needing correction, which is what Hoehner gave it. See
-[Prophecy: Events and Times](prophecy-events-times.md#the-arithmetic) for both versions of that sum
+[Prophecy: Events and Times](../last-things/prophecy-events-times.md#the-arithmetic) for both versions of that sum
 and the two-to-four-day slack in each.
 
 ### Luke 3:1 and the fifteenth year of Tiberius

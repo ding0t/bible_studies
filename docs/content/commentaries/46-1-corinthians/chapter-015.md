@@ -20,7 +20,7 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 15:4
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 15:51-53
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 15:20-23
-- [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 15:22
+- [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 15:22
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 15:42
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 15:51
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 15:8-10

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:29-31; Daniel 9:24-27"
 bible_references: ["Matthew 24:1-31", "Daniel 9:1", "Matthew 4:20", "Matthew 26:74", "Mark 13:24", "Daniel 9:2", "Daniel 9:19", "Daniel 9:24-27", "Daniel 2:44", "Luke 21:20-24", "Luke 4:16-21", "Isaiah 61:1-2", "2 Thessalonians 2:3-4", "1 Thessalonians 4:16-17", "2 Thessalonians 2:1", "1 Corinthians 15:51", "Romans 11:25-26", "Hebrews 10:1-9", "Daniel 7:13-14", "Daniel 12:1", "Revelation 7:14", "Revelation 19:11-16", "Revelation 21:1-4", "Revelation 20:1-15", "2 Peter 3:7-13", "Zechariah 14:4", "Revelation 4:1", "Revelation 6:1-12", "1 Corinthians 15:3", "Zechariah 14:1-2", "Daniel 9:25"]
 date_created: 2026-09-26
-date_modified: 2026-10-03
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -246,7 +246,7 @@ offering. And on the wing of abominations shall come one who makes desolate" (9:
 
 Daniel's sentence sets no clock between AD 70 and that covenant. Three events, in sequence,
 separately timed; two have happened. How the sixty-nine weeks are dated to the cross is worked out in
-[Chronology Anchors](chronology-anchors.md).
+[Chronology Anchors](../chronology/chronology-anchors.md).
 
 ### Whose covenant? The contested "he" of 9:27
 
@@ -277,7 +277,7 @@ noting across it that "the present dispensation of 'the Church' was not revealed
 2's image runs the length of the chart as "the times of the Gentiles" (Luke 21:24), and the seventieth
 week closes at Zechariah 14:4 — the Mount of Olives. From
 [clarencelarkincharts.com](http://clarencelarkincharts.com/). Larkin's AD 30 for the cross is his own
-date; this site's reckoning is in [Chronology Anchors](chronology-anchors.md).*
+date; this site's reckoning is in [Chronology Anchors](../chronology/chronology-anchors.md).*
 
 The same weeks on this site's reckoning, from Nehemiah's decree in 444 BC to the Triumphal Entry in
 AD 33 (Harold Hoehner's count, worked through in [Prophecy Events and
@@ -412,7 +412,7 @@ began at the cross. So you, who are saved by that same atonement now, may look f
 
 - [The Olivet Discourse](olivet-discourse.md) — the whole discourse, including AD 70 and the
   abomination of desolation at verse 15.
-- [Chronology Anchors](chronology-anchors.md) — dating the sixty-nine weeks.
+- [Chronology Anchors](../chronology/chronology-anchors.md) — dating the sixty-nine weeks.
 - [The Fig Tree and This Generation](fig-tree-and-this-generation.md) — Matthew 24:32-35 and the
   generation that sees the week begin.
 - [Israel's Regathering and Refining](../israel-and-church/israels-regathering-and-refining.md) — the

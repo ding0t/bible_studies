@@ -20,5 +20,5 @@ draft: false
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 4:25-26
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 4:5
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:7
-- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../last-things/why-not-4004-bc.md) — 4:4
+- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 4:4
 <!-- commentary-index:auto-end -->

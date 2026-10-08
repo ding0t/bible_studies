@@ -1,7 +1,7 @@
 slug: "flood-and-the-king-lists"
 title: "The Flood and the King Lists: Which Genesis Numbers to Trust"
 status: published # 2026-09-28, author approved
-target_path: "docs/content/god/flood-and-the-king-lists.md"
+target_path: "docs/content/chronology/flood-and-the-king-lists.md"
 primary_passage: "Genesis 5:1-32; Genesis 11:10-26"
 forked_from: "docs/content/god/world-population-declares-gods-creation-and-biblical-truth.md"
 point: "Tested first by Scripture's own consistency, the Masoretic Text preserves Genesis 5 and 11 best; no defensible reading puts the Flood before Egypt's First Dynasty, so the archaeological conflict is real under every text."  # superseded the fork's LXX-resolves-it point on 2026-09-28
@@ -123,7 +123,7 @@ develop_2026-09-28:
     - "No new timeline_variant: the recommendation is the existing mt variant; the data model cannot drop Cainan from the lxx chain without a code change."
     - "genealogy-times.md: one plain-text paragraph qualifying 'LXX puts the Flood before Dynasty 1' (no link to this draft, so --strict stays green)."
   at_publish:
-    - "Add study_ref 'god/flood-and-the-king-lists' to the two chronology.json anchors."
+    - "Add study_ref 'chronology/flood-and-the-king-lists' to the two chronology.json anchors."
     - "Frontmatter event: zadok_year 1656 / gregorian_year -2348 (MT Flood). Deliberately NOT added while draft: build-events.js does not filter drafts and would plant a 404 link on the live timeline."
     - "Turn the plain-text pointers in world-population and genealogy-times into links."
     - "Run read-bible-study in a separate session; then review-bible-study."
@@ -152,7 +152,7 @@ decision_2026-09-28:
     - "index.json: harmonized_v1 removed (-> retired_timeline_variants); mt description marks it the working chronology; sp gets terah_to_abram 70 (fixes SP 2998 -> 2938 BC, creation 4305 -> 4245); shared terah_to_abram_basis and a_double_prime / ussher_published / a_prime Nahor rationale reworded per Steinmann."
     - "generated/harmonized_v1.json deleted; generated/sp.json regenerated."
     - "chronology.js, MillennialWeek.jsx (default lanes mt + lxx), chronology.test.js, genealogy_chronology.py docstring."
-    - "chronology.json anchors now carry study_ref god/flood-and-the-king-lists."
+    - "chronology.json anchors now carry study_ref chronology/flood-and-the-king-lists."
     - "Content: flood study, genealogy-times, combined-timeline, world-population, zadok-calendar, timeline.md, genealogy.md, index.md."
     - "Frontmatter event added: zadok_year 1656, gregorian_year -2348."
   not_changed:

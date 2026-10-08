@@ -37,6 +37,7 @@ SECTION_BLURBS = {
     "spiritual-beings": "Angels, demons, and the discernment of spirits.",
     "spiritual-beings/deliverance": "The biblical basis for and practice of deliverance ministry.",
     "israel-and-church": "The covenants, the distinction between Israel and the Church, and the Hebrew roots of the faith.",
+    "chronology": "Dating biblical history -- what can be fixed to a year, how the numbers in Scripture add up, and the one timeline this site works to.",
     "last-things": "End-times prophecy, read dispensationally.",
     "feasts": "The biblical feasts and calendars, their Old Testament instruction, and their fulfillment.",
     "christian-life": "Prayer, fasting, and the disciplines of walking with Christ.",

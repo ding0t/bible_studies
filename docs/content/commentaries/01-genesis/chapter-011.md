@@ -12,9 +12,9 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 11:10-32 (primary passage)
-- [The Combined Timeline: One Line, Two Zones](../../last-things/combined-timeline.md) — 11:10-32 (primary passage)
-- [The Flood and the King Lists: Which Genesis Numbers to Trust](../../god/flood-and-the-king-lists.md) — 11:10-26 (primary passage)
+- [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 11:10-32 (primary passage)
+- [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 11:10-32 (primary passage)
+- [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 11:10-26 (primary passage)
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 11:10-11
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 11:1-9
 <!-- commentary-index:auto-end -->

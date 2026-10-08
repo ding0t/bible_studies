@@ -125,7 +125,7 @@ develop_forks:
     not_started:
       - "christian-life/how-god-answers-prayer.md (parent prayer-as-communion)"
       - "christian-life/supplication.md (parent prayer-as-communion; 556 words -- may be better folded back or dropped: author's call)"
-      - "god/flood-and-the-king-lists.md (parent world-population; its last section refers to 'the required-rate column above', which stayed in the parent)"
+      - "chronology/flood-and-the-king-lists.md (parent world-population; its last section refers to 'the required-rate column above', which stayed in the parent)"
   publish_notes: >
     Link-order dependency: fig-tree links to immediately-after and heaven-and-earth; heaven-and-earth
     links to fig-tree. Publish those together or the strict build fails. On publishing any fork,

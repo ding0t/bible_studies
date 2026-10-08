@@ -60,6 +60,7 @@ Lewis Sperry Chafer's *Systematic Theology* and Charles Ryrie's *Basic Theology*
 | **Spiritual beings** | Angelology & Demonology | 235 | Angels, demons, Satan, the Nephilim, deliverance, and discernment of spirits |
 | **Last things** | Eschatology | 236 | The rapture, the tribulation, the millennium, judgment, and the ordering of end-times events |
 | **Israel and the Church** | Ecclesiology *(+ the dispensational distinction)* | 262 | The covenants, the relationship and distinction between Israel and the Church, and the Hebrew roots of Christian faith and practice |
+| **Chronology** | *Biblical chronology* | 220.9 | Dating biblical history: the events an outside record fixes, the reigns of the kings, the Exodus, the genealogies of Genesis 5 and 11, and the one timeline the site works to |
 | **Christian life** | Practical theology | 248 | Prayer, fasting, and the disciplines of walking with Christ |
 | **Wisdom** | *Wisdom literature* | 223 | What Proverbs, Ecclesiastes, Job, the Song of Songs and James teach about living skilfully before God, and personal reflections from reading them |
 | **Feasts** | *Appointed times* | 263 | The biblical feasts and calendars: their Old Testament instruction, their observance, and their fulfilment |
@@ -78,13 +79,14 @@ nothing, and the extra path segment appears in every URL forever.
 
 ```
 about/              biblical-figures/   christian-life/
-commentaries/       feasts/             god/
-israel-and-church/  jesus/              last-things/
-resources/          salvation/          scripture/
-sermons/            sin/                spiritual-beings/
+chronology/         commentaries/       feasts/
+god/                israel-and-church/  jesus/
+last-things/        resources/          salvation/
+scripture/          sermons/            sin/
+spiritual-beings/   wisdom/
 ```
 
-Fifteen top-level entries sounds like a lot, but `navigation.prune` is enabled in `mkdocs.yml`, so
+Seventeen top-level entries sounds like a lot, but `navigation.prune` is enabled in `mkdocs.yml`, so
 the sidebar only ever renders the branch you are actually in.
 
 ### Navigation order is deliberate
@@ -104,6 +106,7 @@ nav:
   - sin
   - salvation
   - israel-and-church
+  - chronology
   - last-things
   - feasts
   - christian-life
@@ -234,13 +237,18 @@ Metadata that generates something visible stays correct because breaking it is i
 
 ## Known awkward cases
 
-Two existing studies do not have an obviously right home, and it is more honest to name them than to
+One existing study does not have an obviously right home, and it is more honest to name it than to
 pretend the scheme is seamless:
 
 - **Biblical Numerology** — it is about a pattern *in* the text, which argues for Scripture, but it
   is not about the text's transmission or canon like everything else there.
-- **Genealogy and Times** — chronology from creation to Christ, which touches Scripture (dating),
-  Biblical figures (the genealogies), and Last things (it feeds the prophetic timeline).
 
-Both are filed by primary subject and tagged for the secondary one. Any taxonomy applied to real
-material produces a few of these; the fix is a good tag, not a new folder.
+It is filed by primary subject and tagged for the secondary one. Any taxonomy applied to real
+material produces a few of these, and for a single page the fix is a good tag, not a new folder.
+
+**When the awkward cases become a body of work, they get a section.** Genealogy and Times used to sit
+here, filed under Last things because it feeds the prophetic timeline. By October 2026 it had five
+companions dating biblical history (Chronology Anchors, the 480 years from the Exodus to the
+temple, Ussher's 4004 BC, the Flood and the king lists, and the Combined Timeline), split across
+Last things and God, and most of them were about dating history, a subject neither section covers.
+They moved into **Chronology** on 2026-10-08, with redirects from the old addresses.

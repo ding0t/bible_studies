@@ -17,7 +17,7 @@ draft: false
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 9:24-27 (primary passage)
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 9:24-27
 - [Charting End Times](../../last-things/prophecy-chart.md) — 9:27
-- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 9:2
+- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 9:2
 - [Fasting](../../christian-life/fasting.md) — 9:3
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 9:24-27
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 9:2-3

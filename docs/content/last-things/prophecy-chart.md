@@ -6,7 +6,7 @@ tags: ["chart", "timeline", "dispensationalism", "larkin"]
 draft: false
 bible_references: ["Genesis 1:1-2:3", "Exodus 20:11", "Colossians 2:16-17", "Hebrews 4:9", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 19:7-9", "Revelation 20:1-6", "Zechariah 14:4-5", "Luke 16:19-31", "Luke 23:43", "2 Corinthians 5:8", "Philippians 1:23", "Ephesians 4:8-10"]
 date_created: 2024-05-29
-date_modified: 2026-10-05
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -43,7 +43,7 @@ Sabbath-like millennium -- is argued at length in [A Day Is a Thousand Years](da
 *calendar dates* Larkin prints (Eden at 4000 BC, Solomon at 1000 BC, and so on) are not this site's
 settled chronology. This site's dates follow the Masoretic numbers on a 1446 BC Exodus: creation
 at 3959 BC and the year 6000 in AD 2042, with the reasons in [Chronology
-Anchors](chronology-anchors.md) and [A Day Is a Thousand Years](day-is-a-thousand-years.md#six-days-of-history).
+Anchors](../chronology/chronology-anchors.md) and [A Day Is a Thousand Years](day-is-a-thousand-years.md#six-days-of-history).
 
 The same seven days redrawn on this site's chronology, each event placed by its year, with the theme
 [Six Days of History](six-days-of-history.md) reads in each day:
@@ -121,5 +121,5 @@ adds, in blue, the verses At Home with the Lord rests each point on.
 - [A Day Is a Thousand Years](day-is-a-thousand-years.md) -- the six-then-seventh chronological pattern behind the "seven
   thousand years" chart.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) and [Bible Chronology & Genealogical
-  Time](genealogy-times.md) -- this site's chronology studies, which Larkin's printed dates above
+  Time](../chronology/genealogy-times.md) -- this site's chronology studies, which Larkin's printed dates above
   are checked against.

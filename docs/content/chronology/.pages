@@ -1,0 +1,12 @@
+# Reading order: what is fixed, then each stretch counted back from it, then the whole line.
+# four-hundred-and-eighty-years.md is a draft, and hooks/draft_pages.py drops drafts from the
+# build, so naming it here fails `mkdocs build --strict`. Add it after chronology-anchors.md in
+# the commit that publishes it.
+nav:
+  - index.md
+  - chronology-anchors.md
+  - why-not-4004-bc.md
+  - flood-and-the-king-lists.md
+  - genealogy-times.md
+  - combined-timeline.md
+  - ...

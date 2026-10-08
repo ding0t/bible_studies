@@ -22,6 +22,7 @@ Named from the systematic-theology loci in plain English:
 | `spiritual-beings/` | Angelology & Demonology | Angels, demons, Satan, Nephilim, deliverance, discernment of spirits |
 | `israel-and-church/` | Ecclesiology + the dispensational distinction | Covenants, Israel/Church, Hebrew roots |
 | `last-things/` | Eschatology | Rapture, tribulation, millennium, judgment, ordering of events |
+| `chronology/` | *Biblical chronology* | Dating biblical history: anchors, reigns, the Exodus, the Genesis 5 and 11 numbers, the combined timeline. A study that only *uses* a date goes with its subject |
 | `feasts/` | *Appointed times* | The feasts and calendars |
 | `christian-life/` | Practical theology | Prayer, fasting, the disciplines |
 | `commentaries/<nn>-<book>/` | — | Book studies and chapter notes, filed by book |

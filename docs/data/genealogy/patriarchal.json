@@ -179,7 +179,7 @@
           "magnitude_years": 100,
           "confidence": "medium",
           "description": "SP and LXX both add 100 to the fathering ages of Arpachshad, Shelah, Eber, Peleg, Reu and Serug (and 50 to Nahor). Steinmann's collation of all 860 Genesis variants finds SP and LXX share 96 secondary readings against 4 (MT+SP) and 2 (MT+LXX), so their agreement here counts as one text type, not two witnesses. He reads the lengthening as a scribal fix for MT's crowded family (on MT with Terah 130: Shem dies AM 2158, after Isaac's birth; Eber dies AM 2187, after Abraham). Contested: Henry B. Smith Jr. (ICC 2018) argues the longer numbers are original.",
-          "theological_significance": "Worth about 590 years on the post-Flood chain (on the 1446 BC Exodus anchor: MT Flood 2303 BC; SP chain 2893 BC; LXX without Cainan 2953-3053 BC). No reading moves the Flood clearly before Egypt's First Dynasty (Aha, 3111-3045 BC) except the LXX with the second Cainan. Source: Steinmann, 'A Comparison of the Text of Genesis in Three Traditions', JETS 64/1 (2021) 25-43; see docs/content/god/flood-and-the-king-lists.md"
+          "theological_significance": "Worth about 590 years on the post-Flood chain (on the 1446 BC Exodus anchor: MT Flood 2303 BC; SP chain 2893 BC; LXX without Cainan 2953-3053 BC). No reading moves the Flood clearly before Egypt's First Dynasty (Aha, 3111-3045 BC) except the LXX with the second Cainan. Source: Steinmann, 'A Comparison of the Text of Genesis in Three Traditions', JETS 64/1 (2021) 25-43; see docs/content/chronology/flood-and-the-king-lists.md"
         }
       ],
       "bible_references": [
@@ -779,7 +779,7 @@
           "magnitude_years": 50,
           "confidence": "medium",
           "description": "Steinmann reads SP's 79 as MT's 29 plus 50, with years-after reduced by 50 to keep MT's total -- the same compensating move SP makes for Shelah through Serug -- so 79 confirms 29 rather than outvoting it. He also reports the best Greek reading (Goettingen, including Alexandrinus) as 79, making Brenton's 179 a further +100. This bears on the a_double_prime scenario in index.json, which adopts 79 as better attested.",
-          "theological_significance": "50 years on every date above Nahor. Source: Steinmann, 'A Comparison of the Text of Genesis in Three Traditions', JETS 64/1 (2021) 25-43; see docs/content/god/flood-and-the-king-lists.md"
+          "theological_significance": "50 years on every date above Nahor. Source: Steinmann, 'A Comparison of the Text of Genesis in Three Traditions', JETS 64/1 (2021) 25-43; see docs/content/chronology/flood-and-the-king-lists.md"
         }
       ],
       "bible_references": [
@@ -883,7 +883,7 @@
           "magnitude_years": 60,
           "confidence": "medium",
           "description": "Steinmann judges SP's 145 a harmonization of Genesis 11:26 with Genesis 12:4 and Acts 7:4, in keeping with SP's general tendency, and MT's 205 the better reading (Abram named first for importance, born when Terah was 130). On 2026-09-28 the site adopted MT's 205 on this basis and retired harmonized_v1, the variant that had taken SP's 145.",
-          "theological_significance": "60 years on every date above Abram (the retired harmonized_v1 put the Flood at 2288 BC against MT's 2348 BC, both on the 1491 BC Exodus anchor used until 2026-10-01). Source: Steinmann, 'A Comparison of the Text of Genesis in Three Traditions', JETS 64/1 (2021) 25-43; see docs/content/god/flood-and-the-king-lists.md"
+          "theological_significance": "60 years on every date above Abram (the retired harmonized_v1 put the Flood at 2288 BC against MT's 2348 BC, both on the 1491 BC Exodus anchor used until 2026-10-01). Source: Steinmann, 'A Comparison of the Text of Genesis in Three Traditions', JETS 64/1 (2021) 25-43; see docs/content/chronology/flood-and-the-king-lists.md"
         }
       ],
       "bible_references": [

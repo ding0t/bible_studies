@@ -15,7 +15,7 @@ draft: false
 - [Pride](../../sin/pride.md) — 3:24-27
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 3:23-26
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 3:23-26
-- [The Flood and the King Lists: Which Genesis Numbers to Trust](../../god/flood-and-the-king-lists.md) — 3:2
+- [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 3:2
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 3:24
 - [The Way](../../jesus/the-way.md) — 3:16-17
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 3:11

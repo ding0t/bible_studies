@@ -4,7 +4,7 @@ category: "other"
 description: "A running list of the studies and pages on this site that have been newly published or most recently revised."
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-09-30
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -145,7 +145,7 @@ when it is revised.
 
     Genesis 5 and 11 survive in three versions whose numbers put the Flood anywhere from 2303 to 3183 BC. Weighing the Masoretic Text, Septuagint and Samaritan Pentateuch by Scripture's own consistency first, and only then against Egypt's king lists, radiocarbon, tree rings and varves.
 
-    :material-new-box: Published 28 September 2026, revised 30 September 2026 · [:octicons-arrow-right-24: Read](../god/flood-and-the-king-lists.md)
+    :material-new-box: Published 28 September 2026, revised 30 September 2026 · [:octicons-arrow-right-24: Read](../chronology/flood-and-the-king-lists.md)
 
 -   __The Lampstand__
 
@@ -377,7 +377,7 @@ when it is revised.
 
     Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its Zadok year. The fixed rail the rest of the biblical timeline hangs from.
 
-    :material-update: Updated 30 September 2026 · [:octicons-arrow-right-24: Read](../last-things/chronology-anchors.md)
+    :material-update: Updated 30 September 2026 · [:octicons-arrow-right-24: Read](../chronology/chronology-anchors.md)
 
 -   __Prophetic Timeline__
 
@@ -393,7 +393,7 @@ when it is revised.
 
     Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,646 years at creation and converge on Abraham to the year.
 
-    :material-update: Updated 30 September 2026 · [:octicons-arrow-right-24: Read](../last-things/combined-timeline.md)
+    :material-update: Updated 30 September 2026 · [:octicons-arrow-right-24: Read](../chronology/combined-timeline.md)
 
 -   __The Woman Who Touched the Fringe: Uncleanness Running Backwards__
 

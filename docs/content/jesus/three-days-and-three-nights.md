@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 12:40"
 bible_references: ["Matthew 12:40", "Jonah 1:17", "Matthew 16:21", "Matthew 17:23", "Matthew 20:19", "Luke 9:22", "Luke 18:33", "Luke 24:7", "Luke 24:21", "Luke 24:46", "Acts 10:40", "1 Corinthians 15:4", "Mark 8:31", "Mark 9:31", "Mark 10:34", "Mark 15:42", "Luke 23:54", "John 19:31", "John 19:14", "John 19:42", "Matthew 27:62", "Genesis 1:5", "Leviticus 23:32", "Mark 16:1-2", "Matthew 28:1", "John 20:1", "Matthew 27:62-64", "Mark 15:42-46", "Luke 23:50-56", "John 19:38-42", "Jonah 2:2-6", "Matthew 12:39-41", "Leviticus 23:5-11", "1 Corinthians 5:7", "1 Corinthians 15:20-23", "Psalm 16:10", "Acts 2:27", "Acts 2:29-31", "Luke 23:43", "Luke 16:19-31", "Genesis 37:35", "2 Corinthians 12:2-4", "Revelation 2:7", "John 20:17", "Matthew 28:9", "1 Peter 3:18-19", "Hebrews 2:14-15", "Revelation 1:18", "Revelation 20:13-14", "1 Samuel 28:13-19"]
 date_created: 2026-09-06
-date_modified: 2026-10-05
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -481,7 +481,7 @@ harmonisation.
 
 The *weekday* narrows it. Under Pilate, prefect from AD 26 to 36, Nisan 14 fell on a Friday twice:
 **Friday 7 April AD 30** and **Friday 3 April AD 33**.
-[Chronology Anchors](../last-things/chronology-anchors.md#settling-the-crucifixion-year) chooses
+[Chronology Anchors](../chronology/chronology-anchors.md#settling-the-crucifixion-year) chooses
 between them, principally from Luke 3:1 and the Passovers John records, and reaches AD 33.
 
 ## Where that leaves it
@@ -559,7 +559,7 @@ with this study's conclusion as well as where they support it.
 
 **Related on this site.**
 
-- [Chronology Anchors](../last-things/chronology-anchors.md#settling-the-crucifixion-year) — where
+- [Chronology Anchors](../chronology/chronology-anchors.md#settling-the-crucifixion-year) — where
   the year is settled, and where the same Mark 15:42 argument for a Friday is made independently of
   this study.
 - [Prophecy: Events and Times](../last-things/prophecy-events-times.md) — Daniel's seventy weeks

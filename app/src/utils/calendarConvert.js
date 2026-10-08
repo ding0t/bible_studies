@@ -15,7 +15,7 @@
  * was, which put every AD conversion one year out: on the 4004 BC epoch then in use, Zadok
  * 4004 rendered as year 0 rather than AD 1, and AD 2026 as Zadok 6030 rather than 6029. The genealogy data
  * (docs/data/genealogy/generated/, Adam at zadok_year_born 0) and
- * docs/content/last-things/chronology-anchors.md both already used the corrected
+ * docs/content/chronology/chronology-anchors.md both already used the corrected
  * convention, so this brings the converter into line with them rather than the reverse.
  */
 

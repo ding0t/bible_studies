@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 12:1-28; Exodus 12:43-49; Leviticus 23:5"
 bible_references: ["Exodus 12:1-14", "Exodus 12:21-27", "Exodus 12:43-49", "Exodus 13:14-15", "Leviticus 23:5", "Numbers 9:10-12", "Deuteronomy 16:1-7", "Joshua 5:10", "2 Kings 23:21-22", "2 Chronicles 30:1", "Isaiah 31:5", "Psalm 34:20", "John 1:29", "John 1:36", "John 12:1", "John 12:12-13", "John 18:28", "John 19:14", "John 19:29", "John 19:32-33", "John 19:36", "Exodus 12:46", "Luke 22:15", "1 Corinthians 5:7-8", "1 Peter 1:18-19", "Romans 5:8-9", "Hebrews 11:28", "Revelation 5:6", "Isaiah 53:7", "Acts 8:32-35"]
 date_created: 2026-10-02
-date_modified: 2026-10-02
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -202,7 +202,7 @@ The blood saved because Israel trusted God's word about it.
 ### His last week
 
 This site's chronology places the crucifixion on Friday 3 April AD 33, Nisan 14; [Chronology
-Anchors](../last-things/chronology-anchors.md#verdict-friday-3-april-ad-33) sets out how the year is
+Anchors](../chronology/chronology-anchors.md#verdict-friday-3-april-ad-33) sets out how the year is
 settled. On that reckoning the days of Jesus' last
 week follow the days of the Passover lamb:
 
@@ -269,4 +269,4 @@ For the meal Jesus ate that night and the cup He left undrunk, see
 - [The Appointed Times](feasts.md) — the seven feasts of Leviticus 23.
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](last-supper-four-cups.md)
 - [Three Days and Three Nights](../jesus/three-days-and-three-nights.md)
-- [Chronology Anchors](../last-things/chronology-anchors.md)
+- [Chronology Anchors](../chronology/chronology-anchors.md)

@@ -1,7 +1,7 @@
 slug: genealogy-times
 title: "Genealogy and Times: From Creation to Christ"
 status: published
-target_path: docs/content/last-things/genealogy-times.md
+target_path: docs/content/chronology/genealogy-times.md
 
 primary_passage: "Genesis 5; Genesis 11:10-32"
 supporting_passages:
@@ -180,7 +180,7 @@ stages:
 
   drafting:
     done: true
-    file: docs/content/last-things/genealogy-times.md
+    file: docs/content/chronology/genealogy-times.md
   review:
     done: true
     validated: true # npm run validate, frontmatter YAML, and a strict mkdocs build all pass
@@ -336,9 +336,9 @@ correction_2026_09_06:
   files_touched:
     - docs/data/genealogy/index.json (override removed, variant description records why)
     - docs/data/genealogy/generated/*.json (regenerated)
-    - docs/content/last-things/genealogy-times.md (Methuselah section rewritten, SP bullet,
+    - docs/content/chronology/genealogy-times.md (Methuselah section rewritten, SP bullet,
       synthesis section, results table, closing epoch figures)
-    - docs/content/last-things/combined-timeline.md (variant table, mermaid range, bar chart)
+    - docs/content/chronology/combined-timeline.md (variant table, mermaid range, bar chart)
     - docs/content/god/world-population-...md ("two Samaritan readings" -> "one"; the 2288 BC
       Flood date and every derived growth rate are unchanged)
     - app/src/utils/chronology.test.js
@@ -426,7 +426,7 @@ decision_2026-09-28_masoretic_chronology:
     The site follows the Masoretic Text for every number in Genesis 5 and 11, Terah included (205,
     Abram born at Terah 130). harmonized_v1 (MT + SP Terah 145) retired; working Flood 2288 -> 2348 BC,
     creation 3944 -> 4004 BC, Abram AM 1948 -> AM 2008 (1996 BC unchanged).
-  justification: "docs/content/god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers"
+  justification: "docs/content/chronology/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers"
 
 decision_2026-10-01_exodus_anchor:
   decided_by: author, 2026-10-01
@@ -469,7 +469,7 @@ simplify_2026-09-30:
   skill: simplify-bible-study
   point: "Genesis 5 and 11 give a real, checkable chronology whose manuscript traditions differ by a deliberate pattern; the Masoretic numbers hold up best, and the genealogy exists to carry God's promise by name from Adam to Christ."
   words: "4,872 -> see validate after (budget 4,000)"
-  fork: "Exodus-to-Solomon gap (6 sections) -> docs/content/last-things/four-hundred-and-eighty-years.md (draft: true)."
+  fork: "Exodus-to-Solomon gap (6 sections) -> docs/content/chronology/four-hundred-and-eighty-years.md (draft: true)."
   cut: "Methuselah-substitution-reverted section, harmonized_v1 paragraph, 'corrected 2026-08-22' paragraph, pre-2026-09-28 SP note -- history already recorded in this file (Methuselah revert ~line 300; decision_2026-09-28_masoretic_chronology)."
   merged: "External-anchors section folded into What stays open (anchor #what-stays-open kept, linked from flood-and-the-king-lists.md); duplicate SP-Terah note under the results table dropped in favour of Two choices; witness glosses no longer repeated in their bullets."
   shortened:

@@ -1,7 +1,7 @@
 slug: "combined-timeline"
 title: "The Combined Timeline: One Line, Two Zones"
 status: published
-target_path: "docs/content/last-things/combined-timeline.md"
+target_path: "docs/content/chronology/combined-timeline.md"
 
 primary_passage: "Genesis 11:10-32"
 genre: [topical]
@@ -24,7 +24,7 @@ stages:
     cultural_vs_transcultural: {done: true, notes: "n/a for a chronology synthesis; the then-and-now work sits in the two source pages."}
     theological_principle: {done: true, notes: "The order of events is certain throughout while the dates are not, and the narrative depends on the order. Stated as the closing discussion question rather than asserted."}
   cross_reference: {done: true, translations_compared: ["ESV"], divergences_noted: "none bearing on dates"}
-  drafting: {done: true, file: "docs/content/last-things/combined-timeline.md"}
+  drafting: {done: true, file: "docs/content/chronology/combined-timeline.md"}
   review: {done: true, validated: true}
 
 main_findings:
@@ -53,8 +53,8 @@ open_questions:
 
 resources_consulted:
   - {type: other, title: "docs/data/genealogy/generated/*.json", note: "Every figure in the elastic-zone table, derived by genealogy_chronology.py rather than typed."}
-  - {type: other, title: "docs/content/last-things/chronology-anchors.md", note: "Every figure in the rigid-zone table."}
-  - {type: other, title: "docs/content/last-things/genealogy-times.md", note: "The manuscript evidence summarised in the elastic-zone section, including the Samaritan chapter split (6-0 with MT in Genesis 5, 6-0 with LXX in Genesis 11)."}
+  - {type: other, title: "docs/content/chronology/chronology-anchors.md", note: "Every figure in the rigid-zone table."}
+  - {type: other, title: "docs/content/chronology/genealogy-times.md", note: "The manuscript evidence summarised in the elastic-zone section, including the Samaritan chapter split (6-0 with MT in Genesis 5, 6-0 with LXX in Genesis 11)."}
 
 published:
   date: "2026-08-22"
@@ -128,4 +128,4 @@ decision_2026-09-28_masoretic_chronology:
     The site follows the Masoretic Text for every number in Genesis 5 and 11, Terah included (205,
     Abram born at Terah 130). harmonized_v1 (MT + SP Terah 145) retired; working Flood 2288 -> 2348 BC,
     creation 3944 -> 4004 BC, Abram AM 1948 -> AM 2008 (1996 BC unchanged).
-  justification: "docs/content/god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers"
+  justification: "docs/content/chronology/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers"

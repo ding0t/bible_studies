@@ -145,7 +145,7 @@ what follows as typology: a pattern observed in the text, offered for reflection
 Scripture at every point.**
 
 It is also no calendar. The anchors below use the site's working epoch, creation at 3959 BC,
-which [Chronology Anchors](chronology-anchors.md) derives from the Masoretic numbers and a 1446 BC
+which [Chronology Anchors](../chronology/chronology-anchors.md) derives from the Masoretic numbers and a 1446 BC
 Exodus. On that epoch the six thousand years run out in AD 2042, and the parent study sets out
 [why nobody has got the date right](day-is-a-thousand-years.md#why-nobody-has-got-the-date-right).
 Jesus said, "It is not for you to know times or seasons that the Father has fixed by his own
@@ -154,7 +154,7 @@ authority" (Acts 1:7, ESV). The framework gives the shape of history. The Father
 ### The days and the millennia
 
 The anchors use the site's working convention — creation at 3959 BC, Adam at year 0 of the world
-(AM), consistent with [Bible Chronology & Genealogical Time](genealogy-times.md) — and the dates
+(AM), consistent with [Bible Chronology & Genealogical Time](../chronology/genealogy-times.md) — and the dates
 inside the first two millennia come straight from the age-data in Genesis 5 and 11.
 
 | Day | Genesis | Millennium | What runs in it |
@@ -382,5 +382,5 @@ translations do not show it.
 - [A Thousand Years in Your Sight](a-thousand-years-in-your-sight.md) — Psalm 90, the source of the
   thousand-year day.
 - [The Day Is Near](day-is-near.md) — why the timing is hidden and what to do while it is.
-- [Bible Chronology & Genealogical Time](genealogy-times.md) — the manuscript variants behind the
+- [Bible Chronology & Genealogical Time](../chronology/genealogy-times.md) — the manuscript variants behind the
   creation epoch.

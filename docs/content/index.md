@@ -4,7 +4,7 @@ category: "other"
 description: "Personal Bible study notes: the Old and New Testaments read in context, with word studies in the original languages and every claim traceable to a source."
 draft: false
 date_created: 2026-07-10
-date_modified: 2026-09-30
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -276,9 +276,9 @@ Two of these studies are charts you can drive rather than pages you read.
 <!-- recent-updates-teaser:auto-start -->
 - **[A Day Is a Thousand Years](last-things/day-is-a-thousand-years.md)** — :material-update: Updated 30 September 2026
 - **[Backlog](about/backlog.md)** — :material-update: Updated 30 September 2026
-- **[Chronology Anchors: What Can Actually Be Dated, and How Tightly](last-things/chronology-anchors.md)** — :material-update: Updated 30 September 2026
+- **[Chronology Anchors: What Can Actually Be Dated, and How Tightly](chronology/chronology-anchors.md)** — :material-update: Updated 30 September 2026
 - **[Prophetic Timeline](timeline.md)** — :material-update: Updated 30 September 2026
-- **[The Combined Timeline: One Line, Two Zones](last-things/combined-timeline.md)** — :material-update: Updated 30 September 2026
+- **[The Combined Timeline: One Line, Two Zones](chronology/combined-timeline.md)** — :material-update: Updated 30 September 2026
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) page for more.

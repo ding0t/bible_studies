@@ -75,6 +75,13 @@ plugins:
   # See docs/content/about/our-taxonomy.md and docs/dev/taxonomy-migration.md.
   - redirects:
       redirect_maps:
+        # Pages about dating biblical history moved into their own Chronology section on 2026-10-08.
+        'last-things/chronology-anchors.md': 'chronology/chronology-anchors.md'
+        'last-things/four-hundred-and-eighty-years.md': 'chronology/four-hundred-and-eighty-years.md'
+        'last-things/why-not-4004-bc.md': 'chronology/why-not-4004-bc.md'
+        'last-things/genealogy-times.md': 'chronology/genealogy-times.md'
+        'last-things/combined-timeline.md': 'chronology/combined-timeline.md'
+        'god/flood-and-the-king-lists.md': 'chronology/flood-and-the-king-lists.md'
         # The Genealogy Viewer was folded into the Prophetic Timeline on 2026-10-01.
         'genealogy.md': 'timeline.md#view=family'
         'resources/github.md': 'resources/public-data-sources.md'
@@ -403,7 +410,7 @@ plugins:
         'jesus/woman-issue-of-blood-faith-and-access.md': 'jesus/woman-with-the-issue-of-blood.md'
         'jesus/woman-suffering-bleeding.md': 'jesus/woman-with-the-issue-of-blood.md'
         'studies/prophecy/day-is-near.md': 'last-things/day-is-near.md'
-        'studies/prophecy/genealogy-times.md': 'last-things/genealogy-times.md'
+        'studies/prophecy/genealogy-times.md': 'chronology/genealogy-times.md'
         'studies/prophecy/index.md': 'last-things/index.md'
         'studies/prophecy/nephilim.md': 'spiritual-beings/nephilim.md'
         'studies/prophecy/prophecy-chart.md': 'last-things/prophecy-chart.md'

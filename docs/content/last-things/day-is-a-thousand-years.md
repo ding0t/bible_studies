@@ -502,10 +502,10 @@ and every one of those years that has arrived has passed without the end.
 | Seder Olam / the Hebrew calendar | Creation at 3761 BC | AD 2240 |
 
 The spread comes from the creation epoch: the manuscript traditions of Genesis 5 and 11 put the
-Flood up to 880 years apart ([Bible Chronology & Genealogical Time](genealogy-times.md)). This site
+Flood up to 880 years apart ([Bible Chronology & Genealogical Time](../chronology/genealogy-times.md)). This site
 works to one line, the Masoretic numbers on a 1446 BC Exodus ([The Flood and the King
-Lists](../god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers);
-[Chronology Anchors](chronology-anchors.md)), which puts the year 6000 in AD 2042, give or take
+Lists](../chronology/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers);
+[Chronology Anchors](../chronology/chronology-anchors.md)), which puts the year 6000 in AD 2042, give or take
 five years. That is a chronological result, and it is not a date for the end: nothing in Scripture
 says the six days began at Adam's creation, or that the transitions are sharp.
 
@@ -608,7 +608,7 @@ Jesus (4:3, 10). The One who fixed the week will finish it, so you can rest in H
   do while it is.
 - [Charting End Times](prophecy-chart.md) — Clarence Larkin's "Seven Thousand Years of Human
   History" chart, the same framework in diagram form.
-- [Bible Chronology & Genealogical Time](genealogy-times.md) — the manuscript variants behind the
+- [Bible Chronology & Genealogical Time](../chronology/genealogy-times.md) — the manuscript variants behind the
   creation-epoch problem.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) — the Enochic seven-thousand-year scheme and
   the sabbatical calendar it runs on.

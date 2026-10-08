@@ -98,7 +98,7 @@ assert(Object.keys(GENEALOGY_INDEX.timeline_variants).length === 3, 'three timel
 console.log('\n6. Timeline agrees with Chronology Anchors:');
 // The timeline's anchor rows are a copy of the table on chronology-anchors.md. A study edited
 // without the data, or the data without the study, is exactly the drift this site keeps finding.
-const anchorsMd = fs.readFileSync(path.join(CONTENT, 'last-things/chronology-anchors.md'), 'utf8');
+const anchorsMd = fs.readFileSync(path.join(CONTENT, 'chronology/chronology-anchors.md'), 'utf8');
 const tableRows = anchorsMd
   .split('\n')
   .filter((l) => /^\| \d+ \|/.test(l))

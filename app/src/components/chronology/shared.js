@@ -137,8 +137,8 @@ export const sectionLabel = {
 // Which published study backs a person's dates. Adam-Terah come from the manuscript comparison in
 // Genealogy and Times; the rail from Solomon on is Chronology Anchors. Site-absolute: the site is
 // served from its domain root.
-const GENEALOGY_TIMES_URL = '/last-things/genealogy-times/';
-const CHRONOLOGY_ANCHORS_URL = '/last-things/chronology-anchors/';
+const GENEALOGY_TIMES_URL = '/chronology/genealogy-times/';
+const CHRONOLOGY_ANCHORS_URL = '/chronology/chronology-anchors/';
 const STUDY_LINKS = {
   methuselah: {
     url: `${GENEALOGY_TIMES_URL}#methuselah-the-name-the-number-and-the-flood`,

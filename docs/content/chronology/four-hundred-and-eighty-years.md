@@ -2,12 +2,12 @@
 title: "Four Hundred and Eighty Years: From the Exodus to Solomon's Temple"
 category: "prophecy"
 description: "Why 1 Kings 6:1's 480 years from the Exodus to the temple holds once the judges are read as regional and Ruth's genealogy as telescoped, checked against the priestly and Davidic lines"
-tags: ["chronology", "genealogy"]
+tags: ["genealogy"]
 draft: true
 primary_passage: "1 Kings 6:1"
 bible_references: ["Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:3-15", "1 Chronicles 6:50-53", "Ezra 7:1-5", "Ruth 4:18-22", "Acts 13:19-21"]
-date_created: 2026-09-30
-date_modified: 2026-09-30
+date_created: 2026-10-08
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

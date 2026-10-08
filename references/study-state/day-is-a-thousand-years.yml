@@ -241,7 +241,7 @@ resources_consulted:
   - {type: other, title: "Lactantius, Divine Institutes 7.14 (and Epitome 70)", author: "ANF vol. 7", note: "anf07.txt ~20507 and ~24680. The fullest patristic statement: six ages of a thousand years each, Ps 90:4 cited as 'the prophet', righteousness reigning a thousand years after."}
   - {type: other, title: "Methodius (attrib.), fragment against Origen on the resurrection", author: "ANF vol. 6", note: "anf06.txt ~36169. Reports the six-thousand-year scheme as what 'they say' — a hostile-to-neutral witness that the view was widespread, which is stronger evidence of its currency than another advocate would be."}
   - {type: other, title: "Theological Wordbook of the Old Testament", author: "Archer, Harris & Waltke, Moody", note: "Root 2323 for שָׁבַת, via the committed twot_strongs_map.json. Cited across to day-is-near.md rather than re-derived."}
-  - {type: other, title: "docs/content/feasts/zadok-calendar.md, last-things/genealogy-times.md, last-things/prophecy-chart.md, last-things/day-is-near.md", author: "this site", note: "1 Enoch 91-93 Apocalypse of Weeks is treated in zadok-calendar.md and cross-linked, not restated. Larkin's chart is in prophecy-chart.md. Chronology variants and the 4004 BC convention are in genealogy-times.md."}
+  - {type: other, title: "docs/content/feasts/zadok-calendar.md, chronology/genealogy-times.md, last-things/prophecy-chart.md, last-things/day-is-near.md", author: "this site", note: "1 Enoch 91-93 Apocalypse of Weeks is treated in zadok-calendar.md and cross-linked, not restated. Larkin's chart is in prophecy-chart.md. Chronology variants and the 4004 BC convention are in genealogy-times.md."}
 
 last_updated: "2026-08-09"
 

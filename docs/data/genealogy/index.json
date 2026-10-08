@@ -20,7 +20,7 @@
   "timeline_variants": {
     "mt": {
       "name": "Masoretic Text",
-      "description": "The site's working chronology, adopted 2026-09-28 (Genesis 5 and 11 as the Masoretic Text gives them, Terah 205, Abram born when Terah was 130). Also the basis of docs/data/events.json and every published zadok_year. Justification: docs/content/god/flood-and-the-king-lists.md, 'Why this site follows the Masoretic numbers' -- Genesis 7:23 rules out the LXX's post-Flood Methuselah; SP and LXX share one secondary text type (Steinmann, JETS 64/1, 2021); their +100 shifts and SP's three Flood-year deaths are harmonizations; SP's Terah 145 reconciles Genesis 11:26 with Acts 7:4 by the same harmonizing habit.",
+      "description": "The site's working chronology, adopted 2026-09-28 (Genesis 5 and 11 as the Masoretic Text gives them, Terah 205, Abram born when Terah was 130). Also the basis of docs/data/events.json and every published zadok_year. Justification: docs/content/chronology/flood-and-the-king-lists.md, 'Why this site follows the Masoretic numbers' -- Genesis 7:23 rules out the LXX's post-Flood Methuselah; SP and LXX share one secondary text type (Steinmann, JETS 64/1, 2021); their +100 shifts and SP's three Flood-year deaths are harmonizations; SP's Terah 145 reconciles Genesis 11:26 with Acts 7:4 by the same harmonizing habit.",
       "confidence_label": "working (adopted 2026-09-28)",
       "based_on": [
         "mt"

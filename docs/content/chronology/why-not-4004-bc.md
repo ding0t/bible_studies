@@ -2,7 +2,7 @@
 title: "Why Not 4004 BC? Where Ussher's Forty-Six Years Came From"
 category: "prophecy"
 description: "Archbishop Ussher's creation date was printed in Bible margins for 250 years. His count from Adam to the Exodus still stands; forty-six years crept in while he added up the kings, and Kings itself shows how Israel's scribes actually counted."
-tags: ["chronology", "archaeology", "method/archaeology", "1-kings", "2-kings", "lang/hebrew"]
+tags: ["archaeology", "method/archaeology", "1-kings", "2-kings", "lang/hebrew"]
 draft: false
 primary_passage: "1 Kings 15:25-28"
 bible_references: ["1 Kings 6:1", "1 Kings 14:20-21", "1 Kings 15:1-2", "1 Kings 15:9-10", "1 Kings 15:33", "1 Kings 16:8-10", "1 Kings 16:23", "1 Kings 16:29", "1 Kings 22:41-42", "1 Kings 22:51", "2 Kings 3:1", "2 Kings 1:17", "2 Kings 8:17", "2 Kings 8:25-26", "2 Kings 9:24-27", "2 Kings 15:5", "2 Kings 25:27", "Psalm 119:160", "Galatians 4:4"]
@@ -233,7 +233,7 @@ Moving the temple from 1012 to 966 BC moved every date counted back from it.
 
 The last row matters most for the rest of the site. On Ussher's epoch the six-thousandth year has
 already passed. On the corrected line it is still future, which keeps the millennial-week reading
-open; [A Day Is a Thousand Years](day-is-a-thousand-years.md) weighs that reading, and [The Zadok
+open; [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) weighs that reading, and [The Zadok
 Calendar](../feasts/zadok-calendar.md#where-year-0-sits) sets out the alternate epochs the site
 still tracks.
 
@@ -279,7 +279,7 @@ own way.
 - **Assyrian Eponym List**, the **Kurkh Monolith** and the **Black Obelisk of Shalmaneser III** —
   the 763 BC eclipse, Ahab at Qarqar and Jehu's tribute. Fuller treatment in
   [Chronology Anchors](chronology-anchors.md) and [Prophecy: Events and
-  Times](prophecy-events-times.md).
+  Times](../last-things/prophecy-events-times.md).
 - **Dunham Bible Museum, "KJV @400"** — the 1701 marginal dates under William Lloyd.
 - ***ESV Study Bible*** (Crossway) and ***NIV Biblical Theology Study Bible*** (Zondervan), notes
   on 1 Kings 6:1 — the early and late Exodus readings.

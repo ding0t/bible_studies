@@ -169,7 +169,7 @@ Given that, this study runs two different tools for two different jobs, and keep
   event. Ussher had no Assyrian record to check his arithmetic against, and he allowed for only a
   few co-regencies, so his kings of Judah run 424 years from the temple to the exile where Thiele's
   run 380. Thiele's figure is the one tied to Qarqar's absolute date. [Why Not 4004
-  BC?](why-not-4004-bc.md) works through the difference.
+  BC?](../chronology/why-not-4004-bc.md) works through the difference.
 
 ### Anchor 2 — Sennacherib's invasion of Judah, 701 BC (Hezekiah)
 
@@ -247,7 +247,7 @@ Given that, this study runs two different tools for two different jobs, and keep
   papyri are what let it convert to a Gregorian year. That year is 445 BC counted from Nisan, and
   444 BC on the Tishri count that Nehemiah 1:1 (Chislev) and 2:1 (Nisan), both in the same
   twentieth year, imply. This site follows 444 BC with Hoehner (below and in [Chronology
-  Anchors](chronology-anchors.md), entry 20).
+  Anchors](../chronology/chronology-anchors.md), entry 20).
 
 ## The flagship calculation: Daniel's seventy weeks to the Triumphal Entry
 
@@ -417,7 +417,7 @@ leaves the eclipse standing and the vivid "blood moon" doubtful, and Peter is qu
 what *will* happen before the day of the Lord.
 
 So this site does not count the eclipse as evidence for the year.
-[Chronology Anchors](chronology-anchors.md#settling-the-crucifixion-year) settles AD 33 on Luke 3:1,
+[Chronology Anchors](../chronology/chronology-anchors.md#settling-the-crucifixion-year) settles AD 33 on Luke 3:1,
 with Sejanus and Daniel 9 in support, and leaves the eclipse out of the case.
 
 ### The Star of Bethlehem (noted, not pursued here)
@@ -449,8 +449,8 @@ have to be extrapolated, and the further back the extrapolation runs the weaker 
   and 2349 BC, and this site's 3959 BC and 2303 BC, among them) comes purely from summing genealogies in Genesis 5 and 11, and different
   manuscript traditions (the Masoretic Text vs. the Septuagint) give meaningfully different totals
   for those same genealogies. This site works to one line, the Masoretic numbers on the 1446 BC
-  Exodus above, and [Chronology Anchors](chronology-anchors.md) records why; the other traditions'
-  totals are set out in [Genealogy and Times](genealogy-times.md) for comparison.
+  Exodus above, and [Chronology Anchors](../chronology/chronology-anchors.md) records why; the other traditions'
+  totals are set out in [Genealogy and Times](../chronology/genealogy-times.md) for comparison.
 
 ## Israel and the Church
 

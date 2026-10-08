@@ -37,6 +37,7 @@ SUBJECT_DIRS = [
     "salvation",
     "spiritual-beings",
     "israel-and-church",
+    "chronology",
     "last-things",
     "feasts",
     "christian-life",

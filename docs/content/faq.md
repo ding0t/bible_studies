@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-09-30
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -189,7 +189,7 @@ at John 19:12, Daniel 9 and Paul's chronology all leaning the same way. AD 30 st
 anyone who dates Tiberius's fifteenth year from the co-regency. The lunar-eclipse argument that
 often accompanies this date is **not** used here — it needs both a contested observation and a
 strained reading of Peter's Joel quotation.
-→ [Chronology Anchors](last-things/chronology-anchors.md#settling-the-crucifixion-year)
+→ [Chronology Anchors](chronology/chronology-anchors.md#settling-the-crucifixion-year)
 
 ### Doesn't "three days and three nights" rule out a Friday?
 

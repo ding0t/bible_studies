@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:9-14"
 bible_references: ["Leviticus 23:9-14", "Leviticus 23:15-16", "Leviticus 23:5-8", "Leviticus 23:43", "Leviticus 7:30", "Joshua 5:10-12", "Numbers 33:3", "Leviticus 23:14", "Exodus 12:14", "1 Corinthians 15:20-23", "Romans 8:23", "Romans 11:16", "James 1:1", "James 1:18", "Revelation 14:4", "Colossians 1:18", "Revelation 1:5", "John 12:24", "John 19:31", "Matthew 28:1", "Ruth 1:22", "Ruth 2:23", "Numbers 28:26", "Exodus 34:22", "Numbers 15:20-21"]
 date_created: 2026-09-07
-date_modified: 2026-10-05
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -224,7 +224,7 @@ shows the typology does not need it.
 
 ## Why the dispute did not matter in AD 33
 
-On the reconstruction [Chronology Anchors](../last-things/chronology-anchors.md#settling-the-crucifixion-year)
+On the reconstruction [Chronology Anchors](../chronology/chronology-anchors.md#settling-the-crucifixion-year)
 reaches, Nisan 14 in the year of the crucifixion was **Friday 3 April AD 33**. Lay the two readings
 side by side on that week:
 
@@ -381,7 +381,7 @@ for it, with the sheaf and the harvest set out on Larkin's chart of the underwor
   receives, from 1 Corinthians 15:35-58.
 - [At Home with the Lord](../last-things/at-home-with-the-lord.md) — where the believing dead wait
   between death and the harvest.
-- [Chronology Anchors](../last-things/chronology-anchors.md#settling-the-crucifixion-year) — where
+- [Chronology Anchors](../chronology/chronology-anchors.md#settling-the-crucifixion-year) — where
   the AD 33 reconstruction used above is argued.
 - [The Zadok Calendar](zadok-calendar.md) — the 364-day priestly calendar, on which every appointed
   time falls on the same weekday every year, so the ambiguity above is settled by construction

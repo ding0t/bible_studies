@@ -12,8 +12,8 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../last-things/chronology-anchors.md) — 25:8-9
+- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 25:8-9
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 25:27-30
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 25:13-17
-- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../last-things/why-not-4004-bc.md) — 25:27
+- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 25:27
 <!-- commentary-index:auto-end -->

@@ -2,11 +2,11 @@
 title: "Genealogy and Times: From Creation to Christ"
 category: "prophecy"
 description: "Tracing the covenant line from Adam to Christ through Genesis 5 and 11's genealogies, comparing the Masoretic Text, Septuagint, and Samaritan Pentateuch, and asking what the names themselves are saying"
-tags: ["genealogy", "chronology", "creation", "method/word-study", "method/textual-criticism"]
+tags: ["genealogy", "creation", "method/word-study", "method/textual-criticism"]
 draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
-date_created: 2026-07-24
+date_created: 2026-10-08
 date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
@@ -304,7 +304,7 @@ the temptation, and it is a real one.
 
 **Since 2026-09-28 this site follows the Masoretic Text for every number in Genesis 5 and 11,
 Terah included.** The full case, with the confidence each part carries, is in
-[The Flood and the King Lists](../god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers).
+[The Flood and the King Lists](flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers).
 In brief:
 
 - **Scripture's own test.** Only the eight in the ark survive the Flood (Genesis 7:23; 1 Peter
@@ -342,7 +342,7 @@ some eight centuries after.
 That holds only for the Septuagint as printed. Without the second Cainan, which
 [the Cainan question](#the-cainan-question) above treats as an insertion, its Flood falls at
 3053 BC, level with Egypt's First Dynasty, and with the Göttingen Septuagint's 79 for Nahor at 2953 BC,
-after it. [The Flood and the King Lists](../god/flood-and-the-king-lists.md) weighs the three texts.
+after it. [The Flood and the King Lists](flood-and-the-king-lists.md) weighs the three texts.
 "The biblical timeline" is not a single settled number even before archaeology enters the
 picture. All three variants agree on Terah's death because they share the anchor and the chain
 from Terah forward; they diverge only above him, which is the whole point.
@@ -403,9 +403,9 @@ fourth year, which puts Masoretic creation at 3959 BC. Ussher's 1491 BC, and the
 produces, were used until then; `docs/data/genealogy/index.json` keeps both as tracked alternates.
 [Why Not 4004 BC?](why-not-4004-bc.md) traces where Ussher's forty-six years came from.
 
-[The Day is Near](day-is-near.md) used dsscalendar.org's creation epoch (~3925 BC) until
+[The Day is Near](../last-things/day-is-near.md) used dsscalendar.org's creation epoch (~3925 BC) until
 2026-10-01; the site's year-6000 arithmetic now lives in [A Day Is a Thousand
-Years](day-is-a-thousand-years.md#six-days-of-history), on this line.
+Years](../last-things/day-is-a-thousand-years.md#six-days-of-history), on this line.
 
 The genealogical reasoning above was worked out without `prophecy-events-times.md`'s external
 archaeological anchors (Qarqar, Sennacherib, the Babylonian and Persian records), so that
@@ -436,8 +436,8 @@ years take over, is the subject of a separate study, *Four Hundred and Eighty Ye
   Pseudepigrapha* 18 (2009)
 - James C. VanderKam, *Calendars in the Dead Sea Scrolls: Measuring Time* — on the broader
   Second Temple textual environment these traditions come from
-- [The Zadok Calendar](../feasts/zadok-calendar.md), [The Day is Near](day-is-near.md), and
-  [Prophecy Events and Times](prophecy-events-times.md) — this site's other chronology studies,
+- [The Zadok Calendar](../feasts/zadok-calendar.md), [The Day is Near](../last-things/day-is-near.md), and
+  [Prophecy Events and Times](../last-things/prophecy-events-times.md) — this site's other chronology studies,
   including the still-open creation-epoch discrepancy noted above
 - `docs/data/genealogy/index.json`, `antediluvian.json`, `patriarchal.json` — the structured
   source data this study explains

@@ -16,7 +16,7 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:21
 - [Biblical Numerology](../../scripture/numerology.md) — 1:17
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 1:20-21
-- [Genealogy and Times: From Creation to Christ](../../last-things/genealogy-times.md) — 1:1-17
+- [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 1:1-17
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 1:20-24
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:18-25
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:3

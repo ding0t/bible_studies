@@ -2,7 +2,7 @@ slug: "genealogy-calendar-review"
 title: "Chronology review: genealogy-times, zadok-calendar, day-is-a-thousand-years"
 status: review
 target_path:
-  - "docs/content/last-things/genealogy-times.md"
+  - "docs/content/chronology/genealogy-times.md"
   - "docs/content/feasts/zadok-calendar.md"
   - "docs/content/last-things/day-is-a-thousand-years.md"
   - "references/build/genealogy_chronology.py"

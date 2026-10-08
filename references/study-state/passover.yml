@@ -14,7 +14,7 @@ evidence_checked:
   - "pesach H6453 49x; pasach H6452 4x (Exodus 12:13, 23, 27; Isaiah 31:5, beside ganan 'cover', natsal, malat)"
   - "hyssopos G5301 2x NT (John 19:29; Hebrews 9:19)"
   - "ESV text of every quotation, study-notes.db"
-  - "Chronology consistent with docs/data/chronology.json (Triumphal Entry 10 Nisan; Last Supper as Nisan 14 began; lambs slain Nisan 14 afternoon) and last-things/chronology-anchors.md verdict Friday 3 April AD 33"
+  - "Chronology consistent with docs/data/chronology.json (Triumphal Entry 10 Nisan; Last Supper as Nisan 14 began; lambs slain Nisan 14 afternoon) and chronology/chronology-anchors.md verdict Friday 3 April AD 33"
 contested_marked:
   - "pass over = pass by vs stand guard (Isaiah 31:5, Exodus 12:23): both given"
   - "Synoptic/John Passover-date question: ESV SB harmonisation vs this site's reading (three-days-and-three-nights.md)"

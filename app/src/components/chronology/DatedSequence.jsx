@@ -93,7 +93,7 @@ export default function DatedSequence({ period, theme, width, selected, setSelec
       >
         <strong>AD 33, on this site's chronology.</strong> Friday 3 April is Nisan 14, the day of
         the cross (
-        <a href={studyUrl('last-things/chronology-anchors')} style={{ color: theme.primary }}>
+        <a href={studyUrl('chronology/chronology-anchors')} style={{ color: theme.primary }}>
           Chronology Anchors
         </a>
         ). Each Hebrew day runs from about 6 pm to 6 pm, its night shaded. Where the Gospels give

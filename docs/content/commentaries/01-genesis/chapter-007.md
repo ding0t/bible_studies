@@ -16,7 +16,7 @@ draft: false
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 7:1
 - [Six Days of History](../../last-things/six-days-of-history.md) — 7:11
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 7:1
-- [The Combined Timeline: One Line, Two Zones](../../last-things/combined-timeline.md) — 7:11
-- [The Flood and the King Lists: Which Genesis Numbers to Trust](../../god/flood-and-the-king-lists.md) — 7:6
+- [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 7:11
+- [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 7:6
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 7:11
 <!-- commentary-index:auto-end -->

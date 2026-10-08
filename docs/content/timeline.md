@@ -7,7 +7,7 @@ draft: false
 hide:
   - toc
 date_created: 2026-08-24
-date_modified: 2026-09-30
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -23,7 +23,7 @@ The horizontal axis is **Anno Mundi**, years since creation, on this site's one 
 the Masoretic numbers of Genesis 5 and 11, pinned to the Gregorian calendar by an Exodus in 1446 BC,
 which puts creation at 3959 BC, the Flood at 2303 BC, the cross at AM 3991 and the year 6000 at
 AD 2042. Archaeology (Qarqar, Sennacherib, Cyrus and others) fixes the Gregorian years below
-Solomon independently of the genealogies. [Chronology Anchors](last-things/chronology-anchors.md)
+Solomon independently of the genealogies. [Chronology Anchors](chronology/chronology-anchors.md)
 sets out what can be dated and how tightly, and why the site anchors where it does.
 
 Pick a period to zoom in (from Creation to the Flood down to the years Jesus was on earth) or type
@@ -42,8 +42,8 @@ their events and everyone alive in their lifetime; hover the chart for the year,
 who was alive then. The Family tree view shows the same people by descent.
 
 The Septuagint, the Samaritan Pentateuch and dsscalendar.org's epoch reckon differently, and can be
-switched on below for comparison. [Genealogy and Times](last-things/genealogy-times.md) and [The
-Flood and the King Lists](god/flood-and-the-king-lists.md) give the reasons the site follows the
+switched on below for comparison. [Genealogy and Times](chronology/genealogy-times.md) and [The
+Flood and the King Lists](chronology/flood-and-the-king-lists.md) give the reasons the site follows the
 Masoretic numbers. The year 6000 is where the arithmetic lands, not a date for Christ's return:
 He kept the day and hour hidden (Mark 13:32).
 

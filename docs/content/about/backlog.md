@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-06
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -148,7 +148,7 @@ of about four, and record each review in the state file.
 
 - **Priority 1: changed or published since 2026-09-24 with no review since.** Silent doctrinal or
   chronology drift is the risk here.
-  - [Chronology Anchors](../last-things/chronology-anchors.md): 4,600 words the timeline rests on.
+  - [Chronology Anchors](../chronology/chronology-anchors.md): 4,600 words the timeline rests on.
     Reviewed 2026-08-22 alongside Combined Timeline (that day's edits only), then restructured
     2026-09-20 without review. Reviewed again 2026-10-01; findings await the author.
   - [At Home with the Lord](../last-things/at-home-with-the-lord.md) (reviewed and fixed 2026-10-04),
@@ -192,7 +192,7 @@ publish. This list names them by file path and links none, because a published p
 - Psalm 118 on the Road to Gethsemane (`jesus/psalm-118-road-to-gethsemane.md`): 1,449 words.
 - The Rapture in the Early Church (`last-things/rapture-in-the-early-church.md`) (3,443 words) and
   Meet the Lord in the Air (`last-things/meet-the-lord-in-the-air.md`) (3,138 words).
-- Four Hundred and Eighty Years (`last-things/four-hundred-and-eighty-years.md`): 1,393 words,
+- Four Hundred and Eighty Years (`chronology/four-hundred-and-eighty-years.md`): 1,393 words,
   forked from Genealogy and Times; see [8.2](#82-chronology-follow-ups).
 
 ## 1. Scripture
@@ -667,9 +667,9 @@ Roughly 140MB in total; `en_ult` is nearly all of it and `en_uhg` is 3.6MB.
 ### 8.2 Chronology follow-ups
 
 Left over from moving the site's chronology to the Masoretic numbers on 2026-09-28 (see
-[The Flood and the King Lists](../god/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers)).
+[The Flood and the King Lists](../chronology/flood-and-the-king-lists.md#why-this-site-follows-the-masoretic-numbers)).
 
-- **Terah's birth year.** [Genealogy and Times](../last-things/genealogy-times.md) works Terah's
+- **Terah's birth year.** [Genealogy and Times](../chronology/genealogy-times.md) works Terah's
   puzzle from 1876 BC; the generator (`references/build/genealogy_chronology.py`) uses 1878. Find
   which is right and make the other agree.
 - **Stale source paths.** Existing references in `docs/data/chronology.json` point at

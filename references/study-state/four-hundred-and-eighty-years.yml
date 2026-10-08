@@ -1,7 +1,7 @@
 slug: four-hundred-and-eighty-years
 title: "Four Hundred and Eighty Years: From the Exodus to Solomon's Temple"
 status: forked
-target_path: docs/content/last-things/four-hundred-and-eighty-years.md
+target_path: docs/content/chronology/four-hundred-and-eighty-years.md
 primary_passage: "1 Kings 6:1"
 point: >
   1 Kings 6:1's 480 years from the Exodus to the temple holds once the judges are read as regional
@@ -13,7 +13,7 @@ stages:
     done: true
     notes: >
       Forked verbatim by simplify-bible-study on 2026-09-30 from
-      docs/content/last-things/genealogy-times.md @ 7314125d (section "The Exodus-to-Solomon gap"
+      docs/content/chronology/genealogy-times.md @ 7314125d (section "The Exodus-to-Solomon gap"
       and its five sub-sections). One edit to moved text: the Ruth section's "[below](#two-genealogies-two-different-jobs)"
       link to the parent became "Matthew 1 does it too", since that anchor stays in the parent.
       Its claims were verified by review-bible-study on 2026-09-30 (see the parent's review_2026-09-30).

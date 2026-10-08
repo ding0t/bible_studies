@@ -33,22 +33,6 @@ End-times prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](at-home-with-the-lord.md)
 
--   __Chronology Anchors: What Can Actually Be Dated, and How Tightly__
-
-    ---
-
-    Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its Zadok year. The fixed rail the rest of the biblical timeline hangs from.
-
-    [:octicons-arrow-right-24: Read](chronology-anchors.md)
-
--   __The Combined Timeline: One Line, Two Zones__
-
-    ---
-
-    Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,646 years at creation and converge on Abraham to the year.
-
-    [:octicons-arrow-right-24: Read](combined-timeline.md)
-
 -   __A Day Is a Thousand Years__
 
     ---
@@ -80,14 +64,6 @@ End-times prophecy, read dispensationally.
     Matthew 24:32-35: the fig tree teaches reading the signs Jesus named, echoes the prophets' promise of Israel planted again in her land, and gives no year to count from; "this generation" is the generation that sees the signs begin.
 
     [:octicons-arrow-right-24: Read](fig-tree-and-this-generation.md)
-
--   __Genealogy and Times: From Creation to Christ__
-
-    ---
-
-    Tracing the covenant line from Adam to Christ through Genesis 5 and 11's genealogies, comparing the Masoretic Text, Septuagint, and Samaritan Pentateuch, and asking what the names themselves are saying
-
-    [:octicons-arrow-right-24: Read](genealogy-times.md)
 
 -   __Heaven and Earth Will Pass Away__
 
@@ -232,14 +208,6 @@ End-times prophecy, read dispensationally.
     The body God has promised believers. At the last trumpet He raises the body that was buried and changes it, and the living with it, into a body like the risen Jesus' own: imperishable, glorious, powerful and filled with the Holy Spirit. A study of 1 Corinthians 15:35-58.
 
     [:octicons-arrow-right-24: Read](we-shall-all-be-changed.md)
-
--   __Why Not 4004 BC? Where Ussher's Forty-Six Years Came From__
-
-    ---
-
-    Archbishop Ussher's creation date was printed in Bible margins for 250 years. His count from Adam to the Exodus still stands; forty-six years crept in while he added up the kings, and Kings itself shows how Israel's scribes actually counted.
-
-    [:octicons-arrow-right-24: Read](why-not-4004-bc.md)
 
 -   __Your Kingdom Come: The Kingdom Already Here and Not Yet Complete__
 
