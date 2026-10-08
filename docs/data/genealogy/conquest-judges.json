@@ -5,8 +5,8 @@
       "id": "hezron",
       "name": "Hezron",
       "title": "Son of Perez, Founder of Judean Houses",
-      "zadok_year_born": 2272,
-      "zadok_year_died": 2366,
+      "zadok_year_born": 2316,
+      "zadok_year_died": 2410,
       "lifespan_years": 94,
       "parent_id": "perez",
       "spouse_id": null,
@@ -34,14 +34,15 @@
       "name_hebrew": "חֶצְרוֹן",
       "name_transliteration": "Chetsron",
       "name_meaning": "Enclosure, settled abode; from 'chatzer' (court, enclosure)",
-      "gender": "male"
+      "gender": "male",
+      "note": "Genesis 46:12 names Hezron and Hamul among those who went down to Egypt, but Perez himself was born about AM 2296, too late to have grandsons by AM 2298. The list counts Hezron with the household he belonged to, as Genesis 46:26-27 counts Joseph's sons, born in Egypt. Born about AM 2316 here, in Egypt."
     },
     {
       "id": "ram",
       "name": "Ram",
       "title": "Son of Hezron, Ancestor of David",
-      "zadok_year_born": 2330,
-      "zadok_year_died": 2417,
+      "zadok_year_born": 2360,
+      "zadok_year_died": 2447,
       "lifespan_years": 87,
       "parent_id": "hezron",
       "spouse_id": null,
@@ -66,19 +67,21 @@
       "name_hebrew": "רָם",
       "name_transliteration": "Ram",
       "name_meaning": "High, exalted; from 'rum' (to be high, exalted)",
-      "gender": "male"
+      "gender": "male",
+      "note": "Spaced evenly between Hezron (born in Egypt about AM 2316) and Nahshon (AM 2447); Scripture gives no year."
     },
     {
       "id": "amminadab",
       "name": "Amminadab",
       "title": "Son of Ram, Prince of Judah",
-      "zadok_year_born": 2389,
-      "zadok_year_died": 2475,
+      "zadok_year_born": 2403,
+      "zadok_year_died": 2489,
       "lifespan_years": 86,
       "parent_id": "ram",
       "spouse_id": null,
       "children": [
-        "nahshon"
+        "nahshon",
+        "elisheba"
       ],
       "lineages": [
         "seth_line",
@@ -99,7 +102,83 @@
       "name_hebrew": "עַמִּינָדָב",
       "name_transliteration": "Amminadav",
       "name_meaning": "My kinsman is noble, my people is willing; from 'am' (kinsman, people) and 'nadab' (to be willing, noble)",
-      "gender": "male"
+      "gender": "male",
+      "note": "Spaced evenly between Hezron (born in Egypt about AM 2316) and Nahshon (AM 2447); Scripture gives no year."
+    },
+    {
+      "id": "aaron",
+      "name": "Aaron",
+      "title": "Brother of Moses, First High Priest",
+      "zadok_year_born": 2429,
+      "zadok_year_died": 2552,
+      "lifespan_years": 123,
+      "parent_id": null,
+      "spouse_id": "elisheba",
+      "children": [],
+      "lineages": [
+        "seth_line"
+      ],
+      "data_classification": "CALCULATED",
+      "significance_level": 2,
+      "era": "Exodus/Wilderness",
+      "prophetic_role": "High Priest, Type of Christ's Priesthood",
+      "tags": [
+        "Priest",
+        "Levite",
+        "Exodus Generation"
+      ],
+      "bible_references": [
+        "Exodus 4:14",
+        "Exodus 6:20, 23",
+        "Exodus 7:7",
+        "Exodus 28:1",
+        "Numbers 20:22-29",
+        "Numbers 33:38-39",
+        "Hebrews 5:4"
+      ],
+      "name_hebrew": "אַהֲרֹן",
+      "name_transliteration": "Aharon",
+      "name_meaning": "Uncertain; no Hebrew etymology is agreed, and an Egyptian origin has been proposed",
+      "gender": "male",
+      "note": "83 when Moses was 80 (Exodus 7:7); died on Mount Hor aged 123, in the fifth month of the fortieth year after the Exodus (Numbers 33:38-39), 1407 BC. Parents Amram and Jochebed (Exodus 6:20) are not yet records in this dataset."
+    },
+    {
+      "id": "moses",
+      "name": "Moses",
+      "title": "Prophet and Lawgiver, Leader of the Exodus",
+      "zadok_year_born": 2433,
+      "zadok_year_died": 2553,
+      "lifespan_years": 120,
+      "parent_id": null,
+      "spouse_id": null,
+      "children": [],
+      "lineages": [
+        "seth_line"
+      ],
+      "data_classification": "CALCULATED",
+      "significance_level": 1,
+      "era": "Exodus/Wilderness",
+      "prophetic_role": "Prophet, Lawgiver, Mediator of the Covenant (Deuteronomy 18:15)",
+      "tags": [
+        "Prophet",
+        "Levite",
+        "Exodus Generation",
+        "Lawgiver"
+      ],
+      "bible_references": [
+        "Exodus 2:1-10",
+        "Exodus 3",
+        "Exodus 7:7",
+        "Deuteronomy 1:3",
+        "Deuteronomy 18:15",
+        "Deuteronomy 34:5-7",
+        "Hebrews 3:1-6"
+      ],
+      "name_hebrew": "מֹשֶׁה",
+      "name_transliteration": "Mosheh",
+      "name_meaning": "Drawn out; Exodus 2:10 ties the name to 'mashah' (to draw out). An Egyptian origin (ms, 'born of') is also proposed",
+      "gender": "male",
+      "note": "80 at the Exodus (Exodus 7:7) and 120 at his death (Deuteronomy 34:7), after the eleventh month of the fortieth year (Deuteronomy 1:3), the year Israel crossed the Jordan. Parents Amram and Jochebed (Exodus 6:20) are not yet records in this dataset."
     },
     {
       "id": "nahshon",
@@ -109,7 +188,7 @@
       "zadok_year_died": 2531,
       "lifespan_years": 84,
       "parent_id": "amminadab",
-      "spouse_id": "elisheba",
+      "spouse_id": null,
       "children": [
         "salmon"
       ],
@@ -117,7 +196,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "ACTUAL",
+      "data_classification": "EXTRAPOLATED",
       "significance_level": 2,
       "era": "Exodus/Wilderness/Judges",
       "prophetic_role": "Judean Leader",
@@ -139,23 +218,20 @@
     {
       "id": "elisheba",
       "name": "Elisheba",
-      "title": "Wife of Nahshon, Sister of Aaron",
+      "title": "Daughter of Amminadab, Sister of Nahshon, Wife of Aaron",
       "zadok_year_born": 2443,
       "zadok_year_died": 2525,
       "lifespan_years": 82,
-      "parent_id": null,
-      "spouse_id": "nahshon",
-      "children": [
-        "salmon"
-      ],
+      "parent_id": "amminadab",
+      "spouse_id": "aaron",
+      "children": [],
       "lineages": [
-        "seth_line",
-        "jesus_line"
+        "seth_line"
       ],
-      "data_classification": "ACTUAL",
+      "data_classification": "EXTRAPOLATED",
       "significance_level": 2,
       "era": "Exodus/Wilderness",
-      "prophetic_role": "High Priest's Sister",
+      "prophetic_role": "Mother of the Priestly Line",
       "tags": [
         "Matriarch"
       ],
@@ -168,11 +244,84 @@
       "gender": "female"
     },
     {
+      "id": "caleb",
+      "name": "Caleb",
+      "title": "Son of Jephunneh the Kenizzite, Faithful Spy",
+      "zadok_year_born": 2474,
+      "zadok_year_died": 2584,
+      "lifespan_years": 110,
+      "parent_id": null,
+      "spouse_id": null,
+      "children": [],
+      "lineages": [],
+      "data_classification": "EXTRAPOLATED",
+      "significance_level": 2,
+      "era": "Exodus/Wilderness/Conquest",
+      "prophetic_role": "Wholehearted Follower of the LORD",
+      "tags": [
+        "Spy",
+        "Judah",
+        "Exodus Generation",
+        "Conquest Generation"
+      ],
+      "bible_references": [
+        "Numbers 13:6, 30",
+        "Numbers 14:24, 30",
+        "Numbers 32:12",
+        "Joshua 14:6-15",
+        "Joshua 15:13-19"
+      ],
+      "name_hebrew": "כָּלֵב",
+      "name_transliteration": "Kalev",
+      "name_meaning": "Usually linked with 'kelev' (dog); reading it as 'kol-lev' (whole heart) fits Numbers 32:12 but is a wordplay, not an etymology",
+      "gender": "male",
+      "note": "Birth calculated: 40 when sent from Kadesh-barnea (Joshua 14:7), 85 forty-five years later (Joshua 14:10). Scripture gives no age at death; 110 is an estimate set equal to Joshua's."
+    },
+    {
+      "id": "joshua",
+      "name": "Joshua",
+      "title": "Son of Nun, Successor of Moses",
+      "zadok_year_born": 2474,
+      "zadok_year_died": 2584,
+      "lifespan_years": 110,
+      "parent_id": null,
+      "spouse_id": null,
+      "children": [],
+      "lineages": [
+        "seth_line"
+      ],
+      "data_classification": "EXTRAPOLATED",
+      "significance_level": 1,
+      "era": "Exodus/Wilderness/Conquest",
+      "prophetic_role": "Leader of the Conquest; his name is Jesus' name",
+      "tags": [
+        "Spy",
+        "Ephraim",
+        "Exodus Generation",
+        "Conquest Generation"
+      ],
+      "bible_references": [
+        "Exodus 17:9-14",
+        "Exodus 33:11",
+        "Numbers 13:8, 16",
+        "Numbers 14:30",
+        "Deuteronomy 34:9",
+        "Joshua 1:1-9",
+        "Joshua 24:29",
+        "Hebrews 4:8"
+      ],
+      "name_hebrew": "יְהוֹשֻׁעַ",
+      "name_transliteration": "Yehoshua",
+      "name_meaning": "The LORD is salvation; from 'Yah' and 'yasha' (to save). Moses renamed Hoshea ('salvation') Joshua (Numbers 13:16); the Greek form, Iesous, is Jesus' own name (Hebrews 4:8)",
+      "gender": "male",
+      "note": "Died at 110 (Joshua 24:29). Scripture gives no birth year; he is placed as Caleb's contemporary, the two spies who entered the land (Numbers 14:30)."
+    },
+    {
       "id": "salmon",
       "name": "Salmon",
       "title": "Son of Nahshon, Father of Boaz",
-      "gregorian_year_born": -1377,
-      "gregorian_year_died": -1293,
+      "gregorian_year_born": -1455,
+      "gregorian_year_died": -1371,
       "lifespan_years": 84,
       "parent_id": "nahshon",
       "spouse_id": "rahab",
@@ -199,14 +348,15 @@
       "name_hebrew": "שַׂלְמוֹן",
       "name_transliteration": "Salmon",
       "name_meaning": "Garment, clothing; from 'salmah' (garment) -- also spelled Salma (שַׂלְמָה)",
-      "gender": "male"
+      "gender": "male",
+      "note": "Scripture gives no year. Placed in the conquest generation: under twenty at the census of 1445 BC, as everyone who entered the land had to be (Numbers 14:29-30), and married to Rahab, who was living at Jericho in 1406 BC (Joshua 6:25; Matthew 1:5). Boaz is dated from the other end, so Ruth 4:20-21 is read as telescoped between Salmon and Boaz -- see four-hundred-and-eighty-years.md, Genealogy check #2."
     },
     {
       "id": "rahab",
       "name": "Rahab",
-      "title": "Woman of Jericho, Mother of Boaz",
-      "gregorian_year_born": -1351,
-      "gregorian_year_died": -1271,
+      "title": "Woman of Jericho, Wife of Salmon, Ancestress of Boaz",
+      "gregorian_year_born": -1430,
+      "gregorian_year_died": -1350,
       "lifespan_years": 80,
       "parent_id": null,
       "spouse_id": "salmon",
@@ -235,7 +385,8 @@
       "name_hebrew": "רָחָב",
       "name_transliteration": "Rachav",
       "name_meaning": "Broad, wide; from 'rachab' (to be wide) -- Rahab was Canaanite by birth, so this is the attested meaning of her name in Hebrew rather than a Hebrew ethnic origin",
-      "gender": "female"
+      "gender": "female",
+      "note": "Scripture gives no year. An adult householder at Jericho's fall in 1406 BC (Joshua 2:13; 6:25), so born about 1430 BC. Matthew 1:5's 'Salmon the father of Boaz by Rahab' is read as forefather -- see Salmon's note."
     },
     {
       "id": "boaz",

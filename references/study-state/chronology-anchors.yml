@@ -319,7 +319,6 @@ chronology_line:
     study links repointed from the dead studies/prophecy/ paths, Anderson and eclipse milestones
     removed, decree anchor 444 BC).
   still_open:
-    - "The pre-David Judah line in conquest-judges.json is placeholder (Rahab born after the conquest; Perez's entry to Egypt 70 years before Jacob's). The Four Hundred and Eighty Years draft is the place to settle it."
     - "Sabbatical-cycle reconstruction (Wacholder or Zuckermann) not named in the table."
 
 data_model_2026-10-01:
@@ -348,6 +347,28 @@ data_model_2026-10-01:
     - "Ahaziah killed by Jehu in 841 BC, the year he reigned (2 Kings 8:26; 9:27), not 840."
     - "Cain's and Abel's events had placeholder dates of AM 0; Genesis gives no year, so they are undated."
     - "Solomon's 'Reign of Peace' dropped as a description, not an event."
+
+chronology_audit_2026-10-08:
+  method: >
+    Every person checked against the ages Scripture states and against parent, spouse and event
+    dates: parent age at a child's birth, child born after a parent's death, every tagged event
+    inside the person's lifetime, and each king's birth and death against his accession age and
+    reign on Thiele's dates. ESV verified against study-notes.db for every verse cited below.
+  fixed:
+    - "Jacob's Haran years ran 57 years early (Bethel at Jacob 20). Genesis 47:9, 41:46 and 45:6 make Joseph born at Jacob 91, AM 2259, at the end of fourteen years' service (Genesis 30:25; 31:41): Bethel AM 2245, marriage 2252, Joseph 2259, Peniel and Esau 2265, Benjamin and Rachel's death about 2268."
+    - "Rebekah born AM 2040 (108 at her marriage, 128 at the twins' birth) -> about 2128; alive when Jacob fled (Genesis 27:45), death estimated 2255."
+    - "Leah and Rachel born in Jacob's 5th and 10th years -> about AM 2227 and 2232; Rachel dies about 2268, Leah before the descent (Genesis 49:31)."
+    - "Judah born AM 2193 (Jacob 25) -> about 2255 (Jacob 87). Tamar's marriage, Perez's birth and Tamar herself follow Genesis 38:1 after Joseph's sale (AM 2276): Perez about 2296. Hezron is counted with the household in Genesis 46:12 and born in Egypt (as 46:27 counts Joseph's sons), about 2316; Ram and Amminadab re-spaced to 2360 and 2403. All marked EXTRAPOLATED; Nahshon and Elisheba too, whose years Scripture does not give."
+    - "Abijah born 933 BC, two years before his son Asa -> about 952 BC (Jehoshaphat 35 in 872 BC puts Asa's birth by about 931)."
+    - "Ahaziah's record still died in 840 BC after the 2026-10-01 event fix -> 841 BC, aged 22."
+    - "Abel drawn as dying in AM 0 -> no death year stored, like Cain and Eve."
+    - "Abiud born five years after Zerubbabel's death -> the nine telescoped names re-spaced from Abiud at about 533 BC (Zerubbabel about 30) to Jacob at 87 BC."
+    - "Events before their own reign or off their stated regnal year: Abijah's war 921 -> 912 BC (2 Chronicles 13:1-2); Asa's reforms 919 -> 910 and the Cushite victory 909 -> 896 (2 Chronicles 14:1; 15:10); Jehoshaphat's teachers 875 -> 870 (17:7); Joash's repairs 816 -> 813 (2 Kings 12:6); Hezekiah's reforms 716 -> 715 (2 Chronicles 29:3) and illness 700 -> 701 (2 Kings 20:6); Josiah's law book and reforms 618 -> 622 (2 Kings 22:3; 23:23); David takes Jerusalem 1007 -> 1004 (2 Samuel 5:5)."
+    - "Ruth's arrival in Bethlehem 18 years before her marriage -> the same year (Ruth 1:22; 2:23; 4:13)."
+    - "Asa's coronation said 'at age 20'; Scripture gives no age. Removed."
+  kept_and_annotated:
+    - "Amaziah about 13 at Uzziah's birth and Ahaz about 15 at Hezekiah's: both follow from the accession ages Kings states on Thiele's dates; noted on Uzziah's and Hezekiah's records."
+    - "Salmon -> Boaz (258 years) and Zerubbabel -> Abiud: telescoped genealogies, documented in four-hundred-and-eighty-years.md and on the events."
 
 evidence:
   - {id: ez40-1-esv, what: "Ezekiel 40:1 block quote; 'beginning of the year', no month named", tool: study_verse, args: {book: Ezek, chapter: 40, verse: 1, work_id: esv-study-bible}, expect_contains: "In the twenty-fifth year of our exile, at the beginning of the year, on the tenth day of the month", checked: 2026-10-01}

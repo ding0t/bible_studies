@@ -32,3 +32,18 @@ stages:
       years" of judges follows the later Greek order (TR: after "after that"); SBLGNT marks the
       transposition and puts the 450 before it, as the ESV renders ("All this took about 450
       years"). ESV Study Bible note on 13:20 reads it as Egypt + wilderness + conquest.
+  salmon_rahab_dates_2026-10-08:
+    done: true
+    notes: >
+      Settled the placeholder flagged in chronology-anchors.yml (still_open): Rahab and Salmon had
+      been spaced evenly between Nahshon and David, which put Rahab's birth (1351 BC) 55 years after
+      Jericho. Added a paragraph to "Genealogy check #2": Rahab is an adult householder at Jericho
+      in 1406 BC (Joshua 2:13; 6:25), Matthew 1:5 makes Salmon her husband, and Numbers 14:29-30
+      requires Salmon under twenty in 1445 BC, so conquest-judges.json now has Salmon 1455-1371 BC
+      and Rahab 1430-1350 BC. Boaz stays at 1197 BC (from Obed), so the telescoping falls between
+      Salmon and Boaz and Matthew's "father" is read as forefather; the alternative gap between
+      Obed and Jesse is named as contested. ESV verified against study-notes.db: Joshua 2:13, 6:25,
+      Numbers 14:29-30, Matthew 1:1, 1:5. Same pass: Elisheba corrected to Aaron's wife and
+      Nahshon's sister (Exodus 6:23; she had been recorded as Nahshon's wife and Salmon's mother),
+      and Moses, Aaron, Joshua and Caleb added to the timeline (Exodus 7:7; Deuteronomy 1:3; 34:7;
+      Numbers 33:38-39; Joshua 14:7, 10; 24:29 -- all verified against the ESV).

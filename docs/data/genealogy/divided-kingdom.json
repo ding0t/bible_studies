@@ -39,9 +39,9 @@
       "id": "abijah",
       "name": "Abijah",
       "title": "King of Judah, Son of Rehoboam",
-      "gregorian_year_born": -933,
+      "gregorian_year_born": -952,
       "gregorian_year_died": -911,
-      "lifespan_years": 22,
+      "lifespan_years": 41,
       "parent_id": "rehoboam",
       "spouse_id": null,
       "children": [
@@ -51,7 +51,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "CALCULATED",
+      "data_classification": "EXTRAPOLATED",
       "significance_level": 2,
       "era": "Divided Kingdom",
       "prophetic_role": "Judean King",
@@ -67,7 +67,8 @@
       "name_hebrew": "אֲבִיָּה",
       "name_transliteration": "Aviyah",
       "name_meaning": "My father is the LORD; from 'ab' (father) and 'Yah' (the LORD)",
-      "gender": "male"
+      "gender": "male",
+      "note": "Scripture gives no age. His grandson Jehoshaphat was 35 in 872 BC (1 Kings 22:42), so Asa was born by about 931 BC and Abijah about twenty years before that. Previously recorded as born 933 BC, which made him two at Asa's birth."
     },
     {
       "id": "asa",
@@ -176,8 +177,8 @@
       "name": "Ahaziah",
       "title": "King of Judah, Son of Jehoram",
       "gregorian_year_born": -863,
-      "gregorian_year_died": -840,
-      "lifespan_years": 23,
+      "gregorian_year_died": -841,
+      "lifespan_years": 22,
       "parent_id": "jehoram",
       "spouse_id": null,
       "children": [],
@@ -298,7 +299,8 @@
       "name_hebrew": "עֻזִּיָּהוּ",
       "name_transliteration": "Uzziyahu",
       "name_meaning": "The LORD is my strength; from 'oz' (strength) and 'Yah' (the LORD) -- 2 Kings and 2 Chronicles also call him Azariah (עֲזַרְיָה, Azaryah), 'the LORD has helped', from 'azar' (to help), the same king under two names",
-      "gender": "male"
+      "gender": "male",
+      "note": "Amaziah was 25 at his accession in 796 BC (2 Kings 14:2) and Uzziah 16 when his reign began in 792 BC (2 Kings 15:2), so the stated ages make Amaziah about thirteen at Uzziah's birth. The difficulty lies in the figures as transmitted; Thiele's reconstruction carries it too."
     },
     {
       "id": "jotham",
@@ -400,7 +402,8 @@
       "name_hebrew": "חִזְקִיָּה",
       "name_transliteration": "Chizkiyahu",
       "name_meaning": "The LORD strengthens; from 'chazaq' (to be firm, strong) and 'Yah' (the LORD)",
-      "gender": "male"
+      "gender": "male",
+      "note": "Ahaz was 20 at his accession in 735 BC (2 Kings 16:2) and Hezekiah 25 at his in 715 BC (2 Kings 18:2), which makes Ahaz about fifteen at Hezekiah's birth. Hezekiah's synchronisms are the loose end of Thiele's system (2 Kings 18:1, 9-10); a co-regency from 729 BC would ease it."
     },
     {
       "id": "manasseh",

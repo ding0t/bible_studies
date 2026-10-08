@@ -121,9 +121,11 @@
       "gregorian_year": -1446,
       "kind": "pivot",
       "note": "1 Kings 6:1's 480 years before Solomon's 4th year, counted back from Thiele's Qarqar-anchored 966 BC. This site's creation epoch is anchored here: AM 2513 on the Masoretic chain, so creation falls at 3959 BC. Not itself an anchor -- no independent record fixes the Exodus to a year, and a late-date Exodus in the 1200s BC is also held in scholarship.",
-      "study_ref": "last-things/prophecy-events-times",
+      "study_ref": "chronology/four-hundred-and-eighty-years",
       "core": true,
       "people": [
+        "moses",
+        "aaron",
         "nahshon"
       ]
     },
@@ -837,8 +839,8 @@
       "note": "Jacob 130 (born AM 2168, Isaac 60, Genesis 25:26); 215 years before the Exodus.",
       "study_ref": "chronology/combined-timeline",
       "people": [
-        "perez",
-        "hezron"
+        "judah",
+        "perez"
       ]
     },
     {
@@ -848,7 +850,11 @@
       "scripture": "Joshua 4:19; Numbers 14:33-34",
       "core": false,
       "note": "Forty years after the Exodus.",
-      "study_ref": "chronology/combined-timeline"
+      "study_ref": "chronology/combined-timeline",
+      "people": [
+        "joshua",
+        "caleb"
+      ]
     }
   ],
   "future_sequence": {
@@ -2462,41 +2468,48 @@
     {
       "id": "jacob_dream_at_bethel",
       "label": "Dream at Bethel",
-      "am": 2188,
+      "am": 2245,
       "description": "Saw ladder to heaven; covenant renewed (Genesis 28:10-22)",
       "people": [
         "jacob"
-      ]
+      ],
+      "note": "Jacob 77, fleeing to Laban. Jacob was 130 entering Egypt (Genesis 47:9) when Joseph was 39 (Genesis 41:46; 45:6), so Joseph was born when Jacob was 91; Jacob served Laban fourteen years for his wives and six more (Genesis 31:41), and Joseph was born at the end of the fourteen (Genesis 30:25).",
+      "refs": "Genesis 28:10-22"
     },
     {
       "id": "jacob_marries",
       "label": "Jacob marries Leah and Rachel",
-      "refs": "Genesis 29:15-30",
-      "am": 2198,
+      "refs": "Genesis 29:18-30",
+      "am": 2252,
       "description": "Served Laban 7 years for Rachel (Genesis 29:18-30)",
       "people": [
         "jacob",
         "rachel",
         "leah"
-      ]
+      ],
+      "note": "Jacob 84, after seven years' service (Genesis 29:20-28)."
     },
     {
       "id": "jacob_wrestling_at_peniel",
       "label": "Wrestling at Peniel",
-      "am": 2248,
+      "am": 2265,
       "description": "Wrestled with God; name changed to Israel (Genesis 32:24-32)",
       "people": [
         "jacob"
-      ]
+      ],
+      "note": "Jacob 97, returning after twenty years with Laban (Genesis 31:38, 41).",
+      "refs": "Genesis 32:24-32"
     },
     {
       "id": "jacob_reunion_with_esau",
       "label": "Reunion with Esau",
-      "am": 2248,
+      "am": 2265,
       "description": "Reconciliation with brother Esau (Genesis 33:1-15)",
       "people": [
         "jacob"
-      ]
+      ],
+      "note": "Jacob 97, the same journey home.",
+      "refs": "Genesis 33:1-15"
     },
     {
       "id": "jacob_death",
@@ -2511,43 +2524,49 @@
     {
       "id": "rachel_birth_of_joseph",
       "label": "Birth of Joseph",
-      "am": 2208,
+      "am": 2259,
       "description": "Bore Joseph after years of barrenness (Genesis 30:22-24)",
       "people": [
         "rachel"
-      ]
+      ],
+      "note": "Jacob 91. Jacob was 130 entering Egypt (Genesis 47:9) when Joseph was 39 (Genesis 41:46; 45:6), so Joseph was born when Jacob was 91; Jacob served Laban fourteen years for his wives and six more (Genesis 31:41), and Joseph was born at the end of the fourteen (Genesis 30:25).",
+      "refs": "Genesis 30:22-25"
     },
     {
       "id": "rachel_birth_of_benjamin",
       "label": "Birth of Benjamin",
-      "am": 2258,
+      "am": 2268,
       "description": "Died giving birth to Benjamin (Genesis 35:16-19)",
       "people": [
         "rachel"
-      ]
+      ],
+      "note": "Genesis gives no year: after the return in AM 2265 and before Joseph is sold at seventeen in AM 2276 (Genesis 37:2). Estimated.",
+      "refs": "Genesis 35:16-19"
     },
     {
       "id": "judah_born",
       "label": "Judah born",
       "refs": "Genesis 29:35",
-      "am": 2193,
+      "am": 2255,
       "description": "Fourth son of Jacob; praise given to God (Genesis 29:35)",
       "people": [
         "judah",
         "leah"
-      ]
+      ],
+      "note": "Jacob about 87: Leah's fourth son (Genesis 29:35), born within the fourteen years that end with Joseph's birth in AM 2259 (Genesis 30:25). Estimated to within a few years."
     },
     {
       "id": "perez_born",
       "label": "Judah and Tamar; Perez born",
       "refs": "Genesis 38",
-      "am": 2213,
+      "am": 2296,
       "description": "Fathered Perez through Tamar (Genesis 38:1-30)",
       "people": [
         "judah",
         "perez",
         "tamar"
-      ]
+      ],
+      "note": "Estimated: Genesis 38 runs from Judah's marriage after AM 2276 through Er's and Onan's deaths, and Perez goes down to Egypt in AM 2298 (Genesis 46:12)."
     },
     {
       "id": "jacob_blesses",
@@ -2563,17 +2582,19 @@
     {
       "id": "tamar_marriage_to_er",
       "label": "Marriage to Er",
-      "am": 2210,
+      "am": 2292,
       "description": "Married Er, Judah's firstborn (Genesis 38:6)",
       "people": [
         "tamar"
-      ]
+      ],
+      "note": "Estimated: after Judah's marriage 'at that time', following Joseph's sale in AM 2276 (Genesis 38:1-6), and before Perez's birth.",
+      "refs": "Genesis 38:6"
     },
     {
       "id": "hezron_birth",
       "label": "Hezron born",
-      "am": 2272,
-      "description": "Son of Perez. Genesis 46:12 lists Hezron among those who went down to Egypt with Jacob's household, so he was born before the migration, not in Egypt; Ruth 4:18/Matthew 1:3 give no age or reign data, and the span from Perez to Nahshon (the Exodus generation, Numbers 1:7) depends on the disputed length of the sojourn itself (chronology-anchors.md notes a single reading of Exodus 12:40 moves the total by 215 years) -- so this study spaces Hezron, Ram and Amminadab evenly across that window rather than inventing false precision.",
+      "am": 2316,
+      "description": "Son of Perez (Ruth 4:18). Genesis 46:12 names Hezron and Hamul among those who went down to Egypt, but Perez was born only about two years before the descent; the list counts them with the household they belonged to, as Genesis 46:27 counts Joseph's sons born in Egypt. Born in Egypt; year estimated.",
       "people": [
         "hezron"
       ]
@@ -2581,8 +2602,8 @@
     {
       "id": "ram_birth",
       "label": "Ram born",
-      "am": 2330,
-      "description": "Son of Hezron (Ruth 4:19, Matthew 1:3). Spaced evenly between Perez and Nahshon -- see Hezron's Birth note.",
+      "am": 2360,
+      "description": "Son of Hezron (Ruth 4:19, Matthew 1:3). Spaced evenly between Hezron (about AM 2316) and Nahshon (AM 2447); Scripture gives no year.",
       "people": [
         "ram"
       ]
@@ -2590,8 +2611,8 @@
     {
       "id": "amminadab_birth",
       "label": "Amminadab born",
-      "am": 2389,
-      "description": "Son of Ram. Spaced evenly between Perez and Nahshon -- see Hezron's Birth note. Numbers 1:7 names his son Nahshon, not Amminadab himself, as the one leading Judah in the wilderness census.",
+      "am": 2403,
+      "description": "Son of Ram. Spaced evenly between Hezron (about AM 2316) and Nahshon (AM 2447); Scripture gives no year. Numbers 1:7 names his son Nahshon, not Amminadab himself, as the one leading Judah in the wilderness census.",
       "people": [
         "amminadab"
       ]
@@ -2606,21 +2627,79 @@
       ]
     },
     {
-      "id": "nahshon_elisheba",
-      "label": "Nahshon and Elisheba",
-      "refs": "Exodus 6:23",
-      "am": 2465,
-      "description": "Married Aaron's sister (Exodus 6:23)",
+      "id": "moses_birth",
+      "label": "Moses born",
+      "refs": "Exodus 2:1-10; 7:7",
+      "am": 2433,
+      "description": "Hidden by his mother and drawn from the Nile by Pharaoh's daughter (Exodus 2:1-10). Eighty years before the Exodus (Exodus 7:7).",
       "people": [
-        "nahshon",
+        "moses"
+      ]
+    },
+    {
+      "id": "spies_sent",
+      "label": "Twelve spies sent from Kadesh-barnea",
+      "refs": "Numbers 13-14; Joshua 14:7",
+      "am": 2514,
+      "description": "Of the twelve, only Caleb and Joshua urged Israel to take the land; the generation over twenty was sentenced to die in the wilderness (Numbers 14:29-30).",
+      "note": "The second year after the Exodus (Numbers 10:11). Caleb was forty (Joshua 14:7).",
+      "people": [
+        "caleb",
+        "joshua"
+      ]
+    },
+    {
+      "id": "aaron_death",
+      "label": "Aaron dies on Mount Hor",
+      "refs": "Numbers 20:22-29; 33:38-39",
+      "am": 2552,
+      "description": "Aaron dies aged 123 and his priestly garments pass to his son Eleazar (Numbers 20:28).",
+      "note": "First day of the fifth month of the fortieth year after the Exodus (Numbers 33:38).",
+      "people": [
+        "aaron"
+      ]
+    },
+    {
+      "id": "moses_death",
+      "label": "Moses dies on Mount Nebo",
+      "refs": "Deuteronomy 34:1-9",
+      "am": 2553,
+      "description": "Moses sees the land from Nebo and dies aged 120, his eye undimmed (Deuteronomy 34:7); Joshua succeeds him (Deuteronomy 34:9).",
+      "note": "After the eleventh month of the fortieth year (Deuteronomy 1:3), just before the crossing.",
+      "people": [
+        "moses",
+        "joshua"
+      ]
+    },
+    {
+      "id": "caleb_hebron",
+      "label": "Caleb receives Hebron",
+      "refs": "Joshua 14:6-15",
+      "am": 2559,
+      "description": "Caleb, eighty-five and still strong, claims the hill country promised to him at Kadesh-barnea (Joshua 14:10-12).",
+      "note": "Forty-five years after the spies (Joshua 14:10), about seven years into the conquest.",
+      "people": [
+        "caleb",
+        "joshua"
+      ]
+    },
+    {
+      "id": "aaron_elisheba",
+      "label": "Aaron marries Elisheba",
+      "refs": "Exodus 6:23",
+      "undated": true,
+      "description": "Aaron married Elisheba, daughter of Amminadab and sister of Nahshon; she bore Nadab, Abihu, Eleazar and Ithamar (Exodus 6:23).",
+      "note": "Exodus gives no year; their sons were serving as priests by the second year after the Exodus (Numbers 3:2-4).",
+      "people": [
+        "aaron",
         "elisheba"
       ]
     },
     {
       "id": "salmon_birth",
       "label": "Salmon born",
-      "gregorian": -1377,
-      "description": "Son of Nahshon. Ruth 4:20-21/Matthew 1:4-5 name this generation but give no independent chronology, and the gap between Nahshon (Exodus generation, Numbers 1:7) and Boaz (whose own date is fixed by the tightly-narrated Ruth 4 birth of Obed) is far longer than one human lifetime -- so this study spaces Salmon evenly across that window rather than inventing false precision, the same telescoping documented in this study's Genealogy and Times (the Davidic-line check) and later applied again to Matthew's Abiud-to-Jacob list.",
+      "gregorian": -1455,
+      "description": "Son of Nahshon. Scripture gives no year. Salmon belongs to the conquest generation: he married Rahab, who was living at Jericho when it fell (Joshua 6:25; Matthew 1:5), and to enter the land he had to be under twenty at the census of 1445 BC (Numbers 14:29-30). Boaz is dated from the other end, by Obed and David, so the names Ruth 4:20-21 leaves out fall between Salmon and Boaz (Four Hundred and Eighty Years, Genealogy check #2).",
       "people": [
         "salmon"
       ]
@@ -2628,9 +2707,9 @@
     {
       "id": "salmon_rahab",
       "label": "Salmon marries Rahab",
-      "refs": "Matthew 1:5; Ruth 4:20-21",
-      "gregorian": -1315,
-      "description": "Married Canaanite woman redeemed through faith (Joshua 2, 6:22-25)",
+      "refs": "Matthew 1:5; Joshua 6:25",
+      "gregorian": -1405,
+      "description": "Salmon of Judah marries Rahab of Jericho, spared for her faith (Joshua 2; 6:22-25). Scripture gives no year; placed just after Jericho's fall.",
       "people": [
         "salmon",
         "rahab"
@@ -2651,7 +2730,7 @@
       "id": "boaz_birth",
       "label": "Boaz born",
       "gregorian": -1197,
-      "description": "Son of Salmon and Rahab. Birth year not independently given; fixed here by working back from Obed's real birth (below) rather than from Salmon's own uncertain date -- see Salmon's Birth note.",
+      "description": "Named as the son of Salmon and Rahab (Matthew 1:5; Ruth 4:21). Birth year not independently given; fixed here by working back from Obed's birth (below). Salmon and Rahab belong to the conquest generation about 250 years earlier, so 'father' is read as forefather -- see Salmon's Birth note.",
       "people": [
         "boaz"
       ]
@@ -2670,11 +2749,13 @@
     {
       "id": "ruth_faithfulness_to_naomi",
       "label": "Faithfulness to Naomi",
-      "gregorian": -1155,
+      "gregorian": -1137,
       "description": "Refused to leave Naomi; committed to Israel and God (Ruth 1:16-17)",
       "people": [
         "ruth"
-      ]
+      ],
+      "note": "They reached Bethlehem at the beginning of barley harvest (Ruth 1:22), and Boaz married her when the harvests ended (Ruth 2:23; 4:13), so both fall in one year.",
+      "refs": "Ruth 1:16-22"
     },
     {
       "id": "obed_born",
@@ -2756,11 +2837,12 @@
     {
       "id": "david_captured_jerusalem",
       "label": "Captured Jerusalem",
-      "gregorian": -1007,
+      "gregorian": -1004,
       "description": "Made Jerusalem capital; brought Ark of Covenant (2 Samuel 5:6-12, 6:1-19)",
       "people": [
         "david"
-      ]
+      ],
+      "note": "After seven years and six months at Hebron (2 Samuel 5:5)."
     },
     {
       "id": "david_davidic_covenant",
@@ -2845,38 +2927,45 @@
     {
       "id": "abijah_war_with_jeroboam",
       "label": "War with Jeroboam",
-      "gregorian": -921,
+      "gregorian": -912,
       "description": "Fought Jeroboam; God delivered Judah (2 Chronicles 13:1-20)",
       "people": [
         "abijah"
-      ]
+      ],
+      "note": "During his three-year reign (2 Chronicles 13:1-2).",
+      "refs": "2 Chronicles 13:1-20"
     },
     {
       "id": "asa_coronation",
       "label": "Asa becomes king",
       "gregorian": -911,
-      "description": "Became king at age 20 (1 Kings 15:9-11)",
+      "description": "Began to reign in Jeroboam's twentieth year and reigned forty-one years (1 Kings 15:9-10).",
       "people": [
         "asa"
-      ]
+      ],
+      "refs": "1 Kings 15:9-11"
     },
     {
       "id": "asa_religious_reforms",
       "label": "Religious Reforms",
-      "gregorian": -919,
+      "gregorian": -910,
       "description": "Removed idols and high places; restored worship (2 Chronicles 14:2-5)",
       "people": [
         "asa"
-      ]
+      ],
+      "note": "Early in his reign; the land then had rest ten years (2 Chronicles 14:1).",
+      "refs": "2 Chronicles 14:2-5"
     },
     {
       "id": "asa_victory_over_cushites",
       "label": "Victory over Cushites",
-      "gregorian": -909,
+      "gregorian": -896,
       "description": "Defeated great army; miracle from God (2 Chronicles 14:9-12)",
       "people": [
         "asa"
-      ]
+      ],
+      "note": "Before the assembly in the third month of Asa's fifteenth year, where the spoil was offered (2 Chronicles 15:10-11).",
+      "refs": "2 Chronicles 14:9-15; 15:10"
     },
     {
       "id": "jehoshaphat_coronation",
@@ -2890,11 +2979,13 @@
     {
       "id": "jehoshaphat_judicial_system",
       "label": "Judicial System",
-      "gregorian": -875,
+      "gregorian": -870,
       "description": "Sent judges throughout Judah (2 Chronicles 17:7-9)",
       "people": [
         "jehoshaphat"
-      ]
+      ],
+      "note": "In the third year of his reign (2 Chronicles 17:7).",
+      "refs": "2 Chronicles 17:7-9"
     },
     {
       "id": "jehoram_coronation",
@@ -2945,11 +3036,13 @@
     {
       "id": "joash_temple_repairs",
       "label": "Temple Repairs",
-      "gregorian": -816,
+      "gregorian": -813,
       "description": "Ordered repair of the temple, funded by a chest for freewill offerings (2 Kings 12:4-16)",
       "people": [
         "joash"
-      ]
+      ],
+      "note": "By his twenty-third year the priests had made no repairs (2 Kings 12:6).",
+      "refs": "2 Kings 12:4-16"
     },
     {
       "id": "amaziah_reigns",
@@ -3019,20 +3112,24 @@
     {
       "id": "hezekiah_religious_reforms",
       "label": "Religious Reforms",
-      "gregorian": -716,
+      "gregorian": -715,
       "description": "Removed idols and high places; cleansed Temple (2 Kings 18:4)",
       "people": [
         "hezekiah"
-      ]
+      ],
+      "note": "In the first month of his first year (2 Chronicles 29:3).",
+      "refs": "2 Kings 18:4; 2 Chronicles 29:3"
     },
     {
       "id": "hezekiah_healing_and_extended_life",
       "label": "Healing and Extended Life",
-      "gregorian": -700,
+      "gregorian": -701,
       "description": "Healed of terminal illness; life extended 15 years (2 Kings 20:1-11)",
       "people": [
         "hezekiah"
-      ]
+      ],
+      "note": "Fifteen years before his death in 686 BC (2 Kings 20:6), the year of Sennacherib's siege.",
+      "refs": "2 Kings 20:1-11"
     },
     {
       "id": "manasseh_coronation",
@@ -3084,20 +3181,24 @@
     {
       "id": "josiah_discovery_of_law_book",
       "label": "Discovery of Law Book",
-      "gregorian": -618,
+      "gregorian": -622,
       "description": "Book of the Law discovered during Temple repairs (2 Kings 22:8)",
       "people": [
         "josiah"
-      ]
+      ],
+      "note": "In his eighteenth year (2 Kings 22:3).",
+      "refs": "2 Kings 22:3-8"
     },
     {
       "id": "josiah_religious_reforms",
       "label": "Religious Reforms",
-      "gregorian": -618,
+      "gregorian": -622,
       "description": "Removed all idols; kept Passover (2 Kings 23:1-30)",
       "people": [
         "josiah"
-      ]
+      ],
+      "note": "The Passover was kept in his eighteenth year (2 Kings 23:23).",
+      "refs": "2 Kings 23:1-25"
     },
     {
       "id": "josiah_dies",
@@ -3133,8 +3234,8 @@
     {
       "id": "abiud_birth",
       "label": "Abiud born",
-      "gregorian": -500,
-      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "gregorian": -533,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly from Abiud, born when Zerubbabel was about thirty, to Jacob rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
         "abiud"
       ]
@@ -3142,8 +3243,8 @@
     {
       "id": "eliakim_3_birth",
       "label": "Eliakim born",
-      "gregorian": -448,
-      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "gregorian": -477,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly from Abiud, born when Zerubbabel was about thirty, to Jacob rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
         "eliakim_3"
       ]
@@ -3151,8 +3252,8 @@
     {
       "id": "azor_birth",
       "label": "Azor born",
-      "gregorian": -397,
-      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "gregorian": -422,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly from Abiud, born when Zerubbabel was about thirty, to Jacob rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
         "azor"
       ]
@@ -3160,8 +3261,8 @@
     {
       "id": "sadoc_birth",
       "label": "Sadoc born",
-      "gregorian": -345,
-      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "gregorian": -366,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly from Abiud, born when Zerubbabel was about thirty, to Jacob rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
         "sadoc"
       ]
@@ -3169,8 +3270,8 @@
     {
       "id": "achim_birth",
       "label": "Achim born",
-      "gregorian": -293,
-      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "gregorian": -310,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly from Abiud, born when Zerubbabel was about thirty, to Jacob rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
         "achim"
       ]
@@ -3178,8 +3279,8 @@
     {
       "id": "eliud_birth",
       "label": "Eliud born",
-      "gregorian": -242,
-      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "gregorian": -254,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly from Abiud, born when Zerubbabel was about thirty, to Jacob rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
         "eliud"
       ]
@@ -3187,8 +3288,8 @@
     {
       "id": "eleazar_2_birth",
       "label": "Eleazar born",
-      "gregorian": -190,
-      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "gregorian": -198,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly from Abiud, born when Zerubbabel was about thirty, to Jacob rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
         "eleazar_2"
       ]
@@ -3196,8 +3297,8 @@
     {
       "id": "matthan_birth",
       "label": "Matthan born",
-      "gregorian": -138,
-      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "gregorian": -143,
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly from Abiud, born when Zerubbabel was about thirty, to Jacob rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
         "matthan"
       ]
@@ -3206,7 +3307,7 @@
       "id": "jacob_2_birth",
       "label": "Jacob born",
       "gregorian": -87,
-      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly across the window rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
+      "description": "Matthew 1:13-15 names this generation but gives no age or reign data; the nine names from Abiud to Jacob span roughly five centuries with no independent chronology, so this study spaces them evenly from Abiud, born when Zerubbabel was about thirty, to Jacob rather than inventing false precision -- the same telescoping already documented for the Judah king-list in Genealogy and Times.",
       "people": [
         "jacob_2"
       ]

@@ -90,7 +90,7 @@ assert(CHRONOLOGY.anchors.length > 0, 'at least one archaeological anchor is def
 
 console.log('\n5. Genealogy loader:');
 const genealogy = loadGenealogyPeople();
-assert(genealogy.length === 78, 'loadGenealogyPeople merges all six era files (78 people)');
+assert(genealogy.length === 82, 'loadGenealogyPeople merges all six era files (82 people)');
 assert(genealogy.some((p) => p.id === 'adam'), 'Adam is present');
 assert(genealogy.some((p) => p.id === 'jesus' || p.id === 'jesus_christ'), 'Jesus is present');
 assert(Object.keys(GENEALOGY_INDEX.timeline_variants).length === 3, 'three timeline variants are indexed (mt, lxx, sp)');
@@ -233,6 +233,37 @@ assert(jacob.zadok_year_died - jacob.zadok_year_born === 147, 'Jacob dies at 147
 assert(jacob.zadok_year_died === 2298 + 17, 'Jacob dies seventeen years after entering Egypt (Genesis 47:28)');
 const sarah = allPeople.find((p) => p.id === 'sarah');
 assert(sarah.lifespan_years === 127 && sarah.zadok_year_born === 2008 + 10, 'Sarah is ten years younger than Abraham and dies at 127 (Genesis 17:17; 23:1)');
+const moses = allPeople.find((p) => p.id === 'moses');
+assert(2513 - moses.zadok_year_born === 80 && moses.zadok_year_died === 2553, 'Moses is 80 at the Exodus and dies in the year of the crossing (Exodus 7:7; Deuteronomy 34:7)');
+const rahab = allPeople.find((p) => p.id === 'rahab');
+const salmon = allPeople.find((p) => p.id === 'salmon');
+assert(rahab.zadok_year_born <= 2553 - 18 && rahab.zadok_year_died > 2553, 'Rahab is an adult at Jericho (Joshua 2:13; 6:25)');
+assert(2514 - salmon.zadok_year_born < 20 && salmon.zadok_year_died > 2553, 'Salmon is under twenty at the census and enters the land (Numbers 14:29-30)');
+assert(allPeople.find((p) => p.id === 'elisheba').spouse_id === 'aaron', "Elisheba is Aaron's wife and Nahshon's sister (Exodus 6:23)");
+const byId = new Map(allPeople.map((p) => [p.id, p]));
+// Telescoped genealogies name a forefather as 'father'; each exemption says where that is argued.
+const TELESCOPED = {
+  boaz: 'Ruth 4:21 / Matthew 1:5 skip names between Salmon and Boaz (four-hundred-and-eighty-years.md)',
+  abiud: 'Matthew 1:13 skips names after Zerubbabel; the nine names to Jacob are spaced evenly',
+};
+const unbornParents = allPeople.filter((p) => {
+  const par = byId.get(p.parent_id);
+  if (!par || TELESCOPED[p.id] || p.zadok_year_born == null || par.zadok_year_born == null) return false;
+  return p.zadok_year_born - par.zadok_year_born < 12 || (par.zadok_year_died != null && p.zadok_year_born > par.zadok_year_died + 1);
+});
+assert(unbornParents.length === 0, `every parent is alive and grown at a child's birth (${unbornParents.map((p) => p.id).join(', ')})`);
+const outOfLife = allPeople.flatMap((p) =>
+  p.zadok_year_born == null
+    ? []
+    : eventsForPerson(p.id)
+        .filter((e) => e.am != null && (e.am < p.zadok_year_born - 1 || (p.zadok_year_died != null && e.am > p.zadok_year_died + 1)))
+        .map((e) => `${p.id}: ${e.id}`)
+);
+assert(outOfLife.length === 0, `every event falls inside the lives of the people it names (${outOfLife.join(', ')})`);
+const josephBorn = eventsForPerson('rachel').find((e) => e.id === 'rachel_birth_of_joseph').am;
+assert(2298 - josephBorn === 39 && josephBorn - jacob.zadok_year_born === 91, 'Joseph is 39 when Jacob, 130, enters Egypt (Genesis 41:46; 45:6; 47:9)');
+const rebekah = byId.get('rebekah');
+assert(2148 - rebekah.zadok_year_born < 30, 'Rebekah is a young woman when Isaac marries her at forty (Genesis 24:16; 25:20)');
 const abrahamEvents = eventsForPerson('abraham').map((e) => e.id);
 assert(abrahamEvents.includes('abram_called') && abrahamEvents.includes('isaac_born'), "Abraham's call and Isaac's birth are the Genesis markers, not copies of them");
 assert(eventsForPerson('jesus').some((e) => e.source === 'passion' && e.id === 'crucified'), "Jesus's crucifixion is the AD 33 sequence's event, not a copy");

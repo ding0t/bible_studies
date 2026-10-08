@@ -6,11 +6,11 @@
     "calendar_info": "Zadok Year 0 is creation. The Gregorian year of each Zadok year comes from the site epoch set once in docs/data/chronology.json (epochs[id=genealogy], am0_gregorian: -3959 since 2026-10-01; -4004 before) and is converted by app/src/utils/chronology.js, with no year zero.",
     "chronology_note": "Adam through Terah (antediluvian.json fully, patriarchal.json's first 10 records) now carry raw per-tradition (mt/lxx/sp) textual data instead of hand-set zadok_year_born/died -- see timeline_variants below and references/build/genealogy_chronology.py, which generates docs/data/genealogy/generated/<variant>.json. Abraham onward is unaffected; Genesis gives no age-at-heir-birth data past Terah.",
     "computed_by": "references/build/genealogy_chronology.py",
-    "total_people": 78,
+    "total_people": 82,
     "file_structure": {
       "antediluvian.json": "Adam to Noah (13 people)",
       "patriarchal.json": "Post-Flood patriarchs to Judah (19 people)",
-      "conquest-judges.json": "Hezron to Solomon (14 people)",
+      "conquest-judges.json": "Hezron to Solomon, with Moses, Aaron, Caleb and Joshua (18 people)",
       "divided-kingdom.json": "Rehoboam to Josiah (15 people)",
       "exile-return.json": "Jehoiakim to Zerubbabel (4 people)",
       "second-temple.json": "Abiud to Jesus (12 people)"
@@ -94,7 +94,7 @@
     "conquest_judges": {
       "name": "Conquest & Judges Period",
       "description": "From the Conquest of Canaan through the Judges to establishment of the monarchy",
-      "people_count": 14,
+      "people_count": 18,
       "file": "conquest-judges.json",
       "am_start": 2553,
       "am_end": 3028

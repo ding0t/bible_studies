@@ -116,6 +116,9 @@ export default function TimeChart({
             am <= p.zadok_year_died
         );
 
+  // The count is of the people in this dataset, which is far from everyone alive: say so.
+  const aliveLabel = (n) => (n === 0 ? 'none on the chart alive' : `${n} on the chart alive`);
+
   const onMove = (e) => {
     const rect = innerRef.current?.getBoundingClientRect();
     if (!rect) return;
@@ -425,7 +428,7 @@ export default function TimeChart({
               }}
             >
               {formatGregorian(toGreg(cursorAm))} · AM {Math.round(cursorAm)} ·{' '}
-              {alive(Math.round(cursorAm)).length} alive
+              {aliveLabel(alive(Math.round(cursorAm)).length)}
             </div>
           </>
         )}
@@ -440,7 +443,8 @@ export default function TimeChart({
       {pinnedAm != null && (
         <div style={{ margin: '0.75rem 0 0 1rem', fontSize: '0.82rem' }}>
           <div style={sectionLabel}>
-            ALIVE IN {formatGregorian(toGreg(pinnedAm)).toUpperCase()} (AM {Math.round(pinnedAm)}){' '}
+            ON THE CHART AND ALIVE IN {formatGregorian(toGreg(pinnedAm)).toUpperCase()} (AM{' '}
+            {Math.round(pinnedAm)}){' '}
             <button
               onClick={() => setPinnedAm(null)}
               style={{
@@ -453,6 +457,11 @@ export default function TimeChart({
               clear
             </button>
           </div>
+          {alive(Math.round(pinnedAm)).length === 0 && (
+            <span style={{ color: theme.textMuted }}>
+              None of the people charted here was alive that year.
+            </span>
+          )}
           {alive(Math.round(pinnedAm)).map((p, i) => (
             <span key={p.id}>
               {i > 0 && ' · '}
@@ -477,7 +486,9 @@ export default function TimeChart({
         </div>
       )}
       <div style={{ margin: '0.6rem 0 0 1rem', fontSize: '0.72rem', color: theme.textMuted }}>
-        Hover for the year; click the chart to list who was alive then. Hatched bars are estimated
+        Hover for the year; click the chart to list which of the people charted were alive then.
+        The chart holds the genealogy from Adam to Jesus and the leaders of the Exodus, not the whole
+        population. Hatched bars are estimated
         or calculated; dashed outlines are the same life in another manuscript tradition. Ticks on a
         row are that person's events.
         {span > CORE_ONLY_SPAN ? ' Pick a period to see every anchor.' : ''}

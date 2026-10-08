@@ -178,6 +178,18 @@ This doesn't mean Ruth's genealogy is wrong; it means it's very likely **telesco
 generations the way ancient genealogies regularly do. Ezra 7 does it above; Matthew 1 does it too, dropping three known kings to reach a structuring
 number. Telescoping is a well-attested biblical pattern, and Ruth's list is short enough to need it.
 
+Rahab fixes where one end of the gap sits. She hid the spies at Jericho in 1406 BC as a woman with
+her own house and her parents still living (Joshua 2:13), and she "has lived in Israel to this day"
+(Joshua 6:25, ESV). Matthew names her as Salmon's wife: "Salmon the father of Boaz by Rahab"
+(Matthew 1:5, ESV). Salmon therefore belongs to the conquest generation. To enter the land at all he
+had to be under twenty at the census of 1445 BC (Numbers 14:29-30), and the [Prophetic
+Timeline](/timeline/#conquest-solomon) places his birth about 1455 BC and Rahab's about 1430 BC.
+Boaz is dated from the other end, by Obed and David, about 1197 BC. On those dates the skipped names
+fall between Salmon and Boaz, and Matthew's "father" means forefather, the sense in which the same
+chapter calls Jesus "the son of David" (Matthew 1:1, ESV). Where exactly the gap falls is contested.
+Some place it lower in the list, between Obed and Jesse. Rahab's place at Jericho fixes her
+generation on either reading.
+
 ## Where this leaves the reconstruction
 
 Two genealogical checks point in different directions. The priestly line is compatible with
@@ -217,3 +229,5 @@ evidence in the same way summing the numbers naively does.
 - [Chronology Anchors](chronology-anchors.md) — the 966 BC temple date this count runs back from.
 - [Why Not 4004 BC?](why-not-4004-bc.md) — Ussher read the same verse as 479 elapsed years; this
   site counts 480.
+- [The Prophetic Timeline](/timeline/#conquest-solomon) — the 480 years plotted, from the Jordan
+  crossing in 1406 BC to the temple.

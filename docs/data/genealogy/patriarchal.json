@@ -1021,9 +1021,9 @@
       "id": "rebekah",
       "name": "Rebekah",
       "title": "Wife of Isaac, Mother of Jacob",
-      "zadok_year_born": 2040,
-      "zadok_year_died": 2208,
-      "lifespan_years": 168,
+      "zadok_year_born": 2128,
+      "zadok_year_died": 2255,
+      "lifespan_years": 127,
       "parent_id": null,
       "spouse_id": "isaac",
       "children": [
@@ -1034,7 +1034,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "CALCULATED",
+      "data_classification": "EXTRAPOLATED",
       "significance_level": 2,
       "era": "Patriarchal",
       "prophetic_role": "Covenant Matriarch",
@@ -1049,7 +1049,8 @@
       "name_hebrew": "רִבְקָה",
       "name_transliteration": "Rivka",
       "name_meaning": "To bind, join; possibly from 'ribka' (to tie, bind)",
-      "gender": "female"
+      "gender": "female",
+      "note": "Scripture gives neither year. Isaac married her at forty (Genesis 25:20), AM 2148, when she was a young woman (Genesis 24:16), so born about AM 2128. She was alive when Jacob fled at 77, AM 2245 (Genesis 27:42-45), and is absent when he returns to Isaac (Genesis 35:27); buried at Machpelah (Genesis 49:31). Death estimated at AM 2255."
     },
     {
       "id": "jacob",
@@ -1105,9 +1106,9 @@
       "id": "rachel",
       "name": "Rachel",
       "title": "Wife of Jacob, Mother of Joseph and Benjamin",
-      "zadok_year_born": 2178,
-      "zadok_year_died": 2258,
-      "lifespan_years": 80,
+      "zadok_year_born": 2232,
+      "zadok_year_died": 2268,
+      "lifespan_years": 36,
       "parent_id": null,
       "spouse_id": "jacob",
       "children": [
@@ -1118,7 +1119,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "CALCULATED",
+      "data_classification": "EXTRAPOLATED",
       "significance_level": 2,
       "era": "Patriarchal",
       "prophetic_role": "Mother of Messiah's Line",
@@ -1134,14 +1135,15 @@
       "name_hebrew": "רָחֵל",
       "name_transliteration": "Rachel",
       "name_meaning": "Ewe (female sheep); from 'rachel' (ewe, gentleness)",
-      "gender": "female"
+      "gender": "female",
+      "note": "Scripture gives neither year. Leah's younger sister, married in AM 2252, so born about AM 2232. Died bearing Benjamin on the road to Ephrath (Genesis 35:16-19), after Jacob's return in AM 2265 and before Joseph was sold in AM 2276 (Genesis 37:2); estimated at AM 2268."
     },
     {
       "id": "judah",
       "name": "Judah",
       "title": "Son of Jacob, Father of Judean Line",
-      "zadok_year_born": 2193,
-      "zadok_year_died": 2321,
+      "zadok_year_born": 2255,
+      "zadok_year_died": 2383,
       "lifespan_years": 128,
       "parent_id": "jacob",
       "spouse_id": "leah",
@@ -1153,7 +1155,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "CALCULATED",
+      "data_classification": "EXTRAPOLATED",
       "significance_level": 1,
       "era": "Patriarchal",
       "prophetic_role": "Scepter Bearer, Messiah Tribe",
@@ -1171,15 +1173,16 @@
       "name_hebrew": "יְהוּדָה",
       "name_transliteration": "Yehudah",
       "name_meaning": "Praise of the Lord; from 'yadah' (to praise) and 'Yah' (God)",
-      "gender": "male"
+      "gender": "male",
+      "note": "Born about AM 2255, Jacob 87. Jacob was 130 entering Egypt (Genesis 47:9) when Joseph was 39 (Genesis 41:46; 45:6), so Joseph was born at Jacob 91, AM 2259, at the end of the fourteen years served for Leah and Rachel (Genesis 30:25; 31:41). Judah, Leah's fourth son (Genesis 29:35), was born within those years. Scripture gives no age at death; the 128-year span is an estimate."
     },
     {
       "id": "leah",
       "name": "Leah",
       "title": "Wife of Jacob, Mother of Judah",
-      "zadok_year_born": 2173,
-      "zadok_year_died": 2268,
-      "lifespan_years": 95,
+      "zadok_year_born": 2227,
+      "zadok_year_died": 2295,
+      "lifespan_years": 68,
       "parent_id": null,
       "spouse_id": "jacob",
       "children": [
@@ -1192,7 +1195,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "CALCULATED",
+      "data_classification": "EXTRAPOLATED",
       "significance_level": 2,
       "era": "Patriarchal",
       "prophetic_role": "Mother of Judah",
@@ -1205,14 +1208,15 @@
       "name_hebrew": "לֵאָה",
       "name_transliteration": "Leah",
       "name_meaning": "Weary, tired; possibly from 'la'ah' (to be weary)",
-      "gender": "female"
+      "gender": "female",
+      "note": "Scripture gives neither year. Married to Jacob at 84, AM 2252 (Genesis 29:21-30; 31:41), so born about AM 2227. Buried at Machpelah before Jacob's death (Genesis 49:31) and not named in the descent to Egypt in AM 2298; death estimated at AM 2295."
     },
     {
       "id": "perez",
       "name": "Perez",
       "title": "Son of Judah, Ancestor of David",
-      "zadok_year_born": 2213,
-      "zadok_year_died": 2293,
+      "zadok_year_born": 2296,
+      "zadok_year_died": 2376,
       "lifespan_years": 80,
       "parent_id": "judah",
       "spouse_id": "tamar",
@@ -1223,7 +1227,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "ACTUAL",
+      "data_classification": "EXTRAPOLATED",
       "significance_level": 2,
       "era": "Patriarchal/Egyptian",
       "prophetic_role": "Davidic Line Founder",
@@ -1241,14 +1245,15 @@
       "name_hebrew": "פֶּרֶץ",
       "name_transliteration": "Perez",
       "name_meaning": "Breaking forth; from 'paraz' (to break out, break through)",
-      "gender": "male"
+      "gender": "male",
+      "note": "Genesis 38 follows Judah's marriage after Joseph's sale in AM 2276 (Genesis 38:1) through Er's and Onan's marriages to Tamar, and Perez goes down to Egypt in AM 2298 (Genesis 46:12), so he was born about AM 2296. The 80-year span is an estimate."
     },
     {
       "id": "tamar",
       "name": "Tamar",
       "title": "Wife of Er and Judah, Mother of Perez",
-      "zadok_year_born": 2190,
-      "zadok_year_died": 2270,
+      "zadok_year_born": 2277,
+      "zadok_year_died": 2357,
       "lifespan_years": 80,
       "parent_id": null,
       "spouse_id": "judah",
@@ -1259,7 +1264,7 @@
         "seth_line",
         "jesus_line"
       ],
-      "data_classification": "ACTUAL",
+      "data_classification": "EXTRAPOLATED",
       "significance_level": 2,
       "era": "Patriarchal",
       "prophetic_role": "Ancestress of Jesus",
@@ -1274,7 +1279,8 @@
       "name_hebrew": "תָּמָר",
       "name_transliteration": "Tamar",
       "name_meaning": "Palm tree; from 'tamar' (palm tree, upright, graceful)",
-      "gender": "female"
+      "gender": "female",
+      "note": "Scripture gives neither year. Married to Er, Judah's firstborn (Genesis 38:6), about AM 2292; born about AM 2277. The 80-year span is an estimate."
     }
   ]
 }

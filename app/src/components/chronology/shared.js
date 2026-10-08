@@ -135,10 +135,22 @@ export const sectionLabel = {
 };
 
 // Which published study backs a person's dates. Adam-Terah come from the manuscript comparison in
-// Genealogy and Times; the rail from Solomon on is Chronology Anchors. Site-absolute: the site is
-// served from its domain root.
+// Genealogy and Times; from Egypt to David, Four Hundred and Eighty Years (the priestly and Davidic
+// lines, and Caleb's ages behind the conquest); the rail from Solomon on is Chronology Anchors.
+// Site-absolute: the site is served from its domain root.
 const GENEALOGY_TIMES_URL = '/chronology/genealogy-times/';
 const CHRONOLOGY_ANCHORS_URL = '/chronology/chronology-anchors/';
+const FOUR_EIGHTY_URL = '/chronology/four-hundred-and-eighty-years/';
+const PRIESTLY_LINE = {
+  url: `${FOUR_EIGHTY_URL}#genealogy-check-1-the-priestly-line-broadly-consistent-with-480-years`,
+  label: 'Four Hundred and Eighty Years: the priestly line from Aaron',
+};
+const CONQUEST = {
+  url: `${FOUR_EIGHTY_URL}#the-problem-the-numbers-dont-add-up-to-480`,
+  label: "Four Hundred and Eighty Years: Caleb's ages and the conquest",
+};
+// Jacob enters Egypt in AM 2298; David is born in AM 2918.
+const EGYPT_TO_DAVID = [2298, 2918];
 const STUDY_LINKS = {
   methuselah: {
     url: `${GENEALOGY_TIMES_URL}#methuselah-the-name-the-number-and-the-flood`,
@@ -149,6 +161,11 @@ const STUDY_LINKS = {
     label: 'Terah and Abram: a puzzle two different ways',
   },
   cainan_gen11: { url: `${GENEALOGY_TIMES_URL}#the-cainan-question`, label: 'The Cainan question' },
+  aaron: PRIESTLY_LINE,
+  moses: PRIESTLY_LINE,
+  elisheba: PRIESTLY_LINE,
+  joshua: CONQUEST,
+  caleb: CONQUEST,
   jesus: {
     url: `${CHRONOLOGY_ANCHORS_URL}#settling-the-crucifixion-year`,
     label: 'Settling the crucifixion year',
@@ -157,6 +174,13 @@ const STUDY_LINKS = {
 export function studyLinkFor(person) {
   if (!person) return null;
   if (STUDY_LINKS[person.id]) return STUDY_LINKS[person.id];
+  const born = person.zadok_year_born;
+  if (typeof born === 'number' && born >= EGYPT_TO_DAVID[0] && born < EGYPT_TO_DAVID[1]) {
+    return {
+      url: `${FOUR_EIGHTY_URL}#genealogy-check-2-the-davidic-line-in-real-tension-with-480-years`,
+      label: "Four Hundred and Eighty Years: the Davidic line and where Ruth's list telescopes",
+    };
+  }
   if (typeof person.zadok_year_born === 'number' && person.zadok_year_born < 2513) {
     return {
       url: GENEALOGY_TIMES_URL,
