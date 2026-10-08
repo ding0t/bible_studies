@@ -70,16 +70,12 @@ The genealogy viewer is live at http://localhost:4322/genealogy-viewer/ with:
 
 ## Backward Compatibility
 
-The original `genealogy.json` (3200+ lines) remains in `src/data/` for reference but is no longer used. The component transparently loads and merges data from the new modular structure.
-
-**Optional cleanup**: Delete `src/data/genealogy.json` when fully migrated to new structure.
+The original `genealogy.json` (3200+ lines, later at `docs/data/genealogy.json`) was deleted on 2026-10-09. Nothing read it, and its per-person events had moved to `docs/data/chronology.json` on Ussher's old epoch. It survives in git history.
 
 ## Next Steps (Optional)
 
-1. Delete old `genealogy.json` file when fully confident in new structure
-2. Update any build scripts that reference the old file structure
-3. Document era-based organization in `CONTRIBUTING.md`
-4. Set up Git automation to prevent commits of orphaned genealogy.json
+1. Update any build scripts that reference the old file structure
+2. Document era-based organization in `CONTRIBUTING.md`
 
 ## Impact on Workflow
 
@@ -123,7 +119,7 @@ The original `genealogy.json` (3200+ lines) remains in `src/data/` for reference
 - [x] Component renders successfully
 - [x] Documentation created
 - [x] Validation script created
-- [ ] Optional: Delete old genealogy.json
+- [x] Delete old genealogy.json (2026-10-09)
 - [ ] Optional: Update CONTRIBUTING.md
 
 ## Timeline

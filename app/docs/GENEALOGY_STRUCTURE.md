@@ -113,12 +113,7 @@ To add a new person to the genealogy:
 
 ## Migration from Old Structure
 
-The original `genealogy.json` has been superseded by the new modular structure. The file remains in the data directory for reference but is no longer used by the application.
-
-To completely clean up:
-```bash
-rm src/data/genealogy.json
-```
+The original `genealogy.json` was superseded by the modular structure and deleted on 2026-10-09; it survives in git history.
 
 ## Validation
 
