@@ -178,6 +178,56 @@ works the disputed cases rather than asserting that there are none.
 
 ## Dates and chronology
 
+### What year does the site count from?
+
+**Creation in 3959 BC, which the site calls AM 0** (*Anno Mundi*, "year of the world"). Every AM
+and Zadok year on the site counts from it: AD 1 is AM 3959, the cross in AD 33 is AM 3991, and the
+year 6000 falls in AD 2042. That last figure is where the arithmetic lands. Jesus kept the day and
+hour of His return hidden (Mark 13:32).
+
+The date is counted back from a fixed point. Assyrian and Babylonian records fix the start of
+Solomon's temple at 966 BC. First Kings 6:1 dates it "in the four hundred and eightieth year after
+the people of Israel came out of the land of Egypt" (ESV), which puts the Exodus in 1446 BC. The
+Hebrew (Masoretic) numbers of Genesis 5 and 11 then give 2,513 years from Adam to the Exodus, and
+1446 + 2513 = 3959.
+
+Each link carries its own confidence. The temple date is firm to within a few years. Reading the
+480 years as elapsed time is contested, and so is the length of Israel's stay in Egypt, which would
+move creation 215 years earlier. The Greek Old Testament's longer numbers put creation 1,466 years
+earlier. Until October 2026 this site counted from Ussher's 4004 BC; the forty-five-year difference
+came from how he added up the kings. → [Why Not 4004 BC?](chronology/why-not-4004-bc.md),
+[Chronology Anchors](chronology/chronology-anchors.md), and the [Prophetic Timeline](timeline.md),
+which draws the whole line
+
+### Do you hold a young earth?
+
+**Yes. I hold that about six thousand years have passed since Genesis 1:1, for the heavens as well
+as the earth.** It is a conviction read from Scripture's own numbers, and it rests on four things.
+
+- **The six days are a week.** Exodus 20:11 grounds the Sabbath in creation: "in six days the LORD
+  made heaven and earth, the sea, and all that is in them, and rested on the seventh day" (ESV).
+  Heaven is in that sentence, so the count covers the universe, and Genesis 1 closes each day with
+  "there was evening and there was morning".
+- **Genesis 5 and 11 are a chronology as well as a genealogy.** Each entry gives the father's age at
+  his heir's birth: "When Adam had lived 130 years, he fathered a son ... and named him Seth"
+  (Genesis 5:3, ESV). Ruth's and Matthew's genealogies skip names, and this site says so. A skipped
+  name in Genesis 5 would add no time, because every interval is stated in years.
+- **Jesus puts humanity at the beginning.** "But from the beginning of creation, 'God made them
+  male and female'" (Mark 10:6, ESV).
+- **Death entered through Adam** (Romans 5:12). I read that as ruling out ages of death before him.
+  Christians who hold an old earth read it of human death alone, and that reading is defensible.
+
+The exact year is less certain than the scale. The Masoretic, Samaritan and Greek texts put creation
+between 3959 and 5425 BC, and the site follows the Masoretic numbers for reasons it sets out. Many
+Christians who hold Scripture as firmly read Genesis 1's days as ages or as a literary framework,
+mainly because radiometric dating, starlight and counted tree rings and ice layers point to deep
+time. Where a study meets that evidence it is set out and left open: the population study shows a
+six-thousand-year history needs no special pleading, and stops short of calling that proof.
+→ [Statement of faith](about/statement-of-faith.md#creation-is-6-days),
+[Genealogy and Times](chronology/genealogy-times.md),
+[The Flood and the King Lists](chronology/flood-and-the-king-lists.md), and
+[What World Population Declares](god/world-population-declares-gods-creation-and-biblical-truth.md)
+
 ### When was Jesus crucified?
 
 **Friday, 3 April AD 33.** The day of the week is the firm part: Mark calls it "the day of

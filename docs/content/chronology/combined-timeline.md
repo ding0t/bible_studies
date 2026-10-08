@@ -1,7 +1,7 @@
 ---
 title: "The Combined Timeline: One Line, Two Zones"
 category: "prophecy"
-description: "Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,646 years at creation and converge on Abraham to the year."
+description: "Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,466 years at creation and converge on Abraham to the year."
 tags: ["genealogy", "creation", "method/textual-criticism", "status/investigation"]
 draft: false
 primary_passage: "Genesis 11:10-32"
@@ -15,7 +15,7 @@ ai_provider_models:
 
 # The Combined Timeline: One Line, Two Zones
 
-**The four manuscript traditions disagree about creation by 1,646 years and agree about Abraham to the year.** That single fact is the shape of biblical chronology. Everything above Abraham stretches; everything below him is fixed.
+**The three manuscript traditions disagree about creation by 1,466 years and agree about Abraham to the year.** That single fact is the shape of biblical chronology. Everything above Abraham stretches; everything below him is fixed.
 
 Two other pages hold the detail. [Genealogy and Times](genealogy-times.md) works through the manuscript evidence for the stretch above Abraham. [Chronology Anchors](chronology-anchors.md) lists the forty-one datable events below him. This page puts them on one line.
 

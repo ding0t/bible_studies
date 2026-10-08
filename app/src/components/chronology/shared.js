@@ -18,9 +18,11 @@ export const VARIANT_META = {
   sp: { label: 'Samaritan Pentateuch (compare)', color: '#059669' },
 };
 
+// `color` feeds the toggle chip, which needs a hex for its tint; `text` is the ruler label, which
+// follows the palette toggle through tools.css.
 export const EPOCH_META = {
-  genealogy: { color: '#475569' },
-  millennial_2075: { color: '#e11d48' },
+  genealogy: { color: '#2563eb', text: 'var(--color-epoch-site, #1d4ed8)' },
+  millennial_2075: { color: '#e11d48', text: 'var(--color-epoch-compare, #be123c)' },
 };
 
 export const LAYER_META = {
@@ -36,7 +38,8 @@ export const LAYER_META = {
 // converted through the primary epoch. The two future periods have no date at all: Scripture gives
 // their lengths and withholds their start, so they are drawn on their own undated axis.
 export const PERIODS = [
-  { id: 'week', label: 'The whole week', am: [0, 7000] },
+  // Runs a little past AM 7000 so the open eighth day shows at the end of the week.
+  { id: 'week', label: 'The whole week', am: [0, 7400] },
   { id: 'creation-flood', label: 'Creation to the Flood', am: [0, 1700] },
   { id: 'flood-abraham', label: 'Flood to Abraham', am: [1600, 2150] },
   { id: 'patriarchs', label: 'Patriarchs to the conquest', am: [2000, 2600] },

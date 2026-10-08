@@ -22,7 +22,14 @@ import {
 } from './shared';
 
 const LABEL_W = 150;
+// Room at each end of the plot, so AM 0 and a marker drawn on it clear the sticky label column.
+const PAD = 14;
 const GANTT_ROW = 20;
+// The ruler sets its own line height: inherited from the page (1.6) the labels outgrew the row and
+// its bottom border ran through the Gregorian years.
+const RULER_LINE = 1.3;
+const WEEK_END = 7000;
+const EIGHTH = CHRONOLOGY.eighth_day;
 // Wider than this and the Gantt shows the key people only, unless the reader asks for everyone.
 const KEY_PEOPLE_SPAN = 2000;
 
@@ -47,7 +54,8 @@ export default function TimeChart({
   onSelectMarker,
 }) {
   const span = amEnd - amStart;
-  const amToX = (am) => ((am - amStart) / span) * width;
+  const plotW = width - 2 * PAD;
+  const amToX = (am) => PAD + ((am - amStart) / span) * plotW;
   const clipX = (am) => amToX(Math.min(Math.max(am, amStart), amEnd));
   const inView = (am, amTo = am) => amTo >= amStart && am <= amEnd;
   const toGreg = (am) => amToGregorian(Math.round(am), primaryEpoch);
@@ -69,7 +77,8 @@ export default function TimeChart({
         out.push(gregorianToAm(g === 0 ? 1 : g, primaryEpoch));
       }
     }
-    return [...new Set(out)];
+    // The eighth day is not counted, so the ruler stops at the end of the week.
+    return [...new Set(out)].filter((am) => am <= WEEK_END);
   }, [span, amStart, amEnd, primaryEpoch]);
 
   const [primary, ...others] = lanes;
@@ -124,7 +133,7 @@ export default function TimeChart({
     if (!rect) return;
     const x = e.clientX - rect.left - LABEL_W;
     if (x < 0 || x > width) return setHoverAm(null);
-    setHoverAm(amStart + (x / width) * span);
+    setHoverAm(Math.min(amEnd, Math.max(amStart, amStart + ((x - PAD) / plotW) * span)));
   };
 
   const lineageColor = (p) =>
@@ -188,12 +197,38 @@ export default function TimeChart({
                 Day {d.day}
               </div>
             ))}
+          {amEnd > EIGHTH.am_start && (
+            <a
+              href={EIGHTH.url}
+              title={EIGHTH.note}
+              style={{
+                position: 'absolute',
+                left: clipX(EIGHTH.am_start),
+                right: 0,
+                top: 0,
+                bottom: 0,
+                background: 'linear-gradient(90deg, rgba(5,150,105,0.25), rgba(5,150,105,0))',
+                borderRadius: '0.25rem 0 0 0.25rem',
+                display: 'flex',
+                alignItems: 'center',
+                paddingLeft: '0.5rem',
+                fontSize: '0.7rem',
+                fontWeight: 700,
+                color: 'var(--color-eighth-day, #047857)',
+                textDecoration: 'none',
+                whiteSpace: 'nowrap',
+                overflow: 'hidden',
+              }}
+            >
+              Day 8 ⟶
+            </a>
+          )}
         </Row>
 
         {/* Ruler */}
         <Row
           label=""
-          height={`${18 + activeEpochs.length * 14}px`}
+          height={`${(0.65 + activeEpochs.length * 0.6) * RULER_LINE + 0.35}rem`}
           style={{ borderBottom: `2px solid ${theme.borderStrong}`, marginBottom: '0.4rem' }}
         >
           {ticks.map((am) => (
@@ -211,6 +246,7 @@ export default function TimeChart({
               <div
                 style={{
                   fontSize: '0.65rem',
+                  lineHeight: RULER_LINE,
                   fontWeight: 700,
                   color: theme.textMuted,
                   whiteSpace: 'nowrap',
@@ -223,7 +259,8 @@ export default function TimeChart({
                   key={epochId}
                   style={{
                     fontSize: '0.6rem',
-                    color: EPOCH_META[epochId].color,
+                    lineHeight: RULER_LINE,
+                    color: EPOCH_META[epochId].text,
                     whiteSpace: 'nowrap',
                   }}
                 >

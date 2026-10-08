@@ -39,6 +39,18 @@
    * palette toggle can put white text on top of them. Both are alpha/scheme-aware here. */
   --color-selected-bg: var(--md-accent-fg-color--transparent);
   --color-callout-bg: var(--md-code-bg-color);
+
+  /* The timeline ruler's Gregorian years, one colour per epoch. Material has no variable for
+   * these, so each needs its own dark value: the light ones are too dark to read on slate. */
+  --color-epoch-site: #1d4ed8;
+  --color-epoch-compare: #be123c;
+  --color-eighth-day: #047857;
+}
+
+[data-md-color-scheme="slate"] {
+  --color-epoch-site: #93c5fd;
+  --color-epoch-compare: #fda4af;
+  --color-eighth-day: #6ee7b7;
 }
 
 /* Material's content column is 61rem, but the viewer wants up to 1400px and holds wide tables and

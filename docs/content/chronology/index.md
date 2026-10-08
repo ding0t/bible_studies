@@ -80,7 +80,7 @@ Other studies use these dates for their own subjects:
 
     ---
 
-    Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,646 years at creation and converge on Abraham to the year.
+    Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,466 years at creation and converge on Abraham to the year.
 
     [:octicons-arrow-right-24: Read](combined-timeline.md)
 
