@@ -5,9 +5,9 @@ description: "Matthew's five uses of 'the end of the age', the Greek word he sha
 tags: ["matthew", "daniel", "hebrews", "1-corinthians", "romans", "dispensationalism", "tribulation", "chart", "larkin", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Matthew 13:36-43; Matthew 24:3; Matthew 28:20"
-bible_references: ["Matthew 13:24-30", "Matthew 13:36-43", "Matthew 13:47-50", "Matthew 24:3", "Matthew 24:14-15", "Matthew 24:29-31", "Matthew 28:18-20", "Matthew 12:32", "Daniel 9:27", "Daniel 12:4", "Daniel 12:13", "Hebrews 1:2", "Hebrews 9:26-28", "1 Corinthians 10:11", "Galatians 1:4", "Romans 12:2", "Titus 2:12-13", "1 Thessalonians 4:17", "Revelation 3:10", "Revelation 7:9-14", "Luke 20:34-36"]
+bible_references: ["Matthew 13:24-30", "Matthew 13:36-43", "Matthew 13:47-50", "Matthew 24:3", "Matthew 24:14-15", "Matthew 24:29-31", "Matthew 28:18-20", "Matthew 12:32", "Daniel 9:27", "Daniel 12:4", "Daniel 12:13", "Hebrews 1:2", "Hebrews 9:26-28", "1 Corinthians 10:11", "Galatians 1:4", "Romans 12:2", "Titus 2:12-13", "1 Thessalonians 4:17", "Revelation 3:10", "Revelation 7:9-14"]
 date_created: 2026-10-03
-date_modified: 2026-10-03
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -104,7 +104,7 @@ Jewish teaching in Jesus' day divided time into "this age" and "the age to come"
 without explaining it. Blasphemy against the Holy Spirit "will not be forgiven, either in this age or
 in the age to come" (Matthew 12:32, ESV). [A New Heaven and a New Earth](new-heaven-and-new-earth.md#the-age-to-come)
 works through the age to come: the Mishnah's "world to come", the texts that promise it, and where
-the thousand years fits. This study is about the line between the two ages.
+the thousand years fits.
 
 The Jewish writings drew that line as a single judgment. The Book of the Watchers, now part of 1 Enoch
 and written before the time of Christ, speaks of "the day of the consummation, the great judgement in
@@ -236,7 +236,9 @@ Daniel 9:27, and the coming is Christ's visible return at its end (Revelation 19
 placement rests on three things in the text: Daniel's word in the disciples' question, Daniel's
 abomination in Jesus' answer, and "immediately after the tribulation" before the coming. Readers who
 see no future seventieth week place the close at the same return, with the tribulation spread across
-the whole church age. Both put the end of the age at Christ's coming in glory.
+the whole church age. Both put the end of the age at Christ's coming in glory. That coming also
+opens the age to come, which [A New Heaven and a New Earth](new-heaven-and-new-earth.md#where-the-thousand-years-fits)
+follows through the thousand years to the new creation.
 
 [The Olivet Discourse](olivet-discourse.md) works through the whole answer, and
 [The Tribulation](tribulation.md) charts the week.

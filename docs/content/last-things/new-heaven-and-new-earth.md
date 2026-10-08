@@ -5,9 +5,9 @@ description: "Revelation 20:7-21:8 after the thousand years and the great white 
 tags: ["revelation", "isaiah", "2-peter", "leviticus", "hebrews", "dispensationalism", "sabbath", "creation", "resurrection", "person/noah", "method/typology", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Revelation 20:7-21:8"
-bible_references: ["Revelation 20:7-15", "Revelation 21:1-8", "Revelation 22:1-5", "Revelation 22:13", "Revelation 22:17", "Revelation 17:11", "Revelation 7:9", "Revelation 7:15", "Revelation 13:1", "Isaiah 65:17-25", "Isaiah 66:22", "Isaiah 43:19", "Isaiah 25:8", "Isaiah 55:1", "Isaiah 60:21", "Isaiah 61:1-2", "1 Peter 3:21", "Leviticus 12:3", "Romans 8:21", "Hebrews 1:12", "Luke 4:17-19", "Ephesians 1:10", "Revelation 20:5", "Revelation 21:27", "2 Peter 3:6-7", "2 Peter 3:7-13", "2 Peter 2:9", "Genesis 8:22", "Genesis 9:11", "Luke 17:30", "2 Thessalonians 1:7-8", "2 Peter 2:5", "1 Peter 3:20", "2 Samuel 7:14", "Leviticus 9:1", "Leviticus 9:23-24", "Leviticus 14:10", "Leviticus 23:36", "Leviticus 23:39-40", "Genesis 17:12", "Exodus 22:30", "Leviticus 26:11-12", "Ezekiel 37:27", "Zechariah 14:16", "Daniel 12:2", "John 1:14", "John 7:37-38", "Matthew 28:1", "Matthew 12:32", "Matthew 19:28", "Mark 10:30", "Luke 1:33", "Luke 20:34-36", "Ephesians 1:21", "Ephesians 2:7", "Hebrews 2:5", "Hebrews 4:9", "Hebrews 6:5", "Hebrews 12:26-28", "1 Corinthians 15:20", "1 Corinthians 15:24-28", "2 Corinthians 5:17", "Romans 8:19-23"]
+bible_references: ["Revelation 20:7-15", "Revelation 21:1-8", "Revelation 22:1-5", "Revelation 22:13", "Revelation 22:17", "Revelation 17:11", "Revelation 7:9", "Revelation 7:15", "Revelation 13:1", "Isaiah 65:17-25", "Isaiah 66:22", "Isaiah 43:19", "Isaiah 25:8", "Isaiah 55:1", "Isaiah 60:21", "Isaiah 61:1-2", "1 Peter 3:21", "Leviticus 12:3", "Romans 8:21", "Hebrews 1:12", "Luke 4:17-19", "Ephesians 1:10", "Revelation 20:5", "Revelation 21:27", "2 Peter 3:6-7", "2 Peter 3:7-13", "2 Peter 2:9", "Genesis 8:22", "Genesis 9:11", "Luke 17:30", "2 Thessalonians 1:7-8", "2 Peter 2:5", "1 Peter 3:20", "2 Samuel 7:14", "Leviticus 9:1", "Leviticus 9:23-24", "Leviticus 14:10", "Leviticus 23:36", "Leviticus 23:39-40", "Genesis 17:12", "Exodus 22:30", "Leviticus 26:11-12", "Ezekiel 37:27", "Zechariah 14:16", "Daniel 12:2", "John 1:14", "John 7:37-38", "Matthew 28:1", "Matthew 24:3", "1 Corinthians 15:23", "Matthew 19:28", "Mark 10:30", "Luke 1:33", "Luke 20:34-36", "Ephesians 1:21", "Ephesians 2:7", "Hebrews 2:5", "Hebrews 4:9", "Hebrews 6:5", "Hebrews 12:26-28", "1 Corinthians 15:20", "1 Corinthians 15:24-28", "2 Corinthians 5:17", "Romans 8:19-23"]
 date_created: 2026-09-28
-date_modified: 2026-10-04
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -391,10 +391,10 @@ Jesus rose on the first day of that week. So your resurrection is already dated 
 This section covers the age on the far side of the line. The line itself, the New Testament's "end of
 the age" and why Hebrews says it has already begun, is [The End of the Age](end-of-the-age.md).
 
-### Two ages
+### The world to come
 
-Jewish teaching in Jesus' day divided time into "this age" and "the age to come." The Mishnah says,
-"All Israel have a portion in the world to come" (*m. Sanhedrin* 10:1), in Hebrew
+Jewish teaching in Jesus' day called the far side of that line "the age to come," or "the world to
+come." The Mishnah says, "All Israel have a portion in the world to come" (*m. Sanhedrin* 10:1), in Hebrew
 <span dir="rtl">חֵלֶק לָעוֹלָם הַבָּא</span> (*chelek la'olam haba*). Its proof text is Isaiah
 60:21, "Your people shall all be righteous; they shall possess the land forever" (ESV), from the
 chapter Revelation 21:23-26 draws on for the city's light and open gates. Revelation uses "portion"
@@ -402,9 +402,8 @@ language of the same things: a μέρος (*meros*, G3313), a "share," in the fi
 in the lake of fire (Revelation 21:8), and "in the tree of life and in the holy city" (Revelation
 22:19).
 
-Jesus used the same frame. Blasphemy against the Holy Spirit "will not be forgiven, either in this age
-or in the age to come" (Matthew 12:32, ESV). Whoever leaves home for Him receives "in the age to come
-eternal life" (Mark 10:30, ESV). "Those who are considered worthy to attain to that age and to the
+Jesus used the same frame. Whoever leaves home for Him receives "in the age to come eternal life"
+(Mark 10:30, ESV). "Those who are considered worthy to attain to that age and to the
 resurrection from the dead neither marry nor are given in marriage, for they cannot die anymore"
 (Luke 20:35-36, ESV). Paul sets Christ's name above every name "not only in this age but also in the
 one to come" (Ephesians 1:21, ESV). And Hebrews says believers have already "tasted … the powers of
@@ -412,7 +411,9 @@ the age to come" (Hebrews 6:5, ESV).
 
 ### Where the thousand years fits
 
-The New Testament places the start of the age to come at Christ's return. Jesus dates the
+The New Testament places the start of the age to come at Christ's return, the point Matthew calls
+"the end of the age" (Matthew 24:3, ESV); [The End of the Age](end-of-the-age.md#your-coming-and-the-end-of-the-age)
+shows how Jesus joins the two. Jesus dates the
 παλιγγενεσία (*palingenesia*, G3824), "the new world," "when the Son of Man will sit on his glorious
 throne," with the Twelve "judging the twelve tribes of Israel" (Matthew 19:28, ESV). Hebrews calls
 it "the world to come" that God subjected to man, and says, "At present, we do not yet see everything
@@ -435,6 +436,12 @@ to God the Father after destroying every rule and every authority and power. …
 destroyed is death" (1 Corinthians 15:24, 26, ESV). Death is destroyed at Revelation 20:14, so the
 handing over falls there, at the end of the thousand years. Its purpose is "that God may be all in
 all" (1 Corinthians 15:28, ESV).
+
+Paul's "end" is τὸ τέλος (*to telos*, G5056), the last step in his order: Christ the firstfruits,
+then His people at His coming, then the end (1 Corinthians 15:23-24). Matthew's "end of the age" is
+συντέλεια, and it falls at the coming itself. On this site's reading the two stand a thousand years
+apart. The age closes when Christ comes, and the end comes when the Son hands over a kingdom with no
+enemies left. Readers who hold no intervening millennium put both at the return.
 
 That does not end the Son's reign. The throne of the new creation is "the throne of God and of the
 Lamb" (Revelation 22:1, 3, ESV), and Gabriel promised Mary that "of his kingdom there will be no end"
@@ -461,8 +468,7 @@ cannot be shaken" (Hebrews 12:28, ESV).
 4. Paul says the Son "delivers the kingdom to God the Father" (1 Corinthians 15:24), and Revelation
    puts the Lamb on the throne forever (Revelation 22:1, 3). How do you hold the two together?
 5. Paul says the new creation has already come in you (2 Corinthians 5:17), and Hebrews says you
-   have tasted "the powers of the age to come" (Hebrews 6:5). Where did you see that this week, and where
-   are you still living as if this age is the only one?
+   have tasted "the powers of the age to come" (Hebrews 6:5). Where did you see that this week?
 
 ## References & Recommended Reading
 
