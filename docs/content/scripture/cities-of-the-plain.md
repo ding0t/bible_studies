@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 19:15-30"
 bible_references: ["Genesis 10:19", "Genesis 13:10-13", "Genesis 14:1-10", "Genesis 18:14", "Genesis 18:20-32", "Genesis 19:15-30", "Deuteronomy 29:23", "Deuteronomy 34:3", "Isaiah 1:9", "Isaiah 13:19-20", "Isaiah 15:5", "Jeremiah 48:34", "Jeremiah 49:18", "Jeremiah 50:40", "Hosea 11:8", "Amos 4:11", "Zephaniah 2:9", "Matthew 11:23-24", "Luke 17:28-32", "2 Thessalonians 1:7-8", "2 Peter 2:6-9", "2 Peter 3:7", "Jude 1:7", "Revelation 14:10", "Revelation 21:8"]
 date_created: 2026-10-06
-date_modified: 2026-10-06
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -90,7 +90,8 @@ the day of your patience lasts. In Jesus' name. Amen.
   mosaic and the sanctuary of Lot above Zoar.
 - **[Where were the burned cities?](#where-were-the-burned-cities)** — the southern case, the northern
   case, and the dates.
-- **[The sulphur balls](#the-sulphur-balls)** — what is claimed for them and what the geology shows.
+- **[The sulphur balls](#the-sulphur-balls)** — what is claimed for them, what the geology shows, and
+  the two tests that would settle it.
 - **[What the overthrow shows about God](#what-the-overthrow-shows-about-god)** — exact judgment,
   remembered mercy, and the fire still to come.
 
@@ -350,11 +351,32 @@ pattern of four burned and one spared fits Genesis closely. The dates remain the
 
 ### What is claimed
 
-Around the Dead Sea, small balls of almost pure sulphur turn up in the pale, layered rock, some with a
-darkened crust. Ron Wyatt collected them in 1989 from the whitish formations near Masada and argued
-that they were the brimstone of Genesis 19:24, and that the formations were the ash of the cities.
-Lit with a match, the balls burn with a blue flame. In his video *Sodom Burned, Zoar Did NOT*, Kramer
-shows sulphur from the four burned southern sites burning, and a sample from Safi that does not.
+Around the Dead Sea, balls of almost pure sulphur turn up in the pale, layered rock and on the ground
+below it, many with a darkened crust. Ron Wyatt collected them in 1989 from the whitish formations
+near Masada and argued that they were the brimstone of Genesis 19:24, and that the formations were
+the ash of the cities. Joel Kramer opens his video
+[*Sodom Burned, Zoar Did NOT*](https://www.youtube.com/watch?v=QjPcSQUY2W0) with five sulphur balls
+standing for the five cities of the plain: four burning with a blue flame, and one left unlit for
+Zoar. On the plain south-east of the sea he pulls more out of the ground: "They're all over the place
+here. Literally millions of them."
+
+The balls Kramer burns are about 50 to 70 mm across, the size of a golf ball or a tennis ball. The
+archaeologist Titus Kennedy gives the same size, says that "you find a lot of them" around the Lisan
+Peninsula, and says that they are found only where the Dead Sea's water once stood. His explanation
+is that the balls fell burning, "got extinguished in the water and then stuck in the sediment."
+
+Water answers a real difficulty, and Kramer has tested it. He lights a ball, and the burning sulphur
+dripping from it sets dry brush alight: "This is why they're not preserved is because they um are
+burned up." Then he drops a burning ball into the Dead Sea. It floats, and the fire goes out. "That
+might be why they're all bunched up," he says. "Maybe they floated on the surface and then the wind
+drove them."
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/QjPcSQUY2W0?start=1102&amp;end=1198" title="Joel Kramer burns a sulphur ball and drops it into the Dead Sea" loading="lazy" allow="encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+*A burning sulphur ball sets brush alight, then floats in the Dead Sea and goes out (18:22 to 19:58).
+Video: Joel P. Kramer, [Expedition Bible](https://www.youtube.com/@ExpeditionBible), embedded from
+YouTube.*
 
 ![Black-and-white photograph of pale, eroded rock formations standing in the desert near Masada](../assets/img/cities-of-the-plain/marl-formations-masada.jpg){ loading=lazy }
 *Marl formations near Masada, photographed by the American Colony photographers in the early
@@ -363,17 +385,17 @@ Image: [Matson Collection, Library of Congress](https://commons.wikimedia.org/wi
 
 ### What the geology shows
 
-The pale formations are the Lisan Formation: thin layers of chalk, clay and gypsum laid down by the
-larger lake that once filled the valley. In 2013 T. Bishop, A. V. Turchyn and O. Sivan
-analysed sulphur nodules from the Lisan Formation beside the Dead Sea. They found that the sulphur in
-each nodule is 27 to 29 parts per thousand lighter, by its sulphur isotopes, than the gypsum wrapped
-around it. That is the known signature of bacteria turning the gypsum's sulphate into sulphur. Iron
-and manganese levels also change step by step toward each nodule, recording where the reaction ran.
-They concluded that the nodules grew inside the gypsum layers after the layers were laid down.
+The pale formations are the Lisan Formation: thin layers of chalk, clay and gypsum laid down by Lake
+Lisan, the larger lake that once filled the valley. The excavators of Bab edh-Dhra record that the
+town was built on Lisan Marl, so the burned southern towns stand on that old lake bed.
 
-Nodules formed this way are found in gypsum in many places: Sicily's old sulphur mines, the
-Tarnobrzeg deposits in Poland, and the cap rock over the salt domes of the Texas and Louisiana coast.
-The isotope evidence does not depend on how old the layers are.
+In 2013 T. Bishop, A. V. Turchyn and O. Sivan analysed two sulphur nodules from one gypsum bed at the
+foot of Masada. The sulphur in each is 27 to 29 parts per thousand lighter, by its sulphur isotopes,
+than the gypsum wrapped around it. That is the known signature of bacteria turning the gypsum's
+sulphate into sulphur. Iron and manganese levels change step by step toward each nodule, and the dark
+rims are iron rust. They concluded that the nodules grew inside the gypsum after it was laid down.
+Nodules formed this way are found in gypsum in many places: Sicily's old sulphur mines, the Tarnobrzeg
+deposits in Poland, and the cap rock over the salt domes of the Texas and Louisiana coast.
 
 ![Pale grey layered rock with fine wavy bands, in a dry riverbed](../assets/img/cities-of-the-plain/lisan-formation-layers.jpg){ loading=lazy }
 *The Lisan Formation in Nahal Peratsim near the Dead Sea: thin layers laid down in the old lake.
@@ -381,15 +403,36 @@ Photo: [Shayshal2](https://commons.wikimedia.org/wiki/File:Lisan_formation_in_Pr
 
 ### Weighing it
 
-This is contested, and the two cases rest on different evidence. The case for the balls is where they
-are found and how they burn. The case against is their chemistry and their place inside lake-bed
-layers, and it covers the nodules that have been analysed: those in the Lisan Formation, including
-Wyatt's site near Masada, across the sea from the southern cities.
+**This is contested, and each case is narrower than it is usually made to sound.**
 
-Sulphur from the sky would lie where it fell, on the cities and in their burn layers. If sulphur is
-found inside the destruction layers at Bab edh-Dhra or Numeira, and analysed, that is a different and
-stronger kind of evidence than nodules in the Lisan gypsum. No published analysis of Kramer's samples was found for this study. Genesis 19:24 stands on God's word either way: "the LORD rained on Sodom and
-Gomorrah sulfur and fire from the LORD out of heaven" (ESV).
+The bacterial explanation is demonstrated for two nodules at Masada, across the sea from the southern
+cities. The paper describes nodules "millimeter to centimeter in size" and says nothing about the
+southern sites or about how many nodules there are. Carrying its result over to Kramer's hail-sized
+balls, found by the multitude around Bab edh-Dhra, is an inference. It is a reasonable one, since
+those towns stand on the same Lisan beds, but nobody has tested it.
+
+The case from Genesis 19:24 is strongest at the water. Kramer's burning ball floated and went out,
+which explains both how a ball could survive its fall and why the balls lie bunched along the old
+shores. One part is still unmeasured. Pure solid sulphur is denser than the brine, about 2.07 grams
+per cubic centimetre against 1.24, so a ball that floats is holding air in its pores or under its
+crust. How long it stays up, and so how far the wind can carry it, nobody has measured.
+
+Three observations fit both explanations and so decide nothing. The balls turn up only below the old
+waterline, and the Lisan beds are the old lake floor. They burn blue, as any sulphur does. And they are plentiful wherever the soft marl erodes,
+because hard nodules are left lying on the surface as the marl washes away from them.
+
+[![Two cross-sections of the same ground beside the Dead Sea: Lisan marl, the old lake bed, with a gypsum bed inside it and gravel below, an Early Bronze Age town on top with its burn layer, and the ground falling away to the lake. Left, if the sulphur fell from heaven: burning balls fall on the town and lie in its burn layer, and a ball that falls into the lake floats, goes out, and drifts to the shore of Abraham's day. Right, if bacteria grew it: rust-rimmed nodules sit inside the gypsum bed, and some have washed out onto the slope. A table gives the two tests, the layer each ball lies in and its sulphur isotopes, and a dashed card lists what fits both. Cards record the balls' size, about 50 to 70 mm, and that two nodules from one bed at Masada are all that has been analysed. The plate closes with Genesis 19:24.](../assets/img/cities-of-the-plain/sulphur-balls-two-tests.svg)](../assets/img/cities-of-the-plain/sulphur-balls-two-tests.svg)
+
+Two tests would settle it. The first is the layer. Sulphur that fell on the cities and was put out
+lies on them and in their burn layers, or along the shore of Abraham's day. Sulphur grown by
+bacteria lies inside the far older Lisan gypsum, or on the slope below it where the marl has eroded.
+The second is the isotopes. A ball grown from the gypsum around it carries the gap of 27 to 29 parts
+per thousand; sulphur that came from elsewhere carries its source's value, with no fixed relation to
+the gypsum it lies in. Both tests are routine. No published analysis of Kramer's balls was found for
+this study, and until one exists the question stays open.
+
+Genesis 19:24 stands on God's word either way: "the LORD rained on Sodom and Gomorrah sulfur and fire
+from the LORD out of heaven" (ESV).
 
 ## What the overthrow shows about God
 
@@ -451,7 +494,11 @@ fire was real, and He is patient today.
 - **Madaba Mosaic Map**, legends translated at [ToposText](https://topostext.org/work/788).
 - **Walter E. Rast and R. Thomas Schaub**, excavation reports on Bab edh-Dhra and Numeira (Expedition
   to the Dead Sea Plain).
-- **Joel P. Kramer**, Expedition Bible, *Sodom Burned, Zoar Did NOT* (video).
+- **Joel P. Kramer**, Expedition Bible, [*Sodom Burned, Zoar Did NOT*](https://www.youtube.com/watch?v=QjPcSQUY2W0)
+  (video).
+- **Titus Kennedy**, interview, "Finding Sodom and Gomorrah, Part 2,"
+  [Patterns of Evidence](https://www.patternsofevidence.com/2025/07/11/part-2-finding-sodom-and-gomorrah-with-dr-titus-kennedy/)
+  (11 July 2025).
 - **T. Bishop, A. V. Turchyn and O. Sivan**, "Fire and Brimstone: The Microbially Mediated
   Formation of Elemental Sulfur Nodules from an Isotope and Major Element Study in the Paleo-Dead
   Sea," *PLoS ONE* 8 (2013): e75883.

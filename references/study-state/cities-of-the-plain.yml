@@ -115,14 +115,18 @@ images:
   note: >-
     18 freely licensed images from Wikimedia Commons, self-hosted; licence and author per file in
     the publish script output (CC BY-SA 2.0/3.0/4.0, CC BY 3.0, public domain). No freely licensed
-    photograph of the Lisan sulphur nodules exists on Commons (searched 2026-10-06).
+    photograph of the Lisan sulphur nodules exists on Commons (searched 2026-10-06; again 2026-10-08,
+    none from Israel or Jordan). sulphur-balls-two-tests.svg is drawn by
+    utils/build_archaeology_graphics.py (sulphur_balls) in its place; Kramer's burn is linked, not shown.
 
 author_positions:
   - "Author favours Joel Kramer's (Expedition Bible) southern five-site model: Bab edh-Dhra, Numeira, Feifa, Khanazir burned and never resettled; es-Safi (Zoar) spared and continued. Lead with it as the main case."
+  - "2026-10-08: author pressed that the bacterial study does not account for Kramer's 50-70 mm balls found in multitudes. Agreed: the paper tested two Masada nodules. Section rewritten to give both cases their best form and name the layer and isotope tests. The author was right that a ball floats: Kramer drops a burning ball into the Dead Sea at 19:31 of the video and it floats and goes out; that clip (18:22-19:58) is embedded. Clapp and Donahue (Bab edh-Dhra/Numeira geologists) proposed an earthquake-ignited sulphur/bitumen mechanism (video 17:36) -- not yet in the study."
   - "Author finds the in-sediment (bacterial) origin of the Lisan sulphur nodules unpersuasive against Genesis 19:24. Discussed 2026-10-06; section to present both cases, distinguishing nodules in lake-bed gypsum from any sulphur found in the cities' own burn layers."
 
 open_questions:
-  - "Kramer's sulphur burn demonstration (samples from the four burned sites burn; Zoar's does not): where exactly were samples taken, and was any lab analysis published?"
+  - "Kramer's sulphur balls: which layer were they taken from, and was any lab analysis (d34S against host) published? None found 2026-10-08. The section names layer and isotopes as the two deciding tests. CORRECTED 2026-10-08 from the video transcript: the opening five balls (four lit, one not) are a symbol of the five cities, not samples from each site; the earlier draft's 'Safi sample does not burn' was a misreading, and at 42:55 he sets the Zoar ball alight as a joke."
+  - "How long does a burning sulphur ball float in Dead Sea brine? Kramer's ball floated (video 19:31); pure solid sulphur (2.07 g/cm3) is denser than the brine (1.24), so it must trap air. Unmeasured."
   - "Feifa and Khanazir: walled towns or cemeteries/enclosures? Excavation status to verify before calling them cities."
   - "Madaba Map discovery date: 1884 (found) vs 1896-97 (published during rebuilding of St George's) -- verify before stating."
   - "Wisdom 10:6 says fire fell on 'the five cities'; Genesis 19:21 and Deuteronomy 29:23 exempt Zoar. Say so where Wisdom is quoted."
@@ -135,7 +139,9 @@ resources_consulted:
   - {type: other, title: "Josephus, Jewish War and Antiquities", author: "trans. William Whiston (public domain, Project Gutenberg)", note: "War 4.482-485; Ant. 1.203-204; 14.18."}
   - {type: other, title: "Wisdom of Solomon 10:6-7", author: "KJV Apocrypha via scrollmapper deuterocanonical (open-data)", note: ""}
   - {type: other, title: "Madaba Mosaic Map legends", author: "ToposText", note: "'Balak also Segor, now Zoara'; 'The (place) of Saint Lot'; c. AD 550-565."}
-  - {type: other, title: "Bishop, Turchyn & Sivan, 'Fire and brimstone: the microbially mediated formation of elemental sulfur nodules...', PLoS ONE 8 (2013) e75883", author: "", note: "Lisan Formation nodules formed by bacterial sulfate reduction."}
+  - {type: other, title: "Bishop, Turchyn & Sivan, 'Fire and brimstone: the microbially mediated formation of elemental sulfur nodules...', PLoS ONE 8 (2013) e75883", author: "", note: "Lisan Formation nodules formed by bacterial sulfate reduction. Only TWO nodules (SN1, SN2) from one gypsum bed at Masada M1 section; sizes given only as 'millimeter to centimeter'; dark rims are iron rust. Says nothing about the southern sites or abundance (checked 2026-10-08)."}
+  - {type: other, title: "Titus Kennedy interview, 'Finding Sodom and Gomorrah, Part 2', Patterns of Evidence (11 July 2025)", author: "", note: "Sulphur balls golf- to tennis-ball size; 'you find a lot of them' around the Lisan Peninsula; only where the Dead Sea receded; proposes they were extinguished in water."}
+  - {type: other, title: "Bab edh-Dhra town site excavation report (Rast & Schaub)", author: "", note: "Town built on pre-Lisan gravel and Lisan Marl -- the burned southern towns stand on the Lisan beds."}
   - {type: other, title: "Retraction Note, Scientific Reports (24 April 2025)", author: "", note: "2021 Tall el-Hammam airburst paper retracted."}
   - {type: other, title: "Rast & Schaub excavations, Bab edh-Dhra (1975-81); Numeira", author: "", note: "EB destructions; dates c. 2350 (Bab edh-Dhra), c. 2600 (Numeira); Udd proposes lower."}
 evidence:
@@ -148,4 +154,4 @@ evidence:
 publish_together:
   - "docs/data/chronology.json sodom_overthrown (study_ref scripture/cities-of-the-plain) -- chronology.test.js fails while the study is a draft, and CI runs npm test"
   - "A link from scripture/archaeological-sites.md to this study -- validator Check 24 errors on a published page linking a draft"
-last_updated: "2026-10-06"
+last_updated: "2026-10-08"

@@ -448,6 +448,7 @@ extra_css:
   - assets/stylesheets/tools.css
   - assets/stylesheets/popups.css
   - assets/stylesheets/new-pages.css
+  - assets/stylesheets/video-embed.css
   - assets/stylesheets/memory-verses.css
 
 # Verse and word pop-ups on every page. The bundle is built by `npm run build:tools` (app/) and

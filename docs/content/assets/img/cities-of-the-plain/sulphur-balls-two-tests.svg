@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1059" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">Two ways to make a sulphur ball</title>
+<desc id="d">Two cross-sections of the same ground beside the Dead Sea: Lisan marl, the old lake bed, with a gypsum bed inside it and gravel below; an Early Bronze Age town on top with its burn layer; and the ground falling away to the lake. Left, if the sulphur fell from heaven (Genesis 19:24): burning balls fall on the town and lie in its burn layer, and a ball that falls into the lake floats, is put out, and drifts to the shore of Abraham's day, as a burning ball did when Joel Kramer dropped one into the Dead Sea. Right, if bacteria grew it: rust-rimmed nodules sit inside the gypsum bed, and some have washed out onto the slope as the marl erodes. Both panels are dashed as proposals. A table gives the two tests: the layer each ball lies in, and its sulphur isotopes, where bacterial sulphur is 27–29 parts per thousand lighter than the gypsum around it. A third row lists what fits both: found only below the old waterline, burns blue, plentiful where the marl erodes. Cards record the balls' size, about 50 to 70 mm, and that 2 nodules from one bed at Masada are all that has been analysed. The plate closes with Genesis 19:24.</desc>
+<rect width="720" height="1059" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1043" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1031" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<defs><linearGradient id="skyfire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3c9a0"/><stop offset="1" stop-color="#e9eef3"/></linearGradient><linearGradient id="skycalm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9eef3"/><stop offset="1" stop-color="#faf6ec"/></linearGradient></defs>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">TWO WAYS TO MAKE A SULPHUR BALL</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">and the two tests that tell them apart (Genesis 19:24)</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<text x="195.0" y="154.0" font-size="14" fill="#8b1e1e" text-anchor="middle" font-weight="bold" letter-spacing="1.5">IF IT FELL FROM HEAVEN</text>
+<text x="195.0" y="172.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">burning, then put out where it landed</text>
+<text x="525.0" y="154.0" font-size="14" fill="#8b1e1e" text-anchor="middle" font-weight="bold" letter-spacing="1.5">IF BACTERIA GREW IT</text>
+<text x="525.0" y="172.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">from the gypsum, after the lake bed was laid</text>
+<rect x="40" y="186" width="310" height="330" fill="url(#skyfire)"/>
+<clipPath id="ground1"><polygon points="40.0,316.0 210.5,316.0 281.8,426.0 350.0,426.0 350.0,516.0 40.0,516.0"/></clipPath>
+<g clip-path="url(#ground1)">
+<rect x="40" y="316" width="310" height="132" fill="#ddd2bb"/>
+<path d="M40 324 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 331 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 338 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 345 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 352 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 359 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 366 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 373 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 380 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 387 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 394 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 401 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 408 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 415 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 422 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 429 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 436 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M40 443 H350" stroke="#c7b99c" stroke-width="0.8"/>
+<rect x="40" y="346" width="310" height="12" fill="#f7f4ec" stroke="#c7b99c" stroke-width="0.8"/>
+<rect x="40" y="448" width="310" height="68" fill="#c9b48f"/>
+<circle cx="46" cy="456" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="143" cy="463" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="240" cy="484" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="337" cy="465" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="136" cy="460" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="233" cy="469" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="330" cy="492" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="129" cy="475" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="226" cy="472" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="323" cy="483" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="122" cy="508" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="219" cy="493" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="316" cy="492" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="115" cy="505" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="212" cy="478" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="309" cy="465" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="108" cy="466" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="205" cy="481" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="302" cy="456" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="101" cy="499" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="198" cy="502" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="295" cy="465" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="94" cy="496" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="191" cy="487" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="288" cy="492" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="87" cy="457" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="184" cy="490" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="281" cy="483" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="80" cy="490" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="177" cy="457" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="274" cy="492" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="73" cy="487" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="170" cy="496" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="267" cy="465" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="66" cy="502" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="163" cy="499" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="260" cy="456" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="59" cy="481" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="156" cy="466" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="253" cy="465" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="52" cy="478" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="149" cy="505" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="246" cy="492" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="343" cy="493" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="142" cy="508" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="239" cy="483" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<rect x="40" y="316" width="174.5" height="9" fill="#4a3b2c"/>
+</g>
+<polygon points="255.9,386 350.0,386 350.0,426 281.8,426" fill="#9fb8d3" opacity="0.85"/>
+<path d="M255.9 386 H350.0" stroke="#5b7fa6" stroke-width="1.5"/>
+<rect x="281.8" y="426" width="68.2" height="9" fill="#a39a86"/>
+<polyline points="40.0,316.0 210.5,316.0 281.8,426.0 350.0,426.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<rect x="58.6" y="296" width="26" height="20" fill="#c9b48f" stroke="#3b2f1e" stroke-width="1"/>
+<rect x="92.7" y="302" width="18" height="14" fill="#c9b48f" stroke="#3b2f1e" stroke-width="1"/>
+<rect x="123.7" y="292" width="30" height="24" fill="#c9b48f" stroke="#3b2f1e" stroke-width="1"/>
+<rect x="164.0" y="300" width="22" height="16" fill="#c9b48f" stroke="#3b2f1e" stroke-width="1"/>
+<path d="M61.2 190.0 Q68.2 210.0 77.2 220.0" stroke="#c4471c" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6"/>
+<circle cx="77.2" cy="220.0" r="5.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<path d="M126.3 214.0 Q133.3 234.0 142.3 244.0" stroke="#c4471c" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6"/>
+<circle cx="142.3" cy="244.0" r="5.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<path d="M179.0 178.0 Q186.0 198.0 195.0 208.0" stroke="#c4471c" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6"/>
+<circle cx="195.0" cy="208.0" r="5.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<path d="M272.0 222.0 Q279.0 242.0 288.0 252.0" stroke="#c4471c" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6"/>
+<circle cx="288.0" cy="252.0" r="5.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<circle cx="71.0" cy="319.0" r="4.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<circle cx="108.2" cy="319.0" r="4.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<circle cx="151.6" cy="319.0" r="4.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<circle cx="185.7" cy="319.0" r="4.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<path d="M319.0 260 V378" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="319.0" cy="385.0" r="4.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<path d="M309.0 395 H277.9" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="3 3"/>
+<path d="M273.9 395.0 L280.2 392.0 L280.2 398.0 Z" fill="#3b2f1e"/>
+<circle cx="243.1" cy="361.7" r="4.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<circle cx="248.3" cy="369.8" r="4.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<circle cx="253.3" cy="377.5" r="4.5" fill="#e9d24a" stroke="#8a7a1e" stroke-width="1.1"/>
+<text x="49.3" y="340.0" font-size="11.5" fill="#8b1e1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">in the burn layer</text>
+<text x="346.9" y="412.0" font-size="11.5" fill="#8b1e1e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">floats, put out;</text>
+<text x="346.9" y="426.0" font-size="11.5" fill="#8b1e1e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">drifts ashore</text>
+<text x="49.3" y="286.0" font-size="11.5" fill="#6b5a3e" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">town</text>
+<text x="49.3" y="422.0" font-size="11.5" fill="#6b5a3e" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Lisan marl: the old lake bed</text>
+<text x="49.3" y="506.0" font-size="11.5" fill="#6b5a3e" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">gravel</text>
+<text x="346.9" y="360.0" font-size="11.5" fill="#2f4f7f" text-anchor="end" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">the lake</text>
+<text x="49.3" y="355.0" font-size="11.5" fill="#6b5a3e" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">gypsum bed</text>
+<rect x="40" y="186" width="310" height="330" fill="none" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="6 4"/>
+<rect x="370" y="186" width="310" height="330" fill="url(#skycalm)"/>
+<clipPath id="ground2"><polygon points="370.0,316.0 540.5,316.0 611.8,426.0 680.0,426.0 680.0,516.0 370.0,516.0"/></clipPath>
+<g clip-path="url(#ground2)">
+<rect x="370" y="316" width="310" height="132" fill="#ddd2bb"/>
+<path d="M370 324 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 331 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 338 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 345 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 352 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 359 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 366 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 373 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 380 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 387 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 394 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 401 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 408 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 415 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 422 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 429 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 436 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<path d="M370 443 H680" stroke="#c7b99c" stroke-width="0.8"/>
+<rect x="370" y="346" width="310" height="12" fill="#f7f4ec" stroke="#c7b99c" stroke-width="0.8"/>
+<rect x="370" y="448" width="310" height="68" fill="#c9b48f"/>
+<circle cx="376" cy="456" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="473" cy="463" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="570" cy="484" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="667" cy="465" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="466" cy="460" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="563" cy="469" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="660" cy="492" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="459" cy="475" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="556" cy="472" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="653" cy="483" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="452" cy="508" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="549" cy="493" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="646" cy="492" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="445" cy="505" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="542" cy="478" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="639" cy="465" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="438" cy="466" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="535" cy="481" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="632" cy="456" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="431" cy="499" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="528" cy="502" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="625" cy="465" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="424" cy="496" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="521" cy="487" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="618" cy="492" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="417" cy="457" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="514" cy="490" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="611" cy="483" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="410" cy="490" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="507" cy="457" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="604" cy="492" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="403" cy="487" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="500" cy="496" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="597" cy="465" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="396" cy="502" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="493" cy="499" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="590" cy="456" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="389" cy="481" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="486" cy="466" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="583" cy="465" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="382" cy="478" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="479" cy="505" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="576" cy="492" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="673" cy="493" r="2.0" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="472" cy="508" r="2.6" fill="#6b5a3e" opacity="0.55"/>
+<circle cx="569" cy="483" r="1.4" fill="#6b5a3e" opacity="0.55"/>
+<rect x="370" y="316" width="174.5" height="9" fill="#4a3b2c"/>
+</g>
+<polygon points="585.9,386 680.0,386 680.0,426 611.8,426" fill="#9fb8d3" opacity="0.85"/>
+<path d="M585.9 386 H680.0" stroke="#5b7fa6" stroke-width="1.5"/>
+<rect x="611.8" y="426" width="68.2" height="9" fill="#a39a86"/>
+<polyline points="370.0,316.0 540.5,316.0 611.8,426.0 680.0,426.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<rect x="388.6" y="296" width="26" height="20" fill="#c9b48f" stroke="#3b2f1e" stroke-width="1"/>
+<rect x="422.7" y="302" width="18" height="14" fill="#c9b48f" stroke="#3b2f1e" stroke-width="1"/>
+<rect x="453.7" y="292" width="30" height="24" fill="#c9b48f" stroke="#3b2f1e" stroke-width="1"/>
+<rect x="494.0" y="300" width="22" height="16" fill="#c9b48f" stroke="#3b2f1e" stroke-width="1"/>
+<circle cx="394.8" cy="352.0" r="4.5" fill="#e9d24a" stroke="#9a4f23" stroke-width="2.2"/>
+<circle cx="435.1" cy="352.0" r="4.5" fill="#e9d24a" stroke="#9a4f23" stroke-width="2.2"/>
+<circle cx="472.3" cy="352.0" r="4.5" fill="#e9d24a" stroke="#9a4f23" stroke-width="2.2"/>
+<circle cx="509.5" cy="352.0" r="4.5" fill="#e9d24a" stroke="#9a4f23" stroke-width="2.2"/>
+<circle cx="543.6" cy="352.0" r="4.5" fill="#e9d24a" stroke="#9a4f23" stroke-width="2.2"/>
+<circle cx="573.0" cy="361.7" r="4.5" fill="#e9d24a" stroke="#9a4f23" stroke-width="2.2"/>
+<circle cx="582.4" cy="376.1" r="4.5" fill="#e9d24a" stroke="#9a4f23" stroke-width="2.2"/>
+<text x="379.3" y="376.0" font-size="11.5" fill="#8b1e1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">grown inside the gypsum</text>
+<text x="587.0" y="346.6" font-size="11.5" fill="#8b1e1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">washed out</text>
+<text x="587.0" y="360.6" font-size="11.5" fill="#8b1e1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">as the marl erodes</text>
+<text x="379.3" y="286.0" font-size="11.5" fill="#6b5a3e" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">town</text>
+<text x="379.3" y="422.0" font-size="11.5" fill="#6b5a3e" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Lisan marl: the old lake bed</text>
+<text x="379.3" y="506.0" font-size="11.5" fill="#6b5a3e" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">gravel</text>
+<text x="676.9" y="378.0" font-size="11.5" fill="#2f4f7f" text-anchor="end" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">the lake</text>
+<rect x="370" y="186" width="310" height="330" fill="none" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="40.0" y="556.0" font-size="14" fill="#3b2f1e" font-weight="bold" letter-spacing="1.5">THE TWO TESTS</text>
+<text x="190.0" y="556.0" font-size="12.5" fill="#6b5a3e" font-style="italic">each explanation predicts a different answer</text>
+<rect x="40" y="568" width="640" height="24" fill="#3b2f1e"/>
+<text x="178.0" y="585.0" font-size="13" fill="#faf6ec" font-weight="bold">If it fell</text>
+<text x="433.0" y="585.0" font-size="13" fill="#faf6ec" font-weight="bold">If bacteria grew it</text>
+<rect x="40" y="592" width="640" height="69" fill="#fffdf7" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="48.0" y="612.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Where it lies</text>
+<text x="178.0" y="612.0" font-size="13.5" fill="#3b2f1e">On the cities, in the burn</text>
+<text x="178.0" y="629.0" font-size="13.5" fill="#3b2f1e">layer, or along the shore</text>
+<text x="178.0" y="646.0" font-size="13.5" fill="#3b2f1e">of Abraham's day</text>
+<text x="433.0" y="612.0" font-size="13.5" fill="#3b2f1e">Inside the Lisan gypsum,</text>
+<text x="433.0" y="629.0" font-size="13.5" fill="#3b2f1e">or on slopes below it</text>
+<text x="433.0" y="646.0" font-size="13.5" fill="#3b2f1e">where the marl has eroded</text>
+<rect x="40" y="661" width="640" height="69" fill="#fffdf7" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="48.0" y="681.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Its isotopes</text>
+<text x="178.0" y="681.0" font-size="13.5" fill="#3b2f1e">No fixed relation to the</text>
+<text x="178.0" y="698.0" font-size="13.5" fill="#3b2f1e">gypsum around it</text>
+<text x="433.0" y="681.0" font-size="13.5" fill="#3b2f1e">27–29 parts per thousand</text>
+<text x="433.0" y="698.0" font-size="13.5" fill="#3b2f1e">lighter than its gypsum</text>
+<text x="433.0" y="715.0" font-size="13.5" fill="#3b2f1e">(measured at Masada)</text>
+<rect x="40.0" y="734.0" width="640.0" height="61" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="48.0" y="752.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">Fits both, so it decides nothing</text>
+<text x="48.0" y="769.5" font-size="13.5" fill="#3b2f1e">Found only below the old waterline (the Lisan beds are the old lake floor).</text>
+<text x="48.0" y="786.5" font-size="13.5" fill="#3b2f1e">Burns with a blue flame (any sulphur does). Plentiful where the marl erodes.</text>
+<rect x="40.0" y="814.0" width="312.0" height="95" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="48.0" y="832.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">The balls</text>
+<text x="48.0" y="849.5" font-size="13.5" fill="#3b2f1e">Kramer's burn about 50–70 mm</text>
+<text x="48.0" y="866.5" font-size="13.5" fill="#3b2f1e">across: golf ball to tennis</text>
+<text x="48.0" y="883.5" font-size="13.5" fill="#3b2f1e">ball. In the ground “all over</text>
+<text x="48.0" y="900.5" font-size="13.5" fill="#3b2f1e">the place … literally millions”.</text>
+<rect x="368.0" y="814.0" width="312.0" height="95" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="376.0" y="832.5" font-size="13.5" fill="#3b2f1e" font-weight="bold">What has been tested</text>
+<text x="376.0" y="849.5" font-size="13.5" fill="#3b2f1e">2 nodules, one gypsum bed,</text>
+<text x="376.0" y="866.5" font-size="13.5" fill="#3b2f1e">Masada (Bishop, Turchyn and</text>
+<text x="376.0" y="883.5" font-size="13.5" fill="#3b2f1e">Sivan, 2013). No analysis of</text>
+<text x="376.0" y="900.5" font-size="13.5" fill="#3b2f1e">Kramer's balls is published.</text>
+<rect x="160" y="931" width="34" height="18" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="202.0" y="945.0" font-size="12.5" fill="#3b2f1e">measured or stated</text>
+<rect x="370" y="931" width="34" height="18" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="412.0" y="945.0" font-size="12.5" fill="#3b2f1e">proposed, or not decisive</text>
+<text x="360.0" y="981.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">“the LORD rained on Sodom and Gomorrah sulfur and fire</text>
+<text x="360.0" y="1002.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">from the LORD out of heaven” (Genesis 19:24, ESV)</text>
+<text x="696.0" y="1037.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

@@ -1,0 +1,6 @@
+.md-typeset .video-embed iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}

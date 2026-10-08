@@ -21,7 +21,7 @@ import urllib.request
 from pathlib import Path
 
 from lib.larkin import (W, PAPER, INK, MUTED, CARD, RED, RED_TINT, GOLD_EDGE, GOLD_TINT, BLUE,
-                        EARTH_TINT, HALO, esc, text, svg_open, heading, card, credit)
+                        EARTH_TINT, HALO, esc, text, svg_open, heading, card, credit, arrow_head)
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "content" / "assets" / "img" / "cities-of-the-plain"
@@ -197,6 +197,215 @@ def cities_of_the_plain():
         out += c
         y += ch + 14
 
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+# ---------------------------------------------------------------------------------------------
+# The sulphur balls: two explanations drawn on the same ground, and where each puts the balls.
+
+SKY = "#e9eef3"
+FIRE_GLOW = "#f3c9a0"
+MARL = "#ddd2bb"
+MARL_LINE = "#c7b99c"
+GYPSUM = "#f7f4ec"
+GRAVEL = "#c9b48f"
+BURN = "#4a3b2c"
+MUD = "#a39a86"
+SULPHUR = "#e9d24a"
+SULPHUR_EDGE = "#8a7a1e"
+RUST = "#9a4f23"
+
+# Bishop, Turchyn & Sivan, PLoS ONE 8 (2013) e75883: two nodules (SN1, SN2), one gypsum bed, Masada.
+NODULES_ANALYSED = 2
+ISOTOPE_GAP = "27–29"
+
+# Panel geometry, in panel-local units. The ground is flat under the town, then falls to the lake.
+PW, PH = 310, 330
+SURFACE, LAKE_FLOOR, WATER_LEVEL = 130, 240, 200
+SLOPE_TOP, SLOPE_FOOT = 0.55, 0.78
+GYPSUM_BAND = (160, 172)
+MARL_FOOT = 262
+
+
+def slope_y(fx):
+    return SURFACE + (fx - SLOPE_TOP) / (SLOPE_FOOT - SLOPE_TOP) * (LAKE_FLOOR - SURFACE)
+
+
+def ball(x, y, r=5.5, rim=None):
+    stroke = rim or SULPHUR_EDGE
+    width = 2.2 if rim else 1.1
+    return f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" fill="{SULPHUR}" stroke="{stroke}" stroke-width="{width}"/>'
+
+
+def label(x, y, s, anchor="start", size=11.5, fill=INK, italic=False):
+    return text(x, y, s, size, anchor, fill=fill, italic=italic, extra=HALO)
+
+
+def ground_panel(x0, y0, idx, fell):
+    """One cross-section. fell=True draws Genesis 19:24's sulphur; False, the bacterial nodules."""
+    out = []
+    ax = lambda f: x0 + f * PW
+    clip = f"ground{idx}"
+    ground = [(0, SURFACE), (SLOPE_TOP, SURFACE), (SLOPE_FOOT, LAKE_FLOOR), (1, LAKE_FLOOR), (1, PH), (0, PH)]
+    gpts = " ".join(f"{ax(f):.1f},{y0 + y:.1f}" for f, y in ground)
+    sky = "skyfire" if fell else "skycalm"
+    out.append(f'<rect x="{x0}" y="{y0}" width="{PW}" height="{PH}" fill="url(#{sky})"/>')
+    out.append(f'<clipPath id="{clip}"><polygon points="{gpts}"/></clipPath>')
+    out.append(f'<g clip-path="url(#{clip})">')
+    out.append(f'<rect x="{x0}" y="{y0 + SURFACE}" width="{PW}" height="{MARL_FOOT - SURFACE}" fill="{MARL}"/>')
+    for y in range(SURFACE + 8, MARL_FOOT, 7):
+        out.append(f'<path d="M{x0} {y0 + y} H{x0 + PW}" stroke="{MARL_LINE}" stroke-width="0.8"/>')
+    g0, g1 = GYPSUM_BAND
+    out.append(f'<rect x="{x0}" y="{y0 + g0}" width="{PW}" height="{g1 - g0}" fill="{GYPSUM}" stroke="{MARL_LINE}" stroke-width="0.8"/>')
+    out.append(f'<rect x="{x0}" y="{y0 + MARL_FOOT}" width="{PW}" height="{PH - MARL_FOOT}" fill="{GRAVEL}"/>')
+    for i in range(46):
+        gx = x0 + 6 + (i * 97) % (PW - 12)
+        gy = y0 + MARL_FOOT + 8 + (i * i * 7) % (PH - MARL_FOOT - 14)
+        out.append(f'<circle cx="{gx}" cy="{gy}" r="{1.4 + (i % 3) * 0.6:.1f}" fill="{MUTED}" opacity="0.55"/>')
+    # The town's floor and its burn layer sit on the old lake bed.
+    out.append(f'<rect x="{x0}" y="{y0 + SURFACE}" width="{ax(SLOPE_TOP) - x0 + 4:.1f}" height="9" fill="{BURN}"/>')
+    out.append('</g>')
+    # The lake of Abraham's day, and the mud laid down in it.
+    wx = SLOPE_TOP + (WATER_LEVEL - SURFACE) / (LAKE_FLOOR - SURFACE) * (SLOPE_FOOT - SLOPE_TOP)
+    out.append(f'<polygon points="{ax(wx):.1f},{y0 + WATER_LEVEL} {ax(1):.1f},{y0 + WATER_LEVEL} '
+               f'{ax(1):.1f},{y0 + LAKE_FLOOR} {ax(SLOPE_FOOT):.1f},{y0 + LAKE_FLOOR}" fill="{WATER}" opacity="0.85"/>')
+    out.append(f'<path d="M{ax(wx):.1f} {y0 + WATER_LEVEL} H{ax(1):.1f}" stroke="{WATER_EDGE}" stroke-width="1.5"/>')
+    out.append(f'<rect x="{ax(SLOPE_FOOT):.1f}" y="{y0 + LAKE_FLOOR}" width="{ax(1) - ax(SLOPE_FOOT):.1f}" height="9" fill="{MUD}"/>')
+    out.append(f'<polyline points="{gpts.rsplit(" ", 2)[0]}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+    # Mud-brick walls of the town.
+    for f, w, h in ((0.06, 26, 20), (0.17, 18, 14), (0.27, 30, 24), (0.40, 22, 16)):
+        out.append(f'<rect x="{ax(f):.1f}" y="{y0 + SURFACE - h}" width="{w}" height="{h}" fill="{GRAVEL}" stroke="{INK}" stroke-width="1"/>')
+
+    if fell:
+        for f, y in ((0.12, 34), (0.33, 58), (0.50, 22), (0.80, 66)):
+            bx, by = ax(f), y0 + y
+            out.append(f'<path d="M{bx - 16:.1f} {by - 30:.1f} Q{bx - 9:.1f} {by - 10:.1f} {bx:.1f} {by:.1f}" '
+                       f'stroke="{FIRE}" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6"/>')
+            out.append(ball(bx, by))
+        for f in (0.10, 0.22, 0.36, 0.47):
+            out.append(ball(ax(f), y0 + SURFACE + 3, r=4.5))
+        # Kramer's test: a burning ball dropped in the Dead Sea floated, put out.
+        sx = ax(0.90)
+        out.append(f'<path d="M{sx:.1f} {y0 + 74} V{y0 + WATER_LEVEL - 8}" stroke="{INK}" stroke-width="1.2" stroke-dasharray="3 3"/>')
+        out.append(ball(sx, y0 + WATER_LEVEL - 1, r=4.5))
+        out.append(f'<path d="M{sx - 10:.1f} {y0 + WATER_LEVEL + 9} H{ax(wx) + 22:.1f}" stroke="{INK}" stroke-width="1.2" stroke-dasharray="3 3"/>')
+        out.append(arrow_head(ax(wx) + 18, y0 + WATER_LEVEL + 9, 180, 7))
+        for f in (0.655, 0.672, 0.688):
+            out.append(ball(ax(f), y0 + slope_y(f) - 4.5, r=4.5))
+        out.append(label(ax(0.03), y0 + SURFACE + 24, "in the burn layer", fill=RED))
+        out.append(label(ax(0.99), y0 + WATER_LEVEL + 26, "floats, put out;", "end", fill=RED))
+        out.append(label(ax(0.99), y0 + WATER_LEVEL + 40, "drifts ashore", "end", fill=RED))
+    else:
+        g = (g0 + g1) / 2
+        for f in (0.08, 0.21, 0.33, 0.45, 0.56):
+            out.append(ball(ax(f), y0 + g, r=4.5, rim=RUST))
+        for f in (0.655, 0.685):
+            out.append(ball(ax(f), y0 + slope_y(f) - 4.5, r=4.5, rim=RUST))
+        out.append(label(ax(0.03), y0 + g1 + 18, "grown inside the gypsum", fill=RED))
+        out.append(label(ax(0.70), y0 + slope_y(0.66) - 22, "washed out", fill=RED))
+        out.append(label(ax(0.70), y0 + slope_y(0.66) - 8, "as the marl erodes", fill=RED))
+
+    out.append(label(ax(0.03), y0 + SURFACE - 30, "town", italic=True, fill=MUTED))
+    out.append(label(ax(0.03), y0 + 236, "Lisan marl: the old lake bed", italic=True, fill=MUTED))
+    out.append(label(ax(0.03), y0 + PH - 10, "gravel", italic=True, fill=MUTED))
+    out.append(label(ax(0.99), y0 + WATER_LEVEL - (26 if fell else 8), "the lake", "end", italic=True, fill=BLUE))
+    if fell:
+        out.append(label(ax(0.03), y0 + g0 + 9, "gypsum bed", italic=True, fill=MUTED))
+    # A proposal is dashed, per the confidence code.
+    out.append(f'<rect x="{x0}" y="{y0}" width="{PW}" height="{PH}" fill="none" stroke="{INK}" stroke-width="1.4" stroke-dasharray="6 4"/>')
+    return out
+
+
+def sulphur_balls():
+    desc = (
+        "Two cross-sections of the same ground beside the Dead Sea: Lisan marl, the old lake bed, with a "
+        "gypsum bed inside it and gravel below; an Early Bronze Age town on top with its burn layer; and "
+        "the ground falling away to the lake. Left, if the sulphur fell from heaven (Genesis 19:24): burning "
+        "balls fall on the town and lie in its burn layer, and a ball that falls into the lake floats, is put "
+        "out, and drifts to the shore of Abraham's day, as a burning ball did when Joel Kramer dropped one "
+        "into the Dead Sea. Right, if bacteria grew it: rust-rimmed nodules sit inside "
+        "the gypsum bed, and some have washed out onto the slope as the marl erodes. Both panels are "
+        "dashed as proposals. A table gives the two tests: the layer each ball lies in, and its sulphur "
+        f"isotopes, where bacterial sulphur is {ISOTOPE_GAP} parts per thousand lighter than the gypsum "
+        "around it. A third row lists what fits both: found only below the old waterline, burns blue, "
+        "plentiful where the marl erodes. Cards record the balls' size, about 50 to 70 mm, and that "
+        f"{NODULES_ANALYSED} nodules from one bed at Masada are all that has been analysed. The plate "
+        "closes with Genesis 19:24."
+    )
+    py = 186
+    table_y = py + PH + 40
+    rows = [
+        ("Where it lies", ["On the cities, in the burn", "layer, or along the shore", "of Abraham's day"],
+         ["Inside the Lisan gypsum,", "or on slopes below it", "where the marl has eroded"]),
+        ("Its isotopes", ["No fixed relation to the", "gypsum around it"],
+         [f"{ISOTOPE_GAP} parts per thousand", "lighter than its gypsum", "(measured at Masada)"]),
+    ]
+    row_h = [10 + 17 * max(len(a), len(b)) for _, a, b in rows]
+    both_y = table_y + 34 + sum(row_h) + 8 * len(rows) + 6
+    cards_y = both_y + 80
+    h = cards_y + 245
+    out = svg_open(h, "Two ways to make a sulphur ball", desc)
+    out.append(
+        '<defs>'
+        f'<linearGradient id="skyfire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{FIRE_GLOW}"/>'
+        f'<stop offset="1" stop-color="{SKY}"/></linearGradient>'
+        f'<linearGradient id="skycalm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{SKY}"/>'
+        f'<stop offset="1" stop-color="{PAPER}"/></linearGradient>'
+        '</defs>')
+    out += heading("Two Ways to Make a Sulphur Ball", "and the two tests that tell them apart (Genesis 19:24)")
+
+    lx, rx = 40, 370
+    out.append(text(lx + PW / 2, py - 32, "IF IT FELL FROM HEAVEN", 14, "middle", "bold", fill=RED, spacing="1.5"))
+    out.append(text(lx + PW / 2, py - 14, "burning, then put out where it landed", 12.5, "middle", fill=MUTED, italic=True))
+    out.append(text(rx + PW / 2, py - 32, "IF BACTERIA GREW IT", 14, "middle", "bold", fill=RED, spacing="1.5"))
+    out.append(text(rx + PW / 2, py - 14, "from the gypsum, after the lake bed was laid", 12.5, "middle", fill=MUTED, italic=True))
+    out += ground_panel(lx, py, 1, True)
+    out += ground_panel(rx, py, 2, False)
+
+    y = table_y
+    out.append(text(MX, y, "THE TWO TESTS", 14, weight="bold", spacing="1.5"))
+    out.append(text(MX + 150, y, "each explanation predicts a different answer", 12.5, fill=MUTED, italic=True))
+    y += 12
+    cols = (MX, MX + 130, MX + 385)
+    out.append(f'<rect x="{MX}" y="{y}" width="{MW}" height="24" fill="{INK}"/>')
+    for cx, head in zip(cols[1:], ("If it fell", "If bacteria grew it")):
+        out.append(text(cx + 8, y + 17, head, 13, weight="bold", fill=PAPER))
+    y += 24
+    for (name, fell, grew), rh in zip(rows, row_h):
+        rh += 8
+        out.append(f'<rect x="{MX}" y="{y}" width="{MW}" height="{rh}" fill="{CARD}" stroke="{INK}" stroke-width="0.8"/>')
+        out.append(text(cols[0] + 8, y + 20, name, 13.5, weight="bold"))
+        for cx, lines in ((cols[1], fell), (cols[2], grew)):
+            for i, ln in enumerate(lines):
+                out.append(text(cx + 8, y + 20 + 17 * i, ln, 13.5))
+        y += rh
+    c, _ = card(MX, both_y, MW, ["Fits both, so it decides nothing",
+                                 "Found only below the old waterline (the Lisan beds are the old lake floor).",
+                                 "Burns with a blue flame (any sulphur does). Plentiful where the marl erodes."],
+                "", dashed=True, size=13.5)
+    out += c
+
+    half = (MW - 16) / 2
+    c, ch = card(MX, cards_y, half, ["The balls", "Kramer's burn about 50–70 mm",
+                                      "across: golf ball to tennis", "ball. In the ground “all over",
+                                      "the place … literally millions”."], "", size=13.5)
+    out += c
+    c, _ = card(MX + half + 16, cards_y, half, ["What has been tested",
+                                                f"{NODULES_ANALYSED} nodules, one gypsum bed,",
+                                                "Masada (Bishop, Turchyn and",
+                                                "Sivan, 2013). No analysis of",
+                                                "Kramer's balls is published."], "", size=13.5)
+    out += c
+    y = cards_y + ch + 22
+    out.append(f'<rect x="{MX + 120}" y="{y}" width="34" height="18" fill="{CARD}" stroke="{INK}" stroke-width="1.4"/>')
+    out.append(text(MX + 162, y + 14, "measured or stated", 12.5))
+    out.append(f'<rect x="{MX + 330}" y="{y}" width="34" height="18" fill="{CARD}" stroke="{INK}" stroke-width="1.4" stroke-dasharray="5 4"/>')
+    out.append(text(MX + 372, y + 14, "proposed, or not decisive", 12.5))
+    y += 50
+    out.append(text(W / 2, y, "“the LORD rained on Sodom and Gomorrah sulfur and fire", 15, "middle", italic=True))
+    out.append(text(W / 2, y + 21, "from the LORD out of heaven” (Genesis 19:24, ESV)", 15, "middle", italic=True))
     out.append(credit(h))
     out.append("</svg>")
     return "\n".join(out)
@@ -651,6 +860,8 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "cities-of-the-plain-map.svg").write_text(cities_of_the_plain(), encoding="utf-8")
     print("wrote", OUT / "cities-of-the-plain-map.svg")
+    (OUT / "sulphur-balls-two-tests.svg").write_text(sulphur_balls(), encoding="utf-8")
+    print("wrote", OUT / "sulphur-balls-two-tests.svg")
     for name, fn in (("archaeological-sites-map", sites_map), ("ancient-texts-map", texts_map)):
         (MAP_OUT / f"{name}.svg").write_text(fn(), encoding="utf-8")
         print("wrote", MAP_OUT / f"{name}.svg")
