@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1060" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">Where the data comes from</title>
+<desc id="d">How this site's data is organised. Three licence tiers sit across the top. Open, quoted at any length: the Hebrew and Greek texts (WLC, SBLGNT, Brenton LXX, UHB, UGNT, Tischendorf); word data (MACULA parsing, syntax and semantic domains, Strong's numbers, TWOT ids); 29 English versions with the WEB as the default; 831,290 cross-references from OpenBible.info and the WEB translators' notes; and unfoldingWord's word alignment. Restricted, used and flagged non-commercial: 262 Dead Sea Scrolls, the Byzantine and Textus Receptus Greek, the Samaritan Pentateuch, a few English versions, and, held but not ingested, BHSA and Mounce. Quotation-only, a sentence or two with attribution: 11 study Bibles and texts (ESV, NIV, NKJV, CSB, NASB, LSB, NLT, NA28), TWOT's discussion prose, and the Bible Knowledge Commentary, read by hand. Open and restricted sources feed bible-text.db, in the public repository, 320 works and 1,216,583 verses rebuilt from source. Quotation-only sources feed study-notes.db, on local storage and never committed. The church fathers and unvetted teaching notes are kept beside them and read by hand. An MCP server with 33 lookup tools, and the query.py command line, read both databases. What reaches a page: a study whose every language claim resolves to a row, and verse and word pop-ups built from the open tier only by export_popups.py.</desc>
+<rect width="720" height="1060" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1044" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1032" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">WHERE THE DATA COMES FROM</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Three licence tiers, two databases, one way in</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<rect x="28" y="118" width="212" height="34" rx="5" fill="#4f6b2f"/>
+<text x="134.0" y="140.0" font-size="13.5" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.2">OPEN</text>
+<text x="134.0" y="170.0" font-size="13" fill="#4f6b2f" text-anchor="middle" font-style="italic">quoted at any length</text>
+<rect x="28.0" y="182.0" width="212" height="60" rx="5" fill="#fffdf7" stroke="#4f6b2f" stroke-width="1.3"/>
+<g transform="translate(35.0 200.0)" fill="none" stroke="#4f6b2f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="1"/><circle cx="5" cy="5" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M8 9 H16 M8 13 H16 M8 17 H13"/></g>
+<text x="66.0" y="201.0" font-size="13" fill="#3b2f1e" font-weight="bold">Hebrew &amp; Greek texts</text>
+<text x="66.0" y="217.0" font-size="13" fill="#6b5a3e">WLC, UHB, SBLGNT, UGNT,</text>
+<text x="66.0" y="233.0" font-size="13" fill="#6b5a3e">Brenton LXX, Tischendorf</text>
+<rect x="28.0" y="250.0" width="212" height="60" rx="5" fill="#fffdf7" stroke="#4f6b2f" stroke-width="1.3"/>
+<g transform="translate(35.0 268.0)" fill="none" stroke="#4f6b2f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12 L11 4 H21 V14 L13 22 Z"/><circle cx="16.5" cy="8.5" r="1.8"/></g>
+<text x="66.0" y="269.0" font-size="13" fill="#3b2f1e" font-weight="bold">Word data</text>
+<text x="66.0" y="285.0" font-size="13" fill="#6b5a3e">MACULA: parsing, syntax,</text>
+<text x="66.0" y="301.0" font-size="13" fill="#6b5a3e">domains; Strong's numbers</text>
+<rect x="28.0" y="318.0" width="212" height="60" rx="5" fill="#fffdf7" stroke="#4f6b2f" stroke-width="1.3"/>
+<g transform="translate(35.0 336.0)" fill="none" stroke="#4f6b2f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6 C9 4 5 4 2 5 V20 C5 19 9 19 12 21 C15 19 19 19 22 20 V5 C19 4 15 4 12 6 Z"/><path d="M12 6 V21"/></g>
+<text x="66.0" y="337.0" font-size="13" fill="#3b2f1e" font-weight="bold">29 English versions</text>
+<text x="66.0" y="353.0" font-size="13" fill="#6b5a3e">WEB (the default), ASV,</text>
+<text x="66.0" y="369.0" font-size="13" fill="#6b5a3e">YLT, BSB, KJV, JPS 1917</text>
+<rect x="28.0" y="386.0" width="212" height="60" rx="5" fill="#fffdf7" stroke="#4f6b2f" stroke-width="1.3"/>
+<g transform="translate(35.0 404.0)" fill="none" stroke="#4f6b2f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="12" height="7" rx="3.5" transform="rotate(-30 8 12.5)"/><rect x="10" y="9" width="12" height="7" rx="3.5" transform="rotate(-30 16 12.5)"/></g>
+<text x="66.0" y="405.0" font-size="13" fill="#3b2f1e" font-weight="bold">Cross-references</text>
+<text x="66.0" y="421.0" font-size="13" fill="#6b5a3e">831,290: OpenBible.info,</text>
+<text x="66.0" y="437.0" font-size="13" fill="#6b5a3e">WEB translators' notes</text>
+<rect x="28.0" y="454.0" width="212" height="60" rx="5" fill="#fffdf7" stroke="#4f6b2f" stroke-width="1.3"/>
+<g transform="translate(35.0 472.0)" fill="none" stroke="#4f6b2f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6 H22 M2 18 H22"/><path d="M5 6 L8 18 M12 6 L11 18 M19 6 L16 18" stroke-dasharray="2 2"/></g>
+<text x="66.0" y="473.0" font-size="13" fill="#3b2f1e" font-weight="bold">Word alignment</text>
+<text x="66.0" y="489.0" font-size="13" fill="#6b5a3e">English to the original,</text>
+<text x="66.0" y="505.0" font-size="13" fill="#6b5a3e">unfoldingWord ULT</text>
+<rect x="254" y="118" width="212" height="34" rx="5" fill="#a67c3d"/>
+<text x="360.0" y="140.0" font-size="13.5" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.2">RESTRICTED</text>
+<text x="360.0" y="170.0" font-size="13" fill="#a67c3d" text-anchor="middle" font-style="italic">used, flagged non-commercial</text>
+<rect x="254.0" y="182.0" width="212" height="44" rx="5" fill="#fffdf7" stroke="#a67c3d" stroke-width="1.3"/>
+<g transform="translate(261.0 192.0)" fill="none" stroke="#a67c3d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5 L10 3 L13 6 L19 4 L20 12 L17 15 L19 21 L9 20 L6 16 L3 13 Z"/><path d="M8 9 H15 M7 13 H14"/></g>
+<text x="292.0" y="201.0" font-size="13" fill="#3b2f1e" font-weight="bold">Dead Sea Scrolls</text>
+<text x="292.0" y="217.0" font-size="13" fill="#6b5a3e">262 scrolls, CC BY-NC</text>
+<rect x="254.0" y="234.0" width="212" height="60" rx="5" fill="#fffdf7" stroke="#a67c3d" stroke-width="1.3"/>
+<g transform="translate(261.0 252.0)" fill="none" stroke="#a67c3d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="1"/><circle cx="5" cy="5" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M8 9 H16 M8 13 H16 M8 17 H13"/></g>
+<text x="292.0" y="253.0" font-size="13" fill="#3b2f1e" font-weight="bold">Other witnesses</text>
+<text x="292.0" y="269.0" font-size="13" fill="#6b5a3e">Byzantine and TR Greek,</text>
+<text x="292.0" y="285.0" font-size="13" fill="#6b5a3e">Samaritan Pentateuch</text>
+<rect x="254.0" y="302.0" width="212" height="44" rx="5" fill="#fffdf7" stroke="#a67c3d" stroke-width="1.3"/>
+<g transform="translate(261.0 312.0)" fill="none" stroke="#a67c3d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6 C9 4 5 4 2 5 V20 C5 19 9 19 12 21 C15 19 19 19 22 20 V5 C19 4 15 4 12 6 Z"/><path d="M12 6 V21"/></g>
+<text x="292.0" y="321.0" font-size="13" fill="#3b2f1e" font-weight="bold">A few English versions</text>
+<text x="292.0" y="337.0" font-size="13" fill="#6b5a3e">LITV, MKJV, AKJV</text>
+<rect x="254.0" y="354.0" width="212" height="60" rx="5" fill="#fffdf7" stroke="#a67c3d" stroke-width="1.3" stroke-dasharray="5 4"/>
+<g transform="translate(261.0 372.0)" fill="none" stroke="#a67c3d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12 L11 4 H21 V14 L13 22 Z"/><circle cx="16.5" cy="8.5" r="1.8"/></g>
+<text x="292.0" y="373.0" font-size="13" fill="#3b2f1e" font-weight="bold">Held, not ingested</text>
+<text x="292.0" y="389.0" font-size="13" fill="#6b5a3e">BHSA syntax trees,</text>
+<text x="292.0" y="405.0" font-size="13" fill="#6b5a3e">Mounce's dictionary</text>
+<rect x="480" y="118" width="212" height="34" rx="5" fill="#8b1e1e"/>
+<text x="586.0" y="140.0" font-size="13.5" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.2">QUOTATION-ONLY</text>
+<text x="586.0" y="170.0" font-size="13" fill="#8b1e1e" text-anchor="middle" font-style="italic">a sentence or two, attributed</text>
+<rect x="480.0" y="182.0" width="212" height="60" rx="5" fill="#fffdf7" stroke="#8b1e1e" stroke-width="1.3"/>
+<g transform="translate(487.0 200.0)" fill="none" stroke="#8b1e1e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="1.5"/><path d="M8 2 V22"/><path d="M15 22 V25 L17 23.5 L19 25 V22" /></g>
+<text x="518.0" y="201.0" font-size="13" fill="#3b2f1e" font-weight="bold">11 study Bibles &amp; texts</text>
+<text x="518.0" y="217.0" font-size="13" fill="#6b5a3e">ESV, NIV, NKJV, CSB,</text>
+<text x="518.0" y="233.0" font-size="13" fill="#6b5a3e">NASB, LSB, NLT, NA28</text>
+<rect x="480.0" y="250.0" width="212" height="60" rx="5" fill="#fffdf7" stroke="#8b1e1e" stroke-width="1.3"/>
+<g transform="translate(487.0 268.0)" fill="none" stroke="#8b1e1e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6 C9 4 5 4 2 5 V20 C5 19 9 19 12 21 C15 19 19 19 22 20 V5 C19 4 15 4 12 6 Z"/><path d="M12 6 V21"/></g>
+<text x="518.0" y="269.0" font-size="13" fill="#3b2f1e" font-weight="bold">TWOT discussion</text>
+<text x="518.0" y="285.0" font-size="13" fill="#6b5a3e">cited by root number;</text>
+<text x="518.0" y="301.0" font-size="13" fill="#6b5a3e">its ids and glosses are open</text>
+<rect x="480.0" y="318.0" width="212" height="60" rx="5" fill="#fffdf7" stroke="#8b1e1e" stroke-width="1.3" stroke-dasharray="5 4"/>
+<g transform="translate(487.0 336.0)" fill="none" stroke="#8b1e1e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6 C9 4 5 4 2 5 V20 C5 19 9 19 12 21 C15 19 19 19 22 20 V5 C19 4 15 4 12 6 Z"/><path d="M12 6 V21"/></g>
+<text x="518.0" y="337.0" font-size="13" fill="#3b2f1e" font-weight="bold">Bible Knowledge</text>
+<text x="518.0" y="353.0" font-size="13" fill="#6b5a3e">Commentary: read by hand,</text>
+<text x="518.0" y="369.0" font-size="13" fill="#6b5a3e">not ingested</text>
+<path d="M134.0 522.0 V549.0" stroke="#4f6b2f" stroke-width="1.8"/>
+<path d="M134.0 556.0 L130.1 547.9 L137.9 547.9 Z" fill="#4f6b2f"/>
+<path d="M360.0 422.0 V549.0" stroke="#a67c3d" stroke-width="1.8"/>
+<path d="M360.0 556.0 L356.1 547.9 L363.9 547.9 Z" fill="#a67c3d"/>
+<path d="M586.0 386.0 V549.0" stroke="#8b1e1e" stroke-width="1.8"/>
+<path d="M586.0 556.0 L582.1 547.9 L589.9 547.9 Z" fill="#8b1e1e"/>
+<rect x="28.0" y="556.0" width="438" height="74" rx="6" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1.6"/>
+<g transform="translate(38.0 568.0)" fill="none" stroke="#3b2f1e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5 V19 C3 21 21 21 21 19 V5"/><path d="M3 12 C3 14 21 14 21 12"/></g>
+<text x="90.0" y="581.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">bible-text.db</text>
+<text x="90.0" y="599.0" font-size="13" fill="#6b5a3e">in the public repository, rebuilt from source by build.py</text>
+<text x="90.0" y="615.0" font-size="13" fill="#6b5a3e">320 works · 1,216,583 verses · every row re-derivable</text>
+<rect x="480.0" y="556.0" width="212" height="74" rx="6" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.6"/>
+<g transform="translate(490.0 568.0)" fill="none" stroke="#8b1e1e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5 V19 C3 21 21 21 21 19 V5"/><path d="M3 12 C3 14 21 14 21 12"/></g>
+<g transform="translate(510.0 578.0)" fill="none" stroke="#8b1e1e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11 V8 a4 4 0 0 1 8 0 V11"/></g>
+<text x="542.0" y="581.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">study-notes.db</text>
+<text x="542.0" y="599.0" font-size="13" fill="#6b5a3e">on local storage,</text>
+<text x="542.0" y="615.0" font-size="13" fill="#6b5a3e">never committed</text>
+<path d="M247.0 630.0 V657.0" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M247.0 664.0 L243.1 655.9 L250.9 655.9 Z" fill="#3b2f1e"/>
+<path d="M586.0 630.0 V657.0" stroke="#8b1e1e" stroke-width="1.8"/>
+<path d="M586.0 664.0 L582.1 655.9 L589.9 655.9 Z" fill="#8b1e1e"/>
+<rect x="28" y="664" width="664" height="100" rx="6" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.8"/>
+<g transform="translate(40.0 678.0)" fill="none" stroke="#3b2f1e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2 V7 M16 2 V7"/><rect x="5" y="7" width="14" height="7" rx="2"/><path d="M12 14 V18 C12 21 16 21 18 21 H22"/></g>
+<text x="74.0" y="692.0" font-size="15" fill="#3b2f1e" font-weight="bold">MCP server: 33 lookup tools for the agent</text>
+<text x="74.0" y="711.0" font-size="13" fill="#6b5a3e">passage_brief · bible_trace · study_verse · research_batch_run ·</text>
+<text x="74.0" y="727.0" font-size="13" fill="#6b5a3e">source_profile · evidence_check · and the rest</text>
+<g transform="translate(40.0 734.0)" fill="none" stroke="#3b2f1e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 10 L9 13 L6 16 M11 16 H16"/></g>
+<text x="74.0" y="751.0" font-size="13" fill="#3b2f1e">query.py: the same lookups from the command line, for anyone</text>
+<rect x="28.0" y="794.0" width="325.0" height="74" rx="6" fill="#fffdf7" stroke="#4f6b2f" stroke-width="1.6"/>
+<g transform="translate(38.0 806.0)" fill="none" stroke="#4f6b2f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="16" height="18" rx="1.5"/><path d="M5 8 H15 M5 12 H11"/><rect x="10" y="12" width="12" height="9" rx="1.5" fill="#faf6ec"/><path d="M13 15.5 H19 M13 18 H17"/></g>
+<text x="90.0" y="819.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Pop-ups on every page</text>
+<text x="90.0" y="837.0" font-size="13" fill="#6b5a3e">verse and word cards, built</text>
+<text x="90.0" y="853.0" font-size="13" fill="#6b5a3e">from the open tier only</text>
+<path d="M40 630 V638 H21 V780 H46 V787" fill="none" stroke="#4f6b2f" stroke-width="1.6"/>
+<path d="M46.0 794.0 L42.1 785.9 L49.9 785.9 Z" fill="#4f6b2f"/>
+<text x="54.0" y="776.0" font-size="12" fill="#4f6b2f" font-style="italic">export_popups.py</text>
+<path d="M529.5 764.0 V787.0" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M529.5 794.0 L525.6 785.9 L533.4 785.9 Z" fill="#3b2f1e"/>
+<rect x="367.0" y="794.0" width="325.0" height="74" rx="6" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.6"/>
+<g transform="translate(377.0 806.0)" fill="none" stroke="#3b2f1e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3 C13 4 7 10 5 19 L4 22"/><path d="M21 3 C20 11 14 16 6 17"/><path d="M9 13 L14 8"/></g>
+<text x="429.0" y="819.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">A study</text>
+<text x="429.0" y="837.0" font-size="13" fill="#6b5a3e">every language claim resolves</text>
+<text x="429.0" y="853.0" font-size="13" fill="#6b5a3e">to a row; quotations checked</text>
+<text x="360.0" y="902.0" font-size="13" fill="#6b5a3e" text-anchor="middle" font-style="italic">Also held: read by hand, never queried</text>
+<rect x="28.0" y="914.0" width="325.0" height="56" rx="6" fill="#fffdf7" stroke="#6b5a3e" stroke-width="1.6" stroke-dasharray="5 4"/>
+<g transform="translate(38.0 926.0)" fill="none" stroke="#6b5a3e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15 C3 19 17 19 19 15 L22 13 L17 13 C15 12 5 12 3 15 Z"/><path d="M20 13 C21 10 19 8 19 6 C18 8 17 10 18 13"/></g>
+<text x="90.0" y="939.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Church fathers</text>
+<text x="90.0" y="957.0" font-size="13" fill="#6b5a3e">translations and original-language editions</text>
+<rect x="367.0" y="914.0" width="325.0" height="56" rx="6" fill="#fffdf7" stroke="#6b5a3e" stroke-width="1.6" stroke-dasharray="5 4"/>
+<g transform="translate(377.0 926.0)" fill="none" stroke="#6b5a3e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="15" height="20" rx="1.5"/><path d="M3 6 H7 M3 11 H7 M3 16 H7"/><path d="M10 8 H17 M10 12 H17 M10 16 H14"/></g>
+<text x="429.0" y="939.0" font-size="14.5" fill="#3b2f1e" font-weight="bold">Teaching notes</text>
+<text x="429.0" y="957.0" font-size="13" fill="#6b5a3e">unvetted leads, never cited in a study</text>
+<rect x="28" y="996" width="120" height="24" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.3"/>
+<text x="88.0" y="1012.5" font-size="12.5" fill="#3b2f1e" text-anchor="middle">ingested, queried</text>
+<rect x="160" y="996" width="160" height="24" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.3" stroke-dasharray="5 4"/>
+<text x="240.0" y="1012.5" font-size="12.5" fill="#3b2f1e" text-anchor="middle">held, read by hand</text>
+<text x="336.0" y="1012.5" font-size="12.5" fill="#6b5a3e" font-style="italic">Colour is the licence tier.</text>
+<text x="696.0" y="1038.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>
