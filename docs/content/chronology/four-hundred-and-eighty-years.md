@@ -3,10 +3,10 @@ title: "Four Hundred and Eighty Years: From the Exodus to Solomon's Temple"
 category: "prophecy"
 description: "Why 1 Kings 6:1's 480 years from the Exodus to the temple holds once the judges are read as regional and Ruth's genealogy as telescoped, checked against the priestly and Davidic lines"
 tags: ["genealogy"]
-draft: true
+draft: false
 primary_passage: "1 Kings 6:1"
 bible_references: ["Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:3-15", "1 Chronicles 6:50-53", "Ezra 7:1-5", "Ruth 4:18-22", "Acts 13:19-21"]
-date_created: 2026-10-08
+date_created: 2026-09-30
 date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
@@ -14,7 +14,60 @@ ai_provider_models:
 
 # Four Hundred and Eighty Years: From the Exodus to Solomon's Temple
 
-## The Exodus-to-Solomon gap: genealogy as a check on the Judges chronology
+**Kings dates Solomon's temple by the Exodus.**
+
+> ✝️ 1 Kings 6:1 (ESV)
+>
+> 1 In the four hundred and eightieth year after the people of Israel came out of the land of
+> Egypt, in the fourth year of Solomon's reign over Israel, in the month of Ziv, which is the second
+> month, he began to build the house of the LORD.
+
+That one number carries the whole site's timeline from Solomon back to Moses: the temple begun in
+966 BC puts the Exodus in 1446 BC. The book of Judges, read straight through, seems to need more
+than 480 years. This study adds up its figures, sets them beside two genealogies, and shows where
+the extra years go.
+
+**In one sentence:** 1 Kings 6:1's 480 years holds once the judges are read as regional and
+overlapping, as Judges itself places them, and Ruth's five generations as telescoped; the priestly
+line's ten generations and Ezra 7's compressed list both support that reading.
+
+## Key Takeaways
+
+*(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
+
+### Lessons about Jesus
+
+The four centuries this study measures are the darkest stretch of Israel's history: "In those days
+there was no king in Israel. Everyone did what was right in his own eyes" (Judges 21:25, ESV). Yet
+through them God kept one family line unbroken, from Nahshon in the wilderness to Boaz, Ruth, Obed,
+Jesse and David. Matthew traces the same line to Jesus (Matthew 1:4-6) and arranges his list in
+three fourteens (Matthew 1:17). Both lists skip names and lose none of the promise.
+Jesus is the King those lawless years were waiting for.
+
+### Memory verses
+
+> ✝️ Joshua 21:45 (ESV)
+>
+> 45 Not one word of all the good promises that the LORD had made to the house of Israel had
+> failed; all came to pass.
+
+### Be Transformed
+
+- **Think.** When Scripture's numbers seem not to add up, read where the events happen as well as
+  how long they last. Judges 10:7-8 puts two oppressions on two sides of the Jordan in one verse.
+- **Attitude.** Trust the text's summary when the details are partial. Kings states 480 years
+  plainly, and Judges never claims to be a single national timeline.
+- **Do.** Read Judges 10-16 with a map open, and mark which tribe and which region each judge
+  served.
+
+### Prayer
+
+Father, You kept Your promises to Israel through years when everyone did what was right in his own
+eyes. You kept the line of David through those years and brought Your Son Jesus from it. Teach me
+to read Your word on its own terms, to trust it where my sums fall short, and to wait for Your
+King as faithfully as You kept His line. In Jesus' name. Amen.
+
+## Where the genealogies stop
 
 Genealogical age-data stops at Terah. From here to Solomon, the chronological evidence changes
 character entirely: instead of a systematic formula, Scripture gives one summary figure
@@ -24,7 +77,7 @@ between. Those two kinds of evidence don't agree with each other on a naive read
 different genealogies, one priestly and one royal, turn out to pull in opposite directions on
 how to resolve it.
 
-### The problem: the numbers don't add up to 480
+## The problem: the numbers don't add up to 480
 
 Summing every individually-stated figure in Judges, in the order given:
 
@@ -71,7 +124,7 @@ Acts 13:21 (ESV), where Paul states it plainly:
 God "gave them Saul... for forty years." So the 40 used here comes from Paul and fills a gap in the
 Hebrew manuscript tradition.
 
-### The text's own basis for overlap
+## The text's own basis for overlap
 
 The standard resolution treats several of these judgeships as **regional**, and therefore
 overlapping in time. The text supplies the grounds. Judges 10:7-8 (ESV) states that God "sold them
@@ -88,7 +141,7 @@ inventing an overlap the text doesn't support. It requires taking the text's own
 seriously, instead of defaulting to a single linear national timeline the book of Judges never
 claims to be giving.
 
-### Genealogy check #1: the priestly line — broadly consistent with ~480 years
+## Genealogy check #1: the priestly line — broadly consistent with ~480 years
 
 The high priestly line from Aaron to Zadok, David and Solomon's priest, is given twice in
 1 Chronicles, and the two lists agree: Aaron → Eleazar → Phinehas → Abishua → Bukki → Uzzi →
@@ -105,7 +158,7 @@ the later one, father of Shallum (1 Chronicles 6:12), and between Meraioth and t
 leaves out six generations, David's Zadok among them (1 Chronicles 6:7-10). Ezra was not wrong
 about his descent. A line that proves descent is free to skip.
 
-### Genealogy check #2: the Davidic line — in real tension with 480 years
+## Genealogy check #2: the Davidic line — in real tension with 480 years
 
 Ruth 4:18-22 gives David's own ancestry from
 Judah's son Perez: Perez → Hezron → Ram → Amminadab → **Nahshon** → Salmon → Boaz → Obed →
@@ -120,7 +173,7 @@ This doesn't mean Ruth's genealogy is wrong; it means it's very likely **telesco
 generations the way ancient genealogies regularly do. Ezra 7 does it above; Matthew 1 does it too, dropping three known kings to reach a structuring
 number. Telescoping is a well-attested biblical pattern, and Ruth's list is short enough to need it.
 
-### Where this leaves the reconstruction
+## Where this leaves the reconstruction
 
 Two genealogical checks point in different directions. The priestly line is compatible with
 something close to 1 Kings 6:1's 480 years. The royal line, taken at face value, is not. It all but
@@ -132,3 +185,26 @@ certainly telescopes, the same compression Ezra 7 shows in the priestly line. No
 exact year-by-year allocation of which judge overlaps which by how much; that level of precision
 isn't recoverable from what the text actually states, and claiming otherwise would overshoot the
 evidence in the same way summing the numbers naively does.
+
+## Discussion questions
+
+1. Judges reads as one story, but its judges come from different tribes and regions. How does
+   reading it as overlapping local histories change the way you picture that period?
+2. Saul's reign-length has dropped out of the Hebrew of 1 Samuel 13:1 and is supplied by Acts 13:21.
+   What does it mean for you that Scripture fills a gap in its own text?
+3. Ruth's genealogy and Matthew's both skip generations. What were they written to show, if not a
+   complete list?
+4. Through the years of the judges, God kept David's line going while Israel kept falling away. Where
+   have you seen God keep a promise through a stretch of your own life that felt like Judges?
+
+## References & Recommended Reading
+
+- **ESV Bible** (Crossway) — 1 Kings 6:1, Judges 10:7-8, 15:20 and 21:25, Joshua 21:45 and
+  Acts 13:21 quoted from the ESV, verified against `study-notes.db`.
+- **Hebrew text of 1 Samuel 13:1** (Westminster Leningrad Codex, via `bible-text.db`) — the
+  missing numbers in Saul's regnal formula.
+- [Genealogy and Times](genealogy-times.md) — the parent study this one was forked from, covering
+  the genealogies from Adam to the Exodus.
+- [Chronology Anchors](chronology-anchors.md) — the 966 BC temple date this count runs back from.
+- [Why Not 4004 BC?](why-not-4004-bc.md) — Ussher read the same verse as 479 elapsed years; this
+  site counts 480.

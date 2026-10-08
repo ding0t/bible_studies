@@ -1,6 +1,6 @@
 slug: four-hundred-and-eighty-years
 title: "Four Hundred and Eighty Years: From the Exodus to Solomon's Temple"
-status: forked
+status: published
 target_path: docs/content/chronology/four-hundred-and-eighty-years.md
 primary_passage: "1 Kings 6:1"
 point: >
@@ -17,7 +17,16 @@ stages:
       and its five sub-sections). One edit to moved text: the Ruth section's "[below](#two-genealogies-two-different-jobs)"
       link to the parent became "Matthew 1 does it too", since that anchor stays in the parent.
       Its claims were verified by review-bible-study on 2026-09-30 (see the parent's review_2026-09-30).
-  next: >
-    develop-bible-study pass: opening with a one-sentence point, Key Takeaways, References (the
-    ESV quotations of Acts 13:21, Judges 10:7-8 and 15:20 need attribution there), discussion
-    questions, prayer. Then publish and add the link from genealogy-times.md's pointer line.
+  develop_2026-10-08:
+    done: true
+    notes: >
+      Added the opening (1 Kings 6:1 quoted, one-sentence point), Key Takeaways, discussion
+      questions and References; promoted the forked sub-sections to top-level headings; no
+      sentence of the reviewed body changed. ESV quotations verified against study-notes.db:
+      1 Kings 6:1, Judges 10:7-8, 15:20, 21:25, Joshua 21:45, Acts 13:21, Matthew 1:5-6, 1:17.
+      Published, and linked from genealogy-times.md. Moved to chronology/ the same day.
+  open_questions:
+    - >
+      Acts 13:19-21 is in bible_references but only verse 21 is used. The ESV puts "about 450
+      years" over the stay in Egypt, the wilderness and the conquest (verse 20); the KJV puts it
+      over the judges. Worth a sentence, since a KJV reader will meet 450 years of judges.

@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 4:1-17 (primary passage)
+- [Four Hundred and Eighty Years: From the Exodus to Solomon's Temple](../../chronology/four-hundred-and-eighty-years.md) — 4:18-22
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:6
 <!-- commentary-index:auto-end -->

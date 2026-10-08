@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 7:7-8
+- [Four Hundred and Eighty Years: From the Exodus to Solomon's Temple](../../chronology/four-hundred-and-eighty-years.md) — 7:1-5
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 7:6
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 7:6-11
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 7:6-11

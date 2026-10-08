@@ -17,6 +17,6 @@ draft: false
 - [Chapter 3](chapter-003.md) — 2 study(ies)
 - [Chapter 4](chapter-004.md) — 1 study(ies)
 - [Chapter 6](chapter-006.md) — 1 study(ies)
-- [Chapter 7](chapter-007.md) — 4 study(ies)
+- [Chapter 7](chapter-007.md) — 5 study(ies)
 - [Chapter 8](chapter-008.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

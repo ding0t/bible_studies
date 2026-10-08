@@ -6,7 +6,7 @@ tags: ["genealogy", "creation", "method/word-study", "method/textual-criticism"]
 draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
-date_created: 2026-10-08
+date_created: 2026-07-24
 date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
@@ -416,7 +416,8 @@ chronology for the divided monarchy, for instance — is the natural next step, 
 work in the state file.
 
 The span from the Exodus to Solomon's temple, where the genealogies stop and 1 Kings 6:1's 480
-years take over, is the subject of a separate study, *Four Hundred and Eighty Years*, in draft.
+years take over, is the subject of a separate study, [Four Hundred and Eighty
+Years](four-hundred-and-eighty-years.md).
 
 ## References & Recommended Reading
 

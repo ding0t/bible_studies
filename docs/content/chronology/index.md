@@ -44,6 +44,14 @@ Other studies use these dates for their own subjects:
 
     [:octicons-arrow-right-24: Read](chronology-anchors.md)
 
+-   __Four Hundred and Eighty Years: From the Exodus to Solomon's Temple__
+
+    ---
+
+    Why 1 Kings 6:1's 480 years from the Exodus to the temple holds once the judges are read as regional and Ruth's genealogy as telescoped, checked against the priestly and Davidic lines
+
+    [:octicons-arrow-right-24: Read](four-hundred-and-eighty-years.md)
+
 -   __Why Not 4004 BC? Where Ussher's Forty-Six Years Came From__
 
     ---

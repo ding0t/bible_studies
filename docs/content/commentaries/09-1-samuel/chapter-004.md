@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Four Hundred and Eighty Years: From the Exodus to Solomon's Temple](../../chronology/four-hundred-and-eighty-years.md) — 4:18
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 4:3-4
 <!-- commentary-index:auto-end -->
