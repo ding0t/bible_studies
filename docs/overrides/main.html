@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{#- The generated chapter pages are link lists for browsing, about 45% of the site by count. Kept
+    out of Google's index so search sends readers to the studies; also dropped from sitemap.xml. -#}
+{% block extrahead %}
+  {%- if page and page.file.src_uri.startswith('commentaries/') and '/chapter-' in page.file.src_uri %}
+  <meta name="robots" content="noindex, follow">
+  {%- endif %}
+{% endblock %}

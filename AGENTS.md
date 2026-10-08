@@ -423,11 +423,13 @@ the workflow manually (`workflow_dispatch`).
   beside it in the nav, for the same 30-day window. The hook reads the file, never git, so
   `mkdocs serve` stays fast; run the script to refresh the badges locally.
 - **`utils/refresh_frontmatter_provenance.py` is the other git-derived writer**, and unlike
-  `generate_recent_updates.py` it is *manual* — it writes into the frontmatter of the ~93
+  `generate_recent_updates.py` it is *manual* — it writes into the frontmatter of the ~168
   hand-written pages (`date_created`, `date_modified`, `ai_provider_models`), so running it in CI
   would mean CI rewriting committed source. `validate-content.js` check 17 closes the gap instead,
   warning when a page's `date_modified` has fallen behind its last commit. Scope is defined by the
-  absence of `commentary-index:auto-start`: the 432 generated cross-reference pages are exempt,
+  absence of `commentary-index:auto-start`: the ~789 generated cross-reference pages (724 of them
+  `commentaries/<book>/chapter-NNN.md`, which `docs/overrides/` marks `noindex` and leaves out of
+  `sitemap.xml`) are exempt,
   since a provenance record on a file a script writes on demand records the script run, not
   authorship. **It runs before a commit, not after** — a dirty file gets today's date, so staging
   its edit with the content edit makes the two agree; run after committing and it can never

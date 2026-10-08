@@ -15,6 +15,8 @@ copyright: 'Scripture quotations are used by permission — see <a href="/about/
 
 theme:
   name: material
+  # sitemap.xml (real lastmod dates) and main.html (noindex on generated chapter pages).
+  custom_dir: docs/overrides
   favicon: assets/img/favicon.svg
   logo: assets/img/favicon.svg
   palette:
