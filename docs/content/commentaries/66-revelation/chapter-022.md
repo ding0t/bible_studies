@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 22:1-5
+- [Faith](../../salvation/faith.md) — 22:15
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 22:20
 - [Sin and Sorcery](../../sin/sorcery.md) — 22:15
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 22:20

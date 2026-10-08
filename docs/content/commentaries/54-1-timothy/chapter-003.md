@@ -14,4 +14,5 @@ draft: false
 
 - [Know the Truth](../../christian-life/know-the-truth.md) — 3:15
 - [Pride](../../sin/pride.md) — 3:6
+- [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 3:16
 <!-- commentary-index:auto-end -->

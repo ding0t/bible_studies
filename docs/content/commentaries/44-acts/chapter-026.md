@@ -15,4 +15,5 @@ draft: false
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 26:12-18
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 26:5
 - [The Way](../../jesus/the-way.md) — 26:28
+- [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 26:13
 <!-- commentary-index:auto-end -->

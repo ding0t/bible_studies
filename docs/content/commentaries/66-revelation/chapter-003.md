@@ -15,6 +15,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 3:14-22
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 3:3
 - [Know the Truth](../../christian-life/know-the-truth.md) — 3:14
+- [Pride](../../sin/pride.md) — 3:14-18
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 3:10
 - [The End of the Age](../../last-things/end-of-the-age.md) — 3:10
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 3:10

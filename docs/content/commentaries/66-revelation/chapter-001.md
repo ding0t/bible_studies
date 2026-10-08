@@ -27,4 +27,5 @@ draft: false
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 1:3
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:5
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:18
+- [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 1:16
 <!-- commentary-index:auto-end -->

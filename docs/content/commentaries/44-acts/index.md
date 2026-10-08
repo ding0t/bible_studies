@@ -37,7 +37,7 @@ draft: false
 - [Chapter 23](chapter-023.md) — 1 study(ies)
 - [Chapter 24](chapter-024.md) — 1 study(ies)
 - [Chapter 25](chapter-025.md) — 1 study(ies)
-- [Chapter 26](chapter-026.md) — 3 study(ies)
+- [Chapter 26](chapter-026.md) — 4 study(ies)
 - [Chapter 27](chapter-027.md) — 3 study(ies)
 - [Chapter 28](chapter-028.md) — 3 study(ies)
 <!-- commentary-index:auto-end -->

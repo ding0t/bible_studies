@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Faith](../../salvation/faith.md) — 6:23
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 6:10
 <!-- commentary-index:auto-end -->

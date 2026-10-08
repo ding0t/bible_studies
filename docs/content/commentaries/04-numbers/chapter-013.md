@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Pride](../../sin/pride.md) — 13:33
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 13:25-33
 <!-- commentary-index:auto-end -->

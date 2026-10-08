@@ -12,7 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Faith](../../salvation/faith.md) — 18:9-14
+- [Faith](../../salvation/faith.md) — 18:13-14
 - [Fasting](../../christian-life/fasting.md) — 18:9-14
 - [In Humility](../../christian-life/humility.md) — 18:14
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 18:1-8

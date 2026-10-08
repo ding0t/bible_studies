@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Faith](../../salvation/faith.md) — 2:4 (primary passage)
+- [Pride](../../sin/pride.md) — 2:4
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 2:4
 <!-- commentary-index:auto-end -->

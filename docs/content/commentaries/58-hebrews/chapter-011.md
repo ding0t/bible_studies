@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Faith](../../salvation/faith.md) — 11:1-40 (primary passage)
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 11:1 (primary passage)
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 11:5
 - [Passover: When I See the Blood](../../feasts/passover.md) — 11:28

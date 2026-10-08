@@ -16,7 +16,7 @@ draft: false
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 4:9
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 4:15
 - [Charting End Times](../../last-things/prophecy-chart.md) — 4:9
-- [Faith](../../salvation/faith.md) — 4:1-10
+- [Faith](../../salvation/faith.md) — 4:9-10
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 4:15
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 4:14-16
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:14-16

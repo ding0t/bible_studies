@@ -15,7 +15,7 @@ draft: false
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:11-22 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 2:7
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 2:1-10
-- [Faith](../../salvation/faith.md) — 2:8-10
+- [Faith](../../salvation/faith.md) — 2:8-9
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 2:12-13
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 2:18
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 2:20

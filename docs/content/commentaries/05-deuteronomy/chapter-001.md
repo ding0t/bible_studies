@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Faith](../../salvation/faith.md) — 1:32
+- [Pride](../../sin/pride.md) — 1:41-43
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:33
 <!-- commentary-index:auto-end -->

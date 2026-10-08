@@ -17,4 +17,5 @@ draft: false
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 17:10-13
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 17:23
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 17:20
+- [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 17:2
 <!-- commentary-index:auto-end -->

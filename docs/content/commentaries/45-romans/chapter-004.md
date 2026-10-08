@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Faith](../../salvation/faith.md) — 4:4-5
+- [Faith](../../salvation/faith.md) — 4:16-21
 <!-- commentary-index:auto-end -->

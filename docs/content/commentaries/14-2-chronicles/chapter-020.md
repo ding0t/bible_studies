@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Faith](../../salvation/faith.md) — 20:1-22
 - [Fasting](../../christian-life/fasting.md) — 20:3-4
 <!-- commentary-index:auto-end -->

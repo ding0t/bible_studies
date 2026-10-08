@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Faith](../../salvation/faith.md) — 7:1-10
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 7:41-47
 <!-- commentary-index:auto-end -->

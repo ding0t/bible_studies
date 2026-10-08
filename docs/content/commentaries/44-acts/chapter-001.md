@@ -27,11 +27,11 @@ draft: false
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 1:13
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:6-11
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 1:7
-- [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 1:7
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 1:6-7
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:9-12
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:9
 - [Thomas](../../biblical-figures/thomas.md) — 1:13
+- [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 1:3
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 1:3-5
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 1:6-7
 <!-- commentary-index:auto-end -->

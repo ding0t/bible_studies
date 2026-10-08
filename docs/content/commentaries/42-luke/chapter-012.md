@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Faith](../../salvation/faith.md) — 12:28
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 12:39-40
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 12:35-48
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 12:1
