@@ -6,7 +6,7 @@ tags: ["zadok", "calendar", "dead-sea-scrolls", "enoch", "jubilees", "chronology
 draft: false
 bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticus 25:8-13", "2 Samuel 8:17", "1 Kings 2:35", "Ezekiel 44:15", "Daniel 9:24-27"]
 date_created: 2026-07-19
-date_modified: 2026-10-04
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -133,8 +133,9 @@ Gregorian year. 1491 BC is Ussher's own figure, reached before the Assyrian sync
 1446 BC follows from 1 Kings 6:1's 480 years, counted back from Solomon's fourth year, itself fixed
 by the astronomically dated eclipse of 763 BC. That is the date this site uses, in [Prophecy:
 Events and Times](../last-things/prophecy-events-times.md) and, since 2026-10-01, for every
-`zadok_year`: under 1491 BC, 1 Kings 6:1 put Solomon's temple at 1012 BC, against the 966 BC
-the Assyrian synchronisms fix. The *Nahor* column is his age at Terah's
+`zadok_year`. Ussher reached 1491 BC from a temple date of 1012 BC, which he got by adding the
+kings' reigns end to end, against the 966 BC the Assyrian synchronisms fix ([Why Not 4004
+BC?](../last-things/why-not-4004-bc.md)). The *Nahor* column is his age at Terah's
 birth. The Masoretic 29 stands against 79 in both the Samaritan Pentateuch and LXX Codex
 Alexandrinus, with Theophilus of Antioch at 75. That agreement counts as one witness: the
 Samaritan and Greek descend from one text type, and 79 is the Masoretic 29 plus 50 with the years

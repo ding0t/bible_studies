@@ -17,4 +17,5 @@ draft: false
 - [The Combined Timeline: One Line, Two Zones](../../last-things/combined-timeline.md) — 6:1
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 6:20-22
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 6:20
+- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../last-things/why-not-4004-bc.md) — 6:1
 <!-- commentary-index:auto-end -->

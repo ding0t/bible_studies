@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 11:10-32"
 bible_references: ["Genesis 5:1-32", "Genesis 7:11", "Genesis 11:10-32", "Genesis 12:4", "Exodus 12:40-41", "1 Kings 6:1", "Acts 7:4", "Galatians 3:17"]
 date_created: 2026-08-22
-date_modified: 2026-09-30
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -136,7 +136,7 @@ Below the hinge the Gregorian dates stop moving. The manuscript question has no 
 | Crucifixion and Resurrection | AD 33 | 3991 |
 | Today | AD 2026 | 5984 |
 
-Until 2026-10-01 the site used Ussher's 1491 BC Exodus and creation at 4004 BC, which labelled every row above 45 years higher. That anchor put Solomon's temple at 1012 BC by 1 Kings 6:1, against the 966 BC the Assyrian synchronisms fix, so the site moved to the 1446 BC Exodus.
+Until 2026-10-01 the site used Ussher's 1491 BC Exodus and creation at 4004 BC, which put every AM figure above 45 years higher. Ussher reached that Exodus from a temple date of 1012 BC, which he got by adding the kings' reigns end to end. The Assyrian synchronisms fix the temple at 966 BC, so the site moved to the 1446 BC Exodus. [Why Not 4004 BC?](why-not-4004-bc.md) traces where Ussher's forty-six years came from.
 
 Forty-one events with their evidence, tiers and error bars are in [Chronology Anchors](chronology-anchors.md). Thirty-one of them carry an error bar of a year or less.
 

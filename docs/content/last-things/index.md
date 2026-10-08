@@ -233,6 +233,14 @@ End-times prophecy, read dispensationally.
 
     [:octicons-arrow-right-24: Read](we-shall-all-be-changed.md)
 
+-   __Why Not 4004 BC? Where Ussher's Forty-Six Years Came From__
+
+    ---
+
+    Archbishop Ussher's creation date was printed in Bible margins for 250 years. His count from Adam to the Exodus still stands; forty-six years crept in while he added up the kings, and Kings itself shows how Israel's scribes actually counted.
+
+    [:octicons-arrow-right-24: Read](why-not-4004-bc.md)
+
 -   __Your Kingdom Come: The Kingdom Already Here and Not Yet Complete__
 
     ---

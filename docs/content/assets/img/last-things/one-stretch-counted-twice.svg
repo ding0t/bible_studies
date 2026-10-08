@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1070" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">One stretch, counted twice</title>
+<desc id="d">From the division of the kingdom in 931 BC to Jehu's revolt in 841 BC, when Joram of Israel and Ahaziah of Judah were killed in one chase (2 Kings 9:24, 27). Four rows on one scale of years. Israel's reigns as Kings numbers them, laid end to end: 98 years, running 8 years past Jehu. The same reigns on the calendar after Thiele: each king's first year was also his predecessor's last, so each reign carries one year counted twice, 8 in all, and they end at 841 BC. Judah's reigns laid end to end: 95 years, 5 past Jehu. On the calendar: Jehoshaphat reigned 3 years beside Asa, and Jehoram's and Ahaziah's first years were counted twice, and they too end at 841 BC. Ahab at Qarqar in 853 BC and Jehu's tribute in 841 BC are marked from the Assyrian records. Below, the arithmetic: 98 minus 8 is 90; 95 minus 3 minus 2 is 90; and Ahaziah's 2 plus Joram's 12 minus 2 is the 12 years between Qarqar and Jehu. A detail shows Nadab's two years falling between Asa's second year and his third (1 Kings 15:25, 28).</desc>
+<rect width="720" height="1070" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1054" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1042" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">ONE STRETCH, COUNTED TWICE</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">The division of the kingdom to Jehu's revolt, in Israel's list and Judah's</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<path d="M64 126 H692" stroke="#3b2f1e" stroke-width="1"/>
+<path d="M82.3 122 V130" stroke="#3b2f1e" stroke-width="1"/>
+<text x="82.3" y="117.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">930</text>
+<path d="M143.3 122 V130" stroke="#3b2f1e" stroke-width="1"/>
+<text x="143.3" y="117.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">920</text>
+<path d="M204.2 122 V130" stroke="#3b2f1e" stroke-width="1"/>
+<text x="204.2" y="117.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">910</text>
+<path d="M265.2 122 V130" stroke="#3b2f1e" stroke-width="1"/>
+<text x="265.2" y="117.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">900</text>
+<path d="M326.2 122 V130" stroke="#3b2f1e" stroke-width="1"/>
+<text x="326.2" y="117.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">890</text>
+<path d="M387.1 122 V130" stroke="#3b2f1e" stroke-width="1"/>
+<text x="387.1" y="117.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">880</text>
+<path d="M448.1 122 V130" stroke="#3b2f1e" stroke-width="1"/>
+<text x="448.1" y="117.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">870</text>
+<path d="M509.1 122 V130" stroke="#3b2f1e" stroke-width="1"/>
+<text x="509.1" y="117.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">860</text>
+<path d="M570.1 122 V130" stroke="#3b2f1e" stroke-width="1"/>
+<text x="570.1" y="117.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">850</text>
+<path d="M631.0 122 V130" stroke="#3b2f1e" stroke-width="1"/>
+<text x="631.0" y="117.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">840</text>
+<path d="M692.0 122 V130" stroke="#3b2f1e" stroke-width="1"/>
+<text x="692.0" y="117.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle">830</text>
+<text x="692.0" y="144.0" font-size="11.5" fill="#6b5a3e" text-anchor="end" font-style="italic">years BC</text>
+<path d="M76.2 184 V258" stroke="#3b2f1e" stroke-width="1.2"/>
+<path d="M76.2 296 V370" stroke="#3b2f1e" stroke-width="1.2"/>
+<path d="M76.2 408 V482" stroke="#3b2f1e" stroke-width="1.2"/>
+<path d="M76.2 520 V594" stroke="#3b2f1e" stroke-width="1.2"/>
+<path d="M76.2 594 V610" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="81.2" y="624.0" font-size="12.5" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Kingdom divides</text>
+<text x="81.2" y="639.0" font-size="11.5" fill="#6b5a3e" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1 Kings 12</text>
+<path d="M551.8 184 V258" stroke="#8b1e1e" stroke-width="1.2"/>
+<path d="M551.8 296 V370" stroke="#8b1e1e" stroke-width="1.2"/>
+<path d="M551.8 408 V482" stroke="#8b1e1e" stroke-width="1.2"/>
+<path d="M551.8 520 V594" stroke="#8b1e1e" stroke-width="1.2"/>
+<path d="M551.8 594 V644" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="546.8" y="658.0" font-size="12.5" fill="#8b1e1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Ahab at Qarqar</text>
+<text x="546.8" y="673.0" font-size="11.5" fill="#6b5a3e" text-anchor="end" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Kurkh Monolith</text>
+<path d="M624.9 184 V258" stroke="#8b1e1e" stroke-width="2"/>
+<path d="M624.9 296 V370" stroke="#8b1e1e" stroke-width="2"/>
+<path d="M624.9 408 V482" stroke="#8b1e1e" stroke-width="2"/>
+<path d="M624.9 520 V594" stroke="#8b1e1e" stroke-width="2"/>
+<path d="M624.9 594 V610" stroke="#8b1e1e" stroke-width="2"/>
+<text x="619.9" y="624.0" font-size="12.5" fill="#8b1e1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Jehu's revolt</text>
+<text x="619.9" y="639.0" font-size="11.5" fill="#6b5a3e" text-anchor="end" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">2 Kings 9:24, 27 · Black Obelisk</text>
+<text x="24.0" y="160.0" font-size="13" fill="#3b2f1e" font-weight="bold" letter-spacing="0.8">ISRAEL · 98 YEARS</text>
+<text x="24.0" y="175.0" font-size="12" fill="#6b5a3e" font-style="italic">as Kings numbers the reigns, laid end to end</text>
+<rect x="76.2" y="224" width="134.1" height="22" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1"/>
+<text x="143.3" y="240.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">22</text>
+<rect x="210.3" y="224" width="12.2" height="22" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1"/>
+<rect x="222.5" y="224" width="146.3" height="22" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1"/>
+<text x="295.7" y="240.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">24</text>
+<rect x="368.9" y="224" width="12.2" height="22" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1"/>
+<rect x="381.0" y="224" width="73.2" height="22" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1"/>
+<text x="417.6" y="240.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">12</text>
+<rect x="454.2" y="224" width="134.1" height="22" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1"/>
+<text x="521.3" y="240.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">22</text>
+<rect x="588.3" y="224" width="12.2" height="22" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1"/>
+<rect x="600.5" y="224" width="73.2" height="22" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1"/>
+<text x="637.1" y="240.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">12</text>
+<rect x="624.9" y="221" width="48.8" height="28" fill="#8b1e1e" opacity="0.18" stroke="#8b1e1e" stroke-dasharray="4 3"/>
+<text x="649.3" y="266.0" font-size="12" fill="#8b1e1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">8 past Jehu</text>
+<text x="143.3" y="218.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Jeroboam</text>
+<text x="216.4" y="218.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Nadab</text>
+<text x="295.7" y="218.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Baasha</text>
+<text x="375.0" y="218.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Elah</text>
+<path d="M382.6 207 V222" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="382.6" y="204.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Zimri</text>
+<text x="417.6" y="218.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Omri</text>
+<text x="521.3" y="218.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Ahab</text>
+<text x="594.4" y="218.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Ahaziah</text>
+<text x="637.1" y="218.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Joram</text>
+<text x="24.0" y="272.0" font-size="13" fill="#3b2f1e" font-weight="bold" letter-spacing="0.8">ON THE CALENDAR</text>
+<text x="24.0" y="287.0" font-size="12" fill="#6b5a3e" font-style="italic">Thiele's reconstruction, whole years</text>
+<rect x="76.2" y="336" width="128.0" height="12" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="204.2" y="336" width="6.1" height="12" fill="#8b1e1e"/>
+<rect x="204.2" y="348" width="6.1" height="12" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="210.3" y="348" width="6.1" height="12" fill="#8b1e1e"/>
+<rect x="210.3" y="336" width="140.2" height="12" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="350.6" y="336" width="6.1" height="12" fill="#8b1e1e"/>
+<rect x="350.6" y="348" width="6.1" height="12" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="356.7" y="348" width="6.1" height="12" fill="#8b1e1e"/>
+<rect x="356.7" y="348" width="67.1" height="12" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="423.7" y="348" width="6.1" height="12" fill="#8b1e1e"/>
+<rect x="423.7" y="336" width="128.0" height="12" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="551.8" y="336" width="6.1" height="12" fill="#8b1e1e"/>
+<rect x="551.8" y="348" width="6.1" height="12" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="557.9" y="348" width="6.1" height="12" fill="#8b1e1e"/>
+<rect x="557.9" y="336" width="67.1" height="12" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="624.9" y="336" width="6.1" height="12" fill="#8b1e1e"/>
+<text x="143.3" y="330.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Jeroboam</text>
+<text x="210.3" y="330.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Nadab</text>
+<text x="283.5" y="330.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Baasha</text>
+<text x="356.7" y="330.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Elah</text>
+<text x="393.2" y="330.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Omri</text>
+<text x="490.8" y="330.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Ahab</text>
+<text x="557.9" y="330.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Ahaziah</text>
+<path d="M594.4 319 V334" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="594.4" y="316.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Joram</text>
+<text x="24.0" y="384.0" font-size="13" fill="#3b2f1e" font-weight="bold" letter-spacing="0.8">JUDAH · 95 YEARS</text>
+<text x="24.0" y="399.0" font-size="12" fill="#6b5a3e" font-style="italic">as Kings numbers the reigns, laid end to end</text>
+<rect x="76.2" y="448" width="103.7" height="22" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1"/>
+<text x="128.0" y="464.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">17</text>
+<rect x="179.8" y="448" width="18.3" height="22" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1"/>
+<rect x="198.1" y="448" width="250.0" height="22" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1"/>
+<text x="323.1" y="464.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">41</text>
+<rect x="448.1" y="448" width="152.4" height="22" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1"/>
+<text x="524.3" y="464.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">25</text>
+<rect x="600.5" y="448" width="48.8" height="22" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1"/>
+<text x="624.9" y="464.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">8</text>
+<rect x="649.3" y="448" width="6.1" height="22" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1"/>
+<rect x="624.9" y="445" width="30.5" height="28" fill="#8b1e1e" opacity="0.18" stroke="#8b1e1e" stroke-dasharray="4 3"/>
+<text x="640.2" y="490.0" font-size="12" fill="#8b1e1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">5 past Jehu</text>
+<text x="128.0" y="442.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Rehoboam</text>
+<text x="189.0" y="442.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Abijam</text>
+<text x="323.1" y="442.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Asa</text>
+<text x="524.3" y="442.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Jehoshaphat</text>
+<text x="624.9" y="442.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Jehoram</text>
+<path d="M652.4 431 V446" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="652.4" y="428.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Ahaziah</text>
+<text x="24.0" y="496.0" font-size="13" fill="#3b2f1e" font-weight="bold" letter-spacing="0.8">ON THE CALENDAR</text>
+<text x="24.0" y="511.0" font-size="12" fill="#6b5a3e" font-style="italic">Thiele's reconstruction, whole years</text>
+<rect x="76.2" y="560" width="103.7" height="12" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="179.8" y="572" width="18.3" height="12" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="198.1" y="560" width="250.0" height="12" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="429.8" y="572" width="152.4" height="12" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="582.3" y="560" width="42.7" height="12" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="4 2"/>
+<rect x="624.9" y="560" width="6.1" height="12" fill="#8b1e1e"/>
+<rect x="624.9" y="572" width="6.1" height="12" fill="#8b1e1e"/>
+<rect x="429.8" y="558" width="18.3" height="28" fill="none" stroke="#8b1e1e" stroke-width="1.6"/>
+<text x="128.0" y="554.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Rehoboam</text>
+<text x="189.0" y="554.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Abijam</text>
+<text x="323.1" y="554.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Asa</text>
+<text x="506.0" y="554.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Jehoshaphat</text>
+<text x="606.6" y="554.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Jehoram</text>
+<path d="M628.0 543 V558" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="628.0" y="540.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Ahaziah</text>
+<path d="M24 258 H696" stroke="#3b2f1e" stroke-width="0.5"/>
+<path d="M24 370 H696" stroke="#3b2f1e" stroke-width="0.5"/>
+<path d="M24 482 H696" stroke="#3b2f1e" stroke-width="0.5"/>
+<text x="360.0" y="704.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1">THE ARITHMETIC</text>
+<text x="40.0" y="732.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Israel</text>
+<text x="166.0" y="732.0" font-size="13.5" fill="#3b2f1e">98 on paper</text>
+<text x="282.0" y="732.0" font-size="13.5" fill="#8b1e1e">− 8 first years that were also a predecessor's last</text>
+<text x="680.0" y="732.0" font-size="14.5" fill="#3b2f1e" text-anchor="end" font-weight="bold">= 90</text>
+<text x="40.0" y="758.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Judah</text>
+<text x="166.0" y="758.0" font-size="13.5" fill="#3b2f1e">95 on paper</text>
+<text x="282.0" y="758.0" font-size="13.5" fill="#8b1e1e">− 3 Jehoshaphat beside Asa  − 2 years counted twice</text>
+<text x="680.0" y="758.0" font-size="14.5" fill="#3b2f1e" text-anchor="end" font-weight="bold">= 90</text>
+<text x="40.0" y="784.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Assyria's check</text>
+<text x="166.0" y="784.0" font-size="13.5" fill="#3b2f1e">2 + 12 on paper</text>
+<text x="282.0" y="784.0" font-size="13.5" fill="#8b1e1e">Ahaziah and Joram, − 2 shared years</text>
+<text x="680.0" y="784.0" font-size="14.5" fill="#3b2f1e" text-anchor="end" font-weight="bold">= 12</text>
+<text x="40.0" y="810.0" font-size="12.5" fill="#6b5a3e" font-style="italic">931 to 841 BC is 90 years. Qarqar (853) to Jehu (841) is 12.</text>
+<text x="360.0" y="854.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1">DETAIL · NADAB'S “TWO YEARS”</text>
+<rect x="170" y="872" width="95" height="26" fill="#fffdf7" stroke="#3b2f1e"/>
+<text x="217.5" y="890.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">Asa's 1st year</text>
+<rect x="265" y="872" width="95" height="26" fill="#fffdf7" stroke="#3b2f1e"/>
+<text x="312.5" y="890.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">Asa's 2nd</text>
+<rect x="360" y="872" width="95" height="26" fill="#fffdf7" stroke="#3b2f1e"/>
+<text x="407.5" y="890.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">Asa's 3rd</text>
+<rect x="455" y="872" width="95" height="26" fill="#fffdf7" stroke="#3b2f1e"/>
+<text x="502.5" y="890.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">Asa's 4th</text>
+<rect x="170.0" y="906" width="137.8" height="20" fill="#e3e9f2" stroke="#3b2f1e" stroke-dasharray="4 2"/>
+<text x="238.9" y="920.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">Jeroboam</text>
+<rect x="307.8" y="906" width="90.2" height="20" fill="#f1dcd4" stroke="#3b2f1e" stroke-dasharray="4 2"/>
+<text x="352.9" y="920.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">Nadab</text>
+<rect x="398.0" y="906" width="152.0" height="20" fill="#e3e9f2" stroke="#3b2f1e" stroke-dasharray="4 2"/>
+<text x="474.0" y="920.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">Baasha</text>
+<text x="160.0" y="890.0" font-size="12.5" fill="#6b5a3e" text-anchor="end" font-style="italic">Judah</text>
+<text x="160.0" y="920.0" font-size="12.5" fill="#6b5a3e" text-anchor="end" font-style="italic">Israel</text>
+<text x="360.0" y="950.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-style="italic">Nadab “began to reign … in the second year of Asa … and he reigned over Israel two years”</text>
+<text x="360.0" y="967.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-style="italic">(1 Kings 15:25, ESV); Baasha killed him “in the third year of Asa” (1 Kings 15:28, ESV).</text>
+<text x="360.0" y="984.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-style="italic">Two calendar years touched, two years counted. Where in each year the change fell is not stated.</text>
+<rect x="40" y="1004" width="34" height="12" fill="#e3e9f2" stroke="#3b2f1e"/>
+<text x="82.0" y="1014.0" font-size="12.5" fill="#3b2f1e">the text's number</text>
+<rect x="210" y="1004" width="34" height="12" fill="#e3e9f2" stroke="#3b2f1e" stroke-dasharray="4 2"/>
+<text x="252.0" y="1014.0" font-size="12.5" fill="#3b2f1e">placed by reconstruction</text>
+<rect x="420" y="1004" width="12" height="12" fill="#8b1e1e"/>
+<text x="440.0" y="1014.0" font-size="12.5" fill="#3b2f1e">a year counted twice</text>
+<rect x="590" y="1004" width="24" height="12" fill="none" stroke="#8b1e1e" stroke-width="1.6"/>
+<text x="620.0" y="1014.0" font-size="12.5" fill="#3b2f1e">co-regency</text>
+<text x="696.0" y="1048.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

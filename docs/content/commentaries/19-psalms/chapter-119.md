@@ -15,4 +15,5 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 119 (primary passage)
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 119:105
 - [Know the Truth](../../christian-life/know-the-truth.md) — 119:160
+- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../last-things/why-not-4004-bc.md) — 119:160
 <!-- commentary-index:auto-end -->

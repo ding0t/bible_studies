@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Kings 6:1"
 bible_references: ["1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20"]
 date_created: 2026-08-22
-date_modified: 2026-09-30
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -54,8 +54,9 @@ No entry below is Elastic. That tier begins at Abraham and runs backward, and it
 Zadok years count from creation at 3959 BC. That epoch is the Masoretic chain of Genesis 5 and 11
 anchored on an Exodus of 1446 BC, which 1 Kings 6:1's 480 years give when counted back from
 entry 1 (the `a_prime` scenario in `docs/data/genealogy/index.json`, this site's epoch since
-2026-10-01). Until then the site counted from Ussher's 4004 BC, anchored on an Exodus of 1491 BC,
-which by the same verse would put entry 1 at 1012 BC. The alternates, and the arguments each way,
+2026-10-01). Until then the site counted from Ussher's 4004 BC. His Exodus of 1491 BC came from
+his date of 1012 BC for entry 1, which he reached by adding the kings' reigns end to end; [Why Not
+4004 BC?](why-not-4004-bc.md) traces where those forty-six years came from. The alternates, and the arguments each way,
 are set out in [The Zadok Calendar](../feasts/zadok-calendar.md#where-year-0-sits).
 
 | # | Event | Scripture | Date | Tier | ± | Zadok |

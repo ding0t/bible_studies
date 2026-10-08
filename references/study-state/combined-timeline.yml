@@ -47,7 +47,7 @@ main_findings:
   elastic_zone_lengths: "Years from creation to Abraham: harmonized_v1 1828, MT 2008, SP 2309, LXX 3474."
 
 open_questions:
-  - "Figures are quoted under the ACTIVE epoch scenario (ussher_published). If the epoch is ever changed, the elastic-zone table's Gregorian column and the rigid-zone AM columns both need regenerating from references/build/genealogy_chronology.py. The AM column in the elastic table does not move."
+  - "Figures are quoted under the ACTIVE epoch scenario (a_prime since 2026-10-01; ussher_published before that). If the epoch is ever changed, the elastic-zone table's Gregorian column and the rigid-zone AM columns both need regenerating from references/build/genealogy_chronology.py. The AM column in the elastic table does not move."
   - "The rigid-zone table shows only two of the four tracked scenarios (active and a_prime) to stay readable. Full set is in docs/data/genealogy/index.json and on zadok-calendar.md."
   - "No mermaid diagram on this page has been eyeballed in a browser -- no browser tooling was available. The xychart-beta bar chart in particular is a type this site has used only since 2026-08-18."
 

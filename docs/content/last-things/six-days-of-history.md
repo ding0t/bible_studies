@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 1:1-31"
 bible_references: ["Genesis 1:1-31", "Genesis 2:1-3", "Genesis 2:7", "Genesis 2:17", "Genesis 4:26", "Genesis 5:5", "Genesis 5:23-24", "Genesis 7:11", "Genesis 7:13", "Genesis 8:2", "Genesis 12:7", "Genesis 15:5", "Genesis 22:17-18", "Exodus 14:22", "Exodus 20:11", "Leviticus 23:2-44", "Psalm 89:36-37", "Isaiah 46:10", "Malachi 4:2", "Matthew 4:19", "Matthew 13:47", "Acts 1:7", "Romans 8:29", "2 Corinthians 3:18", "Galatians 4:4", "Colossians 1:15", "Hebrews 4:9", "Revelation 13:14-18", "Revelation 17:15", "Revelation 20:4"]
 date_created: 2026-09-26
-date_modified: 2026-09-30
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -245,7 +245,8 @@ Testament, at the end of the fourth day.
 
 On the working epoch Christ is born about AM 3954 and crucified in AM 3991, in the closing decades
 of the fourth day; AM 4000 itself falls in AD 42. Ussher's epoch put AM 4000 at 4 BC, the
-traditional date of Jesus' birth, and the parent study explains why that fit was partly an artifact.
+traditional date of Jesus' birth, and the parent study explains why that fit was never independent
+confirmation.
 Scripture's own statement is the firmer one: "when the fullness of time had come, God sent forth his Son"
 (Galatians 4:4, ESV). God appointed the time as He appointed the lights.
 

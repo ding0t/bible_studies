@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 3:14
+- [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../last-things/why-not-4004-bc.md) — 3:1
 <!-- commentary-index:auto-end -->

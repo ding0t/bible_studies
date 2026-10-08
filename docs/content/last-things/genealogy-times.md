@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
 date_created: 2026-07-24
-date_modified: 2026-10-04
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -401,6 +401,7 @@ study (`references/study-state/genealogy-times.yml`) records the decision. The E
 was settled on 2026-10-01: 1446 BC, from 1 Kings 6:1's 480 years counted back from Solomon's
 fourth year, which puts Masoretic creation at 3959 BC. Ussher's 1491 BC, and the 4004 BC epoch it
 produces, were used until then; `docs/data/genealogy/index.json` keeps both as tracked alternates.
+[Why Not 4004 BC?](why-not-4004-bc.md) traces where Ussher's forty-six years came from.
 
 [The Day is Near](day-is-near.md) used dsscalendar.org's creation epoch (~3925 BC) until
 2026-10-01; the site's year-6000 arithmetic now lives in [A Day Is a Thousand

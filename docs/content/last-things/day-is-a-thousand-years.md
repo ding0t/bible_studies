@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
 bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hebrews 1:2", "Hebrews 4:1-13", "Revelation 20:1-7", "Genesis 49:1", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:46", "2 Timothy 3:16", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
 date_created: 2026-08-12
-date_modified: 2026-10-04
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -382,9 +382,10 @@ study, [Six Days of History](six-days-of-history.md).
 
 On the site's epoch Christ is born about AM 3954 and crucified in AM 3991, at the close of the
 fourth millennium, the day of the lights for appointed times. Ussher's 4004 BC epoch, used here
-until 2026-10-01, put AM 4000 exactly at 4 BC, the traditional Nativity, and that fit has held
-attention for centuries. It was partly an artifact — Ussher fixed his epoch partly by working back
-from Herod's death in 4 BC — so it was never independent confirmation.
+until 2026-10-01, put AM 4000 at 4 BC, beside the traditional Nativity, and that fit has held
+attention for centuries. It was never independent confirmation. Ussher dated the Nativity from
+Herod's death in 4 BC, and four thousand years from Adam to Christ was a widely held expectation
+before he counted.
 
 
 ### Day seven — the rest that is numbered

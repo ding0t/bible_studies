@@ -1,0 +1,135 @@
+slug: "why-not-4004-bc"
+title: "Why Not 4004 BC? Where Ussher's Forty-Six Years Came From"
+status: published
+target_path: "docs/content/last-things/why-not-4004-bc.md"
+
+primary_passage: "1 Kings 15:25-28"
+supporting_passages: ["1 Kings 6:1", "1 Kings 14:20-21", "1 Kings 15:1-2", "1 Kings 15:9-10", "1 Kings 15:33", "1 Kings 16:8-10", "1 Kings 16:23", "1 Kings 16:29", "1 Kings 22:41-42", "1 Kings 22:51", "2 Kings 3:1", "2 Kings 8:16-17", "2 Kings 8:25-26", "2 Kings 9:24-27", "2 Kings 15:5", "2 Kings 25:27", "Psalm 119:160", "Galatians 4:4"]
+genre: [ot-narrative, topical]
+
+thesis: >-
+  Ussher's count from Adam to the Exodus and his Babylonian anchor both stand; his forty-six-year
+  error lies in laying the kings' reigns end to end as full years, and the synchronisms in Kings
+  itself, checked by an Assyrian eclipse, show how Israel's scribes actually counted.
+outline:
+  - {section: "What Ussher did", says: "Worked back from Evil-merodach (2 Kings 25:27, 562 BC) through the kings to the temple (1012), the Exodus (1491) and creation (4004); his dates sat in Bible margins from 1701."}
+  - {section: "Two of his three steps still stand", says: "His Exodus is AM 2513, same as the site's; his 562 BC anchor is still the accepted date. The whole difference is in the kings."}
+  - {section: "Scripture counts the same years twice", says: "Division to Jehu: Israel's list sums 98, Judah's 95, for a span both lines close on one day (2 Kings 9:24, 27)."}
+  - {section: "A part-year counted whole", says: "Nadab 'reigned two years' from Asa's 2nd year to Asa's 3rd; Elah the same. Non-accession counting."}
+  - {section: "Sons beside their fathers", says: "2 Kings 8:16, 15:5 name co-regencies; Ussher allowed a few (430 -> 424); reconstruction 380."}
+  - {section: "The Assyrian check", says: "Bur-Sagale 763 BC; Qarqar 853 and Jehu 841 leave 12 years for Scripture's 2 + 12 counted Nadab's way."}
+  - {section: "What is still contested", says: "Hezekiah synchronisms, 587/586, 480 literal vs schematic, LXX 440. None restores 1012."}
+  - {section: "What moved", says: "Table of Ussher vs site dates; year 6000 moves from 1997 to 2042; AM 4000 Nativity fit lost."}
+  - {section: "The sum of your word is truth", says: "God's word was right as written; the error was the reader's assumption about how it counted."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >-
+      Dedicated study chosen over a section in chronology-anchors.md (already 5,396 words, over
+      budget). Prompted by the author (2026-10-08) asking that the basis for moving off Ussher be
+      surfaced; before this it existed only as one- or two-sentence changelog notes on eight pages.
+      Complements four-hundred-and-eighty-years.md (draft), which treats the interval upstream of
+      the temple; this study treats the regnal span downstream of it. Do not link that draft until
+      it publishes.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Ussher, Annales Veteris Testamenti (1650): anchored Amel-Marduk's accession at 562 BC
+        (Wikipedia 'Ussher chronology', which also gives the simple Judahite sum 430 shortened to 424
+        by 'a few overlapping reigns', 1012 to 588 BC). Dates printed in the margin of the 1701
+        Authorised Version under William Lloyd and for ~250 years after (Dunham Bible Museum /
+        Wikipedia on Lloyd). Assyrian cuneiform deciphered in the 1850s; Thiele, Mysterious Numbers
+        (1951; 3rd ed. 1983).
+    literary_context:
+      done: true
+      notes: >-
+        Kings' regnal formula: accession synchronised to the other kingdom's king + length of reign.
+        The synchronisms are the internal check; the lengths alone are what Ussher summed.
+    content_word_studies:
+      done: true
+      notes: "1 Kings 15:25 interlinear: malakh (H4427) for both 'began to reign' and 'reigned'; shenatayim dual of shanah (H8141). malakh occurs 121x in 1 Kings."
+      terms:
+        - {word: "מָלַךְ", language: hebrew, transliteration: "malakh", strongs_id: "H4427", gloss: "to be or become king, to reign"}
+        - {word: "שְׁנָתָיִם", language: hebrew, transliteration: "shenatayim", strongs_id: "H8141", gloss: "two years (dual)"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Non-accession and accession reckoning are ancient court conventions; the transcultural point is reading a text by its own conventions."
+    theological_principle:
+      done: true
+      notes: >-
+        God's word is true in what it affirms as written (statement-of-faith 'Scripture is the
+        infallible word of God', Psalm 119:160). The apparent error was the reader's convention.
+        Consistent with the statement of faith; no conflict.
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "2 Kings 25:27", relation: "Ussher's anchor, Evil-merodach's accession"}
+      - {ref: "2 Kings 9:24-27", relation: "Joram and Ahaziah die the same day: both lines close together"}
+    translations_compared: ["ESV", "LXX"]
+    divergences_noted: "LXX 1 Kings (3 Kingdoms) 6:1 reads 440th year (τεσσαρακοστῷ καὶ τετρακοσιοστῷ) against MT 480."
+  drafting:
+    done: true
+    file: "docs/content/last-things/why-not-4004-bc.md"
+  review:
+    done: false
+    validated: false
+
+evidence_verified_2026_10_08:
+  - "Israel, division to Jehu: Jeroboam 22 (1 Kgs 14:20), Nadab 2 (15:25), Baasha 24 (15:33), Elah 2 (16:8), Zimri 7 days (16:15), Omri 12 (16:23), Ahab 22 (16:29), Ahaziah 2 (22:51), Joram 12 (2 Kgs 3:1) = 98 years 7 days"
+  - "Judah, same span: Rehoboam 17 (1 Kgs 14:21), Abijam 3 (15:2), Asa 41 (15:10), Jehoshaphat 25 (22:42), Jehoram 8 (2 Kgs 8:17), Ahaziah 1 (8:26) = 95"
+  - "Nadab: began Asa 2 (15:25), killed Asa 3 (15:28). Elah: began Asa 26 (16:8), killed Asa 27 (16:10)."
+  - "Thiele: 931 division, 853 Ahab at Qarqar, 841 Jehu, 966 temple, 586 fall; span 931-841 = 90."
+
+open_questions:
+  - "prophecy-events-times.md:169 says Ussher 'simply summed the Kings/Chronicles numbers without correcting for co-regencies'; he in fact posited a few (430 -> 424). Fix that sentence."
+  - "Every 'Until 2026-10-01 ...' changelog note on the eight sibling pages could shrink to a link here once this publishes."
+  - "references/study-state/combined-timeline.yml:50 still names ussher_published as active."
+  - "Fork candidate: the 1446-vs-1260 Exodus debate (480 literal or schematic) belongs to four-hundred-and-eighty-years.md."
+resources_consulted:
+  - {type: other, title: "Ussher chronology", author: "Wikipedia", note: "562 BC Amel-Marduk anchor; Judah 430 -> 424; 1012-588; Nativity 5 BC"}
+  - {type: other, title: "KJV @400 exhibit / William Lloyd", author: "Dunham Bible Museum; Wikipedia", note: "1701 marginal dates"}
+  - {type: commentary, title: "ESV Study Bible, note on 1 Kings 6:1", author: "Crossway", note: "confirmed 966 / 1446 and the late-date alternative"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible, note on 1 Kings 6:1", author: "Zondervan", note: "contributed: 480 possibly an aggregate of partly concurrent periods"}
+  - {type: other, title: "The Mysterious Numbers of the Hebrew Kings", author: "Edwin R. Thiele", note: "regnal reconstruction, as already cited by chronology-anchors.md"}
+last_updated: "2026-10-08"
+
+review_2026-10-08:
+  reviewer: "review-bible-study skill (independent session)"
+  checked:
+    - "All ESV quotations re-queried from study-notes.db (esv-study-bible): 2 Kgs 25:27, 1 Kgs 6:1, 15:25, 15:28, 16:8, 16:10, 22:51, 2 Kgs 3:1, 8:16, 15:5, Gal 4:4, Ps 119:160 -- all verbatim."
+    - "Table reign lengths and references re-pulled: Israel 22+2+24+2+12+22+2+12 = 98 (+ Zimri 7 days); Judah 17+3+41+25+8+1 = 95."
+    - "Nonaccession arithmetic: 931-841 touches 91 calendar years, 7 shared accession years -> 98 nominal, 90 elapsed. 853-841: Ahaziah 2 + Joram 12 = 14 nominal, 12 elapsed."
+    - "Judah simple sum Solomon yr 4 to Zedekiah recomputed: 37 + 393 = 430. 1012-588 = 424; 966-586 = 380."
+    - "1 Kgs 15:25 interlinear: malakh (H4427, qatal and wayyiqtol) for both verbs; shenatayim H8141 Ncfda (dual)."
+    - "LXX 3 Kgdms 6:1 lemmas: tessarakostos kai tetrakosiostos = 440th."
+    - "ESV Study Bible note 1 Kgs 6:1 (966 / 1446 face value / 12x40 -> c.1260) and NIV BTSB note (966 from Assyrian synchronisms; schematic or aggregate of partly concurrent periods) both confirm the study's summary. NIV BTSB on 1 Kgs 15:25 dates Nadab 910/9-909/8: confirms the one-calendar-year reading (independent commentary, Phase 5)."
+    - "Wikipedia 'Ussher chronology' re-fetched: 430 -> 424 'by positing a few overlapping reigns', 1012-588; 562 BC Amel-Marduk; Nativity 5 BC because Josephus puts Herod's death in 4 BC; 4000-year Adam-to-Christ span was a widely held prior expectation."
+    - "Dunham Bible Museum KJV@400 re-fetched: 1701 Lloyd Bible first with marginal dates; 'at least the next 250 years'. (Dunham calls Lloyd 'Bishop of London'; he was Bishop of Worcester from 1699 -- study is right.)"
+    - "Statement-of-faith quotation verbatim (line 39); Psalm 119:160 is its starting point (line 41)."
+  fixed:
+    - "Critical (arithmetic): study said the site reads 1 Kgs 6:1 'the way Ussher did' and that everything above the temple inherits the 46-year shift. Ussher's 1012 -> 1491 is 479 years; the site's 966 -> 1446 is 480 (AM 2513 -> 2993). Added the one-year step-2 difference; Exodus/creation move 45, not 46. Lede 'whole difference' -> 'all but one year'."
+    - "Nativity: 'round number partly built in because Ussher worked from Herod's death' was unsupported; replaced with the sourced reason (prior 4000-year expectation) and 5 BC; birth/crucifixion basis now names Herod's death."
+    - "'went unseen for three centuries' -> 'stood in Bible margins for two and a half centuries' (Assyriologists questioned it from the 1860s)."
+    - "'closes on a single afternoon' -> 'in one chariot chase' (2 Kgs 9:27 has Ahaziah die at Megiddo)."
+    - "Closing 'the one convention he missed' contradicted the study's own two-habit explanation; reworded."
+    - "Discussion Q4 'scribes who never heard of Israel's God' false (Assyrians name the LORD, 2 Kgs 18:22-25); reworded."
+    - "Added lang/hebrew tag."
+  open_for_author:
+    - "2 Kgs 8:16 'when Jehoshaphat was king of Judah' is textually uncertain (CSB footnote; omitted in some witnesses), and in Thiele Jehoram's 8 years count from 848 sole reign, so it does not inflate the 95. Stronger co-regency evidence for this span: 2 Kgs 1:17 vs 3:1 (Jehoshaphat-Jehoram) and 1 Kgs 22:41-42 vs 16:29 (Asa-Jehoshaphat, the 3 years that do inflate the 95)."
+    - "'he did not count Israel's part-years the way Nadab's verse shows' -- claim about Ussher's method not in the cited sources."
+    - "'a check Ussher could not fully use' is vague; Ussher had both lists."
+    - "Optional precision: Israel's 98 -> 90 can be stated exactly (seven shared accession years plus inclusive counting)."
+  sibling_inconsistencies:
+    - "day-is-a-thousand-years.md:385-386 says Ussher's AM 4000 = 4 BC and that he 'fixed his epoch partly by working back from Herod's death'; Wikipedia gives Nativity 5 BC and attributes the 4000 to a prior expectation."
+    - "chronology-anchors.md:57-58 and combined-timeline.md say 1491 BC 'by the same verse would put entry 1 at 1012 BC'; by the site's 480 count it gives 1011 -- 1012 is Ussher's 479."
+    - "prophecy-events-times.md:169 'simply summed ... without correcting for co-regencies' (already in open_questions)."
+  validate: "npm run validate: no errors or warnings for this file."
+  word_count: "approx 2,830 of 4,000 budget after fixes (+~75 net)."

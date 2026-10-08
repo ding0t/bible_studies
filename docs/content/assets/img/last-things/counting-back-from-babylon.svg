@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1483" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">Counting back from Babylon</title>
+<desc id="d">Two columns on one scale of years. Both start from the same anchor, Evil-merodach's accession in 562 BC (2 Kings 25:27), and count upward. Ussher's column: 26 years back to Jerusalem's fall in 588 BC; step 1, the kings of Judah, -424 years to the temple in 1012 BC; step 2, 1 Kings 6:1's 480th year, to the Exodus in 1491 BC; step 3, Genesis 5 and 11, 2,513 years to creation in 4004 BC. This site's column: 24 years to 586 BC, 380 years of kings to 966 BC, 480 years to 1446 BC, and the same 2,513 years to 3959 BC. Lines join each event across the columns. A gauge on the right plots the gap: 0 at the anchor, 2 at Jerusalem's fall, 46 at the temple, then 45 unchanged to creation. Below, the 46 years are taken apart: 2 at Jerusalem's fall and 44 in the kings, where Ussher allowed for some overlapping reigns and Thiele's reconstruction for more.</desc>
+<rect width="720" height="1483" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1467" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1455" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">COUNTING BACK FROM BABYLON</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Two chains from one anchor, on one scale of years</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<text x="211.0" y="132.0" font-size="14" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.2">USSHER, 1650</text>
+<text x="433.0" y="132.0" font-size="14" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.2">THIS SITE</text>
+<text x="211.0" y="150.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">counted upward ↑</text>
+<text x="433.0" y="150.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">counted upward ↑</text>
+<text x="646.0" y="132.0" font-size="14" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.2">THE GAP</text>
+<text x="646.0" y="150.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Ussher minus</text>
+<text x="646.0" y="165.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">this site, years</text>
+<rect x="150" y="220.8" width="122" height="653.4" fill="#efe4d0" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="211.0" y="242.8" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">GENESIS 5, 11</text>
+<text x="211.0" y="258.8" font-size="12.5" fill="#3b2f1e" text-anchor="middle">2,513 years</text>
+<text x="211.0" y="274.8" font-size="12.5" fill="#3b2f1e" text-anchor="middle">Adam to the</text>
+<text x="211.0" y="290.8" font-size="12.5" fill="#3b2f1e" text-anchor="middle">Exodus</text>
+<circle cx="150" cy="237.8" r="10" fill="#3b2f1e"/>
+<text x="150.0" y="242.8" font-size="13" fill="#faf6ec" text-anchor="middle" font-weight="bold">3</text>
+<rect x="150" y="874.1" width="122" height="124.5" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="211.0" y="896.1" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1 KINGS 6:1</text>
+<text x="211.0" y="912.1" font-size="12.5" fill="#3b2f1e" text-anchor="middle">“480th year”</text>
+<text x="211.0" y="928.1" font-size="12.5" fill="#3b2f1e" text-anchor="middle">479 elapsed</text>
+<circle cx="150" cy="891.1" r="10" fill="#3b2f1e"/>
+<text x="150.0" y="896.1" font-size="13" fill="#faf6ec" text-anchor="middle" font-weight="bold">2</text>
+<rect x="150" y="998.7" width="122" height="110.2" fill="#f1dcd4" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="211.0" y="1020.7" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">THE KINGS</text>
+<text x="211.0" y="1036.7" font-size="12.5" fill="#3b2f1e" text-anchor="middle">424 years</text>
+<text x="211.0" y="1052.7" font-size="12.5" fill="#3b2f1e" text-anchor="middle">430 added up,</text>
+<text x="211.0" y="1068.7" font-size="12.5" fill="#3b2f1e" text-anchor="middle">6 off for</text>
+<text x="211.0" y="1084.7" font-size="12.5" fill="#3b2f1e" text-anchor="middle">overlaps</text>
+<circle cx="150" cy="1015.7" r="10" fill="#3b2f1e"/>
+<text x="150.0" y="1020.7" font-size="13" fill="#faf6ec" text-anchor="middle" font-weight="bold">1</text>
+<rect x="150" y="1108.9" width="122" height="6.8" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.2"/>
+<rect x="372" y="232.5" width="122" height="653.4" fill="#efe4d0" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="433.0" y="254.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">GENESIS 5, 11</text>
+<text x="433.0" y="270.5" font-size="12.5" fill="#3b2f1e" text-anchor="middle">2,513 years</text>
+<text x="433.0" y="286.5" font-size="12.5" fill="#3b2f1e" text-anchor="middle">the same</text>
+<text x="433.0" y="302.5" font-size="12.5" fill="#3b2f1e" text-anchor="middle">count</text>
+<rect x="372" y="885.8" width="122" height="124.8" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="433.0" y="907.8" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1 KINGS 6:1</text>
+<text x="433.0" y="923.8" font-size="12.5" fill="#3b2f1e" text-anchor="middle">480 years</text>
+<rect x="372" y="1010.6" width="122" height="98.8" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="433.0" y="1032.6" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">THE KINGS</text>
+<text x="433.0" y="1048.6" font-size="12.5" fill="#3b2f1e" text-anchor="middle">380 years</text>
+<text x="433.0" y="1064.6" font-size="12.5" fill="#3b2f1e" text-anchor="middle">Thiele, fixed</text>
+<text x="433.0" y="1080.6" font-size="12.5" fill="#3b2f1e" text-anchor="middle">by Assyria</text>
+<rect x="372" y="1109.4" width="122" height="6.2" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.2"/>
+<path d="M150 651.3 H272" stroke="#3b2f1e" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="211.0" y="646.3" font-size="11.5" fill="#6b5a3e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">AM 1,656</text>
+<path d="M372 663.0 H494" stroke="#3b2f1e" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="433.0" y="658.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">AM 1,656</text>
+<path d="M150 742.8 H272" stroke="#3b2f1e" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="211.0" y="737.8" font-size="11.5" fill="#6b5a3e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">AM 2,008</text>
+<path d="M372 754.5 H494" stroke="#3b2f1e" stroke-width="0.8" stroke-dasharray="3 3"/>
+<text x="433.0" y="749.5" font-size="11.5" fill="#6b5a3e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">AM 2,008</text>
+<path d="M272 220.8 L372 232.5" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="322.0" y="214.8" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Creation</text>
+<path d="M116 220.8 L136 220.8 L150 220.8" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path d="M494 232.5 L508 232.5 L528 232.5" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="112.0" y="225.3" font-size="13" fill="#3b2f1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">4004 BC</text>
+<text x="532.0" y="237.0" font-size="13" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">3959 BC</text>
+<path d="M272 651.3 L372 663.0" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="322.0" y="645.3" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">The Flood</text>
+<path d="M116 651.3 L136 651.3 L150 651.3" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path d="M494 663.0 L508 663.0 L528 663.0" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="112.0" y="655.8" font-size="13" fill="#3b2f1e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">2348 BC</text>
+<text x="532.0" y="667.5" font-size="13" fill="#3b2f1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">2303 BC</text>
+<path d="M272 742.8 L372 754.5" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="322.0" y="736.8" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Abram born</text>
+<path d="M116 742.8 L136 742.8 L150 742.8" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path d="M494 754.5 L508 754.5 L528 754.5" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="112.0" y="747.3" font-size="13" fill="#3b2f1e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1996 BC</text>
+<text x="532.0" y="759.0" font-size="13" fill="#3b2f1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1951 BC</text>
+<path d="M272 874.1 L372 885.8" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="322.0" y="868.1" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">The Exodus</text>
+<path d="M116 874.1 L136 874.1 L150 874.1" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path d="M494 885.8 L508 885.8 L528 885.8" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="112.0" y="878.6" font-size="13" fill="#3b2f1e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1491 BC</text>
+<text x="532.0" y="890.3" font-size="13" fill="#3b2f1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1446 BC</text>
+<path d="M272 998.7 L372 1010.6" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="322.0" y="992.7" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Temple begun</text>
+<path d="M116 998.7 L136 998.7 L150 998.7" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path d="M494 1010.6 L508 1010.6 L528 1010.6" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="112.0" y="1003.2" font-size="13" fill="#3b2f1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1012 BC</text>
+<text x="532.0" y="1015.1" font-size="13" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">966 BC</text>
+<path d="M272 1108.9 L372 1109.4" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="322.0" y="1086.9" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Jerusalem falls</text>
+<path d="M116 1092.9 L136 1092.9 L150 1108.9" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<path d="M494 1109.4 L508 1093.4 L528 1093.4" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="112.0" y="1097.4" font-size="13" fill="#3b2f1e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">588 BC</text>
+<text x="532.0" y="1097.9" font-size="13" fill="#3b2f1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">586 BC</text>
+<path d="M272 1115.7 L372 1115.7" stroke="#8b1e1e" stroke-width="2.4"/>
+<text x="322.0" y="1132.7" font-size="12.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Evil-merodach</text>
+<path d="M116 1115.7 L136 1115.7 L150 1115.7" fill="none" stroke="#8b1e1e" stroke-width="1.2"/>
+<path d="M494 1115.7 L508 1115.7 L528 1115.7" fill="none" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="112.0" y="1120.2" font-size="13" fill="#8b1e1e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">562 BC</text>
+<text x="532.0" y="1120.2" font-size="13" fill="#8b1e1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">562 BC</text>
+<text x="322.0" y="1151.7" font-size="12" fill="#8b1e1e" text-anchor="middle" font-style="italic">THE ANCHOR · 2 Kings 25:27 · Babylonian sources</text>
+<rect x="596" y="216.6" width="100" height="899.1" fill="#fffdf7" stroke="#3b2f1e" stroke-width="0.8"/>
+<path d="M616.0 216.6 V1115.7" stroke="#3b2f1e" stroke-width="0.3"/>
+<path d="M636.0 216.6 V1115.7" stroke="#3b2f1e" stroke-width="0.3"/>
+<path d="M656.0 216.6 V1115.7" stroke="#3b2f1e" stroke-width="0.3"/>
+<path d="M676.0 216.6 V1115.7" stroke="#3b2f1e" stroke-width="0.3"/>
+<text x="596.0" y="1151.7" font-size="11.5" fill="#6b5a3e" text-anchor="middle">0</text>
+<text x="646.0" y="1151.7" font-size="11.5" fill="#6b5a3e" text-anchor="middle">25</text>
+<text x="696.0" y="1151.7" font-size="11.5" fill="#6b5a3e" text-anchor="middle">50</text>
+<path d="M596 232.5 L686.0 232.5 L686.0 663.0 L686.0 754.5 L686.0 885.8 L688.0 1010.6 L600.0 1109.4 L596.0 1115.7 L596 1115.7 Z" fill="#f1dcd4"/>
+<path d="M686.0 232.5 L686.0 663.0" stroke="#8b1e1e" stroke-width="2.2"/>
+<path d="M686.0 663.0 L686.0 754.5" stroke="#8b1e1e" stroke-width="2.2"/>
+<path d="M686.0 754.5 L686.0 885.8" stroke="#8b1e1e" stroke-width="2.2"/>
+<path d="M686.0 885.8 L688.0 1010.6" stroke="#8b1e1e" stroke-width="2.2"/>
+<path d="M688.0 1010.6 L600.0 1109.4" stroke="#8b1e1e" stroke-width="2.2" stroke-dasharray="5 4"/>
+<path d="M600.0 1109.4 L596.0 1115.7" stroke="#8b1e1e" stroke-width="2.2"/>
+<circle cx="686.0" cy="232.5" r="3.5" fill="#8b1e1e" stroke="#faf6ec"/>
+<circle cx="686.0" cy="663.0" r="3.5" fill="#8b1e1e" stroke="#faf6ec"/>
+<circle cx="686.0" cy="754.5" r="3.5" fill="#8b1e1e" stroke="#faf6ec"/>
+<circle cx="686.0" cy="885.8" r="3.5" fill="#8b1e1e" stroke="#faf6ec"/>
+<circle cx="688.0" cy="1010.6" r="3.5" fill="#8b1e1e" stroke="#faf6ec"/>
+<circle cx="600.0" cy="1109.4" r="3.5" fill="#8b1e1e" stroke="#faf6ec"/>
+<circle cx="596.0" cy="1115.7" r="3.5" fill="#8b1e1e" stroke="#faf6ec"/>
+<text x="680.0" y="237.0" font-size="13" fill="#8b1e1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">45</text>
+<text x="682.0" y="1015.1" font-size="13" fill="#8b1e1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">46</text>
+<text x="606.0" y="1101.4" font-size="13" fill="#8b1e1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">2</text>
+<text x="602.0" y="1131.7" font-size="13" fill="#8b1e1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">0</text>
+<text x="664.0" y="1052.0" font-size="12" fill="#8b1e1e" text-anchor="middle" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">the gap</text>
+<text x="664.0" y="1069.0" font-size="12" fill="#8b1e1e" text-anchor="middle" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">enters</text>
+<text x="664.0" y="1086.0" font-size="12" fill="#8b1e1e" text-anchor="middle" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">here</text>
+<text x="646.0" y="559.8" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">carried up</text>
+<text x="646.0" y="576.8" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">unchanged</text>
+<text x="360.0" y="1195.7" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1">THE 46 YEARS AT THE TEMPLE, TAKEN APART</text>
+<text x="288.0" y="1230.7" font-size="13" fill="#3b2f1e" text-anchor="end">Ussher: 588 + 424 =</text>
+<path d="M300.0 1215.68 V1237.68" stroke="#3b2f1e" stroke-width="4"/>
+<text x="308.0" y="1231.7" font-size="13.5" fill="#3b2f1e" font-weight="bold">1012 BC</text>
+<text x="288.0" y="1260.7" font-size="13" fill="#3b2f1e" text-anchor="end">Jerusalem's fall, 588 → 586</text>
+<rect x="300.0" y="1248.68" width="14.0" height="16" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="322.0" y="1261.7" font-size="13.5" fill="#8b1e1e" font-weight="bold">−2</text>
+<text x="288.0" y="1290.7" font-size="13" fill="#3b2f1e" text-anchor="end">The kings, 424 → 380</text>
+<rect x="314.0" y="1278.68" width="308.0" height="16" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="630.0" y="1291.7" font-size="13.5" fill="#8b1e1e" font-weight="bold">−44</text>
+<text x="288.0" y="1320.7" font-size="13" fill="#3b2f1e" text-anchor="end">This site: 586 + 380 =</text>
+<path d="M622.0 1305.68 V1327.68" stroke="#2f4f7f" stroke-width="4"/>
+<text x="630.0" y="1321.7" font-size="13.5" fill="#2f4f7f" font-weight="bold">966 BC</text>
+<rect x="28" y="1341.68" width="664" height="65" rx="6" fill="#fffdf7" stroke="#3b2f1e"/>
+<text x="40.0" y="1362.7" font-size="13" fill="#3b2f1e">Above the temple both chains count the same numbers, so the gap is carried up: 45 at</text>
+<text x="40.0" y="1379.7" font-size="13" fill="#3b2f1e">the Exodus (Ussher reads the 480th year as 479 elapsed) and 45 at creation. On this</text>
+<text x="40.0" y="1396.7" font-size="13" fill="#3b2f1e">site's line the six-thousandth year moves from AD 1997 to AD 2042.</text>
+<path d="M40 1420.68 H80" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="88.0" y="1425.2" font-size="13" fill="#3b2f1e">fixed by an outside record</text>
+<path d="M300 1420.68 H340" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text x="348.0" y="1425.2" font-size="13" fill="#3b2f1e">reached by adding Scripture's numbers</text>
+<text x="696.0" y="1461.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Daniel 9:24-27"
 bible_references: ["1 Kings 16:29", "2 Kings 4:23", "2 Kings 18:13-19:37", "2 Kings 24:10-17", "2 Kings 25:27-30", "Ezra 1:1-4", "Nehemiah 2:1-8", "Joshua 10:12-14", "Amos 8:5", "Amos 8:9", "Hosea 2:11", "Isaiah 1:13-14", "Joel 2:31", "Daniel 9:24-27", "Matthew 21:1-11", "Matthew 27:45", "Mark 15:33", "Luke 23:44-45", "Luke 19:41-44", "Acts 2:20"]
 date_created: 2024-10-20
-date_modified: 2026-09-30
+date_modified: 2026-10-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -166,9 +166,10 @@ Given that, this study runs two different tools for two different jobs, and keep
   that Israel and Judah didn't always count a king's first partial year the same way — is Edwin
   Thiele's *The Mysterious Numbers of the Hebrew Kings*, which lands Solomon's 4th year (temple
   foundation) around 966 BC. That's roughly 46 years earlier than Ussher's 1012 BC for the same
-  event — Ussher had no external anchor to check his arithmetic against and simply summed the
-  Kings/Chronicles numbers without correcting for co-regencies; Thiele's figure is the one tied to
-  Qarqar's absolute date.
+  event. Ussher had no Assyrian record to check his arithmetic against, and he allowed for only a
+  few co-regencies, so his kings of Judah run 424 years from the temple to the exile where Thiele's
+  run 380. Thiele's figure is the one tied to Qarqar's absolute date. [Why Not 4004
+  BC?](why-not-4004-bc.md) works through the difference.
 
 ### Anchor 2 — Sennacherib's invasion of Judah, 701 BC (Hezekiah)
 
