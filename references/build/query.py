@@ -28,7 +28,7 @@ from pathlib import Path
 
 import quotations
 import versification
-from book_map import DEUTEROCANON_OSIS, NUM_TO_OSIS
+from book_map import DEUTEROCANON_NAME_TO_OSIS, DEUTEROCANON_OSIS, NUM_TO_OSIS, REFERENCE_NAME_TO_NUM
 
 DB_PATH = Path(__file__).resolve().parent / "out" / "bible-text.db"
 DEFAULT_TRANSLATION_WORK_ID = "ebible-eng-web"  # WEB: public domain, full Bible, no permission caveats
@@ -74,6 +74,22 @@ def _resolve_work_id(conn: sqlite3.Connection, translation: str | None) -> str:
 # Lookup functions -- shared by the CLI below and mcp_server.py.
 # ---------------------------------------------------------------------------
 
+_BOOK_NAME_TO_OSIS = {name.lower(): NUM_TO_OSIS[num] for name, num in REFERENCE_NAME_TO_NUM.items()}
+_BOOK_NAME_TO_OSIS |= {name.lower(): code for name, code in DEUTEROCANON_NAME_TO_OSIS.items()}
+_BOOK_NAME_TO_OSIS |= {code.lower(): code for code in _ALL_OSIS_BOOKS}
+
+
+def _works_carrying(conn: sqlite3.Connection, book: str, limit: int = 6) -> str:
+    """Which works hold a book, for a warning: the answer to a miss is usually another work."""
+    works = [row[0] for row in conn.execute(
+        "SELECT DISTINCT work_id FROM verses WHERE book=? ORDER BY work_id", (book,))]
+    if not works:
+        return f"No work in bible-text.db carries {book}."
+    shown = ", ".join(works[:limit])
+    more = f" and {len(works) - limit} more" if len(works) > limit else ""
+    return f"{book} is in: {shown}{more}."
+
+
 def _empty_result_reason(conn: sqlite3.Connection, work_id: str, book: str,
                           chapter: int | None = None, verse: int | None = None,
                           from_scheme: str = "english") -> str:
@@ -82,14 +98,23 @@ def _empty_result_reason(conn: sqlite3.Connection, work_id: str, book: str,
     what this was written for -- ingest_ebible silently dropping 22 books from WEB/Delitzsch/
     Tischendorf/Brenton before the BOS_CODE_TO_USFM fix). Give the caller enough to tell those
     apart instead of a bare empty list that reads the same either way."""
+    # A translation this database does not hold resolves to a work_id that does not exist. The
+    # usual one is a commercial text, and saying "may not cover that book" sent callers hunting
+    # for a coverage gap when the text is in the other database entirely.
+    if not conn.execute("SELECT 1 FROM works WHERE work_id=?", (work_id,)).fetchone():
+        asked = work_id.removeprefix("scrollmapper-")
+        return (f"'{asked}' is not a translation in bible-text.db (bible_works lists them). "
+                f"The ESV, NIV, NKJV, CSB, NASB and LSB are in study-notes.db only: use "
+                f"study_verse.")
     if book not in _ALL_OSIS_BOOKS:
-        return f"'{book}' isn't a recognized OSIS book code (expected e.g. Gen, 1Kgs, Matt, 1Cor, Rev)."
+        code = _BOOK_NAME_TO_OSIS.get(" ".join(book.split()).lower())
+        hint = f" Use '{code}'." if code else " Expected e.g. Gen, 1Kgs, Matt, 1Cor, Rev, Sir."
+        return f"'{book}' isn't a recognized OSIS book code.{hint}"
     has_any = conn.execute(
         "SELECT 1 FROM verses WHERE work_id=? AND book=? LIMIT 1", (work_id, book),
     ).fetchone()
     if not has_any:
-        return (f"{work_id} has no verses for {book} at all -- this translation may not cover "
-                f"that book (check bible_works), or try a different translation.")
+        return f"{work_id} has no verses for {book} at all. {_works_carrying(conn, book)}"
     # The commonest cause of a miss in a book the work DOES carry is a versification mismatch, and
     # "check the reference" sends the caller looking for a typo that isn't there. uw-uhb numbers
     # verses the ULT's way and morphhb-wlc the Hebrew way, so Joel 2:28 is a real verse in one and

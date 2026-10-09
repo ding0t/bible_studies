@@ -36,6 +36,29 @@ def test_valid_book_not_covered_by_translation_warns(conn):
     assert "has no verses for Gen at all" in result["warning"]
 
 
+def test_uncovered_book_names_the_works_that_carry_it(conn):
+    """The Septuagint spans two works: Brenton has no Odes, Swete does. A bare 'not covered' read
+    as 'not in the repo' to an agent once, so the warning names where the book actually is."""
+    result = query.lookup_verse(conn, "Odes", 1, 1, translation="ebible-grcbrent")
+    assert result["text"] is None
+    assert "Odes is in: swete-lxx" in result["warning"]
+
+
+def test_translation_held_only_in_study_notes_points_to_study_verse(conn):
+    """The ESV is not in bible-text.db at all. Its warning used to say the translation 'may not
+    cover that book', sending the caller after a coverage gap that does not exist."""
+    result = query.lookup_verse(conn, "John", 3, 16, translation="ESV")
+    assert result["text"] is None
+    assert "'ESV' is not a translation in bible-text.db" in result["warning"]
+    assert "study_verse" in result["warning"]
+
+
+def test_book_given_by_name_suggests_its_code(conn):
+    for name, code in [("Tobit", "Tob"), ("1 Samuel", "1Sam"), ("Psalms of Solomon", "PsSol")]:
+        result = query.lookup_verse(conn, name, 1, 1)
+        assert f"Use '{code}'" in result["warning"], name
+
+
 def test_bad_verse_in_covered_book_warns(conn):
     result = query.lookup_verse(conn, "Jude", 1, 999)
     assert result["text"] is None
