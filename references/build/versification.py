@@ -56,12 +56,99 @@ def scheme_for_work(work_id: str) -> str:
 # any reference that landed wrong was then silently "corrected" by the title-shift heuristic, which
 # cannot tell a two-verse chapter division from a two-line psalm heading. It surfaced as Romans
 # 9:26 quoting Hosea 2:1 and resolving to English Hosea 2:-1, a verse number that cannot exist.
+#
+# Everything below Malachi was missing until 2026-10-09, when Numbers 17:8 -- Aaron's almonds,
+# Hebrew 17:23 -- came back from align() as "agreeing" across schemes. The count-based scan only
+# looked for books whose CHAPTER counts differ; these 35 boundaries move inside books whose chapter
+# counts agree. They are read off versification_map (UHB's own per-verse \va numbering, the
+# 'explicit' and 'verse+verified' rows only), grouped into runs of constant offset. Each one is
+# kept for the LXX as well because Brenton's verse counts for both chapters equal the WLC's, and
+# the boundary verses were spot-read (LXX Num 17:23 is the almonds, LXX 2 Kgs 12:1 is "seven years
+# old", LXX Jonah 2:1 is the fish). Where Brenton's counts follow the English instead, the rule is
+# in _MASORETIC_ONLY_DIVISION below.
 _HEBREW_CHAPTER_DIVISION = [
+    ("Gen", 32, 1, 1, 31, 54),         # Gen 32:1       = EN Gen 31:55
+    ("Gen", 32, 2, 33, 32, -1),
+    ("Exod", 7, 26, 29, 8, -25),       # Exod 7:26-29   = EN Exod 8:1-4
+    ("Exod", 8, 1, 28, 8, 4),
+    ("Exod", 21, 37, 37, 22, -36),     # Exod 21:37     = EN Exod 22:1
+    ("Exod", 22, 1, 30, 22, 1),
+    ("Lev", 5, 20, 26, 6, -19),        # Lev 5:20-26    = EN Lev 6:1-7
+    ("Lev", 6, 1, 23, 6, 7),
+    ("Num", 17, 1, 15, 16, 35),        # Num 17:1-15    = EN Num 16:36-50
+    ("Num", 17, 16, 28, 17, -15),      # Num 17:16-28   = EN Num 17:1-13 (Aaron's staff, 17:23 = EN 17:8)
+    ("Num", 30, 1, 1, 29, 39),         # Num 30:1       = EN Num 29:40
+    ("Num", 30, 2, 17, 30, -1),
+    ("Deut", 13, 1, 1, 12, 31),        # Deut 13:1      = EN Deut 12:32
+    ("Deut", 13, 2, 19, 13, -1),
+    ("Deut", 23, 1, 1, 22, 29),        # Deut 23:1      = EN Deut 22:30
+    ("Deut", 23, 2, 26, 23, -1),
+    ("1Sam", 21, 1, 1, 20, 41),        # 1 Sam 21:1     = EN 1 Sam 20:42b
+    ("1Sam", 21, 2, 16, 21, -1),
+    ("1Sam", 24, 1, 1, 23, 28),        # 1 Sam 24:1     = EN 1 Sam 23:29
+    ("1Sam", 24, 2, 23, 24, -1),
+    ("2Sam", 19, 1, 1, 18, 32),        # 2 Sam 19:1     = EN 2 Sam 18:33
+    ("2Sam", 19, 2, 44, 19, -1),
+    ("1Kgs", 22, 45, 54, 22, -1),      # 1 Kgs 22:45-54 = EN 22:44-53 (MT 22:44 unverified, left alone)
+    # versification_map files the first of these under chapter 11, because \va gave a bare "1" and
+    # the chapter check accepted the wrong candidate. The text settles it: MT and LXX 12:1 both read
+    # "Jehoash was seven years old", which is EN 11:21.
+    ("2Kgs", 12, 1, 1, 11, 20),        # 2 Kgs 12:1     = EN 2 Kgs 11:21
+    ("2Kgs", 12, 2, 22, 12, -1),
+    ("1Chr", 5, 27, 41, 6, -26),       # 1 Chr 5:27-41  = EN 1 Chr 6:1-15
+    ("1Chr", 6, 1, 66, 6, 15),
+    ("1Chr", 12, 6, 41, 12, -1),       # MT 12:5 is EN 12:4b-5 (unverified), left alone
+    ("2Chr", 1, 18, 18, 2, -17),       # 2 Chr 1:18     = EN 2 Chr 2:1
+    ("2Chr", 2, 1, 17, 2, 1),
+    ("2Chr", 13, 23, 23, 14, -22),     # 2 Chr 13:23    = EN 2 Chr 14:1
+    ("2Chr", 14, 1, 14, 14, 1),
+    ("Neh", 3, 33, 38, 4, -32),        # Neh 3:33-38    = EN Neh 4:1-6
+    ("Neh", 4, 1, 17, 4, 6),
+    ("Neh", 10, 1, 1, 9, 37),          # Neh 10:1       = EN Neh 9:38
+    ("Neh", 10, 2, 40, 10, -1),
+    ("Job", 40, 25, 32, 41, -24),      # Job 40:25-32   = EN Job 41:1-8
+    ("Job", 41, 1, 26, 41, 8),
+    ("Eccl", 4, 17, 17, 5, -16),       # Eccl 4:17      = EN Eccl 5:1
+    ("Eccl", 5, 1, 19, 5, 1),
+    ("Song", 7, 1, 1, 6, 12),          # Song 7:1       = EN Song 6:13
+    ("Song", 7, 2, 14, 7, -1),
+    ("Isa", 8, 23, 23, 9, -22),        # Isa 8:23       = EN Isa 9:1
+    ("Isa", 9, 1, 20, 9, 1),
+    ("Isa", 64, 1, 11, 64, 1),         # MT 63:19 carries EN 64:1 as its second half
+    ("Jer", 8, 23, 23, 9, -22),        # Jer 8:23       = EN Jer 9:1
+    ("Jer", 9, 1, 25, 9, 1),
+    ("Ezek", 21, 1, 5, 20, 44),        # Ezek 21:1-5    = EN Ezek 20:45-49
+    ("Ezek", 21, 6, 37, 21, -5),
     ("Hos", 2, 1, 2, 1, 9),            # Hos 2:1-2      = EN Hos 1:10-11 (Rom 9:26 quotes 2:1)
     ("Hos", 2, 3, 25, 2, -2),          # Hos 2:3-25     = EN Hos 2:1-23
+    ("Hos", 12, 1, 1, 11, 11),         # Hos 12:1       = EN Hos 11:12
+    ("Hos", 12, 2, 15, 12, -1),
+    ("Hos", 14, 1, 1, 13, 15),         # Hos 14:1       = EN Hos 13:16
+    ("Hos", 14, 2, 10, 14, -1),
     ("Joel", 3, 1, 5, 2, 27),          # Joel 3:1-5     = EN Joel 2:28-32 (the verse Acts 2 quotes)
     ("Joel", 4, 1, 21, 3, 0),          # Joel 4         = EN Joel 3
+    ("Jonah", 2, 1, 1, 1, 16),         # Jonah 2:1      = EN Jonah 1:17
+    ("Jonah", 2, 2, 11, 2, -1),
+    ("Mic", 4, 14, 14, 5, -13),        # Mic 4:14       = EN Mic 5:1
+    ("Mic", 5, 1, 14, 5, 1),
+    ("Nah", 2, 1, 1, 1, 14),           # Nah 2:1        = EN Nah 1:15
+    ("Nah", 2, 2, 14, 2, -1),
+    ("Zech", 2, 1, 4, 1, 17),          # Zech 2:1-4     = EN Zech 1:18-21
+    ("Zech", 2, 5, 17, 2, -4),
     ("Mal", 3, 19, 24, 4, -18),        # Mal 3:19-24    = EN Mal 4:1-6
+]
+
+# Hebrew boundaries the LXX does not share. Brenton's Deuteronomy 28/29 and Numbers 25/26 counts
+# (68/29, 18/65) are the English ones, and his Nehemiah 7 keeps English verse numbers with 7:68
+# missing. His 1 Kings 4 has 19 verses against the WLC's 20 -- 3 Kingdoms reorders around Solomon
+# -- so that offset cannot be trusted for the Greek and stays unmapped there.
+_MASORETIC_ONLY_DIVISION = [
+    ("Num", 25, 19, 19, 26, -18),      # Num 25:19      = EN Num 26:1
+    ("Deut", 28, 69, 69, 29, -68),     # Deut 28:69     = EN Deut 29:1
+    ("Deut", 29, 1, 28, 29, 1),
+    ("1Kgs", 5, 1, 14, 4, 20),         # 1 Kgs 5:1-14   = EN 1 Kgs 4:21-34
+    ("1Kgs", 5, 15, 32, 5, -14),
+    ("Neh", 7, 68, 72, 7, 1),          # the WLC has no EN Neh 7:68
 ]
 
 # Daniel divides its chapters differently in each direction, which is why neither "the LXX follows
@@ -77,6 +164,7 @@ _DANIEL_FIVE_SIX = [
 _TO_ENGLISH: dict[str, list[tuple]] = {
     "masoretic": [
         *_HEBREW_CHAPTER_DIVISION,
+        *_MASORETIC_ONLY_DIVISION,
         ("Dan", 3, 31, 33, 4, -30),    # MT Dan 3:31-33 = EN Dan 4:1-3
         ("Dan", 4, 1, 34, 4, 3),       # MT Dan 4:1-34  = EN Dan 4:4-37
         *_DANIEL_FIVE_SIX,
@@ -180,9 +268,12 @@ def from_english(scheme: str, book: str, chapter: int, verse: int) -> tuple[str,
         if start + delta <= verse <= end + delta:
             return (book, rule_chapter, verse - delta)
     # not the target of any rule -- but guard against handing back a reference this scheme
-    # renumbers away from, e.g. english Ps 30 does not exist unshifted in the lxx
+    # renumbers away from, e.g. english Ps 30 does not exist unshifted in the lxx. Only the verses
+    # the rule actually moves: english Exodus 7:1-25 is masoretic 7:1-25 even though masoretic
+    # 7:26-29 leaves for chapter 8.
     for rule_book, rule_chapter, start, end, to_chapter, _ in _TO_ENGLISH.get(scheme, ()):
-        if to_chapter is not None and book == rule_book and rule_chapter == chapter:
+        if (to_chapter is not None and book == rule_book and rule_chapter == chapter
+                and start <= verse <= end):
             return None
     return (book, chapter, verse)
 

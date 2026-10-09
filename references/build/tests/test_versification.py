@@ -317,3 +317,56 @@ def test_parallel_does_not_shift_when_the_gap_is_too_large_to_be_a_superscriptio
 def test_parallel_reports_when_the_target_has_no_counterpart(conn):
     result = query.lookup_parallel(conn, "Prov", 30, 1, source="WEB", target="Brenton-LXX")
     assert "warning" in result and result.get("target") is None
+
+
+# The 35 chapter boundaries added on 2026-10-09 were read off versification_map, so the map is the
+# check: every verified row outside the Psalms (whose superscription offset is per-work, see above)
+# must be what align() produces. 2 Kgs 11:21 is the one row the map files under the wrong chapter;
+# the rule follows the text, which reads "seven years old" at MT and LXX 12:1.
+KNOWN_BAD_MAP_ROWS = {("2Kgs", 11, 21): "map says MT 11:1; MT 12:1 is the verse"}
+
+
+def test_align_agrees_with_every_verified_stated_hebrew_reference(conn):
+    rows = conn.execute(
+        "SELECT book, chapter, verse, alt_chapter, alt_verse FROM versification_map "
+        "WHERE alt_scheme='masoretic' AND source IN ('explicit', 'verse+verified') AND book != 'Ps'"
+    ).fetchall()
+    assert len(rows) > 900
+    wrong = []
+    for r in rows:
+        key = (r["book"], r["chapter"], r["verse"])
+        if key in KNOWN_BAD_MAP_ROWS:
+            continue
+        stated = (r["book"], r["alt_chapter"], r["alt_verse"])
+        if align(*key, "english", "masoretic") != stated or align(*stated, "masoretic", "english") != key:
+            wrong.append(f"EN {key} -> {align(*key, 'english', 'masoretic')}, map says {stated}")
+    assert not wrong, f"{len(wrong)} disagree, e.g. {wrong[:5]}"
+
+
+@pytest.mark.parametrize("scheme", ["masoretic", "lxx"])
+def test_aarons_almonds_are_hebrew_numbers_seventeen_twenty_three(conn, scheme):
+    """The reference that surfaced the missing rules: align() called Numbers 17:8 'agreeing'."""
+    assert align("Num", 17, 8, "english", scheme) == ("Num", 17, 23)
+    assert align("Num", 16, 36, "english", scheme) == ("Num", 17, 1)
+    english = query.lookup_verse(conn, "Num", 17, 8, "WEB")
+    assert "8247" in {m["strongs_id"] for m in english["morphology"] if m["work_id"] == "macula-hebrew-wlc"}
+
+
+@pytest.mark.parametrize("book,chapter,verse", [
+    ("Exod", 7, 1), ("Exod", 7, 25), ("Dan", 3, 30), ("Num", 16, 35), ("1Kgs", 22, 43),
+])
+def test_english_verses_before_a_moved_boundary_keep_their_number(book, chapter, verse):
+    """from_english's guard used to refuse a whole chapter when any of its verses moved."""
+    assert align(book, chapter, verse, "english", "masoretic") == (book, chapter, verse)
+
+
+@pytest.mark.parametrize("book", ["Num", "Deut", "Exod", "Lev", "1Sam", "2Kgs", "Neh", "Jonah", "Zech"])
+@pytest.mark.parametrize("scheme,work_id", [("masoretic", WLC), ("lxx", LXX)])
+def test_new_rules_land_inside_real_english_chapters(conn, book, scheme, work_id):
+    english = chapter_lengths(conn, WEB, book)
+    for chapter, length in chapter_lengths(conn, work_id, book).items():
+        for verse in (1, length):
+            mapped = align(book, chapter, verse, scheme, "english")
+            if mapped is None:
+                continue
+            assert 1 <= mapped[2] <= english.get(mapped[1], 0), f"{book} {chapter}:{verse} -> {mapped}"
