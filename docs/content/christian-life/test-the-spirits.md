@@ -16,7 +16,7 @@ ai_provider_models:
 
 # Test the Spirits: Recognising False Teachers and Wolves
 
-Every apostle who wrote to the churches warned them about false teachers. Paul told the Ephesian
+Paul, Peter, John and Jude all warned the churches about false teachers. Paul told the Ephesian
 elders the wolves would come from "among your own selves" (Acts 20:30, ESV). Peter said, "there will
 be false teachers among you" (2 Peter 2:1, ESV). Jude wrote because they had already "crept in
 unnoticed" (Jude 4, ESV). John gave the command this study is named for:
@@ -117,10 +117,11 @@ In Jesus' name. Amen.
 
 ### The assayer's word
 
-"Test" in 1 John 4:1 is δοκιμάζω (*dokimazō*, G1381). It is the word for testing metal. Peter uses it
+"Test" in 1 John 4:1 is δοκιμάζω (*dokimazō*, G1381), a word used for testing metal. Peter uses it
 of "gold that perishes though it is tested by fire" (1 Peter 1:7, ESV). The Greek Old Testament uses
-it at Proverbs 17:3, where the crucible tests silver, the furnace gold, and the LORD tests hearts.
-An assayer puts a coin in the fire to find out whether it is what it claims to be.
+it at Proverbs 17:3, where silver and gold are tested in a furnace, and so are chosen hearts before
+the Lord. An assayer puts a coin in the fire to find out whether it is what it
+claims to be.
 
 John writes it as a present imperative, a standing order. Keep testing. Do the same with the next
 teacher, and the one after.
@@ -157,7 +158,7 @@ elders:
 
 Peter calls them ψευδοδιδάσκαλοι (*pseudodidaskaloi*, G5572), "false teachers", and says they "will
 secretly bring in destructive heresies" (2 Peter 2:1, ESV). "Secretly bring in" is παρεισάγω
-(*pareisagō*, G3919), to slip something in beside what is already there. Jude says they "crept in
+(*pareisagō*, G3919), to bring something in on the quiet; this is its only use in the New Testament. Jude says they "crept in
 unnoticed" (Jude 4, ESV). John's false teachers had sat in his congregation: "They went out from us,
 but they were not of us" (1 John 2:19, ESV).
 
@@ -208,11 +209,11 @@ half: a prophet whose word "does not come to pass" has spoken presumptuously (De
 ESV). A failed prediction disqualifies a prophet. A fulfilled one does not qualify him. What he
 teaches about God decides it.
 
-"Testing" in Deuteronomy 13:3 is <span dir="rtl">נָסָה</span> (*nasah*, H5254), the word for God
-testing Abraham (Genesis 22:1). The Hebrew is a participle: the LORD "is testing" you. God lets the
-counterfeit appear, and it shows whether His people love Him "with all your heart and with all your
-soul". **The appearance of a false teacher does not mean God has lost control of His church. He is
-proving the love of His people.**
+"Testing" in Deuteronomy 13:3 (13:4 in the Hebrew numbering) is <span dir="rtl">נָסָה</span>
+(*nasah*, H5254), the verb Genesis uses when "God tested Abraham" (Genesis 22:1, ESV). The Hebrew is
+a participle: the LORD "is testing" you. God lets the counterfeit appear, and it shows whether His
+people love Him "with all your heart and with all your soul". **When a false teacher appears, God is
+still ruling His church, and He is proving the love of His people.**
 
 Jesus said the same about miracles. "On that day many will say to me, 'Lord, Lord, did we not
 prophesy in your name, and cast out demons in your name, and do many mighty works in your name?'
@@ -252,8 +253,8 @@ Jesus is.
 The likeliest background is a teacher Irenaeus names. Writing about AD 180, Irenaeus records that
 Cerinthus taught Jesus was the natural son of Joseph and Mary; that "Christ" descended on Jesus at
 His baptism; and that the Christ "departed from Jesus" before the crucifixion, so that only the man
-suffered (*Against Heresies* 1.26.1). Irenaeus also passes on, through Polycarp, that John once ran
-out of a bath-house at Ephesus because Cerinthus was inside (*Against Heresies* 3.3.4).
+suffered (*Against Heresies* 1.26.1). Irenaeus also passes on a story from those who heard Polycarp:
+John once ran out of a bath-house at Ephesus because Cerinthus was inside (*Against Heresies* 3.3.4).
 
 That teaching fits 1 John 2:22 closely. It splits Jesus from the Christ, and it denies that the Son of
 God died in the flesh. Scholars debate whether Cerinthus himself was John's opponent or one of
@@ -294,9 +295,10 @@ secondary things and still be a brother. A teacher who is wrong here is preachin
 > 16 You will recognize them by their fruits. Are grapes gathered from thornbushes, or figs from
 > thistles? 17 So, every healthy tree bears good fruit, but the diseased tree bears bad fruit.
 
-"Ravenous" is ἅρπαξ (*harpax*, G727). Its four other New Testament uses all mean "swindler" (Luke
-18:11; 1 Corinthians 5:10, 11; 6:10). The wolf takes. Jesus places this warning straight after "Judge
-not" (Matthew 7:1) and "do not throw your pearls before pigs" (Matthew 7:6). You do not condemn your
+"Ravenous" is ἅρπαξ (*harpax*, G727). Its four other New Testament uses name people who take what is
+not theirs: "extortioners" (Luke 18:11, ESV) and "swindlers" (1 Corinthians 5:10, 11; 6:10, ESV).
+The wolf takes. Jesus gives this warning in the same sermon as "Judge not" (Matthew 7:1) and "do not
+throw your pearls before pigs" (Matthew 7:6), fourteen verses on. You do not condemn your
 brother, and you are not naive either. "Judge with right judgment" (John 7:24, ESV).
 
 Time shows fruit. A season of charm can hide a wolf; years of life cannot. The epistles name three
@@ -326,7 +328,7 @@ clouds", "fruitless trees in late autumn" (Jude 12, ESV).
 
 "They profess to know God, but they deny him by their works" (Titus 1:16, ESV). Set that beside the
 fruit of the Spirit: "love, joy, peace, patience, kindness, goodness, faithfulness, gentleness,
-self-control" (Galatians 5:22-23, ESV). A true teacher is not sinless. He repents when he is
+self-control" (Galatians 5:22-23, ESV). A true teacher still sins, and he repents when he is
 corrected, and his life over years looks like his Lord.
 
 ## Third mark: where they lead you
@@ -346,7 +348,7 @@ wicked, that he should not turn from his evil way" (Ezekiel 13:22, ESV). Jeremia
 "who stubbornly follows his own heart ... 'No disaster shall come upon you'" (Jeremiah 23:17, ESV).
 
 A true word from God calls sinners to repent and comforts the repentant. "If they had stood in my
-council," God says, "they would have turned them from their evil way" (Jeremiah 23:22, ESV).
+council," God says, "... they would have turned them from their evil way" (Jeremiah 23:22, ESV).
 
 ### Into new rules
 
@@ -385,7 +387,9 @@ every wind of doctrine" (Ephesians 4:14, ESV). See also [Know the Truth](know-th
 Churches met in homes, and travelling teachers depended on believers' hospitality (3 John 5-8). To
 take one in was to sponsor his ministry. John forbids sponsoring a teacher who denies Christ come in
 the flesh. Today that means not giving him your pulpit, your money, your platform or your
-endorsement. Paul says the same: "avoid them" (Romans 16:17, ESV).
+endorsement. Paul says the same: "avoid them" (Romans 16:17, ESV). Israel's law put the false
+prophet to death (Deuteronomy 13:5), a sentence given to Israel's courts. The church keeps
+Deuteronomy's test and applies the sanction the apostles give it: no platform, and distance.
 
 ### Elders refute
 
@@ -406,7 +410,7 @@ people a wolf has led away are sheep. Go after them.
 Testing teachers is different from suspecting your brothers. Paul and Barnabas fell out, and Mark
 failed, and none of them was a wolf. [Hurt by the
 Church](hurt-by-the-church.md#brothers-who-fail-you) shows how Scripture answers a brother who fails
-you (go to him, forgive, restore) and how it answers a wolf (name him, avoid him, protect the flock).
+you (go to him, forgive, restore) and how it answers a wolf (watch for him, avoid him, protect the flock).
 The marks in this study are for teachers who claim to speak for God. A brother who is wrong on a
 secondary point, or who has sinned and repents, is still your brother. And a shepherd who harms the
 flock without denying Christ is answered in [Shepherds who
@@ -428,9 +432,10 @@ them, for he who is in you is greater than he who is in the world" (1 John 4:4, 
 lives in you. He is the Spirit of truth, and He teaches you through the word He inspired.
 
 The deception will grow worse before the end. John already called his day "the last hour" (1 John
-2:18, ESV). Jesus and Paul both describe a final deceiver whose signs are powerful enough to mislead
-all but the elect, and God "sends them a strong delusion" because "they refused to love the truth
-and so be saved" (2 Thessalonians 2:10-11, ESV). On what holds that deceiver back until his time,
+2:18, ESV). Jesus warns of false christs whose signs would mislead "even the elect" if that were
+possible (Matthew 24:24, ESV), and Paul of a final "lawless one" who comes with "false signs and
+wonders" (2 Thessalonians 2:9, ESV). To those he deceives God "sends ... a strong delusion",
+because "they refused to love the truth and so be saved" (2 Thessalonians 2:10-11, ESV). On what holds that deceiver back until his time,
 see [The Restrainer](../last-things/the-restrainer.md). The remedy is the same in every age: love
 the truth.
 
@@ -453,7 +458,7 @@ closes his letter about wolves with this:
    you react to a powerful testimony?
 3. **Christ.** Cerinthus used the name "Christ" and denied that the Son of God died in the flesh. What
    are some ways teachers today use Jesus' name while preaching "another Jesus" (2 Corinthians 11:4)?
-4. **The hard part.** Jesus says "Judge not" (Matthew 7:1) and nine verses later "Beware of false
+4. **The hard part.** Jesus says "Judge not" (Matthew 7:1) and fourteen verses later "Beware of false
    prophets" (Matthew 7:15). How do you test a teacher without becoming suspicious of every brother?
 5. **Where they lead.** Which is the more likely danger in your church: a teacher who loosens grace
    into licence (Jude 4), or one who adds rules to it (1 Timothy 4:3)?

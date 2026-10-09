@@ -71,12 +71,12 @@ stages:
       done: true
       notes: ""
       terms:
-        - {word: "δοκιμάζω", language: greek, transliteration: "dokimazō", strongs_id: "G1381", gloss: "test, prove, approve", notes: "Present imperative in 1 John 4:1 and 1 Thess 5:21. 1 Pet 1:7 of gold tested by fire; LXX Prov 17:3."}
-        - {word: "נָסָה", language: hebrew, transliteration: "nasah", strongs_id: "H5254", gloss: "test", notes: "Deut 13:3 Piel participle: the LORD is testing you."}
+        - {word: "δοκιμάζω", language: greek, transliteration: "dokimazō", strongs_id: "G1381", gloss: "test, prove, approve", notes: "23x SBLGNT. Present imperative in 1 John 4:1 and 1 Thess 5:21. 1 Pet 1:7 of gold tested by fire. LXX Prov 17:3 (Brenton Greek): silver and gold tested in a furnace, so chosen hearts before the Lord -- the 'LORD tests hearts' wording is the Hebrew/ESV, which uses a different verb."}
+        - {word: "נָסָה", language: hebrew, transliteration: "nasah", strongs_id: "H5254", gloss: "test", notes: "English Deut 13:3 = Hebrew 13:4, Piel participle מְנַסֶּה: the LORD is testing you. Same verb Gen 22:1."}
         - {word: "ψευδοπροφήτης", language: greek, transliteration: "pseudoprophētēs", strongs_id: "G5578", gloss: "false prophet", notes: "11x SBLGNT."}
         - {word: "ψευδοδιδάσκαλος", language: greek, transliteration: "pseudodidaskalos", strongs_id: "G5572", gloss: "false teacher", notes: "1x, 2 Pet 2:1, set beside the false prophets of Israel."}
-        - {word: "παρεισάγω", language: greek, transliteration: "pareisagō", strongs_id: "G3919", gloss: "bring in secretly", notes: "2 Pet 2:1."}
-        - {word: "ἅρπαξ", language: greek, transliteration: "harpax", strongs_id: "G727", gloss: "ravenous; swindler", notes: "5x: Matt 7:15 ravenous; Luke 18:11, 1 Cor 5:10, 11; 6:10 swindler(s)."}
+        - {word: "παρεισάγω", language: greek, transliteration: "pareisagō", strongs_id: "G3919", gloss: "bring in secretly", notes: "1x NT, 2 Pet 2:1 (MACULA gloss 'will stealthily introduce'). Gloss from usage, not from para+eis+agō."}
+        - {word: "ἅρπαξ", language: greek, transliteration: "harpax", strongs_id: "G727", gloss: "ravenous; swindler", notes: "5x: Matt 7:15 ravenous; Luke 18:11 'extortioners' (ESV); 1 Cor 5:10, 11; 6:10 'swindler(s)' (ESV)."}
         - {word: "ἀντίχριστος", language: greek, transliteration: "antichristos", strongs_id: "G500", gloss: "antichrist", notes: "5x, all in 1-2 John (1 John 2:18 x2, 2:22, 4:3; 2 John 7)."}
   hermeneutics:
     cultural_vs_transcultural:
@@ -105,8 +105,8 @@ stages:
     done: true
     file: "docs/content/christian-life/test-the-spirits.md"
   review:
-    done: false
-    validated: true # npm run validate (no warnings on this file) and mkdocs build --strict, 2026-10-10. Independent review-bible-study pass not yet run.
+    done: true
+    validated: true # npm run validate (no warnings on this file) and mkdocs build --strict, 2026-10-10, re-run after the review fixes.
 
 open_questions:
   - "Fork candidate: the false prophet of Revelation 13 and 19:20 and the end-time deception of 2 Thessalonians 2 -- touched in one paragraph here, deserves its own last-things treatment."
@@ -118,3 +118,30 @@ resources_consulted:
   - {type: other, title: "Irenaeus, Against Heresies 1.26.1; 3.3.4", author: "ANF vol. 1", note: "Cerinthus' doctrine; John and Cerinthus at Ephesus."}
   - {type: lexicon, title: "Macula Greek (SBLGNT), Macula Hebrew (WLC)", author: "", note: "occurrence data"}
 last_updated: "2026-10-10"
+
+review_2026-10-10:
+  by: "review-bible-study (subagent), fixes applied on the caller's instruction"
+  words: "about 4,400 including block quotes, excluding References; validator Check 23 (quotes excluded) under the 4,000 budget"
+  verified_clean:
+    - "every ESV quotation re-queried against study-notes.db (1 John 2:18-27, 4:1-5; 2 John 7-11; Acts 17:11, 20:29-30; 2 Pet 2:1-3, 10, 14-19; Jude 3-25; Matt 4:6, 7:1-23, 24:24-25; 2 Thess 2:9-11; John 7:24, 10:4-5, 27-29; Rom 16:17-18; 1 Thess 5:20-21; 1 Pet 1:7; Rev 2:2, 20; Isa 8:20; Deut 13:1-5, 18:22; 1 Tim 4:1-3, 6:4-5; Ezek 13:2-3, 10, 22; Jer 23:16-17, 22, 30; 2 Cor 11:3-4, 13-15; 2 Tim 2:25, 3:6, 14-17, 4:3; Gal 1:8, 5:22-23; 1 Cor 12:3; Titus 1:9-11, 16; Heb 13:9; Eph 4:14; 1 Kgs 22:22-23)"
+    - "G500 5x, all 1-2 John (2:18 twice); G5572 1x; G3919 1x; G727 5x; G1381 23x SBLGNT; G5578 11x; H5254 participle at Hebrew Deut 13:4, same verb Gen 22:1"
+    - "Irenaeus AH 1.26.1 and 3.3.4 against ANF 1 (anf01.txt): Cerinthus' Christ 'departed from Jesus', Jesus suffered while Christ remained impassible; bath-house story from 'those who heard' Polycarp. 'About AD 180' fits (Eleutherius bishop at writing, c. 174-189)."
+    - "2 John 10 hospitality reading confirmed by NKJV Cultural Backgrounds SB (house churches 'possibly'; Didache 11-12)."
+    - "Siblings: hurt-by-the-church, know-the-truth, dreams-and-visions, sorcery, deliverance-and-the-edge-of-sorcery all agree on Deut 13 and 1 John 4; no contradiction. All link targets and anchors exist and are published."
+    - "Divine pronouns capitalised outside quotations only; every reference names its book."
+  fixed:
+    - "Discussion question 4 said 'nine verses later' from Matt 7:1 to 7:15; it is fourteen. The body said Jesus places 7:15 'straight after' 7:1 and 7:6; 7:7-14 intervene."
+    - "LXX Prov 17:3 was described with the Hebrew/ESV wording ('the LORD tests hearts'); the Greek has silver and gold tested in a furnace and chosen hearts before the Lord."
+    - "harpax: Luke 18:11 is 'extortioners' in the ESV, so 'all mean swindler' became 'people who take what is not theirs' with both ESV renderings."
+    - "pareisago gloss was etymological ('slip in beside'); now its usage sense and its NT hapax status."
+    - "dokimazo 'the word for testing metal' softened to 'a word used for testing metal'; nasah 'the word for God testing Abraham' became the verb Genesis 22:1 uses, with the Hebrew versification (13:4) noted."
+    - "Opening 'Every apostle who wrote to the churches' (Jude is not an apostle, Jude 17) became 'Paul, Peter, John and Jude'."
+    - "'Jesus and Paul both describe a final deceiver' -- Matt 24:24 is plural false christs; split into Jesus' false christs and Paul's lawless one."
+    - "Cultural-vs-transcultural line on Deut 13:5's death penalty was in the state file but not the prose; one sentence added under Refuse the platform."
+    - "Jer 23:22 quotation omitted words without an ellipsis."
+    - "Irenaeus 3.3.4 'through Polycarp' made precise: from those who heard Polycarp."
+    - "Hurt by the Church described as answering a wolf by 'name him'; it says watch for and avoid him."
+    - "Style rule 5: bold thesis 'does not mean God has lost control' and 'A true teacher is not sinless' rewritten affirmatively."
+  left_for_author:
+    - "Jude 22-23: the study says 'three kinds of people'; some manuscripts have two (NLT footnote). Nothing turns on the count."
+    - "Cerinthus as 'likeliest background': the Cultural Backgrounds notes on 1 John 2:22 also offer Jewish believers denying Jesus is Messiah under synagogue pressure. The study's conclusion (the error was about the person of Christ) holds on either reading."
