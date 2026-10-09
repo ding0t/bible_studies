@@ -22,7 +22,7 @@ from pathlib import Path
 from xml.etree import ElementTree
 
 from book_map import (
-    BOS_CODE_TO_USFM, DEUTEROCANON_BOS_TO_OSIS, MACULA_USFM_TO_OSIS, NUM_TO_OSIS,
+    BOS_CODE_TO_USFM, DEUTEROCANON_BOS_TO_OSIS, DEUTEROCANON_OSIS, MACULA_USFM_TO_OSIS, NUM_TO_OSIS,
     SCROLLMAPPER_NAME_TO_OSIS,
 )
 import quotations
@@ -1494,8 +1494,15 @@ def derive_scripture_links(conn: sqlite3.Connection) -> None:
                      pair["idf_overlap"], corroborated,
                      english[1] if english else None, english[2] if english else None))
 
-    # 1. the Greek class -- the New Testament quoting the Septuagint, in one language
-    lxx_tokens, lxx_index = quotations.build_index(conn.execute(fetch, ("ebible-grcbrent",)).fetchall())
+    # 1. the Greek class -- the New Testament quoting the Septuagint, in one language. Against the
+    # Hebrew canon's books only. With Brenton's deuterocanon indexed too, 186 new pairs appeared
+    # and the strongest were shared formulas, not quotations: doxologies against 4 Maccabees
+    # 18:24, "God of Abraham, Isaac and Jacob" against the Prayer of Manasseh, and 1 Esdras, which
+    # repeats Chronicles and Ezra. The deuterocanon is reached by the lemma-allusion class below,
+    # which is scored for exactly that kind of echo.
+    lxx_rows = [r for r in conn.execute(fetch, ("ebible-grcbrent",)).fetchall()
+                if r[0] not in DEUTEROCANON_OSIS]
+    lxx_tokens, lxx_index = quotations.build_index(lxx_rows)
     for pair in quotations.find_quotations(conn.execute(fetch, ("sblgnt",)).fetchall(),
                                             lxx_tokens, lxx_index):
         record("quotation-greek", "sblgnt", "ebible-grcbrent", pair, "lxx")
