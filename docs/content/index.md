@@ -54,7 +54,7 @@ did (Acts 17:11).
 
 The studies have a focus on:
 
-- Building practical knowledge and wisdom of God. Helped along by consistent thinking about ["how does this impact me"](about/key-takeaways.md).
+- Building practical knowledge and wisdom of God. Each study asks first [what it teaches about Jesus](about/key-takeaways.md), then how that changes the way I think, my attitude and what I do.
 - Understanding faith in God as described in the Old and New Testaments of the Bible, in order to be prepared to explain the truth in love.
 - Exegetical and expository [original-language studies](about/about-our-datasets.md). That is using source texts to elicit meaning sometimes lost in just one or more English translations.
 - Bible end times. Scripture says we are in the last days, and it matters to know where we stand with God before hard days arrive.
@@ -64,16 +64,27 @@ The studies have a focus on:
 
 ??? note "On using AI in these studies"
 
-    One of the tools I use in the development of these studies is AI. That may well put you off — how
-    can AI be of use when it is trained on all the wisdom of man? True. But the models question some of
-    the positions I take, and that sends me back to Scripture to test them — the same Berean check I ask
-    of you, "examining the Scriptures daily to see if these things were so" (Acts 17:11, ESV). The
-    Bereans tested even an apostle's preaching that way, and I test the model's objections and my own
-    positions the same way. A challenge shows where a case is weak, and Scripture tells
-    me to test what I hold (Proverbs 18:17; 1 Thessalonians 5:21). In doing that, I learn, and train my
-    mind and heart to defend the truth of Christ. Some AI terminology does slip through, and it annoys
-    me too. By publishing, I am accountable to review these studies (2 Timothy 2:15), remember what I
-    learned, fix errors I did not pick up earlier, and refine a position left with an itch.
+    One of the tools I use in the development of these studies is AI. That may well put you off: how
+    can AI be of use when it is trained on all the wisdom of man? True. Its biggest gift to me is the
+    original languages. I am not trained in Hebrew, Aramaic or Greek, yet with AI I can work through a
+    passage word by word: its grammar, its root, where else the word is used, and how the Septuagint
+    and the English translations render it. That depth of
+    [original-language study](about/why-ai-assisted-study.md#what-it-does) would otherwise be out of my
+    reach. The models also question some of the positions I take, and that sends me back to Scripture
+    to test them, the same Berean check I ask of you, "examining the Scriptures daily to see if these
+    things were so" (Acts 17:11, ESV). A challenge shows where a case is weak, and Scripture tells me
+    to test what I hold (Proverbs 18:17; 1 Thessalonians 5:21). In doing that, I learn, and train my
+    mind and heart to defend the truth of Christ.
+
+    AI also makes mistakes. It can invent a word's meaning, misquote a verse, or cite a book that does
+    not exist (see [failure modes and guardrails](about/why-ai-assisted-study.md#failure-modes-and-guardrails)).
+    So the AI works inside [deterministic tooling](about/why-ai-assisted-study.md#how-it-works-under-the-hood):
+    databases of the Hebrew and Greek text, lexicons and cross-references that give the same answer
+    every time they are asked. A word study has to resolve to an entry in that data, and a quotation is
+    checked against the translation's own text, never recalled from memory. Some AI terminology does
+    slip through, and it annoys me too. By publishing, I am accountable to review these studies
+    (2 Timothy 2:15), remember what I learned, fix errors I did not pick up earlier, and refine a
+    position left with an itch.
 
 ## The gospel
 

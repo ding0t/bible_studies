@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 14:6; Acts 9:2"
 bible_references: ["Isaiah 40:3", "Isaiah 35:8-10", "Psalm 1:1-6", "Jeremiah 6:16", "Deuteronomy 10:12-13", "Matthew 3:3", "Mark 1:2-3", "Luke 3:4-6", "John 1:23", "Matthew 7:13-14", "Matthew 21:32", "Luke 1:76-79", "John 13:36-14:14", "Hebrews 3:10", "Hebrews 9:8", "Hebrews 10:19-20", "Acts 4:12", "Acts 9:1-2", "Acts 11:19-26", "Acts 16:17", "Acts 18:24-26", "Acts 19:9", "Acts 19:23", "Acts 22:4", "Acts 24:5", "Acts 24:14", "Acts 24:22", "Acts 26:28", "Acts 28:22", "1 Peter 4:16", "Romans 3:16-17", "Romans 11:33", "1 Corinthians 4:17", "1 Corinthians 12:31", "2 Peter 2:2", "2 Peter 2:15", "2 Peter 2:21", "Jude 1:11", "James 1:8", "James 5:20"]
 date_created: 2026-08-02
-date_modified: 2026-09-27
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -19,10 +19,9 @@ ai_provider_models:
 Before anyone called them Christians, they called themselves something else. Saul, hunting them
 down, asked the high priest for letters "to the synagogues at Damascus, so that if he found any
 belonging to the Way, men or women, he might bring them bound to Jerusalem" (Acts 9:2, ESV). **The Way** — Greek **ὁδός**
-(*hodos*, G3598), the ordinary word for a road. The name shows up six times across Acts, always on
-the movement's own lips or its accusers', and it isn't invented there. It reaches back through a
-word the Old Testament had already loaded with meaning for a thousand years. And forward into a
-claim Jesus made about himself the night before he died: "I am the way" (John 14:6).
+(*hodos*, G3598), the ordinary word for a road. The name shows up six times across Acts. Behind it
+stands a word the Old Testament had used for a whole course of life for a thousand years, and a
+claim Jesus made about Himself the night before He died: "I am the way" (John 14:6).
 
 **In one sentence:** God has opened the road to Himself in a person: Jesus is the way Isaiah said would be prepared for the LORD, the one way to the Father (John 14:6), opened through His own flesh (Hebrews 10:20), and His first followers named themselves after Him, "the Way" (Acts 9:2).
 
@@ -35,23 +34,21 @@ claim Jesus made about himself the night before he died: "I am the way" (John 14
 **Prophecy.** Isaiah 40:3 — "In the wilderness prepare the way of the LORD; make straight in the
 desert a highway for our God" — is a direct verbal prediction of a forerunner. All four Gospels
 independently quote it and apply it to John the Baptist (Matthew 3:3; Mark 1:2-3; Luke 3:4-6; John
-1:23). No other Old Testament "way" text gets this treatment. Four separate authors, writing for
-different audiences, converge on the same verse to identify the same man doing the same job:
-preparing a road for someone else to walk.
+1:23). No other Old Testament "way" text is quoted by all four. In each, John's task is to prepare
+a road for someone else to walk.
 
 ### Lessons about Jesus
 
 - He claims to be the way Himself: "I am the way, and the truth, and the life. No
   one comes to the Father except through me" (John 14:6, ESV).
-- The claim is exclusive — the same exclusivity Peter later states flatly of His name: "there is salvation in no one else" (Acts 4:12, ESV).
-- Being with Him is already arrival: "he who has seen me has seen the
+- The claim is exclusive, and Peter later says the same of His name: "there is salvation in no one else" (Acts 4:12, ESV).
+- To know Him is to know the Father: "Whoever has seen me has seen the
   Father" (John 14:9, ESV). The way and the destination are one person.
-- His death is what makes the way passable. Hebrews calls it "the new and living way that he
-  opened for us through the curtain, that is, through his flesh" (Hebrews 10:20, ESV) — access to
-  God that the Old Testament's own barred curtain had made impossible for anyone but one priest,
-  once a year (Leviticus 16).
-- The name his earliest followers chose for themselves — "the Way" — names him before it names
-  them. To belong to the Way is to belong to the one who said he *is* the way.
+- His death opens the way. Hebrews calls it "the new and living way that he opened for us through
+  the curtain, that is, through his flesh" (Hebrews 10:20, ESV). Under the old covenant the curtain
+  let only one priest through, once a year (Leviticus 16).
+- His earliest followers called themselves "the Way", His own title. To belong to the Way is to
+  belong to Him.
 
 ### Memory verses
 
@@ -72,8 +69,8 @@ preparing a road for someone else to walk.
 - **Attitude:** "Christian" began as an outsiders' label at Antioch, and Peter tells believers who
   suffer under it to glorify God in that name (1 Peter 4:16). Let that settle whatever labels get
   pinned on you for following Jesus now.
-- **Do:** name one place this week where "believing the right things about Jesus" and "walking his
-  way" have quietly come apart for you — and take one concrete step back toward the second.
+- **Do:** name one place this week where "believing the right things about Jesus" and "walking His
+  way" have come apart for you, and take one concrete step back toward the second.
 
 ### Prayer
 
@@ -103,8 +100,7 @@ His blood gives. In Jesus' name. Amen.
 *Hodos* occurs just over a hundred times in the New Testament, and most of those are the plain word
 for a road. The sower's seed falls "along the path" (Matthew 13:4). Travelers take the Jericho road
 (Luke 10:31; 18:35). Two disciples walk to Emmaus (Luke 24:32, 35). Philip catches up to a chariot
-"on the road" (Acts 8:26, 36, 39). None of that is this study's subject. What follows tracks the
-roughly one-third of occurrences where *hodos* carries figurative or titular weight: a course of
+"on the road" (Acts 8:26, 36, 39). This study tracks the roughly one-third of occurrences where *hodos* carries figurative or titular weight: a course of
 life, a body of teaching, or a name for a movement. It traces that weight back to its Old Testament
 source, then into John 14:6 and Acts, where the New Testament pushes the word further than the Old
 ever did.
@@ -112,18 +108,16 @@ ever did.
 ### John's Gospel: Thomas's question in the Upper Room
 
 **John's Gospel.** Chapters 13-14 sit inside the Upper Room Discourse, Jesus's farewell speech to
-the Twelve on the night of his arrest. Judas has just left to betray him (13:30); Jesus has just
-told Peter he will deny him three times before dawn (13:38). "Let not your hearts be troubled"
-(14:1) responds directly to that trouble. Thomas's honest confusion —
-"Lord, we do not know where you are going. How can we know the way?" (14:5, ESV) — is what draws
-out 14:6. The claim to be "the way" answers a frightened question from a specific man, hours before the
-cross.
+the Twelve on the night of His arrest. Judas has just left to betray Him (13:30); Jesus has just
+told Peter he will deny Him three times before dawn (13:38). "Let not your hearts be troubled"
+(14:1) speaks to that trouble. Thomas's confused question, "Lord, we do not know where you are
+going. How can we know the way?" (14:5, ESV), draws out 14:6.
 
 ### Acts: from persecutor to prisoner
 
 **Acts.** Luke's second volume narrates the gospel's spread from Jerusalem to Rome, and "the Way"
-threads through nearly the whole of it. First in Saul's mouth as persecutor (Acts 9:2). Last in Paul's
-own mouth as prisoner, defending himself before the Roman governor Felix (24:14, 22). In between, it
+threads through nearly the whole of it: from Saul's mouth as persecutor (Acts 9:2) to Paul's own as
+a prisoner defending himself before the Roman governor Felix (24:14, 22). In between, it
 names the movement at a synagogue argument in Ephesus (19:9) and a riot there over lost silver trade
 (19:23).
 
@@ -131,35 +125,32 @@ names the movement at a synagogue argument in Ephesus (19:9) and a riot there ov
 
 <span dir="rtl">דֶּרֶךְ</span> (*derek*, H1870, TWOT root 453a) is one of the most common nouns in
 the Hebrew Bible. It means "way, road, journey," and constantly a course of life or conduct: a
-person's *derek* is how they live, not just where they walk. **ὁδός (*hodos*, G3598)** carries the
-identical double sense in Greek, and the Septuagint regularly renders *derek* with *hodos*. So a
-New Testament author reaching for "way" in a moral or theological sense uses vocabulary the Hebrew
-Bible had already stretched that direction for a thousand years, and that Greek-speaking Jews
-already read that way in their own Bible.
+person's *derek* is how they live. **ὁδός (*hodos*, G3598)** carries the same double sense in
+Greek, and the Septuagint regularly renders *derek* with *hodos*. So a New Testament author using
+"way" in a moral or theological sense uses vocabulary the Hebrew Bible had stretched that direction
+for a thousand years, and that Greek-speaking Jews read that way in their own Bible.
 
-Three uses recur often enough in the Old Testament to matter for everything that follows:
+Three Old Testament uses carry through the rest of this study:
 
 - **The way as a person's conduct.** "What does the LORD your God require of you, but to fear the
   LORD your God, to walk in all his ways" (Deuteronomy 10:12, ESV) — obedience *is* walking a
   path, an idiom so basic to the Old Testament that Deuteronomy uses it as shorthand for the whole
   of covenant loyalty.
-- **Two ways, not one.** "The LORD knows the way of the righteous, but the way of the wicked will
+- **Two ways.** "The LORD knows the way of the righteous, but the way of the wicked will
   perish" (Psalm 1:6, ESV). Psalm 1 closes on a stark either/or that later Jewish and Christian
   literature returns to often (the *Didache* opens with the identical "two ways" framework), and
-  that Jesus himself restates: "the gate is narrow and the way is hard that leads to life, and
+  that Jesus Himself restates: "the gate is narrow and the way is hard that leads to life, and
   those who find it are few" (Matthew 7:14, ESV).
 - **A way that can be lost and asked for again.** "Stand by the roads, and look, and ask for the
   ancient paths, where the good way is; and walk in it, and find rest for your souls. But they
-  said, 'We will not walk in it'" (Jeremiah 6:16, ESV) — the way already exists; the sin is
-  refusing to walk a path already known.
+  said, 'We will not walk in it'" (Jeremiah 6:16, ESV). The good way is known, and the sin is
+  refusing to walk in it.
 
-In Hebrew idiom, *derek* is what a life looks like from the outside. That is the sense the New Testament inherits. It is also why a group of believers
-could later be identified, without further explanation, simply as people "of the Way."
+In Hebrew idiom, *derek* is what a life looks like from the outside. The New Testament inherits
+that sense, which is why a group of believers could later be called, without further explanation,
+people "of the Way."
 
 ## "Prepare the way of the LORD": Isaiah's forerunner text
-
-One Isaiah passage does more work in the New Testament's "way" vocabulary than any other single
-Old Testament verse.
 
 > ✝️ Isaiah 40:3 (ESV)
 >
@@ -167,9 +158,9 @@ Old Testament verse.
 > highway for our God."
 
 Isaiah's own setting is Judah's coming return from Babylonian exile. The prophets elsewhere describe
-that return as a new exodus, with God leading his people through the wilderness the way he once led
+that return as a new exodus, with God leading His people through the wilderness as He once led
 their ancestors out of Egypt (compare Isaiah 11:16; Hosea 2:14-15).[^nkjvcbsb-matt3] All four
-Gospels quote this verse and apply it, without exception, to John the Baptist:
+Gospels quote this verse and apply it to John the Baptist:
 
 | Gospel | Reference (ESV) |
 |---|---|
@@ -178,8 +169,8 @@ Gospels quote this verse and apply it, without exception, to John the Baptist:
 | Luke | 3:4-6 — extends the quotation through Isaiah 40:5, "all flesh shall see the salvation of God" |
 | John | 1:23 — put in John the Baptist's own mouth: "I am the voice of one crying out in the wilderness" |
 
-John clears a road for someone else to walk on it, which is what a forerunner (Malachi's own word,
-quoted at Mark 1:2) does. Two more Isaiah texts extend the same picture:
+John clears a road for someone else to walk, the task of Malachi's messenger (Malachi 3:1, quoted
+at Mark 1:2). Isaiah 35:8 extends the picture:
 
 > ✝️ Isaiah 35:8 (ESV)
 >
@@ -187,9 +178,9 @@ quoted at Mark 1:2) does. Two more Isaiah texts extend the same picture:
 > pass over it. It shall belong to those who walk on the way; even if they are fools, they shall
 > not go astray.
 
-A road that only the redeemed may walk, closed to the unclean. Jesus states the same exclusivity at John 14:6, centuries
-later, applied to a person. And Luke's Gospel puts the connection between forerunner and
-fulfillment in Zechariah's own mouth, prophesying over his infant son John:
+The redeemed walk this road and the unclean are kept off it. At John 14:6 Jesus claims the same
+exclusivity for a person. Luke's Gospel puts the link between forerunner and fulfillment in
+Zechariah's mouth, prophesying over his infant son John:
 
 > ✝️ Luke 1:76-79 (ESV)
 >
@@ -199,28 +190,24 @@ fulfillment in Zechariah's own mouth, prophesying over his infant son John:
 > 79 to give light to those who sit in darkness and in the shadow of death, to guide our feet into
 > the way of peace.
 
-Isaiah's "way of the LORD" was already a road prepared for God's own personal arrival, before Jesus
-ever spoke. A first-century Jewish hearer brought that background to Jesus's claim. This shows that God kept
+Isaiah's "way of the LORD" is a road prepared for God Himself to arrive on, and a first-century
+Jewish hearer brought that background to Jesus's claim. This shows that God kept
 His promise to come to His people Himself: the LORD whose way John prepared arrived as Jesus, which
 is the incarnation. So when you come to Jesus, you meet the God Isaiah said was coming.
 
 ## "I am the way, and the truth, and the life": Jesus as the Way
 
-John 14:6 answers Thomas directly, but everything in it is compressed. The Greek repeats the
-definite article before each of the three predicate nouns: **ἐγώ εἰμι ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ
-ζωή**. "I am *the* way, and *the* truth, and *the* life." Each noun is marked as definite in its own
-right. The grammar makes an exclusivity claim before the following sentence states one outright.
-
-Three facets sit inside that one claim:
+Jesus's answer to Thomas repeats the definite article before each of the three predicate nouns:
+**ἐγώ εἰμι ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή**. "I am *the* way, and *the* truth, and *the* life."
+The grammar makes an exclusivity claim before the following sentence states one outright.
 
 ### The way as destination
 
-**The way is a destination.** Thomas's question was "how can we know the
-way" (14:5) — he wants a route, the kind of information a map gives. Jesus answers with a person.
-The claim collapses the distance between knowing the way and knowing the destination. "If you had known me, you would have known my Father
-also. From now on you do know him and have seen him" (14:7, ESV) — and when Philip still asks to be
-shown the Father separately, Jesus's answer is blunt: "Whoever has seen me has seen the Father"
-(14:9, ESV). The way and the arrival are the same thing, because both are the same person. This shows that God
+**The way is a destination.** Thomas asked "how can we know the way" (14:5), wanting a route, the
+kind of information a map gives. Jesus answers with a person, and to know Him is to know the
+destination: "If you had known me, you would have known my Father also. From now on you do know
+him and have seen him" (14:7, ESV). When Philip still asks to be shown the Father, Jesus answers
+plainly: "Whoever has seen me has seen the Father" (14:9, ESV). This shows that God
 has made Himself known in the face of His Son: to know Jesus is to know the Father. So everything
 you need in order to reach God is found in knowing Jesus.
 
@@ -230,11 +217,11 @@ you need in order to reach God is found in knowing Jesus.
 Bible's note on this verse traces the claim back through a set of Old Testament restrictions on
 approaching God directly. The tabernacle curtain shut everyone but the high priest out of the Most
 Holy Place (Exodus 26:33; Leviticus 16). Unauthorized approach was rejected (Leviticus 10:2). Aaron
-alone was chosen to represent Israel in God's presence (Numbers 17:5).[^esvsb-john14] Hebrews states
-the problem and its fulfillment in the same word. First the problem. "The Holy Spirit indicates that
+alone was chosen to represent Israel in God's presence (Numbers 17:5).[^esvsb-john14] Hebrews uses
+*hodos* for both the problem and its answer. The problem: "The Holy Spirit indicates that
 the way into the holy places is not yet opened as long as the first section is still standing"
 (Hebrews 9:8, ESV). Under the old covenant, the *hodos* itself doesn't yet exist for anyone but the
-high priest, once a year. Then the fulfillment, in the same vocabulary:
+high priest, once a year. The answer:
 
 > ✝️ Hebrews 10:19-20 (ESV)
 >
@@ -242,9 +229,8 @@ high priest, once a year. Then the fulfillment, in the same vocabulary:
 > 20 by the new and living way that he opened for us through the curtain, that is, through his
 > flesh.
 
-The curtain that barred entry becomes, in Hebrews' argument, the very thing Christ's own body tears
-through. Isaiah 35:8's guarded highway pictured that same access problem. Here a person opens the
-road himself. This shows that God Himself removed the barrier His holiness had set: the atonement
+Hebrews identifies the curtain that barred entry with Christ's own flesh. Isaiah 35:8's guarded
+highway pictured the same restricted access; here Jesus opens the road Himself. This shows that God Himself removed the barrier His holiness had set: the atonement
 Jesus made in His own body is the road into God's presence. So you may enter the holy places with
 the confidence Hebrews 10:19 names, "by the blood of Jesus."
 
@@ -253,14 +239,13 @@ the confidence Hebrews 10:19 names, "by the blood of Jesus."
 **The exclusivity is personal.** First-century Judaism already had groups that
 claimed exclusive access to God. The Qumran community is the sharpest case. Its members believed
 they alone followed the true path, and that other Jewish groups, the temple establishment included,
-were lost.[^nkjvcbsb-john14] Jesus's claim goes further than theirs, and in a different direction.
-Qumran's exclusivity was a claim about correct teaching and correct practice — join the right
-community, keep the right calendar, follow the right interpretation of the Law. "He does not teach a way to God, but rather
-is the way to God."[^nkjvcbsb-john14] Peter states the same claim about Jesus's name in Acts 4:12:
-"there is salvation in no one else." Matthew's Jesus states the same shape of exclusivity about the
-road itself, back in the Sermon on the Mount. "The gate is narrow and the way is hard that leads to
-life, and those who find it are few" (Matthew 7:14, ESV). That is the "two ways" pattern Psalm 1
-already taught, now attached to a specific gate and a specific person on the other side of it. This shows that God
+were lost.[^nkjvcbsb-john14] Qumran's exclusivity rested on correct teaching and practice: the
+right community, the right calendar, the right interpretation of the Law. Jesus places it in
+Himself. In the words of the *Cultural Backgrounds Study Bible*, "He does not teach a way to God,
+but rather is the way to God."[^nkjvcbsb-john14] Peter says the same of Jesus's name in Acts 4:12:
+"there is salvation in no one else." In the Sermon on the Mount Jesus had already said it of the
+road: "The gate is narrow and the way is hard that leads to life, and those who find it are few"
+(Matthew 7:14, ESV), Psalm 1's two ways again. This shows that God
 has placed salvation in one person, His Son Jesus. So your standing before God rests on one thing:
 whether you have come to the Father through Him.
 
@@ -279,8 +264,7 @@ Testament's "way of life" idiom:
   16:17, ESV).
 - **A way that can go entirely missing.** Paul indicts humanity in Romans by quoting Isaiah 59:7-8
   almost verbatim: "in their paths are ruin and misery, and the way of peace they have not known"
-  (Romans 3:16-17, ESV) — Isaiah 59:8's *derek shalom*. Paul's point is that the way itself is
-  unknown.
+  (Romans 3:16-17, ESV), Isaiah 59:8's *derek shalom*.
 
 ### Corrupted or abandoned by false teachers
 
@@ -296,13 +280,12 @@ Testament's "way of life" idiom:
 
 ### A way that reveals character
 
-- **A way that describes character, not just direction.** James calls the double-minded man
+- **A way that describes character.** James calls the double-minded man
   "unstable in all his ways" (James 1:8, ESV). Someone who "brings back a sinner from his
   wandering" (James 5:20, ESV) is, in the underlying Greek, bringing him back **ἐκ πλάνης ὁδοῦ
-  αὐτοῦ** — literally "from the straying of his way." The ESV drops "way" here; the more literal ASV keeps it: "converteth a
-  sinner from the error of his way." Paul, describing
-  his own example rather than a sinner's failure, uses the identical idiom the other direction: he
-  sends Timothy "to remind you of my ways in Christ, as I teach them everywhere in every church"
+  αὐτοῦ**, literally "from the straying of his way." The ESV drops "way" here; the more literal
+  ASV keeps it: "converteth a sinner from the error of his way." Paul uses the same idiom of his
+  own example: he sends Timothy "to remind you of my ways in Christ, as I teach them everywhere in every church"
   (1 Corinthians 4:17, ESV) — an apostle's manner of life offered as the pattern. Hebrews, quoting Psalm 95 of the wilderness generation, says they "always go astray in
   their heart" and "have not known my ways" (Hebrews 3:10, ESV) — heart and way named together, as
   one thing.
@@ -332,37 +315,34 @@ Six times, always with the definite article — **ἡ ὁδός**, *the* Way —
 | Acts 24:14 | Before Felix: "according to the Way, which they call a sect, I worship the God of our fathers" |
 | Acts 24:22 | Felix, "having a rather accurate knowledge of the Way," defers Paul's case |
 
-The name spans Paul's entire career inside the narrative. From persecutor before his conversion
-(Acts 9:2, and his own later confession at 22:4), to prisoner defending himself in the same words at the
-end of it (24:14, 22). Luke never introduces the term or explains it; he uses it the way any writer
-uses a name the audience is assumed to already know.
+The name spans Paul's career inside the narrative, from persecutor before his conversion (Acts 9:2,
+and his own later confession at 22:4) to prisoner defending himself at the end of it (24:14, 22).
+Luke never introduces or explains the term; he uses it as a name his readers already know.
 
 ### Qumran's own use of "the Way"
 
 **A name already in use.** The Qumran community, the group behind the Dead Sea
-Scrolls and roughly contemporary with the earliest church, used the identical self-designation for
-itself. It was convinced that it alone preached the true divine path.[^nkjvcbsb-acts9] Both groups
-reached for the same word independently, and for the same reason. A movement convinced it holds the
-one road to God calls itself, simply, the Road. At the other end of Qumran's road stood a strict community rule. At the
-other end of the church's stood the person Isaiah 40:3's trajectory through all four Gospels was
-clearing ground for.
+Scrolls and roughly contemporary with the earliest church, used the same self-designation. It was
+convinced that it alone preached the true divine path.[^nkjvcbsb-acts9] Each group believed it
+walked the one road to God. Qumran's road led to a strict community rule; the church's led to the
+person whose coming Isaiah 40:3 announced.
 
 ### Two names for one movement
 
-**Insiders' name against outsiders' name.** Acts records both sides of the naming at once. Paul's own word before Felix is "the Way" — and in the very same sentence he
-reports what his accusers call it instead: "according to the Way, **which they call a sect**"
+**Insiders' name against outsiders' name.** Acts records both sides of the naming at once. Paul's own word before Felix is "the Way", and in the same sentence he reports what
+his accusers call it: "according to the Way, **which they call a sect**"
 (24:14, ESV). *Sect* translates **αἵρεσις** (*hairesis*, G139). Tertullus, the prosecutor, had
 already used it moments earlier: "a ringleader of the sect of the Nazarenes" (24:5, ESV). The Jewish
 community leaders in Rome use the same word of Paul years later: "with regard to **this sect** we
 know that everywhere it is spoken against" (28:22, ESV). Every occurrence of *hairesis* applied to
-the church in Acts comes from a hostile or outside speaker. "The Way" never does — it is always the
-movement's word for itself, or a narrator's or official's neutral report of what it calls itself.
+the church in Acts comes from a hostile or outside speaker. "The Way" is the movement's word for
+itself, or a narrator's or official's neutral report of it.
 
 ### "Christian": an outsider's label
 
 **"Christian" was somebody else's word first.** The label that eventually displaced "the Way" in
-common usage appears only three times in the New Testament, and never once in a believer's own
-mouth describing their own group:
+common usage appears only three times in the New Testament: twice as outsiders' usage (Acts 11:26;
+26:28), and once in Peter's letter as the name believers were suffering under (1 Peter 4:16).
 
 > ✝️ Acts 11:26 (ESV)
 >
@@ -370,25 +350,20 @@ mouth describing their own group:
 > church and taught a great many people. And in Antioch the disciples were first called
 > Christians.
 
-Luke's phrasing — "were first called" — is passive; someone else is doing the naming. The ESV Study
-Bible reads this as a label "applied by the unbelieving public in Antioch." It marks the point where
+Luke does not say who did the calling. The ESV Study Bible reads this as a label "applied by the unbelieving public in Antioch." It marks the point where
 the disciples "were beginning to have an identity of their own apart from other Jews."[^esvsb-acts11]
 The Cultural Backgrounds Study Bible is more specific about the word's shape. **Χριστιανός**
 follows the pattern of a political nickname, the way partisans of a named leader were tagged
 elsewhere in the empire — "Pompeiians" for followers of Pompey. Antioch in particular had a local
-reputation for this kind of mocking label.[^nkjvcbsb-acts11] The two other New Testament occurrences
-confirm the label came from outside. King Agrippa, unconvinced by Paul's defense, asks
-with evident irony, "In a short time would you persuade me to be a Christian?" (Acts 26:28, ESV) —
-an outsider's word, used dismissively, of what Paul is trying to make him. By the time Peter writes,
-the label has become a legal and social liability serious enough that he has to address it directly.
+reputation for this kind of mocking label.[^nkjvcbsb-acts11] King Agrippa, unconvinced by Paul's
+defense, uses it of what Paul is trying to make him: "In a short time would you persuade me to be a
+Christian?" (Acts 26:28, ESV). By the time Peter writes, the label is a social and legal liability:
 "If anyone suffers as a Christian, let him not be ashamed, but let him glorify God in that name" (1
-Peter 4:16, ESV). That is evidence the name was already being used *against* believers, in courts
-and in public shame, well before it was something they wore with pride.
+Peter 4:16, ESV). The name was being used *against* believers before they wore it with pride.
 
 Luke's own narration inside Acts never adopts the outsiders' word. He keeps calling the movement
-"the disciples," "believers," "brothers," or "the Way" — the name that, on the trajectory this
-study has traced from Isaiah 40:3 through John's Gospel, points back to the man who said, "I am the
-way." Both names mark God's people by whom they belong to: "the Way" by the one who said He is the
+"the disciples," "believers," "brothers," or "the Way", the name that points back to the man who
+said, "I am the way." Both names mark God's people by whom they belong to: "the Way" by the one who said He is the
 way, "Christian" by Christ's own title. So whatever you are called for following Jesus, you are
 called by His name, and you may glorify God in it (1 Peter 4:16).
 
@@ -398,36 +373,29 @@ Both the ESV and the WEB render Isaiah 35:8 with a capitalized "Way," treating t
 a proper name. The ESV has "the Way of Holiness"; the WEB has "it will be for those who walk in the
 Way." The underlying Hebrew doesn't demand that: <span dir="rtl">דֶרֶךְ הַקֹּדֶשׁ</span> (*derek
 haqqodesh*) is an ordinary construct phrase, "a way of holiness," grammatically no more a title than
-"the way of peace" at Isaiah 59:8. The capitalization is a translator's judgment call, almost
-certainly made with Acts's later usage in mind rather than anything the Hebrew text itself forces.
-The link between Isaiah 35:8 and Acts's "the Way" is a real thematic resonance, which an
-English capital letter makes visually obvious; the Hebrew itself does not assert it.
+"the way of peace" at Isaiah 59:8. The capital is a translator's choice. The link between Isaiah
+35:8 and Acts's "the Way" is thematic, and the capital letter makes it visible in English.
 
 ## Then and now
 
-What transcends the first century: the exclusivity claim itself. John 14:6 and Acts 4:12 are stated
-as flatly true claims about who mediates access to God. Nothing later in the canon walks them back.
-What is tied to its own moment is the specific vocabulary. "The Way" as the movement's working name
-faded from use well before the New Testament canon closed. It was replaced by "Christian," "the
-church," and other terms that appear nowhere in this study's texts. 
+The exclusivity claim carries over unchanged. John 14:6 and Acts 4:12 state who gives access to
+God, and nothing later in the canon qualifies them. The vocabulary belongs to its moment: "the Way"
+as the movement's working name gave way to "Christian" and "the church."
 
-The principle underneath both threads of this study: a "way" is walked. The Old Testament's own idiom already assumed this. *Derek* names how someone actually
-lives. Acts's choice of name for
-the earliest church assumes it too. Calling the movement "the Way" claimed that following Jesus is a
-road under a believer's feet. That is what "a still more excellent way" means at 1 Corinthians
-12:31: love itself, practiced.
+A "way" is walked. *Derek* names how someone lives, and calling the movement "the Way" made
+following Jesus a road under a believer's feet. Paul's "still more excellent way" (1 Corinthians
+12:31) is love, practised.
 
 ## Discussion questions
 
-1. Thomas asks "how can we know the way" expecting directions; Jesus answers with himself. Where in
-   your own faith are you still looking for directions when what's actually on offer is a person to
-   know?
+1. Thomas asks "how can we know the way" expecting directions; Jesus answers with Himself. Where in
+   your own faith are you still asking for directions when Jesus offers Himself?
 2. The earliest believers were named "the Way" by themselves and "a sect" by their accusers, before
    either label was replaced by "Christian." What does it change to know the name you now wear
    wasn't the church's own first choice for itself?
 3. Qumran and the earliest church both claimed exclusive access to God, but located that
-   exclusivity in different places — a community's correct practice versus a person. Which is
-   easier to quietly drift toward in your own walk, and why?
+   exclusivity in different places: a community's correct practice, and a person. Which is
+   easier to drift toward in your own walk, and why?
 4. Jeremiah 6:16 pictures a "good way" that already exists and is simply refused: "we will not walk
    in it." Is there a way you already know to be right that you're currently declining to walk?
 5. Paul calls love "a still more excellent way" after a whole chapter about spiritual gifts. What in
@@ -448,16 +416,14 @@ road under a believer's feet. That is what "a still more excellent way" means at
 - ***Theological Wordbook of the Old Testament*** (TWOT), ed. R. Laird Harris, Gleason L. Archer
   Jr., and Bruce K. Waltke (Moody Publishers) — root 453a (*derek*), consulted via this repo's
   committed TWOT Strong's-number map.
-- ***ESV Study Bible*** (Crossway, 2016) — consulted last, as a check on conclusions already
-  reached from the text. Confirmed the Acts 9:2 reading of "the Way" against Matthew 7:14 and John
+- ***ESV Study Bible*** (Crossway, 2016) — the Acts 9:2 reading of "the Way" against Matthew 7:14 and John
   14:6, the Leviticus/Numbers background to John 14:6's exclusivity claim, the outsider-applied
   reading of "Christians" at Acts 11:26, and the Isaiah 40:3/Malachi 3:1 background to Matthew 3:3.
 - ***NIV Cultural Backgrounds Study Bible*** and ***NKJV Cultural Backgrounds Study Bible***
   (Zondervan, ed. John H. Walton and Craig S. Keener) — source of the Qumran self-designation
   parallel at Acts 9:2 and John 14:6, the "political nickname" reading of Χριστιανός at Acts 11:26,
   and the new-exodus background to Matthew 3:3's quotation of Isaiah 40:3.
-- ***NIV Biblical Theology Study Bible*** (Zondervan, 2018), gen. ed. D. A. Carson — independently
-  confirmed the outsider origin of "Christian" at Acts 11:26 and noted Luke's own preference for
+- ***NIV Biblical Theology Study Bible*** (Zondervan, 2018), gen. ed. D. A. Carson — the outsider origin of "Christian" at Acts 11:26 and noted Luke's own preference for
   "the Way," "disciples," and "believers" over that label throughout Acts.
 - Related study on this site: [Jesus, Priest in the Order of Melchizedek](melchizedek-priesthood.md)
   — traces the same tabernacle-curtain access problem this study's Hebrews 10:19-20 section touches,
