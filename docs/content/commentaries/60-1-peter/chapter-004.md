@@ -14,6 +14,7 @@ draft: false
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 4:3-4
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 4:3-5
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 4:1
 - [The Way](../../jesus/the-way.md) — 4:16
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:4
 <!-- commentary-index:auto-end -->

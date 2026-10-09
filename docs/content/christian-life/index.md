@@ -81,6 +81,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
 
     [:octicons-arrow-right-24: Read](prayer-as-communion.md)
 
+-   __Take Up Your Cross__
+
+    ---
+
+    Peter rebuked Jesus for speaking of the cross, and Jesus called it setting the mind on the things of man. A study of Matthew 16:21-28 through two Greek word studies: the mind that keeps itself safe and high, the life saved by losing it, and Peter's own road from that rebuke to his denial, his tears and his restoration.
+
+    [:octicons-arrow-right-24: Read](take-up-your-cross.md)
+
 -   __Teaching the Lord's Prayer at Home__
 
     ---

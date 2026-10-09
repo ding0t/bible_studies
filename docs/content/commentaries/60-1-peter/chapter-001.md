@@ -18,6 +18,7 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:24-25
 - [Passover: When I See the Blood](../../feasts/passover.md) — 1:18-19
 - [Simon Peter](../../biblical-figures/peter.md) — 1:1
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 1:11
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:19
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:18-19
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 1:4

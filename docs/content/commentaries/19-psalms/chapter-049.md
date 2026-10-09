@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 49:7-8
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 49:15
 <!-- commentary-index:auto-end -->

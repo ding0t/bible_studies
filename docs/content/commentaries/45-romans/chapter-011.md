@@ -20,6 +20,7 @@ draft: false
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 11:25-26
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 11:26-27
 - [Know the Truth](../../christian-life/know-the-truth.md) — 11:1
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 11:20
 - [The Appointed Times](../../feasts/feasts.md) — 11:25-27
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 11:25-27
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 11:26

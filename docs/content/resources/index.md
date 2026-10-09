@@ -30,7 +30,7 @@ External sources, tools, and datasets this project draws on.
 
     ---
 
-    Recommended courses and materials for learning Biblical Hebrew
+    Learn to read the Hebrew Bible for free with Aleph with Beth: how the course works, the video playlist, the learning schedule, the printed transcripts and grammar, and other helps.
 
     [:octicons-arrow-right-24: Read](hebrew-learning-resources.md)
 

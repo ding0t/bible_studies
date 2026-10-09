@@ -22,6 +22,7 @@ draft: false
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 10:4
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 10:3
 - [Philip](../../biblical-figures/philip.md) — 10:3
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 10:26-39
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 10:3
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 10:35-36
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 10:40-42

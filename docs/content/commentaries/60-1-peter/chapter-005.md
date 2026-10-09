@@ -18,6 +18,8 @@ draft: false
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 5:2-4
 - [In Humility](../../christian-life/humility.md) — 5:5-7
 - [Pride](../../sin/pride.md) — 5:7
+- [Simon Peter](../../biblical-figures/peter.md) — 5:5-6
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 5:5-6
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 5:7
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 5:9
 <!-- commentary-index:auto-end -->

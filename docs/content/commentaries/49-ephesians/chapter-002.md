@@ -18,6 +18,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 2:8-9
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 2:12-13
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 2:18
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 2:8-9
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 2:20
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:21-22
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 2:20

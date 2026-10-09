@@ -18,6 +18,7 @@ draft: false
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 12:24
 - [Passover: When I See the Blood](../../feasts/passover.md) — 12:1
 - [Philip](../../biblical-figures/philip.md) — 12:20-22
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 12:25-27
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 12:28
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 12:20-22
 <!-- commentary-index:auto-end -->

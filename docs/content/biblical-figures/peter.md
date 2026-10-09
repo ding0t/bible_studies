@@ -5,9 +5,9 @@ description: "The fisherman Jesus renamed at first meeting: what 'Cephas' meant 
 tags: ["apostles", "person/peter", "discipleship", "lang/greek", "matthew", "john", "acts"]
 draft: false
 primary_passage: "Matthew 16:13-20; John 21:15-19"
-bible_references: ["John 1:40-42", "Matthew 4:18-20", "Luke 5:1-11", "Matthew 14:28-31", "Luke 22:31-34", "Mark 14:66-72", "Acts 2:14-41", "Acts 10:1-48", "Galatians 2:11-14", "1 Peter 1:1"]
+bible_references: ["John 1:40-42", "Matthew 4:18-20", "Luke 5:1-11", "Matthew 14:28-31", "Luke 22:31-34", "Mark 14:66-72", "Acts 2:14-41", "Acts 10:1-48", "Galatians 2:11-14", "1 Peter 1:1", "Matthew 16:21-24", "Matthew 26:33-35", "Matthew 26:58", "Matthew 26:69-75", "Luke 22:61", "1 Peter 2:21", "1 Peter 5:5-6"]
 date_created: 2026-08-08
-date_modified: 2026-09-27
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -91,6 +91,39 @@ a real collapse, usually within the same chapter.
 - **He is publicly corrected by Paul** at Antioch for withdrawing from Gentile believers (Galatians 2:11-14). The New Testament does not tidy this away.
 
 Two letters bear his name (1 and 2 Peter), written to scattered believers under pressure.
+
+## From the rebuke to the restoration
+
+Matthew links the rebuke at Caesarea Philippi to the denial in the courtyard with the same words.
+Reading the two as one failure, a mind set on the things of man, is an inference from those links,
+and a strong one.
+
+**The rebuke.** When Jesus said He must suffer and be killed, Peter answered, "This shall never
+happen to you" (Matthew 16:22, ESV), with οὐ μή, the strongest negative in Greek. Jesus said Peter
+was "not setting your mind on the things of God, but on the things of man" (Matthew 16:23, ESV), and
+called him a σκάνδαλον (*skandalon*, G4625), a stone that trips. Then He told the disciples to "deny
+himself and take up his cross and follow me" (Matthew 16:24, ESV).
+
+**The boast.** At the Last Supper Peter said, "Though they all fall away (σκανδαλισθήσονται) because
+of you, I will never fall away" (Matthew 26:33, ESV), the verb from the same root as σκάνδαλον. "Even
+if I must die with you, I will not deny you!" (Matthew 26:35, ESV) uses οὐ μή again. Peter set
+himself above the others, and he trusted his own resolve.
+
+**The denial.** He "was following him at a distance" (Matthew 26:58, ESV). Then he denied Him three
+times, the second and third with "I do not know the man" (Matthew 26:70-74, ESV). "Deny" in Jesus' warning (Matthew 26:34) is ἀπαρνέομαι
+(*aparneomai*, G533), the verb of "let him deny himself". In Matthew it occurs only in that call and
+in Peter's denial. Told to deny himself, Peter denied Jesus and saved himself.
+
+**The repentance.** "Peter remembered the saying of Jesus ... And he went out and wept bitterly"
+(Matthew 26:75, ESV). Luke records that "the Lord turned and looked at Peter" (Luke 22:61, ESV).
+
+**The restoration.** Jesus asked three times, "do you love me?", gave Peter his charge three times,
+foretold his death, and said, "Follow me" (John 21:15-19, ESV), the call Peter first heard
+(Matthew 4:19). Peter's letters show what he learned: "Clothe yourselves, all of you, with humility
+... Humble yourselves, therefore, under the mighty hand of God" (1 Peter 5:5-6, ESV), and "Christ
+also suffered for you, leaving you an example, so that you might follow in his steps" (1 Peter 2:21,
+ESV). The full study of the rebuke and the call that followed it is [Take Up Your
+Cross](../christian-life/take-up-your-cross.md).
 
 ## What tradition says
 

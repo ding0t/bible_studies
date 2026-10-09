@@ -17,6 +17,8 @@ draft: false
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 2:9
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 2:23
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:9
+- [Simon Peter](../../biblical-figures/peter.md) — 2:21
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 2:21
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:9
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 2:22
 <!-- commentary-index:auto-end -->

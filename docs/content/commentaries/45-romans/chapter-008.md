@@ -23,6 +23,7 @@ draft: false
 - [Pride](../../sin/pride.md) — 8:30
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 8:28
 - [Six Days of History](../../last-things/six-days-of-history.md) — 8:29
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 8:5
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 8:15-17
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:11
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 8:11

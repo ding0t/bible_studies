@@ -17,6 +17,7 @@ draft: false
 - [Passover: When I See the Blood](../../feasts/passover.md) — 22:15
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 22:41
 - [Simon Peter](../../biblical-figures/peter.md) — 22:31-34
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 22:31-32
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 22:20
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 22:31-32
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 22:14-20

@@ -1,0 +1,206 @@
+slug: "take-up-your-cross"
+title: "Take Up Your Cross: Peter's Rebuke and the Way of the Cross"
+status: published
+target_path: "docs/content/christian-life/take-up-your-cross.md"
+
+primary_passage: "Matthew 16:21-28"
+supporting_passages: ["Mark 8:31-9:1", "Luke 9:22-27", "Matthew 16:13-20", "Matthew 17:1-9", "Matthew 4:8-10", "Matthew 4:17-19", "Matthew 10:38-39", "Matthew 20:28", "Matthew 26:33-35", "Matthew 26:52-54", "Matthew 26:75", "Matthew 27:32", "Matthew 27:40-42", "Psalm 49:7-8", "Psalm 62:12", "Proverbs 24:12", "Isaiah 53:10-12", "John 21:18-19", "1 Peter 1:10-11", "1 Peter 2:21-24", "1 Peter 4:12-13", "2 Peter 1:16-18", "2 Corinthians 5:10", "Galatians 2:20"]
+genre: [gospel]
+
+thesis: >-
+  Peter tried to keep Jesus from the cross because his mind was set on the things of man, a life
+  kept safe and a place kept high; Jesus answered that the Father's will runs through the cross, for
+  Him first and then for everyone who follows Him, so the disciple who sets his mind on God's will,
+  humbly and without fear, loses his life for Jesus' sake and finds it.
+outline:
+  - {section: "From that time", says: "16:21 repeats 4:17's opening; δεῖ is God's must (26:54)."}
+  - {section: "Peter's rebuke", says: "ἐπιτιμάω turned on Jesus; ἵλεώς σοι oath formula; triumphant-Messiah expectation."}
+  - {section: "Get behind me, Satan", says: "The wilderness offer again (4:8-10; 27:40); πέτρα to σκάνδαλον; two readings of 'behind me'."}
+  - {section: "The mind set on the things of man", says: "Word study 1: φρονέω (LXX, NT 26x/23 Pauline, LN 30.20 and 88.209, φρον- family) -- the mind's direction; tied to pride and to the cross by wider usage, marked as such."}
+  - {section: "Saving your life", says: "Word study 2: ψυχή (נֶפֶשׁ, LN 23.88/26.4, one word in 25-26) with θέλω, σῴζω, ἀπόλλυμι; Matthew 10:26-39 fear > denial > cross; contested salvation/reward readings marked."}
+  - {section: "Deny, take up, follow", says: "Aorist/aorist/present imperatives; ἀπαρνέομαι = Peter's denial verb; patibulum; Simon of Cyrene."}
+  - {section: "What no one can give", says: "ἀντάλλαγμα; Psalm 49:7-8; Matthew 20:28 ransom (inference); 16:27 judgment seat; 16:28 transfiguration."}
+  - {section: "Gethsemane: not as I will", says: "Jesus' ψυχή sorrowful; θέλω laid under the Father's; 'your will be done' = 6:10."}
+  - {section: "Peter's road", says: "Boast (σκανδαλίζω, οὐ μή, δέῃ), denial, tears, restoration ('Follow me'), 1 Peter 5:5-6."}
+word_budget: 5000
+word_budget_reason: "The author asked (2026-10-09) for a full exegetical word study inside this study rather than a fork: two word studies (φρονέω; ψυχή with σῴζω/ἀπόλλυμι/θέλω) and Peter's road from rebuke to restoration."
+
+stages:
+  scoping:
+    done: true
+    notes: >-
+      Requested 2026-10-09: "Take up your cross", Matthew 16:21-28, read through Peter's rebuke of
+      Jesus. Filed in christian-life/ (discipleship is what it is most about); the passion
+      prediction is the ground of the call. Sibling: scripture/verses-often-misquoted.md has a short
+      Mark 8:34 entry ("my cross to bear"); biblical-figures/peter.md mentions the rebuke in one
+      bullet. cross_study_claims.py "Matthew 16": no sibling treats 16:21-28 beyond a mention; no
+      conflicts.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Caesarea Philippi (16:13). Matthew written to a largely Jewish-Christian readership. Messianic
+        expectation largely of a triumphant Davidic king (NIV CBSB 16:22); a disciple rebuking his
+        teacher was audacious (ESV SB, NIV CBSB 16:22). Condemned men carried the patibulum to the
+        execution site through a hostile crowd (NIV CBSB 16:24). Cross = Roman execution, not
+        hardship.
+    literary_context:
+      done: true
+      notes: >-
+        Ἀπὸ τότε ἤρξατο ὁ Ἰησοῦς occurs at 4:17 and 16:21 (NA28 verified) -- the two hinges of the
+        book (NIV BTSB). Directly follows Peter's confession and the rock saying (16:16-19); followed
+        by the transfiguration "after six days" (17:1). First of four passion predictions (16:21;
+        17:22-23; 20:17-19; 26:2 per ESV SB). Vv. 25, 26, 27 each open with γάρ: three reasons
+        (ESV SB note on 16:25).
+        Matthew 4 parallels: devil shows "all the kingdoms of the world" (4:8) / "gain the whole
+        world" (16:26); "ὕπαγε, σατανᾶ" (4:10, NA28 without ὀπίσω μου) / "ὕπαγε ὀπίσω μου, σατανᾶ"
+        (16:23). "δεῦτε ὀπίσω μου" was Peter's call (4:19). 27:40, 42: "save yourself ... come down
+        from the cross" -- same σῴζω + σταυρός.
+    content_word_studies:
+      done: true
+      notes: "Concordance counts from macula-greek-sblgnt unless stated."
+      terms:
+        - {word: "δεῖ", language: greek, transliteration: "dei", strongs_id: "G1163", gloss: "it is necessary, must", notes: "MACULA lemmatises 16:21 under δέω G1210 (interlinear shows strong G12100); cite as G1163. Same word at 26:54 'that it must be so'."}
+        - {word: "ἐπιτιμάω", language: greek, transliteration: "epitimaō", strongs_id: "G2008", gloss: "rebuke", notes: "6x in Matthew: 8:26 (Jesus rebukes wind), 12:16, 16:22, 17:18 (demon), 19:13, 20:31. Peter uses Jesus' own word of authority on Jesus."}
+        - {word: "ἵλεως", language: greek, transliteration: "hileōs", strongs_id: "G2436", gloss: "merciful; 'far be it'", notes: "NT 2x: Matthew 16:22, Hebrews 8:12 ('I will be merciful'). LXX oath formula ἵλεώς μοι at 2 Samuel 20:20, 1 Chronicles 11:19 (with ὁ θεός), 2 Samuel 23:17. LSB footnote: Lit '(God be) merciful to You'; CSB footnote 'May God have mercy on you'."}
+        - {word: "σκάνδαλον", language: greek, transliteration: "skandalon", strongs_id: "G4625", gloss: "stumbling block, trap", notes: "Matthew 13:41, 16:23, 18:7 (x3). Wordplay on Πέτρος/πέτρα 16:18 (NIV BTSB, NIV CBSB)."}
+        - {word: "φρονέω", language: greek, transliteration: "phroneō", strongs_id: "G5426", gloss: "set the mind on", notes: "Only here in Matthew."}
+        - {word: "ὀπίσω", language: greek, transliteration: "opisō", strongs_id: "G3694", gloss: "behind, after", notes: "Matthew 3:11, 4:19, 10:38, 16:23, 16:24, 24:18. ὀπίσω μου at 4:19, 10:38, 16:23, 16:24."}
+        - {word: "ἀπαρνέομαι", language: greek, transliteration: "aparneomai", strongs_id: "G533", gloss: "deny utterly, disown", notes: "11x NT, all in the Synoptics: the self-denial saying (Matthew 16:24; Mark 8:34) and Peter's denial (Matthew 26:34, 35, 75; Mark 14:30, 31, 72; Luke 22:34, 61), plus Luke 12:9. Aorist middle imperative at 16:24."}
+        - {word: "αἴρω", language: greek, transliteration: "airō", strongs_id: "G142", gloss: "take up, lift", notes: "Aorist imperative ἀράτω."}
+        - {word: "σταυρός", language: greek, transliteration: "stauros", strongs_id: "G4716", gloss: "cross", notes: "Matthew 10:38, 16:24, 27:32, 27:40, 27:42."}
+        - {word: "ἀκολουθέω", language: greek, transliteration: "akoloutheō", strongs_id: "G190", gloss: "follow", notes: "Present imperative ἀκολουθείτω -- keep following."}
+        - {word: "ψυχή", language: greek, transliteration: "psychē", strongs_id: "G5590", gloss: "life, soul", notes: "16:25 x2 and 16:26 x2; ESV renders 'life' then 'soul'. Also 20:28 'give his life (ψυχή) as a ransom'. Psalm 48:9 LXX (Eng 49:8) τὴν τιμὴν τῆς λυτρώσεως τῆς ψυχῆς."}
+        - {word: "ἀντάλλαγμα", language: greek, transliteration: "antallagma", strongs_id: "G465", gloss: "something given in exchange", notes: "NT 2x: Matthew 16:26, Mark 8:37."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >-
+        The cross as Roman execution is cultural; the principle (allegiance to Jesus over one's own
+        life, accepting loss for His sake) is transcultural and repeated: 10:38-39; Luke 9:23
+        ('daily'); Luke 14:27; Galatians 2:20; 1 Peter 2:21.
+    theological_principle:
+      done: true
+      notes: >-
+        God's way to glory goes through the cross, for the Messiah first (the divine δεῖ) and then
+        for those who follow Him; trying to save one's life by refusing that road loses it.
+        Statement-of-faith intersections: (1) salvation by grace alone -- v.25 is not a price paid
+        for salvation; the ransom (20:28) is His. Present the Lordship vs Free Grace readings of
+        'save his life' as contested. (2) 16:27 reward: for believers the judgment seat of Christ
+        (2 Corinthians 5:10), reward not acquittal, consistent with statement-of-faith 'Reward for
+        the believer'. No conflict found.
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Matthew 4:8-10", relation: "verbal: kingdoms of the world / whole world; ὕπαγε, σατανᾶ"}
+      - {ref: "Matthew 4:17-19", relation: "verbal: Ἀπὸ τότε ἤρξατο; δεῦτε ὀπίσω μου (Peter's call)"}
+      - {ref: "Matthew 27:40-42", relation: "save yourself / come down from the cross"}
+      - {ref: "Matthew 20:28", relation: "ψυχή given as λύτρον -- inference link to 16:26"}
+      - {ref: "Psalm 49:7-8", relation: "no man can ransom a life -- inference link to 16:26"}
+      - {ref: "Psalm 62:12; Proverbs 24:12", relation: "16:27 echo; LXX ἀποδώσεις ἑκάστῳ κατὰ τὰ ἔργα αὐτοῦ; Matthew has κατὰ τὴν πρᾶξιν (LSB 'Lit doing') -- allusion, not quotation. bible_trace leads tier only."}
+      - {ref: "2 Peter 1:16-18", relation: "Peter on the transfiguration as eyewitness of glory -- 16:28"}
+      - {ref: "John 21:18-19", relation: "Peter's death foretold, 'Follow me'"}
+      - {ref: "1 Peter 1:11; 2:21; 4:13", relation: "Peter's later teaching on suffering then glory"}
+    translations_compared: ["ESV", "NASB 2020", "WEB", "LSB (footnotes)", "CSB (footnotes)", "NA28", "UGNT (via interlinear)"]
+    divergences_noted: >-
+      16:22 ἵλεώς σοι: ESV/WEB 'Far be it from you', NASB 'God forbid it'; LSB/CSB footnotes give
+      the literal '(God be) merciful to you'. 16:23 σκάνδαλον: ESV 'hindrance', WEB/NASB 'stumbling
+      block' (keeps the stone image against 'rock' in 16:18). 16:25-26 ψυχή: ESV/NASB 'life'...'soul'
+      splits one Greek word; WEB 'life' throughout keeps it. 16:21: two early mss read 'Jesus
+      Christ' (LSB footnote; UGNT has Χριστός).
+  drafting:
+    done: true
+    file: "docs/content/christian-life/take-up-your-cross.md"
+  review:
+    done: false
+    validated: true
+    review_2026-10-10:
+      checked: >-
+        All ESV quotations re-queried from study-notes.db (verbatim match); NASB 2020, NIV, WEB
+        renderings; LXX texts (Deut 32:29, Isa 44:18, 1Chr 11:19, 2Sam 20:20, Gen 2:7, Lev 17:11,
+        Ps 48:9); SBLGNT for every Greek claim; all claims: counts re-run (all match); Strong's
+        numbers; Louw-Nida domains (Matt 16:23 30.20; Rom 11:20, 12:16 88.209; psyche 37/28);
+        ESV SB / NIV BTSB / NIV CBSB notes as attributed; translator footnotes for 16:21-28 and
+        26:33-75; NLT Life Application notes 16:22-25 as independent check (confirms wilderness
+        parallel and self-protection reading; silent on pride); review_gaps (no quotation gaps);
+        cross_study_claims Matthew 16 (no conflicts); internal links and anchors; validate clean.
+      fixed: >-
+        epitimao: Jesus rebukes in three of six (12:16 missed); opiso mou: five in Matthew (3:11
+        missed); thelo "the next time" false (11 uses between) and broken sentence; ESV SB 16:25
+        note misattributed ("mark of genuine faith" not in the note); "Follow me" 21:19 claimed
+        same word as 4:19 (Greek differs); 6:33 "That is what Jesus meant" softened; redundant
+        "contested" clause; bible_references + Matthew 3:11, Isaiah 53:10-12, Ephesians 2:8-9.
+        peter.md: "three times 'I do not know the man'" (only 26:72, 74; 26:70 differs);
+        "the words of Peter's first call".
+      left_for_author: >-
+        (1) Saving-your-life Conclusion: "Fear drives that want (10:26-31), and pride defends it
+        (26:33)" is unmarked inference; 10:26-31 links fear to denial, not to wanting to save one's
+        life, and 26:33-35 shows Peter willing to die. (2) "Matthew traces it through the last
+        night" / peter.md "the same failure" assert the study's reading as Matthew's. (3) Underclaims:
+        Matt 10:33 uses arneomai, the verb of the courtyard denials (26:70, 72) -- textual support for
+        the fear > denial line; ESV SB 16:25 note frames self-saving as pursuing one's own will over
+        God's (direct support for the thesis); NLT footnote 16:26 "Or your self". (4) 1 Pet 4:1 is
+        ennoia, not phroneo -- "set their minds" may imply the word study's verb. (5) "the wrong way
+        round" (fear section) is unclear. (6) Tags "cross" and "fear" are new single-use tags;
+        "crucifixion" exists. (7) Conclusion paragraphs restate the preceding section.
+
+open_questions:
+  - "Author direction 2026-10-09: no fork -- the self-preservation (pride and fear) vs humility reading is worked out in this study via the φρονέω and ψυχή word studies. Salvation-vs-reward reading of 16:25 kept as a short contested note."
+  - "ON PUBLISH: add a link from biblical-figures/peter.md (section 'From the rebuke to the restoration') to christian-life/take-up-your-cross.md in the SAME commit that flips draft: false (validator Check 24). peter.md section was added 2026-10-09 without the link for that reason."
+  - "Diachronic step limited to LXX: no classical lexicon (LSJ) or Moulton-Milligan available locally, so classical/papyri usage of φρονέω and ψυχή was not checked."
+  - "Fear in the courtyard denial is an inference (Matthew does not name it); the study says so. Fear is explicit at Matthew 14:30 and Galatians 2:12."
+  - "Hebrews 8:12 ἵλεως link (Peter invokes God's mercy against the cross that secures it) -- an observation, not Matthew's intent; keep it to one sentence marked as such or drop it."
+claims:
+  - id: phroneo-nt
+    what: φρονέω occurrences in the NT
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='φρονέω'"
+    expect: 26
+  - id: phroneo-gospels
+    what: φρονέω in the Gospels -- only Matthew 16:23 and Mark 8:33
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='φρονέω' AND book IN ('Matt','Mark','Luke','John')"
+    expect: 2
+  - id: phroneo-lxx
+    what: φρονέω in the Septuagint (lxx-lemmas)
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='lxx-lemmas' AND lemma='φρονεω'"
+    expect: 14
+  - id: psyche-nt
+    what: ψυχή occurrences in the NT
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='ψυχή'"
+    expect: 102
+  - id: psyche-matt
+    what: ψυχή in Matthew
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='ψυχή' AND book='Matt'"
+    expect: 16
+  - id: sozo-psyche-verses
+    what: verses with both σῴζω and ψυχή
+    sql: |
+      SELECT COUNT(DISTINCT a.book||a.chapter||':'||a.verse) FROM morphology a JOIN morphology b
+        USING(work_id,book,chapter,verse) WHERE a.work_id='macula-greek-sblgnt' AND a.lemma='σῴζω' AND b.lemma='ψυχή'
+    expect: 8
+  - id: aparneomai-matt
+    what: ἀπαρνέομαι in Matthew (16:24; 26:34, 35, 75)
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='ἀπαρνέομαι' AND book='Matt'"
+    expect: 4
+  - id: epitimao-matt
+    what: ἐπιτιμάω in Matthew
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='ἐπιτιμάω' AND book='Matt'"
+    expect: 6
+  - id: antallagma-nt
+    what: ἀντάλλαγμα in the NT (Matthew 16:26; Mark 8:37)
+    sql: "SELECT COUNT(*) FROM morphology WHERE work_id='macula-greek-sblgnt' AND lemma='ἀντάλλαγμα'"
+    expect: 2
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Notes on 16:21-28, 10:38. Contributed: four passion predictions; three γάρ reasons; six views of 16:28 with transfiguration preferred + 2 Peter 1:16-18."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Contributed: 4:17/16:21 as section markers; 'Get behind me' = 'Get away from me'; rock -> stumbling block."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Contributed: patibulum; disciples walked behind teachers (the other reading of 'behind me'); Peter in Satan's role per 4:8-10 and 27:42-43; Simon of Cyrene irony; 1 Enoch 108:10 / 2 Baruch 51:15-16 on losing life for eternal life."}
+  - {type: other, title: "LSB and CSB footnotes", author: "Lockman / Holman", note: "Lit '(God be) merciful to You'; ψυχή 'Or soul'; πρᾶξιν 'Lit doing'; 'Jesus Christ' in two early mss."}
+  - {type: lexicon, title: "MACULA Greek SBLGNT morphology; Brenton LXX", author: "Clear Bible / Brenton", note: "Concordance counts and LXX texts above."}
+last_updated: "2026-10-10"
+# 2026-10-10: author approved all "left for the author" review items; applied in the main session:
+#   fear conclusion rebuilt on Matthew 10:33 ἀρνέομαι (= 26:70, 72) and the ESV SB 16:25 note, marked as
+#   the study's reading; "same mind"/"same failure" marked as inference (study + peter.md); NLT "Or your
+#   self" footnote added; 1 Peter 4:1 ἔννοια noted; tear/three-questions inferences marked; tags cross/fear
+#   -> crucifixion; G5217/G4567 tagged; Conclusion 1 shortened; line-346 contrast stated positively.

@@ -15,5 +15,6 @@ draft: false
 - [John son of Zebedee](../../biblical-figures/john.md) — 2:9
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 2:7-9
 - [Simon Peter](../../biblical-figures/peter.md) — 2:11-14
+- [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 2:12
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 2:20
 <!-- commentary-index:auto-end -->
