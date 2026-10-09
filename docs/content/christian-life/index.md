@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-04
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -96,6 +96,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     A seven-week household guide to the Lord's Prayer, one line a week: what each line shows about God, a Bible story, questions for children and adults, a practice for the home, a verse to learn, and Paul's prayers to pray over your children.
 
     [:octicons-arrow-right-24: Read](teaching-the-lords-prayer-at-home.md)
+
+-   __Test the Spirits: Recognising False Teachers and Wolves__
+
+    ---
+
+    The apostles expected false teachers to rise inside the church. Scripture tells you to keep testing every teacher by three marks: the Christ they preach, the life they live, and where they lead you. Signs, crowds and Bible words prove nothing, and the One in you is greater.
+
+    [:octicons-arrow-right-24: Read](test-the-spirits.md)
 
 </div>
 <!-- section-index:auto-end -->

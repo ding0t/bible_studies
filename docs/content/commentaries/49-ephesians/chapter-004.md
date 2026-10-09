@@ -19,6 +19,7 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 4:2
 - [Know the Truth](../../christian-life/know-the-truth.md) — 4:14-15
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 4:32
+- [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 4:11-15
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:30
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 4:32
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:29

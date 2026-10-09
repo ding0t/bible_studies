@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 7:15-23 (primary passage)
 - [Faith](../../salvation/faith.md) — 7:6
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 7:15-16
 - [The Way](../../jesus/the-way.md) — 7:13-14

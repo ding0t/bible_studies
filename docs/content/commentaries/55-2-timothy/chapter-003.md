@@ -18,5 +18,6 @@ draft: false
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 3:5
 - [Know the Truth](../../christian-life/know-the-truth.md) — 3:7
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 3:15
+- [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 3:1-7
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 3:16-17
 <!-- commentary-index:auto-end -->

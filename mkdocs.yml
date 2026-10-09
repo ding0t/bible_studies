@@ -81,6 +81,8 @@ plugins:
   # See docs/content/about/our-taxonomy.md and docs/dev/taxonomy-migration.md.
   - redirects:
       redirect_maps:
+        # Test the Spirits became a study of recognising false teachers and moved beside Hurt by the Church on 2026-10-10.
+        'spiritual-beings/test-the-spirits.md': 'christian-life/test-the-spirits.md'
         # Pages about dating biblical history moved into their own Chronology section on 2026-10-08.
         'last-things/chronology-anchors.md': 'chronology/chronology-anchors.md'
         'last-things/four-hundred-and-eighty-years.md': 'chronology/four-hundred-and-eighty-years.md'
@@ -432,7 +434,7 @@ plugins:
         'studies/spiritual-disciplines/be-prepared.md': 'christian-life/be-prepared.md'
         'studies/spiritual-disciplines/fasting.md': 'christian-life/fasting.md'
         'studies/spiritual-disciplines/index.md': 'christian-life/index.md'
-        'studies/spiritual-disciplines/test-the-spirits.md': 'spiritual-beings/test-the-spirits.md'
+        'studies/spiritual-disciplines/test-the-spirits.md': 'christian-life/test-the-spirits.md'
         'studies/teaching-resources/index.md': 'sermons/index.md'
         'studies/teaching-resources/on-teaching.md': 'sermons/on-teaching.md'
         'studies/teaching-resources/sermon-howto.md': 'sermons/sermon-howto.md'

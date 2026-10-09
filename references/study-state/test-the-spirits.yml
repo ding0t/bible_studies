@@ -1,0 +1,120 @@
+slug: "test-the-spirits"
+title: "Test the Spirits: Recognising False Teachers and Wolves"
+status: review
+target_path: "docs/content/christian-life/test-the-spirits.md"
+
+primary_passage: "1 John 4:1-6; Deuteronomy 13:1-5; Matthew 7:15-23"
+supporting_passages:
+  - "Deuteronomy 18:20-22; Jeremiah 23:16-32; Ezekiel 13:1-23; Isaiah 8:20"
+  - "Matthew 24:4-5, 11, 24-25; 2 Thessalonians 2:9-11"
+  - "Acts 17:11; Acts 20:28-32; Revelation 2:2, 20; 1 Thessalonians 5:19-22"
+  - "1 John 2:18-27; 2 John 7-11; 1 Corinthians 12:3; 2 Corinthians 11:3-4, 13-15; Galatians 1:6-9"
+  - "2 Peter 2:1-3, 10, 14-15, 18-19; Jude 3-4, 8, 11-13, 16, 19-25; 1 Timothy 4:1-3; 1 Timothy 6:3-5; Titus 1:9-11, 16; Romans 16:17-18; 2 Timothy 3:1-7; 4:3-4"
+  - "John 10:4-5, 27-29; Ephesians 4:11-15; 2 Timothy 2:24-26; Hebrews 13:7-9"
+genre: [topical, epistle, gospel, law, prophets]
+
+thesis: >-
+  God guards His flock by giving it one fixed standard, the apostles' teaching about Jesus Christ
+  come in the flesh; Scripture tells you to keep testing every teacher against it by three marks it
+  repeats -- the Christ he preaches, the life he lives, and where he leads you -- because signs,
+  success and Bible words can all be counterfeited, and the One who is in you is greater than the
+  one who is in the world.
+outline:
+  - section: "Hook, In one sentence, Key Takeaways, Study outline"
+    says: "Wolves are a pastoral reality the apostles expected; God gave a test and a Shepherd."
+  - section: "Test, keep testing"
+    says: "dokimazo is the assayer's word (1 Pet 1:7), present imperative; 1 Thess 5:21 test everything and hold fast; Bereans; Ephesus commended (Rev 2:2)."
+  - section: "Where wolves come from"
+    says: "From inside (Acts 20:30; 2 Pet 2:1 pareisago; Jude 4; 1 John 2:19); disguised (2 Cor 11:13-15); behind them spirits (1 Tim 4:1; 1 John 4:3; Ezek 13:3)."
+  - section: "What does not prove a teacher"
+    says: "Signs come true (Deut 13:1-3, nasah -- God is testing you); Matt 7:22; Matt 24:24; crowds (2 Pet 2:2; 1 John 4:5); borrowed words (Jer 23:30). Deut 18 is a necessary test, Deut 13 shows it is not sufficient."
+  - section: "First mark: the Christ they preach"
+    says: "1 John 4:2-3; 2:22-23; 2 John 7, 9; Cerinthus (Irenaeus) as likely background; another Jesus/spirit/gospel (2 Cor 11:4; Gal 1:8); deny the Master who bought them (2 Pet 2:1; Jude 4)."
+  - section: "Second mark: the life they live"
+    says: "Fruit (Matt 7:16-20); harpax = swindler; greed, sensuality, contempt for authority (2 Pet 2; Jude; Titus 1:11, 16; 1 Tim 6:5)."
+  - section: "Third mark: where they lead you"
+    says: "Away from God (Deut 13:5), after themselves (Acts 20:30), to peace without repentance (Jer 23:17; Ezek 13:10, 22), to what itching ears want (2 Tim 4:3), into new rules (1 Tim 4:3), into division (Rom 16:17; Jude 19)."
+  - section: "What to do"
+    says: "Abide in what you heard (1 John 2:24, 27; 2 Tim 3:14-17); no platform (2 John 10-11); avoid (Rom 16:17); elders refute (Titus 1:9-11); mercy for the wavering (Jude 22-23; 2 Tim 2:25). Distinguish wolves from brothers -- hurt-by-the-church."
+  - section: "Kept by the Shepherd"
+    says: "John 10:4-5, 27-29; 1 John 4:4; Eph 4:14; the end-time deception (Matt 24:24; 2 Thess 2:9-11) and Jude 24."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >-
+      Existing page (spiritual-beings/test-the-spirits.md, 1,755 words, mostly two long block
+      quotes of Jude and Ezekiel 13 with a three-item list) developed at the author's request on
+      2026-10-10 into a study of recognising false teachers. Moved to christian-life/ because the
+      subject is practical discernment of teachers in the church; it sits beside hurt-by-the-church
+      and know-the-truth. Redirect added in mkdocs.yml.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        1 John: secessionists who "went out from us" (2:19) and deny Jesus is the Christ (2:22) /
+        Jesus Christ come in the flesh (4:2). Irenaeus, Against Heresies 1.26.1 (ANF 1) records
+        Cerinthus separating Jesus from a Christ who descended at baptism and left before the
+        passion; 3.3.4 has the Ephesus bath-house story via Polycarp. Fits 2:22 closely but the
+        identification is a likelihood. 2 John 10: house-church hospitality to travelling teachers
+        (cf. 3 John 5-8). Deuteronomy 13: covenant loyalty; prophet whose sign comes true.
+    literary_context:
+      done: true
+      notes: >-
+        Matt 7:15-23 sits in the Sermon's closing warnings (ESV SB: two gates, two prophets, two
+        disciples, two foundations), after "judge not" (7:1) and pearls before pigs (7:6) -- the
+        balance of not judging and not being naive. 1 John 4:1-6 follows 3:24 (by the Spirit he
+        has given us) and precedes 4:7 love; truth and love belong together in the letter.
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "δοκιμάζω", language: greek, transliteration: "dokimazō", strongs_id: "G1381", gloss: "test, prove, approve", notes: "Present imperative in 1 John 4:1 and 1 Thess 5:21. 1 Pet 1:7 of gold tested by fire; LXX Prov 17:3."}
+        - {word: "נָסָה", language: hebrew, transliteration: "nasah", strongs_id: "H5254", gloss: "test", notes: "Deut 13:3 Piel participle: the LORD is testing you."}
+        - {word: "ψευδοπροφήτης", language: greek, transliteration: "pseudoprophētēs", strongs_id: "G5578", gloss: "false prophet", notes: "11x SBLGNT."}
+        - {word: "ψευδοδιδάσκαλος", language: greek, transliteration: "pseudodidaskalos", strongs_id: "G5572", gloss: "false teacher", notes: "1x, 2 Pet 2:1, set beside the false prophets of Israel."}
+        - {word: "παρεισάγω", language: greek, transliteration: "pareisagō", strongs_id: "G3919", gloss: "bring in secretly", notes: "2 Pet 2:1."}
+        - {word: "ἅρπαξ", language: greek, transliteration: "harpax", strongs_id: "G727", gloss: "ravenous; swindler", notes: "5x: Matt 7:15 ravenous; Luke 18:11, 1 Cor 5:10, 11; 6:10 swindler(s)."}
+        - {word: "ἀντίχριστος", language: greek, transliteration: "antichristos", strongs_id: "G500", gloss: "antichrist", notes: "5x, all in 1-2 John (1 John 2:18 x2, 2:22, 4:3; 2 John 7)."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >-
+        Deut 13:5's death penalty belongs to Israel's theocratic civil law; the transcultural
+        principle is that doctrine judges signs. The church's sanction is avoidance and refusal of
+        platform (Rom 16:17; 2 John 10). 2 John 10 concerns receiving a teacher as a teacher into
+        the house church, not ordinary courtesy.
+    theological_principle:
+      done: true
+      notes: "See thesis. Consistent with statement-of-faith 'Scripture alone is the revelation of truth' (Acts 17:11; Isa 8:20). No conflict."
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "christian-life/hurt-by-the-church.md", relation: "pastoral sibling: brothers, shepherds, wolves, weeds; this study is the full treatment of its 'How to test them'"}
+      - {ref: "christian-life/know-the-truth.md", relation: "the father of lies; 2 Cor 11:3"}
+      - {ref: "god/dreams-and-visions/index.md", relation: "Deut 13 framework for testing dreams"}
+      - {ref: "sin/sorcery.md", relation: "Deut 13 and accurate predictions"}
+    translations_compared: ["ESV", "ULT interlinear"]
+    divergences_noted: ""
+  drafting:
+    done: true
+    file: "docs/content/christian-life/test-the-spirits.md"
+  review:
+    done: false
+    validated: true # npm run validate (no warnings on this file) and mkdocs build --strict, 2026-10-10. Independent review-bible-study pass not yet run.
+
+open_questions:
+  - "Fork candidate: the false prophet of Revelation 13 and 19:20 and the end-time deception of 2 Thessalonians 2 -- touched in one paragraph here, deserves its own last-things treatment."
+  - "Fork candidate: spiritual gifts of discernment (1 Corinthians 12:10; 14:29) -- the charismatic side of 'test the spirits' is not covered."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Notes on 1 John 4:1, Matt 7:13-29 and 7:15-20, Deut 13:3. Contributed the Matt 7 balance with 7:1-6 and the Deut 13:3 reading of signs."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "1 John 4:1 -- 'gone out' read as the secessionists of 2:19. Contributed the link between 4:1 and 2:19."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "1 John 4:1 -- Jewish association of false prophecy with wrong spirits (1 Kgs 22:22-23; Ezek 13:3); Matt 7:15 wolf imagery. Contributed 1 Kings 22."}
+  - {type: other, title: "Irenaeus, Against Heresies 1.26.1; 3.3.4", author: "ANF vol. 1", note: "Cerinthus' doctrine; John and Cerinthus at Ephesus."}
+  - {type: lexicon, title: "Macula Greek (SBLGNT), Macula Hebrew (WLC)", author: "", note: "occurrence data"}
+last_updated: "2026-10-10"

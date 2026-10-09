@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Pride](../../sin/pride.md) — 1:9
+- [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 1:5-8
 <!-- commentary-index:auto-end -->

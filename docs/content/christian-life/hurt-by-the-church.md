@@ -216,7 +216,8 @@ had "crept in unnoticed" and were "hidden reefs at your love feasts ... shepherd
 
 ### How to test them
 
-Scripture gives tests you can use:
+Scripture gives tests you can use. [Test the Spirits](test-the-spirits.md) works through them in
+full:
 
 - **What they say about Jesus.** "Every spirit that confesses that Jesus Christ has come in the flesh
   is from God" (1 John 4:2, ESV).
@@ -322,6 +323,8 @@ under the Good Shepherd who will never leave you.**
 
 - [Forgive Us Our Debts](forgiveness.md) — what forgiving someone who hurt you asks of you, and what
   it does not.
+- [Test the Spirits](test-the-spirits.md) — how Scripture teaches you to recognise a false teacher:
+  the Christ they preach, the life they live, and where they lead you.
 - [Where Two or Three Are Gathered](../israel-and-church/where-two-or-three-are-gathered.md) —
   going to a brother who has sinned, and church discipline.
 - [Scribes and Pharisees](../scripture/scribes-and-pharisees.md) — the religious leaders Jesus

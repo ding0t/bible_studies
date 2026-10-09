@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 1:10-11
+- [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 1:9-11
 <!-- commentary-index:auto-end -->

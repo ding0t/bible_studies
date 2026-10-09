@@ -19,6 +19,7 @@ draft: false
 - [Passover: When I See the Blood](../../feasts/passover.md) — 1:18-19
 - [Simon Peter](../../biblical-figures/peter.md) — 1:1
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 1:11
+- [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 1:7
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:19
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:18-19
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 1:4

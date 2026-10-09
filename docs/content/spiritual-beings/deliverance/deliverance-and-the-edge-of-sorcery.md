@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Acts 16:16-18"
 bible_references: ["Acts 16:14", "Acts 16:19", "Acts 16:31", "Acts 4:2", "Acts 19:13-20", "Deuteronomy 18:10-11", "Deuteronomy 18:15", "Deuteronomy 13:1-5", "1 Samuel 28:8", "1 Chronicles 10:13-14", "Isaiah 8:19", "Mark 1:24-25", "Mark 1:32-34", "Luke 4:41", "Mark 5:7-9", "Luke 10:17-20", "1 John 4:1-4", "1 Corinthians 6:19", "Colossians 1:13", "Colossians 2:15", "Hebrews 2:14", "James 4:7", "Ephesians 6:11-12", "1 Peter 5:8", "James 2:19", "1 Timothy 4:1", "2 Corinthians 11:14-15", "Mark 9:17-27", "Luke 8:29", "Jude 8-10", "2 Peter 2:10-11", "Matthew 8:29", "1 Corinthians 10:20-21", "Matthew 12:43"]
 date_created: 2026-09-26
-date_modified: 2026-09-28
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -223,7 +223,7 @@ is from God" (1 John 4:1-2, ESV). The criterion is doctrinal content. Deuteronom
 ruled that a sign coming true settles nothing about where it came from. An accurate word is what the
 spirit at Philippi supplied for many days (Acts 16:16-18), and "even Satan disguises himself as an
 angel of light" (2 Corinthians 11:14, ESV). See also
-[Test the Spirits](../test-the-spirits.md).
+[Test the Spirits](../../christian-life/test-the-spirits.md).
 
 This shows that God has put discernment within reach of every believer. The test is what a spirit
 confesses about His Son, and you can apply it with an open Bible.
@@ -349,4 +349,4 @@ house.
 - [Christians and Deliverance Ministry](christians-and-deliverance.md) — the δαιμονίζομαι word study.
 - [Contemporary Deliverance in Christianity](contemporary-deliverance.md) — a survey of specific
   ministries.
-- [Test the Spirits](../test-the-spirits.md) — discerning false teaching.
+- [Test the Spirits](../../christian-life/test-the-spirits.md) — discerning false teaching.
