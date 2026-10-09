@@ -4,7 +4,7 @@ category: "other"
 description: "Personal Bible study notes: the Old and New Testaments read in context, with word studies in the original languages and every claim traceable to a source."
 draft: false
 date_created: 2026-07-10
-date_modified: 2026-10-08
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -29,8 +29,8 @@ ai_provider_models:
 
 </div>
 
-Long before Jesus spoke those words, the road was already there — Isaiah told Israel to walk in it
-seven centuries before Bethlehem. When Jesus claimed to *be* that way, he was fulfilling what the Old Testament had foreshadowed of the Messiah.
+Isaiah told Israel to walk in the way seven centuries before Bethlehem. When Jesus claimed to *be*
+that way, He was fulfilling what the Old Testament had foreshadowed of the Messiah.
 
 Jesus' earliest followers heard it that way too: before anyone called them Christians,
 they called themselves the Way — Greek **ὁδός** (*hodos*, G3598), the
@@ -41,19 +41,17 @@ through John 14:6 and into the book of Acts.
 
 These are personal Bible study notes — written to make sure I learn, and shared in case they help
 someone else. The Bible is one integrated message about God's dealings with humanity, and it repays
-close study — study I hope will move the author from milk to solid food
-(Hebrews 5:12-14).
+close study. I hope that study moves me from milk to solid food (Hebrews 5:12-14).
 
-As personal study notes, they are of course not authoritative. The reader is encouraged to question
-and validate, as the Bereans did
-(Acts 17:11).
+They are personal study notes, so test them. Question and check what you read here, as the Bereans
+did (Acts 17:11).
 
 One of the tools I use in the development of these studies is AI. That may well put you off — how
 can AI be of use when it is trained on all the wisdom of man? True. But the models question some of
 the positions I take, and that sends me back to Scripture to test them — the same Berean check I ask
 of you, "examining the Scriptures daily to see if these things were so" (Acts 17:11, ESV). The
-Bereans ran that check on an apostle's preaching, so every voice is tested by it, the model's
-objections and my own positions alike. A challenge shows where a case is weak, and Scripture tells
+Bereans tested even an apostle's preaching that way, and I test the model's objections and my own
+positions the same way. A challenge shows where a case is weak, and Scripture tells
 me to test what I hold (Proverbs 18:17; 1 Thessalonians 5:21). In doing that, I learn, and train my
 mind and heart to defend the truth of Christ. Some AI terminology does slip through, and it annoys
 me too. By publishing, I am accountable to review these studies (2 Timothy 2:15), remember what I
@@ -64,7 +62,7 @@ The studies have a focus on:
 - Building practical knowledge and wisdom of God. Helped along by consistent thinking about ["how does this impact me"](about/key-takeaways.md).
 - Understanding faith in God as described in the Old and New Testaments of the Bible, in order to be prepared to explain the truth in love.
 - Exegetical and expository [original-language studies](about/about-our-datasets.md). That is using source texts to elicit meaning sometimes lost in just one or more English translations.
-- Bible end times — Scripture says we are in the last days, and it matters to know where we stand with God before hard days arrive.
+- Bible end times. Scripture says we are in the last days, and it matters to know where we stand with God before hard days arrive.
 - Starting the journey of [learning biblical Hebrew](resources/hebrew-learning-resources.md).
 - Answering little [side quests](god/world-population-declares-gods-creation-and-biblical-truth.md) that come up.
 - Keeping a [tidy house](about/our-taxonomy.md).
@@ -84,8 +82,7 @@ grave three days later, defeating death itself
 
 You do not earn this by being good enough. It is a gift, received by grace through faith in Christ
 alone (Ephesians 2:8-9). Whoever calls on the
-name of the Lord will be saved (Romans 10:13)
-— that offer is as real for you, today, as it was for anyone.
+name of the Lord will be saved (Romans 10:13). That includes you, today.
 
 See my full [Statement of Faith](about/statement-of-faith.md) for how this fits together.
 
@@ -93,37 +90,36 @@ See my full [Statement of Faith](about/statement-of-faith.md) for how this fits 
 
 Faith in Christ rests on evidence that can be examined. Here is what convinces me.
 
-**Creation testifies.** The order, fine-tuning, and sheer existence of the universe point to a Creator, not an accident — "the heavens declare the glory of God" (Psalm 19:1, ESV), and what can be known of God is plain from what He made (Romans 1:20). See how I understand the [creation account itself](about/statement-of-faith.md#creation).
+**Creation testifies.** The order, fine-tuning, and existence of the universe point to a Creator: "the heavens declare the glory of God" (Psalm 19:1, ESV), and what can be known of God is plain from what He made (Romans 1:20). See how I understand the [creation account itself](about/statement-of-faith.md#creation).
 
-**Archaeology testifies.** Discoveries in the ground keep confirming, not undermining, the biblical record — see [Ancient Texts, Manuscripts, and Inscriptions Validating Scripture](scripture/ancient-texts-manuscripts.md) for specific examples, the Dead Sea Scrolls among them.
+**Archaeology testifies.** Discoveries in the ground keep confirming the biblical record. See [Ancient Texts, Manuscripts, and Inscriptions Validating Scripture](scripture/ancient-texts-manuscripts.md) for specific examples, the Dead Sea Scrolls among them.
 
-**The documents themselves testify.** The Bible is, by a wide margin, the best-attested document to survive from the ancient world — more manuscripts, closer to the original writing, than any other ancient text we treat as reliable history. That case is laid out in the same [manuscript evidence study](scripture/ancient-texts-manuscripts.md).
+**The documents themselves testify.** The Bible is the best-attested document to survive from the ancient world, with more manuscripts, closer to the original writing, than any other ancient text we treat as reliable history. The same [manuscript evidence study](scripture/ancient-texts-manuscripts.md) sets out the case.
 
 **Prophecy testifies.** Scripture named the Messiah's birthplace
 (Micah 5:2), described a death by piercing of
 hands and feet (Psalm 22:16-18), and said
-he would suffer and die in the place of others
-(Isaiah 53:5) — all written centuries before
-Jesus was born, in documents datable well before his lifetime.
+He would suffer and die in the place of others
+(Isaiah 53:5). All of it was written centuries before
+Jesus was born, in documents datable well before His lifetime.
 
-Psalm 22:16 carries a real textual question, and the study behind this page does not paper over it:
-the Masoretic Text reads <span dir="rtl">כָּאֲרִי</span> (*ka'ari*), "like a lion," while the
+Psalm 22:16 carries a textual question. The Masoretic Text reads <span dir="rtl">כָּאֲרִי</span> (*ka'ari*), "like a lion," while the
 Septuagint has ὤρυξαν, "they pierced." The ESV follows the Septuagint reading. See
 [Bible Prophecy Essentials](last-things/prophecy-essentials.md) for the evidence on both sides.
 
 Daniel pins down the era itself, counting out the years to the Messiah's coming and being "cut off"
 (Daniel 9:25-26, ESV); see
 [Prophecy Events and Times](last-things/prophecy-events-times.md) for how that count lands on
-Christ's own ministry. Many such prophecies converge on one person, centuries ahead of the fact —
-which is not what coincidence produces.
+Christ's own ministry. Many such prophecies converge on one person, written centuries ahead of the
+fact.
 
-**Christianity does not rest on my good works.** I am not saved because I was good enough — no one is. I am saved by the grace of God in Christ, full stop (Ephesians 2:8-9) — see [Salvation](about/statement-of-faith.md#salvation) for the fuller statement.
+**Salvation rests on God's grace.** No one is good enough to earn it, and I am saved by the grace of God in Christ (Ephesians 2:8-9). See [Salvation](about/statement-of-faith.md#salvation) for the fuller statement.
 
-**I have seen it myself.** Beyond the evidence, I know the work of Christ and the Holy Spirit because I have seen lives — including my own — actually transformed by it. Anyone who is in Christ is a new creation; the old has gone, the new has come (2 Corinthians 5:17). That's not theory to me.
+**I have seen it myself.** I know the work of Christ and the Holy Spirit because I have seen lives transformed by it, my own among them. Anyone who is in Christ is a new creation; the old has gone, the new has come (2 Corinthians 5:17).
 
 ## Interactive tools
 
-Two of these studies are charts you can drive rather than pages you read.
+Three of these studies are charts you can explore.
 
 <div class="grid cards" markdown>
 
@@ -131,9 +127,9 @@ Two of these studies are charts you can drive rather than pages you read.
 
     ---
 
-    Look up a verse and see what it quotes, what quotes it, and what it echoes — with the shared
-    wording highlighted in the original Greek or Hebrew. Every link is derived from the texts
-    themselves rather than copied from a reference list, so you can see why it was made.
+    Look up a verse and see what it quotes, what quotes it, and what it echoes, with the shared
+    wording highlighted in the original Greek or Hebrew. Every link is derived from the wording of
+    the texts themselves, so you can see why it was made.
 
     [:octicons-arrow-right-24: Look up a verse](references/)
 
@@ -175,7 +171,7 @@ Two of these studies are charts you can drive rather than pages you read.
 
     ---
 
-    The method behind every study here — genre, context, and original audience before application.
+    The method behind every study here: genre, context, and original audience before application.
 
     [:octicons-arrow-right-24: Read](scripture/how-to-read-the-bible.md)
 
@@ -199,7 +195,7 @@ Two of these studies are charts you can drive rather than pages you read.
 
     ---
 
-    Who writes this, how AI is used, what I believe, which translation and why — and how to check
+    Who writes this, how AI is used, what I believe, which translation and why, and how to check
     any claim here for yourself.
 
     [:octicons-arrow-right-24: Read](faq.md)
@@ -208,8 +204,8 @@ Two of these studies are charts you can drive rather than pages you read.
 
     ---
 
-    Lemma, MACULA, pericope, Septuagint — short definitions of the terms these studies use, each
-    linked to the page that explains it properly.
+    Lemma, MACULA, pericope, Septuagint: short definitions of the terms these studies use, each
+    linked to the page that explains it in full.
 
     [:octicons-arrow-right-24: Look up a term](glossary.md)
 
