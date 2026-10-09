@@ -622,7 +622,252 @@ def build_ark():
                  'The ark of the covenant, Exodus 25:10-22', ARK_DESC, body)
 
 
-PLATES = {'lampstand': build_lampstand, 'incense-altar': build_incense_altar, 'ark': build_ark}
+ALMOND_STATE = Path('references/study-state/almond.yml')
+BLOSSOM = '#fdf4f2'
+BLOSSOM_EDGE = '#d7a3a8'
+BLOSSOM_HEART = '#b5536a'
+LEAF = '#7d9a4c'
+HULL = '#97a862'
+SHELL = '#c49a5e'
+WOOD = '#8a6a43'
+
+
+def evidence_count(evidence_id):
+    """A count the study verified, read from its state file's `evidence:` entry rather than retyped.
+    The entries are one-line flow mappings, so a regex reads them without a YAML dependency."""
+    import re
+    line = next(ln for ln in ALMOND_STATE.read_text(encoding='utf-8').splitlines()
+                if f'id: {evidence_id},' in ln)
+    return int(re.search(r'expect_contains: "(\d+)"', line).group(1))
+
+
+def blossom(x, y, r=7):
+    petals = ''.join(f'<ellipse cx="{x + r * 0.62 * cos(radians(a)):.1f}" cy="{y + r * 0.62 * sin(radians(a)):.1f}" '
+                     f'rx="{r * 0.55:.1f}" ry="{r * 0.42:.1f}" transform="rotate({a} {x + r * 0.62 * cos(radians(a)):.1f} '
+                     f'{y + r * 0.62 * sin(radians(a)):.1f})" fill="{BLOSSOM}" stroke="{BLOSSOM_EDGE}" stroke-width="0.7"/>'
+                     for a in range(-90, 270, 72))
+    return petals + f'<circle cx="{x}" cy="{y}" r="{r * 0.22:.1f}" fill="{BLOSSOM_HEART}"/>'
+
+
+def bud(x, y, r=4):
+    return (f'<ellipse cx="{x}" cy="{y}" rx="{r * 0.7:.1f}" ry="{r:.1f}" fill="#e9c3c3" stroke="{BLOSSOM_EDGE}" stroke-width="0.7"/>'
+            f'<path d="M{x - r * 0.7:.1f} {y + r * 0.4:.1f} Q{x} {y + r * 1.6:.1f} {x + r * 0.7:.1f} {y + r * 0.4:.1f}" fill="{LEAF}"/>')
+
+
+def almond(x, y, deg=0, ripe=True):
+    """A fruit in its hull; a ripe one has split to show the shell (Numbers 17:8, "ripe almonds")."""
+    split = (f'<path d="M0 -8 Q3 0 0 8 Q-3 0 0 -8 Z" fill="{SHELL}"/>' if ripe else '')
+    return (f'<g transform="translate({x:.1f},{y:.1f}) rotate({deg})">'
+            f'<ellipse cx="0" cy="0" rx="6" ry="9.5" fill="{HULL}" stroke="#5f6e36" stroke-width="0.8"/>{split}</g>')
+
+
+def leaf(x, y, deg):
+    return (f'<ellipse cx="{x:.1f}" cy="{y:.1f}" rx="3.2" ry="9" transform="rotate({deg} {x:.1f} {y:.1f})" '
+            f'fill="{LEAF}" stroke="#5c7434" stroke-width="0.5"/>')
+
+
+def bare_staff(x, top, foot, dashed=False):
+    style = f'stroke="{MUTED if dashed else WOOD}" stroke-width="5" stroke-linecap="round"' + (f' {DASH}' if dashed else '')
+    if dashed:
+        style = f'stroke="{MUTED}" stroke-width="2" {DASH}'
+    return (f'<path d="M{x} {foot} Q{x + 3} {(top + foot) / 2} {x - 1} {top}" fill="none" {style}/>'
+            f'<line x1="{x - 4}" y1="{top + 18}" x2="{x + 4}" y2="{top + 18}" stroke="{MUTED}" stroke-width="0.8"/>')
+
+
+def blooming_staff(x, top, foot):
+    """Aaron's staff the next morning: shoots, buds, blossoms and ripe almonds all drawn on it, since
+    the plate has to show every verb. Whether all four stood on it at once is not stated; the key says so."""
+    parts = [f'<path d="M{x} {foot} Q{x + 3} {(top + foot) / 2} {x - 1} {top}" fill="none" stroke="{WOOD}" '
+             'stroke-width="6" stroke-linecap="round"/>']
+    for i, y in enumerate(range(int(top) + 6, int(foot) - 40, 13)):
+        side = -1 if i % 2 else 1
+        parts.append(leaf(x + side * 9, y + 4, side * 50))
+        kind = i % 4
+        if kind == 0:
+            parts.append(blossom(x + side * 15, y, 7.5))
+        elif kind == 1:
+            parts.append(almond(x + side * 14, y + 3, side * 20))
+        elif kind == 2:
+            parts.append(bud(x + side * 12, y))
+        else:
+            parts.append(blossom(x + side * 14, y + 2, 6.5))
+    return ''.join(parts)
+
+
+def heb(x, y, word, size=20, colour=INK):
+    return f'<text x="{x}" y="{y}" font-size="{size}" fill="{colour}" text-anchor="middle" direction="rtl" font-family="\'SBL Hebrew\', \'Times New Roman\', serif">{word}</text>'
+
+
+def section_head(W, y, title, note=''):
+    out = [f'<line x1="40" y1="{y - 34}" x2="{W - 40}" y2="{y - 34}" stroke="{RULE}" stroke-width="0.6"/>',
+           f'<text x="{W / 2}" y="{y}" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="{INK}">{title}</text>']
+    if note:
+        out.append(wrap(note, W / 2, y + 20, 88, 11.5, MUTED, anchor='middle', italic=True))
+    return '\n  '.join(out)
+
+
+ALMOND_DESC = ("Plate in four parts. First, the staffs before the testimony on the morning after (Numbers 17:4-9): a row of "
+               "bare staffs, each with a name on it, and Aaron's in the middle covered in leaves, buds, white almond "
+               "blossoms and ripe almonds; one bare staff is dashed because Numbers 17:6 can be read as twelve staffs "
+               "with Aaron's or as twelve and Aaron's, thirteen. Second, the four verbs of Numbers 17:8 drawn as four "
+               "stages of one branch: sprouted (parach), put forth buds (perach), produced blossoms (tsits), bore "
+               "ripe almonds (shaqed). Third, three things the staff shares a Hebrew word with: the lampstand's "
+               "almond cups and their flower, perach (Exodus 25:33); the gold plate on Aaron's turban engraved Holy "
+               "to the LORD, tsits (Exodus 28:36); and Jeremiah's almond branch, shaqed, which God answers with "
+               "shoqed, 'I am watching' (Jeremiah 1:11-12). The words are stated; that Numbers meant the link is "
+               "drawn dashed as likely. Fourth, where the staff went: back before the testimony (Numbers 17:10), "
+               "possibly to the rock at Meribah (Numbers 20:9, dashed), with the ark (Hebrews 9:4; 1 Kings 8:9), "
+               "and, as a type by resemblance only, the High Priest raised by the power of an indestructible life "
+               "(Romans 1:4; Hebrews 7:16, dashed). Closing verse Jeremiah 1:12.")
+
+
+def build_almond():
+    W, H = 720, 1670
+    shaqed, meshuqqad = evidence_count('shaqed-count'), evidence_count('meshuqqad-count')
+    body = []
+
+    # 1. The staffs on the morning after.
+    body.append(section_head(W, 130, 'The next morning, before the testimony',
+                             '“The staff of the man whom I choose shall sprout” (Numbers 17:5, ESV). '
+                             'Each chief’s name was on his staff, and Aaron’s on Levi’s (17:2-3).'))
+    foot, top = 400, 215
+    body.append(f'<ellipse cx="{W / 2}" cy="{top + 70}" rx="250" ry="120" fill="url(#glory)" opacity="0.8"/>')
+    body.append(f'<line x1="60" y1="{foot}" x2="{W - 60}" y2="{foot}" stroke="{RULE}" stroke-width="0.8" {DASH}/>')
+    slots = 13
+    step = (W - 140) / (slots - 1)
+    aaron = slots // 2
+    for i in range(slots):
+        x = 70 + step * i
+        if i == aaron:
+            body.append(blooming_staff(x, top - 10, foot))
+            body.append(f'<text x="{x}" y="{foot + 20}" text-anchor="middle" font-size="12" font-weight="bold" fill="{INK}">Aaron · Levi</text>')
+        else:
+            body.append(bare_staff(x, top + 20, foot, dashed=(i == slots - 1)))
+    body.append(wrap('The other staffs are taken back unchanged, “and each man took his staff” (17:9).',
+                     70 + step * 2.5, foot + 20, 30, 11, MUTED, anchor='middle', italic=True))
+    body.append(wrap('Twelve with Aaron’s, or thirteen? (17:6) — the last staff is dashed.',
+                     70 + step * 10, foot + 20, 30, 11, MUTED, anchor='middle', italic=True))
+    body.append(f'<text x="{W / 2}" y="{foot + 78}" text-anchor="middle" font-size="11" fill="{MUTED}" font-style="italic">'
+                'Their arrangement in the tent is not stated: the row and its ground line are dashed.</text>')
+
+    # 2. Four verbs.
+    y2 = 550
+    body.append(section_head(W, y2, 'One night, four verbs (Numbers 17:8)',
+                             'Numbers lists the stages in order. It does not say whether all four stood on the staff at once.'))
+    stages = [('had sprouted', 'פָּרַח', 'parach, H6524'), ('put forth buds', 'פֶּרַח', 'perach, H6525'),
+              ('produced blossoms', 'צִיץ', 'tsits, H6731'), ('bore ripe almonds', 'שְׁקֵדִים', 'shaqed, H8247')]
+    col = (W - 80) / 4
+    base = y2 + 190
+    for i, (eng, word, xlit) in enumerate(stages):
+        cx = 40 + col * (i + 0.5)
+        body.append(f'<rect x="{cx - col / 2 + 8}" y="{y2 + 46}" width="{col - 16}" height="250" rx="6" fill="#fffdf6" stroke="{RULE}" stroke-width="0.8"/>')
+        body.append(f'<path d="M{cx - 40} {base} Q{cx} {base - 30} {cx + 40} {base - 110}" fill="none" stroke="{WOOD}" stroke-width="5" stroke-linecap="round"/>')
+        tips = [(cx - 14, base - 22), (cx + 8, base - 52), (cx + 28, base - 88)]
+        for j, (tx, ty) in enumerate(tips):
+            if i == 0:
+                body.append(f'<path d="M{tx} {ty} q6 -12 16 -20" fill="none" stroke="{LEAF}" stroke-width="3.4" stroke-linecap="round"/>' + leaf(tx + 16, ty - 22, 50))
+            elif i == 1:
+                body.append(bud(tx + 2, ty - 8, 5))
+            elif i == 2:
+                body.append(blossom(tx + 2, ty - 10, 10))
+            else:
+                body.append(leaf(tx - 6, ty - 4, -40) + almond(tx + 4, ty - 10, 25))
+        body.append(f'<text x="{cx}" y="{base + 34}" text-anchor="middle" font-size="13" fill="{INK}">{eng}</text>')
+        body.append(heb(cx, base + 62, word, 21))
+        body.append(f'<text x="{cx}" y="{base + 82}" text-anchor="middle" font-size="11" fill="{MUTED}" font-style="italic">{xlit}</text>')
+        if i:
+            body.append(f'<text x="{40 + col * i}" y="{base - 40}" text-anchor="middle" font-size="18" fill="{MUTED}">›</text>')
+
+    # 3. Words it shares.
+    y3 = 920
+    body.append(section_head(W, y3, 'The words the staff shares',
+                             f'Shaqed, “almond,” occurs {shaqed} times in the Hebrew Bible; meshuqqad, “made like almond '
+                             f'blossoms,” {meshuqqad} times, every one of them the lampstand.'))
+    cards = [
+        ('The lampstand’s flower', 'פֶּרַח', '“each with calyx and flower” — Exodus 25:33; Numbers 8:4',
+         'Same word as “buds”: stated', 'That Numbers meant the link: likely'),
+        ('Aaron’s gold plate', 'צִיץ', '“a plate of pure gold … ‘Holy to the LORD’” — Exodus 28:36',
+         'Same word as “blossoms”: stated', 'That Numbers meant the link: likely'),
+        ('Jeremiah’s almond branch', 'שָׁקֵד · שֹׁקֵד', '“I am watching over my word to perform it” — Jeremiah 1:11-12',
+         'Almond / watching: God makes the pun', 'Heard in Numbers 17: a suggestion'),
+    ]
+    cw = (W - 100) / 3
+    top3 = y3 + 52
+    for i, (name, word, quote, stated, inferred) in enumerate(cards):
+        x = 40 + i * (cw + 10)
+        cx = x + cw / 2
+        body.append(f'<rect x="{x}" y="{top3}" width="{cw}" height="270" rx="6" fill="#fffdf6" stroke="{RULE}" stroke-width="1"/>'.replace('height="270"', 'height="290"'))
+        body.append(f'<text x="{cx}" y="{top3 + 24}" text-anchor="middle" font-family="Georgia, serif" font-size="14.5" fill="{INK}">{name}</text>')
+        iy = top3 + 78
+        if i == 0:
+            body.append(cup_group(cx, iy + 12, 0, 3.2))
+        elif i == 1:
+            body.append(f'<rect x="{cx - 52}" y="{iy - 22}" width="104" height="40" rx="4" fill="url(#gold)" stroke="#9a7424"/>'
+                        f'<line x1="{cx - 52}" y1="{iy - 2}" x2="{cx - 70}" y2="{iy - 2}" stroke="{BLUE_CORD}" stroke-width="2.5"/>'
+                        f'<line x1="{cx + 52}" y1="{iy - 2}" x2="{cx + 70}" y2="{iy - 2}" stroke="{BLUE_CORD}" stroke-width="2.5"/>'
+                        + heb(cx, iy + 4, 'קֹדֶשׁ לַיהוָה', 15, '#5a3f10'))
+        else:
+            body.append(f'<path d="M{cx - 50} {iy + 18} Q{cx - 5} {iy + 4} {cx + 48} {iy - 22}" fill="none" stroke="{WOOD}" stroke-width="4" stroke-linecap="round"/>'
+                        + blossom(cx - 22, iy + 2, 9) + blossom(cx + 10, iy - 14, 8) + bud(cx + 40, iy - 30, 4.5)
+                        + blossom(cx + 2, iy + 16, 7))
+        body.append(heb(cx, top3 + 140, word, 20))
+        body.append(wrap(quote, cx, top3 + 166, 27, 11, INK, anchor='middle', italic=True))
+        body.append(f'<circle cx="{x + 14}" cy="{top3 + 225}" r="5" fill="#b08a2e"/>')
+        body.append(wrap(stated, x + 26, top3 + 229, 30, 10.5, INK))
+        body.append(f'<circle cx="{x + 14}" cy="{top3 + 253}" r="5" fill="{PAPER}" stroke="{MUTED}" stroke-width="1.3" {DASH}/>')
+        body.append(wrap(inferred, x + 26, top3 + 257, 30, 10.5, MUTED))
+
+    # 4. Where the staff went.
+    y4 = 1440
+    stops = [('Kept before the testimony', 'Numbers 17:10', False, 'staff'),
+             ('Taken “from before the LORD” at Meribah?', 'Numbers 20:9 — 20:11 says “his staff”', True, 'rock'),
+             ('With the ark', 'Hebrews 9:4; in it or before it, see 1 Kings 8:9', False, 'ark'),
+             ('Life from the dead: a type', 'Romans 1:4; Hebrews 7:16 — resemblance, not stated', True, 'glory')]
+
+    def stop_icon(kind, x, y, dashed):
+        dash = f' {DASH}' if dashed else ''
+        if kind == 'staff':
+            return blooming_staff(x, y - 70, y)
+        if kind == 'rock':
+            return (f'<path d="M{x - 34} {y} L{x - 26} {y - 34} L{x - 4} {y - 46} L{x + 22} {y - 38} L{x + 34} {y} Z" '
+                    f'fill="{EARTH}" stroke="{MUTED}" stroke-width="1.3"{dash}/>'
+                    f'<path d="M{x + 6} {y - 12} q8 6 4 12" fill="none" stroke="#6f9bc4" stroke-width="2.5"/>')
+        if kind == 'ark':
+            return (f'<rect x="{x - 32}" y="{y - 30}" width="64" height="28" fill="url(#gold)" stroke="#9a7424"/>'
+                    f'<rect x="{x - 34}" y="{y - 36}" width="68" height="7" fill="url(#gold)" stroke="#9a7424"/>'
+                    f'<line x1="{x - 46}" y1="{y - 14}" x2="{x + 46}" y2="{y - 14}" stroke="{WOOD}" stroke-width="3"/>')
+        return (f'<circle cx="{x}" cy="{y - 30}" r="34" fill="url(#glory)"/>'
+                f'<circle cx="{x}" cy="{y - 30}" r="22" fill="none" stroke="#b08a2e" stroke-width="1.3" {DASH}/>')
+
+    body.append(section_head(W, y4 - 120, 'Where the staff went',
+                             '“To be kept as a sign for the rebels … lest they die” (Numbers 17:10, ESV)'))
+    sw = (W - 80) / 4
+    for i, (name, ref, dashed, kind) in enumerate(stops):
+        cx = 40 + sw * (i + 0.5)
+        body.append(stop_icon(kind, cx, y4 - 4, dashed))
+        body.append(wrap(name, cx, y4 + 20, 20, 12.5, INK if not dashed else MUTED, anchor='middle'))
+        body.append(wrap(ref, cx, y4 + 20 + 16 * len(wrap_lines(name, 20)), 24, 10.5, MUTED, anchor='middle', italic=True))
+        if i:
+            body.append(f'<text x="{40 + sw * i}" y="{y4 - 24}" text-anchor="middle" font-size="18" fill="{MUTED}">›</text>')
+
+    body.append(f'<line x1="40" y1="{H - 104}" x2="{W - 40}" y2="{H - 104}" stroke="{RULE}" stroke-width="0.6"/>')
+    body.append(f'<circle cx="190" cy="{H - 80}" r="5" fill="#b08a2e"/><text x="202" y="{H - 76}" font-size="11.5" fill="{INK}">stated: drawn solid</text>')
+    body.append(f'<circle cx="370" cy="{H - 80}" r="5" fill="{PAPER}" stroke="{MUTED}" stroke-width="1.3" {DASH}/>'
+                f'<text x="382" y="{H - 76}" font-size="11.5" fill="{MUTED}">not stated, or inferred: dashed</text>')
+    body.append(f'<text x="{W / 2}" y="{H - 44}" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="{INK}" font-style="italic">'
+                '“You have seen well, for I am watching over my word to perform it.”</text>')
+    body.append(f'<text x="{W / 2}" y="{H - 26}" text-anchor="middle" font-size="11" fill="{MUTED}">Jeremiah 1:12, ESV</text>')
+
+    return plate(W, H, 'The Almond', '“… and it bore ripe almonds” (Numbers 17:8, ESV)',
+                 'The almond: Aaron’s staff, the lampstand and Jeremiah’s branch', ALMOND_DESC, '\n  '.join(body))
+
+
+BLUE_CORD = '#2f5a8f'  # "a cord of blue" (Exodus 28:37)
+EARTH = '#e6d6b8'
+
+
+PLATES = {'lampstand': build_lampstand, 'incense-altar': build_incense_altar, 'ark': build_ark,
+          'almond': build_almond}
 
 
 def main():

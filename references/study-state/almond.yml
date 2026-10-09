@@ -1,0 +1,180 @@
+# Fourth page of the series jesus/the-heavenly-pattern/. Forked from the lampstand page's
+# "The almond, a tree that watches" section (lampstand.md is 5,677 words against a 4,000 budget,
+# so the almond material gets its own page and the lampstand section stays as it is, with a link).
+
+slug: "almond"
+title: "The Almond"
+status: drafting # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/jesus/the-heavenly-pattern/almond.md"
+
+primary_passage: "Numbers 17:1-13"
+supporting_passages:
+  - "Numbers 16:5"
+  - "Numbers 18:1-7"
+  - "Numbers 20:8-11"
+  - "Exodus 25:31-36"
+  - "Exodus 37:17-22"
+  - "Exodus 28:36-38"
+  - "Jeremiah 1:11-12"
+  - "Jeremiah 31:28"
+  - "Ecclesiastes 12:5"
+  - "Genesis 43:11"
+  - "Genesis 30:37"
+  - "Isaiah 40:6-8"
+  - "Psalm 110:2"
+  - "1 Kings 8:9"
+  - "Hebrews 5:4-6"
+  - "Hebrews 7:15-16"
+  - "Hebrews 9:4"
+genre: [ot-narrative, law, prophets, wisdom, epistle, topical]
+
+thesis: >
+  God put the almond, whose Hebrew name sounds like "watching", into His tent twice: as the
+  lampstand's gold blossoms and as Aaron's dead staff that budded, flowered and bore ripe almonds in
+  one night to end the argument over whom He had chosen to come near Him; both show the God who
+  watches over His word to perform it, and who settled the priesthood for good by raising Jesus,
+  the High Priest appointed "by the power of an indestructible life" (Hebrews 7:16).
+outline:
+  - section: "Hook + In one sentence + Key Takeaways + Study outline"
+    says: "Moses walks into the tent at dawn and finds one stick of twelve-plus-one in fruit."
+  - section: "The tree that watches"
+    says: "shaqed (H8247) and shaqad (H8245) share TWOT root 2451; Jeremiah 1:11-12 makes the pun; first tree to bloom (ESV SB); Jeremiah 31:28 God watches to build and plant. Every other almond in the OT in one paragraph: Genesis 43:11 (choice fruit of the land), Genesis 30:37 (luz, H3869), Ecclesiastes 12:5 (white hair of age, verb contested)."
+  - section: "An almond tree of gold"
+    says: "Short, linking to lampstand.md rather than repeating it: meshuqqadim (6x, all the lampstand), its kaftor and perach."
+  - section: "Whom God chooses (Numbers 16-17)"
+    says: "Korah's challenge and Moses' answer 'the one whom he chooses he will bring near' (16:5); matteh = staff and tribe; twelve staffs and Aaron's (ESV SB: 13); laid 'before the testimony, where I meet with you'; four verbs overnight: sprouted, perach, tsits, ripe almonds."
+  - section: "The blossom on the lampstand and on the priest's forehead"
+    says: "Shared vocabulary, marked as such: perach is the lampstand's word for its flowers (Exodus 25:31-34; Numbers 8:4); tsits is the gold plate 'Holy to the LORD' on Aaron's forehead (Exodus 28:36; 39:30; Leviticus 8:9). The text states the words; the meaning is inference."
+  - section: "A sign for the rebels, kept before the testimony"
+    says: "Numbers 17:10-13: the sign ends grumbling 'lest they die'; Numbers 18 gives the priesthood as a gift that guards the approach. Where the staff went: Numbers 20:9 'from before the LORD' (NIV BTSB: most likely this staff; contested); Hebrews 9:4 in the ark; 1 Kings 8:9 only the tablets -- link ark.md, don't redo it."
+  - section: "The Priest God chose"
+    says: "Hebrews 5:4-6 states the principle (called by God, as Aaron was); 7:16 'indestructible life'. The staff as a type of resurrection is resemblance, not stated in the NT -- mark it. Psalm 110:2's 'mighty scepter' is matteh: shared word only."
+  - section: "What the almond shows about God"
+    says: "Principle; confidence table (stated / echoed / inferred / tradition)."
+  - section: "Discussion questions; References"
+    says: ""
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "User chose a new study over extending lampstand.md, placed in the Heavenly Pattern series."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Numbers 16-17 follows Korah/Dathan/Abiram and the plague stopped by Aaron's censer; chapter 17 settles who may approach; 18 follows with priestly duties as a gift."
+    literary_context:
+      done: true
+      notes: "ESV SB: 17:1-13 a symbolic re-enactment of 16:5's test. 17:12-13 the people's terror leads into ch. 18."
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "שָׁקֵד", language: hebrew, transliteration: "shaqed", strongs_id: "H8247", gloss: "almond", notes: "4x in MACULA WLC: Gen 43:11; Num 17:23 (Eng 17:8); Jer 1:11; Eccl 12:5. TWOT 2451a."}
+        - {word: "שָׁקַד", language: hebrew, transliteration: "shaqad", strongs_id: "H8245", gloss: "watch, be wakeful", notes: "12x. TWOT 2451. Jer 1:12; 5:6; 31:28 (2x); 44:27; Dan 9:14; Ps 127:1; 102:8; Prov 8:34; Job 21:32; Isa 29:20; Ezra 8:29."}
+        - {word: "מְשֻׁקָּד", language: hebrew, transliteration: "meshuqqad", strongs_id: "H8246", gloss: "made like almond (blossoms)", notes: "6x, all the lampstand."}
+        - {word: "לוּז", language: hebrew, transliteration: "luz", strongs_id: "H3869", gloss: "almond tree", notes: "1x, Gen 30:37. TWOT 1090b."}
+        - {word: "מַטֶּה", language: hebrew, transliteration: "matteh", strongs_id: "H4294", gloss: "staff, rod; tribe", notes: "252x. In Numbers mostly 'tribe'; ch. 17 'rod/staff'. Ps 110:2 'scepter'."}
+        - {word: "פֶּרַח", language: hebrew, transliteration: "perach", strongs_id: "H6525", gloss: "bud, blossom", notes: "17x; Exod 25:31-34 and 37:17-20 and Num 8:4 of the lampstand; Num 17:23 of the staff."}
+        - {word: "צִיץ", language: hebrew, transliteration: "tsits", strongs_id: "H6731", gloss: "flower; gold plate", notes: "14x; Exod 28:36; 39:30; Lev 8:9 the high priest's plate 'Holy to the LORD'; Num 17:23 the staff; Isa 40:6-8 'the flower fades'."}
+        - {word: "גָּמַל", language: hebrew, transliteration: "gamal", strongs_id: "H1580", gloss: "ripen, bear fully", notes: "Num 17:8 'bore ripe almonds'."}
+        - {word: "βλαστάνω", language: greek, transliteration: "blastanō", strongs_id: "G985", gloss: "sprout, bud", notes: "Heb 9:4 'that budded' (aorist participle)."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Aaronic priesthood is superseded (Heb 7:11-19); what transcends: God alone appoints the one who brings people near, and He shows it by giving life."
+    theological_principle:
+      done: true
+      notes: "God chooses the mediator and authenticates Him by life from the dead; He watches over His word to perform it."
+    application_draft:
+      done: true
+      notes: "Key Takeaways + closing section: God watches over His word; He chooses who comes near and shows it by giving life; come through the Priest He raised (Heb 7:25)."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Hebrews 9:4", relation: "NT names the staff"}
+      - {ref: "Hebrews 5:4-6", relation: "NT states the principle the staff demonstrated"}
+      - {ref: "Hebrews 7:16", relation: "priesthood by indestructible life"}
+      - {ref: "Numbers 20:9", relation: "staff 'from before the LORD' -- possibly Aaron's"}
+    translations_compared: ["ESV", "WEB"]
+    divergences_noted: "Eccl 12:5 verb: ULT reads na'ats (despise), MACULA reads natsats (bloom); LXX anthēsē 'blossom'. CSB footnote gives alternate for the grasshopper clause."
+  drafting:
+    done: true
+    file: "docs/content/jesus/the-heavenly-pattern/almond.md"
+  review:
+    done: false
+    validated: true # npm run validate: only the provenance-field warnings, filled at commit
+
+evidence:
+  - {id: num17-8-esv, what: "ESV Num 17:8 block quote", tool: study_verse, args: {book: Num, chapter: 17, verse: 8, work_id: esv-study-bible}, expect_contains: "it bore ripe almonds", checked: 2026-10-09}
+  - {id: num17-8-heb, what: "Num 17:8 four verbs end in shaqed", tool: bible_interlinear, args: {book: Num, chapter: 17, verse: 8}, expect_contains: "H8247", checked: 2026-10-09}
+  - {id: num17-8-tsits, what: "Num 17:8 'produced blossoms' is tsits", tool: bible_interlinear, args: {book: Num, chapter: 17, verse: 8}, expect_contains: "H6731a", checked: 2026-10-09}
+  - {id: ex28-36-tsits, what: "Aaron's plate is tsits", tool: bible_interlinear, args: {book: Exod, chapter: 28, verse: 36}, expect_contains: "H6731a", checked: 2026-10-09}
+  - {id: num17-2-matteh, what: "staff = matteh", tool: bible_interlinear, args: {book: Num, chapter: 17, verse: 2}, expect_contains: "H4294", checked: 2026-10-09}
+  - {id: ps110-2-matteh, what: "Ps 110:2 scepter = matteh", tool: bible_interlinear, args: {book: Ps, chapter: 110, verse: 2}, expect_contains: "H4294", checked: 2026-10-09}
+  - {id: num18-5-shamar, what: "Num 18:5 guard verb is shamar, not shaqad", tool: bible_interlinear, args: {book: Num, chapter: 18, verse: 5}, expect_contains: "H8104", checked: 2026-10-09}
+  - {id: shaqed-count, what: "shaqed occurs 4 times", tool: bible_concordance, args: {strongs: H8247, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "4", checked: 2026-10-09}
+  - {id: meshuqqad-count, what: "meshuqqad occurs 6 times", tool: bible_concordance, args: {strongs: H8246, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "6", checked: 2026-10-09}
+  - {id: akatalytos-count, what: "akatalytos only in Heb 7:16", tool: bible_concordance, args: {strongs: G179, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "1", checked: 2026-10-09}
+  - {id: twot-shaqed, what: "shaqed under TWOT root 2451", tool: twot_strongs, args: {strongs_id: H8247}, expect_contains: "2451a", checked: 2026-10-09}
+  - {id: num16-49-esv, what: "plague toll 14,700", tool: study_verse, args: {book: Num, chapter: 16, verse: 49, work_id: esv-study-bible}, expect_contains: "14,700", checked: 2026-10-09}
+  - {id: jer1-12-esv, what: "ESV Jer 1:12 memory verse", tool: study_verse, args: {book: Jer, chapter: 1, verse: 12, work_id: esv-study-bible}, expect_contains: "I am watching over my word to perform it", checked: 2026-10-09}
+  - {id: heb7-16-esv, what: "ESV Heb 7:16 memory verse", tool: study_verse, args: {book: Heb, chapter: 7, verse: 16, work_id: esv-study-bible}, expect_contains: "by the power of an indestructible life", checked: 2026-10-09}
+  - {id: heb5-4-esv, what: "ESV Heb 5:4", tool: study_verse, args: {book: Heb, chapter: 5, verse: 4, work_id: esv-study-bible}, expect_contains: "only when called by God, just as Aaron was", checked: 2026-10-09}
+
+images:
+  plate: "docs/content/assets/img/sanctuary-almond.svg -- drawn by utils/sanctuary_plates.py almond; counts read from evidence shaqed-count and meshuqqad-count. Embedded at 'One night, a whole season'."
+  painting:
+    file: "docs/content/assets/img/heavenly-pattern/aarons-staff-morning.jpg (1200x800 JPEG, ~190 KB, to match cities-of-the-plain/abraham-sees-the-smoke.jpg)"
+    slot: "placed under the opening Numbers 17:8 quote, 2026-10-09"
+    source: "ChatGPT image (second attempt), share link https://chatgpt.com/s/m_6ac8e84e77888191a833f1a780be027b; 1536x1024 PNG resized to 1200x800 JPEG q50"
+    departures_from_text: "The cloud is drawn as a rising column and could read as smoke; the first attempt also had elders holding staffs and few visible almonds, both fixed here."
+    embed: |
+      ![Painting at dawn of an old man seen from behind at the entrance of a goat-hair tent inside a linen-curtained court, holding up a wooden staff covered in leaves, white almond blossoms, buds and green almonds, before tribal chiefs holding bare staffs, with the tents of a great desert camp beyond](../../assets/img/heavenly-pattern/aarons-staff-morning.jpg){ loading=lazy }
+      *Moses brings out the staffs: "and they looked, and each man took his staff" (Numbers 17:9, ESV).
+      AI-generated illustration; the arrangement of the scene is not described in Numbers.*
+    grounded_in: "Num 17:9 (brought out to all the people; they looked; each took his staff); Num 17:8 (sprouted, buds, blossoms, ripe almonds); Num 17:2-3 (names written on the staffs); Exod 26:7, 14 (goat-hair and red-dyed ram-skin coverings); Exod 27:9-16 (linen court hangings, coloured east gate screen); Num 9:15-16 (the cloud over the tabernacle)."
+    prompt: |
+      A realistic oil painting in warm, natural light, wide landscape format (3:2). Dawn in the
+      wilderness of Sinai, about 1400 BC. The low sun rises behind the viewer and lights the scene.
+
+      In the middle distance stands the wilderness tabernacle. It is a long, low tent covered in dark
+      goat-hair cloth with an outer layer of ram skins dyed red. It stands inside a rectangular court
+      of white linen curtains hung on bronze-based posts, with an embroidered entrance screen of blue,
+      purple and scarlet on the east side. A soft column of white cloud rests above the tent.
+
+      In the foreground, just outside the court entrance, an old man seen from behind and slightly to
+      one side (Moses, no face visible) holds up a single wooden staff in his right hand. That staff
+      alone has come alive overnight. Along its whole length it carries fresh green almond leaves,
+      small pink buds, open almond blossoms (five white petals, each with a deep pink centre), and
+      clusters of plump, velvety green almonds, some with the hull split to show the pale brown shell.
+      Draw it botanically accurate, like a real flowering almond branch, but growing from an old,
+      dry, cut walking staff.
+
+      In his left arm he carries a bundle of eleven or twelve other staffs. They are plain, dry and
+      bare, with a few short marks cut near the top of each.
+
+      Facing him in a loose half-circle are about a dozen tribal elders in simple Late Bronze Age
+      Semitic dress: undyed and earth-coloured wool robes, mantles with coloured borders, head cloths,
+      sandals. They are small in the frame and turned toward the staff, mostly seen from the side or
+      behind, with no detailed faces. Behind them, the tents of a vast camp stretch across a pale
+      desert plain to bare mountains.
+
+      Mood: hushed, awed, the moment before each man reaches out to take back his own bare staff.
+
+      Do NOT include: halos, light beams, glowing or radiating objects, angels, a visible face of God
+      or any divine figure, a menorah, a Star of David, any lettering, modern almond orchards, Roman or
+      medieval clothing, metal armour, camels in the foreground, or text or a signature.
+open_questions:
+  - "FIXED 2026-10-09: versification.py lacked 35 Hebrew/English chapter boundaries (incl. Num 16/17, so EN 17:8 resolved to Hebrew 17:8 = EN 16:43). Rules added from versification_map; db rebuilt. The bible-references MCP server must be restarted to load the fix."
+  - "Before flipping draft:false, in the SAME commit: add the page to the-heavenly-pattern/index.md's furnishing list and a link from lampstand.md's almond section (never link a draft from a published page -- validator Check 24)."
+  - "Fork candidate: Luz/Bethel (Gen 28:19) -- a possible link between luz 'almond' and the place name; not in this thesis."
+  - "Twelve staffs or thirteen (Num 17:6)? ESV SB says Aaron's makes 13. Present both."
+  - "Fork candidate: Isaiah 40:6-8 / 1 Peter 1:24-25 -- tsits 'the flower fades, the word stands' -- not in this study's thesis."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Num 17:1-13 (re-enactment of 16:5; white blossoms and priesthood -- 'may well be' significant); 17:6 (13 staffs); 17:10 (kept in ark); Jer 1:11-12 (first to bud, 'watch for spring'); Heb 9:4 (before vs in the ark)."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Num 17:8 pun links almonds to Aaron's duty to guard the tent (18:1); Num 20:9 staff most likely Aaron's; Eccl 12:5 pale blossoms = white hair. Contributed the 20:9 link."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Jer 1:11 same consonants; Heb 9:4 follows the tabernacle description."}
+  - {type: lexicon, title: "Theological Wordbook of the Old Testament", author: "Harris, Archer, Waltke", note: "2451 shaqad / 2451a shaqed; 1090b luz."}
+last_updated: "2026-10-09"
