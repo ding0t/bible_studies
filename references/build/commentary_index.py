@@ -50,19 +50,41 @@ AUTO_START = "<!-- commentary-index:auto-start -->"
 AUTO_END = "<!-- commentary-index:auto-end -->"
 
 _NAME_TO_NUM_LOWER = {name.lower(): num for name, num in REFERENCE_NAME_TO_NUM.items()}
-_REF_PATTERN = re.compile(r"^\s*(\d?\s?[A-Za-z][A-Za-z ]*?)\s+(\d+)(?::(\d+)(?:-(\d+))?)?\s*$")
+_REF_PATTERN = re.compile(
+    r"^\s*(\d?\s?[A-Za-z][A-Za-z ]*?)\s+(\d+)(?::(\d+)(?:-(\d+))?|-(\d+))?\s*$"
+)
+
+# English versification (Joel 3, Malachi 4), which is what frontmatter is written in. A reference
+# past the end of its book is reported as unparsed rather than given a chapter page: "Jude 12" read
+# as chapter 12 once generated nine pages for chapters Jude does not have.
+CHAPTER_COUNTS = {
+    1: 50, 2: 40, 3: 27, 4: 36, 5: 34, 6: 24, 7: 21, 8: 4, 9: 31, 10: 24,
+    11: 22, 12: 25, 13: 29, 14: 36, 15: 10, 16: 13, 17: 10, 18: 42, 19: 150, 20: 31,
+    21: 12, 22: 8, 23: 66, 24: 52, 25: 5, 26: 48, 27: 12, 28: 14, 29: 3, 30: 9,
+    31: 1, 32: 4, 33: 7, 34: 3, 35: 3, 36: 3, 37: 2, 38: 14, 39: 4,
+    40: 28, 41: 16, 42: 24, 43: 21, 44: 28, 45: 16, 46: 16, 47: 13, 48: 6, 49: 6,
+    50: 4, 51: 4, 52: 5, 53: 3, 54: 6, 55: 4, 56: 3, 57: 1, 58: 13, 59: 5,
+    60: 5, 61: 3, 62: 5, 63: 1, 64: 1, 65: 1, 66: 22,
+}
 
 
 def parse_reference(ref: str) -> tuple[int, int, str] | None:
     """'Mark 5:25-34' -> (41, 5, '5:25-34'). 'Leviticus 23' (chapter only, no verse -- CONTENT_GUIDE.md's
-    own example format) -> (3, 23, '23'). Single-chapter references only (a range spanning chapters
-    returns None rather than guessing)."""
+    own example format) -> (3, 23, '23'). In a one-chapter book the bare number is a verse, as the
+    pop-up's scriptureRefs.js reads it: 'Jude 12' -> (65, 1, '1:12'), 'Jude 3-4' -> (65, 1, '1:3-4').
+    A range spanning chapters, or a chapter the book does not have, returns None rather than guessing."""
     match = _REF_PATTERN.match(ref.strip())
     if not match:
         return None
-    book_name, chapter, verse_start, verse_end = match.groups()
+    book_name, chapter, verse_start, verse_end, bare_end = match.groups()
     book_num = _NAME_TO_NUM_LOWER.get(book_name.strip().lower())
     if book_num is None:
+        return None
+    if CHAPTER_COUNTS[book_num] == 1 and verse_start is None and (chapter != "1" or bare_end):
+        verse_start, verse_end, chapter = chapter, bare_end, "1"
+    elif bare_end:
+        return None
+    if not 1 <= int(chapter) <= CHAPTER_COUNTS[book_num]:
         return None
     verse_display = chapter if verse_start is None else f"{chapter}:{verse_start}" + (f"-{verse_end}" if verse_end else "")
     return book_num, int(chapter), verse_display

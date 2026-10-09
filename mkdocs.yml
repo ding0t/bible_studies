@@ -83,6 +83,13 @@ plugins:
       redirect_maps:
         # Test the Spirits became a study of recognising false teachers and moved beside Hurt by the Church on 2026-10-10.
         'spiritual-beings/test-the-spirits.md': 'christian-life/test-the-spirits.md'
+        # commentary_index.py once read "Jude 12" as chapter 12 and generated pages for chapters Jude
+        # does not have. Removed 2026-10-10; the old URLs land on the one real chapter.
+        'commentaries/65-jude/chapter-006.md': 'commentaries/65-jude/chapter-001.md'
+        'commentaries/65-jude/chapter-009.md': 'commentaries/65-jude/chapter-001.md'
+        'commentaries/65-jude/chapter-012.md': 'commentaries/65-jude/chapter-001.md'
+        'commentaries/65-jude/chapter-014.md': 'commentaries/65-jude/chapter-001.md'
+        'commentaries/65-jude/chapter-024.md': 'commentaries/65-jude/chapter-001.md'
         # Pages about dating biblical history moved into their own Chronology section on 2026-10-08.
         'last-things/chronology-anchors.md': 'chronology/chronology-anchors.md'
         'last-things/four-hundred-and-eighty-years.md': 'chronology/four-hundred-and-eighty-years.md'
