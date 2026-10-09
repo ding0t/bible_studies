@@ -264,7 +264,7 @@ resources_consulted:
     title: "Fee & Stuart, How to Read the Bible for All Its Worth"
     note: "The exegesis-before-hermeneutics frame behind the study's closing method section."
 
-last_updated: "2026-08-08"
+last_updated: "2026-10-09"
 
 read_2026-09-26:
   pass: read-bible-study (structure only, stranger reader)
@@ -283,3 +283,41 @@ read_2026-09-26:
     - "Several thesis-antithesis constructions in the prose ('That is not a round number, and it is not an accident'; '— not to satisfy curiosity'; 'is not trivia'; 'not detecting prophecy'); for review, not this pass."
     - "Opening paragraph 2 ends on the study describing itself ('This study is about telling those apart.') -- rule 9 placement note, left for the author."
     - "Evaluative outline annotations (which section is the heart of the study) left to the author; Daniel 5 ('the hermeneutical key to the entire subject') is the obvious candidate."
+
+review_2026-10-09:
+  pass: review-bible-study (full, with emphasis on the style-guide pass)
+  checked:
+    - "ESV quotations re-queried from study-notes.db: Rev 13:18, Dan 5:25 (+26-28 paraphrases), Matt 1:17, Deut 29:29, Prov 25:2 -- all verbatim."
+    - "Ps 145:13 table re-queried: ESV bracketed, NIV/CSB/NASB 2020 present, NASB 1995/LSB/NKJV absent, WEB present -- matches."
+    - "G5585 concordance (macula-greek-sblgnt): 2 occurrences, Luke 14:28 and Rev 13:18 -- matches."
+    - "Tischendorf (ebible-grc-tisch) prints χξϛʹ at Rev 13:18 -- matches."
+    - "Dan 5:26-28 Strong's H4483 / H8625 / H6537 / H6540 against macula + morphhb -- match."
+    - "Acrostics re-scripted from morphhb-wlc first letters: Ps 145 mem(v13)->samek(v14); Lam 1 standard; Lam 2, 3, 4 pe-before-ayin; Lam 3 triple; Lam 5 not acrostic; Prov 31:10-31 complete; Ps 25 and 34 both lack waw and append pe. Ps 25 ALSO lacks qoph and doubles resh (not mentioned; study's 'share three' stays true)."
+    - "Gematria recomputed: Neron Qesar 666, Nero Qesar 616, תריון 666, David 14."
+    - "Irenaeus AH 5.30.1-3 read in ANF vol. 1 ($BIBLE_MEDIA_ROOT): all three quotations verbatim."
+    - "Edition comparison (not in the state file before): morphhb-wlc vs scrollmapper-WLC differ in 15 Genesis verses once pe/samek markers are stripped (study says 16 places); Gen 8:17 ketiv/qere example confirmed. WLC vs scrollmapper-SP: 1,712-1,790 diff ops depending on which WLC edition, ~78% single-character, inserted waw ~358, yod ~182 (study: 1,757 / 72% / 347 / 178). Directionally confirmed; exact figures are edition- and method-dependent and were never recorded."
+    - "11Q5 is now in bible-text.db and carries the nun line: נאמן אלוהים בדבריו וחסיד בכול מעשיו ('God', not YHWH). Closes the first open_question."
+    - "review_gaps: 182 gaps, nearly all symbolic-numbers-table noise. Matthew 12:40 is the relevant one (see findings)."
+  findings:
+    critical:
+      - "Revelation section: 'Irenaeus ... describes precisely this' and '\"Deducting the amount of fifty\" is the missing nun, named by its value' are false. Irenaeus (AH 5.30.1) reports the 616 reading but explains it as copyists expanding the Greek numeral ξ (60) into ι (10). He knows nothing of a Hebrew nun. The Nero-spelling explanation is a modern one (19th century), and the 'seventeen centuries before anyone ran the calculation on a computer' line is also wrong on that score."
+    moderate:
+      - "Symbolic numbers table, row 3: 'which Jesus applies to his own resurrection -- Jonah 1:17; 1 Corinthians 15:4'. 1 Cor 15:4 is Paul; Jesus applies Jonah in Matthew 12:40."
+      - "Pervasive AI register: 109 em-dashes in ~5,600 words; 25 antithesis constructions (7 'rather than', 9 ', not', 9 'is not'); 'exactly' x8; narrated-argument announcements ('This is the hermeneutical key to the entire subject', 'The distinction is the thing to carry away', 'The wider point:', 'That is the whole discipline in one sentence'); virtue narration ('honest negative result', 'tabulate honestly', 'checked verse-by-verse rather than recalled', 'not taken from a commentary's summary', 'what I checked myself'); study-about-itself ('This study is about telling those apart', 'one this project can demonstrate', 'This study's own example makes the point', 'this site tries to say so')."
+      - "Rule 6: no sentence says what the numbers show about God. Daniel 5 (God numbers kingdoms and interprets His own sign) and Ps 145:13 (the restored line is itself about God's faithfulness to His words) are the natural places."
+    minor:
+      - "Samaritan/edition figures unrecorded and edition-dependent (see checked)."
+      - "Ps 145 DSS attestation can now be stated as checked (11Q5)."
+      - "Lessons about Jesus bullet 1 is about the beast, not Jesus."
+      - "Discussion question 6 asks the reader to evaluate the study's own rule 6 (style-guide: questions about the study's method)."
+      - "Validator Check 11 warning, line 43 'rather than hiding it'."
+      - "Over budget: ~4,156 counted words vs 4,000. Fixes should net-cut."
+  size: "5,621 raw / ~4,156 counted; budget 4,000"
+  applied_2026-10-09:
+    - "Irenaeus paragraph rewritten: he witnesses the 616 reading by c. AD 180 and explains it as ξ->ι copyist error; the Nero/nun explanation attributed to modern scholars. 'Computer' line cut."
+    - "Jonah row: Matthew 12:40 added as the verse where Jesus applies Jonah; 1 Cor 15:4 kept for 'the third day'. Matthew 12:40 added to bible_references and to Lessons about Jesus (replacing the beast bullet)."
+    - "11Q5 witness quoted and listed in References; the 'what I checked myself' hedge removed."
+    - "Theology named: Daniel 5 ('God numbered Belshazzar's days, and then God told him what the numbers meant'), Ps 145:13 (the lost line is about God keeping His word), Deut 29:29 ('God has spoken plainly so that you can obey Him'); prayer now names God numbering kingdoms and 'your Son Jesus'."
+    - "Style pass: em-dashes 109 -> 64, 'rather than' 7 -> 0, ', not' 9 -> 1, 'exactly' 8 -> 1, 'honest' 2 -> 0; announcements, virtue narration and study-about-itself lines cut. Samaritan figures restated as ranges (~1,700-1,800; ~350 waw; ~180 yod)."
+    - "Discussion Q6 replaced (was about the study's own rule 6)."
+    - "Validator: no numerology warnings. Raw words 5,621 -> 5,184."
