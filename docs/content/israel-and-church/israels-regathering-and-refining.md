@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ezekiel 36:22-28; Zechariah 12:10-13:9"
 bible_references: ["Ezekiel 33:21", "Ezekiel 36:22-28", "Ezekiel 36:32", "Ezekiel 37:11-12", "Ezekiel 37:15-22", "Ezekiel 20:34-37", "Zechariah 1:1", "Zechariah 10:8-10", "Zechariah 10:6-7", "Ezekiel 38:8", "Ezekiel 20:38", "Ezra 7:6", "Romans 9:24", "Amos 9:11", "Isaiah 27:9", "John 19:35", "Zechariah 12:10", "Zechariah 13:1", "Zechariah 13:3", "Zechariah 13:7-9", "Amos 9:15", "Isaiah 11:11", "Isaiah 59:20", "Psalm 14:7", "Hosea 1:9-10", "Hosea 5:15", "Deuteronomy 4:30-31", "Jeremiah 30:7", "Daniel 12:1", "Numbers 25:8", "1 Samuel 31:4", "Matthew 26:31", "John 19:37", "Acts 1:6-7", "Acts 15:14-16", "Romans 9:25-26", "Romans 11:26-27", "Romans 11:29", "John 19:34", "Revelation 1:7"]
 date_created: 2026-09-26
-date_modified: 2026-10-04
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -92,9 +92,10 @@ In Jesus' name. Amen.
   distress that brings Israel to her Messiah, the pierced one.
 - [About 1948](#about-1948). What the prophets require, what no text supplies, and how to hold the
   modern state.
-- [All Israel will be saved](#all-israel-will-be-saved). Romans 11:26-27 and the quotation Paul
-  builds it from.
+- [All Israel will be saved](#all-israel-will-be-saved). Romans 11:26-27, and who "all Israel" is.
 - [Discussion questions](#discussion-questions). Six, for a group or on your own.
+- [Annex: Paul's quotation in Romans 11:26](#annex-pauls-quotation-in-romans-1126). Why Paul's
+  "from Zion" matches neither Isaiah 59:20 text, and where it comes from.
 
 ## Where these promises were spoken
 
@@ -183,6 +184,8 @@ applies it to those God has called "not from the Jews only but also from the Gen
 ESV). He applies Hosea's pattern to Gentiles and leaves Hosea's promise with Israel, as [The Wife of
 the Lamb](wife-of-the-lamb.md#the-name-she-calls-him-hosea-216) sets out.
 
+### "After this": James at the Jerusalem council
+
 James read the sequence the same way at the Jerusalem council:
 
 > ✝️ Acts 15:14-16 (ESV)
@@ -219,6 +222,8 @@ with your fathers that he swore to them" (Deuteronomy 4:30-31, ESV). Hosea gives
 will return again to my place, until they acknowledge their guilt and seek my face, and in their
 distress earnestly seek me" (Hosea 5:15, ESV). Distress is the instrument; seeking His face is the
 object.
+
+### A time of distress for Jacob
 
 Jeremiah names the period from Israel's side: "Alas! That day is so great there is none like it; it
 is a time of distress for Jacob; yet he shall be saved out of it" (Jeremiah 30:7, ESV). Jacob goes
@@ -271,6 +276,8 @@ Zechariah 12:10 supplies what finally turns them:
 spear. It is the verb of Phinehas's spear in Numbers 25:8 and of Saul's plea to his armour-bearer in
 1 Samuel 31:4, and Zechariah uses it again in 13:3. The *ESV Study
 Bible* notes that the word "usually connotes being stabbed to death" (note on 12:10-14).
+
+### Who the pierced one is
 
 The speaker is the LORD, and the Hebrew reads "they will look to me" (<span dir="rtl">אֵלַי</span>,
 *elay*), then "they will mourn over him." The *ESV Study Bible* calls the identity of the pierced one
@@ -357,6 +364,8 @@ That is Zechariah 12:10 and 13:1 seen from the far side: the Deliverer coming fr
 ungodliness banished, sins taken away under a covenant God calls His own. It is the new covenant
 Ezekiel 36:26-27 describes, the new heart and the Spirit within.
 
+### Who "all Israel" is
+
 **Who "all Israel" is, is contested.** The *ESV Study Bible* sets out three readings: the church of
 Jews and Gentiles through history; a remnant of Jews through history; or the Jewish people at the
 end of history. It judges the first unlikely, because Israel in 11:25 is ethnic Israel and "they"
@@ -365,17 +374,6 @@ of Jews, not every individual (note on 11:26). The *NIV Cultural Backgrounds Stu
 significant line of Jewish tradition expected the future salvation of all Israel, meaning Israel as a
 whole (note on 11:26, citing Mishnah Sanhedrin 10:1). This study reads it the same way, with the prophets
 above supplying how: a refined remnant, turned by the Spirit to the one they pierced.
-
-### The quotation in verse 26
-
-A reader who looks up Paul's quotation will find a discrepancy. Paul writes ἥξει **ἐκ Σιὼν** ὁ
-ῥυόμενος, "the Deliverer will come **from** Zion." Isaiah 59:20 reads "**to** Zion" in the Hebrew,
-and ἥξει **ἕνεκεν Σιὼν**, "for the sake of Zion," in the Septuagint. Neither gives Paul his
-preposition. Psalm 14:7 does, in the Hebrew and in the Septuagint, where it is numbered 13:7: Τίς δώσει **ἐκ Σιὼν** τὸ
-σωτήριον τοῦ Ἰσραήλ, a verse that also names Jacob and Israel. The *NIV* and *NKJV Cultural Backgrounds
-Study Bibles* suggest Paul "might blend" Isaiah 59:20-21 with Psalm 14:7 ("from Zion") and Isaiah 27:9
-("take away their sins"; only in the Greek version), which is what the wording suggests: the rest of
-his line follows Isaiah's Greek closely.
 
 **This shows that God finishes what He starts with Israel.** "The gifts and the calling of God are
 irrevocable" (Romans 11:29, ESV). The same faithfulness holds your salvation, so you may rest on it.
@@ -394,6 +392,17 @@ irrevocable" (Romans 11:29, ESV). The same faithfulness holds your salvation, so
    How do John 19:37 and Revelation 1:7 help you read that verse?
 6. Jesus answered "when" and left "whether" standing (Acts 1:6-7). Where are you tempted to demand
    the date before you trust the promise?
+
+## Annex: Paul's quotation in Romans 11:26
+
+A reader who looks up Paul's quotation will find a discrepancy. Paul writes ἥξει **ἐκ Σιὼν** ὁ
+ῥυόμενος, "the Deliverer will come **from** Zion." Isaiah 59:20 reads "**to** Zion" in the Hebrew,
+and ἥξει **ἕνεκεν Σιὼν**, "for the sake of Zion," in the Septuagint. Neither gives Paul his
+preposition. Psalm 14:7 does, in the Hebrew and in the Septuagint, where it is numbered 13:7: Τίς δώσει **ἐκ Σιὼν** τὸ
+σωτήριον τοῦ Ἰσραήλ, a verse that also names Jacob and Israel. The *NIV* and *NKJV Cultural Backgrounds
+Study Bibles* suggest Paul "might blend" Isaiah 59:20-21 with Psalm 14:7 ("from Zion") and Isaiah 27:9
+("take away their sins"; only in the Greek version), which is what the wording suggests: the rest of
+his line follows Isaiah's Greek closely.
 
 ## References & Recommended Reading
 
