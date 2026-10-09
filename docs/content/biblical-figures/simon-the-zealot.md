@@ -25,7 +25,7 @@ The label is the story.
 
 ### Lessons about Jesus
 
-Jesus put a Zealot and a tax collector in the same group of twelve and kept them there.The
+Jesus put a Zealot and a tax collector in the same group of twelve and kept them there. The
 composition of the Twelve was itself a claim about what the kingdom does to enmity.
 
 ### Memory verse
@@ -36,15 +36,15 @@ composition of the Twelve was itself a claim about what the kingdom does to enmi
 
 ### Be transformed
 
-Simon's politics were a life-and-death commitment about who should
-rule. He was called anyway, and so was the man on the other side. Whatever political division you
+Simon's label marked a commitment about who should rule, whether he held it
+as a party member or by temperament (see below). He was called anyway, and so was the man on the other side. Whatever political division you
 consider disqualifying in a fellow believer, Jesus assembled a group that was worse.
 
 ### Prayer
 
 Lord, you gathered enemies into one company and made them brothers. We confess how quickly we sort
 people by their politics and how slowly we sit down with them. Make your table wider than our
-instincts.
+instincts. In Jesus' name. Amen.
 
 ---
 
@@ -87,10 +87,10 @@ Either way, the zealot outlook held that Israel had no king but God,
 that paying tribute to Caesar was a form of apostasy, and that the occupation should be resisted by
 force. Its extreme wing later took to assassinating Jewish collaborators in public places.
 
-**Matthew collected taxes for Rome.** The two men are named four places apart in the same list.
+**Matthew collected taxes for Rome.** The two men are named two to four places apart in every list.
 
 Then there is the question put to Jesus about whether it is lawful to pay taxes to
-Caesar (Matthew 22:15-22). Both men were standing there. Whatever answer Jesus gave was going to
+Caesar (Matthew 22:15-22). Both men were likely standing there, though Matthew does not say so. Whatever answer Jesus gave was going to
 land hard on one of them.
 
 ## What Scripture records

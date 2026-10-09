@@ -226,7 +226,8 @@ Ephesians says where the third category came from.
 > us both to God in one body through the cross, thereby killing the hostility.
 
 The verb is **κτίσῃ** (*ktisē*, from κτίζω, G2936), *create*. The adjective is **καινόν** (*kainon*,
-G2537), new in kind. Greek uses νέος (*neos*, G3501) for new in time.
+G2537), often glossed new in kind, with νέος (*neos*, G3501) for new in time, though the two
+overlap: Paul's "new man" is καινός at Ephesians 4:24 and νέος at Colossians 3:10.
 Something is brought into being at the cross that was not there before. Israel continuing under a
 new name would require no creating.
 

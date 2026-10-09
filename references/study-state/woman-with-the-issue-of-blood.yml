@@ -110,6 +110,15 @@ stages:
     done: false
     validated: true # npm run validate clean on this file; mkdocs build --strict passes; anchor + mermaid verified in built HTML
 
+evidence:
+  - {id: mt9-22-web, what: "Jesus calls her 'Daughter' in Matthew's account too", tool: bible_verse, args: {book: Matt, chapter: 9, verse: 22}, path: text, expect_contains: "Daughter, cheer up!", checked: 2026-10-09}
+  - {id: lk8-48-web, what: "Jesus calls her 'Daughter' in Luke's account too", tool: bible_verse, args: {book: Luke, chapter: 8, verse: 48}, path: text, expect_contains: "Daughter, cheer up.", checked: 2026-10-09}
+  - {id: lk23-28-web, what: "Luke 23:28 plural 'Daughters of Jerusalem'", tool: bible_verse, args: {book: Luke, chapter: 23, verse: 28}, path: text, expect_contains: "Daughters of Jerusalem", checked: 2026-10-09}
+  - {id: mk6-56-web, what: "Mark 6:56 sick touch the fringe (WEB wording quoted)", tool: bible_verse, args: {book: Mark, chapter: 6, verse: 56}, path: text, expect_contains: "that they might just touch the fringe of his garment", checked: 2026-10-09}
+  - {id: kraspedon-nt, what: "kraspedon G2899 in 5 NT verses incl. Mark 6:56, Matt 14:36", tool: bible_concordance, args: {strongs: G2899, work_id: macula-greek-sblgnt}, expect_contains: "\"chapter\": 6, \"verse\": 56", checked: 2026-10-09}
+  - {id: hapto-mark-3-10, what: "Mark 3:10 the diseased press on Him to touch Him", tool: bible_verse, args: {book: Mark, chapter: 3, verse: 10}, path: text, expect_contains: "pressed on him that they might touch him", checked: 2026-10-09}
+  - {id: hapto-mark-count, what: "haptō G680 in Mark: 11 occurrences (1:41; 3:10; 5:27,28,30,31; 6:56 x2; 7:33; 8:22; 10:13)", tool: bible_concordance, args: {strongs: G680, book: Mark, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 11", checked: 2026-10-09}
+
 open_questions:
   - "AWAITING USER REVIEW -- draft: true. Do not flip to false or run commentary_index.py /
      section_index.py until reviewed (both generators skip drafts anyway)."

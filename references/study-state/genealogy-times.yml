@@ -494,3 +494,46 @@ read_2026-09-30:
     - "Genesis 5 and Genesis 11 tables open their sections with no claim leading in (rule 6); a one-line lead-in would need new prose."
     - "Opening paragraph 2 ends on method ('The reasoning here feeds docs/data/genealogy's structured files') -- rule 9, report only."
     - "Outline's timeline bullet still says 'and what stays open', which now lives in the annex; left verbatim to keep the prose-identity check clean."
+evidence:
+  - id: sp-gen-5-18-jared-62
+    what: SP Jared fathers Enoch at 62
+    tool: bible_passage
+    args: {book: Gen, chapter: 5, verse_start: 18, verse_end: 18, translation: scrollmapper-SP}
+    path: "verses.0.text"
+    expect_contains: "ויחי ירד שתים וששים שנה"
+    checked: 2026-10-09
+  - id: sp-gen-5-20-jared-847
+    what: SP Jared total 847
+    tool: bible_passage
+    args: {book: Gen, chapter: 5, verse_start: 20, verse_end: 20, translation: scrollmapper-SP}
+    path: "verses.0.text"
+    expect_contains: "שבע וארבעימ שנה ושמנה מאות שנה"
+    checked: 2026-10-09
+  - id: sp-gen-5-25-methuselah-67
+    what: SP Methuselah fathers Lamech at 67
+    tool: bible_passage
+    args: {book: Gen, chapter: 5, verse_start: 25, verse_end: 25, translation: scrollmapper-SP}
+    path: "verses.0.text"
+    expect_contains: "ויחי מתושלח שבע וששים שנה"
+    checked: 2026-10-09
+  - id: sp-gen-5-27-methuselah-720
+    what: SP Methuselah total 720
+    tool: bible_passage
+    args: {book: Gen, chapter: 5, verse_start: 27, verse_end: 27, translation: scrollmapper-SP}
+    path: "verses.0.text"
+    expect_contains: "עשרים . שנה ושבע מאות שנה"
+    checked: 2026-10-09
+  - id: sp-gen-5-28-lamech-53
+    what: SP Lamech fathers Noah at 53
+    tool: bible_passage
+    args: {book: Gen, chapter: 5, verse_start: 28, verse_end: 28, translation: scrollmapper-SP}
+    path: "verses.0.text"
+    expect_contains: "ויחי למך שלש וחמשים שנה"
+    checked: 2026-10-09
+  - id: sp-gen-5-31-lamech-653
+    what: SP Lamech total 653 (with Jared and Methuselah, all three die in SP's Flood year AM 1307)
+    tool: bible_passage
+    args: {book: Gen, chapter: 5, verse_start: 31, verse_end: 31, translation: scrollmapper-SP}
+    path: "verses.0.text"
+    expect_contains: "שלש וחמשים שנה ושש מאות שנה"
+    checked: 2026-10-09

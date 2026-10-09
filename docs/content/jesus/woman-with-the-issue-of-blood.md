@@ -22,7 +22,7 @@ For twelve years this woman had been bleeding, and under the law of Moses that m
 Anyone who touched what she had touched became unclean, and had to wash and wait until evening.
 Twelve years of that meant no temple, no ordinary family life, and no touching anyone without
 passing the condition on. Then Jesus came through her town in a crowd, and she reached out from
-behind and took hold of his clothes.
+behind and took hold of His clothes.
 
 **Under that law, uncleanness travelled one way: out from her, onto whatever she touched. At that
 moment it ran backwards. Nothing unclean passed from her to Jesus; power passed from Jesus to her,
@@ -55,18 +55,18 @@ is real; the fulfilment claim built on it is not one Scripture makes.
 
 ### Lessons about Jesus
 
-- He is not defiled by contact with what the law calls unclean; he cleanses it. Under Leviticus
+- He is not defiled by contact with what the law calls unclean; He cleanses it. Under Leviticus
   15:27 the traffic runs one direction, from the unclean person outward. Here it runs the other way,
   and the narrative never says Jesus became unclean.
-- He gives healing before he gives approval. The flow stopped at her touch (Mark 5:29), before he
-  turned, before he spoke, before she confessed. Her theology of how to approach him was arguably
+- He gives healing before He gives approval. The flow stopped at her touch (Mark 5:29), before He
+  turned, before He spoke, before she confessed. Her theology of how to approach Him was arguably
   wrong (she came secretly, from behind), and it was met anyway.
 - He refuses to let it stay anonymous. He stops a crowd, and an urgent errand to a dying child, to
   find one woman and speak to her (Mark 5:30-32). The healing was complete without that; the
   restoration was not.
-- He calls her "Daughter" (Mark 5:34), the only time in any Gospel Jesus addresses a woman that
-  way. After twelve years in which touch made her a legal hazard, the word he gives her is a
-  family word.
+- He calls her "Daughter" (Mark 5:34; Matthew 9:22; Luke 8:48), the only woman any Gospel shows
+  Jesus addressing individually that way. After twelve years in which touch made her a legal hazard,
+  the word He gives her is a family word.
 
 ### Memory verses
 
@@ -93,10 +93,10 @@ is real; the fulfilment claim built on it is not one Scripture makes.
 ### Prayer
 
 Father, you gave a law that told your people what defilement is and how far it spreads, and you were
-right about all of it. Then your Son let an unclean woman take hold of his clothes, and what came
+right about all of it. Then your Son Jesus let an unclean woman take hold of His clothes, and what came
 back down her arm was healing. Nothing in us is too far gone to touch you, and nothing in us is
 strong enough to make you unclean. Teach us to stop hiding, and to come out and tell you the whole
-truth as she did. Amen.
+truth as she did. In Jesus' name. Amen.
 
 ## Historical and cultural context: what twelve years cost her
 
@@ -168,6 +168,8 @@ Gospels emphasise the fringe" circulates widely, and it is not true of the text.
 Mark is telling a
 story about contagion running backwards, and "his clothes" is all that story needs. Matthew and Luke
 preserve a specific Jewish detail that a reader of the Greek Old Testament would catch immediately.
+Mark knows the word: one chapter later the sick beg "that they might just touch the fringe of his
+garment" (Mark 6:56, WEB), κρασπέδου in the Greek.
 
 ## The fringe: what she actually grabbed
 
@@ -193,14 +195,14 @@ Greek:
 > — Numbers 15:38 (Brenton Septuagint, public domain)
 
 Matthew 9:20 and Luke 8:44 use the same word, κράσπεδον. So when those two Gospels say she
-touched the κράσπεδον of his ἱμάτιον, they are using the Greek Old Testament's own term for the
+touched the κράσπεδον of His ἱμάτιον, they are using the Greek Old Testament's own term for the
 commanded tassel, not a general word for a hem. The *NIV Cultural Backgrounds Study Bible* reaches
 the same conclusion independently, with a hedge: the phrase "may refer to Jesus'
 Jewish tassels," pointing the reader to the Septuagint of Numbers 15:38-39 and Deuteronomy 22:12.
 
-Jesus wore them, as an observant Jewish man would; he criticised only the practice of lengthening
+Jesus wore them, as an observant Jewish man would; He criticised only the practice of lengthening
 them for display (Matthew 23:5). So the woman, whom the law had shut out, reached for the part of
-his clothing that existed to say *this man is bound to keep every commandment*. What came back
+His clothing that existed to say *this man is bound to keep every commandment*. What came back
 was healing.
 
 ## The Malachi question: a real pun, and an overreach
@@ -249,16 +251,17 @@ echo a first-century reader might catch. It is not a prediction being ticked off
 ## Word study
 
 - **κράσπεδον** (*kraspedon*, G2899, Louw-Nida domain 6.180) — "tassel, fringe." In Matthew 9:20 and
-  Luke 8:44; absent from Mark 5:27. Its Septuagint use at Numbers 15:38 for *tsitsit* is what ties
+  Luke 8:44; absent from Mark 5:27, though Mark uses it at 6:56 (as Matthew does at 14:36) for
+  the sick who touch the fringe. Its Septuagint use at Numbers 15:38 for *tsitsit* is what ties
   the Gospel detail to the commandment.
 - **ἅπτω** (*haptō*, G680) — "touch." She touches (5:27), plans to touch (5:28), and Jesus asks who
-  touched him (5:30-31). Every *other* occurrence in Mark has Jesus doing the touching, or the sick
-  being brought to him to be touched (1:41 the leper; 3:10; 6:56; 7:33; 8:22; 10:13). This is the one
-  place in Mark where someone touches Jesus first. She does it from behind, unseen, because
+  touched Him (5:30-31). In Mark's other occurrences Jesus does the touching (1:41 the leper; 7:33;
+  8:22; 10:13), or a summary has crowds of the sick pressing in to touch Him (3:10; 6:56). This is
+  the one scene in Mark where a single person touches Jesus first. She does it from behind, unseen, because
   Leviticus 15:27 makes that contact defiling in the wrong direction.
 - **δύναμις** (*dynamis*, G1411) — "power." Jesus "perceiv[ed] in himself that the power had gone out
   from him" (5:30, WEB). The healing registers as an outward transfer, and it happens at her touch,
-  before he has said or done anything toward her.
+  before He has said or done anything toward her.
 - **σῴζω** (*sōzō*, G4982) — "save, heal, make whole." She says "I will be made well" (σωθήσομαι,
   5:28); Jesus says "your faith has made you well" (σέσωκέν, 5:34). This is the ordinary New
   Testament verb for salvation, which invites over-reading. MACULA's
@@ -269,8 +272,9 @@ echo a first-century reader might catch. It is not a prediction being ticked off
   Mark 10:52 to blind Bartimaeus, so Mark is at least linking his faith-and-healing scenes
   deliberately, and the word's wider currency in the same Gospel (8:35; 10:26; 13:13) stays audible
   without the text making the larger claim outright.
-- **θυγάτηρ** (*thygatēr*, G2364) — "daughter." Mark 5:34 is the only place in any Gospel where Jesus
-  addresses a woman with this word.
+- **θυγάτηρ** (*thygatēr*, G2364) — "daughter." She is the only woman Jesus addresses individually
+  with this word, in all three accounts of the scene (Mark 5:34; Matthew 9:22; Luke 8:48). Luke 23:28
+  has the plural, "Daughters of Jerusalem".
 
 ## Theological principle
 
@@ -298,14 +302,14 @@ denied; what changes is which party is stronger at the point of contact.
    mainly about?
 2. Nobody in this passage says the purity law was wrong. What
    *has* changed, then, at the moment of contact?
-3. The woman was healed the instant she touched him, before Jesus knew who she was, and before she
-   said a word. Why does he then stop everything to find her? What would she have lost if he had let
+3. The woman was healed the instant she touched Him, before Jesus knew who she was, and before she
+   said a word. Why does He then stop everything to find her? What would she have lost if He had let
    her slip away healed?
 4. The *kānāp̄* wordplay between Malachi 4:2, Zechariah 8:23 and Numbers 15:38 is real, but no New
    Testament writer uses it. How would you decide, in general, when a verbal link is a
    deliberate echo and when it is a coincidence of vocabulary?
 5. Jesus calls her "Daughter", the only woman He addresses that way. Read that against the twelve
-   years of untouchability behind her. What is he giving her that the healing by itself did not?
+   years of untouchability behind her. What is He giving her that the healing by itself did not?
 
 ## References & Recommended Reading
 

@@ -263,3 +263,14 @@ read_2026-09-26:
     - "Opening paragraph's last sentence ('This study traces...') spends words on the study's method (structural-readability rule 9) -- for the author."
     - "Several thesis-antithesis constructions in prose (e.g. 'not the same shape of event', 'from context, not vocabulary') -- for review-bible-study."
     - "Not verified: this pass checks no quotation or claim."
+
+evidence:
+  - {id: 1cor15-52-esv, what: "1 Cor 15:52 says the dead are raised imperishable (no 'in Christ', no 'incorruptible')", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 52, work_id: esv-study-bible}, expect_contains: "the dead will be raised imperishable", checked: 2026-10-09}
+  - {id: rev11-18-esv, what: "11:18 in full, including the rewarding of the saints", tool: study_verse, args: {book: Rev, chapter: 11, verse: 18, work_id: esv-study-bible}, expect_contains: "and for rewarding your servants, the prophets and saints, and those who fear your name, both small and great, and for destroying the destroyers of the earth", checked: 2026-10-09}
+  - {id: rev6-8-esv, what: "'a fourth' belongs to the fourth seal's rider", tool: study_verse, args: {book: Rev, chapter: 6, verse: 8, work_id: esv-study-bible}, expect_contains: "authority over a fourth of the earth", checked: 2026-10-09}
+  - {id: rev8-11-esv, what: "third trumpet: waters made bitter, no blood", tool: study_verse, args: {book: Rev, chapter: 8, verse: 11, work_id: esv-study-bible}, expect_contains: "because it had been made bitter", checked: 2026-10-09}
+  - {id: ex7-21-esv, what: "first plague left the Nile undrinkable", tool: study_verse, args: {book: Exod, chapter: 7, verse: 21, work_id: esv-study-bible}, expect_contains: "the Egyptians could not drink water from the Nile", checked: 2026-10-09}
+  - {id: num10-7-esv, what: "assembly summoned with a long blast", tool: study_verse, args: {book: Num, chapter: 10, verse: 7, work_id: esv-study-bible}, expect_contains: "you shall blow a long blast", checked: 2026-10-09}
+  - {id: num10-esvsb-long-notes, what: "ESVSB: blowing = long notes, alarm = staccato", tool: study_note, args: {book: Num, chapter: 10, verse: 3, work_id: esv-study-bible}, expect_contains: "blowing involves long notes, whereas sounding an alarm is done with staccato blasts", checked: 2026-10-09}
+  - {id: mt24-31-nkjvcbsb, what: "CBSB: 'His angels' indicates His deity", tool: study_note, args: {book: Matt, chapter: 24, verse: 31, work_id: nkjv-cultural-backgrounds-study-bible}, expect_contains: "indicates His deity", checked: 2026-10-09}
+  - {id: rev8-cbsb-chart, what: "CBSB chart compares plagues, trumpets and bowls (two Revelation cycles)", tool: study_note, args: {book: Rev, chapter: 8, verse: 7, work_id: nkjv-cultural-backgrounds-study-bible}, expect_contains: "Many of the trumpet judgments, like many of the bowls", checked: 2026-10-09}

@@ -30,7 +30,7 @@ four authors mentions and all four obey.
 ### Types and prophecy
 
 **Twelve is a prophecy about Israel.** Israel had twelve tribes.
-When Jesus appoints twelve men, he is making a claim in the shape of a number, and he says
+When Jesus appoints twelve men, He is making a claim in the shape of a number, and He says
 so outright: the Twelve will "sit on twelve thrones, judging the twelve tribes of Israel" (Matthew
 19:28). John's vision closes the loop. The city has twelve gates bearing the names of the tribes and
 twelve foundations bearing the names of the apostles (Revelation 21:12-14). Both are named. Neither
@@ -38,15 +38,15 @@ is dissolved into the other.
 
 ### Lessons about Jesus
 
-- **He chose before he sent.** Mark gives the purpose clause in two halves, and the order is not
+- **He chose before He sent.** Mark gives the purpose clause in two halves, and the order is not
   reversible: "so that they might be with him and he might send them out to preach" (Mark 3:14).
-  Being with him is the first half of the appointment.
-- **He prayed all night over the choice** (Luke 6:12), and one of the twelve he chose betrayed him.
+  Being with Him is the first half of the appointment.
+- **He prayed all night over the choice** (Luke 6:12), and one of the twelve He chose betrayed Him.
   Both facts stand in the same passage.
 - **He renames people.** Simon becomes Peter, James and John become Sons of Thunder. Renaming is
-  what God does to Abram and Jacob; Jesus does it on his own authority, at first meeting (John 1:42).
+  what God does to Abram and Jacob; Jesus does it on His own authority, at first meeting (John 1:42).
 - **He chose men who could not have chosen each other.** A tax collector working for Rome and a
-  Zealot sworn against it are four names apart in the same list.
+  Zealot sworn against it are two to four names apart in every list.
 
 ### Memory verses
 
@@ -69,15 +69,17 @@ assumptions.
   had every political reason to despise each other, and were given three years in the same small
   group. If your fellowship has been narrowed to people who already agree with you, it is narrower
   than the one Jesus assembled.
-- **That obscurity means failure.** Nine of the Twelve never speak a recorded word. They are named
+- **That obscurity means failure.** Three of the Twelve never speak a recorded word on their own,
+  four if Bartholomew is not Nathanael. They are named
   on the foundations of the city anyway (Revelation 21:14).
 
 ### Prayer
 
 Father, you chose twelve ordinary men and made them the foundation of the city that has no need of
 sun or moon. You did not choose them for their strength, and you did not lose them for their
-weakness. Teach us to want your presence before we want your commission: to be with your Son first,
-and sent second. And where we have narrowed the company you have given us, widen it again.
+weakness. Teach us to want your presence before we want your commission: to be with your Son Jesus first,
+and sent second. And where we have narrowed the company you have given us, widen it again. In
+Jesus' name. Amen.
 
 ## Study outline
 
@@ -147,7 +149,7 @@ Three things hold across all four lists without exception:
 Membership never crosses a group boundary. Andrew moves between positions 2 and 4, never to 5.
 Thomas and Matthew swap places freely, never out of the second four.
 
-Scripture never explains this. But four independent lists agreeing on group membership and group
+Scripture never explains this. But four lists agreeing on group membership and group
 leaders while disagreeing on internal order look like a remembered organisational structure: three sub-groups, each with a fixed head.
 
 **One dependency.** Group three's membership is only constant if Thaddaeus (Matthew, Mark) and Judas
@@ -223,7 +225,7 @@ authority of the sender. The word is about commission.
 >
 > 12 In these days he went out to the mountain to pray, and all night he continued in prayer to God. 13 And when day came, he called his disciples and chose from them twelve, whom he named apostles:
 
-The sequence in verse 13 is precise: he called the *disciples* (the wide group), chose twelve
+The sequence in verse 13 is precise: He called the *disciples* (the wide group), chose twelve
 **from among them**, and *named* them apostles. The Greek verb is
 <span lang="grc">ὠνόμασεν</span> (*ōnomasen*, G3687), "he named." The title is conferred.
 
@@ -273,7 +275,7 @@ Israel had twelve tribes. Jesus does not leave the connection to inference:
 pal-ing-gen-es-EE-ah, G3824), from *palin*, "again," and *genesis*, "origin": a rebirth or renewal.
 The word occurs only twice in the New Testament, here and at Titus 3:5, where it describes the
 individual believer's regeneration. Here it is cosmic in scale: the renewal of
-the world itself, with the Son of Man enthroned and twelve thrones beside his.
+the world itself, with the Son of Man enthroned and twelve thrones beside His.
 
 This was legible to Jesus's contemporaries. The expectation that God would restore the twelve tribes
 was widespread, and the community at Qumran, a renewal movement within Israel, organised itself
@@ -296,7 +298,8 @@ the apostles and prophets, Christ Jesus himself being the cornerstone" (Ephesian
 
 ## The men themselves
 
-Six of the Twelve never speak a recorded word in Scripture. What follows is what the text
+Three of the Twelve (Matthew, James son of Alphaeus and Simon the Zealot) never speak a recorded
+word on their own in Scripture, and Bartholomew joins them unless he is Nathanael. What follows is what the text
 supplies; where a meaning is uncertain, it is marked so.
 
 | # | Name | Original | Meaning | Background |
@@ -347,9 +350,10 @@ second name would have been useful because *Judas* had become unusable.
 
 **Matthew** collected taxes for the Roman
 occupation; a <span lang="grc">τελώνης</span> was regarded as a collaborator and a thief, which is
-why the phrase "tax collectors and sinners" needs no explanation in the Gospels. **Simon** was a
-Zealot: the party of armed Jewish nationalism, whose programme was throwing Rome out, and
-whose extreme wing later took to assassinating collaborators.
+why the phrase "tax collectors and sinners" needs no explanation in the Gospels. **Simon** was called
+the Zealot, which may mark membership of the movement of armed Jewish nationalism (attested as an
+organised party only from the revolt of AD 66) or a zealous temperament. That movement's programme
+was throwing Rome out, and its extreme wing later took to assassinating collaborators.
 
 Under any normal circumstance these two men are enemies. Jesus put them in the same group of twelve
 and kept them there for three years.
@@ -382,9 +386,9 @@ both from Bethsaida in Galilee. Nothing in the text says this is why they were a
 > 50 And they all left him and fled.
 
 They argued at the Last Supper about which of them was the greatest (Luke 22:24). They failed to
-understand teaching they had heard repeatedly. Peter denied him three times. One of them sold him.
+understand teaching they had heard repeatedly. Peter denied Him three times. One of them sold Him.
 
-Their qualification was that Jesus chose them and they were with him: "You did not
+Their qualification was that Jesus chose them and they were with Him: "You did not
 choose me, but I chose you" (John 15:16, ESV).
 
 ## The twelfth chair
@@ -407,7 +411,7 @@ Matthias was chosen by lot (Acts 1:26), before Pentecost; it is the last recorde
 
 The Twelve are a claim before they are a team. By appointing twelve men and promising them
 twelve thrones over twelve tribes, Jesus announced the restoration of Israel and staffed it with
-people who had nothing to recommend them but his choosing. Their calling ran presence-before-mission:
+people who had nothing to recommend them but His choosing. Their calling ran presence-before-mission:
 *with him*, then *sent out*. Their commission was grounded in their having been chosen and having
 seen the risen Lord; their competence repeatedly failed.
 
@@ -419,7 +423,7 @@ Mark 3:14, Matthew 19:28, John 15:16 and Acts 1:21-22.
 1. Mark puts "be with him" before "send them out." What changes in how you evaluate a ministry (your own or someone else's) if the first half of the appointment is the presence rather than the productivity?
 2. Jesus prayed all night and still chose Judas (Luke 6:12-16). What does that do to the assumption that a well-prayed decision is one that cannot go wrong?
 3. Matthew and Simon the Zealot were political enemies kept in the same group for three years. Who is missing from your fellowship, and is their absence a conviction or a preference?
-4. Nine of the Twelve never speak a recorded word, and all twelve names are on the city's foundations. What does that suggest about how visible faithfulness has to be to count?
+4. Three of the Twelve never speak a recorded word on their own, and all twelve names are on the city's foundations. What does that suggest about how visible faithfulness has to be to count?
 5. The apostolic qualification in Acts 1:21-22 cannot be met by anyone alive. What follows for how we should treat claims to apostolic authority today?
 
 ## References and recommended reading

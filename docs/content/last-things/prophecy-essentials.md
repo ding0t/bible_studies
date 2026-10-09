@@ -1,7 +1,7 @@
 ---
 title: "Bible Prophecy Essentials"
 category: "prophecy"
-description: "A framework for reading biblical prophecy: why it matters, genuine fulfilled prophecies verified against source rather than assumed, and the road still ahead -- Daniel's seventieth week, the rapture, and the millennial reign."
+description: "A framework for reading biblical prophecy: why it matters, fulfilled prophecies checked against source, and the road still ahead -- Daniel's seventieth week, the rapture, and the millennial reign."
 tags: ["hermeneutics", "audience/teaching", "apologetics"]
 draft: false
 primary_passage: "Luke 24:27"
@@ -33,9 +33,9 @@ the case for both is the same case: prophecy already kept and checked against so
 text, and checked against a fulfilment recorded later and independently.
 
 Micah names Bethlehem as the Messiah's birthplace roughly 700 years early. Isaiah and the Psalms
-describe the manner of his death centuries before Rome existed to crucify anyone. Daniel's angel
+describe the manner of His death centuries before Rome existed to crucify anyone. Daniel's angel
 gives Israel a countable number of years to "an anointed one". And Jesus predicts the temple's fall,
-which came within his hearers' own lifetime. [Historically fulfilled prophecy](#historically-fulfilled-prophecy-not-by-squinting) below
+which came within His hearers' own lifetime. [Historically fulfilled prophecy](#historically-fulfilled-prophecy) below
 checks each one against its source.
 
 ### Lessons about Jesus
@@ -90,7 +90,7 @@ King who's coming. In Jesus' name. Amen.
 
 - [Why prophecy matters](#why-prophecy-matters). Payne's 27% count, and four reasons prophecy carries weight.
 - [Jesus is the key to all prophecy](#jesus-is-the-key-to-all-prophecy). Luke 24:27 on the Emmaus road.
-- [Historically fulfilled prophecy](#historically-fulfilled-prophecy-not-by-squinting). Micah 5:2, Isaiah 53, Psalm 22, Daniel's seventy weeks and Jerusalem's fall in AD 70.
+- [Historically fulfilled prophecy](#historically-fulfilled-prophecy). Micah 5:2, Isaiah 53, Psalm 22, Daniel's seventy weeks and Jerusalem's fall in AD 70.
 - [The two Gospel accounts of the end of the age](#the-two-gospel-accounts-of-the-end-of-the-age). The Olivet Discourse in Mark 13 and Matthew 24.
 - [Prophecy yet to come](#prophecy-yet-to-come). Daniel's seventieth week, the pretribulational rapture and the millennial reign.
 - [Larkin's chart](#larkins-chart-the-whole-shape-at-a-glance). The whole framework on one page.
@@ -108,15 +108,15 @@ That matters for four reasons:
 - **It's how the Bible authenticates itself.** A book that gets specific, checkable predictions right
   (names, places and time spans) is making
   a claim no other ancient religious text makes at the same scale. [Historically fulfilled
-  prophecy](#historically-fulfilled-prophecy-not-by-squinting) below gives the evidence for that claim.
+  prophecy](#historically-fulfilled-prophecy) below gives the evidence for that claim.
 - **It gives believers a future to encourage each other with.** Paul tells the
   Thessalonians to comfort one another with the specifics of the resurrection and the rapture
   (1 Thessalonians 4:18). The details matter because they are what is promised.
-- **It's the test Jesus himself pointed to.** "Beginning with Moses and all the Prophets, he
+- **It's the test Jesus Himself pointed to.** "Beginning with Moses and all the Prophets, he
   interpreted to them in all the Scriptures the things concerning himself" (Luke 24:27, ESV).
   Jesus treats His own identity as something the Hebrew Bible had already been telling readers to
   expect.
-- **It warns against deception.** Both Testaments treat "many will come... and will lead many astray"
+- **It warns against deception.** Jesus treats "many will come... and will lead many astray"
   (Matthew 24:5) as itself a predicted feature of the last days. Knowing the real pattern in advance
   lets you recognize a counterfeit.
 
@@ -131,7 +131,7 @@ This is Jesus Himself, on the road to Emmaus, the same day He rose. He claims th
 the Prophets, read rightly, were already telling this story. That claim is testable, and the next
 section tests it with specific, verifiable predictions checked against source.
 
-## Historically fulfilled prophecy: not by squinting
+## Historically fulfilled prophecy
 
 A skeptical reader is right to distrust "fulfilled prophecy" lists that work by vague resemblance:
 a psalm about anyone's suffering "could" describe anyone's suffering. The cases below were chosen
@@ -165,7 +165,7 @@ rests on other texts.
 > shall come a ruler who will shepherd my people Israel.'"
 
 Matthew's quotation joins Micah 5:2 to a second verse. "Who will shepherd my people Israel" comes from
-Nathan's word to David, "you shall be shepherd of my people Israel, and you shall be
+the LORD's word to David, as the tribes recalled it at Hebron, "you shall be shepherd of my people Israel, and you shall be
 prince over Israel" (2 Samuel 5:2, ESV). The chief priests and scribes (Matthew 2:4-6) are shown
 deliberately reading Micah's birthplace prophecy together with David's own shepherd-king language,
 a standard first-century Jewish exegetical move (linking two texts sharing a common phrase or theme,
@@ -174,7 +174,7 @@ Micah's: an identifiable, small, named town, centuries in advance. The religious
 David's shepherd language alongside it themselves, and they had every incentive not to hand Herod a
 location if they could avoid it (Matthew 2:16).
 
-### The manner of his suffering, written before crucifixion existed as a punishment for a Jew
+### The manner of His suffering, written before crucifixion existed as a punishment for a Jew
 
 Isaiah wrote in the 8th century BC; the Psalm below is traditionally Davidic, 10th century BC.
 Crucifixion as the Romans practiced it on provincial subjects didn't exist yet in either writer's
@@ -216,7 +216,7 @@ A real textual difficulty sits at the centre of this case. In the Masoretic Text
 verse 17 (Hebrew numbering; English v. 16) read <span dir="rtl">כָּ֝אֲרִ֗י</span> (*ka'ari*), "like
 a lion". That leaves the clause with no verb ("like a lion, my hands and my feet"), an awkward,
 incomplete sentence on its own terms. Checked against the Greek Septuagint
-(Brenton's edition, translated some two centuries before Christ) at the parallel verse: **ὤρυξαν
+(Brenton's edition) at the parallel verse: **ὤρυξαν
 χεῖράς μου, καὶ πόδας**, "they have pierced my hands and feet," a complete, sensible clause. That
 Greek translation existed roughly two hundred years before crucifixion was ever inflicted on a Jew,
 which rules out the charge that Christians edited the text after the fact to fit Jesus's death. The
@@ -239,7 +239,7 @@ detail about divided clothing. Both named centuries before either could have bee
 fact. You do not have to settle the "was this meant as prediction" question to see that the details
 are real and checkable.
 
-### The countdown to the exact week — Daniel's seventy weeks
+### Daniel's seventy weeks: the countdown to the exact week
 
 This is worked out in full in [Prophecy, calendar, and the anchors of biblical
 history](prophecy-events-times.md), with independently-dated Persian court records as the anchor. A
@@ -250,7 +250,7 @@ follows (Sir Robert Anderson's from 445 BC reaches AD 32). That page gives the f
 calculation is disputed (the exact day) and where it isn't (the shape of the result). See [Prophecy yet to come](#prophecy-yet-to-come) below for the
 seventieth week that page stops short of, which is still future.
 
-### Jesus's own prophecy, fulfilled within his hearers' lifetime
+### Jesus's own prophecy, fulfilled within His hearers' lifetime
 
 This last case is Jesus's own prediction, checked against secular history.
 
@@ -269,7 +269,7 @@ This last case is Jesus's own prediction, checked against secular history.
 > buildings of the temple. 2 But he answered them, "You see all these, do you not? Truly, I say to
 > you, there will not be left here one stone upon another that will not be thrown down."
 
-It happened in AD 70, within the lifetime of people who heard him say it. Titus's legions besieged
+It happened in AD 70, within the lifetime of people who heard Him say it. Titus's legions besieged
 Jerusalem, breached the walls, and burned the temple to the ground. Josephus watched it from the
 Roman side, and records the fire and the systematic dismantling of the city that followed
 (*The Jewish War*, Book 6). A common objection: the Western Wall still stands today, so wasn't the "not one stone" prediction
@@ -314,7 +314,7 @@ Matthew names the source of that image directly: "the abomination of desolation 
 prophet Daniel, standing in the holy place" (Matthew 24:15, ESV).
 
 So Jesus treats Daniel 9:27 as still future from where He stands (see
-[Prophecy yet to come](#prophecy-yet-to-come) below). Nothing in his hearers' past had used it up. What follows in both accounts is a severity neither account claims had already happened. "Great
+[Prophecy yet to come](#prophecy-yet-to-come) below). Nothing in His hearers' past had used it up. What follows in both accounts is a severity neither account claims had already happened. "Great
 tribulation, such as has not been from the beginning of the world until now, no, and never will be"
 (Matthew 24:21, ESV; Mark 13:19 nearly verbatim). The AD 70 siege was severe in its own right. This
 is not describing it. Both Gospels close the same way. No one knows the day or hour, "not even the angels in heaven, nor
@@ -416,8 +416,7 @@ that chart as a finished diagram for this site, with the whole framework on one 
 - J. Barton Payne, *Encyclopedia of Biblical Prophecy* (1973) -- source of the ~27%-predictive-verses
   figure cited above.
 - *ESV Study Bible* (Crossway, 2016) -- notes on Psalm 22 and Daniel 9, consulted as an independent
-  check on this study's own reading; see the honest disagreement flagged in the Psalm 22 section
-  above.
+  check on this study's own reading; see the Psalm 22 section above.
 - Flavius Josephus, *The Jewish War*, Book 6 -- eyewitness (Roman-side) account of Jerusalem's fall
   and the temple's destruction in AD 70.
 - Clarence Larkin, *Dispensational Truth* and accompanying charts (public domain) -- see

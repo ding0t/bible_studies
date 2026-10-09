@@ -222,6 +222,14 @@ stages:
     done: true
     validated: true
 
+evidence:
+  - {id: 2tim1-12-esv, what: "2 Timothy 1:12 ESV ends 'entrusted to me' (splice to 'him' corrected)", tool: study_verse, args: {book: 2Tim, chapter: 1, verse: 12, work_id: esv-study-bible}, expect_contains: "able to guard until that day what has been entrusted to me", checked: 2026-10-09}
+  - {id: mk14-64-esv, what: "the council's condemnation of Jesus is in Mark 14, not Acts 4", tool: study_verse, args: {book: Mark, chapter: 14, verse: 64, work_id: esv-study-bible}, expect_contains: "they all condemned him as deserving death", checked: 2026-10-09}
+  - {id: acts4-6-esv, what: "Acts 4:6 names Annas and Caiaphas", tool: study_verse, args: {book: Acts, chapter: 4, verse: 6, work_id: esv-study-bible}, expect_contains: "Annas the high priest and Caiaphas", checked: 2026-10-09}
+  - {id: jn20-31-na28, what: "NA28 brackets the sigma of pisteu[s]ete in John 20:31", tool: study_verse, args: {book: John, chapter: 20, verse: 31, work_id: na28-greek-nt}, expect_contains: "[σ]ητε ὅτι", checked: 2026-10-09}
+  - {id: jn20-31-sblgnt, what: "SBLGNT prints present pisteuete in John 20:31", tool: bible_verse, args: {book: John, chapter: 20, verse: 31}, expect_contains: "πιστεύητε", checked: 2026-10-09}
+  - {id: jn20-31-nlt, what: "NLT renders John 20:31 'continue to believe'", tool: study_verse, args: {book: John, chapter: 20, verse: 31, work_id: nlt-life-application-study-bible}, expect_contains: "continue to believe", checked: 2026-10-09}
+
 open_questions:
   - "Whether to explicitly invoke a dispensational frame here -- decided not to force it; assurance/
      eternal security isn't where this site's Israel/Church distinctive actually bears, unlike

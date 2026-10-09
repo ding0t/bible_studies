@@ -227,3 +227,32 @@ resources_consulted:
   - {type: other, title: "creation.com (Creation Ministries International) -- 'Ica stones, bad arguments'", note: "A creationist source itself cautioning against the Ica-stones/Acambaro dinosaur-art evidence -- used to justify excluding rather than affirming that specific claim."}
   - {type: other, title: "OpenBible.info cross-references", note: "Cross-ref candidates for Rom 1:19-20 via bible_crossref MCP tool."}
 last_updated: "2026-08-23"
+evidence:
+  - id: heb-1-3-esv
+    what: Hebrews 1:3 ESV reads "his nature" (prayer now alludes without quotation marks)
+    tool: study_verse
+    args: {book: Heb, chapter: 1, verse: 3, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "the exact imprint of his nature, and he upholds the universe by the word of his power"
+    checked: 2026-10-09
+  - id: rom-10-17-esv
+    what: Romans 10:17 ESV, quoted in "Two revelations"
+    tool: study_verse
+    args: {book: Rom, chapter: 10, verse: 17, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "faith comes from hearing, and hearing through the word of Christ"
+    checked: 2026-10-09
+  - id: rom-11-35-esv
+    what: Romans 11:35, the line Paul takes from Job 41:11, near the close of Romans 11 (36 verses)
+    tool: study_verse
+    args: {book: Rom, chapter: 11, verse: 35, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "who has given a gift to him that he might be repaid"
+    checked: 2026-10-09
+  - id: job-41-10-11-esv
+    what: Job 41:10-11 ESV, quoted in the Behemoth and Leviathan section
+    tool: study_verse
+    args: {book: Job, chapter: 41, verse: 11, work_id: esv-study-bible}
+    path: "0.text"
+    expect_contains: "Who has first given to me, that I should repay him?"
+    checked: 2026-10-09

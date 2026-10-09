@@ -249,150 +249,90 @@ review-bible-study pass should take them up. Still to do: the reference and abou
 
 ### 0.11 Content questions from the 0.10 pass
 
-The style passes in [0.10](#010-cut-the-ai-register) changed wording only. Along the way they
-found these content questions, none yet checked against source. Each needs verifying (quotations
-against study-notes.db, Greek and Hebrew against bible-text.db) before it is fixed. Items marked
-*author* need new wording or a judgment only the author can make.
+The style passes in [0.10](#010-cut-the-ai-register) changed wording only and found about a
+hundred content questions along the way. On 2026-10-09 each was checked against source
+(quotations against study-notes.db, Greek and Hebrew against bible-text.db). Those confirmed as
+errors are fixed, and 75 `evidence:` entries recording the checks now sit in the study state
+files. The fixes included the "Daughter" and Mark 6:56 claims, 2 Timothy 1:12, Luke 23:45's
+ἐκλιπόντος, Anderson's date, Jeremiah 23:32 and 23:27, "lie down" at Mark 6:39 (now "recline"),
+the Song 8:6 word count, the "never speak" count on The Twelve, and the Hebrew New Testament
+anchor. The same pass capitalised pronouns for God and Jesus in the studies' own prose and closed
+prayers "In Jesus' name. Amen." What follows is what remains: decisions and new wording that are
+the author's.
 
-**Across many of the 19 pages**
+#### Check against a source not held locally
 
-- Pronouns for God and Jesus are lowercase in the studies' own prose (style-guide rule 8). The
-  0.10 pass capitalised only the lines it touched; each page needs one full sweep, leaving
-  quotations alone. Worst: Bread of Life (about 30), The Woman Who Touched the Fringe, The Day Is
-  Near, Bible Prophecy Essentials and all seven apostle pages.
-- Prayers that never name Jesus or close "In Jesus' name. Amen.": The Trumpet Call of God, The Day
-  No One Knows, The Woman Who Touched the Fringe and all seven apostle pages.
-- *Author:* no sentence saying what the passage shows about God, or no "so you…" landing:
-  Prophecy Events and Times, Christians and Deliverance Ministry (neither has Key Takeaways), The
-  Trumpet Call of God ("Then and now"), Genealogy and Times (closing section), What Creation
-  Declares (science section), The Woman Who Touched the Fringe ("Theological principle"), The
-  Twelve ("Theological principle", election unnamed), Simon the Zealot, Bible Prophecy Essentials
-  (God keeps His word).
+- [Bible Prophecy Essentials](../last-things/prophecy-essentials.md): "That Greek translation
+  existed roughly two hundred years before crucifixion was ever inflicted on a Jew." Alexander
+  Jannaeus crucified Jewish opponents about 88 BC (Josephus, *Antiquities* 13.380), and Josephus
+  is not in the repo. A suggested wording: "That Greek translation was made before Christ".
+- [Prophecy Events and Times](../last-things/prophecy-events-times.md): the early witnesses for
+  ἐκλιπόντος at Luke 23:45 (P75, Sinaiticus, Vaticanus) are not named, since no apparatus is local.
+- [Simon the Zealot](../biblical-figures/simon-the-zealot.md): the body gives the root as H7065 and
+  the References give H7067.
 
-**Bible Prophecy Essentials**
+#### Arguments a fix has weakened
 
-- 2 Samuel 5:2 is called "Nathan's word to David"; in 5:1-2 the tribes at Hebron quote the LORD.
-  Nathan's oracle is 2 Samuel 7.
-- The LXX is said to predate any crucifixion of a Jew by about two centuries. Alexander Jannaeus
-  crucified Jewish opponents about 88 BC (Josephus, *Antiquities* 13.380).
-- Brenton's edition is called "translated some two centuries before Christ"; Brenton is 1844.
-- "A claim no other ancient religious text makes at the same scale" is uncited; "Both Testaments
-  treat…" cites only Matthew 24:5.
-- The frontmatter `description` keeps "genuine… rather than assumed".
+- [Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md): with "lie down" gone from
+  Mark 6:39, the Psalm 23 / Ezekiel 34 staging rests on the green grass, the shepherdless sheep and
+  "fed to the full". Keep the claim or soften it to an allusion. (The LXX of Psalm 22:2 could not
+  be checked: the database's LXX has no Psalms or Ezekiel.)
+- [The Trumpet Call of God](../last-things/trumpet.md): Revelation 11:18 is now quoted in full,
+  including "rewarding your servants… and saints", next to "It describes no resurrection of the
+  righteous dead in Christ."
+- [Genealogy and Times](../chronology/genealogy-times.md): in the Samaritan Pentateuch Jared,
+  Methuselah and Lamech all die in exactly AM 1307, its Flood year (checked). Its agreement on
+  Methuselah therefore comes from adjusting three totals, and "corroborates MT… by an entirely
+  different set of numbers" overstates it in two places.
+- [Assurance of Salvation](../salvation/assurance-of-salvation.md): 2 Timothy 1:12 now reads as the
+  ESV does, "entrusted to me". The ESV margin, "what I have entrusted to him", may be the sense the
+  argument wants, cited as the footnote reading.
 
-**The Trumpet Call of God**
+#### Decisions
 
-- "The dead in Christ" is attributed to 1 Corinthians 15 (it is 1 Thessalonians 4:16), and
-  "incorruptible" is KJV/NKJV; the ESV has "imperishable".
-- The third trumpet is tabled as water-to-blood; Revelation 8:11 has wormwood.
-- The Revelation 11:18 ellipsis drops "rewarding your servants", which weakens "judgment only".
-- Exodus 19:13 makes the Sinai trumpet a summons.
-- "All three judgment cycles" names two; "a fourth" (Revelation 6:8) belongs to the fourth seal
-  only; "a single, sustained blast" against Numbers 10:3's "both are blown".
+- [The Day Is Near](../last-things/day-is-near.md): μακροθυμέω is defined as patience and
+  *hypomonē* as endurance, but the Attitude bullet and the prayer call James 5:7 "endurance".
+- [Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md): "abundant" in Theological
+  principle against "sufficient, never abundant"; "Grace answers a craving the law once judged"
+  (Numbers 11 judges the people); one point made twice.
+- [Christians and Deliverance Ministry](../spiritual-beings/deliverance/christians-and-deliverance.md):
+  what the empty-house danger is to a believer the Spirit indwells; deliverance "at conversion" or
+  "at the cross"; the κολαφίζω caveat appears twice; whether the block quote opening the
+  preparatory-work section is quoted or the site's own words.
+- [The Day No One Knows](../jesus/the-day-no-one-knows.md): name the state-of-exaltation
+  distinction behind "no question of incarnational limitation", or soften it.
+- [Assurance of Salvation](../salvation/assurance-of-salvation.md): "the list omits the believer's
+  own future failures" beside "exhaustive on purpose"; the fourth "how the week has gone".
+- [Matthew](../biblical-figures/matthew.md) and [The Twelve](../biblical-figures/twelve-apostles.md):
+  "at minimum a distinctive editorial choice" leaves the humility inference unstated.
+- [Israel and the Church](../israel-and-church/israel-and-the-church.md): restore "The Church is not
+  Israel, and Israel is not the Church" as a signature line, or leave it cut.
+- [Bible Prophecy Essentials](../last-things/prophecy-essentials.md): "a claim no other ancient
+  religious text makes at the same scale" is uncited.
 
-**Prophecy Events and Times**
+#### New wording only the author can write
 
-- The Luke 23:45 ἐκλιπόντος reading is called "later manuscripts"; it is in P75, Sinaiticus and
-  Vaticanus and is the NA28 text.
-- Anderson dated the Triumphal Entry itself to 6 April AD 32, not "days before".
-- It says it takes no side on the Exodus date, then that the site works to 1446 BC.
-- A References entry cites an "open discrepancy noted above" that the study never discusses.
-- Herod's death in 4 BC is stated as fixed; the 1 BC date has defenders.
+- No sentence saying what the passage shows about God, or no "so you…" landing: Prophecy Events
+  and Times and Christians and Deliverance Ministry (neither has Key Takeaways), The Trumpet Call of
+  God ("Then and now"), Genealogy and Times (closing section), Dreams and Visions (Joseph, Daniel,
+  Acts 10), What Creation Declares (science section), The Woman Who Touched the Fringe and The
+  Twelve ("Theological principle"; election unnamed), Simon the Zealot (reconciliation unnamed),
+  The Day No One Knows ("Lessons about Jesus"), The Day Is Near, Bible Prophecy Essentials (God
+  keeps His word; the prayer never names Jesus).
+- What Creation Declares: Discussion question 3 asks the reader to judge the study's fairness.
+- Prophecy Events and Times: "Three days and three nights" lists its evidence and gives no verdict.
 
-**Dreams and Visions**
+#### Structural, for read-bible-study or simplify-bible-study
 
-- Jeremiah 23:32 is called the chapter's closing verdict (the chapter runs to v.40), and the Baal
-  comparison misreads v.27.
-- "Every dream… protects his life" does not fit Matthew 1:20-21.
-- The Acts 10:17 quotation has no translation label.
-- Heading "a hierarchy, not a flat category" is an antithesis; renaming it means updating the
-  Study outline link.
-
-**What Creation Declares**
-
-- The prayer quotes Hebrews 1:3 as "the exact imprint of your nature"; the ESV has "his".
-- "Biologists once assumed the 'simplest' living cell must be complex": probably "simple".
-- "At the close of Romans 11:35" probably means Romans 11.
-- *Author:* Discussion question 3 asks the reader to judge the study's fairness and needs replacing.
-
-**Genealogy and Times**
-
-- The Samaritan Pentateuch's Methuselah is counted as independent support for the Masoretic Text in
-  two places and as an editor's fix in a third.
-
-**Christians and Deliverance Ministry**
-
-- The empty-house argument does not say what the danger is to a believer, whose place the study
-  says the Holy Spirit fills.
-- "Every occurrence" does not fit John 10:21; deliverance is placed "at conversion" in one place
-  and "at the cross" in another; the κολαφίζω caveat is stated twice.
-- A block-quoted line may be the site's own words.
-
-**The Day No One Knows**
-
-- A textual-note paragraph sits under the Prayer heading.
-- "Lessons about Jesus" repeats a later paragraph almost word for word.
-- The "birth-pangs checklist" has no citation (Matthew 24:6-8).
-- "No question of incarnational limitation" after the resurrection rests on an unstated
-  state-of-exaltation distinction.
-
-**Assurance of Salvation**
-
-- 2 Timothy 1:12 is spliced to end "entrusted to" him; the ESV reads "entrusted to me".
-- John 20:31's evangelistic aim is stated as settled; the *pisteusēte*/*pisteuēte* variant is
-  contested.
-- The council's condemnation of Jesus is cited to Acts 4; it comes from the Gospels.
-
-**The Woman Who Touched the Fringe**
-
-- It says three times that this is the only place Jesus calls a woman "Daughter"; Matthew 9:22
-  and Luke 8:48 do too, and Luke 23:28 has "Daughters of Jerusalem".
-- Mark 6:56 has the sick touching the κράσπεδον, against "the detail is not Mark's interest" and
-  "the one place in Mark where someone touches Jesus first" (see also Mark 3:10).
-
-**Bread of Life**
-
-- Mark 6:39 is bolded as "lie down"; the ESV has "sit down" (ἀνακλῖναι, recline). The Psalm 23
-  argument leans on it.
-- ἐπιούσιος is called "the rarest word in the New Testament"; it occurs twice.
-- ESV wording under a WEB block quote (1 Kings 17); five quotations near the end have no
-  translation label.
-- "Abundant" in the closing against "sufficient, never abundant" earlier; one claim made twice.
-- Be Transformed labels use `**Think:**`, against the site's `**Think.**`.
-
-**Israel and the Church**
-
-- The καινός/νέος distinction is overstated: Colossians 3:10 uses νέος for the "new self" that
-  Ephesians 4:24 calls καινός.
-
-**Bible Translations & Source Texts**
-
-- "Four Hebrew words" lists three (Song of Songs 8:6); "only the LSB prints the name" while WEB,
-  ASV and YLT do too; "three committees footnote" shows two.
-- The link to the Hebrew New Testaments points at `#hebrew-old-testament`. The same wrong anchor
-  is on [Public Data Sources](../resources/public-data-sources.md) and possibly the Glossary.
-
-**The Day Is Near**
-
-- James 5:7's μακροθυμέω is defined as patience and *hypomonē* as endurance, yet Be Transformed
-  and the prayer call 5:7 "endurance"; "James uses both… at 5:8 and 5:11" reads as if 5:8 has
-  *hypomonē*.
-
-**The Twelve and the apostle pages**
-
-- "Nine of the Twelve never speak" and "Six never speak" contradict each other, and neither count
-  fits.
-- Matthew and Simon "four places apart" holds only in Mark (The Twelve, Matthew, Simon the Zealot).
-- "Four independent lists" is not marked contested; the pages disagree on whether Simon belonged to
-  the Zealot party.
-- Thomas speaks four times in John, not three.
-- Thaddaeus is called tenth in the Synoptic lists; Luke has him eleventh. The Jude argument rests
-  on "son of James" where the Greek has a bare genitive, "Judas of James".
-- Judas Iscariot: the explanation "he was a thief" is in John 12:6, the first mention, not the
-  second; the *metamelomai*/*metanoeō* contrast is stated as settled despite Matthew 21:29, 32.
-- Bartholomew: "Come and see" is Philip's invitation, not Jesus'.
-- Simon the Zealot: "Both men were standing there" (Matthew 22:15-22) is not in the text.
-- Matthew: "everyone else in his profession" overstates Luke 5:29.
+- No Study outline (validator Check 22): Prophecy Events and Times, The Woman Who Touched the
+  Fringe, Bible Translations & Source Texts. Prophecy Events and Times is also over its word budget.
+- Headings that are still contrasts or carry dashes: What Creation Declares ("A caution, not a
+  citation", "Two revelations, not one"), Bread of Life (two dash headings), Bible Translations
+  (two dash headings, one now a link target).
+- The Day No One Knows: a textual-note paragraph sits under the Prayer heading.
+- Bible Translations: the Hebrew New Testaments' status stated four times, the NASB caution three.
+- Frontmatter descriptions still carry "honestly" (Bartholomew, Judas Iscariot) and "genuine…
+  rather than assumed" (Bible Prophecy Essentials).
 
 ## 1. Scripture
 

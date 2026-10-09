@@ -66,7 +66,7 @@ demonology behind that usage. The specific verb form δαιμονίζομαι, t
 history outside the New Testament. Its meaning has to be established from how the New Testament
 itself uses it.
 
-**How the New Testament uses it.** The word occurs exactly 13 times in the New Testament (7 in Matthew, 4 in Mark, 1 in Luke, 1 in John) and nowhere else. Every occurrence:
+**How the New Testament uses it.** The word occurs exactly 13 times in the New Testament (7 in Matthew, 4 in Mark, 1 in Luke, 1 in John) and nowhere else. Every occurrence but John 10:21 (below):
 
 - Describes someone brought to or encountered by Jesus during His earthly, pre-Pentecost ministry (the Gadarene demoniac in Matthew 8/Mark 5/Luke 8, the mute man in Matthew 9:32, the blind-and-mute man in Matthew 12:22, the Canaanite woman's daughter in Matthew 15:22, and so on).
 - Describes someone who is *not* a follower of Jesus.
@@ -106,7 +106,7 @@ Deliverance ministry distinguishes "demonized" from "possessed," but functionall
 ### Three reasons this can't be
 
 1. There is no case of an evil spirit being driven out of a believer anywhere in Scripture.
-2. A Christian already has the Holy Spirit and belongs to God. The body is "a temple of the Holy Spirit."
+2. A Christian already has the Holy Spirit and belongs to God. The body is "a temple of the Holy Spirit" (1 Corinthians 6:19, ESV).
 3. The "empty house" image below assumes something must dwell in a person's inner life. That place either holds the Holy Spirit or it doesn't, and for a believer it does.
 
 ### The person as a temple for a spirit

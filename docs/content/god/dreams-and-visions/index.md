@@ -30,7 +30,7 @@ Joel prophesied that God would one day "pour out my Spirit on all flesh." Dreams
 
 ### Lessons about Jesus
 
-Every dream recorded around Jesus's birth protects His life. An angel warns Joseph in a dream to take Mary as his wife despite the scandal (Matthew 1:20-21), then to flee to Egypt ahead of Herod's slaughter (Matthew 2:13), then that it is safe to return (Matthew 2:19-22). The magi are warned in a dream not to report back to Herod (Matthew 2:12). Pilate's own wife is warned in a dream that Jesus is "that righteous man" (Matthew 27:19, ESV), and Pilate disregards it anyway. Then the church's mission first breaks open toward the Gentiles, and it happens through a vision given to Peter (Acts 10) confirmed by a vision given to Cornelius (Acts 10:3-6). Christ's own Great Commission (Matthew 28:19, Acts 1:8) advances at its hinge point by dreams and visions.
+The first dream recorded around Jesus's birth brings Him into Joseph's household, and every one after it protects His life. An angel tells Joseph in a dream to take Mary as his wife despite the scandal (Matthew 1:20-21), then to flee to Egypt ahead of Herod's slaughter (Matthew 2:13), then that it is safe to return (Matthew 2:19-22). The magi are warned in a dream not to report back to Herod (Matthew 2:12). Pilate's own wife is warned in a dream that Jesus is "that righteous man" (Matthew 27:19, ESV), and Pilate disregards it anyway. Then the church's mission first breaks open toward the Gentiles, and it happens through a vision given to Peter (Acts 10) confirmed by a vision given to Cornelius (Acts 10:3-6). Christ's own Great Commission (Matthew 28:19, Acts 1:8) advances at its hinge point by dreams and visions.
 
 ### Memory verses
 
@@ -60,7 +60,7 @@ Lord, you are the God who reveals what no one else can. You spoke to Joseph, to 
 - [Historical and cultural context](#historical-and-cultural-context). Dreams as omens in Egypt and Babylon, and the Genesis dream pattern.
 - [Word studies](#word-studies-what-the-bible-calls-a-dream-and-a-vision). The Hebrew, Aramaic and Greek words for dream, vision, interpretation and mystery.
 - [Godly dreams and visions](#godly-dreams-and-visions-the-pattern-across-scripture). Joseph, Daniel, Solomon, Matthew's birth narrative, Peter and Paul.
-- [Where dreams sit](#where-dreams-sit-a-hierarchy-not-a-flat-category). Numbers 12:6-8: dreams and visions for the prophets, "mouth to mouth" for Moses.
+- [Where dreams sit](#where-dreams-sit-gods-own-ranking). Numbers 12:6-8: dreams and visions for the prophets, "mouth to mouth" for Moses.
 - [False and deceptive dreams](#otherwise-false-and-deceptive-dreams). Deuteronomy 13, Jeremiah 23, Ecclesiastes 5:7 and Jude 1:8.
 - [A framework for discernment](#a-framework-for-discernment-built-from-the-text). The content, authority and fruit tests, applied to Joseph's brothers and Jacob.
 - [The line this study exists to draw](#the-line-this-study-exists-to-draw). 1 Thessalonians 5:19-21, and how to read the personal dream accounts on this site.
@@ -128,9 +128,9 @@ In the New Testament, the pattern shifts vocabulary (see the word studies above)
 >
 > 11 and saw the heavens opened and something like a great sheet descending, being let down by its four corners upon the earth. 12 In it were all kinds of animals and reptiles and birds of the air. 13 And there came a voice to him: "Rise, Peter; kill and eat." 14 But Peter said, "By no means, Lord; for I have never eaten anything that is common or unclean." 15 And the voice came to him again a second time, "What God has made clean, do not call common."
 
-In Acts 10:17 Peter himself is "inwardly perplexed as to what the vision that he had seen might mean." The chapter answers that question without a dream-interpreter. Cornelius's messengers arrive at that moment (Acts 10:17-20), and later the Holy Spirit falls visibly on Cornelius's household (Acts 10:44-46). Paul's Macedonian vision (Acts 16:9-10) works the same way: a man asking for help, understood immediately and acted on the next day, with no interpretation step needed at all.
+In Acts 10:17 Peter himself is "inwardly perplexed as to what the vision that he had seen might mean" (ESV). The chapter answers that question without a dream-interpreter. Cornelius's messengers arrive at that moment (Acts 10:17-20), and later the Holy Spirit falls visibly on Cornelius's household (Acts 10:44-46). Paul's Macedonian vision (Acts 16:9-10) works the same way: a man asking for help, understood immediately and acted on the next day, with no interpretation step needed at all.
 
-## Where dreams sit: a hierarchy, not a flat category
+## Where dreams sit: God's own ranking
 
 > ✝️ Numbers 12:6-8 (ESV)
 >
@@ -154,7 +154,7 @@ The sign *comes true* (v.2), and the instruction is still to reject the dreamer.
 >
 > 25 I have heard what the prophets have said who prophesy lies in my name, saying, 'I have dreamed, I have dreamed!' 26 How long shall there be lies in the heart of the prophets who prophesy lies, and who prophesy the deceit of their own heart, 27 who think to make my people forget my name by their dreams that they tell one another, even as their fathers forgot my name for Baal? 28 Let the prophet who has a dream tell the dream, but let him who has my word speak my word faithfully. What has straw in common with wheat? declares the LORD.
 
-Verse 28 grants a legitimate category, "let the prophet who has a dream tell the dream," even while condemning the specific prophets in view. Jeremiah makes three accusations. They prophesy "lies in my name," claiming a divine authority the experience doesn't carry. They draw people toward Baal, the way their claim to a dream drew attention toward themselves (v.27). And God says plainly of them, "I did not send them or charge them" (v.32, the chapter's closing verdict). That is the same content-and-source test Deuteronomy 13 established, applied now to Judah's own prophets.
+Verse 28 grants a legitimate category, "let the prophet who has a dream tell the dream," even while condemning the specific prophets in view. Jeremiah makes three accusations. They prophesy "lies in my name," claiming a divine authority the experience doesn't carry. Their dreams make God's people forget His name, as their fathers forgot it for Baal (v.27). And God says plainly of them, "I did not send them or charge them" (v.32). That is the same content-and-source test Deuteronomy 13 established, applied now to Judah's own prophets.
 
 ### Ecclesiastes 5:7 and Jude 1:8
 

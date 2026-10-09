@@ -20,7 +20,7 @@ ai_provider_models:
 > 32 "But concerning that day or that hour, no one knows, not even the angels in heaven, nor the Son,
 > but only the Father."
 
-Of everything Jesus says about his own return, this is the sentence most likely to be quoted
+Of everything Jesus says about His own return, this is the sentence most likely to be quoted
 carelessly in either direction. Read one way it appears to deny that the Son is God. Read the way a popular explanation takes it,
 it says nothing about knowledge at all, because Jesus is
 supposedly quoting a wedding idiom. **Neither reading survives contact with the text: the verse is
@@ -43,8 +43,8 @@ Zechariah says the same of the day itself: "there shall be a unique day, which i
 
 Two truths have to be held at once, and the Council of Chalcedon (AD 451) fixed the language for
 holding them. Scripture says Jesus grew, was weary, thirsty, hungry, and was crucified, none of
-which is true of the divine nature; and it says he "knew all people" and needed no one to tell him
-what was in a man (John 2:24-25). The verse speaks in terms of his human nature, and its emphasis
+which is true of the divine nature; and it says He "knew all people" and needed no one to tell Him
+what was in a man (John 2:24-25). The verse speaks in terms of His human nature, and its emphasis
 falls on the Father's prerogative.
 
 ### Memory verses
@@ -68,7 +68,7 @@ falls on the Father's prerogative.
 ### Prayer
 
 Father, the day is yours and you have not told us. Keep us from pretending otherwise, and from living
-as though a date we cannot know were the thing that mattered. Make us ready today. Amen.
+as though a date we cannot know were the thing that mattered. Make us ready today. In Jesus' name. Amen.
 
 Some manuscripts omit "nor the Son" in Matthew, and the CSB and NLT both flag
 it in their footnotes; the two critical Greek texts in this repo's own database, SBLGNT and
@@ -88,7 +88,7 @@ Jesus learned things as other human beings learn them (cf. Luke 2:52; Heb. 5:8).
 Jesus was also fully God, and, as God, he had infinite knowledge (cf. John 2:25; 16:30; 21:17). Here
 he is apparently speaking in terms of his human nature" (note on Matthew 24:36). Scripture speaks the
 same way when it says He grew, was weary, was thirsty, was hungry, and was crucified, none of which is
-true of the divine nature. Paul describes the arrangement as self-emptying: he "emptied himself, by
+true of the divine nature. Paul describes the arrangement as self-emptying: He "emptied himself, by
 taking the form of a servant" (Philippians 2:7, ESV). The Council of Chalcedon in AD 451 fixed the
 language for holding both together.
 
@@ -106,7 +106,7 @@ same way, and names the reason:
 > authority."
 
 Authority (ἐξουσία, *exousia*), not information. The day is the Father's to set and the Father's to
-disclose, and he has not disclosed it. Zechariah says the same of the day itself: "there shall be a
+disclose, and He has not disclosed it. Zechariah says the same of the day itself: "there shall be a
 unique day, which is known to the LORD" (14:7, ESV). The *NIV Cultural Backgrounds Study
 Bible* cites it at this point (note on Matthew 24:36).
 
@@ -114,7 +114,7 @@ That note also supplies the setting Jesus is speaking into: "Jewish teachers dis
 themselves as to whether God had immutably fixed the day of redemption or whether it would depend on
 human cooperation. Some tried to calculate dates; others regarded such calculations as impossible."
 Jesus lands on the second side. He made the same move with the birth-pangs
-checklist at the start of the discourse.
+checklist at the start of the discourse (Matthew 24:6-8).
 
 ## The Jewish wedding explanation, weighed
 

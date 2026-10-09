@@ -599,3 +599,16 @@ read_2026-09-26:
     - "Theological principle (201 words) restates the Numbers 11 / John 6 contrast already landed in The wrong response; a merge is simplify-bible-study's call, not this pass's."
     - "The Key Takeaways Type paragraph and Lessons duplicate points made in the body (peirazo test, apollymi, shepherd); expected for the Key Takeaways shape, noted only."
     - "Outline bullets are descriptive only; no evaluative annotation (e.g. which section is the heart of the study) was added -- that is the author's to write."
+
+evidence:
+  - {id: mk6-39-esv, what: "Mark 6:39 ESV reads 'sit down', not 'lie down'", tool: study_verse, args: {book: Mark, chapter: 6, verse: 39, work_id: esv-study-bible}, expect_contains: "commanded them all to sit down in groups on the green grass", checked: 2026-10-09}
+  - {id: mk6-39-anaklino, what: "Mark 6:39's verb is anaklinai (G347, recline)", tool: bible_verse, args: {book: Mark, chapter: 6, verse: 39}, expect_contains: "ἀνακλῖναι", checked: 2026-10-09}
+  - {id: ps23-2-rabats, what: "Psalm 23:2 'makes me lie down' is rabats (H7257), no verbal tie to Mark's anaklino", tool: bible_interlinear, args: {book: Ps, chapter: 23, verse: 2}, expect_contains: "H7257", checked: 2026-10-09}
+  - {id: epiousios-2x, what: "epiousios occurs only at Matt 6:11 and Luke 11:3", tool: bible_concordance, args: {strongs: G1967, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "2", checked: 2026-10-09}
+  - {id: 2kgs4-44-web, what: "2 Kings 4:44 WEB 'according to Yahweh's word'", tool: bible_verse, args: {book: 2Kgs, chapter: 4, verse: 44}, expect_contains: "had some left over, according to Yahwe", checked: 2026-10-09}
+  - {id: matt15-31-esv, what: "Matthew 15:31 ESV 'glorified the God of Israel'", tool: study_verse, args: {book: Matt, chapter: 15, verse: 31, work_id: esv-study-bible}, expect_contains: "they glorified the God of Israel", checked: 2026-10-09}
+  - {id: deut8-3-esv, what: "Deuteronomy 8:3 ESV", tool: study_verse, args: {book: Deut, chapter: 8, verse: 3, work_id: esv-study-bible}, expect_contains: "man does not live by bread alone", checked: 2026-10-09}
+  - {id: matt6-33-esv, what: "Matthew 6:33 ESV", tool: study_verse, args: {book: Matt, chapter: 6, verse: 33, work_id: esv-study-bible}, expect_contains: "and all these things will be added to you", checked: 2026-10-09}
+  - {id: isa55-2-esv, what: "Isaiah 55:2 ESV", tool: study_verse, args: {book: Isa, chapter: 55, verse: 2, work_id: esv-study-bible}, expect_contains: "your labor for that which does not satisfy", checked: 2026-10-09}
+  - {id: prov30-8-9-esv, what: "Proverbs 30:8-9 ESV", tool: study_verse, args: {book: Prov, chapter: 30, verse: 8, verse_end: 9, work_id: esv-study-bible}, expect_contains: "lest I be full and deny you", checked: 2026-10-09}
+  - {id: 1tim6-8-esv, what: "1 Timothy 6:8 ESV", tool: study_verse, args: {book: 1Tim, chapter: 6, verse: 8, work_id: esv-study-bible}, expect_contains: "with these we will be content", checked: 2026-10-09}

@@ -1,7 +1,7 @@
 ---
 title: "Bread of Life: The Feeding of the 5,000 and the 4,000"
 category: "prophecy"
-description: "The two feeding miracles read the way Jesus reads them at Mark 8:19-21 -- what he makes explicit about the sign in John 6, and what the narrative leaves implicit about Jew, Gentile, shepherd, and the wrong way to want bread."
+description: "The two feeding miracles read the way Jesus reads them at Mark 8:19-21 -- what He makes explicit about the sign in John 6, and what the narrative leaves implicit about Jew, Gentile, shepherd, and the wrong way to want bread."
 tags: ["method/typology", "john", "mark", "matthew", "luke", "manna", "method/word-study", "old-testament", "prophecy-fulfilled", "bread-of-life"]
 draft: false
 primary_passage: "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15; Matthew 15:32-39; Mark 8:1-10"
@@ -17,7 +17,7 @@ ai_provider_models:
 # Bread of Life: The Feeding of the 5,000 and the 4,000
 
 The feeding of the five thousand is the only miracle of Jesus's ministry recorded in all four Gospels,
-and Jesus himself supplies the reading. Asked later about a loaf of bread in a boat, He makes the disciples recite the numbers from both, then asks, *"Do you not
+and Jesus Himself supplies the reading. Asked later about a loaf of bread in a boat, He makes the disciples recite the numbers from both, then asks, *"Do you not
 yet understand?"* (Mark 8:21, ESV).
 
 **In one sentence:** In the two feedings God gives His people bread from heaven again, and this
@@ -34,7 +34,7 @@ portion from your Father's hand.
 **Type.** The manna is a **τύπος** (*typos*, G5179) of Christ, and the identification is Jesus's own. The pattern shows five things, point for point. Bread that comes down from
 heaven (Exodus 16:4; John 6:32-33). Given to people who did not work
 for it and could not have made it. Issued a day at a time and impossible to hoard (Exodus 16:19-20).
-Given *as a test* (Exodus 16:4 LXX **πειράσω**; John 6:6). And sufficient, never abundant. Jesus takes each of those and applies them to himself, then
+Given *as a test* (Exodus 16:4 LXX **πειράσω**; John 6:6). And sufficient, never abundant. Jesus takes each of those and applies them to Himself, then
 presses the type past where it can follow: the fathers ate manna and died (6:49), so the true bread
 has to do something manna never did.
 
@@ -47,17 +47,17 @@ Prophet who is to come into the world!" (John 6:14, ESV). This is verbal predict
 
 ### Lessons about Jesus
 
-- He is the bread itself. Asked for a permanent supply, he answers with a
+- He is the bread itself. Asked for a permanent supply, He answers with a
   predicate nominative: **Ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς** (John 6:35). The request could only be granted by
   being refused in those terms.
-- He will not accept a crown on the crowd's terms, even from people who have just named him
-  correctly. When they move to take him by force and make him king, he withdraws (6:14-15).
+- He will not accept a crown on the crowd's terms, even from people who have just named Him
+  correctly. When they move to take Him by force and make Him king, He withdraws (6:14-15).
 - He works from what is already in someone's hands. "How many loaves do you have? Go and see"
   (Mark 6:38, ESV). Then the disciples do the distributing.
-- He is the shepherd Israel was promised. Mark acts out Ezekiel 34:15 and Psalm 23:1-2: shepherdless sheep made to lie down on green grass and pastured full
+- He is the shepherd Israel was promised. Mark acts out Ezekiel 34:15 and Psalm 23:1-2: shepherdless sheep made to recline on green grass and pastured full
   (**ἐχορτάσθησαν**, Mark 6:42).
 - He loses nothing. The verb used of the fragments gathered so that none would be wasted (6:12) is
-  the verb used of the people the Father has given him (John 6:39).
+  the verb used of the people the Father has given Him (John 6:39).
 - He feeds Israel and the nations from the same hands, in that order: twelve Jewish baskets, seven
   Gentile hampers, and the Gentile meal narrated in the words the church would use at its own table
   (Mark 8:6; 1 Corinthians 11:24).
@@ -77,13 +77,13 @@ Prophet who is to come into the world!" (John 6:14, ESV). This is verbal predict
 
 ### Be Transformed
 
-- **Think:** stop sorting your prayers into "spiritual" and "practical." John 6 does not rebuke the
+- **Think.** stop sorting your prayers into "spiritual" and "practical." John 6 does not rebuke the
   crowd for wanting bread; it rebukes them for stopping there. Ask whether the answer stops at
   the gift or moves you to the Giver.
-- **Attitude:** treat sufficiency as provision. Numbers 11 is the account
+- **Attitude.** treat sufficiency as provision. Numbers 11 is the account
   of people who had what they needed daily and called it deprivation: "there is nothing at
   all but this manna to look at." They were judged for despising enough.
-- **Do:** identify one arrangement in your life built specifically so that you never have to ask God
+- **Do.** identify one arrangement in your life built specifically so that you never have to ask God
   for it again, and pray about that thing this week as though you did. The manna could not be stored
   by design; "give us this day our daily bread" is a petition Jesus expected to be repeated.
 
@@ -91,8 +91,8 @@ Prophet who is to come into the world!" (John 6:14, ESV). This is verbal predict
 
 *Father, you have never once fed your people carelessly. You rained bread on a nation that had just
 finished complaining, you counted the fragments on a hillside so that not one would be wasted, and
-you gave your Son Jesus so that of all you had given him he would lose none. You are not a God who runs
-short, and you are not a God who spoils His children.*
+you gave your Son Jesus so that of all you had given Him He would lose none. You are not a God who runs
+short, and you are not a God who spoils your children.*
 
 *Teach me to want you more than what you hand me. Where I have been working for food that perishes,
 turn my labour. Where I have quietly arranged my life so that I need not ask, break the
@@ -103,7 +103,7 @@ Bread of Life, Jesus. In Jesus' name. Amen.*
 
 - [The two feedings, side by side](#the-two-feedings-side-by-side). Place, loaves, crowd, baskets and verbs for each meal, in one table.
 - [Two events, not one retold](#two-events-not-one-retold). Mark 8:19-21, and the two basket words, *kophinos* and *spyris*, that never cross between the meals.
-- [What Jesus makes explicit — John 6](#what-jesus-makes-explicit-john-6), in five sections: [Two words John puts around the sign](#two-words-john-puts-around-the-sign) (the test and "that nothing be lost") · ["I am the bread of life"](#i-am-the-bread-of-life) and [Took, blessed, broke, gave](#took-blessed-broke-gave) (the discourse, and the Supper's verbs in both feedings) · [Feeding on him](#feeding-on-him) (*trōgō* and *menō*) · [Daily bread](#daily-bread) (*epiousios* and the manna).
+- [What Jesus makes explicit — John 6](#what-jesus-makes-explicit-john-6), in five sections: [Two words John puts around the sign](#two-words-john-puts-around-the-sign) (the test and "that nothing be lost") · ["I am the bread of life"](#i-am-the-bread-of-life) and [Took, blessed, broke, gave](#took-blessed-broke-gave) (the discourse, and the Supper's verbs in both feedings) · [Feeding on Him](#feeding-on-him) (*trōgō* and *menō*) · [Daily bread](#daily-bread) (*epiousios* and the manna).
 - [What the narrative leaves implicit](#what-the-narrative-leaves-implicit). Three readings Mark and John stage without stating: [Israel, then the nations](#israel-then-the-nations) · [Sheep without a shepherd](#sheep-without-a-shepherd) · [The wrong response — echoing the wilderness](#the-wrong-response-echoing-the-wilderness).
 - [Is there significance in the numbers?](#is-there-significance-in-the-numbers). Five, twelve, seven, seven, sorted into tiers from firm to speculative.
 - [Theological principle](#theological-principle). The two opposite misreadings of the sign, John 6 and Numbers 11, and the pattern Scripture teaches.
@@ -121,12 +121,12 @@ Bread of Life, Jesus. In Jesus' name. Amen.*
 | Left over | 12 **κόφινοι** (*kophinoi*, G2894) | 7 **σπυρίδες** (*spyrides*) |
 | Blessing verb | εὐλόγησεν (*eulogēsen*, G2127, "blessed") | εὐχαριστήσας (*eucharistēsas*, G2168, "having given thanks") |
 | Breaking verb | κατέκλασεν (*kateklasen*, G2622, the compound — only here and Luke 9:16 in the NT) | ἔκλασεν (*eklasen*, G2806, the simple verb used at the Last Supper) |
-| Aftermath | the crowd tries to make him king by force (John 6:15); the Bread of Life discourse follows | the Pharisees demand a sign (Mark 8:11); Jesus rebukes the disciples over the loaves (8:14-21) |
+| Aftermath | the crowd tries to make Him king by force (John 6:15); the Bread of Life discourse follows | the Pharisees demand a sign (Mark 8:11); Jesus rebukes the disciples over the loaves (8:14-21) |
 
 ## Two events, not one retold
 
 Some readers take the second feeding as the first one retold in transmission. Jesus rules that out
-himself:
+Himself:
 
 > ✝️ Mark 8:19-21 (ESV)
 >
@@ -177,7 +177,7 @@ The second is at the end. With everyone full, Jesus orders the fragments collect
 broken pieces which are left over, that nothing be lost"* (6:12, WEB), **ἀπόληται** (*apolētai*,
 from ἀπόλλυμι, G622). So the twelve baskets exist because Jesus commanded that nothing perish. John uses the same verb
 twice more in the chapter, both times of something larger than bread. The food *"that perishes"*
-(**ἀπολλυμένην**, 6:27), which they are not to work for. And the Father's will that of all he has
+(**ἀπολλυμένην**, 6:27), which they are not to work for. And the Father's will that of all He has
 given the Son, *"I should lose nothing"* (**ἀπολέσω**, 6:39).
 
 The care Jesus shows over barley scraps is the same care, in the same
@@ -207,7 +207,7 @@ Isaiah used a line earlier for money spent <span dir="rtl">בְּלוֹא־לֶ�
 
 The crowd answers by quoting Scripture back: *Moses gave our fathers manna, what will you do?*
 (6:30-31), recombining both halves of LXX Psalm 77:24 (= 78:24) almost word for word. They know the
-text. Jesus corrects the verb tense before he corrects anything else: it was **not Moses** who gave that
+text. Jesus corrects the verb tense before He corrects anything else: it was **not Moses** who gave that
 bread, and the giving is **not finished**: "my Father **gives** you the true bread from heaven,"
 present tense, happening now (John 6:32). Then:
 
@@ -250,7 +250,7 @@ church is narrated first at the meal on Gentile ground.
 the loaves were barley, the grain of the poor. The whole discourse about bread from heaven sits under
 the shadow of the feast where a lamb dies and unleavened bread is eaten.)*
 
-### Feeding on him
+### Feeding on Him
 
 The discourse gets more physical as the crowd's offense grows. Through verse 53 John uses
 the ordinary verb for eating, **ἐσθίω/φαγεῖν** (*esthiō/phagein*, G5315); from verse 54 he switches to
@@ -275,7 +275,7 @@ who feeds on it, and Jesus promises to abide in you as you abide in Him (6:56).
 ### Daily bread
 
 "Give us this day our daily bread" (Matt 6:11; Luke 11:3) turns on
-**ἐπιούσιος** (*epiousios*, G1967), the rarest word in the New Testament, whose every proposed derivation
+**ἐπιούσιος** (*epiousios*, G1967), a word the New Testament uses only in this prayer, whose every proposed derivation
 converges on the same sense, today's sufficiency (worked through fully in
 [The Lord's Prayer](../christian-life/lords-prayer.md)). Its model is the manna, which by design could not be
 hoarded (Exodus 16:19-20), and which this chapter has Jesus identify as pointing at Himself. After
@@ -290,7 +290,7 @@ Jesus never states an ethnic reading of the two feedings. The narrative supplies
 **Geography.** The 5,000 happens in Jewish Galilee: Bethsaida (Luke 9:10), the Sea of Tiberias
 (John 6:1). The 4,000 follows Jesus's circuit through Tyre, Sidon, and the Decapolis (Mark 7:24,
 31), all Gentile territory. Matthew adds a tell. The crowd "glorified the God of *Israel*" (Matt
-15:31, ESV). That is an odd thing to say of Jewish worshippers, and natural for Gentile ones. Mark 8:3's
+15:31, ESV, emphasis added). That is an odd thing to say of Jewish worshippers, and natural for Gentile ones. Mark 8:3's
 "some of them have come from far away," and the three-day wait with nowhere nearby to buy bread, fit
 a thinly settled Gentile region. Mark 6:36 assumes the opposite, with villages close at hand.
 
@@ -313,7 +313,7 @@ baskets.
 
 Barley loaves, a servant's objection at the ratio, a command to distribute anyway, everyone eating,
 food left over: every beat Mark and John narrate, at fifty times the scale, already happened for
-Israel through Elisha, "according to the word of the LORD." The 5,000 is that miracle repeated, in
+Israel through Elisha, "according to Yahweh's word." The 5,000 is that miracle repeated, in
 Israel, by the one now speaking that word in person.
 Twelve Jewish baskets recapitulate a promise already made; seven Gentile hampers extend it somewhere
 the type never reached. This is the pattern of Romans 1:16, "to the Jew first, and also to the Greek," and of
@@ -350,11 +350,11 @@ Ezekiel turns the same prayer into a promise about God Himself:
 > bind up that which was broken, and will strengthen that which was sick; but I will destroy the fat
 > and the strong. I will feed them in justice."
 
-Mark's staging enacts that. Jesus makes the crowd **lie down** on **green grass** (6:39),
+Mark's staging enacts that. Jesus has the crowd **recline** (**ἀνακλῖναι**, *anaklinai*, G347; "sit down" in the ESV) on **green grass** (6:39),
 arranged "by hundreds and by fifties" (6:40), the same ranks Moses used when he appointed leaders on
 Jethro's advice (Exodus 18:25). They are **fed to the full**: **ἐχορτάσθησαν** (*echortasthēsan*,
 G5526), from **χόρτος** (*chortos*, G5528, "grass"); the verb means, at root, *to pasture*. Shepherdless
-sheep, made to lie down in green pasture, grazed full: Psalm 23:1-2, staged.
+sheep, made to recline on green grass, grazed full: Psalm 23:1-2, staged.
 
 This shows that God kept His promise to shepherd His sheep Himself, and kept it in person in Jesus.
 The doctrine is the incarnation. The Shepherd who had compassion on a shepherdless crowd (6:34) is the
@@ -368,7 +368,7 @@ to back.
 
 ### The wrong response — echoing the wilderness
 
-The crowd responds to being fed with appetite. They track him down the next day
+The crowd responds to being fed with appetite. They track Him down the next day
 (6:22-25); they ask for the supply made permanent, "always" (6:34); some try to "take him by force to
 make him king" (6:15). Their theology is correct: the prophet like Moses, rightly
 identified (6:14). They put a right conclusion to the wrong use. That impulse has
@@ -401,7 +401,7 @@ despises what He has given. So receive today's portion from Him with thanks.
 
 ## Is there significance in the numbers?
 
-Jesus treats the numbers as meaningful Himself: at Mark 8:19-21 he has the disciples recite five,
+Jesus treats the numbers as meaningful Himself: at Mark 8:19-21 He has the disciples recite five,
 twelve, seven, seven (so also Matthew 16:9-12). The text never *says* what the numbers mean,
 so hold what follows in tiers.
 
@@ -431,7 +431,7 @@ could eat), and it is given to reveal the Giver. The sign gets
 misread in two opposite directions, and Scripture corrects both: the crowd in John 6 wants the bread
 without the Bread; the generation in Numbers 11 wants more than the daily portion. One walks away
 from a person (John 6:66); the other gets what it craved, and a plague with it (Numbers 11:33-34; Psalm
-78:29-31). Scripture states the same pattern elsewhere:
+78:29-31). Scripture states the same pattern elsewhere (all ESV):
 "man does not live by bread alone" (Deuteronomy 8:3); "seek first the kingdom of God… and all these
 things will be added to you" (Matthew 6:33); "why do you spend… your labor for that which does not
 satisfy?" (Isaiah 55:2); "give me neither poverty nor riches… lest I be full and deny you" (Proverbs
@@ -441,8 +441,8 @@ life.
 
 ## Discussion questions
 
-1. Jesus rebukes the crowd for seeking him "because you ate your fill of the loaves" (6:26). What
-   would seeking him for himself, rather than for something, look like? How would you know the
+1. Jesus rebukes the crowd for seeking Him "because you ate your fill of the loaves" (6:26). What
+   would seeking Him for Himself, rather than for something, look like? How would you know the
    difference?
 2. The crowd's theology is correct ("the Prophet who is to come"), and their next move is still
    wrong. Where does a right belief lead you somewhere it shouldn't?
@@ -488,4 +488,4 @@ life.
 - Related studies on this site: [The Lord's Prayer](../christian-life/lords-prayer.md) (the *epiousios* word
   study), [The Last Supper and the Four Cups](../feasts/last-supper-four-cups.md), and
   [As the Snake Was Lifted Up](as-the-snake-was-lifted.md) (the same shape of argument — an Old
-  Testament type that Jesus applies to himself in John's Gospel).
+  Testament type that Jesus applies to Himself in John's Gospel).

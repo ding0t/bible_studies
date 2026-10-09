@@ -182,3 +182,7 @@ last_updated: "2026-07-24"
 chronology_alignment_2026-10-01: >
   The AD 33 lunar eclipse is no longer called 'a third independent line converging on AD 33'; it bears on the year only through Acts 2:20, which is contested, so it is left out of the case as chronology-anchors.md does. The Nehemiah decree is 445/444 BC with 444 followed (Hoehner). The ~3925 BC 'unreconciled discrepancy' is resolved. The site's single chronology line, and the reason for each date, is recorded in
   references/study-state/chronology-anchors.yml under chronology_line.
+
+evidence:
+  - {id: luke-23-45-na28, what: "NA28 reads ἐκλιπόντος (the 'eclipse' verb) at Luke 23:45", tool: study_verse, args: {book: Luke, chapter: 23, verse: 45, work_id: na28-greek-nt}, path: "0.text", expect_contains: "ἐκλιπ", checked: 2026-10-09}
+  - {id: luke-23-45-kjv, what: "Byzantine/TR reading behind the KJV: 'the sun was darkened'", tool: bible_verse, args: {book: Luke, chapter: 23, verse: 45, translation: KJV}, path: "text", expect_contains: "the sun was darkened", checked: 2026-10-09}

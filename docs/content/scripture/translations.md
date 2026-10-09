@@ -118,7 +118,7 @@ apart.
 |---|---|---|---|---|---|
 | **ESV** — English Standard Version (Crossway) | 2001, revised 2007/2011, fixed as a "Permanent Text" in 2016 | Essentially literal (formal equivalence), descended from the RSV | Our default citation text — literal enough for close reading, extensive textual footnotes, wide adoption across the study-Bible literature we cite in References sections; the 2016 text freeze means citations won't drift out from under us | RSV lineage carried forward a handful of textual choices scholars still debate (e.g. Isaiah 7:14's footnote); some gender-language renderings read inconsistently across books | 🔒 `esv-study-bible` in `study-notes.db` — always verify a quotation here rather than from memory |
 | **NASB** — New American Standard Bible (Lockman Foundation) | NT 1963, full Bible 1971, revised 1995, updated 2020 | Maximally literal formal equivalence | The translation to reach for when word order or grammatical structure in the original matters to the argument; 2020 update modernized archaic pronouns while keeping the literalism | Literalness produces wooden prose in places; supplied-word italics clutter reading aloud; less used in general congregational settings than ESV/NIV; **no stated verse-quotation threshold** in Lockman's own permission notice, unlike every other translation on this page — don't assume a safe-harbor allowance the way ESV/NIV/NLT below have one | 🔒 `nasb-1995` / `nasb-2020` in `study-notes.db` — verify-only, see the caution above before quoting |
-| **LSB** — Legacy Standard Bible (The Lockman Foundation / Three Sixteen Publishing) | 2021 | Formal equivalence — a direct revision of the NASB 1995, by scholars from The Master's Seminary | Renders the divine name as **Yahweh** throughout the Old Testament rather than "LORD" — the reason to reach for it whenever a study turns on the covenant name, since no other translation here keeps that distinction visible; translates *doulos* consistently as "slave" across the NT rather than alternating with "servant"; keeps original units and currency in the text with conversions moved to the notes; labels Hebrew acrostics with their letters | Very new, so almost no commentary or study-Bible ecosystem has grown around it yet; "Yahweh" is a minority rendering that reads as unfamiliar and usually needs a word of explanation when quoted to a general audience; it deliberately keeps "Lord" for *Kurios* in the NT even where the NT quotes a Yahweh passage, which is a considered choice but an easy one to misread as inconsistency; **the strictest quotation cap of any translation on this page** — 1,000 verses and no more than 50% of the quoting work, and Lockman's wording reaches *storage*, not only quotation | 🔒 `lsb-2021` in `study-notes.db` — verify-only; see the cap above before quoting |
+| **LSB** — Legacy Standard Bible (The Lockman Foundation / Three Sixteen Publishing) | 2021 | Formal equivalence — a direct revision of the NASB 1995, by scholars from The Master's Seminary | Renders the divine name as **Yahweh** throughout the Old Testament rather than "LORD" — the reason to reach for it whenever a study turns on the covenant name, since no other commercial translation here keeps that distinction visible; translates *doulos* consistently as "slave" across the NT rather than alternating with "servant"; keeps original units and currency in the text with conversions moved to the notes; labels Hebrew acrostics with their letters | Very new, so almost no commentary or study-Bible ecosystem has grown around it yet; "Yahweh" is a minority rendering that reads as unfamiliar and usually needs a word of explanation when quoted to a general audience; it deliberately keeps "Lord" for *Kurios* in the NT even where the NT quotes a Yahweh passage, which is a considered choice but an easy one to misread as inconsistency; **the strictest quotation cap of any translation on this page** — 1,000 verses and no more than 50% of the quoting work, and Lockman's wording reaches *storage*, not only quotation | 🔒 `lsb-2021` in `study-notes.db` — verify-only; see the cap above before quoting |
 | **NIV** — New International Version (Biblica/Zondervan) | NT 1973, full Bible 1978, revised 1984, major revision 2011 | Dynamic ("optimal") equivalence balancing accuracy and readability | The most widely read English Bible for decades — useful for gauging how a mainstream reader will have already encountered a verse; strong for preaching and general reading | The 2011 gender-language choices remain contested in some circles; idiomatic smoothing occasionally erases an ambiguity a literal translation preserves; the 1984 and 2011 editions differ enough that older citations may not match current printings | 🔒 `niv-cultural-backgrounds-study-bible` / `niv-biblical-theology-study-bible` in `study-notes.db` |
 | **NLT** — New Living Translation (Tyndale House) | 1996, revised 2004, 2007, 2015 | Thought-for-thought, translated (not paraphrased) by committee | Excellent narrative flow, especially in Wisdom/poetic books; strong for teaching newer believers | Greater interpretive distance from the original wording than ESV/NASB; not suited to precise word-study argumentation; can smooth over a textual tension a study should actually sit with | 🔒 `nlt-life-application-study-bible` / `nlt-christian-basics-bible` in `study-notes.db` |
 | **WEB** — World English Bible | Begun 1994, released 2000, ongoing light revision | Modernized, public-domain descendant of the ASV | No permissions ceiling at all — freely quotable and redistributable in full, which is why this is our default fully-queryable text when we need one; actively revised for readability while keeping an ASV-like literal backbone | Far less recognized in broader church life than ESV/NIV/NASB; no study-Bible ecosystem built around it; ongoing volunteer revision means small wording drift over time rather than a fixed edition | ✅ `ebible-eng-web` |
@@ -137,7 +137,7 @@ and every rendering quoted is a fragment of a single verse.
 
 ### Old Testament — Song of Songs 8:6, and whether God is named
 
-The verse ends with four Hebrew words: <span dir="rtl">אֵשׁ</span> (*esh*, H784, "fire"),
+The verse ends with three Hebrew words: <span dir="rtl">אֵשׁ</span> (*esh*, H784, "fire"),
 <span dir="rtl">שַׁלְהֶבֶת</span> (*shalhevet*, H7957, "flame"), and
 <span dir="rtl">יָה</span> (*Yah*, H3050), the shortened form of the divine name. The question is
 whether that last syllable names God or works as a Hebrew superlative, the way "mountains of God"
@@ -157,13 +157,14 @@ Translations split, and the split is invisible unless you line them up:
 | JPS — "a very flame of HaShem" | |
 
 A reader of the CSB and a reader of the ESV are reading different claims about this verse. Only the
-LSB prints the name itself rather than the substitute "LORD", which is the case for keeping it on the
+LSB, among the commercial translations, prints the name itself rather than the substitute "LORD", which is the case for keeping it on the
 shelf when the covenant name is the point.
 
 The translators knew. Three committees footnote the fork at this verse. The LSB offers "Or *A
 vehement flame*", and explains that *Yah* is "the shortened form of Yahweh, found in poetry and
 praise (e.g. Hallelu*jah*), and in names (e.g. Zechar*iah*)". The CSB, having printed the
-intensifier, notes "Or *the blaze of the Lord*". **Reading the footnote is faster than
+intensifier, notes "Or *the blaze of the Lord*". The NIV carries a text note at "mighty flame" too, which the
+*NIV Biblical Theology Study Bible* cites for the alternative reading. **Reading the footnote is faster than
 reconstructing the disagreement from six parallel versions, and it is the translators' own testimony
 that the question is live.**
 
@@ -171,7 +172,7 @@ that the question is live.**
 
 Through John 6 Jesus uses the ordinary verb for eating, ἐσθίω (*esthiō*, G5315), eleven times: the
 crowd ate the loaves, the fathers ate manna, "unless you eat the flesh of the Son of Man" (6:53). At
-verse 54 he switches to τρώγω (*trōgō*, G5176) and stays with it for the rest of the discourse. The
+verse 54 He switches to τρώγω (*trōgō*, G5176) and stays with it for the rest of the discourse. The
 lexicon separates them: Louw-Nida puts ἐσθίω at 23.1 and τρώγω at 23.3, alongside γεύομαι ("taste", G1089)
 and βιβρώσκω, the chewing-and-consuming end of the range. Verse 58 uses both in one sentence: the
 fathers *ate* (ἔφαγον) and died; whoever *feeds on* (τρώγων) this bread will live.
@@ -300,7 +301,7 @@ canon.
 or the Hebrew or the Aramaic is the original."* He suggests Matthew and Paul may have written in
 more than one language, and warns against the fallacy in both directions: a shorter text is not
 automatically earlier, and a longer one is not either. The third line above bears on
-[the two Hebrew New Testaments](#hebrew-old-testament) this repo actually holds, where the same
+[the two Hebrew New Testaments](#hebrew-new-testaments-translations-not-witnesses) this repo actually holds, where the same
 caution applies.
 
 ## Septuagint (Greek Old Testament)

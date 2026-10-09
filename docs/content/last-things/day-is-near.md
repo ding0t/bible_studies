@@ -32,9 +32,9 @@ John opens Revelation by pronouncing a blessing on the reader before a single se
 
 ### Lessons about Jesus
 
-- He did not name the day when he was asked: "concerning that day or that hour, no one knows... nor the Son, but only the Father" (Mark 13:32). The weight of that sentence falls on whose prerogative the date is rather than on what the Son lacked. Asked the same question again after the resurrection, he answered the same way and gave the reason: "the Father has fixed" them "by his own authority" (Acts 1:7). What the verse does and does not say about Christ's knowledge is worked out in [The Day No One Knows](../jesus/the-day-no-one-knows.md).
-- His return will match his ascension in kind: bodily, visible, "in the same way" (Acts 1:11). It is not merely spiritual or figurative.
-- He delays because He is patient: 2 Peter's letter calls him "our Lord and Savior Jesus Christ" throughout (1:11; 3:18), and it is that same Lord who "is patient... not wishing that any should perish, but that all should reach repentance" (2 Peter 3:9).
+- He did not name the day when He was asked: "concerning that day or that hour, no one knows... nor the Son, but only the Father" (Mark 13:32, ESV). The weight of that sentence falls on whose prerogative the date is rather than on what the Son lacked. Asked the same question again after the resurrection, He answered the same way and gave the reason: "the Father has fixed" them "by his own authority" (Acts 1:7, ESV). What the verse does and does not say about Christ's knowledge is worked out in [The Day No One Knows](../jesus/the-day-no-one-knows.md).
+- His return will match His ascension in kind: bodily, visible, "in the same way" (Acts 1:11). It is not merely spiritual or figurative.
+- He delays because He is patient: 2 Peter's letter calls Him "our Lord and Savior Jesus Christ" throughout (1:11; 3:18), and it is that same Lord who "is patient... not wishing that any should perish, but that all should reach repentance" (2 Peter 3:9, ESV).
 
 ### Memory verses
 
@@ -76,18 +76,18 @@ James writes this to believers under real economic pressure. The paragraph immed
 
 **Be patient** translates **μακροθυμήσατε** (*makrothymēsate*, from **μακροθυμέω**, *makrothymeō*,
 G3114), literally "long-tempered". It is a patience aimed at people and circumstances. Greek keeps a separate word for endurance under suffering, *hypomonē*, and James uses both in
-this passage, at 5:8 and 5:11.
+this passage: *makrothymeō* again at 5:8, and *hypomonē* at 5:11.
 
 The farmer cannot make rain fall or grain ripen faster by wanting it. That
 is disciplined, active waiting for something whose timing he does not control.
 
-That same verb reappears in 2 Peter 3:9, where the Lord himself "is patient" (**μακροθυμεῖ**, *makrothymei*) toward those he is waiting on. James commands of believers the identical quality Peter says God is already exercising. The patience asked of the reader is modeled on God's own.
+That same verb reappears in 2 Peter 3:9, where the Lord Himself "is patient" (**μακροθυμεῖ**, *makrothymei*) toward those He is waiting on. James commands of believers the identical quality Peter says God is already exercising. The patience asked of the reader is modeled on God's own.
 
 > ✝️ Mark 13:32-37 (ESV)
 >
 > 32 "But concerning that day or that hour, no one knows, not even the angels in heaven, nor the Son, but only the Father. 33 Be on guard, keep awake. For you do not know when the time will come. 34 It is like a man going on a journey, when he leaves home and puts his servants in charge, each with his work, and commands the doorkeeper to stay awake. 35 Therefore stay awake--for you do not know when the master of the house will come, in the evening, or at midnight, or when the rooster crows, or in the morning-- 36 lest he come suddenly and find you asleep. 37 And what I say to you I say to all: Stay awake."
 
-This closes the Olivet Discourse (see [Signs of the end of the age](#signs-of-the-end-of-the-age) below for the section that opens it). It answers the disciples' "when" question by declining to answer it. **No one knows** (**οὐδεὶς οἶδεν**) is stated in a chain that runs from angels to the Son himself, stopping only at the Father, and where the chain stops is the point of it. That is the answer he gives again after the resurrection, when no incarnational limit is in view (Acts 1:7). How the Son's own knowledge is to be understood here is a real question, and a separate one; [The Day No One Knows](../jesus/the-day-no-one-knows.md) takes it up. The parable that follows reframes not-knowing as a job description. A servant left in charge doesn't need the master's arrival time to do the work assigned, so "stay awake" has to mean something more than watching the horizon.
+This closes the Olivet Discourse (see [Signs of the end of the age](#signs-of-the-end-of-the-age) below for the section that opens it). It answers the disciples' "when" question by declining to answer it. **No one knows** (**οὐδεὶς οἶδεν**) is stated in a chain that runs from angels to the Son Himself, stopping only at the Father, and where the chain stops is the point of it. That is the answer He gives again after the resurrection, when no incarnational limit is in view (Acts 1:7). How the Son's own knowledge is to be understood here is a real question, and a separate one; [The Day No One Knows](../jesus/the-day-no-one-knows.md) takes it up. The parable that follows reframes not-knowing as a job description. A servant left in charge doesn't need the master's arrival time to do the work assigned, so "stay awake" has to mean something more than watching the horizon.
 
 ## A day like a thousand years
 
@@ -109,12 +109,12 @@ The disciples asked, "what will be the sign of your coming and of the end of the
 >
 > 11 and said, "Men of Galilee, why do you stand looking into heaven? This Jesus, who was taken up from you into heaven, will come in the same way as you saw him go into heaven."
 
-**In the same way** translates **ὃν τρόπον** (*hon tropon*). **τρόπος** (*tropos*, G5158) means manner, fashion, way of doing something. Grammatically, the angels' promise is a claim about *how* Christ returns (visibly, bodily, matching how he departed). The *when* is what Mark 13:32 above says stays hidden.
+**In the same way** translates **ὃν τρόπον** (*hon tropon*). **τρόπος** (*tropos*, G5158) means manner, fashion, way of doing something. Grammatically, the angels' promise is a claim about *how* Christ returns (visibly, bodily, matching how He departed). The *when* is what Mark 13:32 above says stays hidden.
 
 
 ## Discussion questions
 
-1. James commands believers to have the same patience (*makrothymeō*) 2 Peter says God himself already has (3:9). Does it change how "be patient" lands, to know God holds Himself to the standard He sets you?
+1. James commands believers to have the same patience (*makrothymeō*) 2 Peter says God Himself already has (3:9). Does it change how "be patient" lands, to know God holds Himself to the standard He sets you?
 2. Mark 13:32 names the Father alone as knowing the day and hour. How do you hold that together with everything else Scripture says about who Jesus is?
 
 ## References & Recommended Reading

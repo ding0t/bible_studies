@@ -163,3 +163,10 @@ read_2026-09-26:
     - "Heading 'Where dreams sit: a hierarchy, not a flat category' is thesis-antithesis (AGENTS.md 'define affirmatively'); left as is to keep its anchor stable."
     - "Opening paragraph closes on the study describing itself ('This study works through... Then it asks...'), structural-readability rule 9; reported, not cut."
     - "Not yet through review-bible-study (stages.review.done: false); this pass verifies nothing."
+
+evidence:
+  - {id: acts-10-17-esv, what: "Acts 10:17 quotation is ESV", tool: study_verse, args: {book: Acts, chapter: 10, verse: 17, work_id: esv-study-bible}, path: "0.text", expect_contains: "inwardly perplexed as to what the vision that he had seen might mean", checked: 2026-10-09}
+  - {id: jer-23-27-esv, what: "v.27: prophets make people forget God's name as their fathers forgot it for Baal", tool: study_verse, args: {book: Jer, chapter: 23, verse: 27, work_id: esv-study-bible}, path: "0.text", expect_contains: "even as their fathers forgot my name for Baal", checked: 2026-10-09}
+  - {id: jer-23-32-esv, what: "v.32 'I did not send them or charge them'", tool: study_verse, args: {book: Jer, chapter: 23, verse: 32, work_id: esv-study-bible}, path: "0.text", expect_contains: "I did not send them or charge them", checked: 2026-10-09}
+  - {id: jer-23-40-esv, what: "Jeremiah 23 runs to v.40, so v.32 is not the closing verse", tool: study_verse, args: {book: Jer, chapter: 23, verse: 40, work_id: esv-study-bible}, path: "0.text", expect_contains: "everlasting reproach", checked: 2026-10-09}
+  - {id: matt-1-20-esv, what: "Matt 1:20 instructs Joseph to take Mary as wife (not a protective warning)", tool: study_verse, args: {book: Matt, chapter: 1, verse: 20, work_id: esv-study-bible}, path: "0.text", expect_contains: "do not fear to take Mary as your wife", checked: 2026-10-09}

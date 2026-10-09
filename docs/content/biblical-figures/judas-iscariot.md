@@ -47,7 +47,7 @@ for and what you actually do when nobody is auditing.
 Lord, it is a fearful thing that a man could be this close to you for three years and be lost.
 Search us. Where we are managing an appearance while something rots underneath, expose it now while
 there is still time to repent, and keep us from the despair that could not believe you would
-forgive.
+forgive. In Jesus' name. Amen.
 
 ---
 
@@ -72,7 +72,7 @@ uncertain etymology, so it is a possibility.
 
 ## What Scripture records
 
-**He held the money.** John states it twice, and the second time with an explanation that removes
+**He held the money.** John states it twice (John 12:6; 13:29), and the first time with an explanation that removes
 any ambiguity. At Bethany, when Mary anoints Jesus with costly ointment, Judas objects that it
 should have been sold and the proceeds given to the poor: three hundred denarii, close to a year's
 wages. John's comment is blunt (John 12:6, quoted above): the objection was cover for theft, and the
@@ -123,7 +123,9 @@ emphasise different things and are not obviously irreconcilable.
 
 Matthew's word for Judas' response: he "changed his mind":
 <span lang="grc">μεταμέλομαι</span> (*metamelomai*, G3338), regret or remorse. Matthew does not use
-<span lang="grc">μετανοέω</span> (*metanoeō*, G3340), the ordinary New Testament word for repentance. He
+<span lang="grc">μετανοέω</span> (*metanoeō*, G3340), the ordinary New Testament word for repentance. How much the word choice
+carries is contested: Matthew uses the same verb of the son who "changed his mind and went"
+(Matthew 21:29, ESV), a turn the parable commends. He
 felt the weight of it, said the true thing ("I have sinned by betraying innocent blood"), said it to
 the wrong people, and did not go back to Jesus. Peter denied and returned; Judas regretted and did
 not.

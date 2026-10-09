@@ -152,3 +152,7 @@ read_2026-09-26:
     - "Study-talks-about-itself lines ('a figure ... this study used to make', 'this study defers to it', 'This study does not re-derive that case') -- author's call."
     - "Divine pronouns lowercase in the author's own prose ('he', 'his', 'him' for Jesus/God) against AGENTS.md house style -- review pass."
     - "Review status in this file: review.done false -- this pass verifies nothing."
+
+evidence:
+  - {id: 2sam5-2-esv, what: "the shepherd line is the LORD's word as the tribes recall it at Hebron, not Nathan's", tool: study_verse, args: {book: 2Sam, chapter: 5, verse: 2, work_id: esv-study-bible}, expect_contains: "And the LORD said to you, ‘You shall be shepherd of my people Israel", checked: 2026-10-09}
+  - {id: mt24-5-esv, what: "many will come and lead many astray", tool: study_verse, args: {book: Matt, chapter: 24, verse: 5, work_id: esv-study-bible}, expect_contains: "they will lead many astray", checked: 2026-10-09}

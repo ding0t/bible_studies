@@ -29,13 +29,13 @@ A trumpet blast is never incidental in Scripture. From the thunder at Sinai to t
 
 **Type.** No single trumpet is a type the way Melchizedek or the tabernacle are. A trumpet blast is a *pattern*, repeated across very different Old Testament settings, that consistently marks the same kind of moment: God moving decisively, and His people being summoned to respond. Revelation reads that pattern forward in seven trumpet-announced judgments that reuse Egypt's own plagues and Joel's locust-army imagery, climbing in intensity until the seventh trumpet announces what every earlier trumpet in Scripture was a smaller version of: God taking visible, final possession of His kingdom (Revelation 11:15).
 
-**Prophecy.** Two direct verbal predictions anchor this study. Isaiah 27:13 states outright that "a great trumpet will be blown" to gather Israel's exiles back to worship at Jerusalem. In 1 Corinthians 15:51-52 Paul announces a *mystery*, a truth newly revealed: at "the last trumpet" the dead in Christ will be raised and the living transformed. Neither has happened yet; both are stated as certainties.
+**Prophecy.** Two direct verbal predictions anchor this study. Isaiah 27:13 states outright that "a great trumpet will be blown" to gather Israel's exiles back to worship at Jerusalem. In 1 Corinthians 15:51-52 Paul announces a *mystery*, a truth newly revealed: at "the last trumpet" the dead will be raised and the living transformed. Neither has happened yet; both are stated as certainties.
 
 ### Lessons about Jesus
 
 - The seventh trumpet's announcement, "the kingdom of the world has become the kingdom of our Lord and of his Christ" (Revelation 11:15, ESV), reuses the pattern of a trumpet-announced coronation (1 Kings 1:34-39), now applied to Christ's kingdom over the whole earth.
-- Jesus Himself sends out the gathering trumpet call at His return (Matthew 24:31): "he will send out his angels." The Cultural Backgrounds Study Bible notes that the Son of Man sending angels who are "his" is itself a claim to deity in Jewish thought.[^nkjvcbsb-matt24]
-- Paul's "mystery" about the resurrection (1 Corinthians 15:51) is that the dead in Christ will be raised *incorruptible*. The trumpet that announces Christ's return delivers what His resurrection already secured for those who are His.
+- Jesus Himself sends out the gathering trumpet call at His return (Matthew 24:31): "he will send out his angels." The Cultural Backgrounds Study Bible notes that the Son of Man sending "His angels" "indicates His deity" (cf. Zechariah 14:5).[^nkjvcbsb-matt24]
+- Paul's "mystery" about the resurrection (1 Corinthians 15:51) is that the dead will be raised *imperishable*. The trumpet that announces Christ's return delivers what His resurrection already secured for those who are His.
 
 ### Memory verses
 
@@ -58,9 +58,9 @@ A trumpet blast is never incidental in Scripture. From the thunder at Sinai to t
 
 ### Prayer
 
-Lord, every trumpet you have ever sounded has meant the same thing: you are not silent, and you are not finished. You called Israel to your presence at Sinai, you leveled Jericho's wall, you seated a king with a blast that still echoes in your Son's own coronation. You have promised one more sound is coming: a last trumpet, at which the dead in Christ rise and the living are changed, and a seventh, at which your kingdom is openly, finally yours.
+Lord, every trumpet you have ever sounded has meant the same thing: you are not silent, and you are not finished. You called Israel to your presence at Sinai, you leveled Jericho's wall, you seated a king with a blast that still echoes in your Son Jesus' own coronation. You have promised one more sound is coming: a last trumpet, at which the dead in Christ rise and the living are changed, and a seventh, at which your kingdom is openly, finally yours.
 
-Until then, let me be found awake and listening, working, and steadfast however long the wait feels. Amen.
+Until then, let me be found awake and listening, working, and steadfast however long the wait feels. In Jesus' name. Amen.
 
 ## Study outline
 
@@ -116,13 +116,13 @@ Israel generally, and to unrepeatable, dramatic moments: Sinai, Jericho, Jubilee
 trumpets belonged to the priesthood and to Israel's ordinary operating rhythm: assembling,
 marching, going to war, marking a feast day.
 
-Revelation's Greek text draws no such distinction: **σάλπιγξ (*salpigx*, G4536)** covers every trumpet in the New Testament, from Paul's illustration about an army preparing for battle (1 Corinthians 14:8) to the seven angels of Revelation 8-11. The word itself carries no information about which Hebrew instrument (or neither) lies behind a given use. Context has to supply that, and the "last trumpet" section below depends on it.
+The New Testament's Greek draws no such distinction: **σάλπιγξ (*salpigx*, G4536)** covers every trumpet in the New Testament, from Paul's illustration about an army preparing for battle (1 Corinthians 14:8) to the seven angels of Revelation 8-11. The word itself carries no information about which Hebrew instrument (or neither) lies behind a given use. Context has to supply that, and the "last trumpet" section below depends on it.
 
 ## What a trumpet call was for
 
 Five purposes recur across the Old Testament, each with its own text:
 
-- **To gather the assembly.** "You shall use them for summoning the congregation" (Numbers 10:2-3, ESV). A single, sustained blast called everyone; blowing just one trumpet called only the tribal leaders (10:4).
+- **To gather the assembly.** "You shall use them for summoning the congregation" (Numbers 10:2-3, ESV). Both trumpets blown in long notes called everyone (10:3, 7); blowing just one trumpet called only the tribal leaders (10:4).
 - **To move the camp.** A different pattern, short staccato blasts sounding an *alarm*, signaled each tribal division in turn to break camp and march (Numbers 10:5-6).
 - **To sound a war alarm.** "And when you go to war in your land against the adversary who oppresses you, then you shall sound an alarm with the trumpets, that you may be remembered before the LORD your God, and you shall be saved from your enemies" (Numbers 10:9, ESV).
 
@@ -184,13 +184,13 @@ first one sounds. What follows deliberately reuses Egypt's own plagues, escalate
 |---|---|---|---|
 | First | 8:7 | Hail, fire, and blood cast on the earth — a third of it, and all green grass, burned up | The seventh plague on Egypt: hail mixed with fire (Exodus 9:23-24) |
 | Second | 8:8-9 | A burning mountain cast into the sea — a third of the sea turned to blood, a third of sea life and ships destroyed | The first plague: the Nile turned to blood (Exodus 7:20-21) |
-| Third | 8:10-11 | A burning star, "Wormwood," falls on a third of the rivers and springs, poisoning them | The same water-to-blood plague, extended to fresh water |
+| Third | 8:10-11 | A burning star, "Wormwood," falls on a third of the rivers and springs, poisoning them | The first plague's undrinkable water (Exodus 7:21), now made bitter in rivers and springs |
 | Fourth | 8:12 | A third of the sun, moon, and stars struck, darkening a third of day and night | The ninth plague: darkness over the land (Exodus 10:21-22) |
 | Fifth (1st woe) | 9:1-11 | Locusts from the abyss torment (not kill) those without God's seal, for five months | The eighth plague, locusts (Exodus 10:12-15) — but their shape and battle-array come from Joel's locust army (Joel 2:4-11), not Exodus |
 | Sixth (2nd woe) | 9:13-21 | Four bound angels released at the Euphrates lead a vast army that kills a third of mankind | — |
 | Seventh (3rd woe) | 11:15-19 | "The kingdom of the world has become the kingdom of our Lord and of his Christ" | The coronation-trumpet pattern of 1 Kings 1:34-39, now cosmic |
 
-The *Cultural Backgrounds Study Bible* tracks this Exodus pattern across all three of Revelation's
+The *Cultural Backgrounds Study Bible* tracks this Exodus pattern across two of Revelation's
 judgment cycles, the trumpets and again the bowls of chapter 16. Its conclusion: "Revelation is not
 simply recounting what happened in Moses's day; it is depicting judgments on the world in familiar
 biblical terms."[^cbsb-rev8]
@@ -207,8 +207,8 @@ Revelation identifies which prophetic locust-army this is.
 
 ### Where the escalation ends
 
-The first
-four seals had touched "a fourth" of the earth (Revelation 6:8). The first four trumpets touch "a
+The fourth
+seal had touched "a fourth" of the earth (Revelation 6:8). The first four trumpets touch "a
 third": worse, and still restrained, "giving foretastes of total devastation to come if rebels
 ignore his warnings."[^esvsb-rev8]
 
@@ -256,7 +256,7 @@ air".
 
 ### Revelation 11: a kingdom announcement and judgment
 
-**Revelation 11:15-19**, the seventh trumpet studied above, differs from both: it is the last of a numbered judgment sequence falling on "those who dwell on the earth" (8:13), and its content is a kingdom announcement and a reckoning: "the time for the dead to be judged... and for destroying the destroyers of the earth" (11:18, ESV). It describes no resurrection of the righteous dead in Christ.
+**Revelation 11:15-19**, the seventh trumpet studied above, differs from both: it is the last of a numbered judgment sequence falling on "those who dwell on the earth" (8:13), and its content is a kingdom announcement and a reckoning: "the time for the dead to be judged, and for rewarding your servants, the prophets and saints, and those who fear your name, both small and great, and for destroying the destroyers of the earth" (11:18, ESV). It describes no resurrection of the righteous dead in Christ.
 
 ### A counter-reading, and this study's timing distinction
 

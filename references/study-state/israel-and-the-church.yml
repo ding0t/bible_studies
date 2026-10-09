@@ -543,3 +543,7 @@ read_2026-09-26:
     - "'Four texts carry the weight on the other side.' now runs straight into the Galatians 6:16 sub-heading; reads fine, noted in case the author wants a different lead-in."
     - "Divine pronouns still lowercase in existing prose (see insight_2026-09-26.left_for_author)."
     - "This pass verifies nothing; the last review-bible-study pass predates the 1fd518d simplification."
+
+evidence:
+  - {id: eph4-24-kainos, what: "Ephesians 4:24 'new man' uses kainos", tool: bible_verse, args: {book: Eph, chapter: 4, verse: 24}, expect_contains: "καινὸν", checked: 2026-10-09}
+  - {id: col3-10-neos, what: "Colossians 3:10 'new man' uses neos", tool: bible_verse, args: {book: Col, chapter: 3, verse: 10}, expect_contains: "νέον", checked: 2026-10-09}

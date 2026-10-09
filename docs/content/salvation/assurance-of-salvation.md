@@ -50,8 +50,8 @@ turns into either presumption or despair.
   Father's hand" (John 10:28-29, ESV). One forcible-seizure verb is denied to any hostile hand,
   stated of both Son and Father.
 - He goes on acting on a believer's behalf: He "always lives to make intercession" for those
-  who come to God through him (Hebrews 7:25, ESV) and is "able to guard until that day what has been
-  entrusted to" him (2 Timothy 1:12, ESV).
+  who come to God through Him (Hebrews 7:25, ESV) and is "able to guard until that day what has been
+  entrusted to me" (2 Timothy 1:12, ESV).
 - He began the work and is named as the one who will finish it: "he who began a good work in you
   will bring it to completion at the day of Jesus Christ" (Philippians 1:6, ESV).
 
@@ -112,7 +112,7 @@ collapses the moment either question is pressed.
 
 **Acts 4:12.** Peter says this to the Sanhedrin the morning after healing a man lame from birth at
 the temple gate (Acts 3:1-10), the same council that had condemned Jesus weeks earlier, at the
-preceding Passover (Acts 4:1-6). Asked "by what power or by what name did you do this?" (4:7, ESV),
+preceding Passover (Acts 4:5-6; Mark 14:53-64). Asked "by what power or by what name did you do this?" (4:7, ESV),
 Peter answers with a pun the Greek makes plain. The lame man "has been healed" (*sesōstai*, a form
 of *sōzō*, 4:9) by the name of Jesus. And "there is salvation (*sōtēria*) in no one else... by which
 we must be saved (*sōthēnai*, again *sōzō*)" (4:12, ESV). One verb covers both the physical healing
@@ -160,7 +160,7 @@ for other believers.
 Chapter 5 is where "believing" concentrates: six of the letter's nine uses of the verb fall here.
 Verses 6-10 build a legal case for who Jesus is, using the two-or-three-witness standard of
 Deuteronomy 17:6 and 19:15. The witnesses are "the Spirit and the water and the blood; and these
-three agree" (5:8, ESV). That is John's own gloss on Jesus' baptism, his atoning death, and the
+three agree" (5:8, ESV). That is John's own gloss on Jesus' baptism, His atoning death, and the
 Spirit's ongoing inward testimony. Verses 11-12 state the content of that testimony as plainly as
 anything in the letter: "God gave us eternal life, and this life is in his Son. Whoever has the Son
 has life; whoever does not have the Son of God does not have life" (ESV). Verse 13 is John stepping
@@ -171,7 +171,9 @@ distinction between the two, *oida* for fixed settled knowledge and *ginōskō* 
 kind. The letter's own usage does not support drawing that line sharply: both verbs cover the
 same ground throughout 1 John. The sharper contrast sits with John's other book.
 The Gospel states its purpose as being written "so that you may *believe* that Jesus is the Christ"
-(John 20:31, ESV). That is an evangelistic aim, addressed to those not yet convinced. The letter's
+(John 20:31, ESV). That is an evangelistic aim, addressed to those not yet convinced, if the aorist
+*pisteusēte* ("come to believe") is original; the manuscripts divide, NA28 brackets the σ, and SBLGNT
+prints the present *pisteuēte* ("go on believing"), which the NLT renders "continue to believe". The letter's
 purpose in 5:13 is addressed to "you who believe" already, so that they may *know* what they have.
 
 

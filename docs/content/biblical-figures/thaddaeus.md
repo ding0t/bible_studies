@@ -15,7 +15,7 @@ ai_provider_models:
 
 # Thaddaeus (Judas son of James)
 
-He appears at position ten in the Synoptic lists under two different names, asks one question in the
+He appears at position ten or eleven in the lists under two different names, asks one question in the
 whole of Scripture, and vanishes. The question is a good one, and the answer to it is a promise.
 
 ## Key Takeaways
@@ -44,7 +44,7 @@ external while He is offering to move in.
 
 Father, we ask why you are not more obvious, and you answer that you want to make your home with us.
 Forgive us for wanting a spectacle more than a guest. Come and dwell with us, and let our keeping of
-your word be the proof.
+your word be the proof. In Jesus' name. Amen.
 
 ---
 
@@ -66,8 +66,8 @@ Gospel (6:16) and Acts (1:13). *Judas* is <span dir="rtl">יְהוּדָה</span
 Two names for one man is the straightforward reading: Matthew and Mark have Thaddaeus at position
 ten, Luke and Acts have Judas son of James in the same group of four, and the lists are otherwise
 identical in membership. Carrying both a Semitic and a Greek or Latin name was ordinary.
-And in this case the second name had an obvious practical use: John, when he introduces him,
-immediately clarifies which Judas he means.
+And in this case a second name had an obvious practical use: two of the Twelve were called Judas,
+and John, when he introduces him, has to clarify which Judas he means (John 14:22).
 
 ## What Scripture records
 
@@ -80,8 +80,8 @@ One verse.
 John's parenthesis ("not Iscariot") is the only characterisation he receives in the New Testament,
 and it is a disambiguation.
 
-The question comes in the upper room, after Jesus has said that whoever loves him will be loved by
-his Father and that he will "manifest myself to him" (John 14:21). Thaddaeus catches the word *to
+The question comes in the upper room, after Jesus has said that whoever loves Him will be loved by
+His Father and that He will "manifest myself to him" (John 14:21). Thaddaeus catches the word *to
 him*. He has been expecting a Messiah who would be revealed publicly, to everyone, in a way that
 settled the matter. Why the restriction?
 
@@ -92,7 +92,9 @@ to make their home with anyone who loves and obeys.
 ## Is he the author of Jude?
 
 No, on the most likely reading. The letter of Jude opens "Jude, a servant of Jesus Christ and
-brother of James" (Jude 1:1): *brother* of James, whereas this apostle is *son* of James. The
+brother of James" (Jude 1:1): *brother* of James. Luke calls this apostle
+<span lang="grc">Ἰούδας Ἰακώβου</span>, literally "Judas of James"; most modern translations supply
+*son*, the KJV supplies *brother*, so this argument rests on a contested reading. The
 letter is generally attributed to Jude the brother of Jesus, named alongside James in Mark 6:3. The
 similarity of names is the whole basis of the confusion.
 

@@ -26,7 +26,7 @@ fact.
 
 ### Lessons about Jesus
 
-Jesus met open scepticism with an invitation. Nathanael's "Can anything good
+Jesus met open scepticism with knowledge and a promise. Nathanael's "Can anything good
 come out of Nazareth?" is an insult to Jesus' home town, and Jesus' response is to tell him something only
 Jesus could know, and to promise he would see greater things. He did not require the doubt to be
 withdrawn first.
@@ -47,7 +47,7 @@ whether the person you keep debating needs a better case or an introduction.
 
 Lord, you saw Nathanael under the fig tree before anyone introduced him, and you called him a man
 without deceit before he had said a single believing word. Thank you that you know us first. Meet
-our honest doubts as you met his.
+our honest doubts as you met his. In Jesus' name. Amen.
 
 ---
 
@@ -87,7 +87,7 @@ He says, "Come and see."
 Jesus greets him with a public assessment: "Behold, an Israelite indeed, in whom there is no
 deceit!" He says it of a man who has just insulted His home town, and it is possibly a
 deliberate contrast with **Jacob**, the Israelite who was full of deceit. Nathanael asks how Jesus
-knows him. Jesus says he saw him under the fig tree before Philip called him.
+knows him. Jesus says He saw him under the fig tree before Philip called him.
 
 That is enough. Nathanael answers, "Rabbi, you are the Son of God! You are the King of Israel!"
 (John 1:49), one of the earliest and fullest confessions in the Gospel. Jesus tells him he will see

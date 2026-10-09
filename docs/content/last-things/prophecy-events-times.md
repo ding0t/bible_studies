@@ -35,8 +35,7 @@ Two conventions matter for everything that follows:
 1. **Bible prophecy uses a 360-day year.** The Flood lasted "five months"
    (Genesis 7:11;
    Genesis 8:3-4), and that same span is elsewhere
-    counted as 150 days, five 30-day months. Revelation counts that same period three different ways
-
+   counted as 150 days, five 30-day months. Revelation counts that same period three different ways
    and gets the same number every time: 42 months
    (Revelation 11:2), "time, and times, and half a
    time," i.e. 3.5 years
@@ -275,7 +274,8 @@ Sir Robert Anderson worked this out in *The Coming Prince* (1894): 69 weeks of 7
 each is 483 prophetic years, or exactly **173,880 days**. He started from 1 Nisan in Artaxerxes'
 twentieth year, which he placed on 14 March 445 BC, and counted 173,880 days forward. That is 476
 solar years plus 24 days, the correction for what a solar-year count alone would miss. He landed on
-**10 Nisan, which he calculated as 6 April AD 32**, days before the Triumphal Entry.
+**10 Nisan, which he calculated as 6 April AD 32**, a Sunday, and the day he identified as the
+Triumphal Entry itself.
 
 Harold Hoehner later reworked the calculation in *Chronological Aspects of the Life of Christ* and
 came out a year later: starting 1 Nisan 444 BC (5 March, Julian) and landing on 10 Nisan, 30 March
@@ -310,7 +310,7 @@ assumption layered onto the calculation.
 
 Luke 19:41-44 (ESV), set at this same Triumphal
 Entry, records Jesus weeping over Jerusalem: "would that you, even you, had known on this day the
-things that make for peace!... because you did not know the time of your visitation." `On Daniel's own math`, "the time" was calculable decades in advance, from a decree
+things that make for peace!... because you did not know the time of your visitation." On Daniel's own math, "the time" was calculable decades in advance, from a decree
 already sitting in the Persian court's own dated records. The rebuke lands with more weight once you
 see the arithmetic behind it.
 
@@ -365,13 +365,14 @@ at new moon, and the crucifixion took place at Passover, which by definition fal
 moon (14 Nisan, the middle of the lunar month). Whatever caused three hours of midday darkness that
 Friday, the moon could not have been the cause. The Gospels themselves don't call it an eclipse.
 They narrate it as a supernatural sign accompanying Jesus's death, alongside the temple veil tearing
-and an earthquake (Matthew 27:51). Some later manuscripts of Luke 23:45 do use a Greek verb
-(*eklipontos*) related to our word "eclipse," which fed the popular confusion. The astronomy
+and an earthquake (Matthew 27:51). The critical Greek text of Luke 23:45 (NA28) does use a verb
+(*eklipontos*) related to our word "eclipse," which fed the popular confusion; the later Byzantine
+text behind the KJV reads "the sun was darkened" instead. The astronomy
 rules it out regardless of that wording.
 
 ### A separate, real event that same evening: the lunar eclipse of 3 April AD 33
 
-`An independently computable eclipse *is* connected to this week, on the evening of the crucifixion.` Colin Humphreys and Graeme Waddington calculated every lunar eclipse
+An independently computable eclipse *is* connected to this week, on the evening of the crucifixion. Colin Humphreys and Graeme Waddington calculated every lunar eclipse
 visible from Jerusalem at Passover across every candidate crucifixion year, AD 26-36 (*Nature*,
 1983). They found exactly one: **Friday, 3 April AD 33**.
 
@@ -394,7 +395,7 @@ twilight sky. His comparison: trying to spot an eight-watt red bulb next to a se
 
 So a "blood moon" vivid enough to be *remarked on* seven weeks later overstates what was visible.
 
-`The eclipse is a hard astronomical fact.` It bears on the crucifixion year only through Acts 2:20: if Peter was
+The eclipse is a hard astronomical fact. It bears on the crucifixion year only through Acts 2:20: if Peter was
 pointing at that eclipse, it favours AD 33. That link is the contested part. Schaefer's critique
 leaves the eclipse standing and the vivid "blood moon" doubtful, and Peter is quoting Joel about
 what *will* happen before the day of the Lord.
@@ -410,7 +411,8 @@ phenomenon (a planetary conjunction or occultation) and sits on much weaker
 scholarly ground than anything above. Michael Molnar argued for a double occultation of Jupiter by
 the moon in Aries in 6 BC. The more popular candidate is the Jupiter-Regulus-Venus conjunctions of
 3-2 BC. Both have real astronomical substance, and neither commands anything like consensus. The 3-2
-`BC dating also sits awkwardly against Herod's death in 4 BC.`
+BC dating also sits awkwardly against Herod's death in 4 BC, the majority date, though a minority
+argues for 1 BC.
 
 ## Pivoting backward from the anchors
 
@@ -425,8 +427,9 @@ have to be extrapolated, and the further back the extrapolation runs the weaker 
   anchored. (The **Merneptah Stele**, c. 1208 BC, is the earliest extra-biblical mention of "Israel"
   as a people in Canaan. It is a terminus ante quem: a floor under the conquest, with no date
   for the Exodus itself. A sizeable body of scholarship instead favors a "late date" Exodus in the
-  1200s BC tied to a different identification of the Pharaoh of the oppression; this study isn't
-  taking a side, just naming that the disagreement exists and isn't resolved by anchor evidence.)
+  1200s BC tied to a different identification of the Pharaoh of the oppression. This site works to
+  the early date (see the next point), and names the disagreement because anchor evidence does not
+  resolve it.)
 - **The Flood and Creation** have no anchor at all. Every date proposed for them (Ussher's 4004 BC
   and 2349 BC, and this site's 3959 BC and 2303 BC, among them) comes purely from summing genealogies in Genesis 5 and 11, and different
   manuscript traditions (the Masoretic Text vs. the Septuagint) give meaningfully different totals
@@ -452,7 +455,7 @@ have to be extrapolated, and the further back the extrapolation runs the weaker 
   of the divided monarchy's regnal data against the Assyrian anchors
 - [Hebrew4Christians: The Hebrew Calendar](https://www.hebrew4christians.com/Holidays/Calendar/calendar.html)
 - [The Zadok Calendar](../feasts/zadok-calendar.md) and [The Day is Near](day-is-near.md) — this site's other
-  chronology studies, with the open discrepancy between them noted above
+  chronology studies
 - Sacha Stern, *Calendar and Community: A History of the Jewish Calendar, 2nd Century BCE - 10th
   Century CE* — on Hillel II's AD 358-359 fixed calendar and the earlier observation-based system
   it replaced

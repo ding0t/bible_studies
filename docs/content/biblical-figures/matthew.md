@@ -44,7 +44,7 @@ collectors, the people he already knew, who would not have been welcome anywhere
 
 Lord, you called a man everyone had written off, and you did it without preconditions. Thank you
 that you desire mercy and not sacrifice. Give us the courage to bring the people we actually know
-to your table.
+to your table. In Jesus' name. Amen.
 
 ---
 
@@ -74,8 +74,8 @@ The social consequence was total. "Tax collectors and sinners" is a fixed phrase
 because the pairing needed no explanation. A *telōnēs* was regarded as both a thief and a
 collaborator with the occupying power, and was excluded from ordinary religious life.
 
-That is the man whose name sits at position seven or eight in every list of the Twelve, four places
-from Simon the Zealot, whose political movement existed to drive out the empire Matthew worked for.
+That is the man whose name sits at position seven or eight in every list of the Twelve, two to four
+places from Simon the Zealot, whose political movement existed to drive out the empire Matthew worked for.
 
 ## What Scripture records
 
@@ -99,7 +99,7 @@ Compare the four lists. In Mark and Luke, Matthew is
 named **before** Thomas. In the Gospel of Matthew, he is placed **after** Thomas, and he is the only
 one of the four writers to attach "the tax collector" to the name (Matthew 10:3).
 
-Given that this is the author's own list and his own name, moving himself down a place while adding
+Given that, on the traditional authorship below, this is the author's own list and his own name, moving himself down a place while adding
 the label everyone else left off is at minimum a distinctive editorial choice.
 
 ## What tradition says
@@ -128,7 +128,7 @@ ever since, and the question is not closed. See [Patristic Sources](../resources
 
 Matthew is the answer to whether there is a category of person too compromised to be called. He was
 the most obviously disqualified man in the group, he was called at work without preconditions, and
-he responded by introducing Jesus to everyone else in his profession, and then, when he wrote it
+he responded by introducing Jesus to a large company of his fellow tax collectors, and then, when he wrote it
 down, refused to leave out what he had been.
 
 ## References

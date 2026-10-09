@@ -26,8 +26,8 @@ strongest thing anyone says about Jesus in the entire Gospel.
 ### Lessons about Jesus
 
 Jesus came back a week later, walked through a locked door, and offered Thomas the
-evidence he had demanded: hands, side, the terms Thomas had set. Then he called for
-belief. He did not shame the request; he answered it and then addressed it.
+evidence he had demanded: hands, side, the terms Thomas had set. Then He called for
+belief. He did not shame the request; He answered it and then addressed it.
 
 ### Memory verse
 
@@ -47,7 +47,7 @@ agreement.
 
 Lord, you did not despise a man who asked for evidence, and you did not leave him without it. Where
 we doubt, keep us honest, and keep us in the room. And bring us to the place where we say with
-Thomas, without reservation, "My Lord and my God."
+Thomas, without reservation, "My Lord and my God." In Jesus' name. Amen.
 
 ---
 
@@ -62,10 +62,10 @@ Whose twin he was is never stated.
 
 ## What Scripture records
 
-Thomas speaks three times in John, and the first two are usually left out of his reputation.
+Thomas speaks four times in John, and the first two are usually left out of his reputation.
 
 **He volunteers to die.** Jesus proposes returning to Judea, where the authorities have recently
-tried to stone him. The disciples object. Thomas ends the debate:
+tried to stone Him. The disciples object. Thomas ends the debate:
 
 > ✝️ John 11:16 (ESV)
 >
@@ -74,8 +74,8 @@ tried to stone him. The disciples object. Thomas ends the debate:
 It is fatalistic, and it is courageous, and no one else in the
 room said it.
 
-**He admits he is lost.** In the upper room, Jesus says the disciples know the way to where he is
-going. Thomas contradicts him: "Lord, we do not know where you are going. How can we know the way?"
+**He admits he is lost.** In the upper room, Jesus says the disciples know the way to where He is
+going. Thomas contradicts Him: "Lord, we do not know where you are going. How can we know the way?"
 (John 14:5). The answer to that admission is one of the most quoted sentences in Scripture: "I am
 the way, and the truth, and the life" (John 14:6). Thomas's willingness to say he did not understand
 is what draws it out.
@@ -90,7 +90,7 @@ Eight days later Jesus returns and meets the demand item by item:
 >
 > 27 Then he said to Thomas, "Put your finger here, and see my hands; and put out your hand, and place it in my side. Do not disbelieve, but believe." 28 Thomas answered him, "My Lord and my God!"
 
-John does not say Thomas ever touched him.
+John does not say Thomas ever touched Him.
 
 ## The confession
 
