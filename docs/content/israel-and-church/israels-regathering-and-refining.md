@@ -5,7 +5,7 @@ description: "God gathers Israel to the land for His holy name's sake, then clea
 tags: ["dispensationalism", "tribulation", "ezekiel", "zechariah", "romans", "lang/hebrew", "lang/greek"]
 draft: false
 primary_passage: "Ezekiel 36:22-28; Zechariah 12:10-13:9"
-bible_references: ["Ezekiel 33:21", "Ezekiel 36:22-28", "Ezekiel 36:32", "Ezekiel 37:11-12", "Ezekiel 37:15-22", "Ezekiel 20:34-37", "Zechariah 1:1", "Zechariah 10:8-10", "Zechariah 10:6-7", "Ezekiel 38:8", "Ezekiel 20:38", "Ezra 7:6", "Romans 9:24", "Amos 9:11", "Isaiah 27:9", "John 19:35", "Zechariah 12:10", "Zechariah 13:1", "Zechariah 13:3", "Zechariah 13:7-9", "Amos 9:15", "Isaiah 11:11", "Isaiah 59:20", "Psalm 14:7", "Hosea 1:9-10", "Hosea 5:15", "Deuteronomy 4:30-31", "Jeremiah 30:7", "Daniel 12:1", "Numbers 25:8", "1 Samuel 31:4", "Matthew 26:31", "John 19:37", "Acts 1:6-7", "Acts 15:14-16", "Romans 9:25-26", "Romans 11:26-27", "Romans 11:29", "John 19:34", "Revelation 1:7"]
+bible_references: ["Ezekiel 33:21", "Ezekiel 36:22-28", "Ezekiel 36:32", "Ezekiel 37:11-12", "Ezekiel 37:15-22", "Ezekiel 20:34-37", "Zechariah 1:1", "Zechariah 10:8-10", "Zechariah 10:6-7", "Ezekiel 38:8", "Ezekiel 20:38", "Ezra 7:6", "Romans 9:24", "Amos 9:11", "Isaiah 27:9", "John 19:35", "Zechariah 12:10", "Zechariah 13:1", "Zechariah 13:3", "Zechariah 13:7-9", "Amos 9:15", "Isaiah 11:11", "Isaiah 59:20", "Psalm 14:7", "Hosea 1:9-10", "Hosea 5:15", "Deuteronomy 4:30-31", "Jeremiah 30:7", "Daniel 12:1", "Numbers 25:8", "1 Samuel 31:4", "Matthew 24:15-20", "Matthew 26:31", "John 19:37", "Acts 1:6-7", "Acts 15:14-16", "Romans 9:25-26", "Romans 11:26-27", "Romans 11:29", "John 19:34", "Revelation 1:7"]
 date_created: 2026-09-26
 date_modified: 2026-10-09
 ai_provider_models:
@@ -20,10 +20,9 @@ would say: "Our bones are dried up, and our hope is lost; we are indeed cut off"
 answered them: "I will open your graves and raise you from your graves, O my people. And I will bring
 you into the land of Israel" (37:12, ESV).
 
-**In one sentence:** For the sake of His holy name, God gathers Israel to her land and then cleanses
-her, refines a remnant through the time of distress for Jacob, and turns the nation to mourn for
-Jesus, the one they pierced, so that all Israel will be saved; and the God who keeps His word to
-Israel is the God you can trust with yours.
+**In one sentence:** For His name's sake God gathers Israel to her land, then refines a remnant
+through the time of distress for Jacob until they mourn for Jesus, the one they pierced, and are
+cleansed.
 
 ## Key Takeaways
 
@@ -109,8 +108,7 @@ news reaches him in 33:21, and the promises of restoration follow.
 So Ezekiel 36 was spoken to people with no city, no temple and no reason in themselves to expect
 either back. God says so plainly: "It is not for your sake, O house of Israel, that I am about to
 act, but for the sake of my holy name, which you have profaned among the nations to which you came"
-(Ezekiel 36:22, ESV). He repeats it at the far end of the passage: "It is not for your sake that I
-will act, declares the Lord GOD; let that be known to you" (36:32, ESV). The purpose is stated
+(Ezekiel 36:22, ESV). He repeats it at the far end of the passage (36:32). The purpose is stated
 between them: "the nations will know that I am the LORD ... when through you I vindicate my holiness
 before their eyes" (36:23, ESV).
 
@@ -124,13 +122,11 @@ dated ministry opens "in the second year of Darius" (Zechariah 1:1, ESV), 520 BC
 introduction to Zechariah). Chapters 9-14 may come from later in his life, perhaps the fifth century
 BC.
 
-Zechariah prophesies after a return has already happened, and he still promises a gathering: "I will whistle for them and gather them in, for I have redeemed
-them" (10:8, ESV), "I will bring them home from the land of Egypt, and gather them from Assyria"
-(10:10, ESV). He names "the house of Joseph" and Ephraim (10:6-7, ESV), the northern tribes, whom the
-return from Babylon did not bring home, and Ezra's later journey was also "from Babylonia" (Ezra 7:6,
-ESV). The return from Babylon did not exhaust the promise. The *ESV Study Bible* says the same
-of Ezekiel 36: "The physical return was only the beginning of the fulfillment for these prophecies"
-(note on 36:22-32).
+Zechariah prophesies after a return has already happened, and he still promises a gathering: "I will bring them home from the land of Egypt, and gather them from
+Assyria" (10:10, ESV; see 10:8). He names "the house of Joseph" and Ephraim (10:6-7, ESV), the
+northern tribes, whom the return from Babylon did not bring home; Ezra's later journey was also from
+Babylonia (Ezra 7:6). The return from Babylon did not exhaust the promise, and the *ESV Study Bible*
+says the same of Ezekiel 36 (note on 36:22-32).
 
 ## The prophets, and the order they give
 
@@ -148,16 +144,12 @@ The regathering promises are specific, and one of them states a sequence.
 > and be careful to obey my rules. 28 You shall dwell in the land that I gave to your fathers, and
 > you shall be my people, and I will be your God.
 
-Gathering comes first (v. 24). Cleansing, the new heart and the Spirit come after (vv. 25-27). The
-*ESV Study Bible* reads the order the same way: "gathering and return (v. 24) precede cleansing (v.
-25)" (note on 36:24-25). So a return to the land before national cleansing fits this prophecy's order. Ezekiel 20:38 adds
-that the final entry into the land comes after God purges the rebels (see below). The new heart of verse 26 is regeneration, and God names Himself as the one who does
-it.
+Gathering comes first (v. 24). Cleansing, the new heart and the Spirit come after (vv. 25-27). So a
+return to the land before national cleansing fits this prophecy's order. The new heart of verse 26 is
+regeneration, and God names Himself as the one who does it.
 
-Amos ends with the planting that is final: "I will plant them on their land, and they shall never
-again be uprooted out of the land that I have given them" (Amos 9:15, ESV). Isaiah expects a regathering beyond the
-first one: "the Lord will extend his hand yet a second time to recover the remnant that remains of
-his people" (Isaiah 11:11, ESV).
+Amos promises a final planting from which Israel is "never again" uprooted (Amos 9:15, ESV), and
+Isaiah a recovery "a second time" (Isaiah 11:11, ESV).
 
 ### One nation, in the land
 
@@ -197,7 +189,7 @@ James read the sequence the same way at the Jerusalem council:
 
 On one reading, Gentiles are gathered first for God's name and **after this** the fallen tent of David
 is rebuilt. That reading is contested, among premillennial writers too. "After this" is James's
-wording for Amos's "In that day" (Amos 9:11, ESV), and Stanley Toussaint judges a third view "more
+wording for Amos's "In that day" (Amos 9:11, ESV), and Stanley Toussaint says a third view "may be more
 plausible": James is saying Gentiles will be saved in the kingdom, when Christ returns and restores
 Israel, after the tribulation of Amos 9:8-10 (*Bible Knowledge Commentary*, on Acts 15:16-18). On
 either reading the council that settled Gentile inclusion left David's house standing in the
@@ -212,27 +204,22 @@ without merging them.
 
 ### Distress that brings Israel home
 
-Scripture is consistent about what the coming distress is for, as far as Israel is concerned. God
-uses it to bring the nation to her Messiah.
+For Israel, God uses the coming distress to bring the nation to her Messiah.
 
 Moses said so before the nation had entered the land: "When you are in tribulation, and all these
-things come upon you in the latter days, you will return to the LORD your God and obey his voice.
-For the LORD your God is a merciful God. He will not leave you or destroy you or forget the covenant
-with your fathers that he swore to them" (Deuteronomy 4:30-31, ESV). Hosea gives God's side of the same arrangement: "I
+things come upon you in the latter days, you will return to the LORD your God … He will not … forget
+the covenant with your fathers" (Deuteronomy 4:30-31, ESV). Hosea gives God's side of the same arrangement: "I
 will return again to my place, until they acknowledge their guilt and seek my face, and in their
 distress earnestly seek me" (Hosea 5:15, ESV). Distress is the instrument; seeking His face is the
 object.
 
 ### A time of distress for Jacob
 
-Jeremiah names the period from Israel's side: "Alas! That day is so great there is none like it; it
-is a time of distress for Jacob; yet he shall be saved out of it" (Jeremiah 30:7, ESV). Jacob goes
-through the distress and is saved out of it. Daniel says the same: "a time of trouble, such as never
-has been since there was a nation till that time. But at that time your people shall be delivered"
-(Daniel 12:1, ESV). Ezekiel supplies the mechanism, and the imagery is a second Exodus: God gathers
-the nation, brings it "into the wilderness of the peoples," enters into judgment "face to face,"
-makes them "pass under the rod," and brings them "into the bond of the covenant" (Ezekiel 20:34-37,
-ESV). Then: "I will purge out the rebels from among you ... they shall not enter the land of Israel"
+Jeremiah names the period from Israel's side: "it is a time of distress for Jacob; yet he shall be
+saved out of it" (Jeremiah 30:7, ESV). Jacob goes through it and is saved out of it, and Daniel 12:1
+promises the same deliverance. Ezekiel supplies the mechanism, a second Exodus: God brings the nation
+"into the wilderness of the peoples," judges it there and brings it "into the bond of the covenant"
+(Ezekiel 20:34-37, ESV). Then: "I will purge out the rebels from among you ... they shall not enter the land of Israel"
 (Ezekiel 20:38, ESV). The purge comes before the final entry.
 
 ### The shepherd struck, the remnant refined
@@ -255,16 +242,16 @@ my people*, *the LORD is my God*, spoken over the refined remnant of Israel itse
 **When the refining happens is contested.** Jesus applied 13:7 to His own arrest (Matthew 26:31), so
 some readers place the scattering and refining of 13:8-9 in the first century, in the years leading
 to AD 70. Others, this study among them, read 13:8-9 with Jeremiah 30:7 and Daniel 12:1 as the time of
-distress for Jacob still ahead, in Daniel's seventieth week. Chapter 14, which the *ESV Study Bible*
-connects with "the day of the Lord" (note on 12:1-14:21), and the covenant formula spoken over a whole
-refined remnant favour the second reading. F. Duane Lindsey holds both, near and far: the passage
+distress for Jacob still ahead, in Daniel's seventieth week. Two things favour the second reading:
+the covenant formula spoken over a whole refined remnant, and chapter 14's setting in "the day of the
+Lord" (*ESV Study Bible*, note on 12:1-14:21). F. Duane Lindsey holds both, near and far: the passage
 "probably will see its final and complete fulfillment in Israel's dispersion in the Tribulation"
 (*Bible Knowledge Commentary*, on Zechariah 13:8-9). All the readings agree on what the refining is
 for.
 
 ### The one they pierced
 
-Zechariah 12:10 supplies what finally turns them:
+Zechariah 12:10 supplies what finally turns Israel to the LORD:
 
 > ✝️ Zechariah 12:10 (ESV)
 >
@@ -273,18 +260,16 @@ Zechariah 12:10 supplies what finally turns them:
 > him, as one mourns for an only child, and weep bitterly over him, as one weeps over a firstborn.
 
 "Pierced" is <span dir="rtl">דָּקַר</span> (*daqar*, H1856; "dah-KAR"), a thrust with sword or
-spear. It is the verb of Phinehas's spear in Numbers 25:8 and of Saul's plea to his armour-bearer in
-1 Samuel 31:4, and Zechariah uses it again in 13:3. The *ESV Study
-Bible* notes that the word "usually connotes being stabbed to death" (note on 12:10-14).
+spear (Numbers 25:8; 1 Samuel 31:4; Zechariah 13:3).
 
 ### Who the pierced one is
 
 The speaker is the LORD, and the Hebrew reads "they will look to me" (<span dir="rtl">אֵלַי</span>,
-*elay*), then "they will mourn over him." The *ESV Study Bible* calls the identity of the pierced one
-"difficult to discern," and suggests that if "on me" is defined by "whom they have pierced," the
-reference is to God Himself, perhaps in the person of the shepherd struck in 13:7 (note on 12:10-14).
-John settles it for the reader of the New Testament. He records the soldier's spear going into
-Jesus' side (John 19:34), the eyewitness who "has borne witness" (19:35, ESV), and writes, "They will look on him whom they have pierced" (John 19:37, ESV). Revelation places the
+*elay*), then "they will mourn over him." The identity of the pierced one is
+"difficult to discern"; if "on me" is defined by "whom they have pierced," the reference is to God
+Himself, perhaps as the shepherd struck in 13:7 (*ESV Study Bible*, note on 12:10-14). John settles it
+for the reader of the New Testament. He records the spear going into Jesus' side and an eyewitness to
+it (John 19:34-35), and writes, "They will look on him whom they have pierced" (John 19:37, ESV). Revelation places the
 looking at Jesus' return: "every eye will see him, even those who pierced him" (Revelation 1:7, ESV).
 
 The mourning leads to cleansing: "On that day there shall be a fountain opened for the house of David
@@ -292,9 +277,7 @@ and the inhabitants of Jerusalem, to cleanse them from sin and uncleanness" (Zec
 That is Ezekiel's order again. Gathered to Jerusalem, then cleansed.
 
 **This shows that God refines the people He keeps, and turns them by His Spirit to His Son Jesus.**
-The tribulation is how He finishes His dealings with Israel. Moses promised it would end in return
-(Deuteronomy 4:30), and Zechariah shows the return: grace poured out, the pierced one seen, sin
-washed away.
+The tribulation is how He finishes His dealings with Israel.
 
 ## About 1948
 
@@ -306,14 +289,14 @@ Scripture promises from the judgement of fitting a modern event to it.
 Ezekiel's order puts a regathering to the land before national cleansing (Ezekiel 36:24-27), and
 Zechariah and Isaiah promise a gathering beyond the return from Babylon (Zechariah 10:8-10; Isaiah
 11:11). On the dispensational reading those promises reach their full form after the seventieth
-week: Charles Dyer lists Ezekiel 36:24, 37:1-14, Isaiah 11:11 and Amos 9:14-15 as the "Final
-regathering of Israel," among the "Events following the seven-year period" (*Bible Knowledge
-Commentary*, Ezekiel). The text that expects Israel in the land *before* that week is Ezekiel 38:8:
-"in the latter years" a land "restored from war, the land whose people were gathered from many
-peoples upon the mountains of Israel … and now dwell securely" (ESV). The discourse's own
-requirements say the same: people in Judea, a holy place, a Sabbath to flee on (Matthew 24:15-20).
-So a people back in the land before the tribulation is what Scripture expects, and the final
-planting from which Israel is "never again" uprooted (Amos 9:15) comes after it.
+week: the *Bible Knowledge Commentary*'s "Outline of End-Time Events," printed with its Ezekiel
+commentary, places Ezekiel 36:24, 37:1-14, Isaiah 11:11 and Amos 9:14-15, the "Final regathering
+of Israel," among the events after the seven-year period. The text that puts Israel in the
+land *while* that week runs is Ezekiel 38:8: "in the latter years" a land "whose people were gathered from many peoples upon the mountains of Israel … and now dwell
+securely" (ESV), which the same outline places in the first half of the seven years. Jesus' warning
+on the Mount of Olives, read of its far fulfilment, requires the same: people in Judea, a holy
+place, a Sabbath to flee on (Matthew 24:15-20). So Scripture expects a people back in the land
+while the seven years run, and the final planting (Amos 9:15) after them.
 
 ### What no text supplies
 
@@ -326,10 +309,9 @@ He corrected *when*, and let *whether* stand.
 ### How the views divide
 
 **Many dispensational interpreters** see 1948 as the opening of the regathering in unbelief that
-Ezekiel 36 and 37 describe, with cleansing still to come. A Jewish nation living again in the land Rome
-had emptied of Jerusalem's Jews, rebuilding the city as the Roman colony Aelia Capitolina in AD 135
-(*NIV Cultural Backgrounds Study Bible*, note on Luke 21:24), fits that shape. The texts that fit it
-most closely are Ezekiel 38:8 and the discourse's requirements, above. [The Fig Tree and This
+Ezekiel 36 and 37 describe, with cleansing still to come. Rome emptied Jerusalem of its Jews and rebuilt it as
+the colony Aelia Capitolina in AD 135 (*NIV Cultural Backgrounds Study Bible*, note on Luke 21:24); a
+Jewish nation living in that land again fits that shape. [The Fig Tree and This
 Generation](../last-things/fig-tree-and-this-generation.md#what-the-fig-tree-does-not-supply-a-clock)
 and [Immediately After](../last-things/immediately-after.md#the-times-of-the-gentiles) reach the same
 place from the Gospels.
@@ -342,9 +324,9 @@ Romans 9-11.
 
 **The judgement this site makes:** 1948 fits the shape the prophets describe, and calling it a stage
 toward their fulfilment is defensible. Calling it a dated fulfilment claims more than the text
-gives. This site's own chronology studies show the cost of a calendar: [A Day Is a Thousand
-Years](../last-things/day-is-a-thousand-years.md#why-nobody-has-got-the-date-right) sets several
-creation dates side by side and shows why every year-6000 calculation so far has failed as a date.
+gives. [A Day Is a Thousand
+Years](../last-things/day-is-a-thousand-years.md#why-nobody-has-got-the-date-right) shows that every
+year-6000 date to arrive so far has passed without the end.
 
 **This shows that God keeps the times in His own authority** and gives you the promise to live by.
 
@@ -364,7 +346,7 @@ That is Zechariah 12:10 and 13:1 seen from the far side: the Deliverer coming fr
 ungodliness banished, sins taken away under a covenant God calls His own. It is the new covenant
 Ezekiel 36:26-27 describes, the new heart and the Spirit within.
 
-### Who "all Israel" is
+### Three readings of "all Israel"
 
 **Who "all Israel" is, is contested.** The *ESV Study Bible* sets out three readings: the church of
 Jews and Gentiles through history; a remnant of Jews through history; or the Jewish people at the
@@ -406,8 +388,8 @@ his line follows Isaiah's Greek closely.
 
 ## References & Recommended Reading
 
-- **ESV Study Bible** (Crossway) — introductions to Ezekiel and Zechariah; notes on Ezekiel 36:22-32
-  and 36:24-25, Zechariah 12:10-14 and 13:7-9, and Romans 11:26. ESV verse text throughout. Quoted
+- **ESV Study Bible** (Crossway) — introductions to Ezekiel and Zechariah; notes on Ezekiel 36:22-32,
+  Zechariah 12:1-14:21, 12:10-14 and 13:7-9, and Romans 11:26. ESV verse text throughout. Quoted
   briefly with attribution.
 - **NIV Biblical Theology Study Bible** (Zondervan) — notes on Ezekiel 36:24-27 and Zechariah
   12:10-14, 13:8-9.

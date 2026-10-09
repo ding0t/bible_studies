@@ -76,10 +76,8 @@ stages:
     validated: true
 
 thesis: >
-  For the sake of His holy name, God gathers Israel to her land and then cleanses her, refines a
-  remnant through the time of distress for Jacob, and turns the nation to mourn for Jesus, the one
-  they pierced, so that all Israel will be saved; and the God who keeps His word to Israel is the God
-  you can trust with yours.
+  For His name's sake God gathers Israel to her land, then refines a remnant through the time of
+  distress for Jacob until they mourn for Jesus, the one they pierced, and are cleansed.
 outline:
   - {section: "Where these promises were spoken", says: "Ezekiel after Jerusalem fell; Zechariah after the first return, still promising a gathering"}
   - {section: "The prophets, and the order they give", says: "gathered first, cleansed after, one nation in the land; Hosea and Acts 15 read the same sequence"}
@@ -112,6 +110,11 @@ evidence:
   - {id: tsaraph-twot, what: "צָרַף TWOT 1972 'smelt'", tool: twot_strongs, args: {strongs_id: H6884}, path: "0.gloss", expect_contains: "smelt", checked: 2026-09-26}
   - {id: daqar-twot, what: "דָּקַר TWOT 449 'pierce'", tool: twot_strongs, args: {strongs_id: H1856}, path: "0.gloss", expect_contains: "pierce", checked: 2026-09-26}
   - {id: zech-12-10-elay, what: "Hebrew 'to me' (אֵלַי) in Zech 12:10", tool: bible_interlinear, args: {book: Zech, chapter: 12, verse: 10}, path: "text", expect_contains: "look to me whom they pierced", checked: 2026-09-26}
+  - {id: ezek-38-8-esv, what: "ESV Ezekiel 38:8 (What the prophets require)", tool: study_verse, args: {book: Ezek, chapter: 38, verse: 8, work_id: esv-study-bible}, path: "0.text", expect_contains: "the land whose people were gathered from many peoples upon the mountains of Israel", checked: 2026-10-09}
+  - {id: ezek-20-38-esv, what: "ESV Ezekiel 20:38", tool: study_verse, args: {book: Ezek, chapter: 20, verse: 38, work_id: esv-study-bible}, path: "0.text", expect_contains: "they shall not enter the land of Israel", checked: 2026-10-09}
+  - {id: amos-9-11-esv, what: "ESV Amos 9:11 'In that day'", tool: study_verse, args: {book: Amos, chapter: 9, verse: 11, work_id: esv-study-bible}, path: "0.text", expect_contains: "In that day I will raise up the booth of David", checked: 2026-10-09}
+  - {id: rom-9-24-esv, what: "ESV Romans 9:24", tool: study_verse, args: {book: Rom, chapter: 9, verse: 24, work_id: esv-study-bible}, path: "0.text", expect_contains: "not from the Jews only but also from the Gentiles", checked: 2026-10-09}
+  - {id: luke-21-24-cbsb, what: "NIV CBSB Luke 21:24 Aelia Capitolina AD 135", tool: study_note, args: {book: Luke, chapter: 21, verse: 24, work_id: niv-cultural-backgrounds-study-bible}, path: "0.text", expect_contains: "Aelia Capitolina, in AD 135", checked: 2026-10-09}
 
 open_questions:
   - >
@@ -172,3 +175,32 @@ fix_2026-09-28:
   applied: "M1 'What the prophets require' rewritten: Dyer (BKC Ezekiel) places Ezek 36:24, 37:1-14, Isa 11:11, Amos 9:14-15 after the week; Ezek 38:8 is the pre-tribulation text; Matt 24:15-20. M2 Amos 9:15 as the final planting. M3 Ezek 20:38 quoted. M4 'secular' claim removed; 'nineteen centuries' replaced by AD 135 Aelia Capitolina (NIV CBSB Luke 21:24). M5 Acts 15:16 marked contested with Toussaint's third view. M6 Rom 9:24 and link to wife-of-the-lamb. M7 CBSB 'might blend' incl. Isa 27:9; ESV SB view-1 reasons fixed. M8 Zech 10:6-7 house of Joseph, Ezra 7:6. Zech 13:8-9 given Lindsey's 'final and complete fulfillment'. Minors: Deut 4:31, Hosea 1:10 label, Ps 14:7 Hebrew, John 19:35, bare refs, category theology, lang/greek, links to fig-tree and immediately-after; israel-and-the-church link added; kinsman-redeemer 'in its Greek form' removed."
 site_position_2026-09-28: "Author decision: Matthew 24 has a near fulfilment in AD 70 (Rome; Luke 21:20-24 records it; Daniel 9:26 places it between the 69th and 70th weeks) that is also a type of the far one; the far fulfilment is Daniel's seventieth week, opening at Matt 24:4 (birth pains; cf. Rev 6 seals, written c. AD 95 as still future, Rev 4:1) with the abomination at 24:15 as midpoint. The abomination is a repeating pattern: Antiochus 167 BC (1 Macc 1:54), Rome AD 70, the man of lawlessness (2 Thess 2:4). Sources: ESV SB on Matt 24:15 (complete fulfilment in AD 70 and the Antichrist) and Luke 21:5-24 (type); BKC Barbieri on Matt 24:4-8 (first half of the week), Grassmick on Mark 13:14-23 ('near' foreshadowed 'far'), Martin on Luke 21:20-24 (times of the Gentiles 586 BC to the tribulation)."
 published_2026-09-28: "draft: false with fig-tree, heaven-and-earth, immediately-after and israels-regathering together; mkdocs build --strict clean."
+
+review_2026-10-09:
+  reviewer: anthropic/claude-opus-5.5 (review-bible-study, independent pass after the 8ee61a62 structural pass; builds on review_2026-09-28)
+  scope: >
+    The fix_2026-09-28 prose (never itself reviewed) and the four structural-pass items. All ESV
+    quotations re-queried from study-notes.db (Ezek 36:24-28, 37:21-22, 20:34-38, 38:8, Zech 10:6-7,
+    13:8-9, Ezra 7:6, Rom 9:24, 11:29, Amos 9:11, 9:15, Isa 11:11, Deut 4:30-31, Hos 1:10, 5:15,
+    Jer 30:7, Dan 12:1, Acts 1:6-7, 15:14-16, Matt 24:15-20, John 19:35): all verbatim. NIV CBSB Luke
+    21:24 and NIV/NKJV CBSB Rom 11:26 ("might blend", Isa 27:9 "only in the Greek version") confirmed;
+    ESV SB Rom 11:26 view-1 reasons confirmed. BKC EPUB read raw from the media volume: Toussaint on
+    Acts 15, Lindsey on Zech 13:8-9 ("final and complete fulfillment") confirmed. All internal links
+    and anchors resolve; all link targets draft: false. review_gaps: 74 gaps, mostly crossref noise.
+  findings_fixed:
+    - "Moderate (citation): the 'Final regathering of Israel' list is the BKC's unsigned 'Outline of End-Time Events' chart printed after Dyer's Ezekiel bibliography, not Dyer's prose. Re-attributed to the outline."
+    - "Moderate (synthetic claim): 'The text that expects Israel in the land *before* that week is Ezekiel 38:8' -- the cited outline places Ezek 38:8 in the FIRST HALF of the week (I.C.1 'Israel living in peace in the land'). Reworded to 'while that week runs', and the conclusion to 'a people back in the land while the seven years run'."
+    - "Minor (citation): Toussaint says a third view 'may be more plausible'; study had 'judges ... \"more plausible\"'. Fixed."
+    - "Minor (overclaim): 'every year-6000 calculation so far has failed as a date' -- day-is-a-thousand-years lists AD 2042/2075/2240, not yet arrived; it says every year that has ARRIVED passed. Reworded."
+    - "Structural item 1: 'the discourse' never introduced -> 'Jesus' warning on the Mount of Olives, read of its far fulfilment' / 'Jesus' warning in Matthew 24:15-20'."
+    - "Structural item 2: 'turns them' -> 'turns Israel to the LORD'."
+    - "Structural item 3: '(see below)' forward pointer replaced by a self-contained statement of Ezek 20:38's qualification."
+    - "Structural item 4: thesis cut from 55 to 31 words; the trust-with-yours landing remains in Be Transformed and the Romans 11:29 close. Thesis field above updated to match."
+    - "Minor (frontmatter): Matthew 24:15-20 added to bible_references."
+  left_for_author:
+    - "'How the views divide' says many dispensationalists see 1948 as the opening of the Ezek 36-37 regathering, while the BKC outline the study cites assigns Ezek 36:24 and 37:1-14 to after the week. Disclosed, not contradictory, but the reader holds two placements of the same texts; author's call whether to say so in one clause."
+    - "Rom 11:27 'my covenant' is called 'the new covenant Ezekiel 36:26-27 describes' without Jeremiah 31:31-34, the text that names it (review_gaps crossref). Addition, so left to simplify/author."
+    - "Heading 'Who \"all Israel\" is' is followed immediately by the bold '**Who \"all Israel\" is, is contested.**' -- duplicated by the structural pass; a read-pass nit."
+    - "Statement of faith: no conflict found (End times pretribulational, seventieth week)."
+  validate: "npm run validate passed; no errors or warnings for this file."
+  size: "4,501 words (wc, incl. frontmatter/references) against word_budget 4,000; net change of these fixes about +6 words. Over-budget question belongs to simplify-bible-study."
