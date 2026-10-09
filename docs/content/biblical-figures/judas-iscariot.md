@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 12:1-8; Matthew 26:14-16"
 bible_references: ["Matthew 10:4", "Mark 3:19", "Luke 6:16", "John 6:70-71", "John 13:21-30", "Matthew 27:3-10", "Acts 1:15-20", "Zechariah 11:12-13", "Psalm 41:9"]
 date_created: 2026-08-08
-date_modified: 2026-09-27
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -17,7 +17,7 @@ ai_provider_models:
 
 He is named last in every list that contains him, and every list that names him says why. He was
 chosen with the others, sent out with the others, given authority over unclean spirits with the
-others — and he is the reason the apostolic band had to be reconstituted before Pentecost.
+others. He is the reason the apostolic band had to be reconstituted before Pentecost.
 
 ## Key Takeaways
 
@@ -27,7 +27,7 @@ others — and he is the reason the apostolic band had to be reconstituted befor
 
 Jesus knew. "Did I not choose you, the twelve? And yet one of you is a devil" (John 6:70) is said
 roughly a year before the betrayal. He washed Judas' feet, seated him at the table, handed him the
-morsel, and called him friend in the garden. Foreknowledge did not curdle into pre-emptive hostility.
+morsel, and called him friend in the garden.
 
 ### Memory verse
 
@@ -37,7 +37,7 @@ morsel, and called him friend in the garden. Foreknowledge did not curdle into p
 
 ### Be transformed
 
-Judas' collapse was not a sudden event. John describes a settled habit — he *used to* help himself —
+Judas' collapse was slow. John describes a settled habit (he *used to* help himself)
 running underneath a public reputation for caring about the poor. The betrayal was the visible end
 of something private that had been true for a long time. Examine the gap between what you are known
 for and what you actually do when nobody is auditing.
@@ -46,38 +46,35 @@ for and what you actually do when nobody is auditing.
 
 Lord, it is a fearful thing that a man could be this close to you for three years and be lost.
 Search us. Where we are managing an appearance while something rots underneath, expose it now while
-there is still time to repent — and keep us from the despair that could not believe you would
+there is still time to repent, and keep us from the despair that could not believe you would
 forgive.
 
 ---
 
 ## The name
 
-**Judas** — <span lang="grc">Ἰούδας</span> (*Ioudas*, ee-oo-DAHSS, G2455), from
+**Judas**: <span lang="grc">Ἰούδας</span> (*Ioudas*, ee-oo-DAHSS, G2455), from
 <span dir="rtl">יְהוּדָה</span> (*Yehudah*, yeh-hoo-DAH, H3063), "praised" (Genesis 29:35). It was among the
-most common Jewish names of the period, and honourable — the name of a patriarch, a tribe, and Judas
+most common Jewish names of the period, and honourable: the name of a patriarch, a tribe, and Judas
 Maccabeus. Two of the Twelve carried it, which is why John has to specify "Judas (not Iscariot)"
 elsewhere (John 14:22).
 
-**Iscariot** — <span lang="grc">Ἰσκαριώτης</span> (*Iskariōtēs*, G2469). The derivation is **disputed**,
-and this study will not pretend otherwise. The two main proposals:
+**Iscariot**: <span lang="grc">Ἰσκαριώτης</span> (*Iskariōtēs*, G2469). The derivation is **disputed**. The two main proposals:
 
-1. **"Man of Kerioth"** — Hebrew <span dir="rtl">אִישׁ קְרִיּוֹת</span> *ish-Qeriyot*, a town in
-   southern Judah (Joshua 15:25). Strong's takes this reading. If correct, it carries an interesting
-   consequence: Judas would be the only Judean among twelve Galileans.
+1. **"Man of Kerioth"**: Hebrew <span dir="rtl">אִישׁ קְרִיּוֹת</span> *ish-Qeriyot*, a town in
+   southern Judah (Joshua 15:25). Strong's takes this reading. If correct, Judas would be the only Judean among the Twelve.
 2. **A link to the *sicarii***, the dagger-men of the later revolt, from Latin *sicarius*. This is
-   chronologically awkward — the *sicarii* are attested as an organised group after Judas' lifetime —
-   and is the weaker of the two.
+   chronologically awkward: the *sicarii* are attested as an organised group after Judas' lifetime.
+   It is the weaker of the two.
 
-The first is more probable. Neither is certain, and the "only non-Galilean" point, though often
-repeated confidently, rests entirely on an uncertain etymology and should be offered as a
-possibility rather than a fact.
+The first is more probable. Neither is certain, and the "only non-Galilean" point rests on an
+uncertain etymology, so it is a possibility.
 
 ## What Scripture records
 
 **He held the money.** John states it twice, and the second time with an explanation that removes
 any ambiguity. At Bethany, when Mary anoints Jesus with costly ointment, Judas objects that it
-should have been sold and the proceeds given to the poor — three hundred denarii, close to a year's
+should have been sold and the proceeds given to the poor: three hundred denarii, close to a year's
 wages. John's comment is blunt (John 12:6, quoted above): the objection was cover for theft, and the
 theft was habitual.
 
@@ -87,29 +84,25 @@ theft was habitual.
 >
 > 14 Then one of the twelve, whose name was Judas Iscariot, went to the chief priests 15 and said, "What will you give me if I deliver him over to you?" And they paid him thirty pieces of silver. 16 And from that moment he sought an opportunity to betray him.
 
-Thirty pieces of silver is the compensation set in Exodus 21:32 for a slave gored by an ox — the
+Thirty pieces of silver is the compensation set in Exodus 21:32 for a slave gored by an ox: the
 price of a slave, and the valuation the chief priests placed on Jesus. It is also the sum weighed
 out as wages and thrown "to the potter" in Zechariah 11:12-13.
 
 Matthew draws on that potter imagery when the priests use the returned money to buy the potter's
-field (Matthew 27:7), but there is a genuine difficulty in how he cites it, and it should not be
-glossed over: Matthew introduces the quotation as "spoken by the prophet **Jeremiah**"
+field (Matthew 27:7), but there is a difficulty in how he cites it: Matthew introduces the quotation as "spoken by the prophet **Jeremiah**"
 (Matthew 27:9), while the wording that follows corresponds most closely to Zechariah 11:12-13.
 Proposed explanations include a composite citation naming the more prominent prophet (Jeremiah has
 his own potter and field material at Jeremiah 18-19 and 32), or a reference to a scroll grouping the
-prophets under Jeremiah's name. None is certain. What is certain is that the text reads *Jeremiah*,
-and a study that quietly substitutes *Zechariah* has edited the difficulty out rather than
-addressed it.
+prophets under Jeremiah's name. None is certain. The text reads *Jeremiah*.
 
 **He was identified and left.** At the supper Jesus names the betrayer by handing him the morsel;
 "then after he had taken the morsel, Satan entered into him" (John 13:27). Jesus says, "What you are
-going to do, do quickly." John adds four words that are almost unbearable as narration: "And it was
+going to do, do quickly." John adds four words: "And it was
 night" (John 13:30).
 
 ## The two accounts of his death
 
-Matthew and Acts describe the end differently, and honesty requires setting them side by side rather
-than choosing one.
+Matthew and Acts describe the end differently.
 
 > ✝️ Matthew 27:3-5 (ESV)
 >
@@ -122,15 +115,14 @@ than choosing one.
 Two differences: the manner of death (hanging / a fall), and who bought the field (the priests, in
 Matthew 27:7 / Judas, in Acts).
 
-The usual reconciliation is that the two describe different stages of one event — a hanging followed
-by the body falling — and that Acts speaks of Judas "acquiring" the field in the sense that it was
-bought with his money, which is precisely how Matthew describes the priests using it. Both are
-reasonable readings, and neither is stated in the text; they are harmonisations. It is more honest
-to say the accounts emphasise different things and are not obviously irreconcilable, than to present
-a reconstruction as though Scripture supplied it.
+The usual reconciliation is that the two describe different stages of one event (a hanging followed
+by the body falling), and that Acts speaks of Judas "acquiring" the field in the sense that it was
+bought with his money, which is how Matthew describes the priests using it. Both are
+reasonable readings, and neither is stated in the text; they are harmonisations. The accounts
+emphasise different things and are not obviously irreconcilable.
 
-Matthew's word for Judas' response: he "changed his mind" —
-<span lang="grc">μεταμέλομαι</span> (*metamelomai*, G3338), regret or remorse — rather than
+Matthew's word for Judas' response: he "changed his mind":
+<span lang="grc">μεταμέλομαι</span> (*metamelomai*, G3338), regret or remorse. Matthew does not use
 <span lang="grc">μετανοέω</span> (*metanoeō*, G3340), the ordinary New Testament word for repentance. He
 felt the weight of it, said the true thing ("I have sinned by betraying innocent blood"), said it to
 the wrong people, and did not go back to Jesus. Peter denied and returned; Judas regretted and did
@@ -140,7 +132,7 @@ not.
 
 Both are asserted, and the New Testament does not soften either. Jesus chose him knowingly (John
 6:70-71) and the betrayal is presented as the fulfilment of Scripture (John 13:18, citing Psalm
-41:9). At the same time Judas is treated throughout as fully responsible — he negotiated, he sought
+41:9). At the same time Judas is treated throughout as fully responsible: he negotiated, he sought
 the opportunity, he was a thief before he was a traitor.
 
 Attempts to resolve this by making Judas a mere instrument, or by making the foreknowledge

@@ -5,7 +5,7 @@ description: "The English translations, Hebrew Masoretic witnesses, and Greek Ne
 tags: ["translations", "versions", "lang/hebrew", "lang/greek", "septuagint", "masoretic", "method/textual-criticism"]
 draft: false
 date_created: 2025-06-07
-date_modified: 2026-10-08
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -16,9 +16,9 @@ ai_provider_models:
 
 Every quotation in a study rests on two choices most readers never see: which *translation* rendered
 the verse into English, and which underlying Hebrew or Greek *edition* that translation was made
-from. Neither choice is neutral — a formally literal translation of an eclectic critical Greek text
+from. Neither choice is neutral: a formally literal translation of an eclectic critical Greek text
 argues differently than a thought-for-thought translation of the Byzantine tradition, even quoting
-the "same" verse. This page catalogs what we actually lean on and the tradeoffs of each. This repo
+the "same" verse. This page catalogs what we lean on and the tradeoffs of each. This repo
 also functions as a small research tool, so it records which of these are wired into our own
 queryable database (`references/build/bible-text.db`), and which are cited from general knowledge
 because the license doesn't allow us to store the text locally.
@@ -45,19 +45,18 @@ the standing rule this page expands on.
 ## Three questions to ask of any text on this page
 
 "Hebrew text" and "Greek text" are not one category each. They cover things that differ in ways that
-decide what a citation can carry, and grouping by language alone hides it — this page grouped two
-19th-century translations under *Hebrew Old Testament* for a long time on exactly that mistake.
+decide what a citation can carry, and grouping by language alone hides it. This page grouped two
+19th-century translations under *Hebrew Old Testament* for a long time on that mistake.
 
-Three questions separate them.
+
 
 **1. Is it in the language it was composed in?** A text can be in Hebrew without being a Hebrew
 witness. Delitzsch's New Testament is Hebrew and was translated out of Greek in 1877; it witnesses a
-translator, not an original. The Septuagint is the converse case — Greek, and a *translation* of
+translator, not an original. The Septuagint is the converse case: Greek, and a *translation* of
 Hebrew, but made before Christ, so it witnesses a Hebrew text older than any Hebrew manuscript we
 hold.
 
-**2. What kind of edition is it?** This is the "compilation" question, and the answers are not
-equivalent:
+**2. What kind of edition is it?** This is the "compilation" question, and it has five answers:
 
 | Kind | What it means | Example |
 |---|---|---|
@@ -98,19 +97,17 @@ Each source carries:
 | `strengths` / `limits` | what it can and cannot settle |
 
 `kind` is a **list**, because question 1's hard cases are real: the Septuagint is recorded as both
-`witness` and `translation`, which is precisely the point made above — Greek, a translation out of
-Hebrew, and still our earliest witness to a Hebrew text older than any Hebrew manuscript we hold.
+`witness` and `translation`, the case question 1 describes.
 
-**There is deliberately no "primary / secondary / tertiary" ranking.** It is the obvious shape and
-it does not survive contact with the material. It mixes what a thing *is* with how far it sits from
+**There is deliberately no "primary / secondary / tertiary" ranking.**It mixes what a thing *is* with how far it sits from
 the original: a concordance is not a source but an index over one, and Strong's (1890) and TWOT
 (1980) feel primary because they sit close to the words while being late reference works. More
-fundamentally, that ranking is a property of **the question, not the source** — 1 Enoch is a primary
+fundamentally, that ranking is a property of **the question, not the source**: 1 Enoch is a primary
 source for Second Temple Judaism and a contextual one for reading Jude; Eusebius is primary for
 fourth-century church history and tertiary for Acts. A fixed field would answer confidently and
 wrongly. The axes above stay stable whatever is being asked.
 
-Every entry must record `limits`, and a build check fails if one does not — every source has some,
+Every entry must record `limits`, and a build check fails if one does not. Every source has some,
 and a profile claiming none has not been thought about. The same check fails if a source's stated
 `edition` is not one of the five in question 2, which keeps this page and the data from drifting
 apart.
@@ -130,22 +127,22 @@ apart.
 | **ULT** — unfoldingWord Literal Text | 2019–, ongoing | Formal equivalence, built as the literal half of a translation-training pair (with the UST, which we do not hold) | **The only text here that records which original word each English word renders** — every word is wrapped in an alignment frame naming the Hebrew or Greek behind it, which is what makes `bible_interlinear` possible and is the cheapest guard against building a point on a translator's choice. Openly licensed (CC BY-SA 4.0) and fully queryable | Designed as a translation tool rather than a reading Bible, so its English is deliberately stiff — closer to YLT than to ESV in feel. Its Old Testament aligns to the UHB and its New Testament to the UGNT, not to the WLC and SBLGNT this project treats as primary, so confirm wording against `bible_verse` before resting an argument on it. **Not a quotation source** — the site quotes ESV by default | ✅ `uw-ult` |
 
 !!! note "Also on hand for comparison"
-    `bible-text.db` also carries **JPS** (Jewish Publication Society OT, useful for a Jewish-tradition reading alongside the Christian translations above), **BSB** (Berean Standard Bible, CC0, modern and readable), **Darby**, **Douay-Rheims**, and about two dozen other public-domain English editions via the Scrollmapper fork. None of these carry the weight ESV/NASB/NIV/NLT/WEB/ASV/YLT do in our actual studies, but they're there — see [Public Data Sources](../resources/public-data-sources.md) for the full list.
+    `bible-text.db` also carries **JPS** (Jewish Publication Society OT, useful for a Jewish-tradition reading alongside the Christian translations above), **BSB** (Berean Standard Bible, CC0, modern and readable), **Darby**, **Douay-Rheims**, and about two dozen other public-domain English editions via the Scrollmapper fork. None of these carry the weight ESV/NASB/NIV/NLT/WEB/ASV/YLT do in our studies. See [Public Data Sources](../resources/public-data-sources.md) for the full list.
 
 ## What the philosophies actually do: two worked examples
 
 The table above describes translation philosophies in the abstract. Here is what they do to two
-verses this site's own studies rest on. Both were checked against the databases described below
-rather than recalled, and every rendering quoted is a fragment of a single verse.
+verses this site's own studies rest on. Both were checked against the databases described below,
+and every rendering quoted is a fragment of a single verse.
 
 ### Old Testament — Song of Songs 8:6, and whether God is named
 
 The verse ends with four Hebrew words: <span dir="rtl">אֵשׁ</span> (*esh*, H784, "fire"),
 <span dir="rtl">שַׁלְהֶבֶת</span> (*shalhevet*, H7957, "flame"), and
-<span dir="rtl">יָה</span> (*Yah*, H3050) — the shortened form of the divine name. The question is
+<span dir="rtl">יָה</span> (*Yah*, H3050), the shortened form of the divine name. The question is
 whether that last syllable names God or works as a Hebrew superlative, the way "mountains of God"
 can mean "mighty mountains". The Song never mentions God anywhere else, so the decision determines
-whether the book names him once or not at all.
+whether the book names Him once or not at all.
 
 Translations split, and the split is invisible unless you line them up:
 
@@ -159,7 +156,7 @@ Translations split, and the split is invisible unless you line them up:
 | YLT — "a flame of Jah!" | Geneva (1599) — "vehement flame" |
 | JPS — "a very flame of HaShem" | |
 
-A reader of the CSB and a reader of the ESV are not reading the same claim about this verse. Only the
+A reader of the CSB and a reader of the ESV are reading different claims about this verse. Only the
 LSB prints the name itself rather than the substitute "LORD", which is the case for keeping it on the
 shelf when the covenant name is the point.
 
@@ -175,7 +172,7 @@ that the question is live.**
 Through John 6 Jesus uses the ordinary verb for eating, ἐσθίω (*esthiō*, G5315), eleven times: the
 crowd ate the loaves, the fathers ate manna, "unless you eat the flesh of the Son of Man" (6:53). At
 verse 54 he switches to τρώγω (*trōgō*, G5176) and stays with it for the rest of the discourse. The
-lexicon separates them — Louw-Nida puts ἐσθίω at 23.1 and τρώγω at 23.3, alongside γεύομαι ("taste", G1089)
+lexicon separates them: Louw-Nida puts ἐσθίω at 23.1 and τρώγω at 23.3, alongside γεύομαι ("taste", G1089)
 and βιβρώσκω, the chewing-and-consuming end of the range. Verse 58 uses both in one sentence: the
 fathers *ate* (ἔφαγον) and died; whoever *feeds on* (τρώγων) this bread will live.
 
@@ -186,13 +183,12 @@ Of every translation on this page, one marks the change:
 | **ESV** | "Whoever **feeds on** my flesh…" |
 | NASB 1995/2020, **LSB**, NIV, NKJV, CSB, NLT, WEB, ASV, YLT, BSB | "…**eats** my flesh…" |
 
-The ESV stands alone. Worth noticing which translations do not: the NASB and LSB are the most
+The ESV stands alone. The NASB and LSB are the most
 formally equivalent versions here, and both flatten a distinction the ESV keeps. **A translation's
-stated philosophy predicts its general behaviour, not its decision at any particular verse** — which
-is the whole argument for checking a verse rather than trusting a label.
+stated philosophy predicts its general behaviour, not its decision at any particular verse.**
 
 !!! note "A correction this site had to make"
-    An earlier draft of one study asserted the opposite — that the ESV *obscures* John's
+    An earlier draft of one study asserted the opposite: that the ESV *obscures* John's
     ἐσθίω→τρώγω shift. It renders every occurrence "feeds on"; the claim was written from memory and
     was wrong in the exact direction that flattered the argument. It is recorded in
     [AGENTS.md](https://github.com/ding0t/bible_studies/blob/main/AGENTS.md) as the reason
@@ -210,7 +206,7 @@ is the whole argument for checking a verse rather than trusting a label.
 !!! tip "New to lemmas, parsing and semantic domains?"
 
     This page is about which *text* to trust. [Reading the Original-Language
-    Data](original-language-data.md) is about the annotation attached to those texts — what MACULA
+    Data](original-language-data.md) is about the annotation attached to those texts: what MACULA
     is, and what a lemma, a Strong's number, a morphology code and a semantic domain each mean, with
     Genesis 1:1 shown at every layer.
 
@@ -221,17 +217,16 @@ is the whole argument for checking a verse rather than trusting a label.
     *what is this English word actually translating*. That is the question behind most word studies,
     and one this project previously had no way to answer without judgement.
 
-    Two cautions. The mapping is genuinely many-to-many: Genesis 1:1's "the heavens" renders both
+    Two cautions. The mapping is many-to-many: Genesis 1:1's "the heavens" renders both
     <span dir="rtl">אֵת</span> and <span dir="rtl">הַשָּׁמַיִם</span>, since the Hebrew object marker has no English of its own. And ULT is one
-    literal translation, so it tells you what ULT chose, not what the word must mean — for that,
+    literal translation, so it tells you what ULT chose, not what the word must mean. For that,
     look the lemma up.
 
 ## Hebrew New Testaments — translations, not witnesses
 
 Both are in Hebrew and neither is a Hebrew witness: they are 19th-century renderings **out of
 Greek**, made long after the New Testament was written. They sat under *Hebrew Old Testament* on
-this page until 2026-09-05, which is precisely the confusion the three questions above exist to
-prevent.
+this page until 2026-09-05.
 
 | Text | Date | What it is | Strengths | Cautions | Tracked here |
 |---|---|---|---|---|---|
@@ -240,9 +235,9 @@ prevent.
 
 !!! note "Two Hebrew New Testaments, and what they can and cannot settle"
 
-    Delitzsch and Salkinson-Ginsburg are independent 19th-century translations of the Greek into Hebrew, and they differ in every verse. That disagreement is the point: where they diverge, a Hebrew rendering is the translator's judgement rather than something the Greek compels. Neither is a witness to a Hebrew original, and no ancient Hebrew New Testament manuscript exists — the earliest Hebrew gospel witnesses (Shem Tov, Du Tillet, Münster) are medieval, and the Cochin manuscript Cambridge holds is an 18th-century Hebrew Matthew its own catalogue describes as made for polemical purposes.
+    Delitzsch and Salkinson-Ginsburg are independent 19th-century translations of the Greek into Hebrew, and they differ in every verse. That disagreement is the point: where they diverge, a Hebrew rendering is the translator's judgement rather than something the Greek compels. No ancient Hebrew New Testament manuscript exists. The earliest Hebrew gospel witnesses (Shem Tov, Du Tillet, Münster) are medieval, and the Cochin manuscript Cambridge holds is an 18th-century Hebrew Matthew its own catalogue describes as made for polemical purposes.
 
-    A live question sits alongside that. Some readings in these Hebrew editions have no counterpart in the Greek, and there is an argument that the earliest printings of Salkinson-Ginsburg carried readings later editions removed. Second Thessalonians 2:7 is the case that matters most here, since the identity of the restrainer bears on [the rapture study](../last-things/rapture.md). What our copy actually reads at that verse is recorded in `references/README.md`, dated, so the claim can be tested against a specific text instead of a recollection.
+    A live question sits alongside that. Some readings in these Hebrew editions have no counterpart in the Greek, and there is an argument that the earliest printings of Salkinson-Ginsburg carried readings later editions removed. Second Thessalonians 2:7 is the case that matters most here, since the identity of the restrainer bears on [the rapture study](../last-things/rapture.md). What our copy actually reads at that verse is recorded in `references/README.md`, dated, so the claim can be tested against a specific text.
 
 ## Greek New Testament
 
@@ -261,9 +256,8 @@ The table above is a catalogue: it says what each text is, but not how they rela
 Ken Johnson (Bible Facts) maps that relation as three lines descending from the original, in a study
 introducing his verse-by-verse work on the Hebrew Thessalonians
 ([video](https://www.youtube.com/live/AN8EWx822pM)). It is redrawn here with his own spoken dates,
-because the shape is a useful map of the disagreement even where his argument is contested. A reader
-meeting "Textus Receptus" and "critical text" in the table deserves to know they are the endpoints
-of a live dispute rather than two neutral options.
+because the shape is a useful map of the disagreement even where his argument is contested. In the
+table, "Textus Receptus" and "critical text" are the endpoints of a live dispute.
 
 ```mermaid
 flowchart LR
@@ -291,19 +285,18 @@ translation from Greek, which he concedes freely. A subset carries readings that
 does not explain. Some of them are *anti*-Catholic, which would have made an inquisition worse
 rather than deflected one. They appear at the same places across independent manuscript families.
 And church fathers who predate every surviving manuscript quote them. Hence "Received Text **plus**"
-rather than a fourth text-type. That last argument is the strongest part of his case: it is a
-genuine falsification of the usual explanation for those particular readings, rather than an appeal
-to preference.
+rather than a fourth text-type. That last argument is the strongest part of his case: it
+falsifies the usual explanation for those particular readings.
 
 **Where it is contested, and this site does not follow him.** *"The critical text is the Received
 Text with material cut out"* is the disputed question stated as a premise. The mainstream reading
-runs the other way — that the Byzantine text is the later and fuller one — and neither direction can
+runs the other way: the Byzantine text is the later and fuller one. Neither direction can
 be assumed from the diagram. His attribution of the first line to Lucian also conflates two things:
 Lucian of Antioch died in 312, not the mid-second century, and the "Lucianic recension" is a
 proposal about text-type whose attribution is itself debated, not an account of who assembled the
 canon.
 
-**What he explicitly does not claim.** Not Hebrew primacy — *"we don't want to argue that the Greek
+**What he explicitly does not claim.** Not Hebrew primacy: *"we don't want to argue that the Greek
 or the Hebrew or the Aramaic is the original."* He suggests Matthew and Paul may have written in
 more than one language, and warns against the fallacy in both directions: a shorter text is not
 automatically earlier, and a longer one is not either. The third line above bears on
@@ -327,10 +320,10 @@ caution applies.
     divides differently again at each end: the Septuagint follows the English break at 3/4 and the
     Hebrew one at 5/6.
 
-    The repo resolves this rather than leaving it to memory. Every work in `bible-text.db` records which scheme it uses, and `uv run python query.py align Joel 2 28` reports a reference as each scheme numbers it. Verse lookups align automatically; see [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) for the cases that are deliberately left unmapped because no correspondence can be established.
+    The repo resolves this. Every work in `bible-text.db` records which scheme it uses, and `uv run python query.py align Joel 2 28` reports a reference as each scheme numbers it. Verse lookups align automatically; see [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) for the cases that are deliberately left unmapped because no correspondence can be established.
 
 !!! note "Why isn't the Septuagint's *text* alongside its lemma tooling?"
-    `GreekResources` (our lemma/lookup fork for LXX word studies) deliberately ships without the LXX text itself — its own maintainers exclude it because the standard CATSS source is restrictively licensed, and we followed that same discipline rather than bundling in a text we couldn't verify the rights to. Brenton's edition above fills that gap with a text we've independently confirmed is public domain.
+    `GreekResources` (our lemma/lookup fork for LXX word studies) deliberately ships without the LXX text itself. Its own maintainers exclude it because the standard CATSS source is restrictively licensed, and we followed the same discipline. Brenton's edition above fills that gap with a text we've independently confirmed is public domain.
 
 ### Three Old Testament lines, as Ken Johnson frames them
 
@@ -366,50 +359,49 @@ both axes. (His slide dates the Masoretic line "~700 BC"; his spoken date is AD 
 one to read.)
 
 **What checks out here.** The genealogical divergence is real and queryable in this repo: at Genesis
-5:3 Brenton's Septuagint reads *τριάκοντα καὶ διακόσια* — 230 years to Seth's birth — where the
+5:3 Brenton's Septuagint reads *τριάκοντα καὶ διακόσια* (230 years to Seth's birth) where the
 Hebrew reads 130. [Genealogy and the Age of the Earth](../chronology/genealogy-times.md) tables all
 three traditions generation by generation. And on the one verse of Genesis 5 the scrolls actually
 preserve, his dates column holds: 4Q2 at Genesis 5:13 reads *eight hundred and forty*, siding with
 the Masoretic against the Septuagint's 740.
 
 **Where the diagram is tidier than the evidence.** That last check is also the problem with it. The
-biblical scrolls preserve **one verse of Genesis 5 and none of Genesis 11** — so whatever recommends
-their chronology, it is not their coverage of the genealogies, and a verdict of "dates correct"
+biblical scrolls preserve **one verse of Genesis 5 and none of Genesis 11**, so a verdict of "dates correct"
 rests on a single fragmentary line. "Uncorrupted" needs the same caution the Dead Sea Scrolls row
 above records: 31.8% of words in this corpus carry an editorial mark, and a bracketed reading is a
 modern editor's reconstruction.
 
-The "agrees with Paul" axis has also now been enumerated rather than estimated. Of the 140 strong
+The "agrees with Paul" axis has also now been enumerated. Of the 140 strong
 New Testament quotations of the Old that this repo derives, **eighteen land on a verse where a
 scroll also differs from the Masoretic.** Read one at a time, **one of those eighteen is a case
 where the scroll supplies the reading the New Testament follows.** That one is Isaiah 61:1, where
 1QIsaa carries the single divine name Luke 4:18 and the Septuagint have, against the Masoretic's
-double — and even there 4Q56 and 4Q66 keep the Masoretic reading. Two of the most quoted verses run
+double. Even there, 4Q56 and 4Q66 keep the Masoretic reading. Two of the most quoted verses run
 the other way outright. At Isaiah 53:1 the *"Lord"* that John 12:38 opens with is a Septuagint plus
 that all three scrolls lack. At Isaiah 7:14 the scroll reads *he shall call*, where the Masoretic
 has *she shall call* and Matthew has *they shall call*. The scroll differs from the Masoretic, and
 not in Matthew's direction.
 
-The deeper issue is that the two axes do not partition together. At Deuteronomy 32:8 the scroll
+The two axes do not partition together. At Deuteronomy 32:8 the scroll
 reads *sons of God* against the Masoretic *sons of Israel*, siding with the New Testament; at
-Genesis 5:13 the same corpus sides with the Masoretic on a number. Qumran is textually plural —
-some scrolls are proto-Masoretic, some stand behind the Septuagint, some are independent — and that
-plurality is the discovery rather than a fault in one column. Two further details resist the tidy
+Genesis 5:13 the same corpus sides with the Masoretic on a number. Qumran is textually plural:
+some scrolls are proto-Masoretic, some stand behind the Septuagint, some are independent. That
+plurality is the discovery. Two further details resist the tidy
 split: AD 700 is when the Masoretes added vowel points, not when their consonantal text began, since
 that text is attested at Qumran centuries earlier; and his own headline case, Hebrews 10:5, is
 explained by the Septuagint alone with no scroll required.
 
 ## Why the "main" translations aren't in `bible-text.db`
 
-It's not an oversight that ESV, NASB, NIV, and NLT — the four translations we quote most in prose — are missing from `bible-text.db`, the ✅ database. They're commercially copyrighted, and Crossway/Lockman/Biblica/Tyndale's permissions policies allow generous quotation (a study citing a verse or a short passage with attribution is exactly the intended use) but not bulk redistribution into a database anyone could dump wholesale. WEB, ASV, and YLT exist in our own database specifically so we always have *something* fully open to fall back on — for concordance searches, cross-reference generation, or any use that would otherwise require copying a commercial text at scale.
+ESV, NASB, NIV, and NLT, the four translations we quote most in prose, are missing from `bible-text.db`, the ✅ database. They're commercially copyrighted, and Crossway/Lockman/Biblica/Tyndale's permissions policies allow generous quotation (a study citing a verse or a short passage with attribution is the intended use) but not bulk redistribution into a database anyone could dump wholesale. WEB, ASV, and YLT exist in our own database specifically so we always have *something* fully open to fall back on: concordance searches, cross-reference generation, or any use that would otherwise require copying a commercial text at scale.
 
 All four get the same narrower exception, marked 🔒 above rather than ❌. Each one's verse text is a
 byproduct of a commercial study Bible loaded into `study-notes.db`, or for NASB a standalone
 edition: `esv-study-bible`; `niv-cultural-backgrounds-study-bible` / `niv-biblical-theology-study-
 bible`; `nlt-life-application-study-bible` / `nlt-christian-basics-bible`; `nasb-1995` /
-`nasb-2020`. Each is queryable there for the one purpose that license permits — checking a quotation
-against source before publishing it, rather than bulk concordance work.
+`nasb-2020`. Each is queryable there for the one purpose that license permits: checking a quotation
+against source before publishing it.
 
-NASB is the one to treat more cautiously even within that 🔒 tier. ESV, NIV, and NLT all carry a stated safe-harbor (500–1,000 verses / 25–50% of a work, see the permissions table in [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md)) — quote a verse or two in a study and you're comfortably inside it. NASB's own permission notice states no such threshold at all; Lockman's language requires quotation and reprint requests to be "directed to and approved in writing." Being 🔒-tracked here means an NASB quotation can be *verified* against source instead of trusted from memory — it doesn't mean the safe-harbor reasoning that applies to the other three translations extends to NASB.
+NASB is the one to treat more cautiously even within that 🔒 tier. ESV, NIV, and NLT all carry a stated safe-harbor (500–1,000 verses / 25–50% of a work, see the permissions table in [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md)). Quote a verse or two in a study and you're comfortably inside it. NASB's own permission notice states no such threshold at all; Lockman's language requires quotation and reprint requests to be "directed to and approved in writing." Being 🔒-tracked here means an NASB quotation can be *verified* against source instead of trusted from memory. It doesn't mean the safe-harbor reasoning that applies to the other three translations extends to NASB.
 
 Reach for the 🔒 translations when writing for a reader (verify against `study-notes.db` first, and for NASB specifically don't lean on a verse-count safe harbor that doesn't exist); reach for the ✅ ones when writing a query.

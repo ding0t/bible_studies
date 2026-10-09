@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 24:27"
 bible_references: ["Micah 5:2", "Matthew 2:1-6", "2 Samuel 5:2", "Isaiah 53:5", "Isaiah 53:9", "Psalm 22:16-18", "John 19:23-24", "Matthew 27:57-60", "Daniel 9:24-27", "Luke 19:41-44", "Matthew 24:1-2", "Matthew 24:33-34", "Matthew 24:14-15", "Matthew 24:21", "Matthew 24:34", "Mark 13:1-8", "Mark 13:14-27", "Mark 13:32", "1 Thessalonians 4:16-17", "1 Thessalonians 5:9", "Revelation 19:11-16", "Revelation 20:1-6", "Colossians 2:16-17"]
 date_created: 2026-07-24
-date_modified: 2026-10-04
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -19,8 +19,7 @@ ai_provider_models:
 Two very different readers pick up this page. One already believes and wants to know why prophecy
 is worth her time beyond curiosity about the future. The other doesn't believe yet, and has heard
 "Bible prophecy" used as a synonym for reading tea leaves. Both get the same material here, because
-the case for both is the same case: prophecy already kept, checked against source rather than
-assumed, and a plain statement of what Scripture says is still to come.
+the case for both is the same case: prophecy already kept and checked against source, then a plain statement of what Scripture says is still to come.
 
 **In one sentence:** God has already kept specific, checkable prophecies about Jesus — His birthplace, His death and burial, the week of His entry as king, and Jerusalem's fall — and the same God has said what is still ahead: Daniel's seventieth week, the rapture of the church and Christ's thousand-year reign.
 
@@ -36,20 +35,18 @@ text, and checked against a fulfilment recorded later and independently.
 Micah names Bethlehem as the Messiah's birthplace roughly 700 years early. Isaiah and the Psalms
 describe the manner of his death centuries before Rome existed to crucify anyone. Daniel's angel
 gives Israel a countable number of years to "an anointed one". And Jesus predicts the temple's fall,
-which came within his hearers' own lifetime. None of this is typology dressed up as prediction -- see
-[Historically fulfilled prophecy](#historically-fulfilled-prophecy-not-by-squinting) below for why
-each one is checked, not asserted.
+which came within his hearers' own lifetime. [Historically fulfilled prophecy](#historically-fulfilled-prophecy-not-by-squinting) below
+checks each one against its source.
 
 ### Lessons about Jesus
 
-- Every Old Testament prophecy this study checks converges on him -- birthplace, manner of death,
-  and the very week of his public presentation as king, all named centuries before he was born
+- Every Old Testament prophecy this study checks converges on Him: His birthplace, the manner of His death,
+  and the very week of His public presentation as king, all named centuries before He was born
   (Luke 24:27).
-- He predicted his own generation's defining catastrophe -- Jerusalem's fall -- plainly enough that
-  a first-century reader could act on it, and it happened within his hearers' lifetime, not vaguely
-  "someday" (Luke 19:41-44).
-- The same pattern that already ran to completion once -- a specific word, kept exactly -- is what
-  Scripture asks a reader to trust for what hasn't happened yet.
+- He predicted Jerusalem's fall plainly enough that a first-century reader could act on it, and it
+  happened within His hearers' lifetime (Luke 19:41-44).
+- God has already kept a specific word once, in full. Scripture asks you to trust the same God for
+  what hasn't happened yet.
 
 ### Memory verses
 
@@ -73,24 +70,21 @@ each one is checked, not asserted.
 
 - **Think.** Notice the difference between a prophecy that's *checked* against an independent
   fulfillment and one that's merely *asserted*. A reader who has never verified this for themselves
-  is trusting someone else's homework -- this study hands back the primary texts so that doesn't
-  have to continue.
-- **Attitude.** Jesus's own instruction for a future no one can calculate the timing of isn't
-  anxiety -- it's readiness (Matthew 24:42-44, already studied in depth in
+  is trusting someone else's homework. The primary texts are below: check them yourself.
+- **Attitude.** Jesus's own instruction for a future no one can calculate the timing of is
+  readiness (Matthew 24:42-44, already studied in depth in
   [The Olivet Discourse](olivet-discourse.md#what-ready-actually-means)). The same posture applies to everything below that hasn't
   happened yet.
-- **Do.** If the fulfilled cases below hold up under checking -- and they're presented so a skeptical
-  reader can check them -- that's something worth handing to someone who doesn't yet believe, not
-  keeping for private reassurance only.
+- **Do.** If the fulfilled cases below hold up when you check them, hand them to someone who doesn't
+  yet believe.
 
 ### Prayer
 
 Father, you named Bethlehem before there was a road to it worth naming, and you kept your word to
-the week. Thank you that the case for trusting what you've said about what's still ahead doesn't
-rest on taking it on faith alone -- you've already shown your hand once, in the open, checkable by
-anyone willing to look. Give me the same readiness you asked of the first disciples: not
+the week. You've already shown your hand once, in the open, checkable by anyone willing to look,
+so I can trust what you've said about what's still ahead. Give me the same readiness you asked of the first disciples: not
 calculating a date, but living each day as though the King who kept every word so far is the same
-King who's coming. Amen.
+King who's coming. In Jesus' name. Amen.
 
 ## Study outline
 
@@ -104,29 +98,27 @@ King who's coming. Amen.
 
 ## Why prophecy matters
 
-Prophecy isn't a side genre in Scripture. J. Barton Payne's *Encyclopedia of Biblical Prophecy*
-(1973) counted 8,352 verses containing predictive material out of the Bible's roughly 31,000 --
-about 27%, a figure worth citing precisely rather than repeating the rounder, uncited "most of the
-Bible is prophecy" claim this study used to make. More than a quarter of Scripture is concerned with
-telling readers what God is going to do before he does it.
+J. Barton Payne's *Encyclopedia of Biblical Prophecy*
+(1973) counted 8,352 verses containing predictive material out of the Bible's roughly 31,000,
+about 27%. More than a quarter of Scripture is concerned with
+telling readers what God is going to do before He does it.
 
-That matters for a few distinct reasons, not one:
+That matters for four reasons:
 
 - **It's how the Bible authenticates itself.** A book that gets specific, checkable predictions right
-  -- not vague, adjustable-after-the-fact impressions, but names, places, and time spans -- is making
+  (names, places and time spans) is making
   a claim no other ancient religious text makes at the same scale. [Historically fulfilled
-  prophecy](#historically-fulfilled-prophecy-not-by-squinting) below is the evidence for that claim,
-  not an assertion of it.
-- **It gives believers a future worth encouraging each other with**, not a vague hope. Paul tells the
+  prophecy](#historically-fulfilled-prophecy-not-by-squinting) below gives the evidence for that claim.
+- **It gives believers a future to encourage each other with.** Paul tells the
   Thessalonians to comfort one another with the specifics of the resurrection and the rapture
-  (1 Thessalonians 4:18) -- the details matter because they're what's actually being promised.
+  (1 Thessalonians 4:18). The details matter because they are what is promised.
 - **It's the test Jesus himself pointed to.** "Beginning with Moses and all the Prophets, he
-  interpreted to them in all the Scriptures the things concerning himself" (Luke 24:27, ESV) --
-  Jesus treats his own identity as something the Hebrew Bible had already been telling readers to
-  expect, not something invented after the fact and read backward into it.
+  interpreted to them in all the Scriptures the things concerning himself" (Luke 24:27, ESV).
+  Jesus treats His own identity as something the Hebrew Bible had already been telling readers to
+  expect.
 - **It warns against deception.** Both Testaments treat "many will come... and will lead many astray"
-  (Matthew 24:5) as itself a predicted feature of the last days -- part of the reason to know the
-  real pattern in advance is so a counterfeit is recognizable as one.
+  (Matthew 24:5) as itself a predicted feature of the last days. Knowing the real pattern in advance
+  lets you recognize a counterfeit.
 
 ## Jesus is the key to all prophecy
 
@@ -135,18 +127,16 @@ That matters for a few distinct reasons, not one:
 > 27 And beginning with Moses and all the Prophets, he interpreted to them in all the Scriptures the
 > things concerning himself.
 
-This is Jesus himself, on the road to Emmaus, the same day he rose. He doesn't cite a handful of
-proof texts -- he claims that Moses and *all* the Prophets, read rightly, were already telling this
-story. That claim is testable, which is exactly what the next section does with it: not a handful of
-loosely-fitting allusions, but specific, verifiable predictions, checked here against source rather
-than taken on the claim's own word.
+This is Jesus Himself, on the road to Emmaus, the same day He rose. He claims that Moses and *all*
+the Prophets, read rightly, were already telling this story. That claim is testable, and the next
+section tests it with specific, verifiable predictions checked against source.
 
 ## Historically fulfilled prophecy: not by squinting
 
-A skeptical reader is right to distrust "fulfilled prophecy" lists that work by vague resemblance --
+A skeptical reader is right to distrust "fulfilled prophecy" lists that work by vague resemblance:
 a psalm about anyone's suffering "could" describe anyone's suffering. The cases below were chosen
 and checked differently: each rests on a specific, dated prediction, an independently verifiable
-Hebrew or Greek text (queried directly from source for this study, not recalled from memory), and a
+Hebrew or Greek text, and a
 fulfillment that doesn't require squinting to see.
 
 ### The Messiah's birthplace, named roughly 700 years early
@@ -157,16 +147,16 @@ fulfillment that doesn't require squinting to see.
 > shall come forth for me one who is to be ruler in Israel, whose coming forth is from of old, from
 > ancient days.
 
-Micah prophesied in the 8th century BC, under Hezekiah -- roughly seven centuries before the
+Micah prophesied in the 8th century BC, under Hezekiah, roughly seven centuries before the
 event. **Ruler** translates <span dir="rtl">מוֹשֵׁל</span> (*moshel*, H4910, from the verb "to
-rule"); Bethlehem's insignificance is stated plainly -- **too little**
+rule"). Micah calls Bethlehem **too little**
 (<span dir="rtl">צָעִיר</span>, *tsa'ir*, H6810) among Judah's clans, the small town passed over
 for Jerusalem in every ordinary political calculation. **From of old, from ancient days**
 (<span dir="rtl">מִקֶּדֶם מִימֵי עוֹלָם</span>) needs precision here. TWOT glosses <span
 dir="rtl">עוֹלָם</span> (*olam*, H5769, root 1631a) conservatively, as "long duration" rather than
 "eternity" outright. The phrase marks this ruler's origin as extraordinarily ancient. That is
 suggestive alongside everything else Scripture says about the Messiah's deity. But the deity claim
-rests on other texts, not on this word.
+rests on other texts.
 
 > ✝️ Matthew 2:5-6 (ESV)
 >
@@ -174,21 +164,21 @@ rests on other texts, not on this word.
 > O Bethlehem, in the land of Judah, are by no means least among the rulers of Judah; for from you
 > shall come a ruler who will shepherd my people Israel.'"
 
-Matthew's quotation isn't a word-for-word reproduction of Micah 5:2. "Who will shepherd my people Israel" comes from a different verse
-entirely -- Nathan's word to David, "you shall be shepherd of my people Israel, and you shall be
+Matthew's quotation joins Micah 5:2 to a second verse. "Who will shepherd my people Israel" comes from
+Nathan's word to David, "you shall be shepherd of my people Israel, and you shall be
 prince over Israel" (2 Samuel 5:2, ESV). The chief priests and scribes (Matthew 2:4-6) are shown
-deliberately reading Micah's birthplace prophecy together with David's own shepherd-king language --
+deliberately reading Micah's birthplace prophecy together with David's own shepherd-king language,
 a standard first-century Jewish exegetical move (linking two texts sharing a common phrase or theme,
 later formalized as *gezerah shavah*), not a misquotation. The prediction being fulfilled is still
-Micah's -- an identifiable, small, named town, centuries in advance -- with David's shepherd
-language deliberately laid alongside it by the very religious authorities who had every incentive
-not to hand Herod a location if they could avoid it (Matthew 2:16).
+Micah's: an identifiable, small, named town, centuries in advance. The religious authorities laid
+David's shepherd language alongside it themselves, and they had every incentive not to hand Herod a
+location if they could avoid it (Matthew 2:16).
 
 ### The manner of his suffering, written before crucifixion existed as a punishment for a Jew
 
 Isaiah wrote in the 8th century BC; the Psalm below is traditionally Davidic, 10th century BC.
 Crucifixion as the Romans practiced it on provincial subjects didn't exist yet in either writer's
-world -- Rome's rise, and its adoption of that particular Persian/Carthaginian-derived punishment,
+world. Rome's rise, and its adoption of that particular Persian/Carthaginian-derived punishment,
 was still centuries away.
 
 #### Isaiah 53: pierced, and buried with a rich man
@@ -200,8 +190,8 @@ was still centuries away.
 
 **Pierced** translates <span dir="rtl">מְחֹלָל</span> (*mecholal*, H2490a), from a Hebrew root that Strong's number H2490
 happens to share with a completely different word, "to profane." TWOT splits the homonyms into
-separate roots -- **660**, "bore, pierce," is the one active here, distinct from **661**, "pollute" --
-so this is a real, physical wounding, not a metaphor for ordinary suffering.
+separate roots: **660**, "bore, pierce," is the one active here, and **661** is "pollute".
+So this is a real, physical wounding.
 
 > ✝️ Isaiah 53:9 (ESV)
 >
@@ -209,9 +199,8 @@ so this is a real, physical wounding, not a metaphor for ordinary suffering.
 > no violence, and there was no deceit in his mouth.
 
 A specific, checkable detail: an innocent man's grave shared with **a rich man**
-(<span dir="rtl">עָשִׁיר</span>, *ashir*). The Gospels record exactly that. "There came a rich man from Arimathea, named Joseph... and laid it
-in his own new tomb" (Matthew 27:57, 60, ESV). Jesus was buried in a wealthy disciple's tomb rather
-than a common grave.
+(<span dir="rtl">עָשִׁיר</span>, *ashir*). The Gospels record it. "There came a rich man from Arimathea, named Joseph... and laid it
+in his own new tomb" (Matthew 27:57, 60, ESV). Jesus was buried in a wealthy disciple's tomb.
 
 Isaiah had no need to include that detail if he was describing generic suffering.
 
@@ -223,20 +212,18 @@ Isaiah had no need to include that detail if he was describing generic suffering
 > feet — 17 I can count all my bones — they stare and gloat over me; 18 they divide my garments
 > among them, and for my clothing they cast lots.
 
-This is the single most instructive case for a skeptical reader, because a real textual difficulty
-sits at its centre. Queried directly against the Masoretic Text (WLC), the Hebrew consonants at
+A real textual difficulty sits at the centre of this case. In the Masoretic Text (WLC), the Hebrew consonants at
 verse 17 (Hebrew numbering; English v. 16) read <span dir="rtl">כָּ֝אֲרִ֗י</span> (*ka'ari*), "like
-a lion". That leaves the clause with no verb — "like a lion, my hands and my feet" — an awkward,
+a lion". That leaves the clause with no verb ("like a lion, my hands and my feet"), an awkward,
 incomplete sentence on its own terms. Checked against the Greek Septuagint
 (Brenton's edition, translated some two centuries before Christ) at the parallel verse: **ὤρυξαν
-χεῖράς μου, καὶ πόδας** -- "they have pierced my hands and feet," a complete, sensible clause. That
+χεῖράς μου, καὶ πόδας**, "they have pierced my hands and feet," a complete, sensible clause. That
 Greek translation existed roughly two hundred years before crucifixion was ever inflicted on a Jew,
 which rules out the charge that Christians edited the text after the fact to fit Jesus's death. The
-ESV itself follows this reading, "they have pierced my hands and feet" -- a translator's decision,
-named here rather than left silent, in favor of the sense that gives a working sentence over the one
-that doesn't.
+ESV follows this reading, "they have pierced my hands and feet". That is a translator's decision, made
+in favor of the sense that gives a working sentence.
 
-Verse 18 is more specific still. Soldiers **casting lots** for a victim's clothing is exactly what
+Verse 18 is more specific still. Soldiers **casting lots** for a victim's clothing is what
 John's Gospel records at the crucifixion, and records independently. "They took his garments and divided them into
 four parts... they said to one another, 'Let us not tear it, but cast lots for it
 to see whose it shall be.' This was to fulfill the Scripture which says, 'They divided my garments
@@ -244,7 +231,7 @@ among them, and for my clothing they cast lots'" (John 19:23-24, ESV, quoting Ps
 
 #### Psalm 22 as lament: a contested reading
 
-**Worth naming plainly:** not every scholar reads Psalm 22 as a direct, predictive prophecy of the
+Not every scholar reads Psalm 22 as a direct, predictive prophecy of the
 crucifixion. The ESV Study Bible's own note treats it primarily as an individual lament from an
 innocent sufferer, with the Gospels applying its language to Jesus as the innocent sufferer *par
 excellence* rather than the psalm being written as a forecast in the first place. Both readings leave the same hard evidence on the table. A specific method of execution. A specific
@@ -259,16 +246,13 @@ history](prophecy-events-times.md), with independently-dated Persian court recor
 decree in Artaxerxes' twentieth year (Nehemiah 2:1-8), a reign the Elephantine papyri date
 independently, run through Daniel 9:25's stated 69 "weeks" of years, lands within days of the week
 Jesus rode into Jerusalem as king: AD 33 on Harold Hoehner's reckoning from 444 BC, which this site
-follows (Sir Robert Anderson's from 445 BC reaches AD 32). Not a
-different century. Not off by a generation. That page gives the full case, including where the
-calculation is genuinely disputed (the exact day) and where it isn't (the shape of the result). This
-study doesn't re-derive that math; see [Prophecy yet to come](#prophecy-yet-to-come) below for the
+follows (Sir Robert Anderson's from 445 BC reaches AD 32). That page gives the full case, including where the
+calculation is disputed (the exact day) and where it isn't (the shape of the result). See [Prophecy yet to come](#prophecy-yet-to-come) below for the
 seventieth week that page stops short of, which is still future.
 
 ### Jesus's own prophecy, fulfilled within his hearers' lifetime
 
-This last case is different in kind from the others: not an Old Testament prediction fulfilled in
-Jesus, but Jesus's own prediction, checked against secular history.
+This last case is Jesus's own prediction, checked against secular history.
 
 > ✝️ Luke 19:41-44 (ESV)
 >
@@ -288,11 +272,10 @@ Jesus, but Jesus's own prediction, checked against secular history.
 It happened in AD 70, within the lifetime of people who heard him say it. Titus's legions besieged
 Jerusalem, breached the walls, and burned the temple to the ground. Josephus watched it from the
 Roman side, and records the fire and the systematic dismantling of the city that followed
-(*The Jewish War*, Book 6). A common objection has a direct answer
-rather than ignoring: the Western Wall still stands today, so wasn't the "not one stone" prediction
-falsified? No -- the Western Wall is a *retaining wall* for the platform the temple stood on, not
-part of the temple building itself; the temple structure Jesus and his disciples were looking at
-(Matthew 24:1) was in fact torn down stone by stone, exactly as predicted. The temple fell about forty
+(*The Jewish War*, Book 6). A common objection: the Western Wall still stands today, so wasn't the "not one stone" prediction
+falsified? No. The Western Wall is a *retaining wall* for the platform the temple stood on. The
+temple building Jesus and His disciples were looking at (Matthew 24:1) was torn down stone by stone,
+as predicted. The temple fell about forty
 years after He spoke, while many who had heard Him were still alive.
 
 Later in the same discourse Jesus says, "Truly, I say to you, this generation will not pass away until
@@ -308,10 +291,9 @@ and the case for this one.
 
 ## The two Gospel accounts of the end of the age
 
-Two Gospels record Jesus's own extended teaching on the future -- the Olivet Discourse, named for
-where he gave it (Matthew 24:3; Mark 13:3, "on the Mount of Olives"). They're parallel accounts of
-the same conversation, not two different speeches, and reading both together is worth more than
-either alone.
+Two Gospels record Jesus's own extended teaching on the future: the Olivet Discourse, named for
+where He gave it (Matthew 24:3; Mark 13:3, "on the Mount of Olives"). They're parallel accounts of
+the same conversation.
 
 > ✝️ Mark 13:1-2 (ESV)
 >
@@ -321,7 +303,7 @@ either alone.
 
 Mark's account runs shorter than Matthew's and keeps the same shape. False messiahs and wars come
 first, "the beginning of the birth pains" (Mark 13:8, paralleling Matthew 24:8). Then a specific
-marker --
+marker:
 
 > ✝️ Mark 13:14 (ESV)
 >
@@ -331,25 +313,24 @@ marker --
 Matthew names the source of that image directly: "the abomination of desolation spoken of by the
 prophet Daniel, standing in the holy place" (Matthew 24:15, ESV).
 
-So Jesus treats Daniel 9:27 as still future from where he stands (see
+So Jesus treats Daniel 9:27 as still future from where He stands (see
 [Prophecy yet to come](#prophecy-yet-to-come) below). Nothing in his hearers' past had used it up. What follows in both accounts is a severity neither account claims had already happened. "Great
 tribulation, such as has not been from the beginning of the world until now, no, and never will be"
 (Matthew 24:21, ESV; Mark 13:19 nearly verbatim). The AD 70 siege was severe in its own right. This
 is not describing it. Both Gospels close the same way. No one knows the day or hour, "not even the angels in heaven, nor
 the Son, but only the Father" (Mark 13:32, ESV). [The Day Is Near](day-is-near.md) works that out
-word by word, and this study defers to it rather than repeating it.
+word by word.
 
 ## Prophecy yet to come
 
 Everything above is checkable against events that already happened. What follows is this site's
-reading of what Scripture says is still ahead -- stated plainly as this site's own position
-(consistent with the dispensational, pretribulational reading argued in depth elsewhere here), with
-real disagreement among Bible-believing Christians named rather than hidden.
+reading of what Scripture says is still ahead: the dispensational, pretribulational reading argued
+in depth elsewhere here. Bible-believing Christians disagree over it.
 
 ### Daniel's seventieth week: the tribulation
 
 [Prophecy, calendar, and the anchors of biblical history](prophecy-events-times.md) works out
-Daniel's first 69 "weeks" -- 483 years -- landing on the Triumphal Entry. Daniel 9:27 describes a
+Daniel's first 69 "weeks" (483 years) landing on the Triumphal Entry. Daniel 9:27 describes a
 seventieth week that didn't follow immediately:
 
 > ✝️ Daniel 9:27 (ESV)
@@ -358,17 +339,16 @@ seventieth week that didn't follow immediately:
 > put an end to sacrifice and offering. And on the wing of abominations shall come one who makes
 > desolate, until the decreed end is poured out on the desolator.
 
-**Week** translates <span dir="rtl">שָׁבוּעַ</span> (*shavu'a*, H7620, "seven") -- the same word Daniel's angel used for
+**Week** translates <span dir="rtl">שָׁבוּעַ</span> (*shavu'a*, H7620, "seven"), the same word Daniel's angel used for
 the first 69, already shown by that page's own case to run on literal years, not days. Nearly two thousand years now separate week 69 from week 70. The text names no duration for that
 gap. This site reads it as the still-continuing church age, following [The Zadok
-Calendar](../feasts/zadok-calendar.md) and [A Day Is a Thousand Years](day-is-a-thousand-years.md) — an age the Old
-Testament prophets did not foresee, which is Paul's point in calling it a "mystery" (Ephesians
-3:4-6). This seventieth week -- a coming leader confirming
-a covenant, sacrifice halted at its midpoint, "the abomination of desolation" Jesus names directly in
-Matthew 24:15 -- *is* the seven-year tribulation. [The Rapture of the Church](rapture.md) works that whole period out verse by verse. It covers the
+Calendar](../feasts/zadok-calendar.md) and [A Day Is a Thousand Years](day-is-a-thousand-years.md). The Old
+Testament prophets did not foresee that age, which is Paul's point in calling it a "mystery" (Ephesians
+3:4-6). This seventieth week *is* the seven-year tribulation: a coming leader confirming
+a covenant, sacrifice halted at its midpoint, and "the abomination of desolation" Jesus names directly in
+Matthew 24:15. [The Rapture of the Church](rapture.md) works that whole period out verse by verse. It covers the
 Bema and Great White Throne judgments, and why this site reads the church as removed before the
-period starts rather than preserved through it. This study does not re-derive that case. It only
-locates it on Daniel's timeline.
+period starts rather than preserved through it.
 
 ### The pretribulational rapture
 
@@ -380,35 +360,31 @@ locates it on Daniel's timeline.
 
 This site's own position, argued at length in [The Rapture of the Church](rapture.md): the Church is
 gathered to Christ *before* the tribulation begins, not partway through it or at its end alongside
-the visible second coming. The case there rests on three things. The Greek word behind "rapture" —
+the visible second coming. The case there rests on three things. The Greek word behind "rapture":
 **ἁρπάζω** (*harpazo*, G726), "seized" or "caught away", used elsewhere only of real, physical, sudden
 removals to heaven. The absence of any preceding sign for this event specifically, unlike the second
 coming's named sequence. And Scripture's own promise that believers are "not destined for wrath" (1
 Thessalonians 5:9). That page also gives post-tribulational, mid-tribulational, and pre-wrath views
-a fair hearing
-rather than only their weakest forms -- worth reading in full rather than taking this study's word for
-which view is correct.
+a fair hearing. Read it in full and weigh the case yourself.
 
 ### The millennial reign
 
-After the tribulation, Christ returns visibly -- not the quiet, personal gathering of the rapture, but
-"the armies of heaven... following him on white horses" (Revelation 19:11-16) -- and reigns on earth
+After the tribulation, Christ returns visibly, with
+"the armies of heaven... following him on white horses" (Revelation 19:11-16), and reigns on earth
 for a literal thousand years (Revelation 20:1-6). [A Day Is a Thousand Years](day-is-a-thousand-years.md) traces this forward. It begins with the creation week's own
 six-days-then-a-seventh pattern. It runs through the Sabbath as "a shadow of the things to come"
 (Colossians 2:16-17) and Hebrews 4's still-open Sabbath rest. It ends at Revelation 20's numbered
 thousand years.
 
-Read it there in full. That page also flags, honestly, that the date arithmetic built on the pattern
+Read it there in full. That page also flags that the date arithmetic built on the pattern
 does not yet reconcile cleanly with this site's other chronology studies.
 
 ## Larkin's chart: the whole shape at a glance
 
 Clarence Larkin's dispensational charts (first published in the 1910s-20s; now public domain) are
-the classic visual summary of everything above -- creation through the millennium, laid out as one
-continuous picture rather than five separate studies. [Charting End Times](prophecy-chart.md) rebuilds
-that chart as an actual, finished diagram for this site rather than the placeholder sketches that
-used to sit there -- worth a look for anyone who wants the whole framework on one page before diving
-into any single piece of it above.
+the classic visual summary of everything above, from creation through the millennium, laid out as one
+continuous picture. [Charting End Times](prophecy-chart.md) rebuilds
+that chart as a finished diagram for this site, with the whole framework on one page.
 
 [![The seven thousand years on this site's chronology, from creation in 3959 BC to the year 6000 in AD 2042, the thousand years of Revelation 20, and an eighth day beyond.](../assets/img/last-things/seven-thousand-years.svg)](../assets/img/last-things/seven-thousand-years.svg)
 
@@ -416,15 +392,15 @@ into any single piece of it above.
 
 1. Psalm 22:16 turns on a textual decision: the Masoretic Text reads "like a lion," the Septuagint
    "they pierced." How much weight can a fulfilled-prophecy argument carry when its key word depends
-   on which manuscript tradition you follow -- and what would settle it?
-2. Matthew 2:6 conflates Micah 5:2 with 2 Samuel 5:2 rather than quoting Micah word-for-word. Does
-   understanding *why* (a recognized Jewish exegetical practice, not an error) change how you read
+   on which manuscript tradition you follow, and what would settle it?
+2. Matthew 2:6 joins Micah 5:2 to 2 Samuel 5:2. Does
+   understanding *why* (a recognized Jewish exegetical practice) change how you read
    other New Testament Old Testament citations that don't look like exact quotations?
 3. Prophecies already fulfilled can be checked against history; those still ahead cannot. What kind
    of confidence is appropriate to each, and does fulfilment in the first category earn any credit
    for readings in the second?
-4. If someone you know doesn't believe yet, which single case above would you actually show them
-   first -- and why that one rather than another?
+4. If someone you know doesn't believe yet, which single case above would you show them
+   first, and why that one?
 
 ## References & Recommended Reading
 

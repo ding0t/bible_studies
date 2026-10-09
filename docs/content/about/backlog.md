@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-08
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -194,6 +194,58 @@ publish. This list names them by file path and links none, because a published p
   Meet the Lord in the Air (`last-things/meet-the-lord-in-the-air.md`) (3,138 words).
 - Four Hundred and Eighty Years (`chronology/four-hundred-and-eighty-years.md`): 1,393 words,
   forked from Genealogy and Times; see [8.2](#82-chronology-follow-ups).
+
+### 0.10 Cut the AI register
+
+A tidy of [Biblical Numerology](../scripture/numerology.md) on 2026-10-09 took its em-dashes from
+109 to 64, "rather than" from 7 to 0, ", not" from 9 to 1 and "exactly" from 8 to 1, and the study
+lost 437 words with nothing of substance gone. The pages below carry the same markers most densely.
+They were counted on 2026-10-09 in prose only (quotations, tables and References excluded) and
+scored per 1,000 words, one point per em-dash and four per contrast or intensifier. Numerology now
+scores 6, Hebrew Roots and Israel's Regathering about 3. Each count is a pointer to read the page:
+a contrast stays where the reader arrives holding the wrong version.
+
+**Progress.** A review-bible-study Phase 8 pass was applied on 2026-10-09 to Bible Prophecy
+Essentials, The Trumpet Call of God, Prophecy Events and Times, Dreams and Visions, What Creation
+Declares, Genealogy and Times, Christians and Deliverance Ministry, The Day No One Knows,
+Assurance of Salvation, The Woman Who Touched the Fringe, Bread of Life, Israel and the Church,
+Bible Translations & Source Texts, The Day Is Near, The Twelve and its six apostle pages. All but
+Bible Translations (22, its remaining contrasts are real distinctions between translations) and
+Thomas (18) now score under 13. Content questions those passes raised are not yet resolved; a
+review-bible-study pass should take them up. Still to do: the reference and about pages below.
+
+- **Contrast-heavy** ("X, not Y", "rather than"), which the style guide's "define affirmatively"
+  rule governs:
+  - [Bible Prophecy Essentials](../last-things/prophecy-essentials.md): 15 "rather than", 15 ", not"
+  - [The Trumpet Call of God](../last-things/trumpet.md): 16 "rather than"
+  - [Prophecy Events and Times](../last-things/prophecy-events-times.md): 17 ", not", 70 em-dashes
+  - [Dreams and Visions](../god/dreams-and-visions/index.md): 11 "rather than", 10 ", not"
+  - [What Creation Declares](../god/creation-reveals-the-creator.md): 10 "rather than",
+    11 ", not"
+  - [Genealogy and Times](../chronology/genealogy-times.md): 11 "rather than", 7 "exactly"; pair
+    with its word-budget item in [8.2](#82-chronology-follow-ups)
+- **Em-dash-heavy** (about 11-16 per 1,000 words):
+  - [The Twelve](../biblical-figures/twelve-apostles.md) (the highest-scoring study, also 9
+    "rather than", 9 ", not", 7 "exactly") and the six short apostle pages that score with it:
+    Bartholomew, Thomas, Matthew, Simon the Zealot, Thaddaeus and Judas Iscariot. Tidy them as
+    one batch.
+  - [Christians and Deliverance Ministry](../spiritual-beings/deliverance/christians-and-deliverance.md)
+  - [The Day No One Knows](../jesus/the-day-no-one-knows.md)
+  - [Assurance of Salvation](../salvation/assurance-of-salvation.md)
+  - [Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md)
+  - [The Woman Who Touched the Fringe](../jesus/woman-with-the-issue-of-blood.md)
+  - [Israel and the Church](../israel-and-church/israel-and-the-church.md)
+  - [Bible Translations & Source Texts](../scripture/translations.md): also 17 "rather than"
+  - [The Day Is Near](../last-things/day-is-near.md)
+- **Count both dash forms.** Many pages write the dash as an ASCII " -- ", which a count of "—"
+  alone misses.
+- **Reference and about pages**, lower priority: [Public Data Sources](../resources/public-data-sources.md)
+  (the densest page on the site), [Key Takeaways](key-takeaways.md),
+  [Reading the Original-Language Data](../scripture/original-language-data.md),
+  [Patristic Sources](../resources/patristic-sources.md) and the [Glossary](../glossary.md), where
+  many dashes separate a term from its definition and should stay.
+- **The author's own:** [Statement of Faith](statement-of-faith.md) has 21 ", not". It records
+  settled conviction, so any change to it is the author's call.
 
 ## 1. Scripture
 
