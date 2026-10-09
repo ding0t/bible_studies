@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Faith](../../salvation/faith.md) — 7:9
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 7:14
 <!-- commentary-index:auto-end -->

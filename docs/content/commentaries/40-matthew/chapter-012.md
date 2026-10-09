@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 12:40 (primary passage)
+- [Biblical Numerology](../../scripture/numerology.md) — 12:40
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 12:43-44
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 12:43
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 12:20

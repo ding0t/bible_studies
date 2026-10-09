@@ -14,6 +14,7 @@ draft: false
 
 - [Andrew](../../biblical-figures/andrew.md) — 1:16-18
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 1:24-25
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:2-3
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 1:19-20
 - [John son of Zebedee](../../biblical-figures/john.md) — 1:19-20
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:35-37

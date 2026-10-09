@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 24:14
 - [The Way](../../jesus/the-way.md) — 24:5
 <!-- commentary-index:auto-end -->

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 21:4-5
 - [In Humility](../../christian-life/humility.md) — 21:5
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 21:1-11
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 21:18-22

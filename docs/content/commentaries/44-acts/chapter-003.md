@@ -14,6 +14,7 @@ draft: false
 
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 3:17-19
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 3:21
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 3:18-22
 - [John son of Zebedee](../../biblical-figures/john.md) — 3:1-11
 - [Sin and Sorcery](../../sin/sorcery.md) — 3:22-23
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 3:22

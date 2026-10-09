@@ -16,6 +16,7 @@ draft: false
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 1:19-20
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 1:16
 - [Faith](../../salvation/faith.md) — 1:17
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:3
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:25
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:9
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 1:13

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:33
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:32-33
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:4
 - [Pride](../../sin/pride.md) — 1:51-52
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 1:8-13

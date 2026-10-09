@@ -15,6 +15,7 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 7:1-28 (primary passage)
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 7:25
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 7:3
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 7:14
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 7:1-4
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 7:25
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 7:26-27

@@ -1,11 +1,11 @@
 ---
 title: "Hebrew Roots of Christianity"
 category: "theology"
-description: "A brief study on why the Old Testament and Jewish tradition still shape how the church reads Christ today, through shadows and types, Torah, the feasts, creation, and prophecy."
-tags: ["method/typology", "lang/hebrew", "torah", "feasts", "messianic-prophecy"]
+description: "Christianity as the faith of Israel followed through to its Messiah: how Jesus meets what Israel's Scriptures required of the Messiah, what His return completes, and why the Old Testament's types, Torah, feasts, creation and prophecy still shape how the church reads Christ."
+tags: ["method/typology", "lang/hebrew", "lang/greek", "torah", "feasts", "messianic-prophecy"]
 draft: false
 primary_passage: "Colossians 2:16-17"
-bible_references: ["2 Timothy 3:16-17", "2 Timothy 3:8", "Luke 24:25-27", "Luke 24:44", "Matthew 5:17-18", "Hebrews 10:1", "1 Corinthians 5:7-8", "Leviticus 23:2-4", "Genesis 2:2-3", "Psalm 119:105", "Romans 15:4", "Acts 17:11", "Galatians 5:1-4", "Acts 15:10-11", "Romans 5:14", "John 2:13", "John 7:10", "Jude 1:9", "Jude 1:14-15", "Deuteronomy 34:5-7"]
+bible_references: ["2 Timothy 3:16-17", "2 Timothy 3:8", "Luke 24:25-27", "Luke 24:44", "Matthew 5:17-18", "Hebrews 10:1", "1 Corinthians 5:7-8", "Leviticus 23:2-4", "Genesis 2:2-3", "Psalm 119:105", "Romans 15:4", "Acts 17:11", "Galatians 5:1-4", "Acts 15:10-11", "Romans 5:14", "John 2:13", "John 7:10", "Jude 1:9", "Jude 1:14-15", "Deuteronomy 34:5-7", "Acts 24:14", "John 1:41", "John 4:22", "John 4:25", "Acts 17:2-3", "Luke 1:32-33", "Acts 1:6-11", "Acts 2:30-36", "Acts 3:18-22", "Acts 8:32-35", "Romans 9:4-5", "Romans 15:8-9", "Romans 1:3", "Galatians 3:16", "Hebrews 7:14", "Matthew 1:1", "Matthew 1:22-23", "Matthew 2:5-6", "Matthew 21:4-5", "Mark 1:2-3", "2 Corinthians 1:20", "Micah 5:2", "Isaiah 7:14", "Isaiah 53:7-8", "Zechariah 9:9", "Zechariah 14:4", "Psalm 2:2", "Psalm 16:10", "Psalm 110:1", "Daniel 9:25-26", "Leviticus 4:3", "1 Samuel 24:6"]
 date_created: 2025-05-21
 date_modified: 2026-10-09
 ai_provider_models:
@@ -16,24 +16,33 @@ ai_provider_models:
 
 # Hebrew roots of Christianity
 
+Christianity began inside the faith of Israel. Paul, on trial before the Roman governor Felix,
+described his faith in one sentence: "according to the Way, which they call a sect, I worship the God
+of our fathers, believing everything laid down by the Law and written in the Prophets" (Acts 24:14,
+ESV). He worshipped the God of Abraham, Isaac and Jacob, he believed the whole of Israel's
+Scriptures, and the Jesus he preached was the Messiah those Scriptures had promised.
+
+**Christianity is the faith God gave Israel, followed through to its Messiah: Jesus of Nazareth is
+the Messiah Israel's Scriptures promised, and the New Testament shows Him meeting what they required
+of Him, in His line, His birth, His ministry, His suffering and His rising, with His reign on David's
+throne kept for His return.**
+
 Jesus's Bible, and the apostles' Bible, was the Hebrew Scriptures. Paul tells Timothy that "all
 Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for
 training in righteousness" (2 Timothy 3:16). The "Scripture" he has first in view there is the Old
-Testament. The New Testament was still being written, and no collection of it yet existed.
-
-When the risen Christ explained Himself to two confused disciples on the Emmaus road, He opened the
-Scriptures they already had (Luke 24:27, below).
-
-**The Old Testament, read the way Jesus and His apostles read it, is the record God used to explain
-who Christ is, and it still does that job for the church today.** A church that skips past it, or
-mines it only for isolated proof-texts, is skipping the book its own Lord treated as authoritative and
-the tool His first followers reached for to explain Him.
+Testament. The New Testament was still being written, and no collection of it yet existed. When the
+risen Christ explained Himself to two confused disciples on the Emmaus road, He opened the Scriptures
+they already had (Luke 24:27, below), and the Old Testament still does that job for the church today.
 
 ## Key Takeaways
 
 *(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
 
 ### Types & Prophecy
+
+**Messiah.** "We have found the Messiah" (which means Christ) (John 1:41). The apostles preached
+Jesus from Israel's own Scriptures, "explaining and proving that it was necessary for the Christ to
+suffer and to rise from the dead" (Acts 17:3).
 
 **Type.** The Old Testament's institutions function as **σκιά** (*skia*, skee-AH, G4639), shadow:
 its sacrifices, its priesthood, its appointed feasts (Hebrews 10:1; Colossians 2:17).
@@ -47,6 +56,8 @@ fulfilled (Luke 24:27, 44).
 
 ### Lessons about Jesus
 
+- He is "the son of David, the son of Abraham" (Matthew 1:1), the Messiah from Israel's own line,
+  and God will yet give Him "the throne of his father David" (Luke 1:32).
 - He treated the Old Testament as the authoritative text He had come to fulfil (Matthew 5:17).
 - He read Himself out of it, in His own words, on the day of His resurrection (Luke 24:27).
 - He kept its appointed feasts (John 2:13; 7:10), and the apostles read His death and resurrection
@@ -88,6 +99,82 @@ more than a thousand years, so that when He came He had a witness. Thank you tha
 on the Emmaus road is a book I can still open. Give me the Bereans' eagerness to search what was
 written for my instruction, and to recognise in it the substance your Son told me it was pointing to.
 In Jesus' name. Amen.
+
+## Study outline
+
+- [Jesus, the Messiah Israel was promised](#jesus-the-messiah-israel-was-promised). The word, what
+  the Scriptures required of Him, what His return completes, and the line from Israel to the nations.
+- [Cautions](#cautions). The "Hebrew Roots" movement, and binding Gentile believers to the Torah.
+- [Key features](#key-features). Shadows and types, Torah, the festivals, creation, prophecy, and
+  extra-biblical Jewish texts.
+- [Why this still matters for the church today](#why-this-still-matters-for-the-church-today).
+  Romans 15:4.
+- [Discussion questions](#discussion-questions). Seven, for a group or on your own.
+
+## Jesus, the Messiah Israel was promised
+
+### The word
+
+**Messiah** is a Hebrew title. <span dir="rtl">מָשִׁיחַ</span> (*mashiach*, mah-SHEE-akh, H4899)
+means "anointed one". It names the anointed priest (Leviticus 4:3) and the anointed king (1 Samuel
+24:6, Hebrew 24:7), and Daniel uses it of an anointed one still to come (Daniel 9:25-26). The
+Septuagint translates it **Χριστός** (*Christos*, khris-TOS, G5547), as in "against the LORD and
+against his Anointed" (Psalm 2:2). The New Testament also carries the Hebrew over as **Μεσσίας**
+(*Messias*, mes-SEE-as, G3323). John keeps that form twice and glosses it himself: "We have found the Messiah" (which
+means Christ) (John 1:41; compare John 4:25). So "Jesus Christ" is a confession in two words: Jesus
+is the Messiah.
+
+### What the Scriptures required of Him
+
+Jesus set the standard Himself: "everything written about me in the Law of Moses and the Prophets and
+the Psalms must be fulfilled" (Luke 24:44, ESV). The apostles preached by that standard. In the
+Thessalonian synagogue Paul "reasoned with them from the Scriptures, explaining and proving that it
+was necessary for the Christ to suffer and to rise from the dead, and saying, 'This Jesus, whom I
+proclaim to you, is the Christ'" (Acts 17:2-3, ESV).
+
+The Scriptures fixed His line: the offspring of Abraham (Galatians 3:16), from the tribe of Judah
+(Hebrews 7:14), a son of David (Romans 1:3). They named His birthplace, Bethlehem (Micah 5:2;
+Matthew 2:5-6), and a messenger to go before Him (Malachi 3:1; Mark 1:2-3). They described a king
+coming to Jerusalem on a donkey (Zechariah 9:9; Matthew 21:4-5), a servant led like a lamb to the
+slaughter (Isaiah 53:7-8, which Philip read as "the good news about Jesus", Acts 8:35), one God would
+not abandon to the grave (Psalm 16:10; Acts 2:31), and one seated at God's right hand (Psalm 110:1;
+Acts 2:34-35). Peter's conclusion to the crowd at Pentecost is the conclusion of the whole list: "God
+has made him both Lord and Christ, this Jesus whom you crucified" (Acts 2:36, ESV).
+
+[![The Promised Messiah: across the top, the line the promises travel, from the patriarchs (Romans 9:5) to Israel with the Law, the Prophets and the Psalms (Luke 24:44), to Jesus the Messiah (John 1:41), to the nations (Romans 15:9), under Romans 15:8. Below, each promise beside its New Testament fulfilment. His line: offspring of Abraham (Genesis 22:18; Galatians 3:16; Matthew 1:1), the tribe of Judah (Genesis 49:10; Hebrews 7:14), a son of David (2 Samuel 7:12-13; Romans 1:3; Acts 2:30). His birth: the virgin shall conceive (Isaiah 7:14; Matthew 1:22-23), a ruler out of Bethlehem (Micah 5:2; Matthew 2:5-6). His ministry: a messenger prepares the way (Malachi 3:1; Isaiah 40:3; Mark 1:2-4), a prophet like Moses (Deuteronomy 18:15; Acts 3:20-22), the king on a donkey (Zechariah 9:9; Matthew 21:4-5). His suffering and glory: led like a lamb (Isaiah 53:7-8; Acts 8:32-35; Acts 3:18), not abandoned to the grave (Psalm 16:10; Acts 2:31-32), seated at the right hand (Psalm 110:1; Acts 2:34-36). At His return: His feet on the Mount of Olives (Zechariah 14:4; Acts 1:11-12), and, dashed as contested timing, David's throne for ever (2 Samuel 7:16; Isaiah 9:7; Luke 1:32-33) and the kingdom restored to Israel (Amos 9:11; Jeremiah 23:5-6; Acts 1:6-7; Acts 3:21). It closes on 2 Corinthians 1:20.](../assets/img/israel-and-church/promised-messiah.svg)](../assets/img/israel-and-church/promised-messiah.svg)
+
+### What His return will complete
+
+The New Testament leaves part of the list open, and says so. Gabriel promised Mary that "the Lord God
+will give to him the throne of his father David, and he will reign over the house of Jacob forever"
+(Luke 1:32-33, ESV). After the resurrection the apostles asked, "Lord, will you at this time restore
+the kingdom to Israel?", and Jesus answered with the timing: "It is not for you to know times or
+seasons that the Father has fixed by his own authority" (Acts 1:6-7, ESV). Peter told Jerusalem that
+heaven must receive Jesus "until the time for restoring all the things about which God spoke by the
+mouth of his holy prophets long ago" (Acts 3:21, ESV).
+
+When that reign begins is contested. Many read Peter at Pentecost (Acts 2:30-36) as announcing David's
+throne already taken at the ascension, and the reign as Christ's present rule from heaven. This site
+reads it as future: Jesus sits now at the Father's right hand, and takes David's throne over a
+restored Israel when He returns "in the same way as you saw him go into heaven" (Acts 1:11, ESV; see
+[Israel and the Church](israel-and-the-church.md)). Both readings agree on the Person. Jesus has met
+every qualification the Scriptures set for the Messiah, and the promises still outstanding rest on
+Him: "all the promises of God find their Yes in him" (2 Corinthians 1:20, ESV).
+
+### From Israel to the nations
+
+Paul lists what God gave Israel: "to them belong the adoption, the glory, the covenants, the giving of
+the law, the worship, and the promises. To them belong the patriarchs, and from their race, according
+to the flesh, is the Christ" (Romans 9:4-5, ESV). Jesus told a Samaritan woman the same thing in five
+words: "salvation is from the Jews" (John 4:22).
+
+Paul names both purposes of Christ's coming in one sentence: "Christ became a servant to the
+circumcised to show God's truthfulness, in order to confirm the promises given to the patriarchs, and
+in order that the Gentiles might glorify God for his mercy" (Romans 15:8-9, ESV). **This shows that
+God keeps His word.** He swore to Abraham and to David, and He kept it in Jesus, in the open, in a
+form His people could check against what He had written. A Gentile believer worships the God of
+Israel through Israel's Messiah and reads Israel's Scriptures as their own instruction (Romans 15:4).
+So you may trust the promises God has not yet completed on the strength of the ones He already has.
 
 ## Cautions
 
@@ -154,11 +241,10 @@ the same seven-based structure under Israel's appointed times, sabbatical years 
 
 ### Prophecy
 
-The Old Testament also predicts, and Jesus read its predictions as being about Himself: "Beginning
-with Moses and all the Prophets, he interpreted to them in all the Scriptures the things concerning
-himself" (Luke 24:27), on His resurrection day. [Bible Prophecy
-Essentials](../last-things/prophecy-essentials.md) checks specific fulfilled prophecies against
-source. This page's point is the starting posture: prophecy is where a reader should expect to find
+The Old Testament also predicts, and Jesus read its predictions as being about Himself (Luke 24:44).
+The [promised Messiah](#jesus-the-messiah-israel-was-promised) section above sets the main ones
+beside their fulfilment, and [Bible Prophecy Essentials](../last-things/prophecy-essentials.md)
+checks several of them against source in detail. Prophecy is where a reader should expect to find
 Christ.
 
 ### Extra-biblical Jewish texts
@@ -208,19 +294,24 @@ need for endurance and hope.
 
 ## Discussion questions
 
-1. Colossians 2:17 calls the festivals, new moons, and Sabbaths a shadow whose substance is Christ.
+1. Paul told Felix that he worshipped "the God of our fathers, believing everything laid down by the
+   Law and written in the Prophets" (Acts 24:14). How does seeing Christianity as Israel's faith
+   followed through to its Messiah change the way you read the Old Testament?
+2. Which of the promises in the chart above would you find hardest to explain to someone who doubts
+   that Jesus is the Messiah, and where would you send them to read it?
+3. Colossians 2:17 calls the festivals, new moons, and Sabbaths a shadow whose substance is Christ.
    What changes about how you read an Old Testament ritual once you look for what it is a shadow
    *of*?
-2. Jesus opened the Hebrew Scriptures to explain Himself on the Emmaus road (Luke 24:27) before a
+4. Jesus opened the Hebrew Scriptures to explain Himself on the Emmaus road (Luke 24:27) before a
    single Gospel had been written. What does that say about how much of the church's Christology was
    already available before the New Testament existed?
-3. The caution section names two opposite errors: collapsing the Church into Israel, and requiring
+5. The caution section names two opposite errors: collapsing the Church into Israel, and requiring
    Gentile believers to keep the Torah. What keeps a church from drifting into either one while still
    taking the Old Testament seriously?
-4. Which of the six features (shadows and types, Torah, festivals, creation, prophecy, or
+6. Which of the six features (shadows and types, Torah, festivals, creation, prophecy, or
    extra-biblical texts) is most unfamiliar to you, and what would studying it change about how you
    read the rest of Scripture?
-5. Jude quotes 1 Enoch as true on one point without treating it as Scripture (Jude 14-15). What is
+7. Jude quotes 1 Enoch as true on one point without treating it as Scripture (Jude 14-15). What is
    the difference between citing a non-biblical source the way Jude does here and treating it as
    authoritative the way Scripture is?
 

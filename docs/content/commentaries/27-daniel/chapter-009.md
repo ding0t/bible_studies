@@ -19,6 +19,7 @@ draft: false
 - [Charting End Times](../../last-things/prophecy-chart.md) — 9:27
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 9:2
 - [Fasting](../../christian-life/fasting.md) — 9:3
+- [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 9:25-26
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 9:24-27
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 9:2-3
 - [The End of the Age](../../last-things/end-of-the-age.md) — 9:27
