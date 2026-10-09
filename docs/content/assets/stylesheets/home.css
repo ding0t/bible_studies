@@ -1,0 +1,96 @@
+/* The subject wheel drawn by hooks/subject_wheel.py. */
+.subject-wheel-figure {
+  margin: 1.5rem auto 2rem;
+  max-width: 40rem;
+}
+
+.subject-wheel {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.subject-wheel .sw-bar,
+.subject-wheel .sw-track {
+  transition: fill 0.15s ease;
+}
+
+.subject-wheel .sw-sector:hover .sw-bar,
+.subject-wheel .sw-sector:focus-visible .sw-bar {
+  fill: #8b1e1e;
+}
+
+.subject-wheel .sw-sector:hover .sw-track,
+.subject-wheel .sw-sector:focus-visible .sw-track {
+  fill: #f1dcd4;
+  fill-opacity: 0.8;
+}
+
+.subject-wheel .sw-sector:hover .sw-label,
+.subject-wheel .sw-sector:focus-visible .sw-label {
+  fill: #8b1e1e;
+  text-decoration: underline;
+}
+
+.subject-wheel .sw-sector:focus {
+  outline: none;
+}
+
+/* Thumbnails of the drawn plates: the top of each portrait plate, cropped to one height so the
+   cards line up. The full plate is one click away on its study. */
+.plate-gallery.grid.cards img {
+  display: block;
+  width: 100%;
+  height: 11rem;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0.2rem;
+  transition: transform 0.2s ease;
+}
+
+.plate-gallery.grid.cards a:hover img {
+  transform: scale(1.02);
+}
+
+.plate-gallery.grid.cards p:first-child {
+  margin: 0 0 0.6rem;
+  overflow: hidden;
+  border-radius: 0.2rem;
+}
+
+/* Section landing pages: one scrolling row of plates (hooks/section_plates.py), so a section with
+   twenty plates takes no more height than one with two. */
+.plate-strip.grid.cards > ul {
+  display: flex;
+  gap: 0.8rem;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  padding-bottom: 0.6rem;
+}
+
+.plate-strip.grid.cards > ul > li {
+  flex: 0 0 13rem;
+  scroll-snap-align: start;
+  margin: 0;
+}
+
+.plate-strip.grid.cards img {
+  height: 9rem;
+}
+
+.plate-strip.grid.cards li p:last-child {
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+
+/* The drawn banner at the top of the home page (utils/build_home_graphics.py). */
+.way-banner img {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0 0;
+  border-radius: 0.2rem;
+}
+
+.believe-cards .twemoji {
+  color: var(--md-primary-fg-color);
+}

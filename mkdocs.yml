@@ -55,6 +55,10 @@ hooks:
   - hooks/new_pages.py
   # Replaces <!-- memory-verses --> with printable A4 card sheets. See hooks/memory_verses.py.
   - hooks/memory_verses.py
+  # Replaces <!-- subject-wheel --> with the home page's wheel of studies per section.
+  - hooks/subject_wheel.py
+  # A strip of the drawn plates each section's studies embed, on its landing page.
+  - hooks/section_plates.py
 
 # The tooltip on the icon hooks/new_pages.py puts beside a new page in the navigation.
 extra:
@@ -459,6 +463,7 @@ extra_css:
   - assets/stylesheets/new-pages.css
   - assets/stylesheets/video-embed.css
   - assets/stylesheets/memory-verses.css
+  - assets/stylesheets/home.css
 
 # Verse and word pop-ups on every page. The bundle is built by `npm run build:tools` (app/) and
 # its data lives in assets/popups/ -- see app/src/entries/popups.js.

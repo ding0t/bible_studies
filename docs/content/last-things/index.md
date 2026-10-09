@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-08
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -133,7 +133,7 @@ End-times prophecy, read dispensationally.
 
     ---
 
-    A framework for reading biblical prophecy: why it matters, genuine fulfilled prophecies verified against source rather than assumed, and the road still ahead -- Daniel's seventieth week, the rapture, and the millennial reign.
+    A framework for reading biblical prophecy: why it matters, fulfilled prophecies checked against source, and the road still ahead -- Daniel's seventieth week, the rapture, and the millennial reign.
 
     [:octicons-arrow-right-24: Read](prophecy-essentials.md)
 

@@ -4,7 +4,7 @@ category: "other"
 description: "The covenants, the distinction between Israel and the Church, and the Hebrew roots of the faith."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-01
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -29,7 +29,7 @@ The covenants, the distinction between Israel and the Church, and the Hebrew roo
 
     ---
 
-    A brief study on why the Old Testament and Jewish tradition still shape how the church reads Christ today, through shadows and types, Torah, the feasts, creation, and prophecy.
+    Christianity as the faith of Israel followed through to its Messiah: how Jesus meets what Israel's Scriptures required of the Messiah, what His return completes, and why the Old Testament's types, Torah, feasts, creation and prophecy still shape how the church reads Christ.
 
     [:octicons-arrow-right-24: Read](hebrew-roots.md)
 
