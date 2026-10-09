@@ -3,7 +3,7 @@ title: "The Almond"
 category: "theology"
 description: "Numbers 17 to Hebrews 7: the almond, whose Hebrew name sounds like 'watching', in the lampstand's gold blossoms and in Aaron's dead staff that budded, flowered and bore ripe almonds overnight to show whom God had chosen to come near Him, and the High Priest He appointed by the power of an indestructible life."
 tags: ["numbers", "exodus", "jeremiah", "psalms", "romans", "hebrews", "temple", "priesthood", "resurrection", "person/aaron", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Numbers 17:1-13"
 bible_references: ["Numbers 17:1-13", "Numbers 16:3", "Numbers 16:5", "Numbers 16:10", "Numbers 16:46-48", "Numbers 18:1-7", "Numbers 20:8-11", "Exodus 25:31-36", "Exodus 28:36-38", "Exodus 39:30", "Leviticus 8:9", "Numbers 8:4", "Jeremiah 1:11-12", "Jeremiah 31:28", "Ecclesiastes 12:5", "Genesis 43:11", "Genesis 30:37", "Psalm 110:2", "Psalm 110:4", "1 Kings 8:9", "Romans 1:4", "Hebrews 5:4-6", "Hebrews 7:15-16", "Hebrews 9:4", "Exodus 37:17-20", "Exodus 27:21", "Numbers 16:41", "Numbers 16:49", "Hebrews 7:20-25", "Psalm 2:7", "Jeremiah 1:6-8", "2 Chronicles 5:10"]
 date_created: 2026-10-09

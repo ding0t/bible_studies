@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 25:8-9"
 bible_references: ["Exodus 25:8-9", "Exodus 25:40", "1 Chronicles 28:11-19", "Acts 7:44", "Hebrews 8:5", "Hebrews 9:5", "Hebrews 9:23-24", "Revelation 21:3", "Revelation 21:22"]
 date_created: 2026-09-28
-date_modified: 2026-09-29
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -36,6 +36,9 @@ after the list of furnishings: "Of these things we cannot now speak in detail" (
   the lamps, and the altar before the throne where the saints' prayers rise.
 - [The Lampstand](lampstand.md) — one almond tree of hammered gold, kept burning every night, and the
   seven lampstands Jesus walks among in Revelation.
+
+Alongside the furnishings: [The Almond](almond.md) — the tree whose name sounds like "watching," on
+the lampstand's cups and on Aaron's staff that budded overnight to show whom God had chosen.
 
 *In preparation: the table, the bronze altar, the basin and sea, and the house itself from tent to
 city.*

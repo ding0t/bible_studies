@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 37:17-20
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 37:25-29
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 37:17-24
 <!-- commentary-index:auto-end -->

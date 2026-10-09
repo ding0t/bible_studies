@@ -14,4 +14,5 @@ draft: false
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 20:22-29
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 20:25-28
+- [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 20:8-11
 <!-- commentary-index:auto-end -->

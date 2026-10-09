@@ -19,6 +19,7 @@ draft: false
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:3
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:25
 - [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:9
+- [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 1:4
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 1:13
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 1:20
 <!-- commentary-index:auto-end -->

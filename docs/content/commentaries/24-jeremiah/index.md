@@ -12,7 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
-- [Chapter 1](chapter-001.md) — 2 study(ies)
+- [Chapter 1](chapter-001.md) — 3 study(ies)
 - [Chapter 2](chapter-002.md) — 2 study(ies)
 - [Chapter 3](chapter-003.md) — 3 study(ies)
 - [Chapter 5](chapter-005.md) — 1 study(ies)
@@ -26,7 +26,7 @@ draft: false
 - [Chapter 24](chapter-024.md) — 1 study(ies)
 - [Chapter 25](chapter-025.md) — 1 study(ies)
 - [Chapter 30](chapter-030.md) — 2 study(ies)
-- [Chapter 31](chapter-031.md) — 8 study(ies)
+- [Chapter 31](chapter-031.md) — 9 study(ies)
 - [Chapter 32](chapter-032.md) — 1 study(ies)
 - [Chapter 33](chapter-033.md) — 1 study(ies)
 - [Chapter 46](chapter-046.md) — 1 study(ies)

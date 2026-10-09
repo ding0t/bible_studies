@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 8:12
+- [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 8:9
 <!-- commentary-index:auto-end -->

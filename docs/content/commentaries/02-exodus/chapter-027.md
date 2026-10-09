@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 27:21
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 27:20-21
 <!-- commentary-index:auto-end -->

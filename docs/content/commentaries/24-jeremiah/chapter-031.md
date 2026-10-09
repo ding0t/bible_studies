@@ -15,6 +15,7 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 31:31-34
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 31:34
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 31:31-34
+- [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 31:28
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 31:32
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 31:34
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 31:35-36

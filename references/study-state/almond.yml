@@ -4,7 +4,7 @@
 
 slug: "almond"
 title: "The Almond"
-status: drafting # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
 target_path: "docs/content/jesus/the-heavenly-pattern/almond.md"
 
 primary_passage: "Numbers 17:1-13"
