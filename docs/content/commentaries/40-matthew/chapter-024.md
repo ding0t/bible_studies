@@ -24,6 +24,7 @@ draft: false
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 24:44
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 24:1-2
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 24:30-31
+- [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 24:15-20
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 24:20
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 24:29
 - [The Day Is Near](../../last-things/day-is-near.md) — 24:3-14

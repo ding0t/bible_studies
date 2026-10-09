@@ -1,0 +1,42 @@
+# State file created 2026-10-09 by review-bible-study. The study (first drafted 2025-05, rewritten
+# as a brief study 2026-08-24 in 8cd1304d) predates this skill's tracking: no exegesis, hermeneutics
+# or drafting phases were recorded live, and none are backfilled here. Only the review below is real.
+
+slug: "hebrew-roots"
+title: "Hebrew Roots of Christianity"
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/israel-and-church/hebrew-roots.md"
+primary_passage: "Colossians 2:16-17"
+
+review_2026-10-09:
+  by: "review-bible-study (subagent), edits applied in the same pass on the caller's instruction; not committed, provenance not refreshed"
+  checked:
+    - "Every ESV quotation re-queried in study-notes.db (2 Tim 3:16, 3:8; Luke 24:27; Heb 10:1; Col 2:16-17; Matt 5:17-18; 1 Cor 5:7-8; Rom 15:4; Acts 17:11; Gal 5:2-4; Acts 15:10; Lev 23:4; Ps 119:105; Gen 2:2; Jude 9, 14): all verbatim."
+    - "ESVSB notes on Jude 8-10, 14-16, 2 Tim 3:8 and intro to Jude; CSB Ancient Faith Jude intro; NLT LASB Jude 9; NIVBT, NIV/NKJV Cultural Backgrounds on Jude 9, 14-15."
+    - "TWOT 910d tora 'direction', 878b moed 'appointed time', 2063d miqra 'convocation'; Strong's H4744 and H3384 definitions; Lev 23:4 interlinear (moade, miqrae qodesh)."
+    - "Primary witnesses for Jude 9: Origen, De Principiis 3.2.1 (ANF 4) and Clement of Alexandria, Comments on Jude (ANF 2) name the Ascension/Assumption of Moses; Charles's Assumption of Moses (scrollmapper raw) breaks off at 12:8 before Moses's death."
+    - "Internal links (8) all resolve to draft: false pages; Mishnah version on linked pages is Sefaria Community Translation (CC0) as claimed."
+    - "Statement of faith: Scripture (66 books), Creation (6 days / Sabbath), End times. No conflict found."
+    - "review_gaps; cross_study_claims for Colossians 2 and Jude 1."
+  fixed:
+    - "2 Tim 3:16: 'The New Testament did not yet exist' -> 'he has first in view ... the Old Testament. The New Testament was still being written' (1 Tim 5:18 and 2 Pet 3:16 show NT writings already called Scripture; ESVSB note agrees)."
+    - "Psalm 119:105 was attributed to Jesus ('spoken by the same teacher who called it a lamp') -> attributed to the psalmist."
+    - "Jude 9 source: 'most cautious of the four consulted' (three named) and 'ESVSB declines to commit to a title' (it names Testament of Moses, tentatively in the note, plainly in its intro) -> marked contested, ESVSB quoted, surviving text's break at 12:8 and Origen's naming added; references gained an Extra-biblical witnesses list."
+    - "'Two verses earlier' (Jude 9 vs Jude 14) -> 'Five verses earlier'."
+    - "1 Enoch date marked as debated for the Book of the Watchers; DSS copies noted."
+    - "'fixed rehearsal' / 'what a feast was rehearsing' (Hebrew Roots gloss of miqra, an equivocation on Strong's archaic 'rehearsal' = reading; TWOT 'convocation') -> 'holy convocation' / 'foreshadowing'."
+    - "Torah: 'TWOT glosses the underlying root's sense as direction ... not merely to legislate' -> TWOT glosses tora itself 'direction', noun from yarah H3384 (Strong's: point out, teach)."
+    - "Galatians 5: 'his sharpest language anywhere' -> 'some of his sharpest language' (Gal 1:8-9; 5:12)."
+    - "Mishnah: 'What it documents is older' -> 'Some of what it documents is older ... is debated'; 'Quotations here and on those pages' -> 'on those pages' (none on this page)."
+    - "Col 2:17 quoted under 'Colossians 2:16-17' -> 'Colossians 2:17'. 'He kept its appointed feasts' cited (John 2:13; 7:10)."
+    - "Prayer: 'your Son Jesus', 'more than a thousand years', closes 'In Jesus' name. Amen.' Divine pronouns capitalised in own prose (quotations untouched)."
+    - "Antithesis foils removed: thesis 'is not background reading ... it is'; Cautions 'is not the same thing as'; Torah 'not merely to legislate'."
+    - "Pronunciation and Strong's added: skia, typos, moed (H4150)."
+  left_for_author:
+    - "Prophecy: 'spoke of Him in so many words, not merely by pattern' rests on Luke 24:27, which begins 'with Moses' and does not distinguish prediction from pattern; Luke 24:44 is closer. Unsupported synthetic claim."
+    - "Creation: 'gives the church its calendar rhythm' - which rhythm the church keeps is unstated, and sits awkwardly beside Col 2:16."
+    - "Prayer: 'the Bereans' eagerness without their impatience' - Acts 17:11 records no impatience."
+    - "Frontmatter: Deuteronomy 6:4-7 listed but never cited in the prose; Romans 5:14, John 2:13 and John 7:10 are cited but not listed. Fix, then re-run commentary_index.py."
+    - "'Jesus's Bible, and the apostles' Bible, was the Hebrew Scriptures' - the apostles often quote the Septuagint; true of the canon, loose of the text."
+    - "Jannes and Jambres rests on the ESVSB alone; Origen (ANF 4) and other ANF passages name them, if a primary witness is wanted."
+    - "Validator Check 22 now fires (2,600 prose words, 6 sections, no Study outline) - for read/simplify, not review."
