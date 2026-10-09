@@ -247,6 +247,153 @@ review-bible-study pass should take them up. Still to do: the reference and abou
 - **The author's own:** [Statement of Faith](statement-of-faith.md) has 21 ", not". It records
   settled conviction, so any change to it is the author's call.
 
+### 0.11 Content questions from the 0.10 pass
+
+The style passes in [0.10](#010-cut-the-ai-register) changed wording only. Along the way they
+found these content questions, none yet checked against source. Each needs verifying (quotations
+against study-notes.db, Greek and Hebrew against bible-text.db) before it is fixed. Items marked
+*author* need new wording or a judgment only the author can make.
+
+**Across many of the 19 pages**
+
+- Pronouns for God and Jesus are lowercase in the studies' own prose (style-guide rule 8). The
+  0.10 pass capitalised only the lines it touched; each page needs one full sweep, leaving
+  quotations alone. Worst: Bread of Life (about 30), The Woman Who Touched the Fringe, The Day Is
+  Near, Bible Prophecy Essentials and all seven apostle pages.
+- Prayers that never name Jesus or close "In Jesus' name. Amen.": The Trumpet Call of God, The Day
+  No One Knows, The Woman Who Touched the Fringe and all seven apostle pages.
+- *Author:* no sentence saying what the passage shows about God, or no "so you…" landing:
+  Prophecy Events and Times, Christians and Deliverance Ministry (neither has Key Takeaways), The
+  Trumpet Call of God ("Then and now"), Genealogy and Times (closing section), What Creation
+  Declares (science section), The Woman Who Touched the Fringe ("Theological principle"), The
+  Twelve ("Theological principle", election unnamed), Simon the Zealot, Bible Prophecy Essentials
+  (God keeps His word).
+
+**Bible Prophecy Essentials**
+
+- 2 Samuel 5:2 is called "Nathan's word to David"; in 5:1-2 the tribes at Hebron quote the LORD.
+  Nathan's oracle is 2 Samuel 7.
+- The LXX is said to predate any crucifixion of a Jew by about two centuries. Alexander Jannaeus
+  crucified Jewish opponents about 88 BC (Josephus, *Antiquities* 13.380).
+- Brenton's edition is called "translated some two centuries before Christ"; Brenton is 1844.
+- "A claim no other ancient religious text makes at the same scale" is uncited; "Both Testaments
+  treat…" cites only Matthew 24:5.
+- The frontmatter `description` keeps "genuine… rather than assumed".
+
+**The Trumpet Call of God**
+
+- "The dead in Christ" is attributed to 1 Corinthians 15 (it is 1 Thessalonians 4:16), and
+  "incorruptible" is KJV/NKJV; the ESV has "imperishable".
+- The third trumpet is tabled as water-to-blood; Revelation 8:11 has wormwood.
+- The Revelation 11:18 ellipsis drops "rewarding your servants", which weakens "judgment only".
+- Exodus 19:13 makes the Sinai trumpet a summons.
+- "All three judgment cycles" names two; "a fourth" (Revelation 6:8) belongs to the fourth seal
+  only; "a single, sustained blast" against Numbers 10:3's "both are blown".
+
+**Prophecy Events and Times**
+
+- The Luke 23:45 ἐκλιπόντος reading is called "later manuscripts"; it is in P75, Sinaiticus and
+  Vaticanus and is the NA28 text.
+- Anderson dated the Triumphal Entry itself to 6 April AD 32, not "days before".
+- It says it takes no side on the Exodus date, then that the site works to 1446 BC.
+- A References entry cites an "open discrepancy noted above" that the study never discusses.
+- Herod's death in 4 BC is stated as fixed; the 1 BC date has defenders.
+
+**Dreams and Visions**
+
+- Jeremiah 23:32 is called the chapter's closing verdict (the chapter runs to v.40), and the Baal
+  comparison misreads v.27.
+- "Every dream… protects his life" does not fit Matthew 1:20-21.
+- The Acts 10:17 quotation has no translation label.
+- Heading "a hierarchy, not a flat category" is an antithesis; renaming it means updating the
+  Study outline link.
+
+**What Creation Declares**
+
+- The prayer quotes Hebrews 1:3 as "the exact imprint of your nature"; the ESV has "his".
+- "Biologists once assumed the 'simplest' living cell must be complex": probably "simple".
+- "At the close of Romans 11:35" probably means Romans 11.
+- *Author:* Discussion question 3 asks the reader to judge the study's fairness and needs replacing.
+
+**Genealogy and Times**
+
+- The Samaritan Pentateuch's Methuselah is counted as independent support for the Masoretic Text in
+  two places and as an editor's fix in a third.
+
+**Christians and Deliverance Ministry**
+
+- The empty-house argument does not say what the danger is to a believer, whose place the study
+  says the Holy Spirit fills.
+- "Every occurrence" does not fit John 10:21; deliverance is placed "at conversion" in one place
+  and "at the cross" in another; the κολαφίζω caveat is stated twice.
+- A block-quoted line may be the site's own words.
+
+**The Day No One Knows**
+
+- A textual-note paragraph sits under the Prayer heading.
+- "Lessons about Jesus" repeats a later paragraph almost word for word.
+- The "birth-pangs checklist" has no citation (Matthew 24:6-8).
+- "No question of incarnational limitation" after the resurrection rests on an unstated
+  state-of-exaltation distinction.
+
+**Assurance of Salvation**
+
+- 2 Timothy 1:12 is spliced to end "entrusted to" him; the ESV reads "entrusted to me".
+- John 20:31's evangelistic aim is stated as settled; the *pisteusēte*/*pisteuēte* variant is
+  contested.
+- The council's condemnation of Jesus is cited to Acts 4; it comes from the Gospels.
+
+**The Woman Who Touched the Fringe**
+
+- It says three times that this is the only place Jesus calls a woman "Daughter"; Matthew 9:22
+  and Luke 8:48 do too, and Luke 23:28 has "Daughters of Jerusalem".
+- Mark 6:56 has the sick touching the κράσπεδον, against "the detail is not Mark's interest" and
+  "the one place in Mark where someone touches Jesus first" (see also Mark 3:10).
+
+**Bread of Life**
+
+- Mark 6:39 is bolded as "lie down"; the ESV has "sit down" (ἀνακλῖναι, recline). The Psalm 23
+  argument leans on it.
+- ἐπιούσιος is called "the rarest word in the New Testament"; it occurs twice.
+- ESV wording under a WEB block quote (1 Kings 17); five quotations near the end have no
+  translation label.
+- "Abundant" in the closing against "sufficient, never abundant" earlier; one claim made twice.
+- Be Transformed labels use `**Think:**`, against the site's `**Think.**`.
+
+**Israel and the Church**
+
+- The καινός/νέος distinction is overstated: Colossians 3:10 uses νέος for the "new self" that
+  Ephesians 4:24 calls καινός.
+
+**Bible Translations & Source Texts**
+
+- "Four Hebrew words" lists three (Song of Songs 8:6); "only the LSB prints the name" while WEB,
+  ASV and YLT do too; "three committees footnote" shows two.
+- The link to the Hebrew New Testaments points at `#hebrew-old-testament`. The same wrong anchor
+  is on [Public Data Sources](../resources/public-data-sources.md) and possibly the Glossary.
+
+**The Day Is Near**
+
+- James 5:7's μακροθυμέω is defined as patience and *hypomonē* as endurance, yet Be Transformed
+  and the prayer call 5:7 "endurance"; "James uses both… at 5:8 and 5:11" reads as if 5:8 has
+  *hypomonē*.
+
+**The Twelve and the apostle pages**
+
+- "Nine of the Twelve never speak" and "Six never speak" contradict each other, and neither count
+  fits.
+- Matthew and Simon "four places apart" holds only in Mark (The Twelve, Matthew, Simon the Zealot).
+- "Four independent lists" is not marked contested; the pages disagree on whether Simon belonged to
+  the Zealot party.
+- Thomas speaks four times in John, not three.
+- Thaddaeus is called tenth in the Synoptic lists; Luke has him eleventh. The Jude argument rests
+  on "son of James" where the Greek has a bare genitive, "Judas of James".
+- Judas Iscariot: the explanation "he was a thief" is in John 12:6, the first mention, not the
+  second; the *metamelomai*/*metanoeō* contrast is stated as settled despite Matthew 21:29, 32.
+- Bartholomew: "Come and see" is Philip's invitation, not Jesus'.
+- Simon the Zealot: "Both men were standing there" (Matthew 22:15-22) is not in the text.
+- Matthew: "everyone else in his profession" overstates Luke 5:29.
+
 ## 1. Scripture
 
 ### 1.1 Extra-biblical texts
