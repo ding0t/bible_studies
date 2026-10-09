@@ -710,8 +710,8 @@ ALMOND_DESC = ("Plate in four parts. First, the staffs before the testimony on t
                "bare staffs, each with a name on it, and Aaron's in the middle covered in leaves, buds, white almond "
                "blossoms and ripe almonds; one bare staff is dashed because Numbers 17:6 can be read as twelve staffs "
                "with Aaron's or as twelve and Aaron's, thirteen. Second, the four verbs of Numbers 17:8 drawn as four "
-               "stages of one branch: sprouted (parach), put forth buds (perach), produced blossoms (tsits), bore "
-               "ripe almonds (shaqed). Third, three things the staff shares a Hebrew word with: the lampstand's "
+               "stages of one branch: it sprouted (parach), brought out buds (yatsa with the noun perach), "
+               "blossomed blossoms (tsuts with the noun tsits), and ripened almonds (gamal, with shaqed). Third, three things the staff shares a Hebrew word with: the lampstand's "
                "almond cups and their flower, perach (Exodus 25:33); the gold plate on Aaron's turban engraved Holy "
                "to the LORD, tsits (Exodus 28:36); and Jeremiah's almond branch, shaqed, which God answers with "
                "shoqed, 'I am watching' (Jeremiah 1:11-12). The words are stated; that Numbers meant the link is "
@@ -722,7 +722,7 @@ ALMOND_DESC = ("Plate in four parts. First, the staffs before the testimony on t
 
 
 def build_almond():
-    W, H = 720, 1670
+    W, H = 720, 1720
     shaqed, meshuqqad = evidence_count('shaqed-count'), evidence_count('meshuqqad-count')
     body = []
 
@@ -753,14 +753,20 @@ def build_almond():
     # 2. Four verbs.
     y2 = 550
     body.append(section_head(W, y2, 'One night, four verbs (Numbers 17:8)',
-                             'Numbers lists the stages in order. It does not say whether all four stood on the staff at once.'))
-    stages = [('had sprouted', 'פָּרַח', 'parach, H6524'), ('put forth buds', 'פֶּרַח', 'perach, H6525'),
-              ('produced blossoms', 'צִיץ', 'tsits, H6731'), ('bore ripe almonds', 'שְׁקֵדִים', 'shaqed, H8247')]
+                             'Two verbs carry their own noun, as in “blossomed blossoms.” Numbers does not say whether '
+                             'all four stages stood on the staff at once.'))
+    # (English, verb, verb transliteration, the noun it takes, noun transliteration). Two verbs carry
+    # their own noun ("brought out buds", "blossomed blossoms"), and those nouns are the words the
+    # staff shares with the lampstand and the high priest's plate below.
+    stages = [('had sprouted', 'פָּרַח', 'parach, H6524', None, None),
+              ('brought out buds', 'יָצָא', 'yatsa, H3318', 'פֶּרַח', 'perach, H6525'),
+              ('blossomed blossoms', 'צוּץ', 'tsuts, H6692', 'צִיץ', 'tsits, H6731'),
+              ('ripened almonds', 'גָּמַל', 'gamal, H1580', 'שְׁקֵדִים', 'shaqed, H8247')]
     col = (W - 80) / 4
     base = y2 + 190
-    for i, (eng, word, xlit) in enumerate(stages):
+    for i, (eng, word, xlit, noun, noun_xlit) in enumerate(stages):
         cx = 40 + col * (i + 0.5)
-        body.append(f'<rect x="{cx - col / 2 + 8}" y="{y2 + 46}" width="{col - 16}" height="250" rx="6" fill="#fffdf6" stroke="{RULE}" stroke-width="0.8"/>')
+        body.append(f'<rect x="{cx - col / 2 + 8}" y="{y2 + 46}" width="{col - 16}" height="300" rx="6" fill="#fffdf6" stroke="{RULE}" stroke-width="0.8"/>')
         body.append(f'<path d="M{cx - 40} {base} Q{cx} {base - 30} {cx + 40} {base - 110}" fill="none" stroke="{WOOD}" stroke-width="5" stroke-linecap="round"/>')
         tips = [(cx - 14, base - 22), (cx + 8, base - 52), (cx + 28, base - 88)]
         for j, (tx, ty) in enumerate(tips):
@@ -773,21 +779,25 @@ def build_almond():
             else:
                 body.append(leaf(tx - 6, ty - 4, -40) + almond(tx + 4, ty - 10, 25))
         body.append(f'<text x="{cx}" y="{base + 34}" text-anchor="middle" font-size="13" fill="{INK}">{eng}</text>')
-        body.append(heb(cx, base + 62, word, 21))
-        body.append(f'<text x="{cx}" y="{base + 82}" text-anchor="middle" font-size="11" fill="{MUTED}" font-style="italic">{xlit}</text>')
+        body.append(heb(cx, base + 60, word, 20))
+        body.append(f'<text x="{cx}" y="{base + 78}" text-anchor="middle" font-size="11" fill="{MUTED}" font-style="italic">{xlit}</text>')
+        if noun:
+            body.append(f'<text x="{cx}" y="{base + 96}" text-anchor="middle" font-size="10.5" fill="{MUTED}">noun:</text>')
+            body.append(heb(cx, base + 114, noun, 16, '#5a4a2c'))
+            body.append(f'<text x="{cx}" y="{base + 130}" text-anchor="middle" font-size="10.5" fill="{MUTED}" font-style="italic">{noun_xlit}</text>')
         if i:
             body.append(f'<text x="{40 + col * i}" y="{base - 40}" text-anchor="middle" font-size="18" fill="{MUTED}">›</text>')
 
     # 3. Words it shares.
-    y3 = 920
+    y3 = 970
     body.append(section_head(W, y3, 'The words the staff shares',
                              f'Shaqed, “almond,” occurs {shaqed} times in the Hebrew Bible; meshuqqad, “made like almond '
                              f'blossoms,” {meshuqqad} times, every one of them the lampstand.'))
     cards = [
         ('The lampstand’s flower', 'פֶּרַח', '“each with calyx and flower” — Exodus 25:33; Numbers 8:4',
-         'Same word as “buds”: stated', 'That Numbers meant the link: likely'),
+         'Same noun as the staff’s “buds”: stated', 'That Numbers meant the link: likely'),
         ('Aaron’s gold plate', 'צִיץ', '“a plate of pure gold … ‘Holy to the LORD’” — Exodus 28:36',
-         'Same word as “blossoms”: stated', 'That Numbers meant the link: likely'),
+         'Same noun as the staff’s “blossoms”: stated', 'That Numbers meant the link: likely'),
         ('Jeremiah’s almond branch', 'שָׁקֵד · שֹׁקֵד', '“I am watching over my word to perform it” — Jeremiah 1:11-12',
          'Almond / watching: God makes the pun', 'Heard in Numbers 17: a suggestion'),
     ]
@@ -818,7 +828,7 @@ def build_almond():
         body.append(wrap(inferred, x + 26, top3 + 257, 30, 10.5, MUTED))
 
     # 4. Where the staff went.
-    y4 = 1440
+    y4 = 1490
     stops = [('Kept before the testimony', 'Numbers 17:10', False, 'staff'),
              ('Taken “from before the LORD” at Meribah?', 'Numbers 20:9 — 20:11 says “his staff”', True, 'rock'),
              ('With the ark', 'Hebrews 9:4; in it or before it, see 1 Kings 8:9', False, 'ark'),

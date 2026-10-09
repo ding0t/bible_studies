@@ -136,37 +136,46 @@ images:
       AI-generated illustration; the arrangement of the scene is not described in Numbers.*
     grounded_in: "Num 17:9 (brought out to all the people; they looked; each took his staff); Num 17:8 (sprouted, buds, blossoms, ripe almonds); Num 17:2-3 (names written on the staffs); Exod 26:7, 14 (goat-hair and red-dyed ram-skin coverings); Exod 27:9-16 (linen court hangings, coloured east gate screen); Num 9:15-16 (the cloud over the tabernacle)."
     prompt: |
-      A realistic oil painting in warm, natural light, wide landscape format (3:2). Dawn in the
-      wilderness of Sinai, about 1400 BC. The low sun rises behind the viewer and lights the scene.
+      A realistic oil painting in warm, natural light, wide landscape format (3:2). Early morning in
+      the wilderness of Sinai, about 1400 BC.
 
       In the middle distance stands the wilderness tabernacle. It is a long, low tent covered in dark
       goat-hair cloth with an outer layer of ram skins dyed red. It stands inside a rectangular court
       of white linen curtains hung on bronze-based posts, with an embroidered entrance screen of blue,
-      purple and scarlet on the east side. A soft column of white cloud rests above the tent.
+      purple and scarlet. Above the tent hangs a soft, still pillar of white cloud. It is cloud, not
+      smoke: billowy and luminous, resting quietly, with no fire beneath it and no dark plume.
 
-      In the foreground, just outside the court entrance, an old man seen from behind and slightly to
-      one side (Moses, no face visible) holds up a single wooden staff in his right hand. That staff
-      alone has come alive overnight. Along its whole length it carries fresh green almond leaves,
-      small pink buds, open almond blossoms (five white petals, each with a deep pink centre), and
-      clusters of plump, velvety green almonds, some with the hull split to show the pale brown shell.
-      Draw it botanically accurate, like a real flowering almond branch, but growing from an old,
-      dry, cut walking staff.
+      In the foreground, just outside the court, an old man seen from behind and slightly to one side
+      (Moses, no face visible) holds up a single wooden staff in his right hand. That staff alone has
+      come alive overnight. Along its whole length it carries fresh green almond leaves, a few pink
+      buds, open almond blossoms (five white petals, each with a deep pink centre), and at least as
+      many clusters of RIPE almonds as blossoms. The almonds are mature: plump, velvety grey-green
+      hulls, many split open to show the pale tan, pitted shell inside. Draw it botanically accurate,
+      like a real flowering and fruiting almond branch, but growing from an old, dry, cut walking staff.
 
-      In his left arm he carries a bundle of eleven or twelve other staffs. They are plain, dry and
-      bare, with a few short marks cut near the top of each.
+      With his left arm he carries exactly twelve other staffs, plain, dry and bare, each about as tall
+      as a man, with a few short marks cut near the top. He carries them HORIZONTALLY, as a bundle laid
+      across the crook of his bent left arm and cradled against his side, the way a man carries a
+      bundle of long poles. His left hand grips the bundle from below, and the ends stick out level in
+      front of and behind him. His arm and hand must be anatomically natural, with the elbow bent and
+      the forearm under the bundle.
 
       Facing him in a loose half-circle are about a dozen tribal elders in simple Late Bronze Age
       Semitic dress: undyed and earth-coloured wool robes, mantles with coloured borders, head cloths,
-      sandals. They are small in the frame and turned toward the staff, mostly seen from the side or
-      behind, with no detailed faces. Behind them, the tents of a vast camp stretch across a pale
-      desert plain to bare mountains.
+      sandals. Their hands are EMPTY; none of them holds a staff. They are small in the frame and turned
+      toward the blossoming staff, mostly seen from the side or behind, with no detailed faces.
+      Behind them, the tents of a vast camp stretch across a pale desert plain to bare mountains, with
+      the low sun at the left horizon.
 
-      Mood: hushed, awed, the moment before each man reaches out to take back his own bare staff.
+      Mood: hushed, awed, the moment before Moses hands each man back his own bare staff.
 
       Do NOT include: halos, light beams, glowing or radiating objects, angels, a visible face of God
-      or any divine figure, a menorah, a Star of David, any lettering, modern almond orchards, Roman or
-      medieval clothing, metal armour, camels in the foreground, or text or a signature.
+      or any divine figure, smoke or fire above the tent, a menorah, a Star of David, any lettering,
+      modern almond orchards, Roman or medieval clothing, metal armour, camels in the foreground, more
+      than twelve staffs in the bundle, any staff held by the elders, a vertical or upright bundle, or
+      text or a signature.
 open_questions:
+  - "PAINTING TO REDO (author, 2026-10-09): third ChatGPT attempt with the revised prompt (horizontal bundle) still drew the carrying arm unnaturally; the second attempt stays in place. Remaining faults: the bundle holds about 20 staffs, the cloud reads like smoke, and Moses' arm/bundle anatomy."
   - "FIXED 2026-10-09: versification.py lacked 35 Hebrew/English chapter boundaries (incl. Num 16/17, so EN 17:8 resolved to Hebrew 17:8 = EN 16:43). Rules added from versification_map; db rebuilt. The bible-references MCP server must be restarted to load the fix."
   - "Before flipping draft:false, in the SAME commit: add the page to the-heavenly-pattern/index.md's furnishing list and a link from lampstand.md's almond section (never link a draft from a published page -- validator Check 24)."
   - "Fork candidate: Luz/Bethel (Gen 28:19) -- a possible link between luz 'almond' and the place name; not in this thesis."

@@ -2,10 +2,10 @@
 title: "The Almond"
 category: "theology"
 description: "Numbers 17 to Hebrews 7: the almond, whose Hebrew name sounds like 'watching', in the lampstand's gold blossoms and in Aaron's dead staff that budded, flowered and bore ripe almonds overnight to show whom God had chosen to come near Him, and the High Priest He appointed by the power of an indestructible life."
-tags: ["numbers", "exodus", "jeremiah", "hebrews", "temple", "priesthood", "resurrection", "person/aaron", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
+tags: ["numbers", "exodus", "jeremiah", "psalms", "romans", "hebrews", "temple", "priesthood", "resurrection", "person/aaron", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: true
 primary_passage: "Numbers 17:1-13"
-bible_references: ["Numbers 17:1-13", "Numbers 16:3", "Numbers 16:5", "Numbers 16:10", "Numbers 16:46-48", "Numbers 18:1-7", "Numbers 20:8-11", "Exodus 25:31-36", "Exodus 28:36-38", "Exodus 39:30", "Leviticus 8:9", "Numbers 8:4", "Jeremiah 1:11-12", "Jeremiah 31:28", "Ecclesiastes 12:5", "Genesis 43:11", "Genesis 30:37", "Psalm 110:2", "Psalm 110:4", "1 Kings 8:9", "Romans 1:4", "Hebrews 5:4-6", "Hebrews 7:15-16", "Hebrews 9:4"]
+bible_references: ["Numbers 17:1-13", "Numbers 16:3", "Numbers 16:5", "Numbers 16:10", "Numbers 16:46-48", "Numbers 18:1-7", "Numbers 20:8-11", "Exodus 25:31-36", "Exodus 28:36-38", "Exodus 39:30", "Leviticus 8:9", "Numbers 8:4", "Jeremiah 1:11-12", "Jeremiah 31:28", "Ecclesiastes 12:5", "Genesis 43:11", "Genesis 30:37", "Psalm 110:2", "Psalm 110:4", "1 Kings 8:9", "Romans 1:4", "Hebrews 5:4-6", "Hebrews 7:15-16", "Hebrews 9:4", "Exodus 37:17-20", "Exodus 27:21", "Numbers 16:41", "Numbers 16:49", "Hebrews 7:20-25", "Psalm 2:7", "Jeremiah 1:6-8", "2 Chronicles 5:10"]
 date_created: 2026-10-09
 date_modified: 2026-10-09
 ai_provider_models:
@@ -61,7 +61,7 @@ what each part is for.)*
 - **The Father chose Jesus as High Priest.** Jesus "did not exalt himself to be made a high priest,
   but was appointed by him" (Hebrews 5:5, ESV).
 - **His priesthood rests on His life.** Aaron's sons served until they died. Jesus serves because He
-  lives and cannot die again (Hebrews 7:16).
+  lives and cannot die again (Hebrews 7:23-24).
 
 ### Memory verses
 
@@ -131,7 +131,7 @@ God made the pun Himself when He called Jeremiah:
 > perform it."
 
 Jeremiah saw *shaqed*; God said He was *shoqed*, "watching." The vision gave a young prophet who was
-afraid to speak (Jeremiah 1:6) a promise: the words God put in his mouth would come true. God uses
+afraid to speak (Jeremiah 1:6, 8) a promise: the words God put in his mouth would come true. God uses
 the same verb later in the book for both halves of Jeremiah's message: "as I have watched over them
 to pluck up and break down ... so I will watch over them to build and to plant" (Jeremiah 31:28,
 ESV). He watched over judgment, and He watches over restoration just as closely.
@@ -142,14 +142,17 @@ The noun occurs four times in the Hebrew Bible. Besides Jeremiah's branch and Aa
 sends almonds to Egypt among "the choice fruits of the land" (Genesis 43:11, ESV), and the Preacher
 describes old age as the time when "the almond tree blossoms" (Ecclesiastes 12:5, ESV). The *NIV
 Biblical Theology Study Bible* reads the pale blossom as white hair (note on Ecclesiastes 12:5). The
-Hebrew verb in that clause is disputed. The unfoldingWord alignment reads it from
-<span dir="rtl">נָאַץ</span> (*naʾats*, H5006, "despise"); MACULA and the Septuagint's ἀνθέω (*antheō*, "to blossom") read
-it as "blossom." A second word, <span dir="rtl">לוּז</span> (*luz*, H3869), names the almond once, among
+Hebrew verb in that clause is disputed. The Open Scriptures morphology tags it as
+<span dir="rtl">נָאַץ</span> (*naʾats*, H5006, "despise"); MACULA reads
+<span dir="rtl">נָצַץ</span> (*natsats*, H5340, "blossom"), as do the Septuagint's ἀνθέω (*antheō*,
+"to blossom") and most English versions. A second word, <span dir="rtl">לוּז</span> (*luz*, H3869), names the almond once, among
 the rods Jacob peeled (Genesis 30:37).
 
-These verses hold the two sides of the tree. The almond blossoms first, and so it watches for spring;
-it blossoms white, and so it marks a life near its end. In Aaron's staff God put the almond on the
-side of life.
+These verses hold the two sides of the tree. The almond blossoms first, and so it watches for spring.
+On the majority reading of Ecclesiastes 12:5 it also blossoms white, and so marks a life near its
+end. The *ESV Study Bible* hears a third note in the white: in Aaron's staff the blossoms "symbolize
+purity, holiness, and God himself, which are all associated with the priesthood" (note on Numbers
+17:1-13). In Aaron's staff God put the almond on the side of life.
 
 ## An almond tree of gold
 
@@ -165,8 +168,7 @@ almond blossoms":
 The word occurs six times, every one of them in the lampstand's description (Exodus 25 and 37). Each
 cup had a calyx and a "flower," <span dir="rtl">פֶּרַח</span> (*perach*, PEH-rakh, H6525).
 [The Lampstand](lampstand.md) follows the furnishing from Sinai to Revelation and draws it from the
-text. What matters here is that before Aaron's staff ever budded, a golden almond tree in flower stood
-in the same tent, and Aaron tended its lamps "from evening to morning" (Exodus 27:21, ESV).
+text. Before Aaron's staff ever budded, a golden almond tree in flower stood in the same tent, and Aaron tended its lamps "from evening to morning" (Exodus 27:21, ESV).
 
 ## Whom God chooses
 
@@ -186,7 +188,7 @@ He put the matter in God's hands: "In the morning the LORD will show who is his,
 will bring him near to him. The one whom he chooses he will bring near to him" (Numbers 16:5, ESV).
 
 God answered with judgment. The ground swallowed Korah's household, fire consumed the two hundred
-and fifty, and a plague broke out against the people who blamed Moses for it. Aaron ran into the
+and fifty, and a plague broke out against the people who blamed Moses and Aaron for it (Numbers 16:41). Aaron ran into the
 crowd with his censer and "stood between the dead and the living, and the plague was stopped"
 (Numbers 16:48, ESV). [The Golden Altar of
 Incense](incense-altar.md#aaron-between-the-dead-and-the-living) takes up that scene.
@@ -203,35 +205,38 @@ man's name on his staff, and write Aaron's name on Levi's (Numbers 17:2-3). Then
 > grumblings of the people of Israel, which they grumble against you."
 
 The word for staff is <span dir="rtl">מַטֶּה</span> (*matteh*, mah-TEH, H4294). It is also the
-ordinary word for "tribe": in the chapters before and after, Numbers uses it of the tribes dozens of
-times. Each chief laid down the emblem of his tribe, and the tribe's name was on the wood.
+ordinary word for "tribe": of its 111 occurrences in Numbers, most mean the tribes. Each chief laid down the emblem of his tribe, and the tribe's name was on the wood.
 
 The chapter says "twelve staffs" and adds that "the staff of Aaron was among their staffs" (Numbers
-17:6, ESV). Whether Aaron's makes twelve or thirteen is not settled. The *ESV Study Bible* counts
-thirteen, since the census lists of Numbers 1 and 7 already have twelve tribes without Levi (note on
-Numbers 17:6). Others count Levi among the twelve, with Joseph as one tribe. The test works the same
-way on either count.
+17:6, ESV). Whether Aaron's makes twelve or thirteen is not settled. The *ESV Study Bible* thinks the
+twelve "probably do not include Aaron's," since the census lists of Numbers 1 and 7 already have
+twelve tribes without Levi, which makes thirteen (note on Numbers 17:6). Read the other way, Aaron's
+staff is one of the twelve. The test works the same way on either count.
 
 The question Korah raised was who may come near to God. God's answer was to choose, and to show His
 choice where everyone could see it, in a way no man could fake.
 
 ## One night, a whole season
 
-[![Plate of the almond in four parts. First, the staffs on the morning after: a row of bare staffs and Aaron's in the middle covered in leaves, buds, white almond blossoms and ripe almonds, with one bare staff dashed because Numbers 17:6 can be read as twelve or thirteen staffs. Second, the four verbs of Numbers 17:8 as four stages of a branch: sprouted, put forth buds, produced blossoms, bore ripe almonds, with their Hebrew words. Third, three things the staff shares a word with: the lampstand's cup and flower (perach, Exodus 25:33), the gold plate engraved Holy to the LORD on Aaron's turban (tsits, Exodus 28:36), and Jeremiah's almond branch (shaqed and shoqed, Jeremiah 1:11-12), each marked with what is stated and what is inferred. Fourth, where the staff went: before the testimony, possibly to Meribah, with the ark, and as a type of life from the dead. It closes with Jeremiah 1:12.](../../assets/img/sanctuary-almond.svg)](../../assets/img/sanctuary-almond.svg)
+[![Plate of the almond in four parts. First, the staffs on the morning after: a row of bare staffs and Aaron's in the middle covered in leaves, buds, white almond blossoms and ripe almonds, with one bare staff dashed because Numbers 17:6 can be read as twelve or thirteen staffs. Second, the four verbs of Numbers 17:8 as four stages of a branch: sprouted, brought out buds, blossomed blossoms, ripened almonds, with their Hebrew verbs and nouns. Third, three things the staff shares a word with: the lampstand's cup and flower (perach, Exodus 25:33), the gold plate engraved Holy to the LORD on Aaron's turban (tsits, Exodus 28:36), and Jeremiah's almond branch (shaqed and shoqed, Jeremiah 1:11-12), each marked with what is stated and what is inferred. Fourth, where the staff went: before the testimony, possibly to Meribah, with the ark, and as a type of life from the dead. It closes with Jeremiah 1:12.](../../assets/img/sanctuary-almond.svg)](../../assets/img/sanctuary-almond.svg)
 
 ### Four verbs
 
-Numbers 17:8 piles up four verbs: the staff "had sprouted"
-(<span dir="rtl">פָּרַח</span>, *parach*, H6524), "put forth buds" (<span dir="rtl">פֶּרַח</span>,
-*perach*), "produced blossoms" (<span dir="rtl">צִיץ</span>, *tsits*, H6731), and "bore ripe almonds"
-(<span dir="rtl">גָּמַל</span>, *gamal*, H1580, "to bring to full ripeness"). The *NIV Biblical
+Numbers 17:8 piles up four verbs, and two of them carry their own noun. The staff "had sprouted"
+(<span dir="rtl">פָּרַח</span>, *parach*, H6524); it "brought out buds" (<span dir="rtl">יָצָא</span>,
+*yatsa*, H3318, with the noun <span dir="rtl">פֶּרַח</span>, *perach*); it "blossomed blossoms"
+(<span dir="rtl">צוּץ</span>, *tsuts*, H6692, with the noun <span dir="rtl">צִיץ</span>, *tsits*,
+H6731); and it "ripened almonds" (<span dir="rtl">גָּמַל</span>, *gamal*, H1580, "to bring to full
+ripeness"). The ESV smooths these into "put forth buds and produced blossoms, and it bore ripe
+almonds." The Hebrew lets the verb and its noun echo each other, as English does with "blossomed
+blossoms. The *NIV Biblical
 Theology Study Bible* observes that budding or even blossoming might happen in a night, but ripe
-fruit cannot (note on Numbers 17:8). The other eleven staffs were taken back
-unchanged (Numbers 17:9). Only the staff with Aaron's name on it showed life.
+fruit cannot (note on Numbers 17:8). The other staffs were taken back unchanged
+(Numbers 17:9). Only the staff with Aaron's name on it showed life.
 
 ### The words it shares
 
-Two of those words reach into the rest of the tent.
+Two of those nouns reach into the rest of the tent.
 
 - **The lampstand's flower.** *Perach* is the "flower" on every cup of the lampstand (Exodus 25:31,
   33-34; 37:17-20) and the "flowers" Numbers 8:4 says were hammered work. The staff put out what the
@@ -241,8 +246,7 @@ Two of those words reach into the rest of the tent.
   (Exodus 28:36, ESV; also Exodus 39:30; Leviticus 8:9). It shone on his forehead "that they may be
   accepted before the LORD" (Exodus 28:38, ESV). The staff blossomed with the same word Aaron wore.
 
-The words are in the text, and both are certain. What Moses meant by them is a different question.
-*Perach* and *tsits* are ordinary Hebrew for a bud and a flower, and Numbers 17:8 may use them only
+The shared words are certain. *Perach* and *tsits* are also ordinary Hebrew for a bud and a flower, and Numbers 17:8 may use them only
 because they describe a branch in bloom. Taken with the almond itself, three things in the tent bore
 one picture: the tree of light Aaron tended, the plate he wore, and the staff that bore his name. It
 is likely, and not stated, that Israel was meant to see the three together.
@@ -252,9 +256,8 @@ is likely, and not stated, that Israel was meant to see the three together.
 The *NIV Biblical Theology Study Bible* hears Jeremiah's pun in Numbers 17 too. The almond, *shaqed*,
 may point to the priests' duty of watching over the tent so that no outsider came near (note on
 Numbers 17:8; Numbers 18:1-7). That reading is attractive and remains a suggestion: Numbers 18 uses a
-different verb for the priests' guard duty, <span dir="rtl">שָׁמַר</span> (*shamar*, H8104). What
-can be said is that the tree whose name means "watching" marked the man God appointed to keep watch
-over His house.
+different verb for the priests' guard duty, <span dir="rtl">שָׁמַר</span> (*shamar*, H8104). The tree whose name sounds like "watching" still marked the man God appointed to keep watch over
+His house.
 
 ## A sign kept before the testimony
 
@@ -290,8 +293,9 @@ rod, so the identification is uncertain.
 Hebrews lists "Aaron's staff that budded" (Hebrews 9:4, ESV) with the manna and the tablets in the
 ark, where Numbers says "before the testimony" and 1 Kings 8:9 says the ark held only the tablets by
 Solomon's day. [The Ark of the Covenant](ark.md#what-was-in-it) sets out the readings that keep all
-three texts true. The Greek word for "budded" is βλαστάνω (*blastanō*, G985). Hebrews remembers the
-staff by its miracle.
+three texts true. Hebrews' word for "budded," βλαστάνω (*blastanō*, G985), comes from the Greek of Numbers itself:
+the Septuagint uses it twice in Numbers 17:8, for the sprouting and for the almonds. Hebrews names
+the staff by the verb of its miracle.
 
 ## The Priest God chose
 
@@ -307,7 +311,7 @@ Hebrews draws the principle that Numbers 17 proved and applies it to Jesus:
 > priest forever, after the order of Melchizedek."
 
 Korah's company tried to take the priesthood for themselves. Jesus received it from the Father, who
-spoke the two oaths of Psalm 2:7 and Psalm 110:4 over Him. Psalm 110 has its own *matteh*: "The LORD
+spoke Psalm 2:7 over Him and swore Psalm 110:4 (Hebrews 7:20-21). Psalm 110 has its own *matteh*: "The LORD
 sends forth from Zion your mighty scepter" (Psalm 110:2, ESV), the staff of the priest-king two
 verses before he is sworn "a priest forever." The shared word is real. Whether the psalmist meant
 Aaron's staff to be heard in it, the text does not say. [Jesus, Priest in the Order of
@@ -328,22 +332,24 @@ priest died (Hebrews 7:23). Jesus' rests on something else:
 
 ### The type, and its limits
 
-This is where the staff becomes a picture, and the confidence needs marking. God settled Aaron's
+God settled Aaron's
 priesthood by bringing life out of dead wood overnight, in the presence of the testimony. God settled
 His Son's priesthood by raising Him from the dead, and Jesus "was declared to be the Son of God in
 power ... by his resurrection from the dead" (Romans 1:4, ESV). Both times the sign was life where
 there had been none, and both times it ended the argument over whom God had chosen.
 
 That resemblance is what makes Aaron's staff a type. Hebrews names the staff (Hebrews 9:4) and states
-the principle (Hebrews 5:4), but it never says "the staff pictured the resurrection," and this study
-holds that connection with an open hand. The church has read it this way for a long time; the
-reading rests on the pattern the two texts share. [We Shall All Be
+the principle (Hebrews 5:4), but it never says "the staff pictured the resurrection," so the connection is a likely reading
+and an unstated one. The early church made it. Justin Martyr wrote that "Aaron's rod, which
+blossomed, declared him to be the high priest" (*Dialogue with Trypho* 86), and the *Apostolic
+Constitutions* argue from it to the resurrection itself: "He that made Aaron's dry rod put forth
+buds, will raise us up in glory" (5.7). [We Shall All Be
 Changed](../../last-things/we-shall-all-be-changed.md) follows the resurrection God has promised to
 everyone who belongs to Jesus.
 
 ## What the almond shows about God
 
-This table sorts the study's connections by how directly Scripture makes each one.
+Each connection, sorted by how directly Scripture makes it:
 
 | Connection | Where | How firm |
 |---|---|---|
@@ -372,7 +378,7 @@ intercession" for those who "draw near to God through him" (Hebrews 7:25, ESV).
 2. The staff test came after Korah's rebellion, the earthquake, the fire and the plague (Numbers 16).
    Why do you think God followed judgment with a sign, and kept the sign "lest they die" (Numbers
    17:10)?
-3. Each chief's staff was his tribe's emblem, *matteh*, with his name on it. What were the eleven
+3. Each chief's staff was his tribe's emblem, *matteh*, with his name on it. What were the other
    chiefs being asked to accept when they took their unchanged staffs back?
 4. Hebrews 5:4 says no one takes the priesthood "for himself." How does the resurrection settle who
    God chose, in the way the budded staff did for Aaron? Where does the comparison stop?
@@ -395,9 +401,15 @@ intercession" for those who "draw near to God through him" (Hebrews 7:25, ESV).
   almonds are Hebrew 17:23).
 - Original-language data from this project's `bible-text.db` — unfoldingWord interlinear (UHB/ULT/UGNT)
   for Numbers 17:2, 17:8, Exodus 28:36, Psalm 110:2, Ecclesiastes 12:5 and Hebrews 9:4; MACULA
-  concordance for <span dir="rtl">שָׁקֵד</span>, <span dir="rtl">שָׁקַד</span>,
-  <span dir="rtl">מְשֻׁקָּד</span>, <span dir="rtl">לוּז</span>, <span dir="rtl">מַטֶּה</span>,
-  <span dir="rtl">פֶּרַח</span> and <span dir="rtl">צִיץ</span>; WEB verse text.
+  concordance for <span dir="rtl">שָׁקֵד</span> (H8247), <span dir="rtl">שָׁקַד</span> (H8245),
+  <span dir="rtl">מְשֻׁקָּד</span> (H8246), <span dir="rtl">לוּז</span> (H3869),
+  <span dir="rtl">מַטֶּה</span> (H4294), <span dir="rtl">פֶּרַח</span> (H6525) and
+  <span dir="rtl">צִיץ</span> (H6731); WEB verse text.
+- ***The Septuagint***, Brenton's edition (public domain) — Numbers 17:23 (English 17:8), for
+  βλαστάνω.
+- Justin Martyr, ***Dialogue with Trypho*** 86, and the ***Constitutions of the Holy Apostles***
+  5.7, in the *Ante-Nicene Fathers* (vols. 1 and 7; public domain). Extra-biblical; cited as the
+  early church's reading, never as Scripture.
 
 ### On this site
 
