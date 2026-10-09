@@ -196,7 +196,8 @@ capital letters, so nothing in the source text settles it either way.
 
 ## The tell: words that assert confidence instead of earning it
 
-Bare intensifiers — **genuinely, truly, actually, really, certainly, indeed, undeniably** — let a
+Bare intensifiers — **genuinely, truly, actually, really, certainly, indeed, undeniably, exactly,
+honestly** — let a
 sentence claim something while also pre-empting the reader's doubt about it, without adding any
 information. "God's provision is genuinely abundant" claims nothing "God's provision is abundant"
 doesn't; the extra word is there to sound more sure, not to be more sure. Cut it — don't swap in a
@@ -669,10 +670,12 @@ shows up in the rendered page.
 ## A pre-publish check
 
 Before a draft goes to `draft: false`, grep it for: `genuinely, truly, actually, really, certainly,
-indeed, crucial, profound, compelling, delve, tapestry, boundless, unwavering, testament to, underscores,
-highlights, notably, importantly, that said`. None of these are banned outright — the test for each hit
-is "does this word add information, or just add volume?" Delete the ones that fail that test; leave the
-ones that pass it.
+indeed, exactly, honest, honestly, crucial, profound, compelling, delve, tapestry, boundless, unwavering,
+testament to, underscores, highlights, notably, importantly, that said`. None of these are banned
+outright — the test for each hit is "does this word add information, or just add volume?" Delete the
+ones that fail that test; leave the ones that pass it. *Exactly* passes when it states a measured
+fact ("exactly 490 years") and fails as emphasis ("this is exactly what Paul means"); a 2026-10-09
+tidy of `numerology.md` cut it from 8 to 1. *Honest* almost always fails: it vouches for the writer.
 
 Grep separately for `worth` — as a template with an open slot it can't be caught by a word list, and
 it is the tell most likely to still be in the draft. `npm run validate` also flags it (warning level,
