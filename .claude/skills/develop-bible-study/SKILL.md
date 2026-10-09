@@ -260,8 +260,10 @@ a study went to press asserting Tobit was unavailable while Tobit sat in
 habits prevent it. Run `python3 references/check_sources.py` (from the repo root) — its **raw-only**
 list is exactly the set of sources present on disk that `query.py` and the MCP tools *cannot* see,
 so a `bible_verse` miss proves nothing about them. And remember `build.py` ingests six of the
-open-data submodules and skips the rest; deuterocanonical and apocryphal books are skipped by
-design, so they must be read as raw `sources/<lang>/<book>/` files.
+open-data submodules and skips the rest. The English deuterocanon and pseudepigrapha (KJV
+Apocrypha, 1 Enoch, Jubilees) must be read as raw `sources/<lang>/<book>/` files; their Greek is
+queryable, as fourteen deuterocanonical books in `ebible-grcbrent` and the Odes, Psalms of Solomon
+and Psalm 151 in `swete-lxx`.
 
 **External material resolves through `$BIBLE_MEDIA_ROOT`**, not a hardcoded path — `study-notes.db`,
 the patristics corpus and the TWOT scans all live there. Use `references/build/media_root.py` rather

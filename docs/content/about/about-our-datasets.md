@@ -33,7 +33,7 @@ Four other pages take up neighbouring questions:
   own vocabulary: lemma, parsing, semantic domain, MACULA.
 - [Patristic Sources](../resources/patristic-sources.md) covers the church fathers.
 
-[![Where the data comes from. Three licence tiers across the top. Open, quoted at any length: the Hebrew and Greek texts (WLC, UHB, SBLGNT, UGNT, Brenton LXX, Tischendorf), word data from MACULA and Strong's, 29 English versions with the WEB as the default, 831,290 cross-references, and unfoldingWord's word alignment. Restricted, used and flagged non-commercial: 262 Dead Sea Scrolls, the Byzantine and Textus Receptus Greek, the Samaritan Pentateuch, a few English versions, and BHSA and Mounce held but not ingested. Quotation-only, a sentence or two with attribution: 11 study Bibles and texts, TWOT's discussion prose, and the Bible Knowledge Commentary read by hand. Open and restricted sources feed bible-text.db in the public repository, 320 works and 1,216,583 verses. Quotation-only sources feed study-notes.db on local storage, never committed. An MCP server with 33 lookup tools, and the query.py command line, read both databases. A study's language claims resolve to rows in them, and the verse and word pop-ups are built from the open tier only. The church fathers and unvetted teaching notes are held beside them and read by hand.](../assets/img/about/data-sources.svg)](../assets/img/about/data-sources.svg)
+[![Where the data comes from. Three licence tiers across the top. Open, quoted at any length: the Hebrew and Greek texts (WLC, UHB, SBLGNT, UGNT, Brenton LXX, Tischendorf), word data from MACULA and Strong's, 29 English versions with the WEB as the default, 831,290 cross-references, and unfoldingWord's word alignment. Restricted, used and flagged non-commercial: 262 Dead Sea Scrolls, the Byzantine and Textus Receptus Greek, the Samaritan Pentateuch, a few English versions, and BHSA and Mounce held but not ingested. Quotation-only, a sentence or two with attribution: 11 study Bibles and texts, TWOT's discussion prose, and the Bible Knowledge Commentary read by hand. Open and restricted sources feed bible-text.db in the public repository, 321 works and 1,222,501 verses. Quotation-only sources feed study-notes.db on local storage, never committed. An MCP server with 33 lookup tools, and the query.py command line, read both databases. A study's language claims resolve to rows in them, and the verse and word pop-ups are built from the open tier only. The church fathers and unvetted teaching notes are held beside them and read by hand.](../assets/img/about/data-sources.svg)](../assets/img/about/data-sources.svg)
 
 ## Three tiers, one rule
 
@@ -104,7 +104,9 @@ in a study.
 
 **Six sources are held but not ingested**: BHSA and Mounce's Greek dictionary (restricted), and
 four open collections, the Hebrew lexicon, the STEPBible data, the Strong's dictionaries and the
-deuterocanonical texts. The query tools cannot see them. The source catalogue lists them by name, so
+English deuterocanonical texts. The query tools cannot see them. The Greek of those books is
+queryable: Brenton's Septuagint carries fourteen of them, and Swete's supplies the Odes, the Psalms
+of Solomon and Psalm 151. The source catalogue lists them by name, so
 a text is never reported as missing while it sits on disk unread.
 
 ## Keeping our own copies
@@ -160,8 +162,8 @@ re-derived and checked.
 
 | Table | Rows | What it holds |
 |---|---|---|
-| `works` | 320 | one row per ingested text, with its licence and tier; every other table joins back to it |
-| `verses` | 1,216,583 | the text itself, every work, every verse |
+| `works` | 321 | one row per ingested text, with its licence and tier; every other table joins back to it |
+| `verses` | 1,222,501 | the text itself, every work, every verse |
 | `morphology` | 1,819,286 | per-word lemma, Strong's, parsing, and Louw-Nida/SDBH semantic domains, from MACULA |
 | `cross_references` | 831,290 | two inherited lists: OpenBible.info's crowd-voted set (830,866) and the WEB translators' own footnotes (424) |
 | `word_alignment` | 475,036 | which original word each English word renders, from unfoldingWord's ULT |

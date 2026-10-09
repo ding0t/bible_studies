@@ -86,9 +86,11 @@ Every quoted verse gets re-queried from source, not read for plausibility.
 - **A source that "isn't available" may just be unqueryable.** Before accepting a study's claim that
   some text could not be checked, run `python3 references/check_sources.py` from the repo root. Its
   **raw-only** list names sources that are on disk but that `build.py` does not ingest, so `query.py`
-  and the MCP tools cannot see them and a lookup miss proves nothing — deuterocanonical and
-  apocryphal books (Tobit, Maccabees, Sirach, 1 Enoch) are the standing example, skipped by design and
-  readable only as raw `sources/<lang>/<book>/` files. An **UNDOCUMENTED** result is a finding in its
+  and the MCP tools cannot see them and a lookup miss proves nothing. The English deuterocanon and
+  pseudepigrapha (the KJV Apocrypha, 1 Enoch, Jubilees) are the standing example, readable only as raw
+  `sources/<lang>/<book>/` files. Their **Greek** is queryable: fourteen deuterocanonical books in
+  `ebible-grcbrent` (Tob, Jdt, Wis, Sir, Bar, EpJer, Sus, Bel, 1Macc-4Macc, 1Esd, PrMan) and the
+  Odes, Psalms of Solomon and Psalm 151 in `swete-lxx`. An **UNDOCUMENTED** result is a finding in its
   own right: the catalog has drifted, and the fix is a row in references/README.md, not a note in the
   study.
 - **External material resolves through `$BIBLE_MEDIA_ROOT`** (see `references/build/media_root.py`).

@@ -5,7 +5,7 @@ description: "Copyright notices for the Bible translations and reference works q
 tags: ["copyright", "permissions", "attribution", "translations"]
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-09-28
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -57,6 +57,12 @@ dedication). Quoted freely.
 named at each quotation so a reader can tell which is which.
 
 **Septuagint (Brenton)** and the **Masoretic Text (Westminster Leningrad Codex)** — public domain.
+
+**Septuagint (Swete)** — the Odes, the Psalms of Solomon and Psalm 151 from H. B. Swete, *The Old
+Testament in Greek according to the Septuagint* (1887-94), public domain by age, in the digitisation
+by the Open Greek and Latin Project's
+[First1KGreek](https://github.com/OpenGreekAndLatin/First1KGreek), licensed
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Original-language and linguistic data
 

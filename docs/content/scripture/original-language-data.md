@@ -6,7 +6,7 @@ tags: ["lang/hebrew", "lang/greek", "method/textual-criticism", "sources", "data
 draft: false
 bible_references: ["Genesis 1:1", "John 1:1"]
 date_created: 2026-09-05
-date_modified: 2026-09-28
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -63,6 +63,9 @@ Where to get each text:
 - **SBLGNT** — [sblgnt.com](https://sblgnt.com/), from the Society of Biblical Literature and
   Logos; data files at [LogosBible/SBLGNT](https://github.com/LogosBible/SBLGNT)
 - **Brenton Septuagint** — the Greek text at [eBible.org](https://ebible.org/find/details.php?id=grcbrent)
+- **Swete Septuagint** (the Odes, Psalms of Solomon and Psalm 151 only) — the Open Greek and Latin
+  Project's [First1KGreek](https://github.com/OpenGreekAndLatin/First1KGreek) digitisation, via
+  [nathans/lxx-swete](https://github.com/nathans/lxx-swete)
 - **UHB / UGNT** — [unfoldingWord Hebrew Bible](https://git.door43.org/unfoldingWord/hbo_uhb) and
   [unfoldingWord Greek New Testament](https://git.door43.org/unfoldingWord/el-x-koine_ugnt) on Door43
 - **Dead Sea Scrolls** — the Eep Talstra Centre's transcription at

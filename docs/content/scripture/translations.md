@@ -308,12 +308,13 @@ caution applies.
 
 | Text | Date | What it is | Strengths | Cautions | Tracked here |
 |---|---|---|---|---|---|
-| **Brenton Septuagint** | Greek text and English translation published 1844/1851 (Sir Lancelot C. L. Brenton) | The standard public-domain LXX edition, Greek text based on Codex Vaticanus | Essential for tracing how New Testament authors quote the Old Testament — many NT quotations follow the LXX's wording rather than the Masoretic Text's; openly licensed and fully queryable here | Vaticanus-based text is one witness among several LXX manuscript traditions (Alexandrinus and Sinaiticus each diverge in places); the accompanying English prose is 19th-century and reads as dated. Its Daniel is **Theodotion**, not the Old Greek — identifiable at Daniel 1:3, which reads Ἀσφανὲζ where the Old Greek has Ἀβιεσδρί — so say which Greek Daniel you mean when citing it | ✅ `ebible-grcbrent` |
+| **Brenton Septuagint** | Greek text and English translation published 1844/1851 (Sir Lancelot C. L. Brenton) | The standard public-domain LXX edition, Greek text based on Codex Vaticanus | Essential for tracing how New Testament authors quote the Old Testament — many NT quotations follow the LXX's wording rather than the Masoretic Text's; openly licensed and fully queryable here | Vaticanus-based text is one witness among several LXX manuscript traditions (Alexandrinus and Sinaiticus each diverge in places); the accompanying English prose is 19th-century and reads as dated. Its Daniel is **Theodotion**, not the Old Greek — identifiable at Daniel 1:3, which reads Ἀσφανὲζ where the Old Greek has Ἀβιεσδρί — so say which Greek Daniel you mean when citing it. Carries fourteen books outside the Hebrew canon, Tobit through the Prayer of Manasseh, but no Odes, Psalms of Solomon or Psalm 151 | ✅ `ebible-grcbrent` |
+| **Swete Septuagint** | Greek text, 1887-94 (H. B. Swete, Cambridge), digitised by the Open Greek and Latin Project | A diplomatic LXX edition printing Codex Vaticanus, with its gaps supplied from other uncials and their readings in an apparatus | Supplies the three texts Brenton lacks: the Odes, the Psalms of Solomon and Psalm 151 | Only those three are taken; every other Septuagint book here comes from Brenton alone. Its Odes follow Alexandrinus and are numbered differently from Rahlfs, by the verses of the passage each Ode reproduces. The digitisation carries some OCR noise | ✅ `swete-lxx` |
 
 !!! warning "The LXX numbers its chapters differently — check before comparing"
 
     A reference is not a universal address. The Septuagint renumbers nearly the whole psalter, so
-    English Psalm 23 is **LXX Psalm 22**, and it adds a Psalm 151. Jeremiah is reordered rather than
+    English Psalm 23 is **LXX Psalm 22**, and it adds a Psalm 151 (here from Swete, since Brenton lacks it). Jeremiah is reordered rather than
     renumbered. The oracles against the nations move to the middle of the book, so the new covenant
     passage Hebrews 8 quotes is English Jeremiah 31 but **LXX Jeremiah 38**. The chapter *count* is
     identical at 52, so nothing about the book looks unusual until a citation lands in the wrong

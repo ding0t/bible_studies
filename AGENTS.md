@@ -254,7 +254,10 @@ and PyYAML is not. (`license_map.yml` was folded into it on 2026-09-18.)
 Exits non-zero on an undocumented source or on catalog drift. Its **raw-only** list is the one to know before saying a
 text is unavailable: those sources are present but not ingested by `build.py`, so `query.py` and the
 MCP tools cannot see them (this is why a study once asserted Tobit wasn't in the repo while it sat in
-`references/open-data/`). External material — `study-notes.db`, patristics, TWOT scans — resolves
+`references/open-data/`). The Septuagint spans two works: `ebible-grcbrent` (Brenton: the Hebrew
+canon and fourteen deuterocanonical books, Tobit to the Prayer of Manasseh) and `swete-lxx` (the
+Odes, Psalms of Solomon and Psalm 151, which Brenton lacks). Only the *English* deuterocanon is
+raw-only. External material — `study-notes.db`, patristics, TWOT scans — resolves
 through **`$BIBLE_MEDIA_ROOT`** via `references/build/media_root.py`, never a hardcoded path, because
 this repo is public.
 
