@@ -8,6 +8,7 @@ date_created: 2026-07-27
 date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
 ---
 
 # Our Data Sources
