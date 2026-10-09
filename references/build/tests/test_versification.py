@@ -370,3 +370,12 @@ def test_new_rules_land_inside_real_english_chapters(conn, book, scheme, work_id
             if mapped is None:
                 continue
             assert 1 <= mapped[2] <= english.get(mapped[1], 0), f"{book} {chapter}:{verse} -> {mapped}"
+
+
+def test_lxx_lemmas_are_read_at_the_septuagint_number(conn):
+    """lxx-lemmas numbers the Septuagint way; filed as english it gave English Numbers 17:8 the
+    lemmas of LXX 17:8 (Moses and Aaron coming to the tent, English 16:43)."""
+    assert versification.scheme_for_work("lxx-lemmas") == "lxx"
+    english = query.lookup_verse(conn, "Num", 17, 8, "WEB")
+    lemmas = {m["lemma"] for m in english["morphology"] if m["work_id"] == "lxx-lemmas"}
+    assert "καρυον" in lemmas or "κάρυον" in lemmas, sorted(lemmas)

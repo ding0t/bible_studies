@@ -29,7 +29,11 @@ _MASORETIC_WORKS = frozenset({
     "morphhb-wlc", "macula-hebrew-wlc",
     "scrollmapper-WLC", "scrollmapper-MapM", "scrollmapper-SP", "scrollmapper-HebModern",
 })
-_LXX_WORKS = frozenset({"ebible-grcbrent", "swete-lxx"})
+# lxx-lemmas (Rahlfs order via CCAT) numbers the Septuagint way too: Joel has four chapters, Numbers
+# 17 runs to verse 28 and its Psalm 22 is "the Lord is my shepherd". Filed as english until
+# 2026-10-09, which attached the lemmas of LXX Num 17:8 (English 16:43) to English Num 17:8, and
+# of the wrong psalm to nearly every English psalm. Its allusion links already used 'lxx'.
+_LXX_WORKS = frozenset({"ebible-grcbrent", "swete-lxx", "lxx-lemmas"})
 
 
 def scheme_for_work(work_id: str) -> str:
