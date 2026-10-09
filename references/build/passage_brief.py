@@ -54,7 +54,9 @@ MAX_TWOT_LOOKUPS = 25
 SECTIONS = ("addressing", "historical", "text", "words", "crossrefs", "variants", "notes")
 
 
-_OSIS_CODES = {code.lower(): code for code in book_map.BOOK_NUM_TO_OSIS.values()}
+_OSIS_CODES = {code.lower(): code
+               for code in (*book_map.BOOK_NUM_TO_OSIS.values(), *book_map.DEUTEROCANON_OSIS)}
+_DEUTEROCANON_NAMES = {name.lower(): code for name, code in book_map.DEUTEROCANON_NAME_TO_OSIS.items()}
 
 
 def resolve_book(book: str) -> str | None:
@@ -67,6 +69,8 @@ def resolve_book(book: str) -> str | None:
     key = " ".join(book.split())
     if key.lower() in _OSIS_CODES:
         return _OSIS_CODES[key.lower()]
+    if key.lower() in _DEUTEROCANON_NAMES:
+        return _DEUTEROCANON_NAMES[key.lower()]
     num = (book_map.REFERENCE_NAME_TO_NUM.get(key)
            or book_map.REFERENCE_NAME_TO_NUM.get(key.title()))
     return book_map.BOOK_NUM_TO_OSIS[f"{num:02d}"] if num else None

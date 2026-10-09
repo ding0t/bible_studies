@@ -296,6 +296,7 @@ strengths = [
 limits = [
   "Renumbers much of the Psalter and divides several books differently. LXX Psalm 22 is English Psalm 23. Never carry a reference across without bible_align.",
   "Translation quality varies book by book -- it is a collection of translators, not one.",
+  "Brenton's text carries fourteen books outside the Hebrew canon (Tob, Jdt, Wis, Sir, Bar, EpJer, Sus, Bel, 1-4Macc, 1Esd, PrMan) but no Odes, Psalms of Solomon or Psalm 151. Cite a deuterocanonical verse as a Second Temple witness, not as Scripture.",
 ]
 
 [profiles.tischendorf]

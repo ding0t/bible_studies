@@ -275,8 +275,9 @@ the author's.
 
 - [Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md): with "lie down" gone from
   Mark 6:39, the Psalm 23 / Ezekiel 34 staging rests on the green grass, the shepherdless sheep and
-  "fed to the full". Keep the claim or soften it to an allusion. (The LXX of Psalm 22:2 could not
-  be checked: the database's LXX has no Psalms or Ezekiel.)
+  "fed to the full". Keep the claim or soften it to an allusion. The Septuagint does not help it:
+  LXX Psalm 22:2 reads ἐκεῖ με κατεσκήνωσεν, "there He made me dwell", which shares no verb with
+  Mark's ἀνακλῖναι either.
 - [The Trumpet Call of God](../last-things/trumpet.md): Revelation 11:18 is now quoted in full,
   including "rewarding your servants… and saints", next to "It describes no resurrection of the
   righteous dead in Christ."

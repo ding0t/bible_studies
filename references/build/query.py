@@ -28,11 +28,11 @@ from pathlib import Path
 
 import quotations
 import versification
-from book_map import NUM_TO_OSIS
+from book_map import DEUTEROCANON_OSIS, NUM_TO_OSIS
 
 DB_PATH = Path(__file__).resolve().parent / "out" / "bible-text.db"
 DEFAULT_TRANSLATION_WORK_ID = "ebible-eng-web"  # WEB: public domain, full Bible, no permission caveats
-_ALL_OSIS_BOOKS = set(NUM_TO_OSIS.values())
+_ALL_OSIS_BOOKS = set(NUM_TO_OSIS.values()) | DEUTEROCANON_OSIS
 
 
 def connect() -> sqlite3.Connection:

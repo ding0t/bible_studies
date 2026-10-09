@@ -21,7 +21,10 @@ from datetime import date, timezone
 from pathlib import Path
 from xml.etree import ElementTree
 
-from book_map import BOS_CODE_TO_USFM, MACULA_USFM_TO_OSIS, NUM_TO_OSIS, SCROLLMAPPER_NAME_TO_OSIS
+from book_map import (
+    BOS_CODE_TO_USFM, DEUTEROCANON_BOS_TO_OSIS, MACULA_USFM_TO_OSIS, NUM_TO_OSIS,
+    SCROLLMAPPER_NAME_TO_OSIS,
+)
 import quotations
 import source_catalog
 import versification
@@ -1033,7 +1036,15 @@ def ingest_ebible(
     # collision just finishes the exclusion of Addition A that skipping the lettered verses
     # already starts: LXX Esther then begins at 1:2, and nothing is filed under a reference that
     # means something else.
-    lxx_aliases = {"DNG": "Dan", "ESG": "Esth"} if ebible_id == "grcbrent" else {}
+    #
+    # The fourteen books outside the Hebrew canon (Tobit, Sirach, the Maccabees, ...) were once
+    # skipped as out of scope, which left the Septuagint's text short of what lxx-lemmas already
+    # covered. They map through DEUTEROCANON_BOS_TO_OSIS. Brenton prints some of their verses on
+    # lettered sub-verses too (Tobit 4:7a-7l, fourteen in Sirach, three in 4 Maccabees), and
+    # BibleOrgSys folds those into the numbered verse, so Tobit 4:7 carries what other editions
+    # number 4:7-18 and 4:8-18 are empty. The text is all present, just under fewer addresses.
+    lxx_aliases = ({"DNG": "Dan", "ESG": "Esth"} | DEUTEROCANON_BOS_TO_OSIS
+                   if ebible_id == "grcbrent" else {})
     skip_esther_addition_a = ebible_id == "grcbrent"
     split_2_esdras = ebible_id == "grcbrent"
 
@@ -1042,7 +1053,7 @@ def ingest_ebible(
         usfm_code = BOS_CODE_TO_USFM.get(bos_code, bos_code)
         osis_book = MACULA_USFM_TO_OSIS.get(usfm_code) or lxx_aliases.get(usfm_code)
         if osis_book is None:
-            continue  # front matter, glossary, deuterocanonical -- out of scope
+            continue  # front matter and glossary
         book_obj = bible.books[bos_code]
         for c in range(1, book_obj.getNumChapters() + 1):
             for v in range(1, book_obj.getNumVerses(c) + 1):
@@ -1187,9 +1198,12 @@ def chapter_lengths(conn: sqlite3.Connection, work_id: str, book: str, chapter: 
 
 
 
-# The Open Scriptures lemma files use their own book codes; only this one needs mapping, and the
-# choice matters: Theodotion's Daniel is the form the church received and the one Brenton carries.
-LXX_LEMMA_BOOKS = {"DanTh": "Dan"}
+# The Open Scriptures lemma files use their own book codes, and split Daniel, Susanna and Bel into
+# the Old Greek and Theodotion. Theodotion's is the form the church received and the one Brenton
+# carries (his Susanna has its 64 verses, his Bel its 42), so it takes the plain code and lines up
+# with ebible-grcbrent; the Old Greek keeps its suffix. Tobit is left split: Brenton's chapters
+# match neither TobBA nor TobS throughout.
+LXX_LEMMA_BOOKS = {"DanTh": "Dan", "SusTh": "Sus", "BelTh": "Bel"}
 
 
 def ingest_lxx_lemmas(conn: sqlite3.Connection) -> None:

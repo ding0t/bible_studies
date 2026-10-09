@@ -70,6 +70,27 @@ BOS_CODE_TO_USFM = {
     "EZE": "EZK", "JAM": "JAS", "JNA": "JON", "JDE": "JUD", "NAH": "NAM",
 }
 
+# The Septuagint books outside the Hebrew canon, as Brenton's LXX ships them. Keyed by BibleOrgSys
+# BBB code (its MA1, GES and LJE are not USFM's 1MA, 1ES and LJE spellings), valued by the OSIS
+# code the lxx-lemmas files already use, so a verse here and its lemmas share an address. Kept out
+# of NUM_TO_OSIS on purpose: that is the 66-book numbering the study-Bible ids and commentary
+# directories are built on, and none of those carry these books.
+DEUTEROCANON_BOS_TO_OSIS = {
+    "TOB": "Tob", "JDT": "Jdt", "WIS": "Wis", "SIR": "Sir", "BAR": "Bar", "LJE": "EpJer",
+    "SUS": "Sus", "BEL": "Bel", "MA1": "1Macc", "MA2": "2Macc", "MA3": "3Macc", "MA4": "4Macc",
+    "GES": "1Esd", "MAN": "PrMan",
+}
+DEUTEROCANON_OSIS = set(DEUTEROCANON_BOS_TO_OSIS.values())
+
+# Full names as a study would type them, for the resolvers that take a name as well as a code.
+DEUTEROCANON_NAME_TO_OSIS = {
+    "Tobit": "Tob", "Judith": "Jdt", "Wisdom": "Wis", "Wisdom of Solomon": "Wis",
+    "Sirach": "Sir", "Ecclesiasticus": "Sir", "Baruch": "Bar", "Letter of Jeremiah": "EpJer",
+    "Epistle of Jeremiah": "EpJer", "Susanna": "Sus", "Bel and the Dragon": "Bel",
+    "1 Maccabees": "1Macc", "2 Maccabees": "2Macc", "3 Maccabees": "3Macc", "4 Maccabees": "4Macc",
+    "1 Esdras": "1Esd", "Prayer of Manasseh": "PrMan",
+}
+
 # NIV/NKJV Cultural Backgrounds Study Bible epub verse-anchor IDs (e.g. "com41005025")
 # use a 2-digit canonical book number (Gen=1 ... Mal=39, Matt=40 ... Rev=66) -- same
 # numbering macula-greek's own xml:id scheme uses (John's ids start "n43...").

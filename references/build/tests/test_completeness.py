@@ -16,13 +16,14 @@ from pathlib import Path
 
 import pytest
 
-from book_map import NUM_TO_OSIS
+from book_map import DEUTEROCANON_OSIS, NUM_TO_OSIS
 
 DB_PATH = Path(__file__).parent.parent / "out" / "bible-text.db"
 
 OT_BOOKS = {NUM_TO_OSIS[i] for i in range(1, 40)}
 NT_BOOKS = {NUM_TO_OSIS[i] for i in range(40, 67)}
 ALL_BOOKS = OT_BOOKS | NT_BOOKS
+KNOWN_BOOKS = ALL_BOOKS | DEUTEROCANON_OSIS
 
 # work_id -> exact book set expected, for sources that are legitimately not full-Bible.
 # Anything not listed here is expected to have all 66 books. Verified against the actual
@@ -63,11 +64,10 @@ PARTIAL_COVERAGE = {
     # the current published scope, not a bug.
     "scrollmapper-OEB": {"Ps"} | NT_BOOKS,
     "scrollmapper-OEBcth": {"Ps"} | NT_BOOKS,
-    # Brenton's LXX edition's deuterocanonical/GA books (Tobit, Judith, Wisdom, Sirach, Baruch,
-    # 1-4 Maccabees, Greek Esther/Daniel additions) use book codes MACULA_USFM_TO_OSIS
-    # deliberately doesn't map (see ingest_ebible in build.py) -- Nehemiah is folded into 2 Esdras
-    # under LXX numbering rather than standing alone, so it's absent here too.
-    "ebible-grcbrent": OT_BOOKS,
+    # Brenton's LXX carries the Hebrew canon plus fourteen books outside it (DEUTEROCANON_OSIS).
+    # It has no Odes, Psalms of Solomon or Psalm 151, and Greek Esther's additions sit on lettered
+    # verses the integer schema skips (see ingest_ebible in build.py).
+    "ebible-grcbrent": OT_BOOKS | DEUTEROCANON_OSIS,
 }
 
 
@@ -99,5 +99,5 @@ def test_full_bible_sources_have_all_66_books(conn):
 
 def test_no_unrecognized_book_codes(conn):
     rows = conn.execute("SELECT DISTINCT book FROM verses").fetchall()
-    unknown = {book for (book,) in rows if book not in ALL_BOOKS}
+    unknown = {book for (book,) in rows if book not in KNOWN_BOOKS}
     assert not unknown, f"unrecognized OSIS book codes in verses table: {sorted(unknown)}"
