@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-10-08
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -272,8 +272,8 @@ without having examined the passage.
 Because these are derived from the biblical texts themselves rather than inherited from an existing
 list. The site detects quotations and allusions by measuring the actual shared wording, and shows
 you that wording so you can judge each link. It finds connections the traditional lists miss, and it
-misses some they carry. → [How we cross-reference](about/how-we-cross-reference.md), and [what it
-does not do](about/how-we-cross-reference.md#what-it-does-not-do)
+misses some they carry. → [How we cross-reference](about/how-we-cross-reference.md), and [its
+limits](about/how-we-cross-reference.md#limits)
 
 ## Using the site
 

@@ -5,7 +5,7 @@ description: "Short definitions of the terms these studies use — interpretive 
 tags: ["glossary", "reference", "method/word-study", "method/textual-criticism"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-09-27
+date_modified: 2026-10-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -317,7 +317,7 @@ and nothing more: text and tagging only — no gloss, no syntax, no semantic dom
 The four kinds of connection this site derives between passages, kept apart and never merged into a
 single score, because they are not the same kind of evidence. The first three are textual facts; the
 fourth is a judgement.
-→ [Four kinds of evidence](about/how-we-cross-reference.md#four-kinds-of-evidence-deliberately-kept-apart)
+→ [Four kinds of link](about/how-we-cross-reference.md#four-kinds-of-link-kept-separate)
 
 **SDBH**{ #sdbh } — The Semantic Dictionary of Biblical Hebrew, the Hebrew counterpart to
 [Louw-Nida](#louw-nida), and the source of Hebrew domain codes here. Its codes are nested numeric
