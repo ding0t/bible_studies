@@ -52,3 +52,6 @@
 [submodule "references/open-data/uw-uhg"]
 	path = references/open-data/uw-uhg
 	url = https://git.door43.org/unfoldingWord/en_uhg.git
+[submodule "references/open-data/lxx-swete"]
+	path = references/open-data/lxx-swete
+	url = https://github.com/ding0t/lxx-swete.git

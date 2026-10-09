@@ -29,7 +29,7 @@ _MASORETIC_WORKS = frozenset({
     "morphhb-wlc", "macula-hebrew-wlc",
     "scrollmapper-WLC", "scrollmapper-MapM", "scrollmapper-SP", "scrollmapper-HebModern",
 })
-_LXX_WORKS = frozenset({"ebible-grcbrent"})
+_LXX_WORKS = frozenset({"ebible-grcbrent", "swete-lxx"})
 
 
 def scheme_for_work(work_id: str) -> str:

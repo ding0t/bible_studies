@@ -80,7 +80,9 @@ DEUTEROCANON_BOS_TO_OSIS = {
     "SUS": "Sus", "BEL": "Bel", "MA1": "1Macc", "MA2": "2Macc", "MA3": "3Macc", "MA4": "4Macc",
     "GES": "1Esd", "MAN": "PrMan",
 }
-DEUTEROCANON_OSIS = set(DEUTEROCANON_BOS_TO_OSIS.values())
+# The Odes and the Psalms of Solomon are not in Brenton; they come from Swete (work swete-lxx).
+SWETE_ONLY_OSIS = {"Odes", "PsSol"}
+DEUTEROCANON_OSIS = set(DEUTEROCANON_BOS_TO_OSIS.values()) | SWETE_ONLY_OSIS
 
 # Full names as a study would type them, for the resolvers that take a name as well as a code.
 DEUTEROCANON_NAME_TO_OSIS = {
@@ -88,7 +90,8 @@ DEUTEROCANON_NAME_TO_OSIS = {
     "Sirach": "Sir", "Ecclesiasticus": "Sir", "Baruch": "Bar", "Letter of Jeremiah": "EpJer",
     "Epistle of Jeremiah": "EpJer", "Susanna": "Sus", "Bel and the Dragon": "Bel",
     "1 Maccabees": "1Macc", "2 Maccabees": "2Macc", "3 Maccabees": "3Macc", "4 Maccabees": "4Macc",
-    "1 Esdras": "1Esd", "Prayer of Manasseh": "PrMan",
+    "1 Esdras": "1Esd", "Prayer of Manasseh": "PrMan", "Odes": "Odes",
+    "Psalms of Solomon": "PsSol",
 }
 
 # NIV/NKJV Cultural Backgrounds Study Bible epub verse-anchor IDs (e.g. "com41005025")

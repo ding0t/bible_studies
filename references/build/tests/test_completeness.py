@@ -16,7 +16,7 @@ from pathlib import Path
 
 import pytest
 
-from book_map import DEUTEROCANON_OSIS, NUM_TO_OSIS
+from book_map import DEUTEROCANON_OSIS, NUM_TO_OSIS, SWETE_ONLY_OSIS
 
 DB_PATH = Path(__file__).parent.parent / "out" / "bible-text.db"
 
@@ -67,7 +67,9 @@ PARTIAL_COVERAGE = {
     # Brenton's LXX carries the Hebrew canon plus fourteen books outside it (DEUTEROCANON_OSIS).
     # It has no Odes, Psalms of Solomon or Psalm 151, and Greek Esther's additions sit on lettered
     # verses the integer schema skips (see ingest_ebible in build.py).
-    "ebible-grcbrent": OT_BOOKS | DEUTEROCANON_OSIS,
+    "ebible-grcbrent": OT_BOOKS | (DEUTEROCANON_OSIS - SWETE_ONLY_OSIS),
+    # Swete supplies only what Brenton lacks: the Odes, the Psalms of Solomon and Psalm 151.
+    "swete-lxx": SWETE_ONLY_OSIS | {"Ps"},
 }
 
 

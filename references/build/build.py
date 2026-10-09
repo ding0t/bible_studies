@@ -1206,6 +1206,115 @@ def chapter_lengths(conn: sqlite3.Connection, work_id: str, book: str, chapter: 
 LXX_LEMMA_BOOKS = {"DanTh": "Dan", "SusTh": "Sus", "BelTh": "Bel"}
 
 
+# Swete's capitals were digitised with Latin look-alikes in places ("AΣΩΜΕΝ", "ΕBOΗΣA"). Only
+# letters inside a word that already holds Greek are swapped, so a Latin word is never touched.
+_LATIN_TO_GREEK_CAPS = str.maketrans("ABEHIKMNOPTXYZ", "ΑΒΕΗΙΚΜΝΟΡΤΧΥΖ")
+_GREEK_LETTER = re.compile(r"[Ͱ-Ͽἀ-῿]")
+
+
+def _swete_word(word: str) -> str:
+    return word.translate(_LATIN_TO_GREEK_CAPS) if _GREEK_LETTER.search(word) else word
+
+
+# Ode 10's title is labelled 51 although Ode 9 ends at Daniel 3:45, so the stale-label rule in
+# ingest_swete cannot see it; it is the only title in these files that needs naming.
+SWETE_TITLE_RUNS = {("Odes", "10")}
+
+# (file in lxx-swete/data, OSIS book, chapters to take or None for all). Only what Brenton lacks.
+SWETE_TEXTS = [
+    ("28.Odae.txt", "Odes", None),
+    ("35.Psalmi_Salomonis.txt", "PsSol", None),
+    ("27.Psalmi.txt", "Ps", {"151"}),
+]
+
+
+def ingest_swete(conn: sqlite3.Connection) -> None:
+    """The Odes, the Psalms of Solomon and Psalm 151 from Swete's Septuagint (1887-94).
+
+    Brenton's edition, which supplies every other Septuagint verse here, has none of the three.
+    The First1KGreek digitisation of Swete (CC BY-SA 4.0, via the lxx-swete fork) has all of them,
+    as one word per line under a "book.chapter.verse" label. Only these three are taken, so the
+    database does not carry two competing Greek texts of every other book.
+
+    Two quirks of the conversion are handled here, and both are visible in the raw files:
+    - A chapter's superscription is labelled with the previous chapter's last verse number (Psalm
+      151's title is "151.6", Psalms of Solomon 2's is "2.8"). The first run of a chapter that
+      repeats the previous chapter's last label is the title, stored as verse 0, the address the
+      Odes' own titles already have.
+    - Swete's Odes follow Codex Alexandrinus and number each Ode by its source passage's verses
+      (Ode 9 opens at Daniel 3:26, Ode 11 at Luke 1:46). Ode 4 comes in two parts, each numbered
+      by its own Isaiah chapter: "iva" is the song of the vineyard (Isaiah 5:1-9) and "ivb" the
+      prayer of Isaiah 26:9-20. Both cannot hold chapter 4 (verse 9 exists in each), so Ode 4 is
+      the first part and "ivb" is left out; Isaiah 26:9-20 is in ebible-grcbrent. Ode 14 (the
+      morning hymn) carries no verse numbers at all; after its title it is stored whole as verse 1.
+    Some OCR noise is left as it stands ("ΙΙροσευχὴ" for Προσευχὴ): only Latin look-alike capitals
+    are corrected, because that substitution cannot change a Greek reading.
+    """
+    data_dir = OPEN_DATA / "lxx-swete" / "data"
+    if not data_dir.is_dir():
+        print("swete-lxx: lxx-swete submodule not checked out, skipping")
+        return
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution, notes) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+        ("swete-lxx", "Swete-LXX", "Swete Septuagint (Greek): Odes, Psalms of Solomon, Psalm 151",
+         "grc", "lxx-swete", "https://github.com/ding0t/lxx-swete",
+         submodule_commit("lxx-swete"), TODAY,
+         "Creative Commons: BY-SA 4.0", "open",
+         "H. B. Swete, The Old Testament in Greek according to the Septuagint (1887-94); "
+         "digitised by the Open Greek and Latin Project (First1KGreek)",
+         "Only the three texts Brenton lacks. Titles are verse 0. Odes follow Codex Alexandrinus "
+         "and Swete's numbering, verse-numbered by their source passages; Ode 4 is its first part "
+         "only (Isaiah 5:1-9), its second (Isaiah 26:9-20) is omitted; Ode 14 is unnumbered and "
+         "stored as verse 1."),
+    )
+    verse_rows = []
+    for filename, book, only_chapters in SWETE_TEXTS:
+        runs = []  # [(chapter_label, verse_label, [words])] in file order
+        for line in (data_dir / filename).read_text(encoding="utf-8").splitlines():
+            label, _, word = line.partition(" ")
+            _, chapter_label, verse_label = label.split(".")
+            if runs and runs[-1][:2] == (chapter_label, verse_label):
+                runs[-1][2].append(_swete_word(word))
+            else:
+                runs.append((chapter_label, verse_label, [_swete_word(word)]))
+
+        verses = collections.defaultdict(list)
+        previous_last_label = None
+        for i, (chapter_label, verse_label, words) in enumerate(runs):
+            opens_chapter = i == 0 or runs[i - 1][0] != chapter_label
+            closes_chapter = i == len(runs) - 1 or runs[i + 1][0] != chapter_label
+            if chapter_label == "ivb":
+                if closes_chapter:
+                    previous_last_label = verse_label  # Ode 5's title carries this label
+                continue
+            chapter = 4 if chapter_label == "iva" else int(chapter_label)
+            if opens_chapter and (verse_label == previous_last_label
+                                  or (book, chapter_label) in SWETE_TITLE_RUNS):
+                if closes_chapter:  # Ode 14: title and hymn under one stale label
+                    cut = next(n for n, w in enumerate(words, 1) if w.endswith("."))
+                    verses[(chapter, 0)] += words[:cut]
+                    verses[(chapter, 1)] += words[cut:]
+                else:
+                    verses[(chapter, 0)] += words
+            else:
+                verses[(chapter, int(verse_label))] += words
+            if closes_chapter:
+                previous_last_label = verse_label
+
+        for (chapter, verse), words in verses.items():
+            if only_chapters and str(chapter) not in only_chapters:
+                continue
+            verse_rows.append(("swete-lxx", book, chapter, verse, " ".join(words)))
+
+    conn.executemany(
+        "INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", verse_rows,
+    )
+    conn.commit()
+    print(f"swete-lxx: {len(verse_rows)} verses")
+
+
 def ingest_lxx_lemmas(conn: sqlite3.Connection) -> None:
     """Lemmatise the Septuagint from the Open Scriptures Septuagint Project's lemma files.
 
@@ -1501,6 +1610,7 @@ def main() -> None:
     ingest_ebible(conn, "eng-web", "WEB", "World English Bible", "eng")
     ingest_web_crossrefs(conn)   # after ingest_ebible: reads the USFM that call caches
     ingest_ebible(conn, "grcbrent", "Brenton-LXX", "Brenton Septuagint (Greek)", "grc")
+    ingest_swete(conn)
     ingest_ebible(conn, "grc-tisch", "Tischendorf", "Tischendorf 8th ed. Greek New Testament", "grc")
     ingest_ebible(conn, "heb", "Delitzsch", "Delitzsch Hebrew Bible (OT+NT)", "heb")
     # A second, independent Hebrew rendering of the Greek NT. Salkinson (1885) and Ginsburg's

@@ -287,7 +287,7 @@ kind = ["witness", "translation"]
 edition = "translation"
 era = "ancient"
 language = "grc"
-applies_to = ["ebible-grcbrent", "lxx-lemmas"]
+applies_to = ["ebible-grcbrent", "lxx-lemmas", "swete-lxx"]
 purpose = "The Greek Old Testament -- the Bible most New Testament writers quote."
 strengths = [
   "Genuinely two things at once: a translation into Greek, and our earliest substantial witness to a Hebrew text older than the Masoretic.",
@@ -296,7 +296,7 @@ strengths = [
 limits = [
   "Renumbers much of the Psalter and divides several books differently. LXX Psalm 22 is English Psalm 23. Never carry a reference across without bible_align.",
   "Translation quality varies book by book -- it is a collection of translators, not one.",
-  "Brenton's text carries fourteen books outside the Hebrew canon (Tob, Jdt, Wis, Sir, Bar, EpJer, Sus, Bel, 1-4Macc, 1Esd, PrMan) but no Odes, Psalms of Solomon or Psalm 151. Cite a deuterocanonical verse as a Second Temple witness, not as Scripture.",
+  "Brenton's text carries fourteen books outside the Hebrew canon (Tob, Jdt, Wis, Sir, Bar, EpJer, Sus, Bel, 1-4Macc, 1Esd, PrMan) but no Odes, Psalms of Solomon or Psalm 151; those come from Swete (swete-lxx), whose Odes are numbered by Codex Alexandrinus, not Rahlfs. Cite a deuterocanonical verse as a Second Temple witness, not as Scripture.",
 ]
 
 [profiles.tischendorf]
