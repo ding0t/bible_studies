@@ -5,7 +5,7 @@ description: "Peter rebuked Jesus for speaking of the cross, and Jesus called it
 tags: ["matthew", "discipleship", "person/peter", "humility", "pride", "suffering", "repentance", "crucifixion", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "Matthew 16:21-28; Mark 8:31-9:1; Luke 9:22-27"
-bible_references: ["Matthew 3:11", "Matthew 4:8-10", "Matthew 4:17-19", "Matthew 6:10", "Matthew 6:33", "Matthew 10:26-39", "Matthew 14:30", "Matthew 16:16-18", "Matthew 17:1-9", "Matthew 20:28", "Matthew 26:31-42", "Matthew 26:54", "Matthew 26:58", "Matthew 26:69-75", "Matthew 27:32", "Matthew 27:40-42", "Mark 8:33", "John 12:25-27", "John 21:15-19", "Luke 9:23", "Luke 22:31-32", "Luke 22:61-62", "Galatians 2:12", "Genesis 2:7", "Leviticus 17:11", "Psalm 49:7-8", "Psalm 62:12", "Isaiah 53:10-12", "Ephesians 2:8-9", "Romans 8:5", "Romans 11:20", "Romans 12:3", "Romans 12:16", "Philippians 2:3-8", "Philippians 3:18-19", "Colossians 3:2", "2 Corinthians 5:10", "1 Peter 1:11", "1 Peter 2:21", "1 Peter 4:1", "1 Peter 5:5-6", "2 Peter 1:16-18"]
+bible_references: ["Matthew 3:11", "Matthew 4:8-10", "Matthew 4:17-19", "Matthew 6:10", "Matthew 10:26-39", "Matthew 14:30", "Matthew 16:16-18", "Matthew 17:1-9", "Matthew 20:28", "Matthew 26:31-42", "Matthew 26:54", "Matthew 26:58", "Matthew 26:69-75", "Matthew 27:32", "Matthew 27:40-42", "Mark 8:33", "John 12:25-27", "John 6:38", "John 21:15-19", "Luke 9:23", "Luke 22:31-32", "Luke 22:61-62", "Galatians 2:12", "Genesis 2:7", "Leviticus 17:11", "Psalm 49:7-8", "Psalm 62:12", "Isaiah 53:10-12", "Ephesians 2:8-9", "Romans 8:5", "Romans 11:20", "Romans 12:3", "Romans 12:16", "Philippians 2:3-8", "Philippians 3:18-19", "Colossians 3:2", "2 Corinthians 5:10", "1 Peter 1:11", "1 Peter 2:21", "1 Peter 4:1", "1 Peter 5:5-6", "2 Peter 1:16-18"]
 date_created: 2026-10-10
 date_modified: 2026-10-10
 ai_provider_models:
@@ -41,8 +41,7 @@ his mind on God's will, humbly and without fear, loses his life for Jesus' sake 
 
 ### Types & Prophecy
 
-- **Prophecy.** "He must go to Jerusalem ... and be killed, and on the third day be raised"
-  (Matthew 16:21, ESV). This is the first of four times Jesus foretells His death in Matthew
+- **Prophecy.** Matthew 16:21 is the first of four times Jesus foretells His death in Matthew
   (16:21; 17:22-23; 20:17-19; 26:2). Every part of it came true in Jerusalem (Matthew 26-28).
 - **Prophecy.** The suffering was already written: "it was the will of the LORD to crush him"
   (Isaiah 53:10, ESV). At His arrest Jesus said the Scriptures required it: "that it must be so"
@@ -56,8 +55,8 @@ his mind on God's will, humbly and without fear, loses his life for Jesus' sake 
 - **Jesus gave the life no one else could pay for.** No man can "give to God the price of his life"
   (Psalm 49:7, ESV). The Son of Man came "to give his life as a ransom for many" (Matthew 20:28,
   ESV).
-- **Jesus set His own will under His Father's.** In Gethsemane He prayed, "not as I will, but as
-  you will" (Matthew 26:39, ESV). The road He calls you to walk is the road He walked first.
+- **Jesus set His own will under His Father's.** In Gethsemane He prayed the memory verse below
+  (Matthew 26:39). The road He calls you to walk is the road He walked first.
 - **Jesus restores the disciple who fails.** He told Peter of his denial before it happened, prayed
   for him (Luke 22:32), and after the resurrection said to him again, "Follow me" (John 21:19,
   ESV).
@@ -104,7 +103,8 @@ back. In Jesus' name. Amen.
   said, and why Jesus heard the wilderness temptation in it.
 - [The mind set on the things of man](#the-mind-set-on-the-things-of-man). The first word study:
   φρονέω, and the family of words Paul uses for pride and humility.
-- [Deny, take up, follow](#deny-take-up-follow). The call itself: three commands in verse 24.
+- [Deny, take up, follow](#deny-take-up-follow). The call itself: three commands in verse 24,
+  and the one mind they make.
 - [Saving your life](#saving-your-life). The second word study: ψυχή with "save" and "lose", and
   the fear Jesus names beside them.
 - [What no one can give](#what-no-one-can-give). The ransom behind the call and the reward ahead of it.
@@ -123,19 +123,15 @@ living God" (Matthew 16:16, ESV), and Jesus told him the Father had revealed it.
 disciples knew who He was, Jesus told them what He had come to do.
 
 He said He "must" go. The Greek is δεῖ (*dei*, DAY, G1163), "it is necessary." Jesus uses the same
-word at His arrest, after one of His disciples has drawn a sword: "how then should the Scriptures be fulfilled, that it
+word at His arrest: "how then should the Scriptures be fulfilled, that it
 must be so?" (Matthew 26:54, ESV). The "must" is God's. The cross was the Father's plan, written in
 the prophets, and Jesus walked toward it on purpose.
-
-The three groups He names were the three that made up the Sanhedrin, the council in Jerusalem: the
-elders, the chief priests and the scribes. Each of them appears again at the foot of the cross
-(Matthew 27:41).
 
 ## Peter's rebuke
 
 "Rebuke" is ἐπιτιμάω (*epitimaō*, eh-pee-tee-MAH-oh, G2008). Matthew uses it six times. In three of
-them Jesus is the one rebuking: the wind and sea (Matthew 8:26), the crowds He healed, whom He
-"ordered not to make him known" (Matthew 12:16, ESV), and a demon (Matthew 17:18). Here
+them Jesus is the one rebuking: the wind and sea, the crowds He healed, and a demon (Matthew 8:26;
+12:16; 17:18). Here
 Peter turns Jesus' own word of command on Jesus. In a Jewish teacher-and-disciple relationship it
 was audacious for a disciple to correct his teacher, and more so to rebuke him (ESV Study Bible and
 NIV Cultural Backgrounds Study Bible, notes on Matthew 16:22).
@@ -165,10 +161,9 @@ answered, "Be gone, Satan!" (Matthew 4:10, ESV). The Greek is ὕπαγε, σα�
 The offer was the same too: the kingdom without the cross. Three verses later Jesus warns against
 gaining "the whole world" (Matthew 16:26, ESV), the prize the devil had offered Him. At the cross the
 offer came a third time, from the mockers: "save yourself! ... come down from the cross" (Matthew
-27:40, ESV). Peter filled Satan's role by offering the kingdom without the cross (NIV Cultural
-Backgrounds Study Bible, note on Matthew 16:23). Peter was not possessed. His advice came from the
-same source as the devil's offer, and it pointed the same way (NIV Biblical Theology Study Bible,
-note on Matthew 16:23).
+27:40, ESV). Peter filled Satan's role (NIV Cultural Backgrounds Study Bible, note on Matthew
+16:23). He was not possessed; his advice came from the same source as the devil's offer and pointed
+the same way (NIV Biblical Theology Study Bible, note on Matthew 16:23).
 
 ### From rock to stumbling stone
 
@@ -185,13 +180,12 @@ in the road (NIV Biblical Theology and NIV Cultural Backgrounds Study Bibles, no
 - **"Get out of my way."** On this reading ὕπαγε ὀπίσω μου means "go away", as ὕπαγε, σατανᾶ means
   in Matthew 4:10. The NIV Biblical Theology Study Bible takes it so.
 - **"Get back in your place."** On this reading Jesus sends Peter back to where a disciple walks,
-  behind his teacher. Disciples were expected to walk behind their teachers (NIV Cultural
-  Backgrounds Study Bible, note on Matthew 16:23). Matthew's wording supports it. ὀπίσω μου
+  behind his teacher (NIV Cultural Backgrounds Study Bible, note on Matthew 16:23). Matthew's wording supports it. ὀπίσω μου
   (*opisō mou*, G3694), "behind me" or "after me", is what Jesus said when He first called Peter:
   "δεῦτε ὀπίσω μου", "Follow me" (Matthew 4:19). It is the phrase in the very next verse: "If anyone
-  would come after me (ὀπίσω μου)" (Matthew 16:24, ESV). Matthew uses ὀπίσω μου five times. One is
-  John the Baptist's "he who is coming after me" (Matthew 3:11, ESV). Apart from this verse, the
-  other three are all about following Jesus (Matthew 4:19; 10:38; 16:24).
+  would come after me (ὀπίσω μου)" (Matthew 16:24, ESV). Matthew uses ὀπίσω μου five times: once for John the
+  Baptist's successor (Matthew 3:11), here, and three times for following Jesus (Matthew 4:19;
+  10:38; 16:24).
 
 The first reading fits the parallel with the wilderness. The second fits the words on either side.
 They need not compete. Satan was told to go; Peter was told to get back behind Jesus and follow.
@@ -233,8 +227,7 @@ three groups.
    becoming obedient to the point of death, even death on a cross" (Philippians 2:8, ESV). Two
    verses earlier he names it: "in humility (ταπεινοφροσύνῃ)" (Philippians 2:3, ESV).
    ταπεινοφροσύνη (*tapeinophrosynē*, tah-pay-no-fro-SOO-nay, G5012) is built from the same root,
-   "a lowly mind." The [In Humility](humility.md#the-mind-of-christ) study works through Philippians
-   2 in full.
+   "a lowly mind."
 
 ### In Matthew 16:23
 
@@ -250,14 +243,12 @@ meet. Peter's mind set on the things of man led him to oppose the cross, and opp
 the opposite of the mind that "humbled himself."
 
 Two things in the text show that Peter's "things of man" included pride. He presumed to correct his
-teacher, and he did it the moment after he had been praised. And Peter shows the same mind openly
-at the Last Supper: "Though they all fall away because of you, I will never fall away" (Matthew
-26:33, ESV). That claim is pride in its plainest form, setting yourself above the others. The rest
-of the case belongs to Peter's later story, traced in [Peter's road](#peters-road) below.
+teacher the moment after he had been praised. And at the Last Supper he set himself above the
+others: "Though they all fall away because of you, I will never fall away" (Matthew 26:33, ESV; see
+[The boast](#the-boast) below).
 
 **Conclusion.** Peter's mind was set on a Messiah who would not suffer, and disciples who would not
-have to. Verse 23 names the direction of his mind; the pride in it is shown by the word's wider use
-and by Peter's own boast.
+have to.
 
 ## Deny, take up, follow
 
@@ -266,24 +257,66 @@ and by Peter's own boast.
 > 24 Then Jesus told his disciples, "If anyone would come after me, let him deny himself and take up
 > his cross and follow me.
 
+"Then" (Τότε) ties the call to the rebuke. Jesus has just told Peter that his mind is set on the
+things of man. Now He tells every disciple what a mind set on the things of God does. The call opens
+with the will: "If anyone would (θέλει) come after me."
+
 Jesus gives three commands. The Greek forms differ. "Deny" (ἀπαρνησάσθω) and "take up" (ἀράτω, from αἴρω, *airō*, G142) are
 aorist imperatives, a decision made. "Follow" (ἀκολουθείτω) is a present imperative, a walk that goes
 on. Luke adds that the cross is taken up "daily" (Luke 9:23, ESV).
 
-**Deny himself.** ἀπαρνέομαι (*aparneomai*, ah-par-NEH-oh-my, G533) means to disown, to say "I do not
+### Deny himself
+
+ἀπαρνέομαι (*aparneomai*, ah-par-NEH-oh-my, G533) means to disown, to say "I do not
 know him." In Matthew it occurs only here and in Peter's denial (Matthew 26:34, 35, 75). Jesus calls
 the disciple to disown himself. Peter, on the night of the arrest, disowned Jesus instead.
 
-**Take up his cross.** A condemned man often carried the crossbeam of his own cross, the
+The self Jesus names is the one that spoke in verse 22. Jesus had spoken God's "must" (verse 21), and
+Peter's own will answered "never." To deny yourself is to take your own will off the seat where it
+decides, so that God's will decides. The NLT puts it plainly: "you must give up your own way." This
+is the high mind of [the word study](#in-matthew-1623) brought low. The disciple who corrected his
+teacher steps back behind Him.
+
+### Take up his cross
+
+A condemned man often carried the crossbeam of his own cross, the
 *patibulum*, to the place of execution, through a hostile and mocking crowd (NIV Cultural Backgrounds
 Study Bible, note on Matthew 16:24). Jesus' hearers knew that a man carrying a cross was a man on his
 way to die. When the time came, the soldiers had to make a passer-by, Simon of Cyrene, carry Jesus'
-cross (Matthew 27:32). The disciples were not there to carry it. The common phrase "my cross to
-bear", used for any hardship, is treated in [Verses Often
-Misquoted](../scripture/verses-often-misquoted.md#mark-834-take-up-your-cross).
+cross (Matthew 27:32). The disciples were not there to carry it.
 
-**Follow me.** ἀκολουθέω (*akoloutheō*, ah-ko-loo-THEH-oh, G190). A disciple goes where his teacher
-goes, and Jesus had just said where He was going: to Jerusalem, to suffer, die and rise.
+The cross Jesus carried was God's will for Him: He "must" (δεῖ) go and be killed. The cross a disciple takes up is God's will at the point where it costs him
+his own life, the ψυχή that the next verse turns on (see [Saving your life](#saving-your-life)). It
+is the cost of following Jesus, borne "for my sake" (verse 25). The common phrase "my cross to
+bear", used for any hardship, is treated in [Verses Often
+Misquoted](../scripture/verses-often-misquoted.md#mark-834-take-up-your-cross). To take it up is to
+accept that cost before you know its size, because you trust the One whose will it is.
+
+### Follow me
+
+ἀκολουθέω (*akoloutheō*, ah-ko-loo-THEH-oh, G190) is the ordinary word for following someone on
+the road. A disciple goes where his teacher goes, and Jesus had just said where He was going: to Jerusalem, to suffer, die and rise. He went
+there because the Father willed it. So to follow Jesus is to let the Father's will set your
+direction, one step after another, as the present imperative says. It puts the disciple where "Get
+behind me" sent Peter, back in his place behind his teacher (see ["Behind me": two
+readings](#behind-me-two-readings)). Matthew records what following looks like when the self is kept
+safe: on the night of the arrest Peter "was following him at a distance" (Matthew 26:58, ESV), the
+same verb, ἠκολούθει, from far enough back to stay out of reach. When Jesus restored him, He gave
+this command again (see [The restoration](#the-restoration)).
+
+### One mind in three commands
+
+Together the three commands turn verse 23 around. Peter's mind was
+set on the things of man: a place kept high and a life kept safe. Denying yourself lays down the
+place. Taking up your cross lays down the life. Following Jesus sets your mind on the things of God,
+because His own mind was set there: "I have come down from heaven, not to do my own will but the
+will of him who sent me" (John 6:38, ESV). Reading verse 24 as the answer to verse 23 rests on
+Matthew's "Then" and on the shared "would" (θέλω); it is this study's reading, and the "for" that
+opens verse 25 carries it on. Jesus lived all three in [Gethsemane](#gethsemane-not-as-i-will).
+
+This shows that God makes His will visible. It walks ahead of you in His Son Jesus, and every step
+He asks of you, Jesus has already taken. So you may set your mind where Jesus set His: "Have this
+mind among yourselves, which is yours in Christ Jesus" (Philippians 2:5, ESV).
 
 ## Saving your life
 
@@ -323,11 +356,10 @@ find. And the "soul" you forfeit by gaining the world is that same life again.
 Three verbs surround ψυχή.
 
 - **"Would" is θέλω** (*thelō*, THEL-oh, G2309), "to want, to will." Verse 24 has it too: "If
-  anyone would (θέλει) come after me." The saying is about what a person wants. In Gethsemane Jesus uses it of Himself: "not as I will (θέλω)" (Matthew 26:39, ESV).
+  anyone would (θέλει) come after me." The saying is about what a person wants.
 - **"Save" is σῴζω** (*sōzō*, SOH-zoh, G4982). Matthew uses it for rescue from danger and for
-  salvation. Peter used it himself when he was sinking: "when he saw the wind, he was afraid, and
-  beginning to sink he cried out, 'Lord, save me'" (Matthew 14:30, ESV). The mockers used it at the
-  cross: "save yourself!" and "he cannot save himself" (Matthew 27:40, 42, ESV).
+  salvation: Peter sinking, "Lord, save me" (Matthew 14:30, ESV), and the mockers at the cross,
+  "save yourself!" (Matthew 27:40, 42, ESV).
 - **"Lose" is ἀπόλλυμι** (*apollymi*, ah-POL-loo-mee, G622), "to lose, to destroy."
 
 "Save" and "life" appear together in only eight verses of the New Testament. One is John 12:27,
@@ -348,9 +380,7 @@ are about fear.
 "Do not fear" comes three times in six verses (Matthew 10:26, 28, 31). Then Jesus warns, "whoever
 denies me before men, I also will deny before my Father who is in heaven" (Matthew 10:33, ESV). The
 verb is ἀρνέομαι (*arneomai*, G720), the verb Matthew uses for Peter's denials in the courtyard
-(Matthew 26:70, 72). Then He gives the cross saying: "whoever does not take his cross and
-follow me is not worthy of me. Whoever finds his life will lose it, and whoever loses his life for my
-sake will find it" (Matthew 10:38-39, ESV). The sequence is fear, then denial, then the cross. ψυχή is
+(Matthew 26:70, 72). Then He gives the cross saying (Matthew 10:38-39). The sequence is fear, then denial, then the cross. ψυχή is
 in the middle of it: men can kill the body, but they cannot reach the ψυχή.
 
 Peter walked that sequence the other way: he denied Jesus before men, and he did it in the very word
@@ -358,11 +388,9 @@ Jesus had used for it. Fear is named outright in Peter's life when he sinks cryi
 (Matthew 14:30, ESV), and again years later at Antioch, where Paul says he drew back "fearing the
 circumcision party" (Galatians 2:12, ESV).
 
-**Conclusion.** To "save your life" is to keep your own self safe on your own terms. The ESV Study
-Bible's note on 16:25 describes the person who does it as one who "rejects God's will and instead
-pursues his own will for his life." In Matthew 10 the pressure toward it is fear of men, and the
-failure it ends in is denial (Matthew 10:28, 33). That fear also drives self-saving here is this
-study's reading of the two passages together, and Peter's story bears it out. To lose your life "for
+**Conclusion.** To "save your life" is to keep your own self safe on your own terms. In Matthew 10
+fear of men pushes toward it and denial follows (Matthew 10:28, 33); that fear drives it here too is
+this study's reading of the two passages together, and Peter's story bears it out. To lose your life "for
 my sake" is to hand that self to Jesus, and through Him to the Father's will.
 
 ### Is this about being saved?
@@ -392,29 +420,25 @@ Septuagint that is "the price of the ransom of his ψυχή" (Psalm 48:9, LXX).
 
 Four chapters later Jesus gives the answer to His own question: "the Son of Man came not to be served
 but to serve, and to give his life (ψυχή) as a ransom (λύτρον, *lytron*, G3083) for many" (Matthew 20:28, ESV). The
-link between these verses is an inference from the shared word ψυχή. Matthew does not draw it in so
-many words. But it shows what God has done. The exchange no person can make for their own soul, God
+link is this study's inference from the shared word ψυχή; Matthew does not draw it. The exchange no person can make for their own soul, God
 made in His Son Jesus. That is redemption: a life bought back at a price, and the price was His.
 
 ### The reward and the glimpse
 
 The third "for" looks ahead: "the Son of Man is going to come with his angels in the glory of his
 Father, and then he will repay each person according to what he has done" (Matthew 16:27, ESV). The
-words echo Psalm 62:12, "you will render to a man according to his work" (ESV), and Proverbs 24:12.
-For those who belong to Christ, Paul places this at the judgment seat: "we must all appear before
-the judgment seat of Christ, so that each one may receive what is due for what he has done in the
-body" (2 Corinthians 5:10, ESV). That judgment weighs a believer's work for reward. It does not
+words echo Psalm 62:12 and Proverbs 24:12.
+For those who belong to Christ, Paul places this at the judgment seat of Christ (2 Corinthians
+5:10). That judgment weighs a believer's work for reward. It does not
 decide whether he is saved (see the [statement of
 faith](../about/statement-of-faith.md#reward-for-the-believer)).
 
-Verse 28 promised that some standing there would "see the Son of Man coming in his kingdom." Its
-meaning is debated. The ESV Study Bible lists six views, from the resurrection and Pentecost to AD 70
-and the second coming. The nearest fulfilment is the next event Matthew records: "after six days"
-Jesus took Peter, James and John up a mountain and was transfigured before them (Matthew 17:1-2).
-Peter later wrote that he had been an eyewitness of Jesus' "majesty" and "the power and coming of our
-Lord Jesus Christ" there (2 Peter 1:16-18, ESV). The ESV Study Bible, NIV Biblical Theology and NIV
-Cultural Backgrounds Study Bibles all favour this reading. On it, three disciples saw ahead of time
-the glory Jesus will have when He returns to reign.
+Verse 28, that some standing there would "see the Son of Man coming in his kingdom," is debated; the
+ESV Study Bible lists six views, from the resurrection and Pentecost to AD 70 and the second coming.
+It, the NIV Biblical Theology and the NIV Cultural Backgrounds Study Bibles favour the next event
+Matthew records, the transfiguration "after six days" before Peter, James and John (Matthew 17:1-2),
+which Peter later called seeing "the power and coming of our Lord Jesus Christ" (2 Peter 1:16-18,
+ESV).
 
 ## Gethsemane: not as I will
 
@@ -429,8 +453,7 @@ Everything Jesus asked of Peter in Matthew 16, He did Himself in Matthew 26.
 Jesus' ψυχή was "very sorrowful, even to death." He felt the full weight of the cross, and He asked
 if there was another way. Then He set His own will (θέλω) under His Father's. The second time He prayed
 the words of the prayer He had taught His disciples: "your will be done" (Matthew 26:42, ESV; see
-Matthew 6:10). Here "seek first the kingdom of God" (Matthew 6:33, ESV) is lived out at its hardest: God's
-will first, before your own, even when your own is to live.
+Matthew 6:10).
 
 Peter was there. Jesus asked him to watch and pray, "that you may not enter into temptation"
 (Matthew 26:41, ESV), and Peter slept. Within hours the temptation he had voiced at Caesarea Philippi
@@ -438,8 +461,8 @@ came back to him, and this time it was about his own life.
 
 ## Peter's road
 
-Matthew ties Peter's last night back to Caesarea Philippi with the same words: σκάνδαλον becomes
-σκανδαλίζω, Peter's οὐ μή comes back, and "deny" is the verb of Matthew 16:24. Reading those links
+Matthew ties Peter's last night back to Caesarea Philippi with the same words, traced in [The
+boast](#the-boast). Reading those links
 as one mind at work, from the rebuke to the denial, is this study's reading; the words themselves are
 Matthew's. The pattern was already there: a true insight, then a fall (see [Simon
 Peter](../biblical-figures/peter.md#what-scripture-records)).
@@ -467,9 +490,8 @@ At the arrest "all the disciples left him and fled" (Matthew 26:56, ESV). Peter 
 also were with Jesus the Galilean" (Matthew 26:69, ESV). Peter denied it three times, the last with
 a curse: "I do not know the man" (Matthew 26:74, ESV).
 
-Matthew does not say Peter was afraid in the courtyard. Fear is the likely reading, given who was
-asking, where he was, and what Peter did at other times (Matthew 14:30; Galatians 2:12). But it is
-an inference. What Matthew records is the self-preservation itself: the man told to deny himself
+Matthew does not say Peter was afraid in the courtyard. Fear is the likely inference, given who
+was asking, where he was, and what Peter did at other times (Matthew 14:30; Galatians 2:12). What Matthew records is the self-preservation itself: the man told to deny himself
 denied Jesus, and the man who said "I will never deny you" saved his own life that night.
 
 ### The tears
@@ -508,9 +530,8 @@ failed disciple the cross and the call again, and the same place behind Him.
 About thirty years later the man who said "This shall never happen to you" wrote that the prophets had
 foretold "the sufferings of Christ and the subsequent glories" (1 Peter 1:11, ESV). That is Matthew
 16:21 in a sentence: suffering, then glory. He wrote, "Christ also suffered for you, leaving you an
-example, so that you might follow in his steps" (1 Peter 2:21, ESV). He told the churches to think
-as Jesus had thought: "Since therefore Christ suffered in the flesh, arm yourselves with the same way
-of thinking" (1 Peter 4:1, ESV). Peter's word there is ἔννοια (*ennoia*, G1771), "thought, intent."
+example, so that you might follow in his steps" (1 Peter 2:21, ESV). He told the churches to arm
+themselves with Christ's "way of thinking" (ἔννοια, *ennoia*, G1771; 1 Peter 4:1, ESV).
 
 And the man who once set himself above the others wrote this:
 
@@ -521,23 +542,22 @@ And the man who once set himself above the others wrote this:
 > yourselves, therefore, under the mighty hand of God so that at the proper time he may exalt you,
 
 "Humility" is ταπεινοφροσύνη, the lowly mind, the opposite of the mind Jesus rebuked at Caesarea
-Philippi. Peter learned it the way he learned everything, by falling and being lifted up. This is
-what the gospel does. God lifts a failing disciple from where he fell. He forgives him, restores
-him, and puts him back on the road behind Jesus.
+Philippi. Peter learned it by falling and being lifted up, and this shows what God does in the gospel: He
+forgives a failing disciple, restores him, and puts him back on the road behind Jesus.
 
 ## Discussion Questions
 
 1. Jesus' charge is that Peter was "not setting your mind (φρονεῖς) on the things of God, but on the
-   things of man" (Matthew 16:23, ESV). Paul uses the same verb for "do not be haughty" (Romans
-   12:16) and "have this mind ... which is yours in Christ Jesus" (Philippians 2:5). What are "the
+   things of man" (Matthew 16:23, ESV). Paul uses the same verb in Romans 12:16 and
+   Philippians 2:5. What are "the
    things of man" that your own mind most easily settles on?
 2. Peter had just confessed that Jesus is "the Christ, the Son of the living God" (Matthew 16:16,
    ESV). How could the same man be right about who Jesus is and wrong about what He came to do?
 3. The ESV says "life" in Matthew 16:25 and "soul" in 16:26, where the Greek has ψυχή all four times.
    Read the two verses with one English word throughout. What changes?
 4. Some read "whoever loses his life for my sake will find it" (Matthew 16:25, ESV) as being about
-   eternal salvation, and others as being about a believer's reward. How does Matthew 20:28, "to
-   give his life as a ransom for many", bear on the question?
+   eternal salvation, and others as being about a believer's reward. How does Matthew 20:28 bear on the
+   question?
 5. In Matthew 10:26-39 Jesus moves from "do not fear" to denying Him before men to taking up the
    cross. Where did that order play out in Peter's life, and where does it play out in yours?
 6. Jesus restored Peter with three questions and the words "Follow me" (John 21:15-19). What would
