@@ -5,7 +5,7 @@ description: "Scripture links on this site are derived from the biblical texts t
 tags: ["data", "method/textual-criticism", "cross-references", "septuagint", "transparency", "mermaid"]
 draft: false
 date_created: 2026-09-04
-date_modified: 2026-10-09
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
