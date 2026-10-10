@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Peter 3:13-17"
 bible_references: ["1 Peter 3:13-17", "1 Peter 3:8-12", "1 Peter 3:18", "1 Peter 1:1", "1 Peter 1:3", "1 Peter 1:4", "1 Peter 1:5", "1 Peter 1:17", "1 Peter 1:21", "1 Peter 2:3", "1 Peter 2:11", "1 Peter 2:12", "1 Peter 2:18", "1 Peter 3:2", "1 Peter 4:3-4", "1 Peter 4:16", "Isaiah 8:12-13", "Psalm 34:12-16", "Acts 17:10-12", "Acts 21:20", "Acts 22:1", "Acts 25:16", "Colossians 4:5-6", "Luke 21:12-15", "Luke 6:15", "Titus 2:14", "Galatians 5:22-23", "Galatians 1:14", "1 Corinthians 9:3", "2 Corinthians 7:11", "Philippians 1:7", "Philippians 1:16", "2 Timothy 4:16", "Matthew 24:44", "Matthew 25:10"]
 date_created: 2024-05-24
-date_modified: 2026-10-03
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -386,20 +386,22 @@ somebody else might be brought to God.
 
 ## Discussion Questions
 
-1. The Greek Old Testament renders Isaiah 8:13 "the Lord, Him, sanctify," and Peter writes "the Lord,
-   the Christ, sanctify." What does it tell you about the earliest Christians that Peter made that
-   substitution without stopping to defend it?
-2. Peter's readers were being slandered by neighbours, not tried by magistrates, and the word he
-   chose for their reply — ἀπολογία — is a courtroom word. What changes in how you read verse 15 once
-   the questioner is a relative at a family meal?
-3. Φόβος occurs five times in 1 Peter, and only 3:14 is forbidden. Work through 1:17, 2:18, 3:2 and
-   3:16: what is the fear Peter wants, and what does it do to the way you would answer someone
-   hostile?
-4. Jesus says "do not meditate beforehand how to answer" (Luke 21:14) and Peter says "always being
-   prepared to make a defense" (1 Peter 3:15). How do you hold those two sentences together?
-5. Peter tells you what the hope is before he tells you to explain it — the resurrection, and an
-   inheritance kept in heaven (1:3-5, 1:21). If someone asked you today for a reason for the hope
-   that is in you, which of those would you reach for, and what would you actually say?
+1. **The language.** Φόβος (*phobos*) occurs five times in 1 Peter, and only once is it forbidden:
+   "Have no fear of them" (1 Peter 3:14). Work through 1 Peter 1:17, 2:18, 3:2 and 3:16. What does
+   the fear Peter commends do to the way you would answer someone hostile?
+2. **The text in its context.** Peter's readers were being slandered by their neighbours (1 Peter
+   4:4), and the word he chose for their reply, ἀπολογία (*apologia*), is the word Paul used on the
+   steps of the Antonia fortress (Acts 22:1). What changes in how you read 1 Peter 3:15 once the
+   questioner is a relative at a family meal?
+3. **Christ.** The Greek Old Testament renders Isaiah 8:13 "the Lord, Him, sanctify," and Peter
+   writes "the Lord, the Christ, sanctify" (1 Peter 3:15). What does it tell you about how the
+   earliest Christians saw Jesus that Peter made that substitution without stopping to defend it?
+4. **The hard part.** Jesus says "not to meditate beforehand how to answer" (Luke 21:14) and Peter
+   says "always being prepared to make a defense" (1 Peter 3:15). How do you hold those two
+   sentences together?
+5. **Be transformed.** Peter tells you what the hope is before he tells you to explain it: the
+   resurrection, and an inheritance kept in heaven (1 Peter 1:3-5, 1:21). If someone asked you
+   today for "a reason for the hope that is in you" (1 Peter 3:15), what would you actually say?
 
 ## References & Recommended Reading
 
