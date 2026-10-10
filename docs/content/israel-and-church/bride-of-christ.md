@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
 bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "John 1:11", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Ruth 2:12", "Ruth 3:9", "Ruth 4:6", "Ruth 4:9-10", "Ruth 4:14", "Tobit 7:13-16", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Genesis 38:25", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 19:11", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1", "Ezekiel 16:8-9", "1 Corinthians 6:11", "Revelation 21:24", "Revelation 22:3-5", "1 Peter 1:18-19", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "1 Corinthians 10:16"]
 date_created: 2026-09-01
-date_modified: 2026-09-27
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -100,7 +100,7 @@ In Jesus' name. Amen.
   · [4 Set apart](#4-set-apart-already-yours) · [5 Preparing](#5-preparing-where-you-are-now) · [6 Fetched](#6-fetched-still-ahead)
   · [7 Married](#7-married-and-feasting-still-ahead) · [8 Homed](#8-homed-still-ahead). The first four are already done to
   you; the fifth is where you are standing now; the last three are still ahead.
-- [Discussion questions](#discussion-questions). Eight, for a group or on your own.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 - [Annex: sources and cautions](#annex-sources-word-studies-and-cautions). A wedding narrative
   from the period, and the popular details that have no ancient source.
 
@@ -764,28 +764,26 @@ Revelation keeps going past the wedding, and calls her the Lamb's wife.
 
 ## Discussion Questions
 
-1. Paul says marriage "refers to Christ and the church" (Ephesians 5:32). If the picture came first
-   and the marriage second, what does that change about how you read Genesis 2:24 — and about
-   marriage now?
-2. Betrothal could be dissolved only by divorce or death (*m. Kiddushin* 1:1; Matthew 1:19). What
-   does that legal weight add to Paul's "I betrothed you to one husband" (2 Corinthians 11:2)?
-3. Revelation says the Bride "has made herself ready" and then that her clothing "was granted her"
-   (19:7-8). How do those two statements fit together, and what would go wrong holding only one?
-4. Some of the most memorable details in popular teaching on this theme turn out to have no ancient
-   source, while others are documented. Does that change what you think the church should be able
-   to say — and how would you tell someone the difference without deflating them?
-5. The Holy Spirit is called ἀρραβών (*arrabōn*), a first instalment that obliges the payer for the rest
-   (2 Corinthians 1:22; Ephesians 1:14). What would change this week if you held your assurance
-   there instead of in how you have been feeling about Christ?
-6. Paul ends the resurrection sequence with "and so we will always be with the Lord" and then says
-   "encourage one another with these words" (1 Thessalonians 4:17-18). Who in your church has a
-   grave to visit, and what would it take for you to say that verse to them?
-7. The word for the spotless lamb (1 Peter 1:19) is the word for the spotless bride (Ephesians
-   5:27). If your holiness is Christ's undertaking and not your production, what does that change
-   about how you pursue it — and what does it not change?
-8. Four of the pattern's eight components are already done to you, in the aorist — purchased,
-   betrothed, pledged, set apart. Which of the four do you find hardest to believe about yourself,
-   and what have you been putting in its place?
+1. **The language.** Paul calls the Spirit "a guarantee" (2 Corinthians 1:22), ἀρραβών (*arrabōn*),
+   the word the Greek Old Testament uses for the pledge Judah handed Tamar (Genesis 38:17-20). What
+   does a first instalment that obliges the payer for the rest say about the work God has begun in
+   you?
+2. **The text in its context.** Betrothal could be ended only by divorce or death (*m. Kiddushin*
+   1:1), which is why Joseph "resolved to divorce her quietly" (Matthew 1:19). What does that legal
+   weight add to Paul's "I betrothed you to one husband" (2 Corinthians 11:2)?
+3. **Christ.** Isaiah says "your Maker is your husband, the LORD of hosts is his name" (Isaiah 54:5),
+   and John the Baptist says of Jesus, "The one who has the bride is the bridegroom" (John 3:29). What
+   do those two verses together say about who Jesus is?
+4. **The hard part.** Revelation 19:7 says "his Bride has made herself ready," and 19:9 says "Blessed
+   are those who are invited to the marriage supper of the Lamb." How do the invited of Revelation
+   19:9 relate to the Bride of Revelation 19:7?
+5. **Comfort.** Paul ends with "and so we will always be with the Lord" and then says "encourage one
+   another with these words" (1 Thessalonians 4:17-18). What would it take for you to say that verse
+   to someone in your church who is grieving a believer?
+6. **Be transformed.** Four parts of the betrothal are stated as done: "you were bought with a price"
+   (1 Corinthians 6:20), "I betrothed you" (2 Corinthians 11:2), "sealed" (Ephesians 1:13), "you were
+   washed, you were sanctified" (1 Corinthians 6:11). Which of the four is hardest for you to believe
+   about yourself?
 
 ## Annex: Sources, Word Studies and Cautions
 
