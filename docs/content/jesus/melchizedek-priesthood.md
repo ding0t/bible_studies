@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Hebrews 7:1-28"
 bible_references: ["Hebrews 1:1-3", "Hebrews 2:17-18", "Hebrews 4:14-16", "Hebrews 5:1-10", "Hebrews 6:13-20", "Hebrews 8:1-13", "Hebrews 9:6-28", "Hebrews 10:1-18", "Genesis 11:10-11", "Genesis 14:17-22", "Psalm 110:1-4", "Exodus 3:1", "Exodus 18:12", "Exodus 20:19", "Exodus 25:40", "Leviticus 8:12", "Leviticus 16:1-34", "Numbers 3:10", "Numbers 6:23-27", "Numbers 18:21", "Ezra 2:61-63", "Malachi 2:7", "2 Chronicles 26:16-21", "Zechariah 6:12-13", "Jeremiah 31:31-34", "Matthew 22:41-45", "Acts 2:34-36", "Galatians 1:12", "Galatians 3:17", "Hebrews 2:3", "Hebrews 3:7", "Psalm 2:7", "Numbers 20:25-28", "Romans 6:10", "Romans 8:34", "Colossians 2:17", "1 Peter 3:18"]
 date_created: 2026-08-02
-date_modified: 2026-10-02
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -564,19 +564,19 @@ Jesus, who is praying for you.
 
 ## Discussion questions
 
-1. Hebrews 7:15 restates "the order of Melchizedek" as "the likeness of Melchizedek." What two
-   things make up that likeness (Hebrews 7:3, 6, 16), and which of them could no Levitical priest
-   share?
-2. Under the Law a priest proved his right to serve with a written genealogy (Ezra 2:62). Jesus was
-   from Judah (Hebrews 7:14). What does Hebrews put where the genealogy would be, and why can that
-   never be lost?
-3. Hebrews 7:3 says Melchizedek was "made like" the Son of God, and Hebrews 2:17 says the Son was
-   "made like his brothers." What does each likeness accomplish?
-4. Hebrews 7:3 says Melchizedek "continues a priest forever." Of the four readings in this study,
-   which do you find most convincing, and how does Hebrews 7:23-24 bear on your answer?
-5. Hebrews 7:25 says Jesus "always lives to make intercession" for those who draw near. If you took
-   that as a description of what is happening right now, what would change in how you pray this
-   week?
+1. **The language.** Hebrews 7:22 calls Jesus the ἔγγυος, "guarantor," of a better covenant, and
+   Hebrews 8:6 calls Him its μεσίτης, "mediator." What does a guarantor stake that a mediator does
+   not?
+2. **The text in its context.** A Levitical priest proved his right to serve with a written
+   genealogy (Ezra 2:62). Jesus was from Judah (Hebrews 7:14). What does Hebrews put where the
+   genealogy would be?
+3. **Christ.** Melchizedek was "resembling the Son of God" (Hebrews 7:3), and the Son "had to be
+   made like his brothers" (Hebrews 2:17). What does each likeness accomplish?
+4. **The hard part.** Hebrews says Melchizedek "continues a priest forever" (Hebrews 7:3) and "it
+   is testified that he lives" (Hebrews 7:8), then says Jesus "holds his priesthood permanently"
+   because the others died (Hebrews 7:23-24). How do those verses fit together?
+5. **Be transformed.** Hebrews 7:25 says Jesus "always lives to make intercession" for those who
+   draw near. He is doing that for you right now. What would change in how you pray this week?
 
 ## Annex: Succession and authorship
 
