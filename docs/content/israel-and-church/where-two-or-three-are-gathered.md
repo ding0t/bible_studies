@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 18:15-20"
 bible_references: ["Matthew 18:1-14", "Matthew 18:21-35", "Leviticus 19:17", "Deuteronomy 19:15", "Deuteronomy 17:7", "Matthew 16:18-19", "John 20:23", "Matthew 1:23", "Matthew 28:19-20", "Matthew 9:9-11", "Matthew 10:3", "Matthew 22:34", "Matthew 26:57", "1 Corinthians 5:4-5", "1 Corinthians 5:11", "1 Corinthians 6:1", "1 Corinthians 6:19", "2 Corinthians 2:6-8", "Galatians 6:1", "2 Thessalonians 3:14-15", "1 Timothy 5:19-20", "Luke 17:3", "Matthew 6:6", "Matthew 14:23", "Mark 1:35", "James 5:16-18", "John 14:13-14", "Romans 8:26-27", "Hebrews 7:25", "Hebrews 10:24-25", "Acts 4:24-31", "Acts 12:5", "Romans 13:4", "Matthew 20:2"]
 date_created: 2026-10-01
-date_modified: 2026-10-01
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -367,18 +367,17 @@ Father will do to every one of you, if you do not forgive your brother from your
 
 ## Discussion questions
 
-1. **Language.** "Gathered" is the verb Matthew also uses of the Pharisees gathering against Jesus.
-   What does "into my name" add that makes a gathering of believers different?
-2. **Context.** Before reading this study, what did you take "two or three" to mean? How does verse
-   16's "two or three witnesses" change it?
-3. **Christ.** Matthew opens with "God with us" and closes with "I am with you always." Why might
-   Jesus
-   attach His presence, in the middle of the Gospel, to a church dealing with sin?
-4. **The hard part.** Verse 19 may carry a broader promise about prayer. If it does, what exactly
-   does
-   it promise, and what does it not?
-5. **You.** Do you pray differently alone than in a group, as though you were less heard? What would
-   change if you prayed alone this week as someone Jesus is with?
+1. **The language.** "Gathered" (Matthew 18:20) is συνάγω, used when the Pharisees "gathered
+   together" against Jesus (Matthew 22:34). What does "in my name" add that makes a gathering
+   different?
+2. **The text in its context.** Matthew 18:16 has just named "two or three witnesses" (Deuteronomy
+   19:15). How does that shape what the "two or three" of verse 20 gather to do?
+3. **Christ.** Matthew opens with "God with us" (Matthew 1:23) and closes with "I am with you
+   always" (Matthew 28:20). Why does Jesus attach His presence to a church dealing with sin?
+4. **The hard part.** Matthew 18:19 promises an answer "if two of you agree on earth about anything
+   they ask." Beside Matthew 18:16's witnesses, how far does that "anything" reach?
+5. **Be transformed.** Jesus prayed "by himself" (Matthew 14:23). How would you pray alone this week
+   as someone Jesus is with?
 
 ## References & Recommended Reading
 
