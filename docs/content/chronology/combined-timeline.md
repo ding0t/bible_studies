@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 11:10-32"
 bible_references: ["Genesis 5:1-32", "Genesis 7:11", "Genesis 11:10-32", "Genesis 12:4", "Exodus 12:40-41", "1 Kings 6:1", "Acts 7:4", "Galatians 3:17"]
 date_created: 2026-08-22
-date_modified: 2026-10-08
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -150,10 +150,18 @@ The manuscript question and the epoch are independent. Nothing about choosing a 
 
 ## Discussion questions
 
-1. The traditions disagree about creation by more than sixteen centuries and agree about Abraham to the year. Does that make you more or less confident in the parts of the chronology that can be checked?
-2. Genesis gives a father's age at his heir's birth for nineteen generations and then stops at Terah. Why might the text supply that much detail for the early period and none afterward?
-3. Everything datable in Scripture ultimately hangs on an eclipse recorded by scribes who had no interest in the Bible. What do you make of God's providence running through a record like that?
-4. The order of events is certain throughout while the dates are not. Which of the two does the biblical narrative actually depend on?
+1. **The text in its context.** Genesis gives a father's age at his heir's birth for nineteen
+   generations (Genesis 5:1-32; 11:10-26) and then stops at Terah. Why might the text supply that
+   much detail for the early period and none afterward?
+2. **Christ.** Paul says the promises were made to Abraham's offspring, "who is Christ"
+   (Galatians 3:16), and dates the law "430 years afterward" (Galatians 3:17). What does Paul
+   gain by measuring Israel's history from the promise to Abraham?
+3. **The hard part.** Exodus 12:40 reads, "The time that the people of Israel lived in Egypt was
+   430 years." Galatians 3:17 counts 430 years from the promise to the law. How do you read
+   Exodus 12:40 alongside Galatians 3:17?
+4. **Be transformed.** Paul writes, "But when the fullness of time had come, God sent forth his
+   Son" (Galatians 4:4). Which of God's promises do you find hardest to wait for, now that you have
+   seen Him keep this one at the time He set?
 
 ## References & Recommended Reading
 
