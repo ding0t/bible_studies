@@ -23,10 +23,6 @@ waves: ~4 studies per agent wave, author approves each wave before the next.
 commits: one per study, "docs(<section>): label discussion questions in <study>".
 
 todo:
-  - feasts/trumpets.md
-  - god/behemoth-and-leviathan.md
-  - god/dreams-and-visions/index.md
-  - god/world-population-declares-gods-creation-and-biblical-truth.md
   - israel-and-church/bride-of-christ.md
   - israel-and-church/hebrew-roots.md
   - israel-and-church/israels-regathering-and-refining.md
@@ -99,3 +95,8 @@ done:
     - chronology/flood-and-the-king-lists.md
     - chronology/four-hundred-and-eighty-years.md
     - chronology/why-not-4004-bc.md
+  wave_5:
+    - feasts/trumpets.md
+    - god/behemoth-and-leviathan.md
+    - god/dreams-and-visions/index.md
+    - god/world-population-declares-gods-creation-and-biblical-truth.md
