@@ -154,7 +154,7 @@ scripts/build-events.test.js`, or `node src/utils/chronology.test.js` for the `s
 
 `npm run validate` (`app/scripts/validate-content.js`, run from `app/`) is the content linter, and
 **it is not wired into CI** — the deploy workflow runs `npm test` only, so validate has to be run
-by hand after editing content. It applies 24 checks in seven groups:
+by hand after editing content. It applies 25 checks in eight groups:
 
 - **Checks 1–9, structural**: frontmatter (required fields, tag quoting, draft status), image paths,
   scripture quote blocks opening with `> ✝️ Reference (TRANSLATION)` as their first line (the
@@ -195,6 +195,11 @@ by hand after editing content. It applies 24 checks in seven groups:
   cannot see. Fix it by removing the link or by publishing the target in the same commit. Image
   lines (alt text) are excluded from the prose measurements in Checks 20-23: alt text is
   described for a screen reader and never read aloud.
+- **Check 25, discussion questions without facet labels** — a question with no bold facet label
+  (**The language.**, **The text in its context.**, **Christ.**, **The hard part.**,
+  **Be transformed.**), or a set with no **Be transformed.** question. Warning; the format and the
+  reference specimen (`hurt-by-the-church.md`) are in
+  `.claude/skills/develop-bible-study/discussion-questions.md`.
 - **Checks 18–19, claims that go stale silently.** An exhaustiveness claim ("only occurrence",
   "nowhere else") sharing a line with Greek or Hebrew characters — the cheapest sentence in a study
   to write and the most expensive to verify, so routinely written unverified; one shipped saying

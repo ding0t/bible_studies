@@ -653,6 +653,35 @@ function validateFile(filePath) {
     }
   }
 
+  // Check 25: a discussion-questions set without its facet labels. Each question opens with the
+  // facet it serves in bold (discussion-questions.md, "The format"), which is what makes a missing
+  // facet visible -- and the one most often missing is Be transformed. A 2026-10-10 count found 66
+  // of 92 sets unlabelled, every one of them with no Be transformed question.
+  // WARNING: the fix is rewriting questions against the study, which needs a person or a skill.
+  {
+    const section = bodyContent.match(
+      /^## (?:Discussion questions|Questions for discussion)\s*$([\s\S]*?)(?=^## |(?![\s\S]))/im
+    );
+    if (section) {
+      const items = section[1].split('\n').filter((l) => /^(\d+\.|[-*]) /.test(l));
+      const unlabelled = items.filter((l) => !/^(\d+\.|[-*]) \*\*[^*]+\.\*\*/.test(l)).length;
+      if (unlabelled > 0) {
+        log(
+          'warning',
+          filePath,
+          `${unlabelled} of ${items.length} discussion questions have no bold facet label. Open each with **The language.**, **The text in its context.**, **Christ.**, **The hard part.** or **Be transformed.** -- see .claude/skills/develop-bible-study/discussion-questions.md, "The format".`
+        );
+      }
+      if (items.length > 0 && !items.some((l) => /\*\*Be transformed\.\*\*/.test(l))) {
+        log(
+          'warning',
+          filePath,
+          'No **Be transformed.** discussion question. At least one question should land on the reader personally -- see .claude/skills/develop-bible-study/discussion-questions.md.'
+        );
+      }
+    }
+  }
+
   // Check 17: the provenance fields -- date_created, date_modified, ai_provider_models -- on the
   // hand-written pages. They are written by utils/refresh_frontmatter_provenance.py from git
   // history; this check exists because a date typed into frontmatter goes stale the moment

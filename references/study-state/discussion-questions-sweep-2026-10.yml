@@ -1,0 +1,97 @@
+slug: discussion-questions-sweep-2026-10
+title: "Bring every discussion-question set up to the facet-labelled format"
+status: queued
+started: 2026-10-10
+
+benchmark: >
+  christian-life/hurt-by-the-church.md, "## Discussion questions": each question opens with its
+  facet in bold (The language. / The text in its context. / Christ. / The hard part. /
+  Be transformed.), is rooted in a named text, and the set ends on Be transformed. Format codified
+  in .claude/skills/develop-bible-study/discussion-questions.md "The format"; validator Check 25
+  flags the gap. 2026-10-10 count: 92 sets, 26 labelled, 70 files flagged (66 unlabelled with no
+  Be transformed question, 4 labelled but missing it).
+
+pass: >
+  Rewrite each set against the study as it now stands, using discussion-questions.md's facet
+  table and rules. Include only the facets the study earned (no language question without a word
+  study in the body). Keep any existing question that is still good -- relabel it rather than
+  rewrite it. Root each question in a named text and quote ESV verified against study-notes.db
+  (study_verse), never from memory. Touch only the Discussion questions section. Normalise
+  variant labels (Language., Context., You.) to the canonical five.
+
+waves: ~4 studies per agent wave, author approves each wave before the next.
+commits: one per study, "docs(<section>): label discussion questions in <study>".
+
+todo:
+  - biblical-figures/paul.md
+  - biblical-figures/twelve-apostles.md
+  - christian-life/be-prepared.md
+  - christian-life/forgiveness.md
+  - christian-life/how-god-answers-prayer.md
+  - christian-life/know-the-truth.md
+  - christian-life/lords-prayer.md
+  - christian-life/take-up-your-cross.md
+  - chronology/combined-timeline.md
+  - chronology/flood-and-the-king-lists.md
+  - chronology/four-hundred-and-eighty-years.md
+  - chronology/why-not-4004-bc.md
+  - feasts/trumpets.md
+  - god/behemoth-and-leviathan.md
+  - god/creation-reveals-the-creator.md
+  - god/dreams-and-visions/index.md
+  - god/world-population-declares-gods-creation-and-biblical-truth.md
+  - israel-and-church/bride-of-christ.md
+  - israel-and-church/hebrew-roots.md
+  - israel-and-church/israel-and-the-church.md
+  - israel-and-church/israels-regathering-and-refining.md
+  - israel-and-church/where-two-or-three-are-gathered.md
+  - israel-and-church/wife-of-the-lamb.md
+  - jesus/as-the-snake-was-lifted.md
+  - jesus/bread-of-life-feeding-the-multitudes.md
+  - jesus/kinsman-redeemer.md
+  - jesus/melchizedek-priesthood.md
+  - jesus/priesthood-before-sinai.md
+  - jesus/the-heavenly-pattern/almond.md
+  - jesus/the-heavenly-pattern/ark.md
+  - jesus/the-heavenly-pattern/incense-altar.md
+  - jesus/the-heavenly-pattern/lampstand.md
+  - jesus/the-way.md
+  - jesus/three-days-and-three-nights.md
+  - jesus/woman-at-well.md
+  - jesus/woman-with-the-issue-of-blood.md
+  - last-things/a-thousand-years-in-your-sight.md
+  - last-things/day-is-a-thousand-years.md
+  - last-things/day-is-near.md
+  - last-things/end-of-the-age.md
+  - last-things/fig-tree-and-this-generation.md
+  - last-things/heaven-and-earth-will-pass-away.md
+  - last-things/immediately-after.md
+  - last-things/meet-the-lord-in-the-air.md
+  - last-things/new-heaven-and-new-earth.md
+  - last-things/new-jerusalem.md
+  - last-things/olivet-discourse-parables.md
+  - last-things/olivet-discourse.md
+  - last-things/one-taken-one-left.md
+  - last-things/prophecy-essentials.md
+  - last-things/rapture-in-the-early-church.md
+  - last-things/rapture.md
+  - last-things/six-days-of-history.md
+  - last-things/taken-before-judgment.md
+  - last-things/the-restrainer.md
+  - last-things/tribulation.md
+  - last-things/trumpet.md
+  - last-things/two-witnesses.md
+  - last-things/your-kingdom-come.md
+  - salvation/assurance-of-salvation.md
+  - scripture/cities-of-the-plain.md
+  - scripture/melchizedek-in-second-temple-judaism.md
+  - scripture/numerology.md
+  - scripture/scribe-trained-for-the-kingdom.md
+  - scripture/verses-often-misquoted.md
+  - scripture/verses-quoted-well.md
+  - sin/sorcery.md
+  - spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md
+  - spiritual-beings/nephilim.md
+  - wisdom/reading-the-song-of-songs.md
+
+done: []

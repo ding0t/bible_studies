@@ -26,6 +26,40 @@ forcing one produces a vocabulary quiz. A study with no genuine tension should n
 A reasonable default order runs text → reader: language, context, Christ, the hard part, transformed.
 It is a default, not a rule; a study whose whole point is Christological may well open there.
 
+## The format: each question carries its facet as a bold label
+
+A numbered list, each item opening with its facet in bold, then the text it stands on, then the
+question. `hurt-by-the-church.md` is the reference specimen:
+
+```markdown
+## Discussion questions
+
+1. **The language.** The "harshness" of Ezekiel 34:4 is the word used for Pharaoh's slavery
+   (Exodus 1:13) and forbidden between Israelites (Leviticus 25:43). What does that comparison say
+   about how God sees leaders who misuse His people?
+2. **The text in its context.** Jesus explained the parable of the weeds Himself (Matthew 13:38).
+   Why does it matter that the field is "the world"?
+3. **Christ.** Jesus quoted Psalm 41:9 of Judas (John 13:18) and later restored Peter (John
+   21:15-17). What does each tell you about how He handles betrayal?
+4. **The hard part.** Paul said "Purge the evil person from among you" (1 Corinthians 5:13) and also
+   "Why not rather suffer wrong?" (1 Corinthians 6:7). How do you tell which one a situation calls
+   for?
+5. **Be transformed.** Paul prayed of those who deserted him, "May it not be charged against them!"
+   (2 Timothy 4:16). Who is the person you need to pray that for, and what would it cost you?
+```
+
+The label tells a group leader what kind of conversation each question opens before anyone reads
+it, and it makes a missing facet visible at a glance — a set with no **Be transformed.** line is
+obviously short of one. Use the five labels exactly as written: **The language.**, **The text in
+its context.**, **Christ.**, **The hard part.**, **Be transformed.** (variants such as *Language.*,
+*Context.* or *You.* drifted in before this was written and should be normalised when touched).
+A sixth question on a theme the study earned may take its own short label — `hurt-by-the-church.md`'s
+**Testing.**, `test-the-spirits.md`'s **Keep asking.** — but the set still ends on
+**Be transformed.**
+
+`validate-content.js` Check 25 warns on a question with no bold label and on a set with no
+**Be transformed.** question.
+
 ## What each facet is asking for
 
 **The language.** Not "what does *X* mean" — that is a comprehension check the study already
