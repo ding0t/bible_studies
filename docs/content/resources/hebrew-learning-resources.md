@@ -5,9 +5,10 @@ description: "Learn to read the Hebrew Bible for free with Aleph with Beth: how 
 tags: ["lang/hebrew", "learning", "courses"]
 draft: false
 date_created: 2025-04-24
-date_modified: 2026-10-09
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
