@@ -448,19 +448,25 @@ to Him and listen.
 
 ## Discussion questions
 
-1. Deuteronomy 18 places the prohibition of sorcery inside its section on the prophetic office rather
-   than among the laws about idolatry. What difference does that placement make to how the
-   prohibition should be read?
-2. Saul kept the law on mediums until God stopped answering him (1 Samuel 28:6-7). Where does the
-   silence of God push you, and what do you reach for while you wait?
-3. Deuteronomy 13:1-5 says not to listen even when the sign comes true. Why is accuracy an
-   insufficient test, and what does that imply about how we evaluate spiritual experiences today?
-4. The same Greek word describes Elymas and the Magi. What does that suggest about judging practices
-   by their label rather than by their direction?
-5. The Ephesian believers burned books worth fifty thousand days' wages, publicly, after conversion
-   (Acts 19:19). What would the equivalent cost you, and what has kept you from it?
-6. Paul silenced a spirit whose words were true in a formal sense (Acts 16:17-18). What does that establish about
-   which sources of information a Christian should accept?
+1. **The language.** Deuteronomy 18:14 says the nations "listen to fortune-tellers," and 18:15 says
+   of the coming prophet, "it is to him you shall listen" — the same verb, <span dir="rtl">שָׁמַע</span>
+   (*šāmaʿ*), in consecutive sentences. What does that one verb show God was after when He banned
+   the diviners?
+2. **The text in its context.** Deuteronomy 16:18-18:22 works through Israel's public offices, and
+   the list of occult practices (Deuteronomy 18:9-14) falls inside the section on the prophet. What
+   difference does that placement make to how the prohibition should be read?
+3. **Christ.** Peter applies Deuteronomy 18:15 to the risen Jesus: "You shall listen to him in
+   whatever he tells you" (Acts 3:22). What does it mean that God's answer to every route to hidden
+   knowledge is a Person to listen to?
+4. **Testing.** Deuteronomy 13:2-3 says "you shall not listen" even when the sign "comes to pass,"
+   and Paul silenced a spirit whose words about him were true (Acts 16:17-18). If accuracy is not
+   the test, what is?
+5. **The hard part.** Matthew calls the wise men who worshipped Jesus *magoi* (Matthew 2:1) and
+   records no censure; Luke uses the same word, μάγος (*magos*), of Elymas, "a magician, a Jewish
+   false prophet" (Acts 13:6, 8). How do those two uses of one word sit beside Deuteronomy 18:10?
+6. **Be transformed.** "When Saul inquired of the LORD, the LORD did not answer him" (1 Samuel
+   28:6), and the medium came next. When God is silent with you, what do you reach for while you
+   wait?
 
 ## References & Recommended Reading
 
