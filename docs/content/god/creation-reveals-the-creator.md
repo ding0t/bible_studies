@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Romans 1:19-23"
 bible_references: ["Psalm 19:1-4", "Acts 14:15-17", "Acts 17:24-28", "Job 38:4-7", "Ephesians 2:10", "Colossians 1:15-17", "Hebrews 1:1-3", "Romans 10:14-17", "Romans 3:11"]
 date_created: 2026-08-04
-date_modified: 2026-10-09
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -162,10 +162,26 @@ Romans 1:19-23 makes a real, specific claim. Every person, everywhere, has been 
 
 ## Discussion questions
 
-1. Romans 1:21 names the root sin as failing to honor God and give thanks, with futile thinking and idolatry as the *result*. Where in your own life has admiration for something God made stopped short of gratitude directed at Him?
-2. The ESV Study Bible's note on Romans 1:19-20 says general revelation condemns but does not save. Does that change how you'd use a "look at creation" argument in a conversation with someone who doesn't believe in God? What can it accomplish, and what does it need to be followed by?
-3. This study presented both AiG's and mainstream science's reading of the soft-tissue and JWST evidence. Does holding two competing explanations of the same data change how confident either side's stated conclusion should be?
-4. Paul quotes pagan poets approvingly at the Areopagus (Acts 17:28) because their own tradition had preserved a fragment of what general revelation showed them. What "fragments" of truth about God do you notice preserved in sources (art, philosophy, other worldviews) that don't otherwise share your convictions?
+1. **The language.** Paul calls the created world "the things that have been made" (Romans 1:20),
+   from ποίημα (*poiema*), and calls believers "his workmanship" (Ephesians 2:10), the same word.
+   What does that shared word say about what God is doing in you?
+2. **The text in its context.** "So they are without excuse" (Romans 1:20, ESV) opens an argument
+   that closes on "None is righteous, no, not one" (Romans 3:10, ESV) before Paul turns to
+   righteousness by faith at Romans 3:21. Why does Paul establish the Gentiles' guilt from creation
+   before he explains the gospel?
+3. **Christ.** Romans 1:20 says creation shows God's θειότης (*theiotes*), His "divine nature";
+   Colossians 2:9 says "in him the whole fullness of deity dwells bodily" (ESV), using θεότης
+   (*theotes*). What does Jesus show you of God that the night sky cannot?
+4. **The hard part.** At Athens Paul says God made the nations "that they should seek God, and
+   perhaps feel their way toward him and find him" (Acts 17:27, ESV). Writing to Rome he says "no
+   one seeks for God" (Romans 3:11, ESV). How do these two sentences fit together?
+5. **Common ground.** Paul quotes pagan poets approvingly at the Areopagus (Acts 17:28) because
+   their own tradition had preserved a fragment of what general revelation showed them. What
+   "fragments" of truth about God do you notice preserved in sources (art, philosophy, other
+   worldviews) that don't otherwise share your convictions?
+6. **Be transformed.** Romans 1:21 names the root sin as failing to honor God and give thanks, with
+   futile thinking and idolatry as the *result*. Where in your own life has admiration for something
+   God made stopped short of gratitude directed at Him?
 
 ## References & Recommended Reading
 
