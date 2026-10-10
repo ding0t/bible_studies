@@ -23,10 +23,6 @@ waves: ~4 studies per agent wave, author approves each wave before the next.
 commits: one per study, "docs(<section>): label discussion questions in <study>".
 
 todo:
-  - jesus/melchizedek-priesthood.md
-  - jesus/priesthood-before-sinai.md
-  - jesus/the-heavenly-pattern/almond.md
-  - jesus/the-heavenly-pattern/ark.md
   - jesus/the-heavenly-pattern/incense-altar.md
   - jesus/the-heavenly-pattern/lampstand.md
   - jesus/the-way.md
@@ -102,6 +98,11 @@ done:
     - jesus/as-the-snake-was-lifted.md
     - jesus/bread-of-life-feeding-the-multitudes.md
     - jesus/kinsman-redeemer.md
+  wave_8:
+    - jesus/melchizedek-priesthood.md
+    - jesus/priesthood-before-sinai.md
+    - jesus/the-heavenly-pattern/almond.md
+    - jesus/the-heavenly-pattern/ark.md
 
 # Found in study bodies by sweep agents and left alone (out of scope). Candidates for a follow-up
 # review-bible-study pass; misquotes first.
@@ -112,6 +113,8 @@ found_outside_questions:
     - "jesus/as-the-snake-was-lifted.md: 2 Corinthians 5:21 quoted as 'who knew no sin, to be sin for us' (not ESV); Romans 8:3 'to condemn sin in the flesh' (ESV: 'he condemned sin in the flesh')"
     - "biblical-figures/paul.md: '(1:13, ESV)' with no book named (line ~112)"
     - "christian-life/how-god-answers-prayer.md: quote block says Acts 12:14-16, bible_references says 12:13-16"
+    - "jesus/melchizedek-priesthood.md: Key Takeaways quotes Hebrews 7:3 as \"made like\" with no translation named (ESV: \"resembling\")"
+    - "jesus/the-heavenly-pattern/almond.md: unclosed quotation mark, line ~232 (\"blossomed blossoms.)"
   lowercase_divine_pronouns_in_own_prose:
     [sin/sorcery.md, biblical-figures/paul.md, biblical-figures/twelve-apostles.md (prayer),
      god/behemoth-and-leviathan.md, jesus/as-the-snake-was-lifted.md]
