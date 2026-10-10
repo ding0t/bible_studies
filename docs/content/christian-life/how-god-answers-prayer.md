@@ -7,7 +7,7 @@ draft: true
 primary_passage: "Daniel 10:12-13"
 bible_references: ["John 11:41-42", "Isaiah 65:24", "Genesis 24:15", "Genesis 24:45", "Daniel 9:20-23", "Daniel 10:12-13", "2 Corinthians 12:9", "Acts 16:6-10", "Hebrews 5:7", "John 12:28-29", "Psalm 29:3", "Job 37:4", "2 Samuel 22:14", "Acts 12:5", "Acts 12:13-16", "Psalm 141:2", "Revelation 5:8", "Revelation 8:3-5", "Revelation 6:9-11"]
 date_created: 2026-09-26
-date_modified: 2026-09-26
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -131,6 +131,18 @@ that runs past the end of the life that prayed them.
 
 ## Discussion questions
 
-1. **Deeper in Scripture.** Abraham's servant is answered before he finishes praying (Genesis 24:15)
+1. **The language.** The crowd at the voice from heaven said βροντὴν γεγονέναι, "that it had
+   thundered" (John 12:29), and Psalm 29:3 says "the God of glory thunders". If "thunder" was their
+   word for God speaking, what did that part of the crowd actually grasp?
+2. **The text in its context.** Acts 12:5 says "earnest prayer for him was made to God by the
+   church", yet when Rhoda reported Peter at the gate they told her, "You are out of your mind"
+   (Acts 12:15). What about that night in Jerusalem makes their disbelief understandable?
+3. **The hard part.** Jesus said at the tomb, "I knew that you always hear me" (John 11:42). In
+   Gethsemane the cup did not pass, and Hebrews 5:7 still says "he was heard because of his
+   reverence." What must "heard" mean for both of those sentences to be true?
+4. **Kept.** The golden bowls of incense in Revelation 5:8 are "the prayers of the saints", and the
+   martyrs' cry "how long" (Revelation 6:10) waits among them. What does it show about God that He
+   keeps a prayer He has not yet answered?
+5. **Be transformed.** Abraham's servant is answered before he finishes praying (Genesis 24:15)
    and Daniel is told his words were heard on day one but the messenger was delayed twenty-one days
    (Daniel 10:12-13). Both are true. How should either change the way you read a silence?
