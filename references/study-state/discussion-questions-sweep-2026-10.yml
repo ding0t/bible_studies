@@ -1,6 +1,6 @@
 slug: discussion-questions-sweep-2026-10
 title: "Bring every discussion-question set up to the facet-labelled format"
-status: queued
+status: in-progress
 started: 2026-10-10
 
 benchmark: >
@@ -26,11 +26,8 @@ todo:
   - biblical-figures/paul.md
   - biblical-figures/twelve-apostles.md
   - christian-life/be-prepared.md
-  - christian-life/forgiveness.md
   - christian-life/how-god-answers-prayer.md
-  - christian-life/know-the-truth.md
   - christian-life/lords-prayer.md
-  - christian-life/take-up-your-cross.md
   - chronology/combined-timeline.md
   - chronology/flood-and-the-king-lists.md
   - chronology/four-hundred-and-eighty-years.md
@@ -82,7 +79,6 @@ todo:
   - last-things/trumpet.md
   - last-things/two-witnesses.md
   - last-things/your-kingdom-come.md
-  - salvation/assurance-of-salvation.md
   - scripture/cities-of-the-plain.md
   - scripture/melchizedek-in-second-temple-judaism.md
   - scripture/numerology.md
@@ -94,4 +90,9 @@ todo:
   - spiritual-beings/nephilim.md
   - wisdom/reading-the-song-of-songs.md
 
-done: []
+done:
+  wave_1:
+    - salvation/assurance-of-salvation.md
+    - christian-life/forgiveness.md
+    - christian-life/take-up-your-cross.md
+    - christian-life/know-the-truth.md
