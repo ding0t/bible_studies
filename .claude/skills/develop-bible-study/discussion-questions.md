@@ -103,6 +103,8 @@ the reader's own circles routinely say.
 - **Root each question in a named text.** A group needs somewhere to turn. "What does this teach
   about death?" is a prompt for a sermon; "Samuel tells Saul *'tomorrow you and your sons shall be
   with me'* — what does that do to…" is a prompt for a Bible study.
+- **No question a group can answer yes or no.** *"Is there someone you are withholding forgiveness
+  from…?"* gets a silent nod. Ask *who*, *what* or *how*.
 - **Give the original word beside a quotation, never inside it.** *"you are not setting your mind
   (φρονεῖς) on the things of God"* edits the ESV. Quote the verse whole, then name the word: "…Paul
   uses the same verb, φρονέω, for…".
