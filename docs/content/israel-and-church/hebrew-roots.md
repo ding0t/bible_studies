@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Colossians 2:16-17"
 bible_references: ["2 Timothy 3:16-17", "2 Timothy 3:8", "Luke 24:25-27", "Luke 24:44", "Matthew 5:17-18", "Hebrews 10:1", "1 Corinthians 5:7-8", "Leviticus 23:2-4", "Genesis 2:2-3", "Psalm 119:105", "Romans 15:4", "Acts 17:11", "Galatians 5:1-4", "Acts 15:10-11", "Romans 5:14", "John 2:13", "John 7:10", "Jude 1:9", "Jude 1:14-15", "Deuteronomy 34:5-7", "Acts 24:14", "John 1:41", "John 4:22", "John 4:25", "Acts 17:2-3", "Luke 1:32-33", "Acts 1:6-11", "Acts 2:30-36", "Acts 3:18-22", "Acts 8:32-35", "Romans 9:4-5", "Romans 15:8-9", "Romans 1:3", "Galatians 3:16", "Hebrews 7:14", "Matthew 1:1", "Matthew 1:22-23", "Matthew 2:5-6", "Matthew 21:4-5", "Mark 1:2-3", "2 Corinthians 1:20", "Micah 5:2", "Isaiah 7:14", "Isaiah 53:7-8", "Zechariah 9:9", "Zechariah 14:4", "Psalm 2:2", "Psalm 16:10", "Psalm 110:1", "Daniel 9:25-26", "Leviticus 4:3", "1 Samuel 24:6"]
 date_created: 2025-05-21
-date_modified: 2026-10-09
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -109,7 +109,7 @@ In Jesus' name. Amen.
   extra-biblical Jewish texts.
 - [Why this still matters for the church today](#why-this-still-matters-for-the-church-today).
   Romans 15:4.
-- [Discussion questions](#discussion-questions). Seven, for a group or on your own.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## Jesus, the Messiah Israel was promised
 
@@ -294,26 +294,30 @@ need for endurance and hope.
 
 ## Discussion questions
 
-1. Paul told Felix that he worshipped "the God of our fathers, believing everything laid down by the
-   Law and written in the Prophets" (Acts 24:14). How does seeing Christianity as Israel's faith
-   followed through to its Messiah change the way you read the Old Testament?
-2. Which of the promises in the chart above would you find hardest to explain to someone who doubts
-   that Jesus is the Messiah, and where would you send them to read it?
-3. Colossians 2:17 calls the festivals, new moons, and Sabbaths a shadow whose substance is Christ.
-   What changes about how you read an Old Testament ritual once you look for what it is a shadow
-   *of*?
-4. Jesus opened the Hebrew Scriptures to explain Himself on the Emmaus road (Luke 24:27) before a
-   single Gospel had been written. What does that say about how much of the church's Christology was
-   already available before the New Testament existed?
-5. The caution section names two opposite errors: collapsing the Church into Israel, and requiring
-   Gentile believers to keep the Torah. What keeps a church from drifting into either one while still
-   taking the Old Testament seriously?
-6. Which of the six features (shadows and types, Torah, festivals, creation, prophecy, or
-   extra-biblical texts) is most unfamiliar to you, and what would studying it change about how you
-   read the rest of Scripture?
-7. Jude quotes 1 Enoch as true on one point without treating it as Scripture (Jude 14-15). What is
-   the difference between citing a non-biblical source the way Jude does here and treating it as
-   authoritative the way Scripture is?
+1. **The language.** Colossians 2:17 calls food and drink, festivals, new moons and Sabbaths "a
+   shadow of the things to come, but the substance belongs to Christ." Paul's word is σκιά (*skia*),
+   the word Hebrews 10:1 uses of the law's sacrifices. What changes about how you read an Old
+   Testament ritual once you look for what it is a shadow *of*?
+2. **The text in its context.** Paul writes that "Christ became a servant to the circumcised to show
+   God's truthfulness, in order to confirm the promises given to the patriarchs, and in order that
+   the Gentiles might glorify God for his mercy" (Romans 15:8-9). How does that sentence place a
+   Gentile believer in relation to the promises God made to Israel's patriarchs?
+3. **Christ.** Jesus opened the Hebrew Scriptures to explain Himself on the Emmaus road (Luke 24:27)
+   before a single Gospel had been written. What does that say about how much of the church's
+   Christology was already available before the New Testament existed?
+4. **The law.** Jesus said that "not an iota, not a dot, will pass from the Law until all is
+   accomplished" (Matthew 5:18). At the Jerusalem council Peter refused to place "a yoke on the neck
+   of the disciples that neither our fathers nor we have been able to bear" (Acts 15:10). What place
+   does the Torah have in a Gentile believer's life when both texts are read together?
+5. **The hard part.** At Pentecost Peter says God swore to David "that he would set one of his
+   descendants on his throne" and that Jesus is now "exalted at the right hand of God" (Acts 2:30,
+   33). Weeks earlier Jesus left the question of restoring the kingdom to Israel with "times or
+   seasons that the Father has fixed" (Acts 1:6-7), and Peter later says heaven must receive Jesus
+   "until the time for restoring all the things about which God spoke by the mouth of his holy
+   prophets" (Acts 3:21). How do you read Acts 2:30-36 alongside Acts 1:6-7 and Acts 3:21?
+6. **Be transformed.** Paul says the Old Testament "was written for our instruction, that through
+   endurance and through the encouragement of the Scriptures we might have hope" (Romans 15:4).
+   Which Old Testament promise do you need for the endurance you are being asked for right now?
 
 ## References & Recommended Reading
 
