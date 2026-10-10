@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ezekiel 36:22-28; Zechariah 12:10-13:9"
 bible_references: ["Ezekiel 33:21", "Ezekiel 36:22-28", "Ezekiel 36:32", "Ezekiel 37:11-12", "Ezekiel 37:15-22", "Ezekiel 20:34-37", "Zechariah 1:1", "Zechariah 10:8-10", "Zechariah 10:6-7", "Ezekiel 38:8", "Ezekiel 20:38", "Ezra 7:6", "Romans 9:24", "Amos 9:11", "Isaiah 27:9", "John 19:35", "Zechariah 12:10", "Zechariah 13:1", "Zechariah 13:3", "Zechariah 13:7-9", "Amos 9:15", "Isaiah 11:11", "Isaiah 59:20", "Psalm 14:7", "Hosea 1:9-10", "Hosea 5:15", "Deuteronomy 4:30-31", "Jeremiah 30:7", "Daniel 12:1", "Numbers 25:8", "1 Samuel 31:4", "Matthew 24:15-20", "Matthew 26:31", "John 19:37", "Acts 1:6-7", "Acts 15:14-16", "Romans 9:25-26", "Romans 11:26-27", "Romans 11:29", "John 19:34", "Revelation 1:7"]
 date_created: 2026-09-26
-date_modified: 2026-10-09
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -362,18 +362,18 @@ irrevocable" (Romans 11:29, ESV). The same faithfulness holds your salvation, so
 
 ## Discussion questions
 
-1. Ezekiel 36 gathers before it cleanses. How should that order shape what a Christian expects of a
-   Jewish state that is not, in the main, a believing one?
-2. God says twice in Ezekiel 36 that He acts "not for your sake" (vv. 22, 32). What does that do to
-   the idea that Israel has forfeited her promises?
-3. Zechariah promises a gathering (10:8-10) after the return from Babylon had already happened. What
-   does that tell you about how far the prophets' promises reach?
-4. *Tsaraph* is a smelter's word. What does Zechariah 13:9 say the fire is for, and what comes out of
-   it?
-5. In Zechariah 12:10 the LORD says "they will look on me," and then "they shall mourn for him."
-   How do John 19:37 and Revelation 1:7 help you read that verse?
-6. Jesus answered "when" and left "whether" standing (Acts 1:6-7). Where are you tempted to demand
-   the date before you trust the promise?
+1. **The language.** "Refine" in Zechariah 13:9 is <span dir="rtl">צָרַף</span> (*tsaraph*), a
+   smelter's word. What does it say about why God puts "this third into the fire"?
+2. **The text in its context.** Zechariah 10:8-10 promises a gathering after the return from
+   Babylon. How far do the prophets' promises reach?
+3. **Christ.** Zechariah 12:10 reads "when they look on me, on him whom they have pierced." How do
+   John 19:37 and Revelation 1:7 help you read it?
+4. **The hard part.** Jesus applied Zechariah 13:7 to His own arrest (Matthew 26:31). When does the
+   refining of Zechariah 13:8-9 happen, read beside Jeremiah 30:7 and Daniel 12:1?
+5. **The modern state.** Ezekiel 36:24-27 gathers before it cleanses. What should that order lead a
+   Christian to expect of a largely unbelieving Jewish state?
+6. **Be transformed.** Jesus declined to give the date and left the promise standing (Acts 1:6-7). Where are you
+   tempted to demand the date before you trust the promise?
 
 ## Annex: Paul's quotation in Romans 11:26
 
