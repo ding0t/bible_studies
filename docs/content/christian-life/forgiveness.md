@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 6:14-15"
 bible_references: ["Matthew 6:12", "Mark 11:25", "Luke 17:3-4", "Matthew 18:15-17", "Matthew 18:21-35", "Matthew 5:23-24", "Matthew 5:44-45", "Matthew 4:20", "Luke 7:41-47", "Luke 23:34", "Luke 24:47", "Luke 13:3", "Acts 2:36-38", "Acts 3:17-19", "Acts 7:60", "Acts 16:37", "Ephesians 4:26", "Ephesians 4:31-32", "Colossians 2:13-14", "Colossians 3:13", "Romans 5:8-10", "Romans 12:17-21", "Romans 13:4", "2 Corinthians 2:6-11", "2 Corinthians 5:18-21", "1 John 1:8-10", "1 Peter 2:23", "1 Peter 4:3-5", "2 Timothy 4:14-16", "Exodus 34:6-7", "Deuteronomy 29:19-20", "Deuteronomy 15:1-2", "Psalm 130:3-4", "Jeremiah 31:34", "Genesis 42:21", "Genesis 50:17-21", "Matthew 10:16"]
 date_created: 2026-10-04
-date_modified: 2026-10-04
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -97,7 +97,7 @@ In Jesus' name. Amen.
 - [What forgiveness is not](#what-forgiveness-is-not). The pastoral section: false guilt, and what
   forgiving does not require of you.
 - [The freedom of forgiving](#the-freedom-of-forgiving). The close: handing the account to the Father.
-- [Discussion questions](#discussion-questions). Seven, for a group or on your own.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## Matthew 6:14-15 in its place
 
@@ -484,21 +484,23 @@ with nothing held back.
 
 ## Discussion Questions
 
-1. The Gospels' word for forgive, *aphiēmi*, is the same word for leaving nets on a beach. What does
-   picturing forgiveness as "letting go" of a debt change about how you think of it?
-2. Forgiveness is the only request in the Lord's Prayer that Jesus stops to explain (Matthew 6:14-15). Why might
-   forgiveness need explaining more than daily bread did?
-3. Jesus prayed for those who crucified Him, and at Pentecost Peter told Jerusalem, "this Jesus whom
-   you crucified," and called them to repent (Acts 2:36-38). What does that show about how Jesus
-   forgives?
-4. Mark 11:25 names no condition, and Luke 17:3 says "if he repents." How do you hold those two
-   sayings together?
-5. Paul handed Alexander to the Lord and still told Timothy, "Beware of him" (2 Timothy 4:14-15).
-   Where have you confused forgiving someone with trusting them again?
-6. Someone tells a person who was badly wronged, "Forgive and move on, or God won't forgive you."
-   Using Matthew 18:29-35 and Luke 17:3, what is true in that, and what has been added?
-7. Is there a debt you are still trying to collect? What would it look like this week to hand it to
-   the Judge (1 Peter 2:23; 4:5)?
+1. **The language.** The Gospels' word for forgive, ἀφίημι (*aphiēmi*), is the word for Peter and
+   Andrew leaving their nets on the beach (Matthew 4:20). What does picturing forgiveness as "letting
+   go" of a debt change about how you think of it?
+2. **The text in its context.** Forgiveness is the only request in the Lord's Prayer that Jesus
+   stops to explain (Matthew 6:14-15). Why might forgiveness need explaining more than daily bread
+   did?
+3. **Christ.** Jesus prayed for those who crucified Him (Luke 23:34), and at Pentecost Peter told
+   Jerusalem, "this Jesus whom you crucified," and called them to repent (Acts 2:36-38). What does
+   that show about how Jesus forgives?
+4. **The hard part.** Mark 11:25 names no condition, and Luke 17:3 says "if he repents." How do you
+   hold those two sayings together?
+5. **Used as a weapon.** Someone tells a person who was badly wronged, "Forgive and move on, or God
+   won't forgive you." Using Matthew 18:29-35 and Luke 17:3, what is true in that, and what has
+   been added?
+6. **Be transformed.** When Jesus suffered, He "continued entrusting himself to him who judges
+   justly" (1 Peter 2:23). What debt are you still trying to collect that you could hand to the
+   Judge this week?
 
 ## References & Recommended Reading
 
