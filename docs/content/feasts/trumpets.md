@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:23-25"
 bible_references: ["Leviticus 23:23-25", "Numbers 29:1-6", "Numbers 10:1-10", "Leviticus 25:9", "Psalm 81:3", "Ezekiel 40:1", "Exodus 2:24", "Exodus 19:16-20", "Exodus 24:12", "Numbers 23:21", "Psalm 47:5-7", "Psalm 89:15", "Proverbs 30:27", "Daniel 12:1-2", "Jude 9", "Isaiah 27:13", "1 Corinthians 15:51-53", "1 Thessalonians 4:16-17", "Revelation 1:10-13", "Revelation 4:1", "Revelation 11:12-15", "Matthew 24:30-31", "Matthew 24:36", "Matthew 24:42-44", "Joel 2:1", "Joel 2:15"]
 date_created: 2025-08-10
-date_modified: 2026-10-03
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -101,7 +101,7 @@ In Jesus' name. Amen.
   comes from.
 - [What the feast teaches](#what-the-feast-teaches). God remembers, God summons, and the Lord is
   coming.
-- [Discussion questions](#discussion-questions). Five, for a group or on your own.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## The day in Israel's calendar
 
@@ -387,16 +387,26 @@ ESV). So live awake, and let the sound of the trumpet be the thing you are liste
 
 ## Discussion questions
 
-1. Leviticus 23:24 calls the day "a memorial of shouting" and names no instrument. When the sound is
-   what God commands, what does that suggest about how His people are meant to come before Him?
-2. Numbers 10:9 sounds the alarm "that you may be remembered before the LORD your God." What does it
-   mean for God to remember, when He never forgets?
-3. Yom Teruah was the only feast whose day Israel could not fix in advance. How does that sit beside
-   Jesus' words "you do not know on what day your Lord is coming" (Matthew 24:42)?
-4. Paul's "last trumpet" (1 Corinthians 15:52) and Jesus' "loud trumpet call" (Matthew 24:31) both
-   gather God's people. What do the two passages say about who is gathered, and from where?
-5. Joel 2:15 blows the trumpet to call a fast. What would it look like for you to hear that call this
-   week?
+1. **The language.** Leviticus 23:24 calls the day <span dir="rtl">זִכְרוֹן תְּרוּעָה</span>, "a
+   memorial of shouting," and names no instrument; elsewhere *teruah* is Israel's war cry and the
+   shout that hailed its King (Numbers 23:21). When the sound is what God commands, what does that
+   suggest about how His people are meant to come before Him?
+2. **The text in its context.** Numbers 10:9 sounds the alarm "that you may be remembered before the
+   LORD your God," and Exodus 2:24 says God "remembered his covenant with Abraham, with Isaac, and
+   with Jacob." What does it mean for God to remember, when He never forgets?
+3. **Christ.** Israel hailed its King with the teruah: "God has gone up with a shout, the LORD with
+   the sound of a trumpet" (Psalm 47:5). Paul says the Lord Himself will descend "with the sound of
+   the trumpet of God" (1 Thessalonians 4:16). What does it show about Jesus that He comes for His
+   church with the sound Israel used to hail its King?
+4. **The hard part.** No New Testament text names the feast. Leviticus 23:24 sets "a memorial
+   proclaimed with blast of trumpets" on the first day of the seventh month, and Paul places the
+   resurrection "at the last trumpet" (1 Corinthians 15:52). How far does the wording of the two
+   texts carry the link between them?
+5. **Readiness.** Yom Teruah was the only feast in Leviticus 23 whose day Israel could not fix in
+   advance. How does that sit beside Jesus' words "you do not know on what day your Lord is coming"
+   (Matthew 24:42)?
+6. **Be transformed.** "Blow the trumpet in Zion; consecrate a fast" (Joel 2:15). What would it look
+   like for you to hear that call this week?
 
 ## References & Recommended Reading
 
