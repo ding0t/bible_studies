@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 10:1-4; Mark 3:13-19; Luke 6:12-16; Acts 1:13"
 bible_references: ["John 1:35-51", "Matthew 4:18-22", "Luke 5:1-11", "Mark 6:7-13", "Matthew 19:28", "Revelation 21:12-14", "Ephesians 2:20", "Acts 1:15-26", "Matthew 10:5-6", "Mark 14:50", "Luke 22:24", "John 15:16", "John 12:20-22", "Titus 3:5"]
 date_created: 2026-08-08
-date_modified: 2026-10-09
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -90,7 +90,7 @@ Jesus' name. Amen.
 - [The men themselves](#the-men-themselves). Each name and its meaning, three disputed identifications, and [a tax collector and a Zealot](#a-tax-collector-and-a-zealot) in one group.
 - **Sent, scattered, made twelve again** — [Sent to Israel first](#sent-to-israel-first) · [They all fled](#they-all-fled) · [The twelfth chair](#the-twelfth-chair). The commission to Israel, the desertion, and Matthias chosen to restore the number.
 - [Theological principle](#theological-principle). The conclusion drawn together from Mark 3:14, Matthew 19:28, John 15:16 and Acts 1:21-22.
-- [Questions for discussion](#questions-for-discussion). Five, for a group or on your own.
+- [Questions for discussion](#questions-for-discussion). Six, for a group or on your own.
 
 ---
 
@@ -420,11 +420,26 @@ Mark 3:14, Matthew 19:28, John 15:16 and Acts 1:21-22.
 
 ## Questions for discussion
 
-1. Mark puts "be with him" before "send them out." What changes in how you evaluate a ministry (your own or someone else's) if the first half of the appointment is the presence rather than the productivity?
-2. Jesus prayed all night and still chose Judas (Luke 6:12-16). What does that do to the assumption that a well-prayed decision is one that cannot go wrong?
-3. Matthew and Simon the Zealot were political enemies kept in the same group for three years. Who is missing from your fellowship, and is their absence a conviction or a preference?
-4. Three of the Twelve never speak a recorded word on their own, and all twelve names are on the city's foundations. What does that suggest about how visible faithfulness has to be to count?
-5. The apostolic qualification in Acts 1:21-22 cannot be met by anyone alive. What follows for how we should treat claims to apostolic authority today?
+1. **The language.** Luke 6:13 says Jesus "called his disciples and chose from them twelve, whom he
+   named apostles." A <span lang="grc">μαθητής</span> (*mathētēs*) is a learner; an
+   <span lang="grc">ἀπόστολος</span> (*apostolos*) is an envoy sent with the sender's authority.
+   What does the second title give the Twelve that the first did not?
+2. **The text in its context.** Jesus told the Twelve they "will also sit on twelve thrones, judging
+   the twelve tribes of Israel" (Matthew 19:28). What would a Jew waiting for God to restore the
+   tribes have heard when Jesus appointed exactly twelve men (Mark 3:14)?
+3. **Christ.** Jesus prayed all night and still chose Judas (Luke 6:12-16). What does that do to the
+   assumption that a well-prayed decision is one that cannot go wrong?
+4. **The hard part.** Jesus sent the Twelve out with "Go nowhere among the Gentiles and enter no
+   town of the Samaritans" (Matthew 10:5), and the same Gospel ends with "make disciples of all
+   nations" (Matthew 28:19). What happened between Matthew 10 and Matthew 28 to turn the first
+   command into the second?
+5. **The company.** Matthew calls himself "Matthew the tax collector" (Matthew 10:3), and Luke names
+   "Simon who was called the Zealot" in the same list (Luke 6:15), two men with every political
+   reason to despise each other. Who is missing from your fellowship because of a difference Jesus
+   would have kept in the room?
+6. **Be transformed.** Mark 3:14 says Jesus appointed twelve "so that they might be with him and he
+   might send them out to preach." What changes in how you weigh your own service, or anyone
+   else's, when the first half of the appointment is being with Him?
 
 ## References and recommended reading
 
