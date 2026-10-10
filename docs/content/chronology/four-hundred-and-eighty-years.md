@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Kings 6:1"
 bible_references: ["Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:3-15", "1 Chronicles 6:50-53", "Ezra 7:1-5", "Ruth 4:18-22", "Acts 13:19-21"]
 date_created: 2026-09-30
-date_modified: 2026-10-08
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -205,14 +205,23 @@ evidence in the same way summing the numbers naively does.
 
 ## Discussion questions
 
-1. Judges reads as one story, but its judges come from different tribes and regions. How does
-   reading it as overlapping local histories change the way you picture that period?
-2. Saul's reign-length has dropped out of the Hebrew of 1 Samuel 13:1 and is supplied by Acts 13:21.
-   What does it mean for you that Scripture fills a gap in its own text?
-3. Ruth's genealogy and Matthew's both skip generations. What were they written to show, if not a
-   complete list?
-4. Through the years of the judges, God kept David's line going while Israel kept falling away. Where
-   have you seen God keep a promise through a stretch of your own life that felt like Judges?
+1. **The text in its context.** In one verse God sells Israel "into the hand of the Philistines and
+   into the hand of the Ammonites" (Judges 10:7, ESV), and the next places the Ammonites "beyond the
+   Jordan" in Gilead (Judges 10:8, ESV). Judges reads as one story, but its judges come from
+   different tribes and regions. How does reading it as overlapping local histories change the way
+   you picture that period?
+2. **Christ.** Ruth 4:18-22 runs from Perez to David in ten names, and Matthew sets the same line in
+   three fourteens running "to the Christ" (Matthew 1:17, ESV). Both lists skip generations. What
+   does each one show about the King it leads to?
+3. **The hard part.** 1 Kings 6:1 dates the temple "in the four hundred and eightieth year after the
+   people of Israel came out of the land of Egypt" (ESV). In the KJV, Paul says God gave Israel
+   judges "about the space of four hundred and fifty years" (Acts 13:20, KJV); the ESV reads "All
+   this took about 450 years. And after that he gave them judges until Samuel the prophet"
+   (Acts 13:20, ESV). How does each reading of Paul's 450 years sit beside the 480 of 1 Kings 6:1?
+4. **Be transformed.** Joshua records, "Not one word of all the good promises that the LORD had made
+   to the house of Israel had failed; all came to pass" (Joshua 21:45, ESV). Through the years of
+   the judges, God kept David's line going while Israel kept falling away. Where have you seen God
+   keep a promise through a stretch of your own life that felt like Judges?
 
 ## References & Recommended Reading
 
