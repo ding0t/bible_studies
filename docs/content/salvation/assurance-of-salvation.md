@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 John 5:11-13"
 bible_references: ["Acts 4:9-12", "Ephesians 1:13-14", "Ephesians 2:1-10", "John 3:16-18", "John 5:24", "John 6:37-40", "John 10:27-29", "Romans 8:1", "Romans 8:15-17", "Romans 8:31-39", "Romans 10:9-13", "Joel 2:32", "2 Corinthians 5:17", "Philippians 1:6", "Titus 3:4-7", "Hebrews 7:25", "2 Timothy 1:12", "1 Peter 1:3-5", "2 Peter 1:5-11", "Matthew 1:21"]
 date_created: 2026-08-24
-date_modified: 2026-10-09
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -228,17 +228,22 @@ word from "you can lose what you were actually given."
 
 ## Discussion questions
 
-1. Where does your own confidence that you are saved actually come from: Christ's finished work, or
-   how recently you have sinned? What would change if you answered honestly?
-2. Acts 4:12 and Ephesians 2:8-9 answer two different doubts. Which one do you actually struggle
-   with: whether Jesus alone is sufficient, or whether grace alone is sufficient?
-3. 2 Peter 1:5-10 tells believers to pursue godliness (vv. 5-7) so as to "confirm" their calling
-   (v. 10). How is that different from pursuing godliness to *earn* one? Where has that line gotten
-   blurred for you?
-4. 1 John was written to people who had just watched fellow believers walk away (2:19). What does
-   Christ's promise to keep those who are His say to someone in that situation now?
-5. Read Romans 8:38-39's list slowly. What specific thing were you privately afraid might be the
-   exception?
+1. **The language.** In Ephesians 2:8 the neuter *touto*, "this is not your own doing" (ESV),
+   reaches past the feminine *pistis* ("faith") to the whole clause "you have been saved." If your
+   faith itself sits inside God's gift, what does that do to the worry that you have not believed
+   well enough?
+2. **The text in its context.** Peter told the council that had condemned Jesus weeks earlier,
+   "there is salvation in no one else" (Acts 4:12, ESV), while the man he had healed stood beside
+   them (Acts 4:14). What would that sentence have sounded like to those particular men?
+3. **Christ.** 1 John was written to people who had just watched fellow believers walk away (1 John
+   2:19). What does Christ's promise in John 10:28-29 to keep those who are His say to someone in
+   that situation now?
+4. **The hard part.** Ephesians 2:9 says salvation is "not a result of works" (ESV), yet 2 Peter
+   1:10 tells believers to "be all the more diligent to confirm your calling and election" (ESV) by
+   pursuing the qualities of 2 Peter 1:5-7. Where has the line between confirming a calling and
+   earning one gotten blurred for you?
+5. **Be transformed.** Read Romans 8:38-39's list slowly. What specific thing were you privately
+   afraid might be the exception?
 
 ## References & Recommended Reading
 
