@@ -9,7 +9,7 @@ gregorian_year: -2303
 primary_passage: "Genesis 5:1-32; Genesis 11:10-26"
 bible_references: ["Genesis 5:3-5", "Genesis 5:24-27", "Genesis 7:6", "Genesis 7:11", "Genesis 7:23", "Genesis 11:1-9", "Genesis 11:26", "Genesis 11:32", "Genesis 12:4", "Genesis 17:17", "Genesis 21:5", "Genesis 25:7", "1 Chronicles 1:24", "Isaiah 40:8", "Luke 3:36-38", "Acts 7:4", "Acts 7:14", "Romans 3:2", "Hebrews 11:5", "1 Peter 3:20"]
 date_created: 2026-09-26
-date_modified: 2026-10-08
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -373,18 +373,22 @@ text has not been changed.
 
 ## Discussion questions
 
-1. The verb *wayyoled* ("fathered") can mean "became the ancestor of". If Genesis 5 and 11 skipped
-   generations, what would the exact ages at each birth be there for?
-2. Genesis 7:23 and 1 Peter 3:20 rule out a Methuselah who outlives the Flood. What other checks
-   does Scripture give for judging between copies of itself?
-3. Hebrews quotes the Greek of Genesis 5:24, and Stephen follows the Greek count of Jacob's family.
-   Does apostolic use of the Septuagint's wording commit us to its numbers? Why or why not?
-4. The Samaritan and Greek texts agree on longer intervals in Genesis 11. When do two agreeing
-   witnesses count as one?
-5. Luke's genealogy ends "the son of Adam, the son of God" (Luke 3:38). What does it mean for your
-   faith that Jesus descends from Adam through named, dated people?
-6. The Flood falls after Egypt's First Dynasty under every defensible text. How do you hold a
-   conviction about Scripture alongside evidence you cannot yet answer?
+1. **The language.** Some read the verb <span dir="rtl">וַיּוֹלֶד</span> (*wayyoled*, "fathered") in
+   Genesis 5 and 11 as "became the ancestor of". If those chapters skipped generations, what would
+   the exact ages at each birth be there for?
+2. **The text in its context.** Genesis 7:23 and 1 Peter 3:20 rule out a Methuselah who outlives
+   the Flood. What other checks does Scripture give for judging between copies of itself?
+3. **Christ.** Luke's genealogy ends "the son of Adam, the son of God" (Luke 3:38, ESV). What does
+   it mean for your faith that Jesus descends from Adam through named people?
+4. **The hard part.** Luke 3:36 reads "the son of Cainan, the son of Arphaxad" (ESV), where
+   1 Chronicles 1:24 runs "Shem, Arpachshad, Shelah" (ESV). How do you hold these two genealogies
+   together?
+5. **The apostles' Bible.** Hebrews 11:5 quotes the Greek of Genesis 5:24, and Stephen follows the
+   Greek count of Jacob's family (Acts 7:14). What does the apostles' use of the Septuagint's
+   wording commit us to about its numbers?
+6. **Be transformed.** Isaiah 40:8 promises that "the word of our God will stand forever" (ESV), yet
+   the Flood falls after Egypt's First Dynasty under every defensible text. How do you hold that promise
+   alongside evidence you cannot yet answer?
 
 ## References & Recommended Reading
 
