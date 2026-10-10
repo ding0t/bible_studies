@@ -23,10 +23,6 @@ waves: ~4 studies per agent wave, author approves each wave before the next.
 commits: one per study, "docs(<section>): label discussion questions in <study>".
 
 todo:
-  - chronology/combined-timeline.md
-  - chronology/flood-and-the-king-lists.md
-  - chronology/four-hundred-and-eighty-years.md
-  - chronology/why-not-4004-bc.md
   - feasts/trumpets.md
   - god/behemoth-and-leviathan.md
   - god/dreams-and-visions/index.md
@@ -98,3 +94,8 @@ done:
     - biblical-figures/twelve-apostles.md
     - god/creation-reveals-the-creator.md
     - israel-and-church/israel-and-the-church.md
+  wave_4:
+    - chronology/combined-timeline.md
+    - chronology/flood-and-the-king-lists.md
+    - chronology/four-hundred-and-eighty-years.md
+    - chronology/why-not-4004-bc.md
