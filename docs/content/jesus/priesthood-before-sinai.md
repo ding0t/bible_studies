@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 3:5-13"
 bible_references: ["Numbers 1:1", "Numbers 3:1-13", "Numbers 3:38-51", "Numbers 8:16", "Numbers 18:7", "Genesis 2:5", "Genesis 2:15", "Genesis 3:23-24", "Genesis 5:24", "Genesis 8:20", "Genesis 12:7-8", "Genesis 14:18", "Genesis 22:13", "Genesis 26:25", "Genesis 31:54", "Genesis 41:45", "Genesis 46:1", "Genesis 47:22", "Job 1:1", "Job 1:5", "Exodus 2:16", "Exodus 13:2", "Exodus 18:12", "Exodus 19:6", "Exodus 19:22-24", "Exodus 24:5", "Exodus 28:1", "Exodus 30:7-8", "Exodus 30:34", "Exodus 32:26-29", "Hebrews 5:4-5", "Hebrews 7:3", "Hebrews 7:11", "Hebrews 7:23-25", "Hebrews 11:5", "Hebrews 12:23", "1 Peter 2:5", "1 Peter 2:9", "Jude 14", "Revelation 1:6"]
 date_created: 2026-09-26
-date_modified: 2026-09-28
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -340,17 +340,18 @@ His charge and never will.
 
 ## Discussion Questions
 
-1. Genesis records Noah, Abraham, Jacob and Job offering sacrifice, yet calls only Melchizedek and
-   foreign priests *kohen*. What does that tell you about the office before Sinai?
-2. Numbers 3 opens with the deaths of Nadab and Abihu (Numbers 3:4). What does that do to the
-   chapter's account of the Levites' appointment?
-3. God took the Levites "instead of" the firstborn (Numbers 3:12), and redeemed the 273 extra
-   firstborn with silver (Numbers 3:46-47). What does that exchange show about how God regards the
-   people He claims?
-4. The Levites earned their place by standing with Moses at the golden calf (Exodus 32:26-29), yet
-   Numbers 3:12 says God "took" them. How do you hold those two texts together?
-5. Hebrews 7:23-24 contrasts many priests who died with one who "continues forever," and 1 Peter 2:9
-   calls you "a royal priesthood." How does Jesus' permanent priesthood change the way you pray for
+1. **The language.** Genesis uses <span dir="rtl">כֹּהֵן</span> (*kohen*, "priest") only of men
+   outside Abraham's family, though Noah and Abraham sacrifice (Genesis 8:20; 22:13). What does the
+   title name that sacrifice does not?
+2. **The text in its context.** God took the Levites "instead of" the firstborn (Numbers 3:12) and
+   redeemed the 273 extra with silver (Numbers 3:46-47). What does that exchange show about how God
+   regards those He claims?
+3. **Christ.** Numbers 3 opens with Nadab and Abihu dead (Numbers 3:4). What does Jesus' permanent
+   priesthood (Hebrews 7:23-24) answer in that history?
+4. **The hard part.** Exodus 19:22 speaks of "the priests who come near to the LORD" before Exodus
+   28:1 names Aaron's sons. Who were they?
+5. **Be transformed.** Jesus "always lives to make intercession" (Hebrews 7:25, ESV), and Peter calls
+   you "a royal priesthood" (1 Peter 2:9, ESV). How does His intercession change your prayers for
    others?
 
 ## References & Recommended Reading
