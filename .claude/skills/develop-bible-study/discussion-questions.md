@@ -105,6 +105,9 @@ the reader's own circles routinely say.
   with me'* — what does that do to…" is a prompt for a Bible study.
 - **No question a group can answer yes or no.** *"Is there someone you are withholding forgiveness
   from…?"* gets a silent nod. Ask *who*, *what* or *how*.
+- **Never build a question on an English sense the original does not carry.** "The sum of your word
+  is truth" (Psalm 119:160, ESV) means the whole of it; a question that reads "sum" as arithmetic
+  bends the verse to fit a chronology study.
 - **Give the original word beside a quotation, never inside it.** *"you are not setting your mind
   (φρονεῖς) on the things of God"* edits the ESV. Quote the verse whole, then name the word: "…Paul
   uses the same verb, φρονέω, for…".
