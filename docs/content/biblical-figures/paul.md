@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Acts 9:1-19; Romans 11:11-24"
 bible_references: ["Acts 9:15", "Acts 26:12-18", "Galatians 1:11-24", "Galatians 2:7-9", "Philippians 3:4-11", "1 Timothy 1:12-16", "1 Corinthians 15:8-10", "Ephesians 3:1-8", "Romans 9:22-24", "Ephesians 2:12-13"]
 date_created: 2026-08-29
-date_modified: 2026-09-27
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -291,19 +291,23 @@ than he presses it.
 
 ## Discussion questions
 
-1. Jesus asks "why are you persecuting *me*," identifying himself directly with the church Saul
-   was attacking. What follows for how seriously to take mistreatment of other believers?
-2. 1 Timothy 1:16 says Paul's conversion was made public *on purpose*, "as an example." Whose
-   past is God still asking you to see as evidence, not as disqualification?
-3. The Jerusalem pillars ratified Paul's distinct calling to the Gentiles rather than requiring
-   him to conform to Peter's pattern (Galatians 2:7-9). Where might a church today be pressuring
-   someone's calling into a shape it was never meant to take?
-4. This study distinguishes "Paul as a pattern of saved sinners" from "Paul as a type of grafted
-   Gentiles" even though both are true about him. Why does that distinction matter for how a
-   reader uses Paul's story to argue a point?
-5. "Contrary to nature," "untimely born," "the foremost of sinners" -- three ways Paul describes
-   his own inclusion as fundamentally unearned. What would change in your own testimony if you
-   described it with the same bluntness?
+1. **The language.** The Lord calls Saul σκεῦος ἐκλογῆς, "a chosen instrument of mine" (Acts
+   9:15), and Paul uses σκεῦος again for the "jars of clay" that hold the treasure (2 Corinthians
+   4:7). What does a word for an ordinary household container say about where an apostle's worth
+   lies?
+2. **The text in its context.** James, Cephas and John "perceived the grace that was given to me"
+   and gave Paul "the right hand of fellowship" for the work among the Gentiles (Galatians 2:9).
+   What did those pillars see in a former persecutor that settled his commission for them?
+3. **Christ.** Jesus asks, "Saul, Saul, why are you persecuting me?" (Acts 9:4), with the verb
+   διώκεις aimed at Himself, though Saul had only ever attacked His followers. What follows for
+   how seriously to take mistreatment of other believers?
+4. **The hard part.** 1 Timothy 1:16 calls Paul "an example" (ὑποτύπωσις) to later believers,
+   where Romans 5:14 calls Adam "a type" (τύπος) "of the one who was to come." How far can Paul's
+   conversion be read as a picture of the Gentiles grafted in "contrary to nature" (Romans 11:24)?
+5. **Be transformed.** "Contrary to nature" (Romans 11:24), "one untimely born" (1 Corinthians
+   15:8), "of whom I am the foremost" (1 Timothy 1:15): Paul describes the Gentiles' inclusion and
+   his own as unearned. What would change in your own testimony if you told it with the same
+   bluntness?
 
 ## References & Recommended Reading
 
