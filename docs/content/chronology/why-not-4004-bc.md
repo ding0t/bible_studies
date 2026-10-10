@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Kings 15:25-28"
 bible_references: ["1 Kings 6:1", "1 Kings 14:20-21", "1 Kings 15:1-2", "1 Kings 15:9-10", "1 Kings 15:33", "1 Kings 16:8-10", "1 Kings 16:23", "1 Kings 16:29", "1 Kings 22:41-42", "1 Kings 22:51", "2 Kings 3:1", "2 Kings 1:17", "2 Kings 8:17", "2 Kings 8:25-26", "2 Kings 9:24-27", "2 Kings 15:5", "2 Kings 25:27", "Genesis 15:13-16", "Genesis 46:11", "Exodus 1:7", "Exodus 1:12", "Exodus 6:16-20", "Exodus 7:7", "Exodus 12:40-41", "Numbers 26:59", "Acts 7:6", "Galatians 3:17", "Psalm 119:160", "Galatians 4:4"]
 date_created: 2026-10-08
-date_modified: 2026-10-08
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -356,17 +356,24 @@ own way.
 
 ## Discussion questions
 
-1. Nadab "reigned two years" but died the year after he took the throne. Before this study, would
-   you have called that a contradiction? What changed?
-2. Kings gives every king a reign length and a synchronism with the other kingdom. Why might the
-   writer have supplied both, when either alone would place the king?
-3. Ussher's dates sat in Bible margins for 250 years and many readers took them as Scripture. What
-   else might you have absorbed from a study Bible's apparatus as if it were the text?
-4. The correction came from an Assyrian eclipse record kept by scribes who served other gods. What do you make of God's providence running through a record like that?
-5. Where in your own reading of Scripture have you been adding up the numbers your way rather than
-   the writer's?
-6. Moses' family line points to a short stay in Egypt, and Israel's growth points to a long one.
-   How do you hold a question Scripture leaves open without forcing an answer?
+1. **The language.** Nadab "reigned over Israel two years" (1 Kings 15:25, ESV), and Baasha killed
+   him "in the third year of Asa king of Judah" (1 Kings 15:28, ESV). The Hebrew for his two years
+   is <span dir="rtl">שְׁנָתָיִם</span> (*shenatayim*), the dual of *shanah*. What does a pair of
+   years that ends the year after it began tell you about how Israel's scribes counted a reign?
+2. **The text in its context.** Kings gives every king a reign length and a synchronism with the
+   other kingdom, as Nadab's "in the second year of Asa" (1 Kings 15:25, ESV). Why might the writer
+   have supplied both, when either alone would place the king?
+3. **Christ.** Paul writes that "when the fullness of time had come, God sent forth his Son"
+   (Galatians 4:4, ESV). What does it say about God that the time He chose can still be located
+   from Herod's death, Daniel's seventy weeks and the kings of Judah?
+4. **The hard part.** Exodus 12:40 reads, "The time that the people of Israel lived in Egypt was
+   430 years" (ESV). The Septuagint adds "and in the land of Canaan", Paul counts the 430 years from
+   the promise to Abraham (Galatians 3:17), and Genesis 15:13 foretells affliction "for four hundred
+   years" in "a land that is not theirs" (ESV). What is each of these texts measuring?
+5. **Be transformed.** Ussher's arithmetic stood in Bible margins for 250 years and was still a
+   reader's arithmetic. Psalm 119:160 says, "The sum of your word is truth" (ESV), meaning the whole
+   of it. What would it look like to trust the whole of His word in the place where one of its
+   numbers has refused to fit your own?
 
 ## References & Recommended Reading
 
