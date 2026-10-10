@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 19:7-9; Revelation 21:1-14"
 bible_references: ["Revelation 19:7", "Revelation 21:2", "Revelation 21:9", "Revelation 22:17", "Revelation 18:23", "Revelation 20:6", "Revelation 22:3-5", "Hosea 2:16", "Isaiah 54:5", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "Ephesians 1:5", "Ephesians 1:11", "Ephesians 1:14", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "Ephesians 5:31", "1 Peter 1:4", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "1 Corinthians 6:17", "Hosea 2:14-23", "Isaiah 54:7", "Isaiah 62:4", "Romans 9:25", "Romans 11:26", "2 Corinthians 11:2", "Revelation 19:11", "Zechariah 12:10", "John 3:29", "Matthew 11:11", "Revelation 21:3", "Revelation 21:12-14", "Revelation 21:24", "Ephesians 2:20", "1 Corinthians 10:32", "Hebrews 12:22-23", "Hebrews 11:10", "Hebrews 11:16", "John 14:2", "Revelation 5:10", "Hosea 2:17", "Genesis 2:24", "Leviticus 26:12", "Ezekiel 37:27", "Revelation 12:6", "Romans 11:17", "Romans 11:24", "Galatians 4:24", "Galatians 4:26-28", "Galatians 4:31", "Isaiah 54:1"]
 date_created: 2026-09-25
-date_modified: 2026-09-27
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -80,7 +80,7 @@ In Jesus' name. Amen.
   the church as the Lamb's bride, the olive tree, and the city that carries both names.
 - [What a wife shares](#what-a-wife-shares). Rest, reign, inheritance and family.
 - [Looking at His face](#looking-at-his-face). Where Revelation ends.
-- [Discussion questions](#discussion-questions). Five, for a group or on your own.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## Bride, then wife
 
@@ -363,19 +363,28 @@ That face is where the whole story ends, and you will see it.
 
 ## Discussion Questions
 
-1. God promises that Israel will call Him "My Husband" in place of "My Baal" (Hosea 2:16-17). What
-   does that show about what God wants from His people, and how does Paul carry the pattern to you
-   (Romans 9:25)?
-2. The city's gates carry the names of Israel's tribes and its foundations the names of the apostles
-   (Revelation 21:12-14). Why would God keep both sets of names on one city, and what does that say
-   about the way He keeps promises?
-3. Paul says you are adopted, and also that you "wait eagerly for adoption as sons" (Romans 8:23,
-   ESV). How does being a child in God's house sit alongside being the Lamb's bride?
-4. Hebrews 12:23 names "the assembly of the firstborn" and "the spirits of the righteous made
-   perfect." Read them as one company and then as two. What changes, and what stays the same?
-5. Hebrews tells you to "strive to enter that rest" (4:11) and names it with a word used nowhere else
-   in the Bible (σαββατισμός, *sabbatismos*, 4:9). What in your week is effort that will end at the
-   wedding, and what is effort that will not?
+1. **The language.** At Revelation 19:7 the ESV prints "his Bride has made herself ready," and the
+   Greek behind "Bride" is ἡ γυνὴ αὐτοῦ (*hē gynē autou*), "his wife." From that verse on she carries
+   both names. What does the second name add to the first?
+2. **The text in its context.** Hosea promises, "you will call me 'My Husband,' and no longer will
+   you call me 'My Baal'" (Hosea 2:16, ESV): <span dir="rtl">אִישִׁי</span> (*ishi*) in place of
+   <span dir="rtl">בַּעְלִי</span> (*baʿli*). What would "My Baal" have meant on the lips of an
+   Israel that had been chasing the Canaanite storm god?
+3. **Christ.** Paul writes, "if we endure, we will also reign with him" (2 Timothy 2:12, ESV). He
+   uses the same verb, συμβασιλεύω (*symbasileuō*), for Corinth's premature reign: "would that you
+   did reign, so that we might share the rule with you!" (1 Corinthians 4:8, ESV). What does the
+   order of 2 Timothy 2:12 tell you about how Jesus shares His reign?
+4. **The hard part.** The city's gates carry "the names of the twelve tribes of the sons of Israel"
+   (Revelation 21:12, ESV), its foundations "the twelve names of the twelve apostles of the Lamb"
+   (Revelation 21:14, ESV), and Paul says of the Jerusalem above, "she is our mother" (Galatians
+   4:26, ESV). How do you read the two sets of names on Revelation 21's walls alongside Galatians
+   4:26?
+5. **Family.** Paul says God "predestined us for adoption" (Ephesians 1:5, ESV), and also that we
+   "wait eagerly for adoption as sons" (Romans 8:23, ESV). How does being a child in God's house sit
+   alongside being the Lamb's bride?
+6. **Be transformed.** Hebrews tells you to "strive to enter that rest" (Hebrews 4:11, ESV), and
+   names it σαββατισμός (*sabbatismos*, Hebrews 4:9), a word found nowhere else in the New Testament
+   or the Greek Old Testament. What in your week is effort the wedding will end?
 
 ## References & Recommended Reading
 
