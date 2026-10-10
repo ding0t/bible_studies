@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Job 40:15-24; Job 41:1-34"
 bible_references: ["Job 3:8", "Job 7:12", "Job 9:32-33", "Job 38:4-8", "Job 40:15-24", "Job 41:1-34", "Job 42:1-6", "Genesis 1:2", "Genesis 1:21", "Genesis 2:7", "Psalm 18:8", "Psalm 74:12-15", "Psalm 104:24-26", "Isaiah 27:1", "Ezekiel 29:3", "Romans 1:19-20", "Romans 11:33-36", "1 Timothy 2:5"]
 date_created: 2026-08-23
-date_modified: 2026-09-28
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -61,7 +61,7 @@ Lord, you answered a suffering man by showing him what you had made, and he stop
 - [Leviathan's other four appearances](#leviathans-other-four-appearances). Job 3:8, Psalm 104:26, Psalm 74:14 and Isaiah 27:1.
 - [Where they might be attested](#where-they-might-be-attested). Fossil candidates, the Ugaritic Lotan, and the limits of the dragon-legend argument.
 - [What the two exhibits are for](#what-the-two-exhibits-are-for). From creature to Creator, Job 41:11 in Romans 11, and God's sovereignty.
-- [Discussion questions](#discussion-questions). Four, for a group or on your own.
+- [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
 ## Historical and literary context
 
@@ -287,10 +287,16 @@ For the broader argument about what creation reveals about its maker, see [What 
 
 ## Discussion questions
 
-1. God answers a suffering man by describing two animals. What does that suggest about the relationship between understanding *why* something happened and knowing *who* God is?
-2. Job says in 42:5 "now my eye sees you" after a speech containing no new information about his losses. What changed?
-3. Job 41 asks Job whether he could hook Leviathan, leash him, or sell him to traders. What happens to the Lord's argument if the creature is taken as a symbol rather than an animal?
-4. Leviathan is a creature God formed to play in the sea (Psalm 104:26) and a figure for an enemy God crushes (Psalm 74:14, Isaiah 27:1). Where else does Scripture use one name at both levels, and how do you tell which is in view?
+1. **The language.** Isaiah 27:1 calls Leviathan <span dir="rtl">תַּנִּין</span> (*tannin*),
+   Genesis 1:21's word for the "great sea creatures". Where does that place him?
+2. **The text in its context.** Job 41:1-7 asks whether Job could hook or leash Leviathan. What
+   does God's argument need Leviathan to be?
+3. **Christ.** Job wanted an "arbiter" (Job 9:33); Paul names "one mediator between God and men,
+   the man Christ Jesus" (1 Timothy 2:5). How does Jesus stand where Job 41:10 says no one can?
+4. **The hard part.** Job 41:19-21 states Leviathan's fire plainly; Psalm 18:8 gives God
+   "devouring fire from his mouth". How do you read the two together?
+5. **Be transformed.** Job said "now my eye sees you" (Job 42:5) without learning why he suffered.
+   What would it take for you to say that over an unexplained loss?
 
 ## References & Recommended Reading
 
