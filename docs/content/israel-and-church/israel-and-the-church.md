@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Romans 11:1-29; Ephesians 2:11-22"
 bible_references: ["Romans 9:1-6", "Romans 11:1-5", "Romans 11:17-24", "Romans 10:1", "Isaiah 59:20", "Hebrews 8:8-10", "Jeremiah 9:25-26", "Genesis 17:5", "Acts 18:2", "1 Corinthians 10:18", "1 Corinthians 10:32", "Ephesians 3:1-9", "Colossians 1:25-27", "Daniel 2:27-30", "Revelation 7:1-9", "Zechariah 12:10", "Galatians 6:16", "Galatians 3:29", "Romans 2:28-29", "1 Peter 2:9", "Amos 9:11-15", "Romans 15:8-12", "Isaiah 49:6", "Genesis 12:3"]
 date_created: 2026-07-24
-date_modified: 2026-10-09
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -101,7 +101,7 @@ about. Hasten the day Jerusalem looks on the one they pierced and knows Him. In 
 - [Two companies in Revelation 7](#two-companies-in-revelation-7). The 144,000 and the great multitude, and the argument for reading the list symbolically.
 - [What the commentaries say](#what-the-commentaries-say). Four study Bibles, passage by passage, including where they disagree with this study.
 - [How Israel and the Church relate today](#how-israel-and-the-church-relate-today). What belonged to Rome in the 50s, what transfers, and five conclusions.
-- [Discussion questions](#discussion-questions). Four, for a group or on your own.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## Why Romans has three chapters on this
 
@@ -517,15 +517,27 @@ that has spent centuries saying no is holding on to you.
 
 ## Discussion questions
 
-1. Paul's stated reason for teaching this doctrine is to stop Gentile arrogance (Romans 11:18, 20,
-   25). Does the way you have heard Israel-and-the-Church discussed serve that purpose, or the
-   opposite one?
-2. Romans 11:28 calls the same people enemies and beloved in one sentence. What goes wrong in
-   practice when a Christian holds only one of those?
-3. Peter applies Israel's own vocation language (chosen race, royal priesthood, holy nation) to the
-   church (1 Peter 2:9). What is the difference between sharing a calling and taking someone's place?
-4. If God's gifts and calling toward Israel are irrevocable despite centuries of unbelief, what does
-   that tell you about the security of His calling toward you?
+1. **The language.** Paul writes that "the gifts and the calling of God are irrevocable" (Romans
+   11:29), and his word is ἀμεταμέλητα, literally not-to-be-repented-of. What does it tell you about
+   God that Paul describes His calling by a change of mind He will never have?
+2. **The text in its context.** Paul wrote of his unbelieving kinsmen, "They are Israelites, and to
+   them belong the adoption, the glory, the covenants" (Romans 9:4), to Roman congregations that had
+   met for years without their Jewish founders after Claudius expelled them (Acts 18:2). What would
+   a Gentile believer in Rome have heard in that present tense?
+3. **Christ.** Paul says Christ died "that he might create in himself one new man in place of the
+   two" (Ephesians 2:15), and he quotes Isaiah of a Deliverer who "will come from Zion" (Romans
+   11:26). What does it say about Jesus that the Church's beginning and Israel's future both run
+   through Him?
+4. **The hard part.** Peter calls the church "a chosen race, a royal priesthood, a holy nation"
+   (1 Peter 2:9), Israel's own vocation from Exodus 19:6, while Paul says the natural branches will
+   be grafted back "into their own olive tree" (Romans 11:24). What is the difference between
+   sharing a calling and taking someone's place?
+5. **Both at once.** Romans 11:28 calls the same people "enemies for your sake" and "beloved for the
+   sake of their forefathers" in one sentence. What goes wrong in practice when a Christian holds
+   only one of those?
+6. **Be transformed.** Paul's stated reason for teaching this doctrine is to stop Gentile arrogance:
+   "do not be arrogant toward the branches" (Romans 11:18). What would change in how you speak about
+   Jewish people if you heard that command addressed to you?
 
 ## References & Recommended Reading
 
