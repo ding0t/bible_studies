@@ -547,21 +547,23 @@ forgives a failing disciple, restores him, and puts him back on the road behind 
 
 ## Discussion Questions
 
-1. Jesus' charge is that Peter was "not setting your mind (φρονεῖς) on the things of God, but on the
-   things of man" (Matthew 16:23, ESV). Paul uses the same verb in Romans 12:16 and
-   Philippians 2:5. What are "the
-   things of man" that your own mind most easily settles on?
-2. Peter had just confessed that Jesus is "the Christ, the Son of the living God" (Matthew 16:16,
-   ESV). How could the same man be right about who Jesus is and wrong about what He came to do?
-3. The ESV says "life" in Matthew 16:25 and "soul" in 16:26, where the Greek has ψυχή all four times.
-   Read the two verses with one English word throughout. What changes?
-4. Some read "whoever loses his life for my sake will find it" (Matthew 16:25, ESV) as being about
-   eternal salvation, and others as being about a believer's reward. How does Matthew 20:28 bear on the
-   question?
-5. In Matthew 10:26-39 Jesus moves from "do not fear" to denying Him before men to taking up the
-   cross. Where did that order play out in Peter's life, and where does it play out in yours?
-6. Jesus restored Peter with three questions and the words "Follow me" (John 21:15-19). What would
-   it look like to take up your cross again after you have failed?
+1. **The language.** The ESV says "life" in Matthew 16:25 and "soul" in Matthew 16:26, where the
+   Greek has ψυχή all four times. Read the two verses with one English word throughout. What
+   changes?
+2. **The text in its context.** Peter had just confessed that Jesus is "the Christ, the Son of the
+   living God" (Matthew 16:16, ESV). How could the same man be right about who Jesus is and wrong
+   about what He came to do?
+3. **Christ.** Jesus refused to pray "Father, save me from this hour" (John 12:27, ESV), and on
+   the cross He refused "save yourself!" (Matthew 27:40, ESV). What does His refusal tell you about
+   the life He promises to "whoever loses his life for my sake" (Matthew 16:25, ESV)?
+4. **The hard part.** Some read the life lost and found in Matthew 16:25 as eternal salvation,
+   others as a believer's reward. How does Matthew 20:28 bear on the question?
+5. **The mind.** Jesus told Peter, "you are not setting your mind on the things of God, but on
+   the things of man" (Matthew 16:23, ESV). Paul uses the same verb, φρονέω, for the haughty mind
+   (Romans 12:16) and the mind of Christ (Philippians 2:5). What are "the things of man" that your
+   mind most easily settles on?
+6. **Be transformed.** Jesus restored Peter with three questions and the words "Follow me" (John
+   21:15-19). What would it look like to take up your cross again after you fail?
 
 ## References & Recommended Reading
 
