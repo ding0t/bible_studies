@@ -76,7 +76,9 @@ does not. Where it established a prophecy, the interesting question is usually w
 **The hard part.** Every study that has done honest work has one — a contested reading, an ambiguity
 the sources never settled, two texts that resist each other. Put it to the reader as the texts, not
 as the study's handling of them (see the rule below). "How do you hold these two sentences together?"
-is a discussion question. "Did the study convince you?" is not.
+is a discussion question. "Did the study convince you?" is not. End it on the texts: "where has this
+blurred for you?" turns the hard part into a second Be transformed question and leaves the tension
+unexamined.
 
 **Be transformed.** At least one question should land on the reader personally. This is the facet
 most often missing: a set can be five sharp analytical prompts and give a group nothing to actually
@@ -101,6 +103,9 @@ the reader's own circles routinely say.
 - **Root each question in a named text.** A group needs somewhere to turn. "What does this teach
   about death?" is a prompt for a sermon; "Samuel tells Saul *'tomorrow you and your sons shall be
   with me'* — what does that do to…" is a prompt for a Bible study.
+- **Give the original word beside a quotation, never inside it.** *"you are not setting your mind
+  (φρονεῖς) on the things of God"* edits the ESV. Quote the verse whole, then name the word: "…Paul
+  uses the same verb, φρονέω, for…".
 - **Match the study's own proportions.** `three-days-and-three-nights.md` spent three of five
   questions on the arithmetic *after* a restructure had demoted that argument to a quarter of the
   page and called it "a small one" in the study's own conclusion.
