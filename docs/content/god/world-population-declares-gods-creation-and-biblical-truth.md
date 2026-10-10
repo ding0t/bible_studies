@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 9:1-19"
 bible_references: ["Genesis 1:20-21", "Genesis 1:28", "Genesis 5:32", "Genesis 6:1", "Genesis 7:11", "Genesis 7:21", "Genesis 8:17", "Genesis 9:1-19", "Genesis 9:28-29", "Genesis 10:1-32", "Genesis 11:1-9", "Genesis 11:10", "Genesis 13:16", "Genesis 15:5", "Genesis 22:17", "Genesis 46:26-27", "Exodus 1:5-7", "Exodus 1:12", "Exodus 8:3", "Exodus 12:37-41", "Leviticus 11:29", "Leviticus 11:41-46", "Numbers 1:2-3", "Numbers 1:45-46", "Deuteronomy 10:22", "2 Samuel 24:9", "1 Chronicles 21:5", "Psalm 105:30", "Jeremiah 33:22", "Ezekiel 47:9", "Acts 7:14", "Acts 17:26", "Romans 1:20", "Galatians 3:16", "Galatians 3:17", "Galatians 3:29", "Hebrews 11:12", "Revelation 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-10-08
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -716,17 +716,18 @@ word. So when you look at the crowd, you are looking at a promise kept, and you 
 
 ## Discussion questions
 
-1. Genesis 9:7 commands human beings to *swarm* — a word Scripture otherwise uses of fish, frogs and
-   creeping things. What does it say about God's view of human abundance that He chose that verb, and
-   how does it sit against the way population is usually discussed now?
-2. Babel's builders wanted a name and a single location; God wanted the earth filled. Where does that
-   tension show up in a church, a family, or a career?
-3. Genesis 13:16 and 15:5 state the promise as an inability to count rather than a quantity. What is
-   lost if those similes are read as a number instead?
-4. The ESV Study Bible concludes there is "no obvious solution" to the census figures in Numbers.
-   How should a reader hold a biblical number that careful scholars cannot agree how to read?
-5. Roughly 11% of everyone ever born (on the model above) is alive right now. Does that change
-   anything about how you think of the present moment in the history God is running?
+1. **The language.** Genesis 9:7 commands human beings to swarm, <span dir="rtl">שָׁרַץ</span>
+   (*sharats*), a verb Scripture uses twelve times of fish, frogs and creeping things. What does that
+   choice of verb say about God's view of human abundance?
+2. **The text in its context.** Exodus 1:7 describes Israel's growth with four verbs from Genesis
+   1:28 and 9:1-7. What would that verse teach the people counted in Numbers 1 about God?
+3. **Christ.** Paul tells the Galatians, "if you are Christ's, then you are Abraham's offspring"
+   (Galatians 3:29, ESV). How does that change who is counted in the stars and sand of Genesis 22:17?
+4. **The hard part.** Numbers 1:46 totals 603,550 men, and <span dir="rtl">אֶלֶף</span> (*'elep*)
+   can mean "thousand" or "clan." How do you read a census whose numbers can be taken more than one
+   way?
+5. **Be transformed.** Babel's builders said, "let us make a name for ourselves, lest we be dispersed"
+   (Genesis 11:4, ESV). Where are you staying put under a name you built when God has said to go?
 
 ## References & Recommended Reading
 
