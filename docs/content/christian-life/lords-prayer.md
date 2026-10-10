@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 6:9-13; Luke 11:2-4"
 bible_references: ["Matthew 6:5-15", "Matthew 6:25-34", "John 1:12", "Galatians 4:4-6", "Psalm 27:10", "Ecclesiastes 5:2", "Ezekiel 36:20-22", "1 Peter 3:15", "John 17:6", "John 12:28", "Matthew 4:1-4", "John 6:35", "Habakkuk 3:17-18", "Philippians 4:11-12", "Colossians 2:13-14", "Matthew 18:21-35", "Luke 23:34", "Hebrews 4:15", "John 17:15", "Luke 22:31-32", "1 Corinthians 10:13", "John 14:13", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Exodus 16:19-26", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Luke 17:21", "Matthew 25:34", "Acts 1:6-7", "Matthew 26:41", "Revelation 3:10", "Ephesians 4:32", "1 Peter 5:7"]
 date_created: 2026-07-22
-date_modified: 2026-10-04
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -432,15 +432,25 @@ Either way, read each account first in its own setting before blending the two.
 
 ## Discussion questions
 
-1. Which line of this prayer is hardest for you to pray honestly right now, and why?
-2. The Greek word behind "daily" (*epiousios*) occurs only in this prayer, and every proposed meaning asks for enough for today or tomorrow. What would change in your own asking if you prayed for "enough for today"?
-3. Jesus lived the prayer He taught. Where do you see Him praying or living each line, and which lines could He not pray for Himself?
-4. Who gives you the right to call God "Father" (John 1:12; Galatians 4:4-6)? How does it change the prayer that the word is "our" and not "my"?
-5. The prayer places three petitions about God (name, kingdom, will) before any petition about us. What would it look like to actually pray in that order, starting with God before your own list of needs?
-6. Jesus says the kingdom has already arrived in His ministry (Matthew 12:28), yet the prayer still asks for it to come. Where does "your kingdom come" already feel true in your life, and where does it still feel entirely future?
-7. "Daily bread" assumes asking again tomorrow. Where in your own life is it harder to trust God for "today" than to want assurance for the whole future at once?
-8. Matthew links being forgiven to forgiving others so tightly that he repeats it right after the prayer (Matthew 6:14-15). Is there someone you're currently withholding forgiveness from that this prayer, prayed honestly, would confront?
-9. How do you read "lead us not into temptation" in light of James 1:13's insistence that God tempts no one? How does Jesus' "pray that you may not enter into temptation" (Matthew 26:41) help?
+1. **The language.** The Greek word behind "daily" (*epiousios*) occurs only in this prayer
+   (Matthew 6:11; Luke 11:3), and every proposed meaning asks for enough for today or tomorrow, like
+   the manna Moses said to "leave any of it over till the morning" (Exodus 16:19). What would change
+   in your own asking if you prayed for "enough for today"?
+2. **The text in its context.** One of the disciples, having just watched Jesus pray, asked, "Lord,
+   teach us to pray, as John taught his disciples" (Luke 11:1). What would a prayer of their own
+   have meant to the men who asked for it?
+3. **Christ.** Jesus prayed "not as I will, but as you will" (Matthew 26:39), and He was tempted
+   "as we are, yet without sin" (Hebrews 4:15). Which line of the prayer He taught could He never
+   pray for Himself?
+4. **Already and not yet.** Jesus says "the kingdom of God has come upon you" (Matthew 12:28), yet
+   He teaches you to pray "Your kingdom come" (Matthew 6:10). Where in your own week can you see a
+   reign that has begun and is not yet finished?
+5. **The hard part.** Jesus teaches you to pray "lead us not into temptation" (Matthew 6:13), and
+   James says God "himself tempts no one" (James 1:13). How do those two sentences fit together?
+6. **Be transformed.** Matthew repeats one petition straight after the prayer: "if you do not
+   forgive others their trespasses, neither will your Father forgive your trespasses" (Matthew
+   6:15). Is there someone you are withholding forgiveness from that this prayer, prayed honestly,
+   would confront?
 
 ## References & Recommended Reading
 
