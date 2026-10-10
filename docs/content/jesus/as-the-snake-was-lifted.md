@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 21:4-9; John 3:14-15"
 bible_references: ["John 3:1-21", "John 3:16", "John 8:28", "John 12:32-34", "John 20:30-31", "2 Kings 18:1-4", "Isaiah 11:10", "Isaiah 52:13", "Genesis 3:14-15", "2 Corinthians 5:21", "Romans 8:3", "Hebrews 4:15", "Numbers 11:1-3", "Numbers 16:46-48", "Numbers 14:39-45", "Exodus 16:2-5", "Numbers 20:22-29", "Numbers 21:21-35", "Deuteronomy 8:15", "Revelation 12:9", "Isaiah 6:2", "Isaiah 6:6"]
 date_created: 2026-07-22
-date_modified: 2026-10-04
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -90,7 +90,7 @@ for. Turn our eyes to your Son, and let us live.
 - [Word studies](#word-studies). Serpent, bronze, *saraph* and *nes* in Hebrew; *hypsoō* and Isaiah's Servant; *ophis* from Genesis to Revelation.
 - [What carries forward, and what doesn't](#what-carries-forward-and-what-doesnt). The one-time object and the lasting pattern.
 - [Theological principle](#theological-principle). The remedy in the likeness of what is judged, and Paul's statement of it.
-- [Discussion questions](#discussion-questions). Four, for a group or on your own.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## The two passages
 
@@ -283,16 +283,26 @@ elsewhere in Scripture, and does not rest on the serpent typology alone.
 
 ## Discussion questions
 
-1. Does it change how you read John 3:16 to see it as the direct continuation of the bronze-serpent
-   comparison in 3:14-15, rather than a stand-alone verse?
-2. The Israelites weren't asked to do anything except look at the bronze serpent. Is there a
-   temptation, in your own faith, to add something to "look and live" that Scripture doesn't
-   actually require?
-3. Israel eventually worshiped the very object God gave them for healing. Are there good things in
-   your own life — even God-given ones — at risk of quietly becoming the object of your trust
-   instead of the God who gave them?
-4. How does it strike you that Christ is described as being made "in the likeness of sinful flesh"
-   and "to be sin" for us, taking the very form of what he came to defeat?
+1. **The language.** John uses one verb, ὑψόω (*hypsoō*), for Moses raising the serpent and for the
+   Son of Man's death (John 3:14), and the Septuagint uses it for the Servant who will be lifted up
+   and glorified (Isaiah 52:13). What does that shared verb tell you about how John sees the cross?
+2. **The text in its context.** Jesus asks Nicodemus, "Are you the teacher of Israel and yet you do
+   not understand these things?" (John 3:10), then points him to Numbers 21:4-9. What would a
+   teacher who knew that wilderness story have heard in "so must the Son of Man be lifted up"
+   (John 3:14)?
+3. **Christ.** God made Christ "to be sin who knew no sin" (2 Corinthians 5:21) and sent His Son "in
+   the likeness of sinful flesh" (Romans 8:3). What does a bronze serpent, shaped like the creatures
+   killing Israel yet carrying no venom (Numbers 21:9), show you about what Jesus took on at the
+   cross?
+4. **The hard part.** John 3:16 opens "For God so loved the world" with οὕτως, directly after "as
+   Moses lifted up the serpent" (John 3:14). The word can mean "in this way" or "so much." How does
+   each reading change what John 3:16 says about God's love?
+5. **Nehushtan.** Hezekiah broke in pieces the bronze serpent that Moses had made, "for until those
+   days the people of Israel had made offerings to it" (2 Kings 18:4). Which God-given good thing in
+   your life is closest to becoming the thing you trust in place of Him?
+6. **Be transformed.** God's word to the dying camp was "everyone who is bitten, when he sees
+   it, shall live" (Numbers 21:8), and Jesus asks the same of "whoever believes in him" (John
+   3:15). What have you added to "look and live" as a condition of God accepting you?
 
 ## References & Recommended Reading
 
