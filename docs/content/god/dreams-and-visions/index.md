@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 37:5-11; Genesis 40:5-41:36; Daniel 2; Deuteronomy 13:1-5; Jeremiah 23:25-32"
 bible_references: ["Genesis 20:3", "Genesis 28:12", "Genesis 31:10-11", "1 Kings 3:5-15", "Daniel 4:4-27", "Daniel 7:1", "Numbers 12:6-8", "Ecclesiastes 5:7", "Matthew 1:20-21", "Matthew 2:12-13", "Matthew 2:19-22", "Matthew 27:19", "Acts 2:17", "Acts 10:9-16", "Acts 16:9-10", "Joel 2:28-29", "Jude 1:8", "1 Thessalonians 5:19-21", "1 John 4:1"]
 date_created: 2026-08-04
-date_modified: 2026-10-09
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -64,7 +64,7 @@ Lord, you are the God who reveals what no one else can. You spoke to Joseph, to 
 - [False and deceptive dreams](#otherwise-false-and-deceptive-dreams). Deuteronomy 13, Jeremiah 23, Ecclesiastes 5:7 and Jude 1:8.
 - [A framework for discernment](#a-framework-for-discernment-built-from-the-text). The content, authority and fruit tests, applied to Joseph's brothers and Jacob.
 - [The line this study exists to draw](#the-line-this-study-exists-to-draw). 1 Thessalonians 5:19-21, and how to read the personal dream accounts on this site.
-- [Discussion questions](#discussion-questions). Four, for a group or on your own.
+- [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
 ## Historical and cultural context
 
@@ -176,10 +176,23 @@ None of this makes every vivid or emotionally significant dream a message from G
 
 ## Discussion questions
 
-1. Deuteronomy 13:1-3 says a dream's sign can come true and the dreamer should still be rejected. Have you ever weighed a spiritual claim mainly by whether it "worked" or came true, rather than by its content? What would it look like to apply Deuteronomy 13's actual test instead?
-2. Jeremiah 23:28 puts a dream and God's spoken word in the same verse specifically to rank them: "straw" against "wheat." Does treating Scripture as categorically weightier than any personal spiritual experience, including your own, change how you'd respond to a dream that seemed to contradict something the Bible already teaches?
-3. Joseph's brothers, Pharaoh's officials, and Nebuchadnezzar's wise men all fail to rightly receive a dream or its interpretation, for different reasons in each case. Which failure listed in this study do you find easiest to fall into yourself?
-4. This study distinguishes a dream (real or false) from Scripture's own authority throughout. Does that distinction change how you'd want a personal dream (yours or someone else's) to be shared or received in your own church or family?
+1. **The language.** Acts 2:17 uses ἐνύπνιον (*enypnion*) for Joel's "your old men shall dream
+   dreams," and Jude 1:8 uses the same root for false teachers "relying on their dreams." If the
+   word itself cannot sort a God-given dream from a counterfeit, what in each passage does the
+   sorting?
+2. **The text in its context.** Joseph asks the cupbearer and baker, "Do not interpretations belong
+   to God?" (Genesis 40:8), and Daniel tells Nebuchadnezzar, "there is a God in heaven who reveals
+   mysteries" (Daniel 2:28). What would a royal court that kept professional dream-interpreters have
+   heard in that claim?
+3. **Christ.** An angel tells Joseph in a dream to "flee to Egypt" because "Herod is about to search
+   for the child, to destroy him" (Matthew 2:13), one of five dreams in Matthew 1-2. What do those
+   dreams show about how God the Father guarded His Son Jesus?
+4. **The hard part.** Peter says Joel's promise is being fulfilled: "your old men shall dream
+   dreams" (Acts 2:17). Jeremiah sets a dream beside God's word and asks, "What has straw in common
+   with wheat?" (Jeremiah 23:28). How do these two texts fit together?
+5. **Be transformed.** Deuteronomy 13:2-3 imagines a dreamer whose sign "comes to pass," and still
+   says, "the LORD your God is testing you, to know whether you love the LORD your God." When a
+   dream or prediction you hear comes true, what will you ask of it before you follow it?
 
 ## References & Recommended Reading
 
