@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ruth 3:9-13; Ruth 4:1-17"
 bible_references: ["Ruth 1:1", "Ruth 1:16", "Ruth 1:21", "Ruth 2:1", "Ruth 2:12", "Ruth 2:20", "Ruth 3:9-13", "Ruth 4:1-22", "Judges 17:6", "Judges 21:25", "Leviticus 19:9-10", "Leviticus 25:23-25", "Leviticus 25:47-55", "Numbers 35:12", "Deuteronomy 25:5-10", "Deuteronomy 23:3", "Genesis 38:8", "Jeremiah 32:7", "Job 19:25", "Nehemiah 13:1", "Nehemiah 13:23", "Isaiah 54:5", "Isaiah 59:20", "Isaiah 56:3-7", "Romans 11:26", "Romans 3:24", "Galatians 4:4-5", "Hebrews 2:11", "Hebrews 2:17", "1 Peter 1:18-19", "Matthew 1:3", "Matthew 1:5"]
 date_created: 2026-09-21
-date_modified: 2026-09-28
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -326,19 +326,21 @@ Himself.
 
 ## Discussion Questions
 
-1. The Septuagint calls the *goel* ἀγχιστεύς, "the one near," and Peter's word for your ransom
-   (1 Peter 1:18) is the Levitical word for buying back. What does each half — nearness and price —
-   add to how you understand Christ's redemption?
-2. At Ruth 4:5 the Hebrew can read "you acquire" or "I acquire." How does each reading change how you
-   picture Boaz at the gate?
-3. Hebrews says Jesus "is not ashamed to call them brothers" (2:11). What does it mean to you that
-   your Redeemer chose to become your kin?
-4. The Mishnah admits Moabite women; Nehemiah applies the ban to them. How does Ruth's pledge in 1:16
-   bear on the question, and why do you think the book never argues it?
-5. The redeemer the women praise is a newborn (4:14-15). What does it say about God's plan that the
-   answer to Naomi's emptiness arrives as a child in David's line?
-6. Who around you has come back empty (1:21), and what would it cost you to redeem something for
-   them?
+1. **The language.** The Septuagint calls the *goel* ἀγχιστεύς, "the one near," and Peter's word
+   for your ransom, ἐλυτρώθητε (1 Peter 1:18), is the Levitical word for buying back. What does each
+   half — nearness and price — add to how you understand Christ's redemption?
+2. **The text in its context.** At Ruth 4:5 the Hebrew can read "you acquire" or "I acquire." How
+   does each reading change how you picture Boaz at the gate?
+3. **Christ.** Hebrews says Jesus "is not ashamed to call them brothers" (Hebrews 2:11). What does it
+   mean to you that your Redeemer chose to become your kin?
+4. **The child.** The redeemer the women praise is a newborn (Ruth 4:14-15). What does it say about
+   God's plan that the answer to Naomi's emptiness arrives as a child in David's line?
+5. **The hard part.** Deuteronomy 23:3 says of Moabites, "none of them may enter the assembly of the
+   LORD forever"; Nehemiah applies the ban to marriages with Moabite women (Nehemiah 13:1, 23), while
+   the Mishnah admits Moabite women at once (*m. Yevamot* 8:3). How do you read Ruth's pledge, "Your
+   people shall be my people, and your God my God" (Ruth 1:16), alongside Deuteronomy 23:3?
+6. **Be transformed.** Naomi came back "empty" (Ruth 1:21). What would it cost you to redeem
+   something for someone near you who has come back the same way?
 
 ## References & Recommended Reading
 
