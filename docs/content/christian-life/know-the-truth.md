@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 8:31-47"
 bible_references: ["John 18:37-38", "John 1:14", "John 1:17", "John 14:6", "John 16:13", "John 17:17", "Exodus 34:6", "Psalm 31:5", "Psalm 119:160", "Isaiah 65:16", "Revelation 3:14", "Hebrews 6:18", "Luke 1:4", "Luke 23:46", "1 John 2:21", "1 John 4:6", "1 John 5:20", "Genesis 3:1", "Genesis 3:4", "2 Corinthians 4:4", "2 Corinthians 11:3", "2 Corinthians 11:14", "Revelation 12:9", "2 Thessalonians 2:10-11", "Romans 1:25", "Romans 11:1", "Romans 11:29", "John 1:12", "2 Thessalonians 2:7", "Ephesians 4:14-15", "Ephesians 6:14", "1 Timothy 3:15", "2 Timothy 3:7"]
 date_created: 2026-09-25
-date_modified: 2026-09-27
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -279,17 +279,21 @@ Timothy 3:7, ESV). Jesus promised arrival — "you will know the truth" — to t
 
 ## Discussion Questions
 
-1. *Emet* means what is firm, and *amen* comes from the same root. What changes when you hear "truth"
-   as something that holds your weight?
-2. In John 8:31-32 knowing comes after abiding. Why do you think Jesus puts it in that order?
-3. The crowd in John 8 said they had never been slaves (8:33). Where do people today deny the slavery
-   Jesus names in 8:34?
-4. Jesus calls Himself the truth (John 14:6) and Revelation calls Him "the Amen" (3:14). How does
-   knowing a Person differ from knowing facts about Him, and why does Scripture need both?
-5. John 8:44 was spoken to one crowd in one argument, and Paul says God has not rejected His people
-   (Romans 11:1). Why does it matter to read the verse that way, and whom does its warning reach?
-6. Which of the four ways of holding fast — staying in the word, the belt of truth, testing, the
-   church — is weakest in your life right now?
+1. **The language.** The "faithfulness" the LORD proclaims of Himself in Exodus 34:6 is
+   <span dir="rtl">אֱמֶת</span> (*emet*), what is firm, and *amen* comes from the same root. What
+   changes when you hear "truth" as something that holds your weight?
+2. **The text in its context.** In John 8:31-32 knowing comes after abiding. Why do you think Jesus
+   puts it in that order?
+3. **Freedom.** The crowd in John 8 said they had "never been enslaved to anyone" (John 8:33). Where
+   do people today deny the slavery Jesus names in John 8:34?
+4. **Christ.** Jesus calls Himself the truth (John 14:6) and Revelation calls Him "the Amen"
+   (Revelation 3:14). How does knowing a Person differ from knowing facts about Him?
+5. **The hard part.** John says these hearers "had believed him" (John 8:31), yet Jesus tells them
+   "you seek to kill me" (John 8:37) and names the devil as their father (John 8:44). What kind of
+   believing can stand alongside that?
+6. **Be transformed.** Which of the four ways of holding fast — staying in the word (John 8:31), the
+   "belt of truth" (Ephesians 6:14), testing the spirits (1 John 4:6), the church (1 Timothy 3:15)
+   — is weakest in your life right now?
 
 ## References & Recommended Reading
 
