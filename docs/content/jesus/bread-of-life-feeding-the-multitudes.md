@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15; Matthew 15:32-39; Mark 8:1-10"
 bible_references: ["John 6:22-71", "Mark 8:14-21", "Matthew 16:5-12", "Exodus 16:4-21", "Numbers 11:4-9", "Numbers 11:31-34", "Deuteronomy 8:2-3", "Deuteronomy 18:15-18", "2 Kings 4:42-44", "Psalm 78:17-31", "Psalm 23:1-2", "Isaiah 25:6-9", "Isaiah 55:1-3", "Ezekiel 34:5", "Ezekiel 34:13-16", "Numbers 27:15-18", "Matthew 4:1-4", "Matthew 6:11", "Luke 11:3", "Proverbs 30:8-9", "Revelation 2:17", "Mark 14:22", "Mark 7:24-31", "Matthew 15:29-31", "1 Timothy 6:6-8", "Romans 1:16", "1 Corinthians 11:23-26", "Luke 9:16"]
 date_created: 2026-07-25
-date_modified: 2026-10-09
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -107,7 +107,7 @@ Bread of Life, Jesus. In Jesus' name. Amen.*
 - [What the narrative leaves implicit](#what-the-narrative-leaves-implicit). Three readings Mark and John stage without stating: [Israel, then the nations](#israel-then-the-nations) · [Sheep without a shepherd](#sheep-without-a-shepherd) · [The wrong response — echoing the wilderness](#the-wrong-response-echoing-the-wilderness).
 - [Is there significance in the numbers?](#is-there-significance-in-the-numbers). Five, twelve, seven, seven, sorted into tiers from firm to speculative.
 - [Theological principle](#theological-principle). The two opposite misreadings of the sign, John 6 and Numbers 11, and the pattern Scripture teaches.
-- [Discussion questions](#discussion-questions). Five, for a group or on your own.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## The two feedings, side by side
 
@@ -441,17 +441,25 @@ life.
 
 ## Discussion questions
 
-1. Jesus rebukes the crowd for seeking Him "because you ate your fill of the loaves" (6:26). What
-   would seeking Him for Himself, rather than for something, look like? How would you know the
-   difference?
-2. The crowd's theology is correct ("the Prophet who is to come"), and their next move is still
-   wrong. Where does a right belief lead you somewhere it shouldn't?
-3. Numbers 11 has God grant a craving as judgment. Does that change how you read your own answered
-   prayers for more than you need?
-4. Jesus starts with five loaves someone actually had. What are you withholding while you wait for
-   enough?
-5. "Give us this day our daily bread" asks for today only. What in your life is arranged so you never
-   have to pray that again?
+1. **The language.** John uses one verb, ἀπόλλυμι, for the fragments gathered "that nothing may be
+   lost" (John 6:12) and for the Father's will "that I should lose nothing of all that he has given
+   me" (John 6:39). What does the hillside scene show you about how Jesus keeps those given to Him?
+2. **The text in its context.** The crowd called Jesus "the Prophet who is to come into the world"
+   (John 6:14) and moved to "take him by force to make him king" (John 6:15). The next day He told
+   them, "you are seeking me, not because you saw signs, but because you ate your fill of the
+   loaves" (John 6:26). What did that crowd want from the prophet like Moses (Deuteronomy 18:15)?
+3. **Christ.** Jesus said, "Your fathers ate the manna in the wilderness, and they died" (John 6:49),
+   and then, "I am the living bread that came down from heaven" (John 6:51). What does Jesus give as
+   the bread from heaven that the manna of Exodus 16 could not?
+4. **The hard part.** Jesus has the disciples recite the loaves and baskets of both feedings (five
+   and twelve, seven and seven), then asks, "Do you not yet understand?" (Mark 8:19-21). He never
+   says what. What do Mark 6:34-44 and Mark 8:1-10, read side by side, give you to understand?
+5. **Enough.** The people complained of "nothing at all but this manna to look at" (Numbers 11:6),
+   and God "gave them what they craved" (Psalm 78:29), with a plague behind it (Numbers 11:33). How
+   does that account shape the way you read your own answered prayers for more than you need?
+6. **Be transformed.** Jesus taught His disciples to pray, "Give us this day our daily bread"
+   (Matthew 6:11), and the manna could not be kept overnight (Exodus 16:19-20). What in your life is
+   arranged so you never have to pray that again?
 
 ## References & Recommended Reading
 
