@@ -102,3 +102,19 @@ done:
     - jesus/as-the-snake-was-lifted.md
     - jesus/bread-of-life-feeding-the-multitudes.md
     - jesus/kinsman-redeemer.md
+
+# Found in study bodies by sweep agents and left alone (out of scope). Candidates for a follow-up
+# review-bible-study pass; misquotes first.
+found_outside_questions:
+  misquotes:
+    - "christian-life/be-prepared.md: Luke 21:14 misquoted in the body too? (question fixed in wave 2; body not checked)"
+    - "israel-and-church/bride-of-christ.md: opening attributes 'a profound mystery' to Ephesians 5:32; ESV reads 'This mystery is profound'"
+    - "jesus/as-the-snake-was-lifted.md: 2 Corinthians 5:21 quoted as 'who knew no sin, to be sin for us' (not ESV); Romans 8:3 'to condemn sin in the flesh' (ESV: 'he condemned sin in the flesh')"
+    - "biblical-figures/paul.md: '(1:13, ESV)' with no book named (line ~112)"
+    - "christian-life/how-god-answers-prayer.md: quote block says Acts 12:14-16, bible_references says 12:13-16"
+  lowercase_divine_pronouns_in_own_prose:
+    [sin/sorcery.md, biblical-figures/paul.md, biblical-figures/twelve-apostles.md (prayer),
+     god/behemoth-and-leviathan.md, jesus/as-the-snake-was-lifted.md]
+  x_not_y_contrasts: "reported in most studies; widespread"
+  formatting:
+    - "israel-and-church/where-two-or-three-are-gathered.md: broken mid-sentence wrapping, lines ~196-231"
