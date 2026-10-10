@@ -25,9 +25,6 @@ commits: one per study, "docs(<section>): label discussion questions in <study>"
 todo:
   - biblical-figures/paul.md
   - biblical-figures/twelve-apostles.md
-  - christian-life/be-prepared.md
-  - christian-life/how-god-answers-prayer.md
-  - christian-life/lords-prayer.md
   - chronology/combined-timeline.md
   - chronology/flood-and-the-king-lists.md
   - chronology/four-hundred-and-eighty-years.md
@@ -85,7 +82,6 @@ todo:
   - scripture/scribe-trained-for-the-kingdom.md
   - scripture/verses-often-misquoted.md
   - scripture/verses-quoted-well.md
-  - sin/sorcery.md
   - spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md
   - spiritual-beings/nephilim.md
   - wisdom/reading-the-song-of-songs.md
@@ -96,3 +92,8 @@ done:
     - christian-life/forgiveness.md
     - christian-life/take-up-your-cross.md
     - christian-life/know-the-truth.md
+  wave_2:
+    - christian-life/be-prepared.md
+    - christian-life/how-god-answers-prayer.md
+    - christian-life/lords-prayer.md
+    - sin/sorcery.md
