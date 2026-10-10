@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 17:1-13"
 bible_references: ["Numbers 17:1-13", "Numbers 16:3", "Numbers 16:5", "Numbers 16:10", "Numbers 16:46-48", "Numbers 18:1-7", "Numbers 20:8-11", "Exodus 25:31-36", "Exodus 28:36-38", "Exodus 39:30", "Leviticus 8:9", "Numbers 8:4", "Jeremiah 1:11-12", "Jeremiah 31:28", "Ecclesiastes 12:5", "Genesis 43:11", "Genesis 30:37", "Psalm 110:2", "Psalm 110:4", "1 Kings 8:9", "Romans 1:4", "Hebrews 5:4-6", "Hebrews 7:15-16", "Hebrews 9:4", "Exodus 37:17-20", "Exodus 27:21", "Numbers 16:41", "Numbers 16:49", "Hebrews 7:20-25", "Psalm 2:7", "Jeremiah 1:6-8", "2 Chronicles 5:10"]
 date_created: 2026-10-09
-date_modified: 2026-10-09
+date_modified: 2026-10-10
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -372,18 +372,19 @@ intercession" for those who "draw near to God through him" (Hebrews 7:25, ESV).
 
 ## Discussion Questions
 
-1. *Shaqed* (almond) and *shoqed* (watching) are one pun in Jeremiah 1:11-12. What did that pun give
-   a young prophet who was afraid to speak, and what does it give you about God's promises that seem
-   slow?
-2. The staff test came after Korah's rebellion, the earthquake, the fire and the plague (Numbers 16).
-   Why do you think God followed judgment with a sign, and kept the sign "lest they die" (Numbers
-   17:10)?
-3. Each chief's staff was his tribe's emblem, *matteh*, with his name on it. What were the other
-   chiefs being asked to accept when they took their unchanged staffs back?
-4. Hebrews 5:4 says no one takes the priesthood "for himself." How does the resurrection settle who
-   God chose, in the way the budded staff did for Aaron? Where does the comparison stop?
-5. Israel cried, "Are we all to perish?" (Numbers 17:13). How would you answer that question for
-   someone today, from Hebrews 7:25?
+1. **The language.** Jeremiah saw an almond, *shaqed*; God said He was *shoqed*, "watching over my
+   word to perform it" (Jeremiah 1:12). What did that pun give a prophet afraid to speak (Jeremiah
+   1:6-8)?
+2. **The text in its context.** After the plague of Numbers 16, why did God keep the staff "lest
+   they die" (Numbers 17:10)?
+3. **Christ.** Aaron's staff and Jesus' resurrection both show God's choice by giving life (Numbers
+   17:8; Romans 1:4); no New Testament writer joins them. What does Jesus' "indestructible life"
+   (Hebrews 7:16) hold that the staff never could?
+4. **The hard part.** The staff's *perach* is the lampstand's "flower" (Exodus 25:33); its *tsits*
+   names Aaron's gold plate (Exodus 28:36). Both are also ordinary words for bud and flower. What in
+   Numbers 17 would show whether the echo was meant?
+5. **Be transformed.** Israel cried, "Are we all to perish?" (Numbers 17:13). How would you answer
+   that for someone today, from Hebrews 7:25?
 
 ## References & Recommended Reading
 
