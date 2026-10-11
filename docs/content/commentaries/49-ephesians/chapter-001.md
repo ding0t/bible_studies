@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 1:7
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 1:20-21
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:10
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:13-14
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 1:14

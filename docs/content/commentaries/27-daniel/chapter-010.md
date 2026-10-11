@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 10:13
 - [Fasting](../../christian-life/fasting.md) — 10:2-14
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 10:5
 - [The Restrainer](../../last-things/the-restrainer.md) — 10:13

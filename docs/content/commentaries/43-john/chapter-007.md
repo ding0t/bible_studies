@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 7:37-39 (primary passage)
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 7:24
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 7:37-38
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 7:10
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 7:15

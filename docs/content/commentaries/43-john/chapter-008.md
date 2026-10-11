@@ -14,6 +14,7 @@ draft: false
 
 - [Know the Truth](../../christian-life/know-the-truth.md) — 8:31-47 (primary passage)
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:32 (primary passage)
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 8:39-41
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 8:28
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 8:12
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 8:12

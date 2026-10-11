@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 82:1-8 (primary passage)
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 82:1-8
 - [Pride](../../sin/pride.md) — 82:1-8
 <!-- commentary-index:auto-end -->

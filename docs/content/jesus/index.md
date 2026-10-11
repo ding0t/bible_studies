@@ -4,7 +4,7 @@ category: "other"
 description: "Who Christ is and what he did, including Old Testament prophecy fulfilled in him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-09
+date_modified: 2026-10-11
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -104,6 +104,14 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
     Twelve years unclean, she touched Jesus in a crowd and the flow of defilement reversed — plus what Matthew and Luke saw that Mark did not: she grabbed the tassel God commanded Israel to wear
 
     [:octicons-arrow-right-24: Read](woman-with-the-issue-of-blood.md)
+
+-   __"You Are Gods": Psalm 82, John 10 and the Authority God Lends__
+
+    ---
+
+    Psalm 82 calls those God set in authority אֱלֹהִים, "gods", and then sentences them by their works. The word reaches human judges and the heavenly powers over the nations, and the grammar usually marks when it means God Himself. Jesus quoted the psalm to the authorities who were judging Him, and rested His claim to be one with the Father on the Father's works.
+
+    [:octicons-arrow-right-24: Read](you-are-gods.md)
 
 </div>
 <!-- section-index:auto-end -->

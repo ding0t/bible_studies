@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 8:5-6
 - [In Humility](../../christian-life/humility.md) — 8:1
 - [Pride](../../sin/pride.md) — 8:1
 <!-- commentary-index:auto-end -->

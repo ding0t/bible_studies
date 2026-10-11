@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 7:1
 - [Sin and Sorcery](../../sin/sorcery.md) — 7:8-13
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 7:17-20
 - [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 7:7

@@ -4,7 +4,7 @@ category: "other"
 description: "Verse-by-verse commentary, organized by book, with auto-linked studies (see commentary_index.py)."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-09-29
+date_modified: 2026-10-11
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -383,6 +383,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](62-1-john/)
+
+-   __2 John__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](63-2-john/)
 
 -   __3 John__
 

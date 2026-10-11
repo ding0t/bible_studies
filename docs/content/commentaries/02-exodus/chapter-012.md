@@ -15,6 +15,7 @@ draft: false
 - [Passover: When I See the Blood](../../feasts/passover.md) — 12:43-49 (primary passage)
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 12:15-20 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 12:13
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 12:12
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 12:2-3
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 12:14
 - [The Appointed Times](../../feasts/feasts.md) — 12:2

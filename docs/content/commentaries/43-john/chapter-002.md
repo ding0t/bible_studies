@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 2:21
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 2:20
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:13
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 2:17

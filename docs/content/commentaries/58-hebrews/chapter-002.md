@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 2:6-7
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 2:5
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 2:14
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:17-18

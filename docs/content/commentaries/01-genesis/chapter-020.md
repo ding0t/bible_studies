@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 20:13
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 20:3
 <!-- commentary-index:auto-end -->

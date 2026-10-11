@@ -14,6 +14,7 @@ draft: false
 
 - [Six Days of History](../../last-things/six-days-of-history.md) — 1:1-31 (primary passage)
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 1:1 (primary passage)
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 1:1
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 1:1-31
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 1:2
 - [Biblical Numerology](../../scripture/numerology.md) — 1:1

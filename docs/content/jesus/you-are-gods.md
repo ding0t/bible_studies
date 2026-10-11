@@ -3,7 +3,7 @@ title: "\"You Are Gods\": Psalm 82, John 10 and the Authority God Lends"
 category: "theology"
 description: "Psalm 82 calls those God set in authority אֱלֹהִים, \"gods\", and then sentences them by their works. The word reaches human judges and the heavenly powers over the nations, and the grammar usually marks when it means God Himself. Jesus quoted the psalm to the authorities who were judging Him, and rested His claim to be one with the Father on the Father's works."
 tags: ["john", "psalms", "pharisees", "authority", "deity-of-christ", "divine-council", "method/word-study", "lang/hebrew", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "John 10:22-39; Psalm 82:1-8"
 bible_references: ["Psalm 82:1-8", "John 10:22-39", "John 9:22", "John 9:34-41", "John 10:1", "John 8:39-41", "John 7:24", "John 5:22-23", "John 5:36", "Matthew 23:2-3", "Ezekiel 34:2-4", "Exodus 21:6", "Exodus 22:8-9", "Exodus 22:28", "Exodus 4:16", "Exodus 7:1", "Exodus 12:12", "Genesis 1:1", "Genesis 20:13", "Genesis 35:7", "Deuteronomy 10:17", "Deuteronomy 4:19-20", "Deuteronomy 32:8-9", "Deuteronomy 32:17", "Psalm 8:5", "Hebrews 2:6-7", "Psalm 89:5-8", "Psalm 89:27", "1 Samuel 28:13", "Exodus 3:15", "John 2:21", "Psalm 96:4-5", "1 Kings 22:19", "Job 1:6", "Daniel 10:13", "Daniel 10:20-21", "Isaiah 24:21-22", "Isaiah 42:8", "1 Corinthians 8:5-6", "1 Corinthians 10:20", "Ephesians 1:20-21", "Ephesians 6:12", "Colossians 2:15"]
 date_created: 2026-10-11

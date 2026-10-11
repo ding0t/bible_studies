@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 5:22-23
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 5:24
 <!-- commentary-index:auto-end -->

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 28:13
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 28:8
 - [Sin and Sorcery](../../sin/sorcery.md) — 28:3-25
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 28:13-19
