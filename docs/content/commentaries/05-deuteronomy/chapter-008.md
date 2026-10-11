@@ -16,6 +16,7 @@ draft: false
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 8:2-3
 - [Fasting](../../christian-life/fasting.md) — 8:2-3
 - [In Humility](../../christian-life/humility.md) — 8:2-3
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 8:3
 - [Pride](../../sin/pride.md) — 8:11-17
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 8:3
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 8:11

@@ -13,5 +13,4 @@ draft: false
 ## Studies referencing this chapter
 
 - [Fasting](../../christian-life/fasting.md) — 1:4
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:5
 <!-- commentary-index:auto-end -->

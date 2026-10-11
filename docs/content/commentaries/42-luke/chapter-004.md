@@ -18,6 +18,5 @@ draft: false
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 4:16-21
 - [In Humility](../../christian-life/humility.md) — 4:18
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 4:18-21
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:42
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 4:25
 <!-- commentary-index:auto-end -->

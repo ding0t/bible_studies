@@ -17,7 +17,6 @@ draft: false
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 2:36-38
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:30-36
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:34-36
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 2:42
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:20
 - [Simon Peter](../../biblical-figures/peter.md) — 2:14-41
 - [The Appointed Times](../../feasts/feasts.md) — 2:1

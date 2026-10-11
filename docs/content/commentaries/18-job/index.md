@@ -20,9 +20,10 @@ draft: false
 - [Chapter 14](chapter-014.md) — 1 study(ies)
 - [Chapter 19](chapter-019.md) — 2 study(ies)
 - [Chapter 33](chapter-033.md) — 1 study(ies)
+- [Chapter 37](chapter-037.md) — 1 study(ies)
 - [Chapter 38](chapter-038.md) — 3 study(ies)
 - [Chapter 39](chapter-039.md) — 1 study(ies)
 - [Chapter 40](chapter-040.md) — 1 study(ies)
 - [Chapter 41](chapter-041.md) — 1 study(ies)
-- [Chapter 42](chapter-042.md) — 3 study(ies)
+- [Chapter 42](chapter-042.md) — 2 study(ies)
 <!-- commentary-index:auto-end -->

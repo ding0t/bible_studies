@@ -15,6 +15,7 @@ draft: false
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 16:2-5
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 16:4-21
 - [In Humility](../../christian-life/humility.md) — 16:19-20
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 16:4
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 16:4-18
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 16:33-34
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 16:4

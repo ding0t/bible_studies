@@ -17,7 +17,7 @@ draft: false
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 1:13
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 1:18
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 1:25-27
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:9-10
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 1:19
 - [Six Days of History](../../last-things/six-days-of-history.md) — 1:15
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 1:9-13
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:22

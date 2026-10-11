@@ -17,7 +17,6 @@ draft: false
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 1:7
 - [Charting End Times](../../last-things/prophecy-chart.md) — 1:23
 - [In Humility](../../christian-life/humility.md) — 1:17
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:9-11
 - [Pride](../../sin/pride.md) — 1:6
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:6
 <!-- commentary-index:auto-end -->

@@ -20,6 +20,7 @@ draft: false
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 3:19
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 3:18
 - [Philip](../../biblical-figures/philip.md) — 3:18
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 3:14
 - [Simon the Zealot](../../biblical-figures/simon-the-zealot.md) — 3:18
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 3:18
 - [Thomas](../../biblical-figures/thomas.md) — 3:18

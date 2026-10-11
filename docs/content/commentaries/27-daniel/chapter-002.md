@@ -15,6 +15,7 @@ draft: false
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 2 (primary passage)
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 2:44
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:27-30
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 2:17-23
 - [Sin and Sorcery](../../sin/sorcery.md) — 2:27-28
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 2:44
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 2:27-28

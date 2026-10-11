@@ -18,5 +18,6 @@ draft: false
 - [Chapter 8](chapter-008.md) — 1 study(ies)
 - [Chapter 12](chapter-012.md) — 1 study(ies)
 - [Chapter 21](chapter-021.md) — 1 study(ies)
+- [Chapter 22](chapter-022.md) — 1 study(ies)
 - [Chapter 24](chapter-024.md) — 1 study(ies)
 <!-- commentary-index:auto-end -->

@@ -16,6 +16,7 @@ draft: false
 - [Andrew](../../biblical-figures/andrew.md) — 12:20-22
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 12:32-34
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 12:24
+- [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 12:28-30
 - [Passover: When I See the Blood](../../feasts/passover.md) — 12:1
 - [Philip](../../biblical-figures/philip.md) — 12:20-22
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 12:25-27

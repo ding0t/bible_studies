@@ -22,7 +22,7 @@ draft: false
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 1:15-20
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 1:13
 - [Philip](../../biblical-figures/philip.md) — 1:13
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:14
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 1:14
 - [Simon the Zealot](../../biblical-figures/simon-the-zealot.md) — 1:13
 - [Six Days of History](../../last-things/six-days-of-history.md) — 1:7
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 1:13

@@ -23,6 +23,7 @@ draft: false
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 2:13-14
 - [In Humility](../../christian-life/humility.md) — 2:16-23
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:17
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 2:7
 - [Pride](../../sin/pride.md) — 2:18
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 2:16-17
 - [The Appointed Times](../../feasts/feasts.md) — 2:16-17

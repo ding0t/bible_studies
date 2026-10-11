@@ -12,7 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:6-7
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:6-7
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:4
 - [The Appointed Times](../../feasts/feasts.md) — 4:9-11
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 4:4-5

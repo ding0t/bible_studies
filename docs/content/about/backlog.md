@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-09
+date_modified: 2026-10-11
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -79,7 +79,7 @@ format, with a link to [Key Takeaways](key-takeaways.md) (2026-09-27, 50 studies
   [The Restrainer](../last-things/the-restrainer.md)) now show the format better: pick one as the
   worked example.
 - **Point each prayer to the prayer study.** Add one line above each `### Prayer` heading linking to
-  [Prayer: Communion and the Habit It Sustains](../christian-life/prayer-as-communion.md), the same
+  [Prayer: Communion with God](../christian-life/prayer-as-communion.md), the same
   way the Key Takeaways line was normalised: one fixed wording, applied by script, relative link
   adjusted per file.
 

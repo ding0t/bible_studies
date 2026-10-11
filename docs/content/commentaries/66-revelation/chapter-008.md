@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 8:3-5
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 8:3-5
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 8:1-12
 <!-- commentary-index:auto-end -->

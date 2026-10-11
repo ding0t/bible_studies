@@ -13,5 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Faith](../../salvation/faith.md) — 6:23
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 6:10
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 6:10-11
 <!-- commentary-index:auto-end -->

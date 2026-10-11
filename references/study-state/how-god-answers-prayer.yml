@@ -18,3 +18,31 @@ stages:
       "In one sentence:" thesis, Key Takeaways and more discussion questions before publishing.
       Frontmatter provenance fields not written -- run refresh_frontmatter_provenance.py at commit.
   published: {done: false}
+review_2026-10-11:
+  scope: >
+    Full review-bible-study pass for publication (draft stays true). Every ESV quotation re-queried
+    from study-notes.db (John 11:41-42, Isaiah 65:24, Genesis 24:15, 24:45, Daniel 9:21, 9:23,
+    10:12-13, 2 Corinthians 12:9, Hebrews 5:7, John 12:28-30, Psalm 29:3, Job 37:4, 2 Samuel 22:14,
+    Acts 12:5, 12:14-16, Psalm 141:2, Revelation 5:8, 6:10-11, 8:3-5, Matthew 26:39): all verbatim.
+    Interlinear checked for John 12:29 (βροντή G1027, γίνομαι G1096), Daniel 10:13 (שַׂר H8269) and
+    Hebrews 5:7 (ἐκ G1537). H8269 in Daniel includes human officials (Daniel 1:7-18). ESV Study
+    Bible headings/quotes on Revelation 8 verified (title is "Heaven's Incense Altar: The Saints'
+    Prayers, and Fire Flung to Earth"; the "fiery devastation" sentence is from the 8:2-11:18 note).
+  findings:
+    - "Moderate: Isaiah 65:24 presented as a general principle; it sits in the new-heavens/new-earth promise (65:17-25). Context now stated, with millennial vs eternal-state views marked."
+    - "Moderate: Daniel 10 prince of Persia presented without its contested identity, and the delay generalised ('forbids reading a delay as a refusal'). Now marked contested (ESVSB and NIV BTSB: hostile angel; NIV Cultural Backgrounds: council member not opposing the LORD; sar also human officials), with the study's choice stated and the generalisation limited to Daniel's case."
+    - "Moderate: John 12:29 'thunder as theophany' offered without the counter-reading; ESVSB note on 12:29 reads it as unbelief. Both now given."
+    - "Minor: 'Jesus's answer at Gethsemane was no' had no Gospel citation and overstated; Matthew 26:39 added, Hebrews 5:7 ek-thanatou/resurrection reading (ESVSB) and the 'days of his flesh' scope marked."
+    - "Minor: Revelation 6:10 called 'unanswered' -- 6:11 answers it with 'rest a little longer'. Corrected. Psalm 141:2 -> Revelation 5:8 'granted' was an unstated correspondence; softened."
+    - "Minor: John 12:29 'Some said' paraphrase misattributed the crowd's words; now 'The crowd said'. Antitheses ('not ... dismissing one as weather', 'not spent on delivery', 'kept rather than declined', 'Not at the end ... At the beginning') rewritten affirmatively."
+    - "Structure: added In one sentence, Key Takeaways (Lessons about Jesus, Memory verses, Be Transformed Think/Attitude/Do, Prayer), a Christ discussion question, Strong's numbers, References & Recommended Reading; bare references now name their book."
+  cross_study: >
+    Daniel 10 consistent with fasting.md (heard on the first day; conflict real, fast not linked to it)
+    and you-are-gods.md (spiritual reading, sar also human). Linked to you-are-gods.md#princes-in-heaven
+    and prayer-as-communion.md (both draft: false).
+  validator: "No warnings or errors for this file. strongs_suggest clean."
+  size: "About 2,500 words (budget 4,000); 4 top-level sections, so no Study outline required."
+  open_for_author:
+    - "Whether to keep the dispensational/millennial note on Isaiah 65:17-25 in this study or trim it."
+    - "The John 12:29 thunder question (discussion Q1) leans on the theophany reading the ESVSB contests."
+    - "Run utils/refresh_frontmatter_provenance.py before committing; flip draft in the same commit as prayer-as-communion's link to this page."

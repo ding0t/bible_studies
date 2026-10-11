@@ -16,7 +16,7 @@ draft: false
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 4:7
 - [Fasting](../../christian-life/fasting.md) — 4:7-10
 - [In Humility](../../christian-life/humility.md) — 4:6-10
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 4:7-10
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:2-3
 - [Pride](../../sin/pride.md) — 4:6
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:7
 <!-- commentary-index:auto-end -->

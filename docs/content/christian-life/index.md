@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-10
+date_modified: 2026-10-11
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -41,6 +41,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
 
     [:octicons-arrow-right-24: Read](forgiveness.md)
 
+-   __How God Answers Prayer__
+
+    ---
+
+    Heard at once, answered by varied routes and on God's own timetable, sometimes missed while it happens, and kept: what Scripture shows about the answers to prayer.
+
+    [:octicons-arrow-right-24: Read](how-god-answers-prayer.md)
+
 -   __In Humility__
 
     ---
@@ -73,11 +81,11 @@ Prayer, fasting, and the disciplines of walking with Christ.
 
     [:octicons-arrow-right-24: Read](lords-prayer.md)
 
--   __Prayer: Communion and the Habit It Sustains__
+-   __Prayer: Communion with God__
 
     ---
 
-    Prayer as relationship before routine -- the Spirit-given cry of 'Abba, Father' that makes the habit possible, who prayer is addressed to, how Jesus and the apostles actually prayed, what to pray about, what prayer permits God to do, why to keep asking, a pattern to pray by, and how to teach a household to pray.
+    What prayer is (a child's communion with the Father), why it is as necessary as daily bread, how Jesus, Daniel and Paul prayed (with Ephesians 3:14-21 worked through in depth), and the practical mechanics: whom to pray to, alone and together, what to pray about, persistence, and a pattern to pray by.
 
     [:octicons-arrow-right-24: Read](prayer-as-communion.md)
 

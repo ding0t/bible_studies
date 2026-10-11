@@ -15,7 +15,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 18:13-14
 - [Fasting](../../christian-life/fasting.md) — 18:9-14
 - [In Humility](../../christian-life/humility.md) — 18:14
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 18:1-8
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 18:1-8
 - [Pride](../../sin/pride.md) — 18:9-14
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 18:33
 <!-- commentary-index:auto-end -->

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 8:10-11
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 8:2
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 8:9
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 8:6-11

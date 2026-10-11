@@ -14,4 +14,5 @@ draft: false
 
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 4:1-42 (primary passage)
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 4:22
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:34
 <!-- commentary-index:auto-end -->

@@ -13,7 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 16:10
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 16:11
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 16:11
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 16:10
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 16:10
 <!-- commentary-index:auto-end -->

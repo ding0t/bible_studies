@@ -13,5 +13,4 @@ draft: false
 ## Studies referencing this chapter
 
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 1:8-10
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 1:9
 <!-- commentary-index:auto-end -->

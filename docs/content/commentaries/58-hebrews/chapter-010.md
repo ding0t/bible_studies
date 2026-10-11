@@ -19,7 +19,7 @@ draft: false
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 10:1-9
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 10:1-18
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 10:12-13
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 10:19-22
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 10:19-22
 - [The Appointed Times](../../feasts/feasts.md) — 10:1
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 10:11-22
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:3

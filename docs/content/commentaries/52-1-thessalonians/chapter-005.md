@@ -16,7 +16,7 @@ draft: false
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 5:19-21
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 5:1-11
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 5:9
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 5:16-18
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 5:16-18
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 5:9
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 5:23-24
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 5:19-22

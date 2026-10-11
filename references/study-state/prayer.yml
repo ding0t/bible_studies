@@ -1064,3 +1064,47 @@ read_2026-09-26:
     - "'### Why that second row says \"would\"' ends on the translation-comparison table, with nothing after it saying what the split establishes."
     - "Outline bullet 4 link text shortens the heading to 'How the apostles prayed'. That is fine, and left alone."
   not_verified: "Structure pass only. It says nothing about the accuracy of quotations, counts or word studies. Review-bible-study last ran before the simplify and insight passes, so the thesis and four added 'This shows that God...' lines are unreviewed."
+
+rewrite_plan_2026-10-11:
+  request: >
+    Author: "It doesnt fit quite right yet from a pastoral perspective. It should focus more on what
+    prayer is, why it is important, then look at examples of prayer through scripture, and finally
+    go over some of the mechanics. Paul's prayer in Ephesians 3 ... can go theologically and
+    pastorally deeper. Another excellent example is Daniel. My initial brief was on prayer as
+    communion with God. An essential part of our daily bread, seeking God's will not ours. Setting
+    our attitude. ... spin off study - the many ways God answers prayer. ... This study probably
+    needs a rewrite. And context it with other studies."
+  diagnosis:
+    - "Current order is mechanics-first: who to pray to (section 2) comes before any picture of what prayer is or why it matters; 'what prayer permits' (the will-handed-over theme the author names as the brief) is buried at section 7."
+    - "Daily bread / dependence, named in the author's 2024 notes and again now, has no section."
+    - "Examples are scattered: Jesus (sec 3), apostles (sec 4), Moses and Daniel (inside sec 7), OT/NT examples inside the six-step pattern. No example is worked at depth; Ephesians 3:14-21 appears only as a citation."
+    - "Overlaps siblings: the six-step pattern re-walks lords-prayer.md; the household section duplicates teaching-the-lords-prayer-at-home.md; the 1 Tim 2:1 table duplicates supplication.md (draft)."
+  proposed_outline:
+    - "Hook + In one sentence: prayer is communion with the Father, as daily as bread, in which He sets our attitude and brings our will to His."
+    - "Part 1 What prayer is: a child speaking to a Father (Rom 8:15; Gal 4:6); communion -- being with Him (Ps 42; Ps 16:11; Mark 3:14 'that they might be with him'?); 'your will be done' as the hinge; prayer sets our attitude (the author's 2024 note: 'the attitude of prayer is that we are God's')."
+    - "Part 2 Why it matters: daily bread -- manna daily and unstorable (Exod 16:4, 19-21), Deut 8:3 / Matt 4:4, John 4:34 'my food is to do the will of him who sent me'; dependence confessed; the way opened at the cost of the Son (Heb 10:19-22, 4:16); Jesus praying for you now (Heb 7:25)."
+    - "Part 3 Prayer through Scripture, three worked at depth: Jesus (habit, alone, Gethsemane -- condensed from current); Daniel (2:17-23 prayer with friends then doxology; 6:10 the open window toward Jerusalem per 1 Kgs 8:48, three times a day 'as he had done previously'; 9:2-19 praying Jeremiah's promise back, confession as 'we', appeal to God's name and mercy); Paul in Ephesians 3:14-21 (kneeling; Father from whom every patria is named; strength by the Spirit in the inner being; Christ settling in, katoikeo; rooted and grounded in love; know the love that surpasses knowledge; filled to all the fullness of God; doxology 'far more abundantly'; prayed from prison for their strength). Short gallery: Moses Exod 32, Hannah?, Nehemiah 2:4, Acts 4:24-31."
+    - "Part 4 The mechanics: to the Father through the Son in the Spirit (and to Jesus); alone and together; what to pray about (1 Tim 2:1, shortened, point to supplication when published); keep asking (1 Thess 5:17, Luke 11, Luke 18); a pattern to pray by (shortened, pointing to lords-prayer.md for the line-by-line); one line on households pointing to teaching-the-lords-prayer-at-home.md."
+    - "Pointer to how-god-answers-prayer.md (Daniel 10 belongs there)."
+  keep_anchors: ["a-pattern-to-pray-by", "keep-asking-and-keep-talking", "personal-and-corporate", "a-given-willingness-the-spirits-own-cry (or update the 2 inbound links)", "teaching-a-household-to-pray (1 inbound link -- update or keep a stub)"]
+  filename: "kept (87 inbound links)."
+rewrite_2026-10-11:
+  decisions: "Author approved the four-part outline, holding the budget near 4,700, and reviewing and publishing how-god-answers-prayer.md in the same commit. Mid-task the author asked for rich SVG diagrams where they help."
+  done:
+    - "Rewritten as What prayer is -> Why prayer matters (daily bread: Exod 16:4, 19-21; Deut 8:3; Matt 4:4; John 4:34; will handed over; way opened at cost) -> Prayer through Scripture (Jesus; Daniel 2, 6, 9 at depth; Ephesians 3:14-21 at depth; gallery) -> The mechanics (shortened)."
+    - "Title 'Prayer: Communion and the Habit It Sustains' -> 'Prayer: Communion with God'; link text updated site-wide; primary_passage Colossians 4:2 -> Ephesians 3:14-21. Filename kept (inbound links); inbound anchors kept (a-given-willingness-the-spirits-own-cry, personal-and-corporate, keep-asking-and-keep-talking, a-pattern-to-pray-by, teaching-a-household-to-pray)."
+    - "Household five practices moved into teaching-the-lords-prayer-at-home.md; six-step pattern shortened to a numbered list pointing to lords-prayer.md; 1 Tim 2:1 table reduced to a sentence."
+    - "Two drawn plates, utils/build_prayer_graphics.py: daniel-at-the-window (imagery, Daniel 6:10-11 with 1 Kgs 8:48-49 and Jer 29:10-12) and ephesians-3-prayer (relationship: address, six appeals, dwelling/fullness thread with Colossians dashed, doxology)."
+  verified:
+    - "ESV of every new quotation via study_verse (Eph 3:1, 13-21; 2:21-22; Col 1:19; 2:9-10; Dan 2:17-23; 6:3-5, 10-11, 22; 9:2-7, 17-23; Jer 29:10-13; 1 Kgs 8:48-49; 2 Kgs 25:9-10; Exod 16:4, 19-21; Deut 8:3; Matt 4:4; John 4:34; 17:3, 5, 20-21; Mark 3:14; Phil 2:10; Heb 7:25; Luke 22:42; Jas 4:2-3; 1 John 5:14; Ps 16:11; 55:17)."
+    - "Interlinear: Eph 3:14 kampto G2578; 3:15 patria G3965; 3:17 katoikeo G2730, rhizoo G4492, themelioo G2311; 3:19 pleroma G4138; Col 1:19, 2:9 katoikeo + pleroma; Dan 6:10 Aramaic barek al birkohi (H1289, H1291), participles, 'from before this'."
+    - "Notes: ESVSB Exod 16:4, Dan 6:10, 9:1-27 (over 80), Eph 3:14-15, 3:17-18; NIVBT Eph 3:14-21, 3:16, 3:17, 3:19; NIVCB Dan 6:10."
+  marked_as_reading:
+    - "Colossians 1:19 / 2:9-10 joined to Ephesians 3:17-19 (dashed on the plate; 'this study's reading of one writer's vocabulary')."
+    - "What the four dimensions of Eph 3:18 measure (debated; ESVSB view given)."
+    - "Phil 2:10 kampto echo: stated as Paul using the same verb."
+  not_used: "ὑπερεκπερισσοῦ (Eph 3:20): MACULA's G5238 resolves to 2 Cor 10:16 (ὑπερέκεινα), so no Strong's number or count is given for it."
+  evidence:
+    - {tool: bible_concordance, args: {strongs: G4492, work_id: macula-greek-sblgnt}, expect_count: 2}
+    - {tool: bible_concordance, args: {strongs: G3965, work_id: macula-greek-sblgnt}, expect_count: 3}
+    - {tool: bible_concordance, args: {strongs: G2578, work_id: macula-greek-sblgnt}, expect_count: 4}

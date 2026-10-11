@@ -20,8 +20,9 @@ draft: false
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 9:2
 - [Fasting](../../christian-life/fasting.md) — 9:3
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 9:25-26
+- [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 9:20-23
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 9:24-27
-- [Prayer: Communion and the Habit It Sustains](../../christian-life/prayer-as-communion.md) — 9:2-3
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 9:2-23
 - [The End of the Age](../../last-things/end-of-the-age.md) — 9:27
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 9:24-27
 - [The Rapture of the Church](../../last-things/rapture.md) — 9:27

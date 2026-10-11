@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 6:9-13; Deuteronomy 6:6-7"
 bible_references: ["Luke 11:1", "Deuteronomy 6:20-21", "Deuteronomy 8:3", "Luke 15:11-32", "Ezekiel 36:17-20", "John 6:22-35", "Acts 27:35", "Philippians 4:11", "Hebrews 4:15-16", "John 17:15", "1 Thessalonians 5:23-24", "Ephesians 3:20-21", "James 1:13", "Matthew 6:15", "1 Chronicles 29:11", "1 Corinthians 3:6", "Psalm 78:4", "Ephesians 6:4", "2 Timothy 3:15", "Luke 15:20", "John 1:12", "Ephesians 3:14-15", "Exodus 34:6", "Psalm 34:3", "2 Thessalonians 1:11-12", "Matthew 26:39", "Revelation 22:20", "Colossians 1:9-13", "Exodus 16:4-18", "Philippians 4:19", "Matthew 18:21-35", "Ephesians 4:32", "Colossians 1:14", "Matthew 4:1-11", "1 Corinthians 10:13", "2 Thessalonians 3:3", "2 Corinthians 1:20"]
 date_created: 2026-10-04
-date_modified: 2026-10-04
+date_modified: 2026-10-11
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -82,9 +82,20 @@ of their lives. In Jesus' name. Amen.
 
 Deuteronomy 6 puts the teaching of God's words inside the ordinary day, and Psalm 78:4 gives the
 reason: "We will not hide them from their children, but tell to the coming generation the glorious
-deeds of the LORD" (ESV). [Teaching a household to
-pray](prayer-as-communion.md#teaching-a-household-to-pray) in Prayer as Communion works through
-those passages and five practices for the wider habit; this guide applies them to one prayer.
+deeds of the LORD" (ESV). Five practices carry the wider habit, and this guide applies them to one
+prayer:
+
+- **Let them watch.** The disciples asked to be taught after seeing Jesus pray (Luke 11:1). A child
+  who never sees a parent pray has been taught something already.
+- **Use Paul's four words.** A child can do all of 1 Timothy 2:1: something I need, something I want
+  to say, someone else by name, something to say thank you for.
+- **Use fixed times as scaffolding**, as Daniel's three set times (Daniel 6:10) and Jesus'
+  before-dawn habit were.
+- **Let them hear you pray for them, by name**, as Paul prayed for his churches (Ephesians 1:17-18).
+- **Let a child's prayer run its course.** Leave corrections for later. Ephesians 6:4 warns fathers
+  against provoking children, and early prayers grow when they are welcomed.
+
+[Prayer: Communion with God](prayer-as-communion.md) is the wider study of what prayer is.
 
 The church used this prayer for that from early on. The *Didache*, a church manual probably from
 about AD 100, gives the Lord's Prayer and then says, "Thrice in the day thus pray" (*Didache* 8:3,

@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1120" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">Daniel at the window</title>
+<desc id="d">An illustrated plate of Daniel 6:10-11. Above, a cut-away house in Babylon: in the upper chamber a small kneeling figure faces open windows toward Jerusalem, drawn far to the west across the desert with its walls broken and the temple burned (2 Kings 25:9-10). Seven numbered callouts quote the verses: the document signed; his house; windows in his upper chamber open toward Jerusalem; on his knees; three times a day he prayed and gave thanks, as he had done previously; the men who came by agreement and found him making petition and plea (Daniel 6:11); and Jerusalem. A dashed key line says the text does not state the hours, the number of windows, or the words he prayed. Below, two source cards: Solomon's prayer asking God to hear exiles who pray toward the land, the city and the house (1 Kings 8:48-49), and Jeremiah's promise, which Daniel read, that after seventy years 'you will call upon me and come and pray to me, and I will hear you' (Jeremiah 29:10-12; Daniel 9:2). At the foot, Daniel 9:18: 'because of your great mercy'.</desc>
+<rect width="720" height="1120" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1104" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1092" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<defs><linearGradient id="dw-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdbe6"/><stop offset="1" stop-color="#f3e2bd"/></linearGradient><linearGradient id="dw-sand" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2cc9a"/><stop offset="1" stop-color="#cdb07a"/></linearGradient><radialGradient id="dw-lamp" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff3cf" stop-opacity="0.9"/><stop offset="1" stop-color="#f4e8cf" stop-opacity="0"/></radialGradient><clipPath id="dw-scene"><rect x="30" y="150" width="660" height="430" rx="4"/></clipPath></defs>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">DANIEL AT THE WINDOW</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Daniel 6:10-11 · Babylon, in the reign of Darius</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<text x="30.0" y="140.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.5">THE UPPER CHAMBER · DANIEL 6:10-11</text>
+<g clip-path="url(#dw-scene)">
+<rect x="30" y="150" width="660" height="180" fill="url(#dw-sky)"/>
+<rect x="30" y="330" width="660" height="250" fill="url(#dw-sand)"/>
+<path d="M30 348 Q120 334 200 348 T360 348" fill="none" stroke="#cdb07a" stroke-width="2" opacity="0.35"/>
+<path d="M30 376 Q120 362 200 376 T360 376" fill="none" stroke="#cdb07a" stroke-width="2" opacity="0.3"/>
+<path d="M30 414 Q120 400 200 414 T360 414" fill="none" stroke="#cdb07a" stroke-width="2" opacity="0.25"/>
+<path d="M46 330 V316 H58 V322 H72 V312 H82 V324 H98 V310 L104 318 H118 V314 H128 V326 H142 V330 Z" fill="#9a8a72" stroke="#8d6c45" stroke-width="1"/>
+<rect x="66" y="327" width="6" height="3" fill="#8d6c45"/>
+<rect x="110" y="327" width="6" height="3" fill="#8d6c45"/>
+<rect x="132" y="327" width="6" height="3" fill="#8d6c45"/>
+<text x="94.0" y="350.0" font-size="11" fill="#6b5a3e" text-anchor="middle" font-weight="bold" letter-spacing="1.5">JERUSALEM</text>
+<text x="94.0" y="364.0" font-size="11" fill="#6b5a3e" text-anchor="middle" font-style="italic">far to the west</text>
+<rect x="380" y="430" width="280" height="130" fill="#c9a77a" stroke="#8d6c45" stroke-width="2"/>
+<path d="M380 444 H660" stroke="#8d6c45" stroke-width="0.6" opacity="0.5"/>
+<path d="M380 428 V444" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M416 428 V444" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M452 428 V444" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M488 428 V444" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M524 428 V444" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M560 428 V444" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M596 428 V444" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M632 428 V444" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M380 460 H660" stroke="#8d6c45" stroke-width="0.6" opacity="0.5"/>
+<path d="M398 444 V460" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M434 444 V460" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M470 444 V460" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M506 444 V460" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M542 444 V460" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M578 444 V460" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M614 444 V460" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M650 444 V460" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M380 476 H660" stroke="#8d6c45" stroke-width="0.6" opacity="0.5"/>
+<path d="M380 460 V476" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M416 460 V476" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M452 460 V476" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M488 460 V476" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M524 460 V476" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M560 460 V476" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M596 460 V476" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M632 460 V476" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M380 492 H660" stroke="#8d6c45" stroke-width="0.6" opacity="0.5"/>
+<path d="M398 476 V492" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M434 476 V492" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M470 476 V492" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M506 476 V492" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M542 476 V492" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M578 476 V492" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M614 476 V492" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M650 476 V492" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M380 508 H660" stroke="#8d6c45" stroke-width="0.6" opacity="0.5"/>
+<path d="M380 492 V508" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M416 492 V508" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M452 492 V508" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M488 492 V508" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M524 492 V508" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M560 492 V508" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M596 492 V508" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M632 492 V508" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M380 524 H660" stroke="#8d6c45" stroke-width="0.6" opacity="0.5"/>
+<path d="M398 508 V524" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M434 508 V524" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M470 508 V524" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M506 508 V524" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M542 508 V524" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M578 508 V524" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M614 508 V524" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M650 508 V524" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M380 540 H660" stroke="#8d6c45" stroke-width="0.6" opacity="0.5"/>
+<path d="M380 524 V540" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M416 524 V540" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M452 524 V540" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M488 524 V540" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M524 524 V540" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M560 524 V540" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M596 524 V540" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M632 524 V540" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M380 556 H660" stroke="#8d6c45" stroke-width="0.6" opacity="0.5"/>
+<path d="M398 540 V556" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M434 540 V556" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M470 540 V556" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M506 540 V556" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M542 540 V556" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M578 540 V556" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M614 540 V556" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<path d="M650 540 V556" stroke="#8d6c45" stroke-width="0.6" opacity="0.4"/>
+<rect x="496" y="496" width="40" height="64" rx="18" fill="#8d6c45"/>
+<rect x="372" y="422" width="296" height="10" fill="#8d6c45"/>
+<rect x="410" y="300" width="230" height="122" fill="#f4e8cf" stroke="#8d6c45" stroke-width="2.5"/>
+<circle cx="480" cy="370" r="80" fill="url(#dw-lamp)"/>
+<path d="M400 300 H650" stroke="#8d6c45" stroke-width="7"/>
+<rect x="404" y="322" width="14" height="40" fill="#f3e2bd" stroke="#8d6c45" stroke-width="2"/>
+<path d="M418 322 L440 328 V368 L418 362 Z" fill="#b88d5a" stroke="#8d6c45" stroke-width="1.2" opacity="0.85"/>
+<rect x="404" y="370" width="14" height="40" fill="#f3e2bd" stroke="#8d6c45" stroke-width="2" stroke-dasharray="5 4"/>
+<path d="M418 370 L440 376 V416 L418 410 Z" fill="#b88d5a" stroke="#8d6c45" stroke-width="1.2" opacity="0.85" stroke-dasharray="5 4"/>
+<path d="M402 350 Q300 310 122 306" fill="none" stroke="#a67c3d" stroke-width="2" stroke-dasharray="7 6"/>
+<path d="M122.0 306.0 L131.9 305.0 L129.0 313.2 Z" fill="#a67c3d"/>
+<text x="250.0" y="296.0" font-size="13" fill="#8d6c45" text-anchor="middle" font-style="italic">toward Jerusalem</text>
+<g transform="translate(474 421) scale(1.25)" fill="#4a3a28"><path d="M-2 0 H26 Q30 0 30 -4 L28 -8 H8 Z"/><path d="M6 -6 Q2 -26 10 -40 L22 -38 Q16 -22 24 -8 Z"/><path d="M12 -38 Q2 -34 -6 -40 L-4 -44 Q4 -40 12 -44 Z"/><circle cx="17" cy="-49" r="7.5"/></g>
+<rect x="340" y="430" width="40" height="21" fill="#c9a77a" stroke="#8d6c45" stroke-width="0.8"/>
+<rect x="346" y="451" width="34" height="21" fill="#c9a77a" stroke="#8d6c45" stroke-width="0.8"/>
+<rect x="352" y="472" width="28" height="21" fill="#c9a77a" stroke="#8d6c45" stroke-width="0.8"/>
+<rect x="358" y="493" width="22" height="21" fill="#c9a77a" stroke="#8d6c45" stroke-width="0.8"/>
+<rect x="364" y="514" width="16" height="21" fill="#c9a77a" stroke="#8d6c45" stroke-width="0.8"/>
+<rect x="370" y="535" width="10" height="21" fill="#c9a77a" stroke="#8d6c45" stroke-width="0.8"/>
+<g transform="translate(300 562) scale(1.05)" fill="#4a3a28"><circle cx="0" cy="-40" r="6"/><path d="M-7 -32 H7 L9 -10 H5 L4 0 H-4 L-5 -10 H-9 Z"/></g>
+<g transform="translate(326 562) scale(1.05)" fill="#4a3a28"><circle cx="0" cy="-40" r="6"/><path d="M-7 -32 H7 L9 -10 H5 L4 0 H-4 L-5 -10 H-9 Z"/></g>
+<g transform="translate(352 562) scale(1.05)" fill="#4a3a28"><circle cx="0" cy="-40" r="6"/><path d="M-7 -32 H7 L9 -10 H5 L4 0 H-4 L-5 -10 H-9 Z"/></g>
+<path d="M30 560 H690" stroke="#8d6c45" stroke-width="2"/>
+<rect x="572" y="172" width="56" height="44" rx="3" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<path d="M580 182 H618" stroke="#6b5a3e" stroke-width="1.2"/>
+<path d="M580 190 H618" stroke="#6b5a3e" stroke-width="1.2"/>
+<path d="M580 198 H618" stroke="#6b5a3e" stroke-width="1.2"/>
+<circle cx="614" cy="208" r="8" fill="#8b1e1e"/>
+</g>
+<rect x="30" y="150" width="660" height="430" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2"/>
+<circle cx="640" cy="178" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="640.0" y="182.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="670" cy="470" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="670.0" y="474.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="452" cy="328" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="452.0" y="332.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">3</text>
+<circle cx="530" cy="400" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="530.0" y="404.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">4</text>
+<circle cx="610" cy="340" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="610.0" y="344.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">5</text>
+<circle cx="270" cy="508" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="270.0" y="512.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">6</text>
+<circle cx="60" cy="280" r="11" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="60.0" y="284.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">7</text>
+<circle cx="44" cy="608" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="612.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1</text>
+<text x="62.0" y="612.0" font-size="12.5" fill="#3b2f1e">“When Daniel knew that the document had been signed”</text>
+<text x="690.0" y="612.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Daniel 6:10</text>
+<circle cx="44" cy="632" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="636.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">2</text>
+<text x="62.0" y="636.0" font-size="12.5" fill="#3b2f1e">“he went to his house”</text>
+<text x="690.0" y="636.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Daniel 6:10</text>
+<circle cx="44" cy="656" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="660.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">3</text>
+<text x="62.0" y="660.0" font-size="12.5" fill="#3b2f1e">“where he had windows in his upper chamber open toward Jerusalem”</text>
+<text x="690.0" y="660.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Daniel 6:10</text>
+<circle cx="44" cy="680" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="684.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">4</text>
+<text x="62.0" y="684.0" font-size="12.5" fill="#3b2f1e">“He got down on his knees” · bārēk ʿal birkōhî, “kneeling on his knees”</text>
+<text x="690.0" y="684.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Daniel 6:10</text>
+<circle cx="44" cy="704" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="708.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">5</text>
+<text x="62.0" y="708.0" font-size="12.5" fill="#3b2f1e">“three times a day and prayed and gave thanks… as he had done previously”</text>
+<text x="690.0" y="708.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Daniel 6:10</text>
+<circle cx="44" cy="728" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="732.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">6</text>
+<text x="62.0" y="732.0" font-size="12.5" fill="#3b2f1e">“these men came by agreement and found Daniel making petition and plea”</text>
+<text x="690.0" y="732.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Daniel 6:11</text>
+<circle cx="44" cy="752" r="9" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="44.0" y="756.5" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">7</text>
+<text x="62.0" y="756.0" font-size="12.5" fill="#3b2f1e">“he burned the house of the LORD… broke down the walls around Jerusalem”</text>
+<text x="690.0" y="756.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">2 Kings 25:9-10</text>
+<path d="M36 778 h20" stroke="#3b2f1e" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="62.0" y="782.0" font-size="12" fill="#6b5a3e" font-style="italic">Not stated: the hours (Psalm 55:17 has “evening and morning and at noon”), how many</text>
+<text x="62.0" y="798.0" font-size="12" fill="#6b5a3e" font-style="italic">windows, the room’s shape, or the words he prayed.</text>
+<text x="30.0" y="826.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.2">THE PRAYER HE WAS ANSWERING</text>
+<text x="370.0" y="826.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.2">THE PROMISE HE READ</text>
+<rect x="30.0" y="838.0" width="320.0" height="146" rx="5" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="38.0" y="856.5" font-size="12.5" fill="#3b2f1e" font-weight="bold">Solomon, at the temple’s dedication:</text>
+<text x="38.0" y="873.5" font-size="12.5" fill="#3b2f1e">“if they repent… in the land of their</text>
+<text x="38.0" y="890.5" font-size="12.5" fill="#3b2f1e">enemies, who carried them captive, and pray</text>
+<text x="38.0" y="907.5" font-size="12.5" fill="#3b2f1e">to you toward their land… the city that you</text>
+<text x="38.0" y="924.5" font-size="12.5" fill="#3b2f1e">have chosen, and the house that I have built</text>
+<text x="38.0" y="941.5" font-size="12.5" fill="#3b2f1e">for your name, then hear in heaven your</text>
+<text x="38.0" y="958.5" font-size="12.5" fill="#3b2f1e">dwelling place their prayer and their plea”</text>
+<text x="38.0" y="975.5" font-size="11.0" fill="#6b5a3e" font-style="italic">1 Kings 8:48-49</text>
+<rect x="370.0" y="838.0" width="320.0" height="112" rx="5" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="378.0" y="856.5" font-size="12.5" fill="#3b2f1e" font-weight="bold">Jeremiah, read by Daniel (Daniel 9:2):</text>
+<text x="378.0" y="873.5" font-size="12.5" fill="#3b2f1e">“When seventy years are completed for</text>
+<text x="378.0" y="890.5" font-size="12.5" fill="#3b2f1e">Babylon, I will visit you… Then you will</text>
+<text x="378.0" y="907.5" font-size="12.5" fill="#3b2f1e">call upon me and come and pray to me, and I</text>
+<text x="378.0" y="924.5" font-size="12.5" fill="#3b2f1e">will hear you.”</text>
+<text x="378.0" y="941.5" font-size="11.0" fill="#6b5a3e" font-style="italic">Jeremiah 29:10, 12 · Daniel 9:2</text>
+<path d="M210.0 1004 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="1034.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">“we do not present our pleas before you because of our righteousness,</text>
+<text x="360.0" y="1056.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">but because of your great mercy.”</text>
+<text x="360.0" y="1078.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">Daniel 9:18 (ESV)</text>
+<text x="696.0" y="1098.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>
