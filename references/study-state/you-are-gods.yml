@@ -1,0 +1,180 @@
+slug: you-are-gods
+title: "\"You Are Gods\": Psalm 82, John 10 and the Authority God Gives"
+status: drafting
+target_path: docs/content/jesus/you-are-gods.md
+
+primary_passage: "John 10:22-39; Psalm 82:1-8"
+supporting_passages:
+  - Exodus 21:6
+  - Exodus 22:8-9
+  - Exodus 22:28
+  - Exodus 4:16
+  - Exodus 7:1
+  - Deuteronomy 10:17
+  - Genesis 1:1
+  - Genesis 20:13
+  - Genesis 35:7
+  - Psalm 89:5-7
+  - Deuteronomy 32:8
+  - John 9:22-41
+  - John 10:1-21
+  - John 8:39-41
+  - John 5:22-23
+  - John 5:36
+  - Matthew 23:2-3
+  - Ezekiel 34:2-4
+  - 1 Corinthians 8:5-6
+  - Isaiah 42:8
+  - 2 Maccabees 9:12
+genre: [psalm, gospel, topical]
+
+thesis: >
+  God called Israel's judges אֱלֹהִים because He had lent them His authority to judge, and the same
+  psalm sentences them by their own works; when Jerusalem's authorities judged Jesus, He answered
+  from that psalm that He, whom the Father consecrated and sent, holds by right the authority they
+  only borrowed, and the Father's works He does prove it.
+outline:
+  - section: "The charge at the Feast of Dedication"
+    says: >
+      John 10:22-33 in its setting: a feast remembering Antiochus, the king who called himself god;
+      the charge "you, being a man, make yourself God" (John 10:33); the accusers are the
+      authorities of John 9:22 who had just cast out the healed beggar.
+  - section: "One word, two uses: אֱלֹהִים"
+    says: >
+      Elohim is God (2,601 occurrences) and is also used of judges (Exodus 22:9), of Moses "as God"
+      (Exodus 4:16; 7:1), of heavenly beings (Psalm 8:5) and of idols. The grammar usually marks the
+      difference: a singular verb when the subject is God (Genesis 1:1), a plural verb when it is
+      plural judges (Exodus 22:9). The rule is general and has exceptions (Genesis 20:13; 35:7).
+      The name YHWH and the title "Most High" are never given to the judges: they are "sons of the
+      Most High" (Psalm 82:6), and the LORD gives His glory to no other (Isaiah 42:8).
+  - section: "Psalm 82: judges God appointed, and judged"
+    says: >
+      Walk-through: God stands in the assembly (82:1, singular verbs); the indictment (82:2); the job
+      they were given (82:3-4); their failure (82:5); "I said, you are gods... nevertheless, like men
+      you shall die" (82:6-7); the prayer for God Himself to judge (82:8).
+  - section: "Who are the gods? A contested reading"
+    says: >
+      Marked contested. Human judges: they judge among men, die like men, Exodus 22 usage, John
+      10:35. Heavenly council: "divine council" (ESV), Psalm 89:5-7, Deuteronomy 32:8 (4Q37, two
+      words extant), "die like men" implies they are not. The NIV Cultural Backgrounds Study Bible
+      holds both together (heavenly beings with human rulers as their agents). John's use favours
+      the human reading; either way God lends the title and God revokes it.
+  - section: "\"To whom the word of God came\""
+    says: >
+      Jesus's argument, John 10:34-36: "your Law"; θεοί quoted exactly as the Septuagint; "Scripture
+      cannot be broken"; the lesser-to-greater step from men who received God's word to the One the
+      Father consecrated and sent (ἡγίασεν, at the feast of the temple's consecration).
+  - section: "The rebuke inside the quotation"
+    says: >
+      Marked as a reading the text supports and does not state. The men Jesus addressed held God's
+      authority to teach and judge (Matthew 23:2-3) and had just cast out the weak man Psalm 82:3-4
+      told judges to rescue (John 9:34); Jesus had named them false shepherds (John 10:1; Ezekiel
+      34:2-4); their works showed whose children they were (John 8:39-41). Quoting Psalm 82:6 to
+      such men set them in the psalm's dock.
+  - section: "The works of the Father"
+    says: >
+      Jesus's answer rests on the works (John 10:25, 37-38; 5:36): the Father is in Him and He in the
+      Father. The Father has given all judgment to the Son (John 5:22-23); Psalm 82 closes asking God
+      to arise and judge the earth (82:8) -- an echo the New Testament does not draw, marked as such.
+      So you may trust Him as the Judge the psalm prayed for, and honour Him as you honour the Father.
+  - section: "Not \"little gods\""
+    says: >
+      Brief: the psalm lends a title for an office and then strips it (82:7); 1 Corinthians 8:5-6;
+      point to Pride's treatment of the "little gods" verses rather than repeat it.
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      User asked for "Psalm 82 and Mt 10"; Jesus quotes Psalm 82:6 in John 10:34-36 (nothing in
+      Matthew 10 does), so the study works on John 10 and the user was told. User's hypotheses:
+      (1) the term is elohim, used of those given authority by God Almighty, with a distinction
+      when it means God / YHWH; (2) John 10 rebukes the Pharisees, teachers given authority like the
+      judges of Psalm 82, whose works condemn them; (3) Jesus says He is God and His works show He
+      has God's full authority.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        John 10:22 Feast of Dedication (rededication 164 BC after Antiochus IV, 1 Macc 1:59; ESV
+        Study Bible note). NIV/NKJV Cultural Backgrounds note on 10:31: the festival remembered
+        Antiochus, "a man who claimed to be divine". 2 Maccabees 9:12 (Brenton Greek): μὴ θνητὸν
+        ὄντα ἰσόθεα φρονεῖν ὑπερηφανῶς -- a mortal should not arrogantly think himself equal to God.
+        Psalm 82 an Asaph psalm; genre prophetic hymn / community lament (ESV Study Bible).
+    literary_context:
+      done: true
+      notes: >
+        John 9 (healing, beggar cast out 9:34, Pharisees 9:40) runs straight into the shepherd
+        discourse (10:1-18) and the division (10:19-21); 10:22-39 is at Dedication but 10:26-27
+        ("you are not my sheep") continues the shepherd theme, so the opponents are the same in
+        substance. "The Jews" in 10:24, 31, 33 are the authorities of 9:22 (they had agreed to
+        expel confessors). Psalm 82 frame: psalmist (1, 8), God's speech (2-7) (NIV BTSB).
+    content_word_studies:
+      done: true
+      notes: >
+        Psalm 82:1 morphology: אֱלֹהִים subject with נִצָּב (Niphal ptc ms) and יִשְׁפֹּט (Qal impf
+        3ms) -- singular; בַּעֲדַת אֵל "in the assembly of El" singular; בְּקֶרֶב אֱלֹהִים "in the midst of
+        gods". 82:6 אַתֶּם אֱלֹהִים "you (pl) are gods" + וּבְנֵי עֶלְיוֹן. 82:7 כְּאָדָם "like man",
+        כְּאַחַד הַשָּׂרִים "like one of the princes". Exodus 22:9 (Eng) / 22:8 (Heb): אֱלֹהִים with
+        יַרְשִׁיעֻן Hiphil impf 3mp -- plural verb, judges. Genesis 1:1 בָּרָא 3ms. Exceptions:
+        Genesis 20:13 הִתְעוּ Hiphil perf 3cp; Genesis 35:7 נִגְלוּ Niphal perf 3cp, both with God as
+        subject. LXX Psalm 81:1 Ὁ Θεὸς ἔστη ἐν συναγωγῇ θεῶν, ἐν μέσῳ δὲ θεοὺς διακρινεῖ (LXX reads
+        "assembly of gods" where MT has "of El"); 81:6 Ἐγὼ εἶπα, θεοί ἐστε, καὶ υἱοὶ ὑψίστου πάντες.
+        John 10:34 Ἐγὼ εἶπα· Θεοί ἐστε matches LXX exactly. John 10:35 οὐ δύναται λυθῆναι ἡ γραφή.
+        John 10:36 ἡγίασεν. John 10:38 τοῖς ἔργοις πιστεύετε.
+      terms:
+        - {word: "אֱלֹהִים", language: hebrew, transliteration: "ʾĕlōhîm", strongs_id: H430, gloss: "God; gods; judges; heavenly beings", range_of_meanings: ["God (singular sense, singular verbs)", "gods of the nations", "heavenly beings (Ps 8:5)", "judges acting for God (Ex 22:8-9)", "Moses 'as God' (Ex 4:16; 7:1)", "Samuel's spirit (1 Sam 28:13)"], notes: "2,601 occurrences in macula-hebrew-wlc"}
+        - {word: "אֵל", language: hebrew, transliteration: "ʾēl", strongs_id: H410, gloss: "God, god"}
+        - {word: "עֶלְיוֹן", language: hebrew, transliteration: "ʿelyôn", strongs_id: H5945, gloss: "Most High"}
+        - {word: "יְהוָה", language: hebrew, transliteration: "YHWH", strongs_id: H3068, gloss: "the LORD", notes: "6,513 occurrences; absent from Psalm 82 (an Elohistic psalm)"}
+        - {word: "θεοί", language: greek, transliteration: "theoi", strongs_id: G2316, gloss: "gods"}
+        - {word: "ἁγιάζω", language: greek, transliteration: "hagiazō", strongs_id: G37, gloss: "consecrate, set apart"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Office-holders hold delegated authority and answer to God for its use (Romans 13:1-4); the title is lent, not a nature."
+    theological_principle:
+      done: true
+      notes: >
+        God shares the work of judging with men and calls them by His name for the office; He never
+        shares His name YHWH or His glory. Jesus claims the Father's own works and the Father's own
+        judgment, which no lent title covers. Consistent with statement-of-faith.md (Jesus fully God
+        and fully man; one God in three persons).
+    application_draft:
+      done: true
+      notes: "Be Transformed and the closing of 'A title lent for an office': authority you hold is lent; you answer for the weak under it."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Psalm 82:6", relation: "quoted at John 10:34 (Septuagint wording exact)"}
+      - {ref: "Exodus 4:16; 7:1", relation: "bible_trace leads"}
+      - {ref: "Matthew 23:2-3", relation: "authority of Moses' seat; works condemned"}
+      - {ref: "Ezekiel 34:2-4", relation: "false shepherds fail the weak; John 10 shepherd discourse"}
+    translations_compared: [ESV, NASB 2020, NIV, LSB footnotes, CSB footnotes, LXX (Brenton), NA28]
+    divergences_noted: >
+      NIV puts "gods" in scare quotes (82:1, 5, 6); NASB "His assembly"; ESV "divine council". LSB
+      footnote 82:1 "Heb El; the one true God" and "Or rulers". CSB footnote "Or the heavenly beings,
+      or the earthly rulers; Hb elohim". Exodus 21:6 / 22:8 footnotes: LSB "Or the judges who acted
+      in God's name", NLT "Or before the judges".
+  drafting:
+    done: true
+    file: docs/content/jesus/you-are-gods.md
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "Author (2026-10-11) asked for the heavenly powers over the nations to be part of this study, so the divine-council material is now its own section ('Gods over the nations'); a fuller divine-council study is still a fork candidate."
+  - "Author's observation: the authorities were more upset after the Psalm 82 reference. Text: 'Again they sought to arrest him' (John 10:39). Drafted as: the quotation did not soften them; John does not say which sentence moved them."
+  - "Author wrote 'Matthew' meaning John (confirmed 2026-10-11). Matthew 23:2-3 kept for the authority-to-teach point."
+  - "The rabbinic reading of Psalm 82:6 as Israel at Sinai (NIV Cultural Backgrounds note on John 10:34) is mentioned but not sourced to a primary text; cite b. Avodah Zarah 5a only if verified."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Psalm 82 notes (human-rulers reading, gives the council case too); John 10:22, 10:34, 10:35, 10:36. Confirmed the human reading; contributed 'consecrated' as office language (Jer 1:5; Ex 28:41)."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Psalm 82:1 range of elohim (Ex 21:6; 22:8-9; 4:16; 7:1; Ps 45:6; 8:5); 82:6 human leaders; John 10:33 irony note. Contributed the frame structure (vv. 1, 8 psalmist; 2-7 God)."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Divine-council reading with human rulers as agents (82:1, 82:6); Dedication / Antiochus link (John 10:22, 10:31, 10:36); rabbinic Sinai reading of Ps 82:6 (John 10:34). Contributed the contested side and the festival setting."}
+  - {type: other, title: "LSB, CSB Ancient Faith, NLT footnotes", note: "Psalm 82:1, Exodus 21:6, 22:8, 22:28 alternate renderings"}
+  - {type: other, title: "Brenton Septuagint (ebible-grcbrent)", note: "Psalm 81:1, 6; 2 Maccabees 9:12"}
+  - {type: lexicon, title: "MACULA Hebrew / unfoldingWord interlinear", note: "morphology of Psalm 82; Exodus 22:9; Genesis 1:1; 20:13; 35:7"}
+last_updated: "2026-10-11"
