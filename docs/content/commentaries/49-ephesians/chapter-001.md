@@ -13,7 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 1:7
-- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 1:20-21
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:10
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:13-14
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 1:14
@@ -21,6 +20,7 @@ draft: false
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 1:9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:13-14
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 1:5
+- [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 1:20-22
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 1:13-14
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 1:20
 <!-- commentary-index:auto-end -->

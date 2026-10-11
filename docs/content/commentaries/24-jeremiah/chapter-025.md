@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 25:11-12
+- [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 25:11-12
 <!-- commentary-index:auto-end -->

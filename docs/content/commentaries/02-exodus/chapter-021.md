@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 21:6
+- [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 21:6
 <!-- commentary-index:auto-end -->

@@ -14,4 +14,5 @@ draft: false
 
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 4:16-18
 - [Know the Truth](../../christian-life/know-the-truth.md) — 4:4
+- [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 4:4
 <!-- commentary-index:auto-end -->

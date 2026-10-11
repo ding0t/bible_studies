@@ -15,13 +15,13 @@ draft: false
 - [Passover: When I See the Blood](../../feasts/passover.md) — 12:43-49 (primary passage)
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 12:15-20 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 12:13
-- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 12:12
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 12:2-3
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 12:14
 - [The Appointed Times](../../feasts/feasts.md) — 12:2
 - [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 12:40-41
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 12:11
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 12:2
+- [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 12:12
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 12:37-41
 - [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 12:40-41
 <!-- commentary-index:auto-end -->

@@ -25,6 +25,7 @@ draft: false
 - [Six Days of History](../../last-things/six-days-of-history.md) — 8:29
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 8:5
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 8:15-17
+- [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 8:38-39
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:11
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 8:11
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 8:23

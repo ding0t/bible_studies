@@ -1,0 +1,44 @@
+slug: those-called-gods
+title: "Those Called Gods: Judges, Angels and the Powers Over the Nations"
+status: published
+target_path: docs/content/spiritual-beings/those-called-gods.md
+primary_passage: "Psalm 82:1-8; Deuteronomy 32:8-9"
+genre: [psalm, law, apocalyptic, epistle, topical]
+origin: >
+  Forked 2026-10-11 from docs/content/jesus/you-are-gods.md (as published at 43dbc471, reviewed
+  2026-10-11) on the author's instruction: "push the elohim research including principalities and
+  powers - those called gods who are not god- into another study". Proposal: simplify-bible-study
+  pass, scratchpad you-are-gods-simplify.md, approved by the author.
+moved_verbatim:
+  - "## One word, many holders (all three subsections, table included)"
+  - "## Gods over the nations (intro, The nations divided, Princes in heaven, What the nations worshipped first paragraph)"
+  - "LXX 'assembly of gods' sentence (from the contested section)"
+  - "Discussion questions on Exodus 22:9 grammar and Daniel 10 / Colossians 2:15"
+  - "The Ephesians 6 / Isaiah 24:21 paragraph and its bold line, extended, now closing ## Principalities and powers"
+new_material:
+  - "Opening, In one sentence, Key Takeaways, Memory verse (1 Cor 8:5-6), Be Transformed, Prayer"
+  - "Galatians 4:8 'by nature are not gods'; Nephilim link for 'sons of God'"
+  - "## Principalities and powers: Paul's names (arche G746, exousia G1849, kosmokrator G2888 hapax, verified 1 occurrence); the god of this world (2 Cor 4:4 theos of Satan, ESVSB note on 4:3-5); John 12:31; Eph 2:2; table creation -> cross -> ascension -> church -> struggle -> end (Col 1:16; 2:15; Eph 1:20-21; 1 Pet 3:22; Eph 3:10; 6:12; 1 Cor 15:24); ESVSB on Col 2:15 (disarmed, still struggled with); Rom 8:38-39"
+  - "## The one called God who is God: Psalm 45:6-7 marked contested (ESVSB Psalms note: addressed to God about the throne; NIVBT lists it among elohim's holders); Hebrews 1:8-9 with ESVSB note"
+verified: "All new ESV quotations via study_verse (Gal 4:8; 1 Cor 8:4-6; 2 Cor 4:4; John 12:31; Eph 2:2; Col 1:16; 2:15; Eph 1:20-22; 3:10; 6:10-13; 1 Pet 3:22; 1 Cor 15:24-25; Rom 8:38-39; Ps 45:6-7; Heb 1:8-9). Notes: ESVSB Ps 45:6-7, Heb 1:8-9, Eph 6:12, Col 1:16, Col 2:15, 2 Cor 4:3-5, Eph 3:10."
+statement_of_faith: "No section on angels or spiritual beings; nothing conflicts (Trinity, deity of Christ affirmed by the Heb 1:8 section)."
+word_budget: 4000
+evidence:
+  - {tool: bible_concordance, args: {strongs: G2888, work_id: macula-greek-sblgnt}, expect_count: 1}
+stages:
+  drafting: {done: true}
+  review: {done: true, date: "2026-10-11"}
+  published: {done: true, date: "2026-10-11"}
+review_2026-10-11:
+  by: "review-bible-study (subagent); new material only, moved sections were reviewed in you-are-gods review_2026-10-11"
+  checked: "ESV quotations via study_verse (Gal 4:8; 1 Cor 8:4-6; 10:20; Col 1:16; 2:15; Eph 1:20-22; 2:2; 3:10; 6:10-12; 2 Cor 4:4; John 12:31; 1 Pet 3:22; 1 Cor 15:24; Rom 8:38-39; Ps 45:6-7; Heb 1:8-9; Isa 24:21) -- all verbatim. ESVSB notes on Col 1:16, Col 2:15, Eph 6:12, 2 Cor 4:3-5, Ps 45:6-7, Heb 1:8-9 and NIVBT on Ps 82:1 (lists 'the king (45:6)') -- all quoted accurately. G2888 = 1 in SBLGNT. Statement of faith: consistent (Heb 1:8 section affirms the deity of the Son)."
+  fixes_applied:
+    - "Opening said Scripture uses the word for God of 'the powers Paul calls rulers and authorities' -- Paul never calls archai/exousiai theoi; reworded so Paul 'adds' them and calls Satan 'the god of this world'."
+    - "Psalm 45 lead asserted the contested reading ('One text addresses a king ... as elohim'); now 'may address'. Added the CSB footnote on Ps 45:6 ('Or Your divine throne is, or Your throne is God's'), the translators' own record of the fork."
+    - "'every other holder of the name was lent it' contradicted the study's title/name distinction; now 'title'."
+    - "arche 'literally beginnings, first places' (root-fallacy shape) -> 'a word that also means beginning'."
+    - "Bare Hebrew in the thesis, the Psalm 45 lead and the outline wrapped in <span dir=rtl>."
+    - "section_index.py re-run: study added to spiritual-beings/index.md."
+  verdict: "Fit to publish."
+  validator: "npm run validate: no warnings for this file. study_structure: 0 over target, 0 walls, longest 261."
+last_updated: "2026-10-11"

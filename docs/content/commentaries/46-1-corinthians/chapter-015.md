@@ -29,5 +29,6 @@ draft: false
 - [The Rapture of the Church](../../last-things/rapture.md) — 15:51-53
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 15:51-53
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 15:51
+- [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 15:24-25
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 15:4
 <!-- commentary-index:auto-end -->

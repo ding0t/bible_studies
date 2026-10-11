@@ -109,7 +109,7 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
 
     ---
 
-    Psalm 82 calls those God set in authority אֱלֹהִים, "gods", and then sentences them by their works. The word reaches human judges and the heavenly powers over the nations, and the grammar usually marks when it means God Himself. Jesus quoted the psalm to the authorities who were judging Him, and rested His claim to be one with the Father on the Father's works.
+    Psalm 82 calls those God set in authority אֱלֹהִים, "gods", and then sentences them by their works. Jesus quoted the psalm to the authorities who were judging Him, and rested His claim to be one with the Father on the Father's works, while their own works condemned them.
 
     [:octicons-arrow-right-24: Read](you-are-gods.md)
 

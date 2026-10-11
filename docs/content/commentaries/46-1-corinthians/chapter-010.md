@@ -13,7 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 10:16
-- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 10:20
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 10:20-21
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 10:18
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 10:13
@@ -22,4 +21,5 @@ draft: false
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 10:13
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:1-4
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 10:32
+- [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 10:20
 <!-- commentary-index:auto-end -->

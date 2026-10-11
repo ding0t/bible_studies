@@ -14,7 +14,6 @@ draft: false
 
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:16-17 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 2:16-17
-- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 2:15
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 2:16
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 2:15
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 2:16-17
@@ -29,5 +28,6 @@ draft: false
 - [The Appointed Times](../../feasts/feasts.md) — 2:16-17
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 2:13-14
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:14
+- [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 2:15
 - [Wisdom](../../wisdom/index.md) — 2:3
 <!-- commentary-index:auto-end -->

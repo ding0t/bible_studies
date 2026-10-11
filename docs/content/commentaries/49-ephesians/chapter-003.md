@@ -20,4 +20,5 @@ draft: false
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:5-6
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 3:5-9
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 3:15
+- [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 3:10
 <!-- commentary-index:auto-end -->

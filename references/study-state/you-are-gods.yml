@@ -199,3 +199,34 @@ review_2026-10-11:
     - "Sinai reading added as a third view (NIVCB note on John 10:34), with the note's own preference (mocking rulers who claimed divinity); CSB/LSB footnotes on Ps 82:1 cited."
     - "Takeaway heading softened to 'He holds the judging the psalm prayed for', pairing marked as the study's suggestion."
     - "Exodus 22:28 cited in the judges table with the CSB footnote 'Or judges'; Heb 2:7 added to the Ps 8:5 row; sarim tagged H8269."
+simplify_2026-10-11:
+  by: "simplify-bible-study recommendation (subagent), approved by the author and applied by the session"
+  point: "Jesus answered the authorities judging Him with Psalm 82; His works, the Father's, verify His claim, and theirs condemn them because they did not do what God gave them authority to do. Whether He meant the psalm's verdict is contested; the contrast of works is in John's text."
+  forked: "One word, many holders and Gods over the nations -> spiritual-beings/those-called-gods.md (state file those-called-gods.yml). Kept here as ### God in the assembly of the gods: Ps 82:1 grammar, the 2,601 sentence, judges and Moses rows, the 'rank' paragraph, Isaiah 42:8 and the hinge line."
+  author_direction_mid_task: "For the John 10 study make sure we weight the focus on what Jesus contrasts: his works verify his claim. The Jews' works condemn them because they do not demonstrate the responsibility given by God."
+  applied:
+    - "New thesis (author approved the candidate, then extended it with the works contrast)."
+    - "## The works of the Father -> ## Their works and His, with ### His works verify His claim (John 10:25, 32, 37-38; 5:36; 14:10-11; 9:4 tied to Ps 82:3-4), ### Their works condemn them (Matt 23:2; John 9:34; 8:39-41; 10:32; 3:19; 15:24; 9:41), ### The judgment is His (John 5:22-23, unchanged). erga G2041 six times in John 10:25-38 (verified)."
+    - "Lessons about Jesus bullet 2 rewritten around John 10:25, 32."
+    - "Moses' seat: bullet on John 9 shortened, John 8:39-40 bullet removed (now in Their works condemn them), pointer added."
+    - "M1 (John 10:1 kept only in Moses' seat), S2, S3, S4, S5, outline, Q1/Q5 to the fork, references trimmed."
+    - "how-god-answers-prayer.md link #princes-in-heaven repointed to those-called-gods.md#princes-in-heaven."
+  evidence:
+    - {tool: bible_concordance, args: {strongs: G2041, book: John, work_id: macula-greek-sblgnt}, note: "6 in John 10:25-38 (10:25, 32 x2, 33, 37, 38)"}
+review_2026-10-11_post_simplify:
+  by: "review-bible-study (subagent), after simplify_2026-10-11"
+  checked: "New thesis; ### God in the assembly of the gods; ## Their works and His (every ESV quotation from John 3:19, 5:22-23, 5:36, 8:39-41, 9:4, 9:22, 9:34-41, 10:22-39, 14:10-11, 15:22-24, Matt 23:2-3, Ps 82:1-8, Isa 42:8 via study_verse -- all verbatim); G2041 count (6 in John 10:25-38 incl. singular forms at 10:32b, 10:33 -- correct); dangling references after the fork; contested marking; validator; study_structure."
+  fixes_applied:
+    - "Dangling *sar* in ### The sentence (term defined only in the forked Princes in heaven): now שָׂרִים (sarim, H8269, 'princes'), checked against the Ps 82:7 interlinear."
+    - "Dangling 'Deuteronomy 32:8 on the Septuagint's reading' in the heavenly-powers bullet: now states the ESV/LXX/DSS reading 'according to the number of the sons of God' (ESV verified)."
+    - "erga gloss: lemma is ἔργον; two of the six hits are singular, so the lead now reads 'ἔργον (ergon, G2041, \"work\", plural ἔργα)'."
+    - "John 8:39-41 attributed to 'the authorities' (they sought to kill...): John 8 is addressed to 'the Jews who had believed him' (8:31) in the temple; reworded to 'Earlier, in the temple, Jesus had named what seeking His death showed'."
+    - "'John had stated the principle' for John 3:19: speaker of 3:16-21 (Jesus or the evangelist) is debated; now 'The Gospel states the principle early'."
+    - "Thesis: 'sentences the judges He appointed by their works' was ambiguous; reordered."
+    - "'the people God set over Israel' (Moses was 'as God' to Aaron and Pharaoh): now 'people God set in authority'."
+    - "Description extended with 'while their own works condemned them'; section_index.py re-run (jesus/index.md, spiritual-beings/index.md)."
+  for_author:
+    - "Climax: the works contrast lands in ## Their works and His and is kept as John's own text (3:19, 9:41, 15:24); the Psalm 82 verdict stays marked contested in Moses' seat and again in the section's bold close. ## A title lent for an office follows the climax as a coda; consider whether it belongs before Their works and His or in the fork."
+    - "John 15:24's 'them' is 'the world' (15:18-19) with 'their Law' (15:25); applying it to the authorities is fair but an application."
+    - "Discussion questions: none turns on 'their works condemn them' directly, and no language question though the study has ergon/hagiazo."
+  validator: "npm run validate: no warnings for this file. study_structure: 0 over target, 0 walls, longest 343."

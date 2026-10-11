@@ -134,7 +134,7 @@ prince," stands against both (Daniel 10:20-21). The *NIV Cultural Backgrounds St
 takes him as a member of the heavenly council, set against Michael without opposing the LORD
 Himself. And *sar* is also Daniel's ordinary word for a human official (Daniel 1:7), so the word alone
 does not decide it. This study takes the spiritual reading, which fits the chapter's pairing of
-Michael against the princes best; ["You Are Gods"](../jesus/you-are-gods.md#princes-in-heaven) sets
+Michael against the princes best; ["Those Called Gods"](../spiritual-beings/those-called-gods.md#princes-in-heaven) sets
 it beside Scripture's other heavenly powers. Daniel 10 opens the curtain on one wait. It shows that a
 delay can have causes the one praying never sees, and it gives no formula for reading any other
 delay.

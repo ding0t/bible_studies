@@ -12,10 +12,10 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 6:12
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 6:11-12
 - [Fasting](../../christian-life/fasting.md) — 6:10-18
 - [Know the Truth](../../christian-life/know-the-truth.md) — 6:14
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 6:4
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 6:20
+- [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 6:10-13
 <!-- commentary-index:auto-end -->

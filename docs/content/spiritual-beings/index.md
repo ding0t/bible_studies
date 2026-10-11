@@ -4,7 +4,7 @@ category: "other"
 description: "Angels, demons, and the discernment of spirits."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-10
+date_modified: 2026-10-11
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -32,6 +32,14 @@ Angels, demons, and the discernment of spirits.
     An exegetical study of Genesis 6:1-4 and Numbers 13:33: who were the Nephilim, what 'sons of God' means, and whether the giant clans of Canaan survived the flood or persist today.
 
     [:octicons-arrow-right-24: Read](nephilim.md)
+
+-   __Those Called Gods: Judges, Angels and the Powers Over the Nations__
+
+    ---
+
+    Scripture lends the word אֱלֹהִים, "gods", to judges, to Moses, to heavenly beings and to the powers behind the nations, and Paul names the principalities and powers. Every one of them is "by nature not gods": God keeps His names and His glory to Himself, creates every power through His Son, and has disarmed them at the cross.
+
+    [:octicons-arrow-right-24: Read](those-called-gods.md)
 
 </div>
 <!-- section-index:auto-end -->
