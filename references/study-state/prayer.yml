@@ -1135,3 +1135,34 @@ read_2026-10-11:
     - "Communion, paragraph 2: 'Jesus says \"your Father knows what you need before you ask him\" ... as a reason to ask' states a conclusion the verse does not obviously carry; the reasoning is compressed."
     - "The Lord's Prayer is walked twice: the attitude flowchart and the six-step pattern. Callback by design, but a reader meets the same petitions again."
   not_verified: "Structure pass only. Says nothing about quotations, counts or word studies."
+
+review_2026-10-11b:
+  file: docs/content/christian-life/prayer-as-communion.md
+  reviewer: independent accuracy review (review-bible-study), fresh session; did not draft the rewrite
+  verified:
+    - "ESV, re-queried from study-notes.db (esv-study-bible), every quotation in the body, Key Takeaways, table, memory verses and both plates: Dan 1:1-6; 2:17-23; 6:3-11, 22; 9:1-5, 17-23; Eph 2:18-22; 3:1, 13-21; Heb 4:16; 5:7; 7:25; 10:19-22; Rom 8:15-16, 26; 12:2; Gal 4:6-7; Phil 2:10; 4:6-7; Ps 16:11; 37:4; 42:1; 55:17; 66:18-19; Matt 4:4; 6:5-13; 14:23; Mark 1:35-37; 3:14; 11:25; Luke 5:16; 6:12-13; 11:8, 13; 18:1, 11-13; 22:42; John 4:34; 15:7; 16:23; 17:3-5, 20; 1 John 5:14; Jas 4:2-3; Exod 16:4, 19-21; 32:13-14; Deut 6:7; 8:3; 1 Kgs 8:10-11, 47-49; 2 Kgs 25:8-10; Jer 25:11-12; 29:10-13; Col 1:19; 2:7, 9-10; Acts 1:14; 4:24, 29; 7:59; 12:5; 2 Cor 12:8-9; Neh 2:4-5; 1 Tim 2:1-5; 1 Thess 5:17. All verbatim apart from the James 4 table cell (below)."
+    - "Notes, each quoted phrase found in the note cited: ESVSB Exod 16:4 ('whole lives were to be sustained by the Lord and governed by his word'); Dan 6:10 ('consciously fulfilling'); Dan 9:1-27 ('over 80', 539 BC); Eph 3:14-15 (resumes v. 1; naming = defining identity); Eph 3:17-18 ('indwelling with power'; 'immeasurable dimensions of God's riches in Christ'); Heb 5:7 (resurrection as being saved 'out of' death); 1 Tim 2:1 ('for their cumulative impact'). NIVBT 3:14-21 (address, appeals, adoration); 3:14-15 (most stood to pray, Mark 11:25; Luke 18:11, 13; patria from pater); 3:17 ('controlling presence'); 3:19 (never fully known; temple filling, 1 Kgs 8:10-11)."
+    - "MACULA morphology: Dan 6:11 MT (= ESV 6:10) בָּרֵךְ H1289 Vqrmsa, בִּרְכוֹהִי H1291 (same lemma בְּרַךְ), מְצַלֵּא and מוֹדֵא participles, הֲוָא עָבֵד מִן־קַדְמַת דְּנָה periphrastic 'had been doing from before this'. Luke 5:16 ἦν ὑποχωρῶν ... προσευχόμενος periphrastic imperfect. Mark 1:36 κατεδίωξεν G2614. Eph 3:14 κάμπτω G2578; 3:15 πατριά G3965; 3:17 κατοικῆσαι G2730, ἐρριζωμένοι G4492, τεθεμελιωμένοι G2311; 3:19 πλήρωμα G4138; Col 1:19 and 2:9 κατοικέω + πλήρωμα; Eph 2:22 κατοικητήριον G2732; Eph 2:18 προσαγωγή G4318; 1 Tim 2:1 G1162, G4335, G1783, G2169; Heb 10:22 προσερχώμεθα G4334."
+    - "Counts (macula-greek-sblgnt): G2614 = 1 (Mark 1:36), G335 = 1 (Luke 11:8), G4492 = 2 (Eph 3:17; Col 2:7), G3965 = 3, G2578 = 4 (incl. Phil 2:10), G89 = 4 (Rom 1:9; 1 Thess 1:2; 2:13; 5:17). Every hapax/count claim holds."
+    - "Plates: every quotation in utils/build_prayer_graphics.py matches the ESV (Dan 6:10-11; 2 Kgs 25:9-10; 1 Kgs 8:47-49; Jer 29:10, 12; Dan 9:18; Ps 55:17; Eph 3:14-21)."
+    - "House style: no lowercase divine pronoun in own prose; quotations keep ESV lowercase; Hebrew/Aramaic in span dir=rtl; quote blocks open '> ✝️ Ref (ESV)'; facet labels present ('Daily bread.' is a permitted sixth-theme label per discussion-questions.md)."
+    - "Statement of faith: consistent (Trinity, the Spirit as person; prayer to the Spirit treated as argument from silence, marked)."
+  fixed:
+    - "Hook: dropped the foil 'Neither man is reaching for a technique.'"
+    - "Matt 6:8 now 'a reason to ask plainly, without heaping up words' (the verse grounds plain asking against heaped-up phrases)."
+    - "James 4:2-3 table: fragments had been re-ordered ('and do not receive' as the consequence of 'You ask… wrongly'); cells now keep ESV order."
+    - "Dan 6:4-5: 'His prayer was the one thing they could count on' -> 'His faithfulness to his God' (v. 5 says 'the law of his God', not prayer)."
+    - "Dan 6:10: noted the Aramaic numbers it 6:11."
+    - "Dan 9:2: Daniel does not say which Jeremiah passage he read; now names both (Jer 25:11-12; 29:10) and says he did what 29:12 describes. Discussion Q2, the study's plate alt text, the generator's alt text and the right card's label ('THE PROMISE TO THE EXILES'; 'Jeremiah, writing to the exiles in Babylon:') updated to match; daniel-at-the-window.svg regenerated. Jer 25:11-12 added to bible_references."
+    - "586 BC marked '(some reckon 587; 2 Kings 25:8-9)'; 'Daniel's day still kept its hours' -> 'Daniel still marked the hour by it' (he narrates the time that way in 9:21)."
+    - "Phil 2:10 echo marked as the study's juxtaposition ('Paul does not join the two passages, but read side by side…')."
+    - "NIVBT 3:16 paraphrase corrected: the note says 'seat of one's consciousness and moral being… equivalent to heart', not 'mind and will'."
+    - "'Paul cannot stop at asking' (a claim about Paul's state of mind) -> 'Paul ends in praise.'"
+    - "References: dropped '(notes cited in the text)' from the study-Bible heading, since NIVCB and ESVSB Dan 2:14-24 are consulted but not cited; added NIVBT 3:14-15, which the text cites."
+  for_author:
+    - "Eph 3:20 sentence: 'Paul has just asked for the fullness of God, and he says God can exceed it.' The verse says 'far more abundantly than all that we ask or think'; whether that includes exceeding 'the fullness of God' is the study's inference. Consider 'he says God is able to do more than all we ask' or keep and mark."
+    - "Hook 'a city that has lain in ruins for most of his life': holds only on an estimate (taken c. 605 as a youth, Jerusalem burned 586, Daniel 6 after 539: about 47 of 80+ years). Fine as an estimate; unmarked."
+    - "'The curtain is the one before the Most Holy Place' (Heb 10:20) and 'Prayer is that being-with, carried on after the Ascension' (Mark 3:14) are stated plainly; both are interpretations, widely held."
+    - "ESVSB Dan 6:10 calls Daniel's posture 'prostrating himself'; the study keeps the ESV's 'on his knees', which matches the Aramaic. No change needed, noted only."
+  not_run: "review_gaps and cross_study_claims (outside the brief's focus)."
+  validate: "npm run validate passes; no warnings on this file. Ephesians plate unchanged on regeneration."

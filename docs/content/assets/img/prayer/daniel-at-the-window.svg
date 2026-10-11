@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1120" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
 <title id="t">Daniel at the window</title>
-<desc id="d">An illustrated plate of Daniel 6:10-11. Above, a cut-away house in Babylon: in the upper chamber a small kneeling figure faces open windows toward Jerusalem, drawn far to the west across the desert with its walls broken and the temple burned (2 Kings 25:9-10). Seven numbered callouts quote the verses: the document signed; his house; windows in his upper chamber open toward Jerusalem; on his knees; three times a day he prayed and gave thanks, as he had done previously; the men who came by agreement and found him making petition and plea (Daniel 6:11); and Jerusalem. A dashed key line says the text does not state the hours, the number of windows, or the words he prayed. Below, two source cards: Solomon's prayer asking God to hear exiles who pray toward the land, the city and the house (1 Kings 8:48-49), and Jeremiah's promise, which Daniel read, that after seventy years 'you will call upon me and come and pray to me, and I will hear you' (Jeremiah 29:10-12; Daniel 9:2). At the foot, Daniel 9:18: 'because of your great mercy'.</desc>
+<desc id="d">An illustrated plate of Daniel 6:10-11. Above, a cut-away house in Babylon: in the upper chamber a small kneeling figure faces open windows toward Jerusalem, drawn far to the west across the desert with its walls broken and the temple burned (2 Kings 25:9-10). Seven numbered callouts quote the verses: the document signed; his house; windows in his upper chamber open toward Jerusalem; on his knees; three times a day he prayed and gave thanks, as he had done previously; the men who came by agreement and found him making petition and plea (Daniel 6:11); and Jerusalem. A dashed key line says the text does not state the hours, the number of windows, or the words he prayed. Below, two source cards: Solomon's prayer asking God to hear exiles who pray toward the land, the city and the house (1 Kings 8:48-49), and Jeremiah's letter to the exiles, that after seventy years 'you will call upon me and come and pray to me, and I will hear you' (Jeremiah 29:10-12; Daniel 9:2). At the foot, Daniel 9:18: 'because of your great mercy'.</desc>
 <rect width="720" height="1120" fill="#faf6ec"/>
 <rect x="8" y="8" width="704" height="1104" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
 <rect x="14" y="14" width="692" height="1092" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
@@ -171,7 +171,7 @@
 <text x="62.0" y="782.0" font-size="12" fill="#6b5a3e" font-style="italic">Not stated: the hours (Psalm 55:17 has “evening and morning and at noon”), how many</text>
 <text x="62.0" y="798.0" font-size="12" fill="#6b5a3e" font-style="italic">windows, the room’s shape, or the words he prayed.</text>
 <text x="30.0" y="826.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.2">THE PRAYER HE WAS ANSWERING</text>
-<text x="370.0" y="826.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.2">THE PROMISE HE READ</text>
+<text x="370.0" y="826.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.2">THE PROMISE TO THE EXILES</text>
 <rect x="30.0" y="838.0" width="320.0" height="146" rx="5" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
 <text x="38.0" y="856.5" font-size="12.5" fill="#3b2f1e" font-weight="bold">Solomon, at the temple’s dedication:</text>
 <text x="38.0" y="873.5" font-size="12.5" fill="#3b2f1e">“if they repent… in the land of their</text>
@@ -182,7 +182,7 @@
 <text x="38.0" y="958.5" font-size="12.5" fill="#3b2f1e">dwelling place their prayer and their plea”</text>
 <text x="38.0" y="975.5" font-size="11.0" fill="#6b5a3e" font-style="italic">1 Kings 8:48-49</text>
 <rect x="370.0" y="838.0" width="320.0" height="112" rx="5" fill="#e3e9f2" stroke="#3b2f1e" stroke-width="1.4"/>
-<text x="378.0" y="856.5" font-size="12.5" fill="#3b2f1e" font-weight="bold">Jeremiah, read by Daniel (Daniel 9:2):</text>
+<text x="378.0" y="856.5" font-size="12.5" fill="#3b2f1e" font-weight="bold">Jeremiah, writing to the exiles in Babylon:</text>
 <text x="378.0" y="873.5" font-size="12.5" fill="#3b2f1e">“When seventy years are completed for</text>
 <text x="378.0" y="890.5" font-size="12.5" fill="#3b2f1e">Babylon, I will visit you… Then you will</text>
 <text x="378.0" y="907.5" font-size="12.5" fill="#3b2f1e">call upon me and come and pray to me, and I</text>

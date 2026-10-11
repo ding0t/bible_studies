@@ -76,7 +76,7 @@ def daniel_at_the_window():
         "plea (Daniel 6:11); and Jerusalem. A dashed key line says the text does not state the hours, "
         "the number of windows, or the words he prayed. Below, two source cards: Solomon's prayer "
         "asking God to hear exiles who pray toward the land, the city and the house (1 Kings 8:48-49), "
-        "and Jeremiah's promise, which Daniel read, that after seventy years 'you will call upon me "
+        "and Jeremiah's letter to the exiles, that after seventy years 'you will call upon me "
         "and come and pray to me, and I will hear you' (Jeremiah 29:10-12; Daniel 9:2). At the foot, "
         "Daniel 9:18: 'because of your great mercy'.",
     )
@@ -190,12 +190,12 @@ def daniel_at_the_window():
     py = ny + 56
     cw = 320
     out.append(text(30, py - 12, "THE PRAYER HE WAS ANSWERING", 13, weight="bold", fill=MUTED, spacing="1.2"))
-    out.append(text(370, py - 12, "THE PROMISE HE READ", 13, weight="bold", fill=MUTED, spacing="1.2"))
+    out.append(text(370, py - 12, "THE PROMISE TO THE EXILES", 13, weight="bold", fill=MUTED, spacing="1.2"))
     left = ["Solomon, at the temple’s dedication:"] + wrap(
         "“if they repent… in the land of their enemies, who carried them captive, and pray to you "
         "toward their land… the city that you have chosen, and the house that I have built for your "
         "name, then hear in heaven your dwelling place their prayer and their plea”", 44)
-    right = ["Jeremiah, read by Daniel (Daniel 9:2):"] + wrap(
+    right = ["Jeremiah, writing to the exiles in Babylon:"] + wrap(
         "“When seventy years are completed for Babylon, I will visit you… Then you will call upon me "
         "and come and pray to me, and I will hear you.”", 44)
     c, hl = card(30, py, cw, left, "1 Kings 8:48-49", fill=GOLD_TINT, size=12.5)

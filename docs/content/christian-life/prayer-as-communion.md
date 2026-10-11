@@ -5,7 +5,7 @@ description: "What prayer is (a child's communion with the Father), why it is as
 tags: ["matthew", "luke", "john", "acts", "daniel", "ephesians", "colossians", "1-timothy", "1-thessalonians", "hebrews", "exodus", "psalms", "discipleship", "method/word-study", "lang/greek", "lang/aramaic", "person/daniel", "person/paul"]
 draft: false
 primary_passage: "Ephesians 3:14-21"
-bible_references: ["Ephesians 3:14-21", "Daniel 6:10-11", "Daniel 9:2-23", "Daniel 2:17-23", "Romans 8:15-16", "Galatians 4:6-7", "Mark 3:14", "John 17:3", "John 17:20-21", "Psalm 42:1-2", "Psalm 16:11", "Matthew 6:8-13", "Luke 22:42", "Exodus 16:4", "Exodus 16:19-21", "Deuteronomy 8:3", "Matthew 4:4", "John 4:34", "Hebrews 10:19-22", "Hebrews 4:16", "Hebrews 7:25", "Hebrews 5:7", "Philippians 4:6-7", "Romans 12:1-2", "1 John 5:14", "Psalm 37:4", "John 15:7", "Psalm 66:18-19", "James 4:2-3", "Mark 1:35-37", "Luke 5:16", "Luke 6:12", "Matthew 14:23", "Daniel 6:3-5", "Daniel 6:22", "John 17:5", "2 Kings 25:9", "1 Kings 8:10-11", "Colossians 2:7", "1 Kings 8:48-49", "Jeremiah 29:10-13", "Ephesians 2:21-22", "Colossians 1:19", "Colossians 2:9-10", "Ephesians 3:1", "Ephesians 4:1", "Philippians 2:10", "Exodus 32:11-14", "Nehemiah 2:4-5", "Acts 4:24-31", "Ephesians 2:18", "John 16:23-24", "Acts 7:59", "2 Corinthians 12:8-9", "Romans 8:26-27", "Matthew 6:5-6", "Acts 1:14", "Acts 12:5", "1 Timothy 2:1-2", "1 Timothy 2:5-6", "Colossians 4:2", "1 Thessalonians 5:16-18", "Luke 11:5-13", "Luke 18:1-8", "Deuteronomy 6:6-7"]
+bible_references: ["Ephesians 3:14-21", "Daniel 6:10-11", "Daniel 9:2-23", "Daniel 2:17-23", "Romans 8:15-16", "Galatians 4:6-7", "Mark 3:14", "John 17:3", "John 17:20-21", "Psalm 42:1-2", "Psalm 16:11", "Matthew 6:8-13", "Luke 22:42", "Exodus 16:4", "Exodus 16:19-21", "Deuteronomy 8:3", "Matthew 4:4", "John 4:34", "Hebrews 10:19-22", "Hebrews 4:16", "Hebrews 7:25", "Hebrews 5:7", "Philippians 4:6-7", "Romans 12:1-2", "1 John 5:14", "Psalm 37:4", "John 15:7", "Psalm 66:18-19", "James 4:2-3", "Mark 1:35-37", "Luke 5:16", "Luke 6:12", "Matthew 14:23", "Daniel 6:3-5", "Daniel 6:22", "John 17:5", "2 Kings 25:9", "1 Kings 8:10-11", "Colossians 2:7", "1 Kings 8:48-49", "Jeremiah 29:10-13", "Jeremiah 25:11-12", "Ephesians 2:21-22", "Colossians 1:19", "Colossians 2:9-10", "Ephesians 3:1", "Ephesians 4:1", "Philippians 2:10", "Exodus 32:11-14", "Nehemiah 2:4-5", "Acts 4:24-31", "Ephesians 2:18", "John 16:23-24", "Acts 7:59", "2 Corinthians 12:8-9", "Romans 8:26-27", "Matthew 6:5-6", "Acts 1:14", "Acts 12:5", "1 Timothy 2:1-2", "1 Timothy 2:5-6", "Colossians 4:2", "1 Thessalonians 5:16-18", "Luke 11:5-13", "Luke 18:1-8", "Deuteronomy 6:6-7"]
 date_created: 2024-10-06
 date_modified: 2026-10-11
 ai_provider_models:
@@ -17,13 +17,13 @@ ai_provider_models:
 
 # Prayer: Communion with God
 
-An old man kneels at an open window in Babylon, facing a city that has lain in ruins for most of his
-life. He does it three times a day. The day the king signs a law that makes it a capital crime, he
+An old man kneels at an open window in Babylon, facing a city that has lain in ruins for
+decades. He does it three times a day. The day the king signs a law that makes it a capital crime, he
 goes home and does it again, "as he had done previously" (Daniel 6:10, ESV). Six centuries later
 a prisoner bends his knees "before the Father" and asks that people he has never met would
 know a love too large to know (Ephesians 3:14-19).
 
-Neither man is reaching for a technique. Each is keeping company with God.
+Each man is keeping company with God.
 
 **In one sentence:** God the Father has adopted you through His Son Jesus and given you His Spirit
 to cry "Abba! Father!", so prayer is communion with Him: as necessary as daily bread, the place
@@ -115,7 +115,7 @@ The Psalms record the appetite behind it: "As a deer pants for flowing streams, 
 you, O God" (Psalm 42:1, ESV). That is a lament, and it still speaks of thirst. And they record what
 is found there: "in your presence there is fullness of joy" (Psalm 16:11, ESV). Prayer includes
 asking, and Jesus says "your Father knows what you need before you ask him" (Matthew 6:8, ESV) as a
-reason to ask. Underneath the asking is a relationship: the Father wants your company, and prayer
+reason to ask plainly, without heaping up words. Underneath the asking is a relationship: the Father wants your company, and prayer
 is where you give it.
 
 ### Your will handed over
@@ -129,7 +129,7 @@ then God acting.
 | **John 15:7** | "If you abide in me, and my words abide in you" | "ask whatever you wish, and it will be done for you" |
 | **1 John 5:14** | "if we ask anything according to his will" | "he hears us" |
 | **Psalm 66:18-19** | "If I had cherished iniquity in my heart" | "the Lord would not have listened. But truly God has listened" |
-| **James 4:2-3** | "You do not have, because you do not ask. You ask… wrongly" | "and do not receive" |
+| **James 4:2-3** | "You do not have, because you do not ask." "You ask… wrongly" | "You ask and do not receive" |
 
 Quotations are ESV. Psalm 37:4 is often quoted as a blank cheque, and it is the clearest case of the
 pattern: delight in God first, and the delight reshapes the desires He then grants. Romans 12 has
@@ -234,7 +234,7 @@ Him.** If He needed it, so do you.
 
 ### Daniel: a lifetime at the window
 
-[![An illustrated plate of Daniel 6:10-11. In the upper chamber of a house in Babylon a small kneeling figure faces open windows toward Jerusalem, far to the west across the desert, where the temple lies in ruins. Seven numbered callouts quote the verses: the signed document (Daniel 6:10), his house, the windows of the upper chamber open toward Jerusalem, on his knees, three times a day praying and giving thanks, as he had done previously, and the men who came by agreement and found him making petition (Daniel 6:11). A dashed key line says the text does not state the hours, the number of windows, or what he prayed. Below, two source cards: Solomon's prayer asking God to hear exiles who pray toward the land, the city and the house (1 Kings 8:48-49), and Jeremiah's promise that after seventy years 'you will call upon me and come and pray to me, and I will hear you' (Jeremiah 29:10-12), which Daniel read (Daniel 9:2). At the foot, Daniel 9:18: 'because of your great mercy'.](../assets/img/prayer/daniel-at-the-window.svg)](../assets/img/prayer/daniel-at-the-window.svg)
+[![An illustrated plate of Daniel 6:10-11. In the upper chamber of a house in Babylon a small kneeling figure faces open windows toward Jerusalem, far to the west across the desert, where the temple lies in ruins. Seven numbered callouts quote the verses: the signed document (Daniel 6:10), his house, the windows of the upper chamber open toward Jerusalem, on his knees, three times a day praying and giving thanks, as he had done previously, and the men who came by agreement and found him making petition (Daniel 6:11). A dashed key line says the text does not state the hours, the number of windows, or what he prayed. Below, two source cards: Solomon's prayer asking God to hear exiles who pray toward the land, the city and the house (1 Kings 8:48-49), and Jeremiah's letter to the exiles promising that after seventy years 'you will call upon me and come and pray to me, and I will hear you' (Jeremiah 29:10-12); Daniel read Jeremiah's seventy years (Daniel 9:2). At the foot, Daniel 9:18: 'because of your great mercy'.](../assets/img/prayer/daniel-at-the-window.svg)](../assets/img/prayer/daniel-at-the-window.svg)
 
 Daniel was taken to Babylon as a youth (Daniel 1:1-6) and was still praying there in old age. The
 *ESV Study Bible* reckons him over eighty by Daniel 9 (note on Daniel 9:1-27). His book shows his prayer three ways.
@@ -251,8 +251,8 @@ known to us the king's matter" (Daniel 2:23, ESV). He asked together, and he tha
 
 In Daniel 6, his rivals could find "no ground for complaint or any fault"
 in him, and concluded: "unless we find it in connection with the law of his God" (Daniel 6:4-5,
-ESV). His prayer was the one thing about him they could count on. So they had a law signed against
-it, and:
+ESV). His faithfulness to his God was the one thing about him they could count on. So they had a
+law signed against his prayer, and:
 
 > ✝️ Daniel 6:10 (ESV)
 >
@@ -260,7 +260,7 @@ it, and:
 > in his upper chamber open toward Jerusalem. He got down on his knees three times a day and prayed
 > and gave thanks before his God, as he had done previously.
 
-The Aramaic makes the habit visible. <span dir="rtl">בָּרֵךְ עַל־בִּרְכוֹהִי</span> (*bārēk ʿal
+The Aramaic (numbered 6:11 there) makes the habit visible. <span dir="rtl">בָּרֵךְ עַל־בִּרְכוֹהִי</span> (*bārēk ʿal
 birkōhî*, H1289 and H1291) is "kneeling on his knees", verb and noun from the same root, and
 "kneeling", "praying" and "thanking" are all participles, the form for ongoing action: he *was
 kneeling, praying, giving thanks*. "As he had done previously" is literally "just as he had been
@@ -274,9 +274,11 @@ signed, he gave thanks.
 #### From the books
 
 In the first year of Darius, Daniel "perceived in the books" that
-Jeremiah had set seventy years for Jerusalem's desolation (Daniel 9:2, ESV). Jeremiah's promise went
-on: "When seventy years are completed for Babylon, I will visit you… Then you will call upon me and
-come and pray to me, and I will hear you" (Jeremiah 29:10, 12, ESV). Daniel read that and did it.
+Jeremiah had set seventy years for Jerusalem's desolation (Daniel 9:2, ESV). Daniel does not say
+which passage he read; Jeremiah gives the seventy years twice (Jeremiah 25:11-12; 29:10). The
+second, a letter to the exiles in Babylon, goes on: "When seventy years are completed for Babylon,
+I will visit you… Then you will call upon me and come and pray to me, and I will hear you" (Jeremiah
+29:10, 12, ESV). Daniel did what it describes.
 "I turned my face to the Lord God, seeking him by prayer and pleas for mercy with fasting and
 sackcloth and ashes" (Daniel 9:3, ESV). Three things mark the prayer that follows:
 
@@ -289,7 +291,8 @@ sackcloth and ashes" (Daniel 9:3, ESV). Three things mark the prayer that follow
   your people are called by your name" (Daniel 9:18-19, ESV).
 
 Gabriel came "at the time of the evening sacrifice" (Daniel 9:21, ESV). There had been no evening
-sacrifice since the temple burned in 586 BC (2 Kings 25:9), and Daniel's day still kept its hours. The answer had been sent "at the
+sacrifice since the temple burned in 586 BC (some reckon 587; 2 Kings 25:8-9), and Daniel still
+marked the hour by it. The answer had been sent "at the
 beginning of your pleas for mercy" (Daniel 9:23, ESV); [How God Answers Prayer](how-god-answers-prayer.md)
 follows that thread into Daniel 10.
 
@@ -324,8 +327,8 @@ Bible*, note on 3:14-15). He has just told them "not to lose heart over what I a
 **How he prayed it.** "I bow my knees", κάμπτω τὰ γόνατά μου (*kamptō*, G2578). Most people in
 Paul's day stood to pray (Mark 11:25; Luke 18:11, 13), so kneeling expressed deep reverence (*NIV
 Biblical Theology Study Bible*, note on 3:14-15). Paul uses the same verb of the day when "at the name
-of Jesus every knee should bow" (Philippians 2:10, ESV). In prayer he bends now the knee every
-creature will bend then.
+of Jesus every knee should bow" (Philippians 2:10, ESV). Paul does not join the two passages, but
+read side by side, in prayer he bends now the knee every creature will bend then.
 
 **To whom.** "The Father, from whom every family in heaven and on earth is named." *Family* is
 πατριά (*patria*, G3965), built on πατήρ (*patēr*, G3962, "father"), and the wordplay is Paul's own:
@@ -338,8 +341,8 @@ named from, and you are His.
 Each request opens into the next, and each Person of the Trinity is in it:
 
 1. **Strength by the Spirit, inside.** "Strengthened with power through his Spirit in your inner
-   being" (3:16). The inner being is the seat of the mind and will (*NIV Biblical Theology Study
-   Bible*, note on 3:16). Paul prays for what no change of circumstance can give.
+   being" (3:16). The inner being is the seat of consciousness and moral being, the heart (*NIV
+   Biblical Theology Study Bible*, note on 3:16). Paul prays for what no change of circumstance can give.
 2. **Christ settling in.** "So that Christ may dwell in your hearts through faith" (3:17). The verb
    is κατοικέω (*katoikeō*, G2730), to dwell or take up residence. They already belong to Christ;
    Paul prays for His indwelling "with power" (*ESV Study Bible*, note on 3:17-18), His
@@ -371,9 +374,9 @@ is **union with Christ**.
 
 #### More than we ask
 
-Paul cannot stop at asking. "Now to him who is able to do far more abundantly than
-all that we ask or think" (3:20): Paul has just asked for the fullness of God, and he says God can
-exceed it. The power is already "at work within us." The glory goes to God "in the church and in
+Paul ends in praise. "Now to him who is able to do far more abundantly than
+all that we ask or think" (3:20): Paul has just asked for the fullness of God, and he closes by
+praising a God whose ability runs beyond all that anyone asks. The power is already "at work within us." The glory goes to God "in the church and in
 Christ Jesus" (3:21). The *NIV Biblical Theology Study Bible* sees the shape: address, appeals,
 adoration (note on 3:14-21).
 
@@ -485,7 +488,8 @@ at Home](teaching-the-lords-prayer-at-home.md) is a guide for families, a line a
 1. **The language.** Daniel 6:10 describes Daniel *kneeling, praying, giving thanks* with participles
    for ongoing action, "as he had done previously". What would have to be true of your prayer life
    for "as he had done previously" to describe it?
-2. **The text in its context.** Daniel read Jeremiah 29:10-12 and then prayed what it promised.
+2. **The text in its context.** Daniel read Jeremiah's seventy years (Daniel 9:2) and then did
+   what Jeremiah 29:12 describes: he called on God and prayed.
    What promise of God have you read recently, and how would you pray it back to Him?
 3. **Christ.** Paul prays that "Christ may dwell in your hearts through faith" (Ephesians 3:17) for
    people who already belonged to Christ. What is he asking for that they did not yet have?
@@ -509,11 +513,11 @@ at Home](teaching-the-lords-prayer-at-home.md) is a guide for families, a line a
 - **unfoldingWord Hebrew Bible** and **Unlocked Greek New Testament**, via the interlinear
   alignment.
 
-**Study Bibles consulted** (notes cited in the text):
+**Study Bibles consulted:**
 
 - *ESV Study Bible* (Crossway, 2008): Exodus 16:4; Daniel 2:14-24, 6:10, 9:1-27; Ephesians
   3:14-15, 3:17-18; 1 Timothy 2:1; Hebrews 5:7.
-- *NIV Biblical Theology Study Bible* (Zondervan, 2018): Ephesians 3:14-21, 3:16, 3:17, 3:19.
+- *NIV Biblical Theology Study Bible* (Zondervan, 2018): Ephesians 3:14-21, 3:14-15, 3:16, 3:17, 3:19.
 - *NIV Cultural Backgrounds Study Bible* (Zondervan, 2016): Daniel 6:10; Ephesians 3:14.
 
 **Translations quoted.** ESV throughout. See
