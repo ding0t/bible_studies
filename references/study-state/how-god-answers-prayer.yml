@@ -1,6 +1,6 @@
 slug: how-god-answers-prayer
 title: "How God Answers Prayer"
-status: draft
+status: published
 target_path: docs/content/christian-life/how-god-answers-prayer.md
 primary_passage: "Daniel 10:12-13"
 point: >
@@ -17,7 +17,7 @@ stages:
       prayer.yml's review passes; don't redraft them. Needs develop-bible-study for an opening,
       "In one sentence:" thesis, Key Takeaways and more discussion questions before publishing.
       Frontmatter provenance fields not written -- run refresh_frontmatter_provenance.py at commit.
-  published: {done: false}
+  published: {done: true, date: "2026-10-11"}
 review_2026-10-11:
   scope: >
     Full review-bible-study pass for publication (draft stays true). Every ESV quotation re-queried
@@ -46,3 +46,24 @@ review_2026-10-11:
     - "Whether to keep the dispensational/millennial note on Isaiah 65:17-25 in this study or trim it."
     - "The John 12:29 thunder question (discussion Q1) leans on the theophany reading the ESVSB contests."
     - "Run utils/refresh_frontmatter_provenance.py before committing; flip draft in the same commit as prayer-as-communion's link to this page."
+read_2026-10-11:
+  scope: >
+    read-bible-study pass on the newly published file, in a session that neither drafted nor
+    reviewed it. Structure only; no sentence changed. No inbound anchor links to this page exist
+    (grep "how-god-answers-prayer.md#" in docs/content), so no anchor needed preserving.
+  measurements:
+    before: "13 sections, median 168 words, longest 307, 0 over 400, 0 walls"
+    after: "17 sections, median 93 words, longest 240, 0 over 400, 0 walls"
+  changes:
+    - "Added '#### Who the prince of Persia is' over the contested-reading paragraph in Daniel 10 (rule 5: a contested reading gets its own heading)."
+    - "Added '#### Gethsemane: heard, and saved out of death' under the mode section, so the Key Takeaways' 'hardest prayer' and discussion Q4 point to a findable section."
+    - "Split 'The answer can be missed' into its two cases: '#### The voice from heaven, heard as thunder' and '#### Peter at the gate' (rule 4: structure mirrors the 'Twice' the section announces)."
+  verify: "study_structure.py --verify-against HEAD: clean, no sentence changed (removed/added empty)."
+  validator: "npm run validate: no warnings or errors for this file."
+  no_study_outline: "About 2,500 words but 4 top-level sections; Check 22 needs 6+, so none added."
+  findings_for_author:
+    - "The Gethsemane paragraph has no topic sentence tying it to the 'mode' section it sits in; it opens on the narrative. The new heading carries the link; a framing sentence is the author's to write."
+    - "Fragments: 'Twice, memorably.' and 'Which bears on the ordinary experience of praying and seeing nothing.' read as notes."
+    - "Discussion Q5's facet label '**Kept.**' is not one of the five standard facets in discussion-questions.md (validator does not flag it)."
+    - "Revelation 8 paragraph: the ESVSB title is quoted in part (full title per review: 'Heaven's Incense Altar: ...'), and the 'fiery devastation' sentence comes from the 8:2-11:18 note while the paragraph closes on '(note on Revelation 8:3-5)'; which note says what is ambiguous to a reader."
+    - "This state file's top-level 'status: draft' and 'stages.published.done: false' are stale; the page is draft: false."

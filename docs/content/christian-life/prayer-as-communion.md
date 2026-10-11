@@ -79,12 +79,9 @@ You want. In Jesus' name. Amen.
 
 ## Study outline
 
-1. **[What prayer is](#what-prayer-is)** — a child with the Father, the Spirit's own cry, and the
-   attitude prayer sets.
-2. **[Why prayer matters](#why-prayer-matters)** — daily bread, the will handed over, and a way
-   opened at great cost.
-3. **[Prayer through Scripture](#prayer-through-scripture)** — Jesus; Daniel at the window, at the
-   books and with his friends; Paul on his knees in Ephesians 3:14-21; and a short gallery.
+1. **[What prayer is](#what-prayer-is)** — a child with the Father by the Spirit's own cry, communion, the will handed over, and the attitude prayer sets.
+2. **[Why prayer matters](#why-prayer-matters)** — daily bread, and a way opened at great cost.
+3. **[Prayer through Scripture](#prayer-through-scripture)** — Jesus; Daniel with his friends, at the window and from the books; Paul on his knees in Ephesians 3:14-21; and a short gallery.
 4. **[The mechanics](#the-mechanics)** — whom to pray to, alone and together, what to pray about,
    keep asking, a pattern to pray by, and households.
 
@@ -121,48 +118,6 @@ asking, and Jesus says "your Father knows what you need before you ask him" (Mat
 reason to ask. Underneath the asking is a relationship: the Father wants your company, and prayer
 is where you give it.
 
-### Prayer sets your attitude
-
-This site's first notes on prayer opened with one line: *the attitude of prayer is that we are
-God's.* The prayer Jesus taught is built that way.
-
-```mermaid
-flowchart TD
-    A["<b>Our Father in heaven</b><br/>a child, and a creature"] --> B["<b>Hallowed be your name</b><br/>His honour first"]
-    B --> C["<b>Your kingdom come, your will be done</b><br/>the hinge: His will before my list"]
-    C --> D["<b>Give us this day our daily bread</b><br/>dependence, one day at a time"]
-    D --> E["<b>Forgive us… as we forgive</b><br/>accounts cleared both ways"]
-    E --> F["<b>Lead us… deliver us</b><br/>kept, because I cannot keep myself"]
-```
-
-Three lines about God and His purposes come before any request for yourself (Matthew 6:9-10). By the time you ask for bread you
-have already called Him Father, honoured His name and handed over your will. Prayer prayed this way
-re-orders the one praying before it brings a single need. [The Lord's
-Prayer](lords-prayer.md) works through every line.
-
-## Why prayer matters
-
-### Daily bread
-
-God fed Israel in the wilderness with bread that came "a day's portion every day" (Exodus 16:4,
-ESV). It could not be stored: kept overnight "it bred worms and stank" (Exodus 16:20, ESV). "Morning
-by morning they gathered it" (Exodus 16:21, ESV). Moses told the next generation what it had been
-for: "that he might make you know that man does not live by bread alone, but man lives by every word
-that comes from the mouth of the LORD" (Deuteronomy 8:3, ESV). The *ESV Study Bible* reads the manna
-as a sign that Israel's "whole lives were to be sustained by the Lord and governed by his word"
-(note on Exodus 16:4).
-
-Prayer is how that dependence is lived. Yesterday's prayer does not carry today, any more than
-yesterday's manna did, and Jesus taught His disciples to ask for bread "this day" (Matthew 6:11).
-He quoted Deuteronomy 8:3 when He was starving (Matthew 4:4), and He named His own food: "My food is
-to do the will of him who sent me and to accomplish his work" (John 4:34, ESV). What fed Jesus was
-the Father's will. **This shows that God means to be depended on daily, and that He feeds His
-children with Himself and His will as surely as with bread.** So come to Him each morning as one
-who has nothing stored.
-
-[Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md#daily-bread) traces the manna to
-Jesus, and [In Humility](humility.md#daily-bread) shows why one day at a time is humbling.
-
 ### Your will handed over
 
 Scripture repeats one structure about answered prayer: a will brought into line with God's, and
@@ -186,6 +141,51 @@ to His and acts through the surrendered will.** Gethsemane was prayed perfectly 
 Hebrews says Jesus "was heard because of his reverence" (Hebrews 5:7, ESV), and the *ESV Study
 Bible* reads the answer as the resurrection (note on Hebrews 5:7). So you can bring every request
 and leave the outcome with a Father whose will is wiser than yours.
+
+### Prayer sets your attitude
+
+This site's first notes on prayer opened with one line: *the attitude of prayer is that we are
+God's.* The prayer Jesus taught is built that way.
+
+```mermaid
+flowchart TD
+    A["<b>Our Father in heaven</b><br/>a child, and a creature"] --> B["<b>Hallowed be your name</b><br/>His honour first"]
+    B --> C["<b>Your kingdom come, your will be done</b><br/>the hinge: His will before my list"]
+    C --> D["<b>Give us this day our daily bread</b><br/>dependence, one day at a time"]
+    D --> E["<b>Forgive us… as we forgive</b><br/>accounts cleared both ways"]
+    E --> F["<b>Lead us… deliver us</b><br/>kept, because I cannot keep myself"]
+```
+
+Three lines about God and His purposes come before any request for yourself (Matthew 6:9-10). By the time you ask for bread you
+have already called Him Father, honoured His name and handed over your will. Prayer prayed this way
+re-orders the one praying before it brings a single need. [The Lord's
+Prayer](lords-prayer.md) works through every line.
+
+## Why prayer matters
+
+You need prayer every day, the way Israel needed manna every morning, and God paid the highest price
+to make it possible.
+
+### Daily bread
+
+God fed Israel in the wilderness with bread that came "a day's portion every day" (Exodus 16:4,
+ESV). It could not be stored: kept overnight "it bred worms and stank" (Exodus 16:20, ESV). "Morning
+by morning they gathered it" (Exodus 16:21, ESV). Moses told the next generation what it had been
+for: "that he might make you know that man does not live by bread alone, but man lives by every word
+that comes from the mouth of the LORD" (Deuteronomy 8:3, ESV). The *ESV Study Bible* reads the manna
+as a sign that Israel's "whole lives were to be sustained by the Lord and governed by his word"
+(note on Exodus 16:4).
+
+Prayer is how that dependence is lived. Yesterday's prayer does not carry today, any more than
+yesterday's manna did, and Jesus taught His disciples to ask for bread "this day" (Matthew 6:11).
+He quoted Deuteronomy 8:3 when He was starving (Matthew 4:4), and He named His own food: "My food is
+to do the will of him who sent me and to accomplish his work" (John 4:34, ESV). What fed Jesus was
+the Father's will. **This shows that God means to be depended on daily, and that He feeds His
+children with Himself and His will as surely as with bread.** So come to Him each morning as one
+who has nothing stored.
+
+[Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md#daily-bread) traces the manna to
+Jesus, and [In Humility](humility.md#daily-bread) shows why one day at a time is humbling.
 
 ### A way opened at great cost
 

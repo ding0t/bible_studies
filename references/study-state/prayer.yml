@@ -1108,3 +1108,30 @@ rewrite_2026-10-11:
     - {tool: bible_concordance, args: {strongs: G4492, work_id: macula-greek-sblgnt}, expect_count: 2}
     - {tool: bible_concordance, args: {strongs: G3965, work_id: macula-greek-sblgnt}, expect_count: 3}
     - {tool: bible_concordance, args: {strongs: G2578, work_id: macula-greek-sblgnt}, expect_count: 4}
+
+read_2026-10-11:
+  file: docs/content/christian-life/prayer-as-communion.md
+  reader: stranger pass (read-bible-study), fresh session after rewrite_2026-10-11; did not draft it
+  sections: "35 -> 35"
+  median_section_words: "107 -> 107"
+  sections_over_400: "0 -> 0 (longest 266)"
+  arc_judgement: >
+    The four-part arc (what prayer is -> why it matters -> Scripture -> mechanics) reads cleanly.
+    One misplacement: '### Your will handed over' sat under Why prayer matters, though the author's
+    brief and the In-one-sentence thesis both name the will brought into line with God's as part of
+    what prayer is, and the attitude section's Lord's Prayer flowchart calls it 'the hinge'.
+  changes:
+    - "Moved '### Your will handed over' from Why prayer matters into What prayer is, after Communion and before Prayer sets your attitude. Attitude now closes Part 1 by summing up ('By the time you ask for bread you have already ... handed over your will') and its last petition leads into Daily bread, which opens Part 2. Daily bread stays under Why, per the approved rewrite_plan outline."
+    - "Study outline annotations: bullet 1 adds 'communion, the will handed over'; bullet 2 drops it; bullet 3 reorders Daniel to match the sub-headings (with his friends, at the window, from the books). Bullets 1-3 put on one line each."
+  verify: >
+    study_structure --verify-against HEAD: removed lists three lines, added_unexpected []. All three
+    are continuation lines of the OLD Study outline bullets: _LIST_ITEM matches only a list item's
+    first line, so a wrapped bullet's second line is counted as prose. A sorted-line diff of HEAD vs
+    the working file with the Study outline section excluded is identical, so no sentence changed.
+    validate: passes, no warnings on this file. All inbound anchors kept; no heading renamed.
+  not_fixed_needs_prose:
+    - "Why prayer matters is now two sub-sections; neither opens with a line saying why prayer matters, so the H2 has no topic sentence."
+    - "Discussion question 5's label '**Daily bread.**' is not one of the five facet labels (discussion-questions.md); Check 25 does not catch it."
+    - "Communion, paragraph 2: 'Jesus says \"your Father knows what you need before you ask him\" ... as a reason to ask' states a conclusion the verse does not obviously carry; the reasoning is compressed."
+    - "The Lord's Prayer is walked twice: the attitude flowchart and the six-step pattern. Callback by design, but a reader meets the same petitions again."
+  not_verified: "Structure pass only. Says nothing about quotations, counts or word studies."

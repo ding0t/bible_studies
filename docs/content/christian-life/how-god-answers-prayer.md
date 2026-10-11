@@ -123,6 +123,8 @@ mourning (Daniel 10:2-3) with no evidence that anything had happened, and his wo
 from the start. God heard Daniel at once and sent His answer at once; the opposition could slow the
 messenger and could not stop him. In Daniel's case, at least, the delay was no refusal.
 
+#### Who the prince of Persia is
+
 **Who held the messenger back is contested.** The word is <span dir="rtl">שַׂר</span> (*sar*, SAR,
 H8269), "prince" or "chief". The majority reading takes the prince of Persia as a hostile spiritual
 power over the Persian Empire. The *ESV Study Bible* calls him "an evil angel associated with the
@@ -146,6 +148,8 @@ angel dispatched (Daniel 9:21); a person walking round the corner at the right m
 is sufficient for you", 2 Corinthians 12:9, after Paul "pleaded with the Lord" three times,
 2 Corinthians 12:8); a door closed in one direction and opened in another (Acts 16:6-10).
 
+#### Gethsemane: heard, and saved out of death
+
 Jesus Himself prayed in Gethsemane, "My Father, if it be possible, let this cup pass from me;
 nevertheless, not as I will, but as you will" (Matthew 26:39, ESV). The cup did not pass, and
 Hebrews still says He "was heard because of his reverence" (Hebrews 5:7, ESV). Hebrews names the
@@ -156,7 +160,9 @@ prayer in view without being the only one.
 
 ### The answer can be missed while it is happening
 
-**And the answer can be missed while it is happening.** Twice, memorably.
+**And the answer can be missed while it is happening.** Scripture records two memorable cases.
+
+#### The voice from heaven, heard as thunder
 
 When Jesus prays "Father, glorify your name," God answers **audibly** — "Then a voice came from
 heaven" — and the bystanders cannot agree on what they just heard. The crowd "said that it had
@@ -176,6 +182,8 @@ something they can only call thunder, and a third recognises speech but guesses 
 Jesus said the voice came "for your sake, not mine" (John 12:30, ESV). God answered out loud for the
 crowd's benefit, and the answer landed at three different depths in one crowd.
 
+#### Peter at the gate
+
 And the church, praying through the night for Peter in prison, does not believe the answer when it
 knocks on the door:
 
@@ -194,7 +202,7 @@ sometimes a locked door and a conversation.
 
 The last thing Scripture shows about prayer's fate is the least expected. David asks that his prayer
 be "counted as incense before you" (Psalm 141:2, ESV), and Revelation pictures prayer that way in
-heaven: the elders hold "golden bowls full of incense, **which are the prayers of the saints**"
+heaven: the elders hold "golden bowls full of incense, which are the prayers of the saints"
 (Revelation 5:8, ESV). Prayers are gathered and kept before the throne.
 
 Then they are answered, and the image is startling:
@@ -209,13 +217,13 @@ Then they are answered, and the image is startling:
 
 The same censer that carried the prayers up is filled with fire and thrown down, and the trumpets
 follow (Revelation 8:6). The *ESV Study Bible* titles the passage "The Saints' Prayers, and Fire Flung
-to Earth" and reads it the same way: "fiery devastation descends from God's altar **in response to
-his people's pleas**." It counts the martyrs' cry under the altar, "how long before you will judge
-and avenge our blood" (Revelation 6:10, ESV), among the prayers this answers (note on Revelation
-8:3-5). The martyrs had been told to "rest a little longer" (Revelation 6:11, ESV); their answer was
+to Earth" (note on Revelation 8:2-5) and reads it the same way: "fiery devastation descends from
+God's altar in response to his people's pleas" (note on Revelation 8:2-11:18). It counts the martyrs'
+cry under the altar, "how long before you will judge and avenge our blood" (Revelation 6:10, ESV),
+among the prayers this answers (note on Revelation 8:3-5). The martyrs had been told to "rest a little longer" (Revelation 6:11, ESV); their answer was
 kept, and it comes from the same altar.
 
-Which bears on the ordinary experience of praying and seeing nothing. On this picture no prayer is
+This bears on the ordinary experience of praying and seeing nothing. On this picture no prayer is
 lost. Some are kept: held, accumulated, and answered on a timetable that runs past the end of the
 life that prayed them. So when you pray and see nothing, you may know that your prayer reached God
 and is kept before Him until He answers it.
