@@ -178,3 +178,24 @@ resources_consulted:
   - {type: other, title: "Brenton Septuagint (ebible-grcbrent)", note: "Psalm 81:1, 6; 2 Maccabees 9:12"}
   - {type: lexicon, title: "MACULA Hebrew / unfoldingWord interlinear", note: "morphology of Psalm 82; Exodus 22:9; Genesis 1:1; 20:13; 35:7"}
 last_updated: "2026-10-11"
+review_2026-10-11:
+  by: review-bible-study (independent session)
+  checked: "All ESV quotations against study-notes.db; LXX Ps 81:1, 81:6, Deut 32:8, 2 Macc 9:12 (ebible-grcbrent); NA28/SBLGNT John 10:34-36; footnotes (LSB, CSB, NLT) on Exod 21:6, 22:8-9, Ps 8:5, Ps 82, Deut 32:8; ESV/NIVBT/NIVCB notes cited; MACULA morphology for Gen 1:1, 20:13, 31:53, 35:7, Exod 22:7-8 (Heb), Ps 82:1, 6, 7, Ps 89:7 (Heb), Ps 96:5, Dan 1:7, 10:13; H430 count 2,601; 4Q37 extant_words 2; review_gaps; validator."
+  fixed:
+    - "Ps 82:1 nitsav is a Niphal participle, not a finite verb; text now says participle + verb."
+    - "'Twice in Genesis' plural-verb claim dropped (Gen 31:53 yishpetu is a third, arguable case)."
+    - "'Two names are never lent' qualified: adjective elyon is used of David's heir (Ps 89:27/Heb 89:28) and Israel (Deut 26:19; 28:1)."
+    - "NIVBT 82:1 note does not list 1 Sam 28:13 (and does list Ps 45:6); intro sentence corrected."
+    - "John 10:25 block quote ended with a closing quote the ESV lacks."
+    - "Jesus's -> Jesus' (file was mixed); NLT added to References; bible_references gained Ps 89:27, 1 Sam 28:13, Exod 3:15, John 2:21."
+  open:
+    - "Rebuke reading presented as 'the case that He did is strong' with no counter-case; ESV/NIVBT read John 10:34-36 as a lesser-to-greater argument only."
+    - "Third reading of Ps 82 (Israel at Sinai, NIVCB note on John 10:34) absent from the contested section, though open_questions says it is mentioned."
+    - "Key Takeaway heading 'He is the Judge the psalm prayed for' states flat what the body marks as an unjoined pairing."
+    - "Exodus 22:28 in bible_references is never cited in the prose."
+    - "Heb 2:6-7 quotes Ps 8:5 with the LXX 'angels' (review_gaps), unmentioned in the Ps 8:5 table row."
+  resolved_2026-10-11:
+    - "Rebuke reading now marked contested: the ESV/NIVBT title-only argument stated, Matthew 23 and Ezekiel 34 flagged as from elsewhere, the NLT LASB 'rebuking' note cited; closes on the title argument holding either way."
+    - "Sinai reading added as a third view (NIVCB note on John 10:34), with the note's own preference (mocking rulers who claimed divinity); CSB/LSB footnotes on Ps 82:1 cited."
+    - "Takeaway heading softened to 'He holds the judging the psalm prayed for', pairing marked as the study's suggestion."
+    - "Exodus 22:28 cited in the judges table with the CSB footnote 'Or judges'; Heb 2:7 added to the Ps 8:5 row; sarim tagged H8269."

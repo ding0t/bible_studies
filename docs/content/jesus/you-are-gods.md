@@ -5,7 +5,7 @@ description: "Psalm 82 calls those God set in authority אֱלֹהִים, \"gods
 tags: ["john", "psalms", "pharisees", "authority", "deity-of-christ", "divine-council", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: true
 primary_passage: "John 10:22-39; Psalm 82:1-8"
-bible_references: ["Psalm 82:1-8", "John 10:22-39", "John 9:22", "John 9:34-41", "John 10:1", "John 8:39-41", "John 7:24", "John 5:22-23", "John 5:36", "Matthew 23:2-3", "Ezekiel 34:2-4", "Exodus 21:6", "Exodus 22:8-9", "Exodus 22:28", "Exodus 4:16", "Exodus 7:1", "Exodus 12:12", "Genesis 1:1", "Genesis 20:13", "Genesis 35:7", "Deuteronomy 10:17", "Deuteronomy 4:19-20", "Deuteronomy 32:8-9", "Deuteronomy 32:17", "Psalm 8:5", "Psalm 89:5-8", "Psalm 96:4-5", "1 Kings 22:19", "Job 1:6", "Daniel 10:13", "Daniel 10:20-21", "Isaiah 24:21-22", "Isaiah 42:8", "1 Corinthians 8:5-6", "1 Corinthians 10:20", "Ephesians 1:20-21", "Ephesians 6:12", "Colossians 2:15"]
+bible_references: ["Psalm 82:1-8", "John 10:22-39", "John 9:22", "John 9:34-41", "John 10:1", "John 8:39-41", "John 7:24", "John 5:22-23", "John 5:36", "Matthew 23:2-3", "Ezekiel 34:2-4", "Exodus 21:6", "Exodus 22:8-9", "Exodus 22:28", "Exodus 4:16", "Exodus 7:1", "Exodus 12:12", "Genesis 1:1", "Genesis 20:13", "Genesis 35:7", "Deuteronomy 10:17", "Deuteronomy 4:19-20", "Deuteronomy 32:8-9", "Deuteronomy 32:17", "Psalm 8:5", "Hebrews 2:6-7", "Psalm 89:5-8", "Psalm 89:27", "1 Samuel 28:13", "Exodus 3:15", "John 2:21", "Psalm 96:4-5", "1 Kings 22:19", "Job 1:6", "Daniel 10:13", "Daniel 10:20-21", "Isaiah 24:21-22", "Isaiah 42:8", "1 Corinthians 8:5-6", "1 Corinthians 10:20", "Ephesians 1:20-21", "Ephesians 6:12", "Colossians 2:15"]
 date_created: 2026-10-11
 date_modified: 2026-10-11
 ai_provider_models:
@@ -33,9 +33,10 @@ Him, and showed by the Father's own works that the authority they borrowed is Hi
   heard a claim to be God, and they were right.
 - **He pointed to His works as the proof.** "The works that I do in my Father's name bear witness
   about me" (John 10:25, ESV). The judges' works condemned them; His works testified for Him.
-- **He is the Judge the psalm prayed for.** Psalm 82 ends, "Arise, O God, judge the earth" (Psalm
-  82:8, ESV), and Jesus said "the Father judges no one, but has given all judgment to the Son" (John
-  5:22, ESV). John does not join the two verses; the fit is close enough to notice.
+- **He holds the judging the psalm prayed for.** Psalm 82 ends, "Arise, O God, judge the earth"
+  (Psalm 82:8, ESV), and Jesus said "the Father judges no one, but has given all judgment to the Son"
+  (John 5:22, ESV). John does not join the two verses; reading them together is this study's
+  suggestion.
 
 ### Memory verses
 
@@ -75,7 +76,7 @@ the Judge who will put the world right. In Jesus' name. Amen.
   peoples, from Deuteronomy 32 to Daniel 10 and Ephesians 6.
 - [Psalm 82: authority given, abused and judged](#psalm-82-authority-given-abused-and-judged). The
   psalm verse by verse, and the contested question of who the gods are.
-- [The rebuke in the quotation](#the-rebuke-in-the-quotation). Jesus's argument in John 10:34-36, and
+- [The rebuke in the quotation](#the-rebuke-in-the-quotation). Jesus' argument in John 10:34-36, and
   the men He said it to: teachers who sat on Moses' seat.
 - [The works of the Father](#the-works-of-the-father). Why Jesus rested His claim on His works.
 - [A title lent for an office](#a-title-lent-for-an-office). What the psalm does to the teaching that
@@ -127,14 +128,15 @@ substance: men with authority over God's people, using it against Him.
 ### What אֱלֹהִים covers
 
 <span dir="rtl">אֱלֹהִים</span> (*ʾĕlōhîm*, el-oh-HEEM, H430) occurs 2,601 times in the Hebrew Bible.
-Most of the time it means God. The *NIV Biblical Theology Study Bible* lists the other holders of the
-word (note on Psalm 82:1), and each is in the text:
+Most of the time it means God. The *NIV Biblical Theology Study Bible* names judges, Moses, angels
+and the gods of the nations among its other holders (note on Psalm 82:1), and 1 Samuel 28:13 adds a
+spirit from the dead:
 
 | Who | Text | What the word does there |
 |---|---|---|
-| The judges of Israel | Exodus 22:8-9 | Cases "shall come before God" and "the one whom God condemns" pays double (ESV). The LSB footnotes Exodus 21:6, "Or the judges who acted in God's name." |
+| The judges of Israel | Exodus 22:8-9, 28 | Cases "shall come before God" and "the one whom God condemns" pays double (ESV). The LSB footnotes Exodus 21:6, "Or the judges who acted in God's name." "You shall not revile God, nor curse a ruler of your people" (Exodus 22:28, ESV) pairs *ʾĕlōhîm* with a ruler, and the CSB footnotes it, "Or judges." |
 | Moses | Exodus 4:16; 7:1 | "You shall be as God to him"; "I have made you like God to Pharaoh" (ESV). |
-| Heavenly beings | Psalm 8:5 | "A little lower than the heavenly beings" (ESV), where the Hebrew has *ʾĕlōhîm* and the Septuagint "angels" (CSB footnote). |
+| Heavenly beings | Psalm 8:5 | "A little lower than the heavenly beings" (ESV), where the Hebrew has *ʾĕlōhîm* and the Septuagint "angels" (CSB footnote). Hebrews 2:7 quotes the Septuagint: "lower than the angels" (ESV). |
 | A spirit from the dead | 1 Samuel 28:13 | "I see a god coming up out of the earth" (ESV). |
 | The gods of the nations | Exodus 12:12; Psalm 96:5 | "On all the gods of Egypt I will execute judgments" (ESV). |
 
@@ -158,23 +160,24 @@ Psalm 82:1 puts both uses in one line:
 > 1 A Psalm of Asaph. God has taken his place in the divine council; in the midst of the gods he
 > holds judgment:
 
-The first *ʾĕlōhîm* takes two singular verbs, <span dir="rtl">נִצָּב</span> (*nitsav*, H5324, "has taken
-his place") and <span dir="rtl">יִשְׁפֹּט</span> (*yishpot*, H8199, "he judges"). The second is the crowd
+The first *ʾĕlōhîm* takes a singular participle, <span dir="rtl">נִצָּב</span> (*nitsav*, H5324, "has
+taken his place"), and a singular verb, <span dir="rtl">יִשְׁפֹּט</span> (*yishpot*, H8199, "he judges"). The second is the crowd
 He stands among. The assembly itself is <span dir="rtl">עֲדַת אֵל</span> (*ʿadat ʾEl*, "the
 assembly of God"), with the singular <span dir="rtl">אֵל</span> (*ʾEl*, H410). The LSB footnotes
 it, "Heb El; the one true God."
 
-**The rule is general, and it has exceptions.** Twice in Genesis a plural verb goes with *ʾĕlōhîm*
-where the subject is God: "when God caused me to wander" (Genesis 20:13, ESV) and "there God had
+**The rule is general, and it has exceptions.** In Genesis a plural verb sometimes goes with
+*ʾĕlōhîm* where the subject is God: "when God caused me to wander" (Genesis 20:13, ESV) and "there God had
 revealed himself to him" (Genesis 35:7, ESV), with <span dir="rtl">הִתְעוּ</span> (*hitʿu*, H8582) and
 <span dir="rtl">נִגְלוּ</span> (*niglu*, H1540), both plural. The context decides; the grammar usually
 agrees with it.
 
 ### The names never given away
 
-Two names are never lent. The judges are called "gods" and "sons of the Most High" (Psalm 82:6), and
-the Most High, <span dir="rtl">עֶלְיוֹן</span> (*ʿElyon*, el-YOHN, H5945), is the one who calls them
-that. The covenant name, <span dir="rtl">יְהוָה</span> (YHWH, H3068), rendered "the LORD", is
+Two names are never lent as titles. The judges are called "gods" and "sons of the Most High" (Psalm
+82:6), and the Most High, <span dir="rtl">עֶלְיוֹן</span> (*ʿElyon*, el-YOHN, H5945), is the one who
+calls them that. The adjective *ʿelyon* can describe people, as when David's heir is made "the highest
+of the kings of the earth" (Psalm 89:27, ESV), but as a name it belongs to God alone. The covenant name, <span dir="rtl">יְהוָה</span> (YHWH, H3068), rendered "the LORD", is
 God's own: "This is my name forever" (Exodus 3:15, ESV). "I am the LORD; that is my name; my glory I
 give to no other" (Isaiah 42:8, ESV). Deuteronomy 10:17 says it in one phrase: "the LORD your God is
 God of gods and Lord of lords" (ESV). **So God lends the title for the work, and keeps His name and
@@ -209,7 +212,7 @@ Persia withstood me twenty-one days, but Michael, one of the chief princes, came
 10:21), Israel's. The *ESV Study Bible* calls the prince of Persia "an evil angel associated with
 the Persian Empire" (note on Daniel 10:13). The word is <span dir="rtl">שַׂר</span> (*sar*, SAR,
 H8269), the same word Psalm 82:7 uses: "fall like any prince," literally "like one of the
-<span dir="rtl">שָׂרִים</span>." Daniel also uses *sar* for human officials (Daniel 1:7), so the
+<span dir="rtl">שָׂרִים</span> (*sarim*, H8269)." Daniel also uses *sar* for human officials (Daniel 1:7), so the
 word alone does not decide who is meant.
 
 Other texts show God among a heavenly court: "the host of heaven standing beside him" (1 Kings
@@ -269,11 +272,13 @@ authority to account, and that the weak can appeal past a corrupt court to Him.*
 
 ### Who are the gods? (contested)
 
-**This is contested, and good readers stand on both sides.**
+**This is contested, and good readers hold each of three views.** The translators record the fork
+themselves: the CSB footnotes the gods of 82:1, "Or the heavenly beings, or the earthly rulers," and
+the LSB, "Or rulers."
 
 - **Human judges.** The *ESV Study Bible* argues that because these gods "judge" among men and "die
   like men", they are "human rulers, who hold their authority as representatives of the true God"
-  (note on Psalm 82:1). Exodus 22:8-9 uses *ʾĕlōhîm* of Israel's judges. And Jesus's own gloss points
+  (note on Psalm 82:1). Exodus 22:8-9 uses *ʾĕlōhîm* of Israel's judges. And Jesus' own gloss points
   this way: "he called them gods to whom the word of God came" (John 10:35, ESV), which most naturally
   means people who received God's word.
 - **Heavenly powers.** The ESV renders 82:1 "the divine council," and Psalm 89:5-7, 1 Kings 22:19 and
@@ -283,8 +288,13 @@ authority to account, and that the weak can appeal past a corrupt court to Him.*
   the word "is used both of supernatural beings and of the human rulers who are their agents" (note
   on 82:6). The Septuagint reads 82:1 as "the assembly of gods" (*synagōgē theōn*), plural, where the
   Hebrew has "the assembly of God."
+- **Israel at Sinai.** The *NIV Cultural Backgrounds Study Bible* reports that "some ancient Jewish
+  interpreters" applied the psalm "to Israel receiving the law at Mount Sinai" (note on John 10:34).
+  That reading fits "to whom the word of God came" (John 10:35) closely, and the same note allows
+  that Jesus may be appealing to it. The note's own preference is that the psalm "probably mocks
+  ancient Near Eastern rulers who saw themselves as divine."
 
-The second view does not exclude the first. Isaiah 24:21 has the LORD punishing "the host of heaven,
+The heavenly reading and the human reading can stand together. Isaiah 24:21 has the LORD punishing "the host of heaven,
 in heaven, and the kings of the earth, on the earth" together, and Daniel 10 shows the princes of
 Persia and Greece fighting over what happens at Persia's court. On either reading the point stands:
 the title was lent, the holders abused it, and God revokes it.
@@ -308,9 +318,15 @@ Backgrounds Study Bible* notes that some read this as Jesus presenting Himself a
 
 ### Men who sat on Moses' seat
 
-Jesus's spoken argument is about the title. The psalm He chose also carries a verdict, and the men
-He quoted it to fit that verdict closely. John does not say Jesus meant the rest of the psalm. The
-case that He did is strong:
+Jesus' spoken argument is about the title. The psalm He chose also carries a verdict, and the men
+He quoted it to fit that verdict closely. **Whether Jesus meant the verdict is a reading, and it is
+contested.** The *ESV Study Bible* and the *NIV Biblical Theology Study Bible* read John 10:34-36
+as an argument about the title alone: if human judges can be called gods, the title fits the Son of
+God far better (notes on John 10:34). John does not say Jesus meant the rest of the psalm, and two
+of the texts below come from elsewhere: Matthew 23 is another Gospel and another day, and Ezekiel 34
+shares no wording with Psalm 82. The *NLT Life Application Study Bible* goes further than the
+others and says "Jesus was rebuking the religious leaders" (note on John 10:34-36). The case for
+hearing the verdict too rests on how well the men fit it:
 
 - **They held authority from God to teach.** "The scribes and the Pharisees sit on Moses' seat, so
   do and observe whatever they tell you, but not the works they do. For they preach, but do not
@@ -329,14 +345,15 @@ case that He did is strong:
   but judge with right judgment" (John 7:24, ESV). Now they held stones over a man for His good works
   (John 10:32).
 
-To quote "you are gods" to such men was to stand them in the psalm's dock. The psalm goes on:
-"nevertheless, like men you shall die."
+If the verdict is in view, to quote "you are gods" to such men was to stand them in the psalm's
+dock, because the psalm goes on: "nevertheless, like men you shall die." Either way, the argument
+Jesus spelled out is the one about the title, and it holds on its own.
 
 ### How they took it
 
 They tried again to seize Him. "Again they sought to arrest him, but he escaped from their hands"
 (John 10:39, ESV). The argument from the psalm did not soften them; they still heard a claim to be
-God. John does not say whether the psalm, the rebuke inside it, or Jesus's last sentence, "the Father
+God. John does not say whether the psalm, the rebuke inside it, or Jesus' last sentence, "the Father
 is in me and I am in the Father" (John 10:38), moved them to act. All three were in front of them.
 What the text does show is that they understood Him to be claiming what the judges of Psalm 82 were
 never given.
@@ -349,7 +366,7 @@ put His claim on the same ground and invited them to test it:
 > ✝️ John 10:25 (ESV)
 >
 > 25 Jesus answered them, "I told you, and you do not believe. The works that I do in my Father's
-> name bear witness about me."
+> name bear witness about me,
 
 He said it again in John 5:36: "the works that the Father has given me to accomplish, the very works
 that I am doing, bear witness about me that the Father has sent me" (ESV). In John 9 the work was
@@ -405,11 +422,12 @@ unfoldingWord Hebrew Bible; Greek New Testament from NA28 and SBLGNT; Septuagint
 
 - *ESV Study Bible* (Crossway, 2016): notes on Psalm 82:1, 82:1-4, 82:5-7, 82:6; John 10:22, 10:34,
   10:35, 10:36; Daniel 10:13.
-- *NIV Biblical Theology Study Bible* (Zondervan, 2018): notes on Psalm 82, 82:1, 82:2, 82:6.
+- *NIV Biblical Theology Study Bible* (Zondervan, 2018): notes on Psalm 82, 82:1, 82:2, 82:6; John 10:34-36.
 - *NIV Cultural Backgrounds Study Bible* (Zondervan, 2016): notes on Psalm 82:1, 82:6; John 10:22,
   10:31, 10:34, 10:36.
 - *Legacy Standard Bible* (Lockman Foundation, 2021) and *CSB Ancient Faith Study Bible* (Holman,
-  2019): footnotes on Psalm 82:1, Psalm 8:5, Exodus 21:6, Exodus 22:8, Deuteronomy 32:8.
+  2019): footnotes on Psalm 82:1, Psalm 8:5, Exodus 21:6, Exodus 22:8, Exodus 22:28, Deuteronomy 32:8.
+- *NLT Life Application Study Bible* (Tyndale, 3rd ed.): footnotes on Exodus 22:8 and Deuteronomy 32:8; note on John 10:34-36.
 - Dead Sea Scroll 4Q37 (Deuteronomy 32:8), via this site's Dead Sea Scroll comparison.
 - 2 Maccabees 9:12, Greek text in Brenton's Septuagint.
 
