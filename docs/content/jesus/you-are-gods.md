@@ -79,7 +79,7 @@ the Judge who will put the world right. In Jesus' name. Amen.
 - [The charge at the Feast of Dedication](#the-charge-at-the-feast-of-dedication). Where John 10
   happens, who is accusing Jesus, and why a winter feast about a king who called himself god matters.
 - [Psalm 82: authority given, abused and judged](#psalm-82-authority-given-abused-and-judged). Why
-  God calls judges "gods", the psalm verse by verse, and the contested question of who the gods are.
+  God calls judges "gods", the psalm verse by verse, and who the gods are, in the psalm and in John 10.
 - [The rebuke in the quotation](#the-rebuke-in-the-quotation). Jesus' argument in John 10:34-36, and
   the men He said it to: teachers who sat on Moses' seat.
 - [Their works and His](#their-works-and-his). The heart of the study: Jesus' works verify His
@@ -194,17 +194,25 @@ ones God called gods will die like <span dir="rtl">אָדָם</span> (*ʾadam*, 
 <span dir="rtl">שָׂרִים</span> (*sarim*, H8269, "princes"). Then the psalmist asks God to do the judging Himself. **This shows that God holds every
 authority to account, and that the weak can appeal past a corrupt court to Him.**
 
-### Who are the gods? (contested)
+### Who are the gods?
 
-**This is contested, and good readers hold each of three views.** The translators record the fork
-themselves: the CSB footnotes the gods of 82:1, "Or the heavenly beings, or the earthly rulers," and
+**In John 10 the gods are people who received God's word, and Jesus' accusers stand among them.**
+Jesus defines the psalm's gods Himself: "he called them gods to whom the word of God came" (John
+10:35, ESV). The men in front of Him were such people. They held "your Law" (John 10:34, ESV), and
+as Israel's teachers they sat "on Moses' seat" (Matthew 23:2, ESV). His word for the psalm's gods
+is ἐκείνους (*ekeinous*, G1565, "those"), so He speaks of the psalm's first hearers and leaves His
+accusers to see themselves in them. Both human readings of the psalm lead to the same men: if the
+gods are Israel's judges, these men held that office, and if they are Israel receiving the law at
+Sinai, these men were Israel and the law's appointed teachers.
+
+**What the psalm meant when it was first sung is contested, and good readers hold each of three
+views.** The translators record the fork themselves: the CSB footnotes the gods of 82:1, "Or the heavenly beings, or the earthly rulers," and
 the LSB, "Or rulers."
 
 - **Human judges.** The *ESV Study Bible* argues that because these gods "judge" among men and "die
   like men", they are "human rulers, who hold their authority as representatives of the true God"
-  (note on Psalm 82:1). Exodus 22:8-9 uses *ʾĕlōhîm* of Israel's judges. And Jesus' own gloss points
-  this way: "he called them gods to whom the word of God came" (John 10:35, ESV), which most naturally
-  means people who received God's word.
+  (note on Psalm 82:1). Exodus 22:8-9 uses *ʾĕlōhîm* of Israel's judges. Jesus' own gloss, above, points
+  this way.
 - **Heavenly powers.** The ESV renders 82:1 "the divine council," and Psalm 89:5-7, 1 Kings 22:19 and
   Job 1:6 show God among heavenly beings. "Like men you shall die" can be read as a sentence on beings
   who would otherwise not die. Verse 8's "all the nations" fits Deuteronomy 32:8, where the ESV, following the
@@ -218,7 +226,8 @@ the LSB, "Or rulers."
   that Jesus may be appealing to it. The note's own preference is that the psalm "probably mocks
   ancient Near Eastern rulers who saw themselves as divine."
 
-The heavenly reading and the human reading can stand together. Isaiah 24:21 has the LORD punishing "the host of heaven,
+Only the heavenly reading separates the psalm's gods from Jesus' hearers, and His gloss fits it
+least well. The heavenly reading and the human reading can also stand together. Isaiah 24:21 has the LORD punishing "the host of heaven,
 in heaven, and the kings of the earth, on the earth" together. On either reading the point stands:
 God gave the title, the holders abused it, and God revokes it.
 

@@ -131,7 +131,7 @@ H8582) and <span dir="rtl">נִגְלוּ</span> (*niglu*, H1540), both plural. 
 grammar usually agrees with it.
 
 Who the gods of Psalm 82 are is contested: human judges, heavenly powers, or Israel at Sinai. [Who
-are the gods?](../jesus/you-are-gods.md#who-are-the-gods-contested) gives the case for each.
+are the gods?](../jesus/you-are-gods.md#who-are-the-gods) gives the case for each.
 
 ### The names never given away
 
