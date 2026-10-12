@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 25:31-40"
 bible_references: ["Exodus 25:31-40", "Exodus 26:35", "Exodus 27:20-21", "Exodus 28:4", "Exodus 37:17-24", "Exodus 40:24-25", "Leviticus 24:1-4", "Leviticus 26:12", "Numbers 8:1-4", "Numbers 17:8", "Numbers 17:10", "1 Samuel 3:3", "1 Kings 7:49", "1 Chronicles 28:15", "1 Chronicles 28:19", "2 Chronicles 4:7", "2 Chronicles 13:11", "Jeremiah 1:11-12", "Jeremiah 52:19", "Zechariah 3:4", "Zechariah 4:1-14", "Daniel 10:5", "Matthew 5:14-16", "John 8:12", "2 Corinthians 6:16", "Hebrews 8:5", "Hebrews 9:2", "Revelation 1:4", "Revelation 1:12-20", "Revelation 2:1-7", "Revelation 4:5", "Revelation 5:6", "Revelation 11:3-8", "Revelation 21:22-23", "Revelation 22:5", "Revelation 1:10", "Exodus 30:7", "Ezekiel 1:13", "Isaiah 22:21", "Zechariah 4:9", "Revelation 11:2", "Luke 9:28-33", "Malachi 4:4-5"]
 date_created: 2026-09-28
-date_modified: 2026-10-09
+date_modified: 2026-10-12
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -467,20 +467,21 @@ Lamb is the lamp. Until then He has set your church in the dark to shine.
 
 ## Discussion Questions
 
-1. The cups are *meshuqqadim*, "made like almond blossoms," a word used only of this lampstand, and
-   Jeremiah's almond branch means "I am watching over my word" (Jeremiah 1:12). What does it add to
-   picture the lamp burning through the night in that shape?
-2. The people brought the oil, and Aaron tended the lamps (Exodus 27:20-21). What does that division
-   of labour say about the whole nation's part in God's house?
-3. In Zechariah 4 the oil flows from the olive trees with no priest pouring it. How does "Not by
-   might, nor by power, but by my Spirit" (Zechariah 4:6) change the way you read Exodus 27:20?
-4. Moses and Elijah stood with Jesus and spoke of the departure He would accomplish at Jerusalem (Luke
-   9:30-31). If they are the two witnesses, what does it add that their testimony ends in the city
-   "where their Lord was crucified" (Revelation 11:8)?
-5. Revelation 1:20 calls the churches lampstands, and Revelation 11:4 calls two witnesses lampstands.
-   How do you hold those two identifications together?
-6. Jesus warned Ephesus, "I will come to you and remove your lampstand" (Revelation 2:5). What would
-   "the works you did at first" look like in your church this year?
+1. **The language.** The cups are *meshuqqadim*, "made like almond blossoms," a word used only of
+   this lampstand, and Jeremiah's almond branch means "I am watching over my word" (Jeremiah 1:12).
+   What does it add to picture the lamp burning through the night in that shape?
+2. **The text in its context.** The people brought the oil, and Aaron tended the lamps (Exodus
+   27:20-21). What does that division of labour say about the whole nation's part in God's house?
+3. **The text in its context.** In Zechariah 4 the oil flows from the olive trees with no priest
+   pouring it. How does "Not by might, nor by power, but by my Spirit" (Zechariah 4:6) change the way
+   you read Exodus 27:20?
+4. **Christ.** Aaron tended the lamps "from evening to morning" (Exodus 27:21), and the risen Jesus
+   "walks among the seven golden lampstands" (Revelation 2:1). How does seeing Him do the priest's
+   work at the lamps shape the way you hear His warning to Ephesus in Revelation 2:5?
+5. **The hard part.** Revelation 1:20 calls the churches lampstands, and Revelation 11:4 calls two
+   witnesses lampstands. How do you hold those two identifications together?
+6. **Be transformed.** Jesus warned Ephesus, "I will come to you and remove your lampstand"
+   (Revelation 2:5). What would "the works you did at first" look like in your church this year?
 
 ## References & Recommended Reading
 
