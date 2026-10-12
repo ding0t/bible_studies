@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 82:1-8; Deuteronomy 32:8-9"
 bible_references: ["Psalm 82:1-8", "Deuteronomy 32:8-9", "Deuteronomy 32:17", "Deuteronomy 4:19-20", "Deuteronomy 10:17", "Exodus 4:16", "Exodus 7:1", "Exodus 12:12", "Exodus 21:6", "Exodus 22:8-9", "Exodus 22:28", "Exodus 3:15", "Genesis 1:1", "Genesis 20:13", "Genesis 35:7", "Psalm 8:5", "Hebrews 2:6-7", "Psalm 89:5-8", "Psalm 89:27", "Psalm 96:4-5", "1 Samuel 28:13", "1 Kings 22:19", "Job 1:6", "Daniel 1:7", "Daniel 10:13", "Daniel 10:20-21", "Isaiah 24:21-22", "Isaiah 42:8", "1 Corinthians 8:5-6", "1 Corinthians 10:20", "Galatians 4:8", "1 Corinthians 8:4", "Hebrews 1:4-14", "2 Corinthians 4:4", "John 12:31", "Ephesians 2:2", "Colossians 1:16", "Ephesians 1:20-22", "Ephesians 3:10", "Ephesians 6:10-13", "Colossians 2:15", "1 Peter 3:22", "1 Corinthians 15:24-25", "Romans 8:38-39", "Psalm 45:6-7", "Hebrews 1:8-9", "John 10:34-36"]
 date_created: 2026-10-11
-date_modified: 2026-10-11
+date_modified: 2026-10-12
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -135,7 +135,7 @@ are the gods?](../jesus/you-are-gods.md#who-are-the-gods-contested) gives the ca
 
 ### The names never given away
 
-Two names are never lent as titles. The judges are called "gods" and "sons of the Most High" (Psalm
+Two names are never given as titles. The judges are called "gods" and "sons of the Most High" (Psalm
 82:6), and the Most High, <span dir="rtl">עֶלְיוֹן</span> (*ʿElyon*, el-YOHN, H5945), is the one who
 calls them that. The adjective *ʿelyon* can describe people, as when David's heir is made "the
 highest of the kings of the earth" (Psalm 89:27, ESV), but as a name it belongs to God alone. The
@@ -270,7 +270,7 @@ forever and ever'" (Hebrews 1:8, ESV). The *ESV Study Bible*'s note on Hebrews: 
 rightfully also called God, in this case by God the Father" (note on Hebrews 1:8-9). Hebrews quotes
 it to show the Son above the angels (Hebrews 1:4-14), the beings the Septuagint reads behind the
 *ʾĕlōhîm* of Psalm 8:5.
-**This shows that every other holder of the title was lent it, and the Son holds it by nature.**
+**This shows that every other holder of the title received it from God, and the Son holds it by nature.**
 Judges die like men (Psalm 82:7), the powers are disarmed (Colossians 2:15), and of the Son the
 Father says, "Your throne, O God, is forever and ever." So worship Him alone, and fear none of the
 others.

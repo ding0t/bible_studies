@@ -33,7 +33,7 @@ contested; the contrast of works is in John's text.
 
 ### Lessons about Jesus
 
-- **He claimed what no lent title covers.** The judges of Psalm 82 were called gods for an office.
+- **He claimed more than any title God gives for an office.** The judges of Psalm 82 were called gods for an office.
   Jesus said He was the one "whom the Father consecrated and sent into the world" (John 10:36, ESV),
   and that "the Father is in me and I am in the Father" (John 10:38, ESV). The men holding the stones
   heard a claim to be God, and they were right.
@@ -84,7 +84,7 @@ the Judge who will put the world right. In Jesus' name. Amen.
   the men He said it to: teachers who sat on Moses' seat.
 - [Their works and His](#their-works-and-his). The heart of the study: Jesus' works verify His
   claim, and the authorities' works condemn them.
-- [A title lent for an office](#a-title-lent-for-an-office). What the psalm does to the teaching that
+- [A title given for an office](#a-title-given-for-an-office). What the psalm does to the teaching that
   believers are "little gods".
 - [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
@@ -219,7 +219,7 @@ the LSB, "Or rulers."
 
 The heavenly reading and the human reading can stand together. Isaiah 24:21 has the LORD punishing "the host of heaven,
 in heaven, and the kings of the earth, on the earth" together. On either reading the point stands:
-the title was lent, the holders abused it, and God revokes it.
+God gave the title, the holders abused it, and God revokes it.
 
 ## The rebuke in the quotation
 
@@ -340,7 +340,7 @@ Father" (John 5:22-23, ESV). The New Testament never joins John 5:22 to Psalm 82
 the Son is the one who answers the psalm's last prayer. So you may bring every injustice to Jesus,
 whom the Father has made Judge, and honour Him with the honour you give the Father.
 
-## A title lent for an office
+## A title given for an office
 
 Some teach that believers are "little gods" and cite Psalm 82:6. The psalm gives the title to judges
 for their office and then sentences them to die like men; it is a verse of judgment. And Paul, who knew there are
