@@ -7,17 +7,21 @@ draft: false
 primary_passage: "John 10:22-39; Psalm 82:1-8"
 bible_references: ["Psalm 82:1-8", "John 10:22-39", "John 9:22", "John 9:34-41", "John 10:32", "John 10:1", "John 8:39-41", "John 7:24", "John 5:22-23", "John 5:36", "John 9:4", "John 14:10-11", "John 15:22-24", "John 3:19-21", "Matthew 23:2-3", "Ezekiel 34:2-4", "Exodus 21:6", "Exodus 22:8-9", "Exodus 22:28", "Exodus 4:16", "Exodus 7:1", "Deuteronomy 32:8-9", "Psalm 89:5-8", "John 2:21", "1 Kings 22:19", "Job 1:6", "Isaiah 24:21-22", "Isaiah 42:8", "1 Corinthians 8:5-6"]
 date_created: 2026-10-11
-date_modified: 2026-10-11
+date_modified: 2026-10-12
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
 
 # "You Are Gods": Psalm 82, John 10 and the Authority God Lends
 
-It is winter in Jerusalem, at the Feast of Dedication, and men are lifting stones. They have just
-heard Jesus say, "I and the Father are one" (John 10:30, ESV), and they have understood Him exactly:
-"you, being a man, make yourself God" (John 10:33, ESV). Jesus answers with one line from a psalm in
-which God calls a room full of judges "gods" and then sentences every one of them to die.
+It is winter in Jerusalem, at the Feast of Dedication, and the men around Jesus have picked up stones
+to stone Him (John 10:31). They have just heard Him say, "I and the Father are one" (John 10:30,
+ESV), and they have understood Him exactly: "you, being a man, make yourself God" (John 10:33, ESV).
+Jesus answers from Psalm 82. There God stands among the judges He appointed and calls them "gods"
+for the office He gave them, then charges them with failing at its work: "Give justice to the weak
+and the fatherless" (Psalm 82:3, ESV). They judged unjustly, and for it they "shall die" like any
+man (Psalm 82:7, ESV). Jesus quotes that psalm to men who are now judging Him, and then points them
+to His works, which do the Father's work and so bear out His claim to be God.
 
 **In one sentence:** Jesus answered the authorities judging Him with Psalm 82, where God sentences
 by their works the judges He appointed, and He set two kinds of works side by side: His own, the
